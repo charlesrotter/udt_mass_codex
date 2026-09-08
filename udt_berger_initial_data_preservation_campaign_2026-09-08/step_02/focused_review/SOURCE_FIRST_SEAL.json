@@ -1,0 +1,25 @@
+{
+  "sealed_utc": "2026-09-08T18:53:53.322226+00:00",
+  "payload_sha256": {
+    "SOURCE_FIRST_ARGUMENT.md": "0e2d7e89797eaa23166e684f0da1760a43ff644bd79a765e10dad9ab5a3182f7",
+    "source_first_check.py": "47c43d62e49e0501f870f9ac3a89c1da4f2f76026fe909863965a175162fb2a3",
+    "source_first_check.stdout": "3af1cf4b34a99796f1001473a7058030dce479a86f3486f1d1922ef989b70d91",
+    "source_first_check.stderr": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "source_first_check.receipt.json": "68b00614552c8bf7476d18fe0811ddb5df38450e4eb379c459b67624e7011ffc",
+    "SOURCE_HASHES.json": "212afa4fdcbab1da0fb43addf7dd078030c7cbc9d2b01a2f4fda624487f1afde",
+    "authenticate_sources.py": "e57b12c0913996ac14b1e12d97f1ad792e98a834b1b1ebdb44d8a4acb23d91fc",
+    "authenticate_sources.stdout": "6ac45e8b0a0687e7de9625b17a2e13d675ae04fa2e74ffc0c762c65ea5368d9f",
+    "authenticate_sources.stderr": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "authenticate_sources.receipt.json": "452d0f2070c69746d8c2c65a8d29257b4bf334068d9b09fefa1a2b3ded889d64",
+    "run_check.py": "c37dfff84e1508064954385130c78587c7ce1f22f8676c08c78cfcc21a1e183e"
+  },
+  "strict_isolation_gate_met": true,
+  "exposure": "No BI2 candidate/code/results/original review, campaign log, whiteboard or BI3 content read. Only authorized dispatch/source disclosures and reviewed BI1 exposed.",
+  "independence": "Fresh user-designated context; no agents/forks/resume. Codex based on GPT-6 per instructions; exact backend unknown; different-model axis untested. Shared sources and SymPy; independently written BI2 check; BI1 prior evidence explicitly reused.",
+  "first_check": {
+    "checks": 15,
+    "all_pass": true
+  },
+  "audit": "Direct parent receipt authenticated and reused; no duplicate premise audit.",
+  "diagnostic": "Initial authentication wrapper failed on read-only git status exit128 under cap; preserved with initial_failure suffix. Successful authentication excludes status; actual initial git status is in tool transcript. No scientific repair or change."
+}

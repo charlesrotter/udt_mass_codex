@@ -1,0 +1,233 @@
+{
+  "python": "3.10.12",
+  "sympy": "1.13.1",
+  "method": "fixed-frame 4D Koszul and full Ricci contraction",
+  "exact": true,
+  "spatial_eigenvalues": [
+    "2*(A - B + C3)*(A + B - C3)/(A*B*C3)",
+    "-2*(A - B - C3)*(A + B - C3)/(A*B*C3)",
+    "-2*(A - B - C3)*(A - B + C3)/(A*B*C3)"
+  ],
+  "all_gaps": {
+    "1-2": "4*(A - B)*(A + B - C3)/(A*B*C3)",
+    "3-1": "-4*(A - C3)*(A - B + C3)/(A*B*C3)",
+    "3-2": "4*(B - C3)*(A - B - C3)/(A*B*C3)"
+  },
+  "original_Ricci": "Matrix([[(-2*A**2*B**2*C3*w3 + A**2*B**2*u3**2 - 2*A**2*B*C3**2*w2 + A**2*C3**2*u2**2 - 2*A*B**2*C3**2*w1 + B**2*C3**2*u1**2)/(4*A**2*B**2*C3**2), 0, 0, 0], [0, -(-8*A**3 + 8*A*B**2 - 2*A*B*C3*w1 - 16*A*B*C3 - A*B*u1*u3 + 8*A*C3**2 - A*C3*u1*u2 + B*C3*u1**2)/(4*A*B*C3), 0, 0], [0, 0, (-8*A**2*B + 2*A*B*C3*w2 + 16*A*B*C3 + A*B*u2*u3 - A*C3*u2**2 + 8*B**3 - 8*B*C3**2 + B*C3*u1*u2)/(4*A*B*C3), 0], [0, 0, 0, (-8*A**2*C3 + 2*A*B*C3*w3 + 16*A*B*C3 - A*B*u3**2 + A*C3*u2*u3 - 8*B**2*C3 + B*C3*u1*u3 + 8*C3**3)/(4*A*B*C3)]])",
+  "vacuum_residual_after_evolution": "Matrix([[-2*A/(B*C3) - 2*Lambda + 2*k1*k2 + 2*k1*k3 + 2*k2*k3 + 4/C3 + 4/B - 2*B/(A*C3) + 4/A - 2*C3/(A*B), 0, 0, 0], [0, 0, 0, 0], [0, 0, 0, 0], [0, 0, 0, 0]])",
+  "Hamiltonian": "2*(-A**2 - A*B*C3*Lambda + A*B*C3*k1*k2 + A*B*C3*k1*k3 + A*B*C3*k2*k3 + 2*A*B + 2*A*C3 - B**2 + 2*B*C3 - C3**2)/(A*B*C3)",
+  "horizontal_Lie_derivative": "Matrix([[0, 2*A - 2*B, 0], [2*A - 2*B, 0, 0], [0, 0, 0]])",
+  "checks": [
+    {
+      "name": "spatial Ricci 1",
+      "passed": true,
+      "residuals": [
+        "0"
+      ]
+    },
+    {
+      "name": "spatial Ricci 2",
+      "passed": true,
+      "residuals": [
+        "0"
+      ]
+    },
+    {
+      "name": "spatial Ricci 3",
+      "passed": true,
+      "residuals": [
+        "0"
+      ]
+    },
+    {
+      "name": "gap 1-2",
+      "passed": true,
+      "residuals": [
+        "0"
+      ]
+    },
+    {
+      "name": "gap 3-1",
+      "passed": true,
+      "residuals": [
+        "0"
+      ]
+    },
+    {
+      "name": "gap 3-2",
+      "passed": true,
+      "residuals": [
+        "0"
+      ]
+    },
+    {
+      "name": "ALL 16 original vacuum components equal Hamiltonian-only residual",
+      "passed": true,
+      "residuals": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ]
+    },
+    {
+      "name": "Hamiltonian propagation",
+      "passed": true,
+      "residuals": [
+        "0"
+      ]
+    },
+    {
+      "name": "Berger eigenvalues including round control",
+      "passed": true,
+      "residuals": [
+        "0",
+        "0",
+        "0"
+      ]
+    },
+    {
+      "name": "initial vertical gap",
+      "passed": true,
+      "residuals": [
+        "0"
+      ]
+    },
+    {
+      "name": "direct quotient descent Lie derivative",
+      "passed": true,
+      "residuals": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ]
+    },
+    {
+      "name": "horizontal departure derivative",
+      "passed": true,
+      "residuals": [
+        "0"
+      ]
+    },
+    {
+      "name": "complete sign bracket invariance (1, -1, -1)",
+      "passed": true,
+      "residuals": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ]
+    },
+    {
+      "name": "complete sign bracket invariance (-1, 1, -1)",
+      "passed": true,
+      "residuals": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ]
+    },
+    {
+      "name": "complete sign bracket invariance (-1, -1, 1)",
+      "passed": true,
+      "residuals": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ]
+    }
+  ],
+  "count": 15,
+  "all_pass": true,
+  "limits": "symbolic identities; no PDE theorem proof or numerical time evolution"
+}

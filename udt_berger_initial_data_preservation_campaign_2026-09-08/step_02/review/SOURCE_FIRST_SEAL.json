@@ -1,0 +1,91 @@
+{
+  "sealed_utc": "2026-09-08T18:32:39.267093+00:00",
+  "state": "PRE_BI2_CANDIDATE_EXPOSURE",
+  "exposure_caveat": "Incidental campaign-log summary of whiteboard route/gap warning read; no BI2 author proof/code/results or whiteboard file/message read. See REVIEW_SCOPE.md.",
+  "files": [
+    {
+      "path": "REVIEW_SCOPE.md",
+      "sha256": "f9ff3a58f9e9fb66b14a5cdda2f72d3f3623391813c791f26deda93e93aeb519"
+    },
+    {
+      "path": "SOURCE_FIRST_ARGUMENT.md",
+      "sha256": "9b8f01506708f32be6a9e5cf3602f9b4ad9a044ac38ac5d863ffa08e8e8011d7"
+    },
+    {
+      "path": "authenticate_sources.py",
+      "sha256": "dbe5171aa88acc58201b13d98faf8314479e8d4339296b335ec676715b531e73"
+    },
+    {
+      "path": "run_capture.py",
+      "sha256": "8ff5469ace76bdfc84188915242abbf3baff35516f9ee3f9ba4b1cbfeb2573ef"
+    },
+    {
+      "path": "source_authentication.json",
+      "sha256": "0cf0ec0eefa434bd51720f9e499e70edbfd2be4940a076e7977faa232783b366"
+    },
+    {
+      "path": "source_authentication.stderr",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "source_authentication.stdout",
+      "sha256": "9faa45437081f2fe1156611be9b72df52a31eb7b4132add13d4903c71886a851"
+    },
+    {
+      "path": "source_first_check.py",
+      "sha256": "cfdb712ae994c3b4779c7d66726b45f84f438f8adf76d7296a4a679761975be6"
+    },
+    {
+      "path": "source_first_run.json",
+      "sha256": "122ccf87816f8c5f6ebf1b98acc7ee6329f320c606b8f5648c755241ec18276f"
+    },
+    {
+      "path": "source_first_run.stderr",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "source_first_run.stdout",
+      "sha256": "2e75e31126475e7aac4d021178a3e905d70ffd3163c688657e914a1b27b4ef23"
+    },
+    {
+      "path": "source_snapshots/udt_berger_initial_data_preservation_campaign_2026-09-08/STARTUP_AUDIT.command.txt",
+      "sha256": "b344413992e737f54b2f4732d104f49524c355b96baaaee2c52ea932d1ff5e23"
+    },
+    {
+      "path": "source_snapshots/udt_berger_initial_data_preservation_campaign_2026-09-08/STARTUP_AUDIT.json",
+      "sha256": "57f0349a304aa49eeaa7a8961a62935d889d745ad94e540512206f31c6031b99"
+    },
+    {
+      "path": "source_snapshots/udt_berger_initial_data_preservation_campaign_2026-09-08/STARTUP_AUDIT.stderr",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "source_snapshots/udt_berger_initial_data_preservation_campaign_2026-09-08/STARTUP_AUDIT.stdout",
+      "sha256": "8dd15c719eaa6fc179cfa517a9ac96b0baac2b2d6c2681a275eaebe8d1e1861c"
+    },
+    {
+      "path": "source_snapshots/udt_berger_initial_data_preservation_campaign_2026-09-08/WORK_ORDER.md",
+      "sha256": "22880232d947b6642f59189eef20f82c6e268572b18f5e8411f745fae1ebedca"
+    },
+    {
+      "path": "source_snapshots/udt_berger_initial_data_preservation_campaign_2026-09-08/step_01/CANDIDATE_INITIAL.md",
+      "sha256": "ce6b36dce14c07049ee9be193ca07989c5ea2f2507d8587c7b978317d0980fbc"
+    },
+    {
+      "path": "source_snapshots/udt_berger_initial_data_preservation_campaign_2026-09-08/step_01/REVIEWED_RESULT.md",
+      "sha256": "188d2abb05d4d5771e3803706319df64f326e4a8268e28b17852986687709d0a"
+    },
+    {
+      "path": "source_snapshots/udt_berger_initial_data_preservation_campaign_2026-09-08/step_01/review/REVIEW_REPORT.md",
+      "sha256": "f68aeba4a80fa7b095122d7ea07bc45e3d0213bddbee1d23d64f96e2cd538c80"
+    },
+    {
+      "path": "source_snapshots/udt_berger_initial_data_preservation_campaign_2026-09-08/step_02/QUESTION.md",
+      "sha256": "b966c026dcf122ec269ccbf62d4e0658add3e1bc328b850d92f734efb668e53e"
+    },
+    {
+      "path": "source_snapshots/udt_berger_initial_data_preservation_campaign_2026-09-08/step_02/REVIEW_DISPATCH.md",
+      "sha256": "bfdee8fe9a09e3a8a5fe5dda0b88a8f2f5d5d1c21cf669abff388a0e86643296"
+    }
+  ]
+}

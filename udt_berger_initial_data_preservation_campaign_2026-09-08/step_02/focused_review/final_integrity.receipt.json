@@ -1,0 +1,22 @@
+{
+  "command": [
+    "/usr/bin/python3",
+    "-B",
+    "/home/udt-admin/udt_mass_codex/udt_berger_initial_data_preservation_campaign_2026-09-08/step_02/focused_review/final_integrity.py"
+  ],
+  "cwd": "/home/udt-admin/udt_mass_codex",
+  "started_utc": "2026-09-08T19:00:28.409068+00:00",
+  "duration_seconds": 0.025292029982665554,
+  "returncode": 0,
+  "timeout": false,
+  "address_space_bytes": 536870912,
+  "cpu_seconds": 60,
+  "wall_seconds": 60,
+  "maxrss_kib": 15972,
+  "thread_environment": {
+    "OPENBLAS_NUM_THREADS": "1",
+    "OMP_NUM_THREADS": "1",
+    "MKL_NUM_THREADS": "1",
+    "NUMEXPR_NUM_THREADS": "1"
+  }
+}

@@ -1,0 +1,565 @@
+{
+  "all_pass": true,
+  "count": 58,
+  "checks": [
+    {
+      "name": "frozen pin CANDIDATE_INITIAL.md",
+      "passed": true
+    },
+    {
+      "name": "frozen pin check_bi2.py",
+      "passed": true
+    },
+    {
+      "name": "frozen pin author_check_01.stdout",
+      "passed": true
+    },
+    {
+      "name": "frozen pin probe_bi2.py",
+      "passed": true
+    },
+    {
+      "name": "original comparison candidate correspondence CANDIDATE_INITIAL.md",
+      "passed": true
+    },
+    {
+      "name": "original comparison candidate correspondence check_bi2.py",
+      "passed": true
+    },
+    {
+      "name": "original comparison candidate correspondence author_check_01.stdout",
+      "passed": true
+    },
+    {
+      "name": "original comparison candidate correspondence probe_bi2.py",
+      "passed": true
+    },
+    {
+      "name": "original comparison candidate correspondence CANDIDATE_FREEZE.md",
+      "passed": true
+    },
+    {
+      "name": "original comparison candidate correspondence author_check_01.stderr",
+      "passed": true
+    },
+    {
+      "name": "original comparison candidate correspondence author_check_01.json",
+      "passed": true
+    },
+    {
+      "name": "original comparison candidate correspondence author_mutations_01.stdout",
+      "passed": true
+    },
+    {
+      "name": "original comparison candidate correspondence author_mutations_01.stderr",
+      "passed": true
+    },
+    {
+      "name": "original comparison candidate correspondence author_mutations_01.json",
+      "passed": true
+    },
+    {
+      "name": "prior successful receipt spacetime_independent_run",
+      "passed": true
+    },
+    {
+      "name": "prior empty stderr spacetime_independent_run",
+      "passed": true
+    },
+    {
+      "name": "prior successful receipt candidate_comparison_run",
+      "passed": true
+    },
+    {
+      "name": "prior empty stderr candidate_comparison_run",
+      "passed": true
+    },
+    {
+      "name": "prior successful receipt additional_mutations_run",
+      "passed": true
+    },
+    {
+      "name": "prior empty stderr additional_mutations_run",
+      "passed": true
+    },
+    {
+      "name": "all 16 prior unspecialized spacetime entries",
+      "passed": true,
+      "residuals": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ]
+    },
+    {
+      "name": "prior Hamiltonian",
+      "passed": true,
+      "residuals": [
+        "0"
+      ]
+    },
+    {
+      "name": "all 16 author moving-frame spacetime entries",
+      "passed": true,
+      "residuals": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ]
+    },
+    {
+      "name": "control Ricci 0",
+      "passed": true
+    },
+    {
+      "name": "control gaps 0",
+      "passed": true
+    },
+    {
+      "name": "control direct descent 0",
+      "passed": true
+    },
+    {
+      "name": "control Ricci 1",
+      "passed": true
+    },
+    {
+      "name": "control gaps 1",
+      "passed": true
+    },
+    {
+      "name": "control direct descent 1",
+      "passed": true
+    },
+    {
+      "name": "control Ricci 2",
+      "passed": true
+    },
+    {
+      "name": "control gaps 2",
+      "passed": true
+    },
+    {
+      "name": "control direct descent 2",
+      "passed": true
+    },
+    {
+      "name": "control Ricci 3",
+      "passed": true
+    },
+    {
+      "name": "control gaps 3",
+      "passed": true
+    },
+    {
+      "name": "control direct descent 3",
+      "passed": true
+    },
+    {
+      "name": "control Ricci 4",
+      "passed": true
+    },
+    {
+      "name": "control gaps 4",
+      "passed": true
+    },
+    {
+      "name": "control direct descent 4",
+      "passed": true
+    },
+    {
+      "name": "control Ricci 5",
+      "passed": true
+    },
+    {
+      "name": "control gaps 5",
+      "passed": true
+    },
+    {
+      "name": "control direct descent 5",
+      "passed": true
+    },
+    {
+      "name": "prior mutant source hash drop_spatial_bracket_motion",
+      "passed": true
+    },
+    {
+      "name": "prior mutant rejection receipt drop_spatial_bracket_motion",
+      "passed": true
+    },
+    {
+      "name": "prior mutant source hash drop_trace_in_mixed_evolution",
+      "passed": true
+    },
+    {
+      "name": "prior mutant rejection receipt drop_trace_in_mixed_evolution",
+      "passed": true
+    },
+    {
+      "name": "prior mutant source hash keep_covariant_quadratic_in_mixed_evolution",
+      "passed": true
+    },
+    {
+      "name": "prior mutant rejection receipt keep_covariant_quadratic_in_mixed_evolution",
+      "passed": true
+    },
+    {
+      "name": "prior mutant source hash reuse_two_eigenvalue_linear_projector",
+      "passed": true
+    },
+    {
+      "name": "prior mutant rejection receipt reuse_two_eigenvalue_linear_projector",
+      "passed": true
+    },
+    {
+      "name": "prior mutant source hash switch_to_a_different_simple_branch",
+      "passed": true
+    },
+    {
+      "name": "prior mutant rejection receipt switch_to_a_different_simple_branch",
+      "passed": true
+    },
+    {
+      "name": "prior mutant source hash delete_unrotated_initial_horizontal_shear",
+      "passed": true
+    },
+    {
+      "name": "prior mutant rejection receipt delete_unrotated_initial_horizontal_shear",
+      "passed": true
+    },
+    {
+      "name": "prior mutant source hash wrong_sign_in_saved_geometric_control_Ricci",
+      "passed": true
+    },
+    {
+      "name": "source-first geometry rejects prior saved false output wrong_sign_in_saved_geometric_control_Ricci",
+      "passed": true
+    },
+    {
+      "name": "prior mutant source hash falsely_mark_every_control_as_directly_descended",
+      "passed": true
+    },
+    {
+      "name": "source-first geometry rejects prior saved false output falsely_mark_every_control_as_directly_descended",
+      "passed": true
+    },
+    {
+      "name": "retain exactly two BI2 reporting blind spots",
+      "passed": true
+    }
+  ],
+  "exact_recomputed_controls": [
+    {
+      "squared_sizes": [
+        "1",
+        "1",
+        "9/4"
+      ],
+      "Ricci": [
+        "-1/2",
+        "-1/2",
+        "9/2"
+      ],
+      "gaps": [
+        "5",
+        "5"
+      ],
+      "direct_descent": true
+    },
+    {
+      "squared_sizes": [
+        "4",
+        "4",
+        "1"
+      ],
+      "Ricci": [
+        "7/8",
+        "7/8",
+        "1/8"
+      ],
+      "gaps": [
+        "-3/4",
+        "-3/4"
+      ],
+      "direct_descent": true
+    },
+    {
+      "squared_sizes": [
+        "1",
+        "3",
+        "2"
+      ],
+      "Ricci": [
+        "0",
+        "8/3",
+        "0"
+      ],
+      "gaps": [
+        "0",
+        "-8/3"
+      ],
+      "direct_descent": false
+    },
+    {
+      "squared_sizes": [
+        "3",
+        "1",
+        "2"
+      ],
+      "Ricci": [
+        "8/3",
+        "0",
+        "0"
+      ],
+      "gaps": [
+        "-8/3",
+        "0"
+      ],
+      "direct_descent": false
+    },
+    {
+      "squared_sizes": [
+        "1",
+        "1",
+        "1"
+      ],
+      "Ricci": [
+        "2",
+        "2",
+        "2"
+      ],
+      "gaps": [
+        "0",
+        "0"
+      ],
+      "direct_descent": true
+    },
+    {
+      "squared_sizes": [
+        "1",
+        "2",
+        "4"
+      ],
+      "Ricci": [
+        "-3/4",
+        "-5/4",
+        "15/4"
+      ],
+      "gaps": [
+        "9/2",
+        "5"
+      ],
+      "direct_descent": false
+    }
+  ],
+  "prior_false_outputs_rechecked": [
+    {
+      "name": "wrong_sign_in_saved_geometric_control_Ricci",
+      "source_sha256": "4efc8e6ba1ab4e2df1481e6e951285eb58099be0c223b7895af8c4ef5b70bb40",
+      "failures": [
+        {
+          "control": 0,
+          "field": "Ricci",
+          "reported": [
+            "1/2",
+            "1/2",
+            "-9/2"
+          ],
+          "expected": [
+            "-1/2",
+            "-1/2",
+            "9/2"
+          ]
+        },
+        {
+          "control": 0,
+          "field": "gaps",
+          "reported": [
+            "-5",
+            "-5"
+          ],
+          "expected": [
+            "5",
+            "5"
+          ]
+        },
+        {
+          "control": 1,
+          "field": "Ricci",
+          "reported": [
+            "-7/8",
+            "-7/8",
+            "-1/8"
+          ],
+          "expected": [
+            "7/8",
+            "7/8",
+            "1/8"
+          ]
+        },
+        {
+          "control": 1,
+          "field": "gaps",
+          "reported": [
+            "3/4",
+            "3/4"
+          ],
+          "expected": [
+            "-3/4",
+            "-3/4"
+          ]
+        },
+        {
+          "control": 2,
+          "field": "Ricci",
+          "reported": [
+            "0",
+            "-8/3",
+            "0"
+          ],
+          "expected": [
+            "0",
+            "8/3",
+            "0"
+          ]
+        },
+        {
+          "control": 2,
+          "field": "gaps",
+          "reported": [
+            "0",
+            "8/3"
+          ],
+          "expected": [
+            "0",
+            "-8/3"
+          ]
+        },
+        {
+          "control": 3,
+          "field": "Ricci",
+          "reported": [
+            "-8/3",
+            "0",
+            "0"
+          ],
+          "expected": [
+            "8/3",
+            "0",
+            "0"
+          ]
+        },
+        {
+          "control": 3,
+          "field": "gaps",
+          "reported": [
+            "8/3",
+            "0"
+          ],
+          "expected": [
+            "-8/3",
+            "0"
+          ]
+        },
+        {
+          "control": 4,
+          "field": "Ricci",
+          "reported": [
+            "-2",
+            "-2",
+            "-2"
+          ],
+          "expected": [
+            "2",
+            "2",
+            "2"
+          ]
+        },
+        {
+          "control": 5,
+          "field": "Ricci",
+          "reported": [
+            "3/4",
+            "5/4",
+            "-15/4"
+          ],
+          "expected": [
+            "-3/4",
+            "-5/4",
+            "15/4"
+          ]
+        },
+        {
+          "control": 5,
+          "field": "gaps",
+          "reported": [
+            "-9/2",
+            "-5"
+          ],
+          "expected": [
+            "9/2",
+            "5"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "falsely_mark_every_control_as_directly_descended",
+      "source_sha256": "68d3df25d265aae2ce3617a142865bcab3cd0e6b4ca33e0e353edf156be121a1",
+      "failures": [
+        {
+          "control": 2,
+          "field": "direct_descent",
+          "reported": true,
+          "expected": false
+        },
+        {
+          "control": 3,
+          "field": "direct_descent",
+          "reported": true,
+          "expected": false
+        },
+        {
+          "control": 5,
+          "field": "direct_descent",
+          "reported": true,
+          "expected": false
+        }
+      ]
+    }
+  ],
+  "evidence_type": "Post-seal saved-tensor comparison against independently sealed source-first 4D calculation; prior checks/mutations authenticated and reused, not rerun",
+  "prior_counts": {
+    "spacetime": 28,
+    "comparison": 59,
+    "additional_mutants": 8,
+    "author_rejections": 6,
+    "false_outputs": 2
+  }
+}

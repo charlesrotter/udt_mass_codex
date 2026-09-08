@@ -1,0 +1,45 @@
+{
+  "completed_utc": "2026-09-08T18:43:14.450341+00:00",
+  "mathematical_verdict": "VERIFIED-WITH-CAVEATS",
+  "candidate_sha256": "863e79807c6ece4308f8ab4397cb65a4e39504c31b5bc486a292ac70a3e902a3",
+  "report_sha256": "71eb969bac3eda791bf2906cf1cc9567de20055b7d93f7be388ae18411eec79e",
+  "source_first_seal_sha256": "e660419a384249f59e191c268674c3274d5aa96b4b5296dce4a52767abe86629",
+  "strict_no_whiteboard_content_gate": "NOT_FULLY_MET: incidental pre-seal parent campaign-log advice summary",
+  "BI2_author_proof_code_results_opened_before_seal": false,
+  "fresh_context": true,
+  "exact_backend": "UNKNOWN",
+  "different_model": "UNTESTED",
+  "independence": "pre-candidate fixed-frame curvature; post-exposure fixed-frame spacetime implementation; shared sources/Koszul/SymPy and advisory summary exposure",
+  "scientific_repair_required": false,
+  "scientific_repair_cycles_used": 0,
+  "inherited_BI1_caveat": "6/8 author catches; 2 operator false passes detected by independent full-tensor Koszul check; reviewed provisional, unbanked",
+  "BI2_mutations": {
+    "declared_author_mutations_replayed": 5,
+    "declared_author_mutations_rejected": 5,
+    "additional_mutations": 8,
+    "additional_author_rejections": 6,
+    "additional_control_reporting_false_passes_independently_detected": 2
+  },
+  "original_controls_independently_verified": 6,
+  "parent_sync_full358": "AUTHENTICATED_REUSED_NOT_REPLAYED",
+  "writes": "step_02/review only",
+  "promotion": "NONE",
+  "required_caveats": [
+    "conditional owner-provisional vacuum arena",
+    "provisional BI1 dependency with full review",
+    "general imported smooth Cauchy/isometry method",
+    "supplied fixed nonround Berger geometry and lawful left-invariant K",
+    "marked normal slices and datum-dependent positive local interval",
+    "both original-branch spectral gaps open",
+    "no exactly-one-simple-eigenvalue assumption",
+    "direct descent iff initial horizontal K isotropic only in declared class",
+    "topological quotient distinct from direct metric descent",
+    "no uniform/global/inhomogeneous/physical stability or fixed carrier target claim",
+    "review isolation caveat and two additional control reporting blind spots"
+  ],
+  "final_preservation": {
+    "status": "PASS",
+    "checks": 98
+  },
+  "parent_final_review_hash": "Parent must read entire review and await invocation exit before its final freeze."
+}

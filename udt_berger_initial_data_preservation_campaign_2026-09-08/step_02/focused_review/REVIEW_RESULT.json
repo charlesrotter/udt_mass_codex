@@ -1,0 +1,39 @@
+{
+  "completed_utc": "2026-09-08T19:01:12.199205+00:00",
+  "verdict": "VERIFIED-WITH-CAVEATS",
+  "strict_source_first_isolation_gate_met": true,
+  "candidate_sha256": "863e79807c6ece4308f8ab4397cb65a4e39504c31b5bc486a292ac70a3e902a3",
+  "original_review_sha256": "71eb969bac3eda791bf2906cf1cc9567de20055b7d93f7be388ae18411eec79e",
+  "source_first_seal_sha256": "d8c0c56bf695004ad29cf1af00663e30051ee3c40b54df927fd4669745ae9ff1",
+  "focused_report_sha256": "33c2e6e5880f3cfa24906f1c6b23fabfe2e1a7f57b857131045fd8eead7e6245",
+  "head": "8593f11cd96a575be3513d1ec56e92ac4f5811ff",
+  "scope": "Every finite lawful left-invariant K on supplied positive nonround Berger S3; actual conditional datum-dependent local marked development while both original-branch gaps remain open.",
+  "conclusions": [
+    "Original isolated Ricci line and full projector, same closed Hopf circles and normalized absolute integral 1 persist locally throughout the lawful homogeneous class.",
+    "Direct unaveraged horizontal-metric descent on an interval through the initial slice iff the initial horizontal K block is isotropic.",
+    "Pure trace is unnecessary; no physical stability, inhomogeneous classification, uniform lifetime or fixed target follows."
+  ],
+  "checks": {
+    "source_first_exact_groups": 15,
+    "source_authentication": 11,
+    "post_exposure_comparison": 58,
+    "final_preservation": 75,
+    "all_pass": true
+  },
+  "retained_caveats": [
+    "BI1: 6/8 author mutation catches; wrong full Ricci-variation sign and missing derivative-index connection false passes caught by its independent full-tensor comparison.",
+    "BI2: negated saved-control Ricci/gaps and all-true saved descent flags survive author assertions; independent saved-control correspondence catches both.",
+    "The original review had incidental pre-seal advice exposure; its historical limitation is preserved. This new source-first context clears the requested gate.",
+    "Parent audit and prior exact/mutation evidence authenticated and reused, not rerun.",
+    "Shared sources/SymPy/Koszul and symmetry method; exact backend unknown; different-model/human/formal review untested.",
+    "Initial bounded authentication git-status failure and minor inspection errors preserved and disclosed."
+  ],
+  "scientific_amendment_required": false,
+  "scientific_promotion": false,
+  "repair_scope": "One authorized focused procedural re-review; complete, no additional research step.",
+  "dispatch_budget_minutes": 25,
+  "write_scope": "udt_berger_initial_data_preservation_campaign_2026-09-08/step_02/focused_review",
+  "report": "REVIEW_REPORT.md",
+  "execution_record": "EXECUTION_RECORD.md",
+  "artifact_manifest": "SHA256SUMS"
+}

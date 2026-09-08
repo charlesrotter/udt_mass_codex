@@ -1,0 +1,280 @@
+{
+  "status": "PASS",
+  "original_sha256": "7c1c6fe8485247135c29a741a28f9b217d4fe1434fe5e819333e12848b9029d3",
+  "results": [
+    {
+      "name": "drop_spatial_bracket_motion",
+      "mutant_path": "mutants/drop_spatial_bracket_motion.py",
+      "mutant_sha256": "eba7b94f924645c458a71d96d0e1fd0ba6674941668d925bf03d55ddb325aa4c",
+      "author_rejected": true,
+      "author_failure": {
+        "type": "AssertionError",
+        "message": "('original Hamiltonian propagation', [-k1*n1**2 + k1*n2**2 - 2*k1*n2*n3 + k1*n3**2 + k2*n1**2 - 2*k2*n1*n3 - k2*n2**2 + k2*n3**2 + k3*n1**2 - 2*k3*n1*n2 + k3*n2**2 - k3*n3**2])"
+      },
+      "independent_control_rejected": false,
+      "independent_correspondence_failures": [],
+      "stdout": "",
+      "stderr": "Traceback (most recent call last):\n  File \"/home/udt-admin/udt_mass_codex/udt_berger_initial_data_preservation_campaign_2026-09-08/step_02/review/additional_mutations.py\", line 57, in <module>\n    exec(compile(mutant,str(mp),'exec'),{'__name__':'__main__','__file__':str(mp)})\n  File \"/home/udt-admin/udt_mass_codex/udt_berger_initial_data_preservation_campaign_2026-09-08/step_02/review/mutants/drop_spatial_bracket_motion.py\", line 52, in <module>\n    zero('original Hamiltonian propagation',dt(H)-2*tau*H)\n  File \"/home/udt-admin/udt_mass_codex/udt_berger_initial_data_preservation_campaign_2026-09-08/step_02/review/mutants/drop_spatial_bracket_motion.py\", line 48, in zero\n    assert all(x==0 for x in residual),(name,residual)\nAssertionError: ('original Hamiltonian propagation', [-k1*n1**2 + k1*n2**2 - 2*k1*n2*n3 + k1*n3**2 + k2*n1**2 - 2*k2*n1*n3 - k2*n2**2 + k2*n3**2 + k3*n1**2 - 2*k3*n1*n2 + k3*n2**2 - k3*n3**2])\n"
+    },
+    {
+      "name": "drop_trace_in_mixed_evolution",
+      "mutant_path": "mutants/drop_trace_in_mixed_evolution.py",
+      "mutant_sha256": "378236d571e3b4b44a9e66d70d9f9389aaad5d0af5e843a0dc1a68290dab15b6",
+      "author_rejected": true,
+      "author_failure": {
+        "type": "AssertionError",
+        "message": "('original full Lorentz Ricci after diagonal evolution', [-(k1 + k2 + k3)**2, 0, 0, 0, 0, k1*(k1 + k2 + k3), 0, 0, 0, 0, k2*(k1 + k2 + k3), 0, 0, 0, 0, k3*(k1 + k2 + k3)])"
+      },
+      "independent_control_rejected": false,
+      "independent_correspondence_failures": [],
+      "stdout": "",
+      "stderr": "Traceback (most recent call last):\n  File \"/home/udt-admin/udt_mass_codex/udt_berger_initial_data_preservation_campaign_2026-09-08/step_02/review/additional_mutations.py\", line 57, in <module>\n    exec(compile(mutant,str(mp),'exec'),{'__name__':'__main__','__file__':str(mp)})\n  File \"/home/udt-admin/udt_mass_codex/udt_berger_initial_data_preservation_campaign_2026-09-08/step_02/review/mutants/drop_trace_in_mixed_evolution.py\", line 51, in <module>\n    zero('original full Lorentz Ricci after diagonal evolution',Ric4-s.diag(H-lam,lam,lam,lam))\n  File \"/home/udt-admin/udt_mass_codex/udt_berger_initial_data_preservation_campaign_2026-09-08/step_02/review/mutants/drop_trace_in_mixed_evolution.py\", line 48, in zero\n    assert all(x==0 for x in residual),(name,residual)\nAssertionError: ('original full Lorentz Ricci after diagonal evolution', [-(k1 + k2 + k3)**2, 0, 0, 0, 0, k1*(k1 + k2 + k3), 0, 0, 0, 0, k2*(k1 + k2 + k3), 0, 0, 0, 0, k3*(k1 + k2 + k3)])\n"
+    },
+    {
+      "name": "keep_covariant_quadratic_in_mixed_evolution",
+      "mutant_path": "mutants/keep_covariant_quadratic_in_mixed_evolution.py",
+      "mutant_sha256": "b8ecab3d3413dc5fc5a5cf2154d95aa29b1c46cf299250dc57cb57471668263a",
+      "author_rejected": true,
+      "author_failure": {
+        "type": "AssertionError",
+        "message": "('original full Lorentz Ricci after diagonal evolution', [-2*(k1**2 + k2**2 + k3**2), 0, 0, 0, 0, 2*k1**2, 0, 0, 0, 0, 2*k2**2, 0, 0, 0, 0, 2*k3**2])"
+      },
+      "independent_control_rejected": false,
+      "independent_correspondence_failures": [],
+      "stdout": "",
+      "stderr": "Traceback (most recent call last):\n  File \"/home/udt-admin/udt_mass_codex/udt_berger_initial_data_preservation_campaign_2026-09-08/step_02/review/additional_mutations.py\", line 57, in <module>\n    exec(compile(mutant,str(mp),'exec'),{'__name__':'__main__','__file__':str(mp)})\n  File \"/home/udt-admin/udt_mass_codex/udt_berger_initial_data_preservation_campaign_2026-09-08/step_02/review/mutants/keep_covariant_quadratic_in_mixed_evolution.py\", line 51, in <module>\n    zero('original full Lorentz Ricci after diagonal evolution',Ric4-s.diag(H-lam,lam,lam,lam))\n  File \"/home/udt-admin/udt_mass_codex/udt_berger_initial_data_preservation_campaign_2026-09-08/step_02/review/mutants/keep_covariant_quadratic_in_mixed_evolution.py\", line 48, in zero\n    assert all(x==0 for x in residual),(name,residual)\nAssertionError: ('original full Lorentz Ricci after diagonal evolution', [-2*(k1**2 + k2**2 + k3**2), 0, 0, 0, 0, 2*k1**2, 0, 0, 0, 0, 2*k2**2, 0, 0, 0, 0, 2*k3**2])\n"
+    },
+    {
+      "name": "reuse_two_eigenvalue_linear_projector",
+      "mutant_path": "mutants/reuse_two_eigenvalue_linear_projector.py",
+      "mutant_sha256": "bff145299a3f01cc7f9a357624380a07623213c772acc02b9f25c98d797d1fee",
+      "author_rejected": true,
+      "author_failure": {
+        "type": "AssertionError",
+        "message": "('full triaxial projector', [0, 0, 0, 0, (A - B)*(A + B)*(A**2 + B**2 - C**2)/((A - C)*(A + C)*(A**2 - B**2 + C**2)), 0, 0, 0, 0])"
+      },
+      "independent_control_rejected": false,
+      "independent_correspondence_failures": [],
+      "stdout": "",
+      "stderr": "Traceback (most recent call last):\n  File \"/home/udt-admin/udt_mass_codex/udt_berger_initial_data_preservation_campaign_2026-09-08/step_02/review/additional_mutations.py\", line 57, in <module>\n    exec(compile(mutant,str(mp),'exec'),{'__name__':'__main__','__file__':str(mp)})\n  File \"/home/udt-admin/udt_mass_codex/udt_berger_initial_data_preservation_campaign_2026-09-08/step_02/review/mutants/reuse_two_eigenvalue_linear_projector.py\", line 66, in <module>\n    zero('full triaxial projector',P3-s.diag(0,0,1))\n  File \"/home/udt-admin/udt_mass_codex/udt_berger_initial_data_preservation_campaign_2026-09-08/step_02/review/mutants/reuse_two_eigenvalue_linear_projector.py\", line 48, in zero\n    assert all(x==0 for x in residual),(name,residual)\nAssertionError: ('full triaxial projector', [0, 0, 0, 0, (A - B)*(A + B)*(A**2 + B**2 - C**2)/((A - C)*(A + C)*(A**2 - B**2 + C**2)), 0, 0, 0, 0])\n"
+    },
+    {
+      "name": "switch_to_a_different_simple_branch",
+      "mutant_path": "mutants/switch_to_a_different_simple_branch.py",
+      "mutant_sha256": "75885c279a2c6848a08d271cca19f8a9e791e7523d43ecc2bb9c55bf24732a57",
+      "author_rejected": true,
+      "author_failure": {
+        "type": "AssertionError",
+        "message": "('full triaxial projector', [1, 0, 0, 0, 0, 0, 0, 0, -1])"
+      },
+      "independent_control_rejected": false,
+      "independent_correspondence_failures": [],
+      "stdout": "",
+      "stderr": "Traceback (most recent call last):\n  File \"/home/udt-admin/udt_mass_codex/udt_berger_initial_data_preservation_campaign_2026-09-08/step_02/review/additional_mutations.py\", line 57, in <module>\n    exec(compile(mutant,str(mp),'exec'),{'__name__':'__main__','__file__':str(mp)})\n  File \"/home/udt-admin/udt_mass_codex/udt_berger_initial_data_preservation_campaign_2026-09-08/step_02/review/mutants/switch_to_a_different_simple_branch.py\", line 66, in <module>\n    zero('full triaxial projector',P3-s.diag(0,0,1))\n  File \"/home/udt-admin/udt_mass_codex/udt_berger_initial_data_preservation_campaign_2026-09-08/step_02/review/mutants/switch_to_a_different_simple_branch.py\", line 48, in zero\n    assert all(x==0 for x in residual),(name,residual)\nAssertionError: ('full triaxial projector', [1, 0, 0, 0, 0, 0, 0, 0, -1])\n"
+    },
+    {
+      "name": "delete_unrotated_initial_horizontal_shear",
+      "mutant_path": "mutants/delete_unrotated_initial_horizontal_shear.py",
+      "mutant_sha256": "7c7afb4fe75d0ba518710d5591fa5ed194d56637a9fbe73bbbad3ada570a6c31",
+      "author_rejected": true,
+      "author_failure": {
+        "type": "AssertionError",
+        "message": "('unrotated initial full shear obstruction', [4*ss, -4*d, 0, -4*d, -4*ss, 0, 0, 0, 0])"
+      },
+      "independent_control_rejected": false,
+      "independent_correspondence_failures": [],
+      "stdout": "",
+      "stderr": "Traceback (most recent call last):\n  File \"/home/udt-admin/udt_mass_codex/udt_berger_initial_data_preservation_campaign_2026-09-08/step_02/review/additional_mutations.py\", line 57, in <module>\n    exec(compile(mutant,str(mp),'exec'),{'__name__':'__main__','__file__':str(mp)})\n  File \"/home/udt-admin/udt_mass_codex/udt_berger_initial_data_preservation_campaign_2026-09-08/step_02/review/mutants/delete_unrotated_initial_horizontal_shear.py\", line 86, in <module>\n    zero('unrotated initial full shear obstruction',LieK-s.Matrix([[-4*ss,4*dd,0],[4*dd,4*ss,0],[0,0,0]]))\n  File \"/home/udt-admin/udt_mass_codex/udt_berger_initial_data_preservation_campaign_2026-09-08/step_02/review/mutants/delete_unrotated_initial_horizontal_shear.py\", line 48, in zero\n    assert all(x==0 for x in residual),(name,residual)\nAssertionError: ('unrotated initial full shear obstruction', [4*ss, -4*d, 0, -4*d, -4*ss, 0, 0, 0, 0])\n"
+    },
+    {
+      "name": "wrong_sign_in_saved_geometric_control_Ricci",
+      "mutant_path": "mutants/wrong_sign_in_saved_geometric_control_Ricci.py",
+      "mutant_sha256": "4efc8e6ba1ab4e2df1481e6e951285eb58099be0c223b7895af8c4ef5b70bb40",
+      "author_rejected": false,
+      "author_failure": null,
+      "independent_control_rejected": true,
+      "independent_correspondence_failures": [
+        {
+          "control": 0,
+          "field": "Ricci",
+          "expected": [
+            "-1/2",
+            "-1/2",
+            "9/2"
+          ],
+          "reported": [
+            "1/2",
+            "1/2",
+            "-9/2"
+          ]
+        },
+        {
+          "control": 0,
+          "field": "gaps",
+          "expected": [
+            "5",
+            "5"
+          ],
+          "reported": [
+            "-5",
+            "-5"
+          ]
+        },
+        {
+          "control": 1,
+          "field": "Ricci",
+          "expected": [
+            "7/8",
+            "7/8",
+            "1/8"
+          ],
+          "reported": [
+            "-7/8",
+            "-7/8",
+            "-1/8"
+          ]
+        },
+        {
+          "control": 1,
+          "field": "gaps",
+          "expected": [
+            "-3/4",
+            "-3/4"
+          ],
+          "reported": [
+            "3/4",
+            "3/4"
+          ]
+        },
+        {
+          "control": 2,
+          "field": "Ricci",
+          "expected": [
+            "0",
+            "8/3",
+            "0"
+          ],
+          "reported": [
+            "0",
+            "-8/3",
+            "0"
+          ]
+        },
+        {
+          "control": 2,
+          "field": "gaps",
+          "expected": [
+            "0",
+            "-8/3"
+          ],
+          "reported": [
+            "0",
+            "8/3"
+          ]
+        },
+        {
+          "control": 3,
+          "field": "Ricci",
+          "expected": [
+            "8/3",
+            "0",
+            "0"
+          ],
+          "reported": [
+            "-8/3",
+            "0",
+            "0"
+          ]
+        },
+        {
+          "control": 3,
+          "field": "gaps",
+          "expected": [
+            "-8/3",
+            "0"
+          ],
+          "reported": [
+            "8/3",
+            "0"
+          ]
+        },
+        {
+          "control": 4,
+          "field": "Ricci",
+          "expected": [
+            "2",
+            "2",
+            "2"
+          ],
+          "reported": [
+            "-2",
+            "-2",
+            "-2"
+          ]
+        },
+        {
+          "control": 5,
+          "field": "Ricci",
+          "expected": [
+            "-3/4",
+            "-5/4",
+            "15/4"
+          ],
+          "reported": [
+            "3/4",
+            "5/4",
+            "-15/4"
+          ]
+        },
+        {
+          "control": 5,
+          "field": "gaps",
+          "expected": [
+            "9/2",
+            "5"
+          ],
+          "reported": [
+            "-9/2",
+            "-5"
+          ]
+        }
+      ],
+      "stdout": "{\n  \"status\": \"PASS\",\n  \"python\": \"3.10.12\",\n  \"sympy\": \"1.13.1\",\n  \"source_sha256\": \"4efc8e6ba1ab4e2df1481e6e951285eb58099be0c223b7895af8c4ef5b70bb40\",\n  \"exact_checks\": [\n    {\n      \"name\": \"spatial Ricci from Koszul\",\n      \"residual\": [\n        \"0\",\n        \"0\",\n        \"0\",\n        \"0\",\n        \"0\",\n        \"0\",\n        \"0\",\n        \"0\",\n        \"0\"\n      ]\n    },\n    {\n      \"name\": \"original full Lorentz Ricci after diagonal evolution\",\n      \"residual\": [\n        \"0\",\n        \"0\",\n        \"0\",\n        \"0\",\n        \"0\",\n        \"0\",\n        \"0\",\n        \"0\",\n        \"0\",\n        \"0\",\n        \"0\",\n        \"0\",\n        \"0\",\n        \"0\",\n        \"0\",\n        \"0\"\n      ]\n    },\n    {\n      \"name\": \"original Hamiltonian propagation\",\n      \"residual\": [\n        \"0\"\n      ]\n    },\n    {\n      \"name\": \"scalar derivative\",\n      \"residual\": [\n        \"0\"\n      ]\n    },\n    {\n      \"name\": \"diagonal size Ricci 0\",\n      \"residual\": [\n        \"0\"\n      ]\n    },\n    {\n      \"name\": \"diagonal size Ricci 1\",\n      \"residual\": [\n        \"0\"\n      ]\n    },\n    {\n      \"name\": \"diagonal size Ricci 2\",\n      \"residual\": [\n        \"0\"\n      ]\n    },\n    {\n      \"name\": \"vertical gap factor 0\",\n      \"residual\": [\n        \"0\"\n      ]\n    },\n    {\n      \"name\": \"vertical gap factor 1\",\n      \"residual\": [\n        \"0\"\n      ]\n    },\n    {\n      \"name\": \"full triaxial projector\",\n      \"residual\": [\n        \"0\",\n        \"0\",\n        \"0\",\n        \"0\",\n        \"0\",\n        \"0\",\n        \"0\",\n        \"0\",\n        \"0\"\n      ]\n    },\n    {\n      \"name\": \"Berger initial gap\",\n      \"residual\": [\n        \"0\"\n      ]\n    },\n    {\n      \"name\": \"discrete bracket automorphism ((1, -1, -1), 0, 1)\",\n      \"residual\": [\n        \"0\",\n        \"0\",\n        \"0\"\n      ]\n    },\n    {\n      \"name\": \"discrete bracket automorphism ((1, -1, -1), 1, 2)\",\n      \"residual\": [\n        \"0\",\n        \"0\",\n        \"0\"\n      ]\n    },\n    {\n      \"name\": \"discrete bracket automorphism ((1, -1, -1), 2, 0)\",\n      \"residual\": [\n        \"0\",\n        \"0\",\n        \"0\"\n      ]\n    },\n    {\n      \"name\": \"diagonal metric invariance (1, -1, -1)\",\n      \"residual\": [\n        \"0\",\n        \"0\",\n        \"0\",\n        \"0\",\n        \"0\",\n        \"0\",\n        \"0\",\n        \"0\",\n        \"0\"\n      ]\n    },\n    {\n      \"name\": \"full diagonal K invariance (1, -1, -1)\",\n      \"residual\": [\n        \"0\",\n        \"0\",\n        \"0\",\n        \"0\",\n        \"0\",\n        \"0\",\n        \"0\",\n        \"0\",\n        \"0\"\n      ]\n    },\n    {\n      \"name\": \"discrete bracket automorphism ((-1, 1, -1), 0, 1)\",\n      \"residual\": [\n        \"0\",\n        \"0\",\n        \"0\"\n      ]\n    },\n    {\n      \"name\": \"discrete bracket automorphism ((-1, 1, -1), 1, 2)\",\n      \"residual\": [\n        \"0\",\n        \"0\",\n        \"0\"\n      ]\n    },\n    {\n      \"name\": \"discrete bracket automorphism ((-1, 1, -1), 2, 0)\",\n      \"residual\": [\n        \"0\",\n        \"0\",\n        \"0\"\n      ]\n    },\n    {\n      \"name\": \"diagonal metric invariance (-1, 1, -1)\",\n      \"residual\": [\n        \"0\",\n        \"0\",\n        \"0\",\n        \"0\",\n        \"0\",\n        \"0\",\n        \"0\",\n        \"0\",\n        \"0\"\n      ]\n    },\n    {\n      \"name\": \"full diagonal K invariance (-1, 1, -1)\",\n      \"residual\": [\n        \"0\",\n        \"0\",\n        \"0\",\n        \"0\",\n        \"0\",\n        \"0\",\n        \"0\",\n        \"0\",\n        \"0\"\n      ]\n    },\n    {\n      \"name\": \"discrete bracket automorphism ((-1, -1, 1), 0, 1)\",\n      \"residual\": [\n        \"0\",\n        \"0\",\n        \"0\"\n      ]\n    },\n    {\n      \"name\": \"discrete bracket automorphism ((-1, -1, 1), 1, 2)\",\n      \"residual\": [\n        \"0\",\n        \"0\",\n        \"0\"\n      ]\n    },\n    {\n      \"name\": \"discrete bracket automorphism ((-1, -1, 1), 2, 0)\",\n      \"residual\": [\n        \"0\",\n        \"0\",\n        \"0\"\n      ]\n    },\n    {\n      \"name\": \"diagonal metric invariance (-1, -1, 1)\",\n      \"residual\": [\n        \"0\",\n        \"0\",\n        \"0\",\n        \"0\",\n        \"0\",\n        \"0\",\n        \"0\",\n        \"0\",\n        \"0\"\n      ]\n    },\n    {\n      \"name\": \"full diagonal K invariance (-1, -1, 1)\",\n      \"residual\": [\n        \"0\",\n        \"0\",\n        \"0\",\n        \"0\",\n        \"0\",\n        \"0\",\n        \"0\",\n        \"0\",\n        \"0\"\n      ]\n    },\n    {\n      \"name\": \"quotient direct descent Lie obstruction\",\n      \"residual\": [\n        \"0\",\n        \"0\",\n        \"0\",\n        \"0\",\n        \"0\",\n        \"0\",\n        \"0\",\n        \"0\",\n        \"0\"\n      ]\n    },\n    {\n      \"name\": \"unrotated initial full shear obstruction\",\n      \"residual\": [\n        \"0\",\n        \"0\",\n        \"0\",\n        \"0\",\n        \"0\",\n        \"0\",\n        \"0\",\n        \"0\",\n        \"0\"\n      ]\n    },\n    {\n      \"name\": \"normalized form helicity\",\n      \"residual\": [\n        \"0\"\n      ]\n    },\n    {\n      \"name\": \"lawful asymmetric initial Hamiltonian\",\n      \"residual\": [\n        \"0\"\n      ]\n    },\n    {\n      \"name\": \"actual initial horizontal splitting rate\",\n      \"residual\": [\n        \"0\"\n      ]\n    }\n  ],\n  \"controls\": [\n    {\n      \"squared_sizes\": [\n        \"1\",\n        \"1\",\n        \"9/4\"\n      ],\n      \"Ricci\": [\n        \"1/2\",\n        \"1/2\",\n        \"-9/2\"\n      ],\n      \"gaps\": [\n        \"-5\",\n        \"-5\"\n      ],\n      \"direct_descent\": true\n    },\n    {\n      \"squared_sizes\": [\n        \"4\",\n        \"4\",\n        \"1\"\n      ],\n      \"Ricci\": [\n        \"-7/8\",\n        \"-7/8\",\n        \"-1/8\"\n      ],\n      \"gaps\": [\n        \"3/4\",\n        \"3/4\"\n      ],\n      \"direct_descent\": true\n    },\n    {\n      \"squared_sizes\": [\n        \"1\",\n        \"3\",\n        \"2\"\n      ],\n      \"Ricci\": [\n        \"0\",\n        \"-8/3\",\n        \"0\"\n      ],\n      \"gaps\": [\n        \"0\",\n        \"8/3\"\n      ],\n      \"direct_descent\": false\n    },\n    {\n      \"squared_sizes\": [\n        \"3\",\n        \"1\",\n        \"2\"\n      ],\n      \"Ricci\": [\n        \"-8/3\",\n        \"0\",\n        \"0\"\n      ],\n      \"gaps\": [\n        \"8/3\",\n        \"0\"\n      ],\n      \"direct_descent\": false\n    },\n    {\n      \"squared_sizes\": [\n        \"1\",\n        \"1\",\n        \"1\"\n      ],\n      \"Ricci\": [\n        \"-2\",\n        \"-2\",\n        \"-2\"\n      ],\n      \"gaps\": [\n        \"0\",\n        \"0\"\n      ],\n      \"direct_descent\": true\n    },\n    {\n      \"squared_sizes\": [\n        \"1\",\n        \"2\",\n        \"4\"\n      ],\n      \"Ricci\": [\n        \"3/4\",\n        \"5/4\",\n        \"-15/4\"\n      ],\n      \"gaps\": [\n        \"-9/2\",\n        \"-5\"\n      ],\n      \"direct_descent\": false\n    }\n  ],\n  \"full_Ricci4\": \"Matrix([[-3*Lambda + 2*k1*k2 + 2*k1*k3 + 2*k2*k3 - n1**2/2 + n1*n2 + n1*n3 - n2**2/2 + n2*n3 - n3**2/2, 0, 0, 0], [0, Lambda, 0, 0], [0, 0, Lambda, 0], [0, 0, 0, Lambda]])\",\n  \"momentum\": \"off-diagonal Ricci4_0i identically zero; all original projections reconstructed\",\n  \"Ricci3\": [\n    \"2*(A**2 - B**2 + C**2)*(A**2 + B**2 - C**2)/(A**2*B**2*C**2)\",\n    \"-2*(A**2 - B**2 - C**2)*(A**2 + B**2 - C**2)/(A**2*B**2*C**2)\",\n    \"-2*(A**2 - B**2 - C**2)*(A**2 - B**2 + C**2)/(A**2*B**2*C**2)\"\n  ],\n  \"vertical_gaps\": [\n    \"(-4*A**2 + 4*C**2)*(A**2 - B**2 + C**2)/(A**2*B**2*C**2)\",\n    \"(-4*B**2 + 4*C**2)*(-A**2 + B**2 + C**2)/(A**2*B**2*C**2)\"\n  ],\n  \"quotient_Lie\": \"Matrix([[0, 2*A**2 - 2*B**2, 0], [2*A**2 - 2*B**2, 0, 0], [0, 0, 0]])\",\n  \"initial_shear_Lie\": \"Matrix([[-4*ss, 4*d, 0], [4*d, 4*ss, 0], [0, 0, 0]])\",\n  \"limitations\": [\n    \"not numerical evolution\",\n    \"general proof owns local-time quantifier\",\n    \"gap controls not claimed reached by a chosen development\",\n    \"direct quotient descent differs from existence of any quotient metric\"\n  ]\n}\n",
+      "stderr": ""
+    },
+    {
+      "name": "falsely_mark_every_control_as_directly_descended",
+      "mutant_path": "mutants/falsely_mark_every_control_as_directly_descended.py",
+      "mutant_sha256": "68d3df25d265aae2ce3617a142865bcab3cd0e6b4ca33e0e353edf156be121a1",
+      "author_rejected": false,
+      "author_failure": null,
+      "independent_control_rejected": true,
+      "independent_correspondence_failures": [
+        {
+          "control": 2,
+          "field": "direct_descent",
+          "expected": false,
+          "reported": true
+        },
+        {
+          "control": 3,
+          "field": "direct_descent",
+          "expected": false,
+          "reported": true
+        },
+        {
+          "control": 5,
+          "field": "direct_descent",
+          "expected": false,
+          "reported": true
+        }
+      ],
+      "stdout": "{\n  \"status\": \"PASS\",\n  \"python\": \"3.10.12\",\n  \"sympy\": \"1.13.1\",\n  \"source_sha256\": \"68d3df25d265aae2ce3617a142865bcab3cd0e6b4ca33e0e353edf156be121a1\",\n  \"exact_checks\": [\n    {\n      \"name\": \"spatial Ricci from Koszul\",\n      \"residual\": [\n        \"0\",\n        \"0\",\n        \"0\",\n        \"0\",\n        \"0\",\n        \"0\",\n        \"0\",\n        \"0\",\n        \"0\"\n      ]\n    },\n    {\n      \"name\": \"original full Lorentz Ricci after diagonal evolution\",\n      \"residual\": [\n        \"0\",\n        \"0\",\n        \"0\",\n        \"0\",\n        \"0\",\n        \"0\",\n        \"0\",\n        \"0\",\n        \"0\",\n        \"0\",\n        \"0\",\n        \"0\",\n        \"0\",\n        \"0\",\n        \"0\",\n        \"0\"\n      ]\n    },\n    {\n      \"name\": \"original Hamiltonian propagation\",\n      \"residual\": [\n        \"0\"\n      ]\n    },\n    {\n      \"name\": \"scalar derivative\",\n      \"residual\": [\n        \"0\"\n      ]\n    },\n    {\n      \"name\": \"diagonal size Ricci 0\",\n      \"residual\": [\n        \"0\"\n      ]\n    },\n    {\n      \"name\": \"diagonal size Ricci 1\",\n      \"residual\": [\n        \"0\"\n      ]\n    },\n    {\n      \"name\": \"diagonal size Ricci 2\",\n      \"residual\": [\n        \"0\"\n      ]\n    },\n    {\n      \"name\": \"vertical gap factor 0\",\n      \"residual\": [\n        \"0\"\n      ]\n    },\n    {\n      \"name\": \"vertical gap factor 1\",\n      \"residual\": [\n        \"0\"\n      ]\n    },\n    {\n      \"name\": \"full triaxial projector\",\n      \"residual\": [\n        \"0\",\n        \"0\",\n        \"0\",\n        \"0\",\n        \"0\",\n        \"0\",\n        \"0\",\n        \"0\",\n        \"0\"\n      ]\n    },\n    {\n      \"name\": \"Berger initial gap\",\n      \"residual\": [\n        \"0\"\n      ]\n    },\n    {\n      \"name\": \"discrete bracket automorphism ((1, -1, -1), 0, 1)\",\n      \"residual\": [\n        \"0\",\n        \"0\",\n        \"0\"\n      ]\n    },\n    {\n      \"name\": \"discrete bracket automorphism ((1, -1, -1), 1, 2)\",\n      \"residual\": [\n        \"0\",\n        \"0\",\n        \"0\"\n      ]\n    },\n    {\n      \"name\": \"discrete bracket automorphism ((1, -1, -1), 2, 0)\",\n      \"residual\": [\n        \"0\",\n        \"0\",\n        \"0\"\n      ]\n    },\n    {\n      \"name\": \"diagonal metric invariance (1, -1, -1)\",\n      \"residual\": [\n        \"0\",\n        \"0\",\n        \"0\",\n        \"0\",\n        \"0\",\n        \"0\",\n        \"0\",\n        \"0\",\n        \"0\"\n      ]\n    },\n    {\n      \"name\": \"full diagonal K invariance (1, -1, -1)\",\n      \"residual\": [\n        \"0\",\n        \"0\",\n        \"0\",\n        \"0\",\n        \"0\",\n        \"0\",\n        \"0\",\n        \"0\",\n        \"0\"\n      ]\n    },\n    {\n      \"name\": \"discrete bracket automorphism ((-1, 1, -1), 0, 1)\",\n      \"residual\": [\n        \"0\",\n        \"0\",\n        \"0\"\n      ]\n    },\n    {\n      \"name\": \"discrete bracket automorphism ((-1, 1, -1), 1, 2)\",\n      \"residual\": [\n        \"0\",\n        \"0\",\n        \"0\"\n      ]\n    },\n    {\n      \"name\": \"discrete bracket automorphism ((-1, 1, -1), 2, 0)\",\n      \"residual\": [\n        \"0\",\n        \"0\",\n        \"0\"\n      ]\n    },\n    {\n      \"name\": \"diagonal metric invariance (-1, 1, -1)\",\n      \"residual\": [\n        \"0\",\n        \"0\",\n        \"0\",\n        \"0\",\n        \"0\",\n        \"0\",\n        \"0\",\n        \"0\",\n        \"0\"\n      ]\n    },\n    {\n      \"name\": \"full diagonal K invariance (-1, 1, -1)\",\n      \"residual\": [\n        \"0\",\n        \"0\",\n        \"0\",\n        \"0\",\n        \"0\",\n        \"0\",\n        \"0\",\n        \"0\",\n        \"0\"\n      ]\n    },\n    {\n      \"name\": \"discrete bracket automorphism ((-1, -1, 1), 0, 1)\",\n      \"residual\": [\n        \"0\",\n        \"0\",\n        \"0\"\n      ]\n    },\n    {\n      \"name\": \"discrete bracket automorphism ((-1, -1, 1), 1, 2)\",\n      \"residual\": [\n        \"0\",\n        \"0\",\n        \"0\"\n      ]\n    },\n    {\n      \"name\": \"discrete bracket automorphism ((-1, -1, 1), 2, 0)\",\n      \"residual\": [\n        \"0\",\n        \"0\",\n        \"0\"\n      ]\n    },\n    {\n      \"name\": \"diagonal metric invariance (-1, -1, 1)\",\n      \"residual\": [\n        \"0\",\n        \"0\",\n        \"0\",\n        \"0\",\n        \"0\",\n        \"0\",\n        \"0\",\n        \"0\",\n        \"0\"\n      ]\n    },\n    {\n      \"name\": \"full diagonal K invariance (-1, -1, 1)\",\n      \"residual\": [\n        \"0\",\n        \"0\",\n        \"0\",\n        \"0\",\n        \"0\",\n        \"0\",\n        \"0\",\n        \"0\",\n        \"0\"\n      ]\n    },\n    {\n      \"name\": \"quotient direct descent Lie obstruction\",\n      \"residual\": [\n        \"0\",\n        \"0\",\n        \"0\",\n        \"0\",\n        \"0\",\n        \"0\",\n        \"0\",\n        \"0\",\n        \"0\"\n      ]\n    },\n    {\n      \"name\": \"unrotated initial full shear obstruction\",\n      \"residual\": [\n        \"0\",\n        \"0\",\n        \"0\",\n        \"0\",\n        \"0\",\n        \"0\",\n        \"0\",\n        \"0\",\n        \"0\"\n      ]\n    },\n    {\n      \"name\": \"normalized form helicity\",\n      \"residual\": [\n        \"0\"\n      ]\n    },\n    {\n      \"name\": \"lawful asymmetric initial Hamiltonian\",\n      \"residual\": [\n        \"0\"\n      ]\n    },\n    {\n      \"name\": \"actual initial horizontal splitting rate\",\n      \"residual\": [\n        \"0\"\n      ]\n    }\n  ],\n  \"controls\": [\n    {\n      \"squared_sizes\": [\n        \"1\",\n        \"1\",\n        \"9/4\"\n      ],\n      \"Ricci\": [\n        \"-1/2\",\n        \"-1/2\",\n        \"9/2\"\n      ],\n      \"gaps\": [\n        \"5\",\n        \"5\"\n      ],\n      \"direct_descent\": true\n    },\n    {\n      \"squared_sizes\": [\n        \"4\",\n        \"4\",\n        \"1\"\n      ],\n      \"Ricci\": [\n        \"7/8\",\n        \"7/8\",\n        \"1/8\"\n      ],\n      \"gaps\": [\n        \"-3/4\",\n        \"-3/4\"\n      ],\n      \"direct_descent\": true\n    },\n    {\n      \"squared_sizes\": [\n        \"1\",\n        \"3\",\n        \"2\"\n      ],\n      \"Ricci\": [\n        \"0\",\n        \"8/3\",\n        \"0\"\n      ],\n      \"gaps\": [\n        \"0\",\n        \"-8/3\"\n      ],\n      \"direct_descent\": true\n    },\n    {\n      \"squared_sizes\": [\n        \"3\",\n        \"1\",\n        \"2\"\n      ],\n      \"Ricci\": [\n        \"8/3\",\n        \"0\",\n        \"0\"\n      ],\n      \"gaps\": [\n        \"-8/3\",\n        \"0\"\n      ],\n      \"direct_descent\": true\n    },\n    {\n      \"squared_sizes\": [\n        \"1\",\n        \"1\",\n        \"1\"\n      ],\n      \"Ricci\": [\n        \"2\",\n        \"2\",\n        \"2\"\n      ],\n      \"gaps\": [\n        \"0\",\n        \"0\"\n      ],\n      \"direct_descent\": true\n    },\n    {\n      \"squared_sizes\": [\n        \"1\",\n        \"2\",\n        \"4\"\n      ],\n      \"Ricci\": [\n        \"-3/4\",\n        \"-5/4\",\n        \"15/4\"\n      ],\n      \"gaps\": [\n        \"9/2\",\n        \"5\"\n      ],\n      \"direct_descent\": true\n    }\n  ],\n  \"full_Ricci4\": \"Matrix([[-3*Lambda + 2*k1*k2 + 2*k1*k3 + 2*k2*k3 - n1**2/2 + n1*n2 + n1*n3 - n2**2/2 + n2*n3 - n3**2/2, 0, 0, 0], [0, Lambda, 0, 0], [0, 0, Lambda, 0], [0, 0, 0, Lambda]])\",\n  \"momentum\": \"off-diagonal Ricci4_0i identically zero; all original projections reconstructed\",\n  \"Ricci3\": [\n    \"2*(A**2 - B**2 + C**2)*(A**2 + B**2 - C**2)/(A**2*B**2*C**2)\",\n    \"-2*(A**2 - B**2 - C**2)*(A**2 + B**2 - C**2)/(A**2*B**2*C**2)\",\n    \"-2*(A**2 - B**2 - C**2)*(A**2 - B**2 + C**2)/(A**2*B**2*C**2)\"\n  ],\n  \"vertical_gaps\": [\n    \"(-4*A**2 + 4*C**2)*(A**2 - B**2 + C**2)/(A**2*B**2*C**2)\",\n    \"(-4*B**2 + 4*C**2)*(-A**2 + B**2 + C**2)/(A**2*B**2*C**2)\"\n  ],\n  \"quotient_Lie\": \"Matrix([[0, 2*A**2 - 2*B**2, 0], [2*A**2 - 2*B**2, 0, 0], [0, 0, 0]])\",\n  \"initial_shear_Lie\": \"Matrix([[-4*ss, 4*d, 0], [4*d, 4*ss, 0], [0, 0, 0]])\",\n  \"limitations\": [\n    \"not numerical evolution\",\n    \"general proof owns local-time quantifier\",\n    \"gap controls not claimed reached by a chosen development\",\n    \"direct quotient descent differs from existence of any quotient metric\"\n  ]\n}\n",
+      "stderr": ""
+    }
+  ],
+  "count": 8,
+  "author_rejections": 6,
+  "author_false_passes_independently_detected": 2,
+  "qualification": "Six additional core defects rejected; two saved-control reporting defects survive author assertions but fail independent correspondence. Frozen original controls were separately verified correct. No completeness claim."
+}
