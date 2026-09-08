@@ -25,4 +25,36 @@
 - CD2 QUESTION RECORDED after reviewed CD1 intake: see CD2_QUESTION.md. Joint
   development/propagation is now under assessment, not yet an established result.
 
-One reviewed substantive step complete; second underway; none banked/adopted.
+- 13:06UTC: CD1/checkpoint committed73544430 and push completed. Prior scientific
+  sources unchanged; only current tracking records the new authorized campaign.
+- CD2 primary mathematical-method screen completed; analytic first-order
+  normal form selected with explicit restriction, no claim smooth theory is
+  unavailable. A naive equal-regularity principal-symbol shortcut is examined,
+  not used as a UDT/no-solution verdict.
+- 13:04:19UTC: fresh /root/cd2_evolution_review source-first seal; frozen general
+  candidate sent subsequently, with author checker/output intake staggered.
+- 13:13:28UTC: author30 exact diagnostic groups/six nonzero controls pass;
+  code/output pins sent. CD2 analytic joint-development candidate unchanged,
+  review pending. Tool/string and guessed-manifest-path exceptions are recorded
+  separately from scientific evidence in step_02/EXECUTION_RECORD.md.
+
+- By13:26UTC: main read full CD2 final verdict/execution and authenticated all18
+  review payloads. VERIFIED-WITH-CAVEATS at LOCAL REAL ANALYTIC scope; original
+  product and analytic geometric uniqueness upheld. THREE author product
+  groups found vacuous and EXCLUDED, with actual false-pass probe preserved.
+  Initial argument/checker unchanged; zero repair cycles for both steps.
+- CD2's smooth-method shortcut failed its limited principal-symbol check;
+  this is not smooth nonexistence, instability or failure of optional law/UDT.
+- 13:29UTC: reviewed wrappers and decision brief prepared; current tracking
+  records the two-step scientific stop. Final delivery/preservation checks
+  are in COMPLETION_RECORD.md, not scientific promotion. No third question.
+
+- By13:32UTC: final summary/status fidelity PASS_WITH_CAVEATS, same CD2
+  reviewer context, no wording repair. No third scientific review claimed.
+- 13:36:38UTC: capped final354 audit finished exit0/PASS,6:42.65 wall,
+  RSS105984KiB, empty stderr; registry/verifier and reviewed status unchanged.
+  Operational post-review delivery receipts belong to COMPLETION_RECORD.md.
+
+Two reviewed substantive steps complete; none banked/adopted. Scientific work
+is stopped. Commit/push confirmation and final preservation are recorded in
+COMPLETION_RECORD.md, not inferred from this log or the four-hour budget.

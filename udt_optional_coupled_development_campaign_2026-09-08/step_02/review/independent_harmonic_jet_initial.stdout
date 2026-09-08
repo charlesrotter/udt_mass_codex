@@ -1,0 +1,172 @@
+{
+  "arithmetic": "exact Fraction",
+  "checks": [
+    "0_initial_harmonic",
+    "0_initial_spatial_harmonic_rate",
+    "0_reduced_metric_equation",
+    "0_normal_harmonic_rate_from_constraints",
+    "0_FULL_original_Ricci",
+    "0_wave_normal_coefficient_half",
+    "0_covector_geodesic_normal_form",
+    "0_FULL_initial_covector_closure",
+    "0_null_norm_and_derivatives",
+    "0_conservation_normal_form",
+    "0_FULL_initial_product_normal_rate",
+    "1_initial_harmonic",
+    "1_initial_spatial_harmonic_rate",
+    "1_reduced_metric_equation",
+    "1_normal_harmonic_rate_from_constraints",
+    "1_FULL_original_Ricci",
+    "1_wave_normal_coefficient_half",
+    "1_covector_geodesic_normal_form",
+    "1_FULL_initial_covector_closure",
+    "1_null_norm_and_derivatives",
+    "1_conservation_normal_form",
+    "1_FULL_initial_product_normal_rate",
+    "2_initial_harmonic",
+    "2_initial_spatial_harmonic_rate",
+    "2_reduced_metric_equation",
+    "2_normal_harmonic_rate_from_constraints",
+    "2_FULL_original_Ricci",
+    "2_wave_normal_coefficient_half",
+    "2_covector_geodesic_normal_form",
+    "2_FULL_initial_covector_closure",
+    "2_null_norm_and_derivatives",
+    "2_conservation_normal_form",
+    "2_FULL_initial_product_normal_rate",
+    "3_initial_harmonic",
+    "3_initial_spatial_harmonic_rate",
+    "3_reduced_metric_equation",
+    "3_normal_harmonic_rate_from_constraints",
+    "3_FULL_original_Ricci",
+    "3_wave_normal_coefficient_half",
+    "3_covector_geodesic_normal_form",
+    "3_FULL_initial_covector_closure",
+    "3_null_norm_and_derivatives",
+    "3_conservation_normal_form",
+    "3_FULL_initial_product_normal_rate"
+  ],
+  "checks_passed": 44,
+  "python": "3.10.12",
+  "red_paths": [
+    {
+      "name": "reverse_negative_K_momentum_guard",
+      "residual": [
+        "0",
+        "-35/6",
+        "0",
+        "0"
+      ],
+      "status": "RED"
+    },
+    {
+      "name": "reverse_negative_K_FULL_Ricci_guard",
+      "residual": [
+        "0",
+        "-35/12",
+        "0",
+        "0",
+        "-35/12",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "status": "RED"
+    },
+    {
+      "name": "wrong_harmonic_lapse_rate",
+      "residual": [
+        "-47321/16800",
+        "0",
+        "0",
+        "0"
+      ],
+      "status": "RED"
+    },
+    {
+      "name": "erase_density_area_evolution",
+      "residual": [
+        "-224/135"
+      ],
+      "status": "RED"
+    },
+    {
+      "name": "drop_spatial_phase_derivative",
+      "residual": [
+        "-2/9"
+      ],
+      "status": "RED"
+    }
+  ],
+  "reused_reviewer_utility_sha256": "06c96d1df44bc67f697ebbe9a6100cdc0f281e20d681e61fdb7ed7c423cb8071",
+  "values": {
+    "0": {
+      "A": "-14093/11200",
+      "Bprime": "1199/31500",
+      "Ric00": "-35/24",
+      "Ric01": "35/24",
+      "T": "-35/24",
+      "n": "28/45",
+      "n_time": "224/135",
+      "q_time": [
+        "26/9",
+        "-2/9",
+        "0",
+        "0"
+      ]
+    },
+    "1": {
+      "A": "851/10080",
+      "Bprime": "-5143/13440",
+      "Ric00": "92/75",
+      "Ric01": "-14/25",
+      "T": "14/25",
+      "n": "18/25",
+      "n_time": "-108/125",
+      "q_time": [
+        "-291/220",
+        "3/11",
+        "0",
+        "0"
+      ]
+    },
+    "2": {
+      "A": "23810585/1806336",
+      "Bprime": "23463295/6422528",
+      "Ric00": "27687/6272",
+      "Ric01": "-30375/6272",
+      "T": "30375/6272",
+      "n": "75/32",
+      "n_time": "25/24",
+      "q_time": [
+        "-363/1456",
+        "-5/13",
+        "0",
+        "0"
+      ]
+    },
+    "3": {
+      "A": "1181/26460",
+      "Bprime": "155138/416745",
+      "Ric00": "-3926/1323",
+      "Ric01": "1280/1323",
+      "T": "-1280/1323",
+      "n": "40/49",
+      "n_time": "-200/147",
+      "q_time": [
+        "-383/189",
+        "1/7",
+        "0",
+        "0"
+      ]
+    }
+  }
+}

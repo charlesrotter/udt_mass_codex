@@ -1,0 +1,11 @@
+{
+  "actual_fixed_product_residual": "-5/3",
+  "author_guard_still_passes": true,
+  "ceiling": "three author groups are vacuous; CD1/proof product result is not refuted",
+  "extracted_expression": "rho * a * a * E - rho * a * a * E",
+  "generic_author_residual": "0",
+  "mutated_declared_s0": "2",
+  "python": "3.10.12",
+  "status": "ACTUAL_FIXED_PRODUCT_GUARD_RED",
+  "sympy": "1.13.1"
+}

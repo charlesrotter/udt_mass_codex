@@ -198,13 +198,17 @@ The optional NONZERO comparison is NOT an admitted extension of G312's bounded v
 Fixed/free data distinctions and FULL ambient-neighborhood covector closure remain controlling.
 Completed G369 source assessment is reused: the examined admitted fragment does not select
 this source law. Reconstruction from a metric is not independent-data coupled evolution.
-Charles approved the bounded OPTIONAL coupled-data/development assessment:
-`udt_optional_coupled_development_campaign_2026-09-08/WORK_ORDER.md` and its compact CAMPAIGN_LOG.md.
-CD1 has a fresh reviewed conditional varying initial-data construction; CD2 is now assessing
-joint local development and original-product propagation. Two reviewed steps/four hours maximum,
-one same-premise repair per step; no automatic banking, physical adoption or successor campaign.
-This tests optional dynamical coherence, not a UDT source derivation. The vacuum-carried alternative
-remains available. Physical source-response identification remains OPEN; no observations.
+The authorized OPTIONAL coupled-data/development assessment has reached its two-reviewed-step stop:
+`udt_optional_coupled_development_campaign_2026-09-08/DECISION_BRIEF.md`; CAMPAIGN_LOG.md records
+history and COMPLETION_RECORD.md owns final delivery checks. CD1 supplies a reviewed conditional
+smooth constrained initial-data family; CD2 supplies its LOCAL REAL ANALYTIC joint development,
+analytic geometric uniqueness and original-product propagation. Both are VERIFIED-WITH-CAVEATS,
+NOT_BANKED; THREE vacuous author product checks are excluded and preserved with false-pass evidence.
+Optional law, chosen product, restricted data/method class and all review caveats remain explicit.
+No smooth well-posedness, stability, physical identification or UDT source derivation follows.
+Charles's next gate is conditional banking/direction; no new campaign is authorized.
+The vacuum-carried alternative remains available; source-response identification is OPEN.
+No physical adoption, observations, accepted-grade, canon or fixed-manuscript change.
 Clock and complementary campaigns are exhausted; emergence remains parallel.
 This instrument-specific evidence gap does not block geometric or emergence research.
 The G352 physical-realization gap does not imply that a new physical premise is necessary.

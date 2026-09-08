@@ -54,7 +54,11 @@ is not independently supplied-data coupled evolution. Current direction proposal
 `udt_g370_g371_conditional_banking_2026-09-08/NEXT_CAMPAIGN_PROPOSAL.md`.
 Charles approved its two-step/four-hour optional coupled-development campaign:
 `udt_optional_coupled_development_campaign_2026-09-08/CAMPAIGN_LOG.md`.
-CD1 is reviewed conditionally; CD2 underway, no banking/adoption. LIVE wins.
+CD1--CD2 reached the two-reviewed-step stop: smooth initial data, then LOCAL
+ANALYTIC joint development/original-product propagation; both conditional,
+NOT_BANKED. Three vacuous author product checks are excluded and preserved.
+See its DECISION_BRIEF.md and COMPLETION_RECORD.md; banking/direction requires
+Charles, with no automatic successor campaign or physical adoption. LIVE wins.
 The earlier tidal proposal is historical, not a pending permission gate.
 Do not demand unique initial/query data or hide an extra measurement rule in a definition.
 The central manuscript remains the fixed through-G352 edition, not current tracking.

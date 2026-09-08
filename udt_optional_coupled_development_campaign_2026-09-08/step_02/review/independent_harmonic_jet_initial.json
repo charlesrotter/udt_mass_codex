@@ -1,0 +1,15 @@
+{
+  "command": [
+    "python3",
+    "-B",
+    "udt_optional_coupled_development_campaign_2026-09-08/step_02/review/independent_harmonic_jet_check.py"
+  ],
+  "cwd": "/home/udt-admin/udt_mass_codex",
+  "started_utc": "2026-09-08T13:07:44.634755+00:00",
+  "duration_seconds": 0.3319626309967134,
+  "returncode": 0,
+  "timeout": false,
+  "address_space_bytes": 536870912,
+  "cpu_seconds": 60,
+  "maxrss_kib": 17576
+}

@@ -87,9 +87,11 @@ to the exact changed source bytes, fixed manuscript, snapshot, and affected depe
   its `EXECUTION_RECORD.md` owns promotion gate completion.
 - Approved bounded theory direction proposal (historical proposal wording retained):
   `udt_g370_g371_conditional_banking_2026-09-08/NEXT_CAMPAIGN_PROPOSAL.md`.
-- Authorized optional independent-data coupled-development campaign:
+- Optional independent-data coupled-development campaign at its two-reviewed-step stop:
   `udt_optional_coupled_development_campaign_2026-09-08/WORK_ORDER.md`;
-  its `CAMPAIGN_LOG.md` owns current step/review state, not scientific grades.
+  its `CAMPAIGN_LOG.md` owns step/review state, not scientific grades;
+  `DECISION_BRIEF.md` owns the conditional result/next decision and
+  `COMPLETION_RECORD.md` records delivery/preservation gates. CD1--CD2 NOT_BANKED.
 
 ## Retained comparison and observational lanes
 

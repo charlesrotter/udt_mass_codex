@@ -1,0 +1,111 @@
+{
+  "python": "3.10.12",
+  "sympy": "1.13.1",
+  "arithmetic": "exact symbolic/rational; no production PDE or time truncation",
+  "shared_geometry_utility": "udt_source_metric_connection_campaign_2026-09-08/step_03/review/independent_interface_check.py",
+  "shared_geometry_sha256": "06c96d1df44bc67f697ebbe9a6100cdc0f281e20d681e61fdb7ed7c423cb8071",
+  "checks": [
+    "general_null_root",
+    "general_future_time_component",
+    "discriminant_positive_domain",
+    "displayed_root_branch",
+    "Hamiltonian_derivative_equals_minus_velocity",
+    "full_continuity_variable_change",
+    "initial_full_H_0",
+    "initial_tangential_DH_0",
+    "reduced_equations_all_components_0",
+    "normal_gauge_derivative_0",
+    "ORIGINAL_equations_all_components_0",
+    "initial_independent_density_product_0",
+    "initial_full_H_1",
+    "initial_tangential_DH_1",
+    "reduced_equations_all_components_1",
+    "normal_gauge_derivative_1",
+    "ORIGINAL_equations_all_components_1",
+    "initial_independent_density_product_1",
+    "initial_full_H_2",
+    "initial_tangential_DH_2",
+    "reduced_equations_all_components_2",
+    "normal_gauge_derivative_2",
+    "ORIGINAL_equations_all_components_2",
+    "initial_independent_density_product_2",
+    "subsidiary_normal_projection",
+    "subsidiary_mixed_projection",
+    "transverse_velocity_linearization",
+    "principal_block_square",
+    "nonzero_Jordan_block_not_diagonalizable",
+    "Jordan_mode_transport_residual"
+  ],
+  "passed": 30,
+  "red_controls": [
+    {
+      "name": "wrong_null_root_is_past",
+      "exact_nonzero_residuals": [
+        "-2*sqrt(6)/3"
+      ]
+    },
+    {
+      "name": "wrong_lapse_rate_does_not_set_H_zero",
+      "exact_nonzero_residuals": [
+        "35608/19845"
+      ]
+    },
+    {
+      "name": "erasing_nonzero_source_term",
+      "exact_nonzero_residuals": [
+        "25/7"
+      ]
+    },
+    {
+      "name": "initial_H_alone_not_zero_normal_data",
+      "exact_nonzero_residuals": [
+        "1"
+      ]
+    },
+    {
+      "name": "treat_repeated_real_eigenvalues_as_full_eigenbasis",
+      "exact_nonzero_residuals": [
+        "3/2"
+      ]
+    },
+    {
+      "name": "omit_full_initial_phase_factor",
+      "exact_nonzero_residuals": [
+        "1/2"
+      ]
+    }
+  ],
+  "values": {
+    "metric_jet_0": {
+      "beta": "-4/7",
+      "Lambda": "0",
+      "E": "5/3",
+      "rho": "9/4",
+      "A": "-37762/19845",
+      "B": "7/5",
+      "original_Ric00": "-25/7",
+      "original_Ric01": "25/7"
+    },
+    "metric_jet_1": {
+      "beta": "5/8",
+      "Lambda": "-2",
+      "E": "3/2",
+      "rho": "16/25",
+      "A": "395131/483840",
+      "B": "-3/4",
+      "original_Ric00": "29/10",
+      "original_Ric01": "-9/10"
+    },
+    "metric_jet_2": {
+      "beta": "-1",
+      "Lambda": "3/2",
+      "E": "4/3",
+      "rho": "2",
+      "A": "-71/45",
+      "B": "1",
+      "original_Ric00": "-91/18",
+      "original_Ric01": "32/9"
+    }
+  },
+  "ceiling": "diagnostics only; general analytic normal-form/gauge/product proof requires review"
+}
