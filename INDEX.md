@@ -1,5 +1,10 @@
 # INDEX — compact current pointers; `LIVE.md` wins
 
+- G374--G375 exact-scope VS banking and completion gates:
+  `udt_g374_g375_conditional_banking_2026-09-08/BANKING_RECORD.md`.
+- Authorized Hopfion reassessment, current compact log:
+  `udt_hopfion_bridge_stability_reassessment_2026-09-08/CAMPAIGN_LOG.md`.
+
 1. Follow `AGENTS.md`.
 2. Read the current blocks in `LIVE.md` and `HANDOFF.md`.
 3. Read `CURRENT_RESEARCH_PROGRAM.md`.
@@ -8,7 +13,7 @@
 6. Read `INDEX.md` and `MEMORY.md`, then stop and give the orientation report.
 7. After orientation, query only load-bearing evidence.
 
-Authority: the exact 356-row `CURRENT_SCIENTIFIC_PREMISES.tsv`. For any result ID, its current
+Authority: the exact 358-row `CURRENT_SCIENTIFIC_PREMISES.tsv`. For any result ID, its current
 grade, maximum conclusion, and evidence `source_path` belong there. For a known pre-reorganization
 path only, query `research/_registry/CURRENT_ARTIFACT_PATHS.tsv`; it is not a frontier index.
 
@@ -97,10 +102,11 @@ to the exact changed source bytes, fixed manuscript, snapshot, and affected depe
   its `EXECUTION_RECORD.md` owns promotion completion. Three vacuous checks stay excluded.
   Optional source-model branch PAUSED. Its `NEXT_CAMPAIGN_PROPOSAL.md` is the
   historical proposal subsequently approved by Charles.
-- Core vacuum/common-scale campaign, two reviewed conditional candidates, NOT_BANKED:
+- Core vacuum/common-scale campaign, two reviewed conditional results; original NOT_BANKED history preserved:
   `udt_vacuum_common_scale_campaign_2026-09-08/WORK_ORDER.md`;
   its `DECISION_BRIEF.md` and `CAMPAIGN_LOG.md` own results/review state, not accepted grades.
-  VS1 compatibility/finite-data and VS2 fixed-domain rigidity/null-sector boundary await owner decision.
+  VS1 compatibility/finite-data and VS2 fixed-domain rigidity/null-sector boundary have owner banking authority;
+  G374--G375 integration gates are tracked in the banking package above.
 
 ## Retained comparison and observational lanes
 

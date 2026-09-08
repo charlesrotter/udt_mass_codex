@@ -1,0 +1,6 @@
+{
+  "current_sha256": "a68a4faeaafc42fa419bc0b8d2b58f6259b43ea47da3f6a7c6e610bc64223c9a",
+  "reconstructed_initial_sha256": "80ab03dbead4064b2b9cfa9d4358bc68a7ff902337a09f25f065d501512b44aa",
+  "exact_replaced_spans": 2,
+  "result": "PASS: only two stale current-status spans corrected; no source/proof change"
+}

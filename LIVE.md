@@ -77,7 +77,7 @@ completion consequence—not a local input, wall, center, or numerical scale.
   eventwise algebraic curvature, local phase/optional compact obstruction, and bounded-weight
   robustness. Assumptions and reviews remain controlling; no physical identification or canon.
 
-Authority: the exact 356-row `CURRENT_SCIENTIFIC_PREMISES.tsv`, through G373. Use `INDEX.md` for
+Authority: the exact 358-row `CURRENT_SCIENTIFIC_PREMISES.tsv`, through G375. Use `INDEX.md` for
 current evidence routes and `archive/STARTUP_SURFACE_HISTORY.md` for nonauthoritative historical
 startup surfaces.
 
@@ -211,9 +211,17 @@ No smooth well-posedness, stability, physical identification or selection by UDT
 The optional source-model branch is PAUSED after its completed bounded dynamical-coherence campaign.
 The approved core vacuum/common-scale campaign returned two reviewed conditional candidates:
 `udt_vacuum_common_scale_campaign_2026-09-08/DECISION_BRIEF.md`.
-VS1--VS2 are VERIFIED-WITH-CAVEATS, NOT_BANKED; its execution/log records own publication state.
+Charles authorizes exact-scope conditional banking of VS1--VS2 as G374--G375:
+`udt_g374_g375_conditional_banking_2026-09-08/BANKING_RECORD.md`.
+Integration is COMPLETE after full358 and fresh fidelity gates; its EXECUTION_RECORD.md owns completion.
+Fixed supplied base geometry, local positive domains, fixed/free target scalar and all review caveats remain.
+No particle stability, physical size or absolute scale follows; original evidence remains unchanged.
 G131 reduced-control conformal blindness is NOT blindness of G176/G180 completed tape/depth.
-Charles's banking/direction decision is next; no new campaign is authorized and no automatic promotion.
+The Hopfion bridge-and-stability reassessment is AUTHORIZED and IN PROGRESS:
+`udt_hopfion_bridge_stability_reassessment_2026-09-08/WORK_ORDER.md` and CAMPAIGN_LOG.md.
+At most3 substantive reviewed steps/4h, fresh review and one same-premise repair per step;
+no new campaign is authorized beyond this bounded scope and no automatic promotion.
+New Hopfion results stay unpromoted. Carrier/action/boundary/evolution adoption is not authorized.
 No physical adoption, earlier-grade, canon, fixed-manuscript or observation change.
 Clock and complementary campaigns are exhausted; emergence remains parallel.
 No physical adoption, generic instrument certification or distinctive UDT signal follows.

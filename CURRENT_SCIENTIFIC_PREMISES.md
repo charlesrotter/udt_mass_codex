@@ -1,6 +1,6 @@
 # Current scientific premises — bounded orientation
 
-`LIVE.md` owns current status. The exact 356-row `CURRENT_SCIENTIFIC_PREMISES.tsv` owns row-level
+`LIVE.md` owns current status. The exact 358-row `CURRENT_SCIENTIFIC_PREMISES.tsv` owns row-level
 grades and source paths; run `python3 verify_current_scientific_premises.py` before querying it.
 
 ## Foundational and adopted layer
@@ -61,6 +61,13 @@ center, or scale. Strong local CSN is `CHALLENGED_OWNER_POSTULATE_NOT_DERIVED` a
 | G371 | Full ambient-covector fixed-product matching and fixed/free phase-label-measure classification; no coupled independent-data evolution |
 | G372 | Every smooth seed in the restricted initial-data family solves all four constraints and the initial product; no CD1 ambient development |
 | G373 | LOCAL REAL ANALYTIC joint development, analytic geometric uniqueness and original-product propagation; not smooth well-posedness or stability |
+| G374 | Fixed-base local positive conformal Einstein compatibility, at most six compatible inverse-scale data; all-neighborhood-loop realization, not whole-geometry DOF |
+| G375 | Fixed local Einstein base: inverse-scale solution dimensions6/2/1 with stated Weyl/parallel-null alternatives; fixed-B/germ, positivity and fixed-target restrictions |
+
+G374--G375 exact-scope banking is COMPLETE after full358 and fresh fidelity
+gates in `udt_g374_g375_conditional_banking_2026-09-08/`; its execution record owns receipts.
+The entire original VS candidates/results/reviews control. No particle stability,
+physical size or absolute scale follows. New Hopfion campaign candidates remain unpromoted.
 
 G372--G373 carry Charles's exact-scope conditional banking authority for CD1--CD2:
 `udt_g372_g373_conditional_banking_2026-09-08/BANKING_RECORD.md`.
@@ -75,7 +82,8 @@ The optional source-model branch is PAUSED. No physical identification, UDT sele
 smooth well-posedness, stability, earlier-grade, canon or fixed-manuscript change.
 The bounded core vacuum/common-scale campaign returned VS1--VS2 reviewed conditional
 candidates; udt_vacuum_common_scale_campaign_2026-09-08/DECISION_BRIEF.md owns the synthesis.
-They are NOT_BANKED and do not change this registry's scientific grades; owner decision is next.
+Charles now authorizes their exact-scope conditional banking as G374--G375;
+the banking package owns integration gates. Original NOT_BANKED evidence remains unchanged.
 
 G370--G371 are Charles-authorized conditional banking of RT1--RT2 at exactly
 their reviewed scopes: `udt_g370_g371_conditional_banking_2026-09-08/BANKING_RECORD.md`.
@@ -143,8 +151,9 @@ axes UNTESTED. G364--G366 bank RC1--RC3 conditionally at their exact reviewed lo
 Chosen recipe, domain/method restrictions, RC2 late-hint exposure and all review/execution caveats
 remain. Original evidence stays unchanged. No generic behavior or physical identification follows.
 Geometric calibration/testing and emergence remain parallel, neither prerequisite.
-The core vacuum/common-scale campaign's two substantive reviews are complete;
-no physical adoption, scientific banking or automatic successor is authorized.
+The core vacuum/common-scale campaign's two substantive reviews are complete.
+Only its exact-scope G374--G375 banking and the bounded Hopfion reassessment are
+now authorized; no physical adoption, further promotion or automatic successor.
 
 | Object | Status | Guard |
 |---|---|---|

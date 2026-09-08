@@ -1,0 +1,11 @@
+fatal: packfile .git/objects/pack/pack-53c0fbf0a98f5e7a80c240d452d1b245a22260e1.pack cannot be mapped, check sys.vm.max_map_count and/or RLIMIT_DATA: Cannot allocate memory
+Traceback (most recent call last):
+  File "/home/udt-admin/udt_mass_codex/udt_g374_g375_conditional_banking_2026-09-08/review/check_fidelity.py", line 54, in <module>
+    insist('original_blob:' + path, payload == git('show', BASE + ':' + path))
+  File "/home/udt-admin/udt_mass_codex/udt_g374_g375_conditional_banking_2026-09-08/review/check_fidelity.py", line 32, in git
+    return subprocess.check_output(['git', *args], cwd=ROOT, timeout=10)
+  File "/usr/lib/python3.10/subprocess.py", line 421, in check_output
+    return run(*popenargs, stdout=PIPE, timeout=timeout, check=True,
+  File "/usr/lib/python3.10/subprocess.py", line 526, in run
+    raise CalledProcessError(retcode, process.args,
+subprocess.CalledProcessError: Command '['git', 'show', '7e6d144a9f45fc2cee6d041448e6b6ee9e324cc3:udt_vacuum_common_scale_campaign_2026-09-08/full356.stderr']' returned non-zero exit status 128.

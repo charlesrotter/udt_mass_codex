@@ -1,0 +1,18 @@
+{
+  "command": [
+    "git",
+    "diff",
+    "--exit-code",
+    "7e6d144a9f45fc2cee6d041448e6b6ee9e324cc3",
+    "--",
+    "udt_vacuum_common_scale_campaign_2026-09-08"
+  ],
+  "cwd": "/home/udt-admin/udt_mass_codex",
+  "started_utc": "2026-09-08T16:12:48.439856+00:00",
+  "duration_seconds": 0.006130933994427323,
+  "returncode": 0,
+  "timeout": false,
+  "address_space_bytes": 536870912,
+  "cpu_seconds": 60,
+  "maxrss_kib": 14400
+}

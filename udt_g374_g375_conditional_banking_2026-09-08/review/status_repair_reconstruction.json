@@ -1,0 +1,16 @@
+{
+  "command": [
+    "python3",
+    "-B",
+    "-c",
+    "import hashlib,json\nfrom pathlib import Path\np=Path(\"CURRENT_SCIENTIFIC_PREMISES.md\")\ncurrent=p.read_text()\npairs=[\n(\"Charles now authorizes their exact-scope conditional banking as G374--G375;\\nthe banking package owns integration gates. Original NOT_BANKED evidence remains unchanged.\",\n\"They are NOT_BANKED and do not change this registry's scientific grades; owner decision is next.\"),\n(\"The core vacuum/common-scale campaign's two substantive reviews are complete.\\nOnly its exact-scope G374--G375 banking and the bounded Hopfion reassessment are\\nnow authorized; no physical adoption, further promotion or automatic successor.\",\n\"The core vacuum/common-scale campaign's two substantive reviews are complete;\\nno physical adoption, scientific banking or automatic successor is authorized.\")]\nrestored=current\nfor new,old in pairs:\n assert restored.count(new)==1\n restored=restored.replace(new,old)\nactual=hashlib.sha256(current.encode()).hexdigest()\nprior=hashlib.sha256(restored.encode()).hexdigest()\nassert actual==\"a68a4faeaafc42fa419bc0b8d2b58f6259b43ea47da3f6a7c6e610bc64223c9a\"\nassert prior==\"80ab03dbead4064b2b9cfa9d4358bc68a7ff902337a09f25f065d501512b44aa\"\nprint(json.dumps({\"current_sha256\":actual,\"reconstructed_initial_sha256\":prior,\"exact_replaced_spans\":2,\"result\":\"PASS: only two stale current-status spans corrected; no source/proof change\"},indent=2))"
+  ],
+  "cwd": "/home/udt-admin/udt_mass_codex",
+  "started_utc": "2026-09-08T16:28:28.813749+00:00",
+  "duration_seconds": 0.015257863997248933,
+  "returncode": 0,
+  "timeout": false,
+  "address_space_bytes": 536870912,
+  "cpu_seconds": 60,
+  "maxrss_kib": 14400
+}

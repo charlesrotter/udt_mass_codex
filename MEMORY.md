@@ -1,8 +1,15 @@
 # MEMORY — compact pointer only
 
-`LIVE.md` wins. Exact premise authority is the 356-row `CURRENT_SCIENTIFIC_PREMISES.tsv`.
+`LIVE.md` wins. Exact premise authority is the 358-row `CURRENT_SCIENTIFIC_PREMISES.tsv`.
 
 ## Current picture
+
+VS1--VS2 exact-scope conditional banking as G374--G375 is COMPLETE after
+full358/fresh fidelity gates in `udt_g374_g375_conditional_banking_2026-09-08/`.
+Fixed base, local positive domain and target-scalar caveats survive; no physical
+size, particle stability or absolute scale. The bounded Hopfion reassessment is
+authorized under `udt_hopfion_bridge_stability_reassessment_2026-09-08/WORK_ORDER.md`;
+new Hopfion results remain unpromoted. Current log owns progress, not old pending gates.
 
 The founded reciprocal kernel acts on supplied ordered depth. Complete-pair evaluation is
 conditional and places `B,Q,S,Y,Z` before readout. W5/W6 are working clarifications. Universal
@@ -64,7 +71,8 @@ Optional law, restricted family, analytic-only uniqueness and all review limits 
 No smooth well-posedness, stability, physical identification or UDT selection follows.
 Optional source-model branch PAUSED. The core vacuum/common-scale campaign returned
 two reviewed conditional candidates: udt_vacuum_common_scale_campaign_2026-09-08/DECISION_BRIEF.md.
-VS1--VS2 NOT_BANKED; owner banking/direction decision is next, no automatic successor.
+VS1--VS2 now have exact-scope G374--G375 banking authority; original NOT_BANKED evidence is unchanged.
+Integration gates remain in the banking package; only the bounded Hopfion successor is authorized.
 G131 reduced-control blindness is not G176/G180 completed tape/depth blindness. LIVE wins.
 The earlier tidal proposal is historical, not a pending permission gate.
 Do not demand unique initial/query data or hide an extra measurement rule in a definition.
