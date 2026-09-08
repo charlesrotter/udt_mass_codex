@@ -1,0 +1,122 @@
+{
+  "actual_red_controls": [
+    {
+      "actual_rejection": "[18, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]",
+      "name": "wrong phase-density exponent"
+    },
+    {
+      "actual_rejection": "[-12, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]",
+      "name": "source coefficient sign reversed"
+    },
+    {
+      "actual_rejection": "-2",
+      "name": "wrong beta positivity"
+    },
+    {
+      "actual_rejection": "[0, -3/2, 0, 0]",
+      "name": "nonlinear rephase falsely called unchanged current"
+    },
+    {
+      "actual_rejection": "[1/3]",
+      "name": "factorization alone falsely passes conservation"
+    },
+    {
+      "actual_rejection": "rank=2",
+      "name": "scalar invariants falsely substituted for rank-one tensor"
+    },
+    {
+      "actual_rejection": "[0, 0, 1, 0]",
+      "name": "conservation/nullness falsely implies phase integrability"
+    }
+  ],
+  "algebraic_only": {
+    "rank": 2,
+    "trace_powers": [
+      "0",
+      "0",
+      "0",
+      "0"
+    ]
+  },
+  "checks": [
+    "wave scalar sign1",
+    "wave full Ricci sign1",
+    "wave full source equality sign1",
+    "wave exact null phase sign1",
+    "wave conserved current sign1",
+    "wave direct Bianchi sign1",
+    "wave observer norm sign1",
+    "wave future observer readout sign1",
+    "wave canonical future root square sign1",
+    "wave canonical root future sign1",
+    "nonlinear rephase full source sign1",
+    "nonlinear rephase conserved sign1",
+    "nonlinear rephase current scaling sign1",
+    "wave scalar sign-1",
+    "wave full Ricci sign-1",
+    "wave full source equality sign-1",
+    "wave exact null phase sign-1",
+    "wave conserved current sign-1",
+    "wave direct Bianchi sign-1",
+    "wave observer norm sign-1",
+    "wave future observer readout sign-1",
+    "wave canonical future root square sign-1",
+    "wave canonical root future sign-1",
+    "nonlinear rephase full source sign-1",
+    "nonlinear rephase conserved sign-1",
+    "nonlinear rephase current scaling sign-1",
+    "warped metric determinant",
+    "warped full Ricci",
+    "warped scalar variable",
+    "warped full null rank-one S",
+    "warped actual divergence",
+    "warped direct contracted Bianchi",
+    "warped Bianchi current coefficient",
+    "rank-two trace invariants all vanish",
+    "rank-two nilpotent cube",
+    "rank-two square explicit nonzero",
+    "supplied twisting current null",
+    "supplied twisting current conserved",
+    "twisting Frobenius explicit component"
+  ],
+  "exact_diagnostic_groups": 39,
+  "python": "3.10.12",
+  "scope": "Exact diagnostics, not proof or physical source adoption.",
+  "status": "PASS",
+  "supplied_twisting_current_not_Ricci_factorization": {
+    "actual_R": "0",
+    "actual_Ricci": "Matrix([[0, 0, 0, 0], [0, 1/2, 0, 0], [0, 0, 0, 0], [0, 0, 0, 0]])",
+    "actual_tracefree_Ricci": "Matrix([[0, 0, 0, 0], [0, 1/2, 0, 0], [0, 0, 0, 0], [0, 0, 0, 0]])",
+    "q_wedge_dq": {
+      "(0, 1, 2)": "0",
+      "(0, 1, 3)": "0",
+      "(0, 2, 3)": "1",
+      "(1, 2, 3)": "0"
+    }
+  },
+  "sympy": "1.13.1",
+  "warped_actual_metric": {
+    "R": "4*u",
+    "Ric": "Matrix([[r*(r*u**2 + 1)/3, u, 0, 0], [u, 0, 0, 0], [0, 0, r**2*u, 0], [0, 0, 0, r**2*u]])",
+    "S": "Matrix([[r/3, 0, 0, 0], [0, 0, 0, 0], [0, 0, 0, 0], [0, 0, 0, 0]])",
+    "div_j": "1/3"
+  },
+  "wave_metrics": [
+    {
+      "R": "0",
+      "Ric_uu": "2*u**2 + 4",
+      "div_j": "0",
+      "new_j_r_at_u1": "1/2",
+      "old_j_r_at_u1": "2",
+      "sign": 1
+    },
+    {
+      "R": "0",
+      "Ric_uu": "-2*u**2 - 4",
+      "div_j": "0",
+      "new_j_r_at_u1": "1/2",
+      "old_j_r_at_u1": "2",
+      "sign": -1
+    }
+  ]
+}

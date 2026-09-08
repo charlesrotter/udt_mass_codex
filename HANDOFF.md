@@ -149,6 +149,9 @@ and source-response closure remain OPEN. Original candidate/review/history bytes
 Charles also authorized a bounded metric-only reconstructibility test, after banking gates:
 `udt_metric_source_reconstructibility_campaign_2026-09-08/WORK_ORDER.md`.
 At most2 reviewed steps/3h total including banking, hard stop07:24UTC2026-09-08.
+Banking commit7dd52b7a is pushed. RT1 is VERIFIED-WITH-CAVEATS after fresh review,
+no repair; exact scope in step_01/REVIEWED_RESULT.md. RT2's fixed-product/data
+question is recorded in RT2_PLANNED_QUESTION.md. No RT result is banked.
 Beyond that bounded scope, no new campaign is authorized. No observations or coupled solve.
 Clock and complementary campaigns are exhausted; emergence remains parallel.
 No physical adoption, generic instrument certification or distinctive UDT signal follows.

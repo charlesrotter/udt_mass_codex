@@ -1,0 +1,27 @@
+{
+  "actual_quartic_R": "0",
+  "actual_quartic_Ricci": "Matrix([[x**2, 0, 0, 0], [0, 0, 0, 0], [0, 0, 0, 0], [0, 0, 0, 0]])",
+  "actual_quartic_root_exterior": "Matrix([[0, 0, -1, 0], [0, 0, 0, 0], [1, 0, 0, 0], [0, 0, 0, 0]])",
+  "base_exact_diagnostic_groups_replayed": 39,
+  "exposure": "Post-candidate; reviewer own engine, no author code import.",
+  "new_actual_red_controls": [
+    {
+      "actual_rejection": "[0, 0, -1, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0]",
+      "name": "canonical root falsely treated as exact phase"
+    }
+  ],
+  "new_checks": [
+    "quartic actual full Ricci",
+    "quartic actual scalar",
+    "quartic canonical root full square",
+    "quartic root is integrable",
+    "quartic root exterior explicit",
+    "quartic integrating factor gives exact phase",
+    "quartic reconstructed current conserved",
+    "candidate pointwise algebraic Ricci contraction",
+    "candidate pointwise algebraic first Bianchi"
+  ],
+  "new_exact_diagnostic_groups": 9,
+  "scope": "Exact local diagnostics; not genericity or physical adoption.",
+  "status": "PASS"
+}
