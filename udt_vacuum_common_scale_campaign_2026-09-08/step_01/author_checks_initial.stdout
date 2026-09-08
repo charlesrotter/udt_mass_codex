@@ -1,0 +1,43 @@
+{
+  "actual_rejection_paths": {
+    "arbitrary_positive_profile_is_not_vacuum": "arbitrary_positive_profile_is_not_vacuum: nonzero residual Matrix([[1/(x**2 + 1), 0, 0, 0], [0, 3/(x**2 + 1), 0, 0], [0, 0, -1/(x**2 + 1), 0], [0, 0, 0, -1/(x**2 + 1)]])",
+    "bad_profile_not_null_affine": "bad_profile_not_null_affine: nonzero residual Matrix([[2]])",
+    "dropping_trace_hessian_datum": "dropping_trace_hessian_datum: nonzero residual Matrix([[0], [0], [0], [0], [0], [C0]])",
+    "fixed_wrong_target_scalar": "fixed_wrong_target_scalar: nonzero residual Matrix([[(12*t**2 - 12*t - 12*x**2 - 24*x - 12*y**2 - 36*y - 12*z**2 - 48*z - 3*(2*t - 1)**2 + 12*(x + 1)**2 + 3*(2*y + 3)**2 + 12*(z + 2)**2 - 83)/(-t**2 + t + x**2 + 2*x + y**2 + 3*y + z**2 + 4*z + 1)**2, 0, 0, 0], [0, (-12*t**2 + 12*t + 12*x**2 + 24*x + 12*y**2 + 36*y + 12*z**2 + 48*z + 3*(2*t - 1)**2 - 12*(x + 1)**2 - 3*(2*y + 3)**2 - 12*(z + 2)**2 + 83)/(-t**2 + t + x**2 + 2*x + y**2 + 3*y + z**2 + 4*z + 1)**2, 0, 0], [0, 0, (-12*t**2 + 12*t + 12*x**2 + 24*x + 12*y**2 + 36*y + 12*z**2 + 48*z + 3*(2*t - 1)**2 - 12*(x + 1)**2 - 3*(2*y + 3)**2 - 12*(z + 2)**2 + 83)/(-t**2 + t + x**2 + 2*x + y**2 + 3*y + z**2 + 4*z + 1)**2, 0], [0, 0, 0, (-12*t**2 + 12*t + 12*x**2 + 24*x + 12*y**2 + 36*y + 12*z**2 + 48*z + 3*(2*t - 1)**2 - 12*(x + 1)**2 - 3*(2*y + 3)**2 - 12*(z + 2)**2 + 83)/(-t**2 + t + x**2 + 2*x + y**2 + 3*y + z**2 + 4*z + 1)**2]])",
+    "missing_quadratic_gradient_term": "missing_quadratic_gradient_term: nonzero residual Matrix([[3*(-m0**2 + m1**2 + m2**2 + m3**2)/u**2, 0, 0, 0], [0, 3*(m0**2 - m1**2 - m2**2 - m3**2)/u**2, 0, 0], [0, 0, 3*(m0**2 - m1**2 - m2**2 - m3**2)/u**2, 0], [0, 0, 0, 3*(m0**2 - m1**2 - m2**2 - m3**2)/u**2]])",
+    "silently_equal_base_and_target_scalar": "silently_equal_base_and_target_scalar: nonzero residual Matrix([[3, 0, 0, 0], [0, -3, 0, 0], [0, 0, -3, 0], [0, 0, 0, -3]])",
+    "wrong_target_scalar_sign": "wrong_target_scalar_sign: nonzero residual Matrix([[6*c*u + 6*m0**2 - 6*m1**2 - 6*m2**2 - 6*m3**2 + 6*u*(c - k*u)]])"
+  },
+  "checks": {
+    "completed_tape_squared_weight": true,
+    "conformal_tracefree_covariant_type": true,
+    "conserved_Q_direction_0": true,
+    "conserved_Q_direction_1": true,
+    "conserved_Q_direction_2": true,
+    "conserved_Q_direction_3": true,
+    "full_tf_condition": true,
+    "general_flat_u_affine_on_null_line": true,
+    "general_normal_jet_connection_to_ricci": true,
+    "nonconstant_null_affine": true,
+    "nonconstant_null_affine_scalar": true,
+    "nonzero_base_hessian_sign": true,
+    "nonzero_base_to_zero_scalar_target": true,
+    "nonzero_scalar_base_original_ricci": true,
+    "reduced_control_invariant": true,
+    "six_data_injective_flat_reconstruction": true,
+    "six_nonzero_data_flat_quadratic": true,
+    "six_nonzero_data_flat_quadratic_scalar": true,
+    "target_scalar": true
+  },
+  "kind": "same-author exact symbolic and coordinate checks, NOT a holonomy/proof substitute",
+  "proof_quantifiers": "general candidate argument, not finite pass count",
+  "python": "3.10.12",
+  "shared_method": "SHA-pinned geometry function only; no prior source-law code/output executed",
+  "sympy": "1.13.1",
+  "values": {
+    "completed_depth_shift": "log(u), with positive T,u and fixed auxiliary embedding",
+    "failed_profile_tf_00": "1/(x**2 + 1)",
+    "quadratic_target_Lambda": "-72",
+    "quadratic_u_at_origin": "1; positive on a sufficiently small neighborhood"
+  }
+}

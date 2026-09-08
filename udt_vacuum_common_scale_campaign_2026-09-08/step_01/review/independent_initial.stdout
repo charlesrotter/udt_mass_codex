@@ -1,0 +1,164 @@
+{
+  "status": "PASS_EXACT_EXAMPLES_AND_HOSTILE_CONTROLS",
+  "python": "3.10.12",
+  "arithmetic": "stdlib fractions.Fraction",
+  "base_dimension": 4,
+  "examples": [
+    {
+      "case": "constant",
+      "point": [
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "inverse_factor": "2",
+      "lambda_hat": "0",
+      "original_ricci_residual": "EXACT_ZERO"
+    },
+    {
+      "case": "constant",
+      "point": [
+        "1/5",
+        "-1/7",
+        "2/9",
+        "1/6"
+      ],
+      "inverse_factor": "2",
+      "lambda_hat": "0",
+      "original_ricci_residual": "EXACT_ZERO"
+    },
+    {
+      "case": "timelike_affine",
+      "point": [
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "inverse_factor": "3",
+      "lambda_hat": "3",
+      "original_ricci_residual": "EXACT_ZERO"
+    },
+    {
+      "case": "timelike_affine",
+      "point": [
+        "1/5",
+        "-1/7",
+        "2/9",
+        "1/6"
+      ],
+      "inverse_factor": "16/5",
+      "lambda_hat": "3",
+      "original_ricci_residual": "EXACT_ZERO"
+    },
+    {
+      "case": "spacelike_affine",
+      "point": [
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "inverse_factor": "3",
+      "lambda_hat": "-3",
+      "original_ricci_residual": "EXACT_ZERO"
+    },
+    {
+      "case": "spacelike_affine",
+      "point": [
+        "1/5",
+        "-1/7",
+        "2/9",
+        "1/6"
+      ],
+      "inverse_factor": "20/7",
+      "lambda_hat": "-3",
+      "original_ricci_residual": "EXACT_ZERO"
+    },
+    {
+      "case": "null_affine",
+      "point": [
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "inverse_factor": "3",
+      "lambda_hat": "0",
+      "original_ricci_residual": "EXACT_ZERO"
+    },
+    {
+      "case": "null_affine",
+      "point": [
+        "1/5",
+        "-1/7",
+        "2/9",
+        "1/6"
+      ],
+      "inverse_factor": "107/35",
+      "lambda_hat": "0",
+      "original_ricci_residual": "EXACT_ZERO"
+    },
+    {
+      "case": "full_quadratic",
+      "point": [
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "inverse_factor": "3",
+      "lambda_hat": "21",
+      "original_ricci_residual": "EXACT_ZERO"
+    },
+    {
+      "case": "full_quadratic",
+      "point": [
+        "1/5",
+        "-1/7",
+        "2/9",
+        "1/6"
+      ],
+      "inverse_factor": "1157479/396900",
+      "lambda_hat": "21",
+      "original_ricci_residual": "EXACT_ZERO"
+    }
+  ],
+  "hostile": {
+    "gradient_term_omission_detected": true,
+    "non_Einstein_positive_profile_detected": true,
+    "bad_factor_tracefree": [
+      [
+        "1",
+        "0",
+        "0",
+        "0"
+      ],
+      [
+        "0",
+        "3",
+        "0",
+        "0"
+      ],
+      [
+        "0",
+        "0",
+        "-1",
+        "0"
+      ],
+      [
+        "0",
+        "0",
+        "0",
+        "-1"
+      ]
+    ]
+  },
+  "nonflat_base": {
+    "lambda_base": "3",
+    "lambda_target": "21",
+    "original_transformation_residual": "EXACT_ZERO"
+  },
+  "ceiling": "Finite original-equation examples and guards; not a general proof"
+}
