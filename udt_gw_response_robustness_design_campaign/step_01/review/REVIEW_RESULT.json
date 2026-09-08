@@ -1,0 +1,63 @@
+{
+  "reviewer": "/root/rd1_response_review",
+  "created_utc": "2026-09-08T00:53:00Z",
+  "verdict": "VERIFIED-WITH-CAVEATS",
+  "scope": "Conditional RD1.1/RD1.2/RD1.3 mathematics, finite-sample diagnostic and examined-source evidence stop; no instrument or observed constraint",
+  "RD2_gate": "NOT_CLEARED",
+  "repair_required": false,
+  "repair_cycles_used": 0,
+  "unresolved_load_bearing_objections": [],
+  "candidate_sha256": "46e8002a6a0138eaf993476fdc1dd9bbf2a724413bd9558efead2e1229779803",
+  "producer_sha256": "0be202298d3d5c523f53443786e3776b66196f4f9e461fd61d4ef1c767aeb152",
+  "producer_stdout_sha256": "1c15a27b5d32888360746953a4782f88c7cf5ebd8ed8c0212bcb0c78c919915e",
+  "source_ledger_sha256": "c943991656c092bd1eed2872863255704d2a20d9409af40fb1d40f2b94a93580",
+  "final_review_sha256": "8c6d7cd6a95454eb6a0dad4dc9abf5ad7f3eec66bcdb9734a4ff915534b28f67",
+  "initial_review_sha256": "a196e09e1456f8f3388e345dfec93eb94c5087853a74e5673b1b9dfeac055fc3",
+  "source_first_seal_sha256": "6facd694cbdb75c48e98fc8c8192bba065253b496eebf1458f91e639f9e2db3c",
+  "head": "291bbd73584318f87697345cd86c48f17064e5de",
+  "branch": "grok",
+  "independence": {
+    "context": "fresh separate",
+    "model": "UNKNOWN",
+    "different_model": "UNTESTED",
+    "implementation": "stdlib independent quadrature/elimination/Fraction/scalar routes; separate same-code replay",
+    "argument": "source-first requirements plus disclosed pre-target mathematical collaboration; sections3/4 independently reviewed after target exposure",
+    "human_specialist": "UNTESTED",
+    "formal_verification": "UNTESTED"
+  },
+  "checks": {
+    "independent_runs": 3,
+    "same_code_replay_runs": 1,
+    "producer_stdout_byte_identical": true,
+    "original_bad_assertions_reexecuted": 5,
+    "additional_producer_mutations_rejected": 4,
+    "all_run_exit_codes": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "all_stderr_empty": true,
+    "any_timeout": false,
+    "premise_audit": "inspected parent fresh349 PASS record; not independently rerun",
+    "premise_audit_sha256": "dc7e791fa60c6f5a83df35b90d99453b2c882873615ddd9decdd0edf5149a2c5"
+  },
+  "limits": [
+    "Supplied weak local plane tensor-wave and conventional measurement assumptions remain",
+    "Finite-sample surjectivity is diagnostic point-model only; no arbitrary fixed record weak-wave fit",
+    "Sharp budget range is exact noiseless real Hilbert problem only",
+    "Arm-only bounds are not complete physical response/support/calibration/noise controls",
+    "No actual sample/event/product eligibility or statistical coverage evaluated",
+    "No physical adoption, accepted grade or canon change"
+  ],
+  "omissions": [
+    "source theorem-suite replay",
+    "actual detector full operator",
+    "astrometric/metrological verification",
+    "raw strains or new sample supports",
+    "physical calibration/error estimation",
+    "noise distribution/coverage",
+    "event or validation analysis"
+  ]
+}
+

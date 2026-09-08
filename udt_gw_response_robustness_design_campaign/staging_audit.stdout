@@ -1,0 +1,24 @@
+{
+  "scope": "exact staged allowlist, manifest correspondence and preserved whitespace audit; not science review",
+  "normal_cached_whitespace_returncode": 2,
+  "raw_whitespace_stdout": "udt_gw_response_robustness_design_campaign/step_01/review/FINAL_REVIEW.md:199: new blank line at EOF.\nudt_gw_response_robustness_design_campaign/step_01/review/INDEPENDENT_SOURCE_NOTES.md:131: new blank line at EOF.\nudt_gw_response_robustness_design_campaign/step_01/review/INITIAL_REVIEW.md:56: new blank line at EOF.\nudt_gw_response_robustness_design_campaign/step_01/review/REVIEW_RESULT.json:63: new blank line at EOF.\nudt_gw_response_robustness_design_campaign/step_01/review/SOURCE_FIRST_SEAL.md:131: new blank line at EOF.\nudt_gw_response_robustness_design_campaign/step_01/review/TRAINING_BOUND_NOTE.md:36: new blank line at EOF.\nudt_gw_response_robustness_design_campaign/step_01/review/independent_arm_integral.py:51: new blank line at EOF.\nudt_gw_response_robustness_design_campaign/step_01/review/independent_definitions.py:167: new blank line at EOF.\nudt_gw_response_robustness_design_campaign/step_01/review/independent_target.py:131: new blank line at EOF.\nudt_gw_response_robustness_design_campaign/step_01/review/replay_and_catches.py:58: new blank line at EOF.\n",
+  "raw_whitespace_stderr": "",
+  "disposition": "EXACT10 DOCUMENTED EOF EXCEPTIONS, not ordinary whitespace PASS",
+  "manifest_entries": 72,
+  "manifest_excludes_self_and_post_manifest_receipts": [
+    "udt_gw_response_robustness_design_campaign/SHA256SUMS",
+    "udt_gw_response_robustness_design_campaign/manifest_check.json",
+    "udt_gw_response_robustness_design_campaign/manifest_check.stderr",
+    "udt_gw_response_robustness_design_campaign/manifest_check.stdout"
+  ],
+  "review_manifest_entries": {
+    "REVIEW_MANIFEST.tsv": 22,
+    "PACKAGING_MANIFEST.tsv": 17
+  },
+  "staged_authorized_files": 76,
+  "unstaged_tracked_changes": false,
+  "unrelated_untracked_count": 46,
+  "unrelated_name_hash": "d65d71d63a56b95aabfd61f33317b1f1f2b2a62a85ded8258c525b99a5e156ea",
+  "protected_payload_contents_inspected": false,
+  "post_audit_receipts": "This audit adds only staging_audit.json/stdout/stderr after checking; these self-referential receipts are explicitly outside SHA256SUMS and will be staged separately"
+}

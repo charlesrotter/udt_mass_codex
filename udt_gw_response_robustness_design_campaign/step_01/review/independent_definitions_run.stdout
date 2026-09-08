@@ -1,0 +1,186 @@
+{
+  "amplitude_scaling": [
+    {
+      "unit_null": 0.005773502691896258,
+      "unnormalized_null": "1/100",
+      "wave_amplitude": "1"
+    },
+    {
+      "unit_null": 0.5773502691896258,
+      "unnormalized_null": "1",
+      "wave_amplitude": "100"
+    },
+    {
+      "unit_null": 5773.502691896258,
+      "unnormalized_null": "10000",
+      "wave_amplitude": "1000000"
+    }
+  ],
+  "calibration_inverse": {
+    "actual_defect": 0.0353332626668787,
+    "bound": 0.037404138134214386,
+    "release_over_true": [
+      0.9795447997695188,
+      -0.028810141169691727
+    ],
+    "true_over_model": [
+      1.02,
+      0.03
+    ]
+  },
+  "common_filter_commutator": {
+    "correct": [
+      "0",
+      "0"
+    ],
+    "wrong": [
+      "0",
+      "-1/2"
+    ]
+  },
+  "constant_delay": [
+    {
+      "B": 1.0,
+      "delay": 0.0,
+      "sampled_max": 0.0,
+      "uniform_bound": 0.0
+    },
+    {
+      "B": 1.0,
+      "delay": 1e-06,
+      "sampled_max": 6.28318530716925e-06,
+      "uniform_bound": 6.283185307179586e-06
+    },
+    {
+      "B": 1.0,
+      "delay": 0.001,
+      "sampled_max": 0.006283174971759126,
+      "uniform_bound": 0.006283185307179587
+    },
+    {
+      "B": 1.0,
+      "delay": 0.1,
+      "sampled_max": 0.6180339887498949,
+      "uniform_bound": 0.6283185307179586
+    },
+    {
+      "B": 30.0,
+      "delay": 0.0,
+      "sampled_max": 0.0,
+      "uniform_bound": 0.0
+    },
+    {
+      "B": 30.0,
+      "delay": 1e-06,
+      "sampled_max": 0.0001884955589363311,
+      "uniform_bound": 0.00018849555921538757
+    },
+    {
+      "B": 30.0,
+      "delay": 0.001,
+      "sampled_max": 0.1882166266370286,
+      "uniform_bound": 0.18849555921538758
+    },
+    {
+      "B": 30.0,
+      "delay": 0.1,
+      "sampled_max": 2.0,
+      "uniform_bound": 2.0
+    },
+    {
+      "B": 500.0,
+      "delay": 0.0,
+      "sampled_max": 0.0,
+      "uniform_bound": 0.0
+    },
+    {
+      "B": 500.0,
+      "delay": 1e-06,
+      "sampled_max": 0.0031415913616617574,
+      "uniform_bound": 0.003141592653589793
+    },
+    {
+      "B": 500.0,
+      "delay": 0.001,
+      "sampled_max": 2.0,
+      "uniform_bound": 2.0
+    },
+    {
+      "B": 500.0,
+      "delay": 0.1,
+      "sampled_max": 2.0,
+      "uniform_bound": 2.0
+    }
+  ],
+  "domain_dimension_separator": "Two functions with3 modes each can map bijectively to three channels with2 retained modes each; codimension0, no nonzero output null.",
+  "equal_marginal_covariances": {
+    "contrast_variances": [
+      0.0,
+      4.0
+    ],
+    "matrices_positive_semidefinite": "outer products [1,1] and [1,-1]",
+    "same_diagonal": [
+      1,
+      1
+    ]
+  },
+  "hidden_domain_kernel": [
+    {
+      "data_norm": 0.01,
+      "hidden_wave_norm": 1.0,
+      "null": 0.01
+    },
+    {
+      "data_norm": 10000.0,
+      "hidden_wave_norm": 1000000.0,
+      "null": 10000.0
+    }
+  ],
+  "image_preserving_common_response": "exact zero for three finite witnesses; algebra bFK=(bF)K owns all h",
+  "method": "stdlib Fraction plus scalar float/complex; finite anchors, not continuum certification",
+  "passed": true,
+  "pointwise_not_joint": {
+    "marginal_coverage": [
+      "2/3",
+      "2/3",
+      "2/3"
+    ],
+    "simultaneous": "0"
+  },
+  "python": "3.10.12",
+  "rank_without_uniform_recovery": [
+    {
+      "epsilon_over_gamma": 0.5,
+      "h_norm": 10.0,
+      "s": "1/10",
+      "y_norm": 1.118033988749895
+    },
+    {
+      "epsilon_over_gamma": 0.5,
+      "h_norm": 1000.0,
+      "s": "1/1000",
+      "y_norm": 1.118033988749895
+    },
+    {
+      "epsilon_over_gamma": 0.5,
+      "h_norm": 1000000.0,
+      "s": "1/1000000",
+      "y_norm": 1.118033988749895
+    }
+  ],
+  "stable_recovery": {
+    "beta": 0.005773502691896258,
+    "cases": 80,
+    "epsilon": 0.01,
+    "eta": 0.02449489742783178,
+    "eta_null": 0.011547005383792516,
+    "gamma": 1,
+    "largest_leakage_bound_ratio": 0.9475597266575376,
+    "smallest_amplitude_slack": 0.013456686063847534
+  },
+  "window_frequency_mixing": {
+    "input_kept_bin_norm": 0.0,
+    "output_kept_bin_amplitude": 0.9999999999999999,
+    "outside_bin_amplitude": 8.0
+  }
+}

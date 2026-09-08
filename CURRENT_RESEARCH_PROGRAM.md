@@ -165,8 +165,15 @@ No event samples/contrast were examined and FW3 was not begun. No geometric cons
 population-power claim or instrument/UDT-wide verdict follows. Physical response/error
 eligibility remains OPEN; the transient runtime blocker is resolved. The actual349-row
 premise audit passed; accepted science/canon/fixed-snapshot manuscript remain unchanged.
-Next is Charles's choice on the proposed bounded response-error/robustness design gate
-in this campaign's NEXT_WORK_ORDER.md (or another direction); no new campaign is authorized.
+The authorized response-error/robustness DESIGN campaign reached its reviewed early stop:
+`udt_gw_response_robustness_design_campaign/DECISION_BRIEF.md`. RD1 is VERIFIED-WITH-CAVEATS
+conditional design mathematics: training-bounded leakage, a scoped finite-sample limitation,
+sharp norm-budget readout intervals and a supplied arm-transfer bound. These are not accepted-grade
+changes or actual-product/UDT no-go results. Complete target-level response/support control remains
+OPEN; RD2 was NOT STARTED. No new strain/event samples or existing33 development records were
+opened. The fresh349 audit passed; premises/canon/fixed-snapshot manuscript remain unchanged.
+This particular procedure is parked at its design gate. Next is Charles's choice on a justified
+bounded-data/measurement-error bridge or another route; no new campaign is authorized.
 Clock and complementary campaigns are exhausted; emergence remains parallel.
 This instrument-specific evidence gap does not block geometric or emergence research.
 The G352 physical-realization gap does not imply that a new physical premise is necessary.

@@ -1,0 +1,215 @@
+{
+  "head": "291bbd73584318f87697345cd86c48f17064e5de",
+  "integration_pins": {
+    "/home/udt-admin/udt_mass_codex/udt_gw_response_robustness_design_campaign/DECISION_BRIEF.md": "a3ce5198f0a0c127fc28d69030b6a96ddc982d620ec8e2c7f80c7097fe5eb876",
+    "/home/udt-admin/udt_mass_codex/udt_gw_response_robustness_design_campaign/README.md": "1ea47426757beb982fb72a7e0d7b4cf6708f87533051518cf32db1de8be2c2f8",
+    "CURRENT_RESEARCH_PROGRAM.md": "a4aee252ce9ba6ace676d8b1784d33c96d406f51ef8860d79f1169a52a5b41bd",
+    "HANDOFF.md": "2464e0992faa4d803704c5c56f4e4e15428e95b468ab4fb2d8980c35eda7f273",
+    "LIVE.md": "30e10763ef873b30c26fe5e23add30e83cb0d728805f8a7ac6e21ba1b9baf5b5"
+  },
+  "passed": true,
+  "preserved_pinned_whitespace_exceptions": [
+    {
+      "command": [
+        "git",
+        "-c",
+        "core.preloadIndex=false",
+        "-c",
+        "index.threads=1",
+        "diff",
+        "--check",
+        "--no-index",
+        "/dev/null",
+        "udt_gw_response_robustness_design_campaign/step_01/review/FINAL_REVIEW.md"
+      ],
+      "returncode": 3,
+      "stderr": "",
+      "stdout": "udt_gw_response_robustness_design_campaign/step_01/review/FINAL_REVIEW.md:199: new blank line at EOF.\n"
+    },
+    {
+      "command": [
+        "git",
+        "-c",
+        "core.preloadIndex=false",
+        "-c",
+        "index.threads=1",
+        "diff",
+        "--check",
+        "--no-index",
+        "/dev/null",
+        "udt_gw_response_robustness_design_campaign/step_01/review/INDEPENDENT_SOURCE_NOTES.md"
+      ],
+      "returncode": 3,
+      "stderr": "",
+      "stdout": "udt_gw_response_robustness_design_campaign/step_01/review/INDEPENDENT_SOURCE_NOTES.md:131: new blank line at EOF.\n"
+    },
+    {
+      "command": [
+        "git",
+        "-c",
+        "core.preloadIndex=false",
+        "-c",
+        "index.threads=1",
+        "diff",
+        "--check",
+        "--no-index",
+        "/dev/null",
+        "udt_gw_response_robustness_design_campaign/step_01/review/INITIAL_REVIEW.md"
+      ],
+      "returncode": 3,
+      "stderr": "",
+      "stdout": "udt_gw_response_robustness_design_campaign/step_01/review/INITIAL_REVIEW.md:56: new blank line at EOF.\n"
+    },
+    {
+      "command": [
+        "git",
+        "-c",
+        "core.preloadIndex=false",
+        "-c",
+        "index.threads=1",
+        "diff",
+        "--check",
+        "--no-index",
+        "/dev/null",
+        "udt_gw_response_robustness_design_campaign/step_01/review/REVIEW_RESULT.json"
+      ],
+      "returncode": 3,
+      "stderr": "",
+      "stdout": "udt_gw_response_robustness_design_campaign/step_01/review/REVIEW_RESULT.json:63: new blank line at EOF.\n"
+    },
+    {
+      "command": [
+        "git",
+        "-c",
+        "core.preloadIndex=false",
+        "-c",
+        "index.threads=1",
+        "diff",
+        "--check",
+        "--no-index",
+        "/dev/null",
+        "udt_gw_response_robustness_design_campaign/step_01/review/SOURCE_FIRST_SEAL.md"
+      ],
+      "returncode": 3,
+      "stderr": "",
+      "stdout": "udt_gw_response_robustness_design_campaign/step_01/review/SOURCE_FIRST_SEAL.md:131: new blank line at EOF.\n"
+    },
+    {
+      "command": [
+        "git",
+        "-c",
+        "core.preloadIndex=false",
+        "-c",
+        "index.threads=1",
+        "diff",
+        "--check",
+        "--no-index",
+        "/dev/null",
+        "udt_gw_response_robustness_design_campaign/step_01/review/TRAINING_BOUND_NOTE.md"
+      ],
+      "returncode": 3,
+      "stderr": "",
+      "stdout": "udt_gw_response_robustness_design_campaign/step_01/review/TRAINING_BOUND_NOTE.md:36: new blank line at EOF.\n"
+    },
+    {
+      "command": [
+        "git",
+        "-c",
+        "core.preloadIndex=false",
+        "-c",
+        "index.threads=1",
+        "diff",
+        "--check",
+        "--no-index",
+        "/dev/null",
+        "udt_gw_response_robustness_design_campaign/step_01/review/independent_arm_integral.py"
+      ],
+      "returncode": 3,
+      "stderr": "",
+      "stdout": "udt_gw_response_robustness_design_campaign/step_01/review/independent_arm_integral.py:51: new blank line at EOF.\n"
+    },
+    {
+      "command": [
+        "git",
+        "-c",
+        "core.preloadIndex=false",
+        "-c",
+        "index.threads=1",
+        "diff",
+        "--check",
+        "--no-index",
+        "/dev/null",
+        "udt_gw_response_robustness_design_campaign/step_01/review/independent_definitions.py"
+      ],
+      "returncode": 3,
+      "stderr": "",
+      "stdout": "udt_gw_response_robustness_design_campaign/step_01/review/independent_definitions.py:167: new blank line at EOF.\n"
+    },
+    {
+      "command": [
+        "git",
+        "-c",
+        "core.preloadIndex=false",
+        "-c",
+        "index.threads=1",
+        "diff",
+        "--check",
+        "--no-index",
+        "/dev/null",
+        "udt_gw_response_robustness_design_campaign/step_01/review/independent_target.py"
+      ],
+      "returncode": 3,
+      "stderr": "",
+      "stdout": "udt_gw_response_robustness_design_campaign/step_01/review/independent_target.py:131: new blank line at EOF.\n"
+    },
+    {
+      "command": [
+        "git",
+        "-c",
+        "core.preloadIndex=false",
+        "-c",
+        "index.threads=1",
+        "diff",
+        "--check",
+        "--no-index",
+        "/dev/null",
+        "udt_gw_response_robustness_design_campaign/step_01/review/replay_and_catches.py"
+      ],
+      "returncode": 3,
+      "stderr": "",
+      "stdout": "udt_gw_response_robustness_design_campaign/step_01/review/replay_and_catches.py:58: new blank line at EOF.\n"
+    }
+  ],
+  "remote_freshness": "not independently checked by reviewer",
+  "review_manifest_entries_verified": 22,
+  "scope": "packaging-only, no scientific tests repeated",
+  "source_preservation": {
+    "command": [
+      "git",
+      "-c",
+      "core.preloadIndex=false",
+      "-c",
+      "index.threads=1",
+      "diff",
+      "--exit-code",
+      "HEAD",
+      "--",
+      "udt_complementary_wave_observable_campaign_2026-09-07",
+      "udt_gw170817_fixed_window_test_campaign_2026-09-07",
+      "CANON.md",
+      "CURRENT_SCIENTIFIC_PREMISES.md",
+      "CURRENT_SCIENTIFIC_PREMISES.tsv",
+      "UDT_METRIC_KERNEL_DEVELOPMENT.md",
+      "UDT_METRIC_KERNEL_COVERAGE.tsv"
+    ],
+    "returncode": 0,
+    "stderr": "",
+    "stdout": ""
+  },
+  "tracked_changes": [
+    "CURRENT_RESEARCH_PROGRAM.md",
+    "HANDOFF.md",
+    "LIVE.md"
+  ],
+  "unrelated_untracked_payloads": "not opened or hashed; parent name-preservation record is separate"
+}

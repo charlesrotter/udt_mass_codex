@@ -1,0 +1,24 @@
+{
+  "command": [
+    "curl",
+    "--fail",
+    "--location",
+    "--max-time",
+    "40",
+    "--max-filesize",
+    "1048576",
+    "--output",
+    "/tmp/udt-gw-response-docs-L3JgrF/DetResponse.c",
+    "--write-out",
+    "http=%{http_code} bytes=%{size_download}\\n",
+    "https://git.ligo.org/lscsoft/lalsuite/-/raw/master/lal/lib/tools/DetResponse.c"
+  ],
+  "cwd": "/home/udt-admin/udt_mass_codex",
+  "started_utc": "2026-09-08T00:24:37.629237+00:00",
+  "duration_seconds": 0.004982119004125707,
+  "returncode": 6,
+  "timeout": false,
+  "address_space_bytes": 536870912,
+  "cpu_seconds": 60,
+  "maxrss_kib": 10560
+}

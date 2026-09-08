@@ -1,0 +1,16 @@
+{
+  "command": [
+    "python3",
+    "-B",
+    "-c",
+    "import hashlib,json,pathlib,subprocess\nimport verify_current_scientific_premises as v\nroot=pathlib.Path.cwd()\nbase=\"291bbd73584318f87697345cd86c48f17064e5de\"\nprefix=\"udt_gw_response_robustness_design_campaign/\"\ngit=[\"git\",\"-c\",\"core.preloadIndex=false\"]\ncall=lambda *a:subprocess.check_output(git+list(a),text=True)\nassert call(\"branch\",\"--show-current\").strip()==\"grok\"\npaths=[\"AGENTS.md\",\"CLAUDE.md\",\"CURRENT_SCIENTIFIC_PREMISES.md\",\"CURRENT_SCIENTIFIC_PREMISES.tsv\",\"verify_current_scientific_premises.py\",\"CANON.md\",\"UDT_METRIC_KERNEL_DEVELOPMENT.md\",\"UDT_METRIC_KERNEL_COVERAGE.tsv\"]\nhashes={}\nfor name in paths:\n actual=(root/name).read_bytes()\n old=subprocess.check_output(git+[\"show\",base+\":\"+name])\n assert actual==old,name\n hashes[name]=hashlib.sha256(actual).hexdigest()\nold_packages=[\"udt_complementary_wave_observable_campaign_2026-09-07\",\"udt_gw170817_fixed_window_test_campaign_2026-09-07\"]\nassert not call(\"diff\",\"--name-only\",base,\"--\",*old_packages).strip()\nnames=sorted(x for x in call(\"status\",\"--short\").splitlines() if x.startswith(\"?? \") and not x[3:].startswith(prefix))\nnh=hashlib.sha256(\"\\n\".join(names).encode()).hexdigest()\nassert len(names)==46 and nh==\"d65d71d63a56b95aabfd61f33317b1f1f2b2a62a85ded8258c525b99a5e156ea\"\nallowed={\"LIVE.md\",\"HANDOFF.md\",\"CURRENT_RESEARCH_PROGRAM.md\"}\nassert all(x in allowed or x.startswith(prefix) for x in call(\"diff\",\"--name-only\",base).splitlines())\nv.validate_startup_surface(root)\nsubprocess.run(git+[\"diff\",\"--check\"],check=True)\nprint(json.dumps(dict(scope=\"scoped startup and byte-preservation check, not full premise replay or science review\",baseline=base,head=call(\"rev-parse\",\"HEAD\").strip(),preserved_sha256=hashes,previous_CO_FW_packages_unchanged=True,unrelated_name_count=len(names),unrelated_name_hash=nh,protected_payload_contents_inspected=False,scoped_startup_surface_pass=True,backup_completeness=\"UNVERIFIED\",pre_reboot_unsaved_state=\"UNVERIFIED\",host_process_inventory=\"UNVERIFIED\"),indent=2))"
+  ],
+  "cwd": "/home/udt-admin/udt_mass_codex",
+  "started_utc": "2026-09-08T00:48:03.054337+00:00",
+  "duration_seconds": 0.18223961599869654,
+  "returncode": 0,
+  "timeout": false,
+  "address_space_bytes": 536870912,
+  "cpu_seconds": 60,
+  "maxrss_kib": 23692
+}
