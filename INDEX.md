@@ -8,7 +8,7 @@
 6. Read `INDEX.md` and `MEMORY.md`, then stop and give the orientation report.
 7. After orientation, query only load-bearing evidence.
 
-Authority: the exact 349-row `CURRENT_SCIENTIFIC_PREMISES.tsv`. For any result ID, its current
+Authority: the exact 352-row `CURRENT_SCIENTIFIC_PREMISES.tsv`. For any result ID, its current
 grade, maximum conclusion, and evidence `source_path` belong there. For a known pre-reorganization
 path only, query `research/_registry/CURRENT_ARTIFACT_PATHS.tsv`; it is not a frontier index.
 
@@ -73,7 +73,15 @@ to the exact changed source bytes, fixed manuscript, snapshot, and affected depe
   exact scope, diagnostics, review and closure routes: its `CAMPAIGN_LOG.md` and step review records.
 - G364--G366 conditional banking of RC1--RC3:
   `udt_g364_g366_conditional_banking_2026-09-07/BANKING_RECORD.md`.
-  Proposed calibration/test campaign, awaiting direction: its `NEXT_CAMPAIGN_PROPOSAL.md`.
+  Historical calibration/test proposal: its `NEXT_CAMPAIGN_PROPOSAL.md`.
+- G367--G369 exact-scope conditional banking of SM1--SM3:
+  `udt_g367_g369_conditional_banking_2026-09-08/BANKING_RECORD.md`;
+  its `EXECUTION_RECORD.md` owns integration/fidelity completion.
+- Original source--metric campaign, unchanged including review/repair history:
+  `udt_source_metric_connection_campaign_2026-09-08/DECISION_BRIEF.md`.
+- Current authorized bounded metric-only reconstructibility test:
+  `udt_metric_source_reconstructibility_campaign_2026-09-08/WORK_ORDER.md`;
+  its `CAMPAIGN_LOG.md` owns step questions, outcomes and review state.
 
 ## Retained comparison and observational lanes
 

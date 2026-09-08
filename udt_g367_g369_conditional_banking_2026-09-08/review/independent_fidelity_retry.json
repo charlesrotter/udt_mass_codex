@@ -1,0 +1,15 @@
+{
+  "command": [
+    "python3",
+    "-B",
+    "udt_g367_g369_conditional_banking_2026-09-08/review/check_fidelity_bytes.py"
+  ],
+  "cwd": "/home/udt-admin/udt_mass_codex",
+  "started_utc": "2026-09-08T04:41:44.731349+00:00",
+  "duration_seconds": 0.07771062399842776,
+  "returncode": 0,
+  "timeout": false,
+  "address_space_bytes": 536870912,
+  "cpu_seconds": 60,
+  "maxrss_kib": 23420
+}

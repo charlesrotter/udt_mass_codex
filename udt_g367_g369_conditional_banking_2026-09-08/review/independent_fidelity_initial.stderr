@@ -1,0 +1,11 @@
+fatal: packfile .git/objects/pack/pack-53c0fbf0a98f5e7a80c240d452d1b245a22260e1.pack cannot be mapped, check sys.vm.max_map_count and/or RLIMIT_DATA: Cannot allocate memory
+Traceback (most recent call last):
+  File "/home/udt-admin/udt_mass_codex/udt_g367_g369_conditional_banking_2026-09-08/review/check_fidelity_bytes.py", line 62, in <module>
+    archive = git("archive", "--format=tar", BASE, "--", *targets)
+  File "/home/udt-admin/udt_mass_codex/udt_g367_g369_conditional_banking_2026-09-08/review/check_fidelity_bytes.py", line 30, in git
+    return subprocess.check_output(["git", *args], cwd=ROOT)
+  File "/usr/lib/python3.10/subprocess.py", line 421, in check_output
+    return run(*popenargs, stdout=PIPE, timeout=timeout, check=True,
+  File "/usr/lib/python3.10/subprocess.py", line 526, in run
+    raise CalledProcessError(retcode, process.args,
+subprocess.CalledProcessError: Command '['git', 'archive', '--format=tar', '7b6ce629636c5ce3acee9f0e7427660b60857cc2', '--', 'udt_source_metric_connection_campaign_2026-09-08', 'CANON.md', 'UDT_METRIC_KERNEL_DEVELOPMENT.md', 'UDT_METRIC_KERNEL_COVERAGE.tsv']' returned non-zero exit status 128.

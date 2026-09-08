@@ -1,6 +1,6 @@
 # Current scientific premises — bounded orientation
 
-`LIVE.md` owns current status. The exact 349-row `CURRENT_SCIENTIFIC_PREMISES.tsv` owns row-level
+`LIVE.md` owns current status. The exact 352-row `CURRENT_SCIENTIFIC_PREMISES.tsv` owns row-level
 grades and source paths; run `python3 verify_current_scientific_premises.py` before querying it.
 
 ## Foundational and adopted layer
@@ -54,6 +54,18 @@ center, or scale. Strong local CSN is `CHALLENGED_OWNER_POSTULATE_NOT_DERIVED` a
 | G361 | Full spacelike seed and exact chosen-root gate within that Einstein class; nonempty lawful local data |
 | G362 | Conditional local parallel-null/normalized-recipe preservation and initial screen scalar; not generic stability |
 | G363 | Full initial aligned phase and fixed-product match persist locally; ideal readout identity, not physical content |
+| G367 | Full supplied regular4D tube current and every-observer continuous readout; fixed product stronger than conservation |
+| G368 | Universal conservation classifies optional algebraic natural tensors of only g,q,n>0; constants remain free |
+| G369 | Optional unadopted constant source comparison: curvature/initial constraints, not physical closure or coupled existence |
+
+G367--G369 are Charles-authorized conditional banking of SM1--SM3, exactly at
+their reviewed scopes. Promotion completion is recorded in
+`udt_g367_g369_conditional_banking_2026-09-08/EXECUTION_RECORD.md`; the entire
+pinned candidates, results and reviews control through its BANKING_RECORD.md.
+SM2's original false-negative/one harness repair and SM3's post-seal outline
+exposure remain explicit. Models UNKNOWN; different-model/human review UNTESTED.
+No source law, physical content/counting, generic persistence or canon follows.
+This additive banking changes no earlier registry row or scientific premise.
 
 G330--G350 are conditional or general metric geometry. G351 adds an owner-provisional conservation
 premise, not a metric derivation: a standard finite nonnegative countably additive measure on

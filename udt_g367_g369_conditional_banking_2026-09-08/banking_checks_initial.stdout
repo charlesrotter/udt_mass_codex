@@ -1,0 +1,33 @@
+{
+  "actual_mutants_caught": {
+    "duplicate_new_row": "source-metric banking must add exactly three distinct rows to 349",
+    "missing_new_row": "source-metric banking must add exactly three distinct rows to 349",
+    "native_grade_mutation": "G369 banking grade changed",
+    "old_row_change": "source-metric banking changed an existing scientific registry row",
+    "optional_scope_removed": "G368 scope lacks OPTIONAL_ALGEBRAIC_LORENTZ_NATURAL_CLASS_ONLY",
+    "review_exposure_erased": "source-metric banking record lacks NOT wholly target-outline-blind"
+  },
+  "backup_completeness": "UNVERIFIED",
+  "baseline": "7b6ce629636c5ce3acee9f0e7427660b60857cc2",
+  "checks": {
+    "all_five_banking_guards_and_current_startup": true,
+    "branch_grok": true,
+    "canon_and_fixed_manuscript_unchanged": true,
+    "mutant_expected_reason:duplicate_new_row": true,
+    "mutant_expected_reason:missing_new_row": true,
+    "mutant_expected_reason:native_grade_mutation": true,
+    "mutant_expected_reason:old_row_change": true,
+    "mutant_expected_reason:optional_scope_removed": true,
+    "mutant_expected_reason:review_exposure_erased": true,
+    "only_authorized_tracked_changes": true,
+    "original_campaign_unchanged": true,
+    "unrelated_46_names_preserved": true,
+    "unrelated_names_hash": true
+  },
+  "head": "7b6ce629636c5ce3acee9f0e7427660b60857cc2",
+  "host_wide_process_state": "UNVERIFIED",
+  "kind": "banking correspondence/regression, not scientific proof",
+  "pre_reboot_unsaved_state": "UNVERIFIED",
+  "protected_payloads": "NOT_INSPECTED",
+  "registry_rows": 352
+}

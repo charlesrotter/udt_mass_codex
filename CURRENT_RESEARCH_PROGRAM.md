@@ -2,7 +2,7 @@
 
 Date: 2026-09-07
 
-`LIVE.md` controls status; the exact 349-row `CURRENT_SCIENTIFIC_PREMISES.tsv` controls ownership.
+`LIVE.md` controls status; the exact 352-row `CURRENT_SCIENTIFIC_PREMISES.tsv` controls ownership.
 
 ## Architecture
 
@@ -177,9 +177,16 @@ The theory-first source–metric connection campaign completed its3 reviewed sci
 `udt_source_metric_connection_campaign_2026-09-08/DECISION_BRIEF.md`; compact evidence/status in its CAMPAIGN_LOG.md.
 SM1 gives a regular4D conserved current; SM2 constrains an OPTIONAL algebraic tensor class;
 SM3 gives metric-data/curvature consequences only under an UNADOPTED source comparison.
-All are reviewed conditional CANDIDATES, NOT_BANKED; physical identification and source-response
-closure remain OPEN. No accepted grade, premise, canon or fixed-snapshot manuscript changed;
-no observations or coupled solve. Next is Charles's banking/direction decision; no new campaign is authorized.
+Charles authorized G367--G369 conditional mathematical banking of SM1--SM3 at EXACT reviewed scopes:
+`udt_g367_g369_conditional_banking_2026-09-08/BANKING_RECORD.md`.
+Promotion integration is COMPLETE: full352 audit and fresh fidelity PASS_WITH_CAVEATS;
+its EXECUTION_RECORD.md owns exact completion checks and publication history.
+No prior grade, physical premise, canon or fixed-snapshot manuscript changes. Physical identification
+and source-response closure remain OPEN. Original candidate/review/history bytes stay unchanged.
+Charles also authorized a bounded metric-only reconstructibility test, after banking gates:
+`udt_metric_source_reconstructibility_campaign_2026-09-08/WORK_ORDER.md`.
+At most2 reviewed steps/3h total including banking, hard stop07:24UTC2026-09-08.
+Beyond that bounded scope, no new campaign is authorized. No observations or coupled solve.
 Clock and complementary campaigns are exhausted; emergence remains parallel.
 This instrument-specific evidence gap does not block geometric or emergence research.
 The G352 physical-realization gap does not imply that a new physical premise is necessary.

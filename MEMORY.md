@@ -1,6 +1,6 @@
 # MEMORY — compact pointer only
 
-`LIVE.md` wins. Exact premise authority is the 349-row `CURRENT_SCIENTIFIC_PREMISES.tsv`.
+`LIVE.md` wins. Exact premise authority is the 352-row `CURRENT_SCIENTIFIC_PREMISES.tsv`.
 
 ## Current picture
 
@@ -41,8 +41,13 @@ and fixed-product metric freedom detected by a registered eventwise ideal tide.
 Keep all conditional limits and RC2's late-hint exposure caveat.
 Leaving this construction is not failure of admitted UDT equations. Old evidence is unchanged.
 Geometric calibration/testing and emergence remain parallel, neither prerequisite.
-Charles's direction decision is next; no new campaign is authorized.
-Proposed tidal measurement/calibration/test audit: that package's `NEXT_CAMPAIGN_PROPOSAL.md`.
+G367--G369 owner-authorized exact-scope SM1--SM3 banking is complete:
+`udt_g367_g369_conditional_banking_2026-09-08/BANKING_RECORD.md`.
+Its EXECUTION_RECORD records full352/fresh fidelity gates. Original repair/exposure limits remain.
+Then Charles-authorized metric-only reconstructibility testing is bounded by
+`udt_metric_source_reconstructibility_campaign_2026-09-08/WORK_ORDER.md`.
+Beyond that scope, no new campaign is authorized. LIVE owns current completion/status.
+The earlier tidal proposal is historical, not a pending permission gate.
 Do not demand unique initial/query data or hide an extra measurement rule in a definition.
 The central manuscript remains the fixed through-G352 edition, not current tracking.
 Population, cross-label physics, realized history, matter, scale, `X_max`, and canon remain open.
