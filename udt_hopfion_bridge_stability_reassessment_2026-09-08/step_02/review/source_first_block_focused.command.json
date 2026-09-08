@@ -1,0 +1,17 @@
+{
+  "wrapper": "udt_shared_readout_metric_constraint_campaign_2026-09-06/run_capture.py",
+  "absolute_stem": "/home/udt-admin/udt_mass_codex/udt_hopfion_bridge_stability_reassessment_2026-09-08/step_02/review/source_first_block_focused",
+  "argv": [
+    "python3",
+    "-B",
+    "/home/udt-admin/udt_mass_codex/udt_hopfion_bridge_stability_reassessment_2026-09-08/step_02/review/independent_block_check_focused.py"
+  ],
+  "env": {
+    "OPENBLAS_NUM_THREADS": "1",
+    "OMP_NUM_THREADS": "1",
+    "MKL_NUM_THREADS": "1"
+  },
+  "wall_seconds": 60,
+  "cpu_seconds": 60,
+  "AS_bytes": 536870912
+}

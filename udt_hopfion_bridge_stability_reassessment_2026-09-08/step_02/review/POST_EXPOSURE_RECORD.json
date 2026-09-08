@@ -1,0 +1,14 @@
+{
+  "utc": "2026-09-08T17:03:54.843933+00:00",
+  "argument_review": "full frozen candidate, direct tensor/index/domain/quantifier attack",
+  "additional_source_code": {
+    "path": "udt_g337_double_silent_third_normal_ownership_2026-09-03/derive_double_silent_third_response.py",
+    "sha256": "d5dfe3161b7eebe1754f58313ce2c3030d5299048dead333d0d598aaf979b891",
+    "exposure": "full called utility functions and module execution boundary after candidate exposure"
+  },
+  "matched_check": "source-first independent block implementation retargeted to author fixtures after exposure; reads saved outputs but imports no author engine",
+  "matched_fixtures": 12,
+  "independent_checks": 102,
+  "initial_finite_checks": 136,
+  "remaining_author_repair_cycles_used": 0
+}

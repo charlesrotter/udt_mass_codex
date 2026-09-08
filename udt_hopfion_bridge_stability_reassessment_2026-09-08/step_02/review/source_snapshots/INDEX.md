@@ -1,0 +1,135 @@
+# INDEX — compact current pointers; `LIVE.md` wins
+
+- G374--G375 exact-scope VS banking and completion gates:
+  `udt_g374_g375_conditional_banking_2026-09-08/BANKING_RECORD.md`.
+- Authorized Hopfion reassessment, current compact log:
+  `udt_hopfion_bridge_stability_reassessment_2026-09-08/CAMPAIGN_LOG.md`.
+
+1. Follow `AGENTS.md`.
+2. Read the current blocks in `LIVE.md` and `HANDOFF.md`.
+3. Read `CURRENT_RESEARCH_PROGRAM.md`.
+4. Read `CURRENT_SCIENTIFIC_PREMISES.md`; run `python3 verify_current_scientific_premises.py`.
+5. Read `CLAUDE.md` sections `How we work`, `DRIVER TRIGGERS`, and `Repo discipline`.
+6. Read `INDEX.md` and `MEMORY.md`, then stop and give the orientation report.
+7. After orientation, query only load-bearing evidence.
+
+Authority: the exact 358-row `CURRENT_SCIENTIFIC_PREMISES.tsv`. For any result ID, its current
+grade, maximum conclusion, and evidence `source_path` belong there. For a known pre-reorganization
+path only, query `research/_registry/CURRENT_ARTIFACT_PATHS.tsv`; it is not a frontier index.
+
+## Central accepted-science account
+
+- Reader account: `UDT_METRIC_KERNEL_DEVELOPMENT.md`.
+- Exact coverage/dependency sidecar: `UDT_METRIC_KERNEL_COVERAGE.tsv`.
+- Deterministic updater and verifier: `update_metric_kernel_account.py` and
+  `verify_metric_kernel_account.py`.
+
+The account is pinned to scientific snapshot `f23199e4a47aaf83acb9ea7d1ad382cd814159c2` and explains
+the accepted metric/kernel chain through G352 within that declared edition. The sidecar covers every
+row of that snapshot, including supporting, boundary, control, outside-scope, and historical roles.
+Neither file is a second scientific registry: grades and current status remain owned by
+`CURRENT_SCIENTIFIC_PREMISES.tsv`, while `LIVE.md` owns the active frontier.
+The ordinary updater preserves source-change invalidation. Restoring a reviewed coverage status
+requires `update_metric_kernel_account.py --record-review REVIEW_RECORD.json` with a record tied
+to the exact changed source bytes, fixed manuscript, snapshot, and affected dependency closure.
+
+## Current relational route
+
+- Founding reciprocal source: `UDT_RECIPROCAL_C_FOUNDING_POSTULATE_DERIVATION_RESULTS.md`.
+- Active pair evaluator: `udt_uncompressed_pair_kernel_reconstruction_2026-08-14/`.
+- Primary metric descent and complete orchestra: `udt_g166_primary_metric_ordered_pair_kernel_descent_2026-08-18/`;
+  `udt_g167_primary_metric_full_pair_pullback_orchestra_2026-08-18/`;
+  `udt_g176_completed_pair_dual_reciprocity_consolidation_2026-08-19/`.
+- Kernel provenance/scaffold boundary: `udt_g197_native_kernel_provenance_and_startup_integrity_audit_2026-08-21/`;
+  historical negative controls are never kernel inputs and are quarantined at
+  `archive/scaffolded_kernel_controls_2026-08-19/README.md`.
+- W5/W6 wording: `founding.md`; adoptions and bounded response constitution:
+  `startup_surface_g310_universal_reciprocity_refresh_2026-08-31/ADOPTION_RECORD.md`;
+  `startup_surface_g312_two_premise_adoption_refresh_2026-09-01/ADOPTION_RECORD.md`;
+  `udt_g312_quiet_gr_response_constitution_discriminator_2026-09-01/AUDIT_REPORT.md`.
+- Current generic null-screen geometry: `udt_g348_generic_lorentzian_null_screen_area_theorem_2026-09-04/`;
+  `udt_g349_finite_null_wavefront_patch_area_2026-09-04/`.
+- Current transfer-character boundary:
+  `udt_g350_frequency_area_carried_content_ownership_2026-09-05/`.
+- Current owner-provisional conservation result:
+  `udt_g351_source_free_labelwise_carried_measure_conservation_2026-09-05/`.
+- Current owner-provisional continuous clock-rate readout and next-gate parent:
+  `udt_g352_clock_rate_carried_measure_readout_2026-09-05/`.
+- G353--G356 conditional mathematical banking and exact reviewed scope:
+  `udt_g353_g356_conditional_banking_2026-09-06/BANKING_RECORD.md`.
+- Completed, unchanged four-step evidence:
+  `udt_g351_g352_content_bridge_campaign_2026-09-06/`.
+- Historical next-direction proposal, subsequently authorized as an adaptive campaign:
+  `udt_g353_g356_conditional_banking_2026-09-06/NEXT_CAMPAIGN_DECISION_BRIEF.md`.
+- Completed unchanged five-reviewed-step three-direction source campaign:
+  `udt_shared_readout_metric_constraint_campaign_2026-09-06/DECISION_BRIEF.md`;
+  scope, evidence/review history and closure: its `CAMPAIGN_LOG.md`.
+- G357--G360 owner-authorized conditional mathematical banking of SC2--SC5; SC1 stays a source map:
+  `udt_g357_g360_conditional_banking_2026-09-07/BANKING_RECORD.md`.
+- Completed unchanged recipe-persistence source campaign:
+  `udt_phase_current_product_persistence_campaign_2026-09-07/WORK_ORDER.md`;
+  closure: its `CAMPAIGN_LOG.md`; owner return: its `DECISION_BRIEF.md`. Historical approved proposal remains
+  `udt_g357_g360_conditional_banking_2026-09-07/NEXT_CAMPAIGN_PROPOSAL.md`.
+- G361--G363 owner-authorized conditional mathematical banking of PC1--PC3:
+  `udt_g361_g363_conditional_banking_2026-09-07/BANKING_RECORD.md`.
+  Historical restrictiveness proposal, subsequently authorized: its `NEXT_CAMPAIGN_PROPOSAL.md`.
+- Completed unchanged restrictiveness source campaign:
+  `udt_recipe_restrictiveness_campaign_2026-09-07/DECISION_BRIEF.md`;
+  exact scope, diagnostics, review and closure routes: its `CAMPAIGN_LOG.md` and step review records.
+- G364--G366 conditional banking of RC1--RC3:
+  `udt_g364_g366_conditional_banking_2026-09-07/BANKING_RECORD.md`.
+  Historical calibration/test proposal: its `NEXT_CAMPAIGN_PROPOSAL.md`.
+- G367--G369 exact-scope conditional banking of SM1--SM3:
+  `udt_g367_g369_conditional_banking_2026-09-08/BANKING_RECORD.md`;
+  its `EXECUTION_RECORD.md` owns integration/fidelity completion.
+- Original source--metric campaign, unchanged including review/repair history:
+  `udt_source_metric_connection_campaign_2026-09-08/DECISION_BRIEF.md`.
+- Completed unchanged bounded metric-only reconstructibility test:
+  `udt_metric_source_reconstructibility_campaign_2026-09-08/WORK_ORDER.md`;
+  its `CAMPAIGN_LOG.md` owns step questions, outcomes and review state.
+- G370--G371 owner-authorized exact-scope conditional banking of RT1--RT2:
+  `udt_g370_g371_conditional_banking_2026-09-08/BANKING_RECORD.md`;
+  its `EXECUTION_RECORD.md` owns promotion gate completion.
+- Approved bounded theory direction proposal (historical proposal wording retained):
+  `udt_g370_g371_conditional_banking_2026-09-08/NEXT_CAMPAIGN_PROPOSAL.md`.
+- Optional independent-data coupled-development campaign at its two-reviewed-step stop:
+  `udt_optional_coupled_development_campaign_2026-09-08/WORK_ORDER.md`;
+  its `CAMPAIGN_LOG.md` owns step/review state, not scientific grades;
+  `DECISION_BRIEF.md` owns the conditional result/next decision and
+  `COMPLETION_RECORD.md` preserves the original delivery/preservation gates and then-NOT_BANKED state.
+- G372--G373 owner-authorized exact-scope conditional banking of CD1--CD2:
+  `udt_g372_g373_conditional_banking_2026-09-08/BANKING_RECORD.md`;
+  its `EXECUTION_RECORD.md` owns promotion completion. Three vacuous checks stay excluded.
+  Optional source-model branch PAUSED. Its `NEXT_CAMPAIGN_PROPOSAL.md` is the
+  historical proposal subsequently approved by Charles.
+- Core vacuum/common-scale campaign, two reviewed conditional results; original NOT_BANKED history preserved:
+  `udt_vacuum_common_scale_campaign_2026-09-08/WORK_ORDER.md`;
+  its `DECISION_BRIEF.md` and `CAMPAIGN_LOG.md` own results/review state, not accepted grades.
+  VS1 compatibility/finite-data and VS2 fixed-domain rigidity/null-sector boundary have owner banking authority;
+  G374--G375 integration gates are tracked in the banking package above.
+
+## Retained comparison and observational lanes
+
+- Observational interface/provenance: `udt_g277_observational_scale_anchor_ownership_2026-08-26/`;
+  `udt_g279_native_kernel_observational_interface_provenance_audit_2026-08-27/`;
+  `udt_g281_sne_validation_provenance_reconstruction_audit_2026-08-27/`.
+- Raw-pattern control: `udt_observed_angular_pattern_raw_restart_2026-08-12/`; exact R5 records:
+  `udt_observed_angular_pattern_raw_restart_2026-08-12/R5_OUTCOME_REPORT.md`,
+  `udt_observed_angular_pattern_raw_restart_2026-08-12/R5_EXTERNAL_FOLLOWUP_REVIEW.md`, and
+  `udt_observed_angular_pattern_raw_restart_2026-08-12/R5_FINAL_EVIDENCE_MANIFEST.tsv`.
+- Verified raw archive: `/media/udt-admin/ScratchDisk/Data/UDT_BOSS_R3_2026-08-14/`.
+- Chosen-family evaluators/controls: `udt_g190_completed_pair_timelive_frequency_screen_join_2026-08-20/`;
+  `udt_g196_longitudinal_screen_mixing_descent_2026-08-20/`. They are controls, not current
+  construction inputs.
+
+R2--R5 select no feature, scale, origin, cosmology, or `X_max`.
+
+## Specialized entry points
+
+- Carrier/topology: `native_hopfion_topology_audit_2026-07-19/AUDIT_REPORT.md` and its ledger.
+- Mass/stability: `udt_scientific_arc_recovery_checkpoint_2026-08-04/MASS_BRANCH_AUTHORITY_MAP.tsv`;
+  `stability_branch_follow_256_DECISION.md` is durable lane evidence only.
+- Primary metric control: `SIMPLE_METRIC_MACRO.md`; canonical-geometry control:
+  `udt_canonical_geometry.md`.
+- `X_max` dependency-reversal control: `udt_g163_xmax_dependency_reversal_audit_2026-08-18/`.
+- Historical startup states: `archive/STARTUP_SURFACE_HISTORY.md`.

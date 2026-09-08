@@ -1,0 +1,493 @@
+{
+  "kind": "exact symbolic block-curvature checks; finite fixtures",
+  "checks": 136,
+  "records": [
+    {
+      "weights": [
+        "1/4",
+        "1/2"
+      ],
+      "x": "2/5",
+      "C": "-3",
+      "root": "-16",
+      "Lambda": "-221/4",
+      "R": "(4 - 8*x)/(x - 2)",
+      "Rprime": "75/16",
+      "bprime": "-75/256",
+      "mixed": "-45/128",
+      "V": [
+        "-45/416",
+        "15/208"
+      ],
+      "projector_derivative": "Matrix([[-945/6656, -1935/13312], [15/3328, 945/6656]])",
+      "inverse_metric_effect": "Matrix([[-139/8, -117/16], [-39/4, -217/8]])",
+      "full_radial_Ricci_derivative": "-3323125/24576"
+    },
+    {
+      "weights": [
+        "1/4",
+        "1/2"
+      ],
+      "x": "2/5",
+      "C": "-3",
+      "root": "16",
+      "Lambda": "-221/4",
+      "R": "(4 - 8*x)/(x - 2)",
+      "Rprime": "75/16",
+      "bprime": "75/256",
+      "mixed": "45/128",
+      "V": [
+        "45/416",
+        "-15/208"
+      ],
+      "projector_derivative": "Matrix([[945/6656, 1935/13312], [-15/3328, -945/6656]])",
+      "inverse_metric_effect": "Matrix([[229/8, 27/16], [9/4, 247/8]])",
+      "full_radial_Ricci_derivative": "4859125/24576"
+    },
+    {
+      "weights": [
+        "1/4",
+        "1/2"
+      ],
+      "x": "2/5",
+      "C": "3",
+      "root": "-16",
+      "Lambda": "-221/4",
+      "R": "(4 - 8*x)/(x - 2)",
+      "Rprime": "75/16",
+      "bprime": "-75/256",
+      "mixed": "-45/128",
+      "V": [
+        "-45/416",
+        "15/208"
+      ],
+      "projector_derivative": "Matrix([[-945/6656, -1935/13312], [15/3328, 945/6656]])",
+      "inverse_metric_effect": "Matrix([[-229/8, -27/16], [-9/4, -247/8]])",
+      "full_radial_Ricci_derivative": "-4859125/24576"
+    },
+    {
+      "weights": [
+        "1/4",
+        "1/2"
+      ],
+      "x": "2/5",
+      "C": "3",
+      "root": "16",
+      "Lambda": "-221/4",
+      "R": "(4 - 8*x)/(x - 2)",
+      "Rprime": "75/16",
+      "bprime": "75/256",
+      "mixed": "45/128",
+      "V": [
+        "45/416",
+        "-15/208"
+      ],
+      "projector_derivative": "Matrix([[945/6656, 1935/13312], [-15/3328, -945/6656]])",
+      "inverse_metric_effect": "Matrix([[139/8, 117/16], [39/4, 217/8]])",
+      "full_radial_Ricci_derivative": "3323125/24576"
+    },
+    {
+      "weights": [
+        "1/2",
+        "1/4"
+      ],
+      "x": "3/5",
+      "C": "-3",
+      "root": "-16",
+      "Lambda": "-221/4",
+      "R": "(4 - 8*x)/(x + 1)",
+      "Rprime": "-75/16",
+      "bprime": "75/256",
+      "mixed": "45/128",
+      "V": [
+        "15/208",
+        "-45/416"
+      ],
+      "projector_derivative": "Matrix([[945/6656, 15/3328], [-1935/13312, -945/6656]])",
+      "inverse_metric_effect": "Matrix([[-217/8, -39/4], [-117/16, -139/8]])",
+      "full_radial_Ricci_derivative": "-3323125/24576"
+    },
+    {
+      "weights": [
+        "1/2",
+        "1/4"
+      ],
+      "x": "3/5",
+      "C": "-3",
+      "root": "16",
+      "Lambda": "-221/4",
+      "R": "(4 - 8*x)/(x + 1)",
+      "Rprime": "-75/16",
+      "bprime": "-75/256",
+      "mixed": "-45/128",
+      "V": [
+        "-15/208",
+        "45/416"
+      ],
+      "projector_derivative": "Matrix([[-945/6656, -15/3328], [1935/13312, 945/6656]])",
+      "inverse_metric_effect": "Matrix([[247/8, 9/4], [27/16, 229/8]])",
+      "full_radial_Ricci_derivative": "4859125/24576"
+    },
+    {
+      "weights": [
+        "1/2",
+        "1/4"
+      ],
+      "x": "3/5",
+      "C": "3",
+      "root": "-16",
+      "Lambda": "-221/4",
+      "R": "(4 - 8*x)/(x + 1)",
+      "Rprime": "-75/16",
+      "bprime": "75/256",
+      "mixed": "45/128",
+      "V": [
+        "15/208",
+        "-45/416"
+      ],
+      "projector_derivative": "Matrix([[945/6656, 15/3328], [-1935/13312, -945/6656]])",
+      "inverse_metric_effect": "Matrix([[-247/8, -9/4], [-27/16, -229/8]])",
+      "full_radial_Ricci_derivative": "-4859125/24576"
+    },
+    {
+      "weights": [
+        "1/2",
+        "1/4"
+      ],
+      "x": "3/5",
+      "C": "3",
+      "root": "16",
+      "Lambda": "-221/4",
+      "R": "(4 - 8*x)/(x + 1)",
+      "Rprime": "-75/16",
+      "bprime": "-75/256",
+      "mixed": "-45/128",
+      "V": [
+        "-15/208",
+        "45/416"
+      ],
+      "projector_derivative": "Matrix([[-945/6656, -15/3328], [1935/13312, 945/6656]])",
+      "inverse_metric_effect": "Matrix([[217/8, 39/4], [117/16, 139/8]])",
+      "full_radial_Ricci_derivative": "3323125/24576"
+    },
+    {
+      "weights": [
+        "2",
+        "3"
+      ],
+      "x": "1/3",
+      "C": "-3",
+      "root": "-16",
+      "Lambda": "-49",
+      "R": "(-42*x - 18)/(x - 3)",
+      "Rprime": "81/4",
+      "bprime": "-81/64",
+      "mixed": "-45/32",
+      "V": [
+        "15/4",
+        "-15/8"
+      ],
+      "projector_derivative": "Matrix([[195/128, 15/64], [345/256, -195/128]])",
+      "inverse_metric_effect": "Matrix([[59/2, -41], [-123/4, -23/2]])",
+      "full_radial_Ricci_derivative": "-43227/2048"
+    },
+    {
+      "weights": [
+        "2",
+        "3"
+      ],
+      "x": "1/3",
+      "C": "-3",
+      "root": "16",
+      "Lambda": "-49",
+      "R": "(-42*x - 18)/(x - 3)",
+      "Rprime": "81/4",
+      "bprime": "81/64",
+      "mixed": "45/32",
+      "V": [
+        "-15/4",
+        "15/8"
+      ],
+      "projector_derivative": "Matrix([[-195/128, -15/64], [-345/256, 195/128]])",
+      "inverse_metric_effect": "Matrix([[-149/2, 71], [213/4, -7/2]])",
+      "full_radial_Ricci_derivative": "63963/2048"
+    },
+    {
+      "weights": [
+        "2",
+        "3"
+      ],
+      "x": "1/3",
+      "C": "3",
+      "root": "-16",
+      "Lambda": "-49",
+      "R": "(-42*x - 18)/(x - 3)",
+      "Rprime": "81/4",
+      "bprime": "-81/64",
+      "mixed": "-45/32",
+      "V": [
+        "15/4",
+        "-15/8"
+      ],
+      "projector_derivative": "Matrix([[195/128, 15/64], [345/256, -195/128]])",
+      "inverse_metric_effect": "Matrix([[149/2, -71], [-213/4, 7/2]])",
+      "full_radial_Ricci_derivative": "-63963/2048"
+    },
+    {
+      "weights": [
+        "2",
+        "3"
+      ],
+      "x": "1/3",
+      "C": "3",
+      "root": "16",
+      "Lambda": "-49",
+      "R": "(-42*x - 18)/(x - 3)",
+      "Rprime": "81/4",
+      "bprime": "81/64",
+      "mixed": "45/32",
+      "V": [
+        "-15/4",
+        "15/8"
+      ],
+      "projector_derivative": "Matrix([[-195/128, -15/64], [-345/256, 195/128]])",
+      "inverse_metric_effect": "Matrix([[-59/2, 41], [123/4, 23/2]])",
+      "full_radial_Ricci_derivative": "43227/2048"
+    },
+    {
+      "weights": [
+        "1/2",
+        "1/2"
+      ],
+      "x": "2/3",
+      "C": "-3",
+      "root": "-16",
+      "Lambda": "-54",
+      "R": "2",
+      "Rprime": "0",
+      "bprime": "0",
+      "mixed": "0",
+      "V": [
+        "0",
+        "0"
+      ],
+      "projector_derivative": "Matrix([[0, 0], [0, 0]])",
+      "inverse_metric_effect": "Matrix([[-64/3, -32/3], [-64/3, -32/3]])",
+      "full_radial_Ricci_derivative": "-117"
+    },
+    {
+      "weights": [
+        "1/2",
+        "1/2"
+      ],
+      "x": "2/3",
+      "C": "-3",
+      "root": "16",
+      "Lambda": "-54",
+      "R": "2",
+      "Rprime": "0",
+      "bprime": "0",
+      "mixed": "0",
+      "V": [
+        "0",
+        "0"
+      ],
+      "projector_derivative": "Matrix([[0, 0], [0, 0]])",
+      "inverse_metric_effect": "Matrix([[64/3, 32/3], [64/3, 32/3]])",
+      "full_radial_Ricci_derivative": "171"
+    },
+    {
+      "weights": [
+        "1/2",
+        "1/2"
+      ],
+      "x": "2/3",
+      "C": "3",
+      "root": "-16",
+      "Lambda": "-54",
+      "R": "2",
+      "Rprime": "0",
+      "bprime": "0",
+      "mixed": "0",
+      "V": [
+        "0",
+        "0"
+      ],
+      "projector_derivative": "Matrix([[0, 0], [0, 0]])",
+      "inverse_metric_effect": "Matrix([[-64/3, -32/3], [-64/3, -32/3]])",
+      "full_radial_Ricci_derivative": "-171"
+    },
+    {
+      "weights": [
+        "1/2",
+        "1/2"
+      ],
+      "x": "2/3",
+      "C": "3",
+      "root": "16",
+      "Lambda": "-54",
+      "R": "2",
+      "Rprime": "0",
+      "bprime": "0",
+      "mixed": "0",
+      "V": [
+        "0",
+        "0"
+      ],
+      "projector_derivative": "Matrix([[0, 0], [0, 0]])",
+      "inverse_metric_effect": "Matrix([[64/3, 32/3], [64/3, 32/3]])",
+      "full_radial_Ricci_derivative": "117"
+    }
+  ],
+  "hostile_residuals": [
+    {
+      "weights": [
+        "1/4",
+        "1/2"
+      ],
+      "C": "-3",
+      "root": "-16",
+      "wrong_sign": "-45/64",
+      "omitted_gradient": "-45/128",
+      "wrong_coefficient": "-9/64",
+      "wrong_gap": "Matrix([[-45/64], [15/32]])"
+    },
+    {
+      "weights": [
+        "1/4",
+        "1/2"
+      ],
+      "C": "-3",
+      "root": "16",
+      "wrong_sign": "45/64",
+      "omitted_gradient": "45/128",
+      "wrong_coefficient": "9/64",
+      "wrong_gap": "Matrix([[45/64], [-15/32]])"
+    },
+    {
+      "weights": [
+        "1/4",
+        "1/2"
+      ],
+      "C": "3",
+      "root": "-16",
+      "wrong_sign": "-45/64",
+      "omitted_gradient": "-45/128",
+      "wrong_coefficient": "-9/64",
+      "wrong_gap": "Matrix([[-45/64], [15/32]])"
+    },
+    {
+      "weights": [
+        "1/4",
+        "1/2"
+      ],
+      "C": "3",
+      "root": "16",
+      "wrong_sign": "45/64",
+      "omitted_gradient": "45/128",
+      "wrong_coefficient": "9/64",
+      "wrong_gap": "Matrix([[45/64], [-15/32]])"
+    },
+    {
+      "weights": [
+        "1/2",
+        "1/4"
+      ],
+      "C": "-3",
+      "root": "-16",
+      "wrong_sign": "45/64",
+      "omitted_gradient": "45/128",
+      "wrong_coefficient": "9/64",
+      "wrong_gap": "Matrix([[15/32], [-45/64]])"
+    },
+    {
+      "weights": [
+        "1/2",
+        "1/4"
+      ],
+      "C": "-3",
+      "root": "16",
+      "wrong_sign": "-45/64",
+      "omitted_gradient": "-45/128",
+      "wrong_coefficient": "-9/64",
+      "wrong_gap": "Matrix([[-15/32], [45/64]])"
+    },
+    {
+      "weights": [
+        "1/2",
+        "1/4"
+      ],
+      "C": "3",
+      "root": "-16",
+      "wrong_sign": "45/64",
+      "omitted_gradient": "45/128",
+      "wrong_coefficient": "9/64",
+      "wrong_gap": "Matrix([[15/32], [-45/64]])"
+    },
+    {
+      "weights": [
+        "1/2",
+        "1/4"
+      ],
+      "C": "3",
+      "root": "16",
+      "wrong_sign": "-45/64",
+      "omitted_gradient": "-45/128",
+      "wrong_coefficient": "-9/64",
+      "wrong_gap": "Matrix([[-15/32], [45/64]])"
+    },
+    {
+      "weights": [
+        "2",
+        "3"
+      ],
+      "C": "-3",
+      "root": "-16",
+      "wrong_sign": "-45/16",
+      "omitted_gradient": "-45/32",
+      "wrong_coefficient": "-9/16",
+      "wrong_gap": "Matrix([[-45/2], [45/4]])"
+    },
+    {
+      "weights": [
+        "2",
+        "3"
+      ],
+      "C": "-3",
+      "root": "16",
+      "wrong_sign": "45/16",
+      "omitted_gradient": "45/32",
+      "wrong_coefficient": "9/16",
+      "wrong_gap": "Matrix([[45/2], [-45/4]])"
+    },
+    {
+      "weights": [
+        "2",
+        "3"
+      ],
+      "C": "3",
+      "root": "-16",
+      "wrong_sign": "-45/16",
+      "omitted_gradient": "-45/32",
+      "wrong_coefficient": "-9/16",
+      "wrong_gap": "Matrix([[-45/2], [45/4]])"
+    },
+    {
+      "weights": [
+        "2",
+        "3"
+      ],
+      "C": "3",
+      "root": "16",
+      "wrong_sign": "45/16",
+      "omitted_gradient": "45/32",
+      "wrong_coefficient": "9/16",
+      "wrong_gap": "Matrix([[45/2], [-45/4]])"
+    }
+  ],
+  "versions": {
+    "python": "3.10.12 (main, Jun 22 2026, 18:55:27) [GCC 11.4.0]",
+    "sympy": "1.13.1",
+    "platform": "Linux-6.8.0-138-generic-x86_64-with-glibc2.35"
+  }
+}

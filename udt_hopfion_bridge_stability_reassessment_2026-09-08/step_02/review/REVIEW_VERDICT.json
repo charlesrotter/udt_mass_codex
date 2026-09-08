@@ -1,0 +1,30 @@
+{
+  "completed_utc": "2026-09-08T17:03:54.869214+00:00",
+  "verdict": "VERIFIED-WITH-CAVEATS",
+  "scope": "Conditional initial-normal Ricci-projector variation on the exact strict G331/G332 weighted-contact family with the declared simple gap and normal-flow comparison; UNPROMOTED",
+  "candidate_sha256": "d5238bc2ef9407e3de483d386823b65a128eddaea6e10d7b0e85c33e9b42260c",
+  "review_sha256": "fbcef93d482f6b7546f4ecd450b52c2f88e66877a1035f6258a6bbab40122c81",
+  "source_first_seal_sha256": "e9cdb550a2badf15ee1a17e00c7c25e5f937841513bce046a9421ecc21ae2984",
+  "source_first_sealed_bytes_unchanged": true,
+  "candidate_bytes_unchanged": true,
+  "mandatory_repairs": [],
+  "unresolved_load_bearing_objections": [],
+  "author_repair_cycles_used": 0,
+  "independent_source_first_argument": "Killing-divergence route before candidate exposure",
+  "independent_implementation": "SymPy direct toric-block curvature; source-first finite anchors and post-exposure12-fixture comparison",
+  "author_replay": "shared G337 code; byte-identical stdout;9 actual hostile rejections",
+  "initial_review_timeout_preserved": true,
+  "initial_boundary_fixture_narrowing_preserved": true,
+  "exact_backend_model": "UNAUTHENTICATED",
+  "configured_model": "dispatch reports gpt-6-astra/xhigh; no switch",
+  "different_model_review": "UNTESTED",
+  "parent_full_audits_reused": [
+    "prebank_356",
+    "postbank_358"
+  ],
+  "duplicate_full_audit_run": false,
+  "git_mutation_performed": false,
+  "head_at_return": "53d52ea3bd4fe5f2dbb5138107bfa7250ab6edcc",
+  "new_physical_premise_or_promotion": false,
+  "reviewer_write_scope": "step_02/review only"
+}

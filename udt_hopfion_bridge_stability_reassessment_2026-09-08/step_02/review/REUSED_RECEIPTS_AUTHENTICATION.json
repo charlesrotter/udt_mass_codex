@@ -1,0 +1,24 @@
+{
+  "utc": "2026-09-08T16:46:17.573150+00:00",
+  "head": "53d52ea3bd4fe5f2dbb5138107bfa7250ab6edcc",
+  "audit_replayed": false,
+  "sync_replayed": false,
+  "receipts": {
+    "prebank_356": {
+      "returncode": 0,
+      "duration_seconds": 401.5931578509917,
+      "timeout": false,
+      "stderr_bytes_match": true,
+      "stdout_exists": true,
+      "stdout_matches_ignoring_final_newlines": true
+    },
+    "postbank_358": {
+      "returncode": 0,
+      "duration_seconds": 401.2595951859839,
+      "timeout": false,
+      "stderr_bytes_match": true,
+      "stdout_exists": true,
+      "stdout_matches_ignoring_final_newlines": true
+    }
+  }
+}

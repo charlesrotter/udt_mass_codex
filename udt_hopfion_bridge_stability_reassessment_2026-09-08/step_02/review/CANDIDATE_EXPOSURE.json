@@ -1,0 +1,13 @@
+{
+  "utc": "2026-09-08T16:57:22.335146+00:00",
+  "freeze_read_before_argument_code": true,
+  "first_argument_code_content_exposure": "immediately after this record",
+  "candidate_sources": {
+    "CANDIDATE_FREEZE.md": "ae766dcaa328223332430acca89ee68f2ac04e3d65d0787506ecb1cb5ba1f400",
+    "CANDIDATE_INITIAL.md": "d5238bc2ef9407e3de483d386823b65a128eddaea6e10d7b0e85c33e9b42260c",
+    "check_drift.py": "52eea245a035284c3699cb3530e2af5d827260862cd16ba03f7f66529730fed8",
+    "author_check_initial.json": "f28d8efadd6d19608c487397d6deac1aa0a3fab92af3b6cc6b6bca0a5061e4c0"
+  },
+  "source_first_seal_preceded_candidate_exposure": true,
+  "author_no_prior_review_content_exposure": "author freeze declaration, not established by checksum"
+}

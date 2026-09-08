@@ -1,0 +1,8 @@
+{
+  "R": "-2*(4*u**2*x - 8*u*v + u*x - 4*v**2*x + 4*v**2 - v*x + v)/(u*x - v*x + v)",
+  "Rprime": "-24*u*v*(u - v)/(u*x - v*x + v)**2",
+  "gradient_norm_squared": "-2304*u**2*v**2*x*(u - v)**2*(x - 1)/(u*x - v*x + v)**3",
+  "identities": 4,
+  "python": "3.10.12 (main, Jun 22 2026, 18:55:27) [GCC 11.4.0]",
+  "sympy": "1.13.1"
+}

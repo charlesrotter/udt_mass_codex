@@ -1,0 +1,202 @@
+{
+  "kind": "post-exposure independent toric-block recomputation against saved author quantities; no author engine imported",
+  "independent_checks": 102,
+  "matched": [
+    {
+      "weights": [
+        "1/4",
+        "1/2"
+      ],
+      "x": "1/3",
+      "C": "-3",
+      "root": "-8",
+      "Y": [
+        "0",
+        "-15/68",
+        "15/136"
+      ],
+      "projector_HS_squared": "135/1156",
+      "full_raising_correction": "-16"
+    },
+    {
+      "weights": [
+        "1/4",
+        "1/2"
+      ],
+      "x": "1/3",
+      "C": "-3",
+      "root": "8",
+      "Y": [
+        "0",
+        "15/68",
+        "-15/136"
+      ],
+      "projector_HS_squared": "135/1156",
+      "full_raising_correction": "16"
+    },
+    {
+      "weights": [
+        "1/4",
+        "1/2"
+      ],
+      "x": "1/3",
+      "C": "3",
+      "root": "-8",
+      "Y": [
+        "0",
+        "-15/68",
+        "15/136"
+      ],
+      "projector_HS_squared": "135/1156",
+      "full_raising_correction": "-16"
+    },
+    {
+      "weights": [
+        "1/4",
+        "1/2"
+      ],
+      "x": "1/3",
+      "C": "3",
+      "root": "8",
+      "Y": [
+        "0",
+        "15/68",
+        "-15/136"
+      ],
+      "projector_HS_squared": "135/1156",
+      "full_raising_correction": "16"
+    },
+    {
+      "weights": [
+        "2",
+        "7/4"
+      ],
+      "x": "2/5",
+      "C": "-3",
+      "root": "-8",
+      "Y": [
+        "0",
+        "-315/274",
+        "105/137"
+      ],
+      "projector_HS_squared": "661500/694453",
+      "full_raising_correction": "-16"
+    },
+    {
+      "weights": [
+        "2",
+        "7/4"
+      ],
+      "x": "2/5",
+      "C": "-3",
+      "root": "8",
+      "Y": [
+        "0",
+        "315/274",
+        "-105/137"
+      ],
+      "projector_HS_squared": "661500/694453",
+      "full_raising_correction": "16"
+    },
+    {
+      "weights": [
+        "2",
+        "7/4"
+      ],
+      "x": "2/5",
+      "C": "3",
+      "root": "-8",
+      "Y": [
+        "0",
+        "-315/274",
+        "105/137"
+      ],
+      "projector_HS_squared": "661500/694453",
+      "full_raising_correction": "-16"
+    },
+    {
+      "weights": [
+        "2",
+        "7/4"
+      ],
+      "x": "2/5",
+      "C": "3",
+      "root": "8",
+      "Y": [
+        "0",
+        "315/274",
+        "-105/137"
+      ],
+      "projector_HS_squared": "661500/694453",
+      "full_raising_correction": "16"
+    },
+    {
+      "weights": [
+        "1/2",
+        "1/2"
+      ],
+      "x": "1/4",
+      "C": "-3",
+      "root": "-8",
+      "Y": [
+        "0",
+        "0",
+        "0"
+      ],
+      "projector_HS_squared": "0",
+      "full_raising_correction": "-16"
+    },
+    {
+      "weights": [
+        "1/2",
+        "1/2"
+      ],
+      "x": "1/4",
+      "C": "-3",
+      "root": "8",
+      "Y": [
+        "0",
+        "0",
+        "0"
+      ],
+      "projector_HS_squared": "0",
+      "full_raising_correction": "16"
+    },
+    {
+      "weights": [
+        "1/2",
+        "1/2"
+      ],
+      "x": "1/4",
+      "C": "3",
+      "root": "-8",
+      "Y": [
+        "0",
+        "0",
+        "0"
+      ],
+      "projector_HS_squared": "0",
+      "full_raising_correction": "-16"
+    },
+    {
+      "weights": [
+        "1/2",
+        "1/2"
+      ],
+      "x": "1/4",
+      "C": "3",
+      "root": "8",
+      "Y": [
+        "0",
+        "0",
+        "0"
+      ],
+      "projector_HS_squared": "0",
+      "full_raising_correction": "16"
+    }
+  ],
+  "versions": {
+    "python": "3.10.12 (main, Jun 22 2026, 18:55:27) [GCC 11.4.0]",
+    "sympy": "1.13.1"
+  }
+}

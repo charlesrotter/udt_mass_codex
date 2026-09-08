@@ -1,0 +1,110 @@
+[
+  {
+    "stem": "source_first_block",
+    "capture_receipt_sha256": "7167ff27e5b786c16e447d80dd81f64ebf50547deb32bd3b955baa7594f5d79b",
+    "actual_argv": [
+      "python3",
+      "-B",
+      "udt_hopfion_bridge_stability_reassessment_2026-09-08/step_02/review/independent_block_check.py"
+    ],
+    "cwd": "/home/udt-admin/udt_mass_codex",
+    "env_prefix": {
+      "OPENBLAS_NUM_THREADS": "1",
+      "OMP_NUM_THREADS": "1",
+      "MKL_NUM_THREADS": "1"
+    },
+    "returncode": null,
+    "timeout": true,
+    "duration_seconds": 60.00596565101296
+  },
+  {
+    "stem": "source_first_block_focused",
+    "capture_receipt_sha256": "6b810e1f2f741e45a3bac8ecd6629cd3a4095543deca58479e91399832b04f18",
+    "actual_argv": [
+      "python3",
+      "-B",
+      "udt_hopfion_bridge_stability_reassessment_2026-09-08/step_02/review/independent_block_check_focused.py"
+    ],
+    "cwd": "/home/udt-admin/udt_mass_codex",
+    "env_prefix": {
+      "OPENBLAS_NUM_THREADS": "1",
+      "OMP_NUM_THREADS": "1",
+      "MKL_NUM_THREADS": "1"
+    },
+    "returncode": 0,
+    "timeout": false,
+    "duration_seconds": 9.307558333995985
+  },
+  {
+    "stem": "source_first_scalar",
+    "capture_receipt_sha256": "acf038cb4fcacaaf1b32f15bdb77284f95539205014c767f3b99198d9664265d",
+    "actual_argv": [
+      "python3",
+      "-B",
+      "udt_hopfion_bridge_stability_reassessment_2026-09-08/step_02/review/independent_scalar_check.py"
+    ],
+    "cwd": "/home/udt-admin/udt_mass_codex",
+    "env_prefix": {
+      "OPENBLAS_NUM_THREADS": "1",
+      "OMP_NUM_THREADS": "1",
+      "MKL_NUM_THREADS": "1"
+    },
+    "returncode": 0,
+    "timeout": false,
+    "duration_seconds": 0.27190397001686506
+  },
+  {
+    "stem": "post_seal_authentication",
+    "capture_receipt_sha256": "554c7521e8257e9386ef1d0d93066dcef1d7062e233b84598c56adf2578d4129",
+    "actual_argv": [
+      "python3",
+      "-B",
+      "udt_hopfion_bridge_stability_reassessment_2026-09-08/step_02/review/authenticate_sources.py"
+    ],
+    "cwd": "/home/udt-admin/udt_mass_codex",
+    "env_prefix": {
+      "OPENBLAS_NUM_THREADS": "1",
+      "OMP_NUM_THREADS": "1",
+      "MKL_NUM_THREADS": "1"
+    },
+    "returncode": 0,
+    "timeout": false,
+    "duration_seconds": 0.04530847899150103
+  },
+  {
+    "stem": "author_replay",
+    "capture_receipt_sha256": "58805c40598c6a2c2e046e70bba4d234c53850751aa4db2ebbfa034dec61b3ad",
+    "actual_argv": [
+      "python3",
+      "-B",
+      "udt_hopfion_bridge_stability_reassessment_2026-09-08/step_02/check_drift.py"
+    ],
+    "cwd": "/home/udt-admin/udt_mass_codex",
+    "env_prefix": {
+      "OPENBLAS_NUM_THREADS": "1",
+      "OMP_NUM_THREADS": "1",
+      "MKL_NUM_THREADS": "1"
+    },
+    "returncode": 0,
+    "timeout": false,
+    "duration_seconds": 0.396451156004332
+  },
+  {
+    "stem": "post_exposure_matched",
+    "capture_receipt_sha256": "0355b0c0206e18542cfaf59b701a6d47eb43a194e316eb17841ff9290efae84c",
+    "actual_argv": [
+      "python3",
+      "-B",
+      "udt_hopfion_bridge_stability_reassessment_2026-09-08/step_02/review/post_exposure_matched_check.py"
+    ],
+    "cwd": "/home/udt-admin/udt_mass_codex",
+    "env_prefix": {
+      "OPENBLAS_NUM_THREADS": "1",
+      "OMP_NUM_THREADS": "1",
+      "MKL_NUM_THREADS": "1"
+    },
+    "returncode": 0,
+    "timeout": false,
+    "duration_seconds": 7.122407055023359
+  }
+]

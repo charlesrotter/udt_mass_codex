@@ -1,0 +1,48 @@
+{
+  "frozen_files_unchanged": 62,
+  "scientific_sources_match_baseline_and_current": [
+    {
+      "path": "startup_surface_g310_universal_reciprocity_refresh_2026-08-31/ADOPTION_RECORD.md",
+      "sha256": "4eb7d0a1130dcff997bc5180f420b633e2dcbbb5072d098997ba3672b38d8ab5"
+    },
+    {
+      "path": "startup_surface_g312_two_premise_adoption_refresh_2026-09-01/ADOPTION_RECORD.md",
+      "sha256": "ebeae075307e7a325a840f4c2d9dcd973c18d9a3be21e6e6eccacce1ae8856f1"
+    },
+    {
+      "path": "udt_g315_conditional_cauchy_characteristic_data_interface_2026-09-01/EXACT_DERIVATION.md",
+      "sha256": "8653bb2162b54965c9fe0a74a17aa5cb1da9114b6289b15fb8f46cc4b30b2a63"
+    },
+    {
+      "path": "udt_g321_g320_local_cauchy_development_uniqueness_2026-09-01/EXACT_DERIVATION.md",
+      "sha256": "27ed748fd4d944746d88b6227eb0f4f186628770f4b1a6a9fc9d84563ccc84f4"
+    },
+    {
+      "path": "udt_g331_nonsymmetric_ricci_eigenline_fibration_perturbation_2026-09-03/AUDIT_REPORT.md",
+      "sha256": "0b489b4741b5943619ac18272c48e1e23456ac0e534d78883aaf5cf6a7f1b279"
+    },
+    {
+      "path": "udt_g331_nonsymmetric_ricci_eigenline_fibration_perturbation_2026-09-03/EXACT_DERIVATION.md",
+      "sha256": "9182ee3ee42e346c16059fd330c00d9399b692d0f992e25e6dd29edbe3f56a1e"
+    },
+    {
+      "path": "udt_g332_weighted_contact_vacuum_constraint_embedding_2026-09-03/AUDIT_REPORT.md",
+      "sha256": "6a8a7d294f80dc4cc97fc8704a4032830a51a6e852c27b01bd209e5282b6be51"
+    },
+    {
+      "path": "udt_g332_weighted_contact_vacuum_constraint_embedding_2026-09-03/EXACT_DERIVATION.md",
+      "sha256": "1e1ce4ee663c292285adf09b52c7ac4aa437eaea84be6670123fbff843c5cef6"
+    },
+    {
+      "path": "udt_g337_double_silent_third_normal_ownership_2026-09-03/AUDIT_REPORT.md",
+      "sha256": "2994b28b0436a56c99e748920c41859bd7dfee3f7703733bd77c786132a51175"
+    },
+    {
+      "path": "udt_g337_double_silent_third_normal_ownership_2026-09-03/EXACT_DERIVATION.md",
+      "sha256": "bdd8916b4a4bb1566115e61b26046940281bd38221720aeea41920ac55946826"
+    }
+  ],
+  "head_now": "53d52ea3bd4fe5f2dbb5138107bfa7250ab6edcc",
+  "python": "3.10.12 (main, Jun 22 2026, 18:55:27) [GCC 11.4.0]",
+  "classification": "byte correspondence only, not scientific proof or chronology"
+}

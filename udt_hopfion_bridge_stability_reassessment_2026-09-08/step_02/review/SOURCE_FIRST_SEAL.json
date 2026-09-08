@@ -1,0 +1,18 @@
+{
+  "sealed_utc": "2026-09-08T16:48:59.777666+00:00",
+  "author_candidate_or_code_exposure": false,
+  "source_first_manifest_sha256": "7a4b20777c25368e0a679374336fac87b189aec146bd876f4ca2c4753154e4da",
+  "artifacts": {
+    "SOURCE_FIRST_REQUIREMENTS.md": "f973b271f9cff8997c8c935f78e8e9b63d4323e8de979b1f4b789b93f463dc7c",
+    "SOURCE_FIRST_ARGUMENT.md": "93858299a8e7d6c42d3c996e8b84fc7b4c7552ecab2af3c2a999a3c6453ea89a",
+    "SOURCE_FIRST_SCALAR_ADDENDUM.md": "0202dddcb79623716365d790e38c4e58def8ed805e411efab71f31ea846e3de1",
+    "independent_block_check.py": "7f796219114188f91a5e0b98ed5c68a33a5c3f1c75863814e8b2f4eb4128c94f",
+    "independent_block_check_focused.py": "e84b5b513f35451aeeccbdf4c9f339bc3baa9ee3cc4194e8ccdeed8b47f4ff56",
+    "independent_scalar_check.py": "5f16efaf59f78aa18ef90860f4e68ed2f0012bda76b7ec6193f3a829f4f34e28"
+  },
+  "parent_freeze_exists_without_reading": false,
+  "context": "Fresh review-only user-dispatched context; no resume/fork/new agent",
+  "model": "exposed Codex/GPT-6; dispatch configured gpt-6-astra/xhigh; backend unauthenticated",
+  "different_model_review": "UNTESTED",
+  "source_first_outputs": "initial timeout preserved; finite block and scalar checks exit0"
+}

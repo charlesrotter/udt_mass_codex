@@ -1,0 +1,84 @@
+# MEMORY — compact pointer only
+
+`LIVE.md` wins. Exact premise authority is the 358-row `CURRENT_SCIENTIFIC_PREMISES.tsv`.
+
+## Current picture
+
+VS1--VS2 exact-scope conditional banking as G374--G375 is COMPLETE after
+full358/fresh fidelity gates in `udt_g374_g375_conditional_banking_2026-09-08/`.
+Fixed base, local positive domain and target-scalar caveats survive; no physical
+size, particle stability or absolute scale. The bounded Hopfion reassessment is
+authorized under `udt_hopfion_bridge_stability_reassessment_2026-09-08/WORK_ORDER.md`;
+new Hopfion results remain unpromoted. Current log owns progress, not old pending gates.
+
+The founded reciprocal kernel acts on supplied ordered depth. Complete-pair evaluation is
+conditional and places `B,Q,S,Y,Z` before readout. W5/W6 are working clarifications. Universal
+Reciprocity/DDR and G312 quiet-GR/Local Metric Sufficiency are owner-adopted provisional premises,
+not derived or canon; their bounded vacuum response constitution is trace-free Ricci. The metric,
+kernel, angular cancellation, and adopted equation are unchanged.
+
+G313--G337 characterize a multibranch solution arena and bounded response structure without
+selecting occupancy, history, matter, stability, or scale. G338--G349 derive metric-owned causal and
+null-screen area geometry on supplied spacetimes, not a light or transfer law. G350 leaves the exact
+local multiplicative family `R^p A^q`. G351 provisionally adopts source-free conservation of one
+standard finite label measure; its externally accepted bounded consequence fixes `q=-1` for the
+nonzero absolutely continuous regular density, giving `R^p A^-1`, while leaving observer weight
+`p` open.
+
+G352 provisionally types one continuous clock-rate readout on an explicitly chosen
+phase-independent product realization. Its externally accepted repaired consequence is
+`T_clock=R A^-1`, fixing `p=1` only for that readout; literal atomic crossings, `p=0`, other
+readouts, and all physical identities remain distinct/open.
+
+## Open gate
+
+G353--G356 conditionally bank the completed four-step content-bridge campaign at its reviewed scope;
+integration/fidelity checks passed. Optional conditions and CHOSEN recipes are not physical laws.
+G352 physical identification remains OPEN. No fifth step in that old campaign is requested.
+Charles authorized G357--G360 conditional mathematical banking of SC2--SC5 from the completed
+five-reviewed-step campaign. SC1 remains a source map. Exact scope and preserved review/false-pass
+history: `udt_g357_g360_conditional_banking_2026-09-07/BANKING_RECORD.md`.
+Generic metric-data realization and unrestricted recipe/product persistence remain open.
+G361--G363 bank PC1--PC3 conditionally; exact restricted scope and reviews:
+`udt_g361_g363_conditional_banking_2026-09-07/BANKING_RECORD.md`.
+G364--G366 bank RC1--RC3 conditionally:
+separate tangent departure, exact lawful recipe failure/local Ricci-flat recurrent-root necessity,
+and fixed-product metric freedom detected by a registered eventwise ideal tide.
+`udt_g364_g366_conditional_banking_2026-09-07/BANKING_RECORD.md`.
+Keep all conditional limits and RC2's late-hint exposure caveat.
+Leaving this construction is not failure of admitted UDT equations. Old evidence is unchanged.
+Geometric calibration/testing and emergence remain parallel, neither prerequisite.
+G367--G369 owner-authorized exact-scope SM1--SM3 banking is complete:
+`udt_g367_g369_conditional_banking_2026-09-08/BANKING_RECORD.md`.
+Its EXECUTION_RECORD records full352/fresh fidelity gates. Original repair/exposure limits remain.
+The metric-only reconstructibility campaign is COMPLETE at RT1--RT2.
+Charles authorizes their exact-scope conditional banking as G370--G371:
+`udt_g370_g371_conditional_banking_2026-09-08/BANKING_RECORD.md`;
+its EXECUTION_RECORD owns promotion gate completion. Whole original evidence is unchanged.
+Keep optional nonvacuum status, fixed/free data and full ambient closure explicit.
+Reused G369 source assessment selects no physical source law; reconstruction
+is not independently supplied-data coupled evolution. Current direction proposal:
+`udt_g370_g371_conditional_banking_2026-09-08/NEXT_CAMPAIGN_PROPOSAL.md`.
+Charles approved its two-step/four-hour optional coupled-development campaign:
+`udt_optional_coupled_development_campaign_2026-09-08/CAMPAIGN_LOG.md`.
+CD1--CD2 reached the two-reviewed-step stop; Charles authorizes exact-scope
+conditional banking as G372--G373:
+`udt_g372_g373_conditional_banking_2026-09-08/BANKING_RECORD.md`;
+its EXECUTION_RECORD owns promotion completion. All original evidence remains fixed.
+Restricted smooth initial data, then LOCAL REAL ANALYTIC joint development and
+original-product propagation; three vacuous author product checks remain EXCLUDED.
+Optional law, restricted family, analytic-only uniqueness and all review limits survive.
+No smooth well-posedness, stability, physical identification or UDT selection follows.
+Optional source-model branch PAUSED. The core vacuum/common-scale campaign returned
+two reviewed conditional candidates: udt_vacuum_common_scale_campaign_2026-09-08/DECISION_BRIEF.md.
+VS1--VS2 now have exact-scope G374--G375 banking authority; original NOT_BANKED evidence is unchanged.
+Integration gates remain in the banking package; only the bounded Hopfion successor is authorized.
+G131 reduced-control blindness is not G176/G180 completed tape/depth blindness. LIVE wins.
+The earlier tidal proposal is historical, not a pending permission gate.
+Do not demand unique initial/query data or hide an extra measurement rule in a definition.
+The central manuscript remains the fixed through-G352 edition, not current tracking.
+Population, cross-label physics, realized history, matter, scale, `X_max`, and canon remain open.
+
+Use `INDEX.md` for current evidence routes and `archive/STARTUP_SURFACE_HISTORY.md` for historical
+startup surfaces. R2--R5 remain verified with caveats; 184,300 covariance rows are unresolved and
+no preferred scale follows.
