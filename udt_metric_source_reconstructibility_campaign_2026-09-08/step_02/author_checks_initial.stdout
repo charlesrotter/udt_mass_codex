@@ -1,0 +1,63 @@
+{
+  "actual_defective_substitutes_caught": {
+    "fixed_measure_ambient_closure_omitted": "nonclosed_full_covector",
+    "new_current_called_unchanged": "current_changed",
+    "phase_dependent_labels_called_passive_gauge": "label_phase_dependence",
+    "phase_only_cures_nonseparable_product": "mixed_obstruction_nonzero",
+    "wrong_a_power_in_full_source": "full_source_mismatch"
+  },
+  "checks": {
+    "changed_label_jacobian_positive_on_declared_patch": true,
+    "changed_labels_not_phase_independent": true,
+    "fixed_query_unit_and_future": true,
+    "free_measure_constant_family_full_tensor:2": true,
+    "free_measure_constant_family_full_tensor:3/2": true,
+    "free_measure_current_not_gauge:2": true,
+    "free_measure_current_not_gauge:3/2": true,
+    "full_three_form:(0, 1, 2)": true,
+    "full_three_form:(0, 1, 3)": true,
+    "full_three_form:(0, 2, 3)": true,
+    "full_three_form:(1, 2, 3)": true,
+    "full_transformed_screen_metric_area": true,
+    "matched_G352_and_current_readout": true,
+    "matched_current_conservation": true,
+    "matched_exact_phase_full_covector": true,
+    "matched_full_tensor_and_product": true,
+    "metric_square_root_and_fixed_data_formula": true,
+    "mixed_density_criterion_zero": true,
+    "new_current_conserved": true,
+    "new_product_unit_density": true,
+    "new_unit_measure_pullback_is_phase_dependent": true,
+    "nonseparable_actual_full_Ricci": true,
+    "nonseparable_mixed_obstruction_exact": true,
+    "nonseparable_reference_null_and_conserved": true,
+    "obstruction_survives_reference_rephase": true,
+    "passive_density_ratio_invariance": true,
+    "passive_mixed_obstruction_invariance": true,
+    "prescribed_B_measure_ratio_phase_only": true,
+    "same_full_source_different_current": true,
+    "same_wrong_covector_cut_restriction_vacuously_closed": true,
+    "separable_metric_full_Ricci": true,
+    "separable_reference_conservation": true,
+    "wrong_fixed_measure_full_covector_nonclosed": true
+  },
+  "coordinates": [
+    "u",
+    "r",
+    "x",
+    "y"
+  ],
+  "full_three_form_components": {
+    "(0, 1, 2)": "0",
+    "(0, 1, 3)": "0",
+    "(0, 2, 3)": "(u*y + 1)/(u**2 + 1)",
+    "(1, 2, 3)": "0"
+  },
+  "groups": 33,
+  "kind": "exact RT2 diagnostics, not analytic proof",
+  "physical_instrument_or_source_adoption": "NONE",
+  "rt1_author_regression_reused": "byte-identical; not independent",
+  "rt1_replay_sha256": "eaad92ca83ab31902e9fb1af840bb3fa332c90abc65ed339512c142869bd9674",
+  "scope": "local positive patches; optional nonvacuum comparison metrics; changed labels disclosed",
+  "sympy": "1.13.1"
+}

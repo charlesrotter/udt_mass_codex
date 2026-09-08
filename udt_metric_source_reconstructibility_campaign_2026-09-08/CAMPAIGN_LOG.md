@@ -30,6 +30,27 @@ Baseline7b6ce629636c5ce3acee9f0e7427660b60857cc2. Max2 reviewed steps.
 - RT2 question/fixed-versus-varied inputs/outcomes recorded05:05UTC in
   RT2_PLANNED_QUESTION.md before construction/checking. This is the second and
   last step, not a new campaign. No result presumed.
+- RT1 committed/pushed as b85a14cc920c24f5c8554c4a4eaa727e4bdead0f; actual
+  HEAD=origin/grok verified05:06UTC. Scope/preservation integration passed.
+- RT2 initial argument/checks frozen; author33 exact diagnostic groups and5
+  actual rejected defects pass. Full ambient covector closure is tested,
+  not merely restriction to a cut. Reviewer /root/rt2_product_review sealed
+  independently and completed a source-first scientific run before receiving
+  target pins. Its initial syntax-only execution failure/correction is retained.
+  Direct review completed VERIFIED-WITH-CAVEATS, no author repair. Main read
+  whole verdict/execution05:20UTC; exact scope in step_02/REVIEWED_RESULT.md.
+- Scientific campaign COMPLETE at2 reviewed steps. No fifth/third task or new
+  question is manufactured. RT1/RT2 remain unbanked conditional candidates.
+  Decision brief records the fixed-data constraint and residual-data cases.
+  Same RT2 context checks final brief fidelity only, not another independent
+  scientific review. Final preservation/publication gates in CLOSURE_RECORD.md.
+- Final brief fidelity PASS_WITH_CAVEATS, no wording repair. Scoped closure
+  initial/final captures exit0; final05:27UTC checks unchanged registry/sources,
+  all frozen/review evidence and46 protected/unrelated names-only entries.
+  As of05:28UTC,64min elapsed including banking/closure, below3h.
+  Final logical RT2/closure evidence uses grok; the containing Git commit and
+  actual push/user handoff establish its publication, exact ID and completion.
+  No RT banking or next campaign is authorized. No actual execution blocker.
 - Evidence ceiling: mathematical conditional candidates only, no physical law,
   content, observations, coupled solve, genericity or canon. Preservation
   caveats remain as specified in WORK_ORDER.md.

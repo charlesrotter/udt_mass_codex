@@ -183,13 +183,16 @@ Promotion integration is COMPLETE: full352 audit and fresh fidelity PASS_WITH_CA
 its EXECUTION_RECORD.md owns exact completion checks and publication history.
 No prior grade, physical premise, canon or fixed-snapshot manuscript changes. Physical identification
 and source-response closure remain OPEN. Original candidate/review/history bytes stay unchanged.
-Charles also authorized a bounded metric-only reconstructibility test, after banking gates:
-`udt_metric_source_reconstructibility_campaign_2026-09-08/WORK_ORDER.md`.
-At most2 reviewed steps/3h total including banking, hard stop07:24UTC2026-09-08.
-Banking commit7dd52b7a is pushed. RT1 is VERIFIED-WITH-CAVEATS after fresh review,
-no repair; exact scope in step_01/REVIEWED_RESULT.md. RT2's fixed-product/data
-question is recorded in RT2_PLANNED_QUESTION.md. No RT result is banked.
-Beyond that bounded scope, no new campaign is authorized. No observations or coupled solve.
+The approved metric-only reconstructibility campaign completed2 reviewed scientific steps:
+`udt_metric_source_reconstructibility_campaign_2026-09-08/DECISION_BRIEF.md`.
+RT1 gives local optional nonzero-curvature reconstruction criteria and phase-data freedom;
+RT2 gives full-covector fixed-product compatibility and the fixed/free data distinctions.
+Both are VERIFIED-WITH-CAVEATS, NOT BANKED; whole reviewed scopes/history remain controlling.
+No author scientific repair; RT2 reviewer syntax-only failure/correction retained. These
+nonzero comparison results are NOT an admitted extension of G312's bounded vacuum S=0 arena.
+Banking7dd52b7a and RT1 b85a14cc are pushed; final handoff gates: CLOSURE_RECORD.md.
+Next is Charles's RT banking/direction decision; no new campaign is authorized.
+Physical source-response identification remains OPEN. No observations or coupled solve.
 Clock and complementary campaigns are exhausted; emergence remains parallel.
 This instrument-specific evidence gap does not block geometric or emergence research.
 The G352 physical-realization gap does not imply that a new physical premise is necessary.

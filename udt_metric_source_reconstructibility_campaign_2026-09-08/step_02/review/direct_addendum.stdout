@@ -1,0 +1,31 @@
+{
+  "actual_red_controls": {
+    "cut_only_closure_false_pass_-1": "Matrix([[0, 0, 0, -sqrt(6)/12], [0, 0, 0, 0], [0, 0, 0, 0], [sqrt(6)/12, 0, 0, 0]])",
+    "cut_only_closure_false_pass_1": "Matrix([[0, 0, 0, -sqrt(6)/12], [0, 0, 0, 0], [0, 0, 0, 0], [sqrt(6)/12, 0, 0, 0]])"
+  },
+  "additional_groups": 19,
+  "checks": {
+    "actual_full_curvature_sign_-1": true,
+    "actual_full_curvature_sign_1": true,
+    "actual_scalar_sign_-1": true,
+    "actual_scalar_sign_1": true,
+    "author_nonseparable_actual_full_curvature": true,
+    "author_nonseparable_actual_scalar": true,
+    "author_nonseparable_exact_mixed_derivative": true,
+    "fixed_data_ambient_closure_beta_-3": true,
+    "fixed_data_ambient_closure_beta_3": true,
+    "fixed_data_current_beta_-3": true,
+    "fixed_data_current_beta_3": true,
+    "fixed_data_full_tensor_beta_-3": true,
+    "fixed_data_full_tensor_beta_3": true,
+    "fixed_observer_formula_beta_-3": true,
+    "fixed_observer_formula_beta_3": true,
+    "wrong_measure_cut_restriction_vacuous_-1": true,
+    "wrong_measure_cut_restriction_vacuous_1": true,
+    "wrong_measure_full_derivative_-1": true,
+    "wrong_measure_full_derivative_1": true
+  },
+  "limitation": "General closure equivalence is analytic; finite diagnostics do not establish global or physical claims.",
+  "source_first_checker_replayed": 37,
+  "stage": "POST_TARGET_EXPOSURE_ADDENDUM"
+}

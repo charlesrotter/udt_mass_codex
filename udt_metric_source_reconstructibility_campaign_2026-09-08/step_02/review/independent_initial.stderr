@@ -1,0 +1,4 @@
+  File "/home/udt-admin/udt_mass_codex/udt_metric_source_reconstructibility_campaign_2026-09-08/step_02/review/independent_product_check.py", line 130
+    red('same_labels_same_measure_phase_scale_breaks_match', (1/a**2-1).subs(u:s.Rational(1,4)))
+                                                                              ^
+SyntaxError: invalid syntax
