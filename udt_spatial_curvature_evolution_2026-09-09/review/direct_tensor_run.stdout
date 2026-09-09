@@ -1,0 +1,55 @@
+{
+  "python": "3.10.12",
+  "sympy": "1.13.1",
+  "symbolic_normal_A": "2592*e**2*(e - 2)*(e + 2)/(3*e**2 + 4)**4",
+  "metric_jet_events": [
+    {
+      "x": "0",
+      "E": "Matrix([[-5/12, 0, 0], [0, 5/32, 0], [0, 0, 25/96]])",
+      "B": "Matrix([[0, 0, 0], [0, 0, 0], [0, 0, 0]])",
+      "normal_E": "Matrix([[245/288, 0, 0], [0, -39/256, 0], [0, 0, -1609/2304]])",
+      "normal_B": "Matrix([[0, 0, 0], [0, 0, 0], [0, 0, 0]])",
+      "I2": "1225/4608",
+      "I3": "-625/12288",
+      "A": "20449/117649",
+      "normal_A": "-5930496/5764801"
+    },
+    {
+      "x": "pi/2",
+      "E": "Matrix([[-4/9, 0, 0], [0, 2/9, 0], [0, 0, 2/9]])",
+      "B": "Matrix([[0, 0, 0], [0, 0, 1/6], [0, 1/6, 0]])",
+      "normal_E": "Matrix([[8/9, 0, 0], [0, -4/9, 0], [0, 0, -4/9]])",
+      "normal_B": "Matrix([[0, 0, 0], [0, 0, 1/18], [0, 1/18, 0]])",
+      "I2": "13/54",
+      "I3": "-25/243",
+      "A": "-7803/2197",
+      "normal_A": "-856800/28561"
+    }
+  ],
+  "scope": "Exact finite metric-jet checks; analytic globally lawful data plus conditional local-development theorem supplies realizations; no finite-jet existence inference"
+}
+{
+  "direct_distinct_author_datum_e_1_9": {
+    "x": "0",
+    "E": "Matrix([[-4/9, 0, 0], [0, 1/3, 0], [0, 0, 1/9]])",
+    "B": "Matrix([[0, 0, 0], [0, 0, 0], [0, 0, 0]])",
+    "normal_E": "Matrix([[8/9, 0, 0], [0, -1/3, 0], [0, 0, -5/9]])",
+    "normal_B": "Matrix([[0, 0, 0], [0, 0, 0], [0, 0, 0]])",
+    "I2": "26/81",
+    "I3": "-4/81",
+    "A": "1225/2197",
+    "normal_A": "68040/28561"
+  },
+  "direct_matched_homogeneous_e_1_6": {
+    "x": "0",
+    "E": "Matrix([[-5/12, 0, 0], [0, 5/32, 0], [0, 0, 25/96]])",
+    "B": "Matrix([[0, 0, 0], [0, 0, 0], [0, 0, 0]])",
+    "normal_E": "Matrix([[245/288, 0, 0], [0, -245/768, 0], [0, 0, -1225/2304]])",
+    "normal_B": "Matrix([[0, 0, 0], [0, 0, 0], [0, 0, 0]])",
+    "I2": "1225/4608",
+    "I3": "-625/12288",
+    "A": "20449/117649",
+    "normal_A": "0"
+  },
+  "independence": "Reused reviewer full 4D engine; new supplied metric jets and direct Ricci variation, no author functions; source-first repeat above is regression"
+}

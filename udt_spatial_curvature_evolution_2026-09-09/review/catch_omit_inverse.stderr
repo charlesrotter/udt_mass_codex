@@ -1,0 +1,6 @@
+Traceback (most recent call last):
+  File "/home/udt-admin/udt_mass_codex/udt_spatial_curvature_evolution_2026-09-09/review/run_mutant.py", line 18, in <module>
+    exec(compile(text.replace(old,new),str(path)+'::'+name,'exec'),{'__file__':str(path),'__name__':'__main__'})
+  File "/home/udt-admin/udt_mass_codex/udt_spatial_curvature_evolution_2026-09-09/check_geometry.py::omit_inverse", line 78, in <module>
+  File "/home/udt-admin/udt_mass_codex/udt_spatial_curvature_evolution_2026-09-09/check_geometry.py::omit_inverse", line 27, in zero
+AssertionError: ('trace_ADM_E_derivative', (4 - 9*Derivative(u(x), x)**2)*Derivative(u(x), x)**2/3)

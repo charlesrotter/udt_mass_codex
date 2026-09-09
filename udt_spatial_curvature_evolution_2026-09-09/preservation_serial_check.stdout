@@ -1,0 +1,16 @@
+{
+  "foreign_untracked_entries": 46,
+  "foreign_names_digest": "d65d71d63a56b95aabfd61f33317b1f1f2b2a62a85ded8258c525b99a5e156ea",
+  "digest_encoding": "sorted git-status ?? lines, joined LF without final LF",
+  "tracked_changes": [
+    " M CURRENT_RESEARCH_PROGRAM.md",
+    " M HANDOFF.md",
+    " M INDEX.md",
+    " M LIVE.md"
+  ],
+  "payload_inspection": false,
+  "backup_completeness": "UNVERIFIED",
+  "pre_reboot_unsaved_state": "UNVERIFIED",
+  "ScratchDisk": "archive-dependent only",
+  "runtime_adjustment": "command-local serial Git index; repository configuration unchanged"
+}

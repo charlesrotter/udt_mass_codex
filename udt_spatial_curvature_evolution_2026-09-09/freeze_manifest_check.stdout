@@ -1,0 +1,14 @@
+udt_spatial_curvature_evolution_2026-09-09/WORK_ORDER.md: OK
+udt_spatial_curvature_evolution_2026-09-09/CANDIDATE.md: OK
+udt_spatial_curvature_evolution_2026-09-09/METHOD_REFERENCES.md: OK
+udt_spatial_curvature_evolution_2026-09-09/SOURCE_PINS.tsv: OK
+udt_spatial_curvature_evolution_2026-09-09/check_geometry.py: OK
+udt_spatial_curvature_evolution_2026-09-09/check_matched_data.py: OK
+udt_spatial_curvature_evolution_2026-09-09/author_geometry_initial.json: OK
+udt_spatial_curvature_evolution_2026-09-09/author_geometry_initial.stdout: OK
+udt_spatial_curvature_evolution_2026-09-09/author_geometry_initial.stderr: OK
+udt_spatial_curvature_evolution_2026-09-09/author_matched_initial.json: OK
+udt_spatial_curvature_evolution_2026-09-09/author_matched_initial.stdout: OK
+udt_spatial_curvature_evolution_2026-09-09/author_matched_initial.stderr: OK
+udt_spatial_curvature_evolution_2026-09-09/review/SOURCE_FIRST.md: OK
+udt_spatial_curvature_evolution_2026-09-09/review/SOURCE_FIRST_SHA256SUMS: OK

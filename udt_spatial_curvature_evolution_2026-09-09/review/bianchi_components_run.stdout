@@ -1,0 +1,6 @@
+{
+  "sympy": "1.13.1",
+  "electric_defect": "Matrix([[0, 0, 0], [0, 0, 0], [0, 0, 0]])",
+  "magnetic_defect": "Matrix([[0, 0, 0], [0, 0, 0], [0, 0, 0]])",
+  "scope": "Symbolic projected Bianchi identity for arbitrary STF E/B and full symmetric K; no arbitrary-data realization or PDE-existence assertion"
+}

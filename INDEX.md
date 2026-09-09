@@ -21,7 +21,10 @@ Latest banking: `udt_g381_g382_conditional_banking_2026-09-09/BANKING_RECORD.md`
 its execution/publication records own completion. Original campaign:
 `udt_neighboring_tidal_consistency_campaign_2026-09-08/CAMPAIGN_LOG.md`.
 Current editorial record: `startup_surface_current_tracking_compaction_2026-09-09/WORK_RECORD.md`.
-Latest: `udt_localized_evolution_followup_2026-09-09/DECISION_BRIEF.md`; LE1 reviewed UNPROMOTED;
+Latest: `udt_spatial_curvature_evolution_2026-09-09/DECISION_BRIEF.md`; SE1 reviewed UNPROMOTED;
+exact local rate criterion/matched lawful data; full candidate and review/DIRECT_REVIEW.md control.
+Neighboring data matter beyond pointwise curvature/K; no genericity, stability/content or LG2-collar solve.
+Predecessor: `udt_localized_evolution_followup_2026-09-09/DECISION_BRIEF.md`; LE1 reviewed UNPROMOTED;
 weakening curvature with unchanged normalized shape only in the justified early core, not long-time stability.
 Dependency: `udt_localized_geometry_campaign_2026-09-09/DECISION_BRIEF.md`; LG1--LG2 UNPROMOTED;
 restricted 3D localization, smooth-method/symmetry/smallness caveats; LG2 requires its REPAIR.md.

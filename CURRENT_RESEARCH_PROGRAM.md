@@ -94,10 +94,10 @@ rank-one classification in all constant-Lambda sectors differs from actual smoot
 realization. Free profiles, supplied future frame/slice and lost-buffer/unsnapshotted-code caveats remain.
 `INDEX.md` links exact banking and original evidence.
 
-NR1--NR2/LG1--LG2/LE1: reviewed UNPROMOTED; scopes/reviews in INDEX.
-LG: restricted localization; repaired smooth-method interface.
-LE1: weakening curvature, unchanged normalized shape, justified early core only.
-No generic persistence/stability/content claim.
+NR1--NR2/LG1--LG2/LE1/SE1: reviewed UNPROMOTED; scopes/reviews: INDEX.
+LG: restricted localization/repaired method; LE1: early-core shape preservation.
+SE1: neighboring data affect curvature-shape rate beyond pointwise curvature/K.
+Local/conditional; no genericity/stability/content.
 
 Geometric theory/calibration and possible emergence remain parallel, neither prerequisite.
 Explicit justified transfer/instrument assumptions can support conditional measurements;

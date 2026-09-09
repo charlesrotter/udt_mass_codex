@@ -1,0 +1,56 @@
+{
+  "source_pins_authenticated": 19,
+  "manifests": {
+    "INITIAL_FREEZE_SHA256SUMS": 14,
+    "review/SOURCE_FIRST_SHA256SUMS": 10
+  },
+  "author_stdout_byte_identical": true,
+  "captures": {
+    "source_first_tensor_run": {
+      "exit": 0,
+      "seconds": 0.675488056964241,
+      "maxrss_kib": 49408
+    },
+    "bianchi_components_run": {
+      "exit": 0,
+      "seconds": 0.2549997130408883,
+      "maxrss_kib": 44316
+    },
+    "direct_tensor_run": {
+      "exit": 0,
+      "seconds": 1.1340788169763982,
+      "maxrss_kib": 49484
+    },
+    "author_geometry_replay": {
+      "exit": 0,
+      "seconds": 1.7315795730100945,
+      "maxrss_kib": 56380
+    },
+    "author_matched_replay": {
+      "exit": 0,
+      "seconds": 0.6342296069487929,
+      "maxrss_kib": 49944
+    },
+    "catch_omit_curl": {
+      "exit": 1,
+      "seconds": 1.0899177539977245,
+      "maxrss_kib": 62164
+    },
+    "catch_omit_inverse": {
+      "exit": 1,
+      "seconds": 0.9594413320301101,
+      "maxrss_kib": 61948
+    },
+    "catch_undefined_probe": {
+      "exit": 1,
+      "seconds": 0.674161120026838,
+      "maxrss_kib": 61848
+    },
+    "catch_wrong_bianchi_curl": {
+      "exit": 1,
+      "seconds": 0.27790922700660303,
+      "maxrss_kib": 57092
+    }
+  },
+  "meaning": "Correspondence/resource/regression checks, not truth or chronology proofs"
+}

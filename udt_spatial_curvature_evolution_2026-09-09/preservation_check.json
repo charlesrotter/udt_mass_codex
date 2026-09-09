@@ -1,0 +1,16 @@
+{
+  "command": [
+    "python3",
+    "-B",
+    "-c",
+    "import hashlib,json,subprocess\nrows=subprocess.check_output([\"git\",\"status\",\"--short\"],text=True).splitlines()\nforeign=sorted(r for r in rows if r.startswith(\"?? \") and not r[3:].startswith(\"udt_spatial_curvature_evolution_2026-09-09/\"))\ndigest=hashlib.sha256(\"\\n\".join(foreign).encode()).hexdigest()\nassert len(foreign)==46,(len(foreign),digest)\nassert digest==\"d65d71d63a56b95aabfd61f33317b1f1f2b2a62a85ded8258c525b99a5e156ea\",digest\ntracked=[r for r in rows if not r.startswith(\"?? \")]\nassert sorted(r[3:] for r in tracked)==sorted([\"LIVE.md\",\"HANDOFF.md\",\"CURRENT_RESEARCH_PROGRAM.md\",\"INDEX.md\"]),tracked\nprint(json.dumps({\"foreign_untracked_entries\":len(foreign),\"foreign_names_digest\":digest,\"digest_encoding\":\"sorted git-status ?? lines, joined LF without final LF\",\"tracked_changes\":tracked,\"payload_inspection\":False,\"backup_completeness\":\"UNVERIFIED\",\"pre_reboot_unsaved_state\":\"UNVERIFIED\",\"ScratchDisk\":\"archive-dependent only\"},indent=2))"
+  ],
+  "cwd": "/home/udt-admin/udt_mass_codex",
+  "started_utc": "2026-09-09T19:23:17.765237+00:00",
+  "duration_seconds": 0.046241852978710085,
+  "returncode": 1,
+  "timeout": false,
+  "address_space_bytes": 536870912,
+  "cpu_seconds": 60,
+  "maxrss_kib": 25968
+}

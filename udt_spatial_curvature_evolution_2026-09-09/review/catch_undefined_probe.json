@@ -1,0 +1,15 @@
+{
+  "command": [
+    "python3",
+    "udt_spatial_curvature_evolution_2026-09-09/review/run_mutant.py",
+    "undefined_probe"
+  ],
+  "cwd": "/home/udt-admin/udt_mass_codex",
+  "started_utc": "2026-09-09T19:17:18.611929+00:00",
+  "duration_seconds": 0.674161120026838,
+  "returncode": 1,
+  "timeout": false,
+  "address_space_bytes": 536870912,
+  "cpu_seconds": 60,
+  "maxrss_kib": 61848
+}

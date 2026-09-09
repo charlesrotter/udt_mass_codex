@@ -46,9 +46,10 @@ Legitimate initial data, calibration parameters, carried measure and history sel
 An admitted source sector is not required for every explicitly conditional measurement route.
 Geometric/calibration and emergence aims remain parallel; neither is a prerequisite.
 
-NR1--NR2/LG1--LG2/LE1: reviewed UNPROMOTED conditional candidates; evidence in INDEX.
-NR retains compact-sector tangent limits; LG adds restricted 3D localization with repaired smooth-method interface.
-LE1: weakening curvature with unchanged normalized shape in the justified early core, not long-time stability/content.
+NR1--NR2/LG1--LG2/LE1/SE1: reviewed UNPROMOTED; evidence/scopes in INDEX.
+NR: compact-sector tangents; LG: restricted localization with repaired smooth-method interface.
+LE1: unchanged curvature shape in justified early core; SE1: neighboring data can change its diagnostic.
+Pointwise curvature/K do not fix that rate. Local/conditional, not stability/content.
 All source/review caveats control. Full365 NOT_PASSED at G325 replay.
 
 Optional source branch PAUSED; automatic Hopfion-stabilization mechanism is PAUSED, no rescue.

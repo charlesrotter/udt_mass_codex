@@ -1,0 +1,5 @@
+Traceback (most recent call last):
+  File "/home/udt-admin/udt_mass_codex/udt_spatial_curvature_evolution_2026-09-09/review/run_mutant.py", line 18, in <module>
+    exec(compile(text.replace(old,new),str(path)+'::'+name,'exec'),{'__file__':str(path),'__name__':'__main__'})
+  File "/home/udt-admin/udt_mass_codex/udt_spatial_curvature_evolution_2026-09-09/review/bianchi_components.py::wrong_bianchi_curl", line 58, in <module>
+AssertionError: Matrix([[-2*db1_2 + 2*db2_1, db0_2 - db1_4 - db2_0 + db2_3, -db0_1 + 2*db1_0 + db1_3 + db2_4], [db0_2 - db1_4 - db2_0 + db2_3, 2*db0_4 - 2*db2_1, -db0_0 - 2*db0_3 + db1_1 - db2_2], [-db0_1 + 2*db1_0 + db1_3 + db2_4, -db0_0 - 2*db0_3 + db1_1 - db2_2, -2*db0_4 + 2*db1_2]])
