@@ -85,3 +85,30 @@ G325 exact-replay gate. No source or verifier was altered. Full365 NOT_PASSED;
 no assertion is made about later unreached gates. Source hashes remain pinned.
 Primary CK method documentation is being checked for the proposed later stage;
 no NR1-dependent exact-realization result is used before NR1 review.
+
+16:13 UTC: NR1 necessity VERIFIED-WITH-CAVEATS by fresh /root/nr1_review;
+no candidate scientific repair. Its sufficient mixed-regularity interpretation
+is explicit in REVIEWED_RESULT. A reviewer-only harmonic-support false pass is
+EXCLUDED and its original/repaired checks preserved. No exact-sufficiency or
+extra reviewer right-inverse lemma is accepted by that verdict.
+
+NR2 now starts: does every Q=0 first variation have an exact full-constraint
+completion and a common local development? Same supplied quotient/T0/data;
+necessity retains all higher-order freedom. A constructed metric-coordinate
+parametrization may restrict a witness family, but cannot become a physical
+recipe or a necessity assumption. Keep Lambda(epsilon) and mean corrections
+visible; use the analytic Cauchy method only after checking its noncharacteristic,
+analyticity, compact-gluing and constraint-propagation hypotheses. Outcomes:
+exact realizability at this scope, further obstruction, or unresolved method gap.
+No long-time/stability/physical identification claim; review before use.
+
+16:23:49 UTC: NR2 initial proof/code and NR1 reviewed dependency frozen in
+step_02/INITIAL_CANDIDATE_SHA256SUMS, then announced to /root/nr2_review.
+That fresh context had already saved its source-first argument and independent
+spatial/4D checks without reading the candidate. Direct review is now pending.
+Parent frozen-code run:34 exact executed predicates, including structural and
+repeated checks, not34 independent facts. All three actual mutants fail their
+intended original momentum/Hamiltonian assertions. Earlier30-predicate output
+and explicitly reconstructed pre-Bianchi code remain with DISCOVERY_HISTORY.
+The proposed converse uses exact periodic metric/K completion plus conditional
+analytic CK development; it is not a conclusion from check counts.

@@ -1,0 +1,163 @@
+{
+  "kind": "NR1_REVIEW_INDEPENDENT_EXACT_ADM_AND_LAURENT",
+  "model": "UNKNOWN",
+  "python": "3.10.12 (main, Aug 31 2026, 10:18:17) [GCC 11.4.0]",
+  "sympy": "1.13.1",
+  "platform": "Linux-6.8.0-138-generic-x86_64-with-glibc2.35",
+  "symbolic_geometry": {
+    "q_shape": [
+      3,
+      3
+    ],
+    "K_shape": [
+      3,
+      3
+    ],
+    "epsilon_order": 2,
+    "momenta": [
+      "4*c*vx + 2*cx*v + 4*p*ux + 2*px*u + 4*c*cx/T + 4*p*px/T",
+      "0",
+      "0"
+    ],
+    "scalar_curvature": "8*c*cxx + 6*cx**2 + 8*p*pxx + 6*px**2",
+    "hamiltonian": "8*c*cxx + 6*cx**2 + 8*p*pxx + 6*px**2 - 2*u**2 - 2*v**2 - 8*c*v/(3*T) - 8*p*u/(3*T)",
+    "mean_momentum": "cc*kappa*vs - cs*kappa*vc + kappa*pc*us - kappa*ps*uc",
+    "bessel_mean_momentum": "kappa*(J*Yd - Jd*Y)*(Ac*Bs - As*Bc + Ec*Fs - Es*Fc)",
+    "right_inverse_det": "8*I*kappa**3/(3*T)"
+  },
+  "checks": [
+    {
+      "name": "inverse_to_second_order",
+      "passed": true
+    },
+    {
+      "name": "background_H_constraint",
+      "passed": true
+    },
+    {
+      "name": "background_all_M_constraints",
+      "passed": true
+    },
+    {
+      "name": "first_H_constraint",
+      "passed": true
+    },
+    {
+      "name": "first_all_M_constraints",
+      "passed": true
+    },
+    {
+      "name": "geometric_M2_vs_hand_argument",
+      "passed": true
+    },
+    {
+      "name": "geometric_R2_vs_hand_argument",
+      "passed": true
+    },
+    {
+      "name": "geometric_H2_vs_hand_argument",
+      "passed": true
+    },
+    {
+      "name": "transverse_quadratic_momenta_vanish",
+      "passed": true
+    },
+    {
+      "name": "exact_mean_M2_is_minus_two_wave_pairing",
+      "passed": true
+    },
+    {
+      "name": "quadratic_forcing_only_zero_and_second_harmonics",
+      "passed": true
+    },
+    {
+      "name": "all_eight_constants_charge",
+      "passed": true
+    },
+    {
+      "name": "full_axial_nonzero_constraint_right_inverse",
+      "passed": true
+    },
+    {
+      "name": "nonzero_frequency_rank4",
+      "passed": true
+    },
+    {
+      "name": "mean_Hamiltonian_adjustable",
+      "passed": true
+    },
+    {
+      "name": "balanced_nonzero_polarization_charges_survive",
+      "passed": true
+    },
+    {
+      "name": "standing_profile_zero_charge",
+      "passed": true
+    }
+  ],
+  "mutations": [
+    {
+      "name": "omit_connection_and_inverse_corrections",
+      "caught": true
+    },
+    {
+      "name": "reverse_velocity_derivative_term",
+      "caught": true
+    },
+    {
+      "name": "omit_cross_polarization_charge",
+      "caught": true
+    },
+    {
+      "name": "lose_Wronskian_orientation",
+      "caught": true
+    },
+    {
+      "name": "discard_Hamiltonian_corrector",
+      "caught": true
+    },
+    {
+      "name": "discard_transverse_momentum_corrector",
+      "caught": true
+    },
+    {
+      "name": "require_each_polarization_charge_zero",
+      "caught": true
+    },
+    {
+      "name": "universal_realisability_of_eight_constants",
+      "caught": true
+    }
+  ],
+  "all_passed": true
+}
+{
+  "kind": "NR1_REVIEWER_HARMONIC_GUARD_FALSE_PASS_AND_REPAIR",
+  "initial_code_and_output_preserved": true,
+  "old_test_excluded_as_full_support_evidence": true,
+  "science_implication": "NONE: explicit quadratic product analytic argument and NR1 necessity unchanged",
+  "M2_support": [
+    -2,
+    0,
+    2
+  ],
+  "H2_support": [
+    -2,
+    0,
+    2
+  ],
+  "actual_mutant_support": [
+    -3,
+    -2,
+    0,
+    2,
+    3
+  ],
+  "checks": {
+    "initial_guard_false_pass_reproduced": true,
+    "M2_complete_support_verified": true,
+    "H2_complete_support_verified": true,
+    "new_guard_rejects_actual_third_harmonic_mutant": true,
+    "new_guard_rejects_actual_fourth_harmonic_mutant": true
+  }
+}

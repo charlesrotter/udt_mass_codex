@@ -1,0 +1,6 @@
+Traceback (most recent call last):
+  File "/home/udt-admin/udt_mass_codex/udt_nonlinear_mode_realizability_campaign_2026-09-09/step_01/check_nr1.py", line 46, in <module>
+    gate(integral-2*s.pi*Q,'full_fourier_integral_matches_candidate')
+  File "/home/udt-admin/udt_mass_codex/udt_nonlinear_mode_realizability_campaign_2026-09-09/step_01/check_nr1.py", line 13, in gate
+    assert s.simplify(expr) == 0, name
+AssertionError: full_fourier_integral_matches_candidate
