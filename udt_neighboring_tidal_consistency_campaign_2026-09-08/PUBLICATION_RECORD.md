@@ -21,5 +21,18 @@ Backup completeness and pre-reboot unsaved-state disposition remain UNVERIFIED.
 ScratchDisk is relevant only to archive-dependent tasks and was not used.
 No GOCE work, observations, correspondence, disk operation or GPU run occurred.
 
-Actual commit/push outcomes will be appended only after execution. Remote
-publication is not implied by this preparation record.
+NT1 publication executed: commit9498dfb7484e0bebc2afacf5d0dd07d89d126451,
+"Preserve reviewed NT1 neighboring-tidal compatibility candidate",162 files,
+31158 insertions/24 deletions. Command git commit -m with that message exited0.
+Command timeout60 git push origin grok exited0, reporting5ece4ae0..9498dfb7
+grok->grok. At00:28:20UTC2026-09-09, git rev-parse HEAD origin/grok returned
+that full9498dfb7 hash twice; git diff --name-only was empty (NT2 files still
+untracked). Commit console filename listing was truncated by display budget;
+the actual committed scope remains independently inspectable in git, not lost
+scientific stdout. This receipt is recorded after execution, not in advance.
+NT2 review subsequently completed VERIFIED-WITH-CAVEATS at00:41:28UTC,
+one grouped guard repair used, original false passes and unchanged science
+authenticated. Final full363 audit PASS and source/preservation/scope checks
+complete at00:50UTC. The next commit preserves NT2 plus campaign closure,
+without altering any NT1 scientific artifact or accepted source/grade.
+Its actual commit/push receipt will be appended after execution.

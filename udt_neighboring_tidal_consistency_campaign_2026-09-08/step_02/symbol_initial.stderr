@@ -1,0 +1,5 @@
+{"passed_guard": "timelike_nonzero_curvature_factor_impossible"}
+{"passed_guard": "spacelike_nonzero_curvature_factor_impossible"}
+{"passed_guard": "null_symbol_rank_eight"}
+{"passed_guard": "both_explicit_null_polarizations_satisfy_full_bianchi"}
+{"passed_guard": "two_independent_full_null_polarizations"}

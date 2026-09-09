@@ -1,0 +1,1 @@
+{"status": "FAIL", "mutant": "nonharmonic", "failed_guard": "full_neighborhood_Ricci_flat_not_only_u_zero", "passed": ["declared_free_profiles_live_in_actual_family"]}

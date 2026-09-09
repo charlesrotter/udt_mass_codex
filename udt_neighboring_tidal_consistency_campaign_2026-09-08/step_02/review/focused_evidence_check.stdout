@@ -1,0 +1,20 @@
+{
+  "status": "PASS",
+  "repaired_guard_count": 15,
+  "original_scientific_output_fields": "EXACTLY_UNCHANGED",
+  "original_13_guards": "UNCHANGED_ORDER",
+  "baseline_stdout_and_stderr": "BYTE_IDENTICAL_TO_FROZEN_REPAIR",
+  "actual_caught_corruptions": {
+    "drop_bianchi": "timelike_nonzero_curvature_factor_impossible",
+    "wrong_null_sign": "both_explicit_null_polarizations_satisfy_full_bianchi",
+    "drop_mixed": "both_explicit_null_polarizations_satisfy_full_bianchi",
+    "nonharmonic": "full_neighborhood_Ricci_flat_not_only_u_zero",
+    "wrong_K_sign": "K_full_projected_sign_and_Hu_not_squared_constraint_only",
+    "omit_Hu": "K_full_projected_sign_and_Hu_not_squared_constraint_only",
+    "double_curvature": "all_1024_first_jet_components_match_normalized_null_factor",
+    "freeze_profiles": "declared_free_profiles_live_in_actual_family",
+    "reverse_normal": "future_normal_relative_fixed_frame_on_full_S_positive_domain"
+  },
+  "same_two_original_probe_rules": "AUTHENTICATED",
+  "scope": "focused same-premise guard repair only; full initial direct review remains controlling"
+}

@@ -23,8 +23,9 @@ The admitted equations do not universally preserve closed Hopf fibres of this
 continued Ricci eigenline even under smooth deformation, at that conditional scope.
 This automatic Hopfion-stabilization identification is PAUSED; no rescue carrier,
 energy functional or added restriction. Charles separately approved the neighboring-
-tidal consistency campaign; its candidates remain UNPROMOTED and its log owns
-progress. No generic failure, physical instability, topology change or UDT failure.
+tidal consistency campaign, now COMPLETE with reviewed NT1/NT2 candidates still
+UNPROMOTED; its log owns scopes, repair caveats and the next owner decision.
+No generic failure, physical instability, topology change or UDT failure.
 No physical identification, stability, new premise, canon or fixed-manuscript change.
 
 ## Foundational and adopted layer

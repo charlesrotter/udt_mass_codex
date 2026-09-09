@@ -1,0 +1,9 @@
+{"passed_guard": "full_neighborhood_Ricci_flat_not_only_u_zero"}
+{"passed_guard": "nondegenerate_Lorentz_block"}
+{"passed_guard": "full_coordinate_curvature_transverse_Hessian"}
+{"passed_guard": "all_256_curvature_components"}
+{"passed_guard": "full_spacetime_orthonormal_frame"}
+{"passed_guard": "Weyl_zero_event_all_components"}
+{"passed_guard": "all_1024_first_jet_components_match_normalized_null_factor"}
+{"passed_guard": "nonzero_jet_exactly_when_amplitudes_nonzero"}
+{"passed_guard": "slice_metric_normal_and_tangency"}

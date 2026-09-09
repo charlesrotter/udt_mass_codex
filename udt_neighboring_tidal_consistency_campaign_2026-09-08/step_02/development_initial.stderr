@@ -1,0 +1,22 @@
+{"passed_guard": "full_neighborhood_Ricci_flat_not_only_u_zero"}
+{"passed_guard": "nondegenerate_Lorentz_block"}
+{"passed_guard": "full_coordinate_curvature_transverse_Hessian"}
+{"passed_guard": "all_256_curvature_components"}
+{"passed_guard": "full_spacetime_orthonormal_frame"}
+{"passed_guard": "Weyl_zero_event_all_components"}
+{"passed_guard": "all_1024_first_jet_components_match_normalized_null_factor"}
+{"passed_guard": "nonzero_jet_exactly_when_amplitudes_nonzero"}
+{"passed_guard": "slice_metric_normal_and_tangency"}
+{"passed_guard": "K_full_projected_sign_and_Hu_not_squared_constraint_only"}
+Traceback (most recent call last):
+  File "/home/udt-admin/udt_mass_codex/udt_neighboring_tidal_consistency_campaign_2026-09-08/step_02/check_development.py", line 80, in <module>
+    Mom=s.Matrix(3,1,lambda i:s.simplify(sum(hgi[j,k]*(s.diff(K[i,j],coords[k])-sum(hG[m][k][i]*K[m,j]+hG[m][k][j]*K[i,m] for m in range(3))) for j in range(3) for k in range(3))-s.diff(tau,coords[i])))
+  File "/home/udt-admin/.local/lib/python3.10/site-packages/sympy/matrices/repmatrix.py", line 558, in __new__
+    return cls._new(*args, **kwargs)
+  File "/home/udt-admin/.local/lib/python3.10/site-packages/sympy/matrices/repmatrix.py", line 569, in _new
+    rows, cols, flat_list = cls._handle_creation_inputs(*args, **kwargs)
+  File "/home/udt-admin/.local/lib/python3.10/site-packages/sympy/matrices/matrixbase.py", line 3995, in _handle_creation_inputs
+    [cls._sympify(op(cls._sympify(i), cls._sympify(j)))
+  File "/home/udt-admin/.local/lib/python3.10/site-packages/sympy/matrices/matrixbase.py", line 3995, in <listcomp>
+    [cls._sympify(op(cls._sympify(i), cls._sympify(j)))
+TypeError: <lambda>() takes 1 positional argument but 2 were given

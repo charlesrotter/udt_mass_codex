@@ -1,0 +1,28 @@
+{
+  "baseline_byte_replays": "PASS, stdout and stderr",
+  "seven_actual_mutants": {
+    "drop_bianchi": "timelike_nonzero_curvature_factor_impossible",
+    "wrong_null_sign": "both_explicit_null_polarizations_satisfy_full_bianchi",
+    "drop_mixed": "both_explicit_null_polarizations_satisfy_full_bianchi",
+    "nonharmonic": "full_neighborhood_Ricci_flat_not_only_u_zero",
+    "wrong_K_sign": "K_full_projected_sign_and_Hu_not_squared_constraint_only",
+    "omit_Hu": "K_full_projected_sign_and_Hu_not_squared_constraint_only",
+    "double_curvature": "all_1024_first_jet_components_match_normalized_null_factor"
+  },
+  "two_actual_false_passes": {
+    "probe_freeze_profiles": {
+      "probe": "freeze_profiles",
+      "passed_guards": 13,
+      "source_sha256": "f31682386ff4d3384b240f6face00b9035ee5f43f7e1f3d4dfdbe9db61668759",
+      "modified_sha256": "068aad637272d28feb5cab34c6426e97c1fc4cc109345809bf90762bcebb583e"
+    },
+    "probe_reverse_normal": {
+      "probe": "reverse_normal_and_K",
+      "passed_guards": 13,
+      "source_sha256": "f31682386ff4d3384b240f6face00b9035ee5f43f7e1f3d4dfdbe9db61668759",
+      "modified_sha256": "674479f1a239e8993d7a48f762abfb5247b76ae1ffcd595a9a1e34fea1760250"
+    }
+  },
+  "guard_repair_required": "declared free-profile liveness and whole-domain future-normal anchor",
+  "scope": "original analytic candidate and independent baseline computations survive; no final repaired verdict yet"
+}

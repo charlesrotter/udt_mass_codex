@@ -1,0 +1,42 @@
+{"probe": "freeze_profiles", "source": "/home/udt-admin/udt_mass_codex/udt_neighboring_tidal_consistency_campaign_2026-09-08/step_02/check_development.py", "source_sha256": "f31682386ff4d3384b240f6face00b9035ee5f43f7e1f3d4dfdbe9db61668759", "replacements": [["A=s.Function('A')(u);F=s.Function('F')(u)", "A=-a*u;F=-b*u"]], "modified_sha256": "068aad637272d28feb5cab34c6426e97c1fc4cc109345809bf90762bcebb583e", "classification": "actual corruption, original source unchanged"}
+{
+  "status": "PASS",
+  "mutant": null,
+  "checks": [
+    "full_neighborhood_Ricci_flat_not_only_u_zero",
+    "nondegenerate_Lorentz_block",
+    "full_coordinate_curvature_transverse_Hessian",
+    "all_256_curvature_components",
+    "full_spacetime_orthonormal_frame",
+    "Weyl_zero_event_all_components",
+    "all_1024_first_jet_components_match_normalized_null_factor",
+    "nonzero_jet_exactly_when_amplitudes_nonzero",
+    "slice_metric_normal_and_tangency",
+    "K_full_projected_sign_and_Hu_not_squared_constraint_only",
+    "full_neighborhood_intrinsic_Hamiltonian_constraint",
+    "full_neighborhood_intrinsic_momentum_constraints",
+    "slice_nonempty_local_domain"
+  ],
+  "sympy": "1.13.1",
+  "metric": "Matrix([[-a*u*(x**2 - y**2) - 2*b*u*x*y, -1, 0, 0], [-1, 0, 0, 0], [0, 0, 1, 0], [0, 0, 0, 1]])",
+  "free_profiles": "A(u), F(u) arbitrary smooth; values 0 at u=0; derivatives -a,-b",
+  "Ricci": "Matrix([[0, 0, 0, 0], [0, 0, 0, 0], [0, 0, 0, 0], [0, 0, 0, 0]])",
+  "frame": "Matrix([[1, 0, 0, -1], [-a*u*(x**2 - y**2)/2 - b*u*x*y + 1/2, 0, 0, a*u*(x**2 - y**2)/2 + b*u*x*y + 1/2], [0, 1, 0, 0], [0, 0, 1, 0]])",
+  "P_C": "Matrix([[a, b, 0], [b, -a, 0], [0, 0, 0]])",
+  "P_B": "Matrix([[b, -a, 0], [-a, -b, 0], [0, 0, 0]])",
+  "nu": [
+    1,
+    0,
+    0,
+    -1
+  ],
+  "slice_domain": "H+4>0, v+2u=0; local only",
+  "gamma": "Matrix([[-a*u*(x**2 - y**2) - 2*b*u*x*y + 4, 0, 0], [0, 1, 0], [0, 0, 1]])",
+  "K": "Matrix([[(-a*(x**2 - y**2) - 2*b*x*y)/(2*sqrt(-a*u*(x**2 - y**2) - 2*b*u*x*y + 4)), (-2*a*u*x - 2*b*u*y)/(2*sqrt(-a*u*(x**2 - y**2) - 2*b*u*x*y + 4)), (2*a*u*y - 2*b*u*x)/(2*sqrt(-a*u*(x**2 - y**2) - 2*b*u*x*y + 4))], [(-2*a*u*x - 2*b*u*y)/(2*sqrt(-a*u*(x**2 - y**2) - 2*b*u*x*y + 4)), 0, 0], [(2*a*u*y - 2*b*u*x)/(2*sqrt(-a*u*(x**2 - y**2) - 2*b*u*x*y + 4)), 0, 0]])",
+  "R3": "2*u**2*(a**2*x**2 + a**2*y**2 + b**2*x**2 + b**2*y**2)/(a**2*u**2*x**4 - 2*a**2*u**2*x**2*y**2 + a**2*u**2*y**4 + 4*a*b*u**2*x**3*y - 4*a*b*u**2*x*y**3 - 8*a*u*x**2 + 8*a*u*y**2 + 4*b**2*u**2*x**2*y**2 - 16*b*u*x*y + 16)",
+  "tau": "(a*(x**2 - y**2)/2 + b*x*y)/(sqrt(-a*u*(x**2 - y**2) - 2*b*u*x*y + 4)*(a*u*x**2 - a*u*y**2 + 2*b*u*x*y - 4))",
+  "Knorm": "(8*u**2*((a*x + b*y)**2 + (a*y - b*x)**2)*(a*u*x**2 - a*u*y**2 + 2*b*u*x*y - 4) - (a*(x**2 - y**2) + 2*b*x*y)**2)/(4*(a*u*(x**2 - y**2) + 2*b*u*x*y - 4)*(a*u*x**2 - a*u*y**2 + 2*b*u*x*y - 4)**2)",
+  "Hamiltonian": "0",
+  "momentum": "Matrix([[0], [0], [0]])",
+  "limits": "Lambda=0 realization, not all Einstein jets; geometry() method reused, no old quadratic recipe used"
+}

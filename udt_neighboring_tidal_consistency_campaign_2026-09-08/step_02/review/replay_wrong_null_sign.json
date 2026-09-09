@@ -1,0 +1,18 @@
+{
+  "command": [
+    "python3",
+    "-u",
+    "-B",
+    "udt_neighboring_tidal_consistency_campaign_2026-09-08/step_02/check_symbol.py",
+    "--mutant",
+    "wrong_null_sign"
+  ],
+  "cwd": "/home/udt-admin/udt_mass_codex",
+  "started_utc": "2026-09-09T00:31:35.367721+00:00",
+  "duration_seconds": 0.1513908039778471,
+  "returncode": 1,
+  "timeout": false,
+  "address_space_bytes": 536870912,
+  "cpu_seconds": 60,
+  "maxrss_kib": 43276
+}

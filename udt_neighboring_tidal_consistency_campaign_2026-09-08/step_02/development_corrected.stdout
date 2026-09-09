@@ -1,0 +1,41 @@
+{
+  "status": "PASS",
+  "mutant": null,
+  "checks": [
+    "full_neighborhood_Ricci_flat_not_only_u_zero",
+    "nondegenerate_Lorentz_block",
+    "full_coordinate_curvature_transverse_Hessian",
+    "all_256_curvature_components",
+    "full_spacetime_orthonormal_frame",
+    "Weyl_zero_event_all_components",
+    "all_1024_first_jet_components_match_normalized_null_factor",
+    "nonzero_jet_exactly_when_amplitudes_nonzero",
+    "slice_metric_normal_and_tangency",
+    "K_full_projected_sign_and_Hu_not_squared_constraint_only",
+    "full_neighborhood_intrinsic_Hamiltonian_constraint",
+    "full_neighborhood_intrinsic_momentum_constraints",
+    "slice_nonempty_local_domain"
+  ],
+  "sympy": "1.13.1",
+  "metric": "Matrix([[2*x*y*F(u) + (x**2 - y**2)*A(u), -1, 0, 0], [-1, 0, 0, 0], [0, 0, 1, 0], [0, 0, 0, 1]])",
+  "free_profiles": "A(u), F(u) arbitrary smooth; values 0 at u=0; derivatives -a,-b",
+  "Ricci": "Matrix([[0, 0, 0, 0], [0, 0, 0, 0], [0, 0, 0, 0], [0, 0, 0, 0]])",
+  "frame": "Matrix([[1, 0, 0, -1], [x*y*F(u) + (x**2 - y**2)*A(u)/2 + 1/2, 0, 0, -x*y*F(u) - (x**2 - y**2)*A(u)/2 + 1/2], [0, 1, 0, 0], [0, 0, 1, 0]])",
+  "P_C": "Matrix([[a, b, 0], [b, -a, 0], [0, 0, 0]])",
+  "P_B": "Matrix([[b, -a, 0], [-a, -b, 0], [0, 0, 0]])",
+  "nu": [
+    1,
+    0,
+    0,
+    -1
+  ],
+  "slice_domain": "H+4>0, v+2u=0; local only",
+  "gamma": "Matrix([[2*x*y*F(u) + (x**2 - y**2)*A(u) + 4, 0, 0], [0, 1, 0], [0, 0, 1]])",
+  "K": "Matrix([[(2*x*y*Derivative(F(u), u) + (x**2 - y**2)*Derivative(A(u), u))/(2*sqrt(2*x*y*F(u) + (x**2 - y**2)*A(u) + 4)), (2*x*A(u) + 2*y*F(u))/(2*sqrt(2*x*y*F(u) + (x**2 - y**2)*A(u) + 4)), (2*x*F(u) - 2*y*A(u))/(2*sqrt(2*x*y*F(u) + (x**2 - y**2)*A(u) + 4))], [(2*x*A(u) + 2*y*F(u))/(2*sqrt(2*x*y*F(u) + (x**2 - y**2)*A(u) + 4)), 0, 0], [(2*x*F(u) - 2*y*A(u))/(2*sqrt(2*x*y*F(u) + (x**2 - y**2)*A(u) + 4)), 0, 0]])",
+  "R3": "2*(x**2*A(u)**2 + x**2*F(u)**2 + y**2*A(u)**2 + y**2*F(u)**2)/(x**4*A(u)**2 + 4*x**3*y*A(u)*F(u) - 2*x**2*y**2*A(u)**2 + 4*x**2*y**2*F(u)**2 + 8*x**2*A(u) - 4*x*y**3*A(u)*F(u) + 16*x*y*F(u) + y**4*A(u)**2 - 8*y**2*A(u) + 16)",
+  "tau": "(x**2*Derivative(A(u), u) + 2*x*y*Derivative(F(u), u) - y**2*Derivative(A(u), u))/(2*(x**2*A(u) + 2*x*y*F(u) - y**2*A(u) + 4)**(3/2))",
+  "Knorm": "((2*x*y*Derivative(F(u), u) + (x**2 - y**2)*Derivative(A(u), u))**2 + 8*((x*A(u) + y*F(u))**2 + (x*F(u) - y*A(u))**2)*(x**2*A(u) + 2*x*y*F(u) - y**2*A(u) + 4))/(4*(2*x*y*F(u) + (x**2 - y**2)*A(u) + 4)*(x**2*A(u) + 2*x*y*F(u) - y**2*A(u) + 4)**2)",
+  "Hamiltonian": "0",
+  "momentum": "Matrix([[0], [0], [0]])",
+  "limits": "Lambda=0 realization, not all Einstein jets; geometry() method reused, no old quadratic recipe used"
+}

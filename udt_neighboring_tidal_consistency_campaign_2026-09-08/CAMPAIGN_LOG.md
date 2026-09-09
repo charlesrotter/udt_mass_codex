@@ -49,7 +49,7 @@ maxRSS105792KiB. Actual integration_363.* captures retained; all seven hashes
 were rechecked unchanged after that audit. This audits tracking/premises, not
 independent truth of the new candidate. NT1 source/freeze/repair manifests PASS.
 
-## NT2 — directional first variation and actual realization, OPEN
+## NT2 — directional first variation and actual realization, REVIEWED / UNPROMOTED
 
 Question frozen in step_02/QUESTION.md AFTER NT1 final review: classify nonzero
 factorized first-Weyl variations nu tensor P at a Weyl-zero event, then examine
@@ -70,4 +70,33 @@ Pre-freeze incorrect coordinate-Gram expectation and a matrix-callback TypeError
 were corrected without formula/scope changes; original scripts and failed captures
 survive. Corrected six symbol plus13 development guards PASS; seven selected
 mutants fail. Source-first reviewer sealed00:20:45UTC; phase B released after
-author freeze. Review is pending; no downstream use or third step.
+author freeze. Initial direct review independently confirms the full proof,
+normalized jet, actual development and12 saved fields; it exposes TWO PASS13
+false passes (silently frozen profiles; consistent past-normal/K reversal).
+One grouped same-premise guard repair, frozen00:37:13UTC, retains all formulas
+and old guards and adds actual profile-family liveness plus full-domain future
+orientation. Repaired15 guards PASS in9.704189s,71508KiB; original scientific
+output fields identical. Focused review COMPLETE, VERIFIED-WITH-CAVEATS,
+seal00:41:28.444890UTC: repaired baseline byte-identical, same TWO original
+corruptions and all seven old mutants actually fail. All source/proof/evidence
+pins authenticate. Exact conditional result and whole reviews are linked in
+step_02/REVIEWED_RESULT.md.1/1 repair used, no unresolved mathematical objection.
+
+## Scientific return point reached — TWO steps complete
+
+The authorized scientific campaign stopped after two reviewed results, within
+one hour; no third question or scientific solve is begun. DECISION_BRIEF.md
+separates the neighboring-record obstruction, restricted null variation and
+actual Lambda=0 development from physical identification and general sufficiency.
+Both candidates remain UNPROMOTED. Owner decision needed for exact-scope banking
+or a successor campaign; neither is inferred. Final tracking audit/publication
+remains an authorized completion operation, recorded only after it runs.
+
+Final full363 audit PASS on completed tracking:00:43:19.364752UTC start,
+402.492553s,exit0,no timeout,105792KiB. Full final_363.* captures preserved;
+317-member scientific evidence freeze and original/repaired/source/review
+manifests authenticate. Both focused receipt parsers pass. Canon/manuscript/
+coverage/registry unchanged,46 unrelated untracked names preserved; protected
+payload bytes, backup completeness and pre-reboot unsaved state UNVERIFIED.
+PUBLICATION_RECORD.md records actual pushes. No scientific blocker remains
+for this completed bounded campaign; banking/successor still requires the owner.

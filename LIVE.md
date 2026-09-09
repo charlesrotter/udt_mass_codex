@@ -276,6 +276,10 @@ Charles approved direction1: the neighboring-tidal campaign is AUTHORIZED,
 up to TWO substantive reviewed steps or FOUR hours, including checks and fresh
 separate-context review. Current question, progress and exact review state:
 `udt_neighboring_tidal_consistency_campaign_2026-09-08/CAMPAIGN_LOG.md`.
+Execution COMPLETE: NT1/NT2 reviewed conditional candidates, both UNPROMOTED;
+neighboring-record obstruction and restricted null first-variation with actual
+local Lambda=0 realization. One guard repair/re-review each; all caveats retained.
+Return point: owner decision on banking or successor, not automatic continuation.
 Investigate neighboring ideal tidal-record consistency versus ONE lawful metric
 development; raw slopes are not covariant derivatives without comparison data.
 New results remain UNPROMOTED. No carrier, source law or physical identification.

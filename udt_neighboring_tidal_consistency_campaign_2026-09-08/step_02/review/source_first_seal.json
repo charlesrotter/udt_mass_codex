@@ -1,0 +1,26 @@
+{
+  "command": [
+    "sha256sum",
+    "udt_neighboring_tidal_consistency_campaign_2026-09-08/step_02/review/SOURCE_FIRST_NOTES.md",
+    "udt_neighboring_tidal_consistency_campaign_2026-09-08/step_02/review/SOURCE_FIRST_RESULT.md",
+    "udt_neighboring_tidal_consistency_campaign_2026-09-08/step_02/review/source_first_check_initial.py",
+    "udt_neighboring_tidal_consistency_campaign_2026-09-08/step_02/review/source_first_check.py",
+    "udt_neighboring_tidal_consistency_campaign_2026-09-08/step_02/review/source_first_exact.stdout",
+    "udt_neighboring_tidal_consistency_campaign_2026-09-08/step_02/review/source_first_exact.stderr",
+    "udt_neighboring_tidal_consistency_campaign_2026-09-08/step_02/review/source_first_exact.json",
+    "udt_neighboring_tidal_consistency_campaign_2026-09-08/step_02/review/source_first_simplified.stdout",
+    "udt_neighboring_tidal_consistency_campaign_2026-09-08/step_02/review/source_first_simplified.stderr",
+    "udt_neighboring_tidal_consistency_campaign_2026-09-08/step_02/review/source_first_simplified.json",
+    "udt_neighboring_tidal_consistency_campaign_2026-09-08/step_02/review/source_hashes.stdout",
+    "udt_neighboring_tidal_consistency_campaign_2026-09-08/step_02/review/source_hashes.stderr",
+    "udt_neighboring_tidal_consistency_campaign_2026-09-08/step_02/review/source_hashes.json"
+  ],
+  "cwd": "/home/udt-admin/udt_mass_codex",
+  "started_utc": "2026-09-09T00:20:45.999870+00:00",
+  "duration_seconds": 0.001519309007562697,
+  "returncode": 0,
+  "timeout": false,
+  "address_space_bytes": 536870912,
+  "cpu_seconds": 60,
+  "maxrss_kib": 7432
+}

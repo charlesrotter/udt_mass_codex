@@ -46,9 +46,12 @@ Hopfion-stabilization identification is PAUSED; no rescue restrictions/carrier/a
 The original next-direction proposal is preserved:
 `udt_g379_g380_conditional_banking_2026-09-08/NEXT_CAMPAIGN_PROPOSAL.md`.
 Charles approved direction1, neighboring ideal tidal consistency with ONE lawful
-metric development: TWO reviewed steps or FOUR hours. New results UNPROMOTED;
+metric development: TWO reviewed steps completed, NT1/NT2 UNPROMOTED;
 `udt_neighboring_tidal_consistency_campaign_2026-09-08/CAMPAIGN_LOG.md` owns current progress.
 Keep raw/covariant slopes, free comparison data and actual development distinct.
+Restricted null first-variation and actual local Lambda=0 realizations are not
+physical content or a general realization theorem. One guard repair/re-review
+per step; next owner decision is banking or successor, not further execution.
 No caustic-current campaign, carrier/conservation-law adoption, third CF step or
 Hopf-stabilization rescue is authorized.
 

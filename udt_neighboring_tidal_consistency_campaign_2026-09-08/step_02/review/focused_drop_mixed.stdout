@@ -1,0 +1,1 @@
+{"status": "FAIL", "mutant": "drop_mixed", "failed_guard": "both_explicit_null_polarizations_satisfy_full_bianchi", "passed": ["timelike_nonzero_curvature_factor_impossible", "spacelike_nonzero_curvature_factor_impossible", "null_symbol_rank_eight"]}

@@ -1,0 +1,25 @@
+{
+  "utc": "2026-09-09T00:44:04.310041+00:00",
+  "scientific_manifest_members": 317,
+  "scientific_manifest_bytes": 1018473,
+  "unrelated_names_count": 46,
+  "unrelated_sorted_name_digest_no_final_LF": "d65d71d63a56b95aabfd61f33317b1f1f2b2a62a85ded8258c525b99a5e156ea",
+  "fixed_hashes": {
+    "CANON.md": "047b7fbbc1acacf01d2716e3c98cdefd0b9b20136ac4a3306f55dd6775465250",
+    "UDT_METRIC_KERNEL_DEVELOPMENT.md": "3b625d8f43620a37c99d9f4f0fdc9390c3a12306b1da87281c143ce84d40a81e",
+    "UDT_METRIC_KERNEL_COVERAGE.tsv": "b9a8d84d58b60dd6381af6512d89a63c8fa26750f0068e444dd039d329e74bc4",
+    "CURRENT_SCIENTIFIC_PREMISES.tsv": "ae78d872143a62d6f3811d77ca909d1b90a2dee2f259b0ec862c1fd502e23afe"
+  },
+  "tracking_hashes_during_final_audit": {
+    "LIVE.md": "57908b4a102abd5a4dc32d42016ca097ae561f35c105df91d673084200df34b8",
+    "HANDOFF.md": "e75d56522055b31ebc9fa27f10e77881cf38cdebeb0ed2a3998bf9d8bbccf902",
+    "CURRENT_RESEARCH_PROGRAM.md": "5e67632f97c44baaf50f2f5bb2baa442597c4dcd7dea0a452701ea7c1d2564f6",
+    "CURRENT_SCIENTIFIC_PREMISES.md": "f2fa992c0f83d634f4cf45923f71cfc160b951ec2b6e1de2131df8773de9ca3d",
+    "INDEX.md": "c937bad2a68b3f62825489756af487415946de08b11274b3518c92be277285e6",
+    "MEMORY.md": "5975dcbaa7bf3e79be1de99039d28e03878ae0273aa17a88961ad4647dec33a7",
+    "verify_current_scientific_premises.py": "da37db17d248738dc17127631171ab5689d84338ac30971428af90264b51631d"
+  },
+  "protected_payload_bytes": "UNVERIFIED; not inspected",
+  "backup_completeness": "UNVERIFIED",
+  "pre_reboot_unsaved_state": "UNVERIFIED"
+}
