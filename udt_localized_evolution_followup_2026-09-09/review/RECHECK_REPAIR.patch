@@ -1,0 +1,10 @@
+This exact patch was applied after source_first_recheck.{stdout,stderr,json}.
+It is a reviewer symbolic-normalization repair, before author-candidate exposure.
+Initial source_first_check.py and both failing captures remain unchanged.
+The pre-repair script is reconstructed by reversing this one-line patch.
+
+--- source_first_recheck.py.before
++++ source_first_recheck.py.after
+@@
+-kretsch=s.factor(sum(terms))
++kretsch=s.simplify(s.powsimp(sum(terms),deep=True,force=True))

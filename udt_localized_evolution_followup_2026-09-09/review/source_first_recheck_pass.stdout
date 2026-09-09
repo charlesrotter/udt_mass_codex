@@ -1,0 +1,19 @@
+{
+  "python": "3.10.12",
+  "sympy": "1.13.1",
+  "route": "metric -> Christoffels -> full Riemann contraction; normalized positive-time powers",
+  "ricci": "Matrix([[0, 0, 0, 0], [0, 0, 0, 0], [0, 0, 0, 0], [0, 0, 0, 0]])",
+  "magnetic_zero": true,
+  "electric": "Matrix([[-q*(q**2 + 2*q + 1)/(t**2*(q**2 + q + 1)**2), 0, 0], [0, q**2*(q + 1)/(t**2*(q**4 + 2*q**3 + 3*q**2 + 2*q + 1)), 0], [0, 0, q*(q + 1)/(t**2*(q**4 + 2*q**3 + 3*q**2 + 2*q + 1))]])",
+  "kretschmann": "16*q**2*(q**2 + 2*q + 1)/(t**4*(q**6 + 3*q**5 + 6*q**4 + 7*q**3 + 6*q**2 + 3*q + 1))",
+  "trace_Q2": "2*q**2*(q + 1)**2/(t**4*(q**2 + q + 1)**3)",
+  "trace_Q3": "-3*q**4*(q + 1)**4/(t**6*(q**2 + q + 1)**6)",
+  "characteristic_discriminant": "q**6*(q - 1)**2*(q + 1)**6*(q + 2)**2*(2*q + 1)**2/(t**12*(q**2 + q + 1)**12)",
+  "shape_2disc_over_traceQ2_cubed": "(q - 1)**2*(q + 2)**2*(2*q + 1)**2/(4*(q**2 + q + 1)**3)",
+  "shape_at_q_6_over_5": "18496/753571",
+  "shape_in_source_u": "u**2*(u**2 - 3)**2/(u**2 + 1)**3",
+  "curvature_core_over_taub_same_T": "(3*u**2 - 1)**2/(u**2 + 1)**3",
+  "future_speed_integral": "T0*((t/T0)**(1 - pmin) - 1)/(1 - pmin)",
+  "retained_failure": "Initial direct contraction expression was equal but SymPy did not normalize its exponents to zero.",
+  "status": "EXACT_ALGEBRA_PASSED; PDE/domain theorem remains analytical and conditional"
+}

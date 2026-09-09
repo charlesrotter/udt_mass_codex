@@ -1,0 +1,19 @@
+{
+  "command": [
+    "env",
+    "OMP_NUM_THREADS=1",
+    "OPENBLAS_NUM_THREADS=1",
+    "MKL_NUM_THREADS=1",
+    "python3",
+    "-c",
+    "import importlib.util; spec=importlib.util.spec_from_file_location(\"review_check\", \"udt_localized_evolution_followup_2026-09-09/review/source_first_recheck.py\"); m=importlib.util.module_from_spec(spec)\ntry: spec.loader.exec_module(m)\nexcept AssertionError:\n print(\"K:\",m.kretsch); print(\"terms:\",m.terms); print(\"deep:\",m.s.simplify(m.s.powsimp(m.kretsch-8*m.i2, deep=True, force=True))); print(\"denest:\",m.s.simplify(m.s.powdenest(m.kretsch-8*m.i2,force=True)))"
+  ],
+  "cwd": "/home/udt-admin/udt_mass_codex",
+  "started_utc": "2026-09-09T18:38:26.158931+00:00",
+  "duration_seconds": 2.9635557730216533,
+  "returncode": 0,
+  "timeout": false,
+  "address_space_bytes": 536870912,
+  "cpu_seconds": 60,
+  "maxrss_kib": 51208
+}

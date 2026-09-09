@@ -59,10 +59,10 @@ Whole source reviews/limits control, including false passes and repairs, CF2 buf
 or recovered, and NT1 lost buffers/unsnapshotted initial reviewer code. HB2/HB3 and BI2/BI3 stay UNPROMOTED.
 The fixed through-G352 manuscript is an earlier edition, not current tracking.
 
-NR1--NR2/LG1--LG2: reviewed UNPROMOTED candidates; evidence: `INDEX.md`.
-NR: compact-sector tangent classification, mixed-C2/analytic-local limits.
-LG: four local matching gates; restricted reflection-symmetric 3D G324 completion, conditional on smooth methods.
-No arbitrary-data or stability/content claim; reviews, LG2 repair and exclusions control.
+NR1--NR2/LG1--LG2/LE1: reviewed UNPROMOTED; exact scopes/reviews: `INDEX.md`.
+NR: compact-sector tangents; LG: restricted 3D localization, repaired smooth-method interface.
+LE1: weakening curvature, unchanged normalized shape, justified early core only.
+No arbitrary-data, long-time, stability/content claim; dependency caveats control.
 Full365 remains NOT_PASSED at G325 replay; no new banking or complete integration.
 
 ### Distinctions for the direction discussion

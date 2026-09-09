@@ -1,0 +1,17 @@
+{
+  "command": [
+    "python3",
+    "-B",
+    "udt_localized_evolution_followup_2026-09-09/check_evolution.py",
+    "--mutant",
+    "unit_coordinate_cone"
+  ],
+  "cwd": "/home/udt-admin/udt_mass_codex",
+  "started_utc": "2026-09-09T18:38:25.189105+00:00",
+  "duration_seconds": 1.0179172540083528,
+  "returncode": 1,
+  "timeout": false,
+  "address_space_bytes": 536870912,
+  "cpu_seconds": 60,
+  "maxrss_kib": 63244
+}

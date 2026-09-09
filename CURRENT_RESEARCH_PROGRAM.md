@@ -94,9 +94,10 @@ rank-one classification in all constant-Lambda sectors differs from actual smoot
 realization. Free profiles, supplied future frame/slice and lost-buffer/unsnapshotted-code caveats remain.
 `INDEX.md` links exact banking and original evidence.
 
-NR1--NR2/LG1--LG2: reviewed UNPROMOTED; scopes/reviews in INDEX.
-LG: restricted 3D fixed-exterior completion, conditional on smooth methods.
-Chosen symmetry/smallness, repaired interface and no stability/content claim control.
+NR1--NR2/LG1--LG2/LE1: reviewed UNPROMOTED; scopes/reviews in INDEX.
+LG: restricted localization; repaired smooth-method interface.
+LE1: weakening curvature, unchanged normalized shape, justified early core only.
+No generic persistence/stability/content claim.
 
 Geometric theory/calibration and possible emergence remain parallel, neither prerequisite.
 Explicit justified transfer/instrument assumptions can support conditional measurements;
