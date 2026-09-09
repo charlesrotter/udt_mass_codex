@@ -27,7 +27,7 @@ is preparation, not a counted substantive research result.
 Subsequent questions depend on this comparison; no prefilled three-step queue.
 New candidates remain UNPROMOTED; this log records actual reviews and stops.
 
-## Step 1 — full-pair versus angular discriminator (IN PROGRESS)
+## Step 1 — full-pair versus angular discriminator (REVIEWED)
 
 Question: on a connected regular static-spherical interval, what is the
 ENTIRE zero set of the already studied G312 response Q=TF(Ric g^-1 Ric),
@@ -53,3 +53,38 @@ reported the same factorization before receiving a parent candidate. Record
 this as concurrent source-first reconstruction, not different-model proof.
 Question/scopes frozen before CPU checking; author candidate and relevant
 source hashes will be pinned for direct adversarial review.
+
+Outcome: ND1's four conditional claims VERIFIED-WITH-CAVEATS, no required
+repair. Exact Q solution union and no-switching/intersection proof survived.
+Angular cancellation restricts metrics in this class but does not select
+between S and Q on their shared balanced backgrounds. All-pair Q balance is
+distinct from the native angular readout. Q remains UNADOPTED, outside G301.
+299 author support assertions and 1,955 implementation-distinct reviewer
+assertions passed; proof, source-first exposure and limitations control.
+Review hash a9f5842dc43fbe4bc9b872e6a22f467a11d127545468aacec117730513c0f3ee.
+Roadmap/startup checkpoint07932b40 pushed; no scientific promotion.
+
+## Step 2 — exact integrable perturbations (IN PROGRESS)
+
+Question: at a common Ricci-flat profile, which first-order deformations
+actually arise from curves of exact Q solutions, and which merely pass its
+identically zero first linearization? Compare the S solution set and the
+declared angular filter without requiring either response to be UDT's law.
+
+Scope: the SAME positive one-function static class, restricted to a compact
+positive-radius interval with a fixed strictly positive background margin;
+C1 curves in the C2 profile norm. This is a mathematical local comparison
+window, not a material boundary condition. Constants/profile directions
+remain supplied. Use ND1 only at its reviewed conditional scope. A separate
+general-metric leading-order condition, if proved, is NECESSARY only, not a
+general tangent-space or metric-development sufficiency theorem.
+
+Discriminating outcomes: all linearized directions genuinely integrate;
+only a proper (possibly nonlinear) set integrates; or the exact solution
+classification does not determine that set. Track whether the angular
+filter constrains perturbations but remains unable to select architecture.
+Do not repeat G312's zero flat first variation as a new result. No physical
+superposition principle, healthy-PDE criterion or GR principal law is added.
+Freeze analytical candidate before CPU checks, then use a NEW reviewer
+context. This second question follows ND1's reviewed common-background
+ambiguity; no third step is presumed.
