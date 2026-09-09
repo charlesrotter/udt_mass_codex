@@ -1,0 +1,16 @@
+{
+  "command": [
+    "python3",
+    "-B",
+    "udt_nonlinear_ripple_geometry_2026-09-09/review/direct_mutation.py",
+    "initial_K"
+  ],
+  "cwd": "/home/udt-admin/udt_mass_codex",
+  "started_utc": "2026-09-09T19:58:46.039232+00:00",
+  "duration_seconds": 1.5775407920009457,
+  "returncode": 1,
+  "timeout": false,
+  "address_space_bytes": 536870912,
+  "cpu_seconds": 60,
+  "maxrss_kib": 63280
+}

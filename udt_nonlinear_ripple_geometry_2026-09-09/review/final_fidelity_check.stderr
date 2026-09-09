@@ -1,0 +1,9 @@
+fatal: unable to create threaded lstat: Resource temporarily unavailable
+Traceback (most recent call last):
+  File "/home/udt-admin/udt_mass_codex/udt_nonlinear_ripple_geometry_2026-09-09/review/check_final_fidelity.py", line 21, in <module>
+    tracked=set(subprocess.check_output(['git','diff','--name-only'],cwd=root,text=True).splitlines())
+  File "/usr/lib/python3.10/subprocess.py", line 421, in check_output
+    return run(*popenargs, stdout=PIPE, timeout=timeout, check=True,
+  File "/usr/lib/python3.10/subprocess.py", line 526, in run
+    raise CalledProcessError(retcode, process.args,
+subprocess.CalledProcessError: Command '['git', 'diff', '--name-only']' returned non-zero exit status 128.

@@ -1,0 +1,1 @@
+MUTATION initial_K: s.diff(a,t):-s.Rational(1,4)+9*q**2/16 -> s.diff(a,t):-s.Rational(1,4)

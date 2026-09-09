@@ -1,0 +1,9 @@
+Traceback (most recent call last):
+  File "/home/udt-admin/udt_mass_codex/udt_nonlinear_ripple_geometry_2026-09-09/review/source_first_mutation.py", line 9, in <module>
+    exec(compile(original.replace(old,new),str(path)+'[delete_response]', 'exec'))
+  File "/home/udt-admin/udt_mass_codex/udt_nonlinear_ripple_geometry_2026-09-09/review/source_first_tensor.py[delete_response]", line 48, in <module>
+AssertionError: ('original_Ricci', Matrix([
+[9*t*Derivative(P(t, x), t)*Derivative(P(t, x), (x, 2))/32 + 9*t*Derivative(P(t, x), x)*Derivative(P(t, x), t, x)/32 - Derivative(P(t, x), t)**2/2,                                                                                                                                            0, 0, 0],
+[                                                                                                                                                0, -t*Derivative(P(t, x), t)*Derivative(P(t, x), (x, 2))/2 - t*Derivative(P(t, x), x)*Derivative(P(t, x), t, x)/2 - Derivative(P(t, x), x)**2/2, 0, 0],
+[                                                                                                                                                0,                                                                                                                                            0, 0, 0],
+[                                                                                                                                                0,                                                                                                                                            0, 0, 0]]))

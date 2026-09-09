@@ -1,0 +1,70 @@
+{
+  "python": "3.10.12",
+  "sympy": "1.13.1",
+  "metric": [
+    "-9*exp(L(t, x)/2)/(16*sqrt(t))",
+    "exp(L(t, x)/2)/sqrt(t)",
+    "t*exp(P(t, x))",
+    "t*exp(-P(t, x))"
+  ],
+  "original_Ricci": [
+    [
+      "-Derivative(L(t, x), (t, 2))/4 + 9*Derivative(L(t, x), (x, 2))/64 - Derivative(P(t, x), t)**2/2 + Derivative(L(t, x), t)/(4*t)",
+      "-Derivative(P(t, x), t)*Derivative(P(t, x), x)/2 + Derivative(L(t, x), x)/(4*t)",
+      "0",
+      "0"
+    ],
+    [
+      "-Derivative(P(t, x), t)*Derivative(P(t, x), x)/2 + Derivative(L(t, x), x)/(4*t)",
+      "4*Derivative(L(t, x), (t, 2))/9 - Derivative(L(t, x), (x, 2))/4 - Derivative(P(t, x), x)**2/2 + 4*Derivative(L(t, x), t)/(9*t)",
+      "0",
+      "0"
+    ],
+    [
+      "0",
+      "0",
+      "sqrt(t)*(16*t*Derivative(P(t, x), (t, 2)) - 9*t*Derivative(P(t, x), (x, 2)) + 16*Derivative(P(t, x), t))*exp(-L(t, x)/2 + P(t, x))/18",
+      "0"
+    ],
+    [
+      "0",
+      "0",
+      "0",
+      "sqrt(t)*(-16*t*Derivative(P(t, x), (t, 2)) + 9*t*Derivative(P(t, x), (x, 2)) - 16*Derivative(P(t, x), t))*exp(-L(t, x)/2 - P(t, x))/18"
+    ]
+  ],
+  "on_shell_Ricci": [
+    [
+      "0",
+      "0",
+      "0",
+      "0"
+    ],
+    [
+      "0",
+      "0",
+      "0",
+      "0"
+    ],
+    [
+      "0",
+      "0",
+      "0",
+      "0"
+    ],
+    [
+      "0",
+      "0",
+      "0",
+      "0"
+    ]
+  ],
+  "initial_gamma": "Matrix([[1, 0, 0], [0, 1, 0], [0, 0, 1]])",
+  "initial_K": "Matrix([[-3*e**2*cos(x)**2/4 + 1/3, 0, 0], [0, -e*cos(x) - 2/3, 0], [0, 0, e*cos(x) - 2/3]])",
+  "spatial_scalar": "-sqrt(t)*exp(-L(t, x)/2)*Derivative(P(t, x), x)**2/2",
+  "area_rate": "4*exp(-L(t, x)/4)/(3*t**(3/4))",
+  "normalized_curvature": "-9*t**2*Derivative(P(t, x), x)**2/32",
+  "explicit_L": "e**2*(t**2*(9*f(t)**2/16 + Derivative(f(t), t)**2) + t*(cos(2*x) + 1)*f(t)*Derivative(f(t), t) - 9/4)/2",
+  "zero_response_defect": "Matrix([[-1/32, 0, 0, 0], [0, 0, 0, 0], [0, 0, 0, 0], [0, 0, 0, 0]])",
+  "result": "PASS_EXACT_BOUNDED_IDENTITIES"
+}

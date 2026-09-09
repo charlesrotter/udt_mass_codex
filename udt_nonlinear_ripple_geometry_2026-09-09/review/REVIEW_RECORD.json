@@ -1,0 +1,28 @@
+{
+  "reviewer": "/root/nrgeom_review",
+  "model": "UNKNOWN",
+  "fresh_context": true,
+  "independent_library": "UNTESTED",
+  "different_model": "UNTESTED",
+  "verdict": "VERIFIED-WITH-CAVEATS",
+  "scientific_repairs": 0,
+  "unpromoted": true,
+  "full365": "NOT_PASSED_G325",
+  "inputs": {
+    "INITIAL_CANDIDATE.md": "49880008dcb5a646d6867e377f6dc84ded692b98250701aba4cab7119ca500de",
+    "METHOD_SOURCES.md": "5d5923483fd83071e37046eacb83eb01913c4596fe443bf7c93901aac4584e1b",
+    "check_original_metric.py": "3f394ed0ae3761f380a89bb3ecbaffc77aaaf6e2dcb956e9110af7665120c08b",
+    "check_profile.py": "e9bad0cf84a444516715a75e9ccde84452d552aa362291dc318201e75c7035bb",
+    "original_metric_run.stdout": "21581fa4356afcda2ec5c7d4f0dbabd0aa6ecf7f57863879756fb6293c0fb904",
+    "original_metric_run.stderr": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "original_metric_run.json": "5e6056ae50e21a5a1cc12ae6e04f76ba17b260ac762b675d0377210ef8f7a38a",
+    "profile_run.stdout": "cad92576166f4b285f9d4b232c623f7f595c523441812315caee64e93102e99c",
+    "profile_run.stderr": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "profile_run.json": "508d8f90bd0f739861684166b36a57c13920486898caea1493f3e9b69dc727b8",
+    "STARTUP_PREMISE_AUDIT.json": "3b4d1d38cd54eecdcdc1820e70b2b434b00df9bd5095e5aa9de66c238fc9f067",
+    "WORK_ORDER.md": "52bea4dbd9d2621c4fb3a79d390cb8cc772becbec257344b8972371b04639930"
+  },
+  "clarification": "Cauchy endpoint statement concerns inextendible curves only",
+  "source_first_preserved": true,
+  "author_replays_byte_identical": true
+}

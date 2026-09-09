@@ -1,0 +1,32 @@
+{
+  "result": "PASS_DIRECT_FULL_RIEMANN_AND_BASIS",
+  "tidal_contrast_divided_by_Z": "t*Derivative(P(t, x), t)**3/4 + 27*t*Derivative(P(t, x), t)*Derivative(P(t, x), x)**2/64 - 9*Derivative(P(t, x), (x, 2))/16 - Derivative(P(t, x), t)/(4*t)",
+  "initial_full_E": "Matrix([[-5/12, 0, 0], [0, 5/32, 0], [0, 0, 25/96]])",
+  "initial_normalized_contrast": "-15/256",
+  "basis_change": "2*f(t)/(9*t**(3/2))",
+  "G327_orthonormal": "(T**(5/3)*h(T) - Derivative(h(T), T)/3)/T",
+  "G327_background_coordinate": "(T**(8/3)*h(T) - T*Derivative(h(T), T)/3 + 4*h(T)/9)/T**2",
+  "independent_frame_pairs_divided_by_inverse_A": {
+    "(0, 1, 0, 1)": "4*Derivative(P(t, x), t)**2/9 - Derivative(P(t, x), x)**2/4 - 4/(9*t**2)",
+    "(0, 1, 0, 2)": "0",
+    "(0, 1, 0, 3)": "0",
+    "(0, 1, 1, 2)": "0",
+    "(0, 1, 1, 3)": "0",
+    "(0, 1, 2, 3)": "0",
+    "(0, 2, 0, 2)": "2*t*Derivative(P(t, x), t)**3/9 + 3*t*Derivative(P(t, x), t)*Derivative(P(t, x), x)**2/8 - 2*Derivative(P(t, x), t)**2/9 + Derivative(P(t, x), x)**2/8 - Derivative(P(t, x), (x, 2))/2 - 2*Derivative(P(t, x), t)/(9*t) + 2/(9*t**2)",
+    "(0, 2, 0, 3)": "0",
+    "(0, 2, 1, 2)": "t*Derivative(P(t, x), t)**2*Derivative(P(t, x), x)/2 + 3*t*Derivative(P(t, x), x)**3/32 - 2*Derivative(P(t, x), t, x)/3 - Derivative(P(t, x), x)/(2*t)",
+    "(0, 2, 1, 3)": "0",
+    "(0, 2, 2, 3)": "0",
+    "(0, 3, 0, 3)": "-2*t*Derivative(P(t, x), t)**3/9 - 3*t*Derivative(P(t, x), t)*Derivative(P(t, x), x)**2/8 - 2*Derivative(P(t, x), t)**2/9 + Derivative(P(t, x), x)**2/8 + Derivative(P(t, x), (x, 2))/2 + 2*Derivative(P(t, x), t)/(9*t) + 2/(9*t**2)",
+    "(0, 3, 1, 2)": "0",
+    "(0, 3, 1, 3)": "-t*Derivative(P(t, x), t)**2*Derivative(P(t, x), x)/2 - 3*t*Derivative(P(t, x), x)**3/32 + 2*Derivative(P(t, x), t, x)/3 + Derivative(P(t, x), x)/(2*t)",
+    "(0, 3, 2, 3)": "0",
+    "(1, 2, 1, 2)": "2*t*Derivative(P(t, x), t)**3/9 + 3*t*Derivative(P(t, x), t)*Derivative(P(t, x), x)**2/8 + 2*Derivative(P(t, x), t)**2/9 - Derivative(P(t, x), x)**2/8 - Derivative(P(t, x), (x, 2))/2 - 2*Derivative(P(t, x), t)/(9*t) - 2/(9*t**2)",
+    "(1, 2, 1, 3)": "0",
+    "(1, 2, 2, 3)": "0",
+    "(1, 3, 1, 3)": "-2*t*Derivative(P(t, x), t)**3/9 - 3*t*Derivative(P(t, x), t)*Derivative(P(t, x), x)**2/8 + 2*Derivative(P(t, x), t)**2/9 - Derivative(P(t, x), x)**2/8 + Derivative(P(t, x), (x, 2))/2 + 2*Derivative(P(t, x), t)/(9*t) - 2/(9*t**2)",
+    "(1, 3, 2, 3)": "0",
+    "(2, 3, 2, 3)": "-4*Derivative(P(t, x), t)**2/9 + Derivative(P(t, x), x)**2/4 + 4/(9*t**2)"
+  }
+}

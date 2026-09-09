@@ -1,0 +1,6 @@
+Traceback (most recent call last):
+  File "/home/udt-admin/udt_mass_codex/udt_nonlinear_ripple_geometry_2026-09-09/review/direct_mutation.py", line 19, in <module>
+    exec(compile(source.replace(old,new),str(path)+'['+mode+']','exec'),{'__file__':str(path)})
+  File "/home/udt-admin/udt_mass_codex/udt_nonlinear_ripple_geometry_2026-09-09/check_profile.py[spatial_response]", line 22, in <module>
+  File "/home/udt-admin/udt_mass_codex/udt_nonlinear_ripple_geometry_2026-09-09/check_profile.py[spatial_response]", line 16, in zero
+AssertionError: ('lambda_t_constraint', e**2*t*(k**2*F(t)**2 - Derivative(F(t), t)**2)*cos(2*k*x)/2)

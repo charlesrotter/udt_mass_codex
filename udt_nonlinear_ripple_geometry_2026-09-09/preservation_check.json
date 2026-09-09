@@ -1,0 +1,16 @@
+{
+  "command": [
+    "python3",
+    "-B",
+    "-c",
+    "import subprocess,hashlib,json\ndef git(*args):\n    return subprocess.check_output([\"git\",\"-c\",\"core.preloadIndex=false\",\"-c\",\"index.threads=1\",*args],text=True)\nlines=git(\"status\",\"--short\",\"--untracked-files=normal\").splitlines()\nold=sorted(v for v in lines if v.startswith(\"?? \") and v!=\"?? udt_nonlinear_ripple_geometry_2026-09-09/\")\ndigest=hashlib.sha256(\"\\n\".join(old).encode()).hexdigest()\nassert len(old)==46,(len(old),old)\nassert digest==\"d65d71d63a56b95aabfd61f33317b1f1f2b2a62a85ded8258c525b99a5e156ea\",digest\ntracked=[v for v in lines if not v.startswith(\"?? \")]\nassert {v[3:] for v in tracked}=={\"LIVE.md\",\"HANDOFF.md\",\"CURRENT_RESEARCH_PROGRAM.md\",\"INDEX.md\"},tracked\nassert all(v[:2]==\" M\" for v in tracked),tracked\nassert git(\"branch\",\"--show-current\").strip()==\"grok\"\nassert git(\"rev-parse\",\"HEAD\").strip()==\"b64700a6954b1fc3e7b1d80b9d30c4833a7ff7ea\"\nprint(json.dumps({\"result\":\"PASS_NAMES_AND_TRACKED_SCOPE_ONLY\",\"unrelated_untracked_count\":len(old),\"sorted_status_names_sha256_without_final_newline\":digest,\"tracked_changes\":tracked,\"protected_payloads_read\":False,\"untracked_payload_byte_preservation\":\"NOT_AUDITED\",\"backup_completeness\":\"UNVERIFIED\",\"pre_reboot_unsaved_disposition\":\"UNVERIFIED\"},indent=2))\n"
+  ],
+  "cwd": "/home/udt-admin/udt_mass_codex",
+  "started_utc": "2026-09-09T20:05:50.280634+00:00",
+  "duration_seconds": 0.060567950014956295,
+  "returncode": 0,
+  "timeout": false,
+  "address_space_bytes": 536870912,
+  "cpu_seconds": 60,
+  "maxrss_kib": 14016
+}

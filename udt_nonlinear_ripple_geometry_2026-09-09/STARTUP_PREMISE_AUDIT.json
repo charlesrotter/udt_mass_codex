@@ -1,0 +1,15 @@
+{
+  "started_utc": "2026-09-09T19:42:31.565008+00:00",
+  "duration_seconds": 11.09668421302922,
+  "command": [
+    "python3",
+    "-B",
+    "verify_current_scientific_premises.py"
+  ],
+  "returncode": 1,
+  "stdout": "",
+  "stderr": "G325 dependency-free replay failed: Traceback (most recent call last):\n  File \"/home/udt-admin/udt_mass_codex/udt_g325_g324_homogeneous_diagonal_linear_modes_2026-09-02/verify_package.py\", line 122, in <module>\n    main()\n  File \"/home/udt-admin/udt_mass_codex/udt_g325_g324_homogeneous_diagonal_linear_modes_2026-09-02/verify_package.py\", line 106, in main\n    gate(load(generated) == load(package / artifact), f\"replay_exact:{artifact}\")\n  File \"/home/udt-admin/udt_mass_codex/udt_g325_g324_homogeneous_diagonal_linear_modes_2026-09-02/verify_package.py\", line 31, in gate\n    assert condition, name\nAssertionError: replay_exact:DERIVATION_RESULT.json\n\n",
+  "address_space_bytes": 2147483648,
+  "cpu_wall_limit_seconds": 900,
+  "maxrss_kib": 104256
+}

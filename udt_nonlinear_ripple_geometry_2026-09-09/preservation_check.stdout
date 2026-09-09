@@ -1,0 +1,15 @@
+{
+  "result": "PASS_NAMES_AND_TRACKED_SCOPE_ONLY",
+  "unrelated_untracked_count": 46,
+  "sorted_status_names_sha256_without_final_newline": "d65d71d63a56b95aabfd61f33317b1f1f2b2a62a85ded8258c525b99a5e156ea",
+  "tracked_changes": [
+    " M CURRENT_RESEARCH_PROGRAM.md",
+    " M HANDOFF.md",
+    " M INDEX.md",
+    " M LIVE.md"
+  ],
+  "protected_payloads_read": false,
+  "untracked_payload_byte_preservation": "NOT_AUDITED",
+  "backup_completeness": "UNVERIFIED",
+  "pre_reboot_unsaved_disposition": "UNVERIFIED"
+}

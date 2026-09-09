@@ -1,0 +1,32 @@
+{
+  "result": "PASS_PACKAGING_FIDELITY_CHECKPOINT",
+  "head": "b64700a6954b1fc3e7b1d80b9d30c4833a7ff7ea",
+  "authenticated_seals": {
+    "SOURCE_FIRST_SHA256SUMS": 15,
+    "DIRECT_REVIEW_SHA256SUMS": 36
+  },
+  "frozen_review_inputs": 12,
+  "tracked_diff_paths": [
+    "CURRENT_RESEARCH_PROGRAM.md",
+    "HANDOFF.md",
+    "INDEX.md",
+    "LIVE.md"
+  ],
+  "next_gates": {
+    "LIVE.md": "BYTE_IDENTICAL_SUFFIX",
+    "HANDOFF.md": "BYTE_IDENTICAL_SUFFIX",
+    "CURRENT_RESEARCH_PROGRAM.md": "BYTE_IDENTICAL_SUFFIX"
+  },
+  "sha256": {
+    "udt_nonlinear_ripple_geometry_2026-09-09/REVIEWED_RESULT.md": "45cc3bc950b76ceed6a1fd49c248688242bc3c008864256de9bb494c1b8bbfaa",
+    "udt_nonlinear_ripple_geometry_2026-09-09/DECISION_BRIEF.md": "fd0afec9c5b125c0338f36d0ddcca0717c7dfa0950ecd2c65b32efbc936aa6b0",
+    "udt_nonlinear_ripple_geometry_2026-09-09/README.md": "e7031209b237a50187cf211c04281809c74381cc64108c416a3c6d2f8ebdf1ab",
+    "udt_nonlinear_ripple_geometry_2026-09-09/CAMPAIGN_LOG.md": "c9c7c0fb89750f0550d3ed162ac2c61c30c9fc699a8b580ec215f7794ef8553f",
+    "CURRENT_RESEARCH_PROGRAM.md": "be2558294c890234db68beab205bb3756cea3a034caae62b46783849fe65e9d9",
+    "HANDOFF.md": "a337201acfdf93832d5329f54f1be317c60bb8bcbc1b6dca9ab04083a1fcdb07",
+    "INDEX.md": "87cf675689c5cf09582a59e20016ec09644a7d1ed51de59f13a3130e42fde9c5",
+    "LIVE.md": "6752a6f1944586a2fa408bdcf8fcb43802d4b35c8476d569cfff33440e81fead"
+  },
+  "campaign_log_scope": "REVIEWED_CHECKPOINT_ONLY; later mechanical entries excluded",
+  "scientific_recomputations": "NONE; unchanged science already reviewed"
+}

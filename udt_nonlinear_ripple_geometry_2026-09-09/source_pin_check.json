@@ -1,0 +1,15 @@
+{
+  "command": [
+    "bash",
+    "-c",
+    "awk 'NR>1 {print $1 \"  \" $2}' udt_nonlinear_ripple_geometry_2026-09-09/SOURCE_PINS.tsv | sha256sum --check -"
+  ],
+  "cwd": "/home/udt-admin/udt_mass_codex",
+  "started_utc": "2026-09-09T20:00:51.674016+00:00",
+  "duration_seconds": 0.007619515003170818,
+  "returncode": 0,
+  "timeout": false,
+  "address_space_bytes": 536870912,
+  "cpu_seconds": 60,
+  "maxrss_kib": 7548
+}

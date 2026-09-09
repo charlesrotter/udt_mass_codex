@@ -1,0 +1,90 @@
+{
+  "python": "3.10.12",
+  "sympy": "1.13.1",
+  "mpmath": "1.3.0",
+  "script_sha256": "e9bad0cf84a444516715a75e9ccde84452d552aa362291dc318201e75c7035bb",
+  "exact_predicates": [
+    "L_antiderivative",
+    "lambda_t_constraint",
+    "lambda_x_constraint",
+    "initial_L",
+    "initial_lambda_delta",
+    "Bessel_ODE_besselj",
+    "Bessel_ODE_bessely",
+    "Bessel_initial_value",
+    "Wronskian_normalization_arithmetic",
+    "G327_ODE_exact_conversion",
+    "G327_orthonormal_tidal_conversion",
+    "G327_equation15_with_basis_conversion",
+    "mutant_omitted_spatial_lambda_rejected_by_momentum"
+  ],
+  "count_exact_predicates": 13,
+  "numeric_method": "60 versus 90 digit mpmath, same library, illustrative NOT interval-certified",
+  "numeric_tolerance": "1e-45 relative/(1+abs(value)); not a proof of asymptotics",
+  "max_precision_comparison": "9.86598438751e-62",
+  "c": "1.01486888378236519812989855052",
+  "D": "1.89958487514847675936910939508",
+  "columns": [
+    "t",
+    "max_abs_P",
+    "relative_profile_phase_norm",
+    "min_delta_lambda",
+    "max_delta_lambda",
+    "min_Hrho_ratio",
+    "max_Hrho_ratio",
+    "tidal_contrast_over_Hrho_squared_at_xi0"
+  ],
+  "rows": [
+    [
+      "1.0",
+      "0.0",
+      "0.33333333333333333333",
+      "-6.8181853684690646571e-93",
+      "-6.8181853684690646571e-93",
+      "1.0",
+      "1.0",
+      "-0.05859375"
+    ],
+    [
+      "2.0",
+      "0.15736918825500888392",
+      "0.19193263013289190787",
+      "0.010192901323445672632",
+      "0.036129909488743499532",
+      "0.99100819290831000533",
+      "0.99745501863926635895",
+      "0.31399588187283491145"
+    ],
+    [
+      "10.0",
+      "0.054161705221542838918",
+      "0.097156703866715279615",
+      "0.2342338311131295934",
+      "0.26699870085011207392",
+      "0.93542933318007535353",
+      "0.94312310590674424423",
+      "2.9507058604705172934"
+    ],
+    [
+      "100.0",
+      "0.02710697238958060574",
+      "0.031753320888418076861",
+      "2.7708979988399966995",
+      "2.8045189021830093419",
+      "0.49602461545966989284",
+      "0.50021138509604194182",
+      "-152.30978846383336833"
+    ],
+    [
+      "1000.0",
+      "0.0099596601584612775246",
+      "0.0100123684933432132",
+      "28.155701782477414375",
+      "28.163365800575831435",
+      "0.00087538965551492671271",
+      "0.00087706851389220761351",
+      "5602.3873019159701587"
+    ]
+  ],
+  "actual_mutant_residual": "1/24"
+}
