@@ -1,6 +1,6 @@
 # Current scientific premises — bounded orientation
 
-`LIVE.md` owns current status. The exact 363-row `CURRENT_SCIENTIFIC_PREMISES.tsv` owns row-level
+`LIVE.md` owns current status. The exact 365-row `CURRENT_SCIENTIFIC_PREMISES.tsv` owns row-level
 grades and source paths; run `python3 verify_current_scientific_premises.py` before querying it.
 
 G376=BI1 (separately required prerequisite), G377=BG1 and G378=BG2 now carry
@@ -23,8 +23,13 @@ The admitted equations do not universally preserve closed Hopf fibres of this
 continued Ricci eigenline even under smooth deformation, at that conditional scope.
 This automatic Hopfion-stabilization identification is PAUSED; no rescue carrier,
 energy functional or added restriction. Charles separately approved the neighboring-
-tidal consistency campaign, now COMPLETE with reviewed NT1/NT2 candidates still
-UNPROMOTED; its log owns scopes, repair caveats and the next owner decision.
+tidal consistency campaign, now COMPLETE. Charles authorizes G381=NT1 and
+G382=NT2 exact-scope conditional banking; G381 is banked before G382's accepted use.
+`udt_g381_g382_conditional_banking_2026-09-09/BANKING_RECORD.md` and its execution
+record own integration/fidelity gates. All original UNPROMOTED evidence stays fixed.
+Full slot corrections, finite-jet limits, restricted real rank-one class, all-Lambda
+necessity versus actual local Lambda=0 realization, free profiles and all repair/
+LOST-output/unsnapshotted-code caveats remain. No successor; stop for discussion.
 No generic failure, physical instability, topology change or UDT failure.
 No physical identification, stability, new premise, canon or fixed-manuscript change.
 

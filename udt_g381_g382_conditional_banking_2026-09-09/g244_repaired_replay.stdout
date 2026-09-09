@@ -1,0 +1,25 @@
+{
+  "checks": {
+    "catch_replay_exact": true,
+    "cross_route_area_query": true,
+    "cross_route_constant_cancellation": true,
+    "full_phase_nonmultiplicative": true,
+    "hostile_catches": true,
+    "independent_classification": true,
+    "independent_replay_exact": true,
+    "no_caustic_inverse": true,
+    "no_fit": true,
+    "outcomes_closed": true,
+    "production_classification": true,
+    "production_replay_exact": true,
+    "source_manifest": true
+  },
+  "classification": "METRIC_NATIVE_OBSERVER_SKY_AREA_SHAPE_QUERY_DERIVED_CONDITIONALLY__NO_FITTED_ANGULAR_COEFFICIENT__CATALOG_IDENTIFICATION_AND_HISTORY_OPEN",
+  "hostile_catches": 14,
+  "independent_matrix_cases": 5000,
+  "independent_phase_cases": 5000,
+  "production_matrix_cases": 1024,
+  "production_phase_cases": 1024,
+  "source_count": 8,
+  "status": "PASS"
+}

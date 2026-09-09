@@ -1,0 +1,179 @@
+{
+  "status": "PASS",
+  "evidence_type": "independent receipt/artifact parsing; no new science",
+  "original_false_passes": 4,
+  "repaired_rejections": 15,
+  "original_scientific_fields_unchanged": true,
+  "NT1_lost_buffered_intermediates": "NOT_RECOVERED",
+  "NT1_initial_reviewer_code": "NOT_SEPARATELY_SNAPSHOTTED",
+  "captures": [
+    {
+      "step": "step_01",
+      "stem": "author_scaled_action_falsepass",
+      "returncode": 0,
+      "status": "PASS",
+      "guard": null,
+      "checks": 17
+    },
+    {
+      "step": "step_01",
+      "stem": "author_zero_kernel_falsepass",
+      "returncode": 0,
+      "status": "PASS",
+      "guard": null,
+      "checks": 17
+    },
+    {
+      "step": "step_02",
+      "stem": "probe_freeze_profiles",
+      "returncode": 0,
+      "status": "PASS",
+      "guard": null,
+      "checks": 13
+    },
+    {
+      "step": "step_02",
+      "stem": "probe_reverse_normal",
+      "returncode": 0,
+      "status": "PASS",
+      "guard": null,
+      "checks": 13
+    },
+    {
+      "step": "step_01",
+      "stem": "repaired_original_probe_scaled_action",
+      "returncode": 1,
+      "status": "FAIL",
+      "guard": "finite_frame_derivative_matches_slot_action",
+      "checks": null
+    },
+    {
+      "step": "step_01",
+      "stem": "repaired_original_probe_zero_kernel",
+      "returncode": 1,
+      "status": "FAIL",
+      "guard": "kernel_vectors_really_independent",
+      "checks": null
+    },
+    {
+      "step": "step_01",
+      "stem": "repaired_replay_omit_bianchi",
+      "returncode": 1,
+      "status": "FAIL",
+      "guard": "weyl_differential_rank_sixteen",
+      "checks": null
+    },
+    {
+      "step": "step_01",
+      "stem": "repaired_replay_wrong_cycle",
+      "returncode": 1,
+      "status": "FAIL",
+      "guard": "weyl_differential_rank_sixteen",
+      "checks": null
+    },
+    {
+      "step": "step_01",
+      "stem": "repaired_replay_omit_connection",
+      "returncode": 1,
+      "status": "FAIL",
+      "guard": "all_slot_connection_correction",
+      "checks": null
+    },
+    {
+      "step": "step_01",
+      "stem": "repaired_replay_drop_divergence",
+      "returncode": 1,
+      "status": "FAIL",
+      "guard": "explicit_six_divergences_ten_evolution_equivalent",
+      "checks": null
+    },
+    {
+      "step": "step_02",
+      "stem": "focused_drop_bianchi",
+      "returncode": 1,
+      "status": "FAIL",
+      "guard": "timelike_nonzero_curvature_factor_impossible",
+      "checks": null
+    },
+    {
+      "step": "step_02",
+      "stem": "focused_wrong_null_sign",
+      "returncode": 1,
+      "status": "FAIL",
+      "guard": "both_explicit_null_polarizations_satisfy_full_bianchi",
+      "checks": null
+    },
+    {
+      "step": "step_02",
+      "stem": "focused_drop_mixed",
+      "returncode": 1,
+      "status": "FAIL",
+      "guard": "both_explicit_null_polarizations_satisfy_full_bianchi",
+      "checks": null
+    },
+    {
+      "step": "step_02",
+      "stem": "focused_nonharmonic",
+      "returncode": 1,
+      "status": "FAIL",
+      "guard": "full_neighborhood_Ricci_flat_not_only_u_zero",
+      "checks": null
+    },
+    {
+      "step": "step_02",
+      "stem": "focused_wrong_K_sign",
+      "returncode": 1,
+      "status": "FAIL",
+      "guard": "K_full_projected_sign_and_Hu_not_squared_constraint_only",
+      "checks": null
+    },
+    {
+      "step": "step_02",
+      "stem": "focused_omit_Hu",
+      "returncode": 1,
+      "status": "FAIL",
+      "guard": "K_full_projected_sign_and_Hu_not_squared_constraint_only",
+      "checks": null
+    },
+    {
+      "step": "step_02",
+      "stem": "focused_double_curvature",
+      "returncode": 1,
+      "status": "FAIL",
+      "guard": "all_1024_first_jet_components_match_normalized_null_factor",
+      "checks": null
+    },
+    {
+      "step": "step_02",
+      "stem": "focused_freeze_profiles",
+      "returncode": 1,
+      "status": "FAIL",
+      "guard": "declared_free_profiles_live_in_actual_family",
+      "checks": null
+    },
+    {
+      "step": "step_02",
+      "stem": "focused_reverse_normal",
+      "returncode": 1,
+      "status": "FAIL",
+      "guard": "future_normal_relative_fixed_frame_on_full_S_positive_domain",
+      "checks": null
+    },
+    {
+      "step": "step_01",
+      "stem": "repaired_baseline_replay",
+      "returncode": 0,
+      "status": "PASS",
+      "guard": null,
+      "checks": 21
+    },
+    {
+      "step": "step_02",
+      "stem": "focused_baseline",
+      "returncode": 0,
+      "status": "PASS",
+      "guard": null,
+      "checks": 15
+    }
+  ]
+}

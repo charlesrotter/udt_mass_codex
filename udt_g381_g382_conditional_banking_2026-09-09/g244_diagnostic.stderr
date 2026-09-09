@@ -1,0 +1,8 @@
+Traceback (most recent call last):
+  File "/home/udt-admin/udt_mass_codex/udt_g244_metric_native_observer_sky_response_query_2026-08-24/verify_package.py", line 138, in <module>
+    main()
+  File "/home/udt-admin/udt_mass_codex/udt_g244_metric_native_observer_sky_response_query_2026-08-24/verify_package.py", line 75, in main
+    source_count = verify_sources()
+  File "/home/udt-admin/udt_mass_codex/udt_g244_metric_native_observer_sky_response_query_2026-08-24/verify_package.py", line 65, in verify_sources
+    raise RuntimeError(f"source hash mismatch: {relative}")
+RuntimeError: source hash mismatch: CURRENT_SCIENTIFIC_PREMISES.tsv

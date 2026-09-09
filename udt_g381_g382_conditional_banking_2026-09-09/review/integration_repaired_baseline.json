@@ -1,0 +1,16 @@
+{
+  "command": [
+    "python3",
+    "-B",
+    "udt_g381_g382_conditional_banking_2026-09-09/review/check_integration_fidelity.py",
+    "baseline"
+  ],
+  "cwd": "/home/udt-admin/udt_mass_codex",
+  "started_utc": "2026-09-09T01:37:16.678448+00:00",
+  "duration_seconds": 0.11499153100885451,
+  "returncode": 0,
+  "timeout": false,
+  "address_space_bytes": 536870912,
+  "cpu_seconds": 60,
+  "maxrss_kib": 65016
+}

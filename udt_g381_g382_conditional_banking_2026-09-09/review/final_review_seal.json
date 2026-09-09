@@ -1,0 +1,15 @@
+{
+  "command": [
+    "python3",
+    "-B",
+    "udt_g381_g382_conditional_banking_2026-09-09/review/seal_review.py"
+  ],
+  "cwd": "/home/udt-admin/udt_mass_codex",
+  "started_utc": "2026-09-09T01:44:50.457516+00:00",
+  "duration_seconds": 0.018953590013552457,
+  "returncode": 0,
+  "timeout": false,
+  "address_space_bytes": 536870912,
+  "cpu_seconds": 60,
+  "maxrss_kib": 14500
+}

@@ -1,0 +1,1 @@
+{"mode": "forget_dependency", "actual_read_mutation": "CURRENT_SCIENTIFIC_PREMISES.tsv", "old": "REQUIRES_BANKED_G381_AND_G310", "new": "REQUIRES_UNBANKED_NT1_AND_G310", "before_sha256": "f6fdeae8e7a84317c09067e72c0176f05b0bce64f29f69c923fdae97742bd9ca", "after_sha256": "b4c57b304dcec349f5e722380950f5abce6de26bb1f57fcd53086f111f0f8c5b", "writes_to_original_files": false}

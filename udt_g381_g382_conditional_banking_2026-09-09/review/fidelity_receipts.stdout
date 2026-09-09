@@ -1,0 +1,32 @@
+{
+  "status": "PASS",
+  "actual_selected_guards_rejected": {
+    "forget_dependency": "G382 scope lacks REQUIRES_BANKED_G381_AND_G310_G312_OWNER_PROVISIONAL_ARENA_G358_CONVENTIONS",
+    "drop_fullslots": "G381 scope lacks FULL_FOUR_CURVATURE_SLOT_CONNECTION_CORRECTION_NOT_RAW_SLOPES",
+    "erase_lost": "G381 scope lacks LOST_AUTHOR_BUFFERED_INTERMEDIATES_NOT_RECOVERED",
+    "widen_scalar": "G382 scope lacks EVERY_CANONICAL_NULL_JET_ACTUAL_SMOOTH_LOCAL_RICCI_FLAT_REALIZATION_LAMBDA_ZERO_ONLY",
+    "change_grade": "G381 banking grade changed",
+    "record_scalar_boundary_corrected": "neighboring-tidal banking record lacks ALL-Lambda necessity and Lambda=0 realization",
+    "source_byte": "neighboring-tidal original evidence changed: udt_neighboring_tidal_consistency_campaign_2026-09-08/step_01/CANDIDATE_INITIAL.md",
+    "prior_row": "neighboring-tidal banking changed an existing scientific registry row"
+  },
+  "reviewer_locale_harness_failure": "PRESERVED_AND_EXCLUDED_AS_GUARD_REJECTION",
+  "parent_same_code_replays": {
+    "nt1_regression": {
+      "checks": 21,
+      "stdout_and_stderr": "BYTE_IDENTICAL",
+      "duration_seconds": 1.9768728270137217
+    },
+    "nt2_symbol_regression": {
+      "checks": 6,
+      "stdout_and_stderr": "BYTE_IDENTICAL",
+      "duration_seconds": 0.1887870069767814
+    },
+    "nt2_development_regression": {
+      "checks": 15,
+      "stdout_and_stderr": "BYTE_IDENTICAL",
+      "duration_seconds": 9.729499701003078
+    }
+  },
+  "classification": "receipt/correspondence fidelity, not independent science"
+}

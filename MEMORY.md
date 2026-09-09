@@ -1,6 +1,6 @@
 # MEMORY — compact pointer only
 
-`LIVE.md` wins. Exact premise authority is the 363-row `CURRENT_SCIENTIFIC_PREMISES.tsv`.
+`LIVE.md` wins. Exact premise authority is the 365-row `CURRENT_SCIENTIFIC_PREMISES.tsv`.
 
 ## Current picture
 
@@ -46,12 +46,16 @@ Hopfion-stabilization identification is PAUSED; no rescue restrictions/carrier/a
 The original next-direction proposal is preserved:
 `udt_g379_g380_conditional_banking_2026-09-08/NEXT_CAMPAIGN_PROPOSAL.md`.
 Charles approved direction1, neighboring ideal tidal consistency with ONE lawful
-metric development: TWO reviewed steps completed, NT1/NT2 UNPROMOTED;
+metric development: TWO reviewed steps completed. Charles authorizes exact-scope
+conditional banking G381=NT1 then G382=NT2; no additional prerequisite:
+`udt_g381_g382_conditional_banking_2026-09-09/BANKING_RECORD.md` owns scopes;
+its execution record owns integration/fidelity completion. Original evidence stays fixed.
 `udt_neighboring_tidal_consistency_campaign_2026-09-08/CAMPAIGN_LOG.md` owns current progress.
 Keep raw/covariant slopes, free comparison data and actual development distinct.
 Restricted null first-variation and actual local Lambda=0 realizations are not
 physical content or a general realization theorem. One guard repair/re-review
-per step; next owner decision is banking or successor, not further execution.
+per step; lost buffers/unsnapshotted reviewer source caveats remain. After banking,
+stop for discussion; no successor is authorized.
 No caustic-current campaign, carrier/conservation-law adoption, third CF step or
 Hopf-stabilization rescue is authorized.
 
@@ -118,7 +122,7 @@ two reviewed conditional candidates: udt_vacuum_common_scale_campaign_2026-09-08
 VS1--VS2 now have exact-scope G374--G375 banking authority; original NOT_BANKED evidence is unchanged.
 Integration gates remain in the banking package; the bounded Hopfion successor is complete.
 No fourth step in that completed Hopfion campaign is authorized. New banking is
-limited to the currently approved G379--G380 dependency-closed scope above.
+limited to the currently approved G381--G382 dependency-closed scope above.
 The Berger initial-data and two-step global-constraint campaigns above are complete.
 Authorized dependency-closed banking and next-direction planning are scoped
 above; no broader campaign or physical adoption. LIVE owns current state.

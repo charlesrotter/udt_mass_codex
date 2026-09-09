@@ -1,0 +1,8 @@
+Traceback (most recent call last):
+  File "/home/udt-admin/udt_mass_codex/verify_current_scientific_premises.py", line 20032, in <module>
+    main()
+  File "/home/udt-admin/udt_mass_codex/verify_current_scientific_premises.py", line 11773, in main
+    g244_replay = subprocess.run(
+  File "/usr/lib/python3.10/subprocess.py", line 526, in run
+    raise CalledProcessError(retcode, process.args,
+subprocess.CalledProcessError: Command '['/usr/bin/python3', '/home/udt-admin/udt_mass_codex/udt_g244_metric_native_observer_sky_response_query_2026-08-24/verify_package.py', '--no-write']' returned non-zero exit status 1.

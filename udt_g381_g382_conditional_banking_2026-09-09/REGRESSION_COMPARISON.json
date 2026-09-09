@@ -1,0 +1,29 @@
+{
+  "kind": "unchanged source replay comparison; regression not independent science",
+  "results": [
+    {
+      "stem": "nt1_regression",
+      "original": "step_01/author_repaired",
+      "equal": {
+        "stdout": true,
+        "stderr": true
+      }
+    },
+    {
+      "stem": "nt2_symbol_regression",
+      "original": "step_02/symbol_corrected",
+      "equal": {
+        "stdout": true,
+        "stderr": true
+      }
+    },
+    {
+      "stem": "nt2_development_regression",
+      "original": "step_02/development_repaired",
+      "equal": {
+        "stdout": true,
+        "stderr": true
+      }
+    }
+  ]
+}

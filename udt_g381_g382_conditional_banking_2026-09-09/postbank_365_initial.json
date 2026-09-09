@@ -1,0 +1,20 @@
+{
+  "command": [
+    "python3",
+    "-B",
+    "verify_current_scientific_premises.py"
+  ],
+  "cwd": "/home/udt-admin/udt_mass_codex",
+  "start_utc": "2026-09-09T01:27:32.638694+00:00",
+  "duration_seconds": 297.8958113959816,
+  "returncode": 1,
+  "timeout": false,
+  "maxrss_kib": 104064,
+  "limits": {
+    "address_space_bytes": 2147483648,
+    "cpu_wall_seconds": 900,
+    "library_threads": 1
+  },
+  "stdout": "",
+  "stderr": "Traceback (most recent call last):\n  File \"/home/udt-admin/udt_mass_codex/verify_current_scientific_premises.py\", line 20032, in <module>\n    main()\n  File \"/home/udt-admin/udt_mass_codex/verify_current_scientific_premises.py\", line 11773, in main\n    g244_replay = subprocess.run(\n  File \"/usr/lib/python3.10/subprocess.py\", line 526, in run\n    raise CalledProcessError(retcode, process.args,\nsubprocess.CalledProcessError: Command '['/usr/bin/python3', '/home/udt-admin/udt_mass_codex/udt_g244_metric_native_observer_sky_response_query_2026-08-24/verify_package.py', '--no-write']' returned non-zero exit status 1.\n"
+}

@@ -2,7 +2,7 @@
 
 Date: 2026-09-08
 
-`LIVE.md` controls status; the exact 363-row `CURRENT_SCIENTIFIC_PREMISES.tsv` controls ownership.
+`LIVE.md` controls status; the exact 365-row `CURRENT_SCIENTIFIC_PREMISES.tsv` controls ownership.
 
 ## Architecture
 
@@ -271,18 +271,21 @@ No restrictions, carrier or energy functional will be added to rescue it.
 Further investigation needs an independently motivated question, not another example.
 The previous next-direction comparison/proposal remains preserved:
 `udt_g379_g380_conditional_banking_2026-09-08/NEXT_CAMPAIGN_PROPOSAL.md`.
-Charles approved direction1: the neighboring-tidal campaign is AUTHORIZED,
-up to TWO substantive reviewed steps or FOUR hours, including checks and fresh
-separate-context review. Current question, progress and exact review state:
+The neighboring-tidal campaign is COMPLETE at TWO reviewed steps:
 `udt_neighboring_tidal_consistency_campaign_2026-09-08/CAMPAIGN_LOG.md`.
-Execution COMPLETE: NT1/NT2 reviewed conditional candidates, both UNPROMOTED;
-neighboring-record obstruction and restricted null first-variation with actual
-local Lambda=0 realization. One guard repair/re-review each; all caveats retained.
-Return point: owner decision on banking or successor, not automatic continuation.
-Investigate neighboring ideal tidal-record consistency versus ONE lawful metric
-development; raw slopes are not covariant derivatives without comparison data.
-New results remain UNPROMOTED. No carrier, source law or physical identification.
-The caustic-current alternative is not authorized. No third CF step or Hopf rescue.
+Charles authorizes exact-scope conditional banking G381=NT1 and G382=NT2:
+`udt_g381_g382_conditional_banking_2026-09-09/BANKING_RECORD.md`.
+Its EXECUTION_RECORD.md owns integration/fidelity completion. G381 is the required
+prerequisite for G382; no unrelated predecessor is promoted. Original UNPROMOTED
+campaign evidence remains unchanged. Full FOUR-slot correction and finite first-jet
+limits survive; raw slopes require comparison data except at the stated W=0 event.
+NT2 retains NONZERO REAL rank-one data, all-Lambda necessity versus ACTUAL smooth
+LOCAL Lambda=0 realization, supplied future frame/slice/K and free smooth profiles.
+Both original false-pass pairs and one guard repair each remain; NT1 unflushed
+intermediates are LOST, not recovered, and its initial reviewer code was not
+separately snapshotted. No general realization, physical content or propagation law.
+After banking, stop for discussion. No successor campaign, caustic-current task,
+third CF step or Hopf rescue is authorized.
 Beyond this explicitly approved scope, no new campaign is authorized.
 Execution/publication receipts own closure; prior evidence remains unchanged.
 Carrier/action/boundary/evolution adoption remains unauthorized.

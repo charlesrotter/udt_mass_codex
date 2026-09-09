@@ -1,0 +1,2 @@
+PASS: relocated new rows preserve old bytes and exact G244 historical registry
+Actual read overlay: move unchanged G381/G382 to registry bottom; no source writes

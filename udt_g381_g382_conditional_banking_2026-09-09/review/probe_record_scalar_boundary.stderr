@@ -1,0 +1,10 @@
+Traceback (most recent call last):
+  File "/home/udt-admin/udt_mass_codex/udt_g381_g382_conditional_banking_2026-09-09/review/check_integration_fidelity.py", line 63, in <module>
+    module.validate_neighboring_tidal_banking(ROOT, authenticate_sources=True)
+  File "/home/udt-admin/udt_mass_codex/verify_current_scientific_premises.py", line 1466, in validate_neighboring_tidal_banking
+    record = " ".join((root / NEIGHBORING_TIDAL_BANKING_SOURCE).read_text().split())
+  File "/usr/lib/python3.10/pathlib.py", line 1134, in read_text
+    with self.open(mode='r', encoding=encoding, errors=errors) as f:
+  File "/home/udt-admin/udt_mass_codex/udt_g381_g382_conditional_banking_2026-09-09/review/check_integration_fidelity.py", line 59, in read_overlay
+    return io.BytesIO(data) if 'b' in mode else io.StringIO(data.decode(kwargs.get('encoding') or 'utf-8'))
+LookupError: unknown encoding: locale
