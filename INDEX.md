@@ -21,6 +21,10 @@ Latest banking: `udt_g381_g382_conditional_banking_2026-09-09/BANKING_RECORD.md`
 its execution/publication records own completion. Original campaign:
 `udt_neighboring_tidal_consistency_campaign_2026-09-08/CAMPAIGN_LOG.md`.
 Current editorial record: `startup_surface_current_tracking_compaction_2026-09-09/WORK_RECORD.md`.
+Latest completed campaign: `udt_nonlinear_mode_realizability_campaign_2026-09-09/DECISION_BRIEF.md`;
+its log and step_01/step_02 reviewed results link full original proofs/reviews.
+NR1--NR2 remain UNPROMOTED; compact-sector mixed-C2 necessity/analytic local sufficiency only.
+Full365 NOT_PASSED at G325 replay; no new banking or complete integration.
 
 ## Founding, relational and response sources
 

@@ -1,0 +1,39 @@
+{
+  "checks": [
+    {
+      "name": "all_spatial_Ricci_equal_Lambda_gamma",
+      "pass": true
+    },
+    {
+      "name": "full_Ricci_time_residual_equals_H_minus_2Lambda",
+      "pass": true
+    },
+    {
+      "name": "full_Ricci_mixed_residual_equals_negative_M",
+      "pass": true
+    },
+    {
+      "name": "arbitrary_analytic_higher_order_scalar_and_mean_preserve_complete_K_tangent",
+      "pass": true
+    },
+    {
+      "name": "higher_order_scalar_changes_admitted_data",
+      "pass": true
+    },
+    {
+      "name": "higher_order_mean_changes_admitted_data",
+      "pass": true
+    },
+    {
+      "name": "reconstructed_prior_source_matches_disclosed_removal",
+      "pass": true
+    },
+    {
+      "name": "candidate_replay_scientific_stdout_byte_equal",
+      "pass": true
+    }
+  ],
+  "candidate_sha256": "2af7b57e9323c895ffe98b4777aadd37721cd650bffd684954b85b1441e29e9d",
+  "code_sha256": "00468b6e96ff66056b5c012522f2a6f34a3c3179a9bc472f75b96c207eb46817",
+  "scope": "Higher-order analytic freedom and full constant-Lambda geometric interface; no theorem/source replay or physical adoption"
+}

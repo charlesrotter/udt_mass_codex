@@ -1,0 +1,6 @@
+Traceback (most recent call last):
+  File "/home/udt-admin/udt_mass_codex/udt_nonlinear_mode_realizability_campaign_2026-09-09/step_02/check_nr2.py", line 62, in <module>
+    gate(Ham.subs(kappa,kap)-2*Lam,'completed_hamiltonian_constraint')
+  File "/home/udt-admin/udt_mass_codex/udt_nonlinear_mode_realizability_campaign_2026-09-09/step_02/check_nr2.py", line 13, in gate
+    assert simp(expr)==0,name
+AssertionError: completed_hamiltonian_constraint

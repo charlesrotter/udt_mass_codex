@@ -94,6 +94,8 @@ rank-one classification in all constant-Lambda sectors differs from actual smoot
 realization. Free profiles, supplied future frame/slice and lost-buffer/unsnapshotted-code caveats remain.
 Exact bank records and original campaign logs/reviews are indexed in `INDEX.md`, not duplicated here.
 
+NR1--NR2: reviewed, UNPROMOTED; exact scopes/limits in INDEX.
+
 Geometric theory/calibration and possible emergence remain parallel, neither prerequisite.
 Explicit justified transfer/instrument assumptions can support conditional measurements;
 neither emergent light nor an admitted sourced sector is a blanket prerequisite for every route.

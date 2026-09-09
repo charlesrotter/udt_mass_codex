@@ -1,0 +1,15 @@
+{
+  "command": [
+    "sha256sum",
+    "-c",
+    "udt_nonlinear_mode_realizability_campaign_2026-09-09/EVIDENCE_SHA256SUMS"
+  ],
+  "cwd": "/home/udt-admin/udt_mass_codex",
+  "started_utc": "2026-09-09T16:37:06.188486+00:00",
+  "duration_seconds": 0.0027221660129725933,
+  "returncode": 0,
+  "timeout": false,
+  "address_space_bytes": 536870912,
+  "cpu_seconds": 60,
+  "maxrss_kib": 7408
+}

@@ -1,0 +1,6 @@
+Traceback (most recent call last):
+  File "/home/udt-admin/udt_mass_codex/udt_nonlinear_mode_realizability_campaign_2026-09-09/step_02/check_nr2.py", line 71, in <module>
+    gate(se,'completed_pointwise_momentum_constraint')
+  File "/home/udt-admin/udt_mass_codex/udt_nonlinear_mode_realizability_campaign_2026-09-09/step_02/check_nr2.py", line 13, in gate
+    assert simp(expr)==0,name
+AssertionError: completed_pointwise_momentum_constraint

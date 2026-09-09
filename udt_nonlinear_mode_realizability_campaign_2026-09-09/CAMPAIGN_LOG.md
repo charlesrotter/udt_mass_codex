@@ -112,3 +112,35 @@ intended original momentum/Hamiltonian assertions. Earlier30-predicate output
 and explicitly reconstructed pre-Bianchi code remain with DISCOVERY_HISTORY.
 The proposed converse uses exact periodic metric/K completion plus conditional
 analytic CK development; it is not a conclusion from check counts.
+
+16:34 UTC: NR2 mathematical verdict VERIFIED-WITH-CAVEATS, no scientific repair.
+The separate reviewer verified the exact completion, full tangent, consistent CK
+auxiliaries, joint parameter dependence, compact gluing and Bianchi recovery.
+Its source-first chart is equivalent to the author's, not a different chart-method;
+independent code/4D argument and shared-SymPy/model-UNKNOWN limits are explicit.
+NR1--NR2 are UNPROMOTED. Final brief and compact tracking receive proportional
+fidelity review; one unpinned NR2 summary pointer was qualified with `review/`.
+Frozen NR1 inputs and both initial candidates stay byte-unchanged.
+
+Parent scoped startup regression:247 PASS, one full-verifier test explicitly
+deselected,6.28s pytest/6.375s capture,72840KiB; no verifier/test edits. This is not
+a whole-repository suite or a full365 pass. Current pointers remain compact and
+the three-sentence discussion stop is unchanged. Initial extra orientation prose
+was reduced to fit existing word limits before testing; premise orientation was
+restored exactly. No accepted scientific claim changed.
+
+PRESERVATION_CHECK.json records successful direct Git/hash checks: only this
+package and five current pointers differ from454bd6ff; all46 unrelated untracked
+names match the initial digest. Registry/canon/fixed manuscript and method/test
+sources are unchanged. An earlier Node-wrapped git call failed EPERM and is not
+counted as a pass; direct calls succeeded. No protected payload was inspected.
+Final evidence seal, fidelity addendum and candidate-checkpoint publication follow.
+
+16:36 UTC: both substantive stages and the proportional summary review COMPLETE,
+within37min of the four-hour ceiling. Stop with NR1--NR2 VERIFIED-WITH-CAVEATS,
+UNPROMOTED; no successor is authorized. The summary review independently pins
+the brief, final NR2 summary and five lean current pointers. Both original
+candidates are unchanged; mathematical candidate repair count0 for each step.
+The NR1 reviewer-only false-pass history remains excluded/preserved as recorded.
+All review manifests personally reauthenticated. Publish the final artifact seal
+as a reviewed candidate checkpoint only; full365 remains NOT_PASSED, not waived.

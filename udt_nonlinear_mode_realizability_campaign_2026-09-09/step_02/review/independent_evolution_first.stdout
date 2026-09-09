@@ -1,0 +1,76 @@
+{
+  "python": "3.10.12",
+  "sympy": "1.13.1",
+  "H": "-15744513949/62737594920",
+  "M": [
+    "-40099/980980",
+    "-617/226380",
+    "152387/1471470"
+  ],
+  "Ric00": "-15744513949/62737594920",
+  "propagation": "A_t=2 D_i B^i+2 tau A; B_i,t=(1/2)partial_i A+tau B_i",
+  "checks": [
+    {
+      "name": "full_spatial_Ricci_evolution",
+      "pass": true
+    },
+    {
+      "name": "full_time_Ricci_equals_H_after_spatial_evolution",
+      "pass": true
+    },
+    {
+      "name": "full_mixed_Ricci_equals_negative_M",
+      "pass": true
+    },
+    {
+      "name": "constraint_fixture_nonzero_and_nonvacuous",
+      "pass": true
+    },
+    {
+      "name": "normal_principal_direction_00",
+      "pass": true
+    },
+    {
+      "name": "normal_principal_direction_01",
+      "pass": true
+    },
+    {
+      "name": "normal_principal_direction_02",
+      "pass": true
+    },
+    {
+      "name": "normal_principal_direction_11",
+      "pass": true
+    },
+    {
+      "name": "normal_principal_direction_12",
+      "pass": true
+    },
+    {
+      "name": "normal_principal_direction_22",
+      "pass": true
+    },
+    {
+      "name": "full_covariant_Bianchi_propagation_including_lower_terms",
+      "pass": true
+    }
+  ],
+  "mutants": [
+    {
+      "name": "wrong_H_to_Ric00_factor",
+      "rejected": true
+    },
+    {
+      "name": "wrong_Codazzi_sign",
+      "rejected": true
+    },
+    {
+      "name": "omit_Bianchi_tau_A",
+      "rejected": true
+    },
+    {
+      "name": "omit_Bianchi_tau_B",
+      "rejected": true
+    }
+  ]
+}
