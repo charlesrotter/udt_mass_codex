@@ -1,0 +1,116 @@
+{
+  "date": "2026-09-09",
+  "scope": "Documentation closeout publication, not scientific verification",
+  "baseline": "450d987e22164364e08e5ea0eadaaeaf2dcef096",
+  "evidence_commit": "bf7f636358a347ba70f208c17708e38fcf4e5354",
+  "remote_verified_utc": "2026-09-09 22:33:45 UTC",
+  "review_report_sha256": "3a812735d7b568110b658541de2bd6f4e54c58a41841a42c9734c4337534022b",
+  "evidence_manifest_sha256": "c9325d601d8742278bb943c31946905c2f56c0155a01d01edffb3b3f834ddc5b",
+  "notes": [
+    "Full staged whitespace check exits 2 only on the raw patch's single-space context lines; exact exclusion check passes. Raw evidence is not rewritten.",
+    "Publication receipt files are later additions outside the 46-payload evidence seal; their Git commit is the correspondence record.",
+    "Full365 remains NOT_PASSED at G325."
+  ],
+  "commands": [
+    {
+      "cmd": "git add -f -- LIVE.md HANDOFF.md CURRENT_RESEARCH_PROGRAM.md CURRENT_SCIENTIFIC_PREMISES.md MEMORY.md INDEX.md udt_gr_filter_reconciliation_2026-09-09/documentation_closeout",
+      "result": {
+        "chunk_id": "706c37",
+        "wall_time_seconds": 0.000002067,
+        "exit_code": 0,
+        "original_token_count": 0,
+        "output": ""
+      }
+    },
+    {
+      "cmd": "git diff --cached --name-status",
+      "result": {
+        "chunk_id": "7d2a57",
+        "wall_time_seconds": 0.000003034,
+        "exit_code": 0,
+        "original_token_count": 1038,
+        "output": "M\tCURRENT_RESEARCH_PROGRAM.md\nM\tCURRENT_SCIENTIFIC_PREMISES.md\nM\tHANDOFF.md\nM\tINDEX.md\nM\tLIVE.md\nM\tMEMORY.md\nA\tudt_gr_filter_reconciliation_2026-09-09/documentation_closeout/CLOSEOUT.md\nA\tudt_gr_filter_reconciliation_2026-09-09/documentation_closeout/EVIDENCE_SHA256SUMS\nA\tudt_gr_filter_reconciliation_2026-09-09/documentation_closeout/EXECUTION_RECORD.md\nA\tudt_gr_filter_reconciliation_2026-09-09/documentation_closeout/STARTUP_CANDIDATE.patch\nA\tudt_gr_filter_reconciliation_2026-09-09/documentation_closeout/STARTUP_CANDIDATE_SHA256SUMS\nA\tudt_gr_filter_reconciliation_2026-09-09/documentation_closeout/STARTUP_PREMISE_AUDIT.json\nA\tudt_gr_filter_reconciliation_2026-09-09/documentation_closeout/WORK_ORDER.md\nA\tudt_gr_filter_reconciliation_2026-09-09/documentation_closeout/preservation_check.json\nA\tudt_gr_filter_reconciliation_2026-09-09/documentation_closeout/preservation_check.stderr\nA\tudt_gr_filter_reconciliation_2026-09-09/documentation_closeout/preservation_check.stdout\nA\tudt_gr_filter_reconciliation_2026-09-09/documentation_closeout/review/CHECK_CORRECTION.md\nA\tudt_gr_filter_reconciliation_2026-09-09/documentation_closeout/review/REPLACEMENT_REVIEW.md\nA\tudt_gr_filter_reconciliation_2026-09-09/documentation_closeout/review/REVIEW_SHA256SUMS\nA\tudt_gr_filter_reconciliation_2026-09-09/documentation_closeout/review/check_documentary_correspondence.py\nA\tudt_gr_filter_reconciliation_2026-09-09/documentation_closeout/review/current_guard_probes.json\nA\tudt_gr_filter_reconciliation_2026-09-09/documentation_closeout/review/current_guard_probes.stderr\nA\tudt_gr_filter_reconciliation_2026-09-09/documentation_closeout/review/current_guard_probes.stdout\nA\tudt_gr_filter_reconciliation_2026-09-09/documentation_closeout/review/current_transition_probes.json\nA\tudt_gr_filter_reconciliation_2026-09-09/documentation_closeout/review/current_transition_probes.stderr\nA\tudt_gr_filter_reconciliation_2026-09-09/documentation_closeout/review/current_transition_probes.stdout\nA\tudt_gr_filter_reconciliation_2026-09-09/documentation_closeout/review/documentary_correspondence.json\nA\tudt_gr_filter_reconciliation_2026-09-09/documentation_closeout/review/documentary_correspondence.stderr\nA\tudt_gr_filter_reconciliation_2026-09-09/documentation_closeout/review/documentary_correspondence.stdout\nA\tudt_gr_filter_reconciliation_2026-09-09/documentation_closeout/review/documentary_correspondence_corrected.json\nA\tudt_gr_filter_reconciliation_2026-09-09/documentation_closeout/review/documentary_correspondence_corrected.stderr\nA\tudt_gr_filter_reconciliation_2026-09-09/documentation_closeout/review/documentary_correspondence_corrected.stdout\nA\tudt_gr_filter_reconciliation_2026-09-09/documentation_closeout/review/frozen_candidate_guard_probes.json\nA\tudt_gr_filter_reconciliation_2026-09-09/documentation_closeout/review/frozen_candidate_guard_probes.stderr\nA\tudt_gr_filter_reconciliation_2026-09-09/documentation_closeout/review/frozen_candidate_guard_probes.stdout\nA\tudt_gr_filter_reconciliation_2026-09-09/documentation_closeout/review/parent_prose_finalization_pins.json\nA\tudt_gr_filter_reconciliation_2026-09-09/documentation_closeout/review/parent_prose_finalization_pins.stderr\nA\tudt_gr_filter_reconciliation_2026-09-09/documentation_closeout/review/parent_prose_finalization_pins.stdout\nA\tudt_gr_filter_reconciliation_2026-09-09/documentation_closeout/review/source_correspondence.json\nA\tudt_gr_filter_reconciliation_2026-09-09/documentation_closeout/review/source_correspondence.stderr\nA\tudt_gr_filter_reconciliation_2026-09-09/documentation_closeout/review/source_correspondence.stdout\nA\tudt_gr_filter_reconciliation_2026-09-09/documentation_closeout/review/startup_candidate_pins.json\nA\tudt_gr_filter_reconciliation_2026-09-09/documentation_closeout/review/startup_candidate_pins.stderr\nA\tudt_gr_filter_reconciliation_2026-09-09/documentation_closeout/review/startup_candidate_pins.stdout\nA\tudt_gr_filter_reconciliation_2026-09-09/documentation_closeout/startup_tests.json\nA\tudt_gr_filter_reconciliation_2026-09-09/documentation_closeout/startup_tests.stderr\nA\tudt_gr_filter_reconciliation_2026-09-09/documentation_closeout/startup_tests.stdout\n"
+      }
+    },
+    {
+      "cmd": "git diff --cached --check",
+      "result": {
+        "chunk_id": "413e06",
+        "wall_time_seconds": 0.000003492,
+        "exit_code": 2,
+        "original_token_count": 489,
+        "output": "udt_gr_filter_reconciliation_2026-09-09/documentation_closeout/STARTUP_CANDIDATE.patch:6: trailing whitespace.\n+ \nudt_gr_filter_reconciliation_2026-09-09/documentation_closeout/STARTUP_CANDIDATE.patch:8: trailing whitespace.\n+ \nudt_gr_filter_reconciliation_2026-09-09/documentation_closeout/STARTUP_CANDIDATE.patch:11: trailing whitespace.\n+ \nudt_gr_filter_reconciliation_2026-09-09/documentation_closeout/STARTUP_CANDIDATE.patch:13: trailing whitespace.\n+ \nudt_gr_filter_reconciliation_2026-09-09/documentation_closeout/STARTUP_CANDIDATE.patch:16: trailing whitespace.\n+ \nudt_gr_filter_reconciliation_2026-09-09/documentation_closeout/STARTUP_CANDIDATE.patch:26: trailing whitespace.\n+ \nudt_gr_filter_reconciliation_2026-09-09/documentation_closeout/STARTUP_CANDIDATE.patch:31: trailing whitespace.\n+ \nudt_gr_filter_reconciliation_2026-09-09/documentation_closeout/STARTUP_CANDIDATE.patch:35: trailing whitespace.\n+ \nudt_gr_filter_reconciliation_2026-09-09/documentation_closeout/STARTUP_CANDIDATE.patch:39: trailing whitespace.\n+ \nudt_gr_filter_reconciliation_2026-09-09/documentation_closeout/STARTUP_CANDIDATE.patch:54: trailing whitespace.\n+ \nudt_gr_filter_reconciliation_2026-09-09/documentation_closeout/STARTUP_CANDIDATE.patch:56: trailing whitespace.\n+ \nudt_gr_filter_reconciliation_2026-09-09/documentation_closeout/STARTUP_CANDIDATE.patch:68: trailing whitespace.\n+ \nudt_gr_filter_reconciliation_2026-09-09/documentation_closeout/STARTUP_CANDIDATE.patch:71: trailing whitespace.\n+ \nudt_gr_filter_reconciliation_2026-09-09/documentation_closeout/STARTUP_CANDIDATE.patch:89: trailing whitespace.\n+ \nudt_gr_filter_reconciliation_2026-09-09/documentation_closeout/STARTUP_CANDIDATE.patch:106: trailing whitespace.\n+ \nudt_gr_filter_reconciliation_2026-09-09/documentation_closeout/STARTUP_CANDIDATE.patch:127: trailing whitespace.\n+ \nudt_gr_filter_reconciliation_2026-09-09/documentation_closeout/STARTUP_CANDIDATE.patch:129: trailing whitespace.\n+ \n"
+      }
+    },
+    {
+      "cmd": "git diff --cached --check -- . ':(exclude)udt_gr_filter_reconciliation_2026-09-09/documentation_closeout/STARTUP_CANDIDATE.patch'",
+      "result": {
+        "chunk_id": "ae47c4",
+        "wall_time_seconds": 0.000002927,
+        "exit_code": 0,
+        "original_token_count": 0,
+        "output": ""
+      }
+    },
+    {
+      "cmd": "sha256sum -c udt_gr_filter_reconciliation_2026-09-09/documentation_closeout/EVIDENCE_SHA256SUMS",
+      "result": {
+        "chunk_id": "85176a",
+        "wall_time_seconds": 0.000002872,
+        "exit_code": 0,
+        "original_token_count": 1040,
+        "output": "LIVE.md: OK\nHANDOFF.md: OK\nCURRENT_RESEARCH_PROGRAM.md: OK\nCURRENT_SCIENTIFIC_PREMISES.md: OK\nMEMORY.md: OK\nINDEX.md: OK\nudt_gr_filter_reconciliation_2026-09-09/documentation_closeout/CLOSEOUT.md: OK\nudt_gr_filter_reconciliation_2026-09-09/documentation_closeout/EXECUTION_RECORD.md: OK\nudt_gr_filter_reconciliation_2026-09-09/documentation_closeout/STARTUP_CANDIDATE.patch: OK\nudt_gr_filter_reconciliation_2026-09-09/documentation_closeout/STARTUP_CANDIDATE_SHA256SUMS: OK\nudt_gr_filter_reconciliation_2026-09-09/documentation_closeout/STARTUP_PREMISE_AUDIT.json: OK\nudt_gr_filter_reconciliation_2026-09-09/documentation_closeout/WORK_ORDER.md: OK\nudt_gr_filter_reconciliation_2026-09-09/documentation_closeout/preservation_check.json: OK\nudt_gr_filter_reconciliation_2026-09-09/documentation_closeout/preservation_check.stderr: OK\nudt_gr_filter_reconciliation_2026-09-09/documentation_closeout/preservation_check.stdout: OK\nudt_gr_filter_reconciliation_2026-09-09/documentation_closeout/review/CHECK_CORRECTION.md: OK\nudt_gr_filter_reconciliation_2026-09-09/documentation_closeout/review/REPLACEMENT_REVIEW.md: OK\nudt_gr_filter_reconciliation_2026-09-09/documentation_closeout/review/REVIEW_SHA256SUMS: OK\nudt_gr_filter_reconciliation_2026-09-09/documentation_closeout/review/check_documentary_correspondence.py: OK\nudt_gr_filter_reconciliation_2026-09-09/documentation_closeout/review/current_guard_probes.json: OK\nudt_gr_filter_reconciliation_2026-09-09/documentation_closeout/review/current_guard_probes.stderr: OK\nudt_gr_filter_reconciliation_2026-09-09/documentation_closeout/review/current_guard_probes.stdout: OK\nudt_gr_filter_reconciliation_2026-09-09/documentation_closeout/review/current_transition_probes.json: OK\nudt_gr_filter_reconciliation_2026-09-09/documentation_closeout/review/current_transition_probes.stderr: OK\nudt_gr_filter_reconciliation_2026-09-09/documentation_closeout/review/current_transition_probes.stdout: OK\nudt_gr_filter_reconciliation_2026-09-09/documentation_closeout/review/documentary_correspondence.json: OK\nudt_gr_filter_reconciliation_2026-09-09/documentation_closeout/review/documentary_correspondence.stderr: OK\nudt_gr_filter_reconciliation_2026-09-09/documentation_closeout/review/documentary_correspondence.stdout: OK\nudt_gr_filter_reconciliation_2026-09-09/documentation_closeout/review/documentary_correspondence_corrected.json: OK\nudt_gr_filter_reconciliation_2026-09-09/documentation_closeout/review/documentary_correspondence_corrected.stderr: OK\nudt_gr_filter_reconciliation_2026-09-09/documentation_closeout/review/documentary_correspondence_corrected.stdout: OK\nudt_gr_filter_reconciliation_2026-09-09/documentation_closeout/review/frozen_candidate_guard_probes.json: OK\nudt_gr_filter_reconciliation_2026-09-09/documentation_closeout/review/frozen_candidate_guard_probes.stderr: OK\nudt_gr_filter_reconciliation_2026-09-09/documentation_closeout/review/frozen_candidate_guard_probes.stdout: OK\nudt_gr_filter_reconciliation_2026-09-09/documentation_closeout/review/parent_prose_finalization_pins.json: OK\nudt_gr_filter_reconciliation_2026-09-09/documentation_closeout/review/parent_prose_finalization_pins.stderr: OK\nudt_gr_filter_reconciliation_2026-09-09/documentation_closeout/review/parent_prose_finalization_pins.stdout: OK\nudt_gr_filter_reconciliation_2026-09-09/documentation_closeout/review/source_correspondence.json: OK\nudt_gr_filter_reconciliation_2026-09-09/documentation_closeout/review/source_correspondence.stderr: OK\nudt_gr_filter_reconciliation_2026-09-09/documentation_closeout/review/source_correspondence.stdout: OK\nudt_gr_filter_reconciliation_2026-09-09/documentation_closeout/review/startup_candidate_pins.json: OK\nudt_gr_filter_reconciliation_2026-09-09/documentation_closeout/review/startup_candidate_pins.stderr: OK\nudt_gr_filter_reconciliation_2026-09-09/documentation_closeout/review/startup_candidate_pins.stdout: OK\nudt_gr_filter_reconciliation_2026-09-09/documentation_closeout/startup_tests.json: OK\nudt_gr_filter_reconciliation_2026-09-09/documentation_closeout/startup_tests.stderr: OK\nudt_gr_filter_reconciliation_2026-09-09/documentation_closeout/startup_tests.stdout: OK\n"
+      }
+    },
+    {
+      "cmd": "git commit -m \"Close reconciliation review gap and align startup handoff\"",
+      "result": {
+        "chunk_id": "c9735f",
+        "wall_time_seconds": 0.000002746,
+        "exit_code": 0,
+        "original_token_count": 1228,
+        "output": "[grok bf7f6363] Close reconciliation review gap and align startup handoff\n 47 files changed, 2498 insertions(+), 11 deletions(-)\n create mode 100644 udt_gr_filter_reconciliation_2026-09-09/documentation_closeout/CLOSEOUT.md\n create mode 100644 udt_gr_filter_reconciliation_2026-09-09/documentation_closeout/EVIDENCE_SHA256SUMS\n create mode 100644 udt_gr_filter_reconciliation_2026-09-09/documentation_closeout/EXECUTION_RECORD.md\n create mode 100644 udt_gr_filter_reconciliation_2026-09-09/documentation_closeout/STARTUP_CANDIDATE.patch\n create mode 100644 udt_gr_filter_reconciliation_2026-09-09/documentation_closeout/STARTUP_CANDIDATE_SHA256SUMS\n create mode 100644 udt_gr_filter_reconciliation_2026-09-09/documentation_closeout/STARTUP_PREMISE_AUDIT.json\n create mode 100644 udt_gr_filter_reconciliation_2026-09-09/documentation_closeout/WORK_ORDER.md\n create mode 100644 udt_gr_filter_reconciliation_2026-09-09/documentation_closeout/preservation_check.json\n create mode 100644 udt_gr_filter_reconciliation_2026-09-09/documentation_closeout/preservation_check.stderr\n create mode 100644 udt_gr_filter_reconciliation_2026-09-09/documentation_closeout/preservation_check.stdout\n create mode 100644 udt_gr_filter_reconciliation_2026-09-09/documentation_closeout/review/CHECK_CORRECTION.md\n create mode 100644 udt_gr_filter_reconciliation_2026-09-09/documentation_closeout/review/REPLACEMENT_REVIEW.md\n create mode 100644 udt_gr_filter_reconciliation_2026-09-09/documentation_closeout/review/REVIEW_SHA256SUMS\n create mode 100644 udt_gr_filter_reconciliation_2026-09-09/documentation_closeout/review/check_documentary_correspondence.py\n create mode 100644 udt_gr_filter_reconciliation_2026-09-09/documentation_closeout/review/current_guard_probes.json\n create mode 100644 udt_gr_filter_reconciliation_2026-09-09/documentation_closeout/review/current_guard_probes.stderr\n create mode 100644 udt_gr_filter_reconciliation_2026-09-09/documentation_closeout/review/current_guard_probes.stdout\n create mode 100644 udt_gr_filter_reconciliation_2026-09-09/documentation_closeout/review/current_transition_probes.json\n create mode 100644 udt_gr_filter_reconciliation_2026-09-09/documentation_closeout/review/current_transition_probes.stderr\n create mode 100644 udt_gr_filter_reconciliation_2026-09-09/documentation_closeout/review/current_transition_probes.stdout\n create mode 100644 udt_gr_filter_reconciliation_2026-09-09/documentation_closeout/review/documentary_correspondence.json\n create mode 100644 udt_gr_filter_reconciliation_2026-09-09/documentation_closeout/review/documentary_correspondence.stderr\n create mode 100644 udt_gr_filter_reconciliation_2026-09-09/documentation_closeout/review/documentary_correspondence.stdout\n create mode 100644 udt_gr_filter_reconciliation_2026-09-09/documentation_closeout/review/documentary_correspondence_corrected.json\n create mode 100644 udt_gr_filter_reconciliation_2026-09-09/documentation_closeout/review/documentary_correspondence_corrected.stderr\n create mode 100644 udt_gr_filter_reconciliation_2026-09-09/documentation_closeout/review/documentary_correspondence_corrected.stdout\n create mode 100644 udt_gr_filter_reconciliation_2026-09-09/documentation_closeout/review/frozen_candidate_guard_probes.json\n create mode 100644 udt_gr_filter_reconciliation_2026-09-09/documentation_closeout/review/frozen_candidate_guard_probes.stderr\n create mode 100644 udt_gr_filter_reconciliation_2026-09-09/documentation_closeout/review/frozen_candidate_guard_probes.stdout\n create mode 100644 udt_gr_filter_reconciliation_2026-09-09/documentation_closeout/review/parent_prose_finalization_pins.json\n create mode 100644 udt_gr_filter_reconciliation_2026-09-09/documentation_closeout/review/parent_prose_finalization_pins.stderr\n create mode 100644 udt_gr_filter_reconciliation_2026-09-09/documentation_closeout/review/parent_prose_finalization_pins.stdout\n create mode 100644 udt_gr_filter_reconciliation_2026-09-09/documentation_closeout/review/source_correspondence.json\n create mode 100644 udt_gr_filter_reconciliation_2026-09-09/documentation_closeout/review/source_correspondence.stderr\n create mode 100644 udt_gr_filter_reconciliation_2026-09-09/documentation_closeout/review/source_correspondence.stdout\n create mode 100644 udt_gr_filter_reconciliation_2026-09-09/documentation_closeout/review/startup_candidate_pins.json\n create mode 100644 udt_gr_filter_reconciliation_2026-09-09/documentation_closeout/review/startup_candidate_pins.stderr\n create mode 100644 udt_gr_filter_reconciliation_2026-09-09/documentation_closeout/review/startup_candidate_pins.stdout\n create mode 100644 udt_gr_filter_reconciliation_2026-09-09/documentation_closeout/startup_tests.json\n create mode 100644 udt_gr_filter_reconciliation_2026-09-09/documentation_closeout/startup_tests.stderr\n create mode 100644 udt_gr_filter_reconciliation_2026-09-09/documentation_closeout/startup_tests.stdout\n"
+      }
+    },
+    {
+      "cmd": "git push origin grok",
+      "result": {
+        "chunk_id": "1daa28",
+        "wall_time_seconds": 1.001053204,
+        "session_id": 41853,
+        "original_token_count": 0,
+        "output": ""
+      }
+    },
+    {
+      "operation": "poll evidence push",
+      "result": {
+        "chunk_id": "624873",
+        "wall_time_seconds": 0.000001911,
+        "exit_code": 0,
+        "original_token_count": 23,
+        "output": "To https://github.com/charlesrotter/udt_mass_codex.git\n   450d987e..bf7f6363  grok -> grok\n"
+      }
+    },
+    {
+      "cmd": "git ls-remote origin refs/heads/grok",
+      "result": {
+        "chunk_id": "8b03ef",
+        "wall_time_seconds": 0.256278994,
+        "exit_code": 0,
+        "original_token_count": 15,
+        "output": "bf7f636358a347ba70f208c17708e38fcf4e5354\trefs/heads/grok\n"
+      }
+    },
+    {
+      "cmd": "python3 -B -c 'import hashlib,json,subprocess; s=subprocess.check_output([\"git\",\"status\",\"--porcelain=v1\"],text=True).splitlines(); assert all(x.startswith(\"?? \") for x in s), \"tracked dirt\"; h=hashlib.sha256(\"\\n\".join(sorted(s)).encode()).hexdigest(); assert len(s)==46 and h==\"d65d71d63a56b95aabfd61f33317b1f1f2b2a62a85ded8258c525b99a5e156ea\"; print(json.dumps({\"tracked_clean\":True,\"unrelated_untracked_entries\":len(s),\"names_sha256\":h,\"protected_payloads\":\"NOT_INSPECTED\"},indent=2))'",
+      "result": {
+        "chunk_id": "323fff",
+        "wall_time_seconds": 0.000003318,
+        "exit_code": 0,
+        "original_token_count": 48,
+        "output": "{\n  \"tracked_clean\": true,\n  \"unrelated_untracked_entries\": 46,\n  \"names_sha256\": \"d65d71d63a56b95aabfd61f33317b1f1f2b2a62a85ded8258c525b99a5e156ea\",\n  \"protected_payloads\": \"NOT_INSPECTED\"\n}\n"
+      }
+    }
+  ]
+}
