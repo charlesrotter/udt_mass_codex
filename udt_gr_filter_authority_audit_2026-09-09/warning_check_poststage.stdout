@@ -1,0 +1,18 @@
+{
+  "status": "PASS_WARNING_BYTE_CORRESPONDENCE",
+  "final_warning_hashes": {
+    "LIVE.md": "343851056b0593727444cce57f7c4d3d46afc498f880c79c16bb7552740c1a1a",
+    "HANDOFF.md": "307e8762495d419c9b319183f5092ad5c045e07cab49d86946fcaf18dbe4d740",
+    "CURRENT_RESEARCH_PROGRAM.md": "b633bd243892fda33e4645d46ddebc578fa615be6644381584d46f576868585b",
+    "CURRENT_SCIENTIFIC_PREMISES.md": "7473aca29586967633a653089d391f8a21bffd6c068a82ff7381f7a37c708e8f",
+    "MEMORY.md": "09a4372297639a3c365d2b129630f5275e7b7bc7c8a7d4bb213b6a72fb978140",
+    "INDEX.md": "e7615e04f50ef47968e99833262e08054a7c7ad8c86f5d2422954eb74bd27dcc"
+  },
+  "changed_in_focused_repair": [
+    "CURRENT_SCIENTIFIC_PREMISES.md"
+  ],
+  "reconstruction": "POST_HOC; matches independently observed initial digest; not an original capture",
+  "reconstructed_sha256": "652e34ae796b19d0c76d278e7c14a661eca4947dcb5ae9db2f5b4e0f5e6ef4ab",
+  "source_first_seal_unchanged": true,
+  "semantic_assessment": "DIRECT_REVIEW.md; hashes do not prove fidelity"
+}

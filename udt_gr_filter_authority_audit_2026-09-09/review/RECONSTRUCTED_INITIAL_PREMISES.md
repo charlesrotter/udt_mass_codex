@@ -30,7 +30,7 @@ see `udt_gr_filter_authority_audit_2026-09-09/REVIEWED_AUDIT.md`. No theorem is 
 | Continuous clock-rate readout | `OWNER_ADOPTED_PROVISIONAL_PREMISE` (G352) | On chosen phase/product realization, `T_clock=R A^-1` | Atomic rate, physical object, sources, population, light/energy |
 
 Universal Reciprocity/DDR: one postulate with two formulations, not a derivation.
-Angular-sector cancellation alone owns loud--quiet--loud. Pair `c_eff` is a `CONDITIONAL` ratio, not automatically signal speed.
+Angular-sector cancellation alone owns loud--quiet--loud. Pair `c_eff` is a `CONDITIONAL` ratio, not signal speed.
 `X_max` is a working asymptotic global-completion consequence target, never a local input, wall,
 center, or scale. Strong local CSN is `CHALLENGED_OWNER_POSTULATE_NOT_DERIVED` and inactive.
 
@@ -123,8 +123,8 @@ justified instrument/transfer assumptions without an admitted sourced law; none 
 | EH action | CONDITIONAL_NOT_SELECTED | Familiarity is not derivation |
 | Native source/action/mass | OPEN | No physical adoption |
 
-Pullbacks plus the bivector area bilinear can recover `g`; scalar data stop at its positive conformal class.
-Scopes/assumptions/positivity/recipes/reviews control; tables aren't proofs.
+Pullbacks and bivector area recover `g`; scalar data stop at its positive conformal class.
+Source scopes/assumptions/positivity/recipes/reviews control; tables navigate, not prove.
 GOCE PARKED, eligibility UNRESOLVED/OPEN, enquiry UNSENT; GW procedure parked.
 No successor is authorized; stop for lay discussion. Backup completeness/pre-reboot unsaved state
 remain UNVERIFIED; ScratchDisk blocks only archive-dependent work.

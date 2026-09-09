@@ -17,10 +17,13 @@ only with metric-causal observable response.
 
 Universal Reciprocity/DDR is one postulate with two formulations,
 OWNER_ADOPTED_PROVISIONAL_POSTULATE (2026-08-31), not derived or canonized.
-G312 premises are owner-adopted provisionally. Quiet-GR response and Local Metric Sufficiency
-give `Ric(g)=Lambda g` in their bounded multibranch Einstein arena, with connected constant Lambda.
-The scalar concerns Ricci curvature, not all remaining geometry: Weyl/tidal and initial data remain free.
-The metric, kernel and adopted equation are unchanged; angular-sector cancellation owns loud--quiet--loud.
+Charles's 2026-09-09 clarification: GR is a comparison filter, not a response-law input;
+Local Metric Sufficiency is affirmed. AUTHORITY WARNING: G312's stronger GR-principal adoption
+and inherited “admitted/lawful” shorthand below require qualification; see
+`udt_gr_filter_authority_audit_2026-09-09/REVIEWED_AUDIT.md`.
+The multibranch Einstein arena `Ric(g)=Lambda g` remains CONDITIONAL on its full reviewed premises,
+not established from filter-only GR. Registry/guard reconciliation is PENDING; exact grades stay fixed.
+Metric/kernel and mathematics are unchanged; angular-sector cancellation owns loud--quiet--loud.
 `X_max` remains WORKING/OPEN global completion, never a local input, wall, center or selected scale.
 
 ### Current frontier
@@ -60,21 +63,19 @@ or recovered, and NT1 lost buffers/unsnapshotted initial reviewer code. HB2/HB3 
 The fixed through-G352 manuscript is an earlier edition, not current tracking.
 
 NR1--NR2/LG1--LG2/LE1/SE1/NE1: reviewed UNPROMOTED; exact scopes/reviews: `INDEX.md`.
-Predecessors: compact tangents, restricted localization and local curvature behavior.
 NE1: fading profile with cumulative marked-area-rate/tidal departure in one exact polarized family.
 Supplied data/marking and conditional methods; no genericity, stability/content.
 Full365 NOT_PASSED at G325 replay; no banking/integration.
 
 ### Distinctions for the direction discussion
 
-G313/G314 already retain scalar sectors, other geometric freedom and legitimate supplied initial data;
-a unique-history selector is a stronger optional ambition, not required for conditional field theory.
+G313/G314 retain scalar sectors; Weyl/tidal and initial data remain free;
+unique-history selection is optional, not required for conditional field theory.
 G374/G375 restrict position-dependent rescaling on a fixed base but retain constant rescaling:
 `g_hat=a^-2 g, Lambda_hat=a^2 Lambda, a>0`. No physical size or absolute scale is selected.
 A separately fixed target scalar restricts that rescaling; its value is supplied, not derived.
-Carried measure, population of configurations and selection of a complete history are different questions;
-“occupancy” names no additional law here. A successor must identify an unexamined admitted implication,
-not repeat existing scalar/source nonselection.
+Carried measure, configuration population and history selection differ; “occupancy” supplies no law.
+A successor must identify an unexamined admitted implication, not repeat scalar/source nonselection.
 
 Geometric theory/calibration and possible emergence remain parallel, neither prerequisite.
 Conditional measurement models require explicit justified transfer/instrument assumptions;

@@ -4,8 +4,11 @@
 `CURRENT_RESEARCH_PROGRAM.md` is the dependency spine and `INDEX.md` the evidence map.
 
 The kernel evaluates supplied ordered depth; complete `B,Q,S,Y,Z` enters before readout.
-Universal Reciprocity/DDR and G312 quiet-GR/Local Metric Sufficiency are
-owner-adopted provisional premises, not derivation or canon; the equation is unchanged.
+Universal Reciprocity/DDR and explained Local Metric Sufficiency remain owner-adopted provisional premises.
+AUTHORITY WARNING: Charles's 2026-09-09 GR clarification is FILTER ONLY, not a response-law input.
+G312's stronger ownership and registry/guard reconciliation are PENDING; Einstein claims stay
+CONDITIONAL on full reviewed premises, not established from filter-only GR. No mathematical regrading.
+See `udt_gr_filter_authority_audit_2026-09-09/REVIEWED_AUDIT.md`.
 G313--G337 provide a multibranch arena with legitimate free initial data, not a selected universe.
 G338--G349 provide metric geometry, not physical carried content or detector laws.
 G350 leaves `R^p A^q`; G351 provisionally conserves a supplied label measure, giving
@@ -17,9 +20,7 @@ G381=NT1 precedes G382=NT2: tidal-neighborhood obstruction and restricted real n
 with actual local Lambda=0 realizations; not general metric realization or physical modes.
 Original candidate/review bytes, false passes, repairs and lost-output caveats stay fixed.
 HB2/HB3 and BI2/BI3 remain UNPROMOTED; three CD vacuous checks remain EXCLUDED.
-NR1--NR2 and latest LG1--LG2 are reviewed UNPROMOTED candidates; see INDEX.
-NR keeps compact mixed-C2/analytic-local limits; LG adds restricted 3D localization,
-conditional on smooth methods, symmetry/smallness and repaired interface—not stability/content.
+NR/LG/LE1/SE1/NE1 are reviewed UNPROMOTED; INDEX owns full scopes/reviews, not stability/content.
 Full365 NOT_PASSED at G325 replay; no new banking.
 
 Keep the corrections explicit:

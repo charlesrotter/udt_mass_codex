@@ -1,0 +1,16 @@
+{
+  "command": [
+    "python3",
+    "-B",
+    "udt_gr_filter_authority_audit_2026-09-09/check_audit.py",
+    "--freeze-pins"
+  ],
+  "cwd": "/home/udt-admin/udt_mass_codex",
+  "started_utc": "2026-09-09T20:58:50.817979+00:00",
+  "duration_seconds": 0.19282349798595533,
+  "returncode": 0,
+  "timeout": false,
+  "address_space_bytes": 536870912,
+  "cpu_seconds": 60,
+  "maxrss_kib": 18444
+}

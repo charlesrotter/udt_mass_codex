@@ -1,0 +1,96 @@
+udt_gr_filter_authority_audit_2026-09-09/review/FINAL_WARNING_DIFF.patch:8: trailing whitespace.
++ 
+udt_gr_filter_authority_audit_2026-09-09/review/FINAL_WARNING_DIFF.patch:21: trailing whitespace.
++ 
+udt_gr_filter_authority_audit_2026-09-09/review/FINAL_WARNING_DIFF.patch:23: trailing whitespace.
++ 
+udt_gr_filter_authority_audit_2026-09-09/review/FINAL_WARNING_DIFF.patch:31: trailing whitespace.
++ 
+udt_gr_filter_authority_audit_2026-09-09/review/FINAL_WARNING_DIFF.patch:35: trailing whitespace.
++ 
+udt_gr_filter_authority_audit_2026-09-09/review/FINAL_WARNING_DIFF.patch:40: trailing whitespace.
++ 
+udt_gr_filter_authority_audit_2026-09-09/review/FINAL_WARNING_DIFF.patch:46: trailing whitespace.
++ 
+udt_gr_filter_authority_audit_2026-09-09/review/FINAL_WARNING_DIFF.patch:61: trailing whitespace.
++ 
+udt_gr_filter_authority_audit_2026-09-09/review/FINAL_WARNING_DIFF.patch:63: trailing whitespace.
++ 
+udt_gr_filter_authority_audit_2026-09-09/review/FINAL_WARNING_DIFF.patch:72: trailing whitespace.
++ 
+udt_gr_filter_authority_audit_2026-09-09/review/FINAL_WARNING_DIFF.patch:80: trailing whitespace.
++ 
+udt_gr_filter_authority_audit_2026-09-09/review/FINAL_WARNING_DIFF.patch:82: trailing whitespace.
++ 
+udt_gr_filter_authority_audit_2026-09-09/review/FINAL_WARNING_DIFF.patch:84: trailing whitespace.
++ 
+udt_gr_filter_authority_audit_2026-09-09/review/FINAL_WARNING_DIFF.patch:94: trailing whitespace.
++ 
+udt_gr_filter_authority_audit_2026-09-09/review/FINAL_WARNING_DIFF.patch:101: trailing whitespace.
++ 
+udt_gr_filter_authority_audit_2026-09-09/review/FINAL_WARNING_DIFF.patch:105: trailing whitespace.
++ 
+udt_gr_filter_authority_audit_2026-09-09/review/FINAL_WARNING_DIFF.patch:112: trailing whitespace.
++ 
+udt_gr_filter_authority_audit_2026-09-09/review/FINAL_WARNING_DIFF.patch:124: trailing whitespace.
++ 
+udt_gr_filter_authority_audit_2026-09-09/review/FINAL_WARNING_DIFF.patch:126: trailing whitespace.
++ 
+udt_gr_filter_authority_audit_2026-09-09/review/FINAL_WARNING_DIFF.patch:130: trailing whitespace.
++ 
+udt_gr_filter_authority_audit_2026-09-09/review/FINAL_WARNING_DIFF.patch:157: trailing whitespace.
++ 
+udt_gr_filter_authority_audit_2026-09-09/review/FINAL_WARNING_DIFF.patch:165: trailing whitespace.
++ 
+udt_gr_filter_authority_audit_2026-09-09/review/FINAL_WARNING_DIFF.patch:171: trailing whitespace.
++ 
+udt_gr_filter_authority_audit_2026-09-09/review/FINAL_WARNING_DIFF.patch:179: trailing whitespace.
++ 
+udt_gr_filter_authority_audit_2026-09-09/review/FINAL_WARNING_DIFF.patch:194: trailing whitespace.
++ 
+udt_gr_filter_authority_audit_2026-09-09/review/FINAL_WARNING_DIFF.patch:198: trailing whitespace.
++ 
+udt_gr_filter_authority_audit_2026-09-09/review/FINAL_WARNING_DIFF.patch:204: trailing whitespace.
++ 
+udt_gr_filter_authority_audit_2026-09-09/review/FINAL_WARNING_DIFF.patch:206: trailing whitespace.
++ 
+udt_gr_filter_authority_audit_2026-09-09/review/FINAL_WARNING_DIFF.patch:219: trailing whitespace.
++ 
+udt_gr_filter_authority_audit_2026-09-09/review/FINAL_WARNING_DIFF.patch:228: trailing whitespace.
++ 
+udt_gr_filter_authority_audit_2026-09-09/review/FINAL_WARNING_DIFF.patch:249: trailing whitespace.
++ 
+udt_gr_filter_authority_audit_2026-09-09/startup_tests_after_warning.stdout:167: trailing whitespace.
++tests/test_startup_surface.py:631: 
+udt_gr_filter_authority_audit_2026-09-09/startup_tests_after_warning.stdout:168: trailing whitespace.
++_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+udt_gr_filter_authority_audit_2026-09-09/startup_tests_after_warning.stdout:171: trailing whitespace.
++_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+udt_gr_filter_authority_audit_2026-09-09/startup_tests_after_warning.stdout:477: trailing whitespace.
++tests/test_startup_surface.py:768: 
+udt_gr_filter_authority_audit_2026-09-09/startup_tests_after_warning.stdout:478: trailing whitespace.
++_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+udt_gr_filter_authority_audit_2026-09-09/startup_tests_after_warning.stdout:1380: trailing whitespace.
++tests/test_startup_surface.py:1256: 
+udt_gr_filter_authority_audit_2026-09-09/startup_tests_after_warning.stdout:1381: trailing whitespace.
++_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+udt_gr_filter_authority_audit_2026-09-09/startup_tests_final_warning.stdout:167: trailing whitespace.
++tests/test_startup_surface.py:631: 
+udt_gr_filter_authority_audit_2026-09-09/startup_tests_final_warning.stdout:168: trailing whitespace.
++_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+udt_gr_filter_authority_audit_2026-09-09/startup_tests_final_warning.stdout:171: trailing whitespace.
++_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+udt_gr_filter_authority_audit_2026-09-09/startup_tests_final_warning.stdout:477: trailing whitespace.
++tests/test_startup_surface.py:768: 
+udt_gr_filter_authority_audit_2026-09-09/startup_tests_final_warning.stdout:478: trailing whitespace.
++_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+udt_gr_filter_authority_audit_2026-09-09/startup_tests_repaired_warning.stdout:167: trailing whitespace.
++tests/test_startup_surface.py:631: 
+udt_gr_filter_authority_audit_2026-09-09/startup_tests_repaired_warning.stdout:168: trailing whitespace.
++_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+udt_gr_filter_authority_audit_2026-09-09/startup_tests_repaired_warning.stdout:171: trailing whitespace.
++_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+udt_gr_filter_authority_audit_2026-09-09/startup_tests_repaired_warning.stdout:477: trailing whitespace.
++tests/test_startup_surface.py:768: 
+udt_gr_filter_authority_audit_2026-09-09/startup_tests_repaired_warning.stdout:478: trailing whitespace.
++_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 

@@ -1,0 +1,250 @@
+diff --git a/CURRENT_RESEARCH_PROGRAM.md b/CURRENT_RESEARCH_PROGRAM.md
+index d6a37d83..87687470 100644
+--- a/CURRENT_RESEARCH_PROGRAM.md
++++ b/CURRENT_RESEARCH_PROGRAM.md
+@@ -21,11 +21,13 @@ chi_AB=tanh(delta_AB)
+ h=Y^T B^T eta_2 B Y +(S Y+Z)^T Q^T Q(S Y+Z)
+ ```
+ 
+-W5 makes complete projective state physical normalized pair position provisionally. W6 permits
+-nonpropagating co-presence only with metric-causal response. Universal Reciprocity/DDR and G312's
+-quiet-GR response plus Local Metric Sufficiency are owner-adopted provisional premises, not
+-derivations or canon. In the bounded vacuum response arena they give trace-free Ricci with one
+-connected scalar. None supplies population, realized history, matter, absolute scale, or `X_max`.
++W5 provisionally identifies projective pair position; W6 requires metric-causal response.
++Universal Reciprocity/DDR and explained Local Metric Sufficiency remain provisional, not derived/canon.
++Charles's 2026-09-09 clarification makes GR a FILTER ONLY, not a response-law input.
++AUTHORITY WARNING: every Einstein-arena statement below is conditional on the full reviewed premises,
++not established from filter-only GR. G312 ownership and registry/guard reconciliation are PENDING:
++`udt_gr_filter_authority_audit_2026-09-09/REVIEWED_AUDIT.md`. Exact grades/math remain unchanged.
++Population, realized history, matter, absolute scale and `X_max` remain unselected.
+ 
+ ## Dependency spine
+ 
+@@ -72,7 +74,7 @@ G314 separates conditional field theory with supplied data from optional unique-
+ The connected scalar fixes only the Ricci sector; Weyl/tidal geometry and initial data remain free.
+ G374/G375 restrict position-dependent conformal factors on a FIXED base/domain, not overall scale:
+ `g_hat=a^-2 g, Lambda_hat=a^2 Lambda, a>0`. Fixed-target restrictions and positivity remain.
+-No new “scalar selection” campaign is justified merely by repeating the same examined premises.
++Do not repeat completed scalar nonselection.
+ Carried measure, configuration population and history selection are distinct; “occupancy” is not a law.
+ 
+ G372/G373 go beyond reconstruction: independently supplied restricted density/phase data and geometry
+@@ -95,7 +97,6 @@ realization. Free profiles, supplied future frame/slice and lost-buffer/unsnapsh
+ `INDEX.md` links exact banking and original evidence.
+ 
+ NR1--NR2/LG1--LG2/LE1/SE1/NE1: reviewed UNPROMOTED; INDEX owns scopes/reviews.
+-Predecessors: compact tangents, localization, local curvature behavior.
+ NE1: profile decay with cumulative marked-area/tidal departure; exact polarized family.
+ No genericity/stability/content.
+ 
+diff --git a/CURRENT_SCIENTIFIC_PREMISES.md b/CURRENT_SCIENTIFIC_PREMISES.md
+index d3d04410..9ff574a2 100644
+--- a/CURRENT_SCIENTIFIC_PREMISES.md
++++ b/CURRENT_SCIENTIFIC_PREMISES.md
+@@ -2,9 +2,15 @@
+ 
+ `LIVE.md` owns current status. The exact 365-row `CURRENT_SCIENTIFIC_PREMISES.tsv` owns grades;
+ run `python3 verify_current_scientific_premises.py` before querying exact rows.
+-Conditional banking through G382 is COMPLETE, VERIFIED-WITH-CAVEATS at exact reviewed scopes.
+-Whole sources/reviews control; paths: `INDEX.md`.
+-Grades, premises, canon and the fixed through-G352 manuscript are unchanged.
++Banking through G382 is COMPLETE, VERIFIED-WITH-CAVEATS at reviewed conditional scopes.
++Sources/reviews: `INDEX.md`.
++Exact grades, original evidence, canon and fixed manuscript are preserved; authority warning follows.
++
++AUTHORITY WARNING (2026-09-09): Charles affirms reciprocity/local sufficiency, but GR is FILTER ONLY.
++G312's stronger GR-principal input is not authorized as a response-law constructor by that clarification.
++Einstein-arena claims remain CONDITIONAL on their full reviewed premises, not established from filter-only GR.
++The exact registry's stronger ownership wording and guards await coordinated reconciliation;
++see `udt_gr_filter_authority_audit_2026-09-09/REVIEWED_AUDIT.md`. No theorem is regraded here.
+ 
+ ## Foundational and adopted layer
+ 
+@@ -19,13 +25,12 @@ Grades, premises, canon and the fixed through-G352 manuscript are unchanged.
+ | W5 projective position | `WORKING_FOUNDATIONAL_CLARIFICATION` | Complete projective relation state | Scale/history/`X_max` |
+ | W6 co-presence | `WORKING_FOUNDATIONAL_CLARIFICATION` | Nonpropagating membership with metric-causal response | Population/history |
+ | Universal Reciprocity / Differential Dual Reciprocity | `OWNER_ADOPTED_PROVISIONAL_POSTULATE` | Bounded G310 trace-free response | Extension and canon |
+-| Quiet-GR response; Local Metric Sufficiency | `OWNER_ADOPTED_PROVISIONAL_POSTULATES` (G312) | Bounded local response constitution | Matter/history/canon |
++| G312 recorded premises | Historical `OWNER_ADOPTED_PROVISIONAL_POSTULATES` | Local Metric Sufficiency affirmed; stronger GR ownership under warning above | Registry/guard reconciliation |
+ | Source-free label-measure conservation | `OWNER_ADOPTED_PROVISIONAL_PREMISE` (G351) | Countably additive measure; inverse-area regular density | `p`, sources, population, light/cross-label physics |
+ | Continuous clock-rate readout | `OWNER_ADOPTED_PROVISIONAL_PREMISE` (G352) | On chosen phase/product realization, `T_clock=R A^-1` | Atomic rate, physical object, sources, population, light/energy |
+ 
+-Universal Reciprocity is the plain-language postulate and DDR its tested curvature-level
+-formulation: one postulate with two formulations, not a derivation. Angular-sector cancellation
+-alone owns loud--quiet--loud. Pair `c_eff` is a `CONDITIONAL` ratio, not automatically signal speed.
++Universal Reciprocity/DDR: one postulate with two formulations, not a derivation.
++Angular-sector cancellation alone owns loud--quiet--loud. Pair `c_eff` is a `CONDITIONAL` ratio, not automatically signal speed.
+ `X_max` is a working asymptotic global-completion consequence target, never a local input, wall,
+ center, or scale. Strong local CSN is `CHALLENGED_OWNER_POSTULATE_NOT_DERIVED` and inactive.
+ 
+@@ -74,16 +79,15 @@ center, or scale. Strong local CSN is `CHALLENGED_OWNER_POSTULATE_NOT_DERIVED` a
+ 
+ ## Scope corrections and retained limits
+ 
+-G313/G314: `Ric(g)=Lambda g` does not determine the whole metric up to one constant.
+-Positive/zero/negative scalar sectors, Weyl/tidal freedom and legitimate initial data remain;
+-a unique-history selector is a stronger optional ambition, not a required missing law.
++G313/G314: `Ric(g)=Lambda g` retains all scalar signs, Weyl/tidal freedom and legitimate initial data;
++unique-history selection is optional, not a required missing law.
+ G374/G375 restrict variable conformal factors on a FIXED supplied base/local positive domain,
+ but `g_hat=a^-2 g, Lambda_hat=a^2 Lambda, a>0` remains possible when the target may change.
+ A separately fixed target constrains rescaling; its value is supplied, not derived.
+ G131 reduced blindness is not completed G176/G180 tape/depth blindness.
+ 
+-G372/G373 establish restricted independently seeded data and actual LOCAL REAL ANALYTIC joint
+-development with original-product matching, not only reconstruction from a finished metric.
++G372/G373: restricted independently seeded data and actual LOCAL REAL ANALYTIC joint
++development with original-product matching, not merely metric reconstruction.
+ Their source law remains OPTIONAL UNADOPTED, branch PAUSED; three vacuous checks remain EXCLUDED.
+ No smooth well-posedness, physical identification, stability or UDT coupling selection follows.
+ 
+@@ -93,18 +97,17 @@ Preserving examples remain; no generic failure, topology change, physical instab
+ Automatic Hopfion-stabilization identification PAUSED; CF2 reviewer buffers remain LOST, not recovered.
+ G376 banked only required BI1; HB2/HB3 and BI2/BI3 remain UNPROMOTED.
+ 
+-G381=NT1 precedes G382=NT2 in the accepted conditional chain. Full slot/connection corrections,
++G381=NT1 precedes G382=NT2 conditionally. Full slot/connection corrections,
+ finite-jet limits, NONZERO REAL rank-one class, all-Lambda necessity versus actual smooth LOCAL
+ Lambda=0 realization, free profiles and initial frame/slice/K conditions remain.
+ Original false passes/repairs, NT1 lost buffers and unsnapshotted initial reviewer code stay disclosed.
+ Models UNKNOWN; other review limitations remain.
+ 
+-G351 conservation is owner-provisional, not metric-derived physical content; singular measure has
+-no ordinary density exponent. G352's `p=1` belongs only to the chosen continuous readout, not atomic
+-counts or light/energy. Carried measure, population of configurations and history selection differ.
+-Geometric/calibration and emergence aims remain parallel. Explicit justified transfer/instrument
+-assumptions can support conditional measurements without first adopting a sourced metric law;
+-no measurement assumption, source law or physical identity is adopted here.
++G351 conservation is owner-provisional; singular measure has no ordinary density exponent.
++G352's `p=1` is chosen-readout-specific, not atomic counts or light/energy.
++Carried measure, configuration population and history selection differ.
++Geometric/calibration and emergence aims remain parallel. Conditional measurements can use explicit
++justified instrument/transfer assumptions without an admitted sourced law; none is adopted here.
+ 
+ ## Scale, carrier, action, and observations
+ 
+@@ -120,9 +123,8 @@ no measurement assumption, source law or physical identity is adopted here.
+ | EH action | CONDITIONAL_NOT_SELECTED | Familiarity is not derivation |
+ | Native source/action/mass | OPEN | No physical adoption |
+ 
+-Pullbacks plus the bivector area bilinear can recover `g`; scalar data stop at the positive
+-conformal class. Source-local quantifiers, assumptions, positivity, recipes and reviews control;
+-these tables are navigation, not replacement theorems.
++Pullbacks plus the bivector area bilinear can recover `g`; scalar data stop at its positive conformal class.
++Scopes/assumptions/positivity/recipes/reviews control; tables aren't proofs.
+ GOCE PARKED, eligibility UNRESOLVED/OPEN, enquiry UNSENT; GW procedure parked.
+ No successor is authorized; stop for lay discussion. Backup completeness/pre-reboot unsaved state
+ remain UNVERIFIED; ScratchDisk blocks only archive-dependent work.
+diff --git a/HANDOFF.md b/HANDOFF.md
+index 479e32a9..33de56b6 100644
+--- a/HANDOFF.md
++++ b/HANDOFF.md
+@@ -13,9 +13,13 @@ Complete `B,Q,S,Y,Z` enters `h=F^*g` before readout. Completed-pair Dual Recipro
+ WORKING_FOUNDATIONAL_CLARIFICATION; W5/W6 do not select population or history.
+ Universal Reciprocity/DDR is one postulate with two formulations,
+ OWNER_ADOPTED_PROVISIONAL_POSTULATE (2026-08-31), not derived or canonized.
+-G312 premises are owner-adopted provisionally. Quiet-GR/Local Metric Sufficiency gives the
+-bounded multibranch Einstein arena; angular-sector cancellation owns loud--quiet--loud.
+-Metric, kernel and equation are unchanged. One Ricci scalar does not exhaust free geometry/data.
++Charles's 2026-09-09 GR clarification is FILTER ONLY; Local Metric Sufficiency is affirmed.
++AUTHORITY WARNING: G312's stronger GR-principal input and inherited “admitted/lawful” shorthand
++need qualification; the multibranch Einstein arena remains CONDITIONAL on its full reviewed premises.
++Registry/guard reconciliation is PENDING; exact grades and mathematical results remain unchanged.
++See `udt_gr_filter_authority_audit_2026-09-09/REVIEWED_AUDIT.md`.
++Metric/kernel are unchanged; angular-sector cancellation owns loud--quiet--loud.
++One Ricci scalar does not exhaust free geometry/data.
+ 
+ G351's owner-provisional finite nonnegative countably additive label measure gives
+ `R^p A^-1` for nonzero absolutely continuous regular density, leaving `p` free.
+diff --git a/INDEX.md b/INDEX.md
+index 636836fd..5ecf9060 100644
+--- a/INDEX.md
++++ b/INDEX.md
+@@ -2,6 +2,9 @@
+ 
+ Banking through G382 is COMPLETE at reviewed conditional scopes; no successor is authorized.
+ The exact 365-row `CURRENT_SCIENTIFIC_PREMISES.tsv` owns grades, not these pointers.
++AUTHORITY WARNING: Charles's GR clarification is FILTER ONLY; stronger G312 ownership and
++registry/guard reconciliation are PENDING. Mathematical scopes/grades remain fixed.
++Current audit: `udt_gr_filter_authority_audit_2026-09-09/REVIEWED_AUDIT.md`.
+ 
+ 1. Follow `AGENTS.md`.
+ 2. Read the current blocks in `LIVE.md` and `HANDOFF.md`.
+diff --git a/LIVE.md b/LIVE.md
+index 435abbe2..d8c835dc 100644
+--- a/LIVE.md
++++ b/LIVE.md
+@@ -17,10 +17,13 @@ only with metric-causal observable response.
+ 
+ Universal Reciprocity/DDR is one postulate with two formulations,
+ OWNER_ADOPTED_PROVISIONAL_POSTULATE (2026-08-31), not derived or canonized.
+-G312 premises are owner-adopted provisionally. Quiet-GR response and Local Metric Sufficiency
+-give `Ric(g)=Lambda g` in their bounded multibranch Einstein arena, with connected constant Lambda.
+-The scalar concerns Ricci curvature, not all remaining geometry: Weyl/tidal and initial data remain free.
+-The metric, kernel and adopted equation are unchanged; angular-sector cancellation owns loud--quiet--loud.
++Charles's 2026-09-09 clarification: GR is a comparison filter, not a response-law input;
++Local Metric Sufficiency is affirmed. AUTHORITY WARNING: G312's stronger GR-principal adoption
++and inherited “admitted/lawful” shorthand below require qualification; see
++`udt_gr_filter_authority_audit_2026-09-09/REVIEWED_AUDIT.md`.
++The multibranch Einstein arena `Ric(g)=Lambda g` remains CONDITIONAL on its full reviewed premises,
++not established from filter-only GR. Registry/guard reconciliation is PENDING; exact grades stay fixed.
++Metric/kernel and mathematics are unchanged; angular-sector cancellation owns loud--quiet--loud.
+ `X_max` remains WORKING/OPEN global completion, never a local input, wall, center or selected scale.
+ 
+ ### Current frontier
+@@ -60,21 +63,19 @@ or recovered, and NT1 lost buffers/unsnapshotted initial reviewer code. HB2/HB3
+ The fixed through-G352 manuscript is an earlier edition, not current tracking.
+ 
+ NR1--NR2/LG1--LG2/LE1/SE1/NE1: reviewed UNPROMOTED; exact scopes/reviews: `INDEX.md`.
+-Predecessors: compact tangents, restricted localization and local curvature behavior.
+ NE1: fading profile with cumulative marked-area-rate/tidal departure in one exact polarized family.
+ Supplied data/marking and conditional methods; no genericity, stability/content.
+ Full365 NOT_PASSED at G325 replay; no banking/integration.
+ 
+ ### Distinctions for the direction discussion
+ 
+-G313/G314 already retain scalar sectors, other geometric freedom and legitimate supplied initial data;
+-a unique-history selector is a stronger optional ambition, not required for conditional field theory.
++G313/G314 retain scalar sectors; Weyl/tidal and initial data remain free;
++unique-history selection is optional, not required for conditional field theory.
+ G374/G375 restrict position-dependent rescaling on a fixed base but retain constant rescaling:
+ `g_hat=a^-2 g, Lambda_hat=a^2 Lambda, a>0`. No physical size or absolute scale is selected.
+ A separately fixed target scalar restricts that rescaling; its value is supplied, not derived.
+-Carried measure, population of configurations and selection of a complete history are different questions;
+-“occupancy” names no additional law here. A successor must identify an unexamined admitted implication,
+-not repeat existing scalar/source nonselection.
++Carried measure, configuration population and history selection differ; “occupancy” supplies no law.
++A successor must identify an unexamined admitted implication, not repeat scalar/source nonselection.
+ 
+ Geometric theory/calibration and possible emergence remain parallel, neither prerequisite.
+ Conditional measurement models require explicit justified transfer/instrument assumptions;
+diff --git a/MEMORY.md b/MEMORY.md
+index 23138960..45d07570 100644
+--- a/MEMORY.md
++++ b/MEMORY.md
+@@ -4,8 +4,11 @@
+ `CURRENT_RESEARCH_PROGRAM.md` is the dependency spine and `INDEX.md` the evidence map.
+ 
+ The kernel evaluates supplied ordered depth; complete `B,Q,S,Y,Z` enters before readout.
+-Universal Reciprocity/DDR and G312 quiet-GR/Local Metric Sufficiency are
+-owner-adopted provisional premises, not derivation or canon; the equation is unchanged.
++Universal Reciprocity/DDR and explained Local Metric Sufficiency remain owner-adopted provisional premises.
++AUTHORITY WARNING: Charles's 2026-09-09 GR clarification is FILTER ONLY, not a response-law input.
++G312's stronger ownership and registry/guard reconciliation are PENDING; Einstein claims stay
++CONDITIONAL on full reviewed premises, not established from filter-only GR. No mathematical regrading.
++See `udt_gr_filter_authority_audit_2026-09-09/REVIEWED_AUDIT.md`.
+ G313--G337 provide a multibranch arena with legitimate free initial data, not a selected universe.
+ G338--G349 provide metric geometry, not physical carried content or detector laws.
+ G350 leaves `R^p A^q`; G351 provisionally conserves a supplied label measure, giving
+@@ -17,9 +20,7 @@ G381=NT1 precedes G382=NT2: tidal-neighborhood obstruction and restricted real n
+ with actual local Lambda=0 realizations; not general metric realization or physical modes.
+ Original candidate/review bytes, false passes, repairs and lost-output caveats stay fixed.
+ HB2/HB3 and BI2/BI3 remain UNPROMOTED; three CD vacuous checks remain EXCLUDED.
+-NR1--NR2 and latest LG1--LG2 are reviewed UNPROMOTED candidates; see INDEX.
+-NR keeps compact mixed-C2/analytic-local limits; LG adds restricted 3D localization,
+-conditional on smooth methods, symmetry/smallness and repaired interface—not stability/content.
++NR/LG/LE1/SE1/NE1 are reviewed UNPROMOTED; INDEX owns full scopes/reviews, not stability/content.
+ Full365 NOT_PASSED at G325 replay; no new banking.
+ 
+ Keep the corrections explicit:

@@ -13,9 +13,13 @@ Complete `B,Q,S,Y,Z` enters `h=F^*g` before readout. Completed-pair Dual Recipro
 WORKING_FOUNDATIONAL_CLARIFICATION; W5/W6 do not select population or history.
 Universal Reciprocity/DDR is one postulate with two formulations,
 OWNER_ADOPTED_PROVISIONAL_POSTULATE (2026-08-31), not derived or canonized.
-G312 premises are owner-adopted provisionally. Quiet-GR/Local Metric Sufficiency gives the
-bounded multibranch Einstein arena; angular-sector cancellation owns loud--quiet--loud.
-Metric, kernel and equation are unchanged. One Ricci scalar does not exhaust free geometry/data.
+Charles's 2026-09-09 GR clarification is FILTER ONLY; Local Metric Sufficiency is affirmed.
+AUTHORITY WARNING: G312's stronger GR-principal input and inherited “admitted/lawful” shorthand
+need qualification; the multibranch Einstein arena remains CONDITIONAL on its full reviewed premises.
+Registry/guard reconciliation is PENDING; exact grades and mathematical results remain unchanged.
+See `udt_gr_filter_authority_audit_2026-09-09/REVIEWED_AUDIT.md`.
+Metric/kernel are unchanged; angular-sector cancellation owns loud--quiet--loud.
+One Ricci scalar does not exhaust free geometry/data.
 
 G351's owner-provisional finite nonnegative countably additive label measure gives
 `R^p A^-1` for nonzero absolutely continuous regular density, leaving `p` free.

@@ -21,11 +21,13 @@ chi_AB=tanh(delta_AB)
 h=Y^T B^T eta_2 B Y +(S Y+Z)^T Q^T Q(S Y+Z)
 ```
 
-W5 makes complete projective state physical normalized pair position provisionally. W6 permits
-nonpropagating co-presence only with metric-causal response. Universal Reciprocity/DDR and G312's
-quiet-GR response plus Local Metric Sufficiency are owner-adopted provisional premises, not
-derivations or canon. In the bounded vacuum response arena they give trace-free Ricci with one
-connected scalar. None supplies population, realized history, matter, absolute scale, or `X_max`.
+W5 provisionally identifies projective pair position; W6 requires metric-causal response.
+Universal Reciprocity/DDR and explained Local Metric Sufficiency remain provisional, not derived/canon.
+Charles's 2026-09-09 clarification makes GR a FILTER ONLY, not a response-law input.
+AUTHORITY WARNING: every Einstein-arena statement below is conditional on the full reviewed premises,
+not established from filter-only GR. G312 ownership and registry/guard reconciliation are PENDING:
+`udt_gr_filter_authority_audit_2026-09-09/REVIEWED_AUDIT.md`. Exact grades/math remain unchanged.
+Population, realized history, matter, absolute scale and `X_max` remain unselected.
 
 ## Dependency spine
 
@@ -72,7 +74,7 @@ G314 separates conditional field theory with supplied data from optional unique-
 The connected scalar fixes only the Ricci sector; Weyl/tidal geometry and initial data remain free.
 G374/G375 restrict position-dependent conformal factors on a FIXED base/domain, not overall scale:
 `g_hat=a^-2 g, Lambda_hat=a^2 Lambda, a>0`. Fixed-target restrictions and positivity remain.
-No new “scalar selection” campaign is justified merely by repeating the same examined premises.
+Do not repeat completed scalar nonselection.
 Carried measure, configuration population and history selection are distinct; “occupancy” is not a law.
 
 G372/G373 go beyond reconstruction: independently supplied restricted density/phase data and geometry
@@ -95,7 +97,6 @@ realization. Free profiles, supplied future frame/slice and lost-buffer/unsnapsh
 `INDEX.md` links exact banking and original evidence.
 
 NR1--NR2/LG1--LG2/LE1/SE1/NE1: reviewed UNPROMOTED; INDEX owns scopes/reviews.
-Predecessors: compact tangents, localization, local curvature behavior.
 NE1: profile decay with cumulative marked-area/tidal departure; exact polarized family.
 No genericity/stability/content.
 

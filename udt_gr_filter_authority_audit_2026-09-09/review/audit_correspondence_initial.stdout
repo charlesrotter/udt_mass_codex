@@ -1,0 +1,238 @@
+{
+  "evidence_kind": "FREEZE_AND_SOURCE_ADDRESS_CORRESPONDENCE_ONLY",
+  "python": "3.10.12",
+  "baseline": "4a699eec12b656a9487fa41f5ebad5993ef7adc5",
+  "frozen_hashes": {
+    "INITIAL_AUDIT.md": "eb5fcd6b279e463f9a0e96cbf3cc32f1a15f08f27cf9d4f8e01415c0216d03b9",
+    "AUTHORITY_MAP.tsv": "bd24957354f8c4d0c4dd5ce54a00df7fc8af792ccdf67c79b1e162ee40d7569e",
+    "DEPENDENCY_IMPACT.tsv": "13c7e57784f2470db762d3ae01f6bde0e9f6b012cb001a54f0a2e4133188559e"
+  },
+  "tables": [
+    {
+      "path": "AUTHORITY_MAP.tsv",
+      "rows": 9
+    },
+    {
+      "path": "DEPENDENCY_IMPACT.tsv",
+      "rows": 14
+    }
+  ],
+  "source_addresses": [
+    {
+      "table": "AUTHORITY_MAP.tsv",
+      "id": "W3",
+      "path": "founding.md",
+      "sha256": "b4b0d9a9fdd093c992647195aca7579566a9e77a396071a699c1938888a49e75",
+      "unchanged": true,
+      "navigation_only": false
+    },
+    {
+      "table": "AUTHORITY_MAP.tsv",
+      "id": "G301",
+      "path": "udt_g301_scale_free_quiet_regular_causal_principal_classification_2026-08-30/EXACT_DERIVATION.md",
+      "sha256": "633b907b5384aa63d61d49db067dd4e608e6abd3bf3571e4267f91e5c74da8fb",
+      "unchanged": true,
+      "navigation_only": false
+    },
+    {
+      "table": "AUTHORITY_MAP.tsv",
+      "id": "G301",
+      "path": "udt_g301_scale_free_quiet_regular_causal_principal_classification_2026-08-30/PREMISE_LEDGER.tsv",
+      "sha256": "32495b6cf6e259e614fc78b246845c02150bc3a04b919610ae29990f20452ed0",
+      "unchanged": true,
+      "navigation_only": false
+    },
+    {
+      "table": "AUTHORITY_MAP.tsv",
+      "id": "G310",
+      "path": "udt_g310_differential_dual_reciprocity_tracefree_ownership_2026-08-31/EXACT_DERIVATION.md",
+      "sha256": "a417b3cfa1cc6136429a14d3b330c1b8c25c73c9e946d6b6454d6ffae72c25a0",
+      "unchanged": true,
+      "navigation_only": false
+    },
+    {
+      "table": "AUTHORITY_MAP.tsv",
+      "id": "G310",
+      "path": "startup_surface_g310_universal_reciprocity_refresh_2026-08-31/ADOPTION_RECORD.md",
+      "sha256": "4eb7d0a1130dcff997bc5180f420b633e2dcbbb5072d098997ba3672b38d8ab5",
+      "unchanged": true,
+      "navigation_only": false
+    },
+    {
+      "table": "AUTHORITY_MAP.tsv",
+      "id": "G311",
+      "path": "udt_g311_universal_reciprocity_full_covariant_response_2026-09-01/EXACT_DERIVATION.md",
+      "sha256": "4fd4ca84d353018c02e32d49cf261de3472b3fafd74b0f268b0960653bdfd307",
+      "unchanged": true,
+      "navigation_only": false
+    },
+    {
+      "table": "AUTHORITY_MAP.tsv",
+      "id": "G312_GR",
+      "path": "startup_surface_g312_two_premise_adoption_refresh_2026-09-01/ADOPTION_RECORD.md",
+      "sha256": "ebeae075307e7a325a840f4c2d9dcd973c18d9a3be21e6e6eccacce1ae8856f1",
+      "unchanged": true,
+      "navigation_only": false
+    },
+    {
+      "table": "AUTHORITY_MAP.tsv",
+      "id": "G312_LOCAL",
+      "path": "startup_surface_g312_two_premise_adoption_refresh_2026-09-01/ADOPTION_RECORD.md",
+      "sha256": "ebeae075307e7a325a840f4c2d9dcd973c18d9a3be21e6e6eccacce1ae8856f1",
+      "unchanged": true,
+      "navigation_only": false
+    },
+    {
+      "table": "AUTHORITY_MAP.tsv",
+      "id": "G312_CLOSURE",
+      "path": "udt_g312_quiet_gr_response_constitution_discriminator_2026-09-01/EXACT_DERIVATION.md",
+      "sha256": "90ae2841153754087e64ba14d0a61c408d0b5767b5c8ed9f558da0b49ab30ea4",
+      "unchanged": true,
+      "navigation_only": false
+    },
+    {
+      "table": "AUTHORITY_MAP.tsv",
+      "id": "G303_BIANCHI",
+      "path": "udt_g303_two_class_nonlinear_cauchy_data_classification_2026-08-30/AUDIT_REPORT.md",
+      "sha256": "8830a1b8fba6e82fd964508c6df766f0b9227affbd64dc12a19f4d585d07e3fc",
+      "unchanged": true,
+      "navigation_only": false
+    },
+    {
+      "table": "AUTHORITY_MAP.tsv",
+      "id": "G260_ANGULAR",
+      "path": "udt_g260_gr_quiet_angular_nondiscard_audit_2026-08-25/AUDIT_REPORT.md",
+      "sha256": "a28ee2332cf3e14e619c0c332339079605ca81e566d7513b0caa2e29af67d102",
+      "unchanged": true,
+      "navigation_only": false
+    },
+    {
+      "table": "AUTHORITY_MAP.tsv",
+      "id": "G260_ANGULAR",
+      "path": "founding.md",
+      "sha256": "b4b0d9a9fdd093c992647195aca7579566a9e77a396071a699c1938888a49e75",
+      "unchanged": true,
+      "navigation_only": false
+    },
+    {
+      "table": "DEPENDENCY_IMPACT.tsv",
+      "id": "G303",
+      "path": "udt_g303_two_class_nonlinear_cauchy_data_classification_2026-08-30/AUDIT_REPORT.md",
+      "sha256": "8830a1b8fba6e82fd964508c6df766f0b9227affbd64dc12a19f4d585d07e3fc",
+      "unchanged": true,
+      "navigation_only": false
+    },
+    {
+      "table": "DEPENDENCY_IMPACT.tsv",
+      "id": "G313/G314",
+      "path": "udt_g313_tracefree_ricci_solution_space_bootstrap_map_2026-09-01/AUDIT_REPORT.md",
+      "sha256": "b7df75cee891ed23dcf4796aba0a3d25e101ee89e4c1add95c8ef842987e418e",
+      "unchanged": true,
+      "navigation_only": false
+    },
+    {
+      "table": "DEPENDENCY_IMPACT.tsv",
+      "id": "G313/G314",
+      "path": "udt_g314_global_admissibility_actualization_type_classification_2026-09-01/AUDIT_REPORT.md",
+      "sha256": "46984bf5b339332e4799c0069951a97211c1e33cf94d0061fcbbd1419231c53a",
+      "unchanged": true,
+      "navigation_only": false
+    },
+    {
+      "table": "DEPENDENCY_IMPACT.tsv",
+      "id": "G338",
+      "path": "udt_g338_explicit_taub_pair_finite_time_readout_2026-09-03/AUDIT_REPORT.md",
+      "sha256": "05a55948bfe256134d0e7408db76941e1724b1a2db5ee68235cb9fe8c4a9529a",
+      "unchanged": true,
+      "navigation_only": false
+    },
+    {
+      "table": "DEPENDENCY_IMPACT.tsv",
+      "id": "G348",
+      "path": "udt_g348_generic_lorentzian_null_screen_area_theorem_2026-09-04/AUDIT_REPORT.md",
+      "sha256": "b264f4a8959a557884f3e6a668aab68d2831b477caf693f95db7b524c01bd279",
+      "unchanged": true,
+      "navigation_only": false
+    },
+    {
+      "table": "DEPENDENCY_IMPACT.tsv",
+      "id": "G350",
+      "path": "udt_g350_frequency_area_carried_content_ownership_2026-09-05/AUDIT_REPORT.md",
+      "sha256": "70acd17b86812a4dc1da42467dc81fe4c0af817152fd635d090ccbd851af88aa",
+      "unchanged": true,
+      "navigation_only": false
+    },
+    {
+      "table": "DEPENDENCY_IMPACT.tsv",
+      "id": "G351",
+      "path": "udt_g351_source_free_labelwise_carried_measure_conservation_2026-09-05/AUDIT_REPORT.md",
+      "sha256": "9fe05975201708714983e03ca592f75bd40ccb16ea4079b7e4a33c9dfe4b48c1",
+      "unchanged": true,
+      "navigation_only": false
+    },
+    {
+      "table": "DEPENDENCY_IMPACT.tsv",
+      "id": "G352",
+      "path": "udt_g352_clock_rate_carried_measure_readout_2026-09-05/AUDIT_REPORT.md",
+      "sha256": "4f1925a1d11d00d55bea6bf3858cbedf2878e63c8e4e14e5a22211b4e03d9f8f",
+      "unchanged": true,
+      "navigation_only": false
+    },
+    {
+      "table": "DEPENDENCY_IMPACT.tsv",
+      "id": "G367/G368",
+      "path": "udt_g367_g369_conditional_banking_2026-09-08/BANKING_RECORD.md",
+      "sha256": "08b7033ac53bd910f718fd827bfb457e5bcc4bd198feb443335b6845a6f583a3",
+      "unchanged": true,
+      "navigation_only": false
+    },
+    {
+      "table": "DEPENDENCY_IMPACT.tsv",
+      "id": "G373",
+      "path": "udt_g372_g373_conditional_banking_2026-09-08/BANKING_RECORD.md",
+      "sha256": "45f774b2393f81c2d84754be57cd35db88301b9c281ea53be1a07e82a7bfacbe",
+      "unchanged": true,
+      "navigation_only": false
+    },
+    {
+      "table": "DEPENDENCY_IMPACT.tsv",
+      "id": "G379",
+      "path": "udt_g379_g380_conditional_banking_2026-09-08/BANKING_RECORD.md",
+      "sha256": "f7725eafb4e4bc542fdb0b341b405cd9a12e6f1b3d06111ad6bb08d95e06c454",
+      "unchanged": true,
+      "navigation_only": false
+    },
+    {
+      "table": "DEPENDENCY_IMPACT.tsv",
+      "id": "G380",
+      "path": "udt_g379_g380_conditional_banking_2026-09-08/BANKING_RECORD.md",
+      "sha256": "f7725eafb4e4bc542fdb0b341b405cd9a12e6f1b3d06111ad6bb08d95e06c454",
+      "unchanged": true,
+      "navigation_only": false
+    },
+    {
+      "table": "DEPENDENCY_IMPACT.tsv",
+      "id": "G381/G382",
+      "path": "udt_g381_g382_conditional_banking_2026-09-09/BANKING_RECORD.md",
+      "sha256": "2b121c734ed9aaa98ced745b619ba8cbde049ec78ce4a0cf5d75d5ef2ce0f104",
+      "unchanged": true,
+      "navigation_only": false
+    },
+    {
+      "table": "DEPENDENCY_IMPACT.tsv",
+      "id": "NE1",
+      "path": "udt_nonlinear_ripple_geometry_2026-09-09/REVIEWED_RESULT.md",
+      "sha256": "45cc3bc950b76ceed6a1fd49c248688242bc3c008864256de9bb494c1b8bbfaa",
+      "unchanged": true,
+      "navigation_only": false
+    },
+    {
+      "table": "DEPENDENCY_IMPACT.tsv",
+      "id": "OTHER_DESCENDANTS",
+      "path": "CURRENT_RESEARCH_PROGRAM.md",
+      "sha256": "be2558294c890234db68beab205bb3756cea3a034caae62b46783849fe65e9d9",
+      "unchanged": true,
+      "navigation_only": true
+    }
+  ]
+}
