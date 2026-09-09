@@ -1,0 +1,27 @@
+{
+  "status": "PASS",
+  "baseline": "a9896cb190e9c4aa8fd8a317cfaaa942d64e0a19",
+  "source_pins": 29,
+  "source_first_seal": "CORRESPONDENCE_VERIFIED",
+  "changed_sources": [
+    "LIVE.md",
+    "HANDOFF.md",
+    "CURRENT_RESEARCH_PROGRAM.md",
+    "CURRENT_SCIENTIFIC_PREMISES.md",
+    "INDEX.md",
+    "MEMORY.md",
+    "CURRENT_SCIENTIFIC_PREMISES.tsv",
+    "verify_current_scientific_premises.py",
+    "tests/test_startup_surface.py"
+  ],
+  "registry_rows": 365,
+  "g312_changed_cells": [
+    "current_status",
+    "active_use",
+    "open_scope",
+    "forbidden_regression",
+    "precedence_rule"
+  ],
+  "other_registry_rows_byte_identical": true,
+  "meaning": "documentary correspondence only; no proof or full365 pass"
+}

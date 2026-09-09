@@ -6,6 +6,9 @@ GR is FILTER ONLY, not a response-law input; Local Metric Sufficiency remains ow
 Inherited G312 Einstein claims remain CONDITIONAL, not established from filter-only GR; grades fixed.
 Current authority: `udt_gr_filter_reconciliation_2026-09-09/AUTHORITY_RECORD.md`.
 Prior audit: `udt_gr_filter_authority_audit_2026-09-09/REVIEWED_AUDIT.md`.
+Documentation closeout: `udt_gr_filter_reconciliation_2026-09-09/documentation_closeout/CLOSEOUT.md`.
+Replacement review: `udt_gr_filter_reconciliation_2026-09-09/documentation_closeout/review/REPLACEMENT_REVIEW.md`.
+The original unproduced final report remains historical; this is a new dated review.
 
 1. Follow `AGENTS.md`.
 2. Read the current blocks in `LIVE.md` and `HANDOFF.md`.

@@ -1,0 +1,133 @@
+diff --git a/CURRENT_RESEARCH_PROGRAM.md b/CURRENT_RESEARCH_PROGRAM.md
+index f7cfe72d..300a181e 100644
+--- a/CURRENT_RESEARCH_PROGRAM.md
++++ b/CURRENT_RESEARCH_PROGRAM.md
+@@ -2,7 +2,7 @@
+ 
+ Date: 2026-09-09
+ 
+-`LIVE.md` controls status; the exact 365-row `CURRENT_SCIENTIFIC_PREMISES.tsv` controls ownership.
++`LIVE.md` controls status; exact 365-row `CURRENT_SCIENTIFIC_PREMISES.tsv` controls ownership.
+ 
+ ## Architecture
+ 
+@@ -22,11 +22,12 @@ h=Y^T B^T eta_2 B Y +(S Y+Z)^T Q^T Q(S Y+Z)
+ ```
+ 
+ W5 provisionally identifies projective pair position; W6 requires metric-causal response.
+-Universal Reciprocity/DDR and explained Local Metric Sufficiency remain provisional, not derived/canon.
++Universal Reciprocity/DDR remains provisional—not derived/canon.
+ GR is FILTER ONLY, not a response-law input; Local Metric Sufficiency remains owner-provisional.
+ Inherited G312 “admitted/lawful” Einstein claims are CONDITIONAL on full reviewed premises,
+ not established from filter-only GR. The existing membership route is unclosed, not disproved:
+ `udt_gr_filter_reconciliation_2026-09-09/AUTHORITY_RECORD.md`. Exact grades/math remain unchanged.
++Full365 NOT_PASSED at G325 replay; no scientific promotion.
+ Population, realized history, matter, absolute scale and `X_max` remain unselected.
+ 
+ ## Dependency spine
+@@ -54,7 +55,7 @@ Population, realized history, matter, absolute scale and `X_max` remain unselect
+ | G379--G380 | Closed-fibre discriminator and lawful nonpreservation counterexample | Generic failure, topology change or physical instability |
+ | G381--G382 | Neighboring tidal obstruction, restricted null jets and actual local Lambda=0 realization | General metric realization, selected physical modes or content |
+ 
+-The active evaluator is `udt_uncompressed_pair_kernel_reconstruction_2026-08-14/`.
++Active evaluator: `udt_uncompressed_pair_kernel_reconstruction_2026-08-14/`.
+ G190--G198 are controls, not construction inputs.
+ 
+ ## Open boundary
+@@ -111,5 +112,5 @@ Backup completeness/pre-reboot unsaved state remain UNVERIFIED; ScratchDisk is a
+ ## Current next gate
+ 
+ G381=NT1 and G382=NT2 conditional mathematical banking is COMPLETE at the reviewed scopes.
+-The G352 physical-realization question remains: physical identification remains OPEN.
+-Stop for lay discussion with Charles; no new campaign is authorized, and any chosen work order includes checks, fresh separate-context review and bounded same-premise repair.
++G312 response-class membership remains unclosed; the G352 physical-realization question remains: physical identification remains OPEN.
++Stop for lay discussion with Charles; no new campaign is authorized; any approved work order includes checks, fresh separate-context review and bounded same-premise repair.
+diff --git a/CURRENT_SCIENTIFIC_PREMISES.md b/CURRENT_SCIENTIFIC_PREMISES.md
+index 9f9b37db..383b1780 100644
+--- a/CURRENT_SCIENTIFIC_PREMISES.md
++++ b/CURRENT_SCIENTIFIC_PREMISES.md
+@@ -10,6 +10,7 @@ GR is FILTER ONLY, not a response-law input; Local Metric Sufficiency remains ow
+ G312's current authority qualifies inherited “admitted/lawful” labels. Einstein claims remain
+ CONDITIONAL on full reviewed premises, not established from filter-only GR; membership is unclosed.
+ Current record: `udt_gr_filter_reconciliation_2026-09-09/AUTHORITY_RECORD.md`. No theorem is regraded.
++Full365 NOT_PASSED at G325 replay; no scientific promotion. Review closeout: INDEX.
+ 
+ ## Foundational and adopted layer
+ 
+diff --git a/HANDOFF.md b/HANDOFF.md
+index 5fd70f64..64dc047f 100644
+--- a/HANDOFF.md
++++ b/HANDOFF.md
+@@ -17,6 +17,7 @@ GR is FILTER ONLY, not a response-law input; Local Metric Sufficiency remains ow
+ Current G312 authority qualifies inherited “admitted/lawful” labels; the multibranch Einstein arena
+ remains CONDITIONAL on full reviewed premises, not established from filter-only GR. Grades/math unchanged.
+ Current authority: `udt_gr_filter_reconciliation_2026-09-09/AUTHORITY_RECORD.md`.
++Review closeout: see INDEX; the original final report remains unproduced.
+ Metric/kernel are unchanged; angular-sector cancellation owns loud--quiet--loud.
+ One Ricci scalar does not exhaust free geometry/data.
+ 
+@@ -73,6 +74,6 @@ Protected—do not stage, modify, mine or cite without dispatch:
+ - `udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/`
+ 
+ Next: G381=NT1 and G382=NT2 conditional mathematical banking is COMPLETE at the reviewed scopes.
+-The G352 physical-realization question remains: physical identification remains OPEN.
+-Stop for lay discussion with Charles; no new campaign is authorized, and any chosen work order includes checks, fresh separate-context review and bounded same-premise repair.
++G312 response-class membership remains unclosed; the G352 physical-realization question remains: physical identification remains OPEN.
++Stop for lay discussion with Charles; no new campaign is authorized; any approved work order includes checks, fresh separate-context review and bounded same-premise repair.
+ <!-- STARTUP_CURRENT_END -->
+diff --git a/INDEX.md b/INDEX.md
+index 11a55a5d..29aece18 100644
+--- a/INDEX.md
++++ b/INDEX.md
+@@ -6,6 +6,9 @@ GR is FILTER ONLY, not a response-law input; Local Metric Sufficiency remains ow
+ Inherited G312 Einstein claims remain CONDITIONAL, not established from filter-only GR; grades fixed.
+ Current authority: `udt_gr_filter_reconciliation_2026-09-09/AUTHORITY_RECORD.md`.
+ Prior audit: `udt_gr_filter_authority_audit_2026-09-09/REVIEWED_AUDIT.md`.
++Documentation closeout: `udt_gr_filter_reconciliation_2026-09-09/documentation_closeout/CLOSEOUT.md`.
++Replacement review: `udt_gr_filter_reconciliation_2026-09-09/documentation_closeout/review/REPLACEMENT_REVIEW.md`.
++The original unproduced final report remains historical; this is a new dated review.
+ 
+ 1. Follow `AGENTS.md`.
+ 2. Read the current blocks in `LIVE.md` and `HANDOFF.md`.
+diff --git a/LIVE.md b/LIVE.md
+index 2a2af92b..013be452 100644
+--- a/LIVE.md
++++ b/LIVE.md
+@@ -20,6 +20,7 @@ OWNER_ADOPTED_PROVISIONAL_POSTULATE (2026-08-31), not derived or canonized.
+ GR is FILTER ONLY, not a response-law input; Local Metric Sufficiency remains owner-provisional.
+ Current G312 authority qualifies inherited “admitted/lawful” labels; original evidence is unchanged:
+ `udt_gr_filter_reconciliation_2026-09-09/AUTHORITY_RECORD.md`.
++Review closeout: see INDEX; the original final report remains unproduced.
+ The multibranch Einstein arena `Ric(g)=Lambda g` remains CONDITIONAL on its full reviewed premises,
+ not established from filter-only GR. Exact grades stay fixed; the existing membership route is unclosed.
+ Metric/kernel and mathematics are unchanged; angular-sector cancellation owns loud--quiet--loud.
+@@ -105,6 +106,6 @@ Protected—do not stage, modify, mine or cite without dispatch:
+ ### Next gate
+ 
+ G381=NT1 and G382=NT2 conditional mathematical banking is COMPLETE at the reviewed scopes.
+-The G352 physical-realization question remains: physical identification remains OPEN.
+-Stop for lay discussion with Charles; no new campaign is authorized, and any chosen work order must include its checks, fresh separate-context review and bounded same-premise repair before returning.
++G312 response-class membership remains unclosed; the G352 physical-realization question remains: physical identification remains OPEN.
++Stop for lay discussion with Charles; no new campaign is authorized; any approved work order includes checks, fresh separate-context review and bounded same-premise repair.
+ <!-- STARTUP_CURRENT_END -->
+diff --git a/MEMORY.md b/MEMORY.md
+index 3cc13ba0..ef91d85c 100644
+--- a/MEMORY.md
++++ b/MEMORY.md
+@@ -8,7 +8,7 @@ Universal Reciprocity/DDR and explained Local Metric Sufficiency remain owner-ad
+ GR is FILTER ONLY, not a response-law input; Local Metric Sufficiency remains owner-provisional.
+ G312 qualifies inherited “admitted/lawful” labels: Einstein claims stay CONDITIONAL on full reviewed
+ premises, not established from filter-only GR. No mathematical regrading; membership remains unclosed.
+-See `udt_gr_filter_reconciliation_2026-09-09/AUTHORITY_RECORD.md`.
++See `udt_gr_filter_reconciliation_2026-09-09/AUTHORITY_RECORD.md`. Review closeout: INDEX.
+ G313--G337 provide a multibranch arena with legitimate free initial data, not a selected universe.
+ G338--G349 provide metric geometry, not physical carried content or detector laws.
+ G350 leaves `R^p A^q`; G351 provisionally conserves a supplied label measure, giving
+@@ -43,7 +43,7 @@ Fixed manuscript/coverage is the through-G352 edition, not the current frontier.
+ 
+ ## Open gate
+ 
+-Banking through G382 is complete; NR/LG candidates unpromoted, G352 physical identification OPEN.
++Banking through G382 is complete; G312 membership unclosed, G352 physical identification OPEN.
+ Stop for lay discussion with Charles; no new campaign is authorized.
+ A chosen work order includes its checks, fresh separate-context review and bounded same-premise repair.

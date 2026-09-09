@@ -1,0 +1,16 @@
+{
+  "command": [
+    "python3",
+    "-B",
+    "-c",
+    "\nimport hashlib,json,pathlib,subprocess\nroot=pathlib.Path.cwd()\nbase=\"450d987e22164364e08e5ea0eadaaeaf2dcef096\"\nprefix=\"udt_gr_filter_reconciliation_2026-09-09\"\nsix={\"LIVE.md\",\"HANDOFF.md\",\"CURRENT_RESEARCH_PROGRAM.md\",\"CURRENT_SCIENTIFIC_PREMISES.md\",\"MEMORY.md\",\"INDEX.md\"}\ngit=[\"git\",\"-c\",\"core.preloadIndex=false\",\"-c\",\"index.threads=1\",\"-c\",\"core.packedGitWindowSize=16m\",\"-c\",\"core.packedGitLimit=64m\"]\ndef get(*args):\n return subprocess.check_output(git+list(args))\ndef sha(data):\n return hashlib.sha256(data).hexdigest()\nmanifest=root/prefix/\"EVIDENCE_SHA256SUMS\"\nassert sha(manifest.read_bytes())==\"1ce016590c72fa158603479e50798392026f804d665791e38dae48c7c8ed1999\"\npins=[]\nfor line in manifest.read_text().splitlines():\n expected,path=line.split(maxsplit=1)\n data=get(\"show\",base+\":\"+path) if path in six else (root/path).read_bytes()\n assert sha(data)==expected,path\n pins.append({\"path\":path,\"validated_at\":base if path in six else \"actual_current_bytes\",\"sha256\":expected})\nassert len(pins)==120\nchanged=get(\"diff\",\"--name-only\",base,\"--\").decode().splitlines()\nassert all(p in six or p.startswith(prefix+\"/documentation_closeout/\") for p in changed),changed\nfor p in [\"CURRENT_SCIENTIFIC_PREMISES.tsv\",\"verify_current_scientific_premises.py\",\"tests/test_startup_surface.py\",\"CANON.md\",\"UDT_METRIC_KERNEL_DEVELOPMENT.md\",\"UDT_METRIC_KERNEL_COVERAGE.tsv\",\"AGENTS.md\",\"CLAUDE.md\"]:\n assert (root/p).read_bytes()==get(\"show\",base+\":\"+p),p\nold_package=get(\"ls-tree\",\"-r\",\"--name-only\",base,\"--\",prefix).decode().splitlines()\nactual=get(\"hash-object\",\"--\",*old_package).decode().splitlines()\ntree=get(\"ls-tree\",\"-r\",base,\"--\",prefix).decode().splitlines()\nassert [line.split()[2] for line in tree]==actual\nuntracked=sorted(line for line in get(\"status\",\"--short\",\"--untracked-files=normal\").decode().splitlines() if line.startswith(\"?? \") and not line[3:].startswith(prefix+\"/documentation_closeout/\"))\nassert len(untracked)==46 and sha(\"\\n\".join(untracked).encode())==\"d65d71d63a56b95aabfd61f33317b1f1f2b2a62a85ded8258c525b99a5e156ea\"\nprint(json.dumps({\"status\":\"PASS_DOCUMENTARY_PRESERVATION_NOT_FULL365\",\"baseline\":base,\"manifest_pins\":pins,\"manifest_count\":len(pins),\"old_package_files_byte_unchanged\":len(old_package),\"allowed_current_paths\":changed,\"unrelated_untracked_names\":46,\"protected_payloads\":\"NOT_INSPECTED\",\"scope\":\"No new proof, premise, registry, verifier/test, canon, manuscript or original evidence change; old current-page pins remain historical.\"},indent=2))\n"
+  ],
+  "cwd": "/home/udt-admin/udt_mass_codex",
+  "started_utc": "2026-09-09T22:24:08.327504+00:00",
+  "duration_seconds": 0.1500434490153566,
+  "returncode": 0,
+  "timeout": false,
+  "address_space_bytes": 536870912,
+  "cpu_seconds": 60,
+  "maxrss_kib": 18104
+}

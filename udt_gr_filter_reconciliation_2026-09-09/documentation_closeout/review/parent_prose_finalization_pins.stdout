@@ -1,0 +1,17 @@
+{
+  "scope": "Only this exact status-marker replacement is pre-reviewed; publication still belongs to parent",
+  "before": "FINAL_CANDIDATE_PENDING_REVIEW",
+  "after": "VERIFIED-WITH-CAVEATS / DOCUMENTARY_FIDELITY_ONLY",
+  "files": [
+    {
+      "path": "udt_gr_filter_reconciliation_2026-09-09/documentation_closeout/CLOSEOUT.md",
+      "candidate_sha256": "04c40fe035e579ea6708ecb9e10210eec927cda260775549726da4752ef4b0e2",
+      "permitted_final_sha256": "d64f6e31192919e189c32573e3795f7f786fd984fc4a1d4289a094983a3921a9"
+    },
+    {
+      "path": "udt_gr_filter_reconciliation_2026-09-09/documentation_closeout/EXECUTION_RECORD.md",
+      "candidate_sha256": "ec8d9092495ce007dc650e90420ec1fd40009836cfc4dda864b4042c4cc122f4",
+      "permitted_final_sha256": "368c7f8331d1aae3bb84d9abd33a81a0782a67c0ba9cb08ecf692d1e8b356cab"
+    }
+  ]
+}

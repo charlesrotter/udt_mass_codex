@@ -1,0 +1,4 @@
+Traceback (most recent call last):
+  File "/home/udt-admin/udt_mass_codex/udt_gr_filter_reconciliation_2026-09-09/documentation_closeout/review/check_documentary_correspondence.py", line 62, in <module>
+    assert '47/47' in utility['g351_replay']['stdout']
+AssertionError

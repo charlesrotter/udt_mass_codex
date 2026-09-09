@@ -1,0 +1,16 @@
+{
+  "command": [
+    "python3",
+    "-B",
+    "-c",
+    "import hashlib,json,pathlib; root=pathlib.Path(\"udt_gr_filter_reconciliation_2026-09-09/documentation_closeout\"); old=b\"FINAL_CANDIDATE_PENDING_REVIEW\"; new=b\"VERIFIED-WITH-CAVEATS / DOCUMENTARY_FIDELITY_ONLY\"; rows=[]\nfor name in (\"CLOSEOUT.md\",\"EXECUTION_RECORD.md\"):\n data=(root/name).read_bytes(); assert data.count(old)==1; final=data.replace(old,new); rows.append({\"path\":str(root/name),\"candidate_sha256\":hashlib.sha256(data).hexdigest(),\"permitted_final_sha256\":hashlib.sha256(final).hexdigest()})\nprint(json.dumps({\"scope\":\"Only this exact status-marker replacement is pre-reviewed; publication still belongs to parent\",\"before\":old.decode(),\"after\":new.decode(),\"files\":rows},indent=2))"
+  ],
+  "cwd": "/home/udt-admin/udt_mass_codex",
+  "started_utc": "2026-09-09T22:29:52.294606+00:00",
+  "duration_seconds": 0.014349081029649824,
+  "returncode": 0,
+  "timeout": false,
+  "address_space_bytes": 536870912,
+  "cpu_seconds": 60,
+  "maxrss_kib": 13604
+}

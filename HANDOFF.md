@@ -17,6 +17,7 @@ GR is FILTER ONLY, not a response-law input; Local Metric Sufficiency remains ow
 Current G312 authority qualifies inherited “admitted/lawful” labels; the multibranch Einstein arena
 remains CONDITIONAL on full reviewed premises, not established from filter-only GR. Grades/math unchanged.
 Current authority: `udt_gr_filter_reconciliation_2026-09-09/AUTHORITY_RECORD.md`.
+Review closeout: see INDEX; the original final report remains unproduced.
 Metric/kernel are unchanged; angular-sector cancellation owns loud--quiet--loud.
 One Ricci scalar does not exhaust free geometry/data.
 
@@ -73,6 +74,6 @@ Protected—do not stage, modify, mine or cite without dispatch:
 - `udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/`
 
 Next: G381=NT1 and G382=NT2 conditional mathematical banking is COMPLETE at the reviewed scopes.
-The G352 physical-realization question remains: physical identification remains OPEN.
-Stop for lay discussion with Charles; no new campaign is authorized, and any chosen work order includes checks, fresh separate-context review and bounded same-premise repair.
+G312 response-class membership remains unclosed; the G352 physical-realization question remains: physical identification remains OPEN.
+Stop for lay discussion with Charles; no new campaign is authorized; any approved work order includes checks, fresh separate-context review and bounded same-premise repair.
 <!-- STARTUP_CURRENT_END -->

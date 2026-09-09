@@ -1,0 +1,29 @@
+{
+  "status": "PASS_DOCUMENTARY_CORRESPONDENCE_ONLY",
+  "baseline": "450d987e22164364e08e5ea0eadaaeaf2dcef096",
+  "original_package_files_unchanged": 130,
+  "historical_final_pins": 15,
+  "unchanged_current_nonstartup_final_pins": 9,
+  "guard_case_counts": [
+    {
+      "PASS": 14,
+      "REJECTED_AS_REQUIRED": 44,
+      "FALSE_PASS": 13
+    },
+    {
+      "PASS": 15,
+      "REJECTED_AS_REQUIRED": 56
+    },
+    {
+      "PASS": 15,
+      "REJECTED_AS_REQUIRED": 56
+    }
+  ],
+  "preserved_posthoc_false_passes": 3,
+  "current_transition_rejections": 3,
+  "reused_prior_utility_checks": 189,
+  "reused_prior_focused_tests": 106,
+  "full365": "NOT_PASSED_G325",
+  "python": "3.10.12 (main, Aug 31 2026, 10:18:17) [GCC 11.4.0]",
+  "omitted": "No full science rerun; historical seals remain historical; no original review report recovered."
+}

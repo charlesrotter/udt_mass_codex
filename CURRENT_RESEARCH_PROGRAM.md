@@ -2,7 +2,7 @@
 
 Date: 2026-09-09
 
-`LIVE.md` controls status; the exact 365-row `CURRENT_SCIENTIFIC_PREMISES.tsv` controls ownership.
+`LIVE.md` controls status; exact 365-row `CURRENT_SCIENTIFIC_PREMISES.tsv` controls ownership.
 
 ## Architecture
 
@@ -22,11 +22,12 @@ h=Y^T B^T eta_2 B Y +(S Y+Z)^T Q^T Q(S Y+Z)
 ```
 
 W5 provisionally identifies projective pair position; W6 requires metric-causal response.
-Universal Reciprocity/DDR and explained Local Metric Sufficiency remain provisional, not derived/canon.
+Universal Reciprocity/DDR remains provisional—not derived/canon.
 GR is FILTER ONLY, not a response-law input; Local Metric Sufficiency remains owner-provisional.
 Inherited G312 “admitted/lawful” Einstein claims are CONDITIONAL on full reviewed premises,
 not established from filter-only GR. The existing membership route is unclosed, not disproved:
 `udt_gr_filter_reconciliation_2026-09-09/AUTHORITY_RECORD.md`. Exact grades/math remain unchanged.
+Full365 NOT_PASSED at G325 replay; no scientific promotion.
 Population, realized history, matter, absolute scale and `X_max` remain unselected.
 
 ## Dependency spine
@@ -54,7 +55,7 @@ Population, realized history, matter, absolute scale and `X_max` remain unselect
 | G379--G380 | Closed-fibre discriminator and lawful nonpreservation counterexample | Generic failure, topology change or physical instability |
 | G381--G382 | Neighboring tidal obstruction, restricted null jets and actual local Lambda=0 realization | General metric realization, selected physical modes or content |
 
-The active evaluator is `udt_uncompressed_pair_kernel_reconstruction_2026-08-14/`.
+Active evaluator: `udt_uncompressed_pair_kernel_reconstruction_2026-08-14/`.
 G190--G198 are controls, not construction inputs.
 
 ## Open boundary
@@ -111,5 +112,5 @@ Backup completeness/pre-reboot unsaved state remain UNVERIFIED; ScratchDisk is a
 ## Current next gate
 
 G381=NT1 and G382=NT2 conditional mathematical banking is COMPLETE at the reviewed scopes.
-The G352 physical-realization question remains: physical identification remains OPEN.
-Stop for lay discussion with Charles; no new campaign is authorized, and any chosen work order includes checks, fresh separate-context review and bounded same-premise repair.
+G312 response-class membership remains unclosed; the G352 physical-realization question remains: physical identification remains OPEN.
+Stop for lay discussion with Charles; no new campaign is authorized; any approved work order includes checks, fresh separate-context review and bounded same-premise repair.

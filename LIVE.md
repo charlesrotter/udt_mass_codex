@@ -20,6 +20,7 @@ OWNER_ADOPTED_PROVISIONAL_POSTULATE (2026-08-31), not derived or canonized.
 GR is FILTER ONLY, not a response-law input; Local Metric Sufficiency remains owner-provisional.
 Current G312 authority qualifies inherited “admitted/lawful” labels; original evidence is unchanged:
 `udt_gr_filter_reconciliation_2026-09-09/AUTHORITY_RECORD.md`.
+Review closeout: see INDEX; the original final report remains unproduced.
 The multibranch Einstein arena `Ric(g)=Lambda g` remains CONDITIONAL on its full reviewed premises,
 not established from filter-only GR. Exact grades stay fixed; the existing membership route is unclosed.
 Metric/kernel and mathematics are unchanged; angular-sector cancellation owns loud--quiet--loud.
@@ -105,6 +106,6 @@ Protected—do not stage, modify, mine or cite without dispatch:
 ### Next gate
 
 G381=NT1 and G382=NT2 conditional mathematical banking is COMPLETE at the reviewed scopes.
-The G352 physical-realization question remains: physical identification remains OPEN.
-Stop for lay discussion with Charles; no new campaign is authorized, and any chosen work order must include its checks, fresh separate-context review and bounded same-premise repair before returning.
+G312 response-class membership remains unclosed; the G352 physical-realization question remains: physical identification remains OPEN.
+Stop for lay discussion with Charles; no new campaign is authorized; any approved work order includes checks, fresh separate-context review and bounded same-premise repair.
 <!-- STARTUP_CURRENT_END -->

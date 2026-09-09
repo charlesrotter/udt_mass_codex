@@ -1,0 +1,409 @@
+{
+  "reviewer_source_sha256": "01c00ab87bbe14ff7a355046401cdeff70d90e866b808dfac092e709d6186137",
+  "guard_source_sha256": "1f50dab2180db4901dbdf2881348141028108092e3790803fa82bbc2c79368b9",
+  "fixture_source_sha256": "8d24922d20ebaa9274497ed19d61fbf59725d91bbdd3c1384dd6b4f8489dca00",
+  "scaffolding": "author fixture shared; cases independently designed; production code is under test",
+  "cases": 71,
+  "failures": 0,
+  "results": [
+    {
+      "name": "actual_current_startup",
+      "result": "PASS"
+    },
+    {
+      "name": "shared_fixture_current_startup",
+      "result": "PASS"
+    },
+    {
+      "name": "exact_projection_to_independent_git_baseline",
+      "result": "PASS"
+    },
+    {
+      "name": "old_g312_cell_current_status",
+      "result": "REJECTED_AS_REQUIRED",
+      "message": "GR-filter current G312 row differs from exact authorized transition",
+      "required_exception": "GR-filter current G312 row"
+    },
+    {
+      "name": "old_g312_cell_active_use",
+      "result": "REJECTED_AS_REQUIRED",
+      "message": "GR-filter current G312 row differs from exact authorized transition",
+      "required_exception": "GR-filter current G312 row"
+    },
+    {
+      "name": "old_g312_cell_open_scope",
+      "result": "REJECTED_AS_REQUIRED",
+      "message": "GR-filter current G312 row differs from exact authorized transition",
+      "required_exception": "GR-filter current G312 row"
+    },
+    {
+      "name": "old_g312_cell_forbidden_regression",
+      "result": "REJECTED_AS_REQUIRED",
+      "message": "GR-filter current G312 row differs from exact authorized transition",
+      "required_exception": "GR-filter current G312 row"
+    },
+    {
+      "name": "old_g312_cell_precedence_rule",
+      "result": "REJECTED_AS_REQUIRED",
+      "message": "GR-filter current G312 row differs from exact authorized transition",
+      "required_exception": "GR-filter current G312 row"
+    },
+    {
+      "name": "old_whole_g312_current",
+      "result": "REJECTED_AS_REQUIRED",
+      "message": "GR-filter current G312 row differs from exact authorized transition",
+      "required_exception": "GR-filter current G312 row"
+    },
+    {
+      "name": "old_whole_g312_historical",
+      "result": "REJECTED_AS_REQUIRED",
+      "message": "GR-filter current G312 row differs from exact authorized transition",
+      "required_exception": "GR-filter current G312 row"
+    },
+    {
+      "name": "duplicate_g312",
+      "result": "REJECTED_AS_REQUIRED",
+      "message": "GR-filter current G312 row differs from exact authorized transition",
+      "required_exception": "GR-filter current G312 row"
+    },
+    {
+      "name": "g312_science_current_status",
+      "result": "REJECTED_AS_REQUIRED",
+      "message": "GR-filter current G312 row differs from exact authorized transition",
+      "required_exception": "GR-filter current G312 row"
+    },
+    {
+      "name": "g312_science_epistemic_label",
+      "result": "REJECTED_AS_REQUIRED",
+      "message": "GR-filter current G312 row differs from exact authorized transition",
+      "required_exception": "GR-filter current G312 row"
+    },
+    {
+      "name": "g312_science_controlling_source",
+      "result": "REJECTED_AS_REQUIRED",
+      "message": "GR-filter current G312 row differs from exact authorized transition",
+      "required_exception": "GR-filter current G312 row"
+    },
+    {
+      "name": "ddr_authority_demotion",
+      "result": "REJECTED_AS_REQUIRED",
+      "message": "GR-filter retained DDR authority changed",
+      "required_exception": "GR-filter retained DDR authority changed"
+    },
+    {
+      "name": "pin_drift_udt_gr_filter_reconciliation_2026-09-09/AUTHORITY_RECORD.md",
+      "result": "REJECTED_AS_REQUIRED",
+      "message": "GR-filter authority/source pin changed: udt_gr_filter_reconciliation_2026-09-09/AUTHORITY_RECORD.md",
+      "required_exception": "GR-filter authority/source pin changed"
+    },
+    {
+      "name": "pin_drift_udt_gr_filter_reconciliation_2026-09-09/REGISTRY_TRANSITION.json",
+      "result": "REJECTED_AS_REQUIRED",
+      "message": "GR-filter authority/source pin changed: udt_gr_filter_reconciliation_2026-09-09/REGISTRY_TRANSITION.json",
+      "required_exception": "GR-filter authority/source pin changed"
+    },
+    {
+      "name": "pin_drift_startup_surface_g312_two_premise_adoption_refresh_2026-09-01/ADOPTION_RECORD.md",
+      "result": "REJECTED_AS_REQUIRED",
+      "message": "GR-filter authority/source pin changed: startup_surface_g312_two_premise_adoption_refresh_2026-09-01/ADOPTION_RECORD.md",
+      "required_exception": "GR-filter authority/source pin changed"
+    },
+    {
+      "name": "pin_drift_startup_surface_g310_universal_reciprocity_refresh_2026-08-31/ADOPTION_RECORD.md",
+      "result": "REJECTED_AS_REQUIRED",
+      "message": "GR-filter authority/source pin changed: startup_surface_g310_universal_reciprocity_refresh_2026-08-31/ADOPTION_RECORD.md",
+      "required_exception": "GR-filter authority/source pin changed"
+    },
+    {
+      "name": "positive_validate_conditional_banking",
+      "result": "PASS"
+    },
+    {
+      "name": "unrelated_row_validate_conditional_banking",
+      "result": "REJECTED_AS_REQUIRED",
+      "message": "conditional banking changed an existing scientific registry row",
+      "required_exception": "changed an existing scientific registry row"
+    },
+    {
+      "name": "live_added_row_validate_conditional_banking",
+      "result": "REJECTED_AS_REQUIRED",
+      "message": "G353 conditional banking grade changed",
+      "required_exception": "grade changed"
+    },
+    {
+      "name": "positive_validate_shared_constraint_banking",
+      "result": "PASS"
+    },
+    {
+      "name": "unrelated_row_validate_shared_constraint_banking",
+      "result": "REJECTED_AS_REQUIRED",
+      "message": "shared-constraint banking changed an existing scientific registry row",
+      "required_exception": "changed an existing scientific registry row"
+    },
+    {
+      "name": "live_added_row_validate_shared_constraint_banking",
+      "result": "REJECTED_AS_REQUIRED",
+      "message": "G357 shared-constraint banking grade changed",
+      "required_exception": "grade changed"
+    },
+    {
+      "name": "positive_validate_persistence_banking",
+      "result": "PASS"
+    },
+    {
+      "name": "unrelated_row_validate_persistence_banking",
+      "result": "REJECTED_AS_REQUIRED",
+      "message": "persistence banking changed an existing scientific registry row",
+      "required_exception": "changed an existing scientific registry row"
+    },
+    {
+      "name": "live_added_row_validate_persistence_banking",
+      "result": "REJECTED_AS_REQUIRED",
+      "message": "G361 persistence banking grade changed",
+      "required_exception": "grade changed"
+    },
+    {
+      "name": "positive_validate_restrictiveness_banking",
+      "result": "PASS"
+    },
+    {
+      "name": "unrelated_row_validate_restrictiveness_banking",
+      "result": "REJECTED_AS_REQUIRED",
+      "message": "restrictiveness banking changed an existing scientific registry row",
+      "required_exception": "changed an existing scientific registry row"
+    },
+    {
+      "name": "live_added_row_validate_restrictiveness_banking",
+      "result": "REJECTED_AS_REQUIRED",
+      "message": "G364 restrictiveness banking grade changed",
+      "required_exception": "grade changed"
+    },
+    {
+      "name": "positive_validate_source_metric_banking",
+      "result": "PASS"
+    },
+    {
+      "name": "unrelated_row_validate_source_metric_banking",
+      "result": "REJECTED_AS_REQUIRED",
+      "message": "source-metric banking changed an existing scientific registry row",
+      "required_exception": "changed an existing scientific registry row"
+    },
+    {
+      "name": "live_added_row_validate_source_metric_banking",
+      "result": "REJECTED_AS_REQUIRED",
+      "message": "G367 banking grade changed",
+      "required_exception": "grade changed"
+    },
+    {
+      "name": "positive_validate_reconstruction_banking",
+      "result": "PASS"
+    },
+    {
+      "name": "unrelated_row_validate_reconstruction_banking",
+      "result": "REJECTED_AS_REQUIRED",
+      "message": "reconstruction banking changed an existing scientific registry row",
+      "required_exception": "changed an existing scientific registry row"
+    },
+    {
+      "name": "live_added_row_validate_reconstruction_banking",
+      "result": "REJECTED_AS_REQUIRED",
+      "message": "G370 banking grade changed",
+      "required_exception": "grade changed"
+    },
+    {
+      "name": "positive_validate_coupled_banking",
+      "result": "PASS"
+    },
+    {
+      "name": "unrelated_row_validate_coupled_banking",
+      "result": "REJECTED_AS_REQUIRED",
+      "message": "coupled banking changed an existing scientific registry row",
+      "required_exception": "changed an existing scientific registry row"
+    },
+    {
+      "name": "live_added_row_validate_coupled_banking",
+      "result": "REJECTED_AS_REQUIRED",
+      "message": "G372 banking grade changed",
+      "required_exception": "grade changed"
+    },
+    {
+      "name": "positive_validate_vacuum_scale_banking",
+      "result": "PASS"
+    },
+    {
+      "name": "unrelated_row_validate_vacuum_scale_banking",
+      "result": "REJECTED_AS_REQUIRED",
+      "message": "vacuum-scale banking changed an existing scientific registry row",
+      "required_exception": "changed an existing scientific registry row"
+    },
+    {
+      "name": "live_added_row_validate_vacuum_scale_banking",
+      "result": "REJECTED_AS_REQUIRED",
+      "message": "G374 banking grade changed",
+      "required_exception": "grade changed"
+    },
+    {
+      "name": "positive_validate_berger_banking",
+      "result": "PASS"
+    },
+    {
+      "name": "unrelated_row_validate_berger_banking",
+      "result": "REJECTED_AS_REQUIRED",
+      "message": "Berger banking changed an existing scientific registry row",
+      "required_exception": "changed an existing scientific registry row"
+    },
+    {
+      "name": "live_added_row_validate_berger_banking",
+      "result": "REJECTED_AS_REQUIRED",
+      "message": "G376 banking grade changed",
+      "required_exception": "grade changed"
+    },
+    {
+      "name": "positive_validate_closed_fibre_banking",
+      "result": "PASS"
+    },
+    {
+      "name": "unrelated_row_validate_closed_fibre_banking",
+      "result": "REJECTED_AS_REQUIRED",
+      "message": "closed-fibre banking changed an existing scientific registry row",
+      "required_exception": "changed an existing scientific registry row"
+    },
+    {
+      "name": "live_added_row_validate_closed_fibre_banking",
+      "result": "REJECTED_AS_REQUIRED",
+      "message": "G379 banking grade changed",
+      "required_exception": "grade changed"
+    },
+    {
+      "name": "positive_validate_neighboring_tidal_banking",
+      "result": "PASS"
+    },
+    {
+      "name": "unrelated_row_validate_neighboring_tidal_banking",
+      "result": "REJECTED_AS_REQUIRED",
+      "message": "neighboring-tidal banking changed an existing scientific registry row",
+      "required_exception": "changed an existing scientific registry row"
+    },
+    {
+      "name": "live_added_row_validate_neighboring_tidal_banking",
+      "result": "REJECTED_AS_REQUIRED",
+      "message": "G381 banking grade changed",
+      "required_exception": "grade changed"
+    },
+    {
+      "name": "LIVE.md_explicit_gr_authority",
+      "result": "REJECTED_AS_REQUIRED",
+      "message": "GR-filter current surface contradicts authority: LIVE.md: (?:full quiet )?GR (?:principal.response overlap|dynamics) (?:is|remains) (?:owner.adopted|adopted|a current response.law input)",
+      "required_exception": "GR-filter current surface contradicts authority"
+    },
+    {
+      "name": "LIVE.md_literal_superseded_owner_premise",
+      "result": "REJECTED_AS_REQUIRED",
+      "message": "GR-filter current surface contradicts authority: LIVE.md: UDT must reproduce GR['\u2019]s local principal response and dynamics",
+      "required_exception": "GR-filter current surface contradicts authority"
+    },
+    {
+      "name": "LIVE.md_original_adoption_shorthand",
+      "result": "REJECTED_AS_REQUIRED",
+      "message": "GR-filter current surface contradicts authority: LIVE.md: G312 premises are owner.adopted provisionally",
+      "required_exception": "GR-filter current surface contradicts authority"
+    },
+    {
+      "name": "HANDOFF.md_explicit_gr_authority",
+      "result": "REJECTED_AS_REQUIRED",
+      "message": "GR-filter current surface contradicts authority: HANDOFF.md: (?:full quiet )?GR (?:principal.response overlap|dynamics) (?:is|remains) (?:owner.adopted|adopted|a current response.law input)",
+      "required_exception": "GR-filter current surface contradicts authority"
+    },
+    {
+      "name": "HANDOFF.md_literal_superseded_owner_premise",
+      "result": "REJECTED_AS_REQUIRED",
+      "message": "GR-filter current surface contradicts authority: HANDOFF.md: UDT must reproduce GR['\u2019]s local principal response and dynamics",
+      "required_exception": "GR-filter current surface contradicts authority"
+    },
+    {
+      "name": "HANDOFF.md_original_adoption_shorthand",
+      "result": "REJECTED_AS_REQUIRED",
+      "message": "GR-filter current surface contradicts authority: HANDOFF.md: G312 premises are owner.adopted provisionally",
+      "required_exception": "GR-filter current surface contradicts authority"
+    },
+    {
+      "name": "CURRENT_RESEARCH_PROGRAM.md_explicit_gr_authority",
+      "result": "REJECTED_AS_REQUIRED",
+      "message": "GR-filter current surface contradicts authority: CURRENT_RESEARCH_PROGRAM.md: (?:full quiet )?GR (?:principal.response overlap|dynamics) (?:is|remains) (?:owner.adopted|adopted|a current response.law input)",
+      "required_exception": "GR-filter current surface contradicts authority"
+    },
+    {
+      "name": "CURRENT_RESEARCH_PROGRAM.md_literal_superseded_owner_premise",
+      "result": "REJECTED_AS_REQUIRED",
+      "message": "GR-filter current surface contradicts authority: CURRENT_RESEARCH_PROGRAM.md: UDT must reproduce GR['\u2019]s local principal response and dynamics",
+      "required_exception": "GR-filter current surface contradicts authority"
+    },
+    {
+      "name": "CURRENT_RESEARCH_PROGRAM.md_original_adoption_shorthand",
+      "result": "REJECTED_AS_REQUIRED",
+      "message": "GR-filter current surface contradicts authority: CURRENT_RESEARCH_PROGRAM.md: G312 premises are owner.adopted provisionally",
+      "required_exception": "GR-filter current surface contradicts authority"
+    },
+    {
+      "name": "CURRENT_SCIENTIFIC_PREMISES.md_explicit_gr_authority",
+      "result": "REJECTED_AS_REQUIRED",
+      "message": "GR-filter current surface contradicts authority: CURRENT_SCIENTIFIC_PREMISES.md: (?:full quiet )?GR (?:principal.response overlap|dynamics) (?:is|remains) (?:owner.adopted|adopted|a current response.law input)",
+      "required_exception": "GR-filter current surface contradicts authority"
+    },
+    {
+      "name": "CURRENT_SCIENTIFIC_PREMISES.md_literal_superseded_owner_premise",
+      "result": "REJECTED_AS_REQUIRED",
+      "message": "GR-filter current surface contradicts authority: CURRENT_SCIENTIFIC_PREMISES.md: UDT must reproduce GR['\u2019]s local principal response and dynamics",
+      "required_exception": "GR-filter current surface contradicts authority"
+    },
+    {
+      "name": "CURRENT_SCIENTIFIC_PREMISES.md_original_adoption_shorthand",
+      "result": "REJECTED_AS_REQUIRED",
+      "message": "GR-filter current surface contradicts authority: CURRENT_SCIENTIFIC_PREMISES.md: G312 premises are owner.adopted provisionally",
+      "required_exception": "GR-filter current surface contradicts authority"
+    },
+    {
+      "name": "MEMORY.md_explicit_gr_authority",
+      "result": "REJECTED_AS_REQUIRED",
+      "message": "GR-filter current surface contradicts authority: MEMORY.md: (?:full quiet )?GR (?:principal.response overlap|dynamics) (?:is|remains) (?:owner.adopted|adopted|a current response.law input)",
+      "required_exception": "GR-filter current surface contradicts authority"
+    },
+    {
+      "name": "MEMORY.md_literal_superseded_owner_premise",
+      "result": "REJECTED_AS_REQUIRED",
+      "message": "GR-filter current surface contradicts authority: MEMORY.md: UDT must reproduce GR['\u2019]s local principal response and dynamics",
+      "required_exception": "GR-filter current surface contradicts authority"
+    },
+    {
+      "name": "MEMORY.md_original_adoption_shorthand",
+      "result": "REJECTED_AS_REQUIRED",
+      "message": "GR-filter current surface contradicts authority: MEMORY.md: G312 premises are owner.adopted provisionally",
+      "required_exception": "GR-filter current surface contradicts authority"
+    },
+    {
+      "name": "INDEX.md_explicit_gr_authority",
+      "result": "REJECTED_AS_REQUIRED",
+      "message": "GR-filter current surface contradicts authority: INDEX.md: (?:full quiet )?GR (?:principal.response overlap|dynamics) (?:is|remains) (?:owner.adopted|adopted|a current response.law input)",
+      "required_exception": "GR-filter current surface contradicts authority"
+    },
+    {
+      "name": "INDEX.md_literal_superseded_owner_premise",
+      "result": "REJECTED_AS_REQUIRED",
+      "message": "GR-filter current surface contradicts authority: INDEX.md: UDT must reproduce GR['\u2019]s local principal response and dynamics",
+      "required_exception": "GR-filter current surface contradicts authority"
+    },
+    {
+      "name": "INDEX.md_original_adoption_shorthand",
+      "result": "REJECTED_AS_REQUIRED",
+      "message": "GR-filter current surface contradicts authority: INDEX.md: G312 premises are owner.adopted provisionally",
+      "required_exception": "GR-filter current surface contradicts authority"
+    },
+    {
+      "name": "registry_read_swap_between_validation_and_projection",
+      "result": "PASS",
+      "reads": 1,
+      "poisoned_row_disappeared_into_old_valid_snapshot": true,
+      "injection": "deterministic replacement on second read models concurrent registry write"
+    }
+  ]
+}
