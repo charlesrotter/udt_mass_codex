@@ -1,0 +1,16 @@
+{
+  "command": [
+    "python3",
+    "-B",
+    "startup_surface_current_tracking_compaction_2026-09-09/review/audit_candidate.py",
+    "startup_surface_current_tracking_compaction_2026-09-09/review/repaired_candidate_pins.stdout"
+  ],
+  "cwd": "/home/udt-admin/udt_mass_codex",
+  "started_utc": "2026-09-09T15:27:22.462287+00:00",
+  "duration_seconds": 0.12318630900699645,
+  "returncode": 0,
+  "timeout": false,
+  "address_space_bytes": 536870912,
+  "cpu_seconds": 60,
+  "maxrss_kib": 16860
+}

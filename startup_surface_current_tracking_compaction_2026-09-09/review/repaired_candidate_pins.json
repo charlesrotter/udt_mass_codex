@@ -1,0 +1,21 @@
+{
+  "command": [
+    "sha256sum",
+    "LIVE.md",
+    "HANDOFF.md",
+    "CURRENT_RESEARCH_PROGRAM.md",
+    "CURRENT_SCIENTIFIC_PREMISES.md",
+    "INDEX.md",
+    "MEMORY.md",
+    "tests/test_startup_surface.py",
+    "verify_current_scientific_premises.py"
+  ],
+  "cwd": "/home/udt-admin/udt_mass_codex",
+  "started_utc": "2026-09-09T15:27:13.184411+00:00",
+  "duration_seconds": 0.006705424981191754,
+  "returncode": 0,
+  "timeout": false,
+  "address_space_bytes": 536870912,
+  "cpu_seconds": 60,
+  "maxrss_kib": 7360
+}

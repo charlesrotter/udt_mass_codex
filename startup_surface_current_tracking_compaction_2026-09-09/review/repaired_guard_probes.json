@@ -1,0 +1,16 @@
+{
+  "command": [
+    "python3",
+    "-B",
+    "startup_surface_current_tracking_compaction_2026-09-09/review/replay_probes.py",
+    "probe_fixture_repaired"
+  ],
+  "cwd": "/home/udt-admin/udt_mass_codex",
+  "started_utc": "2026-09-09T15:24:40.082843+00:00",
+  "duration_seconds": 0.45255041599739343,
+  "returncode": 0,
+  "timeout": false,
+  "address_space_bytes": 536870912,
+  "cpu_seconds": 60,
+  "maxrss_kib": 59992
+}

@@ -1,0 +1,35 @@
+--- a/verify_current_scientific_premises.py
++++ b/verify_current_scientific_premises.py
+@@ -1687,6 +1687,7 @@
+                       "G372--G373", "G374--G375", "G376--G378", "SC1 remains a source map"):
+             require(token in normalized, f"current frontier lacks bounded conditional banking status: {token}: {name}")
+     for token in ("constant rescaling", "fixed target scalar", "Weyl/tidal and initial data remain free",
++                  "g_hat=a^-2 g, Lambda_hat=a^2 Lambda", "joint evolution under an",
+                   "LOCAL ANALYTIC", "OPTIONAL UNADOPTED", "not a blanket prerequisite",
+                   "UNRESOLVED/OPEN", "enquiry UNSENT", "UNVERIFIED"):
+         require(token in live, f"LIVE direction distinction missing: {token}")
+--- a/tests/test_startup_surface.py
++++ b/tests/test_startup_surface.py
+@@ -1247,6 +1247,7 @@
+ 
+ @pytest.mark.parametrize("token", (
+     "constant rescaling", "fixed target scalar", "Weyl/tidal and initial data remain free",
++    "g_hat=a^-2 g, Lambda_hat=a^2 Lambda", "joint evolution under an",
+     "LOCAL ANALYTIC", "OPTIONAL UNADOPTED", "not a blanket prerequisite",
+     "UNRESOLVED/OPEN", "enquiry UNSENT", "UNVERIFIED",
+ ))
+@@ -1265,3 +1266,14 @@
+         assert len(re.findall(r"\.(?:\s|$)", text)) == 3, relative
+         assert len(text.split()) <= 65, relative
+         assert "Stop for lay discussion" in text and "no new campaign is authorized" in text
++
++
++@pytest.mark.parametrize("old,new", (
++    ("Lambda_hat=a^2 Lambda", "Lambda_hat=a^-2 Lambda"),
++    ("joint evolution under an", "algebraic reconstruction under an"),
++))
++def test_catch_direction_statement_corruption(tmp_path: Path, old: str, new: str) -> None:
++    root = _startup_copy(tmp_path)
++    _replace(root / "LIVE.md", old, new)
++    with pytest.raises(SystemExit, match="LIVE direction distinction missing"):
++        premise_guard.validate_startup_surface(root)

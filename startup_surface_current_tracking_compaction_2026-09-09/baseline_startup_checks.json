@@ -1,0 +1,19 @@
+{
+  "command": [
+    "python3",
+    "-B",
+    "-m",
+    "pytest",
+    "-q",
+    "tests/test_startup_surface.py::test_current_startup_surface_passes_in_isolation",
+    "tests/test_startup_surface.py::test_active_orientation_surface_stays_readably_bounded"
+  ],
+  "cwd": "/home/udt-admin/udt_mass_codex",
+  "started_utc": "2026-09-09T15:05:51.694783+00:00",
+  "duration_seconds": 0.10436235903762281,
+  "returncode": 4,
+  "timeout": false,
+  "address_space_bytes": 536870912,
+  "cpu_seconds": 60,
+  "maxrss_kib": 32412
+}

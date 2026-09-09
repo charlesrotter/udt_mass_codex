@@ -1607,9 +1607,7 @@ def validate_startup_surface(root: Path) -> None:
         current = " ".join(controls[relative].split())
         for token in ("G379=CF1", "G380=CF2", "LOST, not preserved or recovered",
                       "automatic Hopfion-stabilization mechanism is PAUSED",
-                      "even allowing smooth deformation", CLOSED_FIBRE_BANKING_SOURCE,
-                      "G381=NT1", "G382=NT2", NEIGHBORING_TIDAL_BANKING_SOURCE,
-                      "udt_neighboring_tidal_consistency_campaign_2026-09-08/CAMPAIGN_LOG.md"):
+                      "even allowing smooth deformation", "G381=NT1", "G382=NT2"):
             require(token in current, f"closed-fibre current tracking lacks {token}: {relative}")
 
     for control in PREMISE_REGISTRY_CONTROLS:
@@ -1667,20 +1665,32 @@ def validate_startup_surface(root: Path) -> None:
     require(len(live_next_parts) == 2, "LIVE next-gate section missing")
     live_next = " ".join(live_next_parts[1].split())
     for token in (
-        "G353--G356", "G357--G360", "G361--G363", "G364--G366", "SC1 remains a source map", "conditional mathematical banking",
+        "G381=NT1", "G382=NT2", "COMPLETE", "conditional mathematical banking",
         "G352 physical-realization", "physical identification remains OPEN",
-        "Charles", "no new campaign is authorized",
+        "Charles", "Stop for lay discussion", "no new campaign is authorized",
     ):
         require(token in live_next, f"LIVE next gate lacks bounded conditional banking status: {token}")
     handoff_next_parts = handoff.split("Next:", 1)
     require(len(handoff_next_parts) == 2, "HANDOFF next-gate statement missing")
     handoff_next = " ".join(handoff_next_parts[1].split())
     for token in (
-        "G353--G356", "G357--G360", "G361--G363", "G364--G366", "SC1 remains a source map", "conditional mathematical banking",
+        "G381=NT1", "G382=NT2", "COMPLETE", "conditional mathematical banking",
         "G352 physical-realization", "physical identification remains OPEN",
-        "Charles", "no new campaign is authorized",
+        "Charles", "Stop for lay discussion", "no new campaign is authorized",
     ):
         require(token in handoff_next, f"HANDOFF next gate lacks bounded conditional banking status: {token}")
+
+    # Completed ranges belong to the frontier, not a chronological next-gate dump.
+    for name, block in (("LIVE.md", live), ("HANDOFF.md", handoff)):
+        normalized = " ".join(block.split())
+        for token in ("G353--G356", "G357--G360", "G361--G363", "G364--G366",
+                      "G372--G373", "G374--G375", "G376--G378", "SC1 remains a source map"):
+            require(token in normalized, f"current frontier lacks bounded conditional banking status: {token}: {name}")
+    for token in ("constant rescaling", "fixed target scalar", "Weyl/tidal and initial data remain free",
+                  "g_hat=a^-2 g, Lambda_hat=a^2 Lambda", "joint evolution under an",
+                  "LOCAL ANALYTIC", "OPTIONAL UNADOPTED", "not a blanket prerequisite",
+                  "UNRESOLVED/OPEN", "enquiry UNSENT", "UNVERIFIED"):
+        require(token in live, f"LIVE direction distinction missing: {token}")
 
     contradictory_promotions = (
         r"\buniversal reciprocity(?:\s*/\s*(?:differential dual reciprocity|ddr))?\s+is\s+(?:already\s+)?derived\b",
@@ -1755,6 +1765,12 @@ def validate_startup_surface(root: Path) -> None:
             RESTRICTIVENESS_BANKING_SOURCE,
             SOURCE_METRIC_BANKING_SOURCE,
             RECONSTRUCTION_BANKING_SOURCE,
+            COUPLED_BANKING_SOURCE,
+            VACUUM_SCALE_BANKING_SOURCE,
+            BERGER_BANKING_SOURCE,
+            CLOSED_FIBRE_BANKING_SOURCE,
+            NEIGHBORING_TIDAL_BANKING_SOURCE,
+            "udt_neighboring_tidal_consistency_campaign_2026-09-08/CAMPAIGN_LOG.md",
             "udt_observed_angular_pattern_raw_restart_2026-08-12/",
             "R5_OUTCOME_REPORT.md",
             "R5_EXTERNAL_FOLLOWUP_REVIEW.md",

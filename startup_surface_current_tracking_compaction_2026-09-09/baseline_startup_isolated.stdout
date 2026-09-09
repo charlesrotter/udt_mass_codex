@@ -1,0 +1,57 @@
+FF                                                                       [100%]
+=================================== FAILURES ===================================
+_______________ test_current_startup_surface_passes_in_isolation _______________
+
+tmp_path = PosixPath('/tmp/pytest-of-udt-admin/pytest-23/test_current_startup_surface_p0')
+
+    def test_current_startup_surface_passes_in_isolation(tmp_path: Path) -> None:
+>       premise_guard.validate_startup_surface(_startup_copy(tmp_path))
+
+tests/test_startup_surface.py:617: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+verify_current_scientific_premises.py:1598: in validate_startup_surface
+    validate_source_metric_banking(root, authenticate_sources=False)
+verify_current_scientific_premises.py:836: in validate_source_metric_banking
+    require(record_path.is_file(), "source-metric banking record missing")
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+condition = False, message = 'source-metric banking record missing'
+
+    def require(condition: bool, message: str) -> None:
+        if not condition:
+>           raise SystemExit(message)
+E           SystemExit: source-metric banking record missing
+
+verify_current_scientific_premises.py:322: SystemExit
+____________ test_active_orientation_surface_stays_readably_bounded ____________
+
+    def test_active_orientation_surface_stays_readably_bounded() -> None:
+        limits = {
+            "AGENTS.md": (225, 1950),  # Owner-requested bounded verification-cycle convention.
+            "LIVE.md": (135, 900),
+            "HANDOFF.md": (100, 600),
+                "INDEX.md": (118, 570),
+            "MEMORY.md": (70, 450),
+            "CURRENT_RESEARCH_PROGRAM.md": (155, 1100),
+                "CURRENT_SCIENTIFIC_PREMISES.md": (140, 1320),
+            "README.md": (100, 400),
+            "research/README.md": (80, 300),
+            "research/_registry/README.md": (80, 280),
+            "INFLIGHT_STATE.md": (40, 150),
+        }
+        for relative, (maximum_lines, maximum_words) in limits.items():
+            text = (REPO / relative).read_text(encoding="utf-8")
+            lines = text.splitlines()
+            words = text.split()
+>           assert len(lines) <= maximum_lines, (
+                f"{relative} regrew to {len(lines)} lines (limit {maximum_lines})"
+            )
+E           AssertionError: LIVE.md regrew to 300 lines (limit 135)
+E           assert 300 <= 135
+E            +  where 300 = len(['# LIVE — current state only', '', '<!-- STARTUP_CURRENT_BEGIN -->', '## CURRENT STATE — 2026-09-08', '', 'Branch: `grok`. Synchronize and inspect dirt. This block overrides older status.', ...])
+
+tests/test_startup_surface.py:1184: AssertionError
+=========================== short test summary info ============================
+FAILED tests/test_startup_surface.py::test_current_startup_surface_passes_in_isolation
+FAILED tests/test_startup_surface.py::test_active_orientation_surface_stays_readably_bounded
+2 failed in 0.72s

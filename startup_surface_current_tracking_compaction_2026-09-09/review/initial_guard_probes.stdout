@@ -1,0 +1,6 @@
+{"baseline": "PASS", "fixture": "/home/udt-admin/udt_mass_codex/startup_surface_current_tracking_compaction_2026-09-09/review/probe_fixture_initial"}
+{"probe": "reversed_rescaling_exponent", "outcome": "FALSE_PASS"}
+{"probe": "joint_development_reduced_to_reconstruction", "outcome": "FALSE_PASS"}
+{"probe": "measurement_prerequisite_reversed", "outcome": "CAUGHT", "message": "LIVE direction distinction missing: not a blanket prerequisite"}
+{"probe": "discussion_stop_removed", "outcome": "CAUGHT", "message": "LIVE next gate lacks bounded conditional banking status: no new campaign is authorized"}
+{"restored_fixture": "PASS"}

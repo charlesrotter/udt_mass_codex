@@ -1,0 +1,9 @@
+{"baseline": "PASS", "fixture": "/home/udt-admin/udt_mass_codex/startup_surface_current_tracking_compaction_2026-09-09/review/probe_fixture_repaired"}
+{"probe": "reversed_rescaling_exponent", "outcome": "CAUGHT", "message": "LIVE direction distinction missing: g_hat=a^-2 g, Lambda_hat=a^2 Lambda"}
+{"probe": "joint_development_reduced_to_reconstruction", "outcome": "CAUGHT", "message": "LIVE direction distinction missing: joint evolution under an"}
+{"probe": "measurement_prerequisite_reversed", "outcome": "CAUGHT", "message": "LIVE direction distinction missing: not a blanket prerequisite"}
+{"probe": "discussion_stop_removed", "outcome": "CAUGHT", "message": "LIVE next gate lacks bounded conditional banking status: no new campaign is authorized"}
+{"restored_fixture": "PASS"}
+{"tracked_change_scope": "PASS", "changed": ["CURRENT_RESEARCH_PROGRAM.md", "CURRENT_SCIENTIFIC_PREMISES.md", "HANDOFF.md", "INDEX.md", "LIVE.md", "MEMORY.md", "tests/test_startup_surface.py", "verify_current_scientific_premises.py"]}
+{"ten_pinned_inputs_unchanged_from_baseline": "PASS"}
+{"canon_fixed_manuscript_and_coverage_unchanged": "PASS"}

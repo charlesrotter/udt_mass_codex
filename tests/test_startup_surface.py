@@ -106,6 +106,13 @@ CURRENT_TARGETS = (
     premise_guard.SHARED_CONSTRAINT_BANKING_SOURCE,
     premise_guard.PERSISTENCE_BANKING_SOURCE,
     premise_guard.RESTRICTIVENESS_BANKING_SOURCE,
+    premise_guard.SOURCE_METRIC_BANKING_SOURCE,
+    premise_guard.RECONSTRUCTION_BANKING_SOURCE,
+    premise_guard.COUPLED_BANKING_SOURCE,
+    premise_guard.VACUUM_SCALE_BANKING_SOURCE,
+    premise_guard.BERGER_BANKING_SOURCE,
+    premise_guard.CLOSED_FIBRE_BANKING_SOURCE,
+    premise_guard.NEIGHBORING_TIDAL_BANKING_SOURCE,
     "startup_surface_g310_universal_reciprocity_refresh_2026-08-31/ADOPTION_RECORD.md",
     "startup_surface_g312_two_premise_adoption_refresh_2026-09-01/ADOPTION_RECORD.md",
 )
@@ -150,6 +157,13 @@ def _startup_copy(tmp_path: Path) -> Path:
             premise_guard.SHARED_CONSTRAINT_BANKING_SOURCE,
             premise_guard.PERSISTENCE_BANKING_SOURCE,
             premise_guard.RESTRICTIVENESS_BANKING_SOURCE,
+            premise_guard.SOURCE_METRIC_BANKING_SOURCE,
+            premise_guard.RECONSTRUCTION_BANKING_SOURCE,
+            premise_guard.COUPLED_BANKING_SOURCE,
+            premise_guard.VACUUM_SCALE_BANKING_SOURCE,
+            premise_guard.BERGER_BANKING_SOURCE,
+            premise_guard.CLOSED_FIBRE_BANKING_SOURCE,
+            premise_guard.NEIGHBORING_TIDAL_BANKING_SOURCE,
         ):
             shutil.copy2(REPO / relative, destination)
         else:
@@ -368,7 +382,7 @@ def test_catch_shared_constraint_banking_scientific_source_rewrite(tmp_path: Pat
 def test_catch_shared_constraint_banking_next_gate(tmp_path: Path, name: str, token: str) -> None:
     root = _startup_copy(tmp_path)
     _replace(root / name, token, "REMOVED_BANKING_STATUS")
-    with pytest.raises(SystemExit, match="next gate lacks bounded conditional banking status"):
+    with pytest.raises(SystemExit, match="current frontier lacks bounded conditional banking status"):
         premise_guard.validate_startup_surface(root)
 
 
@@ -487,7 +501,7 @@ def test_catch_restrictiveness_banking_receipt_rewrite(tmp_path: Path) -> None:
 def test_catch_restrictiveness_banking_next_gate(tmp_path: Path, name: str) -> None:
     root = _startup_copy(tmp_path)
     _replace(root / name, "G364--G366", "REMOVED_NEW_BANK")
-    with pytest.raises(SystemExit, match="next gate lacks bounded conditional banking status"):
+    with pytest.raises(SystemExit, match="current frontier lacks bounded conditional banking status"):
         premise_guard.validate_startup_surface(root)
 
 
@@ -591,7 +605,7 @@ def test_catch_persistence_banking_receipt_rewrite(tmp_path: Path) -> None:
 def test_catch_persistence_banking_next_gate(tmp_path: Path, name: str) -> None:
     root = _startup_copy(tmp_path)
     _replace(root / name, "G361--G363", "REMOVED_NEW_BANK")
-    with pytest.raises(SystemExit, match="next gate lacks bounded conditional banking status"):
+    with pytest.raises(SystemExit, match="current frontier lacks bounded conditional banking status"):
         premise_guard.validate_startup_surface(root)
 
 
@@ -968,8 +982,8 @@ def test_catch_chosen_family_mislabeled_current(tmp_path: Path) -> None:
 
 def test_catch_stale_agents_registry_count(tmp_path: Path) -> None:
     root = _startup_copy(tmp_path)
-    _replace(root / "AGENTS.md", "349-row exact registry", "346-row exact registry")
-    with pytest.raises(SystemExit, match="current route lacks 349-row exact registry"):
+    _replace(root / "AGENTS.md", "365-row exact registry", "364-row exact registry")
+    with pytest.raises(SystemExit, match="current route lacks 365-row exact registry"):
         premise_guard.validate_startup_surface(root)
 
 
@@ -1229,3 +1243,37 @@ def test_retired_route_words_absent_from_active_orientation() -> None:
         text = (REPO / relative).read_text(encoding="utf-8").lower()
         for token in premise_guard.STALE_STARTUP_TOKENS:
             assert token.lower() not in text, f"{token!r} revived in {relative}"
+
+
+@pytest.mark.parametrize("token", (
+    "constant rescaling", "fixed target scalar", "Weyl/tidal and initial data remain free",
+    "g_hat=a^-2 g, Lambda_hat=a^2 Lambda", "joint evolution under an",
+    "LOCAL ANALYTIC", "OPTIONAL UNADOPTED", "not a blanket prerequisite",
+    "UNRESOLVED/OPEN", "enquiry UNSENT", "UNVERIFIED",
+))
+def test_catch_current_direction_distinction_removal(tmp_path: Path, token: str) -> None:
+    root = _startup_copy(tmp_path)
+    _replace(root / "LIVE.md", token, "REMOVED_DIRECTION_DISTINCTION")
+    with pytest.raises(SystemExit, match="LIVE direction distinction missing"):
+        premise_guard.validate_startup_surface(root)
+
+
+def test_current_next_gate_is_three_sentences_not_campaign_history() -> None:
+    for relative, marker in (("LIVE.md", "### Next gate"), ("HANDOFF.md", "Next:"),
+                             ("CURRENT_RESEARCH_PROGRAM.md", "## Current next gate")):
+        text = (REPO / relative).read_text().split(marker, 1)[1]
+        text = text.split("<!-- STARTUP_CURRENT_END -->", 1)[0].strip()
+        assert len(re.findall(r"\.(?:\s|$)", text)) == 3, relative
+        assert len(text.split()) <= 65, relative
+        assert "Stop for lay discussion" in text and "no new campaign is authorized" in text
+
+
+@pytest.mark.parametrize("old,new", (
+    ("Lambda_hat=a^2 Lambda", "Lambda_hat=a^-2 Lambda"),
+    ("joint evolution under an", "algebraic reconstruction under an"),
+))
+def test_catch_direction_statement_corruption(tmp_path: Path, old: str, new: str) -> None:
+    root = _startup_copy(tmp_path)
+    _replace(root / "LIVE.md", old, new)
+    with pytest.raises(SystemExit, match="LIVE direction distinction missing"):
+        premise_guard.validate_startup_surface(root)

@@ -1,0 +1,1870 @@
+diff --git a/CURRENT_RESEARCH_PROGRAM.md b/CURRENT_RESEARCH_PROGRAM.md
+index e9a02d73..1f8ed1bb 100644
+--- a/CURRENT_RESEARCH_PROGRAM.md
++++ b/CURRENT_RESEARCH_PROGRAM.md
+@@ -1,6 +1,6 @@
+ # Current UDT research program
+ 
+-Date: 2026-09-08
++Date: 2026-09-09
+ 
+ `LIVE.md` controls status; the exact 365-row `CURRENT_SCIENTIFIC_PREMISES.tsv` controls ownership.
+ 
+@@ -36,7 +36,7 @@ connected scalar. None supplies population, realized history, matter, absolute s
+ | G277--G281 | Observational interface and provenance controls | Native SNe light transfer or preferred scale |
+ | G282--G312 | History/topology/causality funnel and owner-provisional bounded response constitution | Canon or unique universe |
+ | G313--G337 | Multibranch solution arena, lawful data/developments, mode tiles, Ricci-line and response-jet structure | Occupancy, generic stability, or matter |
+-| G338--G349 | Pair, causal, cone, quotient-screen, Jacobi, phase-space, directional-area, observer and finite-patch geometry | Geometric endpoint image-union, carried content, transfer, distance, or route selection |
++| G338--G349 | Pair, cone, screen, Jacobi, phase-space and area geometry | Endpoint image-union, physical content or transfer |
+ | G350 | Exact `R^p A^q` classification in the declared local multiplicative class | Selection of weights, conservation, source content, or cross-label/caustic law |
+ | G351 | Owner-provisional source-free label-measure conservation; regular density has `R^p A^-1` | Selection of `p`, source/population, cross-label physics, detector, or light |
+ | G352 | Owner-provisional continuous clock-rate readout; chosen product realization has `T_clock=R A^-1` | Atomic crossing rate, physical carried object, source/population, detector, light, or energy |
+@@ -46,253 +46,64 @@ connected scalar. None supplies population, realized history, matter, absolute s
+ | G364--G366 | Conditional tangent/exact recipe departure, local recurrent-root necessity and fixed-product functional freedom | Genericity, all-isometry census, physical identification or instrument law |
+ | G367--G369 | Conditional full-tube current, optional tensor-class restriction and source-comparison/data interface | Admitted physical source law, content identity or coupled existence |
+ | G370--G371 | Conditional optional nonzero reconstruction and full-covector fixed/free product-data compatibility | Admitted nonvacuum extension, physical source selection or independently supplied-data coupled evolution |
+-| G372--G373 | Conditional restricted independent initial data and LOCAL ANALYTIC joint development with original product | Smooth well-posedness, stability, physical content or UDT source selection; optional branch PAUSED |
++| G372--G373 | Restricted independent data, LOCAL ANALYTIC joint development under optional law | Smooth well-posedness, stability, physical adoption; branch PAUSED |
++| G374--G375 | Fixed-base local positive conformal compatibility/classification | Absolute scale, selected scalar or whole-geometry DOF |
++| G376--G378 | BI1 prerequisite, global lawful data and marked Ricci-line movement | Closed fibres, physical stability or carrier identification |
++| G379--G380 | Closed-fibre discriminator and lawful nonpreservation counterexample | Generic failure, topology change or physical instability |
++| G381--G382 | Neighboring tidal obstruction, restricted null jets and actual local Lambda=0 realization | General metric realization, selected physical modes or content |
+ 
+-The active evaluator is `udt_uncompressed_pair_kernel_reconstruction_2026-08-14/`. G190--G198 are
+-formula-level regression and provenance controls excluding G116/G189, P1, fitted kernels,
+-Lambda-CDM distance, `X_max`, and protected work as construction inputs. Exact row-level grades and
+-source paths belong in the premise TSV, not this startup summary.
++The active evaluator is `udt_uncompressed_pair_kernel_reconstruction_2026-08-14/`.
++G190--G198 are controls, not construction inputs. Exact grades belong to the premise TSV.
+ 
+ ## Open boundary
+ 
+-The corpus owns a conditional evaluator, angular-before-readout, a bounded owner-adopted response
+-constitution, legal initial-data/development families, metric-derived infinitesimal and finite
+-null-screen geometry on supplied spacetimes, and a provisionally adopted source-free conserved
+-label measure. For its nonzero absolutely continuous regular density, G351 fixes inverse area.
+-G352 fixes observer weight `p=1` only for one owner-provisional continuous clock-rate readout on an
+-explicitly chosen phase-independent product realization. It does not own populated germs, a unique
+-universe, initial-data occupancy, generic nonlinear stability, source content, sourced balance,
+-cross-label physics, emission or
+-detection, light transfer, physical operational distance, matter/mass, realized history, absolute
+-scale, or `X_max`. G349's finite sheet area is not geometric endpoint image-union area; that union
+-requires the supplied global endpoint map and preimage identification.
++G351's owner-provisional measure fixes inverse area only for nonzero regular AC density;
++G352 fixes `p=1` only for its chosen continuous phase/product clock readout. Neither identifies
++physical content, emission/detection, light/energy, sources, population, matter, scale or `X_max`.
++G349 finite sheet area is not endpoint image-union; that needs supplied global preimages.
+ 
+ R2--R5 remain verified with caveats; 184,300 covariance rows remain unresolved and no preferred
+ scale follows. Imported transfer in earlier observational controls stays imported.
+ 
+-## Current next gate
++## Direction distinctions and current boundaries
++
++G313 already retains positive/zero/negative scalar sectors and constant homotheties;
++G314 separates conditional field theory with supplied data from optional unique-history selection.
++The connected scalar fixes only the Ricci sector; Weyl/tidal geometry and initial data remain free.
++G374/G375 restrict position-dependent conformal factors on a FIXED base/domain, not overall scale:
++`g_hat=a^-2 g, Lambda_hat=a^2 Lambda, a>0`. Fixed-target restrictions and positivity remain.
++No new “scalar selection” campaign is justified merely by repeating the same examined premises.
++Carried measure, configuration population and history selection are distinct; “occupancy” is not a law.
++
++G372/G373 go beyond reconstruction: independently supplied restricted density/phase data and geometry
++have actual LOCAL REAL ANALYTIC joint development under an OPTIONAL UNADOPTED connection.
++All chosen product, initial matching, analytic/local method and review limits survive;
++three vacuous checks remain EXCLUDED. This is dynamical coherence, not UDT selection of the coupling.
++The optional source-model branch is PAUSED; the completed nonselection assessment is not a new task.
++
++G379=CF1/G380=CF2 reject universal closed-fibre preservation of the continued Ricci eigenline,
++even allowing smooth deformation, in the supplied marked nonround/local-development class.
++Preserving examples remain; no genericity, topology change, physical instability or UDT failure.
++The automatic Hopfion-stabilization mechanism is PAUSED; no rescue carrier/action/restriction.
++CF2 buffers are LOST, not preserved or recovered; all source review limits remain controlling.
++HB2/HB3 and BI2/BI3 remain UNPROMOTED; G376 banked only the required BI1 predecessor.
++
++G381=NT1/G382=NT2 conditional banking is COMPLETE, with dependency G381 before G382.
++Full four-slot connection correction and finite first-jet limits remain; the restricted NONZERO REAL
++rank-one classification in all constant-Lambda sectors differs from actual smooth LOCAL Lambda=0
++realization. Free profiles, supplied future frame/slice and lost-buffer/unsnapshotted-code caveats remain.
++Exact bank records and original campaign logs/reviews are indexed in `INDEX.md`, not duplicated here.
++
++Geometric theory/calibration and possible emergence remain parallel, neither prerequisite.
++Explicit justified transfer/instrument assumptions can support conditional measurements;
++neither emergent light nor an admitted sourced sector is a blanket prerequisite for every route.
++No measurement assumption is silently adopted. GOCE PARKED, eligibility UNRESOLVED/OPEN,
++enquiry UNSENT; GW procedure parked at its design gate, clock/complementary campaigns complete.
++The instrument gaps do not block all theory. Fixed manuscript/coverage stays through G352.
++Backup completeness/pre-reboot unsaved state remain UNVERIFIED; ScratchDisk is archive-only.
+ 
+-The four-step campaign and owner-authorized G353--G356 conditional mathematical banking are complete;
+-physical identification remains OPEN. Its CHOSEN curvature/
+-derivative recipes, optional naturality class and fixed-label product conditions remain explicit.
+-No fifth compatibility example is requested.
++## Current next gate
+ 
+-Charles authorized G357--G360 conditional mathematical banking of SC2--SC5 from the completed
+-five-reviewed-step campaign. SC1 remains a source map. Shared ideal readout/weight constraints,
+-eventwise algebraic curvature and local phase/optional compact results retain exact reviewed scope.
+-See `udt_g357_g360_conditional_banking_2026-09-07/BANKING_RECORD.md`; all original evidence,
+-including initial and repaired false passes, remains unchanged. Pointwise algebraic sufficiency is
+-not full lawful-data/PDE realization; free phase propagation is not recipe/product persistence.
+-G361--G363 bank PC1--PC3 at exactly the owner-authorized reviewed conditional scopes.
+-Record: `udt_g361_g363_conditional_banking_2026-09-07/BANKING_RECORD.md`; the original
+-three-step campaign remains unchanged. Restricted seed class, chosen recipe, local wave-method
+-hypothesis, initial phase/product matching and all review caveats remain load-bearing.
+-G364--G366 bank RC1--RC3 as conditional mathematics, VERIFIED-WITH-CAVEATS:
+-constrained tangent departure; exact lawful recipe failure and local parallel-representative
+-necessity in the full Ricci-flat nonzero recurrent-root class; and functional metric freedom at
+-the SAME fixed recipe/product detected by a registered eventwise ideal tidal query.
+-The forward initial-data wave-method hypothesis remains; root-only, other sectors/global domains,
+-genericity, stability and all-isometry classification are unresolved here. RC2's exposure caveat stays.
+-Exact banking: `udt_g364_g366_conditional_banking_2026-09-07/BANKING_RECORD.md`;
+-original campaign/reviews remain unchanged. Ideal-query calibration is not an instrument law.
+-Remaining in the preserved class, leaving this construction, and violating original admitted
+-equations are different outcomes. Recipe failure is not a verdict against UDT.
+-Geometric theory followed by observational calibration and possible emergence are parallel;
+-neither is prerequisite. The approved tidal instrument/held-out-constraint feasibility campaign
+-returned two reviewed provisional findings, TM1/TM2, VERIFIED-WITH-CAVEATS, not banked.
+-`udt_tidal_measurement_feasibility_campaign_2026-09-07/DECISION_BRIEF.md` and its compact log
+-record the conditional local instrument map and finite-design identifiability/test criteria.
+-Absolute scalar bias degeneracy need not erase every unused contrast; unrestricted offsets,
+-scalar erasure and duplicated inputs can erase the proposed signal information. The declared
+-fixed linear pre-processing nuisance class and independently justified errors are essential.
+-Real product/version/calibration/error eligibility remains OPEN. No observations fitted,
+-third example, new instrument law, physical identification, or accepted-grade change.
+-The owner-authorized GOCE product eligibility audit returned one fresh-reviewed document result,
+-PE1 VERIFIED-WITH-CAVEATS, not promoted: exact2018 TN3397 recovered; baseline0202 and cached
+-one-item processor07.00 metadata distinguished from deployed configuration. Final Algorithm16
+-does not itself project away trace, but upstream target retention, external calibration/support,
+-error bounds and a half/full-arm convention ambiguity remain unresolved. It stopped after one
+-reviewed step at the indispensable evidence gate, with no manufactured second example or data fit.
+-Brief/review: `udt_goce_product_eligibility_audit_2026-09-07/DECISION_BRIEF.md`.
+-No whole-product ineligibility, flight bug or new-physics requirement follows. TM1/TM2 remain
+-unpromoted; original scientific sources, registry, fixed manuscript and canon are unchanged.
+-Charles authorized a focused GOCE documentation follow-up, not another compatibility campaign.
+-Current assessment and UNSENT enquiry, with controlling review records:
+-`udt_goce_documentation_followup_2026-09-07/DECISION_BRIEF.md`.
+-Historical processor/configuration-reference fields provide exact enquiry locators;
+-TN3397's approximate attitude covariance is not a validated scalar-contrast error model.
+-The historical trace-threshold monitoring flag prompts a0202 applicability/selection question,
+-not a claim of current censoring or trace erasure. Release-specific retained response,
+-calibration/support/error bounds and arm/channel convention still require evidence.
+-Equivalent trusted documentation or justified bounds may suffice without every raw sample.
+-Charles PARKED GOCE, with eligibility UNRESOLVED/OPEN, not rejected and not awaiting a reply.
+-Preserve the UNSENT approved enquiry and all prior findings; no contact, repeated searches or
+-further GOCE analysis. The prior submission/proposal package retains its historical recorded state.
+-The practical observational-route selection campaign is COMPLETE at three fresh-reviewed steps,
+-VERIFIED-WITH-CAVEATS, without observational fitting or scientific promotion. C (laboratory
+-clocks), R (solar radio tracking) and W (GW strain) were compared. The shortest documented
+-next route is a conditional published-summary clock-gradient benchmark, with roughly24%
+-relative gradient sensitivity under the source's error model—not a unique UDT signal.
+-Brief/log/reviews: `udt_observational_route_selection_campaign_2026-09-07/DECISION_BRIEF.md`.
+-Charles's approved local clock benchmark is COMPLETE at two fresh-reviewed steps,
+-VERIFIED-WITH-CAVEATS; brief/reviews/log:
+-`udt_local_clock_metric_benchmark_campaign_2026-09-07/DECISION_BRIEF.md`.
+-It constrains effective upward d ln N/dh=(1.24±0.26)e-16 m^-1 under supplied
+-stationary, near-linear, finite-cloud and metrology assumptions. Residual about-1.5
+-in units10^-19/cm gives zero-inclusion in both displayed difference bands (standard-uncertainty widths2.60/2.70),
+-not confidence coverage or distinctive UDT acceptance. Cross-correlation bounds do not
+-cover arbitrary omitted bias; unrestricted additive gradient bias destroys identifiability.
+-Initial false passes and one same-premise repair per step are preserved.
+-No raw-pair fit or experimental recertification occurred. Independent gravimetry/geometry
+-and supplied instrument controls predicted a
+-clock gradient without retuning; published outcome exposure and shared control/error limitations
+-remain explicit. Ratios alone do not attach scale; dimensional anchors may fix it within an
+-identified family. Full geometry/history and physical content remain unselected.
+-Source and review repairs are preserved. Existing SNe assessments were reused without fits.
+-Ideal complementary tides remain mathematical groundwork, not an available real-data experiment;
+-coherent geometric calibration and emergence remain parallel, neither a prerequisite for the other.
+-No correspondence, purchases, physical adoption, grades, canon or fixed-manuscript changes;
+-The complementary-observable campaign is complete at its two reviewed conditional steps:
+-`udt_complementary_wave_observable_campaign_2026-09-07/DECISION_BRIEF.md`.
+-CO1 supplies the scoped wave-tidal/readout and free-waveform null relation; CO2 checks
+-nominal H1/L1/V1 rank2/condition5.62 with one contrast, not three independent holdouts.
+-Supplied response/astrometry/error assumptions remain; CO1/CO2 did not include strain/PSD
+-analysis or eligibility promotion. CO1 repair history and both separate-context reviews are preserved.
+-The authorized fixed-window campaign is COMPLETE after TWO reviewed steps in
+-`udt_gw170817_fixed_window_test_campaign_2026-09-07/`, stopping at its frozen sensitivity gate.
+-FW1/FW2 R1 are VERIFIED-WITH-CAVEATS at exact narrowed scopes, not accepted-grade promotions.
+-The33 off-source supports give target crossings5/168,3/168,3/168 versus required152/168;
+-one retained reference dominates the maximum threshold. Independent recomputation/review
+-closed the inclusive-bin repair; original failures and exposure history are preserved.
+-No event samples/contrast were examined and FW3 was not begun. No geometric constraint,
+-population-power claim or instrument/UDT-wide verdict follows. Physical response/error
+-eligibility remains OPEN; the transient runtime blocker is resolved. The actual349-row
+-premise audit passed; accepted science/canon/fixed-snapshot manuscript remain unchanged.
+-The authorized response-error/robustness DESIGN campaign reached its reviewed early stop:
+-`udt_gw_response_robustness_design_campaign/DECISION_BRIEF.md`. RD1 is VERIFIED-WITH-CAVEATS
+-conditional design mathematics: training-bounded leakage, a scoped finite-sample limitation,
+-sharp norm-budget readout intervals and a supplied arm-transfer bound. These are not accepted-grade
+-changes or actual-product/UDT no-go results. Complete target-level response/support control remains
+-OPEN; RD2 was NOT STARTED. No new strain/event samples or existing33 development records were
+-opened. The fresh349 audit passed; premises/canon/fixed-snapshot manuscript remain unchanged.
+-This particular GW procedure remains parked at its design gate.
+-The theory-first source–metric connection campaign completed its3 reviewed scientific steps:
+-`udt_source_metric_connection_campaign_2026-09-08/DECISION_BRIEF.md`; compact evidence/status in its CAMPAIGN_LOG.md.
+-SM1 gives a regular4D conserved current; SM2 constrains an OPTIONAL algebraic tensor class;
+-SM3 gives metric-data/curvature consequences only under an UNADOPTED source comparison.
+-Charles authorized G367--G369 conditional mathematical banking of SM1--SM3 at EXACT reviewed scopes:
+-`udt_g367_g369_conditional_banking_2026-09-08/BANKING_RECORD.md`.
+-Promotion integration is COMPLETE: full352 audit and fresh fidelity PASS_WITH_CAVEATS;
+-its EXECUTION_RECORD.md owns exact completion checks and publication history.
+-No prior grade, physical premise, canon or fixed-snapshot manuscript changes. Physical identification
+-and source-response closure remain OPEN. Original candidate/review/history bytes stay unchanged.
+-The approved metric-only reconstructibility campaign completed2 reviewed scientific steps:
+-`udt_metric_source_reconstructibility_campaign_2026-09-08/DECISION_BRIEF.md`.
+-RT1 gives local optional nonzero-curvature reconstruction criteria and phase-data freedom;
+-RT2 gives full-covector fixed-product compatibility and the fixed/free data distinctions.
+-Charles authorizes G370=RT1 and G371=RT2 conditional banking at EXACT reviewed scopes:
+-`udt_g370_g371_conditional_banking_2026-09-08/BANKING_RECORD.md`.
+-Promotion integration is COMPLETE: full354 audit and fresh fidelity PASS_WITH_CAVEATS.
+-Its EXECUTION_RECORD.md owns exact checks and preservation/publication history.
+-Original candidates/reviews/history remain unchanged, including the reviewer syntax failure.
+-The optional NONZERO comparison is NOT an admitted extension of G312's bounded vacuum S=0 arena.
+-Fixed/free data distinctions and FULL ambient-neighborhood covector closure remain controlling.
+-Completed G369 source assessment is reused: the examined admitted fragment does not select
+-this source law. Reconstruction from a metric is not independent-data coupled evolution.
+-Charles authorizes G372=CD1 and G373=CD2 conditional mathematical banking at EXACT reviewed scopes:
+-`udt_g372_g373_conditional_banking_2026-09-08/BANKING_RECORD.md`.
+-Promotion integration is COMPLETE after full356 and fresh fidelity gates; its EXECUTION_RECORD.md owns completion.
+-CD1 supplies a restricted smooth constrained initial-data family; CD2 supplies LOCAL REAL ANALYTIC
+-joint development, analytic geometric uniqueness and original-product propagation, VERIFIED-WITH-CAVEATS.
+-THREE vacuous author product checks remain EXCLUDED from evidence; original candidate/review bytes stay fixed.
+-Optional source law, chosen product, restricted family and method/review limitations remain explicit.
+-No smooth well-posedness, stability, physical identification or selection by UDT follows.
+-The optional source-model branch is PAUSED after its completed bounded dynamical-coherence campaign.
+-The approved core vacuum/common-scale campaign returned two reviewed conditional candidates:
+-`udt_vacuum_common_scale_campaign_2026-09-08/DECISION_BRIEF.md`.
+-Charles authorizes exact-scope conditional banking of VS1--VS2 as G374--G375:
+-`udt_g374_g375_conditional_banking_2026-09-08/BANKING_RECORD.md`.
+-Integration is COMPLETE after full358 and fresh fidelity gates; its EXECUTION_RECORD.md owns completion.
+-Fixed supplied base geometry, local positive domains, fixed/free target scalar and all review caveats remain.
+-No particle stability, physical size or absolute scale follows; original evidence remains unchanged.
+-G131 reduced-control conformal blindness is NOT blindness of G176/G180 completed tape/depth.
+-The Hopfion bridge-and-stability research/review is COMPLETE at three reviewed steps:
+-`udt_hopfion_bridge_stability_reassessment_2026-09-08/DECISION_BRIEF.md`; its execution/publication receipts own repository closure.
+-HB1 recovers the surviving conditional finite-box carrier result and later intrinsic geometric bridge.
+-HB2 gives full first-normal Ricci-line drift; HB3 gives the local closed/nonclosed spatial-curve alternative.
+-Both new mathematical candidates remain UNPROMOTED, with strict G331/G332 family/gap/root,
+-marked normal slices and imported smooth Cauchy/isometry-method restrictions. No topology-change,
+-particle stability, physical size, scale or old-carrier Hessian transfer follows.
+-The separate Berger initial-data campaign is COMPLETE at three reviewed steps:
+-`udt_berger_initial_data_preservation_campaign_2026-09-08/DECISION_BRIEF.md`.
+-BI1 gives the full first-normal image/projector criterion and lawful homogeneous K quadric.
+-BI2 gives actual homogeneous local branch/circle preservation, with direct unaveraged
+-quotient-metric preservation iff horizontal shear vanishes. BI3 realizes local analytic
+-inhomogeneous constraint data with nonzero line drift; no global compact extension follows.
+-Original candidates retain their UNPROMOTED history. Full reviews retain harness caveats;
+-BI2's one fresh focused review clears isolation without erasing its original exposure.
+-Supplied nonround geometry, original vacuum premises, normal marking, spectral gaps,
+-analytic/local-method restrictions and no physical-stability/scale inference remain.
+-The Berger global-constraint campaign is COMPLETE at two freshly reviewed steps:
+-`udt_berger_global_constraint_campaign_2026-09-08/DECISION_BRIEF.md`.
+-BG1 gives a global small-TT nonlinear constraint family at fixed gamma/Lambda,
+-with trace determined rather than additionally fixed; baseline-mean fixing is rigid.
+-BG2 gives arbitrary-small GLOBAL lawful data with nonzero full marked Ricci-line
+-drift at any marked point of each fixed nonround Berger background. Actual short
+-normal-time departure remains conditional on the smooth marked Cauchy method.
+-Both original candidates are VERIFIED-WITH-CAVEATS; retain h!=0, compact boundary-free
+-domain, small-data/method restrictions, full tensor and all review caveats.
+-Three actual symbol-only false passes and the reviewer assembly repair stay.
+-No orbit-closure/fibration-loss, topology-change, physical-stability or scale claim.
+-Charles authorizes exact-scope conditional banking G376=BI1 (required prerequisite),
+-G377=BG1 and G378=BG2; exact integration/fidelity gate receipts are recorded in
+-`udt_g376_g378_conditional_banking_2026-09-08/BANKING_RECORD.md`.
+-HB2/HB3 and BI2/BI3 remain UNPROMOTED; no unrelated prerequisite is promoted.
+-Banking is COMPLETE after full361 and fresh dependency/fidelity gates.
+-The closed-fibre campaign completed TWO reviewed conditional steps:
+-`udt_closed_fibre_persistence_campaign_2026-09-08/DECISION_BRIEF.md`.
+-CF1 separates closure, regular fibration and arbitrary-diffeomorphism equivalence.
+-CF2: for each fixed nonround Berger S3/signed h!=0, arbitrarily small ACTUAL
+-global lawful K at fixed gamma/Lambda yield SOME nonclosed Ricci-line leaves at
+-EVERY sufficiently small nonzero actual normal time. The leaf may depend on time.
+-Retain supplied Gaussian marking, positive metrics/simple gap, chosen torus-plus-
+-conjugation data symmetry, exact global TT/IFT and smooth Cauchy/isometry methods.
+-G330 pure-trace Hopf survivors remain; no genericity, topology-change, physical
+-stability, carrier adoption or UDT-failure inference. Charles authorizes exact-scope
+-conditional banking G379=CF1 and G380=CF2; dependency/integration/fidelity gates:
+-`udt_g379_g380_conditional_banking_2026-09-08/BANKING_RECORD.md` and its execution record.
+-No extra prerequisite or unrelated predecessor promotion. Original UNPROMOTED
+-evidence remains unchanged. Whole reviews/false-pass evidence control; CF2
+-intermediate buffered reviewer outputs were LOST, not preserved or recovered.
+-The admitted equations do not universally preserve closed Hopf fibres of this
+-continued Ricci eigenline, even allowing smooth deformation, at that exact scope.
+-This identification as an automatic Hopfion-stabilization mechanism is PAUSED.
+-No restrictions, carrier or energy functional will be added to rescue it.
+-Further investigation needs an independently motivated question, not another example.
+-The previous next-direction comparison/proposal remains preserved:
+-`udt_g379_g380_conditional_banking_2026-09-08/NEXT_CAMPAIGN_PROPOSAL.md`.
+-The neighboring-tidal campaign is COMPLETE at TWO reviewed steps:
+-`udt_neighboring_tidal_consistency_campaign_2026-09-08/CAMPAIGN_LOG.md`.
+-Charles authorizes exact-scope conditional banking G381=NT1 and G382=NT2:
+-`udt_g381_g382_conditional_banking_2026-09-09/BANKING_RECORD.md`.
+-Its EXECUTION_RECORD.md owns integration/fidelity completion. G381 is the required
+-prerequisite for G382; no unrelated predecessor is promoted. Original UNPROMOTED
+-campaign evidence remains unchanged. Full FOUR-slot correction and finite first-jet
+-limits survive; raw slopes require comparison data except at the stated W=0 event.
+-NT2 retains NONZERO REAL rank-one data, all-Lambda necessity versus ACTUAL smooth
+-LOCAL Lambda=0 realization, supplied future frame/slice/K and free smooth profiles.
+-Both original false-pass pairs and one guard repair each remain; NT1 unflushed
+-intermediates are LOST, not recovered, and its initial reviewer code was not
+-separately snapshotted. No general realization, physical content or propagation law.
+-After banking, stop for discussion. No successor campaign, caustic-current task,
+-third CF step or Hopf rescue is authorized.
+-Beyond this explicitly approved scope, no new campaign is authorized.
+-Execution/publication receipts own closure; prior evidence remains unchanged.
+-Carrier/action/boundary/evolution adoption remains unauthorized.
+-No physical adoption, earlier-grade, canon, fixed-manuscript or observation change.
+-Clock and complementary campaigns are exhausted; emergence remains parallel.
+-This instrument-specific evidence gap does not block geometric or emergence research.
+-The G352 physical-realization gap does not imply that a new physical premise is necessary.
+-Supplied initial fields and query geometry are legitimate data; an unsupported instrument law is
+-not made legitimate by calling it a definition. The fixed-snapshot central manuscript remains
+-unchanged through G352. History, matter, scale, `X_max`, and canon remain open.
++G381=NT1 and G382=NT2 conditional mathematical banking is COMPLETE at the reviewed scopes.
++The G352 physical-realization question remains: physical identification remains OPEN.
++Stop for lay discussion with Charles; no new campaign is authorized, and any chosen work order includes checks, fresh separate-context review and bounded same-premise repair.
+diff --git a/CURRENT_SCIENTIFIC_PREMISES.md b/CURRENT_SCIENTIFIC_PREMISES.md
+index 236c9586..6a684351 100644
+--- a/CURRENT_SCIENTIFIC_PREMISES.md
++++ b/CURRENT_SCIENTIFIC_PREMISES.md
+@@ -1,37 +1,10 @@
+ # Current scientific premises — bounded orientation
+ 
+-`LIVE.md` owns current status. The exact 365-row `CURRENT_SCIENTIFIC_PREMISES.tsv` owns row-level
+-grades and source paths; run `python3 verify_current_scientific_premises.py` before querying it.
+-
+-G376=BI1 (separately required prerequisite), G377=BG1 and G378=BG2 now carry
+-Charles's exact-scope conditional banking authorization. Integration/fidelity
+-receipts are owned by `udt_g376_g378_conditional_banking_2026-09-08/BANKING_RECORD.md`
+-and its EXECUTION_RECORD.md; no completion is inferred from this orientation.
+-ENTIRE source candidates/results/reviews and false-pass evidence control; no old
+-row changes. BI1's arbitrary-smooth operator, not its homogeneous restriction,
+-feeds BG2. HB2/HB3 and BI2/BI3 remain UNPROMOTED. The separately authorized
+-closed-fibre campaign is COMPLETE at TWO reviewed conditional results, CF1/CF2,
+-now authorized for exact-scope banking as G379/G380; completion gates are in
+-`udt_g379_g380_conditional_banking_2026-09-08/BANKING_RECORD.md` and its execution record.
+-No extra prerequisite is needed; original UNPROMOTED history stays unchanged.
+-CF2 gives arbitrary-small global lawful data with some nonclosed
+-leaves at every sufficiently short nonzero actual normal time, under its exact
+-marking/gap/symmetry/TT/IFT/Cauchy/isometry-method scope. The leaf can depend on time.
+-G330 preserving examples remain. Entire reviews and false-pass/repair limits control.
+-Lost intermediate reviewer outputs remain LOST, not recovered or preserved.
+-The admitted equations do not universally preserve closed Hopf fibres of this
+-continued Ricci eigenline even under smooth deformation, at that conditional scope.
+-This automatic Hopfion-stabilization identification is PAUSED; no rescue carrier,
+-energy functional or added restriction. Charles separately approved the neighboring-
+-tidal consistency campaign, now COMPLETE. Charles authorizes G381=NT1 and
+-G382=NT2 exact-scope conditional banking; G381 is banked before G382's accepted use.
+-`udt_g381_g382_conditional_banking_2026-09-09/BANKING_RECORD.md` and its execution
+-record own integration/fidelity gates. All original UNPROMOTED evidence stays fixed.
+-Full slot corrections, finite-jet limits, restricted real rank-one class, all-Lambda
+-necessity versus actual local Lambda=0 realization, free profiles and all repair/
+-LOST-output/unsnapshotted-code caveats remain. No successor; stop for discussion.
+-No generic failure, physical instability, topology change or UDT failure.
+-No physical identification, stability, new premise, canon or fixed-manuscript change.
++`LIVE.md` owns current status. The exact 365-row `CURRENT_SCIENTIFIC_PREMISES.tsv` owns grades;
++run `python3 verify_current_scientific_premises.py` before querying exact rows.
++Conditional banking through G382 is COMPLETE, VERIFIED-WITH-CAVEATS at exact reviewed scopes.
++Whole bank records, source candidates and reviews control; `INDEX.md` supplies their paths.
++Grades, premises, canon and the fixed through-G352 manuscript are unchanged.
+ 
+ ## Foundational and adopted layer
+ 
+@@ -61,22 +34,22 @@ center, or scale. Strong local CSN is `CHALLENGED_OWNER_POSTULATE_NOT_DERIVED` a
+ | Range | Bounded maximum conclusion |
+ |---|---|
+ | G129--G198 | Complete-pair reconstruction and scaffold/provenance controls; germs and history open |
+-| G199--G276 | Relational completion, screen/null/clock geometry, GR/angular/projective/scale typing; no selected values |
++| G199--G276 | Relational geometry/scale typing; no selected values |
+ | G277--G281 | Observational interface controls; no native SNe prediction or preferred scale |
+ | G282--G312 | History/topology/causal boundaries and owner-provisional bounded trace-free response |
+-| G313--G324 | Multibranch constrained data and developments, quotient breadth, scoped completeness; no occupancy |
++| G313--G324 | Multibranch constrained data/developments; no occupancy |
+ | G325--G329 | Isolated homogeneous and single-mode classifications; not stability |
+-| G330--G337 | Metric-native Ricci line, lawful witnesses, and conditional local pair-response jets; no topology/history selection |
+-| G338--G347 | Supplied-spacetime pair, cone, screen, phase-space and observer-covariant directional-area geometry |
+-| G348 | General supplied smooth Lorentzian infinitesimal quotient/Jacobi/area theorem with conjugate-rank classification |
++| G330--G337 | Ricci line/lawful response jets; no topology/history selection |
++| G338--G347 | Supplied-spacetime pair/cone/screen/phase/area geometry |
++| G348 | Supplied Lorentzian quotient/Jacobi/area and conjugate-rank theorem |
+ | G349 | Finite supplied null-patch metric sheet area with multiplicity; geometric union needs global preimages |
+ | G350 | Nonunique local multiplicative family `T_(p,q)=R^p A^q`; weights/content/conservation unselected |
+ | G351 | Conditional `T_p=R^p A^-1` for nonzero absolutely continuous regular density; `p` and physical content remain open |
+ | G352 | Conditional `T_clock=R A^-1`; `(p,q)=(1,-1)` only for the chosen continuous clock-rate readout |
+-| G353 | Conditional fixed-query type eligibility and nonselection; examined-source physical identification remains open |
+-| G354 | Optional naturality fixes uniform shape, not coefficient; scoped whole-plane and scalar-conversion obstructions |
+-| G355 | Local nonzero-root harmonic-wave phase class; positive CHOSEN recurrence conversion outside fixed-root closure |
+-| G356 | Positive smooth fixed-label product iff criterion; different-phase finite geometric realizations and conserved nonfactorizing failure |
++| G353 | Fixed-query eligibility/nonselection; physical identification open |
++| G354 | Optional naturality/conversion restrictions; coefficient free |
++| G355 | Local harmonic-wave phase class; CHOSEN recurrence conversion |
++| G356 | Fixed-label product criterion, different-phase realizations and nonfactorizing failure |
+ | G357 | Finite shared ideal-query cone/dual constraints and cell-mass fibres; not full measure or instrument identification |
+ | G358 | Thirteen constraints on24 declared ideal tides; unique eventwise algebraic Einstein curvature, not PDE realization |
+ | G359 | Full initial future-null covector and unique local phase; optional whole-compact-slice real-phase obstruction |
+@@ -84,124 +57,73 @@ center, or scale. Strong local CSN is `CHALLENGED_OWNER_POSTULATE_NOT_DERIVED` a
+ | G361 | Full spacelike seed and exact chosen-root gate within that Einstein class; nonempty lawful local data |
+ | G362 | Conditional local parallel-null/normalized-recipe preservation and initial screen scalar; not generic stability |
+ | G363 | Full initial aligned phase and fixed-product match persist locally; ideal readout identity, not physical content |
+-| G367 | Full supplied regular4D tube current and every-observer continuous readout; fixed product stronger than conservation |
+-| G368 | Universal conservation classifies optional algebraic natural tensors of only g,q,n>0; constants remain free |
+-| G369 | Optional unadopted constant source comparison: curvature/initial constraints, not physical closure or coupled existence |
+-| G370 | Local optional nonzero Ricci reconstruction iff list and all increasing-phase decompositions; no minimality or physical source law |
+-| G371 | Full ambient-covector fixed-product matching and fixed/free phase-label-measure classification; no coupled independent-data evolution |
+-| G372 | Every smooth seed in the restricted initial-data family solves all four constraints and the initial product; no CD1 ambient development |
+-| G373 | LOCAL REAL ANALYTIC joint development, analytic geometric uniqueness and original-product propagation; not smooth well-posedness or stability |
+-| G374 | Fixed-base local positive conformal Einstein compatibility, at most six compatible inverse-scale data; all-neighborhood-loop realization, not whole-geometry DOF |
+-| G375 | Fixed local Einstein base: inverse-scale solution dimensions6/2/1 with stated Weyl/parallel-null alternatives; fixed-B/germ, positivity and fixed-target restrictions |
+-
+-G374--G375 exact-scope banking is COMPLETE after full358 and fresh fidelity
+-gates in `udt_g374_g375_conditional_banking_2026-09-08/`; its execution record owns receipts.
+-The entire original VS candidates/results/reviews control. No particle stability,
+-physical size or absolute scale follows. New Hopfion campaign candidates remain unpromoted.
+-
+-G372--G373 carry Charles's exact-scope conditional banking authority for CD1--CD2:
+-`udt_g372_g373_conditional_banking_2026-09-08/BANKING_RECORD.md`.
+-Its EXECUTION_RECORD.md owns promotion gate completion. ENTIRE original candidates,
+-results, reviews and execution caveats control; all original bytes remain unchanged.
+-THREE vacuous author product checks are EXCLUDED from supporting evidence.
+-The source law stays OPTIONAL and UNADOPTED; the restricted initial-data family,
+-local REAL ANALYTIC method limit and analytic-category uniqueness remain explicit.
+-CD1's unwrapped duplicate review-audit omission and CD2's partial implementation
+-independence/exposure remain disclosed. Models UNKNOWN; different-model review UNTESTED.
+-The optional source-model branch is PAUSED. No physical identification, UDT selection,
+-smooth well-posedness, stability, earlier-grade, canon or fixed-manuscript change.
+-The bounded core vacuum/common-scale campaign returned VS1--VS2 reviewed conditional
+-candidates; udt_vacuum_common_scale_campaign_2026-09-08/DECISION_BRIEF.md owns the synthesis.
+-Charles now authorizes their exact-scope conditional banking as G374--G375;
+-the banking package owns integration gates. Original NOT_BANKED evidence remains unchanged.
+-
+-G370--G371 are Charles-authorized conditional banking of RT1--RT2 at exactly
+-their reviewed scopes: `udt_g370_g371_conditional_banking_2026-09-08/BANKING_RECORD.md`.
+-Its EXECUTION_RECORD.md owns promotion gate completion. ENTIRE original candidates,
+-results and reviews remain controlling and unchanged, including RT2's reviewer
+-syntax failure and both post-exposure addenda. Fixed/free-data distinctions,
+-nonzero positive local domains, optional nonvacuum comparison, full AMBIENT
+-neighborhood closure and review limitations survive. No source extension or
+-physical carried content is adopted. Models UNKNOWN; other-model/human/formal
+-review UNTESTED. No earlier registry row, canon or fixed manuscript is changed.
+-
+-G367--G369 are Charles-authorized conditional banking of SM1--SM3, exactly at
+-their reviewed scopes. Promotion completion is recorded in
+-`udt_g367_g369_conditional_banking_2026-09-08/EXECUTION_RECORD.md`; the entire
+-pinned candidates, results and reviews control through its BANKING_RECORD.md.
+-SM2's original false-negative/one harness repair and SM3's post-seal outline
+-exposure remain explicit. Models UNKNOWN; different-model/human review UNTESTED.
+-No source law, physical content/counting, generic persistence or canon follows.
+-This additive banking changes no earlier registry row or scientific premise.
+-
+-G330--G350 are conditional or general metric geometry. G351 adds an owner-provisional conservation
+-premise, not a metric derivation: a standard finite nonnegative countably additive measure on
+-supplied labels is unchanged between source-free cuts. Its nonzero absolutely continuous regular
+-density therefore carries inverse metric sheet area and fixes `q=-1` inside G350's full independent
+-positive character domain. `p` remains arbitrary. The measure and measurable pushforward survive
+-caustics, but an ordinary finite density need not; singular content has no ordinary density
+-exponent. This is not selection of light or flux, source content, cross-label physics,
+-observational distance, physical population, occupancy, stability, matter, scale, or `X_max`.
+-
+-G352 adds an owner-provisional readout, not a physical light law. With a supplied nonzero
+-future-raised null phase gradient and an explicitly chosen continuous total-phase-variation product
+-using the same phase-independent G351 label measure, its nonzero absolutely continuous regular
+-clock-rate density transfers as `R A^-1`. Literal atomic crossings do not thereby acquire a smooth
+-instantaneous rate; `p=0` and other readouts remain distinct. The phase, source, populated labels,
+-physical carried object, detector, light/energy meaning, history, and scale remain supplied or open.
++| G367 | Regular-tube current/readout; fixed product stronger than conservation |
++| G368 | Optional algebraic tensor classification; constants free |
++| G369 | Optional source comparison/constraints; no physical closure or coupled existence |
++| G370 | Local optional nonzero Ricci reconstruction; no physical source law |
++| G371 | Full ambient fixed-product matching/fixed-free data; not joint evolution |
++| G372 | Restricted smooth initial-data constraints/product; no ambient development |
++| G373 | LOCAL REAL ANALYTIC joint development/uniqueness/product; not smooth stability |
++| G374 | Fixed-base local positive conformal compatibility; neighborhood-loop criterion, not whole-geometry DOF |
++| G375 | Fixed-base conformal classification; Weyl/null, domain/positivity/fixed-target limits |
++
++| G364--G366 | Restricted recipe departure/necessity and fixed-product metric freedom; retain RC2 exposure |
++| G376 | BI1 prerequisite: full initial Ricci-line criterion and lawful homogeneous data, not stability |
++| G377--G378 | Global lawful-data family and marked-line movement; not closed-fibre persistence |
++| G379--G380 | Exact closed-fibre distinction and lawful local nonpreservation counterexample; no generic failure |
++| G381--G382 | Neighboring tidal compatibility/obstruction and restricted null jets with actual local Lambda=0 realizations |
++
++## Scope corrections and retained limits
++
++G313/G314: `Ric(g)=Lambda g` does not determine the whole metric up to one constant.
++Positive/zero/negative scalar sectors, Weyl/tidal freedom and legitimate initial data remain;
++a unique-history selector is a stronger optional ambition, not a required missing law.
++G374/G375 restrict variable conformal factors on a FIXED supplied base/local positive domain,
++but `g_hat=a^-2 g, Lambda_hat=a^2 Lambda, a>0` remains possible when the target may change.
++A separately fixed target constrains rescaling; its value is supplied, not derived.
++G131 reduced blindness is not completed G176/G180 tape/depth blindness.
++
++G372/G373 establish restricted independently seeded data and actual LOCAL REAL ANALYTIC joint
++development with original-product matching, not only reconstruction from a finished metric.
++Their source law remains OPTIONAL UNADOPTED, branch PAUSED; three vacuous checks remain EXCLUDED.
++No smooth well-posedness, physical identification, stability or UDT coupling selection follows.
++
++G379=CF1/G380=CF2: closed Hopf fibres of this continued Ricci eigenline are not universally preserved,
++even allowing smooth deformation, within the reviewed supplied marking/gap/domain/method class.
++Preserving examples remain; no generic failure, topology change, physical instability or UDT failure.
++Automatic Hopfion-stabilization identification PAUSED; CF2 reviewer buffers remain LOST, not recovered.
++G376 banked only required BI1; HB2/HB3 and BI2/BI3 remain UNPROMOTED.
++
++G381=NT1 precedes G382=NT2 in the accepted conditional chain. Full slot/connection corrections,
++finite-jet limits, NONZERO REAL rank-one class, all-Lambda necessity versus actual smooth LOCAL
++Lambda=0 realization, free profiles and initial frame/slice/K conditions remain.
++Original false passes/repairs, NT1 lost buffers and unsnapshotted initial reviewer code stay disclosed.
++Model identities UNKNOWN and independence limits remain as reviewed.
++
++G351 conservation is owner-provisional, not metric-derived physical content; singular measure has
++no ordinary density exponent. G352's `p=1` belongs only to the chosen continuous readout, not atomic
++counts or light/energy. Carried measure, population of configurations and history selection differ.
++Geometric/calibration and emergence aims remain parallel. Explicit justified transfer/instrument
++assumptions can support conditional measurements without first adopting a sourced metric law;
++no measurement assumption, source law or physical identity is adopted here.
+ 
+ ## Scale, carrier, action, and observations
+ 
+-G353--G356 are owner-authorized BANKED_DERIVED_CONDITIONAL results, VERIFIED-WITH-CAVEATS,
+-with completed integration/fidelity checks. They adopt no physical premise or recipe and establish no
+-physical counting. Their exact original CB claims, local domains, optional naturality/weight/global
+-hypotheses, supplied data and review limitations are controlled by
+-`udt_g353_g356_conditional_banking_2026-09-06/BANKING_RECORD.md` and its unchanged source campaign.
+-In G356 existence of some aligned phase differs from compatibility with an already fixed phase.
+-The positive construction uses a DIFFERENT phase, not a repaired original curvature root.
+-Pointwise q=0 is not closure throughout a region. Model identities are UNKNOWN and different-model/
+-human-specialist review remains UNTESTED. No prior registry grade or physical premise changes.
+-
+-G357--G360 likewise bank SC2--SC5 at exactly their owner-authorized reviewed conditional scopes;
+-SC1 remains a source map. Their authority is
+-`udt_g357_g360_conditional_banking_2026-09-07/BANKING_RECORD.md` and unchanged source evidence.
+-The SC4 structural false failure and SC5 real false-pass/1-of-1 reviewed regression repair remain
+-preserved. Finite checks do not own analytic quantifiers; review model identities remain UNKNOWN,
+-different-model/human axes UNTESTED. No device law, physical content, general recipe persistence,
+-metric-selected initial data or canon follows from G357--G360.
+-
+-G361--G363 bank PC1--PC3 as owner-authorized BANKED_DERIVED_CONDITIONAL mathematics,
+-VERIFIED-WITH-CAVEATS, through `udt_g361_g363_conditional_banking_2026-09-07/BANKING_RECORD.md`.
+-The CHOSEN recipe, restricted full seed class on ACTUAL developments, local wave-method
+-hypothesis, nonzero/positive domains and independent initial phase/product matching remain explicit.
+-These do not prove generic persistence, stability, physical identification or canon. The original
+-campaign and review diagnostics are unchanged; model identities remain UNKNOWN, other-model/human
+-axes UNTESTED. G364--G366 bank RC1--RC3 conditionally at their exact reviewed local scopes:
+-`udt_g364_g366_conditional_banking_2026-09-07/BANKING_RECORD.md`.
+-Chosen recipe, domain/method restrictions, RC2 late-hint exposure and all review/execution caveats
+-remain. Original evidence stays unchanged. No generic behavior or physical identification follows.
+-Geometric calibration/testing and emergence remain parallel, neither prerequisite.
+-The core vacuum/common-scale campaign's two substantive reviews are complete.
+-Its exact-scope G374--G375 banking is complete. The bounded Hopfion reassessment
+-completed three reviewed steps: source map, full initial Ricci-line drift and
+-conditional local closed/nonclosed curve structure. The new HB2/HB3 results
+-remain UNPROMOTED with their strict family/domain and imported-method limits;
+-see `udt_hopfion_bridge_stability_reassessment_2026-09-08/DECISION_BRIEF.md`.
+-No physical adoption or fourth step in that completed Hopfion campaign. Current
+-banking and the separately authorized closed-fibre successor are scoped above.
+-
+ | Object | Status | Guard |
+ |---|---|---|
+-| Founded pair common scale | `FIXED` in bounded block | Not a complete-metric theorem |
+-| General pair scale | `CONDITIONAL/RETAINED` | Supplied complete assembly |
+-| Common-factor cancellation | `DERIVED` algebra | Not Weyl gauge |
+-| Projective `chi` | `DERIVED` bounded | Blind to proper length and absolute scale |
+-| `X_max` | `WORKING/OPEN` | Global completion only |
+-| Celestial null-direction `S2` | `CONDITIONAL` fibre | No matter carrier/law |
+-| Matter `S2` carrier | `POSIT` | Conditional branch |
+-| EH action | `CONDITIONAL_NOT_SELECTED` | GR familiarity is not derivation |
+-| Native source/action/mass | `OPEN` | No physics claim |
++| Founded pair common scale | FIXED in bounded block | Not a complete-metric theorem |
++| General pair scale | CONDITIONAL/RETAINED | Supplied complete assembly |
++| Common-factor cancellation | DERIVED algebra | Not Weyl gauge |
++| Projective `chi` | DERIVED bounded | Blind to proper length/absolute scale |
++| `X_max` | WORKING/OPEN | Global completion only |
++| Celestial null-direction `S2` | CONDITIONAL fibre | No matter carrier/law |
++| Matter `S2` carrier | POSIT | Conditional branch |
++| EH action | CONDITIONAL_NOT_SELECTED | Familiarity is not derivation |
++| Native source/action/mass | OPEN | No physical adoption |
+ 
+ Pullbacks plus the bivector area bilinear can recover `g`; scalar data stop at the positive
+-conformal class. R2--R5 and G312--G352 select no scale, occupancy, universe, matter law, or SNe
+-prediction.
++conformal class. Source-local quantifiers, assumptions, positivity, recipes and reviews control;
++these tables are navigation, not replacement theorems.
++GOCE PARKED, eligibility UNRESOLVED/OPEN, enquiry UNSENT; GW procedure parked.
++No successor is authorized; stop for lay discussion. Backup completeness/pre-reboot unsaved state
++remain UNVERIFIED; ScratchDisk blocks only archive-dependent work.
+diff --git a/HANDOFF.md b/HANDOFF.md
+index fffaf9bf..63298953 100644
+--- a/HANDOFF.md
++++ b/HANDOFF.md
+@@ -1,259 +1,69 @@
+ # HANDOFF — lean resume anchor
+ 
+ <!-- STARTUP_CURRENT_BEGIN -->
++## Current handoff anchor — 2026-09-09
+ 
+-`LIVE.md` wins.
++`LIVE.md` wins; exact grades belong to the 365-row `CURRENT_SCIENTIFIC_PREMISES.tsv`.
++Current sources and completed-campaign routes: `INDEX.md`; dependency spine:
++`CURRENT_RESEARCH_PROGRAM.md`. Historical status: `archive/STARTUP_SURFACE_HISTORY.md`.
+ 
+-## Current handoff anchor — 2026-09-08
++On a supplied regular calibrated pair, `phi_pair=delta_AB` is DERIVED_CONDITIONAL;
++`c_eff/c_E=exp(-2 delta_AB)` is not automatically signal speed.
++Complete `B,Q,S,Y,Z` enters `h=F^*g` before readout. Completed-pair Dual Reciprocity is
++WORKING_FOUNDATIONAL_CLARIFICATION; W5/W6 do not select population or history.
++Universal Reciprocity/DDR is one postulate with two formulations,
++OWNER_ADOPTED_PROVISIONAL_POSTULATE (2026-08-31), not derived or canonized.
++G312 premises are owner-adopted provisionally. Quiet-GR/Local Metric Sufficiency gives the
++bounded multibranch Einstein arena; angular-sector cancellation owns loud--quiet--loud.
++Metric, kernel and equation are unchanged. One Ricci scalar does not exhaust free geometry/data.
+ 
+-Pre-reboot operational state remains recorded in `RESTART_CHECKPOINT.md`, not as scientific
+-authority. Charles accepted the post-restart audit for repository-only bounded work. Backup
+-completeness and pre-reboot unsaved-state disposition remain UNVERIFIED; ScratchDisk blocks only
+-archive-dependent work. No further disk operation or infrastructure refactor is authorized.
++G351's owner-provisional finite nonnegative countably additive label measure gives
++`R^p A^-1` for nonzero absolutely continuous regular density, leaving `p` free.
++G352's continuous chosen phase/product clock-rate readout gives `T_clock=R A^-1`;
++neither identifies light, physical content, an instrument or an adopted source law.
+ 
+-Only on a supplied regular calibrated pair, `phi_pair=delta_AB` is `DERIVED_CONDITIONAL`; conditional
+-`c_eff/c_E=exp(-2 delta_AB)` is not automatically signal speed. On a supplied regular germ,
+-`B,Q,S,Y,Z` enters `h=F^*g` before readout. Completed-pair Dual Reciprocity remains
+-`WORKING_FOUNDATIONAL_CLARIFICATION`; population, higher/full carry, and history remain supplied or
+-`OPEN`.
++Conditional banking through G382 is COMPLETE, VERIFIED-WITH-CAVEATS at exact source scopes:
+ 
+-W5 and W6 remain working foundational clarifications. Universal Reciprocity and DDR are one
+-postulate with two formulations, `OWNER_ADOPTED_PROVISIONAL_POSTULATE` (2026-08-31), not derived or
+-canonized. G312 premises are owner-adopted provisionally. Their bounded quiet-GR/Local Metric
+-Sufficiency response constitution is trace-free Ricci with one connected scalar. The multibranch
+-Einstein arena remains; no global bootstrap or universe is selected, and angular-sector cancellation
+-owns loud--quiet--loud. Metric, kernel, angular sector, and adopted equation are unchanged.
++- G353--G356: content-bridge conditions; chosen recipes are not physical laws.
++- G357--G360: ideal-query constraints; SC1 remains a source map.
++- G361--G363: restricted local persistence; G364--G366: restrictiveness/free geometry.
++- G367--G371: optional source comparisons and reconstruction.
++- G372--G373: restricted independent data and LOCAL ANALYTIC joint development,
++  OPTIONAL UNADOPTED law; three vacuous checks EXCLUDED, no smooth stability claim.
++- G374--G375: fixed-base variable conformal restrictions; constant rescaling remains free,
++  `g_hat=a^-2 g, Lambda_hat=a^2 Lambda`, not absolute-scale selection.
++  A separately fixed target scalar restricts this rescaling.
++- G376--G378: BI1 prerequisite/global constraint and marked-line results.
++- G379=CF1/G380=CF2: closed fibres are not universally preserved, even allowing smooth deformation,
++  within reviewed marking/domain/method limits; preserving examples remain, not physical instability.
++- G381=NT1/G382=NT2: neighboring tidal obstruction and restricted real null jets with actual
++  local Lambda=0 realizations; finite-jet algebra is not general metric-development sufficiency.
+ 
+-Current frontier: G338--G349 derive metric-owned pair/null-screen/area geometry but no carried
+-content or transfer law. G350 classifies the declared local multiplicative candidates as the
+-nonunique family `R^p A^q`. G351 provisionally adopts source-free labelwise conservation of a
+-standard finite nonnegative countably additive measure; external review accepts the bounded result
+-`T_p=R^p A^-1` for its nonzero absolutely continuous regular density. This fixes `q=-1` but leaves
+-`p`, source, population, cross-label behavior, detector, light, distance, history, scale, matter,
+-and `X_max` open. Finite measure survives caustic pushforward even when ordinary density does not.
+-G352 then provisionally types one continuous clock-rate readout. External R2 repair review accepts
+-`T_clock=R A^-1`, fixing `(p,q)=(1,-1)` only for that explicitly chosen continuous phase/product
+-realization. Atomic crossings, `p=0`, other readouts, and every physical interpretation remain
+-distinct or open.
++Whole original reviews and false-pass/repair limitations control; CF2 intermediate buffers are
++LOST, not preserved or recovered; NT1 lost-buffer/unsnapshotted-code caveats remain.
++HB2/HB3 and BI2/BI3 remain UNPROMOTED. Fixed manuscript/coverage remains through G352, not the frontier.
++Legitimate initial data, calibration parameters, carried measure and history selection are distinct.
++An admitted source sector is not required for every explicitly conditional measurement route.
++Geometric/calibration and emergence aims remain parallel; neither is a prerequisite.
+ 
+-G353--G356 add owner-authorized conditional mathematical banking, VERIFIED-WITH-CAVEATS, for the
+-completed four-step content-bridge campaign. Original frozen evidence remains unchanged.
+-Source-bounded nonselection, optional symmetry/conversion limits, the harmonic-wave root/phase
+-class, and the different-phase product criterion retain all assumptions and review limitations.
+-CHOSEN recipes are not physical content/count laws. Banking integration/fidelity checks passed.
++Optional source branch PAUSED; automatic Hopfion-stabilization mechanism is PAUSED, no rescue.
++GOCE PARKED, eligibility UNRESOLVED/OPEN, enquiry UNSENT—not rejected or awaiting a reply.
++GW procedure parked; clock/complementary campaigns complete; no instrument work restarts.
+ 
+-G357--G360 bank SC2--SC5 at their owner-authorized conditional mathematical scopes,
+-VERIFIED-WITH-CAVEATS. SC1 remains a source map; initial and repaired false-pass evidence stays
+-unchanged. No physical identification, recipe adoption or canon follows.
+-
+-Authority: the exact 365-row `CURRENT_SCIENTIFIC_PREMISES.tsv`. Evidence routes: `INDEX.md`.
+-Historical surfaces: `archive/STARTUP_SURFACE_HISTORY.md`. R2--R5 in
+-`udt_observed_angular_pattern_raw_restart_2026-08-12/` remain verified with caveats; 184,300
+-covariance rows are unresolved, no preferred scale follows, and the raw archive is
++R2--R5 in `udt_observed_angular_pattern_raw_restart_2026-08-12/` remain verified with caveats:
++184,300 unresolved covariance rows, no preferred scale; raw archive
+ `/media/udt-admin/ScratchDisk/Data/UDT_BOSS_R3_2026-08-14/`.
++`RESTART_CHECKPOINT.md` is operational history. Backup completeness/pre-reboot unsaved state
++remain UNVERIFIED; ScratchDisk blocks only archive-dependent work.
+ 
+-Protected—do not stage, modify, mine, or cite without dispatch:
++Protected—do not stage, modify, mine or cite without dispatch:
+ 
+ - `udt_kernel_plane_global_curvature_holonomy_atlas_2026-08-02/`
+ - `udt_native_onshell_timelive_reset_owner_audit_2026-08-10/`
+ - `udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/`
+ - `udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/`
+ 
+-Next: G353--G356 conditional mathematical banking is complete at its owner-authorized reviewed scope.
+-The prior campaign is complete. The G352 physical-realization remainder is not closed:
+-physical identification remains OPEN; no metric-native carried object is physically selected.
+-Keep the owner-provisional premises, CHOSEN recipes and product explicit.
+-Charles authorized G357--G360 conditional mathematical banking of SC2--SC5 from that completed
+-five-reviewed-step campaign. SC1 remains a source map. Exact scopes and preserved review/repair
+-history: `udt_g357_g360_conditional_banking_2026-09-07/BANKING_RECORD.md`.
+-No full metric-data realization, automatic recipe/product persistence or physical content follows.
+-G361--G363 bank PC1--PC3 conditionally: restricted local seed/recipe/phase/product preservation.
+-Scope/reviews: `udt_g361_g363_conditional_banking_2026-09-07/BANKING_RECORD.md`.
+-G364--G366 bank RC1--RC3 conditionally, retaining RC2 exposure and all reviewed limits:
+-`udt_g364_g366_conditional_banking_2026-09-07/BANKING_RECORD.md`.
+-Geometric calibration/testing and emergence remain parallel, neither prerequisite.
+-Charles's tidal measurement-feasibility campaign returned two reviewed conditional candidates,
+-TM1/TM2, VERIFIED-WITH-CAVEATS, not promoted. No third example or observations fitted.
+-Brief/reviews: `udt_tidal_measurement_feasibility_campaign_2026-09-07/DECISION_BRIEF.md`.
+-An unused scalar contrast can survive absolute-scalar bias degeneracy in the declared finite
+-linear class; a real product's processing/calibration/error eligibility remains OPEN.
+-Charles authorized the product-specific GOCE eligibility audit; PE1 returned a fresh-reviewed
+-VERIFIED-WITH-CAVEATS document audit, not scientific promotion. Exact2018 TN3397 was recovered;
+-baseline0202 and cached one-item processor07.00 metadata are distinguished from actual deployed
+-configuration. No final-stage trace projection is imposed by Algorithm16, but end-to-end retained
+-signal, calibration/raw-support/error provenance and a written arm-length ambiguity remain OPEN.
+-The audit stopped after one reviewed step at that evidence gate; no second example or data fit.
+-Brief/review: `udt_goce_product_eligibility_audit_2026-09-07/DECISION_BRIEF.md`.
+-TM1/TM2 remain unpromoted. Charles authorized a focused GOCE documentation follow-up,
+-not another compatibility campaign. Current assessment and UNSENT ESA enquiry:
+-`udt_goce_documentation_followup_2026-09-07/DECISION_BRIEF.md`; review records control
+-their review status. Historical header/configuration pointers, approximate attitude covariance
+-and trace-monitoring flag are distinguished from actual0202 behavior. Release-specific
+-retained-response, selection/support, errors and arm/channel convention remain OPEN.
+-Charles PARKED GOCE: eligibility remains UNRESOLVED/OPEN, not rejected and not awaiting a reply.
+-The approved enquiry remains UNSENT and preserved with all previous findings/reviews. Do not send,
+-repeat completed searches or continue GOCE analysis. Prior submission/proposal package is historical
+-at its recorded state, not authority to submit or to start its ideal-tidal campaign.
+-The observational-route selection campaign is COMPLETE at three fresh-reviewed steps,
+-VERIFIED-WITH-CAVEATS, without fitting or scientific promotion. C (laboratory clocks),
+-R (solar radio tracking) and W (GW strain) were compared; a conditional published-summary
+-clock-gradient benchmark is recommended, not a unique UDT prediction or full metric inference.
+-Brief/log/reviews: `udt_observational_route_selection_campaign_2026-09-07/DECISION_BRIEF.md`.
+-Charles's approved local clock benchmark is COMPLETE at two fresh-reviewed steps,
+-VERIFIED-WITH-CAVEATS; brief and reviews:
+-`udt_local_clock_metric_benchmark_campaign_2026-09-07/DECISION_BRIEF.md`.
+-The published summary gives effective upward d ln N/dh=(1.24±0.26)e-16 m^-1
+-under supplied stationary, near-linear, finite-cloud and metrology assumptions.
+-Residual about-1.5 in units10^-19/cm gives zero-inclusion in both displayed difference
+-bands (standard-uncertainty widths2.60/2.70), not a confidence/UDT acceptance test or raw recertification.
+-Cross-correlation bounds do not cover arbitrary omitted bias; unrestricted additive
+-gradient bias destroys identifiability. Initial false passes and one repair per step survive.
+-Ratios alone do not fix scale; dimensional anchors may fix it in an identified family.
+-Preserve supplied metrology, source error/correlation limits, known outcome exposure and repairs.
+-Ideal tides remain mathematical groundwork, not an available experiment; emergence remains parallel.
+-No fitting, correspondence, physical adoption, grades/canon/manuscript changes were performed;
+-The complementary-observable campaign is complete at its two reviewed conditional steps:
+-`udt_complementary_wave_observable_campaign_2026-09-07/DECISION_BRIEF.md`.
+-CO1 supplies the scoped wave-tidal/readout and free-waveform null relation; CO2 checks
+-nominal H1/L1/V1 rank2/condition5.62 with one contrast, not three independent holdouts.
+-Supplied response/astrometry/error assumptions remain; CO1/CO2 did not include strain/PSD
+-analysis or eligibility promotion. CO1 repair history and both separate-context reviews are preserved.
+-The authorized fixed-window campaign is COMPLETE after TWO reviewed steps in
+-`udt_gw170817_fixed_window_test_campaign_2026-09-07/`, stopping at its frozen sensitivity gate.
+-FW1/FW2 R1 are VERIFIED-WITH-CAVEATS at exact narrowed scopes, not accepted-grade promotions.
+-The33 off-source supports give target crossings5/168,3/168,3/168 versus required152/168;
+-one retained reference dominates the maximum threshold. Independent recomputation/review
+-closed the inclusive-bin repair; original failures and exposure history are preserved.
+-No event samples/contrast were examined and FW3 was not begun. No geometric constraint,
+-population-power claim or instrument/UDT-wide verdict follows. Physical response/error
+-eligibility remains OPEN; the transient runtime blocker is resolved. The actual349-row
+-premise audit passed; accepted science/canon/fixed-snapshot manuscript remain unchanged.
+-The authorized response-error/robustness DESIGN campaign reached its reviewed early stop:
+-`udt_gw_response_robustness_design_campaign/DECISION_BRIEF.md`. RD1 is VERIFIED-WITH-CAVEATS
+-conditional design mathematics: training-bounded leakage, a scoped finite-sample limitation,
+-sharp norm-budget readout intervals and a supplied arm-transfer bound. These are not accepted-grade
+-changes or actual-product/UDT no-go results. Complete target-level response/support control remains
+-OPEN; RD2 was NOT STARTED. No new strain/event samples or existing33 development records were
+-opened. The fresh349 audit passed; premises/canon/fixed-snapshot manuscript remain unchanged.
+-This particular GW procedure remains parked at its design gate.
+-The theory-first source–metric connection campaign completed its3 reviewed scientific steps:
+-`udt_source_metric_connection_campaign_2026-09-08/DECISION_BRIEF.md`; compact evidence/status in its CAMPAIGN_LOG.md.
+-SM1 gives a regular4D conserved current; SM2 constrains an OPTIONAL algebraic tensor class;
+-SM3 gives metric-data/curvature consequences only under an UNADOPTED source comparison.
+-Charles authorized G367--G369 conditional mathematical banking of SM1--SM3 at EXACT reviewed scopes:
+-`udt_g367_g369_conditional_banking_2026-09-08/BANKING_RECORD.md`.
+-Promotion integration is COMPLETE: full352 audit and fresh fidelity PASS_WITH_CAVEATS;
+-its EXECUTION_RECORD.md owns exact completion checks and publication history.
+-No prior grade, physical premise, canon or fixed-snapshot manuscript changes. Physical identification
+-and source-response closure remain OPEN. Original candidate/review/history bytes stay unchanged.
+-The approved metric-only reconstructibility campaign completed2 reviewed scientific steps:
+-`udt_metric_source_reconstructibility_campaign_2026-09-08/DECISION_BRIEF.md`.
+-RT1 gives local optional nonzero-curvature reconstruction criteria and phase-data freedom;
+-RT2 gives full-covector fixed-product compatibility and the fixed/free data distinctions.
+-Charles authorizes G370=RT1 and G371=RT2 conditional banking at EXACT reviewed scopes:
+-`udt_g370_g371_conditional_banking_2026-09-08/BANKING_RECORD.md`.
+-Promotion integration is COMPLETE: full354 audit and fresh fidelity PASS_WITH_CAVEATS.
+-Its EXECUTION_RECORD.md owns exact checks and preservation/publication history.
+-Original candidates/reviews/history remain unchanged, including the reviewer syntax failure.
+-The optional NONZERO comparison is NOT an admitted extension of G312's bounded vacuum S=0 arena.
+-Fixed/free data distinctions and FULL ambient-neighborhood covector closure remain controlling.
+-Completed G369 source assessment is reused: the examined admitted fragment does not select
+-this source law. Reconstruction from a metric is not independent-data coupled evolution.
+-Charles authorizes G372=CD1 and G373=CD2 conditional mathematical banking at EXACT reviewed scopes:
+-`udt_g372_g373_conditional_banking_2026-09-08/BANKING_RECORD.md`.
+-Promotion integration is COMPLETE after full356 and fresh fidelity gates; its EXECUTION_RECORD.md owns completion.
+-CD1 supplies a restricted smooth constrained initial-data family; CD2 supplies LOCAL REAL ANALYTIC
+-joint development, analytic geometric uniqueness and original-product propagation, VERIFIED-WITH-CAVEATS.
+-THREE vacuous author product checks remain EXCLUDED from evidence; original candidate/review bytes stay fixed.
+-Optional source law, chosen product, restricted family and method/review limitations remain explicit.
+-No smooth well-posedness, stability, physical identification or selection by UDT follows.
+-The optional source-model branch is PAUSED after its completed bounded dynamical-coherence campaign.
+-The approved core vacuum/common-scale campaign returned two reviewed conditional candidates:
+-`udt_vacuum_common_scale_campaign_2026-09-08/DECISION_BRIEF.md`.
+-Charles authorizes exact-scope conditional banking of VS1--VS2 as G374--G375:
+-`udt_g374_g375_conditional_banking_2026-09-08/BANKING_RECORD.md`.
+-Integration is COMPLETE after full358 and fresh fidelity gates; its EXECUTION_RECORD.md owns completion.
+-Fixed supplied base geometry, local positive domains, fixed/free target scalar and all review caveats remain.
+-No particle stability, physical size or absolute scale follows; original evidence remains unchanged.
+-G131 reduced-control conformal blindness is NOT blindness of G176/G180 completed tape/depth.
+-The Hopfion bridge-and-stability research/review is COMPLETE at three reviewed steps:
+-`udt_hopfion_bridge_stability_reassessment_2026-09-08/DECISION_BRIEF.md`; its execution/publication receipts own repository closure.
+-HB1 recovers the surviving conditional finite-box carrier result and later intrinsic geometric bridge.
+-HB2 gives full first-normal Ricci-line drift; HB3 gives the local closed/nonclosed spatial-curve alternative.
+-Both new mathematical candidates remain UNPROMOTED, with strict G331/G332 family/gap/root,
+-marked normal slices and imported smooth Cauchy/isometry-method restrictions. No topology-change,
+-particle stability, physical size, scale or old-carrier Hessian transfer follows.
+-The separate Berger initial-data campaign is COMPLETE at three reviewed steps:
+-`udt_berger_initial_data_preservation_campaign_2026-09-08/DECISION_BRIEF.md`.
+-BI1 gives the full first-normal image/projector criterion and lawful homogeneous K quadric.
+-BI2 gives actual homogeneous local branch/circle preservation, with direct unaveraged
+-quotient-metric preservation iff horizontal shear vanishes. BI3 realizes local analytic
+-inhomogeneous constraint data with nonzero line drift; no global compact extension follows.
+-Original candidates retain their UNPROMOTED history. Full reviews retain harness caveats;
+-BI2's one fresh focused review clears isolation without erasing its original exposure.
+-Supplied nonround geometry, original vacuum premises, normal marking, spectral gaps,
+-analytic/local-method restrictions and no physical-stability/scale inference remain.
+-The Berger global-constraint campaign is COMPLETE at two freshly reviewed steps:
+-`udt_berger_global_constraint_campaign_2026-09-08/DECISION_BRIEF.md`.
+-BG1 gives a global small-TT nonlinear constraint family at fixed gamma/Lambda,
+-with trace determined rather than additionally fixed; baseline-mean fixing is rigid.
+-BG2 gives arbitrary-small GLOBAL lawful data with nonzero full marked Ricci-line
+-drift at any marked point of each fixed nonround Berger background. Actual short
+-normal-time departure remains conditional on the smooth marked Cauchy method.
+-Both original candidates are VERIFIED-WITH-CAVEATS; retain h!=0, compact boundary-free
+-domain, small-data/method restrictions, full tensor and all review caveats.
+-Three actual symbol-only false passes and the reviewer assembly repair stay.
+-No orbit-closure/fibration-loss, topology-change, physical-stability or scale claim.
+-Charles authorizes exact-scope conditional banking G376=BI1 (required prerequisite),
+-G377=BG1 and G378=BG2; exact integration/fidelity gate receipts are recorded in
+-`udt_g376_g378_conditional_banking_2026-09-08/BANKING_RECORD.md`.
+-HB2/HB3 and BI2/BI3 remain UNPROMOTED; no unrelated prerequisite is promoted.
+-Banking is COMPLETE after full361 and fresh dependency/fidelity gates.
+-The closed-fibre campaign completed TWO reviewed conditional steps:
+-`udt_closed_fibre_persistence_campaign_2026-09-08/DECISION_BRIEF.md`.
+-CF1 separates closure, regular fibration and arbitrary-diffeomorphism equivalence.
+-CF2: for each fixed nonround Berger S3/signed h!=0, arbitrarily small ACTUAL
+-global lawful K at fixed gamma/Lambda yield SOME nonclosed Ricci-line leaves at
+-EVERY sufficiently small nonzero actual normal time. The leaf may depend on time.
+-Retain supplied Gaussian marking, positive metrics/simple gap, chosen torus-plus-
+-conjugation data symmetry, exact global TT/IFT and smooth Cauchy/isometry methods.
+-G330 pure-trace Hopf survivors remain; no genericity, topology-change, physical
+-stability, carrier adoption or UDT-failure inference. Charles authorizes exact-scope
+-conditional banking G379=CF1 and G380=CF2; dependency/integration/fidelity gates:
+-`udt_g379_g380_conditional_banking_2026-09-08/BANKING_RECORD.md` and its execution record.
+-No extra prerequisite or unrelated predecessor promotion. Original UNPROMOTED
+-evidence remains unchanged. Whole reviews/false-pass evidence control; CF2
+-intermediate buffered reviewer outputs were LOST, not preserved or recovered.
+-The admitted equations do not universally preserve closed Hopf fibres of this
+-continued Ricci eigenline, even allowing smooth deformation, at that exact scope.
+-This identification as an automatic Hopfion-stabilization mechanism is PAUSED.
+-No restrictions, carrier or energy functional will be added to rescue it.
+-Further investigation needs an independently motivated question, not another example.
+-The previous next-direction comparison/proposal remains preserved:
+-`udt_g379_g380_conditional_banking_2026-09-08/NEXT_CAMPAIGN_PROPOSAL.md`.
+-The neighboring-tidal campaign is COMPLETE at TWO reviewed steps:
+-`udt_neighboring_tidal_consistency_campaign_2026-09-08/CAMPAIGN_LOG.md`.
+-Charles authorizes exact-scope conditional banking G381=NT1 and G382=NT2:
+-`udt_g381_g382_conditional_banking_2026-09-09/BANKING_RECORD.md`.
+-Its EXECUTION_RECORD.md owns integration/fidelity completion. G381 is the required
+-prerequisite for G382; no unrelated predecessor is promoted. Original UNPROMOTED
+-campaign evidence remains unchanged. Full FOUR-slot correction and finite first-jet
+-limits survive; raw slopes require comparison data except at the stated W=0 event.
+-NT2 retains NONZERO REAL rank-one data, all-Lambda necessity versus ACTUAL smooth
+-LOCAL Lambda=0 realization, supplied future frame/slice/K and free smooth profiles.
+-Both original false-pass pairs and one guard repair each remain; NT1 unflushed
+-intermediates are LOST, not recovered, and its initial reviewer code was not
+-separately snapshotted. No general realization, physical content or propagation law.
+-After banking, stop for discussion. No successor campaign, caustic-current task,
+-third CF step or Hopf rescue is authorized.
+-Beyond this explicitly approved scope, no new campaign is authorized.
+-Execution/publication receipts own closure; prior evidence remains unchanged.
+-Carrier/action/boundary/evolution adoption remains unauthorized.
+-No physical adoption, earlier-grade, canon, fixed-manuscript or observation change.
+-Clock and complementary campaigns are exhausted; emergence remains parallel.
+-No physical adoption, generic instrument certification or distinctive UDT signal follows.
+-Ordinary initial/query data need not be uniquely selected; instrument identification
+-may not be hidden in a definition. The fixed-snapshot manuscript remains through G352, not current
+-frontier tracking. History, matter, scale, `X_max`, and canon stay open.
+-
++Next: G381=NT1 and G382=NT2 conditional mathematical banking is COMPLETE at the reviewed scopes.
++The G352 physical-realization question remains: physical identification remains OPEN.
++Stop for lay discussion with Charles; no new campaign is authorized, and any chosen work order includes checks, fresh separate-context review and bounded same-premise repair.
+ <!-- STARTUP_CURRENT_END -->
+diff --git a/INDEX.md b/INDEX.md
+index c6662c98..1f0ec6fc 100644
+--- a/INDEX.md
++++ b/INDEX.md
+@@ -1,35 +1,7 @@
+ # INDEX — compact current pointers; `LIVE.md` wins
+ 
+-- G376=BI1 required-prerequisite / G377=BG1 / G378=BG2 authorized conditional banking:
+-  `udt_g376_g378_conditional_banking_2026-09-08/BANKING_RECORD.md`; exact gates in its execution record.
+-- G379=CF1/G380=CF2 exact-scope conditional banking and current gates:
+-  `udt_g379_g380_conditional_banking_2026-09-08/BANKING_RECORD.md`; its execution record owns completion.
+-  Hopf-fibre automatic-stabilization identification PAUSED, not an old-carrier or UDT failure.
+-- G381=NT1/G382=NT2 owner-authorized exact conditional banking:
+-  `udt_g381_g382_conditional_banking_2026-09-09/BANKING_RECORD.md`; execution record owns gates.
+-  No new physics or successor; after banking stop for discussion.
+-- Completed neighboring-tidal campaign, original UNPROMOTED evidence preserved:
+-  `udt_neighboring_tidal_consistency_campaign_2026-09-08/CAMPAIGN_LOG.md`;
+-  two reviewed steps/four hours, no physical adoption or Hopf rescue.
+-- Original direction proposal, direction1 subsequently approved:
+-  `udt_g379_g380_conditional_banking_2026-09-08/NEXT_CAMPAIGN_PROPOSAL.md`.
+-- Completed TWO-step closed-fibre campaign, original UNPROMOTED evidence unchanged:
+-  `udt_closed_fibre_persistence_campaign_2026-09-08/DECISION_BRIEF.md`;
+-  exact global lawful-data/actual-time nonclosure counterexample with method/review caveats,
+-  preserving G330 Hopf examples; no physical instability or UDT-failure conclusion.
+-- Completed two-step Berger global-constraint campaign; original evidence unchanged:
+-  `udt_berger_global_constraint_campaign_2026-09-08/DECISION_BRIEF.md`;
+-  per-step REVIEWED_RESULT files pin entire reviews and retained false-pass evidence.
+-
+-- Completed three-step Berger initial-data campaign; BI2/BI3 remain UNPROMOTED:
+-  `udt_berger_initial_data_preservation_campaign_2026-09-08/DECISION_BRIEF.md`;
+-  per-step REVIEWED_RESULT files pin full reviews; CAMPAIGN_LOG and publication receipt own closure.
+-
+-- G374--G375 exact-scope VS banking and completion gates:
+-  `udt_g374_g375_conditional_banking_2026-09-08/BANKING_RECORD.md`.
+-- Completed three-step Hopfion reassessment; new candidates UNPROMOTED:
+-  `udt_hopfion_bridge_stability_reassessment_2026-09-08/DECISION_BRIEF.md`;
+-  same package CAMPAIGN_LOG.md and execution/publication receipts own closure.
++Banking through G382 is COMPLETE at reviewed conditional scopes; no successor is authorized.
++The exact 365-row `CURRENT_SCIENTIFIC_PREMISES.tsv` owns grades, not these pointers.
+ 
+ 1. Follow `AGENTS.md`.
+ 2. Read the current blocks in `LIVE.md` and `HANDOFF.md`.
+@@ -37,125 +9,88 @@
+ 4. Read `CURRENT_SCIENTIFIC_PREMISES.md`; run `python3 verify_current_scientific_premises.py`.
+ 5. Read `CLAUDE.md` sections `How we work`, `DRIVER TRIGGERS`, and `Repo discipline`.
+ 6. Read `INDEX.md` and `MEMORY.md`, then stop and give the orientation report.
+-7. After orientation, query only load-bearing evidence.
++7. After orientation, open only load-bearing evidence.
++
++## Fixed manuscript, current decisions
++
++`UDT_METRIC_KERNEL_DEVELOPMENT.md` and `UDT_METRIC_KERNEL_COVERAGE.tsv` remain the fixed
++through-G352 edition at `f23199e4a47aaf83acb9ea7d1ad382cd814159c2`, not the current frontier.
++`update_metric_kernel_account.py`/`verify_metric_kernel_account.py` retain source-change invalidation;
++review restoration requires `--record-review REVIEW_RECORD.json` tied to exact changed sources.
++Latest banking: `udt_g381_g382_conditional_banking_2026-09-09/BANKING_RECORD.md`;
++its execution/publication records own completion. Original campaign:
++`udt_neighboring_tidal_consistency_campaign_2026-09-08/CAMPAIGN_LOG.md`.
++Current editorial record: `startup_surface_current_tracking_compaction_2026-09-09/WORK_RECORD.md`.
+ 
+-Authority: the exact 365-row `CURRENT_SCIENTIFIC_PREMISES.tsv`. For any result ID, its current
+-grade, maximum conclusion, and evidence `source_path` belong there. For a known pre-reorganization
+-path only, query `research/_registry/CURRENT_ARTIFACT_PATHS.tsv`; it is not a frontier index.
++## Founding, relational and response sources
+ 
+-## Central accepted-science account
++- `UDT_RECIPROCAL_C_FOUNDING_POSTULATE_DERIVATION_RESULTS.md`
++- `udt_uncompressed_pair_kernel_reconstruction_2026-08-14/`
++- `udt_g166_primary_metric_ordered_pair_kernel_descent_2026-08-18/`
++- `udt_g167_primary_metric_full_pair_pullback_orchestra_2026-08-18/`
++- `udt_g176_completed_pair_dual_reciprocity_consolidation_2026-08-19/`
++- `udt_g197_native_kernel_provenance_and_startup_integrity_audit_2026-08-21/`
++- Scaffold quarantine: `archive/scaffolded_kernel_controls_2026-08-19/README.md`
++- W5/W6: `founding.md`
++- `startup_surface_g310_universal_reciprocity_refresh_2026-08-31/ADOPTION_RECORD.md`
++- `startup_surface_g312_two_premise_adoption_refresh_2026-09-01/ADOPTION_RECORD.md`
++- `udt_g312_quiet_gr_response_constitution_discriminator_2026-09-01/AUDIT_REPORT.md`
++- `udt_g313_tracefree_ricci_solution_space_bootstrap_map_2026-09-01/AUDIT_REPORT.md`
++- `udt_g314_global_admissibility_actualization_type_classification_2026-09-01/AUDIT_REPORT.md`
++- `udt_g348_generic_lorentzian_null_screen_area_theorem_2026-09-04/`
++- `udt_g349_finite_null_wavefront_patch_area_2026-09-04/`
++- `udt_g350_frequency_area_carried_content_ownership_2026-09-05/`
++- `udt_g351_source_free_labelwise_carried_measure_conservation_2026-09-05/`
++- `udt_g352_clock_rate_carried_measure_readout_2026-09-05/`
+ 
+-- Reader account: `UDT_METRIC_KERNEL_DEVELOPMENT.md`.
+-- Exact coverage/dependency sidecar: `UDT_METRIC_KERNEL_COVERAGE.tsv`.
+-- Deterministic updater and verifier: `update_metric_kernel_account.py` and
+-  `verify_metric_kernel_account.py`.
++## Exact conditional banking and original evidence
+ 
+-The account is pinned to scientific snapshot `f23199e4a47aaf83acb9ea7d1ad382cd814159c2` and explains
+-the accepted metric/kernel chain through G352 within that declared edition. The sidecar covers every
+-row of that snapshot, including supporting, boundary, control, outside-scope, and historical roles.
+-Neither file is a second scientific registry: grades and current status remain owned by
+-`CURRENT_SCIENTIFIC_PREMISES.tsv`, while `LIVE.md` owns the active frontier.
+-The ordinary updater preserves source-change invalidation. Restoring a reviewed coverage status
+-requires `update_metric_kernel_account.py --record-review REVIEW_RECORD.json` with a record tied
+-to the exact changed source bytes, fixed manuscript, snapshot, and affected dependency closure.
++Each BANKING_RECORD links entire controlling candidates/reviews, exclusions and execution receipts;
++original UNPROMOTED/NOT_BANKED headings remain historical. Old proposals do not authorize successors.
+ 
+-## Current relational route
++- G353--G356: `udt_g353_g356_conditional_banking_2026-09-06/BANKING_RECORD.md`
++- G357--G360: `udt_g357_g360_conditional_banking_2026-09-07/BANKING_RECORD.md`; SC1 source map.
++- G361--G363: `udt_g361_g363_conditional_banking_2026-09-07/BANKING_RECORD.md`
++- G364--G366: `udt_g364_g366_conditional_banking_2026-09-07/BANKING_RECORD.md`; RC2 exposure.
++- G367--G369: `udt_g367_g369_conditional_banking_2026-09-08/BANKING_RECORD.md`
++- G370--G371: `udt_g370_g371_conditional_banking_2026-09-08/BANKING_RECORD.md`
++- G372--G373: `udt_g372_g373_conditional_banking_2026-09-08/BANKING_RECORD.md`; three vacuous checks excluded.
++- G374--G375: `udt_g374_g375_conditional_banking_2026-09-08/BANKING_RECORD.md`
++- G376=BI1/G377=BG1/G378=BG2: `udt_g376_g378_conditional_banking_2026-09-08/BANKING_RECORD.md`
++- G379=CF1/G380=CF2: `udt_g379_g380_conditional_banking_2026-09-08/BANKING_RECORD.md`
++- G381=NT1/G382=NT2: latest banking above; LOST/unsnapshotted-source caveats retained.
++- Hopf reassessment: `udt_hopfion_bridge_stability_reassessment_2026-09-08/DECISION_BRIEF.md`; HB2/HB3 unpromoted.
++- Berger initial data: `udt_berger_initial_data_preservation_campaign_2026-09-08/DECISION_BRIEF.md`; BI2/BI3 unpromoted.
++- Global constraints: `udt_berger_global_constraint_campaign_2026-09-08/DECISION_BRIEF.md`
++- Closed fibres: `udt_closed_fibre_persistence_campaign_2026-09-08/DECISION_BRIEF.md`; preserving examples survive.
+ 
+-- Founding reciprocal source: `UDT_RECIPROCAL_C_FOUNDING_POSTULATE_DERIVATION_RESULTS.md`.
+-- Active pair evaluator: `udt_uncompressed_pair_kernel_reconstruction_2026-08-14/`.
+-- Primary metric descent and complete orchestra: `udt_g166_primary_metric_ordered_pair_kernel_descent_2026-08-18/`;
+-  `udt_g167_primary_metric_full_pair_pullback_orchestra_2026-08-18/`;
+-  `udt_g176_completed_pair_dual_reciprocity_consolidation_2026-08-19/`.
+-- Kernel provenance/scaffold boundary: `udt_g197_native_kernel_provenance_and_startup_integrity_audit_2026-08-21/`;
+-  historical negative controls are never kernel inputs and are quarantined at
+-  `archive/scaffolded_kernel_controls_2026-08-19/README.md`.
+-- W5/W6 wording: `founding.md`; adoptions and bounded response constitution:
+-  `startup_surface_g310_universal_reciprocity_refresh_2026-08-31/ADOPTION_RECORD.md`;
+-  `startup_surface_g312_two_premise_adoption_refresh_2026-09-01/ADOPTION_RECORD.md`;
+-  `udt_g312_quiet_gr_response_constitution_discriminator_2026-09-01/AUDIT_REPORT.md`.
+-- Current generic null-screen geometry: `udt_g348_generic_lorentzian_null_screen_area_theorem_2026-09-04/`;
+-  `udt_g349_finite_null_wavefront_patch_area_2026-09-04/`.
+-- Current transfer-character boundary:
+-  `udt_g350_frequency_area_carried_content_ownership_2026-09-05/`.
+-- Current owner-provisional conservation result:
+-  `udt_g351_source_free_labelwise_carried_measure_conservation_2026-09-05/`.
+-- Current owner-provisional continuous clock-rate readout and next-gate parent:
+-  `udt_g352_clock_rate_carried_measure_readout_2026-09-05/`.
+-- G353--G356 conditional mathematical banking and exact reviewed scope:
+-  `udt_g353_g356_conditional_banking_2026-09-06/BANKING_RECORD.md`.
+-- Completed, unchanged four-step evidence:
+-  `udt_g351_g352_content_bridge_campaign_2026-09-06/`.
+-- Historical next-direction proposal, subsequently authorized as an adaptive campaign:
+-  `udt_g353_g356_conditional_banking_2026-09-06/NEXT_CAMPAIGN_DECISION_BRIEF.md`.
+-- Completed unchanged five-reviewed-step three-direction source campaign:
+-  `udt_shared_readout_metric_constraint_campaign_2026-09-06/DECISION_BRIEF.md`;
+-  scope, evidence/review history and closure: its `CAMPAIGN_LOG.md`.
+-- G357--G360 owner-authorized conditional mathematical banking of SC2--SC5; SC1 stays a source map:
+-  `udt_g357_g360_conditional_banking_2026-09-07/BANKING_RECORD.md`.
+-- Completed unchanged recipe-persistence source campaign:
+-  `udt_phase_current_product_persistence_campaign_2026-09-07/WORK_ORDER.md`;
+-  closure: its `CAMPAIGN_LOG.md`; owner return: its `DECISION_BRIEF.md`. Historical approved proposal remains
+-  `udt_g357_g360_conditional_banking_2026-09-07/NEXT_CAMPAIGN_PROPOSAL.md`.
+-- G361--G363 owner-authorized conditional mathematical banking of PC1--PC3:
+-  `udt_g361_g363_conditional_banking_2026-09-07/BANKING_RECORD.md`.
+-  Historical restrictiveness proposal, subsequently authorized: its `NEXT_CAMPAIGN_PROPOSAL.md`.
+-- Completed unchanged restrictiveness source campaign:
+-  `udt_recipe_restrictiveness_campaign_2026-09-07/DECISION_BRIEF.md`;
+-  exact scope, diagnostics, review and closure routes: its `CAMPAIGN_LOG.md` and step review records.
+-- G364--G366 conditional banking of RC1--RC3:
+-  `udt_g364_g366_conditional_banking_2026-09-07/BANKING_RECORD.md`.
+-  Historical calibration/test proposal: its `NEXT_CAMPAIGN_PROPOSAL.md`.
+-- G367--G369 exact-scope conditional banking of SM1--SM3:
+-  `udt_g367_g369_conditional_banking_2026-09-08/BANKING_RECORD.md`;
+-  its `EXECUTION_RECORD.md` owns integration/fidelity completion.
+-- Original source--metric campaign, unchanged including review/repair history:
+-  `udt_source_metric_connection_campaign_2026-09-08/DECISION_BRIEF.md`.
+-- Completed unchanged bounded metric-only reconstructibility test:
+-  `udt_metric_source_reconstructibility_campaign_2026-09-08/WORK_ORDER.md`;
+-  its `CAMPAIGN_LOG.md` owns step questions, outcomes and review state.
+-- G370--G371 owner-authorized exact-scope conditional banking of RT1--RT2:
+-  `udt_g370_g371_conditional_banking_2026-09-08/BANKING_RECORD.md`;
+-  its `EXECUTION_RECORD.md` owns promotion gate completion.
+-- Approved bounded theory direction proposal (historical proposal wording retained):
+-  `udt_g370_g371_conditional_banking_2026-09-08/NEXT_CAMPAIGN_PROPOSAL.md`.
+-- Optional independent-data coupled-development campaign at its two-reviewed-step stop:
+-  `udt_optional_coupled_development_campaign_2026-09-08/WORK_ORDER.md`;
+-  its `CAMPAIGN_LOG.md` owns step/review state, not scientific grades;
+-  `DECISION_BRIEF.md` owns the conditional result/next decision and
+-  `COMPLETION_RECORD.md` preserves the original delivery/preservation gates and then-NOT_BANKED state.
+-- G372--G373 owner-authorized exact-scope conditional banking of CD1--CD2:
+-  `udt_g372_g373_conditional_banking_2026-09-08/BANKING_RECORD.md`;
+-  its `EXECUTION_RECORD.md` owns promotion completion. Three vacuous checks stay excluded.
+-  Optional source-model branch PAUSED. Its `NEXT_CAMPAIGN_PROPOSAL.md` is the
+-  historical proposal subsequently approved by Charles.
+-- Core vacuum/common-scale campaign, two reviewed conditional results; original NOT_BANKED history preserved:
+-  `udt_vacuum_common_scale_campaign_2026-09-08/WORK_ORDER.md`;
+-  its `DECISION_BRIEF.md` and `CAMPAIGN_LOG.md` own results/review state, not accepted grades.
+-  VS1 compatibility/finite-data and VS2 fixed-domain rigidity/null-sector boundary have owner banking authority;
+-  G374--G375 integration gates are tracked in the banking package above.
++## Completed/parked observational routes
+ 
+-## Retained comparison and observational lanes
++These reviewed conditional designs/benchmarks are not scientific-grade or eligibility promotions.
+ 
+-- Observational interface/provenance: `udt_g277_observational_scale_anchor_ownership_2026-08-26/`;
++- Ideal tides: `udt_tidal_measurement_feasibility_campaign_2026-09-07/DECISION_BRIEF.md`
++- GOCE eligibility: `udt_goce_product_eligibility_audit_2026-09-07/DECISION_BRIEF.md`
++- GOCE documentation/enquiry: `udt_goce_documentation_followup_2026-09-07/DECISION_BRIEF.md`
++- GOCE PARKED, eligibility UNRESOLVED/OPEN; enquiry UNSENT, not rejected/awaiting reply.
++- Route survey: `udt_observational_route_selection_campaign_2026-09-07/DECISION_BRIEF.md`
++- Clock benchmark: `udt_local_clock_metric_benchmark_campaign_2026-09-07/DECISION_BRIEF.md`
++- Complementary readout: `udt_complementary_wave_observable_campaign_2026-09-07/DECISION_BRIEF.md`
++- Fixed window: `udt_gw170817_fixed_window_test_campaign_2026-09-07/DECISION_BRIEF.md`
++- GW design gate, parked: `udt_gw_response_robustness_design_campaign/DECISION_BRIEF.md`
++- Earlier interface: `udt_g277_observational_scale_anchor_ownership_2026-08-26/`;
+   `udt_g279_native_kernel_observational_interface_provenance_audit_2026-08-27/`;
+   `udt_g281_sne_validation_provenance_reconstruction_audit_2026-08-27/`.
+-- Raw-pattern control: `udt_observed_angular_pattern_raw_restart_2026-08-12/`; exact R5 records:
+-  `udt_observed_angular_pattern_raw_restart_2026-08-12/R5_OUTCOME_REPORT.md`,
+-  `udt_observed_angular_pattern_raw_restart_2026-08-12/R5_EXTERNAL_FOLLOWUP_REVIEW.md`, and
+-  `udt_observed_angular_pattern_raw_restart_2026-08-12/R5_FINAL_EVIDENCE_MANIFEST.tsv`.
+-- Verified raw archive: `/media/udt-admin/ScratchDisk/Data/UDT_BOSS_R3_2026-08-14/`.
+-- Chosen-family evaluators/controls: `udt_g190_completed_pair_timelive_frequency_screen_join_2026-08-20/`;
+-  `udt_g196_longitudinal_screen_mixing_descent_2026-08-20/`. They are controls, not current
+-  construction inputs.
+-
+-R2--R5 select no feature, scale, origin, cosmology, or `X_max`.
++- Raw-pattern evidence: `udt_observed_angular_pattern_raw_restart_2026-08-12/`:
++  `R5_OUTCOME_REPORT.md`, `R5_EXTERNAL_FOLLOWUP_REVIEW.md`, `R5_FINAL_EVIDENCE_MANIFEST.tsv`.
++- Raw archive locator: `/media/udt-admin/ScratchDisk/Data/UDT_BOSS_R3_2026-08-14/`;
++  current archive access/completeness is not asserted.
+ 
+-## Specialized entry points
++## Specialized/historical entry points
+ 
+-- Carrier/topology: `native_hopfion_topology_audit_2026-07-19/AUDIT_REPORT.md` and its ledger.
+-- Mass/stability: `udt_scientific_arc_recovery_checkpoint_2026-08-04/MASS_BRANCH_AUTHORITY_MAP.tsv`;
++- Carrier/topology first: `native_hopfion_topology_audit_2026-07-19/AUDIT_REPORT.md` and ledger.
++- Mass/stability first: `udt_scientific_arc_recovery_checkpoint_2026-08-04/MASS_BRANCH_AUTHORITY_MAP.tsv`.
+   `stability_branch_follow_256_DECISION.md` is durable lane evidence only.
+-- Primary metric control: `SIMPLE_METRIC_MACRO.md`; canonical-geometry control:
+-  `udt_canonical_geometry.md`.
+-- `X_max` dependency-reversal control: `udt_g163_xmax_dependency_reversal_audit_2026-08-18/`.
+-- Historical startup states: `archive/STARTUP_SURFACE_HISTORY.md`.
++- Chosen-family evaluators/controls: `udt_g190_completed_pair_timelive_frequency_screen_join_2026-08-20/`;
++  `udt_g196_longitudinal_screen_mixing_descent_2026-08-20/`—not current construction inputs.
++- Historical startup: `archive/STARTUP_SURFACE_HISTORY.md`; prior current pages remain in Git.
++- Known old path only: `research/_registry/CURRENT_ARTIFACT_PATHS.tsv`, not a frontier/startup read.
+diff --git a/LIVE.md b/LIVE.md
+index 96104165..2fe3de36 100644
+--- a/LIVE.md
++++ b/LIVE.md
+@@ -1,300 +1,104 @@
+ # LIVE — current state only
+ 
+ <!-- STARTUP_CURRENT_BEGIN -->
+-## CURRENT STATE — 2026-09-08
++## CURRENT STATE — 2026-09-09
+ 
+ Branch: `grok`. Synchronize and inspect dirt. This block overrides older status.
+ 
+ ### Honest claim
+ 
+-On supplied ordered depth,
+-
+-```text
+-h_AB=diag(-exp(-2 delta_AB),exp(+2 delta_AB))
+-phi_pair=delta_AB  [DERIVED_CONDITIONAL only on a supplied regular calibrated pair]
+-```
+-
+-The conditional pair ratio `c_eff/c_E=exp(-2 delta_AB)` is not automatically a signal speed. On a
+-supplied regular pair, `B,Q,S,Y,Z` enters `h=F^*g` before terminal readout. Completed-pair Dual
+-Reciprocity remains a `WORKING_FOUNDATIONAL_CLARIFICATION`; germs, population, higher/full carry,
+-and global history remain supplied or `OPEN`.
+-
+-W5 provisionally identifies physical normalized pair position with the complete projective relation
+-state. W6 permits nonpropagating co-presence only with metric-causal observable response.
+-Universal Reciprocity is Charles's plain-language postulate; Differential Dual Reciprocity (DDR)
+-is its tested curvature-level mathematical formulation: one postulate with two formulations.
+-It is `OWNER_ADOPTED_PROVISIONAL_POSTULATE` (2026-08-31), not derived or canonized.
+-G312 premises are owner-adopted provisionally. They are quiet-GR response and Local Metric
+-Sufficiency. In their bounded
+-vacuum response arena they give trace-free Ricci with one connected scalar; global bootstrap remains
+-optional, and angular-sector cancellation—not DDR—owns loud--quiet--loud. The metric, reciprocal
+-kernel, angular sector, and adopted equation are unchanged.
+-
+-`X_max` remains a `WORKING/OPEN` frame-shared positional-dilation asymptote and possible global
+-completion consequence—not a local input, wall, center, or numerical scale.
++On supplied ordered depth, `h_AB=diag(-exp(-2 delta_AB),exp(+2 delta_AB))`.
++Only on a supplied regular calibrated pair, `phi_pair=delta_AB` is DERIVED_CONDITIONAL.
++The conditional ratio `c_eff/c_E=exp(-2 delta_AB)` is not automatically a signal speed.
++Complete `B,Q,S,Y,Z` enters `h=F^*g` before readout. Completed-pair Dual Reciprocity
++is WORKING_FOUNDATIONAL_CLARIFICATION; germs, population and history remain supplied or OPEN.
++W5 provisionally identifies projective pair position; W6 permits nonpropagating co-presence
++only with metric-causal observable response.
++
++Universal Reciprocity/DDR is one postulate with two formulations,
++OWNER_ADOPTED_PROVISIONAL_POSTULATE (2026-08-31), not derived or canonized.
++G312 premises are owner-adopted provisionally. Quiet-GR response and Local Metric Sufficiency
++give `Ric(g)=Lambda g` in their bounded multibranch Einstein arena, with connected constant Lambda.
++The scalar concerns Ricci curvature, not all remaining geometry: Weyl/tidal and initial data remain free.
++The metric, kernel and adopted equation are unchanged; angular-sector cancellation owns loud--quiet--loud.
++`X_max` remains WORKING/OPEN global completion, never a local input, wall, center or selected scale.
+ 
+ ### Current frontier
+ 
+-- G166--G276 reconstruct and stress-test the metric-native pair kernel and complete pullback. The
+-  active evaluator is `udt_uncompressed_pair_kernel_reconstruction_2026-08-14/`; G190--G198 are
+-  formula-level controls, not construction inputs.
+-- G277--G281 type observational interfaces and retain optical imports as imports; they provide no
+-  native SNe prediction or preferred scale.
+-- G282--G312 isolate the history-law gap and record the owner-provisional response premises above.
+-- G313--G337 characterize a multibranch Einstein arena, lawful initial data/developments, and
+-  bounded response jets. They select no universe, population, scale, matter, or stability theorem.
+-- G338--G349 derive causal pair, null-screen, Jacobi, phase-space, directional-area, observer, and
+-  finite-patch geometry first on one supplied spacetime and then on arbitrary supplied smooth
+-  time-oriented four-dimensional Lorentzian metrics. These are geometric results, not carried
+-  content, light transfer, brightness, distance, route selection, or a UDT selector.
+-- G350 proves a bounded nonuniqueness result: every continuous positive local multiplier built only
+-  from metric frequency ratio `R` and metric sheet-area ratio `A`, with identity and exact
+-  multiplicative sewing on the declared full abstract domain, is `T_(p,q)=R^p A^q` for arbitrary
+-  real `p,q`. Reciprocity and observer covariance choose neither weight.
+-- G351 records Charles's owner-adopted provisional source-free labelwise carried-measure premise.
+-  Fresh external review accepted the bounded consequence: for a standard finite nonnegative
+-  countably additive measure, the nonzero absolutely continuous regular density carries inverse
+-  metric sheet area, so `T_p=R^p A^-1` and `q=-1` inside G350's declared full independent positive
+-  character domain. `p` remains arbitrary. At caustics the finite measure and its pushforward remain
+-  defined, while an ordinary finite density need not; singular content has no ordinary density
+-  exponent. This is not yet light, flux, distance, source, population, cross-label physics, or a
+-  detector law.
+-- G352 records Charles's owner-adopted provisional clock-rate readout and an explicit chosen
+-  continuous total-phase-variation, phase-independent nonnegative product realization. External R2
+-  repair review accepted the bounded consequence `T_clock=R A^-1`, so `(p,q)=(1,-1)` is unique
+-  only for this readout inside G350's full independent positive character domain. Literal atomic
+-  crossings, G351's `p=0` density, and all other readout types remain distinct/open. No light,
+-  energy, source, population, detector, distance, history, matter, scale, `X_max`, or canon follows.
+-
+-- G353--G356 bank the completed four-step campaign as owner-authorized conditional mathematics,
+-  VERIFIED-WITH-CAVEATS: source-bounded fixed-query nonselection; optional naturality/conversion
+-  obstructions; the local harmonic-wave fixed-root phase class; and a different-phase product
+-  criterion with positive and failed geometric realizations. All supplied data, CHOSEN recipes,
+-  optional hypotheses and review limitations survive. No physical content or counting law is adopted.
+-  Banking integration/fidelity checks passed; the scientific campaign is complete.
+-
+-- G357--G360 bank SC2--SC5 conditionally, VERIFIED-WITH-CAVEATS: shared-readout constraints,
+-  eventwise algebraic curvature, local phase/optional compact obstruction, and bounded-weight
+-  robustness. Assumptions and reviews remain controlling; no physical identification or canon.
+-
+-Authority: the exact 365-row `CURRENT_SCIENTIFIC_PREMISES.tsv`, through G382. Use `INDEX.md` for
+-current evidence routes and `archive/STARTUP_SURFACE_HISTORY.md` for nonauthoritative historical
+-startup surfaces.
+-
+-### Observational boundary
+-
+-R2--R5 in `udt_observed_angular_pattern_raw_restart_2026-08-12/` remain verified with caveats;
+-184,300 covariance rows remain unresolved and no preferred scale follows. Raw archive:
+-`/media/udt-admin/ScratchDisk/Data/UDT_BOSS_R3_2026-08-14/`. No long solve is running.
+-
+-### Protected local work
+-
+-Do not stage, modify, mine, or cite without dispatch:
++- G166--G276: complete metric-native pair reconstruction; active evaluator
++  `udt_uncompressed_pair_kernel_reconstruction_2026-08-14/`.
++  G190--G198 are formula-level controls, not construction inputs.
++- G277--G281: observational interface/provenance, not native light transfer or selected scale.
++- G282--G312: history-law boundaries and owner-provisional vacuum response premises.
++- G313--G337: lawful data/developments and response structure; no unique universe or physical population.
++- G338--G349: causal, null-screen, Jacobi and area geometry; no carried-content or detector identification.
++- G350: the declared multiplicative class is `R^p A^q`; geometry does not select either weight.
++- G351: owner-provisional source-free conservation of a finite nonnegative countably additive label measure;
++  its nonzero absolutely continuous regular density has `R^p A^-1`; `p` remains free.
++  Measure pushforward survives caustics, though ordinary density need not.
++- G352: owner-provisional continuous clock-rate readout gives `T_clock=R A^-1` only on its chosen
++  phase-independent product; atomic crossings and physical light/energy/flux remain distinct or OPEN.
++- G353--G356: conditional content-bridge mathematics; chosen recipes and optional conditions stay chosen.
++- G357--G360: shared ideal-query/curvature/phase/weight constraints; SC1 remains a source map.
++- G361--G363: restricted local recipe/phase/product preservation, not generic persistence.
++- G364--G366: restrictiveness and remaining metric freedom; retain RC2 exposure and domain/method caveats.
++- G367--G371: conditional currents, optional source comparisons and reconstruction; no admitted source law.
++- G372--G373: restricted independently supplied data and LOCAL ANALYTIC joint evolution under an
++  OPTIONAL UNADOPTED source law, not merely metric reconstruction; three vacuous checks stay EXCLUDED.
++- G374--G375: fixed-base local positive conformal restrictions, not absolute-scale selection.
++- G376--G378: BI1 prerequisite and global lawful-data/marked-line results; no fibration/stability conclusion.
++- G379=CF1 and G380=CF2: no universal closed-Hopf-fibre preservation for the continued Ricci eigenline,
++  even allowing smooth deformation, within the reviewed marked nonround/local-development class.
++  Preserving examples survive; no generic failure, topology change, physical instability or UDT failure.
++- G381=NT1 and G382=NT2: neighboring tidal compatibility/obstruction and restricted real rank-one
++  null-jet classification; actual smooth local Lambda=0 realizations, not general metric realization.
++
++Conditional mathematical banking through G382 is COMPLETE, VERIFIED-WITH-CAVEATS at exact scopes.
++The exact 365-row `CURRENT_SCIENTIFIC_PREMISES.tsv` owns grades; `INDEX.md` owns evidence navigation.
++Whole source reviews/limits control, including false passes and repairs, CF2 buffers LOST, not preserved
++or recovered, and NT1 lost buffers/unsnapshotted initial reviewer code. HB2/HB3 and BI2/BI3 stay UNPROMOTED.
++The fixed through-G352 manuscript is an earlier edition, not current tracking.
++
++### Distinctions for the direction discussion
++
++G313/G314 already retain scalar sectors, other geometric freedom and legitimate supplied initial data;
++a unique-history selector is a stronger optional ambition, not required for conditional field theory.
++G374/G375 restrict position-dependent rescaling on a fixed base but retain constant rescaling:
++`g_hat=a^-2 g, Lambda_hat=a^2 Lambda, a>0`. No physical size or absolute scale is selected.
++A separately fixed target scalar restricts that rescaling; its value is supplied, not derived.
++Carried measure, population of configurations and selection of a complete history are different questions;
++“occupancy” names no additional law here. A successor must identify an unexamined admitted implication,
++not repeat existing scalar/source nonselection.
++
++Geometric theory/calibration and possible emergence remain parallel, neither prerequisite.
++Conditional measurement models require explicit justified transfer/instrument assumptions;
++an admitted sourced sector or emergent light is not a blanket prerequisite for every route.
++No such assumption is adopted by this wording.
++
++### Paused routes and preservation
++
++The optional source-model branch is PAUSED after its bounded analytic-coherence result.
++The automatic Hopfion-stabilization mechanism is PAUSED; no rescue restriction, carrier or action.
++GOCE is PARKED with eligibility UNRESOLVED/OPEN; enquiry UNSENT, not rejected or awaiting a reply.
++The particular GW procedure is parked at its design gate; clock/complementary campaigns are complete.
++No observations, searches or correspondence resume from an old work order; ideal tides are groundwork.
++
++R2--R5 in `udt_observed_angular_pattern_raw_restart_2026-08-12/` remain verified with caveats:
++184,300 covariance rows unresolved, no preferred scale; raw archive
++`/media/udt-admin/ScratchDisk/Data/UDT_BOSS_R3_2026-08-14/`.
++Backup completeness and pre-reboot unsaved-state disposition remain UNVERIFIED;
++ScratchDisk blocks archive-dependent work only. Historical status: `archive/STARTUP_SURFACE_HISTORY.md`.
++
++Protected—do not stage, modify, mine or cite without dispatch:
+ 
+ - `udt_native_onshell_timelive_reset_owner_audit_2026-08-10/`
+ - `udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/`
+ - `udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/`
+-- `udt_kernel_plane_global_curvature_holonomy_atlas_2026-08-02/` when present
++- `udt_kernel_plane_global_curvature_holonomy_atlas_2026-08-02/`
+ 
+ ### Next gate
+ 
+-G353--G356 conditional mathematical banking is complete at its owner-authorized reviewed scope.
+-The four-step campaign is complete; no fifth example.
+-The G352 physical-realization question remains: physical identification remains OPEN. Its
+-owner-provisional premises and chosen product are unchanged; a metric-native carried object is
+-not physically selected by the banked mathematical realizations.
+-Charles authorized G357--G360 conditional mathematical banking of SC2--SC5. SC1 remains a source map.
+-Exact scopes and preserved false-pass/repair history:
+-`udt_g357_g360_conditional_banking_2026-09-07/BANKING_RECORD.md`.
+-Algebraic compatibility is not full metric-development realization; free phase propagation is not
+-curvature-recipe/product persistence. The original completed campaign remains unchanged.
+-G361--G363 bank PC1--PC3 conditionally: restricted local seed/recipe/phase/product preservation.
+-Exact scopes and reviews: `udt_g361_g363_conditional_banking_2026-09-07/BANKING_RECORD.md`.
+-G364--G366 bank RC1--RC3 conditionally, retaining RC2 exposure and all reviewed limits:
+-`udt_g364_g366_conditional_banking_2026-09-07/BANKING_RECORD.md`.
+-Geometric calibration/testing and emergence remain parallel, neither prerequisite.
+-Charles's tidal measurement-feasibility campaign returned two reviewed conditional candidates,
+-TM1/TM2, VERIFIED-WITH-CAVEATS, not promoted. No third example or observations fitted.
+-Brief/reviews: `udt_tidal_measurement_feasibility_campaign_2026-09-07/DECISION_BRIEF.md`.
+-An unused scalar contrast can survive absolute-scalar bias degeneracy in the declared finite
+-linear class; a real product's processing/calibration/error eligibility remains OPEN.
+-Charles authorized the product-specific GOCE eligibility audit; PE1 returned a fresh-reviewed
+-VERIFIED-WITH-CAVEATS document audit, not scientific promotion. Exact2018 TN3397 was recovered;
+-baseline0202 and cached one-item processor07.00 metadata are distinguished from actual deployed
+-configuration. No final-stage trace projection is imposed by Algorithm16, but end-to-end retained
+-signal, calibration/raw-support/error provenance and a written arm-length ambiguity remain OPEN.
+-The audit stopped after one reviewed step at that evidence gate; no second example or data fit.
+-Brief/review: `udt_goce_product_eligibility_audit_2026-09-07/DECISION_BRIEF.md`.
+-TM1/TM2 remain unpromoted. Charles authorized a focused GOCE documentation follow-up,
+-not another compatibility campaign. Current assessment and UNSENT ESA enquiry:
+-`udt_goce_documentation_followup_2026-09-07/DECISION_BRIEF.md`; review records control
+-their review status. Historical header/configuration pointers, approximate attitude covariance
+-and trace-monitoring flag are distinguished from actual0202 behavior. Release-specific
+-retained-response, selection/support, errors and arm/channel convention remain OPEN.
+-Charles PARKED GOCE: eligibility remains UNRESOLVED/OPEN, not rejected and not awaiting a reply.
+-The approved enquiry remains UNSENT and preserved with all previous findings/reviews. Do not send,
+-repeat completed searches or continue GOCE analysis. Prior submission/proposal package is historical
+-at its recorded state, not authority to submit or to start its ideal-tidal campaign.
+-The observational-route selection campaign is COMPLETE at three fresh-reviewed steps,
+-VERIFIED-WITH-CAVEATS, without fitting or scientific promotion. C (laboratory clocks),
+-R (solar radio tracking) and W (GW strain) were compared; a conditional published-summary
+-clock-gradient benchmark is recommended, not a unique UDT prediction or full metric inference.
+-Brief/log/reviews: `udt_observational_route_selection_campaign_2026-09-07/DECISION_BRIEF.md`.
+-Charles's approved local clock benchmark is COMPLETE at two fresh-reviewed steps,
+-VERIFIED-WITH-CAVEATS; brief and reviews:
+-`udt_local_clock_metric_benchmark_campaign_2026-09-07/DECISION_BRIEF.md`.
+-The published summary gives effective upward d ln N/dh=(1.24±0.26)e-16 m^-1
+-under supplied stationary, near-linear, finite-cloud and metrology assumptions.
+-Residual about-1.5 in units10^-19/cm gives zero-inclusion in both displayed difference
+-bands (standard-uncertainty widths2.60/2.70), not a confidence/UDT acceptance test or raw recertification.
+-Cross-correlation bounds do not cover arbitrary omitted bias; unrestricted additive
+-gradient bias destroys identifiability. Initial false passes and one repair per step survive.
+-Ratios alone do not fix scale; dimensional anchors may fix it in an identified family.
+-Preserve supplied metrology, source error/correlation limits, known outcome exposure and repairs.
+-Ideal tides remain mathematical groundwork, not an available experiment; emergence remains parallel.
+-No fitting, correspondence, physical adoption, grades/canon/manuscript changes were performed;
+-The complementary-observable campaign is complete at its two reviewed conditional steps:
+-`udt_complementary_wave_observable_campaign_2026-09-07/DECISION_BRIEF.md`.
+-CO1 supplies the scoped wave-tidal/readout and free-waveform null relation; CO2 checks
+-nominal H1/L1/V1 rank2/condition5.62 with one contrast, not three independent holdouts.
+-Supplied response/astrometry/error assumptions remain; CO1/CO2 did not include strain/PSD
+-analysis or eligibility promotion. CO1 repair history and both separate-context reviews are preserved.
+-The authorized fixed-window campaign is COMPLETE after TWO reviewed steps in
+-`udt_gw170817_fixed_window_test_campaign_2026-09-07/`, stopping at its frozen sensitivity gate.
+-FW1/FW2 R1 are VERIFIED-WITH-CAVEATS at exact narrowed scopes, not accepted-grade promotions.
+-The33 off-source supports give target crossings5/168,3/168,3/168 versus required152/168;
+-one retained reference dominates the maximum threshold. Independent recomputation/review
+-closed the inclusive-bin repair; original failures and exposure history are preserved.
+-No event samples/contrast were examined and FW3 was not begun. No geometric constraint,
+-population-power claim or instrument/UDT-wide verdict follows. Physical response/error
+-eligibility remains OPEN; the transient runtime blocker is resolved. The actual349-row
+-premise audit passed; accepted science/canon/fixed-snapshot manuscript remain unchanged.
+-The authorized response-error/robustness DESIGN campaign reached its reviewed early stop:
+-`udt_gw_response_robustness_design_campaign/DECISION_BRIEF.md`. RD1 is VERIFIED-WITH-CAVEATS
+-conditional design mathematics: training-bounded leakage, a scoped finite-sample limitation,
+-sharp norm-budget readout intervals and a supplied arm-transfer bound. These are not accepted-grade
+-changes or actual-product/UDT no-go results. Complete target-level response/support control remains
+-OPEN; RD2 was NOT STARTED. No new strain/event samples or existing33 development records were
+-opened. The fresh349 audit passed; premises/canon/fixed-snapshot manuscript remain unchanged.
+-This particular GW procedure remains parked at its design gate.
+-The theory-first source–metric connection campaign completed its3 reviewed scientific steps:
+-`udt_source_metric_connection_campaign_2026-09-08/DECISION_BRIEF.md`; compact evidence/status in its CAMPAIGN_LOG.md.
+-SM1 gives a regular4D conserved current; SM2 constrains an OPTIONAL algebraic tensor class;
+-SM3 gives metric-data/curvature consequences only under an UNADOPTED source comparison.
+-Charles authorized G367--G369 conditional mathematical banking of SM1--SM3 at EXACT reviewed scopes:
+-`udt_g367_g369_conditional_banking_2026-09-08/BANKING_RECORD.md`.
+-Promotion integration is COMPLETE: full352 audit and fresh fidelity PASS_WITH_CAVEATS;
+-its EXECUTION_RECORD.md owns exact completion checks and publication history.
+-No prior grade, physical premise, canon or fixed-snapshot manuscript changes. Physical identification
+-and source-response closure remain OPEN. Original candidate/review/history bytes stay unchanged.
+-The approved metric-only reconstructibility campaign completed2 reviewed scientific steps:
+-`udt_metric_source_reconstructibility_campaign_2026-09-08/DECISION_BRIEF.md`.
+-RT1 gives local optional nonzero-curvature reconstruction criteria and phase-data freedom;
+-RT2 gives full-covector fixed-product compatibility and the fixed/free data distinctions.
+-Charles authorizes G370=RT1 and G371=RT2 conditional banking at EXACT reviewed scopes:
+-`udt_g370_g371_conditional_banking_2026-09-08/BANKING_RECORD.md`.
+-Promotion integration is COMPLETE: full354 audit and fresh fidelity PASS_WITH_CAVEATS.
+-Its EXECUTION_RECORD.md owns exact checks and preservation/publication history.
+-Original candidates/reviews/history remain unchanged, including the reviewer syntax failure.
+-The optional NONZERO comparison is NOT an admitted extension of G312's bounded vacuum S=0 arena.
+-Fixed/free data distinctions and FULL ambient-neighborhood covector closure remain controlling.
+-Completed G369 source assessment is reused: the examined admitted fragment does not select
+-this source law. Reconstruction from a metric is not independent-data coupled evolution.
+-Charles authorizes G372=CD1 and G373=CD2 conditional mathematical banking at EXACT reviewed scopes:
+-`udt_g372_g373_conditional_banking_2026-09-08/BANKING_RECORD.md`.
+-Promotion integration is COMPLETE after full356 and fresh fidelity gates; its EXECUTION_RECORD.md owns completion.
+-CD1 supplies a restricted smooth constrained initial-data family; CD2 supplies LOCAL REAL ANALYTIC
+-joint development, analytic geometric uniqueness and original-product propagation, VERIFIED-WITH-CAVEATS.
+-THREE vacuous author product checks remain EXCLUDED from evidence; original candidate/review bytes stay fixed.
+-Optional source law, chosen product, restricted family and method/review limitations remain explicit.
+-No smooth well-posedness, stability, physical identification or selection by UDT follows.
+-The optional source-model branch is PAUSED after its completed bounded dynamical-coherence campaign.
+-The approved core vacuum/common-scale campaign returned two reviewed conditional candidates:
+-`udt_vacuum_common_scale_campaign_2026-09-08/DECISION_BRIEF.md`.
+-Charles authorizes exact-scope conditional banking of VS1--VS2 as G374--G375:
+-`udt_g374_g375_conditional_banking_2026-09-08/BANKING_RECORD.md`.
+-Integration is COMPLETE after full358 and fresh fidelity gates; its EXECUTION_RECORD.md owns completion.
+-Fixed supplied base geometry, local positive domains, fixed/free target scalar and all review caveats remain.
+-No particle stability, physical size or absolute scale follows; original evidence remains unchanged.
+-G131 reduced-control conformal blindness is NOT blindness of G176/G180 completed tape/depth.
+-The Hopfion bridge-and-stability research/review is COMPLETE at three reviewed steps:
+-`udt_hopfion_bridge_stability_reassessment_2026-09-08/DECISION_BRIEF.md`; its execution/publication receipts own repository closure.
+-HB1 recovers the surviving conditional finite-box carrier result and later intrinsic geometric bridge.
+-HB2 gives full first-normal Ricci-line drift; HB3 gives the local closed/nonclosed spatial-curve alternative.
+-Both new mathematical candidates remain UNPROMOTED, with strict G331/G332 family/gap/root,
+-marked normal slices and imported smooth Cauchy/isometry-method restrictions. No topology-change,
+-particle stability, physical size, scale or old-carrier Hessian transfer follows.
+-The separate Berger initial-data campaign is COMPLETE at three reviewed steps:
+-`udt_berger_initial_data_preservation_campaign_2026-09-08/DECISION_BRIEF.md`.
+-BI1 gives the full first-normal image/projector criterion and lawful homogeneous K quadric.
+-BI2 gives actual homogeneous local branch/circle preservation, with direct unaveraged
+-quotient-metric preservation iff horizontal shear vanishes. BI3 realizes local analytic
+-inhomogeneous constraint data with nonzero line drift; no global compact extension follows.
+-Original candidates retain their UNPROMOTED history. Full reviews retain harness caveats;
+-BI2's one fresh focused review clears isolation without erasing its original exposure.
+-Supplied nonround geometry, original vacuum premises, normal marking, spectral gaps,
+-analytic/local-method restrictions and no physical-stability/scale inference remain.
+-The Berger global-constraint campaign is COMPLETE at two freshly reviewed steps:
+-`udt_berger_global_constraint_campaign_2026-09-08/DECISION_BRIEF.md`.
+-BG1 gives a global small-TT nonlinear constraint family at fixed gamma/Lambda,
+-with trace determined rather than additionally fixed; baseline-mean fixing is rigid.
+-BG2 gives arbitrary-small GLOBAL lawful data with nonzero full marked Ricci-line
+-drift at any marked point of each fixed nonround Berger background. Actual short
+-normal-time departure remains conditional on the smooth marked Cauchy method.
+-Both original candidates are VERIFIED-WITH-CAVEATS; retain h!=0, compact boundary-free
+-domain, small-data/method restrictions, full tensor and all review caveats.
+-Three actual symbol-only false passes and the reviewer assembly repair stay.
+-No orbit-closure/fibration-loss, topology-change, physical-stability or scale claim.
+-Charles authorizes exact-scope conditional banking G376=BI1 (required prerequisite),
+-G377=BG1 and G378=BG2; exact integration/fidelity gate receipts are recorded in
+-`udt_g376_g378_conditional_banking_2026-09-08/BANKING_RECORD.md`.
+-HB2/HB3 and BI2/BI3 remain UNPROMOTED; no unrelated prerequisite is promoted.
+-Banking is COMPLETE after full361 and fresh dependency/fidelity gates.
+-The closed-fibre campaign completed TWO reviewed conditional steps:
+-`udt_closed_fibre_persistence_campaign_2026-09-08/DECISION_BRIEF.md`.
+-CF1 separates closure, regular fibration and arbitrary-diffeomorphism equivalence.
+-CF2: for each fixed nonround Berger S3/signed h!=0, arbitrarily small ACTUAL
+-global lawful K at fixed gamma/Lambda yield SOME nonclosed Ricci-line leaves at
+-EVERY sufficiently small nonzero actual normal time. The leaf may depend on time.
+-Retain supplied Gaussian marking, positive metrics/simple gap, chosen torus-plus-
+-conjugation data symmetry, exact global TT/IFT and smooth Cauchy/isometry methods.
+-G330 pure-trace Hopf survivors remain; no genericity, topology-change, physical
+-stability, carrier adoption or UDT-failure inference. Charles authorizes exact-scope
+-conditional banking G379=CF1 and G380=CF2; dependency/integration/fidelity gates:
+-`udt_g379_g380_conditional_banking_2026-09-08/BANKING_RECORD.md` and its execution record.
+-No extra prerequisite or unrelated predecessor promotion. Original UNPROMOTED
+-evidence remains unchanged. Whole reviews/false-pass evidence control; CF2
+-intermediate buffered reviewer outputs were LOST, not preserved or recovered.
+-The admitted equations do not universally preserve closed Hopf fibres of this
+-continued Ricci eigenline, even allowing smooth deformation, at that exact scope.
+-This identification as an automatic Hopfion-stabilization mechanism is PAUSED.
+-No restrictions, carrier or energy functional will be added to rescue it.
+-Further investigation needs an independently motivated question, not another example.
+-The previous next-direction comparison/proposal remains preserved:
+-`udt_g379_g380_conditional_banking_2026-09-08/NEXT_CAMPAIGN_PROPOSAL.md`.
+-The neighboring-tidal campaign is COMPLETE at TWO reviewed steps:
+-`udt_neighboring_tidal_consistency_campaign_2026-09-08/CAMPAIGN_LOG.md`.
+-Charles authorizes exact-scope conditional banking G381=NT1 and G382=NT2:
+-`udt_g381_g382_conditional_banking_2026-09-09/BANKING_RECORD.md`.
+-Its EXECUTION_RECORD.md owns integration/fidelity completion. G381 is the required
+-prerequisite for G382; no unrelated predecessor is promoted. Original UNPROMOTED
+-campaign evidence remains unchanged. Full FOUR-slot correction and finite first-jet
+-limits survive; raw slopes require comparison data except at the stated W=0 event.
+-NT2 retains NONZERO REAL rank-one data, all-Lambda necessity versus ACTUAL smooth
+-LOCAL Lambda=0 realization, supplied future frame/slice/K and free smooth profiles.
+-Both original false-pass pairs and one guard repair each remain; NT1 unflushed
+-intermediates are LOST, not recovered, and its initial reviewer code was not
+-separately snapshotted. No general realization, physical content or propagation law.
+-After banking, stop for discussion. No successor campaign, caustic-current task,
+-third CF step or Hopf rescue is authorized.
+-Beyond this explicitly approved scope, no new campaign is authorized.
+-Execution/publication receipts own closure; prior evidence remains unchanged.
+-Carrier/action/boundary/evolution adoption remains unauthorized.
+-No physical adoption, earlier-grade, canon, fixed-manuscript or observation change.
+-Clock and complementary campaigns are exhausted; emergence remains parallel.
+-No physical adoption, generic instrument certification or distinctive UDT signal follows.
+-Do not hide an instrument law in a measurement definition, demand unique initial/query inputs,
+-or presume a new premise. History, matter, scale, `X_max`, and canon remain open.
+-Backup completeness and pre-reboot unsaved-state disposition remain UNVERIFIED; ScratchDisk blocks
+-archive-dependent tasks only. The central manuscript remains its fixed through-G352 edition.
++G381=NT1 and G382=NT2 conditional mathematical banking is COMPLETE at the reviewed scopes.
++The G352 physical-realization question remains: physical identification remains OPEN.
++Stop for lay discussion with Charles; no new campaign is authorized, and any chosen work order must include its checks, fresh separate-context review and bounded same-premise repair before returning.
+ <!-- STARTUP_CURRENT_END -->
+diff --git a/MEMORY.md b/MEMORY.md
+index 41050523..16b8f6a9 100644
+--- a/MEMORY.md
++++ b/MEMORY.md
+@@ -1,137 +1,48 @@
+ # MEMORY — compact pointer only
+ 
+-`LIVE.md` wins. Exact premise authority is the 365-row `CURRENT_SCIENTIFIC_PREMISES.tsv`.
+-
+-## Current picture
+-
+-VS1--VS2 exact-scope conditional banking as G374--G375 is COMPLETE after
+-full358/fresh fidelity gates in `udt_g374_g375_conditional_banking_2026-09-08/`.
+-Fixed base, local positive domain and target-scalar caveats survive; no physical
+-size, particle stability or absolute scale. The bounded Hopfion reassessment
+-completed three reviewed steps: `udt_hopfion_bridge_stability_reassessment_2026-09-08/DECISION_BRIEF.md`.
+-HB1 is a source map; new HB2/HB3 drift/orbit results remain UNPROMOTED and
+-strictly family/domain/method conditional. No particle or topology-change claim.
+-The separate Berger initial-data campaign completed three reviewed conditional steps:
+-`udt_berger_initial_data_preservation_campaign_2026-09-08/DECISION_BRIEF.md`.
+-BI1: lawful homogeneous K census/full first-normal criterion. BI2: local circles persist
+-throughout that class; direct quotient metric needs zero horizontal shear. BI3: lawful
+-local analytic spatial variation can move the line; that prescribed seed was not glued globally.
+-Original BI1--BI3 evidence remains unchanged, with all source/method/domain/review caveats and no physical
+-stability or scale claim. One fresh BI2 focused review cleared isolation; old exposure stays.
+-The separate global-data successor completed TWO reviewed conditional steps:
+-`udt_berger_global_constraint_campaign_2026-09-08/DECISION_BRIEF.md`.
+-BG1: small global TT data lift to exact nonlinear constraints with free trace.
+-BG2: arbitrary-small global lawful data can move the marked Ricci line at any
+-point of each fixed nonround background. No closure, topology or stability inference.
+-Charles authorizes exact-scope G376=BI1 (required prerequisite), G377=BG1 and
+-G378=BG2 conditional banking; exact gate receipts are recorded in
+-`udt_g376_g378_conditional_banking_2026-09-08/BANKING_RECORD.md`.
+-HB2/HB3 and BI2/BI3 remain UNPROMOTED; no physical adoption.
+-Banking COMPLETE after full361/fresh fidelity gates. Closed-fibre campaign
+-COMPLETE at TWO reviewed conditional steps:
+-`udt_closed_fibre_persistence_campaign_2026-09-08/DECISION_BRIEF.md`.
+-CF1 exact closure/fibration discriminator. CF2 constructs arbitrary-small global
+-lawful data on every fixed nonround/signed-h!=0 background with some nonclosed
+-leaves at every sufficiently small nonzero actual normal time; leaf may vary with t.
+-Retain marking/gap, torus-plus-conjugation data symmetry and full TT/IFT/smooth
+-Cauchy/isometry methods; G330 pure-trace survivors and all false-pass caveats.
+-Charles authorizes exact-scope conditional banking G379=CF1/G380=CF2:
+-`udt_g379_g380_conditional_banking_2026-09-08/BANKING_RECORD.md`; its execution record
+-owns gate completion. No extra prerequisite; original UNPROMOTED evidence stays.
+-LOST intermediate reviewer outputs are not called preserved or recovered.
+-No universal closed-Hopf-fibre preservation for this continued Ricci line, even
+-allowing smooth deformation. No generic failure, physical instability, topology
+-change or failure of UDT/the older conditional carrier model. This automatic
+-Hopfion-stabilization identification is PAUSED; no rescue restrictions/carrier/action.
+-The original next-direction proposal is preserved:
+-`udt_g379_g380_conditional_banking_2026-09-08/NEXT_CAMPAIGN_PROPOSAL.md`.
+-Charles approved direction1, neighboring ideal tidal consistency with ONE lawful
+-metric development: TWO reviewed steps completed. Charles authorizes exact-scope
+-conditional banking G381=NT1 then G382=NT2; no additional prerequisite:
+-`udt_g381_g382_conditional_banking_2026-09-09/BANKING_RECORD.md` owns scopes;
+-its execution record owns integration/fidelity completion. Original evidence stays fixed.
+-`udt_neighboring_tidal_consistency_campaign_2026-09-08/CAMPAIGN_LOG.md` owns current progress.
+-Keep raw/covariant slopes, free comparison data and actual development distinct.
+-Restricted null first-variation and actual local Lambda=0 realizations are not
+-physical content or a general realization theorem. One guard repair/re-review
+-per step; lost buffers/unsnapshotted reviewer source caveats remain. After banking,
+-stop for discussion; no successor is authorized.
+-No caustic-current campaign, carrier/conservation-law adoption, third CF step or
+-Hopf-stabilization rescue is authorized.
+-
+-The founded reciprocal kernel acts on supplied ordered depth. Complete-pair evaluation is
+-conditional and places `B,Q,S,Y,Z` before readout. W5/W6 are working clarifications. Universal
+-Reciprocity/DDR and G312 quiet-GR/Local Metric Sufficiency are owner-adopted provisional premises,
+-not derived or canon; their bounded vacuum response constitution is trace-free Ricci. The metric,
+-kernel, angular cancellation, and adopted equation are unchanged.
+-
+-G313--G337 characterize a multibranch solution arena and bounded response structure without
+-selecting occupancy, history, matter, stability, or scale. G338--G349 derive metric-owned causal and
+-null-screen area geometry on supplied spacetimes, not a light or transfer law. G350 leaves the exact
+-local multiplicative family `R^p A^q`. G351 provisionally adopts source-free conservation of one
+-standard finite label measure; its externally accepted bounded consequence fixes `q=-1` for the
+-nonzero absolutely continuous regular density, giving `R^p A^-1`, while leaving observer weight
+-`p` open.
+-
+-G352 provisionally types one continuous clock-rate readout on an explicitly chosen
+-phase-independent product realization. Its externally accepted repaired consequence is
+-`T_clock=R A^-1`, fixing `p=1` only for that readout; literal atomic crossings, `p=0`, other
+-readouts, and all physical identities remain distinct/open.
++`LIVE.md` wins. The exact 365-row `CURRENT_SCIENTIFIC_PREMISES.tsv` owns grades;
++`CURRENT_RESEARCH_PROGRAM.md` is the dependency spine and `INDEX.md` the evidence map.
++
++The kernel evaluates supplied ordered depth; complete `B,Q,S,Y,Z` enters before readout.
++Universal Reciprocity/DDR and G312 quiet-GR/Local Metric Sufficiency are
++owner-adopted provisional premises, not derivation or canon; the equation is unchanged.
++G313--G337 provide a multibranch arena with legitimate free initial data, not a selected universe.
++G338--G349 provide metric geometry, not physical carried content or detector laws.
++G350 leaves `R^p A^q`; G351 provisionally conserves a supplied label measure, giving
++`R^p A^-1` only for its nonzero regular AC density. G352 provisionally gives
++`T_clock=R A^-1` only for the chosen continuous phase/product readout.
++
++Conditional banking through G382 is COMPLETE at exact reviewed scopes.
++G381=NT1 precedes G382=NT2: tidal-neighborhood obstruction and restricted real null jets
++with actual local Lambda=0 realizations; not general metric realization or physical modes.
++Original candidate/review bytes, false passes, repairs and lost-output caveats stay fixed.
++HB2/HB3 and BI2/BI3 remain UNPROMOTED; three CD vacuous checks remain EXCLUDED.
++
++Keep the corrections explicit:
++
++- G374/G375 restrict variable conformal factors on fixed geometry; constant rescaling remains free.
++  `g_hat=a^-2 g, Lambda_hat=a^2 Lambda` selects no absolute scale.
++  A separately fixed target scalar restricts that freedom.
++- One connected Ricci scalar does not determine Weyl/tidal geometry or initial data.
++  Free data need not imply a missing law; history selection is a stronger optional ambition.
++- G372/G373 give restricted LOCAL ANALYTIC joint evolution, not mere reconstruction,
++  but the source connection remains OPTIONAL UNADOPTED and that branch PAUSED.
++- Conditional measurements need explicit justified instrument/transfer assumptions;
++  an admitted sourced sector or emergent light is not universally prerequisite.
++- Carried measure, configuration population and history selection are distinct questions.
++
++Automatic Hopfion-stabilization identification PAUSED; no rescue carrier/action.
++GOCE PARKED, eligibility UNRESOLVED/OPEN, enquiry UNSENT; GW procedure parked.
++Clock/complementary campaigns complete. Geometric/calibration and emergence aims remain parallel.
++Fixed manuscript/coverage is the through-G352 edition, not the current frontier.
+ 
+ ## Open gate
+ 
+-G353--G356 conditionally bank the completed four-step content-bridge campaign at its reviewed scope;
+-integration/fidelity checks passed. Optional conditions and CHOSEN recipes are not physical laws.
+-G352 physical identification remains OPEN. No fifth step in that old campaign is requested.
+-Charles authorized G357--G360 conditional mathematical banking of SC2--SC5 from the completed
+-five-reviewed-step campaign. SC1 remains a source map. Exact scope and preserved review/false-pass
+-history: `udt_g357_g360_conditional_banking_2026-09-07/BANKING_RECORD.md`.
+-Generic metric-data realization and unrestricted recipe/product persistence remain open.
+-G361--G363 bank PC1--PC3 conditionally; exact restricted scope and reviews:
+-`udt_g361_g363_conditional_banking_2026-09-07/BANKING_RECORD.md`.
+-G364--G366 bank RC1--RC3 conditionally:
+-separate tangent departure, exact lawful recipe failure/local Ricci-flat recurrent-root necessity,
+-and fixed-product metric freedom detected by a registered eventwise ideal tide.
+-`udt_g364_g366_conditional_banking_2026-09-07/BANKING_RECORD.md`.
+-Keep all conditional limits and RC2's late-hint exposure caveat.
+-Leaving this construction is not failure of admitted UDT equations. Old evidence is unchanged.
+-Geometric calibration/testing and emergence remain parallel, neither prerequisite.
+-G367--G369 owner-authorized exact-scope SM1--SM3 banking is complete:
+-`udt_g367_g369_conditional_banking_2026-09-08/BANKING_RECORD.md`.
+-Its EXECUTION_RECORD records full352/fresh fidelity gates. Original repair/exposure limits remain.
+-The metric-only reconstructibility campaign is COMPLETE at RT1--RT2.
+-Charles authorizes their exact-scope conditional banking as G370--G371:
+-`udt_g370_g371_conditional_banking_2026-09-08/BANKING_RECORD.md`;
+-its EXECUTION_RECORD owns promotion gate completion. Whole original evidence is unchanged.
+-Keep optional nonvacuum status, fixed/free data and full ambient closure explicit.
+-Reused G369 source assessment selects no physical source law; reconstruction
+-is not independently supplied-data coupled evolution. Current direction proposal:
+-`udt_g370_g371_conditional_banking_2026-09-08/NEXT_CAMPAIGN_PROPOSAL.md`.
+-Charles approved its two-step/four-hour optional coupled-development campaign:
+-`udt_optional_coupled_development_campaign_2026-09-08/CAMPAIGN_LOG.md`.
+-CD1--CD2 reached the two-reviewed-step stop; Charles authorizes exact-scope
+-conditional banking as G372--G373:
+-`udt_g372_g373_conditional_banking_2026-09-08/BANKING_RECORD.md`;
+-its EXECUTION_RECORD owns promotion completion. All original evidence remains fixed.
+-Restricted smooth initial data, then LOCAL REAL ANALYTIC joint development and
+-original-product propagation; three vacuous author product checks remain EXCLUDED.
+-Optional law, restricted family, analytic-only uniqueness and all review limits survive.
+-No smooth well-posedness, stability, physical identification or UDT selection follows.
+-Optional source-model branch PAUSED. The core vacuum/common-scale campaign returned
+-two reviewed conditional candidates: udt_vacuum_common_scale_campaign_2026-09-08/DECISION_BRIEF.md.
+-VS1--VS2 now have exact-scope G374--G375 banking authority; original NOT_BANKED evidence is unchanged.
+-Integration gates remain in the banking package; the bounded Hopfion successor is complete.
+-No fourth step in that completed Hopfion campaign is authorized. New banking is
+-limited to the currently approved G381--G382 dependency-closed scope above.
+-The Berger initial-data and two-step global-constraint campaigns above are complete.
+-Authorized dependency-closed banking and next-direction planning are scoped
+-above; no broader campaign or physical adoption. LIVE owns current state.
+-G131 reduced-control blindness is not G176/G180 completed tape/depth blindness. LIVE wins.
+-The earlier tidal proposal is historical, not a pending permission gate.
+-Do not demand unique initial/query data or hide an extra measurement rule in a definition.
+-The central manuscript remains the fixed through-G352 edition, not current tracking.
+-Population, cross-label physics, realized history, matter, scale, `X_max`, and canon remain open.
++Banking is complete; G352 physical identification remains OPEN.
++Stop for lay discussion with Charles; no new campaign is authorized.
++A chosen work order includes its checks, fresh separate-context review and bounded same-premise repair.
+ 
+-Use `INDEX.md` for current evidence routes and `archive/STARTUP_SURFACE_HISTORY.md` for historical
+-startup surfaces. R2--R5 remain verified with caveats; 184,300 covariance rows are unresolved and
+-no preferred scale follows.
++Backup completeness/pre-reboot unsaved state remain UNVERIFIED; ScratchDisk archive-only.
++R2--R5 remain verified with caveats;184,300 covariance rows unresolved, no preferred scale.
++Protected paths and current permissions are in LIVE/AGENTS; do not inspect their payloads.
++Historical startup wording: `archive/STARTUP_SURFACE_HISTORY.md`; Git preserves prior current pages.
+diff --git a/tests/test_startup_surface.py b/tests/test_startup_surface.py
+index 9daa1bed..907a69da 100644
+--- a/tests/test_startup_surface.py
++++ b/tests/test_startup_surface.py
+@@ -106,6 +106,13 @@ CURRENT_TARGETS = (
+     premise_guard.SHARED_CONSTRAINT_BANKING_SOURCE,
+     premise_guard.PERSISTENCE_BANKING_SOURCE,
+     premise_guard.RESTRICTIVENESS_BANKING_SOURCE,
++    premise_guard.SOURCE_METRIC_BANKING_SOURCE,
++    premise_guard.RECONSTRUCTION_BANKING_SOURCE,
++    premise_guard.COUPLED_BANKING_SOURCE,
++    premise_guard.VACUUM_SCALE_BANKING_SOURCE,
++    premise_guard.BERGER_BANKING_SOURCE,
++    premise_guard.CLOSED_FIBRE_BANKING_SOURCE,
++    premise_guard.NEIGHBORING_TIDAL_BANKING_SOURCE,
+     "startup_surface_g310_universal_reciprocity_refresh_2026-08-31/ADOPTION_RECORD.md",
+     "startup_surface_g312_two_premise_adoption_refresh_2026-09-01/ADOPTION_RECORD.md",
+ )
+@@ -150,6 +157,13 @@ def _startup_copy(tmp_path: Path) -> Path:
+             premise_guard.SHARED_CONSTRAINT_BANKING_SOURCE,
+             premise_guard.PERSISTENCE_BANKING_SOURCE,
+             premise_guard.RESTRICTIVENESS_BANKING_SOURCE,
++            premise_guard.SOURCE_METRIC_BANKING_SOURCE,
++            premise_guard.RECONSTRUCTION_BANKING_SOURCE,
++            premise_guard.COUPLED_BANKING_SOURCE,
++            premise_guard.VACUUM_SCALE_BANKING_SOURCE,
++            premise_guard.BERGER_BANKING_SOURCE,
++            premise_guard.CLOSED_FIBRE_BANKING_SOURCE,
++            premise_guard.NEIGHBORING_TIDAL_BANKING_SOURCE,
+         ):
+             shutil.copy2(REPO / relative, destination)
+         else:
+@@ -368,7 +382,7 @@ def test_catch_shared_constraint_banking_scientific_source_rewrite(tmp_path: Pat
+ def test_catch_shared_constraint_banking_next_gate(tmp_path: Path, name: str, token: str) -> None:
+     root = _startup_copy(tmp_path)
+     _replace(root / name, token, "REMOVED_BANKING_STATUS")
+-    with pytest.raises(SystemExit, match="next gate lacks bounded conditional banking status"):
++    with pytest.raises(SystemExit, match="current frontier lacks bounded conditional banking status"):
+         premise_guard.validate_startup_surface(root)
+ 
+ 
+@@ -487,7 +501,7 @@ def test_catch_restrictiveness_banking_receipt_rewrite(tmp_path: Path) -> None:
+ def test_catch_restrictiveness_banking_next_gate(tmp_path: Path, name: str) -> None:
+     root = _startup_copy(tmp_path)
+     _replace(root / name, "G364--G366", "REMOVED_NEW_BANK")
+-    with pytest.raises(SystemExit, match="next gate lacks bounded conditional banking status"):
++    with pytest.raises(SystemExit, match="current frontier lacks bounded conditional banking status"):
+         premise_guard.validate_startup_surface(root)
+ 
+ 
+@@ -591,7 +605,7 @@ def test_catch_persistence_banking_receipt_rewrite(tmp_path: Path) -> None:
+ def test_catch_persistence_banking_next_gate(tmp_path: Path, name: str) -> None:
+     root = _startup_copy(tmp_path)
+     _replace(root / name, "G361--G363", "REMOVED_NEW_BANK")
+-    with pytest.raises(SystemExit, match="next gate lacks bounded conditional banking status"):
++    with pytest.raises(SystemExit, match="current frontier lacks bounded conditional banking status"):
+         premise_guard.validate_startup_surface(root)
+ 
+ 
+@@ -1229,3 +1243,25 @@ def test_retired_route_words_absent_from_active_orientation() -> None:
+         text = (REPO / relative).read_text(encoding="utf-8").lower()
+         for token in premise_guard.STALE_STARTUP_TOKENS:
+             assert token.lower() not in text, f"{token!r} revived in {relative}"
++
++
++@pytest.mark.parametrize("token", (
++    "constant rescaling", "fixed target scalar", "Weyl/tidal and initial data remain free",
++    "LOCAL ANALYTIC", "OPTIONAL UNADOPTED", "not a blanket prerequisite",
++    "UNRESOLVED/OPEN", "enquiry UNSENT", "UNVERIFIED",
++))
++def test_catch_current_direction_distinction_removal(tmp_path: Path, token: str) -> None:
++    root = _startup_copy(tmp_path)
++    _replace(root / "LIVE.md", token, "REMOVED_DIRECTION_DISTINCTION")
++    with pytest.raises(SystemExit, match="LIVE direction distinction missing"):
++        premise_guard.validate_startup_surface(root)
++
++
++def test_current_next_gate_is_three_sentences_not_campaign_history() -> None:
++    for relative, marker in (("LIVE.md", "### Next gate"), ("HANDOFF.md", "Next:"),
++                             ("CURRENT_RESEARCH_PROGRAM.md", "## Current next gate")):
++        text = (REPO / relative).read_text().split(marker, 1)[1]
++        text = text.split("<!-- STARTUP_CURRENT_END -->", 1)[0].strip()
++        assert len(re.findall(r"\.(?:\s|$)", text)) == 3, relative
++        assert len(text.split()) <= 65, relative
++        assert "Stop for lay discussion" in text and "no new campaign is authorized" in text
+diff --git a/verify_current_scientific_premises.py b/verify_current_scientific_premises.py
+index bfbf3f2c..c11b108e 100644
+--- a/verify_current_scientific_premises.py
++++ b/verify_current_scientific_premises.py
+@@ -1607,9 +1607,7 @@ def validate_startup_surface(root: Path) -> None:
+         current = " ".join(controls[relative].split())
+         for token in ("G379=CF1", "G380=CF2", "LOST, not preserved or recovered",
+                       "automatic Hopfion-stabilization mechanism is PAUSED",
+-                      "even allowing smooth deformation", CLOSED_FIBRE_BANKING_SOURCE,
+-                      "G381=NT1", "G382=NT2", NEIGHBORING_TIDAL_BANKING_SOURCE,
+-                      "udt_neighboring_tidal_consistency_campaign_2026-09-08/CAMPAIGN_LOG.md"):
++                      "even allowing smooth deformation", "G381=NT1", "G382=NT2"):
+             require(token in current, f"closed-fibre current tracking lacks {token}: {relative}")
+ 
+     for control in PREMISE_REGISTRY_CONTROLS:
+@@ -1667,21 +1665,32 @@ def validate_startup_surface(root: Path) -> None:
+     require(len(live_next_parts) == 2, "LIVE next-gate section missing")
+     live_next = " ".join(live_next_parts[1].split())
+     for token in (
+-        "G353--G356", "G357--G360", "G361--G363", "G364--G366", "SC1 remains a source map", "conditional mathematical banking",
++        "G381=NT1", "G382=NT2", "COMPLETE", "conditional mathematical banking",
+         "G352 physical-realization", "physical identification remains OPEN",
+-        "Charles", "no new campaign is authorized",
++        "Charles", "Stop for lay discussion", "no new campaign is authorized",
+     ):
+         require(token in live_next, f"LIVE next gate lacks bounded conditional banking status: {token}")
+     handoff_next_parts = handoff.split("Next:", 1)
+     require(len(handoff_next_parts) == 2, "HANDOFF next-gate statement missing")
+     handoff_next = " ".join(handoff_next_parts[1].split())
+     for token in (
+-        "G353--G356", "G357--G360", "G361--G363", "G364--G366", "SC1 remains a source map", "conditional mathematical banking",
++        "G381=NT1", "G382=NT2", "COMPLETE", "conditional mathematical banking",
+         "G352 physical-realization", "physical identification remains OPEN",
+-        "Charles", "no new campaign is authorized",
++        "Charles", "Stop for lay discussion", "no new campaign is authorized",
+     ):
+         require(token in handoff_next, f"HANDOFF next gate lacks bounded conditional banking status: {token}")
+ 
++    # Completed ranges belong to the frontier, not a chronological next-gate dump.
++    for name, block in (("LIVE.md", live), ("HANDOFF.md", handoff)):
++        normalized = " ".join(block.split())
++        for token in ("G353--G356", "G357--G360", "G361--G363", "G364--G366",
++                      "G372--G373", "G374--G375", "G376--G378", "SC1 remains a source map"):
++            require(token in normalized, f"current frontier lacks bounded conditional banking status: {token}: {name}")
++    for token in ("constant rescaling", "fixed target scalar", "Weyl/tidal and initial data remain free",
++                  "LOCAL ANALYTIC", "OPTIONAL UNADOPTED", "not a blanket prerequisite",
++                  "UNRESOLVED/OPEN", "enquiry UNSENT", "UNVERIFIED"):
++        require(token in live, f"LIVE direction distinction missing: {token}")
++
+     contradictory_promotions = (
+         r"\buniversal reciprocity(?:\s*/\s*(?:differential dual reciprocity|ddr))?\s+is\s+(?:already\s+)?derived\b",
+         r"\bddr\s+is\s+(?:already\s+)?derived\b",
+@@ -1755,6 +1764,12 @@ def validate_startup_surface(root: Path) -> None:
+             RESTRICTIVENESS_BANKING_SOURCE,
+             SOURCE_METRIC_BANKING_SOURCE,
+             RECONSTRUCTION_BANKING_SOURCE,
++            COUPLED_BANKING_SOURCE,
++            VACUUM_SCALE_BANKING_SOURCE,
++            BERGER_BANKING_SOURCE,
++            CLOSED_FIBRE_BANKING_SOURCE,
++            NEIGHBORING_TIDAL_BANKING_SOURCE,
++            "udt_neighboring_tidal_consistency_campaign_2026-09-08/CAMPAIGN_LOG.md",
+             "udt_observed_angular_pattern_raw_restart_2026-08-12/",
+             "R5_OUTCOME_REPORT.md",
+             "R5_EXTERNAL_FOLLOWUP_REVIEW.md",

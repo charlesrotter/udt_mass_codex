@@ -1,0 +1,62 @@
+........................................................................ [ 29%]
+........................................................................ [ 59%]
+...............................................................F........ [ 88%]
+.............F.............                                              [100%]
+=================================== FAILURES ===================================
+____________________ test_catch_stale_agents_registry_count ____________________
+
+tmp_path = PosixPath('/tmp/pytest-of-udt-admin/pytest-24/test_catch_stale_agents_regist0')
+
+    def test_catch_stale_agents_registry_count(tmp_path: Path) -> None:
+        root = _startup_copy(tmp_path)
+>       _replace(root / "AGENTS.md", "349-row exact registry", "346-row exact registry")
+
+tests/test_startup_surface.py:985: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+path = PosixPath('/tmp/pytest-of-udt-admin/pytest-24/test_catch_stale_agents_regist0/AGENTS.md')
+old = '349-row exact registry', new = '346-row exact registry'
+
+    def _replace(path: Path, old: str, new: str) -> None:
+        text = path.read_text(encoding="utf-8")
+>       assert old in text, f"catch-proof fixture token absent: {old}"
+E       AssertionError: catch-proof fixture token absent: 349-row exact registry
+E       assert '349-row exact registry' in '# UDT Mass Codex — primary working-method authority\n\nCharles canonizes; `CANON.md` requires sign-off. This is an ev...ources, and exact decision. Approval is authority, not proof. Do not re-ask for\nroutine actions already authorized.\n'
+
+tests/test_startup_surface.py:205: AssertionError
+____________ test_active_orientation_surface_stays_readably_bounded ____________
+
+    def test_active_orientation_surface_stays_readably_bounded() -> None:
+        limits = {
+            "AGENTS.md": (225, 1950),  # Owner-requested bounded verification-cycle convention.
+            "LIVE.md": (135, 900),
+            "HANDOFF.md": (100, 600),
+                "INDEX.md": (118, 570),
+            "MEMORY.md": (70, 450),
+            "CURRENT_RESEARCH_PROGRAM.md": (155, 1100),
+                "CURRENT_SCIENTIFIC_PREMISES.md": (140, 1320),
+            "README.md": (100, 400),
+            "research/README.md": (80, 300),
+            "research/_registry/README.md": (80, 280),
+            "INFLIGHT_STATE.md": (40, 150),
+        }
+        for relative, (maximum_lines, maximum_words) in limits.items():
+            text = (REPO / relative).read_text(encoding="utf-8")
+            lines = text.splitlines()
+            words = text.split()
+            assert len(lines) <= maximum_lines, (
+                f"{relative} regrew to {len(lines)} lines (limit {maximum_lines})"
+            )
+            assert len(words) <= maximum_words, (
+                f"{relative} regrew to {len(words)} words (limit {maximum_words})"
+            )
+            longest = max((len(line) for line in lines), default=0)
+>           assert longest <= 220, f"{relative} contains a {longest}-character compressed line"
+E           AssertionError: CURRENT_RESEARCH_PROGRAM.md contains a 223-character compressed line
+E           assert 223 <= 220
+
+tests/test_startup_surface.py:1205: AssertionError
+=========================== short test summary info ============================
+FAILED tests/test_startup_surface.py::test_catch_stale_agents_registry_count
+FAILED tests/test_startup_surface.py::test_active_orientation_surface_stays_readably_bounded
+2 failed, 241 passed, 1 deselected in 6.11s
