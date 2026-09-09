@@ -1,7 +1,7 @@
 # Campaign execution and closeout record
 
-2026-09-09. Scientific work COMPLETE after two reviewed steps; publication
-closeout IN PROGRESS. No third step and no successor campaign. Maximum claim:
+2026-09-09. COMPLETE after two reviewed steps and closeout fidelity; reviewed
+evidence published at b4305e91. No third step or successor campaign. Maximum claim:
 reviewed conditional UNPROMOTED ND1/ND2 at their entire candidate/review scopes.
 
 ## Actual chronology and checks
@@ -50,8 +50,10 @@ not a third scientific step or an asserted new independence axis.
 07932b402976606355571a8a15269c9a80bcc4ee recorded the roadmap, authorized
 work order and initial startup updates; pushed successfully.
 76fd0c521491613a604069373caf5069ecfe82da recorded the reviewed ND1 evidence
-and ND2 question; pushed successfully. Later actual publication correspondence
-will be recorded separately, not guessed or treated as scientific acceptance.
+and ND2 question; pushed successfully. Both reviewed results and closeout
+evidence were pushed at b4305e915b88d411b87418ca0ded1ff46bee47dd; actual
+ls-remote correspondence checked at 23:25:09 UTC. PUBLICATION.md records this
+and the final administrative seal, never scientific acceptance.
 
 Only six existing startup pages, the new roadmap and this campaign package
 are authorized changes. Registry, verifier, tests, instructions, canon, fixed
@@ -61,7 +63,7 @@ have baseline sorted-line SHA-256
 d65d71d63a56b95aabfd61f33317b1f1f2b2a62a85ded8258c525b99a5e156ea
 (LF-joined full status lines, no final LF; exclude only our campaign prefix).
 Final read-only inventory passed in final_preservation_no_preload; the
-subsequent closeout seal will pin finalized documentation and evidence.
+closeout SHA256SUMS pins finalized documentation and evidence.
 
 Original reviews and their historical source pins are immutable snapshots.
 Current summary/startup bytes get their own closeout seal, not retroactive
@@ -93,3 +95,11 @@ Git configuration, execution guard or scientific code was changed.
 No raw failed scientific candidate was discarded. Original candidates, source
 pins, negative controls, exposure/check-plan records, stdout/stderr and direct
 reviews remain preserved. No claim of exhaustive defect exclusion is made.
+
+Final fidelity: step_02/review/CLOSEOUT_FIDELITY.md, SHA-256
+d1ba444aeffe08d2a5535a73798cd7e699b6e5122ac72e558789c858712f96e7.
+It explicitly covers factual status/receipt updates after actual checks;
+the original reviewed prose pins remain in that report. Main subsequently
+read the complete independent ND2 script; no scientific rerun or code edit.
+A read-only query for .codex/config.toml found no such local file; no model
+identity was inferred. Different-model review remains UNKNOWN/UNTESTED.

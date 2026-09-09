@@ -1,6 +1,7 @@
 # Native-response campaign — decision brief
 
-Status: TWO STEPS REVIEWED / UNPROMOTED; closeout fidelity/publication pending.
+Status: COMPLETE; TWO STEPS REVIEWED / UNPROMOTED. Closeout fidelity passed;
+published evidence and final seal are identified in PUBLICATION.md.
 Both initial candidates and their completed fresh-context reviews are preserved.
 No scientific promotion, response-law adoption or new physical premise.
 
@@ -108,5 +109,5 @@ The actual full365 verifier still fails G325. Focused startup checks passed
 All new results remain unpromoted, with registry, original science, canon
 and fixed manuscript unchanged. Protected payloads were not inspected;
 backup completeness/pre-reboot unsaved state remain UNVERIFIED. GOCE stays
-PARKED/OPEN/UNSENT; source/Hopf pauses remain. Publication records will identify
-actual commits and remote correspondence, not scientific acceptance.
+PARKED/OPEN/UNSENT; source/Hopf pauses remain. PUBLICATION.md records actual
+commits and remote correspondence, not scientific acceptance.

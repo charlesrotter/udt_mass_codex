@@ -1,6 +1,6 @@
 # Native-response discrimination — compact campaign log
 
-Status: SCIENTIFIC WORK COMPLETE / CLOSEOUT IN PROGRESS. Baseline d0fe8b3e;
+Status: COMPLETE / TWO REVIEWED UNPROMOTED STEPS. Baseline d0fe8b3e;
 start 2026-09-09 22:46:25 UTC;
 deadline 2026-09-10 02:46:25 UTC. Three substantive reviewed steps maximum.
 Roadmap and WORK_ORDER.md govern scope; current G312 authority governs use.
@@ -113,5 +113,7 @@ DECISION_BRIEF.md explains results, supplied choices, failed inferences and
 the proposed discussion about an operational quiet-comparison criterion.
 No successor campaign, observation, adoption or promotion is authorized.
 Full365 still fails G325; backup/unsaved-state unknowns and all pauses survive.
-Remaining closeout is documentation fidelity, final focused/preservation
-checks, evidence seals and publication, not another substantive research step.
+Closeout fidelity passed without repair; final focused tests and preservation
+inventory passed at their declared scopes. Both scientific reviews and all
+original evidence were published at b4305e91; PUBLICATION.md records actual
+remote correspondence and the final administrative seal. No new research step.
