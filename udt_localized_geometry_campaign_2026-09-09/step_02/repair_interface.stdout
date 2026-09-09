@@ -1,0 +1,9 @@
+{
+  "python": "3.10.12",
+  "sympy": "1.13.1",
+  "status": "PASS",
+  "covector_J": "Matrix([[2], [0], [0]])",
+  "wrong_map_derivative_difference": "Matrix([[-2], [0], [0]])",
+  "evidence_kind": "explicit off-constraint false-interface witness; not PDE theorem",
+  "scientific_scope_changed": false
+}

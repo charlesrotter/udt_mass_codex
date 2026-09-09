@@ -1,0 +1,22 @@
+{
+  "catch_proofs": {
+    "componentwise_rotation_derivative_rejected": true,
+    "forbidden_x_y_rotation_rejected": true,
+    "missing_connection_term_rejected": true
+  },
+  "full_nonlinear_momentum_density_identity_residual": "0",
+  "global_translation_quotient_kernel_dimension": 3,
+  "limitations": [
+    "No nonlinear gluing existence",
+    "No general PDE surjectivity",
+    "Global kernel count uses the analytic full-rank-lattice proof",
+    "The exact identity is algebraic; integration/support is analytic"
+  ],
+  "local_kernel_dimension": 4,
+  "no_lapse_coefficient": "-8/(9*T**3)",
+  "platform": "Linux-6.8.0-138-generic-x86_64-with-glibc2.35",
+  "python": "3.10.12 (main, Aug 31 2026, 10:18:17) [GCC 11.4.0]",
+  "rotation_constraint_rank": 2,
+  "status": "PASS_EXACT_SYMBOLIC_SCOPED",
+  "sympy": "1.13.1"
+}

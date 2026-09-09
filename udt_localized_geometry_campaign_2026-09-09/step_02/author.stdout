@@ -1,0 +1,68 @@
+{
+  "python": "3.10.12",
+  "sympy": "1.13.1",
+  "status": "PASS",
+  "kind": "symbolic algebra and meaningful shortcut controls, not PDE proof",
+  "cutoff_H": "-24*a**2*chi*u**2*(chi - 1)/(u**2 + 1)",
+  "full_group_characters": [
+    [
+      -1,
+      -1,
+      -1,
+      1
+    ],
+    [
+      -1,
+      -1,
+      1,
+      -1
+    ],
+    [
+      -1,
+      1,
+      -1,
+      -1
+    ],
+    [
+      -1,
+      1,
+      1,
+      1
+    ],
+    [
+      1,
+      -1,
+      -1,
+      1
+    ],
+    [
+      1,
+      -1,
+      1,
+      -1
+    ],
+    [
+      1,
+      1,
+      -1,
+      -1
+    ],
+    [
+      1,
+      1,
+      1,
+      1
+    ]
+  ],
+  "invariant_kernel_dimension": 0,
+  "central_parity_surviving_dimension": 1,
+  "Weyl_discriminant": "768*a**12*u**2*(3*u**2 - 1)**6*(sqrt(3)*u - 3)**2*(sqrt(3)*u + 3)**2/(u**2 + 1)**12",
+  "small_interval": "0<abs(u)<1/10, a>0; additional theorem smallness required",
+  "omissions": [
+    "no gluing PDE numerical solve",
+    "no computed existence radius",
+    "no independent author context",
+    "no long-time evolution",
+    "no full365 pass"
+  ]
+}

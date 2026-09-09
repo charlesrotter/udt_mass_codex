@@ -1,0 +1,9 @@
+G325 dependency-free replay failed: Traceback (most recent call last):
+  File "/home/udt-admin/udt_mass_codex/udt_g325_g324_homogeneous_diagonal_linear_modes_2026-09-02/verify_package.py", line 122, in <module>
+    main()
+  File "/home/udt-admin/udt_mass_codex/udt_g325_g324_homogeneous_diagonal_linear_modes_2026-09-02/verify_package.py", line 106, in main
+    gate(load(generated) == load(package / artifact), f"replay_exact:{artifact}")
+  File "/home/udt-admin/udt_mass_codex/udt_g325_g324_homogeneous_diagonal_linear_modes_2026-09-02/verify_package.py", line 31, in gate
+    assert condition, name
+AssertionError: replay_exact:DERIVATION_RESULT.json
+

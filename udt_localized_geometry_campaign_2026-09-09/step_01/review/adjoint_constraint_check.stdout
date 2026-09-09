@@ -1,0 +1,16 @@
+{
+  "status": "PASS_EXACT_SYMBOLIC_SCOPED",
+  "sympy": "1.13.1",
+  "checks": [
+    "All three mixed-index momentum variations agree",
+    "Six metric adjoint coefficients agree",
+    "Six K adjoint coefficients agree",
+    "Hamiltonian inverse-metric/trace variation agrees"
+  ],
+  "zero_residuals": 18,
+  "limitations": [
+    "Flat constant-K background only",
+    "Scalar-curvature adjoint uses the analytic Hessian-minus-trace identity",
+    "No nonlinear solve or gluing theorem"
+  ]
+}

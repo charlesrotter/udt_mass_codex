@@ -1,0 +1,17 @@
+{
+  "python": "3.10.12",
+  "sympy": "1.13.1",
+  "status": "PASS",
+  "kind": "exact symbolic author checks; not independent proof review",
+  "Ricci_zero": true,
+  "Kretschmann": "64/(27*T**4)",
+  "Kretschmann_derivative": "-256/(27*T**5)",
+  "rotation_solution": "{(0, 0, ryz)}",
+  "density_variation_checked": true,
+  "invalid_data_charge_false_pass_exposed": "-12*a*b*eps + 6*b**2*eps**2",
+  "omissions": [
+    "no numerical constraint solver",
+    "no sufficiency theorem",
+    "no full365 pass"
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "checked_utc_minute": "2026-09-09T17:53Z",
+  "command": "node -e 'const f=require(\"fs\"),c=require(\"crypto\");const p=\"udt_localized_geometry_campaign_2026-09-09/DECISION_BRIEF.md\";const t=f.readFileSync(p,\"utf8\");const before=\"Evidence: step_01/CANDIDATE.md and review/DIRECT_REVIEW.md;\\nstep_02/CANDIDATE.md PLUS step_02/REPAIR.md and its review/ final verdict.\";const after=\"Evidence: step_01/CANDIDATE.md and step_01/review/DIRECT_REVIEW.md;\\nstep_02/CANDIDATE.md PLUS step_02/REPAIR.md and step_02/review/DIRECT_REVIEW.md.\";if(t.split(after).length!==2)throw Error(\"nonunique replacement\");const sha=s=>c.createHash(\"sha256\").update(s).digest(\"hex\");const original=sha(t.replace(after,before));if(original!==\"a24c7757bef503acf1b567aad48233e024c954b66c9a86743a10bdda8d63fb5a\")throw Error(\"unreviewed text difference\");for(const q of [\"step_01/CANDIDATE.md\",\"step_01/review/DIRECT_REVIEW.md\",\"step_02/CANDIDATE.md\",\"step_02/REPAIR.md\",\"step_02/review/DIRECT_REVIEW.md\"])if(!f.statSync(\"udt_localized_geometry_campaign_2026-09-09/\"+q).isFile())throw Error(q);process.stdout.write(JSON.stringify({status:\"PASS\",reviewed_brief_sha256:original,current_brief_sha256:sha(t),only_change:\"two fully qualified evidence paths in footer\",all_five_evidence_targets_exist:true,science_text_identical:true,reviewer_manifest_brief_entry:\"historical, superseded only by documented pointer fix\",other_five_summary_entries:\"verified unchanged by sha256sum --check\",independence:\"parent same-context packaging check; not fresh review\"}));'",
+  "returncode": 0,
+  "stdout": {
+    "status": "PASS",
+    "reviewed_brief_sha256": "a24c7757bef503acf1b567aad48233e024c954b66c9a86743a10bdda8d63fb5a",
+    "current_brief_sha256": "be5a4a292d902d31c32618d2843e6f4ada75280f25fa34f2b273945016250616",
+    "only_change": "two fully qualified evidence paths in footer",
+    "all_five_evidence_targets_exist": true,
+    "science_text_identical": true,
+    "reviewer_manifest_brief_entry": "historical, superseded only by documented pointer fix",
+    "other_five_summary_entries": "verified unchanged by sha256sum --check",
+    "independence": "parent same-context packaging check; not fresh review"
+  },
+  "stderr": ""
+}

@@ -17,9 +17,10 @@ G381=NT1 precedes G382=NT2: tidal-neighborhood obstruction and restricted real n
 with actual local Lambda=0 realizations; not general metric realization or physical modes.
 Original candidate/review bytes, false passes, repairs and lost-output caveats stay fixed.
 HB2/HB3 and BI2/BI3 remain UNPROMOTED; three CD vacuous checks remain EXCLUDED.
-Latest NR1--NR2 candidates are separately reviewed but UNPROMOTED; see INDEX.
-Their compact G324/G327 tangent classification has mixed-C2/analytic-local limits,
-not physical identity or stability. Full365 NOT_PASSED at G325 replay; no new banking.
+NR1--NR2 and latest LG1--LG2 are reviewed UNPROMOTED candidates; see INDEX.
+NR keeps compact mixed-C2/analytic-local limits; LG adds restricted 3D localization,
+conditional on smooth methods, symmetry/smallness and repaired interface—not stability/content.
+Full365 NOT_PASSED at G325 replay; no new banking.
 
 Keep the corrections explicit:
 
@@ -41,7 +42,7 @@ Fixed manuscript/coverage is the through-G352 edition, not the current frontier.
 
 ## Open gate
 
-Banking through G382 is complete; NR1--NR2 unpromoted, G352 physical identification OPEN.
+Banking through G382 is complete; NR/LG candidates unpromoted, G352 physical identification OPEN.
 Stop for lay discussion with Charles; no new campaign is authorized.
 A chosen work order includes its checks, fresh separate-context review and bounded same-premise repair.
 

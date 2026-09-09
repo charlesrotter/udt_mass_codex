@@ -1,0 +1,46 @@
+{
+  "checked_utc": "2026-09-09T17:50:41Z",
+  "phase": "pre-publication",
+  "baseline_head": "78c3092b2120a80c8bbabb8024b4448d27c36a00",
+  "origin_grok": "78c3092b2120a80c8bbabb8024b4448d27c36a00",
+  "tracked_changes": [
+    "CURRENT_RESEARCH_PROGRAM.md",
+    "HANDOFF.md",
+    "INDEX.md",
+    "LIVE.md",
+    "MEMORY.md"
+  ],
+  "unrelated_untracked": {
+    "count": 46,
+    "sha256": "d65d71d63a56b95aabfd61f33317b1f1f2b2a62a85ded8258c525b99a5e156ea"
+  },
+  "unrelated_name_digest_matches_start": true,
+  "unchanged_source_hashes": {
+    "CURRENT_SCIENTIFIC_PREMISES.tsv": "bee5059ab5528282420c5cd833d0aadfd4946d64820ba0c7bde1c1a98e09e165",
+    "CURRENT_SCIENTIFIC_PREMISES.md": "3d68a46148a2d2b5bbb9c32c071d4915e58bf29391a32f6328153743f786d9f7",
+    "CANON.md": "047b7fbbc1acacf01d2716e3c98cdefd0b9b20136ac4a3306f55dd6775465250",
+    "UDT_METRIC_KERNEL_DEVELOPMENT.md": "3b625d8f43620a37c99d9f4f0fdc9390c3a12306b1da87281c143ce84d40a81e",
+    "UDT_METRIC_KERNEL_COVERAGE.tsv": "b9a8d84d58b60dd6381af6512d89a63c8fa26750f0068e444dd039d329e74bc4",
+    "AGENTS.md": "75e772e31332c1c3ac536a6b465201aee6a507b3ba705b59177598fdac2c31ac",
+    "CLAUDE.md": "b7e524a5b06760e57877a408630228767ae9a394134095f9851bef5d06e17751",
+    "verify_current_scientific_premises.py": "f5fe7eceb27311649ae9fd3f03f8e0d214dc40dbc1994263c212ad4d37f9967b",
+    "tests/test_startup_surface.py": "adf38a1ccf7841961f8e7cb7e0022ecc2ceb0c4451afefd56705388f6b7b3c3c"
+  },
+  "all_named_hashes_match_start": true,
+  "full365_streams_match_original_capture": true,
+  "full365_status": "NOT_PASSED at G325; no waiver or repair; later gates unreached",
+  "checks": [
+    "git rev-parse HEAD origin/grok",
+    "git diff --name-only",
+    "git status --short --untracked-files=normal",
+    "Node fs/SHA256 on listed unprotected source files; no git subprocess wrapper",
+    "sha256sum --check source/freeze/reviewer manifests"
+  ],
+  "limits": [
+    "Untracked payload bytes were not inspected; only names/status digest checked",
+    "No full-repository test or successful full365 audit claimed",
+    "No accepted-grade, canon, premise, fixed-manuscript or protected payload edits"
+  ],
+  "backup_completeness": "UNVERIFIED",
+  "pre_reboot_unsaved_disposition": "UNVERIFIED"
+}

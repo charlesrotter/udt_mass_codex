@@ -1,0 +1,26 @@
+{
+  "blend_hamiltonian": "-2*c*(c - 1)*(q - 1)**2/(3*T**2*(q**2 + q + 1))",
+  "blend_momentum_control": [
+    "-1/273",
+    "34/273",
+    "-16/91"
+  ],
+  "catch_controls": {
+    "central_inversion_is_insufficient": true,
+    "lawful_endpoints_do_not_make_blend_lawful": true
+  },
+  "central_inversion_surviving_dimension": 1,
+  "evidence": "independent exact rational/symbolic algebra, not PDE certification",
+  "group_average": "Matrix([[0, 0, 0, 0], [0, 0, 0, 0], [0, 0, 0, 0], [0, 0, 0, 0]])",
+  "kasner_hamiltonian": "0",
+  "kasner_momentum": [
+    "0",
+    "0",
+    "0"
+  ],
+  "nonzero_blend_hamiltonian_control": "1/546",
+  "nonzero_discriminant_control": "95547966218496000000/322475487413604782665681",
+  "python": "3.10.12",
+  "sympy": "1.13.1",
+  "weyl_discriminant": "q**6*(q - 1)**2*(q + 1)**6*(q + 2)**2*(2*q + 1)**2/(T**12*(q**2 + q + 1)**12)"
+}

@@ -1,0 +1,4 @@
+Traceback (most recent call last):
+  File "/home/udt-admin/udt_mass_codex/udt_localized_geometry_campaign_2026-09-09/step_02/review/hostile_claims.py", line 20, in <module>
+    assert data['blend_H'] == 0, 'REJECTED: lawful endpoints imply their cutoff blend solves all constraints'
+AssertionError: REJECTED: lawful endpoints imply their cutoff blend solves all constraints

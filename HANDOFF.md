@@ -46,10 +46,10 @@ Legitimate initial data, calibration parameters, carried measure and history sel
 An admitted source sector is not required for every explicitly conditional measurement route.
 Geometric/calibration and emergence aims remain parallel; neither is a prerequisite.
 
-Latest NR1--NR2: separately reviewed UNPROMOTED conditional candidates; evidence in INDEX.
-On the supplied compact G324/G327 sector only, one quadratic balance characterizes
-exact-family tangents (mixed-C2 necessity, analytic common-local sufficiency).
-No stability/content identification; full reviews control. Full365 NOT_PASSED at G325 replay.
+NR1--NR2 and latest LG1--LG2: reviewed UNPROMOTED conditional candidates; evidence in INDEX.
+NR retains compact-sector mixed-C2/analytic-local tangent limits; LG adds local matching gates
+and restricted reflection-symmetric 3D completion, conditional on smooth mathematical methods.
+No arbitrary-data, stability/content claim; LG2 repair/full reviews control. Full365 NOT_PASSED at G325 replay.
 
 Optional source branch PAUSED; automatic Hopfion-stabilization mechanism is PAUSED, no rescue.
 GOCE PARKED, eligibility UNRESOLVED/OPEN, enquiry UNSENT—not rejected or awaiting a reply.

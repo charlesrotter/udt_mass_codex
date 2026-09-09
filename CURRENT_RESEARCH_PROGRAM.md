@@ -53,7 +53,7 @@ connected scalar. None supplies population, realized history, matter, absolute s
 | G381--G382 | Neighboring tidal obstruction, restricted null jets and actual local Lambda=0 realization | General metric realization, selected physical modes or content |
 
 The active evaluator is `udt_uncompressed_pair_kernel_reconstruction_2026-08-14/`.
-G190--G198 are controls, not construction inputs. Exact grades belong to the premise TSV.
+G190--G198 are controls, not construction inputs.
 
 ## Open boundary
 
@@ -92,16 +92,18 @@ G381=NT1/G382=NT2 conditional banking is COMPLETE, with dependency G381 before G
 Full four-slot connection correction and finite first-jet limits remain; the restricted NONZERO REAL
 rank-one classification in all constant-Lambda sectors differs from actual smooth LOCAL Lambda=0
 realization. Free profiles, supplied future frame/slice and lost-buffer/unsnapshotted-code caveats remain.
-Exact bank records and original campaign logs/reviews are indexed in `INDEX.md`, not duplicated here.
+`INDEX.md` links exact banking and original evidence.
 
-NR1--NR2: reviewed, UNPROMOTED; exact scopes/limits in INDEX.
+NR1--NR2/LG1--LG2: reviewed UNPROMOTED; scopes/reviews in INDEX.
+LG: restricted 3D fixed-exterior completion, conditional on smooth methods.
+Chosen symmetry/smallness, repaired interface and no stability/content claim control.
 
 Geometric theory/calibration and possible emergence remain parallel, neither prerequisite.
 Explicit justified transfer/instrument assumptions can support conditional measurements;
 neither emergent light nor an admitted sourced sector is a blanket prerequisite for every route.
 No measurement assumption is silently adopted. GOCE PARKED, eligibility UNRESOLVED/OPEN,
 enquiry UNSENT; GW procedure parked at its design gate, clock/complementary campaigns complete.
-The instrument gaps do not block all theory. Fixed manuscript/coverage stays through G352.
+Instrument gaps do not block theory. Fixed manuscript/coverage stays through G352.
 Backup completeness/pre-reboot unsaved state remain UNVERIFIED; ScratchDisk is archive-only.
 
 ## Current next gate
