@@ -1,0 +1,4 @@
+{"passed_guard": "ten_weyl_basis_tracefree"}
+{"passed_guard": "all_basis_records_pass_eventwise"}
+{"passed_guard": "weyl_differential_rank_sixteen"}
+{"passed_guard": "divergence_same_kernel"}

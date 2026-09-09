@@ -1,0 +1,27 @@
+{
+  "mutant": "baseline",
+  "candidate_weyl_rank": 16,
+  "candidate_plus_scalar_rank": 20,
+  "full_bianchi_rank": 20,
+  "stacked_rank": 20,
+  "max_residual_on_full_kernel": "0",
+  "obstruction_candidate_residual": [
+    "1",
+    "0",
+    "0",
+    "0",
+    "0",
+    "0",
+    "0",
+    "0",
+    "0",
+    "0",
+    "0",
+    "0",
+    "0",
+    "0",
+    "0",
+    "1/2"
+  ]
+}
+PASS: complete exact equation-map equality; finite first-jet algebra only

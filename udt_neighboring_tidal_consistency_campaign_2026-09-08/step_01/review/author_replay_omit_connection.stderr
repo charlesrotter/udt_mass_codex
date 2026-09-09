@@ -1,0 +1,15 @@
+{"passed_guard": "ten_weyl_basis_tracefree"}
+{"passed_guard": "all_basis_records_pass_eventwise"}
+{"passed_guard": "weyl_differential_rank_sixteen"}
+{"passed_guard": "divergence_same_kernel"}
+{"passed_guard": "explicit_six_divergences_ten_evolution_equivalent"}
+{"passed_guard": "full_einstein_derivative_rank_twenty"}
+{"passed_guard": "constant_scalar_already_implied"}
+{"passed_guard": "twentyfour_full_kernel_vectors"}
+{"passed_guard": "bad_spatial_variation_divergence_one"}
+{"passed_guard": "bad_spatial_variation_rejected"}
+{"passed_guard": "bad_family_eventwise_not_rejected"}
+{"passed_guard": "six_lorentz_generator_metric_compatibility"}
+{"passed_guard": "constant_curvature_connection_action_zero"}
+{"passed_guard": "zero_weyl_connection_action_zero"}
+{"passed_guard": "raw_frame_derivatives_can_false_fail"}

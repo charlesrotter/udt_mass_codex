@@ -1478,7 +1478,8 @@ def validate_startup_surface(root: Path) -> None:
         for token in ("G379=CF1", "G380=CF2", "LOST, not preserved or recovered",
                       "automatic Hopfion-stabilization mechanism is PAUSED",
                       "even allowing smooth deformation", CLOSED_FIBRE_BANKING_SOURCE,
-                      "no successor campaign has begun"):
+                      "neighboring-tidal campaign is AUTHORIZED",
+                      "udt_neighboring_tidal_consistency_campaign_2026-09-08/CAMPAIGN_LOG.md"):
             require(token in current, f"closed-fibre current tracking lacks {token}: {relative}")
 
     for control in PREMISE_REGISTRY_CONTROLS:

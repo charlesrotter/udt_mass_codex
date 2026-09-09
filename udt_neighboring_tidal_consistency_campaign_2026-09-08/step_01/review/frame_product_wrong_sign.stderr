@@ -1,0 +1,4 @@
+Traceback (most recent call last):
+  File "/home/udt-admin/udt_mass_codex/udt_neighboring_tidal_consistency_campaign_2026-09-08/step_01/review/frame_product_check.py", line 52, in <module>
+    raise AssertionError('finite_Lorentz_product_derivative_matches_full_connection_correction')
+AssertionError: finite_Lorentz_product_derivative_matches_full_connection_correction

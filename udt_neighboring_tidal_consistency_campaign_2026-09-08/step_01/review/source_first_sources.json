@@ -1,0 +1,33 @@
+{
+  "command": [
+    "sha256sum",
+    "AGENTS.md",
+    "CROSS_MODEL_VERIFY.md",
+    ".claude/skills/no-shortcuts/SKILL.md",
+    ".claude/skills/completeness-map/SKILL.md",
+    ".claude/skills/verifier-before-record/SKILL.md",
+    ".claude/skills/solver-first/SKILL.md",
+    "udt_neighboring_tidal_consistency_campaign_2026-09-08/WORK_ORDER.md",
+    "udt_neighboring_tidal_consistency_campaign_2026-09-08/step_01/QUESTION.md",
+    "udt_shared_readout_metric_constraint_campaign_2026-09-06/step_03/CANDIDATE_ARGUMENT.md",
+    "udt_shared_readout_metric_constraint_campaign_2026-09-06/step_03/REVIEW_RECORD.md",
+    "udt_shared_readout_metric_constraint_campaign_2026-09-06/step_03/review/PHASE_B_ADVERSARIAL_REVIEW.md",
+    "udt_g357_g360_conditional_banking_2026-09-07/BANKING_RECORD.md",
+    "udt_g315_conditional_cauchy_characteristic_data_interface_2026-09-01/AUDIT_REPORT.md",
+    "udt_g315_conditional_cauchy_characteristic_data_interface_2026-09-01/EXACT_DERIVATION.md",
+    "udt_g310_differential_dual_reciprocity_tracefree_ownership_2026-08-31/EXACT_DERIVATION.md",
+    "startup_surface_g310_universal_reciprocity_refresh_2026-08-31/ADOPTION_RECORD.md",
+    "startup_surface_g312_two_premise_adoption_refresh_2026-09-01/ADOPTION_RECORD.md",
+    "udt_g312_quiet_gr_response_constitution_discriminator_2026-09-01/AUDIT_REPORT.md",
+    "udt_g348_generic_lorentzian_null_screen_area_theorem_2026-09-04/EXACT_DERIVATION.md",
+    "udt_shared_readout_metric_constraint_campaign_2026-09-06/run_capture.py"
+  ],
+  "cwd": "/home/udt-admin/udt_mass_codex",
+  "started_utc": "2026-09-08T23:53:15.255818+00:00",
+  "duration_seconds": 0.0019021010084543377,
+  "returncode": 0,
+  "timeout": false,
+  "address_space_bytes": 536870912,
+  "cpu_seconds": 60,
+  "maxrss_kib": 7584
+}

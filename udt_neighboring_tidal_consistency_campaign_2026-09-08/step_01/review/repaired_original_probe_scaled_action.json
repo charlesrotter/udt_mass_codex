@@ -1,0 +1,15 @@
+{
+  "command": [
+    "python3",
+    "udt_neighboring_tidal_consistency_campaign_2026-09-08/step_01/review/replay_probes_on_repair.py",
+    "scaled_action"
+  ],
+  "cwd": "/home/udt-admin/udt_mass_codex",
+  "started_utc": "2026-09-09T00:07:17.003819+00:00",
+  "duration_seconds": 0.4234622399962973,
+  "returncode": 1,
+  "timeout": false,
+  "address_space_bytes": 536870912,
+  "cpu_seconds": 60,
+  "maxrss_kib": 17856
+}

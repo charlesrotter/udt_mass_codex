@@ -43,12 +43,14 @@ No universal closed-Hopf-fibre preservation for this continued Ricci line, even
 allowing smooth deformation. No generic failure, physical instability, topology
 change or failure of UDT/the older conditional carrier model. This automatic
 Hopfion-stabilization identification is PAUSED; no rescue restrictions/carrier/action.
-Only the next-direction proposal is requested, not successor execution:
+The original next-direction proposal is preserved:
 `udt_g379_g380_conditional_banking_2026-09-08/NEXT_CAMPAIGN_PROPOSAL.md`.
-Recommended: differential consistency of neighboring ideal tidal records with one
-lawful metric development. Alternative: caustic extension of the regular carried
-current, not a new assumed metric-derived carrier or conservation law.
-No third CF step; Charles chooses before a successor begins.
+Charles approved direction1, neighboring ideal tidal consistency with ONE lawful
+metric development: TWO reviewed steps or FOUR hours. New results UNPROMOTED;
+`udt_neighboring_tidal_consistency_campaign_2026-09-08/CAMPAIGN_LOG.md` owns current progress.
+Keep raw/covariant slopes, free comparison data and actual development distinct.
+No caustic-current campaign, carrier/conservation-law adoption, third CF step or
+Hopf-stabilization rescue is authorized.
 
 The founded reciprocal kernel acts on supplied ordered depth. Complete-pair evaluation is
 conditional and places `B,Q,S,Y,Z` before readout. W5/W6 are working clarifications. Universal

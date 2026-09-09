@@ -5,7 +5,10 @@
 - G379=CF1/G380=CF2 exact-scope conditional banking and current gates:
   `udt_g379_g380_conditional_banking_2026-09-08/BANKING_RECORD.md`; its execution record owns completion.
   Hopf-fibre automatic-stabilization identification PAUSED, not an old-carrier or UDT failure.
-- Next-direction proposal ONLY, awaiting Charles's choice:
+- Authorized neighboring-tidal consistency campaign, candidates UNPROMOTED:
+  `udt_neighboring_tidal_consistency_campaign_2026-09-08/CAMPAIGN_LOG.md`;
+  two reviewed steps/four hours, no physical adoption or Hopf rescue.
+- Original direction proposal, direction1 subsequently approved:
   `udt_g379_g380_conditional_banking_2026-09-08/NEXT_CAMPAIGN_PROPOSAL.md`.
 - Completed TWO-step closed-fibre campaign, original UNPROMOTED evidence unchanged:
   `udt_closed_fibre_persistence_campaign_2026-09-08/DECISION_BRIEF.md`;

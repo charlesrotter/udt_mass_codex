@@ -1,0 +1,71 @@
+{
+  "status": "PASS_BASELINE_ARTIFACTS_TWO_REAL_FALSE_PASSES_RETAINED",
+  "baseline": {
+    "bianchi_shape": [
+      24,
+      40
+    ],
+    "bianchi_rank": 16,
+    "CB_shape": [
+      16,
+      40
+    ],
+    "CB_rank": 16,
+    "kernel_shape": [
+      40,
+      24
+    ],
+    "kernel_rank": 24,
+    "exact_full_matrices_and_rref_and_normalized_kernel_equal": true
+  },
+  "probes": [
+    {
+      "probe": "scaled_action",
+      "author_status": "PASS",
+      "author_guard_count": 17,
+      "exact_mutation": {
+        "probe": "scaled_action",
+        "source": "/home/udt-admin/udt_mass_codex/udt_neighboring_tidal_consistency_campaign_2026-09-08/step_01/check_nt1.py",
+        "source_sha256": "92d38908a148caa2eaf5fc1612ad714e4ad87fcc96320136a930ca10fa4b3bda",
+        "old": "return {idx:sum(A[r][idx[s]]*q[idx[:s]+(r,)+idx[s+1:]]",
+        "new": "return {idx:F(2)*sum(A[r][idx[s]]*q[idx[:s]+(r,)+idx[s+1:]]",
+        "modified_sha256": "9ac7355c124301c5114527e54e79775b96ef5c32c9382bb716d6638abe0ffb33",
+        "classification": "actual implementation corruption, author original unchanged"
+      },
+      "independent_finite_frame_rejects_scaled_action": {
+        "(0, 2, 1, 2)": "-2",
+        "(0, 2, 2, 1)": "2",
+        "(0, 3, 1, 3)": "2",
+        "(0, 3, 3, 1)": "-2",
+        "(1, 2, 0, 2)": "-2",
+        "(1, 2, 2, 0)": "2",
+        "(1, 3, 0, 3)": "2",
+        "(1, 3, 3, 0)": "-2",
+        "(2, 0, 1, 2)": "2",
+        "(2, 0, 2, 1)": "-2",
+        "(2, 1, 0, 2)": "2",
+        "(2, 1, 2, 0)": "-2",
+        "(3, 0, 1, 3)": "-2",
+        "(3, 0, 3, 1)": "2",
+        "(3, 1, 0, 3)": "-2",
+        "(3, 1, 3, 0)": "2"
+      }
+    },
+    {
+      "probe": "zero_kernel",
+      "author_status": "PASS",
+      "author_guard_count": 17,
+      "exact_mutation": {
+        "probe": "zero_kernel",
+        "source": "/home/udt-admin/udt_mass_codex/udt_neighboring_tidal_consistency_campaign_2026-09-08/step_01/check_nt1.py",
+        "source_sha256": "92d38908a148caa2eaf5fc1612ad714e4ad87fcc96320136a930ca10fa4b3bda",
+        "old": "    kernel.append(v)",
+        "new": "    kernel.append([F(0)]*40)",
+        "modified_sha256": "d12d6a7e82fa20c4a58b17a96be63092dbaef4774a0c40446b10160f70201601",
+        "classification": "actual implementation corruption, author original unchanged"
+      },
+      "returned_kernel_rank": 0,
+      "correct_required_rank": 24
+    }
+  ]
+}

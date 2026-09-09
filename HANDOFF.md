@@ -229,12 +229,16 @@ continued Ricci eigenline, even allowing smooth deformation, at that exact scope
 This identification as an automatic Hopfion-stabilization mechanism is PAUSED.
 No restrictions, carrier or energy functional will be added to rescue it.
 Further investigation needs an independently motivated question, not another example.
-Next-direction comparison/proposal only; no successor campaign has begun:
+The previous next-direction comparison/proposal remains preserved:
 `udt_g379_g380_conditional_banking_2026-09-08/NEXT_CAMPAIGN_PROPOSAL.md`.
-Recommended: neighboring ideal tidal-record consistency versus one lawful metric
-development; alternative: regular label-current versus caustic weak-current bridge.
-These are unresolved questions, not new theorems, carriers or conservation laws.
-No third CF step; owner direction decision before any successor.
+Charles approved direction1: the neighboring-tidal campaign is AUTHORIZED,
+up to TWO substantive reviewed steps or FOUR hours, including checks and fresh
+separate-context review. Current question, progress and exact review state:
+`udt_neighboring_tidal_consistency_campaign_2026-09-08/CAMPAIGN_LOG.md`.
+Investigate neighboring ideal tidal-record consistency versus ONE lawful metric
+development; raw slopes are not covariant derivatives without comparison data.
+New results remain UNPROMOTED. No carrier, source law or physical identification.
+The caustic-current alternative is not authorized. No third CF step or Hopf rescue.
 Beyond this explicitly approved scope, no new campaign is authorized.
 Execution/publication receipts own closure; prior evidence remains unchanged.
 Carrier/action/boundary/evolution adoption remains unauthorized.

@@ -1,0 +1,41 @@
+{
+  "status": "PASS_REPAIR_FOCUSED_CHECKS",
+  "original_scientific_output_fields_equal": true,
+  "baseline_stdout_and_stderr_byte_identical": true,
+  "old_guards": 17,
+  "repaired_guards": 21,
+  "finite_component_anchors": 216,
+  "nonzero_derivatives": 192,
+  "failures": [
+    {
+      "capture": "repaired_original_probe_scaled_action",
+      "guard": "finite_frame_derivative_matches_slot_action",
+      "exit": 1
+    },
+    {
+      "capture": "repaired_original_probe_zero_kernel",
+      "guard": "kernel_vectors_really_independent",
+      "exit": 1
+    },
+    {
+      "capture": "repaired_replay_omit_bianchi",
+      "guard": "weyl_differential_rank_sixteen",
+      "exit": 1
+    },
+    {
+      "capture": "repaired_replay_wrong_cycle",
+      "guard": "weyl_differential_rank_sixteen",
+      "exit": 1
+    },
+    {
+      "capture": "repaired_replay_omit_connection",
+      "guard": "all_slot_connection_correction",
+      "exit": 1
+    },
+    {
+      "capture": "repaired_replay_drop_divergence",
+      "guard": "explicit_six_divergences_ten_evolution_equivalent",
+      "exit": 1
+    }
+  ]
+}

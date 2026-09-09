@@ -1,0 +1,17 @@
+{
+  "command": [
+    "sha256sum",
+    "-c",
+    "udt_neighboring_tidal_consistency_campaign_2026-09-08/SOURCE_SHA256SUMS",
+    "udt_neighboring_tidal_consistency_campaign_2026-09-08/step_01/CANDIDATE_SHA256SUMS",
+    "udt_neighboring_tidal_consistency_campaign_2026-09-08/step_01/REPAIRED_SHA256SUMS"
+  ],
+  "cwd": "/home/udt-admin/udt_mass_codex",
+  "started_utc": "2026-09-09T00:26:11.963156+00:00",
+  "duration_seconds": 0.005894379981327802,
+  "returncode": 0,
+  "timeout": false,
+  "address_space_bytes": 536870912,
+  "cpu_seconds": 60,
+  "maxrss_kib": 7672
+}

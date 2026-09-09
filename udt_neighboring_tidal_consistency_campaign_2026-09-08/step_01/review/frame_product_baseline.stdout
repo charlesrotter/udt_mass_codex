@@ -1,0 +1,18 @@
+{
+  "status": "PASS",
+  "mutant": "baseline",
+  "cases": [
+    {
+      "case": "rotation12",
+      "nonzero_direct_derivative_components": 16,
+      "residual": {}
+    },
+    {
+      "case": "boost01",
+      "nonzero_direct_derivative_components": 16,
+      "residual": {}
+    }
+  ],
+  "limits": "finite tensor covariance identity, not an actual Einstein development",
+  "exposure": "post-source-first seal, author proof/code/results still unexposed"
+}

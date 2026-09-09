@@ -1,0 +1,26 @@
+{
+  "mutant": "flip_B_curl_sign",
+  "candidate_weyl_rank": 16,
+  "candidate_plus_scalar_rank": 20,
+  "full_bianchi_rank": 20,
+  "stacked_rank": 25,
+  "max_residual_on_full_kernel": "2",
+  "obstruction_candidate_residual": [
+    "1",
+    "0",
+    "0",
+    "0",
+    "0",
+    "0",
+    "0",
+    "0",
+    "0",
+    "0",
+    "0",
+    "0",
+    "0",
+    "0",
+    "0",
+    "1/2"
+  ]
+}

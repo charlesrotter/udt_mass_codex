@@ -1,0 +1,25 @@
+{
+  "mutant": "omit_divergence",
+  "candidate_weyl_rank": 15,
+  "candidate_plus_scalar_rank": 19,
+  "full_bianchi_rank": 20,
+  "stacked_rank": 20,
+  "max_residual_on_full_kernel": "0",
+  "obstruction_candidate_residual": [
+    "0",
+    "0",
+    "0",
+    "0",
+    "0",
+    "0",
+    "0",
+    "0",
+    "0",
+    "0",
+    "0",
+    "0",
+    "0",
+    "0",
+    "1/2"
+  ]
+}
