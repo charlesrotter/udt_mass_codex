@@ -1,6 +1,7 @@
 # INDEX — compact current pointers; `LIVE.md` wins
 
-Banking through G382 is COMPLETE at reviewed conditional scopes; no successor is authorized.
+Banking through G382 is COMPLETE at reviewed conditional scopes; native-response campaign authorized.
+Roadmap and campaign: `UDT_RESEARCH_ROADMAP.md`.
 The exact 365-row `CURRENT_SCIENTIFIC_PREMISES.tsv` owns grades, not these pointers.
 GR is FILTER ONLY, not a response-law input; Local Metric Sufficiency remains owner-provisional.
 Inherited G312 Einstein claims remain CONDITIONAL, not established from filter-only GR; grades fixed.

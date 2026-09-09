@@ -44,8 +44,8 @@ Fixed manuscript/coverage is the through-G352 edition, not the current frontier.
 ## Open gate
 
 Banking through G382 is complete; G312 membership unclosed, G352 physical identification OPEN.
-Stop for lay discussion with Charles; no new campaign is authorized.
-A chosen work order includes its checks, fresh separate-context review and bounded same-premise repair.
+Native-response campaign authorized; roadmap via INDEX. Stop for discussion afterward.
+Its work order includes checks, fresh separate-context review and bounded same-premise repair.
 
 Backup completeness/pre-reboot unsaved state remain UNVERIFIED; ScratchDisk archive-only.
 R2--R5 remain verified with caveats;184,300 covariance rows unresolved, no preferred scale.
