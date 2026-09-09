@@ -1,0 +1,9 @@
+fatal: unable to create threaded lstat: Resource temporarily unavailable
+Traceback (most recent call last):
+  File "<string>", line 7, in <module>
+  File "<string>", line 6, in git
+  File "/usr/lib/python3.10/subprocess.py", line 421, in check_output
+    return run(*popenargs, stdout=PIPE, timeout=timeout, check=True,
+  File "/usr/lib/python3.10/subprocess.py", line 526, in run
+    raise CalledProcessError(retcode, process.args,
+subprocess.CalledProcessError: Command '['git', 'diff', '--name-only', 'd0fe8b3e5f95c3963dc8702bb4a31485678bd1e3', '--']' returned non-zero exit status 128.

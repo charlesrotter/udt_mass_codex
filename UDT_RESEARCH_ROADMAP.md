@@ -96,6 +96,12 @@ correspondence is authorized by this roadmap.
 
 ## Authorized next campaign and return point
 
+Current outcome: the authorized campaign stopped after TWO substantive
+reviewed conditional steps, ND1 and ND2, both UNPROMOTED. Their exact scoped
+classification and perturbation constraints do not establish native response
+selection. See `udt_native_response_discrimination_2026-09-09/DECISION_BRIEF.md`.
+Return for discussion; no successor campaign or physical adoption is authorized.
+
 Native-response discrimination: can complete pair/angular structure impose an
 additional constraint on local metric response without importing GR dynamics?
 Work order and compact log:

@@ -100,6 +100,7 @@ realization. Free profiles, supplied future frame/slice and lost-buffer/unsnapsh
 NR1--NR2/LG1--LG2/LE1/SE1/NE1: reviewed UNPROMOTED; INDEX owns scopes/reviews.
 NE1: profile decay with cumulative marked-area/tidal departure; exact polarized family.
 No genericity/stability/content.
+ND1/ND2: reviewed UNPROMOTED; roadmap: INDEX.
 
 Geometric theory/calibration and possible emergence remain parallel, neither prerequisite.
 Explicit justified transfer/instrument assumptions can support conditional measurements;
@@ -113,4 +114,4 @@ Backup completeness/pre-reboot unsaved state remain UNVERIFIED; ScratchDisk is a
 
 G381=NT1 and G382=NT2 conditional mathematical banking is COMPLETE at the reviewed scopes.
 G312 membership unclosed; G352 physical-realization: physical identification remains OPEN.
-Stop for lay discussion with Charles after the authorized native-response campaign and its checks, fresh separate-context review and bounded same-premise repair; no new campaign is authorized beyond it.
+Stop for lay discussion with Charles; no new campaign is authorized; any approved work order includes checks, fresh separate-context review and bounded same-premise repair.

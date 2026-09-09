@@ -1,0 +1,73 @@
+{
+  "scope": "read-only tracked-change allowlist and untracked status fingerprint; no protected payload read",
+  "base": "d0fe8b3e5f95c3963dc8702bb4a31485678bd1e3",
+  "head": "76fd0c521491613a604069373caf5069ecfe82da",
+  "branch": "grok",
+  "allowed_changed_paths": [
+    "CURRENT_RESEARCH_PROGRAM.md",
+    "CURRENT_SCIENTIFIC_PREMISES.md",
+    "HANDOFF.md",
+    "INDEX.md",
+    "LIVE.md",
+    "MEMORY.md",
+    "UDT_RESEARCH_ROADMAP.md",
+    "udt_native_response_discrimination_2026-09-09/CAMPAIGN_LOG.md",
+    "udt_native_response_discrimination_2026-09-09/STARTUP_COMMAND.txt",
+    "udt_native_response_discrimination_2026-09-09/STARTUP_PREMISE_AUDIT.json",
+    "udt_native_response_discrimination_2026-09-09/WORK_ORDER.md",
+    "udt_native_response_discrimination_2026-09-09/roadmap_startup_tests.json",
+    "udt_native_response_discrimination_2026-09-09/roadmap_startup_tests.stderr",
+    "udt_native_response_discrimination_2026-09-09/roadmap_startup_tests.stdout",
+    "udt_native_response_discrimination_2026-09-09/step_01/CANDIDATE.md",
+    "udt_native_response_discrimination_2026-09-09/step_01/CANDIDATE_SHA256SUMS",
+    "udt_native_response_discrimination_2026-09-09/step_01/REVIEWED_RESULT.md",
+    "udt_native_response_discrimination_2026-09-09/step_01/SOURCE_SHA256SUMS",
+    "udt_native_response_discrimination_2026-09-09/step_01/author_checks.json",
+    "udt_native_response_discrimination_2026-09-09/step_01/author_checks.stderr",
+    "udt_native_response_discrimination_2026-09-09/step_01/author_checks.stdout",
+    "udt_native_response_discrimination_2026-09-09/step_01/check_candidate.py",
+    "udt_native_response_discrimination_2026-09-09/step_01/review/DIRECT_REVIEW.md",
+    "udt_native_response_discrimination_2026-09-09/step_01/review/REVIEW_SHA256SUMS",
+    "udt_native_response_discrimination_2026-09-09/step_01/review/SOURCE_FIRST.md",
+    "udt_native_response_discrimination_2026-09-09/step_01/review/independent_tensor_check.py",
+    "udt_native_response_discrimination_2026-09-09/step_01/review/independent_tensor_run.json",
+    "udt_native_response_discrimination_2026-09-09/step_01/review/independent_tensor_run.stderr",
+    "udt_native_response_discrimination_2026-09-09/step_01/review/independent_tensor_run.stdout"
+  ],
+  "unexpected_changes": [],
+  "unrelated_untracked_count": 46,
+  "unrelated_status_sha256": "d65d71d63a56b95aabfd61f33317b1f1f2b2a62a85ded8258c525b99a5e156ea",
+  "original_tracked_science_registry_verifier_tests_canon_manuscript_unchanged": true,
+  "candidate_source_review_manifest_checks": [
+    {
+      "manifest": "udt_native_response_discrimination_2026-09-09/step_01/SOURCE_SHA256SUMS",
+      "returncode": 0,
+      "stdout": "udt_gr_filter_reconciliation_2026-09-09/AUTHORITY_RECORD.md: OK\nCURRENT_SCIENTIFIC_PREMISES.tsv: OK\nudt_g260_gr_quiet_angular_nondiscard_audit_2026-08-25/EXACT_DERIVATION.md: OK\nudt_g260_gr_quiet_angular_nondiscard_audit_2026-08-25/derive_angular_nondiscard.py: OK\nudt_g301_scale_free_quiet_regular_causal_principal_classification_2026-08-30/EXACT_DERIVATION.md: OK\nudt_g310_differential_dual_reciprocity_tracefree_ownership_2026-08-31/EXACT_DERIVATION.md: OK\nudt_g311_universal_reciprocity_full_covariant_response_2026-09-01/EXACT_DERIVATION.md: OK\nudt_g312_quiet_gr_response_constitution_discriminator_2026-09-01/EXACT_DERIVATION.md: OK\n",
+      "stderr": ""
+    },
+    {
+      "manifest": "udt_native_response_discrimination_2026-09-09/step_01/CANDIDATE_SHA256SUMS",
+      "returncode": 0,
+      "stdout": "udt_native_response_discrimination_2026-09-09/step_01/CANDIDATE.md: OK\nudt_native_response_discrimination_2026-09-09/step_01/check_candidate.py: OK\nudt_native_response_discrimination_2026-09-09/step_01/author_checks.json: OK\nudt_native_response_discrimination_2026-09-09/step_01/author_checks.stdout: OK\nudt_native_response_discrimination_2026-09-09/step_01/author_checks.stderr: OK\n",
+      "stderr": ""
+    },
+    {
+      "manifest": "udt_native_response_discrimination_2026-09-09/step_01/review/REVIEW_SHA256SUMS",
+      "returncode": 0,
+      "stdout": "udt_native_response_discrimination_2026-09-09/step_01/review/SOURCE_FIRST.md: OK\nudt_native_response_discrimination_2026-09-09/step_01/review/DIRECT_REVIEW.md: OK\nudt_native_response_discrimination_2026-09-09/step_01/review/independent_tensor_check.py: OK\nudt_native_response_discrimination_2026-09-09/step_01/review/independent_tensor_run.json: OK\nudt_native_response_discrimination_2026-09-09/step_01/review/independent_tensor_run.stdout: OK\nudt_native_response_discrimination_2026-09-09/step_01/review/independent_tensor_run.stderr: OK\n",
+      "stderr": ""
+    },
+    {
+      "manifest": "udt_native_response_discrimination_2026-09-09/step_02/SOURCE_SHA256SUMS",
+      "returncode": 0,
+      "stdout": "udt_gr_filter_reconciliation_2026-09-09/AUTHORITY_RECORD.md: OK\nCURRENT_SCIENTIFIC_PREMISES.tsv: OK\nudt_g260_gr_quiet_angular_nondiscard_audit_2026-08-25/EXACT_DERIVATION.md: OK\nudt_g312_quiet_gr_response_constitution_discriminator_2026-09-01/EXACT_DERIVATION.md: OK\nudt_native_response_discrimination_2026-09-09/step_01/CANDIDATE.md: OK\nudt_native_response_discrimination_2026-09-09/step_01/REVIEWED_RESULT.md: OK\nudt_native_response_discrimination_2026-09-09/step_01/review/DIRECT_REVIEW.md: OK\n",
+      "stderr": ""
+    },
+    {
+      "manifest": "udt_native_response_discrimination_2026-09-09/step_02/CANDIDATE_SHA256SUMS",
+      "returncode": 0,
+      "stdout": "udt_native_response_discrimination_2026-09-09/step_02/CANDIDATE.md: OK\nudt_native_response_discrimination_2026-09-09/step_02/check_candidate.py: OK\nudt_native_response_discrimination_2026-09-09/step_02/author_checks.json: OK\nudt_native_response_discrimination_2026-09-09/step_02/author_checks.stdout: OK\nudt_native_response_discrimination_2026-09-09/step_02/author_checks.stderr: OK\n",
+      "stderr": ""
+    }
+  ]
+}

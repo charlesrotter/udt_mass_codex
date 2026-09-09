@@ -1,6 +1,7 @@
 # Native-response discrimination — compact campaign log
 
-Status: ACTIVE. Baseline d0fe8b3e; start 2026-09-09 22:46:25 UTC;
+Status: SCIENTIFIC WORK COMPLETE / CLOSEOUT IN PROGRESS. Baseline d0fe8b3e;
+start 2026-09-09 22:46:25 UTC;
 deadline 2026-09-10 02:46:25 UTC. Three substantive reviewed steps maximum.
 Roadmap and WORK_ORDER.md govern scope; current G312 authority governs use.
 
@@ -64,7 +65,7 @@ assertions passed; proof, source-first exposure and limitations control.
 Review hash a9f5842dc43fbe4bc9b872e6a22f467a11d127545468aacec117730513c0f3ee.
 Roadmap/startup checkpoint07932b40 pushed; no scientific promotion.
 
-## Step 2 — exact integrable perturbations (IN PROGRESS)
+## Step 2 — exact integrable perturbations (REVIEWED)
 
 Question: at a common Ricci-flat profile, which first-order deformations
 actually arise from curves of exact Q solutions, and which merely pass its
@@ -88,3 +89,29 @@ superposition principle, healthy-PDE criterion or GR principal law is added.
 Freeze analytical candidate before CPU checks, then use a NEW reviewer
 context. This second question follows ND1's reviewed common-background
 ambiguity; no third step is presumed.
+
+Outcome: all four ND2 claims VERIFIED-WITH-CAVEATS; zero repairs or unresolved
+load-bearing disagreement. Exact realizable velocities form a union of two
+planes, not the whole zero linearized residual or the linear span of the
+planes. The mixed-sum obstruction persists under higher-order corrections.
+General TF(N²)=0 remains necessary only. Angular-filtered exact profiles and
+velocities still agree for S and Q; neither response/filter is adopted.
+192 author exact checks and 559 independent full-metric symbolic reviewer
+assertions passed. Review hash
+f15a41ee535f56d49ee7b58da373824a218d326e2637b71a80e866e5e3702642.
+Whole candidate/review/ND1 conditional dependency controls. Step1 evidence
+was preserved and pushed at76fd0c52; no banking or accepted-grade change.
+
+## Campaign stop / return
+
+Two reviewed substantive steps complete well before the four-hour ceiling.
+No third task: further work on this Q would develop an optional comparator,
+not establish the missing native response join. No useful third native
+implication was identified on this route. This is not exhaustion of all UDT
+possibilities or proof that a new physical premise is necessary.
+DECISION_BRIEF.md explains results, supplied choices, failed inferences and
+the proposed discussion about an operational quiet-comparison criterion.
+No successor campaign, observation, adoption or promotion is authorized.
+Full365 still fails G325; backup/unsaved-state unknowns and all pauses survive.
+Remaining closeout is documentation fidelity, final focused/preservation
+checks, evidence seals and publication, not another substantive research step.

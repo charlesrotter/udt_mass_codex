@@ -1,0 +1,16 @@
+{
+  "command": [
+    "python3",
+    "-B",
+    "-c",
+    "import hashlib,json,subprocess\nbase=\"d0fe8b3e5f95c3963dc8702bb4a31485678bd1e3\"\nprefix=\"udt_native_response_discrimination_2026-09-09/\"\nallowed={\"LIVE.md\",\"HANDOFF.md\",\"CURRENT_RESEARCH_PROGRAM.md\",\"CURRENT_SCIENTIFIC_PREMISES.md\",\"INDEX.md\",\"MEMORY.md\",\"UDT_RESEARCH_ROADMAP.md\"}\ndef git(*args):\n    return subprocess.check_output([\"git\",\"-c\",\"index.threads=1\",\"-c\",\"core.preloadIndex=false\",*args],text=True)\nchanges=git(\"diff\",\"--name-only\",base,\"--\").splitlines()\nbad=[p for p in changes if p not in allowed and not p.startswith(prefix)]\nassert not bad,bad\nlines=git(\"status\",\"--porcelain=v1\",\"--untracked-files=normal\").splitlines()\nunrelated=sorted(x for x in lines if x.startswith(\"?? \") and not x[3:].startswith(prefix))\nfingerprint=hashlib.sha256(\"\\n\".join(unrelated).encode()).hexdigest()\nassert len(unrelated)==46,len(unrelated)\nassert fingerprint==\"d65d71d63a56b95aabfd61f33317b1f1f2b2a62a85ded8258c525b99a5e156ea\",fingerprint\nsubprocess.run([\"git\",\"-c\",\"index.threads=1\",\"-c\",\"core.preloadIndex=false\",\"diff\",\"--check\"],check=True)\nmanifests=[prefix+\"step_01/SOURCE_SHA256SUMS\",prefix+\"step_01/CANDIDATE_SHA256SUMS\",prefix+\"step_01/review/REVIEW_SHA256SUMS\",prefix+\"step_02/SOURCE_SHA256SUMS\",prefix+\"step_02/CANDIDATE_SHA256SUMS\"]\nchecks=[]\nfor path in manifests:\n    r=subprocess.run([\"sha256sum\",\"-c\",path],text=True,capture_output=True)\n    checks.append({\"manifest\":path,\"returncode\":r.returncode,\"stdout\":r.stdout,\"stderr\":r.stderr})\n    assert r.returncode==0,checks[-1]\nprint(json.dumps({\"scope\":\"read-only tracked-change allowlist and untracked status fingerprint; no protected payload read\",\"base\":base,\"head\":git(\"rev-parse\",\"HEAD\").strip(),\"branch\":git(\"branch\",\"--show-current\").strip(),\"allowed_changed_paths\":changes,\"unexpected_changes\":bad,\"unrelated_untracked_count\":len(unrelated),\"unrelated_status_sha256\":fingerprint,\"original_tracked_science_registry_verifier_tests_canon_manuscript_unchanged\":True,\"candidate_source_review_manifest_checks\":checks},indent=2))\n"
+  ],
+  "cwd": "/home/udt-admin/udt_mass_codex",
+  "started_utc": "2026-09-09T23:21:03.165348+00:00",
+  "duration_seconds": 0.14266170898918062,
+  "returncode": 0,
+  "timeout": false,
+  "address_space_bytes": 536870912,
+  "cpu_seconds": 60,
+  "maxrss_kib": 15360
+}
