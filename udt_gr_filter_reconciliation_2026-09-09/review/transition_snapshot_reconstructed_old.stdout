@@ -1,0 +1,31 @@
+{
+  "chronology": "POST_HOC_FIRST_REPAIR_RECONSTRUCTION_AND_EXECUTION",
+  "baseline": "a9896cb190e9c4aa8fd8a317cfaaa942d64e0a19",
+  "reconstructed_verifier_sha256": "917800b0d2011b2f5c5aa5b282dd1c4316894a6d0bc34c1270f1aca2f49a7f7c",
+  "first_repair_patch_sha256": "9ac4e0858334e95e3f1d8da1706dd69a413a4fef5354bae37fef240026267fd9",
+  "shared_fixture": "Current final author fixture; startup copy helper unchanged by repair",
+  "source_root_override": "module.ROOT points to real frozen source root; root arguments remain scratch",
+  "probe": {
+    "scope": "incomplete same R2 authenticated snapshot implementation",
+    "injection": "read_bytes hashes authentic transition; read_text supplies unpinned after_line matching an actual unauthorized scratch G312 row",
+    "actual_transition_text_swaps": 14,
+    "cases": 3,
+    "false_passes": 3,
+    "results": [
+      {
+        "case": "current_authority",
+        "result": "FALSE_PASS"
+      },
+      {
+        "case": "historical_projection",
+        "result": "FALSE_PASS",
+        "unauthorized_current_row_projects_to_exact_valid_baseline": true
+      },
+      {
+        "case": "full_startup",
+        "result": "FALSE_PASS"
+      }
+    ],
+    "no_claim_of_actual_repository_race": true
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "command": [
+    "python3",
+    "-B",
+    "udt_gr_filter_reconciliation_2026-09-09/review/replay_first_repair_transition_probe.py"
+  ],
+  "cwd": "/home/udt-admin/udt_mass_codex",
+  "started_utc": "2026-09-09T21:50:58.294757+00:00",
+  "duration_seconds": 0.3059277730062604,
+  "returncode": 1,
+  "timeout": false,
+  "address_space_bytes": 536870912,
+  "cpu_seconds": 60,
+  "maxrss_kib": 62720
+}

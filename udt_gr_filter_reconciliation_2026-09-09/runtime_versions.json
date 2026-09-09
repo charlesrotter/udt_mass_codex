@@ -1,0 +1,16 @@
+{
+  "command": [
+    "python3",
+    "-B",
+    "-c",
+    "import sys,platform,subprocess,pytest; print(sys.version); print(platform.platform()); print(\"pytest\",pytest.__version__); print(subprocess.check_output([\"git\",\"--version\"],text=True),end=\"\")"
+  ],
+  "cwd": "/home/udt-admin/udt_mass_codex",
+  "started_utc": "2026-09-09T21:40:37.732118+00:00",
+  "duration_seconds": 0.07407030102331191,
+  "returncode": 0,
+  "timeout": false,
+  "address_space_bytes": 536870912,
+  "cpu_seconds": 60,
+  "maxrss_kib": 22656
+}

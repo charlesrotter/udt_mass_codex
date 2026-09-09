@@ -1,0 +1,25 @@
+{
+  "scope": "incomplete same R2 authenticated snapshot implementation",
+  "injection": "read_bytes hashes authentic transition; read_text supplies unpinned after_line matching an actual unauthorized scratch G312 row",
+  "actual_transition_text_swaps": 0,
+  "cases": 3,
+  "false_passes": 0,
+  "results": [
+    {
+      "case": "current_authority",
+      "result": "REJECTED_AS_REQUIRED",
+      "message": "GR-filter current G312 row differs from exact authorized transition"
+    },
+    {
+      "case": "historical_projection",
+      "result": "REJECTED_AS_REQUIRED",
+      "message": "GR-filter current G312 row differs from exact authorized transition"
+    },
+    {
+      "case": "full_startup",
+      "result": "REJECTED_AS_REQUIRED",
+      "message": "GR-filter current G312 row differs from exact authorized transition"
+    }
+  ],
+  "no_claim_of_actual_repository_race": true
+}

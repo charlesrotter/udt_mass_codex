@@ -13,11 +13,10 @@ Complete `B,Q,S,Y,Z` enters `h=F^*g` before readout. Completed-pair Dual Recipro
 WORKING_FOUNDATIONAL_CLARIFICATION; W5/W6 do not select population or history.
 Universal Reciprocity/DDR is one postulate with two formulations,
 OWNER_ADOPTED_PROVISIONAL_POSTULATE (2026-08-31), not derived or canonized.
-Charles's 2026-09-09 GR clarification is FILTER ONLY; Local Metric Sufficiency is affirmed.
-AUTHORITY WARNING: G312's stronger GR-principal input and inherited “admitted/lawful” shorthand
-need qualification; the multibranch Einstein arena remains CONDITIONAL on its full reviewed premises.
-Registry/guard reconciliation is PENDING; exact grades and mathematical results remain unchanged.
-See `udt_gr_filter_authority_audit_2026-09-09/REVIEWED_AUDIT.md`.
+GR is FILTER ONLY, not a response-law input; Local Metric Sufficiency remains owner-provisional.
+Current G312 authority qualifies inherited “admitted/lawful” labels; the multibranch Einstein arena
+remains CONDITIONAL on full reviewed premises, not established from filter-only GR. Grades/math unchanged.
+Current authority: `udt_gr_filter_reconciliation_2026-09-09/AUTHORITY_RECORD.md`.
 Metric/kernel are unchanged; angular-sector cancellation owns loud--quiet--loud.
 One Ricci scalar does not exhaust free geometry/data.
 

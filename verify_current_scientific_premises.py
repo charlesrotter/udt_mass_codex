@@ -178,7 +178,6 @@ STALE_STARTUP_TOKENS = (
     "NEW_CANDIDATE_POSTULATE_NOT_ADOPTED",
     "provisionally adopt Universal Reciprocity/DDR",
     "adoption remains open",
-    "Response constitution remains open.",
     "G312 adopts neither",
     "Existing premises own neither",
     "If both are provisionally adopted",
@@ -322,6 +321,64 @@ def require(condition: bool, message: str) -> None:
         raise SystemExit(message)
 
 
+GR_FILTER_AUTHORITY_SOURCE = "udt_gr_filter_reconciliation_2026-09-09/AUTHORITY_RECORD.md"
+GR_FILTER_TRANSITION_SOURCE = "udt_gr_filter_reconciliation_2026-09-09/REGISTRY_TRANSITION.json"
+GR_FILTER_PINS = {
+    GR_FILTER_AUTHORITY_SOURCE: "80daa0be6d3e1c0ac1b734fea089c4eb487f05bc1e1fbb2fabd69322ca89f28c",
+    GR_FILTER_TRANSITION_SOURCE: "30a3843b3d5e00b85ddd46dcffe7885cba98c5e308de084fe0dc40991e9affe3",
+    "startup_surface_g312_two_premise_adoption_refresh_2026-09-01/ADOPTION_RECORD.md":
+        "ebeae075307e7a325a840f4c2d9dcd973c18d9a3be21e6e6eccacce1ae8856f1",
+    "startup_surface_g310_universal_reciprocity_refresh_2026-08-31/ADOPTION_RECORD.md":
+        "4eb7d0a1130dcff997bc5180f420b633e2dcbbb5072d098997ba3672b38d8ab5",
+}
+
+
+def _gr_filter_validated_snapshot(root: Path) -> tuple[dict, bytes]:
+    """Current authority and the SAME immutable raw snapshot that was validated.
+
+    Exact pins intentionally reject appended contradictions as well as omissions.
+    A later authorized authority change needs its own explicit transition/review.
+    """
+    authenticated = {}
+    for relative, expected in GR_FILTER_PINS.items():
+        path = root / relative
+        payload = path.read_bytes() if path.is_file() else b""
+        require(hashlib.sha256(payload).hexdigest() == expected,
+                f"GR-filter authority/source pin changed: {relative}")
+        authenticated[relative] = payload
+    # Parse the authenticated bytes, not a second potentially changed file read.
+    transition = json.loads(authenticated[GR_FILTER_TRANSITION_SOURCE])
+    raw = (root / "CURRENT_SCIENTIFIC_PREMISES.tsv").read_bytes()
+    ddr = [line for line in raw.splitlines(keepends=True) if line.startswith(b"G310\t")]
+    require(len(ddr) == 1 and hashlib.sha256(ddr[0]).hexdigest()
+            == "a8ee1424099aa865c32bad1a72c256da0dd66ea1fed98b7c05ece1c04056d42a",
+            "GR-filter retained DDR authority changed")
+    current = [line for line in raw.splitlines(keepends=True) if line.startswith(b"G312\t")]
+    require(current == [transition["after_line"].encode()],
+            "GR-filter current G312 row differs from exact authorized transition")
+    return transition, raw
+
+
+def validate_gr_filter_authority(root: Path) -> dict:
+    """Validate actual current bytes, never a historical projection."""
+    transition, _ = _gr_filter_validated_snapshot(root)
+    return transition
+
+
+def registry_bytes_for_historical_banking(root: Path) -> bytes:
+    """Reverse ONLY the validated G312 authority edit for historical hash checks.
+
+    This is NOT a current registry reader. Current row/scope checks use read_tsv
+    directly. Every other byte remains live, so old additive hashes still reject
+    unrelated changes. Even a whole old-row restoration fails before projection.
+    """
+    transition, raw = _gr_filter_validated_snapshot(root)
+    return b"".join(
+        transition["before_line"].encode() if line.startswith(b"G312\t") else line
+        for line in raw.splitlines(keepends=True)
+    )
+
+
 def require_ordered_tokens(text: str, tokens: tuple[str, ...], name: str) -> None:
     """Require each startup-routing token to occur after its predecessor."""
     text = " ".join(text.split())
@@ -351,7 +408,7 @@ def validate_conditional_banking(root: Path, *, authenticate_sources: bool = Tru
     relabeled as hashes of the updated live registry/status documents. This is
     correspondence and scope regression, not another scientific review or proof.
     """
-    registry_bytes = (root / "CURRENT_SCIENTIFIC_PREMISES.tsv").read_bytes()
+    registry_bytes = registry_bytes_for_historical_banking(root)
     later_ids = SHARED_CONSTRAINT_BANKING_IDS + PERSISTENCE_BANKING_IDS + RESTRICTIVENESS_BANKING_IDS + SOURCE_METRIC_BANKING_IDS + RECONSTRUCTION_BANKING_IDS + COUPLED_BANKING_IDS + VACUUM_SCALE_BANKING_IDS + BERGER_BANKING_IDS + CLOSED_FIBRE_BANKING_IDS + NEIGHBORING_TIDAL_BANKING_IDS
     later_prefixes = tuple(f"{item}\t".encode() for item in later_ids)
     registry_bytes = b"".join(
@@ -483,7 +540,7 @@ def validate_conditional_banking(root: Path, *, authenticate_sources: bool = Tru
 
 def validate_shared_constraint_banking(root: Path, *, authenticate_sources: bool = True) -> None:
     """Guard additive SC2--SC5 banking; hashes and guards are not scientific proof."""
-    registry_bytes = (root / "CURRENT_SCIENTIFIC_PREMISES.tsv").read_bytes()
+    registry_bytes = registry_bytes_for_historical_banking(root)
     later_ids = PERSISTENCE_BANKING_IDS + RESTRICTIVENESS_BANKING_IDS + SOURCE_METRIC_BANKING_IDS + RECONSTRUCTION_BANKING_IDS + COUPLED_BANKING_IDS + VACUUM_SCALE_BANKING_IDS + BERGER_BANKING_IDS + CLOSED_FIBRE_BANKING_IDS + NEIGHBORING_TIDAL_BANKING_IDS
     later_prefixes = tuple(f"{item}\t".encode() for item in later_ids)
     registry_bytes = b"".join(line for line in registry_bytes.splitlines(keepends=True)
@@ -607,7 +664,7 @@ def validate_shared_constraint_banking(root: Path, *, authenticate_sources: bool
 
 def validate_persistence_banking(root: Path, *, authenticate_sources: bool = True) -> None:
     """Guard only additive PC1--PC3 banking; correspondence is not proof."""
-    registry_bytes = (root / "CURRENT_SCIENTIFIC_PREMISES.tsv").read_bytes()
+    registry_bytes = registry_bytes_for_historical_banking(root)
     later_ids = RESTRICTIVENESS_BANKING_IDS + SOURCE_METRIC_BANKING_IDS + RECONSTRUCTION_BANKING_IDS + COUPLED_BANKING_IDS + VACUUM_SCALE_BANKING_IDS + BERGER_BANKING_IDS + CLOSED_FIBRE_BANKING_IDS + NEIGHBORING_TIDAL_BANKING_IDS
     later_prefixes = tuple(f"{item}\t".encode() for item in later_ids)
     registry_bytes = b"".join(line for line in registry_bytes.splitlines(keepends=True)
@@ -715,7 +772,7 @@ def validate_persistence_banking(root: Path, *, authenticate_sources: bool = Tru
 
 def validate_restrictiveness_banking(root: Path, *, authenticate_sources: bool = True) -> None:
     """Additive RC1--RC3 fidelity/correspondence guard, not scientific proof."""
-    registry_bytes = (root / "CURRENT_SCIENTIFIC_PREMISES.tsv").read_bytes()
+    registry_bytes = registry_bytes_for_historical_banking(root)
     later_ids = SOURCE_METRIC_BANKING_IDS + RECONSTRUCTION_BANKING_IDS + COUPLED_BANKING_IDS + VACUUM_SCALE_BANKING_IDS + BERGER_BANKING_IDS + CLOSED_FIBRE_BANKING_IDS + NEIGHBORING_TIDAL_BANKING_IDS
     later_prefixes = tuple(f"{item}\t".encode() for item in later_ids)
     registry_bytes = b"".join(line for line in registry_bytes.splitlines(keepends=True)
@@ -817,7 +874,7 @@ def validate_restrictiveness_banking(root: Path, *, authenticate_sources: bool =
 
 def validate_source_metric_banking(root: Path, *, authenticate_sources: bool = True) -> None:
     """Additive SM1--SM3 scope/correspondence guard; not new scientific proof."""
-    registry_bytes = (root / "CURRENT_SCIENTIFIC_PREMISES.tsv").read_bytes()
+    registry_bytes = registry_bytes_for_historical_banking(root)
     later_prefixes = tuple(f"{item}\t".encode() for item in RECONSTRUCTION_BANKING_IDS + COUPLED_BANKING_IDS + VACUUM_SCALE_BANKING_IDS + BERGER_BANKING_IDS + CLOSED_FIBRE_BANKING_IDS + NEIGHBORING_TIDAL_BANKING_IDS)
     registry_bytes = b"".join(line for line in registry_bytes.splitlines(keepends=True)
                               if not line.startswith(later_prefixes))
@@ -908,7 +965,7 @@ def validate_source_metric_banking(root: Path, *, authenticate_sources: bool = T
 
 def validate_reconstruction_banking(root: Path, *, authenticate_sources: bool = True) -> None:
     """Additive RT1--RT2 fidelity/correspondence guard, not scientific proof."""
-    registry_bytes = (root / "CURRENT_SCIENTIFIC_PREMISES.tsv").read_bytes()
+    registry_bytes = registry_bytes_for_historical_banking(root)
     later_prefixes = tuple(f"{item}\t".encode() for item in COUPLED_BANKING_IDS + VACUUM_SCALE_BANKING_IDS + BERGER_BANKING_IDS + CLOSED_FIBRE_BANKING_IDS + NEIGHBORING_TIDAL_BANKING_IDS)
     registry_bytes = b"".join(line for line in registry_bytes.splitlines(keepends=True)
                               if not line.startswith(later_prefixes))
@@ -1008,7 +1065,7 @@ def validate_reconstruction_banking(root: Path, *, authenticate_sources: bool = 
 
 def validate_coupled_banking(root: Path, *, authenticate_sources: bool = True) -> None:
     """Exact-scope CD1/CD2 banking correspondence, never a scientific proof."""
-    registry_bytes = (root / "CURRENT_SCIENTIFIC_PREMISES.tsv").read_bytes()
+    registry_bytes = registry_bytes_for_historical_banking(root)
     later = tuple(f"{item}\t".encode() for item in VACUUM_SCALE_BANKING_IDS + BERGER_BANKING_IDS + CLOSED_FIBRE_BANKING_IDS + NEIGHBORING_TIDAL_BANKING_IDS)
     registry_bytes = b"".join(line for line in registry_bytes.splitlines(keepends=True)
                               if not line.startswith(later))
@@ -1111,7 +1168,7 @@ def validate_coupled_banking(root: Path, *, authenticate_sources: bool = True) -
 
 def validate_vacuum_scale_banking(root: Path, *, authenticate_sources: bool = True) -> None:
     """VS1/VS2 exact-scope banking correspondence; never scientific proof."""
-    raw = (root / "CURRENT_SCIENTIFIC_PREMISES.tsv").read_bytes()
+    raw = registry_bytes_for_historical_banking(root)
     prefixes = tuple(f"{item}\t".encode() for item in VACUUM_SCALE_BANKING_IDS + BERGER_BANKING_IDS + CLOSED_FIBRE_BANKING_IDS + NEIGHBORING_TIDAL_BANKING_IDS)
     old = b"".join(line for line in raw.splitlines(keepends=True)
                    if not line.startswith(prefixes))
@@ -1206,7 +1263,7 @@ def validate_vacuum_scale_banking(root: Path, *, authenticate_sources: bool = Tr
 
 def validate_berger_banking(root: Path, *, authenticate_sources: bool = True) -> None:
     """Exact BI1/BG1/BG2 source/dependency correspondence, not a new proof."""
-    raw = (root / "CURRENT_SCIENTIFIC_PREMISES.tsv").read_bytes()
+    raw = registry_bytes_for_historical_banking(root)
     prefixes = tuple(f"{item}\t".encode() for item in BERGER_BANKING_IDS + CLOSED_FIBRE_BANKING_IDS + NEIGHBORING_TIDAL_BANKING_IDS)
     old = b"".join(line for line in raw.splitlines(keepends=True)
                    if not line.startswith(prefixes))
@@ -1322,7 +1379,7 @@ def validate_berger_banking(root: Path, *, authenticate_sources: bool = True) ->
 
 def validate_closed_fibre_banking(root: Path, *, authenticate_sources: bool = True) -> None:
     """Exact CF1/CF2 source/dependency banking correspondence; not a proof."""
-    raw = (root / "CURRENT_SCIENTIFIC_PREMISES.tsv").read_bytes()
+    raw = registry_bytes_for_historical_banking(root)
     prefixes = tuple(f"{item}\t".encode() for item in CLOSED_FIBRE_BANKING_IDS + NEIGHBORING_TIDAL_BANKING_IDS)
     old = b"".join(line for line in raw.splitlines(keepends=True)
                    if not line.startswith(prefixes))
@@ -1450,7 +1507,7 @@ def validate_closed_fibre_banking(root: Path, *, authenticate_sources: bool = Tr
 
 def validate_neighboring_tidal_banking(root: Path, *, authenticate_sources: bool = True) -> None:
     """Exact NT1/NT2 conditional source/dependency correspondence, not a proof."""
-    raw = (root / "CURRENT_SCIENTIFIC_PREMISES.tsv").read_bytes()
+    raw = registry_bytes_for_historical_banking(root)
     prefixes = tuple(f"{item}\t".encode() for item in NEIGHBORING_TIDAL_BANKING_IDS)
     old = b"".join(line for line in raw.splitlines(keepends=True)
                    if not line.startswith(prefixes))
@@ -1574,6 +1631,7 @@ def validate_neighboring_tidal_banking(root: Path, *, authenticate_sources: bool
 
 def validate_startup_surface(root: Path) -> None:
     """Fail closed on semantic startup authority without requiring duplicated chronology."""
+    validate_gr_filter_authority(root)
     controls: dict[str, str] = {}
     for relative in STARTUP_SURFACE_CONTROLS:
         path = root / relative
@@ -1582,6 +1640,32 @@ def validate_startup_surface(root: Path) -> None:
     for relative in METHOD_AUTOMATION_CONTROLS:
         path = root / relative
         require(path.is_file(), f"missing method automation control: {relative}")
+
+    # Bounded regression patterns, not a semantic completeness theorem.
+    for relative in ("LIVE.md", "HANDOFF.md", "CURRENT_RESEARCH_PROGRAM.md",
+                     "CURRENT_SCIENTIFIC_PREMISES.md", "MEMORY.md", "INDEX.md"):
+        current = (marked_current_block(root / relative)
+                   if relative in ("LIVE.md", "HANDOFF.md") else controls[relative])
+        normalized = " ".join(current.split())
+        for token in ("GR is FILTER ONLY", "not a response-law input",
+                      "Local Metric Sufficiency remains owner-provisional",
+                      "CONDITIONAL", "not established from filter-only GR",
+                      GR_FILTER_AUTHORITY_SOURCE):
+            require(token in normalized,
+                    f"GR-filter current surface lacks {token}: {relative}")
+        for pattern in (
+            r"UDT must reproduce GR['’]s local principal response and dynamics",
+            r"G312 premises are owner.adopted provisionally",
+            r"(?:full quiet )?GR (?:principal.response overlap|dynamics) (?:is|remains) "
+            r"(?:owner.adopted|adopted|a current response.law input)",
+            r"(?:Local Metric Sufficiency|DDR) (?:is|remains) "
+            r"(?:unadopted|open and unadopted|derived|canonized)",
+            r"Einstein (?:equation|arena) (?:is|remains) (?:native|unconditional|derived from filter.only GR)",
+            r"(?:all|the) conditional mathematics (?:is|remains) (?:retracted|refuted)",
+            r"(?:a new physical premise is necessary|independent closure is impossible)",
+        ):
+            require(re.search(pattern, normalized, flags=re.IGNORECASE) is None,
+                    f"GR-filter current surface contradicts authority: {relative}: {pattern}")
 
     registry = root / "CURRENT_SCIENTIFIC_PREMISES.tsv"
     require(registry.is_file(), "premise registry missing")
@@ -1632,7 +1716,8 @@ def validate_startup_surface(root: Path) -> None:
         "OWNER_ADOPTED_PROVISIONAL_POSTULATE",
         "2026-08-31",
         "not derived or canonized",
-        "G312 premises are owner-adopted provisionally",
+        "GR is FILTER ONLY",
+        "Local Metric Sufficiency remains owner-provisional",
         "Local Metric Sufficiency",
         "multibranch Einstein arena",
         "angular-sector cancellation",
@@ -1818,7 +1903,7 @@ def validate_startup_surface(root: Path) -> None:
         "CURRENT_SCIENTIFIC_PREMISES.md": (
             "365-row",
             "OWNER_ADOPTED_PROVISIONAL_POSTULATE",
-            "OWNER_ADOPTED_PROVISIONAL_POSTULATES",
+            "Local Metric Sufficiency remains owner-provisional",
             "one postulate with two formulations",
             "CHALLENGED_OWNER_POSTULATE_NOT_DERIVED",
             "working asymptotic global-completion consequence target",
@@ -2264,6 +2349,7 @@ def validate_startup_surface(root: Path) -> None:
 
 
 def main() -> None:
+    validate_gr_filter_authority(ROOT)
     rows = read_tsv(ROOT / "CURRENT_SCIENTIFIC_PREMISES.tsv")
     require(len(rows) == 365, "premise registry must contain exactly 365 rows")
     by_id = {row["premise_id"]: row for row in rows}
@@ -3454,38 +3540,9 @@ def main() -> None:
         "G312 repair-followup acceptance token changed",
     )
 
-    g312_row = by_id["G312"]
-    require(
-        "OWNER_ADOPTED_PROVISIONAL_POSTULATES_AUTHORIZED_BY_CHARLES_ROTTER_2026_09_01"
-        in g312_row["current_status"]
-        and "NOT_DERIVED__NOT_CANON" in g312_row["current_status"],
-        "G312 two-premise owner-adoption stamp changed",
-    )
-    require(
-        g312_row["active_use"]
-        == "ACTIVE_OWNER_ADOPTED_PROVISIONAL_FULL_QUIET_GR_PRINCIPAL_OVERLAP_AND_LOCAL_METRIC_SUFFICIENCY_WITH_BOUNDED_G301_TRACEFREE_RICCI_CLOSURE_ONLY",
-        "G312 active-use scope changed",
-    )
-    require(
-        "global bootstrap" in g312_row["open_scope"]
-        and "scalar curvature magnitude and sign" in g312_row["open_scope"],
-        "G312 post-adoption open boundary changed",
-    )
-    require(
-        "owner-adopted premises called derived canonized or observationally proved"
-        in g312_row["forbidden_regression"],
-        "G312 premise-grade regression guard missing",
-    )
-    require(
-        "Local Metric Sufficiency called proof that global bootstrap is impossible"
-        in g312_row["forbidden_regression"],
-        "G312 bootstrap-compatibility guard missing",
-    )
-    require(
-        "bounded trace-free Ricci closure called a selected universe"
-        in g312_row["forbidden_regression"],
-        "G312 bounded-closure guard missing",
-    )
+    # Current ownership was checked before all historical replay. The old
+    # G312 theorem/adoption checks below authenticate history, not current GR use.
+    validate_gr_filter_authority(ROOT)
     g312_adoption_record = (
         ROOT
         / "startup_surface_g312_two_premise_adoption_refresh_2026-09-01"
@@ -6991,6 +7048,7 @@ def main() -> None:
             source_name = source_row["path"]
             source_bytes = (ROOT / source_name).read_bytes()
             if source_name == "CURRENT_SCIENTIFIC_PREMISES.tsv":
+                source_bytes = registry_bytes_for_historical_banking(ROOT)
                 source_bytes = b"".join(
                     line for line in source_bytes.splitlines(keepends=True)
                     if not line.startswith((b"G382\t", b"G381\t", b"G380\t", b"G379\t", b"G378\t", b"G377\t", b"G376\t", b"G375\t", b"G374\t", b"G373\t", b"G372\t", b"G371\t", b"G370\t", b"G369\t", b"G368\t", b"G367\t", b"G366\t", b"G365\t", b"G364\t", b"G363\t", b"G362\t", b"G361\t", b"G360\t", b"G359\t", b"G358\t", b"G357\t", b"G356\t", b"G355\t", b"G354\t", b"G353\t", b"G352\t"))

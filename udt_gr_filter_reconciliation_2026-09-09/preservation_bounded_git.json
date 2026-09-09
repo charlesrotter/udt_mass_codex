@@ -1,0 +1,21 @@
+{
+  "command": [
+    "env",
+    "GIT_CONFIG_COUNT=2",
+    "GIT_CONFIG_KEY_0=core.packedGitWindowSize",
+    "GIT_CONFIG_VALUE_0=16m",
+    "GIT_CONFIG_KEY_1=core.packedGitLimit",
+    "GIT_CONFIG_VALUE_1=64m",
+    "python3",
+    "-B",
+    "udt_gr_filter_reconciliation_2026-09-09/check_reconciliation.py"
+  ],
+  "cwd": "/home/udt-admin/udt_mass_codex",
+  "started_utc": "2026-09-09T21:38:52.870719+00:00",
+  "duration_seconds": 1.4523044369998388,
+  "returncode": 0,
+  "timeout": false,
+  "address_space_bytes": 536870912,
+  "cpu_seconds": 60,
+  "maxrss_kib": 85160
+}

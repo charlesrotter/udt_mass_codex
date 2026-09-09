@@ -23,10 +23,10 @@ h=Y^T B^T eta_2 B Y +(S Y+Z)^T Q^T Q(S Y+Z)
 
 W5 provisionally identifies projective pair position; W6 requires metric-causal response.
 Universal Reciprocity/DDR and explained Local Metric Sufficiency remain provisional, not derived/canon.
-Charles's 2026-09-09 clarification makes GR a FILTER ONLY, not a response-law input.
-AUTHORITY WARNING: every Einstein-arena statement below is conditional on the full reviewed premises,
-not established from filter-only GR. G312 ownership and registry/guard reconciliation are PENDING:
-`udt_gr_filter_authority_audit_2026-09-09/REVIEWED_AUDIT.md`. Exact grades/math remain unchanged.
+GR is FILTER ONLY, not a response-law input; Local Metric Sufficiency remains owner-provisional.
+Inherited G312 “admitted/lawful” Einstein claims are CONDITIONAL on full reviewed premises,
+not established from filter-only GR. The existing membership route is unclosed, not disproved:
+`udt_gr_filter_reconciliation_2026-09-09/AUTHORITY_RECORD.md`. Exact grades/math remain unchanged.
 Population, realized history, matter, absolute scale and `X_max` remain unselected.
 
 ## Dependency spine

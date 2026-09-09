@@ -17,12 +17,11 @@ only with metric-causal observable response.
 
 Universal Reciprocity/DDR is one postulate with two formulations,
 OWNER_ADOPTED_PROVISIONAL_POSTULATE (2026-08-31), not derived or canonized.
-Charles's 2026-09-09 clarification: GR is a comparison filter, not a response-law input;
-Local Metric Sufficiency is affirmed. AUTHORITY WARNING: G312's stronger GR-principal adoption
-and inherited “admitted/lawful” shorthand below require qualification; see
-`udt_gr_filter_authority_audit_2026-09-09/REVIEWED_AUDIT.md`.
+GR is FILTER ONLY, not a response-law input; Local Metric Sufficiency remains owner-provisional.
+Current G312 authority qualifies inherited “admitted/lawful” labels; original evidence is unchanged:
+`udt_gr_filter_reconciliation_2026-09-09/AUTHORITY_RECORD.md`.
 The multibranch Einstein arena `Ric(g)=Lambda g` remains CONDITIONAL on its full reviewed premises,
-not established from filter-only GR. Registry/guard reconciliation is PENDING; exact grades stay fixed.
+not established from filter-only GR. Exact grades stay fixed; the existing membership route is unclosed.
 Metric/kernel and mathematics are unchanged; angular-sector cancellation owns loud--quiet--loud.
 `X_max` remains WORKING/OPEN global completion, never a local input, wall, center or selected scale.
 
@@ -65,7 +64,7 @@ The fixed through-G352 manuscript is an earlier edition, not current tracking.
 NR1--NR2/LG1--LG2/LE1/SE1/NE1: reviewed UNPROMOTED; exact scopes/reviews: `INDEX.md`.
 NE1: fading profile with cumulative marked-area-rate/tidal departure in one exact polarized family.
 Supplied data/marking and conditional methods; no genericity, stability/content.
-Full365 NOT_PASSED at G325 replay; no banking/integration.
+Full365 NOT_PASSED at G325 replay; no scientific banking/integration.
 
 ### Distinctions for the direction discussion
 

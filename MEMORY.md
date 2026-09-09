@@ -5,10 +5,10 @@
 
 The kernel evaluates supplied ordered depth; complete `B,Q,S,Y,Z` enters before readout.
 Universal Reciprocity/DDR and explained Local Metric Sufficiency remain owner-adopted provisional premises.
-AUTHORITY WARNING: Charles's 2026-09-09 GR clarification is FILTER ONLY, not a response-law input.
-G312's stronger ownership and registry/guard reconciliation are PENDING; Einstein claims stay
-CONDITIONAL on full reviewed premises, not established from filter-only GR. No mathematical regrading.
-See `udt_gr_filter_authority_audit_2026-09-09/REVIEWED_AUDIT.md`.
+GR is FILTER ONLY, not a response-law input; Local Metric Sufficiency remains owner-provisional.
+G312 qualifies inherited “admitted/lawful” labels: Einstein claims stay CONDITIONAL on full reviewed
+premises, not established from filter-only GR. No mathematical regrading; membership remains unclosed.
+See `udt_gr_filter_reconciliation_2026-09-09/AUTHORITY_RECORD.md`.
 G313--G337 provide a multibranch arena with legitimate free initial data, not a selected universe.
 G338--G349 provide metric geometry, not physical carried content or detector laws.
 G350 leaves `R^p A^q`; G351 provisionally conserves a supplied label measure, giving

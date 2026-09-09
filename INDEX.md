@@ -2,9 +2,10 @@
 
 Banking through G382 is COMPLETE at reviewed conditional scopes; no successor is authorized.
 The exact 365-row `CURRENT_SCIENTIFIC_PREMISES.tsv` owns grades, not these pointers.
-AUTHORITY WARNING: Charles's GR clarification is FILTER ONLY; stronger G312 ownership and
-registry/guard reconciliation are PENDING. Mathematical scopes/grades remain fixed.
-Current audit: `udt_gr_filter_authority_audit_2026-09-09/REVIEWED_AUDIT.md`.
+GR is FILTER ONLY, not a response-law input; Local Metric Sufficiency remains owner-provisional.
+Inherited G312 Einstein claims remain CONDITIONAL, not established from filter-only GR; grades fixed.
+Current authority: `udt_gr_filter_reconciliation_2026-09-09/AUTHORITY_RECORD.md`.
+Prior audit: `udt_gr_filter_authority_audit_2026-09-09/REVIEWED_AUDIT.md`.
 
 1. Follow `AGENTS.md`.
 2. Read the current blocks in `LIVE.md` and `HANDOFF.md`.

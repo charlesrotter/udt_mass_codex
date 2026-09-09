@@ -1,0 +1,16 @@
+{
+  "status": "PASS",
+  "repaired_pins": 14,
+  "only_initial_candidate_files_changed": [
+    "verify_current_scientific_premises.py",
+    "tests/test_startup_surface.py"
+  ],
+  "same_reviewer_probe_source": true,
+  "retained_initial_false_passes": 13,
+  "repaired_intended_rejections": 56,
+  "repaired_positive_controls": 15,
+  "registry_reads_initial": 2,
+  "registry_reads_repaired": 1,
+  "read_swap_reporting_note": "Original projected==baseline boolean retains its old field name; the repaired one-read path never consumes the injected poisoned second snapshot.",
+  "scope": "repair correspondence and finite regression, not semantic completeness or proof"
+}

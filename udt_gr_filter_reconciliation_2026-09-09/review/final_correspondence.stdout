@@ -1,0 +1,15 @@
+{
+  "status": "PASS",
+  "final_pins": 15,
+  "authority_registry_six_surfaces_unchanged_through_repairs": true,
+  "initial_actual_false_passes_preserved": 13,
+  "first_repair_additional_false_passes_posthoc_execution": 3,
+  "final_original_probe": {
+    "cases": 71,
+    "rejections": 56,
+    "positive_controls": 15
+  },
+  "final_supplemental_rejections": 3,
+  "misnamed_capture_preserved_as_actual_completed_implementation_run": true,
+  "full365": "NOT_PASSED_G325_NO_WAIVER"
+}

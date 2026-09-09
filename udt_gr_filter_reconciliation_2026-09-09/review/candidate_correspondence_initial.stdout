@@ -1,0 +1,17 @@
+{
+  "status": "PASS",
+  "initial_frozen_pins": 12,
+  "changed_g312_cells": [
+    "current_status",
+    "active_use",
+    "open_scope",
+    "forbidden_regression",
+    "precedence_rule"
+  ],
+  "unchanged_other_registry_rows": 364,
+  "preserved_math_evidence_prefix_suffix": true,
+  "original_open_scope_preserved": true,
+  "exact_patch_matches_baseline": true,
+  "current_guard_first_in_main_and_startup": true,
+  "scope": "source and code correspondence, not scientific proof"
+}

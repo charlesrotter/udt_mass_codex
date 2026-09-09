@@ -6,6 +6,8 @@ import shutil
 import subprocess
 import sys
 import re
+import hashlib
+import json
 from pathlib import Path
 
 import pytest
@@ -15,6 +17,7 @@ import verify_current_scientific_premises as premise_guard
 
 REPO = Path(__file__).resolve().parents[1]
 CURRENT_TARGETS = (
+    *premise_guard.GR_FILTER_PINS,
     "CURRENT_SCIENTIFIC_PREMISES.tsv",
     "udt_observed_angular_pattern_raw_restart_2026-08-12/R2_OUTCOME_REPORT.md",
     "udt_observed_angular_pattern_raw_restart_2026-08-12/R3_OUTCOME_REPORT.md",
@@ -151,6 +154,7 @@ def _startup_copy(tmp_path: Path) -> Path:
         destination = tmp_path / relative
         destination.parent.mkdir(parents=True, exist_ok=True)
         if relative in (
+            *premise_guard.GR_FILTER_PINS,
             "CURRENT_SCIENTIFIC_PREMISES.tsv",
             "startup_surface_g310_universal_reciprocity_refresh_2026-08-31/ADOPTION_RECORD.md",
             premise_guard.CONDITIONAL_BANKING_SOURCE,
@@ -210,7 +214,7 @@ def _banking_copy(tmp_path: Path, *, evidence: bool = False,
                   shared_constraints: bool = False) -> Path:
     record = (premise_guard.SHARED_CONSTRAINT_BANKING_SOURCE if shared_constraints
               else premise_guard.CONDITIONAL_BANKING_SOURCE)
-    for relative in ("CURRENT_SCIENTIFIC_PREMISES.tsv", record):
+    for relative in ("CURRENT_SCIENTIFIC_PREMISES.tsv", record, *premise_guard.GR_FILTER_PINS):
         destination = tmp_path / relative
         destination.parent.mkdir(parents=True, exist_ok=True)
         shutil.copy2(REPO / relative, destination)
@@ -400,7 +404,8 @@ def test_full_foundational_premise_verifier_is_in_pytest() -> None:
 
 
 def _restrictiveness_copy(tmp_path: Path, *, evidence: bool = False) -> Path:
-    for relative in ("CURRENT_SCIENTIFIC_PREMISES.tsv", premise_guard.RESTRICTIVENESS_BANKING_SOURCE):
+    for relative in ("CURRENT_SCIENTIFIC_PREMISES.tsv", premise_guard.RESTRICTIVENESS_BANKING_SOURCE,
+                     *premise_guard.GR_FILTER_PINS):
         destination = tmp_path / relative
         destination.parent.mkdir(parents=True, exist_ok=True)
         shutil.copy2(REPO / relative, destination)
@@ -506,7 +511,8 @@ def test_catch_restrictiveness_banking_next_gate(tmp_path: Path, name: str) -> N
 
 
 def _persistence_copy(tmp_path: Path, *, evidence: bool = False) -> Path:
-    for relative in ("CURRENT_SCIENTIFIC_PREMISES.tsv", premise_guard.PERSISTENCE_BANKING_SOURCE):
+    for relative in ("CURRENT_SCIENTIFIC_PREMISES.tsv", premise_guard.PERSISTENCE_BANKING_SOURCE,
+                     *premise_guard.GR_FILTER_PINS):
         destination = tmp_path / relative
         destination.parent.mkdir(parents=True, exist_ok=True)
         shutil.copy2(REPO / relative, destination)
@@ -763,15 +769,207 @@ def test_catch_ddr_angular_regime_misattribution(tmp_path: Path) -> None:
         premise_guard.validate_startup_surface(root)
 
 
-def test_catch_g312_owner_adoption_demotion(tmp_path: Path) -> None:
+def test_catch_g312_retained_locality_demotion(tmp_path: Path) -> None:
     root = _startup_copy(tmp_path)
     _replace(
         root / "LIVE.md",
-        "G312 premises are owner-adopted provisionally.",
-        "G312 premises remain open and unadopted.",
+        "Local Metric Sufficiency remains owner-provisional.",
+        "Local Metric Sufficiency remains open and unadopted.",
     )
-    with pytest.raises(SystemExit, match="marked current block lacks"):
+    with pytest.raises(SystemExit, match="GR-filter current surface lacks"):
         premise_guard.validate_startup_surface(root)
+
+
+@pytest.mark.parametrize("field", (
+    "current_status", "active_use", "open_scope", "forbidden_regression", "precedence_rule",
+))
+def test_gr_filter_catches_each_authority_cell_reversal(tmp_path: Path, field: str) -> None:
+    root = _startup_copy(tmp_path)
+    transition = premise_guard.validate_gr_filter_authority(root)
+    cell = next(cell for cell in transition["changed_cells"] if cell["field"] == field)
+    _change_registry_field(root, "G312", field, cell["before"])
+    with pytest.raises(SystemExit, match="GR-filter current G312 row"):
+        premise_guard.registry_bytes_for_historical_banking(root)
+
+
+def test_gr_filter_catches_complete_old_row_restoration(tmp_path: Path) -> None:
+    root = _startup_copy(tmp_path)
+    transition = premise_guard.validate_gr_filter_authority(root)
+    _replace(root / "CURRENT_SCIENTIFIC_PREMISES.tsv",
+             transition["after_line"], transition["before_line"])
+    with pytest.raises(SystemExit, match="GR-filter current G312 row"):
+        premise_guard.validate_startup_surface(root)
+    with pytest.raises(SystemExit, match="GR-filter current G312 row"):
+        premise_guard.registry_bytes_for_historical_banking(root)
+
+
+@pytest.mark.parametrize("field", ("current_status", "epistemic_label", "controlling_source"))
+def test_gr_filter_catches_mathematical_evidence_drift(tmp_path: Path, field: str) -> None:
+    root = _startup_copy(tmp_path)
+    _change_registry_field(root, "G312", field, "BLANKET_RETRACTION_OR_UPGRADE")
+    with pytest.raises(SystemExit, match="GR-filter current G312 row"):
+        premise_guard.validate_gr_filter_authority(root)
+
+
+def test_gr_filter_catches_appended_registry_contradiction(tmp_path: Path) -> None:
+    root = _startup_copy(tmp_path)
+    current = next(row for row in premise_guard.read_tsv(root / "CURRENT_SCIENTIFIC_PREMISES.tsv")
+                   if row["premise_id"] == "G312")
+    _change_registry_field(root, "G312", "active_use",
+                           current["active_use"] + "__FULL_GR_PRINCIPAL_OVERLAP_IS_ADOPTED")
+    with pytest.raises(SystemExit, match="GR-filter current G312 row"):
+        premise_guard.validate_gr_filter_authority(root)
+
+
+def test_gr_filter_catches_ddr_demotion(tmp_path: Path) -> None:
+    root = _startup_copy(tmp_path)
+    _change_registry_field(root, "G310", "current_status", "UNADOPTED")
+    with pytest.raises(SystemExit, match="GR-filter retained DDR authority changed"):
+        premise_guard.validate_gr_filter_authority(root)
+
+
+@pytest.mark.parametrize("relative", tuple(premise_guard.GR_FILTER_PINS))
+@pytest.mark.parametrize("mutation", ("missing", "appended"))
+def test_gr_filter_catches_authority_or_history_pin_drift(
+    tmp_path: Path, relative: str, mutation: str,
+) -> None:
+    root = _startup_copy(tmp_path)
+    path = root / relative
+    if mutation == "missing":
+        path.unlink()
+    else:
+        path.write_bytes(path.read_bytes() + b"\nGR dynamics is adopted.\n")
+    with pytest.raises(SystemExit, match="GR-filter authority/source pin changed"):
+        premise_guard.validate_gr_filter_authority(root)
+
+
+@pytest.mark.parametrize("relative", (
+    "LIVE.md", "HANDOFF.md", "CURRENT_RESEARCH_PROGRAM.md",
+    "CURRENT_SCIENTIFIC_PREMISES.md", "MEMORY.md", "INDEX.md",
+))
+@pytest.mark.parametrize("contradiction", (
+    "Full quiet GR principal-response overlap is adopted.",
+    "GR dynamics remains a current response-law input.",
+    "Local Metric Sufficiency remains unadopted.",
+    "DDR is derived.",
+    "Einstein equation is derived from filter-only GR.",
+    "All conditional mathematics is retracted.",
+    "A new physical premise is necessary.",
+    "Independent closure is impossible.",
+    "G312 premises are owner-adopted provisionally.",
+    "In the quiet terrestrial/solar regime, UDT must reproduce GR's local principal response and dynamics, "
+    "not merely contain completed vacuum solutions that also solve GR.",
+    "In the quiet terrestrial/solar regime, UDT must reproduce GR’s local principal response and dynamics, "
+    "not merely contain completed vacuum solutions that also solve GR.",
+    "In the quiet terrestrial/solar regime, UDT must reproduce GR's local\nprincipal response and dynamics, "
+    "not merely contain completed vacuum solutions that also solve GR.",
+))
+def test_gr_filter_catches_contradiction_despite_retained_good_tokens(
+    tmp_path: Path, relative: str, contradiction: str,
+) -> None:
+    root = _startup_copy(tmp_path)
+    path = root / relative
+    if relative in ("LIVE.md", "HANDOFF.md"):
+        _replace(path, "<!-- STARTUP_CURRENT_END -->",
+                 contradiction + "\n<!-- STARTUP_CURRENT_END -->")
+    else:
+        path.write_text(path.read_text() + "\n" + contradiction + "\n")
+    with pytest.raises(SystemExit, match="GR-filter current surface contradicts authority"):
+        premise_guard.validate_startup_surface(root)
+
+
+def test_gr_filter_historical_projection_is_exact_not_current() -> None:
+    current = (REPO / "CURRENT_SCIENTIFIC_PREMISES.tsv").read_bytes()
+    projected = premise_guard.registry_bytes_for_historical_banking(REPO)
+    transition = premise_guard.validate_gr_filter_authority(REPO)
+    assert current != projected
+    assert hashlib.sha256(projected).hexdigest() == transition["baseline_registry_sha256"]
+    assert [i for i, (a, b) in enumerate(zip(current.splitlines(), projected.splitlines()))
+            if a != b] == [i for i, line in enumerate(current.splitlines())
+                          if line.startswith(b"G312\t")]
+    assert next(row for row in premise_guard.read_tsv(REPO / "CURRENT_SCIENTIFIC_PREMISES.tsv")
+                if row["premise_id"] == "G312")["active_use"].startswith("CURRENT_GR_FILTER_ONLY")
+
+
+def test_gr_filter_projection_uses_only_the_validated_read(tmp_path: Path, monkeypatch) -> None:
+    root = _startup_copy(tmp_path)
+    registry = root / "CURRENT_SCIENTIFIC_PREMISES.tsv"
+    clean = registry.read_bytes()
+    transition = premise_guard.validate_gr_filter_authority(root)
+    poisoned = clean.replace(transition["after_line"].encode(),
+                             transition["before_line"].encode())
+    original_read = Path.read_bytes
+    reads = []
+
+    def read_swap(path):
+        if path == registry:
+            reads.append(path)
+            return clean if len(reads) == 1 else poisoned
+        return original_read(path)
+
+    monkeypatch.setattr(Path, "read_bytes", read_swap)
+    historical = premise_guard.registry_bytes_for_historical_banking(root)
+    assert len(reads) == 1  # No unvalidated later snapshot is rewritten/hidden.
+    assert hashlib.sha256(historical).hexdigest() == transition["baseline_registry_sha256"]
+
+
+def test_gr_filter_transition_is_parsed_only_from_authenticated_bytes(tmp_path: Path, monkeypatch) -> None:
+    root = _startup_copy(tmp_path)
+    record = root / premise_guard.GR_FILTER_TRANSITION_SOURCE
+    registry = root / "CURRENT_SCIENTIFIC_PREMISES.tsv"
+    transition = premise_guard.validate_gr_filter_authority(root)
+    forged = dict(transition, after_line=transition["before_line"])
+    _replace(registry, transition["after_line"], transition["before_line"])
+    original_text = Path.read_text
+    text_reads = []
+
+    def forged_second_read(path, *args, **kwargs):
+        if path == record:
+            text_reads.append(path)
+            return json.dumps(forged)
+        return original_text(path, *args, **kwargs)
+
+    monkeypatch.setattr(Path, "read_text", forged_second_read)
+    with pytest.raises(SystemExit, match="GR-filter current G312 row"):
+        premise_guard.validate_gr_filter_authority(root)
+    with pytest.raises(SystemExit, match="GR-filter current G312 row"):
+        premise_guard.registry_bytes_for_historical_banking(root)
+    assert text_reads == []  # The unpinned second-read substitution is unused.
+
+
+@pytest.mark.parametrize("function_name", (
+    "validate_conditional_banking", "validate_shared_constraint_banking",
+    "validate_persistence_banking", "validate_restrictiveness_banking",
+    "validate_source_metric_banking", "validate_reconstruction_banking",
+    "validate_coupled_banking", "validate_vacuum_scale_banking",
+    "validate_berger_banking", "validate_closed_fibre_banking",
+    "validate_neighboring_tidal_banking",
+))
+def test_gr_filter_historical_hash_still_catches_unrelated_edit(
+    tmp_path: Path, function_name: str,
+) -> None:
+    root = _startup_copy(tmp_path)
+    validator = getattr(premise_guard, function_name)
+    validator(root, authenticate_sources=False)
+    _change_registry_field(root, "G301", "epistemic_label", "UNAUTHORIZED_GRADE")
+    # The projection neither hides nor repairs this unrelated live change.
+    projected = premise_guard.registry_bytes_for_historical_banking(root)
+    assert b"UNAUTHORIZED_GRADE" in projected
+    with pytest.raises(SystemExit, match="changed an existing scientific registry row"):
+        validator(root, authenticate_sources=False)
+
+
+def test_gr_filter_transition_inventory_has_only_authority_cells() -> None:
+    transition = json.loads((REPO / premise_guard.GR_FILTER_TRANSITION_SOURCE).read_text())
+    fields = (REPO / "CURRENT_SCIENTIFIC_PREMISES.tsv").read_text().splitlines()[0].split("\t")
+    before = dict(zip(fields, transition["before_line"].rstrip("\n").split("\t")))
+    after = dict(zip(fields, transition["after_line"].rstrip("\n").split("\t")))
+    differences = [{"premise_id": "G312", "field": field, "before": before[field],
+                    "after": after[field]} for field in fields if before[field] != after[field]]
+    assert differences == transition["changed_cells"]
+    assert set(transition["unchanged_fields"]) == {
+        "premise_id", "term", "epistemic_label", "controlling_source"}
+    assert len(differences) == 5
 
 
 def test_catch_g313_multibranch_landing_omission(tmp_path: Path) -> None:

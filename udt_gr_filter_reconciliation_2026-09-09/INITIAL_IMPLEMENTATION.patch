@@ -1,0 +1,652 @@
+diff --git a/CURRENT_RESEARCH_PROGRAM.md b/CURRENT_RESEARCH_PROGRAM.md
+index 87687470..f7cfe72d 100644
+--- a/CURRENT_RESEARCH_PROGRAM.md
++++ b/CURRENT_RESEARCH_PROGRAM.md
+@@ -23,10 +23,10 @@ h=Y^T B^T eta_2 B Y +(S Y+Z)^T Q^T Q(S Y+Z)
+ 
+ W5 provisionally identifies projective pair position; W6 requires metric-causal response.
+ Universal Reciprocity/DDR and explained Local Metric Sufficiency remain provisional, not derived/canon.
+-Charles's 2026-09-09 clarification makes GR a FILTER ONLY, not a response-law input.
+-AUTHORITY WARNING: every Einstein-arena statement below is conditional on the full reviewed premises,
+-not established from filter-only GR. G312 ownership and registry/guard reconciliation are PENDING:
+-`udt_gr_filter_authority_audit_2026-09-09/REVIEWED_AUDIT.md`. Exact grades/math remain unchanged.
++GR is FILTER ONLY, not a response-law input; Local Metric Sufficiency remains owner-provisional.
++Inherited G312 “admitted/lawful” Einstein claims are CONDITIONAL on full reviewed premises,
++not established from filter-only GR. The existing membership route is unclosed, not disproved:
++`udt_gr_filter_reconciliation_2026-09-09/AUTHORITY_RECORD.md`. Exact grades/math remain unchanged.
+ Population, realized history, matter, absolute scale and `X_max` remain unselected.
+ 
+ ## Dependency spine
+diff --git a/CURRENT_SCIENTIFIC_PREMISES.md b/CURRENT_SCIENTIFIC_PREMISES.md
+index 9ff574a2..9f9b37db 100644
+--- a/CURRENT_SCIENTIFIC_PREMISES.md
++++ b/CURRENT_SCIENTIFIC_PREMISES.md
+@@ -4,13 +4,12 @@
+ run `python3 verify_current_scientific_premises.py` before querying exact rows.
+ Banking through G382 is COMPLETE, VERIFIED-WITH-CAVEATS at reviewed conditional scopes.
+ Sources/reviews: `INDEX.md`.
+-Exact grades, original evidence, canon and fixed manuscript are preserved; authority warning follows.
++Exact grades, original evidence, canon and fixed manuscript are preserved.
+ 
+-AUTHORITY WARNING (2026-09-09): Charles affirms reciprocity/local sufficiency, but GR is FILTER ONLY.
+-G312's stronger GR-principal input is not authorized as a response-law constructor by that clarification.
+-Einstein-arena claims remain CONDITIONAL on their full reviewed premises, not established from filter-only GR.
+-The exact registry's stronger ownership wording and guards await coordinated reconciliation;
+-see `udt_gr_filter_authority_audit_2026-09-09/REVIEWED_AUDIT.md`. No theorem is regraded here.
++GR is FILTER ONLY, not a response-law input; Local Metric Sufficiency remains owner-provisional.
++G312's current authority qualifies inherited “admitted/lawful” labels. Einstein claims remain
++CONDITIONAL on full reviewed premises, not established from filter-only GR; membership is unclosed.
++Current record: `udt_gr_filter_reconciliation_2026-09-09/AUTHORITY_RECORD.md`. No theorem is regraded.
+ 
+ ## Foundational and adopted layer
+ 
+@@ -25,7 +24,7 @@ see `udt_gr_filter_authority_audit_2026-09-09/REVIEWED_AUDIT.md`. No theorem is
+ | W5 projective position | `WORKING_FOUNDATIONAL_CLARIFICATION` | Complete projective relation state | Scale/history/`X_max` |
+ | W6 co-presence | `WORKING_FOUNDATIONAL_CLARIFICATION` | Nonpropagating membership with metric-causal response | Population/history |
+ | Universal Reciprocity / Differential Dual Reciprocity | `OWNER_ADOPTED_PROVISIONAL_POSTULATE` | Bounded G310 trace-free response | Extension and canon |
+-| G312 recorded premises | Historical `OWNER_ADOPTED_PROVISIONAL_POSTULATES` | Local Metric Sufficiency affirmed; stronger GR ownership under warning above | Registry/guard reconciliation |
++| G312 current authority | GR filter only; locality owner-provisional | Conditional response-class mathematics | Independent class-membership route |
+ | Source-free label-measure conservation | `OWNER_ADOPTED_PROVISIONAL_PREMISE` (G351) | Countably additive measure; inverse-area regular density | `p`, sources, population, light/cross-label physics |
+ | Continuous clock-rate readout | `OWNER_ADOPTED_PROVISIONAL_PREMISE` (G352) | On chosen phase/product realization, `T_clock=R A^-1` | Atomic rate, physical object, sources, population, light/energy |
+ 
+diff --git a/CURRENT_SCIENTIFIC_PREMISES.tsv b/CURRENT_SCIENTIFIC_PREMISES.tsv
+index 10043940..e02b7bd2 100644
+--- a/CURRENT_SCIENTIFIC_PREMISES.tsv
++++ b/CURRENT_SCIENTIFIC_PREMISES.tsv
+@@ -69,7 +69,7 @@ G316	lawful_constraint_data_construction	EXTERNALLY_ACCEPTED_BOUNDED__NO_SCIENTI
+ G315	conditional_cauchy_characteristic_data_interface	EXTERNALLY_ACCEPTED_DERIVED_CONDITIONAL_BOUNDED__PREREGISTERED_AT_6D26CA34__72_PRODUCTION_ASSERTIONS__89_IMPLEMENTATION_DISTINCT_ASSERTIONS__17_OF_17_HOSTILE_CATCHES__15_ROW_DATA_INTERFACE_ATLAS__ALL_35_SEALED_PAYLOADS_AUTHENTICATED__FOUR_EXTERNAL_REPLAYS_PASS__FIVE_GENERATED_OUTPUTS_BYTE_IDENTICAL__ADM_CONSTRAINTS_AND_MINUS_LAMBDA_EVOLUTION_SIGN_UPHELD__GENERIC_LOCAL_COUNT_IS_FOUR_PHASE_SPACE_FUNCTIONS_OR_TWO_CONFIGURATION_MODES_PLUS_RATES__SAME_NULL_LAMBDA_CANCELLATION_AND_MIXED_NULL_MINUS_LAMBDA_UPHELD__CAUCHY_AND_CHARACTERISTIC_DATA_LAWFUL_BUT_FREELY_SUPPLIED__PAIR_KERNEL_REMAINS_DOWNSTREAM_AND_UNCHANGED	MIXED	ACTIVE_BOUNDED_G312_G313_REGULAR_LOCAL_SMOOTH_METRIC_ONLY_VACUUM_CAUCHY_AND_INTERSECTING_NULL_DATA_INTERFACE_CLASSIFICATION_ONLY	global constraint solution space and global moduli; physical initial characteristic or boundary data; global existence completeness caustics singularities and boundary evolution; topology population actualization bootstrap scalar magnitude scale source matter mass observations physical Xmax and full UDT extension	arbitrary seeds called lawful data; lapse shift coordinates or null normalization promoted to physical selection; four phase-space functions called four configuration modes; one null sheet called a complete universe; same-null Lambda cancellation called shear Weyl or Lambda independence; conditional PDE methods called UDT postulates or global completion; pair evaluator called an evolution residual; G315 called a selected history universe scale source matter law or metric kernel angular observational change	udt_g315_conditional_cauchy_characteristic_data_interface_2026-09-01/AUDIT_REPORT.md	G315_EXTERNALLY_ACCEPTS_THE_ACTIVE_G312_G313_EQUATION_HAS_A_LAWFUL_CONDITIONAL_DATA_INTERFACE__SPACELIKE_DATA_OBEY_ONE_HAMILTONIAN_AND_THREE_MOMENTUM_CONSTRAINTS__LAPSE_AND_SHIFT_ARE_GAUGE__GENERIC_LOCAL_REMAINDER_IS_FOUR_PHASE_SPACE_FUNCTIONS_OR_TWO_CONFIGURATION_MODES_PLUS_RATES_NOT_A_GLOBAL_MODULI_THEOREM__SAME_NULL_RAYCHAUDHURI_LOSES_DIRECT_LAMBDA_ONLY_BECAUSE_RIC_ELL_ELL_ZERO_WHILE_SHEAR_REMAINS__MIXED_NULL_RIC_ELK_EQUALS_MINUS_LAMBDA__INTERSECTING_NULL_AND_CORNER_DATA_REMAIN_COMPATIBILITY_BOUNDED__DATA_ARE_LAWFUL_BUT_FREELY_SUPPLIED__Bianchi_PROPAGATION_AND_LOCAL_EXISTENCE_ARE_CONDITIONAL_MATHEMATICAL_METHODS__NO_HISTORY_POPULATION_SCALAR_SCALE_SOURCE_MATTER_OBSERVATION_OR_PHYSICAL_XMAX_IS_SELECTED__PAIR_KERNEL_METRIC_ANGULAR_AND_OBSERVATIONAL_INTERFACES_UNCHANGED__LIVE_THEN_THIS_REGISTRY_THEN_CITED_G315_SOURCE__CONFLICT_MEANS_STOP
+ G314	global_admissibility_actualization_type_classification	EXTERNALLY_ACCEPTED__ADMISSIBILITY_ACTUALIZATION_DISTINCTION_UPHELD__PREREGISTERED_AT_6AC6F27B__43_PRODUCTION_ASSERTIONS__114_IMPLEMENTATION_DISTINCT_ASSERTIONS__16_BOOLEAN_PREDICATES__27_ENDOMAPS_ALL_8_FIXED_POINT_SUBSETS__17_HOSTILE_CATCHES__ALL_39_SEALED_PAYLOADS_AUTHENTICATED__FOUR_EXTERNAL_REPLAYS_PASS__GENERATED_RESULTS_BYTE_IDENTICAL__GLOBAL_ADMISSIBILITY_AND_ACTUALIZATION_ARE_DISTINCT_MISSING_TYPES__CURRENT_STRUCTURE_SUPPLIES_NEITHER__UNIQUE_UNIVERSE_BOOTSTRAP_OPTIONAL_FOR_CONDITIONAL_FIELD_THEORY__METRIC_KERNEL_ANGULAR_OBSERVATIONAL_INTERFACES_UNCHANGED	MIXED	ACTIVE_BOUNDED_G312_G313_GLOBAL_ADMISSIBILITY_ACTUALIZATION_AND_NETWORK_RECONSTRUCTION_TYPE_CLASSIFICATION_ONLY	any owned nonidentity global admissibility predicate; actualization choice or population measure; complete Einstein solution census; lawful physical initial or boundary data; source matter mass and full UDT extension; topology scale observation calibration and physical Xmax	network reconstruction called selection; fixed-point syntax called a selector without a specified nonidentity map; nonidentity called unique; admissibility conflated with actualization or population; absence of unique-universe bootstrap called failure of a conditional field theory; finite witness singleton called full solution-space uniqueness; Berger data or plane wave promoted globally; candidate sign compactness Weyl topology scale action or observation promoted to owned law; metric kernel angular or observation change claimed	udt_g314_global_admissibility_actualization_type_classification_2026-09-01/AUDIT_REPORT.md	G314_EXTERNALLY_ACCEPTS_THAT_GLOBAL_ADMISSIBILITY_AND_ACTUALIZATION_OR_POPULATION_ARE_DISTINCT_TYPES_FOR_THE_STRONGER_UNIQUE_UNIVERSE_BOOTSTRAP_AMBITION__CURRENT_UDT_SUPPLIES_NEITHER__A_COHERENT_CONDITIONAL_FIELD_THEORY_DOES_NOT_REQUIRE_A_UNIQUE_UNIVERSE_SELECTOR__COMPLETE_NETWORK_RECONSTRUCTION_IS_IDENTITY_ON_EACH_SUPPLIED_METRIC_NOT_SELECTION__BARE_FIXED_POINT_SYNTAX_SELECTS_NOTHING_WITHOUT_AN_INDEPENDENTLY_SPECIFIED_NONIDENTITY_MAP__ONE_SUFFICIENTLY_STRONG_PREDICATE_COULD_LEAVE_A_SINGLETON_SO_TWO_NEW_POSTULATES_ARE_NOT_LOGICALLY_FORCED__NO_CANDIDATE_IS_ADOPTED__METRIC_KERNEL_ANGULAR_AND_OBSERVATIONAL_INTERFACES_UNCHANGED__LIVE_THEN_THIS_REGISTRY_THEN_CITED_G314_SOURCE__CONFLICT_MEANS_STOP
+ G313	tracefree_ricci_solution_space_bootstrap_map	EXTERNALLY_ACCEPTED_AFTER_PREREGISTERED_R1_R4_REPAIRS__SCIENTIFIC_LANDING_UNCHANGED__PREREGISTERED_AT_E0B6E478__REPAIRS_PREREGISTERED_AT_6FCBEB36__181_PRODUCTION_ASSERTIONS__357_INDEPENDENT_ASSERTIONS__12_HOSTILE_CATCHES__ACTIVE_EQUATION_DEFINES_MULTIBRANCH_EINSTEIN_ARENA__GLOBAL_ADMISSIBILITY_REMAINS_OPEN__METRIC_KERNEL_ANGULAR_OBSERVATIONAL_INTERFACES_UNCHANGED	MIXED	ACTIVE_BOUNDED_G312_REGULAR_LOCAL_METRIC_ONLY_SCALE_FREE_VACUUM_TRACEFREE_RICCI_SOLUTION_SPACE_AND_BOOTSTRAP_TYPE_MAP_ONLY	nonidentity global admissibility predicate; physical Cauchy or boundary data; topology and global completion; scalar sign and magnitude; physical population; sources matter mass observations scale and physical Xmax; full Einstein-manifold census; stability singular characteristic topology-changing and outside-G312 arenas	round cosh called unique universe; Einstein metric called constant curvature; Weyl channel erased; Berger local development called global completion; curvature radius called physical Xmax; global selector confused with hidden remote-history local response; witness called population; action source matter mass fit observation protected work or kernel change imported	udt_g313_tracefree_ricci_solution_space_bootstrap_map_2026-09-01/AUDIT_REPORT.md	G313_EXTERNALLY_ACCEPTS_AFTER_PREREGISTERED_R1_R4_REPAIRS_THAT_THE_OWNER_ADOPTED_BOUNDED_TRACEFREE_RICCI_EQUATION_COMPLETES_BY_BIANCHI_TO_RIC_AB_EQUALS_LAMBDA_G_AB_WITH_ONE_CONNECTED_CONSTANT_BUT_DEFINES_A_MULTIBRANCH_EINSTEIN_ARENA__EXACT_POSITIVE_PRODUCT_BERGER_S3_LOCAL_DATA_RICCI_FLAT_PLANE_WAVE_AND_HOMOTHETY_WITNESSES_SHOW_ROUND_COSH_WEYL_TOPOLOGY_DATA_SCALAR_MAGNITUDE_SCALE_AND_POPULATION_ARE_NOT_SELECTED__NO_OWNED_NONIDENTITY_GLOBAL_ADMISSIBILITY_PREDICATE_EXISTS__LOCAL_METRIC_SUFFICIENCY_PERMITS_GLOBAL_SELECTION_OF_THE_METRIC_BUT_FORBIDS_A_HIDDEN_REMOTE_HISTORY_LOCAL_RESPONSE_AFTER_THE_JET_IS_FIXED__METRIC_KERNEL_ANGULAR_AND_OBSERVATIONAL_INTERFACES_UNCHANGED__LIVE_THEN_THIS_REGISTRY_THEN_CITED_G313_SOURCE__CONFLICT_MEANS_STOP
+-G312	quiet_gr_response_constitution_discriminator	EXTERNALLY_ACCEPTED_WITH_TWO_PREMISE_BOUNDARY__PREREGISTERED_AT_0C139B1C__FRESH_REVIEW_G312_REPAIRABLE_DEFECTS_LANDING_RETAINED__REPAIR_PREREGISTERED_AT_8175B112__PACKAGING_REPAIR_BANKED_AT_F68F1F2D__REPAIR_FOLLOWUP_G312_ACCEPTED_WITH_TWO_PREMISE_BOUNDARY__TF_G_A_RIC_PLUS_B_R_G_EQUALS_A_S__NONZERO_RICCI_COEFFICIENT_REQUIRED__GR_SOLUTION_OVERLAP_DOES_NOT_IMPLY_FULL_QUIET_PRINCIPAL_OVERLAP__LOCAL_CURVATURE_QUADRATIC_WITNESS__FULL_QUIET_GR_PRINCIPAL_OVERLAP_DOES_NOT_IMPLY_LOCALITY__SCALE_FREE_CAUSAL_NONLOCAL_METRIC_HISTORY_WITNESS__TWO_LOGICALLY_INDEPENDENT_PREMISES__OWNER_ADOPTED_PROVISIONAL_POSTULATES_AUTHORIZED_BY_CHARLES_ROTTER_2026_09_01__FULL_QUIET_GR_PRINCIPAL_RESPONSE_OVERLAP__LOCAL_METRIC_SUFFICIENCY_EQUIVALENT_LOCAL_FINITE_JET_RESPONSE_CONSTITUTION__NOT_DERIVED__NOT_CANON__BOUNDED_G301_TRACEFREE_RICCI_CLOSURE_ACTIVE__4690_PRODUCTION_CHECKS__4824_DEPENDENCY_FREE_INDEPENDENT_CHECKS__6_SEMANTIC_REGRESSION_CATCHES__NO_METRIC_KERNEL_ANGULAR_OBSERVATION_SOURCE_ACTION_MATTER_MASS_SCALE_XMAX_OR_PROTECTED_INPUT	MIXED	ACTIVE_OWNER_ADOPTED_PROVISIONAL_FULL_QUIET_GR_PRINCIPAL_OVERLAP_AND_LOCAL_METRIC_SUFFICIENCY_WITH_BOUNDED_G301_TRACEFREE_RICCI_CLOSURE_ONLY	covariant extension beyond the registered regular local smooth metric-only scale-free vacuum arena; derivative-order ownership outside existing gates; scalar curvature magnitude and sign; lawful data; topology and boundary completion; global bootstrap or admissibility law; realized history; pair and query population; source action matter mass observation scale and physical Xmax	owner-adopted premises called derived canonized or observationally proved; adoption omitted or demoted to open; Local Metric Sufficiency called proof that global bootstrap is impossible or that the local metric is independent of global construction; identical admitted local jets allowed different vacuum responses solely by a hidden remote-history label; bounded trace-free Ricci closure called a selected universe global history fixed scalar scale or physical Xmax; conditional scope extended to singular auxiliary source or matter sectors; metric kernel or angular cancellation called changed; loud quiet loud attributed to reciprocity or the G312 premises	udt_g312_quiet_gr_response_constitution_discriminator_2026-09-01/AUDIT_REPORT.md	OWNER_ADOPTION_2026_09_01_SUPERSEDES_ONLY_THE_HISTORICAL_UNADOPTED_GRADE__G312_EXTERNAL_EVIDENCE_CONTROLS_PREMISE_INDEPENDENCE_AND_CONDITIONAL_CLOSURE__FULL_QUIET_GR_PRINCIPAL_RESPONSE_OVERLAP_AND_LOCAL_METRIC_SUFFICIENCY_ARE_OWNER_ADOPTED_PROVISIONALLY_NOT_DERIVED_NOT_CANON__BOUNDED_TRACEFREE_RICCI_IS_ACTIVE__GLOBAL_BOOTSTRAP_SCALAR_SCALE_HISTORY_POPULATION_SOURCE_MATTER_MASS_OBSERVATION_AND_PHYSICAL_XMAX_REMAIN_OPEN__LIVE_THEN_THIS_REGISTRY_THEN_G312_AND_ADOPTION_RECORD__CONFLICT_MEANS_STOP
++G312	quiet_gr_response_constitution_discriminator	EXTERNALLY_ACCEPTED_WITH_TWO_PREMISE_BOUNDARY__PREREGISTERED_AT_0C139B1C__FRESH_REVIEW_G312_REPAIRABLE_DEFECTS_LANDING_RETAINED__REPAIR_PREREGISTERED_AT_8175B112__PACKAGING_REPAIR_BANKED_AT_F68F1F2D__REPAIR_FOLLOWUP_G312_ACCEPTED_WITH_TWO_PREMISE_BOUNDARY__TF_G_A_RIC_PLUS_B_R_G_EQUALS_A_S__NONZERO_RICCI_COEFFICIENT_REQUIRED__GR_SOLUTION_OVERLAP_DOES_NOT_IMPLY_FULL_QUIET_PRINCIPAL_OVERLAP__LOCAL_CURVATURE_QUADRATIC_WITNESS__FULL_QUIET_GR_PRINCIPAL_OVERLAP_DOES_NOT_IMPLY_LOCALITY__SCALE_FREE_CAUSAL_NONLOCAL_METRIC_HISTORY_WITNESS__TWO_LOGICALLY_INDEPENDENT_PREMISES__HISTORICAL_TWO_PREMISE_ADOPTION_2026_09_01_PRESERVED__CURRENT_OWNER_CLARIFICATION_2026_09_09_GR_FILTER_ONLY_NOT_RESPONSE_LAW_INPUT__LOCAL_METRIC_SUFFICIENCY_EQUIVALENT_LOCAL_FINITE_JET_RESPONSE_CONSTITUTION_AFFIRMED_OWNER_PROVISIONAL__NOT_DERIVED__NOT_CANON__BOUNDED_G301_TRACEFREE_RICCI_CLOSURE_CONDITIONAL_NOT_ESTABLISHED_FROM_FILTER_ONLY_GR__4690_PRODUCTION_CHECKS__4824_DEPENDENCY_FREE_INDEPENDENT_CHECKS__6_SEMANTIC_REGRESSION_CATCHES__NO_METRIC_KERNEL_ANGULAR_OBSERVATION_SOURCE_ACTION_MATTER_MASS_SCALE_XMAX_OR_PROTECTED_INPUT	MIXED	CURRENT_GR_FILTER_ONLY_NOT_RESPONSE_LAW_INPUT__LOCAL_METRIC_SUFFICIENCY_AFFIRMED_OWNER_PROVISIONAL__G312_CLASS_MEMBERSHIP_ROUTE_UNCLOSED_UNDER_FILTER_ONLY_GR__REVIEWED_G301_TRACEFREE_RICCI_MATHEMATICS_CONDITIONAL	independent response-class membership route under filter-only GR; comparison-filter domain and survivor rule not specified by this reconciliation; covariant extension beyond the registered regular local smooth metric-only scale-free vacuum arena; derivative-order ownership outside existing gates; scalar curvature magnitude and sign; lawful data; topology and boundary completion; global bootstrap or admissibility law; realized history; pair and query population; source action matter mass observation scale and physical Xmax	owner-adopted premises called derived canonized or observationally proved; affirmed DDR or Local Metric Sufficiency omitted or demoted to unadopted; stronger full quiet GR principal overlap restored as a current response-law input; conditional mathematics blanket-retracted or upgraded to unconditional UDT law; unclosed existing route called proof that a new premise is necessary or independent closure impossible; Local Metric Sufficiency called proof that global bootstrap is impossible or that the local metric is independent of global construction; identical admitted local jets allowed different vacuum responses solely by a hidden remote-history label; bounded trace-free Ricci closure called a selected universe global history fixed scalar scale or physical Xmax; conditional scope extended to singular auxiliary source or matter sectors; metric kernel or angular cancellation called changed; loud quiet loud attributed to reciprocity or the G312 premises	udt_g312_quiet_gr_response_constitution_discriminator_2026-09-01/AUDIT_REPORT.md	OWNER_CLARIFICATION_2026_09_09_SUPERSEDES_STRONGER_CURRENT_GR_BUILDING_AUTHORITY_NOT_HISTORICAL_APPROVAL_OR_MATHEMATICAL_EVIDENCE__GR_FILTER_ONLY__LOCAL_METRIC_SUFFICIENCY_AFFIRMED_OWNER_PROVISIONAL_NOT_DERIVED_NOT_CANON__INHERITED_G312_ADMITTED_LAWFUL_AND_OWNER_PROVISIONAL_LABELS_ARE_CONDITIONAL_ON_FULL_REVIEWED_PREMISES_NOT_ESTABLISHED_FROM_FILTER_ONLY_GR__ORIGINAL_G312_SOURCE_OWNS_MATHEMATICAL_GRADE__CURRENT_AUTHORITY_udt_gr_filter_reconciliation_2026-09-09/AUTHORITY_RECORD.md__LIVE_THEN_THIS_REGISTRY_THEN_CURRENT_AUTHORITY_RECORD_THEN_HISTORICAL_G312_ADOPTION__CONFLICT_MEANS_STOP
+ G311	universal_reciprocity_full_covariant_response	EXTERNALLY_ACCEPTED_WITH_RESPONSE_CONSTITUTION_BOUNDARY__PREREGISTERED_AT_AB93CF6E__FRESH_REVIEW_G311_REPAIRABLE_DEFECTS_SCIENTIFIC_LANDING_UPHELD__REPAIRS_PREREGISTERED_AT_30070CB8__REPAIR_FOLLOWUP_G311_ACCEPTED_WITH_RESPONSE_CONSTITUTION_BOUNDARY__ALL_LOCAL_ORTHONORMAL_TIMELIKE_SPACELIKE_PAIR_GERMS_REALIZABLE__RECIPROCAL_TANGENT_SPAN_RANK_NINE__FULL_RANK_DDR_GIVES_TF_G_E_ZERO_EQUIVALENT_E_LAMBDA_X_G__POINTWISE_DDR_DOES_NOT_FIX_LAMBDA__RESPONSE_CONSTITUTION_REMAINS_OPEN__CONDITIONAL_G301_NONZERO_RICCI_COEFFICIENT_GIVES_RIC_MINUS_R_OVER_4_G_ZERO__BIANCHI_GIVES_ONE_CONNECTED_CONSTANT_SCALAR__TWO_LOCAL_METRIC_CONFIGURATION_DOF__FLRW_WEYL_QUADRATIC_COUNTERRESPONSE_PROVES_OUTSIDE_G301_NONSELECTION__24_PRODUCTION_CHECKS__14_DEPENDENCY_FREE_INDEPENDENT_CHECKS__6_SHARED_CODE_REGRESSION_CATCHES__NO_METRIC_KERNEL_ANGULAR_OBSERVATION_SOURCE_ACTION_MATTER_MASS_SCALE_XMAX_OR_PROTECTED_INPUT	MIXED	ACTIVE_REGULAR_LOCAL_FOUR_DIMENSIONAL_ALL_PAIR_UNIVERSAL_RECIPROCITY_RESPONSE_SHAPE_THEOREM_AND_CONDITIONAL_G301_EINSTEIN_SPACE_DYNAMICS_ONLY	whether UDT owns the G301 smooth scale-free local metric-only symmetric curvature-order response constitution with nonzero Ricci coefficient; higher-order nonlocal auxiliary parity-odd source-dependent and singular response architectures; differential identity for the surviving trace; global actual pair population; initial topology boundary completion and realized history; scalar magnitude and sign; observation source matter mass scale and physical Xmax	response-shape theorem called a unique response constitution or unconditional trace-free Ricci field equation; E equals lambda g called E zero; pointwise DDR called proof lambda is constant; conditional G301 Einstein-space dynamics called founded canon or uniquely realized universe; two metric degrees of freedom called missing arbitrary profile; FLRW Weyl-quadratic counterresponse erased or misrepresented as refuting G301; shared-code hostile harness called independent confirmation; metric kernel angular cancellation observation source action matter mass fit scale Xmax or protected work imported	udt_g311_universal_reciprocity_full_covariant_response_2026-09-01/AUDIT_REPORT.md	G311_EXTERNALLY_ACCEPTS_UNDER_OWNER_ADOPTED_PROVISIONAL_UNIVERSAL_RECIPROCITY_THAT_ALL_REGULAR_LOCAL_PAIR_PLANES_FORCE_ONLY_THE_TRACEFREE_SHAPE_OF_ANY_SUPPLIED_SYMMETRIC_RESPONSE_TO_VANISH__RESPONSE_CONSTITUTION_REMAINS_OPEN__INSIDE_SEPARATELY_CONDITIONAL_G301_NONDEGENERATE_RESPONSE_LANE_THE_RESULT_IS_EINSTEIN_SPACE_DYNAMICS_WITH_ONE_CONNECTED_SCALAR_AND_TWO_LOCAL_METRIC_CONFIGURATION_DOF__NO_UNIQUE_GLOBAL_HISTORY_SCALE_OR_PHYSICAL_XMAX__LIVE_THEN_THIS_REGISTRY_THEN_G311__CONFLICT_MEANS_STOP
+ G310	differential_dual_reciprocity_tracefree_ownership	EXTERNALLY_VERIFIED_AFTER_PREREGISTERED_EVIDENCE_REPAIRS__PREREGISTERED_AT_2ECD25F4__REPAIRS_PREREGISTERED_AT_71F45256__REPAIRS_BANKED_AT_A57F05B8__REPAIR_FOLLOWUP_G310_R1_R2_REPAIRS_ACCEPTED_SCIENTIFIC_LANDING_UNCHANGED__ONE_NEW_DIFFERENTIAL_DUAL_RECIPROCITY_POSTULATE_SELECTS_G301_TRACEFREE_CLASS__NOT_DERIVED__OWNER_PROVISIONALLY_ADOPTED_BY_CHARLES_ROTTER_2026_08_31__NOT_CANON__ALL_PAIR_RECIPROCAL_SHAPE_SPAN_RANK_NINE__ANNIHILATOR_SPAN_G_AB__NONDEGENERATE_G301_STRATUM_GIVES_S_AB_ZERO__ONE_CONNECTED_SCALAR_DATUM_REMAINS__14_PRODUCTION_CHECKS__32_INDEPENDENT_CHECKS__7_HOSTILE_MUTATIONS__NO_METRIC_KERNEL_OBSERVATION_SOURCE_ACTION_MATTER_SCALE_XMAX_OR_PROTECTED_INPUT	MIXED	ACTIVE_BOUNDED_LOCAL_FOUR_DIMENSIONAL_ALL_PAIR_DIFFERENTIAL_RECIPROCITY_PROVISIONAL_POSTULATE_AND_CONDITIONAL_SUFFICIENCY_THEOREM_INSIDE_G301_RESPONSE_CLASS_ONLY	covariant extension beyond the bounded conditional G301 arena; canonization; whether all algebraically admissible planes are physically populated; validity of G301 locality metric-only order and response typing; scalar curvature magnitude and sign outside bounded downstream controls; realized global history; source matter mass population observation scale and physical Xmax; higher-order nonlocal auxiliary parity-odd and singular sectors	Universal Reciprocity and DDR falsely split into separate unresolved premises; DDR called derived from algebraic Dual Reciprocity; provisional adoption called canonization proof or observational validation; owner adoption omitted or demoted to unadopted candidate; trace-free Ricci called selected without conditional G301 arena and nonzero Ricci coefficient; pure trace response called zero response; one scalar datum called fixed scale or realized history; loud quiet loud attributed to DDR rather than angular cancellation; action source matter mass fit Xmax or protected work imported; metric or kernel change claimed	udt_g310_differential_dual_reciprocity_tracefree_ownership_2026-08-31/AUDIT_REPORT.md	OWNER_ADOPTION_2026_08_31_SUPERSEDES_ONLY_THE_HISTORICAL_UNADOPTED_GRADE__G310_EXTERNAL_EVIDENCE_STILL_CONTROLS_THE_BOUNDED_CONSISTENCY_AND_CONDITIONAL_SUFFICIENCY_THEOREM__DDR_IS_NOT_DERIVED_OR_CANON__SELECTS_NO_MAGNITUDE_REALIZED_HISTORY_POPULATION_MASS_SCALE_OR_PHYSICAL_XMAX__ANGULAR_CANCELLATION_SEPARATELY_OWNS_LOUD_QUIET_LOUD__LIVE_THEN_THIS_REGISTRY_THEN_G310_AND_ADOPTION_RECORD__CONFLICT_MEANS_STOP
+ G309	strengthened_chain_history_selection_audit	EXTERNALLY_ACCEPTED_WITH_STATED_CAVEATS_AFTER_PREREGISTERED_DEPENDENCY_FREE_REPLAY_REPAIR__PREREGISTERED_AT_D0A22F9A__EVIDENCE_REPAIRS_PREREGISTERED_AT_3344EF0E_AND_4280CB5D__REPAIR_FOLLOWUP_G309_REPAIRS_ACCEPTED_SCIENTIFIC_LANDING_UNCHANGED__FOUNDED_STRENGTHENED_CHAIN_REMAINS_COMPATIBILITY_ONLY__ROUND_HOPF_TIME_LIVE_COUNTERFAMILY_SURVIVES__CONDITIONAL_TRACEFREE_RESIDUAL_CLOSES_POSITIVE_STANDARD_COMPLETION_TO_ONE_SCALE__HOPF_STRUCTURE_DOES_NOT_OWN_OR_CALIBRATE_THAT_RESIDUAL__METRIC_KERNEL_UNCHANGED	MIXED	ACTIVE_BOUNDED_POSITIVE_ROUND_TIME_LIVE_STRENGTHENED_CHAIN_HISTORY_SELECTION_AND_CONDITIONAL_G301_DISCRIMINATION_AUDIT_ONLY	founding ownership or adoption of G301 trace-free residual; scalar curvature magnitude and calibration; physical history population and chirality; nonspherical nonround quotient singular and topology-changing extensions; action source matter mass stability observation scale and physical Xmax	compatibility or Hopf kinematics called a field equation; quiet half-history agreement called global uniqueness; conditional G301 residual called founded or adopted; a equals X cosh called realized universe rather than conditional standard branch; free X called calibrated scale or Xmax; source action matter mass fit protected work or kernel change imported	udt_g309_strengthened_chain_history_selection_audit_2026-08-31/AUDIT_REPORT.md	G309_EXTERNALLY_ACCEPTS_AFTER_PREREGISTERED_DEPENDENCY_FREE_REPLAY_REPAIR_THAT_AN_EXACT_SMOOTH_GLOBALLY_HYPERBOLIC_ROUND_TIME_LIVE_DEFORMATION_PRESERVES_A_WHOLE_QUIET_HALF_HISTORY_COMPACT_S3_SLICES_BOTH_HOPF_FAMILIES_AND_NORMALIZED_HOPF_TIME_CARRY_WHILE_CHANGING_CURVATURE__THE_FOUNDED_WORKING_CHAIN_IS_COMPATIBILITY_ONLY__THE_CONDITIONAL_G301_TRACEFREE_RESIDUAL_REJECTS_THE_DEFORMATION_AND_FIXES_THE_POSITIVE_STANDARD_HISTORY_SHAPE_TO_A_EQUALS_X_COSH_OF_T_MINUS_T0_OVER_X_WITH_ONE_FREE_SCALE__HOPF_STRUCTURE_DOES_NOT_OWN_OR_CALIBRATE_THE_RESIDUAL__LIVE_THEN_THIS_REGISTRY_THEN_CITED_G309_SOURCE__CONFLICT_MEANS_STOP
+diff --git a/HANDOFF.md b/HANDOFF.md
+index 33de56b6..5fd70f64 100644
+--- a/HANDOFF.md
++++ b/HANDOFF.md
+@@ -13,11 +13,10 @@ Complete `B,Q,S,Y,Z` enters `h=F^*g` before readout. Completed-pair Dual Recipro
+ WORKING_FOUNDATIONAL_CLARIFICATION; W5/W6 do not select population or history.
+ Universal Reciprocity/DDR is one postulate with two formulations,
+ OWNER_ADOPTED_PROVISIONAL_POSTULATE (2026-08-31), not derived or canonized.
+-Charles's 2026-09-09 GR clarification is FILTER ONLY; Local Metric Sufficiency is affirmed.
+-AUTHORITY WARNING: G312's stronger GR-principal input and inherited “admitted/lawful” shorthand
+-need qualification; the multibranch Einstein arena remains CONDITIONAL on its full reviewed premises.
+-Registry/guard reconciliation is PENDING; exact grades and mathematical results remain unchanged.
+-See `udt_gr_filter_authority_audit_2026-09-09/REVIEWED_AUDIT.md`.
++GR is FILTER ONLY, not a response-law input; Local Metric Sufficiency remains owner-provisional.
++Current G312 authority qualifies inherited “admitted/lawful” labels; the multibranch Einstein arena
++remains CONDITIONAL on full reviewed premises, not established from filter-only GR. Grades/math unchanged.
++Current authority: `udt_gr_filter_reconciliation_2026-09-09/AUTHORITY_RECORD.md`.
+ Metric/kernel are unchanged; angular-sector cancellation owns loud--quiet--loud.
+ One Ricci scalar does not exhaust free geometry/data.
+ 
+diff --git a/INDEX.md b/INDEX.md
+index 5ecf9060..11a55a5d 100644
+--- a/INDEX.md
++++ b/INDEX.md
+@@ -2,9 +2,10 @@
+ 
+ Banking through G382 is COMPLETE at reviewed conditional scopes; no successor is authorized.
+ The exact 365-row `CURRENT_SCIENTIFIC_PREMISES.tsv` owns grades, not these pointers.
+-AUTHORITY WARNING: Charles's GR clarification is FILTER ONLY; stronger G312 ownership and
+-registry/guard reconciliation are PENDING. Mathematical scopes/grades remain fixed.
+-Current audit: `udt_gr_filter_authority_audit_2026-09-09/REVIEWED_AUDIT.md`.
++GR is FILTER ONLY, not a response-law input; Local Metric Sufficiency remains owner-provisional.
++Inherited G312 Einstein claims remain CONDITIONAL, not established from filter-only GR; grades fixed.
++Current authority: `udt_gr_filter_reconciliation_2026-09-09/AUTHORITY_RECORD.md`.
++Prior audit: `udt_gr_filter_authority_audit_2026-09-09/REVIEWED_AUDIT.md`.
+ 
+ 1. Follow `AGENTS.md`.
+ 2. Read the current blocks in `LIVE.md` and `HANDOFF.md`.
+diff --git a/LIVE.md b/LIVE.md
+index d8c835dc..2a2af92b 100644
+--- a/LIVE.md
++++ b/LIVE.md
+@@ -17,12 +17,11 @@ only with metric-causal observable response.
+ 
+ Universal Reciprocity/DDR is one postulate with two formulations,
+ OWNER_ADOPTED_PROVISIONAL_POSTULATE (2026-08-31), not derived or canonized.
+-Charles's 2026-09-09 clarification: GR is a comparison filter, not a response-law input;
+-Local Metric Sufficiency is affirmed. AUTHORITY WARNING: G312's stronger GR-principal adoption
+-and inherited “admitted/lawful” shorthand below require qualification; see
+-`udt_gr_filter_authority_audit_2026-09-09/REVIEWED_AUDIT.md`.
++GR is FILTER ONLY, not a response-law input; Local Metric Sufficiency remains owner-provisional.
++Current G312 authority qualifies inherited “admitted/lawful” labels; original evidence is unchanged:
++`udt_gr_filter_reconciliation_2026-09-09/AUTHORITY_RECORD.md`.
+ The multibranch Einstein arena `Ric(g)=Lambda g` remains CONDITIONAL on its full reviewed premises,
+-not established from filter-only GR. Registry/guard reconciliation is PENDING; exact grades stay fixed.
++not established from filter-only GR. Exact grades stay fixed; the existing membership route is unclosed.
+ Metric/kernel and mathematics are unchanged; angular-sector cancellation owns loud--quiet--loud.
+ `X_max` remains WORKING/OPEN global completion, never a local input, wall, center or selected scale.
+ 
+@@ -65,7 +64,7 @@ The fixed through-G352 manuscript is an earlier edition, not current tracking.
+ NR1--NR2/LG1--LG2/LE1/SE1/NE1: reviewed UNPROMOTED; exact scopes/reviews: `INDEX.md`.
+ NE1: fading profile with cumulative marked-area-rate/tidal departure in one exact polarized family.
+ Supplied data/marking and conditional methods; no genericity, stability/content.
+-Full365 NOT_PASSED at G325 replay; no banking/integration.
++Full365 NOT_PASSED at G325 replay; no scientific banking/integration.
+ 
+ ### Distinctions for the direction discussion
+ 
+diff --git a/MEMORY.md b/MEMORY.md
+index 45d07570..3cc13ba0 100644
+--- a/MEMORY.md
++++ b/MEMORY.md
+@@ -5,10 +5,10 @@
+ 
+ The kernel evaluates supplied ordered depth; complete `B,Q,S,Y,Z` enters before readout.
+ Universal Reciprocity/DDR and explained Local Metric Sufficiency remain owner-adopted provisional premises.
+-AUTHORITY WARNING: Charles's 2026-09-09 GR clarification is FILTER ONLY, not a response-law input.
+-G312's stronger ownership and registry/guard reconciliation are PENDING; Einstein claims stay
+-CONDITIONAL on full reviewed premises, not established from filter-only GR. No mathematical regrading.
+-See `udt_gr_filter_authority_audit_2026-09-09/REVIEWED_AUDIT.md`.
++GR is FILTER ONLY, not a response-law input; Local Metric Sufficiency remains owner-provisional.
++G312 qualifies inherited “admitted/lawful” labels: Einstein claims stay CONDITIONAL on full reviewed
++premises, not established from filter-only GR. No mathematical regrading; membership remains unclosed.
++See `udt_gr_filter_reconciliation_2026-09-09/AUTHORITY_RECORD.md`.
+ G313--G337 provide a multibranch arena with legitimate free initial data, not a selected universe.
+ G338--G349 provide metric geometry, not physical carried content or detector laws.
+ G350 leaves `R^p A^q`; G351 provisionally conserves a supplied label measure, giving
+diff --git a/tests/test_startup_surface.py b/tests/test_startup_surface.py
+index bcfafa03..a2ceea81 100644
+--- a/tests/test_startup_surface.py
++++ b/tests/test_startup_surface.py
+@@ -6,6 +6,8 @@ import shutil
+ import subprocess
+ import sys
+ import re
++import hashlib
++import json
+ from pathlib import Path
+ 
+ import pytest
+@@ -15,6 +17,7 @@ import verify_current_scientific_premises as premise_guard
+ 
+ REPO = Path(__file__).resolve().parents[1]
+ CURRENT_TARGETS = (
++    *premise_guard.GR_FILTER_PINS,
+     "CURRENT_SCIENTIFIC_PREMISES.tsv",
+     "udt_observed_angular_pattern_raw_restart_2026-08-12/R2_OUTCOME_REPORT.md",
+     "udt_observed_angular_pattern_raw_restart_2026-08-12/R3_OUTCOME_REPORT.md",
+@@ -151,6 +154,7 @@ def _startup_copy(tmp_path: Path) -> Path:
+         destination = tmp_path / relative
+         destination.parent.mkdir(parents=True, exist_ok=True)
+         if relative in (
++            *premise_guard.GR_FILTER_PINS,
+             "CURRENT_SCIENTIFIC_PREMISES.tsv",
+             "startup_surface_g310_universal_reciprocity_refresh_2026-08-31/ADOPTION_RECORD.md",
+             premise_guard.CONDITIONAL_BANKING_SOURCE,
+@@ -210,7 +214,7 @@ def _banking_copy(tmp_path: Path, *, evidence: bool = False,
+                   shared_constraints: bool = False) -> Path:
+     record = (premise_guard.SHARED_CONSTRAINT_BANKING_SOURCE if shared_constraints
+               else premise_guard.CONDITIONAL_BANKING_SOURCE)
+-    for relative in ("CURRENT_SCIENTIFIC_PREMISES.tsv", record):
++    for relative in ("CURRENT_SCIENTIFIC_PREMISES.tsv", record, *premise_guard.GR_FILTER_PINS):
+         destination = tmp_path / relative
+         destination.parent.mkdir(parents=True, exist_ok=True)
+         shutil.copy2(REPO / relative, destination)
+@@ -400,7 +404,8 @@ def test_full_foundational_premise_verifier_is_in_pytest() -> None:
+ 
+ 
+ def _restrictiveness_copy(tmp_path: Path, *, evidence: bool = False) -> Path:
+-    for relative in ("CURRENT_SCIENTIFIC_PREMISES.tsv", premise_guard.RESTRICTIVENESS_BANKING_SOURCE):
++    for relative in ("CURRENT_SCIENTIFIC_PREMISES.tsv", premise_guard.RESTRICTIVENESS_BANKING_SOURCE,
++                     *premise_guard.GR_FILTER_PINS):
+         destination = tmp_path / relative
+         destination.parent.mkdir(parents=True, exist_ok=True)
+         shutil.copy2(REPO / relative, destination)
+@@ -506,7 +511,8 @@ def test_catch_restrictiveness_banking_next_gate(tmp_path: Path, name: str) -> N
+ 
+ 
+ def _persistence_copy(tmp_path: Path, *, evidence: bool = False) -> Path:
+-    for relative in ("CURRENT_SCIENTIFIC_PREMISES.tsv", premise_guard.PERSISTENCE_BANKING_SOURCE):
++    for relative in ("CURRENT_SCIENTIFIC_PREMISES.tsv", premise_guard.PERSISTENCE_BANKING_SOURCE,
++                     *premise_guard.GR_FILTER_PINS):
+         destination = tmp_path / relative
+         destination.parent.mkdir(parents=True, exist_ok=True)
+         shutil.copy2(REPO / relative, destination)
+@@ -763,17 +769,156 @@ def test_catch_ddr_angular_regime_misattribution(tmp_path: Path) -> None:
+         premise_guard.validate_startup_surface(root)
+ 
+ 
+-def test_catch_g312_owner_adoption_demotion(tmp_path: Path) -> None:
++def test_catch_g312_retained_locality_demotion(tmp_path: Path) -> None:
+     root = _startup_copy(tmp_path)
+     _replace(
+         root / "LIVE.md",
+-        "G312 premises are owner-adopted provisionally.",
+-        "G312 premises remain open and unadopted.",
++        "Local Metric Sufficiency remains owner-provisional.",
++        "Local Metric Sufficiency remains open and unadopted.",
+     )
+-    with pytest.raises(SystemExit, match="marked current block lacks"):
++    with pytest.raises(SystemExit, match="GR-filter current surface lacks"):
++        premise_guard.validate_startup_surface(root)
++
++
++@pytest.mark.parametrize("field", (
++    "current_status", "active_use", "open_scope", "forbidden_regression", "precedence_rule",
++))
++def test_gr_filter_catches_each_authority_cell_reversal(tmp_path: Path, field: str) -> None:
++    root = _startup_copy(tmp_path)
++    transition = premise_guard.validate_gr_filter_authority(root)
++    cell = next(cell for cell in transition["changed_cells"] if cell["field"] == field)
++    _change_registry_field(root, "G312", field, cell["before"])
++    with pytest.raises(SystemExit, match="GR-filter current G312 row"):
++        premise_guard.registry_bytes_for_historical_banking(root)
++
++
++def test_gr_filter_catches_complete_old_row_restoration(tmp_path: Path) -> None:
++    root = _startup_copy(tmp_path)
++    transition = premise_guard.validate_gr_filter_authority(root)
++    _replace(root / "CURRENT_SCIENTIFIC_PREMISES.tsv",
++             transition["after_line"], transition["before_line"])
++    with pytest.raises(SystemExit, match="GR-filter current G312 row"):
++        premise_guard.validate_startup_surface(root)
++    with pytest.raises(SystemExit, match="GR-filter current G312 row"):
++        premise_guard.registry_bytes_for_historical_banking(root)
++
++
++@pytest.mark.parametrize("field", ("current_status", "epistemic_label", "controlling_source"))
++def test_gr_filter_catches_mathematical_evidence_drift(tmp_path: Path, field: str) -> None:
++    root = _startup_copy(tmp_path)
++    _change_registry_field(root, "G312", field, "BLANKET_RETRACTION_OR_UPGRADE")
++    with pytest.raises(SystemExit, match="GR-filter current G312 row"):
++        premise_guard.validate_gr_filter_authority(root)
++
++
++def test_gr_filter_catches_appended_registry_contradiction(tmp_path: Path) -> None:
++    root = _startup_copy(tmp_path)
++    current = next(row for row in premise_guard.read_tsv(root / "CURRENT_SCIENTIFIC_PREMISES.tsv")
++                   if row["premise_id"] == "G312")
++    _change_registry_field(root, "G312", "active_use",
++                           current["active_use"] + "__FULL_GR_PRINCIPAL_OVERLAP_IS_ADOPTED")
++    with pytest.raises(SystemExit, match="GR-filter current G312 row"):
++        premise_guard.validate_gr_filter_authority(root)
++
++
++def test_gr_filter_catches_ddr_demotion(tmp_path: Path) -> None:
++    root = _startup_copy(tmp_path)
++    _change_registry_field(root, "G310", "current_status", "UNADOPTED")
++    with pytest.raises(SystemExit, match="GR-filter retained DDR authority changed"):
++        premise_guard.validate_gr_filter_authority(root)
++
++
++@pytest.mark.parametrize("relative", tuple(premise_guard.GR_FILTER_PINS))
++@pytest.mark.parametrize("mutation", ("missing", "appended"))
++def test_gr_filter_catches_authority_or_history_pin_drift(
++    tmp_path: Path, relative: str, mutation: str,
++) -> None:
++    root = _startup_copy(tmp_path)
++    path = root / relative
++    if mutation == "missing":
++        path.unlink()
++    else:
++        path.write_bytes(path.read_bytes() + b"\nGR dynamics is adopted.\n")
++    with pytest.raises(SystemExit, match="GR-filter authority/source pin changed"):
++        premise_guard.validate_gr_filter_authority(root)
++
++
++@pytest.mark.parametrize("relative", (
++    "LIVE.md", "HANDOFF.md", "CURRENT_RESEARCH_PROGRAM.md",
++    "CURRENT_SCIENTIFIC_PREMISES.md", "MEMORY.md", "INDEX.md",
++))
++@pytest.mark.parametrize("contradiction", (
++    "Full quiet GR principal-response overlap is adopted.",
++    "GR dynamics remains a current response-law input.",
++    "Local Metric Sufficiency remains unadopted.",
++    "DDR is derived.",
++    "Einstein equation is derived from filter-only GR.",
++    "All conditional mathematics is retracted.",
++    "A new physical premise is necessary.",
++    "Independent closure is impossible.",
++))
++def test_gr_filter_catches_contradiction_despite_retained_good_tokens(
++    tmp_path: Path, relative: str, contradiction: str,
++) -> None:
++    root = _startup_copy(tmp_path)
++    path = root / relative
++    if relative in ("LIVE.md", "HANDOFF.md"):
++        _replace(path, "<!-- STARTUP_CURRENT_END -->",
++                 contradiction + "\n<!-- STARTUP_CURRENT_END -->")
++    else:
++        path.write_text(path.read_text() + "\n" + contradiction + "\n")
++    with pytest.raises(SystemExit, match="GR-filter current surface contradicts authority"):
+         premise_guard.validate_startup_surface(root)
+ 
+ 
++def test_gr_filter_historical_projection_is_exact_not_current() -> None:
++    current = (REPO / "CURRENT_SCIENTIFIC_PREMISES.tsv").read_bytes()
++    projected = premise_guard.registry_bytes_for_historical_banking(REPO)
++    transition = premise_guard.validate_gr_filter_authority(REPO)
++    assert current != projected
++    assert hashlib.sha256(projected).hexdigest() == transition["baseline_registry_sha256"]
++    assert [i for i, (a, b) in enumerate(zip(current.splitlines(), projected.splitlines()))
++            if a != b] == [i for i, line in enumerate(current.splitlines())
++                          if line.startswith(b"G312\t")]
++    assert next(row for row in premise_guard.read_tsv(REPO / "CURRENT_SCIENTIFIC_PREMISES.tsv")
++                if row["premise_id"] == "G312")["active_use"].startswith("CURRENT_GR_FILTER_ONLY")
++
++
++@pytest.mark.parametrize("function_name", (
++    "validate_conditional_banking", "validate_shared_constraint_banking",
++    "validate_persistence_banking", "validate_restrictiveness_banking",
++    "validate_source_metric_banking", "validate_reconstruction_banking",
++    "validate_coupled_banking", "validate_vacuum_scale_banking",
++    "validate_berger_banking", "validate_closed_fibre_banking",
++    "validate_neighboring_tidal_banking",
++))
++def test_gr_filter_historical_hash_still_catches_unrelated_edit(
++    tmp_path: Path, function_name: str,
++) -> None:
++    root = _startup_copy(tmp_path)
++    validator = getattr(premise_guard, function_name)
++    validator(root, authenticate_sources=False)
++    _change_registry_field(root, "G301", "epistemic_label", "UNAUTHORIZED_GRADE")
++    # The projection neither hides nor repairs this unrelated live change.
++    projected = premise_guard.registry_bytes_for_historical_banking(root)
++    assert b"UNAUTHORIZED_GRADE" in projected
++    with pytest.raises(SystemExit, match="changed an existing scientific registry row"):
++        validator(root, authenticate_sources=False)
++
++
++def test_gr_filter_transition_inventory_has_only_authority_cells() -> None:
++    transition = json.loads((REPO / premise_guard.GR_FILTER_TRANSITION_SOURCE).read_text())
++    fields = (REPO / "CURRENT_SCIENTIFIC_PREMISES.tsv").read_text().splitlines()[0].split("\t")
++    before = dict(zip(fields, transition["before_line"].rstrip("\n").split("\t")))
++    after = dict(zip(fields, transition["after_line"].rstrip("\n").split("\t")))
++    differences = [{"premise_id": "G312", "field": field, "before": before[field],
++                    "after": after[field]} for field in fields if before[field] != after[field]]
++    assert differences == transition["changed_cells"]
++    assert set(transition["unchanged_fields"]) == {
++        "premise_id", "term", "epistemic_label", "controlling_source"}
++    assert len(differences) == 5
++
++
+ def test_catch_g313_multibranch_landing_omission(tmp_path: Path) -> None:
+     root = _startup_copy(tmp_path)
+     _replace(root / "LIVE.md", "multibranch Einstein arena", "single round history")
+diff --git a/verify_current_scientific_premises.py b/verify_current_scientific_premises.py
+index 9c27d78a..c889d5ab 100644
+--- a/verify_current_scientific_premises.py
++++ b/verify_current_scientific_premises.py
+@@ -178,7 +178,6 @@ STALE_STARTUP_TOKENS = (
+     "NEW_CANDIDATE_POSTULATE_NOT_ADOPTED",
+     "provisionally adopt Universal Reciprocity/DDR",
+     "adoption remains open",
+-    "Response constitution remains open.",
+     "G312 adopts neither",
+     "Existing premises own neither",
+     "If both are provisionally adopted",
+@@ -322,6 +321,54 @@ def require(condition: bool, message: str) -> None:
+         raise SystemExit(message)
+ 
+ 
++GR_FILTER_AUTHORITY_SOURCE = "udt_gr_filter_reconciliation_2026-09-09/AUTHORITY_RECORD.md"
++GR_FILTER_TRANSITION_SOURCE = "udt_gr_filter_reconciliation_2026-09-09/REGISTRY_TRANSITION.json"
++GR_FILTER_PINS = {
++    GR_FILTER_AUTHORITY_SOURCE: "80daa0be6d3e1c0ac1b734fea089c4eb487f05bc1e1fbb2fabd69322ca89f28c",
++    GR_FILTER_TRANSITION_SOURCE: "30a3843b3d5e00b85ddd46dcffe7885cba98c5e308de084fe0dc40991e9affe3",
++    "startup_surface_g312_two_premise_adoption_refresh_2026-09-01/ADOPTION_RECORD.md":
++        "ebeae075307e7a325a840f4c2d9dcd973c18d9a3be21e6e6eccacce1ae8856f1",
++    "startup_surface_g310_universal_reciprocity_refresh_2026-08-31/ADOPTION_RECORD.md":
++        "4eb7d0a1130dcff997bc5180f420b633e2dcbbb5072d098997ba3672b38d8ab5",
++}
++
++
++def validate_gr_filter_authority(root: Path) -> dict:
++    """Current authority, never a historic projection or a mathematical proof.
++
++    Exact pins intentionally reject appended contradictions as well as omissions.
++    A later authorized authority change needs its own explicit transition/review.
++    """
++    for relative, expected in GR_FILTER_PINS.items():
++        path = root / relative
++        require(path.is_file() and hashlib.sha256(path.read_bytes()).hexdigest() == expected,
++                f"GR-filter authority/source pin changed: {relative}")
++    transition = json.loads((root / GR_FILTER_TRANSITION_SOURCE).read_text())
++    raw = (root / "CURRENT_SCIENTIFIC_PREMISES.tsv").read_bytes()
++    ddr = [line for line in raw.splitlines(keepends=True) if line.startswith(b"G310\t")]
++    require(len(ddr) == 1 and hashlib.sha256(ddr[0]).hexdigest()
++            == "a8ee1424099aa865c32bad1a72c256da0dd66ea1fed98b7c05ece1c04056d42a",
++            "GR-filter retained DDR authority changed")
++    current = [line for line in raw.splitlines(keepends=True) if line.startswith(b"G312\t")]
++    require(current == [transition["after_line"].encode()],
++            "GR-filter current G312 row differs from exact authorized transition")
++    return transition
++
++
++def registry_bytes_for_historical_banking(root: Path) -> bytes:
++    """Reverse ONLY the validated G312 authority edit for historical hash checks.
++
++    This is NOT a current registry reader. Current row/scope checks use read_tsv
++    directly. Every other byte remains live, so old additive hashes still reject
++    unrelated changes. Even a whole old-row restoration fails before projection.
++    """
++    transition = validate_gr_filter_authority(root)
++    return b"".join(
++        transition["before_line"].encode() if line.startswith(b"G312\t") else line
++        for line in (root / "CURRENT_SCIENTIFIC_PREMISES.tsv").read_bytes().splitlines(keepends=True)
++    )
++
++
+ def require_ordered_tokens(text: str, tokens: tuple[str, ...], name: str) -> None:
+     """Require each startup-routing token to occur after its predecessor."""
+     text = " ".join(text.split())
+@@ -351,7 +398,7 @@ def validate_conditional_banking(root: Path, *, authenticate_sources: bool = Tru
+     relabeled as hashes of the updated live registry/status documents. This is
+     correspondence and scope regression, not another scientific review or proof.
+     """
+-    registry_bytes = (root / "CURRENT_SCIENTIFIC_PREMISES.tsv").read_bytes()
++    registry_bytes = registry_bytes_for_historical_banking(root)
+     later_ids = SHARED_CONSTRAINT_BANKING_IDS + PERSISTENCE_BANKING_IDS + RESTRICTIVENESS_BANKING_IDS + SOURCE_METRIC_BANKING_IDS + RECONSTRUCTION_BANKING_IDS + COUPLED_BANKING_IDS + VACUUM_SCALE_BANKING_IDS + BERGER_BANKING_IDS + CLOSED_FIBRE_BANKING_IDS + NEIGHBORING_TIDAL_BANKING_IDS
+     later_prefixes = tuple(f"{item}\t".encode() for item in later_ids)
+     registry_bytes = b"".join(
+@@ -483,7 +530,7 @@ def validate_conditional_banking(root: Path, *, authenticate_sources: bool = Tru
+ 
+ def validate_shared_constraint_banking(root: Path, *, authenticate_sources: bool = True) -> None:
+     """Guard additive SC2--SC5 banking; hashes and guards are not scientific proof."""
+-    registry_bytes = (root / "CURRENT_SCIENTIFIC_PREMISES.tsv").read_bytes()
++    registry_bytes = registry_bytes_for_historical_banking(root)
+     later_ids = PERSISTENCE_BANKING_IDS + RESTRICTIVENESS_BANKING_IDS + SOURCE_METRIC_BANKING_IDS + RECONSTRUCTION_BANKING_IDS + COUPLED_BANKING_IDS + VACUUM_SCALE_BANKING_IDS + BERGER_BANKING_IDS + CLOSED_FIBRE_BANKING_IDS + NEIGHBORING_TIDAL_BANKING_IDS
+     later_prefixes = tuple(f"{item}\t".encode() for item in later_ids)
+     registry_bytes = b"".join(line for line in registry_bytes.splitlines(keepends=True)
+@@ -607,7 +654,7 @@ def validate_shared_constraint_banking(root: Path, *, authenticate_sources: bool
+ 
+ def validate_persistence_banking(root: Path, *, authenticate_sources: bool = True) -> None:
+     """Guard only additive PC1--PC3 banking; correspondence is not proof."""
+-    registry_bytes = (root / "CURRENT_SCIENTIFIC_PREMISES.tsv").read_bytes()
++    registry_bytes = registry_bytes_for_historical_banking(root)
+     later_ids = RESTRICTIVENESS_BANKING_IDS + SOURCE_METRIC_BANKING_IDS + RECONSTRUCTION_BANKING_IDS + COUPLED_BANKING_IDS + VACUUM_SCALE_BANKING_IDS + BERGER_BANKING_IDS + CLOSED_FIBRE_BANKING_IDS + NEIGHBORING_TIDAL_BANKING_IDS
+     later_prefixes = tuple(f"{item}\t".encode() for item in later_ids)
+     registry_bytes = b"".join(line for line in registry_bytes.splitlines(keepends=True)
+@@ -715,7 +762,7 @@ def validate_persistence_banking(root: Path, *, authenticate_sources: bool = Tru
+ 
+ def validate_restrictiveness_banking(root: Path, *, authenticate_sources: bool = True) -> None:
+     """Additive RC1--RC3 fidelity/correspondence guard, not scientific proof."""
+-    registry_bytes = (root / "CURRENT_SCIENTIFIC_PREMISES.tsv").read_bytes()
++    registry_bytes = registry_bytes_for_historical_banking(root)
+     later_ids = SOURCE_METRIC_BANKING_IDS + RECONSTRUCTION_BANKING_IDS + COUPLED_BANKING_IDS + VACUUM_SCALE_BANKING_IDS + BERGER_BANKING_IDS + CLOSED_FIBRE_BANKING_IDS + NEIGHBORING_TIDAL_BANKING_IDS
+     later_prefixes = tuple(f"{item}\t".encode() for item in later_ids)
+     registry_bytes = b"".join(line for line in registry_bytes.splitlines(keepends=True)
+@@ -817,7 +864,7 @@ def validate_restrictiveness_banking(root: Path, *, authenticate_sources: bool =
+ 
+ def validate_source_metric_banking(root: Path, *, authenticate_sources: bool = True) -> None:
+     """Additive SM1--SM3 scope/correspondence guard; not new scientific proof."""
+-    registry_bytes = (root / "CURRENT_SCIENTIFIC_PREMISES.tsv").read_bytes()
++    registry_bytes = registry_bytes_for_historical_banking(root)
+     later_prefixes = tuple(f"{item}\t".encode() for item in RECONSTRUCTION_BANKING_IDS + COUPLED_BANKING_IDS + VACUUM_SCALE_BANKING_IDS + BERGER_BANKING_IDS + CLOSED_FIBRE_BANKING_IDS + NEIGHBORING_TIDAL_BANKING_IDS)
+     registry_bytes = b"".join(line for line in registry_bytes.splitlines(keepends=True)
+                               if not line.startswith(later_prefixes))
+@@ -908,7 +955,7 @@ def validate_source_metric_banking(root: Path, *, authenticate_sources: bool = T
+ 
+ def validate_reconstruction_banking(root: Path, *, authenticate_sources: bool = True) -> None:
+     """Additive RT1--RT2 fidelity/correspondence guard, not scientific proof."""
+-    registry_bytes = (root / "CURRENT_SCIENTIFIC_PREMISES.tsv").read_bytes()
++    registry_bytes = registry_bytes_for_historical_banking(root)
+     later_prefixes = tuple(f"{item}\t".encode() for item in COUPLED_BANKING_IDS + VACUUM_SCALE_BANKING_IDS + BERGER_BANKING_IDS + CLOSED_FIBRE_BANKING_IDS + NEIGHBORING_TIDAL_BANKING_IDS)
+     registry_bytes = b"".join(line for line in registry_bytes.splitlines(keepends=True)
+                               if not line.startswith(later_prefixes))
+@@ -1008,7 +1055,7 @@ def validate_reconstruction_banking(root: Path, *, authenticate_sources: bool =
+ 
+ def validate_coupled_banking(root: Path, *, authenticate_sources: bool = True) -> None:
+     """Exact-scope CD1/CD2 banking correspondence, never a scientific proof."""
+-    registry_bytes = (root / "CURRENT_SCIENTIFIC_PREMISES.tsv").read_bytes()
++    registry_bytes = registry_bytes_for_historical_banking(root)
+     later = tuple(f"{item}\t".encode() for item in VACUUM_SCALE_BANKING_IDS + BERGER_BANKING_IDS + CLOSED_FIBRE_BANKING_IDS + NEIGHBORING_TIDAL_BANKING_IDS)
+     registry_bytes = b"".join(line for line in registry_bytes.splitlines(keepends=True)
+                               if not line.startswith(later))
+@@ -1111,7 +1158,7 @@ def validate_coupled_banking(root: Path, *, authenticate_sources: bool = True) -
+ 
+ def validate_vacuum_scale_banking(root: Path, *, authenticate_sources: bool = True) -> None:
+     """VS1/VS2 exact-scope banking correspondence; never scientific proof."""
+-    raw = (root / "CURRENT_SCIENTIFIC_PREMISES.tsv").read_bytes()
++    raw = registry_bytes_for_historical_banking(root)
+     prefixes = tuple(f"{item}\t".encode() for item in VACUUM_SCALE_BANKING_IDS + BERGER_BANKING_IDS + CLOSED_FIBRE_BANKING_IDS + NEIGHBORING_TIDAL_BANKING_IDS)
+     old = b"".join(line for line in raw.splitlines(keepends=True)
+                    if not line.startswith(prefixes))
+@@ -1206,7 +1253,7 @@ def validate_vacuum_scale_banking(root: Path, *, authenticate_sources: bool = Tr
+ 
+ def validate_berger_banking(root: Path, *, authenticate_sources: bool = True) -> None:
+     """Exact BI1/BG1/BG2 source/dependency correspondence, not a new proof."""
+-    raw = (root / "CURRENT_SCIENTIFIC_PREMISES.tsv").read_bytes()
++    raw = registry_bytes_for_historical_banking(root)
+     prefixes = tuple(f"{item}\t".encode() for item in BERGER_BANKING_IDS + CLOSED_FIBRE_BANKING_IDS + NEIGHBORING_TIDAL_BANKING_IDS)
+     old = b"".join(line for line in raw.splitlines(keepends=True)
+                    if not line.startswith(prefixes))
+@@ -1322,7 +1369,7 @@ def validate_berger_banking(root: Path, *, authenticate_sources: bool = True) ->
+ 
+ def validate_closed_fibre_banking(root: Path, *, authenticate_sources: bool = True) -> None:
+     """Exact CF1/CF2 source/dependency banking correspondence; not a proof."""
+-    raw = (root / "CURRENT_SCIENTIFIC_PREMISES.tsv").read_bytes()
++    raw = registry_bytes_for_historical_banking(root)
+     prefixes = tuple(f"{item}\t".encode() for item in CLOSED_FIBRE_BANKING_IDS + NEIGHBORING_TIDAL_BANKING_IDS)
+     old = b"".join(line for line in raw.splitlines(keepends=True)
+                    if not line.startswith(prefixes))
+@@ -1450,7 +1497,7 @@ def validate_closed_fibre_banking(root: Path, *, authenticate_sources: bool = Tr
+ 
+ def validate_neighboring_tidal_banking(root: Path, *, authenticate_sources: bool = True) -> None:
+     """Exact NT1/NT2 conditional source/dependency correspondence, not a proof."""
+-    raw = (root / "CURRENT_SCIENTIFIC_PREMISES.tsv").read_bytes()
++    raw = registry_bytes_for_historical_banking(root)
+     prefixes = tuple(f"{item}\t".encode() for item in NEIGHBORING_TIDAL_BANKING_IDS)
+     old = b"".join(line for line in raw.splitlines(keepends=True)
+                    if not line.startswith(prefixes))
+@@ -1574,6 +1621,7 @@ def validate_neighboring_tidal_banking(root: Path, *, authenticate_sources: bool
+ 
+ def validate_startup_surface(root: Path) -> None:
+     """Fail closed on semantic startup authority without requiring duplicated chronology."""
++    validate_gr_filter_authority(root)
+     controls: dict[str, str] = {}
+     for relative in STARTUP_SURFACE_CONTROLS:
+         path = root / relative
+@@ -1583,6 +1631,30 @@ def validate_startup_surface(root: Path) -> None:
+         path = root / relative
+         require(path.is_file(), f"missing method automation control: {relative}")
+ 
++    # Bounded regression patterns, not a semantic completeness theorem.
++    for relative in ("LIVE.md", "HANDOFF.md", "CURRENT_RESEARCH_PROGRAM.md",
++                     "CURRENT_SCIENTIFIC_PREMISES.md", "MEMORY.md", "INDEX.md"):
++        current = (marked_current_block(root / relative)
++                   if relative in ("LIVE.md", "HANDOFF.md") else controls[relative])
++        normalized = " ".join(current.split())
++        for token in ("GR is FILTER ONLY", "not a response-law input",
++                      "Local Metric Sufficiency remains owner-provisional",
++                      "CONDITIONAL", "not established from filter-only GR",
++                      GR_FILTER_AUTHORITY_SOURCE):
++            require(token in normalized,
++                    f"GR-filter current surface lacks {token}: {relative}")
++        for pattern in (
++            r"(?:full quiet )?GR (?:principal.response overlap|dynamics) (?:is|remains) "
++            r"(?:owner.adopted|adopted|a current response.law input)",
++            r"(?:Local Metric Sufficiency|DDR) (?:is|remains) "
++            r"(?:unadopted|open and unadopted|derived|canonized)",
++            r"Einstein (?:equation|arena) (?:is|remains) (?:native|unconditional|derived from filter.only GR)",
++            r"(?:all|the) conditional mathematics (?:is|remains) (?:retracted|refuted)",
++            r"(?:a new physical premise is necessary|independent closure is impossible)",
++        ):
++            require(re.search(pattern, normalized, flags=re.IGNORECASE) is None,
++                    f"GR-filter current surface contradicts authority: {relative}: {pattern}")
++
+     registry = root / "CURRENT_SCIENTIFIC_PREMISES.tsv"
+     require(registry.is_file(), "premise registry missing")
+     registry_rows = read_tsv(registry)
+@@ -1632,7 +1704,8 @@ def validate_startup_surface(root: Path) -> None:
+         "OWNER_ADOPTED_PROVISIONAL_POSTULATE",
+         "2026-08-31",
+         "not derived or canonized",
+-        "G312 premises are owner-adopted provisionally",
++        "GR is FILTER ONLY",
++        "Local Metric Sufficiency remains owner-provisional",
+         "Local Metric Sufficiency",
+         "multibranch Einstein arena",
+         "angular-sector cancellation",
+@@ -1818,7 +1891,7 @@ def validate_startup_surface(root: Path) -> None:
+         "CURRENT_SCIENTIFIC_PREMISES.md": (
+             "365-row",
+             "OWNER_ADOPTED_PROVISIONAL_POSTULATE",
+-            "OWNER_ADOPTED_PROVISIONAL_POSTULATES",
++            "Local Metric Sufficiency remains owner-provisional",
+             "one postulate with two formulations",
+             "CHALLENGED_OWNER_POSTULATE_NOT_DERIVED",
+             "working asymptotic global-completion consequence target",
+@@ -2264,6 +2337,7 @@ def validate_startup_surface(root: Path) -> None:
+ 
+ 
+ def main() -> None:
++    validate_gr_filter_authority(ROOT)
+     rows = read_tsv(ROOT / "CURRENT_SCIENTIFIC_PREMISES.tsv")
+     require(len(rows) == 365, "premise registry must contain exactly 365 rows")
+     by_id = {row["premise_id"]: row for row in rows}
+@@ -3454,38 +3528,9 @@ def main() -> None:
+         "G312 repair-followup acceptance token changed",
+     )
+ 
+-    g312_row = by_id["G312"]
+-    require(
+-        "OWNER_ADOPTED_PROVISIONAL_POSTULATES_AUTHORIZED_BY_CHARLES_ROTTER_2026_09_01"
+-        in g312_row["current_status"]
+-        and "NOT_DERIVED__NOT_CANON" in g312_row["current_status"],
+-        "G312 two-premise owner-adoption stamp changed",
+-    )
+-    require(
+-        g312_row["active_use"]
+-        == "ACTIVE_OWNER_ADOPTED_PROVISIONAL_FULL_QUIET_GR_PRINCIPAL_OVERLAP_AND_LOCAL_METRIC_SUFFICIENCY_WITH_BOUNDED_G301_TRACEFREE_RICCI_CLOSURE_ONLY",
+-        "G312 active-use scope changed",
+-    )
+-    require(
+-        "global bootstrap" in g312_row["open_scope"]
+-        and "scalar curvature magnitude and sign" in g312_row["open_scope"],
+-        "G312 post-adoption open boundary changed",
+-    )
+-    require(
+-        "owner-adopted premises called derived canonized or observationally proved"
+-        in g312_row["forbidden_regression"],
+-        "G312 premise-grade regression guard missing",
+-    )
+-    require(
+-        "Local Metric Sufficiency called proof that global bootstrap is impossible"
+-        in g312_row["forbidden_regression"],
+-        "G312 bootstrap-compatibility guard missing",
+-    )
+-    require(
+-        "bounded trace-free Ricci closure called a selected universe"
+-        in g312_row["forbidden_regression"],
+-        "G312 bounded-closure guard missing",
+-    )
++    # Current ownership was checked before all historical replay. The old
++    # G312 theorem/adoption checks below authenticate history, not current GR use.
++    validate_gr_filter_authority(ROOT)
+     g312_adoption_record = (
+         ROOT
+         / "startup_surface_g312_two_premise_adoption_refresh_2026-09-01"
+@@ -6991,6 +7036,7 @@ def main() -> None:
+             source_name = source_row["path"]
+             source_bytes = (ROOT / source_name).read_bytes()
+             if source_name == "CURRENT_SCIENTIFIC_PREMISES.tsv":
++                source_bytes = registry_bytes_for_historical_banking(ROOT)
+                 source_bytes = b"".join(
+                     line for line in source_bytes.splitlines(keepends=True)
+                     if not line.startswith((b"G382\t", b"G381\t", b"G380\t", b"G379\t", b"G378\t", b"G377\t", b"G376\t", b"G375\t", b"G374\t", b"G373\t", b"G372\t", b"G371\t", b"G370\t", b"G369\t", b"G368\t", b"G367\t", b"G366\t", b"G365\t", b"G364\t", b"G363\t", b"G362\t", b"G361\t", b"G360\t", b"G359\t", b"G358\t", b"G357\t", b"G356\t", b"G355\t", b"G354\t", b"G353\t", b"G352\t"))

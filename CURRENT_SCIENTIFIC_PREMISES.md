@@ -4,13 +4,12 @@
 run `python3 verify_current_scientific_premises.py` before querying exact rows.
 Banking through G382 is COMPLETE, VERIFIED-WITH-CAVEATS at reviewed conditional scopes.
 Sources/reviews: `INDEX.md`.
-Exact grades, original evidence, canon and fixed manuscript are preserved; authority warning follows.
+Exact grades, original evidence, canon and fixed manuscript are preserved.
 
-AUTHORITY WARNING (2026-09-09): Charles affirms reciprocity/local sufficiency, but GR is FILTER ONLY.
-G312's stronger GR-principal input is not authorized as a response-law constructor by that clarification.
-Einstein-arena claims remain CONDITIONAL on their full reviewed premises, not established from filter-only GR.
-The exact registry's stronger ownership wording and guards await coordinated reconciliation;
-see `udt_gr_filter_authority_audit_2026-09-09/REVIEWED_AUDIT.md`. No theorem is regraded here.
+GR is FILTER ONLY, not a response-law input; Local Metric Sufficiency remains owner-provisional.
+G312's current authority qualifies inherited “admitted/lawful” labels. Einstein claims remain
+CONDITIONAL on full reviewed premises, not established from filter-only GR; membership is unclosed.
+Current record: `udt_gr_filter_reconciliation_2026-09-09/AUTHORITY_RECORD.md`. No theorem is regraded.
 
 ## Foundational and adopted layer
 
@@ -25,7 +24,7 @@ see `udt_gr_filter_authority_audit_2026-09-09/REVIEWED_AUDIT.md`. No theorem is 
 | W5 projective position | `WORKING_FOUNDATIONAL_CLARIFICATION` | Complete projective relation state | Scale/history/`X_max` |
 | W6 co-presence | `WORKING_FOUNDATIONAL_CLARIFICATION` | Nonpropagating membership with metric-causal response | Population/history |
 | Universal Reciprocity / Differential Dual Reciprocity | `OWNER_ADOPTED_PROVISIONAL_POSTULATE` | Bounded G310 trace-free response | Extension and canon |
-| G312 recorded premises | Historical `OWNER_ADOPTED_PROVISIONAL_POSTULATES` | Local Metric Sufficiency affirmed; stronger GR ownership under warning above | Registry/guard reconciliation |
+| G312 current authority | GR filter only; locality owner-provisional | Conditional response-class mathematics | Independent class-membership route |
 | Source-free label-measure conservation | `OWNER_ADOPTED_PROVISIONAL_PREMISE` (G351) | Countably additive measure; inverse-area regular density | `p`, sources, population, light/cross-label physics |
 | Continuous clock-rate readout | `OWNER_ADOPTED_PROVISIONAL_PREMISE` (G352) | On chosen phase/product realization, `T_clock=R A^-1` | Atomic rate, physical object, sources, population, light/energy |
 
