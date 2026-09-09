@@ -45,5 +45,9 @@ those measured during that audit. Parent reran the unchanged NT1/NT2 focused
 receipt parsers: both pass, authenticating actual failures and unchanged outputs;
 this is reproducibility/receipt checking, not another independent scientific review.
 Latest git fetch origin succeeded; HEAD...origin/grok divergence0/0 before
-final evidence commit. NT1 is already pushed at9498dfb7. Final campaign
-publication is not claimed until its actual push completes.
+final evidence commit. NT1 pushed at9498dfb7; NT2 and campaign closure pushed
+ata485faa0e786e81bae0d579b01d20eced64558ba, both confirmed at origin/grok.
+At00:51:23UTC, tracked tree clean, all338 owned files tracked, and the46
+unrelated untracked names retained their initial digest. Publication is COMPLETE;
+PUBLICATION_RECORD.md owns exact executed commands/outcomes. No remaining
+required campaign work, third step, banking or successor is silently authorized.

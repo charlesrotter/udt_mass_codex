@@ -35,4 +35,14 @@ one grouped guard repair used, original false passes and unchanged science
 authenticated. Final full363 audit PASS and source/preservation/scope checks
 complete at00:50UTC. The next commit preserves NT2 plus campaign closure,
 without altering any NT1 scientific artifact or accepted source/grade.
-Its actual commit/push receipt will be appended after execution.
+NT2/closure publication executed: commita485faa0e786e81bae0d579b01d20eced64558ba,
+"Preserve reviewed NT2 lawful tidal-variation candidate and close campaign".
+git commit -q -m exited0. timeout60 git push origin grok exited0, reporting
+9498dfb7..a485faa0 grok->grok. At00:51:23UTC2026-09-09,
+git rev-parse HEAD origin/grok returned that full hash twice. Tracked tree clean;
+all338 owned files (1147414 bytes) tracked, including ignored raw stdout;
+all46 unrelated untracked names and their original digest remain unchanged.
+No original NT1 scientific file changed in this second logical evidence commit.
+Campaign complete within about68minutes including final audit/publication,
+well inside four hours. Both NT1/NT2 remain UNPROMOTED. This subsequent receipt-
+only update records actual completion; it changes no scientific evidence or grade.
