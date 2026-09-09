@@ -11,9 +11,13 @@
   "different_model_independence": "UNTESTED",
   "independent_library": false,
   "source_first_note_sha256": "51f9a60307b430abee46588aadf14b98b39bf54ff8d95398e05d4e1d51e2e5c9",
-  "exposure": "Question and full controlling LE1/NR2 sources/reviews known; own source-first criterion, witness and 4D engine sealed before author candidate. Author subsequently reused reviewer witness and added matched homogeneous comparator. Direct stage read full proof/code/outputs and independently reconstructed comparator and author nonflat datum.",
+  "exposure": "Question and full controlling LE1/NR2 sources/reviews known; reviewer source-first criterion, witness and 4D engine sealed before author candidate. Author reused reviewer witness and added matched homogeneous comparator. CORRECTION: both check_geometry.py and check_matched_data.py were written AFTER the first reviewer witness disclosure. Claimed pre-exposure author-code independence is WITHDRAWN; earlier author hand exploration was unfrozen and is author-reported only. Direct stage read full proof/code/outputs and independently reconstructed comparator and author nonflat datum.",
   "load_bearing_defects": [],
   "scientific_repairs_used": 0,
+  "provenance_corrections_used": 1,
+  "provenance_defect": "Initial candidate section4 and original README incorrectly claimed check_geometry.py was written before witness disclosure; corrected explicitly with originals preserved.",
+  "provenance_correction_sha256": "bfea95a330c1db2aeef1db2b00e975463940f795651c1f4139ca8890d840819d",
+  "provenance_followup": "review/PROVENANCE_FOLLOWUP.md: corrected; mathematical verdict unchanged; no scientific rerun needed for unchanged science",
   "surviving_claim": "Exact instantaneous full-Weyl scalar criterion on I2 nonzero, and globally lawful analytic matched-point data with conditional actual local vacuum developments, same pointwise gamma/K/Q but distinct normal A rates.",
   "matched_rates": ["0", "-5930496/5764801"],
   "distinct_author_datum_rate_e_1_9": "68040/28561",
@@ -24,6 +28,6 @@
   "source_first_entries_authenticated": 10,
   "premise_audit": "NOT_PASSED: pre-existing G325 replay_exact:DERIVATION_RESULT.json; later gates unreached",
   "limits": ["I2 domain and I3 blind spot", "supplied normal and data", "conditional analytic local method", "not full-data nonuniqueness", "not genericity or long-time behavior", "not unspecified LG2 collar evolution", "not physical identification", "LE1 and NR2 unpromoted", "no premise/grade/canon promotion"],
-  "final_brief_fidelity": "FIDELITY_REVIEWED at SHA256 1b849b6db6d22142cbbb650bf4391c801fd34012e7e3f1ae4cf54fb3f7a09d26; README and four compact current pointers reviewed at FINAL_FIDELITY.md pins",
-  "controlling_review": "review/DIRECT_REVIEW.md"
+  "final_brief_fidelity": "FIDELITY_REVIEWED after provenance correction at SHA256 548018fca507f62aabcfb7a3d762fbead9925b1c516464cdd471518e3c7323f5; corrected README pinned in PROVENANCE_FOLLOWUP.md; unchanged current pointers retain FINAL_FIDELITY.md scope",
+  "controlling_review": "review/DIRECT_REVIEW.md with PROVENANCE_CORRECTION.md and review/PROVENANCE_FOLLOWUP.md controlling exposure-history corrections"
 }

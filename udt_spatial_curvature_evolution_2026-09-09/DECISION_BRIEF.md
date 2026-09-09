@@ -12,6 +12,8 @@ the result remains UNPROMOTED. No scientific repair was needed.
 CANDIDATE.md and its original checks are preserved unchanged. Review used
 independent arguments/implementation but shared SymPy and mathematical
 methods; exact model/different-model independence is UNKNOWN.
+The author-code exposure history is corrected in PROVENANCE_CORRECTION.md;
+it must not be described as a pre-disclosure independent implementation.
 
 ## What we learned
 

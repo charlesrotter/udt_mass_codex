@@ -49,3 +49,20 @@ final brief/README/pointers passed exact-version fidelity. Scientific/review
 work complete in about26 minutes of the90-minute ceiling; no repair used.
 Origin fetched successfully before publication. No successor authorized;
 commit/push completion is recorded separately in PUBLICATION.md.
+
+2026-09-09 19:27 UTC: initial checkpoint bcdef54c pushed successfully.
+Before final handoff, parent caught an exposure-history error: the FIRST
+reviewer formula message preceded writing check_geometry.py, even though
+the distinct handwritten route had already been explored. The later sealed
+note was not first disclosure. PROVENANCE_CORRECTION.md withdraws the
+incorrect pre-exposure-code claim; original candidate and review remain.
+README/brief corrected; focused reviewer impact check requested. No equation,
+scientific code or result changed; no new research step or physical premise.
+
+2026-09-09 19:31 UTC: focused review accepted the exposure correction and
+explicit withdrawal; mathematical VERIFIED-WITH-CAVEATS survives. Main read
+the entire followup. Original candidate/code/reviews retained byte-for-byte;
+only provenance overlay, current brief/navigation, log and review metadata
+changed. Final review manifest now41 entries. No scientific rerun can restore
+pre-disclosure independence, so none was manufactured. Root manifest updated
+in place; its original version remains in bcdef54c. Stop for discussion.

@@ -9,12 +9,15 @@ canon, fixed manuscript, instrument route or successor campaign is adopted.
 - CANDIDATE.md: immutable initial proof, including its historical PENDING
   heading and harmless `completeness,+genericity` editorial typo. The actual
   review status is owned by review/DIRECT_REVIEW.md, not that freeze heading.
+- PROVENANCE_CORRECTION.md and review/PROVENANCE_FOLLOWUP.md override the
+  initial mistaken pre-exposure author-code claim; original evidence survives.
 - WORK_ORDER.md and CAMPAIGN_LOG.md: authorized scope, limits and history.
 - SOURCE_PINS.tsv and METHOD_REFERENCES.md: exact dependencies and primary
   mathematical reference; method prose does not supply scientific premises.
 - INITIAL_FREEZE_SHA256SUMS: initial proof/check/source correspondence.
 - check_geometry.py and author_geometry_initial.*: author spatial-connection
-  and ADM-variation calculation, written before reviewer witness exposure.
+  and ADM-variation calculation; code written AFTER reviewer witness disclosure.
+  The different earlier handwritten exploration was not independently frozen.
 - check_matched_data.py and author_matched_initial.*: independent author
   recomputation after reviewer witness exposure, with new matched comparator.
 - review/: independent source-first argument/4D tensor engine, general
@@ -33,6 +36,7 @@ Neither formal jets nor finite checks prove actual existence by themselves.
 Review is an actual separate context with independent implementation and
 argument, not asserted different-model or independent-library verification.
 Python3.10.12/SymPy1.13.1 were measured. No candidate scientific repair;
+one exposure-history correction is addressed by the focused provenance followup.
 four deliberate failing mutation runs are retained, not hidden or counted
 as successful unmodified runs. Reviewer bytecode is excluded from evidence.
 
