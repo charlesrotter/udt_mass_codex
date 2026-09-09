@@ -128,3 +128,17 @@ blocks archive-dependent tasks only. Protected local payloads remain untouched.
 The roadmap is an order of scientific priorities, not an instruction to wait
 for complete closure of one level before any conditional work at another.
 Charles chooses subsequent directions and physical commitments at return points.
+
+## Current discussion: exact and controlled GR correspondence
+
+Charles expects UDT to extend GR without departing where GR succeeds, while
+explicitly allowing the scientific possibility of departures below present
+measurement sensitivity. Record this as a correspondence goal and expectation,
+not a proved exact limit, a numerical probability, or a new response-law input.
+Exact recovery, controlled approximation and empirical compatibility are
+distinct claims; no universal tolerance is adopted. The bounded direction
+assessment and proposed next campaign are in
+`udt_quiet_correspondence_direction_2026-09-09/DIRECTION_BRIEF.md`.
+Proposal: test whether small native angular cancellation residual controls
+specified clock/tidal departures after ordinary comparison data are fixed.
+This is a proposal, not a started campaign, new theorem or physical adoption.
