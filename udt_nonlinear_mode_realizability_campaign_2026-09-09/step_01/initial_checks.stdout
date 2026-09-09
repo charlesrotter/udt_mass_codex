@@ -1,0 +1,32 @@
+{
+  "status": "PASS_EXACT_ALGEBRA_SUPPORT_NOT_EXISTENCE",
+  "checks": [
+    "full_density_variation_00",
+    "full_density_variation_01",
+    "full_density_variation_02",
+    "full_density_variation_10",
+    "full_density_variation_11",
+    "full_density_variation_12",
+    "full_density_variation_20",
+    "full_density_variation_21",
+    "full_density_variation_22",
+    "trace_variation_zero",
+    "volume_variation_zero",
+    "full_fourier_integral_matches_candidate",
+    "background_density_term_is_total_derivative",
+    "periodic_second_order_term_integrates_zero",
+    "ode_preserves_TQ",
+    "bessel_coefficient_form",
+    "nonzero_or_surviving_control_0",
+    "nonzero_or_surviving_control_1",
+    "nonzero_or_surviving_control_2",
+    "nonzero_or_surviving_control_3"
+  ],
+  "count": 20,
+  "pi1_transverse": "Matrix([[a*(-p - 2*u/(3*T)), a*(-r - 2*w/(3*T))], [a*(-r - 2*w/(3*T)), a*(p + 2*u/(3*T))]])",
+  "fourier_integral": "-2*pi*uc1*vs1 - 2*pi*uc2*vs2 + 2*pi*us1*vc1 + 2*pi*us2*vc2",
+  "candidate_Q": "-uc1*vs1 - uc2*vs2 + us1*vc1 + us2*vc2",
+  "python": "3.10.12 (main, Aug 31 2026, 10:18:17) [GCC 11.4.0]",
+  "sympy": "1.13.1",
+  "mutant": null
+}

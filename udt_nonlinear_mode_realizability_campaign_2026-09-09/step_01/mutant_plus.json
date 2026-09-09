@@ -1,0 +1,17 @@
+{
+  "command": [
+    "python3",
+    "-B",
+    "udt_nonlinear_mode_realizability_campaign_2026-09-09/step_01/check_nr1.py",
+    "--mutant",
+    "plus"
+  ],
+  "cwd": "/home/udt-admin/udt_mass_codex",
+  "started_utc": "2026-09-09T16:06:54.153074+00:00",
+  "duration_seconds": 0.6011167150572874,
+  "returncode": 1,
+  "timeout": false,
+  "address_space_bytes": 536870912,
+  "cpu_seconds": 60,
+  "maxrss_kib": 63360
+}
