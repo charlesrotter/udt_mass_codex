@@ -1,0 +1,25 @@
+{
+  "check_command": [
+    "python3",
+    "-B",
+    "-c",
+    "import hashlib,json,subprocess\ndef git(*args):\n    return subprocess.check_output([\"git\",\"-c\",\"index.threads=1\",\"-c\",\"core.preloadIndex=false\",*args],text=True,timeout=60)\nbaseline=\"80cc6c9d231629f1743e54d0171514752d322713\"\nprefix=\"udt_quiet_correspondence_direction_2026-09-09/\"\nchanged=git(\"diff\",\"--name-only\",baseline).splitlines()\nassert all(x==\"UDT_RESEARCH_ROADMAP.md\" or x.startswith(prefix) for x in changed),changed\nuntracked=sorted(x for x in git(\"status\",\"--porcelain=v1\",\"--untracked-files=normal\").splitlines() if x.startswith(\"?? \") and not x[3:].startswith(prefix))\nfingerprint=hashlib.sha256(\"\\n\".join(untracked).encode()).hexdigest()\nassert len(untracked)==46 and fingerprint==\"d65d71d63a56b95aabfd61f33317b1f1f2b2a62a85ded8258c525b99a5e156ea\",(len(untracked),fingerprint)\nsubprocess.run([\"git\",\"diff\",\"--check\"],check=True,timeout=60)\nr=subprocess.run([\"sha256sum\",\"-c\",prefix+\"SOURCE_SHA256SUMS\"],capture_output=True,text=True,timeout=60)\nassert r.returncode==0,(r.stdout,r.stderr)\nprint(json.dumps({\"baseline\":baseline,\"head\":git(\"rev-parse\",\"HEAD\").strip(),\"branch\":git(\"branch\",\"--show-current\").strip(),\"tracked_diff_allowed\":changed,\"unrelated_untracked_status_count\":len(untracked),\"unrelated_status_fingerprint\":fingerprint,\"source_pins_returncode\":r.returncode,\"source_pins_stdout\":r.stdout,\"limits\":\"status metadata only for protected paths; no protected payload read/hash; no scientific recomputation\"},indent=2))\n"
+  ],
+  "result": {
+    "baseline": "80cc6c9d231629f1743e54d0171514752d322713",
+    "head": "9229f78ddb9e5857695d72fab423171a0e58d640",
+    "branch": "grok",
+    "tracked_diff_allowed": [
+      "UDT_RESEARCH_ROADMAP.md",
+      "udt_quiet_correspondence_direction_2026-09-09/DIRECTION_BRIEF.md",
+      "udt_quiet_correspondence_direction_2026-09-09/SOURCE_SHA256SUMS",
+      "udt_quiet_correspondence_direction_2026-09-09/STARTUP_AUDIT.json",
+      "udt_quiet_correspondence_direction_2026-09-09/WORK_RECORD.md"
+    ],
+    "unrelated_untracked_status_count": 46,
+    "unrelated_status_fingerprint": "d65d71d63a56b95aabfd61f33317b1f1f2b2a62a85ded8258c525b99a5e156ea",
+    "source_pins_returncode": 0,
+    "source_pins_stdout": "udt_gr_filter_reconciliation_2026-09-09/AUTHORITY_RECORD.md: OK\nudt_g260_gr_quiet_angular_nondiscard_audit_2026-08-25/EXACT_DERIVATION.md: OK\nudt_native_response_discrimination_2026-09-09/DECISION_BRIEF.md: OK\nudt_local_clock_metric_benchmark_campaign_2026-09-07/DECISION_BRIEF.md: OK\nudt_tidal_measurement_feasibility_campaign_2026-09-07/DECISION_BRIEF.md: OK\nCURRENT_SCIENTIFIC_PREMISES.tsv: OK\nAGENTS.md: OK\nCROSS_MODEL_VERIFY.md: OK\n",
+    "limits": "status metadata only for protected paths; no protected payload read/hash; no scientific recomputation"
+  }
+}

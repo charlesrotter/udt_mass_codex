@@ -47,8 +47,8 @@ GOCE/GW restart, observation fit or external correspondence.
 
 Question/proposal constructed from source definitions, without solving the
 proposed bound. No new mathematical result or universal native no-go claimed.
-Fresh separate-context source-first/direct direction review requested from
-/root/quiet_direction_review; exact model UNKNOWN unless actually exposed.
+Fresh separate-context source-first/direct direction review completed by
+/root/quiet_direction_review; exact model UNKNOWN, different-model UNTESTED.
 Review is proportional fidelity/direction assessment, not reproof or replay
 of every scientific source. Original reports and exposure are preserved.
 
@@ -59,6 +59,14 @@ and pre-reboot unsaved-state disposition remain UNVERIFIED; ScratchDisk is
 archive-only. Source/Hopf branches PAUSED; GOCE PARKED/OPEN/UNSENT. The separate
 G325 maintenance issue blocks banking, not this assessment or a later explicitly
 conditional campaign. No physical-law choice is shown necessary by that defect.
+
+One source-preserving editorial repair closed two review requests: independent
+information for the future epsilon/calibration control (correlated errors
+still permitted with justified joint treatment), and explicit actual dependence
+of any bound on reference/data controls. Initial draft is preserved at9229f78d;
+source-first, initial repair verdict and final review are retained. Final
+verdict is VERIFIED-WITH-CAVEATS for direction/fidelity ONLY, not the proposed
+mathematics. No required repair remains. Final record: review/FINAL_REVIEW.md.
 
 Return point: reviewed direction brief and proposed work order, then Charles's
 direction decision. Budget for this MAP/review: one hour, no scientific CPU

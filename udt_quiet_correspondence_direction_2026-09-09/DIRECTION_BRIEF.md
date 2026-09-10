@@ -1,6 +1,7 @@
 # Quiet GR correspondence — proposed next question
 
-Status: DRAFT DIRECTION ASSESSMENT; review pending. No research result,
+Status: DIRECTION/FIDELITY REVIEWED WITH CAVEATS; see review/FINAL_REVIEW.md.
+The proposed bound is unproved and its campaign not yet authorized. No research result,
 physical adoption, response-law selection or successor campaign launched.
 
 ## What Charles's clarification changes
@@ -68,17 +69,31 @@ if the data do not give one, report that comparison-domain obstruction.
 
 Then ask for a bound of the form
 
-    || O[f]-O[f_ref] || <= B(K,positive margins,normalization) * epsilon,
+    || O[f]-O[f_ref] || <= B(K,margins,normalization,reference/data bounds) * epsilon,
     where || C_ang[f] ||_(infinity,K) <= epsilon,
 
 with O explicitly chosen from static proper-clock ratios, lapse gradients
 and orthonormal tidal components. Define dimensionless/readout-specific
-norms before deriving the bound; B is not an adjustable calibration parameter.
+norms before deriving the bound; the arguments shown for B are illustrative,
+not a proved exhaustive list. Derive and disclose any dependence on fixed
+reference values/gradients or comparison-data bounds needed for each readout.
+Do not presume uniformity across unbounded reference data from positivity
+alone. B is not an adjustable calibration parameter or a new physical law.
 Also separate residual-induced differences from uncertainty in supplied
 comparison data. Epsilon is a symbolic mathematical control, not an adopted
 observational accuracy or a physical law fixing C_ang(r). No instrument
 identification or native emergence of light is required for these ideal
 geometric comparisons; actual measurements require their own explicit bridge.
+
+For eventual empirical use, epsilon control and reference calibration must
+come with documented information independent of the designated consequence
+records. Computing the residual from the same held-out tides or clock profile
+and feeding it back into their purported prediction would be circular. The
+separation is informational, not a demand for statistically uncorrelated
+errors; shared errors require justified joint treatment. The
+mathematical bound alone supplies neither a UDT-predicted residual nor an
+independent empirical test. This campaign would establish the conditional
+bridge, not assert that those further information requirements are met.
 
 The one-function spherical restriction is deliberate and supplied. A result
 there would not certify nonspherical or time-dependent GR correspondence.
