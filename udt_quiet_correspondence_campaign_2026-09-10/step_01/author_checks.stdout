@@ -1,0 +1,92 @@
+{
+  "status": "PASS",
+  "assertions": 494,
+  "python": "3.10.12",
+  "sympy": "1.13.1",
+  "script_sha256": "2509dcb4d46daf6f2cd0eb2671269cd4606bd144346038dab19da5e3dc1b6342",
+  "method": "symbolic Green identities, rational finite support, full coordinate Riemann reconstruction",
+  "resonant_residual_powers": [
+    -1,
+    2
+  ],
+  "finite_profile_cases": [
+    {
+      "n": -3,
+      "sign": -1,
+      "epsilon": "1/125",
+      "D0": "167/6000"
+    },
+    {
+      "n": -3,
+      "sign": 1,
+      "epsilon": "1/125",
+      "D0": "167/6000"
+    },
+    {
+      "n": -2,
+      "sign": -1,
+      "epsilon": "1/250",
+      "D0": "151/6000"
+    },
+    {
+      "n": -2,
+      "sign": 1,
+      "epsilon": "1/250",
+      "D0": "151/6000"
+    },
+    {
+      "n": 0,
+      "sign": -1,
+      "epsilon": "1/1000",
+      "D0": "139/6000"
+    },
+    {
+      "n": 0,
+      "sign": 1,
+      "epsilon": "1/1000",
+      "D0": "139/6000"
+    },
+    {
+      "n": 1,
+      "sign": -1,
+      "epsilon": "1/500",
+      "D0": "143/6000"
+    },
+    {
+      "n": 1,
+      "sign": 1,
+      "epsilon": "1/500",
+      "D0": "143/6000"
+    },
+    {
+      "n": 3,
+      "sign": -1,
+      "epsilon": "1/125",
+      "D0": "167/6000"
+    },
+    {
+      "n": 3,
+      "sign": 1,
+      "epsilon": "1/125",
+      "D0": "167/6000"
+    },
+    {
+      "n": 4,
+      "sign": -1,
+      "epsilon": "2/125",
+      "D0": "199/6000"
+    },
+    {
+      "n": 4,
+      "sign": 1,
+      "epsilon": "2/125",
+      "D0": "199/6000"
+    }
+  ],
+  "negative_controls": [
+    "wrong Green sign",
+    "removed sphere curvature",
+    "nonzero anchor error"
+  ],
+  "limitations": "Finite checks support algebra; general continuity/domain/norm/clock Lipschitz claims rely on analytic proof; no empirical test"
+}

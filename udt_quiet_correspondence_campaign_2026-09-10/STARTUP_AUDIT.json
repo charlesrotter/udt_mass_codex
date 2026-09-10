@@ -1,0 +1,8 @@
+{
+  "baseline": "2a3e64befd72b801cdd54e528d9a7c68362cdd7b",
+  "command": "ulimit -v 2097152; ulimit -t 900; env OPENBLAS_NUM_THREADS=1 OMP_NUM_THREADS=1 MKL_NUM_THREADS=1 NUMEXPR_NUM_THREADS=1 PYTHONDONTWRITEBYTECODE=1 timeout 900s python3 -B verify_current_scientific_premises.py",
+  "exit_code": 1,
+  "tool_output": "G325 dependency-free replay failed: Traceback (most recent call last):\n  File \"/home/udt-admin/udt_mass_codex/udt_g325_g324_homogeneous_diagonal_linear_modes_2026-09-02/verify_package.py\", line 122, in <module>\n    main()\n  File \"/home/udt-admin/udt_mass_codex/udt_g325_g324_homogeneous_diagonal_linear_modes_2026-09-02/verify_package.py\", line 106, in main\n    gate(load(generated) == load(package / artifact), f\"replay_exact:{artifact}\")\n  File \"/home/udt-admin/udt_mass_codex/udt_g325_g324_homogeneous_diagonal_linear_modes_2026-09-02/verify_package.py\", line 31, in gate\n    assert condition, name\nAssertionError: replay_exact:DERIVATION_RESULT.json\n\n",
+  "scope": "actual full365 failed unchangedG325; later gates unreached; no waiver/repair",
+  "duration_not_measured": true
+}

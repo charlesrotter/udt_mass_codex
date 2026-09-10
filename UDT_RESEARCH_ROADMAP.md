@@ -141,4 +141,6 @@ assessment and proposed next campaign are in
 `udt_quiet_correspondence_direction_2026-09-09/DIRECTION_BRIEF.md`.
 Proposal: test whether small native angular cancellation residual controls
 specified clock/tidal departures after ordinary comparison data are fixed.
-This is a proposal, not a started campaign, new theorem or physical adoption.
+Charles subsequently authorized that proposal. Active work order and log:
+`udt_quiet_correspondence_campaign_2026-09-10/WORK_ORDER.md` and `CAMPAIGN_LOG.md`
+in that package. Two reviewed steps or three hours; no new physical adoption.
