@@ -228,3 +228,114 @@ The original author ShapeError is preserved and repaired; fresh review accepted 
 candidate. No general metric inversion, physical protocol, new transport/dynamics law or selected
 UDT history is established. Campaign COMPLETE; return for discussion, no automatic successor,
 scientific promotion or physical adoption.
+
+## Proposed methodical metric/kernel expansion — 2026-09-10 discussion
+
+Charles asks for a systematic expansion of the metric and reciprocal kernel, testing whether
+linearization, frozen choices or narrow readouts conceal structure. The aim is to discover what
+the metric requires and permits. Rich structure is a conjecture to examine, not a required
+outcome or an acceptance criterion. This section is a planning proposal, not an authorized
+scientific campaign, new premise, reviewed scientific result or replacement for current authority.
+It was prepared at baseline ba80da85feb95831e5febec79a1885f9b90974c5.
+
+### What the concern means
+
+Distinguish four different restrictions: linearizing an equation; restricting an exact calculation
+to a symmetric or stationary family; discarding part of a readout; and freezing a protocol/source
+snapshot for verification. The last preserves evidence and should continue. The first three can
+limit scientific reach, but their effects must be demonstrated rather than presumed.
+
+DCI1/KTI1 used exact local geometry in declared examples; their limits were not omitted powers
+in a small-disturbance expansion. KTI1 specifically demonstrates information lost by scalar and
+particular pair-record maps. Taking a spatial derivative in that exact identity is not itself a
+linearized metric calculation. A linear approximation describes the first response near a chosen
+background; it need not settle finite-amplitude interactions, long accumulation or realizability.
+
+There is already relevant reviewed UNPROMOTED work to reuse:
+
+- NR1/NR2, `udt_nonlinear_mode_realizability_campaign_2026-09-09/DECISION_BRIEF.md`: in its supplied
+  compact background/sector and conditional equation, some linear disturbances fail an exact-family
+  constraint, while the compatible ones have the stated local analytic completions. Free higher-order
+  corrections matter; this is not a census of all metrics or perturbations.
+- NE1, `udt_nonlinear_ripple_geometry_2026-09-09/DECISION_BRIEF.md`: within one supplied polarized
+  family and conditional equation, a fading profile coexists with an accumulating change in marked
+  expansion/tidal readouts. No genericity, stability or physical identification follows.
+
+Their full reviewed statements own the mathematics. Current G312 filter-only authority qualifies
+their inherited equation-ownership language: these are conditional branches, not established native
+UDT dynamics. Old G325 failure/status paragraphs in their fixed briefs are historical; the later
+actual session premise-verifier PASS controls current operational status. No old check is replayed
+or upgraded merely by this proposal.
+
+### One program with two connected lines of work
+
+Explore both (a) the structure allowed by supplied complete metric/pair data and what readouts
+retain, and (b) actual metric developments satisfying an explicitly named equation with complete
+data. A valid configuration for an evaluator is not automatically a solution of an established
+native response law. Conversely, open physical acquisition or unique-history selection need not
+block explicitly conditional geometric development. These lines inform one another without making
+one a universal prerequisite for the other.
+
+| Stage | Question | Required useful output |
+|---|---|---|
+| 1. Map freedom and ownership | Which objects/relations are derived, provisional, conditional, supplied or open; which freedoms did each previous result hold fixed? | A compact source-linked coverage map that reuses completed results and names genuine unexamined joins; no new universal census |
+| 2. Broaden exact local geometry and readouts | What changes when clock/ruler factors, directional shape, mixing and observer behavior can vary together in space and time? | Exact relations/ambiguities for a declared fuller class, with every supplied comparison/calibration datum exposed |
+| 3. Check simultaneous realization | Can proposed neighboring/overlapping pair records coexist in one smooth metric and actual pair family? | Compatibility conditions and actual local realizations or counterexamples; independent readout choices are not assumed jointly realizable |
+| 4. Follow nonlinear developments | Under an explicitly stated existing conditional equation, which interacting geometric variations admit full developments and what do their kernel/curvature records do? | Exact families or controlled numerics checked against original equations, constraints and boundaries; no fitted physical profile or silently imported dynamics |
+| 5. Test reach and persistence | What survives changes of allowed data, background, symmetry, amplitude and comparison extent? | A scope map of robust results, failures and open directions; a finite search is not nonexistence or completeness |
+
+Stages are a coverage discipline, not a claim that the metric's entire solution space can be
+exhausted or that each stage must close universally before the next begins. Cross-channel interactions
+must be tested explicitly: varying one component at a time is not sufficient coverage for a claim
+about jointly varying geometry. Give each candidate a clear account of what was held fixed, why,
+what happens when a restriction is relaxed, and whether the effect is coordinate/marking dependent.
+
+Use linearization as a comparison tool with an explicit parameter and validity/error scope. Compare
+it with the exact result or a supported nonlinear calculation; identify missed terms or failed
+realizability rather than merely displaying different plots. Exact calculations on a restricted
+family must retain that restriction. Differentiation, first variation, finite-amplitude change,
+chosen time profiles and equation-governed time evolution are distinct objects.
+
+Look for geometric relationships, coexistence, persistence and interaction before assigning familiar
+physical identities. Unexpected regular behavior, counterexamples, remaining freedom and absence of
+a conjectured effect all count as informative outcomes. No acceptance test requires particles,
+light, a preferred scale, a particular shape or agreement with a desired mechanism.
+
+### Proposed first bounded campaign — not started
+
+Question: how far does KTI1's exact information distinction extend when its constant clock factor,
+flat spatial geometry and stationarity are no longer assumed? For a precisely declared smooth local
+metric/observer and jointly matched pair-record class, identify which retained records and their
+spatial/time variation suffice to recover observer rotation, and which information remains supplied
+or missing. Do not assume that a collection of separately constructed pairs is one realizable family.
+
+Begin with the short freedom/ownership map, then attempt one exact generalization with a genuinely
+coupled actual-metric witness. Reuse G176/G179/G180/G182, DCI1/KTI1 and other source results only at
+their exact scopes; stop duplication if the full proposed join is already owned. This first question
+is geometric and informational; it does not impose a response equation or claim dynamical richness.
+Its completion should leave the nonlinear-development line visible as a separate subsequent choice.
+
+Scope and methods: current completed-pair working clarification; supplied regular smooth local
+Lorentzian geometry and explicitly declared observer/pair calibration; exact differential geometry,
+algebra, examples and counterexamples. Retain all terms in the declared class. A linearized comparison
+may diagnose missing terms but cannot replace the exact target. No new physical law, source, action,
+carrier, instrument model, topology/global completion or scale selection is authorized by this plan.
+
+Proposed budget: two hours maximum including construction, relevant checks, one fresh separate-context
+adversarial review and bounded source-preserving same-premise repair/re-review. At most one construction
+partner and one later fresh reviewer; no subdelegation, no inferred different-model independence or
+general capacity restoration. CPU symbolic work only; scientific subprocesses capped at 120 seconds,
+no GPU/long production. Workspace upon authorization:
+`udt_exact_metric_kernel_expansion_2026-09-10/`; existing scientific sources and protected work stay
+unchanged. Parent may update compact navigation at closeout. Required fresh-session startup applies
+if execution occurs in a new top-level session.
+
+Return point: a reviewed conditional record-map result with checked hypotheses and an actual witness,
+a counterexample/narrowed result, or a precise unresolved data/realization objection, plus a lay brief.
+Do not promise a general inverse theorem or a new physical discovery. Stop/narrow on unsupported
+source joins, a required new physical premise, scope/resource expansion, unavailable review, a
+recurring allocation limit, or the deadline. Preserve failed attempts and initial candidates. A future
+proceed to this bounded scope would authorize its included checks/review/repair; later program stages
+and any scientific promotion remain separate decisions. No successor research is launched by this
+documentation edit. Backup completeness/pre-reboot unsaved state remain UNVERIFIED; ScratchDisk
+blocks archive-dependent work only.
