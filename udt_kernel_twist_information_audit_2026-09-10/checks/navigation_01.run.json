@@ -1,0 +1,19 @@
+{
+  "command": [
+    "timeout",
+    "120",
+    "python3",
+    "-m",
+    "pytest",
+    "-q",
+    "tests/test_startup_surface.py::test_active_orientation_surface_stays_readably_bounded",
+    "tests/test_startup_surface.py::test_startup_keeps_dependency_spine_not_execution_chronology",
+    "tests/test_startup_surface.py::test_startup_does_not_promote_full_evidence_or_relocation_dump",
+    "tests/test_startup_surface.py::test_current_next_gate_is_three_sentences_not_campaign_history"
+  ],
+  "cwd": "/home/udt-admin/udt_mass_codex",
+  "start_utc": "2026-09-10T21:39:11.938941+00:00",
+  "end_utc": "2026-09-10T21:39:13.017573+00:00",
+  "exit_code": 0,
+  "timeout_seconds": 120
+}

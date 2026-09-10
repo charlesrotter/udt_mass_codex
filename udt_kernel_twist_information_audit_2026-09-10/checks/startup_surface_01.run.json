@@ -1,0 +1,15 @@
+{
+  "command": [
+    "timeout",
+    "120",
+    "python3",
+    "-c",
+    "from pathlib import Path; import verify_current_scientific_premises as v; v.validate_startup_surface(Path('.')); print('PASS: current startup surface validation')"
+  ],
+  "cwd": "/home/udt-admin/udt_mass_codex",
+  "start_utc": "2026-09-10T21:39:11.941979+00:00",
+  "end_utc": "2026-09-10T21:39:12.031580+00:00",
+  "exit_code": 0,
+  "timeout_seconds": 120,
+  "scope": "startup surface only; not full365"
+}

@@ -1,0 +1,22 @@
+{
+  "timestamp_utc": "2026-09-10T21:30:24.664414+00:00",
+  "baseline": "e1b43cc41ec1a8456bfac5096bf02f74801b7123",
+  "status": "initial candidate and corrected author check pre-review freeze",
+  "files": {
+    "WORK_ORDER.md": "6f62b7bc9c9517936c8a966ca4da69007eba4278702c0f518cc77916c6695c2a",
+    "DATA_FREEZE.md": "5f392b64863ca2ca573b09bcf81e39378a8cb26ecf7a6c84d559771eaea43db6",
+    "INITIAL_CANDIDATE.md": "efeaa9b14e88cfb4398d6552fe99d4c87faa91d460646cdb0923858734d0af4d",
+    "SOURCE_NOTES.md": "245267eb8d7b35e1bb15683bbc6a7ddfcf35ee79efa2c92e2f8dd5178b367b58",
+    "SOURCE_MANIFEST.tsv": "67772a0153479d4c1bf39fbf07ce56dcfa2da31588cfbb045e2ce965f4bef678",
+    "SOURCE_REGISTRY_ROWS.json": "fa7c47defae41ae4bf0dbd3f220174f034120d31a0769e717e27fac56deaee27",
+    "REPAIR_LOG.md": "e290f8fbc5090ca9da8021645c110d49b63caabde3452f06375650d11ffc6132",
+    "check_candidate.py": "cb8d79067d0c14fac25e4c2341929e07d269dcd9287304a55c0200e938550982",
+    "checks/INITIAL_check_candidate.py": "1cf29c543298fded3b439d8cc50d2aee80484b98bd806f24b5e5e2bb712b826f",
+    "checks/author_01.run.json": "6361c69b04cbd76eda2d58512b93a73de926114335b124f515608048784043fa",
+    "checks/author_01.stdout.json": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "checks/author_01.stderr.txt": "e247146fba845839e216a8e0c628b350af3717c4779a7985af6e17d6397419ed",
+    "checks/author_02.run.json": "d391f9b3552bc12d8824075fdae5249f415d40943e36ed015766ca313ce6cd35",
+    "checks/author_02.stdout.json": "76e92845eb1eeca131facc864651de359a4cb002669694d1ea2d9b07065e68f3",
+    "checks/author_02.stderr.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  }
+}

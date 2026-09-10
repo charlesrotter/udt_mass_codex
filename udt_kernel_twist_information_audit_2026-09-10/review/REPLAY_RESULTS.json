@@ -1,0 +1,104 @@
+[
+  {
+    "case": "author_exact_replay",
+    "command": [
+      "/usr/bin/python3",
+      "/home/udt-admin/udt_mass_codex/udt_kernel_twist_information_audit_2026-09-10/check_candidate.py"
+    ],
+    "start_utc": "2026-09-10T21:37:17.786008+00:00",
+    "end_utc": "2026-09-10T21:37:18.343414+00:00",
+    "elapsed_seconds": 0.5574060680228285,
+    "exit_code": 0,
+    "expected_exit_code": 0,
+    "timeout_seconds": 120,
+    "device": "CPU",
+    "cwd": "/home/udt-admin/udt_mass_codex",
+    "expected_error_substring": null,
+    "expected_result_observed": true,
+    "stdout_sha256": "76e92845eb1eeca131facc864651de359a4cb002669694d1ea2d9b07065e68f3",
+    "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "output_status": "PASS",
+    "output_check_count": 96
+  },
+  {
+    "case": "author_optimized_guard",
+    "command": [
+      "/usr/bin/python3",
+      "-O",
+      "/home/udt-admin/udt_mass_codex/udt_kernel_twist_information_audit_2026-09-10/check_candidate.py"
+    ],
+    "start_utc": "2026-09-10T21:37:18.343595+00:00",
+    "end_utc": "2026-09-10T21:37:19.240707+00:00",
+    "elapsed_seconds": 0.8971205559791997,
+    "exit_code": 1,
+    "expected_exit_code": 1,
+    "timeout_seconds": 120,
+    "device": "CPU",
+    "cwd": "/home/udt-admin/udt_mass_codex",
+    "expected_error_substring": "Evidence diagnostics require assertions enabled",
+    "expected_result_observed": true,
+    "stdout_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "stderr_sha256": "5f6ce97c277a6bed6c9cffcaa5dc558ff4d9f352bdfdd073056e1d6364c627dd"
+  },
+  {
+    "case": "initial_failure_reproduction",
+    "command": [
+      "/usr/bin/python3",
+      "/home/udt-admin/udt_mass_codex/udt_kernel_twist_information_audit_2026-09-10/review/reproduce_initial_failure.py"
+    ],
+    "start_utc": "2026-09-10T21:37:19.240790+00:00",
+    "end_utc": "2026-09-10T21:37:19.788255+00:00",
+    "elapsed_seconds": 0.547472795995418,
+    "exit_code": 1,
+    "expected_exit_code": 1,
+    "timeout_seconds": 120,
+    "device": "CPU",
+    "cwd": "/home/udt-admin/udt_mass_codex",
+    "expected_error_substring": "Matrix size mismatch: (3, 3) + (3, 1)",
+    "expected_result_observed": true,
+    "stdout_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "stderr_sha256": "87683baa1489e2bf672f88d36cfc7f6e9366305b89eead679ba11383a6d6e7d1"
+  },
+  {
+    "case": "author_mutant_guard_replay",
+    "command": [
+      "/usr/bin/python3",
+      "/home/udt-admin/udt_mass_codex/udt_kernel_twist_information_audit_2026-09-10/review/replay_author_guards.py"
+    ],
+    "start_utc": "2026-09-10T21:37:19.788339+00:00",
+    "end_utc": "2026-09-10T21:37:20.353982+00:00",
+    "elapsed_seconds": 0.5656516830204055,
+    "exit_code": 0,
+    "expected_exit_code": 0,
+    "timeout_seconds": 120,
+    "device": "CPU",
+    "cwd": "/home/udt-admin/udt_mass_codex",
+    "expected_error_substring": null,
+    "expected_result_observed": true,
+    "stdout_sha256": "b5ea988fdf1da5c14489f6dbe7f23ff3391b3b7843f8eb1cd0f4cf6e450a4a1c",
+    "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "output_status": "PASS",
+    "output_check_count": 96
+  },
+  {
+    "case": "author_harness_guards",
+    "command": [
+      "/usr/bin/python3",
+      "/home/udt-admin/udt_mass_codex/udt_kernel_twist_information_audit_2026-09-10/review/check_author_harness_guards.py"
+    ],
+    "start_utc": "2026-09-10T21:37:20.354141+00:00",
+    "end_utc": "2026-09-10T21:37:20.496166+00:00",
+    "elapsed_seconds": 0.1420364739606157,
+    "exit_code": 0,
+    "expected_exit_code": 0,
+    "timeout_seconds": 120,
+    "device": "CPU",
+    "cwd": "/home/udt-admin/udt_mass_codex",
+    "expected_error_substring": null,
+    "expected_result_observed": true,
+    "stdout_sha256": "ed084acd1fb95dccf9fc9e3b9eec29d880a7f849f5a9cb5cb18364115e69bc53",
+    "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "output_status": "PASS",
+    "output_check_count": 4
+  }
+]

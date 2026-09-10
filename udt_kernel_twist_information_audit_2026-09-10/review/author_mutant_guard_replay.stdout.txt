@@ -1,0 +1,581 @@
+{
+  "status": "PASS",
+  "kind": "author exact diagnostics; shared source utilities disclosed",
+  "python": "3.10.12",
+  "sympy": "1.13.1",
+  "checks": [
+    {
+      "name": "coframe_invertible",
+      "type": "exact identity",
+      "passed": true
+    },
+    {
+      "name": "unit_observer",
+      "type": "exact identity",
+      "passed": true
+    },
+    {
+      "name": "Killing_time_field",
+      "type": "exact identity",
+      "passed": true
+    },
+    {
+      "name": "coordinate_pair_0",
+      "type": "exact identity",
+      "passed": true
+    },
+    {
+      "name": "direct_coordinate_pullback_0",
+      "type": "exact identity",
+      "passed": true
+    },
+    {
+      "name": "regular_pair_det_0",
+      "type": "exact identity",
+      "passed": true
+    },
+    {
+      "name": "clock_factor_0",
+      "type": "exact identity",
+      "passed": true
+    },
+    {
+      "name": "completed_density_0",
+      "type": "exact identity",
+      "passed": true
+    },
+    {
+      "name": "completed_shift_0",
+      "type": "exact identity",
+      "passed": true
+    },
+    {
+      "name": "completed_scalar_0",
+      "type": "exact identity",
+      "passed": true
+    },
+    {
+      "name": "central_snapshot_0",
+      "type": "exact identity",
+      "passed": true
+    },
+    {
+      "name": "time_silence_before_origin_0",
+      "type": "exact identity",
+      "passed": true
+    },
+    {
+      "name": "coordinate_immersion_jacobian_0",
+      "type": "exact identity",
+      "passed": true
+    },
+    {
+      "name": "orthogonal_pair_0",
+      "type": "exact identity",
+      "passed": true
+    },
+    {
+      "name": "adapted_V_0",
+      "type": "exact identity",
+      "passed": true
+    },
+    {
+      "name": "adapted_V_derivative_0_0",
+      "type": "exact identity",
+      "passed": true
+    },
+    {
+      "name": "adapted_V_derivative_0_1",
+      "type": "exact identity",
+      "passed": true
+    },
+    {
+      "name": "adapted_V_derivative_0_2",
+      "type": "exact identity",
+      "passed": true
+    },
+    {
+      "name": "adapted_V_derivative_0_3",
+      "type": "exact identity",
+      "passed": true
+    },
+    {
+      "name": "orthogonal_immersion_jacobian_0",
+      "type": "exact identity",
+      "passed": true
+    },
+    {
+      "name": "orthogonal_immersion_pullback_0",
+      "type": "exact identity",
+      "passed": true
+    },
+    {
+      "name": "coordinate_pair_1",
+      "type": "exact identity",
+      "passed": true
+    },
+    {
+      "name": "direct_coordinate_pullback_1",
+      "type": "exact identity",
+      "passed": true
+    },
+    {
+      "name": "regular_pair_det_1",
+      "type": "exact identity",
+      "passed": true
+    },
+    {
+      "name": "clock_factor_1",
+      "type": "exact identity",
+      "passed": true
+    },
+    {
+      "name": "completed_density_1",
+      "type": "exact identity",
+      "passed": true
+    },
+    {
+      "name": "completed_shift_1",
+      "type": "exact identity",
+      "passed": true
+    },
+    {
+      "name": "completed_scalar_1",
+      "type": "exact identity",
+      "passed": true
+    },
+    {
+      "name": "central_snapshot_1",
+      "type": "exact identity",
+      "passed": true
+    },
+    {
+      "name": "time_silence_before_origin_1",
+      "type": "exact identity",
+      "passed": true
+    },
+    {
+      "name": "coordinate_immersion_jacobian_1",
+      "type": "exact identity",
+      "passed": true
+    },
+    {
+      "name": "orthogonal_pair_1",
+      "type": "exact identity",
+      "passed": true
+    },
+    {
+      "name": "adapted_V_1",
+      "type": "exact identity",
+      "passed": true
+    },
+    {
+      "name": "adapted_V_derivative_1_0",
+      "type": "exact identity",
+      "passed": true
+    },
+    {
+      "name": "adapted_V_derivative_1_1",
+      "type": "exact identity",
+      "passed": true
+    },
+    {
+      "name": "adapted_V_derivative_1_2",
+      "type": "exact identity",
+      "passed": true
+    },
+    {
+      "name": "adapted_V_derivative_1_3",
+      "type": "exact identity",
+      "passed": true
+    },
+    {
+      "name": "orthogonal_immersion_jacobian_1",
+      "type": "exact identity",
+      "passed": true
+    },
+    {
+      "name": "orthogonal_immersion_pullback_1",
+      "type": "exact identity",
+      "passed": true
+    },
+    {
+      "name": "coordinate_pair_2",
+      "type": "exact identity",
+      "passed": true
+    },
+    {
+      "name": "direct_coordinate_pullback_2",
+      "type": "exact identity",
+      "passed": true
+    },
+    {
+      "name": "regular_pair_det_2",
+      "type": "exact identity",
+      "passed": true
+    },
+    {
+      "name": "clock_factor_2",
+      "type": "exact identity",
+      "passed": true
+    },
+    {
+      "name": "completed_density_2",
+      "type": "exact identity",
+      "passed": true
+    },
+    {
+      "name": "completed_shift_2",
+      "type": "exact identity",
+      "passed": true
+    },
+    {
+      "name": "completed_scalar_2",
+      "type": "exact identity",
+      "passed": true
+    },
+    {
+      "name": "central_snapshot_2",
+      "type": "exact identity",
+      "passed": true
+    },
+    {
+      "name": "time_silence_before_origin_2",
+      "type": "exact identity",
+      "passed": true
+    },
+    {
+      "name": "coordinate_immersion_jacobian_2",
+      "type": "exact identity",
+      "passed": true
+    },
+    {
+      "name": "orthogonal_pair_2",
+      "type": "exact identity",
+      "passed": true
+    },
+    {
+      "name": "adapted_V_2",
+      "type": "exact identity",
+      "passed": true
+    },
+    {
+      "name": "adapted_V_derivative_2_0",
+      "type": "exact identity",
+      "passed": true
+    },
+    {
+      "name": "adapted_V_derivative_2_1",
+      "type": "exact identity",
+      "passed": true
+    },
+    {
+      "name": "adapted_V_derivative_2_2",
+      "type": "exact identity",
+      "passed": true
+    },
+    {
+      "name": "adapted_V_derivative_2_3",
+      "type": "exact identity",
+      "passed": true
+    },
+    {
+      "name": "orthogonal_immersion_jacobian_2",
+      "type": "exact identity",
+      "passed": true
+    },
+    {
+      "name": "orthogonal_immersion_pullback_2",
+      "type": "exact identity",
+      "passed": true
+    },
+    {
+      "name": "shift_first_jet_curl",
+      "type": "exact identity",
+      "passed": true
+    },
+    {
+      "name": "central_curl",
+      "type": "exact identity",
+      "passed": true
+    },
+    {
+      "name": "vorticity_from_records",
+      "type": "exact identity",
+      "passed": true
+    },
+    {
+      "name": "independent_quantity_from_coordinate_geometry",
+      "type": "exact identity",
+      "passed": true
+    },
+    {
+      "name": "geodesic_observer",
+      "type": "exact identity",
+      "passed": true
+    },
+    {
+      "name": "orthogonal_germ_commutator",
+      "type": "exact identity",
+      "passed": true
+    },
+    {
+      "name": "input_coframe_exterior_derivative",
+      "type": "exact identity",
+      "passed": true
+    },
+    {
+      "name": "matched_coordinate_covariance_0",
+      "type": "exact identity",
+      "passed": true
+    },
+    {
+      "name": "reselected_coordinate_shift_0",
+      "type": "exact identity",
+      "passed": true
+    },
+    {
+      "name": "matched_coordinate_covariance_1",
+      "type": "exact identity",
+      "passed": true
+    },
+    {
+      "name": "reselected_coordinate_shift_1",
+      "type": "exact identity",
+      "passed": true
+    },
+    {
+      "name": "matched_coordinate_covariance_2",
+      "type": "exact identity",
+      "passed": true
+    },
+    {
+      "name": "reselected_coordinate_shift_2",
+      "type": "exact identity",
+      "passed": true
+    },
+    {
+      "name": "common_synchronization_curl",
+      "type": "exact identity",
+      "passed": true
+    },
+    {
+      "name": "pure_gradient_no_twist",
+      "type": "exact identity",
+      "passed": true
+    },
+    {
+      "name": "Lorentz_gauge_matrix",
+      "type": "exact identity",
+      "passed": true
+    },
+    {
+      "name": "Lorentz_gauge_pullback_0",
+      "type": "exact identity",
+      "passed": true
+    },
+    {
+      "name": "scaled_ruler_density_0",
+      "type": "exact identity",
+      "passed": true
+    },
+    {
+      "name": "scaled_completed_shift_0",
+      "type": "exact identity",
+      "passed": true
+    },
+    {
+      "name": "ruler_orientation_shift_0",
+      "type": "exact identity",
+      "passed": true
+    },
+    {
+      "name": "Lorentz_gauge_pullback_1",
+      "type": "exact identity",
+      "passed": true
+    },
+    {
+      "name": "scaled_ruler_density_1",
+      "type": "exact identity",
+      "passed": true
+    },
+    {
+      "name": "scaled_completed_shift_1",
+      "type": "exact identity",
+      "passed": true
+    },
+    {
+      "name": "ruler_orientation_shift_1",
+      "type": "exact identity",
+      "passed": true
+    },
+    {
+      "name": "Lorentz_gauge_pullback_2",
+      "type": "exact identity",
+      "passed": true
+    },
+    {
+      "name": "scaled_ruler_density_2",
+      "type": "exact identity",
+      "passed": true
+    },
+    {
+      "name": "scaled_completed_shift_2",
+      "type": "exact identity",
+      "passed": true
+    },
+    {
+      "name": "ruler_orientation_shift_2",
+      "type": "exact identity",
+      "passed": true
+    },
+    {
+      "name": "erased_shift",
+      "type": "author equality guard actually rejected injected wrong formula",
+      "passed": true,
+      "actual_exception": "('erased_shift', [-3/10, -3/7, 0])"
+    },
+    {
+      "name": "curl_wrong_plus",
+      "type": "author equality guard actually rejected injected wrong formula",
+      "passed": true,
+      "actual_exception": "('curl_wrong_plus', [-3/2])"
+    },
+    {
+      "name": "vorticity_half_factor",
+      "type": "author equality guard actually rejected injected wrong formula",
+      "passed": true,
+      "actual_exception": "('vorticity_half_factor', [-9/16])"
+    },
+    {
+      "name": "vorticity_double_factor",
+      "type": "author equality guard actually rejected injected wrong formula",
+      "passed": true,
+      "actual_exception": "('vorticity_double_factor', [9/8])"
+    },
+    {
+      "name": "flat_shift_norm_as_rotation",
+      "type": "author equality guard actually rejected injected wrong formula",
+      "passed": true,
+      "actual_exception": "('flat_shift_norm_as_rotation', [128/441])"
+    },
+    {
+      "name": "one_derivative_as_curl",
+      "type": "author equality guard actually rejected injected wrong formula",
+      "passed": true,
+      "actual_exception": "('one_derivative_as_curl', [-4/3])"
+    },
+    {
+      "name": "freeze_origin_before_spatial_derivative",
+      "type": "author equality guard actually rejected injected wrong formula",
+      "passed": true,
+      "actual_exception": "('freeze_origin_before_spatial_derivative', [0, -1, 0, 1, 0, 0, 0, 0, 0])"
+    },
+    {
+      "name": "unmatched_coordinate_mapping",
+      "type": "author equality guard actually rejected injected wrong formula",
+      "passed": true,
+      "actual_exception": "('unmatched_coordinate_mapping', [0, -8/21, -8/21, -824/2205])"
+    },
+    {
+      "name": "infer_zero_twist_from_adapted_V",
+      "type": "author equality guard actually rejected injected wrong formula",
+      "passed": true,
+      "actual_exception": "('infer_zero_twist_from_adapted_V', [-1/2])"
+    },
+    {
+      "name": "infer_zero_twist_from_point_h",
+      "type": "author equality guard actually rejected injected wrong formula",
+      "passed": true,
+      "actual_exception": "('infer_zero_twist_from_point_h', [-1/2])"
+    },
+    {
+      "name": "wrong_commutator_sign",
+      "type": "author equality guard actually rejected injected wrong formula",
+      "passed": true,
+      "actual_exception": "('wrong_commutator_sign', [3, 0, 0, 0])"
+    }
+  ],
+  "check_count": 96,
+  "records": [
+    {
+      "b": "0",
+      "central_coordinate_h": [
+        "Matrix([[-1, 0], [0, 1]])",
+        "Matrix([[-1, 0], [0, 1]])",
+        "Matrix([[-1, 0], [0, 1]])"
+      ],
+      "spatial_shift_jet_xy": "0",
+      "spatial_shift_jet_yx": "0",
+      "curl_xy": "0",
+      "W_direct": "0",
+      "W_from_records": "0",
+      "orthogonal_V": [
+        "Matrix([[1, 0], [0, 1], [0, 0], [0, 0]])",
+        "Matrix([[1, 0], [0, 0], [0, 1], [0, 0]])",
+        "Matrix([[1, 0], [0, 0], [0, 0], [0, 1]])"
+      ]
+    },
+    {
+      "b": "1",
+      "central_coordinate_h": [
+        "Matrix([[-1, 0], [0, 1]])",
+        "Matrix([[-1, 0], [0, 1]])",
+        "Matrix([[-1, 0], [0, 1]])"
+      ],
+      "spatial_shift_jet_xy": "1/2",
+      "spatial_shift_jet_yx": "-1/2",
+      "curl_xy": "1",
+      "W_direct": "1/2",
+      "W_from_records": "1/2",
+      "orthogonal_V": [
+        "Matrix([[1, 0], [0, 1], [0, 0], [0, 0]])",
+        "Matrix([[1, 0], [0, 0], [0, 1], [0, 0]])",
+        "Matrix([[1, 0], [0, 0], [0, 0], [0, 1]])"
+      ]
+    },
+    {
+      "b": "-1",
+      "central_coordinate_h": [
+        "Matrix([[-1, 0], [0, 1]])",
+        "Matrix([[-1, 0], [0, 1]])",
+        "Matrix([[-1, 0], [0, 1]])"
+      ],
+      "spatial_shift_jet_xy": "-1/2",
+      "spatial_shift_jet_yx": "1/2",
+      "curl_xy": "-1",
+      "W_direct": "1/2",
+      "W_from_records": "1/2",
+      "orthogonal_V": [
+        "Matrix([[1, 0], [0, 1], [0, 0], [0, 0]])",
+        "Matrix([[1, 0], [0, 0], [0, 1], [0, 0]])",
+        "Matrix([[1, 0], [0, 0], [0, 0], [0, 1]])"
+      ]
+    },
+    {
+      "b": "3/2",
+      "central_coordinate_h": [
+        "Matrix([[-1, 0], [0, 1]])",
+        "Matrix([[-1, 0], [0, 1]])",
+        "Matrix([[-1, 0], [0, 1]])"
+      ],
+      "spatial_shift_jet_xy": "3/4",
+      "spatial_shift_jet_yx": "-3/4",
+      "curl_xy": "3/2",
+      "W_direct": "9/8",
+      "W_from_records": "9/8",
+      "orthogonal_V": [
+        "Matrix([[1, 0], [0, 1], [0, 0], [0, 0]])",
+        "Matrix([[1, 0], [0, 0], [0, 1], [0, 0]])",
+        "Matrix([[1, 0], [0, 0], [0, 0], [0, 1]])"
+      ]
+    }
+  ],
+  "candidate_sha256": "efeaa9b14e88cfb4398d6552fe99d4c87faa91d460646cdb0923858734d0af4d",
+  "script_sha256": "cb8d79067d0c14fac25e4c2341929e07d269dcd9287304a55c0200e938550982",
+  "reused_sources": {
+    "udt_g179_complete_coframe_pair_pullback_extension_2026-08-19/derive_complete_coframe_extension.py": "15b219346f49d488e3fd2990c19457dc497b32fccca5e37514fbf48341b63f73",
+    "udt_null_clock_depth_integrability_assessment_2026-09-10/check_integrability.py": "13d491796cc03f8036833294f8ba3b3edea1e6c879eabc5a48c9df568d1636a4"
+  },
+  "limits": "Analytic proof owns continuum scope; no physical records, whole-registry replay, metric inversion or independent review."
+}

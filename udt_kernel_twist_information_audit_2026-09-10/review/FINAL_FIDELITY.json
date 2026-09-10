@@ -1,0 +1,107 @@
+{
+  "checked_utc": "2026-09-10T21:41:09.612528+00:00",
+  "candidate_sha256": "efeaa9b14e88cfb4398d6552fe99d4c87faa91d460646cdb0923858734d0af4d",
+  "final_brief_sha256": "c85891778d1ae764ddd6ea4a5a197a670087f708cc7486db14170e80cec99b0c",
+  "verdict": "FIDELITY_ACCEPTED",
+  "change_reviewed": "parent status and actual review evidence update only; mathematical scope unchanged",
+  "tracked_state_scope": "initial empty tracked/index diffs were checked before parent navigation updates; no final-clean claim",
+  "24_source_pin_final_recheck": [
+    {
+      "path": "AGENTS.md",
+      "match": true
+    },
+    {
+      "path": "LIVE.md",
+      "match": true
+    },
+    {
+      "path": "HANDOFF.md",
+      "match": true
+    },
+    {
+      "path": "CURRENT_RESEARCH_PROGRAM.md",
+      "match": true
+    },
+    {
+      "path": "CURRENT_SCIENTIFIC_PREMISES.md",
+      "match": true
+    },
+    {
+      "path": "CURRENT_SCIENTIFIC_PREMISES.tsv",
+      "match": true
+    },
+    {
+      "path": "udt_uncompressed_pair_kernel_reconstruction_2026-08-14/AUDIT_REPORT.md",
+      "match": true
+    },
+    {
+      "path": "udt_uncompressed_pair_kernel_reconstruction_2026-08-14/EXACT_DERIVATION.md",
+      "match": true
+    },
+    {
+      "path": "udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/AUDIT_REPORT.md",
+      "match": true
+    },
+    {
+      "path": "udt_g176_completed_pair_dual_reciprocity_consolidation_2026-08-19/AUDIT_REPORT.md",
+      "match": true
+    },
+    {
+      "path": "udt_g179_complete_coframe_pair_pullback_extension_2026-08-19/AUDIT_REPORT.md",
+      "match": true
+    },
+    {
+      "path": "udt_g179_complete_coframe_pair_pullback_extension_2026-08-19/EXACT_DERIVATION.md",
+      "match": true
+    },
+    {
+      "path": "udt_g179_complete_coframe_pair_pullback_extension_2026-08-19/derive_complete_coframe_extension.py",
+      "match": true
+    },
+    {
+      "path": "udt_g180_completed_pair_smooth_family_descent_2026-08-19/AUDIT_REPORT.md",
+      "match": true
+    },
+    {
+      "path": "udt_g180_completed_pair_smooth_family_descent_2026-08-19/EXACT_DERIVATION.md",
+      "match": true
+    },
+    {
+      "path": "udt_g182_completed_pair_two_sided_carry_classification_2026-08-19/AUDIT_REPORT.md",
+      "match": true
+    },
+    {
+      "path": "udt_g182_completed_pair_two_sided_carry_classification_2026-08-19/EXACT_DERIVATION.md",
+      "match": true
+    },
+    {
+      "path": "udt_g220_covariant_null_clock_arrow_timelive_lift_2026-08-22/AUDIT_REPORT.md",
+      "match": true
+    },
+    {
+      "path": "udt_gr_filter_reconciliation_2026-09-09/AUTHORITY_RECORD.md",
+      "match": true
+    },
+    {
+      "path": "udt_null_clock_depth_integrability_assessment_2026-09-10/check_integrability.py",
+      "match": true
+    },
+    {
+      "path": "udt_directional_clock_curvature_whiteboard_2026-09-10/INITIAL_CANDIDATE.md",
+      "match": true
+    },
+    {
+      "path": "udt_directional_clock_curvature_whiteboard_2026-09-10/DATA_FREEZE.md",
+      "match": true
+    },
+    {
+      "path": "udt_directional_clock_curvature_whiteboard_2026-09-10/DECISION_BRIEF.md",
+      "match": true
+    },
+    {
+      "path": "udt_directional_clock_curvature_whiteboard_2026-09-10/review/REVIEW.md",
+      "match": true
+    }
+  ],
+  "all_source_pins_still_match": true
+}

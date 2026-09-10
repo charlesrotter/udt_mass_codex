@@ -1,0 +1,200 @@
+{
+  "status": "PASS",
+  "implementation": "independent direct metric expansion, connection, projection and explicit maps; no source code imports",
+  "python": "3.10.12",
+  "sympy": "1.13.1",
+  "platform": "Linux-6.8.0-138-generic-x86_64-with-glibc2.35",
+  "parameters": "t,x,y,z,b real; exact symbolic identities for every real b",
+  "arrays": {
+    "metric": [
+      4,
+      4
+    ],
+    "pair_germs": [
+      4,
+      2
+    ],
+    "pair_metrics": [
+      2,
+      2
+    ],
+    "vorticity": [
+      4,
+      4
+    ]
+  },
+  "positive_count": 88,
+  "negative_count": 18,
+  "positive_checks": [
+    "metric determinant",
+    "coframe direct correspondence",
+    "coframe invertibility",
+    "inverse spatial block",
+    "unit observer",
+    "time Killing direct coordinate Lie derivative",
+    "coordinate metric 0",
+    "coordinate regularity 0",
+    "coordinate m squared 0",
+    "coordinate completed Phi 0",
+    "coordinate extracted shift 0",
+    "central complete metric for all t 0",
+    "all-point time derivative identically zero 0",
+    "along-own-strip derivative zero 0",
+    "orthogonal metric 0",
+    "orthogonal regularity 0",
+    "adapted V 0",
+    "ordinary adapted V coordinate derivative 0,0",
+    "ordinary adapted V coordinate derivative 0,1",
+    "ordinary adapted V coordinate derivative 0,2",
+    "ordinary adapted V coordinate derivative 0,3",
+    "orthogonal clock-space commutator 0",
+    "coordinate metric 1",
+    "coordinate regularity 1",
+    "coordinate m squared 1",
+    "coordinate completed Phi 1",
+    "coordinate extracted shift 1",
+    "central complete metric for all t 1",
+    "all-point time derivative identically zero 1",
+    "along-own-strip derivative zero 1",
+    "orthogonal metric 1",
+    "orthogonal regularity 1",
+    "adapted V 1",
+    "ordinary adapted V coordinate derivative 1,0",
+    "ordinary adapted V coordinate derivative 1,1",
+    "ordinary adapted V coordinate derivative 1,2",
+    "ordinary adapted V coordinate derivative 1,3",
+    "orthogonal clock-space commutator 1",
+    "coordinate metric 2",
+    "coordinate regularity 2",
+    "coordinate m squared 2",
+    "coordinate completed Phi 2",
+    "coordinate extracted shift 2",
+    "central complete metric for all t 2",
+    "all-point time derivative identically zero 2",
+    "along-own-strip derivative zero 2",
+    "orthogonal metric 2",
+    "orthogonal regularity 2",
+    "adapted V 2",
+    "ordinary adapted V coordinate derivative 2,0",
+    "ordinary adapted V coordinate derivative 2,1",
+    "ordinary adapted V coordinate derivative 2,2",
+    "ordinary adapted V coordinate derivative 2,3",
+    "orthogonal clock-space commutator 2",
+    "marked transverse shift curl",
+    "cross-query x beta_y",
+    "cross-query y beta_x",
+    "orthogonal immersion Jacobian 0",
+    "orthogonal immersion pullback 0",
+    "orthogonal immersion rank witness 0",
+    "orthogonal immersion Jacobian 1",
+    "orthogonal immersion pullback 1",
+    "orthogonal immersion rank witness 1",
+    "orthogonal immersion Jacobian 2",
+    "orthogonal immersion pullback 2",
+    "orthogonal immersion rank witness 2",
+    "nonintegrable spatial distribution bracket",
+    "direct coordinate acceleration",
+    "direct Killing symmetric derivative",
+    "projected vorticity direct connection",
+    "vorticity norm from inverse metric contraction",
+    "direct R00 corroboration only",
+    "affine geodesic U-dot-k conservation identity",
+    "matched full coframe covariance 0",
+    "matched h covariance 0",
+    "reselected coordinate shift 0",
+    "matched full coframe covariance 1",
+    "matched h covariance 1",
+    "reselected coordinate shift 1",
+    "matched full coframe covariance 2",
+    "matched h covariance 2",
+    "reselected coordinate shift 2",
+    "common synchronization curl unchanged",
+    "flat pure-gradient shift zero curl",
+    "common coframe assumption inverse recovery",
+    "rescaled auxiliary density",
+    "rescaled completed scalar remains zero",
+    "historical control rescales"
+  ],
+  "negative_controls": [
+    {
+      "name": "wrong extracted shift sign",
+      "actual_rejection": "shift sign: [b*y]"
+    },
+    {
+      "name": "wrong transverse curl sign",
+      "actual_rejection": "curl sign: [-2*b]"
+    },
+    {
+      "name": "wrong transverse curl half factor",
+      "actual_rejection": "curl factor: [-b/2]"
+    },
+    {
+      "name": "wrong vorticity factor",
+      "actual_rejection": "W factor: [-b**2/2]"
+    },
+    {
+      "name": "erasing retained coordinate shift",
+      "actual_rejection": "shift deletion: [0, b*y/2, b*y/2, -b**2*y**2/4]"
+    },
+    {
+      "name": "pointwise shift implies invariant twist",
+      "actual_rejection": "gradient is not twist: [1]"
+    },
+    {
+      "name": "unmatched coordinate transform called same query",
+      "actual_rejection": "unmatched transformation: [0, -2*x*z/3 - y - 1, 0, 0, 0, 0, 0, 0]"
+    },
+    {
+      "name": "adapted V equality means same coordinate tangent",
+      "actual_rejection": "missing common E: [0, y, 0, 0, 0, 0, 0, 0]"
+    },
+    {
+      "name": "ordinary V derivatives supply ambient tangent derivatives",
+      "actual_rejection": "missing frame derivative: [0, b/2, 0, 0, 0, 0, 0, 0]"
+    },
+    {
+      "name": "orthogonal 3-frame assumed holonomic",
+      "actual_rejection": "spatial integrability: [-b, 0, 0, 0]"
+    },
+    {
+      "name": "along-strip data substitutes for cross-query jets",
+      "actual_rejection": "transverse derivative absent: [-b]"
+    },
+    {
+      "name": "independent strip clock potentials assumed a common scalar",
+      "actual_rejection": "mixed partial obstruction: [b]"
+    },
+    {
+      "name": "positive first leg admitted as clock",
+      "actual_rejection": "outside declared regular pair stratum"
+    },
+    {
+      "name": "degenerate pair admitted regular",
+      "actual_rejection": "outside declared regular pair stratum"
+    },
+    {
+      "name": "dependent tangent columns admitted regular",
+      "actual_rejection": "outside declared regular pair stratum"
+    },
+    {
+      "name": "historical control substituted for completed Phi",
+      "actual_rejection": "wrong scalar ownership: [log(3)/2]"
+    },
+    {
+      "name": "time evaluated before derivative",
+      "actual_rejection": "retained time dependency: [0, 1, 1, -2*t]"
+    },
+    {
+      "name": "matrix shape mismatch treated as equality",
+      "actual_rejection": "shape guard: incompatible shapes"
+    }
+  ],
+  "derived": {
+    "beta": "Matrix([[-b*y/2], [b*x/2], [0]])",
+    "curl": "b",
+    "W": "b**2/2",
+    "Ric00": "b**2/2",
+    "vorticity": "Matrix([[0, 0, 0, 0], [0, 0, -b/2, 0], [0, b/2, 0, 0], [0, 0, 0, 0]])"
+  },
+  "limitations": "exact symbolic regression supports the independent analytic argument; no all-source replay, physical protocol, global branch domain or metric inversion claim"
+}

@@ -1,0 +1,19 @@
+{
+  "case": "initial_failure_reproduction",
+  "command": [
+    "/usr/bin/python3",
+    "/home/udt-admin/udt_mass_codex/udt_kernel_twist_information_audit_2026-09-10/review/reproduce_initial_failure.py"
+  ],
+  "start_utc": "2026-09-10T21:37:19.240790+00:00",
+  "end_utc": "2026-09-10T21:37:19.788255+00:00",
+  "elapsed_seconds": 0.547472795995418,
+  "exit_code": 1,
+  "expected_exit_code": 1,
+  "timeout_seconds": 120,
+  "device": "CPU",
+  "cwd": "/home/udt-admin/udt_mass_codex",
+  "expected_error_substring": "Matrix size mismatch: (3, 3) + (3, 1)",
+  "expected_result_observed": true,
+  "stdout_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "stderr_sha256": "87683baa1489e2bf672f88d36cfc7f6e9366305b89eead679ba11383a6d6e7d1"
+}

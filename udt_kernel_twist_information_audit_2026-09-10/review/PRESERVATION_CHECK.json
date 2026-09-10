@@ -1,0 +1,325 @@
+{
+  "checked_utc": "2026-09-10T21:37:54.970874+00:00",
+  "source_manifest": [
+    {
+      "path": "AGENTS.md",
+      "actual": "9204e80ba3ebda635a7c21d562ecfdc2af8bf516aee91ae8099b04a66b8fcb8c",
+      "expected": "9204e80ba3ebda635a7c21d562ecfdc2af8bf516aee91ae8099b04a66b8fcb8c",
+      "match": true
+    },
+    {
+      "path": "LIVE.md",
+      "actual": "b409de5707989bed9cf7a793f9dac5a348800d94fa9bcae9b5bbf3e344e14170",
+      "expected": "b409de5707989bed9cf7a793f9dac5a348800d94fa9bcae9b5bbf3e344e14170",
+      "match": true
+    },
+    {
+      "path": "HANDOFF.md",
+      "actual": "a1659a8ef3f5f1b86be398dad468a28d3d81a5961be24b79c96e6653ed77f095",
+      "expected": "a1659a8ef3f5f1b86be398dad468a28d3d81a5961be24b79c96e6653ed77f095",
+      "match": true
+    },
+    {
+      "path": "CURRENT_RESEARCH_PROGRAM.md",
+      "actual": "a13a064d51cb87e99ecf248c1fe4254509d1645ad73feca4bc7adab3afae21b6",
+      "expected": "a13a064d51cb87e99ecf248c1fe4254509d1645ad73feca4bc7adab3afae21b6",
+      "match": true
+    },
+    {
+      "path": "CURRENT_SCIENTIFIC_PREMISES.md",
+      "actual": "0b2a836d077c22f9c174c6ecbdf6cebc016840c8ac7ed34aad6113bbdcbac3d3",
+      "expected": "0b2a836d077c22f9c174c6ecbdf6cebc016840c8ac7ed34aad6113bbdcbac3d3",
+      "match": true
+    },
+    {
+      "path": "CURRENT_SCIENTIFIC_PREMISES.tsv",
+      "actual": "4236f3784601617a93ac66b0de36a7a1565beef553d6b5f5c6d7d2a9a13e69dc",
+      "expected": "4236f3784601617a93ac66b0de36a7a1565beef553d6b5f5c6d7d2a9a13e69dc",
+      "match": true
+    },
+    {
+      "path": "udt_uncompressed_pair_kernel_reconstruction_2026-08-14/AUDIT_REPORT.md",
+      "actual": "45fa4a9a2a7ff911e3abf20ceae33eb88b2622c9201b4e0c63e9f63693fb9a13",
+      "expected": "45fa4a9a2a7ff911e3abf20ceae33eb88b2622c9201b4e0c63e9f63693fb9a13",
+      "match": true
+    },
+    {
+      "path": "udt_uncompressed_pair_kernel_reconstruction_2026-08-14/EXACT_DERIVATION.md",
+      "actual": "ea15d0f0dc344c566309a7f95cff4b0efc5d182f58858de5b0076857b746d64d",
+      "expected": "ea15d0f0dc344c566309a7f95cff4b0efc5d182f58858de5b0076857b746d64d",
+      "match": true
+    },
+    {
+      "path": "udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/AUDIT_REPORT.md",
+      "actual": "24712719136b000e64367b6ebd234a2ef8d5b5f07ab493cfc4ea54e73b483ed9",
+      "expected": "24712719136b000e64367b6ebd234a2ef8d5b5f07ab493cfc4ea54e73b483ed9",
+      "match": true
+    },
+    {
+      "path": "udt_g176_completed_pair_dual_reciprocity_consolidation_2026-08-19/AUDIT_REPORT.md",
+      "actual": "c7c96194a8baf3465b2d8c58ff19051ee2937b4b7f7a5d0e8859ad1a26651d84",
+      "expected": "c7c96194a8baf3465b2d8c58ff19051ee2937b4b7f7a5d0e8859ad1a26651d84",
+      "match": true
+    },
+    {
+      "path": "udt_g179_complete_coframe_pair_pullback_extension_2026-08-19/AUDIT_REPORT.md",
+      "actual": "fe4d0aa56a734ca58972ea8123264efa6e0b979831f7f618eab8f69afa7ee2f2",
+      "expected": "fe4d0aa56a734ca58972ea8123264efa6e0b979831f7f618eab8f69afa7ee2f2",
+      "match": true
+    },
+    {
+      "path": "udt_g179_complete_coframe_pair_pullback_extension_2026-08-19/EXACT_DERIVATION.md",
+      "actual": "4c059659785953822bcb4f902705ed7c0c7c4bd69243582a0663be6894cf3a51",
+      "expected": "4c059659785953822bcb4f902705ed7c0c7c4bd69243582a0663be6894cf3a51",
+      "match": true
+    },
+    {
+      "path": "udt_g179_complete_coframe_pair_pullback_extension_2026-08-19/derive_complete_coframe_extension.py",
+      "actual": "15b219346f49d488e3fd2990c19457dc497b32fccca5e37514fbf48341b63f73",
+      "expected": "15b219346f49d488e3fd2990c19457dc497b32fccca5e37514fbf48341b63f73",
+      "match": true
+    },
+    {
+      "path": "udt_g180_completed_pair_smooth_family_descent_2026-08-19/AUDIT_REPORT.md",
+      "actual": "ec92df1229846fbe457f5a43f860c32228b429810b856caf7912b0143b34b36b",
+      "expected": "ec92df1229846fbe457f5a43f860c32228b429810b856caf7912b0143b34b36b",
+      "match": true
+    },
+    {
+      "path": "udt_g180_completed_pair_smooth_family_descent_2026-08-19/EXACT_DERIVATION.md",
+      "actual": "3e81642bacf30a9e94df3db4c041f6b6ae94af91b87d9f51c044116ed2afa7b6",
+      "expected": "3e81642bacf30a9e94df3db4c041f6b6ae94af91b87d9f51c044116ed2afa7b6",
+      "match": true
+    },
+    {
+      "path": "udt_g182_completed_pair_two_sided_carry_classification_2026-08-19/AUDIT_REPORT.md",
+      "actual": "8a7b1e61373bcbc38620cd311deb5a56a3bd4b2c4800b5f0b5c9af823d150edf",
+      "expected": "8a7b1e61373bcbc38620cd311deb5a56a3bd4b2c4800b5f0b5c9af823d150edf",
+      "match": true
+    },
+    {
+      "path": "udt_g182_completed_pair_two_sided_carry_classification_2026-08-19/EXACT_DERIVATION.md",
+      "actual": "49dc9b36ca20b6477228ea22f9e65814be4d21ff228199a495be88b81794481a",
+      "expected": "49dc9b36ca20b6477228ea22f9e65814be4d21ff228199a495be88b81794481a",
+      "match": true
+    },
+    {
+      "path": "udt_g220_covariant_null_clock_arrow_timelive_lift_2026-08-22/AUDIT_REPORT.md",
+      "actual": "9806ac14f5d0bc419501878627dc79770ba4dd7c50f4f14dee0db216c3d9598f",
+      "expected": "9806ac14f5d0bc419501878627dc79770ba4dd7c50f4f14dee0db216c3d9598f",
+      "match": true
+    },
+    {
+      "path": "udt_gr_filter_reconciliation_2026-09-09/AUTHORITY_RECORD.md",
+      "actual": "80daa0be6d3e1c0ac1b734fea089c4eb487f05bc1e1fbb2fabd69322ca89f28c",
+      "expected": "80daa0be6d3e1c0ac1b734fea089c4eb487f05bc1e1fbb2fabd69322ca89f28c",
+      "match": true
+    },
+    {
+      "path": "udt_null_clock_depth_integrability_assessment_2026-09-10/check_integrability.py",
+      "actual": "13d491796cc03f8036833294f8ba3b3edea1e6c879eabc5a48c9df568d1636a4",
+      "expected": "13d491796cc03f8036833294f8ba3b3edea1e6c879eabc5a48c9df568d1636a4",
+      "match": true
+    },
+    {
+      "path": "udt_directional_clock_curvature_whiteboard_2026-09-10/INITIAL_CANDIDATE.md",
+      "actual": "b11326b4f316f675a9c3ecc596d47e33c0e39215c591fddde1013c37c68d2375",
+      "expected": "b11326b4f316f675a9c3ecc596d47e33c0e39215c591fddde1013c37c68d2375",
+      "match": true
+    },
+    {
+      "path": "udt_directional_clock_curvature_whiteboard_2026-09-10/DATA_FREEZE.md",
+      "actual": "730ee7bfc80a837e9da0c61d7c4c0622789c6a91cb2f894612554173478c8ed9",
+      "expected": "730ee7bfc80a837e9da0c61d7c4c0622789c6a91cb2f894612554173478c8ed9",
+      "match": true
+    },
+    {
+      "path": "udt_directional_clock_curvature_whiteboard_2026-09-10/DECISION_BRIEF.md",
+      "actual": "886645bef2386e4a1d480df26f7309c61fdb78c4a0861a694422038f524696f1",
+      "expected": "886645bef2386e4a1d480df26f7309c61fdb78c4a0861a694422038f524696f1",
+      "match": true
+    },
+    {
+      "path": "udt_directional_clock_curvature_whiteboard_2026-09-10/review/REVIEW.md",
+      "actual": "10073df1ba0c62cc7fcd6057715d68c9438d8d46bf52b83d3db26771fab8d4bb",
+      "expected": "10073df1ba0c62cc7fcd6057715d68c9438d8d46bf52b83d3db26771fab8d4bb",
+      "match": true
+    }
+  ],
+  "initial_freeze": [
+    {
+      "path": "WORK_ORDER.md",
+      "actual": "6f62b7bc9c9517936c8a966ca4da69007eba4278702c0f518cc77916c6695c2a",
+      "expected": "6f62b7bc9c9517936c8a966ca4da69007eba4278702c0f518cc77916c6695c2a",
+      "match": true
+    },
+    {
+      "path": "DATA_FREEZE.md",
+      "actual": "5f392b64863ca2ca573b09bcf81e39378a8cb26ecf7a6c84d559771eaea43db6",
+      "expected": "5f392b64863ca2ca573b09bcf81e39378a8cb26ecf7a6c84d559771eaea43db6",
+      "match": true
+    },
+    {
+      "path": "INITIAL_CANDIDATE.md",
+      "actual": "efeaa9b14e88cfb4398d6552fe99d4c87faa91d460646cdb0923858734d0af4d",
+      "expected": "efeaa9b14e88cfb4398d6552fe99d4c87faa91d460646cdb0923858734d0af4d",
+      "match": true
+    },
+    {
+      "path": "SOURCE_NOTES.md",
+      "actual": "245267eb8d7b35e1bb15683bbc6a7ddfcf35ee79efa2c92e2f8dd5178b367b58",
+      "expected": "245267eb8d7b35e1bb15683bbc6a7ddfcf35ee79efa2c92e2f8dd5178b367b58",
+      "match": true
+    },
+    {
+      "path": "SOURCE_MANIFEST.tsv",
+      "actual": "67772a0153479d4c1bf39fbf07ce56dcfa2da31588cfbb045e2ce965f4bef678",
+      "expected": "67772a0153479d4c1bf39fbf07ce56dcfa2da31588cfbb045e2ce965f4bef678",
+      "match": true
+    },
+    {
+      "path": "SOURCE_REGISTRY_ROWS.json",
+      "actual": "fa7c47defae41ae4bf0dbd3f220174f034120d31a0769e717e27fac56deaee27",
+      "expected": "fa7c47defae41ae4bf0dbd3f220174f034120d31a0769e717e27fac56deaee27",
+      "match": true
+    },
+    {
+      "path": "REPAIR_LOG.md",
+      "actual": "e290f8fbc5090ca9da8021645c110d49b63caabde3452f06375650d11ffc6132",
+      "expected": "e290f8fbc5090ca9da8021645c110d49b63caabde3452f06375650d11ffc6132",
+      "match": true
+    },
+    {
+      "path": "check_candidate.py",
+      "actual": "cb8d79067d0c14fac25e4c2341929e07d269dcd9287304a55c0200e938550982",
+      "expected": "cb8d79067d0c14fac25e4c2341929e07d269dcd9287304a55c0200e938550982",
+      "match": true
+    },
+    {
+      "path": "checks/INITIAL_check_candidate.py",
+      "actual": "1cf29c543298fded3b439d8cc50d2aee80484b98bd806f24b5e5e2bb712b826f",
+      "expected": "1cf29c543298fded3b439d8cc50d2aee80484b98bd806f24b5e5e2bb712b826f",
+      "match": true
+    },
+    {
+      "path": "checks/author_01.run.json",
+      "actual": "6361c69b04cbd76eda2d58512b93a73de926114335b124f515608048784043fa",
+      "expected": "6361c69b04cbd76eda2d58512b93a73de926114335b124f515608048784043fa",
+      "match": true
+    },
+    {
+      "path": "checks/author_01.stdout.json",
+      "actual": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "expected": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "match": true
+    },
+    {
+      "path": "checks/author_01.stderr.txt",
+      "actual": "e247146fba845839e216a8e0c628b350af3717c4779a7985af6e17d6397419ed",
+      "expected": "e247146fba845839e216a8e0c628b350af3717c4779a7985af6e17d6397419ed",
+      "match": true
+    },
+    {
+      "path": "checks/author_02.run.json",
+      "actual": "d391f9b3552bc12d8824075fdae5249f415d40943e36ed015766ca313ce6cd35",
+      "expected": "d391f9b3552bc12d8824075fdae5249f415d40943e36ed015766ca313ce6cd35",
+      "match": true
+    },
+    {
+      "path": "checks/author_02.stdout.json",
+      "actual": "76e92845eb1eeca131facc864651de359a4cb002669694d1ea2d9b07065e68f3",
+      "expected": "76e92845eb1eeca131facc864651de359a4cb002669694d1ea2d9b07065e68f3",
+      "match": true
+    },
+    {
+      "path": "checks/author_02.stderr.txt",
+      "actual": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "expected": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "match": true
+    }
+  ],
+  "whiteboard_manifest": [
+    {
+      "path": "udt_kernel_twist_information_audit_2026-09-10/whiteboard/COMMANDS.md",
+      "actual": "8ac1d7ef717eb8bcd98405c8a1d96a9d70cc6ac1f747fe41faa536f72a04f3db",
+      "expected": "8ac1d7ef717eb8bcd98405c8a1d96a9d70cc6ac1f747fe41faa536f72a04f3db",
+      "match": true
+    },
+    {
+      "path": "udt_kernel_twist_information_audit_2026-09-10/whiteboard/CONSTRUCTION_FREEZE.md",
+      "actual": "98a28ddf0b121eb399eb360c48d98ce7729e88e77aa412652ac30d372404c7b4",
+      "expected": "98a28ddf0b121eb399eb360c48d98ce7729e88e77aa412652ac30d372404c7b4",
+      "match": true
+    },
+    {
+      "path": "udt_kernel_twist_information_audit_2026-09-10/whiteboard/CONSTRUCTION_REPORT.md",
+      "actual": "637d040239b03123e8d7dff912038a9746ea4e0d7483279a867bd2ccbf92a231",
+      "expected": "637d040239b03123e8d7dff912038a9746ea4e0d7483279a867bd2ccbf92a231",
+      "match": true
+    },
+    {
+      "path": "udt_kernel_twist_information_audit_2026-09-10/whiteboard/CONTEXT_AND_TIMING.json",
+      "actual": "9ddc5ff9ca3cd53c9f0f6379d6084ca403aa3187ae4168cddcc9374b04c7cc53",
+      "expected": "9ddc5ff9ca3cd53c9f0f6379d6084ca403aa3187ae4168cddcc9374b04c7cc53",
+      "match": true
+    },
+    {
+      "path": "udt_kernel_twist_information_audit_2026-09-10/whiteboard/FROZEN_SOURCE_ROWS.tsv",
+      "actual": "11607137a0c4bb2e95a95c9cf64a95b75df0a5dc734d6402368fee153e43c47c",
+      "expected": "11607137a0c4bb2e95a95c9cf64a95b75df0a5dc734d6402368fee153e43c47c",
+      "match": true
+    },
+    {
+      "path": "udt_kernel_twist_information_audit_2026-09-10/whiteboard/RECORD_CHECK_RUN.json",
+      "actual": "0be9efd986d887fcc84c5986638782c0d8cc66b0ebcbc5ab33b3dc74dabbd60d",
+      "expected": "0be9efd986d887fcc84c5986638782c0d8cc66b0ebcbc5ab33b3dc74dabbd60d",
+      "match": true
+    },
+    {
+      "path": "udt_kernel_twist_information_audit_2026-09-10/whiteboard/RECORD_CHECK_STDERR.txt",
+      "actual": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "expected": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "match": true
+    },
+    {
+      "path": "udt_kernel_twist_information_audit_2026-09-10/whiteboard/RECORD_CHECK_STDOUT.json",
+      "actual": "ca807d0fbb09d2ecaa9ffebd778e55586f323ecc69fcac30e8967c9440ee762d",
+      "expected": "ca807d0fbb09d2ecaa9ffebd778e55586f323ecc69fcac30e8967c9440ee762d",
+      "match": true
+    },
+    {
+      "path": "udt_kernel_twist_information_audit_2026-09-10/whiteboard/SOURCE_MANIFEST.tsv",
+      "actual": "cd4e5a65ed354d2a484315f966acb21898d52dea5a6d562d3bfef902b79a7f1d",
+      "expected": "cd4e5a65ed354d2a484315f966acb21898d52dea5a6d562d3bfef902b79a7f1d",
+      "match": true
+    },
+    {
+      "path": "udt_kernel_twist_information_audit_2026-09-10/whiteboard/check_record_types.py",
+      "actual": "4cb788a3495882ac474e39d736073373b7204158a1b2e208cfefa7e581aecd13",
+      "expected": "4cb788a3495882ac474e39d736073373b7204158a1b2e208cfefa7e581aecd13",
+      "match": true
+    },
+    {
+      "path": "udt_kernel_twist_information_audit_2026-09-10/whiteboard/freeze_source_artifacts.py",
+      "actual": "8e2210e48f7547b3c8ae0cb111b28db7572ac999ee5a287f44e5e68986c89d7c",
+      "expected": "8e2210e48f7547b3c8ae0cb111b28db7572ac999ee5a287f44e5e68986c89d7c",
+      "match": true
+    },
+    {
+      "path": "udt_kernel_twist_information_audit_2026-09-10/whiteboard/run_record_checks.py",
+      "actual": "222eadc5c9cb34a32d53e25630378544cacb27fc9244edfead8158cb0da633cd",
+      "expected": "222eadc5c9cb34a32d53e25630378544cacb27fc9244edfead8158cb0da633cd",
+      "match": true
+    }
+  ],
+  "R1_exactly_one_shape_repair": true,
+  "additional_G216_source": {
+    "path": "udt_g216_observer_event_comparison_clock_rate_ownership_2026-08-22/AUDIT_REPORT.md",
+    "sha256": "a30cc5ec78093ca4e1f2efb2c4156bb2b5b83143a2d41c33ab447ec2a18feed2"
+  },
+  "reviewed_brief_sha256": "96d1c3ebb60240be5e13c06ebb3dccfb9efdb3cb648c58311bc5eb7e5e5108db",
+  "candidate_sha256": "efeaa9b14e88cfb4398d6552fe99d4c87faa91d460646cdb0923858734d0af4d",
+  "tracked_diff": [],
+  "index_diff": [],
+  "all_pass": true
+}

@@ -1,0 +1,20 @@
+{
+  "case": "author_optimized_guard",
+  "command": [
+    "/usr/bin/python3",
+    "-O",
+    "/home/udt-admin/udt_mass_codex/udt_kernel_twist_information_audit_2026-09-10/check_candidate.py"
+  ],
+  "start_utc": "2026-09-10T21:37:18.343595+00:00",
+  "end_utc": "2026-09-10T21:37:19.240707+00:00",
+  "elapsed_seconds": 0.8971205559791997,
+  "exit_code": 1,
+  "expected_exit_code": 1,
+  "timeout_seconds": 120,
+  "device": "CPU",
+  "cwd": "/home/udt-admin/udt_mass_codex",
+  "expected_error_substring": "Evidence diagnostics require assertions enabled",
+  "expected_result_observed": true,
+  "stdout_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "stderr_sha256": "5f6ce97c277a6bed6c9cffcaa5dc558ff4d9f352bdfdd073056e1d6364c627dd"
+}

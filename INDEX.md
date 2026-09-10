@@ -2,7 +2,7 @@
 
 Banking through G382 is COMPLETE at reviewed conditional scopes; response-foundations campaign complete.
 Roadmap and campaign: `UDT_RESEARCH_ROADMAP.md`.
-Latest: `udt_directional_clock_curvature_whiteboard_2026-09-10/DECISION_BRIEF.md`; DCI1 conditional UNPROMOTED.
+Latest: `udt_kernel_twist_information_audit_2026-09-10/DECISION_BRIEF.md`; KTI1 conditional UNPROMOTED.
 The exact 365-row `CURRENT_SCIENTIFIC_PREMISES.tsv` owns grades, not these pointers.
 GR is FILTER ONLY, not a response-law input; Local Metric Sufficiency remains owner-provisional.
 Inherited G312 Einstein claims remain CONDITIONAL, not established from filter-only GR; grades fixed.

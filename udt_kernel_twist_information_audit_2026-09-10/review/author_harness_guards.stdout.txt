@@ -1,0 +1,25 @@
+{
+  "status": "PASS",
+  "guard_rejections": [
+    {
+      "guard": "wrong scalar rejected by equality guard",
+      "rejected": true,
+      "exception": "('wrong', [1])"
+    },
+    {
+      "guard": "wrong matrix rejected by equality guard",
+      "rejected": true,
+      "exception": "('wrong', [1, 0, 0, 1])"
+    },
+    {
+      "guard": "vacuous negative control rejected",
+      "rejected": true,
+      "exception": "('ineffective rejection control', 'vacuous')"
+    },
+    {
+      "guard": "missing AST function rejected",
+      "rejected": true,
+      "exception": ""
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+--- checks/INITIAL_check_candidate.py
++++ check_candidate.py
+@@ -154,7 +154,7 @@
+ 
+ # Finite exact examples certify these controls, not a continuum theorem.
+ test={b:s.Rational(3,2),a:s.Rational(2,3),c:s.Rational(-1,5),x:s.Rational(4,7),y:s.Rational(-2,5),z:0,t:0}
+-rejected('erased_shift',s.zeros(3),extracted.subs(test))
++rejected('erased_shift',s.zeros(3,1),extracted.subs(test))
+ rejected('curl_wrong_plus', (s.diff(extracted[1],x)+s.diff(extracted[0],y)).subs(test),C[0,1].subs(test))
+ rejected('vorticity_half_factor',W_from_records.subs(test)/2,W_direct.subs(test))
+ rejected('vorticity_double_factor',2*W_from_records.subs(test),W_direct.subs(test))

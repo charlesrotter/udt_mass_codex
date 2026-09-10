@@ -1,0 +1,14 @@
+Traceback (most recent call last):
+  File "/home/udt-admin/udt_mass_codex/udt_kernel_twist_information_audit_2026-09-10/check_candidate.py", line 157, in <module>
+    rejected('erased_shift',s.zeros(3),extracted.subs(test))
+  File "/home/udt-admin/udt_mass_codex/udt_kernel_twist_information_audit_2026-09-10/check_candidate.py", line 43, in rejected
+    residual=[simple(v) for v in values(wrong-right)]
+  File "/home/udt-admin/.local/lib/python3.10/site-packages/sympy/core/decorators.py", line 106, in binary_op_wrapper
+    return func(self, other)
+  File "/home/udt-admin/.local/lib/python3.10/site-packages/sympy/matrices/matrixbase.py", line 3047, in __sub__
+    return self + (-a)
+  File "/home/udt-admin/.local/lib/python3.10/site-packages/sympy/core/decorators.py", line 106, in binary_op_wrapper
+    return func(self, other)
+  File "/home/udt-admin/.local/lib/python3.10/site-packages/sympy/matrices/matrixbase.py", line 2767, in __add__
+    raise ShapeError(f"Matrix size mismatch: {self.shape} + {other.shape}.")
+sympy.matrices.exceptions.ShapeError: Matrix size mismatch: (3, 3) + (3, 1).

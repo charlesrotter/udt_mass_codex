@@ -1,0 +1,27 @@
+{
+  "completed_utc": "2026-09-10T21:41:09.612528+00:00",
+  "role": "fresh separate-context adversarial reviewer",
+  "verdict": "VERIFIED-WITH-CAVEATS",
+  "review_sha256": "0e32c5ec911f2f5beb1b24fb6c4a1d89e07c6f0d3a157c91e92d29322b84941d",
+  "candidate_sha256": "efeaa9b14e88cfb4398d6552fe99d4c87faa91d460646cdb0923858734d0af4d",
+  "final_brief_sha256": "c85891778d1ae764ddd6ea4a5a197a670087f708cc7486db14170e80cec99b0c",
+  "scientific_repair_required": false,
+  "accepted_pre_review_R1": "exact zero-vector shape-only repair; initial failure reproduced and preserved",
+  "independent_checks": {
+    "identity_regularity": 88,
+    "actual_mutation_rejections": 18
+  },
+  "author_same_code_replay": {
+    "identities": 85,
+    "wrong_formula_controls": 11,
+    "actual_equality_guard_rejections": 11,
+    "isolated_harness_guard_rejections": 4,
+    "optimized_guard_rejected": true
+  },
+  "runtime_model_version": "UNATTESTED",
+  "different_model_claim": false,
+  "full365": "parent session evidence attributed; not rerun by reviewer",
+  "no_subagents": true,
+  "writes": "review/ only",
+  "manifest_excludes_itself": true
+}

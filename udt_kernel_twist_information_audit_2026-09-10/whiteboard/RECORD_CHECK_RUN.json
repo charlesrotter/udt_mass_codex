@@ -1,0 +1,20 @@
+{
+  "command_argv": [
+    "/usr/bin/python3",
+    "/home/udt-admin/udt_mass_codex/udt_kernel_twist_information_audit_2026-09-10/whiteboard/check_record_types.py"
+  ],
+  "cwd": "/home/udt-admin/udt_mass_codex",
+  "timeout_seconds": 120,
+  "started_utc": "2026-09-10T21:25:43.612237+00:00",
+  "runtime_model": "UNATTESTED",
+  "purpose": "Independent implementation construction check; not independent adversarial review",
+  "CONSTRUCTION_FREEZE.md_sha256_before_run": "98a28ddf0b121eb399eb360c48d98ce7729e88e77aa412652ac30d372404c7b4",
+  "check_record_types.py_sha256_before_run": "4cb788a3495882ac474e39d736073373b7204158a1b2e208cfefa7e581aecd13",
+  "run_record_checks.py_sha256_before_run": "222eadc5c9cb34a32d53e25630378544cacb27fc9244edfead8158cb0da633cd",
+  "timeout": false,
+  "finished_utc": "2026-09-10T21:25:43.940125+00:00",
+  "elapsed_seconds": 0.327885617967695,
+  "exit_code": 0,
+  "stdout_sha256": "ca807d0fbb09d2ecaa9ffebd778e55586f323ecc69fcac30e8967c9440ee762d",
+  "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+}

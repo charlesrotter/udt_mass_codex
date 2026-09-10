@@ -1,0 +1,21 @@
+{
+  "case": "author_harness_guards",
+  "command": [
+    "/usr/bin/python3",
+    "/home/udt-admin/udt_mass_codex/udt_kernel_twist_information_audit_2026-09-10/review/check_author_harness_guards.py"
+  ],
+  "start_utc": "2026-09-10T21:37:20.354141+00:00",
+  "end_utc": "2026-09-10T21:37:20.496166+00:00",
+  "elapsed_seconds": 0.1420364739606157,
+  "exit_code": 0,
+  "expected_exit_code": 0,
+  "timeout_seconds": 120,
+  "device": "CPU",
+  "cwd": "/home/udt-admin/udt_mass_codex",
+  "expected_error_substring": null,
+  "expected_result_observed": true,
+  "stdout_sha256": "ed084acd1fb95dccf9fc9e3b9eec29d880a7f849f5a9cb5cb18364115e69bc53",
+  "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "output_status": "PASS",
+  "output_check_count": 4
+}

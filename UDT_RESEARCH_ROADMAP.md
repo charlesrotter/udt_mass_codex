@@ -195,7 +195,7 @@ General branch-labelled queries remain valid when scalar compression fails; full
 is not removed when it succeeds. Preserve that distinction rather than selecting a law to enforce it.
 Assessment COMPLETE; no automatic successor, premise adoption or banking. Full365 PASS after maintenance; scientific decisions remain open.
 
-## Latest bounded connection: directional clock records and curvature
+## Directional clock records and curvature
 
 Charles authorized a 90-minute multiagent construction/review cycle. DCI1 is now reviewed
 VERIFIED-WITH-CAVEATS, conditional UNPROMOTED:
@@ -211,3 +211,20 @@ focused re-review accepted the unchanged candidate. Physical acquisition of the 
 records remains OPEN. No Einstein equation, physical identification, scale or source law is
 selected. The full candidate/data freeze/review control; campaign COMPLETE, return for
 discussion, no successor, scientific banking or physical adoption authorized by this record.
+
+## Latest bounded connection: kernel records in the twisting example
+
+Charles authorized a 90-minute construction/review follow-up. KTI1 is reviewed
+VERIFIED-WITH-CAVEATS, conditional UNPROMOTED:
+`udt_kernel_twist_information_audit_2026-09-10/DECISION_BRIEF.md`.
+Within DCI1's supplied twisting metric family, transverse spatial first jets of retained
+completed-pair shifts determine its twist parameter and vorticity norm, conditional on a
+jointly marked/calibrated coordinate-germ family. Scalar depths and central pair snapshots
+remain silent. A different regular orthogonal-germ recipe gives identical h and adapted V
+component fields while twist differs; ambient coframe/germ information has been discarded.
+Matched coordinate changes and reselected queries are distinct; a point shift is not invariant
+rotation. G176/G179 completion and G182's common-coframe hypotheses remain controlling.
+The original author ShapeError is preserved and repaired; fresh review accepted the unchanged
+candidate. No general metric inversion, physical protocol, new transport/dynamics law or selected
+UDT history is established. Campaign COMPLETE; return for discussion, no automatic successor,
+scientific promotion or physical adoption.

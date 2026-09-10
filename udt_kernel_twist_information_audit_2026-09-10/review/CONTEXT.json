@@ -1,0 +1,14 @@
+{
+  "started_utc": "2026-09-10T21:31:16+00:00",
+  "initial_reasoning_saved_utc": "2026-09-10T21:33:09.779531+00:00",
+  "context": "fresh separate reviewer; inherited parent dispatch only",
+  "runtime_model_version": "UNATTESTED",
+  "different_model_claim": false,
+  "parent_startup": "attributed: actual365 PASS and sync in same top-level session",
+  "independent_full365_run": false,
+  "baseline_head": "e1b43cc41ec1a8456bfac5096bf02f74801b7123",
+  "pre_candidate_reasoning_sha256": "4c63310804c9bede4c0b0a9453ff890d1cdc117ea876330ef086b0aa79871363",
+  "scientific_subprocess_timeout_seconds": 120,
+  "device": "CPU",
+  "writes": "this review directory only"
+}

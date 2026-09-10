@@ -1,0 +1,19 @@
+{
+  "role": "fresh construction partner, not adversarial reviewer",
+  "task_name": "/root/kernel_twist_construction",
+  "runtime_model_version": "UNATTESTED",
+  "model_independence": "No different-model claim; no model override requested or used by this partner",
+  "allocation": {
+    "status": "Actually allocated and performed the recorded work",
+    "exact_allocation_utc": "Not exposed in the partner's tool results; parent owns spawn/allocation timestamp",
+    "first_independent_clock_observation_utc": "2026-09-10 21:22:43 UTC",
+    "parent_campaign_start_utc": "2026-09-10 21:20:01 UTC, attributed to WORK_ORDER.md rather than independently measured allocation"
+  },
+  "scientific_check_started_utc": "2026-09-10T21:25:43.612237+00:00",
+  "scientific_check_finished_utc": "2026-09-10T21:25:43.940125+00:00",
+  "construction_conclusions_complete_observed_utc": "2026-09-10 21:29:46 UTC",
+  "completion_scope": "Report, frozen exact check and source manifests complete; final serialization/handoff follows this observed clock sample",
+  "exposure": "Parent task, source definitions and candidate marking/gauge findings exposed. No parent scientific code imported, read or reused. No source-package scientific code imported, read or reused.",
+  "startup_and_premise_audit": "Parent startup and session 365-row PASS attributed. Partner checked branch/head/status and exact G89/G176/G179/G182/G220 source rows. No full 365-row replay by partner.",
+  "scope_boundaries": "No subagents, commits, protected payloads, configuration/history/disk modifications or scientific promotion. Writes restricted to whiteboard. Parent's further fresh review has not yet occurred in this record."
+}

@@ -1,0 +1,66 @@
+{
+  "status": "PASS",
+  "type": "parent correspondence and preservation closeout",
+  "timestamp_utc": "2026-09-10T21:43:11.726123+00:00",
+  "command": [
+    "python3",
+    "udt_kernel_twist_information_audit_2026-09-10/checks/closeout_command.py"
+  ],
+  "script_sha256": "0bc484584b41bae4b82e3dce0f216a030fa1261227e6eac884f078a2a422785a",
+  "baseline": "e1b43cc41ec1a8456bfac5096bf02f74801b7123",
+  "head_at_check": "e1b43cc41ec1a8456bfac5096bf02f74801b7123",
+  "verdict": "VERIFIED-WITH-CAVEATS; conditional UNPROMOTED",
+  "candidate_sha256": "efeaa9b14e88cfb4398d6552fe99d4c87faa91d460646cdb0923858734d0af4d",
+  "review_sha256": "0e32c5ec911f2f5beb1b24fb6c4a1d89e07c6f0d3a157c91e92d29322b84941d",
+  "final_brief_sha256": "c85891778d1ae764ddd6ea4a5a197a670087f708cc7486db14170e80cec99b0c",
+  "checks": [
+    {
+      "name": "source_pins",
+      "entries": 24,
+      "passed": true
+    },
+    {
+      "name": "construction_artifacts",
+      "entries": 12,
+      "passed": true
+    },
+    {
+      "name": "construction_sources",
+      "entries": 12,
+      "passed": true
+    },
+    {
+      "name": "review_artifacts",
+      "entries": 34,
+      "passed": true
+    },
+    {
+      "name": "initial_bytes_preserved",
+      "entries": 15,
+      "passed": true
+    },
+    {
+      "name": "reviewed_versions_correspond",
+      "passed": true
+    },
+    {
+      "name": "actual_run_results_and_expected_rejections",
+      "passed": true,
+      "caveat": "author_01 exit1 is a preserved failed construction run; reviewer expected exits1 are explicit guard/failure reproduction checks"
+    },
+    {
+      "name": "saved_value_recomputation_correspondence",
+      "passed": true,
+      "scope": "single exact saved witness correspondence; analytic proof and reviewer direct metric computation own the broader family claim"
+    },
+    {
+      "name": "authorized_scope_and_original_visible_state",
+      "passed": true,
+      "unrelated_entries": 46,
+      "limitation": "status text only; protected payloads not inspected/hashed; not backup verification"
+    }
+  ],
+  "new_full365_run": false,
+  "premise_audit": "Actual required full365 passed earlier this top-level session; present sources unchanged; no new run claimed.",
+  "publication": "Subsequent actual commit/push evidence belongs to PUBLICATION.json and parent tool receipts."
+}

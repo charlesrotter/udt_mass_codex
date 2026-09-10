@@ -1,0 +1,655 @@
+{
+  "scope": "Conditional exact supplied-family record-type construction; UNPROMOTED; not adversarial review",
+  "versions": {
+    "python": "3.10.12 (main, Aug 31 2026, 10:18:17) [GCC 11.4.0]",
+    "sympy": "1.13.1",
+    "platform": "Linux-6.8.0-138-generic-x86_64-with-glibc2.35",
+    "logical_cpus": 24,
+    "runtime_model": "UNATTESTED"
+  },
+  "resources": {
+    "device": "CPU",
+    "dtype": "symbolic exact",
+    "grid": null,
+    "scientific_subprocess_timeout_seconds": 120
+  },
+  "parameters": "real b,t,x,y,z,a,c,r0; r0 nonzero only for the declared off-origin distinction",
+  "records": [
+    {
+      "axis": "x",
+      "h": "Matrix([[-1, b*y/2], [b*y/2, -b**2*y**2/4 + 1]])",
+      "beta_s": "-b*y/2",
+      "T": "1",
+      "m": "1",
+      "L_s": "1",
+      "Phi": "0",
+      "J_horizontal": "Matrix([[1, b*y/2], [0, 1], [0, 0], [0, 0]])",
+      "V_horizontal": "Matrix([[1, 0], [0, 1], [0, 0], [0, 0]])"
+    },
+    {
+      "axis": "y",
+      "h": "Matrix([[-1, -b*x/2], [-b*x/2, -b**2*x**2/4 + 1]])",
+      "beta_s": "b*x/2",
+      "T": "1",
+      "m": "1",
+      "L_s": "1",
+      "Phi": "0",
+      "J_horizontal": "Matrix([[1, -b*x/2], [0, 0], [0, 1], [0, 0]])",
+      "V_horizontal": "Matrix([[1, 0], [0, 0], [0, 1], [0, 0]])"
+    },
+    {
+      "axis": "z",
+      "h": "Matrix([[-1, 0], [0, 1]])",
+      "beta_s": "0",
+      "T": "1",
+      "m": "1",
+      "L_s": "1",
+      "Phi": "0",
+      "J_horizontal": "Matrix([[1, 0], [0, 0], [0, 0], [0, 1]])",
+      "V_horizontal": "Matrix([[1, 0], [0, 0], [0, 0], [0, 1]])"
+    }
+  ],
+  "horizontal_bracket": "Matrix([[-b], [0], [0], [0]])",
+  "synchronization_f": "a*x*y + c*x",
+  "reselected_Bprime": "Matrix([[-a*y - b*y/2 - c], [-a*x + b*x/2], [0]])",
+  "joint_marked_family_curl": "b",
+  "checks_passed": 55,
+  "checks": [
+    {
+      "name": "coframe_invertible_exact",
+      "pass": true,
+      "residuals": [
+        "0"
+      ]
+    },
+    {
+      "name": "U_unit",
+      "pass": true,
+      "residuals": [
+        "0"
+      ]
+    },
+    {
+      "name": "origin_entire_coframe_is_identity",
+      "pass": true,
+      "residuals": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ]
+    },
+    {
+      "name": "coordinate_x_h00",
+      "pass": true,
+      "residuals": [
+        "0"
+      ]
+    },
+    {
+      "name": "coordinate_x_det",
+      "pass": true,
+      "residuals": [
+        "0"
+      ]
+    },
+    {
+      "name": "coordinate_x_beta",
+      "pass": true,
+      "residuals": [
+        "0"
+      ]
+    },
+    {
+      "name": "coordinate_x_h11",
+      "pass": true,
+      "residuals": [
+        "0"
+      ]
+    },
+    {
+      "name": "horizontal_x_V_constant",
+      "pass": true,
+      "residuals": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ]
+    },
+    {
+      "name": "horizontal_x_h_constant",
+      "pass": true,
+      "residuals": [
+        "0",
+        "0",
+        "0",
+        "0"
+      ]
+    },
+    {
+      "name": "horizontal_x_V_derivative_t",
+      "pass": true,
+      "residuals": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ]
+    },
+    {
+      "name": "horizontal_x_V_derivative_x",
+      "pass": true,
+      "residuals": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ]
+    },
+    {
+      "name": "horizontal_x_V_derivative_y",
+      "pass": true,
+      "residuals": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ]
+    },
+    {
+      "name": "horizontal_x_V_derivative_z",
+      "pass": true,
+      "residuals": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ]
+    },
+    {
+      "name": "horizontal_x_V_derivative_b",
+      "pass": true,
+      "residuals": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ]
+    },
+    {
+      "name": "coordinate_y_h00",
+      "pass": true,
+      "residuals": [
+        "0"
+      ]
+    },
+    {
+      "name": "coordinate_y_det",
+      "pass": true,
+      "residuals": [
+        "0"
+      ]
+    },
+    {
+      "name": "coordinate_y_beta",
+      "pass": true,
+      "residuals": [
+        "0"
+      ]
+    },
+    {
+      "name": "coordinate_y_h11",
+      "pass": true,
+      "residuals": [
+        "0"
+      ]
+    },
+    {
+      "name": "horizontal_y_V_constant",
+      "pass": true,
+      "residuals": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ]
+    },
+    {
+      "name": "horizontal_y_h_constant",
+      "pass": true,
+      "residuals": [
+        "0",
+        "0",
+        "0",
+        "0"
+      ]
+    },
+    {
+      "name": "horizontal_y_V_derivative_t",
+      "pass": true,
+      "residuals": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ]
+    },
+    {
+      "name": "horizontal_y_V_derivative_x",
+      "pass": true,
+      "residuals": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ]
+    },
+    {
+      "name": "horizontal_y_V_derivative_y",
+      "pass": true,
+      "residuals": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ]
+    },
+    {
+      "name": "horizontal_y_V_derivative_z",
+      "pass": true,
+      "residuals": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ]
+    },
+    {
+      "name": "horizontal_y_V_derivative_b",
+      "pass": true,
+      "residuals": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ]
+    },
+    {
+      "name": "coordinate_z_h00",
+      "pass": true,
+      "residuals": [
+        "0"
+      ]
+    },
+    {
+      "name": "coordinate_z_det",
+      "pass": true,
+      "residuals": [
+        "0"
+      ]
+    },
+    {
+      "name": "coordinate_z_beta",
+      "pass": true,
+      "residuals": [
+        "0"
+      ]
+    },
+    {
+      "name": "coordinate_z_h11",
+      "pass": true,
+      "residuals": [
+        "0"
+      ]
+    },
+    {
+      "name": "horizontal_z_V_constant",
+      "pass": true,
+      "residuals": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ]
+    },
+    {
+      "name": "horizontal_z_h_constant",
+      "pass": true,
+      "residuals": [
+        "0",
+        "0",
+        "0",
+        "0"
+      ]
+    },
+    {
+      "name": "horizontal_z_V_derivative_t",
+      "pass": true,
+      "residuals": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ]
+    },
+    {
+      "name": "horizontal_z_V_derivative_x",
+      "pass": true,
+      "residuals": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ]
+    },
+    {
+      "name": "horizontal_z_V_derivative_y",
+      "pass": true,
+      "residuals": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ]
+    },
+    {
+      "name": "horizontal_z_V_derivative_z",
+      "pass": true,
+      "residuals": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ]
+    },
+    {
+      "name": "horizontal_z_V_derivative_b",
+      "pass": true,
+      "residuals": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ]
+    },
+    {
+      "name": "horizontal_xy_bracket_minus_bU",
+      "pass": true,
+      "residuals": [
+        "0",
+        "0",
+        "0",
+        "0"
+      ]
+    },
+    {
+      "name": "horizontal_Ux_integrable_strip",
+      "pass": true,
+      "residuals": [
+        "0",
+        "0",
+        "0",
+        "0"
+      ]
+    },
+    {
+      "name": "horizontal_Uy_integrable_strip",
+      "pass": true,
+      "residuals": [
+        "0",
+        "0",
+        "0",
+        "0"
+      ]
+    },
+    {
+      "name": "explicit_x_strip_V",
+      "pass": true,
+      "residuals": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ]
+    },
+    {
+      "name": "explicit_y_strip_V",
+      "pass": true,
+      "residuals": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ]
+    },
+    {
+      "name": "matched_chart_x_V_invariant",
+      "pass": true,
+      "residuals": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ]
+    },
+    {
+      "name": "matched_chart_x_h_invariant",
+      "pass": true,
+      "residuals": [
+        "0",
+        "0",
+        "0",
+        "0"
+      ]
+    },
+    {
+      "name": "reselected_x_beta_transform",
+      "pass": true,
+      "residuals": [
+        "0"
+      ]
+    },
+    {
+      "name": "matched_chart_y_V_invariant",
+      "pass": true,
+      "residuals": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ]
+    },
+    {
+      "name": "matched_chart_y_h_invariant",
+      "pass": true,
+      "residuals": [
+        "0",
+        "0",
+        "0",
+        "0"
+      ]
+    },
+    {
+      "name": "reselected_y_beta_transform",
+      "pass": true,
+      "residuals": [
+        "0"
+      ]
+    },
+    {
+      "name": "matched_chart_z_V_invariant",
+      "pass": true,
+      "residuals": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ]
+    },
+    {
+      "name": "matched_chart_z_h_invariant",
+      "pass": true,
+      "residuals": [
+        "0",
+        "0",
+        "0",
+        "0"
+      ]
+    },
+    {
+      "name": "reselected_z_beta_transform",
+      "pass": true,
+      "residuals": [
+        "0"
+      ]
+    },
+    {
+      "name": "joint_family_beta_curl",
+      "pass": true,
+      "residuals": [
+        "0"
+      ]
+    },
+    {
+      "name": "reselected_synchronization_beta_curl_invariant",
+      "pass": true,
+      "residuals": [
+        "0"
+      ]
+    },
+    {
+      "name": "flat_shift_false_positive",
+      "pass": true,
+      "residuals": [
+        "0"
+      ]
+    },
+    {
+      "name": "flat_shift_false_positive_curl_zero",
+      "pass": true,
+      "residuals": [
+        "0"
+      ]
+    },
+    {
+      "name": "marked_off_origin_y_shift",
+      "pass": true,
+      "residuals": [
+        "0"
+      ]
+    }
+  ],
+  "limitations": [
+    "T,m,Phi point values are algebraic; their constancy does not imply ambient flatness.",
+    "beta point values are marked pair shifts, not invariant rotation.",
+    "A jointly marked neighborhood family is supplied cross-query data, not scalar output.",
+    "Constant V coefficients in varying ambient E_b do not reconstruct coordinate J fields.",
+    "G182 V-jet equivalence requires the same common ambient coframe.",
+    "No curvature, field equations, null geodesic integration or physical protocol checked here."
+  ]
+}

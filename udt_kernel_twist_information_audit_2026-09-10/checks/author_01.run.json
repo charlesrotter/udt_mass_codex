@@ -1,0 +1,14 @@
+{
+  "command": [
+    "timeout",
+    "120",
+    "python3",
+    "udt_kernel_twist_information_audit_2026-09-10/check_candidate.py"
+  ],
+  "cwd": "/home/udt-admin/udt_mass_codex",
+  "start_utc": "2026-09-10T21:28:38.409079+00:00",
+  "end_utc": "2026-09-10T21:28:38.955828+00:00",
+  "exit_code": 1,
+  "script_sha256": "1cf29c543298fded3b439d8cc50d2aee80484b98bd806f24b5e5e2bb712b826f",
+  "timeout_seconds": 120
+}

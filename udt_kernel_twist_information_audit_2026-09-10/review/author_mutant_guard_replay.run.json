@@ -1,0 +1,21 @@
+{
+  "case": "author_mutant_guard_replay",
+  "command": [
+    "/usr/bin/python3",
+    "/home/udt-admin/udt_mass_codex/udt_kernel_twist_information_audit_2026-09-10/review/replay_author_guards.py"
+  ],
+  "start_utc": "2026-09-10T21:37:19.788339+00:00",
+  "end_utc": "2026-09-10T21:37:20.353982+00:00",
+  "elapsed_seconds": 0.5656516830204055,
+  "exit_code": 0,
+  "expected_exit_code": 0,
+  "timeout_seconds": 120,
+  "device": "CPU",
+  "cwd": "/home/udt-admin/udt_mass_codex",
+  "expected_error_substring": null,
+  "expected_result_observed": true,
+  "stdout_sha256": "b5ea988fdf1da5c14489f6dbe7f23ff3391b3b7843f8eb1cd0f4cf6e450a4a1c",
+  "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "output_status": "PASS",
+  "output_check_count": 96
+}

@@ -1,0 +1,14 @@
+{
+  "type": "parent exact arithmetic from saved directional shift jets; not a fresh geometry implementation",
+  "input": "checks/author_02.stdout.json",
+  "input_sha256": "76e92845eb1eeca131facc864651de359a4cb002669694d1ea2d9b07065e68f3",
+  "chosen_record_b": "3/2",
+  "partial_x_beta_y": "3/4",
+  "partial_y_beta_x": "-3/4",
+  "recomputed_curl": "3/2",
+  "recomputed_W": "9/8",
+  "saved_direct_W": "9/8",
+  "status": "PASS",
+  "method": "stdlib fractions.Fraction; curl=xy-yx; W=curl*curl/2",
+  "scope": "single exact saved witness correspondence; analytic proof and reviewer direct metric computation own the broader family claim"
+}

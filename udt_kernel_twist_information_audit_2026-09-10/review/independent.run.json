@@ -1,0 +1,15 @@
+{
+  "command": [
+    "/usr/bin/python3",
+    "/home/udt-admin/udt_mass_codex/udt_kernel_twist_information_audit_2026-09-10/review/independent_geometry.py"
+  ],
+  "cwd": "/home/udt-admin/udt_mass_codex",
+  "start_utc": "2026-09-10T21:35:23.675225+00:00",
+  "end_utc": "2026-09-10T21:35:24.178267+00:00",
+  "elapsed_seconds": 0.503043879987672,
+  "timeout_seconds": 120,
+  "timed_out": false,
+  "exit_code": 0,
+  "device": "CPU",
+  "code_sha256": "c313d9886f9dcd4a990a1ea676ed320a9a56586fa131bc9b0e1fd813726c1871"
+}
