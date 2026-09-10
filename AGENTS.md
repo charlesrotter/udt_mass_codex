@@ -74,18 +74,18 @@ a long solve before that orientation.
 
 ## Scoped synthesis and documentation
 
+After startup, use the maintained checkpoint in `UDT_RESEARCH_ROADMAP.md`; it supplies neither premises nor authorization.
 Method instructions, skills, hooks, examples, and dispatch templates do not supply scientific
 premises. Registry sources own grades. Historical field, action, carrier, boundary, topology, and
-finite-cell examples are branch-specific unless current evidence admits them. A coverage checklist
-finds omissions; it is not a completeness theorem. Within authorized synthesis, reconstruct only
-accepted arguments and same-premise checks. Standard mathematics and numerical methods are allowed
+finite-cell examples are branch-specific unless current evidence admits them. Checklists
+find omissions, not completeness. Authorized synthesis uses only accepted arguments and same-premise checks. Standard mathematics and numerical methods are allowed
 as methods with hypotheses checked. Do not add a physical premise, replace an equation, import a
 fitted profile, or invent a connection. Mark an unsupported join open.
 
 A labeled draft or candidate-synthesis checkpoint may be saved and committed with snapshot, scope,
-premises, limits, and review state; it is not thereby accepted. Review documentation in proportion
-to what changed and record omissions. Review does not upgrade source evidence, adopt a premise,
-establish empirical truth, or make canon. A claimed independent reviewer must be an actual separate context.
+premises, limits and review state, without acceptance. Review documentation in proportion
+to what changed and record omissions. Review neither upgrades evidence nor adopts premises,
+establishes empirical truth or makes canon. A claimed independent reviewer must be an actual separate context.
 
 ## Bounded discovery authorization
 

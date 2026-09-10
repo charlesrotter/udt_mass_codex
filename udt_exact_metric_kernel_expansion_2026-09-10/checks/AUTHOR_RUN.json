@@ -1,0 +1,20 @@
+{
+  "start_utc": "2026-09-10T23:02:36.228424+00:00",
+  "argv": [
+    "python3",
+    "udt_exact_metric_kernel_expansion_2026-09-10/check_exact_geometry.py"
+  ],
+  "timeout_seconds": 120,
+  "device": "CPU",
+  "dtype": "exact SymPy integers/rationals/symbols",
+  "shapes": [
+    "4x4 metric",
+    "3x3 rest form",
+    "2x2 pair"
+  ],
+  "script_sha256": "1f2bcf0dd18a39258e1bc33405492d002be83decb91409d3a3fadd1d1a9573ce",
+  "python": "3.10.12",
+  "exit_code": 0,
+  "elapsed_seconds": 3.3698391529615037,
+  "end_utc": "2026-09-10T23:02:39.598363+00:00"
+}

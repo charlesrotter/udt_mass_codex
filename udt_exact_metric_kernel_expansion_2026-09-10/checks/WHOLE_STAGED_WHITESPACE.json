@@ -1,0 +1,18 @@
+{
+  "utc": "2026-09-10T23:17:52.235072+00:00",
+  "argv": [
+    "git",
+    "diff",
+    "--cached",
+    "--check"
+  ],
+  "exit_code": 2,
+  "stdout": "udt_exact_metric_kernel_expansion_2026-09-10/METHOD_CHANGES_INITIAL.patch:6: trailing whitespace.\n+ \nudt_exact_metric_kernel_expansion_2026-09-10/METHOD_CHANGES_INITIAL.patch:8: trailing whitespace.\n+ \nudt_exact_metric_kernel_expansion_2026-09-10/METHOD_CHANGES_INITIAL.patch:24: trailing whitespace.\n+ \nudt_exact_metric_kernel_expansion_2026-09-10/METHOD_CHANGES_INITIAL.patch:26: trailing whitespace.\n+ \nudt_exact_metric_kernel_expansion_2026-09-10/METHOD_CHANGES_INITIAL.patch:31: trailing whitespace.\n+ \nudt_exact_metric_kernel_expansion_2026-09-10/METHOD_CHANGES_INITIAL.patch:38: trailing whitespace.\n+ \nudt_exact_metric_kernel_expansion_2026-09-10/METHOD_CHANGES_INITIAL.patch:48: trailing whitespace.\n+ \nudt_exact_metric_kernel_expansion_2026-09-10/METHOD_CHANGES_INITIAL.patch:79: trailing whitespace.\n+ \nudt_exact_metric_kernel_expansion_2026-09-10/METHOD_CHANGES_INITIAL.patch:81: trailing whitespace.\n+ \nudt_exact_metric_kernel_expansion_2026-09-10/METHOD_CHANGES_INITIAL.patch:85: trailing whitespace.\n+ \nudt_exact_metric_kernel_expansion_2026-09-10/METHOD_CHANGES_INITIAL.patch:88: trailing whitespace.\n+ \nudt_exact_metric_kernel_expansion_2026-09-10/METHOD_CHANGES_INITIAL.patch:94: trailing whitespace.\n+ \nudt_exact_metric_kernel_expansion_2026-09-10/review/METHOD_DIFF_REVIEWED.patch:6: trailing whitespace.\n+ \nudt_exact_metric_kernel_expansion_2026-09-10/review/METHOD_DIFF_REVIEWED.patch:8: trailing whitespace.\n+ \nudt_exact_metric_kernel_expansion_2026-09-10/review/METHOD_DIFF_REVIEWED.patch:19: trailing whitespace.\n+ \nudt_exact_metric_kernel_expansion_2026-09-10/review/METHOD_DIFF_REVIEWED.patch:27: trailing whitespace.\n+ \nudt_exact_metric_kernel_expansion_2026-09-10/review/METHOD_DIFF_REVIEWED.patch:29: trailing whitespace.\n+ \nudt_exact_metric_kernel_expansion_2026-09-10/review/METHOD_DIFF_REVIEWED.patch:41: trailing whitespace.\n+ \nudt_exact_metric_kernel_expansion_2026-09-10/review/METHOD_DIFF_REVIEWED.patch:49: trailing whitespace.\n+ \nudt_exact_metric_kernel_expansion_2026-09-10/review/METHOD_DIFF_REVIEWED.patch:59: trailing whitespace.\n+ \nudt_exact_metric_kernel_expansion_2026-09-10/review/METHOD_DIFF_REVIEWED.patch:98: trailing whitespace.\n+ \nudt_exact_metric_kernel_expansion_2026-09-10/review/METHOD_DIFF_REVIEWED.patch:100: trailing whitespace.\n+ \nudt_exact_metric_kernel_expansion_2026-09-10/review/METHOD_DIFF_REVIEWED.patch:104: trailing whitespace.\n+ \nudt_exact_metric_kernel_expansion_2026-09-10/review/METHOD_DIFF_REVIEWED.patch:107: trailing whitespace.\n+ \nudt_exact_metric_kernel_expansion_2026-09-10/review/METHOD_DIFF_REVIEWED.patch:113: trailing whitespace.\n+ \n",
+  "stderr": "",
+  "staged_count": 80,
+  "unexpected_staged_paths": [],
+  "expected_frozen_patch_exclusions": [
+    "udt_exact_metric_kernel_expansion_2026-09-10/METHOD_CHANGES_INITIAL.patch",
+    "udt_exact_metric_kernel_expansion_2026-09-10/review/METHOD_DIFF_REVIEWED.patch"
+  ]
+}

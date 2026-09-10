@@ -1,0 +1,34 @@
+{
+  "utc": "2026-09-10T23:19:48.594831+00:00",
+  "kind": "parent independent byte correspondence check; no proof/chronology/model claim",
+  "sets": {
+    "initial_28": {
+      "count": 28,
+      "mismatches": []
+    },
+    "review_24": {
+      "count": 24,
+      "mismatches": []
+    },
+    "construction_manifest": {
+      "count": 14,
+      "mismatches": []
+    },
+    "reviewed_final_narratives": {
+      "count": 6,
+      "mismatches": []
+    },
+    "scientific_sources": {
+      "count": 19,
+      "mismatches": []
+    },
+    "selected_registry_rows": {
+      "count": 10,
+      "mismatches": []
+    }
+  },
+  "original_untracked_count": 46,
+  "original_status_sha256": "55e7c4508622f912730f9c068cc571c370b3977bc1110eb0a48a8218dbe024c2",
+  "protected_payloads_hashed": false,
+  "scope": "completed reviewer baseline artifacts; staging-diff addendum pending"
+}

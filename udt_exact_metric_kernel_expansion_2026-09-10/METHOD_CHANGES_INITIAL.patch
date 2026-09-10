@@ -1,0 +1,117 @@
+diff --git a/AGENTS.md b/AGENTS.md
+index 823486f6..ec83b4e4 100644
+--- a/AGENTS.md
++++ b/AGENTS.md
+@@ -74,6 +74,13 @@ a long solve before that orientation.
+ 
+ ## Scoped synthesis and documentation
+ 
++For scientific planning after startup, consult the maintained roadmap checkpoint in
++`UDT_RESEARCH_ROADMAP.md`. Name the roadmap stage, exact question, restrictions being released,
++and source/authorization before beginning. At closeout update that same checkpoint with result,
++remaining restrictions, review state and next justified decision; keep exact geometry/readout work
++and conditional nonlinear-development work visible. The roadmap supplies neither scientific
++premises nor automatic authority for another campaign. A scope change must be explicit, not drift.
++
+ Method instructions, skills, hooks, examples, and dispatch templates do not supply scientific
+ premises. Registry sources own grades. Historical field, action, carrier, boundary, topology, and
+ finite-cell examples are branch-specific unless current evidence admits them. A coverage checklist
+diff --git a/CURRENT_RESEARCH_PROGRAM.md b/CURRENT_RESEARCH_PROGRAM.md
+index 91fa0ef2..ad711f54 100644
+--- a/CURRENT_RESEARCH_PROGRAM.md
++++ b/CURRENT_RESEARCH_PROGRAM.md
+@@ -4,6 +4,9 @@ Date: 2026-09-10
+ 
+ `LIVE.md` controls status; exact 365-row `CURRENT_SCIENTIFIC_PREMISES.tsv` controls ownership.
+ 
++Research continuity: consult the maintained roadmap checkpoint in `UDT_RESEARCH_ROADMAP.md`
++before proposing or continuing scientific work; its stage/scope record is not new authorization.
++
+ ## Architecture
+ 
+ Keep three layers distinct:
+diff --git a/UDT_RESEARCH_ROADMAP.md b/UDT_RESEARCH_ROADMAP.md
+index 8e8adf31..3d2d3ea1 100644
+--- a/UDT_RESEARCH_ROADMAP.md
++++ b/UDT_RESEARCH_ROADMAP.md
+@@ -2,8 +2,9 @@
+ 
+ Updated: 2026-09-10. Charles Rotter requested the whole plan on 2026-09-09;
+ its original baseline was `d0fe8b3e5f95c3963dc8702bb4a31485678bd1e3`, branch `grok`.
+-The campaigns described below are COMPLETE; their authorizations are spent, not live dispatches.
+-Current operational handoff: `HANDOFF.md`; no successor scientific campaign is authorized.
++Earlier campaigns described below are COMPLETE; their authorizations are spent, not live dispatches.
++Current operational handoff: `HANDOFF.md`; the maintained checkpoint below records the newly
++authorized bounded campaign and its return point. No later campaign is automatically authorized.
+ This is a maintained direction document, not a premise, theorem, promotion
+ or replacement for LIVE, the exact registry, or reviewed scientific sources.
+ 
+@@ -234,9 +235,29 @@ scientific promotion or physical adoption.
+ Charles asks for a systematic expansion of the metric and reciprocal kernel, testing whether
+ linearization, frozen choices or narrow readouts conceal structure. The aim is to discover what
+ the metric requires and permits. Rich structure is a conjecture to examine, not a required
+-outcome or an acceptance criterion. This section is a planning proposal, not an authorized
+-scientific campaign, new premise, reviewed scientific result or replacement for current authority.
+-It was prepared at baseline ba80da85feb95831e5febec79a1885f9b90974c5.
++outcome or an acceptance criterion. The program is a planning framework, not a scientific premise
++or result. Its first bounded campaign was subsequently authorized; the checkpoint below owns that
++dispatch status. The original proposal was prepared at ba80da85feb95831e5febec79a1885f9b90974c5.
++
++### Maintained roadmap checkpoint
++
++Charles requested persistent roadmap discipline on 2026-09-10. Before each authorized campaign,
++identify its line/stage, source-owned question, restrictions released, remaining supplied choices,
++and budget/return point. At closeout update this same section with the result and review link,
++what was learned, limitations and the next justified decision. Do not replace it with dated status
++variants or infer authority from a planned row. A proposed deviation must state its reason and
++authorization. A coverage row is not a completeness theorem or a scientific premise.
++
++| Line/stage | Current placement | Evidence or gate |
++|---|---|---|
++| Exact metric/kernel, stages1–2 | ACTIVE: first authorized exact expansion | `udt_exact_metric_kernel_expansion_2026-09-10/WORK_ORDER.md`; two hours, fresh review/repair included |
++| Joint realization, stage3 | Required within that campaign for its chosen local pair records | Actual shared geometry/immersions or a precise obstruction; no arbitrary-record realizability assumed |
++| Conditional nonlinear developments, stage4 | Visible next line; no new dispatch | Reuse NR1/NR2 and NE1 at their conditional scopes; name an unexamined interaction and equation before proposing work |
++| Reach/persistence, stage5 | Candidate-specific checks now; broader study not dispatched | Record background, symmetry, amplitude/domain and data restrictions; do not infer genericity |
++
++Active return point: a reviewed conditional result/witness, narrowed counterexample or unresolved
++data/realization objection, plus lay brief and updated checkpoint. Hard return 2026-09-11
++00:48:30 UTC. Later stages and scientific promotion remain separate decisions.
+ 
+ ### What the concern means
+ 
+@@ -301,7 +322,7 @@ physical identities. Unexpected regular behavior, counterexamples, remaining fre
+ a conjectured effect all count as informative outcomes. No acceptance test requires particles,
+ light, a preferred scale, a particular shape or agreement with a desired mechanism.
+ 
+-### Proposed first bounded campaign — not started
++### First bounded campaign — authorized 2026-09-10
+ 
+ Question: how far does KTI1's exact information distinction extend when its constant clock factor,
+ flat spatial geometry and stationarity are no longer assumed? For a precisely declared smooth local
+@@ -321,11 +342,11 @@ algebra, examples and counterexamples. Retain all terms in the declared class. A
+ may diagnose missing terms but cannot replace the exact target. No new physical law, source, action,
+ carrier, instrument model, topology/global completion or scale selection is authorized by this plan.
+ 
+-Proposed budget: two hours maximum including construction, relevant checks, one fresh separate-context
++Authorized budget: two hours maximum including construction, relevant checks, one fresh separate-context
+ adversarial review and bounded source-preserving same-premise repair/re-review. At most one construction
+ partner and one later fresh reviewer; no subdelegation, no inferred different-model independence or
+ general capacity restoration. CPU symbolic work only; scientific subprocesses capped at 120 seconds,
+-no GPU/long production. Workspace upon authorization:
++no GPU/long production. Authorized workspace:
+ `udt_exact_metric_kernel_expansion_2026-09-10/`; existing scientific sources and protected work stay
+ unchanged. Parent may update compact navigation at closeout. Required fresh-session startup applies
+ if execution occurs in a new top-level session.
+@@ -334,8 +355,8 @@ Return point: a reviewed conditional record-map result with checked hypotheses a
+ a counterexample/narrowed result, or a precise unresolved data/realization objection, plus a lay brief.
+ Do not promise a general inverse theorem or a new physical discovery. Stop/narrow on unsupported
+ source joins, a required new physical premise, scope/resource expansion, unavailable review, a
+-recurring allocation limit, or the deadline. Preserve failed attempts and initial candidates. A future
+-proceed to this bounded scope would authorize its included checks/review/repair; later program stages
+-and any scientific promotion remain separate decisions. No successor research is launched by this
+-documentation edit. Backup completeness/pre-reboot unsaved state remain UNVERIFIED; ScratchDisk
++recurring allocation limit, or the deadline. Preserve failed attempts and initial candidates. Charles's
++current proceed authorizes these included checks/review/repair; later program stages and any scientific
++promotion remain separate decisions. Work order and maintained checkpoint own current execution state.
++Backup completeness/pre-reboot unsaved state remain UNVERIFIED; ScratchDisk
+ blocks archive-dependent work only.

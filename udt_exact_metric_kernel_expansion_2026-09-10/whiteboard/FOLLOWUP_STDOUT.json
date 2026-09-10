@@ -1,0 +1,238 @@
+{
+  "status": "PASS",
+  "python": "3.10.12",
+  "sympy": "1.13.1",
+  "runtime_model_version": "UNATTESTED",
+  "evidence_type": "exact symbolic construction regression, not fresh review",
+  "check_count": 25,
+  "checks": [
+    {
+      "name": "observer_covector",
+      "passed": true,
+      "residuals": [
+        "0",
+        "0",
+        "0",
+        "0"
+      ]
+    },
+    {
+      "name": "observer_unit",
+      "passed": true,
+      "residuals": [
+        "0"
+      ]
+    },
+    {
+      "name": "direct_projected_vorticity_norm",
+      "passed": true,
+      "residuals": [
+        "0"
+      ]
+    },
+    {
+      "name": "density_omission_norm_difference",
+      "passed": true,
+      "residuals": [
+        "0"
+      ]
+    },
+    {
+      "name": "normalized_metric_lambda_independent_0",
+      "passed": true,
+      "residuals": [
+        "0",
+        "0",
+        "0",
+        "0"
+      ]
+    },
+    {
+      "name": "density_retains_lambda_0",
+      "passed": true,
+      "residuals": [
+        "0"
+      ]
+    },
+    {
+      "name": "normalized_shift_0",
+      "passed": true,
+      "residuals": [
+        "0"
+      ]
+    },
+    {
+      "name": "normalized_metric_lambda_independent_1",
+      "passed": true,
+      "residuals": [
+        "0",
+        "0",
+        "0",
+        "0"
+      ]
+    },
+    {
+      "name": "density_retains_lambda_1",
+      "passed": true,
+      "residuals": [
+        "0"
+      ]
+    },
+    {
+      "name": "normalized_shift_1",
+      "passed": true,
+      "residuals": [
+        "0"
+      ]
+    },
+    {
+      "name": "normalized_metric_lambda_independent_2",
+      "passed": true,
+      "residuals": [
+        "0",
+        "0",
+        "0",
+        "0"
+      ]
+    },
+    {
+      "name": "density_retains_lambda_2",
+      "passed": true,
+      "residuals": [
+        "0"
+      ]
+    },
+    {
+      "name": "normalized_shift_2",
+      "passed": true,
+      "residuals": [
+        "0"
+      ]
+    },
+    {
+      "name": "normalized_metric_lambda_independent_3",
+      "passed": true,
+      "residuals": [
+        "0",
+        "0",
+        "0",
+        "0"
+      ]
+    },
+    {
+      "name": "density_retains_lambda_3",
+      "passed": true,
+      "residuals": [
+        "0"
+      ]
+    },
+    {
+      "name": "normalized_shift_3",
+      "passed": true,
+      "residuals": [
+        "0"
+      ]
+    },
+    {
+      "name": "normalized_metric_lambda_independent_4",
+      "passed": true,
+      "residuals": [
+        "0",
+        "0",
+        "0",
+        "0"
+      ]
+    },
+    {
+      "name": "density_retains_lambda_4",
+      "passed": true,
+      "residuals": [
+        "0"
+      ]
+    },
+    {
+      "name": "normalized_shift_4",
+      "passed": true,
+      "residuals": [
+        "0"
+      ]
+    },
+    {
+      "name": "normalized_metric_lambda_independent_5",
+      "passed": true,
+      "residuals": [
+        "0",
+        "0",
+        "0",
+        "0"
+      ]
+    },
+    {
+      "name": "density_retains_lambda_5",
+      "passed": true,
+      "residuals": [
+        "0"
+      ]
+    },
+    {
+      "name": "normalized_shift_5",
+      "passed": true,
+      "residuals": [
+        "0"
+      ]
+    },
+    {
+      "name": "general_actual_tape_coordinate_transform",
+      "passed": true,
+      "residuals": [
+        "0",
+        "0",
+        "0",
+        "0"
+      ]
+    },
+    {
+      "name": "general_actual_tape_determinant",
+      "passed": true,
+      "residuals": [
+        "0"
+      ]
+    },
+    {
+      "name": "general_original_clock_norm",
+      "passed": true,
+      "residuals": [
+        "0"
+      ]
+    }
+  ],
+  "vorticity_norm": "1/(2*lam**2)",
+  "parameters": {
+    "lambda": "arbitrary positive",
+    "comparison_values": [
+      "1",
+      "2"
+    ],
+    "coordinates": [
+      "t",
+      "x",
+      "y",
+      "z"
+    ],
+    "domain": "R^4"
+  },
+  "shapes": {
+    "metric": [
+      4,
+      4
+    ],
+    "projector": [
+      4,
+      4
+    ],
+    "pair_metric": [
+      2,
+      2
+    ]
+  }
+}

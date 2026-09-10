@@ -1,0 +1,30 @@
+{
+  "utc": "2026-09-10T23:18:02.248070+00:00",
+  "files": {
+    "udt_exact_metric_kernel_expansion_2026-09-10/review/AUTHOR_GUARD_RUN.json": "2aacc7b893d4f36fab8273f021ce0b7f361828b65dd5c7de37e7376bef4f21c4",
+    "udt_exact_metric_kernel_expansion_2026-09-10/review/CONTEXT.json": "6daeee8581959728f59d44d51a8d3e0cf938ce3bce33eda1ec1379dc756454c5",
+    "udt_exact_metric_kernel_expansion_2026-09-10/review/FINAL_FIDELITY.json": "4c4d2300cf1f021251669f3361c55e74bed3b7c00093fe512eb35cf6c794691b",
+    "udt_exact_metric_kernel_expansion_2026-09-10/review/INDEPENDENT_PRE_RUN.json": "d7398dc918144343d973dbaeff0d2e6ed382f8a5d01eee095642e281e7e93a48",
+    "udt_exact_metric_kernel_expansion_2026-09-10/review/INDEPENDENT_RUN.json": "a0c4357a7dbe8f59ce197699821d50606c706f831b6488a1a73af80d449a34cc",
+    "udt_exact_metric_kernel_expansion_2026-09-10/review/METHOD_DIFF_REVIEWED.patch": "f2c6ae3b7fc2a8f92a1ea0d3dcfc5fbc023160e9c8a1085037f7cd82c14bd1a6",
+    "udt_exact_metric_kernel_expansion_2026-09-10/review/ORIGINAL_STATUS_CHECK.json": "399b23ae865e933b6a85caa6395d29789622c944975d212c58d3b07cfcdb10f3",
+    "udt_exact_metric_kernel_expansion_2026-09-10/review/PRESERVATION.json": "997f715a6ba1e71c93ad85c4bc56f6d3a450920a74d706feaca12191125d9601",
+    "udt_exact_metric_kernel_expansion_2026-09-10/review/PRE_CANDIDATE_PLAN.md": "5e7e321d71ad42a413e3d9f5838a99a6b38067e22cb3430900bc3677017a0ca3",
+    "udt_exact_metric_kernel_expansion_2026-09-10/review/REPLAY_RUNS.json": "a7570dd8b6f391cd4ca0fe790690a5005f8fe3b60983d47b657789776749d192",
+    "udt_exact_metric_kernel_expansion_2026-09-10/review/REVIEW.md": "5359bd687245ab0f5d085b430987bf5b2c08321dd9d6f40b4ee1f753a9e586f7",
+    "udt_exact_metric_kernel_expansion_2026-09-10/review/VISIBLE_STATUS.txt": "8b7eb462ffae4e127beb73b72721199459e868d2970ab5c24752120b543e3dd9",
+    "udt_exact_metric_kernel_expansion_2026-09-10/review/author_optimized_guard.stderr.txt": "e63466bdf6bd8df2b1f689f3491d50488acb43b57e169883313dff4b71878ee2",
+    "udt_exact_metric_kernel_expansion_2026-09-10/review/author_optimized_guard.stdout.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "udt_exact_metric_kernel_expansion_2026-09-10/review/author_replay.stderr.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "udt_exact_metric_kernel_expansion_2026-09-10/review/author_replay.stdout.json": "d3fbec7169feca892bad47bdbc04c7a0abdd229e529c143d822496b9f2d028c1",
+    "udt_exact_metric_kernel_expansion_2026-09-10/review/construction_replay.stderr.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "udt_exact_metric_kernel_expansion_2026-09-10/review/construction_replay.stdout.json": "1e99217ad0d90c78c3a71299fcb3dd7811f8aaf86a0df964e93172f8000713a0",
+    "udt_exact_metric_kernel_expansion_2026-09-10/review/followup_replay.stderr.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "udt_exact_metric_kernel_expansion_2026-09-10/review/followup_replay.stdout.json": "ff5030831e7731aa2086ececfc494caa58ba75384e955c2508cf0fb2de521837",
+    "udt_exact_metric_kernel_expansion_2026-09-10/review/independent.stderr.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "udt_exact_metric_kernel_expansion_2026-09-10/review/independent.stdout.json": "a19f87460f29c4154d2fbb2e172cc55fadf9be69cfb408a5c9a1b4b44aa13015",
+    "udt_exact_metric_kernel_expansion_2026-09-10/review/independent_review.py": "cfdef6c10ce46202b034bbb88ee1626deb20ea97036980ccb369f269db42e334",
+    "udt_exact_metric_kernel_expansion_2026-09-10/review/replay_and_preservation.py": "342084e0c45c22e0d8d815c24a0a2c341fe9433cadd80d78b4fc3495cfeeb3fa"
+  },
+  "scope": "Review artifacts only; no protected payloads; manifest excludes itself."
+}

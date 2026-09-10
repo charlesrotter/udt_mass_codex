@@ -1,0 +1,23 @@
+{
+  "utc": "2026-09-10T23:18:09.540678+00:00",
+  "argv": [
+    "git",
+    "diff",
+    "--cached",
+    "--check",
+    "--",
+    ".",
+    ":(exclude)udt_exact_metric_kernel_expansion_2026-09-10/METHOD_CHANGES_INITIAL.patch",
+    ":(exclude)udt_exact_metric_kernel_expansion_2026-09-10/review/METHOD_DIFF_REVIEWED.patch"
+  ],
+  "exit_code": 0,
+  "stdout": "",
+  "stderr": "",
+  "whole_check_exit_code": 2,
+  "frozen_context_whitespace_count": 25,
+  "exact_exclusions": {
+    "udt_exact_metric_kernel_expansion_2026-09-10/METHOD_CHANGES_INITIAL.patch": "c3645816cf78eacc1368ce7886c2792f005997b60f6ffd54bd4e09a64a073588",
+    "udt_exact_metric_kernel_expansion_2026-09-10/review/METHOD_DIFF_REVIEWED.patch": "f2c6ae3b7fc2a8f92a1ea0d3dcfc5fbc023160e9c8a1085037f7cd82c14bd1a6"
+  },
+  "reason": "All25 flags are literal blank unified-diff context lines. Preserve source history; do not claim whole staged whitespace pass."
+}

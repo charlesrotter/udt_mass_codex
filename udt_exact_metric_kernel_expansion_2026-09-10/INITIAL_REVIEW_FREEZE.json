@@ -1,0 +1,39 @@
+{
+  "utc": "2026-09-10T23:06:07.048989+00:00",
+  "kind": "initial candidate and author evidence frozen before fresh adversarial allocation",
+  "files": {
+    "udt_exact_metric_kernel_expansion_2026-09-10/DATA_FREEZE.md": "c5bbbb9abeed2627bf34e84d27c529ee8e41da507fee424a652df62bfe81e350",
+    "udt_exact_metric_kernel_expansion_2026-09-10/FREEZE_RECEIPT.json": "9448f3f677cb4dff655c925be18bba80730c66c437e37bcd90a542b6d789ff81",
+    "udt_exact_metric_kernel_expansion_2026-09-10/INITIAL_CANDIDATE.md": "439bbf545bc11901005bfa96ad154ddab68d3d6a383c358dc787b9eb38584f73",
+    "udt_exact_metric_kernel_expansion_2026-09-10/PACKAGING_EVENTS.md": "35a3db5f7f48786f1a1cad5d9f18a38b0c9d06f8574ef7cadb57f1f2bb71688b",
+    "udt_exact_metric_kernel_expansion_2026-09-10/SOURCE_AND_FREEDOM_MAP.md": "f385426d7422148cd121d357caae617729fcf932536498fa814ff8aff3f44b7c",
+    "udt_exact_metric_kernel_expansion_2026-09-10/SOURCE_MANIFEST.tsv": "58977a4a725a1a9ea1ea999e08b5e65306de8aa51d54789bcb32e6cde8f6d154",
+    "udt_exact_metric_kernel_expansion_2026-09-10/SOURCE_REGISTRY_ROWS.json": "3abcda250a46e1fb5a2e172df875b6736142e89d7a7482e6f28d25febfdea43d",
+    "udt_exact_metric_kernel_expansion_2026-09-10/WORK_ORDER.md": "61b21dcadad8a8e5b7fa363d3184962dc954ccc854dc61f10d512f0f0c0b1821",
+    "udt_exact_metric_kernel_expansion_2026-09-10/check_exact_geometry.py": "1f2bcf0dd18a39258e1bc33405492d002be83decb91409d3a3fadd1d1a9573ce",
+    "udt_exact_metric_kernel_expansion_2026-09-10/checks/AUTHOR_PRE_RUN.json": "b3dc3ad3b0233b0fee162ba732240b068d6df7dfa69767783f0463497e89296f",
+    "udt_exact_metric_kernel_expansion_2026-09-10/checks/AUTHOR_RUN.json": "8a2c21de8b62902b05cc942bd417a2b84b7c524df2b94970b9b16367196c128b",
+    "udt_exact_metric_kernel_expansion_2026-09-10/checks/author.stderr.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "udt_exact_metric_kernel_expansion_2026-09-10/checks/author.stdout.json": "d3fbec7169feca892bad47bdbc04c7a0abdd229e529c143d822496b9f2d028c1",
+    "udt_exact_metric_kernel_expansion_2026-09-10/whiteboard/ALLOCATION_RECORD.json": "f212a0b1e975ba2fb160ead209e1ab008777155039238c86d2a82cc9c29ea78e",
+    "udt_exact_metric_kernel_expansion_2026-09-10/whiteboard/ARTIFACT_MANIFEST.json": "07b122313cd22b5f86bfb3c1ecb62135e5368d22185fa93da9bfc73810c94c92",
+    "udt_exact_metric_kernel_expansion_2026-09-10/whiteboard/CHECK_STDERR.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "udt_exact_metric_kernel_expansion_2026-09-10/whiteboard/CHECK_STDOUT.json": "1e99217ad0d90c78c3a71299fcb3dd7811f8aaf86a0df964e93172f8000713a0",
+    "udt_exact_metric_kernel_expansion_2026-09-10/whiteboard/CONSTRUCTION_FREEZE.md": "86ccbac112f608aa74948f81daccaeb7ae216450663b6f0e4a9edcc287b8867b",
+    "udt_exact_metric_kernel_expansion_2026-09-10/whiteboard/CONSTRUCTION_RESULT.md": "3d4f2089f69a4664e140571eb591110084ffd7f1782678ebc160703fedff25ec",
+    "udt_exact_metric_kernel_expansion_2026-09-10/whiteboard/FOLLOWUP_FREEZE.md": "f911e1776eb83c62b9cd120b9727d49dcbe6b63c70ae9e6349aba78cad44d235",
+    "udt_exact_metric_kernel_expansion_2026-09-10/whiteboard/FOLLOWUP_PRECHECK_MANIFEST.json": "c4df9486fe5d6588e29e736aea9fbe060bd054303240a1e300bc94dfd578b074",
+    "udt_exact_metric_kernel_expansion_2026-09-10/whiteboard/FOLLOWUP_RUN_RECORD.json": "02cdb5bd86c91522dd0c70ab43b047f2373e4e5719fb24fa64fec8b0f813751d",
+    "udt_exact_metric_kernel_expansion_2026-09-10/whiteboard/FOLLOWUP_STDERR.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "udt_exact_metric_kernel_expansion_2026-09-10/whiteboard/FOLLOWUP_STDOUT.json": "ff5030831e7731aa2086ececfc494caa58ba75384e955c2508cf0fb2de521837",
+    "udt_exact_metric_kernel_expansion_2026-09-10/whiteboard/PRECHECK_SOURCE_MANIFEST.json": "83543c6f566a285adb225ca3f1ac7166834c954adf8d18423413ed23387bfd96",
+    "udt_exact_metric_kernel_expansion_2026-09-10/whiteboard/RUN_RECORD.json": "65641c310002c812381994ebcc7ca19ab5eae647f7da5673746e19e4974b830b",
+    "udt_exact_metric_kernel_expansion_2026-09-10/whiteboard/check_construction.py": "faa7736eac1f7cab5ea142c01009adfca9e64f68e0a1d2f21f17fd09b43f1de6",
+    "udt_exact_metric_kernel_expansion_2026-09-10/whiteboard/check_followup.py": "c0ca0381eaca4d16926955fa16130a29df124e3460af2ec27cdf819afa4c0f07"
+  },
+  "method_doc_hashes": {
+    "AGENTS.md": "75ea744d03981850efac63451ba0ae721e3f26b2a6359650395d93e2e6f56796",
+    "CURRENT_RESEARCH_PROGRAM.md": "164c1546d8f689fa2a76a346e595569b0488cae043d411ad0b7dfc3b95060c95",
+    "UDT_RESEARCH_ROADMAP.md": "5e4442dba7f3af275c2e0a00d9796cca385cb282b5fa240b5b17a67f85ff6d91"
+  }
+}

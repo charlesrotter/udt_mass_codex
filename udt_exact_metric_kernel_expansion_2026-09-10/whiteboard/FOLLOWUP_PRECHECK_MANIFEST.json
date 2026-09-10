@@ -1,0 +1,13 @@
+{
+  "created_utc": "2026-09-10T23:00:50.797634+00:00",
+  "files": [
+    {
+      "path": "FOLLOWUP_FREEZE.md",
+      "sha256": "f911e1776eb83c62b9cd120b9727d49dcbe6b63c70ae9e6349aba78cad44d235"
+    },
+    {
+      "path": "check_followup.py",
+      "sha256": "c0ca0381eaca4d16926955fa16130a29df124e3460af2ec27cdf819afa4c0f07"
+    }
+  ]
+}

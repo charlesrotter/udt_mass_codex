@@ -3,7 +3,8 @@
 Updated: 2026-09-10. Charles Rotter requested the whole plan on 2026-09-09;
 its original baseline was `d0fe8b3e5f95c3963dc8702bb4a31485678bd1e3`, branch `grok`.
 The campaigns described below are COMPLETE; their authorizations are spent, not live dispatches.
-Current operational handoff: `HANDOFF.md`; no successor scientific campaign is authorized.
+Current operational handoff: `HANDOFF.md`; the maintained checkpoint below records the reviewed
+ER1 expansion and next discussion. No later campaign is automatically authorized.
 This is a maintained direction document, not a premise, theorem, promotion
 or replacement for LIVE, the exact registry, or reviewed scientific sources.
 
@@ -234,9 +235,37 @@ scientific promotion or physical adoption.
 Charles asks for a systematic expansion of the metric and reciprocal kernel, testing whether
 linearization, frozen choices or narrow readouts conceal structure. The aim is to discover what
 the metric requires and permits. Rich structure is a conjecture to examine, not a required
-outcome or an acceptance criterion. This section is a planning proposal, not an authorized
-scientific campaign, new premise, reviewed scientific result or replacement for current authority.
-It was prepared at baseline ba80da85feb95831e5febec79a1885f9b90974c5.
+outcome or an acceptance criterion. The program is a planning framework, not a scientific premise
+or result. Its first bounded campaign was subsequently authorized; the checkpoint below owns that
+dispatch status. The original proposal was prepared at ba80da85feb95831e5febec79a1885f9b90974c5.
+
+### Maintained roadmap checkpoint
+
+Charles requested persistent roadmap discipline on 2026-09-10. Before each authorized campaign,
+identify its line/stage, source-owned question, restrictions released, remaining supplied choices,
+and budget/return point. At closeout update this same section with the result and review link,
+what was learned, limitations and the next justified decision. Do not replace it with dated status
+variants or infer authority from a planned row. A proposed deviation must state its reason and
+authorization. A coverage row is not a completeness theorem or a scientific premise.
+
+| Line/stage | Current placement | Evidence or gate |
+|---|---|---|
+| Exact metric/kernel, stages1–2 | ER1 contribution COMPLETE, reviewed VERIFIED-WITH-CAVEATS, UNPROMOTED | `udt_exact_metric_kernel_expansion_2026-09-10/DECISION_BRIEF.md` and `udt_exact_metric_kernel_expansion_2026-09-10/review/REVIEW.md`: variable lapse/rest form/time-live shift, exact rotation interaction; supplied configuration class only |
+| Joint realization, stage3 | ER1's finite marked-record recipe COMPLETE at reviewed scope | Six common directional records plus density and derivatives; SPD/shift coherence and actual shared immersions; no physical pair population or arbitrary-network theorem |
+| Conditional nonlinear developments, stage4 | Next discussion line; no new dispatch | Select an unexamined interaction/restriction in reviewed NR1/NR2 or NE1 and state its equation/premises; no comparison equation silently becomes UDT's law |
+| Reach/persistence, stage5 | ER1 local hypotheses and omission controls checked; broader study not dispatched | Common marking/calibration and local smoothness remain supplied; native assembly, global reach, genericity and dynamical persistence remain open |
+
+ER1 returned the reviewed conditional result, actual witness/record compatibility and lay brief;
+its exact execution and final fidelity receipts are in that package. The two-hour authorization
+is spent at closeout; later stages and promotion remain separate decisions. Stop for discussion.
+
+Learning to carry forward: an exact time-live shift interaction can disappear under a stationarity
+restriction or first-order shift-amplitude expansion about zero shift; normalized pair outputs can lose rotation-relevant density; a
+time-dependent tape coordinate can change the clock congruence. These are scoped findings about
+supplied geometry/data, not evidence that every approximation fails or emerging physics is found.
+G166's native assembly boundary and G176's working completion remain explicit. The next work
+order must connect the desired development question to an exact source-owned equation and actual
+compatible data; naming that equation as a comparison does not authorize adopting it as UDT.
 
 ### What the concern means
 
@@ -301,7 +330,7 @@ physical identities. Unexpected regular behavior, counterexamples, remaining fre
 a conjectured effect all count as informative outcomes. No acceptance test requires particles,
 light, a preferred scale, a particular shape or agreement with a desired mechanism.
 
-### Proposed first bounded campaign — not started
+### First bounded campaign — completed 2026-09-10
 
 Question: how far does KTI1's exact information distinction extend when its constant clock factor,
 flat spatial geometry and stationarity are no longer assumed? For a precisely declared smooth local
@@ -321,11 +350,11 @@ algebra, examples and counterexamples. Retain all terms in the declared class. A
 may diagnose missing terms but cannot replace the exact target. No new physical law, source, action,
 carrier, instrument model, topology/global completion or scale selection is authorized by this plan.
 
-Proposed budget: two hours maximum including construction, relevant checks, one fresh separate-context
+Authorized budget: two hours maximum including construction, relevant checks, one fresh separate-context
 adversarial review and bounded source-preserving same-premise repair/re-review. At most one construction
 partner and one later fresh reviewer; no subdelegation, no inferred different-model independence or
 general capacity restoration. CPU symbolic work only; scientific subprocesses capped at 120 seconds,
-no GPU/long production. Workspace upon authorization:
+no GPU/long production. Authorized workspace:
 `udt_exact_metric_kernel_expansion_2026-09-10/`; existing scientific sources and protected work stay
 unchanged. Parent may update compact navigation at closeout. Required fresh-session startup applies
 if execution occurs in a new top-level session.
@@ -334,8 +363,8 @@ Return point: a reviewed conditional record-map result with checked hypotheses a
 a counterexample/narrowed result, or a precise unresolved data/realization objection, plus a lay brief.
 Do not promise a general inverse theorem or a new physical discovery. Stop/narrow on unsupported
 source joins, a required new physical premise, scope/resource expansion, unavailable review, a
-recurring allocation limit, or the deadline. Preserve failed attempts and initial candidates. A future
-proceed to this bounded scope would authorize its included checks/review/repair; later program stages
-and any scientific promotion remain separate decisions. No successor research is launched by this
-documentation edit. Backup completeness/pre-reboot unsaved state remain UNVERIFIED; ScratchDisk
+recurring allocation limit, or the deadline. Preserve failed attempts and initial candidates. Charles's
+current proceed authorizes these included checks/review/repair; later program stages and any scientific
+promotion remain separate decisions. Work order and maintained checkpoint own current execution state.
+Backup completeness/pre-reboot unsaved state remain UNVERIFIED; ScratchDisk
 blocks archive-dependent work only.

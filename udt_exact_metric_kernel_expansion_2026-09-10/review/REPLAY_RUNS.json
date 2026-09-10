@@ -1,0 +1,59 @@
+[
+  {
+    "tag": "author",
+    "argv": [
+      "python3",
+      "-B",
+      "udt_exact_metric_kernel_expansion_2026-09-10/check_exact_geometry.py"
+    ],
+    "cwd": "/home/udt-admin/udt_mass_codex",
+    "timeout_seconds": 120,
+    "start_utc": "2026-09-10T23:13:01.513711+00:00",
+    "script_sha256": "1f2bcf0dd18a39258e1bc33405492d002be83decb91409d3a3fadd1d1a9573ce",
+    "kind": "same-code replay, not independent derivation",
+    "end_utc": "2026-09-10T23:13:04.810209+00:00",
+    "elapsed_seconds": 3.2964628330082633,
+    "exit_code": 0,
+    "stdout_matches_saved_bytes": true,
+    "check_count": 40,
+    "control_count": 6
+  },
+  {
+    "tag": "construction",
+    "argv": [
+      "python3",
+      "-B",
+      "udt_exact_metric_kernel_expansion_2026-09-10/whiteboard/check_construction.py"
+    ],
+    "cwd": "/home/udt-admin/udt_mass_codex",
+    "timeout_seconds": 120,
+    "start_utc": "2026-09-10T23:13:04.810456+00:00",
+    "script_sha256": "faa7736eac1f7cab5ea142c01009adfca9e64f68e0a1d2f21f17fd09b43f1de6",
+    "kind": "same-code replay, not independent derivation",
+    "end_utc": "2026-09-10T23:13:05.338285+00:00",
+    "elapsed_seconds": 0.527792553009931,
+    "exit_code": 0,
+    "stdout_matches_saved_bytes": true,
+    "check_count": 67,
+    "control_count": null
+  },
+  {
+    "tag": "followup",
+    "argv": [
+      "python3",
+      "-B",
+      "udt_exact_metric_kernel_expansion_2026-09-10/whiteboard/check_followup.py"
+    ],
+    "cwd": "/home/udt-admin/udt_mass_codex",
+    "timeout_seconds": 120,
+    "start_utc": "2026-09-10T23:13:05.338782+00:00",
+    "script_sha256": "c0ca0381eaca4d16926955fa16130a29df124e3460af2ec27cdf819afa4c0f07",
+    "kind": "same-code replay, not independent derivation",
+    "end_utc": "2026-09-10T23:13:05.709624+00:00",
+    "elapsed_seconds": 0.3708228410105221,
+    "exit_code": 0,
+    "stdout_matches_saved_bytes": true,
+    "check_count": 25,
+    "control_count": null
+  }
+]

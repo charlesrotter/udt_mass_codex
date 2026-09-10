@@ -1,0 +1,1 @@
+AGENTS scoped-synthesis guard missing or changed: Method instructions, skills, hooks, examples, and dispatch templates do not supply scientific

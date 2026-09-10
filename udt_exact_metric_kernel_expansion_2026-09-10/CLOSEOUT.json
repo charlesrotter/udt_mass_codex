@@ -1,0 +1,130 @@
+{
+  "checkpoint": "ER1",
+  "status": "REVIEWED_CONDITIONAL_CHECKPOINT_COMPLETE_AWAITING_PUBLICATION",
+  "grade": "VERIFIED-WITH-CAVEATS; CONDITIONAL; UNPROMOTED",
+  "baseline_HEAD": "2d9f607fd0ff085aaaa93219028f6abb6d537091",
+  "actual_prepublication_HEAD": "2d9f607fd0ff085aaaa93219028f6abb6d537091",
+  "actual_branch": "grok",
+  "start_utc": "2026-09-10T22:48:30+00:00",
+  "reviewed_closeout_utc": "2026-09-10T23:21:39.535122+00:00",
+  "elapsed_minutes_at_closeout": 33.1589187,
+  "hard_return_utc": "2026-09-11T00:48:30+00:00",
+  "authorization": "Current user proceed to first two-hour roadmap campaign and persistent roadmap discipline; all included review/repair stages; later campaigns and promotion excluded",
+  "result_scope": "exact smooth supplied metric/observer/marked six-record configuration class, full rotation formula, finite simultaneous realization, density omission and time-live tape typing; not native UDT field solutions or physical selection",
+  "construction": {
+    "parent_identities_diagnostics": 40,
+    "parent_explicit_mutants": 6,
+    "partner_initial_checks": 67,
+    "partner_followup_checks": 25,
+    "all_scientific_exit_codes": 0,
+    "unexpected_scientific_failures": 0
+  },
+  "review": {
+    "context": "/root/exact_expansion_review",
+    "fresh_context": true,
+    "different_model_claimed": false,
+    "separate_implementation": true,
+    "method": "direct Levi-Civita full metric first jets; no author scientific imports",
+    "independent_identity_diagnostic_count": 118,
+    "actual_mutation_rejections": 18,
+    "exit_code": 0,
+    "scientific_repair_required": false,
+    "same_code_replays": "all three construction scripts, stdout byte-identical",
+    "optimized_author_guard": "expected exit1 rejection; not an unexpected scientific failure",
+    "report_sha256": "5359bd687245ab0f5d085b430987bf5b2c08321dd9d6f40b4ee1f753a9e586f7",
+    "final_fidelity_sha256": "4c4d2300cf1f021251669f3361c55e74bed3b7c00093fe512eb35cf6c794691b",
+    "staging_fidelity_addendum_sha256": "41195f1e0bcb5f8c7cde1f883188d6537e29b62a8ceadc5417f426b11a4ac0fe"
+  },
+  "allocations": {
+    "unique_successful_fresh_allocations": 2,
+    "construction_context": "/root/exact_expansion_construction",
+    "construction_observed_utc": [
+      "2026-09-10T22:53:02+00:00",
+      "2026-09-10T23:04:03.507290+00:00"
+    ],
+    "review_context": "/root/exact_expansion_review",
+    "review_observed_utc": [
+      "2026-09-10T23:06:54+00:00",
+      "2026-09-10T23:18:02.248070+00:00"
+    ],
+    "same_context_packaging_followup_utc": [
+      "2026-09-10T23:18:58+00:00",
+      "2026-09-10T23:19:50.057906+00:00"
+    ],
+    "construction_and_reviewer_overlap": false,
+    "parent_overlap": "parent worked concurrently with constructor, then with reviewer and its packaging follow-up",
+    "thread_limit_recurrences": 0,
+    "subdelegations": 0,
+    "restored_capacity": "UNVERIFIED"
+  },
+  "model_evidence": {
+    "configured_parent_observed_earlier_in_session": "gpt-6-astra / xhigh",
+    "runtime_model_version": "UNATTESTED",
+    "new_configuration_inspection_or_changes": false
+  },
+  "premise_audit": {
+    "new_full365_run_for_ER1": false,
+    "actual_earlier_same_top_level_full365_exit_code": 0,
+    "receipt": "maintenance_agent_capacity_2026-09-10.md:208 Fresh top-level availability check; premise_result at387",
+    "rehearsals_reused_as_current": false,
+    "current_source_registry_and_verifier_changes": false,
+    "current_source_checks": {
+      "initial_28": {
+        "count": 28,
+        "mismatches": []
+      },
+      "review_24": {
+        "count": 24,
+        "mismatches": []
+      },
+      "construction_manifest": {
+        "count": 14,
+        "mismatches": []
+      },
+      "reviewed_final_narratives": {
+        "count": 6,
+        "mismatches": []
+      },
+      "scientific_sources": {
+        "count": 19,
+        "mismatches": []
+      },
+      "selected_registry_rows": {
+        "count": 10,
+        "mismatches": []
+      }
+    }
+  },
+  "documentation_checks": {
+    "four_existing_startup_tests": "PASS, final exit0; initial 3pass/1fail saved and repaired",
+    "current_startup_validator": "PASS, exit0; initial guarded-phrase failure saved and repaired",
+    "test_or_guard_relaxations": false,
+    "whole_staged_whitespace": "exit2,25 intentional blank unified-diff context lines in two named frozen patches",
+    "scoped_staged_whitespace": "PASS exit0, exactly those two frozen patch paths excluded",
+    "final_reviewed_narrative_hashes": {
+      "AGENTS.md": "fe027fb0e619f5560f354a1c7190bc477adf6c9d23a0b6a81b6790914a4b8aa4",
+      "CURRENT_RESEARCH_PROGRAM.md": "980c3033f17e22da5b3267d8b282dd8e23029aea0ccc8e16fc9e2d3620e03d2d",
+      "INDEX.md": "44225017e7a602c2b7b05dd4c9e02e7e72601cb4595a8eb640d4a1ff3ee24a52",
+      "UDT_RESEARCH_ROADMAP.md": "7a0e9bacf1f6541c2748a4f3f5ef2a474e90cca7cbf95e8616e7c72602b39178",
+      "udt_exact_metric_kernel_expansion_2026-09-10/DECISION_BRIEF.md": "c8eadb6ff788e32bb09964b1331a155e682c1b63235a0a6e06f3cc1d4c3b9b42",
+      "udt_exact_metric_kernel_expansion_2026-09-10/REPAIR_LOG.md": "a4dcf5154a4fe7d1e9a6392eb0d2054bdbcef4ac4b6ab0f842f394bbfd3fe285"
+    }
+  },
+  "preservation": {
+    "initial_candidate_sha256": "439bbf545bc11901005bfa96ad154ddab68d3d6a383c358dc787b9eb38584f73",
+    "initial_28_unchanged": true,
+    "source_19_unchanged": true,
+    "review_original24_unchanged": true,
+    "original_untracked_count": 46,
+    "original_status_sha256": "55e7c4508622f912730f9c068cc571c370b3977bc1110eb0a48a8218dbe024c2",
+    "protected_payload_inspected_or_hashed": false,
+    "fixed_manuscript_registry_CANON_verifier_git_diff_exit_code": 0,
+    "unrelated_work_staged": false,
+    "backup_completeness": "UNVERIFIED",
+    "pre_reboot_unsaved_state": "UNVERIFIED",
+    "ScratchDisk": "archive-dependent work only; not accessed"
+  },
+  "publication_owner": "PUBLICATION.json records actual commit/push and remote verification; this receipt predicts no publication success",
+  "package_manifest": "PACKAGE_SHA256SUMS; excludes itself and later PUBLICATION.json",
+  "return_point": "STOP_FOR_DISCUSSION; no next scientific audit/solve authorized"
+}

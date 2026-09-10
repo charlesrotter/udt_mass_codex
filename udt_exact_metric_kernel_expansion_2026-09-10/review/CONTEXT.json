@@ -1,0 +1,48 @@
+{
+  "reviewer_context": "/root/exact_expansion_review",
+  "role": "one fresh separate-context adversarial reviewer",
+  "runtime_model_version": "UNATTESTED",
+  "first_observed_utc": "2026-09-10 23:06:54 UTC",
+  "pre_candidate_plan_saved_before_observed_utc": "2026-09-10 23:08:21 UTC",
+  "initial_exposure": [
+    "parent dispatch including expected formula/witness numbers",
+    "work order",
+    "data freeze",
+    "source/freedom map",
+    "current selected source rows and controlling audit reports"
+  ],
+  "candidate_exposure": "after saving PRE_CANDIDATE_PLAN.md; before independent code construction",
+  "author_scientific_code_exposure": "only after independent run completed 2026-09-10T23:11:24.522516+00:00",
+  "independent_axes": {
+    "fresh_context": true,
+    "different_model": "NOT_CLAIMED",
+    "separate_implementation": true,
+    "direct_Levi_Civita_route": true,
+    "independent_discovery_or_blinded_prediction": false,
+    "independent_argument": "standard commutator/metric-compatibility reasoning; equivalent foundations, candidate already exposed"
+  },
+  "attributed_parent_evidence": [
+    "top-level mandatory startup",
+    "same-session required full365 PASS",
+    "synchronization; parent reports later fetch success"
+  ],
+  "own_startup_checks": [
+    "on-disk AGENTS and scoped current authorities",
+    "branch grok",
+    "HEAD 2d9f607fd0ff085aaaa93219028f6abb6d537091",
+    "original 46 untracked status entries and fingerprint"
+  ],
+  "construction_partner_completed_utc": "2026-09-10T23:04:03.507290+00:00",
+  "subdelegation": false,
+  "commits": false,
+  "write_scope": "udt_exact_metric_kernel_expansion_2026-09-10/review/ only",
+  "no_protected_payload_reads_or_hashes": true,
+  "backup_and_unsaved_state": "UNVERIFIED",
+  "ScratchDisk": "archive-only; not accessed",
+  "scientific_subprocess_timeout_seconds": 120,
+  "campaign_hard_return_utc": "2026-09-11 00:48:30 UTC",
+  "main_report_completed_utc": "2026-09-10 23:16:04 UTC",
+  "record_written_utc": "2026-09-10T23:17:13.437593+00:00",
+  "last_review_clock_utc": "2026-09-10T23:18:02.248070+00:00",
+  "final_verdict": "VERIFIED-WITH-CAVEATS; CONDITIONAL; UNPROMOTED"
+}

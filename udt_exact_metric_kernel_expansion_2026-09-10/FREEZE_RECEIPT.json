@@ -1,0 +1,11 @@
+{
+  "frozen_utc": "2026-09-10T23:00:03.838122+00:00",
+  "head": "2d9f607fd0ff085aaaa93219028f6abb6d537091",
+  "exposure": "disclosed algebraic exploration; before parent checks; partner independently froze its own construction",
+  "files": {
+    "WORK_ORDER.md": "61b21dcadad8a8e5b7fa363d3184962dc954ccc854dc61f10d512f0f0c0b1821",
+    "DATA_FREEZE.md": "c5bbbb9abeed2627bf34e84d27c529ee8e41da507fee424a652df62bfe81e350",
+    "SOURCE_REGISTRY_ROWS.json": "3abcda250a46e1fb5a2e172df875b6736142e89d7a7482e6f28d25febfdea43d",
+    "SOURCE_MANIFEST.tsv": "58977a4a725a1a9ea1ea999e08b5e65306de8aa51d54789bcb32e6cde8f6d154"
+  }
+}

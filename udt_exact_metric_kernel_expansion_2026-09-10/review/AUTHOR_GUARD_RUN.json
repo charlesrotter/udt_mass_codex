@@ -1,0 +1,15 @@
+{
+  "argv": [
+    "python3",
+    "-O",
+    "-B",
+    "udt_exact_metric_kernel_expansion_2026-09-10/check_exact_geometry.py"
+  ],
+  "cwd": "/home/udt-admin/udt_mass_codex",
+  "timeout_seconds": 120,
+  "start_utc": "2026-09-10T23:13:05.709921+00:00",
+  "end_utc": "2026-09-10T23:13:06.580306+00:00",
+  "elapsed_seconds": 0.8703975779935718,
+  "exit_code": 1,
+  "expected_rejection": true
+}

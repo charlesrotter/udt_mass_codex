@@ -1,0 +1,21 @@
+{
+  "argv": [
+    "python3",
+    "-m",
+    "pytest",
+    "-q",
+    "tests/test_startup_surface.py::test_active_orientation_surface_stays_readably_bounded",
+    "tests/test_startup_surface.py::test_startup_keeps_dependency_spine_not_execution_chronology",
+    "tests/test_startup_surface.py::test_startup_does_not_promote_full_evidence_or_relocation_dump",
+    "tests/test_startup_surface.py::test_current_next_gate_is_three_sentences_not_campaign_history"
+  ],
+  "start_utc": "2026-09-10T23:15:37.776235+00:00",
+  "exit_code": 0,
+  "elapsed_seconds": 1.0963358880253509,
+  "reason": "final INDEX pointer change; final reviewed navigation versions",
+  "doc_hashes": {
+    "AGENTS.md": "fe027fb0e619f5560f354a1c7190bc477adf6c9d23a0b6a81b6790914a4b8aa4",
+    "CURRENT_RESEARCH_PROGRAM.md": "980c3033f17e22da5b3267d8b282dd8e23029aea0ccc8e16fc9e2d3620e03d2d",
+    "INDEX.md": "44225017e7a602c2b7b05dd4c9e02e7e72601cb4595a8eb640d4a1ff3ee24a52"
+  }
+}

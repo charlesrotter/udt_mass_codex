@@ -1,0 +1,11 @@
+{
+  "argv": [
+    "python3",
+    "-c",
+    "from pathlib import Path; import verify_current_scientific_premises as v; v.validate_startup_surface(Path('.')); print('PASS: validate_startup_surface; not full365')"
+  ],
+  "start_utc": "2026-09-10T23:10:33.200817+00:00",
+  "exit_code": 1,
+  "elapsed_seconds": 0.08347424701787531,
+  "scope": "current startup guard only"
+}

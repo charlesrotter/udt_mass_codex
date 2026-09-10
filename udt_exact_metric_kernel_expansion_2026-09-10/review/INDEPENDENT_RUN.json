@@ -1,0 +1,17 @@
+{
+  "argv": [
+    "python3",
+    "-B",
+    "udt_exact_metric_kernel_expansion_2026-09-10/review/independent_review.py"
+  ],
+  "cwd": "/home/udt-admin/udt_mass_codex",
+  "timeout_seconds": 120,
+  "script_sha256": "cfdef6c10ce46202b034bbb88ee1626deb20ea97036980ccb369f269db42e334",
+  "start_utc": "2026-09-10T23:11:22.298372+00:00",
+  "note": "No author scientific code opened before writing this independent script; candidate and construction result already read.",
+  "exit_code": 0,
+  "stdout_file": "independent.stdout.json",
+  "stderr_file": "independent.stderr.txt",
+  "end_utc": "2026-09-10T23:11:24.522516+00:00",
+  "elapsed_seconds": 2.224080440995749
+}
