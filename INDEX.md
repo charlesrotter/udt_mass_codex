@@ -43,6 +43,8 @@ restricted 3D localization, smooth-method/symmetry/smallness caveats; LG2 requir
 Predecessor: `udt_nonlinear_mode_realizability_campaign_2026-09-09/DECISION_BRIEF.md`;
 NR1--NR2 UNPROMOTED, compact-sector mixed-C2/analytic-local tangent limits; original reviews control.
 Full365 PASS; maintenance: `maintenance_guard_sweep_2026-09-10/WORK_RECORD.md`; no scientific promotion.
+Agent-runtime diagnostic: `maintenance_agent_capacity_2026-09-10.md`; partial usability only,
+capacity cleanup unverified. Existing whiteboard advice retained; no successor campaign authorized.
 
 ## Founding, relational and response sources
 
