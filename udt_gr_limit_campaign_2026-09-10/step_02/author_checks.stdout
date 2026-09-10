@@ -1,0 +1,56 @@
+{
+  "Hrr_at_1": "(-n**10 - 6*n**8 - 12*n**6 - n**4 - 6*n**2 - 12)/n**12",
+  "R_at_1": "(n**2 - 2)/n**6",
+  "R_prime_at_1": "4*(n**2 + 1)/n**6",
+  "R_second_at_1": "(-n**4 - 6*n**2 - 12)/n**6",
+  "arithmetic": "exact symbolic and rational",
+  "counts": {
+    "diagnostic_identities": 8,
+    "rational_probes": 10,
+    "required_nonzero_controls": 4,
+    "tensor_component_identities": 148
+  },
+  "limits": "No DDR assertion for oscillatory metric; no convergence/existence proof from probes; component zeros include structural identities.",
+  "probes": [
+    {
+      "Hrr_at_1": "-845/1024",
+      "R_at_1": "1/32",
+      "f_lower": "63/64",
+      "minus_H_over_R": "845/32",
+      "n": 2
+    },
+    {
+      "Hrr_at_1": "-35770/177147",
+      "R_at_1": "7/729",
+      "f_lower": "728/729",
+      "minus_H_over_R": "5110/243",
+      "n": 3
+    },
+    {
+      "Hrr_at_1": "-12297662/244140625",
+      "R_at_1": "23/15625",
+      "f_lower": "15624/15625",
+      "minus_H_over_R": "12297662/359375",
+      "n": 5
+    },
+    {
+      "Hrr_at_1": "-2653002653/250000000000",
+      "R_at_1": "49/500000",
+      "f_lower": "999999/1000000",
+      "minus_H_over_R": "379000379/3500000",
+      "n": 10
+    },
+    {
+      "Hrr_at_1": "-25015003000025015003/250000000000000000000000",
+      "R_at_1": "4999/500000000000",
+      "f_lower": "999999999999/1000000000000",
+      "minus_H_over_R": "25015003000025015003/2499500000000000",
+      "n": 100
+    }
+  ],
+  "python": "3.10.12",
+  "ratio": "(n**2 + 1)*(n**4 - n**2 + 1)*(n**4 + 6*n**2 + 12)/(n**6*(n**2 - 2))",
+  "shape": "4x4 full spherical coordinate metric",
+  "status": "PASS",
+  "sympy": "1.13.1"
+}

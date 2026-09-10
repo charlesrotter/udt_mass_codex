@@ -94,3 +94,12 @@ curvature continuity on a common regular domain, GL1, and exact small CPU
 checks. Use a NEW separate-context source-first/direct reviewer. The parent
 noticed this possible transfer while developing GL1 but selected the question
 only after its completed review. No third step or successor is authorized.
+
+GL2 initial candidate frozen c4d75564... before author checks/direct review.
+Proof transfers GL1 to an assumed nondegenerate C^max(m+2,3) normalized metric
+limit, then applies Bianchi to the exact limiting identity. Two scope controls:
+reuse ND1 a=0 balanced non-Einstein family; actual oscillatory metric shows
+small jets need not supply weighted hierarchy, with NO DDR claim for it.
+Fresh reviewer /root/gr_limit_step2_review independently recovered the transfer
+before direct exposure; source-first2f009447... also proposed a different
+oscillatory metric diagnostic. No author revision selected from that proposal.
