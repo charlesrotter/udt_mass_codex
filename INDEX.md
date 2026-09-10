@@ -1,6 +1,6 @@
 # INDEX — compact current pointers; `LIVE.md` wins
 
-Banking through G382 is COMPLETE at reviewed conditional scopes; GR-limit campaign complete.
+Banking through G382 is COMPLETE at reviewed conditional scopes; response-foundations campaign complete.
 Roadmap and campaign: `UDT_RESEARCH_ROADMAP.md`.
 The exact 365-row `CURRENT_SCIENTIFIC_PREMISES.tsv` owns grades, not these pointers.
 GR is FILTER ONLY, not a response-law input; Local Metric Sufficiency remains owner-provisional.

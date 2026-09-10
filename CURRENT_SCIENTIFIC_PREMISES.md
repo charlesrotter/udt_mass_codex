@@ -126,5 +126,5 @@ justified instrument/transfer assumptions without an admitted sourced law; none 
 Pullbacks plus the bivector area bilinear can recover `g`; scalar data stop at its positive conformal class.
 Scopes/assumptions/positivity/recipes/reviews control; tables aren't proofs.
 GOCE PARKED, eligibility UNRESOLVED/OPEN, enquiry UNSENT; GW procedure parked.
-GR-limit campaign complete: roadmap via INDEX; no scientific promotion. Backup completeness/pre-reboot unsaved state
+Response-foundations campaign complete: roadmap via INDEX; no scientific promotion. Backup completeness/pre-reboot unsaved state
 remain UNVERIFIED; ScratchDisk blocks only archive-dependent work.

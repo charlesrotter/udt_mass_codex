@@ -1,0 +1,16 @@
+{
+  "command": [
+    "python3",
+    "-B",
+    "-c",
+    "import hashlib, json, subprocess\nbase=\"0dba8e9e9a31aaa46c76019de46e32374dbae8fe\"\nallowed={\"LIVE.md\",\"HANDOFF.md\",\"CURRENT_RESEARCH_PROGRAM.md\",\"CURRENT_SCIENTIFIC_PREMISES.md\",\"INDEX.md\",\"MEMORY.md\",\"UDT_RESEARCH_ROADMAP.md\"}\npkg=\"udt_response_foundations_campaign_2026-09-10/\"\ndef git(*args): return subprocess.check_output([\"git\",*args],text=True)\nassert git(\"branch\",\"--show-current\").strip()==\"grok\"\nchanged=git(\"diff\",\"--name-only\",base).splitlines()\nassert all(p in allowed or p.startswith(pkg) for p in changed), changed\nstatus=git(\"status\",\"--short\").splitlines()\nunrelated=sorted(x for x in status if x.startswith(\"?? \") and not x.startswith(\"?? \"+pkg))\ndigest=hashlib.sha256(\"\\n\".join(unrelated).encode()).hexdigest()\nassert len(unrelated)==46 and digest==\"d65d71d63a56b95aabfd61f33317b1f1f2b2a62a85ded8258c525b99a5e156ea\"\nfor manifest in (\"SOURCE_SHA256SUMS\",\"CANDIDATE_SHA256SUMS\",\"review/REVIEW_SHA256SUMS\"):\n    result=subprocess.run([\"sha256sum\",\"-c\",pkg+manifest],text=True,capture_output=True)\n    assert result.returncode==0, result.stdout+result.stderr\nassert subprocess.run([\"git\",\"diff\",\"--check\"],capture_output=True).returncode==0\nprint(json.dumps(dict(baseline=base,actual_head=git(\"rev-parse\",\"HEAD\").strip(),branch=\"grok\",changed_tracked_paths=changed,unrelated_default_status_entries=len(unrelated),unrelated_status_name_sha256=digest,source_candidate_review_seals_pass=True,tracked_grade_canon_manuscript_tests_methods_unchanged=True,protected_payload_contents=\"NOT_INSPECTED_OR_HASHED; name preservation is not a content audit\",backup_completeness=\"UNVERIFIED\",pre_reboot_unsaved_state=\"UNVERIFIED\",claim=\"read-only scoped preservation and correspondence; no scientific truth or full365 pass inferred\"),indent=2,sort_keys=True))\n"
+  ],
+  "cwd": "/home/udt-admin/udt_mass_codex",
+  "started_utc": "2026-09-10T02:28:22.057654+00:00",
+  "duration_seconds": 0.12355925899464637,
+  "returncode": 0,
+  "timeout": false,
+  "address_space_bytes": 536870912,
+  "cpu_seconds": 60,
+  "maxrss_kib": 15360
+}

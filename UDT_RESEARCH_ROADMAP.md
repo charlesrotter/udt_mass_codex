@@ -166,3 +166,20 @@ family. Class membership, nonzero coefficient and family existence/convergence
 are not derived. Degenerate and fast-variation controls preserve the gates;
 no physical GR recovery, scalar selection, stability or new premise follows.
 Two-step campaign COMPLETE; return for lay discussion, no automatic successor.
+
+Charles subsequently authorized one response-foundations step, at most two
+hours, including checks and fresh review. Completed scope/log:
+`udt_response_foundations_campaign_2026-09-10/WORK_ORDER.md` and
+`CAMPAIGN_LOG.md`. Test an intrinsic response expansion on realizable local
+metric data, separating geometric representation from unowned response
+regularity; no response law, nonzero coefficient or physical premise is adopted.
+
+RF1 is now reviewed VERIFIED-WITH-CAVEATS, conditional UNPROMOTED:
+`udt_response_foundations_campaign_2026-09-10/DECISION_BRIEF.md`.
+The intrinsic normal-metric-jet argument removes the response extension to
+unrealizable curvature arrays; finite-order weighted curvature/normal bounds
+correspond. Full response neighborhood, type/order/naturality, differentiability,
+nonzero Ricci coefficient and controlled family remain separate conditional
+gates, not supplied initial data or derived physical laws. One check-only repair
+and its false-pass evidence are preserved; the candidate was unchanged.
+One-step campaign COMPLETE; stop for discussion. No successor or banking.

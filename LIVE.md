@@ -66,7 +66,7 @@ NR1--NR2/LG1--LG2/LE1/SE1/NE1: reviewed UNPROMOTED; exact scopes/reviews: `INDEX
 NE1: fading profile with cumulative marked-area-rate/tidal departure in one exact polarized family.
 Supplied data/marking and conditional methods; no genericity, stability/content.
 Full365 NOT_PASSED at G325 replay; no scientific banking/integration.
-ND1/ND2/QC1/QC2/GL1/GL2: reviewed UNPROMOTED; roadmap: INDEX.
+ND1/ND2/QC1/QC2/GL1/GL2/RF1: reviewed UNPROMOTED; roadmap: INDEX.
 
 ### Distinctions for the direction discussion
 

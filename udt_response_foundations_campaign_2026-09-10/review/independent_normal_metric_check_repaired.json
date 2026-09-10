@@ -1,0 +1,15 @@
+{
+  "command": [
+    "python3",
+    "-S",
+    "udt_response_foundations_campaign_2026-09-10/review/independent_normal_metric_check.py"
+  ],
+  "cwd": "/home/udt-admin/udt_mass_codex",
+  "started_utc": "2026-09-10T02:15:26.553928+00:00",
+  "duration_seconds": 1.015493871003855,
+  "returncode": 0,
+  "timeout": false,
+  "address_space_bytes": 536870912,
+  "cpu_seconds": 60,
+  "maxrss_kib": 15552
+}

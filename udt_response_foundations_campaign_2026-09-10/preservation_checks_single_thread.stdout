@@ -1,0 +1,22 @@
+{
+  "actual_head": "0dba8e9e9a31aaa46c76019de46e32374dbae8fe",
+  "backup_completeness": "UNVERIFIED",
+  "baseline": "0dba8e9e9a31aaa46c76019de46e32374dbae8fe",
+  "branch": "grok",
+  "changed_tracked_paths": [
+    "CURRENT_RESEARCH_PROGRAM.md",
+    "CURRENT_SCIENTIFIC_PREMISES.md",
+    "HANDOFF.md",
+    "INDEX.md",
+    "LIVE.md",
+    "MEMORY.md",
+    "UDT_RESEARCH_ROADMAP.md"
+  ],
+  "claim": "read-only scoped preservation and correspondence; no scientific truth or full365 pass inferred",
+  "pre_reboot_unsaved_state": "UNVERIFIED",
+  "protected_payload_contents": "NOT_INSPECTED_OR_HASHED; name preservation is not a content audit",
+  "source_candidate_review_seals_pass": true,
+  "tracked_grade_canon_manuscript_tests_methods_unchanged": true,
+  "unrelated_default_status_entries": 46,
+  "unrelated_status_name_sha256": "d65d71d63a56b95aabfd61f33317b1f1f2b2a62a85ded8258c525b99a5e156ea"
+}

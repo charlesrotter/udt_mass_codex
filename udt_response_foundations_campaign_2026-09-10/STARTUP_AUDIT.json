@@ -1,0 +1,27 @@
+{
+  "date_utc": "2026-09-10",
+  "baseline": "0dba8e9e9a31aaa46c76019de46e32374dbae8fe",
+  "branch": "grok",
+  "required_sync_sequence": ["git status --short --branch", "git checkout grok", "git fetch origin", "git pull --ff-only origin grok", "git status --short --branch", "git log -8 --oneline"],
+  "sync_result": "actually completed; upstream current; initial tracked tree clean",
+  "unrelated_default_status_untracked_entries": 46,
+  "unrelated_status_name_sha256": "d65d71d63a56b95aabfd61f33317b1f1f2b2a62a85ded8258c525b99a5e156ea",
+  "startup_reads": "mandatory bounded order and triggered shared protocols read; orientation before research edits",
+  "full365": {
+    "command": "ulimit -v 2097152; ulimit -t 900; env OPENBLAS_NUM_THREADS=1 OMP_NUM_THREADS=1 MKL_NUM_THREADS=1 NUMEXPR_NUM_THREADS=1 PYTHONDONTWRITEBYTECODE=1 timeout 900s python3 -B verify_current_scientific_premises.py",
+    "exec_session": 22465,
+    "exit_code": 1,
+    "observed_failure": "G325 dependency-free replay failed: AssertionError: replay_exact:DERIVATION_RESULT.json",
+    "trace_location": "udt_g325_g324_homogeneous_diagonal_linear_modes_2026-09-02/verify_package.py:106 compares load(generated) == load(package / artifact); gate at line31 raises",
+    "later_gates": "UNREACHED",
+    "wall_seconds": null,
+    "evidence_limit": "Actual tool-returned failure transcribed here; no separate byte-for-byte stdout/stderr files captured for this startup run; precise runtime unmeasured.",
+    "repaired_or_waived": false
+  },
+  "backup_completeness": "UNVERIFIED",
+  "pre_reboot_unsaved_state_disposition": "UNVERIFIED",
+  "ScratchDisk": "archive-dependent blocker only; no disk operation",
+  "GOCE": "PARKED, eligibility OPEN, UNSENT",
+  "optional_source_and_automatic_Hopf": "PAUSED",
+  "promotion": "not authorized; full365 failure also blocks any claim that all promotion gates passed"
+}

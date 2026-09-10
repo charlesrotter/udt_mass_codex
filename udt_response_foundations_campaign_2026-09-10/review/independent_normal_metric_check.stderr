@@ -1,0 +1,4 @@
+  File "/home/udt-admin/udt_mass_codex/udt_response_foundations_campaign_2026-09-10/review/independent_normal_metric_check.py", line 124
+    r2[d, e, *s] = out
+             ^
+SyntaxError: invalid syntax

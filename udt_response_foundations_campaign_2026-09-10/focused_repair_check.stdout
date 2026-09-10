@@ -1,0 +1,10 @@
+{
+  "corrected_same_code_replay_identical": true,
+  "exact_three_change_diff": true,
+  "full_radial_residual": "x0^5 in component0",
+  "initial_parse_failure_reproduced": true,
+  "quartic_g00_mutation_old_check_false_pass": true,
+  "repaired_check_rejects": true,
+  "scientific_candidate_modified": false,
+  "scope": "Focused implementation repair review; replay is not independent mathematics."
+}
