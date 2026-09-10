@@ -153,7 +153,16 @@ lay discussion; no successor campaign, banking or physical adoption authorized.
 Charles subsequently authorized the proposed GR-limit campaign: at most two
 reviewed steps or four hours, investigating a controlled leading response
 without assuming exact Einstein dynamics or a nonzero leading Ricci coefficient.
-Active scope/log: `udt_gr_limit_campaign_2026-09-10/WORK_ORDER.md` and
+Completed scope/log: `udt_gr_limit_campaign_2026-09-10/WORK_ORDER.md` and
 `CAMPAIGN_LOG.md` in that package. Response-class membership, regularity and
 derivative hierarchy remain explicit conditional hypotheses where not owned;
 no new physical scale, response law or scientific promotion is authorized.
+
+GL1/GL2 now reviewed VERIFIED-WITH-CAVEATS, conditional UNPROMOTED:
+`udt_gr_limit_campaign_2026-09-10/DECISION_BRIEF.md`. GL1 supplies a weighted
+leading-response estimate without exact homogeneity. GL2 transfers it to an
+Einstein NECESSITY limit for an assumed regularly convergent normalized metric
+family. Class membership, nonzero coefficient and family existence/convergence
+are not derived. Degenerate and fast-variation controls preserve the gates;
+no physical GR recovery, scalar selection, stability or new premise follows.
+Two-step campaign COMPLETE; return for lay discussion, no automatic successor.

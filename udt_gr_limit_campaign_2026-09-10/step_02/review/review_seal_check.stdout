@@ -1,0 +1,16 @@
+udt_gr_limit_campaign_2026-09-10/step_02/review/SOURCE_FIRST_REVIEW.md: OK
+udt_gr_limit_campaign_2026-09-10/step_02/review/independent_geometry_check.py: OK
+udt_gr_limit_campaign_2026-09-10/step_02/review/independent_geometry_check.json: OK
+udt_gr_limit_campaign_2026-09-10/step_02/review/independent_geometry_check.stdout: OK
+udt_gr_limit_campaign_2026-09-10/step_02/review/independent_geometry_check.stderr: OK
+udt_gr_limit_campaign_2026-09-10/step_02/review/author_replay.json: OK
+udt_gr_limit_campaign_2026-09-10/step_02/review/author_replay.stdout: OK
+udt_gr_limit_campaign_2026-09-10/step_02/review/author_replay.stderr: OK
+udt_gr_limit_campaign_2026-09-10/step_02/review/source_seals.json: OK
+udt_gr_limit_campaign_2026-09-10/step_02/review/source_seals.stdout: OK
+udt_gr_limit_campaign_2026-09-10/step_02/review/source_seals.stderr: OK
+udt_gr_limit_campaign_2026-09-10/step_02/review/candidate_seals.json: OK
+udt_gr_limit_campaign_2026-09-10/step_02/review/candidate_seals.stdout: OK
+udt_gr_limit_campaign_2026-09-10/step_02/review/candidate_seals.stderr: OK
+udt_gr_limit_campaign_2026-09-10/step_02/review/DIRECT_REVIEW.md: OK
+udt_gr_limit_campaign_2026-09-10/step_02/review/REVIEW_RESULT.json: OK

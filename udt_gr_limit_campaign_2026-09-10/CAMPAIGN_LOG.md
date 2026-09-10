@@ -1,6 +1,7 @@
 # GR-limit compact campaign log
 
-ACTIVE. Start01:13:27 UTC2026-09-10; deadline05:13:27 UTC; at most two
+SCIENTIFIC WORK COMPLETE; packaging closeout only.
+Start01:13:27 UTC2026-09-10; deadline05:13:27 UTC; at most two
 reviewed substantive steps. Baseline6d463412. WORK_ORDER.md owns scope.
 
 Startup: branch/hash/status and mandatory synchronization sequence verified;
@@ -103,3 +104,15 @@ small jets need not supply weighted hierarchy, with NO DDR claim for it.
 Fresh reviewer /root/gr_limit_step2_review independently recovered the transfer
 before direct exposure; source-first2f009447... also proposed a different
 oscillatory metric diagnostic. No author revision selected from that proposal.
+
+GL2 outcome: VERIFIED-WITH-CAVEATS, conditional UNPROMOTED; direct review
+1493eaac... found no load-bearing defect or required repair. The necessary
+Einstein limiting shape survives only with full GL1 and supplied regular,
+nondegenerate normalized convergence. Actual nonflat family existence and
+physical membership are not established. Both diagnostics remain scope
+controls, not adopted laws or a third step. No GL2 repair used. Finite/redundant/
+tautological check limits are explicit in the complete review; all16 seals pass.
+
+Campaign scientific work COMPLETE by2026-09-10 01:48 UTC: two reviewed steps,
+within four hours. Closeout performs packaging/regression/preservation only.
+Return DECISION_BRIEF for discussion; no successor, promotion or new physics.

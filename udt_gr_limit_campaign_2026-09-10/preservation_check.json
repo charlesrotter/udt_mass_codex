@@ -1,0 +1,16 @@
+{
+  "command": [
+    "python3",
+    "-B",
+    "-c",
+    "import hashlib,json,subprocess\nbase=\"6d463412a01b28819bb2a9f112bdb8b911681972\"\npackage=\"udt_gr_limit_campaign_2026-09-10/\"\nallowed={\"LIVE.md\",\"HANDOFF.md\",\"CURRENT_RESEARCH_PROGRAM.md\",\"CURRENT_SCIENTIFIC_PREMISES.md\",\"INDEX.md\",\"MEMORY.md\",\"UDT_RESEARCH_ROADMAP.md\"}\ndef git(*args):\n return subprocess.check_output([\"git\",\"-c\",\"index.threads=1\",\"-c\",\"core.preloadIndex=false\",*args],text=True)\nassert git(\"branch\",\"--show-current\").strip()==\"grok\"\nchanged=git(\"diff\",\"--name-only\",base).splitlines()\nassert all(p in allowed or p.startswith(package) for p in changed),changed\ngit(\"diff\",\"--check\",base)\nunrelated=sorted(s for s in git(\"status\",\"--short\").splitlines() if s.startswith(\"?? \") and not s[3:].startswith(package))\nfingerprint=hashlib.sha256(\"\\n\".join(unrelated).encode()).hexdigest()\nassert len(unrelated)==46,len(unrelated)\nassert fingerprint==\"d65d71d63a56b95aabfd61f33317b1f1f2b2a62a85ded8258c525b99a5e156ea\",fingerprint\nentries=0\nfor step in (\"step_01\",\"step_02\"):\n for name in (\"SOURCE_SHA256SUMS\",\"CANDIDATE_SHA256SUMS\",\"review/REVIEW_SHA256SUMS\"):\n  output=subprocess.check_output([\"sha256sum\",\"-c\",package+step+\"/\"+name],text=True)\n  print(output,end=\"\")\n  entries+=len(output.splitlines())\noriginal=subprocess.check_output([\"git\",\"show\",\"fabb3cae:\"+package+\"step_01/check_candidate.py\"])\noriginal_hash=hashlib.sha256(original).hexdigest()\nassert original_hash==\"5e89aa523c07665a6b9e1b1b28d78b23baf76a253b72f50a07eae85f13530aaa\"\nprint(json.dumps({\"status\":\"PASS: scoped Git/status and byte correspondence only\",\"baseline\":base,\"head\":git(\"rev-parse\",\"HEAD\").strip(),\"branch\":\"grok\",\"changed_tracked_paths\":changed,\"unrelated_default_status_entries\":len(unrelated),\"unrelated_status_names_sha256\":fingerprint,\"manifest_entries\":entries,\"initial_failed_GL1_script_sha256\":original_hash,\"protected_payloads\":\"not opened or hashed; status names only\",\"backup_and_pre_reboot_unsaved_state\":\"UNVERIFIED\",\"full365\":\"separate actual run FAILED G325; later gates unreached\"},indent=2,sort_keys=True))"
+  ],
+  "cwd": "/home/udt-admin/udt_mass_codex",
+  "started_utc": "2026-09-10T01:49:02.787406+00:00",
+  "duration_seconds": 0.1352499320055358,
+  "returncode": 0,
+  "timeout": false,
+  "address_space_bytes": 536870912,
+  "cpu_seconds": 60,
+  "maxrss_kib": 15360
+}

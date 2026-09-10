@@ -1,0 +1,111 @@
+udt_gr_filter_reconciliation_2026-09-09/AUTHORITY_RECORD.md: OK
+udt_g301_scale_free_quiet_regular_causal_principal_classification_2026-08-30/EXACT_DERIVATION.md: OK
+udt_g301_scale_free_quiet_regular_causal_principal_classification_2026-08-30/AUDIT_REPORT.md: OK
+udt_g311_universal_reciprocity_full_covariant_response_2026-09-01/EXACT_DERIVATION.md: OK
+udt_g312_quiet_gr_response_constitution_discriminator_2026-09-01/EXACT_DERIVATION.md: OK
+CURRENT_SCIENTIFIC_PREMISES.tsv: OK
+udt_shared_readout_metric_constraint_campaign_2026-09-06/run_capture.py: OK
+udt_gr_limit_campaign_2026-09-10/step_01/CANDIDATE.md: OK
+udt_gr_limit_campaign_2026-09-10/step_01/check_candidate.py: OK
+udt_gr_limit_campaign_2026-09-10/step_01/CHECK_REPAIR.md: OK
+udt_gr_limit_campaign_2026-09-10/step_01/author_checks_corrected.json: OK
+udt_gr_limit_campaign_2026-09-10/step_01/author_checks_corrected.stdout: OK
+udt_gr_limit_campaign_2026-09-10/step_01/author_checks_corrected.stderr: OK
+udt_gr_limit_campaign_2026-09-10/step_01/review/SOURCE_FIRST_REVIEW.md: OK
+udt_gr_limit_campaign_2026-09-10/step_01/review/DIRECT_REVIEW.md: OK
+udt_gr_limit_campaign_2026-09-10/step_01/review/REVIEW_RESULT.json: OK
+udt_gr_limit_campaign_2026-09-10/step_01/review/independent_contraction_check.py: OK
+udt_gr_limit_campaign_2026-09-10/step_01/review/independent_checks.stdout: OK
+udt_gr_limit_campaign_2026-09-10/step_01/review/independent_checks.stderr: OK
+udt_gr_limit_campaign_2026-09-10/step_01/review/independent_checks.json: OK
+udt_gr_limit_campaign_2026-09-10/step_01/review/author_regression.stdout: OK
+udt_gr_limit_campaign_2026-09-10/step_01/review/author_regression.stderr: OK
+udt_gr_limit_campaign_2026-09-10/step_01/review/author_regression.json: OK
+udt_gr_limit_campaign_2026-09-10/step_01/review/source_and_candidate_pins.stdout: OK
+udt_gr_limit_campaign_2026-09-10/step_01/review/source_and_candidate_pins.stderr: OK
+udt_gr_limit_campaign_2026-09-10/step_01/review/source_and_candidate_pins.json: OK
+udt_gr_limit_campaign_2026-09-10/step_01/CANDIDATE.md: OK
+udt_gr_limit_campaign_2026-09-10/step_01/REVIEWED_RESULT.md: OK
+udt_gr_limit_campaign_2026-09-10/step_01/review/DIRECT_REVIEW.md: OK
+udt_gr_filter_reconciliation_2026-09-09/AUTHORITY_RECORD.md: OK
+udt_native_response_discrimination_2026-09-09/step_01/CANDIDATE.md: OK
+udt_native_response_discrimination_2026-09-09/step_01/review/DIRECT_REVIEW.md: OK
+udt_g260_gr_quiet_angular_nondiscard_audit_2026-08-25/EXACT_DERIVATION.md: OK
+udt_shared_readout_metric_constraint_campaign_2026-09-06/run_capture.py: OK
+udt_gr_limit_campaign_2026-09-10/step_02/CANDIDATE.md: OK
+udt_gr_limit_campaign_2026-09-10/step_02/check_metric_limit.py: OK
+udt_gr_limit_campaign_2026-09-10/step_02/SOURCE_SHA256SUMS: OK
+udt_gr_limit_campaign_2026-09-10/step_02/review/SOURCE_FIRST_REVIEW.md: OK
+udt_gr_limit_campaign_2026-09-10/step_02/review/independent_geometry_check.py: OK
+udt_gr_limit_campaign_2026-09-10/step_02/review/independent_geometry_check.json: OK
+udt_gr_limit_campaign_2026-09-10/step_02/review/independent_geometry_check.stdout: OK
+udt_gr_limit_campaign_2026-09-10/step_02/review/independent_geometry_check.stderr: OK
+udt_gr_limit_campaign_2026-09-10/step_02/review/author_replay.json: OK
+udt_gr_limit_campaign_2026-09-10/step_02/review/author_replay.stdout: OK
+udt_gr_limit_campaign_2026-09-10/step_02/review/author_replay.stderr: OK
+udt_gr_limit_campaign_2026-09-10/step_02/review/source_seals.json: OK
+udt_gr_limit_campaign_2026-09-10/step_02/review/source_seals.stdout: OK
+udt_gr_limit_campaign_2026-09-10/step_02/review/source_seals.stderr: OK
+udt_gr_limit_campaign_2026-09-10/step_02/review/candidate_seals.json: OK
+udt_gr_limit_campaign_2026-09-10/step_02/review/candidate_seals.stdout: OK
+udt_gr_limit_campaign_2026-09-10/step_02/review/candidate_seals.stderr: OK
+udt_gr_limit_campaign_2026-09-10/step_02/review/DIRECT_REVIEW.md: OK
+udt_gr_limit_campaign_2026-09-10/step_02/review/REVIEW_RESULT.json: OK
+{
+  "backup_and_pre_reboot_unsaved_state": "UNVERIFIED",
+  "baseline": "6d463412a01b28819bb2a9f112bdb8b911681972",
+  "branch": "grok",
+  "changed_tracked_paths": [
+    "CURRENT_RESEARCH_PROGRAM.md",
+    "CURRENT_SCIENTIFIC_PREMISES.md",
+    "HANDOFF.md",
+    "INDEX.md",
+    "LIVE.md",
+    "MEMORY.md",
+    "UDT_RESEARCH_ROADMAP.md",
+    "udt_gr_limit_campaign_2026-09-10/CAMPAIGN_LOG.md",
+    "udt_gr_limit_campaign_2026-09-10/STARTUP_AUDIT.json",
+    "udt_gr_limit_campaign_2026-09-10/WORK_ORDER.md",
+    "udt_gr_limit_campaign_2026-09-10/step_01/CANDIDATE.md",
+    "udt_gr_limit_campaign_2026-09-10/step_01/CANDIDATE_SHA256SUMS",
+    "udt_gr_limit_campaign_2026-09-10/step_01/CHECK_REPAIR.md",
+    "udt_gr_limit_campaign_2026-09-10/step_01/REVIEWED_RESULT.md",
+    "udt_gr_limit_campaign_2026-09-10/step_01/SOURCE_SHA256SUMS",
+    "udt_gr_limit_campaign_2026-09-10/step_01/author_checks.json",
+    "udt_gr_limit_campaign_2026-09-10/step_01/author_checks.stderr",
+    "udt_gr_limit_campaign_2026-09-10/step_01/author_checks.stdout",
+    "udt_gr_limit_campaign_2026-09-10/step_01/author_checks_corrected.json",
+    "udt_gr_limit_campaign_2026-09-10/step_01/author_checks_corrected.stderr",
+    "udt_gr_limit_campaign_2026-09-10/step_01/author_checks_corrected.stdout",
+    "udt_gr_limit_campaign_2026-09-10/step_01/check_candidate.py",
+    "udt_gr_limit_campaign_2026-09-10/step_01/review/DIRECT_REVIEW.md",
+    "udt_gr_limit_campaign_2026-09-10/step_01/review/REVIEW_RESULT.json",
+    "udt_gr_limit_campaign_2026-09-10/step_01/review/REVIEW_SHA256SUMS",
+    "udt_gr_limit_campaign_2026-09-10/step_01/review/SOURCE_FIRST_REVIEW.md",
+    "udt_gr_limit_campaign_2026-09-10/step_01/review/author_regression.json",
+    "udt_gr_limit_campaign_2026-09-10/step_01/review/author_regression.stderr",
+    "udt_gr_limit_campaign_2026-09-10/step_01/review/author_regression.stdout",
+    "udt_gr_limit_campaign_2026-09-10/step_01/review/independent_checks.json",
+    "udt_gr_limit_campaign_2026-09-10/step_01/review/independent_checks.stderr",
+    "udt_gr_limit_campaign_2026-09-10/step_01/review/independent_checks.stdout",
+    "udt_gr_limit_campaign_2026-09-10/step_01/review/independent_contraction_check.py",
+    "udt_gr_limit_campaign_2026-09-10/step_01/review/source_and_candidate_pins.json",
+    "udt_gr_limit_campaign_2026-09-10/step_01/review/source_and_candidate_pins.stderr",
+    "udt_gr_limit_campaign_2026-09-10/step_01/review/source_and_candidate_pins.stdout",
+    "udt_gr_limit_campaign_2026-09-10/step_02/CANDIDATE.md",
+    "udt_gr_limit_campaign_2026-09-10/step_02/CANDIDATE_SHA256SUMS",
+    "udt_gr_limit_campaign_2026-09-10/step_02/SOURCE_SHA256SUMS",
+    "udt_gr_limit_campaign_2026-09-10/step_02/author_checks.json",
+    "udt_gr_limit_campaign_2026-09-10/step_02/author_checks.stderr",
+    "udt_gr_limit_campaign_2026-09-10/step_02/author_checks.stdout",
+    "udt_gr_limit_campaign_2026-09-10/step_02/check_metric_limit.py"
+  ],
+  "full365": "separate actual run FAILED G325; later gates unreached",
+  "head": "e09e2573acd319cc4257eea95cdfe957a116c48a",
+  "initial_failed_GL1_script_sha256": "5e89aa523c07665a6b9e1b1b28d78b23baf76a253b72f50a07eae85f13530aaa",
+  "manifest_entries": 53,
+  "protected_payloads": "not opened or hashed; status names only",
+  "status": "PASS: scoped Git/status and byte correspondence only",
+  "unrelated_default_status_entries": 46,
+  "unrelated_status_names_sha256": "d65d71d63a56b95aabfd61f33317b1f1f2b2a62a85ded8258c525b99a5e156ea"
+}
