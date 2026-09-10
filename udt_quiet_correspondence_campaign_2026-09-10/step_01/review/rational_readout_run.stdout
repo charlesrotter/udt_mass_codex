@@ -1,0 +1,23 @@
+{
+  "status": "PASS",
+  "python": "3.10.12",
+  "method": "exact rational direct Laurent profile/residual/data evaluation; Decimal nonlinear readouts",
+  "profiles": 36,
+  "points_per_profile": 13,
+  "radius_domain": [
+    "1/2",
+    "2"
+  ],
+  "certified_common_positive_lower_bound": "1/2",
+  "decimal_precision": 60,
+  "decimal_log_rounding_allowance": "1e-56",
+  "counts": {
+    "exact_profile": 1404,
+    "decimal_readout": 2340,
+    "positivity": 72,
+    "mutation_rejections": 4
+  },
+  "maximum_exact_profile_bound_ratio": "1",
+  "author_code_or_output_imported": false,
+  "candidate_exposed_before_this_script": true
+}

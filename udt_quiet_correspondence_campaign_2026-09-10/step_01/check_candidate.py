@@ -115,6 +115,7 @@ same(s.diff(s.log(s.sqrt(F)),r),s.diff(F,r)/(2*F),'coordinate log lapse derivati
 # Exact positive-input checks of denominator-sensitive algebra, independently of profiles.
 for qv,pv,qp,pp in [(s.Rational(1,2),1,2,-1),(2,3,-1,2),(1,1,0,0),
                     (s.Rational(1,4),s.Rational(1,2),1,s.Rational(1,3))]:
+    qv,pv,qp,pp = map(s.Rational,(qv,pv,qp,pp))
     m = min(qv,pv)
     b0,b1=abs(qv-pv),abs(qp-pp)
     le(abs(qp/(2*qv)-pp/(2*pv)), b1/(2*m)+abs(pp)*b0/(2*m*m),'H algebra')
@@ -126,12 +127,10 @@ assert s.simplify((x*x*s.diff(- (U-1),x,2)/2+(U-1))-1) != 0
 checks += 1  # wrong Green sign must fail original residual
 assert s.simplify((1-F)/r**2 - (-F/r**2)) != 0
 checks += 1  # removing sphere curvature changes a full-metric component
-assert abs(s.Rational(1,4)-s.Rational(1,2)) != 0
-checks += 1  # anchor-value corruption is not residual-controlled
 
 print(json.dumps({'status':'PASS','assertions':checks,'python':platform.python_version(),
       'sympy':s.__version__,'script_sha256':hashlib.sha256(Path(__file__).read_bytes()).hexdigest(),
       'method':'symbolic Green identities, rational finite support, full coordinate Riemann reconstruction',
       'resonant_residual_powers':resonant,'finite_profile_cases':cases,
-      'negative_controls':['wrong Green sign','removed sphere curvature','nonzero anchor error'],
+      'negative_controls':['wrong Green sign','sectional formula with sphere term removed'],
       'limitations':'Finite checks support algebra; general continuity/domain/norm/clock Lipschitz claims rely on analytic proof; no empirical test'},indent=2))
