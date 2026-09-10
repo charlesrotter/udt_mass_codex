@@ -12,6 +12,7 @@ evidence. A coverage checklist is premise-relative, never an if-and-only-if theo
 
 ## Mandatory startup
 
+`Fresh session` here means top-level; scoped subagent reviews attribute parent startup evidence and independently perform their assigned checks.
 Use branch `grok`. Verify branch, hash, status, process, and result claims yourself. Inspect before
 switching so unrelated work stays visible. On every fresh session run, in order:
 

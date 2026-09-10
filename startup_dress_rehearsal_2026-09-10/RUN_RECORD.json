@@ -1,0 +1,121 @@
+{
+  "scope": "User-authorized simulated startup dress rehearsal and scoped maintenance repair; no scientific campaign",
+  "baseline": "405623d6510407b70eb5fa9edd28be0bb2c6784d",
+  "branch": "grok",
+  "budget_minutes": 30,
+  "synchronization": "Parent executed status/checkout/fetch/pull-ff-only/status/log; fresh reader independently inspected local branch/hash/dirt but did not repeat Git writes",
+  "reader": "/root/startup_dress_rehearsal",
+  "reader_context": "Fresh context with fork_turns none; inherited parent model without override; current shared runtime is not a fresh top-level session",
+  "configured_model": "gpt-6-astra",
+  "configured_reasoning": "xhigh",
+  "backend_model_attestation": "UNVERIFIED",
+  "local_cli": "codex-cli 0.153.4",
+  "python": "3.10.12",
+  "initial_full": {
+    "command": "set -o pipefail; /usr/bin/time -f 'ELAPSED_SECONDS=%e EXIT_STATUS=%x' -o /tmp/udt-startup-rehearsal-20260910.qTj4Wx/verifier.time timeout --signal=TERM --kill-after=5s 600s python3 verify_current_scientific_premises.py 2> /tmp/udt-startup-rehearsal-20260910.qTj4Wx/verifier.stderr | tee /tmp/udt-startup-rehearsal-20260910.qTj4Wx/verifier.stdout",
+    "exit_code": 0,
+    "elapsed_seconds": 407.72,
+    "executed_by": "fresh-context reader",
+    "outputs": {
+      "verifier.stdout": "PASS: G242/G243/G244/G245/G246/G247/G248/G249/G250/G251/G252/G253/G254/G255/G256/G257/G258/G259/G260/G261/G262/G263/G264/G265/G266/G267/G268/G269/G270/G271/G272/G273/G274/W5/G275/G276/G277/G278/G279/G280/G281/G282/G283/G284/G285/G286/G287/G288/G289/G290/G291/G292/G293/G294/W6/G295/G296/G297/G298/G299/G300/G301/G302/G303/G304/G305/G306/G307/G308/G309/G310/G311/G312/G313/G314/G315/G316/G317/G318/G319/G320/G321/G322/G323/G324/G325/G326/G327/G328/G329/G330/G331/G332/G333/G334/G335/G336/G337/G338/G339/G340/G341/G342/G343/G344/G345/G346/G347/G348/G349/G350/G351/G352 startup and premise guards; PASS: 365-row premise registry, current bounded startup route, archive integrity, relational-depth/orchestra guards, X_max semantics, 754 historical dispositions, and corrected DOF semantics; PASS: G353/G354/G355/G356 conditional banking with unchanged frozen sources and physical-identification limits; PASS: G357/G358/G359/G360 conditional banking with retained SC1 source map, SC5 false-pass repair history and unchanged frozen sources; PASS: G361/G362/G363 conditional local persistence banking with restricted seed, wave-method, fixed-product and physical-identification limits; PASS: G364/G365/G366 conditional restrictiveness banking with exact local scopes, RC2 exposure caveat, unchanged original evidence and no physical adoption; PASS: G367/G368/G369 conditional source-metric banking with optional-class, chosen-product, repair/exposure and no physical-source-adoption limits; PASS: G370/G371 conditional reconstruction/product-data banking with optional nonvacuum, full ambient closure, fixed/free data and retained review limits; PASS: G372/G373 conditional independent-data and LOCAL ANALYTIC coupled development with original product, excluded vacuous checks, paused optional source and retained review limits; PASS: G374/G375 conditional fixed-base local vacuum-scale banking with positivity, fixed-target scalar and review limits; no particle stability, size or absolute scale; PASS: G376 prerequisite BI1 and G377/G378 BG1/BG2 exact conditional banking with dependency closure, full tensor/false-pass evidence and no fibration/stability promotion for BG2; PASS: G379/CF1 and G380/CF2 exact conditional closed-fibre banking with supplied marking, lawful local developments, preserved Hopf survivors and false-pass/LOST-output caveats; no generic failure, physical instability, topology change or UDT-failure promotion; PASS: G381/NT1 and G382/NT2 exact conditional neighboring-tidal banking with full connection/finite-jet limits, restricted real null factor class, actual local Lambda0 realizations, free profiles and preserved false-pass/LOST-source caveats; no physical identification\n",
+      "verifier.stderr": "",
+      "verifier.time": "ELAPSED_SECONDS=407.72 EXIT_STATUS=0\n"
+    }
+  },
+  "fast_command": "timeout 180s python3 -m pytest -q tests/test_startup_surface.py tests/test_guard_maintenance.py tests/test_xmax_maintenance.py -k 'not full_foundational_premise_verifier_is_in_pytest'",
+  "fast_initial": {
+    "tool_chunks": [
+      {
+        "chunk_id": "89b5ba",
+        "wall_time_seconds": 1.000294941,
+        "session_id": 31926,
+        "original_token_count": 7,
+        "output": "..........................."
+      },
+      {
+        "chunk_id": "d3d41f",
+        "wall_time_seconds": 0.000001608,
+        "exit_code": 0,
+        "original_token_count": 122,
+        "output": "............................................. [ 19%]\n........................................................................ [ 39%]\n........................................................................ [ 58%]\n........................................................................ [ 78%]\n........................................................................ [ 98%]\n.......                                                                  [100%]\n367 passed, 1 deselected in 10.76s\n"
+      }
+    ],
+    "combined_output": "........................................................................ [ 19%]\n........................................................................ [ 39%]\n........................................................................ [ 58%]\n........................................................................ [ 78%]\n........................................................................ [ 98%]\n.......                                                                  [100%]\n367 passed, 1 deselected in 10.76s\n"
+  },
+  "fast_after_repair": {
+    "tool_chunks": [
+      {
+        "chunk_id": "fc20e9",
+        "wall_time_seconds": 1.001568083,
+        "session_id": 64759,
+        "original_token_count": 7,
+        "output": "..........................."
+      },
+      {
+        "chunk_id": "212d6b",
+        "wall_time_seconds": 0.000002103,
+        "exit_code": 0,
+        "original_token_count": 122,
+        "output": "............................................. [ 19%]\n........................................................................ [ 39%]\n........................................................................ [ 58%]\n........................................................................ [ 78%]\n........................................................................ [ 98%]\n.......                                                                  [100%]\n367 passed, 1 deselected in 10.76s\n"
+      }
+    ],
+    "combined_output": "........................................................................ [ 19%]\n........................................................................ [ 39%]\n........................................................................ [ 58%]\n........................................................................ [ 78%]\n........................................................................ [ 98%]\n.......                                                                  [100%]\n367 passed, 1 deselected in 10.76s\n"
+  },
+  "repairs": [
+    "Clarify fresh top-level session vs scoped review context; retain attributed evidence and independently assigned checks",
+    "Correct on24 to on 24; no mathematical/grade change"
+  ],
+  "repair_patch": "diff --git a/AGENTS.md b/AGENTS.md\nindex b8585536..823486f6 100644\n--- a/AGENTS.md\n+++ b/AGENTS.md\n@@ -12,6 +12,7 @@ evidence. A coverage checklist is premise-relative, never an if-and-only-if theo\n \n ## Mandatory startup\n \n+`Fresh session` here means top-level; scoped subagent reviews attribute parent startup evidence and independently perform their assigned checks.\n Use branch `grok`. Verify branch, hash, status, process, and result claims yourself. Inspect before\n switching so unrelated work stays visible. On every fresh session run, in order:\n \ndiff --git a/CURRENT_SCIENTIFIC_PREMISES.md b/CURRENT_SCIENTIFIC_PREMISES.md\nindex d6c8a036..c2d3797d 100644\n--- a/CURRENT_SCIENTIFIC_PREMISES.md\n+++ b/CURRENT_SCIENTIFIC_PREMISES.md\n@@ -56,7 +56,7 @@ center, or scale. Strong local CSN is `CHALLENGED_OWNER_POSTULATE_NOT_DERIVED` a\n | G355 | Local harmonic-wave phase class; CHOSEN recurrence conversion |\n | G356 | Fixed-label product criterion, different-phase realizations and nonfactorizing failure |\n | G357 | Finite shared ideal-query cone/dual constraints and cell-mass fibres; not full measure or instrument identification |\n-| G358 | Thirteen constraints on24 declared ideal tides; unique eventwise algebraic Einstein curvature, not PDE realization |\n+| G358 | Thirteen constraints on 24 declared ideal tides; unique eventwise algebraic Einstein curvature, not PDE realization |\n | G359 | Full initial future-null covector and unique local phase; optional whole-compact-slice real-phase obstruction |\n | G360 | Robust overlap exclusions; existential bounded-kernel class threshold, not every fixed kernel or measured accuracy |\n | G361 | Full spacelike seed and exact chosen-root gate within that Einstein class; nonempty lawful local data |\n",
+  "review_initial": "VERIFIED-WITH-CAVEATS: successful startup; terminology ambiguity, not observed recursion, and one spacing typo",
+  "review_focused": "VERIFIED: same-context focused rereview; exactly two changes, no remaining wording defect; scoped whitespace PASS",
+  "reviewed_sha256": {
+    "AGENTS.md": "9204e80ba3ebda635a7c21d562ecfdc2af8bf516aee91ae8099b04a66b8fcb8c",
+    "CURRENT_SCIENTIFIC_PREMISES.md": "0b2a836d077c22f9c174c6ecbdf6cebc016840c8ac7ed34aad6113bbdcbac3d3"
+  },
+  "independent_focused_context": false,
+  "capacity_reset": "UNVERIFIED",
+  "new_scientific_campaign": "NOT_AUTHORIZED",
+  "unrelated_status_entries": 46,
+  "unrelated_status_sha256": "55e7c4508622f912730f9c068cc571c370b3977bc1110eb0a48a8218dbe024c2",
+  "backup_completeness": "UNVERIFIED",
+  "pre_reboot_unsaved_state_disposition": "UNVERIFIED",
+  "final_full": {
+    "command": "set -o pipefail\n/usr/bin/time -f 'ELAPSED_SECONDS=%e EXIT_STATUS=%x' -o /tmp/udt-startup-rehearsal-final-20260910.wvNrQK/verifier.time timeout --signal=TERM --kill-after=5s 600s python3 verify_current_scientific_premises.py 2> /tmp/udt-startup-rehearsal-final-20260910.wvNrQK/verifier.stderr | tee /tmp/udt-startup-rehearsal-final-20260910.wvNrQK/verifier.stdout",
+    "executed_by": "primary, after the initial reader's full run completed",
+    "tool_start": {
+      "chunk_id": "a5637d",
+      "wall_time_seconds": 1.001508398,
+      "session_id": 34763,
+      "original_token_count": 0,
+      "output": ""
+    },
+    "tool_completion": {
+      "chunk_id": "4a139d",
+      "wall_time_seconds": 13.841296861,
+      "exit_code": 0,
+      "original_token_count": 676,
+      "output": "PASS: G242/G243/G244/G245/G246/G247/G248/G249/G250/G251/G252/G253/G254/G255/G256/G257/G258/G259/G260/G261/G262/G263/G264/G265/G266/G267/G268/G269/G270/G271/G272/G273/G274/W5/G275/G276/G277/G278/G279/G280/G281/G282/G283/G284/G285/G286/G287/G288/G289/G290/G291/G292/G293/G294/W6/G295/G296/G297/G298/G299/G300/G301/G302/G303/G304/G305/G306/G307/G308/G309/G310/G311/G312/G313/G314/G315/G316/G317/G318/G319/G320/G321/G322/G323/G324/G325/G326/G327/G328/G329/G330/G331/G332/G333/G334/G335/G336/G337/G338/G339/G340/G341/G342/G343/G344/G345/G346/G347/G348/G349/G350/G351/G352 startup and premise guards; PASS: 365-row premise registry, current bounded startup route, archive integrity, relational-depth/orchestra guards, X_max semantics, 754 historical dispositions, and corrected DOF semantics; PASS: G353/G354/G355/G356 conditional banking with unchanged frozen sources and physical-identification limits; PASS: G357/G358/G359/G360 conditional banking with retained SC1 source map, SC5 false-pass repair history and unchanged frozen sources; PASS: G361/G362/G363 conditional local persistence banking with restricted seed, wave-method, fixed-product and physical-identification limits; PASS: G364/G365/G366 conditional restrictiveness banking with exact local scopes, RC2 exposure caveat, unchanged original evidence and no physical adoption; PASS: G367/G368/G369 conditional source-metric banking with optional-class, chosen-product, repair/exposure and no physical-source-adoption limits; PASS: G370/G371 conditional reconstruction/product-data banking with optional nonvacuum, full ambient closure, fixed/free data and retained review limits; PASS: G372/G373 conditional independent-data and LOCAL ANALYTIC coupled development with original product, excluded vacuous checks, paused optional source and retained review limits; PASS: G374/G375 conditional fixed-base local vacuum-scale banking with positivity, fixed-target scalar and review limits; no particle stability, size or absolute scale; PASS: G376 prerequisite BI1 and G377/G378 BG1/BG2 exact conditional banking with dependency closure, full tensor/false-pass evidence and no fibration/stability promotion for BG2; PASS: G379/CF1 and G380/CF2 exact conditional closed-fibre banking with supplied marking, lawful local developments, preserved Hopf survivors and false-pass/LOST-output caveats; no generic failure, physical instability, topology change or UDT-failure promotion; PASS: G381/NT1 and G382/NT2 exact conditional neighboring-tidal banking with full connection/finite-jet limits, restricted real null factor class, actual local Lambda0 realizations, free profiles and preserved false-pass/LOST-source caveats; no physical identification\n"
+    },
+    "outputs": {
+      "verifier.stdout": "PASS: G242/G243/G244/G245/G246/G247/G248/G249/G250/G251/G252/G253/G254/G255/G256/G257/G258/G259/G260/G261/G262/G263/G264/G265/G266/G267/G268/G269/G270/G271/G272/G273/G274/W5/G275/G276/G277/G278/G279/G280/G281/G282/G283/G284/G285/G286/G287/G288/G289/G290/G291/G292/G293/G294/W6/G295/G296/G297/G298/G299/G300/G301/G302/G303/G304/G305/G306/G307/G308/G309/G310/G311/G312/G313/G314/G315/G316/G317/G318/G319/G320/G321/G322/G323/G324/G325/G326/G327/G328/G329/G330/G331/G332/G333/G334/G335/G336/G337/G338/G339/G340/G341/G342/G343/G344/G345/G346/G347/G348/G349/G350/G351/G352 startup and premise guards; PASS: 365-row premise registry, current bounded startup route, archive integrity, relational-depth/orchestra guards, X_max semantics, 754 historical dispositions, and corrected DOF semantics; PASS: G353/G354/G355/G356 conditional banking with unchanged frozen sources and physical-identification limits; PASS: G357/G358/G359/G360 conditional banking with retained SC1 source map, SC5 false-pass repair history and unchanged frozen sources; PASS: G361/G362/G363 conditional local persistence banking with restricted seed, wave-method, fixed-product and physical-identification limits; PASS: G364/G365/G366 conditional restrictiveness banking with exact local scopes, RC2 exposure caveat, unchanged original evidence and no physical adoption; PASS: G367/G368/G369 conditional source-metric banking with optional-class, chosen-product, repair/exposure and no physical-source-adoption limits; PASS: G370/G371 conditional reconstruction/product-data banking with optional nonvacuum, full ambient closure, fixed/free data and retained review limits; PASS: G372/G373 conditional independent-data and LOCAL ANALYTIC coupled development with original product, excluded vacuous checks, paused optional source and retained review limits; PASS: G374/G375 conditional fixed-base local vacuum-scale banking with positivity, fixed-target scalar and review limits; no particle stability, size or absolute scale; PASS: G376 prerequisite BI1 and G377/G378 BG1/BG2 exact conditional banking with dependency closure, full tensor/false-pass evidence and no fibration/stability promotion for BG2; PASS: G379/CF1 and G380/CF2 exact conditional closed-fibre banking with supplied marking, lawful local developments, preserved Hopf survivors and false-pass/LOST-output caveats; no generic failure, physical instability, topology change or UDT-failure promotion; PASS: G381/NT1 and G382/NT2 exact conditional neighboring-tidal banking with full connection/finite-jet limits, restricted real null factor class, actual local Lambda0 realizations, free profiles and preserved false-pass/LOST-source caveats; no physical identification\n",
+      "verifier.stderr": "",
+      "verifier.time": "ELAPSED_SECONDS=406.61 EXIT_STATUS=0\n"
+    }
+  },
+  "synchronization_tools": {
+    "pull": {
+      "chunk_id": "f06723",
+      "wall_time_seconds": 0.251594693,
+      "exit_code": 0,
+      "original_token_count": 31,
+      "output": "From https://github.com/charlesrotter/udt_mass_codex\n * branch              grok       -> FETCH_HEAD\nAlready up to date.\n"
+    },
+    "status_and_log": {
+      "chunk_id": "dc36f6",
+      "wall_time_seconds": 0.00000258,
+      "exit_code": 0,
+      "original_token_count": 1115,
+      "output": "## grok...origin/grok\n?? 8_25/\n?? UDT_Complete_Guardrails_and_Central_Science_Tracking.md\n?? UDT_Next_Step_After_Two_Stages.md\n?? UDT_Sequenced_Guardrails_and_Development_Work_Order.md\n?? udt_native_onshell_timelive_reset_owner_audit_2026-08-10/CANDIDATE_LAW_MAP.tsv\n?? udt_native_onshell_timelive_reset_owner_audit_2026-08-10/DERIVATION_RESULT.json\n?? udt_native_onshell_timelive_reset_owner_audit_2026-08-10/EQUATION_OWNERSHIP_ATLAS.tsv\n?? udt_native_onshell_timelive_reset_owner_audit_2026-08-10/SOURCE_SCOPE_CLARIFICATION.md\n?? udt_native_onshell_timelive_reset_owner_audit_2026-08-10/derive_owner_atlas.py\n?? udt_native_onshell_timelive_reset_owner_audit_2026-08-10/run_catch_proofs.py\n?? udt_native_onshell_timelive_reset_owner_audit_2026-08-10/verify_owner_independent.py\n?? udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/ADVERSARIAL_REVIEW_REQUEST.md\n?? udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/AUDIT_REPORT.md\n?? udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/CATCH_PROOF_RESULT.json\n?? udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/DERIVATION_RESULT.json\n?? udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/EVIDENCE_GATES.md\n?? udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/EXACT_DERIVATION.md\n?? udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/INDEPENDENT_VERIFICATION.json\n?? udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/LAY_REPORT.md\n?? udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/STATUS_LEDGER.tsv\n?? udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/VERIFICATION_RESULT.json\n?? udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/WITNESS_ATLAS.tsv\n?? udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/build_review_intake.py\n?? udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/derive_regime_flow.py\n?? udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/run_catch_proofs.py\n?? udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/verify_independent.py\n?? udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/verify_package.py\n?? udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/AUDIT_REPORT.md\n?? udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/CATCH_PROOF_RESULT.json\n?? udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/DERIVATION_RESULT.json\n?? udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/EVIDENCE_GATES.md\n?? udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/EXACT_DERIVATION.md\n?? udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/INDEPENDENT_RADAU_REPLAY.tsv\n?? udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/INDEPENDENT_VERIFICATION.json\n?? udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/LAY_REPORT.md\n?? udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/PREREGISTRATION_EXECUTION_NOTE.md\n?? udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/PROFILE_COMPATIBILITY_ATLAS.tsv\n?? udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/REVIEW_DISPATCH.md\n?? udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/RUN_CHECKPOINT.tsv\n?? udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/STATUS_LEDGER.tsv\n?? udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/VERIFICATION_RESULT.json\n?? udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/build_review_manifest.py\n?? udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/derive_compatibility_atlas.py\n?? udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/run_catch_proofs.py\n?? udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/verify_independent.py\n?? udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/verify_package.py\n405623d6 Prepare fresh Codex handoff and archive stale startup dispatch\n6264a103 Record bounded agent-capacity diagnostic and whiteboard checkpoint\n443f34ab Record verified guard-maintenance publication\n985950c9 Repair bounded documentation guards without changing scientific scope\nc7f80d57 Record replay maintenance publication and remaining audit gate\ne4984fa5 Repair runtime-provenance replay checks without changing science\n51f18967 Record NCI1 publication and preservation receipt\n51e94ba6 Record reviewed conditional null-clock depth integrability\n55e7c4508622f912730f9c068cc571c370b3977bc1110eb0a48a8218dbe024c2  -\n"
+    }
+  }
+}

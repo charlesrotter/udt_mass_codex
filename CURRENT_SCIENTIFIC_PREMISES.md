@@ -56,7 +56,7 @@ center, or scale. Strong local CSN is `CHALLENGED_OWNER_POSTULATE_NOT_DERIVED` a
 | G355 | Local harmonic-wave phase class; CHOSEN recurrence conversion |
 | G356 | Fixed-label product criterion, different-phase realizations and nonfactorizing failure |
 | G357 | Finite shared ideal-query cone/dual constraints and cell-mass fibres; not full measure or instrument identification |
-| G358 | Thirteen constraints on24 declared ideal tides; unique eventwise algebraic Einstein curvature, not PDE realization |
+| G358 | Thirteen constraints on 24 declared ideal tides; unique eventwise algebraic Einstein curvature, not PDE realization |
 | G359 | Full initial future-null covector and unique local phase; optional whole-compact-slice real-phase obstruction |
 | G360 | Robust overlap exclusions; existential bounded-kernel class threshold, not every fixed kernel or measured accuracy |
 | G361 | Full spacelike seed and exact chosen-root gate within that Einstein class; nonempty lawful local data |

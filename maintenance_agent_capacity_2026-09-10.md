@@ -192,3 +192,11 @@ The reviewer did not independently attest parent tests, archive hashes or this f
 One wording repair retained "unproduced" rather than ambiguous "missing" for the old report.
 The verifier-before-record protocol kept editorial fidelity distinct from scientific promotion;
 OpenAI Docs kept documented lifecycle features distinct from actually exposed runtime controls.
+
+## Subsequent simulated startup rehearsal — 2026-09-10
+
+`startup_dress_rehearsal_2026-09-10/README.md` records a successful fresh-context rehearsal,
+initial and repaired full365 runs, 367 targeted checks, and focused review of two minor repairs.
+AGENTS now distinguishes top-level startup from scoped review; a summary spacing typo was fixed.
+This is dated operational evidence, not a new-session PASS, capacity reset or scientific promotion.
+The approved fresh-session transition and proposed-but-unauthorized scientific audit stay distinct.
