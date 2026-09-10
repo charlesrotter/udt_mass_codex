@@ -1,0 +1,110 @@
+{
+  "type": "Publication evidence; preservation does not constitute scientific promotion",
+  "recorded_utc": "2026-09-10 21:45:30 UTC",
+  "branch": "grok",
+  "baseline_commit": "e1b43cc41ec1a8456bfac5096bf02f74801b7123",
+  "candidate_commit": "0fa6a235ef538b3acc3e36b485224f1ce2c40a15",
+  "candidate_commit_message": "Preserve reviewed kernel twist information candidate KTI1",
+  "scope": {
+    "staged_files": 80,
+    "authorized_paths": [
+      "INDEX.md",
+      "UDT_RESEARCH_ROADMAP.md",
+      "udt_kernel_twist_information_audit_2026-09-10/"
+    ],
+    "unrelated_status_entries": 46,
+    "unrelated_status_sha256": "55e7c4508622f912730f9c068cc571c370b3977bc1110eb0a48a8218dbe024c2",
+    "protected_payloads_inspected_or_hashed": false
+  },
+  "push": {
+    "command": [
+      "git",
+      "push",
+      "origin",
+      "grok"
+    ],
+    "initial_tool_result": {
+      "chunk_id": "a1fa76",
+      "wall_time_seconds": 1.00142467,
+      "session_id": 47085,
+      "original_token_count": 0,
+      "output": ""
+    },
+    "completion_tool_result": {
+      "chunk_id": "4fa2af",
+      "wall_time_seconds": 0.000002071,
+      "exit_code": 0,
+      "original_token_count": 23,
+      "output": "To https://github.com/charlesrotter/udt_mass_codex.git\n   e1b43cc4..0fa6a235  grok -> grok\n"
+    }
+  },
+  "local_refs": {
+    "command": [
+      "git",
+      "rev-parse",
+      "HEAD",
+      "origin/grok"
+    ],
+    "tool_result": {
+      "chunk_id": "4488e1",
+      "wall_time_seconds": 0.000002753,
+      "exit_code": 0,
+      "original_token_count": 21,
+      "output": "0fa6a235ef538b3acc3e36b485224f1ce2c40a15\n0fa6a235ef538b3acc3e36b485224f1ce2c40a15\n"
+    }
+  },
+  "remote_ref": {
+    "command": [
+      "git",
+      "ls-remote",
+      "--exit-code",
+      "origin",
+      "refs/heads/grok"
+    ],
+    "tool_result": {
+      "chunk_id": "d1c174",
+      "wall_time_seconds": 0.251516423,
+      "exit_code": 0,
+      "original_token_count": 15,
+      "output": "0fa6a235ef538b3acc3e36b485224f1ce2c40a15\trefs/heads/grok\n"
+    }
+  },
+  "scientific_state": "VERIFIED-WITH-CAVEATS; conditional UNPROMOTED; final brief fidelity accepted; no registry grade, canon or fixed-manuscript change",
+  "validation": {
+    "independent_reviewer": "88 exact identity/regularity checks + 18 actual mutation rejections; separate context and implementation; source/candidate/brief checks passed",
+    "author": "Corrected run 85 identities + 11 wrong-formula controls; initial ShapeError source/output preserved; check-only R1 accepted",
+    "navigation": "4 selected existing tests passed in0.10s; current startup surface validation passed",
+    "correspondence": "CLOSEOUT.json PASS; 24 source pins,15 frozen initial files,12 partner artifact entries and34 reviewer artifact entries",
+    "whole_staged_whitespace": {
+      "exit_code": 2,
+      "findings": 61,
+      "files": 3,
+      "reason": "60 CRLF terminators in frozen manifests and one required blank unified-diff context prefix",
+      "disposition": "Original reviewed bytes retained; exact causes/staged correspondence proven; no configuration changes",
+      "evidence": "checks/STAGED_WHITESPACE.json"
+    },
+    "scoped_staged_whitespace": {
+      "exit_code": 0,
+      "exclusions": "Only the three documented frozen evidence files"
+    },
+    "full365": "Actual required verifier passed earlier this same top-level session; not rerun for KTI1 or by scoped agents; scientific sources unchanged"
+  },
+  "resources": {
+    "start_utc": "2026-09-10T21:20:01Z",
+    "hard_return_utc": "2026-09-10T22:50:01Z",
+    "construction_contexts": 1,
+    "fresh_reviewer_contexts": 1,
+    "constructor_reviewer_overlap": false,
+    "parent_overlap": "Parent worked alongside each sequential scoped context",
+    "GPU": false,
+    "general_capacity_restoration": "UNVERIFIED",
+    "exact_runtime_models": "UNATTESTED"
+  },
+  "limits": {
+    "backup_completeness": "UNVERIFIED",
+    "pre_reboot_unsaved_state_disposition": "UNVERIFIED",
+    "ScratchDisk": "Archive-dependent work only"
+  },
+  "receipt_commit": "This receipt and refreshed package manifest are a subsequent preservation commit. Their eventual hash/push is not asserted here; parent tool receipts own later evidence.",
+  "return_point": "Authorized task complete; stop for discussion. No automatic successor, physical adoption or scientific promotion."
+}
