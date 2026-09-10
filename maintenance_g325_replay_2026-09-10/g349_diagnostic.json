@@ -1,0 +1,19 @@
+{
+  "command": [
+    "env",
+    "UDT_NO_WRITE=1",
+    "PYTHONDONTWRITEBYTECODE=1",
+    "python3",
+    "-B",
+    "-S",
+    "udt_g349_finite_null_wavefront_patch_area_2026-09-04/verify_package.py"
+  ],
+  "cwd": "/home/udt-admin/udt_mass_codex",
+  "started_utc": "2026-09-10T03:58:21.261913+00:00",
+  "duration_seconds": 0.19838824501493946,
+  "returncode": 1,
+  "timeout": false,
+  "address_space_bytes": 536870912,
+  "cpu_seconds": 60,
+  "maxrss_kib": 16420
+}

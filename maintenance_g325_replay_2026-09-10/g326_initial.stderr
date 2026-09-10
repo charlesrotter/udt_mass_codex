@@ -1,0 +1,8 @@
+Traceback (most recent call last):
+  File "/home/udt-admin/udt_mass_codex/udt_g326_g324_homogeneous_offdiagonal_linear_modes_2026-09-02/verify_package.py", line 232, in <module>
+    main()
+  File "/home/udt-admin/udt_mass_codex/udt_g326_g324_homogeneous_offdiagonal_linear_modes_2026-09-02/verify_package.py", line 189, in main
+    gate(load(generated) == load(package / artifact), f"replay_exact:{artifact}")
+  File "/home/udt-admin/udt_mass_codex/udt_g326_g324_homogeneous_offdiagonal_linear_modes_2026-09-02/verify_package.py", line 65, in gate
+    assert condition, name
+AssertionError: replay_exact:DERIVATION_RESULT.json

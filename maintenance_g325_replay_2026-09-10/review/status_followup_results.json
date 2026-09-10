@@ -1,0 +1,523 @@
+{
+  "author_full_audit_record": {
+    "command": [
+      "/usr/bin/python3",
+      "verify_current_scientific_premises.py"
+    ],
+    "cwd": "/home/udt-admin/udt_mass_codex",
+    "returncode": 1,
+    "seconds": 273.13267525902484,
+    "started_utc": "2026-09-10T03:52:55.289635+00:00",
+    "stderr": "G349 dependency-free no-write replay failed: \n",
+    "stdout": "",
+    "timeout_seconds": 300
+  },
+  "author_full_audit_record_sha256": "ac71d93e8dc83894f818a0b1c4ea955ec9203ec61ed8240c7cf95e1264043595",
+  "baseline": "51f189679d4029d750e375be949f41e2f15420fa",
+  "candidate_hashes": {
+    "udt_g325_g324_homogeneous_diagonal_linear_modes_2026-09-02/verify_package.py": "5a272422a731404c119def22d3d92c2f8baf1fc5fd2cd183db1d00a956bc01b0",
+    "udt_g326_g324_homogeneous_offdiagonal_linear_modes_2026-09-02/verify_package.py": "8d0e15db5a75f32f6d6cd0da2b1baae3d7fa33d48061043f75fd9bf208ebba9f"
+  },
+  "forbidden_physical_phrase_absent": true,
+  "g349_command": {
+    "argv": [
+      "python3",
+      "-B",
+      "-S",
+      "udt_g349_finite_null_wavefront_patch_area_2026-09-04/verify_package.py"
+    ],
+    "cwd": "/home/udt-admin/udt_mass_codex",
+    "environment_overrides": {
+      "PYTHONDONTWRITEBYTECODE": "1",
+      "UDT_NO_WRITE": "1"
+    },
+    "returncode": 1,
+    "seconds": 0.20081838901387528,
+    "stderr": "",
+    "stdout": "{\n  \"all_passed\": false,\n  \"checks\": {\n    \"aggregate_replay_changes_no_bytes\": true,\n    \"bounded_physical_scope\": true,\n    \"critical_and_orientation_branches\": true,\n    \"finite_area_formula\": true,\n    \"finite_observer_covariance\": true,\n    \"first_failure_and_repair_recorded\": true,\n    \"frozen_external_repair_evidence\": true,\n    \"frozen_preregistration_hashes\": true,\n    \"frozen_source_hashes\": true,\n    \"geometric_not_physical_union_scope\": false,\n    \"hostile_22_of_22\": true,\n    \"independent_14321_of_14321\": true,\n    \"metric_only_provenance\": true,\n    \"mixed_rank_repair\": true,\n    \"no_bytecode_or_special_output\": true,\n    \"production_44321_of_44321\": true,\n    \"registered_no_write_replays\": true,\n    \"repaired_script_hashes\": true,\n    \"selected_alternatives\": true,\n    \"stdlib_only_imports\": true,\n    \"union_distinction_and_equality\": true\n  },\n  \"checks_passed\": 20,\n  \"checks_total\": 21,\n  \"landing\": \"FINITE_METRIC_NULL_PATCH_AREA_CLOSES_WITH_MULTIPLICITY__UNION_AREA_REQUIRES_GLOBAL_PREIMAGE_IDENTIFICATION__CAUSTICS_ORIENTATION_OBSERVER_AND_LABEL_BRANCHES_RETAINED__NO_LIGHT_DISTANCE_POPULATION_HISTORY_SCALE_OR_XMAX_SELECTED\",\n  \"review_status\": \"EXTERNALLY_ACCEPTED_AFTER_PREREGISTERED_R1_R4_REPAIRS\"\n}\n"
+  },
+  "g349_preservation_after": [
+    {
+      "baseline_sha256": "9579efed46de6ed7be1276935a97555c25ad9cab34b5ea12fa9f4e18dc007bad",
+      "current_sha256": "9579efed46de6ed7be1276935a97555c25ad9cab34b5ea12fa9f4e18dc007bad",
+      "path": "udt_g349_finite_null_wavefront_patch_area_2026-09-04/ADVERSARIAL_REVIEW_REQUEST.md",
+      "unchanged": true
+    },
+    {
+      "baseline_sha256": "5daf07ed87fd96953d7f989e269aafe3654a6876230725fd7b3bcc1f3188467e",
+      "current_sha256": "5daf07ed87fd96953d7f989e269aafe3654a6876230725fd7b3bcc1f3188467e",
+      "path": "udt_g349_finite_null_wavefront_patch_area_2026-09-04/AUDIT_REPORT.md",
+      "unchanged": true
+    },
+    {
+      "baseline_sha256": "af5c28f284cb96e159a2a1a5408cbffe6d5c83a226ed793b133f6c3ffe6f8d44",
+      "current_sha256": "af5c28f284cb96e159a2a1a5408cbffe6d5c83a226ed793b133f6c3ffe6f8d44",
+      "path": "udt_g349_finite_null_wavefront_patch_area_2026-09-04/CATCH_PROOF_RESULT.json",
+      "unchanged": true
+    },
+    {
+      "baseline_sha256": "40de43be0c72ccba220b8c5535f8baede2834712abb074b686d9aa11067c2ce3",
+      "current_sha256": "40de43be0c72ccba220b8c5535f8baede2834712abb074b686d9aa11067c2ce3",
+      "path": "udt_g349_finite_null_wavefront_patch_area_2026-09-04/COMMANDS.md",
+      "unchanged": true
+    },
+    {
+      "baseline_sha256": "b1d36c051b385c75392ffe902a2885d3d0154ee0bac03efb2411ed4dfe4a7e87",
+      "current_sha256": "b1d36c051b385c75392ffe902a2885d3d0154ee0bac03efb2411ed4dfe4a7e87",
+      "path": "udt_g349_finite_null_wavefront_patch_area_2026-09-04/COMPLETENESS_MAP.md",
+      "unchanged": true
+    },
+    {
+      "baseline_sha256": "67efe3efaba80eb41c55f4d6da8c6a30bfd67c68dda49c09ede75749fef390a5",
+      "current_sha256": "67efe3efaba80eb41c55f4d6da8c6a30bfd67c68dda49c09ede75749fef390a5",
+      "path": "udt_g349_finite_null_wavefront_patch_area_2026-09-04/DERIVATION_RESULT.json",
+      "unchanged": true
+    },
+    {
+      "baseline_sha256": "20dc1025b8b2b43f9312b67b4ad3fac9abdd6029ca68f1b0124ae07ea38d1926",
+      "current_sha256": "20dc1025b8b2b43f9312b67b4ad3fac9abdd6029ca68f1b0124ae07ea38d1926",
+      "path": "udt_g349_finite_null_wavefront_patch_area_2026-09-04/EVIDENCE_GATES.md",
+      "unchanged": true
+    },
+    {
+      "baseline_sha256": "0eb11cc9dcec98c89c99c890a75b3e290eda23faf44d620a9d578f609cedef72",
+      "current_sha256": "0eb11cc9dcec98c89c99c890a75b3e290eda23faf44d620a9d578f609cedef72",
+      "path": "udt_g349_finite_null_wavefront_patch_area_2026-09-04/EXACT_DERIVATION.md",
+      "unchanged": true
+    },
+    {
+      "baseline_sha256": "4852b3a868b2920a1cc2e08c2fe4521a8e1e9b819dc56ea68cb124df700e0dcb",
+      "current_sha256": "4852b3a868b2920a1cc2e08c2fe4521a8e1e9b819dc56ea68cb124df700e0dcb",
+      "path": "udt_g349_finite_null_wavefront_patch_area_2026-09-04/EXTERNAL_REPAIR_FOLLOWUP_RESPONSE.md",
+      "unchanged": true
+    },
+    {
+      "baseline_sha256": "9d03d3a0a18af04380a8a596dba9afb567bc12780499a51661b94530ef46f862",
+      "current_sha256": "9d03d3a0a18af04380a8a596dba9afb567bc12780499a51661b94530ef46f862",
+      "path": "udt_g349_finite_null_wavefront_patch_area_2026-09-04/EXTERNAL_REPAIR_FOLLOWUP_TRANSMISSION.md",
+      "unchanged": true
+    },
+    {
+      "baseline_sha256": "4ad46ebdb17a3235e454e044acfd80708e49e4205b185dba843a00f54bb8cad9",
+      "current_sha256": "4ad46ebdb17a3235e454e044acfd80708e49e4205b185dba843a00f54bb8cad9",
+      "path": "udt_g349_finite_null_wavefront_patch_area_2026-09-04/EXTERNAL_REVIEW_ADJUDICATION.md",
+      "unchanged": true
+    },
+    {
+      "baseline_sha256": "aadf46778a28a074550bb039139095ea3ef16a16c3deac1ec9903384334293c1",
+      "current_sha256": "aadf46778a28a074550bb039139095ea3ef16a16c3deac1ec9903384334293c1",
+      "path": "udt_g349_finite_null_wavefront_patch_area_2026-09-04/EXTERNAL_REVIEW_RESPONSE.md",
+      "unchanged": true
+    },
+    {
+      "baseline_sha256": "ff945fa0338dc8b394c392e461ca9f65f45fc6555de892f99d3b50967f7624db",
+      "current_sha256": "ff945fa0338dc8b394c392e461ca9f65f45fc6555de892f99d3b50967f7624db",
+      "path": "udt_g349_finite_null_wavefront_patch_area_2026-09-04/EXTERNAL_REVIEW_TRANSMISSION.md",
+      "unchanged": true
+    },
+    {
+      "baseline_sha256": "ee3c3cc64ed4adeb9850a4d22223e40b4ff46cfd7ca07a55968abd6ecfedee89",
+      "current_sha256": "ee3c3cc64ed4adeb9850a4d22223e40b4ff46cfd7ca07a55968abd6ecfedee89",
+      "path": "udt_g349_finite_null_wavefront_patch_area_2026-09-04/GIT_PREREGISTRATION_PROOF.txt",
+      "unchanged": true
+    },
+    {
+      "baseline_sha256": "aff07f4207417df49b8802d3383a20af1a6aced91e8c3cfdba82f84ff844a76e",
+      "current_sha256": "aff07f4207417df49b8802d3383a20af1a6aced91e8c3cfdba82f84ff844a76e",
+      "path": "udt_g349_finite_null_wavefront_patch_area_2026-09-04/INDEPENDENT_VERIFICATION.json",
+      "unchanged": true
+    },
+    {
+      "baseline_sha256": "0565a7ce1e3f5a0efdaa0d24fbd8120071ea343438e7147c9bf9743f23f4fe67",
+      "current_sha256": "0565a7ce1e3f5a0efdaa0d24fbd8120071ea343438e7147c9bf9743f23f4fe67",
+      "path": "udt_g349_finite_null_wavefront_patch_area_2026-09-04/LAY_REPORT.md",
+      "unchanged": true
+    },
+    {
+      "baseline_sha256": "5bb3ad63acd62794152df4540beb6b08f71e3d39ed6289fb3dd30d684ba277ac",
+      "current_sha256": "5bb3ad63acd62794152df4540beb6b08f71e3d39ed6289fb3dd30d684ba277ac",
+      "path": "udt_g349_finite_null_wavefront_patch_area_2026-09-04/MAP.md",
+      "unchanged": true
+    },
+    {
+      "baseline_sha256": "2a895dda0db8276beed75da0c3734c9f6e57a61d008c2a5e0c867fe1c5609f33",
+      "current_sha256": "2a895dda0db8276beed75da0c3734c9f6e57a61d008c2a5e0c867fe1c5609f33",
+      "path": "udt_g349_finite_null_wavefront_patch_area_2026-09-04/PREMISE_LEDGER.tsv",
+      "unchanged": true
+    },
+    {
+      "baseline_sha256": "5921e786d4ad10be5da004ddd59d72109c8126367bf190e4ad932896d9313f1e",
+      "current_sha256": "5921e786d4ad10be5da004ddd59d72109c8126367bf190e4ad932896d9313f1e",
+      "path": "udt_g349_finite_null_wavefront_patch_area_2026-09-04/PREREGISTRATION.md",
+      "unchanged": true
+    },
+    {
+      "baseline_sha256": "dd0454044a0a0d7541e0907752d3035df7bb7dca72e010d7c18f8674d68bda08",
+      "current_sha256": "dd0454044a0a0d7541e0907752d3035df7bb7dca72e010d7c18f8674d68bda08",
+      "path": "udt_g349_finite_null_wavefront_patch_area_2026-09-04/PREREGISTRATION_EXECUTION_NOTE.md",
+      "unchanged": true
+    },
+    {
+      "baseline_sha256": "b233f7a22d71427c24bca93696761b754780f18c044daaa4063c08a1ab1f288a",
+      "current_sha256": "b233f7a22d71427c24bca93696761b754780f18c044daaa4063c08a1ab1f288a",
+      "path": "udt_g349_finite_null_wavefront_patch_area_2026-09-04/REPAIR_EXECUTION_RECORD.md",
+      "unchanged": true
+    },
+    {
+      "baseline_sha256": "64dbdfd11b3c91f3d383a56bea5c410eaa7866c83b0640764ce7e15be4be3104",
+      "current_sha256": "64dbdfd11b3c91f3d383a56bea5c410eaa7866c83b0640764ce7e15be4be3104",
+      "path": "udt_g349_finite_null_wavefront_patch_area_2026-09-04/REPAIR_FOLLOWUP_REQUEST.md",
+      "unchanged": true
+    },
+    {
+      "baseline_sha256": "9dad6012e2251886b1506d5c1df23d67ec7ae07836c60122299fe1b148ba6a25",
+      "current_sha256": "9dad6012e2251886b1506d5c1df23d67ec7ae07836c60122299fe1b148ba6a25",
+      "path": "udt_g349_finite_null_wavefront_patch_area_2026-09-04/REPAIR_PREREGISTRATION.md",
+      "unchanged": true
+    },
+    {
+      "baseline_sha256": "e10a5918f218eb4775922e1cabfbe291ada0dda97f3d57898429e84de616c92e",
+      "current_sha256": "e10a5918f218eb4775922e1cabfbe291ada0dda97f3d57898429e84de616c92e",
+      "path": "udt_g349_finite_null_wavefront_patch_area_2026-09-04/RUN_RECORD.md",
+      "unchanged": true
+    },
+    {
+      "baseline_sha256": "deed29517ce48fcf13b6f38becc1584f31bd5390efefd93df102ae6585dd0bb0",
+      "current_sha256": "deed29517ce48fcf13b6f38becc1584f31bd5390efefd93df102ae6585dd0bb0",
+      "path": "udt_g349_finite_null_wavefront_patch_area_2026-09-04/SOURCE_SCOPE.tsv",
+      "unchanged": true
+    },
+    {
+      "baseline_sha256": "0e78cf260166f697e3df674fe5a048b2678007adde4bd9a5f109a2005f99591d",
+      "current_sha256": "0e78cf260166f697e3df674fe5a048b2678007adde4bd9a5f109a2005f99591d",
+      "path": "udt_g349_finite_null_wavefront_patch_area_2026-09-04/STATUS_LEDGER.tsv",
+      "unchanged": true
+    },
+    {
+      "baseline_sha256": "0153524c490dcc68d9b655ecfb150c96fa14b3fcdc7a7c043a59c3eae1563a36",
+      "current_sha256": "0153524c490dcc68d9b655ecfb150c96fa14b3fcdc7a7c043a59c3eae1563a36",
+      "path": "udt_g349_finite_null_wavefront_patch_area_2026-09-04/VERIFICATION_RESULT.json",
+      "unchanged": true
+    },
+    {
+      "baseline_sha256": "17276086c888f162b30a21fc001c3ef594e7fd9f0dbe16f687eede6e5416a642",
+      "current_sha256": "17276086c888f162b30a21fc001c3ef594e7fd9f0dbe16f687eede6e5416a642",
+      "path": "udt_g349_finite_null_wavefront_patch_area_2026-09-04/build_review_intake.py",
+      "unchanged": true
+    },
+    {
+      "baseline_sha256": "bdc85395a5c832077667f6c8a1e323514fd8b52af15ac1cbb7a2de696e5f6e5c",
+      "current_sha256": "bdc85395a5c832077667f6c8a1e323514fd8b52af15ac1cbb7a2de696e5f6e5c",
+      "path": "udt_g349_finite_null_wavefront_patch_area_2026-09-04/derive_finite_null_patch_area.py",
+      "unchanged": true
+    },
+    {
+      "baseline_sha256": "b40b2c7d90a06faf24c4eff8b00acabae49716d6ef2aaf10a9af48f2298414be",
+      "current_sha256": "b40b2c7d90a06faf24c4eff8b00acabae49716d6ef2aaf10a9af48f2298414be",
+      "path": "udt_g349_finite_null_wavefront_patch_area_2026-09-04/launch_external_review.sh",
+      "unchanged": true
+    },
+    {
+      "baseline_sha256": "3d1f0727c8b426661c8553e68cada59ed3b9b1dfc4c3c97a4412f29c99a14287",
+      "current_sha256": "3d1f0727c8b426661c8553e68cada59ed3b9b1dfc4c3c97a4412f29c99a14287",
+      "path": "udt_g349_finite_null_wavefront_patch_area_2026-09-04/run_catch_proofs.py",
+      "unchanged": true
+    },
+    {
+      "baseline_sha256": "246a6552cdfcd442739f2fe6d93fe03b0b2361829e5801414fca76693f9167c9",
+      "current_sha256": "246a6552cdfcd442739f2fe6d93fe03b0b2361829e5801414fca76693f9167c9",
+      "path": "udt_g349_finite_null_wavefront_patch_area_2026-09-04/verify_finite_null_patch_area_independent.py",
+      "unchanged": true
+    },
+    {
+      "baseline_sha256": "a394c2305013640c72a2359a5b80242d645c07c38d94b8f8b4fb8ba872bcad59",
+      "current_sha256": "a394c2305013640c72a2359a5b80242d645c07c38d94b8f8b4fb8ba872bcad59",
+      "path": "udt_g349_finite_null_wavefront_patch_area_2026-09-04/verify_package.py",
+      "unchanged": true
+    }
+  ],
+  "g349_preservation_before": [
+    {
+      "baseline_sha256": "9579efed46de6ed7be1276935a97555c25ad9cab34b5ea12fa9f4e18dc007bad",
+      "current_sha256": "9579efed46de6ed7be1276935a97555c25ad9cab34b5ea12fa9f4e18dc007bad",
+      "path": "udt_g349_finite_null_wavefront_patch_area_2026-09-04/ADVERSARIAL_REVIEW_REQUEST.md",
+      "unchanged": true
+    },
+    {
+      "baseline_sha256": "5daf07ed87fd96953d7f989e269aafe3654a6876230725fd7b3bcc1f3188467e",
+      "current_sha256": "5daf07ed87fd96953d7f989e269aafe3654a6876230725fd7b3bcc1f3188467e",
+      "path": "udt_g349_finite_null_wavefront_patch_area_2026-09-04/AUDIT_REPORT.md",
+      "unchanged": true
+    },
+    {
+      "baseline_sha256": "af5c28f284cb96e159a2a1a5408cbffe6d5c83a226ed793b133f6c3ffe6f8d44",
+      "current_sha256": "af5c28f284cb96e159a2a1a5408cbffe6d5c83a226ed793b133f6c3ffe6f8d44",
+      "path": "udt_g349_finite_null_wavefront_patch_area_2026-09-04/CATCH_PROOF_RESULT.json",
+      "unchanged": true
+    },
+    {
+      "baseline_sha256": "40de43be0c72ccba220b8c5535f8baede2834712abb074b686d9aa11067c2ce3",
+      "current_sha256": "40de43be0c72ccba220b8c5535f8baede2834712abb074b686d9aa11067c2ce3",
+      "path": "udt_g349_finite_null_wavefront_patch_area_2026-09-04/COMMANDS.md",
+      "unchanged": true
+    },
+    {
+      "baseline_sha256": "b1d36c051b385c75392ffe902a2885d3d0154ee0bac03efb2411ed4dfe4a7e87",
+      "current_sha256": "b1d36c051b385c75392ffe902a2885d3d0154ee0bac03efb2411ed4dfe4a7e87",
+      "path": "udt_g349_finite_null_wavefront_patch_area_2026-09-04/COMPLETENESS_MAP.md",
+      "unchanged": true
+    },
+    {
+      "baseline_sha256": "67efe3efaba80eb41c55f4d6da8c6a30bfd67c68dda49c09ede75749fef390a5",
+      "current_sha256": "67efe3efaba80eb41c55f4d6da8c6a30bfd67c68dda49c09ede75749fef390a5",
+      "path": "udt_g349_finite_null_wavefront_patch_area_2026-09-04/DERIVATION_RESULT.json",
+      "unchanged": true
+    },
+    {
+      "baseline_sha256": "20dc1025b8b2b43f9312b67b4ad3fac9abdd6029ca68f1b0124ae07ea38d1926",
+      "current_sha256": "20dc1025b8b2b43f9312b67b4ad3fac9abdd6029ca68f1b0124ae07ea38d1926",
+      "path": "udt_g349_finite_null_wavefront_patch_area_2026-09-04/EVIDENCE_GATES.md",
+      "unchanged": true
+    },
+    {
+      "baseline_sha256": "0eb11cc9dcec98c89c99c890a75b3e290eda23faf44d620a9d578f609cedef72",
+      "current_sha256": "0eb11cc9dcec98c89c99c890a75b3e290eda23faf44d620a9d578f609cedef72",
+      "path": "udt_g349_finite_null_wavefront_patch_area_2026-09-04/EXACT_DERIVATION.md",
+      "unchanged": true
+    },
+    {
+      "baseline_sha256": "4852b3a868b2920a1cc2e08c2fe4521a8e1e9b819dc56ea68cb124df700e0dcb",
+      "current_sha256": "4852b3a868b2920a1cc2e08c2fe4521a8e1e9b819dc56ea68cb124df700e0dcb",
+      "path": "udt_g349_finite_null_wavefront_patch_area_2026-09-04/EXTERNAL_REPAIR_FOLLOWUP_RESPONSE.md",
+      "unchanged": true
+    },
+    {
+      "baseline_sha256": "9d03d3a0a18af04380a8a596dba9afb567bc12780499a51661b94530ef46f862",
+      "current_sha256": "9d03d3a0a18af04380a8a596dba9afb567bc12780499a51661b94530ef46f862",
+      "path": "udt_g349_finite_null_wavefront_patch_area_2026-09-04/EXTERNAL_REPAIR_FOLLOWUP_TRANSMISSION.md",
+      "unchanged": true
+    },
+    {
+      "baseline_sha256": "4ad46ebdb17a3235e454e044acfd80708e49e4205b185dba843a00f54bb8cad9",
+      "current_sha256": "4ad46ebdb17a3235e454e044acfd80708e49e4205b185dba843a00f54bb8cad9",
+      "path": "udt_g349_finite_null_wavefront_patch_area_2026-09-04/EXTERNAL_REVIEW_ADJUDICATION.md",
+      "unchanged": true
+    },
+    {
+      "baseline_sha256": "aadf46778a28a074550bb039139095ea3ef16a16c3deac1ec9903384334293c1",
+      "current_sha256": "aadf46778a28a074550bb039139095ea3ef16a16c3deac1ec9903384334293c1",
+      "path": "udt_g349_finite_null_wavefront_patch_area_2026-09-04/EXTERNAL_REVIEW_RESPONSE.md",
+      "unchanged": true
+    },
+    {
+      "baseline_sha256": "ff945fa0338dc8b394c392e461ca9f65f45fc6555de892f99d3b50967f7624db",
+      "current_sha256": "ff945fa0338dc8b394c392e461ca9f65f45fc6555de892f99d3b50967f7624db",
+      "path": "udt_g349_finite_null_wavefront_patch_area_2026-09-04/EXTERNAL_REVIEW_TRANSMISSION.md",
+      "unchanged": true
+    },
+    {
+      "baseline_sha256": "ee3c3cc64ed4adeb9850a4d22223e40b4ff46cfd7ca07a55968abd6ecfedee89",
+      "current_sha256": "ee3c3cc64ed4adeb9850a4d22223e40b4ff46cfd7ca07a55968abd6ecfedee89",
+      "path": "udt_g349_finite_null_wavefront_patch_area_2026-09-04/GIT_PREREGISTRATION_PROOF.txt",
+      "unchanged": true
+    },
+    {
+      "baseline_sha256": "aff07f4207417df49b8802d3383a20af1a6aced91e8c3cfdba82f84ff844a76e",
+      "current_sha256": "aff07f4207417df49b8802d3383a20af1a6aced91e8c3cfdba82f84ff844a76e",
+      "path": "udt_g349_finite_null_wavefront_patch_area_2026-09-04/INDEPENDENT_VERIFICATION.json",
+      "unchanged": true
+    },
+    {
+      "baseline_sha256": "0565a7ce1e3f5a0efdaa0d24fbd8120071ea343438e7147c9bf9743f23f4fe67",
+      "current_sha256": "0565a7ce1e3f5a0efdaa0d24fbd8120071ea343438e7147c9bf9743f23f4fe67",
+      "path": "udt_g349_finite_null_wavefront_patch_area_2026-09-04/LAY_REPORT.md",
+      "unchanged": true
+    },
+    {
+      "baseline_sha256": "5bb3ad63acd62794152df4540beb6b08f71e3d39ed6289fb3dd30d684ba277ac",
+      "current_sha256": "5bb3ad63acd62794152df4540beb6b08f71e3d39ed6289fb3dd30d684ba277ac",
+      "path": "udt_g349_finite_null_wavefront_patch_area_2026-09-04/MAP.md",
+      "unchanged": true
+    },
+    {
+      "baseline_sha256": "2a895dda0db8276beed75da0c3734c9f6e57a61d008c2a5e0c867fe1c5609f33",
+      "current_sha256": "2a895dda0db8276beed75da0c3734c9f6e57a61d008c2a5e0c867fe1c5609f33",
+      "path": "udt_g349_finite_null_wavefront_patch_area_2026-09-04/PREMISE_LEDGER.tsv",
+      "unchanged": true
+    },
+    {
+      "baseline_sha256": "5921e786d4ad10be5da004ddd59d72109c8126367bf190e4ad932896d9313f1e",
+      "current_sha256": "5921e786d4ad10be5da004ddd59d72109c8126367bf190e4ad932896d9313f1e",
+      "path": "udt_g349_finite_null_wavefront_patch_area_2026-09-04/PREREGISTRATION.md",
+      "unchanged": true
+    },
+    {
+      "baseline_sha256": "dd0454044a0a0d7541e0907752d3035df7bb7dca72e010d7c18f8674d68bda08",
+      "current_sha256": "dd0454044a0a0d7541e0907752d3035df7bb7dca72e010d7c18f8674d68bda08",
+      "path": "udt_g349_finite_null_wavefront_patch_area_2026-09-04/PREREGISTRATION_EXECUTION_NOTE.md",
+      "unchanged": true
+    },
+    {
+      "baseline_sha256": "b233f7a22d71427c24bca93696761b754780f18c044daaa4063c08a1ab1f288a",
+      "current_sha256": "b233f7a22d71427c24bca93696761b754780f18c044daaa4063c08a1ab1f288a",
+      "path": "udt_g349_finite_null_wavefront_patch_area_2026-09-04/REPAIR_EXECUTION_RECORD.md",
+      "unchanged": true
+    },
+    {
+      "baseline_sha256": "64dbdfd11b3c91f3d383a56bea5c410eaa7866c83b0640764ce7e15be4be3104",
+      "current_sha256": "64dbdfd11b3c91f3d383a56bea5c410eaa7866c83b0640764ce7e15be4be3104",
+      "path": "udt_g349_finite_null_wavefront_patch_area_2026-09-04/REPAIR_FOLLOWUP_REQUEST.md",
+      "unchanged": true
+    },
+    {
+      "baseline_sha256": "9dad6012e2251886b1506d5c1df23d67ec7ae07836c60122299fe1b148ba6a25",
+      "current_sha256": "9dad6012e2251886b1506d5c1df23d67ec7ae07836c60122299fe1b148ba6a25",
+      "path": "udt_g349_finite_null_wavefront_patch_area_2026-09-04/REPAIR_PREREGISTRATION.md",
+      "unchanged": true
+    },
+    {
+      "baseline_sha256": "e10a5918f218eb4775922e1cabfbe291ada0dda97f3d57898429e84de616c92e",
+      "current_sha256": "e10a5918f218eb4775922e1cabfbe291ada0dda97f3d57898429e84de616c92e",
+      "path": "udt_g349_finite_null_wavefront_patch_area_2026-09-04/RUN_RECORD.md",
+      "unchanged": true
+    },
+    {
+      "baseline_sha256": "deed29517ce48fcf13b6f38becc1584f31bd5390efefd93df102ae6585dd0bb0",
+      "current_sha256": "deed29517ce48fcf13b6f38becc1584f31bd5390efefd93df102ae6585dd0bb0",
+      "path": "udt_g349_finite_null_wavefront_patch_area_2026-09-04/SOURCE_SCOPE.tsv",
+      "unchanged": true
+    },
+    {
+      "baseline_sha256": "0e78cf260166f697e3df674fe5a048b2678007adde4bd9a5f109a2005f99591d",
+      "current_sha256": "0e78cf260166f697e3df674fe5a048b2678007adde4bd9a5f109a2005f99591d",
+      "path": "udt_g349_finite_null_wavefront_patch_area_2026-09-04/STATUS_LEDGER.tsv",
+      "unchanged": true
+    },
+    {
+      "baseline_sha256": "0153524c490dcc68d9b655ecfb150c96fa14b3fcdc7a7c043a59c3eae1563a36",
+      "current_sha256": "0153524c490dcc68d9b655ecfb150c96fa14b3fcdc7a7c043a59c3eae1563a36",
+      "path": "udt_g349_finite_null_wavefront_patch_area_2026-09-04/VERIFICATION_RESULT.json",
+      "unchanged": true
+    },
+    {
+      "baseline_sha256": "17276086c888f162b30a21fc001c3ef594e7fd9f0dbe16f687eede6e5416a642",
+      "current_sha256": "17276086c888f162b30a21fc001c3ef594e7fd9f0dbe16f687eede6e5416a642",
+      "path": "udt_g349_finite_null_wavefront_patch_area_2026-09-04/build_review_intake.py",
+      "unchanged": true
+    },
+    {
+      "baseline_sha256": "bdc85395a5c832077667f6c8a1e323514fd8b52af15ac1cbb7a2de696e5f6e5c",
+      "current_sha256": "bdc85395a5c832077667f6c8a1e323514fd8b52af15ac1cbb7a2de696e5f6e5c",
+      "path": "udt_g349_finite_null_wavefront_patch_area_2026-09-04/derive_finite_null_patch_area.py",
+      "unchanged": true
+    },
+    {
+      "baseline_sha256": "b40b2c7d90a06faf24c4eff8b00acabae49716d6ef2aaf10a9af48f2298414be",
+      "current_sha256": "b40b2c7d90a06faf24c4eff8b00acabae49716d6ef2aaf10a9af48f2298414be",
+      "path": "udt_g349_finite_null_wavefront_patch_area_2026-09-04/launch_external_review.sh",
+      "unchanged": true
+    },
+    {
+      "baseline_sha256": "3d1f0727c8b426661c8553e68cada59ed3b9b1dfc4c3c97a4412f29c99a14287",
+      "current_sha256": "3d1f0727c8b426661c8553e68cada59ed3b9b1dfc4c3c97a4412f29c99a14287",
+      "path": "udt_g349_finite_null_wavefront_patch_area_2026-09-04/run_catch_proofs.py",
+      "unchanged": true
+    },
+    {
+      "baseline_sha256": "246a6552cdfcd442739f2fe6d93fe03b0b2361829e5801414fca76693f9167c9",
+      "current_sha256": "246a6552cdfcd442739f2fe6d93fe03b0b2361829e5801414fca76693f9167c9",
+      "path": "udt_g349_finite_null_wavefront_patch_area_2026-09-04/verify_finite_null_patch_area_independent.py",
+      "unchanged": true
+    },
+    {
+      "baseline_sha256": "a394c2305013640c72a2359a5b80242d645c07c38d94b8f8b4fb8ba872bcad59",
+      "current_sha256": "a394c2305013640c72a2359a5b80242d645c07c38d94b8f8b4fb8ba872bcad59",
+      "path": "udt_g349_finite_null_wavefront_patch_area_2026-09-04/verify_package.py",
+      "unchanged": true
+    }
+  ],
+  "g349_result": {
+    "all_passed": false,
+    "checks": {
+      "aggregate_replay_changes_no_bytes": true,
+      "bounded_physical_scope": true,
+      "critical_and_orientation_branches": true,
+      "finite_area_formula": true,
+      "finite_observer_covariance": true,
+      "first_failure_and_repair_recorded": true,
+      "frozen_external_repair_evidence": true,
+      "frozen_preregistration_hashes": true,
+      "frozen_source_hashes": true,
+      "geometric_not_physical_union_scope": false,
+      "hostile_22_of_22": true,
+      "independent_14321_of_14321": true,
+      "metric_only_provenance": true,
+      "mixed_rank_repair": true,
+      "no_bytecode_or_special_output": true,
+      "production_44321_of_44321": true,
+      "registered_no_write_replays": true,
+      "repaired_script_hashes": true,
+      "selected_alternatives": true,
+      "stdlib_only_imports": true,
+      "union_distinction_and_equality": true
+    },
+    "checks_passed": 20,
+    "checks_total": 21,
+    "landing": "FINITE_METRIC_NULL_PATCH_AREA_CLOSES_WITH_MULTIPLICITY__UNION_AREA_REQUIRES_GLOBAL_PREIMAGE_IDENTIFICATION__CAUSTICS_ORIENTATION_OBSERVER_AND_LABEL_BRANCHES_RETAINED__NO_LIGHT_DISTANCE_POPULATION_HISTORY_SCALE_OR_XMAX_SELECTED",
+    "review_status": "EXTERNALLY_ACCEPTED_AFTER_PREREGISTERED_R1_R4_REPAIRS"
+  },
+  "initial_review_sha256": "09e7141d4c733a7c0cb7d517eb6ba1a59693df07c7177ea0e1617a5802b33940",
+  "literal_required_phrase_missing": true,
+  "review_scope": "STATUS_FIDELITY_AND_G349_DOCUMENTATION_DIAGNOSIS_ONLY",
+  "status": "PASS_SCOPED_STATUS_REVIEW_FULL365_REMAINS_NOT_PASSED",
+  "status_diff": "diff --git a/CURRENT_RESEARCH_PROGRAM.md b/CURRENT_RESEARCH_PROGRAM.md\nindex 7fcbeb46..93b4956c 100644\n--- a/CURRENT_RESEARCH_PROGRAM.md\n+++ b/CURRENT_RESEARCH_PROGRAM.md\n@@ -27,7 +27,7 @@ GR is FILTER ONLY, not a response-law input; Local Metric Sufficiency remains ow\n Inherited G312 \u201cadmitted/lawful\u201d Einstein claims are CONDITIONAL on full reviewed premises,\n not established from filter-only GR. The existing membership route is unclosed, not disproved:\n `udt_gr_filter_reconciliation_2026-09-09/AUTHORITY_RECORD.md`. Exact grades/math remain unchanged.\n-Full365 NOT_PASSED at G325 replay; no scientific promotion.\n+Full365 NOT_PASSED: G349 documentation gate; no scientific promotion.\n Population, realized history, matter, absolute scale and `X_max` remain unselected.\n \n ## Dependency spine\ndiff --git a/CURRENT_SCIENTIFIC_PREMISES.md b/CURRENT_SCIENTIFIC_PREMISES.md\nindex 4972e261..005eb041 100644\n--- a/CURRENT_SCIENTIFIC_PREMISES.md\n+++ b/CURRENT_SCIENTIFIC_PREMISES.md\n@@ -10,7 +10,7 @@ GR is FILTER ONLY, not a response-law input; Local Metric Sufficiency remains ow\n G312's current authority qualifies inherited \u201cadmitted/lawful\u201d labels. Einstein claims remain\n CONDITIONAL on full reviewed premises, not established from filter-only GR; membership is unclosed.\n Current record: `udt_gr_filter_reconciliation_2026-09-09/AUTHORITY_RECORD.md`. No theorem is regraded.\n-Full365 NOT_PASSED at G325 replay; no scientific promotion. Review closeout: INDEX.\n+Full365 NOT_PASSED at G349 documentation gate; no scientific promotion. Review closeout: INDEX.\n \n ## Foundational and adopted layer\n \ndiff --git a/HANDOFF.md b/HANDOFF.md\nindex 65135aca..b126a034 100644\n--- a/HANDOFF.md\n+++ b/HANDOFF.md\n@@ -54,7 +54,7 @@ NR1--NR2/LG1--LG2/LE1/SE1/NE1: reviewed UNPROMOTED; exact evidence/scopes in IND\n Predecessors: compact tangents, restricted localization and local curvature behavior.\n NE1: fading profile with cumulative marked-area-rate/tidal departure in one exact polarized family.\n Supplied data/marking and conditional methods; no genericity, stability/content.\n-All original reviews/caveats control. Full365 NOT_PASSED at G325 replay.\n+All original reviews/caveats control. Full365 NOT_PASSED at G349 documentation gate.\n ND1/ND2/QC1/QC2/GL1/GL2/RF1: reviewed UNPROMOTED; roadmap: INDEX.\n \n Optional source branch PAUSED; automatic Hopfion-stabilization mechanism is PAUSED, no rescue.\ndiff --git a/INDEX.md b/INDEX.md\nindex 0ba66807..83de80c9 100644\n--- a/INDEX.md\n+++ b/INDEX.md\n@@ -42,7 +42,7 @@ Dependency: `udt_localized_geometry_campaign_2026-09-09/DECISION_BRIEF.md`; LG1-\n restricted 3D localization, smooth-method/symmetry/smallness caveats; LG2 requires its REPAIR.md.\n Predecessor: `udt_nonlinear_mode_realizability_campaign_2026-09-09/DECISION_BRIEF.md`;\n NR1--NR2 UNPROMOTED, compact-sector mixed-C2/analytic-local tangent limits; original reviews control.\n-Full365 NOT_PASSED at G325 replay; no new banking or complete integration.\n+Full365 NOT_PASSED: G349 documentation gate; `maintenance_g325_replay_2026-09-10/WORK_RECORD.md`; no new banking.\n \n ## Founding, relational and response sources\n \ndiff --git a/LIVE.md b/LIVE.md\nindex 7038df2c..3b83340e 100644\n--- a/LIVE.md\n+++ b/LIVE.md\n@@ -65,7 +65,7 @@ The fixed through-G352 manuscript is an earlier edition, not current tracking.\n NR1--NR2/LG1--LG2/LE1/SE1/NE1: reviewed UNPROMOTED; exact scopes/reviews: `INDEX.md`.\n NE1: fading profile with cumulative marked-area-rate/tidal departure in one exact polarized family.\n Supplied data/marking and conditional methods; no genericity, stability/content.\n-Full365 NOT_PASSED at G325 replay; no scientific banking/integration.\n+Full365 NOT_PASSED at G349 documentation gate; G325/G326 replay repaired. No scientific banking/integration.\n ND1/ND2/QC1/QC2/GL1/GL2/RF1: reviewed UNPROMOTED; roadmap: INDEX.\n \n ### Distinctions for the direction discussion\ndiff --git a/MEMORY.md b/MEMORY.md\nindex 08da8029..d4dc99cb 100644\n--- a/MEMORY.md\n+++ b/MEMORY.md\n@@ -21,7 +21,7 @@ with actual local Lambda=0 realizations; not general metric realization or physi\n Original candidate/review bytes, false passes, repairs and lost-output caveats stay fixed.\n HB2/HB3 and BI2/BI3 remain UNPROMOTED; three CD vacuous checks remain EXCLUDED.\n NR/LG/LE1/SE1/NE1 are reviewed UNPROMOTED; INDEX owns full scopes/reviews, not stability/content.\n-Full365 NOT_PASSED at G325 replay; no new banking.\n+Full365 NOT_PASSED at G349 documentation gate; no new banking.\n \n Keep the corrections explicit:\n \ndiff --git a/UDT_RESEARCH_ROADMAP.md b/UDT_RESEARCH_ROADMAP.md\nindex 522e56f8..03be1609 100644\n--- a/UDT_RESEARCH_ROADMAP.md\n+++ b/UDT_RESEARCH_ROADMAP.md\n@@ -118,9 +118,10 @@ physical commitment, unresolved load-bearing disagreement, no useful in-scope\n continuation, or genuine access/safety/resource blocker. Save a checkpoint if\n runtime prevents completion. No automatic successor campaign or promotion.\n \n-The actual full verifier still fails G325 replay. Diagnosis/repair of that\n-failure is a separate maintenance task, not bundled into this authorization.\n-It blocks new banking, not labeled conditional discovery. Preserve registry\n+Separate maintenance repaired G325/G326's runtime-provenance replay comparison;\n+the actual full verifier now stops at G349's documentation wording gate.\n+See `maintenance_g325_replay_2026-09-10/WORK_RECORD.md`. It blocks new banking,\n+not labeled conditional discovery. Preserve registry\n grades, original evidence, canon and the fixed through-G352 manuscript.\n Backup completeness/pre-reboot unsaved state remain UNVERIFIED; ScratchDisk\n blocks archive-dependent tasks only. Protected local payloads remain untouched.\n@@ -196,4 +197,4 @@ acceleration/expansion one-form. This applies known geometry to the G215/G216/G2\n it is not a new mathematical theorem, imposed symmetry, physical light identification or field law.\n General branch-labelled queries remain valid when scalar compression fails; full screen/frame carry\n is not removed when it succeeds. Preserve that distinction rather than selecting a law to enforce it.\n-Assessment COMPLETE; no automatic successor, premise adoption or banking. The G325 blocker remains.\n+Assessment COMPLETE; no automatic successor, premise adoption or banking. Full-audit blocker: G349 documentation gate.\n",
+  "status_hashes": {
+    "CURRENT_RESEARCH_PROGRAM.md": "ef41f98e423009b3dd06a9269bf3fde3a0e4d92ddd3b552c783afefcdb2cb6bc",
+    "CURRENT_SCIENTIFIC_PREMISES.md": "c394d20a9d442ba018b46a669c9f212109a443d97ef05d1f7f6527c50e30d530",
+    "HANDOFF.md": "41e77a9d76f32e9382df18477db3f75e52a47de7f2d85859d9c42a0470fe4bc7",
+    "INDEX.md": "42c9562c77d44a2b942af57bc93eb4ef54b8a47facbe96a118f7f724b3b08443",
+    "LIVE.md": "5999b52341ec36ade1313b7bcf725ca9be44ed5bc2b21b0425b8a8643a6c19a4",
+    "MEMORY.md": "788dba9ad15e2766bca74eea86801e491ceb67fce34d48bfffd88b35d22a3433",
+    "UDT_RESEARCH_ROADMAP.md": "4e6ac645ed4c768cab7493e1ebd26ed8ff0363ccb4c5c4fa7b1517f75f970cc2"
+  },
+  "tracked_changed_files": [
+    "CURRENT_RESEARCH_PROGRAM.md",
+    "CURRENT_SCIENTIFIC_PREMISES.md",
+    "HANDOFF.md",
+    "INDEX.md",
+    "LIVE.md",
+    "MEMORY.md",
+    "UDT_RESEARCH_ROADMAP.md",
+    "udt_g325_g324_homogeneous_diagonal_linear_modes_2026-09-02/verify_package.py",
+    "udt_g326_g324_homogeneous_offdiagonal_linear_modes_2026-09-02/verify_package.py"
+  ],
+  "unchanged_authority": [
+    {
+      "path": "verify_current_scientific_premises.py",
+      "sha256": "1f50dab2180db4901dbdf2881348141028108092e3790803fa82bbc2c79368b9",
+      "unchanged": true
+    },
+    {
+      "path": "CURRENT_SCIENTIFIC_PREMISES.tsv",
+      "sha256": "4236f3784601617a93ac66b0de36a7a1565beef553d6b5f5c6d7d2a9a13e69dc",
+      "unchanged": true
+    },
+    {
+      "path": "CANON.md",
+      "sha256": "047b7fbbc1acacf01d2716e3c98cdefd0b9b20136ac4a3306f55dd6775465250",
+      "unchanged": true
+    },
+    {
+      "path": "UDT_METRIC_KERNEL_DEVELOPMENT.md",
+      "sha256": "3b625d8f43620a37c99d9f4f0fdc9390c3a12306b1da87281c143ce84d40a81e",
+      "unchanged": true
+    },
+    {
+      "path": "UDT_METRIC_KERNEL_COVERAGE.tsv",
+      "sha256": "b9a8d84d58b60dd6381af6512d89a63c8fa26750f0068e444dd039d329e74bc4",
+      "unchanged": true
+    }
+  ],
+  "unchanged_g349_program_sentence": "G349 finite sheet area is not endpoint image-union; that needs supplied global preimages.",
+  "work_record_sha256": "0dd7abc5e95ff7b6056566c2bac6593115dda840efd3828ed96fb44041b52238"
+}

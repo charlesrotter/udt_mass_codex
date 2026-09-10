@@ -1,0 +1,97 @@
+{
+  "assertion_count": 57,
+  "checks": [
+    "production_landing",
+    "production_assertion_count",
+    "independent_assertion_count",
+    "hostile_assertion_count",
+    "exact_offdiagonal_dimensions",
+    "exact_combined_dimensions",
+    "complete_solution_basis",
+    "production_scalar_zero",
+    "independent_scalar_zero",
+    "independent_lattice_tidal_zero",
+    "independent_shear_tidal_witness",
+    "independent_lattice_dimension",
+    "independent_shear_dimension",
+    "independent_combined_count",
+    "independent_no_production_import",
+    "independent_no_production_result_read",
+    "all_hostile_controls",
+    "bounded_homogeneous_closure",
+    "no_full_linear_overclaim",
+    "no_nonlinear_overclaim",
+    "inhomogeneous_open",
+    "occupancy_open",
+    "scale_open",
+    "xmax_open",
+    "native_objects_unchanged",
+    "source_integrity:derive_offdiagonal_modes.py",
+    "source_integrity:verify_offdiagonal_independent.py",
+    "source_integrity:run_catch_proofs.py",
+    "static_no_production_import",
+    "static_no_production_from_import",
+    "static_no_production_result_read",
+    "exact_landing_token",
+    "curvature_falsifier_clarified_preproduction",
+    "count_not_population",
+    "exact_fourier_boundary",
+    "lay_stability_boundary",
+    "status_external_repairs_accepted",
+    "fresh_external_acceptance_token",
+    "external_report_acceptance_token",
+    "external_repair_acceptance_token",
+    "writable_copy_command_registered",
+    "writable_permission_command_registered",
+    "sealed_intake_remains_read_only",
+    "registered_command_count",
+    "replay_exit:DERIVATION_RESULT.json",
+    "replay_created:DERIVATION_RESULT.json",
+    "replay_scientific_exact:DERIVATION_RESULT.json",
+    "replay_exit:INDEPENDENT_VERIFICATION.json",
+    "replay_created:INDEPENDENT_VERIFICATION.json",
+    "replay_scientific_exact:INDEPENDENT_VERIFICATION.json",
+    "replay_exit:CATCH_PROOF_RESULT.json",
+    "replay_created:CATCH_PROOF_RESULT.json",
+    "replay_scientific_exact:CATCH_PROOF_RESULT.json",
+    "fourth_command_self",
+    "canned_substitution_rejected:derive_offdiagonal_modes.py",
+    "canned_substitution_rejected:verify_offdiagonal_independent.py",
+    "canned_substitution_rejected:run_catch_proofs.py"
+  ],
+  "exact_replay": false,
+  "exact_scientific_replay": true,
+  "landing": "HOMOGENEOUS_OFFDIAGONAL_MODES_CLOSE_AS_FIVE_QUOTIENT_LATTICE_MODULI__ONE_LOCAL_TRANSVERSE_KASNER_SHEAR__NO_NEW_GAUGE_OR_SCALAR_MODE__NO_FULL_STABILITY_CLAIM",
+  "python_version": "3.10.12 (main, Aug 31 2026, 10:18:17) [GCC 11.4.0]",
+  "replay_records": {
+    "CATCH_PROOF_RESULT.json": {
+      "exact_replay": true,
+      "exact_scientific_replay": true,
+      "runtime_provenance": {}
+    },
+    "DERIVATION_RESULT.json": {
+      "exact_replay": false,
+      "exact_scientific_replay": true,
+      "runtime_provenance": {
+        "python_version": {
+          "equal": false,
+          "replayed": "3.10.12 (main, Aug 31 2026, 10:18:17) [GCC 11.4.0]",
+          "saved": "3.10.12 (main, Jun 22 2026, 18:55:27) [GCC 11.4.0]"
+        }
+      }
+    },
+    "INDEPENDENT_VERIFICATION.json": {
+      "exact_replay": false,
+      "exact_scientific_replay": true,
+      "runtime_provenance": {
+        "python_version": {
+          "equal": false,
+          "replayed": "3.10.12 (main, Aug 31 2026, 10:18:17) [GCC 11.4.0]",
+          "saved": "3.10.12 (main, Jun 22 2026, 18:55:27) [GCC 11.4.0]"
+        }
+      }
+    }
+  },
+  "schema": "udt-g326-package-verification-v2",
+  "status": "PASS_EXTERNAL_G326_REPAIRS_ACCEPTED"
+}

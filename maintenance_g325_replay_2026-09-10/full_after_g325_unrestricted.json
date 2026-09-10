@@ -1,0 +1,13 @@
+{
+  "command": [
+    "/usr/bin/python3",
+    "verify_current_scientific_premises.py"
+  ],
+  "cwd": "/home/udt-admin/udt_mass_codex",
+  "started_utc": "2026-09-10T03:50:25.482087+00:00",
+  "seconds": 11.535699685045984,
+  "returncode": 1,
+  "stdout": "",
+  "stderr": "G326 dependency-free replay failed: Traceback (most recent call last):\n  File \"/home/udt-admin/udt_mass_codex/udt_g326_g324_homogeneous_offdiagonal_linear_modes_2026-09-02/verify_package.py\", line 232, in <module>\n    main()\n  File \"/home/udt-admin/udt_mass_codex/udt_g326_g324_homogeneous_offdiagonal_linear_modes_2026-09-02/verify_package.py\", line 189, in main\n    gate(load(generated) == load(package / artifact), f\"replay_exact:{artifact}\")\n  File \"/home/udt-admin/udt_mass_codex/udt_g326_g324_homogeneous_offdiagonal_linear_modes_2026-09-02/verify_package.py\", line 65, in gate\n    assert condition, name\nAssertionError: replay_exact:DERIVATION_RESULT.json\n\n",
+  "timeout_seconds": 300
+}

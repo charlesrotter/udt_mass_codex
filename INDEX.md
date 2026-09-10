@@ -42,7 +42,7 @@ Dependency: `udt_localized_geometry_campaign_2026-09-09/DECISION_BRIEF.md`; LG1-
 restricted 3D localization, smooth-method/symmetry/smallness caveats; LG2 requires its REPAIR.md.
 Predecessor: `udt_nonlinear_mode_realizability_campaign_2026-09-09/DECISION_BRIEF.md`;
 NR1--NR2 UNPROMOTED, compact-sector mixed-C2/analytic-local tangent limits; original reviews control.
-Full365 NOT_PASSED at G325 replay; no new banking or complete integration.
+Full365 NOT_PASSED: G349 documentation gate; `maintenance_g325_replay_2026-09-10/WORK_RECORD.md`; no new banking.
 
 ## Founding, relational and response sources
 

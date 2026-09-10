@@ -1,0 +1,53 @@
+{
+  "authority_preservation": [
+    {
+      "baseline_sha256": "1f50dab2180db4901dbdf2881348141028108092e3790803fa82bbc2c79368b9",
+      "current_sha256": "1f50dab2180db4901dbdf2881348141028108092e3790803fa82bbc2c79368b9",
+      "path": "verify_current_scientific_premises.py",
+      "unchanged": true
+    },
+    {
+      "baseline_sha256": "4236f3784601617a93ac66b0de36a7a1565beef553d6b5f5c6d7d2a9a13e69dc",
+      "current_sha256": "4236f3784601617a93ac66b0de36a7a1565beef553d6b5f5c6d7d2a9a13e69dc",
+      "path": "CURRENT_SCIENTIFIC_PREMISES.tsv",
+      "unchanged": true
+    },
+    {
+      "baseline_sha256": "047b7fbbc1acacf01d2716e3c98cdefd0b9b20136ac4a3306f55dd6775465250",
+      "current_sha256": "047b7fbbc1acacf01d2716e3c98cdefd0b9b20136ac4a3306f55dd6775465250",
+      "path": "CANON.md",
+      "unchanged": true
+    },
+    {
+      "baseline_sha256": "3b625d8f43620a37c99d9f4f0fdc9390c3a12306b1da87281c143ce84d40a81e",
+      "current_sha256": "3b625d8f43620a37c99d9f4f0fdc9390c3a12306b1da87281c143ce84d40a81e",
+      "path": "UDT_METRIC_KERNEL_DEVELOPMENT.md",
+      "unchanged": true
+    },
+    {
+      "baseline_sha256": "b9a8d84d58b60dd6381af6512d89a63c8fa26750f0068e444dd039d329e74bc4",
+      "current_sha256": "b9a8d84d58b60dd6381af6512d89a63c8fa26750f0068e444dd039d329e74bc4",
+      "path": "UDT_METRIC_KERNEL_COVERAGE.tsv",
+      "unchanged": true
+    }
+  ],
+  "baseline": "51f189679d4029d750e375be949f41e2f15420fa",
+  "commands": [
+    {
+      "argv": [
+        "python3",
+        "-S",
+        "verify_package.py",
+        "--output",
+        ".review_runtime/PACKAGE_VERIFICATION_RESULT.json"
+      ],
+      "cwd": "/tmp/review_g326_output_bdyln958/package",
+      "returncode": 0,
+      "stderr": "",
+      "stdout": "{\n  \"assertion_count\": 57,\n  \"checks\": [\n    \"production_landing\",\n    \"production_assertion_count\",\n    \"independent_assertion_count\",\n    \"hostile_assertion_count\",\n    \"exact_offdiagonal_dimensions\",\n    \"exact_combined_dimensions\",\n    \"complete_solution_basis\",\n    \"production_scalar_zero\",\n    \"independent_scalar_zero\",\n    \"independent_lattice_tidal_zero\",\n    \"independent_shear_tidal_witness\",\n    \"independent_lattice_dimension\",\n    \"independent_shear_dimension\",\n    \"independent_combined_count\",\n    \"independent_no_production_import\",\n    \"independent_no_production_result_read\",\n    \"all_hostile_controls\",\n    \"bounded_homogeneous_closure\",\n    \"no_full_linear_overclaim\",\n    \"no_nonlinear_overclaim\",\n    \"inhomogeneous_open\",\n    \"occupancy_open\",\n    \"scale_open\",\n    \"xmax_open\",\n    \"native_objects_unchanged\",\n    \"source_integrity:derive_offdiagonal_modes.py\",\n    \"source_integrity:verify_offdiagonal_independent.py\",\n    \"source_integrity:run_catch_proofs.py\",\n    \"static_no_production_import\",\n    \"static_no_production_from_import\",\n    \"static_no_production_result_read\",\n    \"exact_landing_token\",\n    \"curvature_falsifier_clarified_preproduction\",\n    \"count_not_population\",\n    \"exact_fourier_boundary\",\n    \"lay_stability_boundary\",\n    \"status_external_repairs_accepted\",\n    \"fresh_external_acceptance_token\",\n    \"external_report_acceptance_token\",\n    \"external_repair_acceptance_token\",\n    \"writable_copy_command_registered\",\n    \"writable_permission_command_registered\",\n    \"sealed_intake_remains_read_only\",\n    \"registered_command_count\",\n    \"replay_exit:DERIVATION_RESULT.json\",\n    \"replay_created:DERIVATION_RESULT.json\",\n    \"replay_scientific_exact:DERIVATION_RESULT.json\",\n    \"replay_exit:INDEPENDENT_VERIFICATION.json\",\n    \"replay_created:INDEPENDENT_VERIFICATION.json\",\n    \"replay_scientific_exact:INDEPENDENT_VERIFICATION.json\",\n    \"replay_exit:CATCH_PROOF_RESULT.json\",\n    \"replay_created:CATCH_PROOF_RESULT.json\",\n    \"replay_scientific_exact:CATCH_PROOF_RESULT.json\",\n    \"fourth_command_self\",\n    \"canned_substitution_rejected:derive_offdiagonal_modes.py\",\n    \"canned_substitution_rejected:verify_offdiagonal_independent.py\",\n    \"canned_substitution_rejected:run_catch_proofs.py\"\n  ],\n  \"exact_replay\": false,\n  \"exact_scientific_replay\": true,\n  \"landing\": \"HOMOGENEOUS_OFFDIAGONAL_MODES_CLOSE_AS_FIVE_QUOTIENT_LATTICE_MODULI__ONE_LOCAL_TRANSVERSE_KASNER_SHEAR__NO_NEW_GAUGE_OR_SCALAR_MODE__NO_FULL_STABILITY_CLAIM\",\n  \"python_version\": \"3.10.12 (main, Aug 31 2026, 10:18:17) [GCC 11.4.0]\",\n  \"replay_records\": {\n    \"CATCH_PROOF_RESULT.json\": {\n      \"exact_replay\": true,\n      \"exact_scientific_replay\": true,\n      \"runtime_provenance\": {}\n    },\n    \"DERIVATION_RESULT.json\": {\n      \"exact_replay\": false,\n      \"exact_scientific_replay\": true,\n      \"runtime_provenance\": {\n        \"python_version\": {\n          \"equal\": false,\n          \"replayed\": \"3.10.12 (main, Aug 31 2026, 10:18:17) [GCC 11.4.0]\",\n          \"saved\": \"3.10.12 (main, Jun 22 2026, 18:55:27) [GCC 11.4.0]\"\n        }\n      }\n    },\n    \"INDEPENDENT_VERIFICATION.json\": {\n      \"exact_replay\": false,\n      \"exact_scientific_replay\": true,\n      \"runtime_provenance\": {\n        \"python_version\": {\n          \"equal\": false,\n          \"replayed\": \"3.10.12 (main, Aug 31 2026, 10:18:17) [GCC 11.4.0]\",\n          \"saved\": \"3.10.12 (main, Jun 22 2026, 18:55:27) [GCC 11.4.0]\"\n        }\n      }\n    }\n  },\n  \"schema\": \"udt-g326-package-verification-v2\",\n  \"status\": \"PASS_EXTERNAL_G326_REPAIRS_ACCEPTED\"\n}\n"
+    }
+  ],
+  "g326_registered_output_matches_stdout_original_aggregate_preserved": true,
+  "python_version": "3.10.12 (main, Aug 31 2026, 10:18:17) [GCC 11.4.0]",
+  "status": "PASS_MAINTENANCE_SUPPLEMENT"
+}

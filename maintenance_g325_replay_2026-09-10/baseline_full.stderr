@@ -1,0 +1,12 @@
+Traceback (most recent call last):
+  File "/home/udt-admin/udt_mass_codex/verify_current_scientific_premises.py", line 20108, in <module>
+    main()
+  File "/home/udt-admin/udt_mass_codex/verify_current_scientific_premises.py", line 3065, in main
+    g301_package = replay_package_with_current_registry_rows_removed(
+  File "/home/udt-admin/udt_mass_codex/verify_current_scientific_premises.py", line 304, in replay_package_with_current_registry_rows_removed
+    payload = frozen_git_source_bytes(source_key, row["sha256"])
+  File "/home/udt-admin/udt_mass_codex/verify_current_scientific_premises.py", line 245, in frozen_git_source_bytes
+    revisions = subprocess.run(
+  File "/usr/lib/python3.10/subprocess.py", line 526, in run
+    raise CalledProcessError(retcode, process.args,
+subprocess.CalledProcessError: Command '['git', 'log', '--format=%H', '--', 'AGENTS.md']' returned non-zero exit status 128.

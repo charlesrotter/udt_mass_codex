@@ -27,7 +27,7 @@ GR is FILTER ONLY, not a response-law input; Local Metric Sufficiency remains ow
 Inherited G312 “admitted/lawful” Einstein claims are CONDITIONAL on full reviewed premises,
 not established from filter-only GR. The existing membership route is unclosed, not disproved:
 `udt_gr_filter_reconciliation_2026-09-09/AUTHORITY_RECORD.md`. Exact grades/math remain unchanged.
-Full365 NOT_PASSED at G325 replay; no scientific promotion.
+Full365 NOT_PASSED: G349 documentation gate; no scientific promotion.
 Population, realized history, matter, absolute scale and `X_max` remain unselected.
 
 ## Dependency spine

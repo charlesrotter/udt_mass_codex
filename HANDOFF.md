@@ -54,7 +54,7 @@ NR1--NR2/LG1--LG2/LE1/SE1/NE1: reviewed UNPROMOTED; exact evidence/scopes in IND
 Predecessors: compact tangents, restricted localization and local curvature behavior.
 NE1: fading profile with cumulative marked-area-rate/tidal departure in one exact polarized family.
 Supplied data/marking and conditional methods; no genericity, stability/content.
-All original reviews/caveats control. Full365 NOT_PASSED at G325 replay.
+All original reviews/caveats control. Full365 NOT_PASSED at G349 documentation gate.
 ND1/ND2/QC1/QC2/GL1/GL2/RF1: reviewed UNPROMOTED; roadmap: INDEX.
 
 Optional source branch PAUSED; automatic Hopfion-stabilization mechanism is PAUSED, no rescue.

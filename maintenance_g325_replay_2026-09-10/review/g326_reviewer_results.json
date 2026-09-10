@@ -1,0 +1,1432 @@
+{
+  "actual_replays": {
+    "CATCH_PROOF_RESULT.json": {
+      "differing_top_level_fields": [],
+      "exact_scientific_replay_by_independent_recursive_oracle": true,
+      "replayed_record": {
+        "assertion_count": 5,
+        "controls": [
+          "wrong_ode_coefficient_caught",
+          "dropped_repeated_root_log_mode_caught",
+          "false_torus_periodicity_caught",
+          "fake_curvature_free_log_mode_caught",
+          "wrong_combined_dimension_caught"
+        ],
+        "schema": "udt-g326-catch-proofs-v1",
+        "status": "PASS"
+      },
+      "replayed_sha256": "3f31d3ede44933831a3a946c0e8610a3089865d0630f438f06c43605f92e80fa",
+      "saved_record": {
+        "assertion_count": 5,
+        "controls": [
+          "wrong_ode_coefficient_caught",
+          "dropped_repeated_root_log_mode_caught",
+          "false_torus_periodicity_caught",
+          "fake_curvature_free_log_mode_caught",
+          "wrong_combined_dimension_caught"
+        ],
+        "schema": "udt-g326-catch-proofs-v1",
+        "status": "PASS"
+      },
+      "saved_sha256": "3f31d3ede44933831a3a946c0e8610a3089865d0630f438f06c43605f92e80fa"
+    },
+    "DERIVATION_RESULT.json": {
+      "differing_top_level_fields": [
+        "python_version"
+      ],
+      "exact_scientific_replay_by_independent_recursive_oracle": true,
+      "replayed_record": {
+        "Xmax_selected": false,
+        "angular_sector_changed": false,
+        "assertion_count": 33,
+        "background_exponents": [
+          "-1/3",
+          "2/3",
+          "2/3"
+        ],
+        "checks": [
+          "background_kasner_sum",
+          "background_kasner_square_sum",
+          "root_12_left",
+          "root_12_right",
+          "real_roots_12",
+          "distinct_roots_12",
+          "root_13_left",
+          "root_13_right",
+          "real_roots_13",
+          "distinct_roots_13",
+          "root_23_left",
+          "root_23_right",
+          "real_roots_23",
+          "repeated_root_23",
+          "log_solution_exact_23",
+          "six_complete_offdiagonal_integration_constants",
+          "full_cover_image_rank_eight",
+          "offdiagonal_cover_image_rank_five",
+          "cover_map_kernel_contains_transverse_rotation",
+          "cover_map_kernel_exactly_one_dimensional",
+          "affine_jump_nonzero_01",
+          "affine_jump_nonzero_10",
+          "affine_jump_nonzero_02",
+          "affine_jump_nonzero_20",
+          "affine_jump_nonzero_12",
+          "five_nonperiodic_offdiagonal_cover_generators",
+          "transverse_tidal_witness_exact",
+          "transverse_tidal_witness_nonzero",
+          "transverse_tidal_eigenvalue_discriminant_positive",
+          "offdiagonal_dimension_partition",
+          "combined_quotient_lattice_dimension_eight",
+          "combined_homogeneous_dimension_twelve",
+          "transverse_background_degeneracy"
+        ],
+        "combined_g325_g326_dimensions": {
+          "connected_scalar_curvature": 1,
+          "fixed_quotient_lattice_moduli": 8,
+          "local_kasner_shear_components": 2,
+          "residual_time_translation_gauge": 1,
+          "total_integration_constants": 12
+        },
+        "full_homogeneous_synchronous_first_variation_closed_with_g325": true,
+        "full_linear_stability_proved": false,
+        "general_solutions": {
+          "12": [
+            "T^-2/3",
+            "T^4/3"
+          ],
+          "13": [
+            "T^-2/3",
+            "T^4/3"
+          ],
+          "23": [
+            "T^4/3",
+            "T^4/3*log(T/Tref)"
+          ]
+        },
+        "inhomogeneous_modes_classified": false,
+        "kernel_changed": false,
+        "landing": "HOMOGENEOUS_OFFDIAGONAL_MODES_CLOSE_AS_FIVE_QUOTIENT_LATTICE_MODULI__ONE_LOCAL_TRANSVERSE_KASNER_SHEAR__NO_NEW_GAUGE_OR_SCALAR_MODE__NO_FULL_STABILITY_CLAIM",
+        "linearized_scalar_curvature": "0",
+        "metric_changed": false,
+        "mode_dimensions": {
+          "connected_scalar_curvature": 0,
+          "fixed_quotient_lattice_moduli": 5,
+          "local_transverse_kasner_shear": 1,
+          "quotient_legal_gauge": 0
+        },
+        "nonlinear_stability_proved": false,
+        "offdiagonal_ode": "k_ij''+[1-2*(p_i+p_j)]*k_ij'/T+4*p_i*p_j*k_ij/T^2=0",
+        "physical_occupancy_selected": false,
+        "physical_scale_selected": false,
+        "python_version": "3.10.12 (main, Aug 31 2026, 10:18:17) [GCC 11.4.0]",
+        "schema": "udt-g326-homogeneous-offdiagonal-production-v1",
+        "status": "INTERNAL_VERIFIED_PENDING_EXTERNAL_REVIEW",
+        "transverse_tidal_witness": "delta(E^y_z)=delta(E^z_y)=-q_cross/(3*T^2)"
+      },
+      "replayed_sha256": "bbbecfe50ae55b5a2b9850d24cd8a64de3534ad6e7c4e23e9cf1d62d22199210",
+      "saved_record": {
+        "Xmax_selected": false,
+        "angular_sector_changed": false,
+        "assertion_count": 33,
+        "background_exponents": [
+          "-1/3",
+          "2/3",
+          "2/3"
+        ],
+        "checks": [
+          "background_kasner_sum",
+          "background_kasner_square_sum",
+          "root_12_left",
+          "root_12_right",
+          "real_roots_12",
+          "distinct_roots_12",
+          "root_13_left",
+          "root_13_right",
+          "real_roots_13",
+          "distinct_roots_13",
+          "root_23_left",
+          "root_23_right",
+          "real_roots_23",
+          "repeated_root_23",
+          "log_solution_exact_23",
+          "six_complete_offdiagonal_integration_constants",
+          "full_cover_image_rank_eight",
+          "offdiagonal_cover_image_rank_five",
+          "cover_map_kernel_contains_transverse_rotation",
+          "cover_map_kernel_exactly_one_dimensional",
+          "affine_jump_nonzero_01",
+          "affine_jump_nonzero_10",
+          "affine_jump_nonzero_02",
+          "affine_jump_nonzero_20",
+          "affine_jump_nonzero_12",
+          "five_nonperiodic_offdiagonal_cover_generators",
+          "transverse_tidal_witness_exact",
+          "transverse_tidal_witness_nonzero",
+          "transverse_tidal_eigenvalue_discriminant_positive",
+          "offdiagonal_dimension_partition",
+          "combined_quotient_lattice_dimension_eight",
+          "combined_homogeneous_dimension_twelve",
+          "transverse_background_degeneracy"
+        ],
+        "combined_g325_g326_dimensions": {
+          "connected_scalar_curvature": 1,
+          "fixed_quotient_lattice_moduli": 8,
+          "local_kasner_shear_components": 2,
+          "residual_time_translation_gauge": 1,
+          "total_integration_constants": 12
+        },
+        "full_homogeneous_synchronous_first_variation_closed_with_g325": true,
+        "full_linear_stability_proved": false,
+        "general_solutions": {
+          "12": [
+            "T^-2/3",
+            "T^4/3"
+          ],
+          "13": [
+            "T^-2/3",
+            "T^4/3"
+          ],
+          "23": [
+            "T^4/3",
+            "T^4/3*log(T/Tref)"
+          ]
+        },
+        "inhomogeneous_modes_classified": false,
+        "kernel_changed": false,
+        "landing": "HOMOGENEOUS_OFFDIAGONAL_MODES_CLOSE_AS_FIVE_QUOTIENT_LATTICE_MODULI__ONE_LOCAL_TRANSVERSE_KASNER_SHEAR__NO_NEW_GAUGE_OR_SCALAR_MODE__NO_FULL_STABILITY_CLAIM",
+        "linearized_scalar_curvature": "0",
+        "metric_changed": false,
+        "mode_dimensions": {
+          "connected_scalar_curvature": 0,
+          "fixed_quotient_lattice_moduli": 5,
+          "local_transverse_kasner_shear": 1,
+          "quotient_legal_gauge": 0
+        },
+        "nonlinear_stability_proved": false,
+        "offdiagonal_ode": "k_ij''+[1-2*(p_i+p_j)]*k_ij'/T+4*p_i*p_j*k_ij/T^2=0",
+        "physical_occupancy_selected": false,
+        "physical_scale_selected": false,
+        "python_version": "3.10.12 (main, Jun 22 2026, 18:55:27) [GCC 11.4.0]",
+        "schema": "udt-g326-homogeneous-offdiagonal-production-v1",
+        "status": "INTERNAL_VERIFIED_PENDING_EXTERNAL_REVIEW",
+        "transverse_tidal_witness": "delta(E^y_z)=delta(E^z_y)=-q_cross/(3*T^2)"
+      },
+      "saved_sha256": "6babb0ea591c57ab7a554d51dad73b6dbeafad26d1b66094c489df235eb17f12"
+    },
+    "INDEPENDENT_VERIFICATION.json": {
+      "differing_top_level_fields": [
+        "python_version"
+      ],
+      "exact_scientific_replay_by_independent_recursive_oracle": true,
+      "replayed_record": {
+        "assertion_count": 137,
+        "checks": [
+          "direct_tracefree_zero:xy_x:0:0",
+          "direct_tracefree_zero:xy_x:0:1",
+          "direct_tracefree_zero:xy_x:0:2",
+          "direct_tracefree_zero:xy_x:0:3",
+          "direct_tracefree_zero:xy_x:1:0",
+          "direct_tracefree_zero:xy_x:1:1",
+          "direct_tracefree_zero:xy_x:1:2",
+          "direct_tracefree_zero:xy_x:1:3",
+          "direct_tracefree_zero:xy_x:2:0",
+          "direct_tracefree_zero:xy_x:2:1",
+          "direct_tracefree_zero:xy_x:2:2",
+          "direct_tracefree_zero:xy_x:2:3",
+          "direct_tracefree_zero:xy_x:3:0",
+          "direct_tracefree_zero:xy_x:3:1",
+          "direct_tracefree_zero:xy_x:3:2",
+          "direct_tracefree_zero:xy_x:3:3",
+          "direct_scalar_zero:xy_x",
+          "direct_momentum_zero:xy_x:1",
+          "direct_momentum_zero:xy_x:2",
+          "direct_momentum_zero:xy_x:3",
+          "direct_tracefree_zero:xy_y:0:0",
+          "direct_tracefree_zero:xy_y:0:1",
+          "direct_tracefree_zero:xy_y:0:2",
+          "direct_tracefree_zero:xy_y:0:3",
+          "direct_tracefree_zero:xy_y:1:0",
+          "direct_tracefree_zero:xy_y:1:1",
+          "direct_tracefree_zero:xy_y:1:2",
+          "direct_tracefree_zero:xy_y:1:3",
+          "direct_tracefree_zero:xy_y:2:0",
+          "direct_tracefree_zero:xy_y:2:1",
+          "direct_tracefree_zero:xy_y:2:2",
+          "direct_tracefree_zero:xy_y:2:3",
+          "direct_tracefree_zero:xy_y:3:0",
+          "direct_tracefree_zero:xy_y:3:1",
+          "direct_tracefree_zero:xy_y:3:2",
+          "direct_tracefree_zero:xy_y:3:3",
+          "direct_scalar_zero:xy_y",
+          "direct_momentum_zero:xy_y:1",
+          "direct_momentum_zero:xy_y:2",
+          "direct_momentum_zero:xy_y:3",
+          "direct_tracefree_zero:xz_x:0:0",
+          "direct_tracefree_zero:xz_x:0:1",
+          "direct_tracefree_zero:xz_x:0:2",
+          "direct_tracefree_zero:xz_x:0:3",
+          "direct_tracefree_zero:xz_x:1:0",
+          "direct_tracefree_zero:xz_x:1:1",
+          "direct_tracefree_zero:xz_x:1:2",
+          "direct_tracefree_zero:xz_x:1:3",
+          "direct_tracefree_zero:xz_x:2:0",
+          "direct_tracefree_zero:xz_x:2:1",
+          "direct_tracefree_zero:xz_x:2:2",
+          "direct_tracefree_zero:xz_x:2:3",
+          "direct_tracefree_zero:xz_x:3:0",
+          "direct_tracefree_zero:xz_x:3:1",
+          "direct_tracefree_zero:xz_x:3:2",
+          "direct_tracefree_zero:xz_x:3:3",
+          "direct_scalar_zero:xz_x",
+          "direct_momentum_zero:xz_x:1",
+          "direct_momentum_zero:xz_x:2",
+          "direct_momentum_zero:xz_x:3",
+          "direct_tracefree_zero:xz_z:0:0",
+          "direct_tracefree_zero:xz_z:0:1",
+          "direct_tracefree_zero:xz_z:0:2",
+          "direct_tracefree_zero:xz_z:0:3",
+          "direct_tracefree_zero:xz_z:1:0",
+          "direct_tracefree_zero:xz_z:1:1",
+          "direct_tracefree_zero:xz_z:1:2",
+          "direct_tracefree_zero:xz_z:1:3",
+          "direct_tracefree_zero:xz_z:2:0",
+          "direct_tracefree_zero:xz_z:2:1",
+          "direct_tracefree_zero:xz_z:2:2",
+          "direct_tracefree_zero:xz_z:2:3",
+          "direct_tracefree_zero:xz_z:3:0",
+          "direct_tracefree_zero:xz_z:3:1",
+          "direct_tracefree_zero:xz_z:3:2",
+          "direct_tracefree_zero:xz_z:3:3",
+          "direct_scalar_zero:xz_z",
+          "direct_momentum_zero:xz_z:1",
+          "direct_momentum_zero:xz_z:2",
+          "direct_momentum_zero:xz_z:3",
+          "direct_tracefree_zero:yz_lattice:0:0",
+          "direct_tracefree_zero:yz_lattice:0:1",
+          "direct_tracefree_zero:yz_lattice:0:2",
+          "direct_tracefree_zero:yz_lattice:0:3",
+          "direct_tracefree_zero:yz_lattice:1:0",
+          "direct_tracefree_zero:yz_lattice:1:1",
+          "direct_tracefree_zero:yz_lattice:1:2",
+          "direct_tracefree_zero:yz_lattice:1:3",
+          "direct_tracefree_zero:yz_lattice:2:0",
+          "direct_tracefree_zero:yz_lattice:2:1",
+          "direct_tracefree_zero:yz_lattice:2:2",
+          "direct_tracefree_zero:yz_lattice:2:3",
+          "direct_tracefree_zero:yz_lattice:3:0",
+          "direct_tracefree_zero:yz_lattice:3:1",
+          "direct_tracefree_zero:yz_lattice:3:2",
+          "direct_tracefree_zero:yz_lattice:3:3",
+          "direct_scalar_zero:yz_lattice",
+          "direct_momentum_zero:yz_lattice:1",
+          "direct_momentum_zero:yz_lattice:2",
+          "direct_momentum_zero:yz_lattice:3",
+          "direct_tracefree_zero:yz_shear:0:0",
+          "direct_tracefree_zero:yz_shear:0:1",
+          "direct_tracefree_zero:yz_shear:0:2",
+          "direct_tracefree_zero:yz_shear:0:3",
+          "direct_tracefree_zero:yz_shear:1:0",
+          "direct_tracefree_zero:yz_shear:1:1",
+          "direct_tracefree_zero:yz_shear:1:2",
+          "direct_tracefree_zero:yz_shear:1:3",
+          "direct_tracefree_zero:yz_shear:2:0",
+          "direct_tracefree_zero:yz_shear:2:1",
+          "direct_tracefree_zero:yz_shear:2:2",
+          "direct_tracefree_zero:yz_shear:2:3",
+          "direct_tracefree_zero:yz_shear:3:0",
+          "direct_tracefree_zero:yz_shear:3:1",
+          "direct_tracefree_zero:yz_shear:3:2",
+          "direct_tracefree_zero:yz_shear:3:3",
+          "direct_scalar_zero:yz_shear",
+          "direct_momentum_zero:yz_shear:1",
+          "direct_momentum_zero:yz_shear:2",
+          "direct_momentum_zero:yz_shear:3",
+          "direct_cover_lie_metric:xy_x",
+          "direct_cover_generator_nonperiodic:xy_x",
+          "direct_cover_lie_metric:xy_y",
+          "direct_cover_generator_nonperiodic:xy_y",
+          "direct_cover_lie_metric:xz_x",
+          "direct_cover_generator_nonperiodic:xz_x",
+          "direct_cover_lie_metric:xz_z",
+          "direct_cover_generator_nonperiodic:xz_z",
+          "direct_cover_lie_metric:yz_lattice",
+          "direct_cover_generator_nonperiodic:yz_lattice",
+          "direct_transverse_lattice_no_tidal_split",
+          "direct_transverse_shear_tidal_yz",
+          "direct_transverse_shear_tidal_zy",
+          "independent_full_lattice_image_dimension_eight",
+          "independent_offdiagonal_lattice_dimension_five",
+          "independent_transverse_rotation_kernel_dimension_one",
+          "independent_combined_homogeneous_count_twelve"
+        ],
+        "combined_homogeneous_integration_constants": 12,
+        "direct_tensor_modes": [
+          "xy_x",
+          "xy_y",
+          "xz_x",
+          "xz_z",
+          "yz_lattice",
+          "yz_shear"
+        ],
+        "linearized_scalar_curvature": "0",
+        "offdiagonal_lattice_dimension": 5,
+        "offdiagonal_local_shear_dimension": 1,
+        "production_imported": false,
+        "production_result_read": false,
+        "python_version": "3.10.12 (main, Aug 31 2026, 10:18:17) [GCC 11.4.0]",
+        "schema": "udt-g326-homogeneous-offdiagonal-independent-v1",
+        "status": "PASS",
+        "transverse_lattice_mixed_tidal": {},
+        "transverse_shear_mixed_tidal": {
+          "T^-2*log^0": "-1/3"
+        }
+      },
+      "replayed_sha256": "6b59e93aa41cf1292ba7bf1db0e4c94984fc6e3c37adca09d9689fdbe8640e6e",
+      "saved_record": {
+        "assertion_count": 137,
+        "checks": [
+          "direct_tracefree_zero:xy_x:0:0",
+          "direct_tracefree_zero:xy_x:0:1",
+          "direct_tracefree_zero:xy_x:0:2",
+          "direct_tracefree_zero:xy_x:0:3",
+          "direct_tracefree_zero:xy_x:1:0",
+          "direct_tracefree_zero:xy_x:1:1",
+          "direct_tracefree_zero:xy_x:1:2",
+          "direct_tracefree_zero:xy_x:1:3",
+          "direct_tracefree_zero:xy_x:2:0",
+          "direct_tracefree_zero:xy_x:2:1",
+          "direct_tracefree_zero:xy_x:2:2",
+          "direct_tracefree_zero:xy_x:2:3",
+          "direct_tracefree_zero:xy_x:3:0",
+          "direct_tracefree_zero:xy_x:3:1",
+          "direct_tracefree_zero:xy_x:3:2",
+          "direct_tracefree_zero:xy_x:3:3",
+          "direct_scalar_zero:xy_x",
+          "direct_momentum_zero:xy_x:1",
+          "direct_momentum_zero:xy_x:2",
+          "direct_momentum_zero:xy_x:3",
+          "direct_tracefree_zero:xy_y:0:0",
+          "direct_tracefree_zero:xy_y:0:1",
+          "direct_tracefree_zero:xy_y:0:2",
+          "direct_tracefree_zero:xy_y:0:3",
+          "direct_tracefree_zero:xy_y:1:0",
+          "direct_tracefree_zero:xy_y:1:1",
+          "direct_tracefree_zero:xy_y:1:2",
+          "direct_tracefree_zero:xy_y:1:3",
+          "direct_tracefree_zero:xy_y:2:0",
+          "direct_tracefree_zero:xy_y:2:1",
+          "direct_tracefree_zero:xy_y:2:2",
+          "direct_tracefree_zero:xy_y:2:3",
+          "direct_tracefree_zero:xy_y:3:0",
+          "direct_tracefree_zero:xy_y:3:1",
+          "direct_tracefree_zero:xy_y:3:2",
+          "direct_tracefree_zero:xy_y:3:3",
+          "direct_scalar_zero:xy_y",
+          "direct_momentum_zero:xy_y:1",
+          "direct_momentum_zero:xy_y:2",
+          "direct_momentum_zero:xy_y:3",
+          "direct_tracefree_zero:xz_x:0:0",
+          "direct_tracefree_zero:xz_x:0:1",
+          "direct_tracefree_zero:xz_x:0:2",
+          "direct_tracefree_zero:xz_x:0:3",
+          "direct_tracefree_zero:xz_x:1:0",
+          "direct_tracefree_zero:xz_x:1:1",
+          "direct_tracefree_zero:xz_x:1:2",
+          "direct_tracefree_zero:xz_x:1:3",
+          "direct_tracefree_zero:xz_x:2:0",
+          "direct_tracefree_zero:xz_x:2:1",
+          "direct_tracefree_zero:xz_x:2:2",
+          "direct_tracefree_zero:xz_x:2:3",
+          "direct_tracefree_zero:xz_x:3:0",
+          "direct_tracefree_zero:xz_x:3:1",
+          "direct_tracefree_zero:xz_x:3:2",
+          "direct_tracefree_zero:xz_x:3:3",
+          "direct_scalar_zero:xz_x",
+          "direct_momentum_zero:xz_x:1",
+          "direct_momentum_zero:xz_x:2",
+          "direct_momentum_zero:xz_x:3",
+          "direct_tracefree_zero:xz_z:0:0",
+          "direct_tracefree_zero:xz_z:0:1",
+          "direct_tracefree_zero:xz_z:0:2",
+          "direct_tracefree_zero:xz_z:0:3",
+          "direct_tracefree_zero:xz_z:1:0",
+          "direct_tracefree_zero:xz_z:1:1",
+          "direct_tracefree_zero:xz_z:1:2",
+          "direct_tracefree_zero:xz_z:1:3",
+          "direct_tracefree_zero:xz_z:2:0",
+          "direct_tracefree_zero:xz_z:2:1",
+          "direct_tracefree_zero:xz_z:2:2",
+          "direct_tracefree_zero:xz_z:2:3",
+          "direct_tracefree_zero:xz_z:3:0",
+          "direct_tracefree_zero:xz_z:3:1",
+          "direct_tracefree_zero:xz_z:3:2",
+          "direct_tracefree_zero:xz_z:3:3",
+          "direct_scalar_zero:xz_z",
+          "direct_momentum_zero:xz_z:1",
+          "direct_momentum_zero:xz_z:2",
+          "direct_momentum_zero:xz_z:3",
+          "direct_tracefree_zero:yz_lattice:0:0",
+          "direct_tracefree_zero:yz_lattice:0:1",
+          "direct_tracefree_zero:yz_lattice:0:2",
+          "direct_tracefree_zero:yz_lattice:0:3",
+          "direct_tracefree_zero:yz_lattice:1:0",
+          "direct_tracefree_zero:yz_lattice:1:1",
+          "direct_tracefree_zero:yz_lattice:1:2",
+          "direct_tracefree_zero:yz_lattice:1:3",
+          "direct_tracefree_zero:yz_lattice:2:0",
+          "direct_tracefree_zero:yz_lattice:2:1",
+          "direct_tracefree_zero:yz_lattice:2:2",
+          "direct_tracefree_zero:yz_lattice:2:3",
+          "direct_tracefree_zero:yz_lattice:3:0",
+          "direct_tracefree_zero:yz_lattice:3:1",
+          "direct_tracefree_zero:yz_lattice:3:2",
+          "direct_tracefree_zero:yz_lattice:3:3",
+          "direct_scalar_zero:yz_lattice",
+          "direct_momentum_zero:yz_lattice:1",
+          "direct_momentum_zero:yz_lattice:2",
+          "direct_momentum_zero:yz_lattice:3",
+          "direct_tracefree_zero:yz_shear:0:0",
+          "direct_tracefree_zero:yz_shear:0:1",
+          "direct_tracefree_zero:yz_shear:0:2",
+          "direct_tracefree_zero:yz_shear:0:3",
+          "direct_tracefree_zero:yz_shear:1:0",
+          "direct_tracefree_zero:yz_shear:1:1",
+          "direct_tracefree_zero:yz_shear:1:2",
+          "direct_tracefree_zero:yz_shear:1:3",
+          "direct_tracefree_zero:yz_shear:2:0",
+          "direct_tracefree_zero:yz_shear:2:1",
+          "direct_tracefree_zero:yz_shear:2:2",
+          "direct_tracefree_zero:yz_shear:2:3",
+          "direct_tracefree_zero:yz_shear:3:0",
+          "direct_tracefree_zero:yz_shear:3:1",
+          "direct_tracefree_zero:yz_shear:3:2",
+          "direct_tracefree_zero:yz_shear:3:3",
+          "direct_scalar_zero:yz_shear",
+          "direct_momentum_zero:yz_shear:1",
+          "direct_momentum_zero:yz_shear:2",
+          "direct_momentum_zero:yz_shear:3",
+          "direct_cover_lie_metric:xy_x",
+          "direct_cover_generator_nonperiodic:xy_x",
+          "direct_cover_lie_metric:xy_y",
+          "direct_cover_generator_nonperiodic:xy_y",
+          "direct_cover_lie_metric:xz_x",
+          "direct_cover_generator_nonperiodic:xz_x",
+          "direct_cover_lie_metric:xz_z",
+          "direct_cover_generator_nonperiodic:xz_z",
+          "direct_cover_lie_metric:yz_lattice",
+          "direct_cover_generator_nonperiodic:yz_lattice",
+          "direct_transverse_lattice_no_tidal_split",
+          "direct_transverse_shear_tidal_yz",
+          "direct_transverse_shear_tidal_zy",
+          "independent_full_lattice_image_dimension_eight",
+          "independent_offdiagonal_lattice_dimension_five",
+          "independent_transverse_rotation_kernel_dimension_one",
+          "independent_combined_homogeneous_count_twelve"
+        ],
+        "combined_homogeneous_integration_constants": 12,
+        "direct_tensor_modes": [
+          "xy_x",
+          "xy_y",
+          "xz_x",
+          "xz_z",
+          "yz_lattice",
+          "yz_shear"
+        ],
+        "linearized_scalar_curvature": "0",
+        "offdiagonal_lattice_dimension": 5,
+        "offdiagonal_local_shear_dimension": 1,
+        "production_imported": false,
+        "production_result_read": false,
+        "python_version": "3.10.12 (main, Jun 22 2026, 18:55:27) [GCC 11.4.0]",
+        "schema": "udt-g326-homogeneous-offdiagonal-independent-v1",
+        "status": "PASS",
+        "transverse_lattice_mixed_tidal": {},
+        "transverse_shear_mixed_tidal": {
+          "T^-2*log^0": "-1/3"
+        }
+      },
+      "saved_sha256": "0f96adaab2f55d56975bb9e33cb3c6e18dd9a9e4fd951ec3ba6cac936cf97ec6"
+    }
+  },
+  "aggregate_result": {
+    "assertion_count": 57,
+    "checks": [
+      "production_landing",
+      "production_assertion_count",
+      "independent_assertion_count",
+      "hostile_assertion_count",
+      "exact_offdiagonal_dimensions",
+      "exact_combined_dimensions",
+      "complete_solution_basis",
+      "production_scalar_zero",
+      "independent_scalar_zero",
+      "independent_lattice_tidal_zero",
+      "independent_shear_tidal_witness",
+      "independent_lattice_dimension",
+      "independent_shear_dimension",
+      "independent_combined_count",
+      "independent_no_production_import",
+      "independent_no_production_result_read",
+      "all_hostile_controls",
+      "bounded_homogeneous_closure",
+      "no_full_linear_overclaim",
+      "no_nonlinear_overclaim",
+      "inhomogeneous_open",
+      "occupancy_open",
+      "scale_open",
+      "xmax_open",
+      "native_objects_unchanged",
+      "source_integrity:derive_offdiagonal_modes.py",
+      "source_integrity:verify_offdiagonal_independent.py",
+      "source_integrity:run_catch_proofs.py",
+      "static_no_production_import",
+      "static_no_production_from_import",
+      "static_no_production_result_read",
+      "exact_landing_token",
+      "curvature_falsifier_clarified_preproduction",
+      "count_not_population",
+      "exact_fourier_boundary",
+      "lay_stability_boundary",
+      "status_external_repairs_accepted",
+      "fresh_external_acceptance_token",
+      "external_report_acceptance_token",
+      "external_repair_acceptance_token",
+      "writable_copy_command_registered",
+      "writable_permission_command_registered",
+      "sealed_intake_remains_read_only",
+      "registered_command_count",
+      "replay_exit:DERIVATION_RESULT.json",
+      "replay_created:DERIVATION_RESULT.json",
+      "replay_scientific_exact:DERIVATION_RESULT.json",
+      "replay_exit:INDEPENDENT_VERIFICATION.json",
+      "replay_created:INDEPENDENT_VERIFICATION.json",
+      "replay_scientific_exact:INDEPENDENT_VERIFICATION.json",
+      "replay_exit:CATCH_PROOF_RESULT.json",
+      "replay_created:CATCH_PROOF_RESULT.json",
+      "replay_scientific_exact:CATCH_PROOF_RESULT.json",
+      "fourth_command_self",
+      "canned_substitution_rejected:derive_offdiagonal_modes.py",
+      "canned_substitution_rejected:verify_offdiagonal_independent.py",
+      "canned_substitution_rejected:run_catch_proofs.py"
+    ],
+    "exact_replay": false,
+    "exact_scientific_replay": true,
+    "landing": "HOMOGENEOUS_OFFDIAGONAL_MODES_CLOSE_AS_FIVE_QUOTIENT_LATTICE_MODULI__ONE_LOCAL_TRANSVERSE_KASNER_SHEAR__NO_NEW_GAUGE_OR_SCALAR_MODE__NO_FULL_STABILITY_CLAIM",
+    "python_version": "3.10.12 (main, Aug 31 2026, 10:18:17) [GCC 11.4.0]",
+    "replay_records": {
+      "CATCH_PROOF_RESULT.json": {
+        "exact_replay": true,
+        "exact_scientific_replay": true,
+        "runtime_provenance": {}
+      },
+      "DERIVATION_RESULT.json": {
+        "exact_replay": false,
+        "exact_scientific_replay": true,
+        "runtime_provenance": {
+          "python_version": {
+            "equal": false,
+            "replayed": "3.10.12 (main, Aug 31 2026, 10:18:17) [GCC 11.4.0]",
+            "saved": "3.10.12 (main, Jun 22 2026, 18:55:27) [GCC 11.4.0]"
+          }
+        }
+      },
+      "INDEPENDENT_VERIFICATION.json": {
+        "exact_replay": false,
+        "exact_scientific_replay": true,
+        "runtime_provenance": {
+          "python_version": {
+            "equal": false,
+            "replayed": "3.10.12 (main, Aug 31 2026, 10:18:17) [GCC 11.4.0]",
+            "saved": "3.10.12 (main, Jun 22 2026, 18:55:27) [GCC 11.4.0]"
+          }
+        }
+      }
+    },
+    "schema": "udt-g326-package-verification-v2",
+    "status": "PASS_EXTERNAL_G326_REPAIRS_ACCEPTED"
+  },
+  "baseline": "51f189679d4029d750e375be949f41e2f15420fa",
+  "commands": [
+    {
+      "argv": [
+        "python3",
+        "-S",
+        "derive_offdiagonal_modes.py",
+        "--output",
+        ".review_runtime/DERIVATION_RESULT.json"
+      ],
+      "cwd": "/tmp/review_g326_afk__2ml/package",
+      "elapsed_seconds": 0.016822291014250368,
+      "extra_env": {},
+      "returncode": 0,
+      "stderr": "",
+      "stdout": "{\n  \"Xmax_selected\": false,\n  \"angular_sector_changed\": false,\n  \"assertion_count\": 33,\n  \"background_exponents\": [\n    \"-1/3\",\n    \"2/3\",\n    \"2/3\"\n  ],\n  \"checks\": [\n    \"background_kasner_sum\",\n    \"background_kasner_square_sum\",\n    \"root_12_left\",\n    \"root_12_right\",\n    \"real_roots_12\",\n    \"distinct_roots_12\",\n    \"root_13_left\",\n    \"root_13_right\",\n    \"real_roots_13\",\n    \"distinct_roots_13\",\n    \"root_23_left\",\n    \"root_23_right\",\n    \"real_roots_23\",\n    \"repeated_root_23\",\n    \"log_solution_exact_23\",\n    \"six_complete_offdiagonal_integration_constants\",\n    \"full_cover_image_rank_eight\",\n    \"offdiagonal_cover_image_rank_five\",\n    \"cover_map_kernel_contains_transverse_rotation\",\n    \"cover_map_kernel_exactly_one_dimensional\",\n    \"affine_jump_nonzero_01\",\n    \"affine_jump_nonzero_10\",\n    \"affine_jump_nonzero_02\",\n    \"affine_jump_nonzero_20\",\n    \"affine_jump_nonzero_12\",\n    \"five_nonperiodic_offdiagonal_cover_generators\",\n    \"transverse_tidal_witness_exact\",\n    \"transverse_tidal_witness_nonzero\",\n    \"transverse_tidal_eigenvalue_discriminant_positive\",\n    \"offdiagonal_dimension_partition\",\n    \"combined_quotient_lattice_dimension_eight\",\n    \"combined_homogeneous_dimension_twelve\",\n    \"transverse_background_degeneracy\"\n  ],\n  \"combined_g325_g326_dimensions\": {\n    \"connected_scalar_curvature\": 1,\n    \"fixed_quotient_lattice_moduli\": 8,\n    \"local_kasner_shear_components\": 2,\n    \"residual_time_translation_gauge\": 1,\n    \"total_integration_constants\": 12\n  },\n  \"full_homogeneous_synchronous_first_variation_closed_with_g325\": true,\n  \"full_linear_stability_proved\": false,\n  \"general_solutions\": {\n    \"12\": [\n      \"T^-2/3\",\n      \"T^4/3\"\n    ],\n    \"13\": [\n      \"T^-2/3\",\n      \"T^4/3\"\n    ],\n    \"23\": [\n      \"T^4/3\",\n      \"T^4/3*log(T/Tref)\"\n    ]\n  },\n  \"inhomogeneous_modes_classified\": false,\n  \"kernel_changed\": false,\n  \"landing\": \"HOMOGENEOUS_OFFDIAGONAL_MODES_CLOSE_AS_FIVE_QUOTIENT_LATTICE_MODULI__ONE_LOCAL_TRANSVERSE_KASNER_SHEAR__NO_NEW_GAUGE_OR_SCALAR_MODE__NO_FULL_STABILITY_CLAIM\",\n  \"linearized_scalar_curvature\": \"0\",\n  \"metric_changed\": false,\n  \"mode_dimensions\": {\n    \"connected_scalar_curvature\": 0,\n    \"fixed_quotient_lattice_moduli\": 5,\n    \"local_transverse_kasner_shear\": 1,\n    \"quotient_legal_gauge\": 0\n  },\n  \"nonlinear_stability_proved\": false,\n  \"offdiagonal_ode\": \"k_ij''+[1-2*(p_i+p_j)]*k_ij'/T+4*p_i*p_j*k_ij/T^2=0\",\n  \"physical_occupancy_selected\": false,\n  \"physical_scale_selected\": false,\n  \"python_version\": \"3.10.12 (main, Aug 31 2026, 10:18:17) [GCC 11.4.0]\",\n  \"schema\": \"udt-g326-homogeneous-offdiagonal-production-v1\",\n  \"status\": \"INTERNAL_VERIFIED_PENDING_EXTERNAL_REVIEW\",\n  \"transverse_tidal_witness\": \"delta(E^y_z)=delta(E^z_y)=-q_cross/(3*T^2)\"\n}\n"
+    },
+    {
+      "argv": [
+        "python3",
+        "-S",
+        "verify_offdiagonal_independent.py",
+        "--output",
+        ".review_runtime/INDEPENDENT_VERIFICATION.json"
+      ],
+      "cwd": "/tmp/review_g326_afk__2ml/package",
+      "elapsed_seconds": 0.05758385400986299,
+      "extra_env": {},
+      "returncode": 0,
+      "stderr": "",
+      "stdout": "{\n  \"assertion_count\": 137,\n  \"checks\": [\n    \"direct_tracefree_zero:xy_x:0:0\",\n    \"direct_tracefree_zero:xy_x:0:1\",\n    \"direct_tracefree_zero:xy_x:0:2\",\n    \"direct_tracefree_zero:xy_x:0:3\",\n    \"direct_tracefree_zero:xy_x:1:0\",\n    \"direct_tracefree_zero:xy_x:1:1\",\n    \"direct_tracefree_zero:xy_x:1:2\",\n    \"direct_tracefree_zero:xy_x:1:3\",\n    \"direct_tracefree_zero:xy_x:2:0\",\n    \"direct_tracefree_zero:xy_x:2:1\",\n    \"direct_tracefree_zero:xy_x:2:2\",\n    \"direct_tracefree_zero:xy_x:2:3\",\n    \"direct_tracefree_zero:xy_x:3:0\",\n    \"direct_tracefree_zero:xy_x:3:1\",\n    \"direct_tracefree_zero:xy_x:3:2\",\n    \"direct_tracefree_zero:xy_x:3:3\",\n    \"direct_scalar_zero:xy_x\",\n    \"direct_momentum_zero:xy_x:1\",\n    \"direct_momentum_zero:xy_x:2\",\n    \"direct_momentum_zero:xy_x:3\",\n    \"direct_tracefree_zero:xy_y:0:0\",\n    \"direct_tracefree_zero:xy_y:0:1\",\n    \"direct_tracefree_zero:xy_y:0:2\",\n    \"direct_tracefree_zero:xy_y:0:3\",\n    \"direct_tracefree_zero:xy_y:1:0\",\n    \"direct_tracefree_zero:xy_y:1:1\",\n    \"direct_tracefree_zero:xy_y:1:2\",\n    \"direct_tracefree_zero:xy_y:1:3\",\n    \"direct_tracefree_zero:xy_y:2:0\",\n    \"direct_tracefree_zero:xy_y:2:1\",\n    \"direct_tracefree_zero:xy_y:2:2\",\n    \"direct_tracefree_zero:xy_y:2:3\",\n    \"direct_tracefree_zero:xy_y:3:0\",\n    \"direct_tracefree_zero:xy_y:3:1\",\n    \"direct_tracefree_zero:xy_y:3:2\",\n    \"direct_tracefree_zero:xy_y:3:3\",\n    \"direct_scalar_zero:xy_y\",\n    \"direct_momentum_zero:xy_y:1\",\n    \"direct_momentum_zero:xy_y:2\",\n    \"direct_momentum_zero:xy_y:3\",\n    \"direct_tracefree_zero:xz_x:0:0\",\n    \"direct_tracefree_zero:xz_x:0:1\",\n    \"direct_tracefree_zero:xz_x:0:2\",\n    \"direct_tracefree_zero:xz_x:0:3\",\n    \"direct_tracefree_zero:xz_x:1:0\",\n    \"direct_tracefree_zero:xz_x:1:1\",\n    \"direct_tracefree_zero:xz_x:1:2\",\n    \"direct_tracefree_zero:xz_x:1:3\",\n    \"direct_tracefree_zero:xz_x:2:0\",\n    \"direct_tracefree_zero:xz_x:2:1\",\n    \"direct_tracefree_zero:xz_x:2:2\",\n    \"direct_tracefree_zero:xz_x:2:3\",\n    \"direct_tracefree_zero:xz_x:3:0\",\n    \"direct_tracefree_zero:xz_x:3:1\",\n    \"direct_tracefree_zero:xz_x:3:2\",\n    \"direct_tracefree_zero:xz_x:3:3\",\n    \"direct_scalar_zero:xz_x\",\n    \"direct_momentum_zero:xz_x:1\",\n    \"direct_momentum_zero:xz_x:2\",\n    \"direct_momentum_zero:xz_x:3\",\n    \"direct_tracefree_zero:xz_z:0:0\",\n    \"direct_tracefree_zero:xz_z:0:1\",\n    \"direct_tracefree_zero:xz_z:0:2\",\n    \"direct_tracefree_zero:xz_z:0:3\",\n    \"direct_tracefree_zero:xz_z:1:0\",\n    \"direct_tracefree_zero:xz_z:1:1\",\n    \"direct_tracefree_zero:xz_z:1:2\",\n    \"direct_tracefree_zero:xz_z:1:3\",\n    \"direct_tracefree_zero:xz_z:2:0\",\n    \"direct_tracefree_zero:xz_z:2:1\",\n    \"direct_tracefree_zero:xz_z:2:2\",\n    \"direct_tracefree_zero:xz_z:2:3\",\n    \"direct_tracefree_zero:xz_z:3:0\",\n    \"direct_tracefree_zero:xz_z:3:1\",\n    \"direct_tracefree_zero:xz_z:3:2\",\n    \"direct_tracefree_zero:xz_z:3:3\",\n    \"direct_scalar_zero:xz_z\",\n    \"direct_momentum_zero:xz_z:1\",\n    \"direct_momentum_zero:xz_z:2\",\n    \"direct_momentum_zero:xz_z:3\",\n    \"direct_tracefree_zero:yz_lattice:0:0\",\n    \"direct_tracefree_zero:yz_lattice:0:1\",\n    \"direct_tracefree_zero:yz_lattice:0:2\",\n    \"direct_tracefree_zero:yz_lattice:0:3\",\n    \"direct_tracefree_zero:yz_lattice:1:0\",\n    \"direct_tracefree_zero:yz_lattice:1:1\",\n    \"direct_tracefree_zero:yz_lattice:1:2\",\n    \"direct_tracefree_zero:yz_lattice:1:3\",\n    \"direct_tracefree_zero:yz_lattice:2:0\",\n    \"direct_tracefree_zero:yz_lattice:2:1\",\n    \"direct_tracefree_zero:yz_lattice:2:2\",\n    \"direct_tracefree_zero:yz_lattice:2:3\",\n    \"direct_tracefree_zero:yz_lattice:3:0\",\n    \"direct_tracefree_zero:yz_lattice:3:1\",\n    \"direct_tracefree_zero:yz_lattice:3:2\",\n    \"direct_tracefree_zero:yz_lattice:3:3\",\n    \"direct_scalar_zero:yz_lattice\",\n    \"direct_momentum_zero:yz_lattice:1\",\n    \"direct_momentum_zero:yz_lattice:2\",\n    \"direct_momentum_zero:yz_lattice:3\",\n    \"direct_tracefree_zero:yz_shear:0:0\",\n    \"direct_tracefree_zero:yz_shear:0:1\",\n    \"direct_tracefree_zero:yz_shear:0:2\",\n    \"direct_tracefree_zero:yz_shear:0:3\",\n    \"direct_tracefree_zero:yz_shear:1:0\",\n    \"direct_tracefree_zero:yz_shear:1:1\",\n    \"direct_tracefree_zero:yz_shear:1:2\",\n    \"direct_tracefree_zero:yz_shear:1:3\",\n    \"direct_tracefree_zero:yz_shear:2:0\",\n    \"direct_tracefree_zero:yz_shear:2:1\",\n    \"direct_tracefree_zero:yz_shear:2:2\",\n    \"direct_tracefree_zero:yz_shear:2:3\",\n    \"direct_tracefree_zero:yz_shear:3:0\",\n    \"direct_tracefree_zero:yz_shear:3:1\",\n    \"direct_tracefree_zero:yz_shear:3:2\",\n    \"direct_tracefree_zero:yz_shear:3:3\",\n    \"direct_scalar_zero:yz_shear\",\n    \"direct_momentum_zero:yz_shear:1\",\n    \"direct_momentum_zero:yz_shear:2\",\n    \"direct_momentum_zero:yz_shear:3\",\n    \"direct_cover_lie_metric:xy_x\",\n    \"direct_cover_generator_nonperiodic:xy_x\",\n    \"direct_cover_lie_metric:xy_y\",\n    \"direct_cover_generator_nonperiodic:xy_y\",\n    \"direct_cover_lie_metric:xz_x\",\n    \"direct_cover_generator_nonperiodic:xz_x\",\n    \"direct_cover_lie_metric:xz_z\",\n    \"direct_cover_generator_nonperiodic:xz_z\",\n    \"direct_cover_lie_metric:yz_lattice\",\n    \"direct_cover_generator_nonperiodic:yz_lattice\",\n    \"direct_transverse_lattice_no_tidal_split\",\n    \"direct_transverse_shear_tidal_yz\",\n    \"direct_transverse_shear_tidal_zy\",\n    \"independent_full_lattice_image_dimension_eight\",\n    \"independent_offdiagonal_lattice_dimension_five\",\n    \"independent_transverse_rotation_kernel_dimension_one\",\n    \"independent_combined_homogeneous_count_twelve\"\n  ],\n  \"combined_homogeneous_integration_constants\": 12,\n  \"direct_tensor_modes\": [\n    \"xy_x\",\n    \"xy_y\",\n    \"xz_x\",\n    \"xz_z\",\n    \"yz_lattice\",\n    \"yz_shear\"\n  ],\n  \"linearized_scalar_curvature\": \"0\",\n  \"offdiagonal_lattice_dimension\": 5,\n  \"offdiagonal_local_shear_dimension\": 1,\n  \"production_imported\": false,\n  \"production_result_read\": false,\n  \"python_version\": \"3.10.12 (main, Aug 31 2026, 10:18:17) [GCC 11.4.0]\",\n  \"schema\": \"udt-g326-homogeneous-offdiagonal-independent-v1\",\n  \"status\": \"PASS\",\n  \"transverse_lattice_mixed_tidal\": {},\n  \"transverse_shear_mixed_tidal\": {\n    \"T^-2*log^0\": \"-1/3\"\n  }\n}\n"
+    },
+    {
+      "argv": [
+        "python3",
+        "-S",
+        "run_catch_proofs.py",
+        "--output",
+        ".review_runtime/CATCH_PROOF_RESULT.json"
+      ],
+      "cwd": "/tmp/review_g326_afk__2ml/package",
+      "elapsed_seconds": 0.01593632303411141,
+      "extra_env": {},
+      "returncode": 0,
+      "stderr": "",
+      "stdout": "{\n  \"assertion_count\": 5,\n  \"controls\": [\n    \"wrong_ode_coefficient_caught\",\n    \"dropped_repeated_root_log_mode_caught\",\n    \"false_torus_periodicity_caught\",\n    \"fake_curvature_free_log_mode_caught\",\n    \"wrong_combined_dimension_caught\"\n  ],\n  \"schema\": \"udt-g326-catch-proofs-v1\",\n  \"status\": \"PASS\"\n}\n"
+    },
+    {
+      "argv": [
+        "python3",
+        "-B",
+        "-S",
+        "verify_package.py"
+      ],
+      "cwd": "/tmp/review_g326_afk__2ml/package",
+      "elapsed_seconds": 0.04376819997560233,
+      "extra_env": {},
+      "returncode": 1,
+      "stderr": "Traceback (most recent call last):\n  File \"/tmp/review_g326_afk__2ml/package/verify_package.py\", line 232, in <module>\n    main()\n  File \"/tmp/review_g326_afk__2ml/package/verify_package.py\", line 189, in main\n    gate(load(generated) == load(package / artifact), f\"replay_exact:{artifact}\")\n  File \"/tmp/review_g326_afk__2ml/package/verify_package.py\", line 65, in gate\n    assert condition, name\nAssertionError: replay_exact:DERIVATION_RESULT.json\n",
+      "stdout": ""
+    },
+    {
+      "argv": [
+        "python3",
+        "-B",
+        "-S",
+        "verify_package.py"
+      ],
+      "cwd": "/tmp/review_g326_afk__2ml/package",
+      "elapsed_seconds": 0.1937218820094131,
+      "extra_env": {},
+      "returncode": 0,
+      "stderr": "",
+      "stdout": "{\n  \"assertion_count\": 57,\n  \"checks\": [\n    \"production_landing\",\n    \"production_assertion_count\",\n    \"independent_assertion_count\",\n    \"hostile_assertion_count\",\n    \"exact_offdiagonal_dimensions\",\n    \"exact_combined_dimensions\",\n    \"complete_solution_basis\",\n    \"production_scalar_zero\",\n    \"independent_scalar_zero\",\n    \"independent_lattice_tidal_zero\",\n    \"independent_shear_tidal_witness\",\n    \"independent_lattice_dimension\",\n    \"independent_shear_dimension\",\n    \"independent_combined_count\",\n    \"independent_no_production_import\",\n    \"independent_no_production_result_read\",\n    \"all_hostile_controls\",\n    \"bounded_homogeneous_closure\",\n    \"no_full_linear_overclaim\",\n    \"no_nonlinear_overclaim\",\n    \"inhomogeneous_open\",\n    \"occupancy_open\",\n    \"scale_open\",\n    \"xmax_open\",\n    \"native_objects_unchanged\",\n    \"source_integrity:derive_offdiagonal_modes.py\",\n    \"source_integrity:verify_offdiagonal_independent.py\",\n    \"source_integrity:run_catch_proofs.py\",\n    \"static_no_production_import\",\n    \"static_no_production_from_import\",\n    \"static_no_production_result_read\",\n    \"exact_landing_token\",\n    \"curvature_falsifier_clarified_preproduction\",\n    \"count_not_population\",\n    \"exact_fourier_boundary\",\n    \"lay_stability_boundary\",\n    \"status_external_repairs_accepted\",\n    \"fresh_external_acceptance_token\",\n    \"external_report_acceptance_token\",\n    \"external_repair_acceptance_token\",\n    \"writable_copy_command_registered\",\n    \"writable_permission_command_registered\",\n    \"sealed_intake_remains_read_only\",\n    \"registered_command_count\",\n    \"replay_exit:DERIVATION_RESULT.json\",\n    \"replay_created:DERIVATION_RESULT.json\",\n    \"replay_scientific_exact:DERIVATION_RESULT.json\",\n    \"replay_exit:INDEPENDENT_VERIFICATION.json\",\n    \"replay_created:INDEPENDENT_VERIFICATION.json\",\n    \"replay_scientific_exact:INDEPENDENT_VERIFICATION.json\",\n    \"replay_exit:CATCH_PROOF_RESULT.json\",\n    \"replay_created:CATCH_PROOF_RESULT.json\",\n    \"replay_scientific_exact:CATCH_PROOF_RESULT.json\",\n    \"fourth_command_self\",\n    \"canned_substitution_rejected:derive_offdiagonal_modes.py\",\n    \"canned_substitution_rejected:verify_offdiagonal_independent.py\",\n    \"canned_substitution_rejected:run_catch_proofs.py\"\n  ],\n  \"exact_replay\": false,\n  \"exact_scientific_replay\": true,\n  \"landing\": \"HOMOGENEOUS_OFFDIAGONAL_MODES_CLOSE_AS_FIVE_QUOTIENT_LATTICE_MODULI__ONE_LOCAL_TRANSVERSE_KASNER_SHEAR__NO_NEW_GAUGE_OR_SCALAR_MODE__NO_FULL_STABILITY_CLAIM\",\n  \"python_version\": \"3.10.12 (main, Aug 31 2026, 10:18:17) [GCC 11.4.0]\",\n  \"replay_records\": {\n    \"CATCH_PROOF_RESULT.json\": {\n      \"exact_replay\": true,\n      \"exact_scientific_replay\": true,\n      \"runtime_provenance\": {}\n    },\n    \"DERIVATION_RESULT.json\": {\n      \"exact_replay\": false,\n      \"exact_scientific_replay\": true,\n      \"runtime_provenance\": {\n        \"python_version\": {\n          \"equal\": false,\n          \"replayed\": \"3.10.12 (main, Aug 31 2026, 10:18:17) [GCC 11.4.0]\",\n          \"saved\": \"3.10.12 (main, Jun 22 2026, 18:55:27) [GCC 11.4.0]\"\n        }\n      }\n    },\n    \"INDEPENDENT_VERIFICATION.json\": {\n      \"exact_replay\": false,\n      \"exact_scientific_replay\": true,\n      \"runtime_provenance\": {\n        \"python_version\": {\n          \"equal\": false,\n          \"replayed\": \"3.10.12 (main, Aug 31 2026, 10:18:17) [GCC 11.4.0]\",\n          \"saved\": \"3.10.12 (main, Jun 22 2026, 18:55:27) [GCC 11.4.0]\"\n        }\n      }\n    }\n  },\n  \"schema\": \"udt-g326-package-verification-v2\",\n  \"status\": \"PASS_EXTERNAL_G326_REPAIRS_ACCEPTED\"\n}\n"
+    },
+    {
+      "argv": [
+        "python3",
+        "-B",
+        "-S",
+        "verify_package.py"
+      ],
+      "cwd": "/tmp/review_g326_afk__2ml/package",
+      "elapsed_seconds": 0.042673452000599355,
+      "extra_env": {},
+      "returncode": 1,
+      "stderr": "Traceback (most recent call last):\n  File \"/tmp/review_g326_afk__2ml/package/verify_package.py\", line 266, in <module>\n    main()\n  File \"/tmp/review_g326_afk__2ml/package/verify_package.py\", line 220, in main\n    gate(comparison[\"exact_scientific_replay\"], f\"replay_scientific_exact:{artifact}\")\n  File \"/tmp/review_g326_afk__2ml/package/verify_package.py\", line 91, in gate\n    raise AssertionError(name)\nAssertionError: replay_scientific_exact:DERIVATION_RESULT.json\n",
+      "stdout": ""
+    },
+    {
+      "argv": [
+        "python3",
+        "-B",
+        "-S",
+        "verify_package.py"
+      ],
+      "cwd": "/tmp/review_g326_afk__2ml/package",
+      "elapsed_seconds": 0.041736749990377575,
+      "extra_env": {},
+      "returncode": 1,
+      "stderr": "Traceback (most recent call last):\n  File \"/tmp/review_g326_afk__2ml/package/verify_package.py\", line 266, in <module>\n    main()\n  File \"/tmp/review_g326_afk__2ml/package/verify_package.py\", line 220, in main\n    gate(comparison[\"exact_scientific_replay\"], f\"replay_scientific_exact:{artifact}\")\n  File \"/tmp/review_g326_afk__2ml/package/verify_package.py\", line 91, in gate\n    raise AssertionError(name)\nAssertionError: replay_scientific_exact:DERIVATION_RESULT.json\n",
+      "stdout": ""
+    },
+    {
+      "argv": [
+        "python3",
+        "-B",
+        "-S",
+        "verify_package.py"
+      ],
+      "cwd": "/tmp/review_g326_afk__2ml/package",
+      "elapsed_seconds": 0.04300307296216488,
+      "extra_env": {},
+      "returncode": 1,
+      "stderr": "Traceback (most recent call last):\n  File \"/tmp/review_g326_afk__2ml/package/verify_package.py\", line 266, in <module>\n    main()\n  File \"/tmp/review_g326_afk__2ml/package/verify_package.py\", line 220, in main\n    gate(comparison[\"exact_scientific_replay\"], f\"replay_scientific_exact:{artifact}\")\n  File \"/tmp/review_g326_afk__2ml/package/verify_package.py\", line 91, in gate\n    raise AssertionError(name)\nAssertionError: replay_scientific_exact:DERIVATION_RESULT.json\n",
+      "stdout": ""
+    },
+    {
+      "argv": [
+        "python3",
+        "-B",
+        "-S",
+        "verify_package.py"
+      ],
+      "cwd": "/tmp/review_g326_afk__2ml/package",
+      "elapsed_seconds": 0.0383340020198375,
+      "extra_env": {},
+      "returncode": 1,
+      "stderr": "Traceback (most recent call last):\n  File \"/tmp/review_g326_afk__2ml/package/verify_package.py\", line 266, in <module>\n    main()\n  File \"/tmp/review_g326_afk__2ml/package/verify_package.py\", line 218, in main\n    comparison = compare_replay(load(package / artifact), load(generated),\n  File \"/tmp/review_g326_afk__2ml/package/verify_package.py\", line 43, in compare_replay\n    raise ValueError(f\"{label}: missing or invalid runtime field {key}\")\nValueError: saved: missing or invalid runtime field python_version\n",
+      "stdout": ""
+    },
+    {
+      "argv": [
+        "python3",
+        "-B",
+        "-S",
+        "verify_package.py"
+      ],
+      "cwd": "/tmp/review_g326_afk__2ml/package",
+      "elapsed_seconds": 0.038921584957279265,
+      "extra_env": {},
+      "returncode": 1,
+      "stderr": "Traceback (most recent call last):\n  File \"/tmp/review_g326_afk__2ml/package/verify_package.py\", line 266, in <module>\n    main()\n  File \"/tmp/review_g326_afk__2ml/package/verify_package.py\", line 218, in main\n    comparison = compare_replay(load(package / artifact), load(generated),\n  File \"/tmp/review_g326_afk__2ml/package/verify_package.py\", line 43, in compare_replay\n    raise ValueError(f\"{label}: missing or invalid runtime field {key}\")\nValueError: saved: missing or invalid runtime field python_version\n",
+      "stdout": ""
+    },
+    {
+      "argv": [
+        "python3",
+        "-B",
+        "-S",
+        "verify_package.py"
+      ],
+      "cwd": "/tmp/review_g326_afk__2ml/package",
+      "elapsed_seconds": 0.09505657700356096,
+      "extra_env": {},
+      "returncode": 1,
+      "stderr": "Traceback (most recent call last):\n  File \"/tmp/review_g326_afk__2ml/package/verify_package.py\", line 266, in <module>\n    main()\n  File \"/tmp/review_g326_afk__2ml/package/verify_package.py\", line 220, in main\n    gate(comparison[\"exact_scientific_replay\"], f\"replay_scientific_exact:{artifact}\")\n  File \"/tmp/review_g326_afk__2ml/package/verify_package.py\", line 91, in gate\n    raise AssertionError(name)\nAssertionError: replay_scientific_exact:INDEPENDENT_VERIFICATION.json\n",
+      "stdout": ""
+    },
+    {
+      "argv": [
+        "python3",
+        "-B",
+        "-S",
+        "verify_package.py"
+      ],
+      "cwd": "/tmp/review_g326_afk__2ml/package",
+      "elapsed_seconds": 0.09888123796554282,
+      "extra_env": {},
+      "returncode": 1,
+      "stderr": "Traceback (most recent call last):\n  File \"/tmp/review_g326_afk__2ml/package/verify_package.py\", line 266, in <module>\n    main()\n  File \"/tmp/review_g326_afk__2ml/package/verify_package.py\", line 220, in main\n    gate(comparison[\"exact_scientific_replay\"], f\"replay_scientific_exact:{artifact}\")\n  File \"/tmp/review_g326_afk__2ml/package/verify_package.py\", line 91, in gate\n    raise AssertionError(name)\nAssertionError: replay_scientific_exact:INDEPENDENT_VERIFICATION.json\n",
+      "stdout": ""
+    },
+    {
+      "argv": [
+        "python3",
+        "-B",
+        "-S",
+        "verify_package.py"
+      ],
+      "cwd": "/tmp/review_g326_afk__2ml/package",
+      "elapsed_seconds": 0.11510736698983237,
+      "extra_env": {},
+      "returncode": 1,
+      "stderr": "Traceback (most recent call last):\n  File \"/tmp/review_g326_afk__2ml/package/verify_package.py\", line 266, in <module>\n    main()\n  File \"/tmp/review_g326_afk__2ml/package/verify_package.py\", line 218, in main\n    comparison = compare_replay(load(package / artifact), load(generated),\n  File \"/tmp/review_g326_afk__2ml/package/verify_package.py\", line 43, in compare_replay\n    raise ValueError(f\"{label}: missing or invalid runtime field {key}\")\nValueError: saved: missing or invalid runtime field python_version\n",
+      "stdout": ""
+    },
+    {
+      "argv": [
+        "python3",
+        "-B",
+        "-S",
+        "verify_package.py"
+      ],
+      "cwd": "/tmp/review_g326_afk__2ml/package",
+      "elapsed_seconds": 0.12059005396440625,
+      "extra_env": {},
+      "returncode": 1,
+      "stderr": "Traceback (most recent call last):\n  File \"/tmp/review_g326_afk__2ml/package/verify_package.py\", line 266, in <module>\n    main()\n  File \"/tmp/review_g326_afk__2ml/package/verify_package.py\", line 220, in main\n    gate(comparison[\"exact_scientific_replay\"], f\"replay_scientific_exact:{artifact}\")\n  File \"/tmp/review_g326_afk__2ml/package/verify_package.py\", line 91, in gate\n    raise AssertionError(name)\nAssertionError: replay_scientific_exact:CATCH_PROOF_RESULT.json\n",
+      "stdout": ""
+    },
+    {
+      "argv": [
+        "python3",
+        "-B",
+        "-S",
+        "verify_package.py"
+      ],
+      "cwd": "/tmp/review_g326_afk__2ml/package",
+      "elapsed_seconds": 0.11396152398083359,
+      "extra_env": {},
+      "returncode": 1,
+      "stderr": "Traceback (most recent call last):\n  File \"/tmp/review_g326_afk__2ml/package/verify_package.py\", line 266, in <module>\n    main()\n  File \"/tmp/review_g326_afk__2ml/package/verify_package.py\", line 220, in main\n    gate(comparison[\"exact_scientific_replay\"], f\"replay_scientific_exact:{artifact}\")\n  File \"/tmp/review_g326_afk__2ml/package/verify_package.py\", line 91, in gate\n    raise AssertionError(name)\nAssertionError: replay_scientific_exact:CATCH_PROOF_RESULT.json\n",
+      "stdout": ""
+    },
+    {
+      "argv": [
+        "python3",
+        "-B",
+        "-S",
+        "-O",
+        "verify_package.py"
+      ],
+      "cwd": "/tmp/review_g326_afk__2ml/package",
+      "elapsed_seconds": 0.08188572101062164,
+      "extra_env": {},
+      "returncode": 1,
+      "stderr": "Traceback (most recent call last):\n  File \"/tmp/review_g326_afk__2ml/package/verify_package.py\", line 266, in <module>\n    main()\n  File \"/tmp/review_g326_afk__2ml/package/verify_package.py\", line 82, in main\n    raise RuntimeError(\"G326 replay requires assertions enabled; do not use -O\")\nRuntimeError: G326 replay requires assertions enabled; do not use -O\n",
+      "stdout": ""
+    },
+    {
+      "argv": [
+        "python3",
+        "-B",
+        "-S",
+        "-OO",
+        "verify_package.py"
+      ],
+      "cwd": "/tmp/review_g326_afk__2ml/package",
+      "elapsed_seconds": 0.07940394198521972,
+      "extra_env": {},
+      "returncode": 1,
+      "stderr": "Traceback (most recent call last):\n  File \"/tmp/review_g326_afk__2ml/package/verify_package.py\", line 266, in <module>\n    main()\n  File \"/tmp/review_g326_afk__2ml/package/verify_package.py\", line 82, in main\n    raise RuntimeError(\"G326 replay requires assertions enabled; do not use -O\")\nRuntimeError: G326 replay requires assertions enabled; do not use -O\n",
+      "stdout": ""
+    },
+    {
+      "argv": [
+        "python3",
+        "-B",
+        "-S",
+        "verify_package.py"
+      ],
+      "cwd": "/tmp/review_g326_afk__2ml/package",
+      "elapsed_seconds": 0.08516728394897655,
+      "extra_env": {
+        "PYTHONOPTIMIZE": "1"
+      },
+      "returncode": 1,
+      "stderr": "Traceback (most recent call last):\n  File \"/tmp/review_g326_afk__2ml/package/verify_package.py\", line 266, in <module>\n    main()\n  File \"/tmp/review_g326_afk__2ml/package/verify_package.py\", line 82, in main\n    raise RuntimeError(\"G326 replay requires assertions enabled; do not use -O\")\nRuntimeError: G326 replay requires assertions enabled; do not use -O\n",
+      "stdout": ""
+    }
+  ],
+  "harness_sha256": "ba320cac9eeb4e9ad42f027b41cb0c013de86a99aad0906770464f24609997c6",
+  "helper_case_count": 352,
+  "helper_coverage": {
+    "CATCH_PROOF_RESULT.json": 17,
+    "DERIVATION_RESULT.json": 135,
+    "INDEPENDENT_VERIFICATION.json": 193
+  },
+  "original_package_files_after": [
+    {
+      "baseline_sha256": "4c6c5966ddc140cc2a3b44ee34b4ed38a443d791d2b9fec2ca45add68d22d982",
+      "current_sha256": "4c6c5966ddc140cc2a3b44ee34b4ed38a443d791d2b9fec2ca45add68d22d982",
+      "path": "udt_g326_g324_homogeneous_offdiagonal_linear_modes_2026-09-02/ADVERSARIAL_REVIEW_REQUEST.md",
+      "unchanged": true
+    },
+    {
+      "baseline_sha256": "345e35355974b850d1d91ef65de570dc8409a71c56cb7d308be05ea1782951a5",
+      "current_sha256": "345e35355974b850d1d91ef65de570dc8409a71c56cb7d308be05ea1782951a5",
+      "path": "udt_g326_g324_homogeneous_offdiagonal_linear_modes_2026-09-02/AUDIT_REPORT.md",
+      "unchanged": true
+    },
+    {
+      "baseline_sha256": "3f31d3ede44933831a3a946c0e8610a3089865d0630f438f06c43605f92e80fa",
+      "current_sha256": "3f31d3ede44933831a3a946c0e8610a3089865d0630f438f06c43605f92e80fa",
+      "path": "udt_g326_g324_homogeneous_offdiagonal_linear_modes_2026-09-02/CATCH_PROOF_RESULT.json",
+      "unchanged": true
+    },
+    {
+      "baseline_sha256": "7c1d9ddc35743cdf8c51ccfacfb2e79c8f09e7eccfa041aa7fd131aed9886173",
+      "current_sha256": "7c1d9ddc35743cdf8c51ccfacfb2e79c8f09e7eccfa041aa7fd131aed9886173",
+      "path": "udt_g326_g324_homogeneous_offdiagonal_linear_modes_2026-09-02/COMPLETENESS_MAP.md",
+      "unchanged": true
+    },
+    {
+      "baseline_sha256": "6babb0ea591c57ab7a554d51dad73b6dbeafad26d1b66094c489df235eb17f12",
+      "current_sha256": "6babb0ea591c57ab7a554d51dad73b6dbeafad26d1b66094c489df235eb17f12",
+      "path": "udt_g326_g324_homogeneous_offdiagonal_linear_modes_2026-09-02/DERIVATION_RESULT.json",
+      "unchanged": true
+    },
+    {
+      "baseline_sha256": "f063cf813a9f4c461d25a50d6f2648cc372896eaf40ced787a09b6afa783395f",
+      "current_sha256": "f063cf813a9f4c461d25a50d6f2648cc372896eaf40ced787a09b6afa783395f",
+      "path": "udt_g326_g324_homogeneous_offdiagonal_linear_modes_2026-09-02/EVIDENCE_GATES.md",
+      "unchanged": true
+    },
+    {
+      "baseline_sha256": "e2a986473cbef35ae69097c2642324a91e1053b4f028e65f3bece0320540a81e",
+      "current_sha256": "e2a986473cbef35ae69097c2642324a91e1053b4f028e65f3bece0320540a81e",
+      "path": "udt_g326_g324_homogeneous_offdiagonal_linear_modes_2026-09-02/EXACT_DERIVATION.md",
+      "unchanged": true
+    },
+    {
+      "baseline_sha256": "7bb9e3454bfb0c07b781016fbc4359b9570a3d17e2c2432cdd2f4b1f82699c69",
+      "current_sha256": "7bb9e3454bfb0c07b781016fbc4359b9570a3d17e2c2432cdd2f4b1f82699c69",
+      "path": "udt_g326_g324_homogeneous_offdiagonal_linear_modes_2026-09-02/EXTERNAL_REPAIR_FOLLOWUP_FINAL_RESPONSE.md",
+      "unchanged": true
+    },
+    {
+      "baseline_sha256": "a1b2b4dad93ac24c5815c69f25adac49f1e05ecae84dd925fd33eaa4aecd8dd2",
+      "current_sha256": "a1b2b4dad93ac24c5815c69f25adac49f1e05ecae84dd925fd33eaa4aecd8dd2",
+      "path": "udt_g326_g324_homogeneous_offdiagonal_linear_modes_2026-09-02/EXTERNAL_REPAIR_FOLLOWUP_RESPONSE.md",
+      "unchanged": true
+    },
+    {
+      "baseline_sha256": "7b770cb1fe40051f8b0781281196c92e4c37e73433cfa1f25e3b226f3ada3921",
+      "current_sha256": "7b770cb1fe40051f8b0781281196c92e4c37e73433cfa1f25e3b226f3ada3921",
+      "path": "udt_g326_g324_homogeneous_offdiagonal_linear_modes_2026-09-02/EXTERNAL_REPAIR_FOLLOWUP_TRANSCRIPT.txt",
+      "unchanged": true
+    },
+    {
+      "baseline_sha256": "442c34b6dd65f47e339be1022d719a62111cb712a40102de64357a837a961a73",
+      "current_sha256": "442c34b6dd65f47e339be1022d719a62111cb712a40102de64357a837a961a73",
+      "path": "udt_g326_g324_homogeneous_offdiagonal_linear_modes_2026-09-02/EXTERNAL_REVIEW_FINAL_RESPONSE.md",
+      "unchanged": true
+    },
+    {
+      "baseline_sha256": "ecb692358b65dab95314ad4eb6d0b741c3d006c4099a6b007696bb7da16de14c",
+      "current_sha256": "ecb692358b65dab95314ad4eb6d0b741c3d006c4099a6b007696bb7da16de14c",
+      "path": "udt_g326_g324_homogeneous_offdiagonal_linear_modes_2026-09-02/EXTERNAL_REVIEW_RESPONSE.md",
+      "unchanged": true
+    },
+    {
+      "baseline_sha256": "91bdb44f560b7e027edc8b244ceb8af5e7e879f4f804c30a6da1f2655dcd67d9",
+      "current_sha256": "91bdb44f560b7e027edc8b244ceb8af5e7e879f4f804c30a6da1f2655dcd67d9",
+      "path": "udt_g326_g324_homogeneous_offdiagonal_linear_modes_2026-09-02/EXTERNAL_REVIEW_TRANSCRIPT.txt",
+      "unchanged": true
+    },
+    {
+      "baseline_sha256": "e47d8f0d82d199e66827704b486f4279a42042216fedc1e1178804cdaf0de0d2",
+      "current_sha256": "e47d8f0d82d199e66827704b486f4279a42042216fedc1e1178804cdaf0de0d2",
+      "path": "udt_g326_g324_homogeneous_offdiagonal_linear_modes_2026-09-02/EXTERNAL_REVIEW_TRANSMISSION.md",
+      "unchanged": true
+    },
+    {
+      "baseline_sha256": "0f96adaab2f55d56975bb9e33cb3c6e18dd9a9e4fd951ec3ba6cac936cf97ec6",
+      "current_sha256": "0f96adaab2f55d56975bb9e33cb3c6e18dd9a9e4fd951ec3ba6cac936cf97ec6",
+      "path": "udt_g326_g324_homogeneous_offdiagonal_linear_modes_2026-09-02/INDEPENDENT_VERIFICATION.json",
+      "unchanged": true
+    },
+    {
+      "baseline_sha256": "f01071d8216a8588944d00c4021b4ea56ebaaac9254e2cde16574216813ded70",
+      "current_sha256": "f01071d8216a8588944d00c4021b4ea56ebaaac9254e2cde16574216813ded70",
+      "path": "udt_g326_g324_homogeneous_offdiagonal_linear_modes_2026-09-02/LAY_REPORT.md",
+      "unchanged": true
+    },
+    {
+      "baseline_sha256": "1b0d8c86b36641914bd9a47c8492addf0127571106c467057888c8df1d514eb1",
+      "current_sha256": "1b0d8c86b36641914bd9a47c8492addf0127571106c467057888c8df1d514eb1",
+      "path": "udt_g326_g324_homogeneous_offdiagonal_linear_modes_2026-09-02/MAP.md",
+      "unchanged": true
+    },
+    {
+      "baseline_sha256": "a5806060ed82577947a6a3440453f748dbd307a5a78d5dd75fb871698ae84829",
+      "current_sha256": "a5806060ed82577947a6a3440453f748dbd307a5a78d5dd75fb871698ae84829",
+      "path": "udt_g326_g324_homogeneous_offdiagonal_linear_modes_2026-09-02/PACKAGE_VERIFICATION_RESULT.json",
+      "unchanged": true
+    },
+    {
+      "baseline_sha256": "5a66bff2decbfb01b8c589ed7fa9f586dd2897322e72016bd6148a9577f7811b",
+      "current_sha256": "5a66bff2decbfb01b8c589ed7fa9f586dd2897322e72016bd6148a9577f7811b",
+      "path": "udt_g326_g324_homogeneous_offdiagonal_linear_modes_2026-09-02/PREMISE_LEDGER.tsv",
+      "unchanged": true
+    },
+    {
+      "baseline_sha256": "f00a440ab040366cfd88c5f5d773aa7556f08a2b10273a0342e597936f358731",
+      "current_sha256": "f00a440ab040366cfd88c5f5d773aa7556f08a2b10273a0342e597936f358731",
+      "path": "udt_g326_g324_homogeneous_offdiagonal_linear_modes_2026-09-02/PREREGISTRATION.md",
+      "unchanged": true
+    },
+    {
+      "baseline_sha256": "35399d1450b03c815be86e1131f29102c32889c0d55e561aa4abdf45ed01ef88",
+      "current_sha256": "35399d1450b03c815be86e1131f29102c32889c0d55e561aa4abdf45ed01ef88",
+      "path": "udt_g326_g324_homogeneous_offdiagonal_linear_modes_2026-09-02/PREREGISTRATION_EXECUTION_NOTE.md",
+      "unchanged": true
+    },
+    {
+      "baseline_sha256": "b0caffc2a1936456fa6d46731291a9a90c22d6d8f1fdab6857bc47270478916a",
+      "current_sha256": "b0caffc2a1936456fa6d46731291a9a90c22d6d8f1fdab6857bc47270478916a",
+      "path": "udt_g326_g324_homogeneous_offdiagonal_linear_modes_2026-09-02/REPAIR_FOLLOWUP_REQUEST.md",
+      "unchanged": true
+    },
+    {
+      "baseline_sha256": "148bbc941f377e9ad1e40bd190974c46b387765a0b1482462d2af639473266fe",
+      "current_sha256": "148bbc941f377e9ad1e40bd190974c46b387765a0b1482462d2af639473266fe",
+      "path": "udt_g326_g324_homogeneous_offdiagonal_linear_modes_2026-09-02/REPAIR_FOLLOWUP_TRANSMISSION.md",
+      "unchanged": true
+    },
+    {
+      "baseline_sha256": "c6b38ccdf0ee288cefdc225c2946d84c6b45bb43f6275f913f850306f9a9ae92",
+      "current_sha256": "c6b38ccdf0ee288cefdc225c2946d84c6b45bb43f6275f913f850306f9a9ae92",
+      "path": "udt_g326_g324_homogeneous_offdiagonal_linear_modes_2026-09-02/REPAIR_LEDGER.tsv",
+      "unchanged": true
+    },
+    {
+      "baseline_sha256": "9fab85e62d1e0c1593419701609a0824ac855a3e15baeeef2cb7fe969934dc6e",
+      "current_sha256": "9fab85e62d1e0c1593419701609a0824ac855a3e15baeeef2cb7fe969934dc6e",
+      "path": "udt_g326_g324_homogeneous_offdiagonal_linear_modes_2026-09-02/REPLAY_COMMANDS.txt",
+      "unchanged": true
+    },
+    {
+      "baseline_sha256": "15ba57461ae519919b5ee95c8f2ecb6ca3098747a743fd62e352a6afabd0100f",
+      "current_sha256": "15ba57461ae519919b5ee95c8f2ecb6ca3098747a743fd62e352a6afabd0100f",
+      "path": "udt_g326_g324_homogeneous_offdiagonal_linear_modes_2026-09-02/REPLAY_PRECONDITION.md",
+      "unchanged": true
+    },
+    {
+      "baseline_sha256": "f4a8c75e0ca0813866e6bb9d5db46a1d5b5eacc0bdbc258f1be3a7d47cfc54e6",
+      "current_sha256": "f4a8c75e0ca0813866e6bb9d5db46a1d5b5eacc0bdbc258f1be3a7d47cfc54e6",
+      "path": "udt_g326_g324_homogeneous_offdiagonal_linear_modes_2026-09-02/RUN_RECORD.md",
+      "unchanged": true
+    },
+    {
+      "baseline_sha256": "cef1193f752f6e1e9c03281965f97978c1c4cd342355b7ebce880f3d1ffcf7c0",
+      "current_sha256": "cef1193f752f6e1e9c03281965f97978c1c4cd342355b7ebce880f3d1ffcf7c0",
+      "path": "udt_g326_g324_homogeneous_offdiagonal_linear_modes_2026-09-02/SOURCE_SCOPE.tsv",
+      "unchanged": true
+    },
+    {
+      "baseline_sha256": "1dafca281b860b23ea0ea79cc4c55689767f8529222ef1d2e12cd3d1df1a85c0",
+      "current_sha256": "1dafca281b860b23ea0ea79cc4c55689767f8529222ef1d2e12cd3d1df1a85c0",
+      "path": "udt_g326_g324_homogeneous_offdiagonal_linear_modes_2026-09-02/STATUS_LEDGER.tsv",
+      "unchanged": true
+    },
+    {
+      "baseline_sha256": "d8a77bce715309f589f5367909f2df9442c51717761fa70620d7aef09432d30b",
+      "current_sha256": "d8a77bce715309f589f5367909f2df9442c51717761fa70620d7aef09432d30b",
+      "path": "udt_g326_g324_homogeneous_offdiagonal_linear_modes_2026-09-02/build_repair_followup_intake.py",
+      "unchanged": true
+    },
+    {
+      "baseline_sha256": "cdf0badd6a196a100817f20920c31fe25b809a6f4353276ac667ad09852ce269",
+      "current_sha256": "cdf0badd6a196a100817f20920c31fe25b809a6f4353276ac667ad09852ce269",
+      "path": "udt_g326_g324_homogeneous_offdiagonal_linear_modes_2026-09-02/build_review_intake.py",
+      "unchanged": true
+    },
+    {
+      "baseline_sha256": "8b7e1187544afc4fb8aff070981cdb5317adf3eabfcdf64cc8e40e9c6bd94ec2",
+      "current_sha256": "8b7e1187544afc4fb8aff070981cdb5317adf3eabfcdf64cc8e40e9c6bd94ec2",
+      "path": "udt_g326_g324_homogeneous_offdiagonal_linear_modes_2026-09-02/derive_offdiagonal_modes.py",
+      "unchanged": true
+    },
+    {
+      "baseline_sha256": "b952772adacde64ca9a5414ac412bcae87109a3453310a8a4068c7cbbb08c4cc",
+      "current_sha256": "b952772adacde64ca9a5414ac412bcae87109a3453310a8a4068c7cbbb08c4cc",
+      "path": "udt_g326_g324_homogeneous_offdiagonal_linear_modes_2026-09-02/launch_external_review.sh",
+      "unchanged": true
+    },
+    {
+      "baseline_sha256": "8e14824c910f131999ccf945fbc753eac8aa8d00050298fea578960f2b025add",
+      "current_sha256": "8e14824c910f131999ccf945fbc753eac8aa8d00050298fea578960f2b025add",
+      "path": "udt_g326_g324_homogeneous_offdiagonal_linear_modes_2026-09-02/run_catch_proofs.py",
+      "unchanged": true
+    },
+    {
+      "baseline_sha256": "b108e0d981c89693265d81cbb9590ab87a61fb1665e3240c843fb114de4da5a5",
+      "current_sha256": "b108e0d981c89693265d81cbb9590ab87a61fb1665e3240c843fb114de4da5a5",
+      "path": "udt_g326_g324_homogeneous_offdiagonal_linear_modes_2026-09-02/verify_offdiagonal_independent.py",
+      "unchanged": true
+    },
+    {
+      "baseline_sha256": "4ba456a46bac4101792467a3d07f6f5e13ee2c6d4f2e00d2aead6e5b38ce0fb5",
+      "current_sha256": "8d0e15db5a75f32f6d6cd0da2b1baae3d7fa33d48061043f75fd9bf208ebba9f",
+      "path": "udt_g326_g324_homogeneous_offdiagonal_linear_modes_2026-09-02/verify_package.py",
+      "unchanged": false
+    },
+    {
+      "baseline_sha256": "347d7203c5e08468ce7532abb6f53c0de0ae6362096cd345ccf92bfeceb53bb0",
+      "current_sha256": "347d7203c5e08468ce7532abb6f53c0de0ae6362096cd345ccf92bfeceb53bb0",
+      "path": "udt_g326_g324_homogeneous_offdiagonal_linear_modes_2026-09-02/verify_review_intake.py",
+      "unchanged": true
+    }
+  ],
+  "original_package_files_before": [
+    {
+      "baseline_sha256": "4c6c5966ddc140cc2a3b44ee34b4ed38a443d791d2b9fec2ca45add68d22d982",
+      "current_sha256": "4c6c5966ddc140cc2a3b44ee34b4ed38a443d791d2b9fec2ca45add68d22d982",
+      "path": "udt_g326_g324_homogeneous_offdiagonal_linear_modes_2026-09-02/ADVERSARIAL_REVIEW_REQUEST.md",
+      "unchanged": true
+    },
+    {
+      "baseline_sha256": "345e35355974b850d1d91ef65de570dc8409a71c56cb7d308be05ea1782951a5",
+      "current_sha256": "345e35355974b850d1d91ef65de570dc8409a71c56cb7d308be05ea1782951a5",
+      "path": "udt_g326_g324_homogeneous_offdiagonal_linear_modes_2026-09-02/AUDIT_REPORT.md",
+      "unchanged": true
+    },
+    {
+      "baseline_sha256": "3f31d3ede44933831a3a946c0e8610a3089865d0630f438f06c43605f92e80fa",
+      "current_sha256": "3f31d3ede44933831a3a946c0e8610a3089865d0630f438f06c43605f92e80fa",
+      "path": "udt_g326_g324_homogeneous_offdiagonal_linear_modes_2026-09-02/CATCH_PROOF_RESULT.json",
+      "unchanged": true
+    },
+    {
+      "baseline_sha256": "7c1d9ddc35743cdf8c51ccfacfb2e79c8f09e7eccfa041aa7fd131aed9886173",
+      "current_sha256": "7c1d9ddc35743cdf8c51ccfacfb2e79c8f09e7eccfa041aa7fd131aed9886173",
+      "path": "udt_g326_g324_homogeneous_offdiagonal_linear_modes_2026-09-02/COMPLETENESS_MAP.md",
+      "unchanged": true
+    },
+    {
+      "baseline_sha256": "6babb0ea591c57ab7a554d51dad73b6dbeafad26d1b66094c489df235eb17f12",
+      "current_sha256": "6babb0ea591c57ab7a554d51dad73b6dbeafad26d1b66094c489df235eb17f12",
+      "path": "udt_g326_g324_homogeneous_offdiagonal_linear_modes_2026-09-02/DERIVATION_RESULT.json",
+      "unchanged": true
+    },
+    {
+      "baseline_sha256": "f063cf813a9f4c461d25a50d6f2648cc372896eaf40ced787a09b6afa783395f",
+      "current_sha256": "f063cf813a9f4c461d25a50d6f2648cc372896eaf40ced787a09b6afa783395f",
+      "path": "udt_g326_g324_homogeneous_offdiagonal_linear_modes_2026-09-02/EVIDENCE_GATES.md",
+      "unchanged": true
+    },
+    {
+      "baseline_sha256": "e2a986473cbef35ae69097c2642324a91e1053b4f028e65f3bece0320540a81e",
+      "current_sha256": "e2a986473cbef35ae69097c2642324a91e1053b4f028e65f3bece0320540a81e",
+      "path": "udt_g326_g324_homogeneous_offdiagonal_linear_modes_2026-09-02/EXACT_DERIVATION.md",
+      "unchanged": true
+    },
+    {
+      "baseline_sha256": "7bb9e3454bfb0c07b781016fbc4359b9570a3d17e2c2432cdd2f4b1f82699c69",
+      "current_sha256": "7bb9e3454bfb0c07b781016fbc4359b9570a3d17e2c2432cdd2f4b1f82699c69",
+      "path": "udt_g326_g324_homogeneous_offdiagonal_linear_modes_2026-09-02/EXTERNAL_REPAIR_FOLLOWUP_FINAL_RESPONSE.md",
+      "unchanged": true
+    },
+    {
+      "baseline_sha256": "a1b2b4dad93ac24c5815c69f25adac49f1e05ecae84dd925fd33eaa4aecd8dd2",
+      "current_sha256": "a1b2b4dad93ac24c5815c69f25adac49f1e05ecae84dd925fd33eaa4aecd8dd2",
+      "path": "udt_g326_g324_homogeneous_offdiagonal_linear_modes_2026-09-02/EXTERNAL_REPAIR_FOLLOWUP_RESPONSE.md",
+      "unchanged": true
+    },
+    {
+      "baseline_sha256": "7b770cb1fe40051f8b0781281196c92e4c37e73433cfa1f25e3b226f3ada3921",
+      "current_sha256": "7b770cb1fe40051f8b0781281196c92e4c37e73433cfa1f25e3b226f3ada3921",
+      "path": "udt_g326_g324_homogeneous_offdiagonal_linear_modes_2026-09-02/EXTERNAL_REPAIR_FOLLOWUP_TRANSCRIPT.txt",
+      "unchanged": true
+    },
+    {
+      "baseline_sha256": "442c34b6dd65f47e339be1022d719a62111cb712a40102de64357a837a961a73",
+      "current_sha256": "442c34b6dd65f47e339be1022d719a62111cb712a40102de64357a837a961a73",
+      "path": "udt_g326_g324_homogeneous_offdiagonal_linear_modes_2026-09-02/EXTERNAL_REVIEW_FINAL_RESPONSE.md",
+      "unchanged": true
+    },
+    {
+      "baseline_sha256": "ecb692358b65dab95314ad4eb6d0b741c3d006c4099a6b007696bb7da16de14c",
+      "current_sha256": "ecb692358b65dab95314ad4eb6d0b741c3d006c4099a6b007696bb7da16de14c",
+      "path": "udt_g326_g324_homogeneous_offdiagonal_linear_modes_2026-09-02/EXTERNAL_REVIEW_RESPONSE.md",
+      "unchanged": true
+    },
+    {
+      "baseline_sha256": "91bdb44f560b7e027edc8b244ceb8af5e7e879f4f804c30a6da1f2655dcd67d9",
+      "current_sha256": "91bdb44f560b7e027edc8b244ceb8af5e7e879f4f804c30a6da1f2655dcd67d9",
+      "path": "udt_g326_g324_homogeneous_offdiagonal_linear_modes_2026-09-02/EXTERNAL_REVIEW_TRANSCRIPT.txt",
+      "unchanged": true
+    },
+    {
+      "baseline_sha256": "e47d8f0d82d199e66827704b486f4279a42042216fedc1e1178804cdaf0de0d2",
+      "current_sha256": "e47d8f0d82d199e66827704b486f4279a42042216fedc1e1178804cdaf0de0d2",
+      "path": "udt_g326_g324_homogeneous_offdiagonal_linear_modes_2026-09-02/EXTERNAL_REVIEW_TRANSMISSION.md",
+      "unchanged": true
+    },
+    {
+      "baseline_sha256": "0f96adaab2f55d56975bb9e33cb3c6e18dd9a9e4fd951ec3ba6cac936cf97ec6",
+      "current_sha256": "0f96adaab2f55d56975bb9e33cb3c6e18dd9a9e4fd951ec3ba6cac936cf97ec6",
+      "path": "udt_g326_g324_homogeneous_offdiagonal_linear_modes_2026-09-02/INDEPENDENT_VERIFICATION.json",
+      "unchanged": true
+    },
+    {
+      "baseline_sha256": "f01071d8216a8588944d00c4021b4ea56ebaaac9254e2cde16574216813ded70",
+      "current_sha256": "f01071d8216a8588944d00c4021b4ea56ebaaac9254e2cde16574216813ded70",
+      "path": "udt_g326_g324_homogeneous_offdiagonal_linear_modes_2026-09-02/LAY_REPORT.md",
+      "unchanged": true
+    },
+    {
+      "baseline_sha256": "1b0d8c86b36641914bd9a47c8492addf0127571106c467057888c8df1d514eb1",
+      "current_sha256": "1b0d8c86b36641914bd9a47c8492addf0127571106c467057888c8df1d514eb1",
+      "path": "udt_g326_g324_homogeneous_offdiagonal_linear_modes_2026-09-02/MAP.md",
+      "unchanged": true
+    },
+    {
+      "baseline_sha256": "a5806060ed82577947a6a3440453f748dbd307a5a78d5dd75fb871698ae84829",
+      "current_sha256": "a5806060ed82577947a6a3440453f748dbd307a5a78d5dd75fb871698ae84829",
+      "path": "udt_g326_g324_homogeneous_offdiagonal_linear_modes_2026-09-02/PACKAGE_VERIFICATION_RESULT.json",
+      "unchanged": true
+    },
+    {
+      "baseline_sha256": "5a66bff2decbfb01b8c589ed7fa9f586dd2897322e72016bd6148a9577f7811b",
+      "current_sha256": "5a66bff2decbfb01b8c589ed7fa9f586dd2897322e72016bd6148a9577f7811b",
+      "path": "udt_g326_g324_homogeneous_offdiagonal_linear_modes_2026-09-02/PREMISE_LEDGER.tsv",
+      "unchanged": true
+    },
+    {
+      "baseline_sha256": "f00a440ab040366cfd88c5f5d773aa7556f08a2b10273a0342e597936f358731",
+      "current_sha256": "f00a440ab040366cfd88c5f5d773aa7556f08a2b10273a0342e597936f358731",
+      "path": "udt_g326_g324_homogeneous_offdiagonal_linear_modes_2026-09-02/PREREGISTRATION.md",
+      "unchanged": true
+    },
+    {
+      "baseline_sha256": "35399d1450b03c815be86e1131f29102c32889c0d55e561aa4abdf45ed01ef88",
+      "current_sha256": "35399d1450b03c815be86e1131f29102c32889c0d55e561aa4abdf45ed01ef88",
+      "path": "udt_g326_g324_homogeneous_offdiagonal_linear_modes_2026-09-02/PREREGISTRATION_EXECUTION_NOTE.md",
+      "unchanged": true
+    },
+    {
+      "baseline_sha256": "b0caffc2a1936456fa6d46731291a9a90c22d6d8f1fdab6857bc47270478916a",
+      "current_sha256": "b0caffc2a1936456fa6d46731291a9a90c22d6d8f1fdab6857bc47270478916a",
+      "path": "udt_g326_g324_homogeneous_offdiagonal_linear_modes_2026-09-02/REPAIR_FOLLOWUP_REQUEST.md",
+      "unchanged": true
+    },
+    {
+      "baseline_sha256": "148bbc941f377e9ad1e40bd190974c46b387765a0b1482462d2af639473266fe",
+      "current_sha256": "148bbc941f377e9ad1e40bd190974c46b387765a0b1482462d2af639473266fe",
+      "path": "udt_g326_g324_homogeneous_offdiagonal_linear_modes_2026-09-02/REPAIR_FOLLOWUP_TRANSMISSION.md",
+      "unchanged": true
+    },
+    {
+      "baseline_sha256": "c6b38ccdf0ee288cefdc225c2946d84c6b45bb43f6275f913f850306f9a9ae92",
+      "current_sha256": "c6b38ccdf0ee288cefdc225c2946d84c6b45bb43f6275f913f850306f9a9ae92",
+      "path": "udt_g326_g324_homogeneous_offdiagonal_linear_modes_2026-09-02/REPAIR_LEDGER.tsv",
+      "unchanged": true
+    },
+    {
+      "baseline_sha256": "9fab85e62d1e0c1593419701609a0824ac855a3e15baeeef2cb7fe969934dc6e",
+      "current_sha256": "9fab85e62d1e0c1593419701609a0824ac855a3e15baeeef2cb7fe969934dc6e",
+      "path": "udt_g326_g324_homogeneous_offdiagonal_linear_modes_2026-09-02/REPLAY_COMMANDS.txt",
+      "unchanged": true
+    },
+    {
+      "baseline_sha256": "15ba57461ae519919b5ee95c8f2ecb6ca3098747a743fd62e352a6afabd0100f",
+      "current_sha256": "15ba57461ae519919b5ee95c8f2ecb6ca3098747a743fd62e352a6afabd0100f",
+      "path": "udt_g326_g324_homogeneous_offdiagonal_linear_modes_2026-09-02/REPLAY_PRECONDITION.md",
+      "unchanged": true
+    },
+    {
+      "baseline_sha256": "f4a8c75e0ca0813866e6bb9d5db46a1d5b5eacc0bdbc258f1be3a7d47cfc54e6",
+      "current_sha256": "f4a8c75e0ca0813866e6bb9d5db46a1d5b5eacc0bdbc258f1be3a7d47cfc54e6",
+      "path": "udt_g326_g324_homogeneous_offdiagonal_linear_modes_2026-09-02/RUN_RECORD.md",
+      "unchanged": true
+    },
+    {
+      "baseline_sha256": "cef1193f752f6e1e9c03281965f97978c1c4cd342355b7ebce880f3d1ffcf7c0",
+      "current_sha256": "cef1193f752f6e1e9c03281965f97978c1c4cd342355b7ebce880f3d1ffcf7c0",
+      "path": "udt_g326_g324_homogeneous_offdiagonal_linear_modes_2026-09-02/SOURCE_SCOPE.tsv",
+      "unchanged": true
+    },
+    {
+      "baseline_sha256": "1dafca281b860b23ea0ea79cc4c55689767f8529222ef1d2e12cd3d1df1a85c0",
+      "current_sha256": "1dafca281b860b23ea0ea79cc4c55689767f8529222ef1d2e12cd3d1df1a85c0",
+      "path": "udt_g326_g324_homogeneous_offdiagonal_linear_modes_2026-09-02/STATUS_LEDGER.tsv",
+      "unchanged": true
+    },
+    {
+      "baseline_sha256": "d8a77bce715309f589f5367909f2df9442c51717761fa70620d7aef09432d30b",
+      "current_sha256": "d8a77bce715309f589f5367909f2df9442c51717761fa70620d7aef09432d30b",
+      "path": "udt_g326_g324_homogeneous_offdiagonal_linear_modes_2026-09-02/build_repair_followup_intake.py",
+      "unchanged": true
+    },
+    {
+      "baseline_sha256": "cdf0badd6a196a100817f20920c31fe25b809a6f4353276ac667ad09852ce269",
+      "current_sha256": "cdf0badd6a196a100817f20920c31fe25b809a6f4353276ac667ad09852ce269",
+      "path": "udt_g326_g324_homogeneous_offdiagonal_linear_modes_2026-09-02/build_review_intake.py",
+      "unchanged": true
+    },
+    {
+      "baseline_sha256": "8b7e1187544afc4fb8aff070981cdb5317adf3eabfcdf64cc8e40e9c6bd94ec2",
+      "current_sha256": "8b7e1187544afc4fb8aff070981cdb5317adf3eabfcdf64cc8e40e9c6bd94ec2",
+      "path": "udt_g326_g324_homogeneous_offdiagonal_linear_modes_2026-09-02/derive_offdiagonal_modes.py",
+      "unchanged": true
+    },
+    {
+      "baseline_sha256": "b952772adacde64ca9a5414ac412bcae87109a3453310a8a4068c7cbbb08c4cc",
+      "current_sha256": "b952772adacde64ca9a5414ac412bcae87109a3453310a8a4068c7cbbb08c4cc",
+      "path": "udt_g326_g324_homogeneous_offdiagonal_linear_modes_2026-09-02/launch_external_review.sh",
+      "unchanged": true
+    },
+    {
+      "baseline_sha256": "8e14824c910f131999ccf945fbc753eac8aa8d00050298fea578960f2b025add",
+      "current_sha256": "8e14824c910f131999ccf945fbc753eac8aa8d00050298fea578960f2b025add",
+      "path": "udt_g326_g324_homogeneous_offdiagonal_linear_modes_2026-09-02/run_catch_proofs.py",
+      "unchanged": true
+    },
+    {
+      "baseline_sha256": "b108e0d981c89693265d81cbb9590ab87a61fb1665e3240c843fb114de4da5a5",
+      "current_sha256": "b108e0d981c89693265d81cbb9590ab87a61fb1665e3240c843fb114de4da5a5",
+      "path": "udt_g326_g324_homogeneous_offdiagonal_linear_modes_2026-09-02/verify_offdiagonal_independent.py",
+      "unchanged": true
+    },
+    {
+      "baseline_sha256": "4ba456a46bac4101792467a3d07f6f5e13ee2c6d4f2e00d2aead6e5b38ce0fb5",
+      "current_sha256": "8d0e15db5a75f32f6d6cd0da2b1baae3d7fa33d48061043f75fd9bf208ebba9f",
+      "path": "udt_g326_g324_homogeneous_offdiagonal_linear_modes_2026-09-02/verify_package.py",
+      "unchanged": false
+    },
+    {
+      "baseline_sha256": "347d7203c5e08468ce7532abb6f53c0de0ae6362096cd345ccf92bfeceb53bb0",
+      "current_sha256": "347d7203c5e08468ce7532abb6f53c0de0ae6362096cd345ccf92bfeceb53bb0",
+      "path": "udt_g326_g324_homogeneous_offdiagonal_linear_modes_2026-09-02/verify_review_intake.py",
+      "unchanged": true
+    }
+  ],
+  "package": "udt_g326_g324_homogeneous_offdiagonal_linear_modes_2026-09-02",
+  "package_mutations": [
+    {
+      "artifact": "DERIVATION_RESULT.json",
+      "command_index": 5,
+      "mutation": "extra_field",
+      "returncode": 1
+    },
+    {
+      "artifact": "DERIVATION_RESULT.json",
+      "command_index": 6,
+      "mutation": "count_int_to_float",
+      "returncode": 1
+    },
+    {
+      "artifact": "DERIVATION_RESULT.json",
+      "command_index": 7,
+      "mutation": "false_to_zero",
+      "returncode": 1
+    },
+    {
+      "artifact": "DERIVATION_RESULT.json",
+      "command_index": 8,
+      "mutation": "metadata_missing",
+      "returncode": 1
+    },
+    {
+      "artifact": "DERIVATION_RESULT.json",
+      "command_index": 9,
+      "mutation": "metadata_null",
+      "returncode": 1
+    },
+    {
+      "artifact": "INDEPENDENT_VERIFICATION.json",
+      "command_index": 10,
+      "mutation": "count_int_to_float",
+      "returncode": 1
+    },
+    {
+      "artifact": "INDEPENDENT_VERIFICATION.json",
+      "command_index": 11,
+      "mutation": "extra_field",
+      "returncode": 1
+    },
+    {
+      "artifact": "INDEPENDENT_VERIFICATION.json",
+      "command_index": 12,
+      "mutation": "metadata_empty",
+      "returncode": 1
+    },
+    {
+      "artifact": "CATCH_PROOF_RESULT.json",
+      "command_index": 13,
+      "mutation": "count_int_to_float",
+      "returncode": 1
+    },
+    {
+      "artifact": "CATCH_PROOF_RESULT.json",
+      "command_index": 14,
+      "mutation": "metadata_injection",
+      "returncode": 1
+    }
+  ],
+  "python_version": "3.10.12 (main, Aug 31 2026, 10:18:17) [GCC 11.4.0]",
+  "review_kind": "CHECKER_MAINTENANCE_NOT_SCIENTIFIC_REPROOF",
+  "reviewer_model": "UNKNOWN",
+  "status": "PASS_MAINTENANCE_CHECKS_ONLY",
+  "verifier_sha256": "8d0e15db5a75f32f6d6cd0da2b1baae3d7fa33d48061043f75fd9bf208ebba9f"
+}

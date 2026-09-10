@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Aggregate and exact replay verifier for the bounded G325 package."""
+"""Exact scientific replay, with runtime provenance reported separately (G325)."""
 
 from __future__ import annotations
 
@@ -23,12 +23,38 @@ def load(path: Path):
     return json.loads(path.read_text())
 
 
+def compare_replay(saved: dict, replayed: dict, *, runtime_keys: tuple[str, ...]) -> dict:
+    """Exclude only declared top-level provenance; retain exact typed JSON results."""
+    provenance = {}
+    for key in runtime_keys:
+        for label, record in (("saved", saved), ("replayed", replayed)):
+            if not isinstance(record.get(key), str) or not record[key].strip():
+                raise ValueError(f"{label}: missing or invalid runtime field {key}")
+        provenance[key] = {"saved": saved[key], "replayed": replayed[key],
+                           "equal": saved[key] == replayed[key]}
+
+    def scientific(record):
+        # JSON serialization distinguishes bool/int/float; dict order is immaterial.
+        return json.dumps({key: value for key, value in record.items()
+                           if key not in runtime_keys}, sort_keys=True, allow_nan=False)
+
+    return {
+        "exact_scientific_replay": scientific(saved) == scientific(replayed),
+        "exact_replay": (json.dumps(saved, sort_keys=True, allow_nan=False)
+                         == json.dumps(replayed, sort_keys=True, allow_nan=False)),
+        "runtime_provenance": provenance,
+    }
+
+
 def main() -> None:
+    if not __debug__:
+        raise RuntimeError("G325 replay requires assertions enabled; do not use -O")
     package = Path(__file__).resolve().parent
     checks: list[str] = []
 
     def gate(condition: bool, name: str) -> None:
-        assert condition, name
+        if not condition:
+            raise AssertionError(name)
         checks.append(name)
 
     production = load(package / "DERIVATION_RESULT.json")
@@ -91,6 +117,7 @@ def main() -> None:
     replay_lines = [line.strip() for line in (package / "REPLAY_COMMANDS.txt").read_text().splitlines()
                     if line.strip()]
     gate(len(replay_lines) == 4, "registered_command_count")
+    replay_records = {}
     with tempfile.TemporaryDirectory(prefix="udt_g325_replay_") as temporary:
         copy = Path(temporary) / "package"
         shutil.copytree(package, copy, ignore=shutil.ignore_patterns(".review_runtime"))
@@ -103,17 +130,24 @@ def main() -> None:
             gate(completed.returncode == 0, f"replay_exit:{artifact}")
             generated = copy / ".review_runtime" / artifact
             gate(generated.is_file(), f"replay_created:{artifact}")
-            gate(load(generated) == load(package / artifact), f"replay_exact:{artifact}")
+            runtime_keys = (() if artifact == "CATCH_PROOF_RESULT.json"
+                            else ("python_version",))
+            comparison = compare_replay(load(package / artifact), load(generated),
+                                        runtime_keys=runtime_keys)
+            gate(comparison["exact_scientific_replay"], f"replay_scientific_exact:{artifact}")
+            replay_records[artifact] = comparison
         gate(replay_lines[3] == "python3 -S verify_package.py", "fourth_command_self")
 
     result = {
-        "schema": "udt-g325-package-verification-v1",
+        "schema": "udt-g325-package-verification-v2",
         "status": "PASS_EXTERNALLY_ACCEPTED_AFTER_R1_REPAIR",
         "landing": LANDING,
         "assertion_count": len(checks),
         "checks": checks,
         "python_version": sys.version,
-        "exact_replay": True,
+        "exact_replay": all(record["exact_replay"] for record in replay_records.values()),
+        "exact_scientific_replay": True,
+        "replay_records": replay_records,
     }
     print(json.dumps(result, indent=2, sort_keys=True))
 

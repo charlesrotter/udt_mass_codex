@@ -1,0 +1,16 @@
+{
+  "command": [
+    "python3",
+    "-B",
+    "-S",
+    "maintenance_g325_replay_2026-09-10/test_replay_comparison.py"
+  ],
+  "cwd": "/home/udt-admin/udt_mass_codex",
+  "started_utc": "2026-09-10T03:52:54.049928+00:00",
+  "duration_seconds": 1.1538974510040134,
+  "returncode": 0,
+  "timeout": false,
+  "address_space_bytes": 536870912,
+  "cpu_seconds": 60,
+  "maxrss_kib": 19524
+}

@@ -118,9 +118,10 @@ physical commitment, unresolved load-bearing disagreement, no useful in-scope
 continuation, or genuine access/safety/resource blocker. Save a checkpoint if
 runtime prevents completion. No automatic successor campaign or promotion.
 
-The actual full verifier still fails G325 replay. Diagnosis/repair of that
-failure is a separate maintenance task, not bundled into this authorization.
-It blocks new banking, not labeled conditional discovery. Preserve registry
+Separate maintenance repaired G325/G326's runtime-provenance replay comparison;
+the actual full verifier now stops at G349's documentation wording gate.
+See `maintenance_g325_replay_2026-09-10/WORK_RECORD.md`. It blocks new banking,
+not labeled conditional discovery. Preserve registry
 grades, original evidence, canon and the fixed through-G352 manuscript.
 Backup completeness/pre-reboot unsaved state remain UNVERIFIED; ScratchDisk
 blocks archive-dependent tasks only. Protected local payloads remain untouched.
@@ -196,4 +197,4 @@ acceleration/expansion one-form. This applies known geometry to the G215/G216/G2
 it is not a new mathematical theorem, imposed symmetry, physical light identification or field law.
 General branch-labelled queries remain valid when scalar compression fails; full screen/frame carry
 is not removed when it succeeds. Preserve that distinction rather than selecting a law to enforce it.
-Assessment COMPLETE; no automatic successor, premise adoption or banking. The G325 blocker remains.
+Assessment COMPLETE; no automatic successor, premise adoption or banking. Full-audit blocker: G349 documentation gate.

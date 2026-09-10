@@ -1,0 +1,14 @@
+{
+  "command": [
+    "python3",
+    "verify_current_scientific_premises.py"
+  ],
+  "cwd": "/home/udt-admin/udt_mass_codex",
+  "started_utc": "2026-09-10T03:49:35.470534+00:00",
+  "duration_seconds": 8.247776973003056,
+  "returncode": 1,
+  "timeout": false,
+  "address_space_bytes": 536870912,
+  "cpu_seconds": 60,
+  "maxrss_kib": 60896
+}

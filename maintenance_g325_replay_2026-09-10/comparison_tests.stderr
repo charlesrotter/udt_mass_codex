@@ -1,0 +1,14 @@
+test_aggregate_rejects_changed_record_in_each_artifact (__main__.ReplayComparisonTests) ... ok
+test_bool_integer_float_not_equated (__main__.ReplayComparisonTests) ... ok
+test_every_real_scientific_field_is_compared (__main__.ReplayComparisonTests) ... ok
+test_missing_empty_or_malformed_runtime_rejected (__main__.ReplayComparisonTests) ... ok
+test_old_whole_record_comparison_reintroduces_false_failure (__main__.ReplayComparisonTests) ... ok
+test_only_declared_top_level_metadata_may_differ (__main__.ReplayComparisonTests) ... ok
+test_optimized_execution_refused (__main__.ReplayComparisonTests) ... ok
+test_order_irrelevant_and_nonfinite_rejected (__main__.ReplayComparisonTests) ... ok
+test_real_replays_and_provenance (__main__.ReplayComparisonTests) ... ok
+
+----------------------------------------------------------------------
+Ran 9 tests in 1.125s
+
+OK

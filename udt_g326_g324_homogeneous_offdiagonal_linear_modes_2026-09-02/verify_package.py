@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Aggregate, provenance, and exact-replay verifier for the bounded G326 package."""
+"""Exact scientific replay, with runtime provenance reported separately (G326)."""
 
 from __future__ import annotations
 
@@ -34,6 +34,29 @@ def load(path: Path):
     return json.loads(path.read_text(encoding="utf-8"))
 
 
+def compare_replay(saved: dict, replayed: dict, *, runtime_keys: tuple[str, ...]) -> dict:
+    """Exclude only declared top-level provenance; retain exact typed JSON results."""
+    provenance = {}
+    for key in runtime_keys:
+        for label, record in (("saved", saved), ("replayed", replayed)):
+            if not isinstance(record.get(key), str) or not record[key].strip():
+                raise ValueError(f"{label}: missing or invalid runtime field {key}")
+        provenance[key] = {"saved": saved[key], "replayed": replayed[key],
+                           "equal": saved[key] == replayed[key]}
+
+    def scientific(record):
+        # JSON serialization distinguishes bool/int/float; dict order is immaterial.
+        return json.dumps({key: value for key, value in record.items()
+                           if key not in runtime_keys}, sort_keys=True, allow_nan=False)
+
+    return {
+        "exact_scientific_replay": scientific(saved) == scientific(replayed),
+        "exact_replay": (json.dumps(saved, sort_keys=True, allow_nan=False)
+                         == json.dumps(replayed, sort_keys=True, allow_nan=False)),
+        "runtime_provenance": provenance,
+    }
+
+
 def digest(path: Path) -> str:
     return hashlib.sha256(path.read_bytes()).hexdigest()
 
@@ -55,6 +78,8 @@ print(rendered, end="")
 
 
 def main() -> None:
+    if not __debug__:
+        raise RuntimeError("G326 replay requires assertions enabled; do not use -O")
     parser = argparse.ArgumentParser()
     parser.add_argument("--output", default=None)
     args = parser.parse_args()
@@ -62,7 +87,8 @@ def main() -> None:
     checks: list[str] = []
 
     def gate(condition: bool, name: str) -> None:
-        assert condition, name
+        if not condition:
+            raise AssertionError(name)
         checks.append(name)
 
     production = load(package / "DERIVATION_RESULT.json")
@@ -174,6 +200,7 @@ def main() -> None:
         if line.strip()
     ]
     gate(len(replay_lines) == 4, "registered_command_count")
+    replay_records = {}
     with tempfile.TemporaryDirectory(prefix="udt_g326_replay_") as temporary:
         copy = Path(temporary) / "package"
         shutil.copytree(package, copy, ignore=shutil.ignore_patterns(".review_runtime"))
@@ -186,7 +213,12 @@ def main() -> None:
             gate(completed.returncode == 0, f"replay_exit:{artifact}")
             generated = copy / ".review_runtime" / artifact
             gate(generated.is_file(), f"replay_created:{artifact}")
-            gate(load(generated) == load(package / artifact), f"replay_exact:{artifact}")
+            runtime_keys = (() if artifact == "CATCH_PROOF_RESULT.json"
+                            else ("python_version",))
+            comparison = compare_replay(load(package / artifact), load(generated),
+                                        runtime_keys=runtime_keys)
+            gate(comparison["exact_scientific_replay"], f"replay_scientific_exact:{artifact}")
+            replay_records[artifact] = comparison
         gate(replay_lines[3] == (
             "python3 -S verify_package.py --output "
             ".review_runtime/PACKAGE_VERIFICATION_RESULT.json"
@@ -212,13 +244,15 @@ def main() -> None:
                  f"canned_substitution_rejected:{script_name}")
 
     result = {
-        "schema": "udt-g326-package-verification-v1",
+        "schema": "udt-g326-package-verification-v2",
         "status": "PASS_EXTERNAL_G326_REPAIRS_ACCEPTED",
         "landing": LANDING,
         "assertion_count": len(checks),
         "checks": checks,
         "python_version": sys.version,
-        "exact_replay": True,
+        "exact_replay": all(record["exact_replay"] for record in replay_records.values()),
+        "exact_scientific_replay": True,
+        "replay_records": replay_records,
     }
     rendered = json.dumps(result, indent=2, sort_keys=True) + "\n"
     if args.output:

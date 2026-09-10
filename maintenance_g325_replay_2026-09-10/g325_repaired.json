@@ -1,0 +1,15 @@
+{
+  "command": [
+    "python3",
+    "-S",
+    "udt_g325_g324_homogeneous_diagonal_linear_modes_2026-09-02/verify_package.py"
+  ],
+  "cwd": "/home/udt-admin/udt_mass_codex",
+  "started_utc": "2026-09-10T03:49:35.218626+00:00",
+  "duration_seconds": 0.12555362400598824,
+  "returncode": 0,
+  "timeout": false,
+  "address_space_bytes": 536870912,
+  "cpu_seconds": 60,
+  "maxrss_kib": 12672
+}

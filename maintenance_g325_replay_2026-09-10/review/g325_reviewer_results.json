@@ -1,0 +1,1316 @@
+{
+  "actual_replays": {
+    "CATCH_PROOF_RESULT.json": {
+      "differing_top_level_fields": [],
+      "exact_scientific_replay_by_independent_recursive_oracle": true,
+      "replayed_record": {
+        "assertion_count": 5,
+        "controls": {
+          "false_periodic_scaling_rejected": true,
+          "physical_shear_as_gauge_rejected": true,
+          "removed_exponent_constraint_rejected": true,
+          "wrong_kasner_tangent_rejected": true,
+          "wrong_scalar_directional_shape_rejected": true
+        },
+        "schema": "udt-g325-catch-proofs-v1",
+        "status": "PASS"
+      },
+      "replayed_sha256": "7f1d2cb484c25bb7d773f5dd5cd9f71ea5c2265491ee622111d5b1293a35b609",
+      "saved_record": {
+        "assertion_count": 5,
+        "controls": {
+          "false_periodic_scaling_rejected": true,
+          "physical_shear_as_gauge_rejected": true,
+          "removed_exponent_constraint_rejected": true,
+          "wrong_kasner_tangent_rejected": true,
+          "wrong_scalar_directional_shape_rejected": true
+        },
+        "schema": "udt-g325-catch-proofs-v1",
+        "status": "PASS"
+      },
+      "saved_sha256": "7f1d2cb484c25bb7d773f5dd5cd9f71ea5c2265491ee622111d5b1293a35b609"
+    },
+    "DERIVATION_RESULT.json": {
+      "differing_top_level_fields": [
+        "python_version"
+      ],
+      "exact_scientific_replay_by_independent_recursive_oracle": true,
+      "replayed_record": {
+        "Xmax_selected": false,
+        "angular_sector_changed": false,
+        "assertion_count": 36,
+        "background_exponents": [
+          "-1/3",
+          "2/3",
+          "2/3"
+        ],
+        "checks": [
+          "background_kasner_sum",
+          "background_kasner_square_sum",
+          "exponent_constraint_rank_two",
+          "kasner_shear_zero_trace",
+          "kasner_shear_tangent_constraint",
+          "kasner_shear_spans_one_dimensional_nullspace",
+          "connected_scalar_particular_unique",
+          "connected_scalar_metric_coefficients",
+          "gauge_ode_solution",
+          "tracefree_time_zero_0",
+          "tracefree_space_zero_0",
+          "einstein_time_0",
+          "einstein_space_0",
+          "scalar_curvature_four_lambda_0",
+          "hamiltonian_constraint_0",
+          "tracefree_time_zero_1",
+          "tracefree_space_zero_1",
+          "einstein_time_1",
+          "einstein_space_1",
+          "scalar_curvature_four_lambda_1",
+          "hamiltonian_constraint_1",
+          "tracefree_time_zero_2",
+          "tracefree_space_zero_2",
+          "einstein_time_2",
+          "einstein_space_2",
+          "scalar_curvature_four_lambda_2",
+          "hamiltonian_constraint_2",
+          "three_lattice_modulus_coordinates",
+          "cover_scaling_vector_not_periodic",
+          "zero_scaling_vector_periodic",
+          "local_weyl_eigenvalue_split_nonzero",
+          "local_weyl_eigenvalue_split_exact",
+          "shear_log_secular_both_ends",
+          "scalar_mode_quadratic_future_growth",
+          "scalar_mode_zero_at_past_end",
+          "time_shift_growth_is_gauge"
+        ],
+        "full_linear_stability_proved": false,
+        "general_solution": "u_i=c_i+q_i*log(T/Tref)+p_i*G/T+(1-p_i)*lambda*T^2/4; sum(q)=sum(p_i*q_i)=0",
+        "inhomogeneous_modes_classified": false,
+        "kernel_changed": false,
+        "landing": "HOMOGENEOUS_DIAGONAL_MODES_CLOSE_AS_TIME_GAUGE__THREE_QUOTIENT_LATTICE_MODULI__ONE_LOCAL_KASNER_SHEAR__ONE_CONNECTED_SCALAR_MODE__NO_FULL_STABILITY_CLAIM",
+        "linearized_scalar_curvature": "4*lambda",
+        "metric_changed": false,
+        "mode_dimensions": {
+          "connected_scalar_curvature": 1,
+          "fixed_quotient_lattice_moduli": 3,
+          "local_kasner_shear": 1,
+          "residual_time_translation_gauge": 1
+        },
+        "nonlinear_stability_proved": false,
+        "offdiagonal_modes_classified": false,
+        "physical_occupancy_selected": false,
+        "physical_scale_selected": false,
+        "python_version": "3.10.12 (main, Aug 31 2026, 10:18:17) [GCC 11.4.0]",
+        "schema": "udt-g325-homogeneous-diagonal-production-v1",
+        "shear_curvature_witness": "delta(E_y-E_z)=-2*q/(3*T^2)",
+        "status": "INTERNAL_VERIFIED_PENDING_EXTERNAL_REVIEW"
+      },
+      "replayed_sha256": "0115354c1bd88a4a3561adfbdad1afe64d014ee01c9f0e57b56286f07ad62606",
+      "saved_record": {
+        "Xmax_selected": false,
+        "angular_sector_changed": false,
+        "assertion_count": 36,
+        "background_exponents": [
+          "-1/3",
+          "2/3",
+          "2/3"
+        ],
+        "checks": [
+          "background_kasner_sum",
+          "background_kasner_square_sum",
+          "exponent_constraint_rank_two",
+          "kasner_shear_zero_trace",
+          "kasner_shear_tangent_constraint",
+          "kasner_shear_spans_one_dimensional_nullspace",
+          "connected_scalar_particular_unique",
+          "connected_scalar_metric_coefficients",
+          "gauge_ode_solution",
+          "tracefree_time_zero_0",
+          "tracefree_space_zero_0",
+          "einstein_time_0",
+          "einstein_space_0",
+          "scalar_curvature_four_lambda_0",
+          "hamiltonian_constraint_0",
+          "tracefree_time_zero_1",
+          "tracefree_space_zero_1",
+          "einstein_time_1",
+          "einstein_space_1",
+          "scalar_curvature_four_lambda_1",
+          "hamiltonian_constraint_1",
+          "tracefree_time_zero_2",
+          "tracefree_space_zero_2",
+          "einstein_time_2",
+          "einstein_space_2",
+          "scalar_curvature_four_lambda_2",
+          "hamiltonian_constraint_2",
+          "three_lattice_modulus_coordinates",
+          "cover_scaling_vector_not_periodic",
+          "zero_scaling_vector_periodic",
+          "local_weyl_eigenvalue_split_nonzero",
+          "local_weyl_eigenvalue_split_exact",
+          "shear_log_secular_both_ends",
+          "scalar_mode_quadratic_future_growth",
+          "scalar_mode_zero_at_past_end",
+          "time_shift_growth_is_gauge"
+        ],
+        "full_linear_stability_proved": false,
+        "general_solution": "u_i=c_i+q_i*log(T/Tref)+p_i*G/T+(1-p_i)*lambda*T^2/4; sum(q)=sum(p_i*q_i)=0",
+        "inhomogeneous_modes_classified": false,
+        "kernel_changed": false,
+        "landing": "HOMOGENEOUS_DIAGONAL_MODES_CLOSE_AS_TIME_GAUGE__THREE_QUOTIENT_LATTICE_MODULI__ONE_LOCAL_KASNER_SHEAR__ONE_CONNECTED_SCALAR_MODE__NO_FULL_STABILITY_CLAIM",
+        "linearized_scalar_curvature": "4*lambda",
+        "metric_changed": false,
+        "mode_dimensions": {
+          "connected_scalar_curvature": 1,
+          "fixed_quotient_lattice_moduli": 3,
+          "local_kasner_shear": 1,
+          "residual_time_translation_gauge": 1
+        },
+        "nonlinear_stability_proved": false,
+        "offdiagonal_modes_classified": false,
+        "physical_occupancy_selected": false,
+        "physical_scale_selected": false,
+        "python_version": "3.10.12 (main, Jun 22 2026, 18:55:27) [GCC 11.4.0]",
+        "schema": "udt-g325-homogeneous-diagonal-production-v1",
+        "shear_curvature_witness": "delta(E_y-E_z)=-2*q/(3*T^2)",
+        "status": "INTERNAL_VERIFIED_PENDING_EXTERNAL_REVIEW"
+      },
+      "saved_sha256": "1e37ab61628aa9bd156dd573d37bd74bc6dbeac1464661f4d70c7b8312817e71"
+    },
+    "INDEPENDENT_VERIFICATION.json": {
+      "differing_top_level_fields": [
+        "python_version"
+      ],
+      "exact_scientific_replay_by_independent_recursive_oracle": true,
+      "replayed_record": {
+        "assertion_count": 111,
+        "checks": [
+          "direct_tracefree_zero:constant_x:0:0",
+          "direct_tracefree_zero:constant_x:0:1",
+          "direct_tracefree_zero:constant_x:0:2",
+          "direct_tracefree_zero:constant_x:0:3",
+          "direct_tracefree_zero:constant_x:1:0",
+          "direct_tracefree_zero:constant_x:1:1",
+          "direct_tracefree_zero:constant_x:1:2",
+          "direct_tracefree_zero:constant_x:1:3",
+          "direct_tracefree_zero:constant_x:2:0",
+          "direct_tracefree_zero:constant_x:2:1",
+          "direct_tracefree_zero:constant_x:2:2",
+          "direct_tracefree_zero:constant_x:2:3",
+          "direct_tracefree_zero:constant_x:3:0",
+          "direct_tracefree_zero:constant_x:3:1",
+          "direct_tracefree_zero:constant_x:3:2",
+          "direct_tracefree_zero:constant_x:3:3",
+          "direct_scalar_zero:constant_x",
+          "direct_tracefree_zero:constant_y:0:0",
+          "direct_tracefree_zero:constant_y:0:1",
+          "direct_tracefree_zero:constant_y:0:2",
+          "direct_tracefree_zero:constant_y:0:3",
+          "direct_tracefree_zero:constant_y:1:0",
+          "direct_tracefree_zero:constant_y:1:1",
+          "direct_tracefree_zero:constant_y:1:2",
+          "direct_tracefree_zero:constant_y:1:3",
+          "direct_tracefree_zero:constant_y:2:0",
+          "direct_tracefree_zero:constant_y:2:1",
+          "direct_tracefree_zero:constant_y:2:2",
+          "direct_tracefree_zero:constant_y:2:3",
+          "direct_tracefree_zero:constant_y:3:0",
+          "direct_tracefree_zero:constant_y:3:1",
+          "direct_tracefree_zero:constant_y:3:2",
+          "direct_tracefree_zero:constant_y:3:3",
+          "direct_scalar_zero:constant_y",
+          "direct_tracefree_zero:constant_z:0:0",
+          "direct_tracefree_zero:constant_z:0:1",
+          "direct_tracefree_zero:constant_z:0:2",
+          "direct_tracefree_zero:constant_z:0:3",
+          "direct_tracefree_zero:constant_z:1:0",
+          "direct_tracefree_zero:constant_z:1:1",
+          "direct_tracefree_zero:constant_z:1:2",
+          "direct_tracefree_zero:constant_z:1:3",
+          "direct_tracefree_zero:constant_z:2:0",
+          "direct_tracefree_zero:constant_z:2:1",
+          "direct_tracefree_zero:constant_z:2:2",
+          "direct_tracefree_zero:constant_z:2:3",
+          "direct_tracefree_zero:constant_z:3:0",
+          "direct_tracefree_zero:constant_z:3:1",
+          "direct_tracefree_zero:constant_z:3:2",
+          "direct_tracefree_zero:constant_z:3:3",
+          "direct_scalar_zero:constant_z",
+          "direct_tracefree_zero:gauge:0:0",
+          "direct_tracefree_zero:gauge:0:1",
+          "direct_tracefree_zero:gauge:0:2",
+          "direct_tracefree_zero:gauge:0:3",
+          "direct_tracefree_zero:gauge:1:0",
+          "direct_tracefree_zero:gauge:1:1",
+          "direct_tracefree_zero:gauge:1:2",
+          "direct_tracefree_zero:gauge:1:3",
+          "direct_tracefree_zero:gauge:2:0",
+          "direct_tracefree_zero:gauge:2:1",
+          "direct_tracefree_zero:gauge:2:2",
+          "direct_tracefree_zero:gauge:2:3",
+          "direct_tracefree_zero:gauge:3:0",
+          "direct_tracefree_zero:gauge:3:1",
+          "direct_tracefree_zero:gauge:3:2",
+          "direct_tracefree_zero:gauge:3:3",
+          "direct_scalar_zero:gauge",
+          "direct_tracefree_zero:shear:0:0",
+          "direct_tracefree_zero:shear:0:1",
+          "direct_tracefree_zero:shear:0:2",
+          "direct_tracefree_zero:shear:0:3",
+          "direct_tracefree_zero:shear:1:0",
+          "direct_tracefree_zero:shear:1:1",
+          "direct_tracefree_zero:shear:1:2",
+          "direct_tracefree_zero:shear:1:3",
+          "direct_tracefree_zero:shear:2:0",
+          "direct_tracefree_zero:shear:2:1",
+          "direct_tracefree_zero:shear:2:2",
+          "direct_tracefree_zero:shear:2:3",
+          "direct_tracefree_zero:shear:3:0",
+          "direct_tracefree_zero:shear:3:1",
+          "direct_tracefree_zero:shear:3:2",
+          "direct_tracefree_zero:shear:3:3",
+          "direct_scalar_zero:shear",
+          "direct_shear_curvature_split",
+          "direct_tracefree_zero:scalar:0:0",
+          "direct_tracefree_zero:scalar:0:1",
+          "direct_tracefree_zero:scalar:0:2",
+          "direct_tracefree_zero:scalar:0:3",
+          "direct_tracefree_zero:scalar:1:0",
+          "direct_tracefree_zero:scalar:1:1",
+          "direct_tracefree_zero:scalar:1:2",
+          "direct_tracefree_zero:scalar:1:3",
+          "direct_tracefree_zero:scalar:2:0",
+          "direct_tracefree_zero:scalar:2:1",
+          "direct_tracefree_zero:scalar:2:2",
+          "direct_tracefree_zero:scalar:2:3",
+          "direct_tracefree_zero:scalar:3:0",
+          "direct_tracefree_zero:scalar:3:1",
+          "direct_tracefree_zero:scalar:3:2",
+          "direct_tracefree_zero:scalar:3:3",
+          "direct_scalar_mode_delta_R_four",
+          "direct_time_shift_lie_derivative:0",
+          "direct_time_shift_lie_derivative:1",
+          "direct_time_shift_lie_derivative:2",
+          "scaling_generator_fails_periodicity:x",
+          "scaling_generator_fails_periodicity:y",
+          "scaling_generator_fails_periodicity:z",
+          "independent_q_trace_constraint",
+          "independent_q_kasner_constraint"
+        ],
+        "constant_cover_scalings_fail_fixed_quotient_periodicity": true,
+        "direct_tensor_modes": [
+          "constant_x",
+          "constant_y",
+          "constant_z",
+          "gauge",
+          "shear",
+          "scalar"
+        ],
+        "linearized_scalar_curvature": {
+          "eps^0*T^0*log^0": "4"
+        },
+        "linearized_shear_curvature_split": {
+          "eps^0*T^-2*log^0": "-2/3"
+        },
+        "production_imported": false,
+        "production_result_read": false,
+        "python_version": "3.10.12 (main, Aug 31 2026, 10:18:17) [GCC 11.4.0]",
+        "schema": "udt-g325-homogeneous-diagonal-independent-v1",
+        "status": "PASS",
+        "time_shift_is_lie_derivative": true
+      },
+      "replayed_sha256": "c3a50b449b460c69a21c695120c5b3427d480bf25775185cafabf57a5e489850",
+      "saved_record": {
+        "assertion_count": 111,
+        "checks": [
+          "direct_tracefree_zero:constant_x:0:0",
+          "direct_tracefree_zero:constant_x:0:1",
+          "direct_tracefree_zero:constant_x:0:2",
+          "direct_tracefree_zero:constant_x:0:3",
+          "direct_tracefree_zero:constant_x:1:0",
+          "direct_tracefree_zero:constant_x:1:1",
+          "direct_tracefree_zero:constant_x:1:2",
+          "direct_tracefree_zero:constant_x:1:3",
+          "direct_tracefree_zero:constant_x:2:0",
+          "direct_tracefree_zero:constant_x:2:1",
+          "direct_tracefree_zero:constant_x:2:2",
+          "direct_tracefree_zero:constant_x:2:3",
+          "direct_tracefree_zero:constant_x:3:0",
+          "direct_tracefree_zero:constant_x:3:1",
+          "direct_tracefree_zero:constant_x:3:2",
+          "direct_tracefree_zero:constant_x:3:3",
+          "direct_scalar_zero:constant_x",
+          "direct_tracefree_zero:constant_y:0:0",
+          "direct_tracefree_zero:constant_y:0:1",
+          "direct_tracefree_zero:constant_y:0:2",
+          "direct_tracefree_zero:constant_y:0:3",
+          "direct_tracefree_zero:constant_y:1:0",
+          "direct_tracefree_zero:constant_y:1:1",
+          "direct_tracefree_zero:constant_y:1:2",
+          "direct_tracefree_zero:constant_y:1:3",
+          "direct_tracefree_zero:constant_y:2:0",
+          "direct_tracefree_zero:constant_y:2:1",
+          "direct_tracefree_zero:constant_y:2:2",
+          "direct_tracefree_zero:constant_y:2:3",
+          "direct_tracefree_zero:constant_y:3:0",
+          "direct_tracefree_zero:constant_y:3:1",
+          "direct_tracefree_zero:constant_y:3:2",
+          "direct_tracefree_zero:constant_y:3:3",
+          "direct_scalar_zero:constant_y",
+          "direct_tracefree_zero:constant_z:0:0",
+          "direct_tracefree_zero:constant_z:0:1",
+          "direct_tracefree_zero:constant_z:0:2",
+          "direct_tracefree_zero:constant_z:0:3",
+          "direct_tracefree_zero:constant_z:1:0",
+          "direct_tracefree_zero:constant_z:1:1",
+          "direct_tracefree_zero:constant_z:1:2",
+          "direct_tracefree_zero:constant_z:1:3",
+          "direct_tracefree_zero:constant_z:2:0",
+          "direct_tracefree_zero:constant_z:2:1",
+          "direct_tracefree_zero:constant_z:2:2",
+          "direct_tracefree_zero:constant_z:2:3",
+          "direct_tracefree_zero:constant_z:3:0",
+          "direct_tracefree_zero:constant_z:3:1",
+          "direct_tracefree_zero:constant_z:3:2",
+          "direct_tracefree_zero:constant_z:3:3",
+          "direct_scalar_zero:constant_z",
+          "direct_tracefree_zero:gauge:0:0",
+          "direct_tracefree_zero:gauge:0:1",
+          "direct_tracefree_zero:gauge:0:2",
+          "direct_tracefree_zero:gauge:0:3",
+          "direct_tracefree_zero:gauge:1:0",
+          "direct_tracefree_zero:gauge:1:1",
+          "direct_tracefree_zero:gauge:1:2",
+          "direct_tracefree_zero:gauge:1:3",
+          "direct_tracefree_zero:gauge:2:0",
+          "direct_tracefree_zero:gauge:2:1",
+          "direct_tracefree_zero:gauge:2:2",
+          "direct_tracefree_zero:gauge:2:3",
+          "direct_tracefree_zero:gauge:3:0",
+          "direct_tracefree_zero:gauge:3:1",
+          "direct_tracefree_zero:gauge:3:2",
+          "direct_tracefree_zero:gauge:3:3",
+          "direct_scalar_zero:gauge",
+          "direct_tracefree_zero:shear:0:0",
+          "direct_tracefree_zero:shear:0:1",
+          "direct_tracefree_zero:shear:0:2",
+          "direct_tracefree_zero:shear:0:3",
+          "direct_tracefree_zero:shear:1:0",
+          "direct_tracefree_zero:shear:1:1",
+          "direct_tracefree_zero:shear:1:2",
+          "direct_tracefree_zero:shear:1:3",
+          "direct_tracefree_zero:shear:2:0",
+          "direct_tracefree_zero:shear:2:1",
+          "direct_tracefree_zero:shear:2:2",
+          "direct_tracefree_zero:shear:2:3",
+          "direct_tracefree_zero:shear:3:0",
+          "direct_tracefree_zero:shear:3:1",
+          "direct_tracefree_zero:shear:3:2",
+          "direct_tracefree_zero:shear:3:3",
+          "direct_scalar_zero:shear",
+          "direct_shear_curvature_split",
+          "direct_tracefree_zero:scalar:0:0",
+          "direct_tracefree_zero:scalar:0:1",
+          "direct_tracefree_zero:scalar:0:2",
+          "direct_tracefree_zero:scalar:0:3",
+          "direct_tracefree_zero:scalar:1:0",
+          "direct_tracefree_zero:scalar:1:1",
+          "direct_tracefree_zero:scalar:1:2",
+          "direct_tracefree_zero:scalar:1:3",
+          "direct_tracefree_zero:scalar:2:0",
+          "direct_tracefree_zero:scalar:2:1",
+          "direct_tracefree_zero:scalar:2:2",
+          "direct_tracefree_zero:scalar:2:3",
+          "direct_tracefree_zero:scalar:3:0",
+          "direct_tracefree_zero:scalar:3:1",
+          "direct_tracefree_zero:scalar:3:2",
+          "direct_tracefree_zero:scalar:3:3",
+          "direct_scalar_mode_delta_R_four",
+          "direct_time_shift_lie_derivative:0",
+          "direct_time_shift_lie_derivative:1",
+          "direct_time_shift_lie_derivative:2",
+          "scaling_generator_fails_periodicity:x",
+          "scaling_generator_fails_periodicity:y",
+          "scaling_generator_fails_periodicity:z",
+          "independent_q_trace_constraint",
+          "independent_q_kasner_constraint"
+        ],
+        "constant_cover_scalings_fail_fixed_quotient_periodicity": true,
+        "direct_tensor_modes": [
+          "constant_x",
+          "constant_y",
+          "constant_z",
+          "gauge",
+          "shear",
+          "scalar"
+        ],
+        "linearized_scalar_curvature": {
+          "eps^0*T^0*log^0": "4"
+        },
+        "linearized_shear_curvature_split": {
+          "eps^0*T^-2*log^0": "-2/3"
+        },
+        "production_imported": false,
+        "production_result_read": false,
+        "python_version": "3.10.12 (main, Jun 22 2026, 18:55:27) [GCC 11.4.0]",
+        "schema": "udt-g325-homogeneous-diagonal-independent-v1",
+        "status": "PASS",
+        "time_shift_is_lie_derivative": true
+      },
+      "saved_sha256": "103a8b40e208fb831d8661154359c4109ca4023bfe24c3071ca8a4d3e22bea94"
+    }
+  },
+  "aggregate_result": {
+    "assertion_count": 41,
+    "checks": [
+      "production_landing",
+      "production_assertion_count",
+      "independent_assertion_count",
+      "hostile_assertion_count",
+      "exact_mode_dimensions",
+      "production_scalar_witness",
+      "independent_scalar_witness",
+      "independent_shear_witness",
+      "independent_no_production_import",
+      "independent_no_result_read",
+      "all_hostile_controls",
+      "no_full_linear_overclaim",
+      "no_nonlinear_overclaim",
+      "inhomogeneous_open",
+      "offdiagonal_open",
+      "occupancy_open",
+      "scale_open",
+      "xmax_open",
+      "native_objects_unchanged",
+      "static_no_production_import",
+      "static_no_production_result_read",
+      "exact_landing_token",
+      "exact_stability_boundary",
+      "lay_stability_boundary",
+      "status_external_acceptance",
+      "fresh_external_review_pass",
+      "repair_followup_pass",
+      "vacuous_production_gate_removed",
+      "fresh_review_acceptance_token",
+      "repair_followup_acceptance_token",
+      "registered_command_count",
+      "replay_exit:DERIVATION_RESULT.json",
+      "replay_created:DERIVATION_RESULT.json",
+      "replay_scientific_exact:DERIVATION_RESULT.json",
+      "replay_exit:INDEPENDENT_VERIFICATION.json",
+      "replay_created:INDEPENDENT_VERIFICATION.json",
+      "replay_scientific_exact:INDEPENDENT_VERIFICATION.json",
+      "replay_exit:CATCH_PROOF_RESULT.json",
+      "replay_created:CATCH_PROOF_RESULT.json",
+      "replay_scientific_exact:CATCH_PROOF_RESULT.json",
+      "fourth_command_self"
+    ],
+    "exact_replay": false,
+    "exact_scientific_replay": true,
+    "landing": "HOMOGENEOUS_DIAGONAL_MODES_CLOSE_AS_TIME_GAUGE__THREE_QUOTIENT_LATTICE_MODULI__ONE_LOCAL_KASNER_SHEAR__ONE_CONNECTED_SCALAR_MODE__NO_FULL_STABILITY_CLAIM",
+    "python_version": "3.10.12 (main, Aug 31 2026, 10:18:17) [GCC 11.4.0]",
+    "replay_records": {
+      "CATCH_PROOF_RESULT.json": {
+        "exact_replay": true,
+        "exact_scientific_replay": true,
+        "runtime_provenance": {}
+      },
+      "DERIVATION_RESULT.json": {
+        "exact_replay": false,
+        "exact_scientific_replay": true,
+        "runtime_provenance": {
+          "python_version": {
+            "equal": false,
+            "replayed": "3.10.12 (main, Aug 31 2026, 10:18:17) [GCC 11.4.0]",
+            "saved": "3.10.12 (main, Jun 22 2026, 18:55:27) [GCC 11.4.0]"
+          }
+        }
+      },
+      "INDEPENDENT_VERIFICATION.json": {
+        "exact_replay": false,
+        "exact_scientific_replay": true,
+        "runtime_provenance": {
+          "python_version": {
+            "equal": false,
+            "replayed": "3.10.12 (main, Aug 31 2026, 10:18:17) [GCC 11.4.0]",
+            "saved": "3.10.12 (main, Jun 22 2026, 18:55:27) [GCC 11.4.0]"
+          }
+        }
+      }
+    },
+    "schema": "udt-g325-package-verification-v2",
+    "status": "PASS_EXTERNALLY_ACCEPTED_AFTER_R1_REPAIR"
+  },
+  "baseline": "51f189679d4029d750e375be949f41e2f15420fa",
+  "commands": [
+    {
+      "argv": [
+        "python3",
+        "-S",
+        "derive_modes.py",
+        "--output",
+        ".review_runtime/DERIVATION_RESULT.json"
+      ],
+      "cwd": "/tmp/review_g325_5_zkdc8z/package",
+      "elapsed_seconds": 0.02169546001823619,
+      "extra_env": {},
+      "returncode": 0,
+      "stderr": "",
+      "stdout": "{\n  \"Xmax_selected\": false,\n  \"angular_sector_changed\": false,\n  \"assertion_count\": 36,\n  \"background_exponents\": [\n    \"-1/3\",\n    \"2/3\",\n    \"2/3\"\n  ],\n  \"checks\": [\n    \"background_kasner_sum\",\n    \"background_kasner_square_sum\",\n    \"exponent_constraint_rank_two\",\n    \"kasner_shear_zero_trace\",\n    \"kasner_shear_tangent_constraint\",\n    \"kasner_shear_spans_one_dimensional_nullspace\",\n    \"connected_scalar_particular_unique\",\n    \"connected_scalar_metric_coefficients\",\n    \"gauge_ode_solution\",\n    \"tracefree_time_zero_0\",\n    \"tracefree_space_zero_0\",\n    \"einstein_time_0\",\n    \"einstein_space_0\",\n    \"scalar_curvature_four_lambda_0\",\n    \"hamiltonian_constraint_0\",\n    \"tracefree_time_zero_1\",\n    \"tracefree_space_zero_1\",\n    \"einstein_time_1\",\n    \"einstein_space_1\",\n    \"scalar_curvature_four_lambda_1\",\n    \"hamiltonian_constraint_1\",\n    \"tracefree_time_zero_2\",\n    \"tracefree_space_zero_2\",\n    \"einstein_time_2\",\n    \"einstein_space_2\",\n    \"scalar_curvature_four_lambda_2\",\n    \"hamiltonian_constraint_2\",\n    \"three_lattice_modulus_coordinates\",\n    \"cover_scaling_vector_not_periodic\",\n    \"zero_scaling_vector_periodic\",\n    \"local_weyl_eigenvalue_split_nonzero\",\n    \"local_weyl_eigenvalue_split_exact\",\n    \"shear_log_secular_both_ends\",\n    \"scalar_mode_quadratic_future_growth\",\n    \"scalar_mode_zero_at_past_end\",\n    \"time_shift_growth_is_gauge\"\n  ],\n  \"full_linear_stability_proved\": false,\n  \"general_solution\": \"u_i=c_i+q_i*log(T/Tref)+p_i*G/T+(1-p_i)*lambda*T^2/4; sum(q)=sum(p_i*q_i)=0\",\n  \"inhomogeneous_modes_classified\": false,\n  \"kernel_changed\": false,\n  \"landing\": \"HOMOGENEOUS_DIAGONAL_MODES_CLOSE_AS_TIME_GAUGE__THREE_QUOTIENT_LATTICE_MODULI__ONE_LOCAL_KASNER_SHEAR__ONE_CONNECTED_SCALAR_MODE__NO_FULL_STABILITY_CLAIM\",\n  \"linearized_scalar_curvature\": \"4*lambda\",\n  \"metric_changed\": false,\n  \"mode_dimensions\": {\n    \"connected_scalar_curvature\": 1,\n    \"fixed_quotient_lattice_moduli\": 3,\n    \"local_kasner_shear\": 1,\n    \"residual_time_translation_gauge\": 1\n  },\n  \"nonlinear_stability_proved\": false,\n  \"offdiagonal_modes_classified\": false,\n  \"physical_occupancy_selected\": false,\n  \"physical_scale_selected\": false,\n  \"python_version\": \"3.10.12 (main, Aug 31 2026, 10:18:17) [GCC 11.4.0]\",\n  \"schema\": \"udt-g325-homogeneous-diagonal-production-v1\",\n  \"shear_curvature_witness\": \"delta(E_y-E_z)=-2*q/(3*T^2)\",\n  \"status\": \"INTERNAL_VERIFIED_PENDING_EXTERNAL_REVIEW\"\n}\n"
+    },
+    {
+      "argv": [
+        "python3",
+        "-S",
+        "verify_independent.py",
+        "--output",
+        ".review_runtime/INDEPENDENT_VERIFICATION.json"
+      ],
+      "cwd": "/tmp/review_g325_5_zkdc8z/package",
+      "elapsed_seconds": 0.07338115898892283,
+      "extra_env": {},
+      "returncode": 0,
+      "stderr": "",
+      "stdout": "{\n  \"assertion_count\": 111,\n  \"checks\": [\n    \"direct_tracefree_zero:constant_x:0:0\",\n    \"direct_tracefree_zero:constant_x:0:1\",\n    \"direct_tracefree_zero:constant_x:0:2\",\n    \"direct_tracefree_zero:constant_x:0:3\",\n    \"direct_tracefree_zero:constant_x:1:0\",\n    \"direct_tracefree_zero:constant_x:1:1\",\n    \"direct_tracefree_zero:constant_x:1:2\",\n    \"direct_tracefree_zero:constant_x:1:3\",\n    \"direct_tracefree_zero:constant_x:2:0\",\n    \"direct_tracefree_zero:constant_x:2:1\",\n    \"direct_tracefree_zero:constant_x:2:2\",\n    \"direct_tracefree_zero:constant_x:2:3\",\n    \"direct_tracefree_zero:constant_x:3:0\",\n    \"direct_tracefree_zero:constant_x:3:1\",\n    \"direct_tracefree_zero:constant_x:3:2\",\n    \"direct_tracefree_zero:constant_x:3:3\",\n    \"direct_scalar_zero:constant_x\",\n    \"direct_tracefree_zero:constant_y:0:0\",\n    \"direct_tracefree_zero:constant_y:0:1\",\n    \"direct_tracefree_zero:constant_y:0:2\",\n    \"direct_tracefree_zero:constant_y:0:3\",\n    \"direct_tracefree_zero:constant_y:1:0\",\n    \"direct_tracefree_zero:constant_y:1:1\",\n    \"direct_tracefree_zero:constant_y:1:2\",\n    \"direct_tracefree_zero:constant_y:1:3\",\n    \"direct_tracefree_zero:constant_y:2:0\",\n    \"direct_tracefree_zero:constant_y:2:1\",\n    \"direct_tracefree_zero:constant_y:2:2\",\n    \"direct_tracefree_zero:constant_y:2:3\",\n    \"direct_tracefree_zero:constant_y:3:0\",\n    \"direct_tracefree_zero:constant_y:3:1\",\n    \"direct_tracefree_zero:constant_y:3:2\",\n    \"direct_tracefree_zero:constant_y:3:3\",\n    \"direct_scalar_zero:constant_y\",\n    \"direct_tracefree_zero:constant_z:0:0\",\n    \"direct_tracefree_zero:constant_z:0:1\",\n    \"direct_tracefree_zero:constant_z:0:2\",\n    \"direct_tracefree_zero:constant_z:0:3\",\n    \"direct_tracefree_zero:constant_z:1:0\",\n    \"direct_tracefree_zero:constant_z:1:1\",\n    \"direct_tracefree_zero:constant_z:1:2\",\n    \"direct_tracefree_zero:constant_z:1:3\",\n    \"direct_tracefree_zero:constant_z:2:0\",\n    \"direct_tracefree_zero:constant_z:2:1\",\n    \"direct_tracefree_zero:constant_z:2:2\",\n    \"direct_tracefree_zero:constant_z:2:3\",\n    \"direct_tracefree_zero:constant_z:3:0\",\n    \"direct_tracefree_zero:constant_z:3:1\",\n    \"direct_tracefree_zero:constant_z:3:2\",\n    \"direct_tracefree_zero:constant_z:3:3\",\n    \"direct_scalar_zero:constant_z\",\n    \"direct_tracefree_zero:gauge:0:0\",\n    \"direct_tracefree_zero:gauge:0:1\",\n    \"direct_tracefree_zero:gauge:0:2\",\n    \"direct_tracefree_zero:gauge:0:3\",\n    \"direct_tracefree_zero:gauge:1:0\",\n    \"direct_tracefree_zero:gauge:1:1\",\n    \"direct_tracefree_zero:gauge:1:2\",\n    \"direct_tracefree_zero:gauge:1:3\",\n    \"direct_tracefree_zero:gauge:2:0\",\n    \"direct_tracefree_zero:gauge:2:1\",\n    \"direct_tracefree_zero:gauge:2:2\",\n    \"direct_tracefree_zero:gauge:2:3\",\n    \"direct_tracefree_zero:gauge:3:0\",\n    \"direct_tracefree_zero:gauge:3:1\",\n    \"direct_tracefree_zero:gauge:3:2\",\n    \"direct_tracefree_zero:gauge:3:3\",\n    \"direct_scalar_zero:gauge\",\n    \"direct_tracefree_zero:shear:0:0\",\n    \"direct_tracefree_zero:shear:0:1\",\n    \"direct_tracefree_zero:shear:0:2\",\n    \"direct_tracefree_zero:shear:0:3\",\n    \"direct_tracefree_zero:shear:1:0\",\n    \"direct_tracefree_zero:shear:1:1\",\n    \"direct_tracefree_zero:shear:1:2\",\n    \"direct_tracefree_zero:shear:1:3\",\n    \"direct_tracefree_zero:shear:2:0\",\n    \"direct_tracefree_zero:shear:2:1\",\n    \"direct_tracefree_zero:shear:2:2\",\n    \"direct_tracefree_zero:shear:2:3\",\n    \"direct_tracefree_zero:shear:3:0\",\n    \"direct_tracefree_zero:shear:3:1\",\n    \"direct_tracefree_zero:shear:3:2\",\n    \"direct_tracefree_zero:shear:3:3\",\n    \"direct_scalar_zero:shear\",\n    \"direct_shear_curvature_split\",\n    \"direct_tracefree_zero:scalar:0:0\",\n    \"direct_tracefree_zero:scalar:0:1\",\n    \"direct_tracefree_zero:scalar:0:2\",\n    \"direct_tracefree_zero:scalar:0:3\",\n    \"direct_tracefree_zero:scalar:1:0\",\n    \"direct_tracefree_zero:scalar:1:1\",\n    \"direct_tracefree_zero:scalar:1:2\",\n    \"direct_tracefree_zero:scalar:1:3\",\n    \"direct_tracefree_zero:scalar:2:0\",\n    \"direct_tracefree_zero:scalar:2:1\",\n    \"direct_tracefree_zero:scalar:2:2\",\n    \"direct_tracefree_zero:scalar:2:3\",\n    \"direct_tracefree_zero:scalar:3:0\",\n    \"direct_tracefree_zero:scalar:3:1\",\n    \"direct_tracefree_zero:scalar:3:2\",\n    \"direct_tracefree_zero:scalar:3:3\",\n    \"direct_scalar_mode_delta_R_four\",\n    \"direct_time_shift_lie_derivative:0\",\n    \"direct_time_shift_lie_derivative:1\",\n    \"direct_time_shift_lie_derivative:2\",\n    \"scaling_generator_fails_periodicity:x\",\n    \"scaling_generator_fails_periodicity:y\",\n    \"scaling_generator_fails_periodicity:z\",\n    \"independent_q_trace_constraint\",\n    \"independent_q_kasner_constraint\"\n  ],\n  \"constant_cover_scalings_fail_fixed_quotient_periodicity\": true,\n  \"direct_tensor_modes\": [\n    \"constant_x\",\n    \"constant_y\",\n    \"constant_z\",\n    \"gauge\",\n    \"shear\",\n    \"scalar\"\n  ],\n  \"linearized_scalar_curvature\": {\n    \"eps^0*T^0*log^0\": \"4\"\n  },\n  \"linearized_shear_curvature_split\": {\n    \"eps^0*T^-2*log^0\": \"-2/3\"\n  },\n  \"production_imported\": false,\n  \"production_result_read\": false,\n  \"python_version\": \"3.10.12 (main, Aug 31 2026, 10:18:17) [GCC 11.4.0]\",\n  \"schema\": \"udt-g325-homogeneous-diagonal-independent-v1\",\n  \"status\": \"PASS\",\n  \"time_shift_is_lie_derivative\": true\n}\n"
+    },
+    {
+      "argv": [
+        "python3",
+        "-S",
+        "run_catch_proofs.py",
+        "--output",
+        ".review_runtime/CATCH_PROOF_RESULT.json"
+      ],
+      "cwd": "/tmp/review_g325_5_zkdc8z/package",
+      "elapsed_seconds": 0.015087674022652209,
+      "extra_env": {},
+      "returncode": 0,
+      "stderr": "",
+      "stdout": "{\n  \"assertion_count\": 5,\n  \"controls\": {\n    \"false_periodic_scaling_rejected\": true,\n    \"physical_shear_as_gauge_rejected\": true,\n    \"removed_exponent_constraint_rejected\": true,\n    \"wrong_kasner_tangent_rejected\": true,\n    \"wrong_scalar_directional_shape_rejected\": true\n  },\n  \"schema\": \"udt-g325-catch-proofs-v1\",\n  \"status\": \"PASS\"\n}\n"
+    },
+    {
+      "argv": [
+        "python3",
+        "-B",
+        "-S",
+        "verify_package.py"
+      ],
+      "cwd": "/tmp/review_g325_5_zkdc8z/package",
+      "elapsed_seconds": 0.03662171197356656,
+      "extra_env": {},
+      "returncode": 1,
+      "stderr": "Traceback (most recent call last):\n  File \"/tmp/review_g325_5_zkdc8z/package/verify_package.py\", line 122, in <module>\n    main()\n  File \"/tmp/review_g325_5_zkdc8z/package/verify_package.py\", line 106, in main\n    gate(load(generated) == load(package / artifact), f\"replay_exact:{artifact}\")\n  File \"/tmp/review_g325_5_zkdc8z/package/verify_package.py\", line 31, in gate\n    assert condition, name\nAssertionError: replay_exact:DERIVATION_RESULT.json\n",
+      "stdout": ""
+    },
+    {
+      "argv": [
+        "python3",
+        "-B",
+        "-S",
+        "verify_package.py"
+      ],
+      "cwd": "/tmp/review_g325_5_zkdc8z/package",
+      "elapsed_seconds": 0.1268909460050054,
+      "extra_env": {},
+      "returncode": 0,
+      "stderr": "",
+      "stdout": "{\n  \"assertion_count\": 41,\n  \"checks\": [\n    \"production_landing\",\n    \"production_assertion_count\",\n    \"independent_assertion_count\",\n    \"hostile_assertion_count\",\n    \"exact_mode_dimensions\",\n    \"production_scalar_witness\",\n    \"independent_scalar_witness\",\n    \"independent_shear_witness\",\n    \"independent_no_production_import\",\n    \"independent_no_result_read\",\n    \"all_hostile_controls\",\n    \"no_full_linear_overclaim\",\n    \"no_nonlinear_overclaim\",\n    \"inhomogeneous_open\",\n    \"offdiagonal_open\",\n    \"occupancy_open\",\n    \"scale_open\",\n    \"xmax_open\",\n    \"native_objects_unchanged\",\n    \"static_no_production_import\",\n    \"static_no_production_result_read\",\n    \"exact_landing_token\",\n    \"exact_stability_boundary\",\n    \"lay_stability_boundary\",\n    \"status_external_acceptance\",\n    \"fresh_external_review_pass\",\n    \"repair_followup_pass\",\n    \"vacuous_production_gate_removed\",\n    \"fresh_review_acceptance_token\",\n    \"repair_followup_acceptance_token\",\n    \"registered_command_count\",\n    \"replay_exit:DERIVATION_RESULT.json\",\n    \"replay_created:DERIVATION_RESULT.json\",\n    \"replay_scientific_exact:DERIVATION_RESULT.json\",\n    \"replay_exit:INDEPENDENT_VERIFICATION.json\",\n    \"replay_created:INDEPENDENT_VERIFICATION.json\",\n    \"replay_scientific_exact:INDEPENDENT_VERIFICATION.json\",\n    \"replay_exit:CATCH_PROOF_RESULT.json\",\n    \"replay_created:CATCH_PROOF_RESULT.json\",\n    \"replay_scientific_exact:CATCH_PROOF_RESULT.json\",\n    \"fourth_command_self\"\n  ],\n  \"exact_replay\": false,\n  \"exact_scientific_replay\": true,\n  \"landing\": \"HOMOGENEOUS_DIAGONAL_MODES_CLOSE_AS_TIME_GAUGE__THREE_QUOTIENT_LATTICE_MODULI__ONE_LOCAL_KASNER_SHEAR__ONE_CONNECTED_SCALAR_MODE__NO_FULL_STABILITY_CLAIM\",\n  \"python_version\": \"3.10.12 (main, Aug 31 2026, 10:18:17) [GCC 11.4.0]\",\n  \"replay_records\": {\n    \"CATCH_PROOF_RESULT.json\": {\n      \"exact_replay\": true,\n      \"exact_scientific_replay\": true,\n      \"runtime_provenance\": {}\n    },\n    \"DERIVATION_RESULT.json\": {\n      \"exact_replay\": false,\n      \"exact_scientific_replay\": true,\n      \"runtime_provenance\": {\n        \"python_version\": {\n          \"equal\": false,\n          \"replayed\": \"3.10.12 (main, Aug 31 2026, 10:18:17) [GCC 11.4.0]\",\n          \"saved\": \"3.10.12 (main, Jun 22 2026, 18:55:27) [GCC 11.4.0]\"\n        }\n      }\n    },\n    \"INDEPENDENT_VERIFICATION.json\": {\n      \"exact_replay\": false,\n      \"exact_scientific_replay\": true,\n      \"runtime_provenance\": {\n        \"python_version\": {\n          \"equal\": false,\n          \"replayed\": \"3.10.12 (main, Aug 31 2026, 10:18:17) [GCC 11.4.0]\",\n          \"saved\": \"3.10.12 (main, Jun 22 2026, 18:55:27) [GCC 11.4.0]\"\n        }\n      }\n    }\n  },\n  \"schema\": \"udt-g325-package-verification-v2\",\n  \"status\": \"PASS_EXTERNALLY_ACCEPTED_AFTER_R1_REPAIR\"\n}\n"
+    },
+    {
+      "argv": [
+        "python3",
+        "-B",
+        "-S",
+        "verify_package.py"
+      ],
+      "cwd": "/tmp/review_g325_5_zkdc8z/package",
+      "elapsed_seconds": 0.03960048098815605,
+      "extra_env": {},
+      "returncode": 1,
+      "stderr": "Traceback (most recent call last):\n  File \"/tmp/review_g325_5_zkdc8z/package/verify_package.py\", line 156, in <module>\n    main()\n  File \"/tmp/review_g325_5_zkdc8z/package/verify_package.py\", line 137, in main\n    gate(comparison[\"exact_scientific_replay\"], f\"replay_scientific_exact:{artifact}\")\n  File \"/tmp/review_g325_5_zkdc8z/package/verify_package.py\", line 57, in gate\n    raise AssertionError(name)\nAssertionError: replay_scientific_exact:DERIVATION_RESULT.json\n",
+      "stdout": ""
+    },
+    {
+      "argv": [
+        "python3",
+        "-B",
+        "-S",
+        "verify_package.py"
+      ],
+      "cwd": "/tmp/review_g325_5_zkdc8z/package",
+      "elapsed_seconds": 0.03860285400878638,
+      "extra_env": {},
+      "returncode": 1,
+      "stderr": "Traceback (most recent call last):\n  File \"/tmp/review_g325_5_zkdc8z/package/verify_package.py\", line 156, in <module>\n    main()\n  File \"/tmp/review_g325_5_zkdc8z/package/verify_package.py\", line 137, in main\n    gate(comparison[\"exact_scientific_replay\"], f\"replay_scientific_exact:{artifact}\")\n  File \"/tmp/review_g325_5_zkdc8z/package/verify_package.py\", line 57, in gate\n    raise AssertionError(name)\nAssertionError: replay_scientific_exact:DERIVATION_RESULT.json\n",
+      "stdout": ""
+    },
+    {
+      "argv": [
+        "python3",
+        "-B",
+        "-S",
+        "verify_package.py"
+      ],
+      "cwd": "/tmp/review_g325_5_zkdc8z/package",
+      "elapsed_seconds": 0.035126780974678695,
+      "extra_env": {},
+      "returncode": 1,
+      "stderr": "Traceback (most recent call last):\n  File \"/tmp/review_g325_5_zkdc8z/package/verify_package.py\", line 156, in <module>\n    main()\n  File \"/tmp/review_g325_5_zkdc8z/package/verify_package.py\", line 137, in main\n    gate(comparison[\"exact_scientific_replay\"], f\"replay_scientific_exact:{artifact}\")\n  File \"/tmp/review_g325_5_zkdc8z/package/verify_package.py\", line 57, in gate\n    raise AssertionError(name)\nAssertionError: replay_scientific_exact:DERIVATION_RESULT.json\n",
+      "stdout": ""
+    },
+    {
+      "argv": [
+        "python3",
+        "-B",
+        "-S",
+        "verify_package.py"
+      ],
+      "cwd": "/tmp/review_g325_5_zkdc8z/package",
+      "elapsed_seconds": 0.041690533980727196,
+      "extra_env": {},
+      "returncode": 1,
+      "stderr": "Traceback (most recent call last):\n  File \"/tmp/review_g325_5_zkdc8z/package/verify_package.py\", line 156, in <module>\n    main()\n  File \"/tmp/review_g325_5_zkdc8z/package/verify_package.py\", line 135, in main\n    comparison = compare_replay(load(package / artifact), load(generated),\n  File \"/tmp/review_g325_5_zkdc8z/package/verify_package.py\", line 32, in compare_replay\n    raise ValueError(f\"{label}: missing or invalid runtime field {key}\")\nValueError: saved: missing or invalid runtime field python_version\n",
+      "stdout": ""
+    },
+    {
+      "argv": [
+        "python3",
+        "-B",
+        "-S",
+        "verify_package.py"
+      ],
+      "cwd": "/tmp/review_g325_5_zkdc8z/package",
+      "elapsed_seconds": 0.040358273952733725,
+      "extra_env": {},
+      "returncode": 1,
+      "stderr": "Traceback (most recent call last):\n  File \"/tmp/review_g325_5_zkdc8z/package/verify_package.py\", line 156, in <module>\n    main()\n  File \"/tmp/review_g325_5_zkdc8z/package/verify_package.py\", line 135, in main\n    comparison = compare_replay(load(package / artifact), load(generated),\n  File \"/tmp/review_g325_5_zkdc8z/package/verify_package.py\", line 32, in compare_replay\n    raise ValueError(f\"{label}: missing or invalid runtime field {key}\")\nValueError: saved: missing or invalid runtime field python_version\n",
+      "stdout": ""
+    },
+    {
+      "argv": [
+        "python3",
+        "-B",
+        "-S",
+        "verify_package.py"
+      ],
+      "cwd": "/tmp/review_g325_5_zkdc8z/package",
+      "elapsed_seconds": 0.114356959995348,
+      "extra_env": {},
+      "returncode": 1,
+      "stderr": "Traceback (most recent call last):\n  File \"/tmp/review_g325_5_zkdc8z/package/verify_package.py\", line 156, in <module>\n    main()\n  File \"/tmp/review_g325_5_zkdc8z/package/verify_package.py\", line 137, in main\n    gate(comparison[\"exact_scientific_replay\"], f\"replay_scientific_exact:{artifact}\")\n  File \"/tmp/review_g325_5_zkdc8z/package/verify_package.py\", line 57, in gate\n    raise AssertionError(name)\nAssertionError: replay_scientific_exact:INDEPENDENT_VERIFICATION.json\n",
+      "stdout": ""
+    },
+    {
+      "argv": [
+        "python3",
+        "-B",
+        "-S",
+        "verify_package.py"
+      ],
+      "cwd": "/tmp/review_g325_5_zkdc8z/package",
+      "elapsed_seconds": 0.11445110198110342,
+      "extra_env": {},
+      "returncode": 1,
+      "stderr": "Traceback (most recent call last):\n  File \"/tmp/review_g325_5_zkdc8z/package/verify_package.py\", line 156, in <module>\n    main()\n  File \"/tmp/review_g325_5_zkdc8z/package/verify_package.py\", line 137, in main\n    gate(comparison[\"exact_scientific_replay\"], f\"replay_scientific_exact:{artifact}\")\n  File \"/tmp/review_g325_5_zkdc8z/package/verify_package.py\", line 57, in gate\n    raise AssertionError(name)\nAssertionError: replay_scientific_exact:INDEPENDENT_VERIFICATION.json\n",
+      "stdout": ""
+    },
+    {
+      "argv": [
+        "python3",
+        "-B",
+        "-S",
+        "verify_package.py"
+      ],
+      "cwd": "/tmp/review_g325_5_zkdc8z/package",
+      "elapsed_seconds": 0.1154693880234845,
+      "extra_env": {},
+      "returncode": 1,
+      "stderr": "Traceback (most recent call last):\n  File \"/tmp/review_g325_5_zkdc8z/package/verify_package.py\", line 156, in <module>\n    main()\n  File \"/tmp/review_g325_5_zkdc8z/package/verify_package.py\", line 135, in main\n    comparison = compare_replay(load(package / artifact), load(generated),\n  File \"/tmp/review_g325_5_zkdc8z/package/verify_package.py\", line 32, in compare_replay\n    raise ValueError(f\"{label}: missing or invalid runtime field {key}\")\nValueError: saved: missing or invalid runtime field python_version\n",
+      "stdout": ""
+    },
+    {
+      "argv": [
+        "python3",
+        "-B",
+        "-S",
+        "verify_package.py"
+      ],
+      "cwd": "/tmp/review_g325_5_zkdc8z/package",
+      "elapsed_seconds": 0.13068304397165775,
+      "extra_env": {},
+      "returncode": 1,
+      "stderr": "Traceback (most recent call last):\n  File \"/tmp/review_g325_5_zkdc8z/package/verify_package.py\", line 156, in <module>\n    main()\n  File \"/tmp/review_g325_5_zkdc8z/package/verify_package.py\", line 137, in main\n    gate(comparison[\"exact_scientific_replay\"], f\"replay_scientific_exact:{artifact}\")\n  File \"/tmp/review_g325_5_zkdc8z/package/verify_package.py\", line 57, in gate\n    raise AssertionError(name)\nAssertionError: replay_scientific_exact:CATCH_PROOF_RESULT.json\n",
+      "stdout": ""
+    },
+    {
+      "argv": [
+        "python3",
+        "-B",
+        "-S",
+        "verify_package.py"
+      ],
+      "cwd": "/tmp/review_g325_5_zkdc8z/package",
+      "elapsed_seconds": 0.1312408859957941,
+      "extra_env": {},
+      "returncode": 1,
+      "stderr": "Traceback (most recent call last):\n  File \"/tmp/review_g325_5_zkdc8z/package/verify_package.py\", line 156, in <module>\n    main()\n  File \"/tmp/review_g325_5_zkdc8z/package/verify_package.py\", line 137, in main\n    gate(comparison[\"exact_scientific_replay\"], f\"replay_scientific_exact:{artifact}\")\n  File \"/tmp/review_g325_5_zkdc8z/package/verify_package.py\", line 57, in gate\n    raise AssertionError(name)\nAssertionError: replay_scientific_exact:CATCH_PROOF_RESULT.json\n",
+      "stdout": ""
+    },
+    {
+      "argv": [
+        "python3",
+        "-B",
+        "-S",
+        "-O",
+        "verify_package.py"
+      ],
+      "cwd": "/tmp/review_g325_5_zkdc8z/package",
+      "elapsed_seconds": 0.07329944201046601,
+      "extra_env": {},
+      "returncode": 1,
+      "stderr": "Traceback (most recent call last):\n  File \"/tmp/review_g325_5_zkdc8z/package/verify_package.py\", line 156, in <module>\n    main()\n  File \"/tmp/review_g325_5_zkdc8z/package/verify_package.py\", line 51, in main\n    raise RuntimeError(\"G325 replay requires assertions enabled; do not use -O\")\nRuntimeError: G325 replay requires assertions enabled; do not use -O\n",
+      "stdout": ""
+    },
+    {
+      "argv": [
+        "python3",
+        "-B",
+        "-S",
+        "-OO",
+        "verify_package.py"
+      ],
+      "cwd": "/tmp/review_g325_5_zkdc8z/package",
+      "elapsed_seconds": 0.0726181700010784,
+      "extra_env": {},
+      "returncode": 1,
+      "stderr": "Traceback (most recent call last):\n  File \"/tmp/review_g325_5_zkdc8z/package/verify_package.py\", line 156, in <module>\n    main()\n  File \"/tmp/review_g325_5_zkdc8z/package/verify_package.py\", line 51, in main\n    raise RuntimeError(\"G325 replay requires assertions enabled; do not use -O\")\nRuntimeError: G325 replay requires assertions enabled; do not use -O\n",
+      "stdout": ""
+    },
+    {
+      "argv": [
+        "python3",
+        "-B",
+        "-S",
+        "verify_package.py"
+      ],
+      "cwd": "/tmp/review_g325_5_zkdc8z/package",
+      "elapsed_seconds": 0.07432280899956822,
+      "extra_env": {
+        "PYTHONOPTIMIZE": "1"
+      },
+      "returncode": 1,
+      "stderr": "Traceback (most recent call last):\n  File \"/tmp/review_g325_5_zkdc8z/package/verify_package.py\", line 156, in <module>\n    main()\n  File \"/tmp/review_g325_5_zkdc8z/package/verify_package.py\", line 51, in main\n    raise RuntimeError(\"G325 replay requires assertions enabled; do not use -O\")\nRuntimeError: G325 replay requires assertions enabled; do not use -O\n",
+      "stdout": ""
+    }
+  ],
+  "harness_sha256": "ba320cac9eeb4e9ad42f027b41cb0c013de86a99aad0906770464f24609997c6",
+  "helper_case_count": 309,
+  "helper_coverage": {
+    "CATCH_PROOF_RESULT.json": 22,
+    "DERIVATION_RESULT.json": 118,
+    "INDEPENDENT_VERIFICATION.json": 162
+  },
+  "original_package_files_after": [
+    {
+      "baseline_sha256": "970339132ce7084e2de31dac6c6cdfe167ff0adc2d9c5af3edd9e02acb0936b1",
+      "current_sha256": "970339132ce7084e2de31dac6c6cdfe167ff0adc2d9c5af3edd9e02acb0936b1",
+      "path": "udt_g325_g324_homogeneous_diagonal_linear_modes_2026-09-02/ADVERSARIAL_REVIEW_REQUEST.md",
+      "unchanged": true
+    },
+    {
+      "baseline_sha256": "d5a1a223c48b3e783d58ecb728f495aa0202b6c172c19c0b0766b29c925c68fb",
+      "current_sha256": "d5a1a223c48b3e783d58ecb728f495aa0202b6c172c19c0b0766b29c925c68fb",
+      "path": "udt_g325_g324_homogeneous_diagonal_linear_modes_2026-09-02/AUDIT_REPORT.md",
+      "unchanged": true
+    },
+    {
+      "baseline_sha256": "7f1d2cb484c25bb7d773f5dd5cd9f71ea5c2265491ee622111d5b1293a35b609",
+      "current_sha256": "7f1d2cb484c25bb7d773f5dd5cd9f71ea5c2265491ee622111d5b1293a35b609",
+      "path": "udt_g325_g324_homogeneous_diagonal_linear_modes_2026-09-02/CATCH_PROOF_RESULT.json",
+      "unchanged": true
+    },
+    {
+      "baseline_sha256": "d62b7c4c9fe9939787a8fdbc1c8426750c756c3259e79d680afb5620ea4bdab6",
+      "current_sha256": "d62b7c4c9fe9939787a8fdbc1c8426750c756c3259e79d680afb5620ea4bdab6",
+      "path": "udt_g325_g324_homogeneous_diagonal_linear_modes_2026-09-02/COMPLETENESS_MAP.md",
+      "unchanged": true
+    },
+    {
+      "baseline_sha256": "1e37ab61628aa9bd156dd573d37bd74bc6dbeac1464661f4d70c7b8312817e71",
+      "current_sha256": "1e37ab61628aa9bd156dd573d37bd74bc6dbeac1464661f4d70c7b8312817e71",
+      "path": "udt_g325_g324_homogeneous_diagonal_linear_modes_2026-09-02/DERIVATION_RESULT.json",
+      "unchanged": true
+    },
+    {
+      "baseline_sha256": "d881ee1e3832f1a755a32191ea1512e9e7efc1e64278910393f692cecd8ce49b",
+      "current_sha256": "d881ee1e3832f1a755a32191ea1512e9e7efc1e64278910393f692cecd8ce49b",
+      "path": "udt_g325_g324_homogeneous_diagonal_linear_modes_2026-09-02/EVIDENCE_GATES.md",
+      "unchanged": true
+    },
+    {
+      "baseline_sha256": "b3ddb761d74fc5a712bda41af090b9c0610f4560758f678905b3860f3bb7a99c",
+      "current_sha256": "b3ddb761d74fc5a712bda41af090b9c0610f4560758f678905b3860f3bb7a99c",
+      "path": "udt_g325_g324_homogeneous_diagonal_linear_modes_2026-09-02/EXACT_DERIVATION.md",
+      "unchanged": true
+    },
+    {
+      "baseline_sha256": "cc7aca8a2f8af56c03f8a92481318ab97111c89c8234cefe28a06c2aa2a268b8",
+      "current_sha256": "cc7aca8a2f8af56c03f8a92481318ab97111c89c8234cefe28a06c2aa2a268b8",
+      "path": "udt_g325_g324_homogeneous_diagonal_linear_modes_2026-09-02/EXTERNAL_REPAIR_FOLLOWUP_FINAL_RESPONSE.md",
+      "unchanged": true
+    },
+    {
+      "baseline_sha256": "c4e204fc0c1898e3e796104766f905d81150f99b2c30532baa41afe066a27f1d",
+      "current_sha256": "c4e204fc0c1898e3e796104766f905d81150f99b2c30532baa41afe066a27f1d",
+      "path": "udt_g325_g324_homogeneous_diagonal_linear_modes_2026-09-02/EXTERNAL_REPAIR_FOLLOWUP_RESPONSE.md",
+      "unchanged": true
+    },
+    {
+      "baseline_sha256": "b6509ad6fad5a2fc3d421a86bebe6a25e141eb490f618eb54c0781e1892cb7d4",
+      "current_sha256": "b6509ad6fad5a2fc3d421a86bebe6a25e141eb490f618eb54c0781e1892cb7d4",
+      "path": "udt_g325_g324_homogeneous_diagonal_linear_modes_2026-09-02/EXTERNAL_REPAIR_FOLLOWUP_TRANSCRIPT.txt",
+      "unchanged": true
+    },
+    {
+      "baseline_sha256": "caa93fa925c3ae6cc0e16f310e78c382147eed410e47028d58bc4e3edaa84828",
+      "current_sha256": "caa93fa925c3ae6cc0e16f310e78c382147eed410e47028d58bc4e3edaa84828",
+      "path": "udt_g325_g324_homogeneous_diagonal_linear_modes_2026-09-02/EXTERNAL_REPAIR_FOLLOWUP_TRANSMISSION.md",
+      "unchanged": true
+    },
+    {
+      "baseline_sha256": "3373afb9640c24899b152200d92491b6c0ca9f6e1055c9c2f1b121108748477c",
+      "current_sha256": "3373afb9640c24899b152200d92491b6c0ca9f6e1055c9c2f1b121108748477c",
+      "path": "udt_g325_g324_homogeneous_diagonal_linear_modes_2026-09-02/EXTERNAL_REVIEW_FINAL_RESPONSE.md",
+      "unchanged": true
+    },
+    {
+      "baseline_sha256": "84cc1ef072368588019a0fb32eb10d4ff9def022051ff0331a329d71d6903ed3",
+      "current_sha256": "84cc1ef072368588019a0fb32eb10d4ff9def022051ff0331a329d71d6903ed3",
+      "path": "udt_g325_g324_homogeneous_diagonal_linear_modes_2026-09-02/EXTERNAL_REVIEW_RESPONSE.md",
+      "unchanged": true
+    },
+    {
+      "baseline_sha256": "bcf449cfac9a31b281e19048a514ce9f3316d31ec557136d8808e44cda572465",
+      "current_sha256": "bcf449cfac9a31b281e19048a514ce9f3316d31ec557136d8808e44cda572465",
+      "path": "udt_g325_g324_homogeneous_diagonal_linear_modes_2026-09-02/EXTERNAL_REVIEW_TRANSCRIPT.txt",
+      "unchanged": true
+    },
+    {
+      "baseline_sha256": "85e63a6cd86566314c632601cc13889e0f4d5ceba3ddc99177715e29a0dd2d8f",
+      "current_sha256": "85e63a6cd86566314c632601cc13889e0f4d5ceba3ddc99177715e29a0dd2d8f",
+      "path": "udt_g325_g324_homogeneous_diagonal_linear_modes_2026-09-02/EXTERNAL_REVIEW_TRANSMISSION.md",
+      "unchanged": true
+    },
+    {
+      "baseline_sha256": "103a8b40e208fb831d8661154359c4109ca4023bfe24c3071ca8a4d3e22bea94",
+      "current_sha256": "103a8b40e208fb831d8661154359c4109ca4023bfe24c3071ca8a4d3e22bea94",
+      "path": "udt_g325_g324_homogeneous_diagonal_linear_modes_2026-09-02/INDEPENDENT_VERIFICATION.json",
+      "unchanged": true
+    },
+    {
+      "baseline_sha256": "cbf3b5112b6858df4d1ec4d9c2e618951a6447f4ab104e1a22a051f14710e769",
+      "current_sha256": "cbf3b5112b6858df4d1ec4d9c2e618951a6447f4ab104e1a22a051f14710e769",
+      "path": "udt_g325_g324_homogeneous_diagonal_linear_modes_2026-09-02/LAY_REPORT.md",
+      "unchanged": true
+    },
+    {
+      "baseline_sha256": "2d95348e1f3094bd5c9e5c84a44d4b31a592575f3736f4689015242ae36638b3",
+      "current_sha256": "2d95348e1f3094bd5c9e5c84a44d4b31a592575f3736f4689015242ae36638b3",
+      "path": "udt_g325_g324_homogeneous_diagonal_linear_modes_2026-09-02/MAP.md",
+      "unchanged": true
+    },
+    {
+      "baseline_sha256": "a79dae7bf708c1c3b710c4b76685b13e08d5ae44b2952c406f35aa21a13d6892",
+      "current_sha256": "a79dae7bf708c1c3b710c4b76685b13e08d5ae44b2952c406f35aa21a13d6892",
+      "path": "udt_g325_g324_homogeneous_diagonal_linear_modes_2026-09-02/PACKAGE_VERIFICATION_RESULT.json",
+      "unchanged": true
+    },
+    {
+      "baseline_sha256": "43c3cbb2057f3eeaaf78d25ceee926fd3ca11bd4104a62f9a42bb15a7b450176",
+      "current_sha256": "43c3cbb2057f3eeaaf78d25ceee926fd3ca11bd4104a62f9a42bb15a7b450176",
+      "path": "udt_g325_g324_homogeneous_diagonal_linear_modes_2026-09-02/PREMISE_LEDGER.tsv",
+      "unchanged": true
+    },
+    {
+      "baseline_sha256": "3e14b8cf5ed8a5587a46e092ba5bac614680ea505e1625a0a35a7981958d2fd5",
+      "current_sha256": "3e14b8cf5ed8a5587a46e092ba5bac614680ea505e1625a0a35a7981958d2fd5",
+      "path": "udt_g325_g324_homogeneous_diagonal_linear_modes_2026-09-02/PREREGISTRATION.md",
+      "unchanged": true
+    },
+    {
+      "baseline_sha256": "7c9c38f13eb65cddcc3203de1c3aa551c88e65279dc2bafbb1c66560fc66a710",
+      "current_sha256": "7c9c38f13eb65cddcc3203de1c3aa551c88e65279dc2bafbb1c66560fc66a710",
+      "path": "udt_g325_g324_homogeneous_diagonal_linear_modes_2026-09-02/REPAIR_FOLLOWUP_REQUEST.md",
+      "unchanged": true
+    },
+    {
+      "baseline_sha256": "c62bf2fe0b926d62e1564752dfb38b2f3e825c2f821cb4ee577a7cdef60abe6d",
+      "current_sha256": "c62bf2fe0b926d62e1564752dfb38b2f3e825c2f821cb4ee577a7cdef60abe6d",
+      "path": "udt_g325_g324_homogeneous_diagonal_linear_modes_2026-09-02/REPAIR_LEDGER.tsv",
+      "unchanged": true
+    },
+    {
+      "baseline_sha256": "4976d35f32425dd2df9d9d0857d42be3daa188fc62a91446c543ec91cd8399be",
+      "current_sha256": "4976d35f32425dd2df9d9d0857d42be3daa188fc62a91446c543ec91cd8399be",
+      "path": "udt_g325_g324_homogeneous_diagonal_linear_modes_2026-09-02/REPLAY_COMMANDS.txt",
+      "unchanged": true
+    },
+    {
+      "baseline_sha256": "9d755b71ca0f1863805872e47895e266bbcbf2ad3420d7eaa4e3c83bf146da12",
+      "current_sha256": "9d755b71ca0f1863805872e47895e266bbcbf2ad3420d7eaa4e3c83bf146da12",
+      "path": "udt_g325_g324_homogeneous_diagonal_linear_modes_2026-09-02/RUN_RECORD.md",
+      "unchanged": true
+    },
+    {
+      "baseline_sha256": "f59fb0fbaf31fc893eeae1e844601208f0f1715d9645471f7935ae8b913e7c05",
+      "current_sha256": "f59fb0fbaf31fc893eeae1e844601208f0f1715d9645471f7935ae8b913e7c05",
+      "path": "udt_g325_g324_homogeneous_diagonal_linear_modes_2026-09-02/SOURCE_SCOPE.tsv",
+      "unchanged": true
+    },
+    {
+      "baseline_sha256": "0b9052d5f67f6af3032f47f6e327fbf62f737b94c366068495f8af06e561f77b",
+      "current_sha256": "0b9052d5f67f6af3032f47f6e327fbf62f737b94c366068495f8af06e561f77b",
+      "path": "udt_g325_g324_homogeneous_diagonal_linear_modes_2026-09-02/STATUS_LEDGER.tsv",
+      "unchanged": true
+    },
+    {
+      "baseline_sha256": "641417912e3c1ce331c32be8d4d2c33c1ba7a74f48e7fa9e0d0a819efec914a1",
+      "current_sha256": "641417912e3c1ce331c32be8d4d2c33c1ba7a74f48e7fa9e0d0a819efec914a1",
+      "path": "udt_g325_g324_homogeneous_diagonal_linear_modes_2026-09-02/build_repair_followup_intake.py",
+      "unchanged": true
+    },
+    {
+      "baseline_sha256": "5259912a2dda61b044194494be5bdba058e501fd4cda2229e8b36426d215d301",
+      "current_sha256": "5259912a2dda61b044194494be5bdba058e501fd4cda2229e8b36426d215d301",
+      "path": "udt_g325_g324_homogeneous_diagonal_linear_modes_2026-09-02/build_review_intake.py",
+      "unchanged": true
+    },
+    {
+      "baseline_sha256": "7b1141de9a16a68c647a806af7d2935bc70c5b3b2a975e207203130e8b4d10cd",
+      "current_sha256": "7b1141de9a16a68c647a806af7d2935bc70c5b3b2a975e207203130e8b4d10cd",
+      "path": "udt_g325_g324_homogeneous_diagonal_linear_modes_2026-09-02/derive_modes.py",
+      "unchanged": true
+    },
+    {
+      "baseline_sha256": "3c9a419c71ac4aff4e02e22c797d5df041af8f8348fc273c0f7943a5ed248f90",
+      "current_sha256": "3c9a419c71ac4aff4e02e22c797d5df041af8f8348fc273c0f7943a5ed248f90",
+      "path": "udt_g325_g324_homogeneous_diagonal_linear_modes_2026-09-02/launch_external_review.sh",
+      "unchanged": true
+    },
+    {
+      "baseline_sha256": "36679c35ec4a143a100f352701fb5fb1169565840419b233980ac285a3a562bb",
+      "current_sha256": "36679c35ec4a143a100f352701fb5fb1169565840419b233980ac285a3a562bb",
+      "path": "udt_g325_g324_homogeneous_diagonal_linear_modes_2026-09-02/launch_repair_followup_review.sh",
+      "unchanged": true
+    },
+    {
+      "baseline_sha256": "055e639a00eb0a575eebe93ccc0fecfcf61e68bf66041132f944fb50ecbe6e90",
+      "current_sha256": "055e639a00eb0a575eebe93ccc0fecfcf61e68bf66041132f944fb50ecbe6e90",
+      "path": "udt_g325_g324_homogeneous_diagonal_linear_modes_2026-09-02/run_catch_proofs.py",
+      "unchanged": true
+    },
+    {
+      "baseline_sha256": "8016acab91bf4d0dcbaf49736597cdc152a5ebaa0f395547aef9d632399e137f",
+      "current_sha256": "8016acab91bf4d0dcbaf49736597cdc152a5ebaa0f395547aef9d632399e137f",
+      "path": "udt_g325_g324_homogeneous_diagonal_linear_modes_2026-09-02/verify_independent.py",
+      "unchanged": true
+    },
+    {
+      "baseline_sha256": "968a1948aa9ccd4f0157af249c45c50d737ce01a38e8bae72801212cfa5c092d",
+      "current_sha256": "5a272422a731404c119def22d3d92c2f8baf1fc5fd2cd183db1d00a956bc01b0",
+      "path": "udt_g325_g324_homogeneous_diagonal_linear_modes_2026-09-02/verify_package.py",
+      "unchanged": false
+    },
+    {
+      "baseline_sha256": "a190f9fb00bdabad94ea4bd61fe2f75a66d77999f6431803b2f1d77a4a0e2958",
+      "current_sha256": "a190f9fb00bdabad94ea4bd61fe2f75a66d77999f6431803b2f1d77a4a0e2958",
+      "path": "udt_g325_g324_homogeneous_diagonal_linear_modes_2026-09-02/verify_review_intake.py",
+      "unchanged": true
+    }
+  ],
+  "original_package_files_before": [
+    {
+      "baseline_sha256": "970339132ce7084e2de31dac6c6cdfe167ff0adc2d9c5af3edd9e02acb0936b1",
+      "current_sha256": "970339132ce7084e2de31dac6c6cdfe167ff0adc2d9c5af3edd9e02acb0936b1",
+      "path": "udt_g325_g324_homogeneous_diagonal_linear_modes_2026-09-02/ADVERSARIAL_REVIEW_REQUEST.md",
+      "unchanged": true
+    },
+    {
+      "baseline_sha256": "d5a1a223c48b3e783d58ecb728f495aa0202b6c172c19c0b0766b29c925c68fb",
+      "current_sha256": "d5a1a223c48b3e783d58ecb728f495aa0202b6c172c19c0b0766b29c925c68fb",
+      "path": "udt_g325_g324_homogeneous_diagonal_linear_modes_2026-09-02/AUDIT_REPORT.md",
+      "unchanged": true
+    },
+    {
+      "baseline_sha256": "7f1d2cb484c25bb7d773f5dd5cd9f71ea5c2265491ee622111d5b1293a35b609",
+      "current_sha256": "7f1d2cb484c25bb7d773f5dd5cd9f71ea5c2265491ee622111d5b1293a35b609",
+      "path": "udt_g325_g324_homogeneous_diagonal_linear_modes_2026-09-02/CATCH_PROOF_RESULT.json",
+      "unchanged": true
+    },
+    {
+      "baseline_sha256": "d62b7c4c9fe9939787a8fdbc1c8426750c756c3259e79d680afb5620ea4bdab6",
+      "current_sha256": "d62b7c4c9fe9939787a8fdbc1c8426750c756c3259e79d680afb5620ea4bdab6",
+      "path": "udt_g325_g324_homogeneous_diagonal_linear_modes_2026-09-02/COMPLETENESS_MAP.md",
+      "unchanged": true
+    },
+    {
+      "baseline_sha256": "1e37ab61628aa9bd156dd573d37bd74bc6dbeac1464661f4d70c7b8312817e71",
+      "current_sha256": "1e37ab61628aa9bd156dd573d37bd74bc6dbeac1464661f4d70c7b8312817e71",
+      "path": "udt_g325_g324_homogeneous_diagonal_linear_modes_2026-09-02/DERIVATION_RESULT.json",
+      "unchanged": true
+    },
+    {
+      "baseline_sha256": "d881ee1e3832f1a755a32191ea1512e9e7efc1e64278910393f692cecd8ce49b",
+      "current_sha256": "d881ee1e3832f1a755a32191ea1512e9e7efc1e64278910393f692cecd8ce49b",
+      "path": "udt_g325_g324_homogeneous_diagonal_linear_modes_2026-09-02/EVIDENCE_GATES.md",
+      "unchanged": true
+    },
+    {
+      "baseline_sha256": "b3ddb761d74fc5a712bda41af090b9c0610f4560758f678905b3860f3bb7a99c",
+      "current_sha256": "b3ddb761d74fc5a712bda41af090b9c0610f4560758f678905b3860f3bb7a99c",
+      "path": "udt_g325_g324_homogeneous_diagonal_linear_modes_2026-09-02/EXACT_DERIVATION.md",
+      "unchanged": true
+    },
+    {
+      "baseline_sha256": "cc7aca8a2f8af56c03f8a92481318ab97111c89c8234cefe28a06c2aa2a268b8",
+      "current_sha256": "cc7aca8a2f8af56c03f8a92481318ab97111c89c8234cefe28a06c2aa2a268b8",
+      "path": "udt_g325_g324_homogeneous_diagonal_linear_modes_2026-09-02/EXTERNAL_REPAIR_FOLLOWUP_FINAL_RESPONSE.md",
+      "unchanged": true
+    },
+    {
+      "baseline_sha256": "c4e204fc0c1898e3e796104766f905d81150f99b2c30532baa41afe066a27f1d",
+      "current_sha256": "c4e204fc0c1898e3e796104766f905d81150f99b2c30532baa41afe066a27f1d",
+      "path": "udt_g325_g324_homogeneous_diagonal_linear_modes_2026-09-02/EXTERNAL_REPAIR_FOLLOWUP_RESPONSE.md",
+      "unchanged": true
+    },
+    {
+      "baseline_sha256": "b6509ad6fad5a2fc3d421a86bebe6a25e141eb490f618eb54c0781e1892cb7d4",
+      "current_sha256": "b6509ad6fad5a2fc3d421a86bebe6a25e141eb490f618eb54c0781e1892cb7d4",
+      "path": "udt_g325_g324_homogeneous_diagonal_linear_modes_2026-09-02/EXTERNAL_REPAIR_FOLLOWUP_TRANSCRIPT.txt",
+      "unchanged": true
+    },
+    {
+      "baseline_sha256": "caa93fa925c3ae6cc0e16f310e78c382147eed410e47028d58bc4e3edaa84828",
+      "current_sha256": "caa93fa925c3ae6cc0e16f310e78c382147eed410e47028d58bc4e3edaa84828",
+      "path": "udt_g325_g324_homogeneous_diagonal_linear_modes_2026-09-02/EXTERNAL_REPAIR_FOLLOWUP_TRANSMISSION.md",
+      "unchanged": true
+    },
+    {
+      "baseline_sha256": "3373afb9640c24899b152200d92491b6c0ca9f6e1055c9c2f1b121108748477c",
+      "current_sha256": "3373afb9640c24899b152200d92491b6c0ca9f6e1055c9c2f1b121108748477c",
+      "path": "udt_g325_g324_homogeneous_diagonal_linear_modes_2026-09-02/EXTERNAL_REVIEW_FINAL_RESPONSE.md",
+      "unchanged": true
+    },
+    {
+      "baseline_sha256": "84cc1ef072368588019a0fb32eb10d4ff9def022051ff0331a329d71d6903ed3",
+      "current_sha256": "84cc1ef072368588019a0fb32eb10d4ff9def022051ff0331a329d71d6903ed3",
+      "path": "udt_g325_g324_homogeneous_diagonal_linear_modes_2026-09-02/EXTERNAL_REVIEW_RESPONSE.md",
+      "unchanged": true
+    },
+    {
+      "baseline_sha256": "bcf449cfac9a31b281e19048a514ce9f3316d31ec557136d8808e44cda572465",
+      "current_sha256": "bcf449cfac9a31b281e19048a514ce9f3316d31ec557136d8808e44cda572465",
+      "path": "udt_g325_g324_homogeneous_diagonal_linear_modes_2026-09-02/EXTERNAL_REVIEW_TRANSCRIPT.txt",
+      "unchanged": true
+    },
+    {
+      "baseline_sha256": "85e63a6cd86566314c632601cc13889e0f4d5ceba3ddc99177715e29a0dd2d8f",
+      "current_sha256": "85e63a6cd86566314c632601cc13889e0f4d5ceba3ddc99177715e29a0dd2d8f",
+      "path": "udt_g325_g324_homogeneous_diagonal_linear_modes_2026-09-02/EXTERNAL_REVIEW_TRANSMISSION.md",
+      "unchanged": true
+    },
+    {
+      "baseline_sha256": "103a8b40e208fb831d8661154359c4109ca4023bfe24c3071ca8a4d3e22bea94",
+      "current_sha256": "103a8b40e208fb831d8661154359c4109ca4023bfe24c3071ca8a4d3e22bea94",
+      "path": "udt_g325_g324_homogeneous_diagonal_linear_modes_2026-09-02/INDEPENDENT_VERIFICATION.json",
+      "unchanged": true
+    },
+    {
+      "baseline_sha256": "cbf3b5112b6858df4d1ec4d9c2e618951a6447f4ab104e1a22a051f14710e769",
+      "current_sha256": "cbf3b5112b6858df4d1ec4d9c2e618951a6447f4ab104e1a22a051f14710e769",
+      "path": "udt_g325_g324_homogeneous_diagonal_linear_modes_2026-09-02/LAY_REPORT.md",
+      "unchanged": true
+    },
+    {
+      "baseline_sha256": "2d95348e1f3094bd5c9e5c84a44d4b31a592575f3736f4689015242ae36638b3",
+      "current_sha256": "2d95348e1f3094bd5c9e5c84a44d4b31a592575f3736f4689015242ae36638b3",
+      "path": "udt_g325_g324_homogeneous_diagonal_linear_modes_2026-09-02/MAP.md",
+      "unchanged": true
+    },
+    {
+      "baseline_sha256": "a79dae7bf708c1c3b710c4b76685b13e08d5ae44b2952c406f35aa21a13d6892",
+      "current_sha256": "a79dae7bf708c1c3b710c4b76685b13e08d5ae44b2952c406f35aa21a13d6892",
+      "path": "udt_g325_g324_homogeneous_diagonal_linear_modes_2026-09-02/PACKAGE_VERIFICATION_RESULT.json",
+      "unchanged": true
+    },
+    {
+      "baseline_sha256": "43c3cbb2057f3eeaaf78d25ceee926fd3ca11bd4104a62f9a42bb15a7b450176",
+      "current_sha256": "43c3cbb2057f3eeaaf78d25ceee926fd3ca11bd4104a62f9a42bb15a7b450176",
+      "path": "udt_g325_g324_homogeneous_diagonal_linear_modes_2026-09-02/PREMISE_LEDGER.tsv",
+      "unchanged": true
+    },
+    {
+      "baseline_sha256": "3e14b8cf5ed8a5587a46e092ba5bac614680ea505e1625a0a35a7981958d2fd5",
+      "current_sha256": "3e14b8cf5ed8a5587a46e092ba5bac614680ea505e1625a0a35a7981958d2fd5",
+      "path": "udt_g325_g324_homogeneous_diagonal_linear_modes_2026-09-02/PREREGISTRATION.md",
+      "unchanged": true
+    },
+    {
+      "baseline_sha256": "7c9c38f13eb65cddcc3203de1c3aa551c88e65279dc2bafbb1c66560fc66a710",
+      "current_sha256": "7c9c38f13eb65cddcc3203de1c3aa551c88e65279dc2bafbb1c66560fc66a710",
+      "path": "udt_g325_g324_homogeneous_diagonal_linear_modes_2026-09-02/REPAIR_FOLLOWUP_REQUEST.md",
+      "unchanged": true
+    },
+    {
+      "baseline_sha256": "c62bf2fe0b926d62e1564752dfb38b2f3e825c2f821cb4ee577a7cdef60abe6d",
+      "current_sha256": "c62bf2fe0b926d62e1564752dfb38b2f3e825c2f821cb4ee577a7cdef60abe6d",
+      "path": "udt_g325_g324_homogeneous_diagonal_linear_modes_2026-09-02/REPAIR_LEDGER.tsv",
+      "unchanged": true
+    },
+    {
+      "baseline_sha256": "4976d35f32425dd2df9d9d0857d42be3daa188fc62a91446c543ec91cd8399be",
+      "current_sha256": "4976d35f32425dd2df9d9d0857d42be3daa188fc62a91446c543ec91cd8399be",
+      "path": "udt_g325_g324_homogeneous_diagonal_linear_modes_2026-09-02/REPLAY_COMMANDS.txt",
+      "unchanged": true
+    },
+    {
+      "baseline_sha256": "9d755b71ca0f1863805872e47895e266bbcbf2ad3420d7eaa4e3c83bf146da12",
+      "current_sha256": "9d755b71ca0f1863805872e47895e266bbcbf2ad3420d7eaa4e3c83bf146da12",
+      "path": "udt_g325_g324_homogeneous_diagonal_linear_modes_2026-09-02/RUN_RECORD.md",
+      "unchanged": true
+    },
+    {
+      "baseline_sha256": "f59fb0fbaf31fc893eeae1e844601208f0f1715d9645471f7935ae8b913e7c05",
+      "current_sha256": "f59fb0fbaf31fc893eeae1e844601208f0f1715d9645471f7935ae8b913e7c05",
+      "path": "udt_g325_g324_homogeneous_diagonal_linear_modes_2026-09-02/SOURCE_SCOPE.tsv",
+      "unchanged": true
+    },
+    {
+      "baseline_sha256": "0b9052d5f67f6af3032f47f6e327fbf62f737b94c366068495f8af06e561f77b",
+      "current_sha256": "0b9052d5f67f6af3032f47f6e327fbf62f737b94c366068495f8af06e561f77b",
+      "path": "udt_g325_g324_homogeneous_diagonal_linear_modes_2026-09-02/STATUS_LEDGER.tsv",
+      "unchanged": true
+    },
+    {
+      "baseline_sha256": "641417912e3c1ce331c32be8d4d2c33c1ba7a74f48e7fa9e0d0a819efec914a1",
+      "current_sha256": "641417912e3c1ce331c32be8d4d2c33c1ba7a74f48e7fa9e0d0a819efec914a1",
+      "path": "udt_g325_g324_homogeneous_diagonal_linear_modes_2026-09-02/build_repair_followup_intake.py",
+      "unchanged": true
+    },
+    {
+      "baseline_sha256": "5259912a2dda61b044194494be5bdba058e501fd4cda2229e8b36426d215d301",
+      "current_sha256": "5259912a2dda61b044194494be5bdba058e501fd4cda2229e8b36426d215d301",
+      "path": "udt_g325_g324_homogeneous_diagonal_linear_modes_2026-09-02/build_review_intake.py",
+      "unchanged": true
+    },
+    {
+      "baseline_sha256": "7b1141de9a16a68c647a806af7d2935bc70c5b3b2a975e207203130e8b4d10cd",
+      "current_sha256": "7b1141de9a16a68c647a806af7d2935bc70c5b3b2a975e207203130e8b4d10cd",
+      "path": "udt_g325_g324_homogeneous_diagonal_linear_modes_2026-09-02/derive_modes.py",
+      "unchanged": true
+    },
+    {
+      "baseline_sha256": "3c9a419c71ac4aff4e02e22c797d5df041af8f8348fc273c0f7943a5ed248f90",
+      "current_sha256": "3c9a419c71ac4aff4e02e22c797d5df041af8f8348fc273c0f7943a5ed248f90",
+      "path": "udt_g325_g324_homogeneous_diagonal_linear_modes_2026-09-02/launch_external_review.sh",
+      "unchanged": true
+    },
+    {
+      "baseline_sha256": "36679c35ec4a143a100f352701fb5fb1169565840419b233980ac285a3a562bb",
+      "current_sha256": "36679c35ec4a143a100f352701fb5fb1169565840419b233980ac285a3a562bb",
+      "path": "udt_g325_g324_homogeneous_diagonal_linear_modes_2026-09-02/launch_repair_followup_review.sh",
+      "unchanged": true
+    },
+    {
+      "baseline_sha256": "055e639a00eb0a575eebe93ccc0fecfcf61e68bf66041132f944fb50ecbe6e90",
+      "current_sha256": "055e639a00eb0a575eebe93ccc0fecfcf61e68bf66041132f944fb50ecbe6e90",
+      "path": "udt_g325_g324_homogeneous_diagonal_linear_modes_2026-09-02/run_catch_proofs.py",
+      "unchanged": true
+    },
+    {
+      "baseline_sha256": "8016acab91bf4d0dcbaf49736597cdc152a5ebaa0f395547aef9d632399e137f",
+      "current_sha256": "8016acab91bf4d0dcbaf49736597cdc152a5ebaa0f395547aef9d632399e137f",
+      "path": "udt_g325_g324_homogeneous_diagonal_linear_modes_2026-09-02/verify_independent.py",
+      "unchanged": true
+    },
+    {
+      "baseline_sha256": "968a1948aa9ccd4f0157af249c45c50d737ce01a38e8bae72801212cfa5c092d",
+      "current_sha256": "5a272422a731404c119def22d3d92c2f8baf1fc5fd2cd183db1d00a956bc01b0",
+      "path": "udt_g325_g324_homogeneous_diagonal_linear_modes_2026-09-02/verify_package.py",
+      "unchanged": false
+    },
+    {
+      "baseline_sha256": "a190f9fb00bdabad94ea4bd61fe2f75a66d77999f6431803b2f1d77a4a0e2958",
+      "current_sha256": "a190f9fb00bdabad94ea4bd61fe2f75a66d77999f6431803b2f1d77a4a0e2958",
+      "path": "udt_g325_g324_homogeneous_diagonal_linear_modes_2026-09-02/verify_review_intake.py",
+      "unchanged": true
+    }
+  ],
+  "package": "udt_g325_g324_homogeneous_diagonal_linear_modes_2026-09-02",
+  "package_mutations": [
+    {
+      "artifact": "DERIVATION_RESULT.json",
+      "command_index": 5,
+      "mutation": "extra_field",
+      "returncode": 1
+    },
+    {
+      "artifact": "DERIVATION_RESULT.json",
+      "command_index": 6,
+      "mutation": "count_int_to_float",
+      "returncode": 1
+    },
+    {
+      "artifact": "DERIVATION_RESULT.json",
+      "command_index": 7,
+      "mutation": "false_to_zero",
+      "returncode": 1
+    },
+    {
+      "artifact": "DERIVATION_RESULT.json",
+      "command_index": 8,
+      "mutation": "metadata_missing",
+      "returncode": 1
+    },
+    {
+      "artifact": "DERIVATION_RESULT.json",
+      "command_index": 9,
+      "mutation": "metadata_null",
+      "returncode": 1
+    },
+    {
+      "artifact": "INDEPENDENT_VERIFICATION.json",
+      "command_index": 10,
+      "mutation": "count_int_to_float",
+      "returncode": 1
+    },
+    {
+      "artifact": "INDEPENDENT_VERIFICATION.json",
+      "command_index": 11,
+      "mutation": "extra_field",
+      "returncode": 1
+    },
+    {
+      "artifact": "INDEPENDENT_VERIFICATION.json",
+      "command_index": 12,
+      "mutation": "metadata_empty",
+      "returncode": 1
+    },
+    {
+      "artifact": "CATCH_PROOF_RESULT.json",
+      "command_index": 13,
+      "mutation": "count_int_to_float",
+      "returncode": 1
+    },
+    {
+      "artifact": "CATCH_PROOF_RESULT.json",
+      "command_index": 14,
+      "mutation": "metadata_injection",
+      "returncode": 1
+    }
+  ],
+  "python_version": "3.10.12 (main, Aug 31 2026, 10:18:17) [GCC 11.4.0]",
+  "review_kind": "CHECKER_MAINTENANCE_NOT_SCIENTIFIC_REPROOF",
+  "reviewer_model": "UNKNOWN",
+  "status": "PASS_MAINTENANCE_CHECKS_ONLY",
+  "verifier_sha256": "5a272422a731404c119def22d3d92c2f8baf1fc5fd2cd183db1d00a956bc01b0"
+}

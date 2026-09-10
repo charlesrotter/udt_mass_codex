@@ -1,0 +1,18 @@
+{
+  "command": [
+    "/usr/bin/python3",
+    "-m",
+    "pytest",
+    "-q",
+    "tests/test_startup_surface.py",
+    "-k",
+    "not full_foundational_premise_verifier_is_in_pytest"
+  ],
+  "cwd": "/home/udt-admin/udt_mass_codex",
+  "started_utc": "2026-09-10T03:59:30.878663+00:00",
+  "seconds": 10.147192861011717,
+  "returncode": 1,
+  "stdout": "........................................................................ [ 20%]\n........................................................................ [ 40%]\n........................................................................ [ 61%]\n........................................................................ [ 81%]\n...............................................F.................        [100%]\n=================================== FAILURES ===================================\n____________ test_active_orientation_surface_stays_readably_bounded ____________\n\n    def test_active_orientation_surface_stays_readably_bounded() -> None:\n        limits = {\n            \"AGENTS.md\": (225, 1950),  # Owner-requested bounded verification-cycle convention.\n            \"LIVE.md\": (135, 900),\n            \"HANDOFF.md\": (100, 600),\n                \"INDEX.md\": (118, 570),\n            \"MEMORY.md\": (70, 450),\n            \"CURRENT_RESEARCH_PROGRAM.md\": (155, 1100),\n                \"CURRENT_SCIENTIFIC_PREMISES.md\": (140, 1320),\n            \"README.md\": (100, 400),\n            \"research/README.md\": (80, 300),\n            \"research/_registry/README.md\": (80, 280),\n            \"INFLIGHT_STATE.md\": (40, 150),\n        }\n        for relative, (maximum_lines, maximum_words) in limits.items():\n            text = (REPO / relative).read_text(encoding=\"utf-8\")\n            lines = text.splitlines()\n            words = text.split()\n            assert len(lines) <= maximum_lines, (\n                f\"{relative} regrew to {len(lines)} lines (limit {maximum_lines})\"\n            )\n>           assert len(words) <= maximum_words, (\n                f\"{relative} regrew to {len(words)} words (limit {maximum_words})\"\n            )\nE           AssertionError: CURRENT_RESEARCH_PROGRAM.md regrew to 1101 words (limit 1100)\nE           assert 1101 <= 1100\nE            +  where 1101 = len(['#', 'Current', 'UDT', 'research', 'program', 'Date:', ...])\n\ntests/test_startup_surface.py:1399: AssertionError\n=========================== short test summary info ============================\nFAILED tests/test_startup_surface.py::test_active_orientation_surface_stays_readably_bounded\n1 failed, 352 passed, 1 deselected in 9.11s\n",
+  "stderr": "",
+  "timeout_seconds": 180
+}
