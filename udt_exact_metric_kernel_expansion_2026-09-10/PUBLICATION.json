@@ -1,0 +1,84 @@
+{
+  "kind": "Publication receipt after successful ER1 checkpoint commit/push; no scientific promotion",
+  "completed_utc": "2026-09-10T23:23:31.686444+00:00",
+  "evidence_commit": "4651c3ce20bcf6ca95473c912e4c43aa1466d091",
+  "commit_command": [
+    "git",
+    "commit",
+    "-m",
+    "Record reviewed exact metric expansion and roadmap continuity"
+  ],
+  "commit_result": {
+    "chunk_id": "ed8f10",
+    "wall_time_seconds": 0.000002545,
+    "exit_code": 0,
+    "original_token_count": 2065,
+    "output": "[grok 4651c3ce] Record reviewed exact metric expansion and roadmap continuity\n 89 files changed, 6572 insertions(+), 19 deletions(-)\n create mode 100644 udt_exact_metric_kernel_expansion_2026-09-10/CAMPAIGN_LOG.md\n create mode 100644 udt_exact_metric_kernel_expansion_2026-09-10/CLOSEOUT.json\n create mode 100644 udt_exact_metric_kernel_expansion_2026-09-10/DATA_FREEZE.md\n create mode 100644 udt_exact_metric_kernel_expansion_2026-09-10/DECISION_BRIEF.md\n create mode 100644 udt_exact_metric_kernel_expansion_2026-09-10/FREEZE_RECEIPT.json\n create mode 100644 udt_exact_metric_kernel_expansion_2026-09-10/INITIAL_CANDIDATE.md\n create mode 100644 udt_exact_metric_kernel_expansion_2026-09-10/INITIAL_REVIEW_FREEZE.json\n create mode 100644 udt_exact_metric_kernel_expansion_2026-09-10/METHOD_CHANGES_INITIAL.patch\n create mode 100644 udt_exact_metric_kernel_expansion_2026-09-10/PACKAGE_SHA256SUMS\n create mode 100644 udt_exact_metric_kernel_expansion_2026-09-10/PACKAGING_EVENTS.md\n create mode 100644 udt_exact_metric_kernel_expansion_2026-09-10/REPAIR_LOG.md\n create mode 100644 udt_exact_metric_kernel_expansion_2026-09-10/SOURCE_AND_FREEDOM_MAP.md\n create mode 100644 udt_exact_metric_kernel_expansion_2026-09-10/SOURCE_MANIFEST.tsv\n create mode 100644 udt_exact_metric_kernel_expansion_2026-09-10/SOURCE_REGISTRY_ROWS.json\n create mode 100644 udt_exact_metric_kernel_expansion_2026-09-10/WORK_ORDER.md\n create mode 100644 udt_exact_metric_kernel_expansion_2026-09-10/check_exact_geometry.py\n create mode 100644 udt_exact_metric_kernel_expansion_2026-09-10/checks/AUTHOR_PRE_RUN.json\n create mode 100644 udt_exact_metric_kernel_expansion_2026-09-10/checks/AUTHOR_RUN.json\n create mode 100644 udt_exact_metric_kernel_expansion_2026-09-10/checks/CLOSEOUT_STARTUP_TESTS.json\n create mode 100644 udt_exact_metric_kernel_expansion_2026-09-10/checks/FINAL_PRESERVATION.json\n create mode 100644 udt_exact_metric_kernel_expansion_2026-09-10/checks/PRECOMMIT_GIT_CHECKS.json\n create mode 100644 udt_exact_metric_kernel_expansion_2026-09-10/checks/PRE_REVIEW_PRESERVATION.json\n create mode 100644 udt_exact_metric_kernel_expansion_2026-09-10/checks/SCOPED_STAGED_WHITESPACE.json\n create mode 100644 udt_exact_metric_kernel_expansion_2026-09-10/checks/STARTUP_FINAL_TESTS.json\n create mode 100644 udt_exact_metric_kernel_expansion_2026-09-10/checks/STARTUP_REPAIR_TESTS.json\n create mode 100644 udt_exact_metric_kernel_expansion_2026-09-10/checks/STARTUP_TESTS.json\n create mode 100644 udt_exact_metric_kernel_expansion_2026-09-10/checks/STARTUP_VALIDATOR.json\n create mode 100644 udt_exact_metric_kernel_expansion_2026-09-10/checks/STARTUP_VALIDATOR_REPAIR.json\n create mode 100644 udt_exact_metric_kernel_expansion_2026-09-10/checks/WHOLE_STAGED_WHITESPACE.json\n create mode 100644 udt_exact_metric_kernel_expansion_2026-09-10/checks/author.stderr.txt\n create mode 100644 udt_exact_metric_kernel_expansion_2026-09-10/checks/author.stdout.json\n create mode 100644 udt_exact_metric_kernel_expansion_2026-09-10/checks/closeout_startup_tests.stderr.txt\n create mode 100644 udt_exact_metric_kernel_expansion_2026-09-10/checks/closeout_startup_tests.stdout.txt\n create mode 100644 udt_exact_metric_kernel_expansion_2026-09-10/checks/startup_final_tests.stderr.txt\n create mode 100644 udt_exact_metric_kernel_expansion_2026-09-10/checks/startup_final_tests.stdout.txt\n create mode 100644 udt_exact_metric_kernel_expansion_2026-09-10/checks/startup_repair_tests.stderr.txt\n create mode 100644 udt_exact_metric_kernel_expansion_2026-09-10/checks/startup_repair_tests.stdout.txt\n create mode 100644 udt_exact_metric_kernel_expansion_2026-09-10/checks/startup_tests.stderr.txt\n create mode 100644 udt_exact_metric_kernel_expansion_2026-09-10/checks/startup_tests.stdout.txt\n create mode 100644 udt_exact_metric_kernel_expansion_2026-09-10/checks/startup_validator.stderr.txt\n create mode 100644 udt_exact_metric_kernel_expansion_2026-09-10/checks/startup_validator.stdout.txt\n create mode 100644 udt_exact_metric_kernel_expansion_2026-09-10/checks/startup_validator_repair.stderr.txt\n create mode 100644 udt_exact_metric_kernel_expansion_2026-09-10/checks/startup_validator_repair.stdout.txt\n create mode 100644 udt_exact_metric_kernel_expansion_2026-09-10/review/ARTIFACT_MANIFEST.json\n create mode 100644 udt_exact_metric_kernel_expansion_2026-09-10/review/AUTHOR_GUARD_RUN.json\n create mode 100644 udt_exact_metric_kernel_expansion_2026-09-10/review/CONTEXT.json\n create mode 100644 udt_exact_metric_kernel_expansion_2026-09-10/review/FINAL_FIDELITY.json\n create mode 100644 udt_exact_metric_kernel_expansion_2026-09-10/review/INDEPENDENT_PRE_RUN.json\n create mode 100644 udt_exact_metric_kernel_expansion_2026-09-10/review/INDEPENDENT_RUN.json\n create mode 100644 udt_exact_metric_kernel_expansion_2026-09-10/review/METHOD_DIFF_REVIEWED.patch\n create mode 100644 udt_exact_metric_kernel_expansion_2026-09-10/review/ORIGINAL_STATUS_CHECK.json\n create mode 100644 udt_exact_metric_kernel_expansion_2026-09-10/review/PRESERVATION.json\n create mode 100644 udt_exact_metric_kernel_expansion_2026-09-10/review/PRE_CANDIDATE_PLAN.md\n create mode 100644 udt_exact_metric_kernel_expansion_2026-09-10/review/REPLAY_RUNS.json\n create mode 100644 udt_exact_metric_kernel_expansion_2026-09-10/review/REVIEW.md\n create mode 100644 udt_exact_metric_kernel_expansion_2026-09-10/review/STAGING_FIDELITY_ADDENDUM.json\n create mode 100644 udt_exact_metric_kernel_expansion_2026-09-10/review/STAGING_FIDELITY_ADDENDUM_MANIFEST.json\n create mode 100644 udt_exact_metric_kernel_expansion_2026-09-10/review/VISIBLE_STATUS.txt\n create mode 100644 udt_exact_metric_kernel_expansion_2026-09-10/review/author_optimized_guard.stderr.txt\n create mode 100644 udt_exact_metric_kernel_expansion_2026-09-10/review/author_optimized_guard.stdout.txt\n create mode 100644 udt_exact_metric_kernel_expansion_2026-09-10/review/author_replay.stderr.txt\n create mode 100644 udt_exact_metric_kernel_expansion_2026-09-10/review/author_replay.stdout.json\n create mode 100644 udt_exact_metric_kernel_expansion_2026-09-10/review/construction_replay.stderr.txt\n create mode 100644 udt_exact_metric_kernel_expansion_2026-09-10/review/construction_replay.stdout.json\n create mode 100644 udt_exact_metric_kernel_expansion_2026-09-10/review/followup_replay.stderr.txt\n create mode 100644 udt_exact_metric_kernel_expansion_2026-09-10/review/followup_replay.stdout.json\n create mode 100644 udt_exact_metric_kernel_expansion_2026-09-10/review/independent.stderr.txt\n create mode 100644 udt_exact_metric_kernel_expansion_2026-09-10/review/independent.stdout.json\n create mode 100644 udt_exact_metric_kernel_expansion_2026-09-10/review/independent_review.py\n create mode 100644 udt_exact_metric_kernel_expansion_2026-09-10/review/replay_and_preservation.py\n create mode 100644 udt_exact_metric_kernel_expansion_2026-09-10/whiteboard/ALLOCATION_RECORD.json\n create mode 100644 udt_exact_metric_kernel_expansion_2026-09-10/whiteboard/ARTIFACT_MANIFEST.json\n create mode 100644 udt_exact_metric_kernel_expansion_2026-09-10/whiteboard/CHECK_STDERR.txt\n create mode 100644 udt_exact_metric_kernel_expansion_2026-09-10/whiteboard/CHECK_STDOUT.json\n create mode 100644 udt_exact_metric_kernel_expansion_2026-09-10/whiteboard/CONSTRUCTION_FREEZE.md\n create mode 100644 udt_exact_metric_kernel_expansion_2026-09-10/whiteboard/CONSTRUCTION_RESULT.md\n create mode 100644 udt_exact_metric_kernel_expansion_2026-09-10/whiteboard/FOLLOWUP_FREEZE.md\n create mode 100644 udt_exact_metric_kernel_expansion_2026-09-10/whiteboard/FOLLOWUP_PRECHECK_MANIFEST.json\n create mode 100644 udt_exact_metric_kernel_expansion_2026-09-10/whiteboard/FOLLOWUP_RUN_RECORD.json\n create mode 100644 udt_exact_metric_kernel_expansion_2026-09-10/whiteboard/FOLLOWUP_STDERR.txt\n create mode 100644 udt_exact_metric_kernel_expansion_2026-09-10/whiteboard/FOLLOWUP_STDOUT.json\n create mode 100644 udt_exact_metric_kernel_expansion_2026-09-10/whiteboard/PRECHECK_SOURCE_MANIFEST.json\n create mode 100644 udt_exact_metric_kernel_expansion_2026-09-10/whiteboard/RUN_RECORD.json\n create mode 100644 udt_exact_metric_kernel_expansion_2026-09-10/whiteboard/check_construction.py\n create mode 100644 udt_exact_metric_kernel_expansion_2026-09-10/whiteboard/check_followup.py\n"
+  },
+  "push_command": [
+    "git",
+    "push",
+    "origin",
+    "grok"
+  ],
+  "push_result": {
+    "chunk_id": "e75479",
+    "wall_time_seconds": 0.000001715,
+    "exit_code": 0,
+    "original_token_count": 23,
+    "output": "To https://github.com/charlesrotter/udt_mass_codex.git\n   2d9f607f..4651c3ce  grok -> grok\n"
+  },
+  "actual_remote_command": [
+    "git",
+    "ls-remote",
+    "--heads",
+    "origin",
+    "grok"
+  ],
+  "actual_remote_result": {
+    "chunk_id": "9b4600",
+    "wall_time_seconds": 0.243371268,
+    "exit_code": 0,
+    "original_token_count": 15,
+    "output": "4651c3ce20bcf6ca95473c912e4c43aa1466d091\trefs/heads/grok\n"
+  },
+  "final_precommit_checks": {
+    "utc": "2026-09-10T23:22:30.812322+00:00",
+    "staged_count": 89,
+    "unexpected_staged_paths": [],
+    "package_manifest_entries": 84,
+    "manifest_mismatches": [],
+    "whole_whitespace_exit_code": 2,
+    "whole_flags": 25,
+    "only_exact_context_lines": true,
+    "scoped_whitespace_argv": [
+      "git",
+      "diff",
+      "--cached",
+      "--check",
+      "--",
+      ".",
+      ":(exclude)udt_exact_metric_kernel_expansion_2026-09-10/METHOD_CHANGES_INITIAL.patch",
+      ":(exclude)udt_exact_metric_kernel_expansion_2026-09-10/review/METHOD_DIFF_REVIEWED.patch"
+    ],
+    "scoped_whitespace_exit_code": 0,
+    "unstaged_authorized_scope_exit_code": 0,
+    "scope": "actual final staged package before first commit"
+  },
+  "post_push_state": {
+    "utc": "2026-09-10T23:23:31.686444+00:00",
+    "HEAD": "4651c3ce20bcf6ca95473c912e4c43aa1466d091",
+    "origin_grok_local_ref": "4651c3ce20bcf6ca95473c912e4c43aa1466d091",
+    "branch": "grok",
+    "tracked_dirt": [],
+    "untracked_count": 46,
+    "untracked_status_sha256": "55e7c4508622f912730f9c068cc571c370b3977bc1110eb0a48a8218dbe024c2",
+    "package_manifest_entries": 84,
+    "manifest_mismatches": [],
+    "package_manifest_sha256": "06dc2ea50cec832af6159a71e5d5c4027ccc261e66ff42d4c74ff2397598e539"
+  },
+  "receipt_scope": "This file is a later publication-only receipt, excluded from the frozen84-entry package manifest. A following receipt commit records it; its own hash/push are not self-certified here.",
+  "review": "VERIFIED-WITH-CAVEATS; CONDITIONAL; UNPROMOTED; fresh separate context and implementation, runtime model/version UNATTESTED",
+  "preservation": "Scientific source, registry, CANON, fixed manuscript and protected work unmodified; original46 untracked entries preserved. Backups and pre-reboot unsaved state UNVERIFIED.",
+  "next_action": "Stop for lay discussion; no next scientific study dispatched."
+}
