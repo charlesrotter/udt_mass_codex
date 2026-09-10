@@ -43,8 +43,6 @@ Fixed manuscript/coverage is the through-G352 edition, not the current frontier.
 
 ## Open gate
 
-Session transition: `HANDOFF.md`.
-
 Banking through G382 is complete; G312 membership unclosed, G352 physical identification OPEN.
 ND1/ND2/QC1/QC2/GL1/GL2/RF1 reviewed UNPROMOTED; campaigns complete; roadmap via INDEX.
 Stop for discussion; new work requires checks, fresh separate-context review and bounded same-premise repair.

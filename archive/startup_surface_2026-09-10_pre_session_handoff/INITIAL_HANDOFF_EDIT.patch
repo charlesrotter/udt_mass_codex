@@ -1,0 +1,108 @@
+diff --git a/CURRENT_RESEARCH_PROGRAM.md b/CURRENT_RESEARCH_PROGRAM.md
+index 91fa0ef2..f8896bce 100644
+--- a/CURRENT_RESEARCH_PROGRAM.md
++++ b/CURRENT_RESEARCH_PROGRAM.md
+@@ -112,6 +112,9 @@ Backup completeness/pre-reboot unsaved state remain UNVERIFIED; ScratchDisk is a
+ 
+ ## Current next gate
+ 
++Fresh-session runtime handoff: follow the sequence in `HANDOFF.md` after normal startup.
++The saved whiteboard suggestion remains advisory; the runtime transition authorizes no new science.
++
+ G381=NT1 and G382=NT2 conditional mathematical banking is COMPLETE at the reviewed scopes.
+ G312 membership unclosed; G352 physical-realization: physical identification remains OPEN.
+ Stop for lay discussion with Charles; no new campaign is authorized; any approved work order includes checks, fresh separate-context review and bounded same-premise repair.
+diff --git a/HANDOFF.md b/HANDOFF.md
+index 95a01585..0ba4459d 100644
+--- a/HANDOFF.md
++++ b/HANDOFF.md
+@@ -1,4 +1,4 @@
+-# HANDOFF — lean resume anchor
++# HANDOFF — lean fresh-session anchor
+ 
+ <!-- STARTUP_CURRENT_BEGIN -->
+ ## Current handoff anchor — 2026-09-10
+@@ -74,6 +74,31 @@ Protected—do not stage, modify, mine or cite without dispatch:
+ - `udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/`
+ - `udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/`
+ 
++### Fresh Codex session sequence — operational handoff
++
++Charles approved starting fresh in `/home/udt-admin/udt_mass_codex`, not resume/fork;
++retain this session's history. Start with AGENTS' synchronization and bounded reads, then
++report actual HEAD/dirt, configured versus attested model, instructions, checks and open gate.
++Do not infer the active runtime/model or agent capacity from the installed CLI alone.
++The saved runtime checkpoint is `maintenance_agent_capacity_2026-09-10.md` at `6264a103`;
++open it after orientation. It records partial usability, not a verified capacity repair.
++
++1. Inspect the new session's exposed agent controls and roster; do not repeat completed CLI/
++   documentation searches absent new evidence. No session deletion, daemon restart or limit change.
++2. For the approved availability test, use at most two short, complementary read-only handoff
++   checks in fresh agent contexts (10 minutes total): authorization/preservation and runtime/
++   evidence wording, while the primary checks the checkpoint. No children of reviewers or science.
++   Record actual allocation/overlap; do not infer concurrency from completed results alone.
++   If a limit recurs, stop extra attempts and report the actual blocker; do not weaken review.
++3. Return to lay discussion. The prior two-context whiteboard suggested a 60–90 minute ideal
++   clock-data/curvature identifiability audit, not a construction campaign. Its question and
++   circular-validation caveat are in the checkpoint; source dependencies need checking before use.
++   That scientific audit remains PROPOSED, NOT AUTHORIZED. No solve or scientific banking starts.
++
++The full365 maintenance PASS is prior evidence, not a fresh-session check. Normal startup still
++runs the premise verifier and reports its actual outcome. Backup/unsaved-state qualifications,
++protected paths and all paused routes above remain unchanged; runtime limits are not UDT limits.
++
+ Next: G381=NT1 and G382=NT2 conditional mathematical banking is COMPLETE at the reviewed scopes.
+ G312 membership unclosed; G352 physical-realization: physical identification remains OPEN.
+ Stop for lay discussion with Charles; no new campaign is authorized; any approved work order includes checks, fresh separate-context review and bounded same-premise repair.
+diff --git a/INDEX.md b/INDEX.md
+index 7932bf68..0c03f32d 100644
+--- a/INDEX.md
++++ b/INDEX.md
+@@ -43,8 +43,9 @@ restricted 3D localization, smooth-method/symmetry/smallness caveats; LG2 requir
+ Predecessor: `udt_nonlinear_mode_realizability_campaign_2026-09-09/DECISION_BRIEF.md`;
+ NR1--NR2 UNPROMOTED, compact-sector mixed-C2/analytic-local tangent limits; original reviews control.
+ Full365 PASS; maintenance: `maintenance_guard_sweep_2026-09-10/WORK_RECORD.md`; no scientific promotion.
+-Agent-runtime diagnostic: `maintenance_agent_capacity_2026-09-10.md`; partial usability only,
+-capacity cleanup unverified. Existing whiteboard advice retained; no successor campaign authorized.
++Fresh Codex session sequence: `HANDOFF.md`, after normal startup/orientation; not resume/fork.
++Agent-runtime diagnostic: `maintenance_agent_capacity_2026-09-10.md` at `6264a103`; partial usability
++only, capacity cleanup unverified. Whiteboard advice retained; no successor campaign authorized.
+ 
+ ## Founding, relational and response sources
+ 
+diff --git a/LIVE.md b/LIVE.md
+index 67462e72..93da69cf 100644
+--- a/LIVE.md
++++ b/LIVE.md
+@@ -104,6 +104,16 @@ Protected—do not stage, modify, mine or cite without dispatch:
+ - `udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/`
+ - `udt_kernel_plane_global_curvature_holonomy_atlas_2026-08-02/`
+ 
++### Fresh Codex session handoff — operational only
++
++Charles approved a fresh session in this same repository, not resume/fork; retain the old
++session history. Follow AGENTS startup and give orientation before opening package evidence.
++Then use HANDOFF's session sequence and `maintenance_agent_capacity_2026-09-10.md`
++(saved at `6264a103`). One fresh reviewer worked; another activation hit the thread limit.
++Full agent capacity remains UNVERIFIED; a fresh session is a workaround to test, not a proven fix.
++No scientific campaign is authorized by the runtime handoff. Existing whiteboard advice is
++preserved for discussion, not an accepted result. No settings/history cleanup is implied.
++
+ ### Next gate
+ 
+ G381=NT1 and G382=NT2 conditional mathematical banking is COMPLETE at the reviewed scopes.
+diff --git a/MEMORY.md b/MEMORY.md
+index d6c6addd..9f8eb191 100644
+--- a/MEMORY.md
++++ b/MEMORY.md
+@@ -43,6 +43,10 @@ Fixed manuscript/coverage is the through-G352 edition, not the current frontier.
+ 
+ ## Open gate
+ 
++Fresh Codex session, not resume/fork: follow HANDOFF's operational sequence after normal startup.
++Checkpoint: `maintenance_agent_capacity_2026-09-10.md`; full agent capacity UNVERIFIED.
++Prior whiteboard advice is preserved for discussion; its proposed scientific audit is not authorized.
++
+ Banking through G382 is complete; G312 membership unclosed, G352 physical identification OPEN.
+ ND1/ND2/QC1/QC2/GL1/GL2/RF1 reviewed UNPROMOTED; campaigns complete; roadmap via INDEX.
+ Stop for discussion; new work requires checks, fresh separate-context review and bounded same-premise repair.

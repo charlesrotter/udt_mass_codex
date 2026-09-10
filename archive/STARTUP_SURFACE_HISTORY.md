@@ -12,6 +12,7 @@ premise registry remain authoritative.
 | `startup_surface_2026-08-26_pre_g270/` | Pre-G270 hashed surface and recovery pointer |
 | `startup_surface_2026-08-31_pre_universal_reciprocity/` | Pre-adoption Git recovery pointer |
 | `startup_surface_2026-09-05_pre_g350_compaction/` | Pre-compaction G350 Git recovery pointer |
+| `startup_surface_2026-09-10_pre_session_handoff/` | Exact pre-handoff startup/roadmap copies at `6264a103`; spent-dispatch and stale-navigation cleanup |
 
 These records preserve historical wording and precedence repairs. They do not supply current
 scientific grades, current branch state, or the next gate.

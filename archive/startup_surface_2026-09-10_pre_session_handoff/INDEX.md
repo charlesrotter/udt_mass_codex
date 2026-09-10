@@ -8,8 +8,9 @@ GR is FILTER ONLY, not a response-law input; Local Metric Sufficiency remains ow
 Inherited G312 Einstein claims remain CONDITIONAL, not established from filter-only GR; grades fixed.
 Current authority: `udt_gr_filter_reconciliation_2026-09-09/AUTHORITY_RECORD.md`.
 Prior audit: `udt_gr_filter_authority_audit_2026-09-09/REVIEWED_AUDIT.md`.
-Documentation closeout: `udt_gr_filter_reconciliation_2026-09-09/documentation_closeout/CLOSEOUT.md`; replacement review: `udt_gr_filter_reconciliation_2026-09-09/documentation_closeout/review/REPLACEMENT_REVIEW.md`.
-Unproduced report remains historical; replacement is dated.
+Documentation closeout: `udt_gr_filter_reconciliation_2026-09-09/documentation_closeout/CLOSEOUT.md`.
+Replacement review: `udt_gr_filter_reconciliation_2026-09-09/documentation_closeout/review/REPLACEMENT_REVIEW.md`.
+The original unproduced final report remains historical; this is a new dated review.
 
 1. Follow `AGENTS.md`.
 2. Read the current blocks in `LIVE.md` and `HANDOFF.md`.
@@ -28,8 +29,8 @@ review restoration requires `--record-review REVIEW_RECORD.json` tied to exact c
 Latest banking: `udt_g381_g382_conditional_banking_2026-09-09/BANKING_RECORD.md`;
 its execution/publication records own completion. Original campaign:
 `udt_neighboring_tidal_consistency_campaign_2026-09-08/CAMPAIGN_LOG.md`.
-Prior compaction: `startup_surface_current_tracking_compaction_2026-09-09/WORK_RECORD.md`.
-Earlier geometry: `udt_nonlinear_ripple_geometry_2026-09-09/DECISION_BRIEF.md`; NE1 reviewed UNPROMOTED;
+Current editorial record: `startup_surface_current_tracking_compaction_2026-09-09/WORK_RECORD.md`.
+Latest: `udt_nonlinear_ripple_geometry_2026-09-09/DECISION_BRIEF.md`; NE1 reviewed UNPROMOTED;
 exact polarized development: fading profile, cumulative marked-area-rate/tidal departure.
 REVIEWED_RESULT.md and full review control; supplied-data/marking and conditional-method limits, not stability/content.
 Predecessor: `udt_spatial_curvature_evolution_2026-09-09/DECISION_BRIEF.md`; SE1 reviewed UNPROMOTED;
@@ -42,7 +43,8 @@ restricted 3D localization, smooth-method/symmetry/smallness caveats; LG2 requir
 Predecessor: `udt_nonlinear_mode_realizability_campaign_2026-09-09/DECISION_BRIEF.md`;
 NR1--NR2 UNPROMOTED, compact-sector mixed-C2/analytic-local tangent limits; original reviews control.
 Full365 PASS; maintenance: `maintenance_guard_sweep_2026-09-10/WORK_RECORD.md`; no scientific promotion.
-Session: `HANDOFF.md`; diagnostic: `maintenance_agent_capacity_2026-09-10.md` (partial usability; no scientific authorization).
+Agent-runtime diagnostic: `maintenance_agent_capacity_2026-09-10.md`; partial usability only,
+capacity cleanup unverified. Existing whiteboard advice retained; no successor campaign authorized.
 
 ## Founding, relational and response sources
 

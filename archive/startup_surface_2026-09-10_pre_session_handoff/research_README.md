@@ -38,5 +38,5 @@ and is not guaranteed to contain packages created after the reorganization snaps
 The pre-zoomout research orientation is preserved at
 `../archive/startup_surface_2026-08-17_pre_zoomout/research_README.md`; the earlier verbose version
 remains at `../archive/startup_surface_2026-08-14/research_README_before_cleanup.md`.
-Later displaced startup surfaces are indexed centrally at
-`../archive/STARTUP_SURFACE_HISTORY.md`; no dated snapshot is current authority.
+The latest displaced startup authority surface is indexed at
+`../archive/startup_surface_2026-08-31_pre_universal_reciprocity/README.md`.

@@ -1,4 +1,4 @@
-# HANDOFF — lean fresh-session anchor
+# HANDOFF — lean resume anchor
 
 <!-- STARTUP_CURRENT_BEGIN -->
 ## Current handoff anchor — 2026-09-10
@@ -51,6 +51,9 @@ An admitted source sector is not required for every explicitly conditional measu
 Geometric/calibration and emergence aims remain parallel; neither is a prerequisite.
 
 NR1--NR2/LG1--LG2/LE1/SE1/NE1: reviewed UNPROMOTED; exact evidence/scopes in INDEX.
+Predecessors: compact tangents, restricted localization and local curvature behavior.
+NE1: fading profile with cumulative marked-area-rate/tidal departure in one exact polarized family.
+Supplied data/marking and conditional methods; no genericity, stability/content.
 All original reviews/caveats control. Full365 PASS after maintenance; evidence: INDEX.
 ND1/ND2/QC1/QC2/GL1/GL2/RF1: reviewed UNPROMOTED; roadmap: INDEX.
 
@@ -70,13 +73,6 @@ Protected—do not stage, modify, mine or cite without dispatch:
 - `udt_native_onshell_timelive_reset_owner_audit_2026-08-10/`
 - `udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/`
 - `udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/`
-
-### Fresh-session handoff
-
-Fresh Codex session authorized, not resume/fork; retain session history. Follow AGENTS;
-report actual model/instructions/checks. After orientation: `maintenance_agent_capacity_2026-09-10.md`,
-dated handoff sequence. Capacity UNVERIFIED; old full365 PASS is prior evidence.
-Availability testing is operational only; the whiteboard's scientific audit is PROPOSED, NOT AUTHORIZED.
 
 Next: G381=NT1 and G382=NT2 conditional mathematical banking is COMPLETE at the reviewed scopes.
 G312 membership unclosed; G352 physical-realization: physical identification remains OPEN.

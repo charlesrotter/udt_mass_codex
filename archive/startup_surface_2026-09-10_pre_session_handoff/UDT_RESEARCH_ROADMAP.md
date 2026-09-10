@@ -1,9 +1,8 @@
 # UDT research roadmap — geometry, dynamics and physical connection
 
-Updated: 2026-09-10. Charles Rotter requested the whole plan on 2026-09-09;
-its original baseline was `d0fe8b3e5f95c3963dc8702bb4a31485678bd1e3`, branch `grok`.
-The campaigns described below are COMPLETE; their authorizations are spent, not live dispatches.
-Current operational handoff: `HANDOFF.md`; no successor scientific campaign is authorized.
+Date: 2026-09-09. Owner direction: Charles Rotter asked for the whole plan
+to be documented and authorized the recommended native-response campaign.
+Baseline: `d0fe8b3e5f95c3963dc8702bb4a31485678bd1e3`, branch `grok`.
 This is a maintained direction document, not a premise, theorem, promotion
 or replacement for LIVE, the exact registry, or reviewed scientific sources.
 
@@ -51,7 +50,7 @@ gates. Do not repeat completed nonselection results as discoveries. Full angular
 retention is essential, but the bounded cancellation identities are not already
 a universal vacuum law. A new comparison must declare objects, regime and
 survivor criterion; no empirical tolerance or stronger GR premise is silently
-invented. The completed native-response campaign below addressed this priority only.
+invented. The authorized campaign below addresses this priority only.
 
 ### 2. Develop cosmological consequences at explicit scope
 
@@ -95,7 +94,7 @@ Completed route assessments remain reusable. GOCE is PARKED, eligibility OPEN,
 enquiry UNSENT; the particular GW design is parked. No search, data fit or
 correspondence is authorized by this roadmap.
 
-## Completed native-response campaign and return point
+## Authorized next campaign and return point
 
 Current outcome: the authorized campaign stopped after TWO substantive
 reviewed conditional steps, ND1 and ND2, both UNPROMOTED. Their exact scoped
@@ -109,10 +108,15 @@ Work order and compact log:
 `udt_native_response_discrimination_2026-09-09/WORK_ORDER.md` and
 `udt_native_response_discrimination_2026-09-09/CAMPAIGN_LOG.md`.
 
-The spent dispatch and pre-handoff roadmap are preserved at
-`archive/startup_surface_2026-09-10_pre_session_handoff/UDT_RESEARCH_ROADMAP.md`.
-Original work orders retain their budgets, reviews and stops as historical evidence,
-not permission to repeat or extend a completed campaign.
+Up to THREE substantive reviewed steps or FOUR hours, whichever comes first.
+Record each question, quantifiers, assumptions, scope and discriminating outcomes
+before its work. Relevant checks and fresh separate-context adversarial review
+precede downstream use; at most one same-premise repair/re-review per step.
+Return reviewed conditional candidates, a narrowed result, refutation or precise
+unresolved connection. Do not manufacture three steps. Stop for a necessary new
+physical commitment, unresolved load-bearing disagreement, no useful in-scope
+continuation, or genuine access/safety/resource blocker. Save a checkpoint if
+runtime prevents completion. No automatic successor campaign or promotion.
 
 Separate reviewed maintenance retained the G325/G326 runtime-provenance repair
 and restored G349/Xmax documentary scope and source navigation. Full365 PASS;

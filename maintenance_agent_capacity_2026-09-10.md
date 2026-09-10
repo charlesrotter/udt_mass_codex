@@ -118,3 +118,77 @@ while retaining this conversation. Do not resume/fork the old scientific context
 history as a guessed remedy. Follow normal on-disk startup; this checkpoint is not a new
 scientific status authority. A fresh session is a proposed workaround, not a verified fix.
 No further infrastructure work or scientific campaign is launched by this note.
+
+## Fresh-session handoff — 2026-09-10 authorization update
+
+Charles subsequently approved the recommended fresh Codex session and requested startup-document
+updates plus a stale-content audit/archive. The conditional recommendation above is preserved as
+diagnostic history; the transition is now approved, but full capacity is still UNVERIFIED.
+Here, "session" means a fresh top-level Codex session in `/home/udt-admin/udt_mass_codex`, not a
+required ChatGPT web chat, a resumed/forked old context or a newly launched scientific campaign.
+Retain the old session history. The owning client must open the new top-level session; no available
+tool here replaces the current one. Do not launch an unrelated CLI process as a substitute.
+
+After AGENTS' normal synchronization, bounded startup reads, premise verification and orientation:
+
+1. Inspect the new session's actual agent controls and roster. Distinguish configured model from
+   what the runtime actually attests; the installed CLI alone establishes neither. Reuse this
+   diagnostic; do not repeat completed CLI/documentation searches without new evidence.
+2. Test availability with useful work, not dummy spawns: at most two short complementary,
+   read-only handoff checks in fresh contexts, ten minutes total. One checks authorization and
+   preservation wording, the other runtime/evidence wording; the primary checks the saved
+   checkpoint. No sub-delegation, science, capacity increases, session deletion or daemon restart.
+   Record successful allocations and any actual overlap. A completed list alone does not prove
+   simultaneous capacity. Stop additional attempts on a recurring limit; report the exact blocker.
+3. Return to lay discussion using the already-preserved whiteboard advice above. The suggested
+   60–90 minute ideal clock-data/curvature identifiability audit is PROPOSED, NOT AUTHORIZED.
+   Recheck exact source dependencies before scientific use. No solve, premise adoption, grade
+   change, banking or physical identification follows from the handoff or availability test.
+
+The full365 maintenance PASS belongs to its recorded source snapshot; normal fresh-session startup
+still runs the verifier and reports the actual result. A runtime limitation blocks only the work
+requiring that capability, not all repository work or UDT research. Backup completeness and
+pre-reboot unsaved-state disposition remain UNVERIFIED; ScratchDisk remains archive-only.
+
+### Startup/stale-content edit scope and review record
+
+Baseline: `6264a10387d2abab5f996849dd1e8f9b3b2b6ac1`, synchronized `grok`.
+The compact current sequence lives in HANDOFF, with LIVE/MEMORY/INDEX pointers. No method guard,
+scientific source, exact premise registry, canon or fixed manuscript is edited.
+Audit scope: current startup blocks, method/readme adapters, this checkpoint, the maintained
+roadmap and central archive navigation; not a repository-wide historical or protected-payload scan.
+
+Stale labels corrected: roadmap's "Authorized next campaign" and spent ND dispatch imperatives;
+INDEX's previous compaction labeled "Current" and NE1 labeled "Latest" despite its NCI1 pointer;
+research README's Aug31 "latest" archive pointer. The old HANDOFF "resume anchor" title is also
+clarified. The roadmap's result scopes, original work orders, completed campaign evidence and
+paused/open boundaries are retained. Repeated NE1 narrative in HANDOFF is shortened to its exact
+UNPROMOTED/source pointer, not retracted; LIVE/INDEX retain the scope and archive retains the prose.
+
+Pre-edit copies of seven documentation files, with exact Git baseline and SHA-256 manifest:
+`archive/startup_surface_2026-09-10_pre_session_handoff/README.md`.
+The first uncommitted handoff draft and its failing checks are preserved there separately.
+Initial tests: 365 passed, two failed, one full-audit entry deselected. The additions exceeded
+readability ceilings and put five sentences into a three-sentence next gate; repair compacts
+the documents and restores that gate without changing tests. The prior INDEX runtime pointer
+already exceeded its ceiling at baseline; this edit also compacts it.
+
+Final verification: 367 targeted startup/maintenance tests PASS, one full-audit entry explicitly
+deselected (10.69 seconds); seven archive copies match Git byte-for-byte; manifest and maintained-
+document whitespace checks PASS. Unfiltered staged whitespace checking flags only ten required
+blank-context markers in the preserved raw Git patch; its original bytes are retained and that
+artifact alone is excluded from formatting lint, not from the SHA-256 manifest. Exact warning
+output and scoped command are saved. No scientific/test gate is changed.
+Visible unrelated status remains 46 entries with the baseline fingerprint above.
+All tracked files outside the declared documentation paths are unchanged, including the exact
+registry, premise checker, method instructions, tests, canon, fixed manuscript and scientific sources.
+Scientific full365 was not repeated for this editorial-only edit; prior results are not relabeled
+as a new run. Exact commands, tool output and limitations: archive `FINAL_HANDOFF_CHECKS.json`.
+
+Fresh separate-context editorial review: VERIFIED-WITH-CAVEATS, no unresolved wording defect;
+reviewer `/root/startup_handoff_review`, inherited parent model, exact model/version unattested.
+Its source/diff exposure, actual checks and omissions are retained in archive `HANDOFF_REVIEW.md`.
+The reviewer did not independently attest parent tests, archive hashes or this final receipt.
+One wording repair retained "unproduced" rather than ambiguous "missing" for the old report.
+The verifier-before-record protocol kept editorial fidelity distinct from scientific promotion;
+OpenAI Docs kept documented lifecycle features distinct from actually exposed runtime controls.

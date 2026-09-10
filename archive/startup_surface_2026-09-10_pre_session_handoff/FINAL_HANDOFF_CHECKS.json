@@ -1,0 +1,52 @@
+{
+  "command": "timeout 180s python3 -m pytest -q tests/test_startup_surface.py tests/test_guard_maintenance.py tests/test_xmax_maintenance.py -k 'not full_foundational_premise_verifier_is_in_pytest'",
+  "cwd": "/home/udt-admin/udt_mass_codex",
+  "scope": "Final startup documents after readability/stale-navigation repair; no scientific promotion",
+  "tool_chunks": [
+    {
+      "chunk_id": "897d88",
+      "wall_time_seconds": 1.000864674,
+      "session_id": 40799,
+      "original_token_count": 7,
+      "output": "..........................."
+    },
+    {
+      "chunk_id": "74dd72",
+      "wall_time_seconds": 0.000001892,
+      "exit_code": 0,
+      "original_token_count": 122,
+      "output": "............................................. [ 19%]\n........................................................................ [ 39%]\n........................................................................ [ 58%]\n........................................................................ [ 78%]\n........................................................................ [ 98%]\n.......                                                                  [100%]\n367 passed, 1 deselected in 10.69s\n"
+    }
+  ],
+  "combined_output": "........................................................................ [ 19%]\n........................................................................ [ 39%]\n........................................................................ [ 58%]\n........................................................................ [ 78%]\n........................................................................ [ 98%]\n.......                                                                  [100%]\n367 passed, 1 deselected in 10.69s\n",
+  "omission": "Full scientific premise script not rerun for editorial-only edit; its pytest entry explicitly deselected; prior full365 evidence remains historical at unchanged scientific sources",
+  "archive_git_byte_comparisons": 7,
+  "unchanged_outside_authorized_paths": {
+    "command": "git diff --exit-code 6264a103 -- . ':(exclude)LIVE.md' ':(exclude)HANDOFF.md' ':(exclude)INDEX.md' ':(exclude)MEMORY.md' ':(exclude)UDT_RESEARCH_ROADMAP.md' ':(exclude)research/README.md' ':(exclude)archive/STARTUP_SURFACE_HISTORY.md' ':(exclude)maintenance_agent_capacity_2026-09-10.md' ':(exclude)archive/startup_surface_2026-09-10_pre_session_handoff'",
+    "chunk_id": "039b96",
+    "wall_time_seconds": 0.000002492,
+    "exit_code": 0,
+    "original_token_count": 0,
+    "output": ""
+  },
+  "unrelated_status_sha256": "55e7c4508622f912730f9c068cc571c370b3977bc1110eb0a48a8218dbe024c2",
+  "staged_whitespace": {
+    "unfiltered": {
+      "command": "git diff --cached --check",
+      "chunk_id": "15a6c8",
+      "wall_time_seconds": 0.000002995,
+      "exit_code": 2,
+      "original_token_count": 275,
+      "output": "archive/startup_surface_2026-09-10_pre_session_handoff/INITIAL_HANDOFF_EDIT.patch:6: trailing whitespace.\n+ \narchive/startup_surface_2026-09-10_pre_session_handoff/INITIAL_HANDOFF_EDIT.patch:8: trailing whitespace.\n+ \narchive/startup_surface_2026-09-10_pre_session_handoff/INITIAL_HANDOFF_EDIT.patch:22: trailing whitespace.\n+ \narchive/startup_surface_2026-09-10_pre_session_handoff/INITIAL_HANDOFF_EDIT.patch:28: trailing whitespace.\n+ \narchive/startup_surface_2026-09-10_pre_session_handoff/INITIAL_HANDOFF_EDIT.patch:70: trailing whitespace.\n+ \narchive/startup_surface_2026-09-10_pre_session_handoff/INITIAL_HANDOFF_EDIT.patch:72: trailing whitespace.\n+ \narchive/startup_surface_2026-09-10_pre_session_handoff/INITIAL_HANDOFF_EDIT.patch:80: trailing whitespace.\n+ \narchive/startup_surface_2026-09-10_pre_session_handoff/INITIAL_HANDOFF_EDIT.patch:92: trailing whitespace.\n+ \narchive/startup_surface_2026-09-10_pre_session_handoff/INITIAL_HANDOFF_EDIT.patch:99: trailing whitespace.\n+ \narchive/startup_surface_2026-09-10_pre_session_handoff/INITIAL_HANDOFF_EDIT.patch:101: trailing whitespace.\n+ \n"
+    },
+    "scoped": {
+      "command": "git diff --cached --check -- . ':(exclude)archive/startup_surface_2026-09-10_pre_session_handoff/INITIAL_HANDOFF_EDIT.patch'",
+      "chunk_id": "be93dd",
+      "wall_time_seconds": 0.00000263,
+      "exit_code": 0,
+      "original_token_count": 0,
+      "output": ""
+    },
+    "explanation": "Only the preserved raw Git patch is excluded from formatting lint: its ten context-only blank lines contain the required diff context marker (one space). Preserve exact original patch bytes; no maintained document, test or scientific acceptance rule is exempted."
+  }
+}

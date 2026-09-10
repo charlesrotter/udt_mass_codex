@@ -104,8 +104,6 @@ Protected—do not stage, modify, mine or cite without dispatch:
 - `udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/`
 - `udt_kernel_plane_global_curvature_holonomy_atlas_2026-08-02/`
 
-Session handoff: `HANDOFF.md`.
-
 ### Next gate
 
 G381=NT1 and G382=NT2 conditional mathematical banking is COMPLETE at the reviewed scopes.
