@@ -141,6 +141,11 @@ assessment and proposed next campaign are in
 `udt_quiet_correspondence_direction_2026-09-09/DIRECTION_BRIEF.md`.
 Proposal: test whether small native angular cancellation residual controls
 specified clock/tidal departures after ordinary comparison data are fixed.
-Charles subsequently authorized that proposal. Active work order and log:
+Charles subsequently authorized that now-completed two-step campaign. Work order and log:
 `udt_quiet_correspondence_campaign_2026-09-10/WORK_ORDER.md` and `CAMPAIGN_LOG.md`
-in that package. Two reviewed steps or three hours; no new physical adoption.
+in that package. QC1/QC2 are reviewed conditional UNPROMOTED results; see its
+`DECISION_BRIEF.md`. QC1 bounds the specified readout differences with explicit
+residual, data, domain and lapse controls; QC2 refutes two uniform extensions
+when comparison extent or relative-lapse control is lost. Neither supplies
+a law making the residual small or an actual empirical departure. Return for
+lay discussion; no successor campaign, banking or physical adoption authorized.

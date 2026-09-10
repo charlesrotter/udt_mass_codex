@@ -1,0 +1,68 @@
+{
+  "arithmetic": "stdlib Fraction",
+  "counts": {
+    "coefficient_identities": 65,
+    "exact_probes": 829,
+    "negative_controls": 5
+  },
+  "expanding": [
+    {
+      "epsilon": "1/4",
+      "extent": "2",
+      "relative_clock_squared": "7/6"
+    },
+    {
+      "epsilon": "1/9",
+      "extent": "3",
+      "relative_clock_squared": "101/81"
+    },
+    {
+      "epsilon": "1/16",
+      "extent": "4",
+      "relative_clock_squared": "41/32"
+    },
+    {
+      "epsilon": "1/64",
+      "extent": "8",
+      "relative_clock_squared": "1013/768"
+    },
+    {
+      "epsilon": "1/256",
+      "extent": "16",
+      "relative_clock_squared": "2723/2048"
+    },
+    {
+      "epsilon": "1/4096",
+      "extent": "64",
+      "relative_clock_squared": "174731/131072"
+    }
+  ],
+  "python": "3.10.12",
+  "shrinking": [
+    {
+      "delta": "1",
+      "relative_clock_squared": "5/3"
+    },
+    {
+      "delta": "1/2",
+      "relative_clock_squared": "5/3"
+    },
+    {
+      "delta": "1/4",
+      "relative_clock_squared": "5/3"
+    },
+    {
+      "delta": "1/16",
+      "relative_clock_squared": "5/3"
+    },
+    {
+      "delta": "1/64",
+      "relative_clock_squared": "5/3"
+    },
+    {
+      "delta": "1/1024",
+      "relative_clock_squared": "5/3"
+    }
+  ],
+  "status": "PASS; finite algebra support, analytic proof separately recorded"
+}

@@ -1,0 +1,97 @@
+udt_gr_filter_reconciliation_2026-09-09/AUTHORITY_RECORD.md: OK
+udt_g260_gr_quiet_angular_nondiscard_audit_2026-08-25/EXACT_DERIVATION.md: OK
+udt_g261_universal_metric_coupling_parent_operator_ownership_2026-08-25/EXACT_DERIVATION.md: OK
+udt_quiet_correspondence_direction_2026-09-09/DIRECTION_BRIEF.md: OK
+udt_quiet_correspondence_direction_2026-09-09/review/FINAL_REVIEW.md: OK
+CURRENT_SCIENTIFIC_PREMISES.tsv: OK
+udt_shared_readout_metric_constraint_campaign_2026-09-06/run_capture.py: OK
+udt_quiet_correspondence_campaign_2026-09-10/step_01/CANDIDATE.md: OK
+udt_quiet_correspondence_campaign_2026-09-10/step_01/check_candidate.py: OK
+udt_quiet_correspondence_campaign_2026-09-10/step_01/CHECK_REPAIR.md: OK
+udt_quiet_correspondence_campaign_2026-09-10/step_01/author_checks_corrected.json: OK
+udt_quiet_correspondence_campaign_2026-09-10/step_01/author_checks_corrected.stdout: OK
+udt_quiet_correspondence_campaign_2026-09-10/step_01/author_checks_corrected.stderr: OK
+udt_quiet_correspondence_campaign_2026-09-10/step_01/review/SOURCE_FIRST_REPORT.md: OK
+udt_quiet_correspondence_campaign_2026-09-10/step_01/review/FINAL_REVIEW.md: OK
+udt_quiet_correspondence_campaign_2026-09-10/step_01/review/independent_check.py: OK
+udt_quiet_correspondence_campaign_2026-09-10/step_01/review/independent_check_run.stdout: OK
+udt_quiet_correspondence_campaign_2026-09-10/step_01/review/independent_check_run.stderr: OK
+udt_quiet_correspondence_campaign_2026-09-10/step_01/review/independent_check_run.json: OK
+udt_quiet_correspondence_campaign_2026-09-10/step_01/review/rational_readout_check.py: OK
+udt_quiet_correspondence_campaign_2026-09-10/step_01/review/rational_readout_run.stdout: OK
+udt_quiet_correspondence_campaign_2026-09-10/step_01/review/rational_readout_run.stderr: OK
+udt_quiet_correspondence_campaign_2026-09-10/step_01/review/rational_readout_run.json: OK
+udt_quiet_correspondence_campaign_2026-09-10/step_01/review/repaired_author_replay.stdout: OK
+udt_quiet_correspondence_campaign_2026-09-10/step_01/review/repaired_author_replay.stderr: OK
+udt_quiet_correspondence_campaign_2026-09-10/step_01/review/repaired_author_replay.json: OK
+udt_gr_filter_reconciliation_2026-09-09/AUTHORITY_RECORD.md: OK
+udt_g260_gr_quiet_angular_nondiscard_audit_2026-08-25/EXACT_DERIVATION.md: OK
+udt_quiet_correspondence_campaign_2026-09-10/step_01/CANDIDATE.md: OK
+udt_quiet_correspondence_campaign_2026-09-10/step_01/REVIEWED_RESULT.md: OK
+udt_quiet_correspondence_campaign_2026-09-10/step_01/review/FINAL_REVIEW.md: OK
+CURRENT_SCIENTIFIC_PREMISES.tsv: OK
+udt_quiet_correspondence_campaign_2026-09-10/step_02/CANDIDATE.md: OK
+udt_quiet_correspondence_campaign_2026-09-10/step_02/check_candidate.py: OK
+udt_quiet_correspondence_campaign_2026-09-10/step_02/author_checks.json: OK
+udt_quiet_correspondence_campaign_2026-09-10/step_02/author_checks.stdout: OK
+udt_quiet_correspondence_campaign_2026-09-10/step_02/author_checks.stderr: OK
+udt_quiet_correspondence_campaign_2026-09-10/step_02/review/SOURCE_FIRST_REPORT.md: OK
+udt_quiet_correspondence_campaign_2026-09-10/step_02/review/rational_check.py: OK
+udt_quiet_correspondence_campaign_2026-09-10/step_02/review/rational_check_run.stdout: OK
+udt_quiet_correspondence_campaign_2026-09-10/step_02/review/rational_check_run.stderr: OK
+udt_quiet_correspondence_campaign_2026-09-10/step_02/review/rational_check_run.json: OK
+udt_quiet_correspondence_campaign_2026-09-10/step_02/review/symbolic_direct_check.py: OK
+udt_quiet_correspondence_campaign_2026-09-10/step_02/review/symbolic_direct_run.stdout: OK
+udt_quiet_correspondence_campaign_2026-09-10/step_02/review/symbolic_direct_run.stderr: OK
+udt_quiet_correspondence_campaign_2026-09-10/step_02/review/symbolic_direct_run.json: OK
+udt_quiet_correspondence_campaign_2026-09-10/step_02/review/FINAL_REVIEW.md: OK
+{
+  "backup_and_pre_reboot_unsaved_state": "UNVERIFIED",
+  "baseline": "2a3e64befd72b801cdd54e528d9a7c68362cdd7b",
+  "branch": "grok",
+  "changed_tracked_paths": [
+    "CURRENT_RESEARCH_PROGRAM.md",
+    "CURRENT_SCIENTIFIC_PREMISES.md",
+    "HANDOFF.md",
+    "INDEX.md",
+    "LIVE.md",
+    "MEMORY.md",
+    "UDT_RESEARCH_ROADMAP.md",
+    "udt_quiet_correspondence_campaign_2026-09-10/CAMPAIGN_LOG.md",
+    "udt_quiet_correspondence_campaign_2026-09-10/STARTUP_AUDIT.json",
+    "udt_quiet_correspondence_campaign_2026-09-10/WORK_ORDER.md",
+    "udt_quiet_correspondence_campaign_2026-09-10/step_01/CANDIDATE.md",
+    "udt_quiet_correspondence_campaign_2026-09-10/step_01/CANDIDATE_SHA256SUMS",
+    "udt_quiet_correspondence_campaign_2026-09-10/step_01/CHECK_REPAIR.md",
+    "udt_quiet_correspondence_campaign_2026-09-10/step_01/REVIEWED_RESULT.md",
+    "udt_quiet_correspondence_campaign_2026-09-10/step_01/SOURCE_SHA256SUMS",
+    "udt_quiet_correspondence_campaign_2026-09-10/step_01/author_checks.json",
+    "udt_quiet_correspondence_campaign_2026-09-10/step_01/author_checks.stderr",
+    "udt_quiet_correspondence_campaign_2026-09-10/step_01/author_checks.stdout",
+    "udt_quiet_correspondence_campaign_2026-09-10/step_01/author_checks_corrected.json",
+    "udt_quiet_correspondence_campaign_2026-09-10/step_01/author_checks_corrected.stderr",
+    "udt_quiet_correspondence_campaign_2026-09-10/step_01/author_checks_corrected.stdout",
+    "udt_quiet_correspondence_campaign_2026-09-10/step_01/check_candidate.py",
+    "udt_quiet_correspondence_campaign_2026-09-10/step_01/review/FINAL_REVIEW.md",
+    "udt_quiet_correspondence_campaign_2026-09-10/step_01/review/REVIEW_SHA256SUMS",
+    "udt_quiet_correspondence_campaign_2026-09-10/step_01/review/SOURCE_FIRST_REPORT.md",
+    "udt_quiet_correspondence_campaign_2026-09-10/step_01/review/independent_check.py",
+    "udt_quiet_correspondence_campaign_2026-09-10/step_01/review/independent_check_run.json",
+    "udt_quiet_correspondence_campaign_2026-09-10/step_01/review/independent_check_run.stderr",
+    "udt_quiet_correspondence_campaign_2026-09-10/step_01/review/independent_check_run.stdout",
+    "udt_quiet_correspondence_campaign_2026-09-10/step_01/review/rational_readout_check.py",
+    "udt_quiet_correspondence_campaign_2026-09-10/step_01/review/rational_readout_run.json",
+    "udt_quiet_correspondence_campaign_2026-09-10/step_01/review/rational_readout_run.stderr",
+    "udt_quiet_correspondence_campaign_2026-09-10/step_01/review/rational_readout_run.stdout",
+    "udt_quiet_correspondence_campaign_2026-09-10/step_01/review/repaired_author_replay.json",
+    "udt_quiet_correspondence_campaign_2026-09-10/step_01/review/repaired_author_replay.stderr",
+    "udt_quiet_correspondence_campaign_2026-09-10/step_01/review/repaired_author_replay.stdout"
+  ],
+  "full365": "separate actual run FAILED G325; not waived or rerun here",
+  "head": "b8d455ae0c55fac1aa33b2e69331000e2bd50955",
+  "protected_payloads": "not opened or hashed; status-name preservation only",
+  "source_candidate_review_manifest_entries": 47,
+  "status": "PASS; byte correspondence and scoped Git/status checks only",
+  "unrelated_status_names_sha256": "d65d71d63a56b95aabfd61f33317b1f1f2b2a62a85ded8258c525b99a5e156ea",
+  "unrelated_untracked_count": 46
+}

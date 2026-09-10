@@ -1,7 +1,8 @@
 # Quiet-correspondence compact campaign log
 
-Status: ACTIVE. Start00:04:58 UTC2026-09-10; deadline03:04:58 UTC; two-step
-ceiling, not quota. Baseline2a3e64be. WORK_ORDER.md owns bounded scope.
+Status: TWO substantive steps reviewed; scientific work and scoped checks
+COMPLETE; publication recorded separately. Start00:04:58 UTC2026-09-10;
+deadline03:04:58 UTC; baseline2a3e64be. WORK_ORDER.md owns bounded scope.
 
 Orientation: same-session startup chain verified unchanged since80cc6c9d;
 current approved proposal and triggered protocols reread. Sync succeeded,
@@ -82,3 +83,21 @@ possibility while deriving QC1 but selected/formalized this second question
 only after its completed review. No finite-sampling campaign is added: full-
 supremum examples test a stronger claimed implication. Freeze the second
 candidate before checks; obtain a NEW source-first/direct reviewer context.
+
+QC2 outcome: VERIFIED-WITH-CAVEATS at the unchanged candidate, final review
+bb688a64..., no repair or unresolved load-bearing objection. Both denied
+uniform implications fail; all stated curvature differences still vanish.
+Positive QC1 and exact-balanced cases survive. No physical-time conclusion.
+The reviewer independently reconstructed the same GROW witness and a different
+GAP witness before exposure, then checked the actual candidate symbolically.
+Author496 includes24 dependent sign-sanity checks, retained as regression
+only. Independent Fraction65 identities/829 probes/5 negative controls and
+SymPy36 identities/limits/3 negative controls support the analytic arguments;
+counts are not theorem strength or empirical validation. No same-code replay
+or repeat four-metric curvature derivation in this step; inherit QC1.
+
+Return: two reviewed conditional UNPROMOTED results, no scientific banking.
+DECISION_BRIEF.md separates the quantitative bridge from its limits and the
+still-missing independent control of residual size/profile. Stop for discussion;
+no third task or successor campaign. EXECUTION_RECORD.md records actual final
+checks/preservation/publication without changing either frozen candidate.

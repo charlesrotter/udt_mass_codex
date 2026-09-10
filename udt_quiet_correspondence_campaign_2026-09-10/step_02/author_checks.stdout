@@ -1,0 +1,75 @@
+{
+  "status": "PASS",
+  "assertions": 496,
+  "python": "3.10.12",
+  "method": "standalone Fraction Laurent profiles, original residual and curvature derivatives; clock squares exact",
+  "script_sha256": "c7c67259e84ee54b69620dc4e402dfdfb5378cd13d7639b0e9880f255a734b88",
+  "records": [
+    {
+      "family": "GROW",
+      "n": 2,
+      "epsilon": "1/4",
+      "clock_quotient_squared": "7/6"
+    },
+    {
+      "family": "GROW",
+      "n": 3,
+      "epsilon": "1/9",
+      "clock_quotient_squared": "101/81"
+    },
+    {
+      "family": "GROW",
+      "n": 5,
+      "epsilon": "1/25",
+      "clock_quotient_squared": "487/375"
+    },
+    {
+      "family": "GROW",
+      "n": 10,
+      "epsilon": "1/100",
+      "clock_quotient_squared": "331/250"
+    },
+    {
+      "family": "GROW",
+      "n": 100,
+      "epsilon": "1/10000",
+      "clock_quotient_squared": "666617/500000"
+    },
+    {
+      "family": "GROW",
+      "n": 1000,
+      "epsilon": "1/1000000",
+      "clock_quotient_squared": "666666167/500000000"
+    },
+    {
+      "family": "GAP",
+      "epsilon": "1/4",
+      "clock_quotient_squared": "29/24"
+    },
+    {
+      "family": "GAP",
+      "epsilon": "1/9",
+      "clock_quotient_squared": "29/24"
+    },
+    {
+      "family": "GAP",
+      "epsilon": "1/100",
+      "clock_quotient_squared": "29/24"
+    },
+    {
+      "family": "GAP",
+      "epsilon": "1/10000",
+      "clock_quotient_squared": "29/24"
+    },
+    {
+      "family": "GAP",
+      "epsilon": "1/1000000000000",
+      "clock_quotient_squared": "29/24"
+    }
+  ],
+  "rejected_formula_mutations": [
+    "omit minus-one and lose anchor match",
+    "invert relative clock square"
+  ],
+  "limits": "Finite probes support identities; analytic proof owns all-domain positivity and nonvanishing limits; no evolution or empirical accuracy"
+}

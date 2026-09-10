@@ -100,7 +100,7 @@ realization. Free profiles, supplied future frame/slice and lost-buffer/unsnapsh
 NR1--NR2/LG1--LG2/LE1/SE1/NE1: reviewed UNPROMOTED; INDEX owns scopes/reviews.
 NE1: profile decay with cumulative marked-area/tidal departure; exact polarized family.
 No genericity/stability/content.
-ND1/ND2: reviewed UNPROMOTED; roadmap: INDEX.
+ND1/ND2/QC1/QC2: reviewed UNPROMOTED; roadmap: INDEX.
 
 Geometric theory/calibration and possible emergence remain parallel, neither prerequisite.
 Explicit justified transfer/instrument assumptions can support conditional measurements;

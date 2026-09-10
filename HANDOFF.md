@@ -55,7 +55,7 @@ Predecessors: compact tangents, restricted localization and local curvature beha
 NE1: fading profile with cumulative marked-area-rate/tidal departure in one exact polarized family.
 Supplied data/marking and conditional methods; no genericity, stability/content.
 All original reviews/caveats control. Full365 NOT_PASSED at G325 replay.
-ND1/ND2: reviewed UNPROMOTED; roadmap: INDEX.
+ND1/ND2/QC1/QC2: reviewed UNPROMOTED; roadmap: INDEX.
 
 Optional source branch PAUSED; automatic Hopfion-stabilization mechanism is PAUSED, no rescue.
 GOCE PARKED, eligibility UNRESOLVED/OPEN, enquiry UNSENT—not rejected or awaiting a reply.
