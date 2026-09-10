@@ -1,0 +1,76 @@
+{
+  "utc": "2026-09-10T20:33:02.065850+00:00",
+  "status": "PASS",
+  "checks": [
+    {
+      "initial_path": "WORK_ORDER.md",
+      "preserved_path": "WORK_ORDER.md",
+      "expected": "598d82e2717ff9a4fe42536437c94a819f588c2696ea7f5b52c430ef71156a05",
+      "observed": "598d82e2717ff9a4fe42536437c94a819f588c2696ea7f5b52c430ef71156a05",
+      "matches": true
+    },
+    {
+      "initial_path": "DATA_FREEZE.md",
+      "preserved_path": "DATA_FREEZE.md",
+      "expected": "730ee7bfc80a837e9da0c61d7c4c0622789c6a91cb2f894612554173478c8ed9",
+      "observed": "730ee7bfc80a837e9da0c61d7c4c0622789c6a91cb2f894612554173478c8ed9",
+      "matches": true
+    },
+    {
+      "initial_path": "INITIAL_CANDIDATE.md",
+      "preserved_path": "INITIAL_CANDIDATE.md",
+      "expected": "b11326b4f316f675a9c3ecc596d47e33c0e39215c591fddde1013c37c68d2375",
+      "observed": "b11326b4f316f675a9c3ecc596d47e33c0e39215c591fddde1013c37c68d2375",
+      "matches": true
+    },
+    {
+      "initial_path": "check_candidate.py",
+      "preserved_path": "checks/INITIAL_check_candidate.py",
+      "expected": "227480dfe2f1da4b54be493a8cba3e2f9d8f87ee3a33fc69742aed7bd74137e4",
+      "observed": "227480dfe2f1da4b54be493a8cba3e2f9d8f87ee3a33fc69742aed7bd74137e4",
+      "matches": true
+    },
+    {
+      "initial_path": "checks/author_01.stdout.json",
+      "preserved_path": "checks/author_01.stdout.json",
+      "expected": "6105ecbb009f6d523e5cacd7ae3130fb6eb04803c9989ff65d63f657d31d3d82",
+      "observed": "6105ecbb009f6d523e5cacd7ae3130fb6eb04803c9989ff65d63f657d31d3d82",
+      "matches": true
+    },
+    {
+      "initial_path": "checks/author_01.stderr.txt",
+      "preserved_path": "checks/author_01.stderr.txt",
+      "expected": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "observed": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "matches": true
+    },
+    {
+      "initial_path": "checks/author_01.run.json",
+      "preserved_path": "checks/author_01.run.json",
+      "expected": "77654c141f98fd7dbfcf165a4ed16fdef83540922f195ac7df7e970cae806b22",
+      "observed": "77654c141f98fd7dbfcf165a4ed16fdef83540922f195ac7df7e970cae806b22",
+      "matches": true
+    },
+    {
+      "initial_path": "SOURCE_NOTES.md",
+      "preserved_path": "SOURCE_NOTES.md",
+      "expected": "f023c5fffce8624ba692d043c23fb3c926b013a5d4a6d48d17c0bb949866c8ac",
+      "observed": "f023c5fffce8624ba692d043c23fb3c926b013a5d4a6d48d17c0bb949866c8ac",
+      "matches": true
+    },
+    {
+      "initial_path": "SOURCE_MANIFEST.tsv",
+      "preserved_path": "SOURCE_MANIFEST.tsv",
+      "expected": "786f2e8fa677f6de4f080135a6169649343ec0a2391a570a1fb4c28a3f9fdeb7",
+      "observed": "786f2e8fa677f6de4f080135a6169649343ec0a2391a570a1fb4c28a3f9fdeb7",
+      "matches": true
+    },
+    {
+      "initial_path": "SOURCE_REGISTRY_ROWS.json",
+      "preserved_path": "SOURCE_REGISTRY_ROWS.json",
+      "expected": "22513fb075b3aa1d043b8b29691801ae2d1164022f8287955ddba93557cc7eaa",
+      "observed": "22513fb075b3aa1d043b8b29691801ae2d1164022f8287955ddba93557cc7eaa",
+      "matches": true
+    }
+  ]
+}

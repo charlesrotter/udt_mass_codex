@@ -1,0 +1,326 @@
+{
+  "status": "PASS",
+  "evidence_type": "author exact symbolic diagnostics; not independent review",
+  "checks": [
+    {
+      "name": "angular_mean",
+      "type": "exact identity",
+      "passed": true
+    },
+    {
+      "name": "acceleration_dipole",
+      "type": "exact identity",
+      "passed": true
+    },
+    {
+      "name": "full_shear_quadrupole",
+      "type": "exact identity",
+      "passed": true
+    },
+    {
+      "name": "even_variance",
+      "type": "exact identity",
+      "passed": true
+    },
+    {
+      "name": "polar_moment_x2",
+      "type": "exact identity",
+      "passed": true
+    },
+    {
+      "name": "polar_moment_x4",
+      "type": "exact identity",
+      "passed": true
+    },
+    {
+      "name": "polar_moment_x2z2",
+      "type": "exact identity",
+      "passed": true
+    },
+    {
+      "name": "derivative_square_sign",
+      "type": "exact identity",
+      "passed": true
+    },
+    {
+      "name": "unit_0",
+      "type": "exact identity",
+      "passed": true
+    },
+    {
+      "name": "coordinate_Raychaudhuri_0",
+      "type": "exact identity",
+      "passed": true
+    },
+    {
+      "name": "general_diagonal_clock_prediction",
+      "type": "exact identity",
+      "passed": true
+    },
+    {
+      "name": "general_diagonal_direct_Ricci",
+      "type": "exact identity",
+      "passed": true
+    },
+    {
+      "name": "drift_witness_instantaneous_q",
+      "type": "exact identity",
+      "passed": true
+    },
+    {
+      "name": "drift_witness_RicUU",
+      "type": "exact identity",
+      "passed": true
+    },
+    {
+      "name": "omit_temporal_mean_drift",
+      "type": "wrong formula rejected",
+      "passed": true,
+      "wrong_minus_direct": "3"
+    },
+    {
+      "name": "shear_witness_mean",
+      "type": "exact identity",
+      "passed": true
+    },
+    {
+      "name": "shear_witness_variance",
+      "type": "exact identity",
+      "passed": true
+    },
+    {
+      "name": "omit_even_quadrupole",
+      "type": "wrong formula rejected",
+      "passed": true,
+      "wrong_minus_direct": "2"
+    },
+    {
+      "name": "wrong_shear_factor_15_instead_of_15_over_2",
+      "type": "wrong formula rejected",
+      "passed": true,
+      "wrong_minus_direct": "-2"
+    },
+    {
+      "name": "omit_mean_square",
+      "type": "wrong formula rejected",
+      "passed": true,
+      "wrong_minus_direct": "3"
+    },
+    {
+      "name": "unit_1",
+      "type": "exact identity",
+      "passed": true
+    },
+    {
+      "name": "coordinate_Raychaudhuri_1",
+      "type": "exact identity",
+      "passed": true
+    },
+    {
+      "name": "static_central_q",
+      "type": "exact identity",
+      "passed": true
+    },
+    {
+      "name": "static_central_acceleration",
+      "type": "exact identity",
+      "passed": true
+    },
+    {
+      "name": "static_central_A",
+      "type": "exact identity",
+      "passed": true
+    },
+    {
+      "name": "static_central_W",
+      "type": "exact identity",
+      "passed": true
+    },
+    {
+      "name": "static_central_RicUU",
+      "type": "exact identity",
+      "passed": true
+    },
+    {
+      "name": "static_central_all_times",
+      "type": "exact identity",
+      "passed": true
+    },
+    {
+      "name": "static_time_constancy_retain_t",
+      "type": "exact identity",
+      "passed": true
+    },
+    {
+      "name": "old_evaluate_time_first_false_pass_exposed",
+      "type": "exact identity",
+      "passed": true
+    },
+    {
+      "name": "retain_time_detects_mutant_derivative",
+      "type": "exact identity",
+      "passed": true
+    },
+    {
+      "name": "time_dependent_mutant_rejected",
+      "type": "wrong formula rejected",
+      "passed": true,
+      "wrong_minus_direct": "1"
+    },
+    {
+      "name": "omit_acceleration_divergence",
+      "type": "wrong formula rejected",
+      "passed": true,
+      "wrong_minus_direct": "-3"
+    },
+    {
+      "name": "unit_2",
+      "type": "exact identity",
+      "passed": true
+    },
+    {
+      "name": "coordinate_Raychaudhuri_2",
+      "type": "exact identity",
+      "passed": true
+    },
+    {
+      "name": "twist_det",
+      "type": "exact identity",
+      "passed": true
+    },
+    {
+      "name": "twist_symmetric_derivative",
+      "type": "exact identity",
+      "passed": true
+    },
+    {
+      "name": "twist_acceleration",
+      "type": "exact identity",
+      "passed": true
+    },
+    {
+      "name": "twist_A",
+      "type": "exact identity",
+      "passed": true
+    },
+    {
+      "name": "twist_W",
+      "type": "exact identity",
+      "passed": true
+    },
+    {
+      "name": "twist_RicUU",
+      "type": "exact identity",
+      "passed": true
+    },
+    {
+      "name": "omit_vorticity",
+      "type": "wrong formula rejected",
+      "passed": true,
+      "wrong_minus_direct": "-1/2"
+    },
+    {
+      "name": "wrong_vorticity_half_norm",
+      "type": "wrong formula rejected",
+      "passed": true,
+      "wrong_minus_direct": "-1/4"
+    },
+    {
+      "name": "unit_3",
+      "type": "exact identity",
+      "passed": true
+    },
+    {
+      "name": "coordinate_Raychaudhuri_3",
+      "type": "exact identity",
+      "passed": true
+    },
+    {
+      "name": "linear_lapse_q",
+      "type": "exact identity",
+      "passed": true
+    },
+    {
+      "name": "linear_lapse_even_variance",
+      "type": "exact identity",
+      "passed": true
+    },
+    {
+      "name": "linear_lapse_full_divergence",
+      "type": "exact identity",
+      "passed": true
+    },
+    {
+      "name": "linear_lapse_Ricci",
+      "type": "exact identity",
+      "passed": true
+    },
+    {
+      "name": "use_total_variance_instead_of_even_variance",
+      "type": "wrong formula rejected",
+      "passed": true,
+      "wrong_minus_direct": "-5/2"
+    },
+    {
+      "name": "replace_four_divergence_by_spatial_divergence",
+      "type": "wrong formula rejected",
+      "passed": true,
+      "wrong_minus_direct": "-1"
+    }
+  ],
+  "check_count": 51,
+  "metric_records": [
+    {
+      "name": "general_diagonal",
+      "q_at_origin": "-h1*nx**2 - h2*ny**2 - h3*nz**2",
+      "mean": "-h1/3 - h2/3 - h3/3",
+      "variance": "4*h1**2/45 - 4*h1*h2/45 - 4*h1*h3/45 + 4*h2**2/45 - 4*h2*h3/45 + 4*h3**2/45",
+      "drift": "-j1/3 - j2/3 - j3/3",
+      "direct_RicUU": "-h1**2 - h2**2 - h3**2 - j1 - j2 - j3"
+    },
+    {
+      "name": "static_lapse",
+      "q_at_central_worldline": "0",
+      "A_at_origin": "3*kappa",
+      "W": "0",
+      "direct_RicUU_at_origin": "3*kappa"
+    },
+    {
+      "name": "unit_Killing_twist",
+      "A": "0",
+      "W": "b**2/2",
+      "direct_RicUU": "b**2/2",
+      "symmetric_derivative_zero": true
+    },
+    {
+      "name": "linear_lapse_acceleration_control",
+      "q_at_origin": "-alpha*nx",
+      "full_variance": "alpha**2/3",
+      "even_variance": "0",
+      "A": "0",
+      "direct_RicUU": "0"
+    }
+  ],
+  "versions": {
+    "python": "3.10.12",
+    "sympy": "1.13.1"
+  },
+  "reused_utility": {
+    "path": "udt_null_clock_depth_integrability_assessment_2026-09-10/check_integrability.py",
+    "sha256": "13d491796cc03f8036833294f8ba3b3edea1e6c879eabc5a48c9df568d1636a4",
+    "functions": [
+      "simp",
+      "geometry"
+    ],
+    "top_level_executed": false
+  },
+  "candidate_sha256": "b11326b4f316f675a9c3ecc596d47e33c0e39215c591fddde1013c37c68d2375",
+  "script_sha256": "0c7f7a3075fb72e94a2bd461eff6022e0241ba92786614dc7f31628830fa1d3f",
+  "omissions": [
+    "physical measurements",
+    "full field-equation or source replay",
+    "finite noisy sampling",
+    "global structure",
+    "novel-mathematics claim"
+  ]
+}

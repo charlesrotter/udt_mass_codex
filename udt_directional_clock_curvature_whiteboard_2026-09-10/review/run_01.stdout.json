@@ -1,0 +1,483 @@
+{
+  "status": "PASS",
+  "versions": {
+    "python": "3.10.12",
+    "sympy": "1.13.1"
+  },
+  "checks": [
+    {
+      "name": "missing_drift_frame",
+      "passed": true,
+      "residuals": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ]
+    },
+    {
+      "name": "missing_drift_unit_field",
+      "passed": true,
+      "residuals": [
+        "0"
+      ]
+    },
+    {
+      "name": "missing_drift_even_variance",
+      "passed": true,
+      "residuals": [
+        "0"
+      ]
+    },
+    {
+      "name": "missing_drift_formula",
+      "passed": true,
+      "residuals": [
+        "0"
+      ]
+    },
+    {
+      "name": "drift_q",
+      "passed": true,
+      "residuals": [
+        "0"
+      ]
+    },
+    {
+      "name": "drift_target",
+      "passed": true,
+      "residuals": [
+        "0"
+      ]
+    },
+    {
+      "name": "missing_A_frame",
+      "passed": true,
+      "residuals": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ]
+    },
+    {
+      "name": "missing_A_unit_field",
+      "passed": true,
+      "residuals": [
+        "0"
+      ]
+    },
+    {
+      "name": "missing_A_even_variance",
+      "passed": true,
+      "residuals": [
+        "0"
+      ]
+    },
+    {
+      "name": "missing_A_formula",
+      "passed": true,
+      "residuals": [
+        "0"
+      ]
+    },
+    {
+      "name": "lapse_q",
+      "passed": true,
+      "residuals": [
+        "0"
+      ]
+    },
+    {
+      "name": "lapse_target",
+      "passed": true,
+      "residuals": [
+        "0"
+      ]
+    },
+    {
+      "name": "missing_W_frame",
+      "passed": true,
+      "residuals": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ]
+    },
+    {
+      "name": "missing_W_unit_field",
+      "passed": true,
+      "residuals": [
+        "0"
+      ]
+    },
+    {
+      "name": "missing_W_even_variance",
+      "passed": true,
+      "residuals": [
+        "0"
+      ]
+    },
+    {
+      "name": "missing_W_formula",
+      "passed": true,
+      "residuals": [
+        "0"
+      ]
+    },
+    {
+      "name": "twist_q",
+      "passed": true,
+      "residuals": [
+        "0"
+      ]
+    },
+    {
+      "name": "twist_target",
+      "passed": true,
+      "residuals": [
+        "0"
+      ]
+    },
+    {
+      "name": "Koszul_twist_tidal",
+      "passed": true,
+      "residuals": [
+        "0",
+        "0",
+        "0"
+      ]
+    },
+    {
+      "name": "missing_quadrupole_frame",
+      "passed": true,
+      "residuals": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ]
+    },
+    {
+      "name": "missing_quadrupole_unit_field",
+      "passed": true,
+      "residuals": [
+        "0"
+      ]
+    },
+    {
+      "name": "missing_quadrupole_even_variance",
+      "passed": true,
+      "residuals": [
+        "0"
+      ]
+    },
+    {
+      "name": "missing_quadrupole_formula",
+      "passed": true,
+      "residuals": [
+        "0"
+      ]
+    },
+    {
+      "name": "shear_q",
+      "passed": true,
+      "residuals": [
+        "0"
+      ]
+    },
+    {
+      "name": "shear_target",
+      "passed": true,
+      "residuals": [
+        "0"
+      ]
+    },
+    {
+      "name": "nonzero_acceleration_frame",
+      "passed": true,
+      "residuals": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ]
+    },
+    {
+      "name": "nonzero_acceleration_unit_field",
+      "passed": true,
+      "residuals": [
+        "0"
+      ]
+    },
+    {
+      "name": "nonzero_acceleration_even_variance",
+      "passed": true,
+      "residuals": [
+        "0"
+      ]
+    },
+    {
+      "name": "nonzero_acceleration_formula",
+      "passed": true,
+      "residuals": [
+        "0"
+      ]
+    },
+    {
+      "name": "linear_lapse_Ricci",
+      "passed": true,
+      "residuals": [
+        "0"
+      ]
+    },
+    {
+      "name": "linear_lapse_divergence",
+      "passed": true,
+      "residuals": [
+        "0"
+      ]
+    },
+    {
+      "name": "mixed_kinematics_frame",
+      "passed": true,
+      "residuals": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ]
+    },
+    {
+      "name": "mixed_kinematics_unit_field",
+      "passed": true,
+      "residuals": [
+        "0"
+      ]
+    },
+    {
+      "name": "mixed_kinematics_even_variance",
+      "passed": true,
+      "residuals": [
+        "0"
+      ]
+    },
+    {
+      "name": "mixed_kinematics_formula",
+      "passed": true,
+      "residuals": [
+        "0"
+      ]
+    },
+    {
+      "name": "omit_drift_rejected",
+      "passed": true,
+      "deliberately_wrong_minus_direct": "3"
+    },
+    {
+      "name": "omit_A_rejected",
+      "passed": true,
+      "deliberately_wrong_minus_direct": "-3"
+    },
+    {
+      "name": "omit_W_rejected",
+      "passed": true,
+      "deliberately_wrong_minus_direct": "-1/2"
+    },
+    {
+      "name": "half_W_rejected",
+      "passed": true,
+      "deliberately_wrong_minus_direct": "-1/4"
+    },
+    {
+      "name": "omit_shear_rejected",
+      "passed": true,
+      "deliberately_wrong_minus_direct": "2"
+    },
+    {
+      "name": "reverse_curvature_sign_rejected",
+      "passed": true,
+      "deliberately_wrong_minus_direct": "1"
+    },
+    {
+      "name": "total_variance_rejected",
+      "passed": true,
+      "deliberately_wrong_minus_direct": "-5/2"
+    },
+    {
+      "name": "spatial_divergence_rejected",
+      "passed": true,
+      "deliberately_wrong_minus_direct": "-1"
+    },
+    {
+      "name": "affine_scale_invariance",
+      "passed": true,
+      "residuals": [
+        "0"
+      ]
+    },
+    {
+      "name": "sphere_second_integral",
+      "passed": true,
+      "residuals": [
+        "0"
+      ]
+    },
+    {
+      "name": "sphere_fourth_integral",
+      "passed": true,
+      "residuals": [
+        "0"
+      ]
+    }
+  ],
+  "records": [
+    {
+      "name": "missing_drift",
+      "q": "0",
+      "mean": "0",
+      "dot_mean": "-beta",
+      "V": "0",
+      "A": "0",
+      "W": "0",
+      "RicUU": "-3*beta",
+      "acceleration": "[0, 0, 0, 0]",
+      "spatial_divergence": "0"
+    },
+    {
+      "name": "missing_A",
+      "q": "0",
+      "mean": "0",
+      "dot_mean": "0",
+      "V": "0",
+      "A": "3*kappa",
+      "W": "0",
+      "RicUU": "3*kappa",
+      "acceleration": "[0, 0, 0, 0]",
+      "spatial_divergence": "3*kappa"
+    },
+    {
+      "name": "missing_W",
+      "q": "0",
+      "mean": "0",
+      "dot_mean": "0",
+      "V": "0",
+      "A": "0",
+      "W": "b**2/2",
+      "RicUU": "b**2/2",
+      "acceleration": "[0, 0, 0, 0]",
+      "spatial_divergence": "0"
+    },
+    {
+      "name": "missing_quadrupole",
+      "q": "-s*(nx - ny)*(nx + ny)",
+      "mean": "0",
+      "dot_mean": "0",
+      "V": "4*s**2/15",
+      "A": "0",
+      "W": "0",
+      "RicUU": "-2*s**2",
+      "acceleration": "[0, 0, 0, 0]",
+      "spatial_divergence": "0"
+    },
+    {
+      "name": "nonzero_acceleration",
+      "q": "-alpha*nx",
+      "mean": "0",
+      "dot_mean": "0",
+      "V": "0",
+      "A": "0",
+      "W": "0",
+      "RicUU": "0",
+      "acceleration": "[0, alpha, 0, 0]",
+      "spatial_divergence": "-alpha**2"
+    },
+    {
+      "name": "mixed_kinematics",
+      "q": "-nx**2 - 2*nx - 2*ny**2 + nz**2",
+      "mean": "-2/3",
+      "dot_mean": "-1",
+      "V": "28/45",
+      "A": "9",
+      "W": "8",
+      "RicUU": "8",
+      "acceleration": "[0, 2, 0, 0]",
+      "spatial_divergence": "5"
+    }
+  ],
+  "implementation": "point metric jets and inverse derivative; no repository imports",
+  "evidence": "exact symbolic witness checks plus separate Koszul frame calculation"
+}

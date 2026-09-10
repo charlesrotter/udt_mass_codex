@@ -1,0 +1,16 @@
+{
+  "static_lapse": {
+    "Ric_UU": "6*kappa/(kappa*x**2 + kappa*y**2 + kappa*z**2 + 2)",
+    "Ric_UU_p": "3*kappa",
+    "div_a": "6*kappa/(kappa*x**2 + kappa*y**2 + kappa*z**2 + 2)",
+    "twist2": "0",
+    "q_p": "0"
+  },
+  "unit_killing_twist": {
+    "Ric_UU": "b**2/2",
+    "Ric_UU_p": "b**2/2",
+    "div_a": "0",
+    "twist2": "b**2/2",
+    "q_p": "0"
+  }
+}

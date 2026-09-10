@@ -1,0 +1,14 @@
+Traceback (most recent call last):
+  File "/tmp/udt_clock_partner_20260910/check_witnesses.py", line 55, in <module>
+    out['static_lapse']=inspect('static_lapse',s.diag(-N*N,1,1,1),s.Matrix([1/N,0,0,0]))
+  File "/tmp/udt_clock_partner_20260910/check_witnesses.py", line 28, in inspect
+    accel=s.Matrix(4,1,lambda a:s.simplify(sum(U[c]*s.diff(U[a],x[c]) for c in range(4))+sum(Gamma[a][c][d]*U[c]*U[d] for c in range(4) for d in range(4))))
+  File "/home/udt-admin/.local/lib/python3.10/site-packages/sympy/matrices/repmatrix.py", line 558, in __new__
+    return cls._new(*args, **kwargs)
+  File "/home/udt-admin/.local/lib/python3.10/site-packages/sympy/matrices/repmatrix.py", line 569, in _new
+    rows, cols, flat_list = cls._handle_creation_inputs(*args, **kwargs)
+  File "/home/udt-admin/.local/lib/python3.10/site-packages/sympy/matrices/matrixbase.py", line 3995, in _handle_creation_inputs
+    [cls._sympify(op(cls._sympify(i), cls._sympify(j)))
+  File "/home/udt-admin/.local/lib/python3.10/site-packages/sympy/matrices/matrixbase.py", line 3995, in <listcomp>
+    [cls._sympify(op(cls._sympify(i), cls._sympify(j)))
+TypeError: inspect.<locals>.<lambda>() takes 1 positional argument but 2 were given

@@ -1,0 +1,12 @@
+{
+  "command": [
+    "python3",
+    "udt_directional_clock_curvature_whiteboard_2026-09-10/check_candidate.py"
+  ],
+  "timeout_seconds": 120,
+  "evidence_type": "reviewer-executed same-code repair regression; not independent implementation",
+  "start_utc": "2026-09-10T20:32:48.659105+00:00",
+  "script_sha256": "0c7f7a3075fb72e94a2bd461eff6022e0241ba92786614dc7f31628830fa1d3f",
+  "exit_code": 0,
+  "end_utc": "2026-09-10T20:32:50.442024+00:00"
+}

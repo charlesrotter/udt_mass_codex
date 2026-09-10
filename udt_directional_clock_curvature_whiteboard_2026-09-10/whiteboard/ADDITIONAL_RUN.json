@@ -1,0 +1,9 @@
+{
+  "command": [
+    "python3",
+    "udt_directional_clock_curvature_whiteboard_2026-09-10/whiteboard/check_additional_witnesses.py"
+  ],
+  "cwd": "/home/udt-admin/udt_mass_codex",
+  "timeout_seconds": 120,
+  "exit_code": 0
+}

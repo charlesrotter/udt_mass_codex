@@ -1,0 +1,78 @@
+{
+  "status": "PASS",
+  "type": "parent closeout correspondence and preservation",
+  "timestamp_utc": "2026-09-10T20:40:16.091934+00:00",
+  "source_baseline": "896da97dc2484b72fa346d0c0ab17055a1dd6fcd",
+  "head_at_check": "896da97dc2484b72fa346d0c0ab17055a1dd6fcd",
+  "command": [
+    "python3",
+    "udt_directional_clock_curvature_whiteboard_2026-09-10/checks/closeout_verify.py"
+  ],
+  "candidate_sha256": "b11326b4f316f675a9c3ecc596d47e33c0e39215c591fddde1013c37c68d2375",
+  "review_sha256": "10073df1ba0c62cc7fcd6057715d68c9438d8d46bf52b83d3db26771fab8d4bb",
+  "decision_brief_sha256": "886645bef2386e4a1d480df26f7309c61fdb78c4a0861a694422038f524696f1",
+  "verdict": "VERIFIED-WITH-CAVEATS; conditional UNPROMOTED",
+  "checks": [
+    {
+      "name": "source_pins",
+      "passed": true,
+      "file_count": 15
+    },
+    {
+      "name": "all_initial_freeze_bytes_preserved",
+      "passed": true,
+      "file_count": 10,
+      "author_script_preserved_at": "checks/INITIAL_check_candidate.py"
+    },
+    {
+      "name": "partner_manifest",
+      "passed": true,
+      "command": [
+        "sha256sum",
+        "-c",
+        "ARTIFACT_SHA256SUMS"
+      ],
+      "cwd": "udt_directional_clock_curvature_whiteboard_2026-09-10/whiteboard",
+      "exit_code": 0,
+      "stdout": "ADDITIONAL_RESULT.json: OK\nADDITIONAL_RUN.json: OK\nADDITIONAL_STDERR.txt: OK\nADDITIONAL_STDOUT.txt: OK\nCHECK_OUTPUT.txt: OK\nCHECK_RESULT.json: OK\nINITIAL_STDERR.txt: OK\nINITIAL_STDOUT.txt: OK\nINITIAL_check_witnesses.py: OK\nPARTNER_NOTES.md: OK\nREPAIR_NOTE.txt: OK\nSHA256SUMS: OK\nSOURCE_SHA256SUMS: OK\nSTDERR.txt: OK\nSTDOUT.txt: OK\ncheck_additional_witnesses.py: OK\ncheck_witnesses.py: OK\n",
+      "stderr": ""
+    },
+    {
+      "name": "reviewer_manifest",
+      "passed": true,
+      "command": [
+        "sha256sum",
+        "-c",
+        "SHA256SUMS"
+      ],
+      "cwd": "udt_directional_clock_curvature_whiteboard_2026-09-10/review",
+      "exit_code": 0,
+      "stdout": "COMPLETION.json: OK\nFREEZE_PRESERVATION_CHECK.json: OK\nMETHOD_SOURCE_SHA256SUMS: OK\nPRE_CANDIDATE_REASONING.md: OK\nREVIEW.md: OK\nSOURCE_CHECKS.json: OK\ncheck_independent.py: OK\ncheck_record_data.py: OK\nrun_01.run.json: OK\nrun_01.stderr.txt: OK\nrun_01.stdout.json: OK\nrun_02.run.json: OK\nrun_02.stderr.txt: OK\nrun_02.stdout.json: OK\nrun_03_author_replay.run.json: OK\nrun_03_author_replay.stderr.txt: OK\nrun_03_author_replay.stdout.json: OK\n",
+      "stderr": ""
+    },
+    {
+      "name": "recorded_exit_codes",
+      "passed": true,
+      "initial_author_check_caveat": "static_time_constancy EXCLUDED; original exit 0 retained"
+    },
+    {
+      "name": "mixed_saved_record_fraction_recomputation",
+      "passed": true,
+      "input_file": "review/run_01.stdout.json",
+      "input_sha256": "37f74b50d57b64a4f4f5915e7732dc747a49224c1b05f5a38d5f70934fbf2ee0",
+      "recomputed_RicUU": "8",
+      "direct_reviewer_RicUU": "8",
+      "limitation": "same-parent saved-value arithmetic; direct curvature belongs to reviewer implementation"
+    },
+    {
+      "name": "authorized_paths_and_visible_state",
+      "passed": true,
+      "unrelated_status_entries": 46,
+      "unrelated_status_sha256": "55e7c4508622f912730f9c068cc571c370b3977bc1110eb0a48a8218dbe024c2",
+      "limitation": "status text only; no protected payload hashing or backup verification"
+    }
+  ],
+  "new_full365_run": false,
+  "premise_audit": "Fresh top-level session run passed before this campaign; unchanged scientific sources verified here.",
+  "publication": "Exact subsequent commit/push evidence is recorded separately; not inferred from these checks."
+}

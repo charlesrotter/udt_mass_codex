@@ -1,0 +1,9 @@
+{
+  "run": "author_01",
+  "exit_code_retained": 0,
+  "excluded_check": "static_time_constancy",
+  "reason": "Vacuous as a central-time constancy test: origin substitution set t=0 before differentiating. Exclude this check as evidence, retain run and original source. Candidate remains supported by explicit stationarity and partner calculation.",
+  "initial_source_sha256": "227480dfe2f1da4b54be493a8cba3e2f9d8f87ee3a33fc69742aed7bd74137e4",
+  "preserved_source": "checks/INITIAL_check_candidate.py",
+  "repair_type": "check-only; no scientific candidate change"
+}

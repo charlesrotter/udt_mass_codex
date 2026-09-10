@@ -1,0 +1,31 @@
+python: 3.10.12 (main, Aug 31 2026, 10:18:17) [GCC 11.4.0]
+sympy: 1.13.1
+static_lapse metric determinant: -(kappa*x**2 + kappa*y**2 + kappa*z**2 + 2)**2/4
+static_lapse unit norm: -1
+static_lapse symmetric gradient: Matrix([[0, kappa*x/2, kappa*y/2, kappa*z/2], [kappa*x/2, 0, 0, 0], [kappa*y/2, 0, 0, 0], [kappa*z/2, 0, 0, 0]])
+static_lapse theta: 0
+static_lapse shear: Matrix([[0, 0, 0, 0], [0, 0, 0, 0], [0, 0, 0, 0], [0, 0, 0, 0]])
+static_lapse acceleration: Matrix([[0], [2*kappa*x/(kappa*(x**2 + y**2 + z**2) + 2)], [2*kappa*y/(kappa*(x**2 + y**2 + z**2) + 2)], [2*kappa*z/(kappa*(x**2 + y**2 + z**2) + 2)]])
+static_lapse divergence acceleration: 6*kappa/(kappa*x**2 + kappa*y**2 + kappa*z**2 + 2)
+static_lapse twist squared: 0
+static_lapse Ric_UU direct coordinate curvature: 6*kappa/(kappa*x**2 + kappa*y**2 + kappa*z**2 + 2)
+static_lapse Ric_UU at p: 3*kappa
+static_lapse div a at p: 3*kappa
+static_lapse twist squared at p: 0
+static_lapse accel at p: Matrix([[0], [0], [0], [0]])
+static_lapse all-direction q at p: 0
+unit_killing_twist metric determinant: -1
+unit_killing_twist unit norm: -1
+unit_killing_twist symmetric gradient: Matrix([[0, 0, 0, 0], [0, 0, 0, 0], [0, 0, 0, 0], [0, 0, 0, 0]])
+unit_killing_twist theta: 0
+unit_killing_twist shear: Matrix([[0, 0, 0, 0], [0, 0, 0, 0], [0, 0, 0, 0], [0, 0, 0, 0]])
+unit_killing_twist acceleration: Matrix([[0], [0], [0], [0]])
+unit_killing_twist divergence acceleration: 0
+unit_killing_twist twist squared: b**2/2
+unit_killing_twist Ric_UU direct coordinate curvature: b**2/2
+unit_killing_twist Ric_UU at p: b**2/2
+unit_killing_twist div a at p: 0
+unit_killing_twist twist squared at p: b**2/2
+unit_killing_twist accel at p: Matrix([[0], [0], [0], [0]])
+unit_killing_twist all-direction q at p: 0
+PASS construction coordinate witnesses (same-context exact check)

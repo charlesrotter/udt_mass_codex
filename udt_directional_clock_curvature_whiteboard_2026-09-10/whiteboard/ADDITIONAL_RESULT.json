@@ -1,0 +1,55 @@
+{
+  "evidence_type": "same-context constructor exact symbolic controls",
+  "python": "3.10.12 (main, Aug 31 2026, 10:18:17) [GCC 11.4.0]",
+  "sympy": "1.13.1",
+  "isotropic_time_dependence": {
+    "scales": [
+      "exp(beta*t**2/2)",
+      "exp(beta*t**2/2)",
+      "exp(beta*t**2/2)"
+    ],
+    "Gamma_i0i": [
+      "beta*t",
+      "beta*t",
+      "beta*t"
+    ],
+    "Gamma_0ii": [
+      "beta*t*exp(beta*t**2)",
+      "beta*t*exp(beta*t**2)",
+      "beta*t*exp(beta*t**2)"
+    ],
+    "Ric_UU": "3*beta*(-beta*t**2 - 1)",
+    "q": "-beta*t",
+    "q_at_t0": "0",
+    "mean_q_at_t0": "0",
+    "dot_mean_q_at_t0": "-beta",
+    "Ric_UU_at_t0": "-3*beta",
+    "acceleration_divergence": "0",
+    "vorticity_squared": "0"
+  },
+  "constant_anisotropic_rates": {
+    "scales": [
+      "exp(s*t)",
+      "exp(-s*t)",
+      "1"
+    ],
+    "Gamma_i0i": [
+      "s",
+      "-s",
+      "0"
+    ],
+    "Gamma_0ii": [
+      "s*exp(2*s*t)",
+      "-s*exp(-2*s*t)",
+      "0"
+    ],
+    "Ric_UU": "-2*s**2",
+    "q": "-n_x**2*s + n_y**2*s",
+    "q_at_t0": "s*(-n_x**2 + n_y**2)",
+    "mean_q_at_t0": "0",
+    "dot_mean_q_at_t0": "0",
+    "Ric_UU_at_t0": "-2*s**2",
+    "acceleration_divergence": "0",
+    "vorticity_squared": "0"
+  }
+}

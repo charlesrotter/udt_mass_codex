@@ -1,0 +1,1 @@
+Pre-result coding correction only: SymPy Matrix(4,1,lambda ...) calls its callback with two indices. Changed acceleration callback lambda a to lambda a,_. Initial source and reproduced stdout/stderr preserved. No metric, equation, scope, desired result, tolerance, or acceptance criterion changed. Exact commands: python3 /tmp/udt_clock_partner_20260910/check_witnesses.py

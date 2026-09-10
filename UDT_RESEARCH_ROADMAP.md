@@ -181,7 +181,7 @@ gates, not supplied initial data or derived physical laws. One check-only repair
 and its false-pass evidence are preserved; the candidate was unchanged.
 One-step campaign COMPLETE; stop for discussion. No successor or banking.
 
-## Latest bounded connection: null-clock depth integrability
+## Null-clock depth integrability
 
 Charles subsequently authorized discretionary bounded work. One 90-minute assessment addressed a
 different source join, not another response-law sequel: when all regular local null-clock comparisons
@@ -194,3 +194,20 @@ it is not a new mathematical theorem, imposed symmetry, physical light identific
 General branch-labelled queries remain valid when scalar compression fails; full screen/frame carry
 is not removed when it succeeds. Preserve that distinction rather than selecting a law to enforce it.
 Assessment COMPLETE; no automatic successor, premise adoption or banking. Full365 PASS after maintenance; scientific decisions remain open.
+
+## Latest bounded connection: directional clock records and curvature
+
+Charles authorized a 90-minute multiagent construction/review cycle. DCI1 is now reviewed
+VERIFIED-WITH-CAVEATS, conditional UNPROMOTED:
+`udt_directional_clock_curvature_whiteboard_2026-09-10/DECISION_BRIEF.md`.
+For supplied smooth local metric/observer data, a declared ideal directional null-clock
+record map plus separately supplied acceleration divergence and vorticity norm determines
+one timelike Ricci component. This is the standard Raychaudhuri identity in the stated
+clock variables, not native response-law closure or a new mathematical theorem.
+Actual local metrics demonstrate ambiguity when specific channels are omitted; zero finite
+scalar depths on each metric's own branches do not mean identical full incidence/path data.
+The initial vacuous author time check is EXCLUDED, preserved and repaired; fresh review and
+focused re-review accepted the unchanged candidate. Physical acquisition of the ideal
+records remains OPEN. No Einstein equation, physical identification, scale or source law is
+selected. The full candidate/data freeze/review control; campaign COMPLETE, return for
+discussion, no successor, scientific banking or physical adoption authorized by this record.

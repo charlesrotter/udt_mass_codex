@@ -1,0 +1,45 @@
+{
+  "status": "PASS",
+  "versions": {
+    "python": "3.10.12",
+    "sympy": "1.13.1"
+  },
+  "records": [
+    {
+      "name": "drift",
+      "q_on_central_worldline": "-beta*t*(nx**2 + ny**2 + nz**2)",
+      "mean_on_central_worldline": "-beta*t",
+      "dot_mean_at_origin": "-beta",
+      "null_norm_residual": "0"
+    },
+    {
+      "name": "static_lapse",
+      "q_on_central_worldline": "0",
+      "mean_on_central_worldline": "0",
+      "dot_mean_at_origin": "0",
+      "null_norm_residual": "0"
+    },
+    {
+      "name": "unit_Killing_twist",
+      "q_on_central_worldline": "0",
+      "mean_on_central_worldline": "0",
+      "dot_mean_at_origin": "0",
+      "null_norm_residual": "0"
+    },
+    {
+      "name": "shear",
+      "q_on_central_worldline": "-s*(nx - ny)*(nx + ny)",
+      "mean_on_central_worldline": "0",
+      "dot_mean_at_origin": "0",
+      "null_norm_residual": "0"
+    },
+    {
+      "name": "mixed",
+      "q_on_central_worldline": "-2*nx**2*t - nx**2 - 2*nx*exp(-t)*exp(-t**2) + 2*ny**2*t - 2*ny**2 - 3*nz**2*t + nz**2",
+      "mean_on_central_worldline": "-(3*t + 2)/3",
+      "dot_mean_at_origin": "-1",
+      "null_norm_residual": "0"
+    }
+  ],
+  "evidence": "exact Lie-derivative clock data with t retained through angular averaging"
+}

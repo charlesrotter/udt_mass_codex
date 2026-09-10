@@ -1,0 +1,122 @@
+{
+  "utc": "2026-09-10T20:30:09.699353+00:00",
+  "source_checks": [
+    {
+      "path": "AGENTS.md",
+      "expected": "9204e80ba3ebda635a7c21d562ecfdc2af8bf516aee91ae8099b04a66b8fcb8c",
+      "observed": "9204e80ba3ebda635a7c21d562ecfdc2af8bf516aee91ae8099b04a66b8fcb8c",
+      "matches": true
+    },
+    {
+      "path": "LIVE.md",
+      "expected": "b409de5707989bed9cf7a793f9dac5a348800d94fa9bcae9b5bbf3e344e14170",
+      "observed": "b409de5707989bed9cf7a793f9dac5a348800d94fa9bcae9b5bbf3e344e14170",
+      "matches": true
+    },
+    {
+      "path": "HANDOFF.md",
+      "expected": "a1659a8ef3f5f1b86be398dad468a28d3d81a5961be24b79c96e6653ed77f095",
+      "observed": "a1659a8ef3f5f1b86be398dad468a28d3d81a5961be24b79c96e6653ed77f095",
+      "matches": true
+    },
+    {
+      "path": "CURRENT_SCIENTIFIC_PREMISES.tsv",
+      "expected": "4236f3784601617a93ac66b0de36a7a1565beef553d6b5f5c6d7d2a9a13e69dc",
+      "observed": "4236f3784601617a93ac66b0de36a7a1565beef553d6b5f5c6d7d2a9a13e69dc",
+      "matches": true
+    },
+    {
+      "path": "CURRENT_SCIENTIFIC_PREMISES.md",
+      "expected": "0b2a836d077c22f9c174c6ecbdf6cebc016840c8ac7ed34aad6113bbdcbac3d3",
+      "observed": "0b2a836d077c22f9c174c6ecbdf6cebc016840c8ac7ed34aad6113bbdcbac3d3",
+      "matches": true
+    },
+    {
+      "path": "udt_g220_covariant_null_clock_arrow_timelive_lift_2026-08-22/AUDIT_REPORT.md",
+      "expected": "9806ac14f5d0bc419501878627dc79770ba4dd7c50f4f14dee0db216c3d9598f",
+      "observed": "9806ac14f5d0bc419501878627dc79770ba4dd7c50f4f14dee0db216c3d9598f",
+      "matches": true
+    },
+    {
+      "path": "udt_g215_completed_scalar_shared_clock_incidence_descent_2026-08-22/AUDIT_REPORT.md",
+      "expected": "c8446a6a9a8c19b60f53d2869b48e75807197d957dc043f8078f17814edefc7c",
+      "observed": "c8446a6a9a8c19b60f53d2869b48e75807197d957dc043f8078f17814edefc7c",
+      "matches": true
+    },
+    {
+      "path": "udt_g216_observer_event_comparison_clock_rate_ownership_2026-08-22/AUDIT_REPORT.md",
+      "expected": "a30cc5ec78093ca4e1f2efb2c4156bb2b5b83143a2d41c33ab447ec2a18feed2",
+      "observed": "a30cc5ec78093ca4e1f2efb2c4156bb2b5b83143a2d41c33ab447ec2a18feed2",
+      "matches": true
+    },
+    {
+      "path": "udt_null_clock_depth_integrability_assessment_2026-09-10/INITIAL_CANDIDATE.md",
+      "expected": "a2769dd02500970475225939f0606ba212bdde6b6a54a3bebdd5023ced1385e1",
+      "observed": "a2769dd02500970475225939f0606ba212bdde6b6a54a3bebdd5023ced1385e1",
+      "matches": true
+    },
+    {
+      "path": "udt_null_clock_depth_integrability_assessment_2026-09-10/REPAIR.md",
+      "expected": "38f0bf9512a426e23e76acba8bca71dcef36b0d1e126ce5f45eabbe269b98dc4",
+      "observed": "38f0bf9512a426e23e76acba8bca71dcef36b0d1e126ce5f45eabbe269b98dc4",
+      "matches": true
+    },
+    {
+      "path": "udt_null_clock_depth_integrability_assessment_2026-09-10/DIRECT_REVIEW.md",
+      "expected": "85896a11c6d7a40acf798e05c6ef6cacdd46baad366a33a4335ae594ac6786cd",
+      "observed": "85896a11c6d7a40acf798e05c6ef6cacdd46baad366a33a4335ae594ac6786cd",
+      "matches": true
+    },
+    {
+      "path": "udt_null_clock_depth_integrability_assessment_2026-09-10/check_integrability.py",
+      "expected": "13d491796cc03f8036833294f8ba3b3edea1e6c879eabc5a48c9df568d1636a4",
+      "observed": "13d491796cc03f8036833294f8ba3b3edea1e6c879eabc5a48c9df568d1636a4",
+      "matches": true
+    },
+    {
+      "path": "udt_g333_metric_native_initial_pair_response_2026-09-03/AUDIT_REPORT.md",
+      "expected": "b9e75533f59a48892efe60faec46b44d64c6f360f21b1abef7817574b93f03b3",
+      "observed": "b9e75533f59a48892efe60faec46b44d64c6f360f21b1abef7817574b93f03b3",
+      "matches": true
+    },
+    {
+      "path": "udt_g357_g360_conditional_banking_2026-09-07/BANKING_RECORD.md",
+      "expected": "34588fee0d20bbfb2de12dc2dc31d743e36f300af94bfe5ccb58595c2ac73a1a",
+      "observed": "34588fee0d20bbfb2de12dc2dc31d743e36f300af94bfe5ccb58595c2ac73a1a",
+      "matches": true
+    },
+    {
+      "path": "udt_gr_filter_reconciliation_2026-09-09/AUTHORITY_RECORD.md",
+      "expected": "80daa0be6d3e1c0ac1b734fea089c4eb487f05bc1e1fbb2fabd69322ca89f28c",
+      "observed": "80daa0be6d3e1c0ac1b734fea089c4eb487f05bc1e1fbb2fabd69322ca89f28c",
+      "matches": true
+    }
+  ],
+  "registry_checks": [
+    {
+      "premise_id": "G358",
+      "matches_current": true
+    },
+    {
+      "premise_id": "G333",
+      "matches_current": true
+    },
+    {
+      "premise_id": "G312",
+      "matches_current": true
+    },
+    {
+      "premise_id": "G220",
+      "matches_current": true
+    },
+    {
+      "premise_id": "G216",
+      "matches_current": true
+    },
+    {
+      "premise_id": "G215",
+      "matches_current": true
+    }
+  ],
+  "status": "PASS"
+}

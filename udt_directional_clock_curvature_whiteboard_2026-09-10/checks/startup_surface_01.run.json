@@ -1,0 +1,11 @@
+{
+  "command": [
+    "python3",
+    "-c",
+    "from pathlib import Path; import verify_current_scientific_premises as v; v.validate_startup_surface(Path('.')); print('PASS: current startup surface validation')"
+  ],
+  "start_utc": "2026-09-10T20:38:08.097163+00:00",
+  "end_utc": "2026-09-10T20:38:08.210926+00:00",
+  "timeout_seconds": 120,
+  "exit_code": 0
+}
