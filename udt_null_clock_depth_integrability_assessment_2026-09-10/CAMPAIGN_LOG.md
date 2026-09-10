@@ -82,3 +82,15 @@ The single-step assessment is COMPLETE within its90-minute budget (scientific/re
 Publication receipt follows after actual commit/push. No accepted grade, canon, manuscript,
 physical premise or paused-route status changed. Backup completeness/pre-reboot unsaved state remain
 UNVERIFIED; ScratchDisk archive-only; GOCE PARKED/OPEN/UNSENT. Full365 remains NOT_PASSED at G325.
+
+## Publication receipt
+
+Evidence commit: `51e94ba6b909dd31d2634a575574c2fc35ea8083`,
+`Record reviewed conditional null-clock depth integrability`.
+`git push origin grok` succeeded; `git ls-remote origin refs/heads/grok` independently returned that
+exact hash at03:35UTC. Final staged whitespace check passed before commit. Both source(21) and
+evidence/navigation(16) hash lists passed again after publication. This receipt changes only the
+excluded mutable log and records completed publication, not scientific acceptance.
+
+The publication and preservation closeout finished within about25minutes of the90-minute ceiling.
+All conclusions remain at the reviewed conditional scope; no promotion or successor was undertaken.
