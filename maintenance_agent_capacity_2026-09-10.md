@@ -204,3 +204,193 @@ The approved fresh-session transition and proposed-but-unauthorized scientific a
 Repeat rehearsal: `startup_dress_rehearsal_2026-09-10/repeat_02/README.md`.
 Fresh ordered review found no further defect; a new full365 run and 367 fast checks passed.
 No startup repair or capacity-reset claim; original rehearsal evidence and permissions are unchanged.
+
+## Fresh top-level availability check — 2026-09-10
+
+This dated observation supplements the earlier diagnostic without rewriting its history.
+The current top-level session followed the on-disk startup at `a05f8abfd8d812ecb4279383859e83fecd201c20`
+on `grok`. Fetch and fast-forward-only pull succeeded and HEAD matched origin/grok.
+The first sandbox fetch failed with `cannot open .git/FETCH_HEAD: Read-only file system`;
+the permitted escalated retry succeeded. No automatic approval rejection remained.
+The existing 46 untracked status entries and their status-text fingerprint were unchanged.
+No protected payload was opened or hashed by the handoff checks; a matching status fingerprint
+does not establish payload integrity or backup completeness.
+
+The parent read AGENTS, the bounded LIVE/HANDOFF current blocks, the dependency spine,
+the premises summary, the specified CLAUDE sections, triggered verifier-before-record protocol,
+and compact INDEX/MEMORY pointers. The required premise verifier ran in this session under
+Python 3.10.12 and returned exit 0 / PASS. The provisional orientation reported its pending state;
+the actual PASS was reported before either allocation. This is a fresh regression result at the
+stated snapshot, not a new scientific result or a replay attributed to either reviewer.
+The earlier rehearsal/maintenance passes remain historical. The separate 367 fast-test suite
+was not rerun. The final combined verifier output is preserved in the machine-readable receipt below;
+earlier output polls were empty.
+
+Read-only model-scalar inspection found configured `gpt-6-astra` / `xhigh`.
+The first auxiliary parser attempt failed with `ModuleNotFoundError: No module named 'tomllib'`;
+a narrow text inspection succeeded without installation or configuration changes.
+The runtime describes Codex based on GPT-6, but exact parent/reviewer model/version is UNATTESTED.
+No different-model review is claimed. The named ancestor/global AGENTS/override candidates were
+absent; the repository AGENTS and supplied runtime instructions remained controlling.
+CLAUDE and its triggered shared protocol were read; the inactive Claude hook was not tested.
+The OpenAI Docs skill was consulted for provenance discipline; prior CLI/documentation searches
+were reused as historical diagnostic context, not repeated or treated as runtime attestation.
+
+Exactly two useful fresh-context allocations succeeded, both `fork_turns: "none"` with no model
+override or sub-delegation. The initial roster showed only root. A parent roster observation
+immediately before 17:50:02 UTC and the runtime reviewer's independent observation immediately
+before 17:50:32 UTC each showed root and both reviewers running. Both reviews completed within
+the ten-minute shared budget, beginning at 17:49:01 UTC. These observations demonstrate actual
+two-reviewer overlap for this test; they do not establish continuous overlap duration, maximum
+capacity, restored general capacity, release behavior or a root cause for the old limit.
+No limit recurred, and no further probes or old-agent follow-ups were attempted.
+
+Both reviews returned VERIFIED-WITH-CAVEATS with no unresolved wording defect and no repair needed.
+The authorization reviewer found the later dated authorization consistent with the retained
+earlier diagnostic and its preservation boundaries. The runtime reviewer found historical
+non-demonstration of overlap compatible with the new dated observation, and old PASS wording
+properly separated from current execution. Each independently checked HEAD/status and the
+assigned documents; the runtime reviewer also checked config scalars, controls and the roster.
+Synchronization and the fresh premise PASS were explicitly attributed to the parent.
+These are separate-context wording checks, not blind scientific reviews or independent reruns
+of the premise audit. Selected findings and check metadata are recorded below; complete reviewer
+tool traces are not claimed to be saved in this file. The assembled receipt is parent-checked,
+not independently reviewed at its final bytes.
+
+No runtime configuration, session history, disk, protected work, scientific source, registry grade,
+canon or fixed through-G352 manuscript was changed. This task only appends the operational receipt.
+Backup completeness and pre-reboot unsaved-state disposition remain UNVERIFIED; ScratchDisk blocks
+archive-dependent work only. The saved clock-data/curvature advice remains PROPOSED, NOT AUTHORIZED.
+Return to lay discussion; no scientific audit, solve, identification, adoption or banking follows.
+
+```json
+{
+  "date": "2026-09-10",
+  "scope": "Fresh top-level startup and bounded read-only handoff availability; operational only",
+  "baseline_head": "a05f8abfd8d812ecb4279383859e83fecd201c20",
+  "branch": "grok",
+  "baseline_origin_grok": "a05f8abfd8d812ecb4279383859e83fecd201c20",
+  "checkpoint_before_sha256": "8681d7c6e0df97e5ca40c78ae98f7f580a1c3ac98826a286808b26dad663d0eb",
+  "visible_status_entries": 46,
+  "visible_status_sha256": "55e7c4508622f912730f9c068cc571c370b3977bc1110eb0a48a8218dbe024c2",
+  "python_version": "3.10.12",
+  "configured_model": "gpt-6-astra",
+  "configured_reasoning_effort": "xhigh",
+  "exact_runtime_model_version": "UNATTESTED for parent and both reviewers",
+  "advertised_concurrency_slots_including_root": 4,
+  "initial_roster": [
+    "/root: running"
+  ],
+  "test_window_start": "2026-09-10 17:49:01 UTC",
+  "completed_roster_observed_by": "2026-09-10 17:52:48 UTC",
+  "allocation_calls": [
+    {
+      "tool": "collaboration.spawn_agent",
+      "task_name": "fresh_handoff_authorization",
+      "fork_turns": "none",
+      "model_override": null,
+      "result": {
+        "task_name": "/root/fresh_handoff_authorization"
+      }
+    },
+    {
+      "tool": "collaboration.spawn_agent",
+      "task_name": "fresh_handoff_runtime",
+      "fork_turns": "none",
+      "model_override": null,
+      "result": {
+        "task_name": "/root/fresh_handoff_runtime"
+      }
+    }
+  ],
+  "overlap": [
+    {
+      "observer": "parent",
+      "roster": "root and both reviewers running",
+      "timestamp_observed_immediately_after": "2026-09-10 17:50:02 UTC"
+    },
+    {
+      "observer": "fresh_handoff_runtime",
+      "roster": "root and both reviewers running",
+      "timestamp_observed_immediately_after": "2026-09-10 17:50:32 UTC"
+    }
+  ],
+  "reviews": [
+    {
+      "task_name": "/root/fresh_handoff_authorization",
+      "fork_turns": "none",
+      "model_override": null,
+      "start_utc": "2026-09-10 17:49:32 UTC",
+      "end_utc": "2026-09-10 17:50:16 UTC",
+      "verdict": "VERIFIED-WITH-CAVEATS",
+      "finding": "No unresolved authorization/preservation wording defect or repair needed. Operational availability testing is authorized; the proposed scientific audit remains unauthorized.",
+      "independently_checked": [
+        "AGENTS.md",
+        "LIVE.md STARTUP_CURRENT",
+        "HANDOFF.md STARTUP_CURRENT",
+        "CLAUDE.md specified sections",
+        ".claude/skills/verifier-before-record/SKILL.md",
+        "maintenance_agent_capacity_2026-09-10.md",
+        "grok/HEAD/status at start and end"
+      ],
+      "attributed_parent_evidence": [
+        "fetch/pull success",
+        "fresh premise verifier exit 0 PASS"
+      ],
+      "omissions": [
+        "No science rerun",
+        "No protected payload or history inspection",
+        "No archive completeness check",
+        "No runtime configuration inspection"
+      ],
+      "model_attestation": "Exact model/version unattested; no different-model claim."
+    },
+    {
+      "task_name": "/root/fresh_handoff_runtime",
+      "fork_turns": "none",
+      "model_override": null,
+      "start_utc": "2026-09-10 17:49:51 UTC",
+      "end_utc": "2026-09-10 17:51:07 UTC",
+      "verdict": "VERIFIED-WITH-CAVEATS",
+      "finding": "No runtime/evidence wording defect found. Actual two-reviewer overlap established; general restoration, maximum capacity, release behavior and root cause remain unverified.",
+      "independently_checked": [
+        "AGENTS.md",
+        "LIVE.md STARTUP_CURRENT",
+        "HANDOFF.md STARTUP_CURRENT",
+        "CLAUDE.md specified sections",
+        ".claude/skills/verifier-before-record/SKILL.md",
+        "maintenance_agent_capacity_2026-09-10.md",
+        "grok/HEAD/origin-grok/status at start and end",
+        "roster and available collaboration controls",
+        "configuration model/reasoning scalar lines"
+      ],
+      "attributed_parent_evidence": [
+        "fetch/pull success",
+        "fresh premise verifier exit 0 PASS"
+      ],
+      "omissions": [
+        "No science rerun",
+        "No protected payload or history inspection",
+        "No archive completeness check",
+        "No repeated CLI/daemon/documentation search"
+      ],
+      "model_attestation": "Exact model/version unattested; no different-model claim."
+    }
+  ],
+  "allocation_attempts": 2,
+  "successful_allocations": 2,
+  "thread_limit_errors": 0,
+  "further_probes": 0,
+  "subdelegation": false,
+  "maximum_conclusion": "Two useful fresh read-only reviewers were concurrently available in this test; general capacity restoration remains UNVERIFIED.",
+  "premise_command": "python3 verify_current_scientific_premises.py",
+  "premise_result": {
+    "exit_code": 0,
+    "combined_output": "PASS: G242/G243/G244/G245/G246/G247/G248/G249/G250/G251/G252/G253/G254/G255/G256/G257/G258/G259/G260/G261/G262/G263/G264/G265/G266/G267/G268/G269/G270/G271/G272/G273/G274/W5/G275/G276/G277/G278/G279/G280/G281/G282/G283/G284/G285/G286/G287/G288/G289/G290/G291/G292/G293/G294/W6/G295/G296/G297/G298/G299/G300/G301/G302/G303/G304/G305/G306/G307/G308/G309/G310/G311/G312/G313/G314/G315/G316/G317/G318/G319/G320/G321/G322/G323/G324/G325/G326/G327/G328/G329/G330/G331/G332/G333/G334/G335/G336/G337/G338/G339/G340/G341/G342/G343/G344/G345/G346/G347/G348/G349/G350/G351/G352 startup and premise guards; PASS: 365-row premise registry, current bounded startup route, archive integrity, relational-depth/orchestra guards, X_max semantics, 754 historical dispositions, and corrected DOF semantics; PASS: G353/G354/G355/G356 conditional banking with unchanged frozen sources and physical-identification limits; PASS: G357/G358/G359/G360 conditional banking with retained SC1 source map, SC5 false-pass repair history and unchanged frozen sources; PASS: G361/G362/G363 conditional local persistence banking with restricted seed, wave-method, fixed-product and physical-identification limits; PASS: G364/G365/G366 conditional restrictiveness banking with exact local scopes, RC2 exposure caveat, unchanged original evidence and no physical adoption; PASS: G367/G368/G369 conditional source-metric banking with optional-class, chosen-product, repair/exposure and no physical-source-adoption limits; PASS: G370/G371 conditional reconstruction/product-data banking with optional nonvacuum, full ambient closure, fixed/free data and retained review limits; PASS: G372/G373 conditional independent-data and LOCAL ANALYTIC coupled development with original product, excluded vacuous checks, paused optional source and retained review limits; PASS: G374/G375 conditional fixed-base local vacuum-scale banking with positivity, fixed-target scalar and review limits; no particle stability, size or absolute scale; PASS: G376 prerequisite BI1 and G377/G378 BG1/BG2 exact conditional banking with dependency closure, full tensor/false-pass evidence and no fibration/stability promotion for BG2; PASS: G379/CF1 and G380/CF2 exact conditional closed-fibre banking with supplied marking, lawful local developments, preserved Hopf survivors and false-pass/LOST-output caveats; no generic failure, physical instability, topology change or UDT-failure promotion; PASS: G381/NT1 and G382/NT2 exact conditional neighboring-tidal banking with full connection/finite-jet limits, restricted real null factor class, actual local Lambda0 realizations, free profiles and preserved false-pass/LOST-source caveats; no physical identification\n"
+  },
+  "prior_rehearsal_results_reused_as_current": false,
+  "scientific_audit": "PROPOSED, NOT AUTHORIZED; not started",
+  "backup_completeness": "UNVERIFIED",
+  "pre_reboot_unsaved_state_disposition": "UNVERIFIED"
+}
+```
