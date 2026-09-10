@@ -1,0 +1,97 @@
+{
+  "scope": "Parent parallel checks and receipt integration; fresh ordered simulation belongs to REVIEW.md, not to parent parallel spot-check order.",
+  "synchronization": {
+    "completed_utc": {
+      "current_time": "2026-09-10 17:16:28 UTC"
+    },
+    "sequence": [
+      {
+        "command": "git status --short --branch",
+        "observed": "grok; 46 untracked entries, no tracked changes"
+      },
+      {
+        "command": "git checkout grok",
+        "exit_code": 0,
+        "output": "Already on 'grok'\nYour branch is up to date with 'origin/grok'.\n"
+      },
+      {
+        "command": "git fetch origin",
+        "exit_code": 0,
+        "output": ""
+      },
+      {
+        "command": "git pull --ff-only origin grok",
+        "exit_code": 0,
+        "output": "From https://github.com/charlesrotter/udt_mass_codex\n * branch              grok       -> FETCH_HEAD\nAlready up to date.\n"
+      },
+      {
+        "command": "git status --short --branch",
+        "observed": "unchanged status"
+      },
+      {
+        "command": "git log -8 --oneline",
+        "head": "ec7a095e21a061e7ce9a076f2c615f10263798ed"
+      }
+    ]
+  },
+  "runtime": {
+    "configured_model": "gpt-6-astra",
+    "configured_effort": "xhigh",
+    "serving_model": "not independently attested",
+    "cli": "0.153.4",
+    "cli_warning": "PATH aliases: read-only filesystem (non-fatal)",
+    "head": "ec7a095e21a061e7ce9a076f2c615f10263798ed",
+    "baseline_status_count": 46,
+    "baseline_status_sha256": "55e7c4508622f912730f9c068cc571c370b3977bc1110eb0a48a8218dbe024c2"
+  },
+  "fast_check": {
+    "command": "timeout 180s python3 -m pytest -q tests/test_startup_surface.py tests/test_guard_maintenance.py tests/test_xmax_maintenance.py -k 'not full_foundational_premise_verifier_is_in_pytest'",
+    "initial_tool_chunk": {
+      "session_id": 61199,
+      "output": "..........................."
+    },
+    "completion_tool_result": {
+      "chunk_id": "36fca6",
+      "wall_time_seconds": 0.000001629,
+      "exit_code": 0,
+      "original_token_count": 122,
+      "output": "............................................. [ 19%]\n........................................................................ [ 39%]\n........................................................................ [ 58%]\n........................................................................ [ 78%]\n........................................................................ [ 98%]\n.......                                                                  [100%]\n367 passed, 1 deselected in 10.76s\n"
+    },
+    "output_type": "Combined execution-tool output; initial and completion chunks retained separately; not separately instrumented stdout/stderr.",
+    "duplicate_full_entry": "Deselected because separate fresh reader ran full script; no scientific gate waived."
+  },
+  "preservation_command": "sha256sum -c startup_dress_rehearsal_2026-09-10/MANIFEST.sha256; sha256sum <ten exact startup/checker paths shown in result>; git diff --exit-code ec7a095e21a061e7ce9a076f2c615f10263798ed -- .; git status --porcelain=v1 | sha256sum",
+  "preservation_before_receipt_tool_result": {
+    "chunk_id": "7be510",
+    "wall_time_seconds": 0.000003742,
+    "exit_code": 0,
+    "original_token_count": 380,
+    "output": "startup_dress_rehearsal_2026-09-10/README.md: OK\nstartup_dress_rehearsal_2026-09-10/RUN_RECORD.json: OK\nstartup_dress_rehearsal_2026-09-10/REVIEW.md: OK\nstartup_dress_rehearsal_2026-09-10/INITIAL_REVIEWER_MANIFEST.txt: OK\nstartup_dress_rehearsal_2026-09-10/initial_verifier.stdout: OK\nstartup_dress_rehearsal_2026-09-10/initial_verifier.stderr: OK\nstartup_dress_rehearsal_2026-09-10/initial_verifier.time: OK\nstartup_dress_rehearsal_2026-09-10/final_verifier.stdout: OK\nstartup_dress_rehearsal_2026-09-10/final_verifier.stderr: OK\nstartup_dress_rehearsal_2026-09-10/final_verifier.time: OK\n9204e80ba3ebda635a7c21d562ecfdc2af8bf516aee91ae8099b04a66b8fcb8c  AGENTS.md\nb409de5707989bed9cf7a793f9dac5a348800d94fa9bcae9b5bbf3e344e14170  LIVE.md\na1659a8ef3f5f1b86be398dad468a28d3d81a5961be24b79c96e6653ed77f095  HANDOFF.md\na13a064d51cb87e99ecf248c1fe4254509d1645ad73feca4bc7adab3afae21b6  CURRENT_RESEARCH_PROGRAM.md\n0b2a836d077c22f9c174c6ecbdf6cebc016840c8ac7ed34aad6113bbdcbac3d3  CURRENT_SCIENTIFIC_PREMISES.md\nb7e524a5b06760e57877a408630228767ae9a394134095f9851bef5d06e17751  CLAUDE.md\n9b3a4aacd4b4006b2b7f01edada73b7c87b99bea6e754583558713bfc145e5ac  .claude/skills/verifier-before-record/SKILL.md\n25275a7dcb92f7d6d860b09de88767c199ff446a331678d674d44e126b4760df  INDEX.md\ndcc73567c8d60d098525d7c8734bbb8b3328cd7edc0cc6ec01bc9ccbf01d8cbb  MEMORY.md\na0b12b8b5a93673414ec2801b6fb5eacb771de5afd6e87a075f26840b02cec19  verify_current_scientific_premises.py\n55e7c4508622f912730f9c068cc571c370b3977bc1110eb0a48a8218dbe024c2  -\n"
+  },
+  "full_output_parent_inspection": {
+    "chunk_id": "94daff",
+    "wall_time_seconds": 0.000003558,
+    "exit_code": 0,
+    "original_token_count": 978,
+    "output": "PASS: G242/G243/G244/G245/G246/G247/G248/G249/G250/G251/G252/G253/G254/G255/G256/G257/G258/G259/G260/G261/G262/G263/G264/G265/G266/G267/G268/G269/G270/G271/G272/G273/G274/W5/G275/G276/G277/G278/G279/G280/G281/G282/G283/G284/G285/G286/G287/G288/G289/G290/G291/G292/G293/G294/W6/G295/G296/G297/G298/G299/G300/G301/G302/G303/G304/G305/G306/G307/G308/G309/G310/G311/G312/G313/G314/G315/G316/G317/G318/G319/G320/G321/G322/G323/G324/G325/G326/G327/G328/G329/G330/G331/G332/G333/G334/G335/G336/G337/G338/G339/G340/G341/G342/G343/G344/G345/G346/G347/G348/G349/G350/G351/G352 startup and premise guards; PASS: 365-row premise registry, current bounded startup route, archive integrity, relational-depth/orchestra guards, X_max semantics, 754 historical dispositions, and corrected DOF semantics; PASS: G353/G354/G355/G356 conditional banking with unchanged frozen sources and physical-identification limits; PASS: G357/G358/G359/G360 conditional banking with retained SC1 source map, SC5 false-pass repair history and unchanged frozen sources; PASS: G361/G362/G363 conditional local persistence banking with restricted seed, wave-method, fixed-product and physical-identification limits; PASS: G364/G365/G366 conditional restrictiveness banking with exact local scopes, RC2 exposure caveat, unchanged original evidence and no physical adoption; PASS: G367/G368/G369 conditional source-metric banking with optional-class, chosen-product, repair/exposure and no physical-source-adoption limits; PASS: G370/G371 conditional reconstruction/product-data banking with optional nonvacuum, full ambient closure, fixed/free data and retained review limits; PASS: G372/G373 conditional independent-data and LOCAL ANALYTIC coupled development with original product, excluded vacuous checks, paused optional source and retained review limits; PASS: G374/G375 conditional fixed-base local vacuum-scale banking with positivity, fixed-target scalar and review limits; no particle stability, size or absolute scale; PASS: G376 prerequisite BI1 and G377/G378 BG1/BG2 exact conditional banking with dependency closure, full tensor/false-pass evidence and no fibration/stability promotion for BG2; PASS: G379/CF1 and G380/CF2 exact conditional closed-fibre banking with supplied marking, lawful local developments, preserved Hopf survivors and false-pass/LOST-output caveats; no generic failure, physical instability, topology change or UDT-failure promotion; PASS: G381/NT1 and G382/NT2 exact conditional neighboring-tidal banking with full connection/finite-jet limits, restricted real null factor class, actual local Lambda0 realizations, free profiles and preserved false-pass/LOST-source caveats; no physical identification\n\tCommand being timed: \"timeout --signal=KILL 600s python3 verify_current_scientific_premises.py\"\n\tUser time (seconds): 401.10\n\tSystem time (seconds): 6.80\n\tPercent of CPU this job got: 100%\n\tElapsed (wall clock) time (h:mm:ss or m:ss): 6:47.46\n\tAverage shared text size (kbytes): 0\n\tAverage unshared data size (kbytes): 0\n\tAverage stack size (kbytes): 0\n\tAverage total size (kbytes): 0\n\tMaximum resident set size (kbytes): 105600\n\tAverage resident set size (kbytes): 0\n\tMajor (requiring I/O) page faults: 0\n\tMinor (reclaiming a frame) page faults: 3582228\n\tVoluntary context switches: 67281\n\tInvoluntary context switches: 5574\n\tSwaps: 0\n\tFile system inputs: 0\n\tFile system outputs: 65192\n\tSocket messages sent: 0\n\tSocket messages received: 0\n\tSignals delivered: 0\n\tPage size (bytes): 4096\n\tExit status: 0\n0 /tmp/udt_startup_repeat02.mXNfQr/full365.stderr.txt\ncdd907acf2487c1548aa7852ee738a83d75d95adae81b030ef77e396198538ec  /tmp/udt_startup_repeat02.mXNfQr/full365.stdout.txt\ne3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855  /tmp/udt_startup_repeat02.mXNfQr/full365.stderr.txt\ne3946cb912189e4543980021ad4b9203953b7e0e37b37efd6fa9b2a551cd8d64  /tmp/udt_startup_repeat02.mXNfQr/full365.time.txt\n"
+  },
+  "full_summary": {
+    "exit_code": 0,
+    "elapsed_seconds": 407.46,
+    "stdout_sha256": "cdd907acf2487c1548aa7852ee738a83d75d95adae81b030ef77e396198538ec",
+    "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "time_sha256": "e3946cb912189e4543980021ad4b9203953b7e0e37b37efd6fa9b2a551cd8d64",
+    "maximum_resident_kib": 105600,
+    "python": "3.10.12",
+    "reviewer": "/root/startup_rehearsal_repeat02",
+    "same_code_regression": true
+  },
+  "limitations": [
+    "No scientific proofs re-reviewed",
+    "No capacity reset or top-level restart tested",
+    "No protected payload bytes inspected",
+    "Backup completeness and pre-reboot unsaved-state disposition unverified",
+    "Final receipt assembly is parent-checked, not independently reviewed"
+  ],
+  "skills": "OpenAI Docs: actual controls/configuration distinguished from product features and backend attestation. Verifier-before-record and reviewer completeness-map: scoped fresh-context review distinguished from regression, scientific proof and completeness."
+}

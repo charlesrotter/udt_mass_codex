@@ -200,3 +200,7 @@ initial and repaired full365 runs, 367 targeted checks, and focused review of tw
 AGENTS now distinguishes top-level startup from scoped review; a summary spacing typo was fixed.
 This is dated operational evidence, not a new-session PASS, capacity reset or scientific promotion.
 The approved fresh-session transition and proposed-but-unauthorized scientific audit stay distinct.
+
+Repeat rehearsal: `startup_dress_rehearsal_2026-09-10/repeat_02/README.md`.
+Fresh ordered review found no further defect; a new full365 run and 367 fast checks passed.
+No startup repair or capacity-reset claim; original rehearsal evidence and permissions are unchanged.
