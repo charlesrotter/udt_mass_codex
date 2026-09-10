@@ -1,0 +1,4 @@
+  File "/home/udt-admin/udt_mass_codex/udt_gr_limit_campaign_2026-09-10/step_01/check_candidate.py", line 37
+    return [[sum(a[i][k]*sgn[k]*a[k][j] for k in range(4)) for j in range(4)]
+           ^
+SyntaxError: '[' was never closed

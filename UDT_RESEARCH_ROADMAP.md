@@ -149,3 +149,11 @@ residual, data, domain and lapse controls; QC2 refutes two uniform extensions
 when comparison extent or relative-lapse control is lost. Neither supplies
 a law making the residual small or an actual empirical departure. Return for
 lay discussion; no successor campaign, banking or physical adoption authorized.
+
+Charles subsequently authorized the proposed GR-limit campaign: at most two
+reviewed steps or four hours, investigating a controlled leading response
+without assuming exact Einstein dynamics or a nonzero leading Ricci coefficient.
+Active scope/log: `udt_gr_limit_campaign_2026-09-10/WORK_ORDER.md` and
+`CAMPAIGN_LOG.md` in that package. Response-class membership, regularity and
+derivative hierarchy remain explicit conditional hypotheses where not owned;
+no new physical scale, response law or scientific promotion is authorized.
