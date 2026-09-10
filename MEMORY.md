@@ -21,7 +21,7 @@ with actual local Lambda=0 realizations; not general metric realization or physi
 Original candidate/review bytes, false passes, repairs and lost-output caveats stay fixed.
 HB2/HB3 and BI2/BI3 remain UNPROMOTED; three CD vacuous checks remain EXCLUDED.
 NR/LG/LE1/SE1/NE1 are reviewed UNPROMOTED; INDEX owns full scopes/reviews, not stability/content.
-Full365 NOT_PASSED at G349 documentation gate; no new banking.
+Full365 PASS after maintenance; evidence: INDEX. No new banking.
 
 Keep the corrections explicit:
 

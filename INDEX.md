@@ -42,13 +42,13 @@ Dependency: `udt_localized_geometry_campaign_2026-09-09/DECISION_BRIEF.md`; LG1-
 restricted 3D localization, smooth-method/symmetry/smallness caveats; LG2 requires its REPAIR.md.
 Predecessor: `udt_nonlinear_mode_realizability_campaign_2026-09-09/DECISION_BRIEF.md`;
 NR1--NR2 UNPROMOTED, compact-sector mixed-C2/analytic-local tangent limits; original reviews control.
-Full365 NOT_PASSED: G349 documentation gate; `maintenance_g325_replay_2026-09-10/WORK_RECORD.md`; no new banking.
+Full365 PASS; maintenance: `maintenance_guard_sweep_2026-09-10/WORK_RECORD.md`; no scientific promotion.
 
 ## Founding, relational and response sources
 
 - `UDT_RECIPROCAL_C_FOUNDING_POSTULATE_DERIVATION_RESULTS.md`
 - `udt_uncompressed_pair_kernel_reconstruction_2026-08-14/`
-- `udt_g166_primary_metric_ordered_pair_kernel_descent_2026-08-18/`
+- `udt_g163_xmax_dependency_reversal_audit_2026-08-18/`; `udt_g166_primary_metric_ordered_pair_kernel_descent_2026-08-18/`
 - `udt_g167_primary_metric_full_pair_pullback_orchestra_2026-08-18/`
 - `udt_g176_completed_pair_dual_reciprocity_consolidation_2026-08-19/`
 - `udt_g197_native_kernel_provenance_and_startup_integrity_audit_2026-08-21/`

@@ -1,7 +1,7 @@
 # LIVE — current state only
 
 <!-- STARTUP_CURRENT_BEGIN -->
-## CURRENT STATE — 2026-09-09
+## CURRENT STATE — 2026-09-10
 
 Branch: `grok`. Synchronize and inspect dirt. This block overrides older status.
 
@@ -24,7 +24,7 @@ Review closeout: see INDEX; the original final report remains unproduced.
 The multibranch Einstein arena `Ric(g)=Lambda g` remains CONDITIONAL on its full reviewed premises,
 not established from filter-only GR. Exact grades stay fixed; the existing membership route is unclosed.
 Metric/kernel and mathematics are unchanged; angular-sector cancellation owns loud--quiet--loud.
-`X_max` remains WORKING/OPEN global completion, never a local input, wall, center or selected scale.
+`X_max` remains WORKING/OPEN asymptotic global completion, never a local input, wall, center or selected scale.
 
 ### Current frontier
 
@@ -65,7 +65,7 @@ The fixed through-G352 manuscript is an earlier edition, not current tracking.
 NR1--NR2/LG1--LG2/LE1/SE1/NE1: reviewed UNPROMOTED; exact scopes/reviews: `INDEX.md`.
 NE1: fading profile with cumulative marked-area-rate/tidal departure in one exact polarized family.
 Supplied data/marking and conditional methods; no genericity, stability/content.
-Full365 NOT_PASSED at G349 documentation gate; G325/G326 replay repaired. No scientific banking/integration.
+Full365 PASS after maintenance; evidence: INDEX. No new scientific banking/integration.
 ND1/ND2/QC1/QC2/GL1/GL2/RF1: reviewed UNPROMOTED; roadmap: INDEX.
 
 ### Distinctions for the direction discussion

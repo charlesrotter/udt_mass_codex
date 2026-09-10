@@ -1,6 +1,6 @@
 # Current UDT research program
 
-Date: 2026-09-09
+Date: 2026-09-10
 
 `LIVE.md` controls status; exact 365-row `CURRENT_SCIENTIFIC_PREMISES.tsv` controls ownership.
 
@@ -27,7 +27,7 @@ GR is FILTER ONLY, not a response-law input; Local Metric Sufficiency remains ow
 Inherited G312 “admitted/lawful” Einstein claims are CONDITIONAL on full reviewed premises,
 not established from filter-only GR. The existing membership route is unclosed, not disproved:
 `udt_gr_filter_reconciliation_2026-09-09/AUTHORITY_RECORD.md`. Exact grades/math remain unchanged.
-Full365 NOT_PASSED: G349 documentation gate; no scientific promotion.
+Full365 PASS; maintenance evidence: INDEX. No scientific promotion.
 Population, realized history, matter, absolute scale and `X_max` remain unselected.
 
 ## Dependency spine
@@ -63,7 +63,7 @@ G190--G198 are controls, not construction inputs.
 G351's owner-provisional measure fixes inverse area only for nonzero regular AC density;
 G352 fixes `p=1` only for its chosen continuous phase/product clock readout. Neither identifies
 physical content, emission/detection, light/energy, sources, population, matter, scale or `X_max`.
-G349 finite sheet area is not endpoint image-union; that needs supplied global preimages.
+G349 finite sheet area counts multiplicity; geometric endpoint image-union needs supplied global preimages.
 
 R2--R5 remain verified with caveats; 184,300 covariance rows remain unresolved and no preferred
 scale follows. Imported transfer in earlier observational controls stays imported.

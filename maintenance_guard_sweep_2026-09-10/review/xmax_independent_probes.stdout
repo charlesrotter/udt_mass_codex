@@ -1,0 +1,90 @@
+{
+  "actual_block_ast": "Module(body=[Assign(targets=[Name(id='xmax_controls', ctx=Store())], value=Tuple(elts=[Constant(value='AGENTS.md'), Constant(value='LIVE.md'), Constant(value='CURRENT_SCIENTIFIC_PREMISES.md')], ctx=Load())), Assign(targets=[Name(id='xmax_source', ctx=Store())], value=Constant(value='udt_g163_xmax_dependency_reversal_audit_2026-08-18/AUDIT_REPORT.md')), For(target=Name(id='control', ctx=Store()), iter=Name(id='xmax_controls', ctx=Load()), body=[Assign(targets=[Name(id='text', ctx=Store())], value=Call(func=Attribute(value=BinOp(left=Name(id='ROOT', ctx=Load()), op=Div(), right=Name(id='control', ctx=Load())), attr='read_text', ctx=Load()), args=[], keywords=[keyword(arg='encoding', value=Constant(value='utf-8'))])), Expr(value=Call(func=Name(id='require', ctx=Load()), args=[Compare(left=Constant(value='X_max'), ops=[In()], comparators=[Name(id='text', ctx=Load())]), JoinedStr(values=[Constant(value='control lacks Xmax guard: '), FormattedValue(value=Name(id='control', ctx=Load()), conversion=-1)])], keywords=[])), Expr(value=Call(func=Name(id='require', ctx=Load()), args=[Compare(left=Constant(value='asymptot'), ops=[In()], comparators=[Call(func=Attribute(value=Name(id='text', ctx=Load()), attr='lower', ctx=Load()), args=[], keywords=[])]), JoinedStr(values=[Constant(value='control lacks Xmax limiting meaning: '), FormattedValue(value=Name(id='control', ctx=Load()), conversion=-1)])], keywords=[]))], orelse=[]), Expr(value=Call(func=Name(id='require', ctx=Load()), args=[Compare(left=Constant(value='udt_g163_xmax_dependency_reversal_audit_2026-08-18/'), ops=[In()], comparators=[Call(func=Attribute(value=BinOp(left=Name(id='ROOT', ctx=Load()), op=Div(), right=Constant(value='INDEX.md')), attr='read_text', ctx=Load()), args=[], keywords=[keyword(arg='encoding', value=Constant(value='utf-8'))])]), Constant(value='INDEX lacks controlling Xmax dependency-reversal route')], keywords=[])), Expr(value=Call(func=Name(id='require', ctx=Load()), args=[Call(func=Attribute(value=BinOp(left=Name(id='ROOT', ctx=Load()), op=Div(), right=Name(id='xmax_source', ctx=Load())), attr='is_file', ctx=Load()), args=[], keywords=[]), Constant(value='controlling Xmax correction source missing')], keywords=[]))], type_ignores=[])",
+  "cases": [
+    {
+      "label": "restored_controls",
+      "limitation_probe": false,
+      "message": null,
+      "passed": true
+    },
+    {
+      "label": "limiting_qualifier_removed:AGENTS.md",
+      "limitation_probe": false,
+      "message": "control lacks Xmax limiting meaning: AGENTS.md",
+      "passed": false
+    },
+    {
+      "label": "scale_symbol_removed:AGENTS.md",
+      "limitation_probe": false,
+      "message": "control lacks Xmax guard: AGENTS.md",
+      "passed": false
+    },
+    {
+      "label": "limiting_qualifier_removed:LIVE.md",
+      "limitation_probe": false,
+      "message": "control lacks Xmax limiting meaning: LIVE.md",
+      "passed": false
+    },
+    {
+      "label": "scale_symbol_removed:LIVE.md",
+      "limitation_probe": false,
+      "message": "control lacks Xmax guard: LIVE.md",
+      "passed": false
+    },
+    {
+      "label": "limiting_qualifier_removed:CURRENT_SCIENTIFIC_PREMISES.md",
+      "limitation_probe": false,
+      "message": "control lacks Xmax limiting meaning: CURRENT_SCIENTIFIC_PREMISES.md",
+      "passed": false
+    },
+    {
+      "label": "scale_symbol_removed:CURRENT_SCIENTIFIC_PREMISES.md",
+      "limitation_probe": false,
+      "message": "control lacks Xmax guard: CURRENT_SCIENTIFIC_PREMISES.md",
+      "passed": false
+    },
+    {
+      "label": "source_route_removed",
+      "limitation_probe": false,
+      "message": "INDEX lacks controlling Xmax dependency-reversal route",
+      "passed": false
+    },
+    {
+      "label": "controlling_source_missing",
+      "limitation_probe": false,
+      "message": "controlling Xmax correction source missing",
+      "passed": false
+    },
+    {
+      "label": "token_preserving_overclaim_ISOLATED_BLOCK_LIMITATION",
+      "limitation_probe": true,
+      "message": null,
+      "passed": true
+    },
+    {
+      "label": "restored_fixture",
+      "limitation_probe": false,
+      "message": null,
+      "passed": true
+    }
+  ],
+  "harness_sha256": "786c824abd9bc8a3756312ea84bda70c58625f46408343530bdfdf7eb1c9a51c",
+  "kind": "MAINTENANCE_NOT_SCIENTIFIC_PROOF",
+  "limitations": [
+    "Selected literal/existence control block only, not all full365 semantic controls.",
+    "Token-preserving contradictory scope can pass this isolated block; no completeness claimed.",
+    "G163 mathematics, numerical evidence and historical descendants were not re-proved."
+  ],
+  "live_sources_unchanged": true,
+  "model": "UNKNOWN",
+  "python_version": "3.10.12 (main, Aug 31 2026, 10:18:17) [GCC 11.4.0]",
+  "root_verifier_sha256": "a0b12b8b5a93673414ec2801b6fb5eacb771de5afd6e87a075f26840b02cec19",
+  "source_hashes": {
+    "AGENTS.md": "75e772e31332c1c3ac536a6b465201aee6a507b3ba705b59177598fdac2c31ac",
+    "CURRENT_SCIENTIFIC_PREMISES.md": "c394d20a9d442ba018b46a669c9f212109a443d97ef05d1f7f6527c50e30d530",
+    "INDEX.md": "f52e0b542595b0f3908dd42f9a83fc90cef3239cf60f7896075135cc1b6785c9",
+    "LIVE.md": "8ec1a30376f10ba047756cecaea8c19e74c84df6623a601fd813d7aa1cc5988e",
+    "udt_g163_xmax_dependency_reversal_audit_2026-08-18/AUDIT_REPORT.md": "e7eda779c8496f269a0e94060a5824dd79b2b147af8186277236982ec2708670"
+  },
+  "status": "PASS_BOUNDED_CONTROLS_WITH_RECORDED_LIMITATION"
+}

@@ -1,0 +1,334 @@
+{
+  "accepted_package_before": {
+    "udt_g349_finite_null_wavefront_patch_area_2026-09-04/ADVERSARIAL_REVIEW_REQUEST.md": "9579efed46de6ed7be1276935a97555c25ad9cab34b5ea12fa9f4e18dc007bad",
+    "udt_g349_finite_null_wavefront_patch_area_2026-09-04/AUDIT_REPORT.md": "5daf07ed87fd96953d7f989e269aafe3654a6876230725fd7b3bcc1f3188467e",
+    "udt_g349_finite_null_wavefront_patch_area_2026-09-04/CATCH_PROOF_RESULT.json": "af5c28f284cb96e159a2a1a5408cbffe6d5c83a226ed793b133f6c3ffe6f8d44",
+    "udt_g349_finite_null_wavefront_patch_area_2026-09-04/COMMANDS.md": "40de43be0c72ccba220b8c5535f8baede2834712abb074b686d9aa11067c2ce3",
+    "udt_g349_finite_null_wavefront_patch_area_2026-09-04/COMPLETENESS_MAP.md": "b1d36c051b385c75392ffe902a2885d3d0154ee0bac03efb2411ed4dfe4a7e87",
+    "udt_g349_finite_null_wavefront_patch_area_2026-09-04/DERIVATION_RESULT.json": "67efe3efaba80eb41c55f4d6da8c6a30bfd67c68dda49c09ede75749fef390a5",
+    "udt_g349_finite_null_wavefront_patch_area_2026-09-04/EVIDENCE_GATES.md": "20dc1025b8b2b43f9312b67b4ad3fac9abdd6029ca68f1b0124ae07ea38d1926",
+    "udt_g349_finite_null_wavefront_patch_area_2026-09-04/EXACT_DERIVATION.md": "0eb11cc9dcec98c89c99c890a75b3e290eda23faf44d620a9d578f609cedef72",
+    "udt_g349_finite_null_wavefront_patch_area_2026-09-04/EXTERNAL_REPAIR_FOLLOWUP_RESPONSE.md": "4852b3a868b2920a1cc2e08c2fe4521a8e1e9b819dc56ea68cb124df700e0dcb",
+    "udt_g349_finite_null_wavefront_patch_area_2026-09-04/EXTERNAL_REPAIR_FOLLOWUP_TRANSMISSION.md": "9d03d3a0a18af04380a8a596dba9afb567bc12780499a51661b94530ef46f862",
+    "udt_g349_finite_null_wavefront_patch_area_2026-09-04/EXTERNAL_REVIEW_ADJUDICATION.md": "4ad46ebdb17a3235e454e044acfd80708e49e4205b185dba843a00f54bb8cad9",
+    "udt_g349_finite_null_wavefront_patch_area_2026-09-04/EXTERNAL_REVIEW_RESPONSE.md": "aadf46778a28a074550bb039139095ea3ef16a16c3deac1ec9903384334293c1",
+    "udt_g349_finite_null_wavefront_patch_area_2026-09-04/EXTERNAL_REVIEW_TRANSMISSION.md": "ff945fa0338dc8b394c392e461ca9f65f45fc6555de892f99d3b50967f7624db",
+    "udt_g349_finite_null_wavefront_patch_area_2026-09-04/GIT_PREREGISTRATION_PROOF.txt": "ee3c3cc64ed4adeb9850a4d22223e40b4ff46cfd7ca07a55968abd6ecfedee89",
+    "udt_g349_finite_null_wavefront_patch_area_2026-09-04/INDEPENDENT_VERIFICATION.json": "aff07f4207417df49b8802d3383a20af1a6aced91e8c3cfdba82f84ff844a76e",
+    "udt_g349_finite_null_wavefront_patch_area_2026-09-04/LAY_REPORT.md": "0565a7ce1e3f5a0efdaa0d24fbd8120071ea343438e7147c9bf9743f23f4fe67",
+    "udt_g349_finite_null_wavefront_patch_area_2026-09-04/MAP.md": "5bb3ad63acd62794152df4540beb6b08f71e3d39ed6289fb3dd30d684ba277ac",
+    "udt_g349_finite_null_wavefront_patch_area_2026-09-04/PREMISE_LEDGER.tsv": "2a895dda0db8276beed75da0c3734c9f6e57a61d008c2a5e0c867fe1c5609f33",
+    "udt_g349_finite_null_wavefront_patch_area_2026-09-04/PREREGISTRATION.md": "5921e786d4ad10be5da004ddd59d72109c8126367bf190e4ad932896d9313f1e",
+    "udt_g349_finite_null_wavefront_patch_area_2026-09-04/PREREGISTRATION_EXECUTION_NOTE.md": "dd0454044a0a0d7541e0907752d3035df7bb7dca72e010d7c18f8674d68bda08",
+    "udt_g349_finite_null_wavefront_patch_area_2026-09-04/REPAIR_EXECUTION_RECORD.md": "b233f7a22d71427c24bca93696761b754780f18c044daaa4063c08a1ab1f288a",
+    "udt_g349_finite_null_wavefront_patch_area_2026-09-04/REPAIR_FOLLOWUP_REQUEST.md": "64dbdfd11b3c91f3d383a56bea5c410eaa7866c83b0640764ce7e15be4be3104",
+    "udt_g349_finite_null_wavefront_patch_area_2026-09-04/REPAIR_PREREGISTRATION.md": "9dad6012e2251886b1506d5c1df23d67ec7ae07836c60122299fe1b148ba6a25",
+    "udt_g349_finite_null_wavefront_patch_area_2026-09-04/RUN_RECORD.md": "e10a5918f218eb4775922e1cabfbe291ada0dda97f3d57898429e84de616c92e",
+    "udt_g349_finite_null_wavefront_patch_area_2026-09-04/SOURCE_SCOPE.tsv": "deed29517ce48fcf13b6f38becc1584f31bd5390efefd93df102ae6585dd0bb0",
+    "udt_g349_finite_null_wavefront_patch_area_2026-09-04/STATUS_LEDGER.tsv": "0e78cf260166f697e3df674fe5a048b2678007adde4bd9a5f109a2005f99591d",
+    "udt_g349_finite_null_wavefront_patch_area_2026-09-04/VERIFICATION_RESULT.json": "0153524c490dcc68d9b655ecfb150c96fa14b3fcdc7a7c043a59c3eae1563a36",
+    "udt_g349_finite_null_wavefront_patch_area_2026-09-04/build_review_intake.py": "17276086c888f162b30a21fc001c3ef594e7fd9f0dbe16f687eede6e5416a642",
+    "udt_g349_finite_null_wavefront_patch_area_2026-09-04/derive_finite_null_patch_area.py": "bdc85395a5c832077667f6c8a1e323514fd8b52af15ac1cbb7a2de696e5f6e5c",
+    "udt_g349_finite_null_wavefront_patch_area_2026-09-04/launch_external_review.sh": "b40b2c7d90a06faf24c4eff8b00acabae49716d6ef2aaf10a9af48f2298414be",
+    "udt_g349_finite_null_wavefront_patch_area_2026-09-04/run_catch_proofs.py": "3d1f0727c8b426661c8553e68cada59ed3b9b1dfc4c3c97a4412f29c99a14287",
+    "udt_g349_finite_null_wavefront_patch_area_2026-09-04/verify_finite_null_patch_area_independent.py": "246a6552cdfcd442739f2fe6d93fe03b0b2361829e5801414fca76693f9167c9",
+    "udt_g349_finite_null_wavefront_patch_area_2026-09-04/verify_package.py": "a394c2305013640c72a2359a5b80242d645c07c38d94b8f8b4fb8ba872bcad59"
+  },
+  "accepted_package_unchanged_during_review": true,
+  "baseline": "c7f80d57920edb1aa06bfbd9cc1131367a01b460",
+  "cases": [
+    {
+      "command": {
+        "argv": [
+          "/usr/bin/python3",
+          "-B",
+          "-S",
+          "/tmp/g349_maintenance_review_6_n2hf90/udt_g349_finite_null_wavefront_patch_area_2026-09-04/verify_package.py"
+        ],
+        "cwd": "/tmp/g349_maintenance_review_6_n2hf90/udt_g349_finite_null_wavefront_patch_area_2026-09-04",
+        "elapsed_seconds": 0.1957671699929051,
+        "extra_env": {
+          "UDT_NO_WRITE": "1"
+        },
+        "returncode": 0,
+        "stderr": "",
+        "stdout": "{\n  \"all_passed\": true,\n  \"checks\": {\n    \"aggregate_replay_changes_no_bytes\": true,\n    \"bounded_physical_scope\": true,\n    \"critical_and_orientation_branches\": true,\n    \"finite_area_formula\": true,\n    \"finite_observer_covariance\": true,\n    \"first_failure_and_repair_recorded\": true,\n    \"frozen_external_repair_evidence\": true,\n    \"frozen_preregistration_hashes\": true,\n    \"frozen_source_hashes\": true,\n    \"geometric_not_physical_union_scope\": true,\n    \"hostile_22_of_22\": true,\n    \"independent_14321_of_14321\": true,\n    \"metric_only_provenance\": true,\n    \"mixed_rank_repair\": true,\n    \"no_bytecode_or_special_output\": true,\n    \"production_44321_of_44321\": true,\n    \"registered_no_write_replays\": true,\n    \"repaired_script_hashes\": true,\n    \"selected_alternatives\": true,\n    \"stdlib_only_imports\": true,\n    \"union_distinction_and_equality\": true\n  },\n  \"checks_passed\": 21,\n  \"checks_total\": 21,\n  \"landing\": \"FINITE_METRIC_NULL_PATCH_AREA_CLOSES_WITH_MULTIPLICITY__UNION_AREA_REQUIRES_GLOBAL_PREIMAGE_IDENTIFICATION__CAUSTICS_ORIENTATION_OBSERVER_AND_LABEL_BRANCHES_RETAINED__NO_LIGHT_DISTANCE_POPULATION_HISTORY_SCALE_OR_XMAX_SELECTED\",\n  \"review_status\": \"EXTERNALLY_ACCEPTED_AFTER_PREREGISTERED_R1_R4_REPAIRS\"\n}\n"
+      },
+      "failed_checks": [],
+      "label": "qualified_candidate",
+      "program_sha256": "10924646d010c922e20e8ad47f7a6835d8d03bc4c0a4bf65565c22fb4173bc04"
+    },
+    {
+      "command": {
+        "argv": [
+          "/usr/bin/python3",
+          "-B",
+          "-S",
+          "/tmp/g349_maintenance_review_6_n2hf90/udt_g349_finite_null_wavefront_patch_area_2026-09-04/verify_package.py"
+        ],
+        "cwd": "/tmp/g349_maintenance_review_6_n2hf90/udt_g349_finite_null_wavefront_patch_area_2026-09-04",
+        "elapsed_seconds": 0.19289117399603128,
+        "extra_env": {
+          "UDT_NO_WRITE": "1"
+        },
+        "returncode": 1,
+        "stderr": "",
+        "stdout": "{\n  \"all_passed\": false,\n  \"checks\": {\n    \"aggregate_replay_changes_no_bytes\": true,\n    \"bounded_physical_scope\": true,\n    \"critical_and_orientation_branches\": true,\n    \"finite_area_formula\": true,\n    \"finite_observer_covariance\": true,\n    \"first_failure_and_repair_recorded\": true,\n    \"frozen_external_repair_evidence\": true,\n    \"frozen_preregistration_hashes\": true,\n    \"frozen_source_hashes\": true,\n    \"geometric_not_physical_union_scope\": false,\n    \"hostile_22_of_22\": true,\n    \"independent_14321_of_14321\": true,\n    \"metric_only_provenance\": true,\n    \"mixed_rank_repair\": true,\n    \"no_bytecode_or_special_output\": true,\n    \"production_44321_of_44321\": true,\n    \"registered_no_write_replays\": true,\n    \"repaired_script_hashes\": true,\n    \"selected_alternatives\": true,\n    \"stdlib_only_imports\": true,\n    \"union_distinction_and_equality\": true\n  },\n  \"checks_passed\": 20,\n  \"checks_total\": 21,\n  \"landing\": \"FINITE_METRIC_NULL_PATCH_AREA_CLOSES_WITH_MULTIPLICITY__UNION_AREA_REQUIRES_GLOBAL_PREIMAGE_IDENTIFICATION__CAUSTICS_ORIENTATION_OBSERVER_AND_LABEL_BRANCHES_RETAINED__NO_LIGHT_DISTANCE_POPULATION_HISTORY_SCALE_OR_XMAX_SELECTED\",\n  \"review_status\": \"EXTERNALLY_ACCEPTED_AFTER_PREREGISTERED_R1_R4_REPAIRS\"\n}\n"
+      },
+      "failed_checks": [
+        "geometric_not_physical_union_scope"
+      ],
+      "label": "geometric_qualification_removed",
+      "program_sha256": "28008ecd6ef06132fed3d6556c9a3f36ab185e31a081a5f7f3d58118cff883a7"
+    },
+    {
+      "command": {
+        "argv": [
+          "/usr/bin/python3",
+          "-B",
+          "-S",
+          "/tmp/g349_maintenance_review_6_n2hf90/udt_g349_finite_null_wavefront_patch_area_2026-09-04/verify_package.py"
+        ],
+        "cwd": "/tmp/g349_maintenance_review_6_n2hf90/udt_g349_finite_null_wavefront_patch_area_2026-09-04",
+        "elapsed_seconds": 0.1981652700342238,
+        "extra_env": {
+          "UDT_NO_WRITE": "1"
+        },
+        "returncode": 1,
+        "stderr": "",
+        "stdout": "{\n  \"all_passed\": false,\n  \"checks\": {\n    \"aggregate_replay_changes_no_bytes\": true,\n    \"bounded_physical_scope\": true,\n    \"critical_and_orientation_branches\": true,\n    \"finite_area_formula\": true,\n    \"finite_observer_covariance\": true,\n    \"first_failure_and_repair_recorded\": true,\n    \"frozen_external_repair_evidence\": true,\n    \"frozen_preregistration_hashes\": true,\n    \"frozen_source_hashes\": true,\n    \"geometric_not_physical_union_scope\": false,\n    \"hostile_22_of_22\": true,\n    \"independent_14321_of_14321\": true,\n    \"metric_only_provenance\": true,\n    \"mixed_rank_repair\": true,\n    \"no_bytecode_or_special_output\": true,\n    \"production_44321_of_44321\": true,\n    \"registered_no_write_replays\": true,\n    \"repaired_script_hashes\": true,\n    \"selected_alternatives\": true,\n    \"stdlib_only_imports\": true,\n    \"union_distinction_and_equality\": true\n  },\n  \"checks_passed\": 20,\n  \"checks_total\": 21,\n  \"landing\": \"FINITE_METRIC_NULL_PATCH_AREA_CLOSES_WITH_MULTIPLICITY__UNION_AREA_REQUIRES_GLOBAL_PREIMAGE_IDENTIFICATION__CAUSTICS_ORIENTATION_OBSERVER_AND_LABEL_BRANCHES_RETAINED__NO_LIGHT_DISTANCE_POPULATION_HISTORY_SCALE_OR_XMAX_SELECTED\",\n  \"review_status\": \"EXTERNALLY_ACCEPTED_AFTER_PREREGISTERED_R1_R4_REPAIRS\"\n}\n"
+      },
+      "failed_checks": [
+        "geometric_not_physical_union_scope"
+      ],
+      "label": "qualification_replaced_by_physical_union",
+      "program_sha256": "0c5475ec299d96675b3e1f6e79bf50bde1449df3f259923dbc98bf580f405cd4"
+    },
+    {
+      "command": {
+        "argv": [
+          "/usr/bin/python3",
+          "-B",
+          "-S",
+          "/tmp/g349_maintenance_review_6_n2hf90/udt_g349_finite_null_wavefront_patch_area_2026-09-04/verify_package.py"
+        ],
+        "cwd": "/tmp/g349_maintenance_review_6_n2hf90/udt_g349_finite_null_wavefront_patch_area_2026-09-04",
+        "elapsed_seconds": 0.19549664197256789,
+        "extra_env": {
+          "UDT_NO_WRITE": "1"
+        },
+        "returncode": 1,
+        "stderr": "",
+        "stdout": "{\n  \"all_passed\": false,\n  \"checks\": {\n    \"aggregate_replay_changes_no_bytes\": true,\n    \"bounded_physical_scope\": true,\n    \"critical_and_orientation_branches\": true,\n    \"finite_area_formula\": true,\n    \"finite_observer_covariance\": true,\n    \"first_failure_and_repair_recorded\": true,\n    \"frozen_external_repair_evidence\": true,\n    \"frozen_preregistration_hashes\": true,\n    \"frozen_source_hashes\": true,\n    \"geometric_not_physical_union_scope\": false,\n    \"hostile_22_of_22\": true,\n    \"independent_14321_of_14321\": true,\n    \"metric_only_provenance\": true,\n    \"mixed_rank_repair\": true,\n    \"no_bytecode_or_special_output\": true,\n    \"production_44321_of_44321\": true,\n    \"registered_no_write_replays\": true,\n    \"repaired_script_hashes\": true,\n    \"selected_alternatives\": true,\n    \"stdlib_only_imports\": true,\n    \"union_distinction_and_equality\": true\n  },\n  \"checks_passed\": 20,\n  \"checks_total\": 21,\n  \"landing\": \"FINITE_METRIC_NULL_PATCH_AREA_CLOSES_WITH_MULTIPLICITY__UNION_AREA_REQUIRES_GLOBAL_PREIMAGE_IDENTIFICATION__CAUSTICS_ORIENTATION_OBSERVER_AND_LABEL_BRANCHES_RETAINED__NO_LIGHT_DISTANCE_POPULATION_HISTORY_SCALE_OR_XMAX_SELECTED\",\n  \"review_status\": \"EXTERNALLY_ACCEPTED_AFTER_PREREGISTERED_R1_R4_REPAIRS\"\n}\n"
+      },
+      "failed_checks": [
+        "geometric_not_physical_union_scope"
+      ],
+      "label": "physical_union_phrase_appended",
+      "program_sha256": "9099ab7562c2b30d8ea424e8854ea1f6fce6e527274128c1aa60682faee5f902"
+    },
+    {
+      "command": {
+        "argv": [
+          "/usr/bin/python3",
+          "-B",
+          "-S",
+          "/tmp/g349_maintenance_review_6_n2hf90/udt_g349_finite_null_wavefront_patch_area_2026-09-04/verify_package.py"
+        ],
+        "cwd": "/tmp/g349_maintenance_review_6_n2hf90/udt_g349_finite_null_wavefront_patch_area_2026-09-04",
+        "elapsed_seconds": 0.19469132099766284,
+        "extra_env": {
+          "UDT_NO_WRITE": "1"
+        },
+        "returncode": 0,
+        "stderr": "",
+        "stdout": "{\n  \"all_passed\": true,\n  \"checks\": {\n    \"aggregate_replay_changes_no_bytes\": true,\n    \"bounded_physical_scope\": true,\n    \"critical_and_orientation_branches\": true,\n    \"finite_area_formula\": true,\n    \"finite_observer_covariance\": true,\n    \"first_failure_and_repair_recorded\": true,\n    \"frozen_external_repair_evidence\": true,\n    \"frozen_preregistration_hashes\": true,\n    \"frozen_source_hashes\": true,\n    \"geometric_not_physical_union_scope\": true,\n    \"hostile_22_of_22\": true,\n    \"independent_14321_of_14321\": true,\n    \"metric_only_provenance\": true,\n    \"mixed_rank_repair\": true,\n    \"no_bytecode_or_special_output\": true,\n    \"production_44321_of_44321\": true,\n    \"registered_no_write_replays\": true,\n    \"repaired_script_hashes\": true,\n    \"selected_alternatives\": true,\n    \"stdlib_only_imports\": true,\n    \"union_distinction_and_equality\": true\n  },\n  \"checks_passed\": 21,\n  \"checks_total\": 21,\n  \"landing\": \"FINITE_METRIC_NULL_PATCH_AREA_CLOSES_WITH_MULTIPLICITY__UNION_AREA_REQUIRES_GLOBAL_PREIMAGE_IDENTIFICATION__CAUSTICS_ORIENTATION_OBSERVER_AND_LABEL_BRANCHES_RETAINED__NO_LIGHT_DISTANCE_POPULATION_HISTORY_SCALE_OR_XMAX_SELECTED\",\n  \"review_status\": \"EXTERNALLY_ACCEPTED_AFTER_PREREGISTERED_R1_R4_REPAIRS\"\n}\n"
+      },
+      "failed_checks": [],
+      "label": "token_preserving_physical_overclaim_LIMITATION",
+      "program_sha256": "0427893fd3ca1a3e862120e88ddbc43510c8e231d9bc86eb9fb57cbe66827ef7"
+    },
+    {
+      "command": {
+        "argv": [
+          "/usr/bin/python3",
+          "-B",
+          "-S",
+          "/tmp/g349_maintenance_review_6_n2hf90/udt_g349_finite_null_wavefront_patch_area_2026-09-04/verify_package.py"
+        ],
+        "cwd": "/tmp/g349_maintenance_review_6_n2hf90/udt_g349_finite_null_wavefront_patch_area_2026-09-04",
+        "elapsed_seconds": 0.20025820203591138,
+        "extra_env": {
+          "UDT_NO_WRITE": "1"
+        },
+        "returncode": 1,
+        "stderr": "",
+        "stdout": "{\n  \"all_passed\": false,\n  \"checks\": {\n    \"aggregate_replay_changes_no_bytes\": true,\n    \"bounded_physical_scope\": true,\n    \"critical_and_orientation_branches\": true,\n    \"finite_area_formula\": true,\n    \"finite_observer_covariance\": true,\n    \"first_failure_and_repair_recorded\": true,\n    \"frozen_external_repair_evidence\": true,\n    \"frozen_preregistration_hashes\": true,\n    \"frozen_source_hashes\": true,\n    \"geometric_not_physical_union_scope\": true,\n    \"hostile_22_of_22\": true,\n    \"independent_14321_of_14321\": true,\n    \"metric_only_provenance\": true,\n    \"mixed_rank_repair\": true,\n    \"no_bytecode_or_special_output\": true,\n    \"production_44321_of_44321\": false,\n    \"registered_no_write_replays\": true,\n    \"repaired_script_hashes\": true,\n    \"selected_alternatives\": true,\n    \"stdlib_only_imports\": true,\n    \"union_distinction_and_equality\": true\n  },\n  \"checks_passed\": 20,\n  \"checks_total\": 21,\n  \"landing\": \"FINITE_METRIC_NULL_PATCH_AREA_CLOSES_WITH_MULTIPLICITY__UNION_AREA_REQUIRES_GLOBAL_PREIMAGE_IDENTIFICATION__CAUSTICS_ORIENTATION_OBSERVER_AND_LABEL_BRANCHES_RETAINED__NO_LIGHT_DISTANCE_POPULATION_HISTORY_SCALE_OR_XMAX_SELECTED\",\n  \"review_status\": \"EXTERNALLY_ACCEPTED_AFTER_PREREGISTERED_R1_R4_REPAIRS\"\n}\n"
+      },
+      "failed_checks": [
+        "production_44321_of_44321"
+      ],
+      "label": "saved_production_count_corrupted",
+      "program_sha256": "10924646d010c922e20e8ad47f7a6835d8d03bc4c0a4bf65565c22fb4173bc04"
+    },
+    {
+      "command": {
+        "argv": [
+          "/usr/bin/python3",
+          "-B",
+          "-S",
+          "/tmp/g349_maintenance_review_6_n2hf90/udt_g349_finite_null_wavefront_patch_area_2026-09-04/verify_package.py"
+        ],
+        "cwd": "/tmp/g349_maintenance_review_6_n2hf90/udt_g349_finite_null_wavefront_patch_area_2026-09-04",
+        "elapsed_seconds": 0.1998050229740329,
+        "extra_env": {
+          "UDT_NO_WRITE": "1"
+        },
+        "returncode": 1,
+        "stderr": "",
+        "stdout": "{\n  \"all_passed\": false,\n  \"checks\": {\n    \"aggregate_replay_changes_no_bytes\": true,\n    \"bounded_physical_scope\": true,\n    \"critical_and_orientation_branches\": true,\n    \"finite_area_formula\": true,\n    \"finite_observer_covariance\": true,\n    \"first_failure_and_repair_recorded\": true,\n    \"frozen_external_repair_evidence\": false,\n    \"frozen_preregistration_hashes\": true,\n    \"frozen_source_hashes\": true,\n    \"geometric_not_physical_union_scope\": true,\n    \"hostile_22_of_22\": true,\n    \"independent_14321_of_14321\": true,\n    \"metric_only_provenance\": true,\n    \"mixed_rank_repair\": true,\n    \"no_bytecode_or_special_output\": true,\n    \"production_44321_of_44321\": true,\n    \"registered_no_write_replays\": true,\n    \"repaired_script_hashes\": true,\n    \"selected_alternatives\": true,\n    \"stdlib_only_imports\": true,\n    \"union_distinction_and_equality\": true\n  },\n  \"checks_passed\": 20,\n  \"checks_total\": 21,\n  \"landing\": \"FINITE_METRIC_NULL_PATCH_AREA_CLOSES_WITH_MULTIPLICITY__UNION_AREA_REQUIRES_GLOBAL_PREIMAGE_IDENTIFICATION__CAUSTICS_ORIENTATION_OBSERVER_AND_LABEL_BRANCHES_RETAINED__NO_LIGHT_DISTANCE_POPULATION_HISTORY_SCALE_OR_XMAX_SELECTED\",\n  \"review_status\": \"EXTERNALLY_ACCEPTED_AFTER_PREREGISTERED_R1_R4_REPAIRS\"\n}\n"
+      },
+      "failed_checks": [
+        "frozen_external_repair_evidence"
+      ],
+      "label": "frozen_external_evidence_corrupted",
+      "program_sha256": "10924646d010c922e20e8ad47f7a6835d8d03bc4c0a4bf65565c22fb4173bc04"
+    },
+    {
+      "command": {
+        "argv": [
+          "/usr/bin/python3",
+          "-B",
+          "-S",
+          "/tmp/g349_maintenance_review_6_n2hf90/udt_g349_finite_null_wavefront_patch_area_2026-09-04/verify_package.py"
+        ],
+        "cwd": "/tmp/g349_maintenance_review_6_n2hf90/udt_g349_finite_null_wavefront_patch_area_2026-09-04",
+        "elapsed_seconds": 0.19508280203444883,
+        "extra_env": {
+          "UDT_NO_WRITE": "1"
+        },
+        "returncode": 0,
+        "stderr": "",
+        "stdout": "{\n  \"all_passed\": true,\n  \"checks\": {\n    \"aggregate_replay_changes_no_bytes\": true,\n    \"bounded_physical_scope\": true,\n    \"critical_and_orientation_branches\": true,\n    \"finite_area_formula\": true,\n    \"finite_observer_covariance\": true,\n    \"first_failure_and_repair_recorded\": true,\n    \"frozen_external_repair_evidence\": true,\n    \"frozen_preregistration_hashes\": true,\n    \"frozen_source_hashes\": true,\n    \"geometric_not_physical_union_scope\": true,\n    \"hostile_22_of_22\": true,\n    \"independent_14321_of_14321\": true,\n    \"metric_only_provenance\": true,\n    \"mixed_rank_repair\": true,\n    \"no_bytecode_or_special_output\": true,\n    \"production_44321_of_44321\": true,\n    \"registered_no_write_replays\": true,\n    \"repaired_script_hashes\": true,\n    \"selected_alternatives\": true,\n    \"stdlib_only_imports\": true,\n    \"union_distinction_and_equality\": true\n  },\n  \"checks_passed\": 21,\n  \"checks_total\": 21,\n  \"landing\": \"FINITE_METRIC_NULL_PATCH_AREA_CLOSES_WITH_MULTIPLICITY__UNION_AREA_REQUIRES_GLOBAL_PREIMAGE_IDENTIFICATION__CAUSTICS_ORIENTATION_OBSERVER_AND_LABEL_BRANCHES_RETAINED__NO_LIGHT_DISTANCE_POPULATION_HISTORY_SCALE_OR_XMAX_SELECTED\",\n  \"review_status\": \"EXTERNALLY_ACCEPTED_AFTER_PREREGISTERED_R1_R4_REPAIRS\"\n}\n"
+      },
+      "failed_checks": [],
+      "label": "restored_fixture",
+      "program_sha256": "10924646d010c922e20e8ad47f7a6835d8d03bc4c0a4bf65565c22fb4173bc04"
+    }
+  ],
+  "kind": "MAINTENANCE_ONLY_NOT_SCIENTIFIC_REPROOF",
+  "limitations": [
+    "Literal documentation predicate can pass a token-preserving physical overclaim; no semantic completeness claimed.",
+    "Actual G349 root statements were isolated from the full verifier; this is not a full365 run.",
+    "Existing numerical producers were replayed by the actual package checker; no independent mathematical re-proof.",
+    "Fresh context and separately written fixture probes do not establish a different runtime model."
+  ],
+  "model": "UNKNOWN",
+  "python_version": "3.10.12 (main, Aug 31 2026, 10:18:17) [GCC 11.4.0]",
+  "root_acceptance_expression_unchanged": true,
+  "root_checks": [
+    {
+      "child": {
+        "argv": [
+          "/usr/bin/python3",
+          "-B",
+          "-S",
+          "/tmp/g349_maintenance_review_6_n2hf90/udt_g349_finite_null_wavefront_patch_area_2026-09-04/verify_package.py"
+        ],
+        "cwd": "/tmp/g349_maintenance_review_6_n2hf90/udt_g349_finite_null_wavefront_patch_area_2026-09-04",
+        "extra_env": {
+          "PYTHONDONTWRITEBYTECODE": "1",
+          "UDT_NO_WRITE": "1"
+        },
+        "returncode": 0,
+        "stderr": "",
+        "stdout": "{\n  \"all_passed\": true,\n  \"checks\": {\n    \"aggregate_replay_changes_no_bytes\": true,\n    \"bounded_physical_scope\": true,\n    \"critical_and_orientation_branches\": true,\n    \"finite_area_formula\": true,\n    \"finite_observer_covariance\": true,\n    \"first_failure_and_repair_recorded\": true,\n    \"frozen_external_repair_evidence\": true,\n    \"frozen_preregistration_hashes\": true,\n    \"frozen_source_hashes\": true,\n    \"geometric_not_physical_union_scope\": true,\n    \"hostile_22_of_22\": true,\n    \"independent_14321_of_14321\": true,\n    \"metric_only_provenance\": true,\n    \"mixed_rank_repair\": true,\n    \"no_bytecode_or_special_output\": true,\n    \"production_44321_of_44321\": true,\n    \"registered_no_write_replays\": true,\n    \"repaired_script_hashes\": true,\n    \"selected_alternatives\": true,\n    \"stdlib_only_imports\": true,\n    \"union_distinction_and_equality\": true\n  },\n  \"checks_passed\": 21,\n  \"checks_total\": 21,\n  \"landing\": \"FINITE_METRIC_NULL_PATCH_AREA_CLOSES_WITH_MULTIPLICITY__UNION_AREA_REQUIRES_GLOBAL_PREIMAGE_IDENTIFICATION__CAUSTICS_ORIENTATION_OBSERVER_AND_LABEL_BRANCHES_RETAINED__NO_LIGHT_DISTANCE_POPULATION_HISTORY_SCALE_OR_XMAX_SELECTED\",\n  \"review_status\": \"EXTERNALLY_ACCEPTED_AFTER_PREREGISTERED_R1_R4_REPAIRS\"\n}\n"
+      },
+      "label": "qualified_candidate",
+      "message": "",
+      "passed": true
+    },
+    {
+      "child": {
+        "argv": [
+          "/usr/bin/python3",
+          "-B",
+          "-S",
+          "/tmp/g349_maintenance_review_6_n2hf90/udt_g349_finite_null_wavefront_patch_area_2026-09-04/verify_package.py"
+        ],
+        "cwd": "/tmp/g349_maintenance_review_6_n2hf90/udt_g349_finite_null_wavefront_patch_area_2026-09-04",
+        "extra_env": {
+          "PYTHONDONTWRITEBYTECODE": "1",
+          "UDT_NO_WRITE": "1"
+        },
+        "returncode": 1,
+        "stderr": "",
+        "stdout": "{\n  \"all_passed\": false,\n  \"checks\": {\n    \"aggregate_replay_changes_no_bytes\": true,\n    \"bounded_physical_scope\": true,\n    \"critical_and_orientation_branches\": true,\n    \"finite_area_formula\": true,\n    \"finite_observer_covariance\": true,\n    \"first_failure_and_repair_recorded\": true,\n    \"frozen_external_repair_evidence\": true,\n    \"frozen_preregistration_hashes\": true,\n    \"frozen_source_hashes\": true,\n    \"geometric_not_physical_union_scope\": false,\n    \"hostile_22_of_22\": true,\n    \"independent_14321_of_14321\": true,\n    \"metric_only_provenance\": true,\n    \"mixed_rank_repair\": true,\n    \"no_bytecode_or_special_output\": true,\n    \"production_44321_of_44321\": true,\n    \"registered_no_write_replays\": true,\n    \"repaired_script_hashes\": true,\n    \"selected_alternatives\": true,\n    \"stdlib_only_imports\": true,\n    \"union_distinction_and_equality\": true\n  },\n  \"checks_passed\": 20,\n  \"checks_total\": 21,\n  \"landing\": \"FINITE_METRIC_NULL_PATCH_AREA_CLOSES_WITH_MULTIPLICITY__UNION_AREA_REQUIRES_GLOBAL_PREIMAGE_IDENTIFICATION__CAUSTICS_ORIENTATION_OBSERVER_AND_LABEL_BRANCHES_RETAINED__NO_LIGHT_DISTANCE_POPULATION_HISTORY_SCALE_OR_XMAX_SELECTED\",\n  \"review_status\": \"EXTERNALLY_ACCEPTED_AFTER_PREREGISTERED_R1_R4_REPAIRS\"\n}\n"
+      },
+      "label": "geometric_qualification_removed",
+      "message": "G349 dependency-free no-write replay failed (exit 1):\nSTDOUT:\n{\n  \"all_passed\": false,\n  \"checks\": {\n    \"aggregate_replay_changes_no_bytes\": true,\n    \"bounded_physical_scope\": true,\n    \"critical_and_orientation_branches\": true,\n    \"finite_area_formula\": true,\n    \"finite_observer_covariance\": true,\n    \"first_failure_and_repair_recorded\": true,\n    \"frozen_external_repair_evidence\": true,\n    \"frozen_preregistration_hashes\": true,\n    \"frozen_source_hashes\": true,\n    \"geometric_not_physical_union_scope\": false,\n    \"hostile_22_of_22\": true,\n    \"independent_14321_of_14321\": true,\n    \"metric_only_provenance\": true,\n    \"mixed_rank_repair\": true,\n    \"no_bytecode_or_special_output\": true,\n    \"production_44321_of_44321\": true,\n    \"registered_no_write_replays\": true,\n    \"repaired_script_hashes\": true,\n    \"selected_alternatives\": true,\n    \"stdlib_only_imports\": true,\n    \"union_distinction_and_equality\": true\n  },\n  \"checks_passed\": 20,\n  \"checks_total\": 21,\n  \"landing\": \"FINITE_METRIC_NULL_PATCH_AREA_CLOSES_WITH_MULTIPLICITY__UNION_AREA_REQUIRES_GLOBAL_PREIMAGE_IDENTIFICATION__CAUSTICS_ORIENTATION_OBSERVER_AND_LABEL_BRANCHES_RETAINED__NO_LIGHT_DISTANCE_POPULATION_HISTORY_SCALE_OR_XMAX_SELECTED\",\n  \"review_status\": \"EXTERNALLY_ACCEPTED_AFTER_PREREGISTERED_R1_R4_REPAIRS\"\n}\n\nSTDERR:\n",
+      "passed": false
+    },
+    {
+      "child": null,
+      "label": "saved_production_count_corrupted",
+      "message": "G349 production evidence changed",
+      "passed": false
+    },
+    {
+      "child": {
+        "argv": [
+          "/usr/bin/python3",
+          "-B",
+          "-S",
+          "/tmp/g349_maintenance_review_6_n2hf90/udt_g349_finite_null_wavefront_patch_area_2026-09-04/verify_package.py"
+        ],
+        "cwd": "/tmp/g349_maintenance_review_6_n2hf90/udt_g349_finite_null_wavefront_patch_area_2026-09-04",
+        "extra_env": {
+          "PYTHONDONTWRITEBYTECODE": "1",
+          "UDT_NO_WRITE": "1"
+        },
+        "returncode": 1,
+        "stderr": "",
+        "stdout": "{\n  \"all_passed\": false,\n  \"checks\": {\n    \"aggregate_replay_changes_no_bytes\": true,\n    \"bounded_physical_scope\": true,\n    \"critical_and_orientation_branches\": true,\n    \"finite_area_formula\": true,\n    \"finite_observer_covariance\": true,\n    \"first_failure_and_repair_recorded\": true,\n    \"frozen_external_repair_evidence\": false,\n    \"frozen_preregistration_hashes\": true,\n    \"frozen_source_hashes\": true,\n    \"geometric_not_physical_union_scope\": true,\n    \"hostile_22_of_22\": true,\n    \"independent_14321_of_14321\": true,\n    \"metric_only_provenance\": true,\n    \"mixed_rank_repair\": true,\n    \"no_bytecode_or_special_output\": true,\n    \"production_44321_of_44321\": true,\n    \"registered_no_write_replays\": true,\n    \"repaired_script_hashes\": true,\n    \"selected_alternatives\": true,\n    \"stdlib_only_imports\": true,\n    \"union_distinction_and_equality\": true\n  },\n  \"checks_passed\": 20,\n  \"checks_total\": 21,\n  \"landing\": \"FINITE_METRIC_NULL_PATCH_AREA_CLOSES_WITH_MULTIPLICITY__UNION_AREA_REQUIRES_GLOBAL_PREIMAGE_IDENTIFICATION__CAUSTICS_ORIENTATION_OBSERVER_AND_LABEL_BRANCHES_RETAINED__NO_LIGHT_DISTANCE_POPULATION_HISTORY_SCALE_OR_XMAX_SELECTED\",\n  \"review_status\": \"EXTERNALLY_ACCEPTED_AFTER_PREREGISTERED_R1_R4_REPAIRS\"\n}\n"
+      },
+      "label": "frozen_external_evidence_corrupted",
+      "message": "G349 dependency-free no-write replay failed (exit 1):\nSTDOUT:\n{\n  \"all_passed\": false,\n  \"checks\": {\n    \"aggregate_replay_changes_no_bytes\": true,\n    \"bounded_physical_scope\": true,\n    \"critical_and_orientation_branches\": true,\n    \"finite_area_formula\": true,\n    \"finite_observer_covariance\": true,\n    \"first_failure_and_repair_recorded\": true,\n    \"frozen_external_repair_evidence\": false,\n    \"frozen_preregistration_hashes\": true,\n    \"frozen_source_hashes\": true,\n    \"geometric_not_physical_union_scope\": true,\n    \"hostile_22_of_22\": true,\n    \"independent_14321_of_14321\": true,\n    \"metric_only_provenance\": true,\n    \"mixed_rank_repair\": true,\n    \"no_bytecode_or_special_output\": true,\n    \"production_44321_of_44321\": true,\n    \"registered_no_write_replays\": true,\n    \"repaired_script_hashes\": true,\n    \"selected_alternatives\": true,\n    \"stdlib_only_imports\": true,\n    \"union_distinction_and_equality\": true\n  },\n  \"checks_passed\": 20,\n  \"checks_total\": 21,\n  \"landing\": \"FINITE_METRIC_NULL_PATCH_AREA_CLOSES_WITH_MULTIPLICITY__UNION_AREA_REQUIRES_GLOBAL_PREIMAGE_IDENTIFICATION__CAUSTICS_ORIENTATION_OBSERVER_AND_LABEL_BRANCHES_RETAINED__NO_LIGHT_DISTANCE_POPULATION_HISTORY_SCALE_OR_XMAX_SELECTED\",\n  \"review_status\": \"EXTERNALLY_ACCEPTED_AFTER_PREREGISTERED_R1_R4_REPAIRS\"\n}\n\nSTDERR:\n",
+      "passed": false
+    },
+    {
+      "child": {
+        "returncode": 7,
+        "stderr": "REAL STDERR SENTINEL",
+        "stdout": "{\"checks_total\": 21}"
+      },
+      "label": "nonzero_despite_success_looking_stdout",
+      "message": "G349 dependency-free no-write replay failed (exit 7):\nSTDOUT:\n{\"checks_total\": 21}\nSTDERR:\nREAL STDERR SENTINEL",
+      "passed": false,
+      "synthetic_diagnostic_only": true
+    },
+    {
+      "child": {
+        "returncode": 0,
+        "stderr": "",
+        "stdout": "missing expected total"
+      },
+      "label": "zero_without_expected_total",
+      "message": "G349 dependency-free no-write replay failed (exit 0):\nSTDOUT:\nmissing expected total\nSTDERR:\n",
+      "passed": false,
+      "synthetic_diagnostic_only": true
+    }
+  ],
+  "root_statement_line_span": [
+    6728,
+    6852
+  ],
+  "source_hashes": {
+    "CURRENT_RESEARCH_PROGRAM.md": "10924646d010c922e20e8ad47f7a6835d8d03bc4c0a4bf65565c22fb4173bc04",
+    "CURRENT_SCIENTIFIC_PREMISES.tsv": "4236f3784601617a93ac66b0de36a7a1565beef553d6b5f5c6d7d2a9a13e69dc",
+    "capture_helper": "ba320cac9eeb4e9ad42f027b41cb0c013de86a99aad0906770464f24609997c6",
+    "harness": "3e341a1e972b3253011e8bcee70d4b051f0ef72911e42a64a52f0cfcd8496aa3",
+    "verify_current_scientific_premises.py": "a0b12b8b5a93673414ec2801b6fb5eacb771de5afd6e87a075f26840b02cec19"
+  },
+  "status": "PASS_BOUNDED_MAINTENANCE_WITH_RECORDED_LIMITATION"
+}

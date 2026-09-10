@@ -1,0 +1,8 @@
+Traceback (most recent call last):
+  File "/home/udt-admin/udt_mass_codex/maintenance_guard_sweep_2026-09-10/review/check_g349_maintenance.py", line 198, in <module>
+    main()
+  File "/home/udt-admin/udt_mass_codex/maintenance_guard_sweep_2026-09-10/review/check_g349_maintenance.py", line 70, in main
+    row = next(row for row in csv.DictReader(stream, delimiter="\t") if row["id"] == "G349")
+  File "/home/udt-admin/udt_mass_codex/maintenance_guard_sweep_2026-09-10/review/check_g349_maintenance.py", line 70, in <genexpr>
+    row = next(row for row in csv.DictReader(stream, delimiter="\t") if row["id"] == "G349")
+KeyError: 'id'

@@ -1,7 +1,7 @@
 # HANDOFF — lean resume anchor
 
 <!-- STARTUP_CURRENT_BEGIN -->
-## Current handoff anchor — 2026-09-09
+## Current handoff anchor — 2026-09-10
 
 `LIVE.md` wins; exact grades belong to the 365-row `CURRENT_SCIENTIFIC_PREMISES.tsv`.
 Current sources and completed-campaign routes: `INDEX.md`; dependency spine:
@@ -54,7 +54,7 @@ NR1--NR2/LG1--LG2/LE1/SE1/NE1: reviewed UNPROMOTED; exact evidence/scopes in IND
 Predecessors: compact tangents, restricted localization and local curvature behavior.
 NE1: fading profile with cumulative marked-area-rate/tidal departure in one exact polarized family.
 Supplied data/marking and conditional methods; no genericity, stability/content.
-All original reviews/caveats control. Full365 NOT_PASSED at G349 documentation gate.
+All original reviews/caveats control. Full365 PASS after maintenance; evidence: INDEX.
 ND1/ND2/QC1/QC2/GL1/GL2/RF1: reviewed UNPROMOTED; roadmap: INDEX.
 
 Optional source branch PAUSED; automatic Hopfion-stabilization mechanism is PAUSED, no rescue.

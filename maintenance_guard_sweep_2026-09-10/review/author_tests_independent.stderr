@@ -1,0 +1,14 @@
+test_changed_scientific_check_count_fails (test_guard_maintenance.GuardMaintenanceTests) ... ok
+test_changed_scientific_source_hash_fails (test_guard_maintenance.GuardMaintenanceTests) ... ok
+test_current_qualified_program_and_real_package_pass (test_guard_maintenance.GuardMaintenanceTests) ... ok
+test_missing_scientific_record_fails (test_guard_maintenance.GuardMaintenanceTests) ... ok
+test_physical_identification_fails_even_with_geometric_phrase (test_guard_maintenance.GuardMaintenanceTests) ... ok
+test_removed_geometric_qualification_fails (test_guard_maintenance.GuardMaintenanceTests) ... ok
+test_root_acceptance_predicate_unchanged (test_guard_maintenance.GuardMaintenanceTests) ... ok
+test_root_reports_actual_stdout_failure (test_guard_maintenance.GuardMaintenanceTests) ... ok
+test_root_retains_stderr_and_rejects_wrong_count_token (test_guard_maintenance.GuardMaintenanceTests) ... ok
+
+----------------------------------------------------------------------
+Ran 9 tests in 1.481s
+
+OK

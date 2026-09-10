@@ -1,0 +1,23 @@
+{
+  "command": [
+    "git",
+    "diff",
+    "--exit-code",
+    "c7f80d57920edb1aa06bfbd9cc1131367a01b460",
+    "--",
+    "udt_g349_finite_null_wavefront_patch_area_2026-09-04",
+    "udt_g348_generic_lorentzian_null_screen_area_theorem_2026-09-04",
+    "CURRENT_SCIENTIFIC_PREMISES.tsv",
+    "CANON.md",
+    "UDT_METRIC_KERNEL_DEVELOPMENT.md",
+    "UDT_METRIC_KERNEL_COVERAGE.tsv"
+  ],
+  "cwd": "/home/udt-admin/udt_mass_codex",
+  "started_utc": "2026-09-10T13:36:09.457474+00:00",
+  "duration_seconds": 0.009150822006631643,
+  "returncode": 0,
+  "timeout": false,
+  "address_space_bytes": 536870912,
+  "cpu_seconds": 60,
+  "maxrss_kib": 15552
+}

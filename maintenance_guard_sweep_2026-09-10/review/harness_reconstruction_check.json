@@ -1,0 +1,17 @@
+{
+  "command": [
+    "python3",
+    "-B",
+    "-S",
+    "-c",
+    "import hashlib,pathlib; p=pathlib.Path(\"maintenance_guard_sweep_2026-09-10/review/check_g349_maintenance.py\"); b=p.read_bytes(); old=b.replace(b\"row[\\\"premise_id\\\"] == \\\"G349\\\"\", b\"row[\\\"id\\\"] == \\\"G349\\\"\"); actual=hashlib.sha256(old).hexdigest(); expected=\"2e4fecace572dffa74099c6c5d310126fb066fd823639e351b9b3b08357739e7\"; print(\"reconstructed_initial_sha256=\"+actual); raise SystemExit(0 if actual==expected and old!=b else 1)"
+  ],
+  "cwd": "/home/udt-admin/udt_mass_codex",
+  "started_utc": "2026-09-10T13:53:01.824788+00:00",
+  "duration_seconds": 0.019229851954150945,
+  "returncode": 0,
+  "timeout": false,
+  "address_space_bytes": 536870912,
+  "cpu_seconds": 60,
+  "maxrss_kib": 13248
+}

@@ -1,0 +1,10 @@
+test_actual_guard_block_unchanged (__main__.XmaxMaintenanceTests) ... ok
+test_current_control_block_passes (__main__.XmaxMaintenanceTests) ... ok
+test_missing_controlling_source_fails (__main__.XmaxMaintenanceTests) ... ok
+test_missing_source_pointer_fails (__main__.XmaxMaintenanceTests) ... ok
+test_removed_limiting_qualification_fails (__main__.XmaxMaintenanceTests) ... ok
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.153s
+
+OK

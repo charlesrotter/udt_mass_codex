@@ -1,0 +1,14 @@
+{
+  "command": [
+    "/usr/bin/python3",
+    "verify_current_scientific_premises.py"
+  ],
+  "cwd": "/home/udt-admin/udt_mass_codex",
+  "started_utc": "2026-09-10T13:28:06.344573+00:00",
+  "seconds": 268.3731091399677,
+  "timeout_seconds": 600,
+  "returncode": 1,
+  "stdout": "",
+  "stderr": "G349 dependency-free no-write replay failed: \n",
+  "timeout": false
+}

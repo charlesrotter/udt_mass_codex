@@ -10,7 +10,7 @@ GR is FILTER ONLY, not a response-law input; Local Metric Sufficiency remains ow
 G312's current authority qualifies inherited “admitted/lawful” labels. Einstein claims remain
 CONDITIONAL on full reviewed premises, not established from filter-only GR; membership is unclosed.
 Current record: `udt_gr_filter_reconciliation_2026-09-09/AUTHORITY_RECORD.md`. No theorem is regraded.
-Full365 NOT_PASSED at G349 documentation gate; no scientific promotion. Review closeout: INDEX.
+Full365 PASS after maintenance; no scientific promotion. Maintenance/review closeout: INDEX.
 
 ## Foundational and adopted layer
 

@@ -1,0 +1,14 @@
+{
+  "command": [
+    "/usr/bin/python3",
+    "verify_current_scientific_premises.py"
+  ],
+  "cwd": "/home/udt-admin/udt_mass_codex",
+  "started_utc": "2026-09-10T13:33:24.449508+00:00",
+  "seconds": 407.6203993029776,
+  "timeout_seconds": 600,
+  "returncode": 1,
+  "stdout": "",
+  "stderr": "control lacks Xmax limiting meaning: LIVE.md\n",
+  "timeout": false
+}

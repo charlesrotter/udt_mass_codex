@@ -6790,7 +6790,8 @@ def main() -> None:
         check=False,
     )
     require(g349_replay.returncode == 0 and '"checks_total": 21' in g349_replay.stdout,
-            f"G349 dependency-free no-write replay failed: {g349_replay.stderr}")
+            f"G349 dependency-free no-write replay failed (exit {g349_replay.returncode}):"
+            f"\nSTDOUT:\n{g349_replay.stdout}\nSTDERR:\n{g349_replay.stderr}")
     g349_after = {
         path.relative_to(g349).as_posix(): hashlib.sha256(path.read_bytes()).hexdigest()
         for path in g349.rglob("*") if path.is_file() and "__pycache__" not in path.parts

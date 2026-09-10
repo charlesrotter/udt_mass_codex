@@ -1,0 +1,16 @@
+{
+  "command": [
+    "python3",
+    "-B",
+    "-S",
+    "maintenance_guard_sweep_2026-09-10/review/check_g349_maintenance.py"
+  ],
+  "cwd": "/home/udt-admin/udt_mass_codex",
+  "started_utc": "2026-09-10T13:34:40.499918+00:00",
+  "duration_seconds": 0.10749488096917048,
+  "returncode": 1,
+  "timeout": false,
+  "address_space_bytes": 536870912,
+  "cpu_seconds": 60,
+  "maxrss_kib": 78492
+}
