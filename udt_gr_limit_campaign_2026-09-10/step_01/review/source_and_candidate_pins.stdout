@@ -1,0 +1,13 @@
+udt_gr_filter_reconciliation_2026-09-09/AUTHORITY_RECORD.md: OK
+udt_g301_scale_free_quiet_regular_causal_principal_classification_2026-08-30/EXACT_DERIVATION.md: OK
+udt_g301_scale_free_quiet_regular_causal_principal_classification_2026-08-30/AUDIT_REPORT.md: OK
+udt_g311_universal_reciprocity_full_covariant_response_2026-09-01/EXACT_DERIVATION.md: OK
+udt_g312_quiet_gr_response_constitution_discriminator_2026-09-01/EXACT_DERIVATION.md: OK
+CURRENT_SCIENTIFIC_PREMISES.tsv: OK
+udt_shared_readout_metric_constraint_campaign_2026-09-06/run_capture.py: OK
+udt_gr_limit_campaign_2026-09-10/step_01/CANDIDATE.md: OK
+udt_gr_limit_campaign_2026-09-10/step_01/check_candidate.py: OK
+udt_gr_limit_campaign_2026-09-10/step_01/CHECK_REPAIR.md: OK
+udt_gr_limit_campaign_2026-09-10/step_01/author_checks_corrected.json: OK
+udt_gr_limit_campaign_2026-09-10/step_01/author_checks_corrected.stdout: OK
+udt_gr_limit_campaign_2026-09-10/step_01/author_checks_corrected.stderr: OK

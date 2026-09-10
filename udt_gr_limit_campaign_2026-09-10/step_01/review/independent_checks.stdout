@@ -1,0 +1,108 @@
+{
+  "status": "PASS_EXACT_WITNESSES_ONLY",
+  "python": "3.10.12",
+  "script_sha256": "75e8b5b6a2f8e6d70f1ac08ba61ccb958b8777be02081aadaad2714971a28210",
+  "implementation": "standard-library Fraction; independent code; no author imports",
+  "scope": "conditional algebraic curvature and ambient derivative slots; not actual metric development or a general proof",
+  "checks": [
+    "involution_realizer:first_pair",
+    "involution_realizer:last_pair",
+    "involution_realizer:pair_exchange",
+    "involution_realizer:bianchi",
+    "involution_realizes_ricci",
+    "involution_scalar_zero",
+    "involution_tracefree_nonzero",
+    "involution_square_metric",
+    "quadratic_DDR_without_Ricci_DDR",
+    "generic_realizer:first_pair",
+    "generic_realizer:last_pair",
+    "generic_realizer:pair_exchange",
+    "generic_realizer:bianchi",
+    "generic_realizes_ricci",
+    "nonvacuous_quadratic",
+    "nonvacuous_trace",
+    "nonvacuous_hessian",
+    "formal_derivative_scalar_hessian",
+    "exact_TF_expansion:2",
+    "exact_remainder_bound:2",
+    "exact_TF_expansion:4",
+    "exact_remainder_bound:4",
+    "exact_TF_expansion:8",
+    "exact_remainder_bound:8",
+    "exact_TF_expansion:16",
+    "exact_remainder_bound:16",
+    "unsuppressed_even_derivative_cancellation",
+    "cancellation_not_Einstein",
+    "boost_metric",
+    "boost_trace",
+    "boost_TF",
+    "boost_square",
+    "boost_quadratic_TF",
+    "all_expected_catches"
+  ],
+  "check_count": 34,
+  "hostile_catches": [
+    "reject_DDR_implies_S_zero_without_nonzero_a",
+    "detect_dropped_even_derivative:2",
+    "detect_dropped_quadratic:2",
+    "detect_missing_trace_projection:2",
+    "detect_dropped_even_derivative:4",
+    "detect_dropped_quadratic:4",
+    "detect_missing_trace_projection:4",
+    "detect_dropped_even_derivative:8",
+    "detect_dropped_quadratic:8",
+    "detect_missing_trace_projection:8",
+    "detect_dropped_even_derivative:16",
+    "detect_dropped_quadratic:16",
+    "detect_missing_trace_projection:16"
+  ],
+  "hostile_catch_count": 13,
+  "rates": [
+    {
+      "k": 2,
+      "epsilon": "1/4",
+      "delta": "1/2",
+      "error_over_epsilon": "47/16",
+      "bound_over_epsilon": "337/48"
+    },
+    {
+      "k": 4,
+      "epsilon": "1/16",
+      "delta": "1/4",
+      "error_over_epsilon": "47/64",
+      "bound_over_epsilon": "337/192"
+    },
+    {
+      "k": 8,
+      "epsilon": "1/64",
+      "delta": "1/8",
+      "error_over_epsilon": "47/256",
+      "bound_over_epsilon": "337/768"
+    },
+    {
+      "k": 16,
+      "epsilon": "1/256",
+      "delta": "1/16",
+      "error_over_epsilon": "47/1024",
+      "bound_over_epsilon": "337/3072"
+    }
+  ],
+  "counterexample": {
+    "mixed_Ricci_diagonal": [
+      1,
+      1,
+      -1,
+      -1
+    ],
+    "scalar": "0",
+    "S_nonzero": true,
+    "TF_Ricci_squared_zero": true
+  },
+  "omissions": [
+    "G301 full basis census reused, not rerun",
+    "No actual metric-jet realization theorem",
+    "No physical class-membership theorem",
+    "No uniform rate for all differentiable maps",
+    "No UDT coefficient or scale adoption"
+  ]
+}

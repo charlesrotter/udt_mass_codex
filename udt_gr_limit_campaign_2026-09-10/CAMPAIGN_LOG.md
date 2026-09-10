@@ -47,3 +47,50 @@ arguments, tensor contractions and small exact/symbolic checks. No numerical
 solve or fitted tolerance. Explore argument, then freeze candidate and obtain
 fresh source-first/direct adversarial review. Select step2 only from reviewed
 step1; the remaining budget is a ceiling, not a quota.
+
+GL1 outcome: VERIFIED-WITH-CAVEATS, conditional UNPROMOTED. The fixed-map
+weighted remainder estimate survives; a!=0, response-class membership and
+derivative hierarchy are not derived. Candidate unchanged. Initial author
+check failed at parse time; original/source/raw outputs preserved in fabb3cae.
+One syntax-only check correction passed and was independently replayed;
+no mathematical repair. Review33ab0456... records33 mathematical witness
+checks+1 bookkeeping,13 narrow catches and same-method overlap. All13 reviewer
+artifact seals checked. No false full365 pass or physical adoption.
+
+## Step2 — when an equation estimate constrains an actual metric limit
+
+Question: for an actual family of metrics satisfying the fixed response's
+DDR balance, does a regular normalized metric limit necessarily satisfy
+Ric=Lambda g? Which convergence/derivative controls are needed to apply GL1,
+and which are not implied by small curvature or local metric sufficiency?
+
+Scope: common connected coordinate domain/marking, supplied normalization
+parameter0<epsilon->0 and normalized metrics h_epsilon=epsilon² g_epsilon.
+The physical response F and reporting units remain fixed; rescaling the
+geometries is not silently changing F's coefficients. Start with smooth
+metrics and a sufficiently regular nondegenerate local limit, with a fixed
+finite response-jet order and controlled frames. Do not assume the limiting
+metric is Einstein. Treat convergence as a CONDITIONAL family hypothesis,
+not a theorem that arbitrary DDR developments converge or exist.
+
+Dependencies: entire reviewed GL1; accepted constant-rescaling tensor geometry
+and Bianchi identity with their differentiability conditions. Existing reviewed
+ND1 may supply only a known degenerate counterexample/control; do not restart
+the Q-comparator branch or claim its known nonselection as new. Any concrete
+high-frequency metric diagnostic must be an actual positive smooth metric,
+but is not a counterexample about DDR solutions unless its balance is checked.
+
+Discriminating outcomes: a normalized Einstein-limit NECESSITY theorem under
+the stated convergence/nondegeneracy/hierarchy; a lawful counterexample to
+that precise implication; or an unclosed transfer from response estimates
+to metric geometry. Isolate supplied initial/comparison data, constitutive
+hypotheses and method/compactness assumptions. Separate absolute flattening
+from normalized geometric shape and do not infer scalar constancy from merely
+small C0 response without sufficient limit regularity. Scalar/Weyl/initial
+freedom remains; no matter/source equation or physical stability is in scope.
+
+Methods: constant conformal-rescaling identities in orthonormal frames,
+curvature continuity on a common regular domain, GL1, and exact small CPU
+checks. Use a NEW separate-context source-first/direct reviewer. The parent
+noticed this possible transfer while developing GL1 but selected the question
+only after its completed review. No third step or successor is authorized.

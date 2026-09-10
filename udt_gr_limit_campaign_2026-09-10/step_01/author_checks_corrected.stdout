@@ -1,0 +1,21 @@
+{
+  "arithmetic": "Fraction exact",
+  "counts": {
+    "covariance_checks": 13,
+    "curvature_identities": 6168,
+    "exact_bound_probes": 49,
+    "negative_controls": 4,
+    "weighted_identities": 98
+  },
+  "epsilon_values": [
+    "1/2",
+    "1/3",
+    "1/10",
+    "1/100"
+  ],
+  "matrix_pairs": 12,
+  "omissions": "full G301 basis census, arbitrary actual jet realization, PDE, empirical data",
+  "python": "3.10.12",
+  "scope": "contracted m=2 diagnostics; no physical coefficient adopted",
+  "status": "PASS; finite support, not generic proof"
+}

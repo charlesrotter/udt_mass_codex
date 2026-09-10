@@ -34,7 +34,7 @@ def tf(a):
 
 
 def square(a):
-    return [[sum(a[i][k]*sgn[k]*a[k][j] for k in range(4)) for j in range(4)]
+    return [[sum(a[i][k]*sgn[k]*a[k][j] for k in range(4)) for j in range(4)] for i in range(4)]
 
 
 def norm1(a):
