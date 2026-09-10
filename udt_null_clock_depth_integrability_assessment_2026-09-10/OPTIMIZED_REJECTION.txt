@@ -1,0 +1,7 @@
+Command: python3 -O -B udt_null_clock_depth_integrability_assessment_2026-09-10/check_integrability.py
+Expected exit: 1; actual exit: 1
+Combined stdout/stderr follows:
+Traceback (most recent call last):
+  File "/home/udt-admin/udt_mass_codex/udt_null_clock_depth_integrability_assessment_2026-09-10/check_integrability.py", line 10, in <module>
+    raise RuntimeError("Exact evidence checks require normal Python; -O is forbidden")
+RuntimeError: Exact evidence checks require normal Python; -O is forbidden

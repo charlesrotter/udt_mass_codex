@@ -183,3 +183,17 @@ nonzero Ricci coefficient and controlled family remain separate conditional
 gates, not supplied initial data or derived physical laws. One check-only repair
 and its false-pass evidence are preserved; the candidate was unchanged.
 One-step campaign COMPLETE; stop for discussion. No successor or banking.
+
+## Latest bounded connection: null-clock depth integrability
+
+Charles subsequently authorized discretionary bounded work. One 90-minute assessment addressed a
+different source join, not another response-law sequel: when all regular local null-clock comparisons
+for a supplied metric and observer congruence admit one endpoint scalar. NCI1 is reviewed conditional
+UNPROMOTED; exact scope, single precision repair, independent checks and caveats:
+`udt_null_clock_depth_integrability_assessment_2026-09-10/DECISION_BRIEF.md`.
+The criterion is aligned conformal-Killing flow, equivalently zero shear and an exact
+acceleration/expansion one-form. This applies known geometry to the G215/G216/G220 distinction;
+it is not a new mathematical theorem, imposed symmetry, physical light identification or field law.
+General branch-labelled queries remain valid when scalar compression fails; full screen/frame carry
+is not removed when it succeeds. Preserve that distinction rather than selecting a law to enforce it.
+Assessment COMPLETE; no automatic successor, premise adoption or banking. The G325 blocker remains.

@@ -1,0 +1,6 @@
+Command: python3 -B -m pytest -q tests/test_startup_surface.py -k 'active_orientation_surface_stays_readably_bounded or startup_keeps_dependency_spine_not_execution_chronology or startup_does_not_promote_full_evidence_or_relocation_dump or retired_route_words_absent_from_active_orientation or current_next_gate_is_three_sentences_not_campaign_history'
+Exit: 0
+Combined output:
+.....                                                                    [100%]
+5 passed, 349 deselected in 0.18s
+349 deselections are outside this targeted documentation check. This is not a full-suite or full365 pass.

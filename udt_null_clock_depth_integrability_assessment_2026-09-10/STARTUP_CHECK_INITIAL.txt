@@ -1,0 +1,74 @@
+Command: python3 -B -m pytest -q tests/test_startup_surface.py -k 'active_orientation_surface_stays_readably_bounded or startup_keeps_dependency_spine_not_execution_chronology or startup_does_not_promote_full_evidence_or_relocation_dump or retired_route_words_absent_from_active_orientation or current_next_gate_is_three_sentences_not_campaign_history'
+Exit: 1
+Combined output:
+F....                                                                    [100%]
+=================================== FAILURES ===================================
+____________ test_active_orientation_surface_stays_readably_bounded ____________
+
+    def test_active_orientation_surface_stays_readably_bounded() -> None:
+        limits = {
+            "AGENTS.md": (225, 1950),  # Owner-requested bounded verification-cycle convention.
+            "LIVE.md": (135, 900),
+            "HANDOFF.md": (100, 600),
+                "INDEX.md": (118, 570),
+            "MEMORY.md": (70, 450),
+            "CURRENT_RESEARCH_PROGRAM.md": (155, 1100),
+                "CURRENT_SCIENTIFIC_PREMISES.md": (140, 1320),
+            "README.md": (100, 400),
+            "research/README.md": (80, 300),
+            "research/_registry/README.md": (80, 280),
+            "INFLIGHT_STATE.md": (40, 150),
+        }
+        for relative, (maximum_lines, maximum_words) in limits.items():
+            text = (REPO / relative).read_text(encoding="utf-8")
+            lines = text.splitlines()
+            words = text.split()
+>           assert len(lines) <= maximum_lines, (
+                f"{relative} regrew to {len(lines)} lines (limit {maximum_lines})"
+            )
+E           AssertionError: INDEX.md regrew to 121 lines (limit 118)
+E           assert 121 <= 118
+E            +  where 121 = len(['# INDEX — compact current pointers; `LIVE.md` wins', '', 'Banking through G382 is COMPLETE at reviewed conditional s...IEF.md`;', 'NCI1 conditional UNPROMOTED: all-local-null endpoint-scalar criterion for supplied metric/observers,', ...])
+
+tests/test_startup_surface.py:1396: AssertionError
+=========================== short test summary info ============================
+FAILED tests/test_startup_surface.py::test_active_orientation_surface_stays_readably_bounded
+1 failed, 4 passed, 349 deselected in 0.19s
+
+Second attempt, same command, exit 1:
+F....                                                                    [100%]
+=================================== FAILURES ===================================
+____________ test_active_orientation_surface_stays_readably_bounded ____________
+
+    def test_active_orientation_surface_stays_readably_bounded() -> None:
+        limits = {
+            "AGENTS.md": (225, 1950),  # Owner-requested bounded verification-cycle convention.
+            "LIVE.md": (135, 900),
+            "HANDOFF.md": (100, 600),
+                "INDEX.md": (118, 570),
+            "MEMORY.md": (70, 450),
+            "CURRENT_RESEARCH_PROGRAM.md": (155, 1100),
+                "CURRENT_SCIENTIFIC_PREMISES.md": (140, 1320),
+            "README.md": (100, 400),
+            "research/README.md": (80, 300),
+            "research/_registry/README.md": (80, 280),
+            "INFLIGHT_STATE.md": (40, 150),
+        }
+        for relative, (maximum_lines, maximum_words) in limits.items():
+            text = (REPO / relative).read_text(encoding="utf-8")
+            lines = text.splitlines()
+            words = text.split()
+            assert len(lines) <= maximum_lines, (
+                f"{relative} regrew to {len(lines)} lines (limit {maximum_lines})"
+            )
+>           assert len(words) <= maximum_words, (
+                f"{relative} regrew to {len(words)} words (limit {maximum_words})"
+            )
+E           AssertionError: INDEX.md regrew to 572 words (limit 570)
+E           assert 572 <= 570
+E            +  where 572 = len(['#', 'INDEX', '—', 'compact', 'current', 'pointers;', ...])
+
+tests/test_startup_surface.py:1399: AssertionError
+=========================== short test summary info ============================
+FAILED tests/test_startup_surface.py::test_active_orientation_surface_stays_readably_bounded
+1 failed, 4 passed, 349 deselected in 0.19s

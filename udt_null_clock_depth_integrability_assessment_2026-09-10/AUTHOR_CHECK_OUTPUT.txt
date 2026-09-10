@@ -1,0 +1,140 @@
+{
+  "candidate_sha256": "a2769dd02500970475225939f0606ba212bdde6b6a54a3bebdd5023ced1385e1",
+  "check_count": 24,
+  "checks": [
+    {
+      "detail": "9 exact future-null directions",
+      "name": "null_directions",
+      "passed": true
+    },
+    {
+      "detail": "rank9 in Sym2 dimension10; one-dimensional metric kernel",
+      "name": "null_quadratic_rank",
+      "passed": true
+    },
+    {
+      "detail": "eta lies in the one-dimensional kernel",
+      "name": "null_quadratic_kernel",
+      "passed": true
+    },
+    {
+      "detail": "g(U,U)=-1",
+      "name": "static_unit",
+      "passed": true
+    },
+    {
+      "detail": "sigma=H=0",
+      "name": "static_shear_expansion",
+      "passed": true
+    },
+    {
+      "detail": "alpha=-phi'(r) dr",
+      "name": "static_alpha",
+      "passed": true
+    },
+    {
+      "detail": "xi=partial_t; conformal-Killing residual zero",
+      "name": "static_ck",
+      "passed": true
+    },
+    {
+      "detail": "no shear despite time dependence",
+      "name": "conformal_shear",
+      "passed": true
+    },
+    {
+      "detail": "alpha=dq; Psi=-q",
+      "name": "conformal_alpha",
+      "passed": true
+    },
+    {
+      "detail": "xi=partial_t; CK but not generally Killing",
+      "name": "conformal_ck",
+      "passed": true
+    },
+    {
+      "detail": "smooth future unit congruence",
+      "name": "flat_shear_unit",
+      "passed": true
+    },
+    {
+      "detail": "H=kappa/3 at x=0",
+      "name": "flat_shear_H",
+      "passed": true
+    },
+    {
+      "detail": "nonzero sigma at x=0",
+      "name": "flat_shear_tensor",
+      "passed": true
+    },
+    {
+      "detail": "d log omega/dlambda for +/-x,+/-y,+/-z",
+      "name": "flat_direction_rates",
+      "passed": true
+    },
+    {
+      "detail": "inconsistent linear system for one scalar gradient",
+      "name": "no_scalar_gradient",
+      "passed": true
+    },
+    {
+      "detail": "sigma=H=0 on N>0",
+      "name": "acceleration_shear_expansion",
+      "passed": true
+    },
+    {
+      "detail": "alpha=t/(1+tx) dx",
+      "name": "acceleration_alpha",
+      "passed": true
+    },
+    {
+      "detail": "dalpha=dt wedge dx/(1+tx)^2; nonzero on N>0",
+      "name": "acceleration_nonclosure",
+      "passed": true
+    },
+    {
+      "detail": "all256 coordinate Riemann components exactly zero",
+      "name": "acceleration_flat",
+      "passed": true
+    },
+    {
+      "detail": "orthonormal diagonal Hi-H",
+      "name": "homogeneous_shear",
+      "passed": true
+    },
+    {
+      "detail": "alpha=H dt, locally exact",
+      "name": "homogeneous_alpha",
+      "passed": true
+    },
+    {
+      "detail": "Psi=-phi mutant violates dPsi=-alpha for arbitrary nonconstant phi",
+      "name": "catch_wrong_potential_sign",
+      "passed": true
+    },
+    {
+      "detail": "dropping closure falsely admits accelerating flat congruence",
+      "name": "catch_shear_only_gate",
+      "passed": true
+    },
+    {
+      "detail": "Minkowski metric does not imply P for arbitrary supplied U",
+      "name": "catch_flatness_implies_potential",
+      "passed": true
+    }
+  ],
+  "evidence_type": "author exact symbolic regression and controls; not independent review",
+  "omitted": [
+    "all source package replays",
+    "physical instrument/transfer test",
+    "metric field equation",
+    "global topology example",
+    "empirical observations"
+  ],
+  "script_sha256": "13d491796cc03f8036833294f8ba3b3edea1e6c879eabc5a48c9df568d1636a4",
+  "status": "PASS",
+  "versions": {
+    "python": "3.10.12",
+    "sympy": "1.13.1"
+  }
+}
