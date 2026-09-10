@@ -1,0 +1,92 @@
+{
+  "type": "Publication receipt; preservation does not constitute scientific promotion",
+  "recorded_utc": "2026-09-10T20:43:42Z",
+  "branch": "grok",
+  "baseline_commit": "896da97dc2484b72fa346d0c0ab17055a1dd6fcd",
+  "candidate_commit": "4868b4b49facd5d331675a690ff28002a188d976",
+  "candidate_commit_message": "Preserve reviewed directional clock curvature candidate DCI1",
+  "candidate_scope": {
+    "files": 67,
+    "paths": [
+      "INDEX.md",
+      "UDT_RESEARCH_ROADMAP.md",
+      "udt_directional_clock_curvature_whiteboard_2026-09-10/"
+    ],
+    "staged_whitespace_check_exit": 0,
+    "unstaged_tracked_changes": false,
+    "unrelated_status_entries": 46,
+    "unrelated_status_sha256": "55e7c4508622f912730f9c068cc571c370b3977bc1110eb0a48a8218dbe024c2",
+    "protected_payloads_read_or_hashed": false
+  },
+  "push": {
+    "command": [
+      "git",
+      "push",
+      "origin",
+      "grok"
+    ],
+    "initial_tool_result": {
+      "chunk_id": "d8e6bd",
+      "wall_time_seconds": 1.000778602,
+      "session_id": 44012,
+      "original_token_count": 0,
+      "output": ""
+    },
+    "completion_tool_result": {
+      "chunk_id": "f834e8",
+      "wall_time_seconds": 0.000001764,
+      "exit_code": 0,
+      "original_token_count": 23,
+      "output": "To https://github.com/charlesrotter/udt_mass_codex.git\n   896da97d..4868b4b4  grok -> grok\n"
+    }
+  },
+  "local_refs": {
+    "command": [
+      "git",
+      "rev-parse",
+      "HEAD",
+      "origin/grok"
+    ],
+    "tool_result": {
+      "chunk_id": "237465",
+      "wall_time_seconds": 0.000003157,
+      "exit_code": 0,
+      "original_token_count": 21,
+      "output": "4868b4b49facd5d331675a690ff28002a188d976\n4868b4b49facd5d331675a690ff28002a188d976\n"
+    }
+  },
+  "remote_ref": {
+    "command": [
+      "git",
+      "ls-remote",
+      "--exit-code",
+      "origin",
+      "refs/heads/grok"
+    ],
+    "tool_result": {
+      "chunk_id": "181331",
+      "wall_time_seconds": 0.246460763,
+      "exit_code": 0,
+      "original_token_count": 15,
+      "output": "4868b4b49facd5d331675a690ff28002a188d976\trefs/heads/grok\n"
+    }
+  },
+  "scientific_state": "VERIFIED-WITH-CAVEATS; conditional UNPROMOTED; no registry grade, canon or fixed-manuscript change",
+  "validation": {
+    "corrected_author_run": "41 exact identity diagnostics + 10 wrong-formula rejection controls; exit 0",
+    "initial_vacuous_check": "EXCLUDED; source and original output retained; R1 accepted by fresh reviewer",
+    "separate_reviewer": "Independent metric-jet, frame and clock-data implementations; no load-bearing objection",
+    "navigation": "4 selected existing tests passed; current startup surface validation passed",
+    "closeout": "CLOSEOUT.json PASS; 15 source pins, initial bytes and reviewer/partner manifests checked",
+    "full365": "Fresh top-level session run passed before the campaign; not rerun for this candidate or by the reviewer; scientific sources unchanged"
+  },
+  "limits": {
+    "exact_runtime_model": "UNATTESTED",
+    "general_agent_capacity": "UNVERIFIED",
+    "backup_completeness": "UNVERIFIED",
+    "pre_reboot_unsaved_state_disposition": "UNVERIFIED",
+    "ScratchDisk": "Blocks archive-dependent work only"
+  },
+  "receipt_commit": "This receipt and the refreshed package manifest will be committed separately; their eventual commit/push is not asserted here. Parent tool receipts own that later evidence.",
+  "return_point": "Authorized construction/review/repair completed; stop for discussion. No successor or scientific promotion authorized."
+}
