@@ -1,0 +1,20 @@
+{
+  "command": [
+    "git",
+    "diff",
+    "--cached",
+    "--check",
+    "--",
+    ".",
+    ":(exclude)udt_ti1_banking_2026-09-11/review/FINAL_NAVIGATION_DIFF.patch",
+    ":(exclude)udt_ti1_banking_2026-09-11/review/INITIAL_INTEGRATION_DIFF.patch"
+  ],
+  "cwd": "/home/udt-admin/udt_mass_codex",
+  "started_utc": "2026-09-11T13:45:30.956482+00:00",
+  "duration_seconds": 0.02086524001788348,
+  "returncode": 0,
+  "timeout": false,
+  "address_space_bytes": 2147483648,
+  "cpu_seconds": 60,
+  "maxrss_kib": 19572
+}

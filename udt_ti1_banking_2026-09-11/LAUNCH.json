@@ -1,0 +1,22 @@
+{
+  "launch_utc": "2026-09-11T13:00:50Z",
+  "deadline_utc": "2026-09-11T16:00:50Z",
+  "recorded_utc": "2026-09-11T13:03:48.342591+00:00",
+  "baseline_head": "ba934a9b542f818c9032ad37d57b8f7470fe9c9b",
+  "branch": "grok",
+  "checkout_fetch_ff_pull": "ACTUAL_PASS_ALREADY_UP_TO_DATE",
+  "old_untracked_count": 46,
+  "old_untracked_status_sha256": "55e7c4508622f912730f9c068cc571c370b3977bc1110eb0a48a8218dbe024c2",
+  "python": "3.10.12",
+  "cpu_count": 24,
+  "memory": {
+    "MemTotal": "131668760 kB",
+    "MemAvailable": "124657268 kB"
+  },
+  "runtime_model": "UNATTESTED",
+  "configured_model": "gpt-6-astra/xhigh observed earlier; not fresh runtime attestation",
+  "premise_audit": "PENDING_NEW_EXECUTION",
+  "backup_completeness": "UNVERIFIED",
+  "pre_reboot_unsaved_state": "UNVERIFIED",
+  "work_order_sha256": "a9c0fdf8517dd92b2e5e8e3354a139c7e28b93150fb8618a9ffed883752485f6"
+}

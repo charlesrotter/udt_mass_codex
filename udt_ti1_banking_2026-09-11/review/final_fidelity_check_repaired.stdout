@@ -1,0 +1,73 @@
+{
+  "status": "PASS",
+  "observed_utc": "2026-09-11T13:41:34.711440+00:00",
+  "sealed_review_pins_authenticated": 63,
+  "guard_changes_since_review": "ONLY_TWO_IMMUTABLE_REVIEW_PINS; AST_OTHERWISE_IDENTICAL",
+  "final_audit_receipt": {
+    "command": [
+      "python3",
+      "verify_current_scientific_premises.py"
+    ],
+    "cwd": "/home/udt-admin/udt_mass_codex",
+    "started_utc": "2026-09-11T13:30:27.489962+00:00",
+    "duration_seconds": 402.202254874981,
+    "returncode": 0,
+    "timeout": false,
+    "address_space_bytes": 2147483648,
+    "cpu_seconds": 900,
+    "maxrss_kib": 120192
+  },
+  "audited_nonprose_inputs_unchanged": true,
+  "later_prose_changes": [
+    "LIVE.md",
+    "HANDOFF.md",
+    "INDEX.md",
+    "MEMORY.md",
+    "CURRENT_SCIENTIFIC_PREMISES.md",
+    "CURRENT_RESEARCH_PROGRAM.md"
+  ],
+  "documents": {
+    "LIVE.md": {
+      "sha256": "dd3a58af6f0e2a7293749348039b33d341a42951e7fd9ad52885cca92c404676",
+      "lines": 112,
+      "words": 892
+    },
+    "HANDOFF.md": {
+      "sha256": "b7c1e89bdea0a913e2f31a4e32e25bf8909a039ab4e94aa8e2f4572aad2ba892",
+      "lines": 84,
+      "words": 590
+    },
+    "CURRENT_RESEARCH_PROGRAM.md": {
+      "sha256": "1ba5b48122549012750ae1d5cab9d99ca67172043b81f791d9374b0776676772",
+      "lines": 117,
+      "words": 1088
+    },
+    "CURRENT_SCIENTIFIC_PREMISES.md": {
+      "sha256": "f0aa84e96ba1014c83767b20621c210adcf9217ac0f58ab357a97f55338277cd",
+      "lines": 131,
+      "words": 1311
+    },
+    "AGENTS.md": {
+      "sha256": "c6b31ded9a2ca78e70348da8e2b1918172da4e4cd2f266863b7a58db4c8e19fb",
+      "lines": 225,
+      "words": 1947
+    },
+    "INDEX.md": {
+      "sha256": "41428ff26fc568707582d00cc675a5497ad3ed67d94cfba80adda3218cb93ca5",
+      "lines": 118,
+      "words": 568
+    },
+    "MEMORY.md": {
+      "sha256": "ac2e0507ab3e0dfbd6b865c034b6dec14f3e7367f36fcb422803f2f0521d422a",
+      "lines": 55,
+      "words": 448
+    },
+    "UDT_RESEARCH_ROADMAP.md": {
+      "sha256": "cc7a91e4add71a6c825facab8e58c065e9022a462d87aa3c8a4816af34db4584",
+      "lines": 403,
+      "words": 3756
+    }
+  },
+  "guard_and_startup_calls": "ACTUAL_PASS; correspondence/regression, not new science proof",
+  "publication": "NOT_CHECKED; parent owns actual staging/commit/push outcomes"
+}

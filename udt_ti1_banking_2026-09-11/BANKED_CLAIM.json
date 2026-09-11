@@ -1,0 +1,37 @@
+{
+  "baseline_head": "ba934a9b542f818c9032ad37d57b8f7470fe9c9b",
+  "original395_sha256": "6fc63338cf5562d72d0313e2376474ad9ac908841a64e82fc74e0bc93b8ae43a",
+  "original395_rows": 395,
+  "original_ti1_files": 103,
+  "required_registry_ids": [
+    "G166",
+    "G176",
+    "G179",
+    "G180",
+    "G182",
+    "G216",
+    "G312",
+    "G327",
+    "G388",
+    "G389"
+  ],
+  "method_control_credit_ids": [
+    "G324",
+    "G394",
+    "G405"
+  ],
+  "claim": {
+    "premise_id": "G413",
+    "term": "two_shape_analytic_curvature_and_retained_density_distinction",
+    "current_status": "BANKED_DERIVED_CONDITIONAL__VERIFIED_WITH_CAVEATS__OWNER_AUTHORIZED__NOT_PHYSICAL_ADOPTION__NOT_CANON",
+    "epistemic_label": "MIXED",
+    "active_use": "TI1; ENTIRE INITIAL_CANDIDATE and controlling reviews. Supplied Ric=0 and analytic compact split T3 data gamma=I, K=-gamma_T/2, s=-2/3+c, p=A cosX, r=B cos(X+theta), d=p^2+r^2, kappa=(d-s^2)/(2s), K=diag-block(kappa,s I2-[[p,r],[r,-p]]), K_XA=0; fixed positive transverse periods, X-period2pi,T0=1. In |A|,|B|<1/4, |c|<1/6, kappa>1/8. Full constraints, jointly analytic local developments, compact gluing and Bianchi propagation included. Initial oriented Weyl P=C_abcd(*C)^abcd=32 kappa A B sin(theta); AB sin(theta)!=0 yields nonvanishing throughout initial slice and datum-dependent local persistence, unlike locally polarized one-component/aligned controls. Exact completion dependence and restricted analytic c(epsilon)=O(epsilon^2) tangent-family coefficient J=P/16=(2/3)epsilon^2 ab sin(theta)+O(epsilon^4), uniform X. On those actual Gaussian developments all normalized directional pair-germ fields H=diag(-1,1). Six commonly marked original density fields m_v, v=ei,ei+ej, recover initial P from q_v=m_v^2 via T and TX derivatives, known initial flat gamma, orientation and supplied Ric=0. TX are SECOND record derivatives; whole smooth density fields already contain them.",
+    "open_scope": "Physical identification remains OPEN; G166 native assembly/history/pair population OPEN; G176 WORKING; G312 GR FILTER ONLY and native response-class membership unclosed. Supplied Ric=0 is conditional, not native UDT adoption. Full conventions, analytic/local and calibration premises remain. Only declared homogeneous completion family classified; outside-safe-box nonaligned cancellation is initial-only. Leading mixed coefficient uses first-order curvature pieces; no general linearization failure, later generated coupling, energy transfer, amplification, long-time stability, genericity, uniqueness, global reach, selected shape/scale, instrument, source/matter law or canon. Time-live tape changes fixed-tape clock; equal normalized germs do not mean equal full tapes. Separately omitted derivatives are not information loss if whole smooth fields remain.",
+    "forbidden_regression": "Conditional mathematical banking called physical adoption, native equation derivation or canon; initial mixed curvature called later generated coupling; general completions or full time evolution inferred from restricted local statement; second record derivatives called first-jet-only curvature recovery; whole smooth fields said to lose derivatives merely because those are not separately stored; orientation sign called invariant without convention; preserved failures/history erased; checksums or check counts called proof or runtime model attestation.",
+    "controlling_source": "udt_ti1_banking_2026-09-11/BANKING_RECORD.md",
+    "precedence_rule": "G413 accepts BOTH TI1 survivors only at ENTIRE frozen source/review scope. Required IDs G166,G176,G179,G180,G182,G216,G312,G327,G388,G389; G327 definition and G388/G389 reviewed-method interfaces do not replace direct TI1 proof. G324 background credit; G394/G405 method/control credit, rederived TI1 joins. Original source UNPROMOTED headers are historical under this authorized acceptance overlay. Fresh banking review is source-exposed fidelity/integration, not blind reproof; runtime model/version UNATTESTED. LIVE then exact registry then this banking record and immutable original candidate/reviews; conflict means STOP."
+  },
+  "review_state": "Original substantive review VERIFIED-WITH-CAVEATS, no science repair; current integration gates recorded separately in CLOSEOUT.md",
+  "authority_source": "udt_gr_filter_reconciliation_2026-09-09/AUTHORITY_RECORD.md",
+  "authority_sha256": "80daa0be6d3e1c0ac1b734fea089c4eb487f05bc1e1fbb2fabd69322ca89f28c"
+}

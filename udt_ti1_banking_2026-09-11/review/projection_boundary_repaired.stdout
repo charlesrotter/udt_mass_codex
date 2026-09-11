@@ -1,0 +1,71 @@
+{
+  "status": "PASS",
+  "question": "Every historical adapter authenticates exact G413 before excluding it",
+  "verifier_sha256": "eb9505f6c2eacf78579d784de4d0b5942ce8cfe99dbd886ce4d989077eafdb12",
+  "module_sha256": "b57a7d0d78fde0552ee9c535d0805aab79f39d7fb90279e1ba59ee859bfc24ed",
+  "mutation": "G413 NOT_PHYSICAL_ADOPTION -> PHYSICAL_LAW_ADOPTED in same raw/text view",
+  "results": [
+    {
+      "guard": "validate_conditional_banking",
+      "rejected": true,
+      "reason": "TI1 exact row/scope changed"
+    },
+    {
+      "guard": "validate_shared_constraint_banking",
+      "rejected": true,
+      "reason": "TI1 exact row/scope changed"
+    },
+    {
+      "guard": "validate_persistence_banking",
+      "rejected": true,
+      "reason": "TI1 exact row/scope changed"
+    },
+    {
+      "guard": "validate_restrictiveness_banking",
+      "rejected": true,
+      "reason": "TI1 exact row/scope changed"
+    },
+    {
+      "guard": "validate_source_metric_banking",
+      "rejected": true,
+      "reason": "TI1 exact row/scope changed"
+    },
+    {
+      "guard": "validate_reconstruction_banking",
+      "rejected": true,
+      "reason": "TI1 exact row/scope changed"
+    },
+    {
+      "guard": "validate_coupled_banking",
+      "rejected": true,
+      "reason": "TI1 exact row/scope changed"
+    },
+    {
+      "guard": "validate_vacuum_scale_banking",
+      "rejected": true,
+      "reason": "TI1 exact row/scope changed"
+    },
+    {
+      "guard": "validate_berger_banking",
+      "rejected": true,
+      "reason": "TI1 exact row/scope changed"
+    },
+    {
+      "guard": "validate_closed_fibre_banking",
+      "rejected": true,
+      "reason": "TI1 exact row/scope changed"
+    },
+    {
+      "guard": "validate_neighboring_tidal_banking",
+      "rejected": true,
+      "reason": "TI1 exact row/scope changed"
+    },
+    {
+      "guard": "validate_reviewed_backlog_banking",
+      "rejected": true,
+      "reason": "TI1 exact row/scope changed"
+    }
+  ],
+  "source_writes": false,
+  "scientific_claim": "NONE"
+}

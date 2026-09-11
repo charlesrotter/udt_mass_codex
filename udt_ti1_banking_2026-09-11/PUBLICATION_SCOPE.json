@@ -1,0 +1,30 @@
+{
+  "tracked_mutation_allowlist": [
+    "AGENTS.md",
+    "CURRENT_RESEARCH_PROGRAM.md",
+    "CURRENT_SCIENTIFIC_PREMISES.md",
+    "CURRENT_SCIENTIFIC_PREMISES.tsv",
+    "HANDOFF.md",
+    "INDEX.md",
+    "LIVE.md",
+    "MEMORY.md",
+    "UDT_RESEARCH_ROADMAP.md",
+    "tests/test_reviewed_backlog_banking.py",
+    "tests/test_startup_surface.py",
+    "verify_current_scientific_premises.py"
+  ],
+  "new_root_files": [
+    "ti1_banking_guard.py",
+    "tests/test_ti1_banking.py"
+  ],
+  "new_evidence_package": "udt_ti1_banking_2026-09-11/",
+  "excluded_local_next_study": "udt_two_shape_evolution_2026-09-11/",
+  "excluded_review_scratch": [
+    "review/pytest_initial/",
+    "review/pytest_repaired/",
+    "__pycache__/"
+  ],
+  "original_scientific_source_package": "UNCHANGED_NOT_STAGED",
+  "original_unrelated_status_entries": 46,
+  "publication": "FUTURE_AT_THIS_SCOPE_FREEZE"
+}

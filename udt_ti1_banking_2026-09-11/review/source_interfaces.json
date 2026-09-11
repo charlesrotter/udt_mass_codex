@@ -1,0 +1,14 @@
+{
+  "command": [
+    "python3",
+    "udt_ti1_banking_2026-09-11/review/check_source_interfaces.py"
+  ],
+  "cwd": "/home/udt-admin/udt_mass_codex",
+  "started_utc": "2026-09-11T13:13:00.505711+00:00",
+  "duration_seconds": 0.03217684995615855,
+  "returncode": 0,
+  "timeout": false,
+  "address_space_bytes": 2147483648,
+  "cpu_seconds": 60,
+  "maxrss_kib": 21888
+}

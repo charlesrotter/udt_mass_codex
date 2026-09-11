@@ -1,0 +1,28 @@
+{
+  "route": "full original metric 2-jet and four-index FIRST-pair Hodge",
+  "python": "3.10.12",
+  "sympy": "1.13.1",
+  "variables": [
+    "p",
+    "r",
+    "p_X",
+    "r_X",
+    "s"
+  ],
+  "K": "Matrix([[(p**2 + r**2 - s**2)/(2*s), 0, 0], [0, -p + s, -r], [0, -r, p + s]])",
+  "Ricci": "Matrix([[0, 0, 0, 0], [0, 0, 0, 0], [0, 0, 0, 0], [0, 0, 0, 0]])",
+  "Hamiltonian": "0",
+  "momentum": "Matrix([[0], [0], [0]])",
+  "P": "-16*(p*r_X - p_X*r)*(p**2 + r**2 - s**2)/s",
+  "E": "Matrix([[p**2 + r**2 - s**2, 0, 0], [0, -(p + s)*(p**2 + r**2 - s**2)/(2*s), -r*(p**2 + r**2 - s**2)/(2*s)], [0, -r*(p**2 + r**2 - s**2)/(2*s), (p - s)*(p**2 + r**2 - s**2)/(2*s)]])",
+  "B_first_dual": "Matrix([[0, 0, 0], [0, r_X, -p_X], [0, -p_X, -r_X]])",
+  "harmonic_P": "16*A*B*(A**2*cos(X)**2 + B**2*cos(X + theta)**2 - s**2)*sin(theta)/s",
+  "phase_wronskian": "-A*B*sin(theta)",
+  "zero_and_one_controls": {
+    "zero": "0",
+    "p_only": "0",
+    "r_only": "0",
+    "aligned": "0"
+  },
+  "invalid_completion_H": "-2*(p**2 + r**2)"
+}

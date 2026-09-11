@@ -2,7 +2,7 @@
 
 Date: 2026-09-11
 
-`LIVE.md` controls status; exact 395-row `CURRENT_SCIENTIFIC_PREMISES.tsv` controls ownership.
+`LIVE.md` controls status; exact 396-row `CURRENT_SCIENTIFIC_PREMISES.tsv` controls ownership.
 
 ## Architecture
 
@@ -112,6 +112,6 @@ Backup completeness/pre-reboot unsaved state remain UNVERIFIED; ScratchDisk is a
 
 ## Current next gate
 
-G383--G412 exact-scope banking is COMPLETE; TI1 is a reviewed conditional candidate, UNPROMOTED; scope/review: INDEX.
+G383--G412 exact-scope banking is COMPLETE; G413=TI1 is conditionally banked; authorized evolution scope: INDEX.
 G312 membership unclosed; G352 physical-realization: physical identification remains OPEN.
-Stop for lay discussion with Charles on TI1 promotion; no new campaign is authorized; approved work orders include checks, fresh separate-context review and bounded same-premise repair.
+Stop for lay discussion with Charles after the approved bounded evolution/review/repair cycle; no new campaign is authorized beyond that work order.

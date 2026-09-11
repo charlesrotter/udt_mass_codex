@@ -1,15 +1,15 @@
 # UDT research roadmap — geometry, dynamics and physical connection
 
-Updated: 2026-09-10. Charles Rotter requested the whole plan on 2026-09-09;
+Updated: 2026-09-11. Charles Rotter requested the whole plan on 2026-09-09;
 its original baseline was `d0fe8b3e5f95c3963dc8702bb4a31485678bd1e3`, branch `grok`.
-The campaigns described below are COMPLETE; their authorizations are spent, not live dispatches.
+Earlier campaigns below are COMPLETE; the current bounded TI2 dispatch is identified at the maintained checkpoint.
 Current operational handoff: `HANDOFF.md`; the maintained checkpoint below records the reviewed
-ER1 expansion and backlog banking. No later discovery campaign is automatically authorized.
+ER1 expansion, backlog/G413 banking and the bounded TI2 evolution study. No successor is automatic.
 This is a maintained direction document, not a premise, theorem, promotion
 or replacement for LIVE, the exact registry, or reviewed scientific sources.
 
 Current acceptance overlay: earlier UNPROMOTED/campaign-only language below records historical
-returns. The G383--G412 banking packet and maintained checkpoint own their later disposition;
+returns. The G383--G412 and G413 banking packets and maintained checkpoint own later dispositions;
 original result packages remain unchanged. No physical adoption or canon is included.
 
 ## Aim and current position
@@ -259,21 +259,29 @@ authorization. A coverage row is not a completeness theorem or a scientific prem
 |---|---|---|
 | Exact metric/kernel, stages1–2 | ER1 COMPLETE, reviewed; G405 conditionally banked at exact scope | `udt_exact_metric_kernel_expansion_2026-09-10/DECISION_BRIEF.md` and `udt_exact_metric_kernel_expansion_2026-09-10/review/REVIEW.md`: variable lapse/rest form/time-live shift, exact rotation interaction; supplied configuration class only |
 | Joint realization, stage3 | ER1's finite marked-record recipe COMPLETE at reviewed scope | Six common directional records plus density and derivatives; SPD/shift coherence and actual shared immersions; no physical pair population or arbitrary-network theorem |
-| Conditional nonlinear developments, stage4 | TI1 reviewed conditional two-shape comparison; UNPROMOTED | `udt_two_shape_nonlinear_interaction_2026-09-11/REVIEWED_RESULT.md` and its `review/REVIEW.md`: complete analytic Ric=0 data/developments, initial mixed curvature distinction, phase/completion controls and retained-density join; no native equation adoption or later generated coupling |
-| Reach/persistence, stage5 | TI1 proves datum-dependent local retention of nonzero curvature; broader study not dispatched | Common marking/calibration, compact analytic data and conditional equation remain supplied; native assembly, global reach, genericity, sustained evolution and stability remain open |
+| Conditional nonlinear developments, stage4 | G413=TI1 conditionally banked at full reviewed scope | `udt_two_shape_nonlinear_interaction_2026-09-11/REVIEWED_RESULT.md` and its `review/REVIEW.md`: complete analytic Ric=0 data/developments, initial mixed curvature distinction, phase/completion controls and retained-density join; no native equation adoption or later generated coupling |
+| Reach/persistence, stage5 | TI1 local retention banked; bounded TI2 initial-evolution comparison authorized | Common marking/calibration, compact analytic data and conditional equation remain supplied; native assembly, global reach, genericity, sustained evolution and stability remain open |
 
 ER1 returned the reviewed conditional result, actual witness/record compatibility and lay brief;
 its exact execution and final fidelity receipts are in that package. The two-hour research authorization
 is spent. Charles separately authorized the reviewed backlog banking:30 entries G383--G412,
 with source/review gates and actual full395 PASS. `udt_reviewed_backlog_banking_2026-09-10/BANKING_RECORD.md`
 and `DISPOSITIONS.tsv` in that package own exact scopes, grades, checks and remaining gates.
-All original science is preserved. Charles then authorized TI1's bounded construction/check/review
-cycle; it returned the reviewed conditional result without scientific repair. Its three-hour work
-order closes at this return, with no automatic successor. TI1 disposition: HOLD for Charles's
-separate exact-scope promotion authorization; controls remain controls. This is a named ownership
-gate, not a requirement to identify physics before banking valid conditional mathematics.
-`udt_two_shape_nonlinear_interaction_2026-09-11/DECISION_BRIEF.md` and `SESSION_RECORD.md`
-own the lay return, actual checks, context/exposure record and preservation. Stop for discussion.
+All original science is preserved. Charles separately authorized exact-scope TI1 promotion:
+G413 accepts both reviewed survivors, including full analytic-development/second-record-jet limits,
+without scientific repair or equation adoption. `udt_ti1_banking_2026-09-11/BANKING_RECORD.md`
+and its CLOSEOUT.md own the current acceptance, original395/whole-source preservation, fresh
+integration review, repaired historical-projection guard and actual full396/check results.
+The original TI1 UNPROMOTED headers remain historical. Controls remain controls.
+
+Charles also authorized the bounded TI2 evolution comparison, including checks, fresh separate-context
+review and bounded same-premise repair. `udt_ti1_banking_2026-09-11/WORK_ORDER.md` owns the scope;
+TI2's precomputation frame is prepared locally; no TI2 science is part of this banking commit.
+Combined banking/research hard return2026-09-11 16:00:50UTC, CPU only. Question: initial geometric
+rate beyond its matched small-amplitude reference, with phase/completion controls and lawful retained
+records. Return a reviewed conditional candidate, cancellation/freedom or precise obstacle; TI2
+promotion is not authorized. No new physical premise or automatic successor. Stop for lay discussion
+at this return. Backup completeness/pre-reboot unsaved state remain UNVERIFIED.
 
 Learning to carry forward: an exact time-live shift interaction can disappear under a stationarity
 restriction or first-order shift-amplitude expansion about zero shift; normalized pair outputs can lose rotation-relevant density; a

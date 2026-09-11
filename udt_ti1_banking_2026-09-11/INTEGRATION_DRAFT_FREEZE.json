@@ -1,0 +1,12 @@
+{
+  "utc": "2026-09-11T13:17:27.111608+00:00",
+  "sha256": {
+    "ti1_banking_guard.py": "b57a7d0d78fde0552ee9c535d0805aab79f39d7fb90279e1ba59ee859bfc24ed",
+    "verify_current_scientific_premises.py": "2c4a6c46ba03e5676336cd20c249f3b9f14d9f86a0b0386e4db2298d51da129b",
+    "tests/test_startup_surface.py": "870752eda133e9fae00eee5d2185746a27cdbab9019c61c407493bb98a092243",
+    "tests/test_reviewed_backlog_banking.py": "238596668cd28f3bd4ef6af6422dc9061a16898e9bf99b0bc9cee009a1c810fc",
+    "tests/test_ti1_banking.py": "884fb10a60e21c6a42a1246166b580035ba3f8f315ce2013a8d5743998e3378b",
+    "CURRENT_SCIENTIFIC_PREMISES.tsv": "2491607030f80e6f0557cc7ed7ee7487d3637e357e0da520f8432b67190b25db"
+  },
+  "initial_test_failure": "default tests/conftest imports torch; CUDA library mapping failed under2GiB; retry --noconftest removes unrelated fixtures, no runtime configuration changed"
+}

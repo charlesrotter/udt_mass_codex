@@ -1,0 +1,15 @@
+{
+  "command": [
+    "python3",
+    "-B",
+    "udt_ti1_banking_2026-09-11/review/check_final_fidelity.py"
+  ],
+  "cwd": "/home/udt-admin/udt_mass_codex",
+  "started_utc": "2026-09-11T13:40:50.289734+00:00",
+  "duration_seconds": 0.051551014999859035,
+  "returncode": 1,
+  "timeout": false,
+  "address_space_bytes": 2147483648,
+  "cpu_seconds": 60,
+  "maxrss_kib": 28216
+}

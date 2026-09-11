@@ -1,0 +1,17 @@
+{
+  "sealed_utc": "2026-09-11T13:46:15.287981+00:00",
+  "branch": "grok",
+  "baseline_head": "ba934a9b542f818c9032ad37d57b8f7470fe9c9b",
+  "manifest_entries": 135,
+  "manifest_sha256": "a5fbac99fe0b381925b2edebc93e507db146686c0687ea6ca9abe254abbf9f78",
+  "full396_post_repair": "ACTUAL_PASS_402.202254875_SECONDS",
+  "final_navigation_and_pins": "ACTUAL_539_PASS_1_DUPLICATE_FULL_WRAPPER_DESELECTED",
+  "fresh_review_final_fidelity": "ACTUAL_PASS_2026-09-11T13:43:25.874357Z",
+  "publication": "FUTURE_AT_SEAL; actual commit/push must be observed",
+  "TI2": "LOCAL_DRAFT_EXCLUDED_FROM_THIS_COMMIT",
+  "original395_rows_original103_sources_original46_status": "PRESERVED; no protected payload read",
+  "runtime_model_version": "UNATTESTED",
+  "backup_completeness": "UNVERIFIED",
+  "pre_reboot_unsaved_state": "UNVERIFIED",
+  "whitespace": "Preserved raw patch captures produced expected formatting warnings; scoped source check PASS; raw warning-output capture retains original whitespace"
+}

@@ -1,0 +1,46 @@
+{
+  "status": "PASS",
+  "baseline": "ba934a9b542f818c9032ad37d57b8f7470fe9c9b",
+  "original395_exact_bytes": true,
+  "old_registry_sha256": "6fc63338cf5562d72d0313e2376474ad9ac908841a64e82fc74e0bc93b8ae43a",
+  "g413_present": false,
+  "selected_original_rows": [
+    "G166",
+    "G176",
+    "G179",
+    "G180",
+    "G182",
+    "G216",
+    "G312",
+    "G324",
+    "G327",
+    "G388",
+    "G389",
+    "G394",
+    "G405"
+  ],
+  "scientific_and_capture_source_pins": {
+    "udt_gr_filter_reconciliation_2026-09-09/AUTHORITY_RECORD.md": "80daa0be6d3e1c0ac1b734fea089c4eb487f05bc1e1fbb2fabd69322ca89f28c",
+    "udt_reviewed_backlog_banking_2026-09-10/BANKING_RECORD.md": "654b0b2d734685c42d6a1b31740d545ab9299d17a5d5cc32c57e407b800191f1",
+    "udt_reviewed_backlog_banking_2026-09-10/BANKED_CLAIMS.json": "4b98b1dea6ce9dc0d62f9fa6183c1379aed534989159b45a208dad93fce12c2e",
+    "udt_nonlinear_mode_realizability_campaign_2026-09-09/step_01/INITIAL_CANDIDATE.md": "871a64977c723db32fa4697c4b61cd3a57ec7f318c061585b187774549731f86",
+    "udt_nonlinear_mode_realizability_campaign_2026-09-09/step_01/REVIEWED_RESULT.md": "110afc4f8ce5e3229f8a4e50ea7b8216a27bd74b57f4f4c6381874895ade99be",
+    "udt_nonlinear_mode_realizability_campaign_2026-09-09/step_01/review/ADVERSARIAL_REVIEW.md": "a6a612b5924c04c0ee60726b65403e061d035cbaf3e3d96a7499a9dbb2273c4a",
+    "udt_nonlinear_mode_realizability_campaign_2026-09-09/step_02/INITIAL_CANDIDATE.md": "2af7b57e9323c895ffe98b4777aadd37721cd650bffd684954b85b1441e29e9d",
+    "udt_nonlinear_mode_realizability_campaign_2026-09-09/step_02/REVIEWED_RESULT.md": "ea2a9d53f6e72605c41a0667fcc605b7ae728138786af081816bd79b243de05d",
+    "udt_nonlinear_mode_realizability_campaign_2026-09-09/step_02/review/ADVERSARIAL_REVIEW.md": "9e722b8874593ec0b82f7862d5a3af0f371e26a5798f8fc1d49db453b757acfc",
+    "udt_nonlinear_ripple_geometry_2026-09-09/INITIAL_CANDIDATE.md": "49880008dcb5a646d6867e377f6dc84ded692b98250701aba4cab7119ca500de",
+    "udt_nonlinear_ripple_geometry_2026-09-09/review/DIRECT_REVIEW.md": "dd5608df50905466383a1bc9dd67e6b23bcececb1d5ff4e0848c87716b98b200",
+    "udt_exact_metric_kernel_expansion_2026-09-10/INITIAL_CANDIDATE.md": "439bbf545bc11901005bfa96ad154ddab68d3d6a383c358dc787b9eb38584f73",
+    "udt_exact_metric_kernel_expansion_2026-09-10/review/REVIEW.md": "5359bd687245ab0f5d085b430987bf5b2c08321dd9d6f40b4ee1f753a9e586f7",
+    "udt_reviewed_backlog_banking_2026-09-10/capture_existing.py": "1b95a783e861a52cc9fc50d3c76c152cb3673fc9045372afafd30da269ffec3f",
+    "udt_shared_readout_metric_constraint_campaign_2026-09-06/run_capture.py": "8ff5469ace76bdfc84188915242abbf3baff35516f9ee3f9ba4b1cbfeb2573ef"
+  },
+  "source_grades": {
+    "G388": "BANKED_DERIVED_CONDITIONAL__VERIFIED_WITH_CAVEATS__OWNER_AUTHORIZED__NOT_PHYSICAL_ADOPTION__NOT_CANON",
+    "G389": "BANKED_DERIVED_CONDITIONAL__VERIFIED_WITH_CAVEATS__OWNER_AUTHORIZED__NOT_PHYSICAL_ADOPTION__NOT_CANON",
+    "G394": "BANKED_DERIVED_CONDITIONAL__VERIFIED_WITH_CAVEATS__OWNER_AUTHORIZED__NOT_PHYSICAL_ADOPTION__NOT_CANON",
+    "G405": "BANKED_DERIVED_CONDITIONAL__VERIFIED_WITH_CAVEATS__OWNER_AUTHORIZED__NOT_PHYSICAL_ADOPTION__NOT_CANON"
+  },
+  "meaning": "correspondence and reviewed interfaces, not reproof or physical adoption"
+}

@@ -1,0 +1,4 @@
+Traceback (most recent call last):
+  File "/home/udt-admin/udt_mass_codex/udt_ti1_banking_2026-09-11/review/check_final_fidelity.py", line 38, in <module>
+    assert old_ast==new_ast,'non-pin guard behavior changed after tested version'
+AssertionError: non-pin guard behavior changed after tested version

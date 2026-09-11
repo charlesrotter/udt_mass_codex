@@ -1,0 +1,268 @@
+{
+  "context": "/root/ti1_banking_review",
+  "runtime_model_version": "UNATTESTED",
+  "override": "NONE",
+  "subdelegation": "NONE",
+  "first_observed_utc": "2026-09-11T13:04:34+00:00",
+  "final_followup_clock_observed_utc": "2026-09-11T13:40:43+00:00",
+  "end_utc": "2026-09-11T13:43:25.874357+00:00",
+  "elapsed_seconds": 2331.874357,
+  "disposition": "PASS_FINAL_FIDELITY; SUBSTANTIVE_VERIFIED_WITH_CAVEATS_SURVIVES",
+  "scientific_repairs_required": 0,
+  "B1": "RESOLVED; ORIGINAL_FAILURE_AND_REPAIRED_REPLAY_PRESERVED",
+  "final_gates_closed": [
+    "actual post-repair full396",
+    "sealed review pin correspondence",
+    "proportional final compact navigation/roadmap and closeout fidelity",
+    "original395/103-source/46-name-status preservation"
+  ],
+  "parent_final_captures_personally_inspected": {
+    "full396_post_repair": {
+      "command": [
+        "python3",
+        "verify_current_scientific_premises.py"
+      ],
+      "cwd": "/home/udt-admin/udt_mass_codex",
+      "started_utc": "2026-09-11T13:30:27.489962+00:00",
+      "duration_seconds": 402.202254874981,
+      "returncode": 0,
+      "timeout": false,
+      "address_space_bytes": 2147483648,
+      "cpu_seconds": 900,
+      "maxrss_kib": 120192
+    },
+    "final_navigation_and_pins": {
+      "command": [
+        "python3",
+        "-m",
+        "pytest",
+        "--noconftest",
+        "-q",
+        "tests/test_startup_surface.py",
+        "tests/test_reviewed_backlog_banking.py",
+        "tests/test_ti1_banking.py",
+        "-k",
+        "not test_full_foundational_premise_verifier_is_in_pytest"
+      ],
+      "cwd": "/home/udt-admin/udt_mass_codex",
+      "started_utc": "2026-09-11T13:37:33.210306+00:00",
+      "duration_seconds": 12.497398136998527,
+      "returncode": 0,
+      "timeout": false,
+      "address_space_bytes": 2147483648,
+      "cpu_seconds": 180,
+      "maxrss_kib": 54808
+    }
+  },
+  "reviewer_final_captures": {
+    "final_fidelity_check": {
+      "command": [
+        "python3",
+        "-B",
+        "udt_ti1_banking_2026-09-11/review/check_final_fidelity.py"
+      ],
+      "cwd": "/home/udt-admin/udt_mass_codex",
+      "started_utc": "2026-09-11T13:40:50.289734+00:00",
+      "duration_seconds": 0.051551014999859035,
+      "returncode": 1,
+      "timeout": false,
+      "address_space_bytes": 2147483648,
+      "cpu_seconds": 60,
+      "maxrss_kib": 28216
+    },
+    "final_fidelity_check_repaired": {
+      "command": [
+        "python3",
+        "-B",
+        "udt_ti1_banking_2026-09-11/review/check_final_fidelity.py"
+      ],
+      "cwd": "/home/udt-admin/udt_mass_codex",
+      "started_utc": "2026-09-11T13:41:34.588556+00:00",
+      "duration_seconds": 0.12727477098815143,
+      "returncode": 0,
+      "timeout": false,
+      "address_space_bytes": 2147483648,
+      "cpu_seconds": 60,
+      "maxrss_kib": 29988
+    },
+    "original_correspondence_final": {
+      "command": [
+        "python3",
+        "-B",
+        "udt_ti1_banking_2026-09-11/review/check_original_correspondence.py"
+      ],
+      "cwd": "/home/udt-admin/udt_mass_codex",
+      "started_utc": "2026-09-11T13:41:08.151777+00:00",
+      "duration_seconds": 0.0781106660142541,
+      "returncode": 0,
+      "timeout": false,
+      "address_space_bytes": 2147483648,
+      "cpu_seconds": 60,
+      "maxrss_kib": 15936
+    }
+  },
+  "reviewer_final_probe_defect": "Initial AST normalizer omitted literal update handling; initial checker and failed run preserved; corrected narrowly; no source/science repair",
+  "nonprose_audit_inputs_unchanged": true,
+  "later_prose_snapshot": {
+    "LIVE.md": {
+      "sha256": "dd3a58af6f0e2a7293749348039b33d341a42951e7fd9ad52885cca92c404676",
+      "lines": 112,
+      "words": 892
+    },
+    "HANDOFF.md": {
+      "sha256": "b7c1e89bdea0a913e2f31a4e32e25bf8909a039ab4e94aa8e2f4572aad2ba892",
+      "lines": 84,
+      "words": 590
+    },
+    "CURRENT_RESEARCH_PROGRAM.md": {
+      "sha256": "1ba5b48122549012750ae1d5cab9d99ca67172043b81f791d9374b0776676772",
+      "lines": 117,
+      "words": 1088
+    },
+    "CURRENT_SCIENTIFIC_PREMISES.md": {
+      "sha256": "f0aa84e96ba1014c83767b20621c210adcf9217ac0f58ab357a97f55338277cd",
+      "lines": 131,
+      "words": 1311
+    },
+    "AGENTS.md": {
+      "sha256": "c6b31ded9a2ca78e70348da8e2b1918172da4e4cd2f266863b7a58db4c8e19fb",
+      "lines": 225,
+      "words": 1947
+    },
+    "INDEX.md": {
+      "sha256": "41428ff26fc568707582d00cc675a5497ad3ed67d94cfba80adda3218cb93ca5",
+      "lines": 118,
+      "words": 568
+    },
+    "MEMORY.md": {
+      "sha256": "ac2e0507ab3e0dfbd6b865c034b6dec14f3e7367f36fcb422803f2f0521d422a",
+      "lines": 55,
+      "words": 448
+    },
+    "UDT_RESEARCH_ROADMAP.md": {
+      "sha256": "cc7a91e4add71a6c825facab8e58c065e9022a462d87aa3c8a4816af34db4584",
+      "lines": 403,
+      "words": 3756
+    }
+  },
+  "historical_full_input_completion_check": "ATTRIBUTED_TO_PARENT before prose edits; current nonprose hashes independently rechecked",
+  "original395_sha256": "6fc63338cf5562d72d0313e2376474ad9ac908841a64e82fc74e0bc93b8ae43a",
+  "original103_ti1_files": "MATCH_GIT_BLOBS_AND_SOURCE_MANIFEST",
+  "original46_status_sha256": "55e7c4508622f912730f9c068cc571c370b3977bc1110eb0a48a8218dbe024c2",
+  "protected_payloads": "NOT_READ_HASHED_MINED_WRITTEN_STAGED",
+  "backup_completeness": "UNVERIFIED",
+  "versions": {
+    "python": "3.10.12",
+    "sympy": "1.13.1",
+    "git": "2.34.1"
+  },
+  "branch": "grok",
+  "head": "ba934a9b542f818c9032ad37d57b8f7470fe9c9b",
+  "publication": "NOT_CHECKED; parent owns actual staging/commit/push",
+  "later_closeout_update": "Parent may record actual fidelity and publication outcomes without rewriting sealed review; this receipt authenticates only inspected closeout bytes",
+  "scratch_excluded": [
+    "review/pytest_initial/",
+    "review/pytest_repaired/"
+  ],
+  "sha256": {
+    "AGENTS.md": "c6b31ded9a2ca78e70348da8e2b1918172da4e4cd2f266863b7a58db4c8e19fb",
+    "CURRENT_RESEARCH_PROGRAM.md": "1ba5b48122549012750ae1d5cab9d99ca67172043b81f791d9374b0776676772",
+    "CURRENT_SCIENTIFIC_PREMISES.md": "f0aa84e96ba1014c83767b20621c210adcf9217ac0f58ab357a97f55338277cd",
+    "CURRENT_SCIENTIFIC_PREMISES.tsv": "2491607030f80e6f0557cc7ed7ee7487d3637e357e0da520f8432b67190b25db",
+    "HANDOFF.md": "b7c1e89bdea0a913e2f31a4e32e25bf8909a039ab4e94aa8e2f4572aad2ba892",
+    "INDEX.md": "41428ff26fc568707582d00cc675a5497ad3ed67d94cfba80adda3218cb93ca5",
+    "LIVE.md": "dd3a58af6f0e2a7293749348039b33d341a42951e7fd9ad52885cca92c404676",
+    "MEMORY.md": "ac2e0507ab3e0dfbd6b865c034b6dec14f3e7367f36fcb422803f2f0521d422a",
+    "UDT_RESEARCH_ROADMAP.md": "cc7a91e4add71a6c825facab8e58c065e9022a462d87aa3c8a4816af34db4584",
+    "tests/test_reviewed_backlog_banking.py": "238596668cd28f3bd4ef6af6422dc9061a16898e9bf99b0bc9cee009a1c810fc",
+    "tests/test_startup_surface.py": "870752eda133e9fae00eee5d2185746a27cdbab9019c61c407493bb98a092243",
+    "tests/test_ti1_banking.py": "dd34c2b47db241420b778469b98e86d1d71579da2c9c79e107bf1c16321450e8",
+    "ti1_banking_guard.py": "000ce89c55f038fd977d09bd64fb37e3b60f05e48feb4cbb8f3fe99da8ff9cac",
+    "udt_ti1_banking_2026-09-11/BANKED_CLAIM.json": "31f53492a1a9746c2337d5cdbd04df0c1e8ac1aed5d85050a7cb49ebce260ab6",
+    "udt_ti1_banking_2026-09-11/BANKED_ROW.tsv": "ef0298d22339dc18b26cce48ac816a60cd20e01129883a10217c694e0289729e",
+    "udt_ti1_banking_2026-09-11/BANKING_RECORD.md": "08216184fd508d84e6e6fd263a0499595ed1926dc9b550007a3f0328e970b89e",
+    "udt_ti1_banking_2026-09-11/CLOSEOUT.md": "8ea3557d439d45e8e5a40f7e78f8cd204281fce36a47893375979f4c562efda6",
+    "udt_ti1_banking_2026-09-11/LAUNCH.json": "dd2f85b38c17c520bb3b435cc1d13cc654ba907bb40e3fb8a3d92cd3518b717e",
+    "udt_ti1_banking_2026-09-11/POST_REPAIR_AUDIT_INPUTS.json": "49c29ae0c30c337f6b76bb3557d133933d1a1ed23ca55489a50c6788487e044c",
+    "udt_ti1_banking_2026-09-11/SOURCE_EVIDENCE_SHA256SUMS": "96bf840ce3dbba2d2cb59d76f300a3241f533c72b813f435ff59805cbb83ea63",
+    "udt_ti1_banking_2026-09-11/WORK_ORDER.md": "a9c0fdf8517dd92b2e5e8e3354a139c7e28b93150fb8618a9ffed883752485f6",
+    "udt_ti1_banking_2026-09-11/checks/final_navigation_and_pins.capture_provenance.json": "fcd79e1eefcaa15a552c295e2331611ba914ba2811e9a532a3d7ba4063e26f27",
+    "udt_ti1_banking_2026-09-11/checks/final_navigation_and_pins.json": "03086eabd2fbbc6ae845161cc4461afba215e6fc4261f3b0a311131cf87438e0",
+    "udt_ti1_banking_2026-09-11/checks/final_navigation_and_pins.stderr": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "udt_ti1_banking_2026-09-11/checks/final_navigation_and_pins.stdout": "04bc3c5043f9de172c2a3d9df92bda8e206a6db76a276c2617eb1caec57b598f",
+    "udt_ti1_banking_2026-09-11/checks/full396_post_repair.capture_provenance.json": "422af293cd240c74bb2420052a0cb0885da49fd0fa76b2cbdc53bd100c0c6a4e",
+    "udt_ti1_banking_2026-09-11/checks/full396_post_repair.json": "72d3b7d8f19c3c2e97293dbf6c8a940ce28cbbc51341924ce67982ab1bb363ab",
+    "udt_ti1_banking_2026-09-11/checks/full396_post_repair.stderr": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "udt_ti1_banking_2026-09-11/checks/full396_post_repair.stdout": "2c27884a1c3d2213ef7356b0996beab77b642f80455badb110013c832dba8b55",
+    "udt_ti1_banking_2026-09-11/review/.gitignore": "032f706a9e0dff2d1a183860f74e42f7bb98510c7123f12959ab15ca1131a218",
+    "udt_ti1_banking_2026-09-11/review/FINAL_FIDELITY.md": "78267db52e92952415531cd3a9c60ea1e57eaf646efdcc197995d2bb9ab0e927",
+    "udt_ti1_banking_2026-09-11/review/FINAL_NAVIGATION_DIFF.patch": "b9b99e8f806eacec6b7ecab471e1f42581805b0070ed9382d3b739ad0e38107c",
+    "udt_ti1_banking_2026-09-11/review/INITIAL_CHECK_FINAL_FIDELITY.py": "1ba8068ab4d4709d1e1462dc321fae06801033d0a31a46f19807660dfcccebd6",
+    "udt_ti1_banking_2026-09-11/review/INITIAL_INTEGRATION_DIFF.patch": "d61e894c2b397d6bea3eb4750e873fe4a99b775a9c94174022f307c386d1c20e",
+    "udt_ti1_banking_2026-09-11/review/INITIAL_INTEGRATION_PINS.json": "f37f690d1be6f827c0298cf7c68b22be877a8c26927a2ab783e622cc29bf5f28",
+    "udt_ti1_banking_2026-09-11/review/INITIAL_SCOPE_ASSESSMENT.md": "0327b2a92957cdeb85499abc1372a576ab0bee72542ca4db56a997836828a611",
+    "udt_ti1_banking_2026-09-11/review/INITIAL_TI1_GUARD.py": "b57a7d0d78fde0552ee9c535d0805aab79f39d7fb90279e1ba59ee859bfc24ed",
+    "udt_ti1_banking_2026-09-11/review/INITIAL_TI1_TESTS.py": "884fb10a60e21c6a42a1246166b580035ba3f8f315ce2013a8d5743998e3378b",
+    "udt_ti1_banking_2026-09-11/review/INTEGRATION_FINDING.md": "d97e9971fa72359e0549424e883a4c2f4ece7c61aa271a8e23fa155df88e67dc",
+    "udt_ti1_banking_2026-09-11/review/REVIEW.md": "db42763d2df7a8584b5095b05afe25f06425c5ff1be5cc6b622d5b68a09eb0e2",
+    "udt_ti1_banking_2026-09-11/review/REVIEW_HISTORY.md": "abacf89b8c27c5a81578ddc735978c751bfd1c270425ec99c6472b5a8ad1de14",
+    "udt_ti1_banking_2026-09-11/review/REVIEW_RECEIPT.json": "78f45b81e5271d15ea510e8d97b3458f625bf3a04cc8360cd4a14885c6cc77a8",
+    "udt_ti1_banking_2026-09-11/review/check_final_fidelity.py": "7fea5562486f7ebad84a5c75a6166d4ac75f5a97a456bec9f79e683055192e21",
+    "udt_ti1_banking_2026-09-11/review/check_original_correspondence.py": "57ffe634043800c9e259b7ccddd2f7ad9f5b295602472f6182f58c931b20f80f",
+    "udt_ti1_banking_2026-09-11/review/check_projection_boundary.py": "2c3a32c325e46cd2907f1eacab76ebc6f6d11e12fa8bee66ea3aa7776aa92aa8",
+    "udt_ti1_banking_2026-09-11/review/check_source_interfaces.py": "e8a357c303f55be70cba7bc67db6218894e2b8987b2c40f816f9109e279e7fb2",
+    "udt_ti1_banking_2026-09-11/review/final_fidelity_check.capture_provenance.json": "7cd4f12bb21c3c62257d10990c66bea7c33bb2d1dde7cdc69ca33492c19a395c",
+    "udt_ti1_banking_2026-09-11/review/final_fidelity_check.json": "e2a01cf80880f7dc753da69a630514b02e3275a2169b09a9b3302ab8d5b933da",
+    "udt_ti1_banking_2026-09-11/review/final_fidelity_check.stderr": "4227a8a515e7d9ddad528adbc677da63bd968a8a0ce0ecd55c3759b7d7186685",
+    "udt_ti1_banking_2026-09-11/review/final_fidelity_check.stdout": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "udt_ti1_banking_2026-09-11/review/final_fidelity_check_repaired.capture_provenance.json": "7cd4f12bb21c3c62257d10990c66bea7c33bb2d1dde7cdc69ca33492c19a395c",
+    "udt_ti1_banking_2026-09-11/review/final_fidelity_check_repaired.json": "454abbc848723191d881d7c1b378d851abc0f436f598a6ded08b615b23b8f05a",
+    "udt_ti1_banking_2026-09-11/review/final_fidelity_check_repaired.stderr": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "udt_ti1_banking_2026-09-11/review/final_fidelity_check_repaired.stdout": "46b84409be7cd0e22046e56e625e86d7a90c7f8e1eb2de5d89422f7c6ec5d5db",
+    "udt_ti1_banking_2026-09-11/review/integration_tests_initial.capture_provenance.json": "24f4fb727cd007a99b527f566120ef10daae14819cc713117f50e0fa74bda1d7",
+    "udt_ti1_banking_2026-09-11/review/integration_tests_initial.json": "cfc4d9a88a83da417734881a5f76b5ab865b4a2c0643db822e7cf26d5a66d350",
+    "udt_ti1_banking_2026-09-11/review/integration_tests_initial.stderr": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "udt_ti1_banking_2026-09-11/review/integration_tests_initial.stdout": "2a74103954e2a36732eb3c1ce09e9d4a71e279b32190d9277570539ec1007949",
+    "udt_ti1_banking_2026-09-11/review/integration_tests_repaired.capture_provenance.json": "48abb7107f02c5bc2c11c41bf5954a6506ff8ae27bd388a8011a8ccb2e723617",
+    "udt_ti1_banking_2026-09-11/review/integration_tests_repaired.json": "754ddb6e763d944f717c200846445c4c04e429cba65cfef2cfc310eada44ceb4",
+    "udt_ti1_banking_2026-09-11/review/integration_tests_repaired.stderr": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "udt_ti1_banking_2026-09-11/review/integration_tests_repaired.stdout": "588f5af2d680c0bff3bb80ed50be54d039a5a731874149cf34e92413c80a1b6e",
+    "udt_ti1_banking_2026-09-11/review/original_correspondence.capture_provenance.json": "f09837ead4c5a5828ba71743e5aea2264f21e72574e2869d8c69530fc8f62c09",
+    "udt_ti1_banking_2026-09-11/review/original_correspondence.json": "699ff20bbb45dde1ed05687eb5f19626759ef91eac47b752ee5ba72edec65e0d",
+    "udt_ti1_banking_2026-09-11/review/original_correspondence.stderr": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "udt_ti1_banking_2026-09-11/review/original_correspondence.stdout": "41ed7cc2b69fd094e3b3c5fc8559f287ba326128015ba442cd86ca972ec15413",
+    "udt_ti1_banking_2026-09-11/review/original_correspondence_final.capture_provenance.json": "7ad7e0215c1081d7c15b25b5a422d33fb3ee0cb65cbd07fb868fb65e5c239ec9",
+    "udt_ti1_banking_2026-09-11/review/original_correspondence_final.json": "7a7ea42c4ee78742b00beffbda0bd25b4f2a9cc503a6b46489ab67f7795ae4ad",
+    "udt_ti1_banking_2026-09-11/review/original_correspondence_final.stderr": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "udt_ti1_banking_2026-09-11/review/original_correspondence_final.stdout": "03bdd5abe65d88d5b4ae0aef99785ceed1d51f09d6920f579b9da7af8826420b",
+    "udt_ti1_banking_2026-09-11/review/original_correspondence_repaired.capture_provenance.json": "7ad7e0215c1081d7c15b25b5a422d33fb3ee0cb65cbd07fb868fb65e5c239ec9",
+    "udt_ti1_banking_2026-09-11/review/original_correspondence_repaired.json": "0536b13ccfa12c01c3ab6ce484f0e0d3269afcb3e16f373fc2d9abc1e5dde1b6",
+    "udt_ti1_banking_2026-09-11/review/original_correspondence_repaired.stderr": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "udt_ti1_banking_2026-09-11/review/original_correspondence_repaired.stdout": "333fb53924faa920f96eca8092a590a37eced29f9663d4625c66da6e16041b00",
+    "udt_ti1_banking_2026-09-11/review/projection_boundary_initial.capture_provenance.json": "a17135749ebb02d26f378a4af2b759c5148aca172453844ef388d00e49b0305e",
+    "udt_ti1_banking_2026-09-11/review/projection_boundary_initial.json": "0ad303841fa55f3d6910b5bbef707338fa41107ec1d7e020f91e732b71901cf3",
+    "udt_ti1_banking_2026-09-11/review/projection_boundary_initial.stderr": "819c3d79e3e6fdf353f19aa928b35f5fd51d3e98e53e0c00f110a9089a2d0349",
+    "udt_ti1_banking_2026-09-11/review/projection_boundary_initial.stdout": "cce9d791b7866f4870794776f67318b7af6dc6c8c38dbe19ff60cf131a171dc4",
+    "udt_ti1_banking_2026-09-11/review/projection_boundary_repaired.capture_provenance.json": "a17135749ebb02d26f378a4af2b759c5148aca172453844ef388d00e49b0305e",
+    "udt_ti1_banking_2026-09-11/review/projection_boundary_repaired.json": "6e300ba7da4c8ede6faa715370b3798b4130174c6b81f02767cd1056bb56ba67",
+    "udt_ti1_banking_2026-09-11/review/projection_boundary_repaired.stderr": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "udt_ti1_banking_2026-09-11/review/projection_boundary_repaired.stdout": "7c12e42d03fa8286bf3ff8b4929e521fe85e8747cef5940f58f325a2d8328fe1",
+    "udt_ti1_banking_2026-09-11/review/replay_metric_jet.capture_provenance.json": "daaefd80d9548d13a5bc473e3801ca27452b7154243413ed23fc00fd66c207bf",
+    "udt_ti1_banking_2026-09-11/review/replay_metric_jet.json": "d1b79ce8a647c4d80baf3fd8965ddf85bc4e206eba259094d5a5b9cb662241c5",
+    "udt_ti1_banking_2026-09-11/review/replay_metric_jet.stderr": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "udt_ti1_banking_2026-09-11/review/replay_metric_jet.stdout": "0f54f62126707bef3fd61f6f7604e67abecdbd8d1293ca96a0307430f0699bfe",
+    "udt_ti1_banking_2026-09-11/review/replay_pair_records.capture_provenance.json": "aba895fb494ad6760f67e86409242dc4d0695b6c0dd7858b96ca2a6dfca673df",
+    "udt_ti1_banking_2026-09-11/review/replay_pair_records.json": "e0010833977a8e952f13ef04eae962d44285d2c13a05479774119ef1b40497d0",
+    "udt_ti1_banking_2026-09-11/review/replay_pair_records.stderr": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "udt_ti1_banking_2026-09-11/review/replay_pair_records.stdout": "13bd33d1d04b578dca0855e6cf1c3ad81c2a71174f57387befd4139d3febc716",
+    "udt_ti1_banking_2026-09-11/review/source_interfaces.capture_provenance.json": "933e9dc20e7bc49167ec32a101725f8c819a078ce2ade78e9ab89f00ecb34e2b",
+    "udt_ti1_banking_2026-09-11/review/source_interfaces.json": "4e7e60bc17063916923010b97672afae12d09366630b7fa3c49ad18a3a01ebb7",
+    "udt_ti1_banking_2026-09-11/review/source_interfaces.stderr": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "udt_ti1_banking_2026-09-11/review/source_interfaces.stdout": "d769762800f72d01d6bec483ea1aa6d6d8a3e964ff2ff67157a8f7b7f2b2ba43",
+    "udt_ti1_banking_2026-09-11/review/source_interfaces_repaired.capture_provenance.json": "b26737d1eda53466636fe01f0723022f0b1f0da08cea8b3a77c8c5983c0a7ca4",
+    "udt_ti1_banking_2026-09-11/review/source_interfaces_repaired.json": "f84840d0691e5c4b602bd181bb2c9108989d2293d26a0ff859fbcf92bab32a4e",
+    "udt_ti1_banking_2026-09-11/review/source_interfaces_repaired.stderr": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "udt_ti1_banking_2026-09-11/review/source_interfaces_repaired.stdout": "1484968fbb8eedc48ac323494fab2fb0ef79f03d8bbada25335bf70e036e788c",
+    "verify_current_scientific_premises.py": "eb9505f6c2eacf78579d784de4d0b5942ce8cfe99dbd886ce4d989077eafdb12"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "baseline": "ba934a9b542f818c9032ad37d57b8f7470fe9c9b",
+  "initial_diff_sha256": "d61e894c2b397d6bea3eb4750e873fe4a99b775a9c94174022f307c386d1c20e",
+  "sha256": {
+    "verify_current_scientific_premises.py": "2c4a6c46ba03e5676336cd20c249f3b9f14d9f86a0b0386e4db2298d51da129b",
+    "tests/test_reviewed_backlog_banking.py": "238596668cd28f3bd4ef6af6422dc9061a16898e9bf99b0bc9cee009a1c810fc",
+    "tests/test_startup_surface.py": "870752eda133e9fae00eee5d2185746a27cdbab9019c61c407493bb98a092243",
+    "ti1_banking_guard.py": "b57a7d0d78fde0552ee9c535d0805aab79f39d7fb90279e1ba59ee859bfc24ed",
+    "tests/test_ti1_banking.py": "884fb10a60e21c6a42a1246166b580035ba3f8f315ce2013a8d5743998e3378b"
+  }
+}

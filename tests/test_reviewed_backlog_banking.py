@@ -45,10 +45,12 @@ def test_original_registry_bytes_remain_protected(tmp_path,pid):
 def test_added_membership_and_order(tmp_path,mode):
     root=copy_guard(tmp_path);p=root/'CURRENT_SCIENTIFIC_PREMISES.tsv';lines=p.read_bytes().splitlines(keepends=True)
     n=len(guard.REVIEWED_BACKLOG_BANKING_IDS)
-    if mode=='missing':lines.pop(1)
-    elif mode=='duplicate':lines.insert(1,lines[1])
-    elif mode=='reverse':lines[1:1+n]=reversed(lines[1:1+n])
-    else:lines=lines[:1]+lines[1+n:]+lines[1:1+n]
+    # Target the historical G383 block explicitly after authenticated G413.
+    start=next(i for i,line in enumerate(lines) if line.startswith(b'G383\t'))
+    if mode=='missing':lines.pop(start)
+    elif mode=='duplicate':lines.insert(start,lines[start])
+    elif mode=='reverse':lines[start:start+n]=reversed(lines[start:start+n])
+    else:lines=lines[:start]+lines[start+n:]+lines[start:start+n]
     p.write_bytes(b''.join(lines))
     with pytest.raises(SystemExit,match='backlog (exact rows/scope/order changed|rows must precede original rows)'):
         guard.validate_reviewed_backlog_banking(root,authenticate_sources=False)

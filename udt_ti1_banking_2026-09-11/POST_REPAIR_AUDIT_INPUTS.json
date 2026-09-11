@@ -1,0 +1,22 @@
+{
+  "utc": "2026-09-11T13:30:27.469893+00:00",
+  "sha256": {
+    "ti1_banking_guard.py": "000ce89c55f038fd977d09bd64fb37e3b60f05e48feb4cbb8f3fe99da8ff9cac",
+    "verify_current_scientific_premises.py": "eb9505f6c2eacf78579d784de4d0b5942ce8cfe99dbd886ce4d989077eafdb12",
+    "tests/test_ti1_banking.py": "dd34c2b47db241420b778469b98e86d1d71579da2c9c79e107bf1c16321450e8",
+    "tests/test_startup_surface.py": "870752eda133e9fae00eee5d2185746a27cdbab9019c61c407493bb98a092243",
+    "tests/test_reviewed_backlog_banking.py": "238596668cd28f3bd4ef6af6422dc9061a16898e9bf99b0bc9cee009a1c810fc",
+    "CURRENT_SCIENTIFIC_PREMISES.tsv": "2491607030f80e6f0557cc7ed7ee7487d3637e357e0da520f8432b67190b25db",
+    "AGENTS.md": "c6b31ded9a2ca78e70348da8e2b1918172da4e4cd2f266863b7a58db4c8e19fb",
+    "LIVE.md": "5f09aed21528a5f63eeaf96865aa76da27c9e5114dc1c79a84e4ae55f92e6317",
+    "HANDOFF.md": "390191a3d536090a7e3b668ad6a6d6e4cad3b4d383a25c131cea29f326a35659",
+    "INDEX.md": "829ba2800f9c1c25847924bb1562aba616f3bf6fab873bd3689f53ded3d4b2a8",
+    "MEMORY.md": "ba69a6ee52fb3a5556dec8bd09342f09b4bf23449deccff2a1b77df7172c3188",
+    "CURRENT_SCIENTIFIC_PREMISES.md": "f01e2524615cdd74a668569e68769f06695c1bfedc7428c227d85c8583b3f470",
+    "CURRENT_RESEARCH_PROGRAM.md": "a0f39d8b770c605a1c67217fc4ca3022c4d4c60f2edf0bb322ee74f728598c09",
+    "udt_ti1_banking_2026-09-11/review/REVIEW.md": "db42763d2df7a8584b5095b05afe25f06425c5ff1be5cc6b622d5b68a09eb0e2",
+    "udt_ti1_banking_2026-09-11/review/REVIEW_RECEIPT.json": "78f45b81e5271d15ea510e8d97b3458f625bf3a04cc8360cd4a14885c6cc77a8"
+  },
+  "review": "sealed VERIFIED-WITH-CAVEATS; final full396 pending",
+  "B1": "resolved by same-snapshot authentication; parent537tests and reviewer12poison probes/537tests passed"
+}

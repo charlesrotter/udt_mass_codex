@@ -1,0 +1,304 @@
+{
+  "context": "/root/ti1_banking_review",
+  "runtime_model_version": "UNATTESTED",
+  "override": "NONE",
+  "first_observed_utc": "2026-09-11T13:04:34+00:00",
+  "sealed_utc": "2026-09-11T13:29:43.425774+00:00",
+  "elapsed_seconds": 1509.425774,
+  "branch": "grok",
+  "head": "ba934a9b542f818c9032ad37d57b8f7470fe9c9b",
+  "disposition": "VERIFIED_WITH_CAVEATS_EXACT_SCOPE_TRANSCRIPTION_AND_REPAIRED_GUARDS",
+  "scientific_repairs_required": 0,
+  "integration_defects_found": 1,
+  "integration_defects_repaired": 1,
+  "unresolved_scientific_objections": [],
+  "pending_gates": [
+    "post-repair full396 with finalized review pins and navigation",
+    "proportional final document/pin fidelity",
+    "actual staging and publication outcomes"
+  ],
+  "exposure": "fresh separate banking context, full original TI1 argument/reviews and source interfaces read before actual integration draft; code/science replays source-exposed",
+  "independence": "new reviewer context and distinct read-only poison/preservation probes; unchanged science programs are SAME_CODE_REGRESSION; different-model/human/formal unestablished",
+  "startup": "Parent LAUNCH attributed; branch/head/status personally checked; current prebank395 actual receipt/streams personally inspected before source row query",
+  "versions": {
+    "python": "3.10.12",
+    "sympy": "1.13.1",
+    "git": "2.34.1"
+  },
+  "runs": {
+    "replay_metric_jet": {
+      "command": [
+        "python3",
+        "udt_two_shape_nonlinear_interaction_2026-09-11/review/independent_metric_jet.py"
+      ],
+      "cwd": "/home/udt-admin/udt_mass_codex",
+      "started_utc": "2026-09-11T13:07:09.703722+00:00",
+      "duration_seconds": 1.3960706560174003,
+      "returncode": 0,
+      "timeout": false,
+      "address_space_bytes": 2147483648,
+      "cpu_seconds": 180,
+      "maxrss_kib": 49192
+    },
+    "replay_pair_records": {
+      "command": [
+        "python3",
+        "udt_two_shape_nonlinear_interaction_2026-09-11/check_pair_records.py"
+      ],
+      "cwd": "/home/udt-admin/udt_mass_codex",
+      "started_utc": "2026-09-11T13:07:18.254342+00:00",
+      "duration_seconds": 5.970268803997897,
+      "returncode": 0,
+      "timeout": false,
+      "address_space_bytes": 2147483648,
+      "cpu_seconds": 180,
+      "maxrss_kib": 57272
+    },
+    "original_correspondence": {
+      "command": [
+        "python3",
+        "udt_ti1_banking_2026-09-11/review/check_original_correspondence.py"
+      ],
+      "cwd": "/home/udt-admin/udt_mass_codex",
+      "started_utc": "2026-09-11T13:08:15.441234+00:00",
+      "duration_seconds": 0.075845058017876,
+      "returncode": 0,
+      "timeout": false,
+      "address_space_bytes": 2147483648,
+      "cpu_seconds": 60,
+      "maxrss_kib": 15936
+    },
+    "source_interfaces": {
+      "command": [
+        "python3",
+        "udt_ti1_banking_2026-09-11/review/check_source_interfaces.py"
+      ],
+      "cwd": "/home/udt-admin/udt_mass_codex",
+      "started_utc": "2026-09-11T13:13:00.505711+00:00",
+      "duration_seconds": 0.03217684995615855,
+      "returncode": 0,
+      "timeout": false,
+      "address_space_bytes": 2147483648,
+      "cpu_seconds": 60,
+      "maxrss_kib": 21888
+    },
+    "projection_boundary_initial": {
+      "command": [
+        "python3",
+        "-B",
+        "udt_ti1_banking_2026-09-11/review/check_projection_boundary.py"
+      ],
+      "cwd": "/home/udt-admin/udt_mass_codex",
+      "started_utc": "2026-09-11T13:18:38.706560+00:00",
+      "duration_seconds": 0.10016009898390621,
+      "returncode": 1,
+      "timeout": false,
+      "address_space_bytes": 2147483648,
+      "cpu_seconds": 60,
+      "maxrss_kib": 28376
+    },
+    "integration_tests_initial": {
+      "command": [
+        "python3",
+        "-B",
+        "-m",
+        "pytest",
+        "--noconftest",
+        "-p",
+        "no:cacheprovider",
+        "--basetemp=/home/udt-admin/udt_mass_codex/udt_ti1_banking_2026-09-11/review/pytest_initial",
+        "-q",
+        "tests/test_ti1_banking.py",
+        "tests/test_reviewed_backlog_banking.py",
+        "tests/test_startup_surface.py",
+        "-k",
+        "not full_foundational_premise_verifier"
+      ],
+      "cwd": "/home/udt-admin/udt_mass_codex",
+      "started_utc": "2026-09-11T13:19:00.060424+00:00",
+      "duration_seconds": 11.58235700300429,
+      "returncode": 0,
+      "timeout": false,
+      "address_space_bytes": 2147483648,
+      "cpu_seconds": 180,
+      "maxrss_kib": 53628
+    },
+    "projection_boundary_repaired": {
+      "command": [
+        "python3",
+        "-B",
+        "udt_ti1_banking_2026-09-11/review/check_projection_boundary.py"
+      ],
+      "cwd": "/home/udt-admin/udt_mass_codex",
+      "started_utc": "2026-09-11T13:26:26.647739+00:00",
+      "duration_seconds": 0.04800549603533,
+      "returncode": 0,
+      "timeout": false,
+      "address_space_bytes": 2147483648,
+      "cpu_seconds": 60,
+      "maxrss_kib": 28224
+    },
+    "integration_tests_repaired": {
+      "command": [
+        "python3",
+        "-B",
+        "-m",
+        "pytest",
+        "--noconftest",
+        "-p",
+        "no:cacheprovider",
+        "--basetemp=/home/udt-admin/udt_mass_codex/udt_ti1_banking_2026-09-11/review/pytest_repaired",
+        "-q",
+        "tests/test_ti1_banking.py",
+        "tests/test_reviewed_backlog_banking.py",
+        "tests/test_startup_surface.py",
+        "-k",
+        "not full_foundational_premise_verifier"
+      ],
+      "cwd": "/home/udt-admin/udt_mass_codex",
+      "started_utc": "2026-09-11T13:26:35.019019+00:00",
+      "duration_seconds": 11.889758693985641,
+      "returncode": 0,
+      "timeout": false,
+      "address_space_bytes": 2147483648,
+      "cpu_seconds": 180,
+      "maxrss_kib": 53476
+    },
+    "source_interfaces_repaired": {
+      "command": [
+        "python3",
+        "-B",
+        "udt_ti1_banking_2026-09-11/review/check_source_interfaces.py"
+      ],
+      "cwd": "/home/udt-admin/udt_mass_codex",
+      "started_utc": "2026-09-11T13:27:00.938888+00:00",
+      "duration_seconds": 0.03205461398465559,
+      "returncode": 0,
+      "timeout": false,
+      "address_space_bytes": 2147483648,
+      "cpu_seconds": 60,
+      "maxrss_kib": 21888
+    },
+    "original_correspondence_repaired": {
+      "command": [
+        "python3",
+        "-B",
+        "udt_ti1_banking_2026-09-11/review/check_original_correspondence.py"
+      ],
+      "cwd": "/home/udt-admin/udt_mass_codex",
+      "started_utc": "2026-09-11T13:27:01.052082+00:00",
+      "duration_seconds": 0.07821127702482045,
+      "returncode": 0,
+      "timeout": false,
+      "address_space_bytes": 2147483648,
+      "cpu_seconds": 60,
+      "maxrss_kib": 15936
+    }
+  },
+  "parent_audits_inspected": {
+    "prebank395": {
+      "command": [
+        "python3",
+        "verify_current_scientific_premises.py"
+      ],
+      "cwd": "/home/udt-admin/udt_mass_codex",
+      "started_utc": "2026-09-11T13:03:48.430572+00:00",
+      "duration_seconds": 402.99771384499036,
+      "returncode": 0,
+      "timeout": false,
+      "address_space_bytes": 2147483648,
+      "cpu_seconds": 900,
+      "maxrss_kib": 120384
+    },
+    "full396": {
+      "command": [
+        "python3",
+        "verify_current_scientific_premises.py"
+      ],
+      "cwd": "/home/udt-admin/udt_mass_codex",
+      "started_utc": "2026-09-11T13:18:16.862621+00:00",
+      "duration_seconds": 405.378254813957,
+      "returncode": 0,
+      "timeout": false,
+      "address_space_bytes": 2147483648,
+      "cpu_seconds": 900,
+      "maxrss_kib": 120384
+    }
+  },
+  "original395_sha256": "6fc63338cf5562d72d0313e2376474ad9ac908841a64e82fc74e0bc93b8ae43a",
+  "original103_ti1_files": "MATCH_GIT_BLOBS_AND_SOURCE_MANIFEST",
+  "original46_status_sha256": "55e7c4508622f912730f9c068cc571c370b3977bc1110eb0a48a8218dbe024c2",
+  "protected_payloads": "NOT_READ_HASHED_MINED_WRITTEN_STAGED",
+  "backup_completeness": "UNVERIFIED",
+  "scratch_excluded": [
+    "review/pytest_initial/",
+    "review/pytest_repaired/"
+  ],
+  "later_pins": "This seals tested code before parent adds hashes of this report/receipt to TI1_PINS; future hash-only additions need final fidelity, not rewriting this receipt",
+  "sha256": {
+    "CURRENT_SCIENTIFIC_PREMISES.tsv": "2491607030f80e6f0557cc7ed7ee7487d3637e357e0da520f8432b67190b25db",
+    "verify_current_scientific_premises.py": "eb9505f6c2eacf78579d784de4d0b5942ce8cfe99dbd886ce4d989077eafdb12",
+    "ti1_banking_guard.py": "b57a7d0d78fde0552ee9c535d0805aab79f39d7fb90279e1ba59ee859bfc24ed",
+    "tests/test_ti1_banking.py": "dd34c2b47db241420b778469b98e86d1d71579da2c9c79e107bf1c16321450e8",
+    "tests/test_reviewed_backlog_banking.py": "238596668cd28f3bd4ef6af6422dc9061a16898e9bf99b0bc9cee009a1c810fc",
+    "tests/test_startup_surface.py": "870752eda133e9fae00eee5d2185746a27cdbab9019c61c407493bb98a092243",
+    "udt_ti1_banking_2026-09-11/BANKED_ROW.tsv": "ef0298d22339dc18b26cce48ac816a60cd20e01129883a10217c694e0289729e",
+    "udt_ti1_banking_2026-09-11/LAUNCH.json": "dd2f85b38c17c520bb3b435cc1d13cc654ba907bb40e3fb8a3d92cd3518b717e",
+    "udt_ti1_banking_2026-09-11/SOURCE_EVIDENCE_SHA256SUMS": "96bf840ce3dbba2d2cb59d76f300a3241f533c72b813f435ff59805cbb83ea63",
+    "udt_ti1_banking_2026-09-11/BANKING_RECORD.md": "08216184fd508d84e6e6fd263a0499595ed1926dc9b550007a3f0328e970b89e",
+    "udt_ti1_banking_2026-09-11/WORK_ORDER.md": "a9c0fdf8517dd92b2e5e8e3354a139c7e28b93150fb8618a9ffed883752485f6",
+    "udt_ti1_banking_2026-09-11/BANKED_CLAIM.json": "31f53492a1a9746c2337d5cdbd04df0c1e8ac1aed5d85050a7cb49ebce260ab6",
+    "udt_ti1_banking_2026-09-11/review/source_interfaces_repaired.json": "f84840d0691e5c4b602bd181bb2c9108989d2293d26a0ff859fbcf92bab32a4e",
+    "udt_ti1_banking_2026-09-11/review/REVIEW.md": "db42763d2df7a8584b5095b05afe25f06425c5ff1be5cc6b622d5b68a09eb0e2",
+    "udt_ti1_banking_2026-09-11/review/integration_tests_repaired.json": "754ddb6e763d944f717c200846445c4c04e429cba65cfef2cfc310eada44ceb4",
+    "udt_ti1_banking_2026-09-11/review/projection_boundary_repaired.stderr": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "udt_ti1_banking_2026-09-11/review/INITIAL_TI1_TESTS.py": "884fb10a60e21c6a42a1246166b580035ba3f8f315ce2013a8d5743998e3378b",
+    "udt_ti1_banking_2026-09-11/review/original_correspondence_repaired.stdout": "333fb53924faa920f96eca8092a590a37eced29f9663d4625c66da6e16041b00",
+    "udt_ti1_banking_2026-09-11/review/projection_boundary_initial.stdout": "cce9d791b7866f4870794776f67318b7af6dc6c8c38dbe19ff60cf131a171dc4",
+    "udt_ti1_banking_2026-09-11/review/original_correspondence_repaired.json": "0536b13ccfa12c01c3ab6ce484f0e0d3269afcb3e16f373fc2d9abc1e5dde1b6",
+    "udt_ti1_banking_2026-09-11/review/integration_tests_repaired.stderr": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "udt_ti1_banking_2026-09-11/review/replay_metric_jet.stdout": "0f54f62126707bef3fd61f6f7604e67abecdbd8d1293ca96a0307430f0699bfe",
+    "udt_ti1_banking_2026-09-11/review/integration_tests_repaired.capture_provenance.json": "48abb7107f02c5bc2c11c41bf5954a6506ff8ae27bd388a8011a8ccb2e723617",
+    "udt_ti1_banking_2026-09-11/review/original_correspondence.capture_provenance.json": "f09837ead4c5a5828ba71743e5aea2264f21e72574e2869d8c69530fc8f62c09",
+    "udt_ti1_banking_2026-09-11/review/check_projection_boundary.py": "2c3a32c325e46cd2907f1eacab76ebc6f6d11e12fa8bee66ea3aa7776aa92aa8",
+    "udt_ti1_banking_2026-09-11/review/replay_pair_records.stdout": "13bd33d1d04b578dca0855e6cf1c3ad81c2a71174f57387befd4139d3febc716",
+    "udt_ti1_banking_2026-09-11/review/integration_tests_initial.json": "cfc4d9a88a83da417734881a5f76b5ab865b4a2c0643db822e7cf26d5a66d350",
+    "udt_ti1_banking_2026-09-11/review/projection_boundary_initial.stderr": "819c3d79e3e6fdf353f19aa928b35f5fd51d3e98e53e0c00f110a9089a2d0349",
+    "udt_ti1_banking_2026-09-11/review/original_correspondence.stdout": "41ed7cc2b69fd094e3b3c5fc8559f287ba326128015ba442cd86ca972ec15413",
+    "udt_ti1_banking_2026-09-11/review/source_interfaces.stdout": "d769762800f72d01d6bec483ea1aa6d6d8a3e964ff2ff67157a8f7b7f2b2ba43",
+    "udt_ti1_banking_2026-09-11/review/projection_boundary_repaired.json": "6e300ba7da4c8ede6faa715370b3798b4130174c6b81f02767cd1056bb56ba67",
+    "udt_ti1_banking_2026-09-11/review/INITIAL_TI1_GUARD.py": "b57a7d0d78fde0552ee9c535d0805aab79f39d7fb90279e1ba59ee859bfc24ed",
+    "udt_ti1_banking_2026-09-11/review/source_interfaces_repaired.stderr": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "udt_ti1_banking_2026-09-11/review/projection_boundary_initial.capture_provenance.json": "a17135749ebb02d26f378a4af2b759c5148aca172453844ef388d00e49b0305e",
+    "udt_ti1_banking_2026-09-11/review/source_interfaces_repaired.capture_provenance.json": "b26737d1eda53466636fe01f0723022f0b1f0da08cea8b3a77c8c5983c0a7ca4",
+    "udt_ti1_banking_2026-09-11/review/INITIAL_INTEGRATION_DIFF.patch": "d61e894c2b397d6bea3eb4750e873fe4a99b775a9c94174022f307c386d1c20e",
+    "udt_ti1_banking_2026-09-11/review/integration_tests_initial.stdout": "2a74103954e2a36732eb3c1ce09e9d4a71e279b32190d9277570539ec1007949",
+    "udt_ti1_banking_2026-09-11/review/original_correspondence_repaired.stderr": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "udt_ti1_banking_2026-09-11/review/source_interfaces.capture_provenance.json": "933e9dc20e7bc49167ec32a101725f8c819a078ce2ade78e9ab89f00ecb34e2b",
+    "udt_ti1_banking_2026-09-11/review/projection_boundary_repaired.stdout": "7c12e42d03fa8286bf3ff8b4929e521fe85e8747cef5940f58f325a2d8328fe1",
+    "udt_ti1_banking_2026-09-11/review/INTEGRATION_FINDING.md": "d97e9971fa72359e0549424e883a4c2f4ece7c61aa271a8e23fa155df88e67dc",
+    "udt_ti1_banking_2026-09-11/review/integration_tests_initial.capture_provenance.json": "24f4fb727cd007a99b527f566120ef10daae14819cc713117f50e0fa74bda1d7",
+    "udt_ti1_banking_2026-09-11/review/INITIAL_INTEGRATION_PINS.json": "f37f690d1be6f827c0298cf7c68b22be877a8c26927a2ab783e622cc29bf5f28",
+    "udt_ti1_banking_2026-09-11/review/replay_metric_jet.json": "d1b79ce8a647c4d80baf3fd8965ddf85bc4e206eba259094d5a5b9cb662241c5",
+    "udt_ti1_banking_2026-09-11/review/replay_pair_records.stderr": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "udt_ti1_banking_2026-09-11/review/integration_tests_repaired.stdout": "588f5af2d680c0bff3bb80ed50be54d039a5a731874149cf34e92413c80a1b6e",
+    "udt_ti1_banking_2026-09-11/review/source_interfaces.json": "4e7e60bc17063916923010b97672afae12d09366630b7fa3c49ad18a3a01ebb7",
+    "udt_ti1_banking_2026-09-11/review/source_interfaces.stderr": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "udt_ti1_banking_2026-09-11/review/projection_boundary_repaired.capture_provenance.json": "a17135749ebb02d26f378a4af2b759c5148aca172453844ef388d00e49b0305e",
+    "udt_ti1_banking_2026-09-11/review/INITIAL_SCOPE_ASSESSMENT.md": "0327b2a92957cdeb85499abc1372a576ab0bee72542ca4db56a997836828a611",
+    "udt_ti1_banking_2026-09-11/review/original_correspondence_repaired.capture_provenance.json": "7ad7e0215c1081d7c15b25b5a422d33fb3ee0cb65cbd07fb868fb65e5c239ec9",
+    "udt_ti1_banking_2026-09-11/review/source_interfaces_repaired.stdout": "1484968fbb8eedc48ac323494fab2fb0ef79f03d8bbada25335bf70e036e788c",
+    "udt_ti1_banking_2026-09-11/review/replay_metric_jet.capture_provenance.json": "daaefd80d9548d13a5bc473e3801ca27452b7154243413ed23fc00fd66c207bf",
+    "udt_ti1_banking_2026-09-11/review/replay_metric_jet.stderr": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "udt_ti1_banking_2026-09-11/review/integration_tests_initial.stderr": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "udt_ti1_banking_2026-09-11/review/.gitignore": "032f706a9e0dff2d1a183860f74e42f7bb98510c7123f12959ab15ca1131a218",
+    "udt_ti1_banking_2026-09-11/review/REVIEW_HISTORY.md": "abacf89b8c27c5a81578ddc735978c751bfd1c270425ec99c6472b5a8ad1de14",
+    "udt_ti1_banking_2026-09-11/review/replay_pair_records.json": "e0010833977a8e952f13ef04eae962d44285d2c13a05479774119ef1b40497d0",
+    "udt_ti1_banking_2026-09-11/review/check_original_correspondence.py": "57ffe634043800c9e259b7ccddd2f7ad9f5b295602472f6182f58c931b20f80f",
+    "udt_ti1_banking_2026-09-11/review/replay_pair_records.capture_provenance.json": "aba895fb494ad6760f67e86409242dc4d0695b6c0dd7858b96ca2a6dfca673df",
+    "udt_ti1_banking_2026-09-11/review/projection_boundary_initial.json": "0ad303841fa55f3d6910b5bbef707338fa41107ec1d7e020f91e732b71901cf3",
+    "udt_ti1_banking_2026-09-11/review/original_correspondence.stderr": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "udt_ti1_banking_2026-09-11/review/check_source_interfaces.py": "e8a357c303f55be70cba7bc67db6218894e2b8987b2c40f816f9109e279e7fb2",
+    "udt_ti1_banking_2026-09-11/review/original_correspondence.json": "699ff20bbb45dde1ed05687eb5f19626759ef91eac47b752ee5ba72edec65e0d"
+  }
+}

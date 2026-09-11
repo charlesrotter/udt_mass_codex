@@ -1,0 +1,71 @@
+{
+  "status": "FAIL",
+  "question": "Every historical adapter authenticates exact G413 before excluding it",
+  "verifier_sha256": "2c4a6c46ba03e5676336cd20c249f3b9f14d9f86a0b0386e4db2298d51da129b",
+  "module_sha256": "b57a7d0d78fde0552ee9c535d0805aab79f39d7fb90279e1ba59ee859bfc24ed",
+  "mutation": "G413 NOT_PHYSICAL_ADOPTION -> PHYSICAL_LAW_ADOPTED in same raw/text view",
+  "results": [
+    {
+      "guard": "validate_conditional_banking",
+      "rejected": false,
+      "reason": "CORRUPT_G413_WAS_SILENTLY_EXCLUDED"
+    },
+    {
+      "guard": "validate_shared_constraint_banking",
+      "rejected": false,
+      "reason": "CORRUPT_G413_WAS_SILENTLY_EXCLUDED"
+    },
+    {
+      "guard": "validate_persistence_banking",
+      "rejected": false,
+      "reason": "CORRUPT_G413_WAS_SILENTLY_EXCLUDED"
+    },
+    {
+      "guard": "validate_restrictiveness_banking",
+      "rejected": false,
+      "reason": "CORRUPT_G413_WAS_SILENTLY_EXCLUDED"
+    },
+    {
+      "guard": "validate_source_metric_banking",
+      "rejected": false,
+      "reason": "CORRUPT_G413_WAS_SILENTLY_EXCLUDED"
+    },
+    {
+      "guard": "validate_reconstruction_banking",
+      "rejected": false,
+      "reason": "CORRUPT_G413_WAS_SILENTLY_EXCLUDED"
+    },
+    {
+      "guard": "validate_coupled_banking",
+      "rejected": false,
+      "reason": "CORRUPT_G413_WAS_SILENTLY_EXCLUDED"
+    },
+    {
+      "guard": "validate_vacuum_scale_banking",
+      "rejected": false,
+      "reason": "CORRUPT_G413_WAS_SILENTLY_EXCLUDED"
+    },
+    {
+      "guard": "validate_berger_banking",
+      "rejected": false,
+      "reason": "CORRUPT_G413_WAS_SILENTLY_EXCLUDED"
+    },
+    {
+      "guard": "validate_closed_fibre_banking",
+      "rejected": false,
+      "reason": "CORRUPT_G413_WAS_SILENTLY_EXCLUDED"
+    },
+    {
+      "guard": "validate_neighboring_tidal_banking",
+      "rejected": false,
+      "reason": "CORRUPT_G413_WAS_SILENTLY_EXCLUDED"
+    },
+    {
+      "guard": "validate_reviewed_backlog_banking",
+      "rejected": true,
+      "reason": "TI1 exact row/scope changed"
+    }
+  ],
+  "source_writes": false,
+  "scientific_claim": "NONE"
+}

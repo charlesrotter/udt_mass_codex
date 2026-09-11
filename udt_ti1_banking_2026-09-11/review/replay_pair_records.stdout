@@ -1,0 +1,66 @@
+{
+  "checks": [
+    "six original density-squared values reconstruct gamma0",
+    "six common time derivatives reconstruct full K",
+    "common spatial derivatives reconstruct full K_X",
+    "Hamiltonian original residual",
+    "three momentum original residuals",
+    "raw Gaussian pair determinant",
+    "normalized Gram computed by ruler-column rescaling",
+    "normalized determinant",
+    "all initial pair values are Euclidean across family",
+    "relative-phase determinant",
+    "curl contraction reconstructed entirely from retained density jets",
+    "curl tensor symmetric",
+    "curl tensor traceless",
+    "electric tensor traceless under Hamiltonian",
+    "zero A joint contraction",
+    "zero B joint contraction",
+    "aligned phase joint contraction",
+    "opposite aligned phase joint contraction",
+    "opposite quadrature reverses sign at unchanged k",
+    "same-tangent leading coefficient independent of homogeneous tail",
+    "actual tape-coordinate pullback",
+    "actual tape determinant",
+    "original clock retained with transformed tangent"
+  ],
+  "checks_count": 23,
+  "formulas": {
+    "D": "-A*B*sin(theta)",
+    "Jcurl": "A*B*(3*A**2*sin(theta)/2 - 3*A**2*sin(2*X - theta)/4 + 3*A**2*sin(2*X + theta)/4 + 3*B**2*sin(theta)/2 - 3*B**2*sin(2*X + theta)/4 + 3*B**2*sin(2*X + 3*theta)/4 - 3*c**2*sin(theta) + 4*c*sin(theta) - 4*sin(theta)/3)/(3*c - 2)",
+    "radial_order2": "2*a*b*sin(theta)/3"
+  },
+  "kind": "exact symbolic identities and explicit invalid-control witnesses; no PDE integration",
+  "python": "3.10.12",
+  "rejected_controls": [
+    {
+      "name": "joint quadrature diagnostic nonzero",
+      "nonzero_exact_witness": "-247/30720"
+    },
+    {
+      "name": "changing completion changes exact contraction",
+      "nonzero_exact_witness": "-233/215040"
+    },
+    {
+      "name": "dropping quadratic axial completion violates Hamiltonian",
+      "nonzero_exact_witness": "-1/32"
+    },
+    {
+      "name": "axis-only record reconstruction loses transverse offdiagonal",
+      "nonzero_exact_witness": "1/10"
+    },
+    {
+      "name": "normalized records cannot replace retained density derivatives",
+      "nonzero_exact_witness": "-1/10"
+    },
+    {
+      "name": "fixed-tape clock differs from original clock",
+      "nonzero_exact_witness": "-1/4"
+    }
+  ],
+  "scope": "Actual local Ric=0 developments are justified analytically in the candidate; record algebra does not itself prove existence.",
+  "script_sha256": "0cd642ec362803897324e22de4d2b3c4e20992d8e5b0def8222ba075cd788824",
+  "sign_caution": "Bcurl=epsilon_i^{kl} partial_k K_lj. Weyl Hodge convention is separately checked; no silent sign identification.",
+  "status": "PASS",
+  "sympy": "1.13.1"
+}
