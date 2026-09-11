@@ -1,0 +1,15 @@
+{
+  "utc": "2026-09-11T13:22:11.811860+00:00",
+  "sha256": {
+    "udt_two_shape_evolution_2026-09-11/FRAME_AND_DISCOVERY.md": "652f5b45851f65ff767b954da57bc5f733d1e9de82e71a685b760fa031c30ead",
+    "udt_two_shape_evolution_2026-09-11/initial_rate.py": "6bf77547ffb39b05f62d0e9133cf449984df2c8427aea9e5fc27640ccae402d1",
+    "udt_ti1_banking_2026-09-11/WORK_ORDER.md": "a9c0fdf8517dd92b2e5e8e3354a139c7e28b93150fb8618a9ffed883752485f6",
+    "udt_ti1_banking_2026-09-11/BANKING_RECORD.md": "08216184fd508d84e6e6fd263a0499595ed1926dc9b550007a3f0328e970b89e",
+    "udt_two_shape_nonlinear_interaction_2026-09-11/INITIAL_CANDIDATE.md": "d2e4bd56154091e46cc89c9dc3dec227ff3662d11b045309e004b358bb45c85f",
+    "udt_two_shape_nonlinear_interaction_2026-09-11/review/REVIEW.md": "2adef657ea5f7bb06b9d096d8546933ee50b67ed9554b4a076eca89d296f52f2",
+    "udt_two_shape_nonlinear_interaction_2026-09-11/review/FINAL_FIDELITY.md": "8c728e4c59ea574e1e5a214df74c87af18086817d77771e5959903b23b707912"
+  },
+  "G413_integration": "PENDING; explicit conditional candidate dependency until banking gates close",
+  "parent_scientific_outputs_for_TI2": "NONE at freeze",
+  "same_context_prior_method_exposure": "Full TI1 argument and metric-two-jet implementations; parent handwritten third-jet and E/B rate exploration not accepted outputs"
+}

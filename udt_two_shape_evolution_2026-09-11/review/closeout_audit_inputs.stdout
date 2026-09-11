@@ -1,0 +1,63 @@
+{
+  "status": "PASS",
+  "utc": "2026-09-11T14:14:30.855084+00:00",
+  "scope": "Actual audit capture inspected, attributed not rerun; snapshot correspondence is not independent proof of run-time immutability",
+  "duration_seconds": 402.83603342896095,
+  "input_rows": [
+    {
+      "path": "verify_current_scientific_premises.py",
+      "banked_baseline_matches_audit_pin": true,
+      "current_matches_audit_pin": true
+    },
+    {
+      "path": "ti1_banking_guard.py",
+      "banked_baseline_matches_audit_pin": true,
+      "current_matches_audit_pin": true
+    },
+    {
+      "path": "CURRENT_SCIENTIFIC_PREMISES.tsv",
+      "banked_baseline_matches_audit_pin": true,
+      "current_matches_audit_pin": true
+    },
+    {
+      "path": "CURRENT_SCIENTIFIC_PREMISES.md",
+      "banked_baseline_matches_audit_pin": true,
+      "current_matches_audit_pin": true
+    },
+    {
+      "path": "AGENTS.md",
+      "banked_baseline_matches_audit_pin": true,
+      "current_matches_audit_pin": true
+    },
+    {
+      "path": "LIVE.md",
+      "banked_baseline_matches_audit_pin": true,
+      "current_matches_audit_pin": false
+    },
+    {
+      "path": "HANDOFF.md",
+      "banked_baseline_matches_audit_pin": true,
+      "current_matches_audit_pin": false
+    },
+    {
+      "path": "CURRENT_RESEARCH_PROGRAM.md",
+      "banked_baseline_matches_audit_pin": true,
+      "current_matches_audit_pin": false
+    },
+    {
+      "path": "INDEX.md",
+      "banked_baseline_matches_audit_pin": true,
+      "current_matches_audit_pin": false
+    },
+    {
+      "path": "MEMORY.md",
+      "banked_baseline_matches_audit_pin": true,
+      "current_matches_audit_pin": true
+    },
+    {
+      "path": "UDT_RESEARCH_ROADMAP.md",
+      "banked_baseline_matches_audit_pin": true,
+      "current_matches_audit_pin": false
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "observed_utc": "2026-09-11T14:20:18.999789+00:00",
+  "command": [
+    "git",
+    "fetch",
+    "origin"
+  ],
+  "actual_exit_code": 0,
+  "stdout_empty": true,
+  "stderr_empty": true,
+  "branch": "grok",
+  "HEAD": "1de84bf0e8b8781201ede8d0486489a22dbf7d07",
+  "origin_grok_after_actual_fetch": "1de84bf0e8b8781201ede8d0486489a22dbf7d07",
+  "synchronization": "ACTUAL_MATCH before TI2 publication",
+  "worktree": "five authorized root navigation edits and new TI2 package; original46 unrelated untracked status entries remain preserved",
+  "publication": "future at this observation; not inferred from fetch"
+}

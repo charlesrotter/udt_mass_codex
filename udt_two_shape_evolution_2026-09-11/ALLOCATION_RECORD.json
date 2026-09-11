@@ -1,0 +1,32 @@
+{
+  "recorded_utc": "2026-09-11T13:48:16.505737+00:00",
+  "authorized_new_context_limit": 2,
+  "actual_allocations": [
+    {
+      "context": "/root/ti1_banking_review",
+      "fresh_context": true,
+      "first_observed_utc": "2026-09-11T13:04:34Z",
+      "final_seal_utc": "2026-09-11T13:43:25.874357Z",
+      "status": "COMPLETED",
+      "role": "banking full-scope fidelity/integration",
+      "overlap": "parent integration"
+    },
+    {
+      "context": "/root/ti2_evolution_review",
+      "fresh_context": true,
+      "allocation_bracket_utc": [
+        "2026-09-11T13:47:22Z",
+        "2026-09-11T13:47:55Z"
+      ],
+      "role": "TI2 source/data-first substantive adversarial review",
+      "review_deadline_utc": "2026-09-11T14:47:55Z",
+      "status": "RUNNING",
+      "overlap": "parent construction; prior banking reviewer already completed"
+    }
+  ],
+  "old_contexts": "retained, neither resumed nor counted as fresh",
+  "runtime_model_version": "UNATTESTED for all contexts",
+  "configured_parent": "gpt-6-astra/xhigh observed earlier; no override",
+  "capacity": "Only these actual allocations established; general/restored capacity UNVERIFIED; no limit recurred in these two allocations",
+  "overall_hard_return_utc": "2026-09-11T16:00:50Z"
+}

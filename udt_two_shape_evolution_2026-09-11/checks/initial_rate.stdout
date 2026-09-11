@@ -1,0 +1,93 @@
+{
+  "python": "3.10.12",
+  "sympy": "1.13.1",
+  "mutant": null,
+  "route": "original lower Riemann from full metric three-jet; differentiated Hodge and inverse-metric E.B contraction",
+  "variables": [
+    "p",
+    "r",
+    "p_X",
+    "r_X",
+    "p_XX",
+    "r_XX",
+    "s"
+  ],
+  "checks": [
+    {
+      "name": "original_Ricci",
+      "components": 16,
+      "nonzero": []
+    },
+    {
+      "name": "time_derivative_original_Ricci_including_inverse_metric",
+      "components": 16,
+      "nonzero": []
+    },
+    {
+      "name": "all_initial_constraints",
+      "components": 4,
+      "nonzero": []
+    },
+    {
+      "name": "Riemann_and_rate_algebraic_identities",
+      "components": 1536,
+      "nonzero": []
+    },
+    {
+      "name": "P_matches_full_TI1_initial_scalar",
+      "components": 1,
+      "nonzero": []
+    },
+    {
+      "name": "E_B_and_time_rates_symmetric",
+      "components": 36,
+      "nonzero": []
+    },
+    {
+      "name": "tracefree_E_B_and_differentiated_metric_traces",
+      "components": 4,
+      "nonzero": []
+    }
+  ],
+  "K": "Matrix([[(p**2 + r**2 - s**2)/(2*s), 0, 0], [0, -p + s, -r], [0, -r, p + s]])",
+  "K_T": "Matrix([[(2*s + (p**2 + r**2 - s**2)/(2*s))*(p**2 + r**2 - s**2)/(2*s) - (p**2 + r**2 - s**2)**2/(2*s**2), 0, 0], [0, -2*r**2 - (-2*p + 2*s)*(-p + s) + (-p + s)*(2*s + (p**2 + r**2 - s**2)/(2*s)), r*(-2*p + 2*s) + 2*r*(p + s) - r*(2*s + (p**2 + r**2 - s**2)/(2*s))], [0, 2*r*(-p + s) + r*(2*p + 2*s) - r*(2*s + (p**2 + r**2 - s**2)/(2*s)), -2*r**2 - (p + s)*(2*p + 2*s) + (p + s)*(2*s + (p**2 + r**2 - s**2)/(2*s))]])",
+  "Ric3_T": "Matrix([[0, 0, 0], [0, -p_XX, -r_XX], [0, -r_XX, p_XX]])",
+  "K_TT": "Matrix([[(2*s + (p**2 + r**2 - s**2)/(2*s))*(4*s + (p**2 + r**2 - s**2)/s)*(p**2 + r**2 - s**2)/(2*s) - (12*s + 3*(p**2 + r**2 - s**2)/s)*(p**2 + r**2 - s**2)**2/(4*s**2) + (p**2 + r**2 - s**2)**3/(2*s**3), 0, 0], [0, -p_XX - r**2*(12*s + 3*(p**2 + r**2 - s**2)/s) - r*(-r*(-4*p + 4*s) - 4*r*(p + s)) - (-p + s)**2*(12*s + 3*(p**2 + r**2 - s**2)/s) + (-p + s)*(4*r**2 + (-4*p + 4*s)*(-p + s)) + (-p + s)*(2*s + (p**2 + r**2 - s**2)/(2*s))*(4*s + (p**2 + r**2 - s**2)/s), r*(-p + s)*(12*s + 3*(p**2 + r**2 - s**2)/s) + r*(p + s)*(12*s + 3*(p**2 + r**2 - s**2)/s) - r*(4*r**2 + (-4*p + 4*s)*(-p + s)) - r*(2*s + (p**2 + r**2 - s**2)/(2*s))*(4*s + (p**2 + r**2 - s**2)/s) - r_XX + (p + s)*(-r*(-4*p + 4*s) - 4*r*(p + s))], [0, r*(-p + s)*(12*s + 3*(p**2 + r**2 - s**2)/s) + r*(p + s)*(12*s + 3*(p**2 + r**2 - s**2)/s) - r*(4*r**2 + (p + s)*(4*p + 4*s)) - r*(2*s + (p**2 + r**2 - s**2)/(2*s))*(4*s + (p**2 + r**2 - s**2)/s) - r_XX + (-p + s)*(-4*r*(-p + s) - r*(4*p + 4*s)), p_XX - r**2*(12*s + 3*(p**2 + r**2 - s**2)/s) - r*(-4*r*(-p + s) - r*(4*p + 4*s)) - (p + s)**2*(12*s + 3*(p**2 + r**2 - s**2)/s) + (p + s)*(4*r**2 + (p + s)*(4*p + 4*s)) + (p + s)*(2*s + (p**2 + r**2 - s**2)/(2*s))*(4*s + (p**2 + r**2 - s**2)/s)]])",
+  "E": "Matrix([[p**2 + r**2 - s**2, 0, 0], [0, -(p + s)*(p**2 + r**2 - s**2)/(2*s), -r*(p**2 + r**2 - s**2)/(2*s)], [0, -r*(p**2 + r**2 - s**2)/(2*s), (p - s)*(p**2 + r**2 - s**2)/(2*s)]])",
+  "B": "Matrix([[0, 0, 0], [0, r_X, -p_X], [0, -p_X, -r_X]])",
+  "E_T": "Matrix([[4*s*(p**2 + r**2 - s**2), 0, 0], [0, -(p**5 + 3*p**4*s + 2*p**3*r**2 + 2*p**3*s**2 + 6*p**2*r**2*s - 2*p**2*s**3 + p*r**4 + 2*p*r**2*s**2 - 3*p*s**4 + 2*p_XX*s**2 + 3*r**4*s - 2*r**2*s**3 - s**5)/(2*s**2), -(p**4*r + 2*p**2*r**3 + 2*p**2*r*s**2 + r**5 + 2*r**3*s**2 - 3*r*s**4 + 2*r_XX*s**2)/(2*s**2)], [0, -(p**4*r + 2*p**2*r**3 + 2*p**2*r*s**2 + r**5 + 2*r**3*s**2 - 3*r*s**4 + 2*r_XX*s**2)/(2*s**2), (p**5 - 3*p**4*s + 2*p**3*r**2 + 2*p**3*s**2 - 6*p**2*r**2*s + 2*p**2*s**3 + p*r**4 + 2*p*r**2*s**2 - 3*p*s**4 + 2*p_XX*s**2 - 3*r**4*s + 2*r**2*s**3 + s**5)/(2*s**2)]])",
+  "B_T": "Matrix([[-2*(p*r_X - p_X*r), 0, 0], [0, (3*p**2*r_X + 2*p*p_X*r + 6*p*r_X*s - 6*p_X*r*s + 5*r**2*r_X - 5*r_X*s**2)/(2*s), -(5*p**2*p_X + 2*p*r*r_X + 3*p_X*r**2 - 5*p_X*s**2)/(2*s)], [0, -(5*p**2*p_X + 2*p*r*r_X + 3*p_X*r**2 - 5*p_X*s**2)/(2*s), -(3*p**2*r_X + 2*p*p_X*r - 6*p*r_X*s + 6*p_X*r*s + 5*r**2*r_X - 5*r_X*s**2)/(2*s)]])",
+  "P": "-16*(p*r_X - p_X*r)*(p**2 + r**2 - s**2)/s",
+  "P_T_general_profile_jet": "-8*(5*p**5*r_X - 5*p**4*p_X*r + 10*p**3*r**2*r_X + 6*p**3*r_X*s**2 - 10*p**2*p_X*r**3 - 6*p**2*p_X*r*s**2 + 5*p*r**4*r_X + 6*p*r**2*r_X*s**2 - 11*p*r_X*s**4 - 5*p_X*r**5 - 6*p_X*r**3*s**2 + 11*p_X*r*s**4 - 4*p_X*r_XX*s**2 + 4*p_XX*r_X*s**2)/s**2",
+  "P_T_harmonic": "-8*(p*r_X - p_X*r)*(5*p**4 + 10*p**2*r**2 + 6*p**2*s**2 + 5*r**4 + 6*r**2*s**2 - 11*s**4 - 4*s**2)/s**2",
+  "L_harmonic": "(5*p**4 + 10*p**2*r**2 + 6*p**2*s**2 + 5*r**4 + 6*r**2*s**2 - 11*s**4 - 4*s**2)/(2*s*(p**2 + r**2 - s**2))",
+  "L0": "-(-11*s**4 - 4*s**2)/(2*s**3)",
+  "S": "-8*(p**2 + r**2)*(p*r_X - p_X*r)*(5*p**2 + 5*r**2 - 5*s**2 - 4)/s**2",
+  "controls": {
+    "zero": {
+      "P": "0",
+      "P_T": "0",
+      "S": "0"
+    },
+    "p_only": {
+      "P": "0",
+      "P_T": "0",
+      "S": "0"
+    },
+    "r_only": {
+      "P": "0",
+      "P_T": "0",
+      "S": "0"
+    },
+    "aligned": {
+      "P": "0",
+      "P_T": "0",
+      "S": "0"
+    },
+    "opposite": {
+      "P": "0",
+      "P_T": "0",
+      "S": "0"
+    }
+  }
+}

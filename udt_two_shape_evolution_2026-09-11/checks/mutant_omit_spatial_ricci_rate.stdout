@@ -1,0 +1,20 @@
+{
+  "mutant": "omit_spatial_ricci_rate",
+  "checks": [
+    {
+      "name": "original_Ricci",
+      "components": 16,
+      "nonzero": []
+    },
+    {
+      "name": "time_derivative_original_Ricci_including_inverse_metric",
+      "components": 16,
+      "nonzero": [
+        "-p_XX",
+        "-r_XX",
+        "-r_XX",
+        "p_XX"
+      ]
+    }
+  ]
+}

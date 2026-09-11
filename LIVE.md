@@ -106,7 +106,7 @@ Protected—do not stage, modify, mine or cite without dispatch:
 
 ### Next gate
 
-G383--G412 exact-scope banking is COMPLETE; G413=TI1 is conditionally banked; authorized evolution scope: INDEX.
+G383--G412 exact-scope banking is COMPLETE; G413=TI1 is banked; TI2 is reviewed conditional, UNPROMOTED; scope: INDEX.
 G312 membership unclosed; G352 physical-realization: physical identification remains OPEN.
-Stop for lay discussion with Charles after the approved bounded evolution/review/repair cycle; no new campaign is authorized beyond that work order.
+Stop for lay discussion with Charles on TI2 promotion and profile-dependence proposal; no new campaign is authorized.
 <!-- STARTUP_CURRENT_END -->

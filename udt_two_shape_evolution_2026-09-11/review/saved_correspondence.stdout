@@ -1,0 +1,32 @@
+{
+  "status": "PASS",
+  "python": "3.10.12",
+  "sympy": "1.13.1",
+  "seal_pins": 35,
+  "author_precomputation_pins": 7,
+  "original_TI1_preserved_files": 103,
+  "registry_rows": [
+    "G413",
+    "G312",
+    "G176",
+    "G166"
+  ],
+  "independent_saved_expression_groups": [
+    "E",
+    "B",
+    "E_T",
+    "B_T",
+    "P",
+    "P_T_general_profile_jet",
+    "P_T_harmonic",
+    "L_harmonic",
+    "L0",
+    "S",
+    "Ric3_T"
+  ],
+  "leading_P_rate_background_E_times_second_B_rate": "80*s**2*(p*r_X - p_X*r)",
+  "leading_P_rate_first_order_products_general_profile": "8*(p*r_X*s**2 - p_X*r*s**2 + 4*p_X*r_XX - 4*p_XX*r_X)",
+  "leading_P_rate_total_general_profile": "8*(11*p*r_X*s**2 - 11*p_X*r*s**2 + 4*p_X*r_XX - 4*p_XX*r_X)",
+  "meaning": "Exact coefficient decomposition; first-order-only product omission demonstrated, no general linearization-failure theorem",
+  "author_scientific_execution": "saved outputs inspected; not same-code replay"
+}

@@ -1,0 +1,17 @@
+{
+  "utc": "2026-09-11T14:03:07.646939+00:00",
+  "sha256": {
+    "verify_current_scientific_premises.py": "eb9505f6c2eacf78579d784de4d0b5942ce8cfe99dbd886ce4d989077eafdb12",
+    "ti1_banking_guard.py": "000ce89c55f038fd977d09bd64fb37e3b60f05e48feb4cbb8f3fe99da8ff9cac",
+    "CURRENT_SCIENTIFIC_PREMISES.tsv": "2491607030f80e6f0557cc7ed7ee7487d3637e357e0da520f8432b67190b25db",
+    "CURRENT_SCIENTIFIC_PREMISES.md": "f0aa84e96ba1014c83767b20621c210adcf9217ac0f58ab357a97f55338277cd",
+    "AGENTS.md": "c6b31ded9a2ca78e70348da8e2b1918172da4e4cd2f266863b7a58db4c8e19fb",
+    "LIVE.md": "dd3a58af6f0e2a7293749348039b33d341a42951e7fd9ad52885cca92c404676",
+    "HANDOFF.md": "b7c1e89bdea0a913e2f31a4e32e25bf8909a039ab4e94aa8e2f4572aad2ba892",
+    "CURRENT_RESEARCH_PROGRAM.md": "1ba5b48122549012750ae1d5cab9d99ca67172043b81f791d9374b0776676772",
+    "INDEX.md": "41428ff26fc568707582d00cc675a5497ad3ed67d94cfba80adda3218cb93ca5",
+    "MEMORY.md": "ac2e0507ab3e0dfbd6b865c034b6dec14f3e7367f36fcb422803f2f0521d422a",
+    "UDT_RESEARCH_ROADMAP.md": "cc7a91e4add71a6c825facab8e58c065e9022a462d87aa3c8a4816af34db4584"
+  },
+  "purpose": "actual current premise audit before preserving new high-risk field/evolution candidate; does not validate TI2 mathematics"
+}

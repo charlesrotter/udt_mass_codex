@@ -1,0 +1,22 @@
+{
+  "utc": "2026-09-11T14:02:35.150306+00:00",
+  "baseline_head": "1de84bf0e8b8781201ede8d0486489a22dbf7d07",
+  "sha256": {
+    "CURRENT_SCIENTIFIC_PREMISES.tsv": "2491607030f80e6f0557cc7ed7ee7487d3637e357e0da520f8432b67190b25db",
+    "CURRENT_SCIENTIFIC_PREMISES.md": "f0aa84e96ba1014c83767b20621c210adcf9217ac0f58ab357a97f55338277cd",
+    "AGENTS.md": "c6b31ded9a2ca78e70348da8e2b1918172da4e4cd2f266863b7a58db4c8e19fb",
+    "udt_ti1_banking_2026-09-11/BANKING_RECORD.md": "08216184fd508d84e6e6fd263a0499595ed1926dc9b550007a3f0328e970b89e",
+    "udt_ti1_banking_2026-09-11/BANKED_CLAIM.json": "31f53492a1a9746c2337d5cdbd04df0c1e8ac1aed5d85050a7cb49ebce260ab6",
+    "udt_ti1_banking_2026-09-11/WORK_ORDER.md": "a9c0fdf8517dd92b2e5e8e3354a139c7e28b93150fb8618a9ffed883752485f6",
+    "udt_ti1_banking_2026-09-11/review/REVIEW.md": "db42763d2df7a8584b5095b05afe25f06425c5ff1be5cc6b622d5b68a09eb0e2",
+    "udt_ti1_banking_2026-09-11/review/FINAL_FIDELITY.md": "78267db52e92952415531cd3a9c60ea1e57eaf646efdcc197995d2bb9ab0e927",
+    "udt_two_shape_nonlinear_interaction_2026-09-11/INITIAL_CANDIDATE.md": "d2e4bd56154091e46cc89c9dc3dec227ff3662d11b045309e004b358bb45c85f",
+    "udt_two_shape_nonlinear_interaction_2026-09-11/review/REVIEW.md": "2adef657ea5f7bb06b9d096d8546933ee50b67ed9554b4a076eca89d296f52f2",
+    "udt_gr_filter_reconciliation_2026-09-09/AUTHORITY_RECORD.md": "80daa0be6d3e1c0ac1b734fea089c4eb487f05bc1e1fbb2fabd69322ca89f28c",
+    "udt_reviewed_backlog_banking_2026-09-10/capture_existing.py": "1b95a783e861a52cc9fc50d3c76c152cb3673fc9045372afafd30da269ffec3f",
+    "udt_shared_readout_metric_constraint_campaign_2026-09-06/run_capture.py": "8ff5469ace76bdfc84188915242abbf3baff35516f9ee3f9ba4b1cbfeb2573ef"
+  },
+  "premise_audit": "actual final post-repair full396 and banked source closure completed before current row query",
+  "source_roles": "G413 entire conditional input; G312/G176/G166 authority/open boundaries; no new premise",
+  "protected_payloads": "EXCLUDED"
+}

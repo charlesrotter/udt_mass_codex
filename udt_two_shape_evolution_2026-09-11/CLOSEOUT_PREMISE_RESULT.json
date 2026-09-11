@@ -1,0 +1,23 @@
+{
+  "verified_utc": "2026-09-11T14:13:23.218201+00:00",
+  "audit": {
+    "command": [
+      "python3",
+      "verify_current_scientific_premises.py"
+    ],
+    "cwd": "/home/udt-admin/udt_mass_codex",
+    "started_utc": "2026-09-11T14:03:07.668376+00:00",
+    "duration_seconds": 402.83603342896095,
+    "returncode": 0,
+    "timeout": false,
+    "address_space_bytes": 2147483648,
+    "cpu_seconds": 900,
+    "maxrss_kib": 120576
+  },
+  "verdict": "PASS: 396-row premise registry",
+  "stderr_empty": true,
+  "all_frozen_inputs_unchanged_before_navigation_edits": true,
+  "input_count": 11,
+  "audit_input_record_sha256": "078abe4104e35a4ba46e6d0bf3ac608d172c4db7efcb4726dd2cc8be36ecd1fe",
+  "scope": "Actual root audit at banked G413 snapshot; later prose navigation requires separate checks, not retroactive full-audit attribution."
+}

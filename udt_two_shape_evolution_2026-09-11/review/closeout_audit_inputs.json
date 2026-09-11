@@ -1,0 +1,14 @@
+{
+  "command": [
+    "python3",
+    "udt_two_shape_evolution_2026-09-11/review/check_closeout_audit_inputs.py"
+  ],
+  "cwd": "/home/udt-admin/udt_mass_codex",
+  "started_utc": "2026-09-11T14:14:30.800676+00:00",
+  "duration_seconds": 0.05821522796759382,
+  "returncode": 0,
+  "timeout": false,
+  "address_space_bytes": 2147483648,
+  "cpu_seconds": 60,
+  "maxrss_kib": 15292
+}

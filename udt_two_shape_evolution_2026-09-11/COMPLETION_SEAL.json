@@ -1,0 +1,42 @@
+{
+  "sealed_utc": "2026-09-11T14:26:02.896779+00:00",
+  "combined_launch_utc": "2026-09-11T13:00:50Z",
+  "hard_return_utc": "2026-09-11T16:00:50Z",
+  "science_and_review": "COMPLETE",
+  "TI1": "G413_BANKED",
+  "TI2": "VERIFIED-WITH-CAVEATS_CONDITIONAL_UNPROMOTED",
+  "scientific_repairs_after_candidate_freeze": 0,
+  "actual_new_context_count": 2,
+  "allocations": [
+    {
+      "context": "/root/ti1_banking_review",
+      "first_observed_utc": "2026-09-11T13:04:34Z",
+      "final_seal_utc": "2026-09-11T13:43:25.874357Z",
+      "status": "COMPLETED",
+      "overlap": "parent banking integration"
+    },
+    {
+      "context": "/root/ti2_evolution_review",
+      "allocation_bracket_utc": [
+        "2026-09-11T13:47:22Z",
+        "2026-09-11T13:47:55Z"
+      ],
+      "first_observed_utc": "2026-09-11T13:48:06Z",
+      "final_seal_utc": "2026-09-11T14:24:14.776097+00:00",
+      "status": "COMPLETED",
+      "overlap": "parent construction/checking/closeout; no overlap with banking reviewer"
+    }
+  ],
+  "capacity": "only actual allocations established; restored/general capacity UNVERIFIED; no limit recurred",
+  "configured_parent": "gpt-6-astra/xhigh observed earlier; no override",
+  "runtime_model_version": "UNATTESTED",
+  "final_fidelity_receipt_sha256": "87a11e0f9ebf86cb5c727134331fb478c34102a56d186668be0c555f97bd0f9c",
+  "final_fidelity_pins_verified": 85,
+  "full396": "ACTUAL_PASS_402.836033429s_at_banked_snapshot",
+  "later_navigation": "ACTUAL_539_PASS_1_DUPLICATE_FULL_WRAPPER_DESELECTED",
+  "original46_name_status_sha256": "55e7c4508622f912730f9c068cc571c370b3977bc1110eb0a48a8218dbe024c2",
+  "next_study": "PROPOSED_NOT_AUTHORIZED; stop for lay discussion",
+  "backup_completeness": "UNVERIFIED",
+  "pre_reboot_unsaved_state": "UNVERIFIED",
+  "publication": "FUTURE_AT_SEAL; staging, commit and push require actual collection"
+}

@@ -2,9 +2,9 @@
 
 Updated: 2026-09-11. Charles Rotter requested the whole plan on 2026-09-09;
 its original baseline was `d0fe8b3e5f95c3963dc8702bb4a31485678bd1e3`, branch `grok`.
-Earlier campaigns below are COMPLETE; the current bounded TI2 dispatch is identified at the maintained checkpoint.
+Earlier campaigns and the bounded TI2 study are COMPLETE; the maintained checkpoint owns the return.
 Current operational handoff: `HANDOFF.md`; the maintained checkpoint below records the reviewed
-ER1 expansion, backlog/G413 banking and the bounded TI2 evolution study. No successor is automatic.
+ER1 expansion, backlog/G413 banking and reviewed UNPROMOTED TI2. No successor is authorized.
 This is a maintained direction document, not a premise, theorem, promotion
 or replacement for LIVE, the exact registry, or reviewed scientific sources.
 
@@ -260,7 +260,7 @@ authorization. A coverage row is not a completeness theorem or a scientific prem
 | Exact metric/kernel, stages1–2 | ER1 COMPLETE, reviewed; G405 conditionally banked at exact scope | `udt_exact_metric_kernel_expansion_2026-09-10/DECISION_BRIEF.md` and `udt_exact_metric_kernel_expansion_2026-09-10/review/REVIEW.md`: variable lapse/rest form/time-live shift, exact rotation interaction; supplied configuration class only |
 | Joint realization, stage3 | ER1's finite marked-record recipe COMPLETE at reviewed scope | Six common directional records plus density and derivatives; SPD/shift coherence and actual shared immersions; no physical pair population or arbitrary-network theorem |
 | Conditional nonlinear developments, stage4 | G413=TI1 conditionally banked at full reviewed scope | `udt_two_shape_nonlinear_interaction_2026-09-11/REVIEWED_RESULT.md` and its `review/REVIEW.md`: complete analytic Ric=0 data/developments, initial mixed curvature distinction, phase/completion controls and retained-density join; no native equation adoption or later generated coupling |
-| Reach/persistence, stage5 | TI1 local retention banked; bounded TI2 initial-evolution comparison authorized | Common marking/calibration, compact analytic data and conditional equation remain supplied; native assembly, global reach, genericity, sustained evolution and stability remain open |
+| Reach/persistence, stage5 | TI1 local retention banked; TI2 reviewed conditional, UNPROMOTED | `udt_two_shape_evolution_2026-09-11/REVIEWED_RESULT.md` and its `review/REVIEW.md`: exact initial rate, local decline, completion control and outside-box cancellation nonpreservation; marking/equation supplied, sustained evolution and stability open |
 
 ER1 returned the reviewed conditional result, actual witness/record compatibility and lay brief;
 its exact execution and final fidelity receipts are in that package. The two-hour research authorization
@@ -274,14 +274,17 @@ and its CLOSEOUT.md own the current acceptance, original395/whole-source preserv
 integration review, repaired historical-projection guard and actual full396/check results.
 The original TI1 UNPROMOTED headers remain historical. Controls remain controls.
 
-Charles also authorized the bounded TI2 evolution comparison, including checks, fresh separate-context
-review and bounded same-premise repair. `udt_ti1_banking_2026-09-11/WORK_ORDER.md` owns the scope;
-TI2's precomputation frame is prepared locally; no TI2 science is part of this banking commit.
-Combined banking/research hard return2026-09-11 16:00:50UTC, CPU only. Question: initial geometric
-rate beyond its matched small-amplitude reference, with phase/completion controls and lawful retained
-records. Return a reviewed conditional candidate, cancellation/freedom or precise obstacle; TI2
-promotion is not authorized. No new physical premise or automatic successor. Stop for lay discussion
-at this return. Backup completeness/pre-reboot unsaved state remain UNVERIFIED.
+Charles also authorized the now-completed bounded TI2 evolution comparison, including checks,
+fresh separate-context review and bounded same-premise repair; its original scope remains in
+`udt_ti1_banking_2026-09-11/WORK_ORDER.md`. The new candidate returns VERIFIED-WITH-CAVEATS,
+conditional UNPROMOTED, with no post-freeze scientific repair. Its exact initial rate and local
+short-time implications retain the supplied Ric=0 equation, compact analytic data and marked
+Gaussian observer. The actual new full396 audit passed; later navigation checks are separate.
+`udt_two_shape_evolution_2026-09-11/DECISION_BRIEF.md`, REVIEWED_RESULT.md and SESSION_RECORD.md
+own the result, checks, exposure and resource history. Disposition: HOLD for Charles's separate
+exact-scope promotion decision; controls remain controls. No physical premise or successor is
+authorized. Combined hard return remains 2026-09-11 16:00:50UTC, CPU only. Stop for lay discussion.
+Backup completeness/pre-reboot unsaved state remain UNVERIFIED.
 
 Learning to carry forward: an exact time-live shift interaction can disappear under a stationarity
 restriction or first-order shift-amplitude expansion about zero shift; normalized pair outputs can lose rotation-relevant density; a
@@ -295,10 +298,24 @@ control cancels it. The leading quadratic signature can already be computed from
 curvature, so this does not show that linear methods generally fail. It is present in complete
 initial data, not newly generated interaction or energy exchange.
 
-Next scientific discussion, after the explicit promotion disposition: whether an invariant comparison
-along actual developments detects joint evolution beyond the initial signature, across lawful
-completions. Any such study needs a separate bounded question and work order. Native equation/assembly
-questions remain parallel open work; naming a comparison equation never authorizes adopting it as UDT.
+TI2 extends that snapshot with an exact initial rate: in the primary nonaligned family, the
+curvature signature's magnitude declines for a datum-dependent short forward interval, with
+a finite-amplitude fractional correction. Completion freedom can cancel the leading comparison
+against the original background while a matched-background correction survives. Outside the
+primary amplitude box, an individually justified analytic example has zero initial signature
+but a nonzero initial rate and nonzero signature shortly afterward. These are distinct regimes.
+Products of first-order curvature/rate pieces miss half the leading rate in the chosen background;
+the retained background-times-second-order term supplies it. This is not a general failure of
+linearization or careful perturbation theory. Harmonic-family rate recovery uses second record
+derivatives; the broader marked-Gaussian curvature-rate recipe can use third derivatives.
+No energy transfer, physical identification, universal time interval or global stability follows.
+
+Next decision: TI2's exact-scope promotion, then whether to authorize the separate two-hour
+profile-dependence proposal in its DECISION_BRIEF.md. It would release the single sinusoidal
+profile assumption and test full constraints, local development, cancellations, reference
+existence and retained-record derivative needs. It is NOT AUTHORIZED or already executed.
+Native equation/assembly questions remain parallel open work; naming a comparison equation
+never authorizes adopting it as UDT. The fixed through-G352 manuscript remains unchanged.
 
 ### What the concern means
 

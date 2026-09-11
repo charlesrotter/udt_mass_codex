@@ -1,7 +1,7 @@
 # INDEX — compact current pointers; `LIVE.md` wins
 
 G383--G412 exact-scope banking COMPLETE; G413 banked; full396 PASS; scopes/reviews below.
-Roadmap: `UDT_RESEARCH_ROADMAP.md`. G413/TI1: `udt_ti1_banking_2026-09-11/BANKING_RECORD.md`; authorized continuation: its WORK_ORDER.md.
+Roadmap: `UDT_RESEARCH_ROADMAP.md`; TI2: `udt_two_shape_evolution_2026-09-11/DECISION_BRIEF.md` (reviewed; UNPROMOTED); G413: `udt_ti1_banking_2026-09-11/BANKING_RECORD.md`.
 Backlog: `udt_reviewed_backlog_banking_2026-09-10/BANKING_RECORD.md`; exact claims/dispositions/checks there.
 The exact 396-row `CURRENT_SCIENTIFIC_PREMISES.tsv` owns grades, not these pointers.
 GR is FILTER ONLY, not a response-law input; Local Metric Sufficiency remains owner-provisional.

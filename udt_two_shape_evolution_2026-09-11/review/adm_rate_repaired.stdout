@@ -1,0 +1,54 @@
+{
+  "B": "Matrix([[0, 0, 0], [0, r_X, -p_X], [0, -p_X, -r_X]])",
+  "Bdot": "Matrix([[-2*(p*r_X - p_X*r), 0, 0], [0, (3*p**2*r_X + 2*p*p_X*r + 6*p*r_X*s - 6*p_X*r*s + 5*r**2*r_X - 5*r_X*s**2)/(2*s), -(5*p**2*p_X + 2*p*r*r_X + 3*p_X*r**2 - 5*p_X*s**2)/(2*s)], [0, -(5*p**2*p_X + 2*p*r*r_X + 3*p_X*r**2 - 5*p_X*s**2)/(2*s), -(3*p**2*r_X + 2*p*p_X*r - 6*p*r_X*s + 6*p_X*r*s + 5*r**2*r_X - 5*r_X*s**2)/(2*s)]])",
+  "E": "Matrix([[p**2 + r**2 - s**2, 0, 0], [0, -(p + s)*(p**2 + r**2 - s**2)/(2*s), -r*(p**2 + r**2 - s**2)/(2*s)], [0, -r*(p**2 + r**2 - s**2)/(2*s), (p - s)*(p**2 + r**2 - s**2)/(2*s)]])",
+  "Edot": "Matrix([[4*s*(p**2 + r**2 - s**2), 0, 0], [0, -(p**5 + 3*p**4*s + 2*p**3*r**2 + 2*p**3*s**2 + 6*p**2*r**2*s - 2*p**2*s**3 + p*r**4 + 2*p*r**2*s**2 - 3*p*s**4 + 2*p_XX*s**2 + 3*r**4*s - 2*r**2*s**3 - s**5)/(2*s**2), -(p**4*r + 2*p**2*r**3 + 2*p**2*r*s**2 + r**5 + 2*r**3*s**2 - 3*r*s**4 + 2*r_XX*s**2)/(2*s**2)], [0, -(p**4*r + 2*p**2*r**3 + 2*p**2*r*s**2 + r**5 + 2*r**3*s**2 - 3*r*s**4 + 2*r_XX*s**2)/(2*s**2), (p**5 - 3*p**4*s + 2*p**3*r**2 + 2*p**3*s**2 - 6*p**2*r**2*s + 2*p**2*s**3 + p*r**4 + 2*p*r**2*s**2 - 3*p*s**4 + 2*p_XX*s**2 - 3*r**4*s + 2*r**2*s**3 + s**5)/(2*s**2)]])",
+  "Kdot": "Matrix([[-(p**2 + r**2 - 5*s**2)*(p**2 + r**2 - s**2)/(4*s**2), 0, 0], [0, -(p**3 + 3*p**2*s + p*r**2 - 5*p*s**2 + 3*r**2*s + s**3)/(2*s), -r*(p**2 + r**2 - 5*s**2)/(2*s)], [0, -r*(p**2 + r**2 - 5*s**2)/(2*s), (p**3 - 3*p**2*s + p*r**2 - 5*p*s**2 - 3*r**2*s - s**3)/(2*s)]])",
+  "L": "(5*p**4 + 10*p**2*r**2 + 6*p**2*s**2 + 5*r**4 + 6*r**2*s**2 - 11*s**4 - 4*s**2)/(2*s*(p**2 + r**2 - s**2))",
+  "L0": "-(-11*s**4 - 4*s**2)/(2*s**3)",
+  "P": "-16*(p*r_X - p_X*r)*(p**2 + r**2 - s**2)/s",
+  "Pdot_general": "-8*(5*p**5*r_X - 5*p**4*p_X*r + 10*p**3*r**2*r_X + 6*p**3*r_X*s**2 - 10*p**2*p_X*r**3 - 6*p**2*p_X*r*s**2 + 5*p*r**4*r_X + 6*p*r**2*r_X*s**2 - 11*p*r_X*s**4 - 5*p_X*r**5 - 6*p_X*r**3*s**2 + 11*p_X*r*s**4 - 4*p_X*r_XX*s**2 + 4*p_XX*r_X*s**2)/s**2",
+  "Pdot_harmonic": "-8*(p*r_X - p_X*r)*(5*p**4 + 10*p**2*r**2 + 6*p**2*s**2 + 5*r**4 + 6*r**2*s**2 - 11*s**4 - 4*s**2)/s**2",
+  "Ric3_dot": "Matrix([[0, 0, 0], [0, -p_XX, -r_XX], [0, -r_XX, p_XX]])",
+  "S": "-8*(p**2 + r**2)*(p*r_X - p_X*r)*(5*p**2 + 5*r**2 - 5*s**2 - 4)/s**2",
+  "anchor": {
+    "L": "-143323/20736",
+    "L0": "-20/3",
+    "P": "-297/1120",
+    "Pdot": "1576553/860160",
+    "S": "55913/860160"
+  },
+  "checks": {
+    "B_symmetry": "[0, 0, 0, 0, 0, 0, 0, 0, 0]",
+    "B_trace": "0",
+    "B_trace_derivative": "0",
+    "Bdot_symmetry": "[0, 0, 0, 0, 0, 0, 0, 0, 0]",
+    "E_trace": "0",
+    "E_trace_derivative": "0",
+    "hamiltonian": "0",
+    "initial_TI1_correspondence": "0",
+    "momentum_X": "0",
+    "tau_dot_constraint": "0"
+  },
+  "controls": {
+    "aligned_Pdot": "0",
+    "omit_B_connection_error": "-35739/57344",
+    "omit_B_volume_error": "-77319/286720",
+    "omit_Ricci_spatial_variation_error": "-88/105",
+    "omit_inverse_contraction_error": "0",
+    "one_component_Pdot": "0",
+    "zero_Pdot": "0"
+  },
+  "equation_terms": {
+    "B_connection": "-8*(p*r_X - p_X*r)*(p**2 + r**2 - s**2)*(p**2 + r**2 + 7*s**2)/s**2",
+    "B_partial": "-8*(p*r_X - p_X*r)*(p**2 + r**2 - 5*s**2)*(p**2 + r**2 - s**2)/s**2",
+    "B_volume": "-8*(p*r_X - p_X*r)*(p**2 + r**2 - s**2)*(p**2 + r**2 + 3*s**2)/s**2",
+    "E_algebraic": "-16*(p*r_X - p_X*r)*(p**2 + r**2 - s**2)*(p**2 + r**2 + 3*s**2)/s**2",
+    "Ricci_variation": "32*(p*r_X - p_X*r)",
+    "inverse_contraction": "0"
+  },
+  "python": "3.10.12",
+  "scope": "Exact general-symbol ADM/Gauss-Codazzi derivative; harmonic restriction only after full derivative",
+  "status": "PASS",
+  "sympy": "1.13.1"
+}

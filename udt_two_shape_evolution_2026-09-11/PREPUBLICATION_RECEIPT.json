@@ -1,0 +1,17 @@
+{
+  "sealed_utc": "2026-09-11T14:26:02.896779+00:00",
+  "command": [
+    "python3",
+    "udt_two_shape_evolution_2026-09-11/seal_checkpoint.py"
+  ],
+  "branch": "grok",
+  "baseline_head": "1de84bf0e8b8781201ede8d0486489a22dbf7d07",
+  "manifest_entries": 123,
+  "manifest_sha256": "ea892760a3044cd533ebaf5bc620c95c03dd881332cbbe61d3425ca10b171ad6",
+  "reviewed_final_pins_unchanged": 85,
+  "candidate_and_source_pins_unchanged": true,
+  "original46_name_status_sha256": "55e7c4508622f912730f9c068cc571c370b3977bc1110eb0a48a8218dbe024c2",
+  "TI2": "UNPROMOTED",
+  "publication": "FUTURE_AT_SEAL; do not infer commit/push success",
+  "outcome_metadata_review": "parent-owned after final fidelity, no scientific/doc mutation"
+}

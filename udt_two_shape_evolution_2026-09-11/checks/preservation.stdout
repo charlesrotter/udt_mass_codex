@@ -1,0 +1,29 @@
+{
+  "verified_utc": "2026-09-11T14:17:52.592492+00:00",
+  "verdict": "PASS",
+  "branch": "grok",
+  "HEAD": "1de84bf0e8b8781201ede8d0486489a22dbf7d07",
+  "local_origin_grok": "1de84bf0e8b8781201ede8d0486489a22dbf7d07",
+  "network_evidence": "banking push completion collected at13:47:22UTC; TI2 publication future",
+  "verified_pin_counts": {
+    "CANDIDATE_FREEZE.json": 33,
+    "PRECOMPUTATION_FREEZE.json": 7,
+    "SOURCE_PINS.json": 13,
+    "review/REVIEW_RECEIPT.json": 44
+  },
+  "candidate_unchanged": true,
+  "original_TI1_source_files_preserved": 103,
+  "current396_registry_byte_identical_to_banked_HEAD": true,
+  "original_unrelated_status_entry_count": 46,
+  "original_unrelated_status_sha256": "55e7c4508622f912730f9c068cc571c370b3977bc1110eb0a48a8218dbe024c2",
+  "exact_tracked_change_paths": [
+    "CURRENT_RESEARCH_PROGRAM.md",
+    "HANDOFF.md",
+    "INDEX.md",
+    "LIVE.md",
+    "UDT_RESEARCH_ROADMAP.md"
+  ],
+  "protected_payloads": "not inspected; status names only",
+  "backup_completeness": "UNVERIFIED",
+  "pre_reboot_unsaved_state": "UNVERIFIED"
+}

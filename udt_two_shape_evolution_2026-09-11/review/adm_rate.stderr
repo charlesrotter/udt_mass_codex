@@ -1,0 +1,4 @@
+Traceback (most recent call last):
+  File "/home/udt-admin/udt_mass_codex/udt_two_shape_evolution_2026-09-11/review/independent_adm_rate.py", line 81, in <module>
+    assert val!=0 if key.startswith('omit_') else val==0,(key,val)
+AssertionError: ('omit_inverse_contraction_error', 0)

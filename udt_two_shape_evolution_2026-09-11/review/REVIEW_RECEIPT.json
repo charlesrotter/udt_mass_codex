@@ -1,0 +1,167 @@
+{
+  "context": "/root/ti2_evolution_review",
+  "runtime_model_version": "UNATTESTED",
+  "first_observed_utc": "2026-09-11T13:48:06Z",
+  "completed_utc": "2026-09-11T14:07:37.678279+00:00",
+  "disposition": "VERIFIED-WITH-CAVEATS_CONDITIONAL_TI2_UNPROMOTED",
+  "scientific_repairs_required": 0,
+  "stage_A_sealed_before_author_TI2_science_exposure": true,
+  "whole_candidate_froze_after_reviewer_rate_message": true,
+  "parent_audit": "Actual post-repair full396 receipt/stdout/stderr inspected, attributed not rerun",
+  "author_scientific_replays": "NOT_PERFORMED; implementations/saved outputs inspected and authenticated",
+  "independence": {
+    "fresh_context": true,
+    "source_data_first_ADM_symbolic_route": true,
+    "post_exposure_standard_Fraction_full_Gauss_Codazzi_contraction": true,
+    "shared_symbolic_library": "SymPy1.13.1",
+    "different_model": "UNTESTED",
+    "formal_proof": "UNTESTED",
+    "human_specialist": "UNTESTED"
+  },
+  "scientific_and_metadata_runs": [
+    {
+      "command": [
+        "python3",
+        "udt_two_shape_evolution_2026-09-11/review/independent_adm_rate.py"
+      ],
+      "cwd": "/home/udt-admin/udt_mass_codex",
+      "started_utc": "2026-09-11T13:50:41.647050+00:00",
+      "duration_seconds": 0.5268639220157638,
+      "returncode": 1,
+      "timeout": false,
+      "address_space_bytes": 2147483648,
+      "cpu_seconds": 180,
+      "maxrss_kib": 57932
+    },
+    {
+      "command": [
+        "python3",
+        "udt_two_shape_evolution_2026-09-11/review/independent_adm_rate.py"
+      ],
+      "cwd": "/home/udt-admin/udt_mass_codex",
+      "started_utc": "2026-09-11T13:51:02.385701+00:00",
+      "duration_seconds": 0.6112307410221547,
+      "returncode": 0,
+      "timeout": false,
+      "address_space_bytes": 2147483648,
+      "cpu_seconds": 180,
+      "maxrss_kib": 46600
+    },
+    {
+      "command": [
+        "python3",
+        "udt_two_shape_evolution_2026-09-11/review/fraction_gauss_codazzi_rate.py"
+      ],
+      "cwd": "/home/udt-admin/udt_mass_codex",
+      "started_utc": "2026-09-11T13:56:18.042009+00:00",
+      "duration_seconds": 0.04160923301242292,
+      "returncode": 1,
+      "timeout": false,
+      "address_space_bytes": 2147483648,
+      "cpu_seconds": 180,
+      "maxrss_kib": 25656
+    },
+    {
+      "command": [
+        "python3",
+        "udt_two_shape_evolution_2026-09-11/review/fraction_gauss_codazzi_rate.py"
+      ],
+      "cwd": "/home/udt-admin/udt_mass_codex",
+      "started_utc": "2026-09-11T13:56:34.096367+00:00",
+      "duration_seconds": 0.9240725829731673,
+      "returncode": 0,
+      "timeout": false,
+      "address_space_bytes": 2147483648,
+      "cpu_seconds": 180,
+      "maxrss_kib": 12096
+    },
+    {
+      "command": [
+        "python3",
+        "udt_two_shape_evolution_2026-09-11/review/check_saved_correspondence.py"
+      ],
+      "cwd": "/home/udt-admin/udt_mass_codex",
+      "started_utc": "2026-09-11T13:58:55.516594+00:00",
+      "duration_seconds": 0.4061962769483216,
+      "returncode": 0,
+      "timeout": false,
+      "address_space_bytes": 2147483648,
+      "cpu_seconds": 180,
+      "maxrss_kib": 50708
+    },
+    {
+      "command": [
+        "python3",
+        "udt_two_shape_evolution_2026-09-11/review/fraction_gauss_codazzi_rate.py"
+      ],
+      "cwd": "/home/udt-admin/udt_mass_codex",
+      "started_utc": "2026-09-11T14:03:58.849290+00:00",
+      "duration_seconds": 1.396276035986375,
+      "returncode": 0,
+      "timeout": false,
+      "address_space_bytes": 2147483648,
+      "cpu_seconds": 180,
+      "maxrss_kib": 12288
+    },
+    {
+      "command": [
+        "python3",
+        "udt_two_shape_evolution_2026-09-11/review/check_candidate_inputs.py"
+      ],
+      "cwd": "/home/udt-admin/udt_mass_codex",
+      "started_utc": "2026-09-11T14:04:54.753323+00:00",
+      "duration_seconds": 0.04968208901118487,
+      "returncode": 0,
+      "timeout": false,
+      "address_space_bytes": 2147483648,
+      "cpu_seconds": 60,
+      "maxrss_kib": 20204
+    }
+  ],
+  "sha256": {
+    "udt_two_shape_evolution_2026-09-11/CANDIDATE_FREEZE.json": "d585362586d63e7656e28d11ff9ffcb728ab14b6bfcb4bec34c387fcaae26859",
+    "udt_two_shape_evolution_2026-09-11/DISCOVERY_AND_FREEZE.md": "d6c56a060f57f4826537ed238b86ed804452087437522d3f927258fd42b6a2d2",
+    "udt_two_shape_evolution_2026-09-11/INITIAL_CANDIDATE.md": "1d9b24c359636dd212f684b45793f2f02cfa8959df0e8a8dc0c19bcb5c8ae0a9",
+    "udt_two_shape_evolution_2026-09-11/review/INDEPENDENT_FRAME.md": "6d024fee09034569e772579084f4df23396843574bf5e3f5dd243e3cb96463ee",
+    "udt_two_shape_evolution_2026-09-11/review/INITIAL_fraction_gauss_codazzi_rate.py": "ee2080c2878928a24ef600c2915b56542e2392f166025d4f2f7f0879f8af8d37",
+    "udt_two_shape_evolution_2026-09-11/review/INITIAL_independent_adm_rate.py": "7451c883f6474b917b59e45387a3931647ff6ca89a59e3e07bcc9365cba534b8",
+    "udt_two_shape_evolution_2026-09-11/review/REVIEW.md": "2d4df848a6c5eebcdbe73f4dcc735b8ad8839b8d59a2da6250caae07c7d47e9b",
+    "udt_two_shape_evolution_2026-09-11/review/STAGE_A.md": "fe954cc99357a687df685e8965824c4412edf4ebcfe409eee264e57537693411",
+    "udt_two_shape_evolution_2026-09-11/review/STAGE_A_SEAL.json": "655cfc18e62714ee3e2be1d5f95207f6eef412adf1968bb9477cefeaa2563ae7",
+    "udt_two_shape_evolution_2026-09-11/review/adm_rate.capture_provenance.json": "9a6d17495e03a373af0f1528767acf94d7648528fe942062a195649450f2e164",
+    "udt_two_shape_evolution_2026-09-11/review/adm_rate.json": "62f715c99a2eca217d51cfe32bb857a60f917671b31f1b36e6c369d9daf64c66",
+    "udt_two_shape_evolution_2026-09-11/review/adm_rate.stderr": "8e2d0ea504de4e4349c5c4ef4595e705d8a3837d2e4416c2e2c774a41b423f29",
+    "udt_two_shape_evolution_2026-09-11/review/adm_rate.stdout": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "udt_two_shape_evolution_2026-09-11/review/adm_rate_repaired.capture_provenance.json": "9a6d17495e03a373af0f1528767acf94d7648528fe942062a195649450f2e164",
+    "udt_two_shape_evolution_2026-09-11/review/adm_rate_repaired.json": "bf245226cc39518ea51950c77519cabddb3d9a2c533fbc5d0b4fb642faf4be0d",
+    "udt_two_shape_evolution_2026-09-11/review/adm_rate_repaired.stderr": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "udt_two_shape_evolution_2026-09-11/review/adm_rate_repaired.stdout": "75b62b9549d00ebeec500d3a88e7e2bca2cc70e62cda5aafef75481652c47587",
+    "udt_two_shape_evolution_2026-09-11/review/candidate_inputs.capture_provenance.json": "e28be6531a2c0f3c1a812f6d32fd61a95284ad91d57dc3bbfb70a2ea68ae136e",
+    "udt_two_shape_evolution_2026-09-11/review/candidate_inputs.json": "a23b9d83f1cee367a9ba6c9a46e72e9bf9b500be0e40e09d4c0cd024fb322ffa",
+    "udt_two_shape_evolution_2026-09-11/review/candidate_inputs.stderr": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "udt_two_shape_evolution_2026-09-11/review/candidate_inputs.stdout": "37ec500b3772811c6966662aede41e01afc1b2d0c905ca4f5f2fce4e48ab92a8",
+    "udt_two_shape_evolution_2026-09-11/review/check_candidate_inputs.py": "ea5b470663e4be8849e346a6550f6aee253aaee01b54258842373c6523fc7d96",
+    "udt_two_shape_evolution_2026-09-11/review/check_saved_correspondence.py": "51fe992e37c42fb04c6854fac95a1538d82dea5c3df26d0b20d63c1cd955319d",
+    "udt_two_shape_evolution_2026-09-11/review/fraction_candidate_anchor.capture_provenance.json": "34386ec36df16fd4be928805b2d256423d9f8d41ea61938d81cf7cce7a584dc1",
+    "udt_two_shape_evolution_2026-09-11/review/fraction_candidate_anchor.json": "ce91241c2a9a42cc30eea7cb45eb16a29385a9092b8f1622c83a669d2b14bc68",
+    "udt_two_shape_evolution_2026-09-11/review/fraction_candidate_anchor.stderr": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "udt_two_shape_evolution_2026-09-11/review/fraction_candidate_anchor.stdout": "bae0f1389633ee6ced580773fe7e508b49d88bf2ec9ea92c18bb57cbad51b20e",
+    "udt_two_shape_evolution_2026-09-11/review/fraction_full_rate.capture_provenance.json": "34386ec36df16fd4be928805b2d256423d9f8d41ea61938d81cf7cce7a584dc1",
+    "udt_two_shape_evolution_2026-09-11/review/fraction_full_rate.json": "a61c5e9fe0c006937ab3ae672f336ed715797ae7b9ad9b01ab2e3d63d61d8e69",
+    "udt_two_shape_evolution_2026-09-11/review/fraction_full_rate.stderr": "1b32a41446086dbac38bb656120cfff2ab9453bc48bf5bb82cca2f56e9170539",
+    "udt_two_shape_evolution_2026-09-11/review/fraction_full_rate.stdout": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "udt_two_shape_evolution_2026-09-11/review/fraction_full_rate_repaired.capture_provenance.json": "34386ec36df16fd4be928805b2d256423d9f8d41ea61938d81cf7cce7a584dc1",
+    "udt_two_shape_evolution_2026-09-11/review/fraction_full_rate_repaired.json": "d6af52a3e2fb5b59cc6c869152d8d1d07262deabb0afce3c9f7f8d0ae2e434cf",
+    "udt_two_shape_evolution_2026-09-11/review/fraction_full_rate_repaired.stderr": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "udt_two_shape_evolution_2026-09-11/review/fraction_full_rate_repaired.stdout": "21068f4ca7be7301d92786952721bcecebdba0f132f111f382d6af6b8258520f",
+    "udt_two_shape_evolution_2026-09-11/review/fraction_gauss_codazzi_rate.py": "531d08ffd590841788ec3040cb26f01c8abeb21c779483a2c74b532f20a8f1bd",
+    "udt_two_shape_evolution_2026-09-11/review/fraction_gauss_codazzi_rate_before_candidate_anchor.py": "71eb3f1a76b4c7a8120b53e3530878ba3e7500a3246fa19f0cfa6a18ab99504b",
+    "udt_two_shape_evolution_2026-09-11/review/independent_adm_rate.py": "5d27953eab735c34762105753349cc3361ff80f2fab404497d87b4d769361045",
+    "udt_two_shape_evolution_2026-09-11/review/saved_correspondence.capture_provenance.json": "026054277676e928483305c3b9511f75c88197778f0bf25feece40d3b2f8fb44",
+    "udt_two_shape_evolution_2026-09-11/review/saved_correspondence.json": "e45325538bd78cfa546c92ada454551b1d15594d9a4b5a0879d8659c75500ecd",
+    "udt_two_shape_evolution_2026-09-11/review/saved_correspondence.stderr": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "udt_two_shape_evolution_2026-09-11/review/saved_correspondence.stdout": "1ba8f2647b4da43dbd5ac02e1057b6820fa0dabba2ff9b3a51cd0a7bf0a141c5",
+    "udt_two_shape_evolution_2026-09-11/review/seal_review.py": "c14588f687c5bb4d063e82b9a8a8c0b73498adeed7284600f6e757bde713d4ea",
+    "udt_two_shape_evolution_2026-09-11/review/seal_stage_a.py": "d398aadcbbeabb0e6f334dc5a28962ee11343f0ef150e0fc0715efcc693c7ba6"
+  }
+}

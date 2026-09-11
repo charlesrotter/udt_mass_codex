@@ -1,0 +1,167 @@
+{
+  "python": "3.10.12",
+  "sympy": "1.13.1",
+  "source_stdout_sha256": "e2cf629a5a09f617f9e795663bd232e91926d895f1c7397a230dbbd2e16748c3",
+  "classification": "source-exposed parent exact analysis and saved-quantity recomputation, not independent scientific review",
+  "checks": [
+    {
+      "name": "E_T_compact_identity",
+      "components": 9,
+      "nonzero": []
+    },
+    {
+      "name": "B_T_compact_identity",
+      "components": 9,
+      "nonzero": []
+    },
+    {
+      "name": "inverse_contraction_term_vanishes_for_this_initial_data",
+      "components": 1,
+      "nonzero": []
+    },
+    {
+      "name": "general_jet_rate_compact_identity",
+      "components": 1,
+      "nonzero": []
+    },
+    {
+      "name": "saved_quantity_recontracted_with_explicit_indices",
+      "components": 1,
+      "nonzero": []
+    },
+    {
+      "name": "harmonic_rate",
+      "components": 1,
+      "nonzero": []
+    },
+    {
+      "name": "matched_small_amplitude_reference",
+      "components": 1,
+      "nonzero": []
+    },
+    {
+      "name": "fractional_rate_closed_form",
+      "components": 1,
+      "nonzero": []
+    },
+    {
+      "name": "finite_amplitude_rate_gap",
+      "components": 1,
+      "nonzero": []
+    },
+    {
+      "name": "undivided_remainder",
+      "components": 1,
+      "nonzero": []
+    },
+    {
+      "name": "matched_order4_completion_independent",
+      "components": 1,
+      "nonzero": []
+    },
+    {
+      "name": "matched_order5_zero",
+      "components": 1,
+      "nonzero": []
+    },
+    {
+      "name": "original_background_order4_completion_dependence",
+      "components": 1,
+      "nonzero": []
+    },
+    {
+      "name": "original_background_order5_if_c3_present",
+      "components": 1,
+      "nonzero": []
+    },
+    {
+      "name": "L0_slope_at_s0",
+      "components": 1,
+      "nonzero": []
+    },
+    {
+      "name": "background_E_times_second_order_B_T",
+      "components": 1,
+      "nonzero": []
+    },
+    {
+      "name": "first_order_curvature_rate_products",
+      "components": 1,
+      "nonzero": []
+    },
+    {
+      "name": "leading_full_rate_decomposition",
+      "components": 1,
+      "nonzero": []
+    },
+    {
+      "name": "background_term_half_at_s0_harmonic",
+      "components": 1,
+      "nonzero": []
+    },
+    {
+      "name": "rational_safe_witness_has_strict_negative_fractional_gap",
+      "components": 2,
+      "nonzero": []
+    },
+    {
+      "name": "equal_quadrature_original_background_order4_cancellation",
+      "components": 1,
+      "nonzero": []
+    },
+    {
+      "name": "equal_quadrature_matched_order4_survives",
+      "components": 1,
+      "nonzero": []
+    },
+    {
+      "name": "outside_initial_P_cancels",
+      "components": 1,
+      "nonzero": []
+    },
+    {
+      "name": "outside_initial_P_rate_nonzero",
+      "components": 1,
+      "nonzero": []
+    },
+    {
+      "name": "six_original_records_recover_K",
+      "components": 9,
+      "nonzero": []
+    },
+    {
+      "name": "six_original_mixed_second_records_recover_K_X",
+      "components": 9,
+      "nonzero": []
+    },
+    {
+      "name": "harmonic_P_T_from_second_record_jets",
+      "components": 1,
+      "nonzero": []
+    }
+  ],
+  "compact_P_T": "32*p_X*r_XX - 32*p_XX*r_X - 8*(11*s + (5*p**2 + 5*r**2)/s)*(p*r_X - p_X*r)*(p**2 + r**2 - s**2)/s",
+  "L0": "(11*s**2 + 4)/(2*s)",
+  "L_minus_L0": "(5 + 4/(-p**2 - r**2 + s**2))*(p**2 + r**2)/(2*s)",
+  "S": "-8*(p**2 + r**2)*(p*r_X - p_X*r)*(5*p**2 + 5*r**2 - 5*s**2 - 4)/s**2",
+  "s0": "-2/3",
+  "L0_s0": "-20/3",
+  "background_E0_BD2_contribution": "80*s**2*(p*r_X - p_X*r)",
+  "first_order_curvature_rate_products": "8*(p*r_X*s**2 - p_X*r*s**2 + 4*p_X*r_XX - 4*p_XX*r_X)",
+  "matched_S_order4": "112*(p**2 + r**2)*(p*r_X - p_X*r)",
+  "original_S_order4": "16*(p*r_X - p_X*r)*(-2*c2 + 21*p**2 + 21*r**2)/3",
+  "original_S_order5": "-32*c3*(p*r_X - p_X*r)/3",
+  "exact_rational_witness": {
+    "kappa": "391/1200",
+    "P": "-391/3000",
+    "P_T": "635599/720000",
+    "L0": "-20/3",
+    "L": "-635599/93840",
+    "L_minus_L0": "-3333/31280",
+    "S": "1111/80000"
+  },
+  "safe_domain_sign_proof": "s<0,0<d<s^2 for nonaligned data; hence d/(2s)*(5+4/(s^2-d))<0 and L0<0",
+  "record_order": "second total-order q_T and q_TX SUFFICIENT ONLY with supplied harmonic family/Ric=0/flat gamma; general metric third jet sufficient; no minimality claim",
+  "outside_control": "P=0, P_T=32s^2; outside original amplitude-safe box, analytic constrained datum considered individually",
+  "completion_control": "equal quadrature with c(epsilon)=(21/2)a^2 epsilon^2 cancels original-background order4; matched order4 remains112a^4; algebraically chosen after discovery"
+}

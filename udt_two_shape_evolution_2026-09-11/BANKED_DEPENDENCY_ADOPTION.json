@@ -1,0 +1,21 @@
+{
+  "utc": "2026-09-11T13:47:22.292997+00:00",
+  "banking_commit": "1de84bf0e8b8781201ede8d0486489a22dbf7d07",
+  "origin_grok": "1de84bf0e8b8781201ede8d0486489a22dbf7d07",
+  "commit_and_push": "ACTUAL_PASS after collecting completed push tool",
+  "early_metadata_probe": "equality assertion failed while push session48939 was still running; no adoption file written or success claimed; subsequent completed push collected before this successful recheck",
+  "tracked_dirt": "NONE",
+  "original46_status_sha256": "55e7c4508622f912730f9c068cc571c370b3977bc1110eb0a48a8218dbe024c2",
+  "G413": "ACCEPTED_ONLY_AT_FULL_REVIEWED_CONDITIONAL_SCOPE",
+  "banking_scope": "137files; original395 rows and103TI1files preserved",
+  "actual_post_repair_full396_seconds": 402.202254874981,
+  "final_navigation_tests": "539passed/1duplicate-wrapperdeselected",
+  "banking_review_context": "/root/ti1_banking_review",
+  "reviewer_first_observed_utc": "2026-09-11T13:04:34Z",
+  "reviewer_final_seal_utc": "2026-09-11T13:43:25.874357Z",
+  "runtime_model_version": "UNATTESTED",
+  "TI2": "UNPROMOTED; no scientific output produced before this record",
+  "hard_return_utc": "2026-09-11T16:00:50Z",
+  "backup_completeness": "UNVERIFIED",
+  "pre_reboot_unsaved_state": "UNVERIFIED"
+}

@@ -1,0 +1,22 @@
+{
+  "mutant": "freeze_third_time",
+  "checks": [
+    {
+      "name": "original_Ricci",
+      "components": 16,
+      "nonzero": []
+    },
+    {
+      "name": "time_derivative_original_Ricci_including_inverse_metric",
+      "components": 16,
+      "nonzero": [
+        "6*(p**2 + r**2)*(p**2 + r**2 - 2*s**2)/s",
+        "-(p**2 + r**2)*(p**2 + r**2 - 6*s**2)/s",
+        "-(p**5 + 5*p**4*s + 2*p**3*r**2 + 2*p**3*s**2 + 10*p**2*r**2*s - 6*p**2*s**3 + p*r**4 + 2*p*r**2*s**2 - 3*p*s**4 + 2*p_XX*s**2 + 5*r**4*s - 6*r**2*s**3)/(2*s**2)",
+        "-(p**4*r + 2*p**2*r**3 + 2*p**2*r*s**2 + r**5 + 2*r**3*s**2 - 3*r*s**4 + 2*r_XX*s**2)/(2*s**2)",
+        "-(p**4*r + 2*p**2*r**3 + 2*p**2*r*s**2 + r**5 + 2*r**3*s**2 - 3*r*s**4 + 2*r_XX*s**2)/(2*s**2)",
+        "(p**5 - 5*p**4*s + 2*p**3*r**2 + 2*p**3*s**2 - 10*p**2*r**2*s + 6*p**2*s**3 + p*r**4 + 2*p*r**2*s**2 - 3*p*s**4 + 2*p_XX*s**2 - 5*r**4*s + 6*r**2*s**3)/(2*s**2)"
+      ]
+    }
+  ]
+}

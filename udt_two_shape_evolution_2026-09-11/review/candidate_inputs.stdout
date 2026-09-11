@@ -1,0 +1,103 @@
+{
+  "status": "PASS",
+  "candidate_pins": 33,
+  "source_pins": 13,
+  "exact_registry_rows": 4,
+  "author_captures_inspected_not_replayed": [
+    {
+      "name": "initial_rate",
+      "expected_exit": 0,
+      "receipt": {
+        "command": [
+          "python3",
+          "udt_two_shape_evolution_2026-09-11/initial_rate.py"
+        ],
+        "cwd": "/home/udt-admin/udt_mass_codex",
+        "started_utc": "2026-09-11T13:47:55.818707+00:00",
+        "duration_seconds": 1.2766266299877316,
+        "returncode": 0,
+        "timeout": false,
+        "address_space_bytes": 2147483648,
+        "cpu_seconds": 180,
+        "maxrss_kib": 47528
+      }
+    },
+    {
+      "name": "mutant_omit_spatial_ricci_rate",
+      "expected_exit": 1,
+      "receipt": {
+        "command": [
+          "python3",
+          "udt_two_shape_evolution_2026-09-11/initial_rate.py",
+          "--mutant",
+          "omit_spatial_ricci_rate"
+        ],
+        "cwd": "/home/udt-admin/udt_mass_codex",
+        "started_utc": "2026-09-11T13:53:09.706647+00:00",
+        "duration_seconds": 1.0385711920098402,
+        "returncode": 1,
+        "timeout": false,
+        "address_space_bytes": 2147483648,
+        "cpu_seconds": 180,
+        "maxrss_kib": 58940
+      }
+    },
+    {
+      "name": "mutant_freeze_third_time",
+      "expected_exit": 1,
+      "receipt": {
+        "command": [
+          "python3",
+          "udt_two_shape_evolution_2026-09-11/initial_rate.py",
+          "--mutant",
+          "freeze_third_time"
+        ],
+        "cwd": "/home/udt-admin/udt_mass_codex",
+        "started_utc": "2026-09-11T13:53:10.767008+00:00",
+        "duration_seconds": 0.9381716680363752,
+        "returncode": 1,
+        "timeout": false,
+        "address_space_bytes": 2147483648,
+        "cpu_seconds": 180,
+        "maxrss_kib": 58940
+      }
+    },
+    {
+      "name": "parent_analysis",
+      "expected_exit": 0,
+      "receipt": {
+        "command": [
+          "python3",
+          "udt_two_shape_evolution_2026-09-11/analyze_initial_rate.py"
+        ],
+        "cwd": "/home/udt-admin/udt_mass_codex",
+        "started_utc": "2026-09-11T13:54:00.857341+00:00",
+        "duration_seconds": 2.5481601229985245,
+        "returncode": 0,
+        "timeout": false,
+        "address_space_bytes": 2147483648,
+        "cpu_seconds": 180,
+        "maxrss_kib": 53172
+      }
+    },
+    {
+      "name": "parent_analysis_order_extension",
+      "expected_exit": 0,
+      "receipt": {
+        "command": [
+          "python3",
+          "udt_two_shape_evolution_2026-09-11/analyze_initial_rate.py"
+        ],
+        "cwd": "/home/udt-admin/udt_mass_codex",
+        "started_utc": "2026-09-11T14:00:32.318220+00:00",
+        "duration_seconds": 2.833191427984275,
+        "returncode": 0,
+        "timeout": false,
+        "address_space_bytes": 2147483648,
+        "cpu_seconds": 180,
+        "maxrss_kib": 54024
+      }
+    }
+  ],
+  "original46_name_status_preserved": true
+}

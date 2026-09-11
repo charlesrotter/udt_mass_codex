@@ -1,0 +1,4 @@
+  File "/home/udt-admin/udt_mass_codex/udt_two_shape_evolution_2026-09-11/review/fraction_gauss_codazzi_rate.py", line 103
+    cov[der,*q]=value
+            ^
+SyntaxError: invalid syntax
