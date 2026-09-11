@@ -1,0 +1,6 @@
+Traceback (most recent call last):
+  File "/home/udt-admin/udt_mass_codex/udt_two_shape_nonlinear_interaction_2026-09-11/construction_partner/raw_geometry.py", line 52, in <module>
+    check('all_original_initial_constraints', [hamiltonian.subs(k,chosen_k), *momenta])
+  File "/home/udt-admin/udt_mass_codex/udt_two_shape_nonlinear_interaction_2026-09-11/construction_partner/raw_geometry.py", line 32, in check
+    raise AssertionError(name + ': ' + repr(failures))
+AssertionError: all_original_initial_constraints: ['-2*(p**2 + r**2)']

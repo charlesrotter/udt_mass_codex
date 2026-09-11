@@ -1,0 +1,28 @@
+{
+  "sealed_utc": "2026-09-11T05:24:51.587463+00:00",
+  "elapsed_since_launch_seconds": 2220.587463,
+  "hard_deadline_utc": "2026-09-11T07:47:51+00:00",
+  "baseline_head": "b318072a9403d6acdd3a6d5749e1b366d76d29c5",
+  "origin_grok_at_seal": "b318072a9403d6acdd3a6d5749e1b366d76d29c5",
+  "final_fetch_pull": "ACTUALLY_PASSED_ALREADY_UP_TO_DATE_2026-09-11_05:19UTC",
+  "result": "VERIFIED_WITH_CAVEATS_CONDITIONAL_CANDIDATE_UNPROMOTED",
+  "scientific_repairs": 0,
+  "fresh_allocations": [
+    "/root/two_shape_construction",
+    "/root/two_shape_adversarial"
+  ],
+  "review_followup": "same adversarial context; no third allocation",
+  "runtime_model_version": "UNATTESTED",
+  "final_review_completed_utc": "2026-09-11T05:23:56.185158+00:00",
+  "actual_audit": "launch_full395 PASS 407.580018650s",
+  "actual_final_guards": "500 passed,1 deselected; wrapper separately covered by launch full395",
+  "accepted_registry_and_scientific_sources": "UNCHANGED_AUTHENTICATED",
+  "original46_status_sha256": "55e7c4508622f912730f9c068cc571c370b3977bc1110eb0a48a8218dbe024c2",
+  "protected_payloads": "NOT_READ_HASHED_MINED_OR_MODIFIED",
+  "backup_completeness": "UNVERIFIED",
+  "pre_reboot_unsaved_state": "UNVERIFIED",
+  "promotion_gate": "Charles separate exact-scope authorization",
+  "successor": "NONE_AUTHORIZED",
+  "publication": "NOT_YET_PERFORMED; actual git output owns outcome",
+  "manifest": "ARTIFACT_SHA256SUMS; correspondence only, not truth/independence/chronology"
+}

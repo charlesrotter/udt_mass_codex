@@ -1,0 +1,4 @@
+Traceback (most recent call last):
+  File "/home/udt-admin/udt_mass_codex/udt_two_shape_nonlinear_interaction_2026-09-11/review/check_final_fidelity.py", line 38, in <module>
+    assert 'Git could not create threaded lstat under the256MiB metadata cap' in (pkg/'SESSION_RECORD.md').read_text()
+AssertionError

@@ -259,23 +259,38 @@ authorization. A coverage row is not a completeness theorem or a scientific prem
 |---|---|---|
 | Exact metric/kernel, stages1–2 | ER1 COMPLETE, reviewed; G405 conditionally banked at exact scope | `udt_exact_metric_kernel_expansion_2026-09-10/DECISION_BRIEF.md` and `udt_exact_metric_kernel_expansion_2026-09-10/review/REVIEW.md`: variable lapse/rest form/time-live shift, exact rotation interaction; supplied configuration class only |
 | Joint realization, stage3 | ER1's finite marked-record recipe COMPLETE at reviewed scope | Six common directional records plus density and derivatives; SPD/shift coherence and actual shared immersions; no physical pair population or arbitrary-network theorem |
-| Conditional nonlinear developments, stage4 | Next discussion line; no new dispatch | Select an unexamined interaction/restriction in reviewed NR1/NR2 or NE1 and state its equation/premises; no comparison equation silently becomes UDT's law |
-| Reach/persistence, stage5 | ER1 local hypotheses and omission controls checked; broader study not dispatched | Common marking/calibration and local smoothness remain supplied; native assembly, global reach, genericity and dynamical persistence remain open |
+| Conditional nonlinear developments, stage4 | TI1 reviewed conditional two-shape comparison; UNPROMOTED | `udt_two_shape_nonlinear_interaction_2026-09-11/REVIEWED_RESULT.md` and its `review/REVIEW.md`: complete analytic Ric=0 data/developments, initial mixed curvature distinction, phase/completion controls and retained-density join; no native equation adoption or later generated coupling |
+| Reach/persistence, stage5 | TI1 proves datum-dependent local retention of nonzero curvature; broader study not dispatched | Common marking/calibration, compact analytic data and conditional equation remain supplied; native assembly, global reach, genericity, sustained evolution and stability remain open |
 
 ER1 returned the reviewed conditional result, actual witness/record compatibility and lay brief;
 its exact execution and final fidelity receipts are in that package. The two-hour research authorization
 is spent. Charles separately authorized the reviewed backlog banking:30 entries G383--G412,
 with source/review gates and actual full395 PASS. `udt_reviewed_backlog_banking_2026-09-10/BANKING_RECORD.md`
 and `DISPOSITIONS.tsv` in that package own exact scopes, grades, checks and remaining gates.
-All original science is preserved. Later discovery stages remain separate decisions; stop for discussion.
+All original science is preserved. Charles then authorized TI1's bounded construction/check/review
+cycle; it returned the reviewed conditional result without scientific repair. Its three-hour work
+order closes at this return, with no automatic successor. TI1 disposition: HOLD for Charles's
+separate exact-scope promotion authorization; controls remain controls. This is a named ownership
+gate, not a requirement to identify physics before banking valid conditional mathematics.
+`udt_two_shape_nonlinear_interaction_2026-09-11/DECISION_BRIEF.md` and `SESSION_RECORD.md`
+own the lay return, actual checks, context/exposure record and preservation. Stop for discussion.
 
 Learning to carry forward: an exact time-live shift interaction can disappear under a stationarity
 restriction or first-order shift-amplitude expansion about zero shift; normalized pair outputs can lose rotation-relevant density; a
 time-dependent tape coordinate can change the clock congruence. These are scoped findings about
 supplied geometry/data, not evidence that every approximation fails or emerging physics is found.
-G166's native assembly boundary and G176's working completion remain explicit. The next work
-order must connect the desired development question to an exact source-owned equation and actual
-compatible data; naming that equation as a comparison does not authorize adopting it as UDT.
+G166's native assembly boundary and G176's working completion remain explicit. TI1 connects actual
+conditional local developments to the record calculation: a phased two-shape curvature signature
+can coexist with identical normalized pair-germ fields, while original densities and mixed second
+time/space derivatives recover it. Exact completion choices change its value; an outside-neighborhood
+control cancels it. The leading quadratic signature can already be computed from first-order
+curvature, so this does not show that linear methods generally fail. It is present in complete
+initial data, not newly generated interaction or energy exchange.
+
+Next scientific discussion, after the explicit promotion disposition: whether an invariant comparison
+along actual developments detects joint evolution beyond the initial signature, across lawful
+completions. Any such study needs a separate bounded question and work order. Native equation/assembly
+questions remain parallel open work; naming a comparison equation never authorizes adopting it as UDT.
 
 ### What the concern means
 

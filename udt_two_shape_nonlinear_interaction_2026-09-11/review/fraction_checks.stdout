@@ -1,0 +1,70 @@
+{
+  "status": "PASS",
+  "python": "3.10.12",
+  "library": "Python standard fractions only",
+  "anchor": {
+    "p": "1/8",
+    "r": "1/12",
+    "p_X": "-1/10",
+    "r_X": "1/7",
+    "s": "-2/3"
+  },
+  "P": "-297/1120",
+  "checks": [
+    "Gauss-Codazzi full contraction versus candidate rational value",
+    "all original Ricci entries from independent Gauss-Codazzi tensor",
+    "first-pair Hodge square at generic rational anchor",
+    "zero exact P",
+    "p_only exact P",
+    "r_only exact P",
+    "aligned exact P",
+    "outside_box_cancellation exact P",
+    "proper boosted observer full pseudoscalar",
+    "boosted electric-magnetic contraction",
+    "nonorthonormal coordinates with transformed metric and volume",
+    "orientation reversal with positive frame epsilon flips P",
+    "transforming orientation along with reflected coordinates preserves scalar",
+    "six density time jets recover K by linear-system solve",
+    "six common mixed X-time jets recover K_X by linear-system solve",
+    "record-only reconstructed curvature pseudoscalar",
+    "axis time jets unchanged under offdiagonal sign control",
+    "axis mixed jets unchanged under offdiagonal sign control",
+    "same axis records leave oriented P ambiguous",
+    "omitted quadratic completion has original nonzero Hamiltonian"
+  ],
+  "adverse_controls": [
+    {
+      "name": "boost really changes an electric curvature component",
+      "difference": "-12393/32768"
+    },
+    {
+      "name": "omitting nonorthonormal volume density is detected",
+      "difference": "20691/78400"
+    },
+    {
+      "name": "wrong overall P sign rejected at nonzero anchor",
+      "difference": "297/560"
+    },
+    {
+      "name": "wrong Hodge/contraction half factor rejected",
+      "difference": "297/2240"
+    },
+    {
+      "name": "setting mixed X-time density jets to zero changes P",
+      "difference": "297/1120"
+    },
+    {
+      "name": "retained mixed-direction jets resolve that ambiguity",
+      "difference": "1/3"
+    },
+    {
+      "name": "homogeneous completion changes exact P",
+      "difference": "869/23520"
+    },
+    {
+      "name": "invalid completion is rejected",
+      "difference": "-13/288"
+    }
+  ],
+  "limits": "Finite exact rational tensor/record/frame checks; not PDE evolution or general theorem proof"
+}

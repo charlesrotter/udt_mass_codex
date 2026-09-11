@@ -1,0 +1,42 @@
+{
+  "status": "PASS",
+  "utc": "2026-09-11T05:21:51.274643+00:00",
+  "head": "b318072a9403d6acdd3a6d5749e1b366d76d29c5",
+  "local_origin_ref_matches": true,
+  "next_gate_identical": true,
+  "counts": {
+    "LIVE.md": {
+      "lines": 112,
+      "words": 898
+    },
+    "HANDOFF.md": {
+      "lines": 84,
+      "words": 596
+    },
+    "CURRENT_RESEARCH_PROGRAM.md": {
+      "lines": 117,
+      "words": 1094
+    },
+    "INDEX.md": {
+      "lines": 118,
+      "words": 566
+    },
+    "UDT_RESEARCH_ROADMAP.md": {
+      "lines": 395,
+      "words": 3681
+    }
+  },
+  "all_prior_review_receipt_pins_match_current_bytes": true,
+  "brief_chronology": "Prior review receipt pins seal-time final brief, not authentication of an earlier unsealed draft read; final brief read completely in this followup.",
+  "parent_guard_result": "500 passed, 1 deselected, actual streams inspected; not rerun here",
+  "sha256": {
+    "LIVE.md": "1391cd338bffdf2069958beceeb8a9049694ff9c18a5e439ad0a0211c824c2bf",
+    "HANDOFF.md": "f9f8fe5a363050320357271c3efd0ec72127d162096e08a2557a74f4901ca641",
+    "CURRENT_RESEARCH_PROGRAM.md": "65d9f36979bc6da47dcfd59700d0d83b401857df695959ed8f3c75951ab32fee",
+    "INDEX.md": "18e3f52610525821490fe539fa6c6c0faffd5edc279836823872d0c49f47d067",
+    "UDT_RESEARCH_ROADMAP.md": "159652dbdb0d385fe045ba0f2d851469697d3b85976e6ccf954136f8037fcb99",
+    "udt_two_shape_nonlinear_interaction_2026-09-11/REVIEWED_RESULT.md": "cdf0d26269044483ae7355f2769b3e80478dbfa170975a0feaf09e9bb2992d17",
+    "udt_two_shape_nonlinear_interaction_2026-09-11/DECISION_BRIEF.md": "0b43239baecc9433198fe8809ffae98e922808cf25653c1c1d3d42f35c828f96",
+    "udt_two_shape_nonlinear_interaction_2026-09-11/SESSION_RECORD.md": "1c251f09d62c3403596ee4c074aa3fa49659ea566f8f0f98fb2cecf933370d9e"
+  }
+}

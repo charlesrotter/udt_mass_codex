@@ -1,0 +1,14 @@
+{
+  "command": [
+    "python3",
+    "udt_two_shape_nonlinear_interaction_2026-09-11/verify_preservation.py"
+  ],
+  "cwd": "/home/udt-admin/udt_mass_codex",
+  "started_utc": "2026-09-11T05:18:58.204957+00:00",
+  "duration_seconds": 0.060100211994722486,
+  "returncode": 0,
+  "timeout": false,
+  "address_space_bytes": 2147483648,
+  "cpu_seconds": 60,
+  "maxrss_kib": 15936
+}

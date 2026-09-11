@@ -1,0 +1,14 @@
+{
+  "command": [
+    "python3",
+    "udt_two_shape_nonlinear_interaction_2026-09-11/review/fraction_bivector_records.py"
+  ],
+  "cwd": "/home/udt-admin/udt_mass_codex",
+  "started_utc": "2026-09-11T05:12:42.411242+00:00",
+  "duration_seconds": 0.4595663779764436,
+  "returncode": 0,
+  "timeout": false,
+  "address_space_bytes": 2147483648,
+  "cpu_seconds": 180,
+  "maxrss_kib": 11712
+}

@@ -1,0 +1,60 @@
+{
+  "mutant": "freeze_second_time",
+  "checks": [
+    {
+      "name": "all_original_initial_constraints",
+      "components": 4,
+      "nonzero_residuals": []
+    },
+    {
+      "name": "all_spatial_Ricci_equations_from_raw_metric",
+      "components": 9,
+      "nonzero_residuals": [
+        "(-9*kappa**2 + 18*kappa*s + 5)/9",
+        "-(9*kappa*p - 9*kappa*s + 18*p**2 - 18*p*s + 18*r**2 - 2)/9",
+        "r*(-kappa + 2*s)",
+        "r*(-kappa + 2*s)",
+        "-(-9*kappa*p - 9*kappa*s + 18*p**2 + 18*p*s + 18*r**2 - 2)/9"
+      ]
+    }
+  ],
+  "observations": {
+    "full_initial_constraint_expressions": {
+      "R3": "0 (constant initial metric)",
+      "H": "-2*(-2*kappa*s + p**2 + r**2 - s**2)",
+      "M": [
+        "0",
+        "0",
+        "0"
+      ],
+      "completion": "(p**2 + r**2 - s**2)/(2*s)",
+      "omit_completion_H": "-2*(p**2 + r**2)"
+    },
+    "raw_Ricci_before_completion": [
+      [
+        "kappa**2 + 2*p**2 + 2*r**2 + 2*s**2 - 1",
+        "0",
+        "0",
+        "0"
+      ],
+      [
+        "0",
+        "(-9*kappa**2 + 18*kappa*s + 5)/9",
+        "0",
+        "0"
+      ],
+      [
+        "0",
+        "0",
+        "-(9*kappa*p - 9*kappa*s + 18*p**2 - 18*p*s + 18*r**2 - 2)/9",
+        "r*(-kappa + 2*s)"
+      ],
+      [
+        "0",
+        "0",
+        "r*(-kappa + 2*s)",
+        "-(-9*kappa*p - 9*kappa*s + 18*p**2 + 18*p*s + 18*r**2 - 2)/9"
+      ]
+    ]
+  }
+}

@@ -1,0 +1,394 @@
+{
+  "status": "PASS",
+  "completed_utc": "2026-09-11T05:06:32.561536+00:00",
+  "context": "/root/two_shape_construction",
+  "model_runtime": "UNATTESTED",
+  "HEAD": "b318072a9403d6acdd3a6d5749e1b366d76d29c5",
+  "tracked_diff_names": [],
+  "original_input_checks": [
+    {
+      "path": "AGENTS.md",
+      "expected": "d962ed12dddd67c65d531b96f7dd004db677afd6396e15ada3a9d921d05ddbf7",
+      "actual": "d962ed12dddd67c65d531b96f7dd004db677afd6396e15ada3a9d921d05ddbf7",
+      "match": true
+    },
+    {
+      "path": "CLAUDE.md",
+      "expected": "b7e524a5b06760e57877a408630228767ae9a394134095f9851bef5d06e17751",
+      "actual": "b7e524a5b06760e57877a408630228767ae9a394134095f9851bef5d06e17751",
+      "match": true
+    },
+    {
+      "path": "CURRENT_SCIENTIFIC_PREMISES.tsv",
+      "expected": "6fc63338cf5562d72d0313e2376474ad9ac908841a64e82fc74e0bc93b8ae43a",
+      "actual": "6fc63338cf5562d72d0313e2376474ad9ac908841a64e82fc74e0bc93b8ae43a",
+      "match": true
+    },
+    {
+      "path": ".claude/skills/no-shortcuts/SKILL.md",
+      "expected": "fd3a1f3218481134f2af829d3ae4175ac53518f75bf9673287efbfb7d7708fc1",
+      "actual": "fd3a1f3218481134f2af829d3ae4175ac53518f75bf9673287efbfb7d7708fc1",
+      "match": true
+    },
+    {
+      "path": ".claude/skills/completeness-map/SKILL.md",
+      "expected": "a8cf9e5f4a6d35a0d0ebfe4bc48dbf328ca74e318f020a6a22cb683666a611c0",
+      "actual": "a8cf9e5f4a6d35a0d0ebfe4bc48dbf328ca74e318f020a6a22cb683666a611c0",
+      "match": true
+    },
+    {
+      "path": ".claude/skills/solution-space-not-imposition/SKILL.md",
+      "expected": "095561e8f307928b286f7935d1d6f161b33ac56fe227d702c708f81a329bd47c",
+      "actual": "095561e8f307928b286f7935d1d6f161b33ac56fe227d702c708f81a329bd47c",
+      "match": true
+    },
+    {
+      "path": ".claude/skills/verifier-before-record/SKILL.md",
+      "expected": "9b3a4aacd4b4006b2b7f01edada73b7c87b99bea6e754583558713bfc145e5ac",
+      "actual": "9b3a4aacd4b4006b2b7f01edada73b7c87b99bea6e754583558713bfc145e5ac",
+      "match": true
+    },
+    {
+      "path": "udt_two_shape_nonlinear_interaction_2026-09-11/WORK_ORDER.md",
+      "expected": "f270cf86246ea61ab3dc580bc89f248f12006846425c35c83324fb382e111d8b",
+      "actual": "f270cf86246ea61ab3dc580bc89f248f12006846425c35c83324fb382e111d8b",
+      "match": true
+    },
+    {
+      "path": "udt_reviewed_backlog_banking_2026-09-10/BANKING_RECORD.md",
+      "expected": "654b0b2d734685c42d6a1b31740d545ab9299d17a5d5cc32c57e407b800191f1",
+      "actual": "654b0b2d734685c42d6a1b31740d545ab9299d17a5d5cc32c57e407b800191f1",
+      "match": true
+    },
+    {
+      "path": "udt_gr_filter_reconciliation_2026-09-09/AUTHORITY_RECORD.md",
+      "expected": "80daa0be6d3e1c0ac1b734fea089c4eb487f05bc1e1fbb2fabd69322ca89f28c",
+      "actual": "80daa0be6d3e1c0ac1b734fea089c4eb487f05bc1e1fbb2fabd69322ca89f28c",
+      "match": true
+    },
+    {
+      "path": "udt_reviewed_backlog_banking_2026-09-10/capture_existing.py",
+      "expected": "1b95a783e861a52cc9fc50d3c76c152cb3673fc9045372afafd30da269ffec3f",
+      "actual": "1b95a783e861a52cc9fc50d3c76c152cb3673fc9045372afafd30da269ffec3f",
+      "match": true
+    },
+    {
+      "path": "udt_shared_readout_metric_constraint_campaign_2026-09-06/run_capture.py",
+      "expected": "8ff5469ace76bdfc84188915242abbf3baff35516f9ee3f9ba4b1cbfeb2573ef",
+      "actual": "8ff5469ace76bdfc84188915242abbf3baff35516f9ee3f9ba4b1cbfeb2573ef",
+      "match": true
+    },
+    {
+      "path": "udt_nonlinear_mode_realizability_campaign_2026-09-09/METHOD_REFERENCES.md",
+      "expected": "1a602a281f083b576d79827c7be3a3644edff76c3b53f7c379fc1765bf59185c",
+      "actual": "1a602a281f083b576d79827c7be3a3644edff76c3b53f7c379fc1765bf59185c",
+      "match": true
+    },
+    {
+      "path": "udt_nonlinear_mode_realizability_campaign_2026-09-09/step_01/INITIAL_CANDIDATE.md",
+      "expected": "871a64977c723db32fa4697c4b61cd3a57ec7f318c061585b187774549731f86",
+      "actual": "871a64977c723db32fa4697c4b61cd3a57ec7f318c061585b187774549731f86",
+      "match": true
+    },
+    {
+      "path": "udt_nonlinear_mode_realizability_campaign_2026-09-09/step_01/REVIEWED_RESULT.md",
+      "expected": "110afc4f8ce5e3229f8a4e50ea7b8216a27bd74b57f4f4c6381874895ade99be",
+      "actual": "110afc4f8ce5e3229f8a4e50ea7b8216a27bd74b57f4f4c6381874895ade99be",
+      "match": true
+    },
+    {
+      "path": "udt_nonlinear_mode_realizability_campaign_2026-09-09/step_01/review/ADVERSARIAL_REVIEW.md",
+      "expected": "a6a612b5924c04c0ee60726b65403e061d035cbaf3e3d96a7499a9dbb2273c4a",
+      "actual": "a6a612b5924c04c0ee60726b65403e061d035cbaf3e3d96a7499a9dbb2273c4a",
+      "match": true
+    },
+    {
+      "path": "udt_nonlinear_mode_realizability_campaign_2026-09-09/step_02/INITIAL_CANDIDATE.md",
+      "expected": "2af7b57e9323c895ffe98b4777aadd37721cd650bffd684954b85b1441e29e9d",
+      "actual": "2af7b57e9323c895ffe98b4777aadd37721cd650bffd684954b85b1441e29e9d",
+      "match": true
+    },
+    {
+      "path": "udt_nonlinear_mode_realizability_campaign_2026-09-09/step_02/REVIEWED_RESULT.md",
+      "expected": "ea2a9d53f6e72605c41a0667fcc605b7ae728138786af081816bd79b243de05d",
+      "actual": "ea2a9d53f6e72605c41a0667fcc605b7ae728138786af081816bd79b243de05d",
+      "match": true
+    },
+    {
+      "path": "udt_nonlinear_mode_realizability_campaign_2026-09-09/step_02/review/ADVERSARIAL_REVIEW.md",
+      "expected": "9e722b8874593ec0b82f7862d5a3af0f371e26a5798f8fc1d49db453b757acfc",
+      "actual": "9e722b8874593ec0b82f7862d5a3af0f371e26a5798f8fc1d49db453b757acfc",
+      "match": true
+    },
+    {
+      "path": "udt_nonlinear_mode_realizability_campaign_2026-09-09/step_02/DISCOVERY_HISTORY.md",
+      "expected": "57227f103477cb78275bd1d498c0d4dbcec299ca16e6c8b34c20ddaad8d5eb20",
+      "actual": "57227f103477cb78275bd1d498c0d4dbcec299ca16e6c8b34c20ddaad8d5eb20",
+      "match": true
+    },
+    {
+      "path": "udt_nonlinear_mode_realizability_campaign_2026-09-09/step_02/review/SUMMARY_FIDELITY_REVIEW.md",
+      "expected": "c7d08613c7d3188bfaf1d20a2cdcc3bdcc43bb3d0b391956c466e5a776afcba8",
+      "actual": "c7d08613c7d3188bfaf1d20a2cdcc3bdcc43bb3d0b391956c466e5a776afcba8",
+      "match": true
+    },
+    {
+      "path": "udt_nonlinear_ripple_geometry_2026-09-09/INITIAL_CANDIDATE.md",
+      "expected": "49880008dcb5a646d6867e377f6dc84ded692b98250701aba4cab7119ca500de",
+      "actual": "49880008dcb5a646d6867e377f6dc84ded692b98250701aba4cab7119ca500de",
+      "match": true
+    },
+    {
+      "path": "udt_nonlinear_ripple_geometry_2026-09-09/review/DIRECT_REVIEW.md",
+      "expected": "dd5608df50905466383a1bc9dd67e6b23bcececb1d5ff4e0848c87716b98b200",
+      "actual": "dd5608df50905466383a1bc9dd67e6b23bcececb1d5ff4e0848c87716b98b200",
+      "match": true
+    },
+    {
+      "path": "udt_nonlinear_ripple_geometry_2026-09-09/review/SOURCE_FIRST.md",
+      "expected": "3dfd6f5a645fc5ac6dba15e30453997cf345ec4fcdbe518d1739533fd1123068",
+      "actual": "3dfd6f5a645fc5ac6dba15e30453997cf345ec4fcdbe518d1739533fd1123068",
+      "match": true
+    },
+    {
+      "path": "udt_nonlinear_ripple_geometry_2026-09-09/review/FIDELITY_REVIEW.md",
+      "expected": "b0b00beed4793d432786b16e4b107fde727de3cdbb49a66e416892ea5a802ff3",
+      "actual": "b0b00beed4793d432786b16e4b107fde727de3cdbb49a66e416892ea5a802ff3",
+      "match": true
+    },
+    {
+      "path": "udt_two_shape_nonlinear_interaction_2026-09-11/construction_partner/CONSTRUCTION_FREEZE.md",
+      "expected": "0208af500af58b91826a8f511d4e5aa477dee3af9f53f8bc516bff843329f3aa",
+      "actual": "0208af500af58b91826a8f511d4e5aa477dee3af9f53f8bc516bff843329f3aa",
+      "match": true
+    },
+    {
+      "path": "udt_two_shape_nonlinear_interaction_2026-09-11/construction_partner/raw_geometry.py",
+      "expected": "b8207b57a073686c8f3a9442892c54515a54330344d235fa1d87e861ad79b655",
+      "actual": "b8207b57a073686c8f3a9442892c54515a54330344d235fa1d87e861ad79b655",
+      "match": true
+    },
+    {
+      "path": "udt_two_shape_nonlinear_interaction_2026-09-11/construction_partner/capture_inputs.py",
+      "expected": "5385053513278e3321e1a5016f586a497051b3e6f0da85a71c553c133fbfe825",
+      "actual": "5385053513278e3321e1a5016f586a497051b3e6f0da85a71c553c133fbfe825",
+      "match": true
+    }
+  ],
+  "banked_claim_correspondence": [
+    {
+      "premise_id": "G388",
+      "path": "udt_nonlinear_mode_realizability_campaign_2026-09-09/step_01/INITIAL_CANDIDATE.md",
+      "expected": "871a64977c723db32fa4697c4b61cd3a57ec7f318c061585b187774549731f86",
+      "actual": "871a64977c723db32fa4697c4b61cd3a57ec7f318c061585b187774549731f86",
+      "match": true
+    },
+    {
+      "premise_id": "G388",
+      "path": "udt_nonlinear_mode_realizability_campaign_2026-09-09/step_01/REVIEWED_RESULT.md",
+      "expected": "110afc4f8ce5e3229f8a4e50ea7b8216a27bd74b57f4f4c6381874895ade99be",
+      "actual": "110afc4f8ce5e3229f8a4e50ea7b8216a27bd74b57f4f4c6381874895ade99be",
+      "match": true
+    },
+    {
+      "premise_id": "G388",
+      "path": "udt_nonlinear_mode_realizability_campaign_2026-09-09/step_01/review/STAGE_A_INDEPENDENT.md",
+      "expected": "2e7159bf1a0193780d1441a26b38eea910a34df3815680f0a93734ae5d0b19a9",
+      "actual": "2e7159bf1a0193780d1441a26b38eea910a34df3815680f0a93734ae5d0b19a9",
+      "match": true
+    },
+    {
+      "premise_id": "G388",
+      "path": "udt_nonlinear_mode_realizability_campaign_2026-09-09/step_01/review/ADVERSARIAL_REVIEW.md",
+      "expected": "a6a612b5924c04c0ee60726b65403e061d035cbaf3e3d96a7499a9dbb2273c4a",
+      "actual": "a6a612b5924c04c0ee60726b65403e061d035cbaf3e3d96a7499a9dbb2273c4a",
+      "match": true
+    },
+    {
+      "premise_id": "G389",
+      "path": "udt_nonlinear_mode_realizability_campaign_2026-09-09/step_02/INITIAL_CANDIDATE.md",
+      "expected": "2af7b57e9323c895ffe98b4777aadd37721cd650bffd684954b85b1441e29e9d",
+      "actual": "2af7b57e9323c895ffe98b4777aadd37721cd650bffd684954b85b1441e29e9d",
+      "match": true
+    },
+    {
+      "premise_id": "G389",
+      "path": "udt_nonlinear_mode_realizability_campaign_2026-09-09/step_02/REVIEWED_RESULT.md",
+      "expected": "ea2a9d53f6e72605c41a0667fcc605b7ae728138786af081816bd79b243de05d",
+      "actual": "ea2a9d53f6e72605c41a0667fcc605b7ae728138786af081816bd79b243de05d",
+      "match": true
+    },
+    {
+      "premise_id": "G389",
+      "path": "udt_nonlinear_mode_realizability_campaign_2026-09-09/step_02/DISCOVERY_HISTORY.md",
+      "expected": "57227f103477cb78275bd1d498c0d4dbcec299ca16e6c8b34c20ddaad8d5eb20",
+      "actual": "57227f103477cb78275bd1d498c0d4dbcec299ca16e6c8b34c20ddaad8d5eb20",
+      "match": true
+    },
+    {
+      "premise_id": "G389",
+      "path": "udt_nonlinear_mode_realizability_campaign_2026-09-09/step_02/review/STAGE_A_INDEPENDENT.md",
+      "expected": "79a2179475659e853d2a16ab53e1e9bd6b039691a660028551ee11a165385620",
+      "actual": "79a2179475659e853d2a16ab53e1e9bd6b039691a660028551ee11a165385620",
+      "match": true
+    },
+    {
+      "premise_id": "G389",
+      "path": "udt_nonlinear_mode_realizability_campaign_2026-09-09/step_02/review/ADVERSARIAL_REVIEW.md",
+      "expected": "9e722b8874593ec0b82f7862d5a3af0f371e26a5798f8fc1d49db453b757acfc",
+      "actual": "9e722b8874593ec0b82f7862d5a3af0f371e26a5798f8fc1d49db453b757acfc",
+      "match": true
+    },
+    {
+      "premise_id": "G389",
+      "path": "udt_nonlinear_mode_realizability_campaign_2026-09-09/step_02/review/SUMMARY_FIDELITY_REVIEW.md",
+      "expected": "c7d08613c7d3188bfaf1d20a2cdcc3bdcc43bb3d0b391956c466e5a776afcba8",
+      "actual": "c7d08613c7d3188bfaf1d20a2cdcc3bdcc43bb3d0b391956c466e5a776afcba8",
+      "match": true
+    },
+    {
+      "premise_id": "G394",
+      "path": "udt_nonlinear_ripple_geometry_2026-09-09/INITIAL_CANDIDATE.md",
+      "expected": "49880008dcb5a646d6867e377f6dc84ded692b98250701aba4cab7119ca500de",
+      "actual": "49880008dcb5a646d6867e377f6dc84ded692b98250701aba4cab7119ca500de",
+      "match": true
+    },
+    {
+      "premise_id": "G394",
+      "path": "udt_nonlinear_ripple_geometry_2026-09-09/REVIEWED_RESULT.md",
+      "expected": "45cc3bc950b76ceed6a1fd49c248688242bc3c008864256de9bb494c1b8bbfaa",
+      "actual": "45cc3bc950b76ceed6a1fd49c248688242bc3c008864256de9bb494c1b8bbfaa",
+      "match": true
+    },
+    {
+      "premise_id": "G394",
+      "path": "udt_nonlinear_ripple_geometry_2026-09-09/review/SOURCE_FIRST.md",
+      "expected": "3dfd6f5a645fc5ac6dba15e30453997cf345ec4fcdbe518d1739533fd1123068",
+      "actual": "3dfd6f5a645fc5ac6dba15e30453997cf345ec4fcdbe518d1739533fd1123068",
+      "match": true
+    },
+    {
+      "premise_id": "G394",
+      "path": "udt_nonlinear_ripple_geometry_2026-09-09/review/DIRECT_REVIEW.md",
+      "expected": "dd5608df50905466383a1bc9dd67e6b23bcececb1d5ff4e0848c87716b98b200",
+      "actual": "dd5608df50905466383a1bc9dd67e6b23bcececb1d5ff4e0848c87716b98b200",
+      "match": true
+    },
+    {
+      "premise_id": "G394",
+      "path": "udt_nonlinear_ripple_geometry_2026-09-09/review/FIDELITY_REVIEW.md",
+      "expected": "b0b00beed4793d432786b16e4b107fde727de3cdbb49a66e416892ea5a802ff3",
+      "actual": "b0b00beed4793d432786b16e4b107fde727de3cdbb49a66e416892ea5a802ff3",
+      "match": true
+    }
+  ],
+  "banked_claims_sha256": "4b98b1dea6ce9dc0d62f9fa6183c1379aed534989159b45a208dad93fce12c2e",
+  "capture_outcomes": {
+    "inputs": {
+      "command": [
+        "python3",
+        "udt_two_shape_nonlinear_interaction_2026-09-11/construction_partner/capture_inputs.py"
+      ],
+      "cwd": "/home/udt-admin/udt_mass_codex",
+      "started_utc": "2026-09-11T04:56:29.158058+00:00",
+      "duration_seconds": 0.058671519975177944,
+      "returncode": 1,
+      "timeout": false,
+      "address_space_bytes": 268435456,
+      "cpu_seconds": 30,
+      "maxrss_kib": 26744
+    },
+    "inputs_serial": {
+      "command": [
+        "python3",
+        "udt_two_shape_nonlinear_interaction_2026-09-11/construction_partner/capture_inputs.py"
+      ],
+      "cwd": "/home/udt-admin/udt_mass_codex",
+      "started_utc": "2026-09-11T04:56:54.413332+00:00",
+      "duration_seconds": 0.06933186401147395,
+      "returncode": 0,
+      "timeout": false,
+      "address_space_bytes": 268435456,
+      "cpu_seconds": 30,
+      "maxrss_kib": 16512
+    },
+    "raw_geometry_initial": {
+      "command": [
+        "python3",
+        "udt_two_shape_nonlinear_interaction_2026-09-11/construction_partner/raw_geometry.py"
+      ],
+      "cwd": "/home/udt-admin/udt_mass_codex",
+      "started_utc": "2026-09-11T04:56:54.503643+00:00",
+      "duration_seconds": 2.273228881007526,
+      "returncode": 0,
+      "timeout": false,
+      "address_space_bytes": 2147483648,
+      "cpu_seconds": 180,
+      "maxrss_kib": 51192
+    },
+    "mutant_omit_axial": {
+      "command": [
+        "python3",
+        "udt_two_shape_nonlinear_interaction_2026-09-11/construction_partner/raw_geometry.py",
+        "--mutant",
+        "omit_axial_completion"
+      ],
+      "cwd": "/home/udt-admin/udt_mass_codex",
+      "started_utc": "2026-09-11T04:58:17.794692+00:00",
+      "duration_seconds": 0.1951590139651671,
+      "returncode": 1,
+      "timeout": false,
+      "address_space_bytes": 2147483648,
+      "cpu_seconds": 180,
+      "maxrss_kib": 56688
+    },
+    "mutant_freeze_second_time": {
+      "command": [
+        "python3",
+        "udt_two_shape_nonlinear_interaction_2026-09-11/construction_partner/raw_geometry.py",
+        "--mutant",
+        "freeze_second_time"
+      ],
+      "cwd": "/home/udt-admin/udt_mass_codex",
+      "started_utc": "2026-09-11T04:58:18.047502+00:00",
+      "duration_seconds": 0.391460170969367,
+      "returncode": 1,
+      "timeout": false,
+      "address_space_bytes": 2147483648,
+      "cpu_seconds": 180,
+      "maxrss_kib": 58080
+    }
+  },
+  "construction_manifest": {
+    "udt_two_shape_nonlinear_interaction_2026-09-11/construction_partner/CONSTRUCTION_FREEZE.md": "0208af500af58b91826a8f511d4e5aa477dee3af9f53f8bc516bff843329f3aa",
+    "udt_two_shape_nonlinear_interaction_2026-09-11/construction_partner/CONSTRUCTION_RESULT.md": "152a2e5d46f2876e62e131300888b6a96bca5cf804bc71017b34bb6aa2bdbc2e",
+    "udt_two_shape_nonlinear_interaction_2026-09-11/construction_partner/SESSION_RECORD.md": "574d79a18900f649cd3930cf22ad8b0285f596c2a78d1ff937fa6d4bbdc125c3",
+    "udt_two_shape_nonlinear_interaction_2026-09-11/construction_partner/SHELL_COMMAND_LOG.md": "ea829e4c37ee6d711414df9e617603f2dfa0c9fa025b2c009aff64f01aa75f68",
+    "udt_two_shape_nonlinear_interaction_2026-09-11/construction_partner/capture_inputs.py": "5385053513278e3321e1a5016f586a497051b3e6f0da85a71c553c133fbfe825",
+    "udt_two_shape_nonlinear_interaction_2026-09-11/construction_partner/capture_inputs_initial.py": "e2ddc3fa0488cc638f21bb40fcd2ff38d96bed329b184208d81f8231f64403de",
+    "udt_two_shape_nonlinear_interaction_2026-09-11/construction_partner/inputs.capture_provenance.json": "bc4099052265f8c97e8338262b1bc4cfe36268d1a936569f5060ba77217dd33c",
+    "udt_two_shape_nonlinear_interaction_2026-09-11/construction_partner/inputs.json": "d9bc9e8ab9d00f5878221a10938520d037854e714d1c02dfcde13305b662036d",
+    "udt_two_shape_nonlinear_interaction_2026-09-11/construction_partner/inputs.stderr": "4aa9111d066a2efe47c1eb19da16b9c02e417d6b861a39db4bff7ec3e65558f7",
+    "udt_two_shape_nonlinear_interaction_2026-09-11/construction_partner/inputs.stdout": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "udt_two_shape_nonlinear_interaction_2026-09-11/construction_partner/inputs_serial.capture_provenance.json": "bc4099052265f8c97e8338262b1bc4cfe36268d1a936569f5060ba77217dd33c",
+    "udt_two_shape_nonlinear_interaction_2026-09-11/construction_partner/inputs_serial.json": "ca14b2b7e5f11e0fb1aef3ac5f78a88c5eb8b2f3e6055898b548d6d27772f04a",
+    "udt_two_shape_nonlinear_interaction_2026-09-11/construction_partner/inputs_serial.stderr": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "udt_two_shape_nonlinear_interaction_2026-09-11/construction_partner/inputs_serial.stdout": "9d7152ac3a03bf2aa9d19c77d3d3b43b7f048e3539e9f4b8742b3ff69bccc945",
+    "udt_two_shape_nonlinear_interaction_2026-09-11/construction_partner/mutant_freeze_second_time.capture_provenance.json": "88d94e9d858ca024bdeb7fa457b8aa3d10da916afa7a16e740f3df5b0adec830",
+    "udt_two_shape_nonlinear_interaction_2026-09-11/construction_partner/mutant_freeze_second_time.json": "c8d34127d42292cceb0dbd04e45ce66a3777513cc8f018d18fe605cc32ae7d17",
+    "udt_two_shape_nonlinear_interaction_2026-09-11/construction_partner/mutant_freeze_second_time.stderr": "f8ca2889d1e63f9589aa8de357fd53b6e35ec4d1cec27d69bc625a231e7007c8",
+    "udt_two_shape_nonlinear_interaction_2026-09-11/construction_partner/mutant_freeze_second_time.stdout": "1ac159dfd2d841c3b8b859558e2bfb296af16bc2b6eb5d81622977f2d252f271",
+    "udt_two_shape_nonlinear_interaction_2026-09-11/construction_partner/mutant_omit_axial.capture_provenance.json": "5f4b1bef1e40afb9ea04b7412a201533e37d126bceca68b78181a1b5608a8dfe",
+    "udt_two_shape_nonlinear_interaction_2026-09-11/construction_partner/mutant_omit_axial.json": "3fcca10fa62ce45670d970c0d913d2ebc84026b10f08214e0fa0d647b07478ad",
+    "udt_two_shape_nonlinear_interaction_2026-09-11/construction_partner/mutant_omit_axial.stderr": "786e0813365c835787a91a20a8b5f4eb7357f388027e8c83ca1aef0a7ad1837b",
+    "udt_two_shape_nonlinear_interaction_2026-09-11/construction_partner/mutant_omit_axial.stdout": "f2eddc9f3ecc3b698be1b3ecce9bc3d8fb443cfaf221cbb043ca36ffe545867c",
+    "udt_two_shape_nonlinear_interaction_2026-09-11/construction_partner/raw_geometry.py": "b8207b57a073686c8f3a9442892c54515a54330344d235fa1d87e861ad79b655",
+    "udt_two_shape_nonlinear_interaction_2026-09-11/construction_partner/raw_geometry_initial.capture_provenance.json": "53928fdf52bf52e54482bdd3ea68247efe4cc40973fd46b2c64720ef110a6eea",
+    "udt_two_shape_nonlinear_interaction_2026-09-11/construction_partner/raw_geometry_initial.json": "9fd25889d8c92a426c54af7afe8925d55ee08f47ef782763af626ba2887a5369",
+    "udt_two_shape_nonlinear_interaction_2026-09-11/construction_partner/raw_geometry_initial.stderr": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "udt_two_shape_nonlinear_interaction_2026-09-11/construction_partner/raw_geometry_initial.stdout": "030d36eaeeb06580a07dd7b792112a58bdbe7ca79fb7322a4f8b402f54d2bc5c",
+    "udt_two_shape_nonlinear_interaction_2026-09-11/construction_partner/closeout.py": "6c7aa777bee5bcac5704755844e273753856f8c75e9112090a7ba0528674904e"
+  },
+  "review_state": "UNREVIEWED_CONSTRUCTION; separate adversarial review parent-owned",
+  "omissions": "No new premise audit, upstream package replay, formal CK proof, record-join verification or promotion"
+}

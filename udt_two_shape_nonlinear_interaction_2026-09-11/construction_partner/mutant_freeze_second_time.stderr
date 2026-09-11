@@ -1,0 +1,6 @@
+Traceback (most recent call last):
+  File "/home/udt-admin/udt_mass_codex/udt_two_shape_nonlinear_interaction_2026-09-11/construction_partner/raw_geometry.py", line 87, in <module>
+    check('all_spatial_Ricci_equations_from_raw_metric', [Ric[i,j] for i,j in itertools.product(range(1,4),repeat=2)])
+  File "/home/udt-admin/udt_mass_codex/udt_two_shape_nonlinear_interaction_2026-09-11/construction_partner/raw_geometry.py", line 32, in check
+    raise AssertionError(name + ': ' + repr(failures))
+AssertionError: all_spatial_Ricci_equations_from_raw_metric: ['(-9*kappa**2 + 18*kappa*s + 5)/9', '-(9*kappa*p - 9*kappa*s + 18*p**2 - 18*p*s + 18*r**2 - 2)/9', 'r*(-kappa + 2*s)', 'r*(-kappa + 2*s)', '-(-9*kappa*p - 9*kappa*s + 18*p**2 + 18*p*s + 18*r**2 - 2)/9']

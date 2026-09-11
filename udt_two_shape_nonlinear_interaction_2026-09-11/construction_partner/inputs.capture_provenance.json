@@ -1,0 +1,26 @@
+{
+  "source": "udt_shared_readout_metric_constraint_campaign_2026-09-06/run_capture.py",
+  "source_sha256": "8ff5469ace76bdfc84188915242abbf3baff35516f9ee3f9ba4b1cbfeb2573ef",
+  "adapted_capture_sha256": "6f77f7fb8711f9e8948f40e503236a14c01ccfa5cec1a4099c2c9d5958b00f4f",
+  "wrapper_sha256": "1b95a783e861a52cc9fc50d3c76c152cb3673fc9045372afafd30da269ffec3f",
+  "replacements": {
+    "(512 * 1024**2, 512 * 1024**2)": "(256 * 1024**2, 256 * 1024**2)",
+    "(60, 60)": "(30, 30)",
+    "timeout=60": "timeout=30",
+    "address_space_bytes=512 * 1024**2": "address_space_bytes=256 * 1024**2",
+    "cpu_seconds=60": "cpu_seconds=30"
+  },
+  "thread_environment": {
+    "OMP_NUM_THREADS": "1",
+    "OPENBLAS_NUM_THREADS": "1",
+    "MKL_NUM_THREADS": "1"
+  },
+  "limits": {
+    "seconds": 30,
+    "mib": 256
+  },
+  "command": [
+    "python3",
+    "udt_two_shape_nonlinear_interaction_2026-09-11/construction_partner/capture_inputs.py"
+  ]
+}

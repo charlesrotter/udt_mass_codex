@@ -1,0 +1,14 @@
+{
+  "command": [
+    "python3",
+    "udt_two_shape_nonlinear_interaction_2026-09-11/construction_partner/capture_inputs.py"
+  ],
+  "cwd": "/home/udt-admin/udt_mass_codex",
+  "started_utc": "2026-09-11T04:56:29.158058+00:00",
+  "duration_seconds": 0.058671519975177944,
+  "returncode": 1,
+  "timeout": false,
+  "address_space_bytes": 268435456,
+  "cpu_seconds": 30,
+  "maxrss_kib": 26744
+}

@@ -1,0 +1,28 @@
+{
+  "launch_utc": "2026-09-11T04:47:51Z",
+  "deadline_utc": "2026-09-11T07:47:51Z",
+  "authorization": "Charles: Proceed to proposed three-hour WORK_ORDER.md",
+  "baseline_head": "b318072a9403d6acdd3a6d5749e1b366d76d29c5",
+  "branch": "grok",
+  "fresh_fetch_and_ff_only_pull": "PASS_ALREADY_UP_TO_DATE",
+  "original46_status_sha256": "55e7c4508622f912730f9c068cc571c370b3977bc1110eb0a48a8218dbe024c2",
+  "proposal_sha256": "01d60595404e7ef1f2cef8ef2dd7a5b76e4f7cb45a5c2b8cf91480ad1ab0cfda",
+  "authorized_work_order_sha256": "f270cf86246ea61ab3dc580bc89f248f12006846425c35c83324fb382e111d8b",
+  "runtime_model_version": "UNATTESTED",
+  "configured_parent_model": "gpt-6-astra/xhigh observed earlier same session; not newly read or runtime attestation",
+  "python": "3.10.12",
+  "python_build": [
+    "main",
+    "Aug 31 2026 10:18:17"
+  ],
+  "machine": "x86_64",
+  "cpu_count": 24,
+  "memory_measurement": {
+    "MemTotal": "131668760 kB",
+    "MemAvailable": "124814864 kB"
+  },
+  "new_premise_audit": "PENDING_ACTUAL_LAUNCH_RUN",
+  "protected_payloads": "EXCLUDED_NOT_READ_OR_HASHED",
+  "backup_completeness": "UNVERIFIED",
+  "pre_reboot_unsaved_state": "UNVERIFIED"
+}

@@ -1,0 +1,88 @@
+{
+  "context": "/root/two_shape_adversarial",
+  "allocation": "same original review context; proportional documentation followup",
+  "runtime_model_version": "UNATTESTED",
+  "first_followup_observed_utc": "2026-09-11T05:19:20+00:00",
+  "completed_utc": "2026-09-11T05:23:56.185158+00:00",
+  "disposition": "FIDELITY_REVIEWED_WITH_CAVEATS",
+  "scientific_disposition": "VERIFIED_WITH_CAVEATS_CONDITIONAL_CANDIDATE_UNPROMOTED",
+  "scientific_repairs": 0,
+  "parent_provenance_wording_corrections": 1,
+  "reviewer_packaging_check_repairs": 1,
+  "failed_check_preserved": "final_fidelity_check.* plus check_final_fidelity_initial.py",
+  "successful_followup_captures": [
+    {
+      "command": [
+        "python3",
+        "udt_two_shape_nonlinear_interaction_2026-09-11/verify_preservation.py"
+      ],
+      "cwd": "/home/udt-admin/udt_mass_codex",
+      "started_utc": "2026-09-11T05:20:22.302517+00:00",
+      "duration_seconds": 0.062072462984360754,
+      "returncode": 0,
+      "timeout": false,
+      "address_space_bytes": 2147483648,
+      "cpu_seconds": 60,
+      "maxrss_kib": 15936
+    },
+    {
+      "command": [
+        "python3",
+        "udt_two_shape_nonlinear_interaction_2026-09-11/review/check_final_fidelity.py"
+      ],
+      "cwd": "/home/udt-admin/udt_mass_codex",
+      "started_utc": "2026-09-11T05:21:51.218435+00:00",
+      "duration_seconds": 0.06010993599193171,
+      "returncode": 0,
+      "timeout": false,
+      "address_space_bytes": 2147483648,
+      "cpu_seconds": 60,
+      "maxrss_kib": 15168
+    }
+  ],
+  "earlier_brief_exposure": "REVIEW_RECEIPT pins final brief at seal time, not the earlier unsealed draft reading; complete final brief read and pinned in this followup",
+  "not_repeated": [
+    "scientific calculations",
+    "general CK theorem",
+    "author/upstream scientific suites",
+    "parent500-test guard suite",
+    "full395"
+  ],
+  "publication": "NOT_YET_PERFORMED_OR_REVIEWED",
+  "sha256": {
+    "udt_two_shape_nonlinear_interaction_2026-09-11/review/FINAL_FIDELITY.md": "8c728e4c59ea574e1e5a214df74c87af18086817d77771e5959903b23b707912",
+    "udt_two_shape_nonlinear_interaction_2026-09-11/review/check_final_fidelity.py": "d60fea5131b209b0b2a0adca080e5905e737272138725893b5041636b10381f4",
+    "udt_two_shape_nonlinear_interaction_2026-09-11/review/check_final_fidelity_initial.py": "77b3db86ebb7214c4470a0ef187d6679f7c2055f783d65af3c16f75a748aa137",
+    "udt_two_shape_nonlinear_interaction_2026-09-11/review/REVIEW.md": "2adef657ea5f7bb06b9d096d8546933ee50b67ed9554b4a076eca89d296f52f2",
+    "udt_two_shape_nonlinear_interaction_2026-09-11/review/REVIEW_RECEIPT.json": "9c654ab9d03864ecca029e14efb8fb205d7e33b6f62f004c4bd1de4fe51d6b28",
+    "udt_two_shape_nonlinear_interaction_2026-09-11/review/final_preservation_replay.capture_provenance.json": "587f4e8f0787ef868763bcfe75e29b4c15b50c94d447acb61edfb93ce23746bc",
+    "udt_two_shape_nonlinear_interaction_2026-09-11/review/final_preservation_replay.json": "db3d1b7907c694e4acf6bc7ec30b35ee6414c9d9fd988b7352aa950bcd4f1510",
+    "udt_two_shape_nonlinear_interaction_2026-09-11/review/final_preservation_replay.stderr": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "udt_two_shape_nonlinear_interaction_2026-09-11/review/final_preservation_replay.stdout": "5709884c01c4c782d4a7e127337f4ada5068f13359223055588a3dd3a05d7b50",
+    "udt_two_shape_nonlinear_interaction_2026-09-11/review/final_fidelity_check.capture_provenance.json": "7489091b797d76c65bc5c976b7f9d9c9910c6fb6342ddf66fc7b89ee06a8940e",
+    "udt_two_shape_nonlinear_interaction_2026-09-11/review/final_fidelity_check.json": "16c7ca7166377cee995da2b7fa08aaa8e98b0d9c6c81682860efb8a115fa8691",
+    "udt_two_shape_nonlinear_interaction_2026-09-11/review/final_fidelity_check.stderr": "7666883dc5669880a2a79e928cb3299f1551967fa8c01bd030dfcc9fd6873201",
+    "udt_two_shape_nonlinear_interaction_2026-09-11/review/final_fidelity_check.stdout": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "udt_two_shape_nonlinear_interaction_2026-09-11/review/final_fidelity_check_wrapped.capture_provenance.json": "7489091b797d76c65bc5c976b7f9d9c9910c6fb6342ddf66fc7b89ee06a8940e",
+    "udt_two_shape_nonlinear_interaction_2026-09-11/review/final_fidelity_check_wrapped.json": "da9643b3aae6ba8d882d7eba80b3cc0b7abd533a0dfdb608c4df26a5e281e9f8",
+    "udt_two_shape_nonlinear_interaction_2026-09-11/review/final_fidelity_check_wrapped.stderr": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "udt_two_shape_nonlinear_interaction_2026-09-11/review/final_fidelity_check_wrapped.stdout": "5333954150accfe920f0d87737977b889e9a36b5b1c6b03df60266f1de9ff613",
+    "udt_two_shape_nonlinear_interaction_2026-09-11/checks/final_guards.capture_provenance.json": "4b79c3a281647ad987c7b504e1bc97546bc860d39d3184887aa57b3d2c75312a",
+    "udt_two_shape_nonlinear_interaction_2026-09-11/checks/final_guards.json": "8d2eba41842439b87ec935941217321b49b8954bfe65d63a0bb335da9f4d09ee",
+    "udt_two_shape_nonlinear_interaction_2026-09-11/checks/final_guards.stderr": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "udt_two_shape_nonlinear_interaction_2026-09-11/checks/final_guards.stdout": "de523eb09cb8f33b17a08914a8dcef8e89e6c76c06b1b9be0108c4c5c310da36",
+    "udt_two_shape_nonlinear_interaction_2026-09-11/checks/final_preservation.capture_provenance.json": "587f4e8f0787ef868763bcfe75e29b4c15b50c94d447acb61edfb93ce23746bc",
+    "udt_two_shape_nonlinear_interaction_2026-09-11/checks/final_preservation.json": "adca09e09a0d23b7161a552bf9b82e4950f31bb2b3b61382263a81e96ad0f319",
+    "udt_two_shape_nonlinear_interaction_2026-09-11/checks/final_preservation.stderr": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "udt_two_shape_nonlinear_interaction_2026-09-11/checks/final_preservation.stdout": "5709884c01c4c782d4a7e127337f4ada5068f13359223055588a3dd3a05d7b50",
+    "udt_two_shape_nonlinear_interaction_2026-09-11/verify_preservation.py": "5cfa72275f44e4bf6d2897f99c7c383f029afc7b4e888b018d1bd8987bc63265",
+    "LIVE.md": "1391cd338bffdf2069958beceeb8a9049694ff9c18a5e439ad0a0211c824c2bf",
+    "HANDOFF.md": "f9f8fe5a363050320357271c3efd0ec72127d162096e08a2557a74f4901ca641",
+    "CURRENT_RESEARCH_PROGRAM.md": "65d9f36979bc6da47dcfd59700d0d83b401857df695959ed8f3c75951ab32fee",
+    "INDEX.md": "18e3f52610525821490fe539fa6c6c0faffd5edc279836823872d0c49f47d067",
+    "UDT_RESEARCH_ROADMAP.md": "159652dbdb0d385fe045ba0f2d851469697d3b85976e6ccf954136f8037fcb99",
+    "udt_two_shape_nonlinear_interaction_2026-09-11/REVIEWED_RESULT.md": "cdf0d26269044483ae7355f2769b3e80478dbfa170975a0feaf09e9bb2992d17",
+    "udt_two_shape_nonlinear_interaction_2026-09-11/DECISION_BRIEF.md": "0b43239baecc9433198fe8809ffae98e922808cf25653c1c1d3d42f35c828f96",
+    "udt_two_shape_nonlinear_interaction_2026-09-11/SESSION_RECORD.md": "1c251f09d62c3403596ee4c074aa3fa49659ea566f8f0f98fb2cecf933370d9e"
+  }
+}

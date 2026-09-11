@@ -1,0 +1,32 @@
+{
+  "status": "PASS",
+  "meaning": "source and initial candidate correspondence; scoped changed names and unrelated status preservation only",
+  "branch": "grok",
+  "head": "b318072a9403d6acdd3a6d5749e1b366d76d29c5",
+  "baseline_head": "b318072a9403d6acdd3a6d5749e1b366d76d29c5",
+  "pin_checks": [
+    {
+      "manifest": "SOURCE_PINS.json",
+      "count": 18,
+      "status": "MATCH"
+    },
+    {
+      "manifest": "CANDIDATE_FREEZE.json",
+      "count": 12,
+      "status": "MATCH"
+    }
+  ],
+  "original_untracked_count": 46,
+  "original_untracked_status_sha256": "55e7c4508622f912730f9c068cc571c370b3977bc1110eb0a48a8218dbe024c2",
+  "changed_since_baseline": [
+    "CURRENT_RESEARCH_PROGRAM.md",
+    "HANDOFF.md",
+    "INDEX.md",
+    "LIVE.md",
+    "UDT_RESEARCH_ROADMAP.md"
+  ],
+  "staged_count": 0,
+  "protected_payloads": "EXCLUDED_NOT_READ_OR_HASHED",
+  "backup_completeness": "UNVERIFIED",
+  "pre_reboot_unsaved_state": "UNVERIFIED"
+}

@@ -1,0 +1,25 @@
+{
+  "mutant": "omit_axial_completion",
+  "checks": [
+    {
+      "name": "all_original_initial_constraints",
+      "components": 4,
+      "nonzero_residuals": [
+        "-2*(p**2 + r**2)"
+      ]
+    }
+  ],
+  "observations": {
+    "full_initial_constraint_expressions": {
+      "R3": "0 (constant initial metric)",
+      "H": "-2*(-2*kappa*s + p**2 + r**2 - s**2)",
+      "M": [
+        "0",
+        "0",
+        "0"
+      ],
+      "completion": "(p**2 + r**2 - s**2)/(2*s)",
+      "omit_completion_H": "-2*(p**2 + r**2)"
+    }
+  }
+}

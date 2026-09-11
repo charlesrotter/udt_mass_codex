@@ -1,0 +1,291 @@
+{
+  "status": "PASS",
+  "started_by_context": "/root/two_shape_construction",
+  "completed_utc": "2026-09-11T04:56:56.746726+00:00",
+  "python": "3.10.12",
+  "sympy": "1.13.1",
+  "mutant": null,
+  "checks": [
+    {
+      "name": "all_original_initial_constraints",
+      "components": 4,
+      "nonzero_residuals": []
+    },
+    {
+      "name": "all_spatial_Ricci_equations_from_raw_metric",
+      "components": 9,
+      "nonzero_residuals": []
+    },
+    {
+      "name": "all_original_Ricci_after_completion",
+      "components": 16,
+      "nonzero_residuals": []
+    },
+    {
+      "name": "Riemann_pair_symmetries_and_first_Bianchi",
+      "components": 1024,
+      "nonzero_residuals": []
+    },
+    {
+      "name": "Lorentzian_first_pair_Hodge_square_minus_one",
+      "components": 256,
+      "nonzero_residuals": []
+    },
+    {
+      "name": "electric_tensor_on_exact_completion",
+      "components": 9,
+      "nonzero_residuals": []
+    },
+    {
+      "name": "magnetic_tensor_from_raw_first_pair_dual",
+      "components": 9,
+      "nonzero_residuals": []
+    },
+    {
+      "name": "mixed_contraction_general_formula",
+      "components": 1,
+      "nonzero_residuals": []
+    },
+    {
+      "name": "full_curvature_pseudoscalar_factor",
+      "components": 1,
+      "nonzero_residuals": []
+    },
+    {
+      "name": "electric_magnetic_symmetry_trace_on_shell",
+      "components": 20,
+      "nonzero_residuals": []
+    },
+    {
+      "name": "relative_phase_Wronskian",
+      "components": 1,
+      "nonzero_residuals": []
+    },
+    {
+      "name": "same_phase_control",
+      "components": 1,
+      "nonzero_residuals": []
+    },
+    {
+      "name": "one_component_controls",
+      "components": 2,
+      "nonzero_residuals": []
+    },
+    {
+      "name": "quadrature_scalar",
+      "components": 1,
+      "nonzero_residuals": []
+    },
+    {
+      "name": "radial_leading_order",
+      "components": 1,
+      "nonzero_residuals": []
+    },
+    {
+      "name": "commutator_nonreducibility_formula",
+      "components": 4,
+      "nonzero_residuals": []
+    },
+    {
+      "name": "finite_amplitude_exact_cancellation_control",
+      "components": 1,
+      "nonzero_residuals": []
+    },
+    {
+      "name": "orientation_reversal_scalar_square_control",
+      "components": 1,
+      "nonzero_residuals": []
+    }
+  ],
+  "observations": {
+    "full_initial_constraint_expressions": {
+      "R3": "0 (constant initial metric)",
+      "H": "-2*(-2*kappa*s + p**2 + r**2 - s**2)",
+      "M": [
+        "0",
+        "0",
+        "0"
+      ],
+      "completion": "(p**2 + r**2 - s**2)/(2*s)",
+      "omit_completion_H": "-2*(p**2 + r**2)"
+    },
+    "raw_Ricci_before_completion": [
+      [
+        "-2*(-2*kappa*s + p**2 + r**2 - s**2)",
+        "0",
+        "0",
+        "0"
+      ],
+      [
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      [
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      [
+        "0",
+        "0",
+        "0",
+        "0"
+      ]
+    ],
+    "curvature": {
+      "E_before_completion": [
+        [
+          "2*kappa*s",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "-kappa*p + kappa*s - p**2 - r**2 + s**2",
+          "-kappa*r"
+        ],
+        [
+          "0",
+          "-kappa*r",
+          "kappa*p + kappa*s - p**2 - r**2 + s**2"
+        ]
+      ],
+      "E_completed_form": [
+        [
+          "2*kappa*s",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "-kappa*(p + s)",
+          "-kappa*r"
+        ],
+        [
+          "0",
+          "-kappa*r",
+          "-kappa*(-p + s)"
+        ]
+      ],
+      "B": [
+        [
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "r_x",
+          "-p_x"
+        ],
+        [
+          "0",
+          "-p_x",
+          "-r_x"
+        ]
+      ],
+      "J": "-2*kappa*(p*r_x - p_x*r)",
+      "C_contract_starC": "-32*kappa*(p*r_x - p_x*r)",
+      "all_nonzero_Riemann_components_before_completion": {
+        "(0, 1, 0, 1)": "2*kappa*s",
+        "(0, 1, 1, 0)": "-2*kappa*s",
+        "(0, 2, 0, 2)": "-kappa*p + kappa*s - p**2 - r**2 + s**2",
+        "(0, 2, 0, 3)": "-kappa*r",
+        "(0, 2, 1, 2)": "-p_x",
+        "(0, 2, 1, 3)": "-r_x",
+        "(0, 2, 2, 0)": "kappa*p - kappa*s + p**2 + r**2 - s**2",
+        "(0, 2, 2, 1)": "p_x",
+        "(0, 2, 3, 0)": "kappa*r",
+        "(0, 2, 3, 1)": "r_x",
+        "(0, 3, 0, 2)": "-kappa*r",
+        "(0, 3, 0, 3)": "kappa*p + kappa*s - p**2 - r**2 + s**2",
+        "(0, 3, 1, 2)": "-r_x",
+        "(0, 3, 1, 3)": "p_x",
+        "(0, 3, 2, 0)": "kappa*r",
+        "(0, 3, 2, 1)": "r_x",
+        "(0, 3, 3, 0)": "-kappa*p - kappa*s + p**2 + r**2 - s**2",
+        "(0, 3, 3, 1)": "-p_x",
+        "(1, 0, 0, 1)": "-2*kappa*s",
+        "(1, 0, 1, 0)": "2*kappa*s",
+        "(1, 2, 0, 2)": "-p_x",
+        "(1, 2, 0, 3)": "-r_x",
+        "(1, 2, 1, 2)": "-kappa*(p - s)",
+        "(1, 2, 1, 3)": "-kappa*r",
+        "(1, 2, 2, 0)": "p_x",
+        "(1, 2, 2, 1)": "kappa*(p - s)",
+        "(1, 2, 3, 0)": "r_x",
+        "(1, 2, 3, 1)": "kappa*r",
+        "(1, 3, 0, 2)": "-r_x",
+        "(1, 3, 0, 3)": "p_x",
+        "(1, 3, 1, 2)": "-kappa*r",
+        "(1, 3, 1, 3)": "kappa*(p + s)",
+        "(1, 3, 2, 0)": "r_x",
+        "(1, 3, 2, 1)": "kappa*r",
+        "(1, 3, 3, 0)": "-p_x",
+        "(1, 3, 3, 1)": "-kappa*(p + s)",
+        "(2, 0, 0, 2)": "kappa*p - kappa*s + p**2 + r**2 - s**2",
+        "(2, 0, 0, 3)": "kappa*r",
+        "(2, 0, 1, 2)": "p_x",
+        "(2, 0, 1, 3)": "r_x",
+        "(2, 0, 2, 0)": "-kappa*p + kappa*s - p**2 - r**2 + s**2",
+        "(2, 0, 2, 1)": "-p_x",
+        "(2, 0, 3, 0)": "-kappa*r",
+        "(2, 0, 3, 1)": "-r_x",
+        "(2, 1, 0, 2)": "p_x",
+        "(2, 1, 0, 3)": "r_x",
+        "(2, 1, 1, 2)": "kappa*(p - s)",
+        "(2, 1, 1, 3)": "kappa*r",
+        "(2, 1, 2, 0)": "-p_x",
+        "(2, 1, 2, 1)": "-kappa*(p - s)",
+        "(2, 1, 3, 0)": "-r_x",
+        "(2, 1, 3, 1)": "-kappa*r",
+        "(2, 3, 2, 3)": "-p**2 - r**2 + s**2",
+        "(2, 3, 3, 2)": "p**2 + r**2 - s**2",
+        "(3, 0, 0, 2)": "kappa*r",
+        "(3, 0, 0, 3)": "-kappa*p - kappa*s + p**2 + r**2 - s**2",
+        "(3, 0, 1, 2)": "r_x",
+        "(3, 0, 1, 3)": "-p_x",
+        "(3, 0, 2, 0)": "-kappa*r",
+        "(3, 0, 2, 1)": "-r_x",
+        "(3, 0, 3, 0)": "kappa*p + kappa*s - p**2 - r**2 + s**2",
+        "(3, 0, 3, 1)": "p_x",
+        "(3, 1, 0, 2)": "r_x",
+        "(3, 1, 0, 3)": "-p_x",
+        "(3, 1, 1, 2)": "kappa*r",
+        "(3, 1, 1, 3)": "-kappa*(p + s)",
+        "(3, 1, 2, 0)": "-r_x",
+        "(3, 1, 2, 1)": "-kappa*r",
+        "(3, 1, 3, 0)": "p_x",
+        "(3, 1, 3, 1)": "kappa*(p + s)",
+        "(3, 2, 2, 3)": "p**2 + r**2 - s**2",
+        "(3, 2, 3, 2)": "-p**2 - r**2 + s**2"
+      }
+    },
+    "family": {
+      "W": "-A*B*sin(theta)",
+      "J": "-A*B*(-2*A**2*sin(theta) + A**2*sin(2*X - theta) - A**2*sin(2*X + theta) - 2*B**2*sin(theta) + B**2*sin(2*X + theta) - B**2*sin(2*X + 3*theta) + 4*s**2*sin(theta))/(4*s)",
+      "quadrature_J": "A*B*(A**2*sin(X)**2 - A**2 - B**2*sin(X)**2 + s**2)/s",
+      "epsilon2_coefficient": "2*a*b*sin(theta)/3",
+      "epsilon4_coefficient": "-a*b*(6*a**2*sin(theta) - 3*a**2*sin(2*X - theta) + 3*a**2*sin(2*X + theta) + 6*b**2*sin(theta) - 3*b**2*sin(2*X + theta) + 3*b**2*sin(2*X + 3*theta) + 8*c2*sin(theta))/8",
+      "d_bound_on_safe_box": "d <= A^2+B^2 < 1/8",
+      "s_bound_on_safe_box": "-5/6 < s < -1/2",
+      "kappa_lower_bound_on_safe_box": "kappa > 1/8 (written monotonic bound)",
+      "no_completion_H": "-2*(p**2 + r**2)"
+    },
+    "commutator_at_zero_and_pi_over_two": [
+      [
+        "0",
+        "-2*A*B*sin(theta)"
+      ],
+      [
+        "2*A*B*sin(theta)",
+        "0"
+      ]
+    ],
+    "cancellation_control": "A=B=s != 0, theta=-pi/2: d=s^2, kappa=0, E=0, J=0; B need not vanish. Outside safe box."
+  },
+  "limits": "symbolic exact initial jets, not PDE evolution/existence or independent adversarial review"
+}
