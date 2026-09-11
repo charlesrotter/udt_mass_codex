@@ -1,0 +1,47 @@
+{
+  "label": "ne1_metric",
+  "script": "udt_nonlinear_ripple_geometry_2026-09-09/check_original_metric.py",
+  "saved_stdout": "udt_nonlinear_ripple_geometry_2026-09-09/original_metric_run.stdout",
+  "kind": "original-author-regression",
+  "script_sha256": "3f394ed0ae3761f380a89bb3ecbaffc77aaaf6e2dcb956e9110af7665120c08b",
+  "saved_stdout_sha256": "21581fa4356afcda2ec5c7d4f0dbabd0aa6ecf7f57863879756fb6293c0fb904",
+  "launcher_argv": [
+    "/usr/bin/python3",
+    "-B",
+    "/home/udt-admin/udt_mass_codex/udt_shared_readout_metric_constraint_campaign_2026-09-06/run_capture.py",
+    "/home/udt-admin/udt_mass_codex/udt_reviewed_backlog_banking_2026-09-10/review_older_geometry/replays/ne1_metric",
+    "/home/udt-admin/udt_mass_codex",
+    "/usr/bin/python3",
+    "-B",
+    "/home/udt-admin/udt_mass_codex/udt_nonlinear_ripple_geometry_2026-09-09/check_original_metric.py"
+  ],
+  "launcher_returncode": 0,
+  "capture_sha256": "8ff5469ace76bdfc84188915242abbf3baff35516f9ee3f9ba4b1cbfeb2573ef",
+  "thread_environment": {
+    "OMP_NUM_THREADS": "1",
+    "OPENBLAS_NUM_THREADS": "1",
+    "MKL_NUM_THREADS": "1"
+  },
+  "dont_write_bytecode": true,
+  "python": "3.10.12 (main, Aug 31 2026, 10:18:17) [GCC 11.4.0]",
+  "platform": "Linux-6.8.0-138-generic-x86_64-with-glibc2.35",
+  "receipt": {
+    "command": [
+      "/usr/bin/python3",
+      "-B",
+      "/home/udt-admin/udt_mass_codex/udt_nonlinear_ripple_geometry_2026-09-09/check_original_metric.py"
+    ],
+    "cwd": "/home/udt-admin/udt_mass_codex",
+    "started_utc": "2026-09-11T00:03:53.034369+00:00",
+    "duration_seconds": 1.5530182860093191,
+    "returncode": 0,
+    "timeout": false,
+    "address_space_bytes": 536870912,
+    "cpu_seconds": 60,
+    "maxrss_kib": 54900
+  },
+  "stdout_sha256": "21581fa4356afcda2ec5c7d4f0dbabd0aa6ecf7f57863879756fb6293c0fb904",
+  "stdout_byte_identical": true,
+  "script_unchanged": true,
+  "saved_output_unchanged": true
+}

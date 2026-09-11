@@ -1,0 +1,59 @@
+{
+  "B_norm": 6.624486137591258,
+  "CO2_pin": "b89c8e432788842cdbddc1270c3135043e60f12c557cb24725d2162560fdfac2",
+  "S": [
+    -0.47235610641250514,
+    -0.9125510036953598
+  ],
+  "S_norm": 1.0275551691323392,
+  "arm_only": {
+    "kappa": 0.20183480920609606,
+    "rho": 0.047355825693239845
+  },
+  "exact_abstract": {
+    "H_max_squared": 5,
+    "kernel_dimension": 1,
+    "sharp_endpoints": [
+      "-3",
+      "5"
+    ],
+    "training": [
+      1,
+      2
+    ],
+    "zero_p_prediction": "3"
+  },
+  "finite_scope": "independent anchors; analytic proof owns all distinct times/targets and sharp intervals",
+  "holdout": {
+    "H_max_squared": 0.5396294186482855,
+    "endpoint_norms": [
+      0.5396294186482855,
+      0.5396294186482853
+    ],
+    "h0_norm2": 0.13962941864828549,
+    "outside_1p001_radius_norm2": 0.5404298186482852,
+    "p_norm2": 2.8756685220802436,
+    "prediction": -0.65641587145736,
+    "radius": 1.0725052022401091
+  },
+  "kernel": {
+    "interpolation_relative_residual": 4.691548564797569e-16,
+    "norm2_n1024": 0.1838042852763115,
+    "norm2_n2048": 0.18380428527540804,
+    "quadrature_spectral_norm2": 0.18380428527546402
+  },
+  "method": "stdlib scalar Simpson integrals, pivoted elimination, closed2x2 Gram eigenvalue; Fraction sharpness; no NumPy or producer import",
+  "nominal_delay_fractional_samples": [
+    "-3265791442403089/244140625000000",
+    "-12578587942656359/122070312500000",
+    "-21891384442909629/244140625000000"
+  ],
+  "passed": true,
+  "pins": {
+    "CANDIDATE.md": "46e8002a6a0138eaf993476fdc1dd9bbf2a724413bd9558efead2e1229779803",
+    "checks.py": "0be202298d3d5c523f53443786e3776b66196f4f9e461fd61d4ef1c767aeb152",
+    "checks_run.stdout": "1c15a27b5d32888360746953a4782f88c7cf5ebd8ed8c0212bcb0c78c919915e"
+  },
+  "python": "3.10.12",
+  "threshold": 0.15095510492888012
+}

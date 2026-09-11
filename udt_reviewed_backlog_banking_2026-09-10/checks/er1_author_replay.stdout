@@ -1,0 +1,248 @@
+{
+  "status": "PASS",
+  "kind": "author exact symbolic identities and diagnostic controls, not proof by finite sampling or independent review",
+  "checks": [
+    {
+      "name": "rest_annihilation",
+      "pass": true,
+      "detail": "theta(X_i)=0 for arbitrary smooth beta"
+    },
+    {
+      "name": "projector_idempotent",
+      "pass": true,
+      "detail": "covector projector with U_flat(U)=-1"
+    },
+    {
+      "name": "projected_exterior_equals_general_F",
+      "pass": true,
+      "detail": "arbitrary smooth lapse/shift, all temporal derivatives retained"
+    },
+    {
+      "name": "rest_pullback_equals_spatial_block",
+      "pass": true,
+      "detail": "time row/column of projected w vanish"
+    },
+    {
+      "name": "temporal_orthogonality",
+      "pass": true,
+      "detail": "vorticity annihilates observer U"
+    },
+    {
+      "name": "lapse_derivatives_cancel_after_projection",
+      "pass": true,
+      "detail": "does not remove lapse values or affect other kinematics"
+    },
+    {
+      "name": "full_metric_contraction_equals_rest_formula",
+      "pass": true,
+      "detail": "symbolic inverse rest form; no flat metric substitution"
+    },
+    {
+      "name": "G0_positive_principal_minors",
+      "pass": true,
+      "detail": "Sylvester criterion; N>1/2,a>3/4 on stated patch"
+    },
+    {
+      "name": "witness_inverse_metric",
+      "pass": true,
+      "detail": "full mixed four-dimensional metric inverse"
+    },
+    {
+      "name": "witness_unit_observer",
+      "pass": true,
+      "detail": "U=N^-1 partial_t"
+    },
+    {
+      "name": "witness_rest_metric",
+      "pass": true,
+      "detail": "gamma is observer-rest form; t slices need not be spacelike"
+    },
+    {
+      "name": "coupled_exact_W",
+      "pass": true,
+      "detail": "retains simultaneous lapse, spatial form and live shift"
+    },
+    {
+      "name": "origin_W",
+      "pass": true,
+      "detail": "direct projected metric derivative and full contraction"
+    },
+    {
+      "name": "interior_point",
+      "pass": true,
+      "detail": "second point strictly inside declared patch"
+    },
+    {
+      "name": "nonconstant_W",
+      "pass": true,
+      "detail": "96100000000/185679617823"
+    },
+    {
+      "name": "zero_spatial_curl_nonzero_rotation",
+      "pass": true,
+      "detail": "r=q=1, b=0; live shift term alone survives"
+    },
+    {
+      "name": "joint_nonzero_variations",
+      "pass": true,
+      "detail": "lapse, spatial form, shift vary simultaneously at interior point"
+    },
+    {
+      "name": "pair_0_pullback",
+      "pass": true,
+      "detail": "actual constant-direction coordinate immersion"
+    },
+    {
+      "name": "pair_0_determinant",
+      "pass": true,
+      "detail": "m\u00b2=-det h=N\u00b2 gamma(v,v)>0"
+    },
+    {
+      "name": "pair_0_same_origin_different_b",
+      "pass": true,
+      "detail": "all values agree at origin but W differs; first jets required"
+    },
+    {
+      "name": "pair_1_pullback",
+      "pass": true,
+      "detail": "actual constant-direction coordinate immersion"
+    },
+    {
+      "name": "pair_1_determinant",
+      "pass": true,
+      "detail": "m\u00b2=-det h=N\u00b2 gamma(v,v)>0"
+    },
+    {
+      "name": "pair_1_same_origin_different_b",
+      "pass": true,
+      "detail": "all values agree at origin but W differs; first jets required"
+    },
+    {
+      "name": "pair_2_pullback",
+      "pass": true,
+      "detail": "actual constant-direction coordinate immersion"
+    },
+    {
+      "name": "pair_2_determinant",
+      "pass": true,
+      "detail": "m\u00b2=-det h=N\u00b2 gamma(v,v)>0"
+    },
+    {
+      "name": "pair_2_same_origin_different_b",
+      "pass": true,
+      "detail": "all values agree at origin but W differs; first jets required"
+    },
+    {
+      "name": "pair_3_pullback",
+      "pass": true,
+      "detail": "actual constant-direction coordinate immersion"
+    },
+    {
+      "name": "pair_3_determinant",
+      "pass": true,
+      "detail": "m\u00b2=-det h=N\u00b2 gamma(v,v)>0"
+    },
+    {
+      "name": "pair_3_same_origin_different_b",
+      "pass": true,
+      "detail": "all values agree at origin but W differs; first jets required"
+    },
+    {
+      "name": "pair_4_pullback",
+      "pass": true,
+      "detail": "actual constant-direction coordinate immersion"
+    },
+    {
+      "name": "pair_4_determinant",
+      "pass": true,
+      "detail": "m\u00b2=-det h=N\u00b2 gamma(v,v)>0"
+    },
+    {
+      "name": "pair_4_same_origin_different_b",
+      "pass": true,
+      "detail": "all values agree at origin but W differs; first jets required"
+    },
+    {
+      "name": "pair_5_pullback",
+      "pass": true,
+      "detail": "actual constant-direction coordinate immersion"
+    },
+    {
+      "name": "pair_5_determinant",
+      "pass": true,
+      "detail": "m\u00b2=-det h=N\u00b2 gamma(v,v)>0"
+    },
+    {
+      "name": "pair_5_same_origin_different_b",
+      "pass": true,
+      "detail": "all values agree at origin but W differs; first jets required"
+    },
+    {
+      "name": "coordinate_rest_form_nonflat_diagnostic",
+      "pass": true,
+      "detail": "auxiliary coordinate Riemannian metric gamma at t=0; no integrable-rest or field equation claim"
+    },
+    {
+      "name": "catch_vorticity_sign",
+      "pass": true,
+      "detail": "tensor test needed; W cannot catch overall sign"
+    },
+    {
+      "name": "exact_amplitude_interaction",
+      "pass": true,
+      "detail": "direct projected exterior derivative for beta -> epsilon beta"
+    },
+    {
+      "name": "linear_term_has_nonzero_finite_remainder",
+      "pass": true,
+      "detail": "order-epsilon\u00b2 term; no finite-time evolution inference"
+    },
+    {
+      "name": "scalar_readout_cannot_select_shift",
+      "pass": true,
+      "detail": "same lapse/Phi for all b; retained shifts carry additional data"
+    }
+  ],
+  "check_count": 40,
+  "controls": [
+    {
+      "name": "ordinary_spatial_curl_only",
+      "caught": true,
+      "exact_difference": "-q*r*(-2*b + q*r)*(t + y + 1)**2/(7*(t + x**2 + 1)**4)"
+    },
+    {
+      "name": "drop_lapse_weight",
+      "caught": true,
+      "exact_difference": "-(-b + q*r)**2*(t + y)*(t + y + 2)/(7*(t + x**2 + 1)**4)"
+    },
+    {
+      "name": "drop_nonconstant_rest_scale",
+      "caught": true,
+      "exact_difference": "(-b + q*r)**2*(t + x**2)*(t + x**2 + 2)*(t + y + 1)**2*(t**2 + 2*t*x**2 + 2*t + x**4 + 2*x**2 + 2)/(7*(t + x**2 + 1)**4)"
+    },
+    {
+      "name": "flat_rest_inverse",
+      "caught": true,
+      "exact_difference": "(-b + q*r)**2*(t + y + 1)**2*(7*t**4 + 28*t**3*x**2 + 28*t**3 + 42*t**2*x**4 + 84*t**2*x**2 + 42*t**2 + 28*t*x**6 + 84*t*x**4 + 84*t*x**2 + 28*t + 7*x**8 + 28*x**6 + 42*x**4 + 28*x**2 + 5)/(14*(t + x**2 + 1)**4)"
+    },
+    {
+      "name": "omit_antisymmetrization_half",
+      "caught": true,
+      "exact_difference": "3*(-b + q*r)**2*(t + y + 1)**2/(7*(t + x**2 + 1)**4)"
+    },
+    {
+      "name": "vorticity_sign_caught_at_tensor_level",
+      "caught": true
+    }
+  ],
+  "control_count": 6,
+  "W_symbolic": "(-b + q*r)**2*(t + y + 1)**2/(7*(t + x**2 + 1)**4)",
+  "W_origin": "4/7",
+  "W_interior": "96100000000/185679617823",
+  "gamma_coordinate_R_origin": "-40/7",
+  "versions": {
+    "python": "3.10.12",
+    "sympy": "1.13.1"
+  },
+  "script_sha256": "1f2bcf0dd18a39258e1bc33405492d002be83decb91409d3a3fadd1d1a9573ce"
+}

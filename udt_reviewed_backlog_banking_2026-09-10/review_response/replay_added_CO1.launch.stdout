@@ -1,0 +1,1 @@
+{"address_space_bytes": 536870912, "command": ["python3", "-B", "udt_complementary_wave_observable_campaign_2026-09-07/step_01/review/independent_checks.py"], "cpu_seconds": 120, "cwd": "/home/udt-admin/udt_mass_codex", "duration_seconds": 0.018154777004383504, "maxrss_kib": 11520, "returncode": 0, "started_utc": "2026-09-11T00:10:25.068889+00:00", "timeout": false}

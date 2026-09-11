@@ -1,0 +1,13 @@
+{
+  "CO2_current_python": "3.10.12 (main, Aug 31 2026, 10:18:17) [GCC 11.4.0]",
+  "CO2_old_python": "3.10.12 (main, Jun 22 2026, 18:55:27) [GCC 11.4.0]",
+  "CO2_only_different_field": "python",
+  "CO2_remaining_fields_exactly_equal": true,
+  "exposure": "Comparison rule specified after the one-field difference was observed; no blind prediction claim.",
+  "new_stdout_sha256": "36f1af313cff6cd7d67c1540c2e900d7cbe23ae5b36a548ea651321d713c7dee",
+  "old_stdout_sha256": "c2a0aaf6364664f3b389568215f63a0795c06557318272c4cd009aed6742b21c",
+  "source_outputs_modified": false,
+  "status": "PASS_SCIENTIFIC_FIELDS_EXACT_RUNTIME_BUILD_DIFF_DISCLOSED",
+  "unchanged_source_execution_passes": 8,
+  "whole_stdout_byte_identical": 7
+}

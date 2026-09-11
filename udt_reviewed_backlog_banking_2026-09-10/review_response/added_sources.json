@@ -1,0 +1,15 @@
+{
+  "command": [
+    "python3",
+    "-B",
+    "udt_reviewed_backlog_banking_2026-09-10/review_response/audit_added_sources.py"
+  ],
+  "cwd": "/home/udt-admin/udt_mass_codex",
+  "started_utc": "2026-09-11T00:12:18.687762+00:00",
+  "duration_seconds": 0.03411932796007022,
+  "returncode": 0,
+  "timeout": false,
+  "address_space_bytes": 536870912,
+  "cpu_seconds": 120,
+  "maxrss_kib": 19468
+}

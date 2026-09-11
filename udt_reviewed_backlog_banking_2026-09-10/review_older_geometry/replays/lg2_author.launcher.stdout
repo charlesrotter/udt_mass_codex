@@ -1,0 +1,1 @@
+{"address_space_bytes": 536870912, "command": ["/usr/bin/python3", "-B", "/home/udt-admin/udt_mass_codex/udt_localized_geometry_campaign_2026-09-09/step_02/author_check.py"], "cpu_seconds": 60, "cwd": "/home/udt-admin/udt_mass_codex", "duration_seconds": 0.5797796989791095, "maxrss_kib": 49808, "returncode": 0, "started_utc": "2026-09-11T00:03:49.044400+00:00", "timeout": false}

@@ -1,0 +1,47 @@
+{
+  "label": "nr2_evolution",
+  "script": "udt_nonlinear_mode_realizability_campaign_2026-09-09/step_02/review/independent_evolution_interface.py",
+  "saved_stdout": "udt_nonlinear_mode_realizability_campaign_2026-09-09/step_02/review/independent_evolution_first.stdout",
+  "kind": "original-review-implementation-replay",
+  "script_sha256": "d0be2e7e10099846cfe73a7a8bb0867732beac043d3d590686fb2521fb8355c9",
+  "saved_stdout_sha256": "4d20693bd9728ae667221867ded18e29588c514c20a9e570ae492f2ac027a975",
+  "launcher_argv": [
+    "/usr/bin/python3",
+    "-B",
+    "/home/udt-admin/udt_mass_codex/udt_shared_readout_metric_constraint_campaign_2026-09-06/run_capture.py",
+    "/home/udt-admin/udt_mass_codex/udt_reviewed_backlog_banking_2026-09-10/review_older_geometry/replays/nr2_evolution",
+    "/home/udt-admin/udt_mass_codex",
+    "/usr/bin/python3",
+    "-B",
+    "/home/udt-admin/udt_mass_codex/udt_nonlinear_mode_realizability_campaign_2026-09-09/step_02/review/independent_evolution_interface.py"
+  ],
+  "launcher_returncode": 0,
+  "capture_sha256": "8ff5469ace76bdfc84188915242abbf3baff35516f9ee3f9ba4b1cbfeb2573ef",
+  "thread_environment": {
+    "OMP_NUM_THREADS": "1",
+    "OPENBLAS_NUM_THREADS": "1",
+    "MKL_NUM_THREADS": "1"
+  },
+  "dont_write_bytecode": true,
+  "python": "3.10.12 (main, Aug 31 2026, 10:18:17) [GCC 11.4.0]",
+  "platform": "Linux-6.8.0-138-generic-x86_64-with-glibc2.35",
+  "receipt": {
+    "command": [
+      "/usr/bin/python3",
+      "-B",
+      "/home/udt-admin/udt_mass_codex/udt_nonlinear_mode_realizability_campaign_2026-09-09/step_02/review/independent_evolution_interface.py"
+    ],
+    "cwd": "/home/udt-admin/udt_mass_codex",
+    "started_utc": "2026-09-11T00:04:14.430692+00:00",
+    "duration_seconds": 0.42739537300076336,
+    "returncode": 0,
+    "timeout": false,
+    "address_space_bytes": 536870912,
+    "cpu_seconds": 60,
+    "maxrss_kib": 49152
+  },
+  "stdout_sha256": "4d20693bd9728ae667221867ded18e29588c514c20a9e570ae492f2ac027a975",
+  "stdout_byte_identical": true,
+  "script_unchanged": true,
+  "saved_output_unchanged": true
+}

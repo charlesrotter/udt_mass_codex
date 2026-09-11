@@ -1,0 +1,294 @@
+{
+  "status": "PASS_EXACT_ALGEBRA_AND_SAVED_QUANTITY_CONTROLS",
+  "all_symbolic_checks": [
+    "inverse angular metric contraction",
+    "Killing rotation of scalar gradient",
+    "normalization-independent slope derivative",
+    "nonconstant cubic for every sector"
+  ],
+  "saved_HB2_recomputed": [
+    {
+      "weights": [
+        "1/4",
+        "1/2"
+      ],
+      "x": "1/3",
+      "C": "-3",
+      "Lambda": "-37/5",
+      "root_D": "-8",
+      "qdot": "-75/136"
+    },
+    {
+      "weights": [
+        "1/4",
+        "1/2"
+      ],
+      "x": "1/3",
+      "C": "-3",
+      "Lambda": "-37/5",
+      "root_D": "8",
+      "qdot": "75/136"
+    },
+    {
+      "weights": [
+        "1/4",
+        "1/2"
+      ],
+      "x": "1/3",
+      "C": "3",
+      "Lambda": "-37/5",
+      "root_D": "-8",
+      "qdot": "-75/136"
+    },
+    {
+      "weights": [
+        "1/4",
+        "1/2"
+      ],
+      "x": "1/3",
+      "C": "3",
+      "Lambda": "-37/5",
+      "root_D": "8",
+      "qdot": "75/136"
+    },
+    {
+      "weights": [
+        "2",
+        "7/4"
+      ],
+      "x": "2/5",
+      "C": "-3",
+      "Lambda": "-11/37",
+      "root_D": "-8",
+      "qdot": "-1110/959"
+    },
+    {
+      "weights": [
+        "2",
+        "7/4"
+      ],
+      "x": "2/5",
+      "C": "-3",
+      "Lambda": "-11/37",
+      "root_D": "8",
+      "qdot": "1110/959"
+    },
+    {
+      "weights": [
+        "2",
+        "7/4"
+      ],
+      "x": "2/5",
+      "C": "3",
+      "Lambda": "-11/37",
+      "root_D": "-8",
+      "qdot": "-1110/959"
+    },
+    {
+      "weights": [
+        "2",
+        "7/4"
+      ],
+      "x": "2/5",
+      "C": "3",
+      "Lambda": "-11/37",
+      "root_D": "8",
+      "qdot": "1110/959"
+    },
+    {
+      "weights": [
+        "1/2",
+        "1/2"
+      ],
+      "x": "1/4",
+      "C": "-3",
+      "Lambda": "-6",
+      "root_D": "-8",
+      "qdot": "0"
+    },
+    {
+      "weights": [
+        "1/2",
+        "1/2"
+      ],
+      "x": "1/4",
+      "C": "-3",
+      "Lambda": "-6",
+      "root_D": "8",
+      "qdot": "0"
+    },
+    {
+      "weights": [
+        "1/2",
+        "1/2"
+      ],
+      "x": "1/4",
+      "C": "3",
+      "Lambda": "-6",
+      "root_D": "-8",
+      "qdot": "0"
+    },
+    {
+      "weights": [
+        "1/2",
+        "1/2"
+      ],
+      "x": "1/4",
+      "C": "3",
+      "Lambda": "-6",
+      "root_D": "8",
+      "qdot": "0"
+    }
+  ],
+  "fixed_data_two_point_anchors": [
+    {
+      "weights": [
+        "1/4",
+        "1/2"
+      ],
+      "C": "3",
+      "Lambda": "0",
+      "anchors": [
+        {
+          "x": "1/4",
+          "R": "-8/7",
+          "gap": "25/7",
+          "D_squared": "236/7",
+          "qdot_squared": "3087/5900"
+        },
+        {
+          "x": "3/4",
+          "R": "8/5",
+          "gap": "11/5",
+          "D_squared": "196/5",
+          "qdot_squared": "28125/23716"
+        }
+      ],
+      "both_root_signs": "same square; signed slope reverses"
+    },
+    {
+      "weights": [
+        "2",
+        "7/4"
+      ],
+      "C": "3",
+      "Lambda": "0",
+      "anchors": [
+        {
+          "x": "1/4",
+          "R": "416/29",
+          "gap": "-121/29",
+          "D_squared": "1876/29",
+          "qdot_squared": "351201600/336464821"
+        },
+        {
+          "x": "3/4",
+          "R": "352/31",
+          "gap": "-83/31",
+          "D_squared": "1820/31",
+          "qdot_squared": "85798080/30718051"
+        }
+      ],
+      "both_root_signs": "same square; signed slope reverses"
+    },
+    {
+      "weights": [
+        "1/2",
+        "1/4"
+      ],
+      "C": "3",
+      "Lambda": "0",
+      "anchors": [
+        {
+          "x": "1/4",
+          "R": "8/5",
+          "gap": "11/5",
+          "D_squared": "196/5",
+          "qdot_squared": "112500/5929"
+        },
+        {
+          "x": "3/4",
+          "R": "-8/7",
+          "gap": "25/7",
+          "D_squared": "236/7",
+          "qdot_squared": "12348/1475"
+        }
+      ],
+      "both_root_signs": "same square; signed slope reverses"
+    }
+  ],
+  "circle_controls": [
+    {
+      "integer_weights": [
+        1,
+        1
+      ],
+      "every_orbit_closed": true,
+      "axis_primitive_periods_over_2pi": [
+        "1",
+        "1"
+      ],
+      "free_circle_action": true
+    },
+    {
+      "integer_weights": [
+        1,
+        2
+      ],
+      "every_orbit_closed": true,
+      "axis_primitive_periods_over_2pi": [
+        "1",
+        "1/2"
+      ],
+      "free_circle_action": false
+    },
+    {
+      "integer_weights": [
+        2,
+        3
+      ],
+      "every_orbit_closed": true,
+      "axis_primitive_periods_over_2pi": [
+        "1/2",
+        "1/3"
+      ],
+      "free_circle_action": false
+    }
+  ],
+  "hostile_checks": [
+    {
+      "wrong_claim": "ratio derivative from first angular component only",
+      "actual_rejection": "exact residual is nonzero"
+    },
+    {
+      "wrong_claim": "replace signed negative gap by its modulus",
+      "actual_rejection": "exact residual is nonzero"
+    },
+    {
+      "wrong_claim": "cubic denominator could be constant on an open scalar interval",
+      "actual_rejection": "exact residual is nonzero"
+    },
+    {
+      "wrong_claim": "constant spatial slope derivative proves dispersion",
+      "actual_rejection": "exact residual is nonzero"
+    },
+    {
+      "wrong_claim": "one saved slope determines a second at fixed C and Lambda",
+      "actual_rejection": "exact residual is nonzero"
+    },
+    {
+      "wrong_claim": "unequal rational all-closed action is automatically a free Hopf action",
+      "actual_rejection": "exact residual is nonzero"
+    }
+  ],
+  "versions": {
+    "python": "3.10.12 (main, Aug 31 2026, 10:18:17) [GCC 11.4.0]",
+    "sympy": "1.13.1",
+    "platform": "Linux-6.8.0-138-generic-x86_64-with-glibc2.35"
+  },
+  "limits": [
+    "No Einstein evolution or orbit solve",
+    "No finite check proves the symmetry-extension or time-quantifier argument",
+    "No assertion of topology change, particle stability, physical size or scale"
+  ]
+}

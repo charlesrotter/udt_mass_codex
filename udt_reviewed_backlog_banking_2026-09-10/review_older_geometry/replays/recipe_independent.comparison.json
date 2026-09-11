@@ -1,0 +1,60 @@
+{
+  "label": "recipe_independent",
+  "script": "udt_g313_curvature_phase_current_candidate_2026-09-06/replay_2026-09-06/portable_saved_artifact_replay.py",
+  "saved_stdout": "udt_g313_curvature_phase_current_candidate_2026-09-06/review_2026-09-06/stage_b_independent_artifacts.stdout",
+  "script_sha256": "1fa8415700589c80d5367649b393e828f3814eb7dd7c70477af1ea7be3b4b003",
+  "saved_stdout_sha256": "04ee9ea39f75ad0417d850f84dd067ada7fe09ce5499aa4e0b22348148f98049",
+  "args": [
+    "--review-dir",
+    "/home/udt-admin/udt_mass_codex/udt_g313_curvature_phase_current_candidate_2026-09-06/review_2026-09-06",
+    "--candidate-dir",
+    "/home/udt-admin/udt_mass_codex/udt_g313_curvature_phase_current_candidate_2026-09-06"
+  ],
+  "launcher_argv": [
+    "/usr/bin/python3",
+    "-B",
+    "/home/udt-admin/udt_mass_codex/udt_shared_readout_metric_constraint_campaign_2026-09-06/run_capture.py",
+    "/home/udt-admin/udt_mass_codex/udt_reviewed_backlog_banking_2026-09-10/review_older_geometry/replays/recipe_independent",
+    "/home/udt-admin/udt_mass_codex",
+    "/usr/bin/python3",
+    "-B",
+    "/home/udt-admin/udt_mass_codex/udt_g313_curvature_phase_current_candidate_2026-09-06/replay_2026-09-06/portable_saved_artifact_replay.py",
+    "--review-dir",
+    "/home/udt-admin/udt_mass_codex/udt_g313_curvature_phase_current_candidate_2026-09-06/review_2026-09-06",
+    "--candidate-dir",
+    "/home/udt-admin/udt_mass_codex/udt_g313_curvature_phase_current_candidate_2026-09-06"
+  ],
+  "launcher_returncode": 0,
+  "capture_sha256": "8ff5469ace76bdfc84188915242abbf3baff35516f9ee3f9ba4b1cbfeb2573ef",
+  "thread_environment": {
+    "OMP_NUM_THREADS": "1",
+    "OPENBLAS_NUM_THREADS": "1",
+    "MKL_NUM_THREADS": "1"
+  },
+  "dont_write_bytecode": true,
+  "python": "3.10.12 (main, Aug 31 2026, 10:18:17) [GCC 11.4.0]",
+  "platform": "Linux-6.8.0-138-generic-x86_64-with-glibc2.35",
+  "receipt": {
+    "command": [
+      "/usr/bin/python3",
+      "-B",
+      "/home/udt-admin/udt_mass_codex/udt_g313_curvature_phase_current_candidate_2026-09-06/replay_2026-09-06/portable_saved_artifact_replay.py",
+      "--review-dir",
+      "/home/udt-admin/udt_mass_codex/udt_g313_curvature_phase_current_candidate_2026-09-06/review_2026-09-06",
+      "--candidate-dir",
+      "/home/udt-admin/udt_mass_codex/udt_g313_curvature_phase_current_candidate_2026-09-06"
+    ],
+    "cwd": "/home/udt-admin/udt_mass_codex",
+    "started_utc": "2026-09-11T00:09:48.268441+00:00",
+    "duration_seconds": 6.109493563999422,
+    "returncode": 0,
+    "timeout": false,
+    "address_space_bytes": 536870912,
+    "cpu_seconds": 60,
+    "maxrss_kib": 52612
+  },
+  "stdout_sha256": "17143abc9377ac538e1553c21500cc8f87837643bc1072e6858fbc9ef52a00ce",
+  "stdout_byte_identical": false,
+  "script_unchanged": true,
+  "saved_output_unchanged": true
+}

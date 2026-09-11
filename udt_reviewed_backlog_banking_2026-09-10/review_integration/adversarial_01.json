@@ -1,0 +1,14 @@
+{
+  "command": [
+    "python3",
+    "udt_reviewed_backlog_banking_2026-09-10/review_integration/adversarial_integration.py"
+  ],
+  "cwd": "/home/udt-admin/udt_mass_codex",
+  "started_utc": "2026-09-11T00:35:58.088587+00:00",
+  "duration_seconds": 3.8571370739955455,
+  "returncode": 0,
+  "timeout": false,
+  "address_space_bytes": 536870912,
+  "cpu_seconds": 120,
+  "maxrss_kib": 188704
+}

@@ -1,0 +1,372 @@
+{
+  "recorded_utc": "2026-09-11T00:15:05.739806+00:00",
+  "reviewer_context": "/root/bank_response_results",
+  "review_type": "SAME_CONTEXT_EXTENDED_SOURCE_DEPENDENCY_AND_FIDELITY",
+  "candidate_count": 4,
+  "candidates": [
+    {
+      "id": "TM1",
+      "required_source_ids": [
+        "G313",
+        "G358",
+        "G312"
+      ],
+      "required_candidate_ids": [],
+      "source_roles": {
+        "G313": "connected scalar constancy within conditional Einstein equation class",
+        "G358": "explicit Q slot convention and ideal E trace",
+        "G312": "CURRENT filter-only qualifier, not old stronger adoption",
+        "G261/W4": "WORKING physical-metric interpretation, not device derivation",
+        "ESA E1/E2/E3": "historical engineering/source-audit credit; supplied ideal map is independently derived conditional kinematics, no current release certification"
+      },
+      "statement": "For the specified ideal local rotating held-pair instrument map with positive signed-axis baselines L and calibrated half-acceleration differences Ad, S=2Ad L^-1=T+Omega2+dotOmega, T=sym(S)-Omega2, dotOmega=skew(S), tr(T)=tr(S)+2|omega|2. Additive D and angular-rate error deltaomega give trace error tr(D)+4omega.dot(deltaomega)+2|deltaomega|2. In the conditional connected Einstein class, kappa=tr(T)=-c_E2*Lambda. The scalar channel kappa+b aliases an unknown constant bias; fixed linear H with H1=0 erases all constant signal. These are conditional interface/identifiability statements.",
+      "assumptions": [
+        "supplied ideal infinitesimal/comoving/slow-relative-motion metrology map",
+        "specified Q/Jacobi sign and calibrated units",
+        "full matrices, correct signed baseline/pair order and half-difference factor2",
+        "Einstein equation with full reviewed premises for kappa constancy",
+        "fixed LINEAR processing H"
+      ],
+      "exclusions": [
+        "GOCE released-channel eligibility OPEN",
+        "no finite-body/baseline/nongravitational/relativistic/calibration error bound supplied",
+        "no modern processing audit or flight data",
+        "no physical device derivation/adoption or empirical result",
+        "historical engineering sign conflicts are retained, not used to pick favorable convention"
+      ],
+      "review_context": "/root/tidal_tm1_review",
+      "review_axes": "Actual fresh source-first symbolic rotating-frame argument followed by independent Fraction direct-force reconstruction; original author replay shared-code regression. Later focused review same exposed context. Model UNKNOWN; different-model/human/formal axes UNTESTED.",
+      "history": [
+        "Initial candidate589eff... incorrectly asserted H1=0 for unrestricted H; nonlinear H(x)=x(x-1) is preserved counterexample. Sole exact phrase repair to fixed linear H yields final680378...; focused review closed it. Direct11 checks include1 author-output packaging check; focused11 are authentication, not proof. Source retrieval incidentally exposed qualitative historical performance prose; no pristine observational blindness. Old ESA sign/yy transcription and unavailable full2018 algorithm remain in source history."
+      ],
+      "replays": [
+        "TM1",
+        "TM1_repair"
+      ],
+      "artifacts": {
+        "candidate": {
+          "path": "udt_tidal_measurement_feasibility_campaign_2026-09-07/step_01/CANDIDATE_ARGUMENT.md",
+          "sha256": "680378622607ea82dad018620fd2408ae989854e3b8539e56e1ef07cf4b94163"
+        },
+        "result": {
+          "path": "udt_tidal_measurement_feasibility_campaign_2026-09-07/step_01/review/VERDICT.json",
+          "sha256": "85b8b0d19e2dd408bc65f30305ef204dc7b0117d3e2943a0fd12fc9df684eea7"
+        }
+      },
+      "whole_reviews": [
+        {
+          "path": "udt_tidal_measurement_feasibility_campaign_2026-09-07/step_01/review/DIRECT_ADVERSARIAL_REVIEW.md",
+          "sha256": "5f80614246b472a3375ea16f9fc84e03863a7356772891da5eff75cf68c580ae"
+        },
+        {
+          "path": "udt_tidal_measurement_feasibility_campaign_2026-09-07/step_01/review/FOCUSED_REVIEW.md",
+          "sha256": "b758b6ef6d6739e25b3d6b7c0616a6b02f77d76d981e53479dfcdd7d09e07a7a"
+        }
+      ],
+      "whole_repair_history_and_metadata": [
+        {
+          "path": "udt_tidal_measurement_feasibility_campaign_2026-09-07/step_01/REPAIR_RECORD.md",
+          "sha256": "d88e0b47e6c8bb538f7f6c24a52f876184b4bdd17f8ccc52fd4bce11917ae8d1"
+        },
+        {
+          "path": "udt_tidal_measurement_feasibility_campaign_2026-09-07/step_01/CANDIDATE_FREEZE.md",
+          "sha256": "6b98030926e0096d8650b65e527735b0944a38e286328d09e17146cea2544d20"
+        },
+        {
+          "path": "udt_tidal_measurement_feasibility_campaign_2026-09-07/step_01/SOURCE_ACCESS_AND_EXPOSURE.md",
+          "sha256": "5f14ff6ffe0153e9b0023693d496bda31eb1f76d354a8abcaabff89c25a8a762"
+        }
+      ],
+      "current_registry_ownership_found": false,
+      "banking_recommendation": "ELIGIBLE_AT_EXACT_SCOPE_PENDING_PARENT_INTEGRATION",
+      "proposed_grade": [
+        "BANKED_DERIVED_CONDITIONAL",
+        "VERIFIED-WITH-CAVEATS",
+        "OWNER_AUTHORIZED",
+        "NOT_PHYSICAL_ADOPTION",
+        "NOT_CANON"
+      ],
+      "unresolved_scientific_objections": [],
+      "exact_runtime_model_version": "UNATTESTED",
+      "current_authority_qualification": "All inherited admitted/lawful Einstein labels are conditional on full reviewed equation/class hypotheses; current G312 is FILTER ONLY, not response-law construction input.",
+      "remaining_integration_gates": [
+        "parent final registry/guard/current premise checks",
+        "fresh integration fidelity review",
+        "preservation/source guard checks"
+      ]
+    },
+    {
+      "id": "TM2",
+      "required_source_ids": [
+        "G313",
+        "G358",
+        "G312"
+      ],
+      "required_candidate_ids": [
+        "TM1"
+      ],
+      "source_roles": {
+        "TM1": "reviewed conditional trace/interface interpretation and retained eligibility/source limits",
+        "G313/G358": "conditional constant trace with explicit convention",
+        "G312": "current filter-only equation qualification",
+        "finite linear algebra": "methods directly proved, not an adopted nuisance law"
+      },
+      "statement": "For fixed finite linear y=P(kappa*1+N*beta+delta)+epsilon with PRE-P nuisance N, p=P1,Q=PN,M=[p Q], scalar kappa is noiseless-identifiable iff p not in col(Q), conditional on consistency. A complete left annihilator C has ker C=col M and genuine departure-response rank rank(CP)=rank(P)-rank(M); a specified departure is distinguishable iff CPdelta!=0. Entire heldout B prediction from consistent A is unique iff ker(MA) subset ker(MB), equivalently MB=K MA. Fixed residual [-K I] obeys triangle/error-covariance bounds with training errors and correlations retained; signal exceeding twice the justified null bound is sufficient for guaranteed rejection. Chosen four-time affine-drift examples demonstrate calibration/test distinction and exact blind designs.",
+      "assumptions": [
+        "fixed P/N with nuisance BEFORE P",
+        "finite registered query design, no nonlinear/adaptive unknown gain unless valid reduction supplied",
+        "noiseless consistency for uniqueness statements",
+        "fixed A/B partition/K, independently justified recorded error or covariance for error claims",
+        "TM1 full conditional physical interpretation only"
+      ],
+      "exclusions": [
+        "rank(C) alone is not signal-sensitive rank",
+        "absolute scalar identification not required for a useful contrast",
+        "full B failure does not exclude all predictable B functionals",
+        "row disjointness is not raw/provenance/statistical independence",
+        "chosen affine drift not physical GOCE law; finite samples not continuous-time completeness",
+        "no modern product eligibility, power, measured Lambda or UDT-specific empirical rejection"
+      ],
+      "review_context": "/root/tidal_tm2_review",
+      "review_axes": "Fresh source-first Fraction linear algebra versus author SymPy; direct reconstruction from saved P/N; four actual author one-edit mutations plus four reviewer mutations were historical finite catch evidence. Same-code replay regression. Model UNKNOWN; other axes UNTESTED.",
+      "history": [
+        "No mathematical repair. Source-first19 groups include25 finite P/nuisance combinations. Direct21 includes6 packaging/authentication checks; author32 guards. Four historical author mutations genuinely failed but were not recreated in this banking fidelity review. TM1 exposure/repair inherited. Current direct script old349 source manifest intentionally not bypassed; source-first and author unchanged replays used, old registry separately authenticated."
+      ],
+      "replays": [
+        "TM2_source",
+        "TM2_author"
+      ],
+      "artifacts": {
+        "candidate": {
+          "path": "udt_tidal_measurement_feasibility_campaign_2026-09-07/step_02/CANDIDATE_ARGUMENT.md",
+          "sha256": "8660e9077d6fb29b041bd5e7d9875c53658b7f8ab5683f60a170d071ead7990b"
+        },
+        "result": {
+          "path": "udt_tidal_measurement_feasibility_campaign_2026-09-07/step_02/review/VERDICT.json",
+          "sha256": "757dbc6a4b0d4b78f6e92c4a7edfc0e33f55933a5e564fb5bdf44071ea678dc8"
+        }
+      },
+      "whole_reviews": [
+        {
+          "path": "udt_tidal_measurement_feasibility_campaign_2026-09-07/step_02/review/DIRECT_ADVERSARIAL_REVIEW.md",
+          "sha256": "ada25a8f13ed4b68070da695c98bba13f5fd57c1d0794c5d052ef1b32fd03a79"
+        }
+      ],
+      "whole_repair_history_and_metadata": [
+        {
+          "path": "udt_tidal_measurement_feasibility_campaign_2026-09-07/step_02/CANDIDATE_FREEZE.md",
+          "sha256": "3afc177c8198531c7376b855143d331f90af7c817d7ecc7b545c53e0054410b8"
+        },
+        {
+          "path": "udt_tidal_measurement_feasibility_campaign_2026-09-07/step_02/review/AUTHOR_MUTATIONS.json",
+          "sha256": "5d74e83d0ecbcd11d0c33d7494972aa347a41db37ca8bfee4bab1a52600728e5"
+        }
+      ],
+      "current_registry_ownership_found": false,
+      "banking_recommendation": "ELIGIBLE_AT_EXACT_SCOPE_PENDING_PARENT_INTEGRATION",
+      "proposed_grade": [
+        "BANKED_DERIVED_CONDITIONAL",
+        "VERIFIED-WITH-CAVEATS",
+        "OWNER_AUTHORIZED",
+        "NOT_PHYSICAL_ADOPTION",
+        "NOT_CANON"
+      ],
+      "unresolved_scientific_objections": [],
+      "exact_runtime_model_version": "UNATTESTED",
+      "current_authority_qualification": "All inherited admitted/lawful Einstein labels are conditional on full reviewed equation/class hypotheses; current G312 is FILTER ONLY, not response-law construction input.",
+      "remaining_integration_gates": [
+        "parent final registry/guard/current premise checks",
+        "fresh integration fidelity review",
+        "preservation/source guard checks"
+      ]
+    },
+    {
+      "id": "CO1",
+      "required_source_ids": [
+        "G313",
+        "G312"
+      ],
+      "required_candidate_ids": [],
+      "source_roles": {
+        "G313": "conditional Einstein-arena zero-Lambda pp-wave predecessor",
+        "G312": "CURRENT filter-only authority; old law-adoption wording qualified",
+        "G261/W4/G276": "working metric interpretation/calibration context, not laser/instrument derivation",
+        "LC1/LC2/ORS1": "complementarity/motivation/source credit, not empirical or mathematical premises of pp-wave/null theorem",
+        "LAL/GWOSC/GCN/LVC documents": "supplied measurement/nominal-query route provenance; current releases not re-certified"
+      },
+      "statement": "For arbitrary smooth A(u),B(u), metric -2du dv+dx2+dy2+[A(u)(x2-y2)+2B(u)xy]du2 is exactly locally Ricci-flat with R_uiuj=[[-A,-B],[-B,A]]. In the separately supplied weak local tensor-plane-wave detector regime, E=-h_tt/(2c_E2), and frozen calibrated differential arm response D:h gives its band-limited tidal projection. For fixed real/complex N-by2 F of rank r, N-r null contrasts annihilate two arbitrary waveform values; Z has null COLUMNS. Holdout row predictability is exactly training row-space membership. For centered complex covariance and residual coefficient ROW b, variance=b C b^dagger; nonzero bias separate. Normalized null leakage <=||DeltaF||2||h||2+|q^dagger e|.",
+      "assumptions": [
+        "exact smooth local pp-wave geometry is conditional Einstein-branch mathematics",
+        "weak h, nearly flat planar detector patch and supplied propagation direction",
+        "supplied calibrated arm/laser/clock/delay/noise response; frozen D or explicit time-response corrections",
+        "fixed F and valid covariance/centering or deterministic bounds",
+        "full source/selection exposure declared"
+      ],
+      "exclusions": [
+        "not a general UDT two-polarization theorem or source waveform selection",
+        "weak approximation not exact nonlinear TT metric",
+        "no DC/full curvature/metric or joined laboratory/source reconstruction",
+        "null sees only complement of col F; arbitrary per-channel error can erase test",
+        "small frequency/rotation parameters not metrological error bounds",
+        "no product certification, observed null, physical adoption or distinct UDT signature"
+      ],
+      "review_context": "/root/co1_geometry_review",
+      "review_axes": "Fresh source-first Fraction linearized curvature/rational-arm and exact pp-wave metric-jet implementation; candidate outline/parent Z-typo disclosure arrived after seal. Reviewer discovered complex covariance error. Focused rerun same exposed context; model UNKNOWN, different-model/human/formal UNTESTED.",
+      "history": [
+        "One grouped repair: Z row/column dimension error and complex covariance orientation; valid positive-definite example gives correct3 versus erroneous1. Final centered-error/mean-bias wording completed same repair; original candidate/code/output all preserved. Added rank1 rowspace clarification is within reviewed final statement. Actual wrong producer covariance expression reinserted IN MEMORY and rejected; sourcefirst independent code plus finite checks not exhaustive. Published event/weak-Virgo and GW-triggered followup exposure retained."
+      ],
+      "replays": [
+        "CO1",
+        "CO1_ppwave",
+        "CO1_repair"
+      ],
+      "artifacts": {
+        "candidate": {
+          "path": "udt_complementary_wave_observable_campaign_2026-09-07/step_01/CANDIDATE.md",
+          "sha256": "c5dd7945858f287845ebfbf6f38e0bdf9bc929e66463abd8b08105959a3d7ad0"
+        },
+        "result": {
+          "path": "udt_complementary_wave_observable_campaign_2026-09-07/step_01/review/REVIEW_RESULT.json",
+          "sha256": "4f86750ebe2a3ac009eefe89d0ce356ae87726f30b46ca80692207023f94dede"
+        }
+      },
+      "whole_reviews": [
+        {
+          "path": "udt_complementary_wave_observable_campaign_2026-09-07/step_01/review/INITIAL_REVIEW.md",
+          "sha256": "67f45bebef4c6742e288b08f3a16f69fc60b57cbf234332c9390bf432e913582"
+        },
+        {
+          "path": "udt_complementary_wave_observable_campaign_2026-09-07/step_01/review/FINAL_REVIEW.md",
+          "sha256": "31c578ab9a26beb1e762c4c994c8c92291ed6300c4ae11149a737cdb63cbb11f"
+        }
+      ],
+      "whole_repair_history_and_metadata": [
+        {
+          "path": "udt_complementary_wave_observable_campaign_2026-09-07/step_01/INITIAL_CANDIDATE.md",
+          "sha256": "478100481ea75cc363b8c0c60c0f7e2338fbdc600db0bee140b1a2d16feb92b4"
+        },
+        {
+          "path": "udt_complementary_wave_observable_campaign_2026-09-07/step_01/INITIAL_geometry_checks.py",
+          "sha256": "df61009c19d4755e3ec17fcc60219ae0e0f01aa0f66045531d75dc588a5a02a1"
+        },
+        {
+          "path": "udt_complementary_wave_observable_campaign_2026-09-07/step_01/review/focused_rereview.py",
+          "sha256": "53d87c7fe148bddd6bd382e08ea59acb2c048b5934932ca5ae660077421fd76a"
+        }
+      ],
+      "current_registry_ownership_found": false,
+      "banking_recommendation": "ELIGIBLE_AT_EXACT_SCOPE_PENDING_PARENT_INTEGRATION",
+      "proposed_grade": [
+        "BANKED_DERIVED_CONDITIONAL",
+        "VERIFIED-WITH-CAVEATS",
+        "OWNER_AUTHORIZED",
+        "NOT_PHYSICAL_ADOPTION",
+        "NOT_CANON"
+      ],
+      "unresolved_scientific_objections": [],
+      "exact_runtime_model_version": "UNATTESTED",
+      "current_authority_qualification": "All inherited admitted/lawful Einstein labels are conditional on full reviewed equation/class hypotheses; current G312 is FILTER ONLY, not response-law construction input.",
+      "remaining_integration_gates": [
+        "parent final registry/guard/current premise checks",
+        "fresh integration fidelity review",
+        "preservation/source guard checks"
+      ]
+    },
+    {
+      "id": "CO2",
+      "required_source_ids": [
+        "G312"
+      ],
+      "required_candidate_ids": [
+        "CO1"
+      ],
+      "source_roles": {
+        "CO1": "entire supplied weak tensor-wave/response/null/covariance class and repairs",
+        "G312": "current authority qualifies inherited Einstein language, no direct physical inference from filter",
+        "design_inputs.json": "fixed official arm decimals, nominal query/time, conventional supplied geometry",
+        "design_run.stdout nominal rotation": "SHARED supplied astrometry; independent replay does not independently certify it",
+        "saved LAL header": "byte-authenticated historical public-source snapshot; copied durably here",
+        "noise ratios/stress offsets": "chosen design controls, not observations or uncertainty bounds"
+      },
+      "statement": "Accepted fixed-query numerical DESIGN CONTROL for the pinned H1/L1/V1 arm decimals, nominal optical direction/GPS time and supplied saved rotation under CO1 response. Full-precision matrix has rank2, singular values about1.185937/0.211048, unweighted condition5.61929, one null q~(0.329437,0.636443,0.697433), and Virgo prediction dV=-0.472356*dH-0.912551*dL. H/L training condition7.66035; three holdouts are rescalings of one relation. Declared comparator noise ratios and27 finite sky/time stresses have only the saved finite design scope.",
+      "assumptions": [
+        "pinned published source decimals and nominal supplied sky/time/association",
+        "supplied ICRS-like-to-GCRS identification and saved ERFA/IERS nominal rotation",
+        "real long-wavelength frozen CO1 response",
+        "float64/scalar floating calculations and stated tolerances",
+        "hypothetical noise ratios and finite stress offsets explicitly chosen"
+      ],
+      "exclusions": [
+        "BANKED_CONDITIONAL_DESIGN_CONTROL, not general derived theorem or empirical strain result",
+        "shared rotation not independent astrometry/IERS verification",
+        "source decimals not exact metrology; no source retuning/arm renormalization",
+        "27 stresses not supremum uncertainty bounds",
+        "rank/condition not power/sensitivity/significance",
+        "no transfer/release/calibration covariance eligibility or current route endorsement",
+        "original next-work-order remains historical, no analysis authorized"
+      ],
+      "review_context": "/root/co2_design_review",
+      "review_axes": "Fresh source-first independent stdlib scalar projections/Gram eigenvalues/minors/no SVD or producer imports; shared supplied nominal rotation. Original no producer replay, no independent astrometry. Later fidelity same context. Model UNKNOWN; other axes UNTESTED.",
+      "history": [
+        "No CO2 science repair. Original preservation threaded-lstat failure retained and repaired with transient invocation-only Git preload control. Source fetch404 failures retained. Banking replay executes unchanged independent code successfully; every scientific JSON field EXACTLY matches saved output. Only sys.version build string differs June22\u2192August31 Python3.10.12/GCC11.4.0; strict byte mismatch preserved and explicit comparison adjudicated. No full-stdout identity claim."
+      ],
+      "replays": [
+        "CO2"
+      ],
+      "artifacts": {
+        "candidate": {
+          "path": "udt_complementary_wave_observable_campaign_2026-09-07/step_02/CANDIDATE.md",
+          "sha256": "bd06415b173dc2a0b32f05f5beb6cdb0cd3ab3a0e08ad0a055bf7653f4f4c087"
+        },
+        "result": {
+          "path": "udt_complementary_wave_observable_campaign_2026-09-07/step_02/design_run.stdout",
+          "sha256": "b89c8e432788842cdbddc1270c3135043e60f12c557cb24725d2162560fdfac2"
+        }
+      },
+      "whole_reviews": [
+        {
+          "path": "udt_complementary_wave_observable_campaign_2026-09-07/step_02/review/FINAL_REVIEW.md",
+          "sha256": "1a3cb941541f8f9aea5a1edae936798e59a0b94d68d8569bb32bb9549a5052b8"
+        },
+        {
+          "path": "udt_complementary_wave_observable_campaign_2026-09-07/step_02/review/PACKAGING_REVIEW.md",
+          "sha256": "0f92c1ddcba77913dcbdc153d6d104c1d590862594570fe68479ecc622b09427"
+        }
+      ],
+      "whole_repair_history_and_metadata": [
+        {
+          "path": "udt_complementary_wave_observable_campaign_2026-09-07/step_02/design_inputs.json",
+          "sha256": "2d17901bfe84069ff4ac2c43eb500f0b3bd844b3136a8ba6d5582a7d710eb38c"
+        },
+        {
+          "path": "udt_complementary_wave_observable_campaign_2026-09-07/step_02/review/REVIEW_RESULT.json",
+          "sha256": "dd9c406623b82c0691bd46733292d84d5dbeac0e3c32a58a6c67ce900f02b2cd"
+        },
+        {
+          "path": "udt_complementary_wave_observable_campaign_2026-09-07/step_02/review/SOURCE_FIRST_SEAL.md",
+          "sha256": "81030b5effa5f19087c20a9969b784d6f22c71051cfb8fa39aaff72aa7b39ff5"
+        }
+      ],
+      "current_registry_ownership_found": false,
+      "banking_recommendation": "ELIGIBLE_AT_EXACT_SCOPE_PENDING_PARENT_INTEGRATION",
+      "proposed_grade": [
+        "BANKED_CONDITIONAL_DESIGN_CONTROL",
+        "VERIFIED-WITH-CAVEATS",
+        "OWNER_AUTHORIZED",
+        "NOT_PHYSICAL_ADOPTION",
+        "NOT_CANON"
+      ],
+      "unresolved_scientific_objections": [],
+      "exact_runtime_model_version": "UNATTESTED",
+      "current_authority_qualification": "All inherited admitted/lawful Einstein labels are conditional on full reviewed equation/class hypotheses; current G312 is FILTER ONLY, not response-law construction input.",
+      "remaining_integration_gates": [
+        "parent final registry/guard/current premise checks",
+        "fresh integration fidelity review",
+        "preservation/source guard checks"
+      ]
+    }
+  ],
+  "source_history_audit": "added_sources.stdout and added_registry_transition.stdout",
+  "replay_audit": "METROLOGY_REPLAY_RESULTS.json plus added_correspondence.stdout; strict CO2 byte mismatch retained",
+  "reviewer_launcher_repair": "LAUNCHER_REPAIR.md; administrative pre-execution adapter defect, no original source changed"
+}

@@ -3,12 +3,12 @@
 <!-- STARTUP_CURRENT_BEGIN -->
 ## CURRENT STATE — 2026-09-10
 
-Branch: `grok`. Synchronize and inspect dirt. This block overrides older status.
+Branch: `grok`. Synchronize; inspect dirt. This block overrides older status.
 
 ### Honest claim
 
 On supplied ordered depth, `h_AB=diag(-exp(-2 delta_AB),exp(+2 delta_AB))`.
-Only on a supplied regular calibrated pair, `phi_pair=delta_AB` is DERIVED_CONDITIONAL.
+On a supplied regular calibrated pair, `phi_pair=delta_AB` is DERIVED_CONDITIONAL.
 The conditional ratio `c_eff/c_E=exp(-2 delta_AB)` is not automatically a signal speed.
 Complete `B,Q,S,Y,Z` enters `h=F^*g` before readout. Completed-pair Dual Reciprocity
 is WORKING_FOUNDATIONAL_CLARIFICATION; germs, population and history remain supplied or OPEN.
@@ -20,7 +20,6 @@ OWNER_ADOPTED_PROVISIONAL_POSTULATE (2026-08-31), not derived or canonized.
 GR is FILTER ONLY, not a response-law input; Local Metric Sufficiency remains owner-provisional.
 Current G312 authority qualifies inherited “admitted/lawful” labels; original evidence is unchanged:
 `udt_gr_filter_reconciliation_2026-09-09/AUTHORITY_RECORD.md`.
-Review closeout: see INDEX; the original final report remains unproduced.
 The multibranch Einstein arena `Ric(g)=Lambda g` remains CONDITIONAL on its full reviewed premises,
 not established from filter-only GR. Exact grades stay fixed; the existing membership route is unclosed.
 Metric/kernel and mathematics are unchanged; angular-sector cancellation owns loud--quiet--loud.
@@ -56,17 +55,17 @@ Metric/kernel and mathematics are unchanged; angular-sector cancellation owns lo
 - G381=NT1 and G382=NT2: neighboring tidal compatibility/obstruction and restricted real rank-one
   null-jet classification; actual smooth local Lambda=0 realizations, not general metric realization.
 
-Conditional mathematical banking through G382 is COMPLETE, VERIFIED-WITH-CAVEATS at exact scopes.
-The exact 365-row `CURRENT_SCIENTIFIC_PREMISES.tsv` owns grades; `INDEX.md` owns evidence navigation.
-Whole source reviews/limits control, including false passes and repairs, CF2 buffers LOST, not preserved
-or recovered, and NT1 lost buffers/unsnapshotted initial reviewer code. HB2/HB3 and BI2/BI3 stay UNPROMOTED.
-The fixed through-G352 manuscript is an earlier edition, not current tracking.
-
-NR1--NR2/LG1--LG2/LE1/SE1/NE1: reviewed UNPROMOTED; exact scopes/reviews: `INDEX.md`.
-NE1: fading profile with cumulative marked-area-rate/tidal departure in one exact polarized family.
-Supplied data/marking and conditional methods; no genericity, stability/content.
-Full365 PASS after maintenance; evidence: INDEX. No new scientific banking/integration.
-ND1/ND2/QC1/QC2/GL1/GL2/RF1: reviewed UNPROMOTED; roadmap: INDEX.
+Exact-scope banking through G412 is COMPLETE; all inherited limits remain.
+The exact 395-row `CURRENT_SCIENTIFIC_PREMISES.tsv` owns grades; `INDEX.md` routes the acceptance record.
+Whole original reviews/limits control, including false passes/repairs, CF2 buffers LOST, not preserved
+or recovered, and NT1 lost buffers/unsnapshotted reviewer code. Original365 rows remain unchanged.
+G383--G394 cover the original curvature recipe, HB/BI and nonlinear/localized geometry.
+G395--G401 cover conditional response, controlled correspondence, limits and realizable response jets.
+G402--G405 cover null-clock integrability, curvature information and exact metric/kernel expansion.
+G406--G410 cover conditional measurement/design mathematics; G409=CO2 is a design control.
+G411=LC2 is one published-summary benchmark; G412=FW2 is one failed finite procedure.
+NE1: exact polarized profile decay with cumulative marked-rate/tidal departure; no genericity/stability.
+Fixed through-G352 manuscript remains an earlier edition; checks/reviews: INDEX.
 
 ### Distinctions for the direction discussion
 
@@ -89,7 +88,7 @@ The optional source-model branch is PAUSED after its bounded analytic-coherence 
 The automatic Hopfion-stabilization mechanism is PAUSED; no rescue restriction, carrier or action.
 GOCE is PARKED with eligibility UNRESOLVED/OPEN; enquiry UNSENT, not rejected or awaiting a reply.
 The particular GW procedure is parked at its design gate; clock/complementary campaigns are complete.
-No observations, searches or correspondence resume from an old work order; ideal tides are groundwork.
+No instrument work resumes from old work orders; ideal tides are groundwork.
 
 R2--R5 in `udt_observed_angular_pattern_raw_restart_2026-08-12/` remain verified with caveats:
 184,300 covariance rows unresolved, no preferred scale; raw archive
@@ -104,11 +103,10 @@ Protected—do not stage, modify, mine or cite without dispatch:
 - `udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/`
 - `udt_kernel_plane_global_curvature_holonomy_atlas_2026-08-02/`
 
-Session handoff: `HANDOFF.md`.
 
 ### Next gate
 
-G381=NT1 and G382=NT2 conditional mathematical banking is COMPLETE at the reviewed scopes.
+G383--G412 exact-scope banking is COMPLETE; earlier G381=NT1/G382=NT2 banking is COMPLETE; scopes/reviews: INDEX.
 G312 membership unclosed; G352 physical-realization: physical identification remains OPEN.
 Stop for lay discussion with Charles; no new campaign is authorized; any approved work order includes checks, fresh separate-context review and bounded same-premise repair.
 <!-- STARTUP_CURRENT_END -->

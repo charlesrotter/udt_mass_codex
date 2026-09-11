@@ -1,0 +1,439 @@
+{
+  "started_utc": "2026-09-11T00:33:32.589450+00:00",
+  "runtime_model_version": "UNATTESTED",
+  "python": "3.10.12 (main, Aug 31 2026, 10:18:17) [GCC 11.4.0]",
+  "platform": "Linux-6.8.0-138-generic-x86_64-with-glibc2.35",
+  "first_observed_utc": "2026-09-11T00:28:33Z",
+  "argv": [
+    "udt_reviewed_backlog_banking_2026-09-10/review_integration/independent_integrity.py"
+  ],
+  "checks": [
+    "All original365 rows/header/order exactly equal authorized Git baseline; exact30 additions are the prefix.",
+    "All30 exact source-assessment statement, assumption, exclusion, history, role and dependency transcriptions authenticated; source artifacts authenticated.",
+    "All2612 explicitly permitted manifest files authenticated; all2152 complete scoped original tracked files covered and unchanged against baseline Git.",
+    "Original46 name/status fingerprint matches; this does not inspect or certify protected payloads/backups."
+  ],
+  "branch_head_origin": [
+    "grok",
+    "f5faabb43a582fec9a71c1d4a3b065efffae25bd",
+    "f5faabb43a582fec9a71c1d4a3b065efffae25bd"
+  ],
+  "remote_freshness": "Parent same-session fetch/pull attributed, not repeated by scoped reviewer",
+  "claim_transcriptions": [
+    {
+      "id": "CP1",
+      "premise_id": "G383",
+      "source_assessment_exact": true,
+      "grade": "BANKED_DERIVED_CONDITIONAL__VERIFIED_WITH_CAVEATS__OWNER_AUTHORIZED__NOT_PHYSICAL_ADOPTION__NOT_CANON",
+      "dependency_ids": [
+        "G313"
+      ],
+      "artifact_count": 9
+    },
+    {
+      "id": "HB2",
+      "premise_id": "G384",
+      "source_assessment_exact": true,
+      "grade": "BANKED_DERIVED_CONDITIONAL__VERIFIED_WITH_CAVEATS__OWNER_AUTHORIZED__NOT_PHYSICAL_ADOPTION__NOT_CANON",
+      "dependency_ids": [
+        "G315",
+        "G330",
+        "G331",
+        "G332",
+        "G337"
+      ],
+      "artifact_count": 8
+    },
+    {
+      "id": "HB3",
+      "premise_id": "G385",
+      "source_assessment_exact": true,
+      "grade": "BANKED_DERIVED_CONDITIONAL__VERIFIED_WITH_CAVEATS__OWNER_AUTHORIZED__NOT_PHYSICAL_ADOPTION__NOT_CANON",
+      "dependency_ids": [
+        "G315",
+        "G330",
+        "G331",
+        "G332",
+        "G384"
+      ],
+      "artifact_count": 8
+    },
+    {
+      "id": "BI2",
+      "premise_id": "G386",
+      "source_assessment_exact": true,
+      "grade": "BANKED_DERIVED_CONDITIONAL__VERIFIED_WITH_CAVEATS__OWNER_AUTHORIZED__NOT_PHYSICAL_ADOPTION__NOT_CANON",
+      "dependency_ids": [
+        "G315",
+        "G330",
+        "G376"
+      ],
+      "artifact_count": 7
+    },
+    {
+      "id": "BI3",
+      "premise_id": "G387",
+      "source_assessment_exact": true,
+      "grade": "BANKED_DERIVED_CONDITIONAL__VERIFIED_WITH_CAVEATS__OWNER_AUTHORIZED__NOT_PHYSICAL_ADOPTION__NOT_CANON",
+      "dependency_ids": [
+        "G315",
+        "G330",
+        "G337",
+        "G376"
+      ],
+      "artifact_count": 5
+    },
+    {
+      "id": "NR1",
+      "premise_id": "G388",
+      "source_assessment_exact": true,
+      "grade": "BANKED_DERIVED_CONDITIONAL__VERIFIED_WITH_CAVEATS__OWNER_AUTHORIZED__NOT_PHYSICAL_ADOPTION__NOT_CANON",
+      "dependency_ids": [
+        "G303",
+        "G315",
+        "G324",
+        "G327"
+      ],
+      "artifact_count": 4
+    },
+    {
+      "id": "NR2",
+      "premise_id": "G389",
+      "source_assessment_exact": true,
+      "grade": "BANKED_DERIVED_CONDITIONAL__VERIFIED_WITH_CAVEATS__OWNER_AUTHORIZED__NOT_PHYSICAL_ADOPTION__NOT_CANON",
+      "dependency_ids": [
+        "G303",
+        "G315",
+        "G324",
+        "G327",
+        "G388"
+      ],
+      "artifact_count": 6
+    },
+    {
+      "id": "LG1",
+      "premise_id": "G390",
+      "source_assessment_exact": true,
+      "grade": "BANKED_DERIVED_CONDITIONAL__VERIFIED_WITH_CAVEATS__OWNER_AUTHORIZED__NOT_PHYSICAL_ADOPTION__NOT_CANON",
+      "dependency_ids": [
+        "G303",
+        "G315",
+        "G324"
+      ],
+      "artifact_count": 3
+    },
+    {
+      "id": "LG2",
+      "premise_id": "G391",
+      "source_assessment_exact": true,
+      "grade": "BANKED_DERIVED_CONDITIONAL__VERIFIED_WITH_CAVEATS__OWNER_AUTHORIZED__NOT_PHYSICAL_ADOPTION__NOT_CANON",
+      "dependency_ids": [
+        "G303",
+        "G315",
+        "G324",
+        "G390"
+      ],
+      "artifact_count": 6
+    },
+    {
+      "id": "LE1",
+      "premise_id": "G392",
+      "source_assessment_exact": true,
+      "grade": "BANKED_DERIVED_CONDITIONAL__VERIFIED_WITH_CAVEATS__OWNER_AUTHORIZED__NOT_PHYSICAL_ADOPTION__NOT_CANON",
+      "dependency_ids": [
+        "G303",
+        "G315",
+        "G324",
+        "G391"
+      ],
+      "artifact_count": 4
+    },
+    {
+      "id": "SE1",
+      "premise_id": "G393",
+      "source_assessment_exact": true,
+      "grade": "BANKED_DERIVED_CONDITIONAL__VERIFIED_WITH_CAVEATS__OWNER_AUTHORIZED__NOT_PHYSICAL_ADOPTION__NOT_CANON",
+      "dependency_ids": [
+        "G303",
+        "G315",
+        "G392"
+      ],
+      "artifact_count": 6
+    },
+    {
+      "id": "NE1",
+      "premise_id": "G394",
+      "source_assessment_exact": true,
+      "grade": "BANKED_DERIVED_CONDITIONAL__VERIFIED_WITH_CAVEATS__OWNER_AUTHORIZED__NOT_PHYSICAL_ADOPTION__NOT_CANON",
+      "dependency_ids": [
+        "G303",
+        "G315",
+        "G327"
+      ],
+      "artifact_count": 5
+    },
+    {
+      "id": "ND1",
+      "premise_id": "G395",
+      "source_assessment_exact": true,
+      "grade": "BANKED_DERIVED_CONDITIONAL__VERIFIED_WITH_CAVEATS__OWNER_AUTHORIZED__NOT_PHYSICAL_ADOPTION__NOT_CANON",
+      "dependency_ids": [
+        "G260",
+        "G311",
+        "G312"
+      ],
+      "artifact_count": 7
+    },
+    {
+      "id": "ND2",
+      "premise_id": "G396",
+      "source_assessment_exact": true,
+      "grade": "BANKED_DERIVED_CONDITIONAL__VERIFIED_WITH_CAVEATS__OWNER_AUTHORIZED__NOT_PHYSICAL_ADOPTION__NOT_CANON",
+      "dependency_ids": [
+        "G260",
+        "G311",
+        "G312",
+        "G395"
+      ],
+      "artifact_count": 8
+    },
+    {
+      "id": "QC1",
+      "premise_id": "G397",
+      "source_assessment_exact": true,
+      "grade": "BANKED_DERIVED_CONDITIONAL__VERIFIED_WITH_CAVEATS__OWNER_AUTHORIZED__NOT_PHYSICAL_ADOPTION__NOT_CANON",
+      "dependency_ids": [
+        "G260",
+        "G312"
+      ],
+      "artifact_count": 9
+    },
+    {
+      "id": "QC2",
+      "premise_id": "G398",
+      "source_assessment_exact": true,
+      "grade": "BANKED_DERIVED_CONDITIONAL__VERIFIED_WITH_CAVEATS__OWNER_AUTHORIZED__NOT_PHYSICAL_ADOPTION__NOT_CANON",
+      "dependency_ids": [
+        "G260",
+        "G312",
+        "G397"
+      ],
+      "artifact_count": 8
+    },
+    {
+      "id": "GL1",
+      "premise_id": "G399",
+      "source_assessment_exact": true,
+      "grade": "BANKED_DERIVED_CONDITIONAL__VERIFIED_WITH_CAVEATS__OWNER_AUTHORIZED__NOT_PHYSICAL_ADOPTION__NOT_CANON",
+      "dependency_ids": [
+        "G301",
+        "G311",
+        "G312"
+      ],
+      "artifact_count": 8
+    },
+    {
+      "id": "GL2",
+      "premise_id": "G400",
+      "source_assessment_exact": true,
+      "grade": "BANKED_DERIVED_CONDITIONAL__VERIFIED_WITH_CAVEATS__OWNER_AUTHORIZED__NOT_PHYSICAL_ADOPTION__NOT_CANON",
+      "dependency_ids": [
+        "G301",
+        "G311",
+        "G312",
+        "G399",
+        "G395"
+      ],
+      "artifact_count": 7
+    },
+    {
+      "id": "RF1",
+      "premise_id": "G401",
+      "source_assessment_exact": true,
+      "grade": "BANKED_DERIVED_CONDITIONAL__VERIFIED_WITH_CAVEATS__OWNER_AUTHORIZED__NOT_PHYSICAL_ADOPTION__NOT_CANON",
+      "dependency_ids": [
+        "G301",
+        "G311",
+        "G312"
+      ],
+      "artifact_count": 10
+    },
+    {
+      "id": "NCI1",
+      "premise_id": "G402",
+      "source_assessment_exact": true,
+      "grade": "BANKED_DERIVED_CONDITIONAL__VERIFIED_WITH_CAVEATS__OWNER_AUTHORIZED__NOT_PHYSICAL_ADOPTION__NOT_CANON",
+      "dependency_ids": [
+        "G176",
+        "G216",
+        "G217",
+        "G220"
+      ],
+      "artifact_count": 8
+    },
+    {
+      "id": "DCI1",
+      "premise_id": "G403",
+      "source_assessment_exact": true,
+      "grade": "BANKED_DERIVED_CONDITIONAL__VERIFIED_WITH_CAVEATS__OWNER_AUTHORIZED__NOT_PHYSICAL_ADOPTION__NOT_CANON",
+      "dependency_ids": [
+        "G220"
+      ],
+      "artifact_count": 8
+    },
+    {
+      "id": "KTI1",
+      "premise_id": "G404",
+      "source_assessment_exact": true,
+      "grade": "BANKED_DERIVED_CONDITIONAL__VERIFIED_WITH_CAVEATS__OWNER_AUTHORIZED__NOT_PHYSICAL_ADOPTION__NOT_CANON",
+      "dependency_ids": [
+        "G176",
+        "G179",
+        "G180",
+        "G182",
+        "G216",
+        "G220"
+      ],
+      "artifact_count": 7
+    },
+    {
+      "id": "ER1",
+      "premise_id": "G405",
+      "source_assessment_exact": true,
+      "grade": "BANKED_DERIVED_CONDITIONAL__VERIFIED_WITH_CAVEATS__OWNER_AUTHORIZED__NOT_PHYSICAL_ADOPTION__NOT_CANON",
+      "dependency_ids": [
+        "G166",
+        "G176",
+        "G179",
+        "G180",
+        "G182",
+        "G216"
+      ],
+      "artifact_count": 7
+    },
+    {
+      "id": "TM1",
+      "premise_id": "G406",
+      "source_assessment_exact": true,
+      "grade": "BANKED_DERIVED_CONDITIONAL__VERIFIED_WITH_CAVEATS__OWNER_AUTHORIZED__NOT_PHYSICAL_ADOPTION__NOT_CANON",
+      "dependency_ids": [
+        "G313",
+        "G358",
+        "G312"
+      ],
+      "artifact_count": 2
+    },
+    {
+      "id": "TM2",
+      "premise_id": "G407",
+      "source_assessment_exact": true,
+      "grade": "BANKED_DERIVED_CONDITIONAL__VERIFIED_WITH_CAVEATS__OWNER_AUTHORIZED__NOT_PHYSICAL_ADOPTION__NOT_CANON",
+      "dependency_ids": [
+        "G313",
+        "G358",
+        "G312",
+        "G406"
+      ],
+      "artifact_count": 2
+    },
+    {
+      "id": "CO1",
+      "premise_id": "G408",
+      "source_assessment_exact": true,
+      "grade": "BANKED_DERIVED_CONDITIONAL__VERIFIED_WITH_CAVEATS__OWNER_AUTHORIZED__NOT_PHYSICAL_ADOPTION__NOT_CANON",
+      "dependency_ids": [
+        "G313",
+        "G312"
+      ],
+      "artifact_count": 2
+    },
+    {
+      "id": "CO2",
+      "premise_id": "G409",
+      "source_assessment_exact": true,
+      "grade": "BANKED_CONDITIONAL_DESIGN_CONTROL__VERIFIED_WITH_CAVEATS__OWNER_AUTHORIZED__NOT_PHYSICAL_ADOPTION__NOT_CANON",
+      "dependency_ids": [
+        "G312",
+        "G408"
+      ],
+      "artifact_count": 2
+    },
+    {
+      "id": "RD1",
+      "premise_id": "G410",
+      "source_assessment_exact": true,
+      "grade": "BANKED_DERIVED_CONDITIONAL__VERIFIED_WITH_CAVEATS__OWNER_AUTHORIZED__NOT_PHYSICAL_ADOPTION__NOT_CANON",
+      "dependency_ids": [],
+      "artifact_count": 10
+    },
+    {
+      "id": "LC2",
+      "premise_id": "G411",
+      "source_assessment_exact": true,
+      "grade": "BANKED_CONDITIONAL_PUBLISHED_SUMMARY_BENCHMARK__VERIFIED_WITH_CAVEATS__OWNER_AUTHORIZED__NOT_PHYSICAL_ADOPTION__NOT_CANON",
+      "dependency_ids": [
+        "G261",
+        "G276"
+      ],
+      "artifact_count": 11
+    },
+    {
+      "id": "FW2",
+      "premise_id": "G412",
+      "source_assessment_exact": true,
+      "grade": "BANKED_REVIEWED_FINITE_PROCEDURE_RESULT__VERIFIED_WITH_CAVEATS__OWNER_AUTHORIZED__NOT_PHYSICAL_ADOPTION__NOT_CANON",
+      "dependency_ids": [
+        "G408",
+        "G409"
+      ],
+      "artifact_count": 13
+    }
+  ],
+  "category_counts": {
+    "BANKED_DERIVED_CONDITIONAL": 27,
+    "BANKED_CONDITIONAL_DESIGN_CONTROL": 1,
+    "BANKED_CONDITIONAL_PUBLISHED_SUMMARY_BENCHMARK": 1,
+    "BANKED_REVIEWED_FINITE_PROCEDURE_RESULT": 1
+  },
+  "authenticated_source_file_count": 2612,
+  "original_tracked_files_unchanged": 2152,
+  "parent_prebank_audit_authenticated_not_rerun": {
+    "command": [
+      "python3",
+      "verify_current_scientific_premises.py"
+    ],
+    "cwd": "/home/udt-admin/udt_mass_codex",
+    "started_utc": "2026-09-10T23:57:24.144105+00:00",
+    "duration_seconds": 407.7126428990159,
+    "returncode": 0,
+    "timeout": false,
+    "address_space_bytes": 2147483648,
+    "cpu_seconds": 900,
+    "maxrss_kib": 105408
+  },
+  "original_untracked_name_status_count": 46,
+  "original_untracked_name_status_sha256": "55e7c4508622f912730f9c068cc571c370b3977bc1110eb0a48a8218dbe024c2",
+  "integration_snapshot_sha256": {
+    "AGENTS.md": "d962ed12dddd67c65d531b96f7dd004db677afd6396e15ada3a9d921d05ddbf7",
+    "CURRENT_RESEARCH_PROGRAM.md": "afd54e9f93278fc7e0a26cffe99d2f54baca1e8fa010c853ae106efe472b34ad",
+    "CURRENT_SCIENTIFIC_PREMISES.md": "7c4e38dfc8d109cd47c2536281619e604a6c4463682e0a13e8def108ffc4d678",
+    "CURRENT_SCIENTIFIC_PREMISES.tsv": "6fc63338cf5562d72d0313e2376474ad9ac908841a64e82fc74e0bc93b8ae43a",
+    "HANDOFF.md": "1d1a2e84d6203f0a05feec4c30b4850e9168e6ef779fb4aa6bf23f1a8c034b82",
+    "INDEX.md": "c7d386e895e68bb70c43f8c418381f9b53750d87d658e636052d50c5eca629ee",
+    "LIVE.md": "5b59079bbf0705d230d451d9289994ec70b49d996b6a7ab6a8477db8a9a8b7f9",
+    "MEMORY.md": "c1d8c35b74e08351c97438eb7ad675d563303356926bf7de2f6c6d8c6de39937",
+    "UDT_RESEARCH_ROADMAP.md": "b8adb4a6d2489e1b26ff844f6438480754f3a3f2b5c5ef6d080fc1a9c447cb97",
+    "tests/test_startup_surface.py": "540098cce429c4ea475b11b0a8552b418b96213b78fa995a2273257491bcda67",
+    "verify_current_scientific_premises.py": "4dc3465110d3f97a25eb155884f31dc5eec5601e6e314ee8942879df640e298d",
+    "udt_reviewed_backlog_banking_2026-09-10/BANKING_RECORD.md": "618b4b953a419b991e0ae7f0c643487536b8e76ba7b0b0c7de53db17fbde81b2",
+    "udt_reviewed_backlog_banking_2026-09-10/BANKED_CLAIMS.json": "4b98b1dea6ce9dc0d62f9fa6183c1379aed534989159b45a208dad93fce12c2e",
+    "udt_reviewed_backlog_banking_2026-09-10/BANKED_ROWS.tsv": "2115d3edd646655726720bd8dc2e166ab87952db885f412e8b0200bd81a549e8",
+    "udt_reviewed_backlog_banking_2026-09-10/DISPOSITIONS.tsv": "6df218c360178de86a91533342a2c5fd7e657492c1e66087406abaa24475610e",
+    "udt_reviewed_backlog_banking_2026-09-10/SOURCE_EVIDENCE_SHA256SUMS": "94d15fa2f49cc5f01fa492d28577a9fa33c1a9e7eedacc9cb12a09002eefeeca",
+    "udt_reviewed_backlog_banking_2026-09-10/SOURCE_MANIFEST_SCOPE.json": "be7e7271cdee9c69ff73b984a4bac1be769087acb11db417b9c94c8ee5821a5c",
+    "udt_reviewed_backlog_banking_2026-09-10/WORK_ORDER.md": "8b97791764ff7ba2d0fd77e490d3004d1d99679a3032175ee6c7764ef5108c54",
+    "tests/test_reviewed_backlog_banking.py": "96d1ec441121b3894892a4a246e5f2257708b92494d5b22132b56e29c771a861"
+  },
+  "completed_utc": "2026-09-11T00:33:32.848301+00:00",
+  "verdict": "PASS_INTEGRITY_CORRESPONDENCE_ONLY"
+}

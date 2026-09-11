@@ -1,0 +1,200 @@
+[
+  {
+    "source": "udt_berger_initial_data_preservation_campaign_2026-09-08/step_02/CANDIDATE_FREEZE.md",
+    "copy": "udt_reviewed_backlog_banking_2026-09-10/review_older_geometry/bi2_comparison_copy/step_02/CANDIDATE_FREEZE.md",
+    "sha256": "e2fab225c232ecd8e29957c409bc0f4d4c86f2ba7970d3701281a44d9e861322",
+    "copy_identical": true
+  },
+  {
+    "source": "udt_berger_initial_data_preservation_campaign_2026-09-08/step_02/CANDIDATE_INITIAL.md",
+    "copy": "udt_reviewed_backlog_banking_2026-09-10/review_older_geometry/bi2_comparison_copy/step_02/CANDIDATE_INITIAL.md",
+    "sha256": "863e79807c6ece4308f8ab4397cb65a4e39504c31b5bc486a292ac70a3e902a3",
+    "copy_identical": true
+  },
+  {
+    "source": "udt_berger_initial_data_preservation_campaign_2026-09-08/step_02/author_check_01.json",
+    "copy": "udt_reviewed_backlog_banking_2026-09-10/review_older_geometry/bi2_comparison_copy/step_02/author_check_01.json",
+    "sha256": "e2a1fb7ef6b73581b75f2fda0fd57c247ed3c993a774874e83916ea52dd1e5ed",
+    "copy_identical": true
+  },
+  {
+    "source": "udt_berger_initial_data_preservation_campaign_2026-09-08/step_02/author_check_01.stderr",
+    "copy": "udt_reviewed_backlog_banking_2026-09-10/review_older_geometry/bi2_comparison_copy/step_02/author_check_01.stderr",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "copy_identical": true
+  },
+  {
+    "source": "udt_berger_initial_data_preservation_campaign_2026-09-08/step_02/author_check_01.stdout",
+    "copy": "udt_reviewed_backlog_banking_2026-09-10/review_older_geometry/bi2_comparison_copy/step_02/author_check_01.stdout",
+    "sha256": "423f9753f53f0971b430538e504bf1877375d3efd2d5bf7d7d3f0678174dbd64",
+    "copy_identical": true
+  },
+  {
+    "source": "udt_berger_initial_data_preservation_campaign_2026-09-08/step_02/author_mutations_01.json",
+    "copy": "udt_reviewed_backlog_banking_2026-09-10/review_older_geometry/bi2_comparison_copy/step_02/author_mutations_01.json",
+    "sha256": "7609ab2dda440ff456ff1683b01960dcbd30298d21737892f75e5448cb4b98de",
+    "copy_identical": true
+  },
+  {
+    "source": "udt_berger_initial_data_preservation_campaign_2026-09-08/step_02/author_mutations_01.stderr",
+    "copy": "udt_reviewed_backlog_banking_2026-09-10/review_older_geometry/bi2_comparison_copy/step_02/author_mutations_01.stderr",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "copy_identical": true
+  },
+  {
+    "source": "udt_berger_initial_data_preservation_campaign_2026-09-08/step_02/author_mutations_01.stdout",
+    "copy": "udt_reviewed_backlog_banking_2026-09-10/review_older_geometry/bi2_comparison_copy/step_02/author_mutations_01.stdout",
+    "sha256": "a3944cdf5c3ea5dcf909690a0b6931bc8e5177d4ba7d992a64729ea1ae655b8a",
+    "copy_identical": true
+  },
+  {
+    "source": "udt_berger_initial_data_preservation_campaign_2026-09-08/step_02/check_bi2.py",
+    "copy": "udt_reviewed_backlog_banking_2026-09-10/review_older_geometry/bi2_comparison_copy/step_02/check_bi2.py",
+    "sha256": "7c1c6fe8485247135c29a741a28f9b217d4fe1434fe5e819333e12848b9029d3",
+    "copy_identical": true
+  },
+  {
+    "source": "udt_berger_initial_data_preservation_campaign_2026-09-08/step_02/focused_review/exposed_comparison.py",
+    "copy": "udt_reviewed_backlog_banking_2026-09-10/review_older_geometry/bi2_comparison_copy/step_02/focused_review/exposed_comparison.py",
+    "sha256": "061bbebc3dffeff5a5ba561dfd0bc5a2d99a7154c464c1d62580887d0a17746c",
+    "copy_identical": true
+  },
+  {
+    "source": "udt_berger_initial_data_preservation_campaign_2026-09-08/step_02/focused_review/source_first_check.stdout",
+    "copy": "udt_reviewed_backlog_banking_2026-09-10/review_older_geometry/bi2_comparison_copy/step_02/focused_review/source_first_check.stdout",
+    "sha256": "3af1cf4b34a99796f1001473a7058030dce479a86f3486f1d1922ef989b70d91",
+    "copy_identical": true
+  },
+  {
+    "source": "udt_berger_initial_data_preservation_campaign_2026-09-08/step_02/probe_bi2.py",
+    "copy": "udt_reviewed_backlog_banking_2026-09-10/review_older_geometry/bi2_comparison_copy/step_02/probe_bi2.py",
+    "sha256": "662a3c3d143bdca0d6a1794a945dd610d009ffa27c46fa6bf186d1287d0976de",
+    "copy_identical": true
+  },
+  {
+    "source": "udt_berger_initial_data_preservation_campaign_2026-09-08/step_02/review/REVIEW_REPORT.md",
+    "copy": "udt_reviewed_backlog_banking_2026-09-10/review_older_geometry/bi2_comparison_copy/step_02/review/REVIEW_REPORT.md",
+    "sha256": "71eb969bac3eda791bf2906cf1cc9567de20055b7d93f7be388ae18411eec79e",
+    "copy_identical": true
+  },
+  {
+    "source": "udt_berger_initial_data_preservation_campaign_2026-09-08/step_02/review/additional_mutations.py",
+    "copy": "udt_reviewed_backlog_banking_2026-09-10/review_older_geometry/bi2_comparison_copy/step_02/review/additional_mutations.py",
+    "sha256": "736232a70aa30e652cad4ca517f058bf4aa3657069e85c4646b971e36b71be87",
+    "copy_identical": true
+  },
+  {
+    "source": "udt_berger_initial_data_preservation_campaign_2026-09-08/step_02/review/additional_mutations_run.json",
+    "copy": "udt_reviewed_backlog_banking_2026-09-10/review_older_geometry/bi2_comparison_copy/step_02/review/additional_mutations_run.json",
+    "sha256": "12b4497f2b09d724d97145706b05ae8d0aa87da98f094007cb497c4b6ae67620",
+    "copy_identical": true
+  },
+  {
+    "source": "udt_berger_initial_data_preservation_campaign_2026-09-08/step_02/review/additional_mutations_run.stderr",
+    "copy": "udt_reviewed_backlog_banking_2026-09-10/review_older_geometry/bi2_comparison_copy/step_02/review/additional_mutations_run.stderr",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "copy_identical": true
+  },
+  {
+    "source": "udt_berger_initial_data_preservation_campaign_2026-09-08/step_02/review/additional_mutations_run.stdout",
+    "copy": "udt_reviewed_backlog_banking_2026-09-10/review_older_geometry/bi2_comparison_copy/step_02/review/additional_mutations_run.stdout",
+    "sha256": "1eaefd418221a2cd641dd676d1be306e0b37b42519183f2e49b0b6f9053fec76",
+    "copy_identical": true
+  },
+  {
+    "source": "udt_berger_initial_data_preservation_campaign_2026-09-08/step_02/review/candidate_comparison.py",
+    "copy": "udt_reviewed_backlog_banking_2026-09-10/review_older_geometry/bi2_comparison_copy/step_02/review/candidate_comparison.py",
+    "sha256": "a1e36b209a857957c573b4b9b8c66c9e6519d71255d82d8362012e970d78f498",
+    "copy_identical": true
+  },
+  {
+    "source": "udt_berger_initial_data_preservation_campaign_2026-09-08/step_02/review/candidate_comparison_run.json",
+    "copy": "udt_reviewed_backlog_banking_2026-09-10/review_older_geometry/bi2_comparison_copy/step_02/review/candidate_comparison_run.json",
+    "sha256": "81188c9d3992725c243d46d1e371ea221ee1a1895d317b6d8273d649cc612fa6",
+    "copy_identical": true
+  },
+  {
+    "source": "udt_berger_initial_data_preservation_campaign_2026-09-08/step_02/review/candidate_comparison_run.stderr",
+    "copy": "udt_reviewed_backlog_banking_2026-09-10/review_older_geometry/bi2_comparison_copy/step_02/review/candidate_comparison_run.stderr",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "copy_identical": true
+  },
+  {
+    "source": "udt_berger_initial_data_preservation_campaign_2026-09-08/step_02/review/candidate_comparison_run.stdout",
+    "copy": "udt_reviewed_backlog_banking_2026-09-10/review_older_geometry/bi2_comparison_copy/step_02/review/candidate_comparison_run.stdout",
+    "sha256": "8b0e88728361d7eb85fa09654e9fe082e30f9619a0f30ee0559496ec13a44151",
+    "copy_identical": true
+  },
+  {
+    "source": "udt_berger_initial_data_preservation_campaign_2026-09-08/step_02/review/mutants/delete_unrotated_initial_horizontal_shear.py",
+    "copy": "udt_reviewed_backlog_banking_2026-09-10/review_older_geometry/bi2_comparison_copy/step_02/review/mutants/delete_unrotated_initial_horizontal_shear.py",
+    "sha256": "7c7afb4fe75d0ba518710d5591fa5ed194d56637a9fbe73bbbad3ada570a6c31",
+    "copy_identical": true
+  },
+  {
+    "source": "udt_berger_initial_data_preservation_campaign_2026-09-08/step_02/review/mutants/drop_spatial_bracket_motion.py",
+    "copy": "udt_reviewed_backlog_banking_2026-09-10/review_older_geometry/bi2_comparison_copy/step_02/review/mutants/drop_spatial_bracket_motion.py",
+    "sha256": "eba7b94f924645c458a71d96d0e1fd0ba6674941668d925bf03d55ddb325aa4c",
+    "copy_identical": true
+  },
+  {
+    "source": "udt_berger_initial_data_preservation_campaign_2026-09-08/step_02/review/mutants/drop_trace_in_mixed_evolution.py",
+    "copy": "udt_reviewed_backlog_banking_2026-09-10/review_older_geometry/bi2_comparison_copy/step_02/review/mutants/drop_trace_in_mixed_evolution.py",
+    "sha256": "378236d571e3b4b44a9e66d70d9f9389aaad5d0af5e843a0dc1a68290dab15b6",
+    "copy_identical": true
+  },
+  {
+    "source": "udt_berger_initial_data_preservation_campaign_2026-09-08/step_02/review/mutants/falsely_mark_every_control_as_directly_descended.py",
+    "copy": "udt_reviewed_backlog_banking_2026-09-10/review_older_geometry/bi2_comparison_copy/step_02/review/mutants/falsely_mark_every_control_as_directly_descended.py",
+    "sha256": "68d3df25d265aae2ce3617a142865bcab3cd0e6b4ca33e0e353edf156be121a1",
+    "copy_identical": true
+  },
+  {
+    "source": "udt_berger_initial_data_preservation_campaign_2026-09-08/step_02/review/mutants/keep_covariant_quadratic_in_mixed_evolution.py",
+    "copy": "udt_reviewed_backlog_banking_2026-09-10/review_older_geometry/bi2_comparison_copy/step_02/review/mutants/keep_covariant_quadratic_in_mixed_evolution.py",
+    "sha256": "b8ecab3d3413dc5fc5a5cf2154d95aa29b1c46cf299250dc57cb57471668263a",
+    "copy_identical": true
+  },
+  {
+    "source": "udt_berger_initial_data_preservation_campaign_2026-09-08/step_02/review/mutants/reuse_two_eigenvalue_linear_projector.py",
+    "copy": "udt_reviewed_backlog_banking_2026-09-10/review_older_geometry/bi2_comparison_copy/step_02/review/mutants/reuse_two_eigenvalue_linear_projector.py",
+    "sha256": "bff145299a3f01cc7f9a357624380a07623213c772acc02b9f25c98d797d1fee",
+    "copy_identical": true
+  },
+  {
+    "source": "udt_berger_initial_data_preservation_campaign_2026-09-08/step_02/review/mutants/switch_to_a_different_simple_branch.py",
+    "copy": "udt_reviewed_backlog_banking_2026-09-10/review_older_geometry/bi2_comparison_copy/step_02/review/mutants/switch_to_a_different_simple_branch.py",
+    "sha256": "75885c279a2c6848a08d271cca19f8a9e791e7523d43ecc2bb9c55bf24732a57",
+    "copy_identical": true
+  },
+  {
+    "source": "udt_berger_initial_data_preservation_campaign_2026-09-08/step_02/review/mutants/wrong_sign_in_saved_geometric_control_Ricci.py",
+    "copy": "udt_reviewed_backlog_banking_2026-09-10/review_older_geometry/bi2_comparison_copy/step_02/review/mutants/wrong_sign_in_saved_geometric_control_Ricci.py",
+    "sha256": "4efc8e6ba1ab4e2df1481e6e951285eb58099be0c223b7895af8c4ef5b70bb40",
+    "copy_identical": true
+  },
+  {
+    "source": "udt_berger_initial_data_preservation_campaign_2026-09-08/step_02/review/spacetime_independent.py",
+    "copy": "udt_reviewed_backlog_banking_2026-09-10/review_older_geometry/bi2_comparison_copy/step_02/review/spacetime_independent.py",
+    "sha256": "7a4b8be257f7f65781b9dbcaa3073f93be00d3f4a88c5ae152882dde0f4db65e",
+    "copy_identical": true
+  },
+  {
+    "source": "udt_berger_initial_data_preservation_campaign_2026-09-08/step_02/review/spacetime_independent_run.json",
+    "copy": "udt_reviewed_backlog_banking_2026-09-10/review_older_geometry/bi2_comparison_copy/step_02/review/spacetime_independent_run.json",
+    "sha256": "7ba90aef70c819a84a5b90349e8b7e107e95e68511392bfde54dc47625f45e26",
+    "copy_identical": true
+  },
+  {
+    "source": "udt_berger_initial_data_preservation_campaign_2026-09-08/step_02/review/spacetime_independent_run.stderr",
+    "copy": "udt_reviewed_backlog_banking_2026-09-10/review_older_geometry/bi2_comparison_copy/step_02/review/spacetime_independent_run.stderr",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "copy_identical": true
+  },
+  {
+    "source": "udt_berger_initial_data_preservation_campaign_2026-09-08/step_02/review/spacetime_independent_run.stdout",
+    "copy": "udt_reviewed_backlog_banking_2026-09-10/review_older_geometry/bi2_comparison_copy/step_02/review/spacetime_independent_run.stdout",
+    "sha256": "72f9d0da82bc904f8d0c6ffe94c04f85e474ae9a3ac355358894e0873c9bd408",
+    "copy_identical": true
+  }
+]

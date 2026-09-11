@@ -1,0 +1,14 @@
+{
+  "command": [
+    "python3",
+    "udt_exact_metric_kernel_expansion_2026-09-10/check_exact_geometry.py"
+  ],
+  "cwd": "/home/udt-admin/udt_mass_codex",
+  "started_utc": "2026-09-11T00:03:11.293206+00:00",
+  "duration_seconds": 3.2992872199974954,
+  "returncode": 0,
+  "timeout": false,
+  "address_space_bytes": 536870912,
+  "cpu_seconds": 120,
+  "maxrss_kib": 56428
+}

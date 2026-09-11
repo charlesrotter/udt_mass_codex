@@ -1,0 +1,9 @@
+{
+  "candidate_weyl_discriminant_via_traces": "6912*a**12*u**2*(u**2 - 3)**2*(3*u**2 - 1)**6/(u**2 + 1)**12",
+  "python": "3.10.12",
+  "raised_map_extra_derivative": "Matrix([[-j], [0], [0]])",
+  "rejected_shortcut": "variable metric raising has identical nonlinear linearization",
+  "scope": "exact symbolic source-interface and finite-family algebra; not PDE certification",
+  "stage": "direct, post-candidate exposure",
+  "sympy": "1.13.1"
+}

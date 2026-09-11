@@ -1,0 +1,20 @@
+{
+  "analytic_implication": "Linearity and H(1)=0 imply H(z+kappa*1)=H(z)+kappa*H(1)=H(z).",
+  "checks": {
+    "initial_counterexample_retained": true,
+    "inverse_exact_edit_recovers_frozen_original": true,
+    "one_repair_phrase": true,
+    "repaired_candidate_hash": true,
+    "unchanged:SOURCE_ACCESS_AND_EXPOSURE.md": true,
+    "unchanged:SOURCE_LEDGER.tsv": true,
+    "unchanged:author_check.json": true,
+    "unchanged:author_check.stdout": true,
+    "unchanged:check_interface.py": true,
+    "unchanged:review/DIRECT_ADVERSARIAL_REVIEW.md": true,
+    "unchanged:review/STAGE_A_PRIMARY_ADDENDUM.md": true
+  },
+  "count": 11,
+  "diff": "--- frozen_initial\n+++ repaired_candidate\n@@ -91,7 +91,7 @@\n A fixed difference z_a-z_b removes constant kappa and constant b, leaving\n an available constancy test IF time-dependent errors and processing response\n are independently bounded and the proposed deviation is retained. Likewise,\n-an operator H with H1=0 is blind to constant kappa, while a pointwise\n+a fixed linear operator H with H1=0 is blind to constant kappa, while a pointwise\n trace-free projection removes the scalar at every event. Neither is a claim\n that these operators describe every released GOCE product. A trace fitted\n or enforced in calibration is not an unused confirmation of that same trace.\n",
+  "kind": "EXACT_REPAIR_AUTHENTICATION_NOT_NEW_SCIENTIFIC_PROOF",
+  "note": "The grammatical article changes from an to a along with adding fixed linear."
+}

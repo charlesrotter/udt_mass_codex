@@ -1,0 +1,271 @@
+{
+  "kind": "exact direct 3D connection/Ricci time jet and implicit eigenline differentiation",
+  "matched": 12,
+  "records": [
+    {
+      "weights": [
+        "1/4",
+        "1/2"
+      ],
+      "x": "1/3",
+      "C": "-3",
+      "root": "-8",
+      "Lambda": "-37/5",
+      "R": "-4/5",
+      "implicit_eigenline_denominator": "-17/5",
+      "direct_curvature_qdot": "-75/136",
+      "saved_qdot": "-75/136",
+      "full_inverse_variation_retained": true
+    },
+    {
+      "weights": [
+        "1/4",
+        "1/2"
+      ],
+      "x": "1/3",
+      "C": "-3",
+      "root": "8",
+      "Lambda": "-37/5",
+      "R": "-4/5",
+      "implicit_eigenline_denominator": "-17/5",
+      "direct_curvature_qdot": "75/136",
+      "saved_qdot": "75/136",
+      "full_inverse_variation_retained": true
+    },
+    {
+      "weights": [
+        "1/4",
+        "1/2"
+      ],
+      "x": "1/3",
+      "C": "3",
+      "root": "-8",
+      "Lambda": "-37/5",
+      "R": "-4/5",
+      "implicit_eigenline_denominator": "-17/5",
+      "direct_curvature_qdot": "-75/136",
+      "saved_qdot": "-75/136",
+      "full_inverse_variation_retained": true
+    },
+    {
+      "weights": [
+        "1/4",
+        "1/2"
+      ],
+      "x": "1/3",
+      "C": "3",
+      "root": "8",
+      "Lambda": "-37/5",
+      "R": "-4/5",
+      "implicit_eigenline_denominator": "-17/5",
+      "direct_curvature_qdot": "75/136",
+      "saved_qdot": "75/136",
+      "full_inverse_variation_retained": true
+    },
+    {
+      "weights": [
+        "2",
+        "7/4"
+      ],
+      "x": "2/5",
+      "C": "-3",
+      "root": "-8",
+      "Lambda": "-11/37",
+      "R": "496/37",
+      "implicit_eigenline_denominator": "137/37",
+      "direct_curvature_qdot": "-1110/959",
+      "saved_qdot": "-1110/959",
+      "full_inverse_variation_retained": true
+    },
+    {
+      "weights": [
+        "2",
+        "7/4"
+      ],
+      "x": "2/5",
+      "C": "-3",
+      "root": "8",
+      "Lambda": "-11/37",
+      "R": "496/37",
+      "implicit_eigenline_denominator": "137/37",
+      "direct_curvature_qdot": "1110/959",
+      "saved_qdot": "1110/959",
+      "full_inverse_variation_retained": true
+    },
+    {
+      "weights": [
+        "2",
+        "7/4"
+      ],
+      "x": "2/5",
+      "C": "3",
+      "root": "-8",
+      "Lambda": "-11/37",
+      "R": "496/37",
+      "implicit_eigenline_denominator": "137/37",
+      "direct_curvature_qdot": "-1110/959",
+      "saved_qdot": "-1110/959",
+      "full_inverse_variation_retained": true
+    },
+    {
+      "weights": [
+        "2",
+        "7/4"
+      ],
+      "x": "2/5",
+      "C": "3",
+      "root": "8",
+      "Lambda": "-11/37",
+      "R": "496/37",
+      "implicit_eigenline_denominator": "137/37",
+      "direct_curvature_qdot": "1110/959",
+      "saved_qdot": "1110/959",
+      "full_inverse_variation_retained": true
+    },
+    {
+      "weights": [
+        "1/2",
+        "1/2"
+      ],
+      "x": "1/4",
+      "C": "-3",
+      "root": "-8",
+      "Lambda": "-6",
+      "R": "2",
+      "implicit_eigenline_denominator": "-2",
+      "direct_curvature_qdot": "0",
+      "saved_qdot": "0",
+      "full_inverse_variation_retained": true
+    },
+    {
+      "weights": [
+        "1/2",
+        "1/2"
+      ],
+      "x": "1/4",
+      "C": "-3",
+      "root": "8",
+      "Lambda": "-6",
+      "R": "2",
+      "implicit_eigenline_denominator": "-2",
+      "direct_curvature_qdot": "0",
+      "saved_qdot": "0",
+      "full_inverse_variation_retained": true
+    },
+    {
+      "weights": [
+        "1/2",
+        "1/2"
+      ],
+      "x": "1/4",
+      "C": "3",
+      "root": "-8",
+      "Lambda": "-6",
+      "R": "2",
+      "implicit_eigenline_denominator": "-2",
+      "direct_curvature_qdot": "0",
+      "saved_qdot": "0",
+      "full_inverse_variation_retained": true
+    },
+    {
+      "weights": [
+        "1/2",
+        "1/2"
+      ],
+      "x": "1/4",
+      "C": "3",
+      "root": "8",
+      "Lambda": "-6",
+      "R": "2",
+      "implicit_eigenline_denominator": "-2",
+      "direct_curvature_qdot": "0",
+      "saved_qdot": "0",
+      "full_inverse_variation_retained": true
+    }
+  ],
+  "hostile_nonzero_contrasts": [
+    {
+      "weights": [
+        "1/4",
+        "1/2"
+      ],
+      "root": "-8",
+      "omitted_second_row_residual": "97707/27200",
+      "reversed_denominator_residual": "75/68"
+    },
+    {
+      "weights": [
+        "1/4",
+        "1/2"
+      ],
+      "root": "8",
+      "omitted_second_row_residual": "-289707/27200",
+      "reversed_denominator_residual": "-75/68"
+    },
+    {
+      "weights": [
+        "1/4",
+        "1/2"
+      ],
+      "root": "-8",
+      "omitted_second_row_residual": "289707/27200",
+      "reversed_denominator_residual": "75/68"
+    },
+    {
+      "weights": [
+        "1/4",
+        "1/2"
+      ],
+      "root": "8",
+      "omitted_second_row_residual": "-97707/27200",
+      "reversed_denominator_residual": "-75/68"
+    },
+    {
+      "weights": [
+        "2",
+        "7/4"
+      ],
+      "root": "-8",
+      "omitted_second_row_residual": "-9212820/1312871",
+      "reversed_denominator_residual": "2220/959"
+    },
+    {
+      "weights": [
+        "2",
+        "7/4"
+      ],
+      "root": "8",
+      "omitted_second_row_residual": "4094796/187553",
+      "reversed_denominator_residual": "-2220/959"
+    },
+    {
+      "weights": [
+        "2",
+        "7/4"
+      ],
+      "root": "-8",
+      "omitted_second_row_residual": "-4094796/187553",
+      "reversed_denominator_residual": "2220/959"
+    },
+    {
+      "weights": [
+        "2",
+        "7/4"
+      ],
+      "root": "8",
+      "omitted_second_row_residual": "9212820/1312871",
+      "reversed_denominator_residual": "-2220/959"
+    }
+  ],
+  "implementation_imports": "standard library and SymPy only; no author/project engine",
+  "versions": {
+    "python": "3.10.12 (main, Aug 31 2026, 10:18:17) [GCC 11.4.0]",
+    "sympy": "1.13.1",
+    "platform": "Linux-6.8.0-138-generic-x86_64-with-glibc2.35"
+  },
+  "limits": [
+    "finite exact fixtures only",
+    "no actual finite-time metric solve",
+    "HB2 family and scalar jets remain exposed source definitions"
+  ]
+}

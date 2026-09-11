@@ -1,0 +1,27 @@
+{
+  "source": "udt_shared_readout_metric_constraint_campaign_2026-09-06/run_capture.py",
+  "source_sha256": "8ff5469ace76bdfc84188915242abbf3baff35516f9ee3f9ba4b1cbfeb2573ef",
+  "adapted_capture_sha256": "b3047adf607ef5f667d8df92488eceb371587c2baa1fb637728e98c36791c0af",
+  "wrapper_sha256": "1b95a783e861a52cc9fc50d3c76c152cb3673fc9045372afafd30da269ffec3f",
+  "replacements": {
+    "(512 * 1024**2, 512 * 1024**2)": "(512 * 1024**2, 512 * 1024**2)",
+    "(60, 60)": "(120, 120)",
+    "timeout=60": "timeout=120",
+    "address_space_bytes=512 * 1024**2": "address_space_bytes=512 * 1024**2",
+    "cpu_seconds=60": "cpu_seconds=120"
+  },
+  "thread_environment": {
+    "OMP_NUM_THREADS": "1",
+    "OPENBLAS_NUM_THREADS": "1",
+    "MKL_NUM_THREADS": "1"
+  },
+  "limits": {
+    "seconds": 120,
+    "mib": 512
+  },
+  "command": [
+    "python3",
+    "-B",
+    "udt_reviewed_backlog_banking_2026-09-10/review_response/audit_added_sources.py"
+  ]
+}

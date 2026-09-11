@@ -1,0 +1,21 @@
+{
+  "created_utc": "2026-09-11T00:05:58.267615+00:00",
+  "purpose": "Preserve exact public-source cache bytes already pinned and read by original LC1/LC2 reviews; no new experiment, fetch or backup-completeness claim.",
+  "files": {
+    "zheng_main.pdf": {
+      "original_path": "/tmp/udt-observation-sources-Kk6TO6/zheng_main.pdf",
+      "sha256": "1cb85cfaf2783841e7dc29f8ef38edec258437eec38071b5aba5594ceec4c3b6",
+      "bytes": 1391137
+    },
+    "zheng_supp.pdf": {
+      "original_path": "/tmp/udt-observation-sources-Kk6TO6/zheng_supp.pdf",
+      "sha256": "111b47f8a3625391178b7d8c5d0753ae8bedbe9f38ea07d6ebdad56cb06f7432",
+      "bytes": 786884
+    },
+    "zheng_metadata.json": {
+      "original_path": "/tmp/udt-observation-sources-Kk6TO6/zheng_metadata.json",
+      "sha256": "827c6152b6a0cc32e4a2991c9acd2910da2006451add08a423eaa9f5371185cc",
+      "bytes": 4742
+    }
+  }
+}

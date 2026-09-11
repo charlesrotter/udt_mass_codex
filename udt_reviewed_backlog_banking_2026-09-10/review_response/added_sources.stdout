@@ -1,0 +1,697 @@
+{
+  "current_authority": "udt_gr_filter_reconciliation_2026-09-09/AUTHORITY_RECORD.md",
+  "current_authority_sha256": "80daa0be6d3e1c0ac1b734fea089c4eb487f05bc1e1fbb2fabd69322ca89f28c",
+  "current_registry_rows": 365,
+  "historical_registry": {
+    "argv": [
+      "git",
+      "show",
+      "9ed73efe3d7d24a5fd6666bd904557cf0b24e0fd:CURRENT_SCIENTIFIC_PREMISES.tsv"
+    ],
+    "git_exitcode": 0,
+    "git_stderr": "",
+    "rows": 349,
+    "sha256": "ccd1fd2752a5884dfa2864fc9f3904f9dcc7e22557f6d4057e92ec2c54caf81f"
+  },
+  "interpretation": "Old349 registry snapshot authenticated at exact Git bytes. Existing rows differ only in five current G312 authority cells; source mathematics remains byte-identical. Current authority wins; no historical substitution made.",
+  "old_row_differences": [
+    {
+      "columns": [
+        "current_status",
+        "active_use",
+        "open_scope",
+        "forbidden_regression",
+        "precedence_rule"
+      ],
+      "id": "G312"
+    }
+  ],
+  "pins": [
+    {
+      "current_byte_match": true,
+      "current_sha256": "26897a999e6ad83e1f50c75ba76efe47e9c4c02edd896022a54a69810e57dc12",
+      "expected_sha256": "26897a999e6ad83e1f50c75ba76efe47e9c4c02edd896022a54a69810e57dc12",
+      "manifest": "udt_tidal_measurement_feasibility_campaign_2026-09-07/SOURCE_SHA256SUMS",
+      "path": "udt_g261_universal_metric_coupling_parent_operator_ownership_2026-08-25/EXACT_DERIVATION.md"
+    },
+    {
+      "current_byte_match": true,
+      "current_sha256": "7bf8dd3b081ff0d37ee23c8ea462abc451f9f4a3510283ea5e9ef87dd042b6bf",
+      "expected_sha256": "7bf8dd3b081ff0d37ee23c8ea462abc451f9f4a3510283ea5e9ef87dd042b6bf",
+      "manifest": "udt_tidal_measurement_feasibility_campaign_2026-09-07/SOURCE_SHA256SUMS",
+      "path": "udt_g313_tracefree_ricci_solution_space_bootstrap_map_2026-09-01/EXACT_DERIVATION.md"
+    },
+    {
+      "current_byte_match": true,
+      "current_sha256": "1d9ec37b3c7cbec4c308ea2177a824077052a2b5541cb34e23e005730a21d903",
+      "expected_sha256": "1d9ec37b3c7cbec4c308ea2177a824077052a2b5541cb34e23e005730a21d903",
+      "manifest": "udt_tidal_measurement_feasibility_campaign_2026-09-07/SOURCE_SHA256SUMS",
+      "path": "udt_shared_readout_metric_constraint_campaign_2026-09-06/step_03/CANDIDATE_ARGUMENT.md"
+    },
+    {
+      "current_byte_match": false,
+      "current_sha256": "4236f3784601617a93ac66b0de36a7a1565beef553d6b5f5c6d7d2a9a13e69dc",
+      "expected_sha256": "ccd1fd2752a5884dfa2864fc9f3904f9dcc7e22557f6d4057e92ec2c54caf81f",
+      "manifest": "udt_tidal_measurement_feasibility_campaign_2026-09-07/SOURCE_SHA256SUMS",
+      "path": "CURRENT_SCIENTIFIC_PREMISES.tsv"
+    },
+    {
+      "current_byte_match": true,
+      "current_sha256": "b4b0d9a9fdd093c992647195aca7579566a9e77a396071a699c1938888a49e75",
+      "expected_sha256": "b4b0d9a9fdd093c992647195aca7579566a9e77a396071a699c1938888a49e75",
+      "manifest": "udt_tidal_measurement_feasibility_campaign_2026-09-07/step_01/review/SOURCE_SHA256SUMS",
+      "path": "founding.md"
+    },
+    {
+      "current_byte_match": true,
+      "current_sha256": "26897a999e6ad83e1f50c75ba76efe47e9c4c02edd896022a54a69810e57dc12",
+      "expected_sha256": "26897a999e6ad83e1f50c75ba76efe47e9c4c02edd896022a54a69810e57dc12",
+      "manifest": "udt_tidal_measurement_feasibility_campaign_2026-09-07/step_01/review/SOURCE_SHA256SUMS",
+      "path": "udt_g261_universal_metric_coupling_parent_operator_ownership_2026-08-25/EXACT_DERIVATION.md"
+    },
+    {
+      "current_byte_match": true,
+      "current_sha256": "7bf8dd3b081ff0d37ee23c8ea462abc451f9f4a3510283ea5e9ef87dd042b6bf",
+      "expected_sha256": "7bf8dd3b081ff0d37ee23c8ea462abc451f9f4a3510283ea5e9ef87dd042b6bf",
+      "manifest": "udt_tidal_measurement_feasibility_campaign_2026-09-07/step_01/review/SOURCE_SHA256SUMS",
+      "path": "udt_g313_tracefree_ricci_solution_space_bootstrap_map_2026-09-01/EXACT_DERIVATION.md"
+    },
+    {
+      "current_byte_match": true,
+      "current_sha256": "1d9ec37b3c7cbec4c308ea2177a824077052a2b5541cb34e23e005730a21d903",
+      "expected_sha256": "1d9ec37b3c7cbec4c308ea2177a824077052a2b5541cb34e23e005730a21d903",
+      "manifest": "udt_tidal_measurement_feasibility_campaign_2026-09-07/step_01/review/SOURCE_SHA256SUMS",
+      "path": "udt_shared_readout_metric_constraint_campaign_2026-09-06/step_03/CANDIDATE_ARGUMENT.md"
+    },
+    {
+      "current_byte_match": true,
+      "current_sha256": "8ff5469ace76bdfc84188915242abbf3baff35516f9ee3f9ba4b1cbfeb2573ef",
+      "expected_sha256": "8ff5469ace76bdfc84188915242abbf3baff35516f9ee3f9ba4b1cbfeb2573ef",
+      "manifest": "udt_tidal_measurement_feasibility_campaign_2026-09-07/step_01/review/SOURCE_SHA256SUMS",
+      "path": "udt_shared_readout_metric_constraint_campaign_2026-09-06/run_capture.py"
+    },
+    {
+      "current_byte_match": false,
+      "current_sha256": "4236f3784601617a93ac66b0de36a7a1565beef553d6b5f5c6d7d2a9a13e69dc",
+      "expected_sha256": "ccd1fd2752a5884dfa2864fc9f3904f9dcc7e22557f6d4057e92ec2c54caf81f",
+      "manifest": "udt_tidal_measurement_feasibility_campaign_2026-09-07/step_02/review/SOURCE_SHA256SUMS",
+      "path": "CURRENT_SCIENTIFIC_PREMISES.tsv"
+    },
+    {
+      "current_byte_match": true,
+      "current_sha256": "b4b0d9a9fdd093c992647195aca7579566a9e77a396071a699c1938888a49e75",
+      "expected_sha256": "b4b0d9a9fdd093c992647195aca7579566a9e77a396071a699c1938888a49e75",
+      "manifest": "udt_tidal_measurement_feasibility_campaign_2026-09-07/step_02/review/SOURCE_SHA256SUMS",
+      "path": "founding.md"
+    },
+    {
+      "current_byte_match": true,
+      "current_sha256": "25448d5586d268cfec20b403ff77b6d344903b5d9974fb3376900cba0578c125",
+      "expected_sha256": "25448d5586d268cfec20b403ff77b6d344903b5d9974fb3376900cba0578c125",
+      "manifest": "udt_tidal_measurement_feasibility_campaign_2026-09-07/step_02/review/SOURCE_SHA256SUMS",
+      "path": "udt_g261_universal_metric_coupling_parent_operator_ownership_2026-08-25/AUDIT_REPORT.md"
+    },
+    {
+      "current_byte_match": true,
+      "current_sha256": "b7df75cee891ed23dcf4796aba0a3d25e101ee89e4c1add95c8ef842987e418e",
+      "expected_sha256": "b7df75cee891ed23dcf4796aba0a3d25e101ee89e4c1add95c8ef842987e418e",
+      "manifest": "udt_tidal_measurement_feasibility_campaign_2026-09-07/step_02/review/SOURCE_SHA256SUMS",
+      "path": "udt_g313_tracefree_ricci_solution_space_bootstrap_map_2026-09-01/AUDIT_REPORT.md"
+    },
+    {
+      "current_byte_match": true,
+      "current_sha256": "34588fee0d20bbfb2de12dc2dc31d743e36f300af94bfe5ccb58595c2ac73a1a",
+      "expected_sha256": "34588fee0d20bbfb2de12dc2dc31d743e36f300af94bfe5ccb58595c2ac73a1a",
+      "manifest": "udt_tidal_measurement_feasibility_campaign_2026-09-07/step_02/review/SOURCE_SHA256SUMS",
+      "path": "udt_g357_g360_conditional_banking_2026-09-07/BANKING_RECORD.md"
+    },
+    {
+      "current_byte_match": true,
+      "current_sha256": "1d9ec37b3c7cbec4c308ea2177a824077052a2b5541cb34e23e005730a21d903",
+      "expected_sha256": "1d9ec37b3c7cbec4c308ea2177a824077052a2b5541cb34e23e005730a21d903",
+      "manifest": "udt_tidal_measurement_feasibility_campaign_2026-09-07/step_02/review/SOURCE_SHA256SUMS",
+      "path": "udt_shared_readout_metric_constraint_campaign_2026-09-06/step_03/CANDIDATE_ARGUMENT.md"
+    },
+    {
+      "current_byte_match": true,
+      "current_sha256": "04e88f334ac7f75fb0795790f6b3db813165ca4cd47fa6a359329b029a32a721",
+      "expected_sha256": "04e88f334ac7f75fb0795790f6b3db813165ca4cd47fa6a359329b029a32a721",
+      "manifest": "udt_tidal_measurement_feasibility_campaign_2026-09-07/step_02/review/SOURCE_SHA256SUMS",
+      "path": "udt_shared_readout_metric_constraint_campaign_2026-09-06/step_03/review/PHASE_B_ADVERSARIAL_REVIEW.md"
+    },
+    {
+      "current_byte_match": true,
+      "current_sha256": "8ff5469ace76bdfc84188915242abbf3baff35516f9ee3f9ba4b1cbfeb2573ef",
+      "expected_sha256": "8ff5469ace76bdfc84188915242abbf3baff35516f9ee3f9ba4b1cbfeb2573ef",
+      "manifest": "udt_tidal_measurement_feasibility_campaign_2026-09-07/step_02/review/SOURCE_SHA256SUMS",
+      "path": "udt_shared_readout_metric_constraint_campaign_2026-09-06/run_capture.py"
+    },
+    {
+      "current_byte_match": true,
+      "current_sha256": "8c88702cb8496cf45d02e7d3cf5608e3ba6ee30a187d311c0bb8d619be89afeb",
+      "expected_sha256": "8c88702cb8496cf45d02e7d3cf5608e3ba6ee30a187d311c0bb8d619be89afeb",
+      "manifest": "udt_tidal_measurement_feasibility_campaign_2026-09-07/step_02/review/SOURCE_SHA256SUMS",
+      "path": "udt_tidal_measurement_feasibility_campaign_2026-09-07/WORK_ORDER.md"
+    },
+    {
+      "current_byte_match": true,
+      "current_sha256": "57744f8338f390a298d188e183c41b554e62ae182a95d535743300d170141eec",
+      "expected_sha256": "57744f8338f390a298d188e183c41b554e62ae182a95d535743300d170141eec",
+      "manifest": "udt_tidal_measurement_feasibility_campaign_2026-09-07/step_02/review/SOURCE_SHA256SUMS",
+      "path": "udt_tidal_measurement_feasibility_campaign_2026-09-07/step_02/PLAN.md"
+    },
+    {
+      "current_byte_match": true,
+      "current_sha256": "680378622607ea82dad018620fd2408ae989854e3b8539e56e1ef07cf4b94163",
+      "expected_sha256": "680378622607ea82dad018620fd2408ae989854e3b8539e56e1ef07cf4b94163",
+      "manifest": "udt_tidal_measurement_feasibility_campaign_2026-09-07/step_02/review/SOURCE_SHA256SUMS",
+      "path": "udt_tidal_measurement_feasibility_campaign_2026-09-07/step_01/CANDIDATE_ARGUMENT.md"
+    },
+    {
+      "current_byte_match": true,
+      "current_sha256": "5f80614246b472a3375ea16f9fc84e03863a7356772891da5eff75cf68c580ae",
+      "expected_sha256": "5f80614246b472a3375ea16f9fc84e03863a7356772891da5eff75cf68c580ae",
+      "manifest": "udt_tidal_measurement_feasibility_campaign_2026-09-07/step_02/review/SOURCE_SHA256SUMS",
+      "path": "udt_tidal_measurement_feasibility_campaign_2026-09-07/step_01/review/DIRECT_ADVERSARIAL_REVIEW.md"
+    },
+    {
+      "current_byte_match": true,
+      "current_sha256": "b758b6ef6d6739e25b3d6b7c0616a6b02f77d76d981e53479dfcdd7d09e07a7a",
+      "expected_sha256": "b758b6ef6d6739e25b3d6b7c0616a6b02f77d76d981e53479dfcdd7d09e07a7a",
+      "manifest": "udt_tidal_measurement_feasibility_campaign_2026-09-07/step_02/review/SOURCE_SHA256SUMS",
+      "path": "udt_tidal_measurement_feasibility_campaign_2026-09-07/step_01/review/FOCUSED_REVIEW.md"
+    },
+    {
+      "current_byte_match": true,
+      "current_sha256": "eae3eccef171c2474344c388249714e5cfb45b665a2366971f7e03ac1e6d145c",
+      "expected_sha256": "eae3eccef171c2474344c388249714e5cfb45b665a2366971f7e03ac1e6d145c",
+      "manifest": "udt_tidal_measurement_feasibility_campaign_2026-09-07/step_02/review/SOURCE_SHA256SUMS",
+      "path": "udt_tidal_measurement_feasibility_campaign_2026-09-07/STARTUP_PREMISE_AUDIT.json"
+    },
+    {
+      "current_byte_match": true,
+      "current_sha256": "80ac3b6836c00004bd68830fb1c9294e769fe9e66cbc85c69c3c36c944e3665b",
+      "expected_sha256": "80ac3b6836c00004bd68830fb1c9294e769fe9e66cbc85c69c3c36c944e3665b",
+      "manifest": "udt_tidal_measurement_feasibility_campaign_2026-09-07/step_01/review/REVIEW_SHA256SUMS",
+      "path": "udt_tidal_measurement_feasibility_campaign_2026-09-07/step_01/review/COMMANDS.md"
+    },
+    {
+      "current_byte_match": true,
+      "current_sha256": "5f80614246b472a3375ea16f9fc84e03863a7356772891da5eff75cf68c580ae",
+      "expected_sha256": "5f80614246b472a3375ea16f9fc84e03863a7356772891da5eff75cf68c580ae",
+      "manifest": "udt_tidal_measurement_feasibility_campaign_2026-09-07/step_01/review/REVIEW_SHA256SUMS",
+      "path": "udt_tidal_measurement_feasibility_campaign_2026-09-07/step_01/review/DIRECT_ADVERSARIAL_REVIEW.md"
+    },
+    {
+      "current_byte_match": true,
+      "current_sha256": "b758b6ef6d6739e25b3d6b7c0616a6b02f77d76d981e53479dfcdd7d09e07a7a",
+      "expected_sha256": "b758b6ef6d6739e25b3d6b7c0616a6b02f77d76d981e53479dfcdd7d09e07a7a",
+      "manifest": "udt_tidal_measurement_feasibility_campaign_2026-09-07/step_01/review/REVIEW_SHA256SUMS",
+      "path": "udt_tidal_measurement_feasibility_campaign_2026-09-07/step_01/review/FOCUSED_REVIEW.md"
+    },
+    {
+      "current_byte_match": true,
+      "current_sha256": "2343550681428946d6b35dcb0de7fe04f1bae832e60f37d00d0955639e98b6ed",
+      "expected_sha256": "2343550681428946d6b35dcb0de7fe04f1bae832e60f37d00d0955639e98b6ed",
+      "manifest": "udt_tidal_measurement_feasibility_campaign_2026-09-07/step_01/review/REVIEW_SHA256SUMS",
+      "path": "udt_tidal_measurement_feasibility_campaign_2026-09-07/step_01/review/PRIMARY_SOURCES.tsv"
+    },
+    {
+      "current_byte_match": true,
+      "current_sha256": "dd3731d0472662aefa559c8279d61e1722679538491aabc3a12813f31070d4d5",
+      "expected_sha256": "dd3731d0472662aefa559c8279d61e1722679538491aabc3a12813f31070d4d5",
+      "manifest": "udt_tidal_measurement_feasibility_campaign_2026-09-07/step_01/review/REVIEW_SHA256SUMS",
+      "path": "udt_tidal_measurement_feasibility_campaign_2026-09-07/step_01/review/SOURCE_SHA256SUMS"
+    },
+    {
+      "current_byte_match": true,
+      "current_sha256": "44f10ee32d221b23e3310436af8abe6deea635ebf1524d09e491af420076e03f",
+      "expected_sha256": "44f10ee32d221b23e3310436af8abe6deea635ebf1524d09e491af420076e03f",
+      "manifest": "udt_tidal_measurement_feasibility_campaign_2026-09-07/step_01/review/REVIEW_SHA256SUMS",
+      "path": "udt_tidal_measurement_feasibility_campaign_2026-09-07/step_01/review/STAGE_A.md"
+    },
+    {
+      "current_byte_match": true,
+      "current_sha256": "e249541a482f8cebd0614327b939764e5395fe5e5ec24a672f4c4cb1b4f1919c",
+      "expected_sha256": "e249541a482f8cebd0614327b939764e5395fe5e5ec24a672f4c4cb1b4f1919c",
+      "manifest": "udt_tidal_measurement_feasibility_campaign_2026-09-07/step_01/review/REVIEW_SHA256SUMS",
+      "path": "udt_tidal_measurement_feasibility_campaign_2026-09-07/step_01/review/STAGE_A_CHECK_PLAN.md"
+    },
+    {
+      "current_byte_match": true,
+      "current_sha256": "a1761f6e9b48394816166c07cd2559ecb86dae8f8bc90631b69cfa713a0095b5",
+      "expected_sha256": "a1761f6e9b48394816166c07cd2559ecb86dae8f8bc90631b69cfa713a0095b5",
+      "manifest": "udt_tidal_measurement_feasibility_campaign_2026-09-07/step_01/review/REVIEW_SHA256SUMS",
+      "path": "udt_tidal_measurement_feasibility_campaign_2026-09-07/step_01/review/STAGE_A_PRIMARY_ADDENDUM.md"
+    },
+    {
+      "current_byte_match": true,
+      "current_sha256": "55e3710007eb6e2158490f3b66f7cc0fe0cae8f9f21f70c94b7ce53c0cb61e1e",
+      "expected_sha256": "55e3710007eb6e2158490f3b66f7cc0fe0cae8f9f21f70c94b7ce53c0cb61e1e",
+      "manifest": "udt_tidal_measurement_feasibility_campaign_2026-09-07/step_01/review/REVIEW_SHA256SUMS",
+      "path": "udt_tidal_measurement_feasibility_campaign_2026-09-07/step_01/review/STAGE_A_SHA256SUMS"
+    },
+    {
+      "current_byte_match": true,
+      "current_sha256": "85b8b0d19e2dd408bc65f30305ef204dc7b0117d3e2943a0fd12fc9df684eea7",
+      "expected_sha256": "85b8b0d19e2dd408bc65f30305ef204dc7b0117d3e2943a0fd12fc9df684eea7",
+      "manifest": "udt_tidal_measurement_feasibility_campaign_2026-09-07/step_01/review/REVIEW_SHA256SUMS",
+      "path": "udt_tidal_measurement_feasibility_campaign_2026-09-07/step_01/review/VERDICT.json"
+    },
+    {
+      "current_byte_match": true,
+      "current_sha256": "fe7d51de1be4ec2053f0c8b9e599d4367a3d7a76931cf94f295b7a7a79894ebd",
+      "expected_sha256": "fe7d51de1be4ec2053f0c8b9e599d4367a3d7a76931cf94f295b7a7a79894ebd",
+      "manifest": "udt_tidal_measurement_feasibility_campaign_2026-09-07/step_01/review/REVIEW_SHA256SUMS",
+      "path": "udt_tidal_measurement_feasibility_campaign_2026-09-07/step_01/review/author_replay.json"
+    },
+    {
+      "current_byte_match": true,
+      "current_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "expected_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "manifest": "udt_tidal_measurement_feasibility_campaign_2026-09-07/step_01/review/REVIEW_SHA256SUMS",
+      "path": "udt_tidal_measurement_feasibility_campaign_2026-09-07/step_01/review/author_replay.stderr"
+    },
+    {
+      "current_byte_match": true,
+      "current_sha256": "a3986549adb6f2ad3f659386c27135d46c4240063ea30d4d8908a41d7fb98915",
+      "expected_sha256": "a3986549adb6f2ad3f659386c27135d46c4240063ea30d4d8908a41d7fb98915",
+      "manifest": "udt_tidal_measurement_feasibility_campaign_2026-09-07/step_01/review/REVIEW_SHA256SUMS",
+      "path": "udt_tidal_measurement_feasibility_campaign_2026-09-07/step_01/review/author_replay.stdout"
+    },
+    {
+      "current_byte_match": true,
+      "current_sha256": "fa8656a30fe74a14ce8a7bd094afefba9573c723299497e7eaa904df7e5d42da",
+      "expected_sha256": "fa8656a30fe74a14ce8a7bd094afefba9573c723299497e7eaa904df7e5d42da",
+      "manifest": "udt_tidal_measurement_feasibility_campaign_2026-09-07/step_01/review/REVIEW_SHA256SUMS",
+      "path": "udt_tidal_measurement_feasibility_campaign_2026-09-07/step_01/review/direct_exact.json"
+    },
+    {
+      "current_byte_match": true,
+      "current_sha256": "a5c1413bef9383204fa8188630189a8fbdb7dec75100a66e7195881312837731",
+      "expected_sha256": "a5c1413bef9383204fa8188630189a8fbdb7dec75100a66e7195881312837731",
+      "manifest": "udt_tidal_measurement_feasibility_campaign_2026-09-07/step_01/review/REVIEW_SHA256SUMS",
+      "path": "udt_tidal_measurement_feasibility_campaign_2026-09-07/step_01/review/direct_exact.py"
+    },
+    {
+      "current_byte_match": true,
+      "current_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "expected_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "manifest": "udt_tidal_measurement_feasibility_campaign_2026-09-07/step_01/review/REVIEW_SHA256SUMS",
+      "path": "udt_tidal_measurement_feasibility_campaign_2026-09-07/step_01/review/direct_exact.stderr"
+    },
+    {
+      "current_byte_match": true,
+      "current_sha256": "34eb4b28e13b507174d586ec1899b0602d7dda46edb7667ceee14232b7212682",
+      "expected_sha256": "34eb4b28e13b507174d586ec1899b0602d7dda46edb7667ceee14232b7212682",
+      "manifest": "udt_tidal_measurement_feasibility_campaign_2026-09-07/step_01/review/REVIEW_SHA256SUMS",
+      "path": "udt_tidal_measurement_feasibility_campaign_2026-09-07/step_01/review/direct_exact.stdout"
+    },
+    {
+      "current_byte_match": true,
+      "current_sha256": "8f711aef62f445ea7efcfbe165b19a304060d67e7a8afd20d617c497dcdf733e",
+      "expected_sha256": "8f711aef62f445ea7efcfbe165b19a304060d67e7a8afd20d617c497dcdf733e",
+      "manifest": "udt_tidal_measurement_feasibility_campaign_2026-09-07/step_01/review/REVIEW_SHA256SUMS",
+      "path": "udt_tidal_measurement_feasibility_campaign_2026-09-07/step_01/review/focused_auth.json"
+    },
+    {
+      "current_byte_match": true,
+      "current_sha256": "0f010b9232e03220507a64335d8a23fd6d431873132252f161b268566b1fd40e",
+      "expected_sha256": "0f010b9232e03220507a64335d8a23fd6d431873132252f161b268566b1fd40e",
+      "manifest": "udt_tidal_measurement_feasibility_campaign_2026-09-07/step_01/review/REVIEW_SHA256SUMS",
+      "path": "udt_tidal_measurement_feasibility_campaign_2026-09-07/step_01/review/focused_auth.py"
+    },
+    {
+      "current_byte_match": true,
+      "current_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "expected_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "manifest": "udt_tidal_measurement_feasibility_campaign_2026-09-07/step_01/review/REVIEW_SHA256SUMS",
+      "path": "udt_tidal_measurement_feasibility_campaign_2026-09-07/step_01/review/focused_auth.stderr"
+    },
+    {
+      "current_byte_match": true,
+      "current_sha256": "a8e6dd9032eff803739b5cc4e452c8b74e3d2166fa938af0f7e044c802b03f7d",
+      "expected_sha256": "a8e6dd9032eff803739b5cc4e452c8b74e3d2166fa938af0f7e044c802b03f7d",
+      "manifest": "udt_tidal_measurement_feasibility_campaign_2026-09-07/step_01/review/REVIEW_SHA256SUMS",
+      "path": "udt_tidal_measurement_feasibility_campaign_2026-09-07/step_01/review/focused_auth.stdout"
+    },
+    {
+      "current_byte_match": true,
+      "current_sha256": "d90cf32527da0820280872f7944256a70e18003a1f4640641dd40c6f07f126c9",
+      "expected_sha256": "d90cf32527da0820280872f7944256a70e18003a1f4640641dd40c6f07f126c9",
+      "manifest": "udt_tidal_measurement_feasibility_campaign_2026-09-07/step_01/review/REVIEW_SHA256SUMS",
+      "path": "udt_tidal_measurement_feasibility_campaign_2026-09-07/step_01/review/stage_a_exact.json"
+    },
+    {
+      "current_byte_match": true,
+      "current_sha256": "3323476bf6a81b6f38a1d5969162564e8f6dc7712290ba485a76dcddf88deb64",
+      "expected_sha256": "3323476bf6a81b6f38a1d5969162564e8f6dc7712290ba485a76dcddf88deb64",
+      "manifest": "udt_tidal_measurement_feasibility_campaign_2026-09-07/step_01/review/REVIEW_SHA256SUMS",
+      "path": "udt_tidal_measurement_feasibility_campaign_2026-09-07/step_01/review/stage_a_exact.py"
+    },
+    {
+      "current_byte_match": true,
+      "current_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "expected_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "manifest": "udt_tidal_measurement_feasibility_campaign_2026-09-07/step_01/review/REVIEW_SHA256SUMS",
+      "path": "udt_tidal_measurement_feasibility_campaign_2026-09-07/step_01/review/stage_a_exact.stderr"
+    },
+    {
+      "current_byte_match": true,
+      "current_sha256": "1de52e4310971ee843a0d25daf7302ba3f681434254d18259dcebaf8bb1874d9",
+      "expected_sha256": "1de52e4310971ee843a0d25daf7302ba3f681434254d18259dcebaf8bb1874d9",
+      "manifest": "udt_tidal_measurement_feasibility_campaign_2026-09-07/step_01/review/REVIEW_SHA256SUMS",
+      "path": "udt_tidal_measurement_feasibility_campaign_2026-09-07/step_01/review/stage_a_exact.stdout"
+    },
+    {
+      "current_byte_match": true,
+      "current_sha256": "5d74e83d0ecbcd11d0c33d7494972aa347a41db37ca8bfee4bab1a52600728e5",
+      "expected_sha256": "5d74e83d0ecbcd11d0c33d7494972aa347a41db37ca8bfee4bab1a52600728e5",
+      "manifest": "udt_tidal_measurement_feasibility_campaign_2026-09-07/step_02/review/REVIEW_SHA256SUMS",
+      "path": "udt_tidal_measurement_feasibility_campaign_2026-09-07/step_02/review/AUTHOR_MUTATIONS.json"
+    },
+    {
+      "current_byte_match": true,
+      "current_sha256": "ada25a8f13ed4b68070da695c98bba13f5fd57c1d0794c5d052ef1b32fd03a79",
+      "expected_sha256": "ada25a8f13ed4b68070da695c98bba13f5fd57c1d0794c5d052ef1b32fd03a79",
+      "manifest": "udt_tidal_measurement_feasibility_campaign_2026-09-07/step_02/review/REVIEW_SHA256SUMS",
+      "path": "udt_tidal_measurement_feasibility_campaign_2026-09-07/step_02/review/DIRECT_ADVERSARIAL_REVIEW.md"
+    },
+    {
+      "current_byte_match": true,
+      "current_sha256": "050f4d3bf2fd187704f15c85897d00648cacc6b5ee2b55d8c9aea1f35638582d",
+      "expected_sha256": "050f4d3bf2fd187704f15c85897d00648cacc6b5ee2b55d8c9aea1f35638582d",
+      "manifest": "udt_tidal_measurement_feasibility_campaign_2026-09-07/step_02/review/REVIEW_SHA256SUMS",
+      "path": "udt_tidal_measurement_feasibility_campaign_2026-09-07/step_02/review/SOURCE_SHA256SUMS"
+    },
+    {
+      "current_byte_match": true,
+      "current_sha256": "c8f5ef3da001f80d9e06efbad0265290dbbae8c91f426faab825879661a73f91",
+      "expected_sha256": "c8f5ef3da001f80d9e06efbad0265290dbbae8c91f426faab825879661a73f91",
+      "manifest": "udt_tidal_measurement_feasibility_campaign_2026-09-07/step_02/review/REVIEW_SHA256SUMS",
+      "path": "udt_tidal_measurement_feasibility_campaign_2026-09-07/step_02/review/STAGE_A_ARGUMENT.md"
+    },
+    {
+      "current_byte_match": true,
+      "current_sha256": "91cc5487e81a77746cb58a172bab68923858a63bbdc17c2e8c9f02f2a1033da7",
+      "expected_sha256": "91cc5487e81a77746cb58a172bab68923858a63bbdc17c2e8c9f02f2a1033da7",
+      "manifest": "udt_tidal_measurement_feasibility_campaign_2026-09-07/step_02/review/REVIEW_SHA256SUMS",
+      "path": "udt_tidal_measurement_feasibility_campaign_2026-09-07/step_02/review/STAGE_A_CHECK_PLAN.md"
+    },
+    {
+      "current_byte_match": true,
+      "current_sha256": "e507b9b4beae66827aed666f588036169c502c9f3f2bf8535fb581b39ea9c8cb",
+      "expected_sha256": "e507b9b4beae66827aed666f588036169c502c9f3f2bf8535fb581b39ea9c8cb",
+      "manifest": "udt_tidal_measurement_feasibility_campaign_2026-09-07/step_02/review/REVIEW_SHA256SUMS",
+      "path": "udt_tidal_measurement_feasibility_campaign_2026-09-07/step_02/review/STAGE_A_RECORD.md"
+    },
+    {
+      "current_byte_match": true,
+      "current_sha256": "c35e6820db5f65b600ff3079c442c9faeafac67c805afa4295fc44d2f1b42cf0",
+      "expected_sha256": "c35e6820db5f65b600ff3079c442c9faeafac67c805afa4295fc44d2f1b42cf0",
+      "manifest": "udt_tidal_measurement_feasibility_campaign_2026-09-07/step_02/review/REVIEW_SHA256SUMS",
+      "path": "udt_tidal_measurement_feasibility_campaign_2026-09-07/step_02/review/STAGE_A_SHA256SUMS"
+    },
+    {
+      "current_byte_match": true,
+      "current_sha256": "757dbc6a4b0d4b78f6e92c4a7edfc0e33f55933a5e564fb5bdf44071ea678dc8",
+      "expected_sha256": "757dbc6a4b0d4b78f6e92c4a7edfc0e33f55933a5e564fb5bdf44071ea678dc8",
+      "manifest": "udt_tidal_measurement_feasibility_campaign_2026-09-07/step_02/review/REVIEW_SHA256SUMS",
+      "path": "udt_tidal_measurement_feasibility_campaign_2026-09-07/step_02/review/VERDICT.json"
+    },
+    {
+      "current_byte_match": true,
+      "current_sha256": "675cb764d439cf7c57fbfced33a5516d5e09c4f652187c67148f08b392fdfd6f",
+      "expected_sha256": "675cb764d439cf7c57fbfced33a5516d5e09c4f652187c67148f08b392fdfd6f",
+      "manifest": "udt_tidal_measurement_feasibility_campaign_2026-09-07/step_02/review/REVIEW_SHA256SUMS",
+      "path": "udt_tidal_measurement_feasibility_campaign_2026-09-07/step_02/review/author_mutant_alias.json"
+    },
+    {
+      "current_byte_match": true,
+      "current_sha256": "68b628b5c9e554f98a79e791348df33bd46d91ec3a1eea3b0034f652ae8a6d89",
+      "expected_sha256": "68b628b5c9e554f98a79e791348df33bd46d91ec3a1eea3b0034f652ae8a6d89",
+      "manifest": "udt_tidal_measurement_feasibility_campaign_2026-09-07/step_02/review/REVIEW_SHA256SUMS",
+      "path": "udt_tidal_measurement_feasibility_campaign_2026-09-07/step_02/review/author_mutant_alias.stderr"
+    },
+    {
+      "current_byte_match": true,
+      "current_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "expected_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "manifest": "udt_tidal_measurement_feasibility_campaign_2026-09-07/step_02/review/REVIEW_SHA256SUMS",
+      "path": "udt_tidal_measurement_feasibility_campaign_2026-09-07/step_02/review/author_mutant_alias.stdout"
+    },
+    {
+      "current_byte_match": true,
+      "current_sha256": "c432c405e0a0dcdb20df233a761234d9b8ccc3489b60ad8e8b2bc14bc1358e41",
+      "expected_sha256": "c432c405e0a0dcdb20df233a761234d9b8ccc3489b60ad8e8b2bc14bc1358e41",
+      "manifest": "udt_tidal_measurement_feasibility_campaign_2026-09-07/step_02/review/REVIEW_SHA256SUMS",
+      "path": "udt_tidal_measurement_feasibility_campaign_2026-09-07/step_02/review/author_mutant_covariance.json"
+    },
+    {
+      "current_byte_match": true,
+      "current_sha256": "50d50513bfcdaf10be6cf6cc0dac424b00fe56a78e1fd7563a0613753dce3900",
+      "expected_sha256": "50d50513bfcdaf10be6cf6cc0dac424b00fe56a78e1fd7563a0613753dce3900",
+      "manifest": "udt_tidal_measurement_feasibility_campaign_2026-09-07/step_02/review/REVIEW_SHA256SUMS",
+      "path": "udt_tidal_measurement_feasibility_campaign_2026-09-07/step_02/review/author_mutant_covariance.stderr"
+    },
+    {
+      "current_byte_match": true,
+      "current_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "expected_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "manifest": "udt_tidal_measurement_feasibility_campaign_2026-09-07/step_02/review/REVIEW_SHA256SUMS",
+      "path": "udt_tidal_measurement_feasibility_campaign_2026-09-07/step_02/review/author_mutant_covariance.stdout"
+    },
+    {
+      "current_byte_match": true,
+      "current_sha256": "ad7c3c4f7772a0ab4c47cc5095914926baa8c1c123a74872e6932432dcb0708e",
+      "expected_sha256": "ad7c3c4f7772a0ab4c47cc5095914926baa8c1c123a74872e6932432dcb0708e",
+      "manifest": "udt_tidal_measurement_feasibility_campaign_2026-09-07/step_02/review/REVIEW_SHA256SUMS",
+      "path": "udt_tidal_measurement_feasibility_campaign_2026-09-07/step_02/review/author_mutant_signal_rank.json"
+    },
+    {
+      "current_byte_match": true,
+      "current_sha256": "63a71e29d56ce1222189d6755ad12315414a051305b41699a5ee41b058f76f31",
+      "expected_sha256": "63a71e29d56ce1222189d6755ad12315414a051305b41699a5ee41b058f76f31",
+      "manifest": "udt_tidal_measurement_feasibility_campaign_2026-09-07/step_02/review/REVIEW_SHA256SUMS",
+      "path": "udt_tidal_measurement_feasibility_campaign_2026-09-07/step_02/review/author_mutant_signal_rank.stderr"
+    },
+    {
+      "current_byte_match": true,
+      "current_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "expected_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "manifest": "udt_tidal_measurement_feasibility_campaign_2026-09-07/step_02/review/REVIEW_SHA256SUMS",
+      "path": "udt_tidal_measurement_feasibility_campaign_2026-09-07/step_02/review/author_mutant_signal_rank.stdout"
+    },
+    {
+      "current_byte_match": true,
+      "current_sha256": "424bcfeb3111144a3b479b472ad3b22a21e9e4a859fee5a098f5db68e56c3993",
+      "expected_sha256": "424bcfeb3111144a3b479b472ad3b22a21e9e4a859fee5a098f5db68e56c3993",
+      "manifest": "udt_tidal_measurement_feasibility_campaign_2026-09-07/step_02/review/REVIEW_SHA256SUMS",
+      "path": "udt_tidal_measurement_feasibility_campaign_2026-09-07/step_02/review/author_mutant_training.json"
+    },
+    {
+      "current_byte_match": true,
+      "current_sha256": "ced77e9eb6a0dd66fd698e248e2f8cde81fce2f6b3cbbd9bb23ae8594b61df0a",
+      "expected_sha256": "ced77e9eb6a0dd66fd698e248e2f8cde81fce2f6b3cbbd9bb23ae8594b61df0a",
+      "manifest": "udt_tidal_measurement_feasibility_campaign_2026-09-07/step_02/review/REVIEW_SHA256SUMS",
+      "path": "udt_tidal_measurement_feasibility_campaign_2026-09-07/step_02/review/author_mutant_training.stderr"
+    },
+    {
+      "current_byte_match": true,
+      "current_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "expected_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "manifest": "udt_tidal_measurement_feasibility_campaign_2026-09-07/step_02/review/REVIEW_SHA256SUMS",
+      "path": "udt_tidal_measurement_feasibility_campaign_2026-09-07/step_02/review/author_mutant_training.stdout"
+    },
+    {
+      "current_byte_match": true,
+      "current_sha256": "a6f89b6a75bc055fab460b2c433dc51ffe1a98a41d9b48b21fe417edf1de368e",
+      "expected_sha256": "a6f89b6a75bc055fab460b2c433dc51ffe1a98a41d9b48b21fe417edf1de368e",
+      "manifest": "udt_tidal_measurement_feasibility_campaign_2026-09-07/step_02/review/REVIEW_SHA256SUMS",
+      "path": "udt_tidal_measurement_feasibility_campaign_2026-09-07/step_02/review/author_replay.json"
+    },
+    {
+      "current_byte_match": true,
+      "current_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "expected_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "manifest": "udt_tidal_measurement_feasibility_campaign_2026-09-07/step_02/review/REVIEW_SHA256SUMS",
+      "path": "udt_tidal_measurement_feasibility_campaign_2026-09-07/step_02/review/author_replay.stderr"
+    },
+    {
+      "current_byte_match": true,
+      "current_sha256": "0088ae68497553cf6deffd0fa54d15da77c60fc67904576ff0d0a14b7cfe1e65",
+      "expected_sha256": "0088ae68497553cf6deffd0fa54d15da77c60fc67904576ff0d0a14b7cfe1e65",
+      "manifest": "udt_tidal_measurement_feasibility_campaign_2026-09-07/step_02/review/REVIEW_SHA256SUMS",
+      "path": "udt_tidal_measurement_feasibility_campaign_2026-09-07/step_02/review/author_replay.stdout"
+    },
+    {
+      "current_byte_match": true,
+      "current_sha256": "34062392ab25ce4fba9c599fbab266e7ffeaeec0d013b577f595c0e3ae2c42f5",
+      "expected_sha256": "34062392ab25ce4fba9c599fbab266e7ffeaeec0d013b577f595c0e3ae2c42f5",
+      "manifest": "udt_tidal_measurement_feasibility_campaign_2026-09-07/step_02/review/REVIEW_SHA256SUMS",
+      "path": "udt_tidal_measurement_feasibility_campaign_2026-09-07/step_02/review/brief_auth.json"
+    },
+    {
+      "current_byte_match": true,
+      "current_sha256": "737356b0fb5fe3b61cb299cf532593a8763238916c7d221fba22ad4007d92270",
+      "expected_sha256": "737356b0fb5fe3b61cb299cf532593a8763238916c7d221fba22ad4007d92270",
+      "manifest": "udt_tidal_measurement_feasibility_campaign_2026-09-07/step_02/review/REVIEW_SHA256SUMS",
+      "path": "udt_tidal_measurement_feasibility_campaign_2026-09-07/step_02/review/brief_auth.sh"
+    },
+    {
+      "current_byte_match": true,
+      "current_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "expected_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "manifest": "udt_tidal_measurement_feasibility_campaign_2026-09-07/step_02/review/REVIEW_SHA256SUMS",
+      "path": "udt_tidal_measurement_feasibility_campaign_2026-09-07/step_02/review/brief_auth.stderr"
+    },
+    {
+      "current_byte_match": true,
+      "current_sha256": "3eb7e29804212ed8cfd4857c7d27234f77a5bc635f335dd579285ef05f0f9aa7",
+      "expected_sha256": "3eb7e29804212ed8cfd4857c7d27234f77a5bc635f335dd579285ef05f0f9aa7",
+      "manifest": "udt_tidal_measurement_feasibility_campaign_2026-09-07/step_02/review/REVIEW_SHA256SUMS",
+      "path": "udt_tidal_measurement_feasibility_campaign_2026-09-07/step_02/review/brief_auth.stdout"
+    },
+    {
+      "current_byte_match": true,
+      "current_sha256": "c538eb9e6d3dbea2d4e84f9f2955559c5e49e4e98be23ae2b581e91add78aaed",
+      "expected_sha256": "c538eb9e6d3dbea2d4e84f9f2955559c5e49e4e98be23ae2b581e91add78aaed",
+      "manifest": "udt_tidal_measurement_feasibility_campaign_2026-09-07/step_02/review/REVIEW_SHA256SUMS",
+      "path": "udt_tidal_measurement_feasibility_campaign_2026-09-07/step_02/review/direct_exact.json"
+    },
+    {
+      "current_byte_match": true,
+      "current_sha256": "859402eb03e9fdcc84950329f3d259822c3e88801e2cec035a291a8565a00a11",
+      "expected_sha256": "859402eb03e9fdcc84950329f3d259822c3e88801e2cec035a291a8565a00a11",
+      "manifest": "udt_tidal_measurement_feasibility_campaign_2026-09-07/step_02/review/REVIEW_SHA256SUMS",
+      "path": "udt_tidal_measurement_feasibility_campaign_2026-09-07/step_02/review/direct_exact.py"
+    },
+    {
+      "current_byte_match": true,
+      "current_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "expected_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "manifest": "udt_tidal_measurement_feasibility_campaign_2026-09-07/step_02/review/REVIEW_SHA256SUMS",
+      "path": "udt_tidal_measurement_feasibility_campaign_2026-09-07/step_02/review/direct_exact.stderr"
+    },
+    {
+      "current_byte_match": true,
+      "current_sha256": "a1b238b0e48c3580f2b04a0cb06e3ae616e1d2f7942f568c1451fe0c25e4c6fb",
+      "expected_sha256": "a1b238b0e48c3580f2b04a0cb06e3ae616e1d2f7942f568c1451fe0c25e4c6fb",
+      "manifest": "udt_tidal_measurement_feasibility_campaign_2026-09-07/step_02/review/REVIEW_SHA256SUMS",
+      "path": "udt_tidal_measurement_feasibility_campaign_2026-09-07/step_02/review/direct_exact.stdout"
+    },
+    {
+      "current_byte_match": true,
+      "current_sha256": "63bc57703bbae5e3c3254ddb70260577f395eb99e500f59c01434ce742566a3e",
+      "expected_sha256": "63bc57703bbae5e3c3254ddb70260577f395eb99e500f59c01434ce742566a3e",
+      "manifest": "udt_tidal_measurement_feasibility_campaign_2026-09-07/step_02/review/REVIEW_SHA256SUMS",
+      "path": "udt_tidal_measurement_feasibility_campaign_2026-09-07/step_02/review/mutant_drop_covariance.json"
+    },
+    {
+      "current_byte_match": true,
+      "current_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "expected_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "manifest": "udt_tidal_measurement_feasibility_campaign_2026-09-07/step_02/review/REVIEW_SHA256SUMS",
+      "path": "udt_tidal_measurement_feasibility_campaign_2026-09-07/step_02/review/mutant_drop_covariance.stderr"
+    },
+    {
+      "current_byte_match": true,
+      "current_sha256": "18a27b38f57e9ff606f080c93590bb847459ba1422fb3af5e54cdc25286ac92e",
+      "expected_sha256": "18a27b38f57e9ff606f080c93590bb847459ba1422fb3af5e54cdc25286ac92e",
+      "manifest": "udt_tidal_measurement_feasibility_campaign_2026-09-07/step_02/review/REVIEW_SHA256SUMS",
+      "path": "udt_tidal_measurement_feasibility_campaign_2026-09-07/step_02/review/mutant_drop_covariance.stdout"
+    },
+    {
+      "current_byte_match": true,
+      "current_sha256": "513c1c5a30159fa1f147d91620be4bf4002a49cf9c42c903897acd01785fed27",
+      "expected_sha256": "513c1c5a30159fa1f147d91620be4bf4002a49cf9c42c903897acd01785fed27",
+      "manifest": "udt_tidal_measurement_feasibility_campaign_2026-09-07/step_02/review/REVIEW_SHA256SUMS",
+      "path": "udt_tidal_measurement_feasibility_campaign_2026-09-07/step_02/review/mutant_drop_training_error.json"
+    },
+    {
+      "current_byte_match": true,
+      "current_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "expected_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "manifest": "udt_tidal_measurement_feasibility_campaign_2026-09-07/step_02/review/REVIEW_SHA256SUMS",
+      "path": "udt_tidal_measurement_feasibility_campaign_2026-09-07/step_02/review/mutant_drop_training_error.stderr"
+    },
+    {
+      "current_byte_match": true,
+      "current_sha256": "a91abccc1fe011e78c62dc3ad24d6eaed5d8418486c2ccffa74451bec8384302",
+      "expected_sha256": "a91abccc1fe011e78c62dc3ad24d6eaed5d8418486c2ccffa74451bec8384302",
+      "manifest": "udt_tidal_measurement_feasibility_campaign_2026-09-07/step_02/review/REVIEW_SHA256SUMS",
+      "path": "udt_tidal_measurement_feasibility_campaign_2026-09-07/step_02/review/mutant_drop_training_error.stdout"
+    },
+    {
+      "current_byte_match": true,
+      "current_sha256": "15a12901b7d3b6f2d97ed9da48ec13a127f12411bf1deabf11d2db3d025af4d0",
+      "expected_sha256": "15a12901b7d3b6f2d97ed9da48ec13a127f12411bf1deabf11d2db3d025af4d0",
+      "manifest": "udt_tidal_measurement_feasibility_campaign_2026-09-07/step_02/review/REVIEW_SHA256SUMS",
+      "path": "udt_tidal_measurement_feasibility_campaign_2026-09-07/step_02/review/mutant_omit_nuisance.json"
+    },
+    {
+      "current_byte_match": true,
+      "current_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "expected_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "manifest": "udt_tidal_measurement_feasibility_campaign_2026-09-07/step_02/review/REVIEW_SHA256SUMS",
+      "path": "udt_tidal_measurement_feasibility_campaign_2026-09-07/step_02/review/mutant_omit_nuisance.stderr"
+    },
+    {
+      "current_byte_match": true,
+      "current_sha256": "7db26486e7efdb28f77b09a273699af594323cb28dedc7284909e28b9cd0c7f5",
+      "expected_sha256": "7db26486e7efdb28f77b09a273699af594323cb28dedc7284909e28b9cd0c7f5",
+      "manifest": "udt_tidal_measurement_feasibility_campaign_2026-09-07/step_02/review/REVIEW_SHA256SUMS",
+      "path": "udt_tidal_measurement_feasibility_campaign_2026-09-07/step_02/review/mutant_omit_nuisance.stdout"
+    },
+    {
+      "current_byte_match": true,
+      "current_sha256": "620a3cd4e210bbcf910df9283699354c5a3ee487f85efc5f7a65e1948f6eec64",
+      "expected_sha256": "620a3cd4e210bbcf910df9283699354c5a3ee487f85efc5f7a65e1948f6eec64",
+      "manifest": "udt_tidal_measurement_feasibility_campaign_2026-09-07/step_02/review/REVIEW_SHA256SUMS",
+      "path": "udt_tidal_measurement_feasibility_campaign_2026-09-07/step_02/review/mutant_pretend_unique.json"
+    },
+    {
+      "current_byte_match": true,
+      "current_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "expected_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "manifest": "udt_tidal_measurement_feasibility_campaign_2026-09-07/step_02/review/REVIEW_SHA256SUMS",
+      "path": "udt_tidal_measurement_feasibility_campaign_2026-09-07/step_02/review/mutant_pretend_unique.stderr"
+    },
+    {
+      "current_byte_match": true,
+      "current_sha256": "1633dc4916e2df454b60e79cb8b76436dee931638742f304370c34064fa9c89f",
+      "expected_sha256": "1633dc4916e2df454b60e79cb8b76436dee931638742f304370c34064fa9c89f",
+      "manifest": "udt_tidal_measurement_feasibility_campaign_2026-09-07/step_02/review/REVIEW_SHA256SUMS",
+      "path": "udt_tidal_measurement_feasibility_campaign_2026-09-07/step_02/review/mutant_pretend_unique.stdout"
+    },
+    {
+      "current_byte_match": true,
+      "current_sha256": "a5483e8dd80f4031b0b5fe757e2c1ec30d293b635c1c9f1a89ffc85128dd7e2a",
+      "expected_sha256": "a5483e8dd80f4031b0b5fe757e2c1ec30d293b635c1c9f1a89ffc85128dd7e2a",
+      "manifest": "udt_tidal_measurement_feasibility_campaign_2026-09-07/step_02/review/REVIEW_SHA256SUMS",
+      "path": "udt_tidal_measurement_feasibility_campaign_2026-09-07/step_02/review/stage_a_exact.json"
+    },
+    {
+      "current_byte_match": true,
+      "current_sha256": "6bc6ad660250be7b1dd35416a43578bbbb92c0092ec13c2f692b09ac4cf0b161",
+      "expected_sha256": "6bc6ad660250be7b1dd35416a43578bbbb92c0092ec13c2f692b09ac4cf0b161",
+      "manifest": "udt_tidal_measurement_feasibility_campaign_2026-09-07/step_02/review/REVIEW_SHA256SUMS",
+      "path": "udt_tidal_measurement_feasibility_campaign_2026-09-07/step_02/review/stage_a_exact.py"
+    },
+    {
+      "current_byte_match": true,
+      "current_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "expected_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "manifest": "udt_tidal_measurement_feasibility_campaign_2026-09-07/step_02/review/REVIEW_SHA256SUMS",
+      "path": "udt_tidal_measurement_feasibility_campaign_2026-09-07/step_02/review/stage_a_exact.stderr"
+    },
+    {
+      "current_byte_match": true,
+      "current_sha256": "394a6a629487207dac2bb3d23269e3d77a074023316e777dd42d4442b288e476",
+      "expected_sha256": "394a6a629487207dac2bb3d23269e3d77a074023316e777dd42d4442b288e476",
+      "manifest": "udt_tidal_measurement_feasibility_campaign_2026-09-07/step_02/review/REVIEW_SHA256SUMS",
+      "path": "udt_tidal_measurement_feasibility_campaign_2026-09-07/step_02/review/stage_a_exact.stdout"
+    }
+  ],
+  "status": "PASS_CURRENT_SOURCE_PINS_AND_AUTHENTICATED_349_HISTORY"
+}

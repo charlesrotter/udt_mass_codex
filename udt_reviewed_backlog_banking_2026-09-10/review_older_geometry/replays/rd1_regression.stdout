@@ -1,0 +1,65 @@
+{
+  "evidence_type": "same-code regression and defect catches only; independent methods in separate reviewer scripts",
+  "files_changed_by_test": [],
+  "four_in_memory_producer_mutations": [
+    {
+      "failed_expression": "assert hmargin >= -1e-12 * max(hbound, np.linalg.norm(h))",
+      "failed_line": 56,
+      "message": "",
+      "name": "wrong_training_denominator",
+      "rejected": true
+    },
+    {
+      "failed_expression": "assert abs(quadrature_norm2/exact_norm2-1) < 1e-7",
+      "failed_line": 118,
+      "message": "",
+      "name": "wrong_interpolant_norm",
+      "rejected": true
+    },
+    {
+      "failed_expression": "assert abs(norm2/(hmax*hmax)-1) < 1e-12",
+      "failed_line": 134,
+      "message": "",
+      "name": "wrong_sharp_radius",
+      "rejected": true
+    },
+    {
+      "failed_expression": "assert abs(transfer(x, 0) - np.sinc(2*x/np.pi)) < 1e-14",
+      "failed_line": 161,
+      "message": "",
+      "name": "wrong_sinc_normalization",
+      "rejected": true
+    }
+  ],
+  "original_five_defect_assertions_reexecuted": [
+    {
+      "exception": "amplitude_free_error",
+      "name": "amplitude_free_error",
+      "rejected": true
+    },
+    {
+      "exception": "varying_response_commutes_with_common_filter",
+      "name": "varying_response_commutes_with_common_filter",
+      "rejected": true
+    },
+    {
+      "exception": "retained_band_bounds_windowed_signal",
+      "name": "retained_band_bounds_windowed_signal",
+      "rejected": true
+    },
+    {
+      "exception": "training_uniquely_fixes_distinct_holdout",
+      "name": "training_uniquely_fixes_distinct_holdout",
+      "rejected": true
+    },
+    {
+      "exception": "extra_pi_convention",
+      "name": "extra_pi_convention",
+      "rejected": true
+    }
+  ],
+  "passed": true,
+  "python": "3.10.12",
+  "replay_byte_identical": true,
+  "replay_stdout_sha256": "1c15a27b5d32888360746953a4782f88c7cf5ebd8ed8c0212bcb0c78c919915e"
+}

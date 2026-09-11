@@ -1,0 +1,2686 @@
+{
+  "verdict": "PASS_FINITE_ADVERSARIAL_AND_EXACT_CODE_COMPARISON",
+  "started_utc": "2026-09-11T00:35:58.124713+00:00",
+  "completed_utc": "2026-09-11T00:36:01.613204+00:00",
+  "python": "3.10.12 (main, Aug 31 2026, 10:18:17) [GCC 11.4.0]",
+  "argv": [
+    "udt_reviewed_backlog_banking_2026-09-10/review_integration/adversarial_integration.py"
+  ],
+  "defects_rejected": 660,
+  "added_row_cell_mutations": 270,
+  "original_row_mutations": 365,
+  "extra_id_mutations": 3,
+  "header_mutations": 1,
+  "source_package_mutations": 21,
+  "unchanged_functions_exact_AST": [
+    "read_tsv",
+    "frozen_git_source_bytes",
+    "require",
+    "_gr_filter_validated_snapshot",
+    "validate_gr_filter_authority",
+    "registry_bytes_for_historical_banking",
+    "require_ordered_tokens",
+    "marked_current_block"
+  ],
+  "historical_functions_exact_AST_after_only_declared30_id_projection": [
+    "replay_package_with_current_registry_rows_removed",
+    "validate_conditional_banking",
+    "validate_shared_constraint_banking",
+    "validate_persistence_banking",
+    "validate_restrictiveness_banking",
+    "validate_source_metric_banking",
+    "validate_reconstruction_banking",
+    "validate_coupled_banking",
+    "validate_vacuum_scale_banking",
+    "validate_berger_banking",
+    "validate_closed_fibre_banking",
+    "validate_neighboring_tidal_banking"
+  ],
+  "main_exact_AST_except_declared30_id_projection_count_new_guard_and_final_print": true,
+  "every_original64_hex_literal_and_multiplicity_preserved": true,
+  "G312_projection_only_changed_id": [
+    "G312"
+  ],
+  "results": [
+    {
+      "defect": "G383:premise_id",
+      "rejection": "backlog exact rows/scope/order changed"
+    },
+    {
+      "defect": "G383:term",
+      "rejection": "backlog exact rows/scope/order changed"
+    },
+    {
+      "defect": "G383:current_status",
+      "rejection": "backlog exact rows/scope/order changed"
+    },
+    {
+      "defect": "G383:epistemic_label",
+      "rejection": "backlog exact rows/scope/order changed"
+    },
+    {
+      "defect": "G383:active_use",
+      "rejection": "backlog exact rows/scope/order changed"
+    },
+    {
+      "defect": "G383:open_scope",
+      "rejection": "backlog exact rows/scope/order changed"
+    },
+    {
+      "defect": "G383:forbidden_regression",
+      "rejection": "backlog exact rows/scope/order changed"
+    },
+    {
+      "defect": "G383:controlling_source",
+      "rejection": "backlog exact rows/scope/order changed"
+    },
+    {
+      "defect": "G383:precedence_rule",
+      "rejection": "backlog exact rows/scope/order changed"
+    },
+    {
+      "defect": "G384:premise_id",
+      "rejection": "backlog exact rows/scope/order changed"
+    },
+    {
+      "defect": "G384:term",
+      "rejection": "backlog exact rows/scope/order changed"
+    },
+    {
+      "defect": "G384:current_status",
+      "rejection": "backlog exact rows/scope/order changed"
+    },
+    {
+      "defect": "G384:epistemic_label",
+      "rejection": "backlog exact rows/scope/order changed"
+    },
+    {
+      "defect": "G384:active_use",
+      "rejection": "backlog exact rows/scope/order changed"
+    },
+    {
+      "defect": "G384:open_scope",
+      "rejection": "backlog exact rows/scope/order changed"
+    },
+    {
+      "defect": "G384:forbidden_regression",
+      "rejection": "backlog exact rows/scope/order changed"
+    },
+    {
+      "defect": "G384:controlling_source",
+      "rejection": "backlog exact rows/scope/order changed"
+    },
+    {
+      "defect": "G384:precedence_rule",
+      "rejection": "backlog exact rows/scope/order changed"
+    },
+    {
+      "defect": "G385:premise_id",
+      "rejection": "backlog exact rows/scope/order changed"
+    },
+    {
+      "defect": "G385:term",
+      "rejection": "backlog exact rows/scope/order changed"
+    },
+    {
+      "defect": "G385:current_status",
+      "rejection": "backlog exact rows/scope/order changed"
+    },
+    {
+      "defect": "G385:epistemic_label",
+      "rejection": "backlog exact rows/scope/order changed"
+    },
+    {
+      "defect": "G385:active_use",
+      "rejection": "backlog exact rows/scope/order changed"
+    },
+    {
+      "defect": "G385:open_scope",
+      "rejection": "backlog exact rows/scope/order changed"
+    },
+    {
+      "defect": "G385:forbidden_regression",
+      "rejection": "backlog exact rows/scope/order changed"
+    },
+    {
+      "defect": "G385:controlling_source",
+      "rejection": "backlog exact rows/scope/order changed"
+    },
+    {
+      "defect": "G385:precedence_rule",
+      "rejection": "backlog exact rows/scope/order changed"
+    },
+    {
+      "defect": "G386:premise_id",
+      "rejection": "backlog exact rows/scope/order changed"
+    },
+    {
+      "defect": "G386:term",
+      "rejection": "backlog exact rows/scope/order changed"
+    },
+    {
+      "defect": "G386:current_status",
+      "rejection": "backlog exact rows/scope/order changed"
+    },
+    {
+      "defect": "G386:epistemic_label",
+      "rejection": "backlog exact rows/scope/order changed"
+    },
+    {
+      "defect": "G386:active_use",
+      "rejection": "backlog exact rows/scope/order changed"
+    },
+    {
+      "defect": "G386:open_scope",
+      "rejection": "backlog exact rows/scope/order changed"
+    },
+    {
+      "defect": "G386:forbidden_regression",
+      "rejection": "backlog exact rows/scope/order changed"
+    },
+    {
+      "defect": "G386:controlling_source",
+      "rejection": "backlog exact rows/scope/order changed"
+    },
+    {
+      "defect": "G386:precedence_rule",
+      "rejection": "backlog exact rows/scope/order changed"
+    },
+    {
+      "defect": "G387:premise_id",
+      "rejection": "backlog exact rows/scope/order changed"
+    },
+    {
+      "defect": "G387:term",
+      "rejection": "backlog exact rows/scope/order changed"
+    },
+    {
+      "defect": "G387:current_status",
+      "rejection": "backlog exact rows/scope/order changed"
+    },
+    {
+      "defect": "G387:epistemic_label",
+      "rejection": "backlog exact rows/scope/order changed"
+    },
+    {
+      "defect": "G387:active_use",
+      "rejection": "backlog exact rows/scope/order changed"
+    },
+    {
+      "defect": "G387:open_scope",
+      "rejection": "backlog exact rows/scope/order changed"
+    },
+    {
+      "defect": "G387:forbidden_regression",
+      "rejection": "backlog exact rows/scope/order changed"
+    },
+    {
+      "defect": "G387:controlling_source",
+      "rejection": "backlog exact rows/scope/order changed"
+    },
+    {
+      "defect": "G387:precedence_rule",
+      "rejection": "backlog exact rows/scope/order changed"
+    },
+    {
+      "defect": "G388:premise_id",
+      "rejection": "backlog exact rows/scope/order changed"
+    },
+    {
+      "defect": "G388:term",
+      "rejection": "backlog exact rows/scope/order changed"
+    },
+    {
+      "defect": "G388:current_status",
+      "rejection": "backlog exact rows/scope/order changed"
+    },
+    {
+      "defect": "G388:epistemic_label",
+      "rejection": "backlog exact rows/scope/order changed"
+    },
+    {
+      "defect": "G388:active_use",
+      "rejection": "backlog exact rows/scope/order changed"
+    },
+    {
+      "defect": "G388:open_scope",
+      "rejection": "backlog exact rows/scope/order changed"
+    },
+    {
+      "defect": "G388:forbidden_regression",
+      "rejection": "backlog exact rows/scope/order changed"
+    },
+    {
+      "defect": "G388:controlling_source",
+      "rejection": "backlog exact rows/scope/order changed"
+    },
+    {
+      "defect": "G388:precedence_rule",
+      "rejection": "backlog exact rows/scope/order changed"
+    },
+    {
+      "defect": "G389:premise_id",
+      "rejection": "backlog exact rows/scope/order changed"
+    },
+    {
+      "defect": "G389:term",
+      "rejection": "backlog exact rows/scope/order changed"
+    },
+    {
+      "defect": "G389:current_status",
+      "rejection": "backlog exact rows/scope/order changed"
+    },
+    {
+      "defect": "G389:epistemic_label",
+      "rejection": "backlog exact rows/scope/order changed"
+    },
+    {
+      "defect": "G389:active_use",
+      "rejection": "backlog exact rows/scope/order changed"
+    },
+    {
+      "defect": "G389:open_scope",
+      "rejection": "backlog exact rows/scope/order changed"
+    },
+    {
+      "defect": "G389:forbidden_regression",
+      "rejection": "backlog exact rows/scope/order changed"
+    },
+    {
+      "defect": "G389:controlling_source",
+      "rejection": "backlog exact rows/scope/order changed"
+    },
+    {
+      "defect": "G389:precedence_rule",
+      "rejection": "backlog exact rows/scope/order changed"
+    },
+    {
+      "defect": "G390:premise_id",
+      "rejection": "backlog exact rows/scope/order changed"
+    },
+    {
+      "defect": "G390:term",
+      "rejection": "backlog exact rows/scope/order changed"
+    },
+    {
+      "defect": "G390:current_status",
+      "rejection": "backlog exact rows/scope/order changed"
+    },
+    {
+      "defect": "G390:epistemic_label",
+      "rejection": "backlog exact rows/scope/order changed"
+    },
+    {
+      "defect": "G390:active_use",
+      "rejection": "backlog exact rows/scope/order changed"
+    },
+    {
+      "defect": "G390:open_scope",
+      "rejection": "backlog exact rows/scope/order changed"
+    },
+    {
+      "defect": "G390:forbidden_regression",
+      "rejection": "backlog exact rows/scope/order changed"
+    },
+    {
+      "defect": "G390:controlling_source",
+      "rejection": "backlog exact rows/scope/order changed"
+    },
+    {
+      "defect": "G390:precedence_rule",
+      "rejection": "backlog exact rows/scope/order changed"
+    },
+    {
+      "defect": "G391:premise_id",
+      "rejection": "backlog exact rows/scope/order changed"
+    },
+    {
+      "defect": "G391:term",
+      "rejection": "backlog exact rows/scope/order changed"
+    },
+    {
+      "defect": "G391:current_status",
+      "rejection": "backlog exact rows/scope/order changed"
+    },
+    {
+      "defect": "G391:epistemic_label",
+      "rejection": "backlog exact rows/scope/order changed"
+    },
+    {
+      "defect": "G391:active_use",
+      "rejection": "backlog exact rows/scope/order changed"
+    },
+    {
+      "defect": "G391:open_scope",
+      "rejection": "backlog exact rows/scope/order changed"
+    },
+    {
+      "defect": "G391:forbidden_regression",
+      "rejection": "backlog exact rows/scope/order changed"
+    },
+    {
+      "defect": "G391:controlling_source",
+      "rejection": "backlog exact rows/scope/order changed"
+    },
+    {
+      "defect": "G391:precedence_rule",
+      "rejection": "backlog exact rows/scope/order changed"
+    },
+    {
+      "defect": "G392:premise_id",
+      "rejection": "backlog exact rows/scope/order changed"
+    },
+    {
+      "defect": "G392:term",
+      "rejection": "backlog exact rows/scope/order changed"
+    },
+    {
+      "defect": "G392:current_status",
+      "rejection": "backlog exact rows/scope/order changed"
+    },
+    {
+      "defect": "G392:epistemic_label",
+      "rejection": "backlog exact rows/scope/order changed"
+    },
+    {
+      "defect": "G392:active_use",
+      "rejection": "backlog exact rows/scope/order changed"
+    },
+    {
+      "defect": "G392:open_scope",
+      "rejection": "backlog exact rows/scope/order changed"
+    },
+    {
+      "defect": "G392:forbidden_regression",
+      "rejection": "backlog exact rows/scope/order changed"
+    },
+    {
+      "defect": "G392:controlling_source",
+      "rejection": "backlog exact rows/scope/order changed"
+    },
+    {
+      "defect": "G392:precedence_rule",
+      "rejection": "backlog exact rows/scope/order changed"
+    },
+    {
+      "defect": "G393:premise_id",
+      "rejection": "backlog exact rows/scope/order changed"
+    },
+    {
+      "defect": "G393:term",
+      "rejection": "backlog exact rows/scope/order changed"
+    },
+    {
+      "defect": "G393:current_status",
+      "rejection": "backlog exact rows/scope/order changed"
+    },
+    {
+      "defect": "G393:epistemic_label",
+      "rejection": "backlog exact rows/scope/order changed"
+    },
+    {
+      "defect": "G393:active_use",
+      "rejection": "backlog exact rows/scope/order changed"
+    },
+    {
+      "defect": "G393:open_scope",
+      "rejection": "backlog exact rows/scope/order changed"
+    },
+    {
+      "defect": "G393:forbidden_regression",
+      "rejection": "backlog exact rows/scope/order changed"
+    },
+    {
+      "defect": "G393:controlling_source",
+      "rejection": "backlog exact rows/scope/order changed"
+    },
+    {
+      "defect": "G393:precedence_rule",
+      "rejection": "backlog exact rows/scope/order changed"
+    },
+    {
+      "defect": "G394:premise_id",
+      "rejection": "backlog exact rows/scope/order changed"
+    },
+    {
+      "defect": "G394:term",
+      "rejection": "backlog exact rows/scope/order changed"
+    },
+    {
+      "defect": "G394:current_status",
+      "rejection": "backlog exact rows/scope/order changed"
+    },
+    {
+      "defect": "G394:epistemic_label",
+      "rejection": "backlog exact rows/scope/order changed"
+    },
+    {
+      "defect": "G394:active_use",
+      "rejection": "backlog exact rows/scope/order changed"
+    },
+    {
+      "defect": "G394:open_scope",
+      "rejection": "backlog exact rows/scope/order changed"
+    },
+    {
+      "defect": "G394:forbidden_regression",
+      "rejection": "backlog exact rows/scope/order changed"
+    },
+    {
+      "defect": "G394:controlling_source",
+      "rejection": "backlog exact rows/scope/order changed"
+    },
+    {
+      "defect": "G394:precedence_rule",
+      "rejection": "backlog exact rows/scope/order changed"
+    },
+    {
+      "defect": "G395:premise_id",
+      "rejection": "backlog exact rows/scope/order changed"
+    },
+    {
+      "defect": "G395:term",
+      "rejection": "backlog exact rows/scope/order changed"
+    },
+    {
+      "defect": "G395:current_status",
+      "rejection": "backlog exact rows/scope/order changed"
+    },
+    {
+      "defect": "G395:epistemic_label",
+      "rejection": "backlog exact rows/scope/order changed"
+    },
+    {
+      "defect": "G395:active_use",
+      "rejection": "backlog exact rows/scope/order changed"
+    },
+    {
+      "defect": "G395:open_scope",
+      "rejection": "backlog exact rows/scope/order changed"
+    },
+    {
+      "defect": "G395:forbidden_regression",
+      "rejection": "backlog exact rows/scope/order changed"
+    },
+    {
+      "defect": "G395:controlling_source",
+      "rejection": "backlog exact rows/scope/order changed"
+    },
+    {
+      "defect": "G395:precedence_rule",
+      "rejection": "backlog exact rows/scope/order changed"
+    },
+    {
+      "defect": "G396:premise_id",
+      "rejection": "backlog exact rows/scope/order changed"
+    },
+    {
+      "defect": "G396:term",
+      "rejection": "backlog exact rows/scope/order changed"
+    },
+    {
+      "defect": "G396:current_status",
+      "rejection": "backlog exact rows/scope/order changed"
+    },
+    {
+      "defect": "G396:epistemic_label",
+      "rejection": "backlog exact rows/scope/order changed"
+    },
+    {
+      "defect": "G396:active_use",
+      "rejection": "backlog exact rows/scope/order changed"
+    },
+    {
+      "defect": "G396:open_scope",
+      "rejection": "backlog exact rows/scope/order changed"
+    },
+    {
+      "defect": "G396:forbidden_regression",
+      "rejection": "backlog exact rows/scope/order changed"
+    },
+    {
+      "defect": "G396:controlling_source",
+      "rejection": "backlog exact rows/scope/order changed"
+    },
+    {
+      "defect": "G396:precedence_rule",
+      "rejection": "backlog exact rows/scope/order changed"
+    },
+    {
+      "defect": "G397:premise_id",
+      "rejection": "backlog exact rows/scope/order changed"
+    },
+    {
+      "defect": "G397:term",
+      "rejection": "backlog exact rows/scope/order changed"
+    },
+    {
+      "defect": "G397:current_status",
+      "rejection": "backlog exact rows/scope/order changed"
+    },
+    {
+      "defect": "G397:epistemic_label",
+      "rejection": "backlog exact rows/scope/order changed"
+    },
+    {
+      "defect": "G397:active_use",
+      "rejection": "backlog exact rows/scope/order changed"
+    },
+    {
+      "defect": "G397:open_scope",
+      "rejection": "backlog exact rows/scope/order changed"
+    },
+    {
+      "defect": "G397:forbidden_regression",
+      "rejection": "backlog exact rows/scope/order changed"
+    },
+    {
+      "defect": "G397:controlling_source",
+      "rejection": "backlog exact rows/scope/order changed"
+    },
+    {
+      "defect": "G397:precedence_rule",
+      "rejection": "backlog exact rows/scope/order changed"
+    },
+    {
+      "defect": "G398:premise_id",
+      "rejection": "backlog exact rows/scope/order changed"
+    },
+    {
+      "defect": "G398:term",
+      "rejection": "backlog exact rows/scope/order changed"
+    },
+    {
+      "defect": "G398:current_status",
+      "rejection": "backlog exact rows/scope/order changed"
+    },
+    {
+      "defect": "G398:epistemic_label",
+      "rejection": "backlog exact rows/scope/order changed"
+    },
+    {
+      "defect": "G398:active_use",
+      "rejection": "backlog exact rows/scope/order changed"
+    },
+    {
+      "defect": "G398:open_scope",
+      "rejection": "backlog exact rows/scope/order changed"
+    },
+    {
+      "defect": "G398:forbidden_regression",
+      "rejection": "backlog exact rows/scope/order changed"
+    },
+    {
+      "defect": "G398:controlling_source",
+      "rejection": "backlog exact rows/scope/order changed"
+    },
+    {
+      "defect": "G398:precedence_rule",
+      "rejection": "backlog exact rows/scope/order changed"
+    },
+    {
+      "defect": "G399:premise_id",
+      "rejection": "backlog exact rows/scope/order changed"
+    },
+    {
+      "defect": "G399:term",
+      "rejection": "backlog exact rows/scope/order changed"
+    },
+    {
+      "defect": "G399:current_status",
+      "rejection": "backlog exact rows/scope/order changed"
+    },
+    {
+      "defect": "G399:epistemic_label",
+      "rejection": "backlog exact rows/scope/order changed"
+    },
+    {
+      "defect": "G399:active_use",
+      "rejection": "backlog exact rows/scope/order changed"
+    },
+    {
+      "defect": "G399:open_scope",
+      "rejection": "backlog exact rows/scope/order changed"
+    },
+    {
+      "defect": "G399:forbidden_regression",
+      "rejection": "backlog exact rows/scope/order changed"
+    },
+    {
+      "defect": "G399:controlling_source",
+      "rejection": "backlog exact rows/scope/order changed"
+    },
+    {
+      "defect": "G399:precedence_rule",
+      "rejection": "backlog exact rows/scope/order changed"
+    },
+    {
+      "defect": "G400:premise_id",
+      "rejection": "backlog exact rows/scope/order changed"
+    },
+    {
+      "defect": "G400:term",
+      "rejection": "backlog exact rows/scope/order changed"
+    },
+    {
+      "defect": "G400:current_status",
+      "rejection": "backlog exact rows/scope/order changed"
+    },
+    {
+      "defect": "G400:epistemic_label",
+      "rejection": "backlog exact rows/scope/order changed"
+    },
+    {
+      "defect": "G400:active_use",
+      "rejection": "backlog exact rows/scope/order changed"
+    },
+    {
+      "defect": "G400:open_scope",
+      "rejection": "backlog exact rows/scope/order changed"
+    },
+    {
+      "defect": "G400:forbidden_regression",
+      "rejection": "backlog exact rows/scope/order changed"
+    },
+    {
+      "defect": "G400:controlling_source",
+      "rejection": "backlog exact rows/scope/order changed"
+    },
+    {
+      "defect": "G400:precedence_rule",
+      "rejection": "backlog exact rows/scope/order changed"
+    },
+    {
+      "defect": "G401:premise_id",
+      "rejection": "backlog exact rows/scope/order changed"
+    },
+    {
+      "defect": "G401:term",
+      "rejection": "backlog exact rows/scope/order changed"
+    },
+    {
+      "defect": "G401:current_status",
+      "rejection": "backlog exact rows/scope/order changed"
+    },
+    {
+      "defect": "G401:epistemic_label",
+      "rejection": "backlog exact rows/scope/order changed"
+    },
+    {
+      "defect": "G401:active_use",
+      "rejection": "backlog exact rows/scope/order changed"
+    },
+    {
+      "defect": "G401:open_scope",
+      "rejection": "backlog exact rows/scope/order changed"
+    },
+    {
+      "defect": "G401:forbidden_regression",
+      "rejection": "backlog exact rows/scope/order changed"
+    },
+    {
+      "defect": "G401:controlling_source",
+      "rejection": "backlog exact rows/scope/order changed"
+    },
+    {
+      "defect": "G401:precedence_rule",
+      "rejection": "backlog exact rows/scope/order changed"
+    },
+    {
+      "defect": "G402:premise_id",
+      "rejection": "backlog exact rows/scope/order changed"
+    },
+    {
+      "defect": "G402:term",
+      "rejection": "backlog exact rows/scope/order changed"
+    },
+    {
+      "defect": "G402:current_status",
+      "rejection": "backlog exact rows/scope/order changed"
+    },
+    {
+      "defect": "G402:epistemic_label",
+      "rejection": "backlog exact rows/scope/order changed"
+    },
+    {
+      "defect": "G402:active_use",
+      "rejection": "backlog exact rows/scope/order changed"
+    },
+    {
+      "defect": "G402:open_scope",
+      "rejection": "backlog exact rows/scope/order changed"
+    },
+    {
+      "defect": "G402:forbidden_regression",
+      "rejection": "backlog exact rows/scope/order changed"
+    },
+    {
+      "defect": "G402:controlling_source",
+      "rejection": "backlog exact rows/scope/order changed"
+    },
+    {
+      "defect": "G402:precedence_rule",
+      "rejection": "backlog exact rows/scope/order changed"
+    },
+    {
+      "defect": "G403:premise_id",
+      "rejection": "backlog exact rows/scope/order changed"
+    },
+    {
+      "defect": "G403:term",
+      "rejection": "backlog exact rows/scope/order changed"
+    },
+    {
+      "defect": "G403:current_status",
+      "rejection": "backlog exact rows/scope/order changed"
+    },
+    {
+      "defect": "G403:epistemic_label",
+      "rejection": "backlog exact rows/scope/order changed"
+    },
+    {
+      "defect": "G403:active_use",
+      "rejection": "backlog exact rows/scope/order changed"
+    },
+    {
+      "defect": "G403:open_scope",
+      "rejection": "backlog exact rows/scope/order changed"
+    },
+    {
+      "defect": "G403:forbidden_regression",
+      "rejection": "backlog exact rows/scope/order changed"
+    },
+    {
+      "defect": "G403:controlling_source",
+      "rejection": "backlog exact rows/scope/order changed"
+    },
+    {
+      "defect": "G403:precedence_rule",
+      "rejection": "backlog exact rows/scope/order changed"
+    },
+    {
+      "defect": "G404:premise_id",
+      "rejection": "backlog exact rows/scope/order changed"
+    },
+    {
+      "defect": "G404:term",
+      "rejection": "backlog exact rows/scope/order changed"
+    },
+    {
+      "defect": "G404:current_status",
+      "rejection": "backlog exact rows/scope/order changed"
+    },
+    {
+      "defect": "G404:epistemic_label",
+      "rejection": "backlog exact rows/scope/order changed"
+    },
+    {
+      "defect": "G404:active_use",
+      "rejection": "backlog exact rows/scope/order changed"
+    },
+    {
+      "defect": "G404:open_scope",
+      "rejection": "backlog exact rows/scope/order changed"
+    },
+    {
+      "defect": "G404:forbidden_regression",
+      "rejection": "backlog exact rows/scope/order changed"
+    },
+    {
+      "defect": "G404:controlling_source",
+      "rejection": "backlog exact rows/scope/order changed"
+    },
+    {
+      "defect": "G404:precedence_rule",
+      "rejection": "backlog exact rows/scope/order changed"
+    },
+    {
+      "defect": "G405:premise_id",
+      "rejection": "backlog exact rows/scope/order changed"
+    },
+    {
+      "defect": "G405:term",
+      "rejection": "backlog exact rows/scope/order changed"
+    },
+    {
+      "defect": "G405:current_status",
+      "rejection": "backlog exact rows/scope/order changed"
+    },
+    {
+      "defect": "G405:epistemic_label",
+      "rejection": "backlog exact rows/scope/order changed"
+    },
+    {
+      "defect": "G405:active_use",
+      "rejection": "backlog exact rows/scope/order changed"
+    },
+    {
+      "defect": "G405:open_scope",
+      "rejection": "backlog exact rows/scope/order changed"
+    },
+    {
+      "defect": "G405:forbidden_regression",
+      "rejection": "backlog exact rows/scope/order changed"
+    },
+    {
+      "defect": "G405:controlling_source",
+      "rejection": "backlog exact rows/scope/order changed"
+    },
+    {
+      "defect": "G405:precedence_rule",
+      "rejection": "backlog exact rows/scope/order changed"
+    },
+    {
+      "defect": "G406:premise_id",
+      "rejection": "backlog exact rows/scope/order changed"
+    },
+    {
+      "defect": "G406:term",
+      "rejection": "backlog exact rows/scope/order changed"
+    },
+    {
+      "defect": "G406:current_status",
+      "rejection": "backlog exact rows/scope/order changed"
+    },
+    {
+      "defect": "G406:epistemic_label",
+      "rejection": "backlog exact rows/scope/order changed"
+    },
+    {
+      "defect": "G406:active_use",
+      "rejection": "backlog exact rows/scope/order changed"
+    },
+    {
+      "defect": "G406:open_scope",
+      "rejection": "backlog exact rows/scope/order changed"
+    },
+    {
+      "defect": "G406:forbidden_regression",
+      "rejection": "backlog exact rows/scope/order changed"
+    },
+    {
+      "defect": "G406:controlling_source",
+      "rejection": "backlog exact rows/scope/order changed"
+    },
+    {
+      "defect": "G406:precedence_rule",
+      "rejection": "backlog exact rows/scope/order changed"
+    },
+    {
+      "defect": "G407:premise_id",
+      "rejection": "backlog exact rows/scope/order changed"
+    },
+    {
+      "defect": "G407:term",
+      "rejection": "backlog exact rows/scope/order changed"
+    },
+    {
+      "defect": "G407:current_status",
+      "rejection": "backlog exact rows/scope/order changed"
+    },
+    {
+      "defect": "G407:epistemic_label",
+      "rejection": "backlog exact rows/scope/order changed"
+    },
+    {
+      "defect": "G407:active_use",
+      "rejection": "backlog exact rows/scope/order changed"
+    },
+    {
+      "defect": "G407:open_scope",
+      "rejection": "backlog exact rows/scope/order changed"
+    },
+    {
+      "defect": "G407:forbidden_regression",
+      "rejection": "backlog exact rows/scope/order changed"
+    },
+    {
+      "defect": "G407:controlling_source",
+      "rejection": "backlog exact rows/scope/order changed"
+    },
+    {
+      "defect": "G407:precedence_rule",
+      "rejection": "backlog exact rows/scope/order changed"
+    },
+    {
+      "defect": "G408:premise_id",
+      "rejection": "backlog exact rows/scope/order changed"
+    },
+    {
+      "defect": "G408:term",
+      "rejection": "backlog exact rows/scope/order changed"
+    },
+    {
+      "defect": "G408:current_status",
+      "rejection": "backlog exact rows/scope/order changed"
+    },
+    {
+      "defect": "G408:epistemic_label",
+      "rejection": "backlog exact rows/scope/order changed"
+    },
+    {
+      "defect": "G408:active_use",
+      "rejection": "backlog exact rows/scope/order changed"
+    },
+    {
+      "defect": "G408:open_scope",
+      "rejection": "backlog exact rows/scope/order changed"
+    },
+    {
+      "defect": "G408:forbidden_regression",
+      "rejection": "backlog exact rows/scope/order changed"
+    },
+    {
+      "defect": "G408:controlling_source",
+      "rejection": "backlog exact rows/scope/order changed"
+    },
+    {
+      "defect": "G408:precedence_rule",
+      "rejection": "backlog exact rows/scope/order changed"
+    },
+    {
+      "defect": "G409:premise_id",
+      "rejection": "backlog exact rows/scope/order changed"
+    },
+    {
+      "defect": "G409:term",
+      "rejection": "backlog exact rows/scope/order changed"
+    },
+    {
+      "defect": "G409:current_status",
+      "rejection": "backlog exact rows/scope/order changed"
+    },
+    {
+      "defect": "G409:epistemic_label",
+      "rejection": "backlog exact rows/scope/order changed"
+    },
+    {
+      "defect": "G409:active_use",
+      "rejection": "backlog exact rows/scope/order changed"
+    },
+    {
+      "defect": "G409:open_scope",
+      "rejection": "backlog exact rows/scope/order changed"
+    },
+    {
+      "defect": "G409:forbidden_regression",
+      "rejection": "backlog exact rows/scope/order changed"
+    },
+    {
+      "defect": "G409:controlling_source",
+      "rejection": "backlog exact rows/scope/order changed"
+    },
+    {
+      "defect": "G409:precedence_rule",
+      "rejection": "backlog exact rows/scope/order changed"
+    },
+    {
+      "defect": "G410:premise_id",
+      "rejection": "backlog exact rows/scope/order changed"
+    },
+    {
+      "defect": "G410:term",
+      "rejection": "backlog exact rows/scope/order changed"
+    },
+    {
+      "defect": "G410:current_status",
+      "rejection": "backlog exact rows/scope/order changed"
+    },
+    {
+      "defect": "G410:epistemic_label",
+      "rejection": "backlog exact rows/scope/order changed"
+    },
+    {
+      "defect": "G410:active_use",
+      "rejection": "backlog exact rows/scope/order changed"
+    },
+    {
+      "defect": "G410:open_scope",
+      "rejection": "backlog exact rows/scope/order changed"
+    },
+    {
+      "defect": "G410:forbidden_regression",
+      "rejection": "backlog exact rows/scope/order changed"
+    },
+    {
+      "defect": "G410:controlling_source",
+      "rejection": "backlog exact rows/scope/order changed"
+    },
+    {
+      "defect": "G410:precedence_rule",
+      "rejection": "backlog exact rows/scope/order changed"
+    },
+    {
+      "defect": "G411:premise_id",
+      "rejection": "backlog exact rows/scope/order changed"
+    },
+    {
+      "defect": "G411:term",
+      "rejection": "backlog exact rows/scope/order changed"
+    },
+    {
+      "defect": "G411:current_status",
+      "rejection": "backlog exact rows/scope/order changed"
+    },
+    {
+      "defect": "G411:epistemic_label",
+      "rejection": "backlog exact rows/scope/order changed"
+    },
+    {
+      "defect": "G411:active_use",
+      "rejection": "backlog exact rows/scope/order changed"
+    },
+    {
+      "defect": "G411:open_scope",
+      "rejection": "backlog exact rows/scope/order changed"
+    },
+    {
+      "defect": "G411:forbidden_regression",
+      "rejection": "backlog exact rows/scope/order changed"
+    },
+    {
+      "defect": "G411:controlling_source",
+      "rejection": "backlog exact rows/scope/order changed"
+    },
+    {
+      "defect": "G411:precedence_rule",
+      "rejection": "backlog exact rows/scope/order changed"
+    },
+    {
+      "defect": "G412:premise_id",
+      "rejection": "backlog exact rows/scope/order changed"
+    },
+    {
+      "defect": "G412:term",
+      "rejection": "backlog exact rows/scope/order changed"
+    },
+    {
+      "defect": "G412:current_status",
+      "rejection": "backlog exact rows/scope/order changed"
+    },
+    {
+      "defect": "G412:epistemic_label",
+      "rejection": "backlog exact rows/scope/order changed"
+    },
+    {
+      "defect": "G412:active_use",
+      "rejection": "backlog exact rows/scope/order changed"
+    },
+    {
+      "defect": "G412:open_scope",
+      "rejection": "backlog exact rows/scope/order changed"
+    },
+    {
+      "defect": "G412:forbidden_regression",
+      "rejection": "backlog exact rows/scope/order changed"
+    },
+    {
+      "defect": "G412:controlling_source",
+      "rejection": "backlog exact rows/scope/order changed"
+    },
+    {
+      "defect": "G412:precedence_rule",
+      "rejection": "backlog exact rows/scope/order changed"
+    },
+    {
+      "defect": "original:G381",
+      "rejection": "backlog changed an original365 registry byte"
+    },
+    {
+      "defect": "original:G382",
+      "rejection": "backlog changed an original365 registry byte"
+    },
+    {
+      "defect": "original:G379",
+      "rejection": "backlog changed an original365 registry byte"
+    },
+    {
+      "defect": "original:G380",
+      "rejection": "backlog changed an original365 registry byte"
+    },
+    {
+      "defect": "original:G376",
+      "rejection": "backlog changed an original365 registry byte"
+    },
+    {
+      "defect": "original:G377",
+      "rejection": "backlog changed an original365 registry byte"
+    },
+    {
+      "defect": "original:G378",
+      "rejection": "backlog changed an original365 registry byte"
+    },
+    {
+      "defect": "original:G375",
+      "rejection": "backlog changed an original365 registry byte"
+    },
+    {
+      "defect": "original:G374",
+      "rejection": "backlog changed an original365 registry byte"
+    },
+    {
+      "defect": "original:G373",
+      "rejection": "backlog changed an original365 registry byte"
+    },
+    {
+      "defect": "original:G372",
+      "rejection": "backlog changed an original365 registry byte"
+    },
+    {
+      "defect": "original:G371",
+      "rejection": "backlog changed an original365 registry byte"
+    },
+    {
+      "defect": "original:G370",
+      "rejection": "backlog changed an original365 registry byte"
+    },
+    {
+      "defect": "original:G369",
+      "rejection": "backlog changed an original365 registry byte"
+    },
+    {
+      "defect": "original:G368",
+      "rejection": "backlog changed an original365 registry byte"
+    },
+    {
+      "defect": "original:G367",
+      "rejection": "backlog changed an original365 registry byte"
+    },
+    {
+      "defect": "original:G366",
+      "rejection": "backlog changed an original365 registry byte"
+    },
+    {
+      "defect": "original:G365",
+      "rejection": "backlog changed an original365 registry byte"
+    },
+    {
+      "defect": "original:G364",
+      "rejection": "backlog changed an original365 registry byte"
+    },
+    {
+      "defect": "original:G363",
+      "rejection": "backlog changed an original365 registry byte"
+    },
+    {
+      "defect": "original:G362",
+      "rejection": "backlog changed an original365 registry byte"
+    },
+    {
+      "defect": "original:G361",
+      "rejection": "backlog changed an original365 registry byte"
+    },
+    {
+      "defect": "original:G360",
+      "rejection": "backlog changed an original365 registry byte"
+    },
+    {
+      "defect": "original:G359",
+      "rejection": "backlog changed an original365 registry byte"
+    },
+    {
+      "defect": "original:G358",
+      "rejection": "backlog changed an original365 registry byte"
+    },
+    {
+      "defect": "original:G357",
+      "rejection": "backlog changed an original365 registry byte"
+    },
+    {
+      "defect": "original:G356",
+      "rejection": "backlog changed an original365 registry byte"
+    },
+    {
+      "defect": "original:G355",
+      "rejection": "backlog changed an original365 registry byte"
+    },
+    {
+      "defect": "original:G354",
+      "rejection": "backlog changed an original365 registry byte"
+    },
+    {
+      "defect": "original:G353",
+      "rejection": "backlog changed an original365 registry byte"
+    },
+    {
+      "defect": "original:G352",
+      "rejection": "backlog changed an original365 registry byte"
+    },
+    {
+      "defect": "original:G351",
+      "rejection": "backlog changed an original365 registry byte"
+    },
+    {
+      "defect": "original:G350",
+      "rejection": "backlog changed an original365 registry byte"
+    },
+    {
+      "defect": "original:G349",
+      "rejection": "backlog changed an original365 registry byte"
+    },
+    {
+      "defect": "original:G348",
+      "rejection": "backlog changed an original365 registry byte"
+    },
+    {
+      "defect": "original:G347",
+      "rejection": "backlog changed an original365 registry byte"
+    },
+    {
+      "defect": "original:G346",
+      "rejection": "backlog changed an original365 registry byte"
+    },
+    {
+      "defect": "original:G345",
+      "rejection": "backlog changed an original365 registry byte"
+    },
+    {
+      "defect": "original:G344",
+      "rejection": "backlog changed an original365 registry byte"
+    },
+    {
+      "defect": "original:G342",
+      "rejection": "backlog changed an original365 registry byte"
+    },
+    {
+      "defect": "original:G343",
+      "rejection": "backlog changed an original365 registry byte"
+    },
+    {
+      "defect": "original:G341",
+      "rejection": "backlog changed an original365 registry byte"
+    },
+    {
+      "defect": "original:G340",
+      "rejection": "backlog changed an original365 registry byte"
+    },
+    {
+      "defect": "original:G339",
+      "rejection": "backlog changed an original365 registry byte"
+    },
+    {
+      "defect": "original:G338",
+      "rejection": "backlog changed an original365 registry byte"
+    },
+    {
+      "defect": "original:G337",
+      "rejection": "backlog changed an original365 registry byte"
+    },
+    {
+      "defect": "original:G336",
+      "rejection": "backlog changed an original365 registry byte"
+    },
+    {
+      "defect": "original:G335",
+      "rejection": "backlog changed an original365 registry byte"
+    },
+    {
+      "defect": "original:G334",
+      "rejection": "backlog changed an original365 registry byte"
+    },
+    {
+      "defect": "original:G333",
+      "rejection": "backlog changed an original365 registry byte"
+    },
+    {
+      "defect": "original:G332",
+      "rejection": "backlog changed an original365 registry byte"
+    },
+    {
+      "defect": "original:G331",
+      "rejection": "backlog changed an original365 registry byte"
+    },
+    {
+      "defect": "original:G330",
+      "rejection": "backlog changed an original365 registry byte"
+    },
+    {
+      "defect": "original:G329",
+      "rejection": "backlog changed an original365 registry byte"
+    },
+    {
+      "defect": "original:G328",
+      "rejection": "backlog changed an original365 registry byte"
+    },
+    {
+      "defect": "original:G327",
+      "rejection": "backlog changed an original365 registry byte"
+    },
+    {
+      "defect": "original:G326",
+      "rejection": "backlog changed an original365 registry byte"
+    },
+    {
+      "defect": "original:G325",
+      "rejection": "backlog changed an original365 registry byte"
+    },
+    {
+      "defect": "original:G324",
+      "rejection": "backlog changed an original365 registry byte"
+    },
+    {
+      "defect": "original:G323",
+      "rejection": "backlog changed an original365 registry byte"
+    },
+    {
+      "defect": "original:G322",
+      "rejection": "backlog changed an original365 registry byte"
+    },
+    {
+      "defect": "original:G321",
+      "rejection": "backlog changed an original365 registry byte"
+    },
+    {
+      "defect": "original:G320",
+      "rejection": "backlog changed an original365 registry byte"
+    },
+    {
+      "defect": "original:G319",
+      "rejection": "backlog changed an original365 registry byte"
+    },
+    {
+      "defect": "original:G318",
+      "rejection": "backlog changed an original365 registry byte"
+    },
+    {
+      "defect": "original:G317",
+      "rejection": "backlog changed an original365 registry byte"
+    },
+    {
+      "defect": "original:G316",
+      "rejection": "backlog changed an original365 registry byte"
+    },
+    {
+      "defect": "original:G315",
+      "rejection": "backlog changed an original365 registry byte"
+    },
+    {
+      "defect": "original:G314",
+      "rejection": "backlog changed an original365 registry byte"
+    },
+    {
+      "defect": "original:G313",
+      "rejection": "backlog changed an original365 registry byte"
+    },
+    {
+      "defect": "original:G312",
+      "rejection": "backlog changed an original365 registry byte"
+    },
+    {
+      "defect": "original:G311",
+      "rejection": "backlog changed an original365 registry byte"
+    },
+    {
+      "defect": "original:G310",
+      "rejection": "backlog changed an original365 registry byte"
+    },
+    {
+      "defect": "original:G309",
+      "rejection": "backlog changed an original365 registry byte"
+    },
+    {
+      "defect": "original:G308",
+      "rejection": "backlog changed an original365 registry byte"
+    },
+    {
+      "defect": "original:G307",
+      "rejection": "backlog changed an original365 registry byte"
+    },
+    {
+      "defect": "original:G306",
+      "rejection": "backlog changed an original365 registry byte"
+    },
+    {
+      "defect": "original:G305",
+      "rejection": "backlog changed an original365 registry byte"
+    },
+    {
+      "defect": "original:G304",
+      "rejection": "backlog changed an original365 registry byte"
+    },
+    {
+      "defect": "original:G303",
+      "rejection": "backlog changed an original365 registry byte"
+    },
+    {
+      "defect": "original:G301",
+      "rejection": "backlog changed an original365 registry byte"
+    },
+    {
+      "defect": "original:G300",
+      "rejection": "backlog changed an original365 registry byte"
+    },
+    {
+      "defect": "original:G299",
+      "rejection": "backlog changed an original365 registry byte"
+    },
+    {
+      "defect": "original:G298",
+      "rejection": "backlog changed an original365 registry byte"
+    },
+    {
+      "defect": "original:G297",
+      "rejection": "backlog changed an original365 registry byte"
+    },
+    {
+      "defect": "original:G296",
+      "rejection": "backlog changed an original365 registry byte"
+    },
+    {
+      "defect": "original:G295",
+      "rejection": "backlog changed an original365 registry byte"
+    },
+    {
+      "defect": "original:W6",
+      "rejection": "backlog changed an original365 registry byte"
+    },
+    {
+      "defect": "original:G294",
+      "rejection": "backlog changed an original365 registry byte"
+    },
+    {
+      "defect": "original:G293",
+      "rejection": "backlog changed an original365 registry byte"
+    },
+    {
+      "defect": "original:G292",
+      "rejection": "backlog changed an original365 registry byte"
+    },
+    {
+      "defect": "original:G290",
+      "rejection": "backlog changed an original365 registry byte"
+    },
+    {
+      "defect": "original:G289",
+      "rejection": "backlog changed an original365 registry byte"
+    },
+    {
+      "defect": "original:G288",
+      "rejection": "backlog changed an original365 registry byte"
+    },
+    {
+      "defect": "original:G287",
+      "rejection": "backlog changed an original365 registry byte"
+    },
+    {
+      "defect": "original:G286",
+      "rejection": "backlog changed an original365 registry byte"
+    },
+    {
+      "defect": "original:G285",
+      "rejection": "backlog changed an original365 registry byte"
+    },
+    {
+      "defect": "original:G284",
+      "rejection": "backlog changed an original365 registry byte"
+    },
+    {
+      "defect": "original:G283",
+      "rejection": "backlog changed an original365 registry byte"
+    },
+    {
+      "defect": "original:G282",
+      "rejection": "backlog changed an original365 registry byte"
+    },
+    {
+      "defect": "original:G281",
+      "rejection": "backlog changed an original365 registry byte"
+    },
+    {
+      "defect": "original:G280",
+      "rejection": "backlog changed an original365 registry byte"
+    },
+    {
+      "defect": "original:G279",
+      "rejection": "backlog changed an original365 registry byte"
+    },
+    {
+      "defect": "original:G278",
+      "rejection": "backlog changed an original365 registry byte"
+    },
+    {
+      "defect": "original:G277",
+      "rejection": "backlog changed an original365 registry byte"
+    },
+    {
+      "defect": "original:G276",
+      "rejection": "backlog changed an original365 registry byte"
+    },
+    {
+      "defect": "original:G275",
+      "rejection": "backlog changed an original365 registry byte"
+    },
+    {
+      "defect": "original:W5",
+      "rejection": "backlog changed an original365 registry byte"
+    },
+    {
+      "defect": "original:G274",
+      "rejection": "backlog changed an original365 registry byte"
+    },
+    {
+      "defect": "original:G273",
+      "rejection": "backlog changed an original365 registry byte"
+    },
+    {
+      "defect": "original:G272",
+      "rejection": "backlog changed an original365 registry byte"
+    },
+    {
+      "defect": "original:G271",
+      "rejection": "backlog changed an original365 registry byte"
+    },
+    {
+      "defect": "original:G270",
+      "rejection": "backlog changed an original365 registry byte"
+    },
+    {
+      "defect": "original:G269",
+      "rejection": "backlog changed an original365 registry byte"
+    },
+    {
+      "defect": "original:G268",
+      "rejection": "backlog changed an original365 registry byte"
+    },
+    {
+      "defect": "original:G267",
+      "rejection": "backlog changed an original365 registry byte"
+    },
+    {
+      "defect": "original:G266",
+      "rejection": "backlog changed an original365 registry byte"
+    },
+    {
+      "defect": "original:G265",
+      "rejection": "backlog changed an original365 registry byte"
+    },
+    {
+      "defect": "original:G264",
+      "rejection": "backlog changed an original365 registry byte"
+    },
+    {
+      "defect": "original:G263",
+      "rejection": "backlog changed an original365 registry byte"
+    },
+    {
+      "defect": "original:G262",
+      "rejection": "backlog changed an original365 registry byte"
+    },
+    {
+      "defect": "original:G261",
+      "rejection": "backlog changed an original365 registry byte"
+    },
+    {
+      "defect": "original:G260",
+      "rejection": "backlog changed an original365 registry byte"
+    },
+    {
+      "defect": "original:G259",
+      "rejection": "backlog changed an original365 registry byte"
+    },
+    {
+      "defect": "original:G258",
+      "rejection": "backlog changed an original365 registry byte"
+    },
+    {
+      "defect": "original:G257",
+      "rejection": "backlog changed an original365 registry byte"
+    },
+    {
+      "defect": "original:G256",
+      "rejection": "backlog changed an original365 registry byte"
+    },
+    {
+      "defect": "original:G255",
+      "rejection": "backlog changed an original365 registry byte"
+    },
+    {
+      "defect": "original:G254",
+      "rejection": "backlog changed an original365 registry byte"
+    },
+    {
+      "defect": "original:G253",
+      "rejection": "backlog changed an original365 registry byte"
+    },
+    {
+      "defect": "original:G252",
+      "rejection": "backlog changed an original365 registry byte"
+    },
+    {
+      "defect": "original:G251",
+      "rejection": "backlog changed an original365 registry byte"
+    },
+    {
+      "defect": "original:G250",
+      "rejection": "backlog changed an original365 registry byte"
+    },
+    {
+      "defect": "original:G249",
+      "rejection": "backlog changed an original365 registry byte"
+    },
+    {
+      "defect": "original:G248",
+      "rejection": "backlog changed an original365 registry byte"
+    },
+    {
+      "defect": "original:G247",
+      "rejection": "backlog changed an original365 registry byte"
+    },
+    {
+      "defect": "original:G246",
+      "rejection": "backlog changed an original365 registry byte"
+    },
+    {
+      "defect": "original:G245",
+      "rejection": "backlog changed an original365 registry byte"
+    },
+    {
+      "defect": "original:G244",
+      "rejection": "backlog changed an original365 registry byte"
+    },
+    {
+      "defect": "original:G241",
+      "rejection": "backlog changed an original365 registry byte"
+    },
+    {
+      "defect": "original:G242",
+      "rejection": "backlog changed an original365 registry byte"
+    },
+    {
+      "defect": "original:G243",
+      "rejection": "backlog changed an original365 registry byte"
+    },
+    {
+      "defect": "original:G240",
+      "rejection": "backlog changed an original365 registry byte"
+    },
+    {
+      "defect": "original:G239",
+      "rejection": "backlog changed an original365 registry byte"
+    },
+    {
+      "defect": "original:G238",
+      "rejection": "backlog changed an original365 registry byte"
+    },
+    {
+      "defect": "original:G237",
+      "rejection": "backlog changed an original365 registry byte"
+    },
+    {
+      "defect": "original:G236",
+      "rejection": "backlog changed an original365 registry byte"
+    },
+    {
+      "defect": "original:G235",
+      "rejection": "backlog changed an original365 registry byte"
+    },
+    {
+      "defect": "original:G234",
+      "rejection": "backlog changed an original365 registry byte"
+    },
+    {
+      "defect": "original:G233",
+      "rejection": "backlog changed an original365 registry byte"
+    },
+    {
+      "defect": "original:G231",
+      "rejection": "backlog changed an original365 registry byte"
+    },
+    {
+      "defect": "original:G230",
+      "rejection": "backlog changed an original365 registry byte"
+    },
+    {
+      "defect": "original:G229",
+      "rejection": "backlog changed an original365 registry byte"
+    },
+    {
+      "defect": "original:G228",
+      "rejection": "backlog changed an original365 registry byte"
+    },
+    {
+      "defect": "original:G227",
+      "rejection": "backlog changed an original365 registry byte"
+    },
+    {
+      "defect": "original:G226",
+      "rejection": "backlog changed an original365 registry byte"
+    },
+    {
+      "defect": "original:G225",
+      "rejection": "backlog changed an original365 registry byte"
+    },
+    {
+      "defect": "original:G224",
+      "rejection": "backlog changed an original365 registry byte"
+    },
+    {
+      "defect": "original:G223",
+      "rejection": "backlog changed an original365 registry byte"
+    },
+    {
+      "defect": "original:G221",
+      "rejection": "backlog changed an original365 registry byte"
+    },
+    {
+      "defect": "original:G222",
+      "rejection": "backlog changed an original365 registry byte"
+    },
+    {
+      "defect": "original:G220",
+      "rejection": "backlog changed an original365 registry byte"
+    },
+    {
+      "defect": "original:G219",
+      "rejection": "backlog changed an original365 registry byte"
+    },
+    {
+      "defect": "original:G216",
+      "rejection": "backlog changed an original365 registry byte"
+    },
+    {
+      "defect": "original:G217",
+      "rejection": "backlog changed an original365 registry byte"
+    },
+    {
+      "defect": "original:G218",
+      "rejection": "backlog changed an original365 registry byte"
+    },
+    {
+      "defect": "original:G215",
+      "rejection": "backlog changed an original365 registry byte"
+    },
+    {
+      "defect": "original:G214",
+      "rejection": "backlog changed an original365 registry byte"
+    },
+    {
+      "defect": "original:G213",
+      "rejection": "backlog changed an original365 registry byte"
+    },
+    {
+      "defect": "original:G212",
+      "rejection": "backlog changed an original365 registry byte"
+    },
+    {
+      "defect": "original:G211",
+      "rejection": "backlog changed an original365 registry byte"
+    },
+    {
+      "defect": "original:G210",
+      "rejection": "backlog changed an original365 registry byte"
+    },
+    {
+      "defect": "original:G209",
+      "rejection": "backlog changed an original365 registry byte"
+    },
+    {
+      "defect": "original:G208",
+      "rejection": "backlog changed an original365 registry byte"
+    },
+    {
+      "defect": "original:G207",
+      "rejection": "backlog changed an original365 registry byte"
+    },
+    {
+      "defect": "original:G206",
+      "rejection": "backlog changed an original365 registry byte"
+    },
+    {
+      "defect": "original:G195",
+      "rejection": "backlog changed an original365 registry byte"
+    },
+    {
+      "defect": "original:G194",
+      "rejection": "backlog changed an original365 registry byte"
+    },
+    {
+      "defect": "original:G193",
+      "rejection": "backlog changed an original365 registry byte"
+    },
+    {
+      "defect": "original:G192",
+      "rejection": "backlog changed an original365 registry byte"
+    },
+    {
+      "defect": "original:G191",
+      "rejection": "backlog changed an original365 registry byte"
+    },
+    {
+      "defect": "original:G190",
+      "rejection": "backlog changed an original365 registry byte"
+    },
+    {
+      "defect": "original:G189",
+      "rejection": "backlog changed an original365 registry byte"
+    },
+    {
+      "defect": "original:G188",
+      "rejection": "backlog changed an original365 registry byte"
+    },
+    {
+      "defect": "original:G187",
+      "rejection": "backlog changed an original365 registry byte"
+    },
+    {
+      "defect": "original:G186",
+      "rejection": "backlog changed an original365 registry byte"
+    },
+    {
+      "defect": "original:G184",
+      "rejection": "backlog changed an original365 registry byte"
+    },
+    {
+      "defect": "original:G183",
+      "rejection": "backlog changed an original365 registry byte"
+    },
+    {
+      "defect": "original:G182",
+      "rejection": "backlog changed an original365 registry byte"
+    },
+    {
+      "defect": "original:G180",
+      "rejection": "backlog changed an original365 registry byte"
+    },
+    {
+      "defect": "original:G181",
+      "rejection": "backlog changed an original365 registry byte"
+    },
+    {
+      "defect": "original:G179",
+      "rejection": "backlog changed an original365 registry byte"
+    },
+    {
+      "defect": "original:G178",
+      "rejection": "backlog changed an original365 registry byte"
+    },
+    {
+      "defect": "original:G177",
+      "rejection": "backlog changed an original365 registry byte"
+    },
+    {
+      "defect": "original:G176",
+      "rejection": "backlog changed an original365 registry byte"
+    },
+    {
+      "defect": "original:G175",
+      "rejection": "backlog changed an original365 registry byte"
+    },
+    {
+      "defect": "original:G174",
+      "rejection": "backlog changed an original365 registry byte"
+    },
+    {
+      "defect": "original:G173",
+      "rejection": "backlog changed an original365 registry byte"
+    },
+    {
+      "defect": "original:G172",
+      "rejection": "backlog changed an original365 registry byte"
+    },
+    {
+      "defect": "original:G171",
+      "rejection": "backlog changed an original365 registry byte"
+    },
+    {
+      "defect": "original:G170",
+      "rejection": "backlog changed an original365 registry byte"
+    },
+    {
+      "defect": "original:G169",
+      "rejection": "backlog changed an original365 registry byte"
+    },
+    {
+      "defect": "original:G168",
+      "rejection": "backlog changed an original365 registry byte"
+    },
+    {
+      "defect": "original:G167",
+      "rejection": "backlog changed an original365 registry byte"
+    },
+    {
+      "defect": "original:G166",
+      "rejection": "backlog changed an original365 registry byte"
+    },
+    {
+      "defect": "original:G165",
+      "rejection": "backlog changed an original365 registry byte"
+    },
+    {
+      "defect": "original:G163",
+      "rejection": "backlog changed an original365 registry byte"
+    },
+    {
+      "defect": "original:G162",
+      "rejection": "backlog changed an original365 registry byte"
+    },
+    {
+      "defect": "original:G161",
+      "rejection": "backlog changed an original365 registry byte"
+    },
+    {
+      "defect": "original:G01",
+      "rejection": "backlog changed an original365 registry byte"
+    },
+    {
+      "defect": "original:G02",
+      "rejection": "backlog changed an original365 registry byte"
+    },
+    {
+      "defect": "original:G03",
+      "rejection": "backlog changed an original365 registry byte"
+    },
+    {
+      "defect": "original:G04",
+      "rejection": "backlog changed an original365 registry byte"
+    },
+    {
+      "defect": "original:G05",
+      "rejection": "backlog changed an original365 registry byte"
+    },
+    {
+      "defect": "original:G06",
+      "rejection": "backlog changed an original365 registry byte"
+    },
+    {
+      "defect": "original:G07",
+      "rejection": "backlog changed an original365 registry byte"
+    },
+    {
+      "defect": "original:G08",
+      "rejection": "backlog changed an original365 registry byte"
+    },
+    {
+      "defect": "original:G09",
+      "rejection": "backlog changed an original365 registry byte"
+    },
+    {
+      "defect": "original:G10",
+      "rejection": "backlog changed an original365 registry byte"
+    },
+    {
+      "defect": "original:G11",
+      "rejection": "backlog changed an original365 registry byte"
+    },
+    {
+      "defect": "original:G12",
+      "rejection": "backlog changed an original365 registry byte"
+    },
+    {
+      "defect": "original:G13",
+      "rejection": "backlog changed an original365 registry byte"
+    },
+    {
+      "defect": "original:G14",
+      "rejection": "backlog changed an original365 registry byte"
+    },
+    {
+      "defect": "original:G15",
+      "rejection": "backlog changed an original365 registry byte"
+    },
+    {
+      "defect": "original:G16",
+      "rejection": "backlog changed an original365 registry byte"
+    },
+    {
+      "defect": "original:G17",
+      "rejection": "backlog changed an original365 registry byte"
+    },
+    {
+      "defect": "original:G18",
+      "rejection": "backlog changed an original365 registry byte"
+    },
+    {
+      "defect": "original:G19",
+      "rejection": "backlog changed an original365 registry byte"
+    },
+    {
+      "defect": "original:G20",
+      "rejection": "backlog changed an original365 registry byte"
+    },
+    {
+      "defect": "original:G21",
+      "rejection": "backlog changed an original365 registry byte"
+    },
+    {
+      "defect": "original:G22",
+      "rejection": "backlog changed an original365 registry byte"
+    },
+    {
+      "defect": "original:G23",
+      "rejection": "backlog changed an original365 registry byte"
+    },
+    {
+      "defect": "original:G24",
+      "rejection": "backlog changed an original365 registry byte"
+    },
+    {
+      "defect": "original:G25",
+      "rejection": "backlog changed an original365 registry byte"
+    },
+    {
+      "defect": "original:G26",
+      "rejection": "backlog changed an original365 registry byte"
+    },
+    {
+      "defect": "original:G27",
+      "rejection": "backlog changed an original365 registry byte"
+    },
+    {
+      "defect": "original:G28",
+      "rejection": "backlog changed an original365 registry byte"
+    },
+    {
+      "defect": "original:G29",
+      "rejection": "backlog changed an original365 registry byte"
+    },
+    {
+      "defect": "original:G30",
+      "rejection": "backlog changed an original365 registry byte"
+    },
+    {
+      "defect": "original:G31",
+      "rejection": "backlog changed an original365 registry byte"
+    },
+    {
+      "defect": "original:G32",
+      "rejection": "backlog changed an original365 registry byte"
+    },
+    {
+      "defect": "original:G33",
+      "rejection": "backlog changed an original365 registry byte"
+    },
+    {
+      "defect": "original:G34",
+      "rejection": "backlog changed an original365 registry byte"
+    },
+    {
+      "defect": "original:G35",
+      "rejection": "backlog changed an original365 registry byte"
+    },
+    {
+      "defect": "original:G36",
+      "rejection": "backlog changed an original365 registry byte"
+    },
+    {
+      "defect": "original:G37",
+      "rejection": "backlog changed an original365 registry byte"
+    },
+    {
+      "defect": "original:G38",
+      "rejection": "backlog changed an original365 registry byte"
+    },
+    {
+      "defect": "original:G39",
+      "rejection": "backlog changed an original365 registry byte"
+    },
+    {
+      "defect": "original:G40",
+      "rejection": "backlog changed an original365 registry byte"
+    },
+    {
+      "defect": "original:G41",
+      "rejection": "backlog changed an original365 registry byte"
+    },
+    {
+      "defect": "original:G42",
+      "rejection": "backlog changed an original365 registry byte"
+    },
+    {
+      "defect": "original:G43",
+      "rejection": "backlog changed an original365 registry byte"
+    },
+    {
+      "defect": "original:G44",
+      "rejection": "backlog changed an original365 registry byte"
+    },
+    {
+      "defect": "original:G45",
+      "rejection": "backlog changed an original365 registry byte"
+    },
+    {
+      "defect": "original:G46",
+      "rejection": "backlog changed an original365 registry byte"
+    },
+    {
+      "defect": "original:G47",
+      "rejection": "backlog changed an original365 registry byte"
+    },
+    {
+      "defect": "original:G48",
+      "rejection": "backlog changed an original365 registry byte"
+    },
+    {
+      "defect": "original:G49",
+      "rejection": "backlog changed an original365 registry byte"
+    },
+    {
+      "defect": "original:G50",
+      "rejection": "backlog changed an original365 registry byte"
+    },
+    {
+      "defect": "original:G51",
+      "rejection": "backlog changed an original365 registry byte"
+    },
+    {
+      "defect": "original:G52",
+      "rejection": "backlog changed an original365 registry byte"
+    },
+    {
+      "defect": "original:G53",
+      "rejection": "backlog changed an original365 registry byte"
+    },
+    {
+      "defect": "original:G54",
+      "rejection": "backlog changed an original365 registry byte"
+    },
+    {
+      "defect": "original:G55",
+      "rejection": "backlog changed an original365 registry byte"
+    },
+    {
+      "defect": "original:G56",
+      "rejection": "backlog changed an original365 registry byte"
+    },
+    {
+      "defect": "original:G57",
+      "rejection": "backlog changed an original365 registry byte"
+    },
+    {
+      "defect": "original:G58",
+      "rejection": "backlog changed an original365 registry byte"
+    },
+    {
+      "defect": "original:G59",
+      "rejection": "backlog changed an original365 registry byte"
+    },
+    {
+      "defect": "original:G60",
+      "rejection": "backlog changed an original365 registry byte"
+    },
+    {
+      "defect": "original:G61",
+      "rejection": "backlog changed an original365 registry byte"
+    },
+    {
+      "defect": "original:G62",
+      "rejection": "backlog changed an original365 registry byte"
+    },
+    {
+      "defect": "original:G63",
+      "rejection": "backlog changed an original365 registry byte"
+    },
+    {
+      "defect": "original:G64",
+      "rejection": "backlog changed an original365 registry byte"
+    },
+    {
+      "defect": "original:G65",
+      "rejection": "backlog changed an original365 registry byte"
+    },
+    {
+      "defect": "original:G66",
+      "rejection": "backlog changed an original365 registry byte"
+    },
+    {
+      "defect": "original:G74",
+      "rejection": "backlog changed an original365 registry byte"
+    },
+    {
+      "defect": "original:G75",
+      "rejection": "backlog changed an original365 registry byte"
+    },
+    {
+      "defect": "original:G76",
+      "rejection": "backlog changed an original365 registry byte"
+    },
+    {
+      "defect": "original:G77",
+      "rejection": "backlog changed an original365 registry byte"
+    },
+    {
+      "defect": "original:G78",
+      "rejection": "backlog changed an original365 registry byte"
+    },
+    {
+      "defect": "original:G79",
+      "rejection": "backlog changed an original365 registry byte"
+    },
+    {
+      "defect": "original:G80",
+      "rejection": "backlog changed an original365 registry byte"
+    },
+    {
+      "defect": "original:G81",
+      "rejection": "backlog changed an original365 registry byte"
+    },
+    {
+      "defect": "original:G82",
+      "rejection": "backlog changed an original365 registry byte"
+    },
+    {
+      "defect": "original:G87",
+      "rejection": "backlog changed an original365 registry byte"
+    },
+    {
+      "defect": "original:G89",
+      "rejection": "backlog changed an original365 registry byte"
+    },
+    {
+      "defect": "original:G90",
+      "rejection": "backlog changed an original365 registry byte"
+    },
+    {
+      "defect": "original:G91",
+      "rejection": "backlog changed an original365 registry byte"
+    },
+    {
+      "defect": "original:G92",
+      "rejection": "backlog changed an original365 registry byte"
+    },
+    {
+      "defect": "original:G93",
+      "rejection": "backlog changed an original365 registry byte"
+    },
+    {
+      "defect": "original:G94",
+      "rejection": "backlog changed an original365 registry byte"
+    },
+    {
+      "defect": "original:G95",
+      "rejection": "backlog changed an original365 registry byte"
+    },
+    {
+      "defect": "original:G96",
+      "rejection": "backlog changed an original365 registry byte"
+    },
+    {
+      "defect": "original:G97",
+      "rejection": "backlog changed an original365 registry byte"
+    },
+    {
+      "defect": "original:G98",
+      "rejection": "backlog changed an original365 registry byte"
+    },
+    {
+      "defect": "original:G99",
+      "rejection": "backlog changed an original365 registry byte"
+    },
+    {
+      "defect": "original:G101",
+      "rejection": "backlog changed an original365 registry byte"
+    },
+    {
+      "defect": "original:G102",
+      "rejection": "backlog changed an original365 registry byte"
+    },
+    {
+      "defect": "original:G103",
+      "rejection": "backlog changed an original365 registry byte"
+    },
+    {
+      "defect": "original:G104",
+      "rejection": "backlog changed an original365 registry byte"
+    },
+    {
+      "defect": "original:G105",
+      "rejection": "backlog changed an original365 registry byte"
+    },
+    {
+      "defect": "original:G106",
+      "rejection": "backlog changed an original365 registry byte"
+    },
+    {
+      "defect": "original:G107",
+      "rejection": "backlog changed an original365 registry byte"
+    },
+    {
+      "defect": "original:G108",
+      "rejection": "backlog changed an original365 registry byte"
+    },
+    {
+      "defect": "original:G109",
+      "rejection": "backlog changed an original365 registry byte"
+    },
+    {
+      "defect": "original:G110",
+      "rejection": "backlog changed an original365 registry byte"
+    },
+    {
+      "defect": "original:G111",
+      "rejection": "backlog changed an original365 registry byte"
+    },
+    {
+      "defect": "original:G112",
+      "rejection": "backlog changed an original365 registry byte"
+    },
+    {
+      "defect": "original:G113",
+      "rejection": "backlog changed an original365 registry byte"
+    },
+    {
+      "defect": "original:G114",
+      "rejection": "backlog changed an original365 registry byte"
+    },
+    {
+      "defect": "original:G115",
+      "rejection": "backlog changed an original365 registry byte"
+    },
+    {
+      "defect": "original:G116",
+      "rejection": "backlog changed an original365 registry byte"
+    },
+    {
+      "defect": "original:G117",
+      "rejection": "backlog changed an original365 registry byte"
+    },
+    {
+      "defect": "original:G118",
+      "rejection": "backlog changed an original365 registry byte"
+    },
+    {
+      "defect": "original:G119",
+      "rejection": "backlog changed an original365 registry byte"
+    },
+    {
+      "defect": "original:G120",
+      "rejection": "backlog changed an original365 registry byte"
+    },
+    {
+      "defect": "original:G121",
+      "rejection": "backlog changed an original365 registry byte"
+    },
+    {
+      "defect": "original:G122",
+      "rejection": "backlog changed an original365 registry byte"
+    },
+    {
+      "defect": "original:G123",
+      "rejection": "backlog changed an original365 registry byte"
+    },
+    {
+      "defect": "original:G124",
+      "rejection": "backlog changed an original365 registry byte"
+    },
+    {
+      "defect": "original:G125",
+      "rejection": "backlog changed an original365 registry byte"
+    },
+    {
+      "defect": "original:G126",
+      "rejection": "backlog changed an original365 registry byte"
+    },
+    {
+      "defect": "original:G127",
+      "rejection": "backlog changed an original365 registry byte"
+    },
+    {
+      "defect": "original:G128",
+      "rejection": "backlog changed an original365 registry byte"
+    },
+    {
+      "defect": "original:G129",
+      "rejection": "backlog changed an original365 registry byte"
+    },
+    {
+      "defect": "original:G130",
+      "rejection": "backlog changed an original365 registry byte"
+    },
+    {
+      "defect": "original:G131",
+      "rejection": "backlog changed an original365 registry byte"
+    },
+    {
+      "defect": "original:G132",
+      "rejection": "backlog changed an original365 registry byte"
+    },
+    {
+      "defect": "original:G133",
+      "rejection": "backlog changed an original365 registry byte"
+    },
+    {
+      "defect": "original:G134",
+      "rejection": "backlog changed an original365 registry byte"
+    },
+    {
+      "defect": "original:G135",
+      "rejection": "backlog changed an original365 registry byte"
+    },
+    {
+      "defect": "original:G136",
+      "rejection": "backlog changed an original365 registry byte"
+    },
+    {
+      "defect": "original:G137",
+      "rejection": "backlog changed an original365 registry byte"
+    },
+    {
+      "defect": "original:G138",
+      "rejection": "backlog changed an original365 registry byte"
+    },
+    {
+      "defect": "original:G139",
+      "rejection": "backlog changed an original365 registry byte"
+    },
+    {
+      "defect": "original:G140",
+      "rejection": "backlog changed an original365 registry byte"
+    },
+    {
+      "defect": "original:G141",
+      "rejection": "backlog changed an original365 registry byte"
+    },
+    {
+      "defect": "original:G142",
+      "rejection": "backlog changed an original365 registry byte"
+    },
+    {
+      "defect": "original:G143",
+      "rejection": "backlog changed an original365 registry byte"
+    },
+    {
+      "defect": "original:G144",
+      "rejection": "backlog changed an original365 registry byte"
+    },
+    {
+      "defect": "original:G145",
+      "rejection": "backlog changed an original365 registry byte"
+    },
+    {
+      "defect": "original:G146",
+      "rejection": "backlog changed an original365 registry byte"
+    },
+    {
+      "defect": "original:G147",
+      "rejection": "backlog changed an original365 registry byte"
+    },
+    {
+      "defect": "original:G148",
+      "rejection": "backlog changed an original365 registry byte"
+    },
+    {
+      "defect": "original:G149",
+      "rejection": "backlog changed an original365 registry byte"
+    },
+    {
+      "defect": "original:G150",
+      "rejection": "backlog changed an original365 registry byte"
+    },
+    {
+      "defect": "original:G151",
+      "rejection": "backlog changed an original365 registry byte"
+    },
+    {
+      "defect": "original:G152",
+      "rejection": "backlog changed an original365 registry byte"
+    },
+    {
+      "defect": "original:G153",
+      "rejection": "backlog changed an original365 registry byte"
+    },
+    {
+      "defect": "original:G154",
+      "rejection": "backlog changed an original365 registry byte"
+    },
+    {
+      "defect": "original:G155",
+      "rejection": "backlog changed an original365 registry byte"
+    },
+    {
+      "defect": "original:G156",
+      "rejection": "backlog changed an original365 registry byte"
+    },
+    {
+      "defect": "original:G157",
+      "rejection": "backlog changed an original365 registry byte"
+    },
+    {
+      "defect": "original:G158",
+      "rejection": "backlog changed an original365 registry byte"
+    },
+    {
+      "defect": "original:G159",
+      "rejection": "backlog changed an original365 registry byte"
+    },
+    {
+      "defect": "original:G160",
+      "rejection": "backlog changed an original365 registry byte"
+    },
+    {
+      "defect": "original:G196",
+      "rejection": "backlog changed an original365 registry byte"
+    },
+    {
+      "defect": "original:G198",
+      "rejection": "backlog changed an original365 registry byte"
+    },
+    {
+      "defect": "original:G199",
+      "rejection": "backlog changed an original365 registry byte"
+    },
+    {
+      "defect": "original:G200",
+      "rejection": "backlog changed an original365 registry byte"
+    },
+    {
+      "defect": "original:G201",
+      "rejection": "backlog changed an original365 registry byte"
+    },
+    {
+      "defect": "original:G202",
+      "rejection": "backlog changed an original365 registry byte"
+    },
+    {
+      "defect": "original:G203",
+      "rejection": "backlog changed an original365 registry byte"
+    },
+    {
+      "defect": "original:G204",
+      "rejection": "backlog changed an original365 registry byte"
+    },
+    {
+      "defect": "original:G205",
+      "rejection": "backlog changed an original365 registry byte"
+    },
+    {
+      "defect": "extra nonauthorized ID:G413",
+      "rejection": "backlog changed an original365 registry byte"
+    },
+    {
+      "defect": "extra nonauthorized ID:G3830",
+      "rejection": "backlog changed an original365 registry byte"
+    },
+    {
+      "defect": "extra nonauthorized ID:G0383",
+      "rejection": "backlog changed an original365 registry byte"
+    },
+    {
+      "defect": "header change",
+      "rejection": "backlog registry header changed"
+    },
+    {
+      "defect": "source package:udt_berger_initial_data_preservation_campaign_2026-09-08/",
+      "rejection": "backlog original source evidence changed: udt_berger_initial_data_preservation_campaign_2026-09-08/CAMPAIGN_LOG.md"
+    },
+    {
+      "defect": "source package:udt_complementary_wave_observable_campaign_2026-09-07/",
+      "rejection": "backlog original source evidence changed: udt_complementary_wave_observable_campaign_2026-09-07/CAMPAIGN_LOG.md"
+    },
+    {
+      "defect": "source package:udt_directional_clock_curvature_whiteboard_2026-09-10/",
+      "rejection": "backlog original source evidence changed: udt_directional_clock_curvature_whiteboard_2026-09-10/CAMPAIGN_LOG.md"
+    },
+    {
+      "defect": "source package:udt_exact_metric_kernel_expansion_2026-09-10/",
+      "rejection": "backlog original source evidence changed: udt_exact_metric_kernel_expansion_2026-09-10/CAMPAIGN_LOG.md"
+    },
+    {
+      "defect": "source package:udt_g313_curvature_phase_current_candidate_2026-09-06/",
+      "rejection": "backlog original source evidence changed: udt_g313_curvature_phase_current_candidate_2026-09-06/ARTIFACT_SHA256SUMS"
+    },
+    {
+      "defect": "source package:udt_gr_limit_campaign_2026-09-10/",
+      "rejection": "backlog original source evidence changed: udt_gr_limit_campaign_2026-09-10/CAMPAIGN_LOG.md"
+    },
+    {
+      "defect": "source package:udt_gw170817_fixed_window_test_campaign_2026-09-07/",
+      "rejection": "backlog original source evidence changed: udt_gw170817_fixed_window_test_campaign_2026-09-07/CAMPAIGN_LOG.md"
+    },
+    {
+      "defect": "source package:udt_gw_response_robustness_design_campaign/",
+      "rejection": "backlog original source evidence changed: udt_gw_response_robustness_design_campaign/CAMPAIGN_LOG.md"
+    },
+    {
+      "defect": "source package:udt_hopfion_bridge_stability_reassessment_2026-09-08/",
+      "rejection": "backlog original source evidence changed: udt_hopfion_bridge_stability_reassessment_2026-09-08/CAMPAIGN_LOG.md"
+    },
+    {
+      "defect": "source package:udt_kernel_twist_information_audit_2026-09-10/",
+      "rejection": "backlog original source evidence changed: udt_kernel_twist_information_audit_2026-09-10/CAMPAIGN_LOG.md"
+    },
+    {
+      "defect": "source package:udt_local_clock_metric_benchmark_campaign_2026-09-07/",
+      "rejection": "backlog original source evidence changed: udt_local_clock_metric_benchmark_campaign_2026-09-07/BASELINE_STATUS_METADATA.json"
+    },
+    {
+      "defect": "source package:udt_localized_evolution_followup_2026-09-09/",
+      "rejection": "backlog original source evidence changed: udt_localized_evolution_followup_2026-09-09/CAMPAIGN_LOG.md"
+    },
+    {
+      "defect": "source package:udt_localized_geometry_campaign_2026-09-09/",
+      "rejection": "backlog original source evidence changed: udt_localized_geometry_campaign_2026-09-09/CAMPAIGN_LOG.md"
+    },
+    {
+      "defect": "source package:udt_native_response_discrimination_2026-09-09/",
+      "rejection": "backlog original source evidence changed: udt_native_response_discrimination_2026-09-09/CAMPAIGN_LOG.md"
+    },
+    {
+      "defect": "source package:udt_nonlinear_mode_realizability_campaign_2026-09-09/",
+      "rejection": "backlog original source evidence changed: udt_nonlinear_mode_realizability_campaign_2026-09-09/CAMPAIGN_LOG.md"
+    },
+    {
+      "defect": "source package:udt_nonlinear_ripple_geometry_2026-09-09/",
+      "rejection": "backlog original source evidence changed: udt_nonlinear_ripple_geometry_2026-09-09/CAMPAIGN_LOG.md"
+    },
+    {
+      "defect": "source package:udt_null_clock_depth_integrability_assessment_2026-09-10/",
+      "rejection": "backlog original source evidence changed: udt_null_clock_depth_integrability_assessment_2026-09-10/AUTHOR_CHECK_OUTPUT.txt"
+    },
+    {
+      "defect": "source package:udt_quiet_correspondence_campaign_2026-09-10/",
+      "rejection": "backlog original source evidence changed: udt_quiet_correspondence_campaign_2026-09-10/CAMPAIGN_LOG.md"
+    },
+    {
+      "defect": "source package:udt_response_foundations_campaign_2026-09-10/",
+      "rejection": "backlog original source evidence changed: udt_response_foundations_campaign_2026-09-10/CAMPAIGN_LOG.md"
+    },
+    {
+      "defect": "source package:udt_spatial_curvature_evolution_2026-09-09/",
+      "rejection": "backlog original source evidence changed: udt_spatial_curvature_evolution_2026-09-09/CAMPAIGN_LOG.md"
+    },
+    {
+      "defect": "source package:udt_tidal_measurement_feasibility_campaign_2026-09-07/",
+      "rejection": "backlog original source evidence changed: udt_tidal_measurement_feasibility_campaign_2026-09-07/ARTIFACT_SHA256SUMS"
+    }
+  ]
+}

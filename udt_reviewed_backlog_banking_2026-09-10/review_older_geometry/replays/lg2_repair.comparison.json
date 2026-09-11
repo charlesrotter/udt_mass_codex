@@ -1,0 +1,47 @@
+{
+  "label": "lg2_repair",
+  "script": "udt_localized_geometry_campaign_2026-09-09/step_02/review/direct_checks.py",
+  "saved_stdout": "udt_localized_geometry_campaign_2026-09-09/step_02/review/direct_checks_run.stdout",
+  "kind": "original-review-implementation-replay",
+  "script_sha256": "7ea132bf2ff5b94559075d0f848d16a42c3a5e24623bbc6aa64e9d8d621e5a88",
+  "saved_stdout_sha256": "90f7ae34ba947b36c58ada7e568da958fec823955684a525cb2bdfeba2e6f15c",
+  "launcher_argv": [
+    "/usr/bin/python3",
+    "-B",
+    "/home/udt-admin/udt_mass_codex/udt_shared_readout_metric_constraint_campaign_2026-09-06/run_capture.py",
+    "/home/udt-admin/udt_mass_codex/udt_reviewed_backlog_banking_2026-09-10/review_older_geometry/replays/lg2_repair",
+    "/home/udt-admin/udt_mass_codex",
+    "/usr/bin/python3",
+    "-B",
+    "/home/udt-admin/udt_mass_codex/udt_localized_geometry_campaign_2026-09-09/step_02/review/direct_checks.py"
+  ],
+  "launcher_returncode": 0,
+  "capture_sha256": "8ff5469ace76bdfc84188915242abbf3baff35516f9ee3f9ba4b1cbfeb2573ef",
+  "thread_environment": {
+    "OMP_NUM_THREADS": "1",
+    "OPENBLAS_NUM_THREADS": "1",
+    "MKL_NUM_THREADS": "1"
+  },
+  "dont_write_bytecode": true,
+  "python": "3.10.12 (main, Aug 31 2026, 10:18:17) [GCC 11.4.0]",
+  "platform": "Linux-6.8.0-138-generic-x86_64-with-glibc2.35",
+  "receipt": {
+    "command": [
+      "/usr/bin/python3",
+      "-B",
+      "/home/udt-admin/udt_mass_codex/udt_localized_geometry_campaign_2026-09-09/step_02/review/direct_checks.py"
+    ],
+    "cwd": "/home/udt-admin/udt_mass_codex",
+    "started_utc": "2026-09-11T00:04:14.875338+00:00",
+    "duration_seconds": 0.3844058369868435,
+    "returncode": 0,
+    "timeout": false,
+    "address_space_bytes": 536870912,
+    "cpu_seconds": 60,
+    "maxrss_kib": 49352
+  },
+  "stdout_sha256": "90f7ae34ba947b36c58ada7e568da958fec823955684a525cb2bdfeba2e6f15c",
+  "stdout_byte_identical": true,
+  "script_unchanged": true,
+  "saved_output_unchanged": true
+}

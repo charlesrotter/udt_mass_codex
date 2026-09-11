@@ -1,0 +1,8 @@
+Traceback (most recent call last):
+  File "/home/udt-admin/udt_mass_codex/udt_reviewed_backlog_banking_2026-09-10/check_preservation.py", line 29, in <module>
+    status = git('status', '--porcelain=v1').splitlines(keepends=True)
+  File "/home/udt-admin/udt_mass_codex/udt_reviewed_backlog_banking_2026-09-10/check_preservation.py", line 21, in git
+    return subprocess.run(['git', *args], cwd=ROOT, capture_output=True,
+  File "/usr/lib/python3.10/subprocess.py", line 526, in run
+    raise CalledProcessError(retcode, process.args,
+subprocess.CalledProcessError: Command '['git', 'status', '--porcelain=v1']' returned non-zero exit status 128.

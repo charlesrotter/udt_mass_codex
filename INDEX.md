@@ -1,9 +1,9 @@
 # INDEX — compact current pointers; `LIVE.md` wins
 
-Banking through G382 is COMPLETE at reviewed conditional scopes; response-foundations campaign complete.
+G383--G412 exact-scope banking COMPLETE; actual full395 PASS; scopes/reviews below.
 Roadmap and campaign: `UDT_RESEARCH_ROADMAP.md`.
-Latest: `udt_exact_metric_kernel_expansion_2026-09-10/DECISION_BRIEF.md`; ER1 conditional UNPROMOTED.
-The exact 365-row `CURRENT_SCIENTIFIC_PREMISES.tsv` owns grades, not these pointers.
+Latest: `udt_reviewed_backlog_banking_2026-09-10/BANKING_RECORD.md`; exact claims/dispositions/checks there.
+The exact 395-row `CURRENT_SCIENTIFIC_PREMISES.tsv` owns grades, not these pointers.
 GR is FILTER ONLY, not a response-law input; Local Metric Sufficiency remains owner-provisional.
 Inherited G312 Einstein claims remain CONDITIONAL, not established from filter-only GR; grades fixed.
 Current authority: `udt_gr_filter_reconciliation_2026-09-09/AUTHORITY_RECORD.md`.
@@ -25,23 +25,23 @@ Unproduced report remains historical; replacement is dated.
 through-G352 edition at `f23199e4a47aaf83acb9ea7d1ad382cd814159c2`, not the current frontier.
 `update_metric_kernel_account.py`/`verify_metric_kernel_account.py` retain source-change invalidation;
 review restoration requires `--record-review REVIEW_RECORD.json` tied to exact changed sources.
-Latest banking: `udt_g381_g382_conditional_banking_2026-09-09/BANKING_RECORD.md`;
+Prior banking: `udt_g381_g382_conditional_banking_2026-09-09/BANKING_RECORD.md`;
 its execution/publication records own completion. Original campaign:
 `udt_neighboring_tidal_consistency_campaign_2026-09-08/CAMPAIGN_LOG.md`.
 Prior compaction: `startup_surface_current_tracking_compaction_2026-09-09/WORK_RECORD.md`.
-Earlier geometry: `udt_nonlinear_ripple_geometry_2026-09-09/DECISION_BRIEF.md`; NE1 reviewed UNPROMOTED;
+Earlier geometry: `udt_nonlinear_ripple_geometry_2026-09-09/DECISION_BRIEF.md`; G394=NE1 conditional;
 exact polarized development: fading profile, cumulative marked-area-rate/tidal departure.
 REVIEWED_RESULT.md and full review control; supplied-data/marking and conditional-method limits, not stability/content.
-Predecessor: `udt_spatial_curvature_evolution_2026-09-09/DECISION_BRIEF.md`; SE1 reviewed UNPROMOTED;
+Predecessor: `udt_spatial_curvature_evolution_2026-09-09/DECISION_BRIEF.md`; G393=SE1 conditional;
 exact local rate criterion/matched lawful data; full candidate and review/DIRECT_REVIEW.md control.
 Neighboring data matter beyond pointwise curvature/K; no genericity, stability/content or LG2-collar solve.
-Predecessor: `udt_localized_evolution_followup_2026-09-09/DECISION_BRIEF.md`; LE1 reviewed UNPROMOTED;
+Predecessor: `udt_localized_evolution_followup_2026-09-09/DECISION_BRIEF.md`; G392=LE1 conditional;
 weakening curvature with unchanged normalized shape only in the justified early core, not long-time stability.
-Dependency: `udt_localized_geometry_campaign_2026-09-09/DECISION_BRIEF.md`; LG1--LG2 UNPROMOTED;
+Dependency: `udt_localized_geometry_campaign_2026-09-09/DECISION_BRIEF.md`; G390--G391 conditional;
 restricted 3D localization, smooth-method/symmetry/smallness caveats; LG2 requires its REPAIR.md.
 Predecessor: `udt_nonlinear_mode_realizability_campaign_2026-09-09/DECISION_BRIEF.md`;
-NR1--NR2 UNPROMOTED, compact-sector mixed-C2/analytic-local tangent limits; original reviews control.
-Full365 PASS; maintenance: `maintenance_guard_sweep_2026-09-10/WORK_RECORD.md`; no scientific promotion.
+G388--G389 conditional, compact-sector mixed-C2/analytic-local tangent limits; original reviews control.
+Prior maintenance: `maintenance_guard_sweep_2026-09-10/WORK_RECORD.md`; historical full365 PASS.
 Session: `HANDOFF.md`; diagnostic: `maintenance_agent_capacity_2026-09-10.md` (partial usability; no scientific authorization).
 
 ## Founding, relational and response sources
@@ -81,8 +81,8 @@ original UNPROMOTED/NOT_BANKED headings remain historical. Old proposals do not 
 - G376=BI1/G377=BG1/G378=BG2: `udt_g376_g378_conditional_banking_2026-09-08/BANKING_RECORD.md`
 - G379=CF1/G380=CF2: `udt_g379_g380_conditional_banking_2026-09-08/BANKING_RECORD.md`
 - G381=NT1/G382=NT2: latest banking above; LOST/unsnapshotted-source caveats retained.
-- Hopf reassessment: `udt_hopfion_bridge_stability_reassessment_2026-09-08/DECISION_BRIEF.md`; HB2/HB3 unpromoted.
-- Berger initial data: `udt_berger_initial_data_preservation_campaign_2026-09-08/DECISION_BRIEF.md`; BI2/BI3 unpromoted.
+- Hopf reassessment: `udt_hopfion_bridge_stability_reassessment_2026-09-08/DECISION_BRIEF.md`; G384/G385 conditional.
+- Berger initial data: `udt_berger_initial_data_preservation_campaign_2026-09-08/DECISION_BRIEF.md`; G386/G387 conditional.
 - Global constraints: `udt_berger_global_constraint_campaign_2026-09-08/DECISION_BRIEF.md`
 - Closed fibres: `udt_closed_fibre_persistence_campaign_2026-09-08/DECISION_BRIEF.md`; preserving examples survive.
 

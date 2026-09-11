@@ -1,0 +1,14 @@
+{
+  "current_registry_or_source_modified": false,
+  "current_whole_G312_equals_authorized_after": true,
+  "historical_argv": [
+    "git",
+    "show",
+    "9ed73efe3d7d24a5fd6666bd904557cf0b24e0fd:CURRENT_SCIENTIFIC_PREMISES.tsv"
+  ],
+  "historical_exitcode": 0,
+  "historical_stderr": "",
+  "old_whole_G312_equals_authorized_before": true,
+  "status": "PASS_EXACT_AUTHORIZED_G312_ROWS",
+  "transition_sha256": "30a3843b3d5e00b85ddd46dcffe7885cba98c5e308de084fe0dc40991e9affe3"
+}

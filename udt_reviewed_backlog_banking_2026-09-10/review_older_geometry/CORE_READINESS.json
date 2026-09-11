@@ -1,0 +1,1015 @@
+{
+  "review_kind": "Fresh scoped source-fidelity/readiness review with unchanged-code replay; not blind rederivation of all inherited science",
+  "reviewer": "/root/bank_older_geometry",
+  "runtime_model_version": "UNATTESTED",
+  "baseline_head": "f5faabb43a582fec9a71c1d4a3b065efffae25bd",
+  "branch": "grok",
+  "startup": "Parent top-level startup attributed; reviewer independently checked branch/hash/status. Parent actual new prebank365 PASS 407.713s empty stderr, per parent message; not reviewer-owned.",
+  "source_first": "Authority and source dependency assessment preceded proposed banking text; original author records and past verdicts deliberately exposed.",
+  "unchanged_originals": "SOURCE_SNAPSHOT.json and ADDITIONAL_SOURCE_SNAPSHOT.json bind source payloads; final preservation receipt is separate.",
+  "grades_are_proposals": true,
+  "atomic_order": [
+    "G376 (BI1 already banked)",
+    "HB2",
+    "HB3",
+    "BI2",
+    "BI3",
+    "NR1",
+    "NR2",
+    "LG1",
+    "LG2",
+    "LE1",
+    "SE1",
+    "NE1"
+  ],
+  "already_banked": [
+    {
+      "candidate": "BI1",
+      "existing_id": "G376",
+      "disposition": "PREVIOUSLY_BANKED_DO_NOT_DUPLICATE",
+      "caveat": "Full G337-style operator and independent full tensor checks remain mandatory; author wrong-S-sign and missing derivative-index-connection mutants were false passes."
+    },
+    {
+      "existing_ids": [
+        "G377",
+        "G378",
+        "G379",
+        "G380",
+        "G381",
+        "G382"
+      ],
+      "disposition": "PREVIOUSLY_BANKED_DIFFERENT_EXACT_CLAIMS",
+      "caveat": "Old pending/unpromoted headers in their original sources do not negate current banked status; they do not silently bank HB2/HB3/BI2/BI3."
+    }
+  ],
+  "candidates": [
+    {
+      "candidate": "NR1",
+      "disposition": "PROMOTE_EXACT_REVIEWED_CONDITIONAL_MATHEMATICS",
+      "proposed_grade": [
+        "BANKED_DERIVED_CONDITIONAL",
+        "VERIFIED-WITH-CAVEATS",
+        "NOT_PHYSICAL_ADOPTION",
+        "NOT_CANON"
+      ],
+      "statement": "Necessary quadratic obstruction Q=v_c dot u_s-v_s dot u_c=0, equivalently sum_p(A_c,p B_s,p-A_s,p B_c,p)=0, for exact realizability of the G327 eight-real-parameter tangent on every fixed supplied G324 compact split quotient.",
+      "assumptions": [
+        "Fixed T0>0; both time branches, phases and polarizations retained.",
+        "Exact families have sufficient mixed C2 dependence of the fields and required spatial derivatives on a common neighborhood of the whole compact slice.",
+        "All second-order fields and connected Lambda(epsilon) variations are allowed; legal periodic gauge does not change the obstruction."
+      ],
+      "required_existing_source_ids": [
+        "G303",
+        "G315",
+        "G324",
+        "G327"
+      ],
+      "required_candidate_dependencies": [],
+      "methods_or_controls_not_separate_physical_premises": [
+        "Compact second-variation momentum pairing",
+        "G325/G326 are not required scientific inputs"
+      ],
+      "excluded_inferences": [
+        "Q=0 is not sufficient in NR1 alone.",
+        "No necessity for nonsmooth families, nonperiodic gauges, different quotient/domain or arbitrary modes.",
+        "Two polarizations may cancel; do not impose separate polarization obstructions."
+      ],
+      "review_and_repair_history": [
+        "Fresh original source-first then exposed adversarial review; exact runtime model UNKNOWN, different-model untested.",
+        "One incomplete harmonic-support reviewer false pass is excluded; complete follow-up retained and replayed.",
+        "Reviewer exploratory right-inverse construction is not a downstream accepted lemma.",
+        "Parent structural check totals do not independently prove the theorem."
+      ],
+      "controlling_artifacts": [
+        {
+          "role": "candidate",
+          "path": "udt_nonlinear_mode_realizability_campaign_2026-09-09/step_01/INITIAL_CANDIDATE.md",
+          "sha256": "871a64977c723db32fa4697c4b61cd3a57ec7f318c061585b187774549731f86"
+        },
+        {
+          "role": "reviewed_result",
+          "path": "udt_nonlinear_mode_realizability_campaign_2026-09-09/step_01/REVIEWED_RESULT.md",
+          "sha256": "110afc4f8ce5e3229f8a4e50ea7b8216a27bd74b57f4f4c6381874895ade99be"
+        },
+        {
+          "role": "review",
+          "path": "udt_nonlinear_mode_realizability_campaign_2026-09-09/step_01/review/STAGE_A_INDEPENDENT.md",
+          "sha256": "2e7159bf1a0193780d1441a26b38eea910a34df3815680f0a93734ae5d0b19a9"
+        },
+        {
+          "role": "review",
+          "path": "udt_nonlinear_mode_realizability_campaign_2026-09-09/step_01/review/ADVERSARIAL_REVIEW.md",
+          "sha256": "a6a612b5924c04c0ee60726b65403e061d035cbaf3e3d96a7499a9dbb2273c4a"
+        }
+      ],
+      "replay_labels": [
+        "nr1_author",
+        "nr1_adm",
+        "nr1_harmonic"
+      ],
+      "unresolved_scientific_objections": [],
+      "remaining_integration_gates": [
+        "Parent current premise audit attribution and source preservation",
+        "Exact-scope banking/registry integration fidelity review"
+      ],
+      "current_gr_filter_qualification": "Any inherited active/admitted/lawful Einstein claim is conditional on the full reviewed equation and class premises. Current G312 GR filter alone does not force Ricci response; its reviewed class-membership route remains UNCLOSED. DDR/Local Metric Sufficiency remain owner-provisional, not canon.",
+      "original_review_identity": {
+        "context": "/root/nr1_review",
+        "exact_backend_model_version": "UNKNOWN / UNATTESTED",
+        "different_model": "UNTESTED",
+        "human_or_formal_verification": "UNTESTED",
+        "original_computation_versions": "Python3.10.12 / SymPy1.13.1; NE1 also mpmath1.3.0"
+      }
+    },
+    {
+      "candidate": "NR2",
+      "disposition": "PROMOTE_EXACT_REVIEWED_CONDITIONAL_MATHEMATICS",
+      "proposed_grade": [
+        "BANKED_DERIVED_CONDITIONAL",
+        "VERIFIED-WITH-CAVEATS",
+        "NOT_PHYSICAL_ADOPTION",
+        "NOT_CANON"
+      ],
+      "statement": "Within the exact G327 tangent sector, Q=0 if and only if the tangent admits the reviewed exact local realization: NR1 gives mixed-C2 necessity, and every fixed Q=0 tangent has a jointly analytic parameter/spacetime exact Einstein family on a common local slab around the whole supplied compact slice.",
+      "assumptions": [
+        "Fixed compact split quotient and T0>0; positive determinant-one metric chart and dual K pairing.",
+        "For each fixed tangent choose epsilon0>0 and delta>0; no uniform choice over all amplitudes or endpoint limits.",
+        "Both arbitrary analytic c(epsilon)=O(epsilon^2) and Lambda(epsilon)=O(epsilon^2) are included at the reviewed scope; each Lambda is spacetime constant.",
+        "All constraints, auxiliary consistency, Bianchi propagation, compact gluing and linear tangent uniqueness remain load-bearing."
+      ],
+      "required_existing_source_ids": [
+        "G303",
+        "G315",
+        "G324",
+        "G327"
+      ],
+      "required_candidate_dependencies": [
+        "NR1"
+      ],
+      "methods_or_controls_not_separate_physical_premises": [
+        "Analytic noncharacteristic Cauchy-Kowalevski method, not new field law",
+        "G321 is method precedent, not an additional physical dependency",
+        "NR1 exploratory right inverse and incomplete-support false pass are excluded"
+      ],
+      "excluded_inferences": [
+        "No arbitrary-mode integrability classification.",
+        "No smooth/Sobolev nonlinear stability or uniform amplitude/lifetime result.",
+        "Do not replace full Einstein evolution by only the spatial Ricci equations."
+      ],
+      "review_and_repair_history": [
+        "Fresh original source-first and exposed direct review, same SymPy foundation; independent implementation uses an equivalent chart, not a different chart.",
+        "Initial 30-predicate output retained; later pre_bianchi_check.py is a reconstruction without a pre-run hash and cannot recover original chronology.",
+        "Explicit Bianchi/consistency completion and final reviewed argument control; historical full365/G325 failures are not current scientific blockers.",
+        "Runtime model UNKNOWN; different-model and formal/human review untested."
+      ],
+      "controlling_artifacts": [
+        {
+          "role": "candidate",
+          "path": "udt_nonlinear_mode_realizability_campaign_2026-09-09/step_02/INITIAL_CANDIDATE.md",
+          "sha256": "2af7b57e9323c895ffe98b4777aadd37721cd650bffd684954b85b1441e29e9d"
+        },
+        {
+          "role": "reviewed_result",
+          "path": "udt_nonlinear_mode_realizability_campaign_2026-09-09/step_02/REVIEWED_RESULT.md",
+          "sha256": "ea2a9d53f6e72605c41a0667fcc605b7ae728138786af081816bd79b243de05d"
+        },
+        {
+          "role": "history",
+          "path": "udt_nonlinear_mode_realizability_campaign_2026-09-09/step_02/DISCOVERY_HISTORY.md",
+          "sha256": "57227f103477cb78275bd1d498c0d4dbcec299ca16e6c8b34c20ddaad8d5eb20"
+        },
+        {
+          "role": "review",
+          "path": "udt_nonlinear_mode_realizability_campaign_2026-09-09/step_02/review/STAGE_A_INDEPENDENT.md",
+          "sha256": "79a2179475659e853d2a16ab53e1e9bd6b039691a660028551ee11a165385620"
+        },
+        {
+          "role": "review",
+          "path": "udt_nonlinear_mode_realizability_campaign_2026-09-09/step_02/review/ADVERSARIAL_REVIEW.md",
+          "sha256": "9e722b8874593ec0b82f7862d5a3af0f371e26a5798f8fc1d49db453b757acfc"
+        },
+        {
+          "role": "review",
+          "path": "udt_nonlinear_mode_realizability_campaign_2026-09-09/step_02/review/SUMMARY_FIDELITY_REVIEW.md",
+          "sha256": "c7d08613c7d3188bfaf1d20a2cdcc3bdcc43bb3d0b391956c466e5a776afcba8"
+        }
+      ],
+      "replay_labels": [
+        "nr2_author",
+        "nr2_evolution"
+      ],
+      "unresolved_scientific_objections": [],
+      "remaining_integration_gates": [
+        "Parent current premise audit attribution and source preservation",
+        "Exact-scope banking/registry integration fidelity review"
+      ],
+      "current_gr_filter_qualification": "Any inherited active/admitted/lawful Einstein claim is conditional on the full reviewed equation and class premises. Current G312 GR filter alone does not force Ricci response; its reviewed class-membership route remains UNCLOSED. DDR/Local Metric Sufficiency remain owner-provisional, not canon.",
+      "original_review_identity": {
+        "context": "/root/nr2_review",
+        "exact_backend_model_version": "UNKNOWN / UNATTESTED",
+        "different_model": "UNTESTED",
+        "human_or_formal_verification": "UNTESTED",
+        "original_computation_versions": "Python3.10.12 / SymPy1.13.1; NE1 also mpmath1.3.0"
+      }
+    },
+    {
+      "candidate": "LG1",
+      "disposition": "PROMOTE_EXACT_REVIEWED_CONDITIONAL_MATHEMATICS",
+      "proposed_grade": [
+        "BANKED_DERIVED_CONDITIONAL",
+        "VERIFIED-WITH-CAVEATS",
+        "NOT_PHYSICAL_ADOPTION",
+        "NOT_CANON"
+      ],
+      "statement": "The complete local constraint-adjoint kernel on each connected embedded ball or annular collar of the supplied Taub slice has zero lapse and the three translations plus y partial_z-z partial_y; on the full-rank compact torus only the three translations descend. This gives necessary linear-source pairings and exact finite and mixed-C2 tangent balances for supported completions matching both metric and K outside.",
+      "assumptions": [
+        "gamma0=I and K0=diag(1,-2,-2)/(3T0), T0>0.",
+        "Full tensor Lie derivative/density pairing, connected local domain, legal compact quotient.",
+        "Exact supported completion agrees in BOTH gamma and K on its exterior."
+      ],
+      "required_existing_source_ids": [
+        "G303",
+        "G315",
+        "G324"
+      ],
+      "required_candidate_dependencies": [],
+      "methods_or_controls_not_separate_physical_premises": [
+        "KID/constraint-adjoint correspondence with checked hypotheses",
+        "NR1/NR2 motivate the question but are not scientific dependencies"
+      ],
+      "excluded_inferences": [
+        "No sufficient gluing theorem.",
+        "A nonzero interior charge may be cancelled in a collar; it is not a universal no-go.",
+        "Do not replace the four-dimensional local kernel by the three-dimensional global torus kernel."
+      ],
+      "review_and_repair_history": [
+        "Fresh source-first then direct review; original runtime model UNKNOWN and different-model untested.",
+        "Reviewer printed zero_residuals:18 is an inaccurate hardcoded count and is excluded; underlying checked residuals remain valid."
+      ],
+      "controlling_artifacts": [
+        {
+          "role": "candidate",
+          "path": "udt_localized_geometry_campaign_2026-09-09/step_01/CANDIDATE.md",
+          "sha256": "bcbeafc7f19bf29a298244bac7664748668175fe8b4a53f4a7d13db1c258098e"
+        },
+        {
+          "role": "review",
+          "path": "udt_localized_geometry_campaign_2026-09-09/step_01/review/SOURCE_FIRST.md",
+          "sha256": "ca977370ad8c18ee177401fa1290c108d4d405037382d312e7ebd05b3dd12b59"
+        },
+        {
+          "role": "review",
+          "path": "udt_localized_geometry_campaign_2026-09-09/step_01/review/DIRECT_REVIEW.md",
+          "sha256": "ee5d02291a6ce45a3ddc7763fa103a4ef666458b049970b142d0ab459f538698"
+        }
+      ],
+      "replay_labels": [
+        "lg1_author",
+        "lg1_adjoint"
+      ],
+      "unresolved_scientific_objections": [],
+      "remaining_integration_gates": [
+        "Parent current premise audit attribution and source preservation",
+        "Exact-scope banking/registry integration fidelity review"
+      ],
+      "current_gr_filter_qualification": "Any inherited active/admitted/lawful Einstein claim is conditional on the full reviewed equation and class premises. Current G312 GR filter alone does not force Ricci response; its reviewed class-membership route remains UNCLOSED. DDR/Local Metric Sufficiency remain owner-provisional, not canon.",
+      "original_review_identity": {
+        "context": "/root/lg1_review",
+        "exact_backend_model_version": "UNKNOWN / UNATTESTED",
+        "different_model": "UNTESTED",
+        "human_or_formal_verification": "UNTESTED",
+        "original_computation_versions": "Python3.10.12 / SymPy1.13.1; NE1 also mpmath1.3.0"
+      }
+    },
+    {
+      "candidate": "LG2",
+      "disposition": "PROMOTE_EXACT_REVIEWED_CONDITIONAL_MATHEMATICS",
+      "proposed_grade": [
+        "BANKED_DERIVED_CONDITIONAL",
+        "VERIFIED-WITH-CAVEATS",
+        "NOT_PHYSICAL_ADOPTION",
+        "NOT_CANON"
+      ],
+      "statement": "For every fixed permitted T0, nested radii, cutoff and sufficiently high finite norm, all sufficiently small nonzero prescribed diagonal reflection-invariant Kasner interior parameters u admit a smooth exact global constraint completion on the same compact quotient, with the fixed Taub exterior, positive metric and Lambda=0. Its local Einstein development is not locally Taub in the inserted core.",
+      "assumptions": [
+        "0<|u|<min(u_star,0.1), with u_star depending on the frozen construction.",
+        "Both boundaries require smooth zero extension.",
+        "Use the exact nonlinear source covector J_i=-2 M_i before taking its derivative.",
+        "Chrusciel-Delay projected inverse is relative to a fixed reference kernel; decaying variational weight and growing output norm are distinct.",
+        "Eight reflections remove the fixed subspace of all four local KIDs."
+      ],
+      "required_existing_source_ids": [
+        "G303",
+        "G315",
+        "G324"
+      ],
+      "required_candidate_dependencies": [
+        "LG1"
+      ],
+      "methods_or_controls_not_separate_physical_premises": [
+        "Local deformation theorem with checked function spaces and hypotheses",
+        "Complex Weyl invariant separation",
+        "No new physical source or boundary law"
+      ],
+      "excluded_inferences": [
+        "No arbitrary interior matching, quantitative u_star, uniform shrinking-domain norms or all-completion uniqueness.",
+        "No all-time exact exterior or stability.",
+        "Central inversion alone does not remove the rotational KID.",
+        "Raw cutoff data are not exact constraint data.",
+        "Raising the momentum index with the varying metric changes the off-constraint derivative and cannot replace repaired J."
+      ],
+      "review_and_repair_history": [
+        "One focused scientific repair is mandatory: CANDIDATE.md together with REPAIR.md is the controlling result.",
+        "Initial direct-review defect and subsequent acceptance both retained.",
+        "Fresh original source-first context; runtime model UNKNOWN/different-model untested."
+      ],
+      "controlling_artifacts": [
+        {
+          "role": "candidate",
+          "path": "udt_localized_geometry_campaign_2026-09-09/step_02/CANDIDATE.md",
+          "sha256": "3f21ac35f37bdff8309651d06bb1be5aadce5948bef5ff5d0ec95efe40086537"
+        },
+        {
+          "role": "repair",
+          "path": "udt_localized_geometry_campaign_2026-09-09/step_02/REPAIR.md",
+          "sha256": "b10226648340d45bfbee1e44bae9a50f530826ec3aefe25f8bbde0bb32b3a262"
+        },
+        {
+          "role": "review",
+          "path": "udt_localized_geometry_campaign_2026-09-09/step_02/review/SOURCE_FIRST.md",
+          "sha256": "bebc4ef9a2af7ac3af14232f40b891ed6691ef08c474bb7eef66df68f9535f36"
+        },
+        {
+          "role": "review",
+          "path": "udt_localized_geometry_campaign_2026-09-09/step_02/review/INITIAL_DIRECT_REVIEW.md",
+          "sha256": "7eabd10ec4d24fa707593106539d8711a33488f6a028cbd4779dd9bbb05d6756"
+        },
+        {
+          "role": "review",
+          "path": "udt_localized_geometry_campaign_2026-09-09/step_02/review/DIRECT_REVIEW.md",
+          "sha256": "d9c79d43a5e473416eda2577f1a7c446625ac504d577b23a6217fe89fa7c88eb"
+        },
+        {
+          "role": "review",
+          "path": "udt_localized_geometry_campaign_2026-09-09/step_02/review/SUMMARY_FIDELITY.md",
+          "sha256": "2146591f1ff9417de1fe511ba5e86f3375e4bcd8ba10f101f93f629ec94d2099"
+        }
+      ],
+      "replay_labels": [
+        "lg2_author",
+        "lg2_repair"
+      ],
+      "unresolved_scientific_objections": [],
+      "remaining_integration_gates": [
+        "Parent current premise audit attribution and source preservation",
+        "Exact-scope banking/registry integration fidelity review"
+      ],
+      "current_gr_filter_qualification": "Any inherited active/admitted/lawful Einstein claim is conditional on the full reviewed equation and class premises. Current G312 GR filter alone does not force Ricci response; its reviewed class-membership route remains UNCLOSED. DDR/Local Metric Sufficiency remain owner-provisional, not canon.",
+      "original_review_identity": {
+        "context": "/root/lg2_review",
+        "exact_backend_model_version": "UNKNOWN / UNATTESTED",
+        "different_model": "UNTESTED",
+        "human_or_formal_verification": "UNTESTED",
+        "original_computation_versions": "Python3.10.12 / SymPy1.13.1; NE1 also mpmath1.3.0"
+      }
+    },
+    {
+      "candidate": "LE1",
+      "disposition": "PROMOTE_EXACT_REVIEWED_CONDITIONAL_MATHEMATICS",
+      "proposed_grade": [
+        "BANKED_DERIVED_CONDITIONAL",
+        "VERIFIED-WITH-CAVEATS",
+        "NOT_PHYSICAL_ADOPTION",
+        "NOT_CANON"
+      ],
+      "statement": "Every actual smooth full-constraint completion sharing the lawful LG2 core, in every local globally hyperbolic development, has a datum/development-dependent positive common Kasner neighborhood of each compact core subball. There Kretschmann=-16 P/T^4 strictly decays while the full self-dual Weyl anisotropy A=1-6 I3^2/I2^3=u^2(u^2-3)^2/(1+u^2)^3 stays positive and constant; Taub has A=0.",
+      "assumptions": [
+        "Nonzero reviewed LG2 u range, actual completion and actual local development.",
+        "Diagnostic uses full Q=E+iB, not E alone.",
+        "Explicit |x|+L_p(T)<r is restricted to the intersection with the actual common development."
+      ],
+      "required_existing_source_ids": [
+        "G303",
+        "G315",
+        "G324"
+      ],
+      "required_candidate_dependencies": [
+        "LG2"
+      ],
+      "methods_or_controls_not_separate_physical_premises": [
+        "Local Cauchy uniqueness/domain of dependence",
+        "Known Kasner formulas are checked applications, not novelty claims"
+      ],
+      "excluded_inferences": [
+        "No uniform lifetime, long-time persistence, collar conclusion or metric-distance estimate.",
+        "Curvature decay does not make this invariant anisotropy decay."
+      ],
+      "review_and_repair_history": [
+        "Fresh original source-first/direct review. Two reviewer power-normalization failures remain preserved; continuation repaired reviewer calculation without changing candidate science.",
+        "Full rank-four boost check catches an E-only false invariance.",
+        "Runtime model UNKNOWN; no new independent derivation is claimed by this banking replay."
+      ],
+      "controlling_artifacts": [
+        {
+          "role": "candidate",
+          "path": "udt_localized_evolution_followup_2026-09-09/CANDIDATE.md",
+          "sha256": "22ea9426f13c0aef12550248a5d4cb5ff3a5855f6e5804f1b57f965d052fea78"
+        },
+        {
+          "role": "review",
+          "path": "udt_localized_evolution_followup_2026-09-09/review/SOURCE_FIRST.md",
+          "sha256": "5d3a07f97ce4c5eac4d2afdbbd89067c3270e6301b237c6c539a35b5aa58b58b"
+        },
+        {
+          "role": "review",
+          "path": "udt_localized_evolution_followup_2026-09-09/review/DIRECT_REVIEW.md",
+          "sha256": "3d5beefd062a4d32754e96be4be7b5fd2e384fbb33c0c240d758fbb9eba77f32"
+        },
+        {
+          "role": "review",
+          "path": "udt_localized_evolution_followup_2026-09-09/review/FINAL_FIDELITY.md",
+          "sha256": "9bc1df59663a5f9ddea16be649fcf1aee20ca07873933bd50cdb9c386c291bb6"
+        }
+      ],
+      "replay_labels": [
+        "le1_author",
+        "le1_boost"
+      ],
+      "unresolved_scientific_objections": [],
+      "remaining_integration_gates": [
+        "Parent current premise audit attribution and source preservation",
+        "Exact-scope banking/registry integration fidelity review"
+      ],
+      "current_gr_filter_qualification": "Any inherited active/admitted/lawful Einstein claim is conditional on the full reviewed equation and class premises. Current G312 GR filter alone does not force Ricci response; its reviewed class-membership route remains UNCLOSED. DDR/Local Metric Sufficiency remain owner-provisional, not canon.",
+      "original_review_identity": {
+        "context": "/root/le1_review",
+        "exact_backend_model_version": "UNKNOWN / UNATTESTED",
+        "different_model": "UNTESTED",
+        "human_or_formal_verification": "UNTESTED",
+        "original_computation_versions": "Python3.10.12 / SymPy1.13.1; NE1 also mpmath1.3.0"
+      }
+    },
+    {
+      "candidate": "SE1",
+      "disposition": "PROMOTE_EXACT_REVIEWED_CONDITIONAL_MATHEMATICS",
+      "proposed_grade": [
+        "BANKED_DERIVED_CONDITIONAL",
+        "VERIFIED-WITH-CAVEATS",
+        "NOT_PHYSICAL_ADOPTION",
+        "NOT_CANON"
+      ],
+      "statement": "For sufficiently regular actual local Einstein evolution and I2!=0, the reviewed oriented Gaussian/Fermi convention gives W=2 tau Q-3(KQ)_symTF-i curl Q and n(A)=36 I3[I3 tr(QW)-I2 tr(Q^2 W)]/I2^4. The explicit lawful analytic compact m=0 and m=1 data have identical pointwise gamma,K,Q and first metric/K jets at x=0 but rates 0 and -5930496/5764801; a nonflat comparator has positive rate 68040/28561.",
+      "assumptions": [
+        "Supplied future normal, orientation, Gaussian initial slice and Fermi frame.",
+        "I2!=0 and full self-dual Q diagnostic.",
+        "Matched example q=e cos(mx), e=1/6, gamma=I, K=diag(1/3-3q^2/4,-2/3-q,-2/3+q); nonflat comparator e=1/9 at its reviewed point.",
+        "Actual analytic Cauchy development, not merely formal initial jets."
+      ],
+      "required_existing_source_ids": [
+        "G303",
+        "G315"
+      ],
+      "required_candidate_dependencies": [
+        "LE1"
+      ],
+      "methods_or_controls_not_separate_physical_premises": [
+        "Bianchi and analytic local Cauchy methods",
+        "NR2 tangent iff theorem is not required for these separately solved data"
+      ],
+      "excluded_inferences": [
+        "Instantaneous zero derivative is only scalar stationarity; I3=0 is a diagnostic blind spot, I2=0 excluded.",
+        "No universal sign, full geometry classification or full-Cauchy-data nonuniqueness.",
+        "The matched fields differ away from the point."
+      ],
+      "review_and_repair_history": [
+        "PROVENANCE_CORRECTION.md and reviewer PROVENANCE_FOLLOWUP.md are mandatory.",
+        "Author check_geometry.py was written after reviewer SF3 witness communication; original pre-exposure-code claim withdrawn. Hand reasoning was unfrozen.",
+        "Reviewer contributed the final witness, then independently extracted comparators: not blind construction independence.",
+        "No scientific repair; runtime model UNKNOWN/different-model untested."
+      ],
+      "controlling_artifacts": [
+        {
+          "role": "candidate",
+          "path": "udt_spatial_curvature_evolution_2026-09-09/CANDIDATE.md",
+          "sha256": "31588aee276d4915418871988e400687b05cb59ee6ad6bc1efdb57ebd73789a7"
+        },
+        {
+          "role": "provenance_correction",
+          "path": "udt_spatial_curvature_evolution_2026-09-09/PROVENANCE_CORRECTION.md",
+          "sha256": "bfea95a330c1db2aeef1db2b00e975463940f795651c1f4139ca8890d840819d"
+        },
+        {
+          "role": "review",
+          "path": "udt_spatial_curvature_evolution_2026-09-09/review/SOURCE_FIRST.md",
+          "sha256": "51f9a60307b430abee46588aadf14b98b39bf54ff8d95398e05d4e1d51e2e5c9"
+        },
+        {
+          "role": "review",
+          "path": "udt_spatial_curvature_evolution_2026-09-09/review/DIRECT_REVIEW.md",
+          "sha256": "8fde77e604bd2771d5cb184ba3ad8aa72ee0661f819345e372fc49ba7ade0934"
+        },
+        {
+          "role": "review",
+          "path": "udt_spatial_curvature_evolution_2026-09-09/review/PROVENANCE_FOLLOWUP.md",
+          "sha256": "8119b22fa8cd8a0e3551cb6435c7eb0d378491903729bc01ad14c1622f639713"
+        },
+        {
+          "role": "review",
+          "path": "udt_spatial_curvature_evolution_2026-09-09/review/FINAL_FIDELITY.md",
+          "sha256": "c2a94b04cd85680a228553b4ba6765ad619db1a04e62d7ceade1cfb49cc4a317"
+        }
+      ],
+      "replay_labels": [
+        "se1_geometry",
+        "se1_matched",
+        "se1_bianchi",
+        "se1_tensor"
+      ],
+      "unresolved_scientific_objections": [],
+      "remaining_integration_gates": [
+        "Parent current premise audit attribution and source preservation",
+        "Exact-scope banking/registry integration fidelity review"
+      ],
+      "current_gr_filter_qualification": "Any inherited active/admitted/lawful Einstein claim is conditional on the full reviewed equation and class premises. Current G312 GR filter alone does not force Ricci response; its reviewed class-membership route remains UNCLOSED. DDR/Local Metric Sufficiency remain owner-provisional, not canon.",
+      "attributed_candidate_method_sources": [
+        {
+          "candidate": "NR2",
+          "role": "Analytic Cauchy development method interface only; tangent iff and fixed sector not imported."
+        }
+      ],
+      "original_review_identity": {
+        "context": "/root/scurv_review",
+        "exact_backend_model_version": "UNKNOWN / UNATTESTED",
+        "different_model": "UNTESTED",
+        "human_or_formal_verification": "UNTESTED",
+        "original_computation_versions": "Python3.10.12 / SymPy1.13.1; NE1 also mpmath1.3.0"
+      }
+    },
+    {
+      "candidate": "NE1",
+      "disposition": "PROMOTE_EXACT_REVIEWED_CONDITIONAL_MATHEMATICS",
+      "proposed_grade": [
+        "BANKED_DERIVED_CONDITIONAL",
+        "VERIFIED-WITH-CAVEATS",
+        "NOT_PHYSICAL_ADOPTION",
+        "NOT_CANON"
+      ],
+      "statement": "The supplied polarized one-plus-cosine compact T3 data have the explicit exact smooth Lorentzian Einstein development on t>0 in the reviewed Gowdy/Bessel form, with complete original Ricci and initial-data matching and the G327 plus-cosine linear limit. For each fixed nonzero epsilon, P=O(t^-1/2) uniformly tends to zero, but lambda=lambda0+epsilon^2 sigma t+O(1), sigma>0; at equal supplied marked T2 orbit area, H_rho/H_rho0 tends uniformly to zero and the relative tidal contrast has alternating unbounded subsequences.",
+      "assumptions": [
+        "Supplied split compact quotient, Lambda=0 and original unit-metric data.",
+        "Exact construction covers every finite real epsilon at its reviewed scope; asymptotic comparison fixes epsilon!=0.",
+        "Matched orbit-area marking and areal normal are part of the comparison.",
+        "The Cauchy proof quantifies over inextendible causal curves."
+      ],
+      "required_existing_source_ids": [
+        "G303",
+        "G315",
+        "G327"
+      ],
+      "required_candidate_dependencies": [],
+      "methods_or_controls_not_separate_physical_premises": [
+        "Explicit metric reduction and Bessel asymptotics",
+        "NR2 is not the existence input; LG2 is not an input"
+      ],
+      "excluded_inferences": [
+        "No absolute curvature blowup, generic nonlinear stability/instability theorem or unmarked all-isometry comparison.",
+        "H_rho is not the volume expansion; later areal normal is not Gaussian normal.",
+        "Finite floating witnesses are not certified asymptotics."
+      ],
+      "review_and_repair_history": [
+        "Original initial candidate plus REVIEWED_RESULT inextendibility clarification control.",
+        "Fresh source-first/direct review; independent implementation shares SymPy/mpmath and analytic foundations.",
+        "Actual hostile mutations/failures preserved; no substantive scientific repair required.",
+        "Runtime model UNKNOWN/different-model untested."
+      ],
+      "controlling_artifacts": [
+        {
+          "role": "candidate",
+          "path": "udt_nonlinear_ripple_geometry_2026-09-09/INITIAL_CANDIDATE.md",
+          "sha256": "49880008dcb5a646d6867e377f6dc84ded692b98250701aba4cab7119ca500de"
+        },
+        {
+          "role": "reviewed_result",
+          "path": "udt_nonlinear_ripple_geometry_2026-09-09/REVIEWED_RESULT.md",
+          "sha256": "45cc3bc950b76ceed6a1fd49c248688242bc3c008864256de9bb494c1b8bbfaa"
+        },
+        {
+          "role": "review",
+          "path": "udt_nonlinear_ripple_geometry_2026-09-09/review/SOURCE_FIRST.md",
+          "sha256": "3dfd6f5a645fc5ac6dba15e30453997cf345ec4fcdbe518d1739533fd1123068"
+        },
+        {
+          "role": "review",
+          "path": "udt_nonlinear_ripple_geometry_2026-09-09/review/DIRECT_REVIEW.md",
+          "sha256": "dd5608df50905466383a1bc9dd67e6b23bcececb1d5ff4e0848c87716b98b200"
+        },
+        {
+          "role": "review",
+          "path": "udt_nonlinear_ripple_geometry_2026-09-09/review/FIDELITY_REVIEW.md",
+          "sha256": "b0b00beed4793d432786b16e4b107fde727de3cdbb49a66e416892ea5a802ff3"
+        }
+      ],
+      "replay_labels": [
+        "ne1_metric",
+        "ne1_profile",
+        "ne1_tidal"
+      ],
+      "unresolved_scientific_objections": [],
+      "remaining_integration_gates": [
+        "Parent current premise audit attribution and source preservation",
+        "Exact-scope banking/registry integration fidelity review"
+      ],
+      "current_gr_filter_qualification": "Any inherited active/admitted/lawful Einstein claim is conditional on the full reviewed equation and class premises. Current G312 GR filter alone does not force Ricci response; its reviewed class-membership route remains UNCLOSED. DDR/Local Metric Sufficiency remain owner-provisional, not canon.",
+      "attributed_candidate_datum_sources": [
+        {
+          "candidate": "SE1",
+          "role": "Initial-data provenance; NE1 verifies its own explicit metric, constraints and exact development."
+        }
+      ],
+      "original_review_identity": {
+        "context": "/root/nrgeom_review",
+        "exact_backend_model_version": "UNKNOWN / UNATTESTED",
+        "different_model": "UNTESTED",
+        "human_or_formal_verification": "UNTESTED",
+        "original_computation_versions": "Python3.10.12 / SymPy1.13.1; NE1 also mpmath1.3.0"
+      }
+    },
+    {
+      "candidate": "HB2",
+      "disposition": "PROMOTE_EXACT_REVIEWED_CONDITIONAL_MATHEMATICS",
+      "proposed_grade": [
+        "BANKED_DERIVED_CONDITIONAL",
+        "VERIFIED-WITH-CAVEATS",
+        "NOT_PHYSICAL_ADOPTION",
+        "NOT_CANON"
+      ],
+      "statement": "For the unscaled positive-weight G331/G332 family on its global strict square-root and simple-Ricci-gap domain, both root branches give Y=5 A(grad R)/(2 Delta D0) and normal projector drift Pdot=Y tensor eta+xi tensor Yflat, Delta=(6-R)/2 and D0=b+C. Unequal weights give nonzero interior-torus drift and zero axis drift; equal nonround weights give zero initial drift.",
+      "assumptions": [
+        "All compatible C,Lambda and both signed roots/gaps retained.",
+        "Full inverse-metric and unit-normalization variations are included.",
+        "Actual smooth local Cauchy development and continued simple Ricci branch are conditional."
+      ],
+      "required_existing_source_ids": [
+        "G315",
+        "G330",
+        "G331",
+        "G332",
+        "G337"
+      ],
+      "required_candidate_dependencies": [],
+      "methods_or_controls_not_separate_physical_premises": [
+        "G330/G303 general Cauchy/isometry extension method; no automatic enlargement of pure-trace source theorem",
+        "HB1 source assessment and G321 method interface are not extra scientific dependencies"
+      ],
+      "excluded_inferences": [
+        "No orbit-closure, stability, topology or physically adopted carrier conclusion from a first jet.",
+        "No recertification of old no-null carrier or reopening paused mass/stability mechanisms.",
+        "Gap-closing endpoint fixtures are controls outside the theorem domain."
+      ],
+      "review_and_repair_history": [
+        "Fresh original source-first then exposed direct review; runtime model UNKNOWN.",
+        "Author imports accepted G337 variation engine; reviewer independently used Killing-divergence and toric-block routes.",
+        "Initial full-symbolic 60-second timeout retained, never a pass.",
+        "Two manual argv sidecars normalize paths; automatic JSON has authoritative literal argv.",
+        "Historical source/status-pin repairs preserve original science.",
+        "Parent CLI event polls were truncated; complete raw CLI event transcript is NOT preserved. Scientific child code/argv/streams/resource/exposure records survive; they do not recover lost event buffers."
+      ],
+      "controlling_artifacts": [
+        {
+          "role": "candidate",
+          "path": "udt_hopfion_bridge_stability_reassessment_2026-09-08/step_02/CANDIDATE_INITIAL.md",
+          "sha256": "d5238bc2ef9407e3de483d386823b65a128eddaea6e10d7b0e85c33e9b42260c"
+        },
+        {
+          "role": "reviewed_result",
+          "path": "udt_hopfion_bridge_stability_reassessment_2026-09-08/step_02/REVIEWED_RESULT.md",
+          "sha256": "414e8c42dd5b0cf7b7bc478f801fe822645c66e712dccec988f06dbffb218fbe"
+        },
+        {
+          "role": "freeze",
+          "path": "udt_hopfion_bridge_stability_reassessment_2026-09-08/step_02/CANDIDATE_FREEZE.md",
+          "sha256": "ae766dcaa328223332430acca89ee68f2ac04e3d65d0787506ecb1cb5ba1f400"
+        },
+        {
+          "role": "review",
+          "path": "udt_hopfion_bridge_stability_reassessment_2026-09-08/step_02/review/SOURCE_FIRST_ARGUMENT.md",
+          "sha256": "93858299a8e7d6c42d3c996e8b84fc7b4c7552ecab2af3c2a999a3c6453ea89a"
+        },
+        {
+          "role": "review",
+          "path": "udt_hopfion_bridge_stability_reassessment_2026-09-08/step_02/review/SOURCE_FIRST_SCALAR_ADDENDUM.md",
+          "sha256": "0202dddcb79623716365d790e38c4e58def8ed805e411efab71f31ea846e3de1"
+        },
+        {
+          "role": "review",
+          "path": "udt_hopfion_bridge_stability_reassessment_2026-09-08/step_02/review/REVIEW_RECORD.md",
+          "sha256": "fbcef93d482f6b7546f4ecd450b52c2f88e66877a1035f6258a6bbab40122c81"
+        },
+        {
+          "role": "review",
+          "path": "udt_hopfion_bridge_stability_reassessment_2026-09-08/step_02/review/COMMAND_PROVENANCE.md",
+          "sha256": "879acd3f3bf32af12d3b2143c1f8c605da7c94e2a4ddec3735749eb9dc3f8f6c"
+        },
+        {
+          "role": "review_runtime_history",
+          "path": "udt_hopfion_bridge_stability_reassessment_2026-09-08/REVIEW_RUNTIME_RECORD.md",
+          "sha256": "5b94f2e3abd7a36e258574ea664ca360e787496f3972d526e6025c1ed2536751"
+        }
+      ],
+      "replay_labels": [
+        "hb2_author",
+        "hb2_matched"
+      ],
+      "unresolved_scientific_objections": [],
+      "remaining_integration_gates": [
+        "Parent current premise audit attribution and source preservation",
+        "Exact-scope banking/registry integration fidelity review"
+      ],
+      "current_gr_filter_qualification": "Any inherited active/admitted/lawful Einstein claim is conditional on the full reviewed equation and class premises. Current G312 GR filter alone does not force Ricci response; its reviewed class-membership route remains UNCLOSED. DDR/Local Metric Sufficiency remain owner-provisional, not canon.",
+      "original_review_identity": {
+        "context": "Fresh ephemeral user-dispatched thread 01a081e2-f777-7673-b61b-9aca409f2ccc",
+        "exact_backend_model_version": "UNKNOWN / UNATTESTED",
+        "different_model": "UNTESTED",
+        "human_or_formal_verification": "UNTESTED",
+        "original_computation_versions": "Python3.10.12 / SymPy1.13.1; NE1 also mpmath1.3.0",
+        "configured_identity": "Codex/GPT-6; original CLI configuration gpt-6-astra/xhigh, explicitly not backend attestation"
+      }
+    },
+    {
+      "candidate": "HB3",
+      "disposition": "PROMOTE_EXACT_REVIEWED_CONDITIONAL_MATHEMATICS",
+      "proposed_grade": [
+        "BANKED_DERIVED_CONDITIONAL",
+        "VERIFIED-WITH-CAVEATS",
+        "NOT_PHYSICAL_ADOPTION",
+        "NOT_CANON"
+      ],
+      "statement": "In the same strict HB2 family, complete-data T2 and simultaneous-conjugation symmetries preserve the angular simple Ricci line. For unequal weights, qdot=-120 w1(w1-w2)/(w2 Delta D0) is nonconstant in latitude; for every sufficiently small nonzero positive or negative time there are tori with closed leaves and other tori with dense nonclosed leaves. For equal nonround weights U2 symmetry preserves the Hopf line locally: all-closed persistence in this exact class holds iff the weights are equal.",
+      "assumptions": [
+        "Same strict global square-root/simple-gap domain, both root branches.",
+        "General local Cauchy uniqueness and complete-data isometry extension.",
+        "The tori may depend on time; the quantifier is existence at each sufficiently small nonzero time.",
+        "Denominator square is the nonconstant cubic (6-R)^2(R+2C^2-2Lambda)/2."
+      ],
+      "required_existing_source_ids": [
+        "G315",
+        "G330",
+        "G331",
+        "G332"
+      ],
+      "required_candidate_dependencies": [
+        "HB2"
+      ],
+      "methods_or_controls_not_separate_physical_premises": [
+        "Conditional Cauchy/isometry and rational/irrational linear-flow methods"
+      ],
+      "excluded_inferences": [
+        "Not a statement about every fixed torus or every leaf.",
+        "Unequal rational initial Seifert cases have exceptional fibres and are not free Hopf bundles.",
+        "No topology change, stability, physical carrier/source law or old-carrier recertification."
+      ],
+      "review_and_repair_history": [
+        "Fresh source-first/exposed direct reviewer, runtime model UNKNOWN.",
+        "Original dependency-pin failures and wrapper authentication failure are retained; finalization is a scoped hash/status repair, not changed science.",
+        "Python-build metadata changed in present replay only; scientific outputs match exactly.",
+        "Parent CLI event polls were truncated; complete raw CLI event transcript is NOT preserved. Scientific child code/argv/streams/resource/exposure records survive; they do not recover lost event buffers."
+      ],
+      "controlling_artifacts": [
+        {
+          "role": "candidate",
+          "path": "udt_hopfion_bridge_stability_reassessment_2026-09-08/step_03/CANDIDATE_INITIAL.md",
+          "sha256": "ab7f21be2bd32dad93bd89c9059bbc235c617592dec9182efc01575e7cbe78d4"
+        },
+        {
+          "role": "reviewed_result",
+          "path": "udt_hopfion_bridge_stability_reassessment_2026-09-08/step_03/REVIEWED_RESULT.md",
+          "sha256": "e3b76805363e41b93a8dafd018820bb521d9c19f6b81d076b951f7f7fd12be8a"
+        },
+        {
+          "role": "freeze",
+          "path": "udt_hopfion_bridge_stability_reassessment_2026-09-08/step_03/CANDIDATE_FREEZE.md",
+          "sha256": "d49863b06bf43fb9bade08454603119bf17a8c3500faeb6c740399b2547d993b"
+        },
+        {
+          "role": "dependency_finalization",
+          "path": "udt_hopfion_bridge_stability_reassessment_2026-09-08/step_03/DEPENDENCY_HASH_FINALIZATION.md",
+          "sha256": "d4d969c745e350861f3360ef648fdb0bf63facbbd3e05d816c37df1b653ba895"
+        },
+        {
+          "role": "review",
+          "path": "udt_hopfion_bridge_stability_reassessment_2026-09-08/step_03/review/SOURCE_FIRST_ARGUMENT.md",
+          "sha256": "6f5453f7650cc4f2118290d0b59f0f394795f5f02bb39d8793f0fad4da394ea0"
+        },
+        {
+          "role": "review",
+          "path": "udt_hopfion_bridge_stability_reassessment_2026-09-08/step_03/review/REVIEW_RECORD.md",
+          "sha256": "da6b3a9872eda767b9c3885e9d01fb9f209412f735474bbd85280cf4604fc4d7"
+        },
+        {
+          "role": "review",
+          "path": "udt_hopfion_bridge_stability_reassessment_2026-09-08/step_03/review/COMMAND_PROVENANCE.md",
+          "sha256": "8713822deb2c4b3393f5333651122bc4641ceb229dd35eee076af24ac521045a"
+        },
+        {
+          "role": "review_runtime_history",
+          "path": "udt_hopfion_bridge_stability_reassessment_2026-09-08/REVIEW_RUNTIME_RECORD.md",
+          "sha256": "5b94f2e3abd7a36e258574ea664ca360e787496f3972d526e6025c1ed2536751"
+        }
+      ],
+      "replay_labels": [
+        "hb3_author",
+        "hb3_ratio"
+      ],
+      "unresolved_scientific_objections": [],
+      "remaining_integration_gates": [
+        "Parent current premise audit attribution and source preservation",
+        "Exact-scope banking/registry integration fidelity review"
+      ],
+      "current_gr_filter_qualification": "Any inherited active/admitted/lawful Einstein claim is conditional on the full reviewed equation and class premises. Current G312 GR filter alone does not force Ricci response; its reviewed class-membership route remains UNCLOSED. DDR/Local Metric Sufficiency remain owner-provisional, not canon.",
+      "original_review_identity": {
+        "context": "Fresh ephemeral user-dispatched thread 01a081fb-cc47-7801-9954-2b1e30116d15",
+        "exact_backend_model_version": "UNKNOWN / UNATTESTED",
+        "different_model": "UNTESTED",
+        "human_or_formal_verification": "UNTESTED",
+        "original_computation_versions": "Python3.10.12 / SymPy1.13.1; NE1 also mpmath1.3.0",
+        "configured_identity": "Codex/GPT-6; original CLI configuration gpt-6-astra/xhigh, explicitly not backend attestation"
+      }
+    },
+    {
+      "candidate": "BI2",
+      "disposition": "PROMOTE_EXACT_REVIEWED_CONDITIONAL_MATHEMATICS",
+      "proposed_grade": [
+        "BANKED_DERIVED_CONDITIONAL",
+        "VERIFIED-WITH-CAVEATS",
+        "NOT_PHYSICAL_ADOPTION",
+        "NOT_CANON"
+      ],
+      "statement": "For every finite lawful left-invariant K on a fixed positive nonround Berger metric in the full BI1/G376 constraint quadric, complete-data symmetries yield an actual local homogeneous Einstein development. The original simple Ricci branch/projector and free Hopf circles, including absolute metric-period integral one, persist on a datum-dependent positive Gaussian interval while both complete gaps remain nonzero. Direct unaveraged horizontal metric descent through time zero holds iff the initial horizontal K block is scalar.",
+      "assumptions": [
+        "Use full G376 quadric, including both roots, zero and trace sectors and horizontal shear after initial SO2 diagonalization.",
+        "Track the ORIGINAL Ricci branch even if all three branches become simple.",
+        "Both gaps 4(x3-xj)(x3+xj-xk)/(x1 x2 x3) must remain nonzero.",
+        "Direct descent refers to the original unaveraged horizontal metric, not arbitrary quotient metrics."
+      ],
+      "required_existing_source_ids": [
+        "G315",
+        "G330",
+        "G376"
+      ],
+      "required_candidate_dependencies": [],
+      "methods_or_controls_not_separate_physical_premises": [
+        "General smooth Cauchy uniqueness/isometry extension; G337 underlies G376 full variation",
+        "BI3/HB results are not dependencies"
+      ],
+      "excluded_inferences": [
+        "Shear causes departure of direct metric descent for all small nonzero times in both directions but does not destroy the circles.",
+        "Pure-trace K is not necessary.",
+        "No global lifetime, stability, physical carrier, topology change or exclusion of another quotient metric."
+      ],
+      "review_and_repair_history": [
+        "First fresh reviewer accidentally saw a whiteboard log; preserved initial review is supplemented by a fresh focused source-first review with strict isolation.",
+        "Original two printed-control false passes (negated Ricci/gaps and all-true descent flags) are excluded and independently caught by saved-control correspondence.",
+        "Five actual author catches do not certify all output fields. Inherit G376/BI1 full-operator blind-spot limitations.",
+        "Present replay used an unchanged 33-input bounded copy of exposed_comparison.py because original writes EXPOSED_HASHES.json; original artifact bytes untouched.",
+        "Runtime model UNKNOWN, shared SymPy, different-model untested."
+      ],
+      "controlling_artifacts": [
+        {
+          "role": "candidate",
+          "path": "udt_berger_initial_data_preservation_campaign_2026-09-08/step_02/CANDIDATE_INITIAL.md",
+          "sha256": "863e79807c6ece4308f8ab4397cb65a4e39504c31b5bc486a292ac70a3e902a3"
+        },
+        {
+          "role": "reviewed_result",
+          "path": "udt_berger_initial_data_preservation_campaign_2026-09-08/step_02/REVIEWED_RESULT.md",
+          "sha256": "3fedeb45deb9db18a0046090ff4412cd5fdfd6fe13f42660fb31c0caf340916d"
+        },
+        {
+          "role": "freeze",
+          "path": "udt_berger_initial_data_preservation_campaign_2026-09-08/step_02/CANDIDATE_FREEZE.md",
+          "sha256": "e2fab225c232ecd8e29957c409bc0f4d4c86f2ba7970d3701281a44d9e861322"
+        },
+        {
+          "role": "review",
+          "path": "udt_berger_initial_data_preservation_campaign_2026-09-08/step_02/review/SOURCE_FIRST_ARGUMENT.md",
+          "sha256": "9b8f01506708f32be6a9e5cf3602f9b4ad9a044ac38ac5d863ffa08e8e8011d7"
+        },
+        {
+          "role": "review",
+          "path": "udt_berger_initial_data_preservation_campaign_2026-09-08/step_02/review/REVIEW_REPORT.md",
+          "sha256": "71eb969bac3eda791bf2906cf1cc9567de20055b7d93f7be388ae18411eec79e"
+        },
+        {
+          "role": "review",
+          "path": "udt_berger_initial_data_preservation_campaign_2026-09-08/step_02/focused_review/SOURCE_FIRST_ARGUMENT.md",
+          "sha256": "0e2d7e89797eaa23166e684f0da1760a43ff644bd79a765e10dad9ab5a3182f7"
+        },
+        {
+          "role": "review",
+          "path": "udt_berger_initial_data_preservation_campaign_2026-09-08/step_02/focused_review/REVIEW_REPORT.md",
+          "sha256": "33c2e6e5880f3cfa24906f1c6b23fabfe2e1a7f57b857131045fd8eead7e6245"
+        }
+      ],
+      "replay_labels": [
+        "bi2_author",
+        "bi2_focused",
+        "bi2_saved_comparison"
+      ],
+      "unresolved_scientific_objections": [],
+      "remaining_integration_gates": [
+        "Parent current premise audit attribution and source preservation",
+        "Exact-scope banking/registry integration fidelity review"
+      ],
+      "current_gr_filter_qualification": "Any inherited active/admitted/lawful Einstein claim is conditional on the full reviewed equation and class premises. Current G312 GR filter alone does not force Ricci response; its reviewed class-membership route remains UNCLOSED. DDR/Local Metric Sufficiency remain owner-provisional, not canon.",
+      "original_review_identity": {
+        "context": "Original fresh user-designated Codex review and later fresh focused Codex review",
+        "exact_backend_model_version": "UNKNOWN / UNATTESTED",
+        "different_model": "UNTESTED",
+        "human_or_formal_verification": "UNTESTED",
+        "original_computation_versions": "Python3.10.12 / SymPy1.13.1; NE1 also mpmath1.3.0"
+      }
+    },
+    {
+      "candidate": "BI3",
+      "disposition": "PROMOTE_EXACT_REVIEWED_CONDITIONAL_MATHEMATICS",
+      "proposed_grade": [
+        "BANKED_DERIVED_CONDITIONAL",
+        "VERIFIED-WITH-CAVEATS",
+        "NOT_PHYSICAL_ADOPTION",
+        "NOT_CANON"
+      ],
+      "statement": "For every fixed positive nonround Berger gamma, marked point o, h!=0 and Lambda=R/2+3h^2, and every real epsilon, there is an actual analytic K on an epsilon-dependent local patch satisfying all exact constraints with that same gamma,Lambda and K(o)=h gamma, DK(o)=0, while the normal simple-Ricci-line drift is Y=epsilon e2/Delta and the mixed projector drift is epsilon/Delta. Nonzero epsilon gives actual marked short-normal departure under local Cauchy development.",
+      "assumptions": [
+        "Local analytic noncharacteristic constraint construction uses Hamiltonian elimination plus all three noncommuting momentum equations.",
+        "Fixed nonround simple gap; h!=0 is a parameterization restriction, not a general obstruction at h=0.",
+        "Marked point and normal continuation are supplied comparison data."
+      ],
+      "required_existing_source_ids": [
+        "G315",
+        "G330",
+        "G337",
+        "G376"
+      ],
+      "required_candidate_dependencies": [],
+      "methods_or_controls_not_separate_physical_premises": [
+        "Analytic Cauchy-Kowalevski and local Einstein Cauchy methods",
+        "BI2 mutation-driver reuse is a method/control, not a scientific dependency"
+      ],
+      "excluded_inferences": [
+        "No global S3 gluing, global orbit/topology/stability or physical carrier result.",
+        "Bare polynomial jet is not an exact solution: residual -epsilon^2 u^4/2 remains the countercontrol.",
+        "Round case has no selected simple Ricci line."
+      ],
+      "review_and_repair_history": [
+        "Fresh original source-first/direct review; independent different local e1 subfamily and full tensors.",
+        "Actual omit-2hB mutation passes 55 author checks but independent full Bdot diagonal detects it; mixed drift survivor unchanged. Inherit G376/BI1 false-pass exclusions.",
+        "Historical threaded git-lstat capture failure is operational; retained bounded capture repair changes no science.",
+        "Runtime model UNKNOWN/different-model untested."
+      ],
+      "controlling_artifacts": [
+        {
+          "role": "candidate",
+          "path": "udt_berger_initial_data_preservation_campaign_2026-09-08/step_03/CANDIDATE_INITIAL.md",
+          "sha256": "c4b285c4b080fcda9d91c8e70c605fccec132f0a8335638d91b2297d32673ade"
+        },
+        {
+          "role": "reviewed_result",
+          "path": "udt_berger_initial_data_preservation_campaign_2026-09-08/step_03/REVIEWED_RESULT.md",
+          "sha256": "a2102c81e6b334e12d3e528b5532ff6a5b9b0376548ecacf5c6c43c434c5cb0c"
+        },
+        {
+          "role": "freeze",
+          "path": "udt_berger_initial_data_preservation_campaign_2026-09-08/step_03/CANDIDATE_FREEZE.md",
+          "sha256": "8e48eac4f3ab2a8e40dd6921b79a14da68b40e0aa8f807a069464f8ca135816d"
+        },
+        {
+          "role": "review",
+          "path": "udt_berger_initial_data_preservation_campaign_2026-09-08/step_03/review/SOURCE_FIRST_ARGUMENT.md",
+          "sha256": "f1df54d6699dffd56f7fef2d76f78a8fa6063f2eecb77e4495a08047367f9b14"
+        },
+        {
+          "role": "review",
+          "path": "udt_berger_initial_data_preservation_campaign_2026-09-08/step_03/review/REVIEW_REPORT.md",
+          "sha256": "304eea827a56455d75ebbcbfb6a7f2b6a69de5dd38d13cdf2c993240676143ef"
+        }
+      ],
+      "replay_labels": [
+        "bi3_author",
+        "bi3_full"
+      ],
+      "unresolved_scientific_objections": [],
+      "remaining_integration_gates": [
+        "Parent current premise audit attribution and source preservation",
+        "Exact-scope banking/registry integration fidelity review"
+      ],
+      "current_gr_filter_qualification": "Any inherited active/admitted/lawful Einstein claim is conditional on the full reviewed equation and class premises. Current G312 GR filter alone does not force Ricci response; its reviewed class-membership route remains UNCLOSED. DDR/Local Metric Sufficiency remain owner-provisional, not canon.",
+      "original_review_identity": {
+        "context": "Fresh user-designated Codex review",
+        "exact_backend_model_version": "UNKNOWN / UNATTESTED",
+        "different_model": "UNTESTED",
+        "human_or_formal_verification": "UNTESTED",
+        "original_computation_versions": "Python3.10.12 / SymPy1.13.1; NE1 also mpmath1.3.0"
+      }
+    }
+  ]
+}

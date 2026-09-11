@@ -1,0 +1,210 @@
+[
+  {
+    "label": "nr1_author",
+    "script": "udt_nonlinear_mode_realizability_campaign_2026-09-09/step_01/check_nr1.py",
+    "saved_stdout": "udt_nonlinear_mode_realizability_campaign_2026-09-09/step_01/initial_checks.stdout",
+    "kind": "original-author-regression",
+    "script_sha256": "e1957936ebbdb0348e13e63f17003aea5e3f8d9b3ab895dce7df48c0c1f93357",
+    "saved_stdout_sha256": "9c9b80e8cc26daafaa4d96c674e38e9f147f6b2254bc18592fced6dda5e15701"
+  },
+  {
+    "label": "nr2_author",
+    "script": "udt_nonlinear_mode_realizability_campaign_2026-09-09/step_02/check_nr2.py",
+    "saved_stdout": "udt_nonlinear_mode_realizability_campaign_2026-09-09/step_02/frozen_checks.stdout",
+    "kind": "original-author-regression",
+    "script_sha256": "00468b6e96ff66056b5c012522f2a6f34a3c3179a9bc472f75b96c207eb46817",
+    "saved_stdout_sha256": "d953db7e12e5e293039ebf90feb59f88260407a18062377de6e45211c413f60f"
+  },
+  {
+    "label": "lg1_author",
+    "script": "udt_localized_geometry_campaign_2026-09-09/step_01/author_check.py",
+    "saved_stdout": "udt_localized_geometry_campaign_2026-09-09/step_01/author.stdout",
+    "kind": "original-author-regression",
+    "script_sha256": "fd67ab5442ccd0df2c4d6340e7ec7f88d44696d0f81f26b4eef2d3ce10678efa",
+    "saved_stdout_sha256": "592becbf8867138f6ee4f2a6a9085f5192d3ab922834e28acceb55e4cec9ff5b"
+  },
+  {
+    "label": "lg2_author",
+    "script": "udt_localized_geometry_campaign_2026-09-09/step_02/author_check.py",
+    "saved_stdout": "udt_localized_geometry_campaign_2026-09-09/step_02/author.stdout",
+    "kind": "original-author-regression",
+    "script_sha256": "b76b7bb39d07b35fafe9c05beae4e25b03cfb10a77ae696b28c4e36b7320253f",
+    "saved_stdout_sha256": "3dc4a4cdd7e943808d5cd68ff77a18ee497c8ea721a0872c8e69bea101162e54"
+  },
+  {
+    "label": "le1_author",
+    "script": "udt_localized_evolution_followup_2026-09-09/check_evolution.py",
+    "saved_stdout": "udt_localized_evolution_followup_2026-09-09/author_check.stdout",
+    "kind": "original-author-regression",
+    "script_sha256": "20e87c1ed6d0a706ed6c449a3700c3a38ac99072a55136ef86797db7e24ccd6c",
+    "saved_stdout_sha256": "06c72d2dd2ed8a17dc2fc4d0a7f4ee2ca3ebfc4621d66cb6148704fd1f05f06b"
+  },
+  {
+    "label": "se1_geometry",
+    "script": "udt_spatial_curvature_evolution_2026-09-09/check_geometry.py",
+    "saved_stdout": "udt_spatial_curvature_evolution_2026-09-09/author_geometry_initial.stdout",
+    "kind": "original-author-regression",
+    "script_sha256": "3d83cd0d9e4bbfe29087ff6961ef0de231bdcf924464a5012d1712908f7df53a",
+    "saved_stdout_sha256": "ea114e3c9effdeb122bb22d5c992d62190a04263558961b33f65d417af38417c"
+  },
+  {
+    "label": "se1_matched",
+    "script": "udt_spatial_curvature_evolution_2026-09-09/check_matched_data.py",
+    "saved_stdout": "udt_spatial_curvature_evolution_2026-09-09/author_matched_initial.stdout",
+    "kind": "original-author-regression",
+    "script_sha256": "838f02490eaa6d248a03ee05843c13d21bc9b50a4c63ff5862e6e85e885cc373",
+    "saved_stdout_sha256": "141f5791a67cbe60b53ce33303106e63a87a5790cb658d5f58ed900ae4239d57"
+  },
+  {
+    "label": "ne1_metric",
+    "script": "udt_nonlinear_ripple_geometry_2026-09-09/check_original_metric.py",
+    "saved_stdout": "udt_nonlinear_ripple_geometry_2026-09-09/original_metric_run.stdout",
+    "kind": "original-author-regression",
+    "script_sha256": "3f394ed0ae3761f380a89bb3ecbaffc77aaaf6e2dcb956e9110af7665120c08b",
+    "saved_stdout_sha256": "21581fa4356afcda2ec5c7d4f0dbabd0aa6ecf7f57863879756fb6293c0fb904"
+  },
+  {
+    "label": "ne1_profile",
+    "script": "udt_nonlinear_ripple_geometry_2026-09-09/check_profile.py",
+    "saved_stdout": "udt_nonlinear_ripple_geometry_2026-09-09/profile_run.stdout",
+    "kind": "original-author-regression",
+    "script_sha256": "e9bad0cf84a444516715a75e9ccde84452d552aa362291dc318201e75c7035bb",
+    "saved_stdout_sha256": "cad92576166f4b285f9d4b232c623f7f595c523441812315caee64e93102e99c"
+  },
+  {
+    "label": "hb2_author",
+    "script": "udt_hopfion_bridge_stability_reassessment_2026-09-08/step_02/check_drift.py",
+    "saved_stdout": "udt_hopfion_bridge_stability_reassessment_2026-09-08/step_02/author_check_initial.stdout",
+    "kind": "original-author-regression",
+    "script_sha256": "52eea245a035284c3699cb3530e2af5d827260862cd16ba03f7f66529730fed8",
+    "saved_stdout_sha256": "9d612f71809b370205acd2645cc9134dc31ffc7db863bf710ae2ef7b7a38c62b"
+  },
+  {
+    "label": "hb3_author",
+    "script": "udt_hopfion_bridge_stability_reassessment_2026-09-08/step_03/check_orbits.py",
+    "saved_stdout": "udt_hopfion_bridge_stability_reassessment_2026-09-08/step_03/author_check_final_pin.stdout",
+    "kind": "original-author-regression",
+    "script_sha256": "57a152c36e90fbd091acba80b21905088df293c3def2b61077d05ae96c5c843b",
+    "saved_stdout_sha256": "61041abca88c827ef5ae38b340295b55caeee0a00ba41bc16257764c26e0a0c1"
+  },
+  {
+    "label": "bi2_author",
+    "script": "udt_berger_initial_data_preservation_campaign_2026-09-08/step_02/check_bi2.py",
+    "saved_stdout": "udt_berger_initial_data_preservation_campaign_2026-09-08/step_02/author_check_01.stdout",
+    "kind": "original-author-regression",
+    "script_sha256": "7c1c6fe8485247135c29a741a28f9b217d4fe1434fe5e819333e12848b9029d3",
+    "saved_stdout_sha256": "423f9753f53f0971b430538e504bf1877375d3efd2d5bf7d7d3f0678174dbd64"
+  },
+  {
+    "label": "bi3_author",
+    "script": "udt_berger_initial_data_preservation_campaign_2026-09-08/step_03/check_bi3.py",
+    "saved_stdout": "udt_berger_initial_data_preservation_campaign_2026-09-08/step_03/author_check_01.stdout",
+    "kind": "original-author-regression",
+    "script_sha256": "3525ab5ae013eb8826ee31463368a67ccc9ee5f5faa334f26842de4d17698d4b",
+    "saved_stdout_sha256": "9addd55b65014f187f23746b420cbc39d97071358d1b4edb06a9046f183fa821"
+  },
+  {
+    "label": "nr1_adm",
+    "script": "udt_nonlinear_mode_realizability_campaign_2026-09-09/step_01/review/independent_adm_check.py",
+    "saved_stdout": "udt_nonlinear_mode_realizability_campaign_2026-09-09/step_01/review/independent_adm_initial.stdout",
+    "kind": "original-review-implementation-replay",
+    "script_sha256": "ca53b67447808a22b61fcb14eef02912180ea71430dde45539980d4cf785a23e",
+    "saved_stdout_sha256": "905b483d6558ef731594fe36d31a1e4c0005de9da519f961e6a58ec97e5928ee"
+  },
+  {
+    "label": "nr1_harmonic",
+    "script": "udt_nonlinear_mode_realizability_campaign_2026-09-09/step_01/review/harmonic_guard_followup.py",
+    "saved_stdout": "udt_nonlinear_mode_realizability_campaign_2026-09-09/step_01/review/harmonic_followup.stdout",
+    "kind": "original-review-implementation-replay",
+    "script_sha256": "21feabc105e96dcd35c15453270790d69a65d2581345ac82e079de03c2bf384b",
+    "saved_stdout_sha256": "83be9461306ab81d2945d5af5ce49417b48a802f350e433da4c4429173a2c25c"
+  },
+  {
+    "label": "lg1_adjoint",
+    "script": "udt_localized_geometry_campaign_2026-09-09/step_01/review/check_adjoint_from_constraints.py",
+    "saved_stdout": "udt_localized_geometry_campaign_2026-09-09/step_01/review/adjoint_constraint_check.stdout",
+    "kind": "original-review-implementation-replay",
+    "script_sha256": "c2698dd66d3957e065f41ff390f59097418772e82240f0779736f309879d8af5",
+    "saved_stdout_sha256": "9d3718c89565522890c98bf6cceaafa5916cf9197be04a4f7ec1425572cc55ee"
+  },
+  {
+    "label": "le1_boost",
+    "script": "udt_localized_evolution_followup_2026-09-09/review/direct_tensor_boost.py",
+    "saved_stdout": "udt_localized_evolution_followup_2026-09-09/review/direct_tensor_boost.stdout",
+    "kind": "original-review-implementation-replay",
+    "script_sha256": "cdaedb934562147f867df7d26c71fe43490ee62342c94228e4cba1cf67c1d8e9",
+    "saved_stdout_sha256": "d14f227b6de0ed869ed20dbdfa970a32954845e97cc8dab3434f8c24545631b7"
+  },
+  {
+    "label": "se1_bianchi",
+    "script": "udt_spatial_curvature_evolution_2026-09-09/review/bianchi_components.py",
+    "saved_stdout": "udt_spatial_curvature_evolution_2026-09-09/review/bianchi_components_run.stdout",
+    "kind": "original-review-implementation-replay",
+    "script_sha256": "b2f4d5bdc0f8d77f46edbe9afb1534f88405984349c4e8657eee60d3600e7bcf",
+    "saved_stdout_sha256": "0f17c0a39b9b5963ad52724e08a19c560a405d097f2299d4badbb1d4854bb3f1"
+  },
+  {
+    "label": "se1_tensor",
+    "script": "udt_spatial_curvature_evolution_2026-09-09/review/direct_tensor.py",
+    "saved_stdout": "udt_spatial_curvature_evolution_2026-09-09/review/direct_tensor_run.stdout",
+    "kind": "original-review-implementation-replay",
+    "script_sha256": "e2d33c871d46c3c5e73dcfb3689d531092db99b35af53c5be942e1d1a1e7dbe9",
+    "saved_stdout_sha256": "d251284dbbb6a23dd03448e7269a68bdbfb1816b60e610662426895a1b787f47"
+  },
+  {
+    "label": "ne1_tidal",
+    "script": "udt_nonlinear_ripple_geometry_2026-09-09/review/direct_tidal.py",
+    "saved_stdout": "udt_nonlinear_ripple_geometry_2026-09-09/review/direct_tidal_run.stdout",
+    "kind": "original-review-implementation-replay",
+    "script_sha256": "5ca05059b0df75feaf67e0ef36c2cf84729cea116a943b244c30e8aed281f71b",
+    "saved_stdout_sha256": "4d1ac27ba405f71f0ac6cb7c3706dd3640feb3785ac58c5513684f456630762c"
+  },
+  {
+    "label": "hb2_matched",
+    "script": "udt_hopfion_bridge_stability_reassessment_2026-09-08/step_02/review/post_exposure_matched_check.py",
+    "saved_stdout": "udt_hopfion_bridge_stability_reassessment_2026-09-08/step_02/review/post_exposure_matched.stdout",
+    "kind": "original-review-implementation-replay",
+    "script_sha256": "b072e76a8574cbf681dea9809e20b2f10ee3d5e742adb95b0d7a0f67a19a6157",
+    "saved_stdout_sha256": "6ee93d5bf4ba9f4a822fce920b654770e89a9a4667a0f3a53d715aee92400a60"
+  },
+  {
+    "label": "hb3_ratio",
+    "script": "udt_hopfion_bridge_stability_reassessment_2026-09-08/step_03/review/direct_curvature_ratio_check.py",
+    "saved_stdout": "udt_hopfion_bridge_stability_reassessment_2026-09-08/step_03/review/direct_curvature_ratio.stdout",
+    "kind": "original-review-implementation-replay",
+    "script_sha256": "4b7124f648f77940712f0fd34816cb4d2a0e1a42a6153e278e6c6a16dea23243",
+    "saved_stdout_sha256": "256a0fea5b38460a3f8fd1310625df7620a9a65f8e80ffc2ffba12ad78d48934"
+  },
+  {
+    "label": "bi2_focused",
+    "script": "udt_berger_initial_data_preservation_campaign_2026-09-08/step_02/focused_review/source_first_check.py",
+    "saved_stdout": "udt_berger_initial_data_preservation_campaign_2026-09-08/step_02/focused_review/source_first_check.stdout",
+    "kind": "original-review-implementation-replay",
+    "script_sha256": "47c43d62e49e0501f870f9ac3a89c1da4f2f76026fe909863965a175162fb2a3",
+    "saved_stdout_sha256": "3af1cf4b34a99796f1001473a7058030dce479a86f3486f1d1922ef989b70d91"
+  },
+  {
+    "label": "bi3_full",
+    "script": "udt_berger_initial_data_preservation_campaign_2026-09-08/step_03/review/compare_candidate.py",
+    "saved_stdout": "udt_berger_initial_data_preservation_campaign_2026-09-08/step_03/review/candidate_comparison.stdout",
+    "kind": "original-review-implementation-replay",
+    "script_sha256": "ae7a80ea530e4c14d50bf4b1c405323673ebb4813c76ff3c46d3ff616dd5a6e1",
+    "saved_stdout_sha256": "8cb9ee6b0edb668c37e0fd43ae04186dc57cb3d95660e31624b0564cd4eb98da"
+  },
+  {
+    "label": "nr2_evolution",
+    "script": "udt_nonlinear_mode_realizability_campaign_2026-09-09/step_02/review/independent_evolution_interface.py",
+    "saved_stdout": "udt_nonlinear_mode_realizability_campaign_2026-09-09/step_02/review/independent_evolution_first.stdout",
+    "kind": "original-review-implementation-replay",
+    "script_sha256": "d0be2e7e10099846cfe73a7a8bb0867732beac043d3d590686fb2521fb8355c9",
+    "saved_stdout_sha256": "4d20693bd9728ae667221867ded18e29588c514c20a9e570ae492f2ac027a975"
+  },
+  {
+    "label": "lg2_repair",
+    "script": "udt_localized_geometry_campaign_2026-09-09/step_02/review/direct_checks.py",
+    "saved_stdout": "udt_localized_geometry_campaign_2026-09-09/step_02/review/direct_checks_run.stdout",
+    "kind": "original-review-implementation-replay",
+    "script_sha256": "7ea132bf2ff5b94559075d0f848d16a42c3a5e24623bbc6aa64e9d8d621e5a88",
+    "saved_stdout_sha256": "90f7ae34ba947b36c58ada7e568da958fec823955684a525cb2bdfeba2e6f15c"
+  }
+]

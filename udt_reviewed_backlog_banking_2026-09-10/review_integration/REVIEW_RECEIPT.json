@@ -1,0 +1,161 @@
+{
+  "reviewer": "/root/banking_integration_review",
+  "runtime_model_version": "UNATTESTED",
+  "fresh_context": true,
+  "source_exposed": true,
+  "different_model": "UNTESTED",
+  "independent_scientific_reproof": false,
+  "independent_correspondence_mutation_AST_implementation": true,
+  "first_observed_utc": "2026-09-11T00:28:33Z",
+  "completed_utc": "2026-09-11T00:40:38.147655+00:00",
+  "python": "3.10.12 (main, Aug 31 2026, 10:18:17) [GCC 11.4.0]",
+  "argv": [
+    "udt_reviewed_backlog_banking_2026-09-10/review_integration/seal_review.py"
+  ],
+  "verdict": "VERIFIED_WITH_CAVEATS_EXACT_INTEGRATION_FIDELITY",
+  "unresolved_scientific_or_transcription_objections": [],
+  "parent_pending_gates": [
+    "final full395 audit",
+    "navigation guard repair/short regression",
+    "final acceptance record/pins",
+    "preservation and publication"
+  ],
+  "captures": {
+    "integrity_01": {
+      "command": [
+        "python3",
+        "/home/udt-admin/udt_mass_codex/udt_reviewed_backlog_banking_2026-09-10/review_integration/independent_integrity.py"
+      ],
+      "cwd": "/home/udt-admin/udt_mass_codex",
+      "started_utc": "2026-09-11T00:32:34.775749+00:00",
+      "duration_seconds": 0.2447941959835589,
+      "returncode": 1,
+      "timeout": false,
+      "address_space_bytes": 536870912,
+      "cpu_seconds": 120,
+      "maxrss_kib": 32716,
+      "stdout_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stderr_sha256": "bcfba109138f212d1b9e88f91c2bd12884067efd03d572e8e1436d25344791e2",
+      "capture_provenance_sha256": "204d479bbac5f45a22a64c56bba5074ba3261da6b580b23ec9990af6f74cf910"
+    },
+    "git_status_failure_diagnostic": {
+      "command": [
+        "git",
+        "status",
+        "--porcelain=v1",
+        "-uall"
+      ],
+      "cwd": "/home/udt-admin/udt_mass_codex",
+      "started_utc": "2026-09-11T00:33:00.602147+00:00",
+      "duration_seconds": 0.006399358971975744,
+      "returncode": 128,
+      "timeout": false,
+      "address_space_bytes": 536870912,
+      "cpu_seconds": 120,
+      "maxrss_kib": 14400,
+      "stdout_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stderr_sha256": "589861a8b1f1eae59294389bb2fe42f025abd8f69f65b9008bad37544600ba0d",
+      "capture_provenance_sha256": "d3a1e4d5964414a9a3ad0eabd687a0e5199c8ca67bb4ccc608510b380186c0ca"
+    },
+    "integrity_02": {
+      "command": [
+        "python3",
+        "udt_reviewed_backlog_banking_2026-09-10/review_integration/independent_integrity.py"
+      ],
+      "cwd": "/home/udt-admin/udt_mass_codex",
+      "started_utc": "2026-09-11T00:33:11.352970+00:00",
+      "duration_seconds": 0.2820940630044788,
+      "returncode": 1,
+      "timeout": false,
+      "address_space_bytes": 536870912,
+      "cpu_seconds": 120,
+      "maxrss_kib": 32884,
+      "stdout_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stderr_sha256": "4283664ff03670680d1f6176235d99ce9c6a13d35ed031e60da7be14b17eda93",
+      "capture_provenance_sha256": "d25018d0405def4cd198211e0627d786803ed35e034e3451de5b684ad7196e70"
+    },
+    "integrity_03": {
+      "command": [
+        "python3",
+        "udt_reviewed_backlog_banking_2026-09-10/review_integration/independent_integrity.py"
+      ],
+      "cwd": "/home/udt-admin/udt_mass_codex",
+      "started_utc": "2026-09-11T00:33:32.569820+00:00",
+      "duration_seconds": 0.2833012869814411,
+      "returncode": 0,
+      "timeout": false,
+      "address_space_bytes": 536870912,
+      "cpu_seconds": 120,
+      "maxrss_kib": 24280,
+      "stdout_sha256": "9a96d367a4f958269169ec64706407e580b5bdb76f0d45978e52a7cf485c180d",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "capture_provenance_sha256": "d25018d0405def4cd198211e0627d786803ed35e034e3451de5b684ad7196e70"
+    },
+    "targeted_pytest_01": {
+      "command": [
+        "python3",
+        "-m",
+        "pytest",
+        "--noconftest",
+        "-q",
+        "tests/test_reviewed_backlog_banking.py",
+        "tests/test_startup_surface.py",
+        "-k",
+        "not full_foundational",
+        "-p",
+        "no:cacheprovider"
+      ],
+      "cwd": "/home/udt-admin/udt_mass_codex",
+      "started_utc": "2026-09-11T00:32:34.794739+00:00",
+      "duration_seconds": 10.698467483976856,
+      "returncode": 0,
+      "timeout": false,
+      "address_space_bytes": 536870912,
+      "cpu_seconds": 120,
+      "maxrss_kib": 50064,
+      "stdout_sha256": "cf04b9cf6c5b4dd90f6f324565a9973383d4cee60963030b8e1dc26122ba571e",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "capture_provenance_sha256": "81cca74f7695d64a85f78244de71e321c75c0b4922f377a001e7293f9584f14c"
+    },
+    "adversarial_01": {
+      "command": [
+        "python3",
+        "udt_reviewed_backlog_banking_2026-09-10/review_integration/adversarial_integration.py"
+      ],
+      "cwd": "/home/udt-admin/udt_mass_codex",
+      "started_utc": "2026-09-11T00:35:58.088587+00:00",
+      "duration_seconds": 3.8571370739955455,
+      "returncode": 0,
+      "timeout": false,
+      "address_space_bytes": 536870912,
+      "cpu_seconds": 120,
+      "maxrss_kib": 188704,
+      "stdout_sha256": "55021674175dcf13705607043cb925a3d1d69b5224a0af38bd38369bfbb184c3",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "capture_provenance_sha256": "f4b6b748ca084d907dc68666a6ce92d28a50ddef1f5870dd5c082023f732a8db"
+    }
+  },
+  "report_sha256": "83fbc597c28b7c4247dd5767995a33896ceafed4ba3fcb49a913afd405d839c9",
+  "per_claim_dispositions_sha256": "39ee937f3f9cc78f6ac63db279c928815c7b7c418ee013580ce79988b5a4c8ea",
+  "reviewed_snapshot": {
+    "AGENTS.md": "d962ed12dddd67c65d531b96f7dd004db677afd6396e15ada3a9d921d05ddbf7",
+    "CURRENT_RESEARCH_PROGRAM.md": "afd54e9f93278fc7e0a26cffe99d2f54baca1e8fa010c853ae106efe472b34ad",
+    "CURRENT_SCIENTIFIC_PREMISES.md": "7c4e38dfc8d109cd47c2536281619e604a6c4463682e0a13e8def108ffc4d678",
+    "CURRENT_SCIENTIFIC_PREMISES.tsv": "6fc63338cf5562d72d0313e2376474ad9ac908841a64e82fc74e0bc93b8ae43a",
+    "HANDOFF.md": "1d1a2e84d6203f0a05feec4c30b4850e9168e6ef779fb4aa6bf23f1a8c034b82",
+    "INDEX.md": "c7d386e895e68bb70c43f8c418381f9b53750d87d658e636052d50c5eca629ee",
+    "LIVE.md": "5b59079bbf0705d230d451d9289994ec70b49d996b6a7ab6a8477db8a9a8b7f9",
+    "MEMORY.md": "c1d8c35b74e08351c97438eb7ad675d563303356926bf7de2f6c6d8c6de39937",
+    "UDT_RESEARCH_ROADMAP.md": "b8adb4a6d2489e1b26ff844f6438480754f3a3f2b5c5ef6d080fc1a9c447cb97",
+    "tests/test_startup_surface.py": "540098cce429c4ea475b11b0a8552b418b96213b78fa995a2273257491bcda67",
+    "verify_current_scientific_premises.py": "4dc3465110d3f97a25eb155884f31dc5eec5601e6e314ee8942879df640e298d",
+    "udt_reviewed_backlog_banking_2026-09-10/BANKING_RECORD.md": "618b4b953a419b991e0ae7f0c643487536b8e76ba7b0b0c7de53db17fbde81b2",
+    "udt_reviewed_backlog_banking_2026-09-10/BANKED_CLAIMS.json": "4b98b1dea6ce9dc0d62f9fa6183c1379aed534989159b45a208dad93fce12c2e",
+    "udt_reviewed_backlog_banking_2026-09-10/BANKED_ROWS.tsv": "2115d3edd646655726720bd8dc2e166ab87952db885f412e8b0200bd81a549e8",
+    "udt_reviewed_backlog_banking_2026-09-10/DISPOSITIONS.tsv": "6df218c360178de86a91533342a2c5fd7e657492c1e66087406abaa24475610e",
+    "udt_reviewed_backlog_banking_2026-09-10/SOURCE_EVIDENCE_SHA256SUMS": "94d15fa2f49cc5f01fa492d28577a9fa33c1a9e7eedacc9cb12a09002eefeeca",
+    "udt_reviewed_backlog_banking_2026-09-10/SOURCE_MANIFEST_SCOPE.json": "be7e7271cdee9c69ff73b984a4bac1be769087acb11db417b9c94c8ee5821a5c",
+    "udt_reviewed_backlog_banking_2026-09-10/WORK_ORDER.md": "8b97791764ff7ba2d0fd77e490d3004d1d99679a3032175ee6c7764ef5108c54",
+    "tests/test_reviewed_backlog_banking.py": "96d1ec441121b3894892a4a246e5f2257708b92494d5b22132b56e29c771a861"
+  }
+}

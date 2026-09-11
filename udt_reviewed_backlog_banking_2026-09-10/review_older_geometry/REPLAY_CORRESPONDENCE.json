@@ -1,0 +1,63 @@
+{
+  "total_runs": 34,
+  "all_child_exits_zero": true,
+  "non_byte_identical_outputs": [
+    {
+      "label": "recipe_independent",
+      "differences": [
+        {
+          "key": "finish_utc",
+          "saved": "2026-09-06T19:05:07.811344+00:00",
+          "replay": "2026-09-11T00:09:54.352634+00:00"
+        },
+        {
+          "key": "start_utc",
+          "saved": "2026-09-06T19:05:01.933469+00:00",
+          "replay": "2026-09-11T00:09:48.389912+00:00"
+        }
+      ]
+    },
+    {
+      "label": "hb3_author",
+      "only_changed_field": "versions.python",
+      "saved": "3.10.12 (main, Jun 22 2026, 18:55:27) [GCC 11.4.0]",
+      "replay": "3.10.12 (main, Aug 31 2026, 10:18:17) [GCC 11.4.0]"
+    },
+    {
+      "label": "hb2_matched",
+      "only_changed_field": "versions.python",
+      "saved": "3.10.12 (main, Jun 22 2026, 18:55:27) [GCC 11.4.0]",
+      "replay": "3.10.12 (main, Aug 31 2026, 10:18:17) [GCC 11.4.0]"
+    },
+    {
+      "label": "hb3_ratio",
+      "only_changed_field": "versions.python",
+      "saved": "3.10.12 (main, Jun 22 2026, 18:55:27) [GCC 11.4.0]",
+      "replay": "3.10.12 (main, Aug 31 2026, 10:18:17) [GCC 11.4.0]"
+    }
+  ],
+  "all_scientific_json_identical": true,
+  "byte_identical_count": 30,
+  "portable_rd1_replay": "byte-identical; only authenticated historical cache path changed in memory",
+  "total_child_seconds": 35.42552833695663,
+  "max_child_rss_kib": 56968,
+  "max_child_seconds": 6.945723890035879,
+  "all_stderr_empty": true,
+  "versions": {
+    "python": "3.10.12 (main, Aug 31 2026, 10:18:17) [GCC 11.4.0]",
+    "platform": "Linux-6.8.0-138-generic-x86_64-with-glibc2.35",
+    "sympy": "1.13.1",
+    "mpmath": "1.3.0",
+    "numpy": "2.2.6"
+  },
+  "limits": {
+    "per_child_address_space_bytes": 536870912,
+    "per_child_cpu_seconds": 60,
+    "per_child_wall_seconds": 60,
+    "OMP_NUM_THREADS": "1",
+    "OPENBLAS_NUM_THREADS": "1",
+    "MKL_NUM_THREADS": "1",
+    "gpu": false
+  },
+  "portable_source_sha256": "a62298035262d6da400dac0c183267fed3592eb09c2a43abcaa5cf3aee56b2f7"
+}

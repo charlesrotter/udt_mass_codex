@@ -1,0 +1,1 @@
+{"address_space_bytes": 536870912, "command": ["python3", "-B", "udt_tidal_measurement_feasibility_campaign_2026-09-07/step_02/check_designs.py"], "cpu_seconds": 120, "cwd": "/home/udt-admin/udt_mass_codex", "duration_seconds": 0.16602430801140144, "maxrss_kib": 44152, "returncode": 0, "started_utc": "2026-09-11T00:10:24.881990+00:00", "timeout": false}

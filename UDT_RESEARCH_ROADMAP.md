@@ -4,9 +4,13 @@ Updated: 2026-09-10. Charles Rotter requested the whole plan on 2026-09-09;
 its original baseline was `d0fe8b3e5f95c3963dc8702bb4a31485678bd1e3`, branch `grok`.
 The campaigns described below are COMPLETE; their authorizations are spent, not live dispatches.
 Current operational handoff: `HANDOFF.md`; the maintained checkpoint below records the reviewed
-ER1 expansion and next discussion. No later campaign is automatically authorized.
+ER1 expansion and backlog banking. No later discovery campaign is automatically authorized.
 This is a maintained direction document, not a premise, theorem, promotion
 or replacement for LIVE, the exact registry, or reviewed scientific sources.
+
+Current acceptance overlay: earlier UNPROMOTED/campaign-only language below records historical
+returns. The G383--G412 banking packet and maintained checkpoint own their later disposition;
+original result packages remain unchanged. No physical adoption or canon is included.
 
 ## Aim and current position
 
@@ -244,20 +248,26 @@ dispatch status. The original proposal was prepared at ba80da85feb95831e5febec79
 Charles requested persistent roadmap discipline on 2026-09-10. Before each authorized campaign,
 identify its line/stage, source-owned question, restrictions released, remaining supplied choices,
 and budget/return point. At closeout update this same section with the result and review link,
-what was learned, limitations and the next justified decision. Do not replace it with dated status
+what was learned, limitations, next justified decision and each result's promotion disposition:
+**bank at demonstrated scope; hold for a named missing gate; or retain as control/exploration**.
+Conditional results need not wait for physical identification. Review is distinct from promotion.
+Do not replace this checkpoint with dated status
 variants or infer authority from a planned row. A proposed deviation must state its reason and
 authorization. A coverage row is not a completeness theorem or a scientific premise.
 
 | Line/stage | Current placement | Evidence or gate |
 |---|---|---|
-| Exact metric/kernel, stages1–2 | ER1 contribution COMPLETE, reviewed VERIFIED-WITH-CAVEATS, UNPROMOTED | `udt_exact_metric_kernel_expansion_2026-09-10/DECISION_BRIEF.md` and `udt_exact_metric_kernel_expansion_2026-09-10/review/REVIEW.md`: variable lapse/rest form/time-live shift, exact rotation interaction; supplied configuration class only |
+| Exact metric/kernel, stages1–2 | ER1 COMPLETE, reviewed; G405 conditionally banked at exact scope | `udt_exact_metric_kernel_expansion_2026-09-10/DECISION_BRIEF.md` and `udt_exact_metric_kernel_expansion_2026-09-10/review/REVIEW.md`: variable lapse/rest form/time-live shift, exact rotation interaction; supplied configuration class only |
 | Joint realization, stage3 | ER1's finite marked-record recipe COMPLETE at reviewed scope | Six common directional records plus density and derivatives; SPD/shift coherence and actual shared immersions; no physical pair population or arbitrary-network theorem |
 | Conditional nonlinear developments, stage4 | Next discussion line; no new dispatch | Select an unexamined interaction/restriction in reviewed NR1/NR2 or NE1 and state its equation/premises; no comparison equation silently becomes UDT's law |
 | Reach/persistence, stage5 | ER1 local hypotheses and omission controls checked; broader study not dispatched | Common marking/calibration and local smoothness remain supplied; native assembly, global reach, genericity and dynamical persistence remain open |
 
 ER1 returned the reviewed conditional result, actual witness/record compatibility and lay brief;
-its exact execution and final fidelity receipts are in that package. The two-hour authorization
-is spent at closeout; later stages and promotion remain separate decisions. Stop for discussion.
+its exact execution and final fidelity receipts are in that package. The two-hour research authorization
+is spent. Charles separately authorized the reviewed backlog banking:30 entries G383--G412,
+with source/review gates and actual full395 PASS. `udt_reviewed_backlog_banking_2026-09-10/BANKING_RECORD.md`
+and `DISPOSITIONS.tsv` in that package own exact scopes, grades, checks and remaining gates.
+All original science is preserved. Later discovery stages remain separate decisions; stop for discussion.
 
 Learning to carry forward: an exact time-live shift interaction can disappear under a stationarity
 restriction or first-order shift-amplitude expansion about zero shift; normalized pair outputs can lose rotation-relevant density; a
@@ -280,7 +290,7 @@ particular pair-record maps. Taking a spatial derivative in that exact identity 
 linearized metric calculation. A linear approximation describes the first response near a chosen
 background; it need not settle finite-amplitude interactions, long accumulation or realizability.
 
-There is already relevant reviewed UNPROMOTED work to reuse:
+Relevant conditional results now banked at their reviewed scopes:
 
 - NR1/NR2, `udt_nonlinear_mode_realizability_campaign_2026-09-09/DECISION_BRIEF.md`: in its supplied
   compact background/sector and conditional equation, some linear disturbances fail an exact-family

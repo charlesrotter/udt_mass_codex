@@ -1,0 +1,11 @@
+{
+  "route": "full rank-four Lorentz transformation, then E and B extraction",
+  "boost": "Matrix([[5/3, 0, 4/3, 0], [0, 1, 0, 0], [4/3, 0, 5/3, 0], [0, 0, 0, 1]])",
+  "electric_boosted": "Matrix([[-39050/24843, 0, 0], [0, 1980/8281, 0], [0, 0, 4730/3549]])",
+  "magnetic_boosted": "Matrix([[0, 0, -35200/24843], [0, 0, 0], [-35200/24843, 0, 0]])",
+  "full_Weyl_shape": "18496/753571",
+  "electric_only_shape": "1097964276175936/1322704593521011",
+  "original_Weyl_shape": "18496/753571",
+  "status": "PASS",
+  "limitation": "One exact boost is a counterexample to electric-only invariance; universal full-Weyl invariance follows from tensor/operator similarity."
+}

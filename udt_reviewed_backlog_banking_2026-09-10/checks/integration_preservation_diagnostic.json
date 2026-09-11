@@ -1,0 +1,14 @@
+{
+  "command": [
+    "python3",
+    "udt_reviewed_backlog_banking_2026-09-10/check_preservation.py"
+  ],
+  "cwd": "/home/udt-admin/udt_mass_codex",
+  "started_utc": "2026-09-11T00:36:35.173849+00:00",
+  "duration_seconds": 0.05717681901296601,
+  "returncode": 1,
+  "timeout": false,
+  "address_space_bytes": 536870912,
+  "cpu_seconds": 120,
+  "maxrss_kib": 25656
+}

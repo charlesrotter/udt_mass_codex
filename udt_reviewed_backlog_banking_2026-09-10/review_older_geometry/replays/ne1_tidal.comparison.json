@@ -1,0 +1,47 @@
+{
+  "label": "ne1_tidal",
+  "script": "udt_nonlinear_ripple_geometry_2026-09-09/review/direct_tidal.py",
+  "saved_stdout": "udt_nonlinear_ripple_geometry_2026-09-09/review/direct_tidal_run.stdout",
+  "kind": "original-review-implementation-replay",
+  "script_sha256": "5ca05059b0df75feaf67e0ef36c2cf84729cea116a943b244c30e8aed281f71b",
+  "saved_stdout_sha256": "4d1ac27ba405f71f0ac6cb7c3706dd3640feb3785ac58c5513684f456630762c",
+  "launcher_argv": [
+    "/usr/bin/python3",
+    "-B",
+    "/home/udt-admin/udt_mass_codex/udt_shared_readout_metric_constraint_campaign_2026-09-06/run_capture.py",
+    "/home/udt-admin/udt_mass_codex/udt_reviewed_backlog_banking_2026-09-10/review_older_geometry/replays/ne1_tidal",
+    "/home/udt-admin/udt_mass_codex",
+    "/usr/bin/python3",
+    "-B",
+    "/home/udt-admin/udt_mass_codex/udt_nonlinear_ripple_geometry_2026-09-09/review/direct_tidal.py"
+  ],
+  "launcher_returncode": 0,
+  "capture_sha256": "8ff5469ace76bdfc84188915242abbf3baff35516f9ee3f9ba4b1cbfeb2573ef",
+  "thread_environment": {
+    "OMP_NUM_THREADS": "1",
+    "OPENBLAS_NUM_THREADS": "1",
+    "MKL_NUM_THREADS": "1"
+  },
+  "dont_write_bytecode": true,
+  "python": "3.10.12 (main, Aug 31 2026, 10:18:17) [GCC 11.4.0]",
+  "platform": "Linux-6.8.0-138-generic-x86_64-with-glibc2.35",
+  "receipt": {
+    "command": [
+      "/usr/bin/python3",
+      "-B",
+      "/home/udt-admin/udt_mass_codex/udt_nonlinear_ripple_geometry_2026-09-09/review/direct_tidal.py"
+    ],
+    "cwd": "/home/udt-admin/udt_mass_codex",
+    "started_utc": "2026-09-11T00:04:02.596846+00:00",
+    "duration_seconds": 3.1980399330495857,
+    "returncode": 0,
+    "timeout": false,
+    "address_space_bytes": 536870912,
+    "cpu_seconds": 60,
+    "maxrss_kib": 55632
+  },
+  "stdout_sha256": "4d1ac27ba405f71f0ac6cb7c3706dd3640feb3785ac58c5513684f456630762c",
+  "stdout_byte_identical": true,
+  "script_unchanged": true,
+  "saved_output_unchanged": true
+}

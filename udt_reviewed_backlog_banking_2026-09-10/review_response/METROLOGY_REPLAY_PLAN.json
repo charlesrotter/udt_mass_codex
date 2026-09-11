@@ -1,0 +1,153 @@
+{
+  "frozen_utc": "2026-09-11T00:10:00.857312+00:00",
+  "limits": {
+    "seconds": 120,
+    "mib": 512
+  },
+  "thread_environment": {
+    "OPENBLAS_NUM_THREADS": "1",
+    "OMP_NUM_THREADS": "1",
+    "MKL_NUM_THREADS": "1",
+    "NUMEXPR_NUM_THREADS": "1",
+    "VECLIB_MAXIMUM_THREADS": "1"
+  },
+  "runs": [
+    {
+      "name": "TM1",
+      "script": "udt_tidal_measurement_feasibility_campaign_2026-09-07/step_01/review/direct_exact.py",
+      "script_sha256": "a5c1413bef9383204fa8188630189a8fbdb7dec75100a66e7195881312837731",
+      "argv": [
+        "python3",
+        "-B",
+        "udt_tidal_measurement_feasibility_campaign_2026-09-07/step_01/review/direct_exact.py"
+      ],
+      "saved_stem": "udt_tidal_measurement_feasibility_campaign_2026-09-07/step_01/review/direct_exact",
+      "saved_sha256": {
+        ".stdout": "34eb4b28e13b507174d586ec1899b0602d7dda46edb7667ceee14232b7212682",
+        ".stderr": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        ".json": "fa8656a30fe74a14ce8a7bd094afefba9573c723299497e7eaa904df7e5d42da"
+      }
+    },
+    {
+      "name": "TM1_repair",
+      "script": "udt_tidal_measurement_feasibility_campaign_2026-09-07/step_01/review/focused_auth.py",
+      "script_sha256": "0f010b9232e03220507a64335d8a23fd6d431873132252f161b268566b1fd40e",
+      "argv": [
+        "python3",
+        "-B",
+        "udt_tidal_measurement_feasibility_campaign_2026-09-07/step_01/review/focused_auth.py"
+      ],
+      "saved_stem": "udt_tidal_measurement_feasibility_campaign_2026-09-07/step_01/review/focused_auth",
+      "saved_sha256": {
+        ".stdout": "a8e6dd9032eff803739b5cc4e452c8b74e3d2166fa938af0f7e044c802b03f7d",
+        ".stderr": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        ".json": "8f711aef62f445ea7efcfbe165b19a304060d67e7a8afd20d617c497dcdf733e"
+      }
+    },
+    {
+      "name": "TM2_source",
+      "script": "udt_tidal_measurement_feasibility_campaign_2026-09-07/step_02/review/stage_a_exact.py",
+      "script_sha256": "6bc6ad660250be7b1dd35416a43578bbbb92c0092ec13c2f692b09ac4cf0b161",
+      "argv": [
+        "python3",
+        "-B",
+        "udt_tidal_measurement_feasibility_campaign_2026-09-07/step_02/review/stage_a_exact.py"
+      ],
+      "saved_stem": "udt_tidal_measurement_feasibility_campaign_2026-09-07/step_02/review/stage_a_exact",
+      "saved_sha256": {
+        ".stdout": "394a6a629487207dac2bb3d23269e3d77a074023316e777dd42d4442b288e476",
+        ".stderr": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        ".json": "a5483e8dd80f4031b0b5fe757e2c1ec30d293b635c1c9f1a89ffc85128dd7e2a"
+      }
+    },
+    {
+      "name": "TM2_author",
+      "script": "udt_tidal_measurement_feasibility_campaign_2026-09-07/step_02/check_designs.py",
+      "script_sha256": "08700748dfdc14074e95294d40c53de7615068c4a67ab973b89698ad6cb8cf91",
+      "argv": [
+        "python3",
+        "-B",
+        "udt_tidal_measurement_feasibility_campaign_2026-09-07/step_02/check_designs.py"
+      ],
+      "saved_stem": "udt_tidal_measurement_feasibility_campaign_2026-09-07/step_02/author_check",
+      "saved_sha256": {
+        ".stdout": "0088ae68497553cf6deffd0fa54d15da77c60fc67904576ff0d0a14b7cfe1e65",
+        ".stderr": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        ".json": "5783bfb17bfffcc1499e795a128f6d0dc0edfabb4abc9fb50b721c0cefeb68e3"
+      }
+    },
+    {
+      "name": "CO1",
+      "script": "udt_complementary_wave_observable_campaign_2026-09-07/step_01/review/independent_checks.py",
+      "script_sha256": "abf1bb4fcaa78e8aea98a257ed25e2398700de18d86c489144ac7ea6ff2c9bc4",
+      "argv": [
+        "python3",
+        "-B",
+        "udt_complementary_wave_observable_campaign_2026-09-07/step_01/review/independent_checks.py"
+      ],
+      "saved_stem": "udt_complementary_wave_observable_campaign_2026-09-07/step_01/review/independent_run",
+      "saved_sha256": {
+        ".stdout": "5f5874c58ba9268ebba8fca427b317554e3aaf39bdc3b1ef56d507d54378cc7b",
+        ".stderr": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        ".json": "fcf33650baa90c6683f84acc23b413717dc62052124d06c202c0990d39509535"
+      }
+    },
+    {
+      "name": "CO1_ppwave",
+      "script": "udt_complementary_wave_observable_campaign_2026-09-07/step_01/review/independent_ppwave.py",
+      "script_sha256": "56ed6b5521fc26791a1049eb5b7e64c2526ae0dbdb260b736bb04e9d6d5df795",
+      "argv": [
+        "python3",
+        "-B",
+        "udt_complementary_wave_observable_campaign_2026-09-07/step_01/review/independent_ppwave.py"
+      ],
+      "saved_stem": "udt_complementary_wave_observable_campaign_2026-09-07/step_01/review/ppwave_run",
+      "saved_sha256": {
+        ".stdout": "918c002ebe200e405f13114eeccedc00e388134139d74101e1231a99d7fa1279",
+        ".stderr": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        ".json": "6dfa520b8b2e49b4ed5ae3a58b9c8a01335ff50407bc6621e34d2de25fa67e7c"
+      }
+    },
+    {
+      "name": "CO1_repair",
+      "script": "udt_complementary_wave_observable_campaign_2026-09-07/step_01/review/focused_rereview.py",
+      "script_sha256": "53d87c7fe148bddd6bd382e08ea59acb2c048b5934932ca5ae660077421fd76a",
+      "argv": [
+        "python3",
+        "-B",
+        "udt_complementary_wave_observable_campaign_2026-09-07/step_01/review/focused_rereview.py"
+      ],
+      "saved_stem": "udt_complementary_wave_observable_campaign_2026-09-07/step_01/review/focused_rereview_run",
+      "saved_sha256": {
+        ".stdout": "217941036f6b6c8c9a40b16e0949b8943216520e57703cfe6c3d974ec3c7dd8d",
+        ".stderr": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        ".json": "30e6b4775be99a5c9e96cdfe482b076af3a5dfcc00b6d320bdc7724e4c7cd440"
+      }
+    },
+    {
+      "name": "CO2",
+      "script": "udt_complementary_wave_observable_campaign_2026-09-07/step_02/review/independent_geometry.py",
+      "script_sha256": "f5549e2f034fc5025faf0168d27e2a76bdf2110de810015cf46a7dff73086c8a",
+      "argv": [
+        "python3",
+        "-B",
+        "udt_complementary_wave_observable_campaign_2026-09-07/step_02/review/independent_geometry.py",
+        "udt_complementary_wave_observable_campaign_2026-09-07/step_02/design_run.stdout",
+        "udt_complementary_wave_observable_campaign_2026-09-07/step_02/design_inputs.json",
+        "udt_reviewed_backlog_banking_2026-09-10/review_response/CO2_LALDetectors_source.h"
+      ],
+      "saved_stem": "udt_complementary_wave_observable_campaign_2026-09-07/step_02/review/independent_run",
+      "saved_sha256": {
+        ".stdout": "c2a0aaf6364664f3b389568215f63a0795c06557318272c4cd009aed6742b21c",
+        ".stderr": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        ".json": "63c49ebadb23047ace194dfddcab5972e45f6e53e67a12453afbbc86317974da"
+      }
+    }
+  ],
+  "CO2_header": {
+    "original_path": "/tmp/udt-complementary-wave-sources-C72KZ2/LALDetectors_gitlab.h",
+    "durable_path": "udt_reviewed_backlog_banking_2026-09-10/review_response/CO2_LALDetectors_source.h",
+    "sha256": "82ac49e8042d4eab0f890e63e3599ae227967aee16c76cd5f6b6b729c8798684",
+    "role": "matched saved public-source snapshot, not current refetch"
+  }
+}

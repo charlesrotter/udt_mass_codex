@@ -1,0 +1,33 @@
+{
+  "python": "3.10.12",
+  "sympy": "1.13.1",
+  "exposure": "Reviewer SF3 known; no reviewer code imported or read before writing this check.",
+  "method": "flat spatial Ricci first variation and admitted ADM; not 4D reviewer engine",
+  "checks": {
+    "Hamiltonian_globally": true,
+    "momentum_x_globally": true,
+    "momentum_yz_globally": true,
+    "E_trace": true,
+    "KE_STF": true,
+    "spatial_Ricci_variation": true,
+    "direct_ADM_E_variation": true,
+    "B_at_origin": true,
+    "E_first_derivatives_at_origin": true,
+    "nA_formula": true,
+    "original_denominator_nonzero_and_rate_exact": true,
+    "matched_full_Q_K_at_origin": true,
+    "matched_K_at_origin": true,
+    "homogeneous_rate": true,
+    "same_point_Q_K_different_rate": true,
+    "excluded_flat_point_original_I2": true,
+    "cancelled_denominator_false_pass_detected": true
+  },
+  "all_passed": true,
+  "I2": "(3*e - 2)**2*(3*e + 2)**2*(3*e**2 + 4)/216",
+  "I3": "-(3*e - 2)**4*(3*e + 2)**4/3888",
+  "A": "27*e**2*(e - 2)**2*(e + 2)**2/(3*e**2 + 4)**3",
+  "nA": "2592*e**2*k**2*(e - 2)*(e + 2)/(3*e**2 + 4)**4",
+  "original_domain": "I2 != 0; e=+/-2/3 excluded",
+  "periodicity": "k=0 or 1 for the matched comparison on x period 2pi",
+  "limits": "Exact initial rate only; actual existence uses written analytic/local interface."
+}

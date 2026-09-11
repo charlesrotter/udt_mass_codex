@@ -1,0 +1,47 @@
+{
+  "label": "se1_bianchi",
+  "script": "udt_spatial_curvature_evolution_2026-09-09/review/bianchi_components.py",
+  "saved_stdout": "udt_spatial_curvature_evolution_2026-09-09/review/bianchi_components_run.stdout",
+  "kind": "original-review-implementation-replay",
+  "script_sha256": "b2f4d5bdc0f8d77f46edbe9afb1534f88405984349c4e8657eee60d3600e7bcf",
+  "saved_stdout_sha256": "0f17c0a39b9b5963ad52724e08a19c560a405d097f2299d4badbb1d4854bb3f1",
+  "launcher_argv": [
+    "/usr/bin/python3",
+    "-B",
+    "/home/udt-admin/udt_mass_codex/udt_shared_readout_metric_constraint_campaign_2026-09-06/run_capture.py",
+    "/home/udt-admin/udt_mass_codex/udt_reviewed_backlog_banking_2026-09-10/review_older_geometry/replays/se1_bianchi",
+    "/home/udt-admin/udt_mass_codex",
+    "/usr/bin/python3",
+    "-B",
+    "/home/udt-admin/udt_mass_codex/udt_spatial_curvature_evolution_2026-09-09/review/bianchi_components.py"
+  ],
+  "launcher_returncode": 0,
+  "capture_sha256": "8ff5469ace76bdfc84188915242abbf3baff35516f9ee3f9ba4b1cbfeb2573ef",
+  "thread_environment": {
+    "OMP_NUM_THREADS": "1",
+    "OPENBLAS_NUM_THREADS": "1",
+    "MKL_NUM_THREADS": "1"
+  },
+  "dont_write_bytecode": true,
+  "python": "3.10.12 (main, Aug 31 2026, 10:18:17) [GCC 11.4.0]",
+  "platform": "Linux-6.8.0-138-generic-x86_64-with-glibc2.35",
+  "receipt": {
+    "command": [
+      "/usr/bin/python3",
+      "-B",
+      "/home/udt-admin/udt_mass_codex/udt_spatial_curvature_evolution_2026-09-09/review/bianchi_components.py"
+    ],
+    "cwd": "/home/udt-admin/udt_mass_codex",
+    "started_utc": "2026-09-11T00:04:01.210642+00:00",
+    "duration_seconds": 0.24399225099477917,
+    "returncode": 0,
+    "timeout": false,
+    "address_space_bytes": 536870912,
+    "cpu_seconds": 60,
+    "maxrss_kib": 44688
+  },
+  "stdout_sha256": "0f17c0a39b9b5963ad52724e08a19c560a405d097f2299d4badbb1d4854bb3f1",
+  "stdout_byte_identical": true,
+  "script_unchanged": true,
+  "saved_output_unchanged": true
+}

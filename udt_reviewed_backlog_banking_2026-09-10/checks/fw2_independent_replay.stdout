@@ -1,0 +1,149 @@
+{
+  "scope": "independent finite released-offsource statistic; event never read",
+  "implementation": "source-first full complex FFT + manual Welch + polarization-identity covariance; no author imports",
+  "versions": {
+    "python": "3.10.12",
+    "numpy": "2.2.6"
+  },
+  "extract_count": 99,
+  "all_extract_hashes_and_supports_match": true,
+  "PSD_L2_relative_error_to_author": 3.568079946903934e-16,
+  "PSD_retained_max_relative_error_to_author": 2.8377300509419e-13,
+  "PSD_all_training_L2_relative_error_to_author": 3.971077775968274e-16,
+  "retained_floor_count": 0,
+  "PSD_retained_min_physical_strain2_per_hz": 2.9624839266135545e-46,
+  "training_covariance_polarization_identity_max_relative_error": 7.139854562202583e-16,
+  "training_cross_term_band_L2_relative": 2.7469787725043642e-05,
+  "reference_Q": [
+    0.9388275248150578,
+    1.217972066496337,
+    0.9127307602530164,
+    0.9647740221821919,
+    0.9003711715640852,
+    1.0184421164486266,
+    1.1472691332931135,
+    1.0262771475223695,
+    0.9553807126771827,
+    0.9580450002498858,
+    1.0588212686168983,
+    1.0166097907666956,
+    31313.959932212096,
+    1.0182386710303812,
+    1.0228919273592878,
+    1.0889237613864182,
+    1.1251829139013247,
+    0.9227387935221839,
+    1.0611169003860497,
+    1.115079717693979,
+    1.1438588464803106
+  ],
+  "reference_Q_max_relative_error_to_author": 7.935216365313269e-15,
+  "threshold": 31313.959932212096,
+  "threshold_core_gps": 1187011516,
+  "median_first10": 0.9614095112160388,
+  "median_last11": 1.0611169003860497,
+  "max_over_min": 34778.94552955851,
+  "grid_hrss": [
+    1e-23,
+    3e-23,
+    1e-22,
+    3e-22,
+    1e-21,
+    3e-21,
+    1e-20,
+    3e-20,
+    1e-19
+  ],
+  "grid_fractions": [
+    [
+      0.023809523809523808,
+      0.023809523809523808,
+      0.023809523809523808,
+      0.02976190476190476,
+      0.02976190476190476,
+      0.02976190476190476,
+      0.03571428571428571,
+      0.047619047619047616,
+      0.047619047619047616
+    ],
+    [
+      0.017857142857142856,
+      0.017857142857142856,
+      0.017857142857142856,
+      0.017857142857142856,
+      0.017857142857142856,
+      0.02976190476190476,
+      0.041666666666666664,
+      0.047619047619047616,
+      0.047619047619047616
+    ],
+    [
+      0.017857142857142856,
+      0.017857142857142856,
+      0.017857142857142856,
+      0.017857142857142856,
+      0.017857142857142856,
+      0.02976190476190476,
+      0.041666666666666664,
+      0.047619047619047616,
+      0.047619047619047616
+    ]
+  ],
+  "target_direct_counts_out_of_168": [
+    5,
+    3,
+    3
+  ],
+  "target_quadratic_counts_out_of_168": [
+    5,
+    3,
+    3
+  ],
+  "direct_target_recomputations": 504,
+  "direct_target_vs_quadratic_max_relative_error": 6.169935463667227e-15,
+  "minimum_target_margin_over_threshold": 3.098663961864421e-08,
+  "full_channel_injection_recomputations": 18,
+  "full_channel_injection_max_relative_error": 6.5859309200203494e-15,
+  "cross_coefficients_L2_relative_error_to_author": 6.410202926061698e-14,
+  "signal_Q_coefficients_L2_relative_error_to_author": 6.297873800889059e-15,
+  "author_synthetic_fidelity_pass": true,
+  "author_fraction_mismatches": [],
+  "direct_Fourier_sum_anchor_max_relative_error": 2.8251136725528214e-14,
+  "diagnostic_decompositions": [
+    {
+      "start": 1187010216,
+      "Q": 0.9388275248150578,
+      "diagonal_Q": [
+        0.021584148907157496,
+        0.047673496097671506,
+        0.8712537749441714
+      ],
+      "cross_HL_HV_LV": [
+        -0.00019313701011450737,
+        -0.0003037605217897703,
+        -0.001186997602039197
+      ],
+      "relative_reconstruction": 9.460506815403499e-16
+    },
+    {
+      "start": 1187011516,
+      "Q": 31313.959932212096,
+      "diagonal_Q": [
+        0.02138267183122838,
+        0.04743757191981026,
+        31314.13760613647
+      ],
+      "cross_HL_HV_LV": [
+        2.5405298137874094e-05,
+        -0.09225546261130331,
+        -0.15426411082159416
+      ],
+      "relative_reconstruction": 2.3235507837189196e-16
+    }
+  ],
+  "independent_operator_sha256": "ac6a8977e4d356b97fb14bbfb0f4ccb3a03ce4ae35121b66735b591e0565ebe2",
+  "independent_replay_sha256": "4dce06d90c61db24b4815ae251767f9b8b843bc1606087c4f4de41244830137a",
+  "target_ready_filename": "AUTHOR_REPAIR_READY.json",
+  "target_ready_sha256": "a6b67a34835e5d15f4ece720b534b61a077f72169b1b7e9a47016d2fcc3cc1fe",
+  "conclusion": "frozen finite target screen fails each family; not population power or event/UDT conclusion"
+}

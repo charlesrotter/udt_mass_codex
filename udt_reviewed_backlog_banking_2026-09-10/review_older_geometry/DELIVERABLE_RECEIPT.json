@@ -1,0 +1,23 @@
+{
+  "completed_utc": "2026-09-11T00:20:53.983937+00:00",
+  "reviewer": "/root/bank_older_geometry",
+  "model_version": "UNATTESTED",
+  "result": "READY_FOR_EXACT_SCOPE_PARENT_INTEGRATION",
+  "candidate_count": 13,
+  "unresolved_substantive_scientific_objections": 0,
+  "new_scientific_repairs": 0,
+  "replays": 34,
+  "all_child_exit_zero": true,
+  "all_stderr_empty": true,
+  "original_source_files_verified_unchanged": 1091,
+  "parent_prebank_audit": "Attributed actual full365 PASS407.713s empty stderr; not reviewer-owned",
+  "artifacts": {
+    "SOURCE_READINESS_REPORT.md": "8f12ea011427353dcf0444f66837a09b6cb1c6f93859a8069281d814587957b0",
+    "CORE_READINESS.json": "254004f3db733f7ebe7ae7709b23c7352003c8b4714fbfd594b551960a142279",
+    "ADDITIONAL_READINESS.json": "de6f77aa3329b9aae0f6e3a2e484087f943371ebce6da82e24252aa00d2b2c90",
+    "REPLAY_CORRESPONDENCE.json": "26c283bc57574a67ce508baef2fb1ded6be2338158b192b5a5c617c9c7773744",
+    "SOURCE_PRESERVATION_FINAL.json": "6d784739387b8a36f0bb32f2c1c8794964bff5f8ad69e279a819ec46f63399bd",
+    "RD1_PUBLIC_DEFINITIONS_PROVENANCE.json": "5d95d4dc14bb70204444bfcc174c046b63691bd31aa6b95d665beac1d9a6a03d"
+  },
+  "remaining": "Parent integration and concrete registry/source fidelity review; no banking performed by this reviewer"
+}

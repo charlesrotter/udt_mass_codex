@@ -1,0 +1,31 @@
+{
+  "candidate_imports": false,
+  "evidence_kind": "three exact metric-jet Christoffel reconstructions",
+  "python": "3.10.12",
+  "records": [
+    {
+      "A": "3",
+      "B": "-2",
+      "R_uxux": "-3",
+      "R_uxuy": "2",
+      "R_uyuy": "3",
+      "Ricci_zero": true
+    },
+    {
+      "A": "0",
+      "B": "5",
+      "R_uxux": "0",
+      "R_uxuy": "-5",
+      "R_uyuy": "0",
+      "Ricci_zero": true
+    },
+    {
+      "A": "-7/3",
+      "B": "0",
+      "R_uxux": "7/3",
+      "R_uxuy": "0",
+      "R_uyuy": "-7/3",
+      "Ricci_zero": true
+    }
+  ]
+}

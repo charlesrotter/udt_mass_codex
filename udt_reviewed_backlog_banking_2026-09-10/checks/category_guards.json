@@ -1,0 +1,21 @@
+{
+  "command": [
+    "python3",
+    "-m",
+    "pytest",
+    "--noconftest",
+    "-q",
+    "tests/test_reviewed_backlog_banking.py",
+    "tests/test_startup_surface.py",
+    "-k",
+    "not full_foundational_premise_verifier"
+  ],
+  "cwd": "/home/udt-admin/udt_mass_codex",
+  "started_utc": "2026-09-11T00:40:23.567765+00:00",
+  "duration_seconds": 11.227164316980634,
+  "returncode": 0,
+  "timeout": false,
+  "address_space_bytes": 536870912,
+  "cpu_seconds": 120,
+  "maxrss_kib": 72992
+}

@@ -1,0 +1,454 @@
+{
+  "completed_utc": "2026-09-11T00:02:56.160856+00:00",
+  "plan_sha256": "c8f27edc33d3cd56e4a4a2f2eb3b7cfb5d5c972478cc92a597b7299e3466dbb1",
+  "thread_environment": {
+    "OPENBLAS_NUM_THREADS": "1",
+    "OMP_NUM_THREADS": "1",
+    "MKL_NUM_THREADS": "1",
+    "NUMEXPR_NUM_THREADS": "1",
+    "VECLIB_MAXIMUM_THREADS": "1"
+  },
+  "results": [
+    {
+      "name": "ND1",
+      "launch_argv": [
+        "/usr/bin/python3",
+        "-B",
+        "/home/udt-admin/udt_mass_codex/udt_reviewed_backlog_banking_2026-09-10/capture_existing.py",
+        "/home/udt-admin/udt_mass_codex/udt_reviewed_backlog_banking_2026-09-10/review_response/replay_ND1",
+        "120",
+        "512",
+        "python3",
+        "-B",
+        "udt_native_response_discrimination_2026-09-09/step_01/review/independent_tensor_check.py"
+      ],
+      "launch_returncode": 0,
+      "receipt": {
+        "command": [
+          "python3",
+          "-B",
+          "udt_native_response_discrimination_2026-09-09/step_01/review/independent_tensor_check.py"
+        ],
+        "cwd": "/home/udt-admin/udt_mass_codex",
+        "started_utc": "2026-09-11T00:02:45.303004+00:00",
+        "duration_seconds": 0.21586448699235916,
+        "returncode": 0,
+        "timeout": false,
+        "address_space_bytes": 536870912,
+        "cpu_seconds": 120,
+        "maxrss_kib": 11712
+      },
+      "comparison": {
+        ".stdout": {
+          "exists": true,
+          "sha256": "e4f66260864513578341fd441b9485eb38fcf93ebc0c90edbd6bce099ba3f897",
+          "saved_sha256": "e4f66260864513578341fd441b9485eb38fcf93ebc0c90edbd6bce099ba3f897",
+          "byte_identical": true
+        },
+        ".stderr": {
+          "exists": true,
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "saved_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "byte_identical": true
+        }
+      }
+    },
+    {
+      "name": "ND2",
+      "launch_argv": [
+        "/usr/bin/python3",
+        "-B",
+        "/home/udt-admin/udt_mass_codex/udt_reviewed_backlog_banking_2026-09-10/capture_existing.py",
+        "/home/udt-admin/udt_mass_codex/udt_reviewed_backlog_banking_2026-09-10/review_response/replay_ND2",
+        "120",
+        "512",
+        "python3",
+        "-B",
+        "udt_native_response_discrimination_2026-09-09/step_02/review/independent_variation_check.py"
+      ],
+      "launch_returncode": 0,
+      "receipt": {
+        "command": [
+          "python3",
+          "-B",
+          "udt_native_response_discrimination_2026-09-09/step_02/review/independent_variation_check.py"
+        ],
+        "cwd": "/home/udt-admin/udt_mass_codex",
+        "started_utc": "2026-09-11T00:02:45.540251+00:00",
+        "duration_seconds": 2.4884542300133035,
+        "returncode": 0,
+        "timeout": false,
+        "address_space_bytes": 536870912,
+        "cpu_seconds": 120,
+        "maxrss_kib": 57420
+      },
+      "comparison": {
+        ".stdout": {
+          "exists": true,
+          "sha256": "0f61609348e0c4eea19afb3fa0f3b3e096054803c223d317e181cfddd6ec7cd5",
+          "saved_sha256": "0f61609348e0c4eea19afb3fa0f3b3e096054803c223d317e181cfddd6ec7cd5",
+          "byte_identical": true
+        },
+        ".stderr": {
+          "exists": true,
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "saved_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "byte_identical": true
+        }
+      }
+    },
+    {
+      "name": "QC1_symbolic",
+      "launch_argv": [
+        "/usr/bin/python3",
+        "-B",
+        "/home/udt-admin/udt_mass_codex/udt_reviewed_backlog_banking_2026-09-10/capture_existing.py",
+        "/home/udt-admin/udt_mass_codex/udt_reviewed_backlog_banking_2026-09-10/review_response/replay_QC1_symbolic",
+        "120",
+        "512",
+        "python3",
+        "-B",
+        "udt_quiet_correspondence_campaign_2026-09-10/step_01/review/independent_check.py"
+      ],
+      "launch_returncode": 0,
+      "receipt": {
+        "command": [
+          "python3",
+          "-B",
+          "udt_quiet_correspondence_campaign_2026-09-10/step_01/review/independent_check.py"
+        ],
+        "cwd": "/home/udt-admin/udt_mass_codex",
+        "started_utc": "2026-09-11T00:02:48.054948+00:00",
+        "duration_seconds": 0.6451900749816559,
+        "returncode": 0,
+        "timeout": false,
+        "address_space_bytes": 536870912,
+        "cpu_seconds": 120,
+        "maxrss_kib": 52152
+      },
+      "comparison": {
+        ".stdout": {
+          "exists": true,
+          "sha256": "0c8bb6cc3eae298c7e147be6948f7406f5b38572402e3fa3cda6948c3f9029f6",
+          "saved_sha256": "0c8bb6cc3eae298c7e147be6948f7406f5b38572402e3fa3cda6948c3f9029f6",
+          "byte_identical": true
+        },
+        ".stderr": {
+          "exists": true,
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "saved_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "byte_identical": true
+        }
+      }
+    },
+    {
+      "name": "QC1_readout",
+      "launch_argv": [
+        "/usr/bin/python3",
+        "-B",
+        "/home/udt-admin/udt_mass_codex/udt_reviewed_backlog_banking_2026-09-10/capture_existing.py",
+        "/home/udt-admin/udt_mass_codex/udt_reviewed_backlog_banking_2026-09-10/review_response/replay_QC1_readout",
+        "120",
+        "512",
+        "python3",
+        "-B",
+        "udt_quiet_correspondence_campaign_2026-09-10/step_01/review/rational_readout_check.py"
+      ],
+      "launch_returncode": 0,
+      "receipt": {
+        "command": [
+          "python3",
+          "-B",
+          "udt_quiet_correspondence_campaign_2026-09-10/step_01/review/rational_readout_check.py"
+        ],
+        "cwd": "/home/udt-admin/udt_mass_codex",
+        "started_utc": "2026-09-11T00:02:48.722263+00:00",
+        "duration_seconds": 0.19912474800366908,
+        "returncode": 0,
+        "timeout": false,
+        "address_space_bytes": 536870912,
+        "cpu_seconds": 120,
+        "maxrss_kib": 11712
+      },
+      "comparison": {
+        ".stdout": {
+          "exists": true,
+          "sha256": "e75474a8a18b6e7fd39fda5c8eb0d8d287c6af89cc39c306dcbe905ebcbadab4",
+          "saved_sha256": "e75474a8a18b6e7fd39fda5c8eb0d8d287c6af89cc39c306dcbe905ebcbadab4",
+          "byte_identical": true
+        },
+        ".stderr": {
+          "exists": true,
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "saved_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "byte_identical": true
+        }
+      }
+    },
+    {
+      "name": "QC2",
+      "launch_argv": [
+        "/usr/bin/python3",
+        "-B",
+        "/home/udt-admin/udt_mass_codex/udt_reviewed_backlog_banking_2026-09-10/capture_existing.py",
+        "/home/udt-admin/udt_mass_codex/udt_reviewed_backlog_banking_2026-09-10/review_response/replay_QC2",
+        "120",
+        "512",
+        "python3",
+        "-B",
+        "udt_quiet_correspondence_campaign_2026-09-10/step_02/review/symbolic_direct_check.py"
+      ],
+      "launch_returncode": 0,
+      "receipt": {
+        "command": [
+          "python3",
+          "-B",
+          "udt_quiet_correspondence_campaign_2026-09-10/step_02/review/symbolic_direct_check.py"
+        ],
+        "cwd": "/home/udt-admin/udt_mass_codex",
+        "started_utc": "2026-09-11T00:02:48.941925+00:00",
+        "duration_seconds": 0.6769528519944288,
+        "returncode": 0,
+        "timeout": false,
+        "address_space_bytes": 536870912,
+        "cpu_seconds": 120,
+        "maxrss_kib": 50152
+      },
+      "comparison": {
+        ".stdout": {
+          "exists": true,
+          "sha256": "33147f20140785d3fd5697c79cc6801a4d3c52941490272c66ca80661d09335d",
+          "saved_sha256": "33147f20140785d3fd5697c79cc6801a4d3c52941490272c66ca80661d09335d",
+          "byte_identical": true
+        },
+        ".stderr": {
+          "exists": true,
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "saved_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "byte_identical": true
+        }
+      }
+    },
+    {
+      "name": "GL1",
+      "launch_argv": [
+        "/usr/bin/python3",
+        "-B",
+        "/home/udt-admin/udt_mass_codex/udt_reviewed_backlog_banking_2026-09-10/capture_existing.py",
+        "/home/udt-admin/udt_mass_codex/udt_reviewed_backlog_banking_2026-09-10/review_response/replay_GL1",
+        "120",
+        "512",
+        "python3",
+        "-B",
+        "udt_gr_limit_campaign_2026-09-10/step_01/review/independent_contraction_check.py"
+      ],
+      "launch_returncode": 0,
+      "receipt": {
+        "command": [
+          "python3",
+          "-B",
+          "udt_gr_limit_campaign_2026-09-10/step_01/review/independent_contraction_check.py"
+        ],
+        "cwd": "/home/udt-admin/udt_mass_codex",
+        "started_utc": "2026-09-11T00:02:49.638273+00:00",
+        "duration_seconds": 0.03729581099469215,
+        "returncode": 0,
+        "timeout": false,
+        "address_space_bytes": 536870912,
+        "cpu_seconds": 120,
+        "maxrss_kib": 15736
+      },
+      "comparison": {
+        ".stdout": {
+          "exists": true,
+          "sha256": "da9d2ee544c7f86e00f109caf9de139f9d3b1bcf39f60e26842bff01fca88974",
+          "saved_sha256": "da9d2ee544c7f86e00f109caf9de139f9d3b1bcf39f60e26842bff01fca88974",
+          "byte_identical": true
+        },
+        ".stderr": {
+          "exists": true,
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "saved_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "byte_identical": true
+        }
+      }
+    },
+    {
+      "name": "GL2",
+      "launch_argv": [
+        "/usr/bin/python3",
+        "-B",
+        "/home/udt-admin/udt_mass_codex/udt_reviewed_backlog_banking_2026-09-10/capture_existing.py",
+        "/home/udt-admin/udt_mass_codex/udt_reviewed_backlog_banking_2026-09-10/review_response/replay_GL2",
+        "120",
+        "512",
+        "python3",
+        "-B",
+        "udt_gr_limit_campaign_2026-09-10/step_02/review/independent_geometry_check.py"
+      ],
+      "launch_returncode": 0,
+      "receipt": {
+        "command": [
+          "python3",
+          "-B",
+          "udt_gr_limit_campaign_2026-09-10/step_02/review/independent_geometry_check.py"
+        ],
+        "cwd": "/home/udt-admin/udt_mass_codex",
+        "started_utc": "2026-09-11T00:02:49.695057+00:00",
+        "duration_seconds": 1.0847094089840539,
+        "returncode": 0,
+        "timeout": false,
+        "address_space_bytes": 536870912,
+        "cpu_seconds": 120,
+        "maxrss_kib": 14592
+      },
+      "comparison": {
+        ".stdout": {
+          "exists": true,
+          "sha256": "87ab7ae479ceb8831110da7f5d85c18931c9efaf13b18c701e9d4917768367b0",
+          "saved_sha256": "87ab7ae479ceb8831110da7f5d85c18931c9efaf13b18c701e9d4917768367b0",
+          "byte_identical": true
+        },
+        ".stderr": {
+          "exists": true,
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "saved_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "byte_identical": true
+        }
+      }
+    },
+    {
+      "name": "RF1_author",
+      "launch_argv": [
+        "/usr/bin/python3",
+        "-B",
+        "/home/udt-admin/udt_mass_codex/udt_reviewed_backlog_banking_2026-09-10/capture_existing.py",
+        "/home/udt-admin/udt_mass_codex/udt_reviewed_backlog_banking_2026-09-10/review_response/replay_RF1_author",
+        "120",
+        "512",
+        "python3",
+        "-B",
+        "udt_response_foundations_campaign_2026-09-10/author_check.py"
+      ],
+      "launch_returncode": 0,
+      "receipt": {
+        "command": [
+          "python3",
+          "-B",
+          "udt_response_foundations_campaign_2026-09-10/author_check.py"
+        ],
+        "cwd": "/home/udt-admin/udt_mass_codex",
+        "started_utc": "2026-09-11T00:02:50.799492+00:00",
+        "duration_seconds": 3.258482554985676,
+        "returncode": 0,
+        "timeout": false,
+        "address_space_bytes": 536870912,
+        "cpu_seconds": 120,
+        "maxrss_kib": 52428
+      },
+      "comparison": {
+        ".stdout": {
+          "exists": true,
+          "sha256": "57eaeb93a34269e0263698300bca17caaef94c22f2c8bb41837d19ff748da760",
+          "saved_sha256": "57eaeb93a34269e0263698300bca17caaef94c22f2c8bb41837d19ff748da760",
+          "byte_identical": true
+        },
+        ".stderr": {
+          "exists": true,
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "saved_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "byte_identical": true
+        }
+      }
+    },
+    {
+      "name": "RF1_independent",
+      "launch_argv": [
+        "/usr/bin/python3",
+        "-B",
+        "/home/udt-admin/udt_mass_codex/udt_reviewed_backlog_banking_2026-09-10/capture_existing.py",
+        "/home/udt-admin/udt_mass_codex/udt_reviewed_backlog_banking_2026-09-10/review_response/replay_RF1_independent",
+        "120",
+        "512",
+        "python3",
+        "-B",
+        "udt_response_foundations_campaign_2026-09-10/review/independent_normal_metric_check.py"
+      ],
+      "launch_returncode": 0,
+      "receipt": {
+        "command": [
+          "python3",
+          "-B",
+          "udt_response_foundations_campaign_2026-09-10/review/independent_normal_metric_check.py"
+        ],
+        "cwd": "/home/udt-admin/udt_mass_codex",
+        "started_utc": "2026-09-11T00:02:54.077005+00:00",
+        "duration_seconds": 1.0270689520402811,
+        "returncode": 0,
+        "timeout": false,
+        "address_space_bytes": 536870912,
+        "cpu_seconds": 120,
+        "maxrss_kib": 16128
+      },
+      "comparison": {
+        ".stdout": {
+          "exists": true,
+          "sha256": "3541273eb0d8e5244fb0d7bef316faa34c5d7a8952cc7c1f487554b90c525bb7",
+          "saved_sha256": "3541273eb0d8e5244fb0d7bef316faa34c5d7a8952cc7c1f487554b90c525bb7",
+          "byte_identical": true
+        },
+        ".stderr": {
+          "exists": true,
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "saved_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "byte_identical": true
+        }
+      }
+    },
+    {
+      "name": "RF1_repair",
+      "launch_argv": [
+        "/usr/bin/python3",
+        "-B",
+        "/home/udt-admin/udt_mass_codex/udt_reviewed_backlog_banking_2026-09-10/capture_existing.py",
+        "/home/udt-admin/udt_mass_codex/udt_reviewed_backlog_banking_2026-09-10/review_response/replay_RF1_repair",
+        "120",
+        "512",
+        "python3",
+        "-B",
+        "udt_response_foundations_campaign_2026-09-10/focused_repair_check.py"
+      ],
+      "launch_returncode": 0,
+      "receipt": {
+        "command": [
+          "python3",
+          "-B",
+          "udt_response_foundations_campaign_2026-09-10/focused_repair_check.py"
+        ],
+        "cwd": "/home/udt-admin/udt_mass_codex",
+        "started_utc": "2026-09-11T00:02:55.123563+00:00",
+        "duration_seconds": 1.033572942018509,
+        "returncode": 0,
+        "timeout": false,
+        "address_space_bytes": 536870912,
+        "cpu_seconds": 120,
+        "maxrss_kib": 20240
+      },
+      "comparison": {
+        ".stdout": {
+          "exists": true,
+          "sha256": "d66cf1e60686f6363f4ce6ec5b507b4b08cd230f718341dabf7ba5b8783f7698",
+          "saved_sha256": "d66cf1e60686f6363f4ce6ec5b507b4b08cd230f718341dabf7ba5b8783f7698",
+          "byte_identical": true
+        },
+        ".stderr": {
+          "exists": true,
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "saved_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "byte_identical": true
+        }
+      }
+    }
+  ],
+  "all_pass": true
+}

@@ -1,0 +1,495 @@
+{
+  "verdict": "PASS_EXACT_STATUS_AND_PIN_ONLY_CLOSEOUT",
+  "started_utc": "2026-09-11T00:48:50.037585+00:00",
+  "completed_utc": "2026-09-11T00:48:50.521001+00:00",
+  "runtime_model_version": "UNATTESTED",
+  "same_context_followup": true,
+  "python": "3.10.12 (main, Aug 31 2026, 10:18:17) [GCC 11.4.0]",
+  "argv": [
+    "/home/udt-admin/udt_mass_codex/udt_reviewed_backlog_banking_2026-09-10/review_integration/check_final_closeout.py"
+  ],
+  "full395_attributed_parent_capture": {
+    "command": [
+      "python3",
+      "verify_current_scientific_premises.py"
+    ],
+    "cwd": "/home/udt-admin/udt_mass_codex",
+    "started_utc": "2026-09-11T00:41:00.078089+00:00",
+    "duration_seconds": 412.91949161101365,
+    "returncode": 0,
+    "timeout": false,
+    "address_space_bytes": 2147483648,
+    "cpu_seconds": 900,
+    "maxrss_kib": 105600
+  },
+  "full395_stdout_sha256": "27c33d49db035713afb4d8c7f5c42aa2b2dc197d0645bfbe1aec10953ab161e5",
+  "full395_input_record_sha256": "651ecf1fdd9ab0f509ae4516d014019378a11f93c700782bbf6913242f447a73",
+  "unchanged_registry_claims_rows_sources_tests": true,
+  "verifier_entire_AST_unchanged_except_pin_dictionary": true,
+  "all_prior_pin_keys_retained": true,
+  "changed_existing_pins": [
+    "udt_reviewed_backlog_banking_2026-09-10/BANKING_RECORD.md",
+    "udt_reviewed_backlog_banking_2026-09-10/DISPOSITIONS.tsv"
+  ],
+  "new_review_pins": [
+    "udt_reviewed_backlog_banking_2026-09-10/review_integration/CLAIM_FIDELITY.tsv",
+    "udt_reviewed_backlog_banking_2026-09-10/review_integration/REVIEW_RECEIPT.json",
+    "udt_reviewed_backlog_banking_2026-09-10/review_integration/REVIEW_REPORT.md",
+    "udt_reviewed_backlog_banking_2026-09-10/review_integration/SHA256SUMS"
+  ],
+  "old_review_seal_unchanged": true,
+  "changed_files": {
+    "CURRENT_RESEARCH_PROGRAM.md": {
+      "before": "ba30f38ae637dbce280b8e1824bd67ca61bc14e37bebcc6e890bd8e68bd57eb3",
+      "after": "05e211dc3f83a7ee45b6a38fb0aaeabdb9253c33df2569d320328e5426d13c79"
+    },
+    "CURRENT_SCIENTIFIC_PREMISES.md": {
+      "before": "7c4e38dfc8d109cd47c2536281619e604a6c4463682e0a13e8def108ffc4d678",
+      "after": "a8927ad83c39e0e11da7fc9a51a2f6af55882561d30d205de72435aeed4b6f35"
+    },
+    "HANDOFF.md": {
+      "before": "1d1a2e84d6203f0a05feec4c30b4850e9168e6ef779fb4aa6bf23f1a8c034b82",
+      "after": "34bb702491dfec6591bb69c1c5d93e007cf357ead05a67d40db7e6e37fe10db4"
+    },
+    "INDEX.md": {
+      "before": "c7d386e895e68bb70c43f8c418381f9b53750d87d658e636052d50c5eca629ee",
+      "after": "830af6294b0c6e4adbb5067eb339749b9bd174d86a4b2a3c92d22b06ecf643b7"
+    },
+    "LIVE.md": {
+      "before": "5b59079bbf0705d230d451d9289994ec70b49d996b6a7ab6a8477db8a9a8b7f9",
+      "after": "165a1d2b69bbf7206ab9ee4bfa40b99576874ff70caa52356286abebc72a27a9"
+    },
+    "MEMORY.md": {
+      "before": "c1d8c35b74e08351c97438eb7ad675d563303356926bf7de2f6c6d8c6de39937",
+      "after": "95b2a01f854a9dabdeed04e4f2ca5b3021bd9d4edffc544edb5d7c8fcead36f8"
+    },
+    "UDT_RESEARCH_ROADMAP.md": {
+      "before": "75a6752959fb21562d5e620bd57cd5ff46d5ede5b4949c679994e621d5f7544c",
+      "after": "724f4e0721b11945c5ff210c6c5ea7dc1aa8d32073eab505e4bf899f7b62d0d3"
+    },
+    "udt_reviewed_backlog_banking_2026-09-10/BANKING_RECORD.md": {
+      "before": "618b4b953a419b991e0ae7f0c643487536b8e76ba7b0b0c7de53db17fbde81b2",
+      "after": "654b0b2d734685c42d6a1b31740d545ab9299d17a5d5cc32c57e407b800191f1"
+    },
+    "udt_reviewed_backlog_banking_2026-09-10/DISPOSITIONS.tsv": {
+      "before": "6df218c360178de86a91533342a2c5fd7e657492c1e66087406abaa24475610e",
+      "after": "5e3247174cb6a622cba3c90d643569f7a436f3d7f32b528c8ee848b56a0f3319"
+    },
+    "verify_current_scientific_premises.py": {
+      "before": "9fe36d62f80fd18995157e4e8065740de6bd121f20c810da495cdae71643f725",
+      "after": "6a214dcdc9e39bdf070615ba91e5ae0d3979139d7265c47076f26fb4082e0490"
+    }
+  },
+  "all_final17_file_hashes": {
+    "AGENTS.md": "d962ed12dddd67c65d531b96f7dd004db677afd6396e15ada3a9d921d05ddbf7",
+    "CURRENT_RESEARCH_PROGRAM.md": "05e211dc3f83a7ee45b6a38fb0aaeabdb9253c33df2569d320328e5426d13c79",
+    "CURRENT_SCIENTIFIC_PREMISES.md": "a8927ad83c39e0e11da7fc9a51a2f6af55882561d30d205de72435aeed4b6f35",
+    "CURRENT_SCIENTIFIC_PREMISES.tsv": "6fc63338cf5562d72d0313e2376474ad9ac908841a64e82fc74e0bc93b8ae43a",
+    "HANDOFF.md": "34bb702491dfec6591bb69c1c5d93e007cf357ead05a67d40db7e6e37fe10db4",
+    "INDEX.md": "830af6294b0c6e4adbb5067eb339749b9bd174d86a4b2a3c92d22b06ecf643b7",
+    "LIVE.md": "165a1d2b69bbf7206ab9ee4bfa40b99576874ff70caa52356286abebc72a27a9",
+    "MEMORY.md": "95b2a01f854a9dabdeed04e4f2ca5b3021bd9d4edffc544edb5d7c8fcead36f8",
+    "UDT_RESEARCH_ROADMAP.md": "724f4e0721b11945c5ff210c6c5ea7dc1aa8d32073eab505e4bf899f7b62d0d3",
+    "tests/test_reviewed_backlog_banking.py": "96d1ec441121b3894892a4a246e5f2257708b92494d5b22132b56e29c771a861",
+    "tests/test_startup_surface.py": "4ba25e7dc9b7af41826b94d9b1e19387387e14d8897bc93430cbf0244458be9a",
+    "udt_reviewed_backlog_banking_2026-09-10/BANKED_CLAIMS.json": "4b98b1dea6ce9dc0d62f9fa6183c1379aed534989159b45a208dad93fce12c2e",
+    "udt_reviewed_backlog_banking_2026-09-10/BANKED_ROWS.tsv": "2115d3edd646655726720bd8dc2e166ab87952db885f412e8b0200bd81a549e8",
+    "udt_reviewed_backlog_banking_2026-09-10/BANKING_RECORD.md": "654b0b2d734685c42d6a1b31740d545ab9299d17a5d5cc32c57e407b800191f1",
+    "udt_reviewed_backlog_banking_2026-09-10/DISPOSITIONS.tsv": "5e3247174cb6a622cba3c90d643569f7a436f3d7f32b528c8ee848b56a0f3319",
+    "udt_reviewed_backlog_banking_2026-09-10/SOURCE_EVIDENCE_SHA256SUMS": "94d15fa2f49cc5f01fa492d28577a9fa33c1a9e7eedacc9cb12a09002eefeeca",
+    "verify_current_scientific_premises.py": "6a214dcdc9e39bdf070615ba91e5ae0d3979139d7265c47076f26fb4082e0490"
+  },
+  "disposition_changes": [
+    {
+      "item": "CP1",
+      "changes": {
+        "disposition": [
+          "PROPOSED_EXACT_SCOPE_ACCEPTANCE",
+          "BANKED_AT_EXACT_REVIEWED_SCOPE"
+        ],
+        "reason_or_remaining_gate": [
+          "Source/readiness passed; final integration gates pending.",
+          "Source/readiness, fresh integration review and actual full395 passed; exact conditions and evidence category retained."
+        ]
+      }
+    },
+    {
+      "item": "HB2",
+      "changes": {
+        "disposition": [
+          "PROPOSED_EXACT_SCOPE_ACCEPTANCE",
+          "BANKED_AT_EXACT_REVIEWED_SCOPE"
+        ],
+        "reason_or_remaining_gate": [
+          "Source/readiness passed; final integration gates pending.",
+          "Source/readiness, fresh integration review and actual full395 passed; exact conditions and evidence category retained."
+        ]
+      }
+    },
+    {
+      "item": "HB3",
+      "changes": {
+        "disposition": [
+          "PROPOSED_EXACT_SCOPE_ACCEPTANCE",
+          "BANKED_AT_EXACT_REVIEWED_SCOPE"
+        ],
+        "reason_or_remaining_gate": [
+          "Source/readiness passed; final integration gates pending.",
+          "Source/readiness, fresh integration review and actual full395 passed; exact conditions and evidence category retained."
+        ]
+      }
+    },
+    {
+      "item": "BI2",
+      "changes": {
+        "disposition": [
+          "PROPOSED_EXACT_SCOPE_ACCEPTANCE",
+          "BANKED_AT_EXACT_REVIEWED_SCOPE"
+        ],
+        "reason_or_remaining_gate": [
+          "Source/readiness passed; final integration gates pending.",
+          "Source/readiness, fresh integration review and actual full395 passed; exact conditions and evidence category retained."
+        ]
+      }
+    },
+    {
+      "item": "BI3",
+      "changes": {
+        "disposition": [
+          "PROPOSED_EXACT_SCOPE_ACCEPTANCE",
+          "BANKED_AT_EXACT_REVIEWED_SCOPE"
+        ],
+        "reason_or_remaining_gate": [
+          "Source/readiness passed; final integration gates pending.",
+          "Source/readiness, fresh integration review and actual full395 passed; exact conditions and evidence category retained."
+        ]
+      }
+    },
+    {
+      "item": "NR1",
+      "changes": {
+        "disposition": [
+          "PROPOSED_EXACT_SCOPE_ACCEPTANCE",
+          "BANKED_AT_EXACT_REVIEWED_SCOPE"
+        ],
+        "reason_or_remaining_gate": [
+          "Source/readiness passed; final integration gates pending.",
+          "Source/readiness, fresh integration review and actual full395 passed; exact conditions and evidence category retained."
+        ]
+      }
+    },
+    {
+      "item": "NR2",
+      "changes": {
+        "disposition": [
+          "PROPOSED_EXACT_SCOPE_ACCEPTANCE",
+          "BANKED_AT_EXACT_REVIEWED_SCOPE"
+        ],
+        "reason_or_remaining_gate": [
+          "Source/readiness passed; final integration gates pending.",
+          "Source/readiness, fresh integration review and actual full395 passed; exact conditions and evidence category retained."
+        ]
+      }
+    },
+    {
+      "item": "LG1",
+      "changes": {
+        "disposition": [
+          "PROPOSED_EXACT_SCOPE_ACCEPTANCE",
+          "BANKED_AT_EXACT_REVIEWED_SCOPE"
+        ],
+        "reason_or_remaining_gate": [
+          "Source/readiness passed; final integration gates pending.",
+          "Source/readiness, fresh integration review and actual full395 passed; exact conditions and evidence category retained."
+        ]
+      }
+    },
+    {
+      "item": "LG2",
+      "changes": {
+        "disposition": [
+          "PROPOSED_EXACT_SCOPE_ACCEPTANCE",
+          "BANKED_AT_EXACT_REVIEWED_SCOPE"
+        ],
+        "reason_or_remaining_gate": [
+          "Source/readiness passed; final integration gates pending.",
+          "Source/readiness, fresh integration review and actual full395 passed; exact conditions and evidence category retained."
+        ]
+      }
+    },
+    {
+      "item": "LE1",
+      "changes": {
+        "disposition": [
+          "PROPOSED_EXACT_SCOPE_ACCEPTANCE",
+          "BANKED_AT_EXACT_REVIEWED_SCOPE"
+        ],
+        "reason_or_remaining_gate": [
+          "Source/readiness passed; final integration gates pending.",
+          "Source/readiness, fresh integration review and actual full395 passed; exact conditions and evidence category retained."
+        ]
+      }
+    },
+    {
+      "item": "SE1",
+      "changes": {
+        "disposition": [
+          "PROPOSED_EXACT_SCOPE_ACCEPTANCE",
+          "BANKED_AT_EXACT_REVIEWED_SCOPE"
+        ],
+        "reason_or_remaining_gate": [
+          "Source/readiness passed; final integration gates pending.",
+          "Source/readiness, fresh integration review and actual full395 passed; exact conditions and evidence category retained."
+        ]
+      }
+    },
+    {
+      "item": "NE1",
+      "changes": {
+        "disposition": [
+          "PROPOSED_EXACT_SCOPE_ACCEPTANCE",
+          "BANKED_AT_EXACT_REVIEWED_SCOPE"
+        ],
+        "reason_or_remaining_gate": [
+          "Source/readiness passed; final integration gates pending.",
+          "Source/readiness, fresh integration review and actual full395 passed; exact conditions and evidence category retained."
+        ]
+      }
+    },
+    {
+      "item": "ND1",
+      "changes": {
+        "disposition": [
+          "PROPOSED_EXACT_SCOPE_ACCEPTANCE",
+          "BANKED_AT_EXACT_REVIEWED_SCOPE"
+        ],
+        "reason_or_remaining_gate": [
+          "Source/readiness passed; final integration gates pending.",
+          "Source/readiness, fresh integration review and actual full395 passed; exact conditions and evidence category retained."
+        ]
+      }
+    },
+    {
+      "item": "ND2",
+      "changes": {
+        "disposition": [
+          "PROPOSED_EXACT_SCOPE_ACCEPTANCE",
+          "BANKED_AT_EXACT_REVIEWED_SCOPE"
+        ],
+        "reason_or_remaining_gate": [
+          "Source/readiness passed; final integration gates pending.",
+          "Source/readiness, fresh integration review and actual full395 passed; exact conditions and evidence category retained."
+        ]
+      }
+    },
+    {
+      "item": "QC1",
+      "changes": {
+        "disposition": [
+          "PROPOSED_EXACT_SCOPE_ACCEPTANCE",
+          "BANKED_AT_EXACT_REVIEWED_SCOPE"
+        ],
+        "reason_or_remaining_gate": [
+          "Source/readiness passed; final integration gates pending.",
+          "Source/readiness, fresh integration review and actual full395 passed; exact conditions and evidence category retained."
+        ]
+      }
+    },
+    {
+      "item": "QC2",
+      "changes": {
+        "disposition": [
+          "PROPOSED_EXACT_SCOPE_ACCEPTANCE",
+          "BANKED_AT_EXACT_REVIEWED_SCOPE"
+        ],
+        "reason_or_remaining_gate": [
+          "Source/readiness passed; final integration gates pending.",
+          "Source/readiness, fresh integration review and actual full395 passed; exact conditions and evidence category retained."
+        ]
+      }
+    },
+    {
+      "item": "GL1",
+      "changes": {
+        "disposition": [
+          "PROPOSED_EXACT_SCOPE_ACCEPTANCE",
+          "BANKED_AT_EXACT_REVIEWED_SCOPE"
+        ],
+        "reason_or_remaining_gate": [
+          "Source/readiness passed; final integration gates pending.",
+          "Source/readiness, fresh integration review and actual full395 passed; exact conditions and evidence category retained."
+        ]
+      }
+    },
+    {
+      "item": "GL2",
+      "changes": {
+        "disposition": [
+          "PROPOSED_EXACT_SCOPE_ACCEPTANCE",
+          "BANKED_AT_EXACT_REVIEWED_SCOPE"
+        ],
+        "reason_or_remaining_gate": [
+          "Source/readiness passed; final integration gates pending.",
+          "Source/readiness, fresh integration review and actual full395 passed; exact conditions and evidence category retained."
+        ]
+      }
+    },
+    {
+      "item": "RF1",
+      "changes": {
+        "disposition": [
+          "PROPOSED_EXACT_SCOPE_ACCEPTANCE",
+          "BANKED_AT_EXACT_REVIEWED_SCOPE"
+        ],
+        "reason_or_remaining_gate": [
+          "Source/readiness passed; final integration gates pending.",
+          "Source/readiness, fresh integration review and actual full395 passed; exact conditions and evidence category retained."
+        ]
+      }
+    },
+    {
+      "item": "NCI1",
+      "changes": {
+        "disposition": [
+          "PROPOSED_EXACT_SCOPE_ACCEPTANCE",
+          "BANKED_AT_EXACT_REVIEWED_SCOPE"
+        ],
+        "reason_or_remaining_gate": [
+          "Source/readiness passed; final integration gates pending.",
+          "Source/readiness, fresh integration review and actual full395 passed; exact conditions and evidence category retained."
+        ]
+      }
+    },
+    {
+      "item": "DCI1",
+      "changes": {
+        "disposition": [
+          "PROPOSED_EXACT_SCOPE_ACCEPTANCE",
+          "BANKED_AT_EXACT_REVIEWED_SCOPE"
+        ],
+        "reason_or_remaining_gate": [
+          "Source/readiness passed; final integration gates pending.",
+          "Source/readiness, fresh integration review and actual full395 passed; exact conditions and evidence category retained."
+        ]
+      }
+    },
+    {
+      "item": "KTI1",
+      "changes": {
+        "disposition": [
+          "PROPOSED_EXACT_SCOPE_ACCEPTANCE",
+          "BANKED_AT_EXACT_REVIEWED_SCOPE"
+        ],
+        "reason_or_remaining_gate": [
+          "Source/readiness passed; final integration gates pending.",
+          "Source/readiness, fresh integration review and actual full395 passed; exact conditions and evidence category retained."
+        ]
+      }
+    },
+    {
+      "item": "ER1",
+      "changes": {
+        "disposition": [
+          "PROPOSED_EXACT_SCOPE_ACCEPTANCE",
+          "BANKED_AT_EXACT_REVIEWED_SCOPE"
+        ],
+        "reason_or_remaining_gate": [
+          "Source/readiness passed; final integration gates pending.",
+          "Source/readiness, fresh integration review and actual full395 passed; exact conditions and evidence category retained."
+        ]
+      }
+    },
+    {
+      "item": "TM1",
+      "changes": {
+        "disposition": [
+          "PROPOSED_EXACT_SCOPE_ACCEPTANCE",
+          "BANKED_AT_EXACT_REVIEWED_SCOPE"
+        ],
+        "reason_or_remaining_gate": [
+          "Source/readiness passed; final integration gates pending.",
+          "Source/readiness, fresh integration review and actual full395 passed; exact conditions and evidence category retained."
+        ]
+      }
+    },
+    {
+      "item": "TM2",
+      "changes": {
+        "disposition": [
+          "PROPOSED_EXACT_SCOPE_ACCEPTANCE",
+          "BANKED_AT_EXACT_REVIEWED_SCOPE"
+        ],
+        "reason_or_remaining_gate": [
+          "Source/readiness passed; final integration gates pending.",
+          "Source/readiness, fresh integration review and actual full395 passed; exact conditions and evidence category retained."
+        ]
+      }
+    },
+    {
+      "item": "CO1",
+      "changes": {
+        "disposition": [
+          "PROPOSED_EXACT_SCOPE_ACCEPTANCE",
+          "BANKED_AT_EXACT_REVIEWED_SCOPE"
+        ],
+        "reason_or_remaining_gate": [
+          "Source/readiness passed; final integration gates pending.",
+          "Source/readiness, fresh integration review and actual full395 passed; exact conditions and evidence category retained."
+        ]
+      }
+    },
+    {
+      "item": "CO2",
+      "changes": {
+        "disposition": [
+          "PROPOSED_EXACT_SCOPE_ACCEPTANCE",
+          "BANKED_AT_EXACT_REVIEWED_SCOPE"
+        ],
+        "reason_or_remaining_gate": [
+          "Source/readiness passed; final integration gates pending.",
+          "Source/readiness, fresh integration review and actual full395 passed; exact conditions and evidence category retained."
+        ]
+      }
+    },
+    {
+      "item": "RD1",
+      "changes": {
+        "disposition": [
+          "PROPOSED_EXACT_SCOPE_ACCEPTANCE",
+          "BANKED_AT_EXACT_REVIEWED_SCOPE"
+        ],
+        "reason_or_remaining_gate": [
+          "Source/readiness passed; final integration gates pending.",
+          "Source/readiness, fresh integration review and actual full395 passed; exact conditions and evidence category retained."
+        ]
+      }
+    },
+    {
+      "item": "LC2",
+      "changes": {
+        "disposition": [
+          "PROPOSED_EXACT_SCOPE_ACCEPTANCE",
+          "BANKED_AT_EXACT_REVIEWED_SCOPE"
+        ],
+        "reason_or_remaining_gate": [
+          "Source/readiness passed; final integration gates pending.",
+          "Source/readiness, fresh integration review and actual full395 passed; exact conditions and evidence category retained."
+        ]
+      }
+    },
+    {
+      "item": "FW2",
+      "changes": {
+        "disposition": [
+          "PROPOSED_EXACT_SCOPE_ACCEPTANCE",
+          "BANKED_AT_EXACT_REVIEWED_SCOPE"
+        ],
+        "reason_or_remaining_gate": [
+          "Source/readiness passed; final integration gates pending.",
+          "Source/readiness, fresh integration review and actual full395 passed; exact conditions and evidence category retained."
+        ]
+      }
+    }
+  ],
+  "exact_diff": "--- full395_input/CURRENT_RESEARCH_PROGRAM.md\n+++ final/CURRENT_RESEARCH_PROGRAM.md\n@@ -27,7 +27,7 @@\n Inherited G312 \u201cadmitted/lawful\u201d Einstein claims are CONDITIONAL on full reviewed premises,\n not established from filter-only GR. The existing membership route is unclosed, not disproved:\n `udt_gr_filter_reconciliation_2026-09-09/AUTHORITY_RECORD.md`. Exact grades/math remain unchanged.\n-G383--G412 banking draft/checks: INDEX; final integration pending.\n+G383--G412 exact-scope banking COMPLETE; checks/reviews: INDEX.\n Population, realized history, matter, absolute scale and `X_max` remain unselected.\n \n ## Dependency spine\n@@ -112,6 +112,6 @@\n \n ## Current next gate\n \n-G383--G412 exact-scope banking awaits final integration; earlier G381=NT1/G382=NT2 banking is COMPLETE; scopes/reviews: INDEX.\n+G383--G412 exact-scope banking is COMPLETE; earlier G381=NT1/G382=NT2 banking is COMPLETE; scopes/reviews: INDEX.\n G312 membership unclosed; G352 physical-realization: physical identification remains OPEN.\n Stop for lay discussion with Charles; no new campaign is authorized; any approved work order includes checks, fresh separate-context review and bounded same-premise repair.\n--- full395_input/CURRENT_SCIENTIFIC_PREMISES.md\n+++ final/CURRENT_SCIENTIFIC_PREMISES.md\n@@ -2,7 +2,7 @@\n \n `LIVE.md` owns current status. The exact 395-row `CURRENT_SCIENTIFIC_PREMISES.tsv` owns grades;\n run `python3 verify_current_scientific_premises.py` before querying exact rows.\n-Banking through G382 is COMPLETE; G383--G412 integration awaits final checks/review.\n+Exact-scope banking through G412 is COMPLETE; all inherited limits remain.\n Sources/reviews: `INDEX.md`.\n Original365 rows, evidence, canon and fixed manuscript remain unchanged.\n \n@@ -10,7 +10,7 @@\n G312's current authority qualifies inherited \u201cadmitted/lawful\u201d labels. Einstein claims remain\n CONDITIONAL on full reviewed premises, not established from filter-only GR; membership is unclosed.\n Current record: `udt_gr_filter_reconciliation_2026-09-09/AUTHORITY_RECORD.md`. No theorem is regraded.\n-New prebank365 PASS; expanded banking checks/review: INDEX.\n+New prebank365 and full395 PASS; banking checks/review: INDEX.\n \n ## Foundational and adopted layer\n \n--- full395_input/HANDOFF.md\n+++ final/HANDOFF.md\n@@ -44,7 +44,7 @@\n \n Whole original reviews and false-pass/repair limitations control; CF2 intermediate buffers are\n LOST, not preserved or recovered; NT1 lost-buffer/unsnapshotted-code caveats remain.\n-G383--G412 backlog integration awaits final checks/review. Fixed manuscript/coverage stays through G352.\n+G383--G412 exact-scope banking is COMPLETE. Fixed manuscript/coverage stays through G352.\n Initial data, calibration, carried measure and history selection differ.\n An admitted source sector is not required for every explicitly conditional measurement route.\n Geometric/calibration and emergence aims remain parallel; neither is a prerequisite.\n@@ -52,7 +52,7 @@\n G383--G394: original recipe, HB/BI, nonlinear/localized geometry; G395--G401: response/correspondence.\n G402--G405: null-clock/curvature/kernel expansion; G406--G410: conditional measurement/design math.\n G409=CO2 design, G411=LC2 published benchmark, G412=FW2 finite procedure retain distinct categories.\n-Original365 rows/evidence remain unchanged; banking draft/checks: INDEX.\n+Original365 rows/evidence remain unchanged; acceptance/checks: INDEX.\n \n Optional source branch PAUSED; automatic Hopfion-stabilization mechanism is PAUSED, no rescue.\n GOCE PARKED, eligibility UNRESOLVED/OPEN, enquiry UNSENT\u2014not rejected or awaiting a reply.\n@@ -78,7 +78,7 @@\n dated handoff sequence. General capacity UNVERIFIED; prior passes are historical evidence.\n Availability testing is operational only; the whiteboard's scientific audit is PROPOSED, NOT AUTHORIZED.\n \n-Next: G383--G412 exact-scope banking awaits final integration; earlier G381=NT1/G382=NT2 banking is COMPLETE; scopes/reviews: INDEX.\n+Next: G383--G412 exact-scope banking is COMPLETE; earlier G381=NT1/G382=NT2 banking is COMPLETE; scopes/reviews: INDEX.\n G312 membership unclosed; G352 physical-realization: physical identification remains OPEN.\n Stop for lay discussion with Charles; no new campaign is authorized; any approved work order includes checks, fresh separate-context review and bounded same-premise repair.\n <!-- STARTUP_CURRENT_END -->\n--- full395_input/INDEX.md\n+++ final/INDEX.md\n@@ -1,6 +1,6 @@\n # INDEX \u2014 compact current pointers; `LIVE.md` wins\n \n-G383--G412 banking draft; final integration pending. Earlier banking through G382 COMPLETE.\n+G383--G412 exact-scope banking COMPLETE; actual full395 PASS; scopes/reviews below.\n Roadmap and campaign: `UDT_RESEARCH_ROADMAP.md`.\n Latest: `udt_reviewed_backlog_banking_2026-09-10/BANKING_RECORD.md`; exact claims/dispositions/checks there.\n The exact 395-row `CURRENT_SCIENTIFIC_PREMISES.tsv` owns grades, not these pointers.\n--- full395_input/LIVE.md\n+++ final/LIVE.md\n@@ -55,8 +55,8 @@\n - G381=NT1 and G382=NT2: neighboring tidal compatibility/obstruction and restricted real rank-one\n   null-jet classification; actual smooth local Lambda=0 realizations, not general metric realization.\n \n-Banking through G382 is COMPLETE; G383--G412 integration is pending final checks/review.\n-The exact 395-row `CURRENT_SCIENTIFIC_PREMISES.tsv` owns grades; `INDEX.md` routes the banking draft.\n+Exact-scope banking through G412 is COMPLETE; all inherited limits remain.\n+The exact 395-row `CURRENT_SCIENTIFIC_PREMISES.tsv` owns grades; `INDEX.md` routes the acceptance record.\n Whole original reviews/limits control, including false passes/repairs, CF2 buffers LOST, not preserved\n or recovered, and NT1 lost buffers/unsnapshotted reviewer code. Original365 rows remain unchanged.\n G383--G394 cover the original curvature recipe, HB/BI and nonlinear/localized geometry.\n@@ -106,7 +106,7 @@\n \n ### Next gate\n \n-G383--G412 exact-scope banking awaits final integration; earlier G381=NT1/G382=NT2 banking is COMPLETE; scopes/reviews: INDEX.\n+G383--G412 exact-scope banking is COMPLETE; earlier G381=NT1/G382=NT2 banking is COMPLETE; scopes/reviews: INDEX.\n G312 membership unclosed; G352 physical-realization: physical identification remains OPEN.\n Stop for lay discussion with Charles; no new campaign is authorized; any approved work order includes checks, fresh separate-context review and bounded same-premise repair.\n <!-- STARTUP_CURRENT_END -->\n--- full395_input/MEMORY.md\n+++ final/MEMORY.md\n@@ -19,7 +19,7 @@\n G381=NT1 precedes G382=NT2: tidal-neighborhood obstruction and restricted real null jets\n with actual local Lambda=0 realizations; not general metric realization or physical modes.\n Evidence, false passes, repairs and lost-output caveats stay fixed.\n-G383--G412 backlog integration awaits final checks/review; three CD vacuous checks remain EXCLUDED.\n+G383--G412 exact-scope banking COMPLETE; three CD vacuous checks remain EXCLUDED.\n 27 conditional mathematical results plus CO2 design, LC2 benchmark and FW2 finite procedure; scopes: INDEX.\n Original365 rows/evidence remain unchanged. Banking checks/reviews: INDEX.\n \n--- full395_input/UDT_RESEARCH_ROADMAP.md\n+++ final/UDT_RESEARCH_ROADMAP.md\n@@ -257,7 +257,7 @@\n \n | Line/stage | Current placement | Evidence or gate |\n |---|---|---|\n-| Exact metric/kernel, stages1\u20132 | ER1 COMPLETE, reviewed; G405 exact-scope banking integration pending | `udt_exact_metric_kernel_expansion_2026-09-10/DECISION_BRIEF.md` and `udt_exact_metric_kernel_expansion_2026-09-10/review/REVIEW.md`: variable lapse/rest form/time-live shift, exact rotation interaction; supplied configuration class only |\n+| Exact metric/kernel, stages1\u20132 | ER1 COMPLETE, reviewed; G405 conditionally banked at exact scope | `udt_exact_metric_kernel_expansion_2026-09-10/DECISION_BRIEF.md` and `udt_exact_metric_kernel_expansion_2026-09-10/review/REVIEW.md`: variable lapse/rest form/time-live shift, exact rotation interaction; supplied configuration class only |\n | Joint realization, stage3 | ER1's finite marked-record recipe COMPLETE at reviewed scope | Six common directional records plus density and derivatives; SPD/shift coherence and actual shared immersions; no physical pair population or arbitrary-network theorem |\n | Conditional nonlinear developments, stage4 | Next discussion line; no new dispatch | Select an unexamined interaction/restriction in reviewed NR1/NR2 or NE1 and state its equation/premises; no comparison equation silently becomes UDT's law |\n | Reach/persistence, stage5 | ER1 local hypotheses and omission controls checked; broader study not dispatched | Common marking/calibration and local smoothness remain supplied; native assembly, global reach, genericity and dynamical persistence remain open |\n@@ -265,7 +265,7 @@\n ER1 returned the reviewed conditional result, actual witness/record compatibility and lay brief;\n its exact execution and final fidelity receipts are in that package. The two-hour research authorization\n is spent. Charles separately authorized the reviewed backlog banking:30 entries G383--G412,\n-with source gates passed and final integration pending. `udt_reviewed_backlog_banking_2026-09-10/BANKING_RECORD.md`\n+with source/review gates and actual full395 PASS. `udt_reviewed_backlog_banking_2026-09-10/BANKING_RECORD.md`\n and `DISPOSITIONS.tsv` in that package own exact scopes, grades, checks and remaining gates.\n All original science is preserved. Later discovery stages remain separate decisions; stop for discussion.\n \n@@ -290,7 +290,7 @@\n linearized metric calculation. A linear approximation describes the first response near a chosen\n background; it need not settle finite-amplitude interactions, long accumulation or realizability.\n \n-Relevant reviewed work included in the banking packet:\n+Relevant conditional results now banked at their reviewed scopes:\n \n - NR1/NR2, `udt_nonlinear_mode_realizability_campaign_2026-09-09/DECISION_BRIEF.md`: in its supplied\n   compact background/sector and conditional equation, some linear disturbances fail an exact-family\n--- full395_input/udt_reviewed_backlog_banking_2026-09-10/BANKING_RECORD.md\n+++ final/udt_reviewed_backlog_banking_2026-09-10/BANKING_RECORD.md\n@@ -1,10 +1,11 @@\n # Reviewed backlog \u2014 exact-scope acceptance record\n \n-DRAFT FOR INTEGRATION FIDELITY REVIEW. Source/readiness gates and the new prebank audit passed;\n-expanded-registry checks and fresh integration review remain pending. No acceptance is claimed\n-from this draft alone. Charles authorized promotion on 2026-09-10; see WORK_ORDER.md.\n+ACCEPTED AT THE EXACT REVIEWED SCOPES: G383--G412. Source/readiness reviews, the new prebank365\n+audit, fresh integration review and actual expanded full395 audit passed. Charles authorized\n+promotion on 2026-09-10; see WORK_ORDER.md. Final status fidelity and publication have separate\n+receipts; acceptance does not adopt physical premises or change canon.\n \n-## What is proposed for acceptance\n+## What is accepted\n \n Thirty exact result entries, G383--G412: **27 conditional mathematical results**,\n **one fixed-query design control** (G409=CO2), **one retrospective published-summary benchmark**\n@@ -17,7 +18,7 @@\n The ENTIRE original candidate, mathematical argument, data/freedom freeze, controlling review,\n repair, exclusion and discovery history owns each claim. BANKED_CLAIMS.json pins those artifacts,\n records exact quantifiers and distinguishes required accepted dependencies from rederived methods,\n-controls and source credit. BANKED_ROWS.tsv is the exact proposed addition, not a replacement\n+controls and source credit. BANKED_ROWS.tsv is the exact accepted addition, not a replacement\n for the source arguments. A table, checklist, program or passing guard is not scientific proof.\n \n | Registry | Original result | Accepted object at its reviewed scope |\n@@ -119,6 +120,15 @@\n 2026-09-10T23:57:24.144105+00:00. checks/prebank_365.* owns the actual streams and capture\n provenance. This is a new execution, not a rehearsal or source-reviewer rerun.\n \n+Expanded full395: exit0/PASS, empty stderr, 412.919492seconds, 105600KiB max RSS,\n+2GiB/900s; started2026-09-11T00:41:00.078089+00:00. checks/full395.* preserves the actual run;\n+full395_INPUTS.json and full395_COMPLETION_INPUTS.json authenticate unchanged inputs through\n+completion. The initial failed integration run and all packaging repairs remain preserved.\n+After this PASS, only acceptance/check-receipt prose and additional immutable review pins\n+were finalized; scientific rows, claims, source evidence and verifier logic stayed fixed.\n+Final status/pin fidelity and short-guard outcomes are recorded separately in\n+review_integration/FINAL_FIDELITY.md and checks/final_guards.*; no full source reproof is claimed.\n+\n Selected unchanged source programs recomputed the load-bearing algebra/geometry/benchmark or\n finite procedure outputs; exact commands, environments, limits, stdout/stderr and correspondence\n are in checks/ and the two source-review directories. Metadata-only Python build/date differences\n--- full395_input/udt_reviewed_backlog_banking_2026-09-10/DISPOSITIONS.tsv\n+++ final/udt_reviewed_backlog_banking_2026-09-10/DISPOSITIONS.tsv\n@@ -1,34 +1,34 @@\n item\tregistry_ids\tdisposition\tcategory\tsource\treason_or_remaining_gate\n-CP1\tG383\tPROPOSED_EXACT_SCOPE_ACCEPTANCE\tBANKED_DERIVED_CONDITIONAL__VERIFIED_WITH_CAVEATS__OWNER_AUTHORIZED__NOT_PHYSICAL_ADOPTION__NOT_CANON\tudt_g313_curvature_phase_current_candidate_2026-09-06/CANDIDATE_ARGUMENT.md\tSource/readiness passed; final integration gates pending.\n-HB2\tG384\tPROPOSED_EXACT_SCOPE_ACCEPTANCE\tBANKED_DERIVED_CONDITIONAL__VERIFIED_WITH_CAVEATS__OWNER_AUTHORIZED__NOT_PHYSICAL_ADOPTION__NOT_CANON\tudt_hopfion_bridge_stability_reassessment_2026-09-08/step_02/CANDIDATE_INITIAL.md\tSource/readiness passed; final integration gates pending.\n-HB3\tG385\tPROPOSED_EXACT_SCOPE_ACCEPTANCE\tBANKED_DERIVED_CONDITIONAL__VERIFIED_WITH_CAVEATS__OWNER_AUTHORIZED__NOT_PHYSICAL_ADOPTION__NOT_CANON\tudt_hopfion_bridge_stability_reassessment_2026-09-08/step_03/CANDIDATE_INITIAL.md\tSource/readiness passed; final integration gates pending.\n-BI2\tG386\tPROPOSED_EXACT_SCOPE_ACCEPTANCE\tBANKED_DERIVED_CONDITIONAL__VERIFIED_WITH_CAVEATS__OWNER_AUTHORIZED__NOT_PHYSICAL_ADOPTION__NOT_CANON\tudt_berger_initial_data_preservation_campaign_2026-09-08/step_02/CANDIDATE_INITIAL.md\tSource/readiness passed; final integration gates pending.\n-BI3\tG387\tPROPOSED_EXACT_SCOPE_ACCEPTANCE\tBANKED_DERIVED_CONDITIONAL__VERIFIED_WITH_CAVEATS__OWNER_AUTHORIZED__NOT_PHYSICAL_ADOPTION__NOT_CANON\tudt_berger_initial_data_preservation_campaign_2026-09-08/step_03/CANDIDATE_INITIAL.md\tSource/readiness passed; final integration gates pending.\n-NR1\tG388\tPROPOSED_EXACT_SCOPE_ACCEPTANCE\tBANKED_DERIVED_CONDITIONAL__VERIFIED_WITH_CAVEATS__OWNER_AUTHORIZED__NOT_PHYSICAL_ADOPTION__NOT_CANON\tudt_nonlinear_mode_realizability_campaign_2026-09-09/step_01/INITIAL_CANDIDATE.md\tSource/readiness passed; final integration gates pending.\n-NR2\tG389\tPROPOSED_EXACT_SCOPE_ACCEPTANCE\tBANKED_DERIVED_CONDITIONAL__VERIFIED_WITH_CAVEATS__OWNER_AUTHORIZED__NOT_PHYSICAL_ADOPTION__NOT_CANON\tudt_nonlinear_mode_realizability_campaign_2026-09-09/step_02/INITIAL_CANDIDATE.md\tSource/readiness passed; final integration gates pending.\n-LG1\tG390\tPROPOSED_EXACT_SCOPE_ACCEPTANCE\tBANKED_DERIVED_CONDITIONAL__VERIFIED_WITH_CAVEATS__OWNER_AUTHORIZED__NOT_PHYSICAL_ADOPTION__NOT_CANON\tudt_localized_geometry_campaign_2026-09-09/step_01/CANDIDATE.md\tSource/readiness passed; final integration gates pending.\n-LG2\tG391\tPROPOSED_EXACT_SCOPE_ACCEPTANCE\tBANKED_DERIVED_CONDITIONAL__VERIFIED_WITH_CAVEATS__OWNER_AUTHORIZED__NOT_PHYSICAL_ADOPTION__NOT_CANON\tudt_localized_geometry_campaign_2026-09-09/step_02/CANDIDATE.md\tSource/readiness passed; final integration gates pending.\n-LE1\tG392\tPROPOSED_EXACT_SCOPE_ACCEPTANCE\tBANKED_DERIVED_CONDITIONAL__VERIFIED_WITH_CAVEATS__OWNER_AUTHORIZED__NOT_PHYSICAL_ADOPTION__NOT_CANON\tudt_localized_evolution_followup_2026-09-09/CANDIDATE.md\tSource/readiness passed; final integration gates pending.\n-SE1\tG393\tPROPOSED_EXACT_SCOPE_ACCEPTANCE\tBANKED_DERIVED_CONDITIONAL__VERIFIED_WITH_CAVEATS__OWNER_AUTHORIZED__NOT_PHYSICAL_ADOPTION__NOT_CANON\tudt_spatial_curvature_evolution_2026-09-09/CANDIDATE.md\tSource/readiness passed; final integration gates pending.\n-NE1\tG394\tPROPOSED_EXACT_SCOPE_ACCEPTANCE\tBANKED_DERIVED_CONDITIONAL__VERIFIED_WITH_CAVEATS__OWNER_AUTHORIZED__NOT_PHYSICAL_ADOPTION__NOT_CANON\tudt_nonlinear_ripple_geometry_2026-09-09/INITIAL_CANDIDATE.md\tSource/readiness passed; final integration gates pending.\n-ND1\tG395\tPROPOSED_EXACT_SCOPE_ACCEPTANCE\tBANKED_DERIVED_CONDITIONAL__VERIFIED_WITH_CAVEATS__OWNER_AUTHORIZED__NOT_PHYSICAL_ADOPTION__NOT_CANON\tudt_native_response_discrimination_2026-09-09/step_01/CANDIDATE.md\tSource/readiness passed; final integration gates pending.\n-ND2\tG396\tPROPOSED_EXACT_SCOPE_ACCEPTANCE\tBANKED_DERIVED_CONDITIONAL__VERIFIED_WITH_CAVEATS__OWNER_AUTHORIZED__NOT_PHYSICAL_ADOPTION__NOT_CANON\tudt_native_response_discrimination_2026-09-09/step_02/CANDIDATE.md\tSource/readiness passed; final integration gates pending.\n-QC1\tG397\tPROPOSED_EXACT_SCOPE_ACCEPTANCE\tBANKED_DERIVED_CONDITIONAL__VERIFIED_WITH_CAVEATS__OWNER_AUTHORIZED__NOT_PHYSICAL_ADOPTION__NOT_CANON\tudt_quiet_correspondence_campaign_2026-09-10/step_01/CANDIDATE.md\tSource/readiness passed; final integration gates pending.\n-QC2\tG398\tPROPOSED_EXACT_SCOPE_ACCEPTANCE\tBANKED_DERIVED_CONDITIONAL__VERIFIED_WITH_CAVEATS__OWNER_AUTHORIZED__NOT_PHYSICAL_ADOPTION__NOT_CANON\tudt_quiet_correspondence_campaign_2026-09-10/step_02/CANDIDATE.md\tSource/readiness passed; final integration gates pending.\n-GL1\tG399\tPROPOSED_EXACT_SCOPE_ACCEPTANCE\tBANKED_DERIVED_CONDITIONAL__VERIFIED_WITH_CAVEATS__OWNER_AUTHORIZED__NOT_PHYSICAL_ADOPTION__NOT_CANON\tudt_gr_limit_campaign_2026-09-10/step_01/CANDIDATE.md\tSource/readiness passed; final integration gates pending.\n-GL2\tG400\tPROPOSED_EXACT_SCOPE_ACCEPTANCE\tBANKED_DERIVED_CONDITIONAL__VERIFIED_WITH_CAVEATS__OWNER_AUTHORIZED__NOT_PHYSICAL_ADOPTION__NOT_CANON\tudt_gr_limit_campaign_2026-09-10/step_02/CANDIDATE.md\tSource/readiness passed; final integration gates pending.\n-RF1\tG401\tPROPOSED_EXACT_SCOPE_ACCEPTANCE\tBANKED_DERIVED_CONDITIONAL__VERIFIED_WITH_CAVEATS__OWNER_AUTHORIZED__NOT_PHYSICAL_ADOPTION__NOT_CANON\tudt_response_foundations_campaign_2026-09-10/CANDIDATE.md\tSource/readiness passed; final integration gates pending.\n-NCI1\tG402\tPROPOSED_EXACT_SCOPE_ACCEPTANCE\tBANKED_DERIVED_CONDITIONAL__VERIFIED_WITH_CAVEATS__OWNER_AUTHORIZED__NOT_PHYSICAL_ADOPTION__NOT_CANON\tudt_null_clock_depth_integrability_assessment_2026-09-10/INITIAL_CANDIDATE.md\tSource/readiness passed; final integration gates pending.\n-DCI1\tG403\tPROPOSED_EXACT_SCOPE_ACCEPTANCE\tBANKED_DERIVED_CONDITIONAL__VERIFIED_WITH_CAVEATS__OWNER_AUTHORIZED__NOT_PHYSICAL_ADOPTION__NOT_CANON\tudt_directional_clock_curvature_whiteboard_2026-09-10/INITIAL_CANDIDATE.md\tSource/readiness passed; final integration gates pending.\n-KTI1\tG404\tPROPOSED_EXACT_SCOPE_ACCEPTANCE\tBANKED_DERIVED_CONDITIONAL__VERIFIED_WITH_CAVEATS__OWNER_AUTHORIZED__NOT_PHYSICAL_ADOPTION__NOT_CANON\tudt_kernel_twist_information_audit_2026-09-10/INITIAL_CANDIDATE.md\tSource/readiness passed; final integration gates pending.\n-ER1\tG405\tPROPOSED_EXACT_SCOPE_ACCEPTANCE\tBANKED_DERIVED_CONDITIONAL__VERIFIED_WITH_CAVEATS__OWNER_AUTHORIZED__NOT_PHYSICAL_ADOPTION__NOT_CANON\tudt_exact_metric_kernel_expansion_2026-09-10/INITIAL_CANDIDATE.md\tSource/readiness passed; final integration gates pending.\n-TM1\tG406\tPROPOSED_EXACT_SCOPE_ACCEPTANCE\tBANKED_DERIVED_CONDITIONAL__VERIFIED_WITH_CAVEATS__OWNER_AUTHORIZED__NOT_PHYSICAL_ADOPTION__NOT_CANON\tudt_tidal_measurement_feasibility_campaign_2026-09-07/step_01/CANDIDATE_ARGUMENT.md\tSource/readiness passed; final integration gates pending.\n-TM2\tG407\tPROPOSED_EXACT_SCOPE_ACCEPTANCE\tBANKED_DERIVED_CONDITIONAL__VERIFIED_WITH_CAVEATS__OWNER_AUTHORIZED__NOT_PHYSICAL_ADOPTION__NOT_CANON\tudt_tidal_measurement_feasibility_campaign_2026-09-07/step_02/CANDIDATE_ARGUMENT.md\tSource/readiness passed; final integration gates pending.\n-CO1\tG408\tPROPOSED_EXACT_SCOPE_ACCEPTANCE\tBANKED_DERIVED_CONDITIONAL__VERIFIED_WITH_CAVEATS__OWNER_AUTHORIZED__NOT_PHYSICAL_ADOPTION__NOT_CANON\tudt_complementary_wave_observable_campaign_2026-09-07/step_01/CANDIDATE.md\tSource/readiness passed; final integration gates pending.\n-CO2\tG409\tPROPOSED_EXACT_SCOPE_ACCEPTANCE\tBANKED_CONDITIONAL_DESIGN_CONTROL__VERIFIED_WITH_CAVEATS__OWNER_AUTHORIZED__NOT_PHYSICAL_ADOPTION__NOT_CANON\tudt_complementary_wave_observable_campaign_2026-09-07/step_02/CANDIDATE.md\tSource/readiness passed; final integration gates pending.\n-RD1\tG410\tPROPOSED_EXACT_SCOPE_ACCEPTANCE\tBANKED_DERIVED_CONDITIONAL__VERIFIED_WITH_CAVEATS__OWNER_AUTHORIZED__NOT_PHYSICAL_ADOPTION__NOT_CANON\tudt_gw_response_robustness_design_campaign/step_01/CANDIDATE.md\tSource/readiness passed; final integration gates pending.\n-LC2\tG411\tPROPOSED_EXACT_SCOPE_ACCEPTANCE\tBANKED_CONDITIONAL_PUBLISHED_SUMMARY_BENCHMARK__VERIFIED_WITH_CAVEATS__OWNER_AUTHORIZED__NOT_PHYSICAL_ADOPTION__NOT_CANON\tudt_local_clock_metric_benchmark_campaign_2026-09-07/step_01/COMPARISON_CONTRACT.md\tSource/readiness passed; final integration gates pending.\n-FW2\tG412\tPROPOSED_EXACT_SCOPE_ACCEPTANCE\tBANKED_REVIEWED_FINITE_PROCEDURE_RESULT__VERIFIED_WITH_CAVEATS__OWNER_AUTHORIZED__NOT_PHYSICAL_ADOPTION__NOT_CANON\tudt_gw170817_fixed_window_test_campaign_2026-09-07/step_01/CANDIDATE.md\tSource/readiness passed; final integration gates pending.\n+CP1\tG383\tBANKED_AT_EXACT_REVIEWED_SCOPE\tBANKED_DERIVED_CONDITIONAL__VERIFIED_WITH_CAVEATS__OWNER_AUTHORIZED__NOT_PHYSICAL_ADOPTION__NOT_CANON\tudt_g313_curvature_phase_current_candidate_2026-09-06/CANDIDATE_ARGUMENT.md\tSource/readiness, fresh integration review and actual full395 passed; exact conditions and evidence category retained.\n+HB2\tG384\tBANKED_AT_EXACT_REVIEWED_SCOPE\tBANKED_DERIVED_CONDITIONAL__VERIFIED_WITH_CAVEATS__OWNER_AUTHORIZED__NOT_PHYSICAL_ADOPTION__NOT_CANON\tudt_hopfion_bridge_stability_reassessment_2026-09-08/step_02/CANDIDATE_INITIAL.md\tSource/readiness, fresh integration review and actual full395 passed; exact conditions and evidence category retained.\n+HB3\tG385\tBANKED_AT_EXACT_REVIEWED_SCOPE\tBANKED_DERIVED_CONDITIONAL__VERIFIED_WITH_CAVEATS__OWNER_AUTHORIZED__NOT_PHYSICAL_ADOPTION__NOT_CANON\tudt_hopfion_bridge_stability_reassessment_2026-09-08/step_03/CANDIDATE_INITIAL.md\tSource/readiness, fresh integration review and actual full395 passed; exact conditions and evidence category retained.\n+BI2\tG386\tBANKED_AT_EXACT_REVIEWED_SCOPE\tBANKED_DERIVED_CONDITIONAL__VERIFIED_WITH_CAVEATS__OWNER_AUTHORIZED__NOT_PHYSICAL_ADOPTION__NOT_CANON\tudt_berger_initial_data_preservation_campaign_2026-09-08/step_02/CANDIDATE_INITIAL.md\tSource/readiness, fresh integration review and actual full395 passed; exact conditions and evidence category retained.\n+BI3\tG387\tBANKED_AT_EXACT_REVIEWED_SCOPE\tBANKED_DERIVED_CONDITIONAL__VERIFIED_WITH_CAVEATS__OWNER_AUTHORIZED__NOT_PHYSICAL_ADOPTION__NOT_CANON\tudt_berger_initial_data_preservation_campaign_2026-09-08/step_03/CANDIDATE_INITIAL.md\tSource/readiness, fresh integration review and actual full395 passed; exact conditions and evidence category retained.\n+NR1\tG388\tBANKED_AT_EXACT_REVIEWED_SCOPE\tBANKED_DERIVED_CONDITIONAL__VERIFIED_WITH_CAVEATS__OWNER_AUTHORIZED__NOT_PHYSICAL_ADOPTION__NOT_CANON\tudt_nonlinear_mode_realizability_campaign_2026-09-09/step_01/INITIAL_CANDIDATE.md\tSource/readiness, fresh integration review and actual full395 passed; exact conditions and evidence category retained.\n+NR2\tG389\tBANKED_AT_EXACT_REVIEWED_SCOPE\tBANKED_DERIVED_CONDITIONAL__VERIFIED_WITH_CAVEATS__OWNER_AUTHORIZED__NOT_PHYSICAL_ADOPTION__NOT_CANON\tudt_nonlinear_mode_realizability_campaign_2026-09-09/step_02/INITIAL_CANDIDATE.md\tSource/readiness, fresh integration review and actual full395 passed; exact conditions and evidence category retained.\n+LG1\tG390\tBANKED_AT_EXACT_REVIEWED_SCOPE\tBANKED_DERIVED_CONDITIONAL__VERIFIED_WITH_CAVEATS__OWNER_AUTHORIZED__NOT_PHYSICAL_ADOPTION__NOT_CANON\tudt_localized_geometry_campaign_2026-09-09/step_01/CANDIDATE.md\tSource/readiness, fresh integration review and actual full395 passed; exact conditions and evidence category retained.\n+LG2\tG391\tBANKED_AT_EXACT_REVIEWED_SCOPE\tBANKED_DERIVED_CONDITIONAL__VERIFIED_WITH_CAVEATS__OWNER_AUTHORIZED__NOT_PHYSICAL_ADOPTION__NOT_CANON\tudt_localized_geometry_campaign_2026-09-09/step_02/CANDIDATE.md\tSource/readiness, fresh integration review and actual full395 passed; exact conditions and evidence category retained.\n+LE1\tG392\tBANKED_AT_EXACT_REVIEWED_SCOPE\tBANKED_DERIVED_CONDITIONAL__VERIFIED_WITH_CAVEATS__OWNER_AUTHORIZED__NOT_PHYSICAL_ADOPTION__NOT_CANON\tudt_localized_evolution_followup_2026-09-09/CANDIDATE.md\tSource/readiness, fresh integration review and actual full395 passed; exact conditions and evidence category retained.\n+SE1\tG393\tBANKED_AT_EXACT_REVIEWED_SCOPE\tBANKED_DERIVED_CONDITIONAL__VERIFIED_WITH_CAVEATS__OWNER_AUTHORIZED__NOT_PHYSICAL_ADOPTION__NOT_CANON\tudt_spatial_curvature_evolution_2026-09-09/CANDIDATE.md\tSource/readiness, fresh integration review and actual full395 passed; exact conditions and evidence category retained.\n+NE1\tG394\tBANKED_AT_EXACT_REVIEWED_SCOPE\tBANKED_DERIVED_CONDITIONAL__VERIFIED_WITH_CAVEATS__OWNER_AUTHORIZED__NOT_PHYSICAL_ADOPTION__NOT_CANON\tudt_nonlinear_ripple_geometry_2026-09-09/INITIAL_CANDIDATE.md\tSource/readiness, fresh integration review and actual full395 passed; exact conditions and evidence category retained.\n+ND1\tG395\tBANKED_AT_EXACT_REVIEWED_SCOPE\tBANKED_DERIVED_CONDITIONAL__VERIFIED_WITH_CAVEATS__OWNER_AUTHORIZED__NOT_PHYSICAL_ADOPTION__NOT_CANON\tudt_native_response_discrimination_2026-09-09/step_01/CANDIDATE.md\tSource/readiness, fresh integration review and actual full395 passed; exact conditions and evidence category retained.\n+ND2\tG396\tBANKED_AT_EXACT_REVIEWED_SCOPE\tBANKED_DERIVED_CONDITIONAL__VERIFIED_WITH_CAVEATS__OWNER_AUTHORIZED__NOT_PHYSICAL_ADOPTION__NOT_CANON\tudt_native_response_discrimination_2026-09-09/step_02/CANDIDATE.md\tSource/readiness, fresh integration review and actual full395 passed; exact conditions and evidence category retained.\n+QC1\tG397\tBANKED_AT_EXACT_REVIEWED_SCOPE\tBANKED_DERIVED_CONDITIONAL__VERIFIED_WITH_CAVEATS__OWNER_AUTHORIZED__NOT_PHYSICAL_ADOPTION__NOT_CANON\tudt_quiet_correspondence_campaign_2026-09-10/step_01/CANDIDATE.md\tSource/readiness, fresh integration review and actual full395 passed; exact conditions and evidence category retained.\n+QC2\tG398\tBANKED_AT_EXACT_REVIEWED_SCOPE\tBANKED_DERIVED_CONDITIONAL__VERIFIED_WITH_CAVEATS__OWNER_AUTHORIZED__NOT_PHYSICAL_ADOPTION__NOT_CANON\tudt_quiet_correspondence_campaign_2026-09-10/step_02/CANDIDATE.md\tSource/readiness, fresh integration review and actual full395 passed; exact conditions and evidence category retained.\n+GL1\tG399\tBANKED_AT_EXACT_REVIEWED_SCOPE\tBANKED_DERIVED_CONDITIONAL__VERIFIED_WITH_CAVEATS__OWNER_AUTHORIZED__NOT_PHYSICAL_ADOPTION__NOT_CANON\tudt_gr_limit_campaign_2026-09-10/step_01/CANDIDATE.md\tSource/readiness, fresh integration review and actual full395 passed; exact conditions and evidence category retained.\n+GL2\tG400\tBANKED_AT_EXACT_REVIEWED_SCOPE\tBANKED_DERIVED_CONDITIONAL__VERIFIED_WITH_CAVEATS__OWNER_AUTHORIZED__NOT_PHYSICAL_ADOPTION__NOT_CANON\tudt_gr_limit_campaign_2026-09-10/step_02/CANDIDATE.md\tSource/readiness, fresh integration review and actual full395 passed; exact conditions and evidence category retained.\n+RF1\tG401\tBANKED_AT_EXACT_REVIEWED_SCOPE\tBANKED_DERIVED_CONDITIONAL__VERIFIED_WITH_CAVEATS__OWNER_AUTHORIZED__NOT_PHYSICAL_ADOPTION__NOT_CANON\tudt_response_foundations_campaign_2026-09-10/CANDIDATE.md\tSource/readiness, fresh integration review and actual full395 passed; exact conditions and evidence category retained.\n+NCI1\tG402\tBANKED_AT_EXACT_REVIEWED_SCOPE\tBANKED_DERIVED_CONDITIONAL__VERIFIED_WITH_CAVEATS__OWNER_AUTHORIZED__NOT_PHYSICAL_ADOPTION__NOT_CANON\tudt_null_clock_depth_integrability_assessment_2026-09-10/INITIAL_CANDIDATE.md\tSource/readiness, fresh integration review and actual full395 passed; exact conditions and evidence category retained.\n+DCI1\tG403\tBANKED_AT_EXACT_REVIEWED_SCOPE\tBANKED_DERIVED_CONDITIONAL__VERIFIED_WITH_CAVEATS__OWNER_AUTHORIZED__NOT_PHYSICAL_ADOPTION__NOT_CANON\tudt_directional_clock_curvature_whiteboard_2026-09-10/INITIAL_CANDIDATE.md\tSource/readiness, fresh integration review and actual full395 passed; exact conditions and evidence category retained.\n+KTI1\tG404\tBANKED_AT_EXACT_REVIEWED_SCOPE\tBANKED_DERIVED_CONDITIONAL__VERIFIED_WITH_CAVEATS__OWNER_AUTHORIZED__NOT_PHYSICAL_ADOPTION__NOT_CANON\tudt_kernel_twist_information_audit_2026-09-10/INITIAL_CANDIDATE.md\tSource/readiness, fresh integration review and actual full395 passed; exact conditions and evidence category retained.\n+ER1\tG405\tBANKED_AT_EXACT_REVIEWED_SCOPE\tBANKED_DERIVED_CONDITIONAL__VERIFIED_WITH_CAVEATS__OWNER_AUTHORIZED__NOT_PHYSICAL_ADOPTION__NOT_CANON\tudt_exact_metric_kernel_expansion_2026-09-10/INITIAL_CANDIDATE.md\tSource/readiness, fresh integration review and actual full395 passed; exact conditions and evidence category retained.\n+TM1\tG406\tBANKED_AT_EXACT_REVIEWED_SCOPE\tBANKED_DERIVED_CONDITIONAL__VERIFIED_WITH_CAVEATS__OWNER_AUTHORIZED__NOT_PHYSICAL_ADOPTION__NOT_CANON\tudt_tidal_measurement_feasibility_campaign_2026-09-07/step_01/CANDIDATE_ARGUMENT.md\tSource/readiness, fresh integration review and actual full395 passed; exact conditions and evidence category retained.\n+TM2\tG407\tBANKED_AT_EXACT_REVIEWED_SCOPE\tBANKED_DERIVED_CONDITIONAL__VERIFIED_WITH_CAVEATS__OWNER_AUTHORIZED__NOT_PHYSICAL_ADOPTION__NOT_CANON\tudt_tidal_measurement_feasibility_campaign_2026-09-07/step_02/CANDIDATE_ARGUMENT.md\tSource/readiness, fresh integration review and actual full395 passed; exact conditions and evidence category retained.\n+CO1\tG408\tBANKED_AT_EXACT_REVIEWED_SCOPE\tBANKED_DERIVED_CONDITIONAL__VERIFIED_WITH_CAVEATS__OWNER_AUTHORIZED__NOT_PHYSICAL_ADOPTION__NOT_CANON\tudt_complementary_wave_observable_campaign_2026-09-07/step_01/CANDIDATE.md\tSource/readiness, fresh integration review and actual full395 passed; exact conditions and evidence category retained.\n+CO2\tG409\tBANKED_AT_EXACT_REVIEWED_SCOPE\tBANKED_CONDITIONAL_DESIGN_CONTROL__VERIFIED_WITH_CAVEATS__OWNER_AUTHORIZED__NOT_PHYSICAL_ADOPTION__NOT_CANON\tudt_complementary_wave_observable_campaign_2026-09-07/step_02/CANDIDATE.md\tSource/readiness, fresh integration review and actual full395 passed; exact conditions and evidence category retained.\n+RD1\tG410\tBANKED_AT_EXACT_REVIEWED_SCOPE\tBANKED_DERIVED_CONDITIONAL__VERIFIED_WITH_CAVEATS__OWNER_AUTHORIZED__NOT_PHYSICAL_ADOPTION__NOT_CANON\tudt_gw_response_robustness_design_campaign/step_01/CANDIDATE.md\tSource/readiness, fresh integration review and actual full395 passed; exact conditions and evidence category retained.\n+LC2\tG411\tBANKED_AT_EXACT_REVIEWED_SCOPE\tBANKED_CONDITIONAL_PUBLISHED_SUMMARY_BENCHMARK__VERIFIED_WITH_CAVEATS__OWNER_AUTHORIZED__NOT_PHYSICAL_ADOPTION__NOT_CANON\tudt_local_clock_metric_benchmark_campaign_2026-09-07/step_01/COMPARISON_CONTRACT.md\tSource/readiness, fresh integration review and actual full395 passed; exact conditions and evidence category retained.\n+FW2\tG412\tBANKED_AT_EXACT_REVIEWED_SCOPE\tBANKED_REVIEWED_FINITE_PROCEDURE_RESULT__VERIFIED_WITH_CAVEATS__OWNER_AUTHORIZED__NOT_PHYSICAL_ADOPTION__NOT_CANON\tudt_gw170817_fixed_window_test_campaign_2026-09-07/step_01/CANDIDATE.md\tSource/readiness, fresh integration review and actual full395 passed; exact conditions and evidence category retained.\n content_bridge\tG353--G356\tALREADY_BANKED\tEXISTING_EXACT_REGISTRY_GRADE\tCURRENT_SCIENTIFIC_PREMISES.tsv\tHistorical UNPROMOTED headers do not revoke later acceptance; no duplicate entry.\n shared_readout_constraints\tG357--G360\tALREADY_BANKED\tEXISTING_EXACT_REGISTRY_GRADE\tCURRENT_SCIENTIFIC_PREMISES.tsv\tHistorical UNPROMOTED headers do not revoke later acceptance; no duplicate entry.\n phase_product_persistence\tG361--G363\tALREADY_BANKED\tEXISTING_EXACT_REGISTRY_GRADE\tCURRENT_SCIENTIFIC_PREMISES.tsv\tHistorical UNPROMOTED headers do not revoke later acceptance; no duplicate entry.\n--- full395_input/verify_current_scientific_premises.py\n+++ final/verify_current_scientific_premises.py\n@@ -70,7 +70,7 @@\n REVIEWED_BACKLOG_BASELINE = \"f5faabb43a582fec9a71c1d4a3b065efffae25bd\"\n REVIEWED_BACKLOG_BASE_SHA256 = '4236f3784601617a93ac66b0de36a7a1565beef553d6b5f5c6d7d2a9a13e69dc'\n REVIEWED_BACKLOG_BANKING_SOURCE = \"udt_reviewed_backlog_banking_2026-09-10/BANKING_RECORD.md\"\n-REVIEWED_BACKLOG_PINS = {'udt_reviewed_backlog_banking_2026-09-10/BANKED_ROWS.tsv': '2115d3edd646655726720bd8dc2e166ab87952db885f412e8b0200bd81a549e8', 'udt_reviewed_backlog_banking_2026-09-10/BANKED_CLAIMS.json': '4b98b1dea6ce9dc0d62f9fa6183c1379aed534989159b45a208dad93fce12c2e', 'udt_reviewed_backlog_banking_2026-09-10/BANKING_RECORD.md': '618b4b953a419b991e0ae7f0c643487536b8e76ba7b0b0c7de53db17fbde81b2', 'udt_reviewed_backlog_banking_2026-09-10/SOURCE_EVIDENCE_SHA256SUMS': '94d15fa2f49cc5f01fa492d28577a9fa33c1a9e7eedacc9cb12a09002eefeeca', 'udt_reviewed_backlog_banking_2026-09-10/DISPOSITIONS.tsv': '6df218c360178de86a91533342a2c5fd7e657492c1e66087406abaa24475610e'}\n+REVIEWED_BACKLOG_PINS = {'udt_reviewed_backlog_banking_2026-09-10/BANKED_ROWS.tsv': '2115d3edd646655726720bd8dc2e166ab87952db885f412e8b0200bd81a549e8', 'udt_reviewed_backlog_banking_2026-09-10/BANKED_CLAIMS.json': '4b98b1dea6ce9dc0d62f9fa6183c1379aed534989159b45a208dad93fce12c2e', 'udt_reviewed_backlog_banking_2026-09-10/BANKING_RECORD.md': '654b0b2d734685c42d6a1b31740d545ab9299d17a5d5cc32c57e407b800191f1', 'udt_reviewed_backlog_banking_2026-09-10/SOURCE_EVIDENCE_SHA256SUMS': '94d15fa2f49cc5f01fa492d28577a9fa33c1a9e7eedacc9cb12a09002eefeeca', 'udt_reviewed_backlog_banking_2026-09-10/DISPOSITIONS.tsv': '5e3247174cb6a622cba3c90d643569f7a436f3d7f32b528c8ee848b56a0f3319', 'udt_reviewed_backlog_banking_2026-09-10/review_integration/REVIEW_REPORT.md': '83fbc597c28b7c4247dd5767995a33896ceafed4ba3fcb49a913afd405d839c9', 'udt_reviewed_backlog_banking_2026-09-10/review_integration/CLAIM_FIDELITY.tsv': '39ee937f3f9cc78f6ac63db279c928815c7b7c418ee013580ce79988b5a4c8ea', 'udt_reviewed_backlog_banking_2026-09-10/review_integration/REVIEW_RECEIPT.json': '042dead8c9dca49ad2d5babc8b4971d52554854aace85fcb1c72690e9788eb99', 'udt_reviewed_backlog_banking_2026-09-10/review_integration/SHA256SUMS': 'c396a5ea404d70d1983f98ba5c2f63e20168bb23b14d080075755984baebd3f9'}\n REVIEWED_BACKLOG_GUARD_FILES = tuple(REVIEWED_BACKLOG_PINS)\n CURRENT_REGISTRY_ROW_COUNT = 395\n \n"
+}

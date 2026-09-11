@@ -1,0 +1,22 @@
+[
+  {
+    "filename": "DetResponse.c",
+    "source_cache": "/tmp/udt-gw-response-docs-L3JgrF/DetResponse.c",
+    "preserved_copy": "udt_reviewed_backlog_banking_2026-09-10/review_older_geometry/rd1_public_definitions/DetResponse.c",
+    "sha256": "2e1d5db56170607e655a866165905b5867d537200e90dceb77c81f8832259a40",
+    "bytes": 21195,
+    "original_public_url": "https://git.ligo.org/lscsoft/lalsuite/-/raw/master/lal/lib/tools/DetResponse.c",
+    "retrieval": "Original RD1 source ledger reports 2026-09-08 retrieval; no new retrieval performed",
+    "preserved_utc": "2026-09-11T00:14:44.868054+00:00"
+  },
+  {
+    "filename": "LALSimulation.c",
+    "source_cache": "/tmp/udt-gw-response-docs-L3JgrF/LALSimulation.c",
+    "preserved_copy": "udt_reviewed_backlog_banking_2026-09-10/review_older_geometry/rd1_public_definitions/LALSimulation.c",
+    "sha256": "a10f73a39029b86d4de7c46c11ad269b0ee17a9499dce52b9b42a0bbeb1cb619",
+    "bytes": 82252,
+    "original_public_url": "https://git.ligo.org/lscsoft/lalsuite/-/raw/master/lalsimulation/lib/LALSimulation.c",
+    "retrieval": "Original RD1 source ledger reports 2026-09-08 retrieval; no new retrieval performed",
+    "preserved_utc": "2026-09-11T00:14:44.868211+00:00"
+  }
+]

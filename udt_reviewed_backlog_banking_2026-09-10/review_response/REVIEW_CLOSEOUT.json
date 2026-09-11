@@ -1,0 +1,47 @@
+{
+  "reviewer_context": "/root/bank_response_results",
+  "exact_runtime_model_version": "UNATTESTED",
+  "first_directly_observed_utc": "2026-09-10T23:59:13Z",
+  "first_observation_limit": "Review was already underway when the first explicit clock reading was taken. Exact context-creation/start time was not recorded; no earlier timestamp is inferred.",
+  "source_review_completed_observed_utc": "2026-09-11T00:17:54Z",
+  "parent_assignment": "Initial ND1 ND2 QC1 QC2 GL1 GL2 RF1 plus same-context extension TM1 TM2 CO1 CO2",
+  "candidate_count": 11,
+  "conditional_mathematics_count": 10,
+  "conditional_design_control_count": 1,
+  "verdict": "VERIFIED-WITH-CAVEATS_AT_EXACT_CONDITIONAL_BANKING_SCOPE",
+  "unresolved_scientific_objections": [],
+  "exposure": {
+    "initial_task_information": "Parent supplied work order, baseline HEAD/status fingerprint, same-session startup/audit attribution, candidate identities and current G312 guard before this reviewer opened sources.",
+    "candidate_exposure": "All eleven original candidate statements and entire direct/focused reviews were deliberately exposed before final banking assessment. Original false-pass/repair/exclusion records were included. No blind source-science proof claim.",
+    "ordering": "Source/dependency conclusions were saved in SOURCE_FIRST_DEPENDENCIES.md and ADDED_SOURCE_FIRST.md before proposed per-candidate banking metadata. Original candidates themselves were intentionally read at source stage.",
+    "peer_overlap": "No messages exchanged directly with the complementary source reviewer or future integration reviewer. Parent messages communicated task scope, source/dependency status, proposed IDs, current audit result and category decision; they did not supply replacement scientific proofs or new scientific code.",
+    "shared_inputs": "Current AGENTS/LIVE/registry/G312 authority and accepted G260/G301/G311/G313/G358 sources overlap parent/other reviews by design. All source replay scientific implementations were reused unchanged; no new implementation-independence claim.",
+    "TM_CO_extension": "Same already-exposed reviewer context, not additional fresh independent reviews. Parent independently handles LC benchmark and operational campaigns. LC/ORS are source credit, not imported empirical evidence here.",
+    "CO2": "Original producer nominal rotation is shared supplied input; no independent astrometry/IERS/source-fetch certification. Public header byte correspondence verified and source copy preserved. Runtime difference diagnosis was after exposure, explicitly not a blind forecast."
+  },
+  "checks": {
+    "source_executions_rc0": 18,
+    "source_executions_full_stdout_and_stderr_identical": 17,
+    "CO2_scientific_fields_exact_except_python_build": true,
+    "initial_response_manifests_all_match": 20,
+    "historical349_registry_authenticated": true,
+    "G312_whole_before_after_transition_exact": true,
+    "parent_prebank_receipt_inspected": "checks/prebank_365.json; rc0,407.712642899s,empty stderr, not independently rerun",
+    "all_original_six_package_tracked_diff": "EMPTY at final reviewer check",
+    "all_planned_source_scripts_and_saved_outputs": "REHASHED_UNCHANGED after source replay",
+    "current_report_sha256": "7e68d65f969ede35bc8c5a248bcff11c830eae954e53d09e8bdfd0d5339b229e"
+  },
+  "preserved_new_review_failures": [
+    "added_launcher_initial: occurrence-count assertion before source execution, repaired without original source edits",
+    "METROLOGY_REPLAY_RESULTS strict CO2 stdout mismatch: only Python build metadata, scientific-field comparison separately passed"
+  ],
+  "writes": "Only review_response/; original sources, root files, Git, protected work and observations untouched",
+  "remaining_parent_work": [
+    "new registry ID/row integration",
+    "fresh independent integration fidelity",
+    "current guard/premise and preservation checks",
+    "authorized commit/push"
+  ],
+  "availability": "Source work stopped; same-context bounded row-fidelity followup available",
+  "files_still_expected_to_modify": []
+}

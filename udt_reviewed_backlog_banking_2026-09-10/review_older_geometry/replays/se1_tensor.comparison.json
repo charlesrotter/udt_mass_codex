@@ -1,0 +1,47 @@
+{
+  "label": "se1_tensor",
+  "script": "udt_spatial_curvature_evolution_2026-09-09/review/direct_tensor.py",
+  "saved_stdout": "udt_spatial_curvature_evolution_2026-09-09/review/direct_tensor_run.stdout",
+  "kind": "original-review-implementation-replay",
+  "script_sha256": "e2d33c871d46c3c5e73dcfb3689d531092db99b35af53c5be942e1d1a1e7dbe9",
+  "saved_stdout_sha256": "d251284dbbb6a23dd03448e7269a68bdbfb1816b60e610662426895a1b787f47",
+  "launcher_argv": [
+    "/usr/bin/python3",
+    "-B",
+    "/home/udt-admin/udt_mass_codex/udt_shared_readout_metric_constraint_campaign_2026-09-06/run_capture.py",
+    "/home/udt-admin/udt_mass_codex/udt_reviewed_backlog_banking_2026-09-10/review_older_geometry/replays/se1_tensor",
+    "/home/udt-admin/udt_mass_codex",
+    "/usr/bin/python3",
+    "-B",
+    "/home/udt-admin/udt_mass_codex/udt_spatial_curvature_evolution_2026-09-09/review/direct_tensor.py"
+  ],
+  "launcher_returncode": 0,
+  "capture_sha256": "8ff5469ace76bdfc84188915242abbf3baff35516f9ee3f9ba4b1cbfeb2573ef",
+  "thread_environment": {
+    "OMP_NUM_THREADS": "1",
+    "OPENBLAS_NUM_THREADS": "1",
+    "MKL_NUM_THREADS": "1"
+  },
+  "dont_write_bytecode": true,
+  "python": "3.10.12 (main, Aug 31 2026, 10:18:17) [GCC 11.4.0]",
+  "platform": "Linux-6.8.0-138-generic-x86_64-with-glibc2.35",
+  "receipt": {
+    "command": [
+      "/usr/bin/python3",
+      "-B",
+      "/home/udt-admin/udt_mass_codex/udt_spatial_curvature_evolution_2026-09-09/review/direct_tensor.py"
+    ],
+    "cwd": "/home/udt-admin/udt_mass_codex",
+    "started_utc": "2026-09-11T00:04:01.470966+00:00",
+    "duration_seconds": 1.1022153059602715,
+    "returncode": 0,
+    "timeout": false,
+    "address_space_bytes": 536870912,
+    "cpu_seconds": 60,
+    "maxrss_kib": 49684
+  },
+  "stdout_sha256": "d251284dbbb6a23dd03448e7269a68bdbfb1816b60e610662426895a1b787f47",
+  "stdout_byte_identical": true,
+  "script_unchanged": true,
+  "saved_output_unchanged": true
+}

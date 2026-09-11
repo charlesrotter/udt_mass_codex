@@ -1,0 +1,106 @@
+[
+  {
+    "actual_output": "udt_reviewed_backlog_banking_2026-09-10/checks/nci1_author_replay.stdout",
+    "sha256": "e91bdc23d961aa630e3391e48849694d3163e2d6986693672100d781f96e56d5",
+    "original_byte_matches": [
+      "udt_null_clock_depth_integrability_assessment_2026-09-10/AUTHOR_CHECK_OUTPUT.txt"
+    ],
+    "returncode": 0,
+    "duration_seconds": 1.3814276700140908,
+    "empty_stderr": true
+  },
+  {
+    "actual_output": "udt_reviewed_backlog_banking_2026-09-10/checks/dci1_author_replay.stdout",
+    "sha256": "5204218e173e075d3d30bc490029e459e3685b127b8821455b7124beca88e67c",
+    "original_byte_matches": [
+      "udt_directional_clock_curvature_whiteboard_2026-09-10/checks/author_02.stdout.json",
+      "udt_directional_clock_curvature_whiteboard_2026-09-10/review/run_03_author_replay.stdout.json"
+    ],
+    "returncode": 0,
+    "duration_seconds": 1.7751467179623432,
+    "empty_stderr": true
+  },
+  {
+    "actual_output": "udt_reviewed_backlog_banking_2026-09-10/checks/kti1_author_replay.stdout",
+    "sha256": "76e92845eb1eeca131facc864651de359a4cb002669694d1ea2d9b07065e68f3",
+    "original_byte_matches": [
+      "udt_kernel_twist_information_audit_2026-09-10/checks/author_02.stdout.json",
+      "udt_kernel_twist_information_audit_2026-09-10/review/author_exact_replay.stdout.txt"
+    ],
+    "returncode": 0,
+    "duration_seconds": 0.568517328996677,
+    "empty_stderr": true
+  },
+  {
+    "actual_output": "udt_reviewed_backlog_banking_2026-09-10/checks/er1_author_replay.stdout",
+    "sha256": "d3fbec7169feca892bad47bdbc04c7a0abdd229e529c143d822496b9f2d028c1",
+    "original_byte_matches": [
+      "udt_exact_metric_kernel_expansion_2026-09-10/checks/author.stdout.json",
+      "udt_exact_metric_kernel_expansion_2026-09-10/review/author_replay.stdout.json"
+    ],
+    "returncode": 0,
+    "duration_seconds": 3.2992872199974954,
+    "empty_stderr": true
+  },
+  {
+    "actual_output": "udt_reviewed_backlog_banking_2026-09-10/checks/lc2_focused_replay.stdout",
+    "sha256": "895d7395ae5351ab629983cc80a54c8a9b0ea95c40c8f247c8b9bb12a3110161",
+    "original_byte_matches": [],
+    "returncode": 0,
+    "duration_seconds": 0.027069350006058812,
+    "empty_stderr": true,
+    "original_comparison": "udt_local_clock_metric_benchmark_campaign_2026-09-07/step_02/review/focused_rereview_run.stdout",
+    "only_different_keys": [
+      "python"
+    ],
+    "python_build_difference": {
+      "current": "3.10.12 (main, Aug 31 2026, 10:18:17) [GCC 11.4.0]",
+      "historical": "3.10.12 (main, Jun 22 2026, 18:55:27) [GCC 11.4.0]"
+    },
+    "all_other_output_fields_identical": true
+  },
+  {
+    "actual_output": "udt_reviewed_backlog_banking_2026-09-10/checks/lc2_preserved_false_passes_replay.stdout",
+    "sha256": "ba13f277f52e7bd75e961157bee4c55c6d3afa3f4b1ce5de583b85fcce7e6e2b",
+    "original_byte_matches": [
+      "udt_local_clock_metric_benchmark_campaign_2026-09-07/step_02/review/preserved_false_pass_run.stdout"
+    ],
+    "returncode": 0,
+    "duration_seconds": 0.024898810021113604,
+    "empty_stderr": true
+  },
+  {
+    "actual_output": "udt_reviewed_backlog_banking_2026-09-10/checks/lc2_author_replay.stdout",
+    "sha256": "623b0fd150031a971c792ed359ef731b6ab43cf4e45463ab6f3adb54a55cb0af",
+    "original_byte_matches": [],
+    "returncode": 0,
+    "duration_seconds": 0.022450060001574457,
+    "empty_stderr": true,
+    "original_comparison": "udt_local_clock_metric_benchmark_campaign_2026-09-07/step_02/repair_run.stdout",
+    "only_different_keys": [
+      "python"
+    ],
+    "python_build_difference": {
+      "current": "3.10.12 (main, Aug 31 2026, 10:18:17) [GCC 11.4.0]",
+      "historical": "3.10.12 (main, Jun 22 2026, 18:55:27) [GCC 11.4.0]"
+    },
+    "all_other_output_fields_identical": true
+  },
+  {
+    "actual_output": "udt_reviewed_backlog_banking_2026-09-10/checks/lc2_independent_replay.stdout",
+    "sha256": "779a6d7cf974eeae6b054e1ed927f03afd84d62fd0ac1f5c439f2c2f6f03c1b5",
+    "original_byte_matches": [],
+    "returncode": 0,
+    "duration_seconds": 0.02385957504156977,
+    "empty_stderr": true,
+    "original_comparison": "udt_local_clock_metric_benchmark_campaign_2026-09-07/step_02/review/source_first_run.stdout",
+    "only_different_keys": [
+      "python"
+    ],
+    "python_build_difference": {
+      "current": "3.10.12 (main, Aug 31 2026, 10:18:17) [GCC 11.4.0]",
+      "historical": "3.10.12 (main, Jun 22 2026, 18:55:27) [GCC 11.4.0]"
+    },
+    "all_other_output_fields_identical": true
+  }
+]

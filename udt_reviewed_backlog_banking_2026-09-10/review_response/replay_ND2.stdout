@@ -1,0 +1,52 @@
+{
+  "assertions": 559,
+  "general_algebra_cases": 6,
+  "limits": "finite checks support algebra, not curve classification or general metric realization",
+  "method": "independent full 4D coordinate Christoffel/Ricci; exact symbolic epsilon coefficients",
+  "monomial_records": [
+    {
+      "power": -4,
+      "quadratic_obstruction_zero": false
+    },
+    {
+      "power": -3,
+      "quadratic_obstruction_zero": false
+    },
+    {
+      "power": -2,
+      "quadratic_obstruction_zero": true
+    },
+    {
+      "power": -1,
+      "quadratic_obstruction_zero": true
+    },
+    {
+      "power": 0,
+      "quadratic_obstruction_zero": false
+    },
+    {
+      "power": 1,
+      "quadratic_obstruction_zero": false
+    },
+    {
+      "power": 2,
+      "quadratic_obstruction_zero": true
+    },
+    {
+      "power": 3,
+      "quadratic_obstruction_zero": false
+    },
+    {
+      "power": 4,
+      "quadratic_obstruction_zero": false
+    }
+  ],
+  "negative_controls": [
+    "omitting_quadratic_cross_term_detected",
+    "DQ_only_integrability_false_pass_detected"
+  ],
+  "python": "3.10.12",
+  "script_sha256": "e82686f2ea54a328184ec2ec7a22414b9b547ead6882076b36d751b6e6acdeee",
+  "status": "PASS",
+  "sympy": "1.13.1"
+}

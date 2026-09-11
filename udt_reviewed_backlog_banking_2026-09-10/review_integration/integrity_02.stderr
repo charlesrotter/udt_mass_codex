@@ -1,0 +1,4 @@
+Traceback (most recent call last):
+  File "/home/udt-admin/udt_mass_codex/udt_reviewed_backlog_banking_2026-09-10/review_integration/independent_integrity.py", line 162, in <module>
+    assert len(original_untracked) == 46
+AssertionError

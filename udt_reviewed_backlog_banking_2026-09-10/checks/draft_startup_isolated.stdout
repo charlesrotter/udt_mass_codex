@@ -1,0 +1,132 @@
+........................................................................ [ 20%]
+.....F.................................................................. [ 40%]
+........................................................................ [ 61%]
+.......................................................FF............... [ 81%]
+................................................F..............F..       [100%]
+=================================== FAILURES ===================================
+_____________ test_full_foundational_premise_verifier_is_in_pytest _____________
+
+    def test_full_foundational_premise_verifier_is_in_pytest() -> None:
+        result = subprocess.run(
+            [sys.executable, str(REPO / "verify_current_scientific_premises.py")],
+            cwd=REPO,
+            text=True,
+            capture_output=True,
+            check=False,
+        )
+>       assert result.returncode == 0, result.stdout + result.stderr
+E       AssertionError: Traceback (most recent call last):
+E           File "/home/udt-admin/udt_mass_codex/verify_current_scientific_premises.py", line 20187, in <module>
+E             main()
+E           File "/home/udt-admin/udt_mass_codex/verify_current_scientific_premises.py", line 3140, in main
+E             g301_package = replay_package_with_current_registry_rows_removed(
+E           File "/home/udt-admin/udt_mass_codex/verify_current_scientific_premises.py", line 315, in replay_package_with_current_registry_rows_removed
+E             payload = frozen_git_source_bytes(source_key, row["sha256"])
+E           File "/home/udt-admin/udt_mass_codex/verify_current_scientific_premises.py", line 256, in frozen_git_source_bytes
+E             revisions = subprocess.run(
+E           File "/usr/lib/python3.10/subprocess.py", line 526, in run
+E             raise CalledProcessError(retcode, process.args,
+E         subprocess.CalledProcessError: Command '['git', 'log', '--format=%H', '--', 'AGENTS.md']' returned non-zero exit status 128.
+E         
+E       assert 1 == 0
+E        +  where 1 = CompletedProcess(args=['/usr/bin/python3', '/home/udt-admin/udt_mass_codex/verify_current_scientific_premises.py'], re...essError: Command \'[\'git\', \'log\', \'--format=%H\', \'--\', \'AGENTS.md\']\' returned non-zero exit status 128.\n').returncode
+
+tests/test_startup_surface.py:403: AssertionError
+__________ test_gr_filter_historical_projection_is_exact_not_current ___________
+
+    def test_gr_filter_historical_projection_is_exact_not_current() -> None:
+        current = (REPO / "CURRENT_SCIENTIFIC_PREMISES.tsv").read_bytes()
+        projected = premise_guard.registry_bytes_for_historical_banking(REPO)
+        transition = premise_guard.validate_gr_filter_authority(REPO)
+        assert current != projected
+>       assert hashlib.sha256(projected).hexdigest() == transition["baseline_registry_sha256"]
+E       AssertionError: assert 'efab7e8368cf...c9dc4dae4d007' == 'bee5059ab552...1c1a98e09e165'
+E         
+E         - bee5059ab5528282420c5cd833d0aadfd4946d64820ba0c7bde1c1a98e09e165
+E         + efab7e8368cf85790980fb977c6aaf70b12eaa9b4c5e287b79ec9dc4dae4d007
+
+tests/test_startup_surface.py:888: AssertionError
+____________ test_gr_filter_projection_uses_only_the_validated_read ____________
+
+tmp_path = PosixPath('/tmp/pytest-of-udt-admin/pytest-60/test_gr_filter_projection_uses0')
+monkeypatch = <_pytest.monkeypatch.MonkeyPatch object at 0x78dd6efa0730>
+
+    def test_gr_filter_projection_uses_only_the_validated_read(tmp_path: Path, monkeypatch) -> None:
+        root = _startup_copy(tmp_path)
+        registry = root / "CURRENT_SCIENTIFIC_PREMISES.tsv"
+        clean = registry.read_bytes()
+        transition = premise_guard.validate_gr_filter_authority(root)
+        poisoned = clean.replace(transition["after_line"].encode(),
+                                 transition["before_line"].encode())
+        original_read = Path.read_bytes
+        reads = []
+    
+        def read_swap(path):
+            if path == registry:
+                reads.append(path)
+                return clean if len(reads) == 1 else poisoned
+            return original_read(path)
+    
+        monkeypatch.setattr(Path, "read_bytes", read_swap)
+        historical = premise_guard.registry_bytes_for_historical_banking(root)
+        assert len(reads) == 1  # No unvalidated later snapshot is rewritten/hidden.
+>       assert hashlib.sha256(historical).hexdigest() == transition["baseline_registry_sha256"]
+E       AssertionError: assert 'efab7e8368cf...c9dc4dae4d007' == 'bee5059ab552...1c1a98e09e165'
+E         
+E         - bee5059ab5528282420c5cd833d0aadfd4946d64820ba0c7bde1c1a98e09e165
+E         + efab7e8368cf85790980fb977c6aaf70b12eaa9b4c5e287b79ec9dc4dae4d007
+
+tests/test_startup_surface.py:915: AssertionError
+____________ test_active_orientation_surface_stays_readably_bounded ____________
+
+    def test_active_orientation_surface_stays_readably_bounded() -> None:
+        limits = {
+            "AGENTS.md": (225, 1950),  # Owner-requested bounded verification-cycle convention.
+            "LIVE.md": (135, 900),
+            "HANDOFF.md": (100, 600),
+                "INDEX.md": (118, 570),
+            "MEMORY.md": (70, 450),
+            "CURRENT_RESEARCH_PROGRAM.md": (155, 1100),
+                "CURRENT_SCIENTIFIC_PREMISES.md": (140, 1320),
+            "README.md": (100, 400),
+            "research/README.md": (80, 300),
+            "research/_registry/README.md": (80, 280),
+            "INFLIGHT_STATE.md": (40, 150),
+        }
+        for relative, (maximum_lines, maximum_words) in limits.items():
+            text = (REPO / relative).read_text(encoding="utf-8")
+            lines = text.splitlines()
+            words = text.split()
+            assert len(lines) <= maximum_lines, (
+                f"{relative} regrew to {len(lines)} lines (limit {maximum_lines})"
+            )
+>           assert len(words) <= maximum_words, (
+                f"{relative} regrew to {len(words)} words (limit {maximum_words})"
+            )
+E           AssertionError: LIVE.md regrew to 940 words (limit 900)
+E           assert 940 <= 900
+E            +  where 940 = len(['#', 'LIVE', '—', 'current', 'state', 'only', ...])
+
+tests/test_startup_surface.py:1401: AssertionError
+________ test_current_next_gate_is_three_sentences_not_campaign_history ________
+
+    def test_current_next_gate_is_three_sentences_not_campaign_history() -> None:
+        for relative, marker in (("LIVE.md", "### Next gate"), ("HANDOFF.md", "Next:"),
+                                 ("CURRENT_RESEARCH_PROGRAM.md", "## Current next gate")):
+            text = (REPO / relative).read_text().split(marker, 1)[1]
+            text = text.split("<!-- STARTUP_CURRENT_END -->", 1)[0].strip()
+>           assert len(re.findall(r"\.(?:\s|$)", text)) == 3, relative
+E           AssertionError: LIVE.md
+E           assert 4 == 3
+E            +  where 4 = len(['.\n', '.\n', '.\n', '.'])
+E            +    where ['.\n', '.\n', '.\n', '.'] = <function findall at 0x78dd6fb00d30>('\\.(?:\\s|$)', 'G383--G412 conditional mathematical banking and G411=LC2/G412=FW2 acceptance await final integration.\nEarlier G381=N...is authorized; any approved work order includes checks, fresh separate-context review and bounded same-premise repair.')
+E            +      where <function findall at 0x78dd6fb00d30> = re.findall
+
+tests/test_startup_surface.py:1466: AssertionError
+=========================== short test summary info ============================
+FAILED tests/test_startup_surface.py::test_full_foundational_premise_verifier_is_in_pytest
+FAILED tests/test_startup_surface.py::test_gr_filter_historical_projection_is_exact_not_current
+FAILED tests/test_startup_surface.py::test_gr_filter_projection_uses_only_the_validated_read
+FAILED tests/test_startup_surface.py::test_active_orientation_surface_stays_readably_bounded
+FAILED tests/test_startup_surface.py::test_current_next_gate_is_three_sentences_not_campaign_history
+5 failed, 349 passed in 18.47s

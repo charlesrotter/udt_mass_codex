@@ -1,0 +1,47 @@
+{
+  "label": "hb2_matched",
+  "script": "udt_hopfion_bridge_stability_reassessment_2026-09-08/step_02/review/post_exposure_matched_check.py",
+  "saved_stdout": "udt_hopfion_bridge_stability_reassessment_2026-09-08/step_02/review/post_exposure_matched.stdout",
+  "kind": "original-review-implementation-replay",
+  "script_sha256": "b072e76a8574cbf681dea9809e20b2f10ee3d5e742adb95b0d7a0f67a19a6157",
+  "saved_stdout_sha256": "6ee93d5bf4ba9f4a822fce920b654770e89a9a4667a0f3a53d715aee92400a60",
+  "launcher_argv": [
+    "/usr/bin/python3",
+    "-B",
+    "/home/udt-admin/udt_mass_codex/udt_shared_readout_metric_constraint_campaign_2026-09-06/run_capture.py",
+    "/home/udt-admin/udt_mass_codex/udt_reviewed_backlog_banking_2026-09-10/review_older_geometry/replays/hb2_matched",
+    "/home/udt-admin/udt_mass_codex",
+    "/usr/bin/python3",
+    "-B",
+    "/home/udt-admin/udt_mass_codex/udt_hopfion_bridge_stability_reassessment_2026-09-08/step_02/review/post_exposure_matched_check.py"
+  ],
+  "launcher_returncode": 0,
+  "capture_sha256": "8ff5469ace76bdfc84188915242abbf3baff35516f9ee3f9ba4b1cbfeb2573ef",
+  "thread_environment": {
+    "OMP_NUM_THREADS": "1",
+    "OPENBLAS_NUM_THREADS": "1",
+    "MKL_NUM_THREADS": "1"
+  },
+  "dont_write_bytecode": true,
+  "python": "3.10.12 (main, Aug 31 2026, 10:18:17) [GCC 11.4.0]",
+  "platform": "Linux-6.8.0-138-generic-x86_64-with-glibc2.35",
+  "receipt": {
+    "command": [
+      "/usr/bin/python3",
+      "-B",
+      "/home/udt-admin/udt_mass_codex/udt_hopfion_bridge_stability_reassessment_2026-09-08/step_02/review/post_exposure_matched_check.py"
+    ],
+    "cwd": "/home/udt-admin/udt_mass_codex",
+    "started_utc": "2026-09-11T00:04:05.811676+00:00",
+    "duration_seconds": 6.945723890035879,
+    "returncode": 0,
+    "timeout": false,
+    "address_space_bytes": 536870912,
+    "cpu_seconds": 60,
+    "maxrss_kib": 53688
+  },
+  "stdout_sha256": "96aa9440ec8722f4895e175b233037934940db6527f2a10327ae1d3b08703b79",
+  "stdout_byte_identical": false,
+  "script_unchanged": true,
+  "saved_output_unchanged": true
+}

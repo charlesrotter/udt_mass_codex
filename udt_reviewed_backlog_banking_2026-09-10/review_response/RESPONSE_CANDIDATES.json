@@ -1,0 +1,691 @@
+{
+  "recorded_utc": "2026-09-11T00:06:20.442749+00:00",
+  "reviewer_context": "/root/bank_response_results",
+  "exact_runtime_model_version": "UNATTESTED",
+  "baseline_head": "f5faabb43a582fec9a71c1d4a3b065efffae25bd",
+  "review_type": "SOURCE_DEPENDENCY_AND_BANKING_FIDELITY_NOT_BLIND_REPROOF",
+  "current_authority": {
+    "path": "udt_gr_filter_reconciliation_2026-09-09/AUTHORITY_RECORD.md",
+    "sha256": "80daa0be6d3e1c0ac1b734fea089c4eb487f05bc1e1fbb2fabd69322ca89f28c"
+  },
+  "candidate_count": 7,
+  "candidates": [
+    {
+      "id": "ND1",
+      "required_source_ids": [
+        "G260",
+        "G311",
+        "G312"
+      ],
+      "required_candidate_ids": [],
+      "source_roles": {
+        "G260": "complete four-metric angular residual and previously classified cancellation family",
+        "G311": "all-pair DDR is trace-free balance of specified symmetric response",
+        "G312": "specified optional Ricci-square Q plus current filter-only authority",
+        "G310": "precursor credit; G311 supplies full local pair theorem",
+        "G301": "response-class contrast, not assumption that Q belongs to it"
+      },
+      "statement": "On a connected open I in (0,infinity), f in C2(I), f>0, g=-f dt2+f^-1 dr2+r2 dOmega2, Q=TF_g(Ric g^-1 Ric)=(R/2)S. Q=0 iff f belongs to E:1+a r2+b/r or Z:1+b/r+d/r2, with no C2 interior branch switching. The declared C_ang=0 filter reduces Q-zero metrics exactly to E. Radial Ricci pair balance is blind; angular Ricci pair balance detects d!=0, but every Q contraction vanishes on Z.",
+      "assumptions": [
+        "complete one-function four-dimensional static spherical chart",
+        "positive radius and lapse",
+        "connected interval; C2 regularity",
+        "specified unadopted Q and explicit geometric filter"
+      ],
+      "exclusions": [
+        "not a general two-function/nonspherical/time-live metric classification",
+        "filter is not an adopted universal law and does not select S versus Q on E",
+        "no source/charge/content interpretation of d",
+        "no dynamics, stability, physical response selection or selected a/b/scale"
+      ],
+      "review_context": "/root/native_response_step1_review",
+      "review_axes": "Source-first argument; independent Fraction metric Taylor-jet to full Ricci implementation before direct candidate exposure; author scientific code/output not read in original direct review. Different model UNKNOWN/UNTESTED.",
+      "history": [
+        "Zero scientific/check repairs to ND1. Finite1955 assertions support algebra, not interval exhaustion. Angular-derivative corruption is one narrow control. Harmless unavailable-jq summary command disclosed. G260 author support used shared scientific utility."
+      ],
+      "replays": [
+        "ND1"
+      ],
+      "artifacts": {
+        "candidate": {
+          "path": "udt_native_response_discrimination_2026-09-09/step_01/CANDIDATE.md",
+          "sha256": "5b20cb544d5a1630201be50eb3ee3ce513cf1a4801a278bd5e6f2101fd9bf838"
+        },
+        "reviewed_result": {
+          "path": "udt_native_response_discrimination_2026-09-09/step_01/REVIEWED_RESULT.md",
+          "sha256": "9922200e22f6ce8ecba7b3275b33fe32b74a11d7c598d2f8836c2af2229a74dc"
+        },
+        "whole_direct_review": {
+          "path": "udt_native_response_discrimination_2026-09-09/step_01/review/DIRECT_REVIEW.md",
+          "sha256": "a9f5842dc43fbe4bc9b872e6a22f467a11d127545468aacec117730513c0f3ee"
+        }
+      },
+      "whole_repair_closeout_and_history_artifacts": [
+        {
+          "path": "udt_native_response_discrimination_2026-09-09/step_02/review/CLOSEOUT_FIDELITY.md",
+          "sha256": "d1ba444aeffe08d2a5535a73798cd7e699b6e5122ac72e558789c858712f96e7"
+        },
+        {
+          "path": "udt_native_response_discrimination_2026-09-09/EXECUTION_RECORD.md",
+          "sha256": "67a17fef7193ae65465e0081c358fcae5798b372e0fd1797628b8f2b13e1b1bd"
+        },
+        {
+          "path": "udt_native_response_discrimination_2026-09-09/CAMPAIGN_LOG.md",
+          "sha256": "bc12d059d75188743f9e7d946c82962c7dd41bdcbd892569e74ebe22ba4ff823"
+        },
+        {
+          "path": "udt_native_response_discrimination_2026-09-09/WORK_ORDER.md",
+          "sha256": "2708e277bd5fdef22b06b57a0082bd1d7c28a2b27cf27c7cffe4cd9159107d31"
+        }
+      ],
+      "original_scientific_status": "REVIEWED_CONDITIONAL_UNPROMOTED",
+      "current_registry_ownership_found": false,
+      "banking_recommendation": "ELIGIBLE_EXACT_CONDITIONAL_SCOPE_PENDING_PARENT_GLOBAL_INTEGRATION_GATES",
+      "proposed_grade": [
+        "BANKED_DERIVED_CONDITIONAL",
+        "VERIFIED-WITH-CAVEATS",
+        "OWNER_AUTHORIZED",
+        "NOT_PHYSICAL_ADOPTION",
+        "NOT_CANON"
+      ],
+      "unresolved_scientific_objections": [],
+      "remaining_integration_gates": [
+        "parent actual prebank/full integration premise audit",
+        "all historical source-pin differences authenticated without unrelated-source waiver",
+        "fresh integration fidelity review",
+        "source/unrelated-work preservation and authorized registry guard checks"
+      ],
+      "original_model": "UNKNOWN",
+      "banking_reviewer_model": "UNATTESTED",
+      "historical_g325_failure": "PRESERVED_HISTORY_NOT_CURRENT_BLANKET_BLOCKER"
+    },
+    {
+      "id": "ND2",
+      "required_source_ids": [
+        "G260",
+        "G311",
+        "G312"
+      ],
+      "required_candidate_ids": [
+        "ND1"
+      ],
+      "source_roles": {
+        "ND1": "required exact connected-interval Q solution classification",
+        "G260": "angular operator and E-family kernel",
+        "G311": "specified response DDR shape",
+        "G312": "optional Q/current authority"
+      },
+      "statement": "At positive f0=1+b0/r on fixed nontrivial compact K=[r-,r+] with 0<r-<r+<infinity, exact two-sided C1-in-C2 Q-solution velocities equal span{r2,r^-1} UNION span{r^-1,r^-2}; S velocities and exact/linear angular-filter intersections equal the first plane. For alpha*delta!=0, alpha*r2+delta/r2 is nonintegrable despite DQ=0; mixed Q leading coefficient is 6*alpha*delta/r4 diag(1,1,-1,-1). More generally, any actual C1-in-local-C2 Q-solution metric curve around Ricci-flat g0 necessarily has TF(N2)=0 for N=d(g^-1 Ric)/d epsilon; this is necessity only.",
+      "assumptions": [
+        "ND1 whole scope/history",
+        "C1 parameter curve in C2 profile topology, two-sided",
+        "fixed compact comparison window and positive background minimum",
+        "actual metric curve for general necessity"
+      ],
+      "exclusions": [
+        "velocity union is not linear span",
+        "general TF(N2)=0 is not metric realizability or integrability sufficiency",
+        "parameter is not physical time; no superposition principle/stability theorem",
+        "no general principal-symbol/response-law selection"
+      ],
+      "review_context": "/root/native_response_step2_review",
+      "review_axes": "Source-first reconstruction; independent full-coordinate SymPy Ricci/S/Q implementation written/launched before direct new candidate exposure; author Laurent-method disclosure prompted stronger implementation difference. Different model UNKNOWN/UNTESTED.",
+      "history": [
+        "Zero ND2 repairs.559 exact assertions; two narrow false-inference controls. Lorentz nonzero square-zero N retained. ND1 entire review inherited. Campaign Git threaded-lstat and atomic duplicate-patch-target failures were administrative, preserved, with no candidate change."
+      ],
+      "replays": [
+        "ND2"
+      ],
+      "artifacts": {
+        "candidate": {
+          "path": "udt_native_response_discrimination_2026-09-09/step_02/CANDIDATE.md",
+          "sha256": "e926e2f5c96652f0709a1a00f954db15adddc07523e512a318f58e0f1738c73a"
+        },
+        "reviewed_result": {
+          "path": "udt_native_response_discrimination_2026-09-09/step_02/REVIEWED_RESULT.md",
+          "sha256": "0d3ff16dbf612fae9d33d361f8aa06d8615aeb2a55c66db9e9057f590c8e4722"
+        },
+        "whole_direct_review": {
+          "path": "udt_native_response_discrimination_2026-09-09/step_02/review/DIRECT_REVIEW.md",
+          "sha256": "f15a41ee535f56d49ee7b58da373824a218d326e2637b71a80e866e5e3702642"
+        }
+      },
+      "whole_repair_closeout_and_history_artifacts": [
+        {
+          "path": "udt_native_response_discrimination_2026-09-09/step_02/review/CHECK_PLAN.md",
+          "sha256": "99a6262b52fa60dc34ebc3cf50d6b643b3cf3d06de302f20db3c1858b04b3854"
+        },
+        {
+          "path": "udt_native_response_discrimination_2026-09-09/step_02/review/CLOSEOUT_FIDELITY.md",
+          "sha256": "d1ba444aeffe08d2a5535a73798cd7e699b6e5122ac72e558789c858712f96e7"
+        },
+        {
+          "path": "udt_native_response_discrimination_2026-09-09/EXECUTION_RECORD.md",
+          "sha256": "67a17fef7193ae65465e0081c358fcae5798b372e0fd1797628b8f2b13e1b1bd"
+        },
+        {
+          "path": "udt_native_response_discrimination_2026-09-09/CAMPAIGN_LOG.md",
+          "sha256": "bc12d059d75188743f9e7d946c82962c7dd41bdcbd892569e74ebe22ba4ff823"
+        },
+        {
+          "path": "udt_native_response_discrimination_2026-09-09/WORK_ORDER.md",
+          "sha256": "2708e277bd5fdef22b06b57a0082bd1d7c28a2b27cf27c7cffe4cd9159107d31"
+        }
+      ],
+      "original_scientific_status": "REVIEWED_CONDITIONAL_UNPROMOTED",
+      "current_registry_ownership_found": false,
+      "banking_recommendation": "ELIGIBLE_EXACT_CONDITIONAL_SCOPE_PENDING_PARENT_GLOBAL_INTEGRATION_GATES",
+      "proposed_grade": [
+        "BANKED_DERIVED_CONDITIONAL",
+        "VERIFIED-WITH-CAVEATS",
+        "OWNER_AUTHORIZED",
+        "NOT_PHYSICAL_ADOPTION",
+        "NOT_CANON"
+      ],
+      "unresolved_scientific_objections": [],
+      "remaining_integration_gates": [
+        "parent actual prebank/full integration premise audit",
+        "all historical source-pin differences authenticated without unrelated-source waiver",
+        "fresh integration fidelity review",
+        "source/unrelated-work preservation and authorized registry guard checks"
+      ],
+      "original_model": "UNKNOWN",
+      "banking_reviewer_model": "UNATTESTED",
+      "historical_g325_failure": "PRESERVED_HISTORY_NOT_CURRENT_BLANKET_BLOCKER"
+    },
+    {
+      "id": "QC1",
+      "required_source_ids": [
+        "G260",
+        "G312"
+      ],
+      "required_candidate_ids": [],
+      "source_roles": {
+        "G260": "full static spherical metric/angular identity/zero family",
+        "G312": "current filter-only authority",
+        "G261": "qualified WORKING/POSIT_NOT_CANON physical interpretation, not needed for conditional supplied-metric bound",
+        "LC1": "geometric lapse/acceleration definition credit, independently derived here; observations/instrument assumptions NOT inputs",
+        "quiet_correspondence_direction": "direction/work-order provenance, not required mathematical theorem"
+      },
+      "statement": "For all C2 q on fixed K=[l,u],0<l<=1<=u,l<u, reference p=1+A*x2+B/x fixed by two supplied anchor data, continuous residual c=x2*qpp/2-q+1 with sup|c|<=epsilon and two bounded anchor errors, exact signed Green formula y=delta0*U+delta1*V+(2/3) integral_1^x (x2/s3-1/x)c(s)ds gives explicit b0,b1,b2 and D0,D1,D2 bounds through second derivative. Constant residual attains each residual-only component bound. With common p,q>=m>0, obtain log-relative ideal static clock bound [b0(x)+b0(z)]/(2m), stated lapse-gradient/proper-support-acceleration bounds retaining reference derivative control, and full aligned orthonormal sectional/tidal difference bounds with r0^-2 normalization.",
+      "assumptions": [
+        "fixed positive-radius window containing anchor",
+        "two supplied anchor data and bounded errors",
+        "continuous SUP residual, not samples",
+        "common positive lapse margin for nonlinear readouts",
+        "supplied areal-radius/time/frame matching, fixed r0/calibrated c_E",
+        "reference derivative bound for acceleration/gradient"
+      ],
+      "exclusions": [
+        "no physical residual source, tolerance or selected epsilon",
+        "no absolute-clock-ratio bound uniform over reference ratios",
+        "not equal-proper-distance matching",
+        "no uniform horizon/infinite-window/nonspherical/dynamic theorem",
+        "LC1 observations/empirical uncertainties not promoted"
+      ],
+      "review_context": "/root/quiet_step1_review",
+      "review_axes": "Source-first Green and separate factorized integration argument; independent symbolic full-metric geometry and stdlib direct-profile Fraction/Decimal checks; corrected author replay is shared code. Different model UNKNOWN/UNTESTED.",
+      "history": [
+        "Candidate unchanged. Original494 author checks included floating division and one vacuous anchor assertion; repair sympified inputs and removed vacuous assertion, corrected493. Seven of84 reviewer symbolic sanity rows are tautologies EXCLUDED.2340 Decimal60-digit probes with1e-56 rounding allowance are not exact/interval certification. QC2 closeout status51-vs46 enumeration repair is packaging only; original failure retained."
+      ],
+      "replays": [
+        "QC1_symbolic",
+        "QC1_readout"
+      ],
+      "artifacts": {
+        "candidate": {
+          "path": "udt_quiet_correspondence_campaign_2026-09-10/step_01/CANDIDATE.md",
+          "sha256": "1a2a8439f2591631fd52e92b6c1c45c8a6e4e8e60a59c5e4b8642045cd2d5571"
+        },
+        "reviewed_result": {
+          "path": "udt_quiet_correspondence_campaign_2026-09-10/step_01/REVIEWED_RESULT.md",
+          "sha256": "33f3b0601f9f647d18079ffee4c95e00e598299c468ab4ee25284229a6436ab3"
+        },
+        "whole_direct_review": {
+          "path": "udt_quiet_correspondence_campaign_2026-09-10/step_01/review/FINAL_REVIEW.md",
+          "sha256": "7c6b3503298dadad06896600b07f78fd63eea1afcf52ff2ec11eb5948c861bde"
+        }
+      },
+      "whole_repair_closeout_and_history_artifacts": [
+        {
+          "path": "udt_quiet_correspondence_campaign_2026-09-10/step_01/CHECK_REPAIR.md",
+          "sha256": "a3bd06e08f8ca8b97392ac481447ceaa80cd46841a82a62585c7b615a92daeb8"
+        },
+        {
+          "path": "udt_quiet_correspondence_campaign_2026-09-10/CLOSEOUT_CHECK_REPAIR.md",
+          "sha256": "732c165dcd9ea9626074a0c5e9afc5b2f3c03dc15ca4181f0d91d86ec03edc39"
+        },
+        {
+          "path": "udt_quiet_correspondence_campaign_2026-09-10/step_02/review/CLOSEOUT_REVIEW.md",
+          "sha256": "9f6493eeb355cb3d867645fc68184b6391da6d7b553f63965bfa4f8fe645daba"
+        },
+        {
+          "path": "udt_quiet_correspondence_campaign_2026-09-10/EXECUTION_RECORD.md",
+          "sha256": "64a64368a68e37f1de4dedf105bc999118197ad65857a1c5b27c3b8d3a963e48"
+        },
+        {
+          "path": "udt_quiet_correspondence_campaign_2026-09-10/CAMPAIGN_LOG.md",
+          "sha256": "5901bdfd71fcb7cf5a8f9ebb525c6ad0e4140fed138cab2aa551f358c0559c9b"
+        },
+        {
+          "path": "udt_quiet_correspondence_campaign_2026-09-10/WORK_ORDER.md",
+          "sha256": "6651dac29fa42eb8a0af592d35da2432509e611e1c1d5057878439432a7f872e"
+        }
+      ],
+      "original_scientific_status": "REVIEWED_CONDITIONAL_UNPROMOTED",
+      "current_registry_ownership_found": false,
+      "banking_recommendation": "ELIGIBLE_EXACT_CONDITIONAL_SCOPE_PENDING_PARENT_GLOBAL_INTEGRATION_GATES",
+      "proposed_grade": [
+        "BANKED_DERIVED_CONDITIONAL",
+        "VERIFIED-WITH-CAVEATS",
+        "OWNER_AUTHORIZED",
+        "NOT_PHYSICAL_ADOPTION",
+        "NOT_CANON"
+      ],
+      "unresolved_scientific_objections": [],
+      "remaining_integration_gates": [
+        "parent actual prebank/full integration premise audit",
+        "all historical source-pin differences authenticated without unrelated-source waiver",
+        "fresh integration fidelity review",
+        "source/unrelated-work preservation and authorized registry guard checks"
+      ],
+      "original_model": "UNKNOWN",
+      "banking_reviewer_model": "UNATTESTED",
+      "historical_g325_failure": "PRESERVED_HISTORY_NOT_CURRENT_BLANKET_BLOCKER"
+    },
+    {
+      "id": "QC2",
+      "required_source_ids": [
+        "G260",
+        "G312"
+      ],
+      "required_candidate_ids": [
+        "QC1"
+      ],
+      "source_roles": {
+        "QC1": "whole bound/readout/full-curvature framework and review/repair caveats",
+        "G260": "complete metric residual",
+        "G312": "current authority"
+      },
+      "statement": "Two exact positive static metric sequences refute precisely stated epsilon-only uniform relative-clock moduli. GROW: p=1,q=1+n^-2*(U-1),K=[1,n],fixed anchor data and common lapse floor1, residual=n^-2 but endpoint clock quotient tends sqrt(4/3), while all sectional differences vanish uniformly. GAP: K=[1/2,1],p=1-(1/2-epsilon)/x,q=p+epsilon*(U-1),0<epsilon<=1/4, bounded reference data VARY between pairs, exact matching within each pair, positive minima2epsilon and C2/sectional differences vanish but endpoint relative clock quotient is exactly sqrt(29/24).",
+      "assumptions": [
+        "QC1 whole conditional definitions/history",
+        "supplied geometries, no field equation imposed on q",
+        "GROW varies domain extent",
+        "GAP varies bounded reference data and has no common positive lapse floor"
+      ],
+      "exclusions": [
+        "not a contradiction for one fixed positive reference on fixed K",
+        "positive margin is sufficient, not proved uniquely necessary",
+        "not physical horizon event, generic departure, dynamics, stability or UDT failure",
+        "q=p preserving and QC1 fixed-control examples survive"
+      ],
+      "review_context": "/root/quiet_step2_review",
+      "review_axes": "Source-first same GROW and distinct GAP witness; separately written Fraction code overlaps author method; direct symbolic implementation differs. Whole QC1 exposed as dependency; different model UNKNOWN/UNTESTED.",
+      "history": [
+        "No QC2 repair.24 of496 author opposite-sectional checks are dependent regression ONLY. Full four-metric derivation inherited QC1, not independently repeated in QC2. Symbolic36 identities/limits plus3 narrow catches; rational65 identities/829 probes/5 catches. Review supplementary distinct GAP family is not a new banked theorem."
+      ],
+      "replays": [
+        "QC2"
+      ],
+      "artifacts": {
+        "candidate": {
+          "path": "udt_quiet_correspondence_campaign_2026-09-10/step_02/CANDIDATE.md",
+          "sha256": "9e33df903e673c086dee71894d5c8e700ea31aeb7d5b975ecb5c7f6f3c682335"
+        },
+        "reviewed_result": {
+          "path": "udt_quiet_correspondence_campaign_2026-09-10/step_02/REVIEWED_RESULT.md",
+          "sha256": "b6348b17761da0a7d6ed27fefa00b5527b087140b3d31f93e15adf5627db5d85"
+        },
+        "whole_direct_review": {
+          "path": "udt_quiet_correspondence_campaign_2026-09-10/step_02/review/FINAL_REVIEW.md",
+          "sha256": "bb688a64528632143487bc2522d2382fae6280459814a428464424cdd2010feb"
+        }
+      },
+      "whole_repair_closeout_and_history_artifacts": [
+        {
+          "path": "udt_quiet_correspondence_campaign_2026-09-10/CLOSEOUT_CHECK_REPAIR.md",
+          "sha256": "732c165dcd9ea9626074a0c5e9afc5b2f3c03dc15ca4181f0d91d86ec03edc39"
+        },
+        {
+          "path": "udt_quiet_correspondence_campaign_2026-09-10/step_02/review/CLOSEOUT_REVIEW.md",
+          "sha256": "9f6493eeb355cb3d867645fc68184b6391da6d7b553f63965bfa4f8fe645daba"
+        },
+        {
+          "path": "udt_quiet_correspondence_campaign_2026-09-10/EXECUTION_RECORD.md",
+          "sha256": "64a64368a68e37f1de4dedf105bc999118197ad65857a1c5b27c3b8d3a963e48"
+        },
+        {
+          "path": "udt_quiet_correspondence_campaign_2026-09-10/CAMPAIGN_LOG.md",
+          "sha256": "5901bdfd71fcb7cf5a8f9ebb525c6ad0e4140fed138cab2aa551f358c0559c9b"
+        },
+        {
+          "path": "udt_quiet_correspondence_campaign_2026-09-10/WORK_ORDER.md",
+          "sha256": "6651dac29fa42eb8a0af592d35da2432509e611e1c1d5057878439432a7f872e"
+        }
+      ],
+      "original_scientific_status": "REVIEWED_CONDITIONAL_UNPROMOTED",
+      "current_registry_ownership_found": false,
+      "banking_recommendation": "ELIGIBLE_EXACT_CONDITIONAL_SCOPE_PENDING_PARENT_GLOBAL_INTEGRATION_GATES",
+      "proposed_grade": [
+        "BANKED_DERIVED_CONDITIONAL",
+        "VERIFIED-WITH-CAVEATS",
+        "OWNER_AUTHORIZED",
+        "NOT_PHYSICAL_ADOPTION",
+        "NOT_CANON"
+      ],
+      "unresolved_scientific_objections": [],
+      "remaining_integration_gates": [
+        "parent actual prebank/full integration premise audit",
+        "all historical source-pin differences authenticated without unrelated-source waiver",
+        "fresh integration fidelity review",
+        "source/unrelated-work preservation and authorized registry guard checks"
+      ],
+      "original_model": "UNKNOWN",
+      "banking_reviewer_model": "UNATTESTED",
+      "historical_g325_failure": "PRESERVED_HISTORY_NOT_CURRENT_BLANKET_BLOCKER"
+    },
+    {
+      "id": "GL1",
+      "required_source_ids": [
+        "G301",
+        "G311",
+        "G312"
+      ],
+      "required_candidate_ids": [],
+      "source_roles": {
+        "G301": "linear full-unoriented Lorentz curvature-to-symmetric-tensor basis sublemma only",
+        "G311": "DDR means TF(F)=0 for specified symmetric response",
+        "G312": "current authority and known degeneracy control",
+        "ND1/ND2": "credited degeneracy context, not required for Taylor bound"
+      },
+      "statement": "For one fixed finite-order Frechet-differentiable full O(1,3)-equivariant symmetric response germ on a neighborhood of zero in the declared ambient curvature-derivative product, T=TF(F) has T(0)=0, curvature-linear block a*S and zero odd-derivative blocks. Supplied ||Jj||<=Mj*epsilon^(j+2) gives uniform ||T-a*S||<=D*epsilon4+M*epsilon2*omega(M*epsilon2),omega->0. Exact DDR yields ||S||/epsilon2->0 only if fixed a!=0; approximate balance needs normalized rho->0. Optional C1,alpha derivative control gives the displayed H/(1+alpha) rate. Exact weighted homogeneity is a separately conditional consistency control.",
+      "assumptions": [
+        "ambient extension including unrealizable formal slots",
+        "fixed finite order/map/units/norms and full unoriented equivariance",
+        "Frechet differentiability at flat origin",
+        "supplied weighted hierarchy and small-domain bound",
+        "separate fixed a!=0 for Ricci conclusion"
+      ],
+      "exclusions": [
+        "no physical class membership/nonzero coefficient/scale supplied",
+        "no actual-curvature normalization without lower bound",
+        "no power rate from bare differentiability",
+        "no arbitrary-map/unbounded-boost uniformity",
+        "no metric family existence/convergence/physical GR result"
+      ],
+      "review_context": "/root/gr_limit_step1_review",
+      "review_axes": "Source-first proof; distinct Fraction/Kulkarni implementation with overlapping method; corrected author replay same-code only. Different model UNKNOWN/UNTESTED.",
+      "history": [
+        "Initial author SyntaxError before assertions, preserved in fabb3cae; one missing outer-loop/bracket repair, candidate unchanged. Reviewer34 includes1 bookkeeping:33 substantive witness checks;13 narrow catches. Constructed-curvature author6168 identities are not a full basis census."
+      ],
+      "replays": [
+        "GL1"
+      ],
+      "artifacts": {
+        "candidate": {
+          "path": "udt_gr_limit_campaign_2026-09-10/step_01/CANDIDATE.md",
+          "sha256": "9a390933b76167cbe13741ef0523cd69b06544c66f3e574d2355b27883e7bff1"
+        },
+        "reviewed_result": {
+          "path": "udt_gr_limit_campaign_2026-09-10/step_01/REVIEWED_RESULT.md",
+          "sha256": "00d9d3caa8f755706df9a349737f5fbbda2c85e3e73cbd41b83e878a254011d1"
+        },
+        "whole_direct_review": {
+          "path": "udt_gr_limit_campaign_2026-09-10/step_01/review/DIRECT_REVIEW.md",
+          "sha256": "33ab045609dce22c1cc57aa9b739215d4b6a93ef07c5939dc6a82ccc89aa9bde"
+        }
+      },
+      "whole_repair_closeout_and_history_artifacts": [
+        {
+          "path": "udt_gr_limit_campaign_2026-09-10/step_01/CHECK_REPAIR.md",
+          "sha256": "a63be991bb1f104e008b7a4c43a9c92640aa2b9f8d794fc6894bbea948b81ee6"
+        },
+        {
+          "path": "udt_gr_limit_campaign_2026-09-10/PACKAGING_FIDELITY_REVIEW.md",
+          "sha256": "283ee272aae2b150f9b7f6b856a16595af3e5159186a15c87b622826911f1bd2"
+        },
+        {
+          "path": "udt_gr_limit_campaign_2026-09-10/EXECUTION_RECORD.md",
+          "sha256": "4e3bf224729724a9b758c4680abc26a102c41bf819a8f082ae9ac2804712bc18"
+        },
+        {
+          "path": "udt_gr_limit_campaign_2026-09-10/CAMPAIGN_LOG.md",
+          "sha256": "6b3a722fa9e3333107a9ead0624d3d1c031b484067a88ac087f562d6372d7976"
+        },
+        {
+          "path": "udt_gr_limit_campaign_2026-09-10/WORK_ORDER.md",
+          "sha256": "209702f803254fe57559bb69dc1b94147f84960fb5ea76b64d953b9bc59f9381"
+        }
+      ],
+      "original_scientific_status": "REVIEWED_CONDITIONAL_UNPROMOTED",
+      "current_registry_ownership_found": false,
+      "banking_recommendation": "ELIGIBLE_EXACT_CONDITIONAL_SCOPE_PENDING_PARENT_GLOBAL_INTEGRATION_GATES",
+      "proposed_grade": [
+        "BANKED_DERIVED_CONDITIONAL",
+        "VERIFIED-WITH-CAVEATS",
+        "OWNER_AUTHORIZED",
+        "NOT_PHYSICAL_ADOPTION",
+        "NOT_CANON"
+      ],
+      "unresolved_scientific_objections": [],
+      "remaining_integration_gates": [
+        "parent actual prebank/full integration premise audit",
+        "all historical source-pin differences authenticated without unrelated-source waiver",
+        "fresh integration fidelity review",
+        "source/unrelated-work preservation and authorized registry guard checks"
+      ],
+      "original_model": "UNKNOWN",
+      "banking_reviewer_model": "UNATTESTED",
+      "historical_g325_failure": "PRESERVED_HISTORY_NOT_CURRENT_BLANKET_BLOCKER"
+    },
+    {
+      "id": "GL2",
+      "required_source_ids": [
+        "G301",
+        "G311",
+        "G312"
+      ],
+      "required_candidate_ids": [
+        "GL1"
+      ],
+      "required_control_candidate_ids": [
+        "ND1"
+      ],
+      "source_roles": {
+        "GL1": "required whole fixed-germ theorem",
+        "ND1": "required for credited included actual a=0 metric diagnostic, not positive Einstein necessity implication",
+        "G311": "specified DDR shape",
+        "G312": "current authority",
+        "Bianchi/constant scaling": "standard methods with C3/nondegeneracy hypotheses checked"
+      },
+      "statement": "Under all GL1 hypotheses and fixed a!=0, actual smooth balanced Lorentz metrics on common connected marked4-domain with h_epsilon=epsilon2*g_epsilon converging in C^max(m+2,3)_loc to nondegenerate Lorentz h0 necessarily have Ric(h0)=Lambda*h0 for one constant unselected Lambda. Constant-rescaling ON-frame jets carry epsilon^(j+2), supplying GL1 hierarchy; C2 continuity passes S=0 and C3 Bianchi makes scalar constant. Optional compact-local normalized approximate balance and C1,1 response rate retain exact GL1 qualifications. ND1 a=0 actual-metric and oscillatory non-DDR metric diagnostics show the stated gates cannot be silently dropped.",
+      "assumptions": [
+        "GL1 entire ambient/fixed-map/type/regularity scope",
+        "fixed a!=0",
+        "spatially constant normalization",
+        "common marking and nondegenerate C^max(m+2,3)_loc limit",
+        "controlled local frames",
+        "exact DDR or explicitly normalized residual o(epsilon2)"
+      ],
+      "exclusions": [
+        "NECESSITY only, not balanced nonflat family existence/converse/compactness/convergence theorem",
+        "no rate of metric convergence from response rate",
+        "no selected Lambda/sign/Weyl/data/physical GR recovery",
+        "oscillatory diagnostic not DDR-balanced",
+        "ND1 Q unadopted and a=0"
+      ],
+      "review_context": "/root/gr_limit_step2_review",
+      "review_axes": "Source-first scaling/limit argument; independent Fraction Taylor-jet warp metric versus author symbolic spherical metric, overlapping Levi-Civita method; source/candidate exposure documented; author replay shared code. Different model UNKNOWN/UNTESTED.",
+      "history": [
+        "No GL2 repair.58 reviewer assertions include structural zeros,3 redundant TF conversions and1 bookkeeping.17 catches include a zero-a tautology with NO evidential credit;16 narrow substantive catches. Fixed-epsilon checks do not prove arbitrary big-O failure; diverging analytic ratios do."
+      ],
+      "replays": [
+        "GL2"
+      ],
+      "artifacts": {
+        "candidate": {
+          "path": "udt_gr_limit_campaign_2026-09-10/step_02/CANDIDATE.md",
+          "sha256": "c4d75564b41918b3b833558626adb23bb2a02278a5aaad2c85c865c806934723"
+        },
+        "reviewed_result": {
+          "path": "udt_gr_limit_campaign_2026-09-10/step_02/REVIEWED_RESULT.md",
+          "sha256": "336208859bab82758af706f6c1e8385e8bf552a2ca64b610522bec50a490938f"
+        },
+        "whole_direct_review": {
+          "path": "udt_gr_limit_campaign_2026-09-10/step_02/review/DIRECT_REVIEW.md",
+          "sha256": "1493eaac5d7331e21bd1e81d33713491814baca9f79b12fe3cb252e4ff1f65d8"
+        }
+      },
+      "whole_repair_closeout_and_history_artifacts": [
+        {
+          "path": "udt_gr_limit_campaign_2026-09-10/PACKAGING_FIDELITY_REVIEW.md",
+          "sha256": "283ee272aae2b150f9b7f6b856a16595af3e5159186a15c87b622826911f1bd2"
+        },
+        {
+          "path": "udt_gr_limit_campaign_2026-09-10/EXECUTION_RECORD.md",
+          "sha256": "4e3bf224729724a9b758c4680abc26a102c41bf819a8f082ae9ac2804712bc18"
+        },
+        {
+          "path": "udt_gr_limit_campaign_2026-09-10/CAMPAIGN_LOG.md",
+          "sha256": "6b3a722fa9e3333107a9ead0624d3d1c031b484067a88ac087f562d6372d7976"
+        },
+        {
+          "path": "udt_gr_limit_campaign_2026-09-10/WORK_ORDER.md",
+          "sha256": "209702f803254fe57559bb69dc1b94147f84960fb5ea76b64d953b9bc59f9381"
+        }
+      ],
+      "original_scientific_status": "REVIEWED_CONDITIONAL_UNPROMOTED",
+      "current_registry_ownership_found": false,
+      "banking_recommendation": "ELIGIBLE_EXACT_CONDITIONAL_SCOPE_PENDING_PARENT_GLOBAL_INTEGRATION_GATES",
+      "proposed_grade": [
+        "BANKED_DERIVED_CONDITIONAL",
+        "VERIFIED-WITH-CAVEATS",
+        "OWNER_AUTHORIZED",
+        "NOT_PHYSICAL_ADOPTION",
+        "NOT_CANON"
+      ],
+      "unresolved_scientific_objections": [],
+      "remaining_integration_gates": [
+        "parent actual prebank/full integration premise audit",
+        "all historical source-pin differences authenticated without unrelated-source waiver",
+        "fresh integration fidelity review",
+        "source/unrelated-work preservation and authorized registry guard checks"
+      ],
+      "original_model": "UNKNOWN",
+      "banking_reviewer_model": "UNATTESTED",
+      "historical_g325_failure": "PRESERVED_HISTORY_NOT_CURRENT_BLANKET_BLOCKER"
+    },
+    {
+      "id": "RF1",
+      "required_source_ids": [
+        "G301",
+        "G311",
+        "G312"
+      ],
+      "required_candidate_ids": [],
+      "source_roles": {
+        "G301": "linear Lorentz contraction sublemma after explicit normal quadratic-curvature bijection",
+        "G311": "specified DDR shape",
+        "G312": "current authority",
+        "G296": "order-boundary context, not sufficient response architecture",
+        "GL1": "explicit comparative/source-credit predecessor; estimate rederived intrinsically, no ambient-extension premise imported",
+        "GL2": "potential application with remaining full hypotheses, not required for RF1",
+        "Jentsch arXiv1509.08269v2": "original checked primary corroboration; not newly web-verified or relied on instead of direct finite-order argument; Euclidean Theorem3(a) not imported"
+      },
+      "preferred_predecessor_order": [
+        "GL1"
+      ],
+      "statement": "For finite N>=2, homogeneous symmetric normal coefficients hs satisfying hs(x)(x,v)=0 form a linear space of genuine local Lorentz normal metric jets, all realized by g=eta+sum hs on sufficiently small neighborhoods. The h2 curvature map is an equivariant bijection with inverse h2_ij=-(1/3)R_i a j b*x^a*x^b. A fixed finite-order fully unoriented natural symmetric response on a full neighborhood of flat realizable normal jets, Frechet differentiable at flat, admits intrinsic T=a*S+remainder with zero odd blocks and bound D*epsilon4+M*epsilon2*omega(M*epsilon2) under ||hs||<=Ms*epsilon^s. Finite normal-coefficient and actual covariant-curvature weighted bounds are equivalent up to constants via Jacobi/coordinate polynomials retaining curvature products, including h4=eta*(2*K0^2/45-K2/20). Optional rates/DDR/nonzero-a/normalized residual conclusions have stated qualifications; no response extension to unrealizable arrays is needed.",
+      "assumptions": [
+        "fixed N/order/type/response/units",
+        "full open response neighborhood of flat realizable jets",
+        "full unoriented diffeomorphism naturality",
+        "Frechet differentiability at flat, separately assumed",
+        "supplied finite weighted regime",
+        "separate a!=0 for Ricci consequence"
+      ],
+      "exclusions": [
+        "normal metric realization is kinematic, not field-law solution",
+        "no full response neighborhood/regularity/nonzero-a from locality alone",
+        "not arbitrary curvature-array realization or infinite Taylor convergence",
+        "no balanced-family existence/convergence/physical GR limit or scale selection",
+        "sufficient gates not claimed necessary for all GR limits"
+      ],
+      "review_context": "/root/response_foundations_review",
+      "review_axes": "Source-first standard Jacobi/normal-jet argument, independent actual product-metric Fraction connection implementation before candidate exposure. Original parent saw reviewer code before author diagnostics; author checks therefore not blind, although rank/basis/warped-integral calculations differ. Different model UNKNOWN/UNTESTED.",
+      "history": [
+        "Initial reviewer Python3.10 parse failure before assertions preserved. One check repair: tuple subscription, degree5 quartic-radial retention, remove literal-sign probe. Candidate unchanged. Focused catch proves adding x0^4 to g00 falsely passed old truncation but repaired check rejects x0^5 defect.69 author categories include exact80x100 rank80/nullity20 and20-element curvature basis; finite probes do not prove all orders.25 reviewer categories include structural zeros/parity zeros and repeated product family;5 narrow probes. Original full365 raw byte stream/runtime incompletely captured, separate from preserved scientific outputs."
+      ],
+      "replays": [
+        "RF1_author",
+        "RF1_independent",
+        "RF1_repair"
+      ],
+      "artifacts": {
+        "candidate": {
+          "path": "udt_response_foundations_campaign_2026-09-10/CANDIDATE.md",
+          "sha256": "bf3d4eac664ec9d08f5b68c88062025ee1070e558b9974e6c27dd9f341992be2"
+        },
+        "reviewed_result": {
+          "path": "udt_response_foundations_campaign_2026-09-10/DECISION_BRIEF.md",
+          "sha256": "32c20fde998ee27530eab6034d4e2ef99b30236870a9435ad0ed1bfbf9e99643"
+        },
+        "whole_direct_review": {
+          "path": "udt_response_foundations_campaign_2026-09-10/review/DIRECT_REVIEW.md",
+          "sha256": "9ae07cced7db0854a3e0f6fa4fd93c997168c549332f21a621d721ae09b06f1f"
+        }
+      },
+      "whole_repair_closeout_and_history_artifacts": [
+        {
+          "path": "udt_response_foundations_campaign_2026-09-10/review/CHECK_REPAIR.md",
+          "sha256": "1f8c79a44925167e8bf4c0673a59c043a227b6b3951ee4b70bd786b8869e39de"
+        },
+        {
+          "path": "udt_response_foundations_campaign_2026-09-10/review/PACKAGING_FIDELITY.md",
+          "sha256": "3a4e1f823c38412550f04b3dd40ae077b27d9ec00ebdb6ca1e35d239f3377e2a"
+        },
+        {
+          "path": "udt_response_foundations_campaign_2026-09-10/SOURCE_NOTES.md",
+          "sha256": "7dff6443b2aa3475686a08419d261aa74c37ed57b0b12fd880147b748a47a14e"
+        },
+        {
+          "path": "udt_response_foundations_campaign_2026-09-10/review/REVIEW_RESULT.json",
+          "sha256": "cdd3b67d8b2e166b9f14c69b8470d3eb1d69323ff5f95703ccad45a5842f0530"
+        },
+        {
+          "path": "udt_response_foundations_campaign_2026-09-10/EXECUTION_RECORD.md",
+          "sha256": "5ff8e47ef568a1e3cf1b30dc7c61b3fb3ada24140ed7c829ff097d7728214584"
+        },
+        {
+          "path": "udt_response_foundations_campaign_2026-09-10/CAMPAIGN_LOG.md",
+          "sha256": "5dbc7edb933e0d8c7ef4e6811b606b6578883eb47db7054339daea1c899dd37f"
+        },
+        {
+          "path": "udt_response_foundations_campaign_2026-09-10/WORK_ORDER.md",
+          "sha256": "fd7f394bbbda6188fcb8a07d1edc8a467e49a558504422acd634983719a3247a"
+        }
+      ],
+      "original_scientific_status": "REVIEWED_CONDITIONAL_UNPROMOTED",
+      "current_registry_ownership_found": false,
+      "banking_recommendation": "ELIGIBLE_EXACT_CONDITIONAL_SCOPE_PENDING_PARENT_GLOBAL_INTEGRATION_GATES",
+      "proposed_grade": [
+        "BANKED_DERIVED_CONDITIONAL",
+        "VERIFIED-WITH-CAVEATS",
+        "OWNER_AUTHORIZED",
+        "NOT_PHYSICAL_ADOPTION",
+        "NOT_CANON"
+      ],
+      "unresolved_scientific_objections": [],
+      "remaining_integration_gates": [
+        "parent actual prebank/full integration premise audit",
+        "all historical source-pin differences authenticated without unrelated-source waiver",
+        "fresh integration fidelity review",
+        "source/unrelated-work preservation and authorized registry guard checks"
+      ],
+      "original_model": "UNKNOWN",
+      "banking_reviewer_model": "UNATTESTED",
+      "historical_g325_failure": "PRESERVED_HISTORY_NOT_CURRENT_BLANKET_BLOCKER"
+    }
+  ]
+}

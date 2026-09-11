@@ -1,16 +1,16 @@
 # Current scientific premises — bounded orientation
 
-`LIVE.md` owns current status. The exact 365-row `CURRENT_SCIENTIFIC_PREMISES.tsv` owns grades;
+`LIVE.md` owns current status. The exact 395-row `CURRENT_SCIENTIFIC_PREMISES.tsv` owns grades;
 run `python3 verify_current_scientific_premises.py` before querying exact rows.
-Banking through G382 is COMPLETE, VERIFIED-WITH-CAVEATS at reviewed conditional scopes.
+Exact-scope banking through G412 is COMPLETE; all inherited limits remain.
 Sources/reviews: `INDEX.md`.
-Exact grades, original evidence, canon and fixed manuscript are preserved.
+Original365 rows, evidence, canon and fixed manuscript remain unchanged.
 
 GR is FILTER ONLY, not a response-law input; Local Metric Sufficiency remains owner-provisional.
 G312's current authority qualifies inherited “admitted/lawful” labels. Einstein claims remain
 CONDITIONAL on full reviewed premises, not established from filter-only GR; membership is unclosed.
 Current record: `udt_gr_filter_reconciliation_2026-09-09/AUTHORITY_RECORD.md`. No theorem is regraded.
-Full365 PASS after maintenance; no scientific promotion. Maintenance/review closeout: INDEX.
+New prebank365 and full395 PASS; banking checks/review: INDEX.
 
 ## Foundational and adopted layer
 
@@ -95,7 +95,7 @@ G379=CF1/G380=CF2: closed Hopf fibres of this continued Ricci eigenline are not 
 even allowing smooth deformation, within the reviewed supplied marking/gap/domain/method class.
 Preserving examples remain; no generic failure, topology change, physical instability or UDT failure.
 Automatic Hopfion-stabilization identification PAUSED; CF2 reviewer buffers remain LOST, not recovered.
-G376 banked only required BI1; HB2/HB3 and BI2/BI3 remain UNPROMOTED.
+G376 remains BI1; G384--G387 conditionally bank HB2/HB3/BI2/BI3.
 
 G381=NT1 precedes G382=NT2 conditionally. Full slot/connection corrections,
 finite-jet limits, NONZERO REAL rank-one class, all-Lambda necessity versus actual smooth LOCAL
@@ -126,5 +126,6 @@ justified instrument/transfer assumptions without an admitted sourced law; none 
 Pullbacks plus the bivector area bilinear can recover `g`; scalar data stop at its positive conformal class.
 Scopes/assumptions/positivity/recipes/reviews control; tables aren't proofs.
 GOCE PARKED, eligibility UNRESOLVED/OPEN, enquiry UNSENT; GW procedure parked.
-Response-foundations campaign complete: roadmap via INDEX; no scientific promotion. Backup completeness/pre-reboot unsaved state
+G383--G412:27 conditional math results, CO2 design, LC2 benchmark and FW2 finite procedure; exact scopes: INDEX.
+Backup completeness/pre-reboot unsaved state
 remain UNVERIFIED; ScratchDisk blocks only archive-dependent work.

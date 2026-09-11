@@ -1,6 +1,6 @@
 # MEMORY — compact pointer only
 
-`LIVE.md` wins. The exact 365-row `CURRENT_SCIENTIFIC_PREMISES.tsv` owns grades;
+`LIVE.md` wins. The exact 395-row `CURRENT_SCIENTIFIC_PREMISES.tsv` owns grades;
 `CURRENT_RESEARCH_PROGRAM.md` is the dependency spine and `INDEX.md` the evidence map.
 
 The kernel evaluates supplied ordered depth; complete `B,Q,S,Y,Z` enters before readout.
@@ -18,10 +18,10 @@ G350 leaves `R^p A^q`; G351 provisionally conserves a supplied label measure, gi
 Conditional banking through G382 is COMPLETE at exact reviewed scopes.
 G381=NT1 precedes G382=NT2: tidal-neighborhood obstruction and restricted real null jets
 with actual local Lambda=0 realizations; not general metric realization or physical modes.
-Original candidate/review bytes, false passes, repairs and lost-output caveats stay fixed.
-HB2/HB3 and BI2/BI3 remain UNPROMOTED; three CD vacuous checks remain EXCLUDED.
-NR/LG/LE1/SE1/NE1 are reviewed UNPROMOTED; INDEX owns full scopes/reviews, not stability/content.
-Full365 PASS after maintenance; evidence: INDEX. No new banking.
+Evidence, false passes, repairs and lost-output caveats stay fixed.
+G383--G412 exact-scope banking COMPLETE; three CD vacuous checks remain EXCLUDED.
+27 conditional mathematical results plus CO2 design, LC2 benchmark and FW2 finite procedure; scopes: INDEX.
+Original365 rows/evidence remain unchanged. Banking checks/reviews: INDEX.
 
 Keep the corrections explicit:
 
@@ -46,7 +46,7 @@ Fixed manuscript/coverage is the through-G352 edition, not the current frontier.
 Session transition: `HANDOFF.md`.
 
 Banking through G382 is complete; G312 membership unclosed, G352 physical identification OPEN.
-ND1/ND2/QC1/QC2/GL1/GL2/RF1 reviewed UNPROMOTED; campaigns complete; roadmap via INDEX.
+Roadmap closeouts record bank/hold/control dispositions; no automatic successor.
 Stop for discussion; new work requires checks, fresh separate-context review and bounded same-premise repair.
 
 Backup completeness/pre-reboot unsaved state remain UNVERIFIED; ScratchDisk archive-only.

@@ -1,0 +1,47 @@
+{
+  "label": "rd1_definitions",
+  "script": "udt_gw_response_robustness_design_campaign/step_01/review/independent_definitions.py",
+  "saved_stdout": "udt_gw_response_robustness_design_campaign/step_01/review/independent_definitions_run.stdout",
+  "script_sha256": "b041d6937d2855fe99e5d525e2e06998487e704a5002bb6eb8337645f20ed833",
+  "saved_stdout_sha256": "5a90ca437b8e8fe90fbc3bef5a3f97e7af8919d06b90b83d72e08562a4aaa19c",
+  "args": [],
+  "launcher_argv": [
+    "/usr/bin/python3",
+    "-B",
+    "/home/udt-admin/udt_mass_codex/udt_shared_readout_metric_constraint_campaign_2026-09-06/run_capture.py",
+    "/home/udt-admin/udt_mass_codex/udt_reviewed_backlog_banking_2026-09-10/review_older_geometry/replays/rd1_definitions",
+    "/home/udt-admin/udt_mass_codex",
+    "/usr/bin/python3",
+    "-B",
+    "/home/udt-admin/udt_mass_codex/udt_gw_response_robustness_design_campaign/step_01/review/independent_definitions.py"
+  ],
+  "launcher_returncode": 0,
+  "capture_sha256": "8ff5469ace76bdfc84188915242abbf3baff35516f9ee3f9ba4b1cbfeb2573ef",
+  "thread_environment": {
+    "OMP_NUM_THREADS": "1",
+    "OPENBLAS_NUM_THREADS": "1",
+    "MKL_NUM_THREADS": "1"
+  },
+  "dont_write_bytecode": true,
+  "python": "3.10.12 (main, Aug 31 2026, 10:18:17) [GCC 11.4.0]",
+  "platform": "Linux-6.8.0-138-generic-x86_64-with-glibc2.35",
+  "receipt": {
+    "command": [
+      "/usr/bin/python3",
+      "-B",
+      "/home/udt-admin/udt_mass_codex/udt_gw_response_robustness_design_campaign/step_01/review/independent_definitions.py"
+    ],
+    "cwd": "/home/udt-admin/udt_mass_codex",
+    "started_utc": "2026-09-11T00:09:54.399435+00:00",
+    "duration_seconds": 0.022967880009673536,
+    "returncode": 0,
+    "timeout": false,
+    "address_space_bytes": 536870912,
+    "cpu_seconds": 60,
+    "maxrss_kib": 15360
+  },
+  "stdout_sha256": "5a90ca437b8e8fe90fbc3bef5a3f97e7af8919d06b90b83d72e08562a4aaa19c",
+  "stdout_byte_identical": true,
+  "script_unchanged": true,
+  "saved_output_unchanged": true
+}

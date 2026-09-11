@@ -1,0 +1,29 @@
+{
+  "observed_utc": "2026-09-11T00:40:59.982275+00:00",
+  "head": "f5faabb43a582fec9a71c1d4a3b065efffae25bd",
+  "files": {
+    "AGENTS.md": "d962ed12dddd67c65d531b96f7dd004db677afd6396e15ada3a9d921d05ddbf7",
+    "CURRENT_RESEARCH_PROGRAM.md": "ba30f38ae637dbce280b8e1824bd67ca61bc14e37bebcc6e890bd8e68bd57eb3",
+    "CURRENT_SCIENTIFIC_PREMISES.md": "7c4e38dfc8d109cd47c2536281619e604a6c4463682e0a13e8def108ffc4d678",
+    "CURRENT_SCIENTIFIC_PREMISES.tsv": "6fc63338cf5562d72d0313e2376474ad9ac908841a64e82fc74e0bc93b8ae43a",
+    "HANDOFF.md": "1d1a2e84d6203f0a05feec4c30b4850e9168e6ef779fb4aa6bf23f1a8c034b82",
+    "INDEX.md": "c7d386e895e68bb70c43f8c418381f9b53750d87d658e636052d50c5eca629ee",
+    "LIVE.md": "5b59079bbf0705d230d451d9289994ec70b49d996b6a7ab6a8477db8a9a8b7f9",
+    "MEMORY.md": "c1d8c35b74e08351c97438eb7ad675d563303356926bf7de2f6c6d8c6de39937",
+    "UDT_RESEARCH_ROADMAP.md": "75a6752959fb21562d5e620bd57cd5ff46d5ede5b4949c679994e621d5f7544c",
+    "tests/test_reviewed_backlog_banking.py": "96d1ec441121b3894892a4a246e5f2257708b92494d5b22132b56e29c771a861",
+    "tests/test_startup_surface.py": "4ba25e7dc9b7af41826b94d9b1e19387387e14d8897bc93430cbf0244458be9a",
+    "udt_reviewed_backlog_banking_2026-09-10/BANKED_CLAIMS.json": "4b98b1dea6ce9dc0d62f9fa6183c1379aed534989159b45a208dad93fce12c2e",
+    "udt_reviewed_backlog_banking_2026-09-10/BANKED_ROWS.tsv": "2115d3edd646655726720bd8dc2e166ab87952db885f412e8b0200bd81a549e8",
+    "udt_reviewed_backlog_banking_2026-09-10/BANKING_RECORD.md": "618b4b953a419b991e0ae7f0c643487536b8e76ba7b0b0c7de53db17fbde81b2",
+    "udt_reviewed_backlog_banking_2026-09-10/DISPOSITIONS.tsv": "6df218c360178de86a91533342a2c5fd7e657492c1e66087406abaa24475610e",
+    "udt_reviewed_backlog_banking_2026-09-10/SOURCE_EVIDENCE_SHA256SUMS": "94d15fa2f49cc5f01fa492d28577a9fa33c1a9e7eedacc9cb12a09002eefeeca",
+    "verify_current_scientific_premises.py": "9fe36d62f80fd18995157e4e8065740de6bd121f20c810da495cdae71643f725"
+  },
+  "source_scope": "SOURCE_EVIDENCE_SHA256SUMS additionally pins2612 source files.",
+  "status": "Pending acceptance; source claims/rows frozen.",
+  "limits": {
+    "mib": 2048,
+    "seconds": 900
+  }
+}

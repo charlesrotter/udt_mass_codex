@@ -3,7 +3,7 @@
 <!-- STARTUP_CURRENT_BEGIN -->
 ## Current handoff anchor — 2026-09-10
 
-`LIVE.md` wins; exact grades belong to the 365-row `CURRENT_SCIENTIFIC_PREMISES.tsv`.
+`LIVE.md` wins; exact grades belong to the 395-row `CURRENT_SCIENTIFIC_PREMISES.tsv`.
 Current sources and completed-campaign routes: `INDEX.md`; dependency spine:
 `CURRENT_RESEARCH_PROGRAM.md`. Historical status: `archive/STARTUP_SURFACE_HISTORY.md`.
 
@@ -17,7 +17,6 @@ GR is FILTER ONLY, not a response-law input; Local Metric Sufficiency remains ow
 Current G312 authority qualifies inherited “admitted/lawful” labels; the multibranch Einstein arena
 remains CONDITIONAL on full reviewed premises, not established from filter-only GR. Grades/math unchanged.
 Current authority: `udt_gr_filter_reconciliation_2026-09-09/AUTHORITY_RECORD.md`.
-Review closeout: see INDEX; the original final report remains unproduced.
 Metric/kernel are unchanged; angular-sector cancellation owns loud--quiet--loud.
 One Ricci scalar does not exhaust free geometry/data.
 
@@ -45,14 +44,15 @@ Conditional banking through G382 is COMPLETE, VERIFIED-WITH-CAVEATS at exact sou
 
 Whole original reviews and false-pass/repair limitations control; CF2 intermediate buffers are
 LOST, not preserved or recovered; NT1 lost-buffer/unsnapshotted-code caveats remain.
-HB2/HB3 and BI2/BI3 remain UNPROMOTED. Fixed manuscript/coverage remains through G352, not the frontier.
-Legitimate initial data, calibration parameters, carried measure and history selection are distinct.
+G383--G412 exact-scope banking is COMPLETE. Fixed manuscript/coverage stays through G352.
+Initial data, calibration, carried measure and history selection differ.
 An admitted source sector is not required for every explicitly conditional measurement route.
 Geometric/calibration and emergence aims remain parallel; neither is a prerequisite.
 
-NR1--NR2/LG1--LG2/LE1/SE1/NE1: reviewed UNPROMOTED; exact evidence/scopes in INDEX.
-All original reviews/caveats control. Full365 PASS after maintenance; evidence: INDEX.
-ND1/ND2/QC1/QC2/GL1/GL2/RF1: reviewed UNPROMOTED; roadmap: INDEX.
+G383--G394: original recipe, HB/BI, nonlinear/localized geometry; G395--G401: response/correspondence.
+G402--G405: null-clock/curvature/kernel expansion; G406--G410: conditional measurement/design math.
+G409=CO2 design, G411=LC2 published benchmark, G412=FW2 finite procedure retain distinct categories.
+Original365 rows/evidence remain unchanged; acceptance/checks: INDEX.
 
 Optional source branch PAUSED; automatic Hopfion-stabilization mechanism is PAUSED, no rescue.
 GOCE PARKED, eligibility UNRESOLVED/OPEN, enquiry UNSENT—not rejected or awaiting a reply.
@@ -75,10 +75,10 @@ Protected—do not stage, modify, mine or cite without dispatch:
 
 Fresh Codex session authorized, not resume/fork; retain session history. Follow AGENTS;
 report actual model/instructions/checks. After orientation: `maintenance_agent_capacity_2026-09-10.md`,
-dated handoff sequence. Capacity UNVERIFIED; old full365 PASS is prior evidence.
+dated handoff sequence. General capacity UNVERIFIED; prior passes are historical evidence.
 Availability testing is operational only; the whiteboard's scientific audit is PROPOSED, NOT AUTHORIZED.
 
-Next: G381=NT1 and G382=NT2 conditional mathematical banking is COMPLETE at the reviewed scopes.
+Next: G383--G412 exact-scope banking is COMPLETE; earlier G381=NT1/G382=NT2 banking is COMPLETE; scopes/reviews: INDEX.
 G312 membership unclosed; G352 physical-realization: physical identification remains OPEN.
 Stop for lay discussion with Charles; no new campaign is authorized; any approved work order includes checks, fresh separate-context review and bounded same-premise repair.
 <!-- STARTUP_CURRENT_END -->

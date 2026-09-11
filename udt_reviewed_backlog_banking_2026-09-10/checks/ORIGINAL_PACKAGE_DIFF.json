@@ -1,0 +1,33 @@
+{
+  "command": [
+    "git",
+    "diff",
+    "--exit-code",
+    "f5faabb43a582fec9a71c1d4a3b065efffae25bd",
+    "--",
+    "udt_berger_initial_data_preservation_campaign_2026-09-08/",
+    "udt_complementary_wave_observable_campaign_2026-09-07/",
+    "udt_directional_clock_curvature_whiteboard_2026-09-10/",
+    "udt_exact_metric_kernel_expansion_2026-09-10/",
+    "udt_g313_curvature_phase_current_candidate_2026-09-06/",
+    "udt_gr_limit_campaign_2026-09-10/",
+    "udt_gw170817_fixed_window_test_campaign_2026-09-07/",
+    "udt_gw_response_robustness_design_campaign/",
+    "udt_hopfion_bridge_stability_reassessment_2026-09-08/",
+    "udt_kernel_twist_information_audit_2026-09-10/",
+    "udt_local_clock_metric_benchmark_campaign_2026-09-07/",
+    "udt_localized_evolution_followup_2026-09-09/",
+    "udt_localized_geometry_campaign_2026-09-09/",
+    "udt_native_response_discrimination_2026-09-09/",
+    "udt_nonlinear_mode_realizability_campaign_2026-09-09/",
+    "udt_nonlinear_ripple_geometry_2026-09-09/",
+    "udt_null_clock_depth_integrability_assessment_2026-09-10/",
+    "udt_quiet_correspondence_campaign_2026-09-10/",
+    "udt_response_foundations_campaign_2026-09-10/",
+    "udt_spatial_curvature_evolution_2026-09-09/",
+    "udt_tidal_measurement_feasibility_campaign_2026-09-07/"
+  ],
+  "returncode": 0,
+  "empty_stdout": true,
+  "empty_stderr": true
+}

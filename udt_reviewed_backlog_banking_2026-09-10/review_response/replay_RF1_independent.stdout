@@ -1,0 +1,56 @@
+{
+  "arithmetic": "Fraction exact",
+  "assertion_categories": 25,
+  "checks": [
+    "polynomial_metric_symmetric",
+    "polynomial_metric_origin_lorentz_eta",
+    "radial_normal_identity",
+    "direct_curvature_matches_both_signed_blocks",
+    "direct_Ricci_nonzero_both_blocks",
+    "first_covariant_curvature_derivative_zero",
+    "second_covariant_curvature_derivative_zero",
+    "nonzero_curvature_and_tracefree_Ricci",
+    "removing_quartic_keeps_origin_curvature",
+    "normal_coefficients_weighted_1/2",
+    "direct_curvature_weighted_1/2",
+    "actual_derivatives_stay_zero_1/2",
+    "fixed_response_remainder_weight_four_1/2",
+    "normal_coefficients_weighted_1/3",
+    "direct_curvature_weighted_1/3",
+    "actual_derivatives_stay_zero_1/3",
+    "fixed_response_remainder_weight_four_1/3",
+    "normal_coefficients_weighted_1/5",
+    "direct_curvature_weighted_1/5",
+    "actual_derivatives_stay_zero_1/5",
+    "fixed_response_remainder_weight_four_1/5",
+    "reporting_boost_is_Lorentz",
+    "boosted_metric_remains_radially_normal",
+    "recomputed_boosted_curvature_covariant",
+    "boosted_second_derivative_parallel"
+  ],
+  "dropped_quartic_second_covariant_derivative": [
+    [
+      0,
+      0,
+      0,
+      1,
+      0,
+      1
+    ],
+    "32/81"
+  ],
+  "normalized_response_remainder_l1": [
+    "29/294",
+    "58/1323",
+    "58/3675"
+  ],
+  "python": "3.10.12",
+  "scope": "Finite actual polynomial metric jets; analytic proof required for all orders.",
+  "wrong_claim_probes": [
+    "omitting_R_squared_quartic_still_parallel_to_second_order",
+    "discard_nonlinear_response_1/2",
+    "discard_nonlinear_response_1/3",
+    "discard_nonlinear_response_1/5",
+    "boosted_curvature_components_unchanged"
+  ]
+}

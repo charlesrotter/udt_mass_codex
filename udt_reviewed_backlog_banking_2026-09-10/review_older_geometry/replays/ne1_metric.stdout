@@ -1,0 +1,79 @@
+{
+  "python": "3.10.12",
+  "sympy": "1.13.1",
+  "implementation": "author original diagonal metric tensor construction",
+  "script_sha256": "3f394ed0ae3761f380a89bb3ecbaffc77aaaf6e2dcb956e9110af7665120c08b",
+  "tests": [
+    "constraint_integrability",
+    "original_Ric_00",
+    "original_Ric_01",
+    "original_Ric_02",
+    "original_Ric_03",
+    "original_Ric_10",
+    "original_Ric_11",
+    "original_Ric_12",
+    "original_Ric_13",
+    "original_Ric_20",
+    "original_Ric_21",
+    "original_Ric_22",
+    "original_Ric_23",
+    "original_Ric_30",
+    "original_Ric_31",
+    "original_Ric_32",
+    "original_Ric_33",
+    "original_Riemann_transverse_difference",
+    "Ricci_trace_tidal",
+    "volume_expansion",
+    "initial_gamma_0",
+    "initial_gamma_1",
+    "initial_gamma_2",
+    "initial_K_0",
+    "initial_K_1",
+    "initial_K_2",
+    "initial_Hamiltonian",
+    "initial_momentum_X",
+    "initial_momentum_y",
+    "initial_momentum_z",
+    "mutant_fixed_background_a_rejected_by_original_Ric00",
+    "mutant_omitted_quadratic_K_completion_rejected_by_H"
+  ],
+  "count": 32,
+  "metric_shape": [
+    4,
+    4
+  ],
+  "Ricci_original": [
+    [
+      "-Derivative(a(t, x), (t, 2)) + Derivative(a(t, x), (x, 2)) - Derivative(p(t, x), t)**2/2 + Derivative(a(t, x), t)/t + 1/(2*t**2)",
+      "-Derivative(p(t, x), t)*Derivative(p(t, x), x)/2 + Derivative(a(t, x), x)/t",
+      "0",
+      "0"
+    ],
+    [
+      "-Derivative(p(t, x), t)*Derivative(p(t, x), x)/2 + Derivative(a(t, x), x)/t",
+      "Derivative(a(t, x), (t, 2)) - Derivative(a(t, x), (x, 2)) - Derivative(p(t, x), x)**2/2 + Derivative(a(t, x), t)/t",
+      "0",
+      "0"
+    ],
+    [
+      "0",
+      "0",
+      "(t*Derivative(p(t, x), (t, 2)) - t*Derivative(p(t, x), (x, 2)) + Derivative(p(t, x), t))*exp(-2*a(t, x) + p(t, x))/2",
+      "0"
+    ],
+    [
+      "0",
+      "0",
+      "0",
+      "(-t*Derivative(p(t, x), (t, 2)) + t*Derivative(p(t, x), (x, 2)) - Derivative(p(t, x), t))*exp(-2*a(t, x) - p(t, x))/2"
+    ]
+  ],
+  "tidal_delta_divided_by_Z": "t*Derivative(p(t, x), t)**3/4 + 3*t*Derivative(p(t, x), t)*Derivative(p(t, x), x)**2/4 - Derivative(p(t, x), (x, 2)) - Derivative(p(t, x), t)/(4*t)",
+  "fixed_background_a_Ric00": "-Derivative(p(t, x), t)**2/2",
+  "mutant_sample": "-1/32",
+  "initial_K": [
+    "-3*e**2*cos(X*m)**2/4 + 1/3",
+    "-e*cos(X*m) - 2/3",
+    "e*cos(X*m) - 2/3"
+  ]
+}

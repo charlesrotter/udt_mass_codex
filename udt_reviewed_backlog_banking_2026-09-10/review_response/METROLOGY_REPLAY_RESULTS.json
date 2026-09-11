@@ -1,0 +1,372 @@
+{
+  "completed_utc": "2026-09-11T00:10:25.847612+00:00",
+  "plan_sha256": "f91487f04f448c0ee79e89f654a00f663ed4b6f78fe25a26d4e80de5550a8eb1",
+  "thread_environment": {
+    "OPENBLAS_NUM_THREADS": "1",
+    "OMP_NUM_THREADS": "1",
+    "MKL_NUM_THREADS": "1",
+    "NUMEXPR_NUM_THREADS": "1",
+    "VECLIB_MAXIMUM_THREADS": "1"
+  },
+  "results": [
+    {
+      "name": "TM1",
+      "launch_argv": [
+        "/usr/bin/python3",
+        "-B",
+        "/home/udt-admin/udt_mass_codex/udt_reviewed_backlog_banking_2026-09-10/capture_existing.py",
+        "/home/udt-admin/udt_mass_codex/udt_reviewed_backlog_banking_2026-09-10/review_response/replay_added_TM1",
+        "120",
+        "512",
+        "python3",
+        "-B",
+        "udt_tidal_measurement_feasibility_campaign_2026-09-07/step_01/review/direct_exact.py"
+      ],
+      "launch_returncode": 0,
+      "receipt": {
+        "command": [
+          "python3",
+          "-B",
+          "udt_tidal_measurement_feasibility_campaign_2026-09-07/step_01/review/direct_exact.py"
+        ],
+        "cwd": "/home/udt-admin/udt_mass_codex",
+        "started_utc": "2026-09-11T00:10:24.755624+00:00",
+        "duration_seconds": 0.02163301402470097,
+        "returncode": 0,
+        "timeout": false,
+        "address_space_bytes": 536870912,
+        "cpu_seconds": 120,
+        "maxrss_kib": 11904
+      },
+      "comparison": {
+        ".stdout": {
+          "exists": true,
+          "sha256": "34eb4b28e13b507174d586ec1899b0602d7dda46edb7667ceee14232b7212682",
+          "saved_sha256": "34eb4b28e13b507174d586ec1899b0602d7dda46edb7667ceee14232b7212682",
+          "byte_identical": true
+        },
+        ".stderr": {
+          "exists": true,
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "saved_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "byte_identical": true
+        }
+      }
+    },
+    {
+      "name": "TM1_repair",
+      "launch_argv": [
+        "/usr/bin/python3",
+        "-B",
+        "/home/udt-admin/udt_mass_codex/udt_reviewed_backlog_banking_2026-09-10/capture_existing.py",
+        "/home/udt-admin/udt_mass_codex/udt_reviewed_backlog_banking_2026-09-10/review_response/replay_added_TM1_repair",
+        "120",
+        "512",
+        "python3",
+        "-B",
+        "udt_tidal_measurement_feasibility_campaign_2026-09-07/step_01/review/focused_auth.py"
+      ],
+      "launch_returncode": 0,
+      "receipt": {
+        "command": [
+          "python3",
+          "-B",
+          "udt_tidal_measurement_feasibility_campaign_2026-09-07/step_01/review/focused_auth.py"
+        ],
+        "cwd": "/home/udt-admin/udt_mass_codex",
+        "started_utc": "2026-09-11T00:10:24.796945+00:00",
+        "duration_seconds": 0.01563931704731658,
+        "returncode": 0,
+        "timeout": false,
+        "address_space_bytes": 536870912,
+        "cpu_seconds": 120,
+        "maxrss_kib": 14016
+      },
+      "comparison": {
+        ".stdout": {
+          "exists": true,
+          "sha256": "a8e6dd9032eff803739b5cc4e452c8b74e3d2166fa938af0f7e044c802b03f7d",
+          "saved_sha256": "a8e6dd9032eff803739b5cc4e452c8b74e3d2166fa938af0f7e044c802b03f7d",
+          "byte_identical": true
+        },
+        ".stderr": {
+          "exists": true,
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "saved_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "byte_identical": true
+        }
+      }
+    },
+    {
+      "name": "TM2_source",
+      "launch_argv": [
+        "/usr/bin/python3",
+        "-B",
+        "/home/udt-admin/udt_mass_codex/udt_reviewed_backlog_banking_2026-09-10/capture_existing.py",
+        "/home/udt-admin/udt_mass_codex/udt_reviewed_backlog_banking_2026-09-10/review_response/replay_added_TM2_source",
+        "120",
+        "512",
+        "python3",
+        "-B",
+        "udt_tidal_measurement_feasibility_campaign_2026-09-07/step_02/review/stage_a_exact.py"
+      ],
+      "launch_returncode": 0,
+      "receipt": {
+        "command": [
+          "python3",
+          "-B",
+          "udt_tidal_measurement_feasibility_campaign_2026-09-07/step_02/review/stage_a_exact.py"
+        ],
+        "cwd": "/home/udt-admin/udt_mass_codex",
+        "started_utc": "2026-09-11T00:10:24.833002+00:00",
+        "duration_seconds": 0.030801824002992362,
+        "returncode": 0,
+        "timeout": false,
+        "address_space_bytes": 536870912,
+        "cpu_seconds": 120,
+        "maxrss_kib": 12480
+      },
+      "comparison": {
+        ".stdout": {
+          "exists": true,
+          "sha256": "394a6a629487207dac2bb3d23269e3d77a074023316e777dd42d4442b288e476",
+          "saved_sha256": "394a6a629487207dac2bb3d23269e3d77a074023316e777dd42d4442b288e476",
+          "byte_identical": true
+        },
+        ".stderr": {
+          "exists": true,
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "saved_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "byte_identical": true
+        }
+      }
+    },
+    {
+      "name": "TM2_author",
+      "launch_argv": [
+        "/usr/bin/python3",
+        "-B",
+        "/home/udt-admin/udt_mass_codex/udt_reviewed_backlog_banking_2026-09-10/capture_existing.py",
+        "/home/udt-admin/udt_mass_codex/udt_reviewed_backlog_banking_2026-09-10/review_response/replay_added_TM2_author",
+        "120",
+        "512",
+        "python3",
+        "-B",
+        "udt_tidal_measurement_feasibility_campaign_2026-09-07/step_02/check_designs.py"
+      ],
+      "launch_returncode": 0,
+      "receipt": {
+        "command": [
+          "python3",
+          "-B",
+          "udt_tidal_measurement_feasibility_campaign_2026-09-07/step_02/check_designs.py"
+        ],
+        "cwd": "/home/udt-admin/udt_mass_codex",
+        "started_utc": "2026-09-11T00:10:24.881990+00:00",
+        "duration_seconds": 0.16602430801140144,
+        "returncode": 0,
+        "timeout": false,
+        "address_space_bytes": 536870912,
+        "cpu_seconds": 120,
+        "maxrss_kib": 44152
+      },
+      "comparison": {
+        ".stdout": {
+          "exists": true,
+          "sha256": "0088ae68497553cf6deffd0fa54d15da77c60fc67904576ff0d0a14b7cfe1e65",
+          "saved_sha256": "0088ae68497553cf6deffd0fa54d15da77c60fc67904576ff0d0a14b7cfe1e65",
+          "byte_identical": true
+        },
+        ".stderr": {
+          "exists": true,
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "saved_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "byte_identical": true
+        }
+      }
+    },
+    {
+      "name": "CO1",
+      "launch_argv": [
+        "/usr/bin/python3",
+        "-B",
+        "/home/udt-admin/udt_mass_codex/udt_reviewed_backlog_banking_2026-09-10/capture_existing.py",
+        "/home/udt-admin/udt_mass_codex/udt_reviewed_backlog_banking_2026-09-10/review_response/replay_added_CO1",
+        "120",
+        "512",
+        "python3",
+        "-B",
+        "udt_complementary_wave_observable_campaign_2026-09-07/step_01/review/independent_checks.py"
+      ],
+      "launch_returncode": 0,
+      "receipt": {
+        "command": [
+          "python3",
+          "-B",
+          "udt_complementary_wave_observable_campaign_2026-09-07/step_01/review/independent_checks.py"
+        ],
+        "cwd": "/home/udt-admin/udt_mass_codex",
+        "started_utc": "2026-09-11T00:10:25.068889+00:00",
+        "duration_seconds": 0.018154777004383504,
+        "returncode": 0,
+        "timeout": false,
+        "address_space_bytes": 536870912,
+        "cpu_seconds": 120,
+        "maxrss_kib": 11520
+      },
+      "comparison": {
+        ".stdout": {
+          "exists": true,
+          "sha256": "5f5874c58ba9268ebba8fca427b317554e3aaf39bdc3b1ef56d507d54378cc7b",
+          "saved_sha256": "5f5874c58ba9268ebba8fca427b317554e3aaf39bdc3b1ef56d507d54378cc7b",
+          "byte_identical": true
+        },
+        ".stderr": {
+          "exists": true,
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "saved_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "byte_identical": true
+        }
+      }
+    },
+    {
+      "name": "CO1_ppwave",
+      "launch_argv": [
+        "/usr/bin/python3",
+        "-B",
+        "/home/udt-admin/udt_mass_codex/udt_reviewed_backlog_banking_2026-09-10/capture_existing.py",
+        "/home/udt-admin/udt_mass_codex/udt_reviewed_backlog_banking_2026-09-10/review_response/replay_added_CO1_ppwave",
+        "120",
+        "512",
+        "python3",
+        "-B",
+        "udt_complementary_wave_observable_campaign_2026-09-07/step_01/review/independent_ppwave.py"
+      ],
+      "launch_returncode": 0,
+      "receipt": {
+        "command": [
+          "python3",
+          "-B",
+          "udt_complementary_wave_observable_campaign_2026-09-07/step_01/review/independent_ppwave.py"
+        ],
+        "cwd": "/home/udt-admin/udt_mass_codex",
+        "started_utc": "2026-09-11T00:10:25.105827+00:00",
+        "duration_seconds": 0.307127543957904,
+        "returncode": 0,
+        "timeout": false,
+        "address_space_bytes": 536870912,
+        "cpu_seconds": 120,
+        "maxrss_kib": 11136
+      },
+      "comparison": {
+        ".stdout": {
+          "exists": true,
+          "sha256": "918c002ebe200e405f13114eeccedc00e388134139d74101e1231a99d7fa1279",
+          "saved_sha256": "918c002ebe200e405f13114eeccedc00e388134139d74101e1231a99d7fa1279",
+          "byte_identical": true
+        },
+        ".stderr": {
+          "exists": true,
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "saved_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "byte_identical": true
+        }
+      }
+    },
+    {
+      "name": "CO1_repair",
+      "launch_argv": [
+        "/usr/bin/python3",
+        "-B",
+        "/home/udt-admin/udt_mass_codex/udt_reviewed_backlog_banking_2026-09-10/capture_existing.py",
+        "/home/udt-admin/udt_mass_codex/udt_reviewed_backlog_banking_2026-09-10/review_response/replay_added_CO1_repair",
+        "120",
+        "512",
+        "python3",
+        "-B",
+        "udt_complementary_wave_observable_campaign_2026-09-07/step_01/review/focused_rereview.py"
+      ],
+      "launch_returncode": 0,
+      "receipt": {
+        "command": [
+          "python3",
+          "-B",
+          "udt_complementary_wave_observable_campaign_2026-09-07/step_01/review/focused_rereview.py"
+        ],
+        "cwd": "/home/udt-admin/udt_mass_codex",
+        "started_utc": "2026-09-11T00:10:25.434443+00:00",
+        "duration_seconds": 0.3642041770508513,
+        "returncode": 0,
+        "timeout": false,
+        "address_space_bytes": 536870912,
+        "cpu_seconds": 120,
+        "maxrss_kib": 51448
+      },
+      "comparison": {
+        ".stdout": {
+          "exists": true,
+          "sha256": "217941036f6b6c8c9a40b16e0949b8943216520e57703cfe6c3d974ec3c7dd8d",
+          "saved_sha256": "217941036f6b6c8c9a40b16e0949b8943216520e57703cfe6c3d974ec3c7dd8d",
+          "byte_identical": true
+        },
+        ".stderr": {
+          "exists": true,
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "saved_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "byte_identical": true
+        }
+      }
+    },
+    {
+      "name": "CO2",
+      "launch_argv": [
+        "/usr/bin/python3",
+        "-B",
+        "/home/udt-admin/udt_mass_codex/udt_reviewed_backlog_banking_2026-09-10/capture_existing.py",
+        "/home/udt-admin/udt_mass_codex/udt_reviewed_backlog_banking_2026-09-10/review_response/replay_added_CO2",
+        "120",
+        "512",
+        "python3",
+        "-B",
+        "udt_complementary_wave_observable_campaign_2026-09-07/step_02/review/independent_geometry.py",
+        "udt_complementary_wave_observable_campaign_2026-09-07/step_02/design_run.stdout",
+        "udt_complementary_wave_observable_campaign_2026-09-07/step_02/design_inputs.json",
+        "udt_reviewed_backlog_banking_2026-09-10/review_response/CO2_LALDetectors_source.h"
+      ],
+      "launch_returncode": 0,
+      "receipt": {
+        "command": [
+          "python3",
+          "-B",
+          "udt_complementary_wave_observable_campaign_2026-09-07/step_02/review/independent_geometry.py",
+          "udt_complementary_wave_observable_campaign_2026-09-07/step_02/design_run.stdout",
+          "udt_complementary_wave_observable_campaign_2026-09-07/step_02/design_inputs.json",
+          "udt_reviewed_backlog_banking_2026-09-10/review_response/CO2_LALDetectors_source.h"
+        ],
+        "cwd": "/home/udt-admin/udt_mass_codex",
+        "started_utc": "2026-09-11T00:10:25.820265+00:00",
+        "duration_seconds": 0.023596729966811836,
+        "returncode": 0,
+        "timeout": false,
+        "address_space_bytes": 536870912,
+        "cpu_seconds": 120,
+        "maxrss_kib": 15552
+      },
+      "comparison": {
+        ".stdout": {
+          "exists": true,
+          "sha256": "36f1af313cff6cd7d67c1540c2e900d7cbe23ae5b36a548ea651321d713c7dee",
+          "saved_sha256": "c2a0aaf6364664f3b389568215f63a0795c06557318272c4cd009aed6742b21c",
+          "byte_identical": false
+        },
+        ".stderr": {
+          "exists": true,
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "saved_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "byte_identical": true
+        }
+      }
+    }
+  ],
+  "all_pass": false
+}

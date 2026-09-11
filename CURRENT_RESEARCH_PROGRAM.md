@@ -2,7 +2,7 @@
 
 Date: 2026-09-10
 
-`LIVE.md` controls status; exact 365-row `CURRENT_SCIENTIFIC_PREMISES.tsv` controls ownership.
+`LIVE.md` controls status; exact 395-row `CURRENT_SCIENTIFIC_PREMISES.tsv` controls ownership.
 
 ## Architecture
 
@@ -27,7 +27,7 @@ GR is FILTER ONLY, not a response-law input; Local Metric Sufficiency remains ow
 Inherited G312 “admitted/lawful” Einstein claims are CONDITIONAL on full reviewed premises,
 not established from filter-only GR. The existing membership route is unclosed, not disproved:
 `udt_gr_filter_reconciliation_2026-09-09/AUTHORITY_RECORD.md`. Exact grades/math remain unchanged.
-Full365 PASS; maintenance evidence: INDEX. No scientific promotion.
+G383--G412 exact-scope banking COMPLETE; checks/reviews: INDEX.
 Population, realized history, matter, absolute scale and `X_max` remain unselected.
 
 ## Dependency spine
@@ -89,19 +89,18 @@ even allowing smooth deformation, in the supplied marked nonround/local-developm
 Preserving examples remain; no genericity, topology change, physical instability or UDT failure.
 The automatic Hopfion-stabilization mechanism is PAUSED; no rescue carrier/action/restriction.
 CF2 buffers are LOST, not preserved or recovered; all source review limits remain controlling.
-HB2/HB3 and BI2/BI3 remain UNPROMOTED; G376 banked only the required BI1 predecessor.
+G384--G387 bank HB2/HB3/BI2/BI3 conditionally; G376 remains BI1.
 
 G381=NT1/G382=NT2 conditional banking is COMPLETE, with dependency G381 before G382.
-Full four-slot connection correction and finite first-jet limits remain; the restricted NONZERO REAL
-rank-one classification in all constant-Lambda sectors differs from actual smooth LOCAL Lambda=0
-realization. Free profiles, supplied future frame/slice and lost-buffer/unsnapshotted-code caveats remain.
+Retain full connection corrections, restricted real null-jet class, local Lambda=0 realization,
+free profiles and lost-evidence caveats.
 `INDEX.md` links exact banking and original evidence.
 
-NR1--NR2/LG1--LG2/LE1/SE1/NE1: reviewed UNPROMOTED; INDEX owns scopes/reviews.
-NE1: profile decay with cumulative marked-area/tidal departure; exact polarized family.
-No genericity/stability/content.
-ND1/ND2/QC1/QC2/GL1/GL2/RF1: reviewed UNPROMOTED.
-Roadmap: `UDT_RESEARCH_ROADMAP.md`.
+G383--G394: original curvature recipe, HB/BI and nonlinear/localized geometry.
+G395--G401: conditional response/correspondence; G402--G405: null-clock/curvature/kernel expansion.
+G406--G410: conditional measurement mathematics and G409=CO2 design control.
+G411=LC2: published-summary benchmark; G412=FW2: failed finite procedure, not a metric constraint.
+Whole original reviews/caveats control; roadmap: `UDT_RESEARCH_ROADMAP.md`.
 
 Geometric theory/calibration and possible emergence remain parallel, neither prerequisite.
 Explicit justified transfer/instrument assumptions can support conditional measurements;
@@ -113,6 +112,6 @@ Backup completeness/pre-reboot unsaved state remain UNVERIFIED; ScratchDisk is a
 
 ## Current next gate
 
-G381=NT1 and G382=NT2 conditional mathematical banking is COMPLETE at the reviewed scopes.
+G383--G412 exact-scope banking is COMPLETE; earlier G381=NT1/G382=NT2 banking is COMPLETE; scopes/reviews: INDEX.
 G312 membership unclosed; G352 physical-realization: physical identification remains OPEN.
 Stop for lay discussion with Charles; no new campaign is authorized; any approved work order includes checks, fresh separate-context review and bounded same-premise repair.

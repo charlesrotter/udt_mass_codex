@@ -1,0 +1,47 @@
+{
+  "label": "hb3_author",
+  "script": "udt_hopfion_bridge_stability_reassessment_2026-09-08/step_03/check_orbits.py",
+  "saved_stdout": "udt_hopfion_bridge_stability_reassessment_2026-09-08/step_03/author_check_final_pin.stdout",
+  "kind": "original-author-regression",
+  "script_sha256": "57a152c36e90fbd091acba80b21905088df293c3def2b61077d05ae96c5c843b",
+  "saved_stdout_sha256": "61041abca88c827ef5ae38b340295b55caeee0a00ba41bc16257764c26e0a0c1",
+  "launcher_argv": [
+    "/usr/bin/python3",
+    "-B",
+    "/home/udt-admin/udt_mass_codex/udt_shared_readout_metric_constraint_campaign_2026-09-06/run_capture.py",
+    "/home/udt-admin/udt_mass_codex/udt_reviewed_backlog_banking_2026-09-10/review_older_geometry/replays/hb3_author",
+    "/home/udt-admin/udt_mass_codex",
+    "/usr/bin/python3",
+    "-B",
+    "/home/udt-admin/udt_mass_codex/udt_hopfion_bridge_stability_reassessment_2026-09-08/step_03/check_orbits.py"
+  ],
+  "launcher_returncode": 0,
+  "capture_sha256": "8ff5469ace76bdfc84188915242abbf3baff35516f9ee3f9ba4b1cbfeb2573ef",
+  "thread_environment": {
+    "OMP_NUM_THREADS": "1",
+    "OPENBLAS_NUM_THREADS": "1",
+    "MKL_NUM_THREADS": "1"
+  },
+  "dont_write_bytecode": true,
+  "python": "3.10.12 (main, Aug 31 2026, 10:18:17) [GCC 11.4.0]",
+  "platform": "Linux-6.8.0-138-generic-x86_64-with-glibc2.35",
+  "receipt": {
+    "command": [
+      "/usr/bin/python3",
+      "-B",
+      "/home/udt-admin/udt_mass_codex/udt_hopfion_bridge_stability_reassessment_2026-09-08/step_03/check_orbits.py"
+    ],
+    "cwd": "/home/udt-admin/udt_mass_codex",
+    "started_utc": "2026-09-11T00:03:57.077389+00:00",
+    "duration_seconds": 0.40272254502633587,
+    "returncode": 0,
+    "timeout": false,
+    "address_space_bytes": 536870912,
+    "cpu_seconds": 60,
+    "maxrss_kib": 49832
+  },
+  "stdout_sha256": "547816aecb4a61732c0a56d3dc58266c70cc4159d062ad60b92cac62aef14d9d",
+  "stdout_byte_identical": false,
+  "script_unchanged": true,
+  "saved_output_unchanged": true
+}

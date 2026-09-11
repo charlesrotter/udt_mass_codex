@@ -1,0 +1,177 @@
+{
+  "frozen_utc": "2026-09-11T00:02:41.928175+00:00",
+  "head": "f5faabb43a582fec9a71c1d4a3b065efffae25bd",
+  "limits": {
+    "seconds": 120,
+    "mib": 512
+  },
+  "thread_environment": {
+    "OPENBLAS_NUM_THREADS": "1",
+    "OMP_NUM_THREADS": "1",
+    "MKL_NUM_THREADS": "1",
+    "NUMEXPR_NUM_THREADS": "1",
+    "VECLIB_MAXIMUM_THREADS": "1"
+  },
+  "runs": [
+    {
+      "name": "ND1",
+      "script": "udt_native_response_discrimination_2026-09-09/step_01/review/independent_tensor_check.py",
+      "script_sha256": "6a3228db7b9e652dc158d47b08531d53dbc7cd70a169a38d82d9e484abdd172d",
+      "argv": [
+        "python3",
+        "-B",
+        "udt_native_response_discrimination_2026-09-09/step_01/review/independent_tensor_check.py"
+      ],
+      "saved_stem": "udt_native_response_discrimination_2026-09-09/step_01/review/independent_tensor_run",
+      "saved_sha256": {
+        ".stdout": "e4f66260864513578341fd441b9485eb38fcf93ebc0c90edbd6bce099ba3f897",
+        ".stderr": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        ".json": "eb1d40033df7a78a70c6c198d5c17101632eee9d14a36db0da01d6ffab90ed8d"
+      }
+    },
+    {
+      "name": "ND2",
+      "script": "udt_native_response_discrimination_2026-09-09/step_02/review/independent_variation_check.py",
+      "script_sha256": "e82686f2ea54a328184ec2ec7a22414b9b547ead6882076b36d751b6e6acdeee",
+      "argv": [
+        "python3",
+        "-B",
+        "udt_native_response_discrimination_2026-09-09/step_02/review/independent_variation_check.py"
+      ],
+      "saved_stem": "udt_native_response_discrimination_2026-09-09/step_02/review/independent_variation_run",
+      "saved_sha256": {
+        ".stdout": "0f61609348e0c4eea19afb3fa0f3b3e096054803c223d317e181cfddd6ec7cd5",
+        ".stderr": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        ".json": "34f17a110236d6920fad866349247e931197388d85e30e48fbca69f55b958c07"
+      }
+    },
+    {
+      "name": "QC1_symbolic",
+      "script": "udt_quiet_correspondence_campaign_2026-09-10/step_01/review/independent_check.py",
+      "script_sha256": "177bef92163627f79159df6b7df5cf4b071423ce5e34cc0bdf4eeaa5c00dd9db",
+      "argv": [
+        "python3",
+        "-B",
+        "udt_quiet_correspondence_campaign_2026-09-10/step_01/review/independent_check.py"
+      ],
+      "saved_stem": "udt_quiet_correspondence_campaign_2026-09-10/step_01/review/independent_check_run",
+      "saved_sha256": {
+        ".stdout": "0c8bb6cc3eae298c7e147be6948f7406f5b38572402e3fa3cda6948c3f9029f6",
+        ".stderr": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        ".json": "f5c7722f3f1ccaf3699f2e28820b2cd79a08cdff38e3de6f3098d2c9cf12be2f"
+      }
+    },
+    {
+      "name": "QC1_readout",
+      "script": "udt_quiet_correspondence_campaign_2026-09-10/step_01/review/rational_readout_check.py",
+      "script_sha256": "2a47d878bc1881c45b02f70642eb11fd5c7d090361b9cd88922f85a14ff3219d",
+      "argv": [
+        "python3",
+        "-B",
+        "udt_quiet_correspondence_campaign_2026-09-10/step_01/review/rational_readout_check.py"
+      ],
+      "saved_stem": "udt_quiet_correspondence_campaign_2026-09-10/step_01/review/rational_readout_run",
+      "saved_sha256": {
+        ".stdout": "e75474a8a18b6e7fd39fda5c8eb0d8d287c6af89cc39c306dcbe905ebcbadab4",
+        ".stderr": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        ".json": "981634e1fbb61176b43d097b268f522863e6af9129022b1ca459f8f20fd733ef"
+      }
+    },
+    {
+      "name": "QC2",
+      "script": "udt_quiet_correspondence_campaign_2026-09-10/step_02/review/symbolic_direct_check.py",
+      "script_sha256": "94fcd3e74f95b1bbb83e10127f7298b6404cedb58d2c999c08add1dd9237464f",
+      "argv": [
+        "python3",
+        "-B",
+        "udt_quiet_correspondence_campaign_2026-09-10/step_02/review/symbolic_direct_check.py"
+      ],
+      "saved_stem": "udt_quiet_correspondence_campaign_2026-09-10/step_02/review/symbolic_direct_run",
+      "saved_sha256": {
+        ".stdout": "33147f20140785d3fd5697c79cc6801a4d3c52941490272c66ca80661d09335d",
+        ".stderr": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        ".json": "02b1d5f94816184650ba331f613e12f92902c87c4603b8017e0e7c98bb711f91"
+      }
+    },
+    {
+      "name": "GL1",
+      "script": "udt_gr_limit_campaign_2026-09-10/step_01/review/independent_contraction_check.py",
+      "script_sha256": "75e8b5b6a2f8e6d70f1ac08ba61ccb958b8777be02081aadaad2714971a28210",
+      "argv": [
+        "python3",
+        "-B",
+        "udt_gr_limit_campaign_2026-09-10/step_01/review/independent_contraction_check.py"
+      ],
+      "saved_stem": "udt_gr_limit_campaign_2026-09-10/step_01/review/independent_checks",
+      "saved_sha256": {
+        ".stdout": "da9d2ee544c7f86e00f109caf9de139f9d3b1bcf39f60e26842bff01fca88974",
+        ".stderr": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        ".json": "c4baabd1205b3c333e3ba1cb9fe1050f8141d34726631a15a8ea2a79fe199baf"
+      }
+    },
+    {
+      "name": "GL2",
+      "script": "udt_gr_limit_campaign_2026-09-10/step_02/review/independent_geometry_check.py",
+      "script_sha256": "f9fec5d7f9c2ecdc1e04cf74dd799e04ff81b31e0e66a317724b69981fc4fea8",
+      "argv": [
+        "python3",
+        "-B",
+        "udt_gr_limit_campaign_2026-09-10/step_02/review/independent_geometry_check.py"
+      ],
+      "saved_stem": "udt_gr_limit_campaign_2026-09-10/step_02/review/independent_geometry_check",
+      "saved_sha256": {
+        ".stdout": "87ab7ae479ceb8831110da7f5d85c18931c9efaf13b18c701e9d4917768367b0",
+        ".stderr": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        ".json": "ab55f0fd330a75934d6c7388cb9e8cbabdea766fdfbf5b5c9463a619588b9eac"
+      }
+    },
+    {
+      "name": "RF1_author",
+      "script": "udt_response_foundations_campaign_2026-09-10/author_check.py",
+      "script_sha256": "ea26fd8189952de33af80b987f8d131f7770f505528875f636819d97c382423d",
+      "argv": [
+        "python3",
+        "-B",
+        "udt_response_foundations_campaign_2026-09-10/author_check.py"
+      ],
+      "saved_stem": "udt_response_foundations_campaign_2026-09-10/author_checks",
+      "saved_sha256": {
+        ".stdout": "57eaeb93a34269e0263698300bca17caaef94c22f2c8bb41837d19ff748da760",
+        ".stderr": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        ".json": "7c26f5d8aba51930f531c48934de305eaafe8336a9b9571aed9df069487203a7"
+      }
+    },
+    {
+      "name": "RF1_independent",
+      "script": "udt_response_foundations_campaign_2026-09-10/review/independent_normal_metric_check.py",
+      "script_sha256": "664b999986835547cf5c086921d4b4538688a9ab333d82b7d9e033f1f01fc7ae",
+      "argv": [
+        "python3",
+        "-B",
+        "udt_response_foundations_campaign_2026-09-10/review/independent_normal_metric_check.py"
+      ],
+      "saved_stem": "udt_response_foundations_campaign_2026-09-10/review/independent_normal_metric_check_repaired",
+      "saved_sha256": {
+        ".stdout": "3541273eb0d8e5244fb0d7bef316faa34c5d7a8952cc7c1f487554b90c525bb7",
+        ".stderr": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        ".json": "592b1201e3c2b730a3deaab7f71814fd09236407ca065d8e144fe04bdab193a0"
+      }
+    },
+    {
+      "name": "RF1_repair",
+      "script": "udt_response_foundations_campaign_2026-09-10/focused_repair_check.py",
+      "script_sha256": "458470db08f3eb3f495c50a46141aea41aed1e4740011ad2e171f30a2d1bce4e",
+      "argv": [
+        "python3",
+        "-B",
+        "udt_response_foundations_campaign_2026-09-10/focused_repair_check.py"
+      ],
+      "saved_stem": "udt_response_foundations_campaign_2026-09-10/focused_repair_check",
+      "saved_sha256": {
+        ".stdout": "d66cf1e60686f6363f4ce6ec5b507b4b08cd230f718341dabf7ba5b8783f7698",
+        ".stderr": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        ".json": "2f2bae519631a3ad359be8e17dab27aada10bc01c49730dd5c93f034bac8e634"
+      }
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "command": [
+    "/usr/bin/python3",
+    "-B",
+    "/home/udt-admin/udt_mass_codex/udt_g313_curvature_phase_current_candidate_2026-09-06/replay_2026-09-06/portable_saved_artifact_replay.py",
+    "--review-dir",
+    "/home/udt-admin/udt_mass_codex/udt_g313_curvature_phase_current_candidate_2026-09-06/review_2026-09-06",
+    "--candidate-dir",
+    "/home/udt-admin/udt_mass_codex/udt_g313_curvature_phase_current_candidate_2026-09-06"
+  ],
+  "cwd": "/home/udt-admin/udt_mass_codex",
+  "started_utc": "2026-09-11T00:09:48.268441+00:00",
+  "duration_seconds": 6.109493563999422,
+  "returncode": 0,
+  "timeout": false,
+  "address_space_bytes": 536870912,
+  "cpu_seconds": 60,
+  "maxrss_kib": 52612
+}
