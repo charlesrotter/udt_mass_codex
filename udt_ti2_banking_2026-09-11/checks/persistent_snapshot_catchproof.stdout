@@ -1,0 +1,587 @@
+FFFFFFFFFFF..                                                            [100%]
+=================================== FAILURES ===================================
+_ test_historical_guard_never_rereads_a_substituted_registry[validate_conditional_banking] _
+
+monkeypatch = <_pytest.monkeypatch.MonkeyPatch object at 0x7a8a021a4040>
+name = 'validate_conditional_banking'
+
+    @pytest.mark.parametrize("name", [
+        "validate_conditional_banking", "validate_shared_constraint_banking",
+        "validate_persistence_banking", "validate_restrictiveness_banking",
+        "validate_source_metric_banking", "validate_reconstruction_banking",
+        "validate_coupled_banking", "validate_vacuum_scale_banking",
+        "validate_berger_banking", "validate_closed_fibre_banking",
+        "validate_neighboring_tidal_banking", "validate_reviewed_backlog_banking",
+        "validate_ti1_banking",
+    ])
+    def test_historical_guard_never_rereads_a_substituted_registry(monkeypatch, name):
+        import verify_current_scientific_premises as historical
+        original = Path.read_bytes
+        target = REPO / "CURRENT_SCIENTIFIC_PREMISES.tsv"
+        reads = []
+        def read(path):
+            raw = original(path)
+            if path == target:
+                reads.append(path)
+                if len(reads) > 1:
+                    lines = raw.splitlines(keepends=True)
+                    i = next(i for i,line in enumerate(lines) if line.startswith(b"G414\t"))
+                    lines[i] = lines[i].replace(b"NOT_PHYSICAL_ADOPTION", b"PHYSICAL_LAW_ADOPTED", 1)
+                    return b"".join(lines)
+            return raw
+        original_read_tsv = historical.read_tsv
+        def read_rows(path):
+            # The original defective second read used Path.open through read_tsv.
+            # Count that API too: watching only read_bytes would miss the real defect.
+            if path == target:
+                import csv
+                reads.append(path)
+                raw = original(path)
+                if len(reads) > 1:
+                    lines = raw.splitlines(keepends=True)
+                    i = next(i for i,line in enumerate(lines) if line.startswith(b"G414\t"))
+                    lines[i] = lines[i].replace(b"NOT_PHYSICAL_ADOPTION", b"PHYSICAL_LAW_ADOPTED", 1)
+                    raw = b"".join(lines)
+                return list(csv.DictReader(raw.decode().splitlines(), delimiter="\t"))
+            return original_read_tsv(path)
+        monkeypatch.setattr(Path, "read_bytes", read)
+        monkeypatch.setattr(historical, "read_tsv", read_rows)
+        getattr(historical, name)(REPO, authenticate_sources=False)
+>       assert len(reads) == 1
+E       AssertionError: assert 2 == 1
+E        +  where 2 = len([PosixPath('/home/udt-admin/udt_mass_codex/CURRENT_SCIENTIFIC_PREMISES.tsv'), PosixPath('/home/udt-admin/udt_mass_codex/CURRENT_SCIENTIFIC_PREMISES.tsv')])
+
+tests/test_ti2_banking.py:178: AssertionError
+_ test_historical_guard_never_rereads_a_substituted_registry[validate_shared_constraint_banking] _
+
+monkeypatch = <_pytest.monkeypatch.MonkeyPatch object at 0x7a8a01847250>
+name = 'validate_shared_constraint_banking'
+
+    @pytest.mark.parametrize("name", [
+        "validate_conditional_banking", "validate_shared_constraint_banking",
+        "validate_persistence_banking", "validate_restrictiveness_banking",
+        "validate_source_metric_banking", "validate_reconstruction_banking",
+        "validate_coupled_banking", "validate_vacuum_scale_banking",
+        "validate_berger_banking", "validate_closed_fibre_banking",
+        "validate_neighboring_tidal_banking", "validate_reviewed_backlog_banking",
+        "validate_ti1_banking",
+    ])
+    def test_historical_guard_never_rereads_a_substituted_registry(monkeypatch, name):
+        import verify_current_scientific_premises as historical
+        original = Path.read_bytes
+        target = REPO / "CURRENT_SCIENTIFIC_PREMISES.tsv"
+        reads = []
+        def read(path):
+            raw = original(path)
+            if path == target:
+                reads.append(path)
+                if len(reads) > 1:
+                    lines = raw.splitlines(keepends=True)
+                    i = next(i for i,line in enumerate(lines) if line.startswith(b"G414\t"))
+                    lines[i] = lines[i].replace(b"NOT_PHYSICAL_ADOPTION", b"PHYSICAL_LAW_ADOPTED", 1)
+                    return b"".join(lines)
+            return raw
+        original_read_tsv = historical.read_tsv
+        def read_rows(path):
+            # The original defective second read used Path.open through read_tsv.
+            # Count that API too: watching only read_bytes would miss the real defect.
+            if path == target:
+                import csv
+                reads.append(path)
+                raw = original(path)
+                if len(reads) > 1:
+                    lines = raw.splitlines(keepends=True)
+                    i = next(i for i,line in enumerate(lines) if line.startswith(b"G414\t"))
+                    lines[i] = lines[i].replace(b"NOT_PHYSICAL_ADOPTION", b"PHYSICAL_LAW_ADOPTED", 1)
+                    raw = b"".join(lines)
+                return list(csv.DictReader(raw.decode().splitlines(), delimiter="\t"))
+            return original_read_tsv(path)
+        monkeypatch.setattr(Path, "read_bytes", read)
+        monkeypatch.setattr(historical, "read_tsv", read_rows)
+        getattr(historical, name)(REPO, authenticate_sources=False)
+>       assert len(reads) == 1
+E       AssertionError: assert 2 == 1
+E        +  where 2 = len([PosixPath('/home/udt-admin/udt_mass_codex/CURRENT_SCIENTIFIC_PREMISES.tsv'), PosixPath('/home/udt-admin/udt_mass_codex/CURRENT_SCIENTIFIC_PREMISES.tsv')])
+
+tests/test_ti2_banking.py:178: AssertionError
+_ test_historical_guard_never_rereads_a_substituted_registry[validate_persistence_banking] _
+
+monkeypatch = <_pytest.monkeypatch.MonkeyPatch object at 0x7a8a021b7310>
+name = 'validate_persistence_banking'
+
+    @pytest.mark.parametrize("name", [
+        "validate_conditional_banking", "validate_shared_constraint_banking",
+        "validate_persistence_banking", "validate_restrictiveness_banking",
+        "validate_source_metric_banking", "validate_reconstruction_banking",
+        "validate_coupled_banking", "validate_vacuum_scale_banking",
+        "validate_berger_banking", "validate_closed_fibre_banking",
+        "validate_neighboring_tidal_banking", "validate_reviewed_backlog_banking",
+        "validate_ti1_banking",
+    ])
+    def test_historical_guard_never_rereads_a_substituted_registry(monkeypatch, name):
+        import verify_current_scientific_premises as historical
+        original = Path.read_bytes
+        target = REPO / "CURRENT_SCIENTIFIC_PREMISES.tsv"
+        reads = []
+        def read(path):
+            raw = original(path)
+            if path == target:
+                reads.append(path)
+                if len(reads) > 1:
+                    lines = raw.splitlines(keepends=True)
+                    i = next(i for i,line in enumerate(lines) if line.startswith(b"G414\t"))
+                    lines[i] = lines[i].replace(b"NOT_PHYSICAL_ADOPTION", b"PHYSICAL_LAW_ADOPTED", 1)
+                    return b"".join(lines)
+            return raw
+        original_read_tsv = historical.read_tsv
+        def read_rows(path):
+            # The original defective second read used Path.open through read_tsv.
+            # Count that API too: watching only read_bytes would miss the real defect.
+            if path == target:
+                import csv
+                reads.append(path)
+                raw = original(path)
+                if len(reads) > 1:
+                    lines = raw.splitlines(keepends=True)
+                    i = next(i for i,line in enumerate(lines) if line.startswith(b"G414\t"))
+                    lines[i] = lines[i].replace(b"NOT_PHYSICAL_ADOPTION", b"PHYSICAL_LAW_ADOPTED", 1)
+                    raw = b"".join(lines)
+                return list(csv.DictReader(raw.decode().splitlines(), delimiter="\t"))
+            return original_read_tsv(path)
+        monkeypatch.setattr(Path, "read_bytes", read)
+        monkeypatch.setattr(historical, "read_tsv", read_rows)
+        getattr(historical, name)(REPO, authenticate_sources=False)
+>       assert len(reads) == 1
+E       AssertionError: assert 2 == 1
+E        +  where 2 = len([PosixPath('/home/udt-admin/udt_mass_codex/CURRENT_SCIENTIFIC_PREMISES.tsv'), PosixPath('/home/udt-admin/udt_mass_codex/CURRENT_SCIENTIFIC_PREMISES.tsv')])
+
+tests/test_ti2_banking.py:178: AssertionError
+_ test_historical_guard_never_rereads_a_substituted_registry[validate_restrictiveness_banking] _
+
+monkeypatch = <_pytest.monkeypatch.MonkeyPatch object at 0x7a8a02753970>
+name = 'validate_restrictiveness_banking'
+
+    @pytest.mark.parametrize("name", [
+        "validate_conditional_banking", "validate_shared_constraint_banking",
+        "validate_persistence_banking", "validate_restrictiveness_banking",
+        "validate_source_metric_banking", "validate_reconstruction_banking",
+        "validate_coupled_banking", "validate_vacuum_scale_banking",
+        "validate_berger_banking", "validate_closed_fibre_banking",
+        "validate_neighboring_tidal_banking", "validate_reviewed_backlog_banking",
+        "validate_ti1_banking",
+    ])
+    def test_historical_guard_never_rereads_a_substituted_registry(monkeypatch, name):
+        import verify_current_scientific_premises as historical
+        original = Path.read_bytes
+        target = REPO / "CURRENT_SCIENTIFIC_PREMISES.tsv"
+        reads = []
+        def read(path):
+            raw = original(path)
+            if path == target:
+                reads.append(path)
+                if len(reads) > 1:
+                    lines = raw.splitlines(keepends=True)
+                    i = next(i for i,line in enumerate(lines) if line.startswith(b"G414\t"))
+                    lines[i] = lines[i].replace(b"NOT_PHYSICAL_ADOPTION", b"PHYSICAL_LAW_ADOPTED", 1)
+                    return b"".join(lines)
+            return raw
+        original_read_tsv = historical.read_tsv
+        def read_rows(path):
+            # The original defective second read used Path.open through read_tsv.
+            # Count that API too: watching only read_bytes would miss the real defect.
+            if path == target:
+                import csv
+                reads.append(path)
+                raw = original(path)
+                if len(reads) > 1:
+                    lines = raw.splitlines(keepends=True)
+                    i = next(i for i,line in enumerate(lines) if line.startswith(b"G414\t"))
+                    lines[i] = lines[i].replace(b"NOT_PHYSICAL_ADOPTION", b"PHYSICAL_LAW_ADOPTED", 1)
+                    raw = b"".join(lines)
+                return list(csv.DictReader(raw.decode().splitlines(), delimiter="\t"))
+            return original_read_tsv(path)
+        monkeypatch.setattr(Path, "read_bytes", read)
+        monkeypatch.setattr(historical, "read_tsv", read_rows)
+        getattr(historical, name)(REPO, authenticate_sources=False)
+>       assert len(reads) == 1
+E       AssertionError: assert 2 == 1
+E        +  where 2 = len([PosixPath('/home/udt-admin/udt_mass_codex/CURRENT_SCIENTIFIC_PREMISES.tsv'), PosixPath('/home/udt-admin/udt_mass_codex/CURRENT_SCIENTIFIC_PREMISES.tsv')])
+
+tests/test_ti2_banking.py:178: AssertionError
+_ test_historical_guard_never_rereads_a_substituted_registry[validate_source_metric_banking] _
+
+monkeypatch = <_pytest.monkeypatch.MonkeyPatch object at 0x7a8a01846dd0>
+name = 'validate_source_metric_banking'
+
+    @pytest.mark.parametrize("name", [
+        "validate_conditional_banking", "validate_shared_constraint_banking",
+        "validate_persistence_banking", "validate_restrictiveness_banking",
+        "validate_source_metric_banking", "validate_reconstruction_banking",
+        "validate_coupled_banking", "validate_vacuum_scale_banking",
+        "validate_berger_banking", "validate_closed_fibre_banking",
+        "validate_neighboring_tidal_banking", "validate_reviewed_backlog_banking",
+        "validate_ti1_banking",
+    ])
+    def test_historical_guard_never_rereads_a_substituted_registry(monkeypatch, name):
+        import verify_current_scientific_premises as historical
+        original = Path.read_bytes
+        target = REPO / "CURRENT_SCIENTIFIC_PREMISES.tsv"
+        reads = []
+        def read(path):
+            raw = original(path)
+            if path == target:
+                reads.append(path)
+                if len(reads) > 1:
+                    lines = raw.splitlines(keepends=True)
+                    i = next(i for i,line in enumerate(lines) if line.startswith(b"G414\t"))
+                    lines[i] = lines[i].replace(b"NOT_PHYSICAL_ADOPTION", b"PHYSICAL_LAW_ADOPTED", 1)
+                    return b"".join(lines)
+            return raw
+        original_read_tsv = historical.read_tsv
+        def read_rows(path):
+            # The original defective second read used Path.open through read_tsv.
+            # Count that API too: watching only read_bytes would miss the real defect.
+            if path == target:
+                import csv
+                reads.append(path)
+                raw = original(path)
+                if len(reads) > 1:
+                    lines = raw.splitlines(keepends=True)
+                    i = next(i for i,line in enumerate(lines) if line.startswith(b"G414\t"))
+                    lines[i] = lines[i].replace(b"NOT_PHYSICAL_ADOPTION", b"PHYSICAL_LAW_ADOPTED", 1)
+                    raw = b"".join(lines)
+                return list(csv.DictReader(raw.decode().splitlines(), delimiter="\t"))
+            return original_read_tsv(path)
+        monkeypatch.setattr(Path, "read_bytes", read)
+        monkeypatch.setattr(historical, "read_tsv", read_rows)
+        getattr(historical, name)(REPO, authenticate_sources=False)
+>       assert len(reads) == 1
+E       AssertionError: assert 2 == 1
+E        +  where 2 = len([PosixPath('/home/udt-admin/udt_mass_codex/CURRENT_SCIENTIFIC_PREMISES.tsv'), PosixPath('/home/udt-admin/udt_mass_codex/CURRENT_SCIENTIFIC_PREMISES.tsv')])
+
+tests/test_ti2_banking.py:178: AssertionError
+_ test_historical_guard_never_rereads_a_substituted_registry[validate_reconstruction_banking] _
+
+monkeypatch = <_pytest.monkeypatch.MonkeyPatch object at 0x7a8a021b6da0>
+name = 'validate_reconstruction_banking'
+
+    @pytest.mark.parametrize("name", [
+        "validate_conditional_banking", "validate_shared_constraint_banking",
+        "validate_persistence_banking", "validate_restrictiveness_banking",
+        "validate_source_metric_banking", "validate_reconstruction_banking",
+        "validate_coupled_banking", "validate_vacuum_scale_banking",
+        "validate_berger_banking", "validate_closed_fibre_banking",
+        "validate_neighboring_tidal_banking", "validate_reviewed_backlog_banking",
+        "validate_ti1_banking",
+    ])
+    def test_historical_guard_never_rereads_a_substituted_registry(monkeypatch, name):
+        import verify_current_scientific_premises as historical
+        original = Path.read_bytes
+        target = REPO / "CURRENT_SCIENTIFIC_PREMISES.tsv"
+        reads = []
+        def read(path):
+            raw = original(path)
+            if path == target:
+                reads.append(path)
+                if len(reads) > 1:
+                    lines = raw.splitlines(keepends=True)
+                    i = next(i for i,line in enumerate(lines) if line.startswith(b"G414\t"))
+                    lines[i] = lines[i].replace(b"NOT_PHYSICAL_ADOPTION", b"PHYSICAL_LAW_ADOPTED", 1)
+                    return b"".join(lines)
+            return raw
+        original_read_tsv = historical.read_tsv
+        def read_rows(path):
+            # The original defective second read used Path.open through read_tsv.
+            # Count that API too: watching only read_bytes would miss the real defect.
+            if path == target:
+                import csv
+                reads.append(path)
+                raw = original(path)
+                if len(reads) > 1:
+                    lines = raw.splitlines(keepends=True)
+                    i = next(i for i,line in enumerate(lines) if line.startswith(b"G414\t"))
+                    lines[i] = lines[i].replace(b"NOT_PHYSICAL_ADOPTION", b"PHYSICAL_LAW_ADOPTED", 1)
+                    raw = b"".join(lines)
+                return list(csv.DictReader(raw.decode().splitlines(), delimiter="\t"))
+            return original_read_tsv(path)
+        monkeypatch.setattr(Path, "read_bytes", read)
+        monkeypatch.setattr(historical, "read_tsv", read_rows)
+        getattr(historical, name)(REPO, authenticate_sources=False)
+>       assert len(reads) == 1
+E       AssertionError: assert 2 == 1
+E        +  where 2 = len([PosixPath('/home/udt-admin/udt_mass_codex/CURRENT_SCIENTIFIC_PREMISES.tsv'), PosixPath('/home/udt-admin/udt_mass_codex/CURRENT_SCIENTIFIC_PREMISES.tsv')])
+
+tests/test_ti2_banking.py:178: AssertionError
+_ test_historical_guard_never_rereads_a_substituted_registry[validate_coupled_banking] _
+
+monkeypatch = <_pytest.monkeypatch.MonkeyPatch object at 0x7a8a01845960>
+name = 'validate_coupled_banking'
+
+    @pytest.mark.parametrize("name", [
+        "validate_conditional_banking", "validate_shared_constraint_banking",
+        "validate_persistence_banking", "validate_restrictiveness_banking",
+        "validate_source_metric_banking", "validate_reconstruction_banking",
+        "validate_coupled_banking", "validate_vacuum_scale_banking",
+        "validate_berger_banking", "validate_closed_fibre_banking",
+        "validate_neighboring_tidal_banking", "validate_reviewed_backlog_banking",
+        "validate_ti1_banking",
+    ])
+    def test_historical_guard_never_rereads_a_substituted_registry(monkeypatch, name):
+        import verify_current_scientific_premises as historical
+        original = Path.read_bytes
+        target = REPO / "CURRENT_SCIENTIFIC_PREMISES.tsv"
+        reads = []
+        def read(path):
+            raw = original(path)
+            if path == target:
+                reads.append(path)
+                if len(reads) > 1:
+                    lines = raw.splitlines(keepends=True)
+                    i = next(i for i,line in enumerate(lines) if line.startswith(b"G414\t"))
+                    lines[i] = lines[i].replace(b"NOT_PHYSICAL_ADOPTION", b"PHYSICAL_LAW_ADOPTED", 1)
+                    return b"".join(lines)
+            return raw
+        original_read_tsv = historical.read_tsv
+        def read_rows(path):
+            # The original defective second read used Path.open through read_tsv.
+            # Count that API too: watching only read_bytes would miss the real defect.
+            if path == target:
+                import csv
+                reads.append(path)
+                raw = original(path)
+                if len(reads) > 1:
+                    lines = raw.splitlines(keepends=True)
+                    i = next(i for i,line in enumerate(lines) if line.startswith(b"G414\t"))
+                    lines[i] = lines[i].replace(b"NOT_PHYSICAL_ADOPTION", b"PHYSICAL_LAW_ADOPTED", 1)
+                    raw = b"".join(lines)
+                return list(csv.DictReader(raw.decode().splitlines(), delimiter="\t"))
+            return original_read_tsv(path)
+        monkeypatch.setattr(Path, "read_bytes", read)
+        monkeypatch.setattr(historical, "read_tsv", read_rows)
+        getattr(historical, name)(REPO, authenticate_sources=False)
+>       assert len(reads) == 1
+E       AssertionError: assert 2 == 1
+E        +  where 2 = len([PosixPath('/home/udt-admin/udt_mass_codex/CURRENT_SCIENTIFIC_PREMISES.tsv'), PosixPath('/home/udt-admin/udt_mass_codex/CURRENT_SCIENTIFIC_PREMISES.tsv')])
+
+tests/test_ti2_banking.py:178: AssertionError
+_ test_historical_guard_never_rereads_a_substituted_registry[validate_vacuum_scale_banking] _
+
+monkeypatch = <_pytest.monkeypatch.MonkeyPatch object at 0x7a8a023dc160>
+name = 'validate_vacuum_scale_banking'
+
+    @pytest.mark.parametrize("name", [
+        "validate_conditional_banking", "validate_shared_constraint_banking",
+        "validate_persistence_banking", "validate_restrictiveness_banking",
+        "validate_source_metric_banking", "validate_reconstruction_banking",
+        "validate_coupled_banking", "validate_vacuum_scale_banking",
+        "validate_berger_banking", "validate_closed_fibre_banking",
+        "validate_neighboring_tidal_banking", "validate_reviewed_backlog_banking",
+        "validate_ti1_banking",
+    ])
+    def test_historical_guard_never_rereads_a_substituted_registry(monkeypatch, name):
+        import verify_current_scientific_premises as historical
+        original = Path.read_bytes
+        target = REPO / "CURRENT_SCIENTIFIC_PREMISES.tsv"
+        reads = []
+        def read(path):
+            raw = original(path)
+            if path == target:
+                reads.append(path)
+                if len(reads) > 1:
+                    lines = raw.splitlines(keepends=True)
+                    i = next(i for i,line in enumerate(lines) if line.startswith(b"G414\t"))
+                    lines[i] = lines[i].replace(b"NOT_PHYSICAL_ADOPTION", b"PHYSICAL_LAW_ADOPTED", 1)
+                    return b"".join(lines)
+            return raw
+        original_read_tsv = historical.read_tsv
+        def read_rows(path):
+            # The original defective second read used Path.open through read_tsv.
+            # Count that API too: watching only read_bytes would miss the real defect.
+            if path == target:
+                import csv
+                reads.append(path)
+                raw = original(path)
+                if len(reads) > 1:
+                    lines = raw.splitlines(keepends=True)
+                    i = next(i for i,line in enumerate(lines) if line.startswith(b"G414\t"))
+                    lines[i] = lines[i].replace(b"NOT_PHYSICAL_ADOPTION", b"PHYSICAL_LAW_ADOPTED", 1)
+                    raw = b"".join(lines)
+                return list(csv.DictReader(raw.decode().splitlines(), delimiter="\t"))
+            return original_read_tsv(path)
+        monkeypatch.setattr(Path, "read_bytes", read)
+        monkeypatch.setattr(historical, "read_tsv", read_rows)
+        getattr(historical, name)(REPO, authenticate_sources=False)
+>       assert len(reads) == 1
+E       AssertionError: assert 2 == 1
+E        +  where 2 = len([PosixPath('/home/udt-admin/udt_mass_codex/CURRENT_SCIENTIFIC_PREMISES.tsv'), PosixPath('/home/udt-admin/udt_mass_codex/CURRENT_SCIENTIFIC_PREMISES.tsv')])
+
+tests/test_ti2_banking.py:178: AssertionError
+_ test_historical_guard_never_rereads_a_substituted_registry[validate_berger_banking] _
+
+monkeypatch = <_pytest.monkeypatch.MonkeyPatch object at 0x7a8a021ac940>
+name = 'validate_berger_banking'
+
+    @pytest.mark.parametrize("name", [
+        "validate_conditional_banking", "validate_shared_constraint_banking",
+        "validate_persistence_banking", "validate_restrictiveness_banking",
+        "validate_source_metric_banking", "validate_reconstruction_banking",
+        "validate_coupled_banking", "validate_vacuum_scale_banking",
+        "validate_berger_banking", "validate_closed_fibre_banking",
+        "validate_neighboring_tidal_banking", "validate_reviewed_backlog_banking",
+        "validate_ti1_banking",
+    ])
+    def test_historical_guard_never_rereads_a_substituted_registry(monkeypatch, name):
+        import verify_current_scientific_premises as historical
+        original = Path.read_bytes
+        target = REPO / "CURRENT_SCIENTIFIC_PREMISES.tsv"
+        reads = []
+        def read(path):
+            raw = original(path)
+            if path == target:
+                reads.append(path)
+                if len(reads) > 1:
+                    lines = raw.splitlines(keepends=True)
+                    i = next(i for i,line in enumerate(lines) if line.startswith(b"G414\t"))
+                    lines[i] = lines[i].replace(b"NOT_PHYSICAL_ADOPTION", b"PHYSICAL_LAW_ADOPTED", 1)
+                    return b"".join(lines)
+            return raw
+        original_read_tsv = historical.read_tsv
+        def read_rows(path):
+            # The original defective second read used Path.open through read_tsv.
+            # Count that API too: watching only read_bytes would miss the real defect.
+            if path == target:
+                import csv
+                reads.append(path)
+                raw = original(path)
+                if len(reads) > 1:
+                    lines = raw.splitlines(keepends=True)
+                    i = next(i for i,line in enumerate(lines) if line.startswith(b"G414\t"))
+                    lines[i] = lines[i].replace(b"NOT_PHYSICAL_ADOPTION", b"PHYSICAL_LAW_ADOPTED", 1)
+                    raw = b"".join(lines)
+                return list(csv.DictReader(raw.decode().splitlines(), delimiter="\t"))
+            return original_read_tsv(path)
+        monkeypatch.setattr(Path, "read_bytes", read)
+        monkeypatch.setattr(historical, "read_tsv", read_rows)
+        getattr(historical, name)(REPO, authenticate_sources=False)
+>       assert len(reads) == 1
+E       AssertionError: assert 2 == 1
+E        +  where 2 = len([PosixPath('/home/udt-admin/udt_mass_codex/CURRENT_SCIENTIFIC_PREMISES.tsv'), PosixPath('/home/udt-admin/udt_mass_codex/CURRENT_SCIENTIFIC_PREMISES.tsv')])
+
+tests/test_ti2_banking.py:178: AssertionError
+_ test_historical_guard_never_rereads_a_substituted_registry[validate_closed_fibre_banking] _
+
+monkeypatch = <_pytest.monkeypatch.MonkeyPatch object at 0x7a8a01c805e0>
+name = 'validate_closed_fibre_banking'
+
+    @pytest.mark.parametrize("name", [
+        "validate_conditional_banking", "validate_shared_constraint_banking",
+        "validate_persistence_banking", "validate_restrictiveness_banking",
+        "validate_source_metric_banking", "validate_reconstruction_banking",
+        "validate_coupled_banking", "validate_vacuum_scale_banking",
+        "validate_berger_banking", "validate_closed_fibre_banking",
+        "validate_neighboring_tidal_banking", "validate_reviewed_backlog_banking",
+        "validate_ti1_banking",
+    ])
+    def test_historical_guard_never_rereads_a_substituted_registry(monkeypatch, name):
+        import verify_current_scientific_premises as historical
+        original = Path.read_bytes
+        target = REPO / "CURRENT_SCIENTIFIC_PREMISES.tsv"
+        reads = []
+        def read(path):
+            raw = original(path)
+            if path == target:
+                reads.append(path)
+                if len(reads) > 1:
+                    lines = raw.splitlines(keepends=True)
+                    i = next(i for i,line in enumerate(lines) if line.startswith(b"G414\t"))
+                    lines[i] = lines[i].replace(b"NOT_PHYSICAL_ADOPTION", b"PHYSICAL_LAW_ADOPTED", 1)
+                    return b"".join(lines)
+            return raw
+        original_read_tsv = historical.read_tsv
+        def read_rows(path):
+            # The original defective second read used Path.open through read_tsv.
+            # Count that API too: watching only read_bytes would miss the real defect.
+            if path == target:
+                import csv
+                reads.append(path)
+                raw = original(path)
+                if len(reads) > 1:
+                    lines = raw.splitlines(keepends=True)
+                    i = next(i for i,line in enumerate(lines) if line.startswith(b"G414\t"))
+                    lines[i] = lines[i].replace(b"NOT_PHYSICAL_ADOPTION", b"PHYSICAL_LAW_ADOPTED", 1)
+                    raw = b"".join(lines)
+                return list(csv.DictReader(raw.decode().splitlines(), delimiter="\t"))
+            return original_read_tsv(path)
+        monkeypatch.setattr(Path, "read_bytes", read)
+        monkeypatch.setattr(historical, "read_tsv", read_rows)
+        getattr(historical, name)(REPO, authenticate_sources=False)
+>       assert len(reads) == 1
+E       AssertionError: assert 2 == 1
+E        +  where 2 = len([PosixPath('/home/udt-admin/udt_mass_codex/CURRENT_SCIENTIFIC_PREMISES.tsv'), PosixPath('/home/udt-admin/udt_mass_codex/CURRENT_SCIENTIFIC_PREMISES.tsv')])
+
+tests/test_ti2_banking.py:178: AssertionError
+_ test_historical_guard_never_rereads_a_substituted_registry[validate_neighboring_tidal_banking] _
+
+monkeypatch = <_pytest.monkeypatch.MonkeyPatch object at 0x7a8a01c54e80>
+name = 'validate_neighboring_tidal_banking'
+
+    @pytest.mark.parametrize("name", [
+        "validate_conditional_banking", "validate_shared_constraint_banking",
+        "validate_persistence_banking", "validate_restrictiveness_banking",
+        "validate_source_metric_banking", "validate_reconstruction_banking",
+        "validate_coupled_banking", "validate_vacuum_scale_banking",
+        "validate_berger_banking", "validate_closed_fibre_banking",
+        "validate_neighboring_tidal_banking", "validate_reviewed_backlog_banking",
+        "validate_ti1_banking",
+    ])
+    def test_historical_guard_never_rereads_a_substituted_registry(monkeypatch, name):
+        import verify_current_scientific_premises as historical
+        original = Path.read_bytes
+        target = REPO / "CURRENT_SCIENTIFIC_PREMISES.tsv"
+        reads = []
+        def read(path):
+            raw = original(path)
+            if path == target:
+                reads.append(path)
+                if len(reads) > 1:
+                    lines = raw.splitlines(keepends=True)
+                    i = next(i for i,line in enumerate(lines) if line.startswith(b"G414\t"))
+                    lines[i] = lines[i].replace(b"NOT_PHYSICAL_ADOPTION", b"PHYSICAL_LAW_ADOPTED", 1)
+                    return b"".join(lines)
+            return raw
+        original_read_tsv = historical.read_tsv
+        def read_rows(path):
+            # The original defective second read used Path.open through read_tsv.
+            # Count that API too: watching only read_bytes would miss the real defect.
+            if path == target:
+                import csv
+                reads.append(path)
+                raw = original(path)
+                if len(reads) > 1:
+                    lines = raw.splitlines(keepends=True)
+                    i = next(i for i,line in enumerate(lines) if line.startswith(b"G414\t"))
+                    lines[i] = lines[i].replace(b"NOT_PHYSICAL_ADOPTION", b"PHYSICAL_LAW_ADOPTED", 1)
+                    raw = b"".join(lines)
+                return list(csv.DictReader(raw.decode().splitlines(), delimiter="\t"))
+            return original_read_tsv(path)
+        monkeypatch.setattr(Path, "read_bytes", read)
+        monkeypatch.setattr(historical, "read_tsv", read_rows)
+        getattr(historical, name)(REPO, authenticate_sources=False)
+>       assert len(reads) == 1
+E       AssertionError: assert 2 == 1
+E        +  where 2 = len([PosixPath('/home/udt-admin/udt_mass_codex/CURRENT_SCIENTIFIC_PREMISES.tsv'), PosixPath('/home/udt-admin/udt_mass_codex/CURRENT_SCIENTIFIC_PREMISES.tsv')])
+
+tests/test_ti2_banking.py:178: AssertionError
+=========================== short test summary info ============================
+FAILED tests/test_ti2_banking.py::test_historical_guard_never_rereads_a_substituted_registry[validate_conditional_banking]
+FAILED tests/test_ti2_banking.py::test_historical_guard_never_rereads_a_substituted_registry[validate_shared_constraint_banking]
+FAILED tests/test_ti2_banking.py::test_historical_guard_never_rereads_a_substituted_registry[validate_persistence_banking]
+FAILED tests/test_ti2_banking.py::test_historical_guard_never_rereads_a_substituted_registry[validate_restrictiveness_banking]
+FAILED tests/test_ti2_banking.py::test_historical_guard_never_rereads_a_substituted_registry[validate_source_metric_banking]
+FAILED tests/test_ti2_banking.py::test_historical_guard_never_rereads_a_substituted_registry[validate_reconstruction_banking]
+FAILED tests/test_ti2_banking.py::test_historical_guard_never_rereads_a_substituted_registry[validate_coupled_banking]
+FAILED tests/test_ti2_banking.py::test_historical_guard_never_rereads_a_substituted_registry[validate_vacuum_scale_banking]
+FAILED tests/test_ti2_banking.py::test_historical_guard_never_rereads_a_substituted_registry[validate_berger_banking]
+FAILED tests/test_ti2_banking.py::test_historical_guard_never_rereads_a_substituted_registry[validate_closed_fibre_banking]
+FAILED tests/test_ti2_banking.py::test_historical_guard_never_rereads_a_substituted_registry[validate_neighboring_tidal_banking]
+11 failed, 2 passed, 38 deselected in 0.20s

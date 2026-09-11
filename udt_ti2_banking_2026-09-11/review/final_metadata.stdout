@@ -1,0 +1,51 @@
+{
+  "utc": "2026-09-11T19:19:43.772852+00:00",
+  "verdict": "PASS",
+  "full397": "actual parent receipt inspected, not reviewer rerun",
+  "full397_seconds": 403.0194429080002,
+  "late_suite": "592passed/1duplicate-wrapper-deselected",
+  "late_suite_seconds": 13.630380171001889,
+  "later_navigation_inputs": [
+    "CURRENT_RESEARCH_PROGRAM.md",
+    "CURRENT_SCIENTIFIC_PREMISES.md",
+    "HANDOFF.md",
+    "INDEX.md",
+    "LIVE.md",
+    "MEMORY.md",
+    "UDT_RESEARCH_ROADMAP.md"
+  ],
+  "unchanged_other_audit_inputs": 8,
+  "current_surface_sizes": {
+    "LIVE.md": {
+      "lines": 112,
+      "words": 892
+    },
+    "HANDOFF.md": {
+      "lines": 84,
+      "words": 590
+    },
+    "INDEX.md": {
+      "lines": 118,
+      "words": 568
+    },
+    "MEMORY.md": {
+      "lines": 55,
+      "words": 448
+    },
+    "CURRENT_RESEARCH_PROGRAM.md": {
+      "lines": 117,
+      "words": 1088
+    },
+    "CURRENT_SCIENTIFIC_PREMISES.md": {
+      "lines": 131,
+      "words": 1312
+    }
+  },
+  "original46_status_names_preserved": true,
+  "cache_exclusions": [
+    "udt_ti2_banking_2026-09-11/review/__pycache__"
+  ],
+  "replay_scratch_exists": false,
+  "publication": "future; nothing staged; no commit/push outcome anticipated",
+  "runtime_model_version": "UNATTESTED"
+}

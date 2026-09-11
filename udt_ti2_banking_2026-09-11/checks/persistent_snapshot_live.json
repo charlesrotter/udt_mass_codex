@@ -1,0 +1,20 @@
+{
+  "command": [
+    "python3",
+    "-m",
+    "pytest",
+    "--noconftest",
+    "-q",
+    "tests/test_ti2_banking.py",
+    "-k",
+    "test_historical_guard_never_rereads_a_substituted_registry"
+  ],
+  "cwd": "/home/udt-admin/udt_mass_codex",
+  "started_utc": "2026-09-11T19:05:29.231376+00:00",
+  "duration_seconds": 0.31313494499772787,
+  "returncode": 0,
+  "timeout": false,
+  "address_space_bytes": 2147483648,
+  "cpu_seconds": 180,
+  "maxrss_kib": 76856
+}

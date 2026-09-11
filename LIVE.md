@@ -55,8 +55,8 @@ Metric/kernel and mathematics are unchanged; angular-sector cancellation owns lo
 - G381=NT1 and G382=NT2: neighboring tidal compatibility/obstruction and restricted real rank-one
   null-jet classification; actual smooth local Lambda=0 realizations, not general metric realization.
 
-Exact-scope banking through G413 is COMPLETE; all inherited limits remain.
-The exact 396-row `CURRENT_SCIENTIFIC_PREMISES.tsv` owns grades; `INDEX.md` routes the acceptance record.
+Exact-scope banking through G414 is COMPLETE; all inherited limits remain.
+The exact 397-row `CURRENT_SCIENTIFIC_PREMISES.tsv` owns grades; `INDEX.md` routes the acceptance record.
 Whole original reviews/limits control, including false passes/repairs, CF2 buffers LOST, not preserved
 or recovered, and NT1 lost buffers/unsnapshotted reviewer code. Original365 rows remain unchanged.
 G383--G394 cover the original curvature recipe, HB/BI and nonlinear/localized geometry.
@@ -106,7 +106,7 @@ Protected—do not stage, modify, mine or cite without dispatch:
 
 ### Next gate
 
-G383--G412 exact-scope banking is COMPLETE; G413=TI1 is banked; TI2 is reviewed conditional, UNPROMOTED; scope: INDEX.
+G383--G412 exact-scope banking is COMPLETE; G413=TI1 and G414=TI2 conditionally banked; authorized TI3 scope: INDEX.
 G312 membership unclosed; G352 physical-realization: physical identification remains OPEN.
-Stop for lay discussion with Charles on TI2 promotion and profile-dependence proposal; no new campaign is authorized.
+Stop for lay discussion with Charles after the bounded profile/review/repair cycle; no new campaign is authorized beyond that work order.
 <!-- STARTUP_CURRENT_END -->

@@ -1,0 +1,26 @@
+........................................................................ [ 12%]
+........................................................................ [ 24%]
+........................................................................ [ 37%]
+........................................................................ [ 49%]
+...............................F........................................ [ 62%]
+........................................................................ [ 74%]
+........................................................................ [ 87%]
+........................................................................ [ 99%]
+.                                                                        [100%]
+=================================== FAILURES ===================================
+____________________ test_catch_stale_agents_registry_count ____________________
+
+tmp_path = PosixPath('/tmp/pytest-of-udt-admin/pytest-73/test_catch_stale_agents_regist0')
+
+    def test_catch_stale_agents_registry_count(tmp_path: Path) -> None:
+        root = _startup_copy(tmp_path)
+        _replace(root / "AGENTS.md", "397-row exact registry", "394-row exact registry")
+>       with pytest.raises(SystemExit, match="current route lacks 396-row exact registry"):
+E       AssertionError: Regex pattern did not match.
+E         Expected regex: 'current route lacks 396-row exact registry'
+E         Actual message: 'current route lacks 397-row exact registry: AGENTS.md'
+
+tests/test_startup_surface.py:1203: AssertionError
+=========================== short test summary info ============================
+FAILED tests/test_startup_surface.py::test_catch_stale_agents_registry_count
+1 failed, 576 passed, 1 deselected in 13.54s

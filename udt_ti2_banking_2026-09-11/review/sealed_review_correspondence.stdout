@@ -1,0 +1,11 @@
+{
+  "utc": "2026-09-11T19:13:20.180122+00:00",
+  "verdict": "PASS",
+  "sealed_pin_count": 79,
+  "only_changed_file": "ti2_banking_guard.py",
+  "change": "exact two-review-pin augmentation; every other byte equals sealed source",
+  "review_and_receipt_authentication": {
+    "udt_ti2_banking_2026-09-11/review/REVIEW.md": "a67d9c4d2c455e74a2eef144cbd4273ccdb045b948c18fa832104f3ac4715fc4",
+    "udt_ti2_banking_2026-09-11/review/REVIEW_RECEIPT.json": "fe8ca6f6d67b1a07500270a293d0adff193a338f5e6672910c45aad7332708ab"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "sealed_utc": "2026-09-11T19:23:34.861727+00:00",
+  "command": [
+    "python3",
+    "udt_ti2_banking_2026-09-11/seal_publication.py"
+  ],
+  "baseline_head": "b95ace99315b816b9a53abe8102b478d1e1cd188",
+  "manifest_entries": 129,
+  "manifest_sha256": "4709f104f2949c2793407978c36bbb48de869b531b0caa2043459f5768f026a5",
+  "final_fidelity_receipt_sha256": "4aee25ccf468af80d7797cc0d321babac58da3ed943f3d738546456a355143dc",
+  "final_fidelity_pins_verified": 121,
+  "full397_seconds": 403.0194429080002,
+  "final_navigation_seconds": 13.630380171001889,
+  "final_navigation": "ACTUAL592_PASS_1_DUPLICATE_FULL_WRAPPER_DESELECTED",
+  "original46_status_sha256": "55e7c4508622f912730f9c068cc571c370b3977bc1110eb0a48a8218dbe024c2",
+  "source120_and_original396": "AUTHENTICATED",
+  "publication": "FUTURE_AT_SEAL; observe actual staging/commit/push completion",
+  "backup_completeness": "UNVERIFIED",
+  "pre_reboot_unsaved_state": "UNVERIFIED"
+}

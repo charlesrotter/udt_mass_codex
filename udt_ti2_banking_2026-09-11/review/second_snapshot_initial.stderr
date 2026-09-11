@@ -1,0 +1,4 @@
+Traceback (most recent call last):
+  File "/home/udt-admin/udt_mass_codex/udt_ti2_banking_2026-09-11/review/probe_second_snapshot.py", line 40, in <module>
+    assert not any(r['outcome'].startswith('FALSE_PASS') for r in results), 'present changed G414 was discarded on unvalidated second registry snapshot'
+AssertionError: present changed G414 was discarded on unvalidated second registry snapshot

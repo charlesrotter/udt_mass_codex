@@ -1,0 +1,21 @@
+{
+  "utc": "2026-09-11T18:57:06.641571+00:00",
+  "verdict": "PASS",
+  "baseline": "b95ace99315b816b9a53abe8102b478d1e1cd188",
+  "python": "3.10.12",
+  "current_added_G414_rows": 0,
+  "original396_bytes_preserved": true,
+  "original_registry_sha256": "2491607030f80e6f0557cc7ed7ee7487d3637e357e0da520f8432b67190b25db",
+  "original_TI2_files_byte_equal_to_git": 120,
+  "source_manifest_complete_and_exact": true,
+  "source_registry_ids_equal_to_current_baseline": [
+    "G413",
+    "G312",
+    "G176",
+    "G166"
+  ],
+  "G413_acceptance_and103_source_manifest_unchanged": true,
+  "runtime_model_version": "UNATTESTED",
+  "protected_payloads": "excluded",
+  "omissions": "No original symbolic science or full premise audit rerun."
+}

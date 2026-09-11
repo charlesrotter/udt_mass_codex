@@ -1,0 +1,30 @@
+{
+  "baseline_head": "b95ace99315b816b9a53abe8102b478d1e1cd188",
+  "original396_sha256": "2491607030f80e6f0557cc7ed7ee7487d3637e357e0da520f8432b67190b25db",
+  "original396_rows": 396,
+  "original_ti2_files": 120,
+  "required_registry_ids": [
+    "G413",
+    "G166",
+    "G176",
+    "G179",
+    "G180",
+    "G182",
+    "G216",
+    "G312"
+  ],
+  "claim": {
+    "premise_id": "G414",
+    "term": "two_shape_initial_evolution_completion_and_record_dependence",
+    "current_status": "BANKED_DERIVED_CONDITIONAL__VERIFIED_WITH_CAVEATS__OWNER_AUTHORIZED__NOT_PHYSICAL_ADOPTION__NOT_CANON",
+    "epistemic_label": "MIXED",
+    "active_use": "TI2; ENTIRE frozen INITIAL_CANDIDATE and controlling substantive/final reviews. Supplied Ric=0, full compact analytic split T3 gamma=I,K=-gamma_T/2 data and marked Gaussian U=partial_T of G413. s=-2/3+c,p=A cosX,r=B cos(X+theta),d=p^2+r^2,W=p r_X-r p_X=-AB sin(theta),kappa=(d-s^2)/(2s); primary |A|,|B|<1/4,|c|<1/6, supplied periods,T0=1,orientation/first-dual convention. Full metric three-jet with inverse/connection/volume/spatial-Ricci variations yields P=-32kappa W and U(P)=32W-16kappa W(5d/s+11s). For nonaligned primary data L=U(P)/P=11s/2+5d/(2s)+2s/(s^2-d), matched L0(s)=11s/2+2/s, L-L0=d/(2s)[5+4/(s^2-d)]<0 and L<L0<0; S=U(P)-L0P=8dW/s^2(5s^2+4-5d). Analytic actual developments imply datum-dependent short forward decline of |P|, nonvanishing, and controlled uniform-X local Taylor remainder. Polarized zero/one/proportional controls retain P=0; theta+pi preserves d and flips P,U(P),S. Restricted analytic c(epsilon)=O(epsilon^2) families: matched S=112epsilon^4 d1W1+O(epsilon^6); original-s0 reference has epsilon^4 W1(112d1-32c2/3)-epsilon^5(32c3W1/3)+O(epsilon^6), uniform on declared compact analytic parameter sets. Equal-quadrature c=(21/2)a^2epsilon^2 cancels original-background fourth order, not matched correction. At separately justified outside-box p=s cosX,r=s sinX, full constraints and individual CK/Bianchi development give initial P=0,U(P)=32s^2>0, hence nonzero P for sufficiently small forward time. In the specified background, background-times-second-order curvature-rate supplies half the leading quadratic rate missed by first-order curvature/rate products alone. Six common original density records q_v=gamma(v,v) recover rate via SECOND-total-order derivatives only with harmonic prior/flat-slice/equation/marking; broader marked-Gaussian curvature-rate recipe has THIRD-order sufficiency. Normalized pair-germ fields alone remain insufficient; whole smooth density fields contain their derivatives.",
+    "open_scope": "G312 GR FILTER ONLY, native membership unclosed; supplied Ric=0 not native UDT adoption. G176 WORKING; G166 complete native assembly/history/pair population and physical identification OPEN. Rate follows supplied marked U, not arbitrary-observer invariant; P orientation sign conventional, L unchanged on reversal. L0 is scalar-rate reference, not fabricated exact metric or later constant law; no ratio across P=0 or uniform duration as amplitudes vanish. Homogeneous analytic completion and compact-parameter remainder limits remain; no arbitrary-completion or broader-profile census. Outside-box cancellation separately scoped and realized, not an extrapolated primary-domain ratio. Record sufficiency not minimal acquisition, arbitrary lapse/shift inverse theorem, native instrument or population. No general failure of linearization, energy transfer, physical coupling/force/particle, full finite-time trajectory, global decay/stability, genericity, uniqueness, selected physical shape/scale, native source/action/carrier or canon. c_E remains calibration.",
+    "forbidden_regression": "Supplied conditional equation called native selection or physical adoption; diagnostic decline called global stability or energy exchange; outside-box control silently included in primary ratio domain; completion/reference choices erased; second-order harmonic record recipe called general first-jet recovery; whole fields said to lose derivatives solely through omitted columns; controlled expansions generalized to unbounded completions; candidate called wholly pre-review-exposure independent, different-model reviewed or formally proved; source/failure history altered or count/checksum called scientific truth.",
+    "controlling_source": "udt_ti2_banking_2026-09-11/BANKING_RECORD.md",
+    "precedence_rule": "G414 accepts TI2 only at ENTIRE original candidate/review scope. Required G413,G166,G176,G179,G180,G182,G216,G312 retain their own premises; individual outside-box development proof remains required. Initial raw author and independently sealed ADM calculations predate cross-exposure, but whole written candidate froze afterward; reviewer coefficient/phase contributions and parent confirmation disclosed. No post-freeze scientific repair. Original UNPROMOTED headers are historical under Charles-authorized banking overlay. Fresh banking review is source-exposed fidelity/integration, not blind scientific reproof. Runtime model/version UNATTESTED. LIVE then exact registry then this record/full immutable sources; conflict means STOP."
+  },
+  "authority_source": "udt_gr_filter_reconciliation_2026-09-09/AUTHORITY_RECORD.md",
+  "authority_sha256": "80daa0be6d3e1c0ac1b734fea089c4eb487f05bc1e1fbb2fabd69322ca89f28c",
+  "review_state": "Original full substantive/final review VERIFIED-WITH-CAVEATS; no science repair; current integration gates owned separately by CLOSEOUT.md"
+}

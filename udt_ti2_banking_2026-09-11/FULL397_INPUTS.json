@@ -1,0 +1,21 @@
+{
+  "utc": "2026-09-11T19:09:14.914840+00:00",
+  "purpose": "actual postrepair/pinned-review full397 audit before outcome-only navigation changes",
+  "sha256": {
+    "AGENTS.md": "c11d94f25bf58bf3d1cee6fb6bc886ebfac2d7581f5b794244685019bc00d628",
+    "CURRENT_RESEARCH_PROGRAM.md": "058c0b2a51d3fd2f1935a03b24e7d3f393059a2ba179a13c6f2624006ef7e06f",
+    "CURRENT_SCIENTIFIC_PREMISES.md": "c589b7d2c8b21cae8275d97f13f0686794a88081e29854894f7e5884441a352a",
+    "CURRENT_SCIENTIFIC_PREMISES.tsv": "2c27fa4b8931672c44b4d778aab0f2a2631c04a5c586358340db1dc763b74f7e",
+    "HANDOFF.md": "f5a1d2a4806245ed45132e558afce908ea3bfede8a9dc51771ee0d31fef88beb",
+    "INDEX.md": "9c87813ab16a852db8d169b84aede83f5af734b3fe5cc3ab180f2f6d3dcc0ca3",
+    "LIVE.md": "d5509394e7039c14241ba1bfee2c57bd91266f9361f51f9351e3b668422261cb",
+    "MEMORY.md": "cd55cb7b69fa0a0885b404a49eaf409eca53ef4e01cc9e4d3e0fe565e64fddaa",
+    "UDT_RESEARCH_ROADMAP.md": "6fc34e1758acafd6c09cddac71c8e8f3be47ca89b36d2503c7f05019e1ebfd43",
+    "tests/test_startup_surface.py": "ab0f7a7b02ad9c378b222e49fbfc67459788a2ccf9afda582a6a1933947bc421",
+    "tests/test_ti1_banking.py": "623216f9b54c11f45f57b53065406ef9b64790e7ae56eeada5e4b340b5896fb8",
+    "ti1_banking_guard.py": "d65115db04d6ac5a08d80d3714c8f876285aea7b0e6307de6dbf5372e29aeac1",
+    "verify_current_scientific_premises.py": "5fb6a8891f02e61c14344dc61fb5ed62539170af3cbf9ada132940e64a639074",
+    "ti2_banking_guard.py": "65f6e4eb374a28902bae98476879ecd5547c574dd4e0204e045665e414b3df18",
+    "tests/test_ti2_banking.py": "368653c546b6f14cd1aab499979e8b1d474e89e863fc0c7b301a8de4cb6678b6"
+  }
+}

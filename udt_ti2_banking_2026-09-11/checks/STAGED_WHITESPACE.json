@@ -1,0 +1,30 @@
+{
+  "utc": "2026-09-11T19:23:34.730094+00:00",
+  "raw_command": [
+    "git",
+    "diff",
+    "--cached",
+    "--check"
+  ],
+  "raw_exit": 2,
+  "preserved_raw_warning_paths": [
+    "udt_ti2_banking_2026-09-11/checks/initial_integration.stdout",
+    "udt_ti2_banking_2026-09-11/integration_history/initial_adapters.patch"
+  ],
+  "scoped_command": [
+    "git",
+    "diff",
+    "--cached",
+    "--check",
+    "--",
+    ".",
+    ":(exclude)udt_ti2_banking_2026-09-11/checks/initial_integration.stdout",
+    ":(exclude)udt_ti2_banking_2026-09-11/integration_history/initial_adapters.patch"
+  ],
+  "scoped_exit": 0,
+  "ignored_printed_source_context_not_warning_paths": [
+    "+tests/test_startup_surface.py"
+  ],
+  "additional_final_exclusion": "udt_ti2_banking_2026-09-11/checks/staged_whitespace.stdout",
+  "interpretation": "Original raw patch/test output preserved. Its captured warning stdout also retains the original offending whitespace."
+}

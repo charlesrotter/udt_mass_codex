@@ -6,6 +6,7 @@ import io
 import json
 import re
 import subprocess
+from ti2_banking_guard import without_ti2
 
 TI1_BANKING_IDS = ("G413",)
 TI1_PREFIXES = (b"G413\t",)
@@ -49,7 +50,7 @@ def validate_ti1_banking(root: Path, *, authenticate_sources: bool = True) -> No
         require(hashlib.sha256(raw).hexdigest() == expected, f"TI1 guard file changed: {name}")
         payloads[name] = raw
     scope = json.loads(payloads[f"{TI1_PACKAGE}/BANKED_CLAIM.json"])
-    raw = (root / "CURRENT_SCIENTIFIC_PREMISES.tsv").read_bytes()
+    raw = without_ti2((root / "CURRENT_SCIENTIFIC_PREMISES.tsv").read_bytes())
     original = without_ti1(raw, required=True)
     require(hashlib.sha256(original).hexdigest() == TI1_BASE_SHA256,
             "TI1 changed an original395 registry byte")

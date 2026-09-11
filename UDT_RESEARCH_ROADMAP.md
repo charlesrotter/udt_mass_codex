@@ -2,14 +2,14 @@
 
 Updated: 2026-09-11. Charles Rotter requested the whole plan on 2026-09-09;
 its original baseline was `d0fe8b3e5f95c3963dc8702bb4a31485678bd1e3`, branch `grok`.
-Earlier campaigns and the bounded TI2 study are COMPLETE; the maintained checkpoint owns the return.
+Earlier campaigns and TI2 are COMPLETE; G414 banking is complete; the subsequent TI3 study is authorized.
 Current operational handoff: `HANDOFF.md`; the maintained checkpoint below records the reviewed
-ER1 expansion, backlog/G413 banking and reviewed UNPROMOTED TI2. No successor is authorized.
+ER1 expansion, banking through G413 and current G414/TI3 gates. No successor beyond TI3 is authorized.
 This is a maintained direction document, not a premise, theorem, promotion
 or replacement for LIVE, the exact registry, or reviewed scientific sources.
 
 Current acceptance overlay: earlier UNPROMOTED/campaign-only language below records historical
-returns. The G383--G412 and G413 banking packets and maintained checkpoint own later dispositions;
+returns. The G383--G412, G413 and G414 banking packets and maintained checkpoint own later dispositions;
 original result packages remain unchanged. No physical adoption or canon is included.
 
 ## Aim and current position
@@ -260,7 +260,7 @@ authorization. A coverage row is not a completeness theorem or a scientific prem
 | Exact metric/kernel, stages1–2 | ER1 COMPLETE, reviewed; G405 conditionally banked at exact scope | `udt_exact_metric_kernel_expansion_2026-09-10/DECISION_BRIEF.md` and `udt_exact_metric_kernel_expansion_2026-09-10/review/REVIEW.md`: variable lapse/rest form/time-live shift, exact rotation interaction; supplied configuration class only |
 | Joint realization, stage3 | ER1's finite marked-record recipe COMPLETE at reviewed scope | Six common directional records plus density and derivatives; SPD/shift coherence and actual shared immersions; no physical pair population or arbitrary-network theorem |
 | Conditional nonlinear developments, stage4 | G413=TI1 conditionally banked at full reviewed scope | `udt_two_shape_nonlinear_interaction_2026-09-11/REVIEWED_RESULT.md` and its `review/REVIEW.md`: complete analytic Ric=0 data/developments, initial mixed curvature distinction, phase/completion controls and retained-density join; no native equation adoption or later generated coupling |
-| Reach/persistence, stage5 | TI1 local retention banked; TI2 reviewed conditional, UNPROMOTED | `udt_two_shape_evolution_2026-09-11/REVIEWED_RESULT.md` and its `review/REVIEW.md`: exact initial rate, local decline, completion control and outside-box cancellation nonpreservation; marking/equation supplied, sustained evolution and stability open |
+| Reach/persistence, stage5 | TI1 banked; G414=TI2 conditionally banked; TI3 profile study authorized afterward | `udt_ti2_banking_2026-09-11/BANKING_RECORD.md` and WORK_ORDER.md: full TI2 rate, completion, cancellation and record scope; TI3 releases the harmonic profile restriction, retaining supplied equation/marking and local limits |
 
 ER1 returned the reviewed conditional result, actual witness/record compatibility and lay brief;
 its exact execution and final fidelity receipts are in that package. The two-hour research authorization
@@ -274,16 +274,16 @@ and its CLOSEOUT.md own the current acceptance, original395/whole-source preserv
 integration review, repaired historical-projection guard and actual full396/check results.
 The original TI1 UNPROMOTED headers remain historical. Controls remain controls.
 
-Charles also authorized the now-completed bounded TI2 evolution comparison, including checks,
-fresh separate-context review and bounded same-premise repair; its original scope remains in
-`udt_ti1_banking_2026-09-11/WORK_ORDER.md`. The new candidate returns VERIFIED-WITH-CAVEATS,
-conditional UNPROMOTED, with no post-freeze scientific repair. Its exact initial rate and local
-short-time implications retain the supplied Ric=0 equation, compact analytic data and marked
-Gaussian observer. The actual new full396 audit passed; later navigation checks are separate.
-`udt_two_shape_evolution_2026-09-11/DECISION_BRIEF.md`, REVIEWED_RESULT.md and SESSION_RECORD.md
-own the result, checks, exposure and resource history. Disposition: HOLD for Charles's separate
-exact-scope promotion decision; controls remain controls. No physical premise or successor is
-authorized. Combined hard return remains 2026-09-11 16:00:50UTC, CPU only. Stop for lay discussion.
+The completed TI2 study returned VERIFIED-WITH-CAVEATS, conditional UNPROMOTED, with no
+post-freeze scientific repair. Its original scope and spent16:00:50UTC return remain in
+`udt_ti1_banking_2026-09-11/WORK_ORDER.md`; the original result, review and execution history
+remain unchanged in `udt_two_shape_evolution_2026-09-11/`. Charles subsequently authorized
+promotion at the entire reviewed conditional scope and then the bounded profile proposal.
+`udt_ti2_banking_2026-09-11/WORK_ORDER.md` owns that new dispatch; BANKING_RECORD.md owns exact
+acceptance scope and CLOSEOUT.md the integration results. G414 is conditionally banked. Preserve
+all396 previous rows and120 original TI2 files; controls remain controls. The new actual
+prebank396 and postrepair full397 audits passed. Banking is bounded to19:36:07UTC; TI3 receives its own two-hour
+ceiling, no later than21:36:07UTC. No physical adoption or TI3 promotion is authorized.
 Backup completeness/pre-reboot unsaved state remain UNVERIFIED.
 
 Learning to carry forward: an exact time-live shift interaction can disappear under a stationarity
@@ -310,10 +310,13 @@ linearization or careful perturbation theory. Harmonic-family rate recovery uses
 derivatives; the broader marked-Gaussian curvature-rate recipe can use third derivatives.
 No energy transfer, physical identification, universal time interval or global stability follows.
 
-Next decision: TI2's exact-scope promotion, then whether to authorize the separate two-hour
-profile-dependence proposal in its DECISION_BRIEF.md. It would release the single sinusoidal
-profile assumption and test full constraints, local development, cancellations, reference
-existence and retained-record derivative needs. It is NOT AUTHORIZED or already executed.
+Authorized next action after G414 banking: the separate two-hour TI3 profile study from the
+original DECISION_BRIEF.md, now dispatched by the new banking WORK_ORDER.md. Release the single
+sinusoidal profile assumption and test full constraints, local development, cancellations,
+reference existence and retained-record derivative needs. TI3 has not started at this banking
+checkpoint. Include exact checks, one fresh separate-context review and bounded same-premise
+repair/closeout, then return a reviewed conditional result or precise boundary and lay discussion.
+The new result remains UNPROMOTED; no automatic successor or physical adoption is authorized.
 Native equation/assembly questions remain parallel open work; naming a comparison equation
 never authorizes adopting it as UDT. The fixed through-G352 manuscript remains unchanged.
 

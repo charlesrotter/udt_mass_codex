@@ -1,0 +1,62 @@
+{
+  "utc": "2026-09-11T19:03:15.836258+00:00",
+  "verifier_sha256": "580666e09365d47f7f2dd68c808db691df6fc202d67706014b36774f2440839d",
+  "results": [
+    {
+      "guard": "validate_conditional_banking",
+      "second_registry_reads": 0,
+      "outcome": "NO_SECOND_REGISTRY_READ"
+    },
+    {
+      "guard": "validate_shared_constraint_banking",
+      "second_registry_reads": 0,
+      "outcome": "NO_SECOND_REGISTRY_READ"
+    },
+    {
+      "guard": "validate_persistence_banking",
+      "second_registry_reads": 0,
+      "outcome": "NO_SECOND_REGISTRY_READ"
+    },
+    {
+      "guard": "validate_restrictiveness_banking",
+      "second_registry_reads": 0,
+      "outcome": "NO_SECOND_REGISTRY_READ"
+    },
+    {
+      "guard": "validate_source_metric_banking",
+      "second_registry_reads": 0,
+      "outcome": "NO_SECOND_REGISTRY_READ"
+    },
+    {
+      "guard": "validate_reconstruction_banking",
+      "second_registry_reads": 0,
+      "outcome": "NO_SECOND_REGISTRY_READ"
+    },
+    {
+      "guard": "validate_coupled_banking",
+      "second_registry_reads": 0,
+      "outcome": "NO_SECOND_REGISTRY_READ"
+    },
+    {
+      "guard": "validate_vacuum_scale_banking",
+      "second_registry_reads": 0,
+      "outcome": "NO_SECOND_REGISTRY_READ"
+    },
+    {
+      "guard": "validate_berger_banking",
+      "second_registry_reads": 0,
+      "outcome": "NO_SECOND_REGISTRY_READ"
+    },
+    {
+      "guard": "validate_closed_fibre_banking",
+      "second_registry_reads": 0,
+      "outcome": "NO_SECOND_REGISTRY_READ"
+    },
+    {
+      "guard": "validate_neighboring_tidal_banking",
+      "second_registry_reads": 0,
+      "outcome": "NO_SECOND_REGISTRY_READ"
+    }
+  ],
+  "mutation": "monkeypatched parsed second read; real sources unchanged"
+}

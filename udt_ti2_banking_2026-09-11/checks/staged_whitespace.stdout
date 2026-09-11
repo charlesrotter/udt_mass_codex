@@ -1,0 +1,25 @@
+udt_ti2_banking_2026-09-11/checks/initial_integration.stdout:19: trailing whitespace.
++tests/test_startup_surface.py:1202: 
+udt_ti2_banking_2026-09-11/checks/initial_integration.stdout:20: trailing whitespace.
++_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+udt_ti2_banking_2026-09-11/integration_history/initial_adapters.patch:37: trailing whitespace.
++ 
+udt_ti2_banking_2026-09-11/integration_history/initial_adapters.patch:38: trailing whitespace.
++ 
+udt_ti2_banking_2026-09-11/integration_history/initial_adapters.patch:53: trailing whitespace.
++ 
+udt_ti2_banking_2026-09-11/integration_history/initial_adapters.patch:54: trailing whitespace.
++ 
+udt_ti2_banking_2026-09-11/integration_history/initial_adapters.patch:64: trailing whitespace.
++ 
+udt_ti2_banking_2026-09-11/integration_history/initial_adapters.patch:88: trailing whitespace.
++ 
+udt_ti2_banking_2026-09-11/integration_history/initial_adapters.patch:96: trailing whitespace.
++ 
+udt_ti2_banking_2026-09-11/integration_history/initial_adapters.patch:306: trailing whitespace.
++ 
+udt_ti2_banking_2026-09-11/integration_history/initial_adapters.patch:437: trailing whitespace.
++ 
+udt_ti2_banking_2026-09-11/integration_history/initial_adapters.patch:438: trailing whitespace.
++ 
+udt_ti2_banking_2026-09-11/integration_history/initial_adapters.patch:437: new blank line at EOF.

@@ -1,0 +1,287 @@
+{
+  "utc": "2026-09-11T19:03:16.099002+00:00",
+  "verdict": "PASS",
+  "python": "3.10.12",
+  "runtime_model_version": "UNATTESTED",
+  "cases": 58,
+  "actual_outcomes": [
+    {
+      "name": "current_full_source_guard",
+      "result": "PASS"
+    },
+    {
+      "name": "current_field_0",
+      "result": "REJECTED",
+      "message": "TI2 current row missing/duplicate"
+    },
+    {
+      "name": "current_field_1",
+      "result": "REJECTED",
+      "message": "TI2 exact row/scope changed"
+    },
+    {
+      "name": "current_field_2",
+      "result": "REJECTED",
+      "message": "TI2 exact row/scope changed"
+    },
+    {
+      "name": "current_field_3",
+      "result": "REJECTED",
+      "message": "TI2 exact row/scope changed"
+    },
+    {
+      "name": "current_field_4",
+      "result": "REJECTED",
+      "message": "TI2 exact row/scope changed"
+    },
+    {
+      "name": "current_field_5",
+      "result": "REJECTED",
+      "message": "TI2 exact row/scope changed"
+    },
+    {
+      "name": "current_field_6",
+      "result": "REJECTED",
+      "message": "TI2 exact row/scope changed"
+    },
+    {
+      "name": "current_field_7",
+      "result": "REJECTED",
+      "message": "TI2 exact row/scope changed"
+    },
+    {
+      "name": "current_field_8",
+      "result": "REJECTED",
+      "message": "TI2 exact row/scope changed"
+    },
+    {
+      "name": "current_missing",
+      "result": "REJECTED",
+      "message": "TI2 current row missing/duplicate"
+    },
+    {
+      "name": "current_duplicate",
+      "result": "REJECTED",
+      "message": "TI2 current row missing/duplicate"
+    },
+    {
+      "name": "current_reorder",
+      "result": "REJECTED",
+      "message": "TI2 row/header/order changed"
+    },
+    {
+      "name": "current_old_row",
+      "result": "REJECTED",
+      "message": "TI2 changed an original396 registry byte"
+    },
+    {
+      "name": "current_header",
+      "result": "REJECTED",
+      "message": "TI2 changed an original396 registry byte"
+    },
+    {
+      "name": "current_cannot_lack_G414",
+      "result": "REJECTED",
+      "message": "TI2 current row missing/duplicate"
+    },
+    {
+      "name": "current_one_snapshot",
+      "result": "PASS"
+    },
+    {
+      "name": "history_poison_validate_ti1_banking",
+      "result": "REJECTED",
+      "message": "TI2 exact row/scope changed"
+    },
+    {
+      "name": "history_clean_one_snapshot_validate_ti1_banking",
+      "result": "PASS"
+    },
+    {
+      "name": "history_poison_validate_conditional_banking",
+      "result": "REJECTED",
+      "message": "TI2 exact row/scope changed"
+    },
+    {
+      "name": "history_clean_one_snapshot_validate_conditional_banking",
+      "result": "PASS"
+    },
+    {
+      "name": "history_poison_validate_shared_constraint_banking",
+      "result": "REJECTED",
+      "message": "TI2 exact row/scope changed"
+    },
+    {
+      "name": "history_clean_one_snapshot_validate_shared_constraint_banking",
+      "result": "PASS"
+    },
+    {
+      "name": "history_poison_validate_persistence_banking",
+      "result": "REJECTED",
+      "message": "TI2 exact row/scope changed"
+    },
+    {
+      "name": "history_clean_one_snapshot_validate_persistence_banking",
+      "result": "PASS"
+    },
+    {
+      "name": "history_poison_validate_restrictiveness_banking",
+      "result": "REJECTED",
+      "message": "TI2 exact row/scope changed"
+    },
+    {
+      "name": "history_clean_one_snapshot_validate_restrictiveness_banking",
+      "result": "PASS"
+    },
+    {
+      "name": "history_poison_validate_source_metric_banking",
+      "result": "REJECTED",
+      "message": "TI2 exact row/scope changed"
+    },
+    {
+      "name": "history_clean_one_snapshot_validate_source_metric_banking",
+      "result": "PASS"
+    },
+    {
+      "name": "history_poison_validate_reconstruction_banking",
+      "result": "REJECTED",
+      "message": "TI2 exact row/scope changed"
+    },
+    {
+      "name": "history_clean_one_snapshot_validate_reconstruction_banking",
+      "result": "PASS"
+    },
+    {
+      "name": "history_poison_validate_coupled_banking",
+      "result": "REJECTED",
+      "message": "TI2 exact row/scope changed"
+    },
+    {
+      "name": "history_clean_one_snapshot_validate_coupled_banking",
+      "result": "PASS"
+    },
+    {
+      "name": "history_poison_validate_vacuum_scale_banking",
+      "result": "REJECTED",
+      "message": "TI2 exact row/scope changed"
+    },
+    {
+      "name": "history_clean_one_snapshot_validate_vacuum_scale_banking",
+      "result": "PASS"
+    },
+    {
+      "name": "history_poison_validate_berger_banking",
+      "result": "REJECTED",
+      "message": "TI2 exact row/scope changed"
+    },
+    {
+      "name": "history_clean_one_snapshot_validate_berger_banking",
+      "result": "PASS"
+    },
+    {
+      "name": "history_poison_validate_closed_fibre_banking",
+      "result": "REJECTED",
+      "message": "TI2 exact row/scope changed"
+    },
+    {
+      "name": "history_clean_one_snapshot_validate_closed_fibre_banking",
+      "result": "PASS"
+    },
+    {
+      "name": "history_poison_validate_neighboring_tidal_banking",
+      "result": "REJECTED",
+      "message": "TI2 exact row/scope changed"
+    },
+    {
+      "name": "history_clean_one_snapshot_validate_neighboring_tidal_banking",
+      "result": "PASS"
+    },
+    {
+      "name": "history_poison_validate_reviewed_backlog_banking",
+      "result": "REJECTED",
+      "message": "TI2 exact row/scope changed"
+    },
+    {
+      "name": "history_clean_one_snapshot_validate_reviewed_backlog_banking",
+      "result": "PASS"
+    },
+    {
+      "name": "authority_same_snapshot_poison",
+      "result": "REJECTED",
+      "message": "TI2 exact row/scope changed"
+    },
+    {
+      "name": "acceptance_poison_udt_ti2_banking_2026-09-11/BANKED_ROW.tsv",
+      "result": "REJECTED",
+      "message": "TI2 guard file changed: udt_ti2_banking_2026-09-11/BANKED_ROW.tsv"
+    },
+    {
+      "name": "acceptance_poison_udt_ti2_banking_2026-09-11/BANKED_CLAIM.json",
+      "result": "REJECTED",
+      "message": "TI2 guard file changed: udt_ti2_banking_2026-09-11/BANKED_CLAIM.json"
+    },
+    {
+      "name": "acceptance_poison_udt_ti2_banking_2026-09-11/BANKING_RECORD.md",
+      "result": "REJECTED",
+      "message": "TI2 guard file changed: udt_ti2_banking_2026-09-11/BANKING_RECORD.md"
+    },
+    {
+      "name": "acceptance_poison_udt_ti2_banking_2026-09-11/SOURCE_EVIDENCE_SHA256SUMS",
+      "result": "REJECTED",
+      "message": "TI2 guard file changed: udt_ti2_banking_2026-09-11/SOURCE_EVIDENCE_SHA256SUMS"
+    },
+    {
+      "name": "acceptance_poison_udt_ti2_banking_2026-09-11/WORK_ORDER.md",
+      "result": "REJECTED",
+      "message": "TI2 guard file changed: udt_ti2_banking_2026-09-11/WORK_ORDER.md"
+    },
+    {
+      "name": "source_poison_INITIAL_CANDIDATE.md",
+      "result": "REJECTED",
+      "message": "TI2 original source evidence changed: udt_two_shape_evolution_2026-09-11/INITIAL_CANDIDATE.md"
+    },
+    {
+      "name": "source_poison_REVIEWED_RESULT.md",
+      "result": "REJECTED",
+      "message": "TI2 original source evidence changed: udt_two_shape_evolution_2026-09-11/REVIEWED_RESULT.md"
+    },
+    {
+      "name": "source_poison_DISCOVERY_AND_FREEZE.md",
+      "result": "REJECTED",
+      "message": "TI2 original source evidence changed: udt_two_shape_evolution_2026-09-11/DISCOVERY_AND_FREEZE.md"
+    },
+    {
+      "name": "source_poison_review/REVIEW.md",
+      "result": "REJECTED",
+      "message": "TI2 original source evidence changed: udt_two_shape_evolution_2026-09-11/review/REVIEW.md"
+    },
+    {
+      "name": "source_poison_review/FINAL_FIDELITY.md",
+      "result": "REJECTED",
+      "message": "TI2 original source evidence changed: udt_two_shape_evolution_2026-09-11/review/FINAL_FIDELITY.md"
+    },
+    {
+      "name": "source_poison_initial_rate.py",
+      "result": "REJECTED",
+      "message": "TI2 original source evidence changed: udt_two_shape_evolution_2026-09-11/initial_rate.py"
+    },
+    {
+      "name": "source_poison_checks/mutant_omit_spatial_ricci_rate.json",
+      "result": "REJECTED",
+      "message": "TI2 original source evidence changed: udt_two_shape_evolution_2026-09-11/checks/mutant_omit_spatial_ricci_rate.json"
+    },
+    {
+      "name": "source_poison_review/adm_rate.stderr",
+      "result": "REJECTED",
+      "message": "TI2 original source evidence changed: udt_two_shape_evolution_2026-09-11/review/adm_rate.stderr"
+    },
+    {
+      "name": "replay_poison_before_projection_and_fallback",
+      "result": "REJECTED",
+      "message": "TI2 exact row/scope changed"
+    }
+  ],
+  "source_and_registry_mutation": "supplied read bytes only; no real file edits",
+  "independence": "separate-context harness; production guards reused as object of tests, not science proof",
+  "omissions": "Full397 and original symbolic/Fraction science are not rerun."
+}

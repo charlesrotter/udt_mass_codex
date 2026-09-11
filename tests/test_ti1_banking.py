@@ -11,7 +11,10 @@ def fixture(root):
     for name in (*guard.TI1_GUARD_FILES, "CURRENT_SCIENTIFIC_PREMISES.tsv"):
         target = root / name
         target.parent.mkdir(parents=True, exist_ok=True)
-        shutil.copy2(REPO / name, target)
+        if name == "CURRENT_SCIENTIFIC_PREMISES.tsv":
+            target.write_bytes(guard.without_ti2((REPO / name).read_bytes()))
+        else:
+            shutil.copy2(REPO / name, target)
     return root
 
 

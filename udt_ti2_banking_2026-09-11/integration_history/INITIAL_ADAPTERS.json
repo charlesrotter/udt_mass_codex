@@ -1,0 +1,21 @@
+{
+  "utc": "2026-09-11T19:01:27.679020+00:00",
+  "baseline": "b95ace99315b816b9a53abe8102b478d1e1cd188",
+  "command": [
+    "git",
+    "diff",
+    "--",
+    "verify_current_scientific_premises.py",
+    "ti1_banking_guard.py",
+    "tests/test_startup_surface.py",
+    "tests/test_ti1_banking.py"
+  ],
+  "sha256": {
+    "verify_current_scientific_premises.py": "219975817232c91a539beb4a332d78f313dd74ae043a3b25098f49af12083344",
+    "ti1_banking_guard.py": "d65115db04d6ac5a08d80d3714c8f876285aea7b0e6307de6dbf5372e29aeac1",
+    "tests/test_startup_surface.py": "2e83f85ea6275de009e4f8a5819e4d54be32594f71f4f5397fc68157e15ad3bf",
+    "tests/test_ti1_banking.py": "623216f9b54c11f45f57b53065406ef9b64790e7ae56eeada5e4b340b5896fb8"
+  },
+  "patch_sha256": "f80a32c4479b778d230938e47cc3645ac7544303758c0cfbd200bf5d8fae7978",
+  "issue": "old11 guards perform a second unvalidated current-row read after authenticated historical bytes; counterexample and repair pending; science unchanged"
+}

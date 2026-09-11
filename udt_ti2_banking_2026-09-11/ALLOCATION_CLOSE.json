@@ -1,0 +1,14 @@
+{
+  "recorded_utc": "2026-09-11T19:23:34.861727+00:00",
+  "banking_context": "/root/ti2_banking_fidelity",
+  "first_observed_utc": "2026-09-11T18:54:40Z",
+  "final_fidelity_seal_utc": "2026-09-11T19:21:22.106994+00:00",
+  "status": "COMPLETED",
+  "overlap": "parent banking construction/integration/closeout",
+  "actual_new_contexts_so_far": 1,
+  "later_TI3_reviewer": "NOT_YET_ALLOCATED",
+  "old_contexts": "retained and unused",
+  "runtime_model_version": "UNATTESTED",
+  "capacity": "actual allocation only; restored/general capacity UNVERIFIED",
+  "TI3": "AUTHORIZED_NOT_STARTED; actual start after banking publication"
+}
