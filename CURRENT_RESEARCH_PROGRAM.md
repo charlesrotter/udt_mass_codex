@@ -112,6 +112,6 @@ Backup completeness/pre-reboot unsaved state remain UNVERIFIED; ScratchDisk is a
 
 ## Current next gate
 
-G383--G412 exact-scope banking is COMPLETE; G413=TI1 and G414=TI2 conditionally banked; authorized TI3 scope: INDEX.
+G383--G412 exact-scope banking is COMPLETE; G413=TI1 and G414=TI2 conditionally banked; TI3 reviewed conditional UNPROMOTED: INDEX.
 G312 membership unclosed; G352 physical-realization: physical identification remains OPEN.
-Stop for lay discussion with Charles after the bounded profile/review/repair cycle; no new campaign is authorized beyond that work order.
+Stop for lay discussion with Charles; no new campaign is authorized.

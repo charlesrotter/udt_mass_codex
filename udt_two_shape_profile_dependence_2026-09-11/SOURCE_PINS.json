@@ -1,0 +1,17 @@
+{
+  "utc": "2026-09-11T19:30:22.091579+00:00",
+  "HEAD": "6b09b8caab189291a6ffc1956dea304bbe6da7cb",
+  "sources": {
+    "udt_ti2_banking_2026-09-11/WORK_ORDER.md": "41eb3a4d910d6ceb62f9fd02219d367c8417f1240046973145a52d46750e08de",
+    "udt_ti2_banking_2026-09-11/BANKING_RECORD.md": "47e89ed7551c7a842fc58504a0e10c1708f70915d1a69eef7fc4a914c062d093",
+    "udt_ti2_banking_2026-09-11/BANKED_CLAIM.json": "1d677b22d8aa9cfe99893e1893215010e69a30a7ea305b60fcdc1df33ab3db6c",
+    "udt_two_shape_evolution_2026-09-11/INITIAL_CANDIDATE.md": "1d9b24c359636dd212f684b45793f2f02cfa8959df0e8a8dc0c19bcb5c8ae0a9",
+    "udt_two_shape_evolution_2026-09-11/initial_rate.py": "6bf77547ffb39b05f62d0e9133cf449984df2c8427aea9e5fc27640ccae402d1",
+    "udt_two_shape_evolution_2026-09-11/checks/initial_rate.stdout": "e2cf629a5a09f617f9e795663bd232e91926d895f1c7397a230dbbd2e16748c3",
+    "udt_two_shape_evolution_2026-09-11/review/REVIEW.md": "2d4df848a6c5eebcdbe73f4dcc735b8ad8839b8d59a2da6250caae07c7d47e9b",
+    "udt_two_shape_evolution_2026-09-11/review/FINAL_FIDELITY.md": "50518590e11150068abd2c5a3e896e7d1e8aebf8957dfadb464a880c7d6d431d",
+    "udt_ti1_banking_2026-09-11/BANKING_RECORD.md": "08216184fd508d84e6e6fd263a0499595ed1926dc9b550007a3f0328e970b89e",
+    "udt_two_shape_nonlinear_interaction_2026-09-11/INITIAL_CANDIDATE.md": "d2e4bd56154091e46cc89c9dc3dec227ff3662d11b045309e004b358bb45c85f",
+    "CURRENT_SCIENTIFIC_PREMISES.tsv": "2c27fa4b8931672c44b4d778aab0f2a2631c04a5c586358340db1dc763b74f7e"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "verdict": "PASS",
+  "checked_utc": "2026-09-11T19:56:43.832862+00:00",
+  "branch": "grok",
+  "HEAD": "6b09b8caab189291a6ffc1956dea304bbe6da7cb",
+  "local_origin_grok": "6b09b8caab189291a6ffc1956dea304bbe6da7cb",
+  "pins_checked": {
+    "SOURCE_PINS.json": 11,
+    "CANDIDATE_FREEZE.json": 10,
+    "udt_ti1_banking_2026-09-11/SOURCE_EVIDENCE_SHA256SUMS": 103,
+    "udt_ti2_banking_2026-09-11/SOURCE_EVIDENCE_SHA256SUMS": 120
+  },
+  "registry397_byte_identical": true,
+  "exact_tracked_changes": [
+    "CURRENT_RESEARCH_PROGRAM.md",
+    "HANDOFF.md",
+    "INDEX.md",
+    "LIVE.md",
+    "UDT_RESEARCH_ROADMAP.md"
+  ],
+  "original46_status_sha256": "55e7c4508622f912730f9c068cc571c370b3977bc1110eb0a48a8218dbe024c2",
+  "protected_payloads": "not inspected; names/status only",
+  "backup_completeness": "UNVERIFIED",
+  "pre_reboot_unsaved_state": "UNVERIFIED",
+  "new_science": "TI3_CONDITIONAL_UNPROMOTED",
+  "publication": "future; not inferred from this check"
+}

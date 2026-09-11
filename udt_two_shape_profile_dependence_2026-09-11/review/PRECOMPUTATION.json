@@ -1,0 +1,23 @@
+{
+  "utc": "2026-09-11T19:40:02.911137+00:00",
+  "context": "/root/ti3_profile_review",
+  "first_clock_observed_utc": "2026-09-11T19:36:10Z",
+  "review_deadline_utc": "2026-09-11T20:21:10Z",
+  "exposure": "Whole TI3 candidate and complete G413/G414 candidate arguments and acceptance/reviews; no author science implementation/output read yet; compact expected rates known.",
+  "model_version": "UNATTESTED",
+  "precomputation_pins": {
+    "AGENTS.md": "c11d94f25bf58bf3d1cee6fb6bc886ebfac2d7581f5b794244685019bc00d628",
+    "CLAUDE.md": "b7e524a5b06760e57877a408630228767ae9a394134095f9851bef5d06e17751",
+    ".claude/skills/no-shortcuts/SKILL.md": "fd3a1f3218481134f2af829d3ae4175ac53518f75bf9673287efbfb7d7708fc1",
+    ".claude/skills/completeness-map/SKILL.md": "a8cf9e5f4a6d35a0d0ebfe4bc48dbf328ca74e318f020a6a22cb683666a611c0",
+    ".claude/skills/verifier-before-record/SKILL.md": "9b3a4aacd4b4006b2b7f01edada73b7c87b99bea6e754583558713bfc145e5ac",
+    "udt_ti2_banking_2026-09-11/WORK_ORDER.md": "41eb3a4d910d6ceb62f9fd02219d367c8417f1240046973145a52d46750e08de",
+    "udt_two_shape_profile_dependence_2026-09-11/INITIAL_CANDIDATE.md": "8d6b2313fe3f0ade3bc2e9383493fe09a16ff053f726361ccd6bce4500d3f732",
+    "udt_two_shape_profile_dependence_2026-09-11/FRAME_AND_DISCOVERY.md": "100fdbda2b1958e86be74c898637af86ca028014aed8c13048cce0fb25b5916b",
+    "udt_two_shape_profile_dependence_2026-09-11/LAUNCH.json": "a726e773223fe88c9599d7c882e0db811423719f0e077aaf44e500ae990b644c",
+    "udt_two_shape_profile_dependence_2026-09-11/SOURCE_PINS.json": "f2b8f49eeb3a13cac86526794ee47f97eb326909cc221333b8aab7c25e05c71f",
+    "udt_two_shape_profile_dependence_2026-09-11/CANDIDATE_FREEZE.json": "b80dcf5b65f934dbf104a76492612f0a668858a3484952b1d4a4ea07f9036ac4",
+    "udt_two_shape_profile_dependence_2026-09-11/review/raw_metric_anchors.py": "24b17513420517e5697bc5c91b19e26ba67a625ed53ad87ba8e23eb20b32941b",
+    "udt_reviewed_backlog_banking_2026-09-10/capture_existing.py": "1b95a783e861a52cc9fc50d3c76c152cb3673fc9045372afafd30da269ffec3f"
+  }
+}

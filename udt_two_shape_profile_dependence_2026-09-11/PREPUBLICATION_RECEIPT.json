@@ -1,0 +1,13 @@
+{
+  "sealed_utc": "2026-09-11T20:01:31.989725+00:00",
+  "baseline_head": "6b09b8caab189291a6ffc1956dea304bbe6da7cb",
+  "manifest_entries": 68,
+  "staging_paths": 70,
+  "manifest_sha256": "ada8a83c8552441dd31ed9b41aca3565bf1ca6b70d4d418120eda9ea5d8c04b9",
+  "final_fidelity_receipt_sha256": "cde89565d721d32479e2253e2922db0c307a757f32ca2157a21601fdb12ef83f",
+  "verified_final_pins": 83,
+  "candidate_and_sources_unchanged": true,
+  "original46_status_sha256": "55e7c4508622f912730f9c068cc571c370b3977bc1110eb0a48a8218dbe024c2",
+  "publication": "FUTURE_AT_SEAL",
+  "outcome_metadata": "parent-owned after final fidelity; not new science or acceptance"
+}

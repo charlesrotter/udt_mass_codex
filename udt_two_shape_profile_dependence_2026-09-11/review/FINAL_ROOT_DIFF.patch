@@ -1,0 +1,133 @@
+diff --git a/CURRENT_RESEARCH_PROGRAM.md b/CURRENT_RESEARCH_PROGRAM.md
+index 41a1bf47..05bf9525 100644
+--- a/CURRENT_RESEARCH_PROGRAM.md
++++ b/CURRENT_RESEARCH_PROGRAM.md
+@@ -112,6 +112,6 @@ Backup completeness/pre-reboot unsaved state remain UNVERIFIED; ScratchDisk is a
+ 
+ ## Current next gate
+ 
+-G383--G412 exact-scope banking is COMPLETE; G413=TI1 and G414=TI2 conditionally banked; authorized TI3 scope: INDEX.
++G383--G412 exact-scope banking is COMPLETE; G413=TI1 and G414=TI2 conditionally banked; TI3 reviewed conditional UNPROMOTED: INDEX.
+ G312 membership unclosed; G352 physical-realization: physical identification remains OPEN.
+-Stop for lay discussion with Charles after the bounded profile/review/repair cycle; no new campaign is authorized beyond that work order.
++Stop for lay discussion with Charles; no new campaign is authorized.
+diff --git a/HANDOFF.md b/HANDOFF.md
+index 93191c15..f6b30355 100644
+--- a/HANDOFF.md
++++ b/HANDOFF.md
+@@ -78,7 +78,7 @@ report actual model/instructions/checks. After orientation: `maintenance_agent_c
+ dated handoff sequence. General capacity UNVERIFIED; prior passes are historical evidence.
+ Availability testing is operational only; the whiteboard's scientific audit is PROPOSED, NOT AUTHORIZED.
+ 
+-Next: G383--G412 exact-scope banking is COMPLETE; G413=TI1 and G414=TI2 conditionally banked; authorized TI3 scope: INDEX.
++Next: G383--G412 exact-scope banking is COMPLETE; G413=TI1 and G414=TI2 conditionally banked; TI3 reviewed conditional UNPROMOTED: INDEX.
+ G312 membership unclosed; G352 physical-realization: physical identification remains OPEN.
+-Stop for lay discussion with Charles after the bounded profile/review/repair cycle; no new campaign is authorized beyond that work order.
++Stop for lay discussion with Charles; no new campaign is authorized.
+ <!-- STARTUP_CURRENT_END -->
+diff --git a/INDEX.md b/INDEX.md
+index 17618181..db5368b7 100644
+--- a/INDEX.md
++++ b/INDEX.md
+@@ -1,7 +1,7 @@
+ # INDEX — compact current pointers; `LIVE.md` wins
+ 
+ G383--G412 exact-scope banking COMPLETE; G413 banked; G414 banked; scopes/reviews below.
+-Roadmap: `UDT_RESEARCH_ROADMAP.md`; G414: `udt_ti2_banking_2026-09-11/BANKING_RECORD.md`; TI3 scope: its WORK_ORDER.md.
++Roadmap: `UDT_RESEARCH_ROADMAP.md`; G414: `udt_ti2_banking_2026-09-11/BANKING_RECORD.md`; TI3 reviewed/UNPROMOTED: `udt_two_shape_profile_dependence_2026-09-11/DECISION_BRIEF.md`.
+ Backlog: `udt_reviewed_backlog_banking_2026-09-10/BANKING_RECORD.md`; exact claims/dispositions/checks there.
+ The exact 397-row `CURRENT_SCIENTIFIC_PREMISES.tsv` owns grades, not these pointers.
+ GR is FILTER ONLY, not a response-law input; Local Metric Sufficiency remains owner-provisional.
+diff --git a/LIVE.md b/LIVE.md
+index 4a30b7c0..f7ec9237 100644
+--- a/LIVE.md
++++ b/LIVE.md
+@@ -106,7 +106,7 @@ Protected—do not stage, modify, mine or cite without dispatch:
+ 
+ ### Next gate
+ 
+-G383--G412 exact-scope banking is COMPLETE; G413=TI1 and G414=TI2 conditionally banked; authorized TI3 scope: INDEX.
++G383--G412 exact-scope banking is COMPLETE; G413=TI1 and G414=TI2 conditionally banked; TI3 reviewed conditional UNPROMOTED: INDEX.
+ G312 membership unclosed; G352 physical-realization: physical identification remains OPEN.
+-Stop for lay discussion with Charles after the bounded profile/review/repair cycle; no new campaign is authorized beyond that work order.
++Stop for lay discussion with Charles; no new campaign is authorized.
+ <!-- STARTUP_CURRENT_END -->
+diff --git a/UDT_RESEARCH_ROADMAP.md b/UDT_RESEARCH_ROADMAP.md
+index 59d6bf6d..31840d8a 100644
+--- a/UDT_RESEARCH_ROADMAP.md
++++ b/UDT_RESEARCH_ROADMAP.md
+@@ -2,9 +2,9 @@
+ 
+ Updated: 2026-09-11. Charles Rotter requested the whole plan on 2026-09-09;
+ its original baseline was `d0fe8b3e5f95c3963dc8702bb4a31485678bd1e3`, branch `grok`.
+-Earlier campaigns and TI2 are COMPLETE; G414 banking is complete; the subsequent TI3 study is authorized.
++Earlier campaigns, G414 banking and TI3 are COMPLETE; TI3 is reviewed conditional UNPROMOTED.
+ Current operational handoff: `HANDOFF.md`; the maintained checkpoint below records the reviewed
+-ER1 expansion, banking through G413 and current G414/TI3 gates. No successor beyond TI3 is authorized.
++ER1 expansion, banking through G414 and the TI3 return. No successor beyond TI3 is authorized.
+ This is a maintained direction document, not a premise, theorem, promotion
+ or replacement for LIVE, the exact registry, or reviewed scientific sources.
+ 
+@@ -260,7 +260,7 @@ authorization. A coverage row is not a completeness theorem or a scientific prem
+ | Exact metric/kernel, stages1–2 | ER1 COMPLETE, reviewed; G405 conditionally banked at exact scope | `udt_exact_metric_kernel_expansion_2026-09-10/DECISION_BRIEF.md` and `udt_exact_metric_kernel_expansion_2026-09-10/review/REVIEW.md`: variable lapse/rest form/time-live shift, exact rotation interaction; supplied configuration class only |
+ | Joint realization, stage3 | ER1's finite marked-record recipe COMPLETE at reviewed scope | Six common directional records plus density and derivatives; SPD/shift coherence and actual shared immersions; no physical pair population or arbitrary-network theorem |
+ | Conditional nonlinear developments, stage4 | G413=TI1 conditionally banked at full reviewed scope | `udt_two_shape_nonlinear_interaction_2026-09-11/REVIEWED_RESULT.md` and its `review/REVIEW.md`: complete analytic Ric=0 data/developments, initial mixed curvature distinction, phase/completion controls and retained-density join; no native equation adoption or later generated coupling |
+-| Reach/persistence, stage5 | TI1 banked; G414=TI2 conditionally banked; TI3 profile study authorized afterward | `udt_ti2_banking_2026-09-11/BANKING_RECORD.md` and WORK_ORDER.md: full TI2 rate, completion, cancellation and record scope; TI3 releases the harmonic profile restriction, retaining supplied equation/marking and local limits |
++| Reach/persistence, stage5 | G414=TI2 banked; TI3 COMPLETE, reviewed conditional UNPROMOTED | `udt_two_shape_profile_dependence_2026-09-11/REVIEWED_RESULT.md` and its `review/REVIEW.md`: broader profiles, full local-development interface, opposite initial magnitude changes, point zeros, profile-dependent reference and second/third record-jet distinction; all equation/marking/local limits remain |
+ 
+ ER1 returned the reviewed conditional result, actual witness/record compatibility and lay brief;
+ its exact execution and final fidelity receipts are in that package. The two-hour research authorization
+@@ -282,8 +282,9 @@ promotion at the entire reviewed conditional scope and then the bounded profile
+ `udt_ti2_banking_2026-09-11/WORK_ORDER.md` owns that new dispatch; BANKING_RECORD.md owns exact
+ acceptance scope and CLOSEOUT.md the integration results. G414 is conditionally banked. Preserve
+ all396 previous rows and120 original TI2 files; controls remain controls. The new actual
+-prebank396 and postrepair full397 audits passed. Banking is bounded to19:36:07UTC; TI3 receives its own two-hour
+-ceiling, no later than21:36:07UTC. No physical adoption or TI3 promotion is authorized.
++prebank396 and postrepair full397 audits passed. G414 was committed/pushed at6b09b8ca before TI3
++began19:25:08.781539UTC. TI3's separate two-hour ceiling was21:25:08.781539UTC; its actual
++closeout receipts own execution. No physical adoption or TI3 promotion is authorized.
+ Backup completeness/pre-reboot unsaved state remain UNVERIFIED.
+ 
+ Learning to carry forward: an exact time-live shift interaction can disappear under a stationarity
+@@ -310,15 +311,32 @@ linearization or careful perturbation theory. Harmonic-family rate recovery uses
+ derivatives; the broader marked-Gaussian curvature-rate recipe can use third derivatives.
+ No energy transfer, physical identification, universal time interval or global stability follows.
+ 
+-Authorized next action after G414 banking: the separate two-hour TI3 profile study from the
+-original DECISION_BRIEF.md, now dispatched by the new banking WORK_ORDER.md. Release the single
+-sinusoidal profile assumption and test full constraints, local development, cancellations,
+-reference existence and retained-record derivative needs. TI3 has not started at this banking
+-checkpoint. Include exact checks, one fresh separate-context review and bounded same-premise
+-repair/closeout, then return a reviewed conditional result or precise boundary and lay discussion.
+-The new result remains UNPROMOTED; no automatic successor or physical adoption is authorized.
+-Native equation/assembly questions remain parallel open work; naming a comparison equation
+-never authorizes adopting it as UDT. The fixed through-G352 manuscript remains unchanged.
++TI3 completed that profile expansion at VERIFIED-WITH-CAVEATS, with no required scientific repair.
++The entire frozen candidate and review control: `udt_two_shape_profile_dependence_2026-09-11/`;
++REVIEWED_RESULT.md, DECISION_BRIEF.md and CLOSEOUT.md record scope, lay meaning and actual checks.
++Each fixed nonaligned matched-frequency datum retains initial decline, but its reference changes with
++frequency. An offset-profile family inside the same pointwise safe bounds permits opposite
++initial magnitude changes and regular point zeros that become nonzero shortly afterward.
++Identical complete second-order local density records can have different rates; third-order
++records suffice. These are different complete spatial data, not ambiguous evolution from
++identical initial data. Whole smooth fields already retain their derivatives. All examples
++have full constraints and the actual analytic local-development interface; no global-time,
++genericity, instability, physical identification or selected scale follows.
++
++Disposition: G414 stays banked at its entire reviewed scope. TI3 awaits Charles's separate
++exact-scope promotion authority and the usual banking checks; its mathematical review passed. Its explicitly chosen
++counterexamples and rejected harmonic shortcut remain examples/controls, not representative
++sampling or native selectors. Parent exact checks, an independent original-Ricci/full-curvature
++anchor implementation and a new actual full397 premise audit passed. CLOSEOUT.md records final
++navigation evidence; later publication receipts will own actual publication. The initial candidate
++and original science remain fixed.
++
++Next decision is discussion of that promotion and the next restriction worth testing. The
++remaining supplied choices include flat initial geometry, equation, observer and short time
++extent; a future bounded proposal must identify its actual new question and full review cycle.
++No automatic successor is authorized. Native equation/assembly questions remain parallel open
++work; additional conditional Ric=0 examples cannot alone establish that native join. The fixed
++through-G352 manuscript remains unchanged. Stop for lay discussion with Charles.
+ 
+ ### What the concern means
+ 

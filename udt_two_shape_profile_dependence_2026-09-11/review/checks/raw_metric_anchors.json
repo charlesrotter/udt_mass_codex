@@ -1,0 +1,15 @@
+{
+  "command": [
+    "python3",
+    "udt_two_shape_profile_dependence_2026-09-11/review/raw_metric_anchors.py",
+    "udt_two_shape_profile_dependence_2026-09-11/review/raw_metric_results.json"
+  ],
+  "cwd": "/home/udt-admin/udt_mass_codex",
+  "started_utc": "2026-09-11T19:40:02.929486+00:00",
+  "duration_seconds": 0.46610226697521284,
+  "returncode": 0,
+  "timeout": false,
+  "address_space_bytes": 2147483648,
+  "cpu_seconds": 180,
+  "maxrss_kib": 46700
+}

@@ -1,0 +1,125 @@
+{
+  "verdict": "PASS",
+  "implementation": "independent direct lower-Riemann metric-jet equation solve",
+  "python": "3.10.12",
+  "sympy": "1.13.1",
+  "source_exposed": true,
+  "author_science_imports": [],
+  "check_groups": 22,
+  "components": 2908,
+  "checks": [
+    {
+      "name": "lambda0_Ricij_normal_coefficient",
+      "components": 1,
+      "failures": []
+    },
+    {
+      "name": "lambda0_Ricij_X_normal_coefficient",
+      "components": 1,
+      "failures": []
+    },
+    {
+      "name": "lambda0_Ricij_T_normal_coefficient",
+      "components": 1,
+      "failures": []
+    },
+    {
+      "name": "lambda0_all_Ricci",
+      "components": 16,
+      "failures": []
+    },
+    {
+      "name": "lambda0_all_Ricci_T",
+      "components": 16,
+      "failures": []
+    },
+    {
+      "name": "lambda0_all_Ricci_X",
+      "components": 16,
+      "failures": []
+    },
+    {
+      "name": "lambda0_Riemann_symmetries",
+      "components": 1024,
+      "failures": []
+    },
+    {
+      "name": "lambda0_Lorentzian_star_squared",
+      "components": 256,
+      "failures": []
+    },
+    {
+      "name": "lambda0_candidate_correspondence",
+      "components": 2,
+      "failures": []
+    },
+    {
+      "name": "lambda2_Ricij_normal_coefficient",
+      "components": 1,
+      "failures": []
+    },
+    {
+      "name": "lambda2_Ricij_X_normal_coefficient",
+      "components": 1,
+      "failures": []
+    },
+    {
+      "name": "lambda2_Ricij_T_normal_coefficient",
+      "components": 1,
+      "failures": []
+    },
+    {
+      "name": "lambda2_all_Ricci",
+      "components": 16,
+      "failures": []
+    },
+    {
+      "name": "lambda2_all_Ricci_T",
+      "components": 16,
+      "failures": []
+    },
+    {
+      "name": "lambda2_all_Ricci_X",
+      "components": 16,
+      "failures": []
+    },
+    {
+      "name": "lambda2_Riemann_symmetries",
+      "components": 1024,
+      "failures": []
+    },
+    {
+      "name": "lambda2_Lorentzian_star_squared",
+      "components": 256,
+      "failures": []
+    },
+    {
+      "name": "lambda2_candidate_correspondence",
+      "components": 2,
+      "failures": []
+    },
+    {
+      "name": "metric_jets_complete_second_order_equality",
+      "components": 150,
+      "failures": []
+    },
+    {
+      "name": "records_complete_second_order_equality",
+      "components": 90,
+      "failures": []
+    },
+    {
+      "name": "rate_difference",
+      "components": 1,
+      "failures": []
+    },
+    {
+      "name": "third_jet_difference",
+      "components": 1,
+      "failures": []
+    }
+  ],
+  "third_jet_yy_TXX_difference": "1/25"
+}
+lambda 0 P -39991/37500000 U(P) 3519567919/900000000000 inverse contraction 1599759973/750000000000
+lambda 2 P -39991/37500000 U(P) -2240432081/900000000000 inverse contraction 1599759973/750000000000

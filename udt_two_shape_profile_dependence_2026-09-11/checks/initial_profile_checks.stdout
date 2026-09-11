@@ -1,0 +1,236 @@
+{
+  "status": "PASS",
+  "python": "3.10.12",
+  "sympy": "1.13.1",
+  "route": "source-exposed exact profile/constraint/record algebra; no fresh raw tensor reproof",
+  "source_pins_sha256": "f2b8f49eeb3a13cac86526794ee47f97eb326909cc221333b8aab7c25e05c71f",
+  "checks": [
+    {
+      "name": "same_pinned_raw_metric_three_jet_P",
+      "components": 1,
+      "nonzero": []
+    },
+    {
+      "name": "same_pinned_raw_metric_three_jet_rate",
+      "components": 1,
+      "nonzero": []
+    },
+    {
+      "name": "full_constraints_general_profile",
+      "components": 4,
+      "nonzero": []
+    },
+    {
+      "name": "s_constant_is_load_bearing",
+      "components": 1,
+      "nonzero": []
+    },
+    {
+      "name": "accepted_matrix_contraction_correspondence",
+      "components": 1,
+      "nonzero": []
+    },
+    {
+      "name": "metric_inverse_contraction_term_retained_then_zero",
+      "components": 1,
+      "nonzero": []
+    },
+    {
+      "name": "general_ratio_only_nonzero_W",
+      "components": 1,
+      "nonzero": []
+    },
+    {
+      "name": "matched_reference_correction",
+      "components": 1,
+      "nonzero": []
+    },
+    {
+      "name": "explicit_small_amplitude_remainder",
+      "components": 1,
+      "nonzero": []
+    },
+    {
+      "name": "matched_undivided_expression_only_equal_to_comparison_where_W_nonzero",
+      "components": 1,
+      "nonzero": []
+    },
+    {
+      "name": "orientation_profile_sign_control",
+      "components": 2,
+      "nonzero": []
+    },
+    {
+      "name": "Hn_W",
+      "components": 1,
+      "nonzero": []
+    },
+    {
+      "name": "Hn_V",
+      "components": 1,
+      "nonzero": []
+    },
+    {
+      "name": "Hn_reference_unit_mode_recovers_TI2",
+      "components": 1,
+      "nonzero": []
+    },
+    {
+      "name": "Hn_frequency_reference_difference",
+      "components": 1,
+      "nonzero": []
+    },
+    {
+      "name": "Flambda_W",
+      "components": 1,
+      "nonzero": []
+    },
+    {
+      "name": "Flambda_V",
+      "components": 1,
+      "nonzero": []
+    },
+    {
+      "name": "same_K_at_X0_all_lambda",
+      "components": 9,
+      "nonzero": []
+    },
+    {
+      "name": "same_KX_at_X0_all_lambda",
+      "components": 9,
+      "nonzero": []
+    },
+    {
+      "name": "same_KT_at_X0_all_lambda",
+      "components": 9,
+      "nonzero": []
+    },
+    {
+      "name": "six_densities_entire_total_order_two_jet",
+      "components": 90,
+      "nonzero": []
+    },
+    {
+      "name": "same_P_at_X0",
+      "components": 1,
+      "nonzero": []
+    },
+    {
+      "name": "different_rate_at_X0",
+      "components": 1,
+      "nonzero": []
+    },
+    {
+      "name": "third_record_jet_distinguishes_lambda2_from_lambda0",
+      "true": true
+    },
+    {
+      "name": "six_direction_polarization_any_derivative",
+      "components": 9,
+      "nonzero": []
+    },
+    {
+      "name": "anchor_lambda0_sign",
+      "true": true
+    },
+    {
+      "name": "anchor_lambda0_safe_global_bound",
+      "true": true
+    },
+    {
+      "name": "anchor_lambda2_sign",
+      "true": true
+    },
+    {
+      "name": "anchor_lambda2_safe_global_bound",
+      "true": true
+    },
+    {
+      "name": "anchor_opposite_rate_difference",
+      "components": 1,
+      "nonzero": []
+    },
+    {
+      "name": "Flambda_zero_P",
+      "components": 1,
+      "nonzero": []
+    },
+    {
+      "name": "Flambda_zero_rate",
+      "components": 1,
+      "nonzero": []
+    },
+    {
+      "name": "Flambda_zero_is_simple",
+      "components": 1,
+      "nonzero": []
+    },
+    {
+      "name": "wrong_harmonic_prior_changes_original_rate",
+      "components": 1,
+      "nonzero": []
+    },
+    {
+      "name": "wrong_harmonic_prior_detected_at_anchor",
+      "true": true
+    },
+    {
+      "name": "matched_S_exact_amplitude_polynomial",
+      "components": 1,
+      "nonzero": []
+    },
+    {
+      "name": "original_reference_completion_through_fifth_order",
+      "components": 1,
+      "nonzero": []
+    },
+    {
+      "name": "harmonic_original_reference_recovers_TI2",
+      "components": 1,
+      "nonzero": []
+    }
+  ],
+  "anchors": {
+    "0": {
+      "P": "-39991/37500000",
+      "P_T": "3519567919/900000000000",
+      "L": "-88009/24000",
+      "L0": "-11/3",
+      "L_minus_L0": "-3/8000",
+      "d_P_squared": "-140751040648729/16875000000000000000"
+    },
+    "2": {
+      "P": "-39991/37500000",
+      "P_T": "-2240432081/900000000000",
+      "L": "2240432081/959784000",
+      "L0": "7/3",
+      "L_minus_L0": "312027/319928000",
+      "d_P_squared": "89597119351271/16875000000000000000"
+    }
+  },
+  "general": {
+    "P": "-16*(p*r_X - p_X*r)*(p**2 + r**2 - s**2)/s",
+    "P_T": "32*p_X*r_XX - 32*p_XX*r_X - 8*(11*s + (5*p**2 + 5*r**2)/s)*(p*r_X - p_X*r)*(p**2 + r**2 - s**2)/s",
+    "L": "5*D/(2*s) - 2*Q*s/(-D + s**2) + 11*s/2",
+    "L0": "-2*Q/s + 11*s/2",
+    "L_minus_L0": "D*(-4*Q/(-D + s**2) + 5)/(2*s)",
+    "matched_S_algebraic_extension": "(8*p**2 + 8*r**2)*(4*p_X*r_XX - 4*p_XX*r_X + (p*r_X - p_X*r)*(-5*p**2 - 5*r**2 + 5*s**2))/s**2"
+  },
+  "offset": {
+    "W": "a*b*(-lambda + (lambda + 1)*cos(X))",
+    "V": "a*b*lambda",
+    "zero_P_T": "-32*a*b*lambda",
+    "X0_false_harmonic_prior_error": "-32*a*b*(lambda + 1)"
+  },
+  "completion": {
+    "matched_epsilon4": "-8*d1*(9*v - 5*w)",
+    "original_extra_c2_epsilon4_c3_epsilon5": "-16*(9*v + 11*w)/3"
+  },
+  "existence": "analytic argument reviewed separately; passing algebra does not prove CK hypotheses",
+  "no_claims": [
+    "PDE trajectory",
+    "native equation selection",
+    "TI3 promotion",
+    "global classification"
+  ]
+}

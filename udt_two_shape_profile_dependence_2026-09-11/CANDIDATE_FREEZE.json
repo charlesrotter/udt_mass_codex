@@ -1,0 +1,16 @@
+{
+  "utc": "2026-09-11T19:35:18.046739+00:00",
+  "exposure": "whole candidate after parent hand/algebra discovery and computer checks; before TI3 fresh review allocation",
+  "files": {
+    "INITIAL_CANDIDATE.md": "8d6b2313fe3f0ade3bc2e9383493fe09a16ff053f726361ccd6bce4500d3f732",
+    "profile_checks.py": "63908a86c4f33b558783c7228517e375150ebf3b2d8c653d87022ba85cba6637",
+    "FRAME_AND_DISCOVERY.md": "100fdbda2b1958e86be74c898637af86ca028014aed8c13048cce0fb25b5916b",
+    "FRAME_FREEZE.json": "3aeb580484f20fde654342a22d1ed028bee4e422cfc3fcc312ed9bd8f4e88993",
+    "SOURCE_PINS.json": "f2b8f49eeb3a13cac86526794ee47f97eb326909cc221333b8aab7c25e05c71f",
+    "LAUNCH.json": "a726e773223fe88c9599d7c882e0db811423719f0e077aaf44e500ae990b644c",
+    "checks/initial_profile_checks.stdout": "eedfc4c21a9cb49d7b08490d07b1a2abba20c4225dcef0f597ebcfea0464e7eb",
+    "checks/initial_profile_checks.stderr": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "checks/initial_profile_checks.json": "a0febf0867bf5d622c6a12c110d0fb2fa23522fac201d7563ddbf6dd239032ce",
+    "checks/initial_profile_checks.capture_provenance.json": "783a576483406884fa13c6af2e05deb18814260a37b47ba9cb27f93c1da63da6"
+  }
+}
