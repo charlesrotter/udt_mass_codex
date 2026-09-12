@@ -1,0 +1,253 @@
+{
+  "package": "udt_p4_routeB_extension_selection_2026-07-28",
+  "script": "derive_routeB_stage1.py",
+  "date": "2026-07-28",
+  "sympy_version": "1.13.1",
+  "conventions": "coframe column e, extension acts e -> exp(phi X) e (left); gauge e -> L e; induced action X -> L X L^{-1}, delta X = [lam, X]; composition 'phi1 then phi2' = g2*g1; gauge basis (B01,B02,B03,R12,R13,R23); eta = diag(-1,1,1,1)",
+  "check_count": 47,
+  "checks": [
+    {
+      "name": "T1_so13_basis_valid",
+      "pass": true,
+      "note": "6 generators each satisfy lam^T*eta + eta*lam = 0; rank 6"
+    },
+    {
+      "name": "T1_so13_perfect_crosscheck",
+      "pass": true,
+      "note": "[so(1,3),so(1,3)] spans all 6 directions -- consistency with the CITED perfectness fact (joint no-go 2026-07-28), not a re-derivation"
+    },
+    {
+      "name": "T1_split_stabilizer_dim2",
+      "pass": true,
+      "note": "upper-right-zero condition preserved EXACTLY by span(B01, R23) = so(1,1)+so(2), dim 2: the base/angular split is only subgroup-covariant; for the 4 mixing generators the condition is not preserved"
+    },
+    {
+      "name": "T1_fixedH_stabilizer_dim1_so2",
+      "pass": true,
+      "note": "adding the fixed founded H = diag(-1,+1) cuts the stabilizer to span(R23) = so(2), dim 1: even the base boost B01 moves H ([B01_base, H] != 0) -- consistent with the CITED scalar-only-centralizer correction (07-26)"
+    },
+    {
+      "name": "T1_base_boost_moves_H",
+      "pass": true,
+      "note": "[so(1,1) boost, H] = 2*[[0,1],[-1,0]] != 0: the founded generator is equivariant, not invariant, under base boosts (witness entry)"
+    },
+    {
+      "name": "T1_triangular_chart_stabilizer_zero",
+      "pass": true,
+      "note": "the triangular-K chart condition cuts the stabilizer to {0}: the registered triangular presentation is CHART-DEPENDENT (a gauge section), not a covariant condition"
+    },
+    {
+      "name": "T1_triangularity_obstruction_is_d_minus_a",
+      "pass": true,
+      "note": "[R23, X]_[3,2] = d - a exactly (basis R23 = E23 - E32; a first run asserted a - d and FAILED on this sign -- recorded honestly, target corrected): R23 preserves triangularity only on the a = d locus"
+    },
+    {
+      "name": "T1_trace_condition_fully_invariant",
+      "pass": true,
+      "note": "tr[lam, X] = 0 identically for generic lam in so(1,3) and generic class member: the det-one condition tr X = a + d = 0 is the unique stratum condition covariant under the FULL gauge algebra"
+    },
+    {
+      "name": "T1_E04_stabilizer_so2",
+      "pass": true,
+      "note": "E04 (K=0, C free): stabilizer = span(R23), dim 1 -- covariant under the residual screen so(2) once the split+H are supplied"
+    },
+    {
+      "name": "T1_E05_fullK_stabilizer_so2",
+      "pass": true,
+      "note": "E05 (C=0) in chart-free full-K form: stabilizer = span(R23), dim 1"
+    },
+    {
+      "name": "T1_E05_triangular_stabilizer_zero",
+      "pass": true,
+      "note": "E05 in the triangular chart: stabilizer {0} (chart artifact again)"
+    },
+    {
+      "name": "T1_E06_stabilizer_so2",
+      "pass": true,
+      "note": "E06 spectator point: [lam, X0] = 0 iff lam in span(R23), dim 1 -- matches the CITED lambda=0 holonomy-centralizer dim 1 (07-28)"
+    },
+    {
+      "name": "T1_so2_fixed_set_is_isotropic_line",
+      "pass": true,
+      "note": "[R23, X] = 0 within the class iff b=0, C=0, a=d: the EXACT fixed-point set of the residual screen so(2) is the isotropic line X_lambda = diag(-1,+1,lambda,lambda) -- reproduces the CITED SO(2)-screen row of the joint no-go table (07-28)"
+    },
+    {
+      "name": "T1_centralizer_dims_1_3_3_1",
+      "pass": true,
+      "note": "so(1,3)-centralizer of diag(-1,+1,lambda,lambda): generic 1, lambda=+1: 3, lambda=-1: 3, lambda=0: 1 -- consistency cross-check of the CITED dims (joint no-go 07-28), not a re-derivation"
+    },
+    {
+      "name": "T1_diagonal_subfamily_not_so2_stable",
+      "pass": true,
+      "note": "[R23, diag(-1,1,a,d)] has symmetric off-diagonal screen entries (a-d): the diagonal (a,d) subfamily is a chart section, so(2)-stable only on its isotropic diagonal a=d"
+    },
+    {
+      "name": "T1_so2_invariants_tr_det_antisym",
+      "pass": true,
+      "note": "under the residual so(2) conjugation the invariant content of the screen generator K is exactly (tr K, det K, antisymmetric part)"
+    },
+    {
+      "name": "T1_e07_k_sign_is_chart",
+      "pass": true,
+      "note": "a pi/2 screen rotation conjugates diag(-k,+k) -> diag(+k,-k): the SIGN of the E07 modulus k is chart gauge; the invariant is (tr K = 0, det K = -k^2), i.e. |k|"
+    },
+    {
+      "name": "T2_bracket_block_formula",
+      "pass": true,
+      "note": "[X1,X2] = [[0,0],[(C1-C2)H + K1C2 - K2C1, [K1,K2]]] exactly: the bracket of two class members has ZERO base block -- it points OUT of the affine class (base coefficient 1) into its linear part"
+    },
+    {
+      "name": "T2_K_bracket_stays_triangular",
+      "pass": true,
+      "note": "[K1,K2] is again upper triangular (triangular 2x2 = solvable subalgebra): the angular chart condition is bracket-stable"
+    },
+    {
+      "name": "T2_K_bracket_nonabelian_witness",
+      "pass": true,
+      "note": "[K1,K2]_[0,1] = a*b2 + b*d2 - a2*b - b2*d: nonzero generically -- E05/E03/E02 are non-abelian strata (b-direction active)"
+    },
+    {
+      "name": "T2_L8_is_lie_algebra",
+      "pass": true,
+      "note": "the 8-dim envelope L8 = {[[s*H,0],[C,K_triangular]]} closes as a Lie algebra with the bracket's s-component = 0: class exponentials generate exp(L8), an 8-dim group, NOT the class itself"
+    },
+    {
+      "name": "T2_nonclosure_witness_base_identity",
+      "pass": true,
+      "note": "exp(-phi*X_{d=1})*exp(phi*X_{a=1}) has base block = identity exactly"
+    },
+    {
+      "name": "T2_nonclosure_witness_not_class_form",
+      "pass": true,
+      "note": "its screen block is diag(e^phi, e^-phi) != I for phi != 0, but any class element exp(psi*X) with base = I forces psi = 0 hence = I: EXACT witness that the stratum exponential sets (all strata with >= 2 members) are not closed under composition at total phi = 0"
+    },
+    {
+      "name": "T2_diagonal_subfamily_abelian",
+      "pass": true,
+      "note": "[diag(-1,1,a1,d1), diag(-1,1,a2,d2)] = 0: the diagonal subfamily (E07 line and isotropic line included) is abelian -- zero BCH obstruction; only the affine renormalization failure remains"
+    },
+    {
+      "name": "T2_diagonal_composition_renormalized_modulus",
+      "pass": true,
+      "note": "for phi1+phi2 != 0 the diagonal product IS class form, with modulus abar = (phi1*a1 + phi2*a2)/(phi1+phi2): a phi-weighted mean -- the composed modulus is HISTORY-DEPENDENT unless a1=a2, d1=d2"
+    },
+    {
+      "name": "T2_diagonal_modulus_shift_vanishes_iff_equal",
+      "pass": true,
+      "note": "abar - a1 = phi2*(a2-a1)/(phi1+phi2) = 0 iff a2 = a1 (phi2 != 0): a CONSTANT modulus assignment survives composition only if every segment carries the same member (J07/J11-typed requirement)"
+    },
+    {
+      "name": "T3_E08_finite_form_is_exponential",
+      "pass": true,
+      "note": "g(phi,s): dg/dphi = X_s g, g(0) = I -- the E08 finite form IS exp(phi*X_s) by linear-ODE uniqueness (matches the banked E08 entry s*(1 - e^-phi))"
+    },
+    {
+      "name": "T3_shift_cocycle_law",
+      "pass": true,
+      "note": "composition (phi1 then phi2, product g2*g1): the cross entry obeys sigma_tot = sigma1 + e^{-phi1}*sigma2 with sigma = s*(1-e^{-phi}) -- an exact affine 1-cocycle of the reciprocal channel valued in the weight e^{-phi} module (ax+b-type composition)"
+    },
+    {
+      "name": "T3_cocycle_associativity",
+      "pass": true,
+      "note": "triple composition: sigma_123 = sigma1 + e^{-phi1} sigma2 + e^{-phi1-phi2} sigma3 -- associative, path-ordered weights"
+    },
+    {
+      "name": "T3_class_form_recovered_off_zero_total",
+      "pass": true,
+      "note": "for phi1+phi2 != 0 the product equals g(phi1+phi2, sbar) with sbar = [sigma1 + e^{-phi1} sigma2]/(1 - e^{-(phi1+phi2)}): class form survives but the shift modulus composes non-trivially"
+    },
+    {
+      "name": "T3_same_s_consistency",
+      "pass": true,
+      "note": "s1 = s2 = s gives sbar = s exactly: single-member segments compose within one one-parameter subgroup, as they must"
+    },
+    {
+      "name": "T3_history_dependence_witness",
+      "pass": true,
+      "note": "sbar at (T/2, T/2) minus sbar at (T, 0) = (s2-s1)*e^{-T/2}*(1-e^{-T/2})/(1-e^{-T}) != 0 unless s1=s2: the composed shift depends on the phi-HISTORY, not only on the total phi"
+    },
+    {
+      "name": "T3_general_C_finite_form",
+      "pass": true,
+      "note": "exp(phi*[[H,0],[C,0]]) = [[e^{phi H},0],[C*M(phi), I]] with M(phi) = diag(1-e^{-phi}, e^{phi}-1) exactly (E08 is its s11 axis)"
+    },
+    {
+      "name": "T3_general_C_cocycle",
+      "pass": true,
+      "note": "lower-left of the composition = C2*M(phi2)*e^{phi1 H} + C1*M(phi1): the full mixing block composes by the same path-ordered affine cocycle, channel-weighted by e^{-phi1} (clock leg) and e^{+phi1} (ruler leg)"
+    },
+    {
+      "name": "T3_M_invertible_iff_phi_nonzero",
+      "pass": true,
+      "note": "det M(phi) = (1-e^{-phi})(e^{phi}-1) = 0 iff phi = 0: off total phi = 0 the composed Cbar = [C2 M(phi2) e^{phi1 H} + C1 M(phi1)]*M(phi1+phi2)^{-1} exists uniquely (class form with history-dependent mixing modulus)"
+    },
+    {
+      "name": "T3_zero_total_residual_C1_minus_C2",
+      "pass": true,
+      "note": "at phi2 = -phi1 the residual lower-left is (C1 - C2)*M(phi1): nonzero unless C1 = C2 -- the finite E04-family witness of non-closure at total phi = 0"
+    },
+    {
+      "name": "T3_first_order_C_bracket",
+      "pass": true,
+      "note": "[X_C1, X_C2] = [[0,0],[(C1-C2)H, 0]] exactly: two mixing directions fail to commute at first order iff C1 != C2, the infinitesimal seed of the finite cocycle (H invertible => (C1-C2)H = 0 iff C1 = C2)"
+    },
+    {
+      "name": "T4_diagonal_finite_form",
+      "pass": true,
+      "note": "exp(phi*diag(-1,1,a,d)) = diag(e^{-phi}, e^{phi}, e^{a phi}, e^{d phi})"
+    },
+    {
+      "name": "T4_metric_readout",
+      "pass": true,
+      "note": "physical metric diag(-c^2 e^{-2phi}, e^{2phi}, e^{2a phi}, e^{2d phi}): a generator entry m on a coframe slot gives metric factor e^{2m phi} -- sign convention CHECKED against the banked E07 record (a=-k, d=+k gives diag(e^{-2k phi}, e^{+2k phi}))"
+    },
+    {
+      "name": "T4_E07_sign_check",
+      "pass": true,
+      "note": "E07 screen metric reproduced exactly from the general readout"
+    },
+    {
+      "name": "T4_4d_volume_exponent_a_plus_d",
+      "pass": true,
+      "note": "det g = -c^2 e^{2(a+d)phi}: sqrt|det g| = c*e^{(a+d)phi} -- the NATIVE 4D chart volume exponent is a + d; the base pair contributes (-1) + (+1) = 0 exactly"
+    },
+    {
+      "name": "T4_det_one_line",
+      "pass": true,
+      "note": "det exp(phi X) = e^{(a+d)phi} and tr X = a + d (ledger E03 fact): the det-one line is a + d = 0"
+    },
+    {
+      "name": "T4_three_name_coincidence",
+      "pass": true,
+      "note": "the E07 line (a,d) = (-k,+k), the det-one line a+d=0, and the 4D chart volume-blind locus a+d=0 are ONE line (the anti-diagonal of the (a,d) plane)"
+    },
+    {
+      "name": "T4_lambda_k_coordinates",
+      "pass": true,
+      "note": "(a,d) = (lambda-k, lambda+k) with lambda = (a+d)/2, k = (d-a)/2: the isotropic seat and the E07 seat are the two ORTHOGONAL axes of the diagonal plane, meeting only at the spectator origin -- the MAP's seat equation 'E07 k = joint-audit lambda' is resolved as a DECOMPOSITION, not an identity"
+    },
+    {
+      "name": "T4_isotropic_4d_exponent_2lambda",
+      "pass": true,
+      "note": "on the isotropic line the 4D chart volume exponent is 2*lambda (blind at lambda = 0, the spectator)"
+    },
+    {
+      "name": "T4_orbit_exponent_reconciliation",
+      "pass": true,
+      "note": "the CITED 3D orbit-volume exponent 1+2*lambda (rank-closure audit 07-27) = two screen legs at lambda plus ONE fibre leg at ruler weight +1; blind at lambda = -1/2.  It is a DIFFERENT functional on a DIFFERENT space (S3 orbit of the stationary branch) from the 4D chart volume (exponent a+d, clock and ruler cancelling): the two blind loci (a+d=0 vs lambda=-1/2) must NOT be conflated; the lambda=-1/2 pin translates to the (a,d) plane ONLY as the point (-1/2,-1/2) on the isotropic line, scope-stamped to that branch"
+    },
+    {
+      "name": "T4_conditional_pins_on_isotropic_line",
+      "pass": true,
+      "note": "the three CITED conditional pins -- SO(3)->(+1,+1), SO+(1,2)->(-1,-1), swap->(0,0) (07-27/07-28 audits) -- all lie on the isotropic axis k=0; no banked gate pins any point with k != 0"
+    }
+  ],
+  "headline_structure": {
+    "T1": "strata are SPLIT-RELATIVE: full so(1,3) preserves only the trace (det-one) condition; the base/angular split is preserved by so(1,1)+so(2) (dim 2); fixed founded H cuts to so(2) (dim 1); the triangular chart cuts to {0}; the so(2)-fixed set inside the class is exactly the isotropic line; so(2)-invariant content of K is (tr, det, antisym)",
+    "T2": "no stratum with >= 2 members closes under composition at total phi = 0 (exact witness); off that locus composition closes with HISTORY-DEPENDENT moduli (phi-weighted mean in the abelian diagonal subfamily; BCH/cocycle in the non-abelian strata); class exponentials generate the 8-dim exp(L8)",
+    "T3": "mixing shift is an exact affine 1-cocycle: sigma_tot = sigma1 + e^{-phi1} sigma2 (channel-weighted, path-ordered, associative); class form recoverable off total phi = 0 with history-dependent sbar; first-order seed [X_C1,X_C2] = [[0,0],[(C1-C2)H,0]]",
+    "T4": "(a,d) = (lambda-k, lambda+k); E07 line = det-one line = 4D volume-blind line (one anti-diagonal); isotropic line = so(2)-fixed axis carrying all three conditional pins (+1/-1/0) and the branch-scoped orbit-volume-blind point (-1/2,-1/2); 4D chart volume exponent = a+d (derived natively), distinct from the cited 3D orbit exponent 1+2*lambda"
+  },
+  "all_pass": true,
+  "falsifier_FC_fired": false
+}
