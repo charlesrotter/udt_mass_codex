@@ -1,0 +1,12 @@
+{
+  "utc": "2026-09-12T21:21:27.847137+00:00",
+  "changes": [
+    {
+      "path": "udt_ne1_directional_clock_reach_2026-09-12/DECISION_BRIEF.md",
+      "initial_sha256": "d3e9ec09401a42016508f3b3f2d575e950d6f7e3a4b9a897adf933e3507902d9",
+      "final_sha256": "ff15f6260eeceb8bae0eff6b7b11855dfbfdf66485dc07d2b3fe8208b2c408f4",
+      "reason": "Reviewer editorial fidelity: contrast is ratio C, not arithmetic difference; t is marked reception."
+    }
+  ],
+  "scientific_candidate_changed": false
+}

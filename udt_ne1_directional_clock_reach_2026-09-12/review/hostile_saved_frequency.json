@@ -1,0 +1,15 @@
+{
+  "command": [
+    "python3",
+    "udt_ne1_directional_clock_reach_2026-09-12/review/check_saved_states.py",
+    "--hostile-frequency"
+  ],
+  "cwd": "/home/udt-admin/udt_mass_codex",
+  "started_utc": "2026-09-12T21:15:14.491722+00:00",
+  "duration_seconds": 0.05994674109388143,
+  "returncode": 1,
+  "timeout": false,
+  "address_space_bytes": 2147483648,
+  "cpu_seconds": 180,
+  "maxrss_kib": 29920
+}

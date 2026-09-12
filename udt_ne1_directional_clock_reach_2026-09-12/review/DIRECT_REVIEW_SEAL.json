@@ -1,0 +1,9 @@
+{
+  "utc": "2026-09-12T21:12:56.328462+00:00",
+  "stage": "analytic direct report before parent numerical code exposure/outcomes",
+  "files": {
+    "DIRECT_REVIEW.md": "2bc7bdccb938d9b15530b2c8da62f0b799626d4539effdda630fb3f7787fdfb2",
+    "DIRECT_INTAKE.json": "c87cf7f9510f9d7fc5a5ca1458e03ee3b42d8fbeda9a4ca4e1e32fb1b26058d1"
+  },
+  "verdict": "VERIFIED-WITH-CAVEATS; full frozen candidate plus credited addendum; parent numeric and final documentation pending"
+}

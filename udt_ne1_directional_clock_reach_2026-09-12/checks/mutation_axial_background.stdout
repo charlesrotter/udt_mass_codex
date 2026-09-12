@@ -1,0 +1,20 @@
+{
+  "status": "FAIL",
+  "mutation": "axial_background",
+  "finite_only": true,
+  "python": "3.10.12",
+  "numpy": "2.2.6",
+  "scipy": "1.15.3",
+  "dtype": "float64",
+  "sigma": 1.014868883782365,
+  "frozen_contract": "CHECK_CONTRACT.md",
+  "epistemic_scope": "Finite consistency/support; shared field/Bessel code. No interval or asymptotic certificate.",
+  "finite_cases": [],
+  "worst_finite_tight_repeat": null,
+  "finite_repeat_scaled_error": null,
+  "long_reception_illustrations": [],
+  "long_tight_repeat": null,
+  "long_repeat_scaled_error": null,
+  "warnings": [],
+  "failure": "AssertionError(('zero_amplitude_recovery', 0.1324522506708322, -0.8, 2))"
+}

@@ -1,0 +1,21 @@
+{
+  "utc": "2026-09-12T21:20:17.696462+00:00",
+  "file": "DECISION_BRIEF.md",
+  "sha256_at_record": "d3e9ec09401a42016508f3b3f2d575e950d6f7e3a4b9a897adf933e3507902d9",
+  "original_wording_still_present": true,
+  "objections": [
+    {
+      "kind": "editorial fidelity, not scientific repair",
+      "quoted_original": "The difference stays bounded; some exact examples approach the background clock comparison again.",
+      "reason": "The theorem bounds ratio contrast C=R/R0. It does not establish a generic bound for additive R-R0. Define contrast and use that term.",
+      "smallest_repair": "Define clock contrast as the ratio relative to the zero-amplitude background, then replace ambiguous difference wording with contrast."
+    },
+    {
+      "kind": "editorial fidelity, not scientific repair",
+      "quoted_original": "as the journey gets longer",
+      "reason": "The theorem varies marked reception t; this is not a growth law in proper path length or proper travel duration.",
+      "smallest_repair": "Use as marked reception becomes later."
+    }
+  ],
+  "strongest_survivor": "Entire reviewed candidate plus credited addendum; no scientific narrowing required."
+}

@@ -1,0 +1,72 @@
+{
+  "utc": "2026-09-12T21:09:47.767981+00:00",
+  "reviewer": "/root/ncr1_directional_review",
+  "head": "314704f5fb52174e7ef57c686bed02e106e3ab9a",
+  "branch": "grok",
+  "assigned_sources": [
+    {
+      "path": "AGENTS.md",
+      "sha256": "f4862a564c8a2a98554ee4af23b89bd21deb679db6f9739880e808c7f6371c89",
+      "matches_parent_source_pin": true
+    },
+    {
+      "path": "CLAUDE.md",
+      "sha256": "b7e524a5b06760e57877a408630228767ae9a394134095f9851bef5d06e17751",
+      "matches_parent_source_pin": true
+    },
+    {
+      "path": "CROSS_MODEL_VERIFY.md",
+      "sha256": "2b0509d933d731fbf3f72aa88777a54d3e48a94d4bae3d324087871777f9a007",
+      "matches_parent_source_pin": true
+    },
+    {
+      "path": "CURRENT_SCIENTIFIC_PREMISES.tsv",
+      "sha256": "c614575c251a0e110146ae30b8c6f87d7d01862e3eab2da861b43c33537168e2",
+      "matches_parent_source_pin": true
+    },
+    {
+      "path": "udt_nonlinear_ripple_geometry_2026-09-09/INITIAL_CANDIDATE.md",
+      "sha256": "49880008dcb5a646d6867e377f6dc84ded692b98250701aba4cab7119ca500de",
+      "matches_parent_source_pin": true
+    },
+    {
+      "path": "udt_nonlinear_ripple_geometry_2026-09-09/REVIEWED_RESULT.md",
+      "sha256": "45cc3bc950b76ceed6a1fd49c248688242bc3c008864256de9bb494c1b8bbfaa",
+      "matches_parent_source_pin": true
+    },
+    {
+      "path": "udt_gr_filter_reconciliation_2026-09-09/AUTHORITY_RECORD.md",
+      "sha256": "80daa0be6d3e1c0ac1b734fea089c4eb487f05bc1e1fbb2fabd69322ca89f28c",
+      "matches_parent_source_pin": true
+    },
+    {
+      "path": "udt_ne1_clock_beam_geometry_2026-09-12/INITIAL_CANDIDATE.md",
+      "sha256": "8f58d15f3e24bf8878fca2af5c24c95cb7c68dec49bfb2fa175fbe945b54879f",
+      "matches_parent_source_pin": true
+    },
+    {
+      "path": "udt_ne1_clock_beam_geometry_2026-09-12/REVIEWED_RESULT.md",
+      "sha256": "03f0e6feea2110a56fb45481e25f885bc1cecdf6db9f68df5f3c6153fd6b8b32",
+      "matches_parent_source_pin": true
+    },
+    {
+      "path": "udt_ncb1_banking_2026-09-12/BANKING_RECORD.md",
+      "sha256": "4a888a6552360e71b97372623fe135458a546311c8e73a4ac9e99302e1be8022",
+      "matches_parent_source_pin": true
+    }
+  ],
+  "parent_startup": "Attributed continuing top-level startup; reviewer does not claim to have rerun fetch/pull/full398.",
+  "process_visibility": "ps in tool sandbox showed only its own invocation and ps; cross-context parent process liveness is not independently attested by this view.",
+  "source_extra_reads": [
+    "udt_g220_covariant_null_clock_arrow_timelive_lift_2026-08-22/AUDIT_REPORT.md",
+    "udt_ne1_clock_beam_geometry_2026-09-12/review/DIRECT_REVIEW.md",
+    ".claude/skills/no-shortcuts/SKILL.md",
+    ".claude/skills/completeness-map/SKILL.md",
+    "udt_reviewed_backlog_banking_2026-09-10/capture_existing.py",
+    "udt_shared_readout_metric_constraint_campaign_2026-09-06/run_capture.py"
+  ],
+  "full398": "Parent responsibility; not rerun by reviewer",
+  "scientific_sources_modified": false,
+  "protected_payload_read": false,
+  "runtime_model": "UNATTESTED"
+}

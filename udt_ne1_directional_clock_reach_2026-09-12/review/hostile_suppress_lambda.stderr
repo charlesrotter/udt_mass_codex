@@ -1,0 +1,8 @@
+Traceback (most recent call last):
+  File "/home/udt-admin/udt_mass_codex/udt_ne1_directional_clock_reach_2026-09-12/review/check_original_geodesics.py", line 147, in <module>
+    results=[run_case(case) for case in CASES]
+  File "/home/udt-admin/udt_mass_codex/udt_ne1_directional_clock_reach_2026-09-12/review/check_original_geodesics.py", line 147, in <listcomp>
+    results=[run_case(case) for case in CASES]
+  File "/home/udt-admin/udt_mass_codex/udt_ne1_directional_clock_reach_2026-09-12/review/check_original_geodesics.py", line 134, in run_case
+    assert max_frequency_error<2e-7, 'original metric frequency vs reduced rapidity'
+AssertionError: original metric frequency vs reduced rapidity

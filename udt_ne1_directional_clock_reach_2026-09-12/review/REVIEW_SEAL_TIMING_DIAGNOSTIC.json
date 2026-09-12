@@ -1,0 +1,8 @@
+{
+  "utc": "2026-09-12T21:26:35.229882+00:00",
+  "failed_attempt": "Initial final-record assembly asserted current UTC <2026-09-12T21:26:00+00:00 before writing any record; actual time had crossed that provisional bound, so it exited1 with AssertionError at line7.",
+  "effect": "No partial FINAL_REVIEW_RECORD.json written; no scientific source, candidate, implementation, numerical result or prior review seal changed.",
+  "preserved_initial_fidelity_draft_sha256": "8d4ea15ffa5207379240a161d76ebb012fcccd19d39925882a46b9079a39eb7e",
+  "smallest_repair": "Use a still-conservative21:30UTC endpoint (30minutes total) below authorized21:40UTC/40minutes; record actual seal time as well.",
+  "scope": "Reviewer timing bookkeeping, not scientific or fidelity failure; failed attempt retained."
+}

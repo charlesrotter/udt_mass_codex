@@ -1,0 +1,30 @@
+{
+  "sealed_utc": "2026-09-12T21:09:01.947732+00:00",
+  "stage": "source first after finite checks; before parent direct exposure",
+  "files": {
+    "CHECK_CONTRACT.md": "09beda134504c29ea1a2ef2b5fd4b210ae9597f89521d11139105218cb37fe8a",
+    "SOURCE_FIRST_RECONSTRUCTION.md": "e946ec5697df0006b4e49763bbcf9388b6d116190d6de7c81662acc1163fd6c9",
+    "SOURCE_FIRST_SEAL.json": "0e6062cb57e0da238b9a410235e70a7ba7766b2d3e302a0260c5b9d4b9d49822",
+    "SOURCE_NUMERICAL_RESULT.md": "38b76c09c624d540733efae5dea3e128933a3e81aa973ca116418877179968fb",
+    "check_original_geodesics.py": "0d1da88351d55b8391f83d670d57f969a6f422bead50e3637232d82c21dbd5aa",
+    "hostile_invert_frequency.capture_provenance.json": "703d135d1ccfb9b2fe3126908566260a43ddc64695555b8cc81c9f94fb2f50be",
+    "hostile_invert_frequency.json": "00f1aef37749549550a07f1c5432ca26ead1e4622fa06e68cdbfa45621521bd9",
+    "hostile_invert_frequency.stderr": "e9f63be11fdcdd3494e08580b0ba30ba05d63d097718fc08ce87b1085f88f392",
+    "hostile_invert_frequency.stdout": "8840b98428cc2567439453cf2fbf0bd077daf572016021d0678ddab2d45fca2c",
+    "hostile_suppress_lambda.capture_provenance.json": "e7ee22a9d7c62251283a6b5f890f8d1207b11b21ef716a42673b2a97d1ac723a",
+    "hostile_suppress_lambda.json": "7f963e2b7ddb82217c0ae939fe8dccb689a3dbfe4cc8b65474a8ee8d6b53ff98",
+    "hostile_suppress_lambda.stderr": "e9f63be11fdcdd3494e08580b0ba30ba05d63d097718fc08ce87b1085f88f392",
+    "hostile_suppress_lambda.stdout": "082c1f3ab31b430503d5cd8f25bd4a991482f2a4d9561a820c98c0f591dde0ca",
+    "source_original_geodesics.capture_provenance.json": "d470d6e8d7819fb176bb9a24af24236eac07e05a21a77d582ffaea660ba20176",
+    "source_original_geodesics.json": "688a297ac9cc5324fa17a0bd0faf68c5a48466ac88af26787403961ead3958f1",
+    "source_original_geodesics.stderr": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "source_original_geodesics.stdout": "d436bd5763cc8c7782484450295116c868c18c1278a9f2398a74ce78ef3360da"
+  },
+  "true_runtime_model": "UNATTESTED",
+  "scientific_captures": 3,
+  "baseline_exit": 0,
+  "hostile_exits": [
+    1,
+    1
+  ]
+}

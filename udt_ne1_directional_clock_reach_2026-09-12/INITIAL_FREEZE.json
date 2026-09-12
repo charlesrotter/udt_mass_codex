@@ -1,0 +1,8 @@
+{
+  "utc": "2026-09-12T21:06:51.946371+00:00",
+  "candidate_sha256": "bb8559afcd073cd969719dca645e678b60e9f0ef3098e04d44b203712a68089a",
+  "candidate_file_mtime_utc": "2026-09-12T21:05:51.906634+00:00",
+  "work_order_sha256": "13c82f523ea2e76ee6afbf8bfdb5720e4b9fcb1bb76f1e3a039454d9b2394223",
+  "exposure": "Candidate file completed before parent received reviewer source-first scientific message. Formal hash seal made immediately after that message. No direct reviewer exposure or new numerical outcomes. Reviewer independently reports matching directional classification and a stronger uniform all-sky upper frequency bound; any added uniform-cone result will be separately credited and frozen.",
+  "status": "UNPROMOTED candidate, direct review pending"
+}

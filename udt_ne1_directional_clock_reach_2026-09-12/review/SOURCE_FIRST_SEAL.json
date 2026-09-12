@@ -1,0 +1,15 @@
+{
+  "sealed_utc": "2026-09-12T21:05:47.731938+00:00",
+  "reviewer": "/root/ncr1_directional_review",
+  "runtime_model": "UNATTESTED",
+  "allocation_conservative_start_utc": "2026-09-12T21:00:00+00:00",
+  "allocation_finish_by_utc": "2026-09-12T21:40:00+00:00",
+  "head": "314704f5fb52174e7ef57c686bed02e106e3ab9a",
+  "exposure": "Only admitted sources, prior source verdicts, question and work order; no NCR1 parent candidate, code, output, or finding exposed.",
+  "files": {
+    "SOURCE_FIRST_RECONSTRUCTION.md": "e946ec5697df0006b4e49763bbcf9388b6d116190d6de7c81662acc1163fd6c9",
+    "CHECK_CONTRACT.md": "09beda134504c29ea1a2ef2b5fd4b210ae9597f89521d11139105218cb37fe8a"
+  },
+  "scientific_numerical_outcomes": "NONE BEFORE THIS SEAL",
+  "chronology_limit": "Local recorded time and hashes, not independently signed attestation."
+}

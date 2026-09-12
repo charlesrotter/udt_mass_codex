@@ -1,0 +1,107 @@
+{
+  "utc": "2026-09-12T21:14:28.707159+00:00",
+  "baseline": {
+    "command": [
+      "python3",
+      "udt_ne1_directional_clock_reach_2026-09-12/check_numeric.py"
+    ],
+    "cwd": "/home/udt-admin/udt_mass_codex",
+    "started_utc": "2026-09-12T21:11:45.348812+00:00",
+    "duration_seconds": 9.179499433957972,
+    "returncode": 0,
+    "timeout": false,
+    "address_space_bytes": 2147483648,
+    "cpu_seconds": 180,
+    "maxrss_kib": 88268
+  },
+  "replay": {
+    "command": [
+      "python3",
+      "udt_ne1_directional_clock_reach_2026-09-12/check_numeric.py"
+    ],
+    "cwd": "/home/udt-admin/udt_mass_codex",
+    "started_utc": "2026-09-12T21:13:03.343355+00:00",
+    "duration_seconds": 9.193365245009772,
+    "returncode": 0,
+    "timeout": false,
+    "address_space_bytes": 2147483648,
+    "cpu_seconds": 180,
+    "maxrss_kib": 87760
+  },
+  "scientific_stdout_byte_identical": true,
+  "stdout_sha256": "25dad536081e6faf44508323bb5528be5eb06d2a57947f03ca9bb9360e1e018d",
+  "finite_cases": 144,
+  "long_rays": 12,
+  "long_receptions": 60,
+  "max_finite_clock_log_error": 8.510303572961675e-12,
+  "max_long_clock_log_error": 3.7536729280418513e-10,
+  "finite_repeat_scaled_error": 3.9918604346014474e-12,
+  "long_repeat_scaled_error": 4.5705485690942765e-11,
+  "mutations": {
+    "drop_bxi": {
+      "receipt": {
+        "command": [
+          "python3",
+          "udt_ne1_directional_clock_reach_2026-09-12/check_numeric.py",
+          "--finite-only",
+          "--mutate",
+          "drop_bxi"
+        ],
+        "cwd": "/home/udt-admin/udt_mass_codex",
+        "started_utc": "2026-09-12T21:13:02.470176+00:00",
+        "duration_seconds": 0.24360387003980577,
+        "returncode": 1,
+        "timeout": false,
+        "address_space_bytes": 2147483648,
+        "cpu_seconds": 180,
+        "maxrss_kib": 78348
+      },
+      "failure": "AssertionError(('clock_transport', 0.010191087833639693, 0.16666666666666666, -0.8, 0, 2))",
+      "completed_cases_before_failure": 36
+    },
+    "freeze_lambda": {
+      "receipt": {
+        "command": [
+          "python3",
+          "udt_ne1_directional_clock_reach_2026-09-12/check_numeric.py",
+          "--finite-only",
+          "--mutate",
+          "freeze_lambda"
+        ],
+        "cwd": "/home/udt-admin/udt_mass_codex",
+        "started_utc": "2026-09-12T21:13:02.785259+00:00",
+        "duration_seconds": 0.24064547603484243,
+        "returncode": 1,
+        "timeout": false,
+        "address_space_bytes": 2147483648,
+        "cpu_seconds": 180,
+        "maxrss_kib": 79092
+      },
+      "failure": "AssertionError(('clock_transport', 0.004375042844665878, 0.16666666666666666, -0.8, 0, 2))",
+      "completed_cases_before_failure": 36
+    },
+    "axial_background": {
+      "receipt": {
+        "command": [
+          "python3",
+          "udt_ne1_directional_clock_reach_2026-09-12/check_numeric.py",
+          "--finite-only",
+          "--mutate",
+          "axial_background"
+        ],
+        "cwd": "/home/udt-admin/udt_mass_codex",
+        "started_utc": "2026-09-12T21:13:03.101190+00:00",
+        "duration_seconds": 0.16943898610770702,
+        "returncode": 1,
+        "timeout": false,
+        "address_space_bytes": 2147483648,
+        "cpu_seconds": 180,
+        "maxrss_kib": 78616
+      },
+      "failure": "AssertionError(('zero_amplitude_recovery', 0.1324522506708322, -0.8, 2))",
+      "completed_cases_before_failure": 0
+    }
+  },
+  "warnings": [],
+  "scope": "Finite float support only; same-code replay regression; symbolic/excursion arguments own asymptotic conclusions."
+}

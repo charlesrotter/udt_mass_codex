@@ -1,0 +1,6 @@
+{
+  "utc": "2026-09-12T21:11:45.260335+00:00",
+  "sha256": "c0a38fe8f4eb37bb7a286a3b22ac4a43fcd384a53f15b902404025653dca47d4",
+  "candidate_freeze_sha256": "27121a088f4515e310ab2a3c6e7e8d6d047fa8a09abcfa3b9e643944cbb9c461",
+  "exposure": "Parent implementation completed under frozen check contract before its first run; reviewer source-first findings and distinct finite checks already disclosed, original parent candidate preserved. No parent outcome yet."
+}

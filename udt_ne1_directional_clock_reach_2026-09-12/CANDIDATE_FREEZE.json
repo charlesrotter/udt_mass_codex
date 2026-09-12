@@ -1,0 +1,14 @@
+{
+  "utc": "2026-09-12T21:09:33.799907+00:00",
+  "sha256": {
+    "WORK_ORDER.md": "13c82f523ea2e76ee6afbf8bfdb5720e4b9fcb1bb76f1e3a039454d9b2394223",
+    "INITIAL_CANDIDATE.md": "bb8559afcd073cd969719dca645e678b60e9f0ef3098e04d44b203712a68089a",
+    "INITIAL_FREEZE.json": "d4cf200fdcace89f9cd30dfb02374f3a076d7e74a6b5167dd686cefbb7797963",
+    "SOURCE_FIRST_ADDENDUM.md": "dda7843029c4c3bd75315ed7ee74dba3de380b49a8f0a3a656e89b19c836e18e",
+    "CHECK_CONTRACT.md": "cf4c73297b6bc616cf2f3c92f32f7a3cc87b3244bc62f45aaf4f509633ae5a63",
+    "SOURCE_PINS.json": "03f05716213538dfc453e1247f20eaa283dba3bf0da5806d748bb17d5f37d7d8",
+    "review/SOURCE_FIRST_RECONSTRUCTION.md": "e946ec5697df0006b4e49763bbcf9388b6d116190d6de7c81662acc1163fd6c9",
+    "review/SOURCE_FIRST_SEAL.json": "0e6062cb57e0da238b9a410235e70a7ba7766b2d3e302a0260c5b9d4b9d49822"
+  },
+  "exposure": "Complete mathematical chain frozen before direct reviewer candidate exposure and before parent numerical outcomes; credited uniform-cone addition follows source-first reviewer disclosure; original candidate preserved."
+}

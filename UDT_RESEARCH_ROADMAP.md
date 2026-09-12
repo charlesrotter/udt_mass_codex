@@ -2,11 +2,11 @@
 
 Updated: 2026-09-12. Charles Rotter requested the whole plan on 2026-09-09;
 its original baseline was `d0fe8b3e5f95c3963dc8702bb4a31485678bd1e3`, branch `grok`.
-Earlier campaigns and banking through G415 are COMPLETE; TI3/OB1/ZDR1 remain reviewed conditional UNPROMOTED.
+Earlier campaigns and banking through G415 are COMPLETE; TI3/OB1/ZDR1/NCR1 remain reviewed conditional UNPROMOTED.
 Current operational handoff: `HANDOFF.md`; the maintained checkpoint below records the reviewed
 ER1 expansion, banking, nonlinear and measurement returns, and the CWA1 consolidation.
-CWA1's consolidation and NCB1's latest clock/beam return are recorded below.
-NCB1 is conditionally banked as G415; no successor research campaign is authorized.
+CWA1's consolidation, NCB1's banking and NCR1's directional return are recorded below.
+NCB1 is conditionally banked as G415; NCR1 is reviewed UNPROMOTED; no successor is authorized.
 This is a maintained direction document, not a premise, theorem, promotion
 or replacement for LIVE, the exact registry, or reviewed scientific sources.
 
@@ -343,9 +343,56 @@ they neither rewrite that snapshot nor reprove its397 source results.
 
 Disposition: **banked at demonstrated conditional scope as G415** after the
 recorded gates. Physical identification is not a prerequisite for that grade.
-Next discussion: one precisely bounded nonaxial reach target. No successor
-is dispatched. TI3/OB1/ZDR1 and OB2 retain their earlier holds; original
+The ensuing bounded NCR1 directional-reach test is recorded below.
+TI3/OB1/ZDR1 and OB2 retain their earlier holds; original
 sources, prior grades and fixed through-G352 manuscript remain unchanged.
+
+### NCR1 directional clock reach — 2026-09-12
+
+Charles authorized the two-hour clock-first test of finite tilts after G415
+promotion. Question: does growing clock contrast survive a finite angular
+range as marked reception becomes later, and is that different from retaining G415's
+axial exponential rate? This reuses G394's complete geometry/Bessel bounds,
+G415's axial result, G220's regular clock-query interpretation and G342's
+background; current G312 remains GR FILTER ONLY. It advances stages4–5 and
+CWA1 jobs J05/J08/J11, releasing the axial-direction restriction only.
+
+Return: `udt_ne1_directional_clock_reach_2026-09-12/REVIEWED_RESULT.md`
+and DECISION_BRIEF.md, **VERIFIED-WITH-CAVEATS, reviewed conditional
+UNPROMOTED**. The ENTIRE INITIAL_CANDIDATE(1)–(14), credited
+SOURCE_FIRST_ADDENDUM(A1)–(A3), direct review and final fidelity control.
+No scientific repair or narrowing was required. The fresh reviewer
+independently reconstructed the directional classification and contributed
+the stronger uniform cone bound; chronology and credit are explicit.
+
+At fixed nonzero amplitude, every fixed oblique initial sky direction has
+R/R0=Theta(t^(3/4)); exactly axial directions retain G415's exponential rate.
+Pure transverse directions have bounded contrast, with exact examples
+returning to one. A uniform bound ensures growing contrast throughout each
+closed cone |mu|>=c_*>0, including the axis. Matching a fixed fraction of
+the axial contrast requires an angular ratio O(t^(3/4)exp(-beta t)); this is
+necessary only, not a sufficient width, onset time or complete transition law.
+
+The full evolving finite-amplitude metric, both axial signs, both transverse
+axes/mixed tilts, supplied source t_e=1/frame, areal observers and equal
+marked reception are retained. Receiver labels can differ. No fixed receiver,
+fixed apparatus, averaged/frozen evolution, physical light/redshift law,
+beam/focusing theorem, off-axis no-conjugacy claim or native equation adoption
+follows. The scalar kernel and complete native event/path assignment are
+unchanged. Existing source/registry grades and protected evidence remain fixed.
+
+Parent144 finite cases,12 long rays and two tighter repeats passed; independent
+original-Christoffel8-case checks and a tighter repeat passed. Five actual
+equation/readout variants across the two contexts were rejected; a later
+saved-state corruption was also rejected. Finite numbers do
+not prove asymptotic bounds; same-code replay is regression. Actual current398,
+navigation, final review and publication receipts are owned by CLOSEOUT.md.
+
+Disposition: **hold for Charles's exact-scope promotion decision**; physical
+identification is not a prerequisite for banking this conditional result.
+After that discussion, a bounded tilted-beam/focusing question is a possible
+next extension. No promotion or successor is dispatched. TI3/OB1/ZDR1 and
+OB2 retain their prior holds; fixed manuscript and CWA1 snapshot are unchanged.
 
 ### Existing expansion and observation returns
 

@@ -1,0 +1,60 @@
+{
+  "utc": "2026-09-12T21:24:10.936584+00:00",
+  "result": "PASS",
+  "head": "314704f5fb52174e7ef57c686bed02e106e3ab9a",
+  "branch": "grok",
+  "exact_tracked_pointer_changes": [
+    "CURRENT_RESEARCH_PROGRAM.md",
+    "HANDOFF.md",
+    "INDEX.md",
+    "LIVE.md",
+    "UDT_RESEARCH_ROADMAP.md"
+  ],
+  "unrelated_untracked_name_status_count": 46,
+  "unrelated_name_status_matches_launch": true,
+  "unchanged_source_pins": 19,
+  "changed_pinned_pointers": [
+    "CURRENT_RESEARCH_PROGRAM.md",
+    "HANDOFF.md",
+    "LIVE.md",
+    "UDT_RESEARCH_ROADMAP.md"
+  ],
+  "index_separately_authenticated": true,
+  "complete_candidate_implementation_and_review_seals_unchanged": true,
+  "original_brief_preserved_and_editorial_correspondence": true,
+  "new_current398_saved_receipt_authenticated": true,
+  "navigation_runs_each": [
+    359,
+    1
+  ],
+  "package_final_docs_sha256": {
+    "WORK_ORDER.md": "13c82f523ea2e76ee6afbf8bfdb5720e4b9fcb1bb76f1e3a039454d9b2394223",
+    "LAUNCH.json": "da31e6ae3ec9cf6a7faf8233048edc9f448e0dac00480e290893923acb11202d",
+    "SOURCE_PINS.json": "03f05716213538dfc453e1247f20eaa283dba3bf0da5806d748bb17d5f37d7d8",
+    "INITIAL_CANDIDATE.md": "bb8559afcd073cd969719dca645e678b60e9f0ef3098e04d44b203712a68089a",
+    "INITIAL_FREEZE.json": "d4cf200fdcace89f9cd30dfb02374f3a076d7e74a6b5167dd686cefbb7797963",
+    "SOURCE_FIRST_ADDENDUM.md": "dda7843029c4c3bd75315ed7ee74dba3de380b49a8f0a3a656e89b19c836e18e",
+    "CANDIDATE_FREEZE.json": "27121a088f4515e310ab2a3c6e7e8d6d047fa8a09abcfa3b9e643944cbb9c461",
+    "CHECK_CONTRACT.md": "cf4c73297b6bc616cf2f3c92f32f7a3cc87b3244bc62f45aaf4f509633ae5a63",
+    "check_numeric.py": "c0a38fe8f4eb37bb7a286a3b22ac4a43fcd384a53f15b902404025653dca47d4",
+    "IMPLEMENTATION_FREEZE.json": "15bb264c1fffe646186bf16cad00321dfd7677cc4ea9a5c5774b99e3c96fab24",
+    "REVIEWED_RESULT.md": "3f75de6af337144d169d16bc54dd88b3863fa6d403a1ad6313a80937cef6aa19",
+    "DECISION_BRIEF.md": "ff15f6260eeceb8bae0eff6b7b11855dfbfdf66485dc07d2b3fe8208b2c408f4",
+    "DISCOVERY_HISTORY.md": "1848a5bf47a0c440bcccd42d52512678342819fbb52c80ef4849bb4d542c2778",
+    "CHECK_RESULTS.json": "8d976c37bf1e77a8fa07b5978a8ff4ee138dbbeb46c2be65f2ffb8489792e4e4",
+    "CURRENT_AUDIT_RECEIPT.json": "3f130b9e21bb23be079918b8fb6cdc401150e1fb4b4a08e1a4f59ff2d6ce6d35",
+    "NAVIGATION_AND_PRESERVATION.json": "b6326c7f6db3e3c6e4ad09850689661effbfcbaf42396178112e81cc8f7d7986",
+    "NAVIGATION_RECEIPT_DIAGNOSTIC.md": "ce50c4647325a28e1f1a544a077a26b75528b0eb8e37a463984e16f782e7695b",
+    "EDITORIAL_CLARIFICATIONS.json": "a7bf84a6be3d530eb0d722822cd01480e67119adb53d1bd5c74ec59d706d80b5",
+    "CLOSEOUT.md": "81d93825d7cc8f8d330fe147982aa4311bbd15765e678d40f6dc3e185cb3a80b",
+    "editorial/INITIAL_DECISION_BRIEF.md": "d3e9ec09401a42016508f3b3f2d575e950d6f7e3a4b9a897adf933e3507902d9"
+  },
+  "current_pointer_sha256": {
+    "CURRENT_RESEARCH_PROGRAM.md": "161ea1981de3c4d476202fd7afebadf27c9401af417600aeb4fde755cda76c04",
+    "HANDOFF.md": "57c82c5bbbb811507f42f45a63790e22536d0f91534b19bea9876f63592d6f33",
+    "INDEX.md": "1c57fd185c6ff917608ccbafa12806ba104af7492de423014509ad28f2916cc3",
+    "LIVE.md": "a8aa221bd347d336718f0532fbe16c48c3527b363193f50948ad8686b290fbe6",
+    "UDT_RESEARCH_ROADMAP.md": "189b6be72b87aadae09001a47b199190c7d2181497b18b6e6dce8e7e560355e1"
+  },
+  "scope": "Read-only correspondence/fidelity; no audit replay, independent process monitoring, protected-payload byte verification, backup, scientific promotion, or future publication attestation."
+}

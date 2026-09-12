@@ -1,0 +1,90 @@
+{
+  "utc": "2026-09-12T21:22:19.732232+00:00",
+  "baseline_head": "314704f5fb52174e7ef57c686bed02e106e3ab9a",
+  "changed_current_pointers": {
+    "CURRENT_RESEARCH_PROGRAM.md": {
+      "old_sha256": "72cfe029ae31e6f379c4bbf9a0bd00100c41aea7a04cc5514ebf2a1cbc7966f8",
+      "new_sha256": "161ea1981de3c4d476202fd7afebadf27c9401af417600aeb4fde755cda76c04",
+      "in_pre_audit23_pin_set": true
+    },
+    "HANDOFF.md": {
+      "old_sha256": "09733e11e6002136e905029e97070216c9ce3ba9bcf3e163a4997dfc85fe7875",
+      "new_sha256": "57c82c5bbbb811507f42f45a63790e22536d0f91534b19bea9876f63592d6f33",
+      "in_pre_audit23_pin_set": true
+    },
+    "INDEX.md": {
+      "old_sha256": "784162cb00dcb87886f9c5d05f26ac653830b94a053820ad132a1f4da98b2d1a",
+      "new_sha256": "1c57fd185c6ff917608ccbafa12806ba104af7492de423014509ad28f2916cc3",
+      "in_pre_audit23_pin_set": false
+    },
+    "LIVE.md": {
+      "old_sha256": "c1d98975025585abe4754e25bccb20198785349f7397d9fbe8cddb5b1f08ef2d",
+      "new_sha256": "a8aa221bd347d336718f0532fbe16c48c3527b363193f50948ad8686b290fbe6",
+      "in_pre_audit23_pin_set": true
+    },
+    "UDT_RESEARCH_ROADMAP.md": {
+      "old_sha256": "2a6296543083ef39d2d5f4701a954287c9bf7cd2ef627b6976a394271da8c50c",
+      "new_sha256": "189b6be72b87aadae09001a47b199190c7d2181497b18b6e6dce8e7e560355e1",
+      "in_pre_audit23_pin_set": true
+    }
+  },
+  "changed_pinned_pointers": [
+    "CURRENT_RESEARCH_PROGRAM.md",
+    "HANDOFF.md",
+    "LIVE.md",
+    "UDT_RESEARCH_ROADMAP.md"
+  ],
+  "other19_source_pins_unchanged": true,
+  "registry_and_guards_unchanged": true,
+  "original46_name_status_preserved": true,
+  "navigation_results": {
+    "final_navigation": {
+      "receipt": {
+        "command": [
+          "python3",
+          "-m",
+          "pytest",
+          "--noconftest",
+          "-q",
+          "tests/test_startup_surface.py",
+          "-k",
+          "not full_foundational_premise_verifier_is_in_pytest"
+        ],
+        "cwd": "/home/udt-admin/udt_mass_codex",
+        "started_utc": "2026-09-12T21:17:26.872049+00:00",
+        "duration_seconds": 13.637730007991195,
+        "returncode": 0,
+        "timeout": false,
+        "address_space_bytes": 2147483648,
+        "cpu_seconds": 180,
+        "maxrss_kib": 52952
+      },
+      "stdout_tail": "359 passed, 1 deselected in 13.54s"
+    },
+    "editorial_navigation": {
+      "receipt": {
+        "command": [
+          "python3",
+          "-m",
+          "pytest",
+          "--noconftest",
+          "-q",
+          "tests/test_startup_surface.py",
+          "-k",
+          "not full_foundational_premise_verifier_is_in_pytest"
+        ],
+        "cwd": "/home/udt-admin/udt_mass_codex",
+        "started_utc": "2026-09-12T21:21:28.178882+00:00",
+        "duration_seconds": 13.60345297306776,
+        "returncode": 0,
+        "timeout": false,
+        "address_space_bytes": 2147483648,
+        "cpu_seconds": 180,
+        "maxrss_kib": 52452
+      },
+      "stdout_tail": "359 passed, 1 deselected in 13.51s"
+    }
+  },
+  "source_currency": "SOURCE_PINS preserves pre-navigation snapshot: four pinned pointers changed; INDEX old bytes authenticated separately to baseline. Five authorized current pointers only; new actual tests follow prose changes. Prior scientific packages/CWA1 snapshot/registry unchanged.",
+  "retained_initial_receipt_defect": "NAVIGATION_RECEIPT_DIAGNOSTIC.md"
+}

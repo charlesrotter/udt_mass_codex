@@ -1,0 +1,22 @@
+{
+  "utc": "2026-09-12T21:12:41.357118+00:00",
+  "actual_audit": {
+    "command": [
+      "python3",
+      "verify_current_scientific_premises.py"
+    ],
+    "cwd": "/home/udt-admin/udt_mass_codex",
+    "started_utc": "2026-09-12T21:00:11.363590+00:00",
+    "duration_seconds": 406.54052357096225,
+    "returncode": 0,
+    "timeout": false,
+    "address_space_bytes": 2147483648,
+    "cpu_seconds": 900,
+    "maxrss_kib": 120384
+  },
+  "stdout_sha256": "d5903d7fd58fbcd857473d08b2c2ac0efb5467ee7806ebb99281a82f357c1843",
+  "source23_pins_unchanged_after_execution": true,
+  "registry398_unchanged": true,
+  "tracked_worktree_status": [],
+  "scope": "Current pre-navigation actual audit; no science/input changes during execution. Later documentation edits require proportional navigation checks, not a second full audit. No atomic snapshot claim."
+}
