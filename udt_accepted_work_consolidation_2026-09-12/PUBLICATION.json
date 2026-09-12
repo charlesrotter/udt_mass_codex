@@ -1,0 +1,30 @@
+{
+  "recorded_utc": "2026-09-12T17:03:28.877937+00:00",
+  "status": "EVIDENCE_COMMITTED_AND_PUSHED",
+  "branch": "grok",
+  "evidence_commit": "0027afbda0d42dc54ebe2a4fbcb74fdffeac6943",
+  "origin_grok": "0027afbda0d42dc54ebe2a4fbcb74fdffeac6943",
+  "baseline": "ab6033469c37f63a0f3aa6527804b7e3cd2f5be6",
+  "committed_evidence_files_authenticated": 125,
+  "tracked_workspace_clean": true,
+  "original_untracked_names_preserved": 46,
+  "original_name_status_sha256": "55e7c4508622f912730f9c068cc571c370b3977bc1110eb0a48a8218dbe024c2",
+  "review_verdict": "ACCEPT_CWA1_SOURCE_PRESERVING_CONSOLIDATION_WITH_STATED_LIMITS",
+  "review_scope": "exact corrected19files, no scientific promotion or physical adoption",
+  "checks": {
+    "new_full397": "PASS",
+    "startup_tests": "359passed1deselected",
+    "source_pins": 147,
+    "registry_entries": 397,
+    "families": 22,
+    "jobs": 13
+  },
+  "operational_check_limitation": "Default staged whitespace check exit2 consists exactly of489sealed CRLF TSV lines and13verbatim unified-diff blank context lines; remaining staged files pass; no bytes/config altered",
+  "protected_payloads_accessed": false,
+  "backup_completeness": "UNVERIFIED",
+  "pre_reboot_unsaved_state": "UNVERIFIED",
+  "runtime_model_version": "UNATTESTED",
+  "general_agent_capacity": "UNVERIFIED",
+  "next_research": "No new campaign; no distinct new native-response implication ready for dispatch identified in CWA1",
+  "receipt_publication": "Subsequent operational action, not preclaimed by this record"
+}

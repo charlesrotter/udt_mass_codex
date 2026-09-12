@@ -1,0 +1,2523 @@
+{
+  "recorded_utc": "2026-09-12T17:01:08.664023+00:00",
+  "command": [
+    "git",
+    "diff",
+    "--cached",
+    "--check"
+  ],
+  "returncode": 2,
+  "issues": [
+    {
+      "path": "udt_accepted_work_consolidation_2026-09-12/REGISTRY_COVERAGE_DRAFT.tsv",
+      "line": 1,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "udt_accepted_work_consolidation_2026-09-12/REGISTRY_COVERAGE_DRAFT.tsv",
+      "line": 2,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "udt_accepted_work_consolidation_2026-09-12/REGISTRY_COVERAGE_DRAFT.tsv",
+      "line": 3,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "udt_accepted_work_consolidation_2026-09-12/REGISTRY_COVERAGE_DRAFT.tsv",
+      "line": 4,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "udt_accepted_work_consolidation_2026-09-12/REGISTRY_COVERAGE_DRAFT.tsv",
+      "line": 5,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "udt_accepted_work_consolidation_2026-09-12/REGISTRY_COVERAGE_DRAFT.tsv",
+      "line": 6,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "udt_accepted_work_consolidation_2026-09-12/REGISTRY_COVERAGE_DRAFT.tsv",
+      "line": 7,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "udt_accepted_work_consolidation_2026-09-12/REGISTRY_COVERAGE_DRAFT.tsv",
+      "line": 8,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "udt_accepted_work_consolidation_2026-09-12/REGISTRY_COVERAGE_DRAFT.tsv",
+      "line": 9,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "udt_accepted_work_consolidation_2026-09-12/REGISTRY_COVERAGE_DRAFT.tsv",
+      "line": 10,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "udt_accepted_work_consolidation_2026-09-12/REGISTRY_COVERAGE_DRAFT.tsv",
+      "line": 11,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "udt_accepted_work_consolidation_2026-09-12/REGISTRY_COVERAGE_DRAFT.tsv",
+      "line": 12,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "udt_accepted_work_consolidation_2026-09-12/REGISTRY_COVERAGE_DRAFT.tsv",
+      "line": 13,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "udt_accepted_work_consolidation_2026-09-12/REGISTRY_COVERAGE_DRAFT.tsv",
+      "line": 14,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "udt_accepted_work_consolidation_2026-09-12/REGISTRY_COVERAGE_DRAFT.tsv",
+      "line": 15,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "udt_accepted_work_consolidation_2026-09-12/REGISTRY_COVERAGE_DRAFT.tsv",
+      "line": 16,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "udt_accepted_work_consolidation_2026-09-12/REGISTRY_COVERAGE_DRAFT.tsv",
+      "line": 17,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "udt_accepted_work_consolidation_2026-09-12/REGISTRY_COVERAGE_DRAFT.tsv",
+      "line": 18,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "udt_accepted_work_consolidation_2026-09-12/REGISTRY_COVERAGE_DRAFT.tsv",
+      "line": 19,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "udt_accepted_work_consolidation_2026-09-12/REGISTRY_COVERAGE_DRAFT.tsv",
+      "line": 20,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "udt_accepted_work_consolidation_2026-09-12/REGISTRY_COVERAGE_DRAFT.tsv",
+      "line": 21,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "udt_accepted_work_consolidation_2026-09-12/REGISTRY_COVERAGE_DRAFT.tsv",
+      "line": 22,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "udt_accepted_work_consolidation_2026-09-12/REGISTRY_COVERAGE_DRAFT.tsv",
+      "line": 23,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "udt_accepted_work_consolidation_2026-09-12/REGISTRY_COVERAGE_DRAFT.tsv",
+      "line": 24,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "udt_accepted_work_consolidation_2026-09-12/REGISTRY_COVERAGE_DRAFT.tsv",
+      "line": 25,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "udt_accepted_work_consolidation_2026-09-12/REGISTRY_COVERAGE_DRAFT.tsv",
+      "line": 26,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "udt_accepted_work_consolidation_2026-09-12/REGISTRY_COVERAGE_DRAFT.tsv",
+      "line": 27,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "udt_accepted_work_consolidation_2026-09-12/REGISTRY_COVERAGE_DRAFT.tsv",
+      "line": 28,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "udt_accepted_work_consolidation_2026-09-12/REGISTRY_COVERAGE_DRAFT.tsv",
+      "line": 29,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "udt_accepted_work_consolidation_2026-09-12/REGISTRY_COVERAGE_DRAFT.tsv",
+      "line": 30,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "udt_accepted_work_consolidation_2026-09-12/REGISTRY_COVERAGE_DRAFT.tsv",
+      "line": 31,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "udt_accepted_work_consolidation_2026-09-12/REGISTRY_COVERAGE_DRAFT.tsv",
+      "line": 32,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "udt_accepted_work_consolidation_2026-09-12/REGISTRY_COVERAGE_DRAFT.tsv",
+      "line": 33,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "udt_accepted_work_consolidation_2026-09-12/REGISTRY_COVERAGE_DRAFT.tsv",
+      "line": 34,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "udt_accepted_work_consolidation_2026-09-12/REGISTRY_COVERAGE_DRAFT.tsv",
+      "line": 35,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "udt_accepted_work_consolidation_2026-09-12/REGISTRY_COVERAGE_DRAFT.tsv",
+      "line": 36,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "udt_accepted_work_consolidation_2026-09-12/REGISTRY_COVERAGE_DRAFT.tsv",
+      "line": 37,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "udt_accepted_work_consolidation_2026-09-12/REGISTRY_COVERAGE_DRAFT.tsv",
+      "line": 38,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "udt_accepted_work_consolidation_2026-09-12/REGISTRY_COVERAGE_DRAFT.tsv",
+      "line": 39,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "udt_accepted_work_consolidation_2026-09-12/REGISTRY_COVERAGE_DRAFT.tsv",
+      "line": 40,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "udt_accepted_work_consolidation_2026-09-12/REGISTRY_COVERAGE_DRAFT.tsv",
+      "line": 41,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "udt_accepted_work_consolidation_2026-09-12/REGISTRY_COVERAGE_DRAFT.tsv",
+      "line": 42,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "udt_accepted_work_consolidation_2026-09-12/REGISTRY_COVERAGE_DRAFT.tsv",
+      "line": 43,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "udt_accepted_work_consolidation_2026-09-12/REGISTRY_COVERAGE_DRAFT.tsv",
+      "line": 44,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "udt_accepted_work_consolidation_2026-09-12/REGISTRY_COVERAGE_DRAFT.tsv",
+      "line": 45,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "udt_accepted_work_consolidation_2026-09-12/REGISTRY_COVERAGE_DRAFT.tsv",
+      "line": 46,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "udt_accepted_work_consolidation_2026-09-12/REGISTRY_COVERAGE_DRAFT.tsv",
+      "line": 47,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "udt_accepted_work_consolidation_2026-09-12/REGISTRY_COVERAGE_DRAFT.tsv",
+      "line": 48,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "udt_accepted_work_consolidation_2026-09-12/REGISTRY_COVERAGE_DRAFT.tsv",
+      "line": 49,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "udt_accepted_work_consolidation_2026-09-12/REGISTRY_COVERAGE_DRAFT.tsv",
+      "line": 50,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "udt_accepted_work_consolidation_2026-09-12/REGISTRY_COVERAGE_DRAFT.tsv",
+      "line": 51,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "udt_accepted_work_consolidation_2026-09-12/REGISTRY_COVERAGE_DRAFT.tsv",
+      "line": 52,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "udt_accepted_work_consolidation_2026-09-12/REGISTRY_COVERAGE_DRAFT.tsv",
+      "line": 53,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "udt_accepted_work_consolidation_2026-09-12/REGISTRY_COVERAGE_DRAFT.tsv",
+      "line": 54,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "udt_accepted_work_consolidation_2026-09-12/REGISTRY_COVERAGE_DRAFT.tsv",
+      "line": 55,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "udt_accepted_work_consolidation_2026-09-12/REGISTRY_COVERAGE_DRAFT.tsv",
+      "line": 56,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "udt_accepted_work_consolidation_2026-09-12/REGISTRY_COVERAGE_DRAFT.tsv",
+      "line": 57,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "udt_accepted_work_consolidation_2026-09-12/REGISTRY_COVERAGE_DRAFT.tsv",
+      "line": 58,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "udt_accepted_work_consolidation_2026-09-12/REGISTRY_COVERAGE_DRAFT.tsv",
+      "line": 59,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "udt_accepted_work_consolidation_2026-09-12/REGISTRY_COVERAGE_DRAFT.tsv",
+      "line": 60,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "udt_accepted_work_consolidation_2026-09-12/REGISTRY_COVERAGE_DRAFT.tsv",
+      "line": 61,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "udt_accepted_work_consolidation_2026-09-12/REGISTRY_COVERAGE_DRAFT.tsv",
+      "line": 62,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "udt_accepted_work_consolidation_2026-09-12/REGISTRY_COVERAGE_DRAFT.tsv",
+      "line": 63,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "udt_accepted_work_consolidation_2026-09-12/REGISTRY_COVERAGE_DRAFT.tsv",
+      "line": 64,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "udt_accepted_work_consolidation_2026-09-12/REGISTRY_COVERAGE_DRAFT.tsv",
+      "line": 65,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "udt_accepted_work_consolidation_2026-09-12/REGISTRY_COVERAGE_DRAFT.tsv",
+      "line": 66,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "udt_accepted_work_consolidation_2026-09-12/REGISTRY_COVERAGE_DRAFT.tsv",
+      "line": 67,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "udt_accepted_work_consolidation_2026-09-12/REGISTRY_COVERAGE_DRAFT.tsv",
+      "line": 68,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "udt_accepted_work_consolidation_2026-09-12/REGISTRY_COVERAGE_DRAFT.tsv",
+      "line": 69,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "udt_accepted_work_consolidation_2026-09-12/REGISTRY_COVERAGE_DRAFT.tsv",
+      "line": 70,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "udt_accepted_work_consolidation_2026-09-12/REGISTRY_COVERAGE_DRAFT.tsv",
+      "line": 71,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "udt_accepted_work_consolidation_2026-09-12/REGISTRY_COVERAGE_DRAFT.tsv",
+      "line": 72,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "udt_accepted_work_consolidation_2026-09-12/REGISTRY_COVERAGE_DRAFT.tsv",
+      "line": 73,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "udt_accepted_work_consolidation_2026-09-12/REGISTRY_COVERAGE_DRAFT.tsv",
+      "line": 74,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "udt_accepted_work_consolidation_2026-09-12/REGISTRY_COVERAGE_DRAFT.tsv",
+      "line": 75,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "udt_accepted_work_consolidation_2026-09-12/REGISTRY_COVERAGE_DRAFT.tsv",
+      "line": 76,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "udt_accepted_work_consolidation_2026-09-12/REGISTRY_COVERAGE_DRAFT.tsv",
+      "line": 77,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "udt_accepted_work_consolidation_2026-09-12/REGISTRY_COVERAGE_DRAFT.tsv",
+      "line": 78,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "udt_accepted_work_consolidation_2026-09-12/REGISTRY_COVERAGE_DRAFT.tsv",
+      "line": 79,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "udt_accepted_work_consolidation_2026-09-12/REGISTRY_COVERAGE_DRAFT.tsv",
+      "line": 80,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "udt_accepted_work_consolidation_2026-09-12/REGISTRY_COVERAGE_DRAFT.tsv",
+      "line": 81,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "udt_accepted_work_consolidation_2026-09-12/REGISTRY_COVERAGE_DRAFT.tsv",
+      "line": 82,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "udt_accepted_work_consolidation_2026-09-12/REGISTRY_COVERAGE_DRAFT.tsv",
+      "line": 83,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "udt_accepted_work_consolidation_2026-09-12/REGISTRY_COVERAGE_DRAFT.tsv",
+      "line": 84,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "udt_accepted_work_consolidation_2026-09-12/REGISTRY_COVERAGE_DRAFT.tsv",
+      "line": 85,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "udt_accepted_work_consolidation_2026-09-12/REGISTRY_COVERAGE_DRAFT.tsv",
+      "line": 86,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "udt_accepted_work_consolidation_2026-09-12/REGISTRY_COVERAGE_DRAFT.tsv",
+      "line": 87,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "udt_accepted_work_consolidation_2026-09-12/REGISTRY_COVERAGE_DRAFT.tsv",
+      "line": 88,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "udt_accepted_work_consolidation_2026-09-12/REGISTRY_COVERAGE_DRAFT.tsv",
+      "line": 89,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "udt_accepted_work_consolidation_2026-09-12/REGISTRY_COVERAGE_DRAFT.tsv",
+      "line": 90,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "udt_accepted_work_consolidation_2026-09-12/REGISTRY_COVERAGE_DRAFT.tsv",
+      "line": 91,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "udt_accepted_work_consolidation_2026-09-12/REGISTRY_COVERAGE_DRAFT.tsv",
+      "line": 92,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "udt_accepted_work_consolidation_2026-09-12/REGISTRY_COVERAGE_DRAFT.tsv",
+      "line": 93,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "udt_accepted_work_consolidation_2026-09-12/REGISTRY_COVERAGE_DRAFT.tsv",
+      "line": 94,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "udt_accepted_work_consolidation_2026-09-12/REGISTRY_COVERAGE_DRAFT.tsv",
+      "line": 95,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "udt_accepted_work_consolidation_2026-09-12/REGISTRY_COVERAGE_DRAFT.tsv",
+      "line": 96,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "udt_accepted_work_consolidation_2026-09-12/REGISTRY_COVERAGE_DRAFT.tsv",
+      "line": 97,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "udt_accepted_work_consolidation_2026-09-12/REGISTRY_COVERAGE_DRAFT.tsv",
+      "line": 98,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "udt_accepted_work_consolidation_2026-09-12/REGISTRY_COVERAGE_DRAFT.tsv",
+      "line": 99,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "udt_accepted_work_consolidation_2026-09-12/REGISTRY_COVERAGE_DRAFT.tsv",
+      "line": 100,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "udt_accepted_work_consolidation_2026-09-12/REGISTRY_COVERAGE_DRAFT.tsv",
+      "line": 101,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "udt_accepted_work_consolidation_2026-09-12/REGISTRY_COVERAGE_DRAFT.tsv",
+      "line": 102,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "udt_accepted_work_consolidation_2026-09-12/REGISTRY_COVERAGE_DRAFT.tsv",
+      "line": 103,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "udt_accepted_work_consolidation_2026-09-12/REGISTRY_COVERAGE_DRAFT.tsv",
+      "line": 104,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "udt_accepted_work_consolidation_2026-09-12/REGISTRY_COVERAGE_DRAFT.tsv",
+      "line": 105,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "udt_accepted_work_consolidation_2026-09-12/REGISTRY_COVERAGE_DRAFT.tsv",
+      "line": 106,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "udt_accepted_work_consolidation_2026-09-12/REGISTRY_COVERAGE_DRAFT.tsv",
+      "line": 107,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "udt_accepted_work_consolidation_2026-09-12/REGISTRY_COVERAGE_DRAFT.tsv",
+      "line": 108,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "udt_accepted_work_consolidation_2026-09-12/REGISTRY_COVERAGE_DRAFT.tsv",
+      "line": 109,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "udt_accepted_work_consolidation_2026-09-12/REGISTRY_COVERAGE_DRAFT.tsv",
+      "line": 110,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "udt_accepted_work_consolidation_2026-09-12/REGISTRY_COVERAGE_DRAFT.tsv",
+      "line": 111,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "udt_accepted_work_consolidation_2026-09-12/REGISTRY_COVERAGE_DRAFT.tsv",
+      "line": 112,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "udt_accepted_work_consolidation_2026-09-12/REGISTRY_COVERAGE_DRAFT.tsv",
+      "line": 113,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "udt_accepted_work_consolidation_2026-09-12/REGISTRY_COVERAGE_DRAFT.tsv",
+      "line": 114,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "udt_accepted_work_consolidation_2026-09-12/REGISTRY_COVERAGE_DRAFT.tsv",
+      "line": 115,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "udt_accepted_work_consolidation_2026-09-12/REGISTRY_COVERAGE_DRAFT.tsv",
+      "line": 116,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "udt_accepted_work_consolidation_2026-09-12/REGISTRY_COVERAGE_DRAFT.tsv",
+      "line": 117,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "udt_accepted_work_consolidation_2026-09-12/REGISTRY_COVERAGE_DRAFT.tsv",
+      "line": 118,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "udt_accepted_work_consolidation_2026-09-12/REGISTRY_COVERAGE_DRAFT.tsv",
+      "line": 119,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "udt_accepted_work_consolidation_2026-09-12/REGISTRY_COVERAGE_DRAFT.tsv",
+      "line": 120,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "udt_accepted_work_consolidation_2026-09-12/REGISTRY_COVERAGE_DRAFT.tsv",
+      "line": 121,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "udt_accepted_work_consolidation_2026-09-12/REGISTRY_COVERAGE_DRAFT.tsv",
+      "line": 122,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "udt_accepted_work_consolidation_2026-09-12/REGISTRY_COVERAGE_DRAFT.tsv",
+      "line": 123,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "udt_accepted_work_consolidation_2026-09-12/REGISTRY_COVERAGE_DRAFT.tsv",
+      "line": 124,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "udt_accepted_work_consolidation_2026-09-12/REGISTRY_COVERAGE_DRAFT.tsv",
+      "line": 125,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "udt_accepted_work_consolidation_2026-09-12/REGISTRY_COVERAGE_DRAFT.tsv",
+      "line": 126,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "udt_accepted_work_consolidation_2026-09-12/REGISTRY_COVERAGE_DRAFT.tsv",
+      "line": 127,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "udt_accepted_work_consolidation_2026-09-12/REGISTRY_COVERAGE_DRAFT.tsv",
+      "line": 128,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "udt_accepted_work_consolidation_2026-09-12/REGISTRY_COVERAGE_DRAFT.tsv",
+      "line": 129,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "udt_accepted_work_consolidation_2026-09-12/REGISTRY_COVERAGE_DRAFT.tsv",
+      "line": 130,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "udt_accepted_work_consolidation_2026-09-12/REGISTRY_COVERAGE_DRAFT.tsv",
+      "line": 131,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "udt_accepted_work_consolidation_2026-09-12/REGISTRY_COVERAGE_DRAFT.tsv",
+      "line": 132,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "udt_accepted_work_consolidation_2026-09-12/REGISTRY_COVERAGE_DRAFT.tsv",
+      "line": 133,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "udt_accepted_work_consolidation_2026-09-12/REGISTRY_COVERAGE_DRAFT.tsv",
+      "line": 134,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "udt_accepted_work_consolidation_2026-09-12/REGISTRY_COVERAGE_DRAFT.tsv",
+      "line": 135,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "udt_accepted_work_consolidation_2026-09-12/REGISTRY_COVERAGE_DRAFT.tsv",
+      "line": 136,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "udt_accepted_work_consolidation_2026-09-12/REGISTRY_COVERAGE_DRAFT.tsv",
+      "line": 137,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "udt_accepted_work_consolidation_2026-09-12/REGISTRY_COVERAGE_DRAFT.tsv",
+      "line": 138,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "udt_accepted_work_consolidation_2026-09-12/REGISTRY_COVERAGE_DRAFT.tsv",
+      "line": 139,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "udt_accepted_work_consolidation_2026-09-12/REGISTRY_COVERAGE_DRAFT.tsv",
+      "line": 140,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "udt_accepted_work_consolidation_2026-09-12/REGISTRY_COVERAGE_DRAFT.tsv",
+      "line": 141,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "udt_accepted_work_consolidation_2026-09-12/REGISTRY_COVERAGE_DRAFT.tsv",
+      "line": 142,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "udt_accepted_work_consolidation_2026-09-12/REGISTRY_COVERAGE_DRAFT.tsv",
+      "line": 143,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "udt_accepted_work_consolidation_2026-09-12/REGISTRY_COVERAGE_DRAFT.tsv",
+      "line": 144,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "udt_accepted_work_consolidation_2026-09-12/REGISTRY_COVERAGE_DRAFT.tsv",
+      "line": 145,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "udt_accepted_work_consolidation_2026-09-12/REGISTRY_COVERAGE_DRAFT.tsv",
+      "line": 146,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "udt_accepted_work_consolidation_2026-09-12/REGISTRY_COVERAGE_DRAFT.tsv",
+      "line": 147,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "udt_accepted_work_consolidation_2026-09-12/REGISTRY_COVERAGE_DRAFT.tsv",
+      "line": 148,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "udt_accepted_work_consolidation_2026-09-12/REGISTRY_COVERAGE_DRAFT.tsv",
+      "line": 149,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "udt_accepted_work_consolidation_2026-09-12/REGISTRY_COVERAGE_DRAFT.tsv",
+      "line": 150,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "udt_accepted_work_consolidation_2026-09-12/REGISTRY_COVERAGE_DRAFT.tsv",
+      "line": 151,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "udt_accepted_work_consolidation_2026-09-12/REGISTRY_COVERAGE_DRAFT.tsv",
+      "line": 152,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "udt_accepted_work_consolidation_2026-09-12/REGISTRY_COVERAGE_DRAFT.tsv",
+      "line": 153,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "udt_accepted_work_consolidation_2026-09-12/REGISTRY_COVERAGE_DRAFT.tsv",
+      "line": 154,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "udt_accepted_work_consolidation_2026-09-12/REGISTRY_COVERAGE_DRAFT.tsv",
+      "line": 155,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "udt_accepted_work_consolidation_2026-09-12/REGISTRY_COVERAGE_DRAFT.tsv",
+      "line": 156,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "udt_accepted_work_consolidation_2026-09-12/REGISTRY_COVERAGE_DRAFT.tsv",
+      "line": 157,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "udt_accepted_work_consolidation_2026-09-12/REGISTRY_COVERAGE_DRAFT.tsv",
+      "line": 158,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "udt_accepted_work_consolidation_2026-09-12/REGISTRY_COVERAGE_DRAFT.tsv",
+      "line": 159,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "udt_accepted_work_consolidation_2026-09-12/REGISTRY_COVERAGE_DRAFT.tsv",
+      "line": 160,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "udt_accepted_work_consolidation_2026-09-12/REGISTRY_COVERAGE_DRAFT.tsv",
+      "line": 161,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "udt_accepted_work_consolidation_2026-09-12/REGISTRY_COVERAGE_DRAFT.tsv",
+      "line": 162,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "udt_accepted_work_consolidation_2026-09-12/REGISTRY_COVERAGE_DRAFT.tsv",
+      "line": 163,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "udt_accepted_work_consolidation_2026-09-12/REGISTRY_COVERAGE_DRAFT.tsv",
+      "line": 164,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "udt_accepted_work_consolidation_2026-09-12/REGISTRY_COVERAGE_DRAFT.tsv",
+      "line": 165,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "udt_accepted_work_consolidation_2026-09-12/REGISTRY_COVERAGE_DRAFT.tsv",
+      "line": 166,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "udt_accepted_work_consolidation_2026-09-12/REGISTRY_COVERAGE_DRAFT.tsv",
+      "line": 167,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "udt_accepted_work_consolidation_2026-09-12/REGISTRY_COVERAGE_DRAFT.tsv",
+      "line": 168,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "udt_accepted_work_consolidation_2026-09-12/REGISTRY_COVERAGE_DRAFT.tsv",
+      "line": 169,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "udt_accepted_work_consolidation_2026-09-12/REGISTRY_COVERAGE_DRAFT.tsv",
+      "line": 170,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "udt_accepted_work_consolidation_2026-09-12/REGISTRY_COVERAGE_DRAFT.tsv",
+      "line": 171,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "udt_accepted_work_consolidation_2026-09-12/REGISTRY_COVERAGE_DRAFT.tsv",
+      "line": 172,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "udt_accepted_work_consolidation_2026-09-12/REGISTRY_COVERAGE_DRAFT.tsv",
+      "line": 173,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "udt_accepted_work_consolidation_2026-09-12/REGISTRY_COVERAGE_DRAFT.tsv",
+      "line": 174,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "udt_accepted_work_consolidation_2026-09-12/REGISTRY_COVERAGE_DRAFT.tsv",
+      "line": 175,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "udt_accepted_work_consolidation_2026-09-12/REGISTRY_COVERAGE_DRAFT.tsv",
+      "line": 176,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "udt_accepted_work_consolidation_2026-09-12/REGISTRY_COVERAGE_DRAFT.tsv",
+      "line": 177,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "udt_accepted_work_consolidation_2026-09-12/REGISTRY_COVERAGE_DRAFT.tsv",
+      "line": 178,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "udt_accepted_work_consolidation_2026-09-12/REGISTRY_COVERAGE_DRAFT.tsv",
+      "line": 179,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "udt_accepted_work_consolidation_2026-09-12/REGISTRY_COVERAGE_DRAFT.tsv",
+      "line": 180,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "udt_accepted_work_consolidation_2026-09-12/REGISTRY_COVERAGE_DRAFT.tsv",
+      "line": 181,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "udt_accepted_work_consolidation_2026-09-12/REGISTRY_COVERAGE_DRAFT.tsv",
+      "line": 182,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "udt_accepted_work_consolidation_2026-09-12/REGISTRY_COVERAGE_DRAFT.tsv",
+      "line": 183,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "udt_accepted_work_consolidation_2026-09-12/REGISTRY_COVERAGE_DRAFT.tsv",
+      "line": 184,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "udt_accepted_work_consolidation_2026-09-12/REGISTRY_COVERAGE_DRAFT.tsv",
+      "line": 185,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "udt_accepted_work_consolidation_2026-09-12/REGISTRY_COVERAGE_DRAFT.tsv",
+      "line": 186,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "udt_accepted_work_consolidation_2026-09-12/REGISTRY_COVERAGE_DRAFT.tsv",
+      "line": 187,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "udt_accepted_work_consolidation_2026-09-12/REGISTRY_COVERAGE_DRAFT.tsv",
+      "line": 188,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "udt_accepted_work_consolidation_2026-09-12/REGISTRY_COVERAGE_DRAFT.tsv",
+      "line": 189,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "udt_accepted_work_consolidation_2026-09-12/REGISTRY_COVERAGE_DRAFT.tsv",
+      "line": 190,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "udt_accepted_work_consolidation_2026-09-12/REGISTRY_COVERAGE_DRAFT.tsv",
+      "line": 191,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "udt_accepted_work_consolidation_2026-09-12/REGISTRY_COVERAGE_DRAFT.tsv",
+      "line": 192,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "udt_accepted_work_consolidation_2026-09-12/REGISTRY_COVERAGE_DRAFT.tsv",
+      "line": 193,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "udt_accepted_work_consolidation_2026-09-12/REGISTRY_COVERAGE_DRAFT.tsv",
+      "line": 194,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "udt_accepted_work_consolidation_2026-09-12/REGISTRY_COVERAGE_DRAFT.tsv",
+      "line": 195,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "udt_accepted_work_consolidation_2026-09-12/REGISTRY_COVERAGE_DRAFT.tsv",
+      "line": 196,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "udt_accepted_work_consolidation_2026-09-12/REGISTRY_COVERAGE_DRAFT.tsv",
+      "line": 197,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "udt_accepted_work_consolidation_2026-09-12/REGISTRY_COVERAGE_DRAFT.tsv",
+      "line": 198,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "udt_accepted_work_consolidation_2026-09-12/REGISTRY_COVERAGE_DRAFT.tsv",
+      "line": 199,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "udt_accepted_work_consolidation_2026-09-12/REGISTRY_COVERAGE_DRAFT.tsv",
+      "line": 200,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "udt_accepted_work_consolidation_2026-09-12/REGISTRY_COVERAGE_DRAFT.tsv",
+      "line": 201,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "udt_accepted_work_consolidation_2026-09-12/REGISTRY_COVERAGE_DRAFT.tsv",
+      "line": 202,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "udt_accepted_work_consolidation_2026-09-12/REGISTRY_COVERAGE_DRAFT.tsv",
+      "line": 203,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "udt_accepted_work_consolidation_2026-09-12/REGISTRY_COVERAGE_DRAFT.tsv",
+      "line": 204,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "udt_accepted_work_consolidation_2026-09-12/REGISTRY_COVERAGE_DRAFT.tsv",
+      "line": 205,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "udt_accepted_work_consolidation_2026-09-12/REGISTRY_COVERAGE_DRAFT.tsv",
+      "line": 206,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "udt_accepted_work_consolidation_2026-09-12/REGISTRY_COVERAGE_DRAFT.tsv",
+      "line": 207,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "udt_accepted_work_consolidation_2026-09-12/REGISTRY_COVERAGE_DRAFT.tsv",
+      "line": 208,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "udt_accepted_work_consolidation_2026-09-12/REGISTRY_COVERAGE_DRAFT.tsv",
+      "line": 209,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "udt_accepted_work_consolidation_2026-09-12/REGISTRY_COVERAGE_DRAFT.tsv",
+      "line": 210,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "udt_accepted_work_consolidation_2026-09-12/REGISTRY_COVERAGE_DRAFT.tsv",
+      "line": 211,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "udt_accepted_work_consolidation_2026-09-12/REGISTRY_COVERAGE_DRAFT.tsv",
+      "line": 212,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "udt_accepted_work_consolidation_2026-09-12/REGISTRY_COVERAGE_DRAFT.tsv",
+      "line": 213,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "udt_accepted_work_consolidation_2026-09-12/REGISTRY_COVERAGE_DRAFT.tsv",
+      "line": 214,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "udt_accepted_work_consolidation_2026-09-12/REGISTRY_COVERAGE_DRAFT.tsv",
+      "line": 215,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "udt_accepted_work_consolidation_2026-09-12/REGISTRY_COVERAGE_DRAFT.tsv",
+      "line": 216,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "udt_accepted_work_consolidation_2026-09-12/REGISTRY_COVERAGE_DRAFT.tsv",
+      "line": 217,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "udt_accepted_work_consolidation_2026-09-12/REGISTRY_COVERAGE_DRAFT.tsv",
+      "line": 218,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "udt_accepted_work_consolidation_2026-09-12/REGISTRY_COVERAGE_DRAFT.tsv",
+      "line": 219,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "udt_accepted_work_consolidation_2026-09-12/REGISTRY_COVERAGE_DRAFT.tsv",
+      "line": 220,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "udt_accepted_work_consolidation_2026-09-12/REGISTRY_COVERAGE_DRAFT.tsv",
+      "line": 221,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "udt_accepted_work_consolidation_2026-09-12/REGISTRY_COVERAGE_DRAFT.tsv",
+      "line": 222,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "udt_accepted_work_consolidation_2026-09-12/REGISTRY_COVERAGE_DRAFT.tsv",
+      "line": 223,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "udt_accepted_work_consolidation_2026-09-12/REGISTRY_COVERAGE_DRAFT.tsv",
+      "line": 224,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "udt_accepted_work_consolidation_2026-09-12/REGISTRY_COVERAGE_DRAFT.tsv",
+      "line": 225,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "udt_accepted_work_consolidation_2026-09-12/REGISTRY_COVERAGE_DRAFT.tsv",
+      "line": 226,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "udt_accepted_work_consolidation_2026-09-12/REGISTRY_COVERAGE_DRAFT.tsv",
+      "line": 227,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "udt_accepted_work_consolidation_2026-09-12/REGISTRY_COVERAGE_DRAFT.tsv",
+      "line": 228,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "udt_accepted_work_consolidation_2026-09-12/REGISTRY_COVERAGE_DRAFT.tsv",
+      "line": 229,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "udt_accepted_work_consolidation_2026-09-12/REGISTRY_COVERAGE_DRAFT.tsv",
+      "line": 230,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "udt_accepted_work_consolidation_2026-09-12/REGISTRY_COVERAGE_DRAFT.tsv",
+      "line": 231,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "udt_accepted_work_consolidation_2026-09-12/REGISTRY_COVERAGE_DRAFT.tsv",
+      "line": 232,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "udt_accepted_work_consolidation_2026-09-12/REGISTRY_COVERAGE_DRAFT.tsv",
+      "line": 233,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "udt_accepted_work_consolidation_2026-09-12/REGISTRY_COVERAGE_DRAFT.tsv",
+      "line": 234,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "udt_accepted_work_consolidation_2026-09-12/REGISTRY_COVERAGE_DRAFT.tsv",
+      "line": 235,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "udt_accepted_work_consolidation_2026-09-12/REGISTRY_COVERAGE_DRAFT.tsv",
+      "line": 236,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "udt_accepted_work_consolidation_2026-09-12/REGISTRY_COVERAGE_DRAFT.tsv",
+      "line": 237,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "udt_accepted_work_consolidation_2026-09-12/REGISTRY_COVERAGE_DRAFT.tsv",
+      "line": 238,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "udt_accepted_work_consolidation_2026-09-12/REGISTRY_COVERAGE_DRAFT.tsv",
+      "line": 239,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "udt_accepted_work_consolidation_2026-09-12/REGISTRY_COVERAGE_DRAFT.tsv",
+      "line": 240,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "udt_accepted_work_consolidation_2026-09-12/REGISTRY_COVERAGE_DRAFT.tsv",
+      "line": 241,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "udt_accepted_work_consolidation_2026-09-12/REGISTRY_COVERAGE_DRAFT.tsv",
+      "line": 242,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "udt_accepted_work_consolidation_2026-09-12/REGISTRY_COVERAGE_DRAFT.tsv",
+      "line": 243,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "udt_accepted_work_consolidation_2026-09-12/REGISTRY_COVERAGE_DRAFT.tsv",
+      "line": 244,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "udt_accepted_work_consolidation_2026-09-12/REGISTRY_COVERAGE_DRAFT.tsv",
+      "line": 245,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "udt_accepted_work_consolidation_2026-09-12/REGISTRY_COVERAGE_DRAFT.tsv",
+      "line": 246,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "udt_accepted_work_consolidation_2026-09-12/REGISTRY_COVERAGE_DRAFT.tsv",
+      "line": 247,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "udt_accepted_work_consolidation_2026-09-12/REGISTRY_COVERAGE_DRAFT.tsv",
+      "line": 248,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "udt_accepted_work_consolidation_2026-09-12/REGISTRY_COVERAGE_DRAFT.tsv",
+      "line": 249,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "udt_accepted_work_consolidation_2026-09-12/REGISTRY_COVERAGE_DRAFT.tsv",
+      "line": 250,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "udt_accepted_work_consolidation_2026-09-12/REGISTRY_COVERAGE_DRAFT.tsv",
+      "line": 251,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "udt_accepted_work_consolidation_2026-09-12/REGISTRY_COVERAGE_DRAFT.tsv",
+      "line": 252,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "udt_accepted_work_consolidation_2026-09-12/REGISTRY_COVERAGE_DRAFT.tsv",
+      "line": 253,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "udt_accepted_work_consolidation_2026-09-12/REGISTRY_COVERAGE_DRAFT.tsv",
+      "line": 254,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "udt_accepted_work_consolidation_2026-09-12/REGISTRY_COVERAGE_DRAFT.tsv",
+      "line": 255,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "udt_accepted_work_consolidation_2026-09-12/REGISTRY_COVERAGE_DRAFT.tsv",
+      "line": 256,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "udt_accepted_work_consolidation_2026-09-12/REGISTRY_COVERAGE_DRAFT.tsv",
+      "line": 257,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "udt_accepted_work_consolidation_2026-09-12/REGISTRY_COVERAGE_DRAFT.tsv",
+      "line": 258,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "udt_accepted_work_consolidation_2026-09-12/REGISTRY_COVERAGE_DRAFT.tsv",
+      "line": 259,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "udt_accepted_work_consolidation_2026-09-12/REGISTRY_COVERAGE_DRAFT.tsv",
+      "line": 260,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "udt_accepted_work_consolidation_2026-09-12/REGISTRY_COVERAGE_DRAFT.tsv",
+      "line": 261,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "udt_accepted_work_consolidation_2026-09-12/REGISTRY_COVERAGE_DRAFT.tsv",
+      "line": 262,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "udt_accepted_work_consolidation_2026-09-12/REGISTRY_COVERAGE_DRAFT.tsv",
+      "line": 263,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "udt_accepted_work_consolidation_2026-09-12/REGISTRY_COVERAGE_DRAFT.tsv",
+      "line": 264,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "udt_accepted_work_consolidation_2026-09-12/REGISTRY_COVERAGE_DRAFT.tsv",
+      "line": 265,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "udt_accepted_work_consolidation_2026-09-12/REGISTRY_COVERAGE_DRAFT.tsv",
+      "line": 266,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "udt_accepted_work_consolidation_2026-09-12/REGISTRY_COVERAGE_DRAFT.tsv",
+      "line": 267,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "udt_accepted_work_consolidation_2026-09-12/REGISTRY_COVERAGE_DRAFT.tsv",
+      "line": 268,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "udt_accepted_work_consolidation_2026-09-12/REGISTRY_COVERAGE_DRAFT.tsv",
+      "line": 269,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "udt_accepted_work_consolidation_2026-09-12/REGISTRY_COVERAGE_DRAFT.tsv",
+      "line": 270,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "udt_accepted_work_consolidation_2026-09-12/REGISTRY_COVERAGE_DRAFT.tsv",
+      "line": 271,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "udt_accepted_work_consolidation_2026-09-12/REGISTRY_COVERAGE_DRAFT.tsv",
+      "line": 272,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "udt_accepted_work_consolidation_2026-09-12/REGISTRY_COVERAGE_DRAFT.tsv",
+      "line": 273,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "udt_accepted_work_consolidation_2026-09-12/REGISTRY_COVERAGE_DRAFT.tsv",
+      "line": 274,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "udt_accepted_work_consolidation_2026-09-12/REGISTRY_COVERAGE_DRAFT.tsv",
+      "line": 275,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "udt_accepted_work_consolidation_2026-09-12/REGISTRY_COVERAGE_DRAFT.tsv",
+      "line": 276,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "udt_accepted_work_consolidation_2026-09-12/REGISTRY_COVERAGE_DRAFT.tsv",
+      "line": 277,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "udt_accepted_work_consolidation_2026-09-12/REGISTRY_COVERAGE_DRAFT.tsv",
+      "line": 278,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "udt_accepted_work_consolidation_2026-09-12/REGISTRY_COVERAGE_DRAFT.tsv",
+      "line": 279,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "udt_accepted_work_consolidation_2026-09-12/REGISTRY_COVERAGE_DRAFT.tsv",
+      "line": 280,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "udt_accepted_work_consolidation_2026-09-12/REGISTRY_COVERAGE_DRAFT.tsv",
+      "line": 281,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "udt_accepted_work_consolidation_2026-09-12/REGISTRY_COVERAGE_DRAFT.tsv",
+      "line": 282,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "udt_accepted_work_consolidation_2026-09-12/REGISTRY_COVERAGE_DRAFT.tsv",
+      "line": 283,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "udt_accepted_work_consolidation_2026-09-12/REGISTRY_COVERAGE_DRAFT.tsv",
+      "line": 284,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "udt_accepted_work_consolidation_2026-09-12/REGISTRY_COVERAGE_DRAFT.tsv",
+      "line": 285,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "udt_accepted_work_consolidation_2026-09-12/REGISTRY_COVERAGE_DRAFT.tsv",
+      "line": 286,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "udt_accepted_work_consolidation_2026-09-12/REGISTRY_COVERAGE_DRAFT.tsv",
+      "line": 287,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "udt_accepted_work_consolidation_2026-09-12/REGISTRY_COVERAGE_DRAFT.tsv",
+      "line": 288,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "udt_accepted_work_consolidation_2026-09-12/REGISTRY_COVERAGE_DRAFT.tsv",
+      "line": 289,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "udt_accepted_work_consolidation_2026-09-12/REGISTRY_COVERAGE_DRAFT.tsv",
+      "line": 290,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "udt_accepted_work_consolidation_2026-09-12/REGISTRY_COVERAGE_DRAFT.tsv",
+      "line": 291,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "udt_accepted_work_consolidation_2026-09-12/REGISTRY_COVERAGE_DRAFT.tsv",
+      "line": 292,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "udt_accepted_work_consolidation_2026-09-12/REGISTRY_COVERAGE_DRAFT.tsv",
+      "line": 293,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "udt_accepted_work_consolidation_2026-09-12/REGISTRY_COVERAGE_DRAFT.tsv",
+      "line": 294,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "udt_accepted_work_consolidation_2026-09-12/REGISTRY_COVERAGE_DRAFT.tsv",
+      "line": 295,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "udt_accepted_work_consolidation_2026-09-12/REGISTRY_COVERAGE_DRAFT.tsv",
+      "line": 296,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "udt_accepted_work_consolidation_2026-09-12/REGISTRY_COVERAGE_DRAFT.tsv",
+      "line": 297,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "udt_accepted_work_consolidation_2026-09-12/REGISTRY_COVERAGE_DRAFT.tsv",
+      "line": 298,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "udt_accepted_work_consolidation_2026-09-12/REGISTRY_COVERAGE_DRAFT.tsv",
+      "line": 299,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "udt_accepted_work_consolidation_2026-09-12/REGISTRY_COVERAGE_DRAFT.tsv",
+      "line": 300,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "udt_accepted_work_consolidation_2026-09-12/REGISTRY_COVERAGE_DRAFT.tsv",
+      "line": 301,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "udt_accepted_work_consolidation_2026-09-12/REGISTRY_COVERAGE_DRAFT.tsv",
+      "line": 302,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "udt_accepted_work_consolidation_2026-09-12/REGISTRY_COVERAGE_DRAFT.tsv",
+      "line": 303,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "udt_accepted_work_consolidation_2026-09-12/REGISTRY_COVERAGE_DRAFT.tsv",
+      "line": 304,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "udt_accepted_work_consolidation_2026-09-12/REGISTRY_COVERAGE_DRAFT.tsv",
+      "line": 305,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "udt_accepted_work_consolidation_2026-09-12/REGISTRY_COVERAGE_DRAFT.tsv",
+      "line": 306,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "udt_accepted_work_consolidation_2026-09-12/REGISTRY_COVERAGE_DRAFT.tsv",
+      "line": 307,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "udt_accepted_work_consolidation_2026-09-12/REGISTRY_COVERAGE_DRAFT.tsv",
+      "line": 308,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "udt_accepted_work_consolidation_2026-09-12/REGISTRY_COVERAGE_DRAFT.tsv",
+      "line": 309,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "udt_accepted_work_consolidation_2026-09-12/REGISTRY_COVERAGE_DRAFT.tsv",
+      "line": 310,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "udt_accepted_work_consolidation_2026-09-12/REGISTRY_COVERAGE_DRAFT.tsv",
+      "line": 311,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "udt_accepted_work_consolidation_2026-09-12/REGISTRY_COVERAGE_DRAFT.tsv",
+      "line": 312,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "udt_accepted_work_consolidation_2026-09-12/REGISTRY_COVERAGE_DRAFT.tsv",
+      "line": 313,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "udt_accepted_work_consolidation_2026-09-12/REGISTRY_COVERAGE_DRAFT.tsv",
+      "line": 314,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "udt_accepted_work_consolidation_2026-09-12/REGISTRY_COVERAGE_DRAFT.tsv",
+      "line": 315,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "udt_accepted_work_consolidation_2026-09-12/REGISTRY_COVERAGE_DRAFT.tsv",
+      "line": 316,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "udt_accepted_work_consolidation_2026-09-12/REGISTRY_COVERAGE_DRAFT.tsv",
+      "line": 317,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "udt_accepted_work_consolidation_2026-09-12/REGISTRY_COVERAGE_DRAFT.tsv",
+      "line": 318,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "udt_accepted_work_consolidation_2026-09-12/REGISTRY_COVERAGE_DRAFT.tsv",
+      "line": 319,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "udt_accepted_work_consolidation_2026-09-12/REGISTRY_COVERAGE_DRAFT.tsv",
+      "line": 320,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "udt_accepted_work_consolidation_2026-09-12/REGISTRY_COVERAGE_DRAFT.tsv",
+      "line": 321,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "udt_accepted_work_consolidation_2026-09-12/REGISTRY_COVERAGE_DRAFT.tsv",
+      "line": 322,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "udt_accepted_work_consolidation_2026-09-12/REGISTRY_COVERAGE_DRAFT.tsv",
+      "line": 323,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "udt_accepted_work_consolidation_2026-09-12/REGISTRY_COVERAGE_DRAFT.tsv",
+      "line": 324,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "udt_accepted_work_consolidation_2026-09-12/REGISTRY_COVERAGE_DRAFT.tsv",
+      "line": 325,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "udt_accepted_work_consolidation_2026-09-12/REGISTRY_COVERAGE_DRAFT.tsv",
+      "line": 326,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "udt_accepted_work_consolidation_2026-09-12/REGISTRY_COVERAGE_DRAFT.tsv",
+      "line": 327,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "udt_accepted_work_consolidation_2026-09-12/REGISTRY_COVERAGE_DRAFT.tsv",
+      "line": 328,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "udt_accepted_work_consolidation_2026-09-12/REGISTRY_COVERAGE_DRAFT.tsv",
+      "line": 329,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "udt_accepted_work_consolidation_2026-09-12/REGISTRY_COVERAGE_DRAFT.tsv",
+      "line": 330,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "udt_accepted_work_consolidation_2026-09-12/REGISTRY_COVERAGE_DRAFT.tsv",
+      "line": 331,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "udt_accepted_work_consolidation_2026-09-12/REGISTRY_COVERAGE_DRAFT.tsv",
+      "line": 332,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "udt_accepted_work_consolidation_2026-09-12/REGISTRY_COVERAGE_DRAFT.tsv",
+      "line": 333,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "udt_accepted_work_consolidation_2026-09-12/REGISTRY_COVERAGE_DRAFT.tsv",
+      "line": 334,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "udt_accepted_work_consolidation_2026-09-12/REGISTRY_COVERAGE_DRAFT.tsv",
+      "line": 335,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "udt_accepted_work_consolidation_2026-09-12/REGISTRY_COVERAGE_DRAFT.tsv",
+      "line": 336,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "udt_accepted_work_consolidation_2026-09-12/REGISTRY_COVERAGE_DRAFT.tsv",
+      "line": 337,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "udt_accepted_work_consolidation_2026-09-12/REGISTRY_COVERAGE_DRAFT.tsv",
+      "line": 338,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "udt_accepted_work_consolidation_2026-09-12/REGISTRY_COVERAGE_DRAFT.tsv",
+      "line": 339,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "udt_accepted_work_consolidation_2026-09-12/REGISTRY_COVERAGE_DRAFT.tsv",
+      "line": 340,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "udt_accepted_work_consolidation_2026-09-12/REGISTRY_COVERAGE_DRAFT.tsv",
+      "line": 341,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "udt_accepted_work_consolidation_2026-09-12/REGISTRY_COVERAGE_DRAFT.tsv",
+      "line": 342,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "udt_accepted_work_consolidation_2026-09-12/REGISTRY_COVERAGE_DRAFT.tsv",
+      "line": 343,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "udt_accepted_work_consolidation_2026-09-12/REGISTRY_COVERAGE_DRAFT.tsv",
+      "line": 344,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "udt_accepted_work_consolidation_2026-09-12/REGISTRY_COVERAGE_DRAFT.tsv",
+      "line": 345,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "udt_accepted_work_consolidation_2026-09-12/REGISTRY_COVERAGE_DRAFT.tsv",
+      "line": 346,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "udt_accepted_work_consolidation_2026-09-12/REGISTRY_COVERAGE_DRAFT.tsv",
+      "line": 347,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "udt_accepted_work_consolidation_2026-09-12/REGISTRY_COVERAGE_DRAFT.tsv",
+      "line": 348,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "udt_accepted_work_consolidation_2026-09-12/REGISTRY_COVERAGE_DRAFT.tsv",
+      "line": 349,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "udt_accepted_work_consolidation_2026-09-12/REGISTRY_COVERAGE_DRAFT.tsv",
+      "line": 350,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "udt_accepted_work_consolidation_2026-09-12/REGISTRY_COVERAGE_DRAFT.tsv",
+      "line": 351,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "udt_accepted_work_consolidation_2026-09-12/REGISTRY_COVERAGE_DRAFT.tsv",
+      "line": 352,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "udt_accepted_work_consolidation_2026-09-12/REGISTRY_COVERAGE_DRAFT.tsv",
+      "line": 353,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "udt_accepted_work_consolidation_2026-09-12/REGISTRY_COVERAGE_DRAFT.tsv",
+      "line": 354,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "udt_accepted_work_consolidation_2026-09-12/REGISTRY_COVERAGE_DRAFT.tsv",
+      "line": 355,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "udt_accepted_work_consolidation_2026-09-12/REGISTRY_COVERAGE_DRAFT.tsv",
+      "line": 356,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "udt_accepted_work_consolidation_2026-09-12/REGISTRY_COVERAGE_DRAFT.tsv",
+      "line": 357,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "udt_accepted_work_consolidation_2026-09-12/REGISTRY_COVERAGE_DRAFT.tsv",
+      "line": 358,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "udt_accepted_work_consolidation_2026-09-12/REGISTRY_COVERAGE_DRAFT.tsv",
+      "line": 359,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "udt_accepted_work_consolidation_2026-09-12/REGISTRY_COVERAGE_DRAFT.tsv",
+      "line": 360,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "udt_accepted_work_consolidation_2026-09-12/REGISTRY_COVERAGE_DRAFT.tsv",
+      "line": 361,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "udt_accepted_work_consolidation_2026-09-12/REGISTRY_COVERAGE_DRAFT.tsv",
+      "line": 362,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "udt_accepted_work_consolidation_2026-09-12/REGISTRY_COVERAGE_DRAFT.tsv",
+      "line": 363,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "udt_accepted_work_consolidation_2026-09-12/REGISTRY_COVERAGE_DRAFT.tsv",
+      "line": 364,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "udt_accepted_work_consolidation_2026-09-12/REGISTRY_COVERAGE_DRAFT.tsv",
+      "line": 365,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "udt_accepted_work_consolidation_2026-09-12/REGISTRY_COVERAGE_DRAFT.tsv",
+      "line": 366,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "udt_accepted_work_consolidation_2026-09-12/REGISTRY_COVERAGE_DRAFT.tsv",
+      "line": 367,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "udt_accepted_work_consolidation_2026-09-12/REGISTRY_COVERAGE_DRAFT.tsv",
+      "line": 368,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "udt_accepted_work_consolidation_2026-09-12/REGISTRY_COVERAGE_DRAFT.tsv",
+      "line": 369,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "udt_accepted_work_consolidation_2026-09-12/REGISTRY_COVERAGE_DRAFT.tsv",
+      "line": 370,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "udt_accepted_work_consolidation_2026-09-12/REGISTRY_COVERAGE_DRAFT.tsv",
+      "line": 371,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "udt_accepted_work_consolidation_2026-09-12/REGISTRY_COVERAGE_DRAFT.tsv",
+      "line": 372,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "udt_accepted_work_consolidation_2026-09-12/REGISTRY_COVERAGE_DRAFT.tsv",
+      "line": 373,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "udt_accepted_work_consolidation_2026-09-12/REGISTRY_COVERAGE_DRAFT.tsv",
+      "line": 374,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "udt_accepted_work_consolidation_2026-09-12/REGISTRY_COVERAGE_DRAFT.tsv",
+      "line": 375,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "udt_accepted_work_consolidation_2026-09-12/REGISTRY_COVERAGE_DRAFT.tsv",
+      "line": 376,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "udt_accepted_work_consolidation_2026-09-12/REGISTRY_COVERAGE_DRAFT.tsv",
+      "line": 377,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "udt_accepted_work_consolidation_2026-09-12/REGISTRY_COVERAGE_DRAFT.tsv",
+      "line": 378,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "udt_accepted_work_consolidation_2026-09-12/REGISTRY_COVERAGE_DRAFT.tsv",
+      "line": 379,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "udt_accepted_work_consolidation_2026-09-12/REGISTRY_COVERAGE_DRAFT.tsv",
+      "line": 380,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "udt_accepted_work_consolidation_2026-09-12/REGISTRY_COVERAGE_DRAFT.tsv",
+      "line": 381,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "udt_accepted_work_consolidation_2026-09-12/REGISTRY_COVERAGE_DRAFT.tsv",
+      "line": 382,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "udt_accepted_work_consolidation_2026-09-12/REGISTRY_COVERAGE_DRAFT.tsv",
+      "line": 383,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "udt_accepted_work_consolidation_2026-09-12/REGISTRY_COVERAGE_DRAFT.tsv",
+      "line": 384,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "udt_accepted_work_consolidation_2026-09-12/REGISTRY_COVERAGE_DRAFT.tsv",
+      "line": 385,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "udt_accepted_work_consolidation_2026-09-12/REGISTRY_COVERAGE_DRAFT.tsv",
+      "line": 386,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "udt_accepted_work_consolidation_2026-09-12/REGISTRY_COVERAGE_DRAFT.tsv",
+      "line": 387,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "udt_accepted_work_consolidation_2026-09-12/REGISTRY_COVERAGE_DRAFT.tsv",
+      "line": 388,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "udt_accepted_work_consolidation_2026-09-12/REGISTRY_COVERAGE_DRAFT.tsv",
+      "line": 389,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "udt_accepted_work_consolidation_2026-09-12/REGISTRY_COVERAGE_DRAFT.tsv",
+      "line": 390,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "udt_accepted_work_consolidation_2026-09-12/REGISTRY_COVERAGE_DRAFT.tsv",
+      "line": 391,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "udt_accepted_work_consolidation_2026-09-12/REGISTRY_COVERAGE_DRAFT.tsv",
+      "line": 392,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "udt_accepted_work_consolidation_2026-09-12/REGISTRY_COVERAGE_DRAFT.tsv",
+      "line": 393,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "udt_accepted_work_consolidation_2026-09-12/REGISTRY_COVERAGE_DRAFT.tsv",
+      "line": 394,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "udt_accepted_work_consolidation_2026-09-12/REGISTRY_COVERAGE_DRAFT.tsv",
+      "line": 395,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "udt_accepted_work_consolidation_2026-09-12/REGISTRY_COVERAGE_DRAFT.tsv",
+      "line": 396,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "udt_accepted_work_consolidation_2026-09-12/REGISTRY_COVERAGE_DRAFT.tsv",
+      "line": 397,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "udt_accepted_work_consolidation_2026-09-12/REGISTRY_COVERAGE_DRAFT.tsv",
+      "line": 398,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "udt_accepted_work_consolidation_2026-09-12/checks/navigation_review.diff",
+      "line": 11,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "udt_accepted_work_consolidation_2026-09-12/checks/navigation_review.diff",
+      "line": 23,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "udt_accepted_work_consolidation_2026-09-12/checks/navigation_review.diff",
+      "line": 31,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "udt_accepted_work_consolidation_2026-09-12/checks/navigation_review.diff",
+      "line": 49,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "udt_accepted_work_consolidation_2026-09-12/checks/navigation_review.diff",
+      "line": 51,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "udt_accepted_work_consolidation_2026-09-12/checks/navigation_review.diff",
+      "line": 58,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "udt_accepted_work_consolidation_2026-09-12/checks/navigation_review.diff",
+      "line": 63,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "udt_accepted_work_consolidation_2026-09-12/checks/navigation_review.diff",
+      "line": 71,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "udt_accepted_work_consolidation_2026-09-12/checks/navigation_review.diff",
+      "line": 84,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "udt_accepted_work_consolidation_2026-09-12/checks/navigation_review.diff",
+      "line": 98,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "udt_accepted_work_consolidation_2026-09-12/checks/navigation_review.diff",
+      "line": 100,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "udt_accepted_work_consolidation_2026-09-12/checks/navigation_review.diff",
+      "line": 104,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "udt_accepted_work_consolidation_2026-09-12/checks/navigation_review.diff",
+      "line": 113,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "udt_accepted_work_consolidation_2026-09-12/review/SOURCE_READ_DEPTH.tsv",
+      "line": 1,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "udt_accepted_work_consolidation_2026-09-12/review/SOURCE_READ_DEPTH.tsv",
+      "line": 2,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "udt_accepted_work_consolidation_2026-09-12/review/SOURCE_READ_DEPTH.tsv",
+      "line": 3,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "udt_accepted_work_consolidation_2026-09-12/review/SOURCE_READ_DEPTH.tsv",
+      "line": 4,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "udt_accepted_work_consolidation_2026-09-12/review/SOURCE_READ_DEPTH.tsv",
+      "line": 5,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "udt_accepted_work_consolidation_2026-09-12/review/SOURCE_READ_DEPTH.tsv",
+      "line": 6,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "udt_accepted_work_consolidation_2026-09-12/review/SOURCE_READ_DEPTH.tsv",
+      "line": 7,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "udt_accepted_work_consolidation_2026-09-12/review/SOURCE_READ_DEPTH.tsv",
+      "line": 8,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "udt_accepted_work_consolidation_2026-09-12/review/SOURCE_READ_DEPTH.tsv",
+      "line": 9,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "udt_accepted_work_consolidation_2026-09-12/review/SOURCE_READ_DEPTH.tsv",
+      "line": 10,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "udt_accepted_work_consolidation_2026-09-12/review/SOURCE_READ_DEPTH.tsv",
+      "line": 11,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "udt_accepted_work_consolidation_2026-09-12/review/SOURCE_READ_DEPTH.tsv",
+      "line": 12,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "udt_accepted_work_consolidation_2026-09-12/review/SOURCE_READ_DEPTH.tsv",
+      "line": 13,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "udt_accepted_work_consolidation_2026-09-12/review/SOURCE_READ_DEPTH.tsv",
+      "line": 14,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "udt_accepted_work_consolidation_2026-09-12/review/SOURCE_READ_DEPTH.tsv",
+      "line": 15,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "udt_accepted_work_consolidation_2026-09-12/review/SOURCE_READ_DEPTH.tsv",
+      "line": 16,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "udt_accepted_work_consolidation_2026-09-12/review/SOURCE_READ_DEPTH.tsv",
+      "line": 17,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "udt_accepted_work_consolidation_2026-09-12/review/SOURCE_READ_DEPTH.tsv",
+      "line": 18,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "udt_accepted_work_consolidation_2026-09-12/review/SOURCE_READ_DEPTH.tsv",
+      "line": 19,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "udt_accepted_work_consolidation_2026-09-12/review/SOURCE_READ_DEPTH.tsv",
+      "line": 20,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "udt_accepted_work_consolidation_2026-09-12/review/SOURCE_READ_DEPTH.tsv",
+      "line": 21,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "udt_accepted_work_consolidation_2026-09-12/review/SOURCE_READ_DEPTH.tsv",
+      "line": 22,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "udt_accepted_work_consolidation_2026-09-12/review/SOURCE_READ_DEPTH.tsv",
+      "line": 23,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "udt_accepted_work_consolidation_2026-09-12/review/SOURCE_READ_DEPTH.tsv",
+      "line": 24,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "udt_accepted_work_consolidation_2026-09-12/review/SOURCE_READ_DEPTH.tsv",
+      "line": 25,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "udt_accepted_work_consolidation_2026-09-12/review/SOURCE_READ_DEPTH.tsv",
+      "line": 26,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "udt_accepted_work_consolidation_2026-09-12/review/SOURCE_READ_DEPTH.tsv",
+      "line": 27,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "udt_accepted_work_consolidation_2026-09-12/review/SOURCE_READ_DEPTH.tsv",
+      "line": 28,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "udt_accepted_work_consolidation_2026-09-12/review/SOURCE_READ_DEPTH.tsv",
+      "line": 29,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "udt_accepted_work_consolidation_2026-09-12/review/SOURCE_READ_DEPTH.tsv",
+      "line": 30,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "udt_accepted_work_consolidation_2026-09-12/review/SOURCE_READ_DEPTH.tsv",
+      "line": 31,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "udt_accepted_work_consolidation_2026-09-12/review/SOURCE_READ_DEPTH.tsv",
+      "line": 32,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "udt_accepted_work_consolidation_2026-09-12/review/SOURCE_READ_DEPTH.tsv",
+      "line": 33,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "udt_accepted_work_consolidation_2026-09-12/review/SOURCE_READ_DEPTH.tsv",
+      "line": 34,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "udt_accepted_work_consolidation_2026-09-12/review/SOURCE_READ_DEPTH.tsv",
+      "line": 35,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "udt_accepted_work_consolidation_2026-09-12/review/SOURCE_READ_DEPTH.tsv",
+      "line": 36,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "udt_accepted_work_consolidation_2026-09-12/review/SOURCE_READ_DEPTH.tsv",
+      "line": 37,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "udt_accepted_work_consolidation_2026-09-12/review/SOURCE_READ_DEPTH.tsv",
+      "line": 38,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "udt_accepted_work_consolidation_2026-09-12/review/SOURCE_READ_DEPTH.tsv",
+      "line": 39,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "udt_accepted_work_consolidation_2026-09-12/review/SOURCE_READ_DEPTH.tsv",
+      "line": 40,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "udt_accepted_work_consolidation_2026-09-12/review/SOURCE_READ_DEPTH.tsv",
+      "line": 41,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "udt_accepted_work_consolidation_2026-09-12/review/SOURCE_READ_DEPTH.tsv",
+      "line": 42,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "udt_accepted_work_consolidation_2026-09-12/review/SUPPLEMENTAL_READ_DEPTH.tsv",
+      "line": 1,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "udt_accepted_work_consolidation_2026-09-12/review/SUPPLEMENTAL_READ_DEPTH.tsv",
+      "line": 2,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "udt_accepted_work_consolidation_2026-09-12/review/SUPPLEMENTAL_READ_DEPTH.tsv",
+      "line": 3,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "udt_accepted_work_consolidation_2026-09-12/review/SUPPLEMENTAL_READ_DEPTH.tsv",
+      "line": 4,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "udt_accepted_work_consolidation_2026-09-12/review/SUPPLEMENTAL_READ_DEPTH.tsv",
+      "line": 5,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "udt_accepted_work_consolidation_2026-09-12/review/SUPPLEMENTAL_READ_DEPTH.tsv",
+      "line": 6,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "udt_accepted_work_consolidation_2026-09-12/review/SUPPLEMENTAL_READ_DEPTH.tsv",
+      "line": 7,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "udt_accepted_work_consolidation_2026-09-12/review/SUPPLEMENTAL_READ_DEPTH.tsv",
+      "line": 8,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "udt_accepted_work_consolidation_2026-09-12/review/SUPPLEMENTAL_READ_DEPTH.tsv",
+      "line": 9,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "udt_accepted_work_consolidation_2026-09-12/review/SUPPLEMENTAL_READ_DEPTH.tsv",
+      "line": 10,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "udt_accepted_work_consolidation_2026-09-12/review/SUPPLEMENTAL_READ_DEPTH.tsv",
+      "line": 11,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "udt_accepted_work_consolidation_2026-09-12/review/SUPPLEMENTAL_READ_DEPTH.tsv",
+      "line": 12,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "udt_accepted_work_consolidation_2026-09-12/review/SUPPLEMENTAL_READ_DEPTH.tsv",
+      "line": 13,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "udt_accepted_work_consolidation_2026-09-12/review/SUPPLEMENTAL_READ_DEPTH.tsv",
+      "line": 14,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "udt_accepted_work_consolidation_2026-09-12/review/SUPPLEMENTAL_READ_DEPTH.tsv",
+      "line": 15,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "udt_accepted_work_consolidation_2026-09-12/review/SUPPLEMENTAL_READ_DEPTH.tsv",
+      "line": 16,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "udt_accepted_work_consolidation_2026-09-12/review/SUPPLEMENTAL_READ_DEPTH.tsv",
+      "line": 17,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "udt_accepted_work_consolidation_2026-09-12/review/SUPPLEMENTAL_READ_DEPTH.tsv",
+      "line": 18,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "udt_accepted_work_consolidation_2026-09-12/review/SUPPLEMENTAL_READ_DEPTH.tsv",
+      "line": 19,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "udt_accepted_work_consolidation_2026-09-12/review/SUPPLEMENTAL_READ_DEPTH.tsv",
+      "line": 20,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "udt_accepted_work_consolidation_2026-09-12/review/SUPPLEMENTAL_READ_DEPTH.tsv",
+      "line": 21,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "udt_accepted_work_consolidation_2026-09-12/review/SUPPLEMENTAL_READ_DEPTH.tsv",
+      "line": 22,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "udt_accepted_work_consolidation_2026-09-12/review/SUPPLEMENTAL_READ_DEPTH.tsv",
+      "line": 23,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "udt_accepted_work_consolidation_2026-09-12/review/SUPPLEMENTAL_READ_DEPTH.tsv",
+      "line": 24,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "udt_accepted_work_consolidation_2026-09-12/review/SUPPLEMENTAL_READ_DEPTH.tsv",
+      "line": 25,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "udt_accepted_work_consolidation_2026-09-12/review/SUPPLEMENTAL_READ_DEPTH.tsv",
+      "line": 26,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "udt_accepted_work_consolidation_2026-09-12/review/SUPPLEMENTAL_READ_DEPTH.tsv",
+      "line": 27,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "udt_accepted_work_consolidation_2026-09-12/review/SUPPLEMENTAL_READ_DEPTH.tsv",
+      "line": 28,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "udt_accepted_work_consolidation_2026-09-12/review/SUPPLEMENTAL_READ_DEPTH.tsv",
+      "line": 29,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "udt_accepted_work_consolidation_2026-09-12/review/SUPPLEMENTAL_READ_DEPTH.tsv",
+      "line": 30,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "udt_accepted_work_consolidation_2026-09-12/review/SUPPLEMENTAL_READ_DEPTH.tsv",
+      "line": 31,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "udt_accepted_work_consolidation_2026-09-12/review/SUPPLEMENTAL_READ_DEPTH.tsv",
+      "line": 32,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "udt_accepted_work_consolidation_2026-09-12/review/SUPPLEMENTAL_READ_DEPTH.tsv",
+      "line": 33,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "udt_accepted_work_consolidation_2026-09-12/review/SUPPLEMENTAL_READ_DEPTH.tsv",
+      "line": 34,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "udt_accepted_work_consolidation_2026-09-12/review/SUPPLEMENTAL_READ_DEPTH.tsv",
+      "line": 35,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "udt_accepted_work_consolidation_2026-09-12/review/SUPPLEMENTAL_READ_DEPTH.tsv",
+      "line": 36,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "udt_accepted_work_consolidation_2026-09-12/review/SUPPLEMENTAL_READ_DEPTH.tsv",
+      "line": 37,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "udt_accepted_work_consolidation_2026-09-12/review/SUPPLEMENTAL_READ_DEPTH.tsv",
+      "line": 38,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "udt_accepted_work_consolidation_2026-09-12/review/SUPPLEMENTAL_READ_DEPTH.tsv",
+      "line": 39,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "udt_accepted_work_consolidation_2026-09-12/review/SUPPLEMENTAL_READ_DEPTH.tsv",
+      "line": 40,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "udt_accepted_work_consolidation_2026-09-12/review/SUPPLEMENTAL_READ_DEPTH.tsv",
+      "line": 41,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "udt_accepted_work_consolidation_2026-09-12/review/SUPPLEMENTAL_READ_DEPTH.tsv",
+      "line": 42,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "udt_accepted_work_consolidation_2026-09-12/review/SUPPLEMENTAL_READ_DEPTH.tsv",
+      "line": 43,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "udt_accepted_work_consolidation_2026-09-12/review/SUPPLEMENTAL_READ_DEPTH.tsv",
+      "line": 44,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "udt_accepted_work_consolidation_2026-09-12/review/SUPPLEMENTAL_READ_DEPTH.tsv",
+      "line": 45,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "udt_accepted_work_consolidation_2026-09-12/review/SUPPLEMENTAL_READ_DEPTH.tsv",
+      "line": 46,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "udt_accepted_work_consolidation_2026-09-12/review/SUPPLEMENTAL_READ_DEPTH.tsv",
+      "line": 47,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "udt_accepted_work_consolidation_2026-09-12/review/SUPPLEMENTAL_READ_DEPTH.tsv",
+      "line": 48,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "udt_accepted_work_consolidation_2026-09-12/review/SUPPLEMENTAL_READ_DEPTH.tsv",
+      "line": 49,
+      "kind": "trailing whitespace."
+    }
+  ],
+  "scope": "raw staged whitespace diagnostics preserved; formatting classification follows separately"
+}

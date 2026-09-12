@@ -1,0 +1,25 @@
+{
+  "recorded_utc": "2026-09-12T17:01:49.955357+00:00",
+  "classification": {
+    "preserved_CRLF": 489,
+    "verbatim_unified_diff_blank_context": 13
+  },
+  "unclassified_issues": 0,
+  "source_bytes_changed": false,
+  "runtime_configuration_changed": false,
+  "reason": "Preserve sealed CSV CRLF and verbatim blank context in the reviewed Git diff; all other staged files pass ordinary whitespace check. No exception upgrades a scientific claim.",
+  "remaining_files_command": [
+    "git",
+    "diff",
+    "--cached",
+    "--check",
+    "--",
+    ".",
+    ":(exclude)udt_accepted_work_consolidation_2026-09-12/REGISTRY_COVERAGE_DRAFT.tsv",
+    ":(exclude)udt_accepted_work_consolidation_2026-09-12/checks/navigation_review.diff",
+    ":(exclude)udt_accepted_work_consolidation_2026-09-12/review/SOURCE_READ_DEPTH.tsv",
+    ":(exclude)udt_accepted_work_consolidation_2026-09-12/review/SUPPLEMENTAL_READ_DEPTH.tsv"
+  ],
+  "remaining_files_returncode": 0,
+  "initial_tool_display": "The first unrestricted check echoed copied wide registry fields before output truncation; captured machine diagnostics were then classified without further wide-row display."
+}
