@@ -1,0 +1,20 @@
+{
+  "utc": "2026-09-12T19:50:43.590527+00:00",
+  "status": "NCB1_G415_EXACT_CONDITIONAL_BANKING_COMMITTED_AND_PUSHED",
+  "banking_commit": "c81f1d715900472aeb98b6f09a1b8716cc1e4d04",
+  "origin_grok_at_verification": "c81f1d715900472aeb98b6f09a1b8716cc1e4d04",
+  "branch": "grok",
+  "commit_parent": "fd6a28e6c9ee72b1d6e19e0c2e8d03c645e9a8e1",
+  "banked_paths_authenticated_to_index": 84,
+  "index_check_sha256": "176bb086f9049200672d7f02a5e1c4631ac8c023f8778512ee9bc8ef0932f427",
+  "git_execution_sha256": "20b2259a85e78e596be55b96d04b885ac95d6f58d579814f3300f7cc8d4cadfa",
+  "original46_name_status_preserved": true,
+  "tracked_worktree_clean_after_banking_commit": true,
+  "receipt_files_are_only_new_changes": true,
+  "scope": "Whole reviewed NCB1 equations1-14 conditional scope; no physical adoption/canon/successor. This receipt records the already completed banking push; its own subsequent commit/push is mechanically verified in the final tool record.",
+  "full398_result": "PASS403.5759908319451s, actual this promotion",
+  "integration": "649passed/1duplicate-full-audit-wrapper deselected",
+  "fresh_review": "direct and final fidelity passed with caveats; no unresolved objection",
+  "review_allocation": "one fresh context; conservative elapsed upper bound23.221034216666666min including waiting; general capacityUNVERIFIED",
+  "backups_and_pre_reboot_unsaved_disposition": "UNVERIFIED"
+}
