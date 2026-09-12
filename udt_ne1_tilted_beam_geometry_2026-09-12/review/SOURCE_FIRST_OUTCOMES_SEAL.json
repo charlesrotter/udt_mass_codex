@@ -1,0 +1,20 @@
+{
+  "sealed_utc": "2026-09-12T22:03:30.183941+00:00",
+  "parent_candidate_code_outcome_exposure": false,
+  "files": {
+    "udt_ne1_tilted_beam_geometry_2026-09-12/review/GEODESIC_CHECK_CONTRACT.md": "cc5dfb843eca433ca8d3743b0a44459c396546bc26c60e9f92e9c6c47dc9ba53",
+    "udt_ne1_tilted_beam_geometry_2026-09-12/review/SOURCE_FIRST_NOTES.md": "681b7e13bd2a4488e37e0855def1d57f80c8ff6905a55096043575f54376981b",
+    "udt_ne1_tilted_beam_geometry_2026-09-12/review/SOURCE_FIRST_OUTCOMES.md": "23f1963cffc5b787cc6e0655c7c6bf4f6f70d8f427dfbfc68dc2c7a2ab654647",
+    "udt_ne1_tilted_beam_geometry_2026-09-12/review/SOURCE_FIRST_SEAL.json": "72d598b95ee94639aefd12ffa33fb793e9395e62024763c5366f7496b1a09029",
+    "udt_ne1_tilted_beam_geometry_2026-09-12/review/check_invariant_ray.py": "6424d7c053203b4134485e38eb4f6aab8e894830d5f0288ae174fd49d9acae77",
+    "udt_ne1_tilted_beam_geometry_2026-09-12/review/check_original_geodesics.py": "38f9b804c685da899a1225a41eb367ee548fdf0d75709c1b6eddb0f5b78a96eb",
+    "udt_ne1_tilted_beam_geometry_2026-09-12/review/geodesic_initial.capture_provenance.json": "56377a1839eb0f75d365da4cc0a7cd21195db4319e736ebb4b3dcc56e3aa4f1d",
+    "udt_ne1_tilted_beam_geometry_2026-09-12/review/geodesic_initial.json": "ad3229cf53bdb62af21df134d5f4152c8262b4debde0812c5bc76185425bce70",
+    "udt_ne1_tilted_beam_geometry_2026-09-12/review/geodesic_initial.stderr": "ef4576e6a4b85b283d6e912a27e6755f46543303ed18e03fdf8f742c9ee9382b",
+    "udt_ne1_tilted_beam_geometry_2026-09-12/review/geodesic_initial.stdout": "6accd1cbad659cdddc5fb76ef7b20a071079becb3993b7f40a0a2848408dfe85",
+    "udt_ne1_tilted_beam_geometry_2026-09-12/review/invariant_initial.capture_provenance.json": "84c37ad5f797d4270e284e891c1559a3ac8f0030d87deea4ed68eb72e62ca9f0",
+    "udt_ne1_tilted_beam_geometry_2026-09-12/review/invariant_initial.json": "6482923149c58b4128048834d5a95b4dc288e9ba3ff14426f18f62eee1a2ecf8",
+    "udt_ne1_tilted_beam_geometry_2026-09-12/review/invariant_initial.stderr": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "udt_ne1_tilted_beam_geometry_2026-09-12/review/invariant_initial.stdout": "65b388533f8da889e83a83638f013e262323ebd3ec7391ba932e14dec1772ddc"
+  }
+}

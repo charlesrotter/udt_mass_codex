@@ -1,0 +1,26 @@
+{
+  "source": "udt_shared_readout_metric_constraint_campaign_2026-09-06/run_capture.py",
+  "source_sha256": "8ff5469ace76bdfc84188915242abbf3baff35516f9ee3f9ba4b1cbfeb2573ef",
+  "adapted_capture_sha256": "2bd8a256fe1080b66450f706cfb35ecc667731a70e7908cd510856cf968af0ba",
+  "wrapper_sha256": "1b95a783e861a52cc9fc50d3c76c152cb3673fc9045372afafd30da269ffec3f",
+  "replacements": {
+    "(512 * 1024**2, 512 * 1024**2)": "(2048 * 1024**2, 2048 * 1024**2)",
+    "(60, 60)": "(180, 180)",
+    "timeout=60": "timeout=180",
+    "address_space_bytes=512 * 1024**2": "address_space_bytes=2048 * 1024**2",
+    "cpu_seconds=60": "cpu_seconds=180"
+  },
+  "thread_environment": {
+    "OMP_NUM_THREADS": "1",
+    "OPENBLAS_NUM_THREADS": "1",
+    "MKL_NUM_THREADS": "1"
+  },
+  "limits": {
+    "seconds": 180,
+    "mib": 2048
+  },
+  "command": [
+    "python3",
+    "udt_ne1_tilted_beam_geometry_2026-09-12/review/check_original_geodesics.py"
+  ]
+}

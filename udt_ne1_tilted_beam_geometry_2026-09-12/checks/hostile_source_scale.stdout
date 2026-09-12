@@ -1,0 +1,69 @@
+{
+  "status": "FAIL",
+  "mutation": "drop_source_lapse",
+  "versions": {
+    "python": "3.10.12",
+    "numpy": "2.2.6",
+    "scipy": "1.15.3"
+  },
+  "scope": "Finite float64 consistency/regression, no interval or asymptotic certificate. Shared source field/Hessian code.",
+  "checks": {
+    "complex_step_hessian_abs_errors": [
+      2.636779683484747e-16,
+      2.220446049250313e-16,
+      5.551115123125783e-17
+    ],
+    "reversal_and_observers": [
+      {
+        "mu": 0.8,
+        "psi": 0.7,
+        "source_xi": 0.7,
+        "forward_area": 17.345650174114247,
+        "reverse_area": 14.202012299919575,
+        "R": 1.1051477642711427,
+        "reciprocity_error": 1.297628671181883e-12,
+        "backward_state_error": 1.7735188317935524e-12,
+        "backward_matrix_scaled_error": 1.1484026618240747e-13,
+        "source_observer_doppler": 0.8596598860801185,
+        "target_observer_doppler": 1.138067238991715,
+        "observer_source_area_error": 1.1102230246251565e-15,
+        "observer_target_area_error": 4.440892098500626e-16,
+        "observer_gram_error": 9.023259964704761e-16
+      },
+      {
+        "mu": -0.8,
+        "psi": 0.0,
+        "source_xi": 0.7,
+        "forward_area": 20.3586638321755,
+        "reverse_area": 14.066599041757962,
+        "R": 1.2030400386335336,
+        "reciprocity_error": 6.046274592108603e-13,
+        "backward_state_error": 1.8689633174417963e-12,
+        "backward_matrix_scaled_error": 3.15722104288475e-14,
+        "source_observer_doppler": 1.2667848812288425,
+        "target_observer_doppler": 0.8335266323566332,
+        "observer_source_area_error": 2.220446049250313e-16,
+        "observer_target_area_error": 2.6645352591003757e-15,
+        "observer_gram_error": 2.5696875690887546e-15
+      },
+      {
+        "mu": 0.0,
+        "psi": 0.7853981633974483,
+        "source_xi": 0.0,
+        "forward_area": 79.4044395368576,
+        "reverse_area": 10.287064243016545,
+        "R": 2.7782841822524333,
+        "reciprocity_error": 4.156675004196586e-13,
+        "backward_state_error": 7.757891551385399e-13,
+        "backward_matrix_scaled_error": 1.240379168589787e-15,
+        "source_observer_doppler": 1.0016371083916125,
+        "target_observer_doppler": 0.7785402203732192,
+        "observer_source_area_error": 4.440892098500626e-16,
+        "observer_target_area_error": 0.0,
+        "observer_gram_error": 1.801803836968122e-16
+      }
+    ]
+  },
+  "warnings": [],
+  "failure": "AssertionError(('invariant_width_source_normalization', 0.24771168164865143, 0.0, 0.0))"
+}

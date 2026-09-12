@@ -1,0 +1,9 @@
+{
+  "utc": "2026-09-12T22:00:00.587028+00:00",
+  "exposure": "Source methods only; no new numerical outcomes or reviewer findings",
+  "sha256": {
+    "WORK_ORDER.md": "5b4bf55abd0bfd384d3a6f097f032b6942b5663045222d37d6aa949f85c53560",
+    "DISCOVERY_CONTRACT.md": "61d9aa974e858300bad85063387d88afdfc3480b90e77e7f9ad699b16f928925",
+    "discover_beams.py": "791d65bead8298cbb9162aa9e49c7edf323b61a57be56dcd6513ce0d52ecf293"
+  }
+}

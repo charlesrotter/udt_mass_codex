@@ -1,0 +1,15 @@
+{
+  "status": "PASS",
+  "checked_utc": "2026-09-12T22:20:29.485957+00:00",
+  "intake_sha256": "599dbb132cb5304cbe97fa21f071a47dc3df284528fa2d1acd224260af1b86ab",
+  "core_hashes": 19,
+  "navigation_hashes": 5,
+  "unchanged_other_source_pins": 25,
+  "original_untracked_entries": 46,
+  "navigation_selected_passes": 359,
+  "navigation_deselected": 1,
+  "head": "f5c6696ada572ae93e17914233badbbceaae97ff",
+  "branch": "grok",
+  "staged_paths": [],
+  "scope": "Prepublication byte/status correspondence; no scientific proof or backup assertion."
+}

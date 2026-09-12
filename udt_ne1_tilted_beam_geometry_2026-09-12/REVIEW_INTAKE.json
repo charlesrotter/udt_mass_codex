@@ -1,0 +1,32 @@
+{
+  "utc": "2026-09-12T22:18:42.472447+00:00",
+  "files": {
+    "udt_ne1_tilted_beam_geometry_2026-09-12/WORK_ORDER.md": "5b4bf55abd0bfd384d3a6f097f032b6942b5663045222d37d6aa949f85c53560",
+    "udt_ne1_tilted_beam_geometry_2026-09-12/INITIAL_CANDIDATE.md": "9932e4a2557144873cd7e23b4147948cc18a559605b920e5109deb4954ea6015",
+    "udt_ne1_tilted_beam_geometry_2026-09-12/DISCOVERY_CONTRACT.md": "61d9aa974e858300bad85063387d88afdfc3480b90e77e7f9ad699b16f928925",
+    "udt_ne1_tilted_beam_geometry_2026-09-12/DISCOVERY_FREEZE.json": "be8813ed126edfe53a19573ec10606080a9053084d1056a9b44bdf06bc5dc489",
+    "udt_ne1_tilted_beam_geometry_2026-09-12/CANDIDATE_FREEZE.json": "451c25c6c1ebdcdfbb1687320e2f54edacd1efce31ee687899e79c42dc74a7fc",
+    "udt_ne1_tilted_beam_geometry_2026-09-12/CHECK_CONTRACT.md": "413eb600bd94c331d2862e3b69a7a50ee5886a3942372dac5bf1eb454c9c7b0a",
+    "udt_ne1_tilted_beam_geometry_2026-09-12/CHECK_FREEZE.json": "192643d4e8cc52e308b055e3766c27d4e23bb09b143535e00f30f808e99a0a8e",
+    "udt_ne1_tilted_beam_geometry_2026-09-12/discover_beams.py": "791d65bead8298cbb9162aa9e49c7edf323b61a57be56dcd6513ce0d52ecf293",
+    "udt_ne1_tilted_beam_geometry_2026-09-12/check_beams.py": "d288642d5c803530826020616fbb7203160f9c489d1969d27fd8ea79ccb91c88",
+    "udt_ne1_tilted_beam_geometry_2026-09-12/REVIEWED_RESULT.md": "de9f754f41b6eda9bf9d419113d821f51a043d3506da20c7a6c33f132c8bc517",
+    "udt_ne1_tilted_beam_geometry_2026-09-12/DECISION_BRIEF.md": "9af70e7a46c4289a96f028d21cf9e392372a4eba3edcd17fdd290b9fd971e8dc",
+    "udt_ne1_tilted_beam_geometry_2026-09-12/DISCOVERY_HISTORY.md": "f2f49ecf03abb3c26bd4a5bf0fa05d55e8f08498c8a66f23346929f75e16995a",
+    "udt_ne1_tilted_beam_geometry_2026-09-12/CHECK_RESULTS.json": "339053262159493fbde8d50457740a71fc9db2520f8ede75b3372d13c918bb2a",
+    "udt_ne1_tilted_beam_geometry_2026-09-12/CURRENT_AUDIT_RECEIPT.json": "cc3fb87c0d12fadedd2e5661be5fb829ac16d8322d4be72e13867a149b78fdcb",
+    "udt_ne1_tilted_beam_geometry_2026-09-12/NAVIGATION_AND_PRESERVATION.json": "8bb6c57e0d2289105ec6a159504aa790ed187d2a957301c4e8b9917b6d7b4e2b",
+    "udt_ne1_tilted_beam_geometry_2026-09-12/EDITORIAL_REPAIR.json": "0680b451324559aa43791b164fd6f01141e70c421b69d00b3e9b27140c1a11b0",
+    "udt_ne1_tilted_beam_geometry_2026-09-12/CLOSEOUT.md": "80850313d456b86451ad6922b341d66aac0ceada64a16b6a3c205627385d5f0d",
+    "udt_ne1_tilted_beam_geometry_2026-09-12/LAUNCH.json": "eef642739125bc7bf5170560668a2ae1be25234f07d1c42217505f5cde77891f",
+    "udt_ne1_tilted_beam_geometry_2026-09-12/SOURCE_PINS.json": "7698c07e3b88684eaa6a97507567009748141cd21dd0fe2c5b2280ed028cea84"
+  },
+  "navigation": {
+    "CURRENT_RESEARCH_PROGRAM.md": "bb94b35a77e4c5fe20191e8e554279f457caf613ca0b523b244795d95d93ee7d",
+    "HANDOFF.md": "326dbfb0b6f46f9e5358803e9dc43fd820f0fb2b629d9ae3ccf03c5addbc099b",
+    "INDEX.md": "d11739a5ab21c8836ec1fa42bc98502e7d64212cd36d34131a52abd2458c7d00",
+    "LIVE.md": "90fd93e60b04b6ce3a7603322d7a18c79cf9d318e10add9de0f2f7cb23fb5e6d",
+    "UDT_RESEARCH_ROADMAP.md": "2062c73e3ef4fc9a6fa59562c2c99f21d86e6660e1e00104d5f327795629b875"
+  },
+  "check_evidence": "checks/ entire captures; reviewer owns its prior seals. Mechanical publication receipts will be separate."
+}

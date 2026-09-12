@@ -1,0 +1,64 @@
+{
+  "utc": "2026-09-12T22:18:42.471766+00:00",
+  "changed_navigation_pins": {
+    "LIVE.md": {
+      "before": "a8aa221bd347d336718f0532fbe16c48c3527b363193f50948ad8686b290fbe6",
+      "after": "90fd93e60b04b6ce3a7603322d7a18c79cf9d318e10add9de0f2f7cb23fb5e6d"
+    },
+    "HANDOFF.md": {
+      "before": "57c82c5bbbb811507f42f45a63790e22536d0f91534b19bea9876f63592d6f33",
+      "after": "326dbfb0b6f46f9e5358803e9dc43fd820f0fb2b629d9ae3ccf03c5addbc099b"
+    },
+    "CURRENT_RESEARCH_PROGRAM.md": {
+      "before": "161ea1981de3c4d476202fd7afebadf27c9401af417600aeb4fde755cda76c04",
+      "after": "bb94b35a77e4c5fe20191e8e554279f457caf613ca0b523b244795d95d93ee7d"
+    },
+    "UDT_RESEARCH_ROADMAP.md": {
+      "before": "189b6be72b87aadae09001a47b199190c7d2181497b18b6e6dce8e7e560355e1",
+      "after": "2062c73e3ef4fc9a6fa59562c2c99f21d86e6660e1e00104d5f327795629b875"
+    },
+    "INDEX.md": {
+      "before": "1c57fd185c6ff917608ccbafa12806ba104af7492de423014509ad28f2916cc3",
+      "after": "d11739a5ab21c8836ec1fa42bc98502e7d64212cd36d34131a52abd2458c7d00"
+    }
+  },
+  "other_source_pins_unchanged": 25,
+  "original_untracked_name_status_count": 46,
+  "original_untracked_name_status_equal": true,
+  "payload_backup_completeness": "UNVERIFIED; protected payloads not read/hashed",
+  "navigation_execution": {
+    "command": [
+      "python3",
+      "-m",
+      "pytest",
+      "--noconftest",
+      "-q",
+      "tests/test_startup_surface.py",
+      "-k",
+      "not full_foundational_premise_verifier_is_in_pytest"
+    ],
+    "cwd": "/home/udt-admin/udt_mass_codex",
+    "started_utc": "2026-09-12T22:17:32.845057+00:00",
+    "duration_seconds": 13.516287008998916,
+    "returncode": 0,
+    "timeout": false,
+    "address_space_bytes": 2147483648,
+    "cpu_seconds": 180,
+    "maxrss_kib": 53560
+  },
+  "navigation_stdout": "........................................................................ [ 20%]\n........................................................................ [ 40%]\n........................................................................ [ 60%]\n........................................................................ [ 80%]\n.......................................................................  [100%]\n359 passed, 1 deselected in 13.42s\n",
+  "initial_failures_preserved": [
+    "checks/navigation.stdout",
+    "checks/navigation_repair.stdout",
+    "checks/navigation_final.stdout",
+    "EDITORIAL_REPAIR.json"
+  ],
+  "registry_sha256_unchanged": "c614575c251a0e110146ae30b8c6f87d7d01862e3eab2da861b43c33537168e2",
+  "tracked_diff_paths": [
+    "CURRENT_RESEARCH_PROGRAM.md",
+    "HANDOFF.md",
+    "INDEX.md",
+    "LIVE.md",
+    "UDT_RESEARCH_ROADMAP.md"
+  ]
+}

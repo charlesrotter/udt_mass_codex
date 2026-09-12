@@ -1,0 +1,23 @@
+{
+  "sealed_utc": "2026-09-12T21:59:03.445891+00:00",
+  "reviewer": "/root/ntb1_beam_review",
+  "model": "UNATTESTED",
+  "source_first_notes_sha256": "681b7e13bd2a4488e37e0855def1d57f80c8ff6905a55096043575f54376981b",
+  "sources": {
+    "AGENTS.md": "f4862a564c8a2a98554ee4af23b89bd21deb679db6f9739880e808c7f6371c89",
+    "CLAUDE.md": "b7e524a5b06760e57877a408630228767ae9a394134095f9851bef5d06e17751",
+    "udt_nonlinear_ripple_geometry_2026-09-09/INITIAL_CANDIDATE.md": "49880008dcb5a646d6867e377f6dc84ded692b98250701aba4cab7119ca500de",
+    "udt_nonlinear_ripple_geometry_2026-09-09/REVIEWED_RESULT.md": "45cc3bc950b76ceed6a1fd49c248688242bc3c008864256de9bb494c1b8bbfaa",
+    "udt_ne1_clock_beam_geometry_2026-09-12/INITIAL_CANDIDATE.md": "8f58d15f3e24bf8878fca2af5c24c95cb7c68dec49bfb2fa175fbe945b54879f",
+    "udt_ncb1_banking_2026-09-12/BANKING_RECORD.md": "4a888a6552360e71b97372623fe135458a546311c8e73a4ac9e99302e1be8022",
+    "udt_g348_generic_lorentzian_null_screen_area_theorem_2026-09-04/EXACT_DERIVATION.md": "04917cd0336f5c06ee76129f5a8005f5e483e8a6fcdacbb87c96a6e0ad89544c",
+    "udt_g348_generic_lorentzian_null_screen_area_theorem_2026-09-04/AUDIT_REPORT.md": "b264f4a8959a557884f3e6a668aab68d2831b477caf693f95db7b524c01bd279",
+    "udt_ne1_directional_clock_reach_2026-09-12/INITIAL_CANDIDATE.md": "bb8559afcd073cd969719dca645e678b60e9f0ef3098e04d44b203712a68089a",
+    "udt_ne1_directional_clock_reach_2026-09-12/REVIEWED_RESULT.md": "3f75de6af337144d169d16bc54dd88b3863fa6d403a1ad6313a80937cef6aa19",
+    "udt_reviewed_backlog_banking_2026-09-10/capture_existing.py": "1b95a783e861a52cc9fc50d3c76c152cb3673fc9045372afafd30da269ffec3f",
+    "udt_shared_readout_metric_constraint_campaign_2026-09-06/run_capture.py": "8ff5469ace76bdfc84188915242abbf3baff35516f9ee3f9ba4b1cbfeb2573ef"
+  },
+  "parent_candidate_code_outcome_exposure": false,
+  "disclosed_method_exposure": "parent reduced Hamiltonian variational evaluator",
+  "source_pins_match": true
+}

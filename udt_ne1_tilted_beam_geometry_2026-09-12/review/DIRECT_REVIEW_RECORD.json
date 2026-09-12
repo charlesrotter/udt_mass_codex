@@ -1,0 +1,27 @@
+{
+  "verdict": "VERIFIED-WITH-CAVEATS",
+  "status": "CONDITIONAL_CANDIDATE_UNPROMOTED",
+  "scientific_repairs_required": 0,
+  "candidate_sha256": "9932e4a2557144873cd7e23b4147948cc18a559605b920e5109deb4954ea6015",
+  "direct_review_sha256": "3444479f2adaa2025a9f61b1d7411b8c7fe93e766956ce4b6e1f9409e097be75",
+  "direct_review_utc": "2026-09-12T22:08:30.616758+00:00",
+  "reviewer": "/root/ntb1_beam_review",
+  "runtime_model": "UNATTESTED",
+  "different_model": "UNTESTED",
+  "source_first_seal": "SOURCE_FIRST_SEAL.json",
+  "source_first_outcomes_seal": "SOURCE_FIRST_OUTCOMES_SEAL.json",
+  "independent_context": true,
+  "independent_implementation": true,
+  "independent_argument": true,
+  "shared_libraries": [
+    "NumPy",
+    "SciPy"
+  ],
+  "interval_certification": false,
+  "source_first_invariant_cases": 8,
+  "source_first_full_geodesic_cases": 11,
+  "parent_comparison_cases": 11,
+  "actual_hostile_variants_caught": 2,
+  "full398": "Parent execution PASS; receipt and output inspected, not independently replayed",
+  "final_fidelity": "PENDING"
+}

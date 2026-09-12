@@ -1,0 +1,10 @@
+{
+  "utc": "2026-09-12T22:06:27.375291+00:00",
+  "sha256": {
+    "CHECK_CONTRACT.md": "413eb600bd94c331d2862e3b69a7a50ee5886a3942372dac5bf1eb454c9c7b0a",
+    "check_beams.py": "d288642d5c803530826020616fbb7203160f9c489d1969d27fd8ea79ccb91c88",
+    "INITIAL_CANDIDATE.md": "9932e4a2557144873cd7e23b4147948cc18a559605b920e5109deb4954ea6015",
+    "discover_beams.py": "791d65bead8298cbb9162aa9e49c7edf323b61a57be56dcd6513ce0d52ecf293"
+  },
+  "exposure": "Discovery232 outputs and reviewer source-first summaries seen; no direct review verdict received."
+}

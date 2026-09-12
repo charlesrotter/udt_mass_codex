@@ -1,0 +1,208 @@
+{
+  "recorded_utc": "2026-09-12T22:12:23.267610+00:00",
+  "executions": {
+    "discovery_beams": {
+      "command": [
+        "python3",
+        "udt_ne1_tilted_beam_geometry_2026-09-12/discover_beams.py"
+      ],
+      "cwd": "/home/udt-admin/udt_mass_codex",
+      "started_utc": "2026-09-12T22:00:00.683275+00:00",
+      "duration_seconds": 6.437867278931662,
+      "returncode": 0,
+      "timeout": false,
+      "address_space_bytes": 2147483648,
+      "cpu_seconds": 180,
+      "maxrss_kib": 83004
+    },
+    "candidate_checks": {
+      "command": [
+        "python3",
+        "udt_ne1_tilted_beam_geometry_2026-09-12/check_beams.py"
+      ],
+      "cwd": "/home/udt-admin/udt_mass_codex",
+      "started_utc": "2026-09-12T22:06:27.464040+00:00",
+      "duration_seconds": 7.674904115032405,
+      "returncode": 0,
+      "timeout": false,
+      "address_space_bytes": 2147483648,
+      "cpu_seconds": 180,
+      "maxrss_kib": 85812
+    },
+    "hostile_hessian": {
+      "command": [
+        "python3",
+        "udt_ne1_tilted_beam_geometry_2026-09-12/discover_beams.py",
+        "--mutate",
+        "drop_spatial_hessian"
+      ],
+      "cwd": "/home/udt-admin/udt_mass_codex",
+      "started_utc": "2026-09-12T22:06:47.651816+00:00",
+      "duration_seconds": 2.256886785966344,
+      "returncode": 1,
+      "timeout": false,
+      "address_space_bytes": 2147483648,
+      "cpu_seconds": 180,
+      "maxrss_kib": 81900
+    },
+    "hostile_source_scale": {
+      "command": [
+        "python3",
+        "udt_ne1_tilted_beam_geometry_2026-09-12/check_beams.py",
+        "--mutate",
+        "drop_source_lapse"
+      ],
+      "cwd": "/home/udt-admin/udt_mass_codex",
+      "started_utc": "2026-09-12T22:07:16.958395+00:00",
+      "duration_seconds": 0.4409348740009591,
+      "returncode": 1,
+      "timeout": false,
+      "address_space_bytes": 2147483648,
+      "cpu_seconds": 180,
+      "maxrss_kib": 81120
+    },
+    "hostile_reverse_scale": {
+      "command": [
+        "python3",
+        "udt_ne1_tilted_beam_geometry_2026-09-12/check_beams.py",
+        "--mutate",
+        "wrong_reverse_normalization"
+      ],
+      "cwd": "/home/udt-admin/udt_mass_codex",
+      "started_utc": "2026-09-12T22:07:27.135056+00:00",
+      "duration_seconds": 0.21172951208427548,
+      "returncode": 1,
+      "timeout": false,
+      "address_space_bytes": 2147483648,
+      "cpu_seconds": 180,
+      "maxrss_kib": 79568
+    },
+    "current_full398": {
+      "command": [
+        "python3",
+        "verify_current_scientific_premises.py"
+      ],
+      "cwd": "/home/udt-admin/udt_mass_codex",
+      "started_utc": "2026-09-12T21:56:03.377016+00:00",
+      "duration_seconds": 404.0895995310275,
+      "returncode": 0,
+      "timeout": false,
+      "address_space_bytes": 2147483648,
+      "cpu_seconds": 900,
+      "maxrss_kib": 120576
+    },
+    "navigation": {
+      "command": [
+        "python3",
+        "-m",
+        "pytest",
+        "--noconftest",
+        "-q",
+        "tests/test_startup_surface.py",
+        "-k",
+        "not full_foundational_premise_verifier_is_in_pytest"
+      ],
+      "cwd": "/home/udt-admin/udt_mass_codex",
+      "started_utc": "2026-09-12T22:11:10.777857+00:00",
+      "duration_seconds": 13.670380917028524,
+      "returncode": 1,
+      "timeout": false,
+      "address_space_bytes": 2147483648,
+      "cpu_seconds": 180,
+      "maxrss_kib": 53884
+    },
+    "navigation_repair": {
+      "command": [
+        "python3",
+        "-m",
+        "pytest",
+        "--noconftest",
+        "-q",
+        "tests/test_startup_surface.py",
+        "-k",
+        "not full_foundational_premise_verifier_is_in_pytest"
+      ],
+      "cwd": "/home/udt-admin/udt_mass_codex",
+      "started_utc": "2026-09-12T22:14:27.327388+00:00",
+      "duration_seconds": 13.624554322101176,
+      "returncode": 1,
+      "timeout": false,
+      "address_space_bytes": 2147483648,
+      "cpu_seconds": 180,
+      "maxrss_kib": 54292
+    },
+    "navigation_final": {
+      "command": [
+        "python3",
+        "-m",
+        "pytest",
+        "--noconftest",
+        "-q",
+        "tests/test_startup_surface.py",
+        "-k",
+        "not full_foundational_premise_verifier_is_in_pytest"
+      ],
+      "cwd": "/home/udt-admin/udt_mass_codex",
+      "started_utc": "2026-09-12T22:16:00.090655+00:00",
+      "duration_seconds": 13.656436501070857,
+      "returncode": 1,
+      "timeout": false,
+      "address_space_bytes": 2147483648,
+      "cpu_seconds": 180,
+      "maxrss_kib": 53940
+    },
+    "navigation_verified": {
+      "command": [
+        "python3",
+        "-m",
+        "pytest",
+        "--noconftest",
+        "-q",
+        "tests/test_startup_surface.py",
+        "-k",
+        "not full_foundational_premise_verifier_is_in_pytest"
+      ],
+      "cwd": "/home/udt-admin/udt_mass_codex",
+      "started_utc": "2026-09-12T22:17:32.845057+00:00",
+      "duration_seconds": 13.516287008998916,
+      "returncode": 0,
+      "timeout": false,
+      "address_space_bytes": 2147483648,
+      "cpu_seconds": 180,
+      "maxrss_kib": 53560
+    }
+  },
+  "versions": {
+    "python": "3.10.12",
+    "numpy": "2.2.6",
+    "scipy": "1.15.3"
+  },
+  "discovery": {
+    "rays": 58,
+    "receptions": 232,
+    "sampled_nonpositive_areas": 0,
+    "max_scaled_screen": 2.2094752993286845e-12,
+    "max_abs_symplectic": 3.5725825193648235e-09,
+    "max_scaled_symplectic": 7.1299031428239904e-12,
+    "max_axial_width_error": 5.6625681700358306e-12
+  },
+  "candidate_check_status": "PASS",
+  "candidate_check_failure": null,
+  "candidate_check_groups": [
+    "complex_step_hessian_abs_errors",
+    "reversal_and_observers",
+    "invariant_full_flow",
+    "background_quadrature",
+    "discovery_worst_tighter_repeat",
+    "long_reception_illustrations",
+    "long_tighter_repeat"
+  ],
+  "parent_hostile_failures": {
+    "hostile_hessian": "AssertionError(('screen_orthogonality', 0.0003288245771570726, {'epsilon': 0.5, 'mu': -0.8, 'psi': 0.0, 'source_xi': 0.0, 'nfev': 2957, 'samples': [{'t': 2.0, 'frequency': 0.9605232990822278, 'clock_ratio': 1.0410991601718478, 'signed_area': 0.5550709712440917, 'area': 0.5550709712440917, 'singular_values': [0.7665624318981337, 0.7241040626914699],",
+    "hostile_source_scale": "AssertionError(('invariant_width_source_normalization', 0.24771168164865143, 0.0, 0.0))",
+    "hostile_reverse_scale": "AssertionError(('directional_reciprocity', 0.1812349403223419))"
+  },
+  "independent_checks": "review/DIRECT_REVIEW.md and its separate captures; not parent reruns",
+  "limits": "Finite float64 support/regression; no interval or infinite-time certificate.",
+  "final_navigation_stdout": "........................................................................ [ 20%]\n........................................................................ [ 40%]\n........................................................................ [ 60%]\n........................................................................ [ 80%]\n.......................................................................  [100%]\n359 passed, 1 deselected in 13.42s\n"
+}

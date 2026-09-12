@@ -1,0 +1,19 @@
+{
+  "status": "FAIL",
+  "mutation": "wrong_reverse_normalization",
+  "versions": {
+    "python": "3.10.12",
+    "numpy": "2.2.6",
+    "scipy": "1.15.3"
+  },
+  "scope": "Finite float64 consistency/regression, no interval or asymptotic certificate. Shared source field/Hessian code.",
+  "checks": {
+    "complex_step_hessian_abs_errors": [
+      2.636779683484747e-16,
+      2.220446049250313e-16,
+      5.551115123125783e-17
+    ]
+  },
+  "warnings": [],
+  "failure": "AssertionError(('directional_reciprocity', 0.1812349403223419))"
+}

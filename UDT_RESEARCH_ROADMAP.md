@@ -2,11 +2,11 @@
 
 Updated: 2026-09-12. Charles Rotter requested the whole plan on 2026-09-09;
 its original baseline was `d0fe8b3e5f95c3963dc8702bb4a31485678bd1e3`, branch `grok`.
-Earlier campaigns and banking through G415 are COMPLETE; TI3/OB1/ZDR1/NCR1 remain reviewed conditional UNPROMOTED.
+Earlier campaigns and banking through G415 are COMPLETE; TI3/OB1/ZDR1/NCR1/NTB1 remain reviewed conditional UNPROMOTED.
 Current operational handoff: `HANDOFF.md`; the maintained checkpoint below records the reviewed
 ER1 expansion, banking, nonlinear and measurement returns, and the CWA1 consolidation.
-CWA1's consolidation, NCB1's banking and NCR1's directional return are recorded below.
-NCB1 is conditionally banked as G415; NCR1 is reviewed UNPROMOTED; no successor is authorized.
+CWA1's consolidation, NCB1's banking and NCR1/NTB1's directional returns are recorded below.
+NCB1 is conditionally banked as G415; NCR1/NTB1 are reviewed UNPROMOTED; no further successor is authorized.
 This is a maintained direction document, not a premise, theorem, promotion
 or replacement for LIVE, the exact registry, or reviewed scientific sources.
 
@@ -390,9 +390,59 @@ navigation, final review and publication receipts are owned by CLOSEOUT.md.
 
 Disposition: **hold for Charles's exact-scope promotion decision**; physical
 identification is not a prerequisite for banking this conditional result.
-After that discussion, a bounded tilted-beam/focusing question is a possible
-next extension. No promotion or successor is dispatched. TI3/OB1/ZDR1 and
-OB2 retain their prior holds; fixed manuscript and CWA1 snapshot are unchanged.
+Charles subsequently authorized the bounded tilted-beam/focusing exploration NTB1
+recorded below. NCR1 remains unpromoted, used only at its explicit conditional scope.
+TI3/OB1/ZDR1 and OB2 retain their prior holds; fixed manuscript and CWA1 snapshot are unchanged.
+
+### NTB1 tilted infinitesimal beams — 2026-09-12
+
+After clarifying that observer reciprocity does not require equal readouts along
+all paths, Charles authorized the named tilted-beam exploration. WORK_ORDER.md in
+`udt_ne1_tilted_beam_geometry_2026-09-12/` records its two-hour ceiling, one fresh
+reviewer/40-minute ceiling, same-premise repairs and return. This advances stages4–5
+and CWA1 J05/J08/J11 by extending the beam derivative beyond G415's axial rays.
+G394 supplies the complete geometry, G348 quotient/Jacobi/observer reciprocity,
+and NCR1 the reviewed UNPROMOTED clock context. No input promotion is inferred.
+
+Return: `udt_ne1_tilted_beam_geometry_2026-09-12/REVIEWED_RESULT.md` and
+DECISION_BRIEF.md, **VERIFIED-WITH-CAVEATS, reviewed conditional UNPROMOTED**.
+The ENTIRE INITIAL_CANDIDATE(1)–(13), direct review and final fidelity control.
+No scientific repair or narrowing was required. The full reduced Hamiltonian
+first-variation evaluator retains both screen dimensions, source normalization
+and spatial lapse derivatives. Original-Christoffel finite-angle review is an
+independent implementation, with shared source metric/library explicitly retained.
+
+Exact nonconjugacy extends to reflection-plane sources xi_e=m pi/k, t_e=1,
+exactly transverse rays and every y/z mixture/finite amplitude: both widths are
+positive. For pure y/z directions at fixed nonzero amplitude, clock contrast→1
+while log(area contrast)/t→2 beta and D_xi/D_perp=Theta(1/t), beta=epsilon² sigma/4.
+Both widths grow in order; an increasingly unequal shape is not conjugacy.
+G415's axial area rate4 beta/shape limit1 survives at its different path scope.
+The asymptotic statements use marked orbit-area reception, not proper-time or
+physical-distance rates; no uniform amplitude/time limit, onset or monotonicity.
+
+Parent58 rays/232 finite receptions all had positive sampled oriented areas;
+this is NOT all-time nonconjugacy for arbitrary tilts/source phases. That general
+focusing classification remains open. The theorem owns only its exact invariant
+family. Full metric evolution is retained; Jacobi derivatives are infinitesimal
+beam geometry, not a finite physical beam or a frozen replacement metric.
+
+The supplied areal observers and marking are explicit. G348 observer covariance
+and same-segment reciprocity are reused and checked; choosing observers does not
+promote a physical preferred frame. A later causal return is a different leg.
+Current G312 remains GR FILTER ONLY; native membership/full pair assembly are
+unclosed. No source/action/carrier/scale, light/flux/distance or canon is selected.
+The new timing/area/shape distinction strengthens the reason to retain joint
+readouts in a test. OB2 instrument and ZDR1 independent data/calibration gates
+remain; no new observed constraint or fit was produced.
+
+Actual current398, candidate checks, hostile variants, source-first review,
+allocation/preservation and publication are recorded in CLOSEOUT.md and review/.
+Disposition: **hold for Charles's exact-scope promotion decision**. NCR1 also
+remains unpromoted; physical identification is not a prerequisite for conditional
+banking. Next discussion may choose the named general-tilt focusing question or
+an independently calibrated joint test; neither successor is dispatched here.
+Original evidence, registry grades, fixed manuscript and CWA1 snapshot are preserved.
 
 ### Existing expansion and observation returns
 

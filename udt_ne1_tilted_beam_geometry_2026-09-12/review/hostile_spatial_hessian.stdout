@@ -1,0 +1,48 @@
+{
+  "status": "FAIL",
+  "mutation": "spatial_hessian",
+  "records": [
+    {
+      "case": [
+        0.16666666666666666,
+        0.3,
+        0.6,
+        0,
+        12
+      ],
+      "normalized_screen_difference": 0.009355855510196204,
+      "frequency_difference": 1.109519923390701e-15,
+      "area_difference": 0.011314218913449794,
+      "endpoint_difference": 8.881784197001252e-15,
+      "parent_physical_variations": [
+        [
+          0.0,
+          1.4313499819714477
+        ],
+        [
+          0.0,
+          -6.209431003401638
+        ],
+        [
+          5.581878038466159,
+          0.0
+        ]
+      ],
+      "independent_transformed": [
+        [
+          0.0,
+          1.4475460319415792
+        ],
+        [
+          0.0,
+          -6.132359066538118
+        ],
+        [
+          5.581878038466148,
+          0.0
+        ]
+      ]
+    }
+  ],
+  "failure": "AssertionError(('source_normalized_screen', 0.009355855510196204))"
+}

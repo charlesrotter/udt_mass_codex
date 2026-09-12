@@ -1,0 +1,91 @@
+{
+  "executions": [
+    {
+      "stem": "invariant_initial",
+      "command": [
+        "python3",
+        "udt_ne1_tilted_beam_geometry_2026-09-12/review/check_invariant_ray.py"
+      ],
+      "cwd": "/home/udt-admin/udt_mass_codex",
+      "started_utc": "2026-09-12T21:59:42.994850+00:00",
+      "duration_seconds": 1.7017600999679416,
+      "returncode": 0,
+      "timeout": false,
+      "address_space_bytes": 2147483648,
+      "cpu_seconds": 180,
+      "maxrss_kib": 83152
+    },
+    {
+      "stem": "geodesic_initial",
+      "command": [
+        "python3",
+        "udt_ne1_tilted_beam_geometry_2026-09-12/review/check_original_geodesics.py"
+      ],
+      "cwd": "/home/udt-admin/udt_mass_codex",
+      "started_utc": "2026-09-12T22:02:12.169522+00:00",
+      "duration_seconds": 11.580055630067363,
+      "returncode": 0,
+      "timeout": false,
+      "address_space_bytes": 2147483648,
+      "cpu_seconds": 180,
+      "maxrss_kib": 80344
+    },
+    {
+      "stem": "parent_comparison",
+      "command": [
+        "python3",
+        "udt_ne1_tilted_beam_geometry_2026-09-12/review/compare_parent_evaluator.py"
+      ],
+      "cwd": "/home/udt-admin/udt_mass_codex",
+      "started_utc": "2026-09-12T22:05:18.194982+00:00",
+      "duration_seconds": 1.4156886560376734,
+      "returncode": 0,
+      "timeout": false,
+      "address_space_bytes": 2147483648,
+      "cpu_seconds": 180,
+      "maxrss_kib": 80668
+    },
+    {
+      "stem": "hostile_source_normalization",
+      "command": [
+        "python3",
+        "udt_ne1_tilted_beam_geometry_2026-09-12/review/compare_parent_evaluator.py",
+        "--mutate",
+        "source_normalization"
+      ],
+      "cwd": "/home/udt-admin/udt_mass_codex",
+      "started_utc": "2026-09-12T22:05:31.289060+00:00",
+      "duration_seconds": 0.2880765339359641,
+      "returncode": 1,
+      "timeout": false,
+      "address_space_bytes": 2147483648,
+      "cpu_seconds": 180,
+      "maxrss_kib": 80212
+    },
+    {
+      "stem": "hostile_spatial_hessian",
+      "command": [
+        "python3",
+        "udt_ne1_tilted_beam_geometry_2026-09-12/review/compare_parent_evaluator.py",
+        "--mutate",
+        "spatial_hessian"
+      ],
+      "cwd": "/home/udt-admin/udt_mass_codex",
+      "started_utc": "2026-09-12T22:05:58.721928+00:00",
+      "duration_seconds": 0.2864181490149349,
+      "returncode": 1,
+      "timeout": false,
+      "address_space_bytes": 2147483648,
+      "cpu_seconds": 180,
+      "maxrss_kib": 80044
+    }
+  ],
+  "science_process_wall_sum_seconds": 15.271999069023877,
+  "maximum_rss_kib": 83152,
+  "normal_successes": 3,
+  "intentional_hostile_nonzero_exits": 2,
+  "timeouts": 0,
+  "numerical_limit_seconds_per_capture": 180,
+  "address_space_mib_per_capture": 2048,
+  "scope_exception": "Comparison import generated ignored parent-package __pycache__/discover_beams.cpython-310.pyc at22:05:18.234116UTC (7136bytes); disclosed to parent and left untouched. No deliberate output outside review/."
+}
