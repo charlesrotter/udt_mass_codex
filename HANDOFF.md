@@ -53,6 +53,7 @@ G383--G394: original recipe, HB/BI, nonlinear/localized geometry; G395--G401: re
 G402--G405: null-clock/curvature/kernel expansion; G406--G410: conditional measurement/design math.
 G409=CO2 design, G411=LC2 published benchmark, G412=FW2 finite procedure retain distinct categories.
 Original365 rows/evidence remain unchanged; acceptance/checks: INDEX.
+Consolidated gains/gates: `UDT_CONSOLIDATED_RESEARCH_ACCOUNT.md`; CWA1 review: roadmap.
 
 Optional source branch PAUSED; automatic Hopfion-stabilization mechanism is PAUSED, no rescue.
 GOCE PARKED, eligibility UNRESOLVED/OPEN, enquiry UNSENT—not rejected or awaiting a reply.

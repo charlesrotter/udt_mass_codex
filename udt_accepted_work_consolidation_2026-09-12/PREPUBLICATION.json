@@ -1,0 +1,27 @@
+{
+  "recorded_utc": "2026-09-12T16:59:53.119444+00:00",
+  "baseline": "ab6033469c37f63a0f3aa6527804b7e3cd2f5be6",
+  "verdict": "PREPUBLICATION_AUTHENTICATED",
+  "manifest_entries": 123,
+  "manifest_sha256": "e8e2b874ff57addbd693fadc7ac0488288725e614e313fb11d5d9aab58ab827a",
+  "reviewed_targets_verified": 19,
+  "final_review_evidence_pins_verified": 19,
+  "source_pins_verified": 147,
+  "preserved_name_status_entries": 46,
+  "preserved_name_status_sha256": "55e7c4508622f912730f9c068cc571c370b3977bc1110eb0a48a8218dbe024c2",
+  "allowed_roots": [
+    "LIVE.md",
+    "HANDOFF.md",
+    "CURRENT_RESEARCH_PROGRAM.md",
+    "INDEX.md",
+    "MEMORY.md",
+    "UDT_RESEARCH_ROADMAP.md",
+    "UDT_CONSOLIDATED_RESEARCH_ACCOUNT.md"
+  ],
+  "allowed_package": "udt_accepted_work_consolidation_2026-09-12/",
+  "excluded_from_manifest": "manifest itself, this PREPUBLICATION receipt and later operational publication/final-state records; no scientific evidence excluded",
+  "publication": "NOT_YET_COMMITTED_OR_PUSHED",
+  "checks": "new full397 PASS; final navigation359PASS/1deselected; final reviewer accepts exact19targets",
+  "backup_completeness": "UNVERIFIED",
+  "pre_reboot_unsaved_state": "UNVERIFIED"
+}

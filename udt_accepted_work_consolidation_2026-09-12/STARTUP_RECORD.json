@@ -1,0 +1,20 @@
+{
+  "recorded_utc": "2026-09-12T16:11:29.832533+00:00",
+  "task_launch_utc": "2026-09-12T16:08:26+00:00",
+  "same_top_level_session": true,
+  "branch": "grok",
+  "head": "ab6033469c37f63a0f3aa6527804b7e3cd2f5be6",
+  "origin_grok": "ab6033469c37f63a0f3aa6527804b7e3cd2f5be6",
+  "fresh_fetch_exit_code": 0,
+  "initial_tracked_dirt": false,
+  "original_untracked_count": 46,
+  "original_name_status_sha256": "55e7c4508622f912730f9c068cc571c370b3977bc1110eb0a48a8218dbe024c2",
+  "configured_model_attributed_from_same_session": "gpt-6-astra",
+  "configured_effort_attributed": "xhigh",
+  "runtime_model_version": "UNATTESTED",
+  "new_premise_execution": "checks/launch_full397.* running at this record",
+  "backup_completeness": "UNVERIFIED",
+  "pre_reboot_unsaved_state": "UNVERIFIED",
+  "general_agent_capacity": "UNVERIFIED",
+  "total_wall_clock_deadline": null
+}

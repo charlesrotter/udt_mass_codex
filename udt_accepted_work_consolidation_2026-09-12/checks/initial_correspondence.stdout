@@ -1,0 +1,20 @@
+{
+  "result": "PASS",
+  "meaning": "documentary correspondence only",
+  "registry_rows": 397,
+  "families": 22,
+  "gap_jobs": 13,
+  "pinned_sources": 144,
+  "valid_account_links": 67,
+  "rejected_metadata_mutants": [
+    "dropped_row",
+    "duplicate_id",
+    "changed_grade",
+    "wrong_family_member",
+    "pending_disposition",
+    "protected_path_rejected_before_read"
+  ],
+  "preserved_untracked_entries": 46,
+  "preserved_untracked_sha256": "55e7c4508622f912730f9c068cc571c370b3977bc1110eb0a48a8218dbe024c2",
+  "initial_snapshot_checked": false
+}

@@ -1,0 +1,57 @@
+{
+  "sealed_utc": "2026-09-12T16:32:10.313363+00:00",
+  "reviewer_context": "/root/cwa1_consolidation_review",
+  "allocation": "same first reviewer context; no additional allocation",
+  "first_clock": "2026-09-12T16:11:54+00:00",
+  "supplement_observed_from": "2026-09-12T16:21:15+00:00",
+  "parent_overlap": "parent independently continued broader accepted-lane source work during this source-only supplement",
+  "parent_candidate_exposure": "NONE; parent supplied source ranges and G178 overlay pointer only",
+  "runtime_model_version": "UNATTESTED",
+  "different_model": "NOT_ESTABLISHED",
+  "scientific_replays": 0,
+  "full_suite_replays": 0,
+  "original_seal_files_unchanged": 13,
+  "actual_head": "ab6033469c37f63a0f3aa6527804b7e3cd2f5be6",
+  "files": [
+    {
+      "path": "udt_accepted_work_consolidation_2026-09-12/review/SUPPLEMENTAL_SOURCE_ONLY.md",
+      "sha256": "5c39c99bdd5c0c5873212c00a4dc441efce46d09abe6388bcc97ccec6c697ec2"
+    },
+    {
+      "path": "udt_accepted_work_consolidation_2026-09-12/review/SUPPLEMENTAL_SOURCE_PINS.json",
+      "sha256": "b8fcb2de0027a4a868ebd0ebbb6575448556620e95a79b9b53a9366c2387b29b"
+    },
+    {
+      "path": "udt_accepted_work_consolidation_2026-09-12/review/SUPPLEMENTAL_READ_DEPTH.tsv",
+      "sha256": "7d7847c998c3b6e62a131b08346c363114ca1ee9a917e4e83aa876815307adcc"
+    },
+    {
+      "path": "udt_accepted_work_consolidation_2026-09-12/review/supplemental_pin_check.py",
+      "sha256": "e68fffa36372d03e4e72051750b753a391491d479fdba19a26143437c77a8da1"
+    },
+    {
+      "path": "udt_accepted_work_consolidation_2026-09-12/review/supplemental_pin_capture.json",
+      "sha256": "384f8bc6cf6edadc28cfc3a6392935fb2b9d1f94c4a514beaca565acfc648a74"
+    },
+    {
+      "path": "udt_accepted_work_consolidation_2026-09-12/review/supplemental_pin_capture.stdout",
+      "sha256": "9939ddb9786f83bd995ca3fd515cbe8338df76dab2b95dcd64afc5b17ac2db49"
+    },
+    {
+      "path": "udt_accepted_work_consolidation_2026-09-12/review/supplemental_pin_capture.stderr",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "udt_accepted_work_consolidation_2026-09-12/review/supplemental_pin_capture.capture_provenance.json",
+      "sha256": "09f5d4f2e888a7844e3750fa9b0e6ef48409590e0c88ecfa8347957f0179041f"
+    },
+    {
+      "path": "udt_accepted_work_consolidation_2026-09-12/review/seal_supplemental_source.py",
+      "sha256": "52b7ba81c3242cfd23181ad7495503e92f01226e8ef5dc41dd8d0cd3f7d4a04a"
+    },
+    {
+      "path": "udt_accepted_work_consolidation_2026-09-12/review/SOURCE_FIRST_SEAL.json",
+      "sha256": "078238575be0b51ea7cf4bd29b8201e6f8e9847923bdf9432ca7ed7164919956"
+    }
+  ]
+}

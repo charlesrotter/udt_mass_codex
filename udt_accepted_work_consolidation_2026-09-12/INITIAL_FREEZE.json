@@ -1,0 +1,50 @@
+{
+  "frozen_utc": "2026-09-12T16:41:11.437404+00:00",
+  "stage": "INITIAL_SYNTHESIS_BEFORE_DIRECT_REVIEW",
+  "source_baseline": "ab6033469c37f63a0f3aa6527804b7e3cd2f5be6",
+  "files": [
+    {
+      "original_path": "UDT_CONSOLIDATED_RESEARCH_ACCOUNT.md",
+      "snapshot": "initial_candidate/UDT_CONSOLIDATED_RESEARCH_ACCOUNT.md",
+      "sha256": "dbed6c5612b627ee9f3de67cf701caccb290aeab34e4e4b19087a045bdf6b8be",
+      "bytes": 46245
+    },
+    {
+      "original_path": "udt_accepted_work_consolidation_2026-09-12/REGISTRY_COVERAGE.tsv",
+      "snapshot": "initial_candidate/REGISTRY_COVERAGE.tsv",
+      "sha256": "b1951bd7a4c845f33b6df466bccff362826142d72a61af47fb684a593fccf4f6",
+      "bytes": 187989
+    },
+    {
+      "original_path": "udt_accepted_work_consolidation_2026-09-12/FAMILY_MAP.tsv",
+      "snapshot": "initial_candidate/FAMILY_MAP.tsv",
+      "sha256": "92e1f4dd7050b1e801961d9c10be85486600e997d892dc6ee957b4eaca028ef9",
+      "bytes": 9277
+    },
+    {
+      "original_path": "udt_accepted_work_consolidation_2026-09-12/GAP_AND_REUSE_MAP.tsv",
+      "snapshot": "initial_candidate/GAP_AND_REUSE_MAP.tsv",
+      "sha256": "cb7fdaece098eeaa3bfa28db443378313377750f1841e9eea0d3f2d1e9fc2bfb",
+      "bytes": 4584
+    },
+    {
+      "original_path": "udt_accepted_work_consolidation_2026-09-12/SOURCE_READ_LEDGER.tsv",
+      "snapshot": "initial_candidate/SOURCE_READ_LEDGER.tsv",
+      "sha256": "25ac3356344ededf2005037f90cfeb27e5641264b55890f9f61bdaf02eae563d",
+      "bytes": 45309
+    },
+    {
+      "original_path": "udt_accepted_work_consolidation_2026-09-12/SOURCE_PINS.json",
+      "snapshot": "initial_candidate/SOURCE_PINS.json",
+      "sha256": "3ffbf1a12e2f6bd4c6a4c59c7f4f58ef8a79fa41f9d26a2c0f233eb71a1ec7c0",
+      "bytes": 21140
+    },
+    {
+      "original_path": "udt_accepted_work_consolidation_2026-09-12/WORK_ORDER.md",
+      "snapshot": "initial_candidate/WORK_ORDER.md",
+      "sha256": "01924e2e359a3db7c7fda9e6b95e917897753e8e614cfd39a5c9a8bc68814464",
+      "bytes": 5324
+    }
+  ],
+  "limits": "Coverage and source fidelity only; one reviewer source-first assessment and supplement sealed before this freeze; no scientific promotion"
+}

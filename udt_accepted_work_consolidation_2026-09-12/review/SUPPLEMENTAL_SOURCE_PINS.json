@@ -1,0 +1,501 @@
+{
+  "utc": "2026-09-12T16:31:05.272170+00:00",
+  "kind": "metadata correspondence only",
+  "source_files": [
+    {
+      "path": "udt_g315_conditional_cauchy_characteristic_data_interface_2026-09-01/AUDIT_REPORT.md",
+      "sha256": "ab440d575124654f3707eb04a7c2e4877e7ad3bf830eb1ed25c19d999149f9db",
+      "read_depth": "full controlling audit; G315--G320 full original derivations not reopened"
+    },
+    {
+      "path": "udt_g316_lawful_constraint_data_construction_2026-09-01/AUDIT_REPORT.md",
+      "sha256": "a914f91752c52c74b7050d4d2c755af615f74b143336c7d2061513203eb63985",
+      "read_depth": "full controlling audit; G315--G320 full original derivations not reopened"
+    },
+    {
+      "path": "udt_g317_exact_noncmc_coupled_data_family_2026-09-01/AUDIT_REPORT.md",
+      "sha256": "b17b98894e2350e7f92cf76f873e83077681f1224c8580febdb4f7b96e03644f",
+      "read_depth": "full controlling audit; G315--G320 full original derivations not reopened"
+    },
+    {
+      "path": "udt_g318_nonconstant_psi_noncmc_branch_classification_2026-09-01/AUDIT_REPORT.md",
+      "sha256": "515302faa85531dc0f4aa2081fb17feb30c41adea4cf4d133adf4bdfc193488d",
+      "read_depth": "full controlling audit; G315--G320 full original derivations not reopened"
+    },
+    {
+      "path": "udt_g319_ratio_free_noncmc_constraint_descent_2026-09-01/AUDIT_REPORT.md",
+      "sha256": "363074f6009e5c0be420d109c8b2e20328d4f55885027138c2ed5f658e2a9da9",
+      "read_depth": "full controlling audit; G315--G320 full original derivations not reopened"
+    },
+    {
+      "path": "udt_g320_g319_physical_initial_geometry_quotient_audit_2026-09-01/AUDIT_REPORT.md",
+      "sha256": "43e4080780db31c6a9eaf8cff358c5811594d9e1fc6cae80586ccc6d0b90b2c0",
+      "read_depth": "full controlling audit; G315--G320 full original derivations not reopened"
+    },
+    {
+      "path": "udt_g321_g320_local_cauchy_development_uniqueness_2026-09-01/AUDIT_REPORT.md",
+      "sha256": "975fb68b053c2a11c373677544374e448f2ce84b265d860bb2c1e723d2595d6c",
+      "read_depth": "full controlling audit; G315--G320 full original derivations not reopened"
+    },
+    {
+      "path": "udt_g321_g320_local_cauchy_development_uniqueness_2026-09-01/EXACT_DERIVATION.md",
+      "sha256": "27ed748fd4d944746d88b6227eb0f4f186628770f4b1a6a9fc9d84563ccc84f4",
+      "read_depth": "full source argument prose; implementations not rerun"
+    },
+    {
+      "path": "udt_g322_g321_maximal_globally_hyperbolic_development_2026-09-01/AUDIT_REPORT.md",
+      "sha256": "d97eb46e3275501537ab961535ad6c867190eab6be528decb72a43211de80514",
+      "read_depth": "full controlling audit; G315--G320 full original derivations not reopened"
+    },
+    {
+      "path": "udt_g322_g321_maximal_globally_hyperbolic_development_2026-09-01/EXACT_DERIVATION.md",
+      "sha256": "7bf6a0c7b86a2c74cf63c0945640daed261c28e787254b323dcd51f1dafb6d98",
+      "read_depth": "full source argument prose; implementations not rerun"
+    },
+    {
+      "path": "udt_g323_g320_unmarked_taub_quotient_classification_2026-09-01/AUDIT_REPORT.md",
+      "sha256": "ca444e8281942b6711eb3de2baced750d422c636df15dc00726276bea194627d",
+      "read_depth": "full controlling audit; G315--G320 full original derivations not reopened"
+    },
+    {
+      "path": "udt_g323_g320_unmarked_taub_quotient_classification_2026-09-01/EXACT_DERIVATION.md",
+      "sha256": "186f60e198783e0bed197e20b59c9cca8516e4f51e53caadd1d491057e96b37b",
+      "read_depth": "full source argument prose; implementations not rerun"
+    },
+    {
+      "path": "udt_g324_g323_taub_quotient_mghd_identification_2026-09-02/AUDIT_REPORT.md",
+      "sha256": "7e0c9988e4af291bfbda89bf662a3c10e0205e29620cc00a599bc59a110dc873",
+      "read_depth": "full controlling audit; G315--G320 full original derivations not reopened"
+    },
+    {
+      "path": "udt_g324_g323_taub_quotient_mghd_identification_2026-09-02/EXACT_DERIVATION.md",
+      "sha256": "5563c949b952fd0ddd0365f58e24eb14894d8bdaae7cab8a6bc5fad983bee776",
+      "read_depth": "full source argument prose; implementations not rerun"
+    },
+    {
+      "path": "udt_g321_g320_local_cauchy_development_uniqueness_2026-09-01/EXTERNAL_REPAIR_FOLLOWUP_RESPONSE.md",
+      "sha256": "1c37a3bd4ef2674bf356b92c3511e01f1d6432836286121483c1a02ece74af58",
+      "read_depth": "full theorem interface/repair response; external PDFs not reauthenticated"
+    },
+    {
+      "path": "udt_g322_g321_maximal_globally_hyperbolic_development_2026-09-01/THEOREM_INTERFACE.tsv",
+      "sha256": "7d439ada36c686410912f169dc11ae259e4172a0e40d985ce29746fc6c0e5fac",
+      "read_depth": "full theorem interface/repair response; external PDFs not reauthenticated"
+    },
+    {
+      "path": "udt_g322_g321_maximal_globally_hyperbolic_development_2026-09-01/REPAIR_LEDGER.tsv",
+      "sha256": "df494a75929e91529620ef5bcbcd2061fdffa90b60c70e03e7bfcc2909b64d07",
+      "read_depth": "full theorem interface/repair response; external PDFs not reauthenticated"
+    },
+    {
+      "path": "udt_g322_g321_maximal_globally_hyperbolic_development_2026-09-01/EXTERNAL_REPAIR_FOLLOWUP_RESPONSE.md",
+      "sha256": "7d35769b5544627e0595d639027681751d97a734dc54e93ddbcd2b8ce9ee09b3",
+      "read_depth": "full theorem interface/repair response; external PDFs not reauthenticated"
+    },
+    {
+      "path": "udt_g324_g323_taub_quotient_mghd_identification_2026-09-02/REPAIR_LEDGER.tsv",
+      "sha256": "0c93895e0e8857770ef5a7acf5c7d19cc0a19a669fe280d153b174b627300820",
+      "read_depth": "full theorem interface/repair response; external PDFs not reauthenticated"
+    },
+    {
+      "path": "udt_g324_g323_taub_quotient_mghd_identification_2026-09-02/EXTERNAL_REPAIR_FOLLOWUP_RESPONSE.md",
+      "sha256": "8445873159a37c36534e9a578cb86f22629956b47555e3ffd0a03ffe16c5752d",
+      "read_depth": "full theorem interface/repair response; external PDFs not reauthenticated"
+    },
+    {
+      "path": "udt_g324_g323_taub_quotient_mghd_identification_2026-09-02/EXTERNAL_REPAIR_FOLLOWUP_FINAL_RESPONSE.md",
+      "sha256": "a2e8aa94acd6126537ce9d7ea0a3eba0a9c3e296dd07ffef2566f9d8fb06a0b7",
+      "read_depth": "full theorem interface/repair response; external PDFs not reauthenticated"
+    },
+    {
+      "path": "udt_g178_completed_pair_kernel_fresh_adversarial_review_2026-08-19/AUDIT_REPORT.md",
+      "sha256": "df7db9300a350d5721874175b4d0f2eff60967d7588eb0f763f63fffa32d7744",
+      "read_depth": "full controlling certification audit; original external payloads not reopened"
+    },
+    {
+      "path": "udt_g372_g373_conditional_banking_2026-09-08/BANKING_RECORD.md",
+      "sha256": "45f774b2393f81c2d84754be57cd35db88301b9c281ea53be1a07e82a7bfacbe",
+      "read_depth": "full current acceptance overlay"
+    },
+    {
+      "path": "udt_optional_coupled_development_campaign_2026-09-08/step_01/CANDIDATE_INITIAL.md",
+      "sha256": "c8bb0fba2a88e11c2dae9cca9ddc2417832ff51b69710e1f6c78d8fe0b17321a",
+      "read_depth": "full source argument prose; implementations not rerun"
+    },
+    {
+      "path": "udt_optional_coupled_development_campaign_2026-09-08/step_01/REVIEWED_RESULT.md",
+      "sha256": "d1b4a05feca157544c9bf60101ef69ad53d3fe4078761d096eea3985fbef15f8",
+      "read_depth": "full source argument prose; implementations not rerun"
+    },
+    {
+      "path": "udt_optional_coupled_development_campaign_2026-09-08/step_01/review/ADVERSARIAL_REVIEW_INITIAL.md",
+      "sha256": "39882b76bfb80fded29ebde3cfc6360f34505ae9f7384d02cf5cc73ddb501881",
+      "read_depth": "full source argument prose; implementations not rerun"
+    },
+    {
+      "path": "udt_optional_coupled_development_campaign_2026-09-08/step_02/CANDIDATE_INITIAL.md",
+      "sha256": "1a3ba9d3afcffab21853af131e5aa5aba6a61343c4b696d1943ddadc0a5eddfc",
+      "read_depth": "full source argument prose; implementations not rerun"
+    },
+    {
+      "path": "udt_optional_coupled_development_campaign_2026-09-08/step_02/REVIEWED_RESULT.md",
+      "sha256": "f0f69723a135c00bcef936a3f19dca15094796d5f954e4fba4368587ccca7010",
+      "read_depth": "full source argument prose; implementations not rerun"
+    },
+    {
+      "path": "udt_optional_coupled_development_campaign_2026-09-08/step_02/review/ADVERSARIAL_REVIEW_INITIAL.md",
+      "sha256": "7e8c8b4480db967a8352169ff78ba2ffaac885fa563e2a587e8f0a95c995787e",
+      "read_depth": "full source argument prose; implementations not rerun"
+    },
+    {
+      "path": "udt_nonlinear_mode_realizability_campaign_2026-09-09/step_01/INITIAL_CANDIDATE.md",
+      "sha256": "871a64977c723db32fa4697c4b61cd3a57ec7f318c061585b187774549731f86",
+      "read_depth": "full source argument prose; implementations not rerun"
+    },
+    {
+      "path": "udt_nonlinear_mode_realizability_campaign_2026-09-09/step_01/review/ADVERSARIAL_REVIEW.md",
+      "sha256": "a6a612b5924c04c0ee60726b65403e061d035cbaf3e3d96a7499a9dbb2273c4a",
+      "read_depth": "full controlling review; NR1 truncated subsection subsequently reread"
+    },
+    {
+      "path": "udt_nonlinear_mode_realizability_campaign_2026-09-09/step_02/INITIAL_CANDIDATE.md",
+      "sha256": "2af7b57e9323c895ffe98b4777aadd37721cd650bffd684954b85b1441e29e9d",
+      "read_depth": "full source argument prose; implementations not rerun"
+    },
+    {
+      "path": "udt_nonlinear_mode_realizability_campaign_2026-09-09/step_02/review/ADVERSARIAL_REVIEW.md",
+      "sha256": "9e722b8874593ec0b82f7862d5a3af0f371e26a5798f8fc1d49db453b757acfc",
+      "read_depth": "full controlling review; NR1 truncated subsection subsequently reread"
+    },
+    {
+      "path": "udt_localized_geometry_campaign_2026-09-09/step_01/CANDIDATE.md",
+      "sha256": "bcbeafc7f19bf29a298244bac7664748668175fe8b4a53f4a7d13db1c258098e",
+      "read_depth": "full source argument prose; implementations not rerun"
+    },
+    {
+      "path": "udt_localized_geometry_campaign_2026-09-09/step_01/review/DIRECT_REVIEW.md",
+      "sha256": "ee5d02291a6ce45a3ddc7763fa103a4ef666458b049970b142d0ab459f538698",
+      "read_depth": "full source argument prose; implementations not rerun"
+    },
+    {
+      "path": "udt_localized_geometry_campaign_2026-09-09/step_02/CANDIDATE.md",
+      "sha256": "3f21ac35f37bdff8309651d06bb1be5aadce5948bef5ff5d0ec95efe40086537",
+      "read_depth": "full source argument prose; implementations not rerun"
+    },
+    {
+      "path": "udt_localized_geometry_campaign_2026-09-09/step_02/review/DIRECT_REVIEW.md",
+      "sha256": "d9c79d43a5e473416eda2577f1a7c446625ac504d577b23a6217fe89fa7c88eb",
+      "read_depth": "full source argument prose; implementations not rerun"
+    },
+    {
+      "path": "udt_localized_geometry_campaign_2026-09-09/step_02/REPAIR.md",
+      "sha256": "b10226648340d45bfbee1e44bae9a50f530826ec3aefe25f8bbde0bb32b3a262",
+      "read_depth": "full source argument prose; implementations not rerun"
+    },
+    {
+      "path": "udt_localized_evolution_followup_2026-09-09/CANDIDATE.md",
+      "sha256": "22ea9426f13c0aef12550248a5d4cb5ff3a5855f6e5804f1b57f965d052fea78",
+      "read_depth": "full source argument prose; implementations not rerun"
+    },
+    {
+      "path": "udt_localized_evolution_followup_2026-09-09/review/DIRECT_REVIEW.md",
+      "sha256": "3d5beefd062a4d32754e96be4be7b5fd2e384fbb33c0c240d758fbb9eba77f32",
+      "read_depth": "full source argument prose; implementations not rerun"
+    },
+    {
+      "path": "udt_spatial_curvature_evolution_2026-09-09/CANDIDATE.md",
+      "sha256": "31588aee276d4915418871988e400687b05cb59ee6ad6bc1efdb57ebd73789a7",
+      "read_depth": "full source argument prose; implementations not rerun"
+    },
+    {
+      "path": "udt_spatial_curvature_evolution_2026-09-09/review/DIRECT_REVIEW.md",
+      "sha256": "8fde77e604bd2771d5cb184ba3ad8aa72ee0661f819345e372fc49ba7ade0934",
+      "read_depth": "full source argument prose; implementations not rerun"
+    },
+    {
+      "path": "udt_spatial_curvature_evolution_2026-09-09/PROVENANCE_CORRECTION.md",
+      "sha256": "bfea95a330c1db2aeef1db2b00e975463940f795651c1f4139ca8890d840819d",
+      "read_depth": "full source argument prose; implementations not rerun"
+    },
+    {
+      "path": "udt_spatial_curvature_evolution_2026-09-09/review/PROVENANCE_FOLLOWUP.md",
+      "sha256": "8119b22fa8cd8a0e3551cb6435c7eb0d378491903729bc01ad14c1622f639713",
+      "read_depth": "full source argument prose; implementations not rerun"
+    },
+    {
+      "path": "udt_nonlinear_ripple_geometry_2026-09-09/INITIAL_CANDIDATE.md",
+      "sha256": "49880008dcb5a646d6867e377f6dc84ded692b98250701aba4cab7119ca500de",
+      "read_depth": "full source argument prose; implementations not rerun"
+    },
+    {
+      "path": "udt_nonlinear_ripple_geometry_2026-09-09/REVIEWED_RESULT.md",
+      "sha256": "45cc3bc950b76ceed6a1fd49c248688242bc3c008864256de9bb494c1b8bbfaa",
+      "read_depth": "full source argument prose; implementations not rerun"
+    },
+    {
+      "path": "udt_nonlinear_ripple_geometry_2026-09-09/review/DIRECT_REVIEW.md",
+      "sha256": "dd5608df50905466383a1bc9dd67e6b23bcececb1d5ff4e0848c87716b98b200",
+      "read_depth": "full source argument prose; implementations not rerun"
+    },
+    {
+      "path": "udt_reviewed_backlog_banking_2026-09-10/BANKED_CLAIMS.json",
+      "sha256": "4b98b1dea6ce9dc0d62f9fa6183c1379aed534989159b45a208dad93fce12c2e",
+      "read_depth": "targeted NR1/NR2/LG1/LG2/LE1/SE1/NE1 complete source_assessment fields; not all claims"
+    }
+  ],
+  "acceptance_pin_matches": [
+    "udt_localized_evolution_followup_2026-09-09/CANDIDATE.md",
+    "udt_localized_evolution_followup_2026-09-09/review/DIRECT_REVIEW.md",
+    "udt_localized_geometry_campaign_2026-09-09/step_01/CANDIDATE.md",
+    "udt_localized_geometry_campaign_2026-09-09/step_01/review/DIRECT_REVIEW.md",
+    "udt_localized_geometry_campaign_2026-09-09/step_02/CANDIDATE.md",
+    "udt_localized_geometry_campaign_2026-09-09/step_02/REPAIR.md",
+    "udt_localized_geometry_campaign_2026-09-09/step_02/review/DIRECT_REVIEW.md",
+    "udt_nonlinear_mode_realizability_campaign_2026-09-09/step_01/INITIAL_CANDIDATE.md",
+    "udt_nonlinear_mode_realizability_campaign_2026-09-09/step_01/review/ADVERSARIAL_REVIEW.md",
+    "udt_nonlinear_mode_realizability_campaign_2026-09-09/step_02/INITIAL_CANDIDATE.md",
+    "udt_nonlinear_mode_realizability_campaign_2026-09-09/step_02/review/ADVERSARIAL_REVIEW.md",
+    "udt_nonlinear_ripple_geometry_2026-09-09/INITIAL_CANDIDATE.md",
+    "udt_nonlinear_ripple_geometry_2026-09-09/REVIEWED_RESULT.md",
+    "udt_nonlinear_ripple_geometry_2026-09-09/review/DIRECT_REVIEW.md",
+    "udt_optional_coupled_development_campaign_2026-09-08/step_01/CANDIDATE_INITIAL.md",
+    "udt_optional_coupled_development_campaign_2026-09-08/step_01/REVIEWED_RESULT.md",
+    "udt_optional_coupled_development_campaign_2026-09-08/step_01/review/ADVERSARIAL_REVIEW_INITIAL.md",
+    "udt_optional_coupled_development_campaign_2026-09-08/step_02/CANDIDATE_INITIAL.md",
+    "udt_optional_coupled_development_campaign_2026-09-08/step_02/REVIEWED_RESULT.md",
+    "udt_optional_coupled_development_campaign_2026-09-08/step_02/review/ADVERSARIAL_REVIEW_INITIAL.md",
+    "udt_spatial_curvature_evolution_2026-09-09/CANDIDATE.md",
+    "udt_spatial_curvature_evolution_2026-09-09/PROVENANCE_CORRECTION.md",
+    "udt_spatial_curvature_evolution_2026-09-09/review/DIRECT_REVIEW.md",
+    "udt_spatial_curvature_evolution_2026-09-09/review/PROVENANCE_FOLLOWUP.md"
+  ],
+  "actual_head": "ab6033469c37f63a0f3aa6527804b7e3cd2f5be6",
+  "baseline": "ab6033469c37f63a0f3aa6527804b7e3cd2f5be6",
+  "registry_count_metadata": 397,
+  "selected_rows": [
+    {
+      "premise_id": "G388",
+      "term": "compact_mode_quadratic_realizability_obstruction",
+      "current_status": "BANKED_DERIVED_CONDITIONAL__VERIFIED_WITH_CAVEATS__OWNER_AUTHORIZED__NOT_PHYSICAL_ADOPTION__NOT_CANON",
+      "epistemic_label": "MIXED",
+      "active_use": "NR1; ENTIRE frozen statement and controlling reviews/repairs. Necessary quadratic obstruction Q=v_c dot u_s-v_s dot u_c=0, equivalently sum_p(A_c,p B_s,p-A_s,p B_c,p)=0, for exact realizability of the G327 eight-real-parameter tangent on every fixed supplied G324 compact split quotient. HYPOTHESES: Fixed T0>0; both time branches, phases and polarizations retained.; Exact families have sufficient mixed C2 dependence of the fields and required spatial derivatives on a common neighborhood of the whole compact slice.; All second-order fields and connected Lambda(epsilon) variations are allowed; legal periodic gauge does not change the obstruction.",
+      "open_scope": "Physical identification remains OPEN; G166 native assembly is OPEN; G176 remains WORKING; G312 GR is FILTER ONLY and response-class membership is unclosed. No physical metric/equation/observer/population/history/scale selection or canon follows. Q=0 is not sufficient in NR1 alone.; No necessity for nonsmooth families, nonperiodic gauges, different quotient/domain or arbitrary modes.; Two polarizations may cancel; do not impose separate polarization obstructions.",
+      "forbidden_regression": "Conditional mathematical or design/benchmark scope called physical adoption, empirical certification or canon; supplied data or optional equation called derived native UDT; old failures, excluded false passes or LOST evidence erased; review/check counts or checksums called proof; source credit or reused methods called independent confirmation; configured model called runtime-attested or different-model independence inferred.",
+      "controlling_source": "udt_reviewed_backlog_banking_2026-09-10/BANKING_RECORD.md",
+      "precedence_rule": "G388 accepts only NR1 at its exact frozen scope; required registry IDs: G303,G315,G324,G327; BANKED_CLAIMS.json distinguishes required premises from methods/controls/source credit. ENTIRE original candidate, review, repairs, exclusions and discovery history remain controlling. Fresh separate-context banking fidelity is not blind reproof; runtime model/version UNATTESTED; different-model/human/formal axes UNTESTED. LIVE then exact registry then banking record and immutable sources; conflict means STOP."
+    },
+    {
+      "premise_id": "G389",
+      "term": "compact_mode_exact_local_analytic_realizability",
+      "current_status": "BANKED_DERIVED_CONDITIONAL__VERIFIED_WITH_CAVEATS__OWNER_AUTHORIZED__NOT_PHYSICAL_ADOPTION__NOT_CANON",
+      "epistemic_label": "MIXED",
+      "active_use": "NR2; ENTIRE frozen statement and controlling reviews/repairs. Within the exact G327 tangent sector, Q=0 if and only if the tangent admits the reviewed exact local realization: NR1 gives mixed-C2 necessity, and every fixed Q=0 tangent has a jointly analytic parameter/spacetime exact Einstein family on a common local slab around the whole supplied compact slice. HYPOTHESES: Fixed compact split quotient and T0>0; positive determinant-one metric chart and dual K pairing.; For each fixed tangent choose epsilon0>0 and delta>0; no uniform choice over all amplitudes or endpoint limits.; Both arbitrary analytic c(epsilon)=O(epsilon^2) and Lambda(epsilon)=O(epsilon^2) are included at the reviewed scope; each Lambda is spacetime constant.; All constraints, auxiliary consistency, Bianchi propagation, compact gluing and linear tangent uniqueness remain load-bearing.",
+      "open_scope": "Physical identification remains OPEN; G166 native assembly is OPEN; G176 remains WORKING; G312 GR is FILTER ONLY and response-class membership is unclosed. No physical metric/equation/observer/population/history/scale selection or canon follows. No arbitrary-mode integrability classification.; No smooth/Sobolev nonlinear stability or uniform amplitude/lifetime result.; Do not replace full Einstein evolution by only the spatial Ricci equations.",
+      "forbidden_regression": "Conditional mathematical or design/benchmark scope called physical adoption, empirical certification or canon; supplied data or optional equation called derived native UDT; old failures, excluded false passes or LOST evidence erased; review/check counts or checksums called proof; source credit or reused methods called independent confirmation; configured model called runtime-attested or different-model independence inferred.",
+      "controlling_source": "udt_reviewed_backlog_banking_2026-09-10/BANKING_RECORD.md",
+      "precedence_rule": "G389 accepts only NR2 at its exact frozen scope; required registry IDs: G303,G315,G324,G327,G388; BANKED_CLAIMS.json distinguishes required premises from methods/controls/source credit. ENTIRE original candidate, review, repairs, exclusions and discovery history remain controlling. Fresh separate-context banking fidelity is not blind reproof; runtime model/version UNATTESTED; different-model/human/formal axes UNTESTED. LIVE then exact registry then banking record and immutable sources; conflict means STOP."
+    },
+    {
+      "premise_id": "G390",
+      "term": "localized_constraint_adjoint_kernel_and_balances",
+      "current_status": "BANKED_DERIVED_CONDITIONAL__VERIFIED_WITH_CAVEATS__OWNER_AUTHORIZED__NOT_PHYSICAL_ADOPTION__NOT_CANON",
+      "epistemic_label": "MIXED",
+      "active_use": "LG1; ENTIRE frozen statement and controlling reviews/repairs. The complete local constraint-adjoint kernel on each connected embedded ball or annular collar of the supplied Taub slice has zero lapse and the three translations plus y partial_z-z partial_y; on the full-rank compact torus only the three translations descend. This gives necessary linear-source pairings and exact finite and mixed-C2 tangent balances for supported completions matching both metric and K outside. HYPOTHESES: gamma0=I and K0=diag(1,-2,-2)/(3T0), T0>0.; Full tensor Lie derivative/density pairing, connected local domain, legal compact quotient.; Exact supported completion agrees in BOTH gamma and K on its exterior.",
+      "open_scope": "Physical identification remains OPEN; G166 native assembly is OPEN; G176 remains WORKING; G312 GR is FILTER ONLY and response-class membership is unclosed. No physical metric/equation/observer/population/history/scale selection or canon follows. No sufficient gluing theorem.; A nonzero interior charge may be cancelled in a collar; it is not a universal no-go.; Do not replace the four-dimensional local kernel by the three-dimensional global torus kernel.",
+      "forbidden_regression": "Conditional mathematical or design/benchmark scope called physical adoption, empirical certification or canon; supplied data or optional equation called derived native UDT; old failures, excluded false passes or LOST evidence erased; review/check counts or checksums called proof; source credit or reused methods called independent confirmation; configured model called runtime-attested or different-model independence inferred.",
+      "controlling_source": "udt_reviewed_backlog_banking_2026-09-10/BANKING_RECORD.md",
+      "precedence_rule": "G390 accepts only LG1 at its exact frozen scope; required registry IDs: G303,G315,G324; BANKED_CLAIMS.json distinguishes required premises from methods/controls/source credit. ENTIRE original candidate, review, repairs, exclusions and discovery history remain controlling. Fresh separate-context banking fidelity is not blind reproof; runtime model/version UNATTESTED; different-model/human/formal axes UNTESTED. LIVE then exact registry then banking record and immutable sources; conflict means STOP."
+    },
+    {
+      "premise_id": "G391",
+      "term": "localized_exact_constraint_completion",
+      "current_status": "BANKED_DERIVED_CONDITIONAL__VERIFIED_WITH_CAVEATS__OWNER_AUTHORIZED__NOT_PHYSICAL_ADOPTION__NOT_CANON",
+      "epistemic_label": "MIXED",
+      "active_use": "LG2; ENTIRE frozen statement and controlling reviews/repairs. For every fixed permitted T0, nested radii, cutoff and sufficiently high finite norm, all sufficiently small nonzero prescribed diagonal reflection-invariant Kasner interior parameters u admit a smooth exact global constraint completion on the same compact quotient, with the fixed Taub exterior, positive metric and Lambda=0. Its local Einstein development is not locally Taub in the inserted core. HYPOTHESES: 0<|u|<min(u_star,0.1), with u_star depending on the frozen construction.; Both boundaries require smooth zero extension.; Use the exact nonlinear source covector J_i=-2 M_i before taking its derivative.; Chrusciel-Delay projected inverse is relative to a fixed reference kernel; decaying variational weight and growing output norm are distinct.; Eight reflections remove the fixed subspace of all four local KIDs.",
+      "open_scope": "Physical identification remains OPEN; G166 native assembly is OPEN; G176 remains WORKING; G312 GR is FILTER ONLY and response-class membership is unclosed. No physical metric/equation/observer/population/history/scale selection or canon follows. No arbitrary interior matching, quantitative u_star, uniform shrinking-domain norms or all-completion uniqueness.; No all-time exact exterior or stability.; Central inversion alone does not remove the rotational KID.; Raw cutoff data are not exact constraint data.; Raising the momentum index with the varying metric changes the off-constraint derivative and cannot replace repaired J.",
+      "forbidden_regression": "Conditional mathematical or design/benchmark scope called physical adoption, empirical certification or canon; supplied data or optional equation called derived native UDT; old failures, excluded false passes or LOST evidence erased; review/check counts or checksums called proof; source credit or reused methods called independent confirmation; configured model called runtime-attested or different-model independence inferred.",
+      "controlling_source": "udt_reviewed_backlog_banking_2026-09-10/BANKING_RECORD.md",
+      "precedence_rule": "G391 accepts only LG2 at its exact frozen scope; required registry IDs: G303,G315,G324,G390; BANKED_CLAIMS.json distinguishes required premises from methods/controls/source credit. ENTIRE original candidate, review, repairs, exclusions and discovery history remain controlling. Fresh separate-context banking fidelity is not blind reproof; runtime model/version UNATTESTED; different-model/human/formal axes UNTESTED. LIVE then exact registry then banking record and immutable sources; conflict means STOP."
+    },
+    {
+      "premise_id": "G392",
+      "term": "localized_development_curvature_decay_and_anisotropy",
+      "current_status": "BANKED_DERIVED_CONDITIONAL__VERIFIED_WITH_CAVEATS__OWNER_AUTHORIZED__NOT_PHYSICAL_ADOPTION__NOT_CANON",
+      "epistemic_label": "MIXED",
+      "active_use": "LE1; ENTIRE frozen statement and controlling reviews/repairs. Every actual smooth full-constraint completion sharing the lawful LG2 core, in every local globally hyperbolic development, has a datum/development-dependent positive common Kasner neighborhood of each compact core subball. There Kretschmann=-16 P/T^4 strictly decays while the full self-dual Weyl anisotropy A=1-6 I3^2/I2^3=u^2(u^2-3)^2/(1+u^2)^3 stays positive and constant; Taub has A=0. HYPOTHESES: Nonzero reviewed LG2 u range, actual completion and actual local development.; Diagnostic uses full Q=E+iB, not E alone.; Explicit |x|+L_p(T)<r is restricted to the intersection with the actual common development.",
+      "open_scope": "Physical identification remains OPEN; G166 native assembly is OPEN; G176 remains WORKING; G312 GR is FILTER ONLY and response-class membership is unclosed. No physical metric/equation/observer/population/history/scale selection or canon follows. No uniform lifetime, long-time persistence, collar conclusion or metric-distance estimate.; Curvature decay does not make this invariant anisotropy decay.",
+      "forbidden_regression": "Conditional mathematical or design/benchmark scope called physical adoption, empirical certification or canon; supplied data or optional equation called derived native UDT; old failures, excluded false passes or LOST evidence erased; review/check counts or checksums called proof; source credit or reused methods called independent confirmation; configured model called runtime-attested or different-model independence inferred.",
+      "controlling_source": "udt_reviewed_backlog_banking_2026-09-10/BANKING_RECORD.md",
+      "precedence_rule": "G392 accepts only LE1 at its exact frozen scope; required registry IDs: G303,G315,G324,G391; BANKED_CLAIMS.json distinguishes required premises from methods/controls/source credit. ENTIRE original candidate, review, repairs, exclusions and discovery history remain controlling. Fresh separate-context banking fidelity is not blind reproof; runtime model/version UNATTESTED; different-model/human/formal axes UNTESTED. LIVE then exact registry then banking record and immutable sources; conflict means STOP."
+    },
+    {
+      "premise_id": "G393",
+      "term": "spatial_curvature_anisotropy_evolution",
+      "current_status": "BANKED_DERIVED_CONDITIONAL__VERIFIED_WITH_CAVEATS__OWNER_AUTHORIZED__NOT_PHYSICAL_ADOPTION__NOT_CANON",
+      "epistemic_label": "MIXED",
+      "active_use": "SE1; ENTIRE frozen statement and controlling reviews/repairs. For sufficiently regular actual local Einstein evolution and I2!=0, the reviewed oriented Gaussian/Fermi convention gives W=2 tau Q-3(KQ)_symTF-i curl Q and n(A)=36 I3[I3 tr(QW)-I2 tr(Q^2 W)]/I2^4. The explicit lawful analytic compact m=0 and m=1 data have identical pointwise gamma,K,Q and first metric/K jets at x=0 but rates 0 and -5930496/5764801; a nonflat comparator has positive rate 68040/28561. HYPOTHESES: Supplied future normal, orientation, Gaussian initial slice and Fermi frame.; I2!=0 and full self-dual Q diagnostic.; Matched example q=e cos(mx), e=1/6, gamma=I, K=diag(1/3-3q^2/4,-2/3-q,-2/3+q); nonflat comparator e=1/9 at its reviewed point.; Actual analytic Cauchy development, not merely formal initial jets.",
+      "open_scope": "Physical identification remains OPEN; G166 native assembly is OPEN; G176 remains WORKING; G312 GR is FILTER ONLY and response-class membership is unclosed. No physical metric/equation/observer/population/history/scale selection or canon follows. Instantaneous zero derivative is only scalar stationarity; I3=0 is a diagnostic blind spot, I2=0 excluded.; No universal sign, full geometry classification or full-Cauchy-data nonuniqueness.; The matched fields differ away from the point.",
+      "forbidden_regression": "Conditional mathematical or design/benchmark scope called physical adoption, empirical certification or canon; supplied data or optional equation called derived native UDT; old failures, excluded false passes or LOST evidence erased; review/check counts or checksums called proof; source credit or reused methods called independent confirmation; configured model called runtime-attested or different-model independence inferred.",
+      "controlling_source": "udt_reviewed_backlog_banking_2026-09-10/BANKING_RECORD.md",
+      "precedence_rule": "G393 accepts only SE1 at its exact frozen scope; required registry IDs: G303,G315,G392; BANKED_CLAIMS.json distinguishes required premises from methods/controls/source credit. ENTIRE original candidate, review, repairs, exclusions and discovery history remain controlling. Fresh separate-context banking fidelity is not blind reproof; runtime model/version UNATTESTED; different-model/human/formal axes UNTESTED. LIVE then exact registry then banking record and immutable sources; conflict means STOP."
+    },
+    {
+      "premise_id": "G394",
+      "term": "exact_polarized_nonlinear_ripple_geometry",
+      "current_status": "BANKED_DERIVED_CONDITIONAL__VERIFIED_WITH_CAVEATS__OWNER_AUTHORIZED__NOT_PHYSICAL_ADOPTION__NOT_CANON",
+      "epistemic_label": "MIXED",
+      "active_use": "NE1; ENTIRE frozen statement and controlling reviews/repairs. The supplied polarized one-plus-cosine compact T3 data have the explicit exact smooth Lorentzian Einstein development on t>0 in the reviewed Gowdy/Bessel form, with complete original Ricci and initial-data matching and the G327 plus-cosine linear limit. For each fixed nonzero epsilon, P=O(t^-1/2) uniformly tends to zero, but lambda=lambda0+epsilon^2 sigma t+O(1), sigma>0; at equal supplied marked T2 orbit area, H_rho/H_rho0 tends uniformly to zero and the relative tidal contrast has alternating unbounded subsequences. HYPOTHESES: Supplied split compact quotient, Lambda=0 and original unit-metric data.; Exact construction covers every finite real epsilon at its reviewed scope; asymptotic comparison fixes epsilon!=0.; Matched orbit-area marking and areal normal are part of the comparison.; The Cauchy proof quantifies over inextendible causal curves.",
+      "open_scope": "Physical identification remains OPEN; G166 native assembly is OPEN; G176 remains WORKING; G312 GR is FILTER ONLY and response-class membership is unclosed. No physical metric/equation/observer/population/history/scale selection or canon follows. No absolute curvature blowup, generic nonlinear stability/instability theorem or unmarked all-isometry comparison.; H_rho is not the volume expansion; later areal normal is not Gaussian normal.; Finite floating witnesses are not certified asymptotics.",
+      "forbidden_regression": "Conditional mathematical or design/benchmark scope called physical adoption, empirical certification or canon; supplied data or optional equation called derived native UDT; old failures, excluded false passes or LOST evidence erased; review/check counts or checksums called proof; source credit or reused methods called independent confirmation; configured model called runtime-attested or different-model independence inferred.",
+      "controlling_source": "udt_reviewed_backlog_banking_2026-09-10/BANKING_RECORD.md",
+      "precedence_rule": "G394 accepts only NE1 at its exact frozen scope; required registry IDs: G303,G315,G327; BANKED_CLAIMS.json distinguishes required premises from methods/controls/source credit. ENTIRE original candidate, review, repairs, exclusions and discovery history remain controlling. Fresh separate-context banking fidelity is not blind reproof; runtime model/version UNATTESTED; different-model/human/formal axes UNTESTED. LIVE then exact registry then banking record and immutable sources; conflict means STOP."
+    },
+    {
+      "premise_id": "G373",
+      "term": "CD2 local analytic joint development and original-product propagation",
+      "current_status": "BANKED_DERIVED_CONDITIONAL__VERIFIED_WITH_CAVEATS__OWNER_AUTHORIZED__NOT_PHYSICAL_ADOPTION__NOT_CANON",
+      "epistemic_label": "MIXED",
+      "active_use": "CD2; ALL_CD1_RESTRICTED_INITIAL_DATA_AND_REVIEW_LIMITS; OPTIONAL_UNADOPTED_NONVACUUM_SOURCE_LAW; REAL_ANALYTIC_SEEDS_LOCAL_REGULAR_POSITIVE_TUBE_ONLY; JOINT_55_COMPONENT_ANALYTIC_NORMAL_FORM_NOT_PHYSICAL_DOF; FULL_ORIGINAL_RICCI_AND_GAUGE_CONSTRAINT_PROPAGATION; ORIGINAL_PHASE_LABEL_MEASURE_PRODUCT_MATCH_AND_PROPAGATION; ANALYTIC_LOCAL_GEOMETRIC_UNIQUENESS_AT_IDENTIFIED_INITIAL_DATA; THREE_VACUOUS_AUTHOR_PRODUCT_CHECKS_EXCLUDED; JORDAN_METHOD_PROBE_OUTSIDE_CD1_SYMMETRY_NOT_SMOOTH_NOGO; PARTIAL_IMPLEMENTATION_INDEPENDENCE_SHARED_CURVATURE_UTILITY; OPTIONAL_SOURCE_BRANCH_PAUSED",
+      "open_scope": "physical identification remains OPEN; UDT source-response selection; smooth nonanalytic development; Sobolev continuous dependence and smooth well-posedness; stability and genericity; uniform lifespan; global completion and caustics; unrestricted initial-data classification; scale and physical population; canon",
+      "forbidden_regression": "optional source law called selected by UDT; vacuous product checks counted as supporting evidence; analytic theorem called smooth well-posedness or stability; fixed initial product replaced by conservation alone; free initial data demanded unique; review counts called analytic proof; UNTESTED different-model review upgraded; original failed or exposed evidence erased",
+      "controlling_source": "udt_g372_g373_conditional_banking_2026-09-08/BANKING_RECORD.md",
+      "precedence_rule": "CHARLES_AUTHORIZED_EXACT_REVIEWED_CONDITIONAL_BANKING__ENTIRE_CANDIDATE_RESULT_REVIEW_CONTROL__ORIGINAL_EVIDENCE_UNCHANGED__FRESH_SEPARATE_CONTEXT_MODEL_UNKNOWN_DIFFERENT_MODEL_UNTESTED__OPTIONAL_SOURCE_MODEL_PAUSED__NO_PHYSICAL_ADOPTION_NO_CANON"
+    },
+    {
+      "premise_id": "G372",
+      "term": "CD1 independently seeded local constrained initial-data family",
+      "current_status": "BANKED_DERIVED_CONDITIONAL__VERIFIED_WITH_CAVEATS__OWNER_AUTHORIZED__NOT_PHYSICAL_ADOPTION__NOT_CANON",
+      "epistemic_label": "MIXED",
+      "active_use": "CD1; OPTIONAL_UNADOPTED_NONVACUUM_SOURCE_LAW; EVERY_SMOOTH_POSITIVE_RHO_AND_MONOTONE_PHI_LOCAL_SEED; TRANSLATION_SYMMETRIC_TRANSVERSE_ISOTROPIC_INITIAL_CHART; FIXED_POSITIVE_S0_NONZERO_B0_AND_SUPPLIED_BETA_LAMBDA; FULL_INITIAL_PRODUCT_THREEFORM_AND_FUTURE_NULL_COVECTOR; NEGATIVE_K_ALL_FOUR_ORIGINAL_CONSTRAINTS; LOCAL_PICARD_ODE_CONSTRUCTION_NOT_RESIDUAL_DEFINED_CONTENT; ANALYTIC_SEED_SUBCASE_ONLY; B_NONZERO_SUFFICIENT_CHART_NOT_NECESSARY_LAW; NO_CD1_AMBIENT_EVOLUTION_OR_PROPAGATION; UNWRAPPED_DUPLICATE_REVIEW_AUDIT_OMISSION_RETAINED; OPTIONAL_SOURCE_BRANCH_PAUSED",
+      "open_scope": "physical identification remains OPEN; UDT source-response selection; CD1 alone has no ambient development or product propagation; unrestricted3D data and moduli classification; B=0 sector classification; uniform lifespan; stability and genericity; global completion; physical initial-data selection and scale; canon",
+      "forbidden_regression": "optional source law called selected by UDT; vacuous product checks counted as supporting evidence; analytic theorem called smooth well-posedness or stability; fixed initial product replaced by conservation alone; free initial data demanded unique; review counts called analytic proof; UNTESTED different-model review upgraded; original failed or exposed evidence erased",
+      "controlling_source": "udt_g372_g373_conditional_banking_2026-09-08/BANKING_RECORD.md",
+      "precedence_rule": "CHARLES_AUTHORIZED_EXACT_REVIEWED_CONDITIONAL_BANKING__ENTIRE_CANDIDATE_RESULT_REVIEW_CONTROL__ORIGINAL_EVIDENCE_UNCHANGED__FRESH_SEPARATE_CONTEXT_MODEL_UNKNOWN_DIFFERENT_MODEL_UNTESTED__OPTIONAL_SOURCE_MODEL_PAUSED__NO_PHYSICAL_ADOPTION_NO_CANON"
+    },
+    {
+      "premise_id": "G324",
+      "term": "taub_quotient_mghd_identification",
+      "current_status": "EXTERNALLY_ACCEPTED_AFTER_REPAIRS__PREREGISTERED_AT_C2476011__FRESH_EXTERNAL_GPT54_FOUND_NO_MATHEMATICAL_COUNTEREXAMPLE_AND_REGISTERED_THREE_BOUNDED_REPAIRS__REPAIR_FOLLOWUP_GPT54_R1_R3_ACCEPTED__29_PRODUCTION_ASSERTIONS__32_IMPLEMENTATION_DISTINCT_ASSERTIONS__5_OF_5_HOSTILE_CATCHES__68_AGGREGATE_ASSERTIONS__FUTURE_TIMELIKE_COMPLETE__NO_PROPER_TIME_ORIENTED_C2_EXTENSION__EXPLICIT_QUOTIENT_EQUALS_PER_DATUM_SMOOTH_MGHD__REGISTERED_LATTICE_MODULUS_SURVIVES_MGHD__PAST_C0_INEXTENDIBILITY_STABILITY_OCCUPANCY_SCALE_XMAX_OPEN__METRIC_KERNEL_ANGULAR_UNCHANGED",
+      "epistemic_label": "MIXED",
+      "active_use": "ACTIVE_BOUNDED_REGISTERED_G323_COMPACT_SPLIT_LATTICE_TAUB_QUOTIENT_FAMILY_ONLY",
+      "open_scope": "past C0 inextendibility; stability and perturbations; other topologies lattices data sources full UDT sectors and complete unmarked classification outside the registered family; physical datum topology orientation occupancy or unique universe; scale observation source matter mass physical Xmax and global full-UDT extension",
+      "forbidden_regression": "smooth MGHD called absolutely inextendible under every Lorentzian extension class; C2 curvature obstruction called C0 inextendibility; future timelike completeness called two-sided geodesic completeness or singularity freedom; per-datum maximality called physical occupancy data selection topology selection or unique universe; compact lattice modulus called a physical ruler scale or Xmax; imported Galloway-Ling-Sbierski or Choquet-Bruhat-Geroch theorem called native UDT physics; metric kernel angular sector field equation mass observation source or protected work changed",
+      "controlling_source": "udt_g324_g323_taub_quotient_mghd_identification_2026-09-02/AUDIT_REPORT.md",
+      "precedence_rule": "G324_EXTERNALLY_ACCEPTS_AFTER_REPAIRS_THAT_EACH_REGISTERED_G323_EXPLICIT_COMPACT_TAUB_QUOTIENT_IS_ITS_FIXED_DATUMS_SMOOTH_G322_MAXIMAL_GLOBALLY_HYPERBOLIC_DEVELOPMENT__THE_PROOF_DERIVES_FUTURE_TIMELIKE_COMPLETENESS_EXCLUDES_FINITE_POSITIVE_R_ENDPOINTS_AND_USES_AN_IMPORTED_ORIENTATION_NEUTRAL_EXTENSION_ENDPOINT_THEOREM_PLUS_R_TO_ZERO_CURVATURE_BLOWUP_TO_EXCLUDE_PROPER_TIME_ORIENTED_C2_EXTENSIONS__THE_REGISTERED_G323_COMPACT_LATTICE_MODULUS_THEREFORE_SURVIVES_AT_MGHD_LEVEL__PAST_C0_INEXTENDIBILITY_STABILITY_PERTURBATIONS_NONREGISTERED_FAMILIES_PHYSICAL_DATA_TOPOLOGY_ORIENTATION_OCCUPANCY_UNIVERSE_SCALE_AND_PHYSICAL_XMAX_REMAIN_OPEN__THE_OWNER_PROVISIONAL_FIELD_EQUATION_AND_METRIC_KERNEL_ANGULAR_INTERFACES_ARE_UNCHANGED__LIVE_THEN_THIS_REGISTRY_THEN_CITED_G324_SOURCE__CONFLICT_MEANS_STOP"
+    },
+    {
+      "premise_id": "G323",
+      "term": "g320_unmarked_taub_quotient_classification",
+      "current_status": "EXTERNALLY_ACCEPTED_AFTER_REPAIRS__PREREGISTERED_AT_A43FE3ED__FRESH_EXTERNAL_GPT54_REPAIRABLE_BOUNDED_LANDING_RETAINED__REPAIR_FOLLOWUP_GPT54_R1_R4_ACCEPTED__78_PRODUCTION_ASSERTIONS__33_IMPLEMENTATION_DISTINCT_ASSERTIONS__13_OF_13_HOSTILE_CATCHES__REGISTERED_PROFILES_EMBED_AS_COMPLETE_CAUCHY_GRAPHS_IN_ONE_LOCAL_RICCI_FLAT_TAUB_FORM__PROFILE_FREEDOM_IS_LOCAL_REFOLIATION__INTEGER_MODES_HAVE_STRICTLY_DISTINCT_PRIMITIVE_COMPACT_LATTICE_MODULI_AND_DISTINCT_EXPLICIT_UNMARKED_GH_QUOTIENT_DEVELOPMENTS__OPPOSITE_K_SIGNS_ARE_ONE_TIME_UNORIENTED_METRIC_WITH_OPPOSITE_TIME_ORIENTATIONS__MGHD_EQUALITY_OPEN__NO_OCCUPANCY_TOPOLOGY_SCALE_XMAX_METRIC_KERNEL_OR_ANGULAR_CHANGE",
+      "epistemic_label": "MIXED",
+      "active_use": "ACTIVE_BOUNDED_G320_G321_D_EQUALS_LAMBDA_EQUALS_ZERO_J0_POSITIVE_ONE_COORDINATE_LRS_FIXED_SIGN_COMPACT_EXPLICIT_TAUB_QUOTIENT_DEVELOPMENTS_ONLY",
+      "open_scope": "equality of each explicit Taub quotient development with its per-datum G322 maximal globally hyperbolic development; whether the primitive compact lattice modulus survives every proper MGHD extension; full G319 moduli non-LRS data d or Lambda nonzero B zero crossings; geodesic completeness singularity freedom stability arbitrary Lorentzian inextendibility; physical topology orientation initial-data occupancy or unique universe; scale source matter mass observations physical Xmax and full UDT extension",
+      "forbidden_regression": "explicit globally hyperbolic quotient development called the per-datum G322 MGHD; distinct explicit quotient modes called distinct full unmarked MGHDs without an extension theorem; local refoliation called all profile freedom gauge in full UDT; primitive compact period asserted without the winding and zero-integral proof; coordinate Q_X used without invariant lattice-intersection and projected-covolume typing; opposite K signs called different time-unoriented metrics; explicit family called physical occupancy topology or unique universe; owner-provisional field equation called derived or canon; metric kernel angular observation scale source matter mass Xmax or protected work imported or changed",
+      "controlling_source": "udt_g323_g320_unmarked_taub_quotient_classification_2026-09-01/AUDIT_REPORT.md",
+      "precedence_rule": "G323_EXTERNALLY_ACCEPTS_AFTER_REPAIRS_THAT_EVERY_REGISTERED_G320_PROFILE_EMBEDS_AS_A_COMPLETE_CAUCHY_GRAPH_IN_ONE_LOCAL_RICCI_FLAT_TAUB_FORM__THE_PROFILE_FREEDOM_IS_LOCAL_REFOLIATION_IN_THIS_BOUNDED_FAMILY__THE_PRIMITIVE_COMPACT_LATTICE_MODULUS_STRICTLY_SEPARATES_THE_REGISTERED_INTEGER_MODE_EXPLICIT_GLOBALLY_HYPERBOLIC_UNMARKED_QUOTIENT_DEVELOPMENTS__OPPOSITE_K_SIGNS_ARE_ONE_TIME_UNORIENTED_METRIC_WITH_OPPOSITE_TIME_ORIENTATIONS__EQUALITY_OF_EACH_EXPLICIT_QUOTIENT_WITH_ITS_PER_DATUM_G322_MGHD_REMAINS_OPEN__THE_RESULT_SELECTS_NO_PHYSICAL_DATA_TOPOLOGY_ORIENTATION_OCCUPANCY_UNIVERSE_SCALE_OR_PHYSICAL_XMAX__THE_OWNER_PROVISIONAL_FIELD_EQUATION_AND_METRIC_KERNEL_ANGULAR_INTERFACES_ARE_UNCHANGED__LIVE_THEN_THIS_REGISTRY_THEN_CITED_G323_SOURCE__CONFLICT_MEANS_STOP"
+    },
+    {
+      "premise_id": "G322",
+      "term": "conditional_maximal_globally_hyperbolic_development_per_fixed_datum",
+      "current_status": "EXTERNALLY_ACCEPTED_BOUNDED_CONDITIONAL__PREREGISTERED_AT_8BF4AEDB__REPAIRS_PREREGISTERED_AT_C91DBD85__FRESH_EXTERNAL_GPT54_REPAIRABLE_LANDING_RETAINED__REPAIR_FOLLOWUP_GPT54_R1_R2_ACCEPTED__62_PRODUCTION_ASSERTIONS__19_IMPLEMENTATION_DISTINCT_ASSERTIONS__14_OF_14_HOSTILE_CATCHES__8_ROW_DATA_INTERFACE__ALL_45_REPAIR_PAYLOADS_AUTHENTICATED__FOUR_EXTERNAL_REPLAYS_PASS__ALL_TRACKED_OUTPUTS_BYTE_IDENTICAL__PRIMARY_PUBLISHER_BOUNDED_25_WORD_THEOREM_EVIDENCE__FIXED_G321_DATA_HAVE_ONE_MAXIMAL_GLOBALLY_HYPERBOLIC_MARKED_DEVELOPMENT_UP_TO_DATA_PRESERVING_ISOMETRY_CONDITIONAL_ON_IMPORTED_CHOQUET_BRUHAT_GEROCH_THEOREM__EVERY_SAME_DATUM_GH_DEVELOPMENT_EMBEDS__NO_COMPLETENESS_SINGULARITY_FREEDOM_STABILITY_ARBITRARY_LORENTZIAN_INEXTENDIBILITY_UNMARKED_CROSS_DATUM_CLASSIFICATION_OR_PHYSICAL_OCCUPANCY__METRIC_KERNEL_ANGULAR_INTERFACES_UNCHANGED",
+      "epistemic_label": "MIXED",
+      "active_use": "ACTIVE_BOUNDED_G321_SMOOTH_CONNECTED_MARKED_T3_LAMBDA_ZERO_REGULAR_METRIC_ONLY_VACUUM_MAXIMAL_GLOBALLY_HYPERBOLIC_DEVELOPMENT_PER_FIXED_COMPLETE_DATUM_ONLY",
+      "open_scope": "geodesic completeness singularity formation or freedom and future or past completeness; arbitrary non-globally-hyperbolic Lorentzian extension or absolute inextendibility; nonlinear stability; unmarked cross-datum refoliation and equivalence; physical initial-data occupancy or unique universe; full data moduli; scale source matter mass observations physical Xmax and full UDT extension",
+      "forbidden_regression": "imported Choquet-Bruhat-Geroch theorem called native UDT derivation or canon; maximal globally hyperbolic development called geodesically complete singularity-free stable or absolutely Lorentzian-inextendible; per-datum uniqueness called physical occupancy or unique universe; distinct marked modes called distinct unmarked spacetimes without proof; Q_R called an occupancy selector; metric kernel angular observation scale source matter mass Xmax or protected work imported or changed",
+      "controlling_source": "udt_g322_g321_maximal_globally_hyperbolic_development_2026-09-01/AUDIT_REPORT.md",
+      "precedence_rule": "G322_EXTERNALLY_ACCEPTS_CONDITIONALLY_ON_THE_IMPORTED_CHOQUET_BRUHAT_GEROCH_THEOREM_THAT_EACH_FIXED_COMPLETE_G321_DATUM_IN_THE_REGISTERED_SMOOTH_CONNECTED_MARKED_T3_LAMBDA_ZERO_FAMILY_HAS_ONE_MAXIMAL_GLOBALLY_HYPERBOLIC_MARKED_DEVELOPMENT_UP_TO_DATA_PRESERVING_ISOMETRY__EVERY_OTHER_GLOBALLY_HYPERBOLIC_DEVELOPMENT_OF_THE_SAME_DATUM_EMBEDS_IN_IT__THIS_CLOSES_MAXIMAL_GLOBALLY_HYPERBOLIC_CONTINUATION_PER_SUPPLIED_DATUM_ONLY__THE_THEOREM_IS_IMPORTED_MATHEMATICS_NOT_NATIVE_UDT_DERIVATION_OR_CANON__DIFFERENT_MODES_REMAIN_DISTINCT_MARKED_DATA_AND_OPPOSITE_K_SIGNS_ARE_TIME_REVERSES__GEODESIC_COMPLETENESS_SINGULARITY_FREEDOM_STABILITY_ARBITRARY_LORENTZIAN_INEXTENDIBILITY_UNMARKED_CROSS_DATUM_EQUIVALENCE_AND_PHYSICAL_OCCUPANCY_REMAIN_OPEN__NO_METRIC_KERNEL_ANGULAR_OBSERVATIONAL_SCALE_SOURCE_MATTER_MASS_OR_PHYSICAL_XMAX_CHANGE__LIVE_THEN_THIS_REGISTRY_THEN_CITED_G322_SOURCE__CONFLICT_MEANS_STOP"
+    },
+    {
+      "premise_id": "G321",
+      "term": "conditional_local_marked_development_uniqueness",
+      "current_status": "EXTERNALLY_ACCEPTED_BOUNDED_CONDITIONAL__PREREGISTERED_AT_863A1E9E__163894_EXECUTABLE_PRODUCTION_ASSERTIONS__7_IMPLEMENTATION_DISTINCT_ASSERTIONS__12_OF_12_ACTUAL_EPHEMERAL_PACKAGE_MUTATIONS_CAUGHT__8_PRODUCTION_MODE_SIGN_CONTROLS__6_INDEPENDENT_MODE_SIGN_CONTROLS__FRESH_REVIEW_RETAINED_LANDING_WITH_TWO_REPAIRABLE_EVIDENCE_DEFECTS__REPAIR_FOLLOWUP_AUTHENTICATED_ALL_39_PAYLOADS__FOUR_EXTERNAL_REPLAYS_PASS__FIVE_GENERATED_OUTPUTS_BYTE_IDENTICAL__FULL_30_FILE_REPLAY_TREE_UNCHANGED__R1_R2_ACCEPTED__FIXED_COMPLETE_G320_DATA_CONDITIONALLY_DETERMINE_ONE_LOCAL_MARKED_DEVELOPMENT_UP_TO_DATA_PRESERVING_DIFFEO__REGISTERED_BREADTH_IS_ORDINARY_CAUCHY_DATA_FREEDOM__NO_GLOBAL_HISTORY_OR_PHYSICAL_OCCUPANCY_SELECTION__METRIC_KERNEL_ANGULAR_OBSERVATIONAL_INTERFACES_UNCHANGED",
+      "epistemic_label": "MIXED",
+      "active_use": "ACTIVE_BOUNDED_G320_G319_SMOOTH_COMPACT_BOUNDARY_FREE_MARKED_T3_REGULAR_LAMBDA_ZERO_TRACEFREE_RICCI_LOCAL_DEVELOPMENT_THEOREM_APPLICATION_ONLY",
+      "open_scope": "unique maximal globally hyperbolic development and its completeness singularities or stability; unmarked same-spacetime different-slice quotient; full G319 data moduli nonflat nondiagonal multidimensional B-zero and sign-changing branches; physical initial-data occupancy global actualization bootstrap topology population scalar magnitude scale source matter mass observations physical Xmax and full UDT extension",
+      "forbidden_regression": "conditional imported harmonic wellposedness called a native UDT derivation or machine proof; single-valued ADM first jet called PDE uniqueness; local marked uniqueness called global existence completeness stability unmarked classification physical occupancy or unique universe; lapse shift or harmonic coordinates called physical branches; time-reversed K signs called two futures from one fixed datum; registered torus family called full solution space; metric kernel angular observation scale source matter mass Xmax or protected work imported or changed",
+      "controlling_source": "udt_g321_g320_local_cauchy_development_uniqueness_2026-09-01/AUDIT_REPORT.md",
+      "precedence_rule": "G321_EXTERNALLY_ACCEPTS_CONDITIONAL_ON_THE_ALREADY_DECLARED_STANDARD_SMOOTH_HARMONIC_WELLPOSEDNESS_IMPORT_THAT_EACH_FIXED_COMPLETE_G320_DATUM_IN_THE_REGISTERED_SMOOTH_MARKED_T3_LAMBDA_ZERO_SLICE_HAS_ONE_LOCAL_MARKED_METRIC_DEVELOPMENT_UP_TO_A_SPACETIME_DIFFEO_COMMUTING_WITH_THE_INITIAL_EMBEDDING__THE_RAW_TRACEFREE_PROJECTOR_HAS_RANK_NINE_WHILE_BIANCHI_COMPLETION_AT_FIXED_LAMBDA_HAS_FULL_RANK_TEN__THE_UNIT_LAPSE_ZERO_SHIFT_ADM_RIGHT_HAND_SIDE_IS_ONLY_AN_INTERFACE_CHECK__OPPOSITE_K_SIGNS_ARE_DISTINCT_TIME_REVERSED_DATA__QR_SEPARATES_DIFFERENT_MODES_AS_MARKED_DEVELOPMENTS__THE_DEMONSTRATED_BREADTH_IS_ORDINARY_CAUCHY_DATA_FREEDOM_NOT_A_MISSING_LOCAL_EQUATION__UNMARKED_SAME_SPACETIME_CLASSIFICATION_MAXIMAL_GLOBAL_DEVELOPMENT_PHYSICAL_OCCUPANCY_HISTORY_TOPOLOGY_SCALE_SOURCE_MATTER_MASS_OBSERVATION_AND_PHYSICAL_XMAX_REMAIN_OPEN__METRIC_KERNEL_ANGULAR_AND_OBSERVATIONAL_INTERFACES_UNCHANGED__LIVE_THEN_THIS_REGISTRY_THEN_CITED_G321_SOURCE__CONFLICT_MEANS_STOP"
+    },
+    {
+      "premise_id": "G320",
+      "term": "physical_initial_geometry_quotient_audit",
+      "current_status": "EXTERNALLY_ACCEPTED_BOUNDED__PREREGISTERED_AT_A00E8ED3__290_PRODUCTION_ASSERTIONS__59_IMPLEMENTATION_DISTINCT_ASSERTIONS__26_OF_26_HOSTILE_CATCHES__8_PRODUCTION_CONTROLS__6_INDEPENDENT_MODE_BRANCH_CONTROLS__ALL_32_SEALED_PAYLOADS_AUTHENTICATED__FOUR_EXTERNAL_REPLAYS_PASS__FIVE_GENERATED_OUTPUTS_BYTE_IDENTICAL__SCALE_FREE_INTRINSIC_CURVATURE_SEPARATES_LAWFUL_G319_MODE_FAMILY__DECLARED_SPATIAL_ISOMETRY_AND_CONFORMAL_SEED_DUPLICATES_QUOTIENTED__AT_LEAST_COUNTABLY_MANY_GENUINELY_INEQUIVALENT_PHYSICAL_INITIAL_GEOMETRIES__NO_COMPLETE_MODULI_OR_PHYSICAL_DATA_SELECTION__METRIC_KERNEL_ANGULAR_OBSERVATIONAL_INTERFACES_UNCHANGED",
+      "epistemic_label": "MIXED",
+      "active_use": "ACTIVE_BOUNDED_G319_POSITIVE_SIGN_DEFINITE_FLAT_MARKED_T3_DIAGONAL_TT_ONE_COORDINATE_REGULAR_PHYSICAL_INITIAL_GEOMETRY_QUOTIENT_AUDIT_ONLY",
+      "open_scope": "complete moduli quotient of arbitrary G319 profiles; nonflat seeds nondiagonal tensors multidimensional profiles B-zero crossings and sign-changing branches; unique local and global evolution maximal development and stability; physical initial-data occupancy topology population actualization bootstrap scalar magnitude scale source matter mass observations physical Xmax and full UDT extension",
+      "forbidden_regression": "raw psi or conformal seed difference called physical; phase translation reflection auxiliary-vector kernel or seed rewrite called new geometry; different Q_R called coordinate or homothety gauge; registered mode family called complete moduli space or selected physical data; constraint admissibility called evolution history stability or actualization; Q_R called a physical scale; action source matter mass fit observation Xmax or protected work imported; metric kernel angular or observational interface called changed",
+      "controlling_source": "udt_g320_g319_physical_initial_geometry_quotient_audit_2026-09-01/AUDIT_REPORT.md",
+      "precedence_rule": "G320_EXTERNALLY_ACCEPTS_IN_THE_DECLARED_G319_REGULAR_SLICE_THAT_PHYSICAL_COMPARISON_MUST_USE_RECONSTRUCTED_GAMMA_AND_K_AFTER_SPATIAL_DIFFEO_AND_CONFORMAL_SEED_DUPLICATES_ARE_QUOTIENTED__THE_EXACT_HOMOTHETY_NEUTRAL_INVARIANT_QR_EQUALS_INTEGRAL_R_DMU_OVER_VOLUME_TO_ONE_THIRD_SATISFIES_QR_OF_PSI_N_EQUALS_N_SQUARED_QR_OF_PSI_1_FOR_THE_LAWFUL_POSITIVE_INTEGER_MODE_FAMILY__HENCE_AT_LEAST_COUNTABLY_MANY_GENUINELY_INEQUIVALENT_PHYSICAL_INITIAL_GEOMETRIES_SURVIVE__THIS_IS_NOT_A_COMPLETE_MODULI_QUOTIENT_PHYSICAL_DATA_OCCUPANCY_EVOLUTION_HISTORY_TOPOLOGY_SCALE_OBSERVATION_MATTER_MASS_OR_PHYSICAL_XMAX_SELECTION__METRIC_KERNEL_ANGULAR_AND_OBSERVATIONAL_INTERFACES_UNCHANGED__LIVE_THEN_THIS_REGISTRY_THEN_CITED_G320_SOURCE__CONFLICT_MEANS_STOP"
+    },
+    {
+      "premise_id": "G319",
+      "term": "ratio_free_noncmc_constraint_descent",
+      "current_status": "EXTERNALLY_ACCEPTED_BOUNDED__PREREGISTERED_AT_5C54D109__87586_PRODUCTION_ASSERTIONS__35059_IMPLEMENTATION_DISTINCT_ASSERTIONS__69_OF_69_HOSTILE_CATCHES__324_EXACT_B_ZERO_GERMS__8_PRODUCTION_PERIODIC_CONTROLS__6_INDEPENDENT_PERIODIC_CONTROLS__ALL_33_SEALED_PAYLOADS_AUTHENTICATED__FOUR_EXTERNAL_REPLAYS_PASS__FIVE_GENERATED_OUTPUTS_BYTE_IDENTICAL__RATIO_FREE_REGULAR_STRATUM_EXACT_ONE_CONSTANT_QUADRATURE__EVERY_SMOOTH_POSITIVE_PERIODIC_PSI_ADMITTED_FOR_SUFFICIENTLY_LARGE_FREE_J0__B_ZERO_COMPATIBILITY_STRATUM_RETAINED_NOT_GLOBALLY_PARAMETERIZED__G318_EXACT_EMBEDDED_SUBFAMILY_AND_POWER_OBSTRUCTIONS_ANSATZ_SCOPED__NO_PHYSICAL_DATA_SELECTION__METRIC_KERNEL_ANGULAR_OBSERVATIONAL_INTERFACES_UNCHANGED",
+      "epistemic_label": "MIXED",
+      "active_use": "ACTIVE_BOUNDED_G312_G315_G316_G317_G318_POSITIVE_SIGN_DEFINITE_FLAT_MARKED_T3_DIAGONAL_TT_ONE_COORDINATE_RATIO_FREE_REGULAR_STRATUM_AND_B_ZERO_COMPATIBILITY_CLASSIFICATION_ONLY",
+      "open_scope": "global B-zero crossing parameterization; sign-changing tau and B branches; nonflat conformal seeds nondiagonal TT tensors and multidimensional dependence; boundaries asymptotics low regularity full evolution and global completion; quotient by conformal-seed representation and spatial diffeomorphism; physical initial or characteristic data; topology population actualization bootstrap scalar magnitude scale source matter mass observations physical Xmax and full UDT extension",
+      "forbidden_regression": "arbitrary positive psi called selected physical data or history; sufficiently large J0 called a physical selector scale source or observational anchor; regular-stratum quadrature called a global B-zero crossing theorem; G318 power obstructions promoted beyond its constant-ratio ansatz; diagnostic torus diagonal one-coordinate slice called the full constraint or solution space; constraint admissibility called evolution stability or actualization; conformal presentation difference called physical inequivalence without invariant quotient; action source matter mass fit observation Xmax or protected work imported; metric kernel angular or observational interface called changed",
+      "controlling_source": "udt_g319_ratio_free_noncmc_constraint_descent_2026-09-01/AUDIT_REPORT.md",
+      "precedence_rule": "G319_EXTERNALLY_ACCEPTS_IN_THE_DECLARED_POSITIVE_SIGN_DEFINITE_FLAT_MARKED_T3_DIAGONAL_TT_ONE_COORDINATE_RATIO_FREE_SLICE_THAT_THE_EXACT_CONSTRAINTS_REDUCE_TO_B_PRIME_EQUALS_3H_TIMES_A_MINUS_B_AND_AB_EQUALS_F_OF_PSI_WITH_A_GLOBAL_FIRST_INTEGRAL_J0_DERIVED_WITHOUT_DIVIDING_BY_B__ON_EACH_NOWHERE_ZERO_B_COMPONENT_EVERY_SMOOTH_POSITIVE_PERIODIC_PSI_ADMITS_SMOOTH_SIGN_DEFINITE_RECONSTRUCTED_CONSTRAINT_DATA_FOR_SUFFICIENTLY_LARGE_FREE_J0__DIRECT_PHYSICAL_CONSTRAINTS_AND_PERIODIC_MEAN_DESCENT_CLOSE__B_ZERO_REQUIRES_F_ZERO_AND_REMAINS_A_COMPATIBILITY_GLUE_STRATUM_WITH_GLOBAL_CROSSINGS_OPEN__G318_EMBEDS_EXACTLY_SO_ITS_POWER_OBSTRUCTIONS_ARE_ANSATZ_SCOPED_AND_ITS_PERIODIC_TIDAL_FAMILY_SURVIVES__NO_PHYSICAL_DATA_HISTORY_TOPOLOGY_POPULATION_SCALAR_SCALE_SOURCE_MATTER_MASS_OBSERVATION_OR_PHYSICAL_XMAX_IS_SELECTED__METRIC_KERNEL_ANGULAR_AND_OBSERVATIONAL_INTERFACES_UNCHANGED__LIVE_THEN_THIS_REGISTRY_THEN_CITED_G319_SOURCE__CONFLICT_MEANS_STOP"
+    },
+    {
+      "premise_id": "G318",
+      "term": "nonconstant_psi_noncmc_branch_classification",
+      "current_status": "EXTERNALLY_ACCEPTED_BOUNDED__PREREGISTERED_AT_B3130170__14043_PRODUCTION_ASSERTIONS__4440_IMPLEMENTATION_DISTINCT_ASSERTIONS__48_OF_48_HOSTILE_CATCHES__27_INDEPENDENT_WEYL_INSTANCES__16_ROW_BRANCH_ATLAS__4_STRICT_CENTER_WITNESSES__ALL_33_SEALED_PAYLOADS_AUTHENTICATED__FOUR_EXTERNAL_REPLAYS_PASS__FIVE_GENERATED_OUTPUTS_BYTE_IDENTICAL__NONCONSTANT_PSI_OBSTRUCTS_UNCHANGED_G317_K_EQUALS_DIAG_TAU_Q_MINUSQ__CONSTANT_RATIO_SEPARABILITY_FORCES_TAU_EQUALS_C_PSI_TO_N_AND_K_EQUALS_N_OVER_N_PLUS_6__CONFORMAL_AND_DIRECT_CONSTRAINTS_GIVE_SAME_NONLINEAR_ODE__N_LESS_OR_EQUAL_MINUS3_LAMBDA_NONNEGATIVE_PERIODIC_POWER_CLASSES_OBSTRUCTED__N_MINUS2_POSITIVE_PERIODIC_TIDAL_BRANCH_EXISTS__NO_PHYSICAL_DATA_SELECTION__METRIC_KERNEL_ANGULAR_OBSERVATIONAL_INTERFACES_UNCHANGED",
+      "epistemic_label": "MIXED",
+      "active_use": "ACTIVE_BOUNDED_G312_G315_G316_G317_POSITIVE_SIGN_DEFINITE_CONSTANT_RATIO_FLAT_MARKED_T3_DIAGONAL_TT_ONE_COORDINATE_NONCONSTANT_PSI_BRANCH_CLASSIFICATION_ONLY",
+      "open_scope": "nonseparable and sign-changing branches; nonflat conformal seeds nondiagonal TT tensors and multidimensional dependence; boundaries asymptotics low regularity full evolution and global completion; physical initial or characteristic data; topology population actualization bootstrap scalar magnitude scale source matter mass observations physical Xmax and full UDT extension",
+      "forbidden_regression": "G317 unchanged form called valid for varying psi; G318 power law or exponent n promoted beyond constant-ratio sign-definite ansatz; n less or equal minus3 obstruction called general non-CMC no-go; local phase-portrait family called global completion selected history or calibrated scale; marked 2pi rescaling called physical ruler; nonzero Weyl called matter or mass; torus flat diagonal TT one-coordinate or separability ansatz promoted to UDT; conditional conformal method called native UDT dynamics; action source matter mass fit observation Xmax or protected work imported; metric kernel angular or observational interface called changed",
+      "controlling_source": "udt_g318_nonconstant_psi_noncmc_branch_classification_2026-09-01/AUDIT_REPORT.md",
+      "precedence_rule": "G318_EXTERNALLY_ACCEPTS_THAT_NONCONSTANT_PSI_OBSTRUCTS_THE_UNCHANGED_G317_PHYSICAL_FORM_INSIDE_THE_DECLARED_POSITIVE_SIGN_DEFINITE_CONSTANT_RATIO_FLAT_MARKED_T3_DIAGONAL_TT_ONE_COORDINATE_FAMILY__VECTOR_CLOSURE_FORCES_TAU_EQUALS_C_PSI_TO_N_AND_K_EQUALS_N_OVER_N_PLUS6_WITH_PERIODIC_MEAN_DESCENT__CONFORMAL_AND_DIRECT_PHYSICAL_CONSTRAINTS_GIVE_THE_SAME_FULL_NONLINEAR_SCALAR_ODE__NONNEGATIVE_LAMBDA_PERIODIC_POWER_BRANCHES_WITH_N_LESS_OR_EQUAL_MINUS3_ARE_OBSTRUCTED_WITH_N_MINUS6_EXCLUDED__THE_N_MINUS2_STRICT_CENTER_CLASS_HAS_POSITIVE_NONCONSTANT_PERIODIC_MEMBERS__DIRECT_ELECTRIC_AND_MAGNETIC_WEYL_RECONSTRUCTION_PROVES_THE_REGISTERED_PERIODIC_FAMILY_IS_TIDAL__PSI_ORBIT_C_D_N_LAMBDA_TT_MEAN_AND_TRANSLATION_KERNEL_REMAIN_FREE_OR_INTERLOCKED__NO_PHYSICAL_DATA_HISTORY_TOPOLOGY_POPULATION_SCALAR_SCALE_SOURCE_MATTER_MASS_OBSERVATION_OR_PHYSICAL_XMAX_IS_SELECTED__METRIC_KERNEL_ANGULAR_AND_OBSERVATIONAL_INTERFACES_UNCHANGED__LIVE_THEN_THIS_REGISTRY_THEN_CITED_G318_SOURCE__CONFLICT_MEANS_STOP"
+    },
+    {
+      "premise_id": "G317",
+      "term": "exact_noncmc_coupled_data_family",
+      "current_status": "EXTERNALLY_ACCEPTED_BOUNDED__NO_SCIENTIFIC_DEFECT__PREREGISTERED_AT_C01B9757__1637_PRODUCTION_ASSERTIONS__1191_IMPLEMENTATION_DISTINCT_ASSERTIONS__29_OF_29_HOSTILE_CATCHES__48_FAMILY_INSTANCES__14_ROW_SOLUTION_SPACE_ATLAS__ALL_34_SEALED_PAYLOADS_AUTHENTICATED__FOUR_EXTERNAL_REPLAYS_PASS__FIVE_GENERATED_OUTPUTS_BYTE_IDENTICAL__EXACT_NONCMC_VECTOR_SCALAR_INTERLOCK_UPHELD__LAMBDA_MINUS_Q_SQUARED_ANSATZ_RELATION_UPHELD__ZERO_INITIAL_WEYL_AND_NONZERO_ELECTRIC_WEYL_SUBBRANCHES_UPHELD__NO_PHYSICAL_DATA_SELECTION__METRIC_KERNEL_ANGULAR_OBSERVATIONAL_INTERFACES_UNCHANGED",
+      "epistemic_label": "MIXED",
+      "active_use": "ACTIVE_BOUNDED_G312_G315_G316_CONSTANT_PSI_FLAT_MARKED_T3_DIAGONAL_TT_ONE_COORDINATE_NONCMC_EXACT_FAMILY_CLASSIFICATION_ONLY",
+      "open_scope": "general non-CMC construction with nonconstant conformal factor nonflat or nondiagonal seeds and general coordinate dependence; boundaries asymptotics low regularity and global completion; physical initial or characteristic data; topology population actualization bootstrap scalar magnitude scale source matter mass observations physical Xmax and full UDT extension",
+      "forbidden_regression": "Lambda equals minus q squared called a global UDT sign theorem or conflict with the bounded positive static G304 branch; torus constant psi diagonal TT or one-coordinate ansatz promoted to UDT; arbitrary smooth tau called physically selected history; q magnitude sign p or translation kernel called calibrated physical data; zero initial Weyl called global flat completion without conditional uniqueness; nonzero electric Weyl called matter or mass; bounded family called full non-CMC solution-space theorem; conformal method called native UDT dynamics; action source matter mass fit observation Xmax or protected work imported; metric kernel angular or observational interface called changed",
+      "controlling_source": "udt_g317_exact_noncmc_coupled_data_family_2026-09-01/AUDIT_REPORT.md",
+      "precedence_rule": "G317_EXTERNALLY_ACCEPTS_AN_EXACT_GENUINELY_COUPLED_NONCMC_FAMILY_INSIDE_THE_DECLARED_CONSTANT_PSI_FLAT_MARKED_T3_DIAGONAL_TT_ONE_COORDINATE_ANSATZ__PERIODICITY_FORCES_W_PRIME_EQUALS_P6_TIMES_TAU_MINUS_MEAN_TAU_OVER2_MODULO_TRANSLATION_KERNEL__POINTWISE_SCALAR_CLOSURE_FOR_NONCONSTANT_TAU_FORCES_ALPHA_EQUALS_2P6MEAN_TAU_OVER3_AND_LAMBDA_EQUALS_MINUS_Q_SQUARED__PHYSICAL_DATA_ARE_GAMMA_EQUALS_P4DELTA_AND_MIXED_K_EQUALS_DIAG_TAU_Q_MINUSQ_AND_SATISFY_BOTH_DIRECT_CONSTRAINTS__Q_ZERO_HAS_ZERO_INITIAL_WEYL_ONLY_WITH_LOCAL_FLATNESS_CONDITIONAL_ON_LOCAL_UNIQUENESS__Q_NONZERO_HAS_INVARIANT_ELECTRIC_TIDE__ARBITRARY_SMOOTH_PERIODIC_NONCONSTANT_TAU_POSITIVE_P_AND_CONTINUOUS_Q_REMAIN__NO_PHYSICAL_DATA_HISTORY_TOPOLOGY_POPULATION_SCALAR_SCALE_SOURCE_MATTER_MASS_OBSERVATION_OR_PHYSICAL_XMAX_IS_SELECTED__METRIC_KERNEL_ANGULAR_AND_OBSERVATIONAL_INTERFACES_UNCHANGED__LIVE_THEN_THIS_REGISTRY_THEN_CITED_G317_SOURCE__CONFLICT_MEANS_STOP"
+    },
+    {
+      "premise_id": "G316",
+      "term": "lawful_constraint_data_construction",
+      "current_status": "EXTERNALLY_ACCEPTED_BOUNDED__NO_SCIENTIFIC_DEFECT__PREREGISTERED_AT_48803C24__66_PRODUCTION_ASSERTIONS__139_IMPLEMENTATION_DISTINCT_ASSERTIONS__16_OF_16_HOSTILE_CATCHES__12_ROW_DATA_CONSTRUCTION_ATLAS__ALL_31_SEALED_PAYLOADS_AUTHENTICATED__FOUR_EXTERNAL_REPLAYS_PASS__FIVE_GENERATED_OUTPUTS_BYTE_IDENTICAL__CONFORMAL_LICHNEROWICZ_VECTOR_CONSTRUCTION_UPHELD__EXISTENCE_NONSOLVABILITY_AND_CONFORMAL_KILLING_DEGENERACY_UPHELD__NULL_CORNER_BOOST_GAUGE_UPHELD__NO_PHYSICAL_DATA_SELECTION__METRIC_KERNEL_ANGULAR_OBSERVATIONAL_INTERFACES_UNCHANGED",
+      "epistemic_label": "MIXED",
+      "active_use": "ACTIVE_BOUNDED_G312_G315_REGULAR_SMOOTH_METRIC_ONLY_VACUUM_CONFORMAL_CONSTRAINT_DATA_CONSTRUCTION_AND_NULL_CORNER_GAUGE_CLASSIFICATION_ONLY",
+      "open_scope": "global Yamabe non-CMC boundary and asymptotic solvability; full constraint parameterization; physical initial characteristic or boundary data; global existence completeness caustics singularities and boundary evolution; topology population actualization bootstrap scalar magnitude scale source matter mass observations physical Xmax and full UDT extension",
+      "forbidden_regression": "arbitrary conformal seeds called lawful physical data; CMC conformal flatness or topology sign promoted to a UDT premise; psi cross-normalization or null boost promoted to a physical scale; W called unique in the presence of conformal Killing fields; one null sheet called complete characteristic data; bounded examples called a full global theorem or selector; conditional conformal method called native UDT dynamics; action source matter mass fit observation Xmax or protected work imported; metric kernel angular or observational interface called changed",
+      "controlling_source": "udt_g316_lawful_constraint_data_construction_2026-09-01/AUDIT_REPORT.md",
+      "precedence_rule": "G316_EXTERNALLY_ACCEPTS_THAT_THE_ACTIVE_G315_SPACELIKE_CONSTRAINTS_ADMIT_A_CONDITIONAL_CONFORMAL_LICHNEROWICZ_VECTOR_CONSTRUCTION_WITH_EXACT_POWERS_MINUS7_PLUS5_PLUS6__SUPPLIED_SEEDS_ARE_NOT_AUTOMATICALLY_LAWFUL_AND_POSITIVE_PSI_AND_LONGITUDINAL_W_MUST_BE_SOLVED__EXACT_SOLUTION_NONSOLUTION_UNFIXED_CONSTANT_FACTOR_AND_CONFORMAL_KILLING_DEGENERACY_CLASSES_OCCUR__CMC_IS_A_DIAGNOSTIC_SUBCASE_NOT_A_UDT_PREMISE__NULL_CORNER_CROSS_NORMALIZATION_IS_LOCAL_BOOST_GAUGE_WITH_INVARIANT_CROSS_PRODUCTS_NORMAL_BUNDLE_CURL_AND_RIC_ELK_EQUALS_MINUS_LAMBDA__ONE_NULL_SHEET_IS_INCOMPLETE__NO_PHYSICAL_DATA_HISTORY_TOPOLOGY_POPULATION_SCALAR_SCALE_SOURCE_MATTER_MASS_OBSERVATION_OR_PHYSICAL_XMAX_IS_SELECTED__METRIC_KERNEL_ANGULAR_AND_OBSERVATIONAL_INTERFACES_UNCHANGED__LIVE_THEN_THIS_REGISTRY_THEN_CITED_G316_SOURCE__CONFLICT_MEANS_STOP"
+    },
+    {
+      "premise_id": "G315",
+      "term": "conditional_cauchy_characteristic_data_interface",
+      "current_status": "EXTERNALLY_ACCEPTED_DERIVED_CONDITIONAL_BOUNDED__PREREGISTERED_AT_6D26CA34__72_PRODUCTION_ASSERTIONS__89_IMPLEMENTATION_DISTINCT_ASSERTIONS__17_OF_17_HOSTILE_CATCHES__15_ROW_DATA_INTERFACE_ATLAS__ALL_35_SEALED_PAYLOADS_AUTHENTICATED__FOUR_EXTERNAL_REPLAYS_PASS__FIVE_GENERATED_OUTPUTS_BYTE_IDENTICAL__ADM_CONSTRAINTS_AND_MINUS_LAMBDA_EVOLUTION_SIGN_UPHELD__GENERIC_LOCAL_COUNT_IS_FOUR_PHASE_SPACE_FUNCTIONS_OR_TWO_CONFIGURATION_MODES_PLUS_RATES__SAME_NULL_LAMBDA_CANCELLATION_AND_MIXED_NULL_MINUS_LAMBDA_UPHELD__CAUCHY_AND_CHARACTERISTIC_DATA_LAWFUL_BUT_FREELY_SUPPLIED__PAIR_KERNEL_REMAINS_DOWNSTREAM_AND_UNCHANGED",
+      "epistemic_label": "MIXED",
+      "active_use": "ACTIVE_BOUNDED_G312_G313_REGULAR_LOCAL_SMOOTH_METRIC_ONLY_VACUUM_CAUCHY_AND_INTERSECTING_NULL_DATA_INTERFACE_CLASSIFICATION_ONLY",
+      "open_scope": "global constraint solution space and global moduli; physical initial characteristic or boundary data; global existence completeness caustics singularities and boundary evolution; topology population actualization bootstrap scalar magnitude scale source matter mass observations physical Xmax and full UDT extension",
+      "forbidden_regression": "arbitrary seeds called lawful data; lapse shift coordinates or null normalization promoted to physical selection; four phase-space functions called four configuration modes; one null sheet called a complete universe; same-null Lambda cancellation called shear Weyl or Lambda independence; conditional PDE methods called UDT postulates or global completion; pair evaluator called an evolution residual; G315 called a selected history universe scale source matter law or metric kernel angular observational change",
+      "controlling_source": "udt_g315_conditional_cauchy_characteristic_data_interface_2026-09-01/AUDIT_REPORT.md",
+      "precedence_rule": "G315_EXTERNALLY_ACCEPTS_THE_ACTIVE_G312_G313_EQUATION_HAS_A_LAWFUL_CONDITIONAL_DATA_INTERFACE__SPACELIKE_DATA_OBEY_ONE_HAMILTONIAN_AND_THREE_MOMENTUM_CONSTRAINTS__LAPSE_AND_SHIFT_ARE_GAUGE__GENERIC_LOCAL_REMAINDER_IS_FOUR_PHASE_SPACE_FUNCTIONS_OR_TWO_CONFIGURATION_MODES_PLUS_RATES_NOT_A_GLOBAL_MODULI_THEOREM__SAME_NULL_RAYCHAUDHURI_LOSES_DIRECT_LAMBDA_ONLY_BECAUSE_RIC_ELL_ELL_ZERO_WHILE_SHEAR_REMAINS__MIXED_NULL_RIC_ELK_EQUALS_MINUS_LAMBDA__INTERSECTING_NULL_AND_CORNER_DATA_REMAIN_COMPATIBILITY_BOUNDED__DATA_ARE_LAWFUL_BUT_FREELY_SUPPLIED__Bianchi_PROPAGATION_AND_LOCAL_EXISTENCE_ARE_CONDITIONAL_MATHEMATICAL_METHODS__NO_HISTORY_POPULATION_SCALAR_SCALE_SOURCE_MATTER_OBSERVATION_OR_PHYSICAL_XMAX_IS_SELECTED__PAIR_KERNEL_METRIC_ANGULAR_AND_OBSERVATIONAL_INTERFACES_UNCHANGED__LIVE_THEN_THIS_REGISTRY_THEN_CITED_G315_SOURCE__CONFLICT_MEANS_STOP"
+    },
+    {
+      "premise_id": "G178",
+      "term": "completed_pair_kernel_fresh_external_adversarial_review",
+      "current_status": "FRESH_ADVERSARIAL_PASS__PREREGISTERED_AT_561C4268__SEALED_50_FILE_INTAKE_SCOPE_SHA256_152C55AE__TREE_MISSING_ZERO_EXTRA_ZERO_MISMATCH_ZERO__GENERIC_SHIFTED_PAIR_ALGEBRA_INDEPENDENTLY_RECONSTRUCTED__UNIQUE_POSITIVE_M_EQUALS_T_LSIGMA_EQUALS_SQRT_MINUS_DET_HSIGMA_ACCEPTED_CONDITIONAL_ON_WORKING_CLARIFICATION__NO_RESIDUAL_COMMON_FACTOR_OR_SCALAR_CIRCULARITY__DENSITY_AND_ORIENTED_ONE_FORM_DISTINGUISHED__SHIFT_RETAINED__ORCHESTRA_UPSTREAM__G173_TURNS_PASS__G177_SCAFFOLD_DELETION_ACCEPTED__PAIR_REVERSAL_NOT_DERIVED_BY_SPATIAL_COORDINATE_REVERSAL__NO_SCIENTIFIC_REPAIR_REQUIRED",
+      "epistemic_label": "MIXED",
+      "active_use": "ACTIVE_FRESH_EXTERNAL_CERTIFICATION_OF_G176_G177_BOUNDED_COMPLETED_PAIR_KERNEL_ONLY",
+      "open_scope": "physical observer event and pair-germ population; explicit complete nonspherical timelive micro and mixed ambient realizations beyond supplied pullback; coincidence null degenerate singular cut focal topology-changing and global strata; observer-pair reversal remains controlled separately by G170 G171; non-scalar route frame screen connection Jacobi and holonomy transport; cross-query relation population and global completion; positive dimensionful distance numerical Xmax; observations radiative transfer dynamics action source matter bootstrap mass and signalling",
+      "forbidden_regression": "G178 called canon unconditional native global closure or event germ selector; working clarification called derived from bare metric; external acceptance used to erase conditional premise; spatial-coordinate reversal called observer-pair reversal; orchestra applied after readout; shift erased; arbitrary calibrated controls restored as rival kernels; scaffold deletion globalized beyond scalar antecedents; physical pair c_eff called local signal speed; observations completion Xmax dynamics or source inferred",
+      "controlling_source": "udt_g178_completed_pair_kernel_fresh_adversarial_review_2026-08-19/AUDIT_REPORT.md",
+      "precedence_rule": "G178_FRESH_EXTERNAL_GPT54_REVIEW_VERIFIES_THE_EXACT_SEALED_INTAKE_AND_INDEPENDENTLY_ACCEPTS_G176_G177_WITH_STATED_BOUNDS__THE_WORKING_COMPLETED_PAIR_DUAL_RECIPROCITY_CLARIFICATION_SUPPLIES_ONLY_TL_EQUALS_ONE_AFTER_THE_COMPLETE_PULLBACK_AND_THE_UNIQUE_TAPE_DENSITY_DETERMINANT_ONE_METRIC_AND_PHI_FOLLOW_WITHOUT_HIDDEN_COMMON_FACTOR_OR_REGISTERED_SCAFFOLD__SPATIAL_COORDINATE_REVERSAL_IS_NOT_A_PAIR_REVERSAL_THEOREM__EVENT_GERM_REALIZATION_NONSINGULAR_GLOBAL_EXTENSION_NONSCALAR_TRANSPORT_COMPLETION_XMAX_OBSERVATIONS_AND_DYNAMICS_REMAIN_OPEN__LIVE_THEN_THIS_REGISTRY_THEN_CITED_SOURCE__CONFLICT_MEANS_STOP"
+    }
+  ],
+  "registry_sha256": "2c27fa4b8931672c44b4d778aab0f2a2631c04a5c586358340db1dc763b74f7e",
+  "initial_seal_files_unchanged": 13,
+  "parent_candidate_exposure": "NONE",
+  "scientific_replays": 0
+}

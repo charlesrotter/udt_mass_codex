@@ -1,0 +1,27 @@
+{
+  "files": {
+    "CURRENT_RESEARCH_PROGRAM.md": "ae55b1ee8e7322d1cfb924b90f2c9855ac11485afbbf8a95e46849be78c82a37",
+    "HANDOFF.md": "4b12aa9c0eab88ab4f3d63fc795a044a144cf7aaf9b6b5b49739e413d096ff7d",
+    "INDEX.md": "08772e3e2626ae90cc0e8d759d7a2e41aa918adf450cd649cbd425f7df8c4ee0",
+    "LIVE.md": "765831235a23463e69eac0ed6c891f8d3e1efb322fb06a23dd9ab5f3dcd458ab",
+    "MEMORY.md": "452d018172abe53d850fb9b9b1d4471604d5941dbc902619d559c6fc94d6cc48",
+    "UDT_CONSOLIDATED_RESEARCH_ACCOUNT.md": "d767d3f67a5abcf1674627ce469ac6fee3994b1bf8b144df74ada39df9813490",
+    "UDT_RESEARCH_ROADMAP.md": "7fbf16da5200f61a3cb311f077f4ef0d781eb658903f1822f4c65825fbe8e586",
+    "udt_accepted_work_consolidation_2026-09-12/CLOSEOUT.md": "c28d9add3f0bc9e81722bd3a6e432904b9b1e3b107f07a5337cabb0b6a94bf1a",
+    "udt_accepted_work_consolidation_2026-09-12/DOCUMENTARY_CORRECTION.md": "fac1bea77db26bbfa8a980833824a262866d568488ad34d2ede4cdb0788d51ed",
+    "udt_accepted_work_consolidation_2026-09-12/FAMILY_MAP.tsv": "92e1f4dd7050b1e801961d9c10be85486600e997d892dc6ee957b4eaca028ef9",
+    "udt_accepted_work_consolidation_2026-09-12/GAP_AND_REUSE_MAP.tsv": "750026d5043af2c825232522ebc6d237a260f74e3aa7e6349c9e6af9f39f8843",
+    "udt_accepted_work_consolidation_2026-09-12/README.md": "329e687c76ec4ac585afda5bd6e6f53ee96fecfe4e49d15403abd039d1e027e0",
+    "udt_accepted_work_consolidation_2026-09-12/REGISTRY_COVERAGE.tsv": "4c91838974091bcd860760768c40d6ac2f141259e85a0114004aeb8ef1a50671",
+    "udt_accepted_work_consolidation_2026-09-12/SESSION_RECORD.md": "27d4b895fde30046d74e4605ee3bf3a4ffac265435799a7679d2c0caea6c919c",
+    "udt_accepted_work_consolidation_2026-09-12/SOURCE_PINS.json": "351c640a242ca5e41683c5d4240177d8f0e485e7d16b0d53bf3f38185448e7c5",
+    "udt_accepted_work_consolidation_2026-09-12/SOURCE_READ_LEDGER.tsv": "f686a4d28f2e483aae3d2b82005eccd9cd60f07f800b0f7eb0930a0816921733",
+    "udt_accepted_work_consolidation_2026-09-12/WORK_ORDER.md": "01924e2e359a3db7c7fda9e6b95e917897753e8e614cfd39a5c9a8bc68814464",
+    "udt_accepted_work_consolidation_2026-09-12/build_coverage.py": "b22d4afe86f7563b900481fa19eedbba0612778213dfce46d1d47e5664fe1062",
+    "udt_accepted_work_consolidation_2026-09-12/check_consolidation.py": "3abb7860a921021efd346c9c7cab5fa4eb2320a5ebe7249d26eacd03f7e68f4b"
+  },
+  "frozen_utc": "2026-09-12T16:53:43.360324+00:00",
+  "initial_freeze_sha256": "a4e2a907edda267d13169e0baf1c5a1b33b0100962b34a22ccefc0ee634334b1",
+  "single_correction_cycle": "D1--D3; no scientific source changes",
+  "stage": "GROUPED_DOCUMENTARY_CORRECTION_FOR_FINAL_FIDELITY"
+}

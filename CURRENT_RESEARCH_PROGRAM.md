@@ -100,7 +100,7 @@ G383--G394: original curvature recipe, HB/BI and nonlinear/localized geometry.
 G395--G401: conditional response/correspondence; G402--G405: null-clock/curvature/kernel expansion.
 G406--G410: conditional measurement mathematics and G409=CO2 design control.
 G411=LC2: published-summary benchmark; G412=FW2: failed finite procedure, not a metric constraint.
-Whole original reviews/caveats control; roadmap: `UDT_RESEARCH_ROADMAP.md`.
+Whole original reviews/caveats control; roadmap: `UDT_RESEARCH_ROADMAP.md`; consolidated gains/gates: `UDT_CONSOLIDATED_RESEARCH_ACCOUNT.md`.
 
 Geometric theory/calibration and possible emergence remain parallel, neither prerequisite.
 Explicit justified transfer/instrument assumptions can support conditional measurements;

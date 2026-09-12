@@ -1,0 +1,6 @@
+Traceback (most recent call last):
+  File "/home/udt-admin/udt_mass_codex/udt_accepted_work_consolidation_2026-09-12/review/direct_correspondence.py", line 58, in <module>
+    validate_census(coverage,families)
+  File "/home/udt-admin/udt_mass_codex/udt_accepted_work_consolidation_2026-09-12/review/direct_correspondence.py", line 55, in validate_census
+    assert all(new[k]['family_topic']==f['topic'] for k in members)
+AssertionError

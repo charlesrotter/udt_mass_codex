@@ -1,0 +1,156 @@
+diff --git a/CURRENT_RESEARCH_PROGRAM.md b/CURRENT_RESEARCH_PROGRAM.md
+index 807d13e8..0aacf215 100644
+--- a/CURRENT_RESEARCH_PROGRAM.md
++++ b/CURRENT_RESEARCH_PROGRAM.md
+@@ -100,7 +100,7 @@ G383--G394: original curvature recipe, HB/BI and nonlinear/localized geometry.
+ G395--G401: conditional response/correspondence; G402--G405: null-clock/curvature/kernel expansion.
+ G406--G410: conditional measurement mathematics and G409=CO2 design control.
+ G411=LC2: published-summary benchmark; G412=FW2: failed finite procedure, not a metric constraint.
+-Whole original reviews/caveats control; roadmap: `UDT_RESEARCH_ROADMAP.md`.
++Whole original reviews/caveats control; roadmap: `UDT_RESEARCH_ROADMAP.md`; consolidated gains/gates: `UDT_CONSOLIDATED_RESEARCH_ACCOUNT.md`.
+ 
+ Geometric theory/calibration and possible emergence remain parallel, neither prerequisite.
+ Explicit justified transfer/instrument assumptions can support conditional measurements;
+diff --git a/HANDOFF.md b/HANDOFF.md
+index cdb3e73f..0019760b 100644
+--- a/HANDOFF.md
++++ b/HANDOFF.md
+@@ -53,6 +53,7 @@ G383--G394: original recipe, HB/BI, nonlinear/localized geometry; G395--G401: re
+ G402--G405: null-clock/curvature/kernel expansion; G406--G410: conditional measurement/design math.
+ G409=CO2 design, G411=LC2 published benchmark, G412=FW2 finite procedure retain distinct categories.
+ Original365 rows/evidence remain unchanged; acceptance/checks: INDEX.
++Consolidated gains/gates: `UDT_CONSOLIDATED_RESEARCH_ACCOUNT.md`; CWA1 review: roadmap.
+ 
+ Optional source branch PAUSED; automatic Hopfion-stabilization mechanism is PAUSED, no rescue.
+ GOCE PARKED, eligibility UNRESOLVED/OPEN, enquiry UNSENT—not rejected or awaiting a reply.
+diff --git a/INDEX.md b/INDEX.md
+index b7d1ff22..c9329620 100644
+--- a/INDEX.md
++++ b/INDEX.md
+@@ -2,7 +2,7 @@
+ 
+ G383--G412 banking COMPLETE; G413/G414 banked; exact scopes/reviews below.
+ Roadmap: `UDT_RESEARCH_ROADMAP.md`; G414: `udt_ti2_banking_2026-09-11/BANKING_RECORD.md`; TI3 reviewed/UNPROMOTED: `udt_two_shape_profile_dependence_2026-09-11/DECISION_BRIEF.md`.
+-ZDR1 reviewed/UNPROMOTED: `udt_redshift_distance_readiness_2026-09-12/DECISION_BRIEF.md`; OB1/OB2: roadmap.
++CWA1 consolidation: `UDT_CONSOLIDATED_RESEARCH_ACCOUNT.md`; reviews/ZDR1/OB1/OB2: roadmap.
+ Backlog: `udt_reviewed_backlog_banking_2026-09-10/BANKING_RECORD.md`; exact claims/dispositions/checks there.
+ The exact 397-row `CURRENT_SCIENTIFIC_PREMISES.tsv` owns grades, not these pointers.
+ GR is FILTER ONLY, not a response-law input; Local Metric Sufficiency remains owner-provisional.
+diff --git a/LIVE.md b/LIVE.md
+index e100270a..bcb04adb 100644
+--- a/LIVE.md
++++ b/LIVE.md
+@@ -65,7 +65,7 @@ G402--G405 cover null-clock integrability, curvature information and exact metri
+ G406--G410 cover conditional measurement/design mathematics; G409=CO2 is a design control.
+ G411=LC2 is one published-summary benchmark; G412=FW2 is one failed finite procedure.
+ NE1: exact polarized profile decay with cumulative marked-rate/tidal departure; no genericity/stability.
+-Fixed through-G352 manuscript remains an earlier edition; checks/reviews: INDEX.
++Fixed through-G352 manuscript unchanged. Consolidated gains/gates: `UDT_CONSOLIDATED_RESEARCH_ACCOUNT.md`; CWA1 review: INDEX.
+ 
+ ### Distinctions for the direction discussion
+ 
+diff --git a/MEMORY.md b/MEMORY.md
+index e9f6460a..7d975a97 100644
+--- a/MEMORY.md
++++ b/MEMORY.md
+@@ -46,7 +46,7 @@ Fixed manuscript/coverage is the through-G352 edition, not the current frontier.
+ Session transition: `HANDOFF.md`.
+ 
+ Banking through G382 is complete; G312 membership unclosed, G352 physical identification OPEN.
+-Roadmap closeouts record bank/hold/control dispositions; no automatic successor.
++Consolidated gains/gates: `UDT_CONSOLIDATED_RESEARCH_ACCOUNT.md`; roadmap owns dispositions; no automatic successor.
+ Stop for discussion; new work requires checks, fresh separate-context review and bounded same-premise repair.
+ 
+ Backup completeness/pre-reboot unsaved state remain UNVERIFIED; ScratchDisk archive-only.
+diff --git a/UDT_RESEARCH_ROADMAP.md b/UDT_RESEARCH_ROADMAP.md
+index 61ff56f4..b2a3f191 100644
+--- a/UDT_RESEARCH_ROADMAP.md
++++ b/UDT_RESEARCH_ROADMAP.md
+@@ -1,10 +1,12 @@
+ # UDT research roadmap — geometry, dynamics and physical connection
+ 
+-Updated: 2026-09-11. Charles Rotter requested the whole plan on 2026-09-09;
++Updated: 2026-09-12. Charles Rotter requested the whole plan on 2026-09-09;
+ its original baseline was `d0fe8b3e5f95c3963dc8702bb4a31485678bd1e3`, branch `grok`.
+-Earlier campaigns, G414 banking and TI3 are COMPLETE; TI3 is reviewed conditional UNPROMOTED.
++Earlier campaigns and banking through G414 are COMPLETE; TI3/OB1/ZDR1 remain reviewed conditional UNPROMOTED.
+ Current operational handoff: `HANDOFF.md`; the maintained checkpoint below records the reviewed
+-ER1 expansion, banking through G414 and the TI3 return. No successor beyond TI3 is authorized.
++ER1 expansion, banking, nonlinear and measurement returns, and the CWA1 consolidation.
++CWA1's authorized documentation scope and final review/closeout are recorded below.
++No successor research campaign is authorized.
+ This is a maintained direction document, not a premise, theorem, promotion
+ or replacement for LIVE, the exact registry, or reviewed scientific sources.
+ 
+@@ -37,9 +39,12 @@ physical premise is necessary. Current authority:
+ Initial configurations, calibration parameters, physical laws and history
+ selection are different kinds of input. A useful theory may constrain
+ evolution without selecting every initial datum or one unique universe.
+-Reconstructing a quantity from a supplied metric is not independently supplied
+-content and geometry evolving together. A mathematical current or stable
+-configuration is not automatically physical content.
++Reconstructing a quantity from a supplied metric and jointly evolving independently
++supplied content are different accomplishments. G372/G373 already establish the
++latter locally in their restricted analytic OPTIONAL UNADOPTED source branch;
++that branch remains PAUSED. A mathematical current or stable configuration is not
++automatically physical content. The [consolidated account](UDT_CONSOLIDATED_RESEARCH_ACCOUNT.md)
++separates these gains from the named remaining response, assembly and physical gates.
+ 
+ ## Four connected priorities
+ 
+@@ -65,7 +70,7 @@ expansion/curvature histories, the effect of inhomogeneities, robustness under
+ legitimate initial data and necessary global assumptions. Do not fit a desired
+ history or turn a free constant into a derived scale.
+ 
+-The reviewed UNPROMOTED NE1 ripple result is a foothold: within its supplied
++The conditionally banked G394=NE1 ripple result is a foothold: within its supplied
+ polarized family and conditional equation, a fading profile need not imply
+ recovery of the unperturbed marked area-rate/tidal geometry. It is not generic
+ behavior, stability or a cosmological prediction. Its full source and review
+@@ -255,6 +260,46 @@ Do not replace this checkpoint with dated status
+ variants or infer authority from a planned row. A proposed deviation must state its reason and
+ authorization. A coverage row is not a completeness theorem or a scientific premise.
+ 
++CWA1 adds a reuse check to this same checkpoint. Before proposing new work, consult
++`UDT_CONSOLIDATED_RESEARCH_ACCOUNT.md` and
++`udt_accepted_work_consolidation_2026-09-12/GAP_AND_REUSE_MAP.tsv` after startup orientation.
++Name the nearest accepted answer, the exact unresolved difference, current authority,
++dependencies and retained/released restrictions. A repeated example is useful only
++when it resolves that difference or a changed source invalidates the earlier answer.
++At closeout update the affected gate and bank/hold/control disposition here; preserve
++original evidence. These are continuation rules, not scientific premises or permission.
++
++### CWA1 consolidation checkpoint — 2026-09-12
++
++Charles authorized comprehensive accepted-work consolidation without a time limit.
++The complete initial account and maps were frozen before direct review. One fresh
++separate context first reconstructed the source arguments and a supplement before
++seeing the account; its included direct review and bounded correction/final fidelity
++are recorded in `udt_accepted_work_consolidation_2026-09-12/review/`.
++Current completion is owned by that package's CLOSEOUT.md; draft/review history remains.
++
++The account covers397 current registry entries in22 families and names13 continuation
++jobs. It restores G178's later certification, G322/G324 maximal-development gains,
++NE1's exact positive-time family, G373's optional joint analytic development, and
++RF1's removal of the unrealizable-array extension hurdle. Coverage distinguishes
++direct source review, accepted-synthesis reuse and registry-only trace; it is not397
++new proofs. Existing scientific grades, physical premises, canon, fixed through-G352
++manuscript and protected work remain unchanged.
++
++Recommended next discussion: identify ONE precise unexamined implication before
++proposing another campaign, with the accepted commitment, exact earlier stopping
++argument and substantive difference. Native response after RF1 is a direction;
++relisting its remaining hypotheses is not a new question. Reuse G301/G310--G312,
++ND1/ND2, QC1/QC2, GL1/GL2 and RF1, preserving GR FILTER ONLY. If no distinct implication
++is identified, return the existing choices for discussion and start no campaign.
++Do not repeat quadratic-response nonselection or demand unique-universe selection. Geometric
++expansion remains available: choose a genuinely new restriction/reach target beyond
++TI3, with complete conditional data and its own work order. Neither successor is
++authorized by this checkpoint. TI3/OB1/ZDR1 and OB2 retain their present unpromoted
++scientific/documentary scopes; no promotion occurs in CWA1.
++
++### Existing expansion and observation returns
++
+ | Line/stage | Current placement | Evidence or gate |
+ |---|---|---|
+ | Exact metric/kernel, stages1–2 | ER1 COMPLETE, reviewed; G405 conditionally banked at exact scope | `udt_exact_metric_kernel_expansion_2026-09-10/DECISION_BRIEF.md` and `udt_exact_metric_kernel_expansion_2026-09-10/review/REVIEW.md`: variable lapse/rest form/time-live shift, exact rotation interaction; supplied configuration class only |

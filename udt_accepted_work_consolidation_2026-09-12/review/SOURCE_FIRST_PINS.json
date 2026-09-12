@@ -1,0 +1,467 @@
+{
+  "kind": "documentary correspondence only; not source scientific replay",
+  "utc": "2026-09-12T16:16:51.759419+00:00",
+  "python": "3.10.12 (main, Aug 31 2026, 10:18:17) [GCC 11.4.0]",
+  "assigned_baseline": "ab6033469c37f63a0f3aa6527804b7e3cd2f5be6",
+  "actual_head": "ab6033469c37f63a0f3aa6527804b7e3cd2f5be6",
+  "sources": [
+    {
+      "path": "udt_gr_filter_reconciliation_2026-09-09/AUTHORITY_RECORD.md",
+      "sha256": "80daa0be6d3e1c0ac1b734fea089c4eb487f05bc1e1fbb2fabd69322ca89f28c",
+      "read_depth": "full current authority/adoption"
+    },
+    {
+      "path": "startup_surface_g310_universal_reciprocity_refresh_2026-08-31/ADOPTION_RECORD.md",
+      "sha256": "4eb7d0a1130dcff997bc5180f420b633e2dcbbb5072d098997ba3672b38d8ab5",
+      "read_depth": "full current authority/adoption"
+    },
+    {
+      "path": "udt_g301_scale_free_quiet_regular_causal_principal_classification_2026-08-30/AUDIT_REPORT.md",
+      "sha256": "f2197ee7a23a88017a9ac970f9a187a13113cf0bbcc1dcbd493588e9c53a1c5f",
+      "read_depth": "full audit report; original executable suites not repeated"
+    },
+    {
+      "path": "udt_g301_scale_free_quiet_regular_causal_principal_classification_2026-08-30/EXACT_DERIVATION.md",
+      "sha256": "633b907b5384aa63d61d49db067dd4e608e6abd3bf3571e4267f91e5c74da8fb",
+      "read_depth": "full argument/source prose"
+    },
+    {
+      "path": "udt_g310_differential_dual_reciprocity_tracefree_ownership_2026-08-31/AUDIT_REPORT.md",
+      "sha256": "e4adabc1e862423cc68297305ed51903107feac135497d33f26f230f6a192fe6",
+      "read_depth": "full audit report; original executable suites not repeated"
+    },
+    {
+      "path": "udt_g310_differential_dual_reciprocity_tracefree_ownership_2026-08-31/EXACT_DERIVATION.md",
+      "sha256": "a417b3cfa1cc6136429a14d3b330c1b8c25c73c9e946d6b6454d6ffae72c25a0",
+      "read_depth": "full argument/source prose"
+    },
+    {
+      "path": "udt_g311_universal_reciprocity_full_covariant_response_2026-09-01/AUDIT_REPORT.md",
+      "sha256": "a411de5e2e40982c4f9c8107bd6d3a598dd55056924d4bc3d39d93f8db89e578",
+      "read_depth": "full audit report; original executable suites not repeated"
+    },
+    {
+      "path": "udt_g311_universal_reciprocity_full_covariant_response_2026-09-01/EXACT_DERIVATION.md",
+      "sha256": "4fd4ca84d353018c02e32d49cf261de3472b3fafd74b0f268b0960653bdfd307",
+      "read_depth": "full argument/source prose"
+    },
+    {
+      "path": "udt_g312_quiet_gr_response_constitution_discriminator_2026-09-01/AUDIT_REPORT.md",
+      "sha256": "c8f9e5547c13067282d37bfb51db78d13bbdc06b48ef50f8f3f498e196abcb57",
+      "read_depth": "full audit report; original executable suites not repeated"
+    },
+    {
+      "path": "udt_g312_quiet_gr_response_constitution_discriminator_2026-09-01/EXACT_DERIVATION.md",
+      "sha256": "90ae2841153754087e64ba14d0a61c408d0b5767b5c8ed9f558da0b49ab30ea4",
+      "read_depth": "full argument/source prose"
+    },
+    {
+      "path": "udt_g313_tracefree_ricci_solution_space_bootstrap_map_2026-09-01/AUDIT_REPORT.md",
+      "sha256": "b7df75cee891ed23dcf4796aba0a3d25e101ee89e4c1add95c8ef842987e418e",
+      "read_depth": "full audit report; original executable suites not repeated"
+    },
+    {
+      "path": "udt_g313_tracefree_ricci_solution_space_bootstrap_map_2026-09-01/EXACT_DERIVATION.md",
+      "sha256": "7bf8dd3b081ff0d37ee23c8ea462abc451f9f4a3510283ea5e9ef87dd042b6bf",
+      "read_depth": "full argument/source prose"
+    },
+    {
+      "path": "udt_g314_global_admissibility_actualization_type_classification_2026-09-01/AUDIT_REPORT.md",
+      "sha256": "46984bf5b339332e4799c0069951a97211c1e33cf94d0061fcbbd1419231c53a",
+      "read_depth": "full audit report; original executable suites not repeated"
+    },
+    {
+      "path": "udt_g314_global_admissibility_actualization_type_classification_2026-09-01/EXACT_DERIVATION.md",
+      "sha256": "95b57a31b56434aeb892039ba41f4fd7121c20d21b1565633e485138664dbe0c",
+      "read_depth": "full argument/source prose"
+    },
+    {
+      "path": "udt_g166_primary_metric_ordered_pair_kernel_descent_2026-08-18/AUDIT_REPORT.md",
+      "sha256": "3b7bef3e8027eb95dd9070cf8844bfbbba602d4a7ce30c1772bbc540f9e97bd7",
+      "read_depth": "full controlling audit report; earlier full derivation/reviews not reopened"
+    },
+    {
+      "path": "udt_g176_completed_pair_dual_reciprocity_consolidation_2026-08-19/AUDIT_REPORT.md",
+      "sha256": "c7c96194a8baf3465b2d8c58ff19051ee2937b4b7f7a5d0e8859ad1a26651d84",
+      "read_depth": "full controlling audit report; earlier full derivation/reviews not reopened"
+    },
+    {
+      "path": "udt_g351_source_free_labelwise_carried_measure_conservation_2026-09-05/AUDIT_REPORT.md",
+      "sha256": "9fe05975201708714983e03ca592f75bd40ccb16ea4079b7e4a33c9dfe4b48c1",
+      "read_depth": "full controlling audit report; earlier full derivation/reviews not reopened"
+    },
+    {
+      "path": "udt_g352_clock_rate_carried_measure_readout_2026-09-05/AUDIT_REPORT.md",
+      "sha256": "4f1925a1d11d00d55bea6bf3858cbedf2878e63c8e4e14e5a22211b4e03d9f8f",
+      "read_depth": "full controlling audit report; earlier full derivation/reviews not reopened"
+    },
+    {
+      "path": "udt_native_response_discrimination_2026-09-09/step_01/CANDIDATE.md",
+      "sha256": "5b20cb544d5a1630201be50eb3ee3ce513cf1a4801a278bd5e6f2101fd9bf838",
+      "read_depth": "full argument/source prose"
+    },
+    {
+      "path": "udt_native_response_discrimination_2026-09-09/step_01/review/DIRECT_REVIEW.md",
+      "sha256": "a9f5842dc43fbe4bc9b872e6a22f467a11d127545468aacec117730513c0f3ee",
+      "read_depth": "full controlling substantive review"
+    },
+    {
+      "path": "udt_native_response_discrimination_2026-09-09/step_02/CANDIDATE.md",
+      "sha256": "e926e2f5c96652f0709a1a00f954db15adddc07523e512a318f58e0f1738c73a",
+      "read_depth": "full argument/source prose"
+    },
+    {
+      "path": "udt_native_response_discrimination_2026-09-09/step_02/review/DIRECT_REVIEW.md",
+      "sha256": "f15a41ee535f56d49ee7b58da373824a218d326e2637b71a80e866e5e3702642",
+      "read_depth": "full controlling substantive review"
+    },
+    {
+      "path": "udt_gr_limit_campaign_2026-09-10/step_01/CANDIDATE.md",
+      "sha256": "9a390933b76167cbe13741ef0523cd69b06544c66f3e574d2355b27883e7bff1",
+      "read_depth": "full argument/source prose"
+    },
+    {
+      "path": "udt_gr_limit_campaign_2026-09-10/step_01/review/DIRECT_REVIEW.md",
+      "sha256": "33ab045609dce22c1cc57aa9b739215d4b6a93ef07c5939dc6a82ccc89aa9bde",
+      "read_depth": "full controlling substantive review"
+    },
+    {
+      "path": "udt_gr_limit_campaign_2026-09-10/step_02/CANDIDATE.md",
+      "sha256": "c4d75564b41918b3b833558626adb23bb2a02278a5aaad2c85c865c806934723",
+      "read_depth": "full argument/source prose"
+    },
+    {
+      "path": "udt_gr_limit_campaign_2026-09-10/step_02/review/DIRECT_REVIEW.md",
+      "sha256": "1493eaac5d7331e21bd1e81d33713491814baca9f79b12fe3cb252e4ff1f65d8",
+      "read_depth": "full controlling substantive review"
+    },
+    {
+      "path": "udt_response_foundations_campaign_2026-09-10/CANDIDATE.md",
+      "sha256": "bf3d4eac664ec9d08f5b68c88062025ee1070e558b9974e6c27dd9f341992be2",
+      "read_depth": "full argument/source prose"
+    },
+    {
+      "path": "udt_response_foundations_campaign_2026-09-10/review/DIRECT_REVIEW.md",
+      "sha256": "9ae07cced7db0854a3e0f6fa4fd93c997168c549332f21a621d721ae09b06f1f",
+      "read_depth": "full controlling substantive review"
+    },
+    {
+      "path": "udt_two_shape_nonlinear_interaction_2026-09-11/INITIAL_CANDIDATE.md",
+      "sha256": "d2e4bd56154091e46cc89c9dc3dec227ff3662d11b045309e004b358bb45c85f",
+      "read_depth": "full argument/source prose"
+    },
+    {
+      "path": "udt_two_shape_nonlinear_interaction_2026-09-11/review/REVIEW.md",
+      "sha256": "2adef657ea5f7bb06b9d096d8546933ee50b67ed9554b4a076eca89d296f52f2",
+      "read_depth": "controlling substantive review; TI2 opening155 lines reread after aggregate truncation; TI1 final omitted-check tail partially truncated"
+    },
+    {
+      "path": "udt_two_shape_evolution_2026-09-11/INITIAL_CANDIDATE.md",
+      "sha256": "1d9b24c359636dd212f684b45793f2f02cfa8959df0e8a8dc0c19bcb5c8ae0a9",
+      "read_depth": "full argument/source prose"
+    },
+    {
+      "path": "udt_two_shape_evolution_2026-09-11/review/REVIEW.md",
+      "sha256": "2d4df848a6c5eebcdbe73f4dcc735b8ad8839b8d59a2da6250caae07c7d47e9b",
+      "read_depth": "controlling substantive review; TI2 opening155 lines reread after aggregate truncation; TI1 final omitted-check tail partially truncated"
+    },
+    {
+      "path": "udt_exact_metric_kernel_expansion_2026-09-10/INITIAL_CANDIDATE.md",
+      "sha256": "439bbf545bc11901005bfa96ad154ddab68d3d6a383c358dc787b9eb38584f73",
+      "read_depth": "full argument/source prose"
+    },
+    {
+      "path": "udt_exact_metric_kernel_expansion_2026-09-10/review/REVIEW.md",
+      "sha256": "5359bd687245ab0f5d085b430987bf5b2c08321dd9d6f40b4ee1f753a9e586f7",
+      "read_depth": "controlling substantive review; TI2 opening155 lines reread after aggregate truncation; TI1 final omitted-check tail partially truncated"
+    },
+    {
+      "path": "udt_ti1_banking_2026-09-11/BANKING_RECORD.md",
+      "sha256": "08216184fd508d84e6e6fd263a0499595ed1926dc9b550007a3f0328e970b89e",
+      "read_depth": "full exact acceptance overlay"
+    },
+    {
+      "path": "udt_ti2_banking_2026-09-11/BANKING_RECORD.md",
+      "sha256": "47e89ed7551c7a842fc58504a0e10c1708f70915d1a69eef7fc4a914c062d093",
+      "read_depth": "full exact acceptance overlay"
+    },
+    {
+      "path": "udt_null_clock_depth_integrability_assessment_2026-09-10/INITIAL_CANDIDATE.md",
+      "sha256": "a2769dd02500970475225939f0606ba212bdde6b6a54a3bebdd5023ced1385e1",
+      "read_depth": "full argument/source prose"
+    },
+    {
+      "path": "udt_null_clock_depth_integrability_assessment_2026-09-10/REPAIR.md",
+      "sha256": "38f0bf9512a426e23e76acba8bca71dcef36b0d1e126ce5f45eabbe269b98dc4",
+      "read_depth": "full argument/source prose"
+    },
+    {
+      "path": "udt_null_clock_depth_integrability_assessment_2026-09-10/DIRECT_REVIEW.md",
+      "sha256": "85896a11c6d7a40acf798e05c6ef6cacdd46baad366a33a4335ae594ac6786cd",
+      "read_depth": "full argument/source prose"
+    },
+    {
+      "path": "udt_reviewed_backlog_banking_2026-09-10/BANKING_RECORD.md",
+      "sha256": "654b0b2d734685c42d6a1b31740d545ab9299d17a5d5cc32c57e407b800191f1",
+      "read_depth": "acceptance/dependency/limits prose; aggregate read partly truncated"
+    },
+    {
+      "path": "udt_reviewed_backlog_banking_2026-09-10/BANKED_CLAIMS.json",
+      "sha256": "4b98b1dea6ce9dc0d62f9fa6183c1379aed534989159b45a208dad93fce12c2e",
+      "read_depth": "targeted ND1/ND2/GL1/GL2/RF1/NCI1/ER1 acceptance and source pins; no all-claim read"
+    }
+  ],
+  "accepted_source_pin_matches": [
+    "udt_exact_metric_kernel_expansion_2026-09-10/INITIAL_CANDIDATE.md",
+    "udt_exact_metric_kernel_expansion_2026-09-10/review/REVIEW.md",
+    "udt_gr_limit_campaign_2026-09-10/step_01/CANDIDATE.md",
+    "udt_gr_limit_campaign_2026-09-10/step_01/review/DIRECT_REVIEW.md",
+    "udt_gr_limit_campaign_2026-09-10/step_02/CANDIDATE.md",
+    "udt_gr_limit_campaign_2026-09-10/step_02/review/DIRECT_REVIEW.md",
+    "udt_native_response_discrimination_2026-09-09/step_01/CANDIDATE.md",
+    "udt_native_response_discrimination_2026-09-09/step_01/review/DIRECT_REVIEW.md",
+    "udt_native_response_discrimination_2026-09-09/step_02/CANDIDATE.md",
+    "udt_native_response_discrimination_2026-09-09/step_02/review/DIRECT_REVIEW.md",
+    "udt_null_clock_depth_integrability_assessment_2026-09-10/DIRECT_REVIEW.md",
+    "udt_null_clock_depth_integrability_assessment_2026-09-10/INITIAL_CANDIDATE.md",
+    "udt_null_clock_depth_integrability_assessment_2026-09-10/REPAIR.md",
+    "udt_response_foundations_campaign_2026-09-10/CANDIDATE.md",
+    "udt_response_foundations_campaign_2026-09-10/review/DIRECT_REVIEW.md"
+  ],
+  "registry_count_metadata": 397,
+  "registry_sha256": "2c27fa4b8931672c44b4d778aab0f2a2631c04a5c586358340db1dc763b74f7e",
+  "selected_rows": [
+    {
+      "premise_id": "G414",
+      "term": "two_shape_initial_evolution_completion_and_record_dependence",
+      "current_status": "BANKED_DERIVED_CONDITIONAL__VERIFIED_WITH_CAVEATS__OWNER_AUTHORIZED__NOT_PHYSICAL_ADOPTION__NOT_CANON",
+      "epistemic_label": "MIXED",
+      "active_use": "TI2; ENTIRE frozen INITIAL_CANDIDATE and controlling substantive/final reviews. Supplied Ric=0, full compact analytic split T3 gamma=I,K=-gamma_T/2 data and marked Gaussian U=partial_T of G413. s=-2/3+c,p=A cosX,r=B cos(X+theta),d=p^2+r^2,W=p r_X-r p_X=-AB sin(theta),kappa=(d-s^2)/(2s); primary |A|,|B|<1/4,|c|<1/6, supplied periods,T0=1,orientation/first-dual convention. Full metric three-jet with inverse/connection/volume/spatial-Ricci variations yields P=-32kappa W and U(P)=32W-16kappa W(5d/s+11s). For nonaligned primary data L=U(P)/P=11s/2+5d/(2s)+2s/(s^2-d), matched L0(s)=11s/2+2/s, L-L0=d/(2s)[5+4/(s^2-d)]<0 and L<L0<0; S=U(P)-L0P=8dW/s^2(5s^2+4-5d). Analytic actual developments imply datum-dependent short forward decline of |P|, nonvanishing, and controlled uniform-X local Taylor remainder. Polarized zero/one/proportional controls retain P=0; theta+pi preserves d and flips P,U(P),S. Restricted analytic c(epsilon)=O(epsilon^2) families: matched S=112epsilon^4 d1W1+O(epsilon^6); original-s0 reference has epsilon^4 W1(112d1-32c2/3)-epsilon^5(32c3W1/3)+O(epsilon^6), uniform on declared compact analytic parameter sets. Equal-quadrature c=(21/2)a^2epsilon^2 cancels original-background fourth order, not matched correction. At separately justified outside-box p=s cosX,r=s sinX, full constraints and individual CK/Bianchi development give initial P=0,U(P)=32s^2>0, hence nonzero P for sufficiently small forward time. In the specified background, background-times-second-order curvature-rate supplies half the leading quadratic rate missed by first-order curvature/rate products alone. Six common original density records q_v=gamma(v,v) recover rate via SECOND-total-order derivatives only with harmonic prior/flat-slice/equation/marking; broader marked-Gaussian curvature-rate recipe has THIRD-order sufficiency. Normalized pair-germ fields alone remain insufficient; whole smooth density fields contain their derivatives.",
+      "open_scope": "G312 GR FILTER ONLY, native membership unclosed; supplied Ric=0 not native UDT adoption. G176 WORKING; G166 complete native assembly/history/pair population and physical identification OPEN. Rate follows supplied marked U, not arbitrary-observer invariant; P orientation sign conventional, L unchanged on reversal. L0 is scalar-rate reference, not fabricated exact metric or later constant law; no ratio across P=0 or uniform duration as amplitudes vanish. Homogeneous analytic completion and compact-parameter remainder limits remain; no arbitrary-completion or broader-profile census. Outside-box cancellation separately scoped and realized, not an extrapolated primary-domain ratio. Record sufficiency not minimal acquisition, arbitrary lapse/shift inverse theorem, native instrument or population. No general failure of linearization, energy transfer, physical coupling/force/particle, full finite-time trajectory, global decay/stability, genericity, uniqueness, selected physical shape/scale, native source/action/carrier or canon. c_E remains calibration.",
+      "forbidden_regression": "Supplied conditional equation called native selection or physical adoption; diagnostic decline called global stability or energy exchange; outside-box control silently included in primary ratio domain; completion/reference choices erased; second-order harmonic record recipe called general first-jet recovery; whole fields said to lose derivatives solely through omitted columns; controlled expansions generalized to unbounded completions; candidate called wholly pre-review-exposure independent, different-model reviewed or formally proved; source/failure history altered or count/checksum called scientific truth.",
+      "controlling_source": "udt_ti2_banking_2026-09-11/BANKING_RECORD.md",
+      "precedence_rule": "G414 accepts TI2 only at ENTIRE original candidate/review scope. Required G413,G166,G176,G179,G180,G182,G216,G312 retain their own premises; individual outside-box development proof remains required. Initial raw author and independently sealed ADM calculations predate cross-exposure, but whole written candidate froze afterward; reviewer coefficient/phase contributions and parent confirmation disclosed. No post-freeze scientific repair. Original UNPROMOTED headers are historical under Charles-authorized banking overlay. Fresh banking review is source-exposed fidelity/integration, not blind scientific reproof. Runtime model/version UNATTESTED. LIVE then exact registry then this record/full immutable sources; conflict means STOP."
+    },
+    {
+      "premise_id": "G413",
+      "term": "two_shape_analytic_curvature_and_retained_density_distinction",
+      "current_status": "BANKED_DERIVED_CONDITIONAL__VERIFIED_WITH_CAVEATS__OWNER_AUTHORIZED__NOT_PHYSICAL_ADOPTION__NOT_CANON",
+      "epistemic_label": "MIXED",
+      "active_use": "TI1; ENTIRE INITIAL_CANDIDATE and controlling reviews. Supplied Ric=0 and analytic compact split T3 data gamma=I, K=-gamma_T/2, s=-2/3+c, p=A cosX, r=B cos(X+theta), d=p^2+r^2, kappa=(d-s^2)/(2s), K=diag-block(kappa,s I2-[[p,r],[r,-p]]), K_XA=0; fixed positive transverse periods, X-period2pi,T0=1. In |A|,|B|<1/4, |c|<1/6, kappa>1/8. Full constraints, jointly analytic local developments, compact gluing and Bianchi propagation included. Initial oriented Weyl P=C_abcd(*C)^abcd=32 kappa A B sin(theta); AB sin(theta)!=0 yields nonvanishing throughout initial slice and datum-dependent local persistence, unlike locally polarized one-component/aligned controls. Exact completion dependence and restricted analytic c(epsilon)=O(epsilon^2) tangent-family coefficient J=P/16=(2/3)epsilon^2 ab sin(theta)+O(epsilon^4), uniform X. On those actual Gaussian developments all normalized directional pair-germ fields H=diag(-1,1). Six commonly marked original density fields m_v, v=ei,ei+ej, recover initial P from q_v=m_v^2 via T and TX derivatives, known initial flat gamma, orientation and supplied Ric=0. TX are SECOND record derivatives; whole smooth density fields already contain them.",
+      "open_scope": "Physical identification remains OPEN; G166 native assembly/history/pair population OPEN; G176 WORKING; G312 GR FILTER ONLY and native response-class membership unclosed. Supplied Ric=0 is conditional, not native UDT adoption. Full conventions, analytic/local and calibration premises remain. Only declared homogeneous completion family classified; outside-safe-box nonaligned cancellation is initial-only. Leading mixed coefficient uses first-order curvature pieces; no general linearization failure, later generated coupling, energy transfer, amplification, long-time stability, genericity, uniqueness, global reach, selected shape/scale, instrument, source/matter law or canon. Time-live tape changes fixed-tape clock; equal normalized germs do not mean equal full tapes. Separately omitted derivatives are not information loss if whole smooth fields remain.",
+      "forbidden_regression": "Conditional mathematical banking called physical adoption, native equation derivation or canon; initial mixed curvature called later generated coupling; general completions or full time evolution inferred from restricted local statement; second record derivatives called first-jet-only curvature recovery; whole smooth fields said to lose derivatives merely because those are not separately stored; orientation sign called invariant without convention; preserved failures/history erased; checksums or check counts called proof or runtime model attestation.",
+      "controlling_source": "udt_ti1_banking_2026-09-11/BANKING_RECORD.md",
+      "precedence_rule": "G413 accepts BOTH TI1 survivors only at ENTIRE frozen source/review scope. Required IDs G166,G176,G179,G180,G182,G216,G312,G327,G388,G389; G327 definition and G388/G389 reviewed-method interfaces do not replace direct TI1 proof. G324 background credit; G394/G405 method/control credit, rederived TI1 joins. Original source UNPROMOTED headers are historical under this authorized acceptance overlay. Fresh banking review is source-exposed fidelity/integration, not blind reproof; runtime model/version UNATTESTED. LIVE then exact registry then this banking record and immutable original candidate/reviews; conflict means STOP."
+    },
+    {
+      "premise_id": "G395",
+      "term": "static_spherical_response_discrimination",
+      "current_status": "BANKED_DERIVED_CONDITIONAL__VERIFIED_WITH_CAVEATS__OWNER_AUTHORIZED__NOT_PHYSICAL_ADOPTION__NOT_CANON",
+      "epistemic_label": "MIXED",
+      "active_use": "ND1; ENTIRE frozen statement and controlling reviews/repairs. On a connected open I in (0,infinity), f in C2(I), f>0, g=-f dt2+f^-1 dr2+r2 dOmega2, Q=TF_g(Ric g^-1 Ric)=(R/2)S. Q=0 iff f belongs to E:1+a r2+b/r or Z:1+b/r+d/r2, with no C2 interior branch switching. The declared C_ang=0 filter reduces Q-zero metrics exactly to E. Radial Ricci pair balance is blind; angular Ricci pair balance detects d!=0, but every Q contraction vanishes on Z. HYPOTHESES: complete one-function four-dimensional static spherical chart; positive radius and lapse; connected interval; C2 regularity; specified unadopted Q and explicit geometric filter",
+      "open_scope": "Physical identification remains OPEN; G166 native assembly is OPEN; G176 remains WORKING; G312 GR is FILTER ONLY and response-class membership is unclosed. No physical metric/equation/observer/population/history/scale selection or canon follows. not a general two-function/nonspherical/time-live metric classification; filter is not an adopted universal law and does not select S versus Q on E; no source/charge/content interpretation of d; no dynamics, stability, physical response selection or selected a/b/scale",
+      "forbidden_regression": "Conditional mathematical or design/benchmark scope called physical adoption, empirical certification or canon; supplied data or optional equation called derived native UDT; old failures, excluded false passes or LOST evidence erased; review/check counts or checksums called proof; source credit or reused methods called independent confirmation; configured model called runtime-attested or different-model independence inferred.",
+      "controlling_source": "udt_reviewed_backlog_banking_2026-09-10/BANKING_RECORD.md",
+      "precedence_rule": "G395 accepts only ND1 at its exact frozen scope; required registry IDs: G260,G311,G312; BANKED_CLAIMS.json distinguishes required premises from methods/controls/source credit. ENTIRE original candidate, review, repairs, exclusions and discovery history remain controlling. Fresh separate-context banking fidelity is not blind reproof; runtime model/version UNATTESTED; different-model/human/formal axes UNTESTED. LIVE then exact registry then banking record and immutable sources; conflict means STOP."
+    },
+    {
+      "premise_id": "G396",
+      "term": "nonlinear_response_tangent_integrability",
+      "current_status": "BANKED_DERIVED_CONDITIONAL__VERIFIED_WITH_CAVEATS__OWNER_AUTHORIZED__NOT_PHYSICAL_ADOPTION__NOT_CANON",
+      "epistemic_label": "MIXED",
+      "active_use": "ND2; ENTIRE frozen statement and controlling reviews/repairs. At positive f0=1+b0/r on fixed nontrivial compact K=[r-,r+] with 0<r-<r+<infinity, exact two-sided C1-in-C2 Q-solution velocities equal span{r2,r^-1} UNION span{r^-1,r^-2}; S velocities and exact/linear angular-filter intersections equal the first plane. For alpha*delta!=0, alpha*r2+delta/r2 is nonintegrable despite DQ=0; mixed Q leading coefficient is 6*alpha*delta/r4 diag(1,1,-1,-1). More generally, any actual C1-in-local-C2 Q-solution metric curve around Ricci-flat g0 necessarily has TF(N2)=0 for N=d(g^-1 Ric)/d epsilon; this is necessity only. HYPOTHESES: ND1 whole scope/history; C1 parameter curve in C2 profile topology, two-sided; fixed compact comparison window and positive background minimum; actual metric curve for general necessity",
+      "open_scope": "Physical identification remains OPEN; G166 native assembly is OPEN; G176 remains WORKING; G312 GR is FILTER ONLY and response-class membership is unclosed. No physical metric/equation/observer/population/history/scale selection or canon follows. velocity union is not linear span; general TF(N2)=0 is not metric realizability or integrability sufficiency; parameter is not physical time; no superposition principle/stability theorem; no general principal-symbol/response-law selection",
+      "forbidden_regression": "Conditional mathematical or design/benchmark scope called physical adoption, empirical certification or canon; supplied data or optional equation called derived native UDT; old failures, excluded false passes or LOST evidence erased; review/check counts or checksums called proof; source credit or reused methods called independent confirmation; configured model called runtime-attested or different-model independence inferred.",
+      "controlling_source": "udt_reviewed_backlog_banking_2026-09-10/BANKING_RECORD.md",
+      "precedence_rule": "G396 accepts only ND2 at its exact frozen scope; required registry IDs: G260,G311,G312,G395; BANKED_CLAIMS.json distinguishes required premises from methods/controls/source credit. ENTIRE original candidate, review, repairs, exclusions and discovery history remain controlling. Fresh separate-context banking fidelity is not blind reproof; runtime model/version UNATTESTED; different-model/human/formal axes UNTESTED. LIVE then exact registry then banking record and immutable sources; conflict means STOP."
+    },
+    {
+      "premise_id": "G397",
+      "term": "controlled_static_angular_readout_bounds",
+      "current_status": "BANKED_DERIVED_CONDITIONAL__VERIFIED_WITH_CAVEATS__OWNER_AUTHORIZED__NOT_PHYSICAL_ADOPTION__NOT_CANON",
+      "epistemic_label": "MIXED",
+      "active_use": "QC1; ENTIRE frozen statement and controlling reviews/repairs. For all C2 q on fixed K=[l,u],0<l<=1<=u,l<u, reference p=1+A*x2+B/x fixed by two supplied anchor data, continuous residual c=x2*qpp/2-q+1 with sup|c|<=epsilon and two bounded anchor errors, exact signed Green formula y=delta0*U+delta1*V+(2/3) integral_1^x (x2/s3-1/x)c(s)ds gives explicit b0,b1,b2 and D0,D1,D2 bounds through second derivative. Constant residual attains each residual-only component bound. With common p,q>=m>0, obtain log-relative ideal static clock bound [b0(x)+b0(z)]/(2m), stated lapse-gradient/proper-support-acceleration bounds retaining reference derivative control, and full aligned orthonormal sectional/tidal difference bounds with r0^-2 normalization. HYPOTHESES: fixed positive-radius window containing anchor; two supplied anchor data and bounded errors; continuous SUP residual, not samples; common positive lapse margin for nonlinear readouts; supplied areal-radius/time/frame matching, fixed r0/calibrated c_E; reference derivative bound for acceleration/gradient",
+      "open_scope": "Physical identification remains OPEN; G166 native assembly is OPEN; G176 remains WORKING; G312 GR is FILTER ONLY and response-class membership is unclosed. No physical metric/equation/observer/population/history/scale selection or canon follows. no physical residual source, tolerance or selected epsilon; no absolute-clock-ratio bound uniform over reference ratios; not equal-proper-distance matching; no uniform horizon/infinite-window/nonspherical/dynamic theorem; LC1 observations/empirical uncertainties not promoted",
+      "forbidden_regression": "Conditional mathematical or design/benchmark scope called physical adoption, empirical certification or canon; supplied data or optional equation called derived native UDT; old failures, excluded false passes or LOST evidence erased; review/check counts or checksums called proof; source credit or reused methods called independent confirmation; configured model called runtime-attested or different-model independence inferred.",
+      "controlling_source": "udt_reviewed_backlog_banking_2026-09-10/BANKING_RECORD.md",
+      "precedence_rule": "G397 accepts only QC1 at its exact frozen scope; required registry IDs: G260,G312; BANKED_CLAIMS.json distinguishes required premises from methods/controls/source credit. ENTIRE original candidate, review, repairs, exclusions and discovery history remain controlling. Fresh separate-context banking fidelity is not blind reproof; runtime model/version UNATTESTED; different-model/human/formal axes UNTESTED. LIVE then exact registry then banking record and immutable sources; conflict means STOP."
+    },
+    {
+      "premise_id": "G398",
+      "term": "static_uniform_readout_bound_counterexamples",
+      "current_status": "BANKED_DERIVED_CONDITIONAL__VERIFIED_WITH_CAVEATS__OWNER_AUTHORIZED__NOT_PHYSICAL_ADOPTION__NOT_CANON",
+      "epistemic_label": "MIXED",
+      "active_use": "QC2; ENTIRE frozen statement and controlling reviews/repairs. Two exact positive static metric sequences refute precisely stated epsilon-only uniform relative-clock moduli. GROW: p=1,q=1+n^-2*(U-1),K=[1,n],fixed anchor data and common lapse floor1, residual=n^-2 but endpoint clock quotient tends sqrt(4/3), while all sectional differences vanish uniformly. GAP: K=[1/2,1],p=1-(1/2-epsilon)/x,q=p+epsilon*(U-1),0<epsilon<=1/4, bounded reference data VARY between pairs, exact matching within each pair, positive minima2epsilon and C2/sectional differences vanish but endpoint relative clock quotient is exactly sqrt(29/24). HYPOTHESES: QC1 whole conditional definitions/history; supplied geometries, no field equation imposed on q; GROW varies domain extent; GAP varies bounded reference data and has no common positive lapse floor",
+      "open_scope": "Physical identification remains OPEN; G166 native assembly is OPEN; G176 remains WORKING; G312 GR is FILTER ONLY and response-class membership is unclosed. No physical metric/equation/observer/population/history/scale selection or canon follows. not a contradiction for one fixed positive reference on fixed K; positive margin is sufficient, not proved uniquely necessary; not physical horizon event, generic departure, dynamics, stability or UDT failure; q=p preserving and QC1 fixed-control examples survive",
+      "forbidden_regression": "Conditional mathematical or design/benchmark scope called physical adoption, empirical certification or canon; supplied data or optional equation called derived native UDT; old failures, excluded false passes or LOST evidence erased; review/check counts or checksums called proof; source credit or reused methods called independent confirmation; configured model called runtime-attested or different-model independence inferred.",
+      "controlling_source": "udt_reviewed_backlog_banking_2026-09-10/BANKING_RECORD.md",
+      "precedence_rule": "G398 accepts only QC2 at its exact frozen scope; required registry IDs: G260,G312,G397; BANKED_CLAIMS.json distinguishes required premises from methods/controls/source credit. ENTIRE original candidate, review, repairs, exclusions and discovery history remain controlling. Fresh separate-context banking fidelity is not blind reproof; runtime model/version UNATTESTED; different-model/human/formal axes UNTESTED. LIVE then exact registry then banking record and immutable sources; conflict means STOP."
+    },
+    {
+      "premise_id": "G399",
+      "term": "weighted_leading_response_estimate",
+      "current_status": "BANKED_DERIVED_CONDITIONAL__VERIFIED_WITH_CAVEATS__OWNER_AUTHORIZED__NOT_PHYSICAL_ADOPTION__NOT_CANON",
+      "epistemic_label": "MIXED",
+      "active_use": "GL1; ENTIRE frozen statement and controlling reviews/repairs. For one fixed finite-order Frechet-differentiable full O(1,3)-equivariant symmetric response germ on a neighborhood of zero in the declared ambient curvature-derivative product, T=TF(F) has T(0)=0, curvature-linear block a*S and zero odd-derivative blocks. Supplied ||Jj||<=Mj*epsilon^(j+2) gives uniform ||T-a*S||<=D*epsilon4+M*epsilon2*omega(M*epsilon2),omega->0. Exact DDR yields ||S||/epsilon2->0 only if fixed a!=0; approximate balance needs normalized rho->0. Optional C1,alpha derivative control gives the displayed H/(1+alpha) rate. Exact weighted homogeneity is a separately conditional consistency control. HYPOTHESES: ambient extension including unrealizable formal slots; fixed finite order/map/units/norms and full unoriented equivariance; Frechet differentiability at flat origin; supplied weighted hierarchy and small-domain bound; separate fixed a!=0 for Ricci conclusion",
+      "open_scope": "Physical identification remains OPEN; G166 native assembly is OPEN; G176 remains WORKING; G312 GR is FILTER ONLY and response-class membership is unclosed. No physical metric/equation/observer/population/history/scale selection or canon follows. no physical class membership/nonzero coefficient/scale supplied; no actual-curvature normalization without lower bound; no power rate from bare differentiability; no arbitrary-map/unbounded-boost uniformity; no metric family existence/convergence/physical GR result",
+      "forbidden_regression": "Conditional mathematical or design/benchmark scope called physical adoption, empirical certification or canon; supplied data or optional equation called derived native UDT; old failures, excluded false passes or LOST evidence erased; review/check counts or checksums called proof; source credit or reused methods called independent confirmation; configured model called runtime-attested or different-model independence inferred.",
+      "controlling_source": "udt_reviewed_backlog_banking_2026-09-10/BANKING_RECORD.md",
+      "precedence_rule": "G399 accepts only GL1 at its exact frozen scope; required registry IDs: G301,G311,G312; BANKED_CLAIMS.json distinguishes required premises from methods/controls/source credit. ENTIRE original candidate, review, repairs, exclusions and discovery history remain controlling. Fresh separate-context banking fidelity is not blind reproof; runtime model/version UNATTESTED; different-model/human/formal axes UNTESTED. LIVE then exact registry then banking record and immutable sources; conflict means STOP."
+    },
+    {
+      "premise_id": "G400",
+      "term": "conditional_regular_metric_einstein_necessity_limit",
+      "current_status": "BANKED_DERIVED_CONDITIONAL__VERIFIED_WITH_CAVEATS__OWNER_AUTHORIZED__NOT_PHYSICAL_ADOPTION__NOT_CANON",
+      "epistemic_label": "MIXED",
+      "active_use": "GL2; ENTIRE frozen statement and controlling reviews/repairs. Under all GL1 hypotheses and fixed a!=0, actual smooth balanced Lorentz metrics on common connected marked4-domain with h_epsilon=epsilon2*g_epsilon converging in C^max(m+2,3)_loc to nondegenerate Lorentz h0 necessarily have Ric(h0)=Lambda*h0 for one constant unselected Lambda. Constant-rescaling ON-frame jets carry epsilon^(j+2), supplying GL1 hierarchy; C2 continuity passes S=0 and C3 Bianchi makes scalar constant. Optional compact-local normalized approximate balance and C1,1 response rate retain exact GL1 qualifications. ND1 a=0 actual-metric and oscillatory non-DDR metric diagnostics show the stated gates cannot be silently dropped. HYPOTHESES: GL1 entire ambient/fixed-map/type/regularity scope; fixed a!=0; spatially constant normalization; common marking and nondegenerate C^max(m+2,3)_loc limit; controlled local frames; exact DDR or explicitly normalized residual o(epsilon2)",
+      "open_scope": "Physical identification remains OPEN; G166 native assembly is OPEN; G176 remains WORKING; G312 GR is FILTER ONLY and response-class membership is unclosed. No physical metric/equation/observer/population/history/scale selection or canon follows. NECESSITY only, not balanced nonflat family existence/converse/compactness/convergence theorem; no rate of metric convergence from response rate; no selected Lambda/sign/Weyl/data/physical GR recovery; oscillatory diagnostic not DDR-balanced; ND1 Q unadopted and a=0",
+      "forbidden_regression": "Conditional mathematical or design/benchmark scope called physical adoption, empirical certification or canon; supplied data or optional equation called derived native UDT; old failures, excluded false passes or LOST evidence erased; review/check counts or checksums called proof; source credit or reused methods called independent confirmation; configured model called runtime-attested or different-model independence inferred.",
+      "controlling_source": "udt_reviewed_backlog_banking_2026-09-10/BANKING_RECORD.md",
+      "precedence_rule": "G400 accepts only GL2 at its exact frozen scope; required registry IDs: G301,G311,G312,G399,G395; BANKED_CLAIMS.json distinguishes required premises from methods/controls/source credit. ENTIRE original candidate, review, repairs, exclusions and discovery history remain controlling. Fresh separate-context banking fidelity is not blind reproof; runtime model/version UNATTESTED; different-model/human/formal axes UNTESTED. LIVE then exact registry then banking record and immutable sources; conflict means STOP."
+    },
+    {
+      "premise_id": "G401",
+      "term": "intrinsic_realizable_normal_jet_response_expansion",
+      "current_status": "BANKED_DERIVED_CONDITIONAL__VERIFIED_WITH_CAVEATS__OWNER_AUTHORIZED__NOT_PHYSICAL_ADOPTION__NOT_CANON",
+      "epistemic_label": "MIXED",
+      "active_use": "RF1; ENTIRE frozen statement and controlling reviews/repairs. For finite N>=2, homogeneous symmetric normal coefficients hs satisfying hs(x)(x,v)=0 form a linear space of genuine local Lorentz normal metric jets, all realized by g=eta+sum hs on sufficiently small neighborhoods. The h2 curvature map is an equivariant bijection with inverse h2_ij=-(1/3)R_i a j b*x^a*x^b. A fixed finite-order fully unoriented natural symmetric response on a full neighborhood of flat realizable normal jets, Frechet differentiable at flat, admits intrinsic T=a*S+remainder with zero odd blocks and bound D*epsilon4+M*epsilon2*omega(M*epsilon2) under ||hs||<=Ms*epsilon^s. Finite normal-coefficient and actual covariant-curvature weighted bounds are equivalent up to constants via Jacobi/coordinate polynomials retaining curvature products, including h4=eta*(2*K0^2/45-K2/20). Optional rates/DDR/nonzero-a/normalized residual conclusions have stated qualifications; no response extension to unrealizable arrays is needed. HYPOTHESES: fixed N/order/type/response/units; full open response neighborhood of flat realizable jets; full unoriented diffeomorphism naturality; Frechet differentiability at flat, separately assumed; supplied finite weighted regime; separate a!=0 for Ricci consequence",
+      "open_scope": "Physical identification remains OPEN; G166 native assembly is OPEN; G176 remains WORKING; G312 GR is FILTER ONLY and response-class membership is unclosed. No physical metric/equation/observer/population/history/scale selection or canon follows. normal metric realization is kinematic, not field-law solution; no full response neighborhood/regularity/nonzero-a from locality alone; not arbitrary curvature-array realization or infinite Taylor convergence; no balanced-family existence/convergence/physical GR limit or scale selection; sufficient gates not claimed necessary for all GR limits",
+      "forbidden_regression": "Conditional mathematical or design/benchmark scope called physical adoption, empirical certification or canon; supplied data or optional equation called derived native UDT; old failures, excluded false passes or LOST evidence erased; review/check counts or checksums called proof; source credit or reused methods called independent confirmation; configured model called runtime-attested or different-model independence inferred.",
+      "controlling_source": "udt_reviewed_backlog_banking_2026-09-10/BANKING_RECORD.md",
+      "precedence_rule": "G401 accepts only RF1 at its exact frozen scope; required registry IDs: G301,G311,G312; BANKED_CLAIMS.json distinguishes required premises from methods/controls/source credit. ENTIRE original candidate, review, repairs, exclusions and discovery history remain controlling. Fresh separate-context banking fidelity is not blind reproof; runtime model/version UNATTESTED; different-model/human/formal axes UNTESTED. LIVE then exact registry then banking record and immutable sources; conflict means STOP."
+    },
+    {
+      "premise_id": "G402",
+      "term": "null_clock_endpoint_scalar_integrability",
+      "current_status": "BANKED_DERIVED_CONDITIONAL__VERIFIED_WITH_CAVEATS__OWNER_AUTHORIZED__NOT_PHYSICAL_ADOPTION__NOT_CANON",
+      "epistemic_label": "MIXED",
+      "active_use": "NCI1; ENTIRE frozen statement and controlling reviews/repairs. For a supplied smooth connected time-oriented Lorentzian four-domain and future unit U, one smooth endpoint scalar Psi reproduces delta=log(omega_B/omega_A) for EVERY sufficiently short regular future affine-null segment iff exp(-Psi)U is conformal Killing, iff sigma=0 and alpha=a_flat-(div U/3)U_flat is exact. Locally closed alpha suffices with zero shear; globally all periods must vanish. Psi is unique up to one additive constant. Static, conformal, flat shear and flat nonclosed-alpha controls retain their declared observer dependence. HYPOTHESES: All local null directions and short subsegments are included in the tested property, not physically populated by assumption; Smooth regular supplied (g,U), signature -+++; metric Levi-Civita geometry; Positive homogeneous scale-factor representatives; normalized clock slope, not raw affine slope",
+      "open_scope": "Physical identification remains OPEN; G166 native assembly is OPEN; G176 remains WORKING; G312 GR is FILTER ONLY and response-class membership is unclosed. No physical metric/equation/observer/population/history/scale selection or canon follows. No requirement that general UDT comparisons admit one endpoint scalar; No congruence/geometry/history selection, physical light identification, universal query realization or dynamical closure; Known geometric application; no mathematical novelty claim",
+      "forbidden_regression": "Conditional mathematical or design/benchmark scope called physical adoption, empirical certification or canon; supplied data or optional equation called derived native UDT; old failures, excluded false passes or LOST evidence erased; review/check counts or checksums called proof; source credit or reused methods called independent confirmation; configured model called runtime-attested or different-model independence inferred.",
+      "controlling_source": "udt_reviewed_backlog_banking_2026-09-10/BANKING_RECORD.md",
+      "precedence_rule": "G402 accepts only NCI1 at its exact frozen scope; required registry IDs: G176,G216,G217,G220; BANKED_CLAIMS.json distinguishes required premises from methods/controls/source credit. ENTIRE original candidate, review, repairs, exclusions and discovery history remain controlling. Fresh separate-context banking fidelity is not blind reproof; runtime model/version UNATTESTED; different-model/human/formal axes UNTESTED. LIVE then exact registry then banking record and immutable sources; conflict means STOP."
+    },
+    {
+      "premise_id": "G405",
+      "term": "exact_coupled_metric_kernel_finite_realization",
+      "current_status": "BANKED_DERIVED_CONDITIONAL__VERIFIED_WITH_CAVEATS__OWNER_AUTHORIZED__NOT_PHYSICAL_ADOPTION__NOT_CANON",
+      "epistemic_label": "MIXED",
+      "active_use": "ER1; ENTIRE frozen statement and controlling reviews/repairs. For supplied smooth local g=-N^2(dt+beta_i dx^i)^2+gamma_ij dx^i dx^j, N>0, gamma SPD, U=N^-1 partial_t, F_ij=partial_i beta_j-partial_j beta_i-beta_i partial_t beta_j+beta_j partial_t beta_i and W=N^2 gamma^ik gamma^jl F_ij F_kl/4. Six actual constant-direction pair surfaces with common comparison clock K=partial_t, retained T=N, m=N sqrt(gamma(v,v)), B=beta(v)/m and common first derivatives reconstruct the metric components/first jet and W. Common positive T/m, reconstructed SPD and three sum-shift equalities are necessary and sufficient ONLY for this smooth marked six-direction realization recipe. Exact coupled and density-omission witnesses and time-live tape coordinate/clock distinction are included. HYPOTHESES: Smooth actual record functions on one common marked neighborhood, six fixed directions ei and ei+ej; transverse/time derivatives and original ruler densities supplied; G166 unrestricted coframe envelope is not derived native UDT solution space; G176 remains working; Positive rest form gamma is not the coordinate t-slice metric; First-order comparison is shift-amplitude expansion about zero shift, not every linearization",
+      "open_scope": "Physical identification remains OPEN; G166 native assembly is OPEN; G176 remains WORKING; G312 GR is FILTER ONLY and response-class membership is unclosed. No physical metric/equation/observer/population/history/scale selection or canon follows. No native assembly, physical pair/calibration population, arbitrary-network inverse theorem or instrument acquisition; No field law, nonlinear dynamical development, global reach, genericity or persistence; Time-dependent tape determinant -1 does not preserve fixed-tape clock; unchanged K must be carried; Density-normalized outputs alone can agree while W changes; no physical scale selection",
+      "forbidden_regression": "Conditional mathematical or design/benchmark scope called physical adoption, empirical certification or canon; supplied data or optional equation called derived native UDT; old failures, excluded false passes or LOST evidence erased; review/check counts or checksums called proof; source credit or reused methods called independent confirmation; configured model called runtime-attested or different-model independence inferred.",
+      "controlling_source": "udt_reviewed_backlog_banking_2026-09-10/BANKING_RECORD.md",
+      "precedence_rule": "G405 accepts only ER1 at its exact frozen scope; required registry IDs: G166,G176,G179,G180,G182,G216; BANKED_CLAIMS.json distinguishes required premises from methods/controls/source credit. ENTIRE original candidate, review, repairs, exclusions and discovery history remain controlling. Fresh separate-context banking fidelity is not blind reproof; runtime model/version UNATTESTED; different-model/human/formal axes UNTESTED. LIVE then exact registry then banking record and immutable sources; conflict means STOP."
+    },
+    {
+      "premise_id": "G352",
+      "term": "continuous_phase_clock_rate_carried_measure_readout",
+      "current_status": "EXTERNALLY_ACCEPTED_DERIVED_CONDITIONAL_BOUNDED_ON_OWNER_ADOPTED_PROVISIONAL_PREMISE__PREREGISTERED_AT_F5EE3393__R1_SIGN_REPAIR_PREREGISTERED_AT_14AFC199__R2_REPAIRS_PREREGISTERED_AT_B0BC9F24__FRESH_REVIEW_REPAIR_RETURNED__SEALED_R2_GPT56SOL_AUTHENTICATED_42_PAYLOADS_IN_EXACT_44_FILE_INTAKE__R2_REPAIR_COMPLETION_ACCEPTED__103648_OF_103648_PRODUCTION_OVER_2400_DISTINCT_STATES__73889_OF_73889_IMPLEMENTATION_DISTINCT_OVER_2700_DISTINCT_STATES__18_OF_18_HOSTILE__49_OF_49_FINAL_AGGREGATE__OWNER_PROVISIONAL_CLOCK_RATE_READOUT__CHOSE_CONTINUOUS_TOTAL_PHASE_VARIATION_AND_PHASE_INDEPENDENT_NONNEGATIVE_PRODUCT_MEASURE__NONZERO_ABSOLUTELY_CONTINUOUS_REGULAR_DENSITY_GAMMA_EQUALS_OMEGA_OVER_DELTATHETA_TIMES_S_OVER_J__T_CLOCK_EQUALS_R_A_INVERSE__P_EQUALS_ONE_AND_Q_EQUALS_MINUS_ONE_UNIQUE_ONLY_FOR_THIS_READOUT_IN_G350_FULL_INDEPENDENT_POSITIVE_CHARACTER_DOMAIN__ATOMIC_CROSSINGS_P_ZERO_AND_OTHER_READOUTS_REMAIN_DISTINCT__MEASURE_VALUED_CAUSTIC_FORM_FINITE_ONLY_UNDER_FREQUENCY_INTEGRABILITY__EXECUTABLE_COUNTS_REGRESSION_NOT_ANALYTIC_PROOF__UNSIGNED_COSEALED_MANIFEST_NOT_TRUSTED_ORIGIN_OR_TIMESTAMP__NO_LIGHT_ENERGY_DETECTOR_DISTANCE_SOURCE_POPULATION_HISTORY_MATTER_MASS_SCALE_XMAX_OR_CANON__METRIC_KERNEL_ANGULAR_EQUATION_UNCHANGED",
+      "epistemic_label": "MIXED",
+      "active_use": "OWNER_ADOPTED_PROVISIONAL_CLOCK_RATE_READOUT__EXPLICITLY_CHOSEN_CONTINUOUS_TOTAL_PHASE_VARIATION_ON_SUPPLIED_NONZERO_FUTURE_RAISED_NULL_PHASE_GRADIENT__FIXED_POSITIVE_COMMON_PHASE_SPACING__EXPLICIT_PRODUCT_MEASURABLE_SPACE_WITH_SAME_PHASE_INDEPENDENT_G351_LABEL_MEASURE_AND_NO_PHASE_LABEL_CORRELATION__COMMON_NONZERO_ABSOLUTELY_CONTINUOUS_REGULAR_SUPPORT__ARBITRARY_FINITE_FUTURE_TIMELIKE_LOCAL_OBSERVERS__FULL_G350_INDEPENDENT_POSITIVE_R_A_CHARACTER_DOMAIN__COMMON_POSITIVE_AFFINE_PHASE_RESCALE__IDENTITY_COMPARISON_REVERSAL_AND_THREE_CUT_SEWING__MEASURABLE_FREQUENCY_INTEGRABLE_WEIGHTED_PUSHFORWARD_THROUGH_RANK_LOSS",
+      "open_scope": "physical identity and realization of any carried content; literal atomic event averaging interpolation or coarse graining; emission absorption source magnitude support and populated labels; phase dependent or correlated label content; cross-label aggregation interference and detector law; light photon energy brightness flux luminosity distance and observations; global worldlines path population route selection history occupancy topology matter mass action stability absolute scale physical Xmax and canon",
+      "forbidden_regression": "continuous total-phase intensity called literal atomic crossing rate; chosen product sigma algebra or phase-independent factorization called derived from G351 metric reciprocity DDR or owner premise; p=1 universalized beyond this readout or chosen from familiar light formulas; p=0 atomic crossings singular content or other readouts silently excluded; ordinary finite density required at caustic; frequency-weighted measure called finite without measurability and integrability; local observer tangent promoted to global interception worldline; zero source made nonzero; preimage multiplicity promoted to detector physics; assertion counts called analytic proof; unsigned co-seal called trusted provenance or timestamp; light energy detector distance source population history matter mass scale Xmax canon or protected work imported",
+      "controlling_source": "udt_g352_clock_rate_carried_measure_readout_2026-09-05/AUDIT_REPORT.md",
+      "precedence_rule": "G352_EXTERNAL_R2_REPAIR_FOLLOWUP_ACCEPTS_THE_BOUNDED_CONTINUOUS_PHASE_CLOCK_RATE_READOUT__OWNER_PROVISIONAL_READOUT_PLUS_EXPLICIT_CHOSEN_NONNEGATIVE_PHASE_LABEL_PRODUCT_GIVES_GAMMA_EQUALS_OMEGA_OVER_DELTATHETA_TIMES_S_OVER_J_AND_T_CLOCK_EQUALS_R_A_INVERSE__P_EQUALS_ONE_Q_EQUALS_MINUS_ONE_ONLY_FOR_THIS_READOUT_IN_G350_FULL_INDEPENDENT_POSITIVE_CHARACTER_DOMAIN__ATOMIC_CROSSINGS_P_ZERO_OTHER_READOUTS_PHYSICAL_IDENTITY_SOURCE_POPULATION_LIGHT_DISTANCE_HISTORY_SCALE_XMAX_MATTER_AND_CANON_REMAIN_DISTINCT_OR_OPEN__METRIC_KERNEL_ANGULAR_EQUATION_UNCHANGED__LIVE_THEN_THIS_REGISTRY_THEN_CITED_G352_SOURCE__CONFLICT_MEANS_STOP"
+    },
+    {
+      "premise_id": "G351",
+      "term": "source_free_labelwise_carried_measure_conservation",
+      "current_status": "EXTERNALLY_ACCEPTED_DERIVED_CONDITIONAL_BOUNDED_ON_OWNER_ADOPTED_PROVISIONAL_PREMISE__PREREGISTERED_AT_42E48241__R1_R5_REPAIRS_PREREGISTERED_BEFORE_EXECUTION__FRESH_GPT56SOL_AUTHENTICATED_42_PAYLOADS_IN_EXACT_44_FILE_INTAKE__INDEPENDENT_ANALYTIC_RECONSTRUCTION_AND_45_OF_45_REPLAY__60325_OF_60325_PRODUCTION__11290_OF_11290_IMPLEMENTATION_DISTINCT__12_OF_12_HOSTILE__STANDARD_FINITE_NONNEGATIVE_COUNTABLY_ADDITIVE_LABEL_MEASURE__NONZERO_ABSOLUTELY_CONTINUOUS_REGULAR_DENSITY_N_EQUALS_S_OVER_J__AREA_TRANSFER_A_INVERSE__WITHIN_G350_FULL_INDEPENDENT_POSITIVE_CHARACTER_DOMAIN_T_P_EQUALS_R_TO_P_A_INVERSE_AND_Q_EQUALS_MINUS_ONE__P_REMAINS_ARBITRARY_DECLARED_OBSERVER_WEIGHT__FINITE_MEASURE_AND_PUSHFORWARD_SURVIVE_CAUSTIC_RANK_LOSS__SINGULAR_PART_HAS_NO_ORDINARY_DENSITY_EXPONENT__EXECUTABLE_COUNTS_ARE_REGRESSION_EVIDENCE_NOT_ANALYTIC_PROOF__DOCUMENTARY_CHRONOLOGY_NOT_TRUSTED_TIMESTAMP__NO_SOURCE_POPULATION_CROSS_LABEL_PHYSICS_LIGHT_DISTANCE_HISTORY_SCALE_XMAX_MATTER_OR_CANON__METRIC_KERNEL_ANGULAR_EQUATION_UNCHANGED",
+      "epistemic_label": "MIXED",
+      "active_use": "OWNER_ADOPTED_PROVISIONAL_SOURCE_FREE_LABELWISE_CONSERVATION_OF_ONE_STANDARD_FINITE_NONNEGATIVE_COUNTABLY_ADDITIVE_MEASURE_ON_SUPPLIED_MEASURABLE_LABEL_SPACE__REGULAR_CUTS_WITH_FINITE_POSITIVE_TWO_DIMENSIONAL_METRIC_AREA_JACOBIAN__NONZERO_ABSOLUTELY_CONTINUOUS_COMPONENT_ONLY_FOR_Q_EQUALS_MINUS_ONE__DIVISION_FREE_ZERO_DENSITY_LAW_RETAINED__FULL_G350_INDEPENDENT_POSITIVE_R_A_CHARACTER_DOMAIN__ALL_REAL_DECLARED_OBSERVER_WEIGHTS_P_RETAINED__MEASURABLE_PUSHFORWARD_RETAINS_PREIMAGE_MULTIPLICITY_THROUGH_CAUSTICS__SINGULAR_CONTENT_REMAINS_MEASURE_VALUED",
+      "open_scope": "physical identity and observer weight p of any carried readout; source magnitude support and populated labels; local balance and sourced evolution; signed complex or field-valued content; cross-label aggregation interference and detector law; emission absorption light photon energy brightness flux luminosity probability and distance; route germ history topology occupancy matter mass action stability observations scale physical Xmax and canon",
+      "forbidden_regression": "conservation called derived from metric reciprocity or DDR; measure weakened to merely finitely additive while retaining Radon Nikodym claims; q=-1 widened to zero singular or caustic density; p selected by conservation covariance habit or observation; nonzero content or label population generated; measure pushforward called finite pointwise density or geometric image-union area; preimage multiplicity called detector addition interference or cross-label physics; large executable counts or implementation distinction called analytic or proof-independent completeness; documentary chronology called trusted timestamp; light transfer distance source matter history scale Xmax canon or protected work imported",
+      "controlling_source": "udt_g351_source_free_labelwise_carried_measure_conservation_2026-09-05/AUDIT_REPORT.md",
+      "precedence_rule": "G351_FRESH_EXTERNAL_GPT56SOL_ACCEPTS_THE_BOUNDED_CARRIED_MEASURE_CONSERVATION_RESULT__OWNER_PROVISIONAL_STANDARD_COUNTABLY_ADDITIVE_SOURCE_FREE_LABEL_MEASURE_GIVES_NONZERO_ABSOLUTELY_CONTINUOUS_REGULAR_DENSITY_AREA_WEIGHT_Q_EQUALS_MINUS_ONE__P_REMAINS_ARBITRARY__FULL_FINITE_MEASURE_SURVIVES_CAUSTIC_PUSHFORWARD_WHILE_SINGULAR_CONTENT_HAS_NO_ORDINARY_DENSITY_EXPONENT__NO_SOURCE_POPULATION_CROSS_LABEL_PHYSICS_LIGHT_DISTANCE_HISTORY_SCALE_XMAX_MATTER_OR_CANON__METRIC_KERNEL_ANGULAR_EQUATION_UNCHANGED__LIVE_THEN_THIS_REGISTRY_THEN_CITED_G351_SOURCE__CONFLICT_MEANS_STOP"
+    },
+    {
+      "premise_id": "G314",
+      "term": "global_admissibility_actualization_type_classification",
+      "current_status": "EXTERNALLY_ACCEPTED__ADMISSIBILITY_ACTUALIZATION_DISTINCTION_UPHELD__PREREGISTERED_AT_6AC6F27B__43_PRODUCTION_ASSERTIONS__114_IMPLEMENTATION_DISTINCT_ASSERTIONS__16_BOOLEAN_PREDICATES__27_ENDOMAPS_ALL_8_FIXED_POINT_SUBSETS__17_HOSTILE_CATCHES__ALL_39_SEALED_PAYLOADS_AUTHENTICATED__FOUR_EXTERNAL_REPLAYS_PASS__GENERATED_RESULTS_BYTE_IDENTICAL__GLOBAL_ADMISSIBILITY_AND_ACTUALIZATION_ARE_DISTINCT_MISSING_TYPES__CURRENT_STRUCTURE_SUPPLIES_NEITHER__UNIQUE_UNIVERSE_BOOTSTRAP_OPTIONAL_FOR_CONDITIONAL_FIELD_THEORY__METRIC_KERNEL_ANGULAR_OBSERVATIONAL_INTERFACES_UNCHANGED",
+      "epistemic_label": "MIXED",
+      "active_use": "ACTIVE_BOUNDED_G312_G313_GLOBAL_ADMISSIBILITY_ACTUALIZATION_AND_NETWORK_RECONSTRUCTION_TYPE_CLASSIFICATION_ONLY",
+      "open_scope": "any owned nonidentity global admissibility predicate; actualization choice or population measure; complete Einstein solution census; lawful physical initial or boundary data; source matter mass and full UDT extension; topology scale observation calibration and physical Xmax",
+      "forbidden_regression": "network reconstruction called selection; fixed-point syntax called a selector without a specified nonidentity map; nonidentity called unique; admissibility conflated with actualization or population; absence of unique-universe bootstrap called failure of a conditional field theory; finite witness singleton called full solution-space uniqueness; Berger data or plane wave promoted globally; candidate sign compactness Weyl topology scale action or observation promoted to owned law; metric kernel angular or observation change claimed",
+      "controlling_source": "udt_g314_global_admissibility_actualization_type_classification_2026-09-01/AUDIT_REPORT.md",
+      "precedence_rule": "G314_EXTERNALLY_ACCEPTS_THAT_GLOBAL_ADMISSIBILITY_AND_ACTUALIZATION_OR_POPULATION_ARE_DISTINCT_TYPES_FOR_THE_STRONGER_UNIQUE_UNIVERSE_BOOTSTRAP_AMBITION__CURRENT_UDT_SUPPLIES_NEITHER__A_COHERENT_CONDITIONAL_FIELD_THEORY_DOES_NOT_REQUIRE_A_UNIQUE_UNIVERSE_SELECTOR__COMPLETE_NETWORK_RECONSTRUCTION_IS_IDENTITY_ON_EACH_SUPPLIED_METRIC_NOT_SELECTION__BARE_FIXED_POINT_SYNTAX_SELECTS_NOTHING_WITHOUT_AN_INDEPENDENTLY_SPECIFIED_NONIDENTITY_MAP__ONE_SUFFICIENTLY_STRONG_PREDICATE_COULD_LEAVE_A_SINGLETON_SO_TWO_NEW_POSTULATES_ARE_NOT_LOGICALLY_FORCED__NO_CANDIDATE_IS_ADOPTED__METRIC_KERNEL_ANGULAR_AND_OBSERVATIONAL_INTERFACES_UNCHANGED__LIVE_THEN_THIS_REGISTRY_THEN_CITED_G314_SOURCE__CONFLICT_MEANS_STOP"
+    },
+    {
+      "premise_id": "G313",
+      "term": "tracefree_ricci_solution_space_bootstrap_map",
+      "current_status": "EXTERNALLY_ACCEPTED_AFTER_PREREGISTERED_R1_R4_REPAIRS__SCIENTIFIC_LANDING_UNCHANGED__PREREGISTERED_AT_E0B6E478__REPAIRS_PREREGISTERED_AT_6FCBEB36__181_PRODUCTION_ASSERTIONS__357_INDEPENDENT_ASSERTIONS__12_HOSTILE_CATCHES__ACTIVE_EQUATION_DEFINES_MULTIBRANCH_EINSTEIN_ARENA__GLOBAL_ADMISSIBILITY_REMAINS_OPEN__METRIC_KERNEL_ANGULAR_OBSERVATIONAL_INTERFACES_UNCHANGED",
+      "epistemic_label": "MIXED",
+      "active_use": "ACTIVE_BOUNDED_G312_REGULAR_LOCAL_METRIC_ONLY_SCALE_FREE_VACUUM_TRACEFREE_RICCI_SOLUTION_SPACE_AND_BOOTSTRAP_TYPE_MAP_ONLY",
+      "open_scope": "nonidentity global admissibility predicate; physical Cauchy or boundary data; topology and global completion; scalar sign and magnitude; physical population; sources matter mass observations scale and physical Xmax; full Einstein-manifold census; stability singular characteristic topology-changing and outside-G312 arenas",
+      "forbidden_regression": "round cosh called unique universe; Einstein metric called constant curvature; Weyl channel erased; Berger local development called global completion; curvature radius called physical Xmax; global selector confused with hidden remote-history local response; witness called population; action source matter mass fit observation protected work or kernel change imported",
+      "controlling_source": "udt_g313_tracefree_ricci_solution_space_bootstrap_map_2026-09-01/AUDIT_REPORT.md",
+      "precedence_rule": "G313_EXTERNALLY_ACCEPTS_AFTER_PREREGISTERED_R1_R4_REPAIRS_THAT_THE_OWNER_ADOPTED_BOUNDED_TRACEFREE_RICCI_EQUATION_COMPLETES_BY_BIANCHI_TO_RIC_AB_EQUALS_LAMBDA_G_AB_WITH_ONE_CONNECTED_CONSTANT_BUT_DEFINES_A_MULTIBRANCH_EINSTEIN_ARENA__EXACT_POSITIVE_PRODUCT_BERGER_S3_LOCAL_DATA_RICCI_FLAT_PLANE_WAVE_AND_HOMOTHETY_WITNESSES_SHOW_ROUND_COSH_WEYL_TOPOLOGY_DATA_SCALAR_MAGNITUDE_SCALE_AND_POPULATION_ARE_NOT_SELECTED__NO_OWNED_NONIDENTITY_GLOBAL_ADMISSIBILITY_PREDICATE_EXISTS__LOCAL_METRIC_SUFFICIENCY_PERMITS_GLOBAL_SELECTION_OF_THE_METRIC_BUT_FORBIDS_A_HIDDEN_REMOTE_HISTORY_LOCAL_RESPONSE_AFTER_THE_JET_IS_FIXED__METRIC_KERNEL_ANGULAR_AND_OBSERVATIONAL_INTERFACES_UNCHANGED__LIVE_THEN_THIS_REGISTRY_THEN_CITED_G313_SOURCE__CONFLICT_MEANS_STOP"
+    },
+    {
+      "premise_id": "G312",
+      "term": "quiet_gr_response_constitution_discriminator",
+      "current_status": "EXTERNALLY_ACCEPTED_WITH_TWO_PREMISE_BOUNDARY__PREREGISTERED_AT_0C139B1C__FRESH_REVIEW_G312_REPAIRABLE_DEFECTS_LANDING_RETAINED__REPAIR_PREREGISTERED_AT_8175B112__PACKAGING_REPAIR_BANKED_AT_F68F1F2D__REPAIR_FOLLOWUP_G312_ACCEPTED_WITH_TWO_PREMISE_BOUNDARY__TF_G_A_RIC_PLUS_B_R_G_EQUALS_A_S__NONZERO_RICCI_COEFFICIENT_REQUIRED__GR_SOLUTION_OVERLAP_DOES_NOT_IMPLY_FULL_QUIET_PRINCIPAL_OVERLAP__LOCAL_CURVATURE_QUADRATIC_WITNESS__FULL_QUIET_GR_PRINCIPAL_OVERLAP_DOES_NOT_IMPLY_LOCALITY__SCALE_FREE_CAUSAL_NONLOCAL_METRIC_HISTORY_WITNESS__TWO_LOGICALLY_INDEPENDENT_PREMISES__HISTORICAL_TWO_PREMISE_ADOPTION_2026_09_01_PRESERVED__CURRENT_OWNER_CLARIFICATION_2026_09_09_GR_FILTER_ONLY_NOT_RESPONSE_LAW_INPUT__LOCAL_METRIC_SUFFICIENCY_EQUIVALENT_LOCAL_FINITE_JET_RESPONSE_CONSTITUTION_AFFIRMED_OWNER_PROVISIONAL__NOT_DERIVED__NOT_CANON__BOUNDED_G301_TRACEFREE_RICCI_CLOSURE_CONDITIONAL_NOT_ESTABLISHED_FROM_FILTER_ONLY_GR__4690_PRODUCTION_CHECKS__4824_DEPENDENCY_FREE_INDEPENDENT_CHECKS__6_SEMANTIC_REGRESSION_CATCHES__NO_METRIC_KERNEL_ANGULAR_OBSERVATION_SOURCE_ACTION_MATTER_MASS_SCALE_XMAX_OR_PROTECTED_INPUT",
+      "epistemic_label": "MIXED",
+      "active_use": "CURRENT_GR_FILTER_ONLY_NOT_RESPONSE_LAW_INPUT__LOCAL_METRIC_SUFFICIENCY_AFFIRMED_OWNER_PROVISIONAL__G312_CLASS_MEMBERSHIP_ROUTE_UNCLOSED_UNDER_FILTER_ONLY_GR__REVIEWED_G301_TRACEFREE_RICCI_MATHEMATICS_CONDITIONAL",
+      "open_scope": "independent response-class membership route under filter-only GR; comparison-filter domain and survivor rule not specified by this reconciliation; covariant extension beyond the registered regular local smooth metric-only scale-free vacuum arena; derivative-order ownership outside existing gates; scalar curvature magnitude and sign; lawful data; topology and boundary completion; global bootstrap or admissibility law; realized history; pair and query population; source action matter mass observation scale and physical Xmax",
+      "forbidden_regression": "owner-adopted premises called derived canonized or observationally proved; affirmed DDR or Local Metric Sufficiency omitted or demoted to unadopted; stronger full quiet GR principal overlap restored as a current response-law input; conditional mathematics blanket-retracted or upgraded to unconditional UDT law; unclosed existing route called proof that a new premise is necessary or independent closure impossible; Local Metric Sufficiency called proof that global bootstrap is impossible or that the local metric is independent of global construction; identical admitted local jets allowed different vacuum responses solely by a hidden remote-history label; bounded trace-free Ricci closure called a selected universe global history fixed scalar scale or physical Xmax; conditional scope extended to singular auxiliary source or matter sectors; metric kernel or angular cancellation called changed; loud quiet loud attributed to reciprocity or the G312 premises",
+      "controlling_source": "udt_g312_quiet_gr_response_constitution_discriminator_2026-09-01/AUDIT_REPORT.md",
+      "precedence_rule": "OWNER_CLARIFICATION_2026_09_09_SUPERSEDES_STRONGER_CURRENT_GR_BUILDING_AUTHORITY_NOT_HISTORICAL_APPROVAL_OR_MATHEMATICAL_EVIDENCE__GR_FILTER_ONLY__LOCAL_METRIC_SUFFICIENCY_AFFIRMED_OWNER_PROVISIONAL_NOT_DERIVED_NOT_CANON__INHERITED_G312_ADMITTED_LAWFUL_AND_OWNER_PROVISIONAL_LABELS_ARE_CONDITIONAL_ON_FULL_REVIEWED_PREMISES_NOT_ESTABLISHED_FROM_FILTER_ONLY_GR__ORIGINAL_G312_SOURCE_OWNS_MATHEMATICAL_GRADE__CURRENT_AUTHORITY_udt_gr_filter_reconciliation_2026-09-09/AUTHORITY_RECORD.md__LIVE_THEN_THIS_REGISTRY_THEN_CURRENT_AUTHORITY_RECORD_THEN_HISTORICAL_G312_ADOPTION__CONFLICT_MEANS_STOP"
+    },
+    {
+      "premise_id": "G311",
+      "term": "universal_reciprocity_full_covariant_response",
+      "current_status": "EXTERNALLY_ACCEPTED_WITH_RESPONSE_CONSTITUTION_BOUNDARY__PREREGISTERED_AT_AB93CF6E__FRESH_REVIEW_G311_REPAIRABLE_DEFECTS_SCIENTIFIC_LANDING_UPHELD__REPAIRS_PREREGISTERED_AT_30070CB8__REPAIR_FOLLOWUP_G311_ACCEPTED_WITH_RESPONSE_CONSTITUTION_BOUNDARY__ALL_LOCAL_ORTHONORMAL_TIMELIKE_SPACELIKE_PAIR_GERMS_REALIZABLE__RECIPROCAL_TANGENT_SPAN_RANK_NINE__FULL_RANK_DDR_GIVES_TF_G_E_ZERO_EQUIVALENT_E_LAMBDA_X_G__POINTWISE_DDR_DOES_NOT_FIX_LAMBDA__RESPONSE_CONSTITUTION_REMAINS_OPEN__CONDITIONAL_G301_NONZERO_RICCI_COEFFICIENT_GIVES_RIC_MINUS_R_OVER_4_G_ZERO__BIANCHI_GIVES_ONE_CONNECTED_CONSTANT_SCALAR__TWO_LOCAL_METRIC_CONFIGURATION_DOF__FLRW_WEYL_QUADRATIC_COUNTERRESPONSE_PROVES_OUTSIDE_G301_NONSELECTION__24_PRODUCTION_CHECKS__14_DEPENDENCY_FREE_INDEPENDENT_CHECKS__6_SHARED_CODE_REGRESSION_CATCHES__NO_METRIC_KERNEL_ANGULAR_OBSERVATION_SOURCE_ACTION_MATTER_MASS_SCALE_XMAX_OR_PROTECTED_INPUT",
+      "epistemic_label": "MIXED",
+      "active_use": "ACTIVE_REGULAR_LOCAL_FOUR_DIMENSIONAL_ALL_PAIR_UNIVERSAL_RECIPROCITY_RESPONSE_SHAPE_THEOREM_AND_CONDITIONAL_G301_EINSTEIN_SPACE_DYNAMICS_ONLY",
+      "open_scope": "whether UDT owns the G301 smooth scale-free local metric-only symmetric curvature-order response constitution with nonzero Ricci coefficient; higher-order nonlocal auxiliary parity-odd source-dependent and singular response architectures; differential identity for the surviving trace; global actual pair population; initial topology boundary completion and realized history; scalar magnitude and sign; observation source matter mass scale and physical Xmax",
+      "forbidden_regression": "response-shape theorem called a unique response constitution or unconditional trace-free Ricci field equation; E equals lambda g called E zero; pointwise DDR called proof lambda is constant; conditional G301 Einstein-space dynamics called founded canon or uniquely realized universe; two metric degrees of freedom called missing arbitrary profile; FLRW Weyl-quadratic counterresponse erased or misrepresented as refuting G301; shared-code hostile harness called independent confirmation; metric kernel angular cancellation observation source action matter mass fit scale Xmax or protected work imported",
+      "controlling_source": "udt_g311_universal_reciprocity_full_covariant_response_2026-09-01/AUDIT_REPORT.md",
+      "precedence_rule": "G311_EXTERNALLY_ACCEPTS_UNDER_OWNER_ADOPTED_PROVISIONAL_UNIVERSAL_RECIPROCITY_THAT_ALL_REGULAR_LOCAL_PAIR_PLANES_FORCE_ONLY_THE_TRACEFREE_SHAPE_OF_ANY_SUPPLIED_SYMMETRIC_RESPONSE_TO_VANISH__RESPONSE_CONSTITUTION_REMAINS_OPEN__INSIDE_SEPARATELY_CONDITIONAL_G301_NONDEGENERATE_RESPONSE_LANE_THE_RESULT_IS_EINSTEIN_SPACE_DYNAMICS_WITH_ONE_CONNECTED_SCALAR_AND_TWO_LOCAL_METRIC_CONFIGURATION_DOF__NO_UNIQUE_GLOBAL_HISTORY_SCALE_OR_PHYSICAL_XMAX__LIVE_THEN_THIS_REGISTRY_THEN_G311__CONFLICT_MEANS_STOP"
+    },
+    {
+      "premise_id": "G310",
+      "term": "differential_dual_reciprocity_tracefree_ownership",
+      "current_status": "EXTERNALLY_VERIFIED_AFTER_PREREGISTERED_EVIDENCE_REPAIRS__PREREGISTERED_AT_2ECD25F4__REPAIRS_PREREGISTERED_AT_71F45256__REPAIRS_BANKED_AT_A57F05B8__REPAIR_FOLLOWUP_G310_R1_R2_REPAIRS_ACCEPTED_SCIENTIFIC_LANDING_UNCHANGED__ONE_NEW_DIFFERENTIAL_DUAL_RECIPROCITY_POSTULATE_SELECTS_G301_TRACEFREE_CLASS__NOT_DERIVED__OWNER_PROVISIONALLY_ADOPTED_BY_CHARLES_ROTTER_2026_08_31__NOT_CANON__ALL_PAIR_RECIPROCAL_SHAPE_SPAN_RANK_NINE__ANNIHILATOR_SPAN_G_AB__NONDEGENERATE_G301_STRATUM_GIVES_S_AB_ZERO__ONE_CONNECTED_SCALAR_DATUM_REMAINS__14_PRODUCTION_CHECKS__32_INDEPENDENT_CHECKS__7_HOSTILE_MUTATIONS__NO_METRIC_KERNEL_OBSERVATION_SOURCE_ACTION_MATTER_SCALE_XMAX_OR_PROTECTED_INPUT",
+      "epistemic_label": "MIXED",
+      "active_use": "ACTIVE_BOUNDED_LOCAL_FOUR_DIMENSIONAL_ALL_PAIR_DIFFERENTIAL_RECIPROCITY_PROVISIONAL_POSTULATE_AND_CONDITIONAL_SUFFICIENCY_THEOREM_INSIDE_G301_RESPONSE_CLASS_ONLY",
+      "open_scope": "covariant extension beyond the bounded conditional G301 arena; canonization; whether all algebraically admissible planes are physically populated; validity of G301 locality metric-only order and response typing; scalar curvature magnitude and sign outside bounded downstream controls; realized global history; source matter mass population observation scale and physical Xmax; higher-order nonlocal auxiliary parity-odd and singular sectors",
+      "forbidden_regression": "Universal Reciprocity and DDR falsely split into separate unresolved premises; DDR called derived from algebraic Dual Reciprocity; provisional adoption called canonization proof or observational validation; owner adoption omitted or demoted to unadopted candidate; trace-free Ricci called selected without conditional G301 arena and nonzero Ricci coefficient; pure trace response called zero response; one scalar datum called fixed scale or realized history; loud quiet loud attributed to DDR rather than angular cancellation; action source matter mass fit Xmax or protected work imported; metric or kernel change claimed",
+      "controlling_source": "udt_g310_differential_dual_reciprocity_tracefree_ownership_2026-08-31/AUDIT_REPORT.md",
+      "precedence_rule": "OWNER_ADOPTION_2026_08_31_SUPERSEDES_ONLY_THE_HISTORICAL_UNADOPTED_GRADE__G310_EXTERNAL_EVIDENCE_STILL_CONTROLS_THE_BOUNDED_CONSISTENCY_AND_CONDITIONAL_SUFFICIENCY_THEOREM__DDR_IS_NOT_DERIVED_OR_CANON__SELECTS_NO_MAGNITUDE_REALIZED_HISTORY_POPULATION_MASS_SCALE_OR_PHYSICAL_XMAX__ANGULAR_CANCELLATION_SEPARATELY_OWNS_LOUD_QUIET_LOUD__LIVE_THEN_THIS_REGISTRY_THEN_G310_AND_ADOPTION_RECORD__CONFLICT_MEANS_STOP"
+    },
+    {
+      "premise_id": "G301",
+      "term": "scale_free_quiet_regular_causal_principal_classification",
+      "current_status": "EXTERNALLY_VERIFIED_AFTER_PREREGISTERED_CERTIFICATION_REPAIRS__PREREGISTERED_AT_ACCFC6B9__REPAIRS_PREREGISTERED_AT_D964E004__FRESH_GPT54_ACCEPT_REPAIRS__SMOOTH_POSITIVE_WEIGHT_ONE_HOMOGENEITY_FORCES_CURVATURE_LINEARITY__NATURAL_LINEAR_SYMMETRIC_RANK_TWO_BASIS_RICCI_AND_R_G__GENERIC_A_NONZERO_A_PLUS_4B_NONZERO_ONE_RICCI_FLAT_EQUIVALENCE_CLASS__TRACEFREE_A_PLUS_4B_ZERO_INEQUIVALENT_WITH_ONE_CONNECTED_REGION_CONSTANT_SCALAR_DATUM__SCALAR_ONLY_AND_ZERO_FAIL_PRINCIPAL_OR_NONIDENTITY_GATES__IDENTITY_DIVERGENCE_WOULD_SELECT_GENERIC_BUT_IS_UNOWNED__27829_PRODUCTION_ASSERTIONS__49609_DOWNSTREAM_ASSERTIONS__53605_FULL_SPACE_ASSERTIONS__12_HOSTILE_CATCHES__69_PACKAGE_CHECKS__NO_METRIC_KERNEL_FIELD_EQUATION_HISTORY_OBSERVATION_SOURCE_ACTION_MATTER_SCALE_XMAX_OR_PROTECTED_INPUT",
+      "epistemic_label": "MIXED",
+      "active_use": "ACTIVE_BOUNDED_SMOOTH_SCALE_FREE_LOCAL_METRIC_ONLY_SYMMETRIC_RANK_TWO_METRIC_TWO_JET_QUIET_PRINCIPAL_CLASSIFICATION_ONLY",
+      "open_scope": "whether UDT owns locality metric two-jet order symmetric rank two exact scale freedom or identity divergence; nonlinear gauge-fixed wellposedness and causal completeness; global or nonlocal history residuals; lawful initial characteristic or boundary data; realized physical history and populated query route network; loud-regime dynamics; observation transfer source matter scale Xmax and completion",
+      "forbidden_regression": "two surviving classes called a selected UDT field equation; identity divergence freedom promoted from candidate to premise; trace-free constant scalar datum erased; quiet-principal rank called nonlinear wellposedness or global dynamics; bounded natural basis widened beyond unoriented metric-only two-jet lane; GR Einstein equation action source observation scale Xmax fit or protected work imported",
+      "controlling_source": "udt_g301_scale_free_quiet_regular_causal_principal_classification_2026-08-30/AUDIT_REPORT.md",
+      "precedence_rule": "G301_EXTERNALLY_VERIFIES_AFTER_PREREGISTERED_CERTIFICATION_REPAIRS_THAT_INSIDE_THE_SMOOTH_SCALE_FREE_LOCAL_METRIC_ONLY_SYMMETRIC_RANK_TWO_METRIC_TWO_JET_QUIET_PRINCIPAL_LANE_EXACT_WEIGHT_ONE_HOMOGENEITY_FORCES_LINEARITY_AND_NATURALITY_LEAVES_A_RICCI_PLUS_B_R_G__THE_COMPLETE_PRINCIPAL_GATE_RETAINS_TWO_INEQUIVALENT_CLASSES__THE_GENERIC_RICCI_FLAT_CLASS_AND_TRACEFREE_RICCI_WITH_ONE_CONNECTED_REGION_CONSTANT_SCALAR_DATUM__IDENTITY_DIVERGENCE_WOULD_SELECT_THE_GENERIC_CLASS_BUT_IS_NOT_OWNED__NO_UDT_FIELD_EQUATION_HISTORY_OR_DATA_IS_SELECTED__METRIC_AND_RECIPROCAL_KERNEL_UNCHANGED__LIVE_THEN_THIS_REGISTRY_THEN_CITED_G301_SOURCE__CONFLICT_MEANS_STOP"
+    },
+    {
+      "premise_id": "G176",
+      "term": "completed_pair_dual_reciprocity_consolidation",
+      "current_status": "VERIFIED_WITH_CAVEATS__WORKING_FOUNDATIONAL_CLARIFICATION_NOT_CANON__PREREGISTERED_AT_EB306A0D__GENERIC_SHIFTED_PAIR_HSIGMA_EQUALS_MINUS_T2_DY0_PLUS_BETA_DSIGMA_SQUARED_PLUS_LSIGMA2_DSIGMA2__DUAL_RECIPROCITY_TL_EQUALS_ONE_IFF_DETERMINANT_HS_EQUALS_MINUS_ONE_IFF_UNIQUE_POSITIVE_M_EQUALS_T_LSIGMA_EQUALS_SQRT_MINUS_DETERMINANT_HSIGMA__TERMINAL_PHI_EQUALS_MINUS_LOG_T__SHIFT_RETAINED__AUXILIARY_REPARAMETERIZATION_COVARIANT__STATIC_G173_SPECIALIZATION_M2_EQUALS_EXP_MINUS_2PHI_H_AND_PHI_EQUALS_PHI__PURE_RADIAL_RECOVERY__ANGULAR_TURN_REGULAR_WHEN_COMPLETE_SPATIAL_TANGENT_NONZERO__G173_G174_G175_ARBITRARY_CALIBRATIONS_RECLASSIFIED_AS_CONTROL_QUERIES_NOT_RIVAL_KERNELS__20_SYMBOLIC_CHECKS__260000_INDEPENDENT_EXACT_ASSERTIONS__2204_ANGULAR_TURN_CHECKS__18_MUTATION_CATCHES__FRESH_ADVERSARIAL_REVIEW_PENDING",
+      "epistemic_label": "MIXED",
+      "active_use": "ACTIVE_GENERIC_LOCAL_REGULAR_COMPLETED_PHYSICAL_UDT_RECIPROCAL_PAIR_NORMALIZATION_AND_BOUNDED_G173_STATIC_SPECIALIZATION_ONLY",
+      "open_scope": "which observer events and pair germs are physically realized; complete nonspherical timelive micro and ambient history ownership beyond supplied pullback; coincidence null degenerate singular cut focal topology-changing and global strata; non-scalar screen orientation connection Jacobi and holonomy transport; cross-query and global relation population; positive dimensionful separation numerical Xmax and global completion; observations radiative transfer dynamics action source matter bootstrap mass and signalling",
+      "forbidden_regression": "working clarification called canon or derived from bare metric; determinant-one applied before angular screen mixing or shift contributions enter; arbitrary arclength or calibrated curves restored as rival reciprocal kernels; post-readout angular correction bolted onto Phi; shift erased because determinant is shift-blind; unique ruler theorem called event or pair-germ selection; G173 G174 or G175 historical controls erased; local regular theorem globalized; physical pair c_eff called local signal speed; non-scalar transport collapsed into scalar; co-presence Xmax fits G142 through G160 action source matter or bootstrap inserted",
+      "controlling_source": "udt_g176_completed_pair_dual_reciprocity_consolidation_2026-08-19/AUDIT_REPORT.md",
+      "precedence_rule": "G176_CONDITIONALLY_DERIVES_FROM_CHARLES_WORKING_CLARIFICATION_THAT_AFTER_ALL_COMPLETE_PAIR_METRIC_CONTRIBUTIONS_ENTER_THE_PHYSICAL_RECIPROCAL_PAIR_HAS_THE_UNIQUE_POSITIVE_RULER_DENSITY_M_EQUALS_T_LSIGMA_EQUALS_SQRT_MINUS_DET_HSIGMA_WITH_TL_EQUALS_ONE_DET_HS_EQUALS_MINUS_ONE_SHIFT_RETAINED_AND_PHI_EQUALS_MINUS_LOG_T__IN_THE_G173_STATIC_FAMILY_THIS_IS_M2_EQUALS_EXP_MINUS_2PHI_H_AND_PHI_EQUALS_PHI_WITH_RADIAL_RECOVERY_AND_REGULAR_ANGULAR_TURNS__ARBITRARY_CALIBRATIONS_REMAIN_LAWFUL_CONTROL_QUERIES_NOT_ALTERNATIVE_PHYSICAL_KERNELS__THE_CLARIFICATION_IS_NOT_CANON_AND_DOES_NOT_SELECT_EVENTS_GERMS_GLOBAL_RELATIONS_NONSCALAR_TRANSPORT_COMPLETION_XMAX_OR_DOWNSTREAM_PHYSICS__LIVE_THEN_THIS_REGISTRY_THEN_CITED_SOURCE__CONFLICT_MEANS_STOP"
+    },
+    {
+      "premise_id": "G166",
+      "term": "primary_metric_ordered_pair_kernel_descent",
+      "current_status": "VERIFIED_WITH_CAVEATS__PREREGISTERED__13_SOURCE_FREEZE__PRIMARY_UDT_ORDERED_PAIR_KERNEL_DESCENDS_ALGEBRAICALLY__NO_FIXED_PATH_OR_POST_METRIC_RESPONSE_PROFILE__G165_CONFORMAL_FAMILY_RESCOPED_AS_BROADER_ENVELOPE_CONTROL__GENERAL_3PLUS1_ASSEMBLY_CONDITIONAL__22_EXACT_CHECKS__1200_INDEPENDENT_FRACTION_TRIALS__FRESH_EXTERNAL_REVIEW_OPEN",
+      "epistemic_label": "MIXED",
+      "active_use": "ACTIVE_BOUNDED_FOUNDED_ORDERED_PAIR_METRIC_AND_ALGEBRAIC_TERMINAL_KERNEL_DESCENT_ONLY",
+      "open_scope": "native nonspherical angular screen mixing shift-bearing time-live and micro 3plus1 assembly from the primary reciprocal metric; physical pair values and bare observer event calibration typing; cross-query and arbitrary-network calibration carry; singular null cut topology-changing and global-completion strata; dimensionful separation numerical Xmax action source bootstrap matter mass light observations and signalling",
+      "forbidden_regression": "fixed path or pre-existing operational distance inserted before the kernel; reciprocal kernel called an independent post-metric profile; orchestra attached after phi_pair q_pair or chi_pair; unrestricted complete coframe envelope called the derived UDT solution space; G165 conformal twins called infinitely many physical UDT metrics; static spherical realization promoted to the general nonspherical time-live assembly; arbitrary observer-network carry called solved; common-scale cancellation called physical scale gauge; Xmax inserted into the local kernel; conditional pair c_eff called local material signal speed; action source bootstrap observation or protected work inserted",
+      "controlling_source": "udt_g166_primary_metric_ordered_pair_kernel_descent_2026-08-18/AUDIT_REPORT.md",
+      "precedence_rule": "G166_THE_FOUNDED_DETERMINANT_ONE_ORDERED_PAIR_UDT_METRIC_RETURNS_PHI_PAIR_EQUALS_DELTA_AB_PAIR_CEFF_OVER_CE_EQUALS_EXP_MINUS_2_DELTA_AB_AND_CHI_EQUALS_TANH_DELTA_AB_ALGEBRAICALLY_WITHOUT_A_FIXED_PATH_POST_METRIC_RESPONSE_PROFILE_OR_XMAX_INPUT__A_DERIVED_ORCHESTRA_MUST_ENTER_THE_ONE_COMPLETED_PAIR_METRIC_BEFORE_READOUT__THE_UNRESTRICTED_COMPLETE_COFRAME_AND_G165_CONFORMAL_FAMILY_REMAIN_VALID_CONFIGURATION_ENVELOPE_CONTROLS_NOT_THE_DERIVED_UDT_SOLUTION_SPACE__GENERAL_NONSHPERICAL_MIXING_SHIFT_TIMELIVE_MICRO_3PLUS1_ASSEMBLY_PAIR_VALUES_NETWORK_CARRY_AND_GLOBAL_COMPLETION_REMAIN_OPEN__LIVE_THEN_THIS_REGISTRY_THEN_CITED_SOURCE__CONFLICT_MEANS_STOP"
+    }
+  ],
+  "parent_full397": "PENDING_RECEIPT; not inferred from row count or this check"
+}

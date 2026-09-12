@@ -65,7 +65,7 @@ G402--G405 cover null-clock integrability, curvature information and exact metri
 G406--G410 cover conditional measurement/design mathematics; G409=CO2 is a design control.
 G411=LC2 is one published-summary benchmark; G412=FW2 is one failed finite procedure.
 NE1: exact polarized profile decay with cumulative marked-rate/tidal departure; no genericity/stability.
-Fixed through-G352 manuscript remains an earlier edition; checks/reviews: INDEX.
+Fixed through-G352 manuscript unchanged. Consolidated gains/gates: `UDT_CONSOLIDATED_RESEARCH_ACCOUNT.md`; CWA1 review: INDEX.
 
 ### Distinctions for the direction discussion
 

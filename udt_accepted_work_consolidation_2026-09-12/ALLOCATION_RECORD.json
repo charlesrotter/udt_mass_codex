@@ -1,0 +1,18 @@
+{
+  "recorded_utc": "2026-09-12T16:59:53.116484+00:00",
+  "actual_new_contexts": 1,
+  "reviewer": "/root/cwa1_consolidation_review",
+  "first_personally_observed_utc": "2026-09-12T16:11:54Z",
+  "source_first_seal": "2026-09-12T16:20:20.063037Z",
+  "supplement_seal": "2026-09-12T16:32:10.313363Z",
+  "direct_seal": "2026-09-12T16:49:14.727291Z",
+  "final_seal": "2026-09-12T16:58:50.088095+00:00",
+  "overlap": "Parent broad source reading, synthesis, navigation and documentary checks overlapped the recorded reviewer stages; intervals are observed context/stage bounds, not measured CPU time. Idle intervals between stages are not counted as continuous execution.",
+  "model_configuration": "parent gpt-6-astra/xhigh attributed from prior same-session reading; no override",
+  "runtime_model_version": "UNATTESTED",
+  "general_capacity": "UNVERIFIED; one successful allocation only",
+  "total_wallclock_deadline": null,
+  "documentary_correction_cycles": 1,
+  "scientific_repairs": 0,
+  "old_contexts": "retained, not reused"
+}

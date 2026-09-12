@@ -46,7 +46,7 @@ Fixed manuscript/coverage is the through-G352 edition, not the current frontier.
 Session transition: `HANDOFF.md`.
 
 Banking through G382 is complete; G312 membership unclosed, G352 physical identification OPEN.
-Roadmap closeouts record bank/hold/control dispositions; no automatic successor.
+Consolidated gains/gates: `UDT_CONSOLIDATED_RESEARCH_ACCOUNT.md`; roadmap owns dispositions; no automatic successor.
 Stop for discussion; new work requires checks, fresh separate-context review and bounded same-premise repair.
 
 Backup completeness/pre-reboot unsaved state remain UNVERIFIED; ScratchDisk archive-only.

@@ -1,0 +1,14 @@
+{
+  "command": [
+    "python3",
+    "udt_accepted_work_consolidation_2026-09-12/build_coverage.py"
+  ],
+  "cwd": "/home/udt-admin/udt_mass_codex",
+  "started_utc": "2026-09-12T16:39:33.419677+00:00",
+  "duration_seconds": 0.32745937805157155,
+  "returncode": 0,
+  "timeout": false,
+  "address_space_bytes": 2147483648,
+  "cpu_seconds": 180,
+  "maxrss_kib": 17844
+}

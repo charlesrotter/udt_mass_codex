@@ -1,10 +1,12 @@
 # UDT research roadmap — geometry, dynamics and physical connection
 
-Updated: 2026-09-11. Charles Rotter requested the whole plan on 2026-09-09;
+Updated: 2026-09-12. Charles Rotter requested the whole plan on 2026-09-09;
 its original baseline was `d0fe8b3e5f95c3963dc8702bb4a31485678bd1e3`, branch `grok`.
-Earlier campaigns, G414 banking and TI3 are COMPLETE; TI3 is reviewed conditional UNPROMOTED.
+Earlier campaigns and banking through G414 are COMPLETE; TI3/OB1/ZDR1 remain reviewed conditional UNPROMOTED.
 Current operational handoff: `HANDOFF.md`; the maintained checkpoint below records the reviewed
-ER1 expansion, banking through G414 and the TI3 return. No successor beyond TI3 is authorized.
+ER1 expansion, banking, nonlinear and measurement returns, and the CWA1 consolidation.
+CWA1's authorized documentation scope and final review/closeout are recorded below.
+No successor research campaign is authorized.
 This is a maintained direction document, not a premise, theorem, promotion
 or replacement for LIVE, the exact registry, or reviewed scientific sources.
 
@@ -37,9 +39,12 @@ physical premise is necessary. Current authority:
 Initial configurations, calibration parameters, physical laws and history
 selection are different kinds of input. A useful theory may constrain
 evolution without selecting every initial datum or one unique universe.
-Reconstructing a quantity from a supplied metric is not independently supplied
-content and geometry evolving together. A mathematical current or stable
-configuration is not automatically physical content.
+Reconstructing a quantity from a supplied metric and jointly evolving independently
+supplied content are different accomplishments. G372/G373 already establish the
+latter locally in their restricted analytic OPTIONAL UNADOPTED source branch;
+that branch remains PAUSED. A mathematical current or stable configuration is not
+automatically physical content. The [consolidated account](UDT_CONSOLIDATED_RESEARCH_ACCOUNT.md)
+separates these gains from the named remaining response, assembly and physical gates.
 
 ## Four connected priorities
 
@@ -65,7 +70,7 @@ expansion/curvature histories, the effect of inhomogeneities, robustness under
 legitimate initial data and necessary global assumptions. Do not fit a desired
 history or turn a free constant into a derived scale.
 
-The reviewed UNPROMOTED NE1 ripple result is a foothold: within its supplied
+The conditionally banked G394=NE1 ripple result is a foothold: within its supplied
 polarized family and conditional equation, a fading profile need not imply
 recovery of the unperturbed marked area-rate/tidal geometry. It is not generic
 behavior, stability or a cosmological prediction. Its full source and review
@@ -254,6 +259,46 @@ Conditional results need not wait for physical identification. Review is distinc
 Do not replace this checkpoint with dated status
 variants or infer authority from a planned row. A proposed deviation must state its reason and
 authorization. A coverage row is not a completeness theorem or a scientific premise.
+
+CWA1 adds a reuse check to this same checkpoint. Before proposing new work, consult
+`UDT_CONSOLIDATED_RESEARCH_ACCOUNT.md` and
+`udt_accepted_work_consolidation_2026-09-12/GAP_AND_REUSE_MAP.tsv` after startup orientation.
+Name the nearest accepted answer, the exact unresolved difference, current authority,
+dependencies and retained/released restrictions. A repeated example is useful only
+when it resolves that difference or a changed source invalidates the earlier answer.
+At closeout update the affected gate and bank/hold/control disposition here; preserve
+original evidence. These are continuation rules, not scientific premises or permission.
+
+### CWA1 consolidation checkpoint — 2026-09-12
+
+Charles authorized comprehensive accepted-work consolidation without a time limit.
+The complete initial account and maps were frozen before direct review. One fresh
+separate context first reconstructed the source arguments and a supplement before
+seeing the account; its included direct review and bounded correction/final fidelity
+are recorded in `udt_accepted_work_consolidation_2026-09-12/review/`.
+Current completion is owned by that package's CLOSEOUT.md; draft/review history remains.
+
+The account covers397 current registry entries in22 families and names13 continuation
+jobs. It restores G178's later certification, G322/G324 maximal-development gains,
+NE1's exact positive-time family, G373's optional joint analytic development, and
+RF1's removal of the unrealizable-array extension hurdle. Coverage distinguishes
+direct source review, accepted-synthesis reuse and registry-only trace; it is not397
+new proofs. Existing scientific grades, physical premises, canon, fixed through-G352
+manuscript and protected work remain unchanged.
+
+Recommended next discussion: identify ONE precise unexamined implication before
+proposing another campaign, with the accepted commitment, exact earlier stopping
+argument and substantive difference. Native response after RF1 is a direction;
+relisting its remaining hypotheses is not a new question. Reuse G301/G310--G312,
+ND1/ND2, QC1/QC2, GL1/GL2 and RF1, preserving GR FILTER ONLY. If no distinct implication
+is identified, return the existing choices for discussion and start no campaign.
+Do not repeat quadratic-response nonselection or demand unique-universe selection. Geometric
+expansion remains available: choose a genuinely new restriction/reach target beyond
+TI3, with complete conditional data and its own work order. Neither successor is
+authorized by this checkpoint. TI3/OB1/ZDR1 and OB2 retain their present unpromoted
+scientific/documentary scopes; no promotion occurs in CWA1.
+
+### Existing expansion and observation returns
 
 | Line/stage | Current placement | Evidence or gate |
 |---|---|---|

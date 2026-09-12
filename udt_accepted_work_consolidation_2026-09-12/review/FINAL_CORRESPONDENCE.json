@@ -1,0 +1,35 @@
+{
+  "utc": "2026-09-12T16:56:47.647996+00:00",
+  "meaning": "final byte/census/provenance correspondence only",
+  "corrected_frozen_files": 19,
+  "initial_snapshots_unchanged": 7,
+  "earlier_reviewer_seals_unchanged": 3,
+  "registry_rows": 397,
+  "families": 22,
+  "jobs": 13,
+  "sources": 147,
+  "links": 70,
+  "startup_exposure_corrections": 7,
+  "direct_source_reads_correctly_imported": 10,
+  "dispositions": {
+    "CONTROLLING_SOURCE_SCIENTIFIC_SCOPE_INSPECTED__DEPTH_IN_SOURCE_LEDGER__NOT_REPROVED": 107,
+    "EXACT_REGISTRY_AND_FAMILY_TRACE__ORIGINAL_ARGUMENT_NOT_REOPENED": 207,
+    "CONTROLLING_SOURCE_SEPARATE_CONTEXT_INSPECTED__DEPTH_IN_SOURCE_LEDGER__NOT_REPROVED": 5,
+    "TRACED_THROUGH_ACCEPTED_G255_RECOVERY_AND_EXACT_CURRENT_POINTER__ORIGINAL_NOT_REOPENED": 78
+  },
+  "navigation_diff_matches": [
+    "CURRENT_RESEARCH_PROGRAM.md",
+    "HANDOFF.md",
+    "INDEX.md",
+    "LIVE.md",
+    "MEMORY.md",
+    "UDT_RESEARCH_ROADMAP.md"
+  ],
+  "head": "ab6033469c37f63a0f3aa6527804b7e3cd2f5be6",
+  "origin_grok": "ab6033469c37f63a0f3aa6527804b7e3cd2f5be6",
+  "unrelated_names_preserved": 46,
+  "parent_navigation": "INSPECTED_PASS_359_1_DESELECTED; attributed execution; not rerun",
+  "parent_current_fetch": "attributed checks/preintegration_sync.json; current refs independently match",
+  "publication": "NOT_PERFORMED_OR_APPROVED_AS_COMPLETED_BY_THIS_CHECK",
+  "new_scientific_runs": 0
+}

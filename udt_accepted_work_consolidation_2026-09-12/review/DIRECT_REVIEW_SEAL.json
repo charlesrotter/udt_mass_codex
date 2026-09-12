@@ -1,0 +1,154 @@
+{
+  "sealed_utc": "2026-09-12T16:49:14.727291+00:00",
+  "verdict": "ACCEPT_WITH_DOCUMENTARY_CORRECTIONS__SCIENTIFIC_SCOPE_RETAINED",
+  "reviewer_context": "/root/cwa1_consolidation_review",
+  "runtime_model_version": "UNATTESTED",
+  "different_model": "NOT_ESTABLISHED",
+  "allocation": "same one separate context; no override or subdelegation",
+  "candidate_exposure": "initial candidate after both source-only seals; later parent QC/G333/G337 editorial proposal disclosed",
+  "candidate_correction_cycles_used": 0,
+  "scientific_candidate_defects_found": 0,
+  "documentary_items": [
+    "D1 exposure underreport",
+    "D2 explicit accepted-cluster credit",
+    "D3 next-question reuse gate"
+  ],
+  "direct_stage_source_additions": [
+    {
+      "path": "udt_g275_projective_position_scale_attachment_xmax_separation_2026-08-26/AUDIT_REPORT.md",
+      "sha256": "553548452bb917d8e1e658598977fc6bf731fe54e5922e20b2c01a4e672c187e",
+      "read_depth": "full controlling audit or ledger; originals and scientific implementations not replayed"
+    },
+    {
+      "path": "udt_g276_proper_clock_ce_scale_anchor_reconciliation_2026-08-26/AUDIT_REPORT.md",
+      "sha256": "cc66be850523fac561b411b32d7532069d838a6d6e6800568afd72f5560b862d",
+      "read_depth": "full controlling audit or ledger; originals and scientific implementations not replayed"
+    },
+    {
+      "path": "native_hopfion_topology_audit_2026-07-19/AUDIT_REPORT.md",
+      "sha256": "df0171eb83d75ad175727a8db541df8500b7826edf6059ae63a52f1a1ba15bea",
+      "read_depth": "full controlling audit or ledger; originals and scientific implementations not replayed"
+    },
+    {
+      "path": "native_hopfion_topology_audit_2026-07-19/TOPOLOGY_STATUS_LEDGER.tsv",
+      "sha256": "de154fbb7787759864786c04186a26a4605c447d362112bb482acee064d457e4",
+      "read_depth": "full controlling audit or ledger; originals and scientific implementations not replayed"
+    },
+    {
+      "path": "udt_scientific_arc_recovery_checkpoint_2026-08-04/MASS_BRANCH_AUTHORITY_MAP.tsv",
+      "sha256": "1483331ab0e00bc6f800589edaaf56fff7c670a75292e49a05adc9935a063bdf",
+      "read_depth": "full controlling audit or ledger; originals and scientific implementations not replayed"
+    },
+    {
+      "path": "udt_g348_generic_lorentzian_null_screen_area_theorem_2026-09-04/AUDIT_REPORT.md",
+      "sha256": "b264f4a8959a557884f3e6a668aab68d2831b477caf693f95db7b524c01bd279",
+      "read_depth": "full controlling audit or ledger; originals and scientific implementations not replayed"
+    },
+    {
+      "path": "udt_g349_finite_null_wavefront_patch_area_2026-09-04/AUDIT_REPORT.md",
+      "sha256": "5daf07ed87fd96953d7f989e269aafe3654a6876230725fd7b3bcc1f3188467e",
+      "read_depth": "full controlling audit or ledger; originals and scientific implementations not replayed"
+    },
+    {
+      "path": "udt_quiet_correspondence_campaign_2026-09-10/DECISION_BRIEF.md",
+      "sha256": "4cce8a7ca3fc0da935f2625cb7a8e0fd65ca4ab0053051b0b36a14ba21d5c659",
+      "read_depth": "full controlling brief/audit after parent editorial proposal; original proof/suite not reopened"
+    },
+    {
+      "path": "udt_g333_metric_native_initial_pair_response_2026-09-03/AUDIT_REPORT.md",
+      "sha256": "b9e75533f59a48892efe60faec46b44d64c6f360f21b1abef7817574b93f03b3",
+      "read_depth": "full controlling brief/audit after parent editorial proposal; original proof/suite not reopened"
+    },
+    {
+      "path": "udt_g337_double_silent_third_normal_ownership_2026-09-03/AUDIT_REPORT.md",
+      "sha256": "2994b28b0436a56c99e748920c41859bd7dfee3f7703733bd77c786132a51175",
+      "read_depth": "full controlling brief/audit after parent editorial proposal; original proof/suite not reopened"
+    }
+  ],
+  "files": [
+    {
+      "path": "udt_accepted_work_consolidation_2026-09-12/review/DIRECT_REVIEW.md",
+      "sha256": "94366f7147cc673a5fd329783d5e25ef78cd8ebf73dfdbd268f8392eb23917fe"
+    },
+    {
+      "path": "udt_accepted_work_consolidation_2026-09-12/review/DIRECT_CORRESPONDENCE.json",
+      "sha256": "1d2110ecafc1b7fc26518d419ced1053891fecc96de4f01c8bf79f5e89f4412e"
+    },
+    {
+      "path": "udt_accepted_work_consolidation_2026-09-12/review/direct_correspondence.py",
+      "sha256": "6625bda60bcd180aab5bd7c3c88732bd082a4e9b937c0f4db9d702b41a0db058"
+    },
+    {
+      "path": "udt_accepted_work_consolidation_2026-09-12/review/direct_correspondence_continuation.py",
+      "sha256": "4b966161f2a034b659478d20f453f46752d08c5141da2cac33193ea8633005d7"
+    },
+    {
+      "path": "udt_accepted_work_consolidation_2026-09-12/review/seal_direct_review.py",
+      "sha256": "1034efc966e5647d7a04a6342fb15c4a6c72573359c3d690355a87b17ae57a5f"
+    },
+    {
+      "path": "udt_accepted_work_consolidation_2026-09-12/review/direct_correspondence_capture.json",
+      "sha256": "63af2da261da49bf2ac6bc605829259660f80829f3da99c1d920130420c0de33"
+    },
+    {
+      "path": "udt_accepted_work_consolidation_2026-09-12/review/direct_correspondence_capture.stdout",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "udt_accepted_work_consolidation_2026-09-12/review/direct_correspondence_capture.stderr",
+      "sha256": "79ef67cf952351c92c89e27f2daf09f9c8c090d90c96bb1c6ad1c35e1586c481"
+    },
+    {
+      "path": "udt_accepted_work_consolidation_2026-09-12/review/direct_correspondence_capture.capture_provenance.json",
+      "sha256": "25731eaa567d05b31ba0145ce6ef8cc0c49e5bf69cde46fc3bc29abe4eb0db4d"
+    },
+    {
+      "path": "udt_accepted_work_consolidation_2026-09-12/review/direct_continuation_capture.json",
+      "sha256": "b036c4b92d5ea34973e59e416169a11bfe0c96b1c2dfb356a567f2ddfb48895a"
+    },
+    {
+      "path": "udt_accepted_work_consolidation_2026-09-12/review/direct_continuation_capture.stdout",
+      "sha256": "9055da7c045bff46ea371e3a5359d1c7f27bd98fb98459580cf1484ca54ac693"
+    },
+    {
+      "path": "udt_accepted_work_consolidation_2026-09-12/review/direct_continuation_capture.stderr",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "udt_accepted_work_consolidation_2026-09-12/review/direct_continuation_capture.capture_provenance.json",
+      "sha256": "e304b5bd66f8efab1b6faf406e00e3ed4563ede6d37ef28b76b527b17c372f7b"
+    },
+    {
+      "path": "udt_accepted_work_consolidation_2026-09-12/INITIAL_FREEZE.json",
+      "sha256": "a4e2a907edda267d13169e0baf1c5a1b33b0100962b34a22ccefc0ee634334b1"
+    },
+    {
+      "path": "udt_accepted_work_consolidation_2026-09-12/initial_candidate/UDT_CONSOLIDATED_RESEARCH_ACCOUNT.md",
+      "sha256": "dbed6c5612b627ee9f3de67cf701caccb290aeab34e4e4b19087a045bdf6b8be"
+    },
+    {
+      "path": "udt_accepted_work_consolidation_2026-09-12/initial_candidate/REGISTRY_COVERAGE.tsv",
+      "sha256": "b1951bd7a4c845f33b6df466bccff362826142d72a61af47fb684a593fccf4f6"
+    },
+    {
+      "path": "udt_accepted_work_consolidation_2026-09-12/initial_candidate/FAMILY_MAP.tsv",
+      "sha256": "92e1f4dd7050b1e801961d9c10be85486600e997d892dc6ee957b4eaca028ef9"
+    },
+    {
+      "path": "udt_accepted_work_consolidation_2026-09-12/initial_candidate/GAP_AND_REUSE_MAP.tsv",
+      "sha256": "cb7fdaece098eeaa3bfa28db443378313377750f1841e9eea0d3f2d1e9fc2bfb"
+    },
+    {
+      "path": "udt_accepted_work_consolidation_2026-09-12/initial_candidate/SOURCE_READ_LEDGER.tsv",
+      "sha256": "25ac3356344ededf2005037f90cfeb27e5641264b55890f9f61bdaf02eae563d"
+    },
+    {
+      "path": "udt_accepted_work_consolidation_2026-09-12/initial_candidate/SOURCE_PINS.json",
+      "sha256": "3ffbf1a12e2f6bd4c6a4c59c7f4f58ef8a79fa41f9d26a2c0f233eb71a1ec7c0"
+    },
+    {
+      "path": "udt_accepted_work_consolidation_2026-09-12/initial_candidate/WORK_ORDER.md",
+      "sha256": "01924e2e359a3db7c7fda9e6b95e917897753e8e614cfd39a5c9a8bc68814464"
+    }
+  ]
+}
