@@ -53,7 +53,7 @@ G383--G394: original recipe, HB/BI, nonlinear/localized geometry; G395--G401: re
 G402--G405: null-clock/curvature/kernel expansion; G406--G410: conditional measurement/design math.
 G409=CO2 design, G411=LC2 published benchmark, G412=FW2 finite procedure retain distinct categories.
 Original365 rows/evidence remain unchanged; acceptance/checks: INDEX.
-Consolidated gains/gates: `UDT_CONSOLIDATED_RESEARCH_ACCOUNT.md`; CWA1 review: roadmap.
+Consolidated gains/gates: `UDT_CONSOLIDATED_RESEARCH_ACCOUNT.md`; CWA1/NCB1 review: roadmap.
 
 Optional source branch PAUSED; automatic Hopfion-stabilization mechanism is PAUSED, no rescue.
 GOCE PARKED, eligibility UNRESOLVED/OPEN, enquiry UNSENT—not rejected or awaiting a reply.
@@ -79,7 +79,7 @@ report actual model/instructions/checks. After orientation: `maintenance_agent_c
 dated handoff sequence. General capacity UNVERIFIED; prior passes are historical evidence.
 Availability testing is operational only; the whiteboard's scientific audit is PROPOSED, NOT AUTHORIZED.
 
-Next: G383--G412 exact-scope banking is COMPLETE; G413=TI1/G414=TI2 conditionally banked; TI3/OB1/ZDR1 reviewed conditional UNPROMOTED; OB2 eligibility unresolved: INDEX.
+Next: G383--G412 exact-scope banking is COMPLETE; G413=TI1/G414=TI2 conditionally banked; TI3/OB1/ZDR1/NCB1 reviewed conditional UNPROMOTED; OB2 eligibility unresolved: INDEX.
 G312 membership unclosed; G352 physical-realization: physical identification remains OPEN.
 Stop for lay discussion with Charles; no new campaign is authorized.
 <!-- STARTUP_CURRENT_END -->

@@ -65,7 +65,7 @@ G402--G405 cover null-clock integrability, curvature information and exact metri
 G406--G410 cover conditional measurement/design mathematics; G409=CO2 is a design control.
 G411=LC2 is one published-summary benchmark; G412=FW2 is one failed finite procedure.
 NE1: exact polarized profile decay with cumulative marked-rate/tidal departure; no genericity/stability.
-Fixed through-G352 manuscript unchanged. Consolidated gains/gates: `UDT_CONSOLIDATED_RESEARCH_ACCOUNT.md`; CWA1 review: INDEX.
+Fixed through-G352 manuscript unchanged. Consolidated gains/gates: `UDT_CONSOLIDATED_RESEARCH_ACCOUNT.md`; CWA1/NCB1 review: INDEX.
 
 ### Distinctions for the direction discussion
 
@@ -106,7 +106,7 @@ Protected—do not stage, modify, mine or cite without dispatch:
 
 ### Next gate
 
-G383--G412 exact-scope banking is COMPLETE; G413=TI1/G414=TI2 conditionally banked; TI3/OB1/ZDR1 reviewed conditional UNPROMOTED; OB2 eligibility unresolved: INDEX.
+G383--G412 exact-scope banking is COMPLETE; G413=TI1/G414=TI2 conditionally banked; TI3/OB1/ZDR1/NCB1 reviewed conditional UNPROMOTED; OB2 eligibility unresolved: INDEX.
 G312 membership unclosed; G352 physical-realization: physical identification remains OPEN.
 Stop for lay discussion with Charles; no new campaign is authorized.
 <!-- STARTUP_CURRENT_END -->

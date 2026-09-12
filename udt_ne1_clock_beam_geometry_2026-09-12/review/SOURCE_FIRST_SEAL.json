@@ -1,0 +1,50 @@
+{
+  "stage": "SOURCE_FIRST_SEALED; no NCB1 parent candidate/code/results exposed",
+  "utc": "2026-09-12T17:23:31.619508+00:00",
+  "reviewer": "/root/ncb1_clock_beam_review",
+  "review_started_utc": "2026-09-12T17:18:47+00:00",
+  "aggregate_active_review_limit_minutes": 45,
+  "absolute_return_utc": "2026-09-12T19:17:00+00:00",
+  "scientific_runs_used": 1,
+  "head": "f9408abeeff016210cddbfd9da968d3753091c49",
+  "branch": "grok",
+  "parent_startup": "attributed SESSION_RECORD.json",
+  "parent_full397": "attributed earlier same-session PASS; not rerun",
+  "independence": {
+    "context": "fresh separate context",
+    "model": "runtime UNATTESTED; different model UNTESTED",
+    "implementation": "independently written source-first original symbolic metric connection and curvature; SymPy library",
+    "argument": "source-first reconstruction with work-order route names exposed",
+    "exposure": "AGENTS, bounded CLAUDE method sections, verifier/no-shortcuts/completeness skills, CROSS_MODEL_VERIFY, WORK_ORDER, SESSION_RECORD, SOURCE_PINS, G312 current authority, exact G220/G312/G342/G348/G394 rows, G394 original and reviewed clarification, G342 derivation, G348 definitions, G220 audit, existing capture implementation, G394 METHOD_SOURCES and current NIST DLMF10.17. No NCB1 parent science exposed."
+  },
+  "files": [
+    {
+      "path": "udt_ne1_clock_beam_geometry_2026-09-12/review/SOURCE_FIRST_RECONSTRUCTION.md",
+      "sha256": "db24f302d88778ca3005e42b611fcc9c341db4fd19b4e4cc8edd7f9c5ab3a33f"
+    },
+    {
+      "path": "udt_ne1_clock_beam_geometry_2026-09-12/review/SOURCE_PIN_AUTHENTICATION.json",
+      "sha256": "8a5e2d47dd3ddba9802f7e9beec444cb55d7be26a4c12ab1d92eadb8abe4cc50"
+    },
+    {
+      "path": "udt_ne1_clock_beam_geometry_2026-09-12/review/checks/source_first_symbolic.capture_provenance.json",
+      "sha256": "3c801063a4b64298dd40f857b6d249e28e7d19868c78a3ccaca34d871bdf46cf"
+    },
+    {
+      "path": "udt_ne1_clock_beam_geometry_2026-09-12/review/checks/source_first_symbolic.json",
+      "sha256": "5eb38e2e96fdde93512af47b0b444a787f4ec852edf8f8776244c65d675b127c"
+    },
+    {
+      "path": "udt_ne1_clock_beam_geometry_2026-09-12/review/checks/source_first_symbolic.stderr",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "udt_ne1_clock_beam_geometry_2026-09-12/review/checks/source_first_symbolic.stdout",
+      "sha256": "6ff4e7ca2eec60d0110c9fa31e37aea71484e3bca79c577e03ef665db08b3ff3"
+    },
+    {
+      "path": "udt_ne1_clock_beam_geometry_2026-09-12/review/source_first_symbolic.py",
+      "sha256": "3f6338150ec289fed85199518f889497b57f35c83e4d31da75808cfc429b4da3"
+    }
+  ]
+}

@@ -1,0 +1,190 @@
+{
+  "status": "FAIL",
+  "mutation": "invert_clock",
+  "python": "3.10.12",
+  "sympy": "1.13.1",
+  "checks": [
+    {
+      "name": "null_-1",
+      "pass": true,
+      "defect": "0"
+    },
+    {
+      "name": "affine_geodesic_-1_0",
+      "pass": true,
+      "defect": "0"
+    },
+    {
+      "name": "affine_geodesic_-1_1",
+      "pass": true,
+      "defect": "0"
+    },
+    {
+      "name": "affine_geodesic_-1_2",
+      "pass": true,
+      "defect": "0"
+    },
+    {
+      "name": "affine_geodesic_-1_3",
+      "pass": true,
+      "defect": "0"
+    },
+    {
+      "name": "parallel_screen_-1_2_0",
+      "pass": true,
+      "defect": "0"
+    },
+    {
+      "name": "parallel_screen_-1_2_1",
+      "pass": true,
+      "defect": "0"
+    },
+    {
+      "name": "parallel_screen_-1_2_2",
+      "pass": true,
+      "defect": "0"
+    },
+    {
+      "name": "parallel_screen_-1_2_3",
+      "pass": true,
+      "defect": "0"
+    },
+    {
+      "name": "original_tide_-1_2",
+      "pass": true,
+      "defect": "0"
+    },
+    {
+      "name": "parallel_screen_-1_3_0",
+      "pass": true,
+      "defect": "0"
+    },
+    {
+      "name": "parallel_screen_-1_3_1",
+      "pass": true,
+      "defect": "0"
+    },
+    {
+      "name": "parallel_screen_-1_3_2",
+      "pass": true,
+      "defect": "0"
+    },
+    {
+      "name": "parallel_screen_-1_3_3",
+      "pass": true,
+      "defect": "0"
+    },
+    {
+      "name": "original_tide_-1_3",
+      "pass": true,
+      "defect": "0"
+    },
+    {
+      "name": "mixed_tide_-1",
+      "pass": true,
+      "defect": "0"
+    },
+    {
+      "name": "null_1",
+      "pass": true,
+      "defect": "0"
+    },
+    {
+      "name": "affine_geodesic_1_0",
+      "pass": true,
+      "defect": "0"
+    },
+    {
+      "name": "affine_geodesic_1_1",
+      "pass": true,
+      "defect": "0"
+    },
+    {
+      "name": "affine_geodesic_1_2",
+      "pass": true,
+      "defect": "0"
+    },
+    {
+      "name": "affine_geodesic_1_3",
+      "pass": true,
+      "defect": "0"
+    },
+    {
+      "name": "parallel_screen_1_2_0",
+      "pass": true,
+      "defect": "0"
+    },
+    {
+      "name": "parallel_screen_1_2_1",
+      "pass": true,
+      "defect": "0"
+    },
+    {
+      "name": "parallel_screen_1_2_2",
+      "pass": true,
+      "defect": "0"
+    },
+    {
+      "name": "parallel_screen_1_2_3",
+      "pass": true,
+      "defect": "0"
+    },
+    {
+      "name": "original_tide_1_2",
+      "pass": true,
+      "defect": "0"
+    },
+    {
+      "name": "parallel_screen_1_3_0",
+      "pass": true,
+      "defect": "0"
+    },
+    {
+      "name": "parallel_screen_1_3_1",
+      "pass": true,
+      "defect": "0"
+    },
+    {
+      "name": "parallel_screen_1_3_2",
+      "pass": true,
+      "defect": "0"
+    },
+    {
+      "name": "parallel_screen_1_3_3",
+      "pass": true,
+      "defect": "0"
+    },
+    {
+      "name": "original_tide_1_3",
+      "pass": true,
+      "defect": "0"
+    },
+    {
+      "name": "mixed_tide_1",
+      "pass": true,
+      "defect": "0"
+    },
+    {
+      "name": "quadrature_original_Jacobi",
+      "pass": true,
+      "defect": "0"
+    },
+    {
+      "name": "vertex_unit_affine_slope",
+      "pass": true,
+      "defect": "0"
+    },
+    {
+      "name": "original_tide_trace_on_NE1",
+      "pass": true,
+      "defect": "0"
+    },
+    {
+      "name": "clock_frequency_and_correspondence",
+      "pass": false,
+      "defect": "Ne/No - No/Ne"
+    }
+  ],
+  "failure": "clock_frequency_and_correspondence",
+  "limits": "Exact symbolic predicates; structural zeros and bookkeeping are not independent proofs"
+}

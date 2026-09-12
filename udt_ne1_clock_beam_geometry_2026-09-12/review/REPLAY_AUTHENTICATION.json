@@ -1,0 +1,77 @@
+{
+  "utc": "2026-09-12T17:27:12.806916+00:00",
+  "classification": "Same-code replay and actual hostile regression; not independent derivation",
+  "replays": [
+    {
+      "name": "parent_symbolic_replay",
+      "stdout_matches_author_bytes": true,
+      "stdout_sha256": "f0a81c82196efe98fc125a03a177acf45d44870e3ee64a26ea34ee9d596502b4",
+      "returncode": 0,
+      "status": "PASS",
+      "failure": null,
+      "predicates": 39,
+      "rejected": []
+    },
+    {
+      "name": "parent_numeric_replay",
+      "stdout_matches_author_bytes": true,
+      "stdout_sha256": "2c51bd0dc252eba7459b2553dcedd79f6ac3b66d569f253a70de56b5f17a2525",
+      "returncode": 0,
+      "status": "PASS",
+      "failure": null,
+      "finite_case_count": 64,
+      "max_width_error": 2.3961519034498936e-12,
+      "warnings": []
+    },
+    {
+      "name": "mutant_drop_source_width",
+      "stdout_matches_author_bytes": true,
+      "stdout_sha256": "37eb9a95edbb61b6f117a2d93969ed913432d936cdfc3ceaa1dad0d8a6fbb6df",
+      "returncode": 1,
+      "status": "FAIL",
+      "failure": "vertex_unit_affine_slope",
+      "predicates": 34,
+      "rejected": [
+        {
+          "name": "vertex_unit_affine_slope",
+          "pass": false,
+          "defect": "(1 - be)/be"
+        }
+      ]
+    },
+    {
+      "name": "mutant_invert_clock",
+      "stdout_matches_author_bytes": true,
+      "stdout_sha256": "673ff2ba03c79ccf6b5d8a33254da0f02d1706b49c64727e6c42b87143ee88bb",
+      "returncode": 1,
+      "status": "FAIL",
+      "failure": "clock_frequency_and_correspondence",
+      "predicates": 36,
+      "rejected": [
+        {
+          "name": "clock_frequency_and_correspondence",
+          "pass": false,
+          "defect": "Ne/No - No/Ne"
+        }
+      ]
+    },
+    {
+      "name": "mutant_drop_lapse_response",
+      "stdout_matches_author_bytes": true,
+      "stdout_sha256": "6007da9ff5153349fd0981edcda35007049bdaa08ad95d59e4a8d6d02eea1254",
+      "returncode": 1,
+      "status": "FAIL",
+      "failure": "affine_geodesic_-1_0",
+      "predicates": 2,
+      "rejected": [
+        {
+          "name": "affine_geodesic_-1_0",
+          "pass": false,
+          "defect": "C**2*(4*t*Derivative(a(t, x), t) - 4*t*Derivative(a(t, x), x) + 1)/2"
+        }
+      ]
+    }
+  ],
+  "scientific_runs_used": 7,
+  "scientific_run_budget": 8
+}

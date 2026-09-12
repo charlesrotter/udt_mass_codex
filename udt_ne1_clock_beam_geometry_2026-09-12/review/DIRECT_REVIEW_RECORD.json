@@ -1,0 +1,169 @@
+{
+  "stage": "DIRECT_REVIEW_COMPLETE; final fidelity pending",
+  "verdict": "VERIFIED-WITH-CAVEATS",
+  "utc": "2026-09-12T17:28:53.386431+00:00",
+  "reviewer": "/root/ncb1_clock_beam_review",
+  "scientific_repairs": 0,
+  "head": "f9408abeeff016210cddbfd9da968d3753091c49",
+  "branch": "grok",
+  "initial_freeze_authenticated": {
+    "utc": "2026-09-12T17:22:07.854028+00:00",
+    "exposure": "Parent hand derivation; no new computations or reviewer scientific findings",
+    "sha256": {
+      "WORK_ORDER.md": "c6ab11f13baaf353c293de1c83a50bc9ba1c8a04a38aa99a38aa5b9302fe23f4",
+      "INITIAL_CANDIDATE.md": "8f58d15f3e24bf8878fca2af5c24c95cb7c68dec49bfb2fa175fbe945b54879f",
+      "CHECK_CONTRACT.md": "66a7c3438d65e973b5a39e11d8421ec5c214d59d7891f2fdb25e049b0a37155e"
+    }
+  },
+  "scientific_runs_used": 7,
+  "scientific_runs_limit": 8,
+  "review_elapsed_wall_minutes_upper_bound": 10.106440749999999,
+  "resource_limits": "Each run <=180 seconds/2048 MiB, one library thread; no GPU",
+  "runtime_model_version": "UNATTESTED",
+  "files": [
+    {
+      "path": "udt_ne1_clock_beam_geometry_2026-09-12/review/DIRECT_REVIEW.md",
+      "sha256": "132d8ab192a1bb1101220ed736956e92ce5299c584a8209e215ed2e7463a0f67"
+    },
+    {
+      "path": "udt_ne1_clock_beam_geometry_2026-09-12/review/FINITE_CHECK_CONTRACT.md",
+      "sha256": "86f641381022b52189d87fd3963ef1aa80dc93bec17320959c38b64164de2ae2"
+    },
+    {
+      "path": "udt_ne1_clock_beam_geometry_2026-09-12/review/REPLAY_AUTHENTICATION.json",
+      "sha256": "f5eb5167e4cf1bf01882ddfd3d4c43b17c5ede6633b73ca73a33b8ed6e12fc7a"
+    },
+    {
+      "path": "udt_ne1_clock_beam_geometry_2026-09-12/review/SOURCE_FIRST_RECONSTRUCTION.md",
+      "sha256": "db24f302d88778ca3005e42b611fcc9c341db4fd19b4e4cc8edd7f9c5ab3a33f"
+    },
+    {
+      "path": "udt_ne1_clock_beam_geometry_2026-09-12/review/SOURCE_FIRST_SEAL.json",
+      "sha256": "fb37030af778240f361ef4719fb40c24457bf4c7230e3a0c652ebfd5c52e02a3"
+    },
+    {
+      "path": "udt_ne1_clock_beam_geometry_2026-09-12/review/SOURCE_PIN_AUTHENTICATION.json",
+      "sha256": "8a5e2d47dd3ddba9802f7e9beec444cb55d7be26a4c12ab1d92eadb8abe4cc50"
+    },
+    {
+      "path": "udt_ne1_clock_beam_geometry_2026-09-12/review/checks/full_geodesic.capture_provenance.json",
+      "sha256": "18e02f1904e00129b8e72267399ea0a266f12c5cafb8b0d416c30fbdd5838174"
+    },
+    {
+      "path": "udt_ne1_clock_beam_geometry_2026-09-12/review/checks/full_geodesic.json",
+      "sha256": "8efc8a30edd1d0c3f1398a8591b63964a7855c33ef6ae938a8a7de350150144a"
+    },
+    {
+      "path": "udt_ne1_clock_beam_geometry_2026-09-12/review/checks/full_geodesic.stderr",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "udt_ne1_clock_beam_geometry_2026-09-12/review/checks/full_geodesic.stdout",
+      "sha256": "446bbddfa9ba620aedad9c7bbc0660215414492a0883ad14b26a9548c10561b8"
+    },
+    {
+      "path": "udt_ne1_clock_beam_geometry_2026-09-12/review/checks/mutant_drop_lapse_response.capture_provenance.json",
+      "sha256": "7262ada4cdec8e3fdaec05cfb8889767dc1aecd9f6da8847579f84e87d8ddb41"
+    },
+    {
+      "path": "udt_ne1_clock_beam_geometry_2026-09-12/review/checks/mutant_drop_lapse_response.json",
+      "sha256": "df8177ad4c9118057d48cfbeadba9353187f9fd4b646dd4ff47c73fac4944f04"
+    },
+    {
+      "path": "udt_ne1_clock_beam_geometry_2026-09-12/review/checks/mutant_drop_lapse_response.stderr",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "udt_ne1_clock_beam_geometry_2026-09-12/review/checks/mutant_drop_lapse_response.stdout",
+      "sha256": "6007da9ff5153349fd0981edcda35007049bdaa08ad95d59e4a8d6d02eea1254"
+    },
+    {
+      "path": "udt_ne1_clock_beam_geometry_2026-09-12/review/checks/mutant_drop_source_width.capture_provenance.json",
+      "sha256": "c6361493bcb2b2d20dcb2ac88479033b79d4cc3a787ce324725f6c3c943510c1"
+    },
+    {
+      "path": "udt_ne1_clock_beam_geometry_2026-09-12/review/checks/mutant_drop_source_width.json",
+      "sha256": "e231189a37b762a7f7513156b7ac57623377e71d87598052f64f7aefeecad3f1"
+    },
+    {
+      "path": "udt_ne1_clock_beam_geometry_2026-09-12/review/checks/mutant_drop_source_width.stderr",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "udt_ne1_clock_beam_geometry_2026-09-12/review/checks/mutant_drop_source_width.stdout",
+      "sha256": "37eb9a95edbb61b6f117a2d93969ed913432d936cdfc3ceaa1dad0d8a6fbb6df"
+    },
+    {
+      "path": "udt_ne1_clock_beam_geometry_2026-09-12/review/checks/mutant_invert_clock.capture_provenance.json",
+      "sha256": "ef1c6b4375cb2cf18bc7eade8356597231c65ced1ba93bb4bf79e7806aac43b8"
+    },
+    {
+      "path": "udt_ne1_clock_beam_geometry_2026-09-12/review/checks/mutant_invert_clock.json",
+      "sha256": "2c56bafb470408c484a720e777aba9c047ebb0fa3ba2c51d2439a7df46faaa8f"
+    },
+    {
+      "path": "udt_ne1_clock_beam_geometry_2026-09-12/review/checks/mutant_invert_clock.stderr",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "udt_ne1_clock_beam_geometry_2026-09-12/review/checks/mutant_invert_clock.stdout",
+      "sha256": "673ff2ba03c79ccf6b5d8a33254da0f02d1706b49c64727e6c42b87143ee88bb"
+    },
+    {
+      "path": "udt_ne1_clock_beam_geometry_2026-09-12/review/checks/parent_numeric_replay.capture_provenance.json",
+      "sha256": "83edf970b7b93a749f2e41a90e98f633aaa3dad24d056af340ccb3a398f9e8ae"
+    },
+    {
+      "path": "udt_ne1_clock_beam_geometry_2026-09-12/review/checks/parent_numeric_replay.json",
+      "sha256": "69010f2dc72fae26aeba1d53122cdbf94f4535dca969e542fcd0a5cd7e2dfead"
+    },
+    {
+      "path": "udt_ne1_clock_beam_geometry_2026-09-12/review/checks/parent_numeric_replay.stderr",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "udt_ne1_clock_beam_geometry_2026-09-12/review/checks/parent_numeric_replay.stdout",
+      "sha256": "2c51bd0dc252eba7459b2553dcedd79f6ac3b66d569f253a70de56b5f17a2525"
+    },
+    {
+      "path": "udt_ne1_clock_beam_geometry_2026-09-12/review/checks/parent_symbolic_replay.capture_provenance.json",
+      "sha256": "0647d841bdf7609f321f384cf1c7fb2c38983f36c9a2fa18686bad7e6e5c0b33"
+    },
+    {
+      "path": "udt_ne1_clock_beam_geometry_2026-09-12/review/checks/parent_symbolic_replay.json",
+      "sha256": "4b936be09ed44680743e352a33d8e186beeeea1a3f2d665c55841f485c992e41"
+    },
+    {
+      "path": "udt_ne1_clock_beam_geometry_2026-09-12/review/checks/parent_symbolic_replay.stderr",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "udt_ne1_clock_beam_geometry_2026-09-12/review/checks/parent_symbolic_replay.stdout",
+      "sha256": "f0a81c82196efe98fc125a03a177acf45d44870e3ee64a26ea34ee9d596502b4"
+    },
+    {
+      "path": "udt_ne1_clock_beam_geometry_2026-09-12/review/checks/source_first_symbolic.capture_provenance.json",
+      "sha256": "3c801063a4b64298dd40f857b6d249e28e7d19868c78a3ccaca34d871bdf46cf"
+    },
+    {
+      "path": "udt_ne1_clock_beam_geometry_2026-09-12/review/checks/source_first_symbolic.json",
+      "sha256": "5eb38e2e96fdde93512af47b0b444a787f4ec852edf8f8776244c65d675b127c"
+    },
+    {
+      "path": "udt_ne1_clock_beam_geometry_2026-09-12/review/checks/source_first_symbolic.stderr",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "udt_ne1_clock_beam_geometry_2026-09-12/review/checks/source_first_symbolic.stdout",
+      "sha256": "6ff4e7ca2eec60d0110c9fa31e37aea71484e3bca79c577e03ef665db08b3ff3"
+    },
+    {
+      "path": "udt_ne1_clock_beam_geometry_2026-09-12/review/full_geodesic_check.py",
+      "sha256": "5c2ab0e9e8ffbadca1f1174e1f03005581c91fc18b028188508f2dd960e00f6a"
+    },
+    {
+      "path": "udt_ne1_clock_beam_geometry_2026-09-12/review/source_first_symbolic.py",
+      "sha256": "3f6338150ec289fed85199518f889497b57f35c83e4d31da75808cfc429b4da3"
+    }
+  ]
+}

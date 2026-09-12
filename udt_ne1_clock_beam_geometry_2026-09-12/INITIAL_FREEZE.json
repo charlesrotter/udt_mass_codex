@@ -1,0 +1,9 @@
+{
+  "utc": "2026-09-12T17:22:07.854028+00:00",
+  "exposure": "Parent hand derivation; no new computations or reviewer scientific findings",
+  "sha256": {
+    "WORK_ORDER.md": "c6ab11f13baaf353c293de1c83a50bc9ba1c8a04a38aa99a38aa5b9302fe23f4",
+    "INITIAL_CANDIDATE.md": "8f58d15f3e24bf8878fca2af5c24c95cb7c68dec49bfb2fa175fbe945b54879f",
+    "CHECK_CONTRACT.md": "66a7c3438d65e973b5a39e11d8421ec5c214d59d7891f2fdb25e049b0a37155e"
+  }
+}

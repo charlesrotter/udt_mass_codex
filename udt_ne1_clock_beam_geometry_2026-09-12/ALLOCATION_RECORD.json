@@ -1,0 +1,12 @@
+{
+  "allocation": "/root/ncb1_clock_beam_review",
+  "fresh_context": true,
+  "fork_turns": "none",
+  "allocated_by_actual_spawn": true,
+  "first_observed_running_utc": "2026-09-12T17:22:07.854028+00:00",
+  "parent_and_reviewer_overlap": "Actual simultaneous running reported by list_agents; parent construction in progress",
+  "other_listed_contexts": "CWA1 and ZDR1 completed, not reused",
+  "general_capacity": "UNVERIFIED",
+  "runtime_model": "UNATTESTED",
+  "configured_parent": "gpt-6-astra xhigh, attributed prior config; no override requested"
+}

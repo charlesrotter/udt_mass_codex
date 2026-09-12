@@ -1,0 +1,91 @@
+{
+  "utc": "2026-09-12T17:33:55.939242+00:00",
+  "purpose": "Proportional final fidelity intake after actual direct review,3 editorial clarifications and current checks",
+  "files": [
+    {
+      "path": "udt_ne1_clock_beam_geometry_2026-09-12/REVIEWED_RESULT.md",
+      "sha256": "03f0e6feea2110a56fb45481e25f885bc1cecdf6db9f68df5f3c6153fd6b8b32"
+    },
+    {
+      "path": "udt_ne1_clock_beam_geometry_2026-09-12/DECISION_BRIEF.md",
+      "sha256": "7931200e82d120a24d70af38ed0dc0d74d231de152a8e0d7dc2551634da59cae"
+    },
+    {
+      "path": "udt_ne1_clock_beam_geometry_2026-09-12/CAMPAIGN_LOG.md",
+      "sha256": "ac1594c284041f540badcdb7c88c0d653e20924e7ae7560debb49ae3590d9d35"
+    },
+    {
+      "path": "udt_ne1_clock_beam_geometry_2026-09-12/CLOSEOUT.md",
+      "sha256": "5e12735f6a2d7efbf0f7d24dfd2a26c5932d9e8de5a8b2f486227789e19d13df"
+    },
+    {
+      "path": "udt_ne1_clock_beam_geometry_2026-09-12/EDITORIAL_CLARIFICATION.json",
+      "sha256": "b17a7953ff9c89a3465c1c53c618076869d7bb89d5cc5bf8776ff3b6a0cf7d37"
+    },
+    {
+      "path": "udt_ne1_clock_beam_geometry_2026-09-12/ALLOCATION_RECORD.json",
+      "sha256": "cd5042d1c37c835b7553ddb62ea157bef2bf214090a4f0c71bdf86e41deb0f69"
+    },
+    {
+      "path": "udt_ne1_clock_beam_geometry_2026-09-12/SESSION_RECORD.json",
+      "sha256": "05f35069b23f4ad8d873d52a7e144726a6eee5479dd8620446855f9de1fb65db"
+    },
+    {
+      "path": "udt_ne1_clock_beam_geometry_2026-09-12/SOURCE_PINS.tsv",
+      "sha256": "f6fbfb04ba0f23bed0505d9a2a99e918f0d61cdafbf35284f274edd5183ff48c"
+    },
+    {
+      "path": "udt_ne1_clock_beam_geometry_2026-09-12/INITIAL_FREEZE.json",
+      "sha256": "499db9b55f87f0d6e4b0fbe65376449907960bd43b664db24c912b81663bd33f"
+    },
+    {
+      "path": "udt_ne1_clock_beam_geometry_2026-09-12/AUTHOR_CODE_PINS.json",
+      "sha256": "30bc7f6408815ae5f1d2fac38b4af021fd45d0253063072760edc9b13f525fc3"
+    },
+    {
+      "path": "udt_ne1_clock_beam_geometry_2026-09-12/checks/current_full397.json",
+      "sha256": "bf3502aeb29b28f2247d0c09f0f033906bc5641ace80821efb36b80e9b252eaf"
+    },
+    {
+      "path": "udt_ne1_clock_beam_geometry_2026-09-12/checks/current_full397.stdout",
+      "sha256": "1f5754fac60de94603f5c3aecda2cf2558b05b4f3394a6490cdd44085fc307fa"
+    },
+    {
+      "path": "udt_ne1_clock_beam_geometry_2026-09-12/checks/navigation_final.json",
+      "sha256": "a394b1eb25c5f27c0488e61bfb92fd72105693d22d395e9032a1df2d3abe61ea"
+    },
+    {
+      "path": "udt_ne1_clock_beam_geometry_2026-09-12/checks/navigation_final.stdout",
+      "sha256": "27d0f3f7587b0cfd297bb876c402c81ee9bf2dfeb73c71af1bce42a7b36b83c2"
+    },
+    {
+      "path": "udt_ne1_clock_beam_geometry_2026-09-12/checks/preservation_before_publication.json",
+      "sha256": "97251cb71851c677143f6f6fdc7172aae6c7ead1106f3425befef72b23f0e5f2"
+    },
+    {
+      "path": "LIVE.md",
+      "sha256": "19ff943a2379c419385702d7d2bbc60a6df638f05a7746337204dbb719456262"
+    },
+    {
+      "path": "HANDOFF.md",
+      "sha256": "ed328937b1a6b4395c1a7bb7a1add8f066e52b041da07d42b2ea42ae2ee85be8"
+    },
+    {
+      "path": "CURRENT_RESEARCH_PROGRAM.md",
+      "sha256": "db43987e0d0be96f397ad39dabca2fd49a579471ff671d421771070bb88d6b6b"
+    },
+    {
+      "path": "INDEX.md",
+      "sha256": "9708a6fc8c2232b3060cc32c87cb245328393b01a43bc8f216e6696b05c264e8"
+    },
+    {
+      "path": "MEMORY.md",
+      "sha256": "ceadb002ddf5cd3ccfd5b3de2502bdd7628d5281899ff24fe920a9e59d389c7b"
+    },
+    {
+      "path": "UDT_RESEARCH_ROADMAP.md",
+      "sha256": "b0e4bc9ffc34ec563a62381e5fd1c061674acf92ac6b2bf67c5f4c12507fa77a"
+    }
+  ],
+  "scientific_initial_candidate_unchanged": true
+}

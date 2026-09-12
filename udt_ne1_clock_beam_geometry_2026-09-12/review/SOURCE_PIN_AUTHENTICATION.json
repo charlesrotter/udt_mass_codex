@@ -1,0 +1,116 @@
+{
+  "utc": "2026-09-12T17:23:14.350265+00:00",
+  "pins": [
+    {
+      "path": "AGENTS.md",
+      "expected": "c11d94f25bf58bf3d1cee6fb6bc886ebfac2d7581f5b794244685019bc00d628",
+      "actual": "c11d94f25bf58bf3d1cee6fb6bc886ebfac2d7581f5b794244685019bc00d628"
+    },
+    {
+      "path": "CLAUDE.md",
+      "expected": "b7e524a5b06760e57877a408630228767ae9a394134095f9851bef5d06e17751",
+      "actual": "b7e524a5b06760e57877a408630228767ae9a394134095f9851bef5d06e17751"
+    },
+    {
+      "path": "CURRENT_SCIENTIFIC_PREMISES.tsv",
+      "expected": "2c27fa4b8931672c44b4d778aab0f2a2631c04a5c586358340db1dc763b74f7e",
+      "actual": "2c27fa4b8931672c44b4d778aab0f2a2631c04a5c586358340db1dc763b74f7e"
+    },
+    {
+      "path": "CURRENT_SCIENTIFIC_PREMISES.md",
+      "expected": "7d63e27a32ce19f063e76b8aa9a861039ee5a6d89bbb1536d30e063a889628c3",
+      "actual": "7d63e27a32ce19f063e76b8aa9a861039ee5a6d89bbb1536d30e063a889628c3"
+    },
+    {
+      "path": "verify_current_scientific_premises.py",
+      "expected": "5fb6a8891f02e61c14344dc61fb5ed62539170af3cbf9ada132940e64a639074",
+      "actual": "5fb6a8891f02e61c14344dc61fb5ed62539170af3cbf9ada132940e64a639074"
+    },
+    {
+      "path": "CROSS_MODEL_VERIFY.md",
+      "expected": "2b0509d933d731fbf3f72aa88777a54d3e48a94d4bae3d324087871777f9a007",
+      "actual": "2b0509d933d731fbf3f72aa88777a54d3e48a94d4bae3d324087871777f9a007"
+    },
+    {
+      "path": "udt_gr_filter_reconciliation_2026-09-09/AUTHORITY_RECORD.md",
+      "expected": "80daa0be6d3e1c0ac1b734fea089c4eb487f05bc1e1fbb2fabd69322ca89f28c",
+      "actual": "80daa0be6d3e1c0ac1b734fea089c4eb487f05bc1e1fbb2fabd69322ca89f28c"
+    },
+    {
+      "path": "udt_reviewed_backlog_banking_2026-09-10/BANKING_RECORD.md",
+      "expected": "654b0b2d734685c42d6a1b31740d545ab9299d17a5d5cc32c57e407b800191f1",
+      "actual": "654b0b2d734685c42d6a1b31740d545ab9299d17a5d5cc32c57e407b800191f1"
+    },
+    {
+      "path": "udt_reviewed_backlog_banking_2026-09-10/BANKED_CLAIMS.json",
+      "expected": "4b98b1dea6ce9dc0d62f9fa6183c1379aed534989159b45a208dad93fce12c2e",
+      "actual": "4b98b1dea6ce9dc0d62f9fa6183c1379aed534989159b45a208dad93fce12c2e"
+    },
+    {
+      "path": "udt_nonlinear_ripple_geometry_2026-09-09/INITIAL_CANDIDATE.md",
+      "expected": "49880008dcb5a646d6867e377f6dc84ded692b98250701aba4cab7119ca500de",
+      "actual": "49880008dcb5a646d6867e377f6dc84ded692b98250701aba4cab7119ca500de"
+    },
+    {
+      "path": "udt_nonlinear_ripple_geometry_2026-09-09/REVIEWED_RESULT.md",
+      "expected": "45cc3bc950b76ceed6a1fd49c248688242bc3c008864256de9bb494c1b8bbfaa",
+      "actual": "45cc3bc950b76ceed6a1fd49c248688242bc3c008864256de9bb494c1b8bbfaa"
+    },
+    {
+      "path": "udt_nonlinear_ripple_geometry_2026-09-09/review/DIRECT_REVIEW.md",
+      "expected": "dd5608df50905466383a1bc9dd67e6b23bcececb1d5ff4e0848c87716b98b200",
+      "actual": "dd5608df50905466383a1bc9dd67e6b23bcececb1d5ff4e0848c87716b98b200"
+    },
+    {
+      "path": "udt_nonlinear_ripple_geometry_2026-09-09/METHOD_SOURCES.md",
+      "expected": "5d5923483fd83071e37046eacb83eb01913c4596fe443bf7c93901aac4584e1b",
+      "actual": "5d5923483fd83071e37046eacb83eb01913c4596fe443bf7c93901aac4584e1b"
+    },
+    {
+      "path": "udt_g342_full_null_jacobi_beam_area_2026-09-04/EXACT_DERIVATION.md",
+      "expected": "3906be2e481e04d705715743ce1f73b9ba323742cf9a6cdac57daa3e7e4df9d6",
+      "actual": "3906be2e481e04d705715743ce1f73b9ba323742cf9a6cdac57daa3e7e4df9d6"
+    },
+    {
+      "path": "udt_g342_full_null_jacobi_beam_area_2026-09-04/AUDIT_REPORT.md",
+      "expected": "59eb8948329e58a697cc8f0e66ff46de095bb45d83c5d68696b6496c7d6726d8",
+      "actual": "59eb8948329e58a697cc8f0e66ff46de095bb45d83c5d68696b6496c7d6726d8"
+    },
+    {
+      "path": "udt_g348_generic_lorentzian_null_screen_area_theorem_2026-09-04/EXACT_DERIVATION.md",
+      "expected": "04917cd0336f5c06ee76129f5a8005f5e483e8a6fcdacbb87c96a6e0ad89544c",
+      "actual": "04917cd0336f5c06ee76129f5a8005f5e483e8a6fcdacbb87c96a6e0ad89544c"
+    },
+    {
+      "path": "udt_g348_generic_lorentzian_null_screen_area_theorem_2026-09-04/AUDIT_REPORT.md",
+      "expected": "b264f4a8959a557884f3e6a668aab68d2831b477caf693f95db7b524c01bd279",
+      "actual": "b264f4a8959a557884f3e6a668aab68d2831b477caf693f95db7b524c01bd279"
+    },
+    {
+      "path": "udt_g220_covariant_null_clock_arrow_timelive_lift_2026-08-22/AUDIT_REPORT.md",
+      "expected": "9806ac14f5d0bc419501878627dc79770ba4dd7c50f4f14dee0db216c3d9598f",
+      "actual": "9806ac14f5d0bc419501878627dc79770ba4dd7c50f4f14dee0db216c3d9598f"
+    },
+    {
+      "path": "UDT_CONSOLIDATED_RESEARCH_ACCOUNT.md",
+      "expected": "d767d3f67a5abcf1674627ce469ac6fee3994b1bf8b144df74ada39df9813490",
+      "actual": "d767d3f67a5abcf1674627ce469ac6fee3994b1bf8b144df74ada39df9813490"
+    },
+    {
+      "path": "udt_accepted_work_consolidation_2026-09-12/GAP_AND_REUSE_MAP.tsv",
+      "expected": "750026d5043af2c825232522ebc6d237a260f74e3aa7e6349c9e6af9f39f8843",
+      "actual": "750026d5043af2c825232522ebc6d237a260f74e3aa7e6349c9e6af9f39f8843"
+    },
+    {
+      "path": "udt_reviewed_backlog_banking_2026-09-10/capture_existing.py",
+      "expected": "1b95a783e861a52cc9fc50d3c76c152cb3673fc9045372afafd30da269ffec3f",
+      "actual": "1b95a783e861a52cc9fc50d3c76c152cb3673fc9045372afafd30da269ffec3f"
+    },
+    {
+      "path": "udt_shared_readout_metric_constraint_campaign_2026-09-06/run_capture.py",
+      "expected": "8ff5469ace76bdfc84188915242abbf3baff35516f9ee3f9ba4b1cbfeb2573ef",
+      "actual": "8ff5469ace76bdfc84188915242abbf3baff35516f9ee3f9ba4b1cbfeb2573ef"
+    }
+  ],
+  "reading_scope": "Pin authentication only is not scientific exposure to unread documents; source prose actually exposed is inventoried separately."
+}

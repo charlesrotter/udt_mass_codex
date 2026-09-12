@@ -1,0 +1,163 @@
+{
+  "max_central_endpoint_error": 9.9322259818389e-13,
+  "max_clock_scaled_error": 2.2141399824704422e-11,
+  "max_finest_screen_scaled_error": 5.009068049238301e-08,
+  "max_null_scaled_residual": 6.24743717966032e-16,
+  "method": "full 8D perturbed null geodesics vs screen quadrature; proper-time interval ratio vs clock endpoint formula",
+  "numpy": "2.2.6",
+  "python": "3.10.12",
+  "records": [
+    {
+      "affine_endpoint": 0.4384460353408148,
+      "case": {
+        "epsilon": 0,
+        "length": 0.6,
+        "sign": 1,
+        "te": 0.4,
+        "xe": 0.3
+      },
+      "central_endpoint_error": 4.440892098500626e-16,
+      "clock_from_endpoints": 0.7952707287670506,
+      "clock_from_proper_intervals": 0.7952707287453048,
+      "clock_scaled_error": 2.174582736103048e-11,
+      "coarse_to_fine_reduction": 15.994788320040206,
+      "full_geodesic_differential_errors": [
+        1.8472532736790725e-07,
+        4.618330173844498e-08,
+        1.1549094847129737e-08
+      ],
+      "quadrature_screen_map": [
+        0.4384460353408148,
+        0.4384460353408148
+      ]
+    },
+    {
+      "affine_endpoint": 0.43856070568877126,
+      "case": {
+        "epsilon": 0.16666666666666666,
+        "length": 0.6,
+        "sign": -1,
+        "te": 0.4,
+        "xe": 0.3
+      },
+      "central_endpoint_error": 8.276712648580542e-14,
+      "clock_from_endpoints": 0.80546385733166,
+      "clock_from_proper_intervals": 0.8054638573107463,
+      "clock_scaled_error": 2.0913715204073924e-11,
+      "coarse_to_fine_reduction": 15.997923154415432,
+      "full_geodesic_differential_errors": [
+        2.1525864818405793e-07,
+        5.3815948919400114e-08,
+        1.3455412062324257e-08
+      ],
+      "quadrature_screen_map": [
+        0.4433996070931741,
+        0.4337524104209623
+      ]
+    },
+    {
+      "affine_endpoint": 0.7229165686714651,
+      "case": {
+        "epsilon": -0.5,
+        "length": 1.1,
+        "sign": 1,
+        "te": 1.4,
+        "xe": -0.7
+      },
+      "central_endpoint_error": 4.860556401808935e-13,
+      "clock_from_endpoints": 0.9109585704877938,
+      "clock_from_proper_intervals": 0.9109585704872063,
+      "clock_scaled_error": 5.875300246316328e-13,
+      "coarse_to_fine_reduction": 16.000004592863895,
+      "full_geodesic_differential_errors": [
+        4.590896270917355e-07,
+        1.1477238071044837e-07,
+        2.8693093456766405e-08
+      ],
+      "quadrature_screen_map": [
+        0.7491866417492323,
+        0.6971360490711217
+      ]
+    },
+    {
+      "affine_endpoint": 0.8278236478798628,
+      "case": {
+        "epsilon": 1.2,
+        "length": 0.8,
+        "sign": -1,
+        "te": 1.4,
+        "xe": 0.2
+      },
+      "central_endpoint_error": 5.662137425588298e-15,
+      "clock_from_endpoints": 1.0726560182261808,
+      "clock_from_proper_intervals": 1.0726560182308964,
+      "clock_scaled_error": 4.396154214088942e-12,
+      "coarse_to_fine_reduction": 15.999402306712273,
+      "full_geodesic_differential_errors": [
+        4.642776778585045e-07,
+        1.1607030214744185e-07,
+        2.9018438874039987e-08
+      ],
+      "quadrature_screen_map": [
+        0.7667394138640367,
+        0.8918114223270255
+      ]
+    },
+    {
+      "affine_endpoint": 1.2104474532666862,
+      "case": {
+        "epsilon": 0.5,
+        "length": 2,
+        "sign": -1,
+        "te": 2,
+        "xe": 0.7
+      },
+      "central_endpoint_error": 9.9322259818389e-13,
+      "clock_from_endpoints": 0.9579783365763662,
+      "clock_from_proper_intervals": 0.9579783365542248,
+      "clock_scaled_error": 2.2141399824704422e-11,
+      "coarse_to_fine_reduction": 16.000062499721622,
+      "full_geodesic_differential_errors": [
+        8.014540185317148e-07,
+        2.0036343422086746e-07,
+        5.009068049238301e-08
+      ],
+      "quadrature_screen_map": [
+        1.0240999081635447,
+        1.412403029522342
+      ]
+    },
+    {
+      "affine_endpoint": 0.4861820067164286,
+      "case": {
+        "epsilon": -0.16666666666666666,
+        "length": 0.9,
+        "sign": 1,
+        "te": 3,
+        "xe": -1.2
+      },
+      "central_endpoint_error": 9.670042544485113e-14,
+      "clock_from_endpoints": 0.9381144378743064,
+      "clock_from_proper_intervals": 0.9381144378742091,
+      "clock_scaled_error": 9.725553695716371e-14,
+      "coarse_to_fine_reduction": 16.000018711240557,
+      "full_geodesic_differential_errors": [
+        3.2990047971193093e-07,
+        8.247510446812711e-08,
+        2.0618755869339367e-08
+      ],
+      "quadrature_screen_map": [
+        0.49196709795505983,
+        0.4804370416006665
+      ]
+    }
+  ],
+  "scipy": "1.15.3",
+  "shape": {
+    "angle_offsets": 3,
+    "cases": 6,
+    "geodesic_state_dimension": 8,
+    "screen_axes": 2
+  },
+  "verdict": "PASS"
+}

@@ -1,0 +1,29 @@
+{
+  "utc": "2026-09-12T17:32:54.492516+00:00",
+  "reason": "Fresh reviewer proportional fidelity suggestions, recorded in conversation; scope wording only",
+  "scientific_repairs": 0,
+  "editorial_clarification_cycle": 1,
+  "changes": [
+    {
+      "path": "REVIEWED_RESULT.md",
+      "old": "positive finite endpoint times have the exact clock and two-screen maps",
+      "new": "ordered finite endpoints 0<t_e<t_o<infinity have the exact clock and two-screen maps",
+      "before_sha256": "26907735fe9cfb3ddc10d049f8c72848665137c0cfad0779982d4d20ab9c8bde",
+      "after_sha256": "03f0e6feea2110a56fb45481e25f885bc1cecdf6db9f68df5f3c6153fd6b8b32"
+    },
+    {
+      "path": "DECISION_BRIEF.md",
+      "old": "the infinitesimal beam becomes rounder while its overall area departs\n   more strongly from the background at matched marked orbit area.",
+      "new": "the ratio of the two beam widths approaches one, while its area ratio\n   relative to the background grows without bound at matched marked orbit\n   area. These are late-reception limits, not monotonicity claims.",
+      "before_sha256": "abb710d184af24465983538fc330f681426f977e0487dab7f29ca6f6fa3b3390",
+      "after_sha256": "6010f0e810ff1ebeba619140884fa808ca10b0d016278de3d3f06c72a93a0b33"
+    },
+    {
+      "path": "DECISION_BRIEF.md",
+      "old": "previously unexamined combination in the nonzero-amplitude NE1 family.",
+      "new": "combination not evaluated in those source results, for nonzero-amplitude NE1.",
+      "before_sha256": "6010f0e810ff1ebeba619140884fa808ca10b0d016278de3d3f06c72a93a0b33",
+      "after_sha256": "7931200e82d120a24d70af38ed0dc0d74d231de152a8e0d7dc2551634da59cae"
+    }
+  ]
+}

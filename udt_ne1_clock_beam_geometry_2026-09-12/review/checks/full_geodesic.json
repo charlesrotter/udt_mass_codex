@@ -1,0 +1,14 @@
+{
+  "command": [
+    "python3",
+    "udt_ne1_clock_beam_geometry_2026-09-12/review/full_geodesic_check.py"
+  ],
+  "cwd": "/home/udt-admin/udt_mass_codex",
+  "started_utc": "2026-09-12T17:26:06.574573+00:00",
+  "duration_seconds": 0.375613198033534,
+  "returncode": 0,
+  "timeout": false,
+  "address_space_bytes": 2147483648,
+  "cpu_seconds": 180,
+  "maxrss_kib": 78492
+}

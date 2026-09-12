@@ -1,0 +1,8 @@
+{
+  "utc": "2026-09-12T17:25:44.953612+00:00",
+  "stage": "Parent code/check pin after actual execution; not pre-execution chronology proof",
+  "sha256": {
+    "check_numeric.py": "b7e69ea77c766b7e7b6fead0a35cab96aeada62ebcfaae6d37bba8cc723eb3ab",
+    "check_symbolic.py": "155d878001be6c9c3437908a191b06e250ceb75a967b27d7c4d67dcf7c49865a"
+  }
+}

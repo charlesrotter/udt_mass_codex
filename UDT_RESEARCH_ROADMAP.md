@@ -5,8 +5,8 @@ its original baseline was `d0fe8b3e5f95c3963dc8702bb4a31485678bd1e3`, branch `gr
 Earlier campaigns and banking through G414 are COMPLETE; TI3/OB1/ZDR1 remain reviewed conditional UNPROMOTED.
 Current operational handoff: `HANDOFF.md`; the maintained checkpoint below records the reviewed
 ER1 expansion, banking, nonlinear and measurement returns, and the CWA1 consolidation.
-CWA1's authorized documentation scope and final review/closeout are recorded below.
-No successor research campaign is authorized.
+CWA1's consolidation and NCB1's latest clock/beam return are recorded below.
+NCB1 is reviewed conditional UNPROMOTED; no successor research campaign is authorized.
 This is a maintained direction document, not a premise, theorem, promotion
 or replacement for LIVE, the exact registry, or reviewed scientific sources.
 
@@ -297,6 +297,46 @@ expansion remains available: choose a genuinely new restriction/reach target bey
 TI3, with complete conditional data and its own work order. Neither successor is
 authorized by this checkpoint. TI3/OB1/ZDR1 and OB2 retain their present unpromoted
 scientific/documentary scopes; no promotion occurs in CWA1.
+
+### NCB1 clock/beam checkpoint — 2026-09-12
+
+Charles's “Go with your recommendation” authorized the NE1 optical-geometry
+extension, within stages 4–5 of the same roadmap. The exact reuse difference
+was nonzero-amplitude NE1 clock/Jacobi evaluation and persistence, beyond
+G394's metric/marked-rate result and G342's background beam. G220/G348's
+clock/quotient-screen tools are reused. The complete positive-time NE1
+geometry is supplied; this is not another local time-jet construction.
+
+`udt_ne1_clock_beam_geometry_2026-09-12/WORK_ORDER.md` fixes the two-hour scope,
+one fresh source-first/direct review and bounded repair/re-review. Its
+REVIEWED_RESULT.md and review/DIRECT_REVIEW.md own the exact conditional
+result; CLOSEOUT.md owns actual audit, final-fidelity and publication status.
+The original candidate was frozen before reviewer findings; no scientific
+repair was needed. Full perturbed-geodesic checks supplement original-metric
+Jacobi checks; different-model and physical identification are not inferred.
+
+Within the supplied polarized family and areal observers, both axial signs
+have exact positive two-screen maps and clock contrast relative to the
+background. Fixed initial emission with late reception gives growing clock
+and area contrasts while the width ratio tends to one. A fixed marked path
+repeated at late emission gives a bounded persistent, generally oscillating
+clock contrast. These are different limits; fixed marked path is not fixed
+proper baseline, and infinitesimal metric spread is not physical light flux.
+Current G312 GR FILTER ONLY, supplied geometry/data/observer restrictions and
+all open native-assembly/physical gates remain. No SNe fit or instrument work.
+
+Restrictions released: zero-amplitude background readout and short-time reach
+for this specific join. Retained: polarized one-mode family, longitudinal
+central rays, supplied areal observers/markings and infinitesimal screens.
+No generic stability, nonaxial caustic or complete physical history follows.
+The conditional geometry's governing equation is not adopted as native UDT.
+
+Disposition: **hold for Charles's exact-scope scientific promotion decision
+and normal banking checks**; retain reviewed conditional UNPROMOTED status.
+Physical identification is not required to bank the conditional mathematics.
+Next discussion: promotion, then one precisely bounded nonaxial reach target.
+No successor is dispatched. TI3/OB1/ZDR1 and OB2 retain their earlier holds;
+original sources, registry grades and fixed through-G352 manuscript are unchanged.
 
 ### Existing expansion and observation returns
 
