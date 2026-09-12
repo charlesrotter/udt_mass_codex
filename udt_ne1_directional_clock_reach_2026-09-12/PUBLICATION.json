@@ -1,0 +1,29 @@
+{
+  "utc": "2026-09-12T21:30:16.837058+00:00",
+  "status": "NCR1_REVIEWED_CONDITIONAL_UNPROMOTED_COMMITTED_AND_PUSHED",
+  "candidate_commit": "b72d74558e3d893dd889de1d4a45c9b18b3d7729",
+  "origin_grok_at_verification": "b72d74558e3d893dd889de1d4a45c9b18b3d7729",
+  "branch": "grok",
+  "commit_parent": "314704f5fb52174e7ef57c686bed02e106e3ab9a",
+  "committed_paths_authenticated_to_index": 104,
+  "index_check_sha256": "8dcc3ac80994c3fd1a03ccf26e2df6cd09d25be7d3eeda619fb3884f42711e7d",
+  "git_execution_sha256": "fe58a90e172a568f8419387914cc0baa7205b22b281352996d4cd63af28e37a1",
+  "registry398_byte_unchanged": true,
+  "original46_name_status_preserved": true,
+  "tracked_worktree_clean_after_candidate_commit": true,
+  "full398": "Actual new PASS406.54052357096225s; pre-navigation snapshot",
+  "navigation": "359pass/1duplicate-full-audit-wrapper deselected, before and after editorial clarification",
+  "scientific_verdict": "VERIFIED-WITH-CAVEATS; ENTIRE frozen candidate(1)-(14) plus credited addendum(A1)-(A3); conditional UNPROMOTED",
+  "final_fidelity": "PASS WITH CAVEATS",
+  "review_allocation": {
+    "contexts": 1,
+    "actual_seal": "2026-09-12T21:26:59.844227+00:00",
+    "whole_elapsed_conservative_upper_bound_seconds": 1800,
+    "active_budget_seconds": 2400,
+    "general_capacity": "UNVERIFIED"
+  },
+  "study_elapsed_at_receipt_seconds": 1990.837058,
+  "hard_return": "2026-09-12T22:57:06+00:00",
+  "scope": "Complete reviewed candidate1-14 plus credited addendumA1-A3, no promotion/physical adoption/canon/successor. This receipt records the completed candidate push. Its own subsequent commit/push is checked by final tool record.",
+  "preservation": "Scientific sources, G415/registry, protected payloads, CANON, fixed manuscript and CWA1 snapshot unchanged. Backup/pre-reboot unsaved disposition UNVERIFIED."
+}
