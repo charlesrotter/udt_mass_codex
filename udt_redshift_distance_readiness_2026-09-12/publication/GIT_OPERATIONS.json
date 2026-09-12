@@ -1,0 +1,55 @@
+{
+  "scope": "Actual parent tool responses for ZDR1 evidence staging, commit and push; metadata publication occurs afterward",
+  "operations": [
+    {
+      "command": "git add -- LIVE.md HANDOFF.md CURRENT_RESEARCH_PROGRAM.md INDEX.md UDT_RESEARCH_ROADMAP.md udt_redshift_distance_readiness_2026-09-12",
+      "result": {
+        "chunk_id": "350b18",
+        "wall_time_seconds": 0.000001931,
+        "exit_code": 0,
+        "original_token_count": 0,
+        "output": ""
+      }
+    },
+    {
+      "command": "git add -f -- udt_redshift_distance_readiness_2026-09-12/checks/conditional_joins.stdout udt_redshift_distance_readiness_2026-09-12/checks/current_full397.stdout udt_redshift_distance_readiness_2026-09-12/checks/final_navigation.stdout udt_redshift_distance_readiness_2026-09-12/checks/final_scope.stdout udt_redshift_distance_readiness_2026-09-12/checks/postclarification_navigation.stdout udt_redshift_distance_readiness_2026-09-12/review/direct_worldline_check.stdout udt_redshift_distance_readiness_2026-09-12/review/source_first_math.stdout",
+      "result": {
+        "chunk_id": "48c615",
+        "wall_time_seconds": 0.000002193,
+        "exit_code": 0,
+        "original_token_count": 0,
+        "output": ""
+      }
+    },
+    {
+      "command": "git commit -m 'Record reviewed conditional redshift-distance readiness checkpoint'",
+      "result": {
+        "chunk_id": "0a5dff",
+        "wall_time_seconds": 0.000002523,
+        "exit_code": 0,
+        "original_token_count": 1418,
+        "output": "[grok efa645a1] Record reviewed conditional redshift-distance readiness checkpoint\n 64 files changed, 2803 insertions(+), 5 deletions(-)\n create mode 100644 udt_redshift_distance_readiness_2026-09-12/CHECK_HISTORY.md\n create mode 100644 udt_redshift_distance_readiness_2026-09-12/CLOSEOUT.md\n create mode 100644 udt_redshift_distance_readiness_2026-09-12/DECISION_BRIEF.md\n create mode 100644 udt_redshift_distance_readiness_2026-09-12/FRAME_AND_EXPOSURE.md\n create mode 100644 udt_redshift_distance_readiness_2026-09-12/INITIAL_CANDIDATE.md\n create mode 100644 udt_redshift_distance_readiness_2026-09-12/INITIAL_REVIEW_FREEZE.json\n create mode 100644 udt_redshift_distance_readiness_2026-09-12/PACKAGE_MANIFEST.json\n create mode 100644 udt_redshift_distance_readiness_2026-09-12/REVIEWED_RESULT.md\n create mode 100644 udt_redshift_distance_readiness_2026-09-12/SESSION_RECORD.md\n create mode 100644 udt_redshift_distance_readiness_2026-09-12/SOURCE_FIRST_REVIEW_TASK.md\n create mode 100644 udt_redshift_distance_readiness_2026-09-12/SOURCE_PINS.json\n create mode 100644 udt_redshift_distance_readiness_2026-09-12/SOURCE_PRESERVING_CLARIFICATION.md\n create mode 100644 udt_redshift_distance_readiness_2026-09-12/STARTUP_RECORD.json\n create mode 100644 udt_redshift_distance_readiness_2026-09-12/WORK_ORDER.md\n create mode 100644 udt_redshift_distance_readiness_2026-09-12/checks/capture_scope.py\n create mode 100644 udt_redshift_distance_readiness_2026-09-12/checks/check_conditional_joins.py\n create mode 100644 udt_redshift_distance_readiness_2026-09-12/checks/conditional_joins.capture_provenance.json\n create mode 100644 udt_redshift_distance_readiness_2026-09-12/checks/conditional_joins.json\n create mode 100644 udt_redshift_distance_readiness_2026-09-12/checks/conditional_joins.stderr\n create mode 100644 udt_redshift_distance_readiness_2026-09-12/checks/conditional_joins.stdout\n create mode 100644 udt_redshift_distance_readiness_2026-09-12/checks/current_full397.capture_provenance.json\n create mode 100644 udt_redshift_distance_readiness_2026-09-12/checks/current_full397.json\n create mode 100644 udt_redshift_distance_readiness_2026-09-12/checks/current_full397.stderr\n create mode 100644 udt_redshift_distance_readiness_2026-09-12/checks/current_full397.stdout\n create mode 100644 udt_redshift_distance_readiness_2026-09-12/checks/final_navigation.capture_provenance.json\n create mode 100644 udt_redshift_distance_readiness_2026-09-12/checks/final_navigation.json\n create mode 100644 udt_redshift_distance_readiness_2026-09-12/checks/final_navigation.stderr\n create mode 100644 udt_redshift_distance_readiness_2026-09-12/checks/final_navigation.stdout\n create mode 100644 udt_redshift_distance_readiness_2026-09-12/checks/final_scope.capture_provenance.json\n create mode 100644 udt_redshift_distance_readiness_2026-09-12/checks/final_scope.json\n create mode 100644 udt_redshift_distance_readiness_2026-09-12/checks/final_scope.stderr\n create mode 100644 udt_redshift_distance_readiness_2026-09-12/checks/final_scope.stdout\n create mode 100644 udt_redshift_distance_readiness_2026-09-12/checks/postclarification_navigation.capture_provenance.json\n create mode 100644 udt_redshift_distance_readiness_2026-09-12/checks/postclarification_navigation.json\n create mode 100644 udt_redshift_distance_readiness_2026-09-12/checks/postclarification_navigation.stderr\n create mode 100644 udt_redshift_distance_readiness_2026-09-12/checks/postclarification_navigation.stdout\n create mode 100644 udt_redshift_distance_readiness_2026-09-12/review/DIRECT_REVIEW.md\n create mode 100644 udt_redshift_distance_readiness_2026-09-12/review/DIRECT_REVIEW_SEAL.json\n create mode 100644 udt_redshift_distance_readiness_2026-09-12/review/FINAL_FIDELITY.json\n create mode 100644 udt_redshift_distance_readiness_2026-09-12/review/FINAL_FIDELITY.md\n create mode 100644 udt_redshift_distance_readiness_2026-09-12/review/FINAL_METADATA_CHECK.json\n create mode 100644 udt_redshift_distance_readiness_2026-09-12/review/FOCUSED_RE_REVIEW.md\n create mode 100644 udt_redshift_distance_readiness_2026-09-12/review/FOCUSED_RE_REVIEW_SEAL.json\n create mode 100644 udt_redshift_distance_readiness_2026-09-12/review/INTERIM_FIDELITY.json\n create mode 100644 udt_redshift_distance_readiness_2026-09-12/review/LATE_DOMAIN_OBJECTION.md\n create mode 100644 udt_redshift_distance_readiness_2026-09-12/review/SOURCE_FIRST_ASSESSMENT.md\n create mode 100644 udt_redshift_distance_readiness_2026-09-12/review/SOURCE_FIRST_SEAL.json\n create mode 100644 udt_redshift_distance_readiness_2026-09-12/review/direct_worldline_check.capture_provenance.json\n create mode 100644 udt_redshift_distance_readiness_2026-09-12/review/direct_worldline_check.json\n create mode 100644 udt_redshift_distance_readiness_2026-09-12/review/direct_worldline_check.py\n create mode 100644 udt_redshift_distance_readiness_2026-09-12/review/direct_worldline_check.stderr\n create mode 100644 udt_redshift_distance_readiness_2026-09-12/review/direct_worldline_check.stdout\n create mode 100644 udt_redshift_distance_readiness_2026-09-12/review/source_first_math.capture_provenance.json\n create mode 100644 udt_redshift_distance_readiness_2026-09-12/review/source_first_math.json\n create mode 100644 udt_redshift_distance_readiness_2026-09-12/review/source_first_math.py\n create mode 100644 udt_redshift_distance_readiness_2026-09-12/review/source_first_math.stderr\n create mode 100644 udt_redshift_distance_readiness_2026-09-12/review/source_first_math.stdout\n create mode 100644 udt_redshift_distance_readiness_2026-09-12/sources/DES_METHOD_FACTS.md\n create mode 100644 udt_redshift_distance_readiness_2026-09-12/sources/DES_SOURCE.json\n"
+      }
+    },
+    {
+      "command": "git push origin grok",
+      "result": {
+        "chunk_id": "b697d1",
+        "wall_time_seconds": 1.001037716,
+        "session_id": 86392,
+        "original_token_count": 0,
+        "output": ""
+      }
+    },
+    {
+      "operation": "wait for push session 86392",
+      "result": {
+        "chunk_id": "4d85b6",
+        "wall_time_seconds": 0.000001869,
+        "exit_code": 0,
+        "original_token_count": 23,
+        "output": "To https://github.com/charlesrotter/udt_mass_codex.git\n   89254616..efa645a1  grok -> grok\n"
+      }
+    }
+  ]
+}
