@@ -1,0 +1,22 @@
+{
+  "recorded_utc": "2026-09-12T23:46:43.248036+00:00",
+  "scientific_status": "REVIEWED_CONDITIONAL_UNPROMOTED",
+  "branch": "grok",
+  "science_commit": "a5d9c017dbdfd348a137483667c68ec389f79309",
+  "verified_origin_grok": "a5d9c017dbdfd348a137483667c68ec389f79309",
+  "science_push_exit": 0,
+  "science_changed_paths": 96,
+  "package_paths": 91,
+  "navigation_paths": 5,
+  "manifest_entries_verified": 89,
+  "original_51_untracked_paths_preserved": true,
+  "protected_payload_bytes_inspected": false,
+  "tracked_science_files_clean": true,
+  "elapsed_from_conservative_campaign_start_seconds": 1815.248036,
+  "within_two_hour_budget": true,
+  "review_seconds_upper_bound": 1249.509255,
+  "registry_grade_changes": false,
+  "fixed_manuscript_changes": false,
+  "canon_changes": false,
+  "receipt_scope": "Actual science commit/push and correspondence. Four later mechanical receipt files are separate; their own commit is identified by git history and checked after publication in the executing session."
+}
