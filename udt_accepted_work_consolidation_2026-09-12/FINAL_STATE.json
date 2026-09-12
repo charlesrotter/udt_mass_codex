@@ -1,0 +1,32 @@
+{
+  "backup_completeness": "UNVERIFIED",
+  "branch": "grok",
+  "checked_head": "d71273c9aeaf2eda8f2db83aa464f9ef7e452fc9",
+  "checked_origin_grok": "d71273c9aeaf2eda8f2db83aa464f9ef7e452fc9",
+  "checked_utc": "2026-09-12T17:04:50.935851+00:00",
+  "evidence_commit": "0027afbda0d42dc54ebe2a4fbcb74fdffeac6943",
+  "general_agent_capacity": "UNVERIFIED",
+  "next_action": "Stop for lay discussion; no new native-response implication ready for dispatch was identified; no successor campaign started",
+  "original_name_status_sha256": "55e7c4508622f912730f9c068cc571c370b3977bc1110eb0a48a8218dbe024c2",
+  "original_untracked_name_status_count": 46,
+  "pre_reboot_unsaved_state": "UNVERIFIED",
+  "protected_payloads": "Not read or modified",
+  "published_operational_receipts": 8,
+  "receipt_sha256": {
+    "udt_accepted_work_consolidation_2026-09-12/PUBLICATION.json": "032d6f16e676e4d005f523c2ab7d539046f6ef4e15e2ce9d767533c9b57effd1",
+    "udt_accepted_work_consolidation_2026-09-12/publication/COMMIT_MESSAGE.txt": "ba5aeb95d7d91e54f422013b28cda30e25ba7cc929b60f7438f45fe2219b00ad",
+    "udt_accepted_work_consolidation_2026-09-12/publication/GIT_OPERATIONS.json": "115299938ecdae5f976f85dc94974e7cf4fc37a0b37b6162b1ac858b134746a1",
+    "udt_accepted_work_consolidation_2026-09-12/publication/STAGING_AUDIT.json": "f8af0918444a3c38d56530e2affed033e62bced278df7095120bc2bb5f1c16b0",
+    "udt_accepted_work_consolidation_2026-09-12/publication/WHITESPACE_AUDIT.json": "5f4b15b29bcb240dfb490febbd85f79a1e5463cddc849c779d70e9df868a3fa4",
+    "udt_accepted_work_consolidation_2026-09-12/publication/WHITESPACE_CLASSIFICATION.json": "a45fa11b2954566cad10172a727dc8c72bd3ddfef2b7e0593a78d7a54777520e",
+    "udt_accepted_work_consolidation_2026-09-12/publication/staged_whitespace_default.stderr": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "udt_accepted_work_consolidation_2026-09-12/publication/staged_whitespace_default.stdout": "3612efd05971ef78acb47efd920ba7f42e8b0d6e8fb778f3af932cb5ec49caa4"
+  },
+  "review": "One separate context; source-first plus direct review and single documentary correction accepted; no open objections",
+  "reviewed_evidence_files_unchanged": 125,
+  "runtime_model_version": "UNATTESTED",
+  "scientific_changes": "None; registry/premises/CANON/fixed manuscript unchanged",
+  "self_publication": "This record was created after the checked receipt commit was pushed. Its own later archival commit is verified in the final tool check, not self-referentially claimed here.",
+  "status": "COMPLETE_AFTER_EVIDENCE_AND_RECEIPT_PUBLICATION",
+  "tracked_clean_at_check": true
+}
