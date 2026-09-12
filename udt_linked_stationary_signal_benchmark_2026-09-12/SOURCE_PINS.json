@@ -1,0 +1,23 @@
+{
+  "AGENTS.md": "f4862a564c8a2a98554ee4af23b89bd21deb679db6f9739880e808c7f6371c89",
+  "CLAUDE.md": "b7e524a5b06760e57877a408630228767ae9a394134095f9851bef5d06e17751",
+  "LIVE.md": "90fd93e60b04b6ce3a7603322d7a18c79cf9d318e10add9de0f2f7cb23fb5e6d",
+  "HANDOFF.md": "326dbfb0b6f46f9e5358803e9dc43fd820f0fb2b629d9ae3ccf03c5addbc099b",
+  "CURRENT_RESEARCH_PROGRAM.md": "bb94b35a77e4c5fe20191e8e554279f457caf613ca0b523b244795d95d93ee7d",
+  "CURRENT_SCIENTIFIC_PREMISES.md": "cd5e3ed21a5e437d81b12f68bdfa4586441621d1f14f32c64e2bf3696467976c",
+  "CURRENT_SCIENTIFIC_PREMISES.tsv": "c614575c251a0e110146ae30b8c6f87d7d01862e3eab2da861b43c33537168e2",
+  "verify_current_scientific_premises.py": "6575bd0a99a39cc2a4f387a74ffb69e153f3fcdb195a689e135f88f37e748dec",
+  "INDEX.md": "d11739a5ab21c8836ec1fa42bc98502e7d64212cd36d34131a52abd2458c7d00",
+  "MEMORY.md": "3472ab0a1523cdb4e4b7586c86ddf9d7c01bb415727102f419fd24610ef273ea",
+  "UDT_RESEARCH_ROADMAP.md": "2062c73e3ef4fc9a6fa59562c2c99f21d86e6660e1e00104d5f327795629b875",
+  "CANON.md": "047b7fbbc1acacf01d2716e3c98cdefd0b9b20136ac4a3306f55dd6775465250",
+  "udt_gr_filter_reconciliation_2026-09-09/AUTHORITY_RECORD.md": "80daa0be6d3e1c0ac1b734fea089c4eb487f05bc1e1fbb2fabd69322ca89f28c",
+  "udt_native_response_discrimination_2026-09-09/step_01/CANDIDATE.md": "5b20cb544d5a1630201be50eb3ee3ce513cf1a4801a278bd5e6f2101fd9bf838",
+  "udt_reviewed_backlog_banking_2026-09-10/BANKING_RECORD.md": "654b0b2d734685c42d6a1b31740d545ab9299d17a5d5cc32c57e407b800191f1",
+  "udt_reviewed_backlog_banking_2026-09-10/BANKED_CLAIMS.json": "4b98b1dea6ce9dc0d62f9fa6183c1379aed534989159b45a208dad93fce12c2e",
+  "udt_quiet_correspondence_campaign_2026-09-10/step_01/CANDIDATE.md": "1a2a8439f2591631fd52e92b6c1c45c8a6e4e8e60a59c5e4b8642045cd2d5571",
+  "udt_g220_covariant_null_clock_arrow_timelive_lift_2026-08-22/AUDIT_REPORT.md": "9806ac14f5d0bc419501878627dc79770ba4dd7c50f4f14dee0db216c3d9598f",
+  "udt_g220_covariant_null_clock_arrow_timelive_lift_2026-08-22/EXACT_DERIVATION.md": "0e5b33a0c013def973bdca369944d99a84fe278614cae1794e7cb50b56db0f6f",
+  "udt_reviewed_backlog_banking_2026-09-10/capture_existing.py": "1b95a783e861a52cc9fc50d3c76c152cb3673fc9045372afafd30da269ffec3f",
+  "udt_shared_readout_metric_constraint_campaign_2026-09-06/run_capture.py": "8ff5469ace76bdfc84188915242abbf3baff35516f9ee3f9ba4b1cbfeb2573ef"
+}

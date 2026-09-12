@@ -440,9 +440,71 @@ Actual current398, candidate checks, hostile variants, source-first review,
 allocation/preservation and publication are recorded in CLOSEOUT.md and review/.
 Disposition: **hold for Charles's exact-scope promotion decision**. NCR1 also
 remains unpromoted; physical identification is not a prerequisite for conditional
-banking. Next discussion may choose the named general-tilt focusing question or
-an independently calibrated joint test; neither successor is dispatched here.
+banking. Charles subsequently authorized the first linked stationary conditional
+signal benchmark LSB1 below; general-tilt focusing was not dispatched by that choice.
 Original evidence, registry grades, fixed manuscript and CWA1 snapshot are preserved.
+
+### LSB1 linked stationary conditional signals — 2026-09-12
+
+Charles authorized the proposed first virtual-observation benchmark: two hours
+including one fresh adversarial reviewer (40-minute ceiling) and bounded repairs.
+WORK_ORDER.md in `udt_linked_stationary_signal_benchmark_2026-09-12/` owns the
+question, exact protocol, resources and stops. This advances the conditional
+measurement bridge and CWA1 J11 by turning a supplied geometry into joint
+clock/direction/timing predictions. G260/G395 supply the complete stationary
+one-function spherical family; G397 and G220 supply existing clock scope.
+G176's completed clock-leg interpretation remains WORKING. No native response
+law or physical light/energy premise is adopted; G312 remains GR FILTER ONLY.
+
+Return: that package's REVIEWED_RESULT.md, DECISION_BRIEF.md and original
+INITIAL_CANDIDATE.md equations (1)–(12) with CANDIDATE_CLARIFICATIONS.md,
+**VERIFIED-WITH-CAVEATS, reviewed conditional UNPROMOTED**. Three distinct known
+static radii and two clock slope ratios exactly identify both coefficients of
+f=1+a r²+b/r at every consistent positive family member. An additional clock
+ratio, local sky angle and single-clock round-trip time remain unused outputs
+if calibration/scale/layout/branch were supplied without using those targets.
+An ideal instantaneous direction-reversing relay is explicit. Unused for fitting
+does not mean statistically independent; actual apparatus/noise remains unsupplied.
+
+At fixed finite endpoint orbit branch, coordinate shape is independent of a,
+while its nonturning endpoint measured angle changes strictly with a. The exact
+clock/time formulas also retain a; finite examples show changed proper round-trip
+times. This supports joint records without a universal claim against linearization
+or frozen slices.
+Static symmetry, one-function family, positive bounded domain and regular chosen
+one-periapse branch remain restrictions. Both a and b were retained, with exact
+equations and no weak-field replacement. Neither parameter nor L is selected or
+identified as physical mass/content; same metric/rules imply the same records
+in another theory, so correspondence is not distinctive UDT evidence.
+
+All nine frozen examples, exact anchors and tighter checks passed. The fresh
+review independently reconstructed the main argument and compared separate affine
+geodesic integration to parent radial quadrature, including original null residuals.
+Three scope clarifications were accepted; no equation/sample/tolerance repair.
+Original candidate, deliberate failed variants and review history are preserved.
+Actual new full398 audit, navigation, allocation/overlap and publication receipts
+are in CLOSEOUT.md and review/. Numerical agreement is not interval certification.
+
+Disposition: **hold LSB1 for Charles's separate exact-scope promotion decision**;
+physical identification is not a prerequisite for conditional banking. Retain
+finite illustrations and defect injections as controls. TI3/OB1/ZDR1/NCR1/NTB1
+and OB2 keep their existing holds; fixed manuscript and CWA1 snapshot are unchanged.
+
+The conditional-signal program has the following continuation gates. Only its
+first row was dispatched and is now complete; the other rows are proposals.
+
+| Exploration | Reuse and next unresolved difference |
+|---|---|
+| Linked stationary clock/angle/time benchmark | LSB1 complete at its reviewed conditional scope |
+| Beam shape and path multiplicity | Reuse G348/G349/G415 and conditional NTB1; do not repeat their exact beam results or infer general multiple-image/caustic coverage |
+| Repeated signals in evolving geometry | Proposed next discussion: combine existing metric/beam results at prescribed source and receiver worldlines, addressing marked-slice versus fixed-apparatus comparison |
+| Route and loop timing | Reuse G405/OB1; distinguish free geodesics from explicitly supplied relays/guides and later causal returns |
+| Redshift, duration and area together | Reuse G220/G348 and conditional ZDR1 on a supplied evolving history; no automatic SNe fit, flux law or new dataset |
+
+Before another campaign name the new question, retained/released restrictions,
+calibration/output split, review/resource budget and return. Native equation and
+assembly work remains parallel open science, not a blanket prerequisite for a
+conditional signal model. No automatic successor, promotion or physical adoption.
 
 ### Existing expansion and observation returns
 

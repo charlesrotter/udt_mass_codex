@@ -1,0 +1,9 @@
+{
+  "utc": "2026-09-12T23:25:25.894311+00:00",
+  "exposure": "Parent analytic discovery before numerical outputs; no reviewer findings received before candidate freeze. Source family and G220/QC1 already read. Standard mathematical familiarity disclosed, no claim of external novelty.",
+  "files": {
+    "INITIAL_CANDIDATE.md": "b09a8c222d4dd01a319131a30f7547ef684e7c2c91b71ae4f70628837f0193f4",
+    "WORK_ORDER.md": "d39665d7d19b1143b0419447818928972dfd3ae5c0952af8c481cff9f9c68a99",
+    "SOURCE_PINS.json": "213209b48b8ce0cddb349e20ef8b521350166a587bfdec3190e3e553f3c00923"
+  }
+}

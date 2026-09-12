@@ -1,0 +1,136 @@
+{
+  "utc": "2026-09-12T23:44:42.346425+00:00",
+  "successful_allocations": 1,
+  "task": "/root/lsb1_stationary_review",
+  "context": "fresh fork_turns=none",
+  "old_contexts_resumed": 0,
+  "additional_reviewers_or_retries": 0,
+  "exact_server_allocation_timestamp": "UNEXPOSED",
+  "conservative_allocation_start_bound_utc": "2026-09-12T23:22:18+00:00",
+  "observed_final_seal_utc": "2026-09-12T23:43:07.509255+00:00",
+  "allocation_elapsed_upper_bound_seconds": 1249.509255,
+  "maximum_seconds": 2400,
+  "within_budget": true,
+  "context_overlap": "Parent remained active throughout reviewer work. Allocation overlap upper bound is the reviewer interval above, not an exact server allocation duration.",
+  "captured_process_intervals": [
+    {
+      "context": "parent",
+      "receipt": "checks/current_full398.json",
+      "start_utc": "2026-09-12T23:22:17.961692+00:00",
+      "end_utc": "2026-09-12T23:29:02.149718+00:00",
+      "duration_seconds": 404.18802595802117,
+      "returncode": 0
+    },
+    {
+      "context": "reviewer",
+      "receipt": "review/exact_capture.json",
+      "start_utc": "2026-09-12T23:27:05.511831+00:00",
+      "end_utc": "2026-09-12T23:27:06.027943+00:00",
+      "duration_seconds": 0.5161118239630014,
+      "returncode": 0
+    },
+    {
+      "context": "parent",
+      "receipt": "checks/benchmark.json",
+      "start_utc": "2026-09-12T23:29:37.789705+00:00",
+      "end_utc": "2026-09-12T23:29:38.215866+00:00",
+      "duration_seconds": 0.42616064799949527,
+      "returncode": 0
+    },
+    {
+      "context": "reviewer",
+      "receipt": "review/geodesic_capture.json",
+      "start_utc": "2026-09-12T23:30:00.366495+00:00",
+      "end_utc": "2026-09-12T23:30:01.964576+00:00",
+      "duration_seconds": 1.5980811100453138,
+      "returncode": 0
+    },
+    {
+      "context": "parent",
+      "receipt": "checks/hostile_invert_clock.json",
+      "start_utc": "2026-09-12T23:30:02.762383+00:00",
+      "end_utc": "2026-09-12T23:30:03.042919+00:00",
+      "duration_seconds": 0.28053619898855686,
+      "returncode": 1
+    },
+    {
+      "context": "parent",
+      "receipt": "checks/hostile_drop_receiver_lapse.json",
+      "start_utc": "2026-09-12T23:30:03.112807+00:00",
+      "end_utc": "2026-09-12T23:30:03.398708+00:00",
+      "duration_seconds": 0.28590059000998735,
+      "returncode": 1
+    },
+    {
+      "context": "parent",
+      "receipt": "checks/hostile_drop_source_lapse.json",
+      "start_utc": "2026-09-12T23:30:03.467080+00:00",
+      "end_utc": "2026-09-12T23:30:03.748237+00:00",
+      "duration_seconds": 0.2811574019724503,
+      "returncode": 1
+    },
+    {
+      "context": "reviewer",
+      "receipt": "review/comparison_capture.json",
+      "start_utc": "2026-09-12T23:31:35.761259+00:00",
+      "end_utc": "2026-09-12T23:31:35.776157+00:00",
+      "duration_seconds": 0.014898120076395571,
+      "returncode": 0
+    },
+    {
+      "context": "reviewer",
+      "receipt": "review/replay_invert_clock.json",
+      "start_utc": "2026-09-12T23:31:51.280878+00:00",
+      "end_utc": "2026-09-12T23:31:51.572500+00:00",
+      "duration_seconds": 0.2916220350889489,
+      "returncode": 1
+    },
+    {
+      "context": "reviewer",
+      "receipt": "review/replay_drop_receiver_lapse.json",
+      "start_utc": "2026-09-12T23:31:51.640691+00:00",
+      "end_utc": "2026-09-12T23:31:51.929989+00:00",
+      "duration_seconds": 0.2892982179764658,
+      "returncode": 1
+    },
+    {
+      "context": "reviewer",
+      "receipt": "review/replay_drop_source_lapse.json",
+      "start_utc": "2026-09-12T23:31:52.002005+00:00",
+      "end_utc": "2026-09-12T23:31:52.288153+00:00",
+      "duration_seconds": 0.2861478580161929,
+      "returncode": 1
+    },
+    {
+      "context": "parent",
+      "receipt": "checks/navigation.json",
+      "start_utc": "2026-09-12T23:35:33.935834+00:00",
+      "end_utc": "2026-09-12T23:35:47.514360+00:00",
+      "duration_seconds": 13.578525554039516,
+      "returncode": 0
+    },
+    {
+      "context": "reviewer",
+      "receipt": "review/final_check_capture.json",
+      "start_utc": "2026-09-12T23:41:52.636706+00:00",
+      "end_utc": "2026-09-12T23:41:52.712217+00:00",
+      "duration_seconds": 0.07551145402248949,
+      "returncode": 0
+    }
+  ],
+  "same_context_capture_overlaps": [],
+  "cross_context_capture_overlaps": [
+    {
+      "receipts": [
+        "checks/current_full398.json",
+        "review/exact_capture.json"
+      ],
+      "overlap_seconds": 0.516112
+    }
+  ],
+  "process_overlap_scope": "Only saved capture intervals; excludes uninstrumented reading/analysis and is not total CPU accounting.",
+  "general_restored_capacity": "UNVERIFIED",
+  "runtime_model": "UNATTESTED",
+  "reviewer_raw_ivp_call_count": "UNINSTRUMENTED;18 final case/control records, each with root-search integrations",
+  "prepublication_sync": "A second actual fetch and pull --ff-only returned exit0, Already up to date; HEAD=origin/grok c12db2562da1a5098f65a97ae0c924dec149ca4c."
+}

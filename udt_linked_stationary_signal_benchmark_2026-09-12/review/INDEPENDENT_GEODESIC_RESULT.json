@@ -1,0 +1,1657 @@
+{
+  "status": "PASS",
+  "method": "independent affine DOP853 geodesic integration",
+  "imports_parent_scientific_code": false,
+  "dtype": "FLOAT64",
+  "rows": [
+    {
+      "p": 4.082188948502187,
+      "j": 4.379877722382083,
+      "psi_B": 0.5194153966266293,
+      "tau_round_over_L_cE": 24.282454647320982,
+      "T_oneway": 13.082084900585615,
+      "phi_residual": 1.7763568394002505e-15,
+      "null_residual_max": 1.273441144817656e-15,
+      "endpoint_radius_error": 0.0,
+      "lambda_max": 6.879598236705451,
+      "sample_count": 270,
+      "nfev": 1052,
+      "r_min": 4.082188948502187,
+      "r_max": 8.0,
+      "sampled_f_min": 0.822,
+      "endpoint_A": [
+        6.0,
+        0.735541361590722,
+        5.080369267429932,
+        0.8866028535730185
+      ],
+      "endpoint_B": [
+        8.0,
+        0.8681095091724319,
+        8.001715633155683,
+        1.1133971464269834
+      ],
+      "a": -0.002,
+      "b": -0.4,
+      "control": "coarse",
+      "controls": {
+        "rtol": 2e-10,
+        "atol": 2e-12,
+        "max_step": 0.1
+      },
+      "bracket_residuals": [
+        0.9772985542447952,
+        -0.7063917224447893
+      ]
+    },
+    {
+      "p": 4.082188948502189,
+      "j": 4.3798777223820835,
+      "psi_B": 0.5194153966266296,
+      "tau_round_over_L_cE": 24.28245464732098,
+      "T_oneway": 13.082084900585613,
+      "phi_residual": 8.881784197001252e-16,
+      "null_residual_max": 2.5598307921883726e-15,
+      "endpoint_radius_error": 0.0,
+      "lambda_max": 6.879598236705449,
+      "sample_count": 339,
+      "nfev": 2087,
+      "r_min": 4.082188948502189,
+      "r_max": 8.0,
+      "sampled_f_min": 0.822,
+      "endpoint_A": [
+        6.0,
+        0.7355413615907213,
+        5.080369267429927,
+        0.8866028535730176
+      ],
+      "endpoint_B": [
+        8.0,
+        0.8681095091724313,
+        8.001715633155685,
+        1.1133971464269832
+      ],
+      "a": -0.002,
+      "b": -0.4,
+      "control": "fine",
+      "controls": {
+        "rtol": 2e-12,
+        "atol": 2e-14,
+        "max_step": 0.05
+      },
+      "bracket_residuals": [
+        0.9772985542447934,
+        -0.7063917224447911
+      ]
+    },
+    {
+      "p": 3.689441246043399,
+      "j": 3.7407110675561075,
+      "psi_B": 0.45185920352603626,
+      "tau_round_over_L_cE": 23.76601588621768,
+      "T_oneway": 12.335376209265966,
+      "phi_residual": -1.1102230246251565e-15,
+      "null_residual_max": 1.681193700002042e-15,
+      "endpoint_radius_error": 0.0,
+      "lambda_max": 7.001161481723411,
+      "sample_count": 272,
+      "nfev": 1082,
+      "r_min": 3.689441246043399,
+      "r_max": 8.0,
+      "sampled_f_min": 0.872,
+      "endpoint_A": [
+        6.0,
+        0.7995584006536678,
+        4.873058510988618,
+        0.9085284556257318
+      ],
+      "endpoint_B": [
+        8.0,
+        0.8996368571045683,
+        7.462317698277348,
+        1.091471544374267
+      ],
+      "a": -0.002,
+      "b": 0.0,
+      "control": "coarse",
+      "controls": {
+        "rtol": 2e-10,
+        "atol": 2e-12,
+        "max_step": 0.1
+      },
+      "bracket_residuals": [
+        0.5490754889935947,
+        -0.7761065763089894
+      ]
+    },
+    {
+      "p": 3.689441246043387,
+      "j": 3.740711067556095,
+      "psi_B": 0.4518592035260343,
+      "tau_round_over_L_cE": 23.766015886217726,
+      "T_oneway": 12.33537620926599,
+      "phi_residual": 1.7763568394002505e-15,
+      "null_residual_max": 1.1620784039332528e-15,
+      "endpoint_radius_error": 8.881784197001252e-16,
+      "lambda_max": 7.001161481723417,
+      "sample_count": 341,
+      "nfev": 2117,
+      "r_min": 3.689441246043387,
+      "r_max": 7.999999999999999,
+      "sampled_f_min": 0.8720000000000001,
+      "endpoint_A": [
+        5.999999999999999,
+        0.7995584006536698,
+        4.873058510988633,
+        0.9085284556257338
+      ],
+      "endpoint_B": [
+        7.999999999999999,
+        0.8996368571045698,
+        7.4623176982773565,
+        1.0914715443742682
+      ],
+      "a": -0.002,
+      "b": 0.0,
+      "control": "fine",
+      "controls": {
+        "rtol": 2e-12,
+        "atol": 2e-14,
+        "max_step": 0.05
+      },
+      "bracket_residuals": [
+        0.5490754889935925,
+        -0.7761065763089914
+      ]
+    },
+    {
+      "p": 3.2111378987958967,
+      "j": 3.0562263021585037,
+      "psi_B": 0.37559566710200487,
+      "tau_round_over_L_cE": 23.187555895750503,
+      "T_oneway": 11.624818908242634,
+      "phi_residual": -1.5543122344752192e-15,
+      "null_residual_max": 1.107585017751548e-15,
+      "endpoint_radius_error": 8.881784197001252e-16,
+      "lambda_max": 7.147755412484805,
+      "sample_count": 273,
+      "nfev": 1097,
+      "r_min": 3.2111378987958967,
+      "r_max": 8.0,
+      "sampled_f_min": 0.922,
+      "endpoint_A": [
+        5.999999999999999,
+        0.8613506334119156,
+        4.654756038275571,
+        0.9290640654895521
+      ],
+      "endpoint_B": [
+        8.0,
+        0.9302892803482465,
+        6.970062869967064,
+        1.0709359345104463
+      ],
+      "a": -0.002,
+      "b": 0.4,
+      "control": "coarse",
+      "controls": {
+        "rtol": 2e-10,
+        "atol": 2e-12,
+        "max_step": 0.1
+      },
+      "bracket_residuals": [
+        0.26574537558070865,
+        -0.8356269178829445
+      ]
+    },
+    {
+      "p": 3.211137898795896,
+      "j": 3.0562263021585028,
+      "psi_B": 0.37559566710200437,
+      "tau_round_over_L_cE": 23.18755589575051,
+      "T_oneway": 11.624818908242638,
+      "phi_residual": -2.220446049250313e-16,
+      "null_residual_max": 1.4148720758509315e-15,
+      "endpoint_radius_error": 0.0,
+      "lambda_max": 7.147755412484804,
+      "sample_count": 344,
+      "nfev": 2162,
+      "r_min": 3.211137898795896,
+      "r_max": 8.0,
+      "sampled_f_min": 0.922,
+      "endpoint_A": [
+        6.0,
+        0.8613506334119164,
+        4.654756038275575,
+        0.9290640654895528
+      ],
+      "endpoint_B": [
+        8.0,
+        0.9302892803482476,
+        6.970062869967064,
+        1.070935934510447
+      ],
+      "a": -0.002,
+      "b": 0.4,
+      "control": "fine",
+      "controls": {
+        "rtol": 2e-12,
+        "atol": 2e-14,
+        "max_step": 0.05
+      },
+      "bracket_residuals": [
+        0.2657453755807042,
+        -0.8356269178829454
+      ]
+    },
+    {
+      "p": 4.082188948502192,
+      "j": 4.29819999027786,
+      "psi_B": 0.551154232417058,
+      "tau_round_over_L_cE": 24.151274662398738,
+      "T_oneway": 12.499472144054259,
+      "phi_residual": 8.881784197001252e-16,
+      "null_residual_max": 8.361190790161656e-16,
+      "endpoint_radius_error": 0.0,
+      "lambda_max": 7.0103297017450705,
+      "sample_count": 272,
+      "nfev": 1082,
+      "r_min": 4.082188948502192,
+      "r_max": 8.0,
+      "sampled_f_min": 0.9020133548333755,
+      "endpoint_A": [
+        6.0,
+        0.7218246886396538,
+        4.916195738589638,
+        0.8866028535730179
+      ],
+      "endpoint_B": [
+        8.0,
+        0.8519206517609622,
+        7.583276405464622,
+        1.113397146426983
+      ],
+      "a": 0.0,
+      "b": -0.4,
+      "control": "coarse",
+      "controls": {
+        "rtol": 2e-10,
+        "atol": 2e-12,
+        "max_step": 0.1
+      },
+      "bracket_residuals": [
+        0.9772985542447952,
+        -0.706391722444792
+      ]
+    },
+    {
+      "p": 4.082188948502191,
+      "j": 4.298199990277858,
+      "psi_B": 0.5511542324170583,
+      "tau_round_over_L_cE": 24.151274662398738,
+      "T_oneway": 12.499472144054259,
+      "phi_residual": -1.3322676295501878e-15,
+      "null_residual_max": 1.908919409493419e-15,
+      "endpoint_radius_error": 8.881784197001252e-16,
+      "lambda_max": 7.010329701745069,
+      "sample_count": 342,
+      "nfev": 2132,
+      "r_min": 4.082188948502191,
+      "r_max": 7.999999999999999,
+      "sampled_f_min": 0.9020133548333755,
+      "endpoint_A": [
+        6.000000000000001,
+        0.7218246886396527,
+        4.916195738589636,
+        0.8866028535730169
+      ],
+      "endpoint_B": [
+        7.999999999999999,
+        0.8519206517609613,
+        7.5832764054646224,
+        1.1133971464269818
+      ],
+      "a": 0.0,
+      "b": -0.4,
+      "control": "fine",
+      "controls": {
+        "rtol": 2e-12,
+        "atol": 2e-14,
+        "max_step": 0.05
+      },
+      "bracket_residuals": [
+        0.977298554244793,
+        -0.7063917224447893
+      ]
+    },
+    {
+      "p": 3.6894412460433967,
+      "j": 3.6894412460433967,
+      "psi_B": 0.4793247824206299,
+      "tau_round_over_L_cE": 23.660101124764928,
+      "T_oneway": 11.830050562382464,
+      "phi_residual": -6.661338147750939e-16,
+      "null_residual_max": 5.828670879282072e-16,
+      "endpoint_radius_error": 0.0,
+      "lambda_max": 7.0984521757911265,
+      "sample_count": 272,
+      "nfev": 1082,
+      "r_min": 3.6894412460433967,
+      "r_max": 8.0,
+      "sampled_f_min": 1.0,
+      "endpoint_A": [
+        6.0,
+        0.7885997310985562,
+        4.7315983865913385,
+        0.9085284556257325
+      ],
+      "endpoint_B": [
+        8.0,
+        0.8873065219738904,
+        7.0984521757911265,
+        1.0914715443742669
+      ],
+      "a": 0.0,
+      "b": 0.0,
+      "control": "coarse",
+      "controls": {
+        "rtol": 2e-10,
+        "atol": 2e-12,
+        "max_step": 0.1
+      },
+      "bracket_residuals": [
+        0.5490754889935943,
+        -0.7761065763089898
+      ]
+    },
+    {
+      "p": 3.689441246043395,
+      "j": 3.689441246043395,
+      "psi_B": 0.47932478242062954,
+      "tau_round_over_L_cE": 23.660101124764942,
+      "T_oneway": 11.830050562382471,
+      "phi_residual": 8.881784197001252e-16,
+      "null_residual_max": 6.106226635438361e-16,
+      "endpoint_radius_error": 0.0,
+      "lambda_max": 7.098452175791131,
+      "sample_count": 343,
+      "nfev": 2147,
+      "r_min": 3.689441246043395,
+      "r_max": 8.0,
+      "sampled_f_min": 1.0,
+      "endpoint_A": [
+        6.0,
+        0.7885997310985563,
+        4.731598386591339,
+        0.9085284556257331
+      ],
+      "endpoint_B": [
+        8.0,
+        0.8873065219738908,
+        7.098452175791131,
+        1.0914715443742675
+      ],
+      "a": 0.0,
+      "b": 0.0,
+      "control": "fine",
+      "controls": {
+        "rtol": 2e-12,
+        "atol": 2e-14,
+        "max_step": 0.05
+      },
+      "bracket_residuals": [
+        0.5490754889935943,
+        -0.776106576308992
+      ]
+    },
+    {
+      "p": 3.2111378987958945,
+      "j": 3.028073397411786,
+      "psi_B": 0.39830489418713194,
+      "tau_round_over_L_cE": 23.101848186902558,
+      "T_oneway": 11.184134161810704,
+      "phi_residual": 0.0,
+      "null_residual_max": 9.881165296332864e-16,
+      "endpoint_radius_error": 8.881784197001252e-16,
+      "lambda_max": 7.214210234039828,
+      "sample_count": 274,
+      "nfev": 1112,
+      "r_min": 3.2111378987958945,
+      "r_max": 8.0,
+      "sampled_f_min": 1.05,
+      "endpoint_A": [
+        6.000000000000001,
+        0.8534161678525948,
+        4.532750216570127,
+        0.9290640654895534
+      ],
+      "endpoint_B": [
+        8.0,
+        0.9217197757019328,
+        6.651383945240577,
+        1.0709359345104468
+      ],
+      "a": 0.0,
+      "b": 0.4,
+      "control": "coarse",
+      "controls": {
+        "rtol": 2e-10,
+        "atol": 2e-12,
+        "max_step": 0.1
+      },
+      "bracket_residuals": [
+        0.26574537558070865,
+        -0.8356269178829452
+      ]
+    },
+    {
+      "p": 3.211137898795894,
+      "j": 3.0280733974117857,
+      "psi_B": 0.39830489418713155,
+      "tau_round_over_L_cE": 23.101848186902583,
+      "T_oneway": 11.184134161810714,
+      "phi_residual": 1.7763568394002505e-15,
+      "null_residual_max": 9.776637109562806e-16,
+      "endpoint_radius_error": 8.881784197001252e-16,
+      "lambda_max": 7.214210234039831,
+      "sample_count": 346,
+      "nfev": 2192,
+      "r_min": 3.211137898795894,
+      "r_max": 8.0,
+      "sampled_f_min": 1.05,
+      "endpoint_A": [
+        6.000000000000001,
+        0.8534161678525952,
+        4.5327502165701326,
+        0.9290640654895541
+      ],
+      "endpoint_B": [
+        8.0,
+        0.9217197757019336,
+        6.651383945240581,
+        1.0709359345104479
+      ],
+      "a": 0.0,
+      "b": 0.4,
+      "control": "fine",
+      "controls": {
+        "rtol": 2e-12,
+        "atol": 2e-14,
+        "max_step": 0.05
+      },
+      "bracket_residuals": [
+        0.2657453755807069,
+        -0.8356269178829434
+      ]
+    },
+    {
+      "p": 4.082188948502192,
+      "j": 4.220927674461389,
+      "psi_B": 0.5797402595057009,
+      "tau_round_over_L_cE": 24.056107685410723,
+      "T_oneway": 11.996106764128598,
+      "phi_residual": 0.0,
+      "null_residual_max": 8.275137499599271e-16,
+      "endpoint_radius_error": 8.881784197001252e-16,
+      "lambda_max": 7.138667463599746,
+      "sample_count": 273,
+      "nfev": 1097,
+      "r_min": 4.082188948502192,
+      "r_max": 8.0,
+      "sampled_f_min": 0.9353418880559223,
+      "endpoint_A": [
+        5.999999999999999,
+        0.708847845907614,
+        4.767467517237358,
+        0.8866028535730175
+      ],
+      "endpoint_B": [
+        8.0,
+        0.8366049657057884,
+        7.22863924689124,
+        1.1133971464269825
+      ],
+      "a": 0.002,
+      "b": -0.4,
+      "control": "coarse",
+      "controls": {
+        "rtol": 2e-10,
+        "atol": 2e-12,
+        "max_step": 0.1
+      },
+      "bracket_residuals": [
+        0.9772985542447943,
+        -0.7063917224447906
+      ]
+    },
+    {
+      "p": 4.082188948502196,
+      "j": 4.220927674461392,
+      "psi_B": 0.579740259505701,
+      "tau_round_over_L_cE": 24.056107685410737,
+      "T_oneway": 11.996106764128605,
+      "phi_residual": 0.0,
+      "null_residual_max": 1.8092382376932233e-15,
+      "endpoint_radius_error": 0.0,
+      "lambda_max": 7.138667463599749,
+      "sample_count": 344,
+      "nfev": 2162,
+      "r_min": 4.082188948502196,
+      "r_max": 8.0,
+      "sampled_f_min": 0.9353418880559227,
+      "endpoint_A": [
+        6.0,
+        0.7088478459076145,
+        4.767467517237359,
+        0.8866028535730173
+      ],
+      "endpoint_B": [
+        8.0,
+        0.836604965705789,
+        7.228639246891246,
+        1.1133971464269827
+      ],
+      "a": 0.002,
+      "b": -0.4,
+      "control": "fine",
+      "controls": {
+        "rtol": 2e-12,
+        "atol": 2e-14,
+        "max_step": 0.05
+      },
+      "bracket_residuals": [
+        0.9772985542447943,
+        -0.7063917224447889
+      ]
+    },
+    {
+      "p": 3.6894412460433967,
+      "j": 3.6402233379337288,
+      "psi_B": 0.5043895124551832,
+      "tau_round_over_L_cE": 23.585190473497555,
+      "T_oneway": 11.389692512925148,
+      "phi_residual": -6.661338147750939e-16,
+      "null_residual_max": 6.361215187965188e-16,
+      "endpoint_radius_error": 0.0,
+      "lambda_max": 7.194427321949953,
+      "sample_count": 273,
+      "nfev": 1097,
+      "r_min": 3.6894412460433967,
+      "r_max": 8.0,
+      "sampled_f_min": 1.0272239534160126,
+      "endpoint_A": [
+        6.0,
+        0.7780796478360457,
+        4.602366506597302,
+        0.9085284556257327
+      ],
+      "endpoint_B": [
+        8.0,
+        0.8754696697376735,
+        6.787326006327846,
+        1.0914715443742666
+      ],
+      "a": 0.002,
+      "b": 0.0,
+      "control": "coarse",
+      "controls": {
+        "rtol": 2e-10,
+        "atol": 2e-12,
+        "max_step": 0.1
+      },
+      "bracket_residuals": [
+        0.5490754889935934,
+        -0.7761065763089934
+      ]
+    },
+    {
+      "p": 3.689441246043393,
+      "j": 3.640223337933725,
+      "psi_B": 0.504389512455182,
+      "tau_round_over_L_cE": 23.585190473497562,
+      "T_oneway": 11.389692512925151,
+      "phi_residual": 1.3322676295501878e-15,
+      "null_residual_max": 1.8922532420605305e-15,
+      "endpoint_radius_error": 8.881784197001252e-16,
+      "lambda_max": 7.1944273219499495,
+      "sample_count": 345,
+      "nfev": 2177,
+      "r_min": 3.689441246043393,
+      "r_max": 8.0,
+      "sampled_f_min": 1.0272239534160124,
+      "endpoint_A": [
+        5.999999999999999,
+        0.7780796478360471,
+        4.602366506597304,
+        0.9085284556257335
+      ],
+      "endpoint_B": [
+        8.0,
+        0.8754696697376748,
+        6.787326006327847,
+        1.0914715443742677
+      ],
+      "a": 0.002,
+      "b": 0.0,
+      "control": "fine",
+      "controls": {
+        "rtol": 2e-12,
+        "atol": 2e-14,
+        "max_step": 0.05
+      },
+      "bracket_residuals": [
+        0.5490754889935934,
+        -0.7761065763089914
+      ]
+    },
+    {
+      "p": 3.211137898795895,
+      "j": 3.0006844335564873,
+      "psi_B": 0.4192787299951731,
+      "tau_round_over_L_cE": 23.043284600367834,
+      "T_oneway": 10.797322775661904,
+      "phi_residual": 8.881784197001252e-16,
+      "null_residual_max": 7.758117223378403e-16,
+      "endpoint_radius_error": 0.0,
+      "lambda_max": 7.2800584589097985,
+      "sample_count": 274,
+      "nfev": 1112,
+      "r_min": 3.211137898795895,
+      "r_max": 8.0,
+      "sampled_f_min": 1.12926609529978,
+      "endpoint_A": [
+        6.0,
+        0.845697007347826,
+        4.420520202684159,
+        0.9290640654895532
+      ],
+      "endpoint_B": [
+        8.0,
+        0.9133828081624431,
+        6.376802572977746,
+        1.0709359345104474
+      ],
+      "a": 0.002,
+      "b": 0.4,
+      "control": "coarse",
+      "controls": {
+        "rtol": 2e-10,
+        "atol": 2e-12,
+        "max_step": 0.1
+      },
+      "bracket_residuals": [
+        0.26574537558070777,
+        -0.8356269178829459
+      ]
+    },
+    {
+      "p": 3.211137898795901,
+      "j": 3.0006844335564935,
+      "psi_B": 0.4192787299951741,
+      "tau_round_over_L_cE": 23.04328460036782,
+      "T_oneway": 10.797322775661897,
+      "phi_residual": -1.9984014443252818e-15,
+      "null_residual_max": 6.881574138681632e-16,
+      "endpoint_radius_error": 8.881784197001252e-16,
+      "lambda_max": 7.280058458909792,
+      "sample_count": 347,
+      "nfev": 2207,
+      "r_min": 3.211137898795901,
+      "r_max": 8.0,
+      "sampled_f_min": 1.12926609529978,
+      "endpoint_A": [
+        6.000000000000001,
+        0.8456970073478253,
+        4.4205202026841555,
+        0.9290640654895519
+      ],
+      "endpoint_B": [
+        8.0,
+        0.9133828081624425,
+        6.376802572977742,
+        1.070935934510446
+      ],
+      "a": 0.002,
+      "b": 0.4,
+      "control": "fine",
+      "controls": {
+        "rtol": 2e-12,
+        "atol": 2e-14,
+        "max_step": 0.05
+      },
+      "bracket_residuals": [
+        0.2657453755807069,
+        -0.8356269178829441
+      ]
+    }
+  ],
+  "checks": [
+    {
+      "name": "-0.002,-0.4,coarse: bracket",
+      "passed": true,
+      "actual": [
+        0.9772985542447952,
+        -0.7063917224447893
+      ],
+      "limit": 0
+    },
+    {
+      "name": "-0.002,-0.4,coarse: original null equation",
+      "passed": true,
+      "actual": 1.273441144817656e-15,
+      "limit": 2e-08
+    },
+    {
+      "name": "-0.002,-0.4,coarse: endpoint radii",
+      "passed": true,
+      "actual": 0.0,
+      "limit": 2e-10
+    },
+    {
+      "name": "-0.002,-0.4,coarse: angular boundary",
+      "passed": true,
+      "actual": 1.7763568394002505e-15,
+      "limit": 2e-08
+    },
+    {
+      "name": "-0.002,-0.4,coarse: finite admitted window",
+      "passed": true,
+      "actual": [
+        4.082188948502187,
+        8.0
+      ],
+      "limit": [
+        1.5,
+        10.0
+      ]
+    },
+    {
+      "name": "-0.002,-0.4,fine: bracket",
+      "passed": true,
+      "actual": [
+        0.9772985542447934,
+        -0.7063917224447911
+      ],
+      "limit": 0
+    },
+    {
+      "name": "-0.002,-0.4,fine: original null equation",
+      "passed": true,
+      "actual": 2.5598307921883726e-15,
+      "limit": 2e-08
+    },
+    {
+      "name": "-0.002,-0.4,fine: endpoint radii",
+      "passed": true,
+      "actual": 0.0,
+      "limit": 2e-10
+    },
+    {
+      "name": "-0.002,-0.4,fine: angular boundary",
+      "passed": true,
+      "actual": 8.881784197001252e-16,
+      "limit": 2e-08
+    },
+    {
+      "name": "-0.002,-0.4,fine: finite admitted window",
+      "passed": true,
+      "actual": [
+        4.082188948502189,
+        8.0
+      ],
+      "limit": [
+        1.5,
+        10.0
+      ]
+    },
+    {
+      "name": "-0.002,0.0,coarse: bracket",
+      "passed": true,
+      "actual": [
+        0.5490754889935947,
+        -0.7761065763089894
+      ],
+      "limit": 0
+    },
+    {
+      "name": "-0.002,0.0,coarse: original null equation",
+      "passed": true,
+      "actual": 1.681193700002042e-15,
+      "limit": 2e-08
+    },
+    {
+      "name": "-0.002,0.0,coarse: endpoint radii",
+      "passed": true,
+      "actual": 0.0,
+      "limit": 2e-10
+    },
+    {
+      "name": "-0.002,0.0,coarse: angular boundary",
+      "passed": true,
+      "actual": 1.1102230246251565e-15,
+      "limit": 2e-08
+    },
+    {
+      "name": "-0.002,0.0,coarse: finite admitted window",
+      "passed": true,
+      "actual": [
+        3.689441246043399,
+        8.0
+      ],
+      "limit": [
+        1.5,
+        10.0
+      ]
+    },
+    {
+      "name": "-0.002,0.0,fine: bracket",
+      "passed": true,
+      "actual": [
+        0.5490754889935925,
+        -0.7761065763089914
+      ],
+      "limit": 0
+    },
+    {
+      "name": "-0.002,0.0,fine: original null equation",
+      "passed": true,
+      "actual": 1.1620784039332528e-15,
+      "limit": 2e-08
+    },
+    {
+      "name": "-0.002,0.0,fine: endpoint radii",
+      "passed": true,
+      "actual": 8.881784197001252e-16,
+      "limit": 2e-10
+    },
+    {
+      "name": "-0.002,0.0,fine: angular boundary",
+      "passed": true,
+      "actual": 1.7763568394002505e-15,
+      "limit": 2e-08
+    },
+    {
+      "name": "-0.002,0.0,fine: finite admitted window",
+      "passed": true,
+      "actual": [
+        3.689441246043387,
+        7.999999999999999
+      ],
+      "limit": [
+        1.5,
+        10.0
+      ]
+    },
+    {
+      "name": "-0.002,0.4,coarse: bracket",
+      "passed": true,
+      "actual": [
+        0.26574537558070865,
+        -0.8356269178829445
+      ],
+      "limit": 0
+    },
+    {
+      "name": "-0.002,0.4,coarse: original null equation",
+      "passed": true,
+      "actual": 1.107585017751548e-15,
+      "limit": 2e-08
+    },
+    {
+      "name": "-0.002,0.4,coarse: endpoint radii",
+      "passed": true,
+      "actual": 8.881784197001252e-16,
+      "limit": 2e-10
+    },
+    {
+      "name": "-0.002,0.4,coarse: angular boundary",
+      "passed": true,
+      "actual": 1.5543122344752192e-15,
+      "limit": 2e-08
+    },
+    {
+      "name": "-0.002,0.4,coarse: finite admitted window",
+      "passed": true,
+      "actual": [
+        3.2111378987958967,
+        8.0
+      ],
+      "limit": [
+        1.5,
+        10.0
+      ]
+    },
+    {
+      "name": "-0.002,0.4,fine: bracket",
+      "passed": true,
+      "actual": [
+        0.2657453755807042,
+        -0.8356269178829454
+      ],
+      "limit": 0
+    },
+    {
+      "name": "-0.002,0.4,fine: original null equation",
+      "passed": true,
+      "actual": 1.4148720758509315e-15,
+      "limit": 2e-08
+    },
+    {
+      "name": "-0.002,0.4,fine: endpoint radii",
+      "passed": true,
+      "actual": 0.0,
+      "limit": 2e-10
+    },
+    {
+      "name": "-0.002,0.4,fine: angular boundary",
+      "passed": true,
+      "actual": 2.220446049250313e-16,
+      "limit": 2e-08
+    },
+    {
+      "name": "-0.002,0.4,fine: finite admitted window",
+      "passed": true,
+      "actual": [
+        3.211137898795896,
+        8.0
+      ],
+      "limit": [
+        1.5,
+        10.0
+      ]
+    },
+    {
+      "name": "0.0,-0.4,coarse: bracket",
+      "passed": true,
+      "actual": [
+        0.9772985542447952,
+        -0.706391722444792
+      ],
+      "limit": 0
+    },
+    {
+      "name": "0.0,-0.4,coarse: original null equation",
+      "passed": true,
+      "actual": 8.361190790161656e-16,
+      "limit": 2e-08
+    },
+    {
+      "name": "0.0,-0.4,coarse: endpoint radii",
+      "passed": true,
+      "actual": 0.0,
+      "limit": 2e-10
+    },
+    {
+      "name": "0.0,-0.4,coarse: angular boundary",
+      "passed": true,
+      "actual": 8.881784197001252e-16,
+      "limit": 2e-08
+    },
+    {
+      "name": "0.0,-0.4,coarse: finite admitted window",
+      "passed": true,
+      "actual": [
+        4.082188948502192,
+        8.0
+      ],
+      "limit": [
+        1.5,
+        10.0
+      ]
+    },
+    {
+      "name": "0.0,-0.4,fine: bracket",
+      "passed": true,
+      "actual": [
+        0.977298554244793,
+        -0.7063917224447893
+      ],
+      "limit": 0
+    },
+    {
+      "name": "0.0,-0.4,fine: original null equation",
+      "passed": true,
+      "actual": 1.908919409493419e-15,
+      "limit": 2e-08
+    },
+    {
+      "name": "0.0,-0.4,fine: endpoint radii",
+      "passed": true,
+      "actual": 8.881784197001252e-16,
+      "limit": 2e-10
+    },
+    {
+      "name": "0.0,-0.4,fine: angular boundary",
+      "passed": true,
+      "actual": 1.3322676295501878e-15,
+      "limit": 2e-08
+    },
+    {
+      "name": "0.0,-0.4,fine: finite admitted window",
+      "passed": true,
+      "actual": [
+        4.082188948502191,
+        7.999999999999999
+      ],
+      "limit": [
+        1.5,
+        10.0
+      ]
+    },
+    {
+      "name": "0.0,0.0,coarse: bracket",
+      "passed": true,
+      "actual": [
+        0.5490754889935943,
+        -0.7761065763089898
+      ],
+      "limit": 0
+    },
+    {
+      "name": "0.0,0.0,coarse: original null equation",
+      "passed": true,
+      "actual": 5.828670879282072e-16,
+      "limit": 2e-08
+    },
+    {
+      "name": "0.0,0.0,coarse: endpoint radii",
+      "passed": true,
+      "actual": 0.0,
+      "limit": 2e-10
+    },
+    {
+      "name": "0.0,0.0,coarse: angular boundary",
+      "passed": true,
+      "actual": 6.661338147750939e-16,
+      "limit": 2e-08
+    },
+    {
+      "name": "0.0,0.0,coarse: finite admitted window",
+      "passed": true,
+      "actual": [
+        3.6894412460433967,
+        8.0
+      ],
+      "limit": [
+        1.5,
+        10.0
+      ]
+    },
+    {
+      "name": "0.0,0.0,fine: bracket",
+      "passed": true,
+      "actual": [
+        0.5490754889935943,
+        -0.776106576308992
+      ],
+      "limit": 0
+    },
+    {
+      "name": "0.0,0.0,fine: original null equation",
+      "passed": true,
+      "actual": 6.106226635438361e-16,
+      "limit": 2e-08
+    },
+    {
+      "name": "0.0,0.0,fine: endpoint radii",
+      "passed": true,
+      "actual": 0.0,
+      "limit": 2e-10
+    },
+    {
+      "name": "0.0,0.0,fine: angular boundary",
+      "passed": true,
+      "actual": 8.881784197001252e-16,
+      "limit": 2e-08
+    },
+    {
+      "name": "0.0,0.0,fine: finite admitted window",
+      "passed": true,
+      "actual": [
+        3.689441246043395,
+        8.0
+      ],
+      "limit": [
+        1.5,
+        10.0
+      ]
+    },
+    {
+      "name": "0.0,0.4,coarse: bracket",
+      "passed": true,
+      "actual": [
+        0.26574537558070865,
+        -0.8356269178829452
+      ],
+      "limit": 0
+    },
+    {
+      "name": "0.0,0.4,coarse: original null equation",
+      "passed": true,
+      "actual": 9.881165296332864e-16,
+      "limit": 2e-08
+    },
+    {
+      "name": "0.0,0.4,coarse: endpoint radii",
+      "passed": true,
+      "actual": 8.881784197001252e-16,
+      "limit": 2e-10
+    },
+    {
+      "name": "0.0,0.4,coarse: angular boundary",
+      "passed": true,
+      "actual": 0.0,
+      "limit": 2e-08
+    },
+    {
+      "name": "0.0,0.4,coarse: finite admitted window",
+      "passed": true,
+      "actual": [
+        3.2111378987958945,
+        8.0
+      ],
+      "limit": [
+        1.5,
+        10.0
+      ]
+    },
+    {
+      "name": "0.0,0.4,fine: bracket",
+      "passed": true,
+      "actual": [
+        0.2657453755807069,
+        -0.8356269178829434
+      ],
+      "limit": 0
+    },
+    {
+      "name": "0.0,0.4,fine: original null equation",
+      "passed": true,
+      "actual": 9.776637109562806e-16,
+      "limit": 2e-08
+    },
+    {
+      "name": "0.0,0.4,fine: endpoint radii",
+      "passed": true,
+      "actual": 8.881784197001252e-16,
+      "limit": 2e-10
+    },
+    {
+      "name": "0.0,0.4,fine: angular boundary",
+      "passed": true,
+      "actual": 1.7763568394002505e-15,
+      "limit": 2e-08
+    },
+    {
+      "name": "0.0,0.4,fine: finite admitted window",
+      "passed": true,
+      "actual": [
+        3.211137898795894,
+        8.0
+      ],
+      "limit": [
+        1.5,
+        10.0
+      ]
+    },
+    {
+      "name": "0.002,-0.4,coarse: bracket",
+      "passed": true,
+      "actual": [
+        0.9772985542447943,
+        -0.7063917224447906
+      ],
+      "limit": 0
+    },
+    {
+      "name": "0.002,-0.4,coarse: original null equation",
+      "passed": true,
+      "actual": 8.275137499599271e-16,
+      "limit": 2e-08
+    },
+    {
+      "name": "0.002,-0.4,coarse: endpoint radii",
+      "passed": true,
+      "actual": 8.881784197001252e-16,
+      "limit": 2e-10
+    },
+    {
+      "name": "0.002,-0.4,coarse: angular boundary",
+      "passed": true,
+      "actual": 0.0,
+      "limit": 2e-08
+    },
+    {
+      "name": "0.002,-0.4,coarse: finite admitted window",
+      "passed": true,
+      "actual": [
+        4.082188948502192,
+        8.0
+      ],
+      "limit": [
+        1.5,
+        10.0
+      ]
+    },
+    {
+      "name": "0.002,-0.4,fine: bracket",
+      "passed": true,
+      "actual": [
+        0.9772985542447943,
+        -0.7063917224447889
+      ],
+      "limit": 0
+    },
+    {
+      "name": "0.002,-0.4,fine: original null equation",
+      "passed": true,
+      "actual": 1.8092382376932233e-15,
+      "limit": 2e-08
+    },
+    {
+      "name": "0.002,-0.4,fine: endpoint radii",
+      "passed": true,
+      "actual": 0.0,
+      "limit": 2e-10
+    },
+    {
+      "name": "0.002,-0.4,fine: angular boundary",
+      "passed": true,
+      "actual": 0.0,
+      "limit": 2e-08
+    },
+    {
+      "name": "0.002,-0.4,fine: finite admitted window",
+      "passed": true,
+      "actual": [
+        4.082188948502196,
+        8.0
+      ],
+      "limit": [
+        1.5,
+        10.0
+      ]
+    },
+    {
+      "name": "0.002,0.0,coarse: bracket",
+      "passed": true,
+      "actual": [
+        0.5490754889935934,
+        -0.7761065763089934
+      ],
+      "limit": 0
+    },
+    {
+      "name": "0.002,0.0,coarse: original null equation",
+      "passed": true,
+      "actual": 6.361215187965188e-16,
+      "limit": 2e-08
+    },
+    {
+      "name": "0.002,0.0,coarse: endpoint radii",
+      "passed": true,
+      "actual": 0.0,
+      "limit": 2e-10
+    },
+    {
+      "name": "0.002,0.0,coarse: angular boundary",
+      "passed": true,
+      "actual": 6.661338147750939e-16,
+      "limit": 2e-08
+    },
+    {
+      "name": "0.002,0.0,coarse: finite admitted window",
+      "passed": true,
+      "actual": [
+        3.6894412460433967,
+        8.0
+      ],
+      "limit": [
+        1.5,
+        10.0
+      ]
+    },
+    {
+      "name": "0.002,0.0,fine: bracket",
+      "passed": true,
+      "actual": [
+        0.5490754889935934,
+        -0.7761065763089914
+      ],
+      "limit": 0
+    },
+    {
+      "name": "0.002,0.0,fine: original null equation",
+      "passed": true,
+      "actual": 1.8922532420605305e-15,
+      "limit": 2e-08
+    },
+    {
+      "name": "0.002,0.0,fine: endpoint radii",
+      "passed": true,
+      "actual": 8.881784197001252e-16,
+      "limit": 2e-10
+    },
+    {
+      "name": "0.002,0.0,fine: angular boundary",
+      "passed": true,
+      "actual": 1.3322676295501878e-15,
+      "limit": 2e-08
+    },
+    {
+      "name": "0.002,0.0,fine: finite admitted window",
+      "passed": true,
+      "actual": [
+        3.689441246043393,
+        8.0
+      ],
+      "limit": [
+        1.5,
+        10.0
+      ]
+    },
+    {
+      "name": "0.002,0.4,coarse: bracket",
+      "passed": true,
+      "actual": [
+        0.26574537558070777,
+        -0.8356269178829459
+      ],
+      "limit": 0
+    },
+    {
+      "name": "0.002,0.4,coarse: original null equation",
+      "passed": true,
+      "actual": 7.758117223378403e-16,
+      "limit": 2e-08
+    },
+    {
+      "name": "0.002,0.4,coarse: endpoint radii",
+      "passed": true,
+      "actual": 0.0,
+      "limit": 2e-10
+    },
+    {
+      "name": "0.002,0.4,coarse: angular boundary",
+      "passed": true,
+      "actual": 8.881784197001252e-16,
+      "limit": 2e-08
+    },
+    {
+      "name": "0.002,0.4,coarse: finite admitted window",
+      "passed": true,
+      "actual": [
+        3.211137898795895,
+        8.0
+      ],
+      "limit": [
+        1.5,
+        10.0
+      ]
+    },
+    {
+      "name": "0.002,0.4,fine: bracket",
+      "passed": true,
+      "actual": [
+        0.2657453755807069,
+        -0.8356269178829441
+      ],
+      "limit": 0
+    },
+    {
+      "name": "0.002,0.4,fine: original null equation",
+      "passed": true,
+      "actual": 6.881574138681632e-16,
+      "limit": 2e-08
+    },
+    {
+      "name": "0.002,0.4,fine: endpoint radii",
+      "passed": true,
+      "actual": 8.881784197001252e-16,
+      "limit": 2e-10
+    },
+    {
+      "name": "0.002,0.4,fine: angular boundary",
+      "passed": true,
+      "actual": 1.9984014443252818e-15,
+      "limit": 2e-08
+    },
+    {
+      "name": "0.002,0.4,fine: finite admitted window",
+      "passed": true,
+      "actual": [
+        3.211137898795901,
+        8.0
+      ],
+      "limit": [
+        1.5,
+        10.0
+      ]
+    },
+    {
+      "name": "-0.002,-0.4: convergence p",
+      "passed": true,
+      "actual": 1.7763568394002505e-15,
+      "limit": 8.164377897004379e-08
+    },
+    {
+      "name": "-0.002,-0.4: convergence psi_B",
+      "passed": true,
+      "actual": 3.3306690738754696e-16,
+      "limit": 2e-08
+    },
+    {
+      "name": "-0.002,-0.4: convergence tau_round_over_L_cE",
+      "passed": true,
+      "actual": 3.552713678800501e-15,
+      "limit": 4.856490929464196e-07
+    },
+    {
+      "name": "-0.002,0.0: convergence p",
+      "passed": true,
+      "actual": 1.199040866595169e-14,
+      "limit": 7.378882492086775e-08
+    },
+    {
+      "name": "-0.002,0.0: convergence psi_B",
+      "passed": true,
+      "actual": 1.942890293094024e-15,
+      "limit": 2e-08
+    },
+    {
+      "name": "-0.002,0.0: convergence tau_round_over_L_cE",
+      "passed": true,
+      "actual": 4.618527782440651e-14,
+      "limit": 4.7532031772435455e-07
+    },
+    {
+      "name": "-0.002,0.4: convergence p",
+      "passed": true,
+      "actual": 8.881784197001252e-16,
+      "limit": 6.422275797591791e-08
+    },
+    {
+      "name": "-0.002,0.4: convergence psi_B",
+      "passed": true,
+      "actual": 4.996003610813204e-16,
+      "limit": 2e-08
+    },
+    {
+      "name": "-0.002,0.4: convergence tau_round_over_L_cE",
+      "passed": true,
+      "actual": 7.105427357601002e-15,
+      "limit": 4.637511179150102e-07
+    },
+    {
+      "name": "0.0,-0.4: convergence p",
+      "passed": true,
+      "actual": 8.881784197001252e-16,
+      "limit": 8.164377897004382e-08
+    },
+    {
+      "name": "0.0,-0.4: convergence psi_B",
+      "passed": true,
+      "actual": 3.3306690738754696e-16,
+      "limit": 2e-08
+    },
+    {
+      "name": "0.0,-0.4: convergence tau_round_over_L_cE",
+      "passed": true,
+      "actual": 0.0,
+      "limit": 4.830254932479747e-07
+    },
+    {
+      "name": "0.0,0.0: convergence p",
+      "passed": true,
+      "actual": 1.7763568394002505e-15,
+      "limit": 7.37888249208679e-08
+    },
+    {
+      "name": "0.0,0.0: convergence psi_B",
+      "passed": true,
+      "actual": 3.885780586188048e-16,
+      "limit": 2e-08
+    },
+    {
+      "name": "0.0,0.0: convergence tau_round_over_L_cE",
+      "passed": true,
+      "actual": 1.4210854715202004e-14,
+      "limit": 4.7320202249529887e-07
+    },
+    {
+      "name": "0.0,0.4: convergence p",
+      "passed": true,
+      "actual": 4.440892098500626e-16,
+      "limit": 6.422275797591789e-08
+    },
+    {
+      "name": "0.0,0.4: convergence psi_B",
+      "passed": true,
+      "actual": 3.885780586188048e-16,
+      "limit": 2e-08
+    },
+    {
+      "name": "0.0,0.4: convergence tau_round_over_L_cE",
+      "passed": true,
+      "actual": 2.4868995751603507e-14,
+      "limit": 4.6203696373805164e-07
+    },
+    {
+      "name": "0.002,-0.4: convergence p",
+      "passed": true,
+      "actual": 4.440892098500626e-15,
+      "limit": 8.164377897004393e-08
+    },
+    {
+      "name": "0.002,-0.4: convergence psi_B",
+      "passed": true,
+      "actual": 1.1102230246251565e-16,
+      "limit": 2e-08
+    },
+    {
+      "name": "0.002,-0.4: convergence tau_round_over_L_cE",
+      "passed": true,
+      "actual": 1.4210854715202004e-14,
+      "limit": 4.811221537082148e-07
+    },
+    {
+      "name": "0.002,0.0: convergence p",
+      "passed": true,
+      "actual": 3.552713678800501e-15,
+      "limit": 7.378882492086787e-08
+    },
+    {
+      "name": "0.002,0.0: convergence psi_B",
+      "passed": true,
+      "actual": 1.1102230246251565e-15,
+      "limit": 2e-08
+    },
+    {
+      "name": "0.002,0.0: convergence tau_round_over_L_cE",
+      "passed": true,
+      "actual": 7.105427357601002e-15,
+      "limit": 4.7170380946995126e-07
+    },
+    {
+      "name": "0.002,0.4: convergence p",
+      "passed": true,
+      "actual": 6.217248937900877e-15,
+      "limit": 6.422275797591802e-08
+    },
+    {
+      "name": "0.002,0.4: convergence psi_B",
+      "passed": true,
+      "actual": 9.992007221626409e-16,
+      "limit": 2e-08
+    },
+    {
+      "name": "0.002,0.4: convergence tau_round_over_L_cE",
+      "passed": true,
+      "actual": 1.4210854715202004e-14,
+      "limit": 4.608656920073564e-07
+    },
+    {
+      "name": "flat exact chord p",
+      "passed": true,
+      "actual": 4.440892098500626e-16,
+      "limit": 7.378882492086789e-08
+    },
+    {
+      "name": "flat exact chord psi_B",
+      "passed": true,
+      "actual": 0.0,
+      "limit": 2e-08
+    },
+    {
+      "name": "flat exact chord tau_round_over_L_cE",
+      "passed": true,
+      "actual": 1.4210854715202004e-14,
+      "limit": 4.7320202249529855e-07
+    },
+    {
+      "name": "-0.4: fixed-shape periapse invariance",
+      "passed": true,
+      "actual": 7.105427357601002e-15,
+      "limit": 2e-08
+    },
+    {
+      "name": "-0.4: retained local angle sensitivity",
+      "passed": true,
+      "actual": 0.06032486287907135,
+      "limit": 1e-05
+    },
+    {
+      "name": "0.0: fixed-shape periapse invariance",
+      "passed": true,
+      "actual": 7.993605777301127e-15,
+      "limit": 2e-08
+    },
+    {
+      "name": "0.0: retained local angle sensitivity",
+      "passed": true,
+      "actual": 0.05253030892914773,
+      "limit": 1e-05
+    },
+    {
+      "name": "0.4: fixed-shape periapse invariance",
+      "passed": true,
+      "actual": 7.105427357601002e-15,
+      "limit": 2e-08
+    },
+    {
+      "name": "0.4: retained local angle sensitivity",
+      "passed": true,
+      "actual": 0.043683062893169755,
+      "limit": 1e-05
+    }
+  ],
+  "failures": [],
+  "versions": {
+    "python": "3.10.12",
+    "numpy": "2.2.6",
+    "scipy": "1.15.3"
+  },
+  "script_sha256": "b8bcc81d3fd7c2043dd68bcd5937106b19897c95e083c97dac979f5041a5c1bc",
+  "freeze_sha256": "824307fd43f65b073ffb4273477c8e075d528841b925b935a2583879970ad039",
+  "elapsed_seconds": 1.4266391480341554
+}

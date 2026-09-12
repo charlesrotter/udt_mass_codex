@@ -1,0 +1,80 @@
+[
+  {
+    "path": "AGENTS.md",
+    "actual": "f4862a564c8a2a98554ee4af23b89bd21deb679db6f9739880e808c7f6371c89",
+    "expected": "f4862a564c8a2a98554ee4af23b89bd21deb679db6f9739880e808c7f6371c89",
+    "match": true
+  },
+  {
+    "path": "CLAUDE.md",
+    "actual": "b7e524a5b06760e57877a408630228767ae9a394134095f9851bef5d06e17751",
+    "expected": "b7e524a5b06760e57877a408630228767ae9a394134095f9851bef5d06e17751",
+    "match": true
+  },
+  {
+    "path": "CURRENT_SCIENTIFIC_PREMISES.tsv",
+    "actual": "c614575c251a0e110146ae30b8c6f87d7d01862e3eab2da861b43c33537168e2",
+    "expected": "c614575c251a0e110146ae30b8c6f87d7d01862e3eab2da861b43c33537168e2",
+    "match": true
+  },
+  {
+    "path": "udt_native_response_discrimination_2026-09-09/step_01/CANDIDATE.md",
+    "actual": "5b20cb544d5a1630201be50eb3ee3ce513cf1a4801a278bd5e6f2101fd9bf838",
+    "expected": "5b20cb544d5a1630201be50eb3ee3ce513cf1a4801a278bd5e6f2101fd9bf838",
+    "match": true
+  },
+  {
+    "path": "udt_quiet_correspondence_campaign_2026-09-10/step_01/CANDIDATE.md",
+    "actual": "1a2a8439f2591631fd52e92b6c1c45c8a6e4e8e60a59c5e4b8642045cd2d5571",
+    "expected": "1a2a8439f2591631fd52e92b6c1c45c8a6e4e8e60a59c5e4b8642045cd2d5571",
+    "match": true
+  },
+  {
+    "path": "udt_g220_covariant_null_clock_arrow_timelive_lift_2026-08-22/AUDIT_REPORT.md",
+    "actual": "9806ac14f5d0bc419501878627dc79770ba4dd7c50f4f14dee0db216c3d9598f",
+    "expected": "9806ac14f5d0bc419501878627dc79770ba4dd7c50f4f14dee0db216c3d9598f",
+    "match": true
+  },
+  {
+    "path": "udt_g220_covariant_null_clock_arrow_timelive_lift_2026-08-22/EXACT_DERIVATION.md",
+    "actual": "0e5b33a0c013def973bdca369944d99a84fe278614cae1794e7cb50b56db0f6f",
+    "expected": "0e5b33a0c013def973bdca369944d99a84fe278614cae1794e7cb50b56db0f6f",
+    "match": true
+  },
+  {
+    "path": "udt_gr_filter_reconciliation_2026-09-09/AUTHORITY_RECORD.md",
+    "actual": "80daa0be6d3e1c0ac1b734fea089c4eb487f05bc1e1fbb2fabd69322ca89f28c",
+    "expected": "80daa0be6d3e1c0ac1b734fea089c4eb487f05bc1e1fbb2fabd69322ca89f28c",
+    "match": true
+  },
+  {
+    "path": "udt_reviewed_backlog_banking_2026-09-10/capture_existing.py",
+    "actual": "1b95a783e861a52cc9fc50d3c76c152cb3673fc9045372afafd30da269ffec3f",
+    "expected": "1b95a783e861a52cc9fc50d3c76c152cb3673fc9045372afafd30da269ffec3f",
+    "match": true
+  },
+  {
+    "path": "udt_shared_readout_metric_constraint_campaign_2026-09-06/run_capture.py",
+    "actual": "8ff5469ace76bdfc84188915242abbf3baff35516f9ee3f9ba4b1cbfeb2573ef",
+    "expected": "8ff5469ace76bdfc84188915242abbf3baff35516f9ee3f9ba4b1cbfeb2573ef",
+    "match": true
+  },
+  {
+    "path": "udt_linked_stationary_signal_benchmark_2026-09-12/INITIAL_CANDIDATE.md",
+    "actual": "b09a8c222d4dd01a319131a30f7547ef684e7c2c91b71ae4f70628837f0193f4",
+    "expected": "b09a8c222d4dd01a319131a30f7547ef684e7c2c91b71ae4f70628837f0193f4",
+    "match": true
+  },
+  {
+    "path": "udt_linked_stationary_signal_benchmark_2026-09-12/WORK_ORDER.md",
+    "actual": "d39665d7d19b1143b0419447818928972dfd3ae5c0952af8c481cff9f9c68a99",
+    "expected": "d39665d7d19b1143b0419447818928972dfd3ae5c0952af8c481cff9f9c68a99",
+    "match": true
+  },
+  {
+    "path": "udt_linked_stationary_signal_benchmark_2026-09-12/SOURCE_PINS.json",
+    "actual": "213209b48b8ce0cddb349e20ef8b521350166a587bfdec3190e3e553f3c00923",
+    "expected": "213209b48b8ce0cddb349e20ef8b521350166a587bfdec3190e3e553f3c00923",
+    "match": true
+  }
+]

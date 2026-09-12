@@ -1,0 +1,21 @@
+{
+  "source": "checks/current_full398.json",
+  "scope": "Actual new full398 audit for LSB1, not the earlier NTB1 result.",
+  "receipt": {
+    "command": [
+      "python3",
+      "verify_current_scientific_premises.py"
+    ],
+    "cwd": "/home/udt-admin/udt_mass_codex",
+    "started_utc": "2026-09-12T23:22:17.961692+00:00",
+    "duration_seconds": 404.18802595802117,
+    "returncode": 0,
+    "timeout": false,
+    "address_space_bytes": 2147483648,
+    "cpu_seconds": 900,
+    "maxrss_kib": 120576
+  },
+  "stderr_bytes": 0,
+  "parent_numerical_start_utc": "2026-09-12T23:29:37.789705+00:00",
+  "parent_audit_and_numerics_overlap": false
+}

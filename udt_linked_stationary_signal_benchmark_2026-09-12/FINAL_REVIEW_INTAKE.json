@@ -1,0 +1,41 @@
+{
+  "utc": "2026-09-12T23:40:23.048477+00:00",
+  "scope": "Final result/decision/closeout and navigation fidelity; publication still prospective. Review files carry their own originals/seals.",
+  "files": {
+    "udt_linked_stationary_signal_benchmark_2026-09-12/WORK_ORDER.md": "d39665d7d19b1143b0419447818928972dfd3ae5c0952af8c481cff9f9c68a99",
+    "udt_linked_stationary_signal_benchmark_2026-09-12/LAUNCH.json": "5d58c62cda3645a8c70519f7d42946f37f648043b9f64c91f5355daa3678564a",
+    "udt_linked_stationary_signal_benchmark_2026-09-12/SOURCE_PINS.json": "213209b48b8ce0cddb349e20ef8b521350166a587bfdec3190e3e553f3c00923",
+    "udt_linked_stationary_signal_benchmark_2026-09-12/SUPPLEMENTAL_SOURCE_PINS.json": "c0632d9e1b5286bb7d06e0880c4b9efbd5903264aa3718421a234fb8f6ed1cc5",
+    "udt_linked_stationary_signal_benchmark_2026-09-12/INITIAL_CANDIDATE.md": "b09a8c222d4dd01a319131a30f7547ef684e7c2c91b71ae4f70628837f0193f4",
+    "udt_linked_stationary_signal_benchmark_2026-09-12/CANDIDATE_FREEZE.json": "276ee14d7498b2bb9b023d1909cbfafe40320ac51ef4f0c591d73843e1100dc0",
+    "udt_linked_stationary_signal_benchmark_2026-09-12/CANDIDATE_CLARIFICATIONS.md": "3c87838a8c69868da6b9ae2753efafda6c03466b1450a370fb34e46ece14add1",
+    "udt_linked_stationary_signal_benchmark_2026-09-12/CHECK_CONTRACT.md": "61f2265845b9fcdcf9247d53a11d5db52f4bd7bb0f1551115dff6708b6d59f0b",
+    "udt_linked_stationary_signal_benchmark_2026-09-12/CHECK_FREEZE.json": "fbada672089dcb7c4ea70bb7e026fb0f67f46bfd3d4e56070c14711b9ec18239",
+    "udt_linked_stationary_signal_benchmark_2026-09-12/check_benchmark.py": "b78f99b266466fe144911271accb968c5f57cc522fcdca5a50eea378d4aaf8a7",
+    "udt_linked_stationary_signal_benchmark_2026-09-12/BENCHMARK_TABLE.tsv": "7f84d89ef238d15374e17545c07b4de08410aca9379950a3558fcbe470a03c4c",
+    "udt_linked_stationary_signal_benchmark_2026-09-12/CURRENT_AUDIT_RECEIPT.json": "9c3170e7222ccde320c5b07c5b2c2009a5c637004f68b8bbb823e9d81d4d2d05",
+    "udt_linked_stationary_signal_benchmark_2026-09-12/CHECK_RESULTS.json": "78a5af7ceaca3b9cb5b05049152e40e92c0b717acf8c2b60e5e55822aaec6caa",
+    "udt_linked_stationary_signal_benchmark_2026-09-12/PRESERVATION_CHECK.json": "9988d129c70358b84c783007ac3d59caefdfe85c8ff410a3e603c30e018347c1",
+    "udt_linked_stationary_signal_benchmark_2026-09-12/NAVIGATION_PREFLIGHT.json": "bd4332a1bf0569304d1b6508f9d045824e107c4b87d085a1a4a88b329c4be393",
+    "udt_linked_stationary_signal_benchmark_2026-09-12/REVIEW_ALLOCATION.json": "ce3c8b64c768f78f250a296752200cf0131f8abb54991267cea1a742e001538a",
+    "udt_linked_stationary_signal_benchmark_2026-09-12/DISCOVERY_AND_LIMITS.md": "595ee1323b6e9140d890bf94587151efde447a416976675178a04434500feef9",
+    "udt_linked_stationary_signal_benchmark_2026-09-12/REVIEWED_RESULT.md": "2b1cd6d93d71bf9989ecf070beca56aa53470749af13189416bdc512143b85b3",
+    "udt_linked_stationary_signal_benchmark_2026-09-12/DECISION_BRIEF.md": "02694aedd03c4ae576e01c41393631504d8316d0ce2978fc42b4a3787b62001e",
+    "udt_linked_stationary_signal_benchmark_2026-09-12/CLOSEOUT.md": "fbfeb1fe5d658cd17ab8d79bf9e09dbe965ec1c12aa4449b3ded867c544b3d02",
+    "LIVE.md": "a0106b5cff7ff69dd95eb5d61c5de504beb0602bd74da5103d27d48ff5099ae8",
+    "HANDOFF.md": "f71cadc9d1f3c252bdb554285d473e99c84fb50e1a6d05c14a835dc96f45f912",
+    "CURRENT_RESEARCH_PROGRAM.md": "9c6daaaafd7e310742af451444e09fa410802960636898450fa325be33446309",
+    "INDEX.md": "7141042b53c495f3014a75bce6c615cdfc4ad2057f66bce9b53f7f04cc245d57",
+    "UDT_RESEARCH_ROADMAP.md": "571967d6582c883b043d822c4da3aef3849bc7b4e804bd067d6c19fd930c56c3"
+  },
+  "excluded_later_mechanics": [
+    "SHA256SUMS",
+    "STAGING_PLAN.json",
+    "GIT_EXECUTION.json",
+    "INDEX_CHECK.json",
+    "PUBLICATION.json",
+    "PUBLICATION.md",
+    "ALLOCATION_CLOSEOUT.json"
+  ],
+  "no_additional_science_requested": true
+}

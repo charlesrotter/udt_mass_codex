@@ -1,0 +1,409 @@
+{
+  "utc": "2026-09-12T23:41:52.709150+00:00",
+  "status": "PASS",
+  "checks": [
+    {
+      "name": "final intake udt_linked_stationary_signal_benchmark_2026-09-12/WORK_ORDER.md",
+      "passed": true,
+      "detail": "d39665d7d19b1143b0419447818928972dfd3ae5c0952af8c481cff9f9c68a99"
+    },
+    {
+      "name": "final intake udt_linked_stationary_signal_benchmark_2026-09-12/LAUNCH.json",
+      "passed": true,
+      "detail": "5d58c62cda3645a8c70519f7d42946f37f648043b9f64c91f5355daa3678564a"
+    },
+    {
+      "name": "final intake udt_linked_stationary_signal_benchmark_2026-09-12/SOURCE_PINS.json",
+      "passed": true,
+      "detail": "213209b48b8ce0cddb349e20ef8b521350166a587bfdec3190e3e553f3c00923"
+    },
+    {
+      "name": "final intake udt_linked_stationary_signal_benchmark_2026-09-12/SUPPLEMENTAL_SOURCE_PINS.json",
+      "passed": true,
+      "detail": "c0632d9e1b5286bb7d06e0880c4b9efbd5903264aa3718421a234fb8f6ed1cc5"
+    },
+    {
+      "name": "final intake udt_linked_stationary_signal_benchmark_2026-09-12/INITIAL_CANDIDATE.md",
+      "passed": true,
+      "detail": "b09a8c222d4dd01a319131a30f7547ef684e7c2c91b71ae4f70628837f0193f4"
+    },
+    {
+      "name": "final intake udt_linked_stationary_signal_benchmark_2026-09-12/CANDIDATE_FREEZE.json",
+      "passed": true,
+      "detail": "276ee14d7498b2bb9b023d1909cbfafe40320ac51ef4f0c591d73843e1100dc0"
+    },
+    {
+      "name": "final intake udt_linked_stationary_signal_benchmark_2026-09-12/CANDIDATE_CLARIFICATIONS.md",
+      "passed": true,
+      "detail": "3c87838a8c69868da6b9ae2753efafda6c03466b1450a370fb34e46ece14add1"
+    },
+    {
+      "name": "final intake udt_linked_stationary_signal_benchmark_2026-09-12/CHECK_CONTRACT.md",
+      "passed": true,
+      "detail": "61f2265845b9fcdcf9247d53a11d5db52f4bd7bb0f1551115dff6708b6d59f0b"
+    },
+    {
+      "name": "final intake udt_linked_stationary_signal_benchmark_2026-09-12/CHECK_FREEZE.json",
+      "passed": true,
+      "detail": "fbada672089dcb7c4ea70bb7e026fb0f67f46bfd3d4e56070c14711b9ec18239"
+    },
+    {
+      "name": "final intake udt_linked_stationary_signal_benchmark_2026-09-12/check_benchmark.py",
+      "passed": true,
+      "detail": "b78f99b266466fe144911271accb968c5f57cc522fcdca5a50eea378d4aaf8a7"
+    },
+    {
+      "name": "final intake udt_linked_stationary_signal_benchmark_2026-09-12/BENCHMARK_TABLE.tsv",
+      "passed": true,
+      "detail": "7f84d89ef238d15374e17545c07b4de08410aca9379950a3558fcbe470a03c4c"
+    },
+    {
+      "name": "final intake udt_linked_stationary_signal_benchmark_2026-09-12/CURRENT_AUDIT_RECEIPT.json",
+      "passed": true,
+      "detail": "9c3170e7222ccde320c5b07c5b2c2009a5c637004f68b8bbb823e9d81d4d2d05"
+    },
+    {
+      "name": "final intake udt_linked_stationary_signal_benchmark_2026-09-12/CHECK_RESULTS.json",
+      "passed": true,
+      "detail": "78a5af7ceaca3b9cb5b05049152e40e92c0b717acf8c2b60e5e55822aaec6caa"
+    },
+    {
+      "name": "final intake udt_linked_stationary_signal_benchmark_2026-09-12/PRESERVATION_CHECK.json",
+      "passed": true,
+      "detail": "9988d129c70358b84c783007ac3d59caefdfe85c8ff410a3e603c30e018347c1"
+    },
+    {
+      "name": "final intake udt_linked_stationary_signal_benchmark_2026-09-12/NAVIGATION_PREFLIGHT.json",
+      "passed": true,
+      "detail": "bd4332a1bf0569304d1b6508f9d045824e107c4b87d085a1a4a88b329c4be393"
+    },
+    {
+      "name": "final intake udt_linked_stationary_signal_benchmark_2026-09-12/REVIEW_ALLOCATION.json",
+      "passed": true,
+      "detail": "ce3c8b64c768f78f250a296752200cf0131f8abb54991267cea1a742e001538a"
+    },
+    {
+      "name": "final intake udt_linked_stationary_signal_benchmark_2026-09-12/DISCOVERY_AND_LIMITS.md",
+      "passed": true,
+      "detail": "595ee1323b6e9140d890bf94587151efde447a416976675178a04434500feef9"
+    },
+    {
+      "name": "final intake udt_linked_stationary_signal_benchmark_2026-09-12/REVIEWED_RESULT.md",
+      "passed": true,
+      "detail": "2b1cd6d93d71bf9989ecf070beca56aa53470749af13189416bdc512143b85b3"
+    },
+    {
+      "name": "final intake udt_linked_stationary_signal_benchmark_2026-09-12/DECISION_BRIEF.md",
+      "passed": true,
+      "detail": "02694aedd03c4ae576e01c41393631504d8316d0ce2978fc42b4a3787b62001e"
+    },
+    {
+      "name": "final intake udt_linked_stationary_signal_benchmark_2026-09-12/CLOSEOUT.md",
+      "passed": true,
+      "detail": "fbfeb1fe5d658cd17ab8d79bf9e09dbe965ec1c12aa4449b3ded867c544b3d02"
+    },
+    {
+      "name": "final intake LIVE.md",
+      "passed": true,
+      "detail": "a0106b5cff7ff69dd95eb5d61c5de504beb0602bd74da5103d27d48ff5099ae8"
+    },
+    {
+      "name": "final intake HANDOFF.md",
+      "passed": true,
+      "detail": "f71cadc9d1f3c252bdb554285d473e99c84fb50e1a6d05c14a835dc96f45f912"
+    },
+    {
+      "name": "final intake CURRENT_RESEARCH_PROGRAM.md",
+      "passed": true,
+      "detail": "9c6daaaafd7e310742af451444e09fa410802960636898450fa325be33446309"
+    },
+    {
+      "name": "final intake INDEX.md",
+      "passed": true,
+      "detail": "7141042b53c495f3014a75bce6c615cdfc4ad2057f66bce9b53f7f04cc245d57"
+    },
+    {
+      "name": "final intake UDT_RESEARCH_ROADMAP.md",
+      "passed": true,
+      "detail": "571967d6582c883b043d822c4da3aef3849bc7b4e804bd067d6c19fd930c56c3"
+    },
+    {
+      "name": "preserved source AGENTS.md",
+      "passed": true,
+      "detail": "f4862a564c8a2a98554ee4af23b89bd21deb679db6f9739880e808c7f6371c89"
+    },
+    {
+      "name": "preserved source CLAUDE.md",
+      "passed": true,
+      "detail": "b7e524a5b06760e57877a408630228767ae9a394134095f9851bef5d06e17751"
+    },
+    {
+      "name": "preserved source CURRENT_SCIENTIFIC_PREMISES.md",
+      "passed": true,
+      "detail": "cd5e3ed21a5e437d81b12f68bdfa4586441621d1f14f32c64e2bf3696467976c"
+    },
+    {
+      "name": "preserved source CURRENT_SCIENTIFIC_PREMISES.tsv",
+      "passed": true,
+      "detail": "c614575c251a0e110146ae30b8c6f87d7d01862e3eab2da861b43c33537168e2"
+    },
+    {
+      "name": "preserved source verify_current_scientific_premises.py",
+      "passed": true,
+      "detail": "6575bd0a99a39cc2a4f387a74ffb69e153f3fcdb195a689e135f88f37e748dec"
+    },
+    {
+      "name": "preserved source MEMORY.md",
+      "passed": true,
+      "detail": "3472ab0a1523cdb4e4b7586c86ddf9d7c01bb415727102f419fd24610ef273ea"
+    },
+    {
+      "name": "preserved source CANON.md",
+      "passed": true,
+      "detail": "047b7fbbc1acacf01d2716e3c98cdefd0b9b20136ac4a3306f55dd6775465250"
+    },
+    {
+      "name": "preserved source udt_gr_filter_reconciliation_2026-09-09/AUTHORITY_RECORD.md",
+      "passed": true,
+      "detail": "80daa0be6d3e1c0ac1b734fea089c4eb487f05bc1e1fbb2fabd69322ca89f28c"
+    },
+    {
+      "name": "preserved source udt_native_response_discrimination_2026-09-09/step_01/CANDIDATE.md",
+      "passed": true,
+      "detail": "5b20cb544d5a1630201be50eb3ee3ce513cf1a4801a278bd5e6f2101fd9bf838"
+    },
+    {
+      "name": "preserved source udt_reviewed_backlog_banking_2026-09-10/BANKING_RECORD.md",
+      "passed": true,
+      "detail": "654b0b2d734685c42d6a1b31740d545ab9299d17a5d5cc32c57e407b800191f1"
+    },
+    {
+      "name": "preserved source udt_reviewed_backlog_banking_2026-09-10/BANKED_CLAIMS.json",
+      "passed": true,
+      "detail": "4b98b1dea6ce9dc0d62f9fa6183c1379aed534989159b45a208dad93fce12c2e"
+    },
+    {
+      "name": "preserved source udt_quiet_correspondence_campaign_2026-09-10/step_01/CANDIDATE.md",
+      "passed": true,
+      "detail": "1a2a8439f2591631fd52e92b6c1c45c8a6e4e8e60a59c5e4b8642045cd2d5571"
+    },
+    {
+      "name": "preserved source udt_g220_covariant_null_clock_arrow_timelive_lift_2026-08-22/AUDIT_REPORT.md",
+      "passed": true,
+      "detail": "9806ac14f5d0bc419501878627dc79770ba4dd7c50f4f14dee0db216c3d9598f"
+    },
+    {
+      "name": "preserved source udt_g220_covariant_null_clock_arrow_timelive_lift_2026-08-22/EXACT_DERIVATION.md",
+      "passed": true,
+      "detail": "0e5b33a0c013def973bdca369944d99a84fe278614cae1794e7cb50b56db0f6f"
+    },
+    {
+      "name": "preserved source udt_reviewed_backlog_banking_2026-09-10/capture_existing.py",
+      "passed": true,
+      "detail": "1b95a783e861a52cc9fc50d3c76c152cb3673fc9045372afafd30da269ffec3f"
+    },
+    {
+      "name": "preserved source udt_shared_readout_metric_constraint_campaign_2026-09-06/run_capture.py",
+      "passed": true,
+      "detail": "8ff5469ace76bdfc84188915242abbf3baff35516f9ee3f9ba4b1cbfeb2573ef"
+    },
+    {
+      "name": "preserved source UDT_CONSOLIDATED_RESEARCH_ACCOUNT.md",
+      "passed": true,
+      "detail": "d767d3f67a5abcf1674627ce469ac6fee3994b1bf8b144df74ada39df9813490"
+    },
+    {
+      "name": "preserved source udt_accepted_work_consolidation_2026-09-12/GAP_AND_REUSE_MAP.tsv",
+      "passed": true,
+      "detail": "750026d5043af2c825232522ebc6d237a260f74e3aa7e6349c9e6af9f39f8843"
+    },
+    {
+      "name": "preserved source UDT_METRIC_KERNEL_DEVELOPMENT.md",
+      "passed": true,
+      "detail": "3b625d8f43620a37c99d9f4f0fdc9390c3a12306b1da87281c143ce84d40a81e"
+    },
+    {
+      "name": "preserved source .claude/skills/no-shortcuts/SKILL.md",
+      "passed": true,
+      "detail": "fd3a1f3218481134f2af829d3ae4175ac53518f75bf9673287efbfb7d7708fc1"
+    },
+    {
+      "name": "preserved source .claude/skills/completeness-map/SKILL.md",
+      "passed": true,
+      "detail": "a8cf9e5f4a6d35a0d0ebfe4bc48dbf328ca74e318f020a6a22cb683666a611c0"
+    },
+    {
+      "name": "preserved source .claude/skills/verifier-before-record/SKILL.md",
+      "passed": true,
+      "detail": "9b3a4aacd4b4006b2b7f01edada73b7c87b99bea6e754583558713bfc145e5ac"
+    },
+    {
+      "name": "preserved source CROSS_MODEL_VERIFY.md",
+      "passed": true,
+      "detail": "2b0509d933d731fbf3f72aa88777a54d3e48a94d4bae3d324087871777f9a007"
+    },
+    {
+      "name": "preserved source udt_g176_completed_pair_dual_reciprocity_consolidation_2026-08-19/AUDIT_REPORT.md",
+      "passed": true,
+      "detail": "c7c96194a8baf3465b2d8c58ff19051ee2937b4b7f7a5d0e8859ad1a26651d84"
+    },
+    {
+      "name": "pinned branch/head/local origin reference",
+      "passed": true,
+      "detail": {
+        "branch": "grok",
+        "head": "c12db2562da1a5098f65a97ae0c924dec149ca4c",
+        "origin_grok": "c12db2562da1a5098f65a97ae0c924dec149ca4c",
+        "remote_freshness": "parent attributed; reviewer did not fetch"
+      }
+    },
+    {
+      "name": "tracked delta is five navigation files",
+      "passed": true,
+      "detail": [
+        "CURRENT_RESEARCH_PROGRAM.md",
+        "HANDOFF.md",
+        "INDEX.md",
+        "LIVE.md",
+        "UDT_RESEARCH_ROADMAP.md"
+      ]
+    },
+    {
+      "name": "no staged changes at reviewer final check",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "original unrelated untracked status names unchanged",
+      "passed": true,
+      "detail": {
+        "count": 51,
+        "sha256": "747cf3c497bfbdf7c373a2aa621be3cb241a61f7ef9f508c39bf64588ff70a60",
+        "payloads": "not read"
+      }
+    },
+    {
+      "name": "tracked whitespace diff",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "table has every declared case",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "table case and readout fidelity [-0.002, -0.4]",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "table case and readout fidelity [-0.002, 0.0]",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "table case and readout fidelity [-0.002, 0.4]",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "table case and readout fidelity [0.0, -0.4]",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "table case and readout fidelity [0.0, 0.0]",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "table case and readout fidelity [0.0, 0.4]",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "table case and readout fidelity [0.002, -0.4]",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "table case and readout fidelity [0.002, 0.0]",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "table case and readout fidelity [0.002, 0.4]",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "aggregate receipt benchmark",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "aggregate receipt current_full398",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "aggregate receipt hostile_drop_receiver_lapse",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "aggregate receipt hostile_drop_source_lapse",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "aggregate receipt hostile_invert_clock",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "aggregate receipt navigation",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "current navigation actual output",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "current full audit actual success and empty stderr",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "saved independent comparison input review/INDEPENDENT_GEODESIC_RESULT.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "saved independent comparison input checks/benchmark.stdout",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "saved independent comparison input review/compare_readouts.py",
+      "passed": true,
+      "detail": null
+    }
+  ],
+  "final_intake_sha256": "1663b488c050d8920042213c64c7d7d4a1a9b85a06de78e4df532562899d0708",
+  "later_publication_excluded": [
+    "SHA256SUMS",
+    "STAGING_PLAN.json",
+    "GIT_EXECUTION.json",
+    "INDEX_CHECK.json",
+    "PUBLICATION.json",
+    "PUBLICATION.md",
+    "ALLOCATION_CLOSEOUT.json"
+  ],
+  "science_rerun": false,
+  "reviewer_changed_paths": "review/ only; no git mutations",
+  "script_sha256": "c7e9574acd1d819696fa2dec40eaa01df68b44b6b17952e3bf8cc2d9fa6dbf7a"
+}

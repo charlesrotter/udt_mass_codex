@@ -1,0 +1,262 @@
+{
+  "status": "PASS",
+  "comparisons": [
+    {
+      "a": -0.002,
+      "b": -0.4,
+      "differences": {
+        "p": {
+          "independent_ode": 4.082188948502189,
+          "parent_tight_quadrature": 4.082188948502192,
+          "absolute": 2.6645352591003757e-15,
+          "scaled": 6.52722177418571e-16,
+          "passed": true
+        },
+        "psi_B": {
+          "independent_ode": 0.5194153966266296,
+          "parent_tight_quadrature": 0.5194153966266296,
+          "absolute": 0.0,
+          "scaled": 0.0,
+          "passed": true
+        },
+        "roundtrip_cE_over_L": {
+          "independent_ode": 24.28245464732098,
+          "parent_tight_quadrature": 24.282454647320957,
+          "absolute": 2.1316282072803006e-14,
+          "scaled": 8.778470868123202e-16,
+          "passed": true
+        }
+      }
+    },
+    {
+      "a": -0.002,
+      "b": 0.0,
+      "differences": {
+        "p": {
+          "independent_ode": 3.689441246043387,
+          "parent_tight_quadrature": 3.6894412460433905,
+          "absolute": 3.552713678800501e-15,
+          "scaled": 9.62940847102657e-16,
+          "passed": true
+        },
+        "psi_B": {
+          "independent_ode": 0.4518592035260343,
+          "parent_tight_quadrature": 0.4518592035260348,
+          "absolute": 4.996003610813204e-16,
+          "scaled": 4.996003610813204e-16,
+          "passed": true
+        },
+        "roundtrip_cE_over_L": {
+          "independent_ode": 23.766015886217726,
+          "parent_tight_quadrature": 23.766015886217716,
+          "absolute": 1.0658141036401503e-14,
+          "scaled": 4.484614117666361e-16,
+          "passed": true
+        }
+      }
+    },
+    {
+      "a": -0.002,
+      "b": 0.4,
+      "differences": {
+        "p": {
+          "independent_ode": 3.211137898795896,
+          "parent_tight_quadrature": 3.2111378987958945,
+          "absolute": 1.3322676295501878e-15,
+          "scaled": 4.1488957233812915e-16,
+          "passed": true
+        },
+        "psi_B": {
+          "independent_ode": 0.37559566710200437,
+          "parent_tight_quadrature": 0.37559566710200437,
+          "absolute": 0.0,
+          "scaled": 0.0,
+          "passed": true
+        },
+        "roundtrip_cE_over_L": {
+          "independent_ode": 23.18755589575051,
+          "parent_tight_quadrature": 23.187555895750528,
+          "absolute": 1.7763568394002505e-14,
+          "scaled": 7.66081965424306e-16,
+          "passed": true
+        }
+      }
+    },
+    {
+      "a": 0.0,
+      "b": -0.4,
+      "differences": {
+        "p": {
+          "independent_ode": 4.082188948502191,
+          "parent_tight_quadrature": 4.082188948502194,
+          "absolute": 2.6645352591003757e-15,
+          "scaled": 6.527221774185707e-16,
+          "passed": true
+        },
+        "psi_B": {
+          "independent_ode": 0.5511542324170583,
+          "parent_tight_quadrature": 0.5511542324170583,
+          "absolute": 0.0,
+          "scaled": 0.0,
+          "passed": true
+        },
+        "roundtrip_cE_over_L": {
+          "independent_ode": 24.151274662398738,
+          "parent_tight_quadrature": 24.15127466239874,
+          "absolute": 3.552713678800501e-15,
+          "scaled": 1.471025330324176e-16,
+          "passed": true
+        }
+      }
+    },
+    {
+      "a": 0.0,
+      "b": 0.0,
+      "differences": {
+        "p": {
+          "independent_ode": 3.689441246043395,
+          "parent_tight_quadrature": 3.6894412460433905,
+          "absolute": 4.440892098500626e-15,
+          "scaled": 1.2036760588783185e-15,
+          "passed": true
+        },
+        "psi_B": {
+          "independent_ode": 0.47932478242062954,
+          "parent_tight_quadrature": 0.479324782420629,
+          "absolute": 5.551115123125783e-16,
+          "scaled": 5.551115123125783e-16,
+          "passed": true
+        },
+        "roundtrip_cE_over_L": {
+          "independent_ode": 23.660101124764942,
+          "parent_tight_quadrature": 23.660101124764942,
+          "absolute": 0.0,
+          "scaled": 0.0,
+          "passed": true
+        }
+      }
+    },
+    {
+      "a": 0.0,
+      "b": 0.4,
+      "differences": {
+        "p": {
+          "independent_ode": 3.211137898795894,
+          "parent_tight_quadrature": 3.2111378987958954,
+          "absolute": 1.3322676295501878e-15,
+          "scaled": 4.148895723381294e-16,
+          "passed": true
+        },
+        "psi_B": {
+          "independent_ode": 0.39830489418713155,
+          "parent_tight_quadrature": 0.398304894187132,
+          "absolute": 4.440892098500626e-16,
+          "scaled": 4.440892098500626e-16,
+          "passed": true
+        },
+        "roundtrip_cE_over_L": {
+          "independent_ode": 23.101848186902583,
+          "parent_tight_quadrature": 23.10184818690255,
+          "absolute": 3.197442310920451e-14,
+          "scaled": 1.3840634242991937e-15,
+          "passed": true
+        }
+      }
+    },
+    {
+      "a": 0.002,
+      "b": -0.4,
+      "differences": {
+        "p": {
+          "independent_ode": 4.082188948502196,
+          "parent_tight_quadrature": 4.082188948502192,
+          "absolute": 4.440892098500626e-15,
+          "scaled": 1.0878702956976165e-15,
+          "passed": true
+        },
+        "psi_B": {
+          "independent_ode": 0.579740259505701,
+          "parent_tight_quadrature": 0.579740259505701,
+          "absolute": 0.0,
+          "scaled": 0.0,
+          "passed": true
+        },
+        "roundtrip_cE_over_L": {
+          "independent_ode": 24.056107685410737,
+          "parent_tight_quadrature": 24.056107685410744,
+          "absolute": 7.105427357601002e-15,
+          "scaled": 2.953689537194006e-16,
+          "passed": true
+        }
+      }
+    },
+    {
+      "a": 0.002,
+      "b": 0.0,
+      "differences": {
+        "p": {
+          "independent_ode": 3.689441246043393,
+          "parent_tight_quadrature": 3.689441246043389,
+          "absolute": 3.9968028886505635e-15,
+          "scaled": 1.0833084529904872e-15,
+          "passed": true
+        },
+        "psi_B": {
+          "independent_ode": 0.504389512455182,
+          "parent_tight_quadrature": 0.504389512455182,
+          "absolute": 0.0,
+          "scaled": 0.0,
+          "passed": true
+        },
+        "roundtrip_cE_over_L": {
+          "independent_ode": 23.585190473497562,
+          "parent_tight_quadrature": 23.585190473497548,
+          "absolute": 1.4210854715202004e-14,
+          "scaled": 6.025329636905242e-16,
+          "passed": true
+        }
+      }
+    },
+    {
+      "a": 0.002,
+      "b": 0.4,
+      "differences": {
+        "p": {
+          "independent_ode": 3.211137898795901,
+          "parent_tight_quadrature": 3.2111378987958945,
+          "absolute": 6.661338147750939e-15,
+          "scaled": 2.074447861690642e-15,
+          "passed": true
+        },
+        "psi_B": {
+          "independent_ode": 0.4192787299951741,
+          "parent_tight_quadrature": 0.41927872999517296,
+          "absolute": 1.1657341758564144e-15,
+          "scaled": 1.1657341758564144e-15,
+          "passed": true
+        },
+        "roundtrip_cE_over_L": {
+          "independent_ode": 23.04328460036782,
+          "parent_tight_quadrature": 23.043284600367837,
+          "absolute": 1.7763568394002505e-14,
+          "scaled": 7.70878314531556e-16,
+          "passed": true
+        }
+      }
+    }
+  ],
+  "max_absolute_by_readout": {
+    "p": 6.661338147750939e-15,
+    "psi_B": 1.1657341758564144e-15,
+    "roundtrip_cE_over_L": 3.197442310920451e-14
+  },
+  "max_scaled": 2.074447861690642e-15,
+  "same_systematic_premises": true,
+  "different_scientific_numerical_method": true,
+  "independence": "separate agent code and affine ODE; common supplied metric, NumPy/SciPy/FLOAT64 platform and Brent scalar root library",
+  "hashes": {
+    "review/INDEPENDENT_GEODESIC_RESULT.json": "82f4e125b6b09f5705c769e00589ac947a292e6535858eb1022b15e7ab333ae1",
+    "checks/benchmark.stdout": "0370a2e898477a173c055b38aedbe9e0f08f107f2d67575fcb3b83e7e94993c7",
+    "review/compare_readouts.py": "3f58312bc83429960868fbc41b42a31f5574b611d838f226b89685d05bc90134"
+  }
+}

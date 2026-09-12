@@ -1,0 +1,11 @@
+{
+  "spawn_requested_utc": "2026-09-12T23:22:18Z",
+  "spawn_timestamp_note": "Conservative lower bound from work-order capture launch; tool response supplied task name but no exact server allocation timestamp. Reviewer records own first-action timestamp.",
+  "task": "/root/lsb1_stationary_review",
+  "context": "fresh fork_turns=none",
+  "model": "Inherited configuration; runtime UNATTESTED; different-model independence UNTESTED",
+  "ceiling_minutes": 40,
+  "conservative_review_deadline_utc": "2026-09-13T00:02:18Z",
+  "overlap": "Parent premise verifier and reviewer source-first work overlap; parent analytical drafting overlaps reviewer. Exact process receipts and final reviewer seal determine measured bounds.",
+  "capacity": "One actual successful fresh allocation, no inference of general restored capacity. No old context resumed; no second review requested."
+}

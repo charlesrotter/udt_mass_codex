@@ -1,0 +1,14 @@
+{
+  "status": "FAIL",
+  "mutation": "invert_clock",
+  "versions": {
+    "python": "3.10.12",
+    "numpy": "2.2.6",
+    "scipy": "1.15.3",
+    "sympy": "1.13.1"
+  },
+  "dtype": "float64 plus exact symbolic/rational checks",
+  "records": [],
+  "scope": "Finite checks, not interval certification or observational data.",
+  "failure": "AssertionError(('calibration_recovery', -0.002, -0.4, 1.0021324472671433))"
+}

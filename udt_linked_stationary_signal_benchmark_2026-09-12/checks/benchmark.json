@@ -1,0 +1,14 @@
+{
+  "command": [
+    "python3",
+    "udt_linked_stationary_signal_benchmark_2026-09-12/check_benchmark.py"
+  ],
+  "cwd": "/home/udt-admin/udt_mass_codex",
+  "started_utc": "2026-09-12T23:29:37.789705+00:00",
+  "duration_seconds": 0.42616064799949527,
+  "returncode": 0,
+  "timeout": false,
+  "address_space_bytes": 2147483648,
+  "cpu_seconds": 180,
+  "maxrss_kib": 109152
+}

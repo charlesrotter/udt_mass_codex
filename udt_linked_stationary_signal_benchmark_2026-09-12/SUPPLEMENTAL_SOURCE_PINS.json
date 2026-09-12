@@ -1,0 +1,14 @@
+{
+  "utc": "2026-09-12T23:29:17.003160+00:00",
+  "files": {
+    "UDT_CONSOLIDATED_RESEARCH_ACCOUNT.md": "d767d3f67a5abcf1674627ce469ac6fee3994b1bf8b144df74ada39df9813490",
+    "udt_accepted_work_consolidation_2026-09-12/GAP_AND_REUSE_MAP.tsv": "750026d5043af2c825232522ebc6d237a260f74e3aa7e6349c9e6af9f39f8843",
+    "UDT_METRIC_KERNEL_DEVELOPMENT.md": "3b625d8f43620a37c99d9f4f0fdc9390c3a12306b1da87281c143ce84d40a81e",
+    ".claude/skills/no-shortcuts/SKILL.md": "fd3a1f3218481134f2af829d3ae4175ac53518f75bf9673287efbfb7d7708fc1",
+    ".claude/skills/completeness-map/SKILL.md": "a8cf9e5f4a6d35a0d0ebfe4bc48dbf328ca74e318f020a6a22cb683666a611c0",
+    ".claude/skills/verifier-before-record/SKILL.md": "9b3a4aacd4b4006b2b7f01edada73b7c87b99bea6e754583558713bfc145e5ac",
+    "CROSS_MODEL_VERIFY.md": "2b0509d933d731fbf3f72aa88777a54d3e48a94d4bae3d324087871777f9a007",
+    "udt_g176_completed_pair_dual_reciprocity_consolidation_2026-08-19/AUDIT_REPORT.md": "c7c96194a8baf3465b2d8c58ff19051ee2937b4b7f7a5d0e8859ad1a26651d84"
+  },
+  "g176_added_note": "Added after reviewer checked the exact current G176 source for the expressly WORKING clock-leg stamp; original file unchanged."
+}

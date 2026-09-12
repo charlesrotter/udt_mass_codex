@@ -2,7 +2,7 @@
 
 G383--G412 banking COMPLETE; G413/G414/G415 banked; exact scopes/reviews below.
 Roadmap: `UDT_RESEARCH_ROADMAP.md`; G414: `udt_ti2_banking_2026-09-11/BANKING_RECORD.md`; TI3 reviewed/UNPROMOTED: `udt_two_shape_profile_dependence_2026-09-11/DECISION_BRIEF.md`.
-CWA1: `UDT_CONSOLIDATED_RESEARCH_ACCOUNT.md`; NTB1: `udt_ne1_tilted_beam_geometry_2026-09-12/CLOSEOUT.md` (UNPROMOTED).
+CWA1: `UDT_CONSOLIDATED_RESEARCH_ACCOUNT.md`; LSB1: `udt_linked_stationary_signal_benchmark_2026-09-12/CLOSEOUT.md` (UNPROMOTED).
 Backlog: `udt_reviewed_backlog_banking_2026-09-10/BANKING_RECORD.md`; exact claims/dispositions/checks there.
 The exact 398-row `CURRENT_SCIENTIFIC_PREMISES.tsv` owns grades, not these pointers.
 GR is FILTER ONLY, not a response-law input; Local Metric Sufficiency remains owner-provisional.

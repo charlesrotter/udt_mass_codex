@@ -1,0 +1,111 @@
+{
+  "created_utc": "2026-09-12T23:38:02.711682+00:00",
+  "parent_receipts": {
+    "benchmark": {
+      "command": [
+        "python3",
+        "udt_linked_stationary_signal_benchmark_2026-09-12/check_benchmark.py"
+      ],
+      "cwd": "/home/udt-admin/udt_mass_codex",
+      "started_utc": "2026-09-12T23:29:37.789705+00:00",
+      "duration_seconds": 0.42616064799949527,
+      "returncode": 0,
+      "timeout": false,
+      "address_space_bytes": 2147483648,
+      "cpu_seconds": 180,
+      "maxrss_kib": 109152
+    },
+    "current_full398": {
+      "command": [
+        "python3",
+        "verify_current_scientific_premises.py"
+      ],
+      "cwd": "/home/udt-admin/udt_mass_codex",
+      "started_utc": "2026-09-12T23:22:17.961692+00:00",
+      "duration_seconds": 404.18802595802117,
+      "returncode": 0,
+      "timeout": false,
+      "address_space_bytes": 2147483648,
+      "cpu_seconds": 900,
+      "maxrss_kib": 120576
+    },
+    "hostile_drop_receiver_lapse": {
+      "command": [
+        "python3",
+        "udt_linked_stationary_signal_benchmark_2026-09-12/check_benchmark.py",
+        "--mutate",
+        "drop_receiver_lapse"
+      ],
+      "cwd": "/home/udt-admin/udt_mass_codex",
+      "started_utc": "2026-09-12T23:30:03.112807+00:00",
+      "duration_seconds": 0.28590059000998735,
+      "returncode": 1,
+      "timeout": false,
+      "address_space_bytes": 2147483648,
+      "cpu_seconds": 180,
+      "maxrss_kib": 105748
+    },
+    "hostile_drop_source_lapse": {
+      "command": [
+        "python3",
+        "udt_linked_stationary_signal_benchmark_2026-09-12/check_benchmark.py",
+        "--mutate",
+        "drop_source_lapse"
+      ],
+      "cwd": "/home/udt-admin/udt_mass_codex",
+      "started_utc": "2026-09-12T23:30:03.467080+00:00",
+      "duration_seconds": 0.2811574019724503,
+      "returncode": 1,
+      "timeout": false,
+      "address_space_bytes": 2147483648,
+      "cpu_seconds": 180,
+      "maxrss_kib": 105876
+    },
+    "hostile_invert_clock": {
+      "command": [
+        "python3",
+        "udt_linked_stationary_signal_benchmark_2026-09-12/check_benchmark.py",
+        "--mutate",
+        "invert_clock"
+      ],
+      "cwd": "/home/udt-admin/udt_mass_codex",
+      "started_utc": "2026-09-12T23:30:02.762383+00:00",
+      "duration_seconds": 0.28053619898855686,
+      "returncode": 1,
+      "timeout": false,
+      "address_space_bytes": 2147483648,
+      "cpu_seconds": 180,
+      "maxrss_kib": 105096
+    },
+    "navigation": {
+      "command": [
+        "python3",
+        "-m",
+        "pytest",
+        "--noconftest",
+        "-q",
+        "tests/test_startup_surface.py",
+        "-k",
+        "not full_foundational_premise_verifier_is_in_pytest"
+      ],
+      "cwd": "/home/udt-admin/udt_mass_codex",
+      "started_utc": "2026-09-12T23:35:33.935834+00:00",
+      "duration_seconds": 13.578525554039516,
+      "returncode": 0,
+      "timeout": false,
+      "address_space_bytes": 2147483648,
+      "cpu_seconds": 180,
+      "maxrss_kib": 52624
+    }
+  },
+  "benchmark_cases": 9,
+  "parent_max_tighter_scaled_difference": 4.1127789211330887e-14,
+  "independent_ode_rows": 18,
+  "independent_max_null_residual": 2.5598307921883726e-15,
+  "independent_max_phi_residual": 1.9984014443252818e-15,
+  "cross_method_status": "PASS",
+  "navigation_stdout": "........................................................................ [ 20%]\n........................................................................ [ 40%]\n........................................................................ [ 60%]\n........................................................................ [ 80%]\n.......................................................................  [100%]\n359 passed, 1 deselected in 13.47s",
+  "numerical_interval_certification": false,
+  "actual_dataset_used": false,
+  "sources_reproved": "No; only load-bearing current premise audit, analytic reconstruction and independent finite signal calculation."
+}
