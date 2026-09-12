@@ -1,0 +1,38 @@
+{
+  "checked_utc": "2026-09-12T15:33:17.067085+00:00",
+  "python": "3.10.12",
+  "sympy": "1.13.1",
+  "purpose": "Exact ZDR1 join anchors; no source imports, fit, data, or whole-theory certification.",
+  "pass": true,
+  "exact_symbolic_identities": {
+    "null_incidence": "0",
+    "proper_time_norm": "0",
+    "proper_clock_jacobian_squared": "0",
+    "observed_frequency": "0",
+    "finite_duration": "0"
+  },
+  "rational_actual_metric_control": {
+    "Z0": "2",
+    "epsilon": "1/5",
+    "T": "1",
+    "D": "1",
+    "observer_duration": "11/5",
+    "initial_redshift_times_duration": "2",
+    "relative_difference": "1/10",
+    "uniform_bound": "1/5"
+  },
+  "flux_expression": "Le/(4*pi*A_eo*Z**4)",
+  "dL_squared": "A_eo*Z**4",
+  "omitted_energy_factor_control": "A_eo*Z**3",
+  "log_closure_coefficients": [
+    "1",
+    "2",
+    "4",
+    "-1"
+  ],
+  "negative_controls": [
+    "Initial endpoint Z0 alone fails to equal the exact finite interval when epsilon=1/5",
+    "Omitting received energy redshift yields Z^3 A_eo, different from bolometric Z^4 A_eo"
+  ],
+  "limits": "Exact algebra and one supplied flat metric/observer control; no physics identification, error-bound certification, source theorem replay, dataset, fit, or native cosmic model."
+}

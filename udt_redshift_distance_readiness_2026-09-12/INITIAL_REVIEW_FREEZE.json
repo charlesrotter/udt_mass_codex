@@ -1,0 +1,15 @@
+{
+  "frozen_utc": "2026-09-12T15:33:02.618645+00:00",
+  "scope": "Initial ZDR1 candidate and exact-check code before new computation and direct reviewer exposure; mathematical exploration preceded this freeze",
+  "pins": {
+    "WORK_ORDER.md": "793305c9ac0f1ad6a690e7e5dda494921780b35cebe477bb856bd75d0a444a89",
+    "FRAME_AND_EXPOSURE.md": "0606a943f8742573d619b563a41c1132b18ebefa6569f35da170f13acea409d6",
+    "STARTUP_RECORD.json": "d44cc0e8953990afdff18774c47d5c8eb79b06a837910654c6bc4c88d5f9cf77",
+    "SOURCE_PINS.json": "80ef2a2dc3d75de3fd71536f7f16b4b37a5df76955775049c5163356fad4ac78",
+    "SOURCE_FIRST_REVIEW_TASK.md": "85e73697f802151b56eba9173cb071ff53efa4da0d88cdaecc48f36b4f197efc",
+    "INITIAL_CANDIDATE.md": "aed920bf9828825bd3c3bdd525c1f4477f1989a82b1fb703e6e6897df076dddf",
+    "sources/DES_SOURCE.json": "c62c2a3bd15b60627635656ea53fe6c91e6fa79ee884543af0a89bcd3db056c8",
+    "sources/DES_METHOD_FACTS.md": "fdcb92472a0715e7a9cef130b70b681e03f6246f137d8325b9032afb078054aa",
+    "checks/check_conditional_joins.py": "16e685679a37dbbba697473152c2d773f9fb1cac445e46556b58803701bdc9f9"
+  }
+}

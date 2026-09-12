@@ -1,0 +1,58 @@
+{
+  "SOURCE_PINS.json": {
+    "count": 28,
+    "mismatches": []
+  },
+  "INITIAL_REVIEW_FREEZE.json": {
+    "count": 9,
+    "mismatches": []
+  },
+  "review/SOURCE_FIRST_SEAL.json": {
+    "count": 6,
+    "mismatches": []
+  },
+  "review/DIRECT_REVIEW_SEAL.json": {
+    "count": 7,
+    "mismatches": []
+  },
+  "observed_utc": "2026-09-12T15:52:25.265343+00:00",
+  "evidence_type": "independent byte/ref/name-status correspondence only",
+  "branch": "grok",
+  "refs": [
+    "892546169db5a63f39244c7388bde7e72e667017",
+    "892546169db5a63f39244c7388bde7e72e667017"
+  ],
+  "original_untracked_count": 46,
+  "original_untracked_name_status_sha256": "55e7c4508622f912730f9c068cc571c370b3977bc1110eb0a48a8218dbe024c2",
+  "changed_tracked_paths": [
+    "CURRENT_RESEARCH_PROGRAM.md",
+    "HANDOFF.md",
+    "INDEX.md",
+    "LIVE.md",
+    "UDT_RESEARCH_ROADMAP.md"
+  ],
+  "root_pins": {
+    "CURRENT_RESEARCH_PROGRAM.md": "098cc480c3b35b97ad9fc34c20d0c7660bf73431b3692b858e667ad194f7308c",
+    "HANDOFF.md": "7e53d4031f4a76697a1ca932a9ae51f838993650e33d36b2f1b29fcd8a51e894",
+    "INDEX.md": "7db537e455ab3fcdbf93deaf78a87cf8a02c46a4a1e62548d051d2a979f2bee6",
+    "LIVE.md": "4d245e73190a2f01f782291ab5a916d9b0a67506794f9d0dfe025ba677ee2094",
+    "UDT_RESEARCH_ROADMAP.md": "ab72f7788aac88cfd959af92f2fd93be8e9dfe174955533611d41f806f6edf91"
+  },
+  "focused_immutable_documents_match": [
+    "SOURCE_PRESERVING_CLARIFICATION.md",
+    "REVIEWED_RESULT.md",
+    "DECISION_BRIEF.md",
+    "review/FOCUSED_RE_REVIEW.md",
+    "review/LATE_DOMAIN_OBJECTION.md"
+  ],
+  "actual_parent_receipts_checked": [
+    "current_full397",
+    "conditional_joins",
+    "final_navigation",
+    "postclarification_navigation",
+    "final_scope"
+  ],
+  "scientific_or_navigation_reruns": [],
+  "source_registry_rows": 397,
+  "pass": true
+}

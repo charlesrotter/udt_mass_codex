@@ -1,0 +1,160 @@
+{
+  "python": "3.10.12",
+  "method": "Independent Fraction/null-coordinate reconstruction of the parent witness.\n\nNo author/source-code imports. Integrate the normalized rapidity equations:\nU^u=1/Z, U^v=Z, ds/du=1, hence d tau/ds=Z and dv/ds=Z^2.\nMidpoint integration is exact for linear Z; Simpson is exact for quadratic Z^2.\nThe analytic proof, not these four finite controls, owns the general statement.\n",
+  "arithmetic": "exact Fraction; no tolerances; four explicit controls",
+  "rows": [
+    {
+      "Z0": "2",
+      "epsilon": "1/5",
+      "T": "1",
+      "D": "1",
+      "duration": "11/5",
+      "initial_ratio_prediction": "2",
+      "relative_error": "1/10",
+      "v_end": "514/75",
+      "t_end": "589/150",
+      "x_end": "439/150",
+      "nodes": [
+        {
+          "s": "0",
+          "Z": "2",
+          "Ut": "5/4",
+          "Ux": "3/4",
+          "norm": "-1",
+          "omega_o": "1/2"
+        },
+        {
+          "s": "1/2",
+          "Z": "11/5",
+          "Ut": "73/55",
+          "Ux": "48/55",
+          "norm": "-1",
+          "omega_o": "5/11"
+        },
+        {
+          "s": "1",
+          "Z": "12/5",
+          "Ut": "169/120",
+          "Ux": "119/120",
+          "norm": "-1",
+          "omega_o": "5/12"
+        }
+      ]
+    },
+    {
+      "Z0": "1",
+      "epsilon": "0",
+      "T": "1",
+      "D": "1",
+      "duration": "1",
+      "initial_ratio_prediction": "1",
+      "relative_error": "0",
+      "v_end": "3",
+      "t_end": "2",
+      "x_end": "1",
+      "nodes": [
+        {
+          "s": "0",
+          "Z": "1",
+          "Ut": "1",
+          "Ux": "0",
+          "norm": "-1",
+          "omega_o": "1"
+        },
+        {
+          "s": "1/2",
+          "Z": "1",
+          "Ut": "1",
+          "Ux": "0",
+          "norm": "-1",
+          "omega_o": "1"
+        },
+        {
+          "s": "1",
+          "Z": "1",
+          "Ut": "1",
+          "Ux": "0",
+          "norm": "-1",
+          "omega_o": "1"
+        }
+      ]
+    },
+    {
+      "Z0": "2",
+      "epsilon": "0",
+      "T": "2",
+      "D": "3",
+      "duration": "4",
+      "initial_ratio_prediction": "4",
+      "relative_error": "0",
+      "v_end": "14",
+      "t_end": "8",
+      "x_end": "6",
+      "nodes": [
+        {
+          "s": "0",
+          "Z": "2",
+          "Ut": "5/4",
+          "Ux": "3/4",
+          "norm": "-1",
+          "omega_o": "1/2"
+        },
+        {
+          "s": "1",
+          "Z": "2",
+          "Ut": "5/4",
+          "Ux": "3/4",
+          "norm": "-1",
+          "omega_o": "1/2"
+        },
+        {
+          "s": "2",
+          "Z": "2",
+          "Ut": "5/4",
+          "Ux": "3/4",
+          "norm": "-1",
+          "omega_o": "1/2"
+        }
+      ]
+    },
+    {
+      "Z0": "1",
+      "epsilon": "1/5",
+      "T": "2",
+      "D": "3",
+      "duration": "11/5",
+      "initial_ratio_prediction": "2",
+      "relative_error": "1/10",
+      "v_end": "632/75",
+      "t_end": "391/75",
+      "x_end": "241/75",
+      "nodes": [
+        {
+          "s": "0",
+          "Z": "1",
+          "Ut": "1",
+          "Ux": "0",
+          "norm": "-1",
+          "omega_o": "1"
+        },
+        {
+          "s": "1",
+          "Z": "11/10",
+          "Ut": "221/220",
+          "Ux": "21/220",
+          "norm": "-1",
+          "omega_o": "10/11"
+        },
+        {
+          "s": "2",
+          "Z": "6/5",
+          "Ut": "61/60",
+          "Ux": "11/60",
+          "norm": "-1",
+          "omega_o": "5/6"
+        }
+      ]
+    }
+  ],
+  "status": "PASS"
+}

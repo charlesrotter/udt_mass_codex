@@ -371,7 +371,37 @@ still has supplied flat initial geometry, equation, observer and short time exte
 must identify its actual new question and full review cycle. Native equation/assembly questions
 remain parallel open work; further conditional Ric=0 examples alone cannot establish that join.
 The fixed through-G352 manuscript is unchanged. No automatic successor is authorized.
-Stop for lay discussion with Charles after OB2's recorded evidence closeout.
+OB2's evidence/publication receipt records its completed closeout.
+
+Charles next authorized a two-hour redshift–distance readiness checkpoint on2026-09-12,
+including one fresh review and bounded correction/re-review. ZDR1's work order in
+`udt_redshift_distance_readiness_2026-09-12/` records launch15:21:03UTC and hard return17:21:03UTC.
+Its INITIAL_CANDIDATE.md, REVIEWED_RESULT.md and DECISION_BRIEF.md retain the conditional result:
+G348's general beam-area reciprocity plus explicitly supplied conventional optical assumptions
+gives a brightness/angular-distance/redshift consistency target, but does not select either
+distance or a physical history. Independent distance and source calibration/error support remain
+needed; deriving one input from the same target data using the relation removes its test.
+G351/G352 do not supply an energy law or supernova envelope; G349 sheet multiplicity is not
+a detector sum. G402 permits both static and conformal endpoint-potential controls and does not
+require all metrics to admit scalar compression. G220 gives the exact whole-interval arrival
+relation after integration. For positive durations a supplied uniform bound is one sufficient
+error treatment for a single-redshift approximation; exact integration or another justified
+treatment remains allowed. No empirical bound or eligible dataset is claimed.
+
+The one fresh source-first/direct review returned VERIFIED-WITH-CAVEATS, with a late explicit
+positive-duration clarification and focused re-review recorded separately from the initial seal.
+Independent conformal and flat-observer controls and exact bookkeeping are preserved.
+The DES duration paper is an exposed methods comparator, with its broad exponent
+search and precise reference-dependent consistency check kept distinct. No raw SNe data or fit
+was opened. The new actual full397 passed; final navigation/fidelity/publication receipts in
+the package own their separate completion. Initial science and the original397 rows remain fixed.
+
+Disposition: ZDR1 remains reviewed conditional UNPROMOTED. The former SNe reconstruction and
+resolution-sensitive scale lead are not upgraded. Return to the main metric/kernel expansion;
+consider retaining redshift, beam-area and arrival-time outputs together in the next separately
+authorized metric-family question. This checkpoint neither dispatches that successor nor starts
+a cosmology campaign, observational fit, physical adoption or promotion. The fixed through-G352
+manuscript and TI3/OB1 promotion holds are unchanged. Stop for lay discussion with Charles.
 
 ### What the concern means
 

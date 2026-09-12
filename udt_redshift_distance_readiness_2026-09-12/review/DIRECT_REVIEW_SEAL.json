@@ -1,0 +1,24 @@
+{
+  "sealed_utc": "2026-09-12T15:39:20.285185+00:00",
+  "reviewer": "/root/zdr1_redshift_review",
+  "verdict": "VERIFIED-WITH-CAVEATS; conditional; UNPROMOTED",
+  "required_scientific_repairs": [],
+  "all_initial_freeze_pins_match": true,
+  "candidate_sha256": "aed920bf9828825bd3c3bdd525c1f4477f1989a82b1fb703e6e6897df076dddf",
+  "initial_freeze_sha256": "b5a1a323b523f21b4853158f19713a9d63ec3a2012a7f8594b2aabcdb119b5ce",
+  "files": {
+    "DIRECT_REVIEW.md": "b234230da858cc0f2a03b9877d19ef84fccc82782fef541c97539a8566b69ff4",
+    "SOURCE_FIRST_SEAL.json": "c3f4bb9a013af15c7ea9f92c5a565f1ce3a3b1ec6ef3dea7852756d402f13979",
+    "direct_worldline_check.py": "1a5c5d9b168e998148fcd24fb15ce6b90036f9b26069dd90e6b4500ff7289f57",
+    "direct_worldline_check.stdout": "facd65d523a4fb921490caac4c68cc3cb0bdebde11ac5538b45e002f086c03ea",
+    "direct_worldline_check.stderr": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "direct_worldline_check.json": "e6266a28f2adf81fad2aa024eb3dd429a1e2be594ed95e695b253409ede7ff07",
+    "direct_worldline_check.capture_provenance.json": "b71a4d905990448ad678ed36f2a26da01e175728a064bc21df29c2e7033a92dc"
+  },
+  "parent_full397_receipts": {
+    "current_full397.json": "26ffed2120f2adfa3b8d10744d324929a21444590c9caf2a358908ec31b1685e",
+    "current_full397.stdout": "1f5754fac60de94603f5c3aecda2cf2558b05b4f3394a6490cdd44085fc307fa",
+    "current_full397.stderr": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "remaining": "same-context final documentary fidelity; no extra allocation"
+}

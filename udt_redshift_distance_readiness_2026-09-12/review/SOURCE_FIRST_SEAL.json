@@ -1,0 +1,23 @@
+{
+  "sealed_utc": "2026-09-12T15:34:47.663474+00:00",
+  "reviewer": "/root/zdr1_redshift_review",
+  "context": "fresh; fork_turns=none",
+  "model_runtime": "UNATTESTED",
+  "parent_candidate_exposure_before_seal": false,
+  "source_pins_sha256": "80ef2a2dc3d75de3fd71536f7f16b4b37a5df76955775049c5163356fad4ac78",
+  "work_order_sha256": "793305c9ac0f1ad6a690e7e5dda494921780b35cebe477bb856bd75d0a444a89",
+  "DES_metadata_sha256": "c62c2a3bd15b60627635656ea53fe6c91e6fa79ee884543af0a89bcd3db056c8",
+  "files": {
+    "SOURCE_FIRST_ASSESSMENT.md": "4ff2e74d2926203bdae4b61c89c0ed6589ff01b92d573b293817ccdb5f46b6bb",
+    "source_first_math.py": "12501616addb8649a9e7c9f6350e60a4ab7d4122d49b85ee244ea04fe7c13c6b",
+    "source_first_math.stdout": "b9f7959486d1c94b9178987ab2f14221a1df86622f270ef2436c4f8e20e8ae25",
+    "source_first_math.stderr": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "source_first_math.json": "bdd62a13819706d8d2f17791b8308c42fb87068d07317c49bff1e47fad878db8",
+    "source_first_math.capture_provenance.json": "94b0b3fdf2ac3c56cfe92b2583d24ae1a23c6e6b3aa6d45f546d17866ba3ba10"
+  },
+  "refs": [
+    "892546169db5a63f39244c7388bde7e72e667017",
+    "892546169db5a63f39244c7388bde7e72e667017"
+  ],
+  "verdict": "SOURCE_FIRST_CONDITIONAL_INTERFACE_SURVIVES; DISTANCE_SHAPE_AND_PHYSICAL_OBSERVATIONAL_ATTACHMENT_OPEN"
+}

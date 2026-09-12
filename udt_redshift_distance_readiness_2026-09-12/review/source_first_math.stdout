@@ -1,0 +1,18 @@
+{
+  "evidence_type": "symbolic and exact arithmetic controls, not empirical or general proof",
+  "python": "3.10.12",
+  "sympy": "1.13.1",
+  "conformal_clock_ratio": "(L + eta)/eta",
+  "finite_source_duration": "3/2",
+  "finite_observer_duration": "5/2",
+  "integrated_clock_ratio": "5/2",
+  "wrong_first_epoch_constant_prediction": "3",
+  "static_observer_expansion": "0",
+  "static_clock_ratio": "exp(phi_e - phi_o)",
+  "conditional_packet_flux": "Lum/(4*pi*Dg**2*Zeta**2)",
+  "conditional_flux_after_metric_reciprocity": "Lum/(4*pi*Da**2*Zeta**4)",
+  "conditional_luminosity_distance": "Da*Zeta**2",
+  "plane_wave_transverse_connection": "[-a*x, a*y]",
+  "plane_wave_relative_area_series": "1 - aa**2*lam**4/90 + aa**4*lam**8/113400 + O(lam**9)",
+  "status": "PASS"
+}

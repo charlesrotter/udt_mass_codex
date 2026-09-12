@@ -1,0 +1,21 @@
+{
+  "observed_utc": "2026-09-12T15:40:09.658072+00:00",
+  "stage": "Initial documentary fidelity after sealed substantive review",
+  "files": {
+    "CHECK_HISTORY.md": "c1182b1074e6f02cf55a05d0dfa833242b876fc0d144ac10ea08c1d9641ae06f",
+    "DECISION_BRIEF.md": "bf9b742cbf6e5c4b133ae0c8a99de906e8fd387dd66ecc836ec97c13c6e99d3d",
+    "SESSION_RECORD.md": "2839b01ad42fb31233254216bc4299c38cfc914f13a879eaa4972909837d1a37",
+    "checks/conditional_joins.json": "7b7c3c4a802c4a2c6c02367581a10a1e469294fbea5be12ac1a5328f06e0c70f",
+    "checks/conditional_joins.stdout": "12c008baf149365b5a5c10b71c69d563efef9083a5fb2496ef376950f6c07fcc",
+    "checks/conditional_joins.stderr": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "scientific_defects": [],
+  "documentary_objection": {
+    "file": "SESSION_RECORD.md",
+    "text": "The initial candidate/code and nine associated files were frozen",
+    "reason": "INITIAL_REVIEW_FREEZE contains nine files total, including candidate/code; wording can imply eleven",
+    "smallest_repair": "Say the initial nine-file freeze included candidate and code."
+  },
+  "parent_output_check": "Read actual conditional_joins JSON/stdout and empty-stderr metadata; values and resource figures match CHECK_HISTORY; no author-code rerun",
+  "remaining": "Final exact documentation/navigation preservation fidelity"
+}

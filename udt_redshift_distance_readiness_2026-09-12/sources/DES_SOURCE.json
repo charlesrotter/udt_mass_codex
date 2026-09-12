@@ -1,0 +1,22 @@
+{
+  "recorded_utc": "2026-09-12T15:25:17.650452+00:00",
+  "title": "The Dark Energy Survey Supernova Program: Slow supernovae show cosmological time dilation out to z~1",
+  "authors": "R. M. T. White et al. (DES Collaboration)",
+  "version": "arXiv:2406.05050v2, 20 August 2024",
+  "primary_url": "https://arxiv.org/html/2406.05050v2",
+  "temporary_cache": "/tmp/zdr1_des_time_dilation_v2.html",
+  "sha256": "e5773b490e38cda8714582bb4daa043581a211875760477263e8bfca95744fef",
+  "bytes": 263070,
+  "retrieval_command": [
+    "curl",
+    "--fail",
+    "--location",
+    "--max-time",
+    "45",
+    "--output",
+    "/tmp/zdr1_des_time_dilation_v2.html",
+    "https://arxiv.org/html/2406.05050v2"
+  ],
+  "actual_exit_code": 0,
+  "exposure": "Abstract/results known before work order from preceding discussion; methods and paper text subsequently inspected. No raw photometry or target data accessed, no fit/reanalysis, not outcome-blind. Temporary source cache only; no full-publication republication."
+}
