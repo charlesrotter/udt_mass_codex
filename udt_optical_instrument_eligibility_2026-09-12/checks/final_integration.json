@@ -1,0 +1,14 @@
+{
+  "command": [
+    "python3",
+    "udt_optical_instrument_eligibility_2026-09-12/checks/check_integration.py"
+  ],
+  "cwd": "/home/udt-admin/udt_mass_codex",
+  "started_utc": "2026-09-12T14:57:41.990588+00:00",
+  "duration_seconds": 0.07030021003447473,
+  "returncode": 0,
+  "timeout": false,
+  "address_space_bytes": 2147483648,
+  "cpu_seconds": 180,
+  "maxrss_kib": 16320
+}

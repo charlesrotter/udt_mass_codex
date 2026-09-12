@@ -341,7 +341,8 @@ an explicitly supplied bridge, not a native law. Retained full marked records ca
 loop phase; identical scalar depths need not. An independent geometric delay leaves unused
 optical predictions. Fitting the delay from those readings instead leaves a useful wrapped
 interface check but cannot isolate geometry from an unknown fixed instrument delay. A
-frequency-error budget requires a bound on TOTAL effective delay. No actual device or UDT signature follows.
+frequency-error budget with noncancelling frequency errors requires TOTAL effective-delay control;
+exact controlled spacing or another justified treatment is permitted. No actual device or UDT signature follows.
 
 Disposition: hold OB1 and TI3 for Charles's separate exact-scope promotion and normal banking
 checks; mathematical review has passed. Keep OB1 witnesses and five computation mutations plus
@@ -350,14 +351,27 @@ clarifications are preserved, with no mathematical candidate repair. Real optica
 independent calibration and finite error support are distinct missing device-eligibility gates.
 Conditional mathematics need not wait for physical identification. No promotion occurred here.
 
-Next decision is discussion of those promotions, a bounded documentary eligibility assessment
-for one optical instrument/data specification, or the next metric restriction worth testing.
-OB1's brief gives a proposed90minute review/repair scope; it is not authorized. The nonlinear
-line still has supplied flat initial geometry, equation, observer and short time extent; a
-successor must identify its actual new question and full review cycle. Native equation/assembly
-questions remain parallel open work; additional conditional Ric=0 examples cannot alone establish
-that native join. The fixed through-G352 manuscript is unchanged. No automatic successor is
-authorized. Stop for lay discussion with Charles after OB1's recorded evidence closeout.
+Charles's “Ok proceed” on2026-09-12 authorized OB1's90minute one-instrument documentary
+eligibility assessment with one fresh review and bounded repair/re-review. OB2's
+`udt_optical_instrument_eligibility_2026-09-12/WORK_ORDER.md` records launch14:30:34UTC and
+hard return16:00:34UTC. The selected Shen et al. frequency-modulated laser gyroscope report
+supports a relevant fiber-loop apparatus but does not establish OB1's full signed-phase,
+registered optical-frequency, transfer/calibration/error and unused-confirmation contract.
+This is a source-bounded missing-support finding, not hardware incapacity or an optical no-go.
+The fresh review returned VERIFIED-WITH-CAVEATS; its source-preserving correction restores
+the delay-error exception above and distinguishes alias-invariant prediction from absolute
+delay identification. Initial files and critique are preserved. OB2's REVIEWED_ASSESSMENT.md,
+DECISION_BRIEF.md and final review/check receipts own exact scope and actual completion.
+
+Disposition: retain OB2 as a reviewed UNPROMOTED documentary control and park this optical
+route at its evidence gate. No second instrument, new optical transfer, target-data analysis,
+experiment or promotion follows. Return attention to the metric/kernel roadmap and discussion
+of the next restriction worth testing and pending exact-scope promotions. The nonlinear line
+still has supplied flat initial geometry, equation, observer and short time extent; a successor
+must identify its actual new question and full review cycle. Native equation/assembly questions
+remain parallel open work; further conditional Ric=0 examples alone cannot establish that join.
+The fixed through-G352 manuscript is unchanged. No automatic successor is authorized.
+Stop for lay discussion with Charles after OB2's recorded evidence closeout.
 
 ### What the concern means
 

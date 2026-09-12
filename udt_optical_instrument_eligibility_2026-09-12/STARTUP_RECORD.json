@@ -1,0 +1,38 @@
+{
+  "recorded_utc": "2026-09-12T14:45:47.352857+00:00",
+  "task_launch_utc": "2026-09-12T14:30:34+00:00",
+  "hard_return_utc": "2026-09-12T16:00:34+00:00",
+  "same_top_level_session": true,
+  "branch": "grok",
+  "head": "e89bfe9c6c404e1a70aa334e660ae46327f266ab",
+  "origin_grok": "e89bfe9c6c404e1a70aa334e660ae46327f266ab",
+  "fresh_task_fetch_result": 0,
+  "tracked_dirt": false,
+  "original_untracked_count": 46,
+  "original_untracked_name_sha256": "55e7c4508622f912730f9c068cc571c370b3977bc1110eb0a48a8218dbe024c2",
+  "configured_model": "gpt-6-astra",
+  "configured_effort": "xhigh",
+  "runtime_model": "UNATTESTED",
+  "premise_audit_attribution": {
+    "path": "udt_optics_bridge_assessment_2026-09-12/checks/closeout_full397.json",
+    "same_session_actual_result": {
+      "command": [
+        "python3",
+        "verify_current_scientific_premises.py"
+      ],
+      "cwd": "/home/udt-admin/udt_mass_codex",
+      "started_utc": "2026-09-12T14:04:07.374205+00:00",
+      "duration_seconds": 402.80235642998014,
+      "returncode": 0,
+      "timeout": false,
+      "address_space_bytes": 2147483648,
+      "cpu_seconds": 900,
+      "maxrss_kib": 120384
+    },
+    "new_task_rerun": false,
+    "registry_summary_and_AGENTS_unchanged": true
+  },
+  "backup_completeness": "UNVERIFIED",
+  "pre_reboot_unsaved_state": "UNVERIFIED",
+  "general_capacity": "UNVERIFIED"
+}

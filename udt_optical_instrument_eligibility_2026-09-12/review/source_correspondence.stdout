@@ -1,0 +1,188 @@
+{
+  "checked_utc": "2026-09-12T14:48:41.513814+00:00",
+  "purpose": "Byte/status correspondence only; no protected payload reads or scientific tests",
+  "python_version": "3.10.12 (main, Aug 31 2026, 10:18:17) [GCC 11.4.0]",
+  "git_version": "git version 2.34.1",
+  "branch": "grok",
+  "head": "e89bfe9c6c404e1a70aa334e660ae46327f266ab",
+  "origin_grok": "e89bfe9c6c404e1a70aa334e660ae46327f266ab",
+  "status_command": [
+    "git",
+    "status",
+    "--short"
+  ],
+  "original_status_entries": [
+    "?? 8_25/",
+    "?? UDT_Complete_Guardrails_and_Central_Science_Tracking.md",
+    "?? UDT_Next_Step_After_Two_Stages.md",
+    "?? UDT_Sequenced_Guardrails_and_Development_Work_Order.md",
+    "?? udt_native_onshell_timelive_reset_owner_audit_2026-08-10/CANDIDATE_LAW_MAP.tsv",
+    "?? udt_native_onshell_timelive_reset_owner_audit_2026-08-10/DERIVATION_RESULT.json",
+    "?? udt_native_onshell_timelive_reset_owner_audit_2026-08-10/EQUATION_OWNERSHIP_ATLAS.tsv",
+    "?? udt_native_onshell_timelive_reset_owner_audit_2026-08-10/SOURCE_SCOPE_CLARIFICATION.md",
+    "?? udt_native_onshell_timelive_reset_owner_audit_2026-08-10/derive_owner_atlas.py",
+    "?? udt_native_onshell_timelive_reset_owner_audit_2026-08-10/run_catch_proofs.py",
+    "?? udt_native_onshell_timelive_reset_owner_audit_2026-08-10/verify_owner_independent.py",
+    "?? udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/ADVERSARIAL_REVIEW_REQUEST.md",
+    "?? udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/AUDIT_REPORT.md",
+    "?? udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/CATCH_PROOF_RESULT.json",
+    "?? udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/DERIVATION_RESULT.json",
+    "?? udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/EVIDENCE_GATES.md",
+    "?? udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/EXACT_DERIVATION.md",
+    "?? udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/INDEPENDENT_VERIFICATION.json",
+    "?? udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/LAY_REPORT.md",
+    "?? udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/STATUS_LEDGER.tsv",
+    "?? udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/VERIFICATION_RESULT.json",
+    "?? udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/WITNESS_ATLAS.tsv",
+    "?? udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/build_review_intake.py",
+    "?? udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/derive_regime_flow.py",
+    "?? udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/run_catch_proofs.py",
+    "?? udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/verify_independent.py",
+    "?? udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/verify_package.py",
+    "?? udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/AUDIT_REPORT.md",
+    "?? udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/CATCH_PROOF_RESULT.json",
+    "?? udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/DERIVATION_RESULT.json",
+    "?? udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/EVIDENCE_GATES.md",
+    "?? udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/EXACT_DERIVATION.md",
+    "?? udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/INDEPENDENT_RADAU_REPLAY.tsv",
+    "?? udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/INDEPENDENT_VERIFICATION.json",
+    "?? udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/LAY_REPORT.md",
+    "?? udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/PREREGISTRATION_EXECUTION_NOTE.md",
+    "?? udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/PROFILE_COMPATIBILITY_ATLAS.tsv",
+    "?? udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/REVIEW_DISPATCH.md",
+    "?? udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/RUN_CHECKPOINT.tsv",
+    "?? udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/STATUS_LEDGER.tsv",
+    "?? udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/VERIFICATION_RESULT.json",
+    "?? udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/build_review_manifest.py",
+    "?? udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/derive_compatibility_atlas.py",
+    "?? udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/run_catch_proofs.py",
+    "?? udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/verify_independent.py",
+    "?? udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/verify_package.py"
+  ],
+  "original_status_count": 46,
+  "original_status_sha256": "55e7c4508622f912730f9c068cc571c370b3977bc1110eb0a48a8218dbe024c2",
+  "source_pins": {
+    "AGENTS.md": {
+      "expected": "c11d94f25bf58bf3d1cee6fb6bc886ebfac2d7581f5b794244685019bc00d628",
+      "actual": "c11d94f25bf58bf3d1cee6fb6bc886ebfac2d7581f5b794244685019bc00d628"
+    },
+    "CURRENT_SCIENTIFIC_PREMISES.tsv": {
+      "expected": "2c27fa4b8931672c44b4d778aab0f2a2631c04a5c586358340db1dc763b74f7e",
+      "actual": "2c27fa4b8931672c44b4d778aab0f2a2631c04a5c586358340db1dc763b74f7e"
+    },
+    "CURRENT_SCIENTIFIC_PREMISES.md": {
+      "expected": "7d63e27a32ce19f063e76b8aa9a861039ee5a6d89bbb1536d30e063a889628c3",
+      "actual": "7d63e27a32ce19f063e76b8aa9a861039ee5a6d89bbb1536d30e063a889628c3"
+    },
+    "verify_current_scientific_premises.py": {
+      "expected": "5fb6a8891f02e61c14344dc61fb5ed62539170af3cbf9ada132940e64a639074",
+      "actual": "5fb6a8891f02e61c14344dc61fb5ed62539170af3cbf9ada132940e64a639074"
+    },
+    "CROSS_MODEL_VERIFY.md": {
+      "expected": "2b0509d933d731fbf3f72aa88777a54d3e48a94d4bae3d324087871777f9a007",
+      "actual": "2b0509d933d731fbf3f72aa88777a54d3e48a94d4bae3d324087871777f9a007"
+    },
+    "udt_optics_bridge_assessment_2026-09-12/INITIAL_CANDIDATE.md": {
+      "expected": "6fc4af08f7f35044b179451e9a4b163b113ffe61b4a5bcfed08f25836243e729",
+      "actual": "6fc4af08f7f35044b179451e9a4b163b113ffe61b4a5bcfed08f25836243e729"
+    },
+    "udt_optics_bridge_assessment_2026-09-12/REVIEWED_RESULT.md": {
+      "expected": "89e1226c55adcd3e68389f3d96955ae34efd62ae2c4ae76478631bcb29f9f1ac",
+      "actual": "89e1226c55adcd3e68389f3d96955ae34efd62ae2c4ae76478631bcb29f9f1ac"
+    },
+    "udt_optics_bridge_assessment_2026-09-12/SOURCE_PRESERVING_CLARIFICATION.md": {
+      "expected": "7b60968115a19c56ec34e7d9dbd10ad8642d51253c3695eab7601f69909c7384",
+      "actual": "7b60968115a19c56ec34e7d9dbd10ad8642d51253c3695eab7601f69909c7384"
+    },
+    "udt_optics_bridge_assessment_2026-09-12/review/REVIEW.md": {
+      "expected": "6e7bf106914a8eacb64475e6032f099bf27ebf06ad5cd63776076a1367467d04",
+      "actual": "6e7bf106914a8eacb64475e6032f099bf27ebf06ad5cd63776076a1367467d04"
+    },
+    "udt_optics_bridge_assessment_2026-09-12/review/FINAL_FIDELITY.json": {
+      "expected": "aec578192975f0b8dc6e3a5e2b318f7e2a47fc20271d8f50ccd070a6a67e5e9a",
+      "actual": "aec578192975f0b8dc6e3a5e2b318f7e2a47fc20271d8f50ccd070a6a67e5e9a"
+    },
+    "udt_optics_bridge_assessment_2026-09-12/DECISION_BRIEF.md": {
+      "expected": "fbbaf10e912a7f18ceee312ccf89626833f35602e7bf4f5ea90ba2addaf465e2",
+      "actual": "fbbaf10e912a7f18ceee312ccf89626833f35602e7bf4f5ea90ba2addaf465e2"
+    },
+    "udt_optics_bridge_assessment_2026-09-12/checks/closeout_full397.json": {
+      "expected": "5ba90b33dcefc8e34bd5609bb49e32704eb4c8434bef4ec10146ba325e5c1b64",
+      "actual": "5ba90b33dcefc8e34bd5609bb49e32704eb4c8434bef4ec10146ba325e5c1b64"
+    },
+    "udt_optics_bridge_assessment_2026-09-12/checks/closeout_full397.stdout": {
+      "expected": "1f5754fac60de94603f5c3aecda2cf2558b05b4f3394a6490cdd44085fc307fa",
+      "actual": "1f5754fac60de94603f5c3aecda2cf2558b05b4f3394a6490cdd44085fc307fa"
+    },
+    "udt_optics_bridge_assessment_2026-09-12/checks/closeout_full397.stderr": {
+      "expected": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "actual": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "udt_reviewed_backlog_banking_2026-09-10/capture_existing.py": {
+      "expected": "1b95a783e861a52cc9fc50d3c76c152cb3673fc9045372afafd30da269ffec3f",
+      "actual": "1b95a783e861a52cc9fc50d3c76c152cb3673fc9045372afafd30da269ffec3f"
+    },
+    "udt_shared_readout_metric_constraint_campaign_2026-09-06/run_capture.py": {
+      "expected": "8ff5469ace76bdfc84188915242abbf3baff35516f9ee3f9ba4b1cbfeb2573ef",
+      "actual": "8ff5469ace76bdfc84188915242abbf3baff35516f9ee3f9ba4b1cbfeb2573ef"
+    }
+  },
+  "initial_freeze_pins": {
+    "FRAME_AND_SELECTION.md": {
+      "expected": "8feeb90efd89383ef6117d649de1f99fa55f22018cfeefeea9634226f0d82a5f",
+      "actual": "8feeb90efd89383ef6117d649de1f99fa55f22018cfeefeea9634226f0d82a5f"
+    },
+    "INITIAL_ASSESSMENT.md": {
+      "expected": "b28f8025f48f4fb79a86924dcc6a141ab7421b218d22d1fa525998a002fff5ff",
+      "actual": "b28f8025f48f4fb79a86924dcc6a141ab7421b218d22d1fa525998a002fff5ff"
+    },
+    "SELECTION_RECORD.md": {
+      "expected": "17b3ff78dbf16041d2b2598225bb08146a8d8b37c1651a554a6749c9fbe7b3b9",
+      "actual": "17b3ff78dbf16041d2b2598225bb08146a8d8b37c1651a554a6749c9fbe7b3b9"
+    },
+    "SOURCE_FIRST_REVIEW_TASK.md": {
+      "expected": "836f6fa9b053a3ee77e414b8ee47485f60512e20035021eaaa0adb9d9bb40b40",
+      "actual": "836f6fa9b053a3ee77e414b8ee47485f60512e20035021eaaa0adb9d9bb40b40"
+    },
+    "SOURCE_PINS.json": {
+      "expected": "54b24f96520167d0da8f359807002e366721cbb449293148583e6253767d7cc1",
+      "actual": "54b24f96520167d0da8f359807002e366721cbb449293148583e6253767d7cc1"
+    },
+    "STARTUP_RECORD.json": {
+      "expected": "6226cac623bcd746c7e7354283a144d9989bd6f31f28d5afd7c1caa391a0b3f5",
+      "actual": "6226cac623bcd746c7e7354283a144d9989bd6f31f28d5afd7c1caa391a0b3f5"
+    },
+    "WORK_ORDER.md": {
+      "expected": "4add0358110423935c4fbaa6190fae5874190614344b9e82549195400ad24e5c",
+      "actual": "4add0358110423935c4fbaa6190fae5874190614344b9e82549195400ad24e5c"
+    },
+    "sources/SOURCE_FACTS.md": {
+      "expected": "84dc602a339f1d970839204f21dbae36d1164daa30aca78aa0667268a48e09e6",
+      "actual": "84dc602a339f1d970839204f21dbae36d1164daa30aca78aa0667268a48e09e6"
+    },
+    "sources/SOURCE_RECORD.json": {
+      "expected": "405c0504550cb8243d0dc477a4ae87fcca9bcfabde3872e779eeb1c7257a1b0b",
+      "actual": "405c0504550cb8243d0dc477a4ae87fcca9bcfabde3872e779eeb1c7257a1b0b"
+    }
+  },
+  "source_cache_pins": {
+    "local_temporary_pdf": {
+      "path": "/tmp/ob2_shen_frequency_modulated_laser_optical_gyroscope.pdf",
+      "expected": "3e6219b886d19c7ba00e306ff56560263aac1d23bb1690fa78388918ad05feac",
+      "actual": "3e6219b886d19c7ba00e306ff56560263aac1d23bb1690fa78388918ad05feac"
+    },
+    "text_cache": {
+      "path": "/tmp/ob2_shen_frequency_modulated_laser_optical_gyroscope.txt",
+      "expected": "c4d8a2ea1fa61a3813af4400e7ea92ebcb7d79d00c09a759dfc1eae70b645eb9",
+      "actual": "c4d8a2ea1fa61a3813af4400e7ea92ebcb7d79d00c09a759dfc1eae70b645eb9"
+    },
+    "rendered_page2": {
+      "path": "/tmp/ob2_shen_page2.png",
+      "expected": "55e5aa12d999bf6536e5951f0d183274b8ce3cbae6e6212dabdfa5cc636782a0",
+      "actual": "55e5aa12d999bf6536e5951f0d183274b8ce3cbae6e6212dabdfa5cc636782a0"
+    }
+  },
+  "reviewer_page1_sha256": "9b250268336792db5ba4595c38f4f911779cefbcee3605f27d9412b9e8f60d1c",
+  "remote_sync": "Parent-attributed; this reviewer only checked local tracking ref",
+  "correspondence_pass": true
+}

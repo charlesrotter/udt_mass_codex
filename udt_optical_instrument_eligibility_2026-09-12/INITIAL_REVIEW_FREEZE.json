@@ -1,0 +1,15 @@
+{
+  "frozen_utc": "2026-09-12T14:46:04.710902+00:00",
+  "scope": "OB2 initial documentary finding and selection/requirements before one fresh review; external source URL/hash and temporary cache in source record",
+  "pins": {
+    "FRAME_AND_SELECTION.md": "8feeb90efd89383ef6117d649de1f99fa55f22018cfeefeea9634226f0d82a5f",
+    "INITIAL_ASSESSMENT.md": "b28f8025f48f4fb79a86924dcc6a141ab7421b218d22d1fa525998a002fff5ff",
+    "SELECTION_RECORD.md": "17b3ff78dbf16041d2b2598225bb08146a8d8b37c1651a554a6749c9fbe7b3b9",
+    "SOURCE_FIRST_REVIEW_TASK.md": "836f6fa9b053a3ee77e414b8ee47485f60512e20035021eaaa0adb9d9bb40b40",
+    "SOURCE_PINS.json": "54b24f96520167d0da8f359807002e366721cbb449293148583e6253767d7cc1",
+    "STARTUP_RECORD.json": "6226cac623bcd746c7e7354283a144d9989bd6f31f28d5afd7c1caa391a0b3f5",
+    "WORK_ORDER.md": "4add0358110423935c4fbaa6190fae5874190614344b9e82549195400ad24e5c",
+    "sources/SOURCE_FACTS.md": "84dc602a339f1d970839204f21dbae36d1164daa30aca78aa0667268a48e09e6",
+    "sources/SOURCE_RECORD.json": "405c0504550cb8243d0dc477a4ae87fcca9bcfabde3872e779eeb1c7257a1b0b"
+  }
+}

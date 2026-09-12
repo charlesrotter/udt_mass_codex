@@ -1,0 +1,215 @@
+{
+  "checked_utc": "2026-09-12T14:57:42.051376+00:00",
+  "purpose": "OB2 byte, scope and navigation correspondence; no scientific eligibility test.",
+  "python_version": "3.10.12 (main, Aug 31 2026, 10:18:17) [GCC 11.4.0]",
+  "git_version": "git version 2.34.1",
+  "branch": "grok",
+  "head": "e89bfe9c6c404e1a70aa334e660ae46327f266ab",
+  "origin_grok": "e89bfe9c6c404e1a70aa334e660ae46327f266ab",
+  "parent_observed_fetch": {
+    "command": [
+      "git",
+      "fetch",
+      "origin"
+    ],
+    "exit_code": 0,
+    "fresh_fetch_before_this_check": true
+  },
+  "original_status_command": [
+    "git",
+    "status",
+    "--porcelain=v1",
+    "--untracked-files=normal"
+  ],
+  "original_name_status_count": 46,
+  "original_name_status_sha256": "55e7c4508622f912730f9c068cc571c370b3977bc1110eb0a48a8218dbe024c2",
+  "protected_payload_inspection": false,
+  "backup_completeness": "UNVERIFIED",
+  "changed_tracked_paths": [
+    "CURRENT_RESEARCH_PROGRAM.md",
+    "HANDOFF.md",
+    "INDEX.md",
+    "LIVE.md",
+    "UDT_RESEARCH_ROADMAP.md"
+  ],
+  "allowed_tracked_paths": [
+    "CURRENT_RESEARCH_PROGRAM.md",
+    "HANDOFF.md",
+    "INDEX.md",
+    "LIVE.md",
+    "UDT_RESEARCH_ROADMAP.md"
+  ],
+  "registry_rows": 397,
+  "correspondence": {
+    "SOURCE_PINS.json": {
+      "AGENTS.md": {
+        "expected": "c11d94f25bf58bf3d1cee6fb6bc886ebfac2d7581f5b794244685019bc00d628",
+        "actual": "c11d94f25bf58bf3d1cee6fb6bc886ebfac2d7581f5b794244685019bc00d628"
+      },
+      "CURRENT_SCIENTIFIC_PREMISES.tsv": {
+        "expected": "2c27fa4b8931672c44b4d778aab0f2a2631c04a5c586358340db1dc763b74f7e",
+        "actual": "2c27fa4b8931672c44b4d778aab0f2a2631c04a5c586358340db1dc763b74f7e"
+      },
+      "CURRENT_SCIENTIFIC_PREMISES.md": {
+        "expected": "7d63e27a32ce19f063e76b8aa9a861039ee5a6d89bbb1536d30e063a889628c3",
+        "actual": "7d63e27a32ce19f063e76b8aa9a861039ee5a6d89bbb1536d30e063a889628c3"
+      },
+      "verify_current_scientific_premises.py": {
+        "expected": "5fb6a8891f02e61c14344dc61fb5ed62539170af3cbf9ada132940e64a639074",
+        "actual": "5fb6a8891f02e61c14344dc61fb5ed62539170af3cbf9ada132940e64a639074"
+      },
+      "CROSS_MODEL_VERIFY.md": {
+        "expected": "2b0509d933d731fbf3f72aa88777a54d3e48a94d4bae3d324087871777f9a007",
+        "actual": "2b0509d933d731fbf3f72aa88777a54d3e48a94d4bae3d324087871777f9a007"
+      },
+      "udt_optics_bridge_assessment_2026-09-12/INITIAL_CANDIDATE.md": {
+        "expected": "6fc4af08f7f35044b179451e9a4b163b113ffe61b4a5bcfed08f25836243e729",
+        "actual": "6fc4af08f7f35044b179451e9a4b163b113ffe61b4a5bcfed08f25836243e729"
+      },
+      "udt_optics_bridge_assessment_2026-09-12/REVIEWED_RESULT.md": {
+        "expected": "89e1226c55adcd3e68389f3d96955ae34efd62ae2c4ae76478631bcb29f9f1ac",
+        "actual": "89e1226c55adcd3e68389f3d96955ae34efd62ae2c4ae76478631bcb29f9f1ac"
+      },
+      "udt_optics_bridge_assessment_2026-09-12/SOURCE_PRESERVING_CLARIFICATION.md": {
+        "expected": "7b60968115a19c56ec34e7d9dbd10ad8642d51253c3695eab7601f69909c7384",
+        "actual": "7b60968115a19c56ec34e7d9dbd10ad8642d51253c3695eab7601f69909c7384"
+      },
+      "udt_optics_bridge_assessment_2026-09-12/review/REVIEW.md": {
+        "expected": "6e7bf106914a8eacb64475e6032f099bf27ebf06ad5cd63776076a1367467d04",
+        "actual": "6e7bf106914a8eacb64475e6032f099bf27ebf06ad5cd63776076a1367467d04"
+      },
+      "udt_optics_bridge_assessment_2026-09-12/review/FINAL_FIDELITY.json": {
+        "expected": "aec578192975f0b8dc6e3a5e2b318f7e2a47fc20271d8f50ccd070a6a67e5e9a",
+        "actual": "aec578192975f0b8dc6e3a5e2b318f7e2a47fc20271d8f50ccd070a6a67e5e9a"
+      },
+      "udt_optics_bridge_assessment_2026-09-12/DECISION_BRIEF.md": {
+        "expected": "fbbaf10e912a7f18ceee312ccf89626833f35602e7bf4f5ea90ba2addaf465e2",
+        "actual": "fbbaf10e912a7f18ceee312ccf89626833f35602e7bf4f5ea90ba2addaf465e2"
+      },
+      "udt_optics_bridge_assessment_2026-09-12/checks/closeout_full397.json": {
+        "expected": "5ba90b33dcefc8e34bd5609bb49e32704eb4c8434bef4ec10146ba325e5c1b64",
+        "actual": "5ba90b33dcefc8e34bd5609bb49e32704eb4c8434bef4ec10146ba325e5c1b64"
+      },
+      "udt_optics_bridge_assessment_2026-09-12/checks/closeout_full397.stdout": {
+        "expected": "1f5754fac60de94603f5c3aecda2cf2558b05b4f3394a6490cdd44085fc307fa",
+        "actual": "1f5754fac60de94603f5c3aecda2cf2558b05b4f3394a6490cdd44085fc307fa"
+      },
+      "udt_optics_bridge_assessment_2026-09-12/checks/closeout_full397.stderr": {
+        "expected": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "actual": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      "udt_reviewed_backlog_banking_2026-09-10/capture_existing.py": {
+        "expected": "1b95a783e861a52cc9fc50d3c76c152cb3673fc9045372afafd30da269ffec3f",
+        "actual": "1b95a783e861a52cc9fc50d3c76c152cb3673fc9045372afafd30da269ffec3f"
+      },
+      "udt_shared_readout_metric_constraint_campaign_2026-09-06/run_capture.py": {
+        "expected": "8ff5469ace76bdfc84188915242abbf3baff35516f9ee3f9ba4b1cbfeb2573ef",
+        "actual": "8ff5469ace76bdfc84188915242abbf3baff35516f9ee3f9ba4b1cbfeb2573ef"
+      }
+    },
+    "INITIAL_REVIEW_FREEZE.json": {
+      "FRAME_AND_SELECTION.md": {
+        "expected": "8feeb90efd89383ef6117d649de1f99fa55f22018cfeefeea9634226f0d82a5f",
+        "actual": "8feeb90efd89383ef6117d649de1f99fa55f22018cfeefeea9634226f0d82a5f"
+      },
+      "INITIAL_ASSESSMENT.md": {
+        "expected": "b28f8025f48f4fb79a86924dcc6a141ab7421b218d22d1fa525998a002fff5ff",
+        "actual": "b28f8025f48f4fb79a86924dcc6a141ab7421b218d22d1fa525998a002fff5ff"
+      },
+      "SELECTION_RECORD.md": {
+        "expected": "17b3ff78dbf16041d2b2598225bb08146a8d8b37c1651a554a6749c9fbe7b3b9",
+        "actual": "17b3ff78dbf16041d2b2598225bb08146a8d8b37c1651a554a6749c9fbe7b3b9"
+      },
+      "SOURCE_FIRST_REVIEW_TASK.md": {
+        "expected": "836f6fa9b053a3ee77e414b8ee47485f60512e20035021eaaa0adb9d9bb40b40",
+        "actual": "836f6fa9b053a3ee77e414b8ee47485f60512e20035021eaaa0adb9d9bb40b40"
+      },
+      "SOURCE_PINS.json": {
+        "expected": "54b24f96520167d0da8f359807002e366721cbb449293148583e6253767d7cc1",
+        "actual": "54b24f96520167d0da8f359807002e366721cbb449293148583e6253767d7cc1"
+      },
+      "STARTUP_RECORD.json": {
+        "expected": "6226cac623bcd746c7e7354283a144d9989bd6f31f28d5afd7c1caa391a0b3f5",
+        "actual": "6226cac623bcd746c7e7354283a144d9989bd6f31f28d5afd7c1caa391a0b3f5"
+      },
+      "WORK_ORDER.md": {
+        "expected": "4add0358110423935c4fbaa6190fae5874190614344b9e82549195400ad24e5c",
+        "actual": "4add0358110423935c4fbaa6190fae5874190614344b9e82549195400ad24e5c"
+      },
+      "sources/SOURCE_FACTS.md": {
+        "expected": "84dc602a339f1d970839204f21dbae36d1164daa30aca78aa0667268a48e09e6",
+        "actual": "84dc602a339f1d970839204f21dbae36d1164daa30aca78aa0667268a48e09e6"
+      },
+      "sources/SOURCE_RECORD.json": {
+        "expected": "405c0504550cb8243d0dc477a4ae87fcca9bcfabde3872e779eeb1c7257a1b0b",
+        "actual": "405c0504550cb8243d0dc477a4ae87fcca9bcfabde3872e779eeb1c7257a1b0b"
+      }
+    },
+    "temporary_source": {
+      "local_temporary_pdf": {
+        "expected": "3e6219b886d19c7ba00e306ff56560263aac1d23bb1690fa78388918ad05feac",
+        "actual": "3e6219b886d19c7ba00e306ff56560263aac1d23bb1690fa78388918ad05feac"
+      },
+      "text_cache": {
+        "expected": "c4d8a2ea1fa61a3813af4400e7ea92ebcb7d79d00c09a759dfc1eae70b645eb9",
+        "actual": "c4d8a2ea1fa61a3813af4400e7ea92ebcb7d79d00c09a759dfc1eae70b645eb9"
+      },
+      "rendered_page2": {
+        "expected": "55e5aa12d999bf6536e5951f0d183274b8ce3cbae6e6212dabdfa5cc636782a0",
+        "actual": "55e5aa12d999bf6536e5951f0d183274b8ce3cbae6e6212dabdfa5cc636782a0"
+      }
+    }
+  },
+  "actual_navigation": {
+    "command": [
+      "python3",
+      "-m",
+      "pytest",
+      "--noconftest",
+      "-q",
+      "tests/test_startup_surface.py",
+      "-k",
+      "not full_foundational_premise_verifier_is_in_pytest"
+    ],
+    "cwd": "/home/udt-admin/udt_mass_codex",
+    "started_utc": "2026-09-12T14:56:20.502208+00:00",
+    "duration_seconds": 12.59701413899893,
+    "returncode": 0,
+    "timeout": false,
+    "address_space_bytes": 2147483648,
+    "cpu_seconds": 180,
+    "maxrss_kib": 53436
+  },
+  "navigation_stdout_sha256": "c7daa8b7dc69638bfd08005b0f5dfe54287f558ace8f32ffd3082f3a49afebf6",
+  "same_session_full397_attribution": "STARTUP_RECORD.json; unchanged exact source pins; no new OB2 full397 run",
+  "root_sha256": {
+    "CURRENT_RESEARCH_PROGRAM.md": "06691dd63d6ff5b9d2c69b04fd71409c9c7692a8d38f55e0894d2fa47fe8fc87",
+    "HANDOFF.md": "f8047a64801da2dc539e99f57e5e0528f39fe34766fa54ec384b28bafc237ea1",
+    "INDEX.md": "0ffc93f022a2b7d458a952f621551896f1fd5bd1fd24e2d9123947bb9eff2df0",
+    "LIVE.md": "918f1bb2e0e5d65762cfa0c29272d2eb74358a0ebdaea63dbf1d351b3f251723",
+    "UDT_RESEARCH_ROADMAP.md": "61f703f0fe68b650fde4c9e3f17f022f43e036d8323701d98ed085b9a3207c92"
+  },
+  "root_sizes": {
+    "CURRENT_RESEARCH_PROGRAM.md": {
+      "lines": 117,
+      "words": 1081
+    },
+    "HANDOFF.md": {
+      "lines": 84,
+      "words": 583
+    },
+    "INDEX.md": {
+      "lines": 118,
+      "words": 570
+    },
+    "LIVE.md": {
+      "lines": 112,
+      "words": 885
+    },
+    "UDT_RESEARCH_ROADMAP.md": {
+      "lines": 476,
+      "words": 4513
+    }
+  },
+  "pass": true
+}

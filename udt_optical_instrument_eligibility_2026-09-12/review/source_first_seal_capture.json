@@ -1,0 +1,15 @@
+{
+  "command": [
+    "python3",
+    "-c",
+    "from pathlib import Path; import datetime,hashlib,json; p=Path(\"udt_optical_instrument_eligibility_2026-09-12/review\"); names=[\"SOURCE_FIRST_JUDGMENT.md\",\"check_source_correspondence.py\",\"source_correspondence.stdout\",\"source_correspondence.stderr\",\"source_correspondence.json\",\"source_correspondence.capture_provenance.json\"]; r={\"sealed_utc\":datetime.datetime.now(datetime.timezone.utc).isoformat(),\"reviewer_context\":\"/root/ob2_instrument_review\",\"first_clock_utc\":\"2026-09-12T14:46:32+00:00\",\"runtime_model\":\"UNATTESTED\",\"stage\":\"SOURCE_FIRST_BEFORE_OB2_AUTHOR_ASSESSMENT_EXPOSURE\",\"pins\":{n:hashlib.sha256((p/n).read_bytes()).hexdigest() for n in names}}; f=(p/\"SOURCE_FIRST_SEAL.json\").open(\"x\"); json.dump(r,f,indent=2); f.write(\"\\n\"); f.close(); print(json.dumps(r,indent=2))"
+  ],
+  "cwd": "/home/udt-admin/udt_mass_codex",
+  "started_utc": "2026-09-12T14:50:45.954957+00:00",
+  "duration_seconds": 0.01782201399328187,
+  "returncode": 0,
+  "timeout": false,
+  "address_space_bytes": 2147483648,
+  "cpu_seconds": 180,
+  "maxrss_kib": 14156
+}

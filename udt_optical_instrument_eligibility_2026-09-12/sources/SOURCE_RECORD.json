@@ -1,0 +1,67 @@
+{
+  "recorded_utc": "2026-09-12T14:41:43.090652+00:00",
+  "title": "Frequency Modulated Laser Optical Gyroscope",
+  "authors_as_printed": [
+    "Y. Shen",
+    "M. Tran",
+    "S. Srinivasan",
+    "J. Hulme",
+    "J. Peters",
+    "M. Belt",
+    "S. Gundavarapu",
+    "Y. Li",
+    "D. Blumenthal",
+    "J. E. Bowers"
+  ],
+  "primary_url": "https://ocaqpi.ece.ucsb.edu/sites/default/files/2021-02/Frequency%20Modulated%20Laser%20Optical%20Gyroscope.pdf",
+  "source_type": "two-page author-hosted technical report; no present apparatus availability claim",
+  "publication_date": "not established from the inspected copy; URL date is not publication authority",
+  "local_temporary_pdf": "/tmp/ob2_shen_frequency_modulated_laser_optical_gyroscope.pdf",
+  "pdf_sha256": "3e6219b886d19c7ba00e306ff56560263aac1d23bb1690fa78388918ad05feac",
+  "text_cache": "/tmp/ob2_shen_frequency_modulated_laser_optical_gyroscope.txt",
+  "text_sha256": "c4d8a2ea1fa61a3813af4400e7ea92ebcb7d79d00c09a759dfc1eae70b645eb9",
+  "rendered_page2": "/tmp/ob2_shen_page2.png",
+  "render_sha256": "55e5aa12d999bf6536e5951f0d183274b8ce3cbae6e6212dabdfa5cc636782a0",
+  "commands": [
+    {
+      "argv": [
+        "curl",
+        "--fail",
+        "--location",
+        "--max-time",
+        "45",
+        "--output",
+        "/tmp/ob2_shen_frequency_modulated_laser_optical_gyroscope.pdf",
+        "https://ocaqpi.ece.ucsb.edu/sites/default/files/2021-02/Frequency%20Modulated%20Laser%20Optical%20Gyroscope.pdf"
+      ],
+      "exit_code": 0
+    },
+    {
+      "argv": [
+        "pdftotext",
+        "-layout",
+        "/tmp/ob2_shen_frequency_modulated_laser_optical_gyroscope.pdf",
+        "/tmp/ob2_shen_frequency_modulated_laser_optical_gyroscope.txt"
+      ],
+      "exit_code": 0
+    },
+    {
+      "argv": [
+        "pdftoppm",
+        "-f",
+        "2",
+        "-l",
+        "2",
+        "-singlefile",
+        "-scale-to",
+        "1800",
+        "-png",
+        "/tmp/ob2_shen_frequency_modulated_laser_optical_gyroscope.pdf",
+        "/tmp/ob2_shen_page2"
+      ],
+      "exit_code": 0
+    }
+  ],
+  "visual_inspection": "Parent viewed local rendered page2 including Fig3 apparatus; Fig4 performance panel was exposed, not digitized/analyzed or treated as target data. Web screenshot first failed with cache miss.",
+  "evidence_retention": "Public source identified by exact URL/hash and bounded fact ledger; full PDF/text/render remain in temporary local cache, not republished with this documentary record."
+}

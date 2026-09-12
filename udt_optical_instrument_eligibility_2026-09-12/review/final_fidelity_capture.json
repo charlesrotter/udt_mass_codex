@@ -1,0 +1,14 @@
+{
+  "command": [
+    "python3",
+    "udt_optical_instrument_eligibility_2026-09-12/review/seal_final_fidelity.py"
+  ],
+  "cwd": "/home/udt-admin/udt_mass_codex",
+  "started_utc": "2026-09-12T15:00:40.279138+00:00",
+  "duration_seconds": 0.06819895101943985,
+  "returncode": 0,
+  "timeout": false,
+  "address_space_bytes": 2147483648,
+  "cpu_seconds": 180,
+  "maxrss_kib": 16128
+}

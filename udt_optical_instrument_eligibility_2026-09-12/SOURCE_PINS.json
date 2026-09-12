@@ -1,0 +1,23 @@
+{
+  "recorded_utc": "2026-09-12T14:41:43.091802+00:00",
+  "baseline": "e89bfe9c6c404e1a70aa334e660ae46327f266ab",
+  "pins": {
+    "AGENTS.md": "c11d94f25bf58bf3d1cee6fb6bc886ebfac2d7581f5b794244685019bc00d628",
+    "CURRENT_SCIENTIFIC_PREMISES.tsv": "2c27fa4b8931672c44b4d778aab0f2a2631c04a5c586358340db1dc763b74f7e",
+    "CURRENT_SCIENTIFIC_PREMISES.md": "7d63e27a32ce19f063e76b8aa9a861039ee5a6d89bbb1536d30e063a889628c3",
+    "verify_current_scientific_premises.py": "5fb6a8891f02e61c14344dc61fb5ed62539170af3cbf9ada132940e64a639074",
+    "CROSS_MODEL_VERIFY.md": "2b0509d933d731fbf3f72aa88777a54d3e48a94d4bae3d324087871777f9a007",
+    "udt_optics_bridge_assessment_2026-09-12/INITIAL_CANDIDATE.md": "6fc4af08f7f35044b179451e9a4b163b113ffe61b4a5bcfed08f25836243e729",
+    "udt_optics_bridge_assessment_2026-09-12/REVIEWED_RESULT.md": "89e1226c55adcd3e68389f3d96955ae34efd62ae2c4ae76478631bcb29f9f1ac",
+    "udt_optics_bridge_assessment_2026-09-12/SOURCE_PRESERVING_CLARIFICATION.md": "7b60968115a19c56ec34e7d9dbd10ad8642d51253c3695eab7601f69909c7384",
+    "udt_optics_bridge_assessment_2026-09-12/review/REVIEW.md": "6e7bf106914a8eacb64475e6032f099bf27ebf06ad5cd63776076a1367467d04",
+    "udt_optics_bridge_assessment_2026-09-12/review/FINAL_FIDELITY.json": "aec578192975f0b8dc6e3a5e2b318f7e2a47fc20271d8f50ccd070a6a67e5e9a",
+    "udt_optics_bridge_assessment_2026-09-12/DECISION_BRIEF.md": "fbbaf10e912a7f18ceee312ccf89626833f35602e7bf4f5ea90ba2addaf465e2",
+    "udt_optics_bridge_assessment_2026-09-12/checks/closeout_full397.json": "5ba90b33dcefc8e34bd5609bb49e32704eb4c8434bef4ec10146ba325e5c1b64",
+    "udt_optics_bridge_assessment_2026-09-12/checks/closeout_full397.stdout": "1f5754fac60de94603f5c3aecda2cf2558b05b4f3394a6490cdd44085fc307fa",
+    "udt_optics_bridge_assessment_2026-09-12/checks/closeout_full397.stderr": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "udt_reviewed_backlog_banking_2026-09-10/capture_existing.py": "1b95a783e861a52cc9fc50d3c76c152cb3673fc9045372afafd30da269ffec3f",
+    "udt_shared_readout_metric_constraint_campaign_2026-09-06/run_capture.py": "8ff5469ace76bdfc84188915242abbf3baff35516f9ee3f9ba4b1cbfeb2573ef"
+  },
+  "note": "OB1 contract remains reviewed UNPROMOTED; source hashes do not adopt it or certify instruments"
+}

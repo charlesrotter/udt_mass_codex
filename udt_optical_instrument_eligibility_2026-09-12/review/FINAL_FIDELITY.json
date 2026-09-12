@@ -1,0 +1,342 @@
+{
+  "sealed_utc": "2026-09-12T15:00:40.341809+00:00",
+  "reviewer_context": "/root/ob2_instrument_review",
+  "observed_active_interval": {
+    "first_actual_clock_utc": "2026-09-12T14:46:32+00:00",
+    "last_observed_at_seal_utc": "2026-09-12T15:00:40.341809+00:00",
+    "meaning": "Observed interval, not a claimed exact process lifetime or uninterrupted compute interval"
+  },
+  "source_first_sealed_utc": "2026-09-12T14:50:45.970412+00:00",
+  "direct_review_saved_by_observed_utc": "2026-09-12T14:54:02+00:00",
+  "repair_document_read_complete_observed_utc": "2026-09-12T14:55:50+00:00",
+  "verdict": "FIDELITY_REVIEWED; source-bounded documentary finding VERIFIED-WITH-CAVEATS; UNPROMOTED",
+  "maximum_conclusion": "Full OB1 eligibility is not established by this exact selected report; no physical impossibility or apparatus-wide rejection",
+  "D1": "CLOSED by source-preserving clarification; exact-spacing/valid-error-treatment exceptions restored and absolute-delay identification separated from alias-invariant prediction",
+  "remaining_objections": [],
+  "device_evidence_gates": "Signed three-optical-frequency records, justified transfer/independent response calibration/applicable errors and unused-confirmation provenance remain undocumented here; Use A additionally needs independent geometry-delay support",
+  "allocation": {
+    "new_reviewer_contexts": 1,
+    "parent_overlap": "Parent performed documentary closeout/navigation while this actual reviewer context was active",
+    "subdelegation": false,
+    "old_context_reuse": false,
+    "model_override": false,
+    "general_capacity": "UNVERIFIED; this successful allocation establishes only this instance"
+  },
+  "independence": {
+    "context": "Fresh separately allocated; included repair/final followup in same context",
+    "runtime_model_version": "UNATTESTED",
+    "parent_configuration_attributed": "gpt-6-astra/xhigh",
+    "different_model": "UNTESTED",
+    "argument": "Sealed source-first paper/contract assessment before OB2 author verdict; direct adversarial check and elementary independent measurement/error reasoning",
+    "scientific_implementation": "Not computational; no new scientific script or documentary checklist test",
+    "metadata_implementation": "Independently written correspondence/seal scripts; reused existing capture utility",
+    "human_specialist": "UNTESTED",
+    "formal_proof": "UNTESTED"
+  },
+  "exposure": {
+    "source_first": "Full OB1 conditional candidate/result/clarification/substantive prior review; full selected paper text and both rendered pages/Figs1-4; permitted framing/source records",
+    "after_source_first_seal": "OB2 initial assessment/fact ledger/selection narrative; then parent decision/session/closeout and repair",
+    "data": "Published plots/text exposed as documentary evidence; no digitization, extraction, fit, statistical reanalysis or reserved target data",
+    "sources": "Exactly one selected apparatus report; no other instrument full text or target dataset"
+  },
+  "final_fidelity_reads": [
+    "Complete repaired assessment, clarification, decision brief, final session record and closeout",
+    "Complete five-root git diff and exact parent navigation/integration stdout, stderr, JSON and wrapper provenance",
+    "Integration metadata-check implementation; same-session full397 receipt/stdout/stderr"
+  ],
+  "source_and_preservation_check": {
+    "correspondence_pass": true,
+    "branch": "grok",
+    "head": "e89bfe9c6c404e1a70aa334e660ae46327f266ab",
+    "origin_grok": "e89bfe9c6c404e1a70aa334e660ae46327f266ab",
+    "changed_tracked_paths": [
+      "CURRENT_RESEARCH_PROGRAM.md",
+      "HANDOFF.md",
+      "INDEX.md",
+      "LIVE.md",
+      "UDT_RESEARCH_ROADMAP.md"
+    ],
+    "original_untracked_name_status_count": 46,
+    "original_untracked_name_status_sha256": "55e7c4508622f912730f9c068cc571c370b3977bc1110eb0a48a8218dbe024c2",
+    "groups": {
+      "scientific_source_pins": {
+        "AGENTS.md": {
+          "expected": "c11d94f25bf58bf3d1cee6fb6bc886ebfac2d7581f5b794244685019bc00d628",
+          "actual": "c11d94f25bf58bf3d1cee6fb6bc886ebfac2d7581f5b794244685019bc00d628"
+        },
+        "CURRENT_SCIENTIFIC_PREMISES.tsv": {
+          "expected": "2c27fa4b8931672c44b4d778aab0f2a2631c04a5c586358340db1dc763b74f7e",
+          "actual": "2c27fa4b8931672c44b4d778aab0f2a2631c04a5c586358340db1dc763b74f7e"
+        },
+        "CURRENT_SCIENTIFIC_PREMISES.md": {
+          "expected": "7d63e27a32ce19f063e76b8aa9a861039ee5a6d89bbb1536d30e063a889628c3",
+          "actual": "7d63e27a32ce19f063e76b8aa9a861039ee5a6d89bbb1536d30e063a889628c3"
+        },
+        "verify_current_scientific_premises.py": {
+          "expected": "5fb6a8891f02e61c14344dc61fb5ed62539170af3cbf9ada132940e64a639074",
+          "actual": "5fb6a8891f02e61c14344dc61fb5ed62539170af3cbf9ada132940e64a639074"
+        },
+        "CROSS_MODEL_VERIFY.md": {
+          "expected": "2b0509d933d731fbf3f72aa88777a54d3e48a94d4bae3d324087871777f9a007",
+          "actual": "2b0509d933d731fbf3f72aa88777a54d3e48a94d4bae3d324087871777f9a007"
+        },
+        "udt_optics_bridge_assessment_2026-09-12/INITIAL_CANDIDATE.md": {
+          "expected": "6fc4af08f7f35044b179451e9a4b163b113ffe61b4a5bcfed08f25836243e729",
+          "actual": "6fc4af08f7f35044b179451e9a4b163b113ffe61b4a5bcfed08f25836243e729"
+        },
+        "udt_optics_bridge_assessment_2026-09-12/REVIEWED_RESULT.md": {
+          "expected": "89e1226c55adcd3e68389f3d96955ae34efd62ae2c4ae76478631bcb29f9f1ac",
+          "actual": "89e1226c55adcd3e68389f3d96955ae34efd62ae2c4ae76478631bcb29f9f1ac"
+        },
+        "udt_optics_bridge_assessment_2026-09-12/SOURCE_PRESERVING_CLARIFICATION.md": {
+          "expected": "7b60968115a19c56ec34e7d9dbd10ad8642d51253c3695eab7601f69909c7384",
+          "actual": "7b60968115a19c56ec34e7d9dbd10ad8642d51253c3695eab7601f69909c7384"
+        },
+        "udt_optics_bridge_assessment_2026-09-12/review/REVIEW.md": {
+          "expected": "6e7bf106914a8eacb64475e6032f099bf27ebf06ad5cd63776076a1367467d04",
+          "actual": "6e7bf106914a8eacb64475e6032f099bf27ebf06ad5cd63776076a1367467d04"
+        },
+        "udt_optics_bridge_assessment_2026-09-12/review/FINAL_FIDELITY.json": {
+          "expected": "aec578192975f0b8dc6e3a5e2b318f7e2a47fc20271d8f50ccd070a6a67e5e9a",
+          "actual": "aec578192975f0b8dc6e3a5e2b318f7e2a47fc20271d8f50ccd070a6a67e5e9a"
+        },
+        "udt_optics_bridge_assessment_2026-09-12/DECISION_BRIEF.md": {
+          "expected": "fbbaf10e912a7f18ceee312ccf89626833f35602e7bf4f5ea90ba2addaf465e2",
+          "actual": "fbbaf10e912a7f18ceee312ccf89626833f35602e7bf4f5ea90ba2addaf465e2"
+        },
+        "udt_optics_bridge_assessment_2026-09-12/checks/closeout_full397.json": {
+          "expected": "5ba90b33dcefc8e34bd5609bb49e32704eb4c8434bef4ec10146ba325e5c1b64",
+          "actual": "5ba90b33dcefc8e34bd5609bb49e32704eb4c8434bef4ec10146ba325e5c1b64"
+        },
+        "udt_optics_bridge_assessment_2026-09-12/checks/closeout_full397.stdout": {
+          "expected": "1f5754fac60de94603f5c3aecda2cf2558b05b4f3394a6490cdd44085fc307fa",
+          "actual": "1f5754fac60de94603f5c3aecda2cf2558b05b4f3394a6490cdd44085fc307fa"
+        },
+        "udt_optics_bridge_assessment_2026-09-12/checks/closeout_full397.stderr": {
+          "expected": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "actual": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        "udt_reviewed_backlog_banking_2026-09-10/capture_existing.py": {
+          "expected": "1b95a783e861a52cc9fc50d3c76c152cb3673fc9045372afafd30da269ffec3f",
+          "actual": "1b95a783e861a52cc9fc50d3c76c152cb3673fc9045372afafd30da269ffec3f"
+        },
+        "udt_shared_readout_metric_constraint_campaign_2026-09-06/run_capture.py": {
+          "expected": "8ff5469ace76bdfc84188915242abbf3baff35516f9ee3f9ba4b1cbfeb2573ef",
+          "actual": "8ff5469ace76bdfc84188915242abbf3baff35516f9ee3f9ba4b1cbfeb2573ef"
+        }
+      },
+      "initial_nine_pins": {
+        "FRAME_AND_SELECTION.md": {
+          "expected": "8feeb90efd89383ef6117d649de1f99fa55f22018cfeefeea9634226f0d82a5f",
+          "actual": "8feeb90efd89383ef6117d649de1f99fa55f22018cfeefeea9634226f0d82a5f"
+        },
+        "INITIAL_ASSESSMENT.md": {
+          "expected": "b28f8025f48f4fb79a86924dcc6a141ab7421b218d22d1fa525998a002fff5ff",
+          "actual": "b28f8025f48f4fb79a86924dcc6a141ab7421b218d22d1fa525998a002fff5ff"
+        },
+        "SELECTION_RECORD.md": {
+          "expected": "17b3ff78dbf16041d2b2598225bb08146a8d8b37c1651a554a6749c9fbe7b3b9",
+          "actual": "17b3ff78dbf16041d2b2598225bb08146a8d8b37c1651a554a6749c9fbe7b3b9"
+        },
+        "SOURCE_FIRST_REVIEW_TASK.md": {
+          "expected": "836f6fa9b053a3ee77e414b8ee47485f60512e20035021eaaa0adb9d9bb40b40",
+          "actual": "836f6fa9b053a3ee77e414b8ee47485f60512e20035021eaaa0adb9d9bb40b40"
+        },
+        "SOURCE_PINS.json": {
+          "expected": "54b24f96520167d0da8f359807002e366721cbb449293148583e6253767d7cc1",
+          "actual": "54b24f96520167d0da8f359807002e366721cbb449293148583e6253767d7cc1"
+        },
+        "STARTUP_RECORD.json": {
+          "expected": "6226cac623bcd746c7e7354283a144d9989bd6f31f28d5afd7c1caa391a0b3f5",
+          "actual": "6226cac623bcd746c7e7354283a144d9989bd6f31f28d5afd7c1caa391a0b3f5"
+        },
+        "WORK_ORDER.md": {
+          "expected": "4add0358110423935c4fbaa6190fae5874190614344b9e82549195400ad24e5c",
+          "actual": "4add0358110423935c4fbaa6190fae5874190614344b9e82549195400ad24e5c"
+        },
+        "sources/SOURCE_FACTS.md": {
+          "expected": "84dc602a339f1d970839204f21dbae36d1164daa30aca78aa0667268a48e09e6",
+          "actual": "84dc602a339f1d970839204f21dbae36d1164daa30aca78aa0667268a48e09e6"
+        },
+        "sources/SOURCE_RECORD.json": {
+          "expected": "405c0504550cb8243d0dc477a4ae87fcca9bcfabde3872e779eeb1c7257a1b0b",
+          "actual": "405c0504550cb8243d0dc477a4ae87fcca9bcfabde3872e779eeb1c7257a1b0b"
+        }
+      },
+      "source_first_seal_pins": {
+        "SOURCE_FIRST_JUDGMENT.md": {
+          "expected": "ffdf776d28e08fb7f9421a1f0481e31357a80305c6e6ad05c8805c76dc2c9848",
+          "actual": "ffdf776d28e08fb7f9421a1f0481e31357a80305c6e6ad05c8805c76dc2c9848"
+        },
+        "check_source_correspondence.py": {
+          "expected": "608b0a666763a65415c0f7bb6f6db58ad8e09d784d6c166d35f81cb0ccd23e2b",
+          "actual": "608b0a666763a65415c0f7bb6f6db58ad8e09d784d6c166d35f81cb0ccd23e2b"
+        },
+        "source_correspondence.stdout": {
+          "expected": "a262860d8c2ce37d5435bbf484cf525867c0e8f890e6e73003bbfd2b3476dd3f",
+          "actual": "a262860d8c2ce37d5435bbf484cf525867c0e8f890e6e73003bbfd2b3476dd3f"
+        },
+        "source_correspondence.stderr": {
+          "expected": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "actual": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        "source_correspondence.json": {
+          "expected": "e9c6de37ba90c34be524571025b9573ee9f7c140abf5409df3102c86883eabc2",
+          "actual": "e9c6de37ba90c34be524571025b9573ee9f7c140abf5409df3102c86883eabc2"
+        },
+        "source_correspondence.capture_provenance.json": {
+          "expected": "9c372eb43634c16a756b2e47cc0c9740587d5e4e5024c63c422b7e4695118eba",
+          "actual": "9c372eb43634c16a756b2e47cc0c9740587d5e4e5024c63c422b7e4695118eba"
+        }
+      },
+      "parent_final_root_correspondence": {
+        "CURRENT_RESEARCH_PROGRAM.md": {
+          "expected": "06691dd63d6ff5b9d2c69b04fd71409c9c7692a8d38f55e0894d2fa47fe8fc87",
+          "actual": "06691dd63d6ff5b9d2c69b04fd71409c9c7692a8d38f55e0894d2fa47fe8fc87"
+        },
+        "HANDOFF.md": {
+          "expected": "f8047a64801da2dc539e99f57e5e0528f39fe34766fa54ec384b28bafc237ea1",
+          "actual": "f8047a64801da2dc539e99f57e5e0528f39fe34766fa54ec384b28bafc237ea1"
+        },
+        "INDEX.md": {
+          "expected": "0ffc93f022a2b7d458a952f621551896f1fd5bd1fd24e2d9123947bb9eff2df0",
+          "actual": "0ffc93f022a2b7d458a952f621551896f1fd5bd1fd24e2d9123947bb9eff2df0"
+        },
+        "LIVE.md": {
+          "expected": "918f1bb2e0e5d65762cfa0c29272d2eb74358a0ebdaea63dbf1d351b3f251723",
+          "actual": "918f1bb2e0e5d65762cfa0c29272d2eb74358a0ebdaea63dbf1d351b3f251723"
+        },
+        "UDT_RESEARCH_ROADMAP.md": {
+          "expected": "61f703f0fe68b650fde4c9e3f17f022f43e036d8323701d98ed085b9a3207c92",
+          "actual": "61f703f0fe68b650fde4c9e3f17f022f43e036d8323701d98ed085b9a3207c92"
+        }
+      },
+      "source_cache": {
+        "local_temporary_pdf": {
+          "expected": "3e6219b886d19c7ba00e306ff56560263aac1d23bb1690fa78388918ad05feac",
+          "actual": "3e6219b886d19c7ba00e306ff56560263aac1d23bb1690fa78388918ad05feac"
+        },
+        "text_cache": {
+          "expected": "c4d8a2ea1fa61a3813af4400e7ea92ebcb7d79d00c09a759dfc1eae70b645eb9",
+          "actual": "c4d8a2ea1fa61a3813af4400e7ea92ebcb7d79d00c09a759dfc1eae70b645eb9"
+        },
+        "rendered_page2": {
+          "expected": "55e5aa12d999bf6536e5951f0d183274b8ce3cbae6e6212dabdfa5cc636782a0",
+          "actual": "55e5aa12d999bf6536e5951f0d183274b8ce3cbae6e6212dabdfa5cc636782a0"
+        }
+      },
+      "initial_review_and_repair": {
+        "REVIEW.md": {
+          "expected": "36f8c0a02a615782bb622627f250a61360b2640689f9809eaf31d89704a375ae",
+          "actual": "36f8c0a02a615782bb622627f250a61360b2640689f9809eaf31d89704a375ae"
+        },
+        "REPAIR_REVIEW.md": {
+          "expected": "4c174f64c60eead61dcc2500b626a6309deaefd89ef40439087c7bcad09d39ea",
+          "actual": "4c174f64c60eead61dcc2500b626a6309deaefd89ef40439087c7bcad09d39ea"
+        }
+      }
+    },
+    "git_diff_check_exit": 0,
+    "protected_payload_read_or_hash": false,
+    "backup_completeness": "UNVERIFIED",
+    "hash_limit": "Byte correspondence only; not truth, chronology, protected-payload integrity or archival completeness"
+  },
+  "reused_actual_checks": {
+    "navigation": {
+      "command": [
+        "python3",
+        "-m",
+        "pytest",
+        "--noconftest",
+        "-q",
+        "tests/test_startup_surface.py",
+        "-k",
+        "not full_foundational_premise_verifier_is_in_pytest"
+      ],
+      "cwd": "/home/udt-admin/udt_mass_codex",
+      "started_utc": "2026-09-12T14:56:20.502208+00:00",
+      "duration_seconds": 12.59701413899893,
+      "returncode": 0,
+      "timeout": false,
+      "address_space_bytes": 2147483648,
+      "cpu_seconds": 180,
+      "maxrss_kib": 53436
+    },
+    "navigation_scope": "359 passed, 1 deselected; parent execution inspected, not reviewer replay or scientific proof",
+    "integration": {
+      "command": [
+        "python3",
+        "udt_optical_instrument_eligibility_2026-09-12/checks/check_integration.py"
+      ],
+      "cwd": "/home/udt-admin/udt_mass_codex",
+      "started_utc": "2026-09-12T14:57:41.990588+00:00",
+      "duration_seconds": 0.07030021003447473,
+      "returncode": 0,
+      "timeout": false,
+      "address_space_bytes": 2147483648,
+      "cpu_seconds": 180,
+      "maxrss_kib": 16320
+    },
+    "same_session_full397": {
+      "attributed_path": "udt_optics_bridge_assessment_2026-09-12/checks/closeout_full397.json",
+      "started_utc": "2026-09-12T14:04:07.374205+00:00",
+      "duration_seconds": 402.80235642998014,
+      "returncode": 0,
+      "reviewer_rerun": false,
+      "attribution_basis": "Actual receipt/stdout/stderr inspected; source/registry/premise/AGENTS pins unchanged"
+    },
+    "fetch": "Parent-attributed actual success before integration; the integration script records that assertion and does not itself execute fetch; reviewer checked local refs only"
+  },
+  "root_sha256": {
+    "CURRENT_RESEARCH_PROGRAM.md": "06691dd63d6ff5b9d2c69b04fd71409c9c7692a8d38f55e0894d2fa47fe8fc87",
+    "HANDOFF.md": "f8047a64801da2dc539e99f57e5e0528f39fe34766fa54ec384b28bafc237ea1",
+    "INDEX.md": "0ffc93f022a2b7d458a952f621551896f1fd5bd1fd24e2d9123947bb9eff2df0",
+    "LIVE.md": "918f1bb2e0e5d65762cfa0c29272d2eb74358a0ebdaea63dbf1d351b3f251723",
+    "UDT_RESEARCH_ROADMAP.md": "61f703f0fe68b650fde4c9e3f17f022f43e036d8323701d98ed085b9a3207c92"
+  },
+  "final_package_sha256": {
+    "FRAME_AND_SELECTION.md": "8feeb90efd89383ef6117d649de1f99fa55f22018cfeefeea9634226f0d82a5f",
+    "INITIAL_ASSESSMENT.md": "b28f8025f48f4fb79a86924dcc6a141ab7421b218d22d1fa525998a002fff5ff",
+    "SELECTION_RECORD.md": "17b3ff78dbf16041d2b2598225bb08146a8d8b37c1651a554a6749c9fbe7b3b9",
+    "SOURCE_FIRST_REVIEW_TASK.md": "836f6fa9b053a3ee77e414b8ee47485f60512e20035021eaaa0adb9d9bb40b40",
+    "SOURCE_PINS.json": "54b24f96520167d0da8f359807002e366721cbb449293148583e6253767d7cc1",
+    "STARTUP_RECORD.json": "6226cac623bcd746c7e7354283a144d9989bd6f31f28d5afd7c1caa391a0b3f5",
+    "WORK_ORDER.md": "4add0358110423935c4fbaa6190fae5874190614344b9e82549195400ad24e5c",
+    "sources/SOURCE_FACTS.md": "84dc602a339f1d970839204f21dbae36d1164daa30aca78aa0667268a48e09e6",
+    "sources/SOURCE_RECORD.json": "405c0504550cb8243d0dc477a4ae87fcca9bcfabde3872e779eeb1c7257a1b0b",
+    "INITIAL_REVIEW_FREEZE.json": "59858cd4e64af91c3e250ba0851c6c2f6551fb40c4154e4b0cec0464f14bf9fc",
+    "SOURCE_PRESERVING_CLARIFICATION.md": "6756512b1593feb83b2692dcbebacaa6c6b0eb26f8b88223d05c193095ac642f",
+    "REVIEWED_ASSESSMENT.md": "875a6056b6ae728f236cbeca645f719dc45a6b5dcd0bb482556da37cb207ac87",
+    "DECISION_BRIEF.md": "ee7bab7d76ba58eb303c96ee8cb9511ff5b697cd7046d01df1ece77640fe7efc",
+    "SESSION_RECORD.md": "1b74fa84c7ad8f1b35b78d26bc9916160535eac56ce44fba365b898e880ba5ae",
+    "CLOSEOUT.md": "99674398bcd0057a712cef7687f3ebb23b480edfdb603f913a4c89a85555bdf0",
+    "review/SOURCE_FIRST_JUDGMENT.md": "ffdf776d28e08fb7f9421a1f0481e31357a80305c6e6ad05c8805c76dc2c9848",
+    "review/SOURCE_FIRST_SEAL.json": "0ee71c19be3a38cbd922f4f32a317cf12c18fb72eb4ced381d5e2ff74376ce7f",
+    "review/REVIEW.md": "36f8c0a02a615782bb622627f250a61360b2640689f9809eaf31d89704a375ae",
+    "review/REPAIR_REVIEW.md": "4c174f64c60eead61dcc2500b626a6309deaefd89ef40439087c7bcad09d39ea",
+    "review/check_source_correspondence.py": "608b0a666763a65415c0f7bb6f6db58ad8e09d784d6c166d35f81cb0ccd23e2b",
+    "review/seal_final_fidelity.py": "d0f0dc2861f034c9ae3c48174f11b9c597c182bb88657c49dfe5110745c99eb5",
+    "checks/check_integration.py": "a630da0038bb5c3f3c16eae579ba7c7dbf92eef55c5423ec755a4218c49ec952",
+    "review/source_correspondence.json": "e9c6de37ba90c34be524571025b9573ee9f7c140abf5409df3102c86883eabc2",
+    "review/source_correspondence.stdout": "a262860d8c2ce37d5435bbf484cf525867c0e8f890e6e73003bbfd2b3476dd3f",
+    "review/source_correspondence.stderr": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "review/source_correspondence.capture_provenance.json": "9c372eb43634c16a756b2e47cc0c9740587d5e4e5024c63c422b7e4695118eba",
+    "review/source_first_seal_capture.json": "f3a895d325a6101609ee6f1d6de767476abf113bd6a6e06ae94267c88052356d",
+    "review/source_first_seal_capture.stdout": "0ee71c19be3a38cbd922f4f32a317cf12c18fb72eb4ced381d5e2ff74376ce7f",
+    "review/source_first_seal_capture.stderr": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "review/source_first_seal_capture.capture_provenance.json": "f0ae9ef2757d78e8500a85868240d77e02c8f50d94682b9e5d6391a115da5080",
+    "checks/final_navigation.json": "f3568bbf8af635a3c8e64779aefd959e765692a5563f7c2fb0133f4e214d5591",
+    "checks/final_navigation.stdout": "c7daa8b7dc69638bfd08005b0f5dfe54287f558ace8f32ffd3082f3a49afebf6",
+    "checks/final_navigation.stderr": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "checks/final_navigation.capture_provenance.json": "c76749b1a6106d66f64e880dd4b29dc7a081387aaad3e107725edb1552fc63ea",
+    "checks/final_integration.json": "e8b015a87ff5649da9b5ee9902a59a4bba36d0efb6b6bf3f82bf9389966101e5",
+    "checks/final_integration.stdout": "e7e8ed497f9c1d83a8a11af1d7faae1cf7cb7c9a5d9f454b17b7bb2eb4c33707",
+    "checks/final_integration.stderr": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "checks/final_integration.capture_provenance.json": "49390a6de0eb64b0a9ce8ead277a4c547ef46b01f3adca7fcaf73d8b48747cac"
+  },
+  "additional_source_sha256": {
+    "tests/test_startup_surface.py": "ab0f7a7b02ad9c378b222e49fbfc67459788a2ccf9afda582a6a1933947bc421"
+  },
+  "publication": "NOT_CLAIMED; subsequent parent-owned manifest/staging/sync/commit/push metadata is outside this prepublication fidelity seal",
+  "omissions": "No full397 or OB1 scientific replay, Maxwell/guide solve, finite-wave certification, hardware test, statistical analysis, new transfer, target data, survey, contact, protected/archive payload access, runtime change, GPU production, source edits, commit, physical adoption, promotion or successor dispatch"
+}
