@@ -1,0 +1,17 @@
+{
+  "checked_utc": "2026-09-12T15:03:05.096257+00:00",
+  "pass": true,
+  "branch": "grok",
+  "head": "41e4df85c5017cddfd380c093ccf127744b792f8",
+  "origin_grok": "41e4df85c5017cddfd380c093ccf127744b792f8",
+  "committed_paths_verified": 49,
+  "all_staged_committed_worktree_bytes_match": true,
+  "source_pins_unchanged": true,
+  "tracked_clean": true,
+  "original_untracked_count": 46,
+  "original_name_status_sha256": "55e7c4508622f912730f9c068cc571c370b3977bc1110eb0a48a8218dbe024c2",
+  "protected_payload_inspection": false,
+  "backup_completeness": "UNVERIFIED",
+  "pre_reboot_unsaved_state": "UNVERIFIED",
+  "scientific_promotion": false
+}

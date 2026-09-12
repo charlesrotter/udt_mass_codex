@@ -1,0 +1,39 @@
+{
+  "scope": "Parent-owned metadata only after final fidelity; preservation/publication, not scientific promotion",
+  "commit_command": [
+    "git",
+    "commit",
+    "-m",
+    "Record reviewed OB2 instrument eligibility gate"
+  ],
+  "commit_started": {
+    "current_time": "2026-09-12 15:02:31 UTC"
+  },
+  "commit_result": {
+    "chunk_id": "6d02c9",
+    "wall_time_seconds": 0.000002764,
+    "exit_code": 0,
+    "original_token_count": 1095,
+    "output": "[grok 41e4df85] Record reviewed OB2 instrument eligibility gate\n 49 files changed, 2392 insertions(+), 13 deletions(-)\n create mode 100644 udt_optical_instrument_eligibility_2026-09-12/CLOSEOUT.md\n create mode 100644 udt_optical_instrument_eligibility_2026-09-12/DECISION_BRIEF.md\n create mode 100644 udt_optical_instrument_eligibility_2026-09-12/FRAME_AND_SELECTION.md\n create mode 100644 udt_optical_instrument_eligibility_2026-09-12/INITIAL_ASSESSMENT.md\n create mode 100644 udt_optical_instrument_eligibility_2026-09-12/INITIAL_REVIEW_FREEZE.json\n create mode 100644 udt_optical_instrument_eligibility_2026-09-12/PACKAGE_MANIFEST.json\n create mode 100644 udt_optical_instrument_eligibility_2026-09-12/REVIEWED_ASSESSMENT.md\n create mode 100644 udt_optical_instrument_eligibility_2026-09-12/SELECTION_RECORD.md\n create mode 100644 udt_optical_instrument_eligibility_2026-09-12/SESSION_RECORD.md\n create mode 100644 udt_optical_instrument_eligibility_2026-09-12/SOURCE_FIRST_REVIEW_TASK.md\n create mode 100644 udt_optical_instrument_eligibility_2026-09-12/SOURCE_PINS.json\n create mode 100644 udt_optical_instrument_eligibility_2026-09-12/SOURCE_PRESERVING_CLARIFICATION.md\n create mode 100644 udt_optical_instrument_eligibility_2026-09-12/STARTUP_RECORD.json\n create mode 100644 udt_optical_instrument_eligibility_2026-09-12/WORK_ORDER.md\n create mode 100644 udt_optical_instrument_eligibility_2026-09-12/checks/check_integration.py\n create mode 100644 udt_optical_instrument_eligibility_2026-09-12/checks/final_integration.capture_provenance.json\n create mode 100644 udt_optical_instrument_eligibility_2026-09-12/checks/final_integration.json\n create mode 100644 udt_optical_instrument_eligibility_2026-09-12/checks/final_integration.stderr\n create mode 100644 udt_optical_instrument_eligibility_2026-09-12/checks/final_integration.stdout\n create mode 100644 udt_optical_instrument_eligibility_2026-09-12/checks/final_navigation.capture_provenance.json\n create mode 100644 udt_optical_instrument_eligibility_2026-09-12/checks/final_navigation.json\n create mode 100644 udt_optical_instrument_eligibility_2026-09-12/checks/final_navigation.stderr\n create mode 100644 udt_optical_instrument_eligibility_2026-09-12/checks/final_navigation.stdout\n create mode 100644 udt_optical_instrument_eligibility_2026-09-12/review/FINAL_FIDELITY.json\n create mode 100644 udt_optical_instrument_eligibility_2026-09-12/review/REPAIR_REVIEW.md\n create mode 100644 udt_optical_instrument_eligibility_2026-09-12/review/REVIEW.md\n create mode 100644 udt_optical_instrument_eligibility_2026-09-12/review/SOURCE_FIRST_JUDGMENT.md\n create mode 100644 udt_optical_instrument_eligibility_2026-09-12/review/SOURCE_FIRST_SEAL.json\n create mode 100644 udt_optical_instrument_eligibility_2026-09-12/review/check_source_correspondence.py\n create mode 100644 udt_optical_instrument_eligibility_2026-09-12/review/final_fidelity_capture.capture_provenance.json\n create mode 100644 udt_optical_instrument_eligibility_2026-09-12/review/final_fidelity_capture.json\n create mode 100644 udt_optical_instrument_eligibility_2026-09-12/review/final_fidelity_capture.stderr\n create mode 100644 udt_optical_instrument_eligibility_2026-09-12/review/final_fidelity_capture.stdout\n create mode 100644 udt_optical_instrument_eligibility_2026-09-12/review/seal_final_fidelity.py\n create mode 100644 udt_optical_instrument_eligibility_2026-09-12/review/source_correspondence.capture_provenance.json\n create mode 100644 udt_optical_instrument_eligibility_2026-09-12/review/source_correspondence.json\n create mode 100644 udt_optical_instrument_eligibility_2026-09-12/review/source_correspondence.stderr\n create mode 100644 udt_optical_instrument_eligibility_2026-09-12/review/source_correspondence.stdout\n create mode 100644 udt_optical_instrument_eligibility_2026-09-12/review/source_first_seal_capture.capture_provenance.json\n create mode 100644 udt_optical_instrument_eligibility_2026-09-12/review/source_first_seal_capture.json\n create mode 100644 udt_optical_instrument_eligibility_2026-09-12/review/source_first_seal_capture.stderr\n create mode 100644 udt_optical_instrument_eligibility_2026-09-12/review/source_first_seal_capture.stdout\n create mode 100644 udt_optical_instrument_eligibility_2026-09-12/sources/SOURCE_FACTS.md\n create mode 100644 udt_optical_instrument_eligibility_2026-09-12/sources/SOURCE_RECORD.json\n"
+  },
+  "push_command": [
+    "git",
+    "push",
+    "origin",
+    "grok"
+  ],
+  "push_initial": {
+    "chunk_id": "88845f",
+    "wall_time_seconds": 1.00114674,
+    "session_id": 11347,
+    "original_token_count": 0,
+    "output": ""
+  },
+  "push_completion": {
+    "chunk_id": "220073",
+    "wall_time_seconds": 0.000001814,
+    "exit_code": 0,
+    "original_token_count": 23,
+    "output": "To https://github.com/charlesrotter/udt_mass_codex.git\n   e89bfe9c..41e4df85  grok -> grok\n"
+  }
+}
