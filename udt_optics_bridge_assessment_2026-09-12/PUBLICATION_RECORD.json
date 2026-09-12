@@ -1,0 +1,62 @@
+{
+  "recorded_utc": "2026-09-12T14:18:25.955096+00:00",
+  "branch": "grok",
+  "evidence_commit": "618a27b5f3add35c4577a26fe0cbd2a7eb74b256",
+  "baseline": "4c56085101da045b8d00732528bb6f99ed0fd8e2",
+  "origin_grok_after_successful_push": "618a27b5f3add35c4577a26fe0cbd2a7eb74b256",
+  "commit_result": {
+    "exit_code": 0,
+    "changed_paths": 124,
+    "message": "Record reviewed conditional optics bridge and calibration gates"
+  },
+  "push_result": {
+    "command": [
+      "git",
+      "push",
+      "origin",
+      "grok"
+    ],
+    "exit_code": 0,
+    "observed_output": "To https://github.com/charlesrotter/udt_mass_codex.git\n   4c560851..618a27b5  grok -> grok\n",
+    "completion_observed_utc": "2026-09-12 14:17:17 UTC"
+  },
+  "committed_manifest_entries_verified": 118,
+  "authored_whitespace_check": {
+    "command": [
+      "git",
+      "diff",
+      "--cached",
+      "--check",
+      "--",
+      ".",
+      ":(exclude)udt_optics_bridge_assessment_2026-09-12/sources/*.txt"
+    ],
+    "exit_code": 0,
+    "exclusion": "Two imported primary-source text extractions retain original bytes; their hashes are verified, not whitespace-normalized"
+  },
+  "preserved_packaging_failure": {
+    "first_staged_manifest_check": "exit1: manifest file not staged, checks/author_initial.stdout",
+    "diagnosis": "git check-ignore -v showed .gitignore:38:*.stdout;20 OB1 stdout files were omitted",
+    "repair": "Force-added only the exact20 missing OB1 manifest paths using a NUL-delimited explicit list; ignore rules and evidence bytes unchanged",
+    "recheck": "124 staged paths in allowed scope; all118 manifest entries matched staged bytes; original46-name fingerprint matched"
+  },
+  "tracked_dirt_after_evidence_push": [],
+  "original_untracked_entries": 46,
+  "original_untracked_name_sha256": "55e7c4508622f912730f9c068cc571c370b3977bc1110eb0a48a8218dbe024c2",
+  "review": {
+    "fresh_contexts_allocated": 1,
+    "context": "/root/ob1_optics_review",
+    "final_fidelity_utc": "2026-09-12T14:14:50.711954+00:00",
+    "general_capacity": "UNVERIFIED",
+    "runtime_model": "UNATTESTED"
+  },
+  "science_status": "VERIFIED-WITH-CAVEATS; CONDITIONAL UNPROMOTED; no scientific candidate repair, physical premise adoption or registry promotion",
+  "checks": {
+    "startup397_seconds": 404.5416222040076,
+    "closeout397_seconds": 402.80235642998014,
+    "navigation": "359 passed, 1 deselected; full verifier ran separately"
+  },
+  "backup_completeness": "UNVERIFIED",
+  "pre_reboot_unsaved_state": "UNVERIFIED",
+  "limits": "No protected payload read/hash, archive operation, device qualification or successor authorization. This publication receipt is metadata added after the reviewed evidence commit; its own subsequent commit/push is parent-owned and not claimed here."
+}
