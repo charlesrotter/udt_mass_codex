@@ -1,0 +1,897 @@
+                                         June 25, 2018    0:25   WSPC/INSTRUCTION FILE                      ijmpd˙go˙paper
+
+
+
+
+                                                            Geometrical optics for scalar, electromagnetic and
+arXiv:1806.08617v1 [gr-qc] 22 Jun 2018
+
+
+
+
+                                                                gravitational waves on curved spacetime
+
+
+                                                                                               Sam R. Dolan
+                                                                                 Consortium for Fundamental Physics,
+                                                                      School of Mathematics and Statistics, University of Sheffield,
+                                                                  Hicks Building, Hounsfield Road, Sheffield S3 7RH, United Kingdom
+
+
+
+
+                                                         The geometrical-optics expansion reduces the problem of solving wave equations to one
+                                                         of solving transport equations along rays. Here we consider scalar, electromagnetic and
+                                                         gravitational waves propagating on a curved spacetime in general relativity. We show
+                                                         that each is governed by a wave equation with the same principal part. It follows that:
+                                                         each wave propagates at the speed of light along rays (null generators of hypersurfaces
+                                                         of constant phase); the square of the wave amplitude varies in inverse proportion to
+                                                         the cross section of the beam; and the polarization is parallel-propagated along the ray
+                                                         (the Skrotskii/Rytov effect). We show that the optical scalars for a beam, and various
+                                                         Newman-Penrose scalars describing a parallel-propagated null tetrad, can be found by
+                                                         solving transport equations in a second-order formulation. Unlike the Sachs equations,
+                                                         this formulation makes it straightforward to find such scalars beyond the first conjugate
+                                                         point of a congruence, where neighbouring rays cross, and the scalars diverge. We discuss
+                                                         differential precession across the beam which leads to a modified phase in the geometrical-
+                                                         optics expansion.
+
+                                                         Keywords: Geometrical optics; electromagnetism; gravitational waves; curved spacetime.
+
+                                                         PACS numbers:
+
+
+
+                                                   1. Introduction
+                                                   One key consequence of General Relativity is that light rays are deflected by grav-
+                                                   itational fields. A ray passing close to a body of mass M is, to first approximation,
+                                                   bent through the Einstein deflection angle ∆φE = 4GM/c2 b, where G, c and b are
+                                                   the gravitational constant, the speed of light, and the impact parameter, respec-
+                                                   tively. Eddington’s eclipse experiment of 1919, and its successors, established that
+                                                   the Einstein angle matches observational data – rather than e.g. the Soldner angle
+                                                   ∆φE /2 of Newtonian theory.
+                                                       A second key consequence of General Relativity is the existence of gravitational
+                                                   waves, which was confirmed in 2015 by the observation of characteristic “chirps”
+                                                   from binary black hole mergers.1 In Einstein’s theory, gravitational waves propagate
+                                                   at exactly the speed of light, whereas in alternative theories this is not necessarily
+                                                   the case. The recent observation of the binary neutron-star merger in both electro-
+                                                   magnetic waves and gravitational waves was the first such multi-messenger result.
+
+                                                                                                     1
+June 25, 2018    0:25   WSPC/INSTRUCTION FILE               ijmpd˙go˙paper
+
+
+
+
+          2     Sam R. Dolan
+
+
+          The gamma ray-burst arrived within ∼ 2s of the gravitational wave peak, after prop-
+          agating for ∼ 109 years, confirming that the propagation speeds of electromagnetic
+          and gravitational waves are the same (at least to 1 part in ∼ 1016 ).2
+              Our knowledge of the cosmos is built up from inferences drawn from observations
+          of waves that have travelled over cosmological distances across a dynamical curved
+          spacetime. Astronomers do not typically analyse Maxwell’s fundamental equations
+          directly, though. To account for the gravitational lensing of light, for example, it
+          suffices to employ a (leading-order) geometrical-optics approximation.3–5 In this
+          approximation, the gradient of the phase is tangent to a light ray and, in vacuum,
+          a light ray is a null geodesic of the spacetime. The wave’s square amplitude varies
+          in inverse proportion to the transverse area of the beam, so that flux is conserved
+          in vacuum. The polarization of the wave is parallel-propagated along the ray, in
+          a phenomenon known as gravitational Faraday rotation6 or the Skrotskii effect7, 8
+          (also known as the Rytov effect).
+              Geometrical optics is a widely-used approximation scheme based around one fun-
+          damental assumption: that the wavelength (and inverse frequency) is significantly
+          shorter than all other characteristic length (and time) scales,9, 10 such as the space-
+          time curvature scale(s).5 For the gravitational lensing of electromagnetic radiation,
+          this is typically a safe assumption. Even for gravitational waves – which are gener-
+          ated by bulk motions of compact objects11 with long wavelengths (e.g. λ ∼ 107 m
+          for GW150914) – this assumption is still typically a good one. However, there
+          are scenarios such as the scattering of waves by black holes,12, 13 where the short-
+          wavelength assumptions break down. Higher-order corrections to geometrical-optics
+          can, in principle, be found in a systematic way.14–16
+              In this paper we review the theory of geometrical optics at leading-order, for
+          scalar-field, electromagnetic and gravitational waves. Our quantities of interest are
+          Φ, the scalar field; Fab , the Faraday tensor; and hab and Cabcd , the metric pertur-
+          bation and Weyl tensors, respectively.
+              This paper is organised as follows. In Sec. 2 we review the free field equations
+          (2.1), and then the scalar (2.2.1), electromagnetic (2.2.2) and gravitational-wave
+          (2.2.3) cases in more detail. In Sec. 3, we introduce the geometrical optics expansion,
+          again for the scalar (3.1), electromagnetic (3.2) and gravitational-wave (3.3) cases.
+          In Sec. 4 we examine how geometrical-optics informs gravitational lensing theory.
+          Neighbouring rays are subject to geodesic deviation (4.1), and a beam is described
+          by optical & Newman-Penrose (NP) scalars (4.2). We develop a transport-equation
+          approach for finding these scalars, and examine the effect of differential precession
+          on the wave’s phase (4.3). We conclude in Sec. 5 with a discussion.
+              Conventions: Here gab is a metric with signature − + ++. Units are such that
+          the gravitational constant G and the speed of light c are equal to 1. Indices are
+          lowered (raised) with the metric (inverse metric), i.e., ua = gab ub (ua = g ab ub ).
+          Einstein summation convention is assumed. The metric determinant is denoted
+          g = det gab . The letters a, b, c, . . . are used to denote spacetime indices running from
+          0 (the temporal component) to 3, whereas letters i, j, k, . . . denote spatial indices
+June 25, 2018   0:25   WSPC/INSTRUCTION FILE                    ijmpd˙go˙paper
+
+
+
+
+            Geometrical optics for scalar, electromagnetic and gravitational waves in curved spacetime     3
+
+                                                                          √
+          running from 1 to 3. The Levi-Civita tensor is εabcd ≡ −g[abcd], with [abcd]
+          the fully anti-symmetric Levi-Civita symbol such that [0123] = +1. The covariant
+          derivative of Xb is denoted by ∇a Xb or equivalently Xb;a , and the partial derivative
+          by ∂a Xb or Xb,a . The symmetrization (anti-symmetrization) of indices is indicated
+          with round (square) brackets, e.g. X(ab) = 21 (Xab + Xba ) and X[ab] = 12 (Xab − Xba ).
+          {k a , na , ma , ma } denote the legs of a (complex) null tetrad. Complex conjugation
+          is denoted with an over-line, or alternatively, with an asterisk: ma = ma∗ .
+
+
+          2. Fundamentals
+          2.1. Field equations
+                                                                                      √
+          We take as our starting point the action S = (LΦ + LF + LG + LM ) −gd4 x,
+                                                            R
+
+          where the free-field Lagragians are LΦ = − 12 g ab ∇a Φ∗ ∇b Φ, LF = − 14 Fab F ab , and
+          LG = R/16πG. Here Φ is a scalar field, Fab is the Faraday tensor for the electro-
+          magnetic field, and R = g ab Rab = g ab g cd Racbd is the Ricci scalar, with Rab and
+          Rabcd the Ricci and Riemann tensors, respectively. The latter is constructed from
+          the metric gab and its derivatives up to second order. The metric determinant is g.
+          The final term LM couples the free fields to the matter sector.
+             The Euler-Lagrange equations yield three field equations, viz.
+
+                                                          Φ = 0,                                   (1a)
+                                                           ab      a
+                                                  ∇b F = J ,                                        (1b)
+                                                  1
+                                       Gab ≡ Rab − gab R = 8πG Tab ,                                (1c)
+                                                  2
+          where  ≡ g ab ∇a ∇b . Here J a and Tab are four-current and stress-energy, respec-
+          tively, which are divergence-free by construction: ∇a J a = 0 = ∇a T ab .
+              The Faraday tensor is antisymmetric in its indices, i.e., F(ab) ≡ 12 (Fab + Fba ) =
+          0. The Riemann tensor is antisymmetric in both pairs of indices Rabcd =
+          −Rbacd = Rbadc , and has the additional symmetries Rabcd = Rcdab and Ra[bcd] =
+          1
+          3 (Rabcd + Racdb + Radbc ) = 0. The Faraday tensor and Riemann tensor obey
+          Bianchi identities, viz.
+
+                                       ∇[a Fbc] = 0,       ∇[a Rbc]de = 0.                               (2)
+
+
+          2.2. Electromagnetism and gravitation
+          We now consider the fields in more detail.
+
+
+          2.2.1. Scalar field
+          The stress-energy of the scalar field is
+                                    (Φ)                1
+                                   Tab = ∇(a Φ∗ ∇b) Φ − gab ∇c Φ∗ ∇c Φ.                                  (3)
+                                                       2
+June 25, 2018    0:25   WSPC/INSTRUCTION FILE                ijmpd˙go˙paper
+
+
+
+
+          4     Sam R. Dolan
+
+
+          2.2.2. Electromagnetic field
+          The electric and magnetic fields at a point in spacetime depend on the choice of
+          Lorentz frame. An observer with (unit) tangent vector ua and (orthonormal) spatial
+          frame eai ‘sees’ an electric field Ei = Fab eai ub and a magnetic field Bi = Feab eai ub .
+          Here Feab is the Hodge dual17 of the Faraday tensor, defined by
+                                                    1
+                                              Feab ≡ εabcd F cd ,                               (4)
+                                                    2
+                                                                    ≈
+          where εabcd is the Levi-Civita tensor. (It follows that X ab = −Xab for any two-form
+          Xab .)
+             It is convenient to introduce a complexified version of the Faraday tensor,
+                                              Fab ≡ Fab + iFeab .                               (5)
+          The complex tensor Fab is self-dual, by virtue of the property Feab = −iFab . From
+                                           ∗
+          its definition, it follows that Fab F ab = 0, where ∗ denotes complex conjugation.
+          We may also introduce a complex three-vector F with components Fi ≡ Fab eai ub ,
+          whose real and imaginary parts yield the (observer-dependent) electric and magnetic
+          fields, F = E − iB. The complex scalar quantity
+                                                 1            1
+                                          Υ ≡ − Fab F ab = F · F                               (6)
+                                                 8            2
+          is frame-invariant. Its real and imaginary parts yield the well-known frame-
+          invariants 21 (E 2 − B 2 ) and (minus) E · B, respectively.18 A Faraday field with Υ = 0
+          is called null. In the null case, any observer sees electric and magnetic fields are
+          orthogonal and of equal magnitude.
+              The Bianchi identity ∇[a Fbc] = 0 is equivalent to ∇b Feab = 0. In the language of
+          forms, F is closed (dF = 0 by the Bianchi identity), and thus by Poincaré’s lemma,
+          F must be locally exact (F = dA). Thus, the Faraday tensor can be written in
+          terms of a vector potential Aa as
+                                                Fab ≡ 2∇[a Ab] .                                (7)
+          Due to antisymmetry, it follows that Fab = 2∂[a Ab] = ∂A        ∂Aa
+                                                                    ∂xa − ∂xb . The Faraday
+                                                                      b
+
+
+          tensor is invariant under gauge transformations of the form Aa → A0a = Aa + ∂a χ,
+          where χ is any scalar field.
+              By taking a derivative of the first equation of (1b), re-ordering covariant deriva-
+          tives, and applying the Bianchi identity, one may obtain a wave equation in the
+          form
+                               Fab + 2Racbd F cd + Rac Fbc − Rbc Fac = 2J[a;b] ,               (8)
+          In the absence of electromagnetic sources (Ja = 0), one may replace Fab with Fab ,
+          if so desired. Alternatively, one may derive a wave equation for the vector potential,
+                                    Aa − Rab Ab − ∇a Ab;b = −J a .
+                                                             
+                                                                                            (9)
+          The final term on the left-hand side is zero in Lorenz gauge, ∇a Aa = 0.
+June 25, 2018    0:25   WSPC/INSTRUCTION FILE                  ijmpd˙go˙paper
+
+
+
+
+            Geometrical optics for scalar, electromagnetic and gravitational waves in curved spacetime   5
+
+                                                                          (F )
+                The stress-energy due to the electromagnetic field, Tab , is given by
+                                         (F )            1
+                                        Tab ≡ Fac Fb c − gab Fcd F cd                               (10)
+                                                         4
+                                               1        c ∗
+                                              = Re (Fa Fbc ) .                                      (11)
+                                               2
+                                                   (F )
+          The stress-energy is traceless, g ab Tab = 21 Fab F ab∗ = 0, and it satisfies the con-
+                                  ab           a  b
+          servation equation ∇b T(F  ) = −F b J , which accounts for how energy is passed
+          between the field and the charge distribution.
+
+          2.2.3. Gravitational field
+          The spacetime metric gab may be split into ‘background’ ĝab and ‘perturbation’
+          hab parts, viz., gab = ĝab + hab , where  is an order-counting parameter. In typ-
+          ical scenarios, one takes ĝab to describe a slowly-varying background geometry,
+          with hab a propagating part of small amplitude, such that terms at O(2 ) in the
+          field equations may be neglected. Under small changes in the coordinate system,
+          xa → x0a = xa + ξ a (x), where ξ a (x) is a vector field, the background ĝab re-
+          mains unchanged and the metric perturbation undergoes a gauge transformation,
+          hab → h0ab = hab − Lξ ĝab , where Lξ is the Lie derivative along ξ a .
+              The Einstein field equation through linear order in  yields the following,
+                                                                    
+                      ˆ          c d                      1        c              (1)
+                      hab + 2R̂ a b hcd − 2 ∇(a Zb) − gab ∇c Z = −16πGTab ,              (12)
+                                                          2
+          where hab = hab − 12 gab h with h ≡ haa , Za ≡ ∇   ˆ b hab , and T (1) is the stress-energy
+                                                                            ab
+          at O(). Note that here covariant derivatives ∇    ˆ a are defined with respect to ĝab ,
+          and ĝ ab is used to raise indices. In some sense, the perturbation hab propagates on
+          a fixed background ĝab .
+               The term in parentheses in Eq. (12) is zero in Lorenz gauge defined by Za =
+          ∇ˆ b hab = 0. We shall adopt this gauge in the next section.
+               The Riemann tensor can be uniquely decomposed into parts which are
+          irreducible representations of the full Lorentz group:17 Rabcd = Cabcd +
+          Eabcd + Gabcd , where Eabcd = 12 (gac Sbd + gbd Sac − gad Sbc − gbc Sad ), Gabcd =
+           1                                         1
+          12 R (gac gbd − gad gbc ) and Sab = Rab − 4 Rgab .
+               The left and right duals are defined as follows,
+                                         1                            1
+                             ∼
+                               Cabcd = εabef C efcd ,        ∼
+                                                          Cabcd   = εcdef Cab ef ,               (13)
+                                         2                            2
+          The Weyl tensor satisfies ∼ Cabcd = Cabcd ∼
+                                                       . Thus we may introduce a complexified
+          Weyl tensor
+                                                              ∼
+                                            Cabcd = Cabcd + iCabcd ,                                (14)
+          which is self-dual with respect to both left and right duals.
+             The Weyl tensor can be expressed in terms of derivatives of the Lanczos tensor
+          Habc , which in turn satisfies a wave equation Habc = Xabc ,19 where the right-hand
+June 25, 2018    0:25   WSPC/INSTRUCTION FILE              ijmpd˙go˙paper
+
+
+
+
+          6     Sam R. Dolan
+
+
+          side depends on derivatives of the Ricci tensor and Ricci scalar; thus it is zero in a
+          Ricci-flat spacetime. A confounding issue here is that the d’Alembertian operator
+           = g ab ∇a ∇b implicitly features the metric. An alternative approach is to take
+          an additional derivative of the Bianchi identity, to obtain a wave equation for the
+          Riemann tensor. In a Ricci-flat spacetime,
+                          Rabcd + 2Raecf Rbedf − 2Raedf Rbecf + Rabef Rcdef = 0.             (15)
+
+
+          3. Geometrical optics
+          Let us suppose now that the wavelength is short in comparison to all other relevant
+          length scales; and that the inverse frequency is short in comparison to other relevant
+          timescales.
+
+
+          3.1. Scalar field
+          We begin with a geometrical-optics ansatz,
+                                        Φ(x) = A(x) exp (iωΨ(x)) .                            (16)
+          Here ω serves as an order-counting parameter, and the real fields Ψ(x) and A(x)
+          are the phase and amplitude, respectively. Loosely, we may call ω the ‘frequency’,
+          but with the note of caution that an observer with unit tangent vector ua would
+          actually measure a wave frequency of −ωua ∇a Ψ.
+             Substituting (16) into the wave equation (1a) leads to
+                         −ω 2 k a ka A + iω (k a ∇a A + ∇a k a A) + A eiωΨ = 0,
+                                                                      
+                                                                                        (17)
+          where ka ≡ ∇a Ψ. The standard geometrical-optics approach is to examine this
+          equation order-by-order in ω. At O(ω 2 ), k a ka = 0, thus the tangent vector is null.
+          As ka is a gradient, it follows as a consequence that it satisfies the geodesic equation,
+                                            Dka
+                                                 ≡ k b ∇b ka = 0,                           (18)
+                                            dν
+          where ν is an affine parameter. The integral curves of k a , that is, the spacetime
+                                      a
+          paths xa (ν) satisfying dx      a
+                                    dν = k , are null geodesics which lie in the hypersurface of
+          constant phase (Ψ(x) = constant). These are known as the null generators, and they
+          may be found from the constrained Hamiltonian H[xa , ka ] = 12 g ab (x)ka kb , where
+                                  b
+          H = 0 and ka ≡ gab dx dν .
+             At O(ω 1 ), one obtains a transport equation for the amplitude,
+                                                       1
+                                           k a ∇a A = − ϑA,                              (19)
+                                                       2
+          where ϑ ≡ ∇a k a is the expansion scalar. The transport equation for the amplitude
+          A ensures the conservation of flux, ∇a A2 k a = 0.
+             Typically, the last equation A = 0, at O(ω 0 ), is discarded, meaning that we
+          have only an approximate solution. (If one could find a solution for A that was
+June 25, 2018    0:25   WSPC/INSTRUCTION FILE                     ijmpd˙go˙paper
+
+
+
+
+            Geometrical optics for scalar, electromagnetic and gravitational waves in curved spacetime    7
+
+
+          consistent with the equations above, then one would have an exact solution; however
+          A = 0 appears no easier to solve than the original equation Φ = 0, it would
+          seem).
+             Inserting Eq. (16) into Eq. (3) gives the stress-energy,
+                                                                           
+                           (Φ)    2 2          0               1         c
+                         Tab = ω A ka kb + ω ∇a A∇b A − gab ∇c A∇ A .                    (20)
+                                                               2
+          At order ω 2 the stress-energy has the form of a null fluid. There is no piece at O(ω 1 ).
+                                                      (Φ)
+              It is straightforward
+                                   to show that ∇b Tab = ω 0 A = 0 by using flux conserva-
+          tion (∇a A2 k a = 0).
+
+          3.2. Electromagnetic field
+          A standard approach is to introduce a geometrical-optics ansatz for the vector
+          potential Aa into the wave equation (9) and to adopt Lorenz gauge (∇a Aa = 0);
+          see for example Box 5.6 in Ref. 20.
+              Another approach,3, 14, 15 which we follow here, is to introduce an ansatz for the
+          Faraday tensor Fab itself. This helps to expedite the stress-energy tensor calculation,
+          and removes any possible doubt about the gauge invariance of the results obtained.
+          We take the ansatz,
+                                         Fab = A(x)fab (x) exp (iωΨ(x)) .                              (21)
+          Here fab is the polarization bivector, a self-dual bivector field (fab = −fba , efab =
+          −ifab ).
+             In a charge-free region (J a = 0), inserting (21) into the wave equation (8) yields
+                − ω 2 k c kc Afab + iω [(2k c ∇c A + (∇c k c ) A) fab + Ak c ∇c fab ] + O(ω 0 ) = 0,   (22)
+          Once again, the gradient of the phase is null, ka k a = 0 and thus tangent to a null gen-
+          erator. We shall choose to split the amplitude A and the polarization fab such that,
+                                    1
+          once again, k a ∇a A                      c
+                               = − 2 ϑA, and now k ∇c fab = 0. Thus, the flux is once again con-
+                          2 a
+          served, ∇a A k = 0, and the polarization bivector is parallel-propagated along
+          the null generator: k c ∇c fab = 0. This is basis for the Skrotskii/Rytov effect, or
+          gravitational Faraday rotation.
+              At leading order the polarization bivector is transverse, fab k b = 0. This follows
+          from ∇b F ab = 0 at O(ω 1 ).
+
+          3.2.1. Circular and linear polarizations
+          A circularly-polarized wave satisfying fab k b = 0 and k c ∇c fab is constructed by
+          choosing
+                                                   fab = 2k[a mb] ,                                    (23)
+          where ma is any complex null vector satisfying ma ma = ma k a = 0 and ma ma = 1
+          (where ma is the complex conjugate of ma ), that satisfies
+                                                 k b ∇b ma = α(ν)k a ,                                 (24)
+June 25, 2018    0:25    WSPC/INSTRUCTION FILE                    ijmpd˙go˙paper
+
+
+
+
+          8     Sam R. Dolan
+
+
+          where α(ν) is any scalar function. With the choice α = 0, the vector ma is parallel-
+          propagated along the null generator, k b ∇b ma = 0.
+              Typically, ma is constructed from a pair of legs from an orthonormal triad,
+          e.g. ma = √12 (ea1 + iea2 ), and conversely, ea1 = √12 (ma + ma ) and ea2 =
+          √1 (ma − ma ). The handedness depends on the sign of ω and the handedness of
+            2
+          ma . Henceforth, we shall assume that ma is constructed such that iεabcd ua k b mc md
+          is positive for any future-pointing timelike vector ua . The wave is right-hand polar-
+          ized (left-hand polarized) if the frequency ω is positive (negative).
+              A linear polarization may be constructed by adding together left- and right-
+          handed polarizations, e.g.,
+                                        Fab = 2Ak[a mb] eiκ1 cos (ωΨ + κ2 ) ,
+          where κ1 and κ2 are constants.
+
+          3.2.2. Stress-energy
+          The circular and linearly-polarized fields are null at leading order in ω. This can be
+          seen by inserting Eq. (16) into Eq. (6) to obtain Υ = 0, after noting that fab fab = 0
+          for circularly-polarized waves.
+              Inserting Eq. (21) into Eq. (11) gives a leading-order (in ω) result for the stress-
+          energy,
+                                              1
+                                       Tab = A2 ka kb + O(ω −1 ).                            (25)
+                                              2
+          Again, the stress-energy has the form of a null fluid at leading order. It is
+          straightforward  to show that ∇b Tab = 0 at this order by using flux conservation
+          (∇a A k = 0). The sub-dominant corrections to the stress-energy at O(ω −1 )
+                  2 a
+                      
+
+          and beyond are examined in Ref. 16.
+
+          3.3. Gravitational field
+          Following the pattern of the previous sections, let
+                                               hab = Re Ahab eiωΨ ,
+                                                                 
+                                                                                                       (26)
+          where hab is the polarization. From the Lorenz-gauge condition at leading order,
+          one obtains the transversality condition hab k b = 0. From the wave equation (12),
+          one obtains
+                 − ω 2 k c kc hab + iω [(2k c ∇c A + (∇c k c ) A) hab + Ak c ∇c hab ] + O(ω 0 ) = 0,   (27)
+                                                                                                  a
+          Following the argument of the previous section, we have once again k ∇a A =
+          − 12 ϑA, and the parallel transport of the polarization, viz., k c ∇c hab = 0.
+               The Lorenz gauge leaves a residual freedom; one may add any gauge perturbation
+          with a gauge vector ξa satisfying ξa = 0. A circularly-polarized wave may be con-
+          structed by choosing hab = m(a mb) , where ma is any complex null vector satisfying
+          ma k a = ma ma = 0, ma ma = 1 and the parallel-transport equation k b ∇b ma = 0.
+June 25, 2018   0:25   WSPC/INSTRUCTION FILE                   ijmpd˙go˙paper
+
+
+
+
+            Geometrical optics for scalar, electromagnetic and gravitational waves in curved spacetime   9
+
+
+          4. Gravitational lensing
+          In this section we consider at how the geometrical-optics approximation informs the
+          theory of gravitational lensing.4, 5 The intuitive notion of a beam of neighbouring
+          rays is described by a null congruence. We consider below a parallel-propagated null
+          tetrad defined on a congruence.
+
+
+          4.1. Geodesic deviation
+          4.1.1. A null tetrad
+          In Secs. 3.1 and 3.2 we introduced the (future-pointing) null tangent vector k a
+          and a complex null vector ma = √12 (ea1 + iea2 ). We may complete the null tetrad
+          by introducing an auxiliary null vector na :21 a future-pointing null vector field
+          satisfying ka na = −1 and ma na = 0, such that
+
+                                            εabcd = i4!k [a nb mc md] .                             (28)
+
+          The metric is g ab = −2k (a nb) + 2m(a mb) .
+
+
+          4.1.2. Geodesic deviation
+          Consider two neighbouring geodesics (null, spacelike or timelike), γ0 and γ1 , with
+          spacetime paths xa0 (ν) and xa1 (ν)21 with ν an affine parameter. Between γ0 and
+          γ1 , introduce a one-parameter family of null geodesics xa (ν, s), such that xa0 (ν) =
+          xa (ν, 0) and xa1 (v) = xa (ν, 1). The vector field ua ≡ ∂xa /∂ν is tangent to the
+          geodesics, and thus satisfies ub ∇b ua = 0. The vector field ξ a ≡ ∂xa /∂s spans the
+          family, though it is not tangent to a geodesic, in general. The identity ∂ξ a /∂ν −
+          ∂ua /∂s = 0 (partial derivatives commute) implies that ξ a is Lie-transported along
+          each geodesic, Lu ξ a ≡ ub ∇b ξ a − ξ b ∇b ua = 0. An elementary consequence is that
+           d    a                 a                                                            21
+          dν (ξ ua ) = 0, and so ξ ua is constant along each geodesic. A standard calculation
+                                                                  a
+          shows that the acceleration of the deviation vector ξ is given by
+
+                                           D2 ξ a
+                                                  ≡ uc ∇c ub ∇b ξ a
+                                                                    
+                                           dν 2
+
+                                                  = −Rabcd ub ξ c ud .                              (29)
+
+          This is the geodesic deviation equation, which describes how spacetime curvature
+          leads to a relative acceleration between neighbouring geodesics, even if they start
+          out parallel.21
+              Henceforth we examine the null case with ua = k a . We may express the deviation
+          vector, restricted to a central null geodesic ξ a (ν) = ∂x/∂s|s=0 , in terms of the null
+          basis on that geodesic. Let
+
+                                 ξ a = a(ν)k a + b(ν)na + z(ν)ma + z(ν)m̄a ,                        (30)
+June 25, 2018    0:25   WSPC/INSTRUCTION FILE                 ijmpd˙go˙paper
+
+
+
+
+          10    Sam R. Dolan
+
+
+          where a and b are real and z is complex. After inserting into Eq. (29) and projecting
+          onto the tetrad, one obtains a hierarchical system of equations:
+                                    b̈ = 0,                                                  (31a)
+                                    ä = bRnknk + zRknkm + zRknkm ,                          (31b)
+                                    z̈ = −bRkmkn − zRkmkm − zRkmkm ,                         (31c)
+          where ä ≡ d2 a/dν 2 , etc., and Rkmkm ≡ Rabcd k a mb k c md , etc. Note that Eq. (31a)
+          is consistent with b = −ξ a ka = const., as established above. If one sets b = 0 then
+                                                                    
+                                     ä = (Φ00 + Ψ1 ) z + Φ00 + Ψ1 z,                       (32a)
+                                     z̈ = −Φ00 z − Ψ0 z,                                     (32b)
+           where the Ricci and Weyl scalars are given by Φ00 = 21 Rkk = Rkmkm , Ψ0 =
+          Ckmkm = Rkmkm and Ψ1 = Cknkm (here Ckmkm = Cabcd k a mb k c md , etc.).
+
+
+          4.1.3. Beam cross section
+          The complex value z = √12 (x + iy) corresponds to a point (x, y) on the wave-
+          front with position vector ξˆa = zma + zma , with ma = √1 (ea + ea ), where ea
+                                                                            2   1    2           i
+          are orthogonal unit vectors. If z1 and z2 are any pair of linearly-independent so-
+          lutions of Eq. (32) then z(φ) = cos φ z1 + sin φ z2 , where φ ∈ [−π, π), corresponds
+          to an ellipse in the wavefront. One may show that the principle axes are given
+          by z+ = cos φ0 z1 + sin φ0 z2 and z− = − sin φ0 z1 + cos φ0 z2 , where √ tan(2φ0 ) =
+          2Re(z1 z 2 )/ |z1 |2 − |z2 |2 . The semi-major/semi-minor axes
+                                                                          d ± =   2|z± | are given
+          by d+ d− = 2 |Im(z1 z 2 )| and d2+ + d2− = 2 |z1 |2 + |z2 |2 . It follows that the cross
+          sectional area A = πd+ d− satisfies the transport equation Ȧ = (% + %) A. Compar-
+          ing this with Eq. (19) shows that the square of the wave amplitude, A2 , scales in
+          proportion to the inverse of the cross-sectional area of the beam, A−1 .
+
+
+          4.2. Transport equations for optical & Newman-Penrose scalars
+          4.2.1. Sachs’ equations
+          Now let ż = −ρ(ν)z − σ(ν)z, where ρ(ν) and σ(ν) are complex functions. From
+          Lk ξ a = 0 and b = 0, it follows that ρ = −ma ka;b mb and σ = −ma ka;b mb . (The
+          signs have been chosen here so that ρ and σ are consistent with the usual Newman-
+          Penrose definitions22 ). Inserting into Eq. (32) and equating the coefficients of z and
+          z leads to a pair of first-order transport equations,
+                                              ρ̇ = ρ2 + σσ + Φ00 ,                            (33)
+                                              σ̇ = σ (ρ + ρ) + Ψ0 .                           (34)
+          These are known as the Sachs equations.5 The real and imaginary parts of ρ and σ
+          yield the optical scalars:23–25 −ρ = θ + i$, −σ = ς1 + iς2 , where θ = 21 k a;a , $ and
+          (ς1 , ς2 ) are known as the expansion, twist and shear, respectively. The twist $ is
+June 25, 2018   0:25   WSPC/INSTRUCTION FILE                   ijmpd˙go˙paper
+
+
+
+
+           Geometrical optics for scalar, electromagnetic and gravitational waves in curved spacetime   11
+
+
+          zero for a hypersurface-orthogonal congruence; therefore it is zero for a congruence
+          lying in a constant-phase hypersurface, such as those appearing in geometrical-
+          optics, because ∇[a kb] = ∇[a ∇b] Ψ = 0. Kantowski24 proved that a (2D) wavefront
+          seen by an observer with tangent vector ua has principal curvatures κ± given by
+          κ± = (−ua ka )−1 (θ ± |σ|).
+              A shortcoming of the Sachs equations is that the quantities ρ and σ necessarily
+          diverge at a conjugate point, where neighbouring rays cross. By contrast, the second-
+          order equation (32) does not suffer from divergences. The quantities ρ and σ can
+          be found from any linearly-independent pair of solutions of Eq. (32), z1 and z2 , by
+          solving
+                                                          
+                                         ż1         z1 z 1   ρ
+                                              =−                 .                         (35)
+                                         ż2         z2 z 2   σ
+          The inversion breaks down wherever Im (z1 z 2 ) = 0, i.e., at conjugate points. How-
+          ever, note that z1 and z2 themselves are regular at conjugate points. Thus, by
+          solving second-order equations for z, rather than the first-order Sachs’ equations,
+          we can track ρ and σ through conjugate points.
+
+
+          4.2.2. Newman-Penrose scalars
+          There are further scalar quantities associated with a null congruence. Newman
+          and Penrose22 introduced a set of scalars, defined in terms of projections of first
+          derivatives of the null tetrad legs. One is trivially zero for a geodesic congruence:
+          κ ≡ ma ka;b k b = 0. Two further scalars are zero for a parallel-propagated   tetrad:
+                 a b                       1                  a b
+                                               a b
+                                                                       
+          π ≡ m k ∇b na = 0 and  ≡ − 2 n k ∇b ka − m k ∇b ma . Six further scalars, of
+          relevance to a twist-free geodesic congruence, are defined below:
+
+                             σ = −ma ka;b mb ,                     τ = −ma ka;b nb ,               (36a)
+                                        a       b                          a       b
+                             ρ = −m ka;b m ,                       χ = m ma;b m ,                  (36b)
+                                    a       b                              a       b
+                             µ = m na;b m ,                        λ = m na;b m ,                  (36c)
+
+          where the semi-colon denotes the covariant derivative (ka;b ≡ ∇b ka , etc.).
+              Some identities follow from applying g ab = −k a nb − na k b + ma mb + ma mb
+          together with the fact that ka is a gradient, k[a;b] = 0. For example, ρ is purely
+          real due the twist-free (gradient) property of the null tetrad, and ρ = − 21 ϑ where
+          ϑ = k a;a is the expansion scalar.21 Furthermore,    τ = β + ᾱ in the twist-free case,
+          where α = 21 k a na;b mb − ma ma;b mb and β = 12 ma ma;b mb − na ka;b mb are fur-
+                                                                                      
+
+          ther Newman-Penrose scalars. Instead of using α and β, I have introduced a new
+          symbol, χ ≡ β − α.
+              By noting that ȧ = −nc k b ∇b ξ c = zτ + zτ , one can find the Newman-Penrose
+          quantity τ from a pair of solutions of Eq. (32) by solving
+                                                         
+                                           ȧ1      z1 z 1    τ
+                                                 =               .                           (37)
+                                           ȧ2      z2 z 2    τ
+June 25, 2018    0:25   WSPC/INSTRUCTION FILE                 ijmpd˙go˙paper
+
+
+
+
+          12    Sam R. Dolan
+
+
+          The quantities χ, µ and λ can be found by considering differential precession, as we
+          show below.
+
+
+          4.2.3. Differential precession
+          Consider a congruence of null geodesics (see Sec. 4.1.2) with a 2D cross section seen
+          by an observer with tangent vector ua and worldline γ. The cross section (i.e. the
+          2D instantaneous wavefront) is spanned by a basis ma = √12 (êa1 + iêa2 ) and ma ,
+          such that k a ma = ua ma = 0 and ma ma = 1. It is natural for an observer to
+          choose a basis that is ‘straight’ in their vicinity, in the sense that ξˆb ∇b ma = 0
+                                                                                                 γ
+          for any ξˆa ≡ zma + zma . However, a basis that starts out straight does not remain
+          straight, in general, once it is parallel-propagated along the rays in a geodesic null
+          congruence in the presence of a gravitational field. (See e.g. Ref. 26 for a discussion
+          of differential precession along timelike geodesics.)
+              Let ζ a ≡ ξ b ∇b ma γ , where Lk ξ a = 0 and k b ∇b ka = 0. One may follow steps
+          analogous to those in the derivation of the geodesic deviation equation, Eq. (29), to
+          derive the differential precession equation,
+
+                                            Dζ a
+                                                 = −Rabcd mb ξ c k d .                               (38)
+                                            dv
+
+          Decomposing in the null tetrad, ζ a = αk a + żna + ηma , where α and η are functions
+          of the affine parameter, leads to
+
+                                               α̇ = zΨ2 ,                                         (39a)
+                                                η̇ = zΨ1 − zΨ1 .                                 (39b)
+
+          in a Ricci-flat spacetime, where α = µz + λz, η = zχ − zχ, and µ, λ and χ are
+          Newman-Penrose scalars, and Ψ2 = Cabcd k a mb mc nd . These scalars can be found
+          from any pair of linearly-independent solutions (c1 , α1 , η1 ) and (c2 , α2 , η2 ) satisfying
+          Eqs. (32) and (39b), by inverting
+                                                                             
+                          η1   z 1 z1    χ                        α1          z 1 z1   µ
+                             =                         and                 =              .          (40)
+                          η2   z 2 z2   −χ                        α2          z 2 z2   λ
+
+          As for Eq. (35), this procedure fails at a conjugate point. On the other hand, the
+          functions α and η are regular there, and so it is straightforward to move beyond
+          the conjugate point.
+              Taken together, Eqs. (32), (35), (37), (39) and (40) comprise a practical method,
+          based around transport equations, for calculating the Newman-Penrose scalars ρ,
+          σ, τ , χ, µ and λ for a null tetrad that is parallel-propagated along a null geodesic.
+          By contrast, the traditional transport equations of Newman-Penrose, given below,
+          run into difficulties at the first conjugate point, where the Newman-Penrose scalars
+June 25, 2018   0:25   WSPC/INSTRUCTION FILE                    ijmpd˙go˙paper
+
+
+
+
+           Geometrical optics for scalar, electromagnetic and gravitational waves in curved spacetime   13
+
+
+          diverge:
+                                              ρ̇ = ρ2 + σσ,                                        (41a)
+                                              σ̇ = 2ρσ + Ψ0 ,                                      (41b)
+                                              χ̇ = ρχ − σχ + Ψ1 ,                                  (41c)
+                                              τ̇ = ρτ + στ + Ψ1 ,                                  (41d)
+                                              λ̇ = ρλ + σµ,                                        (41e)
+                                              µ̇ = ρµ + σλ + Ψ2 .                                  (41f)
+
+          4.2.4. Asymptotics
+          In a flat (Minkowki) region of spacetime, the transport equations have exact solu-
+          tions. A general pair of solutions to z̈ = 0 such that ρ is real are z1 = C1 eiφ1 (t + α)
+          and z2 = C2 eiφ2 (t + α), where Ci , φ are real constants and α is a complex constant.
+          Without loss of generality for describing the congruence, we choose C1 = C2 and
+          eiφ2 = ieiφ1 = ei(φ+π/4) . Solving (35) gives
+                   1
+            ρ = − (ν + a + b)−1 + (ν + a − b)−1            = −ν −1 + aν −2 − (a2 + b2 )ν −3 + . . .
+                                                      
+                   2
+                                                                                               (42)
+                e2iφ 
+                      (ν + a + b)−1 − (ν + a − b)−1      = −e2iφ bν −2 − 2abν −3 + . . . , (43)
+                                                                                       
+            σ=
+                 2
+          where a ≡ Re(α) and b = Im(α).
+             By inspection of Eq. (41), we can deduce that, in the limit ν → ∞, the Newman-
+          Penrose coefficients ρ, χ, τ , λ and µ decay as O(ν −1 ); and σ decays as O(ν −2 ).
+
+          4.3. Modified phase
+          In this section we argue that differential precession of the null tetrad across a beam
+          can be interpreted as an additional phase term in the leading-order geometrical-
+          optics expansion. The gradient of that phase can be tentatively interpreted as a spin-
+          deviation contribution to the tangent vector k a at order ω −1 , whose sign depends
+          on the handedness of the polarization.
+              Suppose that the cross section of the congruence is initially circular and the
+          frame ma is initially ‘straight’, as shown in Fig. 1(a). After the congruence has
+          passed through a gravitational field, the cross section will be elliptical, in general;
+          furthermore, the basis will not be straight, as shown in Fig. 1(b), due to differential
+                                                                  1 a
+          precession. An observer with tangent vector U a = 2β       k + βna (where β > 0 is a
+          free parameter) will see a wavefront spanned by m and ma . However, that observer
+                                                              a
+
+          would naturally prefer a ‘straight’ basis m̂a = e−iϕ ma , such that ξˆb ∇b m̂a = 0, where
+          the gradient of the phase is
+                                                ma ∇a ϕ = −iχ,                                      (44)
+          with χ defined in Eq. (36).
+June 25, 2018    0:25   WSPC/INSTRUCTION FILE                    ijmpd˙go˙paper
+
+
+
+
+          14    Sam R. Dolan
+
+
+
+                                                                     (b)
+                        (a)
+
+
+
+
+                    (a) Circular cross section of a beam of rays with a basis ma = √1       ea     b
+                                                                                                       
+          Fig. 1.                                                                            1 + ie2       that is
+                                                                                        2
+          ‘straight’: mb ∇b ma = 0. (b) Elliptical cross section of the same beam after propagating through
+          a gravitational field. The parallel-propagated basis ma has undergone differential precession such
+          that mb ∇b ma 6= 0.
+
+
+             Now consider the geometric optics solution for the Faraday tensor, Eqs. (21)
+          & (23), from the perspective of this observer. With the observer’s preference for a
+          locally-straight basis m̂a = e−iϕ ma , one could write
+
+                               Fab = 2k[a m̂b] A exp (iωΨ0 ) ,      Ψ0 ≡ Ψ + ω −1 ϕ.                         (45)
+
+          The gradient of the modified phase Ψ0 is
+
+                                Ka ≡ ∇a Ψ0 = ka + ω −1 (iχma − iχma + va ) ,                                 (46)
+
+          where va ma = va ma = 0. It is tempting to interpret Ka as an ‘effective’ tangent
+          vector which accounts for the effect of differential precession.Going one step further,
+          we note that one could introduce Ma ≡ eiϕ ma − ω −1 iχna such that K a Ma = 0,
+          leading to 2K[a Mb] = Uab + iχω −1 Wab .
+               It is important to note that the vectors Ka and Ma depend on the choice of
+          null basis, and they are not invariant under the parabolic Lorentz transformation
+          k 0a = k a , m0a = ma − Bk a , n0a = na − Bma − Bma + BBk a , where B is a complex
+          scalar field.
+
+
+          5. Discussion and conclusions
+          Here, we have reviewed the geometrical-optics method and its application to wave
+          equations describing the propagation of scalar, electromagnetic and gravitational
+          waves in a curved spacetime. The method reduces the problem of solving hyper-
+          bolic PDEs to that of solving transport equations (ODEs) along rays, which are
+          the null generators of hypersurfaces of constant phase. In the electromagnetic and
+          gravitational cases, the polarization is parallel-propagated along these rays. This
+June 25, 2018   0:25   WSPC/INSTRUCTION FILE                   ijmpd˙go˙paper
+
+
+
+
+           Geometrical optics for scalar, electromagnetic and gravitational waves in curved spacetime   15
+
+
+          led us on to consider a null tetrad that is parallel-propagated along a ray (i.e. a
+          Sachs basis), and the associated optical scalars and a subset of Newman-Penrose
+          scalars.
+              The cross section of a beam of rays passing through a gravitational field is
+          distorted from a circle to an ellipse, in general (see Fig. 1). The square of the wave
+          amplitude varies in inverse proportional to the cross-sectional area of the beam.
+          At conjugate points, where neighbouring rays cross, the ellipse has zero area – and
+          thus the geometrical-optics amplitude diverges. The standard transport equations
+          in first-order form – i.e. Sachs equations and Newman-Penrose transport equations
+          – break down at the first conjugate point, where the optical scalars diverge.
+              Here we have presented an alternative method, starting from the geodesic devi-
+          ation equation, which mixes second order ODEs and first-order ODEs. The optical
+          scalars (ρ, σ) can be obtained from a pair of complex scalars z1 and z2 which repre-
+          sent deviation vectors in the beam. Note that z1 and z2 are regular at a conjugate
+          point; it is the loss of linear independence in z1 and z2 that causes the divergence
+          of the optical scalars.
+              Taken together, Eqs. (32), (35), (37), (39) and (40) comprise a practical method
+          for calculating the NP scalars ρ, σ, τ , χ, µ and λ along an entire ray. The method
+          does not break down at the first conjugate point encountered; it is merely the case
+          the quantities are ill-defined there.
+              The apparent ‘twisting’ in the polarization of an electromagnetic or gravita-
+          tional wave due to parallel-propagation in a curved spacetime goes by the name of
+          gravitational Faraday rotation, or the Skrotskii/Rytov effect. Here we have also con-
+          sidered differential precession, i.e., the accumulating difference in Faraday rotation
+          between neighbouring rays (see Fig. 1). Differential precession in a constant-phase
+          hypersurface is described by the quantity χ, which is a certain combination of NP
+          scalars: χ = β − α.
+              In our discussion of differential precession we pointed out that a local observer,
+          equipped with a locally-straight basis, will interpret differential precession as an ad-
+          ditional phase in the geometrical-optics expansion at O(ω −1 ). The gradient of the
+          modified phase leads to a modified tangent vector Ka . As the sign of the additional
+          phase follows the handedness of the wave, it appears there is a possible mechanism
+          for left- and right-handed waves to be separated. However, caution is needed: the
+          quantity χ (which is related to the affine connection in the constant-phase hypersur-
+          face) depends on the choice of ‘slicing’. That is, unlike the optical scalars expansion
+          and shear, χ is not invariant under ma → ma − Bk a . These issues are investigated
+          further in Ref. 16, where we examine the higher-order (in ω) corrections to the
+          geometrical-optics expansion, and the associated flow of stress-energy. Work is un-
+          derway to apply these methods to study the ‘spin-helicity effect’ for electromagnetic
+          waves on the Kerr black hole spacetime.13
+June 25, 2018    0:25   WSPC/INSTRUCTION FILE               ijmpd˙go˙paper
+
+
+
+
+          16    Sam R. Dolan
+
+
+          Acknowledgments
+          In honour of Prof. Atsushi Higuchi on the occasion of his 60th birthday. With warm
+          thanks to the organisers of the IV Amazonian Symposium on Physics, held in Belém,
+          Brazil at the Universidade Federal do Pará on 18th–22nd September 2017. Special
+          thanks to Luiz Leite, Luı́s Crispino, Abraham Harte, Antonin Coutant and Jake
+          Shipley for helpful discussions. With additional thanks to the Free University of
+          Sheffield, and Sheffield Central Library, where this work was completed. I acknowl-
+          edge financial support from the Engineering and Physical Sciences Research Council
+          (EPSRC) under Grant No. EP/M025802/1, and from the Science and Technology
+          Facilities Council (STFC) under Grant No. ST/L000520/1, and from the project
+          H2020-MSCA-RISE-2017 Grant FunFiCO-777740.
+
+
+          References
+           1. Virgo, LIGO Scientific Collaboration (B. Abbott et al.), Phys. Rev. Lett. 119 (2017)
+              161101, arXiv:1710.05832 [gr-qc].
+           2. Virgo, Fermi-GBM, INTEGRAL, LIGO Scientific Collaboration (B. P. Abbott et al.),
+              Astrophys. J. 848 (2017) L13, arXiv:1710.05834 [astro-ph.HE].
+           3. J. Kristian and R. K. Sachs, Astrophys. J. 143 (1966) 379, [Gen. Rel.
+              Grav.43,337(2011)].
+           4. S. Seitz, P. Schneider and J. Ehlers, Class. Quant. Grav. 11 (1994) 2345,
+              arXiv:astro-ph/9403056 [astro-ph].
+           5. V. Perlick, Living Rev. Rel. 7 (2004) 9.
+           6. H. Ishihara, M. Takahashi and A. Tomimatsu, Phys. Rev. D38 (1988) 472.
+           7. G. V. Skrotskii, The influence of gravitation on the propagation of light, in Soviet
+              Physics Doklady, (1957), p. 226.
+           8. M. Sereno, MNRAS 356 (January 2005) 381, astro-ph/0410015.
+           9. M. Kline and I. W. Kay, Electromagnetic theory and geometrical optics (John Wiley
+              and Sons, 1965).
+          10. M. Born and E. Wolf, Principles of optics: electromagnetic theory of propagation,
+              interference and diffraction of light (Elsevier, 2013).
+          11. Virgo, LIGO Scientific Collaboration (B. P. Abbott et al.), Annalen Phys. (2016)
+              arXiv:1608.01940 [gr-qc], [Annalen Phys.529,0209(2017)].
+          12. S. R. Dolan, Classical Quantum Gravity 25 (2008) 235002, arXiv:0801.3805 [gr-qc].
+          13. L. C. S. Leite, S. R. Dolan and L. C. B. Crispino, Phys. Lett. B774 (2017) 130,
+              arXiv:1707.01144 [gr-qc].
+          14. J. Ehlers, Zeitschrift für Naturforschung A 22 (1967) 1328.
+          15. A. M. Anile, J. Math. Phys. 17 (1976) 576.
+          16. S. R. Dolan (2018) arXiv:1801.02273 [gr-qc].
+          17. H. Stephani, D. Kramer, M. A. H. MacCallum, C. Hoenselaers and E. Herlt, Exact
+              solutions of Einstein’s field equations (Cambridge University Press, 2004).
+          18. K. A. Dennison and T. W. Baumgarte, Phys. Rev. D86 (2012) 107503,
+              arXiv:1208.1218 [gr-qc].
+          19. P. Dolan and C. Kim, The wave equation for the Lanczos potential. I, in Proc. R.
+              Soc. Lond. A, (1994), pp. 557–575.
+          20. E. Poisson and C. M. Will, Gravity: Newtonian, Post-Newtonian, Relativistic (Cam-
+              bridge University Press, 2014).
+          21. E. Poisson, A relativist’s toolkit: the mathematics of black-hole mechanics (Cambridge
+June 25, 2018   0:25   WSPC/INSTRUCTION FILE                   ijmpd˙go˙paper
+
+
+
+
+           Geometrical optics for scalar, electromagnetic and gravitational waves in curved spacetime   17
+
+
+              University Press, 2004).
+          22. E. Newman and R. Penrose, J. Math. Phys. 3 (1962) 566.
+          23. P. Jordan, J. Ehlers and R. K. Sachs, General Relativity and Gravitation 45 (Dec
+              2013) 2691.
+          24. R. Kantowski, Journal of Mathematical Physics 9 (1968) 336.
+          25. V. P. Frolov and I. D. Novikov (eds.), Black hole physics: Basic concepts and new
+              developments (Springer Netherlands, 1998).
+          26. D. A. Nichols et al., Phys. Rev. D84 (2011) 124014, arXiv:1108.5486 [gr-qc].
+

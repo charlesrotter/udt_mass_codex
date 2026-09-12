@@ -1,0 +1,8 @@
+Traceback (most recent call last):
+  File "/home/udt-admin/udt_mass_codex/udt_optics_bridge_assessment_2026-09-12/check_ob1.py", line 75, in <module>
+    eq('same_event_comparator_order',phase,omega*(Tp-Tm)+bm-bp)
+  File "/home/udt-admin/udt_mass_codex/udt_optics_bridge_assessment_2026-09-12/check_ob1.py", line 19, in eq
+    def eq(name,a,b): ck(name,s.simplify(a-b)==0)
+  File "/home/udt-admin/udt_mass_codex/udt_optics_bridge_assessment_2026-09-12/check_ob1.py", line 17, in ck
+    raise AssertionError(name)
+AssertionError: same_event_comparator_order

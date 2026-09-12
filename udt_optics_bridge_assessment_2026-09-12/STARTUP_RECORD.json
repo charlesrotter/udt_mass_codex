@@ -1,0 +1,15 @@
+{
+  "recorded_utc": "2026-09-12T13:43:53.662169+00:00",
+  "head": "4c56085101da045b8d00732528bb6f99ed0fd8e2",
+  "origin_grok": "4c56085101da045b8d00732528bb6f99ed0fd8e2",
+  "branch": "grok",
+  "original_untracked_count": 46,
+  "original_untracked_name_sha256": "55e7c4508622f912730f9c068cc571c370b3977bc1110eb0a48a8218dbe024c2",
+  "config_model": "gpt-6-astra",
+  "config_effort": "xhigh",
+  "runtime_model": "UNATTESTED",
+  "startup_sequence": "status; checkout grok; fetch origin; pull --ff-only origin grok; status; log -8; actual outputs observed by parent before orientation",
+  "startup_capture": "checks/startup_premise397.*",
+  "backup_completeness": "UNVERIFIED",
+  "pre_reboot_unsaved_state": "UNVERIFIED"
+}

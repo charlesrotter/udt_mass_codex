@@ -1,0 +1,18 @@
+{
+  "status": "FAIL",
+  "guard": "signed_delay_direct_roots",
+  "passed": [
+    "full_raw_determinant",
+    "completed_determinant",
+    "shift_from_raw_metric",
+    "original_density_needed",
+    "scalar_depth",
+    "shift_changes_full_H",
+    "forward_original_null_equation",
+    "reverse_original_null_equation",
+    "forward_root_is_solution",
+    "reverse_root_is_solution",
+    "circle_line_integral"
+  ],
+  "mutant": "delay_sign"
+}

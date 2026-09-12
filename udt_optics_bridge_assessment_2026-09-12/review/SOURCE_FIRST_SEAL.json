@@ -1,0 +1,40 @@
+{
+  "sealed_utc": "2026-09-12T13:56:48.636785+00:00",
+  "context": "/root/ob1_optics_review",
+  "phase": "BEFORE_OB1_CANDIDATE_PROOF_CODE_OUTPUT_EXPOSURE",
+  "source_first_sha256": "de0cc09e7c4abf31d3449af8f827055b0f25b523801381aff46b29f601fc6c6b",
+  "branch": "grok",
+  "head": "4c56085101da045b8d00732528bb6f99ed0fd8e2",
+  "selected_registry_matches": {
+    "G405": true,
+    "G407": true,
+    "G176": true,
+    "G166": true
+  },
+  "source_pin_matches": {
+    "AGENTS.md": true,
+    "CROSS_MODEL_VERIFY.md": true,
+    "CURRENT_SCIENTIFIC_PREMISES.tsv": true,
+    "CURRENT_SCIENTIFIC_PREMISES.md": true,
+    "udt_exact_metric_kernel_expansion_2026-09-10/INITIAL_CANDIDATE.md": true,
+    "udt_exact_metric_kernel_expansion_2026-09-10/review/REVIEW.md": true,
+    "udt_exact_metric_kernel_expansion_2026-09-10/DECISION_BRIEF.md": true,
+    "udt_reviewed_backlog_banking_2026-09-10/BANKING_RECORD.md": true,
+    "udt_reviewed_backlog_banking_2026-09-10/BANKED_CLAIMS.json": true,
+    "udt_tidal_measurement_feasibility_campaign_2026-09-07/step_02/CANDIDATE_ARGUMENT.md": true,
+    "udt_tidal_measurement_feasibility_campaign_2026-09-07/step_02/review/DIRECT_ADVERSARIAL_REVIEW.md": true,
+    "udt_reviewed_backlog_banking_2026-09-10/capture_existing.py": true,
+    "udt_shared_readout_metric_constraint_campaign_2026-09-06/run_capture.py": true,
+    "udt_g176_completed_pair_dual_reciprocity_consolidation_2026-08-19/AUDIT_REPORT.md": true,
+    "udt_g166_primary_metric_ordered_pair_kernel_descent_2026-08-18/AUDIT_REPORT.md": true
+  },
+  "external_source_pin_matches": {
+    "sources/dolan_1806.08617.pdf": true,
+    "sources/dolan_1806.08617.txt": true,
+    "sources/ruggiero_tartaglia_1411.0135v2.pdf": true,
+    "sources/ruggiero_tartaglia_1411.0135v2.txt": true
+  },
+  "runtime_model": "UNATTESTED",
+  "configured_parent_model": "gpt-6-astra/xhigh (attributed, not runtime evidence)",
+  "source_pin_note": "Hash correspondence only; not a claim to have read/reproved every hashed source."
+}

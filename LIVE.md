@@ -1,7 +1,7 @@
 # LIVE — current state only
 
 <!-- STARTUP_CURRENT_BEGIN -->
-## CURRENT STATE — 2026-09-11
+## CURRENT STATE — 2026-09-12
 
 Branch: `grok`. Synchronize; inspect dirt. This block overrides older status.
 
@@ -106,7 +106,7 @@ Protected—do not stage, modify, mine or cite without dispatch:
 
 ### Next gate
 
-G383--G412 exact-scope banking is COMPLETE; G413=TI1 and G414=TI2 conditionally banked; TI3 reviewed conditional UNPROMOTED: INDEX.
+G383--G412 exact-scope banking is COMPLETE; G413=TI1/G414=TI2 conditionally banked; TI3 and OB1 reviewed conditional UNPROMOTED: INDEX.
 G312 membership unclosed; G352 physical-realization: physical identification remains OPEN.
 Stop for lay discussion with Charles; no new campaign is authorized.
 <!-- STARTUP_CURRENT_END -->

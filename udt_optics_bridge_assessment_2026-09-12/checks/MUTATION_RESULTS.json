@@ -1,0 +1,44 @@
+[
+  {
+    "mutant": "delay_sign",
+    "expected_guard": "signed_delay_direct_roots",
+    "actual_guard": "signed_delay_direct_roots",
+    "returncode": 1,
+    "capture": "udt_optics_bridge_assessment_2026-09-12/checks/mutant_delay_sign"
+  },
+  {
+    "mutant": "clock_factor",
+    "expected_guard": "proper_detector_clock",
+    "actual_guard": "proper_detector_clock",
+    "returncode": 1,
+    "capture": "udt_optics_bridge_assessment_2026-09-12/checks/mutant_clock_factor"
+  },
+  {
+    "mutant": "record_density",
+    "expected_guard": "original_density_needed",
+    "actual_guard": "original_density_needed",
+    "returncode": 1,
+    "capture": "udt_optics_bridge_assessment_2026-09-12/checks/mutant_record_density"
+  },
+  {
+    "mutant": "phase_order",
+    "expected_guard": "same_event_comparator_order",
+    "actual_guard": "same_event_comparator_order",
+    "returncode": 1,
+    "capture": "udt_optics_bridge_assessment_2026-09-12/checks/mutant_phase_order"
+  },
+  {
+    "mutant": "wrapped_alias",
+    "expected_guard": "full_alias_preserves_all_three_-3",
+    "actual_guard": "full_alias_preserves_all_three_-3",
+    "returncode": 1,
+    "capture": "udt_optics_bridge_assessment_2026-09-12/checks/mutant_wrapped_alias"
+  },
+  {
+    "mutant": "frequency_error",
+    "expected_guard": "frequency_errors_multiply_delay",
+    "actual_guard": "frequency_errors_multiply_delay",
+    "returncode": 1,
+    "capture": "udt_optics_bridge_assessment_2026-09-12/checks/mutant_frequency_error"
+  }
+]

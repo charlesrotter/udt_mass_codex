@@ -1,0 +1,22 @@
+{
+  "recorded_utc": "2026-09-12T13:43:53.635658+00:00",
+  "baseline": "4c56085101da045b8d00732528bb6f99ed0fd8e2",
+  "pins": {
+    "AGENTS.md": "c11d94f25bf58bf3d1cee6fb6bc886ebfac2d7581f5b794244685019bc00d628",
+    "CROSS_MODEL_VERIFY.md": "2b0509d933d731fbf3f72aa88777a54d3e48a94d4bae3d324087871777f9a007",
+    "CURRENT_SCIENTIFIC_PREMISES.tsv": "2c27fa4b8931672c44b4d778aab0f2a2631c04a5c586358340db1dc763b74f7e",
+    "CURRENT_SCIENTIFIC_PREMISES.md": "7d63e27a32ce19f063e76b8aa9a861039ee5a6d89bbb1536d30e063a889628c3",
+    "udt_exact_metric_kernel_expansion_2026-09-10/INITIAL_CANDIDATE.md": "439bbf545bc11901005bfa96ad154ddab68d3d6a383c358dc787b9eb38584f73",
+    "udt_exact_metric_kernel_expansion_2026-09-10/review/REVIEW.md": "5359bd687245ab0f5d085b430987bf5b2c08321dd9d6f40b4ee1f753a9e586f7",
+    "udt_exact_metric_kernel_expansion_2026-09-10/DECISION_BRIEF.md": "c8eadb6ff788e32bb09964b1331a155e682c1b63235a0a6e06f3cc1d4c3b9b42",
+    "udt_reviewed_backlog_banking_2026-09-10/BANKING_RECORD.md": "654b0b2d734685c42d6a1b31740d545ab9299d17a5d5cc32c57e407b800191f1",
+    "udt_reviewed_backlog_banking_2026-09-10/BANKED_CLAIMS.json": "4b98b1dea6ce9dc0d62f9fa6183c1379aed534989159b45a208dad93fce12c2e",
+    "udt_tidal_measurement_feasibility_campaign_2026-09-07/step_02/CANDIDATE_ARGUMENT.md": "8660e9077d6fb29b041bd5e7d9875c53658b7f8ab5683f60a170d071ead7990b",
+    "udt_tidal_measurement_feasibility_campaign_2026-09-07/step_02/review/DIRECT_ADVERSARIAL_REVIEW.md": "ada25a8f13ed4b68070da695c98bba13f5fd57c1d0794c5d052ef1b32fd03a79",
+    "udt_reviewed_backlog_banking_2026-09-10/capture_existing.py": "1b95a783e861a52cc9fc50d3c76c152cb3673fc9045372afafd30da269ffec3f",
+    "udt_shared_readout_metric_constraint_campaign_2026-09-06/run_capture.py": "8ff5469ace76bdfc84188915242abbf3baff35516f9ee3f9ba4b1cbfeb2573ef",
+    "udt_g176_completed_pair_dual_reciprocity_consolidation_2026-08-19/AUDIT_REPORT.md": "c7c96194a8baf3465b2d8c58ff19051ee2937b4b7f7a5d0e8859ad1a26651d84",
+    "udt_g166_primary_metric_ordered_pair_kernel_descent_2026-08-18/AUDIT_REPORT.md": "3b7bef3e8027eb95dd9070cf8844bfbbba602d4a7ce30c1772bbc540f9e97bd7"
+  },
+  "note": "Hashes authenticate sources; hashing does not claim full reading or reproof."
+}

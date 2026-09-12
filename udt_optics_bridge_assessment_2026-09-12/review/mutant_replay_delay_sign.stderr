@@ -1,0 +1,8 @@
+Traceback (most recent call last):
+  File "/home/udt-admin/udt_mass_codex/udt_optics_bridge_assessment_2026-09-12/check_ob1.py", line 56, in <module>
+    eq('signed_delay_direct_roots',2*s.pi*(plus-minus)/c,pred)
+  File "/home/udt-admin/udt_mass_codex/udt_optics_bridge_assessment_2026-09-12/check_ob1.py", line 19, in eq
+    def eq(name,a,b): ck(name,s.simplify(a-b)==0)
+  File "/home/udt-admin/udt_mass_codex/udt_optics_bridge_assessment_2026-09-12/check_ob1.py", line 17, in ck
+    raise AssertionError(name)
+AssertionError: signed_delay_direct_roots

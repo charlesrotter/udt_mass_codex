@@ -1,0 +1,33 @@
+{
+  "recorded_utc": "2026-09-12T14:11:13.402486+00:00",
+  "pins": {
+    "LIVE.md": "367a6a023268b3efb8ad3f45d38247d4d49f353e7b08f2116fe9eb35f3cc479e",
+    "HANDOFF.md": "02227b8aa456f0cdfa671b3ffddd39bfbf4aa8f4ba384d06703c68bb79dd869e",
+    "CURRENT_RESEARCH_PROGRAM.md": "a006b0cc4e7ca65876b8211500800b939dfb0ebe0f72b88aba5ff967c759fef4",
+    "INDEX.md": "b8ce15ee4aacd8f9e46ca0e856f02b5032d942716ae28f73811b63b6555ab252",
+    "UDT_RESEARCH_ROADMAP.md": "eb6d9ca8e78760a45725363112f39d868d05a8ecdb945db43ee014c029f1c0e1",
+    "CURRENT_SCIENTIFIC_PREMISES.md": "7d63e27a32ce19f063e76b8aa9a861039ee5a6d89bbb1536d30e063a889628c3",
+    "CURRENT_SCIENTIFIC_PREMISES.tsv": "2c27fa4b8931672c44b4d778aab0f2a2631c04a5c586358340db1dc763b74f7e",
+    "verify_current_scientific_premises.py": "5fb6a8891f02e61c14344dc61fb5ed62539170af3cbf9ada132940e64a639074",
+    "tests/test_startup_surface.py": "ab0f7a7b02ad9c378b222e49fbfc67459788a2ccf9afda582a6a1933947bc421",
+    "AGENTS.md": "c11d94f25bf58bf3d1cee6fb6bc886ebfac2d7581f5b794244685019bc00d628"
+  },
+  "mismatches": [],
+  "actual_result": {
+    "command": [
+      "python3",
+      "verify_current_scientific_premises.py"
+    ],
+    "cwd": "/home/udt-admin/udt_mass_codex",
+    "started_utc": "2026-09-12T14:04:07.374205+00:00",
+    "duration_seconds": 402.80235642998014,
+    "returncode": 0,
+    "timeout": false,
+    "address_space_bytes": 2147483648,
+    "cpu_seconds": 900,
+    "maxrss_kib": 120384
+  },
+  "stdout_sha256": "1f5754fac60de94603f5c3aecda2cf2558b05b4f3394a6490cdd44085fc307fa",
+  "empty_stderr": true,
+  "claim": "New actual full397 PASS with selected inputs unchanged through completion; later roadmap wording clarification is separately identified and checked"
+}

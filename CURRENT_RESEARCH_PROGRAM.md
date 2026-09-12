@@ -1,6 +1,6 @@
 # Current UDT research program
 
-Date: 2026-09-11
+Date: 2026-09-12
 
 `LIVE.md` controls status; exact 397-row `CURRENT_SCIENTIFIC_PREMISES.tsv` controls ownership.
 
@@ -112,6 +112,6 @@ Backup completeness/pre-reboot unsaved state remain UNVERIFIED; ScratchDisk is a
 
 ## Current next gate
 
-G383--G412 exact-scope banking is COMPLETE; G413=TI1 and G414=TI2 conditionally banked; TI3 reviewed conditional UNPROMOTED: INDEX.
+G383--G412 exact-scope banking is COMPLETE; G413=TI1/G414=TI2 conditionally banked; TI3 and OB1 reviewed conditional UNPROMOTED: INDEX.
 G312 membership unclosed; G352 physical-realization: physical identification remains OPEN.
 Stop for lay discussion with Charles; no new campaign is authorized.

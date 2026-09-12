@@ -1,0 +1,17 @@
+{
+  "recorded_utc": "2026-09-12T14:08:07.812649+00:00",
+  "source_pins_checked": 15,
+  "source_mismatches": [],
+  "initial_freeze_checked": 53,
+  "initial_mismatches": [],
+  "tracked_changes": [
+    "CURRENT_RESEARCH_PROGRAM.md",
+    "HANDOFF.md",
+    "INDEX.md",
+    "LIVE.md",
+    "UDT_RESEARCH_ROADMAP.md"
+  ],
+  "original_untracked_names": 46,
+  "original_untracked_sha256": "55e7c4508622f912730f9c068cc571c370b3977bc1110eb0a48a8218dbe024c2",
+  "scope": "Names/status and explicitly pinned unprotected files; no protected payload read/hash or backup inference"
+}

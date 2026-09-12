@@ -1,0 +1,32 @@
+{
+  "status": "FAIL",
+  "guard": "full_alias_preserves_all_three_-3",
+  "passed": [
+    "full_raw_determinant",
+    "completed_determinant",
+    "shift_from_raw_metric",
+    "original_density_needed",
+    "scalar_depth",
+    "shift_changes_full_H",
+    "forward_original_null_equation",
+    "reverse_original_null_equation",
+    "forward_root_is_solution",
+    "reverse_root_is_solution",
+    "circle_line_integral",
+    "signed_delay_direct_roots",
+    "proper_detector_clock",
+    "slice_determinant",
+    "same_scalar_at_nonzero_shift",
+    "scalar_omission_has_nonzero_delay",
+    "zero_shift_control",
+    "closed_exact_gradient_invisible",
+    "constant_time_coordinate_invariance",
+    "same_event_comparator_order",
+    "wrapped_second_contrast_exponent",
+    "independent_geometry_prediction_1",
+    "independent_geometry_prediction_2",
+    "constant_instrument_delay_is_blind",
+    "exact_wrapped_prediction"
+  ],
+  "mutant": "wrapped_alias"
+}

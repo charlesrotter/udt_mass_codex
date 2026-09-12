@@ -1,0 +1,22 @@
+{
+  "recorded_utc": "2026-09-12T13:55:22.502420+00:00",
+  "source_pdf": "sources/ruggiero_tartaglia_1411.0135v2.pdf",
+  "command": [
+    "pdftoppm",
+    "-f",
+    "3",
+    "-l",
+    "3",
+    "-singlefile",
+    "-scale-to",
+    "1600",
+    "-png",
+    "udt_optics_bridge_assessment_2026-09-12/sources/ruggiero_tartaglia_1411.0135v2.pdf",
+    "/tmp/ob1_ruggiero_page3"
+  ],
+  "returncode": 0,
+  "rendered_sha256": "919c88b94d69550d1be39c629d0f7715989b8f88f37cb239f26480150925fdc5",
+  "view_image_path": "/tmp/ob1_ruggiero_page3.png",
+  "observed": "Parent visually inspected rendered page3; Eq12 visibly prints sqrt(g00(xP)), without minus. Under declared negative g00, proper clock factor is independently derived as sqrt(-g00)=N. This post-freeze observation supplements the earlier failed web screenshot, without rewriting the initial source record.",
+  "scope": "source-sign check only; not new physical result"
+}

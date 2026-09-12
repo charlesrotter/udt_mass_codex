@@ -1,0 +1,202 @@
+{
+  "recorded_utc": "2026-09-12T14:01:40.872854+00:00",
+  "classification": "same-code regression and deliberate broken-guard replay, not independent scientific confirmation",
+  "records": [
+    {
+      "replay": "author_replay",
+      "source": "author_repaired",
+      "capture": {
+        "command": [
+          "python3",
+          "udt_optics_bridge_assessment_2026-09-12/check_ob1.py"
+        ],
+        "cwd": "/home/udt-admin/udt_mass_codex",
+        "started_utc": "2026-09-12T14:01:17.741342+00:00",
+        "duration_seconds": 0.8519035429926589,
+        "returncode": 0,
+        "timeout": false,
+        "address_space_bytes": 2147483648,
+        "cpu_seconds": 180,
+        "maxrss_kib": 52172
+      },
+      "actual_status": "PASS",
+      "actual_guard": null,
+      "expected_guard": null,
+      "stdout_byte_identical": true,
+      "stderr_empty": true
+    },
+    {
+      "replay": "original_failure_replay",
+      "source": "author_initial",
+      "capture": {
+        "command": [
+          "python3",
+          "udt_optics_bridge_assessment_2026-09-12/checks/author_initial_failed_code.py"
+        ],
+        "cwd": "/home/udt-admin/udt_mass_codex",
+        "started_utc": "2026-09-12T14:01:18.659605+00:00",
+        "duration_seconds": 0.5963167829904705,
+        "returncode": 1,
+        "timeout": false,
+        "address_space_bytes": 2147483648,
+        "cpu_seconds": 180,
+        "maxrss_kib": 60920
+      },
+      "actual_status": "FAIL",
+      "actual_guard": "forward_root_is_solution",
+      "expected_guard": "forward_root_is_solution",
+      "stdout_byte_identical": true,
+      "stderr_empty": false
+    },
+    {
+      "replay": "mutant_replay_delay_sign",
+      "source": "mutant_delay_sign",
+      "capture": {
+        "command": [
+          "python3",
+          "udt_optics_bridge_assessment_2026-09-12/check_ob1.py",
+          "--mutant",
+          "delay_sign"
+        ],
+        "cwd": "/home/udt-admin/udt_mass_codex",
+        "started_utc": "2026-09-12T14:01:19.319328+00:00",
+        "duration_seconds": 0.6586389970034361,
+        "returncode": 1,
+        "timeout": false,
+        "address_space_bytes": 2147483648,
+        "cpu_seconds": 180,
+        "maxrss_kib": 62196
+      },
+      "actual_status": "FAIL",
+      "actual_guard": "signed_delay_direct_roots",
+      "expected_guard": "signed_delay_direct_roots",
+      "stdout_byte_identical": true,
+      "stderr_empty": false
+    },
+    {
+      "replay": "mutant_replay_clock_factor",
+      "source": "mutant_clock_factor",
+      "capture": {
+        "command": [
+          "python3",
+          "udt_optics_bridge_assessment_2026-09-12/check_ob1.py",
+          "--mutant",
+          "clock_factor"
+        ],
+        "cwd": "/home/udt-admin/udt_mass_codex",
+        "started_utc": "2026-09-12T14:01:20.059307+00:00",
+        "duration_seconds": 0.6450866449740715,
+        "returncode": 1,
+        "timeout": false,
+        "address_space_bytes": 2147483648,
+        "cpu_seconds": 180,
+        "maxrss_kib": 61864
+      },
+      "actual_status": "FAIL",
+      "actual_guard": "proper_detector_clock",
+      "expected_guard": "proper_detector_clock",
+      "stdout_byte_identical": true,
+      "stderr_empty": false
+    },
+    {
+      "replay": "mutant_replay_record_density",
+      "source": "mutant_record_density",
+      "capture": {
+        "command": [
+          "python3",
+          "udt_optics_bridge_assessment_2026-09-12/check_ob1.py",
+          "--mutant",
+          "record_density"
+        ],
+        "cwd": "/home/udt-admin/udt_mass_codex",
+        "started_utc": "2026-09-12T14:01:20.783283+00:00",
+        "duration_seconds": 0.25960762897739187,
+        "returncode": 1,
+        "timeout": false,
+        "address_space_bytes": 2147483648,
+        "cpu_seconds": 180,
+        "maxrss_kib": 60012
+      },
+      "actual_status": "FAIL",
+      "actual_guard": "original_density_needed",
+      "expected_guard": "original_density_needed",
+      "stdout_byte_identical": true,
+      "stderr_empty": false
+    },
+    {
+      "replay": "mutant_replay_phase_order",
+      "source": "mutant_phase_order",
+      "capture": {
+        "command": [
+          "python3",
+          "udt_optics_bridge_assessment_2026-09-12/check_ob1.py",
+          "--mutant",
+          "phase_order"
+        ],
+        "cwd": "/home/udt-admin/udt_mass_codex",
+        "started_utc": "2026-09-12T14:01:21.106337+00:00",
+        "duration_seconds": 0.8438142210361548,
+        "returncode": 1,
+        "timeout": false,
+        "address_space_bytes": 2147483648,
+        "cpu_seconds": 180,
+        "maxrss_kib": 62952
+      },
+      "actual_status": "FAIL",
+      "actual_guard": "same_event_comparator_order",
+      "expected_guard": "same_event_comparator_order",
+      "stdout_byte_identical": true,
+      "stderr_empty": false
+    },
+    {
+      "replay": "mutant_replay_wrapped_alias",
+      "source": "mutant_wrapped_alias",
+      "capture": {
+        "command": [
+          "python3",
+          "udt_optics_bridge_assessment_2026-09-12/check_ob1.py",
+          "--mutant",
+          "wrapped_alias"
+        ],
+        "cwd": "/home/udt-admin/udt_mass_codex",
+        "started_utc": "2026-09-12T14:01:22.011490+00:00",
+        "duration_seconds": 0.85117318702396,
+        "returncode": 1,
+        "timeout": false,
+        "address_space_bytes": 2147483648,
+        "cpu_seconds": 180,
+        "maxrss_kib": 63556
+      },
+      "actual_status": "FAIL",
+      "actual_guard": "full_alias_preserves_all_three_-3",
+      "expected_guard": "full_alias_preserves_all_three_-3",
+      "stdout_byte_identical": true,
+      "stderr_empty": false
+    },
+    {
+      "replay": "mutant_replay_frequency_error",
+      "source": "mutant_frequency_error",
+      "capture": {
+        "command": [
+          "python3",
+          "udt_optics_bridge_assessment_2026-09-12/check_ob1.py",
+          "--mutant",
+          "frequency_error"
+        ],
+        "cwd": "/home/udt-admin/udt_mass_codex",
+        "started_utc": "2026-09-12T14:01:22.925149+00:00",
+        "duration_seconds": 0.8368367640068755,
+        "returncode": 1,
+        "timeout": false,
+        "address_space_bytes": 2147483648,
+        "cpu_seconds": 180,
+        "maxrss_kib": 63500
+      },
+      "actual_status": "FAIL",
+      "actual_guard": "frequency_errors_multiply_delay",
+      "expected_guard": "frequency_errors_multiply_delay",
+      "stdout_byte_identical": true,
+      "stderr_empty": false
+    }
+  ]
+}

@@ -1,0 +1,6 @@
+Traceback (most recent call last):
+  File "/home/udt-admin/udt_mass_codex/udt_optics_bridge_assessment_2026-09-12/check_ob1.py", line 93, in <module>
+    ck(f'full_alias_preserves_all_three_{alias}',not equal if args.mutant=='wrapped_alias' else equal)
+  File "/home/udt-admin/udt_mass_codex/udt_optics_bridge_assessment_2026-09-12/check_ob1.py", line 17, in ck
+    raise AssertionError(name)
+AssertionError: full_alias_preserves_all_three_-3

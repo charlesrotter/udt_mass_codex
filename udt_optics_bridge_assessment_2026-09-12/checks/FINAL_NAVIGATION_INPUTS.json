@@ -1,0 +1,14 @@
+{
+  "recorded_utc": "2026-09-12T14:12:47.714344+00:00",
+  "result": "359 passed, 1 deselected; full397 ran separately",
+  "pins": {
+    "LIVE.md": "367a6a023268b3efb8ad3f45d38247d4d49f353e7b08f2116fe9eb35f3cc479e",
+    "HANDOFF.md": "02227b8aa456f0cdfa671b3ffddd39bfbf4aa8f4ba384d06703c68bb79dd869e",
+    "CURRENT_RESEARCH_PROGRAM.md": "a006b0cc4e7ca65876b8211500800b939dfb0ebe0f72b88aba5ff967c759fef4",
+    "INDEX.md": "b8ce15ee4aacd8f9e46ca0e856f02b5032d942716ae28f73811b63b6555ab252",
+    "UDT_RESEARCH_ROADMAP.md": "ceb09ec6ff5bcca33e947d621d0134c0a2601d43b53b87f36c7a41a871520d1c",
+    "tests/test_startup_surface.py": "ab0f7a7b02ad9c378b222e49fbfc67459788a2ccf9afda582a6a1933947bc421",
+    "verify_current_scientific_premises.py": "5fb6a8891f02e61c14344dc61fb5ed62539170af3cbf9ada132940e64a639074"
+  },
+  "note": "These final bytes include the post-full397 roadmap wording clarification; no scientific or registry change."
+}

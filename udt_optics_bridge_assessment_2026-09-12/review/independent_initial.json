@@ -1,0 +1,14 @@
+{
+  "command": [
+    "python3",
+    "udt_optics_bridge_assessment_2026-09-12/review/independent_ob1.py"
+  ],
+  "cwd": "/home/udt-admin/udt_mass_codex",
+  "started_utc": "2026-09-12T14:00:24.112377+00:00",
+  "duration_seconds": 0.4021745689678937,
+  "returncode": 0,
+  "timeout": false,
+  "address_space_bytes": 2147483648,
+  "cpu_seconds": 180,
+  "maxrss_kib": 51084
+}

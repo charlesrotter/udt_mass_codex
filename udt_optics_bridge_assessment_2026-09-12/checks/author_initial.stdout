@@ -1,0 +1,15 @@
+{
+  "status": "FAIL",
+  "guard": "forward_root_is_solution",
+  "passed": [
+    "full_raw_determinant",
+    "completed_determinant",
+    "shift_from_raw_metric",
+    "original_density_needed",
+    "scalar_depth",
+    "shift_changes_full_H",
+    "forward_original_null_equation",
+    "reverse_original_null_equation"
+  ],
+  "mutant": null
+}

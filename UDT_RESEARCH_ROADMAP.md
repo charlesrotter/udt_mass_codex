@@ -261,6 +261,7 @@ authorization. A coverage row is not a completeness theorem or a scientific prem
 | Joint realization, stage3 | ER1's finite marked-record recipe COMPLETE at reviewed scope | Six common directional records plus density and derivatives; SPD/shift coherence and actual shared immersions; no physical pair population or arbitrary-network theorem |
 | Conditional nonlinear developments, stage4 | G413=TI1 conditionally banked at full reviewed scope | `udt_two_shape_nonlinear_interaction_2026-09-11/REVIEWED_RESULT.md` and its `review/REVIEW.md`: complete analytic Ric=0 data/developments, initial mixed curvature distinction, phase/completion controls and retained-density join; no native equation adoption or later generated coupling |
 | Reach/persistence, stage5 | G414=TI2 banked; TI3 COMPLETE, reviewed conditional UNPROMOTED | `udt_two_shape_profile_dependence_2026-09-11/REVIEWED_RESULT.md` and its `review/REVIEW.md`: broader profiles, full local-development interface, opposite initial magnitude changes, point zeros, profile-dependent reference and second/third record-jet distinction; all equation/marking/local limits remain |
+| Parallel measurement/interface, stage2 bridge | OB1 reviewed conditional UNPROMOTED | `udt_optics_bridge_assessment_2026-09-12/REVIEWED_RESULT.md` and its `review/REVIEW.md`: one stationary-loop full-record/ideal-optical-phase join, unused wrapped predictions and calibration blind spaces; no qualified instrument or native light law |
 
 ER1 returned the reviewed conditional result, actual witness/record compatibility and lay brief;
 its exact execution and final fidelity receipts are in that package. The two-hour research authorization
@@ -331,12 +332,32 @@ anchor implementation and a new actual full397 premise audit passed. CLOSEOUT.md
 navigation evidence; later publication receipts will own actual publication. The initial candidate
 and original science remain fixed.
 
-Next decision is discussion of that promotion and the next restriction worth testing. The
-remaining supplied choices include flat initial geometry, equation, observer and short time
-extent; a future bounded proposal must identify its actual new question and full review cycle.
-No automatic successor is authorized. Native equation/assembly questions remain parallel open
-work; additional conditional Ric=0 examples cannot alone establish that native join. The fixed
-through-G352 manuscript remains unchanged. Stop for lay discussion with Charles.
+Charles separately authorized the two-hour optics-bridge feasibility study on2026-09-12:
+`udt_optics_bridge_assessment_2026-09-12/WORK_ORDER.md`, launch13:31:25UTC, hard return15:31:25UTC.
+OB1 returned VERIFIED-WITH-CAVEATS, conditional UNPROMOTED, after one new fresh source-first/direct
+review. The full candidate, source-preserving clarifications, REVIEWED_RESULT.md, DECISION_BRIEF.md
+and CLOSEOUT.md in that package own exact hypotheses, checks and execution. Standard optics is
+an explicitly supplied bridge, not a native law. Retained full marked records can predict one
+loop phase; identical scalar depths need not. An independent geometric delay leaves unused
+optical predictions. Fitting the delay from those readings instead leaves a useful wrapped
+interface check but cannot isolate geometry from an unknown fixed instrument delay. A
+frequency-error budget requires a bound on TOTAL effective delay. No actual device or UDT signature follows.
+
+Disposition: hold OB1 and TI3 for Charles's separate exact-scope promotion and normal banking
+checks; mathematical review has passed. Keep OB1 witnesses and five computation mutations plus
+one deliberately false alias assertion as controls. Its initial checker failure and reporting
+clarifications are preserved, with no mathematical candidate repair. Real optical transfer,
+independent calibration and finite error support are distinct missing device-eligibility gates.
+Conditional mathematics need not wait for physical identification. No promotion occurred here.
+
+Next decision is discussion of those promotions, a bounded documentary eligibility assessment
+for one optical instrument/data specification, or the next metric restriction worth testing.
+OB1's brief gives a proposed90minute review/repair scope; it is not authorized. The nonlinear
+line still has supplied flat initial geometry, equation, observer and short time extent; a
+successor must identify its actual new question and full review cycle. Native equation/assembly
+questions remain parallel open work; additional conditional Ric=0 examples cannot alone establish
+that native join. The fixed through-G352 manuscript is unchanged. No automatic successor is
+authorized. Stop for lay discussion with Charles after OB1's recorded evidence closeout.
 
 ### What the concern means
 

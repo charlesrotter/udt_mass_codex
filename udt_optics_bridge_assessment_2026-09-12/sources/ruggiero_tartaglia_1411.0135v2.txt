@@ -1,0 +1,299 @@
+                                                                       A Note on the Sagnac Effect for Matter Beams
+                                                                                Matteo Luca Ruggiero∗ and Angelo Tartaglia†
+                                                                   DISAT, Politecnico di Torino, Corso Duca degli Abruzzi 24, Torino, Italy
+                                                                        INFN, Sezione di Torino, Via Pietro Giuria 1, Torino, Italy
+                                                                                           (Dated: March 28, 2022)
+                                                        We study the Sagnac effect for matter beams, in order to estimate the kinematic corrections to
+                                                      the basic formula, deriving from the position and the extent of the interferometer, and discuss the
+                                                      analogy with the Aharonov-Bohm effect. We show that the formula for the Sagnac time delay is
+                                                      the same for matter and light beams in arbitrary stationary space-times, provided that a suitable
+                                                      condition on the speed of the beams is fulfilled. Hence, the same results obtained for light beams
+                                                      apply to matter beams.
+arXiv:1411.0135v2 [gr-qc] 9 Apr 2015
+
+
+
+
+                                                                                          I.   INTRODUCTION
+
+                                          In a recent paper [1] we studied the Sagnac effect [2, 3] for light rays, in order to evaluate if the higher order
+                                       relativistic corrections of kinematic origin could be relevant for actual terrestrial experiments (e.g. [4, 5]): in particular,
+                                       we focused on the role of the position and extent of the interferometer in the rotating frame, and discussed the
+                                       analogy with the Aharonov-Bohm effect. We showed that the analogy with the Aharonov-Bohm effect is true to
+                                       lowest approximation order only, and that the influence of position and extent of the interferometer is negligible for
+                                       current experiments. So, for actual experiments, the Sagnac time delay, i.e. the difference between the propagation
+                                       times of the co-rotating and counter-rotating beam, as measured by an observer at rest in the rotating frame, can be
+                                       safely written as
+                                                                                                         Ω·S
+                                                                                                ∆t = 4                                                            (1)
+                                                                                                          c2
+                                       in terms of Ω, the (constant) rotation rate of the interferometer with respect to an inertial frame, and S, the vector
+                                       associated to the area enclosed by the light path.
+                                         In this paper we want to show that the same results hold true for matter beams, i.e. for (time-like) particles
+                                       propagating along opposite directions in a uniformly rotating interferometer. The key point is the validity of the
+                                       Sagnac time delay formula independently of the physical nature of the interfering beams: in previous works (see [6, 7]
+                                       and references therein), one of us discussed this issue (the so called “universality” of the Sagnac effect) in the case of
+                                       matter and light beams propagating in a circular interferometer, in flat space-time. A more general approach, that
+                                       can be used also in curved space-time, was carried out in [8]. Here, we first rephrase the latter approach in order
+                                       to show that, in arbitrary stationary space-time, the Sagnac effect does not depend on the physical nature of the
+                                       propagating beams, provided that suitable kinematic conditions are fulfilled, and then we generalize the results of the
+                                       previous paper [1] to matter beams.
+
+
+                                                                     II.   PROPAGATION TIMES AND THE SAGNAC EFFECT
+
+                                          The physical situation that we are going to consider is the following one. An interferometer is at rest in a reference
+                                       frame (the interferometer frame) and it simultaneously emits two beams: they propagate in opposite directions along
+                                       the same path and reach the emission point at different times: we call Sagnac time delay the proper time difference
+                                       between the two times of arrival, measured in the interferometer frame.
+                                          Actually, the interferometer frame could be just a rotating frame, such as a turntable in the laboratory, or a more
+                                       general frame, such as a terrestrial laboratory, where the rotation effects have both kinematic and gravitational origin.
+                                       In any case, in the interferometer frame we choose a set of adapted coordinates {xµ } = {x0 , xi } = {ct, x} and we
+
+
+
+                                       ∗ Electronic address: matteo.ruggiero@polito.it
+                                       † Electronic address: angelo.tartaglia@polito.it
+                                                                                                                                  2
+
+write the squared line-element in the form1
+
+                                           ds2 = g00 c2 dt2 + 2g0i cdtdxi + gij dxi dxj                                         (2)
+
+The space-time metric does not depend on time because of stationarity, so that gµν = gµν (x); we choose the signature
+(−, +, +, +), so that g00 < 0. The above metric is not time-orthogonal, because g0i 6= 0. Actually, the off-diagonal
+terms g0i depend both on the global configuration of the space-time and on the rotational features of the reference
+frame: in the case of a rotating frame in flat space-time, they depend on the rotation rate; more in general, they
+express the rotation rate of the frame with respect to a Fermi-Walker tetrad (see e.g. [9]). As a consequence, we can
+speak of Sagnac effect for a space-time in the form (2) because of its rotational features.
+   In what follows, we study time-like (for matter beams) and light-like (for light beams) particles, moving in the
+space-time metric (2), to calculate the time elapsed for a complete round trip in the interferometer path. To this end,
+we have to impose some condition to say that the particles propagating in the two opposite directions are identical
+but differ only for the direction of propagation: this is naively related to their speed. However, the coordinate
+              dxi
+speed wi =          has not a direct physical meaning. If we want to give an operational meaning (i.e. in terms of
+               dt
+observable quantities) to the speed of a particle, we may proceed as follows. Let us consider the coordinate point of
+the interferometer frame, occupied by the particle at a given time; we introduce an inertial frame, relative to which
+the point is at rest: this is the so-called Locally Co-Moving Inertial Frame (LCIF). In this frame, the proper element of
+distance dσ and time dT can be defined in terms of the metric elements and coordinates intervals in the interferometer
+frame by (see [7, 10])
+                                                                       1 gµ0
+                                                q
+                                          dσ = γij dxi dxj , dT = − √           dxµ                                  (3)
+                                                                       c −g00
+                              
+                       gi0 gj0
+where γij = gij −               . Indeed, on using these expressions, the line-element (2) is locally Minkowskian in the
+                        g00
+form:
+
+                                                       ds2 = dσ 2 − c2 dT 2                                                     (4)
+                                                                                  dσ
+   In the LCIF an observer attributes to a particle a speed of magnitude v = dT      , i.e. the ratio between the proper
+element of distance dσ, traveled in a proper time interval dT , and dT . In doing so, we have been able to introduce the
+particle speed v, which has a well defined operational meaning and which will be important to fix a natural condition
+on the properties of the two counter propagating beams, as we are going to discuss.
+   On substituting in (4), we get
+
+                                                  c2                c2
+                                                                    
+                                      ds = 1 − 2 dσ = 1 − 2 γij dxi dxj
+                                        2                2
+                                                                                                                     (5)
+                                                  v                 v
+
+and from (2) we obtain
+
+                                       c2
+                                         
+                                    1 − 2 γij dxi dxj = g00 c2 dt2 + 2g0i cdtdxi + gij dxi dxj                                  (6)
+                                       v
+                                                                                                 .
+   Eq. (6) can be solved for the coordinate time interval dt; to this end, we introduce β = v/c. Notice that for
+                                   2
+light-like particles, on setting ds = 0, we get β = 1, in agreement with the second postulate of special relativity, and
+the left hand side of Equation (6) is equal to zero. On using the definition of γij , Eq. (6) now reads
+                                                                                 
+                                                            i    1        gi0 gj0
+                                            2 2
+                                   0 = g00 c dt + 2g0i cdtdx +      γij +           dxi dxj                           (7)
+                                                                 β2        g00
+from which we obtain the two solutions
+                                                                                    
+                                                   1             1
+                                                                   q
+                                                              i                 i  j
+                                         dt± =          g0i dx ±    |g00 |γij dx dx                                             (8)
+                                               |g00 |c           β
+
+
+
+1 We use the following notation:   Greek (running from 0 to 3) and Latin (running from 1 to 3) indices denote space-time and spatial
+  components, respectively; letters in boldface like x indicate spatial vectors.
+                                                                                                                         3
+
+Once that the propagation path is known, (8) can be integrated to obtain the coordinate time interval. Remember
+that we are interested in the future oriented branch of the light cone: hence we obtain two solutions, corresponding to
+the propagation times along opposite directions in the path. We notice that the properties of the propagating particles
+(that depend on their physical nature) appear in (8) through the coefficient 1/β. The coordinate time intervals for
+the propagation in two opposite directions in the same path ℓ can be written as
+                                                   I                 I
+                                              t+ = dt+ , t− = − dt−                                                 (9)
+                                                     ℓ                 ℓ
+
+So, the difference between the co-rotating (t+ ) and counter-rotating (t− ) propagation times turns out to be
+                                                            I
+                                            ∆t = t+ − t− = (dt+ + dt− )                                               (10)
+                                                               ℓ
+
+This expression simplifies if we assume that the speed v (or equivalently β) is a function only of the position along
+the path; the case v = constant along the path is a particular sub-case. This amounts to saying that, in any LCIF
+along the path, the co-rotating and the counter-rotating beam have the same velocity v in opposite directions. We
+remark that this assumption naturally generalizes the equal velocity in opposite directions condition that was used in
+[6, 7], for beams propagating in flat space-time along the rim of a circular interferometer.
+   If this condition is fulfilled the coefficient in the second term in (8) is the same for both the co-rotating and the
+counter-rotating beam, so that this term cancels out and we obtain
+                                                          2   g0i dxi     2 g0i dxi
+                                                            I              I
+                                        ∆t = t+ − t− =                =−                                            (11)
+                                                          c ℓ |g00 |      c ℓ g00
+   Of course the particles take different times for propagating along the path, depending on their speed, but what
+we have just shown is that the difference between these times is always given by eq. (11), in any stationary space-
+time, and for arbitrary paths, both for matter and light particles, independently of their physical nature. We remark
+that this result is experimentally well tested (see e.g. [11–15]), and hard to grasp in classical physics: rather, it
+can be explained in space-time of both special and general relativity, and it is related to the issue of the round-trip
+synchronization in frames that are not time-orthogonal. Notice, in fact, that the above condition on the particles
+speed holds in a LCIF, where clocks are Einstein-synchronized [7, 16].
+   Once that the coordinate time difference is known, it is possibile to proceed as in our previous paper [1]: indeed, eq.
+(11) is the same as eq. (5) of that paper. So we can rephrase the whole discussion, which we summarize as follows.
+   If the interferometer is located at P , on emphasizing the spatial dependence of the metric elements, the proper time
+difference that expresses the Sagnac time delay is
+                                                     2p              g0i (x) i
+                                                                   I
+                                              ∆τ = −     g00 (xP )           dx                                      (12)
+                                                     c              ℓ 00 (x)
+                                                                     g
+It is possible to write this result in terms of area enclosed by the path of the beams; to this end, it is useful to define
+                        .                                    .     1
+the vector field h(x) = g0i (x), and the scalar field ϕ(x) =            , by which we may write the Sagnac time delay in
+                                                                g00 (x)
+the form
+                                                          s
+                                                        2      1
+                                                                     I
+                                               ∆τ = −                  ϕh · dx                                         (13)
+                                                        c ϕ(xP ) ℓ
+
+The application of the Stokes theorem and of vector identities allows to write the integral in (13) in the form
+                                          I            Z
+                                             ϕh · dl =    [∇ ∧ (ϕh)] · dS                                             (14)
+                                               ℓ           S
+
+where S is the area vector of the surface enclosed by the path of the beams. On using vector identities and setting
+b(x) = ∇ ∧ h(x), we eventually obtain
+                                s                                   s
+                              2     1                             2     1
+                                         Z                                  Z
+                     ∆τ = −                 [∇ϕ(x) ∧ h(x)] · dS −             [ϕ(x)b(x)] · dS                  (15)
+                              c ϕ(xP ) S                          c ϕ(xP ) S
+
+   The latter expression is the general form of the Sagnac Effect, for both matter and light beams, in terms of surface
+integrals. We point out that the analogy with the Aharonov-Bohm effect (see [17] and references therein), according
+                                                                                                                        4
+
+to which the Sagnac effect can be described in terms of the flux of the field b(x) across the interferometer area, is
+true only if ϕ(x) is constant over S or its change is negligibly small. Moreover, it is important to emphasize that, in
+the case of the Aharonov-Bohm effect, the magnetic field is null along the trajectories of the particles, while in the
+Sagnac effect the field b(x) is not null.
+   Eq. (15) applies to arbitrary stationary space-times, provided that the above condition “equal velocity in opposite
+directions” is fulfilled. In particular, it can be applied for evaluating the kinematic effects (i.e. neglecting the
+gravitational ones, which are much smaller, see e.g. [4]) for an interferometer at rest on the Earth surface: the
+kinematics of the Sagnac Effect is due to the terrestrial diurnal rotation. As we have shown in [1], choosing the origin
+in correspondence of the device (i.e. xP = 0) and neglecting corrections quadratically depending on the displacements
+from the origin, we obtain the following expression:
+                                                                    Z "          #
+                                          4                      4
+                                            Z
+                                                                            Ω
+                                  ∆τ = 4      [Ω (A · x)] · dS − 2                 · dS                             (16)
+                                         c S                     c S 1 + 2 A·xc2
+
+where A is the spatial projection of the device four-acceleration (with respect to the background inertial frame), and
+Ω is the generalized rotation rate of the frame (with respect to a Fermi-Walker transported tetrad). It is then manifest
+that the Sagnac effect depends, in general, both (i) on the position of the interferometer in the rotating frame through
+the acceleration A (whose expression, in this specific case, is related to the laboratory location on the Earth) and (ii)
+on the interferometer size, since the integrands in (16) are not constant across the interferometer area.
+  However, a straightforward estimate allows to check that these effects are negligibly small for terrestrial experiments,
+as we have shown in [1]: if R⊕ is the terrestrial radius, Ω⊕ is the terrestrial rotation rate (as measured in an
+                                                                                            . 1               1
+asymptotically flat inertial frame) we may introduce the dimensionless parameter ε = 2 A · x ≃ 2 Ω2⊕ R⊕ L ≃
+                                                                                             c             c
+              L
+4 × 10−19          where L is the linear size of the interferometer. Then, the zeroth order in ε approximation of eq.
+            1m
+(16) is
+
+                                                4               4                 4
+                                                  Z                Z
+                                ∆τ = ∆τ0 = − 2       Ω · dS = 2       Ω⊕ · dS = 2 Ω⊕ · S                              (17)
+                                                c S             c S              c
+
+that is the original Sagnac formula (1) as expected, and the analogy with the Aharonov-Bohm effect holds true.
+Higher order corrections are definitely negligible.
+
+
+                                                III.   CONCLUSIONS
+
+   We focused on the Sagnac effect for matter beams, to evaluate the higher-order corrections of kinematic origin
+to the basic time delay formula (1), with the aim of generalizing the results that we obtained for light beams in a
+previous work. To this end, we showed that the difference between the propagation times of two matter beams moving
+in opposite directions along a closed spatial path is the same, independently of the nature of the beams, provided
+that (i) the space-time metric in the laboratory is stationary and (ii) the speed of the beams in the two opposite
+directions (as measured in a LCIF) is the same at any position along the path. In particular, this time difference is
+the same both for matter and light beams, and it is simply related to the time gap arising in non time-orthogonal
+frames. Actually, we focused on the kinematic aspects: in other words we considered propagation times of particles
+representative of the interfering beams. For light beams, dynamic aspects are properly studied by solving the Maxwell
+equations (see e.g. [18]); as for matter beams, quantum mechanical wave equations are needed (see e.g. [19]). It is
+worthwhile mentioning that, in order to properly speak of interference, we must obtain a phase difference: in other
+words, a frequency is needed: we can naturally attribute a frequency to light beams, while for matter beams we have
+to consider the de Broglie waves frequencies, even though some subtleties must be taken into account (see e.g. [8, 20]).
+   On the basis of our results, we wrote an exact expression of the Sagnac effect in terms of surface integrals across the
+interferometer area, valid in arbitrary stationary space-time, which enabled us to investigate the role of the position
+and size of the interferometer and to discuss the analogy with the Aharonov-Bohm effect. Of course, the same
+conclusions of our previous paper [1] apply: (i) in general, the Sagnac effect is influenced by both the position of the
+interferometer in the rotating frame and its extent; (ii) the analogy with Aharonov-Bohm effect holds true to lowest
+approximation order only. However, in actual experimental situations, the higher order corrections are negligible and
+the effect is safely described by the expression (1), both for matter and light beams. In this approximation the analogy
+                                                                                                                               5
+
+with the Aharonov-Bohm effect can be applied, even though the two effects are quite different in general.
+
+
+
+
+ [1] Ruggiero M.L, Tartaglia A., Eur. Phys. J. Plus 129: 126, (2014)
+ [2] Sagnac G., C.R. Acad. Sci. Paris, 141, 1220 (1905)
+ [3] Sagnac G., C.R. Acad. Sci. Paris, 157, 708 (1913), the English translation can be found in in Relativity in Rotating Frames,
+     eds. Rizzi G. and Ruggiero M.L., in the series “Fundamental Theories of Physics”, ed. Van der Merwe A., Kluwer Academic
+     Publishers, Dordrecht, (2003)
+ [4] Bosi, F. et al., , Phys. Rev. D 84, 122002 (2011)
+ [5] Allegrini M. et al., Journal of Physics: Conference Series, 375, 062005 (2012)
+ [6] Rizzi G., Ruggiero M.L., Gen. Rel. Grav. 35, 2129 (2003)
+ [7] Rizzi G. and Ruggiero M.L, Chapter 10 in Relativity in Rotating Frames, eds. Rizzi G. and Ruggiero M.L., in the series
+     “Fundamental Theories of Physics”, ed. Van der Merwe A., Kluwer Academic Publishers, Dordrecht, (2003)
+ [8] Scorgie G.C., J. Phys. A: Math. Gen. 26, 3291 (1993)
+ [9] Rindler W., Perlick V., Gen. Rel. Grav. 22, 1067 (1990)
+[10] Landau L.D., Lifshitz E.M., The Classical Theory of Field, Pergamon Press, Oxford (1971), see in particular Sections 84,
+     88
+[11] Zimmermann J.E. and Mercerau J.E., Phys. Rev. Lett., 14, 887 (1965)
+[12] Atwood D.K. et al., Phys. Rev. Lett., 52, 1673 (1984)
+[13] Riehle F. et al., Phys. Rev. Lett., 67, 177 (1991)
+[14] Hasselbach F. and Nicklaus M., Phys. Rev. A, 48, 143 (1993)
+[15] Werner S.A. et al., Phys. Rev. Lett., 42, 1103 (1979)
+[16] G. Rizzi, M.L. Ruggiero, A. Serafini, Found. Phys. 34, 1835-1887 (2005)
+[17] Rizzi G., Ruggiero M.L., Gen. Rel. Grav. 35, 1743 (2003)
+[18] Chow W.W. et al., Rev. Mod. Phys., 57, 61 (1985)
+[19] Stodolsky L., Gen. Rel. Grav. 11, 391 (1979)
+[20] Scorgie G.C., J. Phys. A: Math. Gen. 26, 5181 (1993)
+

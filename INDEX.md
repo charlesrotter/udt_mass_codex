@@ -1,7 +1,8 @@
 # INDEX — compact current pointers; `LIVE.md` wins
 
-G383--G412 exact-scope banking COMPLETE; G413 banked; G414 banked; scopes/reviews below.
+G383--G412 banking COMPLETE; G413/G414 banked; exact scopes/reviews below.
 Roadmap: `UDT_RESEARCH_ROADMAP.md`; G414: `udt_ti2_banking_2026-09-11/BANKING_RECORD.md`; TI3 reviewed/UNPROMOTED: `udt_two_shape_profile_dependence_2026-09-11/DECISION_BRIEF.md`.
+OB1 reviewed/UNPROMOTED: `udt_optics_bridge_assessment_2026-09-12/DECISION_BRIEF.md`.
 Backlog: `udt_reviewed_backlog_banking_2026-09-10/BANKING_RECORD.md`; exact claims/dispositions/checks there.
 The exact 397-row `CURRENT_SCIENTIFIC_PREMISES.tsv` owns grades, not these pointers.
 GR is FILTER ONLY, not a response-law input; Local Metric Sufficiency remains owner-provisional.
@@ -10,7 +11,6 @@ Current authority: `udt_gr_filter_reconciliation_2026-09-09/AUTHORITY_RECORD.md`
 Prior audit: `udt_gr_filter_authority_audit_2026-09-09/REVIEWED_AUDIT.md`.
 Documentation closeout: `udt_gr_filter_reconciliation_2026-09-09/documentation_closeout/CLOSEOUT.md`; replacement review: `udt_gr_filter_reconciliation_2026-09-09/documentation_closeout/review/REPLACEMENT_REVIEW.md`.
 Unproduced report remains historical; replacement is dated.
-
 1. Follow `AGENTS.md`.
 2. Read the current blocks in `LIVE.md` and `HANDOFF.md`.
 3. Read `CURRENT_RESEARCH_PROGRAM.md`.

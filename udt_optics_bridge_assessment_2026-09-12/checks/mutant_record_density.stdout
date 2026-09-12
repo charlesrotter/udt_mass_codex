@@ -1,0 +1,10 @@
+{
+  "status": "FAIL",
+  "guard": "original_density_needed",
+  "passed": [
+    "full_raw_determinant",
+    "completed_determinant",
+    "shift_from_raw_metric"
+  ],
+  "mutant": "record_density"
+}

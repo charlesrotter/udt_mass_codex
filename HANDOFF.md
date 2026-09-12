@@ -1,7 +1,7 @@
 # HANDOFF — lean fresh-session anchor
 
 <!-- STARTUP_CURRENT_BEGIN -->
-## Current handoff anchor — 2026-09-11
+## Current handoff anchor — 2026-09-12
 
 `LIVE.md` wins; exact grades belong to the 397-row `CURRENT_SCIENTIFIC_PREMISES.tsv`.
 Current sources and completed-campaign routes: `INDEX.md`; dependency spine:
@@ -78,7 +78,7 @@ report actual model/instructions/checks. After orientation: `maintenance_agent_c
 dated handoff sequence. General capacity UNVERIFIED; prior passes are historical evidence.
 Availability testing is operational only; the whiteboard's scientific audit is PROPOSED, NOT AUTHORIZED.
 
-Next: G383--G412 exact-scope banking is COMPLETE; G413=TI1 and G414=TI2 conditionally banked; TI3 reviewed conditional UNPROMOTED: INDEX.
+Next: G383--G412 exact-scope banking is COMPLETE; G413=TI1/G414=TI2 conditionally banked; TI3 and OB1 reviewed conditional UNPROMOTED: INDEX.
 G312 membership unclosed; G352 physical-realization: physical identification remains OPEN.
 Stop for lay discussion with Charles; no new campaign is authorized.
 <!-- STARTUP_CURRENT_END -->
