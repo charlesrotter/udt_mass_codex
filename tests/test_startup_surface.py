@@ -118,6 +118,7 @@ CURRENT_TARGETS = (
     premise_guard.NEIGHBORING_TIDAL_BANKING_SOURCE,
     *premise_guard.REVIEWED_BACKLOG_GUARD_FILES,
             *premise_guard.TI1_GUARD_FILES,
+            *premise_guard.NCB1_GUARD_FILES,
             *premise_guard.TI2_GUARD_FILES,
     "startup_surface_g310_universal_reciprocity_refresh_2026-08-31/ADOPTION_RECORD.md",
     "startup_surface_g312_two_premise_adoption_refresh_2026-09-01/ADOPTION_RECORD.md",
@@ -173,6 +174,7 @@ def _startup_copy(tmp_path: Path) -> Path:
             premise_guard.NEIGHBORING_TIDAL_BANKING_SOURCE,
             *premise_guard.REVIEWED_BACKLOG_GUARD_FILES,
             *premise_guard.TI1_GUARD_FILES,
+            *premise_guard.NCB1_GUARD_FILES,
             *premise_guard.TI2_GUARD_FILES,
         ):
             shutil.copy2(REPO / relative, destination)
@@ -890,7 +892,7 @@ def test_gr_filter_historical_projection_is_exact_not_current() -> None:
     transition = premise_guard.validate_gr_filter_authority(REPO)
     assert current != projected
     old_rows = b"".join(line for line in projected.splitlines(keepends=True)
-                       if not line.startswith(premise_guard.TI2_PREFIXES + premise_guard.TI1_PREFIXES + premise_guard.REVIEWED_BACKLOG_PREFIXES))
+                       if not line.startswith(premise_guard.NCB1_PREFIXES + premise_guard.TI2_PREFIXES + premise_guard.TI1_PREFIXES + premise_guard.REVIEWED_BACKLOG_PREFIXES))
     assert hashlib.sha256(old_rows).hexdigest() == transition["baseline_registry_sha256"]
     assert [i for i, (a, b) in enumerate(zip(current.splitlines(), projected.splitlines()))
             if a != b] == [i for i, line in enumerate(current.splitlines())
@@ -919,7 +921,7 @@ def test_gr_filter_projection_uses_only_the_validated_read(tmp_path: Path, monke
     historical = premise_guard.registry_bytes_for_historical_banking(root)
     assert len(reads) == 1  # No unvalidated later snapshot is rewritten/hidden.
     old_rows = b"".join(line for line in historical.splitlines(keepends=True)
-                       if not line.startswith(premise_guard.TI2_PREFIXES + premise_guard.TI1_PREFIXES + premise_guard.REVIEWED_BACKLOG_PREFIXES))
+                       if not line.startswith(premise_guard.NCB1_PREFIXES + premise_guard.TI2_PREFIXES + premise_guard.TI1_PREFIXES + premise_guard.REVIEWED_BACKLOG_PREFIXES))
     assert hashlib.sha256(old_rows).hexdigest() == transition["baseline_registry_sha256"]
 
 
@@ -1199,8 +1201,8 @@ def test_catch_chosen_family_mislabeled_current(tmp_path: Path) -> None:
 
 def test_catch_stale_agents_registry_count(tmp_path: Path) -> None:
     root = _startup_copy(tmp_path)
-    _replace(root / "AGENTS.md", "397-row exact registry", "394-row exact registry")
-    with pytest.raises(SystemExit, match="current route lacks 397-row exact registry"):
+    _replace(root / "AGENTS.md", "398-row exact registry", "394-row exact registry")
+    with pytest.raises(SystemExit, match="current route lacks 398-row exact registry"):
         premise_guard.validate_startup_surface(root)
 
 

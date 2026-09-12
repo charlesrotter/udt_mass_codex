@@ -2,16 +2,16 @@
 
 Updated: 2026-09-12. Charles Rotter requested the whole plan on 2026-09-09;
 its original baseline was `d0fe8b3e5f95c3963dc8702bb4a31485678bd1e3`, branch `grok`.
-Earlier campaigns and banking through G414 are COMPLETE; TI3/OB1/ZDR1 remain reviewed conditional UNPROMOTED.
+Earlier campaigns and banking through G415 are COMPLETE; TI3/OB1/ZDR1 remain reviewed conditional UNPROMOTED.
 Current operational handoff: `HANDOFF.md`; the maintained checkpoint below records the reviewed
 ER1 expansion, banking, nonlinear and measurement returns, and the CWA1 consolidation.
 CWA1's consolidation and NCB1's latest clock/beam return are recorded below.
-NCB1 is reviewed conditional UNPROMOTED; no successor research campaign is authorized.
+NCB1 is conditionally banked as G415; no successor research campaign is authorized.
 This is a maintained direction document, not a premise, theorem, promotion
 or replacement for LIVE, the exact registry, or reviewed scientific sources.
 
 Current acceptance overlay: earlier UNPROMOTED/campaign-only language below records historical
-returns. The G383--G412, G413 and G414 banking packets and maintained checkpoint own later dispositions;
+returns. The G383--G412, G413--G415 banking packets and maintained checkpoint own later dispositions;
 original result packages remain unchanged. No physical adoption or canon is included.
 
 ## Aim and current position
@@ -331,12 +331,21 @@ central rays, supplied areal observers/markings and infinitesimal screens.
 No generic stability, nonaxial caustic or complete physical history follows.
 The conditional geometry's governing equation is not adopted as native UDT.
 
-Disposition: **hold for Charles's exact-scope scientific promotion decision
-and normal banking checks**; retain reviewed conditional UNPROMOTED status.
-Physical identification is not required to bank the conditional mathematics.
-Next discussion: promotion, then one precisely bounded nonaxial reach target.
-No successor is dispatched. TI3/OB1/ZDR1 and OB2 retain their earlier holds;
-original sources, registry grades and fixed through-G352 manuscript are unchanged.
+Charles then authorized “go ahead and promote.” G415 conditionally accepts
+NCB1's ENTIRE reviewed equations (1)–(14), with no scientific widening;
+`udt_ncb1_banking_2026-09-12/BANKING_RECORD.md` owns the exact acceptance,
+and its CLOSEOUT.md owns actual new398 audit, review and publication results.
+Original87 source files and all397 prior registry rows remain unchanged.
+The original UNPROMOTED headings are historical under this acceptance overlay.
+CWA1 remains its reviewed397-entry consolidation snapshot; G415 is the later
+addition. Changed current registry/navigation bytes flag source currency;
+they neither rewrite that snapshot nor reprove its397 source results.
+
+Disposition: **banked at demonstrated conditional scope as G415** after the
+recorded gates. Physical identification is not a prerequisite for that grade.
+Next discussion: one precisely bounded nonaxial reach target. No successor
+is dispatched. TI3/OB1/ZDR1 and OB2 retain their earlier holds; original
+sources, prior grades and fixed through-G352 manuscript remain unchanged.
 
 ### Existing expansion and observation returns
 

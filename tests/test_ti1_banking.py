@@ -12,7 +12,7 @@ def fixture(root):
         target = root / name
         target.parent.mkdir(parents=True, exist_ok=True)
         if name == "CURRENT_SCIENTIFIC_PREMISES.tsv":
-            target.write_bytes(guard.without_ti2((REPO / name).read_bytes()))
+            target.write_bytes(guard.without_ti2(guard.without_ncb1((REPO / name).read_bytes())))
         else:
             shutil.copy2(REPO / name, target)
     return root

@@ -1,0 +1,11 @@
+{
+  "utc": "2026-09-12T19:45:38.608277+00:00",
+  "branch": "grok",
+  "HEAD": "fd6a28e6c9ee72b1d6e19e0c2e8d03c645e9a8e1",
+  "origin_grok": "fd6a28e6c9ee72b1d6e19e0c2e8d03c645e9a8e1",
+  "actual_fetch": "exit0 immediately before this receipt",
+  "staged_before_scope_freeze": "",
+  "original46_name_status_preserved": true,
+  "protected_payload_inspection": false,
+  "publication": "PENDING review and exact staging"
+}

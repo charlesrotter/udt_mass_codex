@@ -1,0 +1,6 @@
+{
+  "verdict": "VERIFIED_WITH_CAVEATS__EXACT_CONDITIONAL_BANKING_FIDELITY",
+  "pins": 39,
+  "require_calls": 3560,
+  "receipt_sha256": "e32d6c29b8526f0015ddff7ed668488d64156f13275bed95457bd6ca245e8a8b"
+}

@@ -1,0 +1,40 @@
+{
+  "utc": "2026-09-12T19:45:51.628145+00:00",
+  "head": "fd6a28e6c9ee72b1d6e19e0c2e8d03c645e9a8e1",
+  "verdict": "PASS_DECLARED_INPUT_CORRESPONDENCE",
+  "declared_audit_inputs": 142,
+  "freeze_sha256": "c323cfe9df529e317188e065f60c532ca088816c021d01a940e90d0ddb6506a1",
+  "guard_change": "exactly two review pins; prior bytes reconstructed to direct-reviewed SHA256; remaining AST identical",
+  "guard_sha256": "c3abdb8968b6518313234afe95a1a72566faa8a67f5f02b34bba992372243306",
+  "added_review_pins": {
+    "udt_ncb1_banking_2026-09-12/review/REVIEW.md": "a4c7559f843b298764e50bcead0f4a603961c440bedbb147214056a420172116",
+    "udt_ncb1_banking_2026-09-12/review/REVIEW_RECEIPT.json": "e32d6c29b8526f0015ddff7ed668488d64156f13275bed95457bd6ca245e8a8b"
+  },
+  "direct_review_snapshot_preserved_except_declared_pin_edit": true,
+  "final_integration_receipt": {
+    "command": [
+      "python3",
+      "-m",
+      "pytest",
+      "--noconftest",
+      "-q",
+      "tests/test_ncb1_banking.py",
+      "tests/test_ti2_banking.py",
+      "tests/test_ti1_banking.py",
+      "tests/test_reviewed_backlog_banking.py",
+      "tests/test_startup_surface.py",
+      "-k",
+      "not full_foundational_premise_verifier_is_in_pytest"
+    ],
+    "cwd": "/home/udt-admin/udt_mass_codex",
+    "started_utc": "2026-09-12T19:37:04.234832+00:00",
+    "duration_seconds": 14.780417419970036,
+    "returncode": 0,
+    "timeout": false,
+    "address_space_bytes": 2147483648,
+    "cpu_seconds": 180,
+    "maxrss_kib": 55848
+  },
+  "full398_result": "NOT assessed by this input-only check",
+  "atomic_snapshot_or_chronology_attestation": false
+}

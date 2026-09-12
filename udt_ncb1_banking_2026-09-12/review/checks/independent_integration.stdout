@@ -1,0 +1,885 @@
+{
+  "utc": "2026-09-12T19:33:30.243711+00:00",
+  "verdict": "PASS_BYTE_AUTHENTICATION_AND_HOSTILE_BOUNDARIES",
+  "original397_byte_identity": true,
+  "acceptance_freeze_authenticated": {
+    "udt_ncb1_banking_2026-09-12/WORK_ORDER.md": "722fef633200f631ffcc9ed3b53022082f1d97a1167f3c08a574e928b91d39dc",
+    "udt_ncb1_banking_2026-09-12/BANKING_RECORD.md": "4a888a6552360e71b97372623fe135458a546311c8e73a4ac9e99302e1be8022",
+    "udt_ncb1_banking_2026-09-12/BANKED_CLAIM.json": "5f3cf970623a4e51a6c19d22feb3850d188dcd0a8541055917f230e2e25f2f42",
+    "udt_ncb1_banking_2026-09-12/BANKED_ROW.tsv": "f3f884ce4322e8560ea70f0d6efe9d39b5e754d123a7b768f0d49ad82a833def",
+    "udt_ncb1_banking_2026-09-12/SOURCE_EVIDENCE_SHA256SUMS": "6eafd142e118c31dfcd004a4ff333ebcefdfd116d9e8c6aded230933cbe34dd8"
+  },
+  "guards_and_helpers": 17,
+  "hostile_and_preserving_cases": [
+    {
+      "case": "validate_conditional_banking: valid then poison",
+      "reads": 1,
+      "rejection": null
+    },
+    {
+      "case": "validate_conditional_banking: poison then valid",
+      "reads": 1,
+      "rejection": "NCB1 exact row/scope changed"
+    },
+    {
+      "case": "validate_conditional_banking: duplicate then valid",
+      "reads": 1,
+      "rejection": "NCB1 current row missing/duplicate"
+    },
+    {
+      "case": "validate_conditional_banking: historical absence",
+      "reads": 1,
+      "rejection": null
+    },
+    {
+      "case": "validate_shared_constraint_banking: valid then poison",
+      "reads": 1,
+      "rejection": null
+    },
+    {
+      "case": "validate_shared_constraint_banking: poison then valid",
+      "reads": 1,
+      "rejection": "NCB1 exact row/scope changed"
+    },
+    {
+      "case": "validate_shared_constraint_banking: duplicate then valid",
+      "reads": 1,
+      "rejection": "NCB1 current row missing/duplicate"
+    },
+    {
+      "case": "validate_shared_constraint_banking: historical absence",
+      "reads": 1,
+      "rejection": null
+    },
+    {
+      "case": "validate_persistence_banking: valid then poison",
+      "reads": 1,
+      "rejection": null
+    },
+    {
+      "case": "validate_persistence_banking: poison then valid",
+      "reads": 1,
+      "rejection": "NCB1 exact row/scope changed"
+    },
+    {
+      "case": "validate_persistence_banking: duplicate then valid",
+      "reads": 1,
+      "rejection": "NCB1 current row missing/duplicate"
+    },
+    {
+      "case": "validate_persistence_banking: historical absence",
+      "reads": 1,
+      "rejection": null
+    },
+    {
+      "case": "validate_restrictiveness_banking: valid then poison",
+      "reads": 1,
+      "rejection": null
+    },
+    {
+      "case": "validate_restrictiveness_banking: poison then valid",
+      "reads": 1,
+      "rejection": "NCB1 exact row/scope changed"
+    },
+    {
+      "case": "validate_restrictiveness_banking: duplicate then valid",
+      "reads": 1,
+      "rejection": "NCB1 current row missing/duplicate"
+    },
+    {
+      "case": "validate_restrictiveness_banking: historical absence",
+      "reads": 1,
+      "rejection": null
+    },
+    {
+      "case": "validate_source_metric_banking: valid then poison",
+      "reads": 1,
+      "rejection": null
+    },
+    {
+      "case": "validate_source_metric_banking: poison then valid",
+      "reads": 1,
+      "rejection": "NCB1 exact row/scope changed"
+    },
+    {
+      "case": "validate_source_metric_banking: duplicate then valid",
+      "reads": 1,
+      "rejection": "NCB1 current row missing/duplicate"
+    },
+    {
+      "case": "validate_source_metric_banking: historical absence",
+      "reads": 1,
+      "rejection": null
+    },
+    {
+      "case": "validate_reconstruction_banking: valid then poison",
+      "reads": 1,
+      "rejection": null
+    },
+    {
+      "case": "validate_reconstruction_banking: poison then valid",
+      "reads": 1,
+      "rejection": "NCB1 exact row/scope changed"
+    },
+    {
+      "case": "validate_reconstruction_banking: duplicate then valid",
+      "reads": 1,
+      "rejection": "NCB1 current row missing/duplicate"
+    },
+    {
+      "case": "validate_reconstruction_banking: historical absence",
+      "reads": 1,
+      "rejection": null
+    },
+    {
+      "case": "validate_coupled_banking: valid then poison",
+      "reads": 1,
+      "rejection": null
+    },
+    {
+      "case": "validate_coupled_banking: poison then valid",
+      "reads": 1,
+      "rejection": "NCB1 exact row/scope changed"
+    },
+    {
+      "case": "validate_coupled_banking: duplicate then valid",
+      "reads": 1,
+      "rejection": "NCB1 current row missing/duplicate"
+    },
+    {
+      "case": "validate_coupled_banking: historical absence",
+      "reads": 1,
+      "rejection": null
+    },
+    {
+      "case": "validate_vacuum_scale_banking: valid then poison",
+      "reads": 1,
+      "rejection": null
+    },
+    {
+      "case": "validate_vacuum_scale_banking: poison then valid",
+      "reads": 1,
+      "rejection": "NCB1 exact row/scope changed"
+    },
+    {
+      "case": "validate_vacuum_scale_banking: duplicate then valid",
+      "reads": 1,
+      "rejection": "NCB1 current row missing/duplicate"
+    },
+    {
+      "case": "validate_vacuum_scale_banking: historical absence",
+      "reads": 1,
+      "rejection": null
+    },
+    {
+      "case": "validate_berger_banking: valid then poison",
+      "reads": 1,
+      "rejection": null
+    },
+    {
+      "case": "validate_berger_banking: poison then valid",
+      "reads": 1,
+      "rejection": "NCB1 exact row/scope changed"
+    },
+    {
+      "case": "validate_berger_banking: duplicate then valid",
+      "reads": 1,
+      "rejection": "NCB1 current row missing/duplicate"
+    },
+    {
+      "case": "validate_berger_banking: historical absence",
+      "reads": 1,
+      "rejection": null
+    },
+    {
+      "case": "validate_closed_fibre_banking: valid then poison",
+      "reads": 1,
+      "rejection": null
+    },
+    {
+      "case": "validate_closed_fibre_banking: poison then valid",
+      "reads": 1,
+      "rejection": "NCB1 exact row/scope changed"
+    },
+    {
+      "case": "validate_closed_fibre_banking: duplicate then valid",
+      "reads": 1,
+      "rejection": "NCB1 current row missing/duplicate"
+    },
+    {
+      "case": "validate_closed_fibre_banking: historical absence",
+      "reads": 1,
+      "rejection": null
+    },
+    {
+      "case": "validate_neighboring_tidal_banking: valid then poison",
+      "reads": 1,
+      "rejection": null
+    },
+    {
+      "case": "validate_neighboring_tidal_banking: poison then valid",
+      "reads": 1,
+      "rejection": "NCB1 exact row/scope changed"
+    },
+    {
+      "case": "validate_neighboring_tidal_banking: duplicate then valid",
+      "reads": 1,
+      "rejection": "NCB1 current row missing/duplicate"
+    },
+    {
+      "case": "validate_neighboring_tidal_banking: historical absence",
+      "reads": 1,
+      "rejection": null
+    },
+    {
+      "case": "validate_reviewed_backlog_banking: valid then poison",
+      "reads": 1,
+      "rejection": null
+    },
+    {
+      "case": "validate_reviewed_backlog_banking: poison then valid",
+      "reads": 1,
+      "rejection": "NCB1 exact row/scope changed"
+    },
+    {
+      "case": "validate_reviewed_backlog_banking: duplicate then valid",
+      "reads": 1,
+      "rejection": "NCB1 current row missing/duplicate"
+    },
+    {
+      "case": "validate_reviewed_backlog_banking: historical absence",
+      "reads": 1,
+      "rejection": null
+    },
+    {
+      "case": "validate_ti1_banking: valid then poison",
+      "reads": 1,
+      "rejection": null
+    },
+    {
+      "case": "validate_ti1_banking: poison then valid",
+      "reads": 1,
+      "rejection": "NCB1 exact row/scope changed"
+    },
+    {
+      "case": "validate_ti1_banking: duplicate then valid",
+      "reads": 1,
+      "rejection": "NCB1 current row missing/duplicate"
+    },
+    {
+      "case": "validate_ti1_banking: historical absence",
+      "reads": 1,
+      "rejection": null
+    },
+    {
+      "case": "validate_ti2_banking: valid then poison",
+      "reads": 1,
+      "rejection": null
+    },
+    {
+      "case": "validate_ti2_banking: poison then valid",
+      "reads": 1,
+      "rejection": "NCB1 exact row/scope changed"
+    },
+    {
+      "case": "validate_ti2_banking: duplicate then valid",
+      "reads": 1,
+      "rejection": "NCB1 current row missing/duplicate"
+    },
+    {
+      "case": "validate_ti2_banking: historical absence",
+      "reads": 1,
+      "rejection": null
+    },
+    {
+      "case": "validate_ncb1_banking: valid then poison",
+      "reads": 1,
+      "rejection": null
+    },
+    {
+      "case": "validate_ncb1_banking: poison then valid",
+      "reads": 1,
+      "rejection": "NCB1 exact row/scope changed"
+    },
+    {
+      "case": "validate_ncb1_banking: duplicate then valid",
+      "reads": 1,
+      "rejection": "NCB1 current row missing/duplicate"
+    },
+    {
+      "case": "validate_ncb1_banking: historical absence",
+      "reads": 1,
+      "rejection": "NCB1 current row missing/duplicate"
+    },
+    {
+      "case": "historical_banking_snapshot: valid then poison",
+      "reads": 1,
+      "rejection": null
+    },
+    {
+      "case": "historical_banking_snapshot: poison then valid",
+      "reads": 1,
+      "rejection": "NCB1 exact row/scope changed"
+    },
+    {
+      "case": "historical_banking_snapshot: duplicate then valid",
+      "reads": 1,
+      "rejection": "NCB1 current row missing/duplicate"
+    },
+    {
+      "case": "historical_banking_snapshot: historical absence",
+      "reads": 1,
+      "rejection": null
+    },
+    {
+      "case": "registry_bytes_for_historical_banking: valid then poison",
+      "reads": 1,
+      "rejection": null
+    },
+    {
+      "case": "registry_bytes_for_historical_banking: poison then valid",
+      "reads": 1,
+      "rejection": "NCB1 exact row/scope changed"
+    },
+    {
+      "case": "registry_bytes_for_historical_banking: duplicate then valid",
+      "reads": 1,
+      "rejection": "NCB1 current row missing/duplicate"
+    },
+    {
+      "case": "registry_bytes_for_historical_banking: historical absence",
+      "reads": 1,
+      "rejection": null
+    },
+    {
+      "case": "new row field 0",
+      "reads": 1,
+      "rejection": "NCB1 current row missing/duplicate"
+    },
+    {
+      "case": "new row field 1",
+      "reads": 1,
+      "rejection": "NCB1 exact row/scope changed"
+    },
+    {
+      "case": "new row field 2",
+      "reads": 1,
+      "rejection": "NCB1 exact row/scope changed"
+    },
+    {
+      "case": "new row field 3",
+      "reads": 1,
+      "rejection": "NCB1 exact row/scope changed"
+    },
+    {
+      "case": "new row field 4",
+      "reads": 1,
+      "rejection": "NCB1 exact row/scope changed"
+    },
+    {
+      "case": "new row field 5",
+      "reads": 1,
+      "rejection": "NCB1 exact row/scope changed"
+    },
+    {
+      "case": "new row field 6",
+      "reads": 1,
+      "rejection": "NCB1 exact row/scope changed"
+    },
+    {
+      "case": "new row field 7",
+      "reads": 1,
+      "rejection": "NCB1 exact row/scope changed"
+    },
+    {
+      "case": "new row field 8",
+      "reads": 1,
+      "rejection": "NCB1 exact row/scope changed"
+    },
+    {
+      "case": "unrelated original row remains rejected",
+      "reads": 1,
+      "rejection": "NCB1 changed an original397 registry byte"
+    },
+    {
+      "case": "source poison:udt_ne1_clock_beam_geometry_2026-09-12/ALLOCATION_RECORD.json",
+      "reads": 1,
+      "rejection": "NCB1 original source evidence changed: udt_ne1_clock_beam_geometry_2026-09-12/ALLOCATION_RECORD.json"
+    },
+    {
+      "case": "source poison:udt_ne1_clock_beam_geometry_2026-09-12/AUTHOR_CODE_PINS.json",
+      "reads": 1,
+      "rejection": "NCB1 original source evidence changed: udt_ne1_clock_beam_geometry_2026-09-12/AUTHOR_CODE_PINS.json"
+    },
+    {
+      "case": "source poison:udt_ne1_clock_beam_geometry_2026-09-12/CAMPAIGN_LOG.md",
+      "reads": 1,
+      "rejection": "NCB1 original source evidence changed: udt_ne1_clock_beam_geometry_2026-09-12/CAMPAIGN_LOG.md"
+    },
+    {
+      "case": "source poison:udt_ne1_clock_beam_geometry_2026-09-12/CHECK_CONTRACT.md",
+      "reads": 1,
+      "rejection": "NCB1 original source evidence changed: udt_ne1_clock_beam_geometry_2026-09-12/CHECK_CONTRACT.md"
+    },
+    {
+      "case": "source poison:udt_ne1_clock_beam_geometry_2026-09-12/CLOSEOUT.md",
+      "reads": 1,
+      "rejection": "NCB1 original source evidence changed: udt_ne1_clock_beam_geometry_2026-09-12/CLOSEOUT.md"
+    },
+    {
+      "case": "source poison:udt_ne1_clock_beam_geometry_2026-09-12/DECISION_BRIEF.md",
+      "reads": 1,
+      "rejection": "NCB1 original source evidence changed: udt_ne1_clock_beam_geometry_2026-09-12/DECISION_BRIEF.md"
+    },
+    {
+      "case": "source poison:udt_ne1_clock_beam_geometry_2026-09-12/EDITORIAL_CLARIFICATION.json",
+      "reads": 1,
+      "rejection": "NCB1 original source evidence changed: udt_ne1_clock_beam_geometry_2026-09-12/EDITORIAL_CLARIFICATION.json"
+    },
+    {
+      "case": "source poison:udt_ne1_clock_beam_geometry_2026-09-12/FINAL_FIDELITY_INTAKE.json",
+      "reads": 1,
+      "rejection": "NCB1 original source evidence changed: udt_ne1_clock_beam_geometry_2026-09-12/FINAL_FIDELITY_INTAKE.json"
+    },
+    {
+      "case": "source poison:udt_ne1_clock_beam_geometry_2026-09-12/INITIAL_CANDIDATE.md",
+      "reads": 1,
+      "rejection": "NCB1 original source evidence changed: udt_ne1_clock_beam_geometry_2026-09-12/INITIAL_CANDIDATE.md"
+    },
+    {
+      "case": "source poison:udt_ne1_clock_beam_geometry_2026-09-12/INITIAL_FREEZE.json",
+      "reads": 1,
+      "rejection": "NCB1 original source evidence changed: udt_ne1_clock_beam_geometry_2026-09-12/INITIAL_FREEZE.json"
+    },
+    {
+      "case": "source poison:udt_ne1_clock_beam_geometry_2026-09-12/PUBLICATION.json",
+      "reads": 1,
+      "rejection": "NCB1 original source evidence changed: udt_ne1_clock_beam_geometry_2026-09-12/PUBLICATION.json"
+    },
+    {
+      "case": "source poison:udt_ne1_clock_beam_geometry_2026-09-12/REVIEWED_RESULT.md",
+      "reads": 1,
+      "rejection": "NCB1 original source evidence changed: udt_ne1_clock_beam_geometry_2026-09-12/REVIEWED_RESULT.md"
+    },
+    {
+      "case": "source poison:udt_ne1_clock_beam_geometry_2026-09-12/SESSION_RECORD.json",
+      "reads": 1,
+      "rejection": "NCB1 original source evidence changed: udt_ne1_clock_beam_geometry_2026-09-12/SESSION_RECORD.json"
+    },
+    {
+      "case": "source poison:udt_ne1_clock_beam_geometry_2026-09-12/SHA256SUMS",
+      "reads": 1,
+      "rejection": "NCB1 original source evidence changed: udt_ne1_clock_beam_geometry_2026-09-12/SHA256SUMS"
+    },
+    {
+      "case": "source poison:udt_ne1_clock_beam_geometry_2026-09-12/SOURCE_PINS.tsv",
+      "reads": 1,
+      "rejection": "NCB1 original source evidence changed: udt_ne1_clock_beam_geometry_2026-09-12/SOURCE_PINS.tsv"
+    },
+    {
+      "case": "source poison:udt_ne1_clock_beam_geometry_2026-09-12/WORK_ORDER.md",
+      "reads": 1,
+      "rejection": "NCB1 original source evidence changed: udt_ne1_clock_beam_geometry_2026-09-12/WORK_ORDER.md"
+    },
+    {
+      "case": "source poison:udt_ne1_clock_beam_geometry_2026-09-12/check_numeric.py",
+      "reads": 1,
+      "rejection": "NCB1 original source evidence changed: udt_ne1_clock_beam_geometry_2026-09-12/check_numeric.py"
+    },
+    {
+      "case": "source poison:udt_ne1_clock_beam_geometry_2026-09-12/check_symbolic.py",
+      "reads": 1,
+      "rejection": "NCB1 original source evidence changed: udt_ne1_clock_beam_geometry_2026-09-12/check_symbolic.py"
+    },
+    {
+      "case": "source poison:udt_ne1_clock_beam_geometry_2026-09-12/checks/author_numeric.capture_provenance.json",
+      "reads": 1,
+      "rejection": "NCB1 original source evidence changed: udt_ne1_clock_beam_geometry_2026-09-12/checks/author_numeric.capture_provenance.json"
+    },
+    {
+      "case": "source poison:udt_ne1_clock_beam_geometry_2026-09-12/checks/author_numeric.json",
+      "reads": 1,
+      "rejection": "NCB1 original source evidence changed: udt_ne1_clock_beam_geometry_2026-09-12/checks/author_numeric.json"
+    },
+    {
+      "case": "source poison:udt_ne1_clock_beam_geometry_2026-09-12/checks/author_numeric.stderr",
+      "reads": 1,
+      "rejection": "NCB1 original source evidence changed: udt_ne1_clock_beam_geometry_2026-09-12/checks/author_numeric.stderr"
+    },
+    {
+      "case": "source poison:udt_ne1_clock_beam_geometry_2026-09-12/checks/author_numeric.stdout",
+      "reads": 1,
+      "rejection": "NCB1 original source evidence changed: udt_ne1_clock_beam_geometry_2026-09-12/checks/author_numeric.stdout"
+    },
+    {
+      "case": "source poison:udt_ne1_clock_beam_geometry_2026-09-12/checks/author_symbolic.capture_provenance.json",
+      "reads": 1,
+      "rejection": "NCB1 original source evidence changed: udt_ne1_clock_beam_geometry_2026-09-12/checks/author_symbolic.capture_provenance.json"
+    },
+    {
+      "case": "source poison:udt_ne1_clock_beam_geometry_2026-09-12/checks/author_symbolic.json",
+      "reads": 1,
+      "rejection": "NCB1 original source evidence changed: udt_ne1_clock_beam_geometry_2026-09-12/checks/author_symbolic.json"
+    },
+    {
+      "case": "source poison:udt_ne1_clock_beam_geometry_2026-09-12/checks/author_symbolic.stderr",
+      "reads": 1,
+      "rejection": "NCB1 original source evidence changed: udt_ne1_clock_beam_geometry_2026-09-12/checks/author_symbolic.stderr"
+    },
+    {
+      "case": "source poison:udt_ne1_clock_beam_geometry_2026-09-12/checks/author_symbolic.stdout",
+      "reads": 1,
+      "rejection": "NCB1 original source evidence changed: udt_ne1_clock_beam_geometry_2026-09-12/checks/author_symbolic.stdout"
+    },
+    {
+      "case": "source poison:udt_ne1_clock_beam_geometry_2026-09-12/checks/current_full397.capture_provenance.json",
+      "reads": 1,
+      "rejection": "NCB1 original source evidence changed: udt_ne1_clock_beam_geometry_2026-09-12/checks/current_full397.capture_provenance.json"
+    },
+    {
+      "case": "source poison:udt_ne1_clock_beam_geometry_2026-09-12/checks/current_full397.json",
+      "reads": 1,
+      "rejection": "NCB1 original source evidence changed: udt_ne1_clock_beam_geometry_2026-09-12/checks/current_full397.json"
+    },
+    {
+      "case": "source poison:udt_ne1_clock_beam_geometry_2026-09-12/checks/current_full397.stderr",
+      "reads": 1,
+      "rejection": "NCB1 original source evidence changed: udt_ne1_clock_beam_geometry_2026-09-12/checks/current_full397.stderr"
+    },
+    {
+      "case": "source poison:udt_ne1_clock_beam_geometry_2026-09-12/checks/current_full397.stdout",
+      "reads": 1,
+      "rejection": "NCB1 original source evidence changed: udt_ne1_clock_beam_geometry_2026-09-12/checks/current_full397.stdout"
+    },
+    {
+      "case": "source poison:udt_ne1_clock_beam_geometry_2026-09-12/checks/mutant_drop_lapse_response.capture_provenance.json",
+      "reads": 1,
+      "rejection": "NCB1 original source evidence changed: udt_ne1_clock_beam_geometry_2026-09-12/checks/mutant_drop_lapse_response.capture_provenance.json"
+    },
+    {
+      "case": "source poison:udt_ne1_clock_beam_geometry_2026-09-12/checks/mutant_drop_lapse_response.json",
+      "reads": 1,
+      "rejection": "NCB1 original source evidence changed: udt_ne1_clock_beam_geometry_2026-09-12/checks/mutant_drop_lapse_response.json"
+    },
+    {
+      "case": "source poison:udt_ne1_clock_beam_geometry_2026-09-12/checks/mutant_drop_lapse_response.stderr",
+      "reads": 1,
+      "rejection": "NCB1 original source evidence changed: udt_ne1_clock_beam_geometry_2026-09-12/checks/mutant_drop_lapse_response.stderr"
+    },
+    {
+      "case": "source poison:udt_ne1_clock_beam_geometry_2026-09-12/checks/mutant_drop_lapse_response.stdout",
+      "reads": 1,
+      "rejection": "NCB1 original source evidence changed: udt_ne1_clock_beam_geometry_2026-09-12/checks/mutant_drop_lapse_response.stdout"
+    },
+    {
+      "case": "source poison:udt_ne1_clock_beam_geometry_2026-09-12/checks/mutant_drop_source_width.capture_provenance.json",
+      "reads": 1,
+      "rejection": "NCB1 original source evidence changed: udt_ne1_clock_beam_geometry_2026-09-12/checks/mutant_drop_source_width.capture_provenance.json"
+    },
+    {
+      "case": "source poison:udt_ne1_clock_beam_geometry_2026-09-12/checks/mutant_drop_source_width.json",
+      "reads": 1,
+      "rejection": "NCB1 original source evidence changed: udt_ne1_clock_beam_geometry_2026-09-12/checks/mutant_drop_source_width.json"
+    },
+    {
+      "case": "source poison:udt_ne1_clock_beam_geometry_2026-09-12/checks/mutant_drop_source_width.stderr",
+      "reads": 1,
+      "rejection": "NCB1 original source evidence changed: udt_ne1_clock_beam_geometry_2026-09-12/checks/mutant_drop_source_width.stderr"
+    },
+    {
+      "case": "source poison:udt_ne1_clock_beam_geometry_2026-09-12/checks/mutant_drop_source_width.stdout",
+      "reads": 1,
+      "rejection": "NCB1 original source evidence changed: udt_ne1_clock_beam_geometry_2026-09-12/checks/mutant_drop_source_width.stdout"
+    },
+    {
+      "case": "source poison:udt_ne1_clock_beam_geometry_2026-09-12/checks/mutant_invert_clock.capture_provenance.json",
+      "reads": 1,
+      "rejection": "NCB1 original source evidence changed: udt_ne1_clock_beam_geometry_2026-09-12/checks/mutant_invert_clock.capture_provenance.json"
+    },
+    {
+      "case": "source poison:udt_ne1_clock_beam_geometry_2026-09-12/checks/mutant_invert_clock.json",
+      "reads": 1,
+      "rejection": "NCB1 original source evidence changed: udt_ne1_clock_beam_geometry_2026-09-12/checks/mutant_invert_clock.json"
+    },
+    {
+      "case": "source poison:udt_ne1_clock_beam_geometry_2026-09-12/checks/mutant_invert_clock.stderr",
+      "reads": 1,
+      "rejection": "NCB1 original source evidence changed: udt_ne1_clock_beam_geometry_2026-09-12/checks/mutant_invert_clock.stderr"
+    },
+    {
+      "case": "source poison:udt_ne1_clock_beam_geometry_2026-09-12/checks/mutant_invert_clock.stdout",
+      "reads": 1,
+      "rejection": "NCB1 original source evidence changed: udt_ne1_clock_beam_geometry_2026-09-12/checks/mutant_invert_clock.stdout"
+    },
+    {
+      "case": "source poison:udt_ne1_clock_beam_geometry_2026-09-12/checks/navigation_final.capture_provenance.json",
+      "reads": 1,
+      "rejection": "NCB1 original source evidence changed: udt_ne1_clock_beam_geometry_2026-09-12/checks/navigation_final.capture_provenance.json"
+    },
+    {
+      "case": "source poison:udt_ne1_clock_beam_geometry_2026-09-12/checks/navigation_final.json",
+      "reads": 1,
+      "rejection": "NCB1 original source evidence changed: udt_ne1_clock_beam_geometry_2026-09-12/checks/navigation_final.json"
+    },
+    {
+      "case": "source poison:udt_ne1_clock_beam_geometry_2026-09-12/checks/navigation_final.stderr",
+      "reads": 1,
+      "rejection": "NCB1 original source evidence changed: udt_ne1_clock_beam_geometry_2026-09-12/checks/navigation_final.stderr"
+    },
+    {
+      "case": "source poison:udt_ne1_clock_beam_geometry_2026-09-12/checks/navigation_final.stdout",
+      "reads": 1,
+      "rejection": "NCB1 original source evidence changed: udt_ne1_clock_beam_geometry_2026-09-12/checks/navigation_final.stdout"
+    },
+    {
+      "case": "source poison:udt_ne1_clock_beam_geometry_2026-09-12/checks/preservation_before_publication.json",
+      "reads": 1,
+      "rejection": "NCB1 original source evidence changed: udt_ne1_clock_beam_geometry_2026-09-12/checks/preservation_before_publication.json"
+    },
+    {
+      "case": "source poison:udt_ne1_clock_beam_geometry_2026-09-12/checks/source_pins_before_closeout.json",
+      "reads": 1,
+      "rejection": "NCB1 original source evidence changed: udt_ne1_clock_beam_geometry_2026-09-12/checks/source_pins_before_closeout.json"
+    },
+    {
+      "case": "source poison:udt_ne1_clock_beam_geometry_2026-09-12/review/DIRECT_REVIEW.md",
+      "reads": 1,
+      "rejection": "NCB1 original source evidence changed: udt_ne1_clock_beam_geometry_2026-09-12/review/DIRECT_REVIEW.md"
+    },
+    {
+      "case": "source poison:udt_ne1_clock_beam_geometry_2026-09-12/review/DIRECT_REVIEW_RECORD.json",
+      "reads": 1,
+      "rejection": "NCB1 original source evidence changed: udt_ne1_clock_beam_geometry_2026-09-12/review/DIRECT_REVIEW_RECORD.json"
+    },
+    {
+      "case": "source poison:udt_ne1_clock_beam_geometry_2026-09-12/review/FINAL_FIDELITY.json",
+      "reads": 1,
+      "rejection": "NCB1 original source evidence changed: udt_ne1_clock_beam_geometry_2026-09-12/review/FINAL_FIDELITY.json"
+    },
+    {
+      "case": "source poison:udt_ne1_clock_beam_geometry_2026-09-12/review/FINAL_FIDELITY.md",
+      "reads": 1,
+      "rejection": "NCB1 original source evidence changed: udt_ne1_clock_beam_geometry_2026-09-12/review/FINAL_FIDELITY.md"
+    },
+    {
+      "case": "source poison:udt_ne1_clock_beam_geometry_2026-09-12/review/FINITE_CHECK_CONTRACT.md",
+      "reads": 1,
+      "rejection": "NCB1 original source evidence changed: udt_ne1_clock_beam_geometry_2026-09-12/review/FINITE_CHECK_CONTRACT.md"
+    },
+    {
+      "case": "source poison:udt_ne1_clock_beam_geometry_2026-09-12/review/REPLAY_AUTHENTICATION.json",
+      "reads": 1,
+      "rejection": "NCB1 original source evidence changed: udt_ne1_clock_beam_geometry_2026-09-12/review/REPLAY_AUTHENTICATION.json"
+    },
+    {
+      "case": "source poison:udt_ne1_clock_beam_geometry_2026-09-12/review/SOURCE_FIRST_RECONSTRUCTION.md",
+      "reads": 1,
+      "rejection": "NCB1 original source evidence changed: udt_ne1_clock_beam_geometry_2026-09-12/review/SOURCE_FIRST_RECONSTRUCTION.md"
+    },
+    {
+      "case": "source poison:udt_ne1_clock_beam_geometry_2026-09-12/review/SOURCE_FIRST_SEAL.json",
+      "reads": 1,
+      "rejection": "NCB1 original source evidence changed: udt_ne1_clock_beam_geometry_2026-09-12/review/SOURCE_FIRST_SEAL.json"
+    },
+    {
+      "case": "source poison:udt_ne1_clock_beam_geometry_2026-09-12/review/SOURCE_PIN_AUTHENTICATION.json",
+      "reads": 1,
+      "rejection": "NCB1 original source evidence changed: udt_ne1_clock_beam_geometry_2026-09-12/review/SOURCE_PIN_AUTHENTICATION.json"
+    },
+    {
+      "case": "source poison:udt_ne1_clock_beam_geometry_2026-09-12/review/checks/full_geodesic.capture_provenance.json",
+      "reads": 1,
+      "rejection": "NCB1 original source evidence changed: udt_ne1_clock_beam_geometry_2026-09-12/review/checks/full_geodesic.capture_provenance.json"
+    },
+    {
+      "case": "source poison:udt_ne1_clock_beam_geometry_2026-09-12/review/checks/full_geodesic.json",
+      "reads": 1,
+      "rejection": "NCB1 original source evidence changed: udt_ne1_clock_beam_geometry_2026-09-12/review/checks/full_geodesic.json"
+    },
+    {
+      "case": "source poison:udt_ne1_clock_beam_geometry_2026-09-12/review/checks/full_geodesic.stderr",
+      "reads": 1,
+      "rejection": "NCB1 original source evidence changed: udt_ne1_clock_beam_geometry_2026-09-12/review/checks/full_geodesic.stderr"
+    },
+    {
+      "case": "source poison:udt_ne1_clock_beam_geometry_2026-09-12/review/checks/full_geodesic.stdout",
+      "reads": 1,
+      "rejection": "NCB1 original source evidence changed: udt_ne1_clock_beam_geometry_2026-09-12/review/checks/full_geodesic.stdout"
+    },
+    {
+      "case": "source poison:udt_ne1_clock_beam_geometry_2026-09-12/review/checks/mutant_drop_lapse_response.capture_provenance.json",
+      "reads": 1,
+      "rejection": "NCB1 original source evidence changed: udt_ne1_clock_beam_geometry_2026-09-12/review/checks/mutant_drop_lapse_response.capture_provenance.json"
+    },
+    {
+      "case": "source poison:udt_ne1_clock_beam_geometry_2026-09-12/review/checks/mutant_drop_lapse_response.json",
+      "reads": 1,
+      "rejection": "NCB1 original source evidence changed: udt_ne1_clock_beam_geometry_2026-09-12/review/checks/mutant_drop_lapse_response.json"
+    },
+    {
+      "case": "source poison:udt_ne1_clock_beam_geometry_2026-09-12/review/checks/mutant_drop_lapse_response.stderr",
+      "reads": 1,
+      "rejection": "NCB1 original source evidence changed: udt_ne1_clock_beam_geometry_2026-09-12/review/checks/mutant_drop_lapse_response.stderr"
+    },
+    {
+      "case": "source poison:udt_ne1_clock_beam_geometry_2026-09-12/review/checks/mutant_drop_lapse_response.stdout",
+      "reads": 1,
+      "rejection": "NCB1 original source evidence changed: udt_ne1_clock_beam_geometry_2026-09-12/review/checks/mutant_drop_lapse_response.stdout"
+    },
+    {
+      "case": "source poison:udt_ne1_clock_beam_geometry_2026-09-12/review/checks/mutant_drop_source_width.capture_provenance.json",
+      "reads": 1,
+      "rejection": "NCB1 original source evidence changed: udt_ne1_clock_beam_geometry_2026-09-12/review/checks/mutant_drop_source_width.capture_provenance.json"
+    },
+    {
+      "case": "source poison:udt_ne1_clock_beam_geometry_2026-09-12/review/checks/mutant_drop_source_width.json",
+      "reads": 1,
+      "rejection": "NCB1 original source evidence changed: udt_ne1_clock_beam_geometry_2026-09-12/review/checks/mutant_drop_source_width.json"
+    },
+    {
+      "case": "source poison:udt_ne1_clock_beam_geometry_2026-09-12/review/checks/mutant_drop_source_width.stderr",
+      "reads": 1,
+      "rejection": "NCB1 original source evidence changed: udt_ne1_clock_beam_geometry_2026-09-12/review/checks/mutant_drop_source_width.stderr"
+    },
+    {
+      "case": "source poison:udt_ne1_clock_beam_geometry_2026-09-12/review/checks/mutant_drop_source_width.stdout",
+      "reads": 1,
+      "rejection": "NCB1 original source evidence changed: udt_ne1_clock_beam_geometry_2026-09-12/review/checks/mutant_drop_source_width.stdout"
+    },
+    {
+      "case": "source poison:udt_ne1_clock_beam_geometry_2026-09-12/review/checks/mutant_invert_clock.capture_provenance.json",
+      "reads": 1,
+      "rejection": "NCB1 original source evidence changed: udt_ne1_clock_beam_geometry_2026-09-12/review/checks/mutant_invert_clock.capture_provenance.json"
+    },
+    {
+      "case": "source poison:udt_ne1_clock_beam_geometry_2026-09-12/review/checks/mutant_invert_clock.json",
+      "reads": 1,
+      "rejection": "NCB1 original source evidence changed: udt_ne1_clock_beam_geometry_2026-09-12/review/checks/mutant_invert_clock.json"
+    },
+    {
+      "case": "source poison:udt_ne1_clock_beam_geometry_2026-09-12/review/checks/mutant_invert_clock.stderr",
+      "reads": 1,
+      "rejection": "NCB1 original source evidence changed: udt_ne1_clock_beam_geometry_2026-09-12/review/checks/mutant_invert_clock.stderr"
+    },
+    {
+      "case": "source poison:udt_ne1_clock_beam_geometry_2026-09-12/review/checks/mutant_invert_clock.stdout",
+      "reads": 1,
+      "rejection": "NCB1 original source evidence changed: udt_ne1_clock_beam_geometry_2026-09-12/review/checks/mutant_invert_clock.stdout"
+    },
+    {
+      "case": "source poison:udt_ne1_clock_beam_geometry_2026-09-12/review/checks/parent_numeric_replay.capture_provenance.json",
+      "reads": 1,
+      "rejection": "NCB1 original source evidence changed: udt_ne1_clock_beam_geometry_2026-09-12/review/checks/parent_numeric_replay.capture_provenance.json"
+    },
+    {
+      "case": "source poison:udt_ne1_clock_beam_geometry_2026-09-12/review/checks/parent_numeric_replay.json",
+      "reads": 1,
+      "rejection": "NCB1 original source evidence changed: udt_ne1_clock_beam_geometry_2026-09-12/review/checks/parent_numeric_replay.json"
+    },
+    {
+      "case": "source poison:udt_ne1_clock_beam_geometry_2026-09-12/review/checks/parent_numeric_replay.stderr",
+      "reads": 1,
+      "rejection": "NCB1 original source evidence changed: udt_ne1_clock_beam_geometry_2026-09-12/review/checks/parent_numeric_replay.stderr"
+    },
+    {
+      "case": "source poison:udt_ne1_clock_beam_geometry_2026-09-12/review/checks/parent_numeric_replay.stdout",
+      "reads": 1,
+      "rejection": "NCB1 original source evidence changed: udt_ne1_clock_beam_geometry_2026-09-12/review/checks/parent_numeric_replay.stdout"
+    },
+    {
+      "case": "source poison:udt_ne1_clock_beam_geometry_2026-09-12/review/checks/parent_symbolic_replay.capture_provenance.json",
+      "reads": 1,
+      "rejection": "NCB1 original source evidence changed: udt_ne1_clock_beam_geometry_2026-09-12/review/checks/parent_symbolic_replay.capture_provenance.json"
+    },
+    {
+      "case": "source poison:udt_ne1_clock_beam_geometry_2026-09-12/review/checks/parent_symbolic_replay.json",
+      "reads": 1,
+      "rejection": "NCB1 original source evidence changed: udt_ne1_clock_beam_geometry_2026-09-12/review/checks/parent_symbolic_replay.json"
+    },
+    {
+      "case": "source poison:udt_ne1_clock_beam_geometry_2026-09-12/review/checks/parent_symbolic_replay.stderr",
+      "reads": 1,
+      "rejection": "NCB1 original source evidence changed: udt_ne1_clock_beam_geometry_2026-09-12/review/checks/parent_symbolic_replay.stderr"
+    },
+    {
+      "case": "source poison:udt_ne1_clock_beam_geometry_2026-09-12/review/checks/parent_symbolic_replay.stdout",
+      "reads": 1,
+      "rejection": "NCB1 original source evidence changed: udt_ne1_clock_beam_geometry_2026-09-12/review/checks/parent_symbolic_replay.stdout"
+    },
+    {
+      "case": "source poison:udt_ne1_clock_beam_geometry_2026-09-12/review/checks/source_first_symbolic.capture_provenance.json",
+      "reads": 1,
+      "rejection": "NCB1 original source evidence changed: udt_ne1_clock_beam_geometry_2026-09-12/review/checks/source_first_symbolic.capture_provenance.json"
+    },
+    {
+      "case": "source poison:udt_ne1_clock_beam_geometry_2026-09-12/review/checks/source_first_symbolic.json",
+      "reads": 1,
+      "rejection": "NCB1 original source evidence changed: udt_ne1_clock_beam_geometry_2026-09-12/review/checks/source_first_symbolic.json"
+    },
+    {
+      "case": "source poison:udt_ne1_clock_beam_geometry_2026-09-12/review/checks/source_first_symbolic.stderr",
+      "reads": 1,
+      "rejection": "NCB1 original source evidence changed: udt_ne1_clock_beam_geometry_2026-09-12/review/checks/source_first_symbolic.stderr"
+    },
+    {
+      "case": "source poison:udt_ne1_clock_beam_geometry_2026-09-12/review/checks/source_first_symbolic.stdout",
+      "reads": 1,
+      "rejection": "NCB1 original source evidence changed: udt_ne1_clock_beam_geometry_2026-09-12/review/checks/source_first_symbolic.stdout"
+    },
+    {
+      "case": "source poison:udt_ne1_clock_beam_geometry_2026-09-12/review/full_geodesic_check.py",
+      "reads": 1,
+      "rejection": "NCB1 original source evidence changed: udt_ne1_clock_beam_geometry_2026-09-12/review/full_geodesic_check.py"
+    },
+    {
+      "case": "source poison:udt_ne1_clock_beam_geometry_2026-09-12/review/source_first_symbolic.py",
+      "reads": 1,
+      "rejection": "NCB1 original source evidence changed: udt_ne1_clock_beam_geometry_2026-09-12/review/source_first_symbolic.py"
+    },
+    {
+      "case": "acceptance poison:udt_ncb1_banking_2026-09-12/WORK_ORDER.md",
+      "reads": 1,
+      "rejection": "NCB1 guard file changed: udt_ncb1_banking_2026-09-12/WORK_ORDER.md"
+    },
+    {
+      "case": "acceptance poison:udt_ncb1_banking_2026-09-12/BANKING_RECORD.md",
+      "reads": 1,
+      "rejection": "NCB1 guard file changed: udt_ncb1_banking_2026-09-12/BANKING_RECORD.md"
+    },
+    {
+      "case": "acceptance poison:udt_ncb1_banking_2026-09-12/BANKED_CLAIM.json",
+      "reads": 1,
+      "rejection": "NCB1 guard file changed: udt_ncb1_banking_2026-09-12/BANKED_CLAIM.json"
+    },
+    {
+      "case": "acceptance poison:udt_ncb1_banking_2026-09-12/BANKED_ROW.tsv",
+      "reads": 1,
+      "rejection": "NCB1 guard file changed: udt_ncb1_banking_2026-09-12/BANKED_ROW.tsv"
+    },
+    {
+      "case": "acceptance poison:udt_ncb1_banking_2026-09-12/SOURCE_EVIDENCE_SHA256SUMS",
+      "reads": 1,
+      "rejection": "NCB1 guard file changed: udt_ncb1_banking_2026-09-12/SOURCE_EVIDENCE_SHA256SUMS"
+    },
+    {
+      "case": "authority poison",
+      "reads": 1,
+      "rejection": "NCB1 authority source changed"
+    }
+  ],
+  "removed_authentication_catchproof_red_modules": [
+    "verify_current_scientific_premises",
+    "ti1_banking_guard",
+    "ti2_banking_guard"
+  ],
+  "inherited_assertions_exactly_preserved": {
+    "ti1_banking_guard.py": 14,
+    "ti2_banking_guard.py": 14,
+    "tests/test_ti1_banking.py": 5,
+    "tests/test_ti2_banking.py": 6
+  },
+  "source_files_each_actually_poisoned": 87,
+  "mutation_method": "Path.open in-memory streams cover read_bytes/read_text/read_tsv without source writes",
+  "science_reruns": 0,
+  "guard_route": "independent input-harness, shared guarded implementations"
+}

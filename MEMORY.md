@@ -1,6 +1,6 @@
 # MEMORY — compact pointer only
 
-`LIVE.md` wins. The exact 397-row `CURRENT_SCIENTIFIC_PREMISES.tsv` owns grades;
+`LIVE.md` wins. The exact 398-row `CURRENT_SCIENTIFIC_PREMISES.tsv` owns grades;
 `CURRENT_RESEARCH_PROGRAM.md` is the dependency spine and `INDEX.md` the evidence map.
 
 The kernel evaluates supplied ordered depth; complete `B,Q,S,Y,Z` enters before readout.
@@ -21,7 +21,7 @@ with actual local Lambda=0 realizations; not general metric realization or physi
 Evidence, false passes, repairs and lost-output caveats stay fixed.
 G383--G412 exact-scope banking COMPLETE; three CD vacuous checks remain EXCLUDED.
 27 conditional mathematical results plus CO2 design, LC2 benchmark and FW2 finite procedure; scopes: INDEX.
-G413=TI1/G414=TI2 conditional; original396 rows/evidence unchanged; checks/reviews: INDEX.
+G413=TI1/G414=TI2/G415=NCB1 conditional; original397 rows/evidence unchanged; checks/reviews: INDEX.
 
 Keep the corrections explicit:
 

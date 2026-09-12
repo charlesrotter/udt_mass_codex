@@ -1,0 +1,24 @@
+{
+  "utc": "2026-09-12T19:45:06.013677+00:00",
+  "audit_result": {
+    "command": [
+      "python3",
+      "verify_current_scientific_premises.py"
+    ],
+    "cwd": "/home/udt-admin/udt_mass_codex",
+    "started_utc": "2026-09-12T19:37:50.444950+00:00",
+    "duration_seconds": 403.5759908319451,
+    "returncode": 0,
+    "timeout": false,
+    "address_space_bytes": 2147483648,
+    "cpu_seconds": 900,
+    "maxrss_kib": 120576
+  },
+  "full398_stdout_sha256": "d5903d7fd58fbcd857473d08b2c2ac0efb5467ee7806ebb99281a82f357c1843",
+  "stdout_format": "plain PASS text, not JSON",
+  "frozen142_files_unchanged": true,
+  "tracked_change_set_unchanged": true,
+  "original397_and_all87_source_validation": "PASS after audit",
+  "atomic_filesystem_snapshot": false,
+  "ps_observation": "Scoped ps query returned no matching visible Python process while exec session was still running; no cause inferred. Completed exec/capture owns execution result."
+}

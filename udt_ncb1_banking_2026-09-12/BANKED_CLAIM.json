@@ -1,0 +1,29 @@
+{
+  "baseline_head": "fd6a28e6c9ee72b1d6e19e0c2e8d03c645e9a8e1",
+  "original397_sha256": "2c27fa4b8931672c44b4d778aab0f2a2631c04a5c586358340db1dc763b74f7e",
+  "original397_rows": 397,
+  "original_ncb1_files": 87,
+  "required_registry_ids": [
+    "G394",
+    "G220",
+    "G348",
+    "G312"
+  ],
+  "controls_and_source_credit": [
+    "G342"
+  ],
+  "claim": {
+    "premise_id": "G415",
+    "term": "ne1_longitudinal_clock_and_infinitesimal_beam_persistence",
+    "current_status": "BANKED_DERIVED_CONDITIONAL__VERIFIED_WITH_CAVEATS__OWNER_AUTHORIZED__NOT_PHYSICAL_ADOPTION__NOT_CANON",
+    "epistemic_label": "MIXED",
+    "active_use": "NCB1; ENTIRE frozen INITIAL_CANDIDATE equations (1)-(14), substantive/final reviews and editorial clarification. Supplied G394 exact compact polarized NE1 metric, all finite real epsilon, supplied marking/normalization/areal-normal observers, both longitudinal signs s=+/-1, ordered 0<t_e<t_o<infinity, separate path lifts. Exact affine K=C N^-2(partial_t+s partial_xi), omega=C/N, proper clock slope R=N_o/N_e, R0=(t_e/t_o)^(1/4). log(R/R0)=one quarter integral t(P_t+sP_xi)^2 dt; strictly positive on every nonempty leg for epsilon!=0, equality at epsilon=0; R itself need not exceed one on every finite leg. Both screen widths D_i=b_i(e)b_i(o)/N_e integral N^2/b_i^2 dt solve original metric-curvature Jacobi equations with unit source-frequency vertex normalization. Both are positive, excluding noncoincident conjugate endpoints only on these longitudinal future rays. Source factors, common affine covariance and same-segment reverse area A_forward/A_reverse=R^2 retained; G348 reciprocity reused. Zero amplitude exactly recovers G342 longitudinal background. At fixed t_e=1 and fixed epsilon!=0, log(R/R0)/t_o tends epsilon^2 sigma/4, log(A_forward/A0)/t_o tends epsilon^2 sigma with sigma>0, and D_y/D_z tends one although P fades. At another fixed source the shape limit is exp(P_e). Fixed marked path length d>0 with late emission is a DIFFERENT comparison: liminf/limsup R/R0 and R equal exp{epsilon^2 sigma[d +/- abs(sin(2kd))/(2k)]/4}>1; generally oscillatory, single limit exp(epsilon^2 sigma d/4) when sin(2kd)=0.",
+    "open_scope": "Supplied conditional G394 geometry, data, polarization, areal observers, marking and longitudinal paths are not selected UDT physics. Current G312 GR FILTER ONLY; native response membership, complete event/path assignment/kernel assembly and physical identification remain OPEN. Fixed marked path is fixed coordinate lift/areal-time increment, not proper baseline, proper duration or apparatus size. Long-reception rates are in marked orbit area, not proper time or affine distance. Constants depend on fixed amplitude/data; no uniform simultaneous small-amplitude/all-time limit, constant asymptotic prefactor, monotone circularization, generic stability or absolute curvature blowup. Width-ratio convergence is not zero instantaneous shear/tide. No nonaxial/finite-beam or global cut-locus claim, route weighting/population, light/flux/luminosity/observational distance, Hubble replacement, physical source/action/carrier/scale/X_max selection or canon. c_E remains calibration; G176 WORKING is unchanged and a clock ratio does not construct a full pair plane.",
+    "forbidden_regression": "Conditional metric readout called native response selection, empirical physical adoption or canon; fixed marked path called fixed physical instrument baseline; clock contrast R/R0>1 called R>1 on every finite leg; late-reception divergence conflated with bounded late-emission fixed-path persistence; width ratio called absolute-width convergence or monotonic recovery; positive axial Jacobi map extended to all rays/cuts/finite beams; reused G348 reciprocity or G394 geometry called new discovery; source/failure history rewritten, finite samples called asymptotic proof/interval certification, counts/checksums called truth, same-code replay called independent derivation, fresh context called different-model or general capacity attestation.",
+    "controlling_source": "udt_ncb1_banking_2026-09-12/BANKING_RECORD.md",
+    "precedence_rule": "G415 accepts NCB1 only at the ENTIRE original candidate/review scope. G394 supplies geometry/full data/estimates; G220/G348 supply clock/quotient-screen identities; G312 current authority qualifies equation ownership; G342 is background control/source credit. Initial analytic/check freeze followed hand derivation but preceded reviewer findings; source-first review had question/route exposure; direct full-geodesic implementation distinct, replays regression. Zero scientific repairs; three editorial clarifications preserved. Original UNPROMOTED headers are historical under this Charles-authorized overlay. Fresh banking review is source-exposed fidelity/integration, not blind scientific reproof. Runtime model/version UNATTESTED. LIVE then exact registry then this record/full immutable sources; conflict means STOP."
+  },
+  "authority_source": "udt_gr_filter_reconciliation_2026-09-09/AUTHORITY_RECORD.md",
+  "authority_sha256": "80daa0be6d3e1c0ac1b734fea089c4eb487f05bc1e1fbb2fabd69322ca89f28c",
+  "review_state": "Original substantive/final review VERIFIED-WITH-CAVEATS; no scientific repair; new banking fidelity/current398 gates separately required by CLOSEOUT.md"
+}

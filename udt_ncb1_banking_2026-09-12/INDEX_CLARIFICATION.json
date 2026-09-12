@@ -1,0 +1,10 @@
+{
+  "utc": "2026-09-12T19:32:37.824139+00:00",
+  "file": "INDEX.md",
+  "before_sha256": "ae9f633607d09ff9d212ade8c5a696bf1a7e4fd030ad334814e9137e2749d0dc",
+  "after_sha256": "784162cb00dcb87886f9c5d05f26ac653830b94a053820ad132a1f4da98b2d1a",
+  "old": "NCB1 acceptance/ZDR1/OB1/OB2: roadmap.",
+  "new": "NCB1/ZDR1/OB1/OB2: roadmap.",
+  "reason": "Initial integration actual1failed646passed1deselected:571words vs570cap",
+  "scientific_change": false
+}

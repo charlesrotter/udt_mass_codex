@@ -1,0 +1,44 @@
+{
+  "utc": "2026-09-12T19:28:36.585380+00:00",
+  "reviewer": "/root/ncb1_banking_review",
+  "branch": "grok",
+  "head": "fd6a28e6c9ee72b1d6e19e0c2e8d03c645e9a8e1",
+  "verdict": "PASS_SOURCE_CORRESPONDENCE_NOT_SCIENTIFIC_REPROOF",
+  "parent_startup": "Attributed WORK_ORDER/LAUNCH; no duplicate top-level startup/sync/audit",
+  "source_package_files": 87,
+  "source_manifest_sha256": "6eafd142e118c31dfcd004a4ff333ebcefdfd116d9e8c6aded230933cbe34dd8",
+  "source_package_all_match_baseline": true,
+  "historical_source_pins_authenticated_at_baseline": 22,
+  "initial_freeze_unchanged": true,
+  "editorial_reverse_hash_chain_changes": 3,
+  "original_manifest_historical_commit": "dcb163d0da89b3008de2321ee2ddb0138f76e58e",
+  "original_manifest_entries_authenticated": 91,
+  "prebank_full397_receipt": {
+    "command": [
+      "python3",
+      "verify_current_scientific_premises.py"
+    ],
+    "cwd": "/home/udt-admin/udt_mass_codex",
+    "started_utc": "2026-09-12T17:25:43.776954+00:00",
+    "duration_seconds": 404.72793896193616,
+    "returncode": 0,
+    "timeout": false,
+    "address_space_bytes": 2147483648,
+    "cpu_seconds": 900,
+    "maxrss_kib": 120384
+  },
+  "prebank_stdout_sha256": "1f5754fac60de94603f5c3aecda2cf2558b05b4f3394a6490cdd44085fc307fa",
+  "original397_sha256": "2c27fa4b8931672c44b4d778aab0f2a2631c04a5c586358340db1dc763b74f7e",
+  "required_row_structured_sha256": {
+    "G394": "ff83a9ef9992c8377943fab6bf0eb228cb5d6f6ebfc7046fbb72244499c7629d",
+    "G348": "f6c903cc434a0c42b80342ee980ea34eddaea0ade6a719059a864a93d2bf1a54",
+    "G342": "b0da9d77ca2f369a70cf01873966c60c041d83be11c788bf4b5800156237c9a8",
+    "G312": "2546d8d4dce4219a7cc6f0430ca9d624a27cbf2026329436b3d7ef57844e4d9c",
+    "G220": "3d750129a5f8aaaaed476ec509b65b034dfac75c2941d0fde37a4545608bf03f"
+  },
+  "runtime_model_version": "UNATTESTED",
+  "general_capacity": "UNVERIFIED",
+  "protected_payloads": "NOT read or hashed",
+  "science_programs_rerun": 0,
+  "new_parent_claim_or_guard_exposure": "NONE before direct invitation"
+}

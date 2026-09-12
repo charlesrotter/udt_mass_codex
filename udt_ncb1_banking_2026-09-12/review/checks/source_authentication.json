@@ -1,0 +1,14 @@
+{
+  "command": [
+    "python3",
+    "udt_ncb1_banking_2026-09-12/review/source_authenticate.py"
+  ],
+  "cwd": "/home/udt-admin/udt_mass_codex",
+  "started_utc": "2026-09-12T19:28:36.142760+00:00",
+  "duration_seconds": 0.4472628420917317,
+  "returncode": 0,
+  "timeout": false,
+  "address_space_bytes": 2147483648,
+  "cpu_seconds": 180,
+  "maxrss_kib": 18080
+}

@@ -1,0 +1,7 @@
+{
+  "verdict": "FIDELITY_REVIEWED__VERIFIED_WITH_CAVEATS__EXACT_CONDITIONAL_G415_ACCEPTANCE",
+  "frozen_input_files": 142,
+  "sealed_paths": 180,
+  "elapsed_upper_bound_minutes": 23.221034216666666,
+  "receipt_sha256": "64bd95612f95571ef8bb37ff75b2d1eb5d0539112b7c70ed77cb0668fdb940f0"
+}

@@ -1,0 +1,25 @@
+{
+  "utc": "2026-09-12T19:38:34.778973+00:00",
+  "original46_name_status_unchanged": true,
+  "name_status_sha256": "55e7c4508622f912730f9c068cc571c370b3977bc1110eb0a48a8218dbe024c2",
+  "tracked_changes": [
+    "AGENTS.md",
+    "CURRENT_RESEARCH_PROGRAM.md",
+    "CURRENT_SCIENTIFIC_PREMISES.md",
+    "CURRENT_SCIENTIFIC_PREMISES.tsv",
+    "HANDOFF.md",
+    "INDEX.md",
+    "LIVE.md",
+    "MEMORY.md",
+    "UDT_RESEARCH_ROADMAP.md",
+    "tests/test_startup_surface.py",
+    "tests/test_ti1_banking.py",
+    "tests/test_ti2_banking.py",
+    "ti1_banking_guard.py",
+    "ti2_banking_guard.py",
+    "verify_current_scientific_premises.py"
+  ],
+  "protected_payloads": "NOT read or hashed; this is name/status preservation only",
+  "original87_source_checks": "authenticated by new source guard before full398; final recheck pending",
+  "scope": "Banking package and17 explicitly authorized integration paths only; full input freeze is separately recorded."
+}
