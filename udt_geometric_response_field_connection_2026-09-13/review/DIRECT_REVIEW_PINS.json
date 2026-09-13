@@ -1,0 +1,27 @@
+{
+  "recorded_utc": "2026-09-13T15:59:11.042400+00:00",
+  "review_context": "/root/screen_field_connection_review",
+  "runtime_model": "UNATTESTED",
+  "different_model": "UNTESTED",
+  "general_capacity": "UNVERIFIED",
+  "verdict": "VERIFIED-WITH-CAVEATS__CONDITIONAL_UNPROMOTED",
+  "pins": {
+    "INITIAL_CANDIDATE.md": "e88212df8f042d7c1f9fba9b9e2cef3c6c7952cb37856a2e146137996fe5fa47",
+    "ORIENTATION_CLARIFICATION.md": "cd2c52e5374ddd2b167691fcb5b403a407c1aeed1e6c9259d7f13822fa7da63e",
+    "CHECK_REPAIR.md": "1c2f3458ae3b9012ad2b13112a56df67af118eb968d7a609c89a46ebd49c5110",
+    "SUPPLEMENTAL_CONNECTION.md": "cd7348ac59e168a73b22911c77a9590c52c4f86696ca306ebff5b2ec1bbb6ffa",
+    "check_connection.py": "beb9f843bcf701169df4d30728aa828e7c2489a5358343e94915f38439867435",
+    "check_connection_repaired.py": "910628248843c192785a4189ba377ceaacd7830f1a67c97825980692df8d5efa",
+    "check_supplement.py": "70f8e819f708e70a44b24ff5deffd360cff12a739e69d072232339d8aa0f1bbc",
+    "CONNECTION_RESULT.json": "54e45866f0cf37ac2b478f3888c15abe1700429277f265a3dad720ebb80aa248",
+    "CONNECTION_REPAIRED_RESULT.json": "62892ade837cc8c425b3d33ae022f632c783037d53efe462e47960a60239ea8d",
+    "SUPPLEMENT_RESULT.json": "561ef73888d5e2106c8a3809b7c6e0849607e82306f8c124fee6bdbd3f691c1c",
+    "SOURCE_PINS.json": "9a734851638736bb5cd219b99e601d6df29f5787d6108cc696f7abaaddbe9b41",
+    "review/SOURCE_FIRST.md": "8c1422b639eb188bf8aeb7f2df94dce03b8038b18191d66df7109b4029aaa0d0",
+    "review/SOURCE_FIRST_PRECISION_NOTE.md": "8bf58c370a6e9426cb37cdf0294b217442ae8766577e83b64d81df66615a46e9",
+    "review/INDEPENDENT_RESULT.json": "c7b2b3bb465e9126e01bfa78119d6a1dc0e83ef859259116ee53a3e72ee715d3",
+    "review/REPAIR_SUPPLEMENT_RESULT.json": "dcf483812c702466efe3785498c1ebe71e92646d0bbbe48dfee4f436e23fc832",
+    "review/DIRECT_REVIEW.md": "76d583a1469dd04a6f37b43a68a9e9824a18b9c025d5fd10ffe398e32f58d373"
+  },
+  "final_fidelity": "pending separate final-document exposure"
+}

@@ -1,0 +1,10 @@
+{
+  "recorded_utc": "2026-09-13T15:53:47.944657+00:00",
+  "pins": {
+    "udt_geometric_response_field_connection_2026-09-13/review/INDEPENDENT_CHECK_PLAN.md": "97a08d8f097ad79eb0ea04e168933ff7f9126612af444e0ade44fcef4f3e11c2",
+    "udt_geometric_response_field_connection_2026-09-13/review/independent_connection.py": "8434e3d6031f95f07dde65dd9df2f2f23345e3d4b25e66747e2ae065643d49a7",
+    "udt_current_native_radiation_feasibility_2026-09-13/review/independent_exact.py": "d7b4c22e9d3557c197c2b946d5d2305fe29e5542488edaacc54a5dc27d7fe825",
+    "udt_shared_readout_metric_constraint_campaign_2026-09-06/run_capture.py": "8ff5469ace76bdfc84188915242abbf3baff35516f9ee3f9ba4b1cbfeb2573ef"
+  },
+  "exposure": "candidate/code and parent reported36/37 event-comparator defect, no new reviewer check result yet"
+}

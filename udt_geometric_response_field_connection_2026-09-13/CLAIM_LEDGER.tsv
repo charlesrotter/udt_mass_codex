@@ -1,0 +1,7 @@
+id	result	scope	dependency	extra_choices	limit
+GFC1-A	parallel-null-compatible screen curvature vanishes	all local oriented spacelike screens contained in k-perp on H0	G95 connection; parallel k and quotient flatness	oriented screen and local frame	metric tidal curvature remains nonzero; no all-screen no-go
+GFC1-B	boost-screen exact connection and curvature	all smooth real w1(u),w2(u),u>0 on fixed H0	G95 original connection; supplied Lorentz boost	full screen profiles and reference frame	connection B term must be kept; special du-only wedge cancellation
+GFC1-C	aligned-field representation via boost	all existing NR2 smooth aligned profiles, including zeros	GFC1-B; NR2 aligned family	w1=u² beta/sqrt2,w2=u² alpha/sqrt2	conditional representation, not selection or all-field classification
+GFC1-D	null-lift representation and exact potential relation	all smooth a(u),b(u); NR2 Killing subset for named K	fresh reviewer source-first; G95 original connection	supplied alternative null lift and normalization	l generally nongeodesic; no physical ray identification
+GFC1-E	distinct screen planes can have the same A and F	q=u²,r=0 example on whole u>0 patch	GFC1-B/D; explicit N contractions	two different supplied reductions	witness of nonuniqueness, not complete representation census
+GFC1-F	actual screen curvatures are source-free and null where nonzero	declared aligned family on full H0	original exterior/density-divergence equations	geometry and screen profiles	no generic source-free law; physical content remains open

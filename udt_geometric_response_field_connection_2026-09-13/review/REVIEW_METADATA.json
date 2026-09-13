@@ -1,0 +1,49 @@
+{
+  "recorded_utc": "2026-09-13T16:00:55.240712+00:00",
+  "context": "/root/screen_field_connection_review",
+  "fresh_context": true,
+  "fork_turns": "none",
+  "subdelegation": false,
+  "runtime_model": "UNATTESTED",
+  "different_model": "UNTESTED",
+  "general_capacity": "UNVERIFIED",
+  "configured_parent_attribution": "gpt-6-astra/xhigh; not runtime attestation",
+  "source_first_file_sha256": "8c1422b639eb188bf8aeb7f2df94dce03b8038b18191d66df7109b4029aaa0d0",
+  "source_first_frozen_utc": "2026-09-13T15:48:40.753968+00:00",
+  "direct_exposure": "after source-first freeze, before15:50:12UTC tool clock",
+  "prior_source_verdicts_exposed": true,
+  "independent_argument": "source-first null-lift representation; later exposed boost reconstruction",
+  "different_implementation": "new screen/connection/gauge checks using inspected prior NR1 stdlib Fraction jet engine; no parent SymPy scientific code executed",
+  "new_scientific_processes": 3,
+  "scientific_executions": [
+    {
+      "capture": "independent_initial_capture.json",
+      "outcome": "exit1 invalid reviewer rational sqrt input; no result JSON, no pass count"
+    },
+    {
+      "capture": "independent_repaired_capture.json",
+      "outcome": "99/99 exit0"
+    },
+    {
+      "capture": "repair_supplement_capture.json",
+      "outcome": "9/9 exit0"
+    }
+  ],
+  "resource_ceiling_per_scientific_process": "60CPU seconds and60wall seconds/512MiB; one scientific process/thread at a time; tighter than authorized180s/2048MiB",
+  "full406_rerun": false,
+  "parent_full406": "actual capture and stdout PASS inspected; no independent premise rerun",
+  "python": "3.10.12",
+  "direct_review_verdict": "VERIFIED-WITH-CAVEATS__CONDITIONAL_UNPROMOTED",
+  "final_fidelity": "FIDELITY_REVIEWED__VERIFIED-WITH-CAVEATS__CONDITIONAL_UNPROMOTED",
+  "final_fidelity_utc": "2026-09-13T16:06:53.932769+00:00",
+  "administrative_final_captures": [
+    {
+      "capture": "final_fidelity_capture.json",
+      "outcome": "exit1 Git threaded-lstat resource error, no final result JSON"
+    },
+    {
+      "capture": "final_fidelity_repaired_capture.json",
+      "outcome": "57/57 exit0 with per-command Git index-thread controls"
+    }
+  ]
+}

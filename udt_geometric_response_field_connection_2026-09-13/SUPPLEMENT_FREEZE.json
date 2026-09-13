@@ -1,0 +1,11 @@
+{
+  "recorded_utc": "2026-09-13T15:53:42.817732+00:00",
+  "origin": "reviewer source-first null-lift route, then direct-review general boost primitive; parent reconstructed proof before this supplemental run",
+  "exposure": "initial parent36/37 outcome and reviewer hand findings exposed; independent reviewer code/results not seen",
+  "pins": {
+    "SUPPLEMENTAL_CONNECTION.md": "cd7348ac59e168a73b22911c77a9590c52c4f86696ca306ebff5b2ec1bbb6ffa",
+    "check_supplement.py": "70f8e819f708e70a44b24ff5deffd360cff12a739e69d072232339d8aa0f1bbc",
+    "review/SOURCE_FIRST.md": "8c1422b639eb188bf8aeb7f2df94dce03b8038b18191d66df7109b4029aaa0d0"
+  },
+  "ceiling": "same full existing geometry and allowed auxiliary screen choices; no added physical premise or expanded metric family"
+}

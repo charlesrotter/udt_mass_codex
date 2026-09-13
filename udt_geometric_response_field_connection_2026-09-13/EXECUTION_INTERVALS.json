@@ -1,0 +1,133 @@
+{
+  "recorded_utc": "2026-09-13T16:02:30.609513+00:00",
+  "scope": "Bounded captured operations only; uncaptured administrative/source-reading commands are not a complete CPU census. Reviewer-context overlap is separately recorded in its final receipt.",
+  "intervals": [
+    {
+      "capture": "checks/connection.json",
+      "context": "parent",
+      "start_utc": "2026-09-13T15:48:39.304882+00:00",
+      "end_utc": "2026-09-13T15:48:41.129428+00:00",
+      "seconds": 1.8245455709984526,
+      "exit": 1,
+      "command": [
+        "python3",
+        "udt_geometric_response_field_connection_2026-09-13/check_connection.py",
+        "udt_geometric_response_field_connection_2026-09-13/CONNECTION_RESULT.json"
+      ]
+    },
+    {
+      "capture": "checks/connection_repaired.json",
+      "context": "parent",
+      "start_utc": "2026-09-13T15:51:47.236788+00:00",
+      "end_utc": "2026-09-13T15:51:49.103364+00:00",
+      "seconds": 1.8665763599565253,
+      "exit": 0,
+      "command": [
+        "python3",
+        "udt_geometric_response_field_connection_2026-09-13/check_connection_repaired.py",
+        "udt_geometric_response_field_connection_2026-09-13/CONNECTION_REPAIRED_RESULT.json"
+      ]
+    },
+    {
+      "capture": "checks/current_surface.json",
+      "context": "parent",
+      "start_utc": "2026-09-13T16:00:58.237864+00:00",
+      "end_utc": "2026-09-13T16:00:58.423139+00:00",
+      "seconds": 0.1852754760766402,
+      "exit": 0,
+      "command": [
+        "python3",
+        "-c",
+        "from pathlib import Path; import verify_current_scientific_premises as v; v.validate_startup_surface(Path.cwd()); print(\"PASS: actual GFC1 current startup surface\")"
+      ]
+    },
+    {
+      "capture": "checks/navigation.json",
+      "context": "parent",
+      "start_utc": "2026-09-13T16:01:09.307726+00:00",
+      "end_utc": "2026-09-13T16:01:24.435300+00:00",
+      "seconds": 15.127573850913905,
+      "exit": 0,
+      "command": [
+        "python3",
+        "-m",
+        "pytest",
+        "--noconftest",
+        "-q",
+        "-p",
+        "no:cacheprovider",
+        "tests/test_startup_surface.py",
+        "-k",
+        "not full_foundational_premise_verifier_is_in_pytest"
+      ]
+    },
+    {
+      "capture": "checks/premise406.json",
+      "context": "parent",
+      "start_utc": "2026-09-13T15:36:35.107989+00:00",
+      "end_utc": "2026-09-13T15:43:20.640258+00:00",
+      "seconds": 405.5322694659699,
+      "exit": 0,
+      "command": [
+        "python3",
+        "verify_current_scientific_premises.py"
+      ]
+    },
+    {
+      "capture": "checks/supplement.json",
+      "context": "parent",
+      "start_utc": "2026-09-13T15:53:52.534559+00:00",
+      "end_utc": "2026-09-13T15:53:52.993659+00:00",
+      "seconds": 0.4591002899687737,
+      "exit": 0,
+      "command": [
+        "python3",
+        "udt_geometric_response_field_connection_2026-09-13/check_supplement.py",
+        "udt_geometric_response_field_connection_2026-09-13/SUPPLEMENT_RESULT.json"
+      ]
+    },
+    {
+      "capture": "review/independent_initial_capture.json",
+      "context": "reviewer",
+      "start_utc": "2026-09-13T15:54:16.131604+00:00",
+      "end_utc": "2026-09-13T15:54:16.302221+00:00",
+      "seconds": 0.17061685607768595,
+      "exit": 1,
+      "command": [
+        "python3",
+        "udt_geometric_response_field_connection_2026-09-13/review/independent_connection.py",
+        "udt_geometric_response_field_connection_2026-09-13/review/INDEPENDENT_INITIAL_RESULT.json"
+      ]
+    },
+    {
+      "capture": "review/independent_repaired_capture.json",
+      "context": "reviewer",
+      "start_utc": "2026-09-13T15:55:03.437293+00:00",
+      "end_utc": "2026-09-13T15:55:03.600849+00:00",
+      "seconds": 0.16355599905364215,
+      "exit": 0,
+      "command": [
+        "python3",
+        "udt_geometric_response_field_connection_2026-09-13/review/independent_connection_repaired.py",
+        "udt_geometric_response_field_connection_2026-09-13/review/INDEPENDENT_RESULT.json"
+      ]
+    },
+    {
+      "capture": "review/repair_supplement_capture.json",
+      "context": "reviewer",
+      "start_utc": "2026-09-13T15:57:12.825413+00:00",
+      "end_utc": "2026-09-13T15:57:12.880526+00:00",
+      "seconds": 0.05511301103979349,
+      "exit": 0,
+      "command": [
+        "python3",
+        "udt_geometric_response_field_connection_2026-09-13/review/check_repair_supplement.py",
+        "udt_geometric_response_field_connection_2026-09-13/review/REPAIR_SUPPLEMENT_RESULT.json"
+      ]
+    }
+  ],
+  "captured_process_overlaps": [],
+  "same_context_overlap_detected": false,
+  "runtime_model": "UNATTESTED",
+  "general_capacity": "UNVERIFIED"
+}

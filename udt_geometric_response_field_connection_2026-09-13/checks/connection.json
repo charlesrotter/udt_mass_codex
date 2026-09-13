@@ -1,0 +1,15 @@
+{
+  "command": [
+    "python3",
+    "udt_geometric_response_field_connection_2026-09-13/check_connection.py",
+    "udt_geometric_response_field_connection_2026-09-13/CONNECTION_RESULT.json"
+  ],
+  "cwd": "/home/udt-admin/udt_mass_codex",
+  "started_utc": "2026-09-13T15:48:39.304882+00:00",
+  "duration_seconds": 1.8245455709984526,
+  "returncode": 1,
+  "timeout": false,
+  "address_space_bytes": 2147483648,
+  "cpu_seconds": 180,
+  "maxrss_kib": 56512
+}

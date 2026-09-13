@@ -1,0 +1,409 @@
+{
+  "utc": "2026-09-13T16:05:08.292428+00:00",
+  "kind": "final administrative byte/result/status correspondence; no mathematical reproof",
+  "request_sha256": "6b754996674e33ef6fc1cdcf9e127cf11802d209a2d3fd6c67ae5f4da54de3b1",
+  "helper_utility": "udt_geometric_field_choice_discrimination_2026-09-13/review/final_fidelity_checks.py",
+  "helper_utility_sha256": "0fa48aa2249c8ba9300a353ee3e0b534db7bd9d0066bd3748fe202750b2828fc",
+  "helper_definitions": [
+    "gate",
+    "pincheck",
+    "sha"
+  ],
+  "code_sha256": "a1b2a8447985b945137279737bcfe6473d27c01bcded8993ddac9b9ffe9750a1",
+  "checks": [
+    {
+      "name": "16_frozen_package_documents",
+      "pass": true,
+      "count": 16,
+      "actual": {
+        "WORK_ORDER.md": "c42de04417e2e3ca60dc1d86c2f85c21ca3349c269b5ba61cacc2d3ce9b3c844",
+        "SOURCE_MAP.md": "bd27219b9ee9e8fbef11cace0f2963fdbe167e948224f4a831f21138c22cb0c9",
+        "EXPLORATION_HISTORY.md": "d1b463636ff8c82963f9d9e80e0ca2ddf491578dc1034db7f9959253cc9aff8c",
+        "INITIAL_CANDIDATE.md": "e88212df8f042d7c1f9fba9b9e2cef3c6c7952cb37856a2e146137996fe5fa47",
+        "ORIENTATION_CLARIFICATION.md": "cd2c52e5374ddd2b167691fcb5b403a407c1aeed1e6c9259d7f13822fa7da63e",
+        "CHECK_REPAIR.md": "1c2f3458ae3b9012ad2b13112a56df67af118eb968d7a609c89a46ebd49c5110",
+        "SUPPLEMENTAL_CONNECTION.md": "cd7348ac59e168a73b22911c77a9590c52c4f86696ca306ebff5b2ec1bbb6ffa",
+        "REVIEWED_RESULT.md": "593c3de470fb009ceaab5a2b012ba05b537231a8ca92c078f26d25e1dac59bde",
+        "DECISION_BRIEF.md": "dc1182e5131e511bdf17dd5f02f13389c9561c5df17a546526a060d2c69339f9",
+        "CLAIM_LEDGER.tsv": "7b3e29349d9468ec44e3487df1dbf540cbde0ae241b2f849be5c6b787bd385d3",
+        "README.md": "26a675174dbdd1b1d320f901bc63013e7c4c72bc21aac7fba55af155206f15ca",
+        "CLOSEOUT.md": "6de382731fc12861bcceb714accab75c86e3e176422b682c7ce21335d4ff36bf",
+        "CHECKPOINT.md": "122bfbedc54f93eed2d845026f82ce776e2efb9e7a67fbed97daf70f0e9b40b0",
+        "PRESERVATION.json": "f0ab5c08f58fc9842678db5f0d6b6f253db259a1d7faa2136aabc89dc40a3a64",
+        "AUDIT_REUSE.json": "8e7ba9678d92cc474b48f6cfe9b02ed7f44263718ee67c1c02de8367c8ac499d",
+        "EXECUTION_INTERVALS.json": "c1f30cf4d4b88ff76f2732f460fb6dcab9a51ceaee9d08aa36054c7b0dc188f2"
+      }
+    },
+    {
+      "name": "6_frozen_navigation_documents",
+      "pass": true,
+      "count": 6,
+      "actual": {
+        "CURRENT_RESEARCH_PROGRAM.md": "614e06d8a8369df5b4fd8dc4ae806b3ed1d7a52025c79a60e488fcd2d820573c",
+        "HANDOFF.md": "3c217157e577173c6e4fab58844737b7e9db7253bcc2ee4811609c5f698a7591",
+        "INDEX.md": "61a800a870eeafa315103c539100afe4ed113a2d604d6c16a4e9efffb3c8f57e",
+        "LIVE.md": "ca69578aa2947d1580f9d6e3efc047b5e66813ee5787babcb12738e3ecd9867f",
+        "MEMORY.md": "a4ba543e003aba03e891da4bc49de2da8418f2a2883660a82d950f3bf105a8fa",
+        "UDT_RESEARCH_ROADMAP.md": "2e8a3976b841cbdc79688df46bfdc9d5f3aa39b6f4eac2e8d4cdbb7acbbb56e4"
+      }
+    },
+    {
+      "name": "18_scientific_sources",
+      "pass": true,
+      "count": 18,
+      "actual": {
+        "CURRENT_SCIENTIFIC_PREMISES.tsv": "7a3d69d5a0bc3ac98e2ebe2bb0c6d029df30071bf403baffed2223a193dc720b",
+        "udt_native_radiative_current_energy_owner_audit_2026-08-15/EXACT_DERIVATION.md": "5db4ca8e43e5135f13d527d8efea34ad8c7ae5e854dd6653d455babdcc57f010",
+        "udt_native_radiative_current_energy_owner_audit_2026-08-15/CANDIDATE_OWNER_ATLAS.tsv": "f2e4ba81d315d1ac77b5d60178c19e19683bcece1cfbd34c2cd32ebe052188f1",
+        "udt_native_radiative_current_energy_owner_audit_2026-08-15/AUDIT_REPORT.md": "4cd992609da856a9d374f1b3a60c700e062780829199b57749c9259e6e67140a",
+        "udt_native_radiative_current_energy_owner_audit_2026-08-15/EXTERNAL_REVIEW_ADJUDICATION.md": "73c03b4e104153409a0ddd7cacfb53f0b5fd5b7e9711dea44a055f7f4b9a986f",
+        "udt_native_radiative_current_energy_owner_audit_2026-08-15/EXTERNAL_ADVERSARIAL_REVIEW.md": "acf98b508580135c2aa9efeae8208bd202b925d818fb4fb90c35709307c7591c",
+        "udt_current_native_radiation_feasibility_2026-09-13/INITIAL_CANDIDATE.md": "569de1c36d052a0a844031c2161bf5e64f42014c99815d2bde0b30c7507caf57",
+        "udt_current_native_radiation_feasibility_2026-09-13/PROFILE_SCOPE_CLARIFICATION.md": "53d7a5e420a5443d1fc1e4d6c12d08b010efca8dedafab2ee0be7824f61ed4f4",
+        "udt_current_native_radiation_feasibility_2026-09-13/REVIEWED_RESULT.md": "35ff6515d1f35cf127daf25abaa62a41a56981e978afcb158f5f52e07333168f",
+        "udt_current_native_radiation_feasibility_2026-09-13/SOURCE_MAP.md": "ee8f741a60133cbf1f4251c3102be711257467386bd7307ff1b4d84dadd437e0",
+        "udt_geometric_field_choice_discrimination_2026-09-13/INITIAL_CANDIDATE.md": "d208d623a1c0340b79f4bd9aaee012cbbca4c41b0c3db41178647dafa43251c8",
+        "udt_geometric_field_choice_discrimination_2026-09-13/REVIEWED_RESULT.md": "c1075680e3052faeddc8ec7edad39a4db5d9128ce23dba33bc9cc029e74995df",
+        "udt_geometric_field_choice_discrimination_2026-09-13/REPAIR_RECORD.md": "48f84407a0ed63fa93284a9559a4033a5c951d1702478fa9c3846e4996e63520",
+        "udt_native_field_connection_audit_2026-09-13/REVIEWED_AUDIT.md": "c0cf9a2221f929fbb2a0c3c5ca93985bfeb0de814e0166883b9837dc620b10cd",
+        "udt_native_field_connection_audit_2026-09-13/INITIAL_AUDIT.md": "cf49459ad27fc1ed6d91f250fcecb9ed3dfb7d3cbaa26e358f2cc364d73a0728",
+        "udt_gr_filter_reconciliation_2026-09-09/AUTHORITY_RECORD.md": "80daa0be6d3e1c0ac1b734fea089c4eb487f05bc1e1fbb2fabd69322ca89f28c",
+        "udt_g179_complete_coframe_pair_pullback_extension_2026-08-19/AUDIT_REPORT.md": "fe4d0aa56a734ca58972ea8123264efa6e0b979831f7f618eab8f69afa7ee2f2",
+        "udt_g213_determinant_one_spatial_remainder_and_completed_rank_closure_2026-08-22/AUDIT_REPORT.md": "b46d70a9b915d9d477b872cd8ba0d8fd8f96dc81c5b5dcd8bf4cc9d72c6ffc53"
+      }
+    },
+    {
+      "name": "5_audited_inputs",
+      "pass": true,
+      "count": 5,
+      "actual": {
+        "AGENTS.md": "f8fa9f6135d80332e4d28b0dcfefd04e43c00042512968bb9eacf2f692499053",
+        "CLAUDE.md": "b7e524a5b06760e57877a408630228767ae9a394134095f9851bef5d06e17751",
+        "CURRENT_SCIENTIFIC_PREMISES.tsv": "7a3d69d5a0bc3ac98e2ebe2bb0c6d029df30071bf403baffed2223a193dc720b",
+        "CURRENT_SCIENTIFIC_PREMISES.md": "7b574665f714551a3a565987fc5bc56a4b44c7e6fb274532f61609c25153f627",
+        "verify_current_scientific_premises.py": "98dd79610f6bc9d116db65104345c84b64aae0bae2f81c93bec2f64b40745eec"
+      }
+    },
+    {
+      "name": "CANDIDATE_FREEZE.json",
+      "pass": true,
+      "count": 6,
+      "actual": {
+        "WORK_ORDER.md": "c42de04417e2e3ca60dc1d86c2f85c21ca3349c269b5ba61cacc2d3ce9b3c844",
+        "SOURCE_MAP.md": "bd27219b9ee9e8fbef11cace0f2963fdbe167e948224f4a831f21138c22cb0c9",
+        "EXPLORATION_HISTORY.md": "d1b463636ff8c82963f9d9e80e0ca2ddf491578dc1034db7f9959253cc9aff8c",
+        "INITIAL_CANDIDATE.md": "e88212df8f042d7c1f9fba9b9e2cef3c6c7952cb37856a2e146137996fe5fa47",
+        "SOURCE_PINS.json": "9a734851638736bb5cd219b99e601d6df29f5787d6108cc696f7abaaddbe9b41",
+        "SELECTED_PREMISES.json": "db0e8afc2d3a705f7b53ae1164c9f06affb0ecd604e548e220c95ce505f11ce0"
+      }
+    },
+    {
+      "name": "CHECK_FREEZE.json",
+      "pass": true,
+      "count": 3,
+      "actual": {
+        "check_connection.py": "beb9f843bcf701169df4d30728aa828e7c2489a5358343e94915f38439867435",
+        "INITIAL_CANDIDATE.md": "e88212df8f042d7c1f9fba9b9e2cef3c6c7952cb37856a2e146137996fe5fa47",
+        "CANDIDATE_FREEZE.json": "ef1fa5d89dd89f0cad63b03f08db6832d3ea2951d891b5be53d2477028ba8280"
+      }
+    },
+    {
+      "name": "REPAIR_FREEZE.json",
+      "pass": true,
+      "count": 6,
+      "actual": {
+        "CHECK_REPAIR.md": "1c2f3458ae3b9012ad2b13112a56df67af118eb968d7a609c89a46ebd49c5110",
+        "ORIENTATION_CLARIFICATION.md": "cd2c52e5374ddd2b167691fcb5b403a407c1aeed1e6c9259d7f13822fa7da63e",
+        "check_connection_repaired.py": "910628248843c192785a4189ba377ceaacd7830f1a67c97825980692df8d5efa",
+        "check_connection.py": "beb9f843bcf701169df4d30728aa828e7c2489a5358343e94915f38439867435",
+        "CONNECTION_RESULT.json": "54e45866f0cf37ac2b478f3888c15abe1700429277f265a3dad720ebb80aa248",
+        "CHECK_FREEZE.json": "316abb62adfbb431545c9486508122041ce68675fcc01218a6e658b82079d295"
+      }
+    },
+    {
+      "name": "SUPPLEMENT_FREEZE.json",
+      "pass": true,
+      "count": 3,
+      "actual": {
+        "SUPPLEMENTAL_CONNECTION.md": "cd7348ac59e168a73b22911c77a9590c52c4f86696ca306ebff5b2ec1bbb6ffa",
+        "check_supplement.py": "70f8e819f708e70a44b24ff5deffd360cff12a739e69d072232339d8aa0f1bbc",
+        "review/SOURCE_FIRST.md": "8c1422b639eb188bf8aeb7f2df94dce03b8038b18191d66df7109b4029aaa0d0"
+      }
+    },
+    {
+      "name": "review/INDEPENDENT_FREEZE.json",
+      "pass": true,
+      "count": 4,
+      "actual": {
+        "udt_geometric_response_field_connection_2026-09-13/review/INDEPENDENT_CHECK_PLAN.md": "97a08d8f097ad79eb0ea04e168933ff7f9126612af444e0ade44fcef4f3e11c2",
+        "udt_geometric_response_field_connection_2026-09-13/review/independent_connection.py": "8434e3d6031f95f07dde65dd9df2f2f23345e3d4b25e66747e2ae065643d49a7",
+        "udt_current_native_radiation_feasibility_2026-09-13/review/independent_exact.py": "d7b4c22e9d3557c197c2b946d5d2305fe29e5542488edaacc54a5dc27d7fe825",
+        "udt_shared_readout_metric_constraint_campaign_2026-09-06/run_capture.py": "8ff5469ace76bdfc84188915242abbf3baff35516f9ee3f9ba4b1cbfeb2573ef"
+      }
+    },
+    {
+      "name": "review/INDEPENDENT_REPAIR_FREEZE.json",
+      "pass": true,
+      "count": 6,
+      "actual": {
+        "INDEPENDENT_CHECK_REPAIR.md": "34d4cc699ccaba00baff90526c1c8cceff5cd155bcf493fcd9e4c6a2398fe70c",
+        "independent_connection.py": "8434e3d6031f95f07dde65dd9df2f2f23345e3d4b25e66747e2ae065643d49a7",
+        "independent_connection_repaired.py": "9ea6b601a45317665f14fefef6779a658ecaa481b34115d2cf8080dc0152bcf1",
+        "independent_initial_capture.json": "ea9302c808ff8686b23d73ad3a885b2f0e96acdda7ef3252e3d66dfbdf3e58b5",
+        "independent_initial_capture.stderr": "d9a2e303eacb7b952ea21586ca12e4fb2de990b78b637f71a5b4336f98943c0c",
+        "independent_initial_capture.stdout": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      }
+    },
+    {
+      "name": "review/REPAIR_SUPPLEMENT_CHECK_FREEZE.json",
+      "pass": true,
+      "count": 3,
+      "actual": {
+        "REPAIR_SUPPLEMENT_CHECK_PLAN.md": "2e448224f4c3728996aeaa169f334677b989e49972b1e7e8e6aac93fac55b8a4",
+        "check_repair_supplement.py": "9e4d1ed01a4142d78884065b2842d91ac141892dbe05f02c55674f5fe488ee81",
+        "independent_connection_repaired.py": "9ea6b601a45317665f14fefef6779a658ecaa481b34115d2cf8080dc0152bcf1"
+      }
+    },
+    {
+      "name": "review/DIRECT_REVIEW_PINS.json",
+      "pass": true,
+      "count": 16,
+      "actual": {
+        "INITIAL_CANDIDATE.md": "e88212df8f042d7c1f9fba9b9e2cef3c6c7952cb37856a2e146137996fe5fa47",
+        "ORIENTATION_CLARIFICATION.md": "cd2c52e5374ddd2b167691fcb5b403a407c1aeed1e6c9259d7f13822fa7da63e",
+        "CHECK_REPAIR.md": "1c2f3458ae3b9012ad2b13112a56df67af118eb968d7a609c89a46ebd49c5110",
+        "SUPPLEMENTAL_CONNECTION.md": "cd7348ac59e168a73b22911c77a9590c52c4f86696ca306ebff5b2ec1bbb6ffa",
+        "check_connection.py": "beb9f843bcf701169df4d30728aa828e7c2489a5358343e94915f38439867435",
+        "check_connection_repaired.py": "910628248843c192785a4189ba377ceaacd7830f1a67c97825980692df8d5efa",
+        "check_supplement.py": "70f8e819f708e70a44b24ff5deffd360cff12a739e69d072232339d8aa0f1bbc",
+        "CONNECTION_RESULT.json": "54e45866f0cf37ac2b478f3888c15abe1700429277f265a3dad720ebb80aa248",
+        "CONNECTION_REPAIRED_RESULT.json": "62892ade837cc8c425b3d33ae022f632c783037d53efe462e47960a60239ea8d",
+        "SUPPLEMENT_RESULT.json": "561ef73888d5e2106c8a3809b7c6e0849607e82306f8c124fee6bdbd3f691c1c",
+        "SOURCE_PINS.json": "9a734851638736bb5cd219b99e601d6df29f5787d6108cc696f7abaaddbe9b41",
+        "review/SOURCE_FIRST.md": "8c1422b639eb188bf8aeb7f2df94dce03b8038b18191d66df7109b4029aaa0d0",
+        "review/SOURCE_FIRST_PRECISION_NOTE.md": "8bf58c370a6e9426cb37cdf0294b217442ae8766577e83b64d81df66615a46e9",
+        "review/INDEPENDENT_RESULT.json": "c7b2b3bb465e9126e01bfa78119d6a1dc0e83ef859259116ee53a3e72ee715d3",
+        "review/REPAIR_SUPPLEMENT_RESULT.json": "dcf483812c702466efe3785498c1ebe71e92646d0bbbe48dfee4f436e23fc832",
+        "review/DIRECT_REVIEW.md": "76d583a1469dd04a6f37b43a68a9e9824a18b9c025d5fd10ffe398e32f58d373"
+      }
+    },
+    {
+      "name": "source_first_frozen_bytes",
+      "pass": true
+    },
+    {
+      "name": "CONNECTION_RESULT.json_actual_groups",
+      "pass": true
+    },
+    {
+      "name": "CONNECTION_REPAIRED_RESULT.json_actual_groups",
+      "pass": true
+    },
+    {
+      "name": "SUPPLEMENT_RESULT.json_actual_groups",
+      "pass": true
+    },
+    {
+      "name": "review/INDEPENDENT_RESULT.json_actual_groups",
+      "pass": true
+    },
+    {
+      "name": "review/INDEPENDENT_RESULT.json_code_correspondence",
+      "pass": true
+    },
+    {
+      "name": "review/REPAIR_SUPPLEMENT_RESULT.json_actual_groups",
+      "pass": true
+    },
+    {
+      "name": "review/REPAIR_SUPPLEMENT_RESULT.json_code_correspondence",
+      "pass": true
+    },
+    {
+      "name": "original_reviewer_no_result_claim",
+      "pass": true
+    },
+    {
+      "name": "checks/premise406_actual_exit",
+      "pass": true,
+      "started": "2026-09-13T15:36:35.107989+00:00",
+      "seconds": 405.5322694659699
+    },
+    {
+      "name": "checks/premise406_stdout_stderr_present",
+      "pass": true
+    },
+    {
+      "name": "checks/connection_actual_exit",
+      "pass": true,
+      "started": "2026-09-13T15:48:39.304882+00:00",
+      "seconds": 1.8245455709984526
+    },
+    {
+      "name": "checks/connection_stdout_stderr_present",
+      "pass": true
+    },
+    {
+      "name": "checks/connection_repaired_actual_exit",
+      "pass": true,
+      "started": "2026-09-13T15:51:47.236788+00:00",
+      "seconds": 1.8665763599565253
+    },
+    {
+      "name": "checks/connection_repaired_stdout_stderr_present",
+      "pass": true
+    },
+    {
+      "name": "checks/supplement_actual_exit",
+      "pass": true,
+      "started": "2026-09-13T15:53:52.534559+00:00",
+      "seconds": 0.4591002899687737
+    },
+    {
+      "name": "checks/supplement_stdout_stderr_present",
+      "pass": true
+    },
+    {
+      "name": "checks/current_surface_actual_exit",
+      "pass": true,
+      "started": "2026-09-13T16:00:58.237864+00:00",
+      "seconds": 0.1852754760766402
+    },
+    {
+      "name": "checks/current_surface_stdout_stderr_present",
+      "pass": true
+    },
+    {
+      "name": "checks/navigation_actual_exit",
+      "pass": true,
+      "started": "2026-09-13T16:01:09.307726+00:00",
+      "seconds": 15.127573850913905
+    },
+    {
+      "name": "checks/navigation_stdout_stderr_present",
+      "pass": true
+    },
+    {
+      "name": "review/independent_initial_capture_actual_exit",
+      "pass": true,
+      "started": "2026-09-13T15:54:16.131604+00:00",
+      "seconds": 0.17061685607768595
+    },
+    {
+      "name": "review/independent_initial_capture_stdout_stderr_present",
+      "pass": true
+    },
+    {
+      "name": "review/independent_repaired_capture_actual_exit",
+      "pass": true,
+      "started": "2026-09-13T15:55:03.437293+00:00",
+      "seconds": 0.16355599905364215
+    },
+    {
+      "name": "review/independent_repaired_capture_stdout_stderr_present",
+      "pass": true
+    },
+    {
+      "name": "review/repair_supplement_capture_actual_exit",
+      "pass": true,
+      "started": "2026-09-13T15:57:12.825413+00:00",
+      "seconds": 0.05511301103979349
+    },
+    {
+      "name": "review/repair_supplement_capture_stdout_stderr_present",
+      "pass": true
+    },
+    {
+      "name": "actual_full406_PASS",
+      "pass": true
+    },
+    {
+      "name": "actual_current_startup_surface_PASS",
+      "pass": true
+    },
+    {
+      "name": "actual_navigation359_1",
+      "pass": true
+    },
+    {
+      "name": "406_registry_and7_exact_selected",
+      "pass": true
+    },
+    {
+      "name": "original51_names_exact",
+      "pass": true,
+      "boundary": "status names only; no protected payload content read or hashed"
+    },
+    {
+      "name": "exact_six_navigation_changes_and_empty_index",
+      "pass": true,
+      "tracked": [
+        "CURRENT_RESEARCH_PROGRAM.md",
+        "HANDOFF.md",
+        "INDEX.md",
+        "LIVE.md",
+        "MEMORY.md",
+        "UDT_RESEARCH_ROADMAP.md"
+      ]
+    },
+    {
+      "name": "actual_baseline_refs_branch",
+      "pass": true,
+      "refs": [
+        "9f9cf6f20347f708f950af45a028c33b4472143a",
+        "9f9cf6f20347f708f950af45a028c33b4472143a"
+      ],
+      "branch": "grok"
+    },
+    {
+      "name": "actual_diff_check",
+      "pass": true,
+      "stdout": "",
+      "stderr": ""
+    },
+    {
+      "name": "interval_checks/connection.json",
+      "pass": true
+    },
+    {
+      "name": "interval_checks/connection_repaired.json",
+      "pass": true
+    },
+    {
+      "name": "interval_checks/current_surface.json",
+      "pass": true
+    },
+    {
+      "name": "interval_checks/navigation.json",
+      "pass": true
+    },
+    {
+      "name": "interval_checks/premise406.json",
+      "pass": true
+    },
+    {
+      "name": "interval_checks/supplement.json",
+      "pass": true
+    },
+    {
+      "name": "interval_review/independent_initial_capture.json",
+      "pass": true
+    },
+    {
+      "name": "interval_review/independent_repaired_capture.json",
+      "pass": true
+    },
+    {
+      "name": "interval_review/repair_supplement_capture.json",
+      "pass": true
+    },
+    {
+      "name": "nine_recorded_operations_no_overlap",
+      "pass": true,
+      "limitation": "captured operations only; not a full process census or absence of context coexistence"
+    }
+  ],
+  "count": 57,
+  "passed": 57,
+  "all_pass": true
+}

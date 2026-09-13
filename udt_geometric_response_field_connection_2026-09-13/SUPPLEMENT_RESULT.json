@@ -1,0 +1,92 @@
+{
+  "kind": "exact parent verification of reviewer source-first/direct contributions; no third-context independence",
+  "python": "3.10.12",
+  "sympy": "1.13.1",
+  "source_utility_sha256": "85711d60ceedb583d5350059a952db6fd6f649e880e8fcb0d8317b714fdf26d5",
+  "original_connection": [
+    "2*(-x*b(u) - y*a(u))/u**2",
+    "0",
+    "0",
+    "0"
+  ],
+  "checks": [
+    {
+      "name": "null_lift_full_frame_Gram",
+      "pass": true,
+      "nonzero_residuals": []
+    },
+    {
+      "name": "null_lift_original_A_all4",
+      "pass": true,
+      "nonzero_residuals": []
+    },
+    {
+      "name": "null_lift_original_dA_all16",
+      "pass": true,
+      "nonzero_residuals": []
+    },
+    {
+      "name": "inverse_profile_pair",
+      "pass": true,
+      "nonzero_residuals": []
+    },
+    {
+      "name": "null_lift_original_divergence",
+      "pass": true,
+      "nonzero_residuals": []
+    },
+    {
+      "name": "null_lift_original_closure",
+      "pass": true,
+      "nonzero_residuals": []
+    },
+    {
+      "name": "null_lift_zero_frame_regular",
+      "pass": true,
+      "nonzero_residuals": []
+    },
+    {
+      "name": "all_K_profiles_full_potential_relation",
+      "pass": true,
+      "nonzero_residuals": []
+    },
+    {
+      "name": "all_K_profiles_field_relation",
+      "pass": true,
+      "nonzero_residuals": []
+    },
+    {
+      "name": "boost_general_potential_relation",
+      "pass": true,
+      "nonzero_residuals": []
+    },
+    {
+      "name": "null_example_N_component",
+      "pass": true,
+      "nonzero_residuals": []
+    },
+    {
+      "name": "boost_example_N_component",
+      "pass": true,
+      "nonzero_residuals": []
+    },
+    {
+      "name": "two_distinct_reductions_same_potential",
+      "pass": true,
+      "nonzero_residuals": []
+    },
+    {
+      "name": "nonparallel_l_acceleration",
+      "pass": true,
+      "nonzero_residuals": []
+    },
+    {
+      "name": "distinct_planes_numeric_N_separation",
+      "pass": true,
+      "nonzero_residuals": []
+    }
+  ],
+  "count": 15,
+  "passed": 15,
+  "all_pass": true
+}

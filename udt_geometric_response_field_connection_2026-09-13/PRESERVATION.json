@@ -1,0 +1,87 @@
+{
+  "recorded_utc": "2026-09-13T16:02:30.607520+00:00",
+  "head_origin": [
+    "9f9cf6f20347f708f950af45a028c33b4472143a",
+    "9f9cf6f20347f708f950af45a028c33b4472143a"
+  ],
+  "tracked_changes_exact": [
+    "CURRENT_RESEARCH_PROGRAM.md",
+    "HANDOFF.md",
+    "INDEX.md",
+    "LIVE.md",
+    "MEMORY.md",
+    "UDT_RESEARCH_ROADMAP.md"
+  ],
+  "index_empty": true,
+  "original_expanded_status_names": 51,
+  "original_status_names_sha256": "747cf3c497bfbdf7c373a2aa621be3cb241a61f7ef9f508c39bf64588ff70a60",
+  "original_names_exact": true,
+  "protected_payload_content_read_or_hashed": false,
+  "source_pins_unchanged": 18,
+  "registry_rows": 406,
+  "selected_rows_exact": 7,
+  "audited_inputs_unchanged": 5,
+  "backup_completeness": "UNVERIFIED",
+  "pre_reboot_unsaved_state": "UNVERIFIED",
+  "scratchdisk": "archive-dependent work only",
+  "events": [
+    {
+      "utc": "2026-09-13T16:02:30.555821+00:00",
+      "command": [
+        "git",
+        "rev-parse",
+        "HEAD",
+        "origin/grok"
+      ],
+      "exit": 0,
+      "stdout": "9f9cf6f20347f708f950af45a028c33b4472143a\n9f9cf6f20347f708f950af45a028c33b4472143a\n",
+      "stderr": ""
+    },
+    {
+      "utc": "2026-09-13T16:02:30.562720+00:00",
+      "command": [
+        "git",
+        "diff",
+        "--name-only"
+      ],
+      "exit": 0,
+      "stdout": "CURRENT_RESEARCH_PROGRAM.md\nHANDOFF.md\nINDEX.md\nLIVE.md\nMEMORY.md\nUDT_RESEARCH_ROADMAP.md\n",
+      "stderr": ""
+    },
+    {
+      "utc": "2026-09-13T16:02:30.569232+00:00",
+      "command": [
+        "git",
+        "diff",
+        "--cached",
+        "--name-only"
+      ],
+      "exit": 0,
+      "stdout": "",
+      "stderr": ""
+    },
+    {
+      "utc": "2026-09-13T16:02:30.579015+00:00",
+      "command": [
+        "git",
+        "diff",
+        "--check"
+      ],
+      "exit": 0,
+      "stdout": "",
+      "stderr": ""
+    },
+    {
+      "utc": "2026-09-13T16:02:30.602537+00:00",
+      "command": [
+        "git",
+        "status",
+        "--short",
+        "--untracked-files=all"
+      ],
+      "exit": 0,
+      "stdout": " M CURRENT_RESEARCH_PROGRAM.md\n M HANDOFF.md\n M INDEX.md\n M LIVE.md\n M MEMORY.md\n M UDT_RESEARCH_ROADMAP.md\n?? 8_25/UDT_FOUNDING_VALUE_LAW_ANALYSIS.md\n?? 8_25/udt_extension_checks.py\n?? 8_25/udt_extension_minimality_response.md\n?? 8_25/udt_value_law_checks.py\n?? 8_25/udt_value_law_checks_llm1.py\n?? 8_25/udt_value_law_external_response.md\n?? UDT_Complete_Guardrails_and_Central_Science_Tracking.md\n?? UDT_Next_Step_After_Two_Stages.md\n?? UDT_Sequenced_Guardrails_and_Development_Work_Order.md\n?? udt_geometric_response_field_connection_2026-09-13/AUDIT_INPUT_PINS.json\n?? udt_geometric_response_field_connection_2026-09-13/CANDIDATE_FREEZE.json\n?? udt_geometric_response_field_connection_2026-09-13/CHECKPOINT.md\n?? udt_geometric_response_field_connection_2026-09-13/CHECK_FREEZE.json\n?? udt_geometric_response_field_connection_2026-09-13/CHECK_REPAIR.md\n?? udt_geometric_response_field_connection_2026-09-13/CLAIM_LEDGER.tsv\n?? udt_geometric_response_field_connection_2026-09-13/CLOSEOUT.md\n?? udt_geometric_response_field_connection_2026-09-13/CONNECTION_REPAIRED_RESULT.json\n?? udt_geometric_response_field_connection_2026-09-13/CONNECTION_RESULT.json\n?? udt_geometric_response_field_connection_2026-09-13/DECISION_BRIEF.md\n?? udt_geometric_response_field_connection_2026-09-13/EXPLORATION_HISTORY.md\n?? udt_geometric_response_field_connection_2026-09-13/INITIAL_CANDIDATE.md\n?? udt_geometric_response_field_connection_2026-09-13/LAUNCH.json\n?? udt_geometric_response_field_connection_2026-09-13/ORIENTATION_CLARIFICATION.md\n?? udt_geometric_response_field_connection_2026-09-13/PREMISE_CAPTURE_COPY.json\n?? udt_geometric_response_field_connection_2026-09-13/README.md\n?? udt_geometric_response_field_connection_2026-09-13/REPAIR_FREEZE.json\n?? udt_geometric_response_field_connection_2026-09-13/REVIEWED_RESULT.md\n?? udt_geometric_response_field_connection_2026-09-13/SELECTED_PREMISES.json\n?? udt_geometric_response_field_connection_2026-09-13/SOURCE_MAP.md\n?? udt_geometric_response_field_connection_2026-09-13/SOURCE_PINS.json\n?? udt_geometric_response_field_connection_2026-09-13/SUPPLEMENTAL_CONNECTION.md\n?? udt_geometric_response_field_connection_2026-09-13/SUPPLEMENT_FREEZE.json\n?? udt_geometric_response_field_connection_2026-09-13/SUPPLEMENT_RESULT.json\n?? udt_geometric_response_field_connection_2026-09-13/WORK_ORDER.md\n?? udt_geometric_response_field_connection_2026-09-13/check_connection.py\n?? udt_geometric_response_field_connection_2026-09-13/check_connection_repaired.py\n?? udt_geometric_response_field_connection_2026-09-13/check_supplement.py\n?? udt_geometric_response_field_connection_2026-09-13/checks/connection.capture_provenance.json\n?? udt_geometric_response_field_connection_2026-09-13/checks/connection.json\n?? udt_geometric_response_field_connection_2026-09-13/checks/connection.stderr\n?? udt_geometric_response_field_connection_2026-09-13/checks/connection_repaired.capture_provenance.json\n?? udt_geometric_response_field_connection_2026-09-13/checks/connection_repaired.json\n?? udt_geometric_response_field_connection_2026-09-13/checks/connection_repaired.stderr\n?? udt_geometric_response_field_connection_2026-09-13/checks/current_surface.capture_provenance.json\n?? udt_geometric_response_field_connection_2026-09-13/checks/current_surface.json\n?? udt_geometric_response_field_connection_2026-09-13/checks/current_surface.stderr\n?? udt_geometric_response_field_connection_2026-09-13/checks/navigation.capture_provenance.json\n?? udt_geometric_response_field_connection_2026-09-13/checks/navigation.json\n?? udt_geometric_response_field_connection_2026-09-13/checks/navigation.stderr\n?? udt_geometric_response_field_connection_2026-09-13/checks/premise406.capture_provenance.json\n?? udt_geometric_response_field_connection_2026-09-13/checks/premise406.json\n?? udt_geometric_response_field_connection_2026-09-13/checks/premise406.stderr\n?? udt_geometric_response_field_connection_2026-09-13/checks/supplement.capture_provenance.json\n?? udt_geometric_response_field_connection_2026-09-13/checks/supplement.json\n?? udt_geometric_response_field_connection_2026-09-13/checks/supplement.stderr\n?? udt_geometric_response_field_connection_2026-09-13/review/ALLOCATION.json\n?? udt_geometric_response_field_connection_2026-09-13/review/DIRECT_REVIEW.md\n?? udt_geometric_response_field_connection_2026-09-13/review/DIRECT_REVIEW_PINS.json\n?? udt_geometric_response_field_connection_2026-09-13/review/INDEPENDENT_CHECK_PLAN.md\n?? udt_geometric_response_field_connection_2026-09-13/review/INDEPENDENT_CHECK_REPAIR.md\n?? udt_geometric_response_field_connection_2026-09-13/review/INDEPENDENT_FREEZE.json\n?? udt_geometric_response_field_connection_2026-09-13/review/INDEPENDENT_REPAIR_FREEZE.json\n?? udt_geometric_response_field_connection_2026-09-13/review/INDEPENDENT_RESULT.json\n?? udt_geometric_response_field_connection_2026-09-13/review/REPAIR_SUPPLEMENT_CHECK_FREEZE.json\n?? udt_geometric_response_field_connection_2026-09-13/review/REPAIR_SUPPLEMENT_CHECK_PLAN.md\n?? udt_geometric_response_field_connection_2026-09-13/review/REPAIR_SUPPLEMENT_RESULT.json\n?? udt_geometric_response_field_connection_2026-09-13/review/REVIEW_METADATA.json\n?? udt_geometric_response_field_connection_2026-09-13/review/SOURCE_FIRST.md\n?? udt_geometric_response_field_connection_2026-09-13/review/SOURCE_FIRST_CHRONOLOGY_NOTE.md\n?? udt_geometric_response_field_connection_2026-09-13/review/SOURCE_FIRST_FREEZE.json\n?? udt_geometric_response_field_connection_2026-09-13/review/SOURCE_FIRST_PRECISION_NOTE.md\n?? udt_geometric_response_field_connection_2026-09-13/review/SOURCE_FIRST_REQUEST.md\n?? udt_geometric_response_field_connection_2026-09-13/review/check_repair_supplement.py\n?? udt_geometric_response_field_connection_2026-09-13/review/independent_connection.py\n?? udt_geometric_response_field_connection_2026-09-13/review/independent_connection_repaired.py\n?? udt_geometric_response_field_connection_2026-09-13/review/independent_initial_capture.json\n?? udt_geometric_response_field_connection_2026-09-13/review/independent_initial_capture.stderr\n?? udt_geometric_response_field_connection_2026-09-13/review/independent_repaired_capture.json\n?? udt_geometric_response_field_connection_2026-09-13/review/independent_repaired_capture.stderr\n?? udt_geometric_response_field_connection_2026-09-13/review/repair_supplement_capture.json\n?? udt_geometric_response_field_connection_2026-09-13/review/repair_supplement_capture.stderr\n?? udt_native_onshell_timelive_reset_owner_audit_2026-08-10/CANDIDATE_LAW_MAP.tsv\n?? udt_native_onshell_timelive_reset_owner_audit_2026-08-10/DERIVATION_RESULT.json\n?? udt_native_onshell_timelive_reset_owner_audit_2026-08-10/EQUATION_OWNERSHIP_ATLAS.tsv\n?? udt_native_onshell_timelive_reset_owner_audit_2026-08-10/SOURCE_SCOPE_CLARIFICATION.md\n?? udt_native_onshell_timelive_reset_owner_audit_2026-08-10/derive_owner_atlas.py\n?? udt_native_onshell_timelive_reset_owner_audit_2026-08-10/run_catch_proofs.py\n?? udt_native_onshell_timelive_reset_owner_audit_2026-08-10/verify_owner_independent.py\n?? udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/ADVERSARIAL_REVIEW_REQUEST.md\n?? udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/AUDIT_REPORT.md\n?? udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/CATCH_PROOF_RESULT.json\n?? udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/DERIVATION_RESULT.json\n?? udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/EVIDENCE_GATES.md\n?? udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/EXACT_DERIVATION.md\n?? udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/INDEPENDENT_VERIFICATION.json\n?? udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/LAY_REPORT.md\n?? udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/STATUS_LEDGER.tsv\n?? udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/VERIFICATION_RESULT.json\n?? udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/WITNESS_ATLAS.tsv\n?? udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/build_review_intake.py\n?? udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/derive_regime_flow.py\n?? udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/run_catch_proofs.py\n?? udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/verify_independent.py\n?? udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/verify_package.py\n?? udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/AUDIT_REPORT.md\n?? udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/CATCH_PROOF_RESULT.json\n?? udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/DERIVATION_RESULT.json\n?? udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/EVIDENCE_GATES.md\n?? udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/EXACT_DERIVATION.md\n?? udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/INDEPENDENT_RADAU_REPLAY.tsv\n?? udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/INDEPENDENT_VERIFICATION.json\n?? udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/LAY_REPORT.md\n?? udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/PREREGISTRATION_EXECUTION_NOTE.md\n?? udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/PROFILE_COMPATIBILITY_ATLAS.tsv\n?? udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/REVIEW_DISPATCH.md\n?? udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/RUN_CHECKPOINT.tsv\n?? udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/STATUS_LEDGER.tsv\n?? udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/VERIFICATION_RESULT.json\n?? udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/build_review_manifest.py\n?? udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/derive_compatibility_atlas.py\n?? udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/run_catch_proofs.py\n?? udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/verify_independent.py\n?? udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/verify_package.py\n",
+      "stderr": ""
+    }
+  ]
+}

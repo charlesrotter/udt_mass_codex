@@ -1,0 +1,12 @@
+{
+  "recorded_utc": "2026-09-13T15:55:03.420168+00:00",
+  "pins": {
+    "INDEPENDENT_CHECK_REPAIR.md": "34d4cc699ccaba00baff90526c1c8cceff5cd155bcf493fcd9e4c6a2398fe70c",
+    "independent_connection.py": "8434e3d6031f95f07dde65dd9df2f2f23345e3d4b25e66747e2ae065643d49a7",
+    "independent_connection_repaired.py": "9ea6b601a45317665f14fefef6779a658ecaa481b34115d2cf8080dc0152bcf1",
+    "independent_initial_capture.json": "ea9302c808ff8686b23d73ad3a885b2f0e96acdda7ef3252e3d66dfbdf3e58b5",
+    "independent_initial_capture.stderr": "d9a2e303eacb7b952ea21586ca12e4fb2de990b78b637f71a5b4336f98943c0c",
+    "independent_initial_capture.stdout": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "changes": "third rational boost sample and explicit rejected-original-input catch; original preserved"
+}

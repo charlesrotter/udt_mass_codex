@@ -1,0 +1,24 @@
+{
+  "recorded_utc": "2026-09-13T16:08:02.427459+00:00",
+  "all_final_package_pins_match": 16,
+  "all_final_navigation_pins_match": 6,
+  "all_review_pins_match": 13,
+  "review_receipt_sha256": "f33b4b1c721ca13f69d50ddac68280826f476c82286eebb3826b6e6750d88cab",
+  "final_pins_receipt_match": true,
+  "verdict": "FIDELITY_REVIEWED__VERIFIED-WITH-CAVEATS__CONDITIONAL_UNPROMOTED",
+  "actual_review_end": "2026-09-13T16:06:53.932769+00:00",
+  "conservative_review_elapsed_seconds": 1276.932769,
+  "fresh_prepublication_fetch": "checks/prepublication_fetch.json: exit0; refs unchanged",
+  "git_diff_check": {
+    "command": [
+      "git",
+      "diff",
+      "--check"
+    ],
+    "exit": 0,
+    "stdout": "",
+    "stderr": ""
+  },
+  "review_final_admin_failure": "Git threaded lstat under512MiB; preserved; per-command read flags only; repaired57/57 PASS, no persistent config or science change",
+  "subsequent_scope": "exact allowlisted publication and factual receipt/checkpoint completion only; no science/navigation edits or promotion"
+}

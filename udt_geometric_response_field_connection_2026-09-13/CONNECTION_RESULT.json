@@ -1,0 +1,240 @@
+{
+  "kind": "exact original-connection symbolic checks; shared NR1 metric utilities are regression, not independent proof",
+  "python": "3.10.12",
+  "sympy": "1.13.1",
+  "source_utility": "udt_current_native_radiation_feasibility_2026-09-13/check_candidate.py",
+  "source_utility_sha256": "85711d60ceedb583d5350059a952db6fd6f649e880e8fcb0d8317b714fdf26d5",
+  "AST_functions_only": [
+    "closed",
+    "conn_ric",
+    "densdiv",
+    "exterior",
+    "lie"
+  ],
+  "equations": {
+    "A_original": [
+      "(-(sqrt(w1(u)**2 + w2(u)**2 + 1) + 1)**3*(u**2 - x**2 + y**2)*sqrt(w1(u)**2 + w2(u)**2 + 1)*w1(u)*Derivative(w2(u), u)/2 - (sqrt(w1(u)**2 + w2(u)**2 + 1) + 1)**2*(-4*x*w1(u)*w2(u) + 4*y*(sqrt(w1(u)**2 + w2(u)**2 + 1) + w2(u)**2 + 1) + sqrt(2)*(sqrt(w1(u)**2 + w2(u)**2 + 1) + 1)*(u**2 + x**2 - y**2)*Derivative(w2(u), u))*sqrt(2*w1(u)**2 + 2*w2(u)**2 + 2)*w1(u)/4 + (-u**2*(w1(u)*Derivative(w1(u), u) + w2(u)*Derivative(w2(u), u))*w2(u) + 2*u**2*(sqrt(w1(u)**2 + w2(u)**2 + 1) + 1)*sqrt(w1(u)**2 + w2(u)**2 + 1)*Derivative(w2(u), u) + y*(sqrt(w1(u)**2 + w2(u)**2 + 1) + 1)**2*sqrt(2*w1(u)**2 + 2*w2(u)**2 + 2))*w1(u)*w2(u)**2 - (u**2*(w1(u)*Derivative(w1(u), u) + w2(u)*Derivative(w2(u), u))*w1(u)*w2(u) + u**2*(-w1(u)*Derivative(w2(u), u) - w2(u)*Derivative(w1(u), u))*(sqrt(w1(u)**2 + w2(u)**2 + 1) + 1)*sqrt(w1(u)**2 + w2(u)**2 + 1) + x*(sqrt(w1(u)**2 + w2(u)**2 + 1) + 1)**2*sqrt(2*w1(u)**2 + 2*w2(u)**2 + 2)*w2(u))*(sqrt(w1(u)**2 + w2(u)**2 + 1) + w1(u)**2 + 1))/(u**2*(sqrt(w1(u)**2 + w2(u)**2 + 1) + 1)**3*sqrt(w1(u)**2 + w2(u)**2 + 1))",
+      "0",
+      "0",
+      "0"
+    ],
+    "F_original": "Matrix([[0, 0, -(x*(sqrt(w1(u)**2 + w2(u)**2 + 1) + 1)**3*sqrt(w1(u)**2 + w2(u)**2 + 1)*w1(u)*Derivative(w2(u), u) - (2*sqrt(2)*x*(sqrt(w1(u)**2 + w2(u)**2 + 1) + 1)*Derivative(w2(u), u) - 4*w1(u)*w2(u))*(sqrt(w1(u)**2 + w2(u)**2 + 1) + 1)**2*sqrt(2*w1(u)**2 + 2*w2(u)**2 + 2)*w1(u)/4 - (sqrt(w1(u)**2 + w2(u)**2 + 1) + 1)**2*(sqrt(w1(u)**2 + w2(u)**2 + 1) + w1(u)**2 + 1)*sqrt(2*w1(u)**2 + 2*w2(u)**2 + 2)*w2(u))/(u**2*(sqrt(w1(u)**2 + w2(u)**2 + 1) + 1)**3*sqrt(w1(u)**2 + w2(u)**2 + 1)), -(-y*(sqrt(w1(u)**2 + w2(u)**2 + 1) + 1)**3*sqrt(w1(u)**2 + w2(u)**2 + 1)*w1(u)*Derivative(w2(u), u) - (sqrt(w1(u)**2 + w2(u)**2 + 1) + 1)**2*sqrt(2*w1(u)**2 + 2*w2(u)**2 + 2)*(-2*sqrt(2)*y*(sqrt(w1(u)**2 + w2(u)**2 + 1) + 1)*Derivative(w2(u), u) + 4*sqrt(w1(u)**2 + w2(u)**2 + 1) + 4*w2(u)**2 + 4)*w1(u)/4 + (sqrt(w1(u)**2 + w2(u)**2 + 1) + 1)**2*sqrt(2*w1(u)**2 + 2*w2(u)**2 + 2)*w1(u)*w2(u)**2)/(u**2*(sqrt(w1(u)**2 + w2(u)**2 + 1) + 1)**3*sqrt(w1(u)**2 + w2(u)**2 + 1))], [0, 0, 0, 0], [(x*(sqrt(w1(u)**2 + w2(u)**2 + 1) + 1)**3*sqrt(w1(u)**2 + w2(u)**2 + 1)*w1(u)*Derivative(w2(u), u) - (2*sqrt(2)*x*(sqrt(w1(u)**2 + w2(u)**2 + 1) + 1)*Derivative(w2(u), u) - 4*w1(u)*w2(u))*(sqrt(w1(u)**2 + w2(u)**2 + 1) + 1)**2*sqrt(2*w1(u)**2 + 2*w2(u)**2 + 2)*w1(u)/4 - (sqrt(w1(u)**2 + w2(u)**2 + 1) + 1)**2*(sqrt(w1(u)**2 + w2(u)**2 + 1) + w1(u)**2 + 1)*sqrt(2*w1(u)**2 + 2*w2(u)**2 + 2)*w2(u))/(u**2*(sqrt(w1(u)**2 + w2(u)**2 + 1) + 1)**3*sqrt(w1(u)**2 + w2(u)**2 + 1)), 0, 0, 0], [(-y*(sqrt(w1(u)**2 + w2(u)**2 + 1) + 1)**3*sqrt(w1(u)**2 + w2(u)**2 + 1)*w1(u)*Derivative(w2(u), u) - (sqrt(w1(u)**2 + w2(u)**2 + 1) + 1)**2*sqrt(2*w1(u)**2 + 2*w2(u)**2 + 2)*(-2*sqrt(2)*y*(sqrt(w1(u)**2 + w2(u)**2 + 1) + 1)*Derivative(w2(u), u) + 4*sqrt(w1(u)**2 + w2(u)**2 + 1) + 4*w2(u)**2 + 4)*w1(u)/4 + (sqrt(w1(u)**2 + w2(u)**2 + 1) + 1)**2*sqrt(2*w1(u)**2 + 2*w2(u)**2 + 2)*w1(u)*w2(u)**2)/(u**2*(sqrt(w1(u)**2 + w2(u)**2 + 1) + 1)**3*sqrt(w1(u)**2 + w2(u)**2 + 1)), 0, 0, 0]])",
+    "screen_R_projection": "Matrix([[0, 0, sqrt(2)*w2(u)/u**2, sqrt(2)*w1(u)/u**2], [0, 0, 0, 0], [-sqrt(2)*w2(u)/u**2, 0, 0, 0], [-sqrt(2)*w1(u)/u**2, 0, 0, 0]])"
+  },
+  "checks": [
+    {
+      "name": "base_Gram_all16",
+      "pass": true,
+      "nonzero_residuals": []
+    },
+    {
+      "name": "metric_det",
+      "pass": true,
+      "nonzero_residuals": []
+    },
+    {
+      "name": "full_Ricci_all16",
+      "pass": true,
+      "nonzero_residuals": []
+    },
+    {
+      "name": "parallel_k_all16",
+      "pass": true,
+      "nonzero_residuals": []
+    },
+    {
+      "name": "boost_Gram_all16",
+      "pass": true,
+      "nonzero_residuals": []
+    },
+    {
+      "name": "screen_k_pairing_all2",
+      "pass": true,
+      "nonzero_residuals": []
+    },
+    {
+      "name": "original_A_all4",
+      "pass": true,
+      "nonzero_residuals": []
+    },
+    {
+      "name": "original_dA_all16",
+      "pass": true,
+      "nonzero_residuals": []
+    },
+    {
+      "name": "full_frame_connection_off_du_all48",
+      "pass": true,
+      "nonzero_residuals": []
+    },
+    {
+      "name": "ambient_R_projection_all16",
+      "pass": true,
+      "nonzero_residuals": []
+    },
+    {
+      "name": "nonflat_tidal_x",
+      "pass": true,
+      "nonzero_residuals": []
+    },
+    {
+      "name": "nonflat_tidal_y",
+      "pass": true,
+      "nonzero_residuals": []
+    },
+    {
+      "name": "original_exterior_closure",
+      "pass": true,
+      "nonzero_residuals": []
+    },
+    {
+      "name": "original_density_divergence",
+      "pass": true,
+      "nonzero_residuals": []
+    },
+    {
+      "name": "null_scalar",
+      "pass": true,
+      "nonzero_residuals": []
+    },
+    {
+      "name": "wedge_square",
+      "pass": true,
+      "nonzero_residuals": []
+    },
+    {
+      "name": "compatible_screen_Gram",
+      "pass": true,
+      "nonzero_residuals": []
+    },
+    {
+      "name": "compatible_connection_dlambda",
+      "pass": true,
+      "nonzero_residuals": []
+    },
+    {
+      "name": "compatible_curvature_zero_all16",
+      "pass": true,
+      "nonzero_residuals": []
+    },
+    {
+      "name": "arbitrary_profile_inverse_all16",
+      "pass": true,
+      "nonzero_residuals": []
+    },
+    {
+      "name": "zero_profile_frame",
+      "pass": true,
+      "nonzero_residuals": []
+    },
+    {
+      "name": "zero_profile_curvature",
+      "pass": true,
+      "nonzero_residuals": []
+    },
+    {
+      "name": "nodal_frame_regular",
+      "pass": false,
+      "nonzero_residuals": [
+        "sqrt(2)*(u**2*x**2 - u**2*y**2 - x**2 + y**2)/(2*u**2)",
+        "sqrt(2)*(u**2*x**2 - u**2*y**2 - x**2 + y**2)/(2*u**2)"
+      ]
+    },
+    {
+      "name": "nodal_F_zero",
+      "pass": true,
+      "nonzero_residuals": []
+    },
+    {
+      "name": "nodal_F_derivative_survives",
+      "pass": true,
+      "nonzero_residuals": []
+    },
+    {
+      "name": "existing_K_Killing",
+      "pass": true,
+      "nonzero_residuals": []
+    },
+    {
+      "name": "existing_K_screen_field_match",
+      "pass": true,
+      "nonzero_residuals": []
+    },
+    {
+      "name": "existing_K_potential_exact_difference",
+      "pass": true,
+      "nonzero_residuals": []
+    },
+    {
+      "name": "compatible_zero_is_not_K_field",
+      "pass": true,
+      "control": "computed defect must fail the same equality comparator",
+      "observed_defect": [
+        "-4*u",
+        "4*u"
+      ]
+    },
+    {
+      "name": "catch_omitted_moving_boost_connection",
+      "pass": true,
+      "control": "computed defect must fail the same equality comparator",
+      "observed_defect": [
+        "1/2 - sqrt(3)/2"
+      ]
+    },
+    {
+      "name": "omitted_B_curvature_blindness_disclosed",
+      "pass": true,
+      "nonzero_residuals": []
+    },
+    {
+      "name": "catch_omitted_Christoffel",
+      "pass": true,
+      "control": "computed defect must fail the same equality comparator",
+      "observed_defect": [
+        "4"
+      ]
+    },
+    {
+      "name": "catch_omitted_spatial_boost_correction",
+      "pass": true,
+      "control": "computed defect must fail the same equality comparator",
+      "observed_defect": [
+        "-1"
+      ]
+    },
+    {
+      "name": "catch_wrong_field_sign",
+      "pass": true,
+      "control": "computed defect must fail the same equality comparator",
+      "observed_defect": [
+        "-8",
+        "8"
+      ]
+    },
+    {
+      "name": "catch_comparator_unequal_shapes",
+      "pass": true,
+      "control": "computed defect must fail the same equality comparator",
+      "observed_defect": [
+        "SHAPE_MISMATCH"
+      ]
+    },
+    {
+      "name": "catch_comparator_nonzero_integer",
+      "pass": true,
+      "control": "computed defect must fail the same equality comparator",
+      "observed_defect": [
+        "1"
+      ]
+    },
+    {
+      "name": "comparator_zero_integer",
+      "pass": true,
+      "nonzero_residuals": []
+    }
+  ],
+  "count": 37,
+  "passed": 36,
+  "all_pass": false
+}

@@ -1,0 +1,13 @@
+{
+  "recorded_utc": "2026-09-13T15:48:27.488706+00:00",
+  "exposure": "prior source outcomes and own hand proof; fresh reviewer source-first underway, no findings received; no new GFC1 mathematical execution yet",
+  "pins": {
+    "check_connection.py": "beb9f843bcf701169df4d30728aa828e7c2489a5358343e94915f38439867435",
+    "INITIAL_CANDIDATE.md": "e88212df8f042d7c1f9fba9b9e2cef3c6c7952cb37856a2e146137996fe5fa47",
+    "CANDIDATE_FREEZE.json": "ef1fa5d89dd89f0cad63b03f08db6832d3ea2951d891b5be53d2477028ba8280"
+  },
+  "utility_pin": "85711d60ceedb583d5350059a952db6fd6f649e880e8fcb0d8317b714fdf26d5",
+  "regime": "exact full metric/original connection; all smooth u-profile formulas plus declared finite zero/mutation controls",
+  "resource": "one CPU process/thread;180s/2048MiB; no GPU/tolerance/PDE",
+  "failure_stop": "retain actual error/output and freeze finite repair before rerun"
+}

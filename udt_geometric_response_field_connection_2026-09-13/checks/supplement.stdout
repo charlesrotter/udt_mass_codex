@@ -1,0 +1,16 @@
+null_lift_full_frame_Gram True
+null_lift_original_A_all4 True
+null_lift_original_dA_all16 True
+inverse_profile_pair True
+null_lift_original_divergence True
+null_lift_original_closure True
+null_lift_zero_frame_regular True
+all_K_profiles_full_potential_relation True
+all_K_profiles_field_relation True
+boost_general_potential_relation True
+null_example_N_component True
+boost_example_N_component True
+two_distinct_reductions_same_potential True
+nonparallel_l_acceleration True
+distinct_planes_numeric_N_separation True
+{"count": 15, "passed": 15, "all_pass": true}

@@ -14,6 +14,49 @@ Current acceptance overlay: earlier UNPROMOTED/campaign-only language below reco
 returns. The G383--G412, G413--G415 and G416--G423 banking packets and maintained checkpoint own later dispositions;
 original result packages remain unchanged. No physical adoption or canon is included.
 
+## GFC1 reviewed geometric response / field connection — 2026-09-13
+
+Charles authorized the two-hour connection study with one fresh review.
+GFC1 returned VERIFIED-WITH-CAVEATS, CONDITIONAL UNPROMOTED; final fidelity and
+actual publication are separately recorded. Lay result:
+`udt_geometric_response_field_connection_2026-09-13/DECISION_BRIEF.md`;
+full science: its INITIAL_CANDIDATE controlled by ORIENTATION_CLARIFICATION,
+SUPPLEMENTAL_CONNECTION and review/DIRECT_REVIEW. Exact checks: CLOSEOUT.
+
+On the EXISTING full evolving NR2 H0 geometry, every smooth aligned two-profile
+field has a representation as actual G95 screen curvature. The primary smooth
+Cartesian boost and the reviewer's independent source-first null-lift route
+both retain all profile zeros. For the Killing subset, the full connection
+potentials differ from K-flat by an explicit exact form (a primitive on I for
+the moving-boost term). Distinct screen planes can give the same potential
+and field. This is a conditional representation, not physical identification.
+
+All local oriented screens compatible with the PARALLEL null line give zero
+screen curvature, while spacetime tides remain nonzero. Nonzero matching
+changes the supplied screen plane. Either orientation is covered after the
+preserved O(2) precision correction; SO(2) frame gauge remains distinct.
+The alternative null direction is generally nongeodesic, not a physical ray.
+No new geometry, frozen slice or field equation was imposed in this study.
+
+The previously uncomputed field/screen representation join now has this exact
+bounded answer. The extra screen functions encode the freely supplied field
+profiles; neither a metric-only selected reduction nor native/physical Maxwell
+has been established. G179/G213, current G312 FILTER ONLY and G351/G352 retain
+their existing scopes. The generic G95 nonzero-response example survives.
+
+Direction: preserve this as a conditional geometric-response branch. A next
+work order must state whether it explores consequences of a supplied reduction
+or derives an additional restriction from existing UDT premises, with its
+nearest completed result and substantive advance. Ordinary free data remain
+legitimate; unique-universe selection is not a prerequisite. No automatic
+field-family extension, new physical premise, G424/promotion, instrument
+campaign or manuscript/CANON change follows. Stop for discussion.
+
+Actual new full406 PASS; original parent36/37 retained, repaired41/41 and
+supplement15/15 pass. Fresh Fraction99/99 and targeted9/9 pass after a preserved
+invalid-input failure/repair. Counts include controls and are not proof counts.
+One fresh reviewer/context; runtime model UNATTESTED, capacity UNVERIFIED.
+
 ## NFCA1 reviewed native-connection audit — 2026-09-13
 
 Charles authorized the revised connection audit after asking whether the added

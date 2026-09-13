@@ -1,0 +1,13 @@
+{
+  "recorded_utc": "2026-09-13T15:45:14.536021+00:00",
+  "exposure": "hand exploration and prior package results; no new GFC1 reviewer or check outcome",
+  "pins": {
+    "WORK_ORDER.md": "c42de04417e2e3ca60dc1d86c2f85c21ca3349c269b5ba61cacc2d3ce9b3c844",
+    "SOURCE_MAP.md": "bd27219b9ee9e8fbef11cace0f2963fdbe167e948224f4a831f21138c22cb0c9",
+    "EXPLORATION_HISTORY.md": "d1b463636ff8c82963f9d9e80e0ca2ddf491578dc1034db7f9959253cc9aff8c",
+    "INITIAL_CANDIDATE.md": "e88212df8f042d7c1f9fba9b9e2cef3c6c7952cb37856a2e146137996fe5fa47",
+    "SOURCE_PINS.json": "9a734851638736bb5cd219b99e601d6df29f5787d6108cc696f7abaaddbe9b41",
+    "SELECTED_PREMISES.json": "db0e8afc2d3a705f7b53ae1164c9f06affb0ecd604e548e220c95ce505f11ce0"
+  },
+  "checks_to_follow": "original full connection/frame/curvature/exterior/divergence and finite diagnostic controls; freeze implementation separately before execution"
+}

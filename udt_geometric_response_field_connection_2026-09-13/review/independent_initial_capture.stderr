@@ -1,0 +1,6 @@
+Traceback (most recent call last):
+  File "/home/udt-admin/udt_mass_codex/udt_geometric_response_field_connection_2026-09-13/review/independent_connection.py", line 115, in <module>
+    c=sqrt_at(1+2*(z1*z1+z2*z2),c0)
+  File "/home/udt-admin/udt_mass_codex/udt_geometric_response_field_connection_2026-09-13/review/independent_connection.py", line 55, in sqrt_at
+    assert z.v==c0*c0
+AssertionError

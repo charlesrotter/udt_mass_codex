@@ -1,0 +1,12 @@
+{
+  "recorded_utc": "2026-09-13T16:05:08.127570+00:00",
+  "scope": "per-command git index threading only, no persistent config or scientific changes",
+  "pins": {
+    "FINAL_CHECK_REPAIR.md": "fa9cedbf372bd94c5b9f361c2385b1216810f01392b3918f840b26fc4b50462e",
+    "final_fidelity_check.py": "f05babe4ef9e139fb611f271f34ab5763674a981ba8c7f1794fa491b4d8d2346",
+    "final_fidelity_check_repaired.py": "a1b2a8447985b945137279737bcfe6473d27c01bcded8993ddac9b9ffe9750a1",
+    "final_fidelity_capture.json": "b7424559cafba4e74759d6df16dfb596727628cef41654e8e11e4e1e194f4f7c",
+    "final_fidelity_capture.stdout": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "final_fidelity_capture.stderr": "172e9ebcfd00f68ee2f72139d592c66e86008d320d233d26b798f39f4ecbdbc8"
+  }
+}

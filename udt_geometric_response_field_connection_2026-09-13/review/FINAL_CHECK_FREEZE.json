@@ -1,0 +1,11 @@
+{
+  "recorded_utc": "2026-09-13T16:04:16.015769+00:00",
+  "scope": "frozen22documents/source/failure/result/status/interval correspondence; no new science",
+  "pins": {
+    "udt_geometric_response_field_connection_2026-09-13/FINAL_FIDELITY_REQUEST.json": "6b754996674e33ef6fc1cdcf9e127cf11802d209a2d3fd6c67ae5f4da54de3b1",
+    "udt_geometric_response_field_connection_2026-09-13/review/final_fidelity_check.py": "f05babe4ef9e139fb611f271f34ab5763674a981ba8c7f1794fa491b4d8d2346",
+    "udt_geometric_field_choice_discrimination_2026-09-13/review/final_fidelity_checks.py": "0fa48aa2249c8ba9300a353ee3e0b534db7bd9d0066bd3748fe202750b2828fc",
+    "udt_shared_readout_metric_constraint_campaign_2026-09-06/run_capture.py": "8ff5469ace76bdfc84188915242abbf3baff35516f9ee3f9ba4b1cbfeb2573ef"
+  },
+  "resource": "existing unmodified capture60s/512MiB, one CPU administrative process with sequential git reads; no full406 or scientific replay"
+}

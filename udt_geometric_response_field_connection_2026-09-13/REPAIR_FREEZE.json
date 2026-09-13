@@ -1,0 +1,14 @@
+{
+  "recorded_utc": "2026-09-13T15:51:37.728789+00:00",
+  "scope": "same-event expected baseline; wrong-event and orientation controls only",
+  "pins": {
+    "CHECK_REPAIR.md": "1c2f3458ae3b9012ad2b13112a56df67af118eb968d7a609c89a46ebd49c5110",
+    "ORIENTATION_CLARIFICATION.md": "cd2c52e5374ddd2b167691fcb5b403a407c1aeed1e6c9259d7f13822fa7da63e",
+    "check_connection_repaired.py": "910628248843c192785a4189ba377ceaacd7830f1a67c97825980692df8d5efa",
+    "check_connection.py": "beb9f843bcf701169df4d30728aa828e7c2489a5358343e94915f38439867435",
+    "CONNECTION_RESULT.json": "54e45866f0cf37ac2b478f3888c15abe1700429277f265a3dad720ebb80aa248",
+    "CHECK_FREEZE.json": "316abb62adfbb431545c9486508122041ce68675fcc01218a6e658b82079d295"
+  },
+  "scientific_equations_changed": false,
+  "result_output": "CONNECTION_REPAIRED_RESULT.json"
+}
