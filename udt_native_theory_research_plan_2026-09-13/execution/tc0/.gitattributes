@@ -1,0 +1,4 @@
+# Raw diagnostics retain byte-exact whitespace; inspect their contents directly.
+checks/navigation_initial_changes.patch -diff
+checks/navigation_repair_changes.patch -diff
+checks/navigation_repair.stdout -diff

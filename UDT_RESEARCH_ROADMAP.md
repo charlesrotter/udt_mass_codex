@@ -14,7 +14,7 @@ Current acceptance overlay: earlier UNPROMOTED/campaign-only language below reco
 returns. The G383--G412, G413--G415 and G416--G423 banking packets and maintained checkpoint own later dispositions;
 original result packages remain unchanged. No physical adoption or canon is included.
 
-## Proposed native theory development plan — 2026-09-13
+## Native theory plan and TC0 early return — 2026-09-13
 
 Charles asks for a step-by-step program toward predictive spacetime/cosmology,
 and eventually mass, electromagnetic, quantum and particle physics. His explicit
@@ -23,10 +23,11 @@ bounded probes; added physical mechanisms do not become native dependencies.
 A dead end must be recorded at its actual scope, without a fabricated repair.
 
 Draft plan: `udt_native_theory_research_plan_2026-09-13/PLAN.md`;
-prospective task graph: its PROPOSED_TASKS.tsv. This is a planning deliverable,
-not an independently reviewed scientific result, premise adoption or dispatch.
-Existing grades, provisional postulates, conditional gains, protected work and
-paused branches are preserved. Current scientific return remains NAP1 below.
+prospective task graph: its PROPOSED_TASKS.tsv. The frozen planning package remains
+a proposal snapshot. Charles subsequently authorized its six-hour TC0 packet and
+small multi-agent whiteboards. Execution: its `execution/tc0/DECISION_BRIEF.md`
+and `RESULT.md`. Existing grades, postulates, conditional gains and protected work
+are preserved; NAP1 remains the latest scientific result, not promoted by TC0.
 
 Proposed priority: native response/assembly implication -> coherent development
 -> linked predictions -> cosmological sector and independently justified emergence
@@ -35,14 +36,18 @@ listing already-known missing premises is not new progress. Broad geometry remai
 available when it serves a named question; the NAP1 clock/angular release is an
 unexecuted secondary proposal, not an automatic substitute for native closure.
 
-First proposed packet TC0: at most6hours total, CPU-only, at most2 fresh review
-contexts with exact sub-budgets and same-premise repair. A45minute novelty gate
-must identify one precise source-supported implication beyond completed work;
-otherwise return the existing decision boundary without occupying the remaining
-hours. Exact premises, workspace, resource limits, stops and useful return are
-in PLAN. A longer24/48hour execution needs a bounded successor graph and explicit
-authorization. No persistent goal, schedule, new worker or research solve was
-started by drafting the plan. Stop for discussion; no canon or scientific promotion.
+TC0 launched at19:48:19UTC and reached its novelty stop at19:59UTC, before the
+45minute gate. One fresh source challenger and the parent independently examined
+response typing/linkage and assembly, then held a short whiteboard. The candidate
+connections led to already completed G179/G310 response distinctions and existing
+reconstruction/compatibility results; no substantively new implication passed.
+`TC0_NOVELTY_STOP__NO_NEW_SCIENTIFIC_RESULT`: not a universal no-go, new premise
+requirement or scientific promotion. No candidate solve/review allocation or
+excluded fallback followed. Actual checks/resources: execution WORK_RECORD and
+AGENT_ALLOCATIONS; startup full406 passed in404.031s. T1/T2 gain no new dependency.
+Stop for discussion; reopening needs one specific new source relation or argument
+beyond the documented stops. A24/48hour successor still needs a bounded graph and
+explicit authorization. No persistent goal, schedule or runtime change was made.
 
 ## NAP1 reviewed native-premise angular audit — 2026-09-13
 

@@ -1,0 +1,19 @@
+{
+  "source": "/home/udt-admin/udt_mass_codex/udt_shared_readout_metric_constraint_campaign_2026-09-06/run_capture.py",
+  "source_sha256": "8ff5469ace76bdfc84188915242abbf3baff35516f9ee3f9ba4b1cbfeb2573ef",
+  "adapted_capture_sha256": "15ed81619d57206aef515a3136b28be50df888a839fac760417cc0b2be35dd26",
+  "limits": {
+    "seconds": 120,
+    "mib": 2048
+  },
+  "thread_environment": {
+    "OMP_NUM_THREADS": "1",
+    "OPENBLAS_NUM_THREADS": "1",
+    "MKL_NUM_THREADS": "1"
+  },
+  "command": [
+    "python3",
+    "-c",
+    "from pathlib import Path\nimport json,hashlib,subprocess,datetime\np=Path(\"udt_native_theory_research_plan_2026-09-13/execution/tc0\")\nlaunch=json.loads((p/\"LAUNCH.json\").read_text())\nh=lambda b:hashlib.sha256(b).hexdigest()\npins=json.loads((p/\"SOURCE_PINS.json\").read_text())\nfor f,w in pins.items():\n assert h(Path(f).read_bytes())==w,f\n assert h(subprocess.check_output([\"git\",\"show\",launch[\"head\"]+\":\"+f]))==w,f\nfor f,w in launch[\"source_snapshot\"].items():\n assert h(Path(f).read_bytes())==w,f\nactual=subprocess.check_output([\"git\",\"status\",\"--short\",\"--untracked-files=all\"],text=True)\noriginal=\"\".join(x+\"\\n\" for x in actual.splitlines() if x.startswith(\"?? \") and not x[3:].startswith(str(p)+\"/\"))\nassert original==launch[\"original_untracked_status\"]\nassert subprocess.check_output([\"git\",\"branch\",\"--show-current\"],text=True).strip()==\"grok\"\nrefs=subprocess.check_output([\"git\",\"rev-parse\",\"HEAD\",\"origin/grok\"],text=True).splitlines()\nassert refs==[launch[\"head\"],launch[\"head\"]]\nassert not subprocess.check_output([\"git\",\"diff\",\"--cached\",\"--name-only\"],text=True).strip()\nchanged=subprocess.check_output([\"git\",\"diff\",\"--name-only\"],text=True).splitlines()\nassert changed==[\"INDEX.md\",\"MEMORY.md\",\"UDT_RESEARCH_ROADMAP.md\"],changed\nassert json.loads((p/\"checks/premise406.json\").read_text())[\"returncode\"]==0\nassert json.loads((p/\"checks/navigation_final.json\").read_text())[\"returncode\"]==0\nsize=sum(f.stat().st_size for f in p.rglob(\"*\") if f.is_file())\nassert size<250*1024*1024\nprint(json.dumps({\"utc\":datetime.datetime.now(datetime.timezone.utc).isoformat(),\"result\":\"PASS\",\"source_tool_pins\":len(pins),\"source_pins_match_launch_git\":True,\"unchanged_prior_source_fixed_pins\":len(launch[\"source_snapshot\"]),\"original_untracked_names\":len(original.splitlines()),\"original_names_sha256\":h(original.encode()),\"head_origin\":refs,\"tracked_changes\":changed,\"output_bytes_at_check\":size,\"protected_payload_contents\":\"NOT_INSPECTED\",\"backup_completeness\":\"UNVERIFIED\",\"pre_reboot_unsaved_state\":\"UNVERIFIED\"},indent=2))\n"
+  ]
+}

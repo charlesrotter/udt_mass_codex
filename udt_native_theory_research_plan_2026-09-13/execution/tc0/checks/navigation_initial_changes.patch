@@ -1,0 +1,114 @@
+diff --git a/CURRENT_RESEARCH_PROGRAM.md b/CURRENT_RESEARCH_PROGRAM.md
+index 1f545a75..bfa5dbe8 100644
+--- a/CURRENT_RESEARCH_PROGRAM.md
++++ b/CURRENT_RESEARCH_PROGRAM.md
+@@ -114,4 +114,4 @@ Backup completeness/pre-reboot unsaved state remain UNVERIFIED; ScratchDisk is a
+ 
+ G383--G412 exact-scope banking is COMPLETE; G413--G423 banked; BE1/SD1/NR1/NR2/TI3 reviewed conditional UNPROMOTED; OB2 eligibility unresolved: INDEX.
+ G312 membership unclosed; G352 physical-realization: physical identification remains OPEN.
+-Charles authorized broader-geometry testing and one bounded follow-up; completed; NAP1 reviewed/UNPROMOTED; native admission OPEN; Maxwell PAUSED; discussion stop; work order and return gates: roadmap.
++Charles authorized broader-geometry testing and one bounded follow-up; completed; TC0 novelty-stop; NAP1 reviewed/UNPROMOTED; native admission OPEN; Maxwell PAUSED; discussion stop; work order and return gates: roadmap.
+diff --git a/HANDOFF.md b/HANDOFF.md
+index 48a9e003..679b346c 100644
+--- a/HANDOFF.md
++++ b/HANDOFF.md
+@@ -81,5 +81,5 @@ Availability testing is operational only; the whiteboard's scientific audit is P
+ 
+ Next: G383--G412 exact-scope banking is COMPLETE; G413--G423 banked; BE1/SD1/NR1/NR2/TI3 reviewed conditional UNPROMOTED; OB2 eligibility unresolved: INDEX.
+ G312 membership unclosed; G352 physical-realization: physical identification remains OPEN.
+-Charles authorized broader-geometry testing and one bounded follow-up; completed; NAP1 reviewed/UNPROMOTED; native admission OPEN; Maxwell PAUSED; discussion stop; work order and return gates: roadmap.
++Charles authorized broader-geometry testing and one bounded follow-up; completed; TC0 novelty-stop; NAP1 reviewed/UNPROMOTED; native admission OPEN; Maxwell PAUSED; discussion stop; work order and return gates: roadmap.
+ <!-- STARTUP_CURRENT_END -->
+diff --git a/INDEX.md b/INDEX.md
+index 4ced52cd..b438ee2b 100644
+--- a/INDEX.md
++++ b/INDEX.md
+@@ -2,7 +2,7 @@
+ 
+ G383--G415 banked; G416--G423 acceptance: `udt_signal_chain_banking_2026-09-13/BANKING_RECORD.md`.
+ Roadmap: `UDT_RESEARCH_ROADMAP.md`; G414: `udt_ti2_banking_2026-09-11/BANKING_RECORD.md`; TI3 reviewed/UNPROMOTED: `udt_two_shape_profile_dependence_2026-09-11/DECISION_BRIEF.md`.
+-CWA1: `UDT_CONSOLIDATED_RESEARCH_ACCOUNT.md`; BE1/SD1/NR1/NR2/NFCA1/GFC1/LSR1: roadmap; NAP1: `udt_native_angular_premise_audit_2026-09-13/DECISION_BRIEF.md` (reviewed/UNPROMOTED).
++CWA1: `UDT_CONSOLIDATED_RESEARCH_ACCOUNT.md`; BE1/SD1/NR1/NR2/NFCA1/GFC1/LSR1/TC0: roadmap; NAP1: `udt_native_angular_premise_audit_2026-09-13/DECISION_BRIEF.md` (reviewed/UNPROMOTED).
+ Backlog: `udt_reviewed_backlog_banking_2026-09-10/BANKING_RECORD.md`; exact claims/dispositions/checks there.
+ The exact 406-row `CURRENT_SCIENTIFIC_PREMISES.tsv` owns grades, not these pointers.
+ GR is FILTER ONLY, not a response-law input; Local Metric Sufficiency remains owner-provisional.
+diff --git a/LIVE.md b/LIVE.md
+index 6b1cfd0a..f8c7b89c 100644
+--- a/LIVE.md
++++ b/LIVE.md
+@@ -108,5 +108,5 @@ Protected—do not stage, modify, mine or cite without dispatch:
+ 
+ G383--G412 exact-scope banking is COMPLETE; G413--G423 banked; BE1/SD1/NR1/NR2/TI3 reviewed conditional UNPROMOTED; OB2 eligibility unresolved: INDEX.
+ G312 membership unclosed; G352 physical-realization: physical identification remains OPEN.
+-Charles authorized broader-geometry testing and one bounded follow-up; completed; NAP1 reviewed/UNPROMOTED; native admission OPEN; Maxwell PAUSED; discussion stop; work order and return gates: roadmap.
++Charles authorized broader-geometry testing and one bounded follow-up; completed; TC0 novelty-stop; NAP1 reviewed/UNPROMOTED; native admission OPEN; Maxwell PAUSED; discussion stop; work order and return gates: roadmap.
+ <!-- STARTUP_CURRENT_END -->
+diff --git a/MEMORY.md b/MEMORY.md
+index d2202392..4b3bd064 100644
+--- a/MEMORY.md
++++ b/MEMORY.md
+@@ -47,7 +47,7 @@ Session transition: `HANDOFF.md`.
+ 
+ Banking through G382 is complete; G312 membership unclosed, G352 physical identification OPEN.
+ Consolidated gains/gates: `UDT_CONSOLIDATED_RESEARCH_ACCOUNT.md`; roadmap owns dispositions and GFC1 connection.
+-NAP1 reviewed/UNPROMOTED; native admission OPEN; Maxwell PAUSED; emergence-question rule: AGENTS; roadmap; discussion stop.
++NAP1 reviewed/UNPROMOTED; TC0 novelty-stop; native admission OPEN; Maxwell PAUSED; emergence-question rule: AGENTS; roadmap; discussion stop.
+ 
+ Backup completeness/pre-reboot unsaved state remain UNVERIFIED; ScratchDisk archive-only.
+ R2--R5 remain verified with caveats;184,300 covariance rows unresolved, no preferred scale.
+diff --git a/UDT_RESEARCH_ROADMAP.md b/UDT_RESEARCH_ROADMAP.md
+index 1a5f1ce0..9e7bcd37 100644
+--- a/UDT_RESEARCH_ROADMAP.md
++++ b/UDT_RESEARCH_ROADMAP.md
+@@ -14,7 +14,7 @@ Current acceptance overlay: earlier UNPROMOTED/campaign-only language below reco
+ returns. The G383--G412, G413--G415 and G416--G423 banking packets and maintained checkpoint own later dispositions;
+ original result packages remain unchanged. No physical adoption or canon is included.
+ 
+-## Proposed native theory development plan — 2026-09-13
++## Native theory plan and TC0 early return — 2026-09-13
+ 
+ Charles asks for a step-by-step program toward predictive spacetime/cosmology,
+ and eventually mass, electromagnetic, quantum and particle physics. His explicit
+@@ -23,10 +23,11 @@ bounded probes; added physical mechanisms do not become native dependencies.
+ A dead end must be recorded at its actual scope, without a fabricated repair.
+ 
+ Draft plan: `udt_native_theory_research_plan_2026-09-13/PLAN.md`;
+-prospective task graph: its PROPOSED_TASKS.tsv. This is a planning deliverable,
+-not an independently reviewed scientific result, premise adoption or dispatch.
+-Existing grades, provisional postulates, conditional gains, protected work and
+-paused branches are preserved. Current scientific return remains NAP1 below.
++prospective task graph: its PROPOSED_TASKS.tsv. The frozen planning package remains
++a proposal snapshot. Charles subsequently authorized its six-hour TC0 packet and
++small multi-agent whiteboards. Execution: its `execution/tc0/DECISION_BRIEF.md`
++and `RESULT.md`. Existing grades, postulates, conditional gains and protected work
++are preserved; NAP1 remains the latest scientific result, not promoted by TC0.
+ 
+ Proposed priority: native response/assembly implication -> coherent development
+ -> linked predictions -> cosmological sector and independently justified emergence
+@@ -35,14 +36,18 @@ listing already-known missing premises is not new progress. Broad geometry remai
+ available when it serves a named question; the NAP1 clock/angular release is an
+ unexecuted secondary proposal, not an automatic substitute for native closure.
+ 
+-First proposed packet TC0: at most6hours total, CPU-only, at most2 fresh review
+-contexts with exact sub-budgets and same-premise repair. A45minute novelty gate
+-must identify one precise source-supported implication beyond completed work;
+-otherwise return the existing decision boundary without occupying the remaining
+-hours. Exact premises, workspace, resource limits, stops and useful return are
+-in PLAN. A longer24/48hour execution needs a bounded successor graph and explicit
+-authorization. No persistent goal, schedule, new worker or research solve was
+-started by drafting the plan. Stop for discussion; no canon or scientific promotion.
++TC0 launched at19:48:19UTC and reached its novelty stop at19:59UTC, before the
++45minute gate. One fresh source challenger and the parent independently examined
++response typing/linkage and assembly, then held a short whiteboard. The candidate
++connections led to already completed G179/G310 response distinctions and existing
++reconstruction/compatibility results; no substantively new implication passed.
++`TC0_NOVELTY_STOP__NO_NEW_SCIENTIFIC_RESULT`: not a universal no-go, new premise
++requirement or scientific promotion. No candidate solve/review allocation or
++excluded fallback followed. Actual checks/resources: execution WORK_RECORD and
++AGENT_ALLOCATIONS; startup full406 passed in404.031s. T1/T2 gain no new dependency.
++Stop for discussion; reopening needs one specific new source relation or argument
++beyond the documented stops. A24/48hour successor still needs a bounded graph and
++explicit authorization. No persistent goal, schedule or runtime change was made.
+ 
+ ## NAP1 reviewed native-premise angular audit — 2026-09-13
+ 

@@ -1,0 +1,29 @@
+{
+  "limit": 2,
+  "general_capacity": "UNVERIFIED",
+  "runtime_models": "UNATTESTED",
+  "allocations": [
+    {
+      "agent": "/root/tc0_novelty_challenger",
+      "purpose": "independent source/novelty reasoning then parent whiteboard",
+      "fresh_context": true,
+      "fork_turns": "none",
+      "model_override": null,
+      "start_utc": "2026-09-13T19:54:33+00:00",
+      "deadline_utc": "2026-09-13T20:24:33+00:00",
+      "end_utc": "2026-09-13T20:06:02+00:00",
+      "status": "COMPLETE",
+      "exposure": "sources first; independent screen received before parent direct-gradient idea supplied",
+      "cpu": "no scientific subprocess; parent full406 overlapped source reasoning",
+      "elapsed_seconds": 689,
+      "source_review_concluded_utc": "2026-09-13T19:59:26+00:00",
+      "parent_worker_overlap_seconds": 689,
+      "parent_full406_overlap_seconds": 112.88994,
+      "overlap_basis": "agent observed interval intersected with captured parent verifier start plus duration; source reasoning overlapped, no parallel scientific computations"
+    }
+  ],
+  "successful_allocations": 1,
+  "failed_allocations": 0,
+  "second_context": "NOT_ALLOCATED: no new scientific candidate passed novelty",
+  "max_new_contexts_simultaneous_including_parent": 2
+}
