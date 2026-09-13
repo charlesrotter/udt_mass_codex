@@ -1,0 +1,9 @@
+{
+  "science_commit": "fe13554ece88cd07a602baf8805f44db3d1e8f1a",
+  "scope": "receipt/checkpoint snapshot; self excluded; science manifest uses science commit",
+  "pins": {
+    "udt_geometric_field_choice_discrimination_2026-09-13/CHECKPOINT.md": "20be9472e38a4e2e4b9fca5b5ceda9a5ee9d8fbd8b99931378ace8792dd270fc",
+    "udt_geometric_field_choice_discrimination_2026-09-13/PUBLICATION.json": "5f9b99fb5699bceade8d3678817ec5c9bc0cc12eeaf1d91f5a3a91d37ad2d702",
+    "udt_geometric_field_choice_discrimination_2026-09-13/PUBLICATION.md": "09e877789fa41208ac3139701f524b5efa1c4e9dbee487de1f302ee81d5f4409"
+  }
+}

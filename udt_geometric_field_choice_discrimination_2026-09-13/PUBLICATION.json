@@ -1,0 +1,358 @@
+{
+  "package": "udt_geometric_field_choice_discrimination_2026-09-13",
+  "events": [
+    {
+      "utc": "2026-09-13T13:18:01.310445+00:00",
+      "command": [
+        "git",
+        "rev-parse",
+        "--abbrev-ref",
+        "HEAD"
+      ],
+      "exit": 0,
+      "stdout": "grok\n",
+      "stderr": ""
+    },
+    {
+      "utc": "2026-09-13T13:18:01.311741+00:00",
+      "command": [
+        "git",
+        "rev-parse",
+        "HEAD",
+        "origin/grok"
+      ],
+      "exit": 0,
+      "stdout": "f2e5c94d6418dbcd5ca09545f87a208dde7913b0\nf2e5c94d6418dbcd5ca09545f87a208dde7913b0\n",
+      "stderr": ""
+    },
+    {
+      "utc": "2026-09-13T13:18:01.312922+00:00",
+      "command": [
+        "git",
+        "diff",
+        "--cached",
+        "--name-only"
+      ],
+      "exit": 0,
+      "stdout": "",
+      "stderr": ""
+    },
+    {
+      "utc": "2026-09-13T13:18:01.319758+00:00",
+      "command": [
+        "git",
+        "diff",
+        "--name-only"
+      ],
+      "exit": 0,
+      "stdout": "CURRENT_RESEARCH_PROGRAM.md\nHANDOFF.md\nINDEX.md\nLIVE.md\nMEMORY.md\nUDT_RESEARCH_ROADMAP.md\n",
+      "stderr": ""
+    },
+    {
+      "utc": "2026-09-13T13:18:01.329280+00:00",
+      "command": [
+        "git",
+        "status",
+        "--short",
+        "--untracked-files=all"
+      ],
+      "exit": 0,
+      "stdout": " M CURRENT_RESEARCH_PROGRAM.md\n M HANDOFF.md\n M INDEX.md\n M LIVE.md\n M MEMORY.md\n M UDT_RESEARCH_ROADMAP.md\n?? 8_25/UDT_FOUNDING_VALUE_LAW_ANALYSIS.md\n?? 8_25/udt_extension_checks.py\n?? 8_25/udt_extension_minimality_response.md\n?? 8_25/udt_value_law_checks.py\n?? 8_25/udt_value_law_checks_llm1.py\n?? 8_25/udt_value_law_external_response.md\n?? UDT_Complete_Guardrails_and_Central_Science_Tracking.md\n?? UDT_Next_Step_After_Two_Stages.md\n?? UDT_Sequenced_Guardrails_and_Development_Work_Order.md\n?? udt_geometric_field_choice_discrimination_2026-09-13/AUDIT_INPUT_PINS.json\n?? udt_geometric_field_choice_discrimination_2026-09-13/AUDIT_REUSE.json\n?? udt_geometric_field_choice_discrimination_2026-09-13/CANDIDATE_FREEZE.json\n?? udt_geometric_field_choice_discrimination_2026-09-13/CHECKPOINT.md\n?? udt_geometric_field_choice_discrimination_2026-09-13/CLOSEOUT.md\n?? udt_geometric_field_choice_discrimination_2026-09-13/COINCIDENT_DIAGNOSTIC.json\n?? udt_geometric_field_choice_discrimination_2026-09-13/COMPARISON_BOUNDARY.md\n?? udt_geometric_field_choice_discrimination_2026-09-13/DECISION_BRIEF.md\n?? udt_geometric_field_choice_discrimination_2026-09-13/EXACT_RESULT.json\n?? udt_geometric_field_choice_discrimination_2026-09-13/EXECUTION_INTERVALS.json\n?? udt_geometric_field_choice_discrimination_2026-09-13/EXECUTION_INTERVALS_FINAL.json\n?? udt_geometric_field_choice_discrimination_2026-09-13/FINITE_DIAGNOSTIC.md\n?? udt_geometric_field_choice_discrimination_2026-09-13/INITIAL_CANDIDATE.md\n?? udt_geometric_field_choice_discrimination_2026-09-13/INTERVAL_PROVENANCE.json\n?? udt_geometric_field_choice_discrimination_2026-09-13/LAUNCH.json\n?? udt_geometric_field_choice_discrimination_2026-09-13/LITERATURE_EXPOSURE.md\n?? udt_geometric_field_choice_discrimination_2026-09-13/POST_REVIEW_GATE.json\n?? udt_geometric_field_choice_discrimination_2026-09-13/PREMISE_CAPTURE_COPY.json\n?? udt_geometric_field_choice_discrimination_2026-09-13/PRESERVATION.json\n?? udt_geometric_field_choice_discrimination_2026-09-13/README.md\n?? udt_geometric_field_choice_discrimination_2026-09-13/REPAIRED_RESULT.json\n?? udt_geometric_field_choice_discrimination_2026-09-13/REPAIR_FREEZE.json\n?? udt_geometric_field_choice_discrimination_2026-09-13/REPAIR_RECORD.md\n?? udt_geometric_field_choice_discrimination_2026-09-13/RESULT_SCOPE.tsv\n?? udt_geometric_field_choice_discrimination_2026-09-13/REVIEWED_RESULT.md\n?? udt_geometric_field_choice_discrimination_2026-09-13/SELECTED_PREMISES.json\n?? udt_geometric_field_choice_discrimination_2026-09-13/SOURCE_MAP.md\n?? udt_geometric_field_choice_discrimination_2026-09-13/SOURCE_PINS.json\n?? udt_geometric_field_choice_discrimination_2026-09-13/WORK_ORDER.md\n?? udt_geometric_field_choice_discrimination_2026-09-13/check_candidate.py\n?? udt_geometric_field_choice_discrimination_2026-09-13/check_candidate_repaired.py\n?? udt_geometric_field_choice_discrimination_2026-09-13/checks/candidate_exact.capture_provenance.json\n?? udt_geometric_field_choice_discrimination_2026-09-13/checks/candidate_exact.json\n?? udt_geometric_field_choice_discrimination_2026-09-13/checks/candidate_exact.stderr\n?? udt_geometric_field_choice_discrimination_2026-09-13/checks/candidate_repaired.capture_provenance.json\n?? udt_geometric_field_choice_discrimination_2026-09-13/checks/candidate_repaired.json\n?? udt_geometric_field_choice_discrimination_2026-09-13/checks/candidate_repaired.stderr\n?? udt_geometric_field_choice_discrimination_2026-09-13/checks/coincident_diagnostic.capture_provenance.json\n?? udt_geometric_field_choice_discrimination_2026-09-13/checks/coincident_diagnostic.json\n?? udt_geometric_field_choice_discrimination_2026-09-13/checks/coincident_diagnostic.stderr\n?? udt_geometric_field_choice_discrimination_2026-09-13/checks/current_surface.capture_provenance.json\n?? udt_geometric_field_choice_discrimination_2026-09-13/checks/current_surface.json\n?? udt_geometric_field_choice_discrimination_2026-09-13/checks/current_surface.stderr\n?? udt_geometric_field_choice_discrimination_2026-09-13/checks/navigation.capture_provenance.json\n?? udt_geometric_field_choice_discrimination_2026-09-13/checks/navigation.json\n?? udt_geometric_field_choice_discrimination_2026-09-13/checks/navigation.stderr\n?? udt_geometric_field_choice_discrimination_2026-09-13/checks/premise406.capture_provenance.json\n?? udt_geometric_field_choice_discrimination_2026-09-13/checks/premise406.json\n?? udt_geometric_field_choice_discrimination_2026-09-13/checks/premise406.stderr\n?? udt_geometric_field_choice_discrimination_2026-09-13/checks/prepublication_fetch.capture_provenance.json\n?? udt_geometric_field_choice_discrimination_2026-09-13/checks/prepublication_fetch.json\n?? udt_geometric_field_choice_discrimination_2026-09-13/checks/prepublication_fetch.stderr\n?? udt_geometric_field_choice_discrimination_2026-09-13/diagnose_coincident.py\n?? udt_geometric_field_choice_discrimination_2026-09-13/review/ALLOCATION.json\n?? udt_geometric_field_choice_discrimination_2026-09-13/review/DIRECT_REQUEST.md\n?? udt_geometric_field_choice_discrimination_2026-09-13/review/DIRECT_REVIEW.md\n?? udt_geometric_field_choice_discrimination_2026-09-13/review/DIRECT_REVIEW_PINS.json\n?? udt_geometric_field_choice_discrimination_2026-09-13/review/FINAL_CHECK_RESULT.json\n?? udt_geometric_field_choice_discrimination_2026-09-13/review/FINAL_FIDELITY.md\n?? udt_geometric_field_choice_discrimination_2026-09-13/review/FINAL_FIDELITY_PINS.json\n?? udt_geometric_field_choice_discrimination_2026-09-13/review/FINAL_REVIEW_RECEIPT.json\n?? udt_geometric_field_choice_discrimination_2026-09-13/review/INDEPENDENT_FREEZE.json\n?? udt_geometric_field_choice_discrimination_2026-09-13/review/INDEPENDENT_FREEZE.md\n?? udt_geometric_field_choice_discrimination_2026-09-13/review/INDEPENDENT_RESULT.json\n?? udt_geometric_field_choice_discrimination_2026-09-13/review/SOURCE_FIRST.md\n?? udt_geometric_field_choice_discrimination_2026-09-13/review/SOURCE_FIRST_PINS.json\n?? udt_geometric_field_choice_discrimination_2026-09-13/review/SOURCE_FIRST_REQUEST.md\n?? udt_geometric_field_choice_discrimination_2026-09-13/review/final_fidelity_capture.capture_provenance.json\n?? udt_geometric_field_choice_discrimination_2026-09-13/review/final_fidelity_capture.json\n?? udt_geometric_field_choice_discrimination_2026-09-13/review/final_fidelity_capture.stderr\n?? udt_geometric_field_choice_discrimination_2026-09-13/review/final_fidelity_checks.py\n?? udt_geometric_field_choice_discrimination_2026-09-13/review/independent_capture.capture_provenance.json\n?? udt_geometric_field_choice_discrimination_2026-09-13/review/independent_capture.json\n?? udt_geometric_field_choice_discrimination_2026-09-13/review/independent_capture.stderr\n?? udt_geometric_field_choice_discrimination_2026-09-13/review/independent_checks.py\n?? udt_native_onshell_timelive_reset_owner_audit_2026-08-10/CANDIDATE_LAW_MAP.tsv\n?? udt_native_onshell_timelive_reset_owner_audit_2026-08-10/DERIVATION_RESULT.json\n?? udt_native_onshell_timelive_reset_owner_audit_2026-08-10/EQUATION_OWNERSHIP_ATLAS.tsv\n?? udt_native_onshell_timelive_reset_owner_audit_2026-08-10/SOURCE_SCOPE_CLARIFICATION.md\n?? udt_native_onshell_timelive_reset_owner_audit_2026-08-10/derive_owner_atlas.py\n?? udt_native_onshell_timelive_reset_owner_audit_2026-08-10/run_catch_proofs.py\n?? udt_native_onshell_timelive_reset_owner_audit_2026-08-10/verify_owner_independent.py\n?? udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/ADVERSARIAL_REVIEW_REQUEST.md\n?? udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/AUDIT_REPORT.md\n?? udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/CATCH_PROOF_RESULT.json\n?? udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/DERIVATION_RESULT.json\n?? udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/EVIDENCE_GATES.md\n?? udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/EXACT_DERIVATION.md\n?? udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/INDEPENDENT_VERIFICATION.json\n?? udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/LAY_REPORT.md\n?? udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/STATUS_LEDGER.tsv\n?? udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/VERIFICATION_RESULT.json\n?? udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/WITNESS_ATLAS.tsv\n?? udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/build_review_intake.py\n?? udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/derive_regime_flow.py\n?? udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/run_catch_proofs.py\n?? udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/verify_independent.py\n?? udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/verify_package.py\n?? udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/AUDIT_REPORT.md\n?? udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/CATCH_PROOF_RESULT.json\n?? udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/DERIVATION_RESULT.json\n?? udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/EVIDENCE_GATES.md\n?? udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/EXACT_DERIVATION.md\n?? udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/INDEPENDENT_RADAU_REPLAY.tsv\n?? udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/INDEPENDENT_VERIFICATION.json\n?? udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/LAY_REPORT.md\n?? udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/PREREGISTRATION_EXECUTION_NOTE.md\n?? udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/PROFILE_COMPATIBILITY_ATLAS.tsv\n?? udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/REVIEW_DISPATCH.md\n?? udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/RUN_CHECKPOINT.tsv\n?? udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/STATUS_LEDGER.tsv\n?? udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/VERIFICATION_RESULT.json\n?? udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/build_review_manifest.py\n?? udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/derive_compatibility_atlas.py\n?? udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/run_catch_proofs.py\n?? udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/verify_independent.py\n?? udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/verify_package.py\n",
+      "stderr": ""
+    },
+    {
+      "utc": "2026-09-13T13:18:12.126276+00:00",
+      "command": [
+        "git",
+        "add",
+        "-f",
+        "--pathspec-from-file=/tmp/udt_geometric_field_choice_discrimination_2026-09-13.nul",
+        "--pathspec-file-nul"
+      ],
+      "exit": 0,
+      "stdout": "",
+      "stderr": ""
+    },
+    {
+      "utc": "2026-09-13T13:18:12.168673+00:00",
+      "command": [
+        "git",
+        "diff",
+        "--cached",
+        "--check"
+      ],
+      "exit": 2,
+      "stdout": "udt_geometric_field_choice_discrimination_2026-09-13/CLOSEOUT.md:98: new blank line at EOF.\n",
+      "stderr": ""
+    },
+    {
+      "utc": "2026-09-13T13:18:57.891038+00:00",
+      "command": [
+        "git",
+        "add",
+        "-f",
+        "--pathspec-from-file=/tmp/udt_geometric_field_choice_discrimination_2026-09-13.nul",
+        "--pathspec-file-nul"
+      ],
+      "exit": 0,
+      "stdout": "",
+      "stderr": ""
+    },
+    {
+      "utc": "2026-09-13T13:18:57.940395+00:00",
+      "command": [
+        "git",
+        "diff",
+        "--cached",
+        "--check"
+      ],
+      "exit": 0,
+      "stdout": "",
+      "stderr": ""
+    },
+    {
+      "utc": "2026-09-13T13:18:57.950147+00:00",
+      "command": [
+        "git",
+        "diff",
+        "--cached",
+        "--name-only"
+      ],
+      "exit": 0,
+      "stdout": "CURRENT_RESEARCH_PROGRAM.md\nHANDOFF.md\nINDEX.md\nLIVE.md\nMEMORY.md\nUDT_RESEARCH_ROADMAP.md\nudt_geometric_field_choice_discrimination_2026-09-13/AUDIT_INPUT_PINS.json\nudt_geometric_field_choice_discrimination_2026-09-13/AUDIT_REUSE.json\nudt_geometric_field_choice_discrimination_2026-09-13/CANDIDATE_FREEZE.json\nudt_geometric_field_choice_discrimination_2026-09-13/CHECKPOINT.md\nudt_geometric_field_choice_discrimination_2026-09-13/CLOSEOUT.md\nudt_geometric_field_choice_discrimination_2026-09-13/COINCIDENT_DIAGNOSTIC.json\nudt_geometric_field_choice_discrimination_2026-09-13/COMPARISON_BOUNDARY.md\nudt_geometric_field_choice_discrimination_2026-09-13/DECISION_BRIEF.md\nudt_geometric_field_choice_discrimination_2026-09-13/EXACT_RESULT.json\nudt_geometric_field_choice_discrimination_2026-09-13/EXECUTION_INTERVALS.json\nudt_geometric_field_choice_discrimination_2026-09-13/EXECUTION_INTERVALS_FINAL.json\nudt_geometric_field_choice_discrimination_2026-09-13/FINITE_DIAGNOSTIC.md\nudt_geometric_field_choice_discrimination_2026-09-13/INITIAL_CANDIDATE.md\nudt_geometric_field_choice_discrimination_2026-09-13/INTERVAL_PROVENANCE.json\nudt_geometric_field_choice_discrimination_2026-09-13/LAUNCH.json\nudt_geometric_field_choice_discrimination_2026-09-13/LITERATURE_EXPOSURE.md\nudt_geometric_field_choice_discrimination_2026-09-13/POST_REVIEW_GATE.json\nudt_geometric_field_choice_discrimination_2026-09-13/PREMISE_CAPTURE_COPY.json\nudt_geometric_field_choice_discrimination_2026-09-13/PRESERVATION.json\nudt_geometric_field_choice_discrimination_2026-09-13/PUBLICATION_WHITESPACE_REPAIR.json\nudt_geometric_field_choice_discrimination_2026-09-13/PUBLISH_PLAN.json\nudt_geometric_field_choice_discrimination_2026-09-13/README.md\nudt_geometric_field_choice_discrimination_2026-09-13/REPAIRED_RESULT.json\nudt_geometric_field_choice_discrimination_2026-09-13/REPAIR_FREEZE.json\nudt_geometric_field_choice_discrimination_2026-09-13/REPAIR_RECORD.md\nudt_geometric_field_choice_discrimination_2026-09-13/RESULT_SCOPE.tsv\nudt_geometric_field_choice_discrimination_2026-09-13/REVIEWED_RESULT.md\nudt_geometric_field_choice_discrimination_2026-09-13/SELECTED_PREMISES.json\nudt_geometric_field_choice_discrimination_2026-09-13/SHA256SUMS.json\nudt_geometric_field_choice_discrimination_2026-09-13/SOURCE_MAP.md\nudt_geometric_field_choice_discrimination_2026-09-13/SOURCE_PINS.json\nudt_geometric_field_choice_discrimination_2026-09-13/WORK_ORDER.md\nudt_geometric_field_choice_discrimination_2026-09-13/check_candidate.py\nudt_geometric_field_choice_discrimination_2026-09-13/check_candidate_repaired.py\nudt_geometric_field_choice_discrimination_2026-09-13/checks/candidate_exact.capture_provenance.json\nudt_geometric_field_choice_discrimination_2026-09-13/checks/candidate_exact.json\nudt_geometric_field_choice_discrimination_2026-09-13/checks/candidate_exact.stderr\nudt_geometric_field_choice_discrimination_2026-09-13/checks/candidate_exact.stdout\nudt_geometric_field_choice_discrimination_2026-09-13/checks/candidate_repaired.capture_provenance.json\nudt_geometric_field_choice_discrimination_2026-09-13/checks/candidate_repaired.json\nudt_geometric_field_choice_discrimination_2026-09-13/checks/candidate_repaired.stderr\nudt_geometric_field_choice_discrimination_2026-09-13/checks/candidate_repaired.stdout\nudt_geometric_field_choice_discrimination_2026-09-13/checks/coincident_diagnostic.capture_provenance.json\nudt_geometric_field_choice_discrimination_2026-09-13/checks/coincident_diagnostic.json\nudt_geometric_field_choice_discrimination_2026-09-13/checks/coincident_diagnostic.stderr\nudt_geometric_field_choice_discrimination_2026-09-13/checks/coincident_diagnostic.stdout\nudt_geometric_field_choice_discrimination_2026-09-13/checks/current_surface.capture_provenance.json\nudt_geometric_field_choice_discrimination_2026-09-13/checks/current_surface.json\nudt_geometric_field_choice_discrimination_2026-09-13/checks/current_surface.stderr\nudt_geometric_field_choice_discrimination_2026-09-13/checks/current_surface.stdout\nudt_geometric_field_choice_discrimination_2026-09-13/checks/navigation.capture_provenance.json\nudt_geometric_field_choice_discrimination_2026-09-13/checks/navigation.json\nudt_geometric_field_choice_discrimination_2026-09-13/checks/navigation.stderr\nudt_geometric_field_choice_discrimination_2026-09-13/checks/navigation.stdout\nudt_geometric_field_choice_discrimination_2026-09-13/checks/premise406.capture_provenance.json\nudt_geometric_field_choice_discrimination_2026-09-13/checks/premise406.json\nudt_geometric_field_choice_discrimination_2026-09-13/checks/premise406.stderr\nudt_geometric_field_choice_discrimination_2026-09-13/checks/premise406.stdout\nudt_geometric_field_choice_discrimination_2026-09-13/checks/prepublication_fetch.capture_provenance.json\nudt_geometric_field_choice_discrimination_2026-09-13/checks/prepublication_fetch.json\nudt_geometric_field_choice_discrimination_2026-09-13/checks/prepublication_fetch.stderr\nudt_geometric_field_choice_discrimination_2026-09-13/checks/prepublication_fetch.stdout\nudt_geometric_field_choice_discrimination_2026-09-13/diagnose_coincident.py\nudt_geometric_field_choice_discrimination_2026-09-13/review/ALLOCATION.json\nudt_geometric_field_choice_discrimination_2026-09-13/review/DIRECT_REQUEST.md\nudt_geometric_field_choice_discrimination_2026-09-13/review/DIRECT_REVIEW.md\nudt_geometric_field_choice_discrimination_2026-09-13/review/DIRECT_REVIEW_PINS.json\nudt_geometric_field_choice_discrimination_2026-09-13/review/FINAL_CHECK_RESULT.json\nudt_geometric_field_choice_discrimination_2026-09-13/review/FINAL_FIDELITY.md\nudt_geometric_field_choice_discrimination_2026-09-13/review/FINAL_FIDELITY_PINS.json\nudt_geometric_field_choice_discrimination_2026-09-13/review/FINAL_REVIEW_RECEIPT.json\nudt_geometric_field_choice_discrimination_2026-09-13/review/INDEPENDENT_FREEZE.json\nudt_geometric_field_choice_discrimination_2026-09-13/review/INDEPENDENT_FREEZE.md\nudt_geometric_field_choice_discrimination_2026-09-13/review/INDEPENDENT_RESULT.json\nudt_geometric_field_choice_discrimination_2026-09-13/review/SOURCE_FIRST.md\nudt_geometric_field_choice_discrimination_2026-09-13/review/SOURCE_FIRST_PINS.json\nudt_geometric_field_choice_discrimination_2026-09-13/review/SOURCE_FIRST_REQUEST.md\nudt_geometric_field_choice_discrimination_2026-09-13/review/final_fidelity_capture.capture_provenance.json\nudt_geometric_field_choice_discrimination_2026-09-13/review/final_fidelity_capture.json\nudt_geometric_field_choice_discrimination_2026-09-13/review/final_fidelity_capture.stderr\nudt_geometric_field_choice_discrimination_2026-09-13/review/final_fidelity_capture.stdout\nudt_geometric_field_choice_discrimination_2026-09-13/review/final_fidelity_checks.py\nudt_geometric_field_choice_discrimination_2026-09-13/review/independent_capture.capture_provenance.json\nudt_geometric_field_choice_discrimination_2026-09-13/review/independent_capture.json\nudt_geometric_field_choice_discrimination_2026-09-13/review/independent_capture.stderr\nudt_geometric_field_choice_discrimination_2026-09-13/review/independent_capture.stdout\nudt_geometric_field_choice_discrimination_2026-09-13/review/independent_checks.py\n",
+      "stderr": ""
+    },
+    {
+      "utc": "2026-09-13T13:19:08.899837+00:00",
+      "command": [
+        "git",
+        "diff",
+        "--cached",
+        "--check"
+      ],
+      "exit": 0,
+      "stdout": "",
+      "stderr": ""
+    },
+    {
+      "utc": "2026-09-13T13:19:08.909156+00:00",
+      "command": [
+        "git",
+        "diff",
+        "--cached",
+        "--name-only"
+      ],
+      "exit": 0,
+      "stdout": "CURRENT_RESEARCH_PROGRAM.md\nHANDOFF.md\nINDEX.md\nLIVE.md\nMEMORY.md\nUDT_RESEARCH_ROADMAP.md\nudt_geometric_field_choice_discrimination_2026-09-13/AUDIT_INPUT_PINS.json\nudt_geometric_field_choice_discrimination_2026-09-13/AUDIT_REUSE.json\nudt_geometric_field_choice_discrimination_2026-09-13/CANDIDATE_FREEZE.json\nudt_geometric_field_choice_discrimination_2026-09-13/CHECKPOINT.md\nudt_geometric_field_choice_discrimination_2026-09-13/CLOSEOUT.md\nudt_geometric_field_choice_discrimination_2026-09-13/COINCIDENT_DIAGNOSTIC.json\nudt_geometric_field_choice_discrimination_2026-09-13/COMPARISON_BOUNDARY.md\nudt_geometric_field_choice_discrimination_2026-09-13/DECISION_BRIEF.md\nudt_geometric_field_choice_discrimination_2026-09-13/EXACT_RESULT.json\nudt_geometric_field_choice_discrimination_2026-09-13/EXECUTION_INTERVALS.json\nudt_geometric_field_choice_discrimination_2026-09-13/EXECUTION_INTERVALS_FINAL.json\nudt_geometric_field_choice_discrimination_2026-09-13/FINITE_DIAGNOSTIC.md\nudt_geometric_field_choice_discrimination_2026-09-13/INITIAL_CANDIDATE.md\nudt_geometric_field_choice_discrimination_2026-09-13/INTERVAL_PROVENANCE.json\nudt_geometric_field_choice_discrimination_2026-09-13/LAUNCH.json\nudt_geometric_field_choice_discrimination_2026-09-13/LITERATURE_EXPOSURE.md\nudt_geometric_field_choice_discrimination_2026-09-13/POST_REVIEW_GATE.json\nudt_geometric_field_choice_discrimination_2026-09-13/PREMISE_CAPTURE_COPY.json\nudt_geometric_field_choice_discrimination_2026-09-13/PRESERVATION.json\nudt_geometric_field_choice_discrimination_2026-09-13/PUBLICATION_WHITESPACE_REPAIR.json\nudt_geometric_field_choice_discrimination_2026-09-13/PUBLISH_PLAN.json\nudt_geometric_field_choice_discrimination_2026-09-13/README.md\nudt_geometric_field_choice_discrimination_2026-09-13/REPAIRED_RESULT.json\nudt_geometric_field_choice_discrimination_2026-09-13/REPAIR_FREEZE.json\nudt_geometric_field_choice_discrimination_2026-09-13/REPAIR_RECORD.md\nudt_geometric_field_choice_discrimination_2026-09-13/RESULT_SCOPE.tsv\nudt_geometric_field_choice_discrimination_2026-09-13/REVIEWED_RESULT.md\nudt_geometric_field_choice_discrimination_2026-09-13/SELECTED_PREMISES.json\nudt_geometric_field_choice_discrimination_2026-09-13/SHA256SUMS.json\nudt_geometric_field_choice_discrimination_2026-09-13/SOURCE_MAP.md\nudt_geometric_field_choice_discrimination_2026-09-13/SOURCE_PINS.json\nudt_geometric_field_choice_discrimination_2026-09-13/WORK_ORDER.md\nudt_geometric_field_choice_discrimination_2026-09-13/check_candidate.py\nudt_geometric_field_choice_discrimination_2026-09-13/check_candidate_repaired.py\nudt_geometric_field_choice_discrimination_2026-09-13/checks/candidate_exact.capture_provenance.json\nudt_geometric_field_choice_discrimination_2026-09-13/checks/candidate_exact.json\nudt_geometric_field_choice_discrimination_2026-09-13/checks/candidate_exact.stderr\nudt_geometric_field_choice_discrimination_2026-09-13/checks/candidate_exact.stdout\nudt_geometric_field_choice_discrimination_2026-09-13/checks/candidate_repaired.capture_provenance.json\nudt_geometric_field_choice_discrimination_2026-09-13/checks/candidate_repaired.json\nudt_geometric_field_choice_discrimination_2026-09-13/checks/candidate_repaired.stderr\nudt_geometric_field_choice_discrimination_2026-09-13/checks/candidate_repaired.stdout\nudt_geometric_field_choice_discrimination_2026-09-13/checks/coincident_diagnostic.capture_provenance.json\nudt_geometric_field_choice_discrimination_2026-09-13/checks/coincident_diagnostic.json\nudt_geometric_field_choice_discrimination_2026-09-13/checks/coincident_diagnostic.stderr\nudt_geometric_field_choice_discrimination_2026-09-13/checks/coincident_diagnostic.stdout\nudt_geometric_field_choice_discrimination_2026-09-13/checks/current_surface.capture_provenance.json\nudt_geometric_field_choice_discrimination_2026-09-13/checks/current_surface.json\nudt_geometric_field_choice_discrimination_2026-09-13/checks/current_surface.stderr\nudt_geometric_field_choice_discrimination_2026-09-13/checks/current_surface.stdout\nudt_geometric_field_choice_discrimination_2026-09-13/checks/navigation.capture_provenance.json\nudt_geometric_field_choice_discrimination_2026-09-13/checks/navigation.json\nudt_geometric_field_choice_discrimination_2026-09-13/checks/navigation.stderr\nudt_geometric_field_choice_discrimination_2026-09-13/checks/navigation.stdout\nudt_geometric_field_choice_discrimination_2026-09-13/checks/premise406.capture_provenance.json\nudt_geometric_field_choice_discrimination_2026-09-13/checks/premise406.json\nudt_geometric_field_choice_discrimination_2026-09-13/checks/premise406.stderr\nudt_geometric_field_choice_discrimination_2026-09-13/checks/premise406.stdout\nudt_geometric_field_choice_discrimination_2026-09-13/checks/prepublication_fetch.capture_provenance.json\nudt_geometric_field_choice_discrimination_2026-09-13/checks/prepublication_fetch.json\nudt_geometric_field_choice_discrimination_2026-09-13/checks/prepublication_fetch.stderr\nudt_geometric_field_choice_discrimination_2026-09-13/checks/prepublication_fetch.stdout\nudt_geometric_field_choice_discrimination_2026-09-13/diagnose_coincident.py\nudt_geometric_field_choice_discrimination_2026-09-13/review/ALLOCATION.json\nudt_geometric_field_choice_discrimination_2026-09-13/review/DIRECT_REQUEST.md\nudt_geometric_field_choice_discrimination_2026-09-13/review/DIRECT_REVIEW.md\nudt_geometric_field_choice_discrimination_2026-09-13/review/DIRECT_REVIEW_PINS.json\nudt_geometric_field_choice_discrimination_2026-09-13/review/FINAL_CHECK_RESULT.json\nudt_geometric_field_choice_discrimination_2026-09-13/review/FINAL_FIDELITY.md\nudt_geometric_field_choice_discrimination_2026-09-13/review/FINAL_FIDELITY_PINS.json\nudt_geometric_field_choice_discrimination_2026-09-13/review/FINAL_REVIEW_RECEIPT.json\nudt_geometric_field_choice_discrimination_2026-09-13/review/INDEPENDENT_FREEZE.json\nudt_geometric_field_choice_discrimination_2026-09-13/review/INDEPENDENT_FREEZE.md\nudt_geometric_field_choice_discrimination_2026-09-13/review/INDEPENDENT_RESULT.json\nudt_geometric_field_choice_discrimination_2026-09-13/review/SOURCE_FIRST.md\nudt_geometric_field_choice_discrimination_2026-09-13/review/SOURCE_FIRST_PINS.json\nudt_geometric_field_choice_discrimination_2026-09-13/review/SOURCE_FIRST_REQUEST.md\nudt_geometric_field_choice_discrimination_2026-09-13/review/final_fidelity_capture.capture_provenance.json\nudt_geometric_field_choice_discrimination_2026-09-13/review/final_fidelity_capture.json\nudt_geometric_field_choice_discrimination_2026-09-13/review/final_fidelity_capture.stderr\nudt_geometric_field_choice_discrimination_2026-09-13/review/final_fidelity_capture.stdout\nudt_geometric_field_choice_discrimination_2026-09-13/review/final_fidelity_checks.py\nudt_geometric_field_choice_discrimination_2026-09-13/review/independent_capture.capture_provenance.json\nudt_geometric_field_choice_discrimination_2026-09-13/review/independent_capture.json\nudt_geometric_field_choice_discrimination_2026-09-13/review/independent_capture.stderr\nudt_geometric_field_choice_discrimination_2026-09-13/review/independent_capture.stdout\nudt_geometric_field_choice_discrimination_2026-09-13/review/independent_checks.py\n",
+      "stderr": ""
+    },
+    {
+      "utc": "2026-09-13T13:19:08.915740+00:00",
+      "command": [
+        "git",
+        "commit",
+        "-m",
+        "Record NR2 conditional field discrimination and symmetry survivor"
+      ],
+      "exit": 0,
+      "stdout": "[grok fe13554e] Record NR2 conditional field discrimination and symmetry survivor\n 93 files changed, 6403 insertions(+), 11 deletions(-)\n create mode 100644 udt_geometric_field_choice_discrimination_2026-09-13/AUDIT_INPUT_PINS.json\n create mode 100644 udt_geometric_field_choice_discrimination_2026-09-13/AUDIT_REUSE.json\n create mode 100644 udt_geometric_field_choice_discrimination_2026-09-13/CANDIDATE_FREEZE.json\n create mode 100644 udt_geometric_field_choice_discrimination_2026-09-13/CHECKPOINT.md\n create mode 100644 udt_geometric_field_choice_discrimination_2026-09-13/CLOSEOUT.md\n create mode 100644 udt_geometric_field_choice_discrimination_2026-09-13/COINCIDENT_DIAGNOSTIC.json\n create mode 100644 udt_geometric_field_choice_discrimination_2026-09-13/COMPARISON_BOUNDARY.md\n create mode 100644 udt_geometric_field_choice_discrimination_2026-09-13/DECISION_BRIEF.md\n create mode 100644 udt_geometric_field_choice_discrimination_2026-09-13/EXACT_RESULT.json\n create mode 100644 udt_geometric_field_choice_discrimination_2026-09-13/EXECUTION_INTERVALS.json\n create mode 100644 udt_geometric_field_choice_discrimination_2026-09-13/EXECUTION_INTERVALS_FINAL.json\n create mode 100644 udt_geometric_field_choice_discrimination_2026-09-13/FINITE_DIAGNOSTIC.md\n create mode 100644 udt_geometric_field_choice_discrimination_2026-09-13/INITIAL_CANDIDATE.md\n create mode 100644 udt_geometric_field_choice_discrimination_2026-09-13/INTERVAL_PROVENANCE.json\n create mode 100644 udt_geometric_field_choice_discrimination_2026-09-13/LAUNCH.json\n create mode 100644 udt_geometric_field_choice_discrimination_2026-09-13/LITERATURE_EXPOSURE.md\n create mode 100644 udt_geometric_field_choice_discrimination_2026-09-13/POST_REVIEW_GATE.json\n create mode 100644 udt_geometric_field_choice_discrimination_2026-09-13/PREMISE_CAPTURE_COPY.json\n create mode 100644 udt_geometric_field_choice_discrimination_2026-09-13/PRESERVATION.json\n create mode 100644 udt_geometric_field_choice_discrimination_2026-09-13/PUBLICATION_WHITESPACE_REPAIR.json\n create mode 100644 udt_geometric_field_choice_discrimination_2026-09-13/PUBLISH_PLAN.json\n create mode 100644 udt_geometric_field_choice_discrimination_2026-09-13/README.md\n create mode 100644 udt_geometric_field_choice_discrimination_2026-09-13/REPAIRED_RESULT.json\n create mode 100644 udt_geometric_field_choice_discrimination_2026-09-13/REPAIR_FREEZE.json\n create mode 100644 udt_geometric_field_choice_discrimination_2026-09-13/REPAIR_RECORD.md\n create mode 100644 udt_geometric_field_choice_discrimination_2026-09-13/RESULT_SCOPE.tsv\n create mode 100644 udt_geometric_field_choice_discrimination_2026-09-13/REVIEWED_RESULT.md\n create mode 100644 udt_geometric_field_choice_discrimination_2026-09-13/SELECTED_PREMISES.json\n create mode 100644 udt_geometric_field_choice_discrimination_2026-09-13/SHA256SUMS.json\n create mode 100644 udt_geometric_field_choice_discrimination_2026-09-13/SOURCE_MAP.md\n create mode 100644 udt_geometric_field_choice_discrimination_2026-09-13/SOURCE_PINS.json\n create mode 100644 udt_geometric_field_choice_discrimination_2026-09-13/WORK_ORDER.md\n create mode 100644 udt_geometric_field_choice_discrimination_2026-09-13/check_candidate.py\n create mode 100644 udt_geometric_field_choice_discrimination_2026-09-13/check_candidate_repaired.py\n create mode 100644 udt_geometric_field_choice_discrimination_2026-09-13/checks/candidate_exact.capture_provenance.json\n create mode 100644 udt_geometric_field_choice_discrimination_2026-09-13/checks/candidate_exact.json\n create mode 100644 udt_geometric_field_choice_discrimination_2026-09-13/checks/candidate_exact.stderr\n create mode 100644 udt_geometric_field_choice_discrimination_2026-09-13/checks/candidate_exact.stdout\n create mode 100644 udt_geometric_field_choice_discrimination_2026-09-13/checks/candidate_repaired.capture_provenance.json\n create mode 100644 udt_geometric_field_choice_discrimination_2026-09-13/checks/candidate_repaired.json\n create mode 100644 udt_geometric_field_choice_discrimination_2026-09-13/checks/candidate_repaired.stderr\n create mode 100644 udt_geometric_field_choice_discrimination_2026-09-13/checks/candidate_repaired.stdout\n create mode 100644 udt_geometric_field_choice_discrimination_2026-09-13/checks/coincident_diagnostic.capture_provenance.json\n create mode 100644 udt_geometric_field_choice_discrimination_2026-09-13/checks/coincident_diagnostic.json\n create mode 100644 udt_geometric_field_choice_discrimination_2026-09-13/checks/coincident_diagnostic.stderr\n create mode 100644 udt_geometric_field_choice_discrimination_2026-09-13/checks/coincident_diagnostic.stdout\n create mode 100644 udt_geometric_field_choice_discrimination_2026-09-13/checks/current_surface.capture_provenance.json\n create mode 100644 udt_geometric_field_choice_discrimination_2026-09-13/checks/current_surface.json\n create mode 100644 udt_geometric_field_choice_discrimination_2026-09-13/checks/current_surface.stderr\n create mode 100644 udt_geometric_field_choice_discrimination_2026-09-13/checks/current_surface.stdout\n create mode 100644 udt_geometric_field_choice_discrimination_2026-09-13/checks/navigation.capture_provenance.json\n create mode 100644 udt_geometric_field_choice_discrimination_2026-09-13/checks/navigation.json\n create mode 100644 udt_geometric_field_choice_discrimination_2026-09-13/checks/navigation.stderr\n create mode 100644 udt_geometric_field_choice_discrimination_2026-09-13/checks/navigation.stdout\n create mode 100644 udt_geometric_field_choice_discrimination_2026-09-13/checks/premise406.capture_provenance.json\n create mode 100644 udt_geometric_field_choice_discrimination_2026-09-13/checks/premise406.json\n create mode 100644 udt_geometric_field_choice_discrimination_2026-09-13/checks/premise406.stderr\n create mode 100644 udt_geometric_field_choice_discrimination_2026-09-13/checks/premise406.stdout\n create mode 100644 udt_geometric_field_choice_discrimination_2026-09-13/checks/prepublication_fetch.capture_provenance.json\n create mode 100644 udt_geometric_field_choice_discrimination_2026-09-13/checks/prepublication_fetch.json\n create mode 100644 udt_geometric_field_choice_discrimination_2026-09-13/checks/prepublication_fetch.stderr\n create mode 100644 udt_geometric_field_choice_discrimination_2026-09-13/checks/prepublication_fetch.stdout\n create mode 100644 udt_geometric_field_choice_discrimination_2026-09-13/diagnose_coincident.py\n create mode 100644 udt_geometric_field_choice_discrimination_2026-09-13/review/ALLOCATION.json\n create mode 100644 udt_geometric_field_choice_discrimination_2026-09-13/review/DIRECT_REQUEST.md\n create mode 100644 udt_geometric_field_choice_discrimination_2026-09-13/review/DIRECT_REVIEW.md\n create mode 100644 udt_geometric_field_choice_discrimination_2026-09-13/review/DIRECT_REVIEW_PINS.json\n create mode 100644 udt_geometric_field_choice_discrimination_2026-09-13/review/FINAL_CHECK_RESULT.json\n create mode 100644 udt_geometric_field_choice_discrimination_2026-09-13/review/FINAL_FIDELITY.md\n create mode 100644 udt_geometric_field_choice_discrimination_2026-09-13/review/FINAL_FIDELITY_PINS.json\n create mode 100644 udt_geometric_field_choice_discrimination_2026-09-13/review/FINAL_REVIEW_RECEIPT.json\n create mode 100644 udt_geometric_field_choice_discrimination_2026-09-13/review/INDEPENDENT_FREEZE.json\n create mode 100644 udt_geometric_field_choice_discrimination_2026-09-13/review/INDEPENDENT_FREEZE.md\n create mode 100644 udt_geometric_field_choice_discrimination_2026-09-13/review/INDEPENDENT_RESULT.json\n create mode 100644 udt_geometric_field_choice_discrimination_2026-09-13/review/SOURCE_FIRST.md\n create mode 100644 udt_geometric_field_choice_discrimination_2026-09-13/review/SOURCE_FIRST_PINS.json\n create mode 100644 udt_geometric_field_choice_discrimination_2026-09-13/review/SOURCE_FIRST_REQUEST.md\n create mode 100644 udt_geometric_field_choice_discrimination_2026-09-13/review/final_fidelity_capture.capture_provenance.json\n create mode 100644 udt_geometric_field_choice_discrimination_2026-09-13/review/final_fidelity_capture.json\n create mode 100644 udt_geometric_field_choice_discrimination_2026-09-13/review/final_fidelity_capture.stderr\n create mode 100644 udt_geometric_field_choice_discrimination_2026-09-13/review/final_fidelity_capture.stdout\n create mode 100644 udt_geometric_field_choice_discrimination_2026-09-13/review/final_fidelity_checks.py\n create mode 100644 udt_geometric_field_choice_discrimination_2026-09-13/review/independent_capture.capture_provenance.json\n create mode 100644 udt_geometric_field_choice_discrimination_2026-09-13/review/independent_capture.json\n create mode 100644 udt_geometric_field_choice_discrimination_2026-09-13/review/independent_capture.stderr\n create mode 100644 udt_geometric_field_choice_discrimination_2026-09-13/review/independent_capture.stdout\n create mode 100644 udt_geometric_field_choice_discrimination_2026-09-13/review/independent_checks.py\n",
+      "stderr": ""
+    },
+    {
+      "utc": "2026-09-13T13:19:08.942936+00:00",
+      "command": [
+        "git",
+        "rev-parse",
+        "HEAD"
+      ],
+      "exit": 0,
+      "stdout": "fe13554ece88cd07a602baf8805f44db3d1e8f1a\n",
+      "stderr": ""
+    },
+    {
+      "utc": "2026-09-13T13:19:08.944416+00:00",
+      "command": [
+        "git",
+        "diff-tree",
+        "--no-commit-id",
+        "--name-only",
+        "-r",
+        "HEAD"
+      ],
+      "exit": 0,
+      "stdout": "CURRENT_RESEARCH_PROGRAM.md\nHANDOFF.md\nINDEX.md\nLIVE.md\nMEMORY.md\nUDT_RESEARCH_ROADMAP.md\nudt_geometric_field_choice_discrimination_2026-09-13/AUDIT_INPUT_PINS.json\nudt_geometric_field_choice_discrimination_2026-09-13/AUDIT_REUSE.json\nudt_geometric_field_choice_discrimination_2026-09-13/CANDIDATE_FREEZE.json\nudt_geometric_field_choice_discrimination_2026-09-13/CHECKPOINT.md\nudt_geometric_field_choice_discrimination_2026-09-13/CLOSEOUT.md\nudt_geometric_field_choice_discrimination_2026-09-13/COINCIDENT_DIAGNOSTIC.json\nudt_geometric_field_choice_discrimination_2026-09-13/COMPARISON_BOUNDARY.md\nudt_geometric_field_choice_discrimination_2026-09-13/DECISION_BRIEF.md\nudt_geometric_field_choice_discrimination_2026-09-13/EXACT_RESULT.json\nudt_geometric_field_choice_discrimination_2026-09-13/EXECUTION_INTERVALS.json\nudt_geometric_field_choice_discrimination_2026-09-13/EXECUTION_INTERVALS_FINAL.json\nudt_geometric_field_choice_discrimination_2026-09-13/FINITE_DIAGNOSTIC.md\nudt_geometric_field_choice_discrimination_2026-09-13/INITIAL_CANDIDATE.md\nudt_geometric_field_choice_discrimination_2026-09-13/INTERVAL_PROVENANCE.json\nudt_geometric_field_choice_discrimination_2026-09-13/LAUNCH.json\nudt_geometric_field_choice_discrimination_2026-09-13/LITERATURE_EXPOSURE.md\nudt_geometric_field_choice_discrimination_2026-09-13/POST_REVIEW_GATE.json\nudt_geometric_field_choice_discrimination_2026-09-13/PREMISE_CAPTURE_COPY.json\nudt_geometric_field_choice_discrimination_2026-09-13/PRESERVATION.json\nudt_geometric_field_choice_discrimination_2026-09-13/PUBLICATION_WHITESPACE_REPAIR.json\nudt_geometric_field_choice_discrimination_2026-09-13/PUBLISH_PLAN.json\nudt_geometric_field_choice_discrimination_2026-09-13/README.md\nudt_geometric_field_choice_discrimination_2026-09-13/REPAIRED_RESULT.json\nudt_geometric_field_choice_discrimination_2026-09-13/REPAIR_FREEZE.json\nudt_geometric_field_choice_discrimination_2026-09-13/REPAIR_RECORD.md\nudt_geometric_field_choice_discrimination_2026-09-13/RESULT_SCOPE.tsv\nudt_geometric_field_choice_discrimination_2026-09-13/REVIEWED_RESULT.md\nudt_geometric_field_choice_discrimination_2026-09-13/SELECTED_PREMISES.json\nudt_geometric_field_choice_discrimination_2026-09-13/SHA256SUMS.json\nudt_geometric_field_choice_discrimination_2026-09-13/SOURCE_MAP.md\nudt_geometric_field_choice_discrimination_2026-09-13/SOURCE_PINS.json\nudt_geometric_field_choice_discrimination_2026-09-13/WORK_ORDER.md\nudt_geometric_field_choice_discrimination_2026-09-13/check_candidate.py\nudt_geometric_field_choice_discrimination_2026-09-13/check_candidate_repaired.py\nudt_geometric_field_choice_discrimination_2026-09-13/checks/candidate_exact.capture_provenance.json\nudt_geometric_field_choice_discrimination_2026-09-13/checks/candidate_exact.json\nudt_geometric_field_choice_discrimination_2026-09-13/checks/candidate_exact.stderr\nudt_geometric_field_choice_discrimination_2026-09-13/checks/candidate_exact.stdout\nudt_geometric_field_choice_discrimination_2026-09-13/checks/candidate_repaired.capture_provenance.json\nudt_geometric_field_choice_discrimination_2026-09-13/checks/candidate_repaired.json\nudt_geometric_field_choice_discrimination_2026-09-13/checks/candidate_repaired.stderr\nudt_geometric_field_choice_discrimination_2026-09-13/checks/candidate_repaired.stdout\nudt_geometric_field_choice_discrimination_2026-09-13/checks/coincident_diagnostic.capture_provenance.json\nudt_geometric_field_choice_discrimination_2026-09-13/checks/coincident_diagnostic.json\nudt_geometric_field_choice_discrimination_2026-09-13/checks/coincident_diagnostic.stderr\nudt_geometric_field_choice_discrimination_2026-09-13/checks/coincident_diagnostic.stdout\nudt_geometric_field_choice_discrimination_2026-09-13/checks/current_surface.capture_provenance.json\nudt_geometric_field_choice_discrimination_2026-09-13/checks/current_surface.json\nudt_geometric_field_choice_discrimination_2026-09-13/checks/current_surface.stderr\nudt_geometric_field_choice_discrimination_2026-09-13/checks/current_surface.stdout\nudt_geometric_field_choice_discrimination_2026-09-13/checks/navigation.capture_provenance.json\nudt_geometric_field_choice_discrimination_2026-09-13/checks/navigation.json\nudt_geometric_field_choice_discrimination_2026-09-13/checks/navigation.stderr\nudt_geometric_field_choice_discrimination_2026-09-13/checks/navigation.stdout\nudt_geometric_field_choice_discrimination_2026-09-13/checks/premise406.capture_provenance.json\nudt_geometric_field_choice_discrimination_2026-09-13/checks/premise406.json\nudt_geometric_field_choice_discrimination_2026-09-13/checks/premise406.stderr\nudt_geometric_field_choice_discrimination_2026-09-13/checks/premise406.stdout\nudt_geometric_field_choice_discrimination_2026-09-13/checks/prepublication_fetch.capture_provenance.json\nudt_geometric_field_choice_discrimination_2026-09-13/checks/prepublication_fetch.json\nudt_geometric_field_choice_discrimination_2026-09-13/checks/prepublication_fetch.stderr\nudt_geometric_field_choice_discrimination_2026-09-13/checks/prepublication_fetch.stdout\nudt_geometric_field_choice_discrimination_2026-09-13/diagnose_coincident.py\nudt_geometric_field_choice_discrimination_2026-09-13/review/ALLOCATION.json\nudt_geometric_field_choice_discrimination_2026-09-13/review/DIRECT_REQUEST.md\nudt_geometric_field_choice_discrimination_2026-09-13/review/DIRECT_REVIEW.md\nudt_geometric_field_choice_discrimination_2026-09-13/review/DIRECT_REVIEW_PINS.json\nudt_geometric_field_choice_discrimination_2026-09-13/review/FINAL_CHECK_RESULT.json\nudt_geometric_field_choice_discrimination_2026-09-13/review/FINAL_FIDELITY.md\nudt_geometric_field_choice_discrimination_2026-09-13/review/FINAL_FIDELITY_PINS.json\nudt_geometric_field_choice_discrimination_2026-09-13/review/FINAL_REVIEW_RECEIPT.json\nudt_geometric_field_choice_discrimination_2026-09-13/review/INDEPENDENT_FREEZE.json\nudt_geometric_field_choice_discrimination_2026-09-13/review/INDEPENDENT_FREEZE.md\nudt_geometric_field_choice_discrimination_2026-09-13/review/INDEPENDENT_RESULT.json\nudt_geometric_field_choice_discrimination_2026-09-13/review/SOURCE_FIRST.md\nudt_geometric_field_choice_discrimination_2026-09-13/review/SOURCE_FIRST_PINS.json\nudt_geometric_field_choice_discrimination_2026-09-13/review/SOURCE_FIRST_REQUEST.md\nudt_geometric_field_choice_discrimination_2026-09-13/review/final_fidelity_capture.capture_provenance.json\nudt_geometric_field_choice_discrimination_2026-09-13/review/final_fidelity_capture.json\nudt_geometric_field_choice_discrimination_2026-09-13/review/final_fidelity_capture.stderr\nudt_geometric_field_choice_discrimination_2026-09-13/review/final_fidelity_capture.stdout\nudt_geometric_field_choice_discrimination_2026-09-13/review/final_fidelity_checks.py\nudt_geometric_field_choice_discrimination_2026-09-13/review/independent_capture.capture_provenance.json\nudt_geometric_field_choice_discrimination_2026-09-13/review/independent_capture.json\nudt_geometric_field_choice_discrimination_2026-09-13/review/independent_capture.stderr\nudt_geometric_field_choice_discrimination_2026-09-13/review/independent_capture.stdout\nudt_geometric_field_choice_discrimination_2026-09-13/review/independent_checks.py\n",
+      "stderr": ""
+    },
+    {
+      "utc": "2026-09-13T13:19:20.387229+00:00",
+      "command": [
+        "git",
+        "push",
+        "origin",
+        "grok"
+      ],
+      "exit": 0,
+      "stdout": "",
+      "stderr": "To https://github.com/charlesrotter/udt_mass_codex.git\n   f2e5c94d..fe13554e  grok -> grok\n"
+    },
+    {
+      "utc": "2026-09-13T13:19:22.520294+00:00",
+      "command": [
+        "git",
+        "rev-parse",
+        "HEAD",
+        "origin/grok"
+      ],
+      "exit": 0,
+      "stdout": "fe13554ece88cd07a602baf8805f44db3d1e8f1a\nfe13554ece88cd07a602baf8805f44db3d1e8f1a\n",
+      "stderr": ""
+    },
+    {
+      "utc": "2026-09-13T13:19:22.527334+00:00",
+      "command": [
+        "git",
+        "diff",
+        "--name-only"
+      ],
+      "exit": 0,
+      "stdout": "",
+      "stderr": ""
+    },
+    {
+      "utc": "2026-09-13T13:19:22.535822+00:00",
+      "command": [
+        "git",
+        "diff",
+        "--cached",
+        "--name-only"
+      ],
+      "exit": 0,
+      "stdout": "",
+      "stderr": ""
+    },
+    {
+      "utc": "2026-09-13T13:19:22.543039+00:00",
+      "command": [
+        "git",
+        "status",
+        "--short",
+        "--untracked-files=all"
+      ],
+      "exit": 0,
+      "stdout": "?? 8_25/UDT_FOUNDING_VALUE_LAW_ANALYSIS.md\n?? 8_25/udt_extension_checks.py\n?? 8_25/udt_extension_minimality_response.md\n?? 8_25/udt_value_law_checks.py\n?? 8_25/udt_value_law_checks_llm1.py\n?? 8_25/udt_value_law_external_response.md\n?? UDT_Complete_Guardrails_and_Central_Science_Tracking.md\n?? UDT_Next_Step_After_Two_Stages.md\n?? UDT_Sequenced_Guardrails_and_Development_Work_Order.md\n?? udt_native_onshell_timelive_reset_owner_audit_2026-08-10/CANDIDATE_LAW_MAP.tsv\n?? udt_native_onshell_timelive_reset_owner_audit_2026-08-10/DERIVATION_RESULT.json\n?? udt_native_onshell_timelive_reset_owner_audit_2026-08-10/EQUATION_OWNERSHIP_ATLAS.tsv\n?? udt_native_onshell_timelive_reset_owner_audit_2026-08-10/SOURCE_SCOPE_CLARIFICATION.md\n?? udt_native_onshell_timelive_reset_owner_audit_2026-08-10/derive_owner_atlas.py\n?? udt_native_onshell_timelive_reset_owner_audit_2026-08-10/run_catch_proofs.py\n?? udt_native_onshell_timelive_reset_owner_audit_2026-08-10/verify_owner_independent.py\n?? udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/ADVERSARIAL_REVIEW_REQUEST.md\n?? udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/AUDIT_REPORT.md\n?? udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/CATCH_PROOF_RESULT.json\n?? udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/DERIVATION_RESULT.json\n?? udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/EVIDENCE_GATES.md\n?? udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/EXACT_DERIVATION.md\n?? udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/INDEPENDENT_VERIFICATION.json\n?? udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/LAY_REPORT.md\n?? udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/STATUS_LEDGER.tsv\n?? udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/VERIFICATION_RESULT.json\n?? udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/WITNESS_ATLAS.tsv\n?? udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/build_review_intake.py\n?? udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/derive_regime_flow.py\n?? udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/run_catch_proofs.py\n?? udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/verify_independent.py\n?? udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/verify_package.py\n?? udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/AUDIT_REPORT.md\n?? udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/CATCH_PROOF_RESULT.json\n?? udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/DERIVATION_RESULT.json\n?? udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/EVIDENCE_GATES.md\n?? udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/EXACT_DERIVATION.md\n?? udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/INDEPENDENT_RADAU_REPLAY.tsv\n?? udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/INDEPENDENT_VERIFICATION.json\n?? udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/LAY_REPORT.md\n?? udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/PREREGISTRATION_EXECUTION_NOTE.md\n?? udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/PROFILE_COMPATIBILITY_ATLAS.tsv\n?? udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/REVIEW_DISPATCH.md\n?? udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/RUN_CHECKPOINT.tsv\n?? udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/STATUS_LEDGER.tsv\n?? udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/VERIFICATION_RESULT.json\n?? udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/build_review_manifest.py\n?? udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/derive_compatibility_atlas.py\n?? udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/run_catch_proofs.py\n?? udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/verify_independent.py\n?? udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/verify_package.py\n",
+      "stderr": ""
+    }
+  ],
+  "baseline_head": "f2e5c94d6418dbcd5ca09545f87a208dde7913b0",
+  "original_untracked_status_sha256": "747cf3c497bfbdf7c373a2aa621be3cb241a61f7ef9f508c39bf64588ff70a60",
+  "planned_paths": [
+    "CURRENT_RESEARCH_PROGRAM.md",
+    "HANDOFF.md",
+    "INDEX.md",
+    "LIVE.md",
+    "MEMORY.md",
+    "UDT_RESEARCH_ROADMAP.md",
+    "udt_geometric_field_choice_discrimination_2026-09-13/AUDIT_INPUT_PINS.json",
+    "udt_geometric_field_choice_discrimination_2026-09-13/AUDIT_REUSE.json",
+    "udt_geometric_field_choice_discrimination_2026-09-13/CANDIDATE_FREEZE.json",
+    "udt_geometric_field_choice_discrimination_2026-09-13/CHECKPOINT.md",
+    "udt_geometric_field_choice_discrimination_2026-09-13/CLOSEOUT.md",
+    "udt_geometric_field_choice_discrimination_2026-09-13/COINCIDENT_DIAGNOSTIC.json",
+    "udt_geometric_field_choice_discrimination_2026-09-13/COMPARISON_BOUNDARY.md",
+    "udt_geometric_field_choice_discrimination_2026-09-13/DECISION_BRIEF.md",
+    "udt_geometric_field_choice_discrimination_2026-09-13/EXACT_RESULT.json",
+    "udt_geometric_field_choice_discrimination_2026-09-13/EXECUTION_INTERVALS.json",
+    "udt_geometric_field_choice_discrimination_2026-09-13/EXECUTION_INTERVALS_FINAL.json",
+    "udt_geometric_field_choice_discrimination_2026-09-13/FINITE_DIAGNOSTIC.md",
+    "udt_geometric_field_choice_discrimination_2026-09-13/INITIAL_CANDIDATE.md",
+    "udt_geometric_field_choice_discrimination_2026-09-13/INTERVAL_PROVENANCE.json",
+    "udt_geometric_field_choice_discrimination_2026-09-13/LAUNCH.json",
+    "udt_geometric_field_choice_discrimination_2026-09-13/LITERATURE_EXPOSURE.md",
+    "udt_geometric_field_choice_discrimination_2026-09-13/POST_REVIEW_GATE.json",
+    "udt_geometric_field_choice_discrimination_2026-09-13/PREMISE_CAPTURE_COPY.json",
+    "udt_geometric_field_choice_discrimination_2026-09-13/PRESERVATION.json",
+    "udt_geometric_field_choice_discrimination_2026-09-13/PUBLICATION_WHITESPACE_REPAIR.json",
+    "udt_geometric_field_choice_discrimination_2026-09-13/PUBLISH_PLAN.json",
+    "udt_geometric_field_choice_discrimination_2026-09-13/README.md",
+    "udt_geometric_field_choice_discrimination_2026-09-13/REPAIRED_RESULT.json",
+    "udt_geometric_field_choice_discrimination_2026-09-13/REPAIR_FREEZE.json",
+    "udt_geometric_field_choice_discrimination_2026-09-13/REPAIR_RECORD.md",
+    "udt_geometric_field_choice_discrimination_2026-09-13/RESULT_SCOPE.tsv",
+    "udt_geometric_field_choice_discrimination_2026-09-13/REVIEWED_RESULT.md",
+    "udt_geometric_field_choice_discrimination_2026-09-13/SELECTED_PREMISES.json",
+    "udt_geometric_field_choice_discrimination_2026-09-13/SHA256SUMS.json",
+    "udt_geometric_field_choice_discrimination_2026-09-13/SOURCE_MAP.md",
+    "udt_geometric_field_choice_discrimination_2026-09-13/SOURCE_PINS.json",
+    "udt_geometric_field_choice_discrimination_2026-09-13/WORK_ORDER.md",
+    "udt_geometric_field_choice_discrimination_2026-09-13/check_candidate.py",
+    "udt_geometric_field_choice_discrimination_2026-09-13/check_candidate_repaired.py",
+    "udt_geometric_field_choice_discrimination_2026-09-13/checks/candidate_exact.capture_provenance.json",
+    "udt_geometric_field_choice_discrimination_2026-09-13/checks/candidate_exact.json",
+    "udt_geometric_field_choice_discrimination_2026-09-13/checks/candidate_exact.stderr",
+    "udt_geometric_field_choice_discrimination_2026-09-13/checks/candidate_exact.stdout",
+    "udt_geometric_field_choice_discrimination_2026-09-13/checks/candidate_repaired.capture_provenance.json",
+    "udt_geometric_field_choice_discrimination_2026-09-13/checks/candidate_repaired.json",
+    "udt_geometric_field_choice_discrimination_2026-09-13/checks/candidate_repaired.stderr",
+    "udt_geometric_field_choice_discrimination_2026-09-13/checks/candidate_repaired.stdout",
+    "udt_geometric_field_choice_discrimination_2026-09-13/checks/coincident_diagnostic.capture_provenance.json",
+    "udt_geometric_field_choice_discrimination_2026-09-13/checks/coincident_diagnostic.json",
+    "udt_geometric_field_choice_discrimination_2026-09-13/checks/coincident_diagnostic.stderr",
+    "udt_geometric_field_choice_discrimination_2026-09-13/checks/coincident_diagnostic.stdout",
+    "udt_geometric_field_choice_discrimination_2026-09-13/checks/current_surface.capture_provenance.json",
+    "udt_geometric_field_choice_discrimination_2026-09-13/checks/current_surface.json",
+    "udt_geometric_field_choice_discrimination_2026-09-13/checks/current_surface.stderr",
+    "udt_geometric_field_choice_discrimination_2026-09-13/checks/current_surface.stdout",
+    "udt_geometric_field_choice_discrimination_2026-09-13/checks/navigation.capture_provenance.json",
+    "udt_geometric_field_choice_discrimination_2026-09-13/checks/navigation.json",
+    "udt_geometric_field_choice_discrimination_2026-09-13/checks/navigation.stderr",
+    "udt_geometric_field_choice_discrimination_2026-09-13/checks/navigation.stdout",
+    "udt_geometric_field_choice_discrimination_2026-09-13/checks/premise406.capture_provenance.json",
+    "udt_geometric_field_choice_discrimination_2026-09-13/checks/premise406.json",
+    "udt_geometric_field_choice_discrimination_2026-09-13/checks/premise406.stderr",
+    "udt_geometric_field_choice_discrimination_2026-09-13/checks/premise406.stdout",
+    "udt_geometric_field_choice_discrimination_2026-09-13/checks/prepublication_fetch.capture_provenance.json",
+    "udt_geometric_field_choice_discrimination_2026-09-13/checks/prepublication_fetch.json",
+    "udt_geometric_field_choice_discrimination_2026-09-13/checks/prepublication_fetch.stderr",
+    "udt_geometric_field_choice_discrimination_2026-09-13/checks/prepublication_fetch.stdout",
+    "udt_geometric_field_choice_discrimination_2026-09-13/diagnose_coincident.py",
+    "udt_geometric_field_choice_discrimination_2026-09-13/review/ALLOCATION.json",
+    "udt_geometric_field_choice_discrimination_2026-09-13/review/DIRECT_REQUEST.md",
+    "udt_geometric_field_choice_discrimination_2026-09-13/review/DIRECT_REVIEW.md",
+    "udt_geometric_field_choice_discrimination_2026-09-13/review/DIRECT_REVIEW_PINS.json",
+    "udt_geometric_field_choice_discrimination_2026-09-13/review/FINAL_CHECK_RESULT.json",
+    "udt_geometric_field_choice_discrimination_2026-09-13/review/FINAL_FIDELITY.md",
+    "udt_geometric_field_choice_discrimination_2026-09-13/review/FINAL_FIDELITY_PINS.json",
+    "udt_geometric_field_choice_discrimination_2026-09-13/review/FINAL_REVIEW_RECEIPT.json",
+    "udt_geometric_field_choice_discrimination_2026-09-13/review/INDEPENDENT_FREEZE.json",
+    "udt_geometric_field_choice_discrimination_2026-09-13/review/INDEPENDENT_FREEZE.md",
+    "udt_geometric_field_choice_discrimination_2026-09-13/review/INDEPENDENT_RESULT.json",
+    "udt_geometric_field_choice_discrimination_2026-09-13/review/SOURCE_FIRST.md",
+    "udt_geometric_field_choice_discrimination_2026-09-13/review/SOURCE_FIRST_PINS.json",
+    "udt_geometric_field_choice_discrimination_2026-09-13/review/SOURCE_FIRST_REQUEST.md",
+    "udt_geometric_field_choice_discrimination_2026-09-13/review/final_fidelity_capture.capture_provenance.json",
+    "udt_geometric_field_choice_discrimination_2026-09-13/review/final_fidelity_capture.json",
+    "udt_geometric_field_choice_discrimination_2026-09-13/review/final_fidelity_capture.stderr",
+    "udt_geometric_field_choice_discrimination_2026-09-13/review/final_fidelity_capture.stdout",
+    "udt_geometric_field_choice_discrimination_2026-09-13/review/final_fidelity_checks.py",
+    "udt_geometric_field_choice_discrimination_2026-09-13/review/independent_capture.capture_provenance.json",
+    "udt_geometric_field_choice_discrimination_2026-09-13/review/independent_capture.json",
+    "udt_geometric_field_choice_discrimination_2026-09-13/review/independent_capture.stderr",
+    "udt_geometric_field_choice_discrimination_2026-09-13/review/independent_capture.stdout",
+    "udt_geometric_field_choice_discrimination_2026-09-13/review/independent_checks.py"
+  ],
+  "packaging_repair": "udt_geometric_field_choice_discrimination_2026-09-13/PUBLICATION_WHITESPACE_REPAIR.json",
+  "science_commit": "fe13554ece88cd07a602baf8805f44db3d1e8f1a",
+  "postpush_verified_utc": "2026-09-13T13:19:22.566707+00:00",
+  "postpush_refs": [
+    "fe13554ece88cd07a602baf8805f44db3d1e8f1a",
+    "fe13554ece88cd07a602baf8805f44db3d1e8f1a"
+  ],
+  "tracked_clean": true,
+  "original51_status_names_exact": true,
+  "receipt_created_utc": "2026-09-13T13:20:23.878340+00:00",
+  "science_manifest_verified_at_commit": true,
+  "reviewed_CLOSEOUT_correspondence": "exact original reviewed bytes preserved in PUBLICATION_WHITESPACE_REPAIR.json; only one terminal LF removed",
+  "receipt_scope": "Factual science-publication receipt and checkpoint completion only; receipt commit/push follows and is not preclaimed here",
+  "publication_helper_sha256": "9a80b86dbd47779a2e85ce89e73234b22c31078f6e52b9519e94ebe4795ec698",
+  "receipt_helper_sha256": "18d052cb9e5454683cf5859b05401bd92c02b30b2e32ca774f26c612f915d64d"
+}
