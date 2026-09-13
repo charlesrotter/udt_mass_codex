@@ -1,0 +1,43 @@
+{
+  "recorded_utc": "2026-09-13T18:07:03.387608+00:00",
+  "verdict": "PACKAGING_REPAIR_FIDELITY_PASS_AFTER_SAME_SCOPE_REPAIR",
+  "scope": "Same original reviewer context/allocation; static source and receipt review only; no scientific computation, Git mutation, model change or new allocation.",
+  "pins": {
+    "PUBLICATION_PACKAGING_REPAIR.json": "891d67a62715475f5b3a346e035d6cd0e3574e405b5216ab7853e066d0084434",
+    "INITIAL_PUBLICATION_ATTEMPT.json": "9c0f7c63b915fee121a294bc084f718cd4b832dbae9a797d45039661c78cf4a7",
+    "checks/preservation.stderr": "1b6b20d92e89eb02265a2cfde897ad95e158b1f01ed8e7d9b7ee190a6f357c0e",
+    "review/PUBLICATION_REPAIR_INITIAL_REVIEW.json": "ecb7692417c49337fdffbb3cbef4b508bf817f37df03c4f223c882bc0a72b1b2",
+    "review/REVIEW.md": "b58f795fcb1b24a7a4018f8b3f1f47eae84a4e387d326deddc6df301b85a9010",
+    "review/FINAL_FIDELITY.json": "c4320c9ad18454fd514c5d9d51fa8b051b5726f61677f669e6feb24b8e20f811",
+    "review/SUPPLEMENTAL_FINAL_FIDELITY.json": "814ecd3a1e6855790db6ba8b446842745a9d7c51840bb1e544e9c18b13b8e46d",
+    "publication_adapter_intermediate.py": "9351e535f52ee96df845b90d9f76fff74097309167015d2ca231e0ad60fb0d82",
+    "publication_adapter.py": "9fe3a9c90c35819943f1c2e16ccc599ed798c3701e253c33c09a37d0409fa776",
+    "publication_adapter_initial.py": "c6da7818336cbc93e9b1e508f4ec65fe07215c57853bb8cc56c6af8658015ca9"
+  },
+  "original_review_and_scientific_narrative_unchanged": {
+    "udt_local_kernel_symmetry_release_2026-09-13/INITIAL_CANDIDATE.md": true,
+    "udt_local_kernel_symmetry_release_2026-09-13/SCOPE_CLARIFICATION.md": true,
+    "udt_local_kernel_symmetry_release_2026-09-13/LEADING_JET_CLASSIFICATION.md": true,
+    "udt_local_kernel_symmetry_release_2026-09-13/REVIEWED_RESULT.md": true,
+    "udt_local_kernel_symmetry_release_2026-09-13/DEPENDENCY_AND_SCOPE.tsv": true,
+    "udt_local_kernel_symmetry_release_2026-09-13/DECISION_BRIEF.md": true,
+    "AGENTS.md": true,
+    "LIVE.md": true,
+    "HANDOFF.md": true,
+    "CURRENT_RESEARCH_PROGRAM.md": true,
+    "MEMORY.md": true,
+    "INDEX.md": true,
+    "UDT_RESEARCH_ROADMAP.md": true,
+    "review/REVIEW.md": true,
+    "CLOSEOUT.md": true
+  },
+  "findings": [
+    "The initial recorded stage succeeded, then git whitespace lint exited2 only for the final blank line in checks/preservation.stderr.",
+    "The repaired stage and commit lint commands exclude only that exact raw-log path. All other paths retain the ordinary git diff --cached --check.",
+    "Raw stderr is byte-identical to its prior pinned capture; the stage manifest/hash loop still verifies its staged bytes. No raw output was stripped.",
+    "Reviewer found and recorded an additional refresh defect before execution: package edits could be mistaken for external roots and unchanged staged roots could be dropped. The intermediate source is preserved and no intermediate execution is claimed.",
+    "Final prepare checks that any existing staged path list exactly equals its own previous plan. It then unions staged and unstaged tracked paths, rejects paths outside the seven explicit roots and this package, and carries the seven allowed root paths into the regenerated plan. This repairs both failure cases without expanding external scope.",
+    "The diff from the initial adapter consists only of the exact-index refresh handling and the two raw-log-specific whitespace exclusions. No runtime/Git configuration or scientific check was changed."
+  ],
+  "review_boundary": "This verdict reviews the packaging logic and preserved evidence. It does not claim that the repaired prepare/stage/commit/push has already executed; parent execution receipts own those outcomes. Prior mathematical VERIFIED-WITH-CAVEATS and native-admission OPEN limits remain unchanged."
+}

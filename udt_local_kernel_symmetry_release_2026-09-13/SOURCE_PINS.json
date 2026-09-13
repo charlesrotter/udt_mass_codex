@@ -1,0 +1,16 @@
+{
+  "recorded_utc": "2026-09-13T17:33:39.982400+00:00",
+  "pins": {
+    "udt_g288_smooth_center_micro_regime_jet_interlock_2026-08-28/AUDIT_REPORT.md": "f7e1caf8e554ca6ab3765da498179a5428e28b2cfc45808034824f22ad87d6b4",
+    "udt_g288_smooth_center_micro_regime_jet_interlock_2026-08-28/EXACT_DERIVATION.md": "86701b978698efaf24098844589dc47de46fa71495d979091c3c79ba11378079",
+    "udt_g288_smooth_center_micro_regime_jet_interlock_2026-08-28/EXTERNAL_REPAIR_FOLLOWUP_GPT54.md": "877aa21cfcf4801926caa55ecbba6c7058067bc4562d48c080c541baa116b588",
+    "udt_g179_complete_coframe_pair_pullback_extension_2026-08-19/AUDIT_REPORT.md": "fe4d0aa56a734ca58972ea8123264efa6e0b979831f7f618eab8f69afa7ee2f2",
+    "udt_g166_primary_metric_ordered_pair_kernel_descent_2026-08-18/AUDIT_REPORT.md": "3b7bef3e8027eb95dd9070cf8844bfbbba602d4a7ce30c1772bbc540f9e97bd7",
+    "udt_g176_completed_pair_dual_reciprocity_consolidation_2026-08-19/AUDIT_REPORT.md": "c7c96194a8baf3465b2d8c58ff19051ee2937b4b7f7a5d0e8859ad1a26651d84",
+    "udt_exact_metric_kernel_expansion_2026-09-10/INITIAL_CANDIDATE.md": "439bbf545bc11901005bfa96ad154ddab68d3d6a383c358dc787b9eb38584f73",
+    "udt_exact_metric_kernel_expansion_2026-09-10/review/REVIEW.md": "5359bd687245ab0f5d085b430987bf5b2c08321dd9d6f40b4ee1f753a9e586f7",
+    "udt_gr_filter_reconciliation_2026-09-09/AUTHORITY_RECORD.md": "80daa0be6d3e1c0ac1b734fea089c4eb487f05bc1e1fbb2fabd69322ca89f28c",
+    "UDT_CONSOLIDATED_RESEARCH_ACCOUNT.md": "d767d3f67a5abcf1674627ce469ac6fee3994b1bf8b144df74ada39df9813490",
+    "udt_accepted_work_consolidation_2026-09-12/GAP_AND_REUSE_MAP.tsv": "750026d5043af2c825232522ebc6d237a260f74e3aa7e6349c9e6af9f39f8843"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "command": [
+    "python3",
+    "udt_local_kernel_symmetry_release_2026-09-13/check_preservation.py"
+  ],
+  "cwd": "/home/udt-admin/udt_mass_codex",
+  "started_utc": "2026-09-13T17:59:41.493270+00:00",
+  "duration_seconds": 0.06353933503851295,
+  "returncode": 0,
+  "timeout": false,
+  "address_space_bytes": 2147483648,
+  "cpu_seconds": 60,
+  "maxrss_kib": 16512
+}

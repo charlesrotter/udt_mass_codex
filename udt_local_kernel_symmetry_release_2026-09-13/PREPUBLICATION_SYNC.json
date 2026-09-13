@@ -1,0 +1,27 @@
+{
+  "recorded_utc": "2026-09-13T18:01:15.499889+00:00",
+  "fetch": {
+    "command": [
+      "git",
+      "fetch",
+      "origin"
+    ],
+    "exit": 0,
+    "stdout": "",
+    "stderr": "",
+    "source": "actual exec tool receipt immediately before this record"
+  },
+  "refs_command": [
+    "git",
+    "rev-parse",
+    "HEAD",
+    "origin/grok"
+  ],
+  "refs": [
+    "b3149a43afb7fec8b53d137ae298438f9b2dbc36",
+    "b3149a43afb7fec8b53d137ae298438f9b2dbc36"
+  ],
+  "refs_stdout": "b3149a43afb7fec8b53d137ae298438f9b2dbc36\nb3149a43afb7fec8b53d137ae298438f9b2dbc36\n",
+  "refs_stderr": "",
+  "scope": "fresh remote-reference synchronization check, no workspace change"
+}

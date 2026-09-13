@@ -1,0 +1,27 @@
+{
+  "observed_utc": "2026-09-13T17:59:02.950215+00:00",
+  "same_allocation_deadline_utc": "2026-09-13T18:16:39+00:00",
+  "scope": "Supplemental final packaging review only; no new scientific computation or allocation. Existing REVIEW.md and FINAL_FIDELITY.json unchanged.",
+  "closeout_draft_sha256": "5c2e0cc078d078bf4b4b3e2f5ad9e344c478b6a544d5f3a7752ad5eae933906a",
+  "draft_audit_status": "RUNNING, accurately stated; final receipt awaited",
+  "actual_receipts_inspected": [
+    "checks/parent_exact.json",
+    "checks/parent_exact.capture_provenance.json",
+    "checks/parent_exact.stdout",
+    "checks/classify_twojet.json",
+    "checks/classify_twojet.capture_provenance.json",
+    "checks/classify_twojet.stdout",
+    "checks/startup_tests.json",
+    "checks/startup_tests.capture_provenance.json",
+    "checks/startup_tests.stdout",
+    "checks/premise406.json",
+    "checks/premise406.capture_provenance.json",
+    "checks/premise406.stdout",
+    "checks/premise406.stderr",
+    "checks/AGENTS_GUARD_REPAIR.json",
+    "checks/premise406_after_guard_repair.capture_provenance.json"
+  ],
+  "receipt_review": "Capture metadata and result summary fields read. Large repeated symbolic check names and stored matrices were not re-derived; bounded output excerpts/projections used. No parent scientific executable replay.",
+  "parent_output_exposure": "Parent reported counts after first independent run; actual parent stdout read only in this supplemental packaging stage, approximately17:58UTC after scientific review completed.",
+  "findings": "Draft CLOSEOUT corresponds to inspected receipts. No false audit PASS. Original failed verifier stdout is empty and stderr contains the exact literal-guard failure; method repair corresponds to reviewed AGENTS diff. Previously pinned scientific/lay/navigation/review bytes all unchanged."
+}

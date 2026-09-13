@@ -1,0 +1,48 @@
+{
+  "recorded_utc": "2026-09-13T17:38:45.823286+00:00",
+  "reviewer_context": "/root/lsr1_source_review; separate context; source-first; parent candidate/proof/code/output unexposed",
+  "runtime_model": "UNATTESTED",
+  "different_model": "UNTESTED",
+  "capacity": "UNVERIFIED",
+  "parent_startup_attributed": "SOURCE_FIRST_REQUEST.md supplies parent synchronization and ordered startup; reviewer independently reads assigned sources and checks HEAD/status",
+  "head": "b3149a43afb7fec8b53d137ae298438f9b2dbc36",
+  "branch": "grok",
+  "source_checks": {
+    "udt_g288_smooth_center_micro_regime_jet_interlock_2026-08-28/AUDIT_REPORT.md": {
+      "expected": "f7e1caf8e554ca6ab3765da498179a5428e28b2cfc45808034824f22ad87d6b4",
+      "actual": "f7e1caf8e554ca6ab3765da498179a5428e28b2cfc45808034824f22ad87d6b4",
+      "match": true
+    },
+    "udt_g288_smooth_center_micro_regime_jet_interlock_2026-08-28/EXACT_DERIVATION.md": {
+      "expected": "86701b978698efaf24098844589dc47de46fa71495d979091c3c79ba11378079",
+      "actual": "86701b978698efaf24098844589dc47de46fa71495d979091c3c79ba11378079",
+      "match": true
+    },
+    "udt_g288_smooth_center_micro_regime_jet_interlock_2026-08-28/EXTERNAL_REPAIR_FOLLOWUP_GPT54.md": {
+      "expected": "877aa21cfcf4801926caa55ecbba6c7058067bc4562d48c080c541baa116b588",
+      "actual": "877aa21cfcf4801926caa55ecbba6c7058067bc4562d48c080c541baa116b588",
+      "match": true
+    },
+    "udt_g179_complete_coframe_pair_pullback_extension_2026-08-19/AUDIT_REPORT.md": {
+      "expected": "fe4d0aa56a734ca58972ea8123264efa6e0b979831f7f618eab8f69afa7ee2f2",
+      "actual": "fe4d0aa56a734ca58972ea8123264efa6e0b979831f7f618eab8f69afa7ee2f2",
+      "match": true
+    },
+    "udt_g166_primary_metric_ordered_pair_kernel_descent_2026-08-18/AUDIT_REPORT.md": {
+      "expected": "3b7bef3e8027eb95dd9070cf8844bfbbba602d4a7ce30c1772bbc540f9e97bd7",
+      "actual": "3b7bef3e8027eb95dd9070cf8844bfbbba602d4a7ce30c1772bbc540f9e97bd7",
+      "match": true
+    },
+    "udt_g176_completed_pair_dual_reciprocity_consolidation_2026-08-19/AUDIT_REPORT.md": {
+      "expected": "c7c96194a8baf3465b2d8c58ff19051ee2937b4b7f7a5d0e8859ad1a26651d84",
+      "actual": "c7c96194a8baf3465b2d8c58ff19051ee2937b4b7f7a5d0e8859ad1a26651d84",
+      "match": true
+    },
+    "udt_gr_filter_reconciliation_2026-09-09/AUTHORITY_RECORD.md": {
+      "expected": "80daa0be6d3e1c0ac1b734fea089c4eb487f05bc1e1fbb2fabd69322ca89f28c",
+      "actual": "80daa0be6d3e1c0ac1b734fea089c4eb487f05bc1e1fbb2fabd69322ca89f28c",
+      "match": true
+    }
+  },
+  "python_version": "3.10.12 (main, Aug 31 2026, 10:18:17) [GCC 11.4.0]"
+}

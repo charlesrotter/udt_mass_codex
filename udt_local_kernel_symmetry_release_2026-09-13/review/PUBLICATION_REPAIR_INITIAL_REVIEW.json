@@ -1,0 +1,17 @@
+{
+  "recorded_utc": "2026-09-13T18:05:49.632646+00:00",
+  "verdict": "REPAIRABLE_PACKAGING_DEFECT",
+  "scope": "Same original allocation; static code/receipt review only, no scientific computation or Git mutation",
+  "pins": {
+    "PUBLICATION_PACKAGING_REPAIR.json": "e9039a4b5c7f0690b3a4737e1bfb48d33d28f0d27eb84bcd26765eb430588933",
+    "INITIAL_PUBLICATION_ATTEMPT.json": "9c0f7c63b915fee121a294bc084f718cd4b832dbae9a797d45039661c78cf4a7",
+    "publication_adapter_initial.py": "c6da7818336cbc93e9b1e508f4ec65fe07215c57853bb8cc56c6af8658015ca9",
+    "publication_adapter.py": "9351e535f52ee96df845b90d9f76fff74097309167015d2ca231e0ad60fb0d82",
+    "checks/preservation.stderr": "1b6b20d92e89eb02265a2cfde897ad95e158b1f01ed8e7d9b7ee190a6f357c0e"
+  },
+  "raw_log_exclusion": "Exact single raw capture is excluded from whitespace lint; staged-byte hash loop still includes it. This part is sound.",
+  "defect": "Prepare refresh still treats git diff --name-only as only external root changes after package files are already staged. It rejects modified staged package files, and an empty unstaged root list loses the seven already-staged roots from the regenerated planned path list.",
+  "smallest_repair": "Keep prior exact staged allowlist check; permit own package unstaged paths while rejecting unexpected external paths; retain allowed root paths from staged_before union unstaged_paths when rebuilding the plan.",
+  "initial_publication_failure": "Actual initial git diff --cached --check exited2 solely for checks/preservation.stderr final blank line. Raw bytes remain preserved.",
+  "re_review": "Pending exact parent repair; all previous scientific/fidelity records unchanged."
+}

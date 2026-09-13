@@ -1,0 +1,26 @@
+{
+  "source": "/home/udt-admin/udt_mass_codex/udt_shared_readout_metric_constraint_campaign_2026-09-06/run_capture.py",
+  "source_sha256": "8ff5469ace76bdfc84188915242abbf3baff35516f9ee3f9ba4b1cbfeb2573ef",
+  "adapted_capture_sha256": "8ff5469ace76bdfc84188915242abbf3baff35516f9ee3f9ba4b1cbfeb2573ef",
+  "limits": {
+    "seconds": 60,
+    "mib": 512
+  },
+  "thread_environment": {
+    "OMP_NUM_THREADS": "1",
+    "OPENBLAS_NUM_THREADS": "1",
+    "MKL_NUM_THREADS": "1"
+  },
+  "command": [
+    "python3",
+    "-m",
+    "pytest",
+    "--noconftest",
+    "-q",
+    "-p",
+    "no:cacheprovider",
+    "tests/test_startup_surface.py",
+    "-k",
+    "not full_foundational_premise_verifier_is_in_pytest"
+  ]
+}

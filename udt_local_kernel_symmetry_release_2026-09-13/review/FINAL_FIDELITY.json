@@ -1,0 +1,47 @@
+{
+  "recorded_utc": "2026-09-13T17:53:48.094215+00:00",
+  "verdict": "PASS_FOR_EXAMINED_BYTES__SCIENTIFIC_VERIFIED_WITH_CAVEATS__UNPROMOTED",
+  "context": "/root/lsr1_source_review",
+  "scientific_files": {
+    "udt_local_kernel_symmetry_release_2026-09-13/INITIAL_CANDIDATE.md": "8da54856012926ab8a056204909f613e258fb2a15a971c9e8fb80b971727ab69",
+    "udt_local_kernel_symmetry_release_2026-09-13/SCOPE_CLARIFICATION.md": "cd67d9d141ad7c221dfc25e15f9d2bb01f3bd816db62bfbd80c63a3bd7292961",
+    "udt_local_kernel_symmetry_release_2026-09-13/LEADING_JET_CLASSIFICATION.md": "5836419415df5175570a99f8899eb39882743b93b762e5dd802bd1ba16fd3086",
+    "udt_local_kernel_symmetry_release_2026-09-13/REVIEWED_RESULT.md": "7e8b9444a087d797eeb42931c14c48f93e718c88ab1870a79dbe61e609be1dc6",
+    "udt_local_kernel_symmetry_release_2026-09-13/DEPENDENCY_AND_SCOPE.tsv": "c7ac4870d0dd9a0cc3a6b2adc5fc26d4b309c7d51f05e7d0e11d90f2b518771a"
+  },
+  "lay_files": {
+    "udt_local_kernel_symmetry_release_2026-09-13/DECISION_BRIEF.md": "6d148a862a35edc760e1a48fe8b3ff7f0c700dacbb15b1fa47a417ea37feb225"
+  },
+  "navigation_files": {
+    "AGENTS.md": "c578b045cf3278804124e23a5408ff9634a9a2165f7d20223f654d76bffd8ec9",
+    "LIVE.md": "4f279c67370f6e6ec9cbdfe91703a6320812414d3f059b3b1d16c07475253eb2",
+    "HANDOFF.md": "a974f06b77c421c1242e68adfcbbb46a48de1dec02b544561fa3d4b550a93037",
+    "CURRENT_RESEARCH_PROGRAM.md": "8fef01f02ef4f3c6dc95aee0d3f15c484e7832a3d4e466cecf3415e5eb0d8e5f",
+    "MEMORY.md": "ccd8c0804fed4caa30888cd8d13845fef270cda9bdd952c4e429b37cf3c1818f",
+    "INDEX.md": "e5eeacba1ea230fed726b0687fc007920965bec135148c79c321b883c83edd7a",
+    "UDT_RESEARCH_ROADMAP.md": "10de8658bde87e6b52f806a01877d18a710293eda050ef2453a4a08c5c4eb9d1"
+  },
+  "review_sha256": "b58f795fcb1b24a7a4018f8b3f1f47eae84a4e387d326deddc6df301b85a9010",
+  "classification_matches_candidate_freeze": true,
+  "fidelity_scope": "Full named scientific/lay texts; maintained-root diffs against b3149a43. Navigation hashes identify final full bytes, but this is a changed-content fidelity review, not a reread of all historical baseline prose. Current selected registry projections reviewed separately.",
+  "findings": "No unresolved scientific or current narrative fidelity defect. Whole-family recovery, original marking, and higher-jet precision corrections accepted. Counts and processes are evidence-specific; no physical adoption or canonical status.",
+  "full406_status": "PENDING; initial reported literal-method guard failure preserved by parent, fresh retry not yet supplied. This fidelity PASS does not assert a premise-audit PASS.",
+  "closeout_status": "CLOSEOUT.md not yet supplied/read; final execution, preservation and publication remain parent-owned.",
+  "omissions": [
+    "No parent symbolic-code replay or independent checking of its actual check counts",
+    "No full406 rerun by reviewer",
+    "No registry/source-package/CANON mutation",
+    "No full-metric/higher-jet/physical-admission classification",
+    "No global geometry, evolution, physical signal model or observation review"
+  ],
+  "independence": {
+    "fresh_context": true,
+    "source_first_before_candidate": true,
+    "distinct_fraction_implementation": true,
+    "independent_component_argument": true,
+    "runtime_model": "UNATTESTED",
+    "different_model": "UNTESTED",
+    "capacity": "UNVERIFIED"
+  },
+  "head_at_fidelity": "b3149a43afb7fec8b53d137ae298438f9b2dbc36"
+}

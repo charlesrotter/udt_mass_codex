@@ -1,0 +1,11 @@
+{
+  "recorded_utc": "2026-09-13T17:46:11.779160+00:00",
+  "note": "Initial code reconstructed from exact prior tool patch after self-audit; initial outputs byte copied. Hashes establish correspondence, not earlier chronology. Revised code frozen before stronger-control replay.",
+  "hashes": {
+    "INITIAL_recompute_fraction.py": "7e1b6ef7660b04ae4fb5d2363ec251a2cfb5d1cc91f19233e0148d3100dfc624",
+    "INITIAL_FRACTION_RESULT.json": "36b7228fc4259e8f287ffe1e098bddb87007b7a85d2edffc0144e603d2ffd73b",
+    "INITIAL_FRACTION_STDOUT.log": "2027f1140e7e24f0347d1cc89e371fc1a94b1fd48943e775f1930d315b5e3097",
+    "INITIAL_FRACTION_STDERR.log": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "recompute_fraction.py": "16c5dac3229ea6ad74ee33065f871f3ff086e3bf0dc2b1b1bbce16fb62520049"
+  }
+}

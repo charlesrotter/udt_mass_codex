@@ -1,0 +1,39 @@
+{
+  "context": "/root/lsr1_source_review",
+  "one_fresh_allocation": true,
+  "subdelegations": 0,
+  "conservative_start_utc": "2026-09-13T17:36:39+00:00",
+  "reported_final_completion_utc": "2026-09-13T18:07:03+00:00",
+  "allocated_wall_seconds": 1824,
+  "ceiling_seconds": 2400,
+  "within_allocation": true,
+  "source_first_frozen_utc": "2026-09-13T17:39:55.391705+00:00",
+  "initial_fidelity_utc": "2026-09-13T17:53:48.094215+00:00",
+  "same_context_supplement": "One final packaging follow-up within original allocation; initial reviews remained frozen.",
+  "parent_review_context_overlap": "Parent source reading, proof/check construction, audit oversight and publication preparation continued during this bracket. This is context availability overlap, not continuously measured model execution.",
+  "scientific_cpu_overlap": false,
+  "reviewer_scientific_intervals_utc": [
+    [
+      "2026-09-13T17:43:47.076021+00:00",
+      "2026-09-13T17:43:47.536686+00:00"
+    ],
+    [
+      "2026-09-13T17:46:52.377485+00:00",
+      "2026-09-13T17:46:52.840304+00:00"
+    ]
+  ],
+  "parent_scientific_start_utc": [
+    "2026-09-13T17:44:15.152228+00:00",
+    "2026-09-13T17:48:38.624663+00:00"
+  ],
+  "initial_full_verifier_overlap": "Initial full406 ran until17:39:32.303882UTC, overlapping source-first reviewer reading; no reviewer scientific subprocess during it.",
+  "retry_overlap": "Full406 retry17:52:19.102521\u201317:59:03.137541UTC overlapped review/fidelity reading, no reviewer scientific subprocess.",
+  "runtime_model": "UNATTESTED",
+  "different_model": "UNTESTED",
+  "general_capacity": "UNVERIFIED",
+  "allocation_limit_recurrence": false,
+  "other_resource_event": "Git threaded-lstat failure in a512MiB preservation subprocess, resolved by same checker under2GiB; not an allocation-capacity test.",
+  "initial_reported_final_completion_utc": "2026-09-13T18:02:16+00:00",
+  "packaging_followup": "Same-context bounded final packaging repair review; direct/final earlier reviews preserved. Reviewer found a genuine staged-root retention defect in the helper, and re-reviewed its correction. No scientific change or reviewer computation.",
+  "final_packaging_review": "review/PUBLICATION_REPAIR_FINAL_FIDELITY.json"
+}

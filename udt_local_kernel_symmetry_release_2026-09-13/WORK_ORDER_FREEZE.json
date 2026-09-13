@@ -1,0 +1,10 @@
+{
+  "frozen_utc": "2026-09-13T17:32:47.731592+00:00",
+  "scope": "question/method/resource freeze, not scientific candidate or predicted outcome",
+  "pins": {
+    "udt_local_kernel_symmetry_release_2026-09-13/LAUNCH.json": "e987028affa162ce10ef4d37dbb159e6af36d47fb591a836f416b2ee99cf5ade",
+    "udt_local_kernel_symmetry_release_2026-09-13/WORK_ORDER.md": "8de6101d3babf6066efc6626cf426868103eb1c25d166c0ac856727d06cb0805",
+    "udt_local_kernel_symmetry_release_2026-09-13/capture.py": "78f3d662e42e072e66e6a31469572cae72fc77e307a67237efa7be310623b127"
+  },
+  "source_capture_sha256": "8ff5469ace76bdfc84188915242abbf3baff35516f9ee3f9ba4b1cbfeb2573ef"
+}

@@ -1,0 +1,35 @@
+{
+  "status": "PASS",
+  "start_utc": "2026-09-13T17:43:47.076021+00:00",
+  "end_utc": "2026-09-13T17:43:47.536686+00:00",
+  "elapsed_seconds": 0.46066747908480465,
+  "max_rss_kib": 16320,
+  "versions": {
+    "python": "3.10.12 (main, Aug 31 2026, 10:18:17) [GCC 11.4.0]",
+    "platform": "Linux-6.8.0-138-generic-x86_64-with-glibc2.35"
+  },
+  "cases": 21,
+  "exact_assertions": 13972,
+  "independence": "Separate context; stdlib Fraction metric polynomial evaluation/polarization -> differentiated original Levi-Civita connection -> full Riemann. No parent executable imports or output reads. Candidate formulas are comparison targets after recomputation.",
+  "limits": "21 rational cases do not prove universal identities; full analytic geometry reviewed in prose. No finite-radius curvature integration, numerical certification, or physical adoption.",
+  "mutations": [
+    {
+      "name": "reverse angular tide sign",
+      "wrong": 6,
+      "actual": "-6",
+      "rejected": true
+    },
+    {
+      "name": "drop angular metric term / assert quietness",
+      "wrong": 0,
+      "actual": "-6",
+      "rejected": true
+    },
+    {
+      "name": "omit area correction q",
+      "wrong_M4": 0,
+      "actual_M4": "-7/5",
+      "rejected": true
+    }
+  ]
+}

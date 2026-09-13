@@ -1,0 +1,312 @@
+{
+  "status": "PASS",
+  "scope": "correspondence and names-only preservation; no protected payload inspected or hashed",
+  "recorded_utc": "2026-09-13T17:59:41.553927+00:00",
+  "python": "3.10.12",
+  "optimize": 0,
+  "pins": [
+    {
+      "group": "SOURCE_PINS.json",
+      "path": "udt_g288_smooth_center_micro_regime_jet_interlock_2026-08-28/AUDIT_REPORT.md",
+      "sha256": "f7e1caf8e554ca6ab3765da498179a5428e28b2cfc45808034824f22ad87d6b4"
+    },
+    {
+      "group": "SOURCE_PINS.json",
+      "path": "udt_g288_smooth_center_micro_regime_jet_interlock_2026-08-28/EXACT_DERIVATION.md",
+      "sha256": "86701b978698efaf24098844589dc47de46fa71495d979091c3c79ba11378079"
+    },
+    {
+      "group": "SOURCE_PINS.json",
+      "path": "udt_g288_smooth_center_micro_regime_jet_interlock_2026-08-28/EXTERNAL_REPAIR_FOLLOWUP_GPT54.md",
+      "sha256": "877aa21cfcf4801926caa55ecbba6c7058067bc4562d48c080c541baa116b588"
+    },
+    {
+      "group": "SOURCE_PINS.json",
+      "path": "udt_g179_complete_coframe_pair_pullback_extension_2026-08-19/AUDIT_REPORT.md",
+      "sha256": "fe4d0aa56a734ca58972ea8123264efa6e0b979831f7f618eab8f69afa7ee2f2"
+    },
+    {
+      "group": "SOURCE_PINS.json",
+      "path": "udt_g166_primary_metric_ordered_pair_kernel_descent_2026-08-18/AUDIT_REPORT.md",
+      "sha256": "3b7bef3e8027eb95dd9070cf8844bfbbba602d4a7ce30c1772bbc540f9e97bd7"
+    },
+    {
+      "group": "SOURCE_PINS.json",
+      "path": "udt_g176_completed_pair_dual_reciprocity_consolidation_2026-08-19/AUDIT_REPORT.md",
+      "sha256": "c7c96194a8baf3465b2d8c58ff19051ee2937b4b7f7a5d0e8859ad1a26651d84"
+    },
+    {
+      "group": "SOURCE_PINS.json",
+      "path": "udt_exact_metric_kernel_expansion_2026-09-10/INITIAL_CANDIDATE.md",
+      "sha256": "439bbf545bc11901005bfa96ad154ddab68d3d6a383c358dc787b9eb38584f73"
+    },
+    {
+      "group": "SOURCE_PINS.json",
+      "path": "udt_exact_metric_kernel_expansion_2026-09-10/review/REVIEW.md",
+      "sha256": "5359bd687245ab0f5d085b430987bf5b2c08321dd9d6f40b4ee1f753a9e586f7"
+    },
+    {
+      "group": "SOURCE_PINS.json",
+      "path": "udt_gr_filter_reconciliation_2026-09-09/AUTHORITY_RECORD.md",
+      "sha256": "80daa0be6d3e1c0ac1b734fea089c4eb487f05bc1e1fbb2fabd69322ca89f28c"
+    },
+    {
+      "group": "SOURCE_PINS.json",
+      "path": "UDT_CONSOLIDATED_RESEARCH_ACCOUNT.md",
+      "sha256": "d767d3f67a5abcf1674627ce469ac6fee3994b1bf8b144df74ada39df9813490"
+    },
+    {
+      "group": "SOURCE_PINS.json",
+      "path": "udt_accepted_work_consolidation_2026-09-12/GAP_AND_REUSE_MAP.tsv",
+      "sha256": "750026d5043af2c825232522ebc6d237a260f74e3aa7e6349c9e6af9f39f8843"
+    },
+    {
+      "group": "WORK_ORDER_FREEZE.json",
+      "path": "udt_local_kernel_symmetry_release_2026-09-13/LAUNCH.json",
+      "sha256": "e987028affa162ce10ef4d37dbb159e6af36d47fb591a836f416b2ee99cf5ade"
+    },
+    {
+      "group": "WORK_ORDER_FREEZE.json",
+      "path": "udt_local_kernel_symmetry_release_2026-09-13/WORK_ORDER.md",
+      "sha256": "8de6101d3babf6066efc6626cf426868103eb1c25d166c0ac856727d06cb0805"
+    },
+    {
+      "group": "WORK_ORDER_FREEZE.json",
+      "path": "udt_local_kernel_symmetry_release_2026-09-13/capture.py",
+      "sha256": "78f3d662e42e072e66e6a31469572cae72fc77e307a67237efa7be310623b127"
+    },
+    {
+      "group": "original_audit_inputs",
+      "path": "CURRENT_SCIENTIFIC_PREMISES.tsv",
+      "sha256": "7a3d69d5a0bc3ac98e2ebe2bb0c6d029df30071bf403baffed2223a193dc720b"
+    },
+    {
+      "group": "original_audit_inputs",
+      "path": "CURRENT_SCIENTIFIC_PREMISES.md",
+      "sha256": "7b574665f714551a3a565987fc5bc56a4b44c7e6fb274532f61609c25153f627"
+    },
+    {
+      "group": "original_audit_inputs",
+      "path": "verify_current_scientific_premises.py",
+      "sha256": "98dd79610f6bc9d116db65104345c84b64aae0bae2f81c93bec2f64b40745eec"
+    },
+    {
+      "group": "original_audit_inputs",
+      "path": "CANON.md",
+      "sha256": "047b7fbbc1acacf01d2716e3c98cdefd0b9b20136ac4a3306f55dd6775465250"
+    },
+    {
+      "group": "original_audit_inputs",
+      "path": "UDT_METRIC_KERNEL_DEVELOPMENT.md",
+      "sha256": "3b625d8f43620a37c99d9f4f0fdc9390c3a12306b1da87281c143ce84d40a81e"
+    },
+    {
+      "group": "original_audit_inputs",
+      "path": "UDT_METRIC_KERNEL_COVERAGE.tsv",
+      "sha256": "b9a8d84d58b60dd6381af6512d89a63c8fa26750f0068e444dd039d329e74bc4"
+    },
+    {
+      "group": "initial_candidate",
+      "path": "udt_local_kernel_symmetry_release_2026-09-13/INITIAL_CANDIDATE.md",
+      "sha256": "8da54856012926ab8a056204909f613e258fb2a15a971c9e8fb80b971727ab69"
+    },
+    {
+      "group": "initial_candidate",
+      "path": "udt_local_kernel_symmetry_release_2026-09-13/DISCOVERY_HISTORY.md",
+      "sha256": "0ccb6c81ed121c3e0fdc09d4c211b4825680a98b9689891e8a5a17158f395494"
+    },
+    {
+      "group": "initial_candidate",
+      "path": "udt_local_kernel_symmetry_release_2026-09-13/CHECK_PLAN.md",
+      "sha256": "610c87fee675105d955de3e776130428a6cd496a4fbd493e376f98ab50f5a56c"
+    },
+    {
+      "group": "parent_implementation",
+      "path": "udt_local_kernel_symmetry_release_2026-09-13/parent_exact.py",
+      "sha256": "95c5e686ad7c1d28c5549824acb97d6a9f32c1277b5555ab296be65fb2c1ecbe"
+    },
+    {
+      "group": "CLARIFICATION_FREEZE.json",
+      "path": "udt_local_kernel_symmetry_release_2026-09-13/SCOPE_CLARIFICATION.md",
+      "sha256": "cd67d9d141ad7c221dfc25e15f9d2bb01f3bd816db62bfbd80c63a3bd7292961"
+    },
+    {
+      "group": "CLASSIFICATION_CANDIDATE_FREEZE.json",
+      "path": "udt_local_kernel_symmetry_release_2026-09-13/LEADING_JET_CLASSIFICATION.md",
+      "sha256": "5836419415df5175570a99f8899eb39882743b93b762e5dd802bd1ba16fd3086"
+    },
+    {
+      "group": "CLASSIFICATION_IMPLEMENTATION_FREEZE.json",
+      "path": "udt_local_kernel_symmetry_release_2026-09-13/classify_twojet.py",
+      "sha256": "415fdc5c24fc6154f122aa7d0e1192993ee270e85f27614375cb7ada1c98b059"
+    },
+    {
+      "group": "review_recomputation_freeze",
+      "path": "udt_local_kernel_symmetry_release_2026-09-13/review/INITIAL_recompute_fraction.py",
+      "sha256": "7e1b6ef7660b04ae4fb5d2363ec251a2cfb5d1cc91f19233e0148d3100dfc624"
+    },
+    {
+      "group": "review_recomputation_freeze",
+      "path": "udt_local_kernel_symmetry_release_2026-09-13/review/INITIAL_FRACTION_RESULT.json",
+      "sha256": "36b7228fc4259e8f287ffe1e098bddb87007b7a85d2edffc0144e603d2ffd73b"
+    },
+    {
+      "group": "review_recomputation_freeze",
+      "path": "udt_local_kernel_symmetry_release_2026-09-13/review/INITIAL_FRACTION_STDOUT.log",
+      "sha256": "2027f1140e7e24f0347d1cc89e371fc1a94b1fd48943e775f1930d315b5e3097"
+    },
+    {
+      "group": "review_recomputation_freeze",
+      "path": "udt_local_kernel_symmetry_release_2026-09-13/review/INITIAL_FRACTION_STDERR.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "group": "review_recomputation_freeze",
+      "path": "udt_local_kernel_symmetry_release_2026-09-13/review/recompute_fraction.py",
+      "sha256": "16c5dac3229ea6ad74ee33065f871f3ff086e3bf0dc2b1b1bbce16fb62520049"
+    },
+    {
+      "group": "final_review_scientific_files",
+      "path": "udt_local_kernel_symmetry_release_2026-09-13/INITIAL_CANDIDATE.md",
+      "sha256": "8da54856012926ab8a056204909f613e258fb2a15a971c9e8fb80b971727ab69"
+    },
+    {
+      "group": "final_review_scientific_files",
+      "path": "udt_local_kernel_symmetry_release_2026-09-13/SCOPE_CLARIFICATION.md",
+      "sha256": "cd67d9d141ad7c221dfc25e15f9d2bb01f3bd816db62bfbd80c63a3bd7292961"
+    },
+    {
+      "group": "final_review_scientific_files",
+      "path": "udt_local_kernel_symmetry_release_2026-09-13/LEADING_JET_CLASSIFICATION.md",
+      "sha256": "5836419415df5175570a99f8899eb39882743b93b762e5dd802bd1ba16fd3086"
+    },
+    {
+      "group": "final_review_scientific_files",
+      "path": "udt_local_kernel_symmetry_release_2026-09-13/REVIEWED_RESULT.md",
+      "sha256": "7e8b9444a087d797eeb42931c14c48f93e718c88ab1870a79dbe61e609be1dc6"
+    },
+    {
+      "group": "final_review_scientific_files",
+      "path": "udt_local_kernel_symmetry_release_2026-09-13/DEPENDENCY_AND_SCOPE.tsv",
+      "sha256": "c7ac4870d0dd9a0cc3a6b2adc5fc26d4b309c7d51f05e7d0e11d90f2b518771a"
+    },
+    {
+      "group": "final_review_lay_files",
+      "path": "udt_local_kernel_symmetry_release_2026-09-13/DECISION_BRIEF.md",
+      "sha256": "6d148a862a35edc760e1a48fe8b3ff7f0c700dacbb15b1fa47a417ea37feb225"
+    },
+    {
+      "group": "final_review_navigation_files",
+      "path": "AGENTS.md",
+      "sha256": "c578b045cf3278804124e23a5408ff9634a9a2165f7d20223f654d76bffd8ec9"
+    },
+    {
+      "group": "final_review_navigation_files",
+      "path": "LIVE.md",
+      "sha256": "4f279c67370f6e6ec9cbdfe91703a6320812414d3f059b3b1d16c07475253eb2"
+    },
+    {
+      "group": "final_review_navigation_files",
+      "path": "HANDOFF.md",
+      "sha256": "a974f06b77c421c1242e68adfcbbb46a48de1dec02b544561fa3d4b550a93037"
+    },
+    {
+      "group": "final_review_navigation_files",
+      "path": "CURRENT_RESEARCH_PROGRAM.md",
+      "sha256": "8fef01f02ef4f3c6dc95aee0d3f15c484e7832a3d4e466cecf3415e5eb0d8e5f"
+    },
+    {
+      "group": "final_review_navigation_files",
+      "path": "MEMORY.md",
+      "sha256": "ccd8c0804fed4caa30888cd8d13845fef270cda9bdd952c4e429b37cf3c1818f"
+    },
+    {
+      "group": "final_review_navigation_files",
+      "path": "INDEX.md",
+      "sha256": "e5eeacba1ea230fed726b0687fc007920965bec135148c79c321b883c83edd7a"
+    },
+    {
+      "group": "final_review_navigation_files",
+      "path": "UDT_RESEARCH_ROADMAP.md",
+      "sha256": "10de8658bde87e6b52f806a01877d18a710293eda050ef2453a4a08c5c4eb9d1"
+    },
+    {
+      "group": "direct_review",
+      "path": "udt_local_kernel_symmetry_release_2026-09-13/review/REVIEW.md",
+      "sha256": "b58f795fcb1b24a7a4018f8b3f1f47eae84a4e387d326deddc6df301b85a9010"
+    }
+  ],
+  "matched_pin_checks": 46,
+  "original_untracked_names": 51,
+  "original_untracked_status_sha256": "747cf3c497bfbdf7c373a2aa621be3cb241a61f7ef9f508c39bf64588ff70a60",
+  "branch": "grok",
+  "refs": [
+    "b3149a43afb7fec8b53d137ae298438f9b2dbc36",
+    "b3149a43afb7fec8b53d137ae298438f9b2dbc36"
+  ],
+  "tracked_changed_paths": [
+    "AGENTS.md",
+    "CURRENT_RESEARCH_PROGRAM.md",
+    "HANDOFF.md",
+    "INDEX.md",
+    "LIVE.md",
+    "MEMORY.md",
+    "UDT_RESEARCH_ROADMAP.md"
+  ],
+  "commands": [
+    {
+      "argv": [
+        "git",
+        "rev-parse",
+        "--abbrev-ref",
+        "HEAD"
+      ],
+      "exit": 0,
+      "stdout": "grok\n",
+      "stderr": ""
+    },
+    {
+      "argv": [
+        "git",
+        "rev-parse",
+        "HEAD",
+        "origin/grok"
+      ],
+      "exit": 0,
+      "stdout": "b3149a43afb7fec8b53d137ae298438f9b2dbc36\nb3149a43afb7fec8b53d137ae298438f9b2dbc36\n",
+      "stderr": ""
+    },
+    {
+      "argv": [
+        "git",
+        "diff",
+        "--cached",
+        "--name-only"
+      ],
+      "exit": 0,
+      "stdout": "",
+      "stderr": ""
+    },
+    {
+      "argv": [
+        "git",
+        "diff",
+        "--name-only"
+      ],
+      "exit": 0,
+      "stdout": "AGENTS.md\nCURRENT_RESEARCH_PROGRAM.md\nHANDOFF.md\nINDEX.md\nLIVE.md\nMEMORY.md\nUDT_RESEARCH_ROADMAP.md\n",
+      "stderr": ""
+    },
+    {
+      "argv": [
+        "git",
+        "status",
+        "--short",
+        "--untracked-files=all"
+      ],
+      "exit": 0,
+      "stdout": " M AGENTS.md\n M CURRENT_RESEARCH_PROGRAM.md\n M HANDOFF.md\n M INDEX.md\n M LIVE.md\n M MEMORY.md\n M UDT_RESEARCH_ROADMAP.md\n?? 8_25/UDT_FOUNDING_VALUE_LAW_ANALYSIS.md\n?? 8_25/udt_extension_checks.py\n?? 8_25/udt_extension_minimality_response.md\n?? 8_25/udt_value_law_checks.py\n?? 8_25/udt_value_law_checks_llm1.py\n?? 8_25/udt_value_law_external_response.md\n?? UDT_Complete_Guardrails_and_Central_Science_Tracking.md\n?? UDT_Next_Step_After_Two_Stages.md\n?? UDT_Sequenced_Guardrails_and_Development_Work_Order.md\n?? udt_local_kernel_symmetry_release_2026-09-13/AUDIT_INPUT_PINS.json\n?? udt_local_kernel_symmetry_release_2026-09-13/CANDIDATE_FREEZE.json\n?? udt_local_kernel_symmetry_release_2026-09-13/CHECK_PLAN.md\n?? udt_local_kernel_symmetry_release_2026-09-13/CLARIFICATION_FREEZE.json\n?? udt_local_kernel_symmetry_release_2026-09-13/CLASSIFICATION_CANDIDATE_FREEZE.json\n?? udt_local_kernel_symmetry_release_2026-09-13/CLASSIFICATION_IMPLEMENTATION_FREEZE.json\n?? udt_local_kernel_symmetry_release_2026-09-13/CLOSEOUT.md\n?? udt_local_kernel_symmetry_release_2026-09-13/DECISION_BRIEF.md\n?? udt_local_kernel_symmetry_release_2026-09-13/DEPENDENCY_AND_SCOPE.tsv\n?? udt_local_kernel_symmetry_release_2026-09-13/DISCOVERY_HISTORY.md\n?? udt_local_kernel_symmetry_release_2026-09-13/IMPLEMENTATION_FREEZE.json\n?? udt_local_kernel_symmetry_release_2026-09-13/INITIAL_CANDIDATE.md\n?? udt_local_kernel_symmetry_release_2026-09-13/LAUNCH.json\n?? udt_local_kernel_symmetry_release_2026-09-13/LEADING_JET_CLASSIFICATION.md\n?? udt_local_kernel_symmetry_release_2026-09-13/PUBLICATION_ADAPTER_PROVENANCE.json\n?? udt_local_kernel_symmetry_release_2026-09-13/REVIEWED_RESULT.md\n?? udt_local_kernel_symmetry_release_2026-09-13/SCOPE_CLARIFICATION.md\n?? udt_local_kernel_symmetry_release_2026-09-13/SOURCE_PINS.json\n?? udt_local_kernel_symmetry_release_2026-09-13/WORK_ORDER.md\n?? udt_local_kernel_symmetry_release_2026-09-13/WORK_ORDER_FREEZE.json\n?? udt_local_kernel_symmetry_release_2026-09-13/capture.py\n?? udt_local_kernel_symmetry_release_2026-09-13/check_preservation.py\n?? udt_local_kernel_symmetry_release_2026-09-13/checks/AGENTS_GUARD_REPAIR.json\n?? udt_local_kernel_symmetry_release_2026-09-13/checks/classify_twojet.capture_provenance.json\n?? udt_local_kernel_symmetry_release_2026-09-13/checks/classify_twojet.json\n?? udt_local_kernel_symmetry_release_2026-09-13/checks/classify_twojet.stderr\n?? udt_local_kernel_symmetry_release_2026-09-13/checks/parent_exact.capture_provenance.json\n?? udt_local_kernel_symmetry_release_2026-09-13/checks/parent_exact.json\n?? udt_local_kernel_symmetry_release_2026-09-13/checks/parent_exact.stderr\n?? udt_local_kernel_symmetry_release_2026-09-13/checks/premise406.capture_provenance.json\n?? udt_local_kernel_symmetry_release_2026-09-13/checks/premise406.json\n?? udt_local_kernel_symmetry_release_2026-09-13/checks/premise406.stderr\n?? udt_local_kernel_symmetry_release_2026-09-13/checks/premise406_after_guard_repair.capture_provenance.json\n?? udt_local_kernel_symmetry_release_2026-09-13/checks/premise406_after_guard_repair.json\n?? udt_local_kernel_symmetry_release_2026-09-13/checks/premise406_after_guard_repair.stderr\n?? udt_local_kernel_symmetry_release_2026-09-13/checks/preservation.capture_provenance.json\n?? udt_local_kernel_symmetry_release_2026-09-13/checks/preservation.json\n?? udt_local_kernel_symmetry_release_2026-09-13/checks/preservation.stderr\n?? udt_local_kernel_symmetry_release_2026-09-13/checks/preservation_2g.capture_provenance.json\n?? udt_local_kernel_symmetry_release_2026-09-13/checks/startup_tests.capture_provenance.json\n?? udt_local_kernel_symmetry_release_2026-09-13/checks/startup_tests.json\n?? udt_local_kernel_symmetry_release_2026-09-13/checks/startup_tests.stderr\n?? udt_local_kernel_symmetry_release_2026-09-13/classify_twojet.py\n?? udt_local_kernel_symmetry_release_2026-09-13/parent_exact.py\n?? udt_local_kernel_symmetry_release_2026-09-13/publication_adapter.py\n?? udt_local_kernel_symmetry_release_2026-09-13/review/ALLOCATION.json\n?? udt_local_kernel_symmetry_release_2026-09-13/review/DIRECT_REVIEW_INPUT_PINS.json\n?? udt_local_kernel_symmetry_release_2026-09-13/review/FINAL_FIDELITY.json\n?? udt_local_kernel_symmetry_release_2026-09-13/review/FRACTION_RESULT.json\n?? udt_local_kernel_symmetry_release_2026-09-13/review/INITIAL_FRACTION_RESULT.json\n?? udt_local_kernel_symmetry_release_2026-09-13/review/INITIAL_recompute_fraction.py\n?? udt_local_kernel_symmetry_release_2026-09-13/review/READ_COMMAND_LOG.md\n?? udt_local_kernel_symmetry_release_2026-09-13/review/RECOMPUTATION_FREEZE.json\n?? udt_local_kernel_symmetry_release_2026-09-13/review/RECOMPUTATION_PLAN.md\n?? udt_local_kernel_symmetry_release_2026-09-13/review/REVIEW.md\n?? udt_local_kernel_symmetry_release_2026-09-13/review/SELECTED_CURRENT_ROWS.json\n?? udt_local_kernel_symmetry_release_2026-09-13/review/SOURCE_FIRST_FREEZE.md\n?? udt_local_kernel_symmetry_release_2026-09-13/review/SOURCE_FIRST_FREEZE_PINS.json\n?? udt_local_kernel_symmetry_release_2026-09-13/review/SOURCE_FIRST_REQUEST.md\n?? udt_local_kernel_symmetry_release_2026-09-13/review/SOURCE_READ_RECORD.json\n?? udt_local_kernel_symmetry_release_2026-09-13/review/SUPPLEMENTAL_REVIEW_OBSERVATION.json\n?? udt_local_kernel_symmetry_release_2026-09-13/review/recompute_fraction.py\n?? udt_native_onshell_timelive_reset_owner_audit_2026-08-10/CANDIDATE_LAW_MAP.tsv\n?? udt_native_onshell_timelive_reset_owner_audit_2026-08-10/DERIVATION_RESULT.json\n?? udt_native_onshell_timelive_reset_owner_audit_2026-08-10/EQUATION_OWNERSHIP_ATLAS.tsv\n?? udt_native_onshell_timelive_reset_owner_audit_2026-08-10/SOURCE_SCOPE_CLARIFICATION.md\n?? udt_native_onshell_timelive_reset_owner_audit_2026-08-10/derive_owner_atlas.py\n?? udt_native_onshell_timelive_reset_owner_audit_2026-08-10/run_catch_proofs.py\n?? udt_native_onshell_timelive_reset_owner_audit_2026-08-10/verify_owner_independent.py\n?? udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/ADVERSARIAL_REVIEW_REQUEST.md\n?? udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/AUDIT_REPORT.md\n?? udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/CATCH_PROOF_RESULT.json\n?? udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/DERIVATION_RESULT.json\n?? udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/EVIDENCE_GATES.md\n?? udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/EXACT_DERIVATION.md\n?? udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/INDEPENDENT_VERIFICATION.json\n?? udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/LAY_REPORT.md\n?? udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/STATUS_LEDGER.tsv\n?? udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/VERIFICATION_RESULT.json\n?? udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/WITNESS_ATLAS.tsv\n?? udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/build_review_intake.py\n?? udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/derive_regime_flow.py\n?? udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/run_catch_proofs.py\n?? udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/verify_independent.py\n?? udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/verify_package.py\n?? udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/AUDIT_REPORT.md\n?? udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/CATCH_PROOF_RESULT.json\n?? udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/DERIVATION_RESULT.json\n?? udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/EVIDENCE_GATES.md\n?? udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/EXACT_DERIVATION.md\n?? udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/INDEPENDENT_RADAU_REPLAY.tsv\n?? udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/INDEPENDENT_VERIFICATION.json\n?? udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/LAY_REPORT.md\n?? udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/PREREGISTRATION_EXECUTION_NOTE.md\n?? udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/PROFILE_COMPATIBILITY_ATLAS.tsv\n?? udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/REVIEW_DISPATCH.md\n?? udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/RUN_CHECKPOINT.tsv\n?? udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/STATUS_LEDGER.tsv\n?? udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/VERIFICATION_RESULT.json\n?? udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/build_review_manifest.py\n?? udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/derive_compatibility_atlas.py\n?? udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/run_catch_proofs.py\n?? udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/verify_independent.py\n?? udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/verify_package.py\n",
+      "stderr": ""
+    }
+  ]
+}

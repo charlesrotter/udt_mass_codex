@@ -4,7 +4,7 @@ Charles canonizes; `CANON.md` requires sign-off. This evidence ledger must not s
 
 `CLAUDE.md` and `.claude/skills/` are shared instructions in the active Codex/ChatGPT startup chain.
 Hooks, templates and runtime files are compatibility adapters; none may contradict this authority
-or supply scientific premises. Current documents own status; exact registry and reviewed sources own grades.
+or supply scientific premises. Current status comes from the current status documents; exact registry and reviewed sources own grades.
 Instructions and tests are not scientific evidence. A coverage checklist is premise-relative, never an if-and-only-if theorem.
 
 ## Mandatory startup

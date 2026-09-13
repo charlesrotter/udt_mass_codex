@@ -1,0 +1,17 @@
+{
+  "recorded_utc": "2026-09-13T18:04:36.703539+00:00",
+  "failure": "git diff --cached --check reports new blank line at EOF in exact captured checks/preservation.stderr",
+  "raw_file": "checks/preservation.stderr",
+  "raw_sha256": "1b6b20d92e89eb02265a2cfde897ad95e158b1f01ed8e7d9b7ee190a6f357c0e",
+  "repair": "Exclude only that exact raw capture from whitespace lint; preserve and validate its hash. All other staged text/code/evidence still receives standard whitespace check. No config or scientific test changed.",
+  "initial_adapter_sha256": "c6da7818336cbc93e9b1e508f4ec65fe07215c57853bb8cc56c6af8658015ca9",
+  "repaired_adapter_sha256": "9fe3a9c90c35819943f1c2e16ccc599ed798c3701e253c33c09a37d0409fa776",
+  "index_refresh": "Prepare may refresh only an index exactly equal to its own preceding planned path list; unexpected staging still fails.",
+  "initial_attempt": "INITIAL_PUBLICATION_ATTEMPT.json",
+  "scientific_and_review_bytes_changed": false,
+  "review_followup_utc": "2026-09-13T18:06:06.744777+00:00",
+  "intermediate_adapter_sha256": "9351e535f52ee96df845b90d9f76fff74097309167015d2ca231e0ad60fb0d82",
+  "review_found_defect": "After partial staging, unstaged package edits were mistaken for external roots, and already-staged unchanged roots could disappear from regenerated plan.",
+  "additional_repair": "Keep exact previous-stage ownership check; union staged and unstaged tracked paths, reject every path outside exact seven roots or own package, retain union of seven roots in regenerated plan.",
+  "failed_intermediate_execution": false
+}

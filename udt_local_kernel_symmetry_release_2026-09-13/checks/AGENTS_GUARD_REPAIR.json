@@ -1,0 +1,13 @@
+{
+  "recorded_utc": "2026-09-13T17:40:30.938306+00:00",
+  "failed_run": "checks/premise406.json",
+  "reason": "Prior method compression kept meaning but removed an exact required guard phrase. Restore phrase; do not weaken verifier.",
+  "source_snapshot": "b3149a43afb7fec8b53d137ae298438f9b2dbc36",
+  "before_sha256": "68552fe3eea97720ef4384189e68ae124744cc560edaa834212c6feb2e2b76d6",
+  "old": "Current documents own status; exact registry and reviewed sources own grades.",
+  "new": "Current status comes from the current status documents; exact registry and reviewed sources own grades.",
+  "scope": "documentation-only literal guard repair; no scientific premise change",
+  "after_sha256": "c578b045cf3278804124e23a5408ff9634a9a2165f7d20223f654d76bffd8ec9",
+  "word_count": 1946,
+  "line_count": 225
+}

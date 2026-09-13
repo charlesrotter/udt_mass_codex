@@ -14,6 +14,45 @@ Current acceptance overlay: earlier UNPROMOTED/campaign-only language below reco
 returns. The G383--G412, G413--G415 and G416--G423 banking packets and maintained checkpoint own later dispositions;
 original result packages remain unchanged. No physical adoption or canon is included.
 
+## LSR1 reviewed local metric/kernel symmetry release — 2026-09-13
+
+Charles authorized the two-hour local symmetry-release question with one fresh
+adversarial review. Scientific return: VERIFIED-WITH-CAVEATS, mathematical
+comparison result, UNPROMOTED. Final fidelity, actual audit/check results and
+publication are separate in `udt_local_kernel_symmetry_release_2026-09-13/CLOSEOUT.md`;
+lay return: its DECISION_BRIEF.md. This executes roadmap restriction testing,
+without resuming the withdrawn Ric=0 evolution proposal or the Maxwell branch.
+
+Keeping static analytic-even center regularity, G288's exact reciprocal radial
+block, zero radial-angular mixing and centered-sphere total area, the full
+leading angular metric freedom is one symmetric tracefree three-dimensional
+tensor: five components in the supplied marking. A necessity argument derives
+this class; an exact positive analytic local construction realizes every such
+tensor. This classifies the leading jet, not full geometries or physical modes.
+G288's whole declared spherical family is recovered at zero angular deformation.
+
+The radial clock/ruler relations and leading scalar curvature survive, while
+central null-screen tides vanish for every direction exactly when that angular
+tensor vanishes. Nonzero angular freedom can therefore appear at an earlier
+tidal order than the spherical calculation permitted. Actual and scaled tides
+remain distinct. Higher angular jets are not determined by this theorem; no
+general4:1 quartic ratio or exact quietness away from the center follows.
+
+The normalized kernel fields agree at matched original markings, but nonradial
+ruler densities retain the missing directional information. G405=ER1 record
+reconstruction is reused. G176 stays WORKING, G179 is the supplied-pair evaluator,
+G166 native nonspherical admission remains OPEN, and G312 stays FILTER ONLY.
+No physical field, law, content, observation, scale or history was added or
+selected. This geometric permission is not a claim that full native UDT admits
+every member. Whole initial arguments, precision repairs and review control.
+
+Next proposed gate: determine what existing native metric/pair assembly premises
+actually constrain about this explicit leading angular tensor. The preceding
+geometric class is not automatically a physical premise. A new bounded work
+order must identify the source argument and potential advance; no successor,
+promotion, registry/manuscript/CANON change or Maxwell expansion is authorized.
+Stop for discussion. The primary working-method correction below still applies.
+
 ## Owner direction clarification — emergence question, 2026-09-13
 
 Charles clarified that asking about a UDT Maxwell possibility meant asking whether
@@ -51,7 +90,8 @@ premise or canon change is authorized by this method clarification.
 This current direction qualifies successor language in the historical returns
 below. The primary method rule is in `AGENTS.md`, under Method. Implementation
 and actual checks: `maintenance_emergence_method_2026-09-13/WORK_RECORD.md`.
-Stop for discussion; a new scientific question has not been selected here.
+That method-only update selected no scientific question; the later LSR1 dispatch
+and its discussion return are recorded above.
 
 ## GFC1 reviewed geometric response / field connection — 2026-09-13
 

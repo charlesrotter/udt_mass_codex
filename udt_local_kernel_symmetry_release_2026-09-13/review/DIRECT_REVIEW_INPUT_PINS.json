@@ -1,0 +1,16 @@
+{
+  "recorded_utc": "2026-09-13T17:48:21.781062+00:00",
+  "scope": "Direct scientific review exposure through clarification; parent scientific executable/output still unread",
+  "pins": {
+    "INITIAL_CANDIDATE.md": "8da54856012926ab8a056204909f613e258fb2a15a971c9e8fb80b971727ab69",
+    "CANDIDATE_FREEZE.json": "8813bd3903c2a414f449359873259fbb21a690ab1baf7ae139ffba790bfef46c",
+    "DISCOVERY_HISTORY.md": "0ccb6c81ed121c3e0fdc09d4c211b4825680a98b9689891e8a5a17158f395494",
+    "CHECK_PLAN.md": "610c87fee675105d955de3e776130428a6cd496a4fbd493e376f98ab50f5a56c",
+    "SCOPE_CLARIFICATION.md": "cd67d9d141ad7c221dfc25e15f9d2bb01f3bd816db62bfbd80c63a3bd7292961",
+    "CLARIFICATION_FREEZE.json": "bd63fa98ee6adabeb13a9176c42acf0356ddba24061062ed3ccee4d74e399a83",
+    "udt_exact_metric_kernel_expansion_2026-09-10/INITIAL_CANDIDATE.md": "439bbf545bc11901005bfa96ad154ddab68d3d6a383c358dc787b9eb38584f73",
+    "udt_exact_metric_kernel_expansion_2026-09-10/review/REVIEW.md": "5359bd687245ab0f5d085b430987bf5b2c08321dd9d6f40b4ee1f753a9e586f7"
+  },
+  "initial_candidate_matches_freeze": true,
+  "clarification_matches_freeze": true
+}

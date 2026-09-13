@@ -1,0 +1,19 @@
+{
+  "task": "/root/lsr1_source_review",
+  "fresh_context": true,
+  "fork_turns": "none",
+  "model_override": null,
+  "runtime_model": "UNATTESTED",
+  "different_model": "UNTESTED",
+  "general_capacity": "UNVERIFIED",
+  "spawn_bracket_utc": [
+    "2026-09-13 17:36:39",
+    "2026-09-13 17:36:55"
+  ],
+  "conservative_start_utc": "2026-09-13 17:36:39",
+  "source_first_deadline_utc": "2026-09-13 17:44:39",
+  "hard_deadline_utc": "2026-09-13 18:16:39",
+  "allocation_limit_observed": false,
+  "scope": "one source-first adversarial reviewer; no subdelegation",
+  "parent_overlap": "Parent source reading and candidate derivation active; premise406 subprocess running at allocation."
+}
