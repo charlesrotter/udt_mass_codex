@@ -1,0 +1,9 @@
+{
+  "utc": "2026-09-13T21:23:36.991592+00:00",
+  "python": "3.10.12",
+  "platform": "Linux-6.8.0-138-generic-x86_64-with-glibc2.35",
+  "logical_cpus": 24,
+  "physical_memory_bytes": 134828810240,
+  "gpu_used": false,
+  "limits": "one scientific process; ordinary120s/2048MiB; verifier900s/2048MiB"
+}

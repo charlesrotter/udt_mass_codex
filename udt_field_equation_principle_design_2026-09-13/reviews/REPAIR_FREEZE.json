@@ -1,0 +1,15 @@
+{
+  "utc": "2026-09-13T21:40:00.636062+00:00",
+  "repairs": [
+    "R1 exact inherited evolving discriminator and physical-use boundary",
+    "R2 full-metric volume aggregate not faithful encoding"
+  ],
+  "files": {
+    "CANDIDATE.md": "15e58741d3eb0b4d79f82fdf790ff438ea7fab584e73b7f82346cfed2373f26c",
+    "DERIVATION.md": "d328a06118645372f0f3a36d137328f515eb16b2d4c528c5c0ed989dff5e1907",
+    "PREMISE_DELTA.tsv": "6f8026e92460fdce36def60a49810c5f248cc5c1f24daabc4fdc6339ea62ea36",
+    "DECISION_PACKET.md": "49554ae0bb7fc1efbdd70222b8000c625e509f49d80a8f1b786797f072b2a4e0",
+    "DISCOVERY_NOTES.md": "27b72f0849879e0936d5f6524257dc0be96680bd324faaafc5cab94244458e42"
+  },
+  "new_scientific_computation": false
+}

@@ -1,0 +1,209 @@
+{
+  "status": "PASS",
+  "scope": "Two exact diagnostic metrics; no physical response adoption or original-theorem reproof",
+  "started_utc": "2026-09-13T21:34:12.288133+00:00",
+  "finished_utc": "2026-09-13T21:34:12.340034+00:00",
+  "wall_seconds": 0.0519038790371269,
+  "python": "3.10.12",
+  "arithmetic": "fractions.Fraction exact rational",
+  "cpu_seconds_limit": 120,
+  "address_space_mib_limit": 2048,
+  "script_sha256": "3b8cb28ae3d12228e98565bf2a5c8b3dc64fbca53c46e533a384fadfaf796083",
+  "fixtures": {
+    "flat": {
+      "all_16_components_equal": true,
+      "density_separation_hessian": [
+        [
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0",
+          "0"
+        ]
+      ],
+      "ricci_from_christoffel_derivatives": [
+        [
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0",
+          "0"
+        ]
+      ],
+      "scalar_curvature": "0",
+      "tracefree_ricci": [
+        [
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0",
+          "0"
+        ]
+      ],
+      "determinant_ratio_along_1_2_3_4": [
+        "1",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "log_density_quartic_coefficient_along_1_2_3_4": "0"
+    },
+    "mixed_full_metric": {
+      "all_16_components_equal": true,
+      "density_separation_hessian": [
+        [
+          "-22/5",
+          "103/15",
+          "-26/3",
+          "-112/15"
+        ],
+        [
+          "103/15",
+          "37/5",
+          "18/5",
+          "14/3"
+        ],
+        [
+          "-26/3",
+          "18/5",
+          "-28/5",
+          "71/15"
+        ],
+        [
+          "-112/15",
+          "14/3",
+          "71/15",
+          "-59/15"
+        ]
+      ],
+      "ricci_from_christoffel_derivatives": [
+        [
+          "66/5",
+          "-103/5",
+          "26",
+          "112/5"
+        ],
+        [
+          "-103/5",
+          "-111/5",
+          "-54/5",
+          "-14"
+        ],
+        [
+          "26",
+          "-54/5",
+          "84/5",
+          "-71/5"
+        ],
+        [
+          "112/5",
+          "-14",
+          "-71/5",
+          "59/5"
+        ]
+      ],
+      "scalar_curvature": "-34/5",
+      "tracefree_ricci": [
+        [
+          "23/2",
+          "-103/5",
+          "26",
+          "112/5"
+        ],
+        [
+          "-103/5",
+          "-41/2",
+          "-54/5",
+          "-14"
+        ],
+        [
+          "26",
+          "-54/5",
+          "37/2",
+          "-71/5"
+        ],
+        [
+          "112/5",
+          "-14",
+          "-71/5",
+          "27/2"
+        ]
+      ],
+      "determinant_ratio_along_1_2_3_4": [
+        "1",
+        "0",
+        "886/15",
+        "0",
+        "-82056/5",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "log_density_quartic_coefficient_along_1_2_3_4": "-2042509/225"
+    }
+  },
+  "skipped": [
+    "historical source suites",
+    "physical motivation certification",
+    "Cauchy/stability/empirical tests",
+    "GPU",
+    "author code"
+  ]
+}

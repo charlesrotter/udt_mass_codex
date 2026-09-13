@@ -1,0 +1,47 @@
+{
+  "verdict": "VERIFIED-WITH-CAVEATS",
+  "scope": "Reviewed PROPOSED_UNADOPTED hypothesis draft; exact geometric/DDR equation equivalence only",
+  "reviewer": "/root/fe1_principle_review",
+  "context": "fresh separate context",
+  "exact_model": "UNATTESTED",
+  "different_model_independence": "UNTESTED",
+  "start_utc": "2026-09-13T21:25:51Z",
+  "finish_utc": "2026-09-13T21:43:08.840989+00:00",
+  "elapsed_seconds": 1037.840989,
+  "deadline_utc": "2026-09-13T21:55:51Z",
+  "within_deadline": true,
+  "candidate_files": {
+    "CANDIDATE.md": "8215f1aea8a272dbb869bee96f322517f7495ba636dcd5946c376f363d8dab17",
+    "DERIVATION.md": "cf8234d7835c917ac343a22e45796c2df84e42095a1b7141f6ae526a4374d47c",
+    "PREMISE_DELTA.tsv": "6f8026e92460fdce36def60a49810c5f248cc5c1f24daabc4fdc6339ea62ea36",
+    "DECISION_PACKET.md": "f7e915dd01b4ffc803c6a55ab76310f5efc802971b060fbf9c4897c01c4118c5",
+    "DISCOVERY_NOTES.md": "27b72f0849879e0936d5f6524257dc0be96680bd324faaafc5cab94244458e42"
+  },
+  "final_candidate_manifest_sha256": "ab19d0edc21d6c5197d448111732f893108d06c465c017f5c7eb8c3914b7450c",
+  "initial_files_preserved_and_verified": true,
+  "source_pins_unchanged": true,
+  "repairs": {
+    "R1": "RESOLVED: concrete inherited nonvacuous exact obligation with physical-use boundary",
+    "R2": "RESOLVED: volume aggregation not full information retention",
+    "final_labels": "RESOLVED: reviewed unadopted draft, caveats and no adoption endorsement"
+  },
+  "remaining_scientific_limits": [
+    "physical volume privilege unsupported",
+    "complete-response sufficiency unsupported",
+    "same previously conditional equation, no new prediction or native closure",
+    "physical domain/readout/measurement unassigned",
+    "no adoption/promotion/canon"
+  ],
+  "independent_check": {
+    "result": "PASS",
+    "artifact": "INDEPENDENT_DENSITY_CHECK.json",
+    "tensor_component_equalities": 32,
+    "fixtures": 2,
+    "wall_seconds": 0.0519038790371269,
+    "runs": 1,
+    "reruns": 0,
+    "original_theorem_reproof": false
+  },
+  "parent_full406": "ATTRIBUTED PASS 404.975656 seconds; reviewer did not rerun",
+  "final_review_sha256": "a3925bffbe12355fb385c5e57d977c141233d46a9f1f8bffc9ea5a4e5a60cefe"
+}

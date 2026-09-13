@@ -1,0 +1,50 @@
+{
+  "reviewer": "/root/fe1_principle_review",
+  "context": "fresh separate context; parent dispatch and source-first target hint exposed",
+  "exact_model": "UNATTESTED; no override requested; different-model independence UNTESTED",
+  "start_utc": "2026-09-13T21:25:51Z",
+  "deadline_utc": "2026-09-13T21:55:51Z",
+  "source_first_freeze_utc": "2026-09-13T21:28:01.443672+00:00",
+  "head": "3bc0d2e3cb523e36a378d905c7b189ac4367becb",
+  "parent_startup_attribution": "Parent continuing-session refresh reports successful fetch, grok HEAD/origin equality and tracked clean; reviewer independently confirmed branch/hash/tracked clean at launch. Full406 audit attributed to parent, not rerun.",
+  "reads": {
+    "AGENTS.md": "c578b045cf3278804124e23a5408ff9634a9a2165f7d20223f654d76bffd8ec9",
+    "CLAUDE.md": "b7e524a5b06760e57877a408630228767ae9a394134095f9851bef5d06e17751",
+    "CROSS_MODEL_VERIFY.md": "2b0509d933d731fbf3f72aa88777a54d3e48a94d4bae3d324087871777f9a007",
+    ".claude/skills/no-shortcuts/SKILL.md": "fd3a1f3218481134f2af829d3ae4175ac53518f75bf9673287efbfb7d7708fc1",
+    ".claude/skills/completeness-map/SKILL.md": "a8cf9e5f4a6d35a0d0ebfe4bc48dbf328ca74e318f020a6a22cb683666a611c0",
+    ".claude/skills/verifier-before-record/SKILL.md": "9b3a4aacd4b4006b2b7f01edada73b7c87b99bea6e754583558713bfc145e5ac",
+    "udt_field_equation_principle_design_2026-09-13/WORK_ORDER.md": "8983e9ede985779eb489bff23db01447091d00ffa0a76a115c5c5a64e55a014f",
+    "udt_field_equation_provenance_and_process_2026-09-13/PROPOSED_NEXT_WORK_ORDER.md": "27bd0ccc28d8f44f847025c6a1e412cb1255a2a31ca57f0cd7c0deec62c6852e",
+    "udt_gr_filter_reconciliation_2026-09-09/AUTHORITY_RECORD.md": "80daa0be6d3e1c0ac1b734fea089c4eb487f05bc1e1fbb2fabd69322ca89f28c",
+    "udt_g310_differential_dual_reciprocity_tracefree_ownership_2026-08-31/EXACT_DERIVATION.md": "a417b3cfa1cc6136429a14d3b330c1b8c25c73c9e946d6b6454d6ffae72c25a0",
+    "udt_g311_universal_reciprocity_full_covariant_response_2026-09-01/EXACT_DERIVATION.md": "4fd4ca84d353018c02e32d49cf261de3472b3fafd74b0f268b0960653bdfd307",
+    "udt_g296_complete_metric_native_residual_order_map_2026-08-29/AUDIT_REPORT.md": "0e443bfb9b947acaf2933b66af3c73ca20146016abd180d4ff424591f7851af7",
+    "udt_response_foundations_campaign_2026-09-10/CANDIDATE.md": "bf3d4eac664ec9d08f5b68c88062025ee1070e558b9974e6c27dd9f341992be2",
+    "CURRENT_SCIENTIFIC_PREMISES.tsv": "7a3d69d5a0bc3ac98e2ebe2bb0c6d029df30071bf403baffed2223a193dc720b"
+  },
+  "exposure": [
+    "parent dispatch including hypothetical infinitesimal geodesic metric-volume response",
+    "FE1 work order",
+    "pinned FEP1 next work order and trace-free Ricci reference equation",
+    "required shared instructions and triggered skills",
+    "current G312 authority",
+    "exact G296/G310/G311/G312 registry rows only",
+    "G310/G311 exact arguments",
+    "G296 audit",
+    "RF1 candidate",
+    "roadmap RF1 compact pointer and relevant search hits",
+    "git untracked names only; no protected payload"
+  ],
+  "not_exposed": [
+    "FE1 DISCOVERY_NOTES",
+    "FE1 candidate",
+    "FE1 proposed proof",
+    "FE1 code",
+    "FE1 scientific outputs",
+    "FE1 prior review verdicts"
+  ],
+  "computation": "none; source-first analytic assessment only",
+  "implementation_independence": "not computational at source-first stage",
+  "argument_independence": "source-first reconstruction from accepted mathematical arguments; reference and density hint known"
+}

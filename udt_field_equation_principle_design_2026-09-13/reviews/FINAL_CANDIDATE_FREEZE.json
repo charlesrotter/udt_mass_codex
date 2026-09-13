@@ -1,0 +1,12 @@
+{
+  "utc": "2026-09-13T21:41:23.226035+00:00",
+  "changes": "Final reviewed-draft/status fidelity; R1/R2 substantive repair freeze retained separately",
+  "files": {
+    "CANDIDATE.md": "8215f1aea8a272dbb869bee96f322517f7495ba636dcd5946c376f363d8dab17",
+    "DERIVATION.md": "cf8234d7835c917ac343a22e45796c2df84e42095a1b7141f6ae526a4374d47c",
+    "PREMISE_DELTA.tsv": "6f8026e92460fdce36def60a49810c5f248cc5c1f24daabc4fdc6339ea62ea36",
+    "DECISION_PACKET.md": "f7e915dd01b4ffc803c6a55ab76310f5efc802971b060fbf9c4897c01c4118c5",
+    "DISCOVERY_NOTES.md": "27b72f0849879e0936d5f6524257dc0be96680bd324faaafc5cab94244458e42"
+  },
+  "new_scientific_computation": false
+}

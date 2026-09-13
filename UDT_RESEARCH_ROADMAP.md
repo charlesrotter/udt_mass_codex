@@ -14,6 +14,33 @@ Current acceptance overlay: earlier UNPROMOTED/campaign-only language below reco
 returns. The G383--G412, G413--G415 and G416--G423 banking packets and maintained checkpoint own later dispositions;
 original result packages remain unchanged. No physical adoption or canon is included.
 
+## FE1 geodesic-volume response proposal — 2026-09-13
+
+Charles authorized the bounded FE1 design/check/fresh-review/repair task.
+Current return: `udt_field_equation_principle_design_2026-09-13/DECISION_PACKET.md`;
+its CANDIDATE, DERIVATION, PREMISE_DELTA and review records own the exact proposal.
+FE1 produces one weakly motivated UNADOPTED hypothesis draft, not a native law.
+
+The metric defines a normal geodesic volume-density ratio D_p(v). Its exact
+separation Hessian gives E_vol=-3 Hess_0 log D_p=Ric. Identifying this geometric
+quantity as the COMPLETE physical DDR response is proposed, not derived.
+With that identification, DDR gives the already known TF(Ric)=0 equation.
+There is no new solution class or prediction relative to the conditional Ricci
+branch, and G312's membership route stays unclosed. Volume is an aggregate of
+full-metric data, not faithful retention of all shape/shift/tidal information.
+
+Fresh source-first/direct review and an independently implemented exact
+32-component density/connection anchor support the mathematical statement.
+Two documentary repairs retain an exact evolving -8b pair-defect discriminator
+and clarify the volume information limit. Physical volume privilege and the
+completeness of its infinitesimal coefficient remain unsupported. Final review,
+actual checks/resources and publication: its CLOSEOUT and WORK_RECORD.
+
+Recommendation: retain the proposal unadopted for discussion. No physical
+adoption, scientific promotion, extra response candidate, source/Maxwell revival,
+fit or autonomous successor. FE1's two-hour proposal has been executed; its
+original work-order wording and FEP1/TC0 evidence remain historical snapshots.
+
 ## Field-equation recovery and process — FEP1, 2026-09-13
 
 Charles now asks to recover past equation attempts and develop the process of

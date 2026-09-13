@@ -1,0 +1,15 @@
+{
+  "written_utc": "2026-09-13T21:36:50.146131+00:00",
+  "reviewer": "/root/fe1_principle_review",
+  "exact_model": "UNATTESTED",
+  "initial_candidate_manifest_sha256": "6de7df4a4e83c24445f26798cc275e0debe57b6710691e523f82e839e38b01d3",
+  "initial_direct_review_sha256": "8bca62eb2128ef04af2d42d41caa257c59e72be97b0bb1ceebb46dc88f36df82",
+  "verdict": "REPAIRABLE_DOCUMENTATION_DEFECTS",
+  "physical_status": "PROPOSED_UNADOPTED; draft eligibility only; volume privilege/completeness unsupported",
+  "repairs_required": [
+    "R1 concrete nonvacuous distinguishing obligation",
+    "R2 density aggregation not faithful complete-metric retention"
+  ],
+  "mathematical_recalculation_required": false,
+  "deadline_utc": "2026-09-13T21:55:51Z"
+}

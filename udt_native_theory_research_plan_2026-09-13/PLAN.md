@@ -4,6 +4,8 @@ Current revision2026-09-13: field-equation process following Charles's request t
 recover earlier equations and their assumptions. FEP1 recovery/process package:
 `../udt_field_equation_provenance_and_process_2026-09-13/DECISION_BRIEF.md`.
 This remains a research plan, not a scientific premise, new law or adoption.
+FE1 now has a reviewed UNADOPTED candidate return: roadmap and
+`../udt_field_equation_principle_design_2026-09-13/DECISION_PACKET.md`; execution-pending wording below is historical.
 The original planning snapshot is preserved in Git and PLANNING_SNAPSHOT.json;
 TC0 executed separately and stopped at its novelty gate. Current direction here
 supersedes the original derive-only next-step restriction. It authorizes no
