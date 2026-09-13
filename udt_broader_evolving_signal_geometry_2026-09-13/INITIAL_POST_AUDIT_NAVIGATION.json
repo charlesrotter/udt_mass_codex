@@ -1,0 +1,32 @@
+{
+  "utc": "2026-09-13T03:40:04.090871+00:00",
+  "changes": [
+    {
+      "path": "LIVE.md",
+      "old": "e221d2e44de04c4092cdd3d81540390b38550cf3bc38fa09971f2797c7425917",
+      "new": "1e1ee19d645706e25cea55a799db58e30ea89e3abb09eabe50d976444dfd1ba2"
+    },
+    {
+      "path": "HANDOFF.md",
+      "old": "a438c7831a729d4a875dd3333e443b5b4d4607b610447ff8c989922ef6efb1e2",
+      "new": "21e26194e0d6c42640f283d7dbfcb1fa0106fee3723dbee3d459af198d59566d"
+    },
+    {
+      "path": "CURRENT_RESEARCH_PROGRAM.md",
+      "old": "53f662476475392f70ce43e4dfa115f40351bae097e44911c37c4bc86d14691f",
+      "new": "bc7f3966eed9ae4f61d762ea6597adf1a0f097be4ff8837cfcbc943a70134e8f"
+    },
+    {
+      "path": "INDEX.md",
+      "old": "409e551233fef8d8e8fa44cdea5d7a59c217f2b68e7bc0e28331b62b5ec70c77",
+      "new": "00f64909ec683e061d2c1feef85b9e32549bc5c987bec6b36e282a3ae9a209e3"
+    },
+    {
+      "path": "MEMORY.md",
+      "old": "41569ccf5d8e908f4c470966bc0682a63b814749f777ff126062ad21f441044e",
+      "new": "9cc8b4e9f91307e84e66bb07805dcffd0512342249045448d82eb49bb8d26204"
+    }
+  ],
+  "scientific_registry_guard_and_test_inputs_unchanged": true,
+  "scope": "Five navigation-only closure wordings; roadmap also updated. Final startup check follows."
+}

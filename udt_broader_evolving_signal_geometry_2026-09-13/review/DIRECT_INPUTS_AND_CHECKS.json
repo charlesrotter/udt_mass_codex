@@ -1,0 +1,86 @@
+{
+  "utc": "2026-09-13T03:33:05.108392+00:00",
+  "amendment_only_adds_saved_forward_inputs": true,
+  "entire_previous_payload_unchanged_after_removing_four_added_fields": true,
+  "frozen_original_inputs_unchanged": true,
+  "actual_replayed_mutations": [
+    {
+      "mutation": "drop_cross",
+      "failure": "AssertionError(('lambda_time_constraint', 0.11167313877227593, 2e-07))",
+      "checks_before_rejection": 55,
+      "capture": {
+        "command": [
+          "python3",
+          "udt_broader_evolving_signal_geometry_2026-09-13/check_broader.py",
+          "--mutate",
+          "drop_cross"
+        ],
+        "cwd": "/home/udt-admin/udt_mass_codex",
+        "started_utc": "2026-09-13T03:32:23.423318+00:00",
+        "duration_seconds": 0.44749729603063315,
+        "returncode": 1,
+        "timeout": false,
+        "address_space_bytes": 2147483648,
+        "cpu_seconds": 180,
+        "maxrss_kib": 110520
+      }
+    },
+    {
+      "mutation": "source_epoch",
+      "failure": "AssertionError(('actual_source_frequency', 0.36175163915643715, 2e-12))",
+      "checks_before_rejection": 158,
+      "capture": {
+        "command": [
+          "python3",
+          "udt_broader_evolving_signal_geometry_2026-09-13/check_broader.py",
+          "--mutate",
+          "source_epoch"
+        ],
+        "cwd": "/home/udt-admin/udt_mass_codex",
+        "started_utc": "2026-09-13T03:32:30.066398+00:00",
+        "duration_seconds": 1.9103528800187632,
+        "returncode": 1,
+        "timeout": false,
+        "address_space_bytes": 2147483648,
+        "cpu_seconds": 180,
+        "maxrss_kib": 114628
+      }
+    }
+  ],
+  "files": {
+    "udt_broader_evolving_signal_geometry_2026-09-13/INITIAL_CANDIDATE.md": "0c4b42c310e08767deba69dfee6c4f85e37b728a4436979dc1034e2ae7b3fcb3",
+    "udt_broader_evolving_signal_geometry_2026-09-13/INITIAL_check_broader.py": "24679ea3d7d4702a8d27d5b1c20fad4c8a0487f902996b3fbe275085e104309b",
+    "udt_broader_evolving_signal_geometry_2026-09-13/check_broader.py": "7a86dbe8efd2accf601a4d54bec1d27e99fe4c4c311921045abb59d7301ea29b",
+    "udt_broader_evolving_signal_geometry_2026-09-13/CANDIDATE_FREEZE.json": "ae4005ed0117e4a0a3bffce84b8cb76b584eadc814884b49ddf71bd265f5b99d",
+    "udt_broader_evolving_signal_geometry_2026-09-13/SOURCE_PINS.json": "a00f368081cf88f4e7528205eaadbddf1520d66acc3daafe6b54a1a820931c1c",
+    "udt_broader_evolving_signal_geometry_2026-09-13/OUTPUT_CAPTURE_AMENDMENT.json": "da6c62256a800885c3ce52eb47ef770fe056567e7701ec4726c380c58c040784",
+    "udt_broader_evolving_signal_geometry_2026-09-13/WORK_ORDER.md": "d6181325a926157a63a765f9c094518e517a13a2913ed92a9174c2afd310a163",
+    "udt_broader_evolving_signal_geometry_2026-09-13/REVIEW_DISPATCH.md": "87a1aec00bbcbb86c80142d5f240ae940e45ce9c523bb853c35d3ce41da916e5",
+    "udt_broader_evolving_signal_geometry_2026-09-13/checks/broader_complete_capture.capture_provenance.json": "ec3ca4dbec1a7cf62b23a8059547bf10ecb75c343fab7c786941685bac229451",
+    "udt_broader_evolving_signal_geometry_2026-09-13/checks/broader_initial.stderr": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "udt_broader_evolving_signal_geometry_2026-09-13/checks/broader_complete_capture.stdout": "561d7905d61bf75a2fb03b6b4e67a1259760cdac15ae792596cd5e414533730c",
+    "udt_broader_evolving_signal_geometry_2026-09-13/checks/broader_initial.capture_provenance.json": "ec3ca4dbec1a7cf62b23a8059547bf10ecb75c343fab7c786941685bac229451",
+    "udt_broader_evolving_signal_geometry_2026-09-13/checks/broader_complete_capture.stderr": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "udt_broader_evolving_signal_geometry_2026-09-13/checks/broader_initial.stdout": "c9f76a477f71aa0df5800114c3b34eb45754c0a44fd9ff35ae0c022a4c3f55c9",
+    "udt_broader_evolving_signal_geometry_2026-09-13/checks/broader_initial.json": "67c2a7ec82ef20f33c106ea4acd7b55623d614f86689fea9dd8cc9dec46cc18b",
+    "udt_broader_evolving_signal_geometry_2026-09-13/checks/broader_complete_capture.json": "bc8bbef328b6eae2ece297b17535f9c3805bebc207ced9c8bb6b69b033792757",
+    "udt_broader_evolving_signal_geometry_2026-09-13/review/independent_affine_run.stdout": "8c3a1c509b42a3faee418f0c2adf94240f44032c10409b4ced3976417117dab8",
+    "udt_broader_evolving_signal_geometry_2026-09-13/review/independent_affine_run.capture_provenance.json": "3540004b17f590ec0360deca06a8e5ab47b4c789feedda74a0f02f37a631d011",
+    "udt_broader_evolving_signal_geometry_2026-09-13/review/independent_metric_run.json": "8f208dfbbaf7336addaa4b3c4a9c3254930d7e05949dfec4f698e8651a527034",
+    "udt_broader_evolving_signal_geometry_2026-09-13/review/independent_metric_run.stderr": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "udt_broader_evolving_signal_geometry_2026-09-13/review/independent_affine_run.stderr": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "udt_broader_evolving_signal_geometry_2026-09-13/review/independent_affine.py": "b65cfc2d81d2a18bdbb1045c87a9c35eb6ba4fef0839ff434633b553dabf7ba6",
+    "udt_broader_evolving_signal_geometry_2026-09-13/review/independent_metric.py": "ca040295d8e771423cac0b189fd3334ab9ca523c6b09d828311cde325bd38c46",
+    "udt_broader_evolving_signal_geometry_2026-09-13/review/independent_affine_run.json": "69c76171ffbf967ba40ef6930b8729338c84650cbbd0ce8eb8684a0311590356",
+    "udt_broader_evolving_signal_geometry_2026-09-13/review/independent_metric_run.capture_provenance.json": "94a3f6962e46401b49eb9ffb82ac5d3e9ca0656af94b5eb8175d2f11a317792d",
+    "udt_broader_evolving_signal_geometry_2026-09-13/review/independent_metric_run.stdout": "33bdc9e16908dc11fc3d9cc428b3e0847e397284e2de118a84f464eb8d8dc29a",
+    "udt_broader_evolving_signal_geometry_2026-09-13/review/author_drop_cross_replay.capture_provenance.json": "16db8520784a514c96e18d6442e6e0051a739267882bc93d32a8cd8eb4cede95",
+    "udt_broader_evolving_signal_geometry_2026-09-13/review/author_source_epoch_replay.stdout": "deb75658bc38a65a89e520d6be955cc42b671a7498a981c80d3a1594405cc279",
+    "udt_broader_evolving_signal_geometry_2026-09-13/review/author_source_epoch_replay.capture_provenance.json": "63c8119a813188990690ed99254ba02d9be20a9bd7d18fe2447303c024569cc8",
+    "udt_broader_evolving_signal_geometry_2026-09-13/review/author_drop_cross_replay.stderr": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "udt_broader_evolving_signal_geometry_2026-09-13/review/author_source_epoch_replay.stderr": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "udt_broader_evolving_signal_geometry_2026-09-13/review/author_drop_cross_replay.json": "70902353046a5fa3d28984f1c9541c5d7468028e1117cd3b29191d0df771707f",
+    "udt_broader_evolving_signal_geometry_2026-09-13/review/author_drop_cross_replay.stdout": "1e81136f0424f8bbe6ddc2a703e50fa9c9a375426157b590134686eb8b505f25",
+    "udt_broader_evolving_signal_geometry_2026-09-13/review/author_source_epoch_replay.json": "99d4c7800ff023912350830babe00f6fc58b20eaab43fec7cd3dcd6392ae672e"
+  }
+}

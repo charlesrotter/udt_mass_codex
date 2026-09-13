@@ -1,0 +1,8 @@
+{
+  "utc": "2026-09-13T03:27:20.772690+00:00",
+  "phase": "SOURCE_FIRST_BEFORE_CANDIDATE_CODE_OUTCOME_EXPOSURE",
+  "files": {
+    "udt_broader_evolving_signal_geometry_2026-09-13/review/SOURCE_FIRST.md": "3e85d21f91375c663871b6b22094c833a49e0580423500c153f1e215f109236c",
+    "udt_broader_evolving_signal_geometry_2026-09-13/review/independent_metric.py": "ca040295d8e771423cac0b189fd3334ab9ca523c6b09d828311cde325bd38c46"
+  }
+}

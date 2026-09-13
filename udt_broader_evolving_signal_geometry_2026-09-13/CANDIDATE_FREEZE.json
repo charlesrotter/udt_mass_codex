@@ -1,0 +1,13 @@
+{
+  "utc": "2026-09-13T03:23:33.662330+00:00",
+  "before_numerical_execution": true,
+  "before_reviewer_allocation": true,
+  "exposure": "Standard/source mathematical exploration and existing CSS/NTB implementation were exposed before construction; no claim of blind discovery. No new BE1 numerical outcomes existed.",
+  "sha256": {
+    "udt_broader_evolving_signal_geometry_2026-09-13/WORK_ORDER.md": "d6181325a926157a63a765f9c094518e517a13a2913ed92a9174c2afd310a163",
+    "udt_broader_evolving_signal_geometry_2026-09-13/INITIAL_CANDIDATE.md": "0c4b42c310e08767deba69dfee6c4f85e37b728a4436979dc1034e2ae7b3fcb3",
+    "udt_broader_evolving_signal_geometry_2026-09-13/check_broader.py": "24679ea3d7d4702a8d27d5b1c20fad4c8a0487f902996b3fbe275085e104309b",
+    "udt_broader_evolving_signal_geometry_2026-09-13/SOURCE_PINS.json": "a00f368081cf88f4e7528205eaadbddf1520d66acc3daafe6b54a1a820931c1c",
+    "udt_broader_evolving_signal_geometry_2026-09-13/REVIEW_DISPATCH.md": "87a1aec00bbcbb86c80142d5f240ae940e45ce9c523bb853c35d3ce41da916e5"
+  }
+}

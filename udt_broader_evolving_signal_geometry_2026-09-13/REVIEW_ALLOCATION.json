@@ -1,0 +1,15 @@
+{
+  "context": "/root/broader_signal_review",
+  "fresh_context": true,
+  "fork_turns": "none",
+  "master_allocation_number": 2,
+  "conservative_start_utc": "2026-09-13T03:23:33+00:00",
+  "hard_end_utc": "2026-09-13T04:03:33+00:00",
+  "recorded_utc": "2026-09-13T03:24:55.730723+00:00",
+  "configured_parent_attribution": "gpt-6-astra/xhigh",
+  "runtime_model": "UNATTESTED",
+  "different_model": "UNTESTED",
+  "general_capacity": "UNVERIFIED",
+  "scope": "Source-first plus direct/final BE1 review, <=40min total; no subdelegation",
+  "first_observed_agent_action": "Reviewer receipt will supply actual observation; exact server allocation instant not exposed"
+}

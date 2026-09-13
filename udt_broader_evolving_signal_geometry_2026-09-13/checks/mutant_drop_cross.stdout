@@ -1,0 +1,361 @@
+{
+  "scope": "BE1 finite FLOAT64 supplied profiles; no interval, generic or observational claim.",
+  "mutation": "drop_cross",
+  "profiles": {
+    "S": [
+      [
+        1,
+        2
+      ],
+      [
+        0.3,
+        0.0
+      ],
+      [
+        0.0,
+        0.0
+      ]
+    ],
+    "M": [
+      [
+        1,
+        2
+      ],
+      [
+        0.3,
+        0.15
+      ],
+      [
+        0.0,
+        0.0
+      ]
+    ],
+    "P": [
+      [
+        1,
+        2
+      ],
+      [
+        0.3,
+        0.15
+      ],
+      [
+        0.0,
+        1.0471975511965976
+      ]
+    ],
+    "N": [
+      [
+        1,
+        2
+      ],
+      [
+        0.3,
+        -0.15
+      ],
+      [
+        0.0,
+        1.0471975511965976
+      ]
+    ]
+  },
+  "versions": {
+    "python": "3.10.12",
+    "numpy": "2.2.6",
+    "scipy": "1.15.3",
+    "sympy": "1.13.1"
+  },
+  "records": [],
+  "events": [],
+  "reverse": [],
+  "axial": [],
+  "finite_differences": [],
+  "frozen": [],
+  "exact": {
+    "mixed_time_identities": "EXACT_SYMPY",
+    "initial_constraints": "EXACT_SYMPY",
+    "reflection_force_coefficient": "189*sqrt(3)/2560",
+    "limits": "Symbolic reductions, not independent original tensor construction or theorem counts."
+  },
+  "status": "FAIL",
+  "failure": "AssertionError(('lambda_time_constraint', 0.11167313877227593, 2e-07))",
+  "traceback": "Traceback (most recent call last):\n  File \"/home/udt-admin/udt_mass_codex/udt_broader_evolving_signal_geometry_2026-09-13/check_broader.py\", line 127, in main\n    out['exact']=exact_checks();out['geometry']=geometry_checks()\n  File \"/home/udt-admin/udt_mass_codex/udt_broader_evolving_signal_geometry_2026-09-13/check_broader.py\", line 94, in geometry_checks\n    css.guard('lambda_time_constraint',css.diff(lt,t*(pt*pt+px*px)))\n  File \"/home/udt-admin/udt_mass_codex/udt_conditional_signal_sequence_2026-09-12/step_03/check_evolving.py\", line 22, in guard\n    if not np.isfinite(value) or value>tol:raise AssertionError((name,value,tol))\nAssertionError: ('lambda_time_constraint', 0.11167313877227593, 2e-07)\n",
+  "checks": [
+    {
+      "name": "initial_P",
+      "error": 0.0,
+      "tolerance": 2e-12
+    },
+    {
+      "name": "initial_lambda",
+      "error": 0.0,
+      "tolerance": 2e-12
+    },
+    {
+      "name": "initial_Pt",
+      "error": 1.1102230246251565e-16,
+      "tolerance": 2e-12
+    },
+    {
+      "name": "initial_lengths",
+      "error": 0.0,
+      "tolerance": 2e-12
+    },
+    {
+      "name": "initial_P",
+      "error": 0.0,
+      "tolerance": 2e-12
+    },
+    {
+      "name": "initial_lambda",
+      "error": 0.0,
+      "tolerance": 2e-12
+    },
+    {
+      "name": "initial_Pt",
+      "error": 1.6653345369377348e-16,
+      "tolerance": 2e-12
+    },
+    {
+      "name": "initial_lengths",
+      "error": 0.0,
+      "tolerance": 2e-12
+    },
+    {
+      "name": "initial_P",
+      "error": 0.0,
+      "tolerance": 2e-12
+    },
+    {
+      "name": "initial_lambda",
+      "error": 0.0,
+      "tolerance": 2e-12
+    },
+    {
+      "name": "initial_Pt",
+      "error": 6.505213034913027e-19,
+      "tolerance": 2e-12
+    },
+    {
+      "name": "initial_lengths",
+      "error": 0.0,
+      "tolerance": 2e-12
+    },
+    {
+      "name": "lambda_time_constraint",
+      "error": 6.093884581624191e-13,
+      "tolerance": 2e-07
+    },
+    {
+      "name": "lambda_space_constraint",
+      "error": 6.835298340316268e-13,
+      "tolerance": 2e-07
+    },
+    {
+      "name": "actual_A_spatial_derivative",
+      "error": 6.136277904505099e-13,
+      "tolerance": 2e-07
+    },
+    {
+      "name": "actual_A_spatial_hessian",
+      "error": 7.472702659821849e-11,
+      "tolerance": 2e-07
+    },
+    {
+      "name": "original_Ricci_reduction_with_actual_metric_derivatives",
+      "error": 8.93757845510379e-11,
+      "tolerance": 2e-07
+    },
+    {
+      "name": "independent_constraint_integral",
+      "error": 1.3397710927928218e-17,
+      "tolerance": 2e-07
+    },
+    {
+      "name": "single_mode_source_correspondence",
+      "error": 0.0,
+      "tolerance": 2e-12
+    },
+    {
+      "name": "single_mode_source_correspondence",
+      "error": 0.0,
+      "tolerance": 2e-12
+    },
+    {
+      "name": "single_mode_source_correspondence",
+      "error": 0.0,
+      "tolerance": 2e-12
+    },
+    {
+      "name": "single_mode_source_correspondence",
+      "error": 6.732778040654456e-18,
+      "tolerance": 2e-12
+    },
+    {
+      "name": "lambda_time_constraint",
+      "error": 6.693673036609101e-13,
+      "tolerance": 2e-07
+    },
+    {
+      "name": "lambda_space_constraint",
+      "error": 3.082632351709354e-13,
+      "tolerance": 2e-07
+    },
+    {
+      "name": "actual_A_spatial_derivative",
+      "error": 2.220265809599021e-13,
+      "tolerance": 2e-07
+    },
+    {
+      "name": "actual_A_spatial_hessian",
+      "error": 3.665044320904585e-11,
+      "tolerance": 2e-07
+    },
+    {
+      "name": "original_Ricci_reduction_with_actual_metric_derivatives",
+      "error": 3.5655312036197984e-11,
+      "tolerance": 2e-07
+    },
+    {
+      "name": "independent_constraint_integral",
+      "error": 6.24729054006368e-17,
+      "tolerance": 2e-07
+    },
+    {
+      "name": "single_mode_source_correspondence",
+      "error": 0.0,
+      "tolerance": 2e-12
+    },
+    {
+      "name": "single_mode_source_correspondence",
+      "error": 4.5339580594332504e-17,
+      "tolerance": 2e-12
+    },
+    {
+      "name": "single_mode_source_correspondence",
+      "error": 1.0094284825529999e-17,
+      "tolerance": 2e-12
+    },
+    {
+      "name": "single_mode_source_correspondence",
+      "error": 2.013045358007183e-17,
+      "tolerance": 2e-12
+    },
+    {
+      "name": "lambda_time_constraint",
+      "error": 2.4814379495575614e-12,
+      "tolerance": 2e-07
+    },
+    {
+      "name": "lambda_space_constraint",
+      "error": 6.455955664729766e-13,
+      "tolerance": 2e-07
+    },
+    {
+      "name": "actual_A_spatial_derivative",
+      "error": 1.228848362977613e-13,
+      "tolerance": 2e-07
+    },
+    {
+      "name": "actual_A_spatial_hessian",
+      "error": 2.8670574074703723e-11,
+      "tolerance": 2e-07
+    },
+    {
+      "name": "original_Ricci_reduction_with_actual_metric_derivatives",
+      "error": 2.6476243419892853e-10,
+      "tolerance": 2e-07
+    },
+    {
+      "name": "independent_constraint_integral",
+      "error": 1.2196956094434694e-16,
+      "tolerance": 2e-07
+    },
+    {
+      "name": "single_mode_source_correspondence",
+      "error": 7.164920569193175e-17,
+      "tolerance": 2e-12
+    },
+    {
+      "name": "single_mode_source_correspondence",
+      "error": 1.3087325240908124e-17,
+      "tolerance": 2e-12
+    },
+    {
+      "name": "single_mode_source_correspondence",
+      "error": 2.1671174905242994e-19,
+      "tolerance": 2e-12
+    },
+    {
+      "name": "single_mode_source_correspondence",
+      "error": 1.083738926219831e-19,
+      "tolerance": 2e-12
+    },
+    {
+      "name": "initial_P",
+      "error": 8.326672684688674e-18,
+      "tolerance": 2e-12
+    },
+    {
+      "name": "initial_lambda",
+      "error": 0.0,
+      "tolerance": 2e-12
+    },
+    {
+      "name": "initial_Pt",
+      "error": 1.1102230246251565e-16,
+      "tolerance": 2e-12
+    },
+    {
+      "name": "initial_lengths",
+      "error": 0.0,
+      "tolerance": 2e-12
+    },
+    {
+      "name": "initial_P",
+      "error": 4.1431112531719645e-18,
+      "tolerance": 2e-12
+    },
+    {
+      "name": "initial_lambda",
+      "error": 0.0,
+      "tolerance": 2e-12
+    },
+    {
+      "name": "initial_Pt",
+      "error": 2.220446049250313e-16,
+      "tolerance": 2e-12
+    },
+    {
+      "name": "initial_lengths",
+      "error": 0.0,
+      "tolerance": 2e-12
+    },
+    {
+      "name": "initial_P",
+      "error": 8.326378407347362e-18,
+      "tolerance": 2e-12
+    },
+    {
+      "name": "initial_lambda",
+      "error": 0.0,
+      "tolerance": 2e-12
+    },
+    {
+      "name": "initial_Pt",
+      "error": 8.326672684688674e-17,
+      "tolerance": 2e-12
+    },
+    {
+      "name": "initial_lengths",
+      "error": 0.0,
+      "tolerance": 2e-12
+    },
+    {
+      "name": "lambda_time_constraint",
+      "error": 0.11167313877227593,
+      "tolerance": 2e-07
+    }
+  ],
+  "check_count": 55
+}

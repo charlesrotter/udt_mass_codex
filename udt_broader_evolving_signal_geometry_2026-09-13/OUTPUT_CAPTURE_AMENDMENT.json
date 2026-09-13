@@ -1,0 +1,15 @@
+{
+  "utc": "2026-09-13T03:28:10.911950+00:00",
+  "reason": "Parent noticed that saved reverse-beam output lacked its complete forward mid-event input. Save the already computed mid record alongside each reverse record so the ratio can be recomputed from artifacts.",
+  "initial_code_copy": "INITIAL_check_broader.py",
+  "initial_code_sha256": "24679ea3d7d4702a8d27d5b1c20fad4c8a0487f902996b3fbe275085e104309b",
+  "current_code_sha256": "7a86dbe8efd2accf601a4d54bec1d27e99fe4c4c311921045abb59d7301ea29b",
+  "candidate_freeze_unchanged": true,
+  "candidate_equations_samples_tolerances_and_computations_changed": false,
+  "exposure": "After initial PASS1269 and two actual omission catches; before direct reviewer exposure. Rerun with extra saved field and compare all original payload values exactly.",
+  "replacement": {
+    "before": "out['reverse'].append(css.reverse(mid));out['axial'].append(css.axial(name,1.6))",
+    "after": "rev=css.reverse(mid);rev['forward_input']=mid\n            out['reverse'].append(rev);out['axial'].append(css.axial(name,1.6))"
+  },
+  "original_mutants_scope": "Both original variants fail before the amended output-save statement; original code and captures retained. No assertion or failing computation changed."
+}

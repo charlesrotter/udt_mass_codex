@@ -1,0 +1,97 @@
+{
+  "utc": "2026-09-13T03:49:15.592576+00:00",
+  "status": "PASS",
+  "intake_files": 17,
+  "source_pins": 16,
+  "intake_hashes": {
+    "udt_broader_evolving_signal_geometry_2026-09-13/REVIEWED_RESULT.md": "9c8ba8a9e52ba15b8ebf49de3ab9a335c2bd8613bfd1983f75b744c9a29bffcd",
+    "udt_broader_evolving_signal_geometry_2026-09-13/DECISION_BRIEF.md": "cbe714d4887b024905537fad8fa2c708b512fb1068137e08f4d9c15d5e620893",
+    "udt_broader_evolving_signal_geometry_2026-09-13/CLOSEOUT.md": "f5135d7eabb4d795a1632a845c10064a1efce6f48be747eeaff8b80cee65d1ba",
+    "udt_broader_evolving_signal_geometry_2026-09-13/SCOPE_SURVIVORS.tsv": "90e2e1753a609f3e9022d9f0457e34cf547365f7dfe087bcf803a8529d907f0b",
+    "udt_broader_evolving_signal_geometry_2026-09-13/MAIN_RECORDS.tsv": "6aa588b8029d6906cb8a8caf9cec7bc4eb4ccd5b81ea67b3c62c7ede923e2f66",
+    "udt_broader_evolving_signal_geometry_2026-09-13/EVENT_RECORDS.tsv": "66d29953c9deaa0b321efe8ad2e24124d584bdd17c9726a976e29e7e90faba2e",
+    "udt_broader_evolving_signal_geometry_2026-09-13/EXECUTION_INTERVALS.json": "fadde2429ee97df16d997dc4b6bdea9955f288d1512f6a95fa48fa764a9e74e4",
+    "udt_broader_evolving_signal_geometry_2026-09-13/POST_AUDIT_NAVIGATION.json": "2b253844b6082de4dbf78eeb36d2b9749fa03f9445d55c08655087c17b531403",
+    "udt_broader_evolving_signal_geometry_2026-09-13/NAVIGATION_WORD_REPAIR.md": "34a445b6548f1c1f33291986ecfac334298de90eb4e59bb1bd63a67103fbd7e7",
+    "LIVE.md": "1e1ee19d645706e25cea55a799db58e30ea89e3abb09eabe50d976444dfd1ba2",
+    "HANDOFF.md": "21e26194e0d6c42640f283d7dbfcb1fa0106fee3723dbee3d459af198d59566d",
+    "CURRENT_RESEARCH_PROGRAM.md": "bc7f3966eed9ae4f61d762ea6597adf1a0f097be4ff8837cfcbc943a70134e8f",
+    "CURRENT_SCIENTIFIC_PREMISES.md": "7b574665f714551a3a565987fc5bc56a4b44c7e6fb274532f61609c25153f627",
+    "INDEX.md": "6e5e927a84d1ee88b5c420dad26b4e3bf3fcad81582108e91a326420aec843f3",
+    "MEMORY.md": "7ec10039b8e3b73e539d8210ac013eee76bc7892afb29a708100ce639a74d7f7",
+    "UDT_RESEARCH_ROADMAP.md": "b975162eb77e9a5423387c98119e58d09bf7d9a7ce43a11ea4435c3bb54919a1",
+    "udt_signal_continuation_2026-09-13/CHECKPOINT.md": "d62c6fd161fa2f711300557fd2698134efd05d59b6b0dc59b4f22e76fe468b6a"
+  },
+  "audit_unchanged_except_explicit_final_navigation": true,
+  "source_registry_verifier_guard_unchanged": true,
+  "receipts": [
+    {
+      "capture": "premise406",
+      "returncode": 0,
+      "duration_seconds": 400.19077900308184
+    },
+    {
+      "capture": "calibration_rank",
+      "returncode": 0,
+      "duration_seconds": 0.1488709970144555
+    },
+    {
+      "capture": "navigation_final",
+      "returncode": 1,
+      "duration_seconds": 14.810637390939519
+    },
+    {
+      "capture": "navigation_word_repair",
+      "returncode": 1,
+      "duration_seconds": 0.2822833659593016
+    },
+    {
+      "capture": "navigation_compact_final",
+      "returncode": 0,
+      "duration_seconds": 0.2739511620020494
+    },
+    {
+      "capture": "current_surface_final",
+      "returncode": 0,
+      "duration_seconds": 0.18151023902464658
+    },
+    {
+      "capture": "saved_evidence",
+      "returncode": 0,
+      "duration_seconds": 0.02521085797343403
+    }
+  ],
+  "execution_intervals_match_actual_captures": true,
+  "same_context_overlap": false,
+  "captured_cross_context_overlaps": [
+    {
+      "a": "checks/premise406.json",
+      "b": "review/author_drop_cross_replay.json",
+      "seconds": 0.447497,
+      "same_context": false
+    },
+    {
+      "a": "checks/premise406.json",
+      "b": "review/author_source_epoch_replay.json",
+      "seconds": 1.910353,
+      "same_context": false
+    },
+    {
+      "a": "checks/premise406.json",
+      "b": "review/calibration_rank_replay.json",
+      "seconds": 0.146245,
+      "same_context": false
+    }
+  ],
+  "main_rows": 8,
+  "event_rows": 4,
+  "maximum_table_float_difference": 3.552713678800501e-15,
+  "current_HEAD_and_origin": [
+    "53fc4ed37ae4d21c2097cd2f99d874b932ac20ea",
+    "53fc4ed37ae4d21c2097cd2f99d874b932ac20ea"
+  ],
+  "outside_BE1_untracked_names_equal_previous_review_snapshot": true,
+  "outside_BE1_name_count": 51,
+  "protected_payload_access": "None; names only",
+  "scope": "Final byte/receipt/source/table/navigation fidelity; no new scientific proof or StageC review."
+}

@@ -1,0 +1,23 @@
+{
+  "utc": "2026-09-13T03:17:17.339758+00:00",
+  "baseline_head": "53fc4ed37ae4d21c2097cd2f99d874b932ac20ea",
+  "source_exposure": "Parent original source/implementation mapping began during StageA audit; no broader numerical outcomes then. Mathematical route is exposed, not blind discovery.",
+  "sha256": {
+    "AGENTS.md": "f8fa9f6135d80332e4d28b0dcfefd04e43c00042512968bb9eacf2f692499053",
+    "CURRENT_SCIENTIFIC_PREMISES.tsv": "7a3d69d5a0bc3ac98e2ebe2bb0c6d029df30071bf403baffed2223a193dc720b",
+    "signal_chain_banking_guard.py": "ac46d366fd47e16da1d55d3fe97a534d94116090a742bc8e66903be5c1e336f1",
+    "udt_signal_continuation_2026-09-13/WORK_ORDER.md": "72cdd8495380e08724949cc3b0c48297ad1696171b769dcf689b82b506685bd9",
+    "udt_gr_filter_reconciliation_2026-09-09/AUTHORITY_RECORD.md": "80daa0be6d3e1c0ac1b734fea089c4eb487f05bc1e1fbb2fabd69322ca89f28c",
+    "udt_nonlinear_ripple_geometry_2026-09-09/INITIAL_CANDIDATE.md": "49880008dcb5a646d6867e377f6dc84ded692b98250701aba4cab7119ca500de",
+    "udt_nonlinear_ripple_geometry_2026-09-09/REVIEWED_RESULT.md": "45cc3bc950b76ceed6a1fd49c248688242bc3c008864256de9bb494c1b8bbfaa",
+    "udt_nonlinear_ripple_geometry_2026-09-09/review/DIRECT_REVIEW.md": "dd5608df50905466383a1bc9dd67e6b23bcececb1d5ff4e0848c87716b98b200",
+    "udt_nonlinear_ripple_geometry_2026-09-09/check_original_metric.py": "3f394ed0ae3761f380a89bb3ecbaffc77aaaf6e2dcb956e9110af7665120c08b",
+    "udt_conditional_signal_sequence_2026-09-12/step_03/INITIAL_CANDIDATE.md": "9a18b1754cc40c77017f6372d2ad950b991beff6448963b76d44081b9fcf8f67",
+    "udt_conditional_signal_sequence_2026-09-12/step_03/REVIEWED_RESULT.md": "a335fa72cf556758696cd7720881ac4801f3d0acd50c6403bb44520e22913997",
+    "udt_conditional_signal_sequence_2026-09-12/step_03/check_evolving.py": "b9b7e5e4fbaa8c0d281ff43c5add812b2a12832b19b99f2175506c6999ef555e",
+    "udt_conditional_signal_sequence_2026-09-12/step_05/INITIAL_CANDIDATE.md": "1ac77fab0e542d7569f0dfb8fa7f0d959b9e22ace323182870eef6ad4be60c8d",
+    "udt_ne1_tilted_beam_geometry_2026-09-12/discover_beams.py": "791d65bead8298cbb9162aa9e49c7edf323b61a57be56dcd6513ce0d52ecf293",
+    "udt_signal_chain_banking_2026-09-13/BANKING_RECORD.md": "5e7070af6dcc549ecad8962dd0056ea7a08bb747140aa4484da26f4ba9dc2397",
+    "udt_signal_chain_banking_2026-09-13/review/FINAL_FIDELITY.md": "d29134b68c543b62b766c0673f9f52c371be1c9fe4a236ffa2845b05f2d77f44"
+  }
+}

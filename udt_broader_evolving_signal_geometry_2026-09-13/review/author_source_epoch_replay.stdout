@@ -1,0 +1,1210 @@
+{
+  "scope": "BE1 finite FLOAT64 supplied profiles; no interval, generic or observational claim.",
+  "mutation": "source_epoch",
+  "profiles": {
+    "S": [
+      [
+        1,
+        2
+      ],
+      [
+        0.3,
+        0.0
+      ],
+      [
+        0.0,
+        0.0
+      ]
+    ],
+    "M": [
+      [
+        1,
+        2
+      ],
+      [
+        0.3,
+        0.15
+      ],
+      [
+        0.0,
+        0.0
+      ]
+    ],
+    "P": [
+      [
+        1,
+        2
+      ],
+      [
+        0.3,
+        0.15
+      ],
+      [
+        0.0,
+        1.0471975511965976
+      ]
+    ],
+    "N": [
+      [
+        1,
+        2
+      ],
+      [
+        0.3,
+        -0.15
+      ],
+      [
+        0.0,
+        1.0471975511965976
+      ]
+    ]
+  },
+  "versions": {
+    "python": "3.10.12",
+    "numpy": "2.2.6",
+    "scipy": "1.15.3",
+    "sympy": "1.13.1"
+  },
+  "records": [
+    {
+      "epsilon": "S",
+      "te": 1.0,
+      "to": 4.8053743318312385,
+      "flight": 3.8053743318312385,
+      "R": 2.147518231787402,
+      "implicit_R": 2.147518231787401,
+      "arrival_clock": 2.336002024510129,
+      "source_sky": [
+        0.15599308278501678,
+        0.9060273254767194,
+        0.39342171217756866
+      ],
+      "arrival_sky": [
+        0.27030476625535027,
+        0.8809968218677119,
+        0.3883039185980895
+      ],
+      "source_screen": [
+        [
+          0.9877581475863547,
+          0.0
+        ],
+        [
+          -0.14308562873810274,
+          0.39829761276980385
+        ],
+        [
+          -0.06213167248187457,
+          -0.9172562410045927
+        ]
+      ],
+      "arrival_screen": [
+        [
+          0.9627748092568897,
+          -1.3877787807814457e-17
+        ],
+        [
+          -0.2473451088634766,
+          0.4033174890583176
+        ],
+        [
+          -0.10901863960660335,
+          -0.9150601089653586
+        ]
+      ],
+      "screen_map": [
+        [
+          4.104303283876763,
+          -0.4329545240181235
+        ],
+        [
+          1.033967132439976,
+          3.6179405608889397
+        ]
+      ],
+      "widths": [
+        4.316745133473897,
+        3.543592591090332
+      ],
+      "area": 15.296786072603343,
+      "endpoint_condition": 27.625156796323306,
+      "state": [
+        1.6999999999999993,
+        1.2000000000000002,
+        0.6999999999999998,
+        0.06977528307151093,
+        0.9060273254767194,
+        0.39342171217756866,
+        0.7416899160173008,
+        0.0,
+        0.0,
+        9.387906552438796,
+        -1.3194371129359181,
+        0.24683364581257417,
+        0.11236535120120167,
+        1.0,
+        0.0,
+        -0.3567012176027762,
+        0.32122196957770105,
+        -0.6336805578820146,
+        -0.09293561907230063,
+        0.0,
+        1.0,
+        -0.8435294156225772,
+        -0.5057468303652821,
+        1.4155523102012582,
+        -0.03071154845598596,
+        0.0,
+        0.0,
+        0.9595423068929917,
+        -0.09686446157772549,
+        0.11508175283910572,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "initial": [
+        0.7,
+        0.0,
+        0.0,
+        0.11699481208876258,
+        0.9060273254767194,
+        0.39342171217756866,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "frozen": false,
+      "source_clock": 0.0,
+      "endpoint_residual": 6.661338147750939e-16,
+      "root_nfev": 7,
+      "tight_comparison": {
+        "to": 4.805374331831297,
+        "R": 2.1475182317874157,
+        "arrival_clock": 2.336002024510162,
+        "source_sky": [
+          0.15599308278501767,
+          0.9060273254767209,
+          0.3934217121775648
+        ],
+        "arrival_sky": [
+          0.2703047662553456,
+          0.8809968218677151,
+          0.3883039185980851
+        ],
+        "widths": [
+          4.316745133473983,
+          3.543592591090409
+        ],
+        "area": 15.296786072603982
+      }
+    }
+  ],
+  "events": [],
+  "reverse": [],
+  "axial": [],
+  "finite_differences": [],
+  "frozen": [],
+  "exact": {
+    "mixed_time_identities": "EXACT_SYMPY",
+    "initial_constraints": "EXACT_SYMPY",
+    "reflection_force_coefficient": "189*sqrt(3)/2560",
+    "limits": "Symbolic reductions, not independent original tensor construction or theorem counts."
+  },
+  "geometry": [
+    {
+      "profile": "S",
+      "t": 1.2,
+      "xi": 0.2,
+      "lambda": -1.1148955358039383,
+      "mixed_lambda": 0.0,
+      "Ricci_tt_txi_xixi": [
+        -8.888845215437868e-11,
+        -1.8209804324154089e-13,
+        8.93757845510379e-11
+      ],
+      "integrated_lambda": 0.03583275400318532
+    },
+    {
+      "profile": "S",
+      "t": 2.3,
+      "xi": 0.7,
+      "lambda": -1.0400237596738895,
+      "mixed_lambda": 0.0,
+      "Ricci_tt_txi_xixi": [
+        -3.5655312036197984e-11,
+        1.152524256586851e-13,
+        3.5249712870832894e-11
+      ],
+      "integrated_lambda": 0.11070453013323404
+    },
+    {
+      "profile": "S",
+      "t": 5.0,
+      "xi": 2.1,
+      "lambda": -0.7853593206611211,
+      "mixed_lambda": 0.0,
+      "Ricci_tt_txi_xixi": [
+        2.6451267218230434e-10,
+        -1.7125852534607792e-13,
+        -2.6476243419892853e-10
+      ],
+      "integrated_lambda": 0.3653689691460023
+    },
+    {
+      "profile": "M",
+      "t": 1.2,
+      "xi": 0.2,
+      "lambda": -1.072440329855532,
+      "mixed_lambda": 0.034253447505752634,
+      "Ricci_tt_txi_xixi": [
+        6.815870090548515e-11,
+        9.443834603217738e-15,
+        -6.7831670835794e-11
+      ],
+      "integrated_lambda": 0.07828795995159157
+    },
+    {
+      "profile": "M",
+      "t": 2.3,
+      "xi": 0.7,
+      "lambda": -0.9288222732780271,
+      "mixed_lambda": 0.0779425746655966,
+      "Ricci_tt_txi_xixi": [
+        4.61323340639197e-11,
+        1.2099262564069235e-14,
+        -4.639030826147916e-11
+      ],
+      "integrated_lambda": 0.22190601652909664
+    },
+    {
+      "profile": "M",
+      "t": 5.0,
+      "xi": 2.1,
+      "lambda": -0.6922957001692837,
+      "mixed_lambda": 5.407193519982439e-05,
+      "Ricci_tt_txi_xixi": [
+        8.939353077219714e-11,
+        -2.275057312678408e-14,
+        -8.951023689612869e-11
+      ],
+      "integrated_lambda": 0.45843258963783984
+    },
+    {
+      "profile": "P",
+      "t": 1.2,
+      "xi": 0.2,
+      "lambda": -1.1061402040049235,
+      "mixed_lambda": 0.008031699269833851,
+      "Ricci_tt_txi_xixi": [
+        3.080069532757079e-11,
+        2.5267114789340184e-13,
+        -3.0150465457623454e-11
+      ],
+      "integrated_lambda": 0.04458808580220006
+    },
+    {
+      "profile": "P",
+      "t": 2.3,
+      "xi": 0.7,
+      "lambda": -1.0000121889294802,
+      "mixed_lambda": 0.006829610962706068,
+      "Ricci_tt_txi_xixi": [
+        -7.340392182975108e-12,
+        1.9529516892546894e-14,
+        6.935507723682122e-12
+      ],
+      "integrated_lambda": 0.15071610087764353
+    },
+    {
+      "profile": "P",
+      "t": 5.0,
+      "xi": 2.1,
+      "lambda": -0.6958926054403693,
+      "mixed_lambda": -0.009011364143378041,
+      "Ricci_tt_txi_xixi": [
+        2.7759106471791917e-10,
+        1.4902337176769809e-13,
+        -2.7782116537866663e-10
+      ],
+      "integrated_lambda": 0.45483568436675403
+    },
+    {
+      "profile": "N",
+      "t": 1.2,
+      "xi": 0.2,
+      "lambda": -1.1222036025445914,
+      "mixed_lambda": -0.008031699269833851,
+      "Ricci_tt_txi_xixi": [
+        -8.939726736656439e-11,
+        -1.50563589373931e-13,
+        8.98712770869281e-11
+      ],
+      "integrated_lambda": 0.028524687262532353
+    },
+    {
+      "profile": "N",
+      "t": 2.3,
+      "xi": 0.7,
+      "lambda": -1.0136714108548925,
+      "mixed_lambda": -0.006829610962706068,
+      "Ricci_tt_txi_xixi": [
+        -3.436945172907713e-11,
+        -1.2406246277692212e-13,
+        3.377258889214474e-11
+      ],
+      "integrated_lambda": 0.13705687895223134
+    },
+    {
+      "profile": "N",
+      "t": 5.0,
+      "xi": 2.1,
+      "lambda": -0.6778698771536134,
+      "mixed_lambda": 0.009011364143378041,
+      "Ricci_tt_txi_xixi": [
+        2.2569645111158998e-10,
+        -7.248531202347364e-14,
+        -2.2613047545583242e-10
+      ],
+      "integrated_lambda": 0.47285841265351003
+    }
+  ],
+  "status": "FAIL",
+  "failure": "AssertionError(('actual_source_frequency', 0.36175163915643715, 2e-12))",
+  "traceback": "Traceback (most recent call last):\n  File \"/home/udt-admin/udt_mass_codex/udt_broader_evolving_signal_geometry_2026-09-13/check_broader.py\", line 130, in main\n    row=css.boundary(s,name);tight=css.boundary(s,name,tight=True)\n  File \"/home/udt-admin/udt_mass_codex/udt_conditional_signal_sequence_2026-09-12/step_03/check_evolving.py\", line 88, in boundary\n    row=readout(te,te+opt.x[2],eps,state,ini,se,frozen)\n  File \"/home/udt-admin/udt_mass_codex/udt_broader_evolving_signal_geometry_2026-09-13/check_broader.py\", line 53, in readout\n    row=ORIGINAL_READOUT(te,to,name,state,ini,se,frozen=frozen,implicit=False)\n  File \"/home/udt-admin/udt_mass_codex/udt_conditional_signal_sequence_2026-09-12/step_03/check_evolving.py\", line 45, in readout\n    guard('actual_source_frequency',abs(np.linalg.norm(ini[3:6]/le)-1),2e-12)\n  File \"/home/udt-admin/udt_mass_codex/udt_conditional_signal_sequence_2026-09-12/step_03/check_evolving.py\", line 22, in guard\n    if not np.isfinite(value) or value>tol:raise AssertionError((name,value,tol))\nAssertionError: ('actual_source_frequency', 0.36175163915643715, 2e-12)\n",
+  "checks": [
+    {
+      "name": "initial_P",
+      "error": 0.0,
+      "tolerance": 2e-12
+    },
+    {
+      "name": "initial_lambda",
+      "error": 0.0,
+      "tolerance": 2e-12
+    },
+    {
+      "name": "initial_Pt",
+      "error": 1.1102230246251565e-16,
+      "tolerance": 2e-12
+    },
+    {
+      "name": "initial_lengths",
+      "error": 0.0,
+      "tolerance": 2e-12
+    },
+    {
+      "name": "initial_P",
+      "error": 0.0,
+      "tolerance": 2e-12
+    },
+    {
+      "name": "initial_lambda",
+      "error": 0.0,
+      "tolerance": 2e-12
+    },
+    {
+      "name": "initial_Pt",
+      "error": 1.6653345369377348e-16,
+      "tolerance": 2e-12
+    },
+    {
+      "name": "initial_lengths",
+      "error": 0.0,
+      "tolerance": 2e-12
+    },
+    {
+      "name": "initial_P",
+      "error": 0.0,
+      "tolerance": 2e-12
+    },
+    {
+      "name": "initial_lambda",
+      "error": 0.0,
+      "tolerance": 2e-12
+    },
+    {
+      "name": "initial_Pt",
+      "error": 6.505213034913027e-19,
+      "tolerance": 2e-12
+    },
+    {
+      "name": "initial_lengths",
+      "error": 0.0,
+      "tolerance": 2e-12
+    },
+    {
+      "name": "lambda_time_constraint",
+      "error": 6.093884581624191e-13,
+      "tolerance": 2e-07
+    },
+    {
+      "name": "lambda_space_constraint",
+      "error": 6.835298340316268e-13,
+      "tolerance": 2e-07
+    },
+    {
+      "name": "actual_A_spatial_derivative",
+      "error": 6.136277904505099e-13,
+      "tolerance": 2e-07
+    },
+    {
+      "name": "actual_A_spatial_hessian",
+      "error": 7.472702659821849e-11,
+      "tolerance": 2e-07
+    },
+    {
+      "name": "original_Ricci_reduction_with_actual_metric_derivatives",
+      "error": 8.93757845510379e-11,
+      "tolerance": 2e-07
+    },
+    {
+      "name": "independent_constraint_integral",
+      "error": 1.3397710927928218e-17,
+      "tolerance": 2e-07
+    },
+    {
+      "name": "single_mode_source_correspondence",
+      "error": 0.0,
+      "tolerance": 2e-12
+    },
+    {
+      "name": "single_mode_source_correspondence",
+      "error": 0.0,
+      "tolerance": 2e-12
+    },
+    {
+      "name": "single_mode_source_correspondence",
+      "error": 0.0,
+      "tolerance": 2e-12
+    },
+    {
+      "name": "single_mode_source_correspondence",
+      "error": 6.732778040654456e-18,
+      "tolerance": 2e-12
+    },
+    {
+      "name": "lambda_time_constraint",
+      "error": 6.693673036609101e-13,
+      "tolerance": 2e-07
+    },
+    {
+      "name": "lambda_space_constraint",
+      "error": 3.082632351709354e-13,
+      "tolerance": 2e-07
+    },
+    {
+      "name": "actual_A_spatial_derivative",
+      "error": 2.220265809599021e-13,
+      "tolerance": 2e-07
+    },
+    {
+      "name": "actual_A_spatial_hessian",
+      "error": 3.665044320904585e-11,
+      "tolerance": 2e-07
+    },
+    {
+      "name": "original_Ricci_reduction_with_actual_metric_derivatives",
+      "error": 3.5655312036197984e-11,
+      "tolerance": 2e-07
+    },
+    {
+      "name": "independent_constraint_integral",
+      "error": 6.24729054006368e-17,
+      "tolerance": 2e-07
+    },
+    {
+      "name": "single_mode_source_correspondence",
+      "error": 0.0,
+      "tolerance": 2e-12
+    },
+    {
+      "name": "single_mode_source_correspondence",
+      "error": 4.5339580594332504e-17,
+      "tolerance": 2e-12
+    },
+    {
+      "name": "single_mode_source_correspondence",
+      "error": 1.0094284825529999e-17,
+      "tolerance": 2e-12
+    },
+    {
+      "name": "single_mode_source_correspondence",
+      "error": 2.013045358007183e-17,
+      "tolerance": 2e-12
+    },
+    {
+      "name": "lambda_time_constraint",
+      "error": 2.4814379495575614e-12,
+      "tolerance": 2e-07
+    },
+    {
+      "name": "lambda_space_constraint",
+      "error": 6.455955664729766e-13,
+      "tolerance": 2e-07
+    },
+    {
+      "name": "actual_A_spatial_derivative",
+      "error": 1.228848362977613e-13,
+      "tolerance": 2e-07
+    },
+    {
+      "name": "actual_A_spatial_hessian",
+      "error": 2.8670574074703723e-11,
+      "tolerance": 2e-07
+    },
+    {
+      "name": "original_Ricci_reduction_with_actual_metric_derivatives",
+      "error": 2.6476243419892853e-10,
+      "tolerance": 2e-07
+    },
+    {
+      "name": "independent_constraint_integral",
+      "error": 1.2196956094434694e-16,
+      "tolerance": 2e-07
+    },
+    {
+      "name": "single_mode_source_correspondence",
+      "error": 7.164920569193175e-17,
+      "tolerance": 2e-12
+    },
+    {
+      "name": "single_mode_source_correspondence",
+      "error": 1.3087325240908124e-17,
+      "tolerance": 2e-12
+    },
+    {
+      "name": "single_mode_source_correspondence",
+      "error": 2.1671174905242994e-19,
+      "tolerance": 2e-12
+    },
+    {
+      "name": "single_mode_source_correspondence",
+      "error": 1.083738926219831e-19,
+      "tolerance": 2e-12
+    },
+    {
+      "name": "initial_P",
+      "error": 8.326672684688674e-18,
+      "tolerance": 2e-12
+    },
+    {
+      "name": "initial_lambda",
+      "error": 0.0,
+      "tolerance": 2e-12
+    },
+    {
+      "name": "initial_Pt",
+      "error": 1.1102230246251565e-16,
+      "tolerance": 2e-12
+    },
+    {
+      "name": "initial_lengths",
+      "error": 0.0,
+      "tolerance": 2e-12
+    },
+    {
+      "name": "initial_P",
+      "error": 4.1431112531719645e-18,
+      "tolerance": 2e-12
+    },
+    {
+      "name": "initial_lambda",
+      "error": 0.0,
+      "tolerance": 2e-12
+    },
+    {
+      "name": "initial_Pt",
+      "error": 2.220446049250313e-16,
+      "tolerance": 2e-12
+    },
+    {
+      "name": "initial_lengths",
+      "error": 0.0,
+      "tolerance": 2e-12
+    },
+    {
+      "name": "initial_P",
+      "error": 8.326378407347362e-18,
+      "tolerance": 2e-12
+    },
+    {
+      "name": "initial_lambda",
+      "error": 0.0,
+      "tolerance": 2e-12
+    },
+    {
+      "name": "initial_Pt",
+      "error": 8.326672684688674e-17,
+      "tolerance": 2e-12
+    },
+    {
+      "name": "initial_lengths",
+      "error": 0.0,
+      "tolerance": 2e-12
+    },
+    {
+      "name": "lambda_time_constraint",
+      "error": 2.397428867790903e-13,
+      "tolerance": 2e-07
+    },
+    {
+      "name": "lambda_space_constraint",
+      "error": 4.925992878641682e-13,
+      "tolerance": 2e-07
+    },
+    {
+      "name": "actual_A_spatial_derivative",
+      "error": 1.8583154844222452e-13,
+      "tolerance": 2e-07
+    },
+    {
+      "name": "actual_A_spatial_hessian",
+      "error": 3.4527552557978567e-10,
+      "tolerance": 2e-07
+    },
+    {
+      "name": "original_Ricci_reduction_with_actual_metric_derivatives",
+      "error": 6.815870090548515e-11,
+      "tolerance": 2e-07
+    },
+    {
+      "name": "independent_constraint_integral",
+      "error": 2.5740411324703066e-17,
+      "tolerance": 2e-07
+    },
+    {
+      "name": "lambda_time_constraint",
+      "error": 6.382928460251658e-13,
+      "tolerance": 2e-07
+    },
+    {
+      "name": "lambda_space_constraint",
+      "error": 1.818100235229745e-14,
+      "tolerance": 2e-07
+    },
+    {
+      "name": "actual_A_spatial_derivative",
+      "error": 2.1296095921252662e-13,
+      "tolerance": 2e-07
+    },
+    {
+      "name": "actual_A_spatial_hessian",
+      "error": 2.421203382162702e-11,
+      "tolerance": 2e-07
+    },
+    {
+      "name": "original_Ricci_reduction_with_actual_metric_derivatives",
+      "error": 4.639030826147916e-11,
+      "tolerance": 2e-07
+    },
+    {
+      "name": "independent_constraint_integral",
+      "error": 1.3628990400327396e-16,
+      "tolerance": 2e-07
+    },
+    {
+      "name": "lambda_time_constraint",
+      "error": 1.8948335549545364e-12,
+      "tolerance": 2e-07
+    },
+    {
+      "name": "lambda_space_constraint",
+      "error": 2.673669716230736e-13,
+      "tolerance": 2e-07
+    },
+    {
+      "name": "actual_A_spatial_derivative",
+      "error": 9.247703394292496e-14,
+      "tolerance": 2e-07
+    },
+    {
+      "name": "actual_A_spatial_hessian",
+      "error": 2.3382287786998042e-11,
+      "tolerance": 2e-07
+    },
+    {
+      "name": "original_Ricci_reduction_with_actual_metric_derivatives",
+      "error": 8.951023689612869e-11,
+      "tolerance": 2e-07
+    },
+    {
+      "name": "independent_constraint_integral",
+      "error": 7.612439769333794e-17,
+      "tolerance": 2e-07
+    },
+    {
+      "name": "initial_P",
+      "error": 4.163336342344338e-18,
+      "tolerance": 2e-12
+    },
+    {
+      "name": "initial_lambda",
+      "error": 0.0,
+      "tolerance": 2e-12
+    },
+    {
+      "name": "initial_Pt",
+      "error": 2.220446049250313e-16,
+      "tolerance": 2e-12
+    },
+    {
+      "name": "initial_lengths",
+      "error": 0.0,
+      "tolerance": 2e-12
+    },
+    {
+      "name": "initial_P",
+      "error": 4.183528733863141e-18,
+      "tolerance": 2e-12
+    },
+    {
+      "name": "initial_lambda",
+      "error": 0.0,
+      "tolerance": 2e-12
+    },
+    {
+      "name": "initial_Pt",
+      "error": 1.1102230246251565e-16,
+      "tolerance": 2e-12
+    },
+    {
+      "name": "initial_lengths",
+      "error": 0.0,
+      "tolerance": 2e-12
+    },
+    {
+      "name": "initial_P",
+      "error": 4.102563617490343e-18,
+      "tolerance": 2e-12
+    },
+    {
+      "name": "initial_lambda",
+      "error": 0.0,
+      "tolerance": 2e-12
+    },
+    {
+      "name": "initial_Pt",
+      "error": 4.163336342344337e-17,
+      "tolerance": 2e-12
+    },
+    {
+      "name": "initial_lengths",
+      "error": 0.0,
+      "tolerance": 2e-12
+    },
+    {
+      "name": "lambda_time_constraint",
+      "error": 2.9781636749570966e-13,
+      "tolerance": 2e-07
+    },
+    {
+      "name": "lambda_space_constraint",
+      "error": 1.310690691931671e-12,
+      "tolerance": 2e-07
+    },
+    {
+      "name": "actual_A_spatial_derivative",
+      "error": 1.730132780469474e-13,
+      "tolerance": 2e-07
+    },
+    {
+      "name": "actual_A_spatial_hessian",
+      "error": 8.070679764390623e-11,
+      "tolerance": 2e-07
+    },
+    {
+      "name": "original_Ricci_reduction_with_actual_metric_derivatives",
+      "error": 3.080069532757079e-11,
+      "tolerance": 2e-07
+    },
+    {
+      "name": "independent_constraint_integral",
+      "error": 1.9928124774403626e-17,
+      "tolerance": 2e-07
+    },
+    {
+      "name": "lambda_time_constraint",
+      "error": 4.1583340506661715e-14,
+      "tolerance": 2e-07
+    },
+    {
+      "name": "lambda_space_constraint",
+      "error": 6.669153407128223e-13,
+      "tolerance": 2e-07
+    },
+    {
+      "name": "actual_A_spatial_derivative",
+      "error": 2.4980211391784135e-13,
+      "tolerance": 2e-07
+    },
+    {
+      "name": "actual_A_spatial_hessian",
+      "error": 1.3903019991487976e-11,
+      "tolerance": 2e-07
+    },
+    {
+      "name": "original_Ricci_reduction_with_actual_metric_derivatives",
+      "error": 7.340392182975108e-12,
+      "tolerance": 2e-07
+    },
+    {
+      "name": "independent_constraint_integral",
+      "error": 9.648105416952076e-17,
+      "tolerance": 2e-07
+    },
+    {
+      "name": "lambda_time_constraint",
+      "error": 2.160148261517538e-12,
+      "tolerance": 2e-07
+    },
+    {
+      "name": "lambda_space_constraint",
+      "error": 2.0211844367580304e-13,
+      "tolerance": 2e-07
+    },
+    {
+      "name": "actual_A_spatial_derivative",
+      "error": 1.6540002645241505e-13,
+      "tolerance": 2e-07
+    },
+    {
+      "name": "actual_A_spatial_hessian",
+      "error": 2.916527407921889e-11,
+      "tolerance": 2e-07
+    },
+    {
+      "name": "original_Ricci_reduction_with_actual_metric_derivatives",
+      "error": 2.7782116537866663e-10,
+      "tolerance": 2e-07
+    },
+    {
+      "name": "independent_constraint_integral",
+      "error": 1.526252121191821e-16,
+      "tolerance": 2e-07
+    },
+    {
+      "name": "initial_P",
+      "error": 4.163336342344338e-18,
+      "tolerance": 2e-12
+    },
+    {
+      "name": "initial_lambda",
+      "error": 0.0,
+      "tolerance": 2e-12
+    },
+    {
+      "name": "initial_Pt",
+      "error": 1.1102230246251565e-16,
+      "tolerance": 2e-12
+    },
+    {
+      "name": "initial_lengths",
+      "error": 0.0,
+      "tolerance": 2e-12
+    },
+    {
+      "name": "initial_P",
+      "error": 4.183528733863141e-18,
+      "tolerance": 2e-12
+    },
+    {
+      "name": "initial_lambda",
+      "error": 0.0,
+      "tolerance": 2e-12
+    },
+    {
+      "name": "initial_Pt",
+      "error": 2.220446049250313e-16,
+      "tolerance": 2e-12
+    },
+    {
+      "name": "initial_lengths",
+      "error": 0.0,
+      "tolerance": 2e-12
+    },
+    {
+      "name": "initial_P",
+      "error": 4.102563617490343e-18,
+      "tolerance": 2e-12
+    },
+    {
+      "name": "initial_lambda",
+      "error": 0.0,
+      "tolerance": 2e-12
+    },
+    {
+      "name": "initial_Pt",
+      "error": 5.551115123125783e-17,
+      "tolerance": 2e-12
+    },
+    {
+      "name": "initial_lengths",
+      "error": 0.0,
+      "tolerance": 2e-12
+    },
+    {
+      "name": "lambda_time_constraint",
+      "error": 5.974548099447711e-13,
+      "tolerance": 2e-07
+    },
+    {
+      "name": "lambda_space_constraint",
+      "error": 5.174018469146384e-13,
+      "tolerance": 2e-07
+    },
+    {
+      "name": "actual_A_spatial_derivative",
+      "error": 3.2249811398550507e-13,
+      "tolerance": 2e-07
+    },
+    {
+      "name": "actual_A_spatial_hessian",
+      "error": 8.730828038517315e-11,
+      "tolerance": 2e-07
+    },
+    {
+      "name": "original_Ricci_reduction_with_actual_metric_derivatives",
+      "error": 8.98712770869281e-11,
+      "tolerance": 2e-07
+    },
+    {
+      "name": "independent_constraint_integral",
+      "error": 1.3830229530872637e-16,
+      "tolerance": 2e-07
+    },
+    {
+      "name": "lambda_time_constraint",
+      "error": 9.820618105840728e-14,
+      "tolerance": 2e-07
+    },
+    {
+      "name": "lambda_space_constraint",
+      "error": 1.3254834355175897e-12,
+      "tolerance": 2e-07
+    },
+    {
+      "name": "actual_A_spatial_derivative",
+      "error": 3.17488317996485e-13,
+      "tolerance": 2e-07
+    },
+    {
+      "name": "actual_A_spatial_hessian",
+      "error": 4.434187402294156e-11,
+      "tolerance": 2e-07
+    },
+    {
+      "name": "original_Ricci_reduction_with_actual_metric_derivatives",
+      "error": 3.436945172907713e-11,
+      "tolerance": 2e-07
+    },
+    {
+      "name": "independent_constraint_integral",
+      "error": 2.4410015127127995e-16,
+      "tolerance": 2e-07
+    },
+    {
+      "name": "lambda_time_constraint",
+      "error": 2.7186813141703566e-12,
+      "tolerance": 2e-07
+    },
+    {
+      "name": "lambda_space_constraint",
+      "error": 5.221131353844626e-13,
+      "tolerance": 2e-07
+    },
+    {
+      "name": "actual_A_spatial_derivative",
+      "error": 1.6697381850322746e-14,
+      "tolerance": 2e-07
+    },
+    {
+      "name": "actual_A_spatial_hessian",
+      "error": 3.3580680586406095e-11,
+      "tolerance": 2e-07
+    },
+    {
+      "name": "original_Ricci_reduction_with_actual_metric_derivatives",
+      "error": 2.2613047545583242e-10,
+      "tolerance": 2e-07
+    },
+    {
+      "name": "independent_constraint_integral",
+      "error": 1.507576037298755e-16,
+      "tolerance": 2e-07
+    },
+    {
+      "name": "broken_reflection_initial_force",
+      "error": 9.006804042951628e-15,
+      "tolerance": 2e-07
+    },
+    {
+      "name": "original_endpoint",
+      "error": 6.661338147750939e-16,
+      "tolerance": 2e-08
+    },
+    {
+      "name": "actual_source_frequency",
+      "error": 0.0,
+      "tolerance": 2e-12
+    },
+    {
+      "name": "endpoint_condition",
+      "error": 27.625156796323306,
+      "tolerance": 100000000.0
+    },
+    {
+      "name": "positive_beam_width",
+      "error": 2.8219948379909803e-09,
+      "tolerance": 1.0
+    },
+    {
+      "name": "symplectic",
+      "error": 3.5952644021567353e-17,
+      "tolerance": 2e-07
+    },
+    {
+      "name": "screen_orthogonality",
+      "error": 4.0464197841449045e-16,
+      "tolerance": 2e-07
+    },
+    {
+      "name": "endpoint_beam_rank_identity",
+      "error": 1.0615848481568871e-16,
+      "tolerance": 2e-07
+    },
+    {
+      "name": "general_profile_initial_time_clock",
+      "error": 2.821837251744049e-16,
+      "tolerance": 2e-07
+    },
+    {
+      "name": "original_endpoint",
+      "error": 6.661338147750939e-16,
+      "tolerance": 2e-08
+    },
+    {
+      "name": "actual_source_frequency",
+      "error": 1.1102230246251565e-16,
+      "tolerance": 2e-12
+    },
+    {
+      "name": "endpoint_condition",
+      "error": 27.625156796324305,
+      "tolerance": 100000000.0
+    },
+    {
+      "name": "positive_beam_width",
+      "error": 2.821994837990919e-09,
+      "tolerance": 1.0
+    },
+    {
+      "name": "symplectic",
+      "error": 1.324812927482432e-17,
+      "tolerance": 2e-07
+    },
+    {
+      "name": "screen_orthogonality",
+      "error": 8.430041216968404e-17,
+      "tolerance": 2e-07
+    },
+    {
+      "name": "endpoint_beam_rank_identity",
+      "error": 4.246339392627452e-16,
+      "tolerance": 2e-07
+    },
+    {
+      "name": "general_profile_initial_time_clock",
+      "error": 0.0,
+      "tolerance": 2e-07
+    },
+    {
+      "name": "tight_to",
+      "error": 1.0097501444272369e-14,
+      "tolerance": 2e-07
+    },
+    {
+      "name": "tight_R",
+      "error": 4.373847740203257e-15,
+      "tolerance": 2e-07
+    },
+    {
+      "name": "tight_arrival_clock",
+      "error": 9.85089376069248e-15,
+      "tolerance": 2e-07
+    },
+    {
+      "name": "tight_source_sky",
+      "error": 2.7886608571037395e-15,
+      "tolerance": 2e-07
+    },
+    {
+      "name": "tight_arrival_sky",
+      "error": 3.670722827539446e-15,
+      "tolerance": 2e-07
+    },
+    {
+      "name": "tight_widths",
+      "error": 1.690896174421817e-14,
+      "tolerance": 2e-07
+    },
+    {
+      "name": "tight_area",
+      "error": 3.924015811062982e-14,
+      "tolerance": 2e-07
+    },
+    {
+      "name": "original_endpoint",
+      "error": 5.88418203051333e-13,
+      "tolerance": 2e-08
+    },
+    {
+      "name": "actual_source_frequency",
+      "error": 0.36175163915643715,
+      "tolerance": 2e-12
+    }
+  ],
+  "check_count": 158
+}

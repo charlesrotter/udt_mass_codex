@@ -1,0 +1,8 @@
+{
+  "utc": "2026-09-13T03:30:49.380184+00:00",
+  "script_sha256": "b65cfc2d81d2a18bdbb1045c87a9c35eb6ba4fef0839ff434633b553dabf7ba6",
+  "question": "Direct whole-candidate finite trajectory/screen adapter audit",
+  "resources": "CPU float64 one thread, one science subprocess,180s/2048MiB",
+  "tolerances": "Original null/endpoint/clock/tighter<=2e-8; finite-angle screen/area/refinement<=3e-7 at steps2e-4 and1e-4",
+  "scope": "All8 main rays and4 same-segment reverse rays; independent proper-clock quadrature with saved event nodes; no independent whole-event root solves, interval or generic proof"
+}

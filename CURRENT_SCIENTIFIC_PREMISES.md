@@ -2,7 +2,7 @@
 
 `LIVE.md` owns current status. The exact 406-row `CURRENT_SCIENTIFIC_PREMISES.tsv` owns grades;
 run `python3 verify_current_scientific_premises.py` before querying exact rows.
-Exact-scope banking through G415 is COMPLETE; all inherited limits remain.
+Exact-scope banking through G423 is COMPLETE; all inherited limits remain.
 G416--G423 conditional acceptance/current checks: `INDEX.md`.
 Original398 rows, evidence, canon and fixed manuscript remain unchanged.
 

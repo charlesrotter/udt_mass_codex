@@ -1,0 +1,15 @@
+{
+  "utc": "2026-09-13T03:36:29.003284+00:00",
+  "verdict": "VERIFIED-WITH-CAVEATS CONDITIONAL UNPROMOTED; initial calibration sentence refuted, C1 genuine scientific rank repair re-reviewed and accepted at corrected scope",
+  "files": {
+    "udt_broader_evolving_signal_geometry_2026-09-13/review/DIRECT_REVIEW.md": "d7fae599a0986c1eea28309449e6e8b91d5ee4e28dedaf14b59b2730b4797668",
+    "udt_broader_evolving_signal_geometry_2026-09-13/review/OBJECTION_D1.md": "bf8f12d610e11ed3f3e7e2d2557c389cd5d0d9840620428de819e981cbddc0b8",
+    "udt_broader_evolving_signal_geometry_2026-09-13/CALIBRATION_SCOPE_CLARIFICATION.md": "6bc3c086c612ae6131e12aaee5c14e9814cbbbecaf3d5b2d32b01d5aca5e30a9",
+    "udt_broader_evolving_signal_geometry_2026-09-13/CALIBRATION_CLARIFICATION_FREEZE.json": "cd1a758bfb4cf3e14ed88c1bcef42e4c6f1beb8b5f9eca94a5948074454bfc94",
+    "udt_broader_evolving_signal_geometry_2026-09-13/check_calibration_rank.py": "59635f47da598bc2f0129e6644f50bea104ddf24464892454dc46d86675e51fb",
+    "udt_broader_evolving_signal_geometry_2026-09-13/review/calibration_rank_replay.json": "f989c691efa3494ab43b869af1f3b8d6d24a96a6266d76001d9a24f85aa687db",
+    "udt_broader_evolving_signal_geometry_2026-09-13/review/calibration_rank_replay.stdout": "911c469b967ace4ec2d868e004b8506c96270087a2f8a57e72b4bacaf5644fe9",
+    "udt_broader_evolving_signal_geometry_2026-09-13/review/calibration_rank_replay.stderr": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "udt_broader_evolving_signal_geometry_2026-09-13/review/calibration_rank_replay.capture_provenance.json": "4e4bf3f8ad3d84df99900e0ff5bc294c78ba66404f22d470c9f422a443a1743e"
+  }
+}

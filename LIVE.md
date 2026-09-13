@@ -55,7 +55,7 @@ Metric/kernel and mathematics are unchanged; angular-sector cancellation owns lo
 - G381=NT1 and G382=NT2: neighboring tidal compatibility/obstruction and restricted real rank-one
   null-jet classification; actual smooth local Lambda=0 realizations, not general metric realization.
 
-Exact-scope banking through G415 is COMPLETE; all inherited limits remain.
+Exact-scope banking through G423 is COMPLETE; all inherited limits remain.
 The exact 406-row `CURRENT_SCIENTIFIC_PREMISES.tsv` owns grades; `INDEX.md` routes the acceptance record.
 Whole original reviews/limits control, including false passes/repairs, CF2 buffers LOST, not preserved
 or recovered, and NT1 lost buffers/unsnapshotted reviewer code. Original365 rows remain unchanged.
@@ -106,7 +106,7 @@ Protected—do not stage, modify, mine or cite without dispatch:
 
 ### Next gate
 
-G383--G412 exact-scope banking is COMPLETE; G413--G415 banked; G416--G423 conditional acceptance: INDEX; TI3 UNPROMOTED; OB2 eligibility unresolved.
+G383--G412 exact-scope banking is COMPLETE; G413--G423 banked; BE1/TI3 reviewed conditional UNPROMOTED; OB2 eligibility unresolved: INDEX.
 G312 membership unclosed; G352 physical-realization: physical identification remains OPEN.
 Charles authorized broader-geometry testing and one bounded follow-up; work order and return gates: roadmap.
 <!-- STARTUP_CURRENT_END -->

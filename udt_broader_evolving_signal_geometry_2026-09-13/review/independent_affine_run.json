@@ -1,0 +1,14 @@
+{
+  "command": [
+    "python3",
+    "udt_broader_evolving_signal_geometry_2026-09-13/review/independent_affine.py"
+  ],
+  "cwd": "/home/udt-admin/udt_mass_codex",
+  "started_utc": "2026-09-13T03:30:49.401195+00:00",
+  "duration_seconds": 2.555330766015686,
+  "returncode": 0,
+  "timeout": false,
+  "address_space_bytes": 2147483648,
+  "cpu_seconds": 180,
+  "maxrss_kib": 81524
+}

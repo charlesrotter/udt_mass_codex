@@ -1,0 +1,12 @@
+{
+  "status": "PASS",
+  "source_and_initial_freeze_correspondence": true,
+  "output_amendment_preserves_all_original_payload_values_exactly": true,
+  "main_records": 8,
+  "event_records": 4,
+  "guards": 1269,
+  "reverse_ratio_max_abs": 3.552713678800501e-15,
+  "independent_arithmetic": "Standard-library saved determinants, durations and Legendre-recursion Gauss weights; no new trajectory or source-theorem reproof.",
+  "original_endpoint_max_all_calls": 6.989964163039986e-13,
+  "actual_Ricci_fd_max": 2.7782116537866663e-10
+}

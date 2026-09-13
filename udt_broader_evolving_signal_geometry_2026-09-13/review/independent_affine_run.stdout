@@ -1,0 +1,549 @@
+{
+  "exposure": "Written after whole candidate/code/outcome exposure; no parent science imports. Same scipy Bessel/integrator library, different full-affine equations and finite-angle beam method.",
+  "input": "/home/udt-admin/udt_mass_codex/udt_broader_evolving_signal_geometry_2026-09-13/checks/broader_complete_capture.stdout",
+  "input_sha256": "561d7905d61bf75a2fb03b6b4e67a1259760cdac15ae792596cd5e414533730c",
+  "versions": {
+    "python": "3.10.12",
+    "numpy": "2.2.6",
+    "scipy": "1.15.3"
+  },
+  "records": [
+    {
+      "profile": "S",
+      "source_clock": 0.0,
+      "errors": {
+        "null": 1.1860540169447098e-13,
+        "endpoint": 1.4533828686002048e-13,
+        "covariant_spatial_momentum": 1.1908864795413352e-14,
+        "frequency_ratio": 7.477868717121731e-15,
+        "arrival_sky": 3.66635291941141e-14,
+        "tight": 2.22377671831892e-12,
+        "screen_map": 2.9361019720416428e-08,
+        "finite_angle_refinement": 8.809629258244363e-08,
+        "widths": 1.784169280644824e-08,
+        "area": 2.5127128954908646e-08,
+        "source_clock": 0.0,
+        "arrival_clock": 1.3312018595530508e-16
+      },
+      "independent_R": 2.1475182317874255,
+      "independent_screen_map": [
+        [
+          4.002103461872201,
+          -0.5888000265838165
+        ],
+        [
+          1.2694668643672586,
+          3.635419143516833
+        ]
+      ],
+      "central": {
+        "affine_end": 3.921712440009108,
+        "steps": 60,
+        "max_null": 1.1860540169447098e-13,
+        "endpoint": [
+          4.8053743318312385,
+          1.7000000000001836,
+          1.2000000000003197,
+          0.7000000000001692,
+          -0.2581356001897793,
+          0.06977528307149819,
+          0.9060273254767194,
+          0.39342171217756866
+        ]
+      }
+    },
+    {
+      "profile": "S",
+      "source_clock": 0.8,
+      "errors": {
+        "null": 6.8967862471777646e-15,
+        "endpoint": 1.488521240423358e-14,
+        "covariant_spatial_momentum": 1.4005888665161816e-16,
+        "frequency_ratio": 2.5017437194431576e-16,
+        "arrival_sky": 3.893550135052291e-16,
+        "tight": 4.657890235129721e-13,
+        "screen_map": 3.3092169712126526e-08,
+        "finite_angle_refinement": 9.928555573747931e-08,
+        "widths": 1.0970390658438666e-08,
+        "area": 1.395046571591087e-08,
+        "source_clock": 1.850371707708594e-16,
+        "arrival_clock": 0.0
+      },
+      "independent_R": 1.662678073689192,
+      "independent_screen_map": [
+        [
+          4.554545139774451,
+          -0.8006608818473273
+        ],
+        [
+          -0.09761388755342389,
+          3.759607887118497
+        ]
+      ],
+      "central": {
+        "affine_end": 4.1553312691144315,
+        "steps": 62,
+        "max_null": 6.8967862471777646e-15,
+        "endpoint": [
+          7.593864677049726,
+          1.7000000000000401,
+          1.2000000000000073,
+          0.6999999999999922,
+          -0.31763938656258245,
+          0.08993916441499389,
+          1.4085044975691088,
+          0.6720915863792515
+        ]
+      }
+    },
+    {
+      "profile": "M",
+      "source_clock": 0.0,
+      "errors": {
+        "null": 1.2628348859103276e-13,
+        "endpoint": 1.5603679964277198e-13,
+        "covariant_spatial_momentum": 2.038037458806904e-14,
+        "frequency_ratio": 1.681757629231217e-14,
+        "arrival_sky": 5.83116998664089e-14,
+        "tight": 2.2299334096372437e-12,
+        "screen_map": 2.448720084590272e-08,
+        "finite_angle_refinement": 7.344635233830712e-08,
+        "widths": 1.8922679039839712e-08,
+        "area": 2.774773521862678e-08,
+        "source_clock": 0.0,
+        "arrival_clock": 0.0
+      },
+      "independent_R": 2.14234435768941,
+      "independent_screen_map": [
+        [
+          4.016805804878316,
+          -0.9293135799245182
+        ],
+        [
+          1.2468467111102577,
+          3.597300239415784
+        ]
+      ],
+      "central": {
+        "affine_end": 3.961932375395639,
+        "steps": 60,
+        "max_null": 1.2628348859103276e-13,
+        "endpoint": [
+          4.729585245576682,
+          1.7000000000001414,
+          1.2000000000003432,
+          0.7000000000001843,
+          -0.2645360971197071,
+          0.07996893619798065,
+          0.909382988903969,
+          0.3793040803893568
+        ]
+      }
+    },
+    {
+      "profile": "M",
+      "source_clock": 0.8,
+      "errors": {
+        "null": 7.47911302695011e-15,
+        "endpoint": 7.367843708876038e-15,
+        "covariant_spatial_momentum": 1.1486436684463764e-16,
+        "frequency_ratio": 3.371654221182615e-16,
+        "arrival_sky": 3.989113180949903e-16,
+        "tight": 4.805247109307084e-13,
+        "screen_map": 1.3239369769616168e-08,
+        "finite_angle_refinement": 3.971558907942761e-08,
+        "widths": 1.2071126836885757e-08,
+        "area": 1.8873448675991204e-08,
+        "source_clock": 0.0,
+        "arrival_clock": 0.0
+      },
+      "independent_R": 1.6342512055954392,
+      "independent_screen_map": [
+        [
+          4.442104471967246,
+          -0.7732475752290506
+        ],
+        [
+          -0.023878054502257388,
+          3.6284851122988653
+        ]
+      ],
+      "central": {
+        "affine_end": 4.028614928109268,
+        "steps": 60,
+        "max_null": 7.47911302695011e-15,
+        "endpoint": [
+          7.35744794345697,
+          1.700000000000011,
+          1.2000000000000162,
+          0.7000000000000088,
+          -0.32989243094981663,
+          0.08737020628221913,
+          1.42460311146873,
+          0.6672382391391797
+        ]
+      }
+    },
+    {
+      "profile": "P",
+      "source_clock": 0.0,
+      "errors": {
+        "null": 1.0927725074440703e-13,
+        "endpoint": 1.3363048041851883e-13,
+        "covariant_spatial_momentum": 1.807022407329593e-14,
+        "frequency_ratio": 1.264592215886106e-14,
+        "arrival_sky": 5.4628076393342464e-14,
+        "tight": 2.1221408468832624e-12,
+        "screen_map": 4.6905402950478214e-08,
+        "finite_angle_refinement": 1.407254859945276e-07,
+        "widths": 2.121160203050011e-08,
+        "area": 2.5632833829457528e-08,
+        "source_clock": 0.0,
+        "arrival_clock": 0.0
+      },
+      "independent_R": 2.1605468058729387,
+      "independent_screen_map": [
+        [
+          4.035690471008869,
+          -0.8254179777661028
+        ],
+        [
+          1.484516621438324,
+          3.437599495763203
+        ]
+      ],
+      "central": {
+        "affine_end": 3.8992156607529416,
+        "steps": 59,
+        "max_null": 1.0927725074440703e-13,
+        "endpoint": [
+          4.7754586841078925,
+          1.7000000000001236,
+          1.200000000000294,
+          0.7000000000001605,
+          -0.2609068230551704,
+          0.07288484574836203,
+          0.9012873061130954,
+          0.4019574236778168
+        ]
+      }
+    },
+    {
+      "profile": "P",
+      "source_clock": 0.8,
+      "errors": {
+        "null": 5.793127697327085e-15,
+        "endpoint": 6.762267513625953e-15,
+        "covariant_spatial_momentum": 1.2710234959899789e-17,
+        "frequency_ratio": 1.6644771461252433e-16,
+        "arrival_sky": 1.985892825012952e-16,
+        "tight": 3.8867898798452613e-13,
+        "screen_map": 2.9843510610013966e-08,
+        "finite_angle_refinement": 8.952917126402399e-08,
+        "widths": 1.0257547492046948e-08,
+        "area": 1.3343109239215896e-08,
+        "source_clock": 6.784696261598178e-16,
+        "arrival_clock": 0.0
+      },
+      "independent_R": 1.668040296521123,
+      "independent_screen_map": [
+        [
+          4.494490100721568,
+          -0.8973346208866049
+        ],
+        [
+          -0.08716574716162029,
+          3.7736043772289882
+        ]
+      ],
+      "central": {
+        "affine_end": 4.136429626678234,
+        "steps": 61,
+        "max_null": 5.793127697327085e-15,
+        "endpoint": [
+          7.428678712658769,
+          1.7000000000000073,
+          1.2000000000000148,
+          0.700000000000008,
+          -0.3367565801134644,
+          0.09185926551304857,
+          1.398836436013141,
+          0.6648924292597802
+        ]
+      }
+    },
+    {
+      "profile": "N",
+      "source_clock": 0.0,
+      "errors": {
+        "null": 1.2349489200004109e-13,
+        "endpoint": 1.510912607148963e-13,
+        "covariant_spatial_momentum": 2.7345293638755707e-15,
+        "frequency_ratio": 7.12692026295505e-16,
+        "arrival_sky": 8.31345725676657e-15,
+        "tight": 2.2454765319819353e-12,
+        "screen_map": 1.6355377205662542e-08,
+        "finite_angle_refinement": 4.90651911196686e-08,
+        "widths": 1.265267602683033e-08,
+        "area": 2.47932499543366e-08,
+        "source_clock": 0.0,
+        "arrival_clock": 1.3238779457132053e-16
+      },
+      "independent_R": 2.115575827039836,
+      "independent_screen_map": [
+        [
+          3.9053200920297324,
+          -0.30935730645399334
+        ],
+        [
+          1.0224194632323225,
+          3.797114268791262
+        ]
+      ],
+      "central": {
+        "affine_end": 3.9121286365648995,
+        "steps": 60,
+        "max_null": 1.2349489200004109e-13,
+        "endpoint": [
+          4.735693282367057,
+          1.700000000000247,
+          1.2000000000003324,
+          0.7000000000001706,
+          -0.2703364878511791,
+          0.07082895730867886,
+          0.9095969616938998,
+          0.383058157895281
+        ]
+      }
+    },
+    {
+      "profile": "N",
+      "source_clock": 0.8,
+      "errors": {
+        "null": 7.832723094428168e-15,
+        "endpoint": 7.072531860575071e-15,
+        "covariant_spatial_momentum": 4.688303242821519e-16,
+        "frequency_ratio": 1.688837025519055e-16,
+        "arrival_sky": 1.464023685026131e-15,
+        "tight": 3.641531520769162e-13,
+        "screen_map": 3.056158559224143e-08,
+        "finite_angle_refinement": 9.168012582640856e-08,
+        "widths": 9.507103641847678e-09,
+        "area": 1.2458871575369948e-08,
+        "source_clock": 1.2335811384723962e-16,
+        "arrival_clock": 0.0
+      },
+      "independent_R": 1.6295563345644573,
+      "independent_screen_map": [
+        [
+          4.483206385421419,
+          -0.6322630837744567
+        ],
+        [
+          -0.06175822295306258,
+          3.70930566165031
+        ]
+      ],
+      "central": {
+        "affine_end": 4.111335155765601,
+        "steps": 61,
+        "max_null": 7.832723094428168e-15,
+        "endpoint": [
+          7.4540029069258065,
+          1.700000000000019,
+          1.2000000000000155,
+          0.7000000000000076,
+          -0.32932716069012946,
+          0.09523237362119359,
+          1.4141843833744987,
+          0.671156889182661
+        ]
+      }
+    }
+  ],
+  "reverse": [
+    {
+      "profile": "S",
+      "errors": {
+        "central_endpoint": 1.5498193006724392e-13,
+        "reverse_area": 7.826889499986718e-09,
+        "reciprocity": 7.251480970070812e-09,
+        "null": 2.510385559429153e-13
+      },
+      "independent_reverse_area": 4.935064200938462,
+      "independent_reverse_map": [
+        [
+          2.3231006566926737,
+          -0.32307488509813415
+        ],
+        [
+          0.42056488412323556,
+          2.0658554916671132
+        ]
+      ],
+      "central": {
+        "affine_end": 2.2270060574363373,
+        "steps": 36,
+        "max_null": 2.510385559429153e-13,
+        "endpoint": [
+          1.5609552454500217,
+          0.6999999999999597,
+          -1.5498193006724392e-13,
+          -6.121665674374555e-14,
+          1.2492490329376098,
+          -0.21409363021255595,
+          -2.179048702773733,
+          -0.9511467931209449
+        ]
+      }
+    },
+    {
+      "profile": "M",
+      "errors": {
+        "central_endpoint": 1.540642613484522e-13,
+        "reverse_area": 9.061046410654143e-09,
+        "reciprocity": 8.147837198486467e-09,
+        "null": 2.388631089973968e-13
+      },
+      "independent_reverse_area": 5.195543477325283,
+      "independent_reverse_map": [
+        [
+          2.345050873437118,
+          -0.32337990422162555
+        ],
+        [
+          0.5584303757971181,
+          2.138528580633814
+        ]
+      ],
+      "central": {
+        "affine_end": 2.2841561868951783,
+        "steps": 36,
+        "max_null": 2.388631089973968e-13,
+        "endpoint": [
+          1.5574292513660122,
+          0.6999999999999245,
+          -1.540642613484522e-13,
+          -7.465209006518592e-14,
+          1.2090783783826033,
+          -0.22215085681976593,
+          -2.1191709435228496,
+          -0.8904291400580145
+        ]
+      }
+    },
+    {
+      "profile": "P",
+      "errors": {
+        "central_endpoint": 1.217220768623406e-13,
+        "reverse_area": 8.939579915127227e-09,
+        "reciprocity": 8.151122773011772e-09,
+        "null": 2.3788024291280465e-13
+      },
+      "independent_reverse_area": 5.171324780351116,
+      "independent_reverse_map": [
+        [
+          2.32065961529596,
+          -0.3674475982491239
+        ],
+        [
+          0.5868137397762463,
+          2.1354710739940788
+        ]
+      ],
+      "central": {
+        "affine_end": 2.2784536693845765,
+        "steps": 36,
+        "max_null": 2.3788024291280465e-13,
+        "endpoint": [
+          1.5630465637575173,
+          0.6999999999998997,
+          -1.217220768623406e-13,
+          -8.441858323493534e-14,
+          1.2209336012866288,
+          -0.20764869528390897,
+          -2.1103126167509845,
+          -0.9310806191409118
+        ]
+      }
+    },
+    {
+      "profile": "N",
+      "errors": {
+        "central_endpoint": 9.03825625453436e-14,
+        "reverse_area": 7.0394192579814135e-09,
+        "reciprocity": 6.603867944593186e-09,
+        "null": 2.7987188115007833e-13
+      },
+      "independent_reverse_area": 4.666078148452019,
+      "independent_reverse_map": [
+        [
+          2.30350145226052,
+          -0.29282824986534606
+        ],
+        [
+          0.22459352137287633,
+          1.9970948210789414
+        ]
+      ],
+      "central": {
+        "affine_end": 2.1753616965890914,
+        "steps": 35,
+        "max_null": 2.7987188115007833e-13,
+        "endpoint": [
+          1.557774378531517,
+          0.7000000000000813,
+          -9.03825625453436e-14,
+          -4.519301599614778e-14,
+          1.2693320789740938,
+          -0.23458371042225734,
+          -2.2206103572296216,
+          -0.952554634046968
+        ]
+      }
+    }
+  ],
+  "events": [
+    {
+      "profile": "S",
+      "independent_endpoint_duration": 1.4854047765035459,
+      "saved_nodes_reintegrated": [
+        1.485404776508402,
+        1.4854047765035532
+      ],
+      "error": 2.9482006439346516e-15,
+      "scope": "Independent metric proper-clock integral and saved node values; node boundary solves NOT independently replayed."
+    },
+    {
+      "profile": "M",
+      "independent_endpoint_duration": 1.439745461210415,
+      "saved_nodes_reintegrated": [
+        1.4397454611435974,
+        1.4397454612103584
+      ],
+      "error": 2.3207902281655688e-14,
+      "scope": "Independent metric proper-clock integral and saved node values; node boundary solves NOT independently replayed."
+    },
+    {
+      "profile": "P",
+      "independent_endpoint_duration": 1.4742064754342081,
+      "saved_nodes_reintegrated": [
+        1.4742064744538417,
+        1.474206475434178
+      ],
+      "error": 1.2205152063756139e-14,
+      "scope": "Independent metric proper-clock integral and saved node values; node boundary solves NOT independently replayed."
+    },
+    {
+      "profile": "N",
+      "independent_endpoint_duration": 1.4799262298364142,
+      "saved_nodes_reintegrated": [
+        1.4799262297185483,
+        1.4799262298363525
+      ],
+      "error": 2.4891224354376093e-14,
+      "scope": "Independent metric proper-clock integral and saved node values; node boundary solves NOT independently replayed."
+    }
+  ],
+  "status": "PASS"
+}

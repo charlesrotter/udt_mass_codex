@@ -1,0 +1,11 @@
+{
+  "status": "PASS",
+  "all_node_rank": 0,
+  "all_node_amplitude_dimension": 2,
+  "nonzero_target_at_all_nodes": "INCOMPATIBLE",
+  "registered_rank": 1,
+  "registered_compatible_level_dimension": 1,
+  "initial_unqualified_claim": "REFUTED_BY_EXACT_KNOWN_PHASE_COUNTEREXAMPLE",
+  "corrected_claim": "rank one when at least one coefficient is nonzero; affine fibre dimension m-rank for compatible target",
+  "sympy": "1.13.1"
+}

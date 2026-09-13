@@ -1,0 +1,10 @@
+{
+  "utc": "2026-09-13T03:33:07.488671+00:00",
+  "reason": "Direct reviewer C1 nonnode quantifier objection; explicit known-phase counterexample and smallest rank-qualified repair.",
+  "initial_candidate_unchanged": true,
+  "scope": "One scientific quantifier repair; no new physical premise or finite numerical change.",
+  "sha256": {
+    "CALIBRATION_SCOPE_CLARIFICATION.md": "6bc3c086c612ae6131e12aaee5c14e9814cbbbecaf3d5b2d32b01d5aca5e30a9",
+    "check_calibration_rank.py": "59635f47da598bc2f0129e6644f50bea104ddf24464892454dc46d86675e51fb"
+  }
+}

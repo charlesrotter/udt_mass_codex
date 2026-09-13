@@ -2,7 +2,7 @@
 
 Updated: 2026-09-13. Charles Rotter requested the whole plan on 2026-09-09;
 its original baseline was `d0fe8b3e5f95c3963dc8702bb4a31485678bd1e3`, branch `grok`.
-Banking through G415 is COMPLETE; G416--G423 signal-chain conditional acceptance and actual gates: its CLOSEOUT.
+Banking through G423 is COMPLETE; exact conditional signal-chain scope and actual gates: its CLOSEOUT.
 Current operational handoff: `HANDOFF.md`; the maintained checkpoint below records the reviewed
 ER1 expansion, banking, nonlinear and measurement returns, and the CWA1 consolidation.
 CWA1's consolidation, NCB1's banking and NCR1/NTB1's directional returns are recorded below.
@@ -24,13 +24,32 @@ gates: `udt_signal_continuation_2026-09-13/CHECKPOINT.md`.
 Stage A accepts OB1/ZDR1/NCR1/NTB1/LSB1/CSS3/CSS4/CSS5 as G416--G423 only at
 full reviewed conditional scope, after exact-source fidelity, new406 audit and
 integration/publication gates. Its BANKING_RECORD and CLOSEOUT own actual checks.
-Stage B tests broader supplied evolving profiles without linearizing the metric;
+Stage B has returned reviewed conditional BE1 under `udt_broader_evolving_signal_geometry_2026-09-13/WORK_ORDER.md`;
 Stage C asks one result-informed question about remaining joint-record freedom.
 Each includes finite checks, one fresh review and bounded same-premise repairs;
 new Stage B/C results remain conditional UNPROMOTED. Seven-hour overall ceiling,
 no physical adoption, observational fit or protected-work access. Return together
 for lay discussion after all authorized stages or a stated bounded blocker.
 Earlier stop/UNPROMOTED language below remains historical, not current authorization.
+
+## Broader-profile return and the single next question — 2026-09-13
+
+BE1 is VERIFIED-WITH-CAVEATS, CONDITIONAL UNPROMOTED: full finite distinct-mode
+polarized completion and periodic data, cumulative marked response, linked
+regular-branch signal readouts, and a limit on transferring the old reflection
+symmetry. Its calibration statement has one genuine reviewed rank repair:
+nonzero source coefficient row gives rank1; simultaneous nodes give rank0.
+The original unqualified sentence/candidate and counterexample remain preserved.
+Full result, scope, checks and publication: `udt_broader_evolving_signal_geometry_2026-09-13/REVIEWED_RESULT.md`
+and its CLOSEOUT; final fidelity remains a separate recorded gate.
+
+The already-authorized single StageC question now targets the remaining calibrated
+two-mode amplitude direction: can unused clock ratios and labelled beam shape
+distinguish it, and where is a chosen record blind? Keep known phases/nonnode,
+explicit observer layout/marking and the UNPROMOTED BE1 dependency. No generic
+inverse theory, physical light, instrument/SNe fit, native response law or
+promotion. StageC work order must freeze its exact map/tests/review budget; after
+that one return, stop for the combined lay discussion.
 
 ## Aim and current position
 

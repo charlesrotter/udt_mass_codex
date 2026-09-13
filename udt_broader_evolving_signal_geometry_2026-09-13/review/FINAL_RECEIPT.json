@@ -1,0 +1,144 @@
+{
+  "sealed_utc": "2026-09-13T03:51:39.890801+00:00",
+  "actual_review_end_utc": "2026-09-13T03:51:39.890801+00:00",
+  "conservative_allocation_start_utc": "2026-09-13T03:23:33+00:00",
+  "hard_end_utc": "2026-09-13T04:03:33+00:00",
+  "elapsed_upper_bound_seconds": 1686.890801,
+  "verdict": "VERIFIED-WITH-CAVEATS CONDITIONAL UNPROMOTED; final fidelity accepted at C1 repaired scope",
+  "unresolved_objections": [],
+  "review_context": "/root/broader_signal_review",
+  "master_allocation_number": 2,
+  "actual_separate_context": true,
+  "subdelegation_count": 0,
+  "parent_startup": "Attributed completed continuing top-level startup; reviewer independently checked local branch, refs, status and assigned evidence",
+  "branch": "grok",
+  "head_and_origin": [
+    "53fc4ed37ae4d21c2097cd2f99d874b932ac20ea",
+    "53fc4ed37ae4d21c2097cd2f99d874b932ac20ea"
+  ],
+  "remote_sync": "Parent attributed; no reviewer fetch/pull or Git mutation",
+  "first_personally_queried_clock_utc": "2026-09-13T03:24:25+00:00",
+  "first_action_time": "Exact initial source/status command and server allocation instants not exposed; conservative start is budget anchor",
+  "source_first_seal_utc": "2026-09-13T03:27:20.772690+00:00",
+  "source_first_exposure": "Class/method/accepted sources exposed; new BE1 candidate/code/outcomes excluded until sealed reconstruction and parent direct-review invitation",
+  "direct_exposure": "Whole candidate/code/outcomes exposed; no parent scientific implementation imported into independent metric/affine reconstructions",
+  "configured_parent_attribution": "gpt-6-astra/xhigh; runtime not attested",
+  "runtime_model": "UNATTESTED",
+  "different_model": "UNTESTED",
+  "general_capacity": "UNVERIFIED",
+  "scientific_repair": "D1/C1 rank qualification; initial unqualified known-phase two-mode sentence refuted at simultaneous nodes; controlling correction re-reviewed",
+  "summary_fidelity_corrections": [
+    "Fading profile functions rather than fixed amplitude parameters",
+    "Supplied initial metric expansion-rate records rather than ordinary clock slopes"
+  ],
+  "finite_computations_and_tolerances_unchanged_by_C1": true,
+  "independent_original_Ricci": "40-digit full coordinate metric/Christoffel/Ricci calculation at3 finite points; max2.2959e-41",
+  "independent_affine": "All8 main and4 reverse saved controls; actual original-metric affine equations and finite-angle screen comparison; interior96 roots not independently reoptimized",
+  "reviewer_scientific_captures": [
+    {
+      "stem": "independent_metric_run",
+      "returncode": 0,
+      "duration_seconds": 8.149431364960037,
+      "maxrss_kib": 15908,
+      "started_utc": "2026-09-13T03:27:40.194243+00:00"
+    },
+    {
+      "stem": "independent_affine_run",
+      "returncode": 0,
+      "duration_seconds": 2.555330766015686,
+      "maxrss_kib": 81524,
+      "started_utc": "2026-09-13T03:30:49.401195+00:00"
+    },
+    {
+      "stem": "author_drop_cross_replay",
+      "returncode": 1,
+      "duration_seconds": 0.44749729603063315,
+      "maxrss_kib": 110520,
+      "started_utc": "2026-09-13T03:32:23.423318+00:00"
+    },
+    {
+      "stem": "author_source_epoch_replay",
+      "returncode": 1,
+      "duration_seconds": 1.9103528800187632,
+      "maxrss_kib": 114628,
+      "started_utc": "2026-09-13T03:32:30.066398+00:00"
+    },
+    {
+      "stem": "calibration_rank_replay",
+      "returncode": 0,
+      "duration_seconds": 0.14624458004254848,
+      "maxrss_kib": 43304,
+      "started_utc": "2026-09-13T03:34:00.491089+00:00"
+    }
+  ],
+  "sum_reviewer_scientific_seconds": 13.208856887067668,
+  "max_reviewer_rss_kib": 114628,
+  "same_context_captured_overlap": false,
+  "captured_cross_context_overlap": [
+    {
+      "a": "checks/premise406.json",
+      "b": "review/author_drop_cross_replay.json",
+      "seconds": 0.447497,
+      "same_context": false
+    },
+    {
+      "a": "checks/premise406.json",
+      "b": "review/author_source_epoch_replay.json",
+      "seconds": 1.910353,
+      "same_context": false
+    },
+    {
+      "a": "checks/premise406.json",
+      "b": "review/calibration_rank_replay.json",
+      "seconds": 0.146245,
+      "same_context": false
+    }
+  ],
+  "process_census": "Captured processes only, not complete runtime census",
+  "parent_full406": {
+    "returncode": 0,
+    "duration_seconds": 400.19077900308184,
+    "started_utc": "2026-09-13T03:31:04.483699+00:00",
+    "reviewer_rerun": false
+  },
+  "final_navigation": "Original358-pass/1-failure/1-deselection run preserved, first word-only repair still failed; focused compactness and direct current-surface checks then passed",
+  "outside_BE1_untracked_names": 51,
+  "protected_payloads": "Not read/hashed/modified; status names checked only",
+  "remaining_parent_owned": [
+    "Commit/push/publication receipts",
+    "Separate authorized StageC scientific work and review"
+  ],
+  "no_scientific_promotion_or_canon": true,
+  "final_intake_files": {
+    "udt_broader_evolving_signal_geometry_2026-09-13/REVIEWED_RESULT.md": "9c8ba8a9e52ba15b8ebf49de3ab9a335c2bd8613bfd1983f75b744c9a29bffcd",
+    "udt_broader_evolving_signal_geometry_2026-09-13/DECISION_BRIEF.md": "cbe714d4887b024905537fad8fa2c708b512fb1068137e08f4d9c15d5e620893",
+    "udt_broader_evolving_signal_geometry_2026-09-13/CLOSEOUT.md": "f5135d7eabb4d795a1632a845c10064a1efce6f48be747eeaff8b80cee65d1ba",
+    "udt_broader_evolving_signal_geometry_2026-09-13/SCOPE_SURVIVORS.tsv": "90e2e1753a609f3e9022d9f0457e34cf547365f7dfe087bcf803a8529d907f0b",
+    "udt_broader_evolving_signal_geometry_2026-09-13/MAIN_RECORDS.tsv": "6aa588b8029d6906cb8a8caf9cec7bc4eb4ccd5b81ea67b3c62c7ede923e2f66",
+    "udt_broader_evolving_signal_geometry_2026-09-13/EVENT_RECORDS.tsv": "66d29953c9deaa0b321efe8ad2e24124d584bdd17c9726a976e29e7e90faba2e",
+    "udt_broader_evolving_signal_geometry_2026-09-13/EXECUTION_INTERVALS.json": "fadde2429ee97df16d997dc4b6bdea9955f288d1512f6a95fa48fa764a9e74e4",
+    "udt_broader_evolving_signal_geometry_2026-09-13/POST_AUDIT_NAVIGATION.json": "2b253844b6082de4dbf78eeb36d2b9749fa03f9445d55c08655087c17b531403",
+    "udt_broader_evolving_signal_geometry_2026-09-13/NAVIGATION_WORD_REPAIR.md": "34a445b6548f1c1f33291986ecfac334298de90eb4e59bb1bd63a67103fbd7e7",
+    "LIVE.md": "1e1ee19d645706e25cea55a799db58e30ea89e3abb09eabe50d976444dfd1ba2",
+    "HANDOFF.md": "21e26194e0d6c42640f283d7dbfcb1fa0106fee3723dbee3d459af198d59566d",
+    "CURRENT_RESEARCH_PROGRAM.md": "bc7f3966eed9ae4f61d762ea6597adf1a0f097be4ff8837cfcbc943a70134e8f",
+    "CURRENT_SCIENTIFIC_PREMISES.md": "7b574665f714551a3a565987fc5bc56a4b44c7e6fb274532f61609c25153f627",
+    "INDEX.md": "6e5e927a84d1ee88b5c420dad26b4e3bf3fcad81582108e91a326420aec843f3",
+    "MEMORY.md": "7ec10039b8e3b73e539d8210ac013eee76bc7892afb29a708100ce639a74d7f7",
+    "UDT_RESEARCH_ROADMAP.md": "b975162eb77e9a5423387c98119e58d09bf7d9a7ce43a11ea4435c3bb54919a1",
+    "udt_signal_continuation_2026-09-13/CHECKPOINT.md": "d62c6fd161fa2f711300557fd2698134efd05d59b6b0dc59b4f22e76fe468b6a"
+  },
+  "extra_sealed_inputs": {
+    "udt_broader_evolving_signal_geometry_2026-09-13/FINAL_REVIEW_INTAKE.json": "dbf3f759c4f1d57322e76bd0f5d6541d0391ab67dd3f09069e7cb94fe5fcc141",
+    "udt_broader_evolving_signal_geometry_2026-09-13/review/FINAL_FIDELITY.md": "f68c14b02a096a4b5daaec8e3465198d925c25e86f52b95d063d5b53ac7e7c22",
+    "udt_broader_evolving_signal_geometry_2026-09-13/review/FINAL_FIDELITY_CHECK.json": "3936609c06662f280f3fcf87c4667e5e854c3506af3fc90daf5e1e6204697ef5",
+    "udt_broader_evolving_signal_geometry_2026-09-13/review/REVIEW_FIDELITY_CHECK.json": "ddbaecb4c4dd0669aa1c9422dc6afe0fa8634cdfb524c786abf59ee5923a181c",
+    "udt_broader_evolving_signal_geometry_2026-09-13/review/SOURCE_FIRST_SEAL.json": "67d058e035f7635b029e1fe8cda8ffcb3f910c10fde7a00081b66b1b5a000bff",
+    "udt_broader_evolving_signal_geometry_2026-09-13/review/SOURCE_FIRST_INPUTS_AND_RUN_SEAL.json": "8cdd67d3472b181aceb4fbf1d5e6bcce349c968598dd861977b8b1580830ed5e",
+    "udt_broader_evolving_signal_geometry_2026-09-13/review/DIRECT_INPUTS_AND_CHECKS.json": "964d43998e225865b23ddf1a3d0cfd0595c14e5f145daf2ecdf490db62a11581",
+    "udt_broader_evolving_signal_geometry_2026-09-13/review/DIRECT_REVIEW_SEAL.json": "5de5a56409c4b3a5abe1cd82622b20b9d2025898ffc01f2bd706c275aa561d03",
+    "udt_broader_evolving_signal_geometry_2026-09-13/review/LATE_PROTOCOL_NOTE.json": "a428a488d8d6d5a0ccf5fb76324e5444598a4937811ecbcee1b6168880defb01",
+    "udt_broader_evolving_signal_geometry_2026-09-13/review/DECISION_BRIEF_FIDELITY_NOTE.json": "067ea832135e1859b3ae15dcee1ec677b60eca01f1b6d034ec5115d9069b1060",
+    "udt_signal_chain_banking_2026-09-13/review/FINAL_RECEIPT.json": "5ad62d59bc9dbfd8e1ebbce755408e64233d2b0f68ea396cbdd59293a868473b"
+  }
+}
