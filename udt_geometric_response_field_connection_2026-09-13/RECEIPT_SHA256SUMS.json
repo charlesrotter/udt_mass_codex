@@ -1,0 +1,10 @@
+{
+  "recorded_utc": "2026-09-13T16:12:50.365259+00:00",
+  "science_commit": "947071aa97b4a6f883ee6ba390d4eb71d2c98eac",
+  "scope": "Factual receipt files; immutable scientific manifest is commit-scoped. No self-hash.",
+  "pins": {
+    "udt_geometric_response_field_connection_2026-09-13/CHECKPOINT.md": "d8d8275d59a5bc6ecc93e1777b70a8ac6c9b15dabc24b3228d2537a26f2ff0e2",
+    "udt_geometric_response_field_connection_2026-09-13/PUBLICATION.json": "b8eb1d76014f881dbfe404d0ea2591e30a4ed7b5fe2a9681fcba39c90fd229a6",
+    "udt_geometric_response_field_connection_2026-09-13/PUBLICATION.md": "e98db28f91e60b42aa31caa302d3ea9f9dad3115ee40fc3d6332e0be26a10bc2"
+  }
+}
