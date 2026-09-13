@@ -4,8 +4,8 @@
   "UDT_RESEARCH_ROADMAP.md": "8c7e80d7cec8772f2eb9e77872215cde096a8f0bc140295143c4ba6e61f18e33",
   "udt_field_equation_provenance_and_process_2026-09-13/.gitattributes": "1f338064c65fb3f20888da3ae7ac56279f691da50b92dfce274f769f01d574db",
   "udt_field_equation_provenance_and_process_2026-09-13/AGENT_ALLOCATIONS.json": "ce3fb2ed8e43275ecd761dc3b44213c4aaa412cc77ac2b6419b184d42bc8a851",
-  "udt_field_equation_provenance_and_process_2026-09-13/CHECKPOINT.md": "3ff9029401bbeefd57b44c3da09cd95d221ccfa56ca55bbb0eaddd41eab0a211",
-  "udt_field_equation_provenance_and_process_2026-09-13/CLOSEOUT.md": "91463db6c408b1cc859234b1a2546f2fbf40f4fec33382eb8067f3259bfa146e",
+  "udt_field_equation_provenance_and_process_2026-09-13/CHECKPOINT.md": "35aa340b632835bd3e5a7b5877bacf150c0f9bd3fd0791e5ed2d85d8eaa4a1c2",
+  "udt_field_equation_provenance_and_process_2026-09-13/CLOSEOUT.md": "663ec247435576b3249e34a7f5cad514803c66ecc56e15b5755f86449e060667",
   "udt_field_equation_provenance_and_process_2026-09-13/DECISION_BRIEF.md": "7a64556a26864650f95c44aac6137c92e698f9da3533dd2bfbe14a8d003caff6",
   "udt_field_equation_provenance_and_process_2026-09-13/DEPENDENCY_IMPACT.md": "b651f01d9dc84581035e3ebfdc0dda2782db327ee98609430bd247c14d4a0700",
   "udt_field_equation_provenance_and_process_2026-09-13/FIELD_EQUATION_PROCESS.md": "49b259ea670e8304d5648c5e1f9b2790966b79f760a90eecdadd036116a212d1",
@@ -52,5 +52,6 @@
   "udt_field_equation_provenance_and_process_2026-09-13/reviews/initial/RECOVERY_REPORT.md": "c1510a3832ae5a4af095708428fee8c5c5fee720c70f375e265fdcb2a724a14e",
   "udt_field_equation_provenance_and_process_2026-09-13/reviews/initial/ROUTE_LEDGER.tsv": "919858c8bea3382002218309e0d03dee1e65d2dec2527296af3d43ac2d6b73c2",
   "udt_field_equation_provenance_and_process_2026-09-13/verify_documentation.py": "8f2e5d20ef68491253b39a2c84283c278146cba5ce09133756b7bb6a51532170",
-  "udt_native_theory_research_plan_2026-09-13/PLAN.md": "da10b31eaca19735521e6218deda0e3a6edfb078d3ee543ae521d420021ec460"
+  "udt_native_theory_research_plan_2026-09-13/PLAN.md": "da10b31eaca19735521e6218deda0e3a6edfb078d3ee543ae521d420021ec460",
+  "udt_field_equation_provenance_and_process_2026-09-13/PUBLICATION_RECEIPT.json": "3c6b74baeb66b9c18a384c104e77ba965601439d41eda60d5627ef48fd68ddf8"
 }
