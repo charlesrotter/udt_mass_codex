@@ -1,0 +1,303 @@
+{
+  "package": "udt_joint_observer_relation_scope_correction_2026-09-13",
+  "events": [
+    {
+      "utc": "2026-09-13T23:17:50.950114+00:00",
+      "command": [
+        "git",
+        "rev-parse",
+        "--abbrev-ref",
+        "HEAD"
+      ],
+      "exit": 0,
+      "stdout": "grok\n",
+      "stderr": ""
+    },
+    {
+      "utc": "2026-09-13T23:17:50.951515+00:00",
+      "command": [
+        "git",
+        "rev-parse",
+        "HEAD",
+        "origin/grok"
+      ],
+      "exit": 0,
+      "stdout": "22f78bb6a043bfccd29507b43879d2a7f3edd256\n22f78bb6a043bfccd29507b43879d2a7f3edd256\n",
+      "stderr": ""
+    },
+    {
+      "utc": "2026-09-13T23:17:50.952818+00:00",
+      "command": [
+        "git",
+        "diff",
+        "--cached",
+        "--name-only"
+      ],
+      "exit": 0,
+      "stdout": "",
+      "stderr": ""
+    },
+    {
+      "utc": "2026-09-13T23:17:50.962603+00:00",
+      "command": [
+        "git",
+        "diff",
+        "--name-only"
+      ],
+      "exit": 0,
+      "stdout": "INDEX.md\nMEMORY.md\nUDT_CONSOLIDATED_RESEARCH_ACCOUNT.md\nUDT_RESEARCH_ROADMAP.md\nudt_native_theory_research_plan_2026-09-13/PLAN.md\n",
+      "stderr": ""
+    },
+    {
+      "utc": "2026-09-13T23:17:50.971232+00:00",
+      "command": [
+        "git",
+        "status",
+        "--short",
+        "--untracked-files=all"
+      ],
+      "exit": 0,
+      "stdout": " M INDEX.md\n M MEMORY.md\n M UDT_CONSOLIDATED_RESEARCH_ACCOUNT.md\n M UDT_RESEARCH_ROADMAP.md\n M udt_native_theory_research_plan_2026-09-13/PLAN.md\n?? 8_25/UDT_FOUNDING_VALUE_LAW_ANALYSIS.md\n?? 8_25/udt_extension_checks.py\n?? 8_25/udt_extension_minimality_response.md\n?? 8_25/udt_value_law_checks.py\n?? 8_25/udt_value_law_checks_llm1.py\n?? 8_25/udt_value_law_external_response.md\n?? UDT_Complete_Guardrails_and_Central_Science_Tracking.md\n?? UDT_Next_Step_After_Two_Stages.md\n?? UDT_Sequenced_Guardrails_and_Development_Work_Order.md\n?? udt_joint_observer_relation_scope_correction_2026-09-13/AGENT_ALLOCATION.json\n?? udt_joint_observer_relation_scope_correction_2026-09-13/CLOSEOUT.md\n?? udt_joint_observer_relation_scope_correction_2026-09-13/CORRECTION.md\n?? udt_joint_observer_relation_scope_correction_2026-09-13/DECISION_BRIEF.md\n?? udt_joint_observer_relation_scope_correction_2026-09-13/DEPENDENCY_IMPACT.tsv\n?? udt_joint_observer_relation_scope_correction_2026-09-13/FIXED_PINS.json\n?? udt_joint_observer_relation_scope_correction_2026-09-13/LAUNCH.json\n?? udt_joint_observer_relation_scope_correction_2026-09-13/MAINTAINED_BEFORE.json\n?? udt_joint_observer_relation_scope_correction_2026-09-13/SELECTED_PREMISES.tsv\n?? udt_joint_observer_relation_scope_correction_2026-09-13/SOURCE_PINS.json\n?? udt_joint_observer_relation_scope_correction_2026-09-13/WORK_ORDER.md\n?? udt_joint_observer_relation_scope_correction_2026-09-13/WORK_RECORD.md\n?? udt_joint_observer_relation_scope_correction_2026-09-13/checks/baseline_status.txt\n?? udt_joint_observer_relation_scope_correction_2026-09-13/checks/documentation/capture_provenance.json\n?? udt_joint_observer_relation_scope_correction_2026-09-13/checks/documentation/json\n?? udt_joint_observer_relation_scope_correction_2026-09-13/checks/documentation/stderr\n?? udt_joint_observer_relation_scope_correction_2026-09-13/checks/documentation/stdout\n?? udt_joint_observer_relation_scope_correction_2026-09-13/checks/environment.json\n?? udt_joint_observer_relation_scope_correction_2026-09-13/checks/navigation_compaction_attempt/capture_provenance.json\n?? udt_joint_observer_relation_scope_correction_2026-09-13/checks/navigation_compaction_attempt/json\n?? udt_joint_observer_relation_scope_correction_2026-09-13/checks/navigation_compaction_attempt/stderr\n?? udt_joint_observer_relation_scope_correction_2026-09-13/checks/navigation_compaction_attempt/stdout\n?? udt_joint_observer_relation_scope_correction_2026-09-13/checks/navigation_final/capture_provenance.json\n?? udt_joint_observer_relation_scope_correction_2026-09-13/checks/navigation_final/json\n?? udt_joint_observer_relation_scope_correction_2026-09-13/checks/navigation_final/stderr\n?? udt_joint_observer_relation_scope_correction_2026-09-13/checks/navigation_final/stdout\n?? udt_joint_observer_relation_scope_correction_2026-09-13/checks/navigation_initial/capture_provenance.json\n?? udt_joint_observer_relation_scope_correction_2026-09-13/checks/navigation_initial/json\n?? udt_joint_observer_relation_scope_correction_2026-09-13/checks/navigation_initial/stderr\n?? udt_joint_observer_relation_scope_correction_2026-09-13/checks/navigation_initial/stdout\n?? udt_joint_observer_relation_scope_correction_2026-09-13/checks/premise.stderr\n?? udt_joint_observer_relation_scope_correction_2026-09-13/checks/premise_execution.json\n?? udt_joint_observer_relation_scope_correction_2026-09-13/publication_adapter.py\n?? udt_joint_observer_relation_scope_correction_2026-09-13/review/COMPACTION_ATTEMPT_FREEZE.json\n?? udt_joint_observer_relation_scope_correction_2026-09-13/review/FINAL_BYTE_CHECK.json\n?? udt_joint_observer_relation_scope_correction_2026-09-13/review/FINAL_CANDIDATE_FREEZE.json\n?? udt_joint_observer_relation_scope_correction_2026-09-13/review/FINAL_REVIEW.json\n?? udt_joint_observer_relation_scope_correction_2026-09-13/review/FINAL_REVIEW.md\n?? udt_joint_observer_relation_scope_correction_2026-09-13/review/INITIAL_DIRECT_REVIEW.json\n?? udt_joint_observer_relation_scope_correction_2026-09-13/review/INITIAL_DIRECT_REVIEW.md\n?? udt_joint_observer_relation_scope_correction_2026-09-13/review/INITIAL_FREEZE.json\n?? udt_joint_observer_relation_scope_correction_2026-09-13/review/PRE_ATTRIBUTION_FREEZE.json\n?? udt_joint_observer_relation_scope_correction_2026-09-13/review/PRE_LATE_DIFF_FINAL_BYTE_CHECK.json\n?? udt_joint_observer_relation_scope_correction_2026-09-13/review/PRE_LATE_DIFF_FINAL_REVIEW.json\n?? udt_joint_observer_relation_scope_correction_2026-09-13/review/PRE_LATE_DIFF_FINAL_REVIEW.md\n?? udt_joint_observer_relation_scope_correction_2026-09-13/review/PRE_METADATA_FIX_FINAL_REVIEW.json\n?? udt_joint_observer_relation_scope_correction_2026-09-13/review/PRE_METADATA_FIX_FINAL_REVIEW.md\n?? udt_joint_observer_relation_scope_correction_2026-09-13/review/REPAIR_FREEZE.json\n?? udt_joint_observer_relation_scope_correction_2026-09-13/review/SOURCE_CHECK_RECORD.json\n?? udt_joint_observer_relation_scope_correction_2026-09-13/review/SOURCE_FIRST.md\n?? udt_joint_observer_relation_scope_correction_2026-09-13/review/SOURCE_FIRST_ADDENDUM.md\n?? udt_joint_observer_relation_scope_correction_2026-09-13/review/SOURCE_FIRST_ADDENDUM_FREEZE.json\n?? udt_joint_observer_relation_scope_correction_2026-09-13/review/SOURCE_FIRST_FREEZE.json\n?? udt_joint_observer_relation_scope_correction_2026-09-13/review/initial/00_CORRECTION.md\n?? udt_joint_observer_relation_scope_correction_2026-09-13/review/initial/01_DECISION_BRIEF.md\n?? udt_joint_observer_relation_scope_correction_2026-09-13/review/initial/02_DEPENDENCY_IMPACT.tsv\n?? udt_joint_observer_relation_scope_correction_2026-09-13/review/initial/03_UDT_RESEARCH_ROADMAP.md\n?? udt_joint_observer_relation_scope_correction_2026-09-13/review/initial/04_PLAN.md\n?? udt_joint_observer_relation_scope_correction_2026-09-13/review/initial/05_UDT_CONSOLIDATED_RESEARCH_ACCOUNT.md\n?? udt_joint_observer_relation_scope_correction_2026-09-13/review/initial/06_INDEX.md\n?? udt_joint_observer_relation_scope_correction_2026-09-13/review/initial/07_MEMORY.md\n?? udt_joint_observer_relation_scope_correction_2026-09-13/verify_documentation.py\n?? udt_native_onshell_timelive_reset_owner_audit_2026-08-10/CANDIDATE_LAW_MAP.tsv\n?? udt_native_onshell_timelive_reset_owner_audit_2026-08-10/DERIVATION_RESULT.json\n?? udt_native_onshell_timelive_reset_owner_audit_2026-08-10/EQUATION_OWNERSHIP_ATLAS.tsv\n?? udt_native_onshell_timelive_reset_owner_audit_2026-08-10/SOURCE_SCOPE_CLARIFICATION.md\n?? udt_native_onshell_timelive_reset_owner_audit_2026-08-10/derive_owner_atlas.py\n?? udt_native_onshell_timelive_reset_owner_audit_2026-08-10/run_catch_proofs.py\n?? udt_native_onshell_timelive_reset_owner_audit_2026-08-10/verify_owner_independent.py\n?? udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/ADVERSARIAL_REVIEW_REQUEST.md\n?? udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/AUDIT_REPORT.md\n?? udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/CATCH_PROOF_RESULT.json\n?? udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/DERIVATION_RESULT.json\n?? udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/EVIDENCE_GATES.md\n?? udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/EXACT_DERIVATION.md\n?? udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/INDEPENDENT_VERIFICATION.json\n?? udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/LAY_REPORT.md\n?? udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/STATUS_LEDGER.tsv\n?? udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/VERIFICATION_RESULT.json\n?? udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/WITNESS_ATLAS.tsv\n?? udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/build_review_intake.py\n?? udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/derive_regime_flow.py\n?? udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/run_catch_proofs.py\n?? udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/verify_independent.py\n?? udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/verify_package.py\n?? udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/AUDIT_REPORT.md\n?? udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/CATCH_PROOF_RESULT.json\n?? udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/DERIVATION_RESULT.json\n?? udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/EVIDENCE_GATES.md\n?? udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/EXACT_DERIVATION.md\n?? udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/INDEPENDENT_RADAU_REPLAY.tsv\n?? udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/INDEPENDENT_VERIFICATION.json\n?? udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/LAY_REPORT.md\n?? udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/PREREGISTRATION_EXECUTION_NOTE.md\n?? udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/PROFILE_COMPATIBILITY_ATLAS.tsv\n?? udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/REVIEW_DISPATCH.md\n?? udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/RUN_CHECKPOINT.tsv\n?? udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/STATUS_LEDGER.tsv\n?? udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/VERIFICATION_RESULT.json\n?? udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/build_review_manifest.py\n?? udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/derive_compatibility_atlas.py\n?? udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/run_catch_proofs.py\n?? udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/verify_independent.py\n?? udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/verify_package.py\n",
+      "stderr": ""
+    },
+    {
+      "utc": "2026-09-13T23:18:10.251846+00:00",
+      "command": [
+        "git",
+        "add",
+        "-f",
+        "--pathspec-from-file=/tmp/udt_joint_observer_relation_scope_correction_2026-09-13.nul",
+        "--pathspec-file-nul"
+      ],
+      "exit": 0,
+      "stdout": "",
+      "stderr": ""
+    },
+    {
+      "utc": "2026-09-13T23:18:10.291637+00:00",
+      "command": [
+        "git",
+        "diff",
+        "--cached",
+        "--check"
+      ],
+      "exit": 0,
+      "stdout": "",
+      "stderr": ""
+    },
+    {
+      "utc": "2026-09-13T23:18:10.298553+00:00",
+      "command": [
+        "git",
+        "diff",
+        "--cached",
+        "--name-only"
+      ],
+      "exit": 0,
+      "stdout": "INDEX.md\nMEMORY.md\nUDT_CONSOLIDATED_RESEARCH_ACCOUNT.md\nUDT_RESEARCH_ROADMAP.md\nudt_joint_observer_relation_scope_correction_2026-09-13/AGENT_ALLOCATION.json\nudt_joint_observer_relation_scope_correction_2026-09-13/CLOSEOUT.md\nudt_joint_observer_relation_scope_correction_2026-09-13/CORRECTION.md\nudt_joint_observer_relation_scope_correction_2026-09-13/DECISION_BRIEF.md\nudt_joint_observer_relation_scope_correction_2026-09-13/DEPENDENCY_IMPACT.tsv\nudt_joint_observer_relation_scope_correction_2026-09-13/FIXED_PINS.json\nudt_joint_observer_relation_scope_correction_2026-09-13/LAUNCH.json\nudt_joint_observer_relation_scope_correction_2026-09-13/MAINTAINED_BEFORE.json\nudt_joint_observer_relation_scope_correction_2026-09-13/PUBLISH_PLAN.json\nudt_joint_observer_relation_scope_correction_2026-09-13/SELECTED_PREMISES.tsv\nudt_joint_observer_relation_scope_correction_2026-09-13/SHA256SUMS.json\nudt_joint_observer_relation_scope_correction_2026-09-13/SOURCE_PINS.json\nudt_joint_observer_relation_scope_correction_2026-09-13/WORK_ORDER.md\nudt_joint_observer_relation_scope_correction_2026-09-13/WORK_RECORD.md\nudt_joint_observer_relation_scope_correction_2026-09-13/checks/baseline_status.txt\nudt_joint_observer_relation_scope_correction_2026-09-13/checks/documentation/capture_provenance.json\nudt_joint_observer_relation_scope_correction_2026-09-13/checks/documentation/json\nudt_joint_observer_relation_scope_correction_2026-09-13/checks/documentation/stderr\nudt_joint_observer_relation_scope_correction_2026-09-13/checks/documentation/stdout\nudt_joint_observer_relation_scope_correction_2026-09-13/checks/environment.json\nudt_joint_observer_relation_scope_correction_2026-09-13/checks/navigation_compaction_attempt/capture_provenance.json\nudt_joint_observer_relation_scope_correction_2026-09-13/checks/navigation_compaction_attempt/json\nudt_joint_observer_relation_scope_correction_2026-09-13/checks/navigation_compaction_attempt/stderr\nudt_joint_observer_relation_scope_correction_2026-09-13/checks/navigation_compaction_attempt/stdout\nudt_joint_observer_relation_scope_correction_2026-09-13/checks/navigation_final/capture_provenance.json\nudt_joint_observer_relation_scope_correction_2026-09-13/checks/navigation_final/json\nudt_joint_observer_relation_scope_correction_2026-09-13/checks/navigation_final/stderr\nudt_joint_observer_relation_scope_correction_2026-09-13/checks/navigation_final/stdout\nudt_joint_observer_relation_scope_correction_2026-09-13/checks/navigation_initial/capture_provenance.json\nudt_joint_observer_relation_scope_correction_2026-09-13/checks/navigation_initial/json\nudt_joint_observer_relation_scope_correction_2026-09-13/checks/navigation_initial/stderr\nudt_joint_observer_relation_scope_correction_2026-09-13/checks/navigation_initial/stdout\nudt_joint_observer_relation_scope_correction_2026-09-13/checks/premise.stderr\nudt_joint_observer_relation_scope_correction_2026-09-13/checks/premise.stdout\nudt_joint_observer_relation_scope_correction_2026-09-13/checks/premise_execution.json\nudt_joint_observer_relation_scope_correction_2026-09-13/publication_adapter.py\nudt_joint_observer_relation_scope_correction_2026-09-13/review/COMPACTION_ATTEMPT_FREEZE.json\nudt_joint_observer_relation_scope_correction_2026-09-13/review/FINAL_BYTE_CHECK.json\nudt_joint_observer_relation_scope_correction_2026-09-13/review/FINAL_CANDIDATE_FREEZE.json\nudt_joint_observer_relation_scope_correction_2026-09-13/review/FINAL_REVIEW.json\nudt_joint_observer_relation_scope_correction_2026-09-13/review/FINAL_REVIEW.md\nudt_joint_observer_relation_scope_correction_2026-09-13/review/INITIAL_DIRECT_REVIEW.json\nudt_joint_observer_relation_scope_correction_2026-09-13/review/INITIAL_DIRECT_REVIEW.md\nudt_joint_observer_relation_scope_correction_2026-09-13/review/INITIAL_FREEZE.json\nudt_joint_observer_relation_scope_correction_2026-09-13/review/PRE_ATTRIBUTION_FREEZE.json\nudt_joint_observer_relation_scope_correction_2026-09-13/review/PRE_LATE_DIFF_FINAL_BYTE_CHECK.json\nudt_joint_observer_relation_scope_correction_2026-09-13/review/PRE_LATE_DIFF_FINAL_REVIEW.json\nudt_joint_observer_relation_scope_correction_2026-09-13/review/PRE_LATE_DIFF_FINAL_REVIEW.md\nudt_joint_observer_relation_scope_correction_2026-09-13/review/PRE_METADATA_FIX_FINAL_REVIEW.json\nudt_joint_observer_relation_scope_correction_2026-09-13/review/PRE_METADATA_FIX_FINAL_REVIEW.md\nudt_joint_observer_relation_scope_correction_2026-09-13/review/REPAIR_FREEZE.json\nudt_joint_observer_relation_scope_correction_2026-09-13/review/SOURCE_CHECK_RECORD.json\nudt_joint_observer_relation_scope_correction_2026-09-13/review/SOURCE_FIRST.md\nudt_joint_observer_relation_scope_correction_2026-09-13/review/SOURCE_FIRST_ADDENDUM.md\nudt_joint_observer_relation_scope_correction_2026-09-13/review/SOURCE_FIRST_ADDENDUM_FREEZE.json\nudt_joint_observer_relation_scope_correction_2026-09-13/review/SOURCE_FIRST_FREEZE.json\nudt_joint_observer_relation_scope_correction_2026-09-13/review/initial/00_CORRECTION.md\nudt_joint_observer_relation_scope_correction_2026-09-13/review/initial/01_DECISION_BRIEF.md\nudt_joint_observer_relation_scope_correction_2026-09-13/review/initial/02_DEPENDENCY_IMPACT.tsv\nudt_joint_observer_relation_scope_correction_2026-09-13/review/initial/03_UDT_RESEARCH_ROADMAP.md\nudt_joint_observer_relation_scope_correction_2026-09-13/review/initial/04_PLAN.md\nudt_joint_observer_relation_scope_correction_2026-09-13/review/initial/05_UDT_CONSOLIDATED_RESEARCH_ACCOUNT.md\nudt_joint_observer_relation_scope_correction_2026-09-13/review/initial/06_INDEX.md\nudt_joint_observer_relation_scope_correction_2026-09-13/review/initial/07_MEMORY.md\nudt_joint_observer_relation_scope_correction_2026-09-13/verify_documentation.py\nudt_native_theory_research_plan_2026-09-13/PLAN.md\n",
+      "stderr": ""
+    },
+    {
+      "utc": "2026-09-13T23:18:22.270807+00:00",
+      "command": [
+        "git",
+        "diff",
+        "--cached",
+        "--check"
+      ],
+      "exit": 0,
+      "stdout": "",
+      "stderr": ""
+    },
+    {
+      "utc": "2026-09-13T23:18:22.281085+00:00",
+      "command": [
+        "git",
+        "diff",
+        "--cached",
+        "--name-only"
+      ],
+      "exit": 0,
+      "stdout": "INDEX.md\nMEMORY.md\nUDT_CONSOLIDATED_RESEARCH_ACCOUNT.md\nUDT_RESEARCH_ROADMAP.md\nudt_joint_observer_relation_scope_correction_2026-09-13/AGENT_ALLOCATION.json\nudt_joint_observer_relation_scope_correction_2026-09-13/CLOSEOUT.md\nudt_joint_observer_relation_scope_correction_2026-09-13/CORRECTION.md\nudt_joint_observer_relation_scope_correction_2026-09-13/DECISION_BRIEF.md\nudt_joint_observer_relation_scope_correction_2026-09-13/DEPENDENCY_IMPACT.tsv\nudt_joint_observer_relation_scope_correction_2026-09-13/FIXED_PINS.json\nudt_joint_observer_relation_scope_correction_2026-09-13/LAUNCH.json\nudt_joint_observer_relation_scope_correction_2026-09-13/MAINTAINED_BEFORE.json\nudt_joint_observer_relation_scope_correction_2026-09-13/PUBLISH_PLAN.json\nudt_joint_observer_relation_scope_correction_2026-09-13/SELECTED_PREMISES.tsv\nudt_joint_observer_relation_scope_correction_2026-09-13/SHA256SUMS.json\nudt_joint_observer_relation_scope_correction_2026-09-13/SOURCE_PINS.json\nudt_joint_observer_relation_scope_correction_2026-09-13/WORK_ORDER.md\nudt_joint_observer_relation_scope_correction_2026-09-13/WORK_RECORD.md\nudt_joint_observer_relation_scope_correction_2026-09-13/checks/baseline_status.txt\nudt_joint_observer_relation_scope_correction_2026-09-13/checks/documentation/capture_provenance.json\nudt_joint_observer_relation_scope_correction_2026-09-13/checks/documentation/json\nudt_joint_observer_relation_scope_correction_2026-09-13/checks/documentation/stderr\nudt_joint_observer_relation_scope_correction_2026-09-13/checks/documentation/stdout\nudt_joint_observer_relation_scope_correction_2026-09-13/checks/environment.json\nudt_joint_observer_relation_scope_correction_2026-09-13/checks/navigation_compaction_attempt/capture_provenance.json\nudt_joint_observer_relation_scope_correction_2026-09-13/checks/navigation_compaction_attempt/json\nudt_joint_observer_relation_scope_correction_2026-09-13/checks/navigation_compaction_attempt/stderr\nudt_joint_observer_relation_scope_correction_2026-09-13/checks/navigation_compaction_attempt/stdout\nudt_joint_observer_relation_scope_correction_2026-09-13/checks/navigation_final/capture_provenance.json\nudt_joint_observer_relation_scope_correction_2026-09-13/checks/navigation_final/json\nudt_joint_observer_relation_scope_correction_2026-09-13/checks/navigation_final/stderr\nudt_joint_observer_relation_scope_correction_2026-09-13/checks/navigation_final/stdout\nudt_joint_observer_relation_scope_correction_2026-09-13/checks/navigation_initial/capture_provenance.json\nudt_joint_observer_relation_scope_correction_2026-09-13/checks/navigation_initial/json\nudt_joint_observer_relation_scope_correction_2026-09-13/checks/navigation_initial/stderr\nudt_joint_observer_relation_scope_correction_2026-09-13/checks/navigation_initial/stdout\nudt_joint_observer_relation_scope_correction_2026-09-13/checks/premise.stderr\nudt_joint_observer_relation_scope_correction_2026-09-13/checks/premise.stdout\nudt_joint_observer_relation_scope_correction_2026-09-13/checks/premise_execution.json\nudt_joint_observer_relation_scope_correction_2026-09-13/publication_adapter.py\nudt_joint_observer_relation_scope_correction_2026-09-13/review/COMPACTION_ATTEMPT_FREEZE.json\nudt_joint_observer_relation_scope_correction_2026-09-13/review/FINAL_BYTE_CHECK.json\nudt_joint_observer_relation_scope_correction_2026-09-13/review/FINAL_CANDIDATE_FREEZE.json\nudt_joint_observer_relation_scope_correction_2026-09-13/review/FINAL_REVIEW.json\nudt_joint_observer_relation_scope_correction_2026-09-13/review/FINAL_REVIEW.md\nudt_joint_observer_relation_scope_correction_2026-09-13/review/INITIAL_DIRECT_REVIEW.json\nudt_joint_observer_relation_scope_correction_2026-09-13/review/INITIAL_DIRECT_REVIEW.md\nudt_joint_observer_relation_scope_correction_2026-09-13/review/INITIAL_FREEZE.json\nudt_joint_observer_relation_scope_correction_2026-09-13/review/PRE_ATTRIBUTION_FREEZE.json\nudt_joint_observer_relation_scope_correction_2026-09-13/review/PRE_LATE_DIFF_FINAL_BYTE_CHECK.json\nudt_joint_observer_relation_scope_correction_2026-09-13/review/PRE_LATE_DIFF_FINAL_REVIEW.json\nudt_joint_observer_relation_scope_correction_2026-09-13/review/PRE_LATE_DIFF_FINAL_REVIEW.md\nudt_joint_observer_relation_scope_correction_2026-09-13/review/PRE_METADATA_FIX_FINAL_REVIEW.json\nudt_joint_observer_relation_scope_correction_2026-09-13/review/PRE_METADATA_FIX_FINAL_REVIEW.md\nudt_joint_observer_relation_scope_correction_2026-09-13/review/REPAIR_FREEZE.json\nudt_joint_observer_relation_scope_correction_2026-09-13/review/SOURCE_CHECK_RECORD.json\nudt_joint_observer_relation_scope_correction_2026-09-13/review/SOURCE_FIRST.md\nudt_joint_observer_relation_scope_correction_2026-09-13/review/SOURCE_FIRST_ADDENDUM.md\nudt_joint_observer_relation_scope_correction_2026-09-13/review/SOURCE_FIRST_ADDENDUM_FREEZE.json\nudt_joint_observer_relation_scope_correction_2026-09-13/review/SOURCE_FIRST_FREEZE.json\nudt_joint_observer_relation_scope_correction_2026-09-13/review/initial/00_CORRECTION.md\nudt_joint_observer_relation_scope_correction_2026-09-13/review/initial/01_DECISION_BRIEF.md\nudt_joint_observer_relation_scope_correction_2026-09-13/review/initial/02_DEPENDENCY_IMPACT.tsv\nudt_joint_observer_relation_scope_correction_2026-09-13/review/initial/03_UDT_RESEARCH_ROADMAP.md\nudt_joint_observer_relation_scope_correction_2026-09-13/review/initial/04_PLAN.md\nudt_joint_observer_relation_scope_correction_2026-09-13/review/initial/05_UDT_CONSOLIDATED_RESEARCH_ACCOUNT.md\nudt_joint_observer_relation_scope_correction_2026-09-13/review/initial/06_INDEX.md\nudt_joint_observer_relation_scope_correction_2026-09-13/review/initial/07_MEMORY.md\nudt_joint_observer_relation_scope_correction_2026-09-13/verify_documentation.py\nudt_native_theory_research_plan_2026-09-13/PLAN.md\n",
+      "stderr": ""
+    },
+    {
+      "utc": "2026-09-13T23:18:22.287843+00:00",
+      "command": [
+        "git",
+        "commit",
+        "-m",
+        "Correct joint observer-relation scope and native admission priority"
+      ],
+      "exit": 0,
+      "stdout": "[grok 32f7222c] Correct joint observer-relation scope and native admission priority\n 70 files changed, 5089 insertions(+), 10 deletions(-)\n create mode 100644 udt_joint_observer_relation_scope_correction_2026-09-13/AGENT_ALLOCATION.json\n create mode 100644 udt_joint_observer_relation_scope_correction_2026-09-13/CLOSEOUT.md\n create mode 100644 udt_joint_observer_relation_scope_correction_2026-09-13/CORRECTION.md\n create mode 100644 udt_joint_observer_relation_scope_correction_2026-09-13/DECISION_BRIEF.md\n create mode 100644 udt_joint_observer_relation_scope_correction_2026-09-13/DEPENDENCY_IMPACT.tsv\n create mode 100644 udt_joint_observer_relation_scope_correction_2026-09-13/FIXED_PINS.json\n create mode 100644 udt_joint_observer_relation_scope_correction_2026-09-13/LAUNCH.json\n create mode 100644 udt_joint_observer_relation_scope_correction_2026-09-13/MAINTAINED_BEFORE.json\n create mode 100644 udt_joint_observer_relation_scope_correction_2026-09-13/PUBLISH_PLAN.json\n create mode 100644 udt_joint_observer_relation_scope_correction_2026-09-13/SELECTED_PREMISES.tsv\n create mode 100644 udt_joint_observer_relation_scope_correction_2026-09-13/SHA256SUMS.json\n create mode 100644 udt_joint_observer_relation_scope_correction_2026-09-13/SOURCE_PINS.json\n create mode 100644 udt_joint_observer_relation_scope_correction_2026-09-13/WORK_ORDER.md\n create mode 100644 udt_joint_observer_relation_scope_correction_2026-09-13/WORK_RECORD.md\n create mode 100644 udt_joint_observer_relation_scope_correction_2026-09-13/checks/baseline_status.txt\n create mode 100644 udt_joint_observer_relation_scope_correction_2026-09-13/checks/documentation/capture_provenance.json\n create mode 100644 udt_joint_observer_relation_scope_correction_2026-09-13/checks/documentation/json\n create mode 100644 udt_joint_observer_relation_scope_correction_2026-09-13/checks/documentation/stderr\n create mode 100644 udt_joint_observer_relation_scope_correction_2026-09-13/checks/documentation/stdout\n create mode 100644 udt_joint_observer_relation_scope_correction_2026-09-13/checks/environment.json\n create mode 100644 udt_joint_observer_relation_scope_correction_2026-09-13/checks/navigation_compaction_attempt/capture_provenance.json\n create mode 100644 udt_joint_observer_relation_scope_correction_2026-09-13/checks/navigation_compaction_attempt/json\n create mode 100644 udt_joint_observer_relation_scope_correction_2026-09-13/checks/navigation_compaction_attempt/stderr\n create mode 100644 udt_joint_observer_relation_scope_correction_2026-09-13/checks/navigation_compaction_attempt/stdout\n create mode 100644 udt_joint_observer_relation_scope_correction_2026-09-13/checks/navigation_final/capture_provenance.json\n create mode 100644 udt_joint_observer_relation_scope_correction_2026-09-13/checks/navigation_final/json\n create mode 100644 udt_joint_observer_relation_scope_correction_2026-09-13/checks/navigation_final/stderr\n create mode 100644 udt_joint_observer_relation_scope_correction_2026-09-13/checks/navigation_final/stdout\n create mode 100644 udt_joint_observer_relation_scope_correction_2026-09-13/checks/navigation_initial/capture_provenance.json\n create mode 100644 udt_joint_observer_relation_scope_correction_2026-09-13/checks/navigation_initial/json\n create mode 100644 udt_joint_observer_relation_scope_correction_2026-09-13/checks/navigation_initial/stderr\n create mode 100644 udt_joint_observer_relation_scope_correction_2026-09-13/checks/navigation_initial/stdout\n create mode 100644 udt_joint_observer_relation_scope_correction_2026-09-13/checks/premise.stderr\n create mode 100644 udt_joint_observer_relation_scope_correction_2026-09-13/checks/premise.stdout\n create mode 100644 udt_joint_observer_relation_scope_correction_2026-09-13/checks/premise_execution.json\n create mode 100644 udt_joint_observer_relation_scope_correction_2026-09-13/publication_adapter.py\n create mode 100644 udt_joint_observer_relation_scope_correction_2026-09-13/review/COMPACTION_ATTEMPT_FREEZE.json\n create mode 100644 udt_joint_observer_relation_scope_correction_2026-09-13/review/FINAL_BYTE_CHECK.json\n create mode 100644 udt_joint_observer_relation_scope_correction_2026-09-13/review/FINAL_CANDIDATE_FREEZE.json\n create mode 100644 udt_joint_observer_relation_scope_correction_2026-09-13/review/FINAL_REVIEW.json\n create mode 100644 udt_joint_observer_relation_scope_correction_2026-09-13/review/FINAL_REVIEW.md\n create mode 100644 udt_joint_observer_relation_scope_correction_2026-09-13/review/INITIAL_DIRECT_REVIEW.json\n create mode 100644 udt_joint_observer_relation_scope_correction_2026-09-13/review/INITIAL_DIRECT_REVIEW.md\n create mode 100644 udt_joint_observer_relation_scope_correction_2026-09-13/review/INITIAL_FREEZE.json\n create mode 100644 udt_joint_observer_relation_scope_correction_2026-09-13/review/PRE_ATTRIBUTION_FREEZE.json\n create mode 100644 udt_joint_observer_relation_scope_correction_2026-09-13/review/PRE_LATE_DIFF_FINAL_BYTE_CHECK.json\n create mode 100644 udt_joint_observer_relation_scope_correction_2026-09-13/review/PRE_LATE_DIFF_FINAL_REVIEW.json\n create mode 100644 udt_joint_observer_relation_scope_correction_2026-09-13/review/PRE_LATE_DIFF_FINAL_REVIEW.md\n create mode 100644 udt_joint_observer_relation_scope_correction_2026-09-13/review/PRE_METADATA_FIX_FINAL_REVIEW.json\n create mode 100644 udt_joint_observer_relation_scope_correction_2026-09-13/review/PRE_METADATA_FIX_FINAL_REVIEW.md\n create mode 100644 udt_joint_observer_relation_scope_correction_2026-09-13/review/REPAIR_FREEZE.json\n create mode 100644 udt_joint_observer_relation_scope_correction_2026-09-13/review/SOURCE_CHECK_RECORD.json\n create mode 100644 udt_joint_observer_relation_scope_correction_2026-09-13/review/SOURCE_FIRST.md\n create mode 100644 udt_joint_observer_relation_scope_correction_2026-09-13/review/SOURCE_FIRST_ADDENDUM.md\n create mode 100644 udt_joint_observer_relation_scope_correction_2026-09-13/review/SOURCE_FIRST_ADDENDUM_FREEZE.json\n create mode 100644 udt_joint_observer_relation_scope_correction_2026-09-13/review/SOURCE_FIRST_FREEZE.json\n create mode 100644 udt_joint_observer_relation_scope_correction_2026-09-13/review/initial/00_CORRECTION.md\n create mode 100644 udt_joint_observer_relation_scope_correction_2026-09-13/review/initial/01_DECISION_BRIEF.md\n create mode 100644 udt_joint_observer_relation_scope_correction_2026-09-13/review/initial/02_DEPENDENCY_IMPACT.tsv\n create mode 100644 udt_joint_observer_relation_scope_correction_2026-09-13/review/initial/03_UDT_RESEARCH_ROADMAP.md\n create mode 100644 udt_joint_observer_relation_scope_correction_2026-09-13/review/initial/04_PLAN.md\n create mode 100644 udt_joint_observer_relation_scope_correction_2026-09-13/review/initial/05_UDT_CONSOLIDATED_RESEARCH_ACCOUNT.md\n create mode 100644 udt_joint_observer_relation_scope_correction_2026-09-13/review/initial/06_INDEX.md\n create mode 100644 udt_joint_observer_relation_scope_correction_2026-09-13/review/initial/07_MEMORY.md\n create mode 100644 udt_joint_observer_relation_scope_correction_2026-09-13/verify_documentation.py\n",
+      "stderr": ""
+    },
+    {
+      "utc": "2026-09-13T23:18:22.319847+00:00",
+      "command": [
+        "git",
+        "rev-parse",
+        "HEAD"
+      ],
+      "exit": 0,
+      "stdout": "32f7222c86dad190fe045826ad06ea24066205f7\n",
+      "stderr": ""
+    },
+    {
+      "utc": "2026-09-13T23:18:22.321298+00:00",
+      "command": [
+        "git",
+        "diff-tree",
+        "--no-commit-id",
+        "--name-only",
+        "-r",
+        "HEAD"
+      ],
+      "exit": 0,
+      "stdout": "INDEX.md\nMEMORY.md\nUDT_CONSOLIDATED_RESEARCH_ACCOUNT.md\nUDT_RESEARCH_ROADMAP.md\nudt_joint_observer_relation_scope_correction_2026-09-13/AGENT_ALLOCATION.json\nudt_joint_observer_relation_scope_correction_2026-09-13/CLOSEOUT.md\nudt_joint_observer_relation_scope_correction_2026-09-13/CORRECTION.md\nudt_joint_observer_relation_scope_correction_2026-09-13/DECISION_BRIEF.md\nudt_joint_observer_relation_scope_correction_2026-09-13/DEPENDENCY_IMPACT.tsv\nudt_joint_observer_relation_scope_correction_2026-09-13/FIXED_PINS.json\nudt_joint_observer_relation_scope_correction_2026-09-13/LAUNCH.json\nudt_joint_observer_relation_scope_correction_2026-09-13/MAINTAINED_BEFORE.json\nudt_joint_observer_relation_scope_correction_2026-09-13/PUBLISH_PLAN.json\nudt_joint_observer_relation_scope_correction_2026-09-13/SELECTED_PREMISES.tsv\nudt_joint_observer_relation_scope_correction_2026-09-13/SHA256SUMS.json\nudt_joint_observer_relation_scope_correction_2026-09-13/SOURCE_PINS.json\nudt_joint_observer_relation_scope_correction_2026-09-13/WORK_ORDER.md\nudt_joint_observer_relation_scope_correction_2026-09-13/WORK_RECORD.md\nudt_joint_observer_relation_scope_correction_2026-09-13/checks/baseline_status.txt\nudt_joint_observer_relation_scope_correction_2026-09-13/checks/documentation/capture_provenance.json\nudt_joint_observer_relation_scope_correction_2026-09-13/checks/documentation/json\nudt_joint_observer_relation_scope_correction_2026-09-13/checks/documentation/stderr\nudt_joint_observer_relation_scope_correction_2026-09-13/checks/documentation/stdout\nudt_joint_observer_relation_scope_correction_2026-09-13/checks/environment.json\nudt_joint_observer_relation_scope_correction_2026-09-13/checks/navigation_compaction_attempt/capture_provenance.json\nudt_joint_observer_relation_scope_correction_2026-09-13/checks/navigation_compaction_attempt/json\nudt_joint_observer_relation_scope_correction_2026-09-13/checks/navigation_compaction_attempt/stderr\nudt_joint_observer_relation_scope_correction_2026-09-13/checks/navigation_compaction_attempt/stdout\nudt_joint_observer_relation_scope_correction_2026-09-13/checks/navigation_final/capture_provenance.json\nudt_joint_observer_relation_scope_correction_2026-09-13/checks/navigation_final/json\nudt_joint_observer_relation_scope_correction_2026-09-13/checks/navigation_final/stderr\nudt_joint_observer_relation_scope_correction_2026-09-13/checks/navigation_final/stdout\nudt_joint_observer_relation_scope_correction_2026-09-13/checks/navigation_initial/capture_provenance.json\nudt_joint_observer_relation_scope_correction_2026-09-13/checks/navigation_initial/json\nudt_joint_observer_relation_scope_correction_2026-09-13/checks/navigation_initial/stderr\nudt_joint_observer_relation_scope_correction_2026-09-13/checks/navigation_initial/stdout\nudt_joint_observer_relation_scope_correction_2026-09-13/checks/premise.stderr\nudt_joint_observer_relation_scope_correction_2026-09-13/checks/premise.stdout\nudt_joint_observer_relation_scope_correction_2026-09-13/checks/premise_execution.json\nudt_joint_observer_relation_scope_correction_2026-09-13/publication_adapter.py\nudt_joint_observer_relation_scope_correction_2026-09-13/review/COMPACTION_ATTEMPT_FREEZE.json\nudt_joint_observer_relation_scope_correction_2026-09-13/review/FINAL_BYTE_CHECK.json\nudt_joint_observer_relation_scope_correction_2026-09-13/review/FINAL_CANDIDATE_FREEZE.json\nudt_joint_observer_relation_scope_correction_2026-09-13/review/FINAL_REVIEW.json\nudt_joint_observer_relation_scope_correction_2026-09-13/review/FINAL_REVIEW.md\nudt_joint_observer_relation_scope_correction_2026-09-13/review/INITIAL_DIRECT_REVIEW.json\nudt_joint_observer_relation_scope_correction_2026-09-13/review/INITIAL_DIRECT_REVIEW.md\nudt_joint_observer_relation_scope_correction_2026-09-13/review/INITIAL_FREEZE.json\nudt_joint_observer_relation_scope_correction_2026-09-13/review/PRE_ATTRIBUTION_FREEZE.json\nudt_joint_observer_relation_scope_correction_2026-09-13/review/PRE_LATE_DIFF_FINAL_BYTE_CHECK.json\nudt_joint_observer_relation_scope_correction_2026-09-13/review/PRE_LATE_DIFF_FINAL_REVIEW.json\nudt_joint_observer_relation_scope_correction_2026-09-13/review/PRE_LATE_DIFF_FINAL_REVIEW.md\nudt_joint_observer_relation_scope_correction_2026-09-13/review/PRE_METADATA_FIX_FINAL_REVIEW.json\nudt_joint_observer_relation_scope_correction_2026-09-13/review/PRE_METADATA_FIX_FINAL_REVIEW.md\nudt_joint_observer_relation_scope_correction_2026-09-13/review/REPAIR_FREEZE.json\nudt_joint_observer_relation_scope_correction_2026-09-13/review/SOURCE_CHECK_RECORD.json\nudt_joint_observer_relation_scope_correction_2026-09-13/review/SOURCE_FIRST.md\nudt_joint_observer_relation_scope_correction_2026-09-13/review/SOURCE_FIRST_ADDENDUM.md\nudt_joint_observer_relation_scope_correction_2026-09-13/review/SOURCE_FIRST_ADDENDUM_FREEZE.json\nudt_joint_observer_relation_scope_correction_2026-09-13/review/SOURCE_FIRST_FREEZE.json\nudt_joint_observer_relation_scope_correction_2026-09-13/review/initial/00_CORRECTION.md\nudt_joint_observer_relation_scope_correction_2026-09-13/review/initial/01_DECISION_BRIEF.md\nudt_joint_observer_relation_scope_correction_2026-09-13/review/initial/02_DEPENDENCY_IMPACT.tsv\nudt_joint_observer_relation_scope_correction_2026-09-13/review/initial/03_UDT_RESEARCH_ROADMAP.md\nudt_joint_observer_relation_scope_correction_2026-09-13/review/initial/04_PLAN.md\nudt_joint_observer_relation_scope_correction_2026-09-13/review/initial/05_UDT_CONSOLIDATED_RESEARCH_ACCOUNT.md\nudt_joint_observer_relation_scope_correction_2026-09-13/review/initial/06_INDEX.md\nudt_joint_observer_relation_scope_correction_2026-09-13/review/initial/07_MEMORY.md\nudt_joint_observer_relation_scope_correction_2026-09-13/verify_documentation.py\nudt_native_theory_research_plan_2026-09-13/PLAN.md\n",
+      "stderr": ""
+    },
+    {
+      "utc": "2026-09-13T23:18:36.713484+00:00",
+      "command": [
+        "git",
+        "push",
+        "origin",
+        "grok"
+      ],
+      "exit": 0,
+      "stdout": "",
+      "stderr": "To https://github.com/charlesrotter/udt_mass_codex.git\n   22f78bb6..32f7222c  grok -> grok\n"
+    },
+    {
+      "utc": "2026-09-13T23:18:38.757125+00:00",
+      "command": [
+        "git",
+        "rev-parse",
+        "HEAD",
+        "origin/grok"
+      ],
+      "exit": 0,
+      "stdout": "32f7222c86dad190fe045826ad06ea24066205f7\n32f7222c86dad190fe045826ad06ea24066205f7\n",
+      "stderr": ""
+    },
+    {
+      "utc": "2026-09-13T23:18:38.758869+00:00",
+      "command": [
+        "git",
+        "diff",
+        "--name-only"
+      ],
+      "exit": 0,
+      "stdout": "",
+      "stderr": ""
+    },
+    {
+      "utc": "2026-09-13T23:18:38.766724+00:00",
+      "command": [
+        "git",
+        "diff",
+        "--cached",
+        "--name-only"
+      ],
+      "exit": 0,
+      "stdout": "",
+      "stderr": ""
+    },
+    {
+      "utc": "2026-09-13T23:18:38.772761+00:00",
+      "command": [
+        "git",
+        "status",
+        "--short",
+        "--untracked-files=all"
+      ],
+      "exit": 0,
+      "stdout": "?? 8_25/UDT_FOUNDING_VALUE_LAW_ANALYSIS.md\n?? 8_25/udt_extension_checks.py\n?? 8_25/udt_extension_minimality_response.md\n?? 8_25/udt_value_law_checks.py\n?? 8_25/udt_value_law_checks_llm1.py\n?? 8_25/udt_value_law_external_response.md\n?? UDT_Complete_Guardrails_and_Central_Science_Tracking.md\n?? UDT_Next_Step_After_Two_Stages.md\n?? UDT_Sequenced_Guardrails_and_Development_Work_Order.md\n?? udt_native_onshell_timelive_reset_owner_audit_2026-08-10/CANDIDATE_LAW_MAP.tsv\n?? udt_native_onshell_timelive_reset_owner_audit_2026-08-10/DERIVATION_RESULT.json\n?? udt_native_onshell_timelive_reset_owner_audit_2026-08-10/EQUATION_OWNERSHIP_ATLAS.tsv\n?? udt_native_onshell_timelive_reset_owner_audit_2026-08-10/SOURCE_SCOPE_CLARIFICATION.md\n?? udt_native_onshell_timelive_reset_owner_audit_2026-08-10/derive_owner_atlas.py\n?? udt_native_onshell_timelive_reset_owner_audit_2026-08-10/run_catch_proofs.py\n?? udt_native_onshell_timelive_reset_owner_audit_2026-08-10/verify_owner_independent.py\n?? udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/ADVERSARIAL_REVIEW_REQUEST.md\n?? udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/AUDIT_REPORT.md\n?? udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/CATCH_PROOF_RESULT.json\n?? udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/DERIVATION_RESULT.json\n?? udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/EVIDENCE_GATES.md\n?? udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/EXACT_DERIVATION.md\n?? udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/INDEPENDENT_VERIFICATION.json\n?? udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/LAY_REPORT.md\n?? udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/STATUS_LEDGER.tsv\n?? udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/VERIFICATION_RESULT.json\n?? udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/WITNESS_ATLAS.tsv\n?? udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/build_review_intake.py\n?? udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/derive_regime_flow.py\n?? udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/run_catch_proofs.py\n?? udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/verify_independent.py\n?? udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/verify_package.py\n?? udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/AUDIT_REPORT.md\n?? udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/CATCH_PROOF_RESULT.json\n?? udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/DERIVATION_RESULT.json\n?? udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/EVIDENCE_GATES.md\n?? udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/EXACT_DERIVATION.md\n?? udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/INDEPENDENT_RADAU_REPLAY.tsv\n?? udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/INDEPENDENT_VERIFICATION.json\n?? udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/LAY_REPORT.md\n?? udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/PREREGISTRATION_EXECUTION_NOTE.md\n?? udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/PROFILE_COMPATIBILITY_ATLAS.tsv\n?? udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/REVIEW_DISPATCH.md\n?? udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/RUN_CHECKPOINT.tsv\n?? udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/STATUS_LEDGER.tsv\n?? udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/VERIFICATION_RESULT.json\n?? udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/build_review_manifest.py\n?? udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/derive_compatibility_atlas.py\n?? udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/run_catch_proofs.py\n?? udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/verify_independent.py\n?? udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/verify_package.py\n",
+      "stderr": ""
+    }
+  ],
+  "baseline_head": "22f78bb6a043bfccd29507b43879d2a7f3edd256",
+  "original_untracked_status_sha256": "747cf3c497bfbdf7c373a2aa621be3cb241a61f7ef9f508c39bf64588ff70a60",
+  "planned_paths": [
+    "INDEX.md",
+    "MEMORY.md",
+    "UDT_CONSOLIDATED_RESEARCH_ACCOUNT.md",
+    "UDT_RESEARCH_ROADMAP.md",
+    "udt_joint_observer_relation_scope_correction_2026-09-13/AGENT_ALLOCATION.json",
+    "udt_joint_observer_relation_scope_correction_2026-09-13/CLOSEOUT.md",
+    "udt_joint_observer_relation_scope_correction_2026-09-13/CORRECTION.md",
+    "udt_joint_observer_relation_scope_correction_2026-09-13/DECISION_BRIEF.md",
+    "udt_joint_observer_relation_scope_correction_2026-09-13/DEPENDENCY_IMPACT.tsv",
+    "udt_joint_observer_relation_scope_correction_2026-09-13/FIXED_PINS.json",
+    "udt_joint_observer_relation_scope_correction_2026-09-13/LAUNCH.json",
+    "udt_joint_observer_relation_scope_correction_2026-09-13/MAINTAINED_BEFORE.json",
+    "udt_joint_observer_relation_scope_correction_2026-09-13/PUBLISH_PLAN.json",
+    "udt_joint_observer_relation_scope_correction_2026-09-13/SELECTED_PREMISES.tsv",
+    "udt_joint_observer_relation_scope_correction_2026-09-13/SHA256SUMS.json",
+    "udt_joint_observer_relation_scope_correction_2026-09-13/SOURCE_PINS.json",
+    "udt_joint_observer_relation_scope_correction_2026-09-13/WORK_ORDER.md",
+    "udt_joint_observer_relation_scope_correction_2026-09-13/WORK_RECORD.md",
+    "udt_joint_observer_relation_scope_correction_2026-09-13/checks/baseline_status.txt",
+    "udt_joint_observer_relation_scope_correction_2026-09-13/checks/documentation/capture_provenance.json",
+    "udt_joint_observer_relation_scope_correction_2026-09-13/checks/documentation/json",
+    "udt_joint_observer_relation_scope_correction_2026-09-13/checks/documentation/stderr",
+    "udt_joint_observer_relation_scope_correction_2026-09-13/checks/documentation/stdout",
+    "udt_joint_observer_relation_scope_correction_2026-09-13/checks/environment.json",
+    "udt_joint_observer_relation_scope_correction_2026-09-13/checks/navigation_compaction_attempt/capture_provenance.json",
+    "udt_joint_observer_relation_scope_correction_2026-09-13/checks/navigation_compaction_attempt/json",
+    "udt_joint_observer_relation_scope_correction_2026-09-13/checks/navigation_compaction_attempt/stderr",
+    "udt_joint_observer_relation_scope_correction_2026-09-13/checks/navigation_compaction_attempt/stdout",
+    "udt_joint_observer_relation_scope_correction_2026-09-13/checks/navigation_final/capture_provenance.json",
+    "udt_joint_observer_relation_scope_correction_2026-09-13/checks/navigation_final/json",
+    "udt_joint_observer_relation_scope_correction_2026-09-13/checks/navigation_final/stderr",
+    "udt_joint_observer_relation_scope_correction_2026-09-13/checks/navigation_final/stdout",
+    "udt_joint_observer_relation_scope_correction_2026-09-13/checks/navigation_initial/capture_provenance.json",
+    "udt_joint_observer_relation_scope_correction_2026-09-13/checks/navigation_initial/json",
+    "udt_joint_observer_relation_scope_correction_2026-09-13/checks/navigation_initial/stderr",
+    "udt_joint_observer_relation_scope_correction_2026-09-13/checks/navigation_initial/stdout",
+    "udt_joint_observer_relation_scope_correction_2026-09-13/checks/premise.stderr",
+    "udt_joint_observer_relation_scope_correction_2026-09-13/checks/premise.stdout",
+    "udt_joint_observer_relation_scope_correction_2026-09-13/checks/premise_execution.json",
+    "udt_joint_observer_relation_scope_correction_2026-09-13/publication_adapter.py",
+    "udt_joint_observer_relation_scope_correction_2026-09-13/review/COMPACTION_ATTEMPT_FREEZE.json",
+    "udt_joint_observer_relation_scope_correction_2026-09-13/review/FINAL_BYTE_CHECK.json",
+    "udt_joint_observer_relation_scope_correction_2026-09-13/review/FINAL_CANDIDATE_FREEZE.json",
+    "udt_joint_observer_relation_scope_correction_2026-09-13/review/FINAL_REVIEW.json",
+    "udt_joint_observer_relation_scope_correction_2026-09-13/review/FINAL_REVIEW.md",
+    "udt_joint_observer_relation_scope_correction_2026-09-13/review/INITIAL_DIRECT_REVIEW.json",
+    "udt_joint_observer_relation_scope_correction_2026-09-13/review/INITIAL_DIRECT_REVIEW.md",
+    "udt_joint_observer_relation_scope_correction_2026-09-13/review/INITIAL_FREEZE.json",
+    "udt_joint_observer_relation_scope_correction_2026-09-13/review/PRE_ATTRIBUTION_FREEZE.json",
+    "udt_joint_observer_relation_scope_correction_2026-09-13/review/PRE_LATE_DIFF_FINAL_BYTE_CHECK.json",
+    "udt_joint_observer_relation_scope_correction_2026-09-13/review/PRE_LATE_DIFF_FINAL_REVIEW.json",
+    "udt_joint_observer_relation_scope_correction_2026-09-13/review/PRE_LATE_DIFF_FINAL_REVIEW.md",
+    "udt_joint_observer_relation_scope_correction_2026-09-13/review/PRE_METADATA_FIX_FINAL_REVIEW.json",
+    "udt_joint_observer_relation_scope_correction_2026-09-13/review/PRE_METADATA_FIX_FINAL_REVIEW.md",
+    "udt_joint_observer_relation_scope_correction_2026-09-13/review/REPAIR_FREEZE.json",
+    "udt_joint_observer_relation_scope_correction_2026-09-13/review/SOURCE_CHECK_RECORD.json",
+    "udt_joint_observer_relation_scope_correction_2026-09-13/review/SOURCE_FIRST.md",
+    "udt_joint_observer_relation_scope_correction_2026-09-13/review/SOURCE_FIRST_ADDENDUM.md",
+    "udt_joint_observer_relation_scope_correction_2026-09-13/review/SOURCE_FIRST_ADDENDUM_FREEZE.json",
+    "udt_joint_observer_relation_scope_correction_2026-09-13/review/SOURCE_FIRST_FREEZE.json",
+    "udt_joint_observer_relation_scope_correction_2026-09-13/review/initial/00_CORRECTION.md",
+    "udt_joint_observer_relation_scope_correction_2026-09-13/review/initial/01_DECISION_BRIEF.md",
+    "udt_joint_observer_relation_scope_correction_2026-09-13/review/initial/02_DEPENDENCY_IMPACT.tsv",
+    "udt_joint_observer_relation_scope_correction_2026-09-13/review/initial/03_UDT_RESEARCH_ROADMAP.md",
+    "udt_joint_observer_relation_scope_correction_2026-09-13/review/initial/04_PLAN.md",
+    "udt_joint_observer_relation_scope_correction_2026-09-13/review/initial/05_UDT_CONSOLIDATED_RESEARCH_ACCOUNT.md",
+    "udt_joint_observer_relation_scope_correction_2026-09-13/review/initial/06_INDEX.md",
+    "udt_joint_observer_relation_scope_correction_2026-09-13/review/initial/07_MEMORY.md",
+    "udt_joint_observer_relation_scope_correction_2026-09-13/verify_documentation.py",
+    "udt_native_theory_research_plan_2026-09-13/PLAN.md"
+  ],
+  "science_commit": "32f7222c86dad190fe045826ad06ea24066205f7",
+  "postpush_verified_utc": "2026-09-13T23:18:38.798690+00:00",
+  "postpush_refs": [
+    "32f7222c86dad190fe045826ad06ea24066205f7",
+    "32f7222c86dad190fe045826ad06ea24066205f7"
+  ],
+  "tracked_clean": true,
+  "original51_status_names_exact": true
+}
