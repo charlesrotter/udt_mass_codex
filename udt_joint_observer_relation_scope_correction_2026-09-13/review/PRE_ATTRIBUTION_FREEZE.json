@@ -1,0 +1,21 @@
+{
+  "utc": "2026-09-13T23:13:06.838132+00:00",
+  "files": {
+    "udt_joint_observer_relation_scope_correction_2026-09-13/CORRECTION.md": "62b5fd42eac330c57b761593c8e3ecb2ccca1c6c3c12ef2aea90ef2964058aa2",
+    "udt_joint_observer_relation_scope_correction_2026-09-13/DECISION_BRIEF.md": "8f5bea0bcd25410febc630c7877cba849f0cbb96c19f90aa665069594c5c9af1",
+    "udt_joint_observer_relation_scope_correction_2026-09-13/DEPENDENCY_IMPACT.tsv": "00273e9a9ae8c0aab942345877405809f7123181896f9d2cfd0c7db628a547a9",
+    "UDT_RESEARCH_ROADMAP.md": "5a6ece9830b3a9fb726d0a1b683c9b1e0248b8647d4df60606db2523f2e63a1a",
+    "udt_native_theory_research_plan_2026-09-13/PLAN.md": "bb9b48d713f6fe828d828f7f47f9250e9ce1571ee1cc603ad3c2cc43c845cf7c",
+    "UDT_CONSOLIDATED_RESEARCH_ACCOUNT.md": "52006ba5f013bdcc4fc49191eb7089d555eb742aef222e8583c11096bd7bc35a",
+    "INDEX.md": "7bcc58480c08efe7029b8b58d966eb2c15dbbb64b27e9ed78c58ed908dfaf87f",
+    "MEMORY.md": "79d49532f991560fabee23f0b62cb1bfc4bfd2524f6c706df88b95b30b0b12c1"
+  },
+  "repairs": [
+    "R1 calibrated reference inside logarithm",
+    "R2 second-jet probes and neighborhood-record scope",
+    "Final review-pointer wording; no verdict presumed by filename",
+    "Navigation failure: MEMORY470words exceeded450; compact same-purpose pointer, no test-limit change",
+    "R2 coefficient explicitly belongs to squared density m\u00b2",
+    "Second navigation failure451words; remove one redundant word, final450"
+  ]
+}

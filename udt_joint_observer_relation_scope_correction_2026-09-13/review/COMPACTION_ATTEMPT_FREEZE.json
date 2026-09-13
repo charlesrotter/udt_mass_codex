@@ -1,0 +1,19 @@
+{
+  "utc": "2026-09-13T23:12:19.931532+00:00",
+  "files": {
+    "udt_joint_observer_relation_scope_correction_2026-09-13/CORRECTION.md": "f4828ab92dd34d3bf86f8928c1b26bcc7688fdf5cbb4746d569b37cab4ff03a4",
+    "udt_joint_observer_relation_scope_correction_2026-09-13/DECISION_BRIEF.md": "8f5bea0bcd25410febc630c7877cba849f0cbb96c19f90aa665069594c5c9af1",
+    "udt_joint_observer_relation_scope_correction_2026-09-13/DEPENDENCY_IMPACT.tsv": "00273e9a9ae8c0aab942345877405809f7123181896f9d2cfd0c7db628a547a9",
+    "UDT_RESEARCH_ROADMAP.md": "5a6ece9830b3a9fb726d0a1b683c9b1e0248b8647d4df60606db2523f2e63a1a",
+    "udt_native_theory_research_plan_2026-09-13/PLAN.md": "bb9b48d713f6fe828d828f7f47f9250e9ce1571ee1cc603ad3c2cc43c845cf7c",
+    "UDT_CONSOLIDATED_RESEARCH_ACCOUNT.md": "52006ba5f013bdcc4fc49191eb7089d555eb742aef222e8583c11096bd7bc35a",
+    "INDEX.md": "7bcc58480c08efe7029b8b58d966eb2c15dbbb64b27e9ed78c58ed908dfaf87f",
+    "MEMORY.md": "6340cc7daab33b26ed1bf27617f069ee71def58b109dfa3e5624435fa763e16b"
+  },
+  "repairs": [
+    "R1 calibrated reference inside logarithm",
+    "R2 second-jet probes and neighborhood-record scope",
+    "Final review-pointer wording; no verdict presumed by filename",
+    "Navigation failure: MEMORY470words exceeded450; compact same-purpose pointer, no test-limit change"
+  ]
+}

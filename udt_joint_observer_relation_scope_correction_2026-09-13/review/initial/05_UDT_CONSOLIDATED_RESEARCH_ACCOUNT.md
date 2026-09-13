@@ -5,11 +5,7 @@ grok `ab6033469c37f63a0f3aa6527804b7e3cd2f5be6`. CWA1 records Charles's authoriz
 for comprehensive consolidation without a time limit. This account organizes existing
 evidence; it adds no scientific premise, result grade, physical identification or canon.
 
-Later JRC1 scope correction (2026-09-13): joint-relation/admission clarification
-in section 2; exact changed-text review and dependency impact: roadmap. CWA1's
-corpus counts, source baseline and original review below remain snapshot-bound.
-
-`LIVE.md` controls operational status. The CWA1-snapshot exact397-row
+`LIVE.md` controls operational status. The exact397-row
 `CURRENT_SCIENTIFIC_PREMISES.tsv`, current authority records and original reviewed
 sources control scientific scope. The [CWA1 package](udt_accepted_work_consolidation_2026-09-12/WORK_ORDER.md)
 contains coverage, source pins, review and execution history. The fixed

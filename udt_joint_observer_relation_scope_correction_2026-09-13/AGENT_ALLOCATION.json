@@ -1,0 +1,20 @@
+{
+  "reviewer": "/root/jrc1_scope_review",
+  "allocation_count": 1,
+  "fork_turns": "none",
+  "model_override": false,
+  "subdelegation": false,
+  "first_clock_utc": "2026-09-13T23:04:01+00:00",
+  "final_review_utc": "2026-09-13T23:16:14.033639+00:00",
+  "elapsed_seconds": 733.033639,
+  "budget_seconds": 1200,
+  "parent_overlap_seconds": 733.033639,
+  "parent_full_verifier_read_only_overlap_seconds": 278.893138,
+  "reviewer_scientific_processes": 0,
+  "agent_agent_overlap_seconds": 0,
+  "runtime_model": "UNATTESTED",
+  "different_model": "UNTESTED",
+  "capacity": "UNVERIFIED; one successful allocation does not establish restoration",
+  "allocation_limit_recurred": false,
+  "review_final_sha256": "d163b888395826eee6b6bdf0fcf18176042ee223572c0ee3f070613981dedbc1"
+}

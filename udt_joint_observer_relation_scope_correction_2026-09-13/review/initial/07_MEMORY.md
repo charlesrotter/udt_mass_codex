@@ -47,10 +47,11 @@ Session transition: `HANDOFF.md`.
 
 Banking through G382 is complete; G312 membership unclosed, G352 physical identification OPEN.
 Consolidated gains/gates: `UDT_CONSOLIDATED_RESEARCH_ACCOUNT.md`; roadmap owns dispositions and GFC1 connection.
-NAP1 reviewed/UNPROMOTED; admission OPEN; Maxwell PAUSED; emergence rule: AGENTS/roadmap;
-FE1 UNADOPTED; JRC1 joint-relation correction: roadmap.
+NAP1 reviewed/UNPROMOTED; native admission OPEN; Maxwell PAUSED; emergence-question rule: AGENTS; roadmap; FE1 candidate stays UNADOPTED.
+JRC1: shared clock scalar is not full-relation equality or native angular freedom;
+joint-relation/admission priority and selected downstream impact: roadmap.
 
 Backup completeness/pre-reboot unsaved state remain UNVERIFIED; ScratchDisk archive-only.
 R2--R5 remain verified with caveats;184,300 covariance rows unresolved, no preferred scale.
 Protected paths and current permissions are in LIVE/AGENTS; do not inspect their payloads.
-Historical startup: `archive/STARTUP_SURFACE_HISTORY.md`; Git preserves prior current pages.
+Historical startup wording: `archive/STARTUP_SURFACE_HISTORY.md`; Git preserves prior current pages.

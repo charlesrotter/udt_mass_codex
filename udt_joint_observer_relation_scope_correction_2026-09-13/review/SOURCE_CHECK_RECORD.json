@@ -1,0 +1,131 @@
+{
+  "recorded_utc": "2026-09-13T23:06:55.534195+00:00",
+  "kind": "source-correspondence/documentary, not scientific certification",
+  "python": "3.10.12",
+  "git": "git version 2.34.1",
+  "head": "22f78bb6a043bfccd29507b43879d2a7f3edd256",
+  "branch": "grok",
+  "source_count": 17,
+  "all_match": true,
+  "results": [
+    {
+      "path": "AGENTS.md",
+      "expected_sha256": "c578b045cf3278804124e23a5408ff9634a9a2165f7d20223f654d76bffd8ec9",
+      "actual_sha256": "c578b045cf3278804124e23a5408ff9634a9a2165f7d20223f654d76bffd8ec9",
+      "match": true
+    },
+    {
+      "path": "CLAUDE.md",
+      "expected_sha256": "b7e524a5b06760e57877a408630228767ae9a394134095f9851bef5d06e17751",
+      "actual_sha256": "b7e524a5b06760e57877a408630228767ae9a394134095f9851bef5d06e17751",
+      "match": true
+    },
+    {
+      "path": "CROSS_MODEL_VERIFY.md",
+      "expected_sha256": "2b0509d933d731fbf3f72aa88777a54d3e48a94d4bae3d324087871777f9a007",
+      "actual_sha256": "2b0509d933d731fbf3f72aa88777a54d3e48a94d4bae3d324087871777f9a007",
+      "match": true
+    },
+    {
+      "path": ".claude/skills/no-shortcuts/SKILL.md",
+      "expected_sha256": "fd3a1f3218481134f2af829d3ae4175ac53518f75bf9673287efbfb7d7708fc1",
+      "actual_sha256": "fd3a1f3218481134f2af829d3ae4175ac53518f75bf9673287efbfb7d7708fc1",
+      "match": true
+    },
+    {
+      "path": ".claude/skills/completeness-map/SKILL.md",
+      "expected_sha256": "a8cf9e5f4a6d35a0d0ebfe4bc48dbf328ca74e318f020a6a22cb683666a611c0",
+      "actual_sha256": "a8cf9e5f4a6d35a0d0ebfe4bc48dbf328ca74e318f020a6a22cb683666a611c0",
+      "match": true
+    },
+    {
+      "path": ".claude/skills/verifier-before-record/SKILL.md",
+      "expected_sha256": "9b3a4aacd4b4006b2b7f01edada73b7c87b99bea6e754583558713bfc145e5ac",
+      "actual_sha256": "9b3a4aacd4b4006b2b7f01edada73b7c87b99bea6e754583558713bfc145e5ac",
+      "match": true
+    },
+    {
+      "path": "founding.md",
+      "expected_sha256": "b4b0d9a9fdd093c992647195aca7579566a9e77a396071a699c1938888a49e75",
+      "actual_sha256": "b4b0d9a9fdd093c992647195aca7579566a9e77a396071a699c1938888a49e75",
+      "match": true
+    },
+    {
+      "path": "udt_g166_primary_metric_ordered_pair_kernel_descent_2026-08-18/AUDIT_REPORT.md",
+      "expected_sha256": "3b7bef3e8027eb95dd9070cf8844bfbbba602d4a7ce30c1772bbc540f9e97bd7",
+      "actual_sha256": "3b7bef3e8027eb95dd9070cf8844bfbbba602d4a7ce30c1772bbc540f9e97bd7",
+      "match": true
+    },
+    {
+      "path": "udt_g167_primary_metric_full_pair_pullback_orchestra_2026-08-18/AUDIT_REPORT.md",
+      "expected_sha256": "c1a1f722e393e431b1b0805a7e2d5ad8e27813c48db989f824b76898bc499593",
+      "actual_sha256": "c1a1f722e393e431b1b0805a7e2d5ad8e27813c48db989f824b76898bc499593",
+      "match": true
+    },
+    {
+      "path": "udt_g176_completed_pair_dual_reciprocity_consolidation_2026-08-19/AUDIT_REPORT.md",
+      "expected_sha256": "c7c96194a8baf3465b2d8c58ff19051ee2937b4b7f7a5d0e8859ad1a26651d84",
+      "actual_sha256": "c7c96194a8baf3465b2d8c58ff19051ee2937b4b7f7a5d0e8859ad1a26651d84",
+      "match": true
+    },
+    {
+      "path": "udt_native_angular_premise_audit_2026-09-13/REVIEWED_RESULT.md",
+      "expected_sha256": "b610be2000969776ca75b9b126a5c9c3d92e0d139b347100bd7cd362c2add59a",
+      "actual_sha256": "b610be2000969776ca75b9b126a5c9c3d92e0d139b347100bd7cd362c2add59a",
+      "match": true
+    },
+    {
+      "path": "udt_native_angular_premise_audit_2026-09-13/review/REVIEW.md",
+      "expected_sha256": "24a4ae0d9955466e07a5f723d3ad2c77efb255b3ac3e87b7553587fc4e0946ca",
+      "actual_sha256": "24a4ae0d9955466e07a5f723d3ad2c77efb255b3ac3e87b7553587fc4e0946ca",
+      "match": true
+    },
+    {
+      "path": "udt_local_kernel_symmetry_release_2026-09-13/REVIEWED_RESULT.md",
+      "expected_sha256": "7e8b9444a087d797eeb42931c14c48f93e718c88ab1870a79dbe61e609be1dc6",
+      "actual_sha256": "7e8b9444a087d797eeb42931c14c48f93e718c88ab1870a79dbe61e609be1dc6",
+      "match": true
+    },
+    {
+      "path": "udt_field_equation_principle_design_2026-09-13/DECISION_PACKET.md",
+      "expected_sha256": "f7e915dd01b4ffc803c6a55ab76310f5efc802971b060fbf9c4897c01c4118c5",
+      "actual_sha256": "f7e915dd01b4ffc803c6a55ab76310f5efc802971b060fbf9c4897c01c4118c5",
+      "match": true
+    },
+    {
+      "path": "udt_field_equation_principle_design_2026-09-13/CANDIDATE.md",
+      "expected_sha256": "8215f1aea8a272dbb869bee96f322517f7495ba636dcd5946c376f363d8dab17",
+      "actual_sha256": "8215f1aea8a272dbb869bee96f322517f7495ba636dcd5946c376f363d8dab17",
+      "match": true
+    },
+    {
+      "path": "udt_field_equation_principle_design_2026-09-13/reviews/FINAL_REVIEW.md",
+      "expected_sha256": "a3925bffbe12355fb385c5e57d977c141233d46a9f1f8bffc9ea5a4e5a60cefe",
+      "actual_sha256": "a3925bffbe12355fb385c5e57d977c141233d46a9f1f8bffc9ea5a4e5a60cefe",
+      "match": true
+    },
+    {
+      "path": "udt_gr_filter_reconciliation_2026-09-09/AUTHORITY_RECORD.md",
+      "expected_sha256": "80daa0be6d3e1c0ac1b734fea089c4eb487f05bc1e1fbb2fabd69322ca89f28c",
+      "actual_sha256": "80daa0be6d3e1c0ac1b734fea089c4eb487f05bc1e1fbb2fabd69322ca89f28c",
+      "match": true
+    }
+  ],
+  "reads": [
+    "cat AGENTS.md",
+    "sed -n 9,83p CLAUDE.md",
+    "sed -n 121,151p CLAUDE.md",
+    "cat .claude/skills/verifier-before-record/SKILL.md .claude/skills/no-shortcuts/SKILL.md .claude/skills/completeness-map/SKILL.md CROSS_MODEL_VERIFY.md",
+    "cat JRC1 WORK_ORDER.md SOURCE_PINS.json",
+    "sed -n 1,133p founding.md",
+    "sed -n 199,248p founding.md",
+    "sed -n 268,674p founding.md",
+    "cat complete scientific reports and reviewed summaries listed in SOURCE_FIRST.md/SOURCE_PINS.json"
+  ],
+  "scientific_runs": [],
+  "full406": "not independently run; parent RUNNING at dispatch",
+  "protected_payload_reads": false,
+  "source_mutations": false,
+  "clock_start_utc": "2026-09-13T23:04:01Z",
+  "deadline_utc": "2026-09-13T23:24:01Z"
+}

@@ -1,0 +1,50 @@
+[
+  {
+    "path": "udt_joint_observer_relation_scope_correction_2026-09-13/CORRECTION.md",
+    "initial_preserved": true,
+    "final_matches": true,
+    "final_sha256": "62b5fd42eac330c57b761593c8e3ecb2ccca1c6c3c12ef2aea90ef2964058aa2"
+  },
+  {
+    "path": "udt_joint_observer_relation_scope_correction_2026-09-13/DECISION_BRIEF.md",
+    "initial_preserved": true,
+    "final_matches": true,
+    "final_sha256": "8f5bea0bcd25410febc630c7877cba849f0cbb96c19f90aa665069594c5c9af1"
+  },
+  {
+    "path": "udt_joint_observer_relation_scope_correction_2026-09-13/DEPENDENCY_IMPACT.tsv",
+    "initial_preserved": true,
+    "final_matches": true,
+    "final_sha256": "00273e9a9ae8c0aab942345877405809f7123181896f9d2cfd0c7db628a547a9"
+  },
+  {
+    "path": "UDT_RESEARCH_ROADMAP.md",
+    "initial_preserved": true,
+    "final_matches": true,
+    "final_sha256": "5a6ece9830b3a9fb726d0a1b683c9b1e0248b8647d4df60606db2523f2e63a1a"
+  },
+  {
+    "path": "udt_native_theory_research_plan_2026-09-13/PLAN.md",
+    "initial_preserved": true,
+    "final_matches": true,
+    "final_sha256": "bb9b48d713f6fe828d828f7f47f9250e9ce1571ee1cc603ad3c2cc43c845cf7c"
+  },
+  {
+    "path": "UDT_CONSOLIDATED_RESEARCH_ACCOUNT.md",
+    "initial_preserved": true,
+    "final_matches": true,
+    "final_sha256": "2c60c6826dd9660d13ffdda5a1eeae9562ffb65d7cc2339d37f91e4e21ad72b3"
+  },
+  {
+    "path": "INDEX.md",
+    "initial_preserved": true,
+    "final_matches": true,
+    "final_sha256": "7bcc58480c08efe7029b8b58d966eb2c15dbbb64b27e9ed78c58ed908dfaf87f"
+  },
+  {
+    "path": "MEMORY.md",
+    "initial_preserved": true,
+    "final_matches": true,
+    "final_sha256": "79d49532f991560fabee23f0b62cb1bfc4bfd2524f6c706df88b95b30b0b12c1"
+  }
+]

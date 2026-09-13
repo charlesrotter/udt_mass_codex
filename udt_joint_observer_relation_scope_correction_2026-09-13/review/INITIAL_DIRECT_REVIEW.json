@@ -1,0 +1,7 @@
+{
+  "written_utc": "2026-09-13T23:12:04.019871+00:00",
+  "path": "udt_joint_observer_relation_scope_correction_2026-09-13/review/INITIAL_DIRECT_REVIEW.md",
+  "sha256": "456cf113ca542903101fc352c80e89b8fb208ca78e8b0d5d09dc45246fc3e8af",
+  "verdict": "VERIFIED-WITH-CAVEATS; R1/R2 precision repairs pending",
+  "candidate_manifest_sha256": "f50323fb799ad918a500cc3edcefa2ca606115e03c20d18c3d07aa1ce44c5f39"
+}

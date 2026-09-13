@@ -1,0 +1,52 @@
+{
+  "source_disk_and_baseline_pins": 25,
+  "fixed_disk_and_baseline_pins": 8,
+  "maintained_before_snapshots": 5,
+  "initial_review_snapshots_exact": 8,
+  "final_review_candidate_hashes_exact": 8,
+  "exact_complete_selected_registry_rows": 12,
+  "original_untracked_names": 51,
+  "original_untracked_name_sha256": "747cf3c497bfbdf7c373a2aa621be3cb241a61f7ef9f508c39bf64588ff70a60",
+  "tracked_change_scope": [
+    "INDEX.md",
+    "MEMORY.md",
+    "UDT_CONSOLIDATED_RESEARCH_ACCOUNT.md",
+    "UDT_RESEARCH_ROADMAP.md",
+    "udt_native_theory_research_plan_2026-09-13/PLAN.md"
+  ],
+  "premise_actual_execution": {
+    "command": "python3 verify_current_scientific_premises.py",
+    "started_utc": "2026-09-13T23:01:54.322818+00:00",
+    "elapsed_seconds": 405.5703203760786,
+    "exit_code": 0
+  },
+  "navigation_actual_execution": {
+    "command": [
+      "python3",
+      "-m",
+      "pytest",
+      "--noconftest",
+      "-q",
+      "-p",
+      "no:cacheprovider",
+      "tests/test_startup_surface.py",
+      "-k",
+      "not full_foundational_premise_verifier_is_in_pytest"
+    ],
+    "cwd": "/home/udt-admin/udt_mass_codex",
+    "started_utc": "2026-09-13T23:13:06.941669+00:00",
+    "duration_seconds": 15.135692492942326,
+    "returncode": 0,
+    "timeout": false,
+    "address_space_bytes": 2147483648,
+    "cpu_seconds": 120,
+    "maxrss_kib": 52400
+  },
+  "two_documentary_failures_preserved": true,
+  "separate_context_review_hash_correspondence": true,
+  "utc": "2026-09-13T23:15:31.081508+00:00",
+  "baseline_head": "22f78bb6a043bfccd29507b43879d2a7f3edd256",
+  "python": "3.10.12 (main, Aug 31 2026, 10:18:17) [GCC 11.4.0]",
+  "platform": "Linux-6.8.0-138-generic-x86_64-with-glibc2.35",
+  "result": "PASS_DOCUMENTARY_CORRESPONDENCE_ONLY"
+}
