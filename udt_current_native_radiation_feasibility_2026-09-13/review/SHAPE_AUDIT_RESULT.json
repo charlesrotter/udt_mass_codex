@@ -1,0 +1,132 @@
+{
+  "utc": "2026-09-13T05:21:34.342181+00:00",
+  "kind": "instrumented replay of same reviewer code, no independent mathematical count",
+  "source_sha256": "d7b4c22e9d3557c197c2b946d5d2305fe29e5542488edaacc54a5dc27d7fe825",
+  "adapted_sha256": "039538eab8c861fe91678568ce4eb6e3338f357afa256201d49890e4330e218a",
+  "actual_comparison_shapes": [
+    {
+      "name": "jet_second_derivative_rational",
+      "left": 1,
+      "right": 1
+    },
+    {
+      "name": "jet_mixed_derivative_product",
+      "left": 1,
+      "right": 1
+    },
+    {
+      "name": "pp0_F_lower_then_d",
+      "left": 16,
+      "right": 16
+    },
+    {
+      "name": "pp0_quadratic_comparison",
+      "left": 16,
+      "right": 16
+    },
+    {
+      "name": "pp0_nonzero_curvature_value",
+      "left": 1,
+      "right": 1
+    },
+    {
+      "name": "pp0_complete_rational_coframe",
+      "left": 16,
+      "right": 16
+    },
+    {
+      "name": "pp1_F_lower_then_d",
+      "left": 16,
+      "right": 16
+    },
+    {
+      "name": "pp1_quadratic_comparison",
+      "left": 16,
+      "right": 16
+    },
+    {
+      "name": "pp1_nonzero_curvature_value",
+      "left": 1,
+      "right": 1
+    },
+    {
+      "name": "pp1_complete_rational_coframe",
+      "left": 16,
+      "right": 16
+    },
+    {
+      "name": "pp2_F_lower_then_d",
+      "left": 16,
+      "right": 16
+    },
+    {
+      "name": "pp2_quadratic_comparison",
+      "left": 16,
+      "right": 16
+    },
+    {
+      "name": "pp2_nonzero_curvature_value",
+      "left": 1,
+      "right": 1
+    },
+    {
+      "name": "pp2_complete_rational_coframe",
+      "left": 16,
+      "right": 16
+    },
+    {
+      "name": "product_sphere_full_Ricci",
+      "left": 16,
+      "right": 16
+    },
+    {
+      "name": "product_sphere_divergence_sign",
+      "left": 4,
+      "right": 4
+    },
+    {
+      "name": "product_sphere_Ricci_Killing_identity",
+      "left": 4,
+      "right": 4
+    },
+    {
+      "name": "flat_null_rotation_nonzero_Fux",
+      "left": 1,
+      "right": 1
+    },
+    {
+      "name": "arbitrary_exact_flat_form_divergence",
+      "left": 4,
+      "right": 4
+    },
+    {
+      "name": "be_off0_2_full_covariant_identity",
+      "left": 4,
+      "right": 4
+    },
+    {
+      "name": "be_off0_3_full_covariant_identity",
+      "left": 4,
+      "right": 4
+    },
+    {
+      "name": "be_off1_2_full_covariant_identity",
+      "left": 4,
+      "right": 4
+    },
+    {
+      "name": "be_off1_3_full_covariant_identity",
+      "left": 4,
+      "right": 4
+    },
+    {
+      "name": "BE1_P0_nonnull_full_lapse",
+      "left": 1,
+      "right": 1
+    }
+  ],
+  "all_actual_shapes_equal": true,
+  "unequal_shape_mutation_caught": true,
+  "baseline_result_path": "udt_current_native_radiation_feasibility_2026-09-13/review/SHAPE_REPLAY_BODY.json",
+  "note": "Initial84 did not contain this length guard; current actual shapes checked here without rewriting initial evidence."
+}

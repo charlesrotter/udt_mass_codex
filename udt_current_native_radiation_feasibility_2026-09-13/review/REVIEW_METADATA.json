@@ -1,0 +1,18 @@
+{
+  "review_context": "/root/native_radiation_review",
+  "first_tool_attested_utc": "2026-09-13T05:07:35+00:00",
+  "parent_reported_allocation_approx_utc": "2026-09-13T05:07:22+00:00",
+  "controlling_hard_stop_utc": "2026-09-13T05:47:22+00:00",
+  "source_first_saved_before_this_utc": "2026-09-13T05:11:25.912876+00:00",
+  "source_first_sha256": "5596c9d70e9c2f53811454717b87c467cc9808d90147ce1482e6b3519479e90d",
+  "model": "UNATTESTED",
+  "different_model": "UNTESTED",
+  "parent_current_full406_result_received_after_source_first_writing": {
+    "status": "PASS",
+    "attribution": "parent message, not independent rerun",
+    "start_utc": "2026-09-13T05:01:17.964257+00:00",
+    "duration_seconds": 404.704711,
+    "exit_code": 0
+  },
+  "deadline_note": "SOURCE_FIRST initial tool-based deadline05:47:35 is superseded by earlier parent allocation deadline05:47:22; original assessment retained unchanged."
+}

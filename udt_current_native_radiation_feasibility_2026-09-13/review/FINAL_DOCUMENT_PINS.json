@@ -1,0 +1,119 @@
+{
+  "utc": "2026-09-13T05:31:58.027079+00:00",
+  "kind": "final documentation/preservation/capture correspondence; not a scientific rerun",
+  "checks": {
+    "direct_scientific_pins_unchanged": true,
+    "audited_inputs_unchanged": true,
+    "six_actual_navigation_pins_match": true,
+    "exact_original51_status_names": true,
+    "only_six_authorized_tracked_changes": true,
+    "index_empty_before_publication": true,
+    "brief_repair_hash_matches": true,
+    "source_first_preserved": true,
+    "audit_reuse_timing_scope_repaired": true,
+    "final_startup_actual359_1": true,
+    "new_full406_actual_pass": true,
+    "current_surface_actual_pass": true,
+    "startup_initial_failure_retained": true,
+    "startup_repaired_actual_pass": true
+  },
+  "all_pass": true,
+  "head": "22921f57d29a5990b7422509d1fd9b24a6ec36f3",
+  "origin_grok": "22921f57d29a5990b7422509d1fd9b24a6ec36f3",
+  "branch": "grok",
+  "source_drift": [],
+  "audited_input_drift": [],
+  "nav_drift": [],
+  "original_untracked_count": 51,
+  "original_status_sha256": "747cf3c497bfbdf7c373a2aa621be3cb241a61f7ef9f508c39bf64588ff70a60",
+  "tracked_changed_paths": [
+    "CURRENT_RESEARCH_PROGRAM.md",
+    "HANDOFF.md",
+    "INDEX.md",
+    "LIVE.md",
+    "MEMORY.md",
+    "UDT_RESEARCH_ROADMAP.md"
+  ],
+  "staged_paths": [],
+  "captures": {
+    "premise406": {
+      "exit": 0,
+      "timeout": false,
+      "start": "2026-09-13T05:01:17.964257+00:00",
+      "seconds": 404.7047113489825
+    },
+    "candidate_exact": {
+      "exit": 0,
+      "timeout": false,
+      "start": "2026-09-13T05:10:20.498996+00:00",
+      "seconds": 0.543237515958026
+    },
+    "non_einstein_exact": {
+      "exit": 0,
+      "timeout": false,
+      "start": "2026-09-13T05:18:23.218348+00:00",
+      "seconds": 0.27305275306571275
+    },
+    "startup_active": {
+      "exit": 4,
+      "timeout": false,
+      "start": "2026-09-13T05:13:43.708634+00:00",
+      "seconds": 0.10432666295673698
+    },
+    "startup_active_isolated": {
+      "exit": 0,
+      "timeout": false,
+      "start": "2026-09-13T05:14:53.183601+00:00",
+      "seconds": 15.191164351068437
+    },
+    "current_surface_final": {
+      "exit": 0,
+      "timeout": false,
+      "start": "2026-09-13T05:26:51.970459+00:00",
+      "seconds": 0.1855014479951933
+    },
+    "navigation_final": {
+      "exit": 0,
+      "timeout": false,
+      "start": "2026-09-13T05:26:59.076892+00:00",
+      "seconds": 15.129865137045272
+    }
+  },
+  "document_pins": {
+    "udt_current_native_radiation_feasibility_2026-09-13/REVIEWED_RESULT.md": "35ff6515d1f35cf127daf25abaa62a41a56981e978afcb158f5f52e07333168f",
+    "udt_current_native_radiation_feasibility_2026-09-13/DECISION_BRIEF.md": "3e15915320a5b058576885b6a3cd5cd1a27e2c49d545332d07972896763dcd4d",
+    "udt_current_native_radiation_feasibility_2026-09-13/COMPARISON_BOUNDARY.md": "9f25664960398dfe0119818de054885b98ba6ba1a156eba9a612905ec0b4b5fb",
+    "udt_current_native_radiation_feasibility_2026-09-13/RESULT_SCOPE.tsv": "0873d1ff2d6781caaca3c383495a93a412a312fb9e4f9bf6fc5478581f8fa406",
+    "udt_current_native_radiation_feasibility_2026-09-13/README.md": "12867829a96f5f67e0f3e9f3ab23871b06dc42ac37521b1365948c7ca037b3bb",
+    "udt_current_native_radiation_feasibility_2026-09-13/CLOSEOUT.md": "79e19a7c2b211b341d94976878f93c0da538d4bc3db5623fa7a392f29335700b",
+    "udt_current_native_radiation_feasibility_2026-09-13/CHECKPOINT.md": "0234ca8b99d609451c30054e8d425d83e90d1030a071cdc3f001fbf4d23f117e",
+    "udt_current_native_radiation_feasibility_2026-09-13/SOURCE_MAP.md": "ee8f741a60133cbf1f4251c3102be711257467386bd7307ff1b4d84dadd437e0",
+    "udt_current_native_radiation_feasibility_2026-09-13/SOURCE_MAP_ADDENDUM.md": "f25c693d560cfcfbea52f4a1a73e42cff1a9e27c8fa1e6b739a868e6049bebc2",
+    "udt_current_native_radiation_feasibility_2026-09-13/AUDIT_REUSE.json": "b12e92c26cfdb2b2efd34e571b6fecf61f0e6a23093dd3aede35ed66a51afc49",
+    "udt_current_native_radiation_feasibility_2026-09-13/AUDIT_INPUT_PINS.json": "a5353a3aafc1e1ad5ed06c06d4664e23c0c3334dd9181f803f53a8b4511a2266",
+    "udt_current_native_radiation_feasibility_2026-09-13/PRESERVATION_CHECK.json": "f03a01ce92b0e5a81d04c051cc57ffbc5baed808fe5d39b2293da21115afd148",
+    "udt_current_native_radiation_feasibility_2026-09-13/FIDELITY_REPAIRS.json": "62403f394588cad7acd076c937caea4f36286fc1d259e21b13e473ccf2ca6783",
+    "udt_current_native_radiation_feasibility_2026-09-13/PREPUBLICATION_SYNC.json": "524a2f59fd6c076c3a6ec8cc080770d51a7711d9ecdda470dfa6e961198f7d58",
+    "udt_current_native_radiation_feasibility_2026-09-13/EXECUTION_INTERVALS.json": "aef1226fbabeb83f616fab76ad75de6d1e90271588d7b2f0c242ff6e4d337a6f",
+    "udt_current_native_radiation_feasibility_2026-09-13/EXECUTION_INTERVALS_PRE_FIDELITY.json": "57ce6414b516a5106f793ad9f4513407aec10c85db488cd6e9405e19625f9e5e",
+    "udt_current_native_radiation_feasibility_2026-09-13/STARTUP_CHECK_DIAGNOSTIC.md": "bd578e230dd2b5e425eddec5697378f655ad83d844323b6306cd21a648c951a3",
+    "udt_current_native_radiation_feasibility_2026-09-13/LAUNCH.json": "b09ce9162878b29f17aaab7b9ffa00c27fc7702ba75290af554568902621c1f2",
+    "udt_current_native_radiation_feasibility_2026-09-13/PROFILE_SCOPE_CLARIFICATION.md": "53d7a5e420a5443d1fc1e4d6c12d08b010efca8dedafab2ee0be7824f61ed4f4",
+    "udt_current_native_radiation_feasibility_2026-09-13/NON_EINSTEIN_CONTROL.md": "d6412ad9188a12135df021cb26c926dbcebcb685406487035bcc9954f3b67b40",
+    "udt_current_native_radiation_feasibility_2026-09-13/review/DIRECT_REVIEW.md": "b902f6d7fcdca77a384e83fe4d6fc1e8fb4552766af6755f2ffb785a1a4ac30d",
+    "udt_current_native_radiation_feasibility_2026-09-13/review/DIRECT_REVIEW_PINS.json": "3b96500d4b38a909638b1454601e76bea0b19ce6bb0f508819010f47009e5ad0",
+    "udt_current_native_radiation_feasibility_2026-09-13/review/ALLOCATION.json": "82d38b3dc48f68b6d08da53cf3d983890117439605fe3ef383d972d3d386e5ec",
+    "udt_current_native_radiation_feasibility_2026-09-13/review/SOURCE_FIRST.md": "5596c9d70e9c2f53811454717b87c467cc9808d90147ce1482e6b3519479e90d",
+    "udt_current_native_radiation_feasibility_2026-09-13/review/FINAL_FIDELITY_REQUEST.md": "b15e678beab5294938b339acf2152e38c51f00fa6028ae0b3f3c8ce0ea7d2009",
+    "LIVE.md": "fd7d4982f2bc81e936fef794db68737b6160946e3da44dd5d8d04e61869d53ce",
+    "HANDOFF.md": "3be4fdd80716e35ed04472fd48df2ff5ec66ee99f9bbf9aef89a7a9d1f6f786b",
+    "CURRENT_RESEARCH_PROGRAM.md": "0eb68382d6ab8eef2acf30a21769306f1fda1f868b220fe5941928969e89d8b4",
+    "INDEX.md": "9916bde34b9ff76e6dbf8ce9e998e78b360a50150586a9e37b0e09d97bca7065",
+    "MEMORY.md": "c07e4875545c9360590b2c30577259a85429d7c57835b9ea50da58dcea469103",
+    "UDT_RESEARCH_ROADMAP.md": "15078e52a2363b73858fc09df8f1699b64835cf502d47297c3bfbadaf768636e"
+  },
+  "publication": "not yet performed; parent-owned administrative gate",
+  "reviewer_runtime_model": "UNATTESTED",
+  "different_model": "UNTESTED",
+  "code_sha256": "978a677404f821322ec5eba84f95f5289d5fe52584b55ebf51ebbe21d3986596"
+}

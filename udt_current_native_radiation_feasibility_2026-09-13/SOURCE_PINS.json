@@ -1,0 +1,24 @@
+{
+  "utc": "2026-09-13T05:07:07.059588+00:00",
+  "head": "22921f57d29a5990b7422509d1fd9b24a6ec36f3",
+  "sources": {
+    "CURRENT_SCIENTIFIC_PREMISES.tsv": "7a3d69d5a0bc3ac98e2ebe2bb0c6d029df30071bf403baffed2223a193dc720b",
+    "udt_gr_filter_reconciliation_2026-09-09/AUTHORITY_RECORD.md": "80daa0be6d3e1c0ac1b734fea089c4eb487f05bc1e1fbb2fabd69322ca89f28c",
+    "udt_g179_complete_coframe_pair_pullback_extension_2026-08-19/AUDIT_REPORT.md": "fe4d0aa56a734ca58972ea8123264efa6e0b979831f7f618eab8f69afa7ee2f2",
+    "udt_uncompressed_pair_kernel_reconstruction_2026-08-14/AUDIT_REPORT.md": "45fa4a9a2a7ff911e3abf20ceae33eb88b2622c9201b4e0c63e9f63693fb9a13",
+    "udt_native_radiative_current_energy_owner_audit_2026-08-15/AUDIT_REPORT.md": "4cd992609da856a9d374f1b3a60c700e062780829199b57749c9259e6e67140a",
+    "udt_native_radiative_current_energy_owner_audit_2026-08-15/EXTERNAL_REVIEW_ADJUDICATION.md": "73c03b4e104153409a0ddd7cacfb53f0b5fd5b7e9711dea44a055f7f4b9a986f",
+    "angular_toric_closure_selector_2026-07-19/AUDIT_REPORT.md": "4e1178a7993a6f3f3e94713df27d0ab8c140b96ef613c5fa09099af72941cb8b",
+    "native_hopfion_topology_audit_2026-07-19/AUDIT_REPORT.md": "df0171eb83d75ad175727a8db541df8500b7826edf6059ae63a52f1a1ba15bea",
+    "native_hopfion_topology_audit_2026-07-19/TOPOLOGY_STATUS_LEDGER.tsv": "de154fbb7787759864786c04186a26a4605c447d362112bb482acee064d457e4",
+    "udt_g313_tracefree_ricci_solution_space_bootstrap_map_2026-09-01/AUDIT_REPORT.md": "b7df75cee891ed23dcf4796aba0a3d25e101ee89e4c1add95c8ef842987e418e",
+    "udt_g348_generic_lorentzian_null_screen_area_theorem_2026-09-04/AUDIT_REPORT.md": "b264f4a8959a557884f3e6a668aab68d2831b477caf693f95db7b524c01bd279",
+    "udt_g351_source_free_labelwise_carried_measure_conservation_2026-09-05/AUDIT_REPORT.md": "9fe05975201708714983e03ca592f75bd40ccb16ea4079b7e4a33c9dfe4b48c1",
+    "udt_g352_clock_rate_carried_measure_readout_2026-09-05/AUDIT_REPORT.md": "4f1925a1d11d00d55bea6bf3858cbedf2878e63c8e4e14e5a22211b4e03d9f8f",
+    "udt_broader_evolving_signal_geometry_2026-09-13/INITIAL_CANDIDATE.md": "0c4b42c310e08767deba69dfee6c4f85e37b728a4436979dc1034e2ae7b3fcb3",
+    "udt_broader_evolving_signal_geometry_2026-09-13/CALIBRATION_SCOPE_CLARIFICATION.md": "6bc3c086c612ae6131e12aaee5c14e9814cbbbecaf3d5b2d32b01d5aca5e30a9",
+    "udt_broader_evolving_signal_geometry_2026-09-13/REVIEWED_RESULT.md": "9c8ba8a9e52ba15b8ebf49de3ab9a335c2bd8613bfd1983f75b744c9a29bffcd",
+    "udt_broader_evolving_signal_geometry_2026-09-13/review/DIRECT_REVIEW.md": "d7fae599a0986c1eea28309449e6e8b91d5ee4e28dedaf14b59b2730b4797668"
+  },
+  "caveat": "Snapshot correspondence, not truth, independent chronology or source adoption."
+}

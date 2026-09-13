@@ -1,0 +1,30 @@
+{
+  "recorded_utc": "2026-09-13T05:34:48.886533+00:00",
+  "scientific_review_and_final_fidelity": "COMPLETE_ACCEPTED_WITH_CAVEATS_CONDITIONAL_UNPROMOTED",
+  "reviewer_completed_utc": "2026-09-13T05:33:52.808695+00:00",
+  "allocation_count": 1,
+  "allocation_elapsed_seconds_bounds": [
+    1581.808695,
+    1749.808695
+  ],
+  "parent_review_context_coexistence_seconds_bounds": [
+    1581.808695,
+    1749.808695
+  ],
+  "full406_parent_process_vs_reviewer_allocation_overlap_seconds_bounds": [
+    31.668968,
+    199.668968
+  ],
+  "overlap_kind": "Allocation coexistence bounds, not simultaneous scientific CPU use. Actual captured scientific/fidelity processes have no detected overlap. Uncaptured administrative/source-reading activity not censused.",
+  "within_40min_from_earliest_bound": true,
+  "source_first_within8min": true,
+  "no_further_review_allocation": "All NR1 review stages complete; no further attempt made or needed.",
+  "runtime_model": "UNATTESTED",
+  "configured_parent_attribution": "gpt-6-astra/xhigh",
+  "different_model": "UNTESTED",
+  "general_capacity": "UNVERIFIED",
+  "interval_utility_source": "udt_signal_chain_banking_2026-09-13/record_execution.py",
+  "interval_utility_sha256": "3988644f37649cadb9510448d61bb778858279b1039c45052e84e7f64a6a5e74",
+  "interval_adaptation": "in-memory package root and output filename only; prior interval snapshots retained",
+  "publication": "PENDING actual parent staging/commit/push gates"
+}

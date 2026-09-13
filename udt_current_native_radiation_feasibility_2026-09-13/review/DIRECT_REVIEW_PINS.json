@@ -1,0 +1,31 @@
+{
+  "utc": "2026-09-13T05:21:57.996035+00:00",
+  "pins": {
+    "INITIAL_CANDIDATE.md": "569de1c36d052a0a844031c2161bf5e64f42014c99815d2bde0b30c7507caf57",
+    "CANDIDATE_FREEZE.json": "cf9e43acd2de5f7ea176953af91c8f5e873862c5468f0ec2212e81684320280e",
+    "PROFILE_SCOPE_CLARIFICATION.md": "53d7a5e420a5443d1fc1e4d6c12d08b010efca8dedafab2ee0be7824f61ed4f4",
+    "PROFILE_CLARIFICATION_FREEZE.json": "152db8f498f8f378a3b33ed465808ce702d85f5b9c4138b6aee3481e4f036e7c",
+    "NON_EINSTEIN_CONTROL.md": "d6412ad9188a12135df021cb26c926dbcebcb685406487035bcc9954f3b67b40",
+    "NON_EINSTEIN_FREEZE.json": "c551ad6553db89364b50d9fedd0c193d8560f16928283d9d326bebb48312df85",
+    "check_non_einstein.py": "66bc0e7fe9445b0e9e3db2dc446bfe9b2e0a544064da936bbea9dc41f6b91b3a",
+    "NON_EINSTEIN_RESULT.json": "a1644cd2c797bca4863b3de394aff3b0c1f2d7de72cdfb60ae4b82ee5bbe0979",
+    "SOURCE_MAP.md": "ee8f741a60133cbf1f4251c3102be711257467386bd7307ff1b4d84dadd437e0",
+    "SOURCE_MAP_ADDENDUM.md": "f25c693d560cfcfbea52f4a1a73e42cff1a9e27c8fa1e6b739a868e6049bebc2",
+    "SOURCE_PINS.json": "99720d78ed0694223ec4a104243b7bf97a7f2b9b98b833d71a54cdbc39c975b4",
+    "WORK_ORDER.md": "36da067746953260cec7a308c6af72093c4049002a63e2ec55d8e6bd82d4152a",
+    "check_candidate.py": "85711d60ceedb583d5350059a952db6fd6f649e880e8fcb0d8317b714fdf26d5",
+    "EXACT_RESULT.json": "c4bd9fd78141666c3d1975809d31b0dfa7ee4b57ad72523d42118f4b1c57be11"
+  },
+  "additional_S1_freeze_checks": {
+    "NON_EINSTEIN_CONTROL.md": true,
+    "check_non_einstein.py": true,
+    "check_candidate.py": true
+  },
+  "allocation_timing": {
+    "earliest_parent_clock_bracket": "2026-09-13T05:04:43+00:00",
+    "latest_parent_clock_bracket": "2026-09-13T05:07:31+00:00",
+    "first_reviewer_clock": "2026-09-13T05:07:35+00:00",
+    "controlling_conservative_hard_stop": "2026-09-13T05:44:43+00:00",
+    "note": "Earlier05:07:22 allocation estimate is not tool-attested; preserve original metadata but this bracket/deadline controls."
+  }
+}

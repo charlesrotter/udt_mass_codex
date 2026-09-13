@@ -6,13 +6,41 @@ Banking through G423 is COMPLETE; exact conditional signal-chain scope and actua
 Current operational handoff: `HANDOFF.md`; the maintained checkpoint below records the reviewed
 ER1 expansion, banking, nonlinear and measurement returns, and the CWA1 consolidation.
 CWA1's consolidation, NCB1's banking and NCR1/NTB1's directional returns are recorded below.
-Charles authorized banking, broader-geometry testing and one result-informed follow-up; TI3/OB2 retain separate holds.
+Banking, broader-geometry testing, one follow-up and the separately authorized NR1 now have reviewed returns; TI3/OB2 retain separate holds.
 This is a maintained direction document, not a premise, theorem, promotion
 or replacement for LIVE, the exact registry, or reviewed scientific sources.
 
 Current acceptance overlay: earlier UNPROMOTED/campaign-only language below records historical
 returns. The G383--G412, G413--G415 and G416--G423 banking packets and maintained checkpoint own later dispositions;
 original result packages remain unchanged. No physical adoption or canon is included.
+
+## NR1 reviewed current-premise radiation feasibility — 2026-09-13
+
+The new authorized two-hour exploration returned VERIFIED-WITH-CAVEATS,
+CONDITIONAL UNPROMOTED. Lay scope and proposed next question:
+`udt_current_native_radiation_feasibility_2026-09-13/DECISION_BRIEF.md`;
+full argument, C1 correction, S1 control and fresh review: its REVIEWED_RESULT;
+actual checks/resources/publication: CLOSEOUT and receipt. Earlier continuation
+remains CLOSED; NR1 used one separately authorized fresh review allocation.
+
+The known Killing construction supplies both source-free Maxwell-form equations
+under Ric(K)=0, with a full evolving nonzero null example and a direct application
+to BE1's full metric. Constant/zero field cases remain visible under the reviewed
+C1 repair. An explicit non-Einstein supplied control shows Ricci-flatness is not
+necessary, without admitting that geometry as native dynamics or a GR-filter
+survivor. G95's post-native boundaries and G351/G352 conservation/readout gains
+are preserved. Current406 audit passed; registry/accepted sources are unchanged.
+
+Open: selected field/generator/normalization, native response membership, generic
+nonsymmetric route and physical identification. No G424, source coupling,
+observational fit or fixed through-G352 manuscript change. Current G312 FILTER
+ONLY governs all conditional Einstein use. Scientific promotion is not included.
+
+Recommended next discussion: fix one complete evolving geometry and map which
+field orientation/phase choices add distinguishable records beyond clock/beam
+information, including a control where exact symmetry fails. Return a bounded
+reviewed distinction/degeneracy map or precise unresolved join. This is a proposal,
+not launched or authorized by this closeout. Stop for discussion.
 
 ## Reviewed authorized continuation — 2026-09-13
 

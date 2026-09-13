@@ -1,0 +1,16 @@
+{
+  "context": "/root/native_radiation_review",
+  "fork_turns": "none",
+  "attempts": 1,
+  "allocated": true,
+  "conservative_allocation_utc": "2026-09-13T05:07:22+00:00",
+  "reviewer_first_tool_attested_utc": "2026-09-13T05:07:35+00:00",
+  "hard_end_utc": "2026-09-13T05:47:22+00:00",
+  "timing_caveat": "Conservative parent allocation timestamp, earlier than reviewer first tool observation; final completion/overlap added in closeout.",
+  "configured_parent_attribution": "gpt-6-astra/xhigh",
+  "reviewer_runtime_model": "UNATTESTED",
+  "different_model": "UNTESTED",
+  "source_first_exposure": "broad symmetry direction and source map; candidate/code/results excluded until source-first saved",
+  "capacity_limit_recurred": false,
+  "general_capacity": "UNVERIFIED"
+}

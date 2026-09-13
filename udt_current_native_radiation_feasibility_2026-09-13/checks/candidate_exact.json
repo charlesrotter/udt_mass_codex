@@ -1,0 +1,15 @@
+{
+  "command": [
+    "python3",
+    "udt_current_native_radiation_feasibility_2026-09-13/check_candidate.py",
+    "udt_current_native_radiation_feasibility_2026-09-13/EXACT_RESULT.json"
+  ],
+  "cwd": "/home/udt-admin/udt_mass_codex",
+  "started_utc": "2026-09-13T05:10:20.498996+00:00",
+  "duration_seconds": 0.543237515958026,
+  "returncode": 0,
+  "timeout": false,
+  "address_space_bytes": 2147483648,
+  "cpu_seconds": 180,
+  "maxrss_kib": 49412
+}

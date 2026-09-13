@@ -1,0 +1,434 @@
+{
+  "kind": "exact symbolic regression and equation checks, not independent proof",
+  "python": "3.10.12",
+  "sympy": "1.13.1",
+  "checks": [
+    {
+      "name": "pp_full_Ricci_all16",
+      "pass": true,
+      "residuals": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ]
+    },
+    {
+      "name": "pp_Killing_all16",
+      "pass": true,
+      "residuals": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ]
+    },
+    {
+      "name": "pp_det",
+      "pass": true,
+      "residuals": [
+        "0"
+      ]
+    },
+    {
+      "name": "pp_F_lower_then_d",
+      "pass": true,
+      "residuals": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ]
+    },
+    {
+      "name": "pp_exterior_closure",
+      "pass": true,
+      "residuals": [
+        "0",
+        "0",
+        "0",
+        "0"
+      ]
+    },
+    {
+      "name": "pp_original_divergence",
+      "pass": true,
+      "residuals": [
+        "0",
+        "0",
+        "0",
+        "0"
+      ]
+    },
+    {
+      "name": "pp_null_scalar",
+      "pass": true,
+      "residuals": [
+        "0"
+      ]
+    },
+    {
+      "name": "pp_wedge_self",
+      "pass": true,
+      "residuals": [
+        "0"
+      ]
+    },
+    {
+      "name": "pp_parallel_du",
+      "pass": true,
+      "residuals": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ]
+    },
+    {
+      "name": "pp_quadratic_comparison",
+      "pass": true,
+      "residuals": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ]
+    },
+    {
+      "name": "pp_complete_coframe",
+      "pass": true,
+      "residuals": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ]
+    },
+    {
+      "name": "pp_invertible_coframe",
+      "pass": true,
+      "residual": "1"
+    },
+    {
+      "name": "explicit_pulse_nonzero_at_u1",
+      "pass": true,
+      "residual": "-exp(-1)"
+    },
+    {
+      "name": "explicit_pulse_zero_at_center",
+      "pass": true,
+      "residuals": [
+        "0"
+      ]
+    },
+    {
+      "name": "catch_wrong_Kv_sign",
+      "pass": true,
+      "residual": "2*Derivative(q(u), u)"
+    },
+    {
+      "name": "catch_F_factor_one",
+      "pass": true,
+      "residual": "Derivative(q(u), u)"
+    },
+    {
+      "name": "catch_wrong_transverse_trace",
+      "pass": true,
+      "residual": "-2*Derivative(q(u), (u, 2))/q(u)"
+    },
+    {
+      "name": "deSitter_Ric_3g",
+      "pass": true,
+      "residuals": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ]
+    },
+    {
+      "name": "deSitter_Killing",
+      "pass": true,
+      "residuals": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ]
+    },
+    {
+      "name": "Killing_Ricci_sign",
+      "pass": true,
+      "residuals": [
+        "0",
+        "0",
+        "0",
+        "0"
+      ]
+    },
+    {
+      "name": "catch_omit_Ricci_condition",
+      "pass": true,
+      "residual": "-6"
+    },
+    {
+      "name": "G95_closed_arbitrary_A",
+      "pass": true,
+      "residuals": [
+        "0",
+        "0",
+        "0",
+        "0"
+      ]
+    },
+    {
+      "name": "G95_nonzero_divergence",
+      "pass": true,
+      "residual": "-2"
+    },
+    {
+      "name": "flat_nonconstant_null_wave_closed",
+      "pass": true,
+      "residuals": [
+        "0",
+        "0",
+        "0",
+        "0"
+      ]
+    },
+    {
+      "name": "flat_nonconstant_null_wave_divergence",
+      "pass": true,
+      "residuals": [
+        "0",
+        "0",
+        "0",
+        "0"
+      ]
+    },
+    {
+      "name": "flat_wave_can_vary",
+      "pass": true,
+      "residual": "Derivative(f(u), u)"
+    },
+    {
+      "name": "BE1_density_identity_2",
+      "pass": true,
+      "residuals": [
+        "0",
+        "0",
+        "0",
+        "0"
+      ]
+    },
+    {
+      "name": "BE1_exterior_2",
+      "pass": true,
+      "residuals": [
+        "0",
+        "0",
+        "0",
+        "0"
+      ]
+    },
+    {
+      "name": "BE1_Killing_2",
+      "pass": true,
+      "residuals": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ]
+    },
+    {
+      "name": "BE1_on_equation_2",
+      "pass": true,
+      "residuals": [
+        "0",
+        "0",
+        "0",
+        "0"
+      ]
+    },
+    {
+      "name": "BE1_density_identity_3",
+      "pass": true,
+      "residuals": [
+        "0",
+        "0",
+        "0",
+        "0"
+      ]
+    },
+    {
+      "name": "BE1_exterior_3",
+      "pass": true,
+      "residuals": [
+        "0",
+        "0",
+        "0",
+        "0"
+      ]
+    },
+    {
+      "name": "BE1_Killing_3",
+      "pass": true,
+      "residuals": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ]
+    },
+    {
+      "name": "BE1_on_equation_3",
+      "pass": true,
+      "residuals": [
+        "0",
+        "0",
+        "0",
+        "0"
+      ]
+    },
+    {
+      "name": "BE1_background_nonnull_value",
+      "pass": true,
+      "residuals": [
+        "0"
+      ]
+    },
+    {
+      "name": "BE1_background_nonnull",
+      "pass": true,
+      "residual": "-2/(t*N(t, xi)**2)"
+    }
+  ],
+  "count": 36,
+  "passed": 36,
+  "BE1_original_divergences": [
+    "(-t*Derivative(P(t, xi), (t, 2)) + t*Derivative(P(t, xi), (xi, 2)) - Derivative(P(t, xi), t))/(t*N(t, xi)**2)",
+    "(t*Derivative(P(t, xi), (t, 2)) - t*Derivative(P(t, xi), (xi, 2)) + Derivative(P(t, xi), t))/(t*N(t, xi)**2)"
+  ],
+  "all_pass": true
+}

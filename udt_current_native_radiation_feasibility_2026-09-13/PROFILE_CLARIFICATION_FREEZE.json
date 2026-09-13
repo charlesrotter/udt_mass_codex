@@ -1,0 +1,8 @@
+{
+  "utc": "2026-09-13T05:14:53.164103+00:00",
+  "exposure": "after parent36/36 and reviewer direct objection; not outcome-blind",
+  "change": "C1 profile variation and epsilon nonzero quantifiers only; initial candidate and outcomes preserved",
+  "file": "PROFILE_SCOPE_CLARIFICATION.md",
+  "sha256": "53d7a5e420a5443d1fc1e4d6c12d08b010efca8dedafab2ee0be7824f61ed4f4",
+  "verification": "reviewer independently checks affine and epsilon0 controls alongside existing direct check; no sample/tolerance change"
+}

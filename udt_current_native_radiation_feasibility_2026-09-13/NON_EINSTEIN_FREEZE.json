@@ -1,0 +1,11 @@
+{
+  "utc": "2026-09-13T05:18:23.198469+00:00",
+  "exposure": "post-parent36/36, C1 objection/repair and preliminary direct-review discussion; hand formula sent to reviewer before checks",
+  "scope": "same Lorentzian/Ric(K) implication, supplied non-Einstein control only, explicitly not native dynamics or adopted GR filter survivor",
+  "pins": {
+    "NON_EINSTEIN_CONTROL.md": "d6412ad9188a12135df021cb26c926dbcebcb685406487035bcc9954f3b67b40",
+    "check_non_einstein.py": "66bc0e7fe9445b0e9e3db2dc446bfe9b2e0a544064da936bbea9dc41f6b91b3a",
+    "check_candidate.py": "85711d60ceedb583d5350059a952db6fd6f649e880e8fcb0d8317b714fdf26d5"
+  },
+  "stop": "one180s/2048MiB exact capture then fresh reviewer adjudication within existing allocation"
+}

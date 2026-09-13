@@ -1,0 +1,119 @@
+{
+  "utc": "2026-09-13T05:19:42.057104+00:00",
+  "kind": "C1 repair-only exact equation controls and source correspondence; reused reviewer engine, not new independent implementation",
+  "source_engine_sha256": "d7b4c22e9d3557c197c2b946d5d2305fe29e5542488edaacc54a5dc27d7fe825",
+  "code_sha256": "fffbdf799a9bda8cd6160076be5d6ca182dee1d832f079de2fba626129b78c6d",
+  "checks": [
+    {
+      "name": "affine_Killing",
+      "pass": true,
+      "count": 16,
+      "nonzero": []
+    },
+    {
+      "name": "affine_Ricci",
+      "pass": true,
+      "count": 16,
+      "nonzero": []
+    },
+    {
+      "name": "affine_Fux",
+      "pass": true,
+      "count": 1,
+      "nonzero": []
+    },
+    {
+      "name": "affine_all_field_derivatives",
+      "pass": true,
+      "count": 64,
+      "nonzero": []
+    },
+    {
+      "name": "affine_divergence",
+      "pass": true,
+      "count": 4,
+      "nonzero": []
+    },
+    {
+      "name": "affine_invariant",
+      "pass": true,
+      "count": 1,
+      "nonzero": []
+    },
+    {
+      "name": "affine_nonzero_field",
+      "pass": true,
+      "values": [
+        "0",
+        "0",
+        "2",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "-2",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ]
+    },
+    {
+      "name": "epsilon_zero_Killing",
+      "pass": true,
+      "count": 16,
+      "nonzero": []
+    },
+    {
+      "name": "epsilon_zero_Ricci",
+      "pass": true,
+      "count": 16,
+      "nonzero": []
+    },
+    {
+      "name": "epsilon_zero_Fux",
+      "pass": true,
+      "count": 1,
+      "nonzero": []
+    },
+    {
+      "name": "epsilon_zero_all_field_derivatives",
+      "pass": true,
+      "count": 64,
+      "nonzero": []
+    },
+    {
+      "name": "epsilon_zero_divergence",
+      "pass": true,
+      "count": 4,
+      "nonzero": []
+    },
+    {
+      "name": "epsilon_zero_invariant",
+      "pass": true,
+      "count": 1,
+      "nonzero": []
+    },
+    {
+      "name": "epsilon_zero_zero_field",
+      "pass": true,
+      "count": 16,
+      "nonzero": []
+    },
+    {
+      "name": "C1_exact_frozen_clarification",
+      "pass": true
+    },
+    {
+      "name": "G95_addendum_exact_atlas_hash",
+      "pass": true
+    }
+  ],
+  "count": 16,
+  "passed": 16,
+  "all_pass": true
+}

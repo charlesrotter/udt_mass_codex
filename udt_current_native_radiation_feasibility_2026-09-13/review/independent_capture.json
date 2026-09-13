@@ -1,0 +1,15 @@
+{
+  "command": [
+    "python3",
+    "udt_current_native_radiation_feasibility_2026-09-13/review/independent_exact.py",
+    "udt_current_native_radiation_feasibility_2026-09-13/review/INDEPENDENT_RESULT.json"
+  ],
+  "cwd": "/home/udt-admin/udt_mass_codex",
+  "started_utc": "2026-09-13T05:17:01.976922+00:00",
+  "duration_seconds": 0.31928980094380677,
+  "returncode": 0,
+  "timeout": false,
+  "address_space_bytes": 2147483648,
+  "cpu_seconds": 180,
+  "maxrss_kib": 17444
+}

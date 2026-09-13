@@ -1,0 +1,705 @@
+{
+  "scope": "independent exact rational finite coordinate jets and direct covariant tensors; not all-function proof",
+  "utc": "2026-09-13T05:21:34.341628+00:00",
+  "python": "3.10.12",
+  "implementation": "standard library fractions; no SymPy or parent scientific imports",
+  "thread_environment": {
+    "OMP_NUM_THREADS": "1",
+    "OPENBLAS_NUM_THREADS": "1",
+    "MKL_NUM_THREADS": "1"
+  },
+  "checks": [
+    {
+      "name": "17_exact_source_pins",
+      "pass": true,
+      "checks": {
+        "CURRENT_SCIENTIFIC_PREMISES.tsv": true,
+        "udt_gr_filter_reconciliation_2026-09-09/AUTHORITY_RECORD.md": true,
+        "udt_g179_complete_coframe_pair_pullback_extension_2026-08-19/AUDIT_REPORT.md": true,
+        "udt_uncompressed_pair_kernel_reconstruction_2026-08-14/AUDIT_REPORT.md": true,
+        "udt_native_radiative_current_energy_owner_audit_2026-08-15/AUDIT_REPORT.md": true,
+        "udt_native_radiative_current_energy_owner_audit_2026-08-15/EXTERNAL_REVIEW_ADJUDICATION.md": true,
+        "angular_toric_closure_selector_2026-07-19/AUDIT_REPORT.md": true,
+        "native_hopfion_topology_audit_2026-07-19/AUDIT_REPORT.md": true,
+        "native_hopfion_topology_audit_2026-07-19/TOPOLOGY_STATUS_LEDGER.tsv": true,
+        "udt_g313_tracefree_ricci_solution_space_bootstrap_map_2026-09-01/AUDIT_REPORT.md": true,
+        "udt_g348_generic_lorentzian_null_screen_area_theorem_2026-09-04/AUDIT_REPORT.md": true,
+        "udt_g351_source_free_labelwise_carried_measure_conservation_2026-09-05/AUDIT_REPORT.md": true,
+        "udt_g352_clock_rate_carried_measure_readout_2026-09-05/AUDIT_REPORT.md": true,
+        "udt_broader_evolving_signal_geometry_2026-09-13/INITIAL_CANDIDATE.md": true,
+        "udt_broader_evolving_signal_geometry_2026-09-13/CALIBRATION_SCOPE_CLARIFICATION.md": true,
+        "udt_broader_evolving_signal_geometry_2026-09-13/REVIEWED_RESULT.md": true,
+        "udt_broader_evolving_signal_geometry_2026-09-13/review/DIRECT_REVIEW.md": true
+      }
+    },
+    {
+      "name": "5_candidate_freeze_pins",
+      "pass": true,
+      "checks": {
+        "INITIAL_CANDIDATE.md": true,
+        "check_candidate.py": true,
+        "SOURCE_MAP.md": true,
+        "SOURCE_PINS.json": true,
+        "WORK_ORDER.md": true
+      }
+    },
+    {
+      "name": "jet_inverse_identity",
+      "pass": true,
+      "count": 1,
+      "nonzero": []
+    },
+    {
+      "name": "jet_second_derivative_rational",
+      "pass": true,
+      "count": 1,
+      "nonzero": []
+    },
+    {
+      "name": "jet_mixed_derivative_product",
+      "pass": true,
+      "count": 1,
+      "nonzero": []
+    },
+    {
+      "name": "pp0_all_Ricci",
+      "pass": true,
+      "count": 16,
+      "nonzero": []
+    },
+    {
+      "name": "pp0_all_Killing",
+      "pass": true,
+      "count": 16,
+      "nonzero": []
+    },
+    {
+      "name": "pp0_closed",
+      "pass": true,
+      "count": 4,
+      "nonzero": []
+    },
+    {
+      "name": "pp0_covariant_divergence",
+      "pass": true,
+      "count": 4,
+      "nonzero": []
+    },
+    {
+      "name": "pp0_F_lower_then_d",
+      "pass": true,
+      "count": 16,
+      "nonzero": []
+    },
+    {
+      "name": "pp0_null_invariant",
+      "pass": true,
+      "count": 1,
+      "nonzero": []
+    },
+    {
+      "name": "pp0_wedge_square",
+      "pass": true,
+      "count": 1,
+      "nonzero": []
+    },
+    {
+      "name": "pp0_quadratic_comparison",
+      "pass": true,
+      "count": 16,
+      "nonzero": []
+    },
+    {
+      "name": "pp0_nonzero_curvature_value",
+      "pass": true,
+      "count": 1,
+      "nonzero": []
+    },
+    {
+      "name": "pp0_curved",
+      "pass": true,
+      "values": [
+        "-8"
+      ]
+    },
+    {
+      "name": "pp0_du_parallel",
+      "pass": true,
+      "count": 16,
+      "nonzero": []
+    },
+    {
+      "name": "pp0_complete_rational_coframe",
+      "pass": true,
+      "count": 16,
+      "nonzero": []
+    },
+    {
+      "name": "pp1_all_Ricci",
+      "pass": true,
+      "count": 16,
+      "nonzero": []
+    },
+    {
+      "name": "pp1_all_Killing",
+      "pass": true,
+      "count": 16,
+      "nonzero": []
+    },
+    {
+      "name": "pp1_closed",
+      "pass": true,
+      "count": 4,
+      "nonzero": []
+    },
+    {
+      "name": "pp1_covariant_divergence",
+      "pass": true,
+      "count": 4,
+      "nonzero": []
+    },
+    {
+      "name": "pp1_F_lower_then_d",
+      "pass": true,
+      "count": 16,
+      "nonzero": []
+    },
+    {
+      "name": "pp1_null_invariant",
+      "pass": true,
+      "count": 1,
+      "nonzero": []
+    },
+    {
+      "name": "pp1_wedge_square",
+      "pass": true,
+      "count": 1,
+      "nonzero": []
+    },
+    {
+      "name": "pp1_quadratic_comparison",
+      "pass": true,
+      "count": 16,
+      "nonzero": []
+    },
+    {
+      "name": "pp1_nonzero_curvature_value",
+      "pass": true,
+      "count": 1,
+      "nonzero": []
+    },
+    {
+      "name": "pp1_curved",
+      "pass": true,
+      "values": [
+        "-2"
+      ]
+    },
+    {
+      "name": "pp1_du_parallel",
+      "pass": true,
+      "count": 16,
+      "nonzero": []
+    },
+    {
+      "name": "pp1_complete_rational_coframe",
+      "pass": true,
+      "count": 16,
+      "nonzero": []
+    },
+    {
+      "name": "pp2_all_Ricci",
+      "pass": true,
+      "count": 16,
+      "nonzero": []
+    },
+    {
+      "name": "pp2_all_Killing",
+      "pass": true,
+      "count": 16,
+      "nonzero": []
+    },
+    {
+      "name": "pp2_closed",
+      "pass": true,
+      "count": 4,
+      "nonzero": []
+    },
+    {
+      "name": "pp2_covariant_divergence",
+      "pass": true,
+      "count": 4,
+      "nonzero": []
+    },
+    {
+      "name": "pp2_F_lower_then_d",
+      "pass": true,
+      "count": 16,
+      "nonzero": []
+    },
+    {
+      "name": "pp2_null_invariant",
+      "pass": true,
+      "count": 1,
+      "nonzero": []
+    },
+    {
+      "name": "pp2_wedge_square",
+      "pass": true,
+      "count": 1,
+      "nonzero": []
+    },
+    {
+      "name": "pp2_quadratic_comparison",
+      "pass": true,
+      "count": 16,
+      "nonzero": []
+    },
+    {
+      "name": "pp2_nonzero_curvature_value",
+      "pass": true,
+      "count": 1,
+      "nonzero": []
+    },
+    {
+      "name": "pp2_curved",
+      "pass": true,
+      "values": [
+        "-1/2"
+      ]
+    },
+    {
+      "name": "pp2_du_parallel",
+      "pass": true,
+      "count": 16,
+      "nonzero": []
+    },
+    {
+      "name": "pp2_complete_rational_coframe",
+      "pass": true,
+      "count": 16,
+      "nonzero": []
+    },
+    {
+      "name": "curved_parallel_K_zero_F",
+      "pass": true,
+      "count": 16,
+      "nonzero": []
+    },
+    {
+      "name": "catch_flipped_Kv_sign",
+      "pass": true,
+      "values": [
+        "8/3",
+        "0",
+        "2",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "2",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ]
+    },
+    {
+      "name": "catch_wrong_transverse_trace_Ricci",
+      "pass": true,
+      "values": [
+        "-16",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ]
+    },
+    {
+      "name": "product_sphere_full_Ricci",
+      "pass": true,
+      "count": 16,
+      "nonzero": []
+    },
+    {
+      "name": "product_sphere_rotation_Killing",
+      "pass": true,
+      "count": 16,
+      "nonzero": []
+    },
+    {
+      "name": "product_sphere_divergence_sign",
+      "pass": true,
+      "count": 4,
+      "nonzero": []
+    },
+    {
+      "name": "product_sphere_Ricci_Killing_identity",
+      "pass": true,
+      "count": 4,
+      "nonzero": []
+    },
+    {
+      "name": "catch_drop_Ricci_K_hypothesis",
+      "pass": true,
+      "values": [
+        "0",
+        "0",
+        "4/5",
+        "-2/3"
+      ]
+    },
+    {
+      "name": "catch_reverse_Ricci_sign",
+      "pass": true,
+      "values": [
+        "0",
+        "0",
+        "8/5",
+        "-4/3"
+      ]
+    },
+    {
+      "name": "non_Ricci_flat_boost_Killing",
+      "pass": true,
+      "count": 16,
+      "nonzero": []
+    },
+    {
+      "name": "non_Ricci_flat_boost_divergence",
+      "pass": true,
+      "count": 4,
+      "nonzero": []
+    },
+    {
+      "name": "non_Ricci_flat_boost_F",
+      "pass": true,
+      "values": [
+        "0",
+        "2",
+        "0",
+        "0",
+        "-2",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ]
+    },
+    {
+      "name": "non_Ricci_flat_boost_Ricci",
+      "pass": true,
+      "values": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "50625/20449",
+        "0",
+        "0",
+        "0",
+        "0",
+        "50625/20449"
+      ]
+    },
+    {
+      "name": "flat_null_rotation_Ricci",
+      "pass": true,
+      "count": 16,
+      "nonzero": []
+    },
+    {
+      "name": "flat_null_rotation_Killing",
+      "pass": true,
+      "count": 16,
+      "nonzero": []
+    },
+    {
+      "name": "flat_null_rotation_nonzero_Fux",
+      "pass": true,
+      "count": 1,
+      "nonzero": []
+    },
+    {
+      "name": "flat_null_rotation_invariant",
+      "pass": true,
+      "count": 1,
+      "nonzero": []
+    },
+    {
+      "name": "arbitrary_exact_flat_form_closed",
+      "pass": true,
+      "count": 4,
+      "nonzero": []
+    },
+    {
+      "name": "arbitrary_exact_flat_form_divergence",
+      "pass": true,
+      "count": 4,
+      "nonzero": []
+    },
+    {
+      "name": "arbitrary_exact_flat_form_not_Killing",
+      "pass": true,
+      "values": [
+        "0",
+        "4",
+        "0",
+        "0",
+        "4",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ]
+    },
+    {
+      "name": "be_off0_2_Killing",
+      "pass": true,
+      "count": 16,
+      "nonzero": []
+    },
+    {
+      "name": "be_off0_2_closed",
+      "pass": true,
+      "count": 4,
+      "nonzero": []
+    },
+    {
+      "name": "be_off0_2_full_covariant_identity",
+      "pass": true,
+      "count": 4,
+      "nonzero": []
+    },
+    {
+      "name": "be_off0_2_catch_omit_P_equation",
+      "pass": true,
+      "values": [
+        "0",
+        "0",
+        "-4374/130321",
+        "0"
+      ]
+    },
+    {
+      "name": "be_off0_3_Killing",
+      "pass": true,
+      "count": 16,
+      "nonzero": []
+    },
+    {
+      "name": "be_off0_3_closed",
+      "pass": true,
+      "count": 4,
+      "nonzero": []
+    },
+    {
+      "name": "be_off0_3_full_covariant_identity",
+      "pass": true,
+      "count": 4,
+      "nonzero": []
+    },
+    {
+      "name": "be_off0_3_catch_omit_P_equation",
+      "pass": true,
+      "values": [
+        "0",
+        "0",
+        "0",
+        "4374/130321"
+      ]
+    },
+    {
+      "name": "be_off1_2_Killing",
+      "pass": true,
+      "count": 16,
+      "nonzero": []
+    },
+    {
+      "name": "be_off1_2_closed",
+      "pass": true,
+      "count": 4,
+      "nonzero": []
+    },
+    {
+      "name": "be_off1_2_full_covariant_identity",
+      "pass": true,
+      "count": 4,
+      "nonzero": []
+    },
+    {
+      "name": "be_off1_2_catch_omit_P_equation",
+      "pass": true,
+      "values": [
+        "0",
+        "0",
+        "218750/11539609",
+        "0"
+      ]
+    },
+    {
+      "name": "be_off1_3_Killing",
+      "pass": true,
+      "count": 16,
+      "nonzero": []
+    },
+    {
+      "name": "be_off1_3_closed",
+      "pass": true,
+      "count": 4,
+      "nonzero": []
+    },
+    {
+      "name": "be_off1_3_full_covariant_identity",
+      "pass": true,
+      "count": 4,
+      "nonzero": []
+    },
+    {
+      "name": "be_off1_3_catch_omit_P_equation",
+      "pass": true,
+      "values": [
+        "0",
+        "0",
+        "0",
+        "-218750/11539609"
+      ]
+    },
+    {
+      "name": "be_form_Kasner_2_all_Ricci",
+      "pass": true,
+      "count": 16,
+      "nonzero": []
+    },
+    {
+      "name": "be_form_Kasner_2_divergence",
+      "pass": true,
+      "count": 4,
+      "nonzero": []
+    },
+    {
+      "name": "be_form_Kasner_2_nonnull",
+      "pass": true,
+      "values": [
+        "-8"
+      ]
+    },
+    {
+      "name": "be_form_Kasner_3_all_Ricci",
+      "pass": true,
+      "count": 16,
+      "nonzero": []
+    },
+    {
+      "name": "be_form_Kasner_3_divergence",
+      "pass": true,
+      "count": 4,
+      "nonzero": []
+    },
+    {
+      "name": "be_form_Kasner_3_nonnull",
+      "pass": true,
+      "values": [
+        "-1/32"
+      ]
+    },
+    {
+      "name": "BE1_P0_nonnull_full_lapse",
+      "pass": true,
+      "count": 1,
+      "nonzero": []
+    }
+  ],
+  "records": [
+    {
+      "type": "q=u^2, u>0",
+      "coordinates": [
+        "1/2",
+        "0",
+        "1/3",
+        "-2/5"
+      ],
+      "F_ux": "2",
+      "R_uxux": "-8",
+      "C_uu": "4"
+    },
+    {
+      "type": "q=u^2, u>0",
+      "coordinates": [
+        "1",
+        "2",
+        "1",
+        "1"
+      ],
+      "F_ux": "4",
+      "R_uxux": "-2",
+      "C_uu": "16"
+    },
+    {
+      "type": "q=u^2, u>0",
+      "coordinates": [
+        "2",
+        "-1",
+        "-3/4",
+        "5/6"
+      ],
+      "F_ux": "8",
+      "R_uxux": "-1/2",
+      "C_uu": "64"
+    },
+    {
+      "type": "Minkowski2 x S2 rotation",
+      "coordinates": [
+        "3/2",
+        "2/3",
+        "1/3",
+        "2/5"
+      ],
+      "divergence": [
+        "0",
+        "0",
+        "4/5",
+        "-2/3"
+      ]
+    }
+  ],
+  "count": 84,
+  "passed": 84,
+  "all_pass": true,
+  "code_sha256": "d7b4c22e9d3557c197c2b946d5d2305fe29e5542488edaacc54a5dc27d7fe825"
+}

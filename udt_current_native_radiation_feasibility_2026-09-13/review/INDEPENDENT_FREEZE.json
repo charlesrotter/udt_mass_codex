@@ -1,0 +1,9 @@
+{
+  "utc": "2026-09-13T05:17:01.880332+00:00",
+  "pins": {
+    "independent_exact.py": "d7b4c22e9d3557c197c2b946d5d2305fe29e5542488edaacc54a5dc27d7fe825",
+    "CHECK_FREEZE.md": "2c86b62fc193985f0e483cdb04174f04e6502b43d0c3f0b9691a813c4b192f1c",
+    "SOURCE_FIRST.md": "5596c9d70e9c2f53811454717b87c467cc9808d90147ce1482e6b3519479e90d"
+  },
+  "status": "before first independent scientific run"
+}

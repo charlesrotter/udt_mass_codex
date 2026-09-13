@@ -1,0 +1,170 @@
+{
+  "recorded_utc": "2026-09-13T05:34:48.886376+00:00",
+  "scope": "Captured scientific/check processes only; uncaptured administrative/source-reading commands are not a complete CPU census. Reviewer-context overlap is separately recorded in its final receipt.",
+  "intervals": [
+    {
+      "capture": "checks/candidate_exact.json",
+      "context": "parent",
+      "start_utc": "2026-09-13T05:10:20.498996+00:00",
+      "end_utc": "2026-09-13T05:10:21.042234+00:00",
+      "seconds": 0.543237515958026,
+      "exit": 0,
+      "command": [
+        "python3",
+        "udt_current_native_radiation_feasibility_2026-09-13/check_candidate.py",
+        "udt_current_native_radiation_feasibility_2026-09-13/EXACT_RESULT.json"
+      ]
+    },
+    {
+      "capture": "checks/current_surface_final.json",
+      "context": "parent",
+      "start_utc": "2026-09-13T05:26:51.970459+00:00",
+      "end_utc": "2026-09-13T05:26:52.155960+00:00",
+      "seconds": 0.1855014479951933,
+      "exit": 0,
+      "command": [
+        "python3",
+        "-c",
+        "from pathlib import Path; import verify_current_scientific_premises as v; v.validate_startup_surface(Path.cwd()); print(\"PASS actual final NR1 startup surface; new NR1 full406 audit separately passed\")"
+      ]
+    },
+    {
+      "capture": "checks/navigation_final.json",
+      "context": "parent",
+      "start_utc": "2026-09-13T05:26:59.076892+00:00",
+      "end_utc": "2026-09-13T05:27:14.206757+00:00",
+      "seconds": 15.129865137045272,
+      "exit": 0,
+      "command": [
+        "python3",
+        "-m",
+        "pytest",
+        "--noconftest",
+        "-q",
+        "-p",
+        "no:cacheprovider",
+        "tests/test_startup_surface.py",
+        "-k",
+        "not full_foundational_premise_verifier_is_in_pytest"
+      ]
+    },
+    {
+      "capture": "checks/non_einstein_exact.json",
+      "context": "parent",
+      "start_utc": "2026-09-13T05:18:23.218348+00:00",
+      "end_utc": "2026-09-13T05:18:23.491401+00:00",
+      "seconds": 0.27305275306571275,
+      "exit": 0,
+      "command": [
+        "python3",
+        "udt_current_native_radiation_feasibility_2026-09-13/check_non_einstein.py",
+        "udt_current_native_radiation_feasibility_2026-09-13/NON_EINSTEIN_RESULT.json"
+      ]
+    },
+    {
+      "capture": "checks/premise406.json",
+      "context": "parent",
+      "start_utc": "2026-09-13T05:01:17.964257+00:00",
+      "end_utc": "2026-09-13T05:08:02.668968+00:00",
+      "seconds": 404.7047113489825,
+      "exit": 0,
+      "command": [
+        "python3",
+        "verify_current_scientific_premises.py"
+      ]
+    },
+    {
+      "capture": "checks/startup_active.json",
+      "context": "parent",
+      "start_utc": "2026-09-13T05:13:43.708634+00:00",
+      "end_utc": "2026-09-13T05:13:43.812961+00:00",
+      "seconds": 0.10432666295673698,
+      "exit": 4,
+      "command": [
+        "python3",
+        "-m",
+        "pytest",
+        "-q",
+        "-p",
+        "no:cacheprovider",
+        "tests/test_startup_surface.py"
+      ]
+    },
+    {
+      "capture": "checks/startup_active_isolated.json",
+      "context": "parent",
+      "start_utc": "2026-09-13T05:14:53.183601+00:00",
+      "end_utc": "2026-09-13T05:15:08.374765+00:00",
+      "seconds": 15.191164351068437,
+      "exit": 0,
+      "command": [
+        "python3",
+        "-m",
+        "pytest",
+        "--noconftest",
+        "-q",
+        "-p",
+        "no:cacheprovider",
+        "tests/test_startup_surface.py",
+        "-k",
+        "not full_foundational_premise_verifier_is_in_pytest"
+      ]
+    },
+    {
+      "capture": "review/final_fidelity_capture.json",
+      "context": "reviewer",
+      "start_utc": "2026-09-13T05:31:57.970883+00:00",
+      "end_utc": "2026-09-13T05:31:58.034015+00:00",
+      "seconds": 0.06313159293495119,
+      "exit": 0,
+      "command": [
+        "python3",
+        "udt_current_native_radiation_feasibility_2026-09-13/review/final_fidelity_check.py",
+        "udt_current_native_radiation_feasibility_2026-09-13/review/FINAL_DOCUMENT_PINS.json"
+      ]
+    },
+    {
+      "capture": "review/independent_capture.json",
+      "context": "reviewer",
+      "start_utc": "2026-09-13T05:17:01.976922+00:00",
+      "end_utc": "2026-09-13T05:17:02.296212+00:00",
+      "seconds": 0.31928980094380677,
+      "exit": 0,
+      "command": [
+        "python3",
+        "udt_current_native_radiation_feasibility_2026-09-13/review/independent_exact.py",
+        "udt_current_native_radiation_feasibility_2026-09-13/review/INDEPENDENT_RESULT.json"
+      ]
+    },
+    {
+      "capture": "review/repair_capture.json",
+      "context": "reviewer",
+      "start_utc": "2026-09-13T05:19:42.018059+00:00",
+      "end_utc": "2026-09-13T05:19:42.060171+00:00",
+      "seconds": 0.04211196501273662,
+      "exit": 0,
+      "command": [
+        "python3",
+        "udt_current_native_radiation_feasibility_2026-09-13/review/repair_controls.py",
+        "udt_current_native_radiation_feasibility_2026-09-13/review/REPAIR_RESULT.json"
+      ]
+    },
+    {
+      "capture": "review/shape_capture.json",
+      "context": "reviewer",
+      "start_utc": "2026-09-13T05:21:34.018931+00:00",
+      "end_utc": "2026-09-13T05:21:34.345790+00:00",
+      "seconds": 0.3268589929211885,
+      "exit": 0,
+      "command": [
+        "python3",
+        "udt_current_native_radiation_feasibility_2026-09-13/review/check_comparison_shapes.py",
+        "udt_current_native_radiation_feasibility_2026-09-13/review/SHAPE_AUDIT_RESULT.json"
+      ]
+    }
+  ],
+  "captured_process_overlaps": [],
+  "same_context_overlap_detected": false,
+  "runtime_model": "UNATTESTED",
+  "general_capacity": "UNVERIFIED"
+}

@@ -1,0 +1,28 @@
+{
+  "utc": "2026-09-13T05:29:44.993271+00:00",
+  "reviewer": "/root/native_radiation_review",
+  "file": "DECISION_BRIEF.md",
+  "before_sha256": "9789d3653312959123eb25f7f4cec37d89d59710e9bb4c42d4f4264d75a9ac50",
+  "after_sha256": "3e15915320a5b058576885b6a3cd5cd1a27e2c49d545332d07972896763dcd4d",
+  "type": "source-preserving lay-summary fidelity repair; no scientific formula, hypothesis, grade or check changed",
+  "changes": [
+    {
+      "before": "It works on the broader evolving geometry already developed, and the general\ncondition also admits examples beyond Einstein vacuum geometry.",
+      "after": "The field construction also works on the broader evolving geometry already\ndeveloped, although those fields need not be null or radiation-shaped. The\ngeneral condition also admits examples beyond Einstein vacuum geometry."
+    },
+    {
+      "before": "This advances the project from signal paths alone to an explicit geometric field\nexample with more structure to examine.",
+      "after": "This adds an explicit geometric field construction to our existing signal-path\nand response work, with more structure to examine."
+    },
+    {
+      "before": "The construction still supplies\nwhich symmetry generates the field and how it is normalized.",
+      "after": "We still supply the choice of symmetry\nand its normalization."
+    }
+  ],
+  "metadata_timing_repair": {
+    "file": "AUDIT_REUSE.json",
+    "initial_utc_preserved_as": "initial_recorded_utc",
+    "new_actual_update_key": "final_navigation_record_updated_utc",
+    "reason": "Distinguish initial reuse record from later final-navigation evidence; no earlier exposure claim."
+  }
+}

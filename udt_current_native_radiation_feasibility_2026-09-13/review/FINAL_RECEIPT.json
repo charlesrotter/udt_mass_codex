@@ -1,0 +1,35 @@
+{
+  "review_context": "/root/native_radiation_review",
+  "verdict": "ACCEPTED_WITH_STATED_CAVEATS__CONDITIONAL_UNPROMOTED",
+  "review_work_completed_utc": "2026-09-13T05:33:52.808695+00:00",
+  "allocation_observed_bracket_utc": [
+    "2026-09-13T05:04:43+00:00",
+    "2026-09-13T05:07:31+00:00"
+  ],
+  "reviewer_first_tool_attested_utc": "2026-09-13T05:07:35+00:00",
+  "conservative_hard_stop_utc": "2026-09-13T05:44:43+00:00",
+  "allocation_elapsed_seconds_bounds": [
+    1581.808695,
+    1749.808695
+  ],
+  "parent_review_context_coexistence_seconds_bounds": [
+    1581.808695,
+    1749.808695
+  ],
+  "coexistence_note": "Parent task began before allocation and remains active for publication; these are wall-clock context coexistence bounds, not simultaneous CPU usage. Exact spawn time unavailable. Message delivery follows receipt creation.",
+  "source_first_latest_save_utc": "2026-09-13T05:11:25.912876+00:00",
+  "source_first_max_seconds_from_earliest_spawn_bound": 402.912876,
+  "within_conservative_40min": true,
+  "runtime_model": "UNATTESTED",
+  "different_model": "UNTESTED",
+  "allocation_count": 1,
+  "subdelegation": false,
+  "publication_status": "PENDING_PARENT_ADMINISTRATIVE_GATES_NOT_PRECLAIMED",
+  "pins": {
+    "FINAL_FIDELITY.md": "a0996d66c03c6834eb43f561fbc9bcad4e3be4716b03906634d2dabf21756c23",
+    "FINAL_DOCUMENT_PINS.json": "8ec33698c0bb9c3a273e17d74508eff6f558de8d55fb6af035e1f73c8858d4a8",
+    "DIRECT_REVIEW.md": "b902f6d7fcdca77a384e83fe4d6fc1e8fb4552766af6755f2ffb785a1a4ac30d",
+    "SOURCE_FIRST.md": "5596c9d70e9c2f53811454717b87c467cc9808d90147ce1482e6b3519479e90d"
+  },
+  "omissions": "No final science/full406/historical BE1 rerun, protected payload byte audit, archive, GPU/grid, physical observation or different-model verification."
+}

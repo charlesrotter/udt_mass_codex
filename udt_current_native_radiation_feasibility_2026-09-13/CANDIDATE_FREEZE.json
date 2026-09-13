@@ -1,0 +1,21 @@
+{
+  "utc": "2026-09-13T05:10:08.997471+00:00",
+  "history": "Exploratory hand algebra and cited literature exposed; no new computation or reviewer outcome exposed. This freeze is not pre-exploration preregistration.",
+  "checks": "SymPy exact original Ricci/Lie/exterior/density divergence/null invariants/coframe; BE1 full metric density identity; nonvacuum and wrong-sign/trace/normalization controls. Exact simplify==0, no floating tolerance or finite sampling used to claim all-function proof. q smooth positive, epsilon=1/4 explicit nonzero witness; arbitrary-function statements owned by analytic argument.",
+  "choices": {
+    "metric_families": "free-and-explored conditional supplied Ricci-flat witnesses; not pinned native dynamics",
+    "K": "free-and-explored from metric isometry algebra; not selected",
+    "q_profile": "free-and-explored smooth positive; Gaussian illustration epsilon1/4",
+    "units": "L=1 display convention, c_E calibration retained; not selected scale",
+    "method": "pinned-by-THEORY only as standard Levi-Civita/Killing identities with stated hypotheses",
+    "physical_field_action_content": "omitted, unadopted"
+  },
+  "resources": "one CPU subprocess, one thread, 180s 2048MiB each capture",
+  "pins": {
+    "INITIAL_CANDIDATE.md": "569de1c36d052a0a844031c2161bf5e64f42014c99815d2bde0b30c7507caf57",
+    "check_candidate.py": "85711d60ceedb583d5350059a952db6fd6f649e880e8fcb0d8317b714fdf26d5",
+    "SOURCE_MAP.md": "ee8f741a60133cbf1f4251c3102be711257467386bd7307ff1b4d84dadd437e0",
+    "SOURCE_PINS.json": "99720d78ed0694223ec4a104243b7bf97a7f2b9b98b833d71a54cdbc39c975b4",
+    "WORK_ORDER.md": "36da067746953260cec7a308c6af72093c4049002a63e2ec55d8e6bd82d4152a"
+  }
+}

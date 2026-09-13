@@ -1,0 +1,11 @@
+{
+  "tool": "collaboration.list_agents",
+  "current_running_contexts": [
+    "/root",
+    "/root/native_radiation_review"
+  ],
+  "other_entries": "completed prior contexts, not resumed or forked",
+  "inference": "One new NR1 allocation worked with parent concurrent; no conclusion about restored capacity or slot accounting.",
+  "recorded_utc": "2026-09-13T05:21:42.772590+00:00",
+  "observation_time": "list_agents call occurred earlier in this turn; exact wall timestamp not separately recorded, tool transcript owns chronology."
+}

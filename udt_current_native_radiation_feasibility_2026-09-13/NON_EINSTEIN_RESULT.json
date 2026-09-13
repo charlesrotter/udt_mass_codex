@@ -1,0 +1,106 @@
+{
+  "kind": "post-freeze exact supplied non-Einstein control; same-code utility reuse, not independent verification",
+  "python": "3.10.12",
+  "sympy": "1.13.1",
+  "utility_source_sha256": "85711d60ceedb583d5350059a952db6fd6f649e880e8fcb0d8317b714fdf26d5",
+  "Ricci": "Matrix([[(t + 1/2)/t**2, 0, 0, 0], [0, 1/t, 0, 0], [0, 0, 0, 0], [0, 0, 0, 0]])",
+  "scalar": "-exp(-2*t)/(2*t**2)",
+  "checks": [
+    {
+      "name": "full_Ricci",
+      "pass": true,
+      "residuals": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ]
+    },
+    {
+      "name": "scalar",
+      "pass": true,
+      "residuals": [
+        "0"
+      ]
+    },
+    {
+      "name": "Killing",
+      "pass": true,
+      "residuals": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ]
+    },
+    {
+      "name": "Ric_K",
+      "pass": true,
+      "residuals": [
+        "0",
+        "0",
+        "0",
+        "0"
+      ]
+    },
+    {
+      "name": "closed",
+      "pass": true,
+      "residuals": [
+        "0",
+        "0",
+        "0",
+        "0"
+      ]
+    },
+    {
+      "name": "original_divergence",
+      "pass": true,
+      "residuals": [
+        "0",
+        "0",
+        "0",
+        "0"
+      ]
+    },
+    {
+      "name": "invariant",
+      "pass": true,
+      "residuals": [
+        "0"
+      ]
+    },
+    {
+      "name": "non_Einstein_at_t1",
+      "pass": true,
+      "value": "exp(-2)/8"
+    }
+  ],
+  "passed": 8,
+  "count": 8,
+  "all_pass": true
+}

@@ -1,0 +1,21 @@
+{
+  "context": "/root/native_radiation_review",
+  "fork_turns": "none",
+  "attempts": 1,
+  "allocated": true,
+  "reviewer_first_tool_attested_utc": "2026-09-13T05:07:35+00:00",
+  "hard_end_utc": "2026-09-13T05:44:43+00:00",
+  "timing_caveat": "Spawn succeeded between actual parent clock observations; exact spawn time is not separately attested. Use earliest observed bound to guarantee40min including final fidelity; reviewer first tool05:07:35 is attested.",
+  "configured_parent_attribution": "gpt-6-astra/xhigh",
+  "reviewer_runtime_model": "UNATTESTED",
+  "different_model": "UNTESTED",
+  "source_first_exposure": "broad symmetry direction and source map; candidate/code/results excluded until source-first saved",
+  "capacity_limit_recurred": false,
+  "general_capacity": "UNVERIFIED",
+  "prior_annotation": "ALLOCATION_INITIAL.json preserves the estimated05:07:22 timestamp; not tool-attested and not treated as exact.",
+  "allocation_tool_observation_bracket_utc": [
+    "2026-09-13T05:04:43+00:00",
+    "2026-09-13T05:07:31+00:00"
+  ],
+  "budget_clock_conservative_start_utc": "2026-09-13T05:04:43+00:00"
+}

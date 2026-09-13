@@ -1,0 +1,16 @@
+{
+  "utc": "2026-09-13T05:28:22.906549+00:00",
+  "original51_status_names_exact": true,
+  "status_names_sha256": "747cf3c497bfbdf7c373a2aa621be3cb241a61f7ef9f508c39bf64588ff70a60",
+  "tracked_changed_paths": [
+    "CURRENT_RESEARCH_PROGRAM.md",
+    "HANDOFF.md",
+    "INDEX.md",
+    "LIVE.md",
+    "MEMORY.md",
+    "UDT_RESEARCH_ROADMAP.md"
+  ],
+  "indexed_paths": [],
+  "payloads": "No protected content read/hash/write; status names only. Registry/sources/manuscript/CANON unchanged.",
+  "stage": "final navigation before fidelity/publication"
+}
