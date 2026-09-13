@@ -1,0 +1,310 @@
+{
+  "package": "udt_native_angular_premise_audit_2026-09-13",
+  "events": [
+    {
+      "utc": "2026-09-13T19:06:54.859367+00:00",
+      "command": [
+        "git",
+        "rev-parse",
+        "--abbrev-ref",
+        "HEAD"
+      ],
+      "exit": 0,
+      "stdout": "grok\n",
+      "stderr": ""
+    },
+    {
+      "utc": "2026-09-13T19:06:54.860820+00:00",
+      "command": [
+        "git",
+        "rev-parse",
+        "HEAD",
+        "origin/grok"
+      ],
+      "exit": 0,
+      "stdout": "04765748a5402a6717f47ec0670fd3ea225e4c01\n04765748a5402a6717f47ec0670fd3ea225e4c01\n",
+      "stderr": ""
+    },
+    {
+      "utc": "2026-09-13T19:06:54.862154+00:00",
+      "command": [
+        "git",
+        "diff",
+        "--cached",
+        "--name-only"
+      ],
+      "exit": 0,
+      "stdout": "",
+      "stderr": ""
+    },
+    {
+      "utc": "2026-09-13T19:06:54.871908+00:00",
+      "command": [
+        "git",
+        "diff",
+        "--name-only"
+      ],
+      "exit": 0,
+      "stdout": "CURRENT_RESEARCH_PROGRAM.md\nHANDOFF.md\nINDEX.md\nLIVE.md\nMEMORY.md\nUDT_RESEARCH_ROADMAP.md\n",
+      "stderr": ""
+    },
+    {
+      "utc": "2026-09-13T19:06:54.881055+00:00",
+      "command": [
+        "git",
+        "status",
+        "--short",
+        "--untracked-files=all"
+      ],
+      "exit": 0,
+      "stdout": " M CURRENT_RESEARCH_PROGRAM.md\n M HANDOFF.md\n M INDEX.md\n M LIVE.md\n M MEMORY.md\n M UDT_RESEARCH_ROADMAP.md\n?? 8_25/UDT_FOUNDING_VALUE_LAW_ANALYSIS.md\n?? 8_25/udt_extension_checks.py\n?? 8_25/udt_extension_minimality_response.md\n?? 8_25/udt_value_law_checks.py\n?? 8_25/udt_value_law_checks_llm1.py\n?? 8_25/udt_value_law_external_response.md\n?? UDT_Complete_Guardrails_and_Central_Science_Tracking.md\n?? UDT_Next_Step_After_Two_Stages.md\n?? UDT_Sequenced_Guardrails_and_Development_Work_Order.md\n?? udt_native_angular_premise_audit_2026-09-13/ADDITIONAL_SOURCE_PINS.json\n?? udt_native_angular_premise_audit_2026-09-13/CANDIDATE_FREEZE.json\n?? udt_native_angular_premise_audit_2026-09-13/CLOSEOUT.md\n?? udt_native_angular_premise_audit_2026-09-13/DECISION_BRIEF.md\n?? udt_native_angular_premise_audit_2026-09-13/FINAL_SOURCE_PINS.json\n?? udt_native_angular_premise_audit_2026-09-13/INITIAL_CANDIDATE.md\n?? udt_native_angular_premise_audit_2026-09-13/LAUNCH.json\n?? udt_native_angular_premise_audit_2026-09-13/LOAD_BEARING_REGISTRY_ROWS.tsv\n?? udt_native_angular_premise_audit_2026-09-13/NAVIGATION_BEFORE.json\n?? udt_native_angular_premise_audit_2026-09-13/PACKAGING_REPAIR.md\n?? udt_native_angular_premise_audit_2026-09-13/PARENT_CODE_FREEZE.json\n?? udt_native_angular_premise_audit_2026-09-13/PROTECTED_EVIDENCE_PINS.json\n?? udt_native_angular_premise_audit_2026-09-13/REPAIR.md\n?? udt_native_angular_premise_audit_2026-09-13/RESOURCE_RECORD.json\n?? udt_native_angular_premise_audit_2026-09-13/REVIEWED_RESULT.md\n?? udt_native_angular_premise_audit_2026-09-13/SOURCE_CONSTRAINT_MAP.md\n?? udt_native_angular_premise_audit_2026-09-13/SOURCE_PINS.json\n?? udt_native_angular_premise_audit_2026-09-13/WORK_ORDER.md\n?? udt_native_angular_premise_audit_2026-09-13/WORK_ORDER_FREEZE.json\n?? udt_native_angular_premise_audit_2026-09-13/checks/parent_exact.capture_provenance.json\n?? udt_native_angular_premise_audit_2026-09-13/checks/parent_exact.json\n?? udt_native_angular_premise_audit_2026-09-13/checks/parent_exact.stderr\n?? udt_native_angular_premise_audit_2026-09-13/checks/premise406.capture_provenance.json\n?? udt_native_angular_premise_audit_2026-09-13/checks/premise406.json\n?? udt_native_angular_premise_audit_2026-09-13/checks/premise406.stderr\n?? udt_native_angular_premise_audit_2026-09-13/checks/prepublication_fetch.capture_provenance.json\n?? udt_native_angular_premise_audit_2026-09-13/checks/prepublication_fetch.json\n?? udt_native_angular_premise_audit_2026-09-13/checks/prepublication_fetch.stderr\n?? udt_native_angular_premise_audit_2026-09-13/checks/preservation.capture_provenance.json\n?? udt_native_angular_premise_audit_2026-09-13/checks/preservation.json\n?? udt_native_angular_premise_audit_2026-09-13/checks/preservation.stderr\n?? udt_native_angular_premise_audit_2026-09-13/checks/preservation_final.capture_provenance.json\n?? udt_native_angular_premise_audit_2026-09-13/checks/preservation_final.json\n?? udt_native_angular_premise_audit_2026-09-13/checks/preservation_final.stderr\n?? udt_native_angular_premise_audit_2026-09-13/checks/preservation_repaired.capture_provenance.json\n?? udt_native_angular_premise_audit_2026-09-13/checks/preservation_repaired.json\n?? udt_native_angular_premise_audit_2026-09-13/checks/preservation_repaired.stderr\n?? udt_native_angular_premise_audit_2026-09-13/checks/startup_tests.capture_provenance.json\n?? udt_native_angular_premise_audit_2026-09-13/checks/startup_tests.json\n?? udt_native_angular_premise_audit_2026-09-13/checks/startup_tests.stderr\n?? udt_native_angular_premise_audit_2026-09-13/parent_exact.py\n?? udt_native_angular_premise_audit_2026-09-13/publication_adapter.py\n?? udt_native_angular_premise_audit_2026-09-13/review/ALLOCATION.json\n?? udt_native_angular_premise_audit_2026-09-13/review/ALLOCATION_CLOSEOUT.json\n?? udt_native_angular_premise_audit_2026-09-13/review/DIRECT_EXPOSURE.json\n?? udt_native_angular_premise_audit_2026-09-13/review/DIRECT_REVIEW_FREEZE.json\n?? udt_native_angular_premise_audit_2026-09-13/review/FINAL_FIDELITY.json\n?? udt_native_angular_premise_audit_2026-09-13/review/FINAL_FIDELITY.md\n?? udt_native_angular_premise_audit_2026-09-13/review/INDEPENDENT_ANALYTICAL_NOTE.md\n?? udt_native_angular_premise_audit_2026-09-13/review/INDEPENDENT_ANALYTICAL_NOTE_FREEZE.json\n?? udt_native_angular_premise_audit_2026-09-13/review/INDEPENDENT_CHECK_EXECUTION.json\n?? udt_native_angular_premise_audit_2026-09-13/review/INDEPENDENT_CHECK_PREFREEZE.json\n?? udt_native_angular_premise_audit_2026-09-13/review/REVIEW.md\n?? udt_native_angular_premise_audit_2026-09-13/review/SOURCE_FIRST_FREEZE.json\n?? udt_native_angular_premise_audit_2026-09-13/review/SOURCE_FIRST_FREEZE.md\n?? udt_native_angular_premise_audit_2026-09-13/review/SOURCE_FIRST_REQUEST.md\n?? udt_native_angular_premise_audit_2026-09-13/review/SOURCE_READING_LOG.md\n?? udt_native_angular_premise_audit_2026-09-13/review/independent_center_check.py\n?? udt_native_angular_premise_audit_2026-09-13/review/independent_center_check.stderr\n?? udt_native_angular_premise_audit_2026-09-13/verify_preservation.py\n?? udt_native_angular_premise_audit_2026-09-13/verify_preservation_initial.py\n?? udt_native_onshell_timelive_reset_owner_audit_2026-08-10/CANDIDATE_LAW_MAP.tsv\n?? udt_native_onshell_timelive_reset_owner_audit_2026-08-10/DERIVATION_RESULT.json\n?? udt_native_onshell_timelive_reset_owner_audit_2026-08-10/EQUATION_OWNERSHIP_ATLAS.tsv\n?? udt_native_onshell_timelive_reset_owner_audit_2026-08-10/SOURCE_SCOPE_CLARIFICATION.md\n?? udt_native_onshell_timelive_reset_owner_audit_2026-08-10/derive_owner_atlas.py\n?? udt_native_onshell_timelive_reset_owner_audit_2026-08-10/run_catch_proofs.py\n?? udt_native_onshell_timelive_reset_owner_audit_2026-08-10/verify_owner_independent.py\n?? udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/ADVERSARIAL_REVIEW_REQUEST.md\n?? udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/AUDIT_REPORT.md\n?? udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/CATCH_PROOF_RESULT.json\n?? udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/DERIVATION_RESULT.json\n?? udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/EVIDENCE_GATES.md\n?? udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/EXACT_DERIVATION.md\n?? udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/INDEPENDENT_VERIFICATION.json\n?? udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/LAY_REPORT.md\n?? udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/STATUS_LEDGER.tsv\n?? udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/VERIFICATION_RESULT.json\n?? udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/WITNESS_ATLAS.tsv\n?? udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/build_review_intake.py\n?? udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/derive_regime_flow.py\n?? udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/run_catch_proofs.py\n?? udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/verify_independent.py\n?? udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/verify_package.py\n?? udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/AUDIT_REPORT.md\n?? udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/CATCH_PROOF_RESULT.json\n?? udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/DERIVATION_RESULT.json\n?? udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/EVIDENCE_GATES.md\n?? udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/EXACT_DERIVATION.md\n?? udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/INDEPENDENT_RADAU_REPLAY.tsv\n?? udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/INDEPENDENT_VERIFICATION.json\n?? udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/LAY_REPORT.md\n?? udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/PREREGISTRATION_EXECUTION_NOTE.md\n?? udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/PROFILE_COMPATIBILITY_ATLAS.tsv\n?? udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/REVIEW_DISPATCH.md\n?? udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/RUN_CHECKPOINT.tsv\n?? udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/STATUS_LEDGER.tsv\n?? udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/VERIFICATION_RESULT.json\n?? udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/build_review_manifest.py\n?? udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/derive_compatibility_atlas.py\n?? udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/run_catch_proofs.py\n?? udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/verify_independent.py\n?? udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/verify_package.py\n",
+      "stderr": ""
+    },
+    {
+      "utc": "2026-09-13T19:07:12.738006+00:00",
+      "command": [
+        "git",
+        "add",
+        "-f",
+        "--pathspec-from-file=/tmp/udt_native_angular_premise_audit_2026-09-13.nul",
+        "--pathspec-file-nul"
+      ],
+      "exit": 0,
+      "stdout": "",
+      "stderr": ""
+    },
+    {
+      "utc": "2026-09-13T19:07:12.780184+00:00",
+      "command": [
+        "git",
+        "diff",
+        "--cached",
+        "--check"
+      ],
+      "exit": 0,
+      "stdout": "",
+      "stderr": ""
+    },
+    {
+      "utc": "2026-09-13T19:07:12.786523+00:00",
+      "command": [
+        "git",
+        "diff",
+        "--cached",
+        "--name-only"
+      ],
+      "exit": 0,
+      "stdout": "CURRENT_RESEARCH_PROGRAM.md\nHANDOFF.md\nINDEX.md\nLIVE.md\nMEMORY.md\nUDT_RESEARCH_ROADMAP.md\nudt_native_angular_premise_audit_2026-09-13/ADDITIONAL_SOURCE_PINS.json\nudt_native_angular_premise_audit_2026-09-13/CANDIDATE_FREEZE.json\nudt_native_angular_premise_audit_2026-09-13/CLOSEOUT.md\nudt_native_angular_premise_audit_2026-09-13/DECISION_BRIEF.md\nudt_native_angular_premise_audit_2026-09-13/FINAL_SOURCE_PINS.json\nudt_native_angular_premise_audit_2026-09-13/INITIAL_CANDIDATE.md\nudt_native_angular_premise_audit_2026-09-13/LAUNCH.json\nudt_native_angular_premise_audit_2026-09-13/LOAD_BEARING_REGISTRY_ROWS.tsv\nudt_native_angular_premise_audit_2026-09-13/NAVIGATION_BEFORE.json\nudt_native_angular_premise_audit_2026-09-13/PACKAGING_REPAIR.md\nudt_native_angular_premise_audit_2026-09-13/PARENT_CODE_FREEZE.json\nudt_native_angular_premise_audit_2026-09-13/PROTECTED_EVIDENCE_PINS.json\nudt_native_angular_premise_audit_2026-09-13/PUBLISH_PLAN.json\nudt_native_angular_premise_audit_2026-09-13/REPAIR.md\nudt_native_angular_premise_audit_2026-09-13/RESOURCE_RECORD.json\nudt_native_angular_premise_audit_2026-09-13/REVIEWED_RESULT.md\nudt_native_angular_premise_audit_2026-09-13/SHA256SUMS.json\nudt_native_angular_premise_audit_2026-09-13/SOURCE_CONSTRAINT_MAP.md\nudt_native_angular_premise_audit_2026-09-13/SOURCE_PINS.json\nudt_native_angular_premise_audit_2026-09-13/WORK_ORDER.md\nudt_native_angular_premise_audit_2026-09-13/WORK_ORDER_FREEZE.json\nudt_native_angular_premise_audit_2026-09-13/checks/parent_exact.capture_provenance.json\nudt_native_angular_premise_audit_2026-09-13/checks/parent_exact.json\nudt_native_angular_premise_audit_2026-09-13/checks/parent_exact.stderr\nudt_native_angular_premise_audit_2026-09-13/checks/parent_exact.stdout\nudt_native_angular_premise_audit_2026-09-13/checks/premise406.capture_provenance.json\nudt_native_angular_premise_audit_2026-09-13/checks/premise406.json\nudt_native_angular_premise_audit_2026-09-13/checks/premise406.stderr\nudt_native_angular_premise_audit_2026-09-13/checks/premise406.stdout\nudt_native_angular_premise_audit_2026-09-13/checks/prepublication_fetch.capture_provenance.json\nudt_native_angular_premise_audit_2026-09-13/checks/prepublication_fetch.json\nudt_native_angular_premise_audit_2026-09-13/checks/prepublication_fetch.stderr\nudt_native_angular_premise_audit_2026-09-13/checks/prepublication_fetch.stdout\nudt_native_angular_premise_audit_2026-09-13/checks/preservation.capture_provenance.json\nudt_native_angular_premise_audit_2026-09-13/checks/preservation.json\nudt_native_angular_premise_audit_2026-09-13/checks/preservation.stderr\nudt_native_angular_premise_audit_2026-09-13/checks/preservation.stdout\nudt_native_angular_premise_audit_2026-09-13/checks/preservation_final.capture_provenance.json\nudt_native_angular_premise_audit_2026-09-13/checks/preservation_final.json\nudt_native_angular_premise_audit_2026-09-13/checks/preservation_final.stderr\nudt_native_angular_premise_audit_2026-09-13/checks/preservation_final.stdout\nudt_native_angular_premise_audit_2026-09-13/checks/preservation_repaired.capture_provenance.json\nudt_native_angular_premise_audit_2026-09-13/checks/preservation_repaired.json\nudt_native_angular_premise_audit_2026-09-13/checks/preservation_repaired.stderr\nudt_native_angular_premise_audit_2026-09-13/checks/preservation_repaired.stdout\nudt_native_angular_premise_audit_2026-09-13/checks/startup_tests.capture_provenance.json\nudt_native_angular_premise_audit_2026-09-13/checks/startup_tests.json\nudt_native_angular_premise_audit_2026-09-13/checks/startup_tests.stderr\nudt_native_angular_premise_audit_2026-09-13/checks/startup_tests.stdout\nudt_native_angular_premise_audit_2026-09-13/parent_exact.py\nudt_native_angular_premise_audit_2026-09-13/publication_adapter.py\nudt_native_angular_premise_audit_2026-09-13/review/ALLOCATION.json\nudt_native_angular_premise_audit_2026-09-13/review/ALLOCATION_CLOSEOUT.json\nudt_native_angular_premise_audit_2026-09-13/review/DIRECT_EXPOSURE.json\nudt_native_angular_premise_audit_2026-09-13/review/DIRECT_REVIEW_FREEZE.json\nudt_native_angular_premise_audit_2026-09-13/review/FINAL_FIDELITY.json\nudt_native_angular_premise_audit_2026-09-13/review/FINAL_FIDELITY.md\nudt_native_angular_premise_audit_2026-09-13/review/INDEPENDENT_ANALYTICAL_NOTE.md\nudt_native_angular_premise_audit_2026-09-13/review/INDEPENDENT_ANALYTICAL_NOTE_FREEZE.json\nudt_native_angular_premise_audit_2026-09-13/review/INDEPENDENT_CHECK_EXECUTION.json\nudt_native_angular_premise_audit_2026-09-13/review/INDEPENDENT_CHECK_PREFREEZE.json\nudt_native_angular_premise_audit_2026-09-13/review/REVIEW.md\nudt_native_angular_premise_audit_2026-09-13/review/SOURCE_FIRST_FREEZE.json\nudt_native_angular_premise_audit_2026-09-13/review/SOURCE_FIRST_FREEZE.md\nudt_native_angular_premise_audit_2026-09-13/review/SOURCE_FIRST_REQUEST.md\nudt_native_angular_premise_audit_2026-09-13/review/SOURCE_READING_LOG.md\nudt_native_angular_premise_audit_2026-09-13/review/independent_center_check.py\nudt_native_angular_premise_audit_2026-09-13/review/independent_center_check.stderr\nudt_native_angular_premise_audit_2026-09-13/review/independent_center_check.stdout\nudt_native_angular_premise_audit_2026-09-13/verify_preservation.py\nudt_native_angular_premise_audit_2026-09-13/verify_preservation_initial.py\n",
+      "stderr": ""
+    },
+    {
+      "utc": "2026-09-13T19:07:28.444342+00:00",
+      "command": [
+        "git",
+        "diff",
+        "--cached",
+        "--check"
+      ],
+      "exit": 0,
+      "stdout": "",
+      "stderr": ""
+    },
+    {
+      "utc": "2026-09-13T19:07:28.451742+00:00",
+      "command": [
+        "git",
+        "diff",
+        "--cached",
+        "--name-only"
+      ],
+      "exit": 0,
+      "stdout": "CURRENT_RESEARCH_PROGRAM.md\nHANDOFF.md\nINDEX.md\nLIVE.md\nMEMORY.md\nUDT_RESEARCH_ROADMAP.md\nudt_native_angular_premise_audit_2026-09-13/ADDITIONAL_SOURCE_PINS.json\nudt_native_angular_premise_audit_2026-09-13/CANDIDATE_FREEZE.json\nudt_native_angular_premise_audit_2026-09-13/CLOSEOUT.md\nudt_native_angular_premise_audit_2026-09-13/DECISION_BRIEF.md\nudt_native_angular_premise_audit_2026-09-13/FINAL_SOURCE_PINS.json\nudt_native_angular_premise_audit_2026-09-13/INITIAL_CANDIDATE.md\nudt_native_angular_premise_audit_2026-09-13/LAUNCH.json\nudt_native_angular_premise_audit_2026-09-13/LOAD_BEARING_REGISTRY_ROWS.tsv\nudt_native_angular_premise_audit_2026-09-13/NAVIGATION_BEFORE.json\nudt_native_angular_premise_audit_2026-09-13/PACKAGING_REPAIR.md\nudt_native_angular_premise_audit_2026-09-13/PARENT_CODE_FREEZE.json\nudt_native_angular_premise_audit_2026-09-13/PROTECTED_EVIDENCE_PINS.json\nudt_native_angular_premise_audit_2026-09-13/PUBLISH_PLAN.json\nudt_native_angular_premise_audit_2026-09-13/REPAIR.md\nudt_native_angular_premise_audit_2026-09-13/RESOURCE_RECORD.json\nudt_native_angular_premise_audit_2026-09-13/REVIEWED_RESULT.md\nudt_native_angular_premise_audit_2026-09-13/SHA256SUMS.json\nudt_native_angular_premise_audit_2026-09-13/SOURCE_CONSTRAINT_MAP.md\nudt_native_angular_premise_audit_2026-09-13/SOURCE_PINS.json\nudt_native_angular_premise_audit_2026-09-13/WORK_ORDER.md\nudt_native_angular_premise_audit_2026-09-13/WORK_ORDER_FREEZE.json\nudt_native_angular_premise_audit_2026-09-13/checks/parent_exact.capture_provenance.json\nudt_native_angular_premise_audit_2026-09-13/checks/parent_exact.json\nudt_native_angular_premise_audit_2026-09-13/checks/parent_exact.stderr\nudt_native_angular_premise_audit_2026-09-13/checks/parent_exact.stdout\nudt_native_angular_premise_audit_2026-09-13/checks/premise406.capture_provenance.json\nudt_native_angular_premise_audit_2026-09-13/checks/premise406.json\nudt_native_angular_premise_audit_2026-09-13/checks/premise406.stderr\nudt_native_angular_premise_audit_2026-09-13/checks/premise406.stdout\nudt_native_angular_premise_audit_2026-09-13/checks/prepublication_fetch.capture_provenance.json\nudt_native_angular_premise_audit_2026-09-13/checks/prepublication_fetch.json\nudt_native_angular_premise_audit_2026-09-13/checks/prepublication_fetch.stderr\nudt_native_angular_premise_audit_2026-09-13/checks/prepublication_fetch.stdout\nudt_native_angular_premise_audit_2026-09-13/checks/preservation.capture_provenance.json\nudt_native_angular_premise_audit_2026-09-13/checks/preservation.json\nudt_native_angular_premise_audit_2026-09-13/checks/preservation.stderr\nudt_native_angular_premise_audit_2026-09-13/checks/preservation.stdout\nudt_native_angular_premise_audit_2026-09-13/checks/preservation_final.capture_provenance.json\nudt_native_angular_premise_audit_2026-09-13/checks/preservation_final.json\nudt_native_angular_premise_audit_2026-09-13/checks/preservation_final.stderr\nudt_native_angular_premise_audit_2026-09-13/checks/preservation_final.stdout\nudt_native_angular_premise_audit_2026-09-13/checks/preservation_repaired.capture_provenance.json\nudt_native_angular_premise_audit_2026-09-13/checks/preservation_repaired.json\nudt_native_angular_premise_audit_2026-09-13/checks/preservation_repaired.stderr\nudt_native_angular_premise_audit_2026-09-13/checks/preservation_repaired.stdout\nudt_native_angular_premise_audit_2026-09-13/checks/startup_tests.capture_provenance.json\nudt_native_angular_premise_audit_2026-09-13/checks/startup_tests.json\nudt_native_angular_premise_audit_2026-09-13/checks/startup_tests.stderr\nudt_native_angular_premise_audit_2026-09-13/checks/startup_tests.stdout\nudt_native_angular_premise_audit_2026-09-13/parent_exact.py\nudt_native_angular_premise_audit_2026-09-13/publication_adapter.py\nudt_native_angular_premise_audit_2026-09-13/review/ALLOCATION.json\nudt_native_angular_premise_audit_2026-09-13/review/ALLOCATION_CLOSEOUT.json\nudt_native_angular_premise_audit_2026-09-13/review/DIRECT_EXPOSURE.json\nudt_native_angular_premise_audit_2026-09-13/review/DIRECT_REVIEW_FREEZE.json\nudt_native_angular_premise_audit_2026-09-13/review/FINAL_FIDELITY.json\nudt_native_angular_premise_audit_2026-09-13/review/FINAL_FIDELITY.md\nudt_native_angular_premise_audit_2026-09-13/review/INDEPENDENT_ANALYTICAL_NOTE.md\nudt_native_angular_premise_audit_2026-09-13/review/INDEPENDENT_ANALYTICAL_NOTE_FREEZE.json\nudt_native_angular_premise_audit_2026-09-13/review/INDEPENDENT_CHECK_EXECUTION.json\nudt_native_angular_premise_audit_2026-09-13/review/INDEPENDENT_CHECK_PREFREEZE.json\nudt_native_angular_premise_audit_2026-09-13/review/REVIEW.md\nudt_native_angular_premise_audit_2026-09-13/review/SOURCE_FIRST_FREEZE.json\nudt_native_angular_premise_audit_2026-09-13/review/SOURCE_FIRST_FREEZE.md\nudt_native_angular_premise_audit_2026-09-13/review/SOURCE_FIRST_REQUEST.md\nudt_native_angular_premise_audit_2026-09-13/review/SOURCE_READING_LOG.md\nudt_native_angular_premise_audit_2026-09-13/review/independent_center_check.py\nudt_native_angular_premise_audit_2026-09-13/review/independent_center_check.stderr\nudt_native_angular_premise_audit_2026-09-13/review/independent_center_check.stdout\nudt_native_angular_premise_audit_2026-09-13/verify_preservation.py\nudt_native_angular_premise_audit_2026-09-13/verify_preservation_initial.py\n",
+      "stderr": ""
+    },
+    {
+      "utc": "2026-09-13T19:07:28.457478+00:00",
+      "command": [
+        "git",
+        "commit",
+        "-m",
+        "Record reviewed native angular premise audit without law adoption"
+      ],
+      "exit": 0,
+      "stdout": "[grok f025f4db] Record reviewed native angular premise audit without law adoption\n 77 files changed, 3295 insertions(+), 11 deletions(-)\n create mode 100644 udt_native_angular_premise_audit_2026-09-13/ADDITIONAL_SOURCE_PINS.json\n create mode 100644 udt_native_angular_premise_audit_2026-09-13/CANDIDATE_FREEZE.json\n create mode 100644 udt_native_angular_premise_audit_2026-09-13/CLOSEOUT.md\n create mode 100644 udt_native_angular_premise_audit_2026-09-13/DECISION_BRIEF.md\n create mode 100644 udt_native_angular_premise_audit_2026-09-13/FINAL_SOURCE_PINS.json\n create mode 100644 udt_native_angular_premise_audit_2026-09-13/INITIAL_CANDIDATE.md\n create mode 100644 udt_native_angular_premise_audit_2026-09-13/LAUNCH.json\n create mode 100644 udt_native_angular_premise_audit_2026-09-13/LOAD_BEARING_REGISTRY_ROWS.tsv\n create mode 100644 udt_native_angular_premise_audit_2026-09-13/NAVIGATION_BEFORE.json\n create mode 100644 udt_native_angular_premise_audit_2026-09-13/PACKAGING_REPAIR.md\n create mode 100644 udt_native_angular_premise_audit_2026-09-13/PARENT_CODE_FREEZE.json\n create mode 100644 udt_native_angular_premise_audit_2026-09-13/PROTECTED_EVIDENCE_PINS.json\n create mode 100644 udt_native_angular_premise_audit_2026-09-13/PUBLISH_PLAN.json\n create mode 100644 udt_native_angular_premise_audit_2026-09-13/REPAIR.md\n create mode 100644 udt_native_angular_premise_audit_2026-09-13/RESOURCE_RECORD.json\n create mode 100644 udt_native_angular_premise_audit_2026-09-13/REVIEWED_RESULT.md\n create mode 100644 udt_native_angular_premise_audit_2026-09-13/SHA256SUMS.json\n create mode 100644 udt_native_angular_premise_audit_2026-09-13/SOURCE_CONSTRAINT_MAP.md\n create mode 100644 udt_native_angular_premise_audit_2026-09-13/SOURCE_PINS.json\n create mode 100644 udt_native_angular_premise_audit_2026-09-13/WORK_ORDER.md\n create mode 100644 udt_native_angular_premise_audit_2026-09-13/WORK_ORDER_FREEZE.json\n create mode 100644 udt_native_angular_premise_audit_2026-09-13/checks/parent_exact.capture_provenance.json\n create mode 100644 udt_native_angular_premise_audit_2026-09-13/checks/parent_exact.json\n create mode 100644 udt_native_angular_premise_audit_2026-09-13/checks/parent_exact.stderr\n create mode 100644 udt_native_angular_premise_audit_2026-09-13/checks/parent_exact.stdout\n create mode 100644 udt_native_angular_premise_audit_2026-09-13/checks/premise406.capture_provenance.json\n create mode 100644 udt_native_angular_premise_audit_2026-09-13/checks/premise406.json\n create mode 100644 udt_native_angular_premise_audit_2026-09-13/checks/premise406.stderr\n create mode 100644 udt_native_angular_premise_audit_2026-09-13/checks/premise406.stdout\n create mode 100644 udt_native_angular_premise_audit_2026-09-13/checks/prepublication_fetch.capture_provenance.json\n create mode 100644 udt_native_angular_premise_audit_2026-09-13/checks/prepublication_fetch.json\n create mode 100644 udt_native_angular_premise_audit_2026-09-13/checks/prepublication_fetch.stderr\n create mode 100644 udt_native_angular_premise_audit_2026-09-13/checks/prepublication_fetch.stdout\n create mode 100644 udt_native_angular_premise_audit_2026-09-13/checks/preservation.capture_provenance.json\n create mode 100644 udt_native_angular_premise_audit_2026-09-13/checks/preservation.json\n create mode 100644 udt_native_angular_premise_audit_2026-09-13/checks/preservation.stderr\n create mode 100644 udt_native_angular_premise_audit_2026-09-13/checks/preservation.stdout\n create mode 100644 udt_native_angular_premise_audit_2026-09-13/checks/preservation_final.capture_provenance.json\n create mode 100644 udt_native_angular_premise_audit_2026-09-13/checks/preservation_final.json\n create mode 100644 udt_native_angular_premise_audit_2026-09-13/checks/preservation_final.stderr\n create mode 100644 udt_native_angular_premise_audit_2026-09-13/checks/preservation_final.stdout\n create mode 100644 udt_native_angular_premise_audit_2026-09-13/checks/preservation_repaired.capture_provenance.json\n create mode 100644 udt_native_angular_premise_audit_2026-09-13/checks/preservation_repaired.json\n create mode 100644 udt_native_angular_premise_audit_2026-09-13/checks/preservation_repaired.stderr\n create mode 100644 udt_native_angular_premise_audit_2026-09-13/checks/preservation_repaired.stdout\n create mode 100644 udt_native_angular_premise_audit_2026-09-13/checks/startup_tests.capture_provenance.json\n create mode 100644 udt_native_angular_premise_audit_2026-09-13/checks/startup_tests.json\n create mode 100644 udt_native_angular_premise_audit_2026-09-13/checks/startup_tests.stderr\n create mode 100644 udt_native_angular_premise_audit_2026-09-13/checks/startup_tests.stdout\n create mode 100644 udt_native_angular_premise_audit_2026-09-13/parent_exact.py\n create mode 100644 udt_native_angular_premise_audit_2026-09-13/publication_adapter.py\n create mode 100644 udt_native_angular_premise_audit_2026-09-13/review/ALLOCATION.json\n create mode 100644 udt_native_angular_premise_audit_2026-09-13/review/ALLOCATION_CLOSEOUT.json\n create mode 100644 udt_native_angular_premise_audit_2026-09-13/review/DIRECT_EXPOSURE.json\n create mode 100644 udt_native_angular_premise_audit_2026-09-13/review/DIRECT_REVIEW_FREEZE.json\n create mode 100644 udt_native_angular_premise_audit_2026-09-13/review/FINAL_FIDELITY.json\n create mode 100644 udt_native_angular_premise_audit_2026-09-13/review/FINAL_FIDELITY.md\n create mode 100644 udt_native_angular_premise_audit_2026-09-13/review/INDEPENDENT_ANALYTICAL_NOTE.md\n create mode 100644 udt_native_angular_premise_audit_2026-09-13/review/INDEPENDENT_ANALYTICAL_NOTE_FREEZE.json\n create mode 100644 udt_native_angular_premise_audit_2026-09-13/review/INDEPENDENT_CHECK_EXECUTION.json\n create mode 100644 udt_native_angular_premise_audit_2026-09-13/review/INDEPENDENT_CHECK_PREFREEZE.json\n create mode 100644 udt_native_angular_premise_audit_2026-09-13/review/REVIEW.md\n create mode 100644 udt_native_angular_premise_audit_2026-09-13/review/SOURCE_FIRST_FREEZE.json\n create mode 100644 udt_native_angular_premise_audit_2026-09-13/review/SOURCE_FIRST_FREEZE.md\n create mode 100644 udt_native_angular_premise_audit_2026-09-13/review/SOURCE_FIRST_REQUEST.md\n create mode 100644 udt_native_angular_premise_audit_2026-09-13/review/SOURCE_READING_LOG.md\n create mode 100644 udt_native_angular_premise_audit_2026-09-13/review/independent_center_check.py\n create mode 100644 udt_native_angular_premise_audit_2026-09-13/review/independent_center_check.stderr\n create mode 100644 udt_native_angular_premise_audit_2026-09-13/review/independent_center_check.stdout\n create mode 100644 udt_native_angular_premise_audit_2026-09-13/verify_preservation.py\n create mode 100644 udt_native_angular_premise_audit_2026-09-13/verify_preservation_initial.py\n",
+      "stderr": ""
+    },
+    {
+      "utc": "2026-09-13T19:07:28.483711+00:00",
+      "command": [
+        "git",
+        "rev-parse",
+        "HEAD"
+      ],
+      "exit": 0,
+      "stdout": "f025f4dbee53a670853691c572127986bc6e962a\n",
+      "stderr": ""
+    },
+    {
+      "utc": "2026-09-13T19:07:28.484916+00:00",
+      "command": [
+        "git",
+        "diff-tree",
+        "--no-commit-id",
+        "--name-only",
+        "-r",
+        "HEAD"
+      ],
+      "exit": 0,
+      "stdout": "CURRENT_RESEARCH_PROGRAM.md\nHANDOFF.md\nINDEX.md\nLIVE.md\nMEMORY.md\nUDT_RESEARCH_ROADMAP.md\nudt_native_angular_premise_audit_2026-09-13/ADDITIONAL_SOURCE_PINS.json\nudt_native_angular_premise_audit_2026-09-13/CANDIDATE_FREEZE.json\nudt_native_angular_premise_audit_2026-09-13/CLOSEOUT.md\nudt_native_angular_premise_audit_2026-09-13/DECISION_BRIEF.md\nudt_native_angular_premise_audit_2026-09-13/FINAL_SOURCE_PINS.json\nudt_native_angular_premise_audit_2026-09-13/INITIAL_CANDIDATE.md\nudt_native_angular_premise_audit_2026-09-13/LAUNCH.json\nudt_native_angular_premise_audit_2026-09-13/LOAD_BEARING_REGISTRY_ROWS.tsv\nudt_native_angular_premise_audit_2026-09-13/NAVIGATION_BEFORE.json\nudt_native_angular_premise_audit_2026-09-13/PACKAGING_REPAIR.md\nudt_native_angular_premise_audit_2026-09-13/PARENT_CODE_FREEZE.json\nudt_native_angular_premise_audit_2026-09-13/PROTECTED_EVIDENCE_PINS.json\nudt_native_angular_premise_audit_2026-09-13/PUBLISH_PLAN.json\nudt_native_angular_premise_audit_2026-09-13/REPAIR.md\nudt_native_angular_premise_audit_2026-09-13/RESOURCE_RECORD.json\nudt_native_angular_premise_audit_2026-09-13/REVIEWED_RESULT.md\nudt_native_angular_premise_audit_2026-09-13/SHA256SUMS.json\nudt_native_angular_premise_audit_2026-09-13/SOURCE_CONSTRAINT_MAP.md\nudt_native_angular_premise_audit_2026-09-13/SOURCE_PINS.json\nudt_native_angular_premise_audit_2026-09-13/WORK_ORDER.md\nudt_native_angular_premise_audit_2026-09-13/WORK_ORDER_FREEZE.json\nudt_native_angular_premise_audit_2026-09-13/checks/parent_exact.capture_provenance.json\nudt_native_angular_premise_audit_2026-09-13/checks/parent_exact.json\nudt_native_angular_premise_audit_2026-09-13/checks/parent_exact.stderr\nudt_native_angular_premise_audit_2026-09-13/checks/parent_exact.stdout\nudt_native_angular_premise_audit_2026-09-13/checks/premise406.capture_provenance.json\nudt_native_angular_premise_audit_2026-09-13/checks/premise406.json\nudt_native_angular_premise_audit_2026-09-13/checks/premise406.stderr\nudt_native_angular_premise_audit_2026-09-13/checks/premise406.stdout\nudt_native_angular_premise_audit_2026-09-13/checks/prepublication_fetch.capture_provenance.json\nudt_native_angular_premise_audit_2026-09-13/checks/prepublication_fetch.json\nudt_native_angular_premise_audit_2026-09-13/checks/prepublication_fetch.stderr\nudt_native_angular_premise_audit_2026-09-13/checks/prepublication_fetch.stdout\nudt_native_angular_premise_audit_2026-09-13/checks/preservation.capture_provenance.json\nudt_native_angular_premise_audit_2026-09-13/checks/preservation.json\nudt_native_angular_premise_audit_2026-09-13/checks/preservation.stderr\nudt_native_angular_premise_audit_2026-09-13/checks/preservation.stdout\nudt_native_angular_premise_audit_2026-09-13/checks/preservation_final.capture_provenance.json\nudt_native_angular_premise_audit_2026-09-13/checks/preservation_final.json\nudt_native_angular_premise_audit_2026-09-13/checks/preservation_final.stderr\nudt_native_angular_premise_audit_2026-09-13/checks/preservation_final.stdout\nudt_native_angular_premise_audit_2026-09-13/checks/preservation_repaired.capture_provenance.json\nudt_native_angular_premise_audit_2026-09-13/checks/preservation_repaired.json\nudt_native_angular_premise_audit_2026-09-13/checks/preservation_repaired.stderr\nudt_native_angular_premise_audit_2026-09-13/checks/preservation_repaired.stdout\nudt_native_angular_premise_audit_2026-09-13/checks/startup_tests.capture_provenance.json\nudt_native_angular_premise_audit_2026-09-13/checks/startup_tests.json\nudt_native_angular_premise_audit_2026-09-13/checks/startup_tests.stderr\nudt_native_angular_premise_audit_2026-09-13/checks/startup_tests.stdout\nudt_native_angular_premise_audit_2026-09-13/parent_exact.py\nudt_native_angular_premise_audit_2026-09-13/publication_adapter.py\nudt_native_angular_premise_audit_2026-09-13/review/ALLOCATION.json\nudt_native_angular_premise_audit_2026-09-13/review/ALLOCATION_CLOSEOUT.json\nudt_native_angular_premise_audit_2026-09-13/review/DIRECT_EXPOSURE.json\nudt_native_angular_premise_audit_2026-09-13/review/DIRECT_REVIEW_FREEZE.json\nudt_native_angular_premise_audit_2026-09-13/review/FINAL_FIDELITY.json\nudt_native_angular_premise_audit_2026-09-13/review/FINAL_FIDELITY.md\nudt_native_angular_premise_audit_2026-09-13/review/INDEPENDENT_ANALYTICAL_NOTE.md\nudt_native_angular_premise_audit_2026-09-13/review/INDEPENDENT_ANALYTICAL_NOTE_FREEZE.json\nudt_native_angular_premise_audit_2026-09-13/review/INDEPENDENT_CHECK_EXECUTION.json\nudt_native_angular_premise_audit_2026-09-13/review/INDEPENDENT_CHECK_PREFREEZE.json\nudt_native_angular_premise_audit_2026-09-13/review/REVIEW.md\nudt_native_angular_premise_audit_2026-09-13/review/SOURCE_FIRST_FREEZE.json\nudt_native_angular_premise_audit_2026-09-13/review/SOURCE_FIRST_FREEZE.md\nudt_native_angular_premise_audit_2026-09-13/review/SOURCE_FIRST_REQUEST.md\nudt_native_angular_premise_audit_2026-09-13/review/SOURCE_READING_LOG.md\nudt_native_angular_premise_audit_2026-09-13/review/independent_center_check.py\nudt_native_angular_premise_audit_2026-09-13/review/independent_center_check.stderr\nudt_native_angular_premise_audit_2026-09-13/review/independent_center_check.stdout\nudt_native_angular_premise_audit_2026-09-13/verify_preservation.py\nudt_native_angular_premise_audit_2026-09-13/verify_preservation_initial.py\n",
+      "stderr": ""
+    },
+    {
+      "utc": "2026-09-13T19:07:32.076717+00:00",
+      "command": [
+        "git",
+        "push",
+        "origin",
+        "grok"
+      ],
+      "exit": 0,
+      "stdout": "",
+      "stderr": "To https://github.com/charlesrotter/udt_mass_codex.git\n   04765748..f025f4db  grok -> grok\n"
+    },
+    {
+      "utc": "2026-09-13T19:07:33.851994+00:00",
+      "command": [
+        "git",
+        "rev-parse",
+        "HEAD",
+        "origin/grok"
+      ],
+      "exit": 0,
+      "stdout": "f025f4dbee53a670853691c572127986bc6e962a\nf025f4dbee53a670853691c572127986bc6e962a\n",
+      "stderr": ""
+    },
+    {
+      "utc": "2026-09-13T19:07:33.853853+00:00",
+      "command": [
+        "git",
+        "diff",
+        "--name-only"
+      ],
+      "exit": 0,
+      "stdout": "",
+      "stderr": ""
+    },
+    {
+      "utc": "2026-09-13T19:07:33.862793+00:00",
+      "command": [
+        "git",
+        "diff",
+        "--cached",
+        "--name-only"
+      ],
+      "exit": 0,
+      "stdout": "",
+      "stderr": ""
+    },
+    {
+      "utc": "2026-09-13T19:07:33.869493+00:00",
+      "command": [
+        "git",
+        "status",
+        "--short",
+        "--untracked-files=all"
+      ],
+      "exit": 0,
+      "stdout": "?? 8_25/UDT_FOUNDING_VALUE_LAW_ANALYSIS.md\n?? 8_25/udt_extension_checks.py\n?? 8_25/udt_extension_minimality_response.md\n?? 8_25/udt_value_law_checks.py\n?? 8_25/udt_value_law_checks_llm1.py\n?? 8_25/udt_value_law_external_response.md\n?? UDT_Complete_Guardrails_and_Central_Science_Tracking.md\n?? UDT_Next_Step_After_Two_Stages.md\n?? UDT_Sequenced_Guardrails_and_Development_Work_Order.md\n?? udt_native_onshell_timelive_reset_owner_audit_2026-08-10/CANDIDATE_LAW_MAP.tsv\n?? udt_native_onshell_timelive_reset_owner_audit_2026-08-10/DERIVATION_RESULT.json\n?? udt_native_onshell_timelive_reset_owner_audit_2026-08-10/EQUATION_OWNERSHIP_ATLAS.tsv\n?? udt_native_onshell_timelive_reset_owner_audit_2026-08-10/SOURCE_SCOPE_CLARIFICATION.md\n?? udt_native_onshell_timelive_reset_owner_audit_2026-08-10/derive_owner_atlas.py\n?? udt_native_onshell_timelive_reset_owner_audit_2026-08-10/run_catch_proofs.py\n?? udt_native_onshell_timelive_reset_owner_audit_2026-08-10/verify_owner_independent.py\n?? udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/ADVERSARIAL_REVIEW_REQUEST.md\n?? udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/AUDIT_REPORT.md\n?? udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/CATCH_PROOF_RESULT.json\n?? udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/DERIVATION_RESULT.json\n?? udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/EVIDENCE_GATES.md\n?? udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/EXACT_DERIVATION.md\n?? udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/INDEPENDENT_VERIFICATION.json\n?? udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/LAY_REPORT.md\n?? udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/STATUS_LEDGER.tsv\n?? udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/VERIFICATION_RESULT.json\n?? udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/WITNESS_ATLAS.tsv\n?? udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/build_review_intake.py\n?? udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/derive_regime_flow.py\n?? udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/run_catch_proofs.py\n?? udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/verify_independent.py\n?? udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/verify_package.py\n?? udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/AUDIT_REPORT.md\n?? udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/CATCH_PROOF_RESULT.json\n?? udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/DERIVATION_RESULT.json\n?? udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/EVIDENCE_GATES.md\n?? udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/EXACT_DERIVATION.md\n?? udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/INDEPENDENT_RADAU_REPLAY.tsv\n?? udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/INDEPENDENT_VERIFICATION.json\n?? udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/LAY_REPORT.md\n?? udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/PREREGISTRATION_EXECUTION_NOTE.md\n?? udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/PROFILE_COMPATIBILITY_ATLAS.tsv\n?? udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/REVIEW_DISPATCH.md\n?? udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/RUN_CHECKPOINT.tsv\n?? udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/STATUS_LEDGER.tsv\n?? udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/VERIFICATION_RESULT.json\n?? udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/build_review_manifest.py\n?? udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/derive_compatibility_atlas.py\n?? udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/run_catch_proofs.py\n?? udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/verify_independent.py\n?? udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/verify_package.py\n",
+      "stderr": ""
+    }
+  ],
+  "baseline_head": "04765748a5402a6717f47ec0670fd3ea225e4c01",
+  "original_untracked_status_sha256": "747cf3c497bfbdf7c373a2aa621be3cb241a61f7ef9f508c39bf64588ff70a60",
+  "planned_paths": [
+    "CURRENT_RESEARCH_PROGRAM.md",
+    "HANDOFF.md",
+    "INDEX.md",
+    "LIVE.md",
+    "MEMORY.md",
+    "UDT_RESEARCH_ROADMAP.md",
+    "udt_native_angular_premise_audit_2026-09-13/ADDITIONAL_SOURCE_PINS.json",
+    "udt_native_angular_premise_audit_2026-09-13/CANDIDATE_FREEZE.json",
+    "udt_native_angular_premise_audit_2026-09-13/CLOSEOUT.md",
+    "udt_native_angular_premise_audit_2026-09-13/DECISION_BRIEF.md",
+    "udt_native_angular_premise_audit_2026-09-13/FINAL_SOURCE_PINS.json",
+    "udt_native_angular_premise_audit_2026-09-13/INITIAL_CANDIDATE.md",
+    "udt_native_angular_premise_audit_2026-09-13/LAUNCH.json",
+    "udt_native_angular_premise_audit_2026-09-13/LOAD_BEARING_REGISTRY_ROWS.tsv",
+    "udt_native_angular_premise_audit_2026-09-13/NAVIGATION_BEFORE.json",
+    "udt_native_angular_premise_audit_2026-09-13/PACKAGING_REPAIR.md",
+    "udt_native_angular_premise_audit_2026-09-13/PARENT_CODE_FREEZE.json",
+    "udt_native_angular_premise_audit_2026-09-13/PROTECTED_EVIDENCE_PINS.json",
+    "udt_native_angular_premise_audit_2026-09-13/PUBLISH_PLAN.json",
+    "udt_native_angular_premise_audit_2026-09-13/REPAIR.md",
+    "udt_native_angular_premise_audit_2026-09-13/RESOURCE_RECORD.json",
+    "udt_native_angular_premise_audit_2026-09-13/REVIEWED_RESULT.md",
+    "udt_native_angular_premise_audit_2026-09-13/SHA256SUMS.json",
+    "udt_native_angular_premise_audit_2026-09-13/SOURCE_CONSTRAINT_MAP.md",
+    "udt_native_angular_premise_audit_2026-09-13/SOURCE_PINS.json",
+    "udt_native_angular_premise_audit_2026-09-13/WORK_ORDER.md",
+    "udt_native_angular_premise_audit_2026-09-13/WORK_ORDER_FREEZE.json",
+    "udt_native_angular_premise_audit_2026-09-13/checks/parent_exact.capture_provenance.json",
+    "udt_native_angular_premise_audit_2026-09-13/checks/parent_exact.json",
+    "udt_native_angular_premise_audit_2026-09-13/checks/parent_exact.stderr",
+    "udt_native_angular_premise_audit_2026-09-13/checks/parent_exact.stdout",
+    "udt_native_angular_premise_audit_2026-09-13/checks/premise406.capture_provenance.json",
+    "udt_native_angular_premise_audit_2026-09-13/checks/premise406.json",
+    "udt_native_angular_premise_audit_2026-09-13/checks/premise406.stderr",
+    "udt_native_angular_premise_audit_2026-09-13/checks/premise406.stdout",
+    "udt_native_angular_premise_audit_2026-09-13/checks/prepublication_fetch.capture_provenance.json",
+    "udt_native_angular_premise_audit_2026-09-13/checks/prepublication_fetch.json",
+    "udt_native_angular_premise_audit_2026-09-13/checks/prepublication_fetch.stderr",
+    "udt_native_angular_premise_audit_2026-09-13/checks/prepublication_fetch.stdout",
+    "udt_native_angular_premise_audit_2026-09-13/checks/preservation.capture_provenance.json",
+    "udt_native_angular_premise_audit_2026-09-13/checks/preservation.json",
+    "udt_native_angular_premise_audit_2026-09-13/checks/preservation.stderr",
+    "udt_native_angular_premise_audit_2026-09-13/checks/preservation.stdout",
+    "udt_native_angular_premise_audit_2026-09-13/checks/preservation_final.capture_provenance.json",
+    "udt_native_angular_premise_audit_2026-09-13/checks/preservation_final.json",
+    "udt_native_angular_premise_audit_2026-09-13/checks/preservation_final.stderr",
+    "udt_native_angular_premise_audit_2026-09-13/checks/preservation_final.stdout",
+    "udt_native_angular_premise_audit_2026-09-13/checks/preservation_repaired.capture_provenance.json",
+    "udt_native_angular_premise_audit_2026-09-13/checks/preservation_repaired.json",
+    "udt_native_angular_premise_audit_2026-09-13/checks/preservation_repaired.stderr",
+    "udt_native_angular_premise_audit_2026-09-13/checks/preservation_repaired.stdout",
+    "udt_native_angular_premise_audit_2026-09-13/checks/startup_tests.capture_provenance.json",
+    "udt_native_angular_premise_audit_2026-09-13/checks/startup_tests.json",
+    "udt_native_angular_premise_audit_2026-09-13/checks/startup_tests.stderr",
+    "udt_native_angular_premise_audit_2026-09-13/checks/startup_tests.stdout",
+    "udt_native_angular_premise_audit_2026-09-13/parent_exact.py",
+    "udt_native_angular_premise_audit_2026-09-13/publication_adapter.py",
+    "udt_native_angular_premise_audit_2026-09-13/review/ALLOCATION.json",
+    "udt_native_angular_premise_audit_2026-09-13/review/ALLOCATION_CLOSEOUT.json",
+    "udt_native_angular_premise_audit_2026-09-13/review/DIRECT_EXPOSURE.json",
+    "udt_native_angular_premise_audit_2026-09-13/review/DIRECT_REVIEW_FREEZE.json",
+    "udt_native_angular_premise_audit_2026-09-13/review/FINAL_FIDELITY.json",
+    "udt_native_angular_premise_audit_2026-09-13/review/FINAL_FIDELITY.md",
+    "udt_native_angular_premise_audit_2026-09-13/review/INDEPENDENT_ANALYTICAL_NOTE.md",
+    "udt_native_angular_premise_audit_2026-09-13/review/INDEPENDENT_ANALYTICAL_NOTE_FREEZE.json",
+    "udt_native_angular_premise_audit_2026-09-13/review/INDEPENDENT_CHECK_EXECUTION.json",
+    "udt_native_angular_premise_audit_2026-09-13/review/INDEPENDENT_CHECK_PREFREEZE.json",
+    "udt_native_angular_premise_audit_2026-09-13/review/REVIEW.md",
+    "udt_native_angular_premise_audit_2026-09-13/review/SOURCE_FIRST_FREEZE.json",
+    "udt_native_angular_premise_audit_2026-09-13/review/SOURCE_FIRST_FREEZE.md",
+    "udt_native_angular_premise_audit_2026-09-13/review/SOURCE_FIRST_REQUEST.md",
+    "udt_native_angular_premise_audit_2026-09-13/review/SOURCE_READING_LOG.md",
+    "udt_native_angular_premise_audit_2026-09-13/review/independent_center_check.py",
+    "udt_native_angular_premise_audit_2026-09-13/review/independent_center_check.stderr",
+    "udt_native_angular_premise_audit_2026-09-13/review/independent_center_check.stdout",
+    "udt_native_angular_premise_audit_2026-09-13/verify_preservation.py",
+    "udt_native_angular_premise_audit_2026-09-13/verify_preservation_initial.py"
+  ],
+  "science_commit": "f025f4dbee53a670853691c572127986bc6e962a",
+  "postpush_verified_utc": "2026-09-13T19:07:33.894224+00:00",
+  "postpush_refs": [
+    "f025f4dbee53a670853691c572127986bc6e962a",
+    "f025f4dbee53a670853691c572127986bc6e962a"
+  ],
+  "tracked_clean": true,
+  "original51_status_names_exact": true
+}

@@ -1,0 +1,29 @@
+{
+  "recorded_utc": "2026-09-13T19:08:40.190999+00:00",
+  "scope": "Factual publication receipt for reviewed source-relative NAP1 evidence; UNPROMOTED; no new law, registry grade or canon",
+  "science_commit": "f025f4dbee53a670853691c572127986bc6e962a",
+  "science_published_verified_utc": "2026-09-13T19:07:33.894224+00:00",
+  "science_postpush_refs": [
+    "f025f4dbee53a670853691c572127986bc6e962a",
+    "f025f4dbee53a670853691c572127986bc6e962a"
+  ],
+  "exact_publication_paths": 77,
+  "tracked_and_index_clean_at_science_push": true,
+  "original51_untracked_names_exact": true,
+  "original_untracked_status_sha256": "747cf3c497bfbdf7c373a2aa621be3cb241a61f7ef9f508c39bf64588ff70a60",
+  "all_manifest_and64_reviewed_byte_pins_rechecked": true,
+  "fresh_review_verdict": "VERIFIED-WITH-CAVEATS",
+  "fresh_review_R1": "ACCEPTED",
+  "fresh_review_allocations": 1,
+  "review_elapsed_seconds": 1199.074092,
+  "elapsed_seconds_through_receipt_creation": 1668.190999,
+  "task_hard_return_utc": "2026-09-13T20:10:52+00:00",
+  "checks": "new406 PASS; parent35+5 PASS; independent6307 PASS; navigation359passed/1deselected; final preservation PASS; P1 initial failure retained",
+  "publication_execution_sha256": "4a3c05f501ce98f9383e161733600457f35753fc2c54c581e15b76486a4a920c",
+  "runtime_model": "UNATTESTED",
+  "different_model": "UNTESTED",
+  "general_capacity": "UNVERIFIED",
+  "backup_completeness": "UNVERIFIED",
+  "pre_reboot_unsaved_state": "UNVERIFIED",
+  "receipt_commit_boundary": "These factual files follow the science commit; their own later commit/push and final HEAD are owned by Git and final tool verification, not preclaimed here."
+}
