@@ -1,0 +1,9 @@
+{
+  "science_commit": "7e9461fb448dd1f5d0c57f7b12d0632886ff1b3c",
+  "scope": "factual receipt/checkpoint snapshot; self excluded; science manifest owns science commit",
+  "pins": {
+    "udt_native_field_connection_audit_2026-09-13/CHECKPOINT.md": "9a5a7c8942ad8df421193a08a0a9f20542c48b8c1502e044058b27967d0b8967",
+    "udt_native_field_connection_audit_2026-09-13/PUBLICATION.json": "1ec16e189bb3d5ba57afee37e4219b3d81fad8ac325351290646fc688cef3045",
+    "udt_native_field_connection_audit_2026-09-13/PUBLICATION.md": "750e0a1157ee0bc04ccfa25eab19b5793485f66f23081694d969f1b6965cac93"
+  }
+}

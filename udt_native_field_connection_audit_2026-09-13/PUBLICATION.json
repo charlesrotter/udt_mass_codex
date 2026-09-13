@@ -1,0 +1,408 @@
+{
+  "package": "udt_native_field_connection_audit_2026-09-13",
+  "events": [
+    {
+      "utc": "2026-09-13T14:18:05.250701+00:00",
+      "command": [
+        "git",
+        "rev-parse",
+        "--abbrev-ref",
+        "HEAD"
+      ],
+      "exit": 0,
+      "stdout": "grok\n",
+      "stderr": ""
+    },
+    {
+      "utc": "2026-09-13T14:18:05.252269+00:00",
+      "command": [
+        "git",
+        "rev-parse",
+        "HEAD",
+        "origin/grok"
+      ],
+      "exit": 0,
+      "stdout": "ebed7b98f9289d00e2b89aadbd9bc0a457e7c021\nebed7b98f9289d00e2b89aadbd9bc0a457e7c021\n",
+      "stderr": ""
+    },
+    {
+      "utc": "2026-09-13T14:18:05.253651+00:00",
+      "command": [
+        "git",
+        "diff",
+        "--cached",
+        "--name-only"
+      ],
+      "exit": 0,
+      "stdout": "",
+      "stderr": ""
+    },
+    {
+      "utc": "2026-09-13T14:18:05.258606+00:00",
+      "command": [
+        "git",
+        "diff",
+        "--name-only"
+      ],
+      "exit": 0,
+      "stdout": "CURRENT_RESEARCH_PROGRAM.md\nHANDOFF.md\nINDEX.md\nLIVE.md\nMEMORY.md\nUDT_RESEARCH_ROADMAP.md\n",
+      "stderr": ""
+    },
+    {
+      "utc": "2026-09-13T14:18:05.266121+00:00",
+      "command": [
+        "git",
+        "status",
+        "--short",
+        "--untracked-files=all"
+      ],
+      "exit": 0,
+      "stdout": " M CURRENT_RESEARCH_PROGRAM.md\n M HANDOFF.md\n M INDEX.md\n M LIVE.md\n M MEMORY.md\n M UDT_RESEARCH_ROADMAP.md\n?? 8_25/UDT_FOUNDING_VALUE_LAW_ANALYSIS.md\n?? 8_25/udt_extension_checks.py\n?? 8_25/udt_extension_minimality_response.md\n?? 8_25/udt_value_law_checks.py\n?? 8_25/udt_value_law_checks_llm1.py\n?? 8_25/udt_value_law_external_response.md\n?? UDT_Complete_Guardrails_and_Central_Science_Tracking.md\n?? UDT_Next_Step_After_Two_Stages.md\n?? UDT_Sequenced_Guardrails_and_Development_Work_Order.md\n?? udt_native_field_connection_audit_2026-09-13/AUDIT_INPUT_PINS.json\n?? udt_native_field_connection_audit_2026-09-13/AUDIT_REUSE.json\n?? udt_native_field_connection_audit_2026-09-13/CANDIDATE_FREEZE.json\n?? udt_native_field_connection_audit_2026-09-13/CHECKPOINT.md\n?? udt_native_field_connection_audit_2026-09-13/CHECK_REPAIR.md\n?? udt_native_field_connection_audit_2026-09-13/CLOSEOUT.md\n?? udt_native_field_connection_audit_2026-09-13/CONNECTION_LEDGER.tsv\n?? udt_native_field_connection_audit_2026-09-13/CONNECTION_RESULT.json\n?? udt_native_field_connection_audit_2026-09-13/DECISION_BRIEF.md\n?? udt_native_field_connection_audit_2026-09-13/DEPENDENCY_MAP.md\n?? udt_native_field_connection_audit_2026-09-13/EXECUTION_INTERVALS.json\n?? udt_native_field_connection_audit_2026-09-13/EXECUTION_INTERVALS_FINAL.json\n?? udt_native_field_connection_audit_2026-09-13/FINAL_AUTHORIZATION_CLARIFICATION.md\n?? udt_native_field_connection_audit_2026-09-13/FINAL_FIDELITY_AMENDMENT.json\n?? udt_native_field_connection_audit_2026-09-13/FINAL_FIDELITY_REQUEST.json\n?? udt_native_field_connection_audit_2026-09-13/FINAL_WORDING_REPAIR.md\n?? udt_native_field_connection_audit_2026-09-13/INITIAL_AUDIT.md\n?? udt_native_field_connection_audit_2026-09-13/LAUNCH.json\n?? udt_native_field_connection_audit_2026-09-13/NOTATION_CLARIFICATION.md\n?? udt_native_field_connection_audit_2026-09-13/POST_REVIEW_GATE.json\n?? udt_native_field_connection_audit_2026-09-13/PREMISE_CAPTURE_COPY.json\n?? udt_native_field_connection_audit_2026-09-13/PRESERVATION.json\n?? udt_native_field_connection_audit_2026-09-13/README.md\n?? udt_native_field_connection_audit_2026-09-13/REPAIR_FREEZE.json\n?? udt_native_field_connection_audit_2026-09-13/REVIEWED_AUDIT.md\n?? udt_native_field_connection_audit_2026-09-13/SELECTED_PREMISES.json\n?? udt_native_field_connection_audit_2026-09-13/SOURCE_MAP.md\n?? udt_native_field_connection_audit_2026-09-13/SOURCE_PINS.json\n?? udt_native_field_connection_audit_2026-09-13/WORK_ORDER.md\n?? udt_native_field_connection_audit_2026-09-13/check_connection.py\n?? udt_native_field_connection_audit_2026-09-13/check_connection_repaired.py\n?? udt_native_field_connection_audit_2026-09-13/checks/connection.capture_provenance.json\n?? udt_native_field_connection_audit_2026-09-13/checks/connection.json\n?? udt_native_field_connection_audit_2026-09-13/checks/connection.stderr\n?? udt_native_field_connection_audit_2026-09-13/checks/connection_repaired.capture_provenance.json\n?? udt_native_field_connection_audit_2026-09-13/checks/connection_repaired.json\n?? udt_native_field_connection_audit_2026-09-13/checks/connection_repaired.stderr\n?? udt_native_field_connection_audit_2026-09-13/checks/current_surface.capture_provenance.json\n?? udt_native_field_connection_audit_2026-09-13/checks/current_surface.json\n?? udt_native_field_connection_audit_2026-09-13/checks/current_surface.stderr\n?? udt_native_field_connection_audit_2026-09-13/checks/navigation.capture_provenance.json\n?? udt_native_field_connection_audit_2026-09-13/checks/navigation.json\n?? udt_native_field_connection_audit_2026-09-13/checks/navigation.stderr\n?? udt_native_field_connection_audit_2026-09-13/checks/premise406.capture_provenance.json\n?? udt_native_field_connection_audit_2026-09-13/checks/premise406.json\n?? udt_native_field_connection_audit_2026-09-13/checks/premise406.stderr\n?? udt_native_field_connection_audit_2026-09-13/checks/prepublication_fetch.capture_provenance.json\n?? udt_native_field_connection_audit_2026-09-13/checks/prepublication_fetch.json\n?? udt_native_field_connection_audit_2026-09-13/checks/prepublication_fetch.stderr\n?? udt_native_field_connection_audit_2026-09-13/review/ALLOCATION.json\n?? udt_native_field_connection_audit_2026-09-13/review/ALLOCATION_RECEIPT.json\n?? udt_native_field_connection_audit_2026-09-13/review/DIRECT_REVIEW.md\n?? udt_native_field_connection_audit_2026-09-13/review/DIRECT_REVIEW_PINS.json\n?? udt_native_field_connection_audit_2026-09-13/review/FINAL_FIDELITY.md\n?? udt_native_field_connection_audit_2026-09-13/review/FINAL_FIDELITY_CHECKS.json\n?? udt_native_field_connection_audit_2026-09-13/review/FINAL_FIDELITY_PINS.json\n?? udt_native_field_connection_audit_2026-09-13/review/INDEPENDENT_FREEZE.json\n?? udt_native_field_connection_audit_2026-09-13/review/INDEPENDENT_RESULT.json\n?? udt_native_field_connection_audit_2026-09-13/review/INDEPENDENT_SCOPE.md\n?? udt_native_field_connection_audit_2026-09-13/review/SOURCE_FIDELITY.json\n?? udt_native_field_connection_audit_2026-09-13/review/SOURCE_FIRST.md\n?? udt_native_field_connection_audit_2026-09-13/review/SOURCE_FIRST_PINS.json\n?? udt_native_field_connection_audit_2026-09-13/review/SOURCE_FIRST_REQUEST.md\n?? udt_native_field_connection_audit_2026-09-13/review/independent_capture.capture_provenance.json\n?? udt_native_field_connection_audit_2026-09-13/review/independent_capture.json\n?? udt_native_field_connection_audit_2026-09-13/review/independent_capture.stderr\n?? udt_native_field_connection_audit_2026-09-13/review/independent_connection_check.py\n?? udt_native_onshell_timelive_reset_owner_audit_2026-08-10/CANDIDATE_LAW_MAP.tsv\n?? udt_native_onshell_timelive_reset_owner_audit_2026-08-10/DERIVATION_RESULT.json\n?? udt_native_onshell_timelive_reset_owner_audit_2026-08-10/EQUATION_OWNERSHIP_ATLAS.tsv\n?? udt_native_onshell_timelive_reset_owner_audit_2026-08-10/SOURCE_SCOPE_CLARIFICATION.md\n?? udt_native_onshell_timelive_reset_owner_audit_2026-08-10/derive_owner_atlas.py\n?? udt_native_onshell_timelive_reset_owner_audit_2026-08-10/run_catch_proofs.py\n?? udt_native_onshell_timelive_reset_owner_audit_2026-08-10/verify_owner_independent.py\n?? udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/ADVERSARIAL_REVIEW_REQUEST.md\n?? udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/AUDIT_REPORT.md\n?? udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/CATCH_PROOF_RESULT.json\n?? udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/DERIVATION_RESULT.json\n?? udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/EVIDENCE_GATES.md\n?? udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/EXACT_DERIVATION.md\n?? udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/INDEPENDENT_VERIFICATION.json\n?? udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/LAY_REPORT.md\n?? udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/STATUS_LEDGER.tsv\n?? udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/VERIFICATION_RESULT.json\n?? udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/WITNESS_ATLAS.tsv\n?? udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/build_review_intake.py\n?? udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/derive_regime_flow.py\n?? udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/run_catch_proofs.py\n?? udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/verify_independent.py\n?? udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/verify_package.py\n?? udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/AUDIT_REPORT.md\n?? udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/CATCH_PROOF_RESULT.json\n?? udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/DERIVATION_RESULT.json\n?? udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/EVIDENCE_GATES.md\n?? udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/EXACT_DERIVATION.md\n?? udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/INDEPENDENT_RADAU_REPLAY.tsv\n?? udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/INDEPENDENT_VERIFICATION.json\n?? udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/LAY_REPORT.md\n?? udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/PREREGISTRATION_EXECUTION_NOTE.md\n?? udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/PROFILE_COMPATIBILITY_ATLAS.tsv\n?? udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/REVIEW_DISPATCH.md\n?? udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/RUN_CHECKPOINT.tsv\n?? udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/STATUS_LEDGER.tsv\n?? udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/VERIFICATION_RESULT.json\n?? udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/build_review_manifest.py\n?? udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/derive_compatibility_atlas.py\n?? udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/run_catch_proofs.py\n?? udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/verify_independent.py\n?? udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/verify_package.py\n",
+      "stderr": ""
+    },
+    {
+      "utc": "2026-09-13T14:18:22.296457+00:00",
+      "command": [
+        "git",
+        "add",
+        "-f",
+        "--pathspec-from-file=/tmp/udt_native_field_connection_audit_2026-09-13.nul",
+        "--pathspec-file-nul"
+      ],
+      "exit": 0,
+      "stdout": "",
+      "stderr": ""
+    },
+    {
+      "utc": "2026-09-13T14:18:22.340118+00:00",
+      "command": [
+        "git",
+        "diff",
+        "--cached",
+        "--check"
+      ],
+      "exit": 0,
+      "stdout": "",
+      "stderr": ""
+    },
+    {
+      "utc": "2026-09-13T14:18:22.349809+00:00",
+      "command": [
+        "git",
+        "diff",
+        "--cached",
+        "--name-only"
+      ],
+      "exit": 0,
+      "stdout": "CURRENT_RESEARCH_PROGRAM.md\nHANDOFF.md\nINDEX.md\nLIVE.md\nMEMORY.md\nUDT_RESEARCH_ROADMAP.md\nudt_native_field_connection_audit_2026-09-13/AUDIT_INPUT_PINS.json\nudt_native_field_connection_audit_2026-09-13/AUDIT_REUSE.json\nudt_native_field_connection_audit_2026-09-13/CANDIDATE_FREEZE.json\nudt_native_field_connection_audit_2026-09-13/CHECKPOINT.md\nudt_native_field_connection_audit_2026-09-13/CHECK_REPAIR.md\nudt_native_field_connection_audit_2026-09-13/CLOSEOUT.md\nudt_native_field_connection_audit_2026-09-13/CONNECTION_LEDGER.tsv\nudt_native_field_connection_audit_2026-09-13/CONNECTION_RESULT.json\nudt_native_field_connection_audit_2026-09-13/DECISION_BRIEF.md\nudt_native_field_connection_audit_2026-09-13/DEPENDENCY_MAP.md\nudt_native_field_connection_audit_2026-09-13/EXECUTION_INTERVALS.json\nudt_native_field_connection_audit_2026-09-13/EXECUTION_INTERVALS_FINAL.json\nudt_native_field_connection_audit_2026-09-13/FINAL_AUTHORIZATION_CLARIFICATION.md\nudt_native_field_connection_audit_2026-09-13/FINAL_FIDELITY_AMENDMENT.json\nudt_native_field_connection_audit_2026-09-13/FINAL_FIDELITY_REQUEST.json\nudt_native_field_connection_audit_2026-09-13/FINAL_WORDING_REPAIR.md\nudt_native_field_connection_audit_2026-09-13/INITIAL_AUDIT.md\nudt_native_field_connection_audit_2026-09-13/LAUNCH.json\nudt_native_field_connection_audit_2026-09-13/NOTATION_CLARIFICATION.md\nudt_native_field_connection_audit_2026-09-13/POST_REVIEW_GATE.json\nudt_native_field_connection_audit_2026-09-13/PREMISE_CAPTURE_COPY.json\nudt_native_field_connection_audit_2026-09-13/PRESERVATION.json\nudt_native_field_connection_audit_2026-09-13/PUBLISH_PLAN.json\nudt_native_field_connection_audit_2026-09-13/README.md\nudt_native_field_connection_audit_2026-09-13/REPAIR_FREEZE.json\nudt_native_field_connection_audit_2026-09-13/REVIEWED_AUDIT.md\nudt_native_field_connection_audit_2026-09-13/SELECTED_PREMISES.json\nudt_native_field_connection_audit_2026-09-13/SHA256SUMS.json\nudt_native_field_connection_audit_2026-09-13/SOURCE_MAP.md\nudt_native_field_connection_audit_2026-09-13/SOURCE_PINS.json\nudt_native_field_connection_audit_2026-09-13/WORK_ORDER.md\nudt_native_field_connection_audit_2026-09-13/check_connection.py\nudt_native_field_connection_audit_2026-09-13/check_connection_repaired.py\nudt_native_field_connection_audit_2026-09-13/checks/connection.capture_provenance.json\nudt_native_field_connection_audit_2026-09-13/checks/connection.json\nudt_native_field_connection_audit_2026-09-13/checks/connection.stderr\nudt_native_field_connection_audit_2026-09-13/checks/connection.stdout\nudt_native_field_connection_audit_2026-09-13/checks/connection_repaired.capture_provenance.json\nudt_native_field_connection_audit_2026-09-13/checks/connection_repaired.json\nudt_native_field_connection_audit_2026-09-13/checks/connection_repaired.stderr\nudt_native_field_connection_audit_2026-09-13/checks/connection_repaired.stdout\nudt_native_field_connection_audit_2026-09-13/checks/current_surface.capture_provenance.json\nudt_native_field_connection_audit_2026-09-13/checks/current_surface.json\nudt_native_field_connection_audit_2026-09-13/checks/current_surface.stderr\nudt_native_field_connection_audit_2026-09-13/checks/current_surface.stdout\nudt_native_field_connection_audit_2026-09-13/checks/navigation.capture_provenance.json\nudt_native_field_connection_audit_2026-09-13/checks/navigation.json\nudt_native_field_connection_audit_2026-09-13/checks/navigation.stderr\nudt_native_field_connection_audit_2026-09-13/checks/navigation.stdout\nudt_native_field_connection_audit_2026-09-13/checks/premise406.capture_provenance.json\nudt_native_field_connection_audit_2026-09-13/checks/premise406.json\nudt_native_field_connection_audit_2026-09-13/checks/premise406.stderr\nudt_native_field_connection_audit_2026-09-13/checks/premise406.stdout\nudt_native_field_connection_audit_2026-09-13/checks/prepublication_fetch.capture_provenance.json\nudt_native_field_connection_audit_2026-09-13/checks/prepublication_fetch.json\nudt_native_field_connection_audit_2026-09-13/checks/prepublication_fetch.stderr\nudt_native_field_connection_audit_2026-09-13/checks/prepublication_fetch.stdout\nudt_native_field_connection_audit_2026-09-13/review/ALLOCATION.json\nudt_native_field_connection_audit_2026-09-13/review/ALLOCATION_RECEIPT.json\nudt_native_field_connection_audit_2026-09-13/review/DIRECT_REVIEW.md\nudt_native_field_connection_audit_2026-09-13/review/DIRECT_REVIEW_PINS.json\nudt_native_field_connection_audit_2026-09-13/review/FINAL_FIDELITY.md\nudt_native_field_connection_audit_2026-09-13/review/FINAL_FIDELITY_CHECKS.json\nudt_native_field_connection_audit_2026-09-13/review/FINAL_FIDELITY_PINS.json\nudt_native_field_connection_audit_2026-09-13/review/INDEPENDENT_FREEZE.json\nudt_native_field_connection_audit_2026-09-13/review/INDEPENDENT_RESULT.json\nudt_native_field_connection_audit_2026-09-13/review/INDEPENDENT_SCOPE.md\nudt_native_field_connection_audit_2026-09-13/review/SOURCE_FIDELITY.json\nudt_native_field_connection_audit_2026-09-13/review/SOURCE_FIRST.md\nudt_native_field_connection_audit_2026-09-13/review/SOURCE_FIRST_PINS.json\nudt_native_field_connection_audit_2026-09-13/review/SOURCE_FIRST_REQUEST.md\nudt_native_field_connection_audit_2026-09-13/review/independent_capture.capture_provenance.json\nudt_native_field_connection_audit_2026-09-13/review/independent_capture.json\nudt_native_field_connection_audit_2026-09-13/review/independent_capture.stderr\nudt_native_field_connection_audit_2026-09-13/review/independent_capture.stdout\nudt_native_field_connection_audit_2026-09-13/review/independent_connection_check.py\n",
+      "stderr": ""
+    },
+    {
+      "utc": "2026-09-13T14:18:38.009974+00:00",
+      "command": [
+        "git",
+        "diff",
+        "--cached",
+        "--check"
+      ],
+      "exit": 0,
+      "stdout": "",
+      "stderr": ""
+    },
+    {
+      "utc": "2026-09-13T14:18:38.017441+00:00",
+      "command": [
+        "git",
+        "diff",
+        "--cached",
+        "--name-only"
+      ],
+      "exit": 0,
+      "stdout": "CURRENT_RESEARCH_PROGRAM.md\nHANDOFF.md\nINDEX.md\nLIVE.md\nMEMORY.md\nUDT_RESEARCH_ROADMAP.md\nudt_native_field_connection_audit_2026-09-13/AUDIT_INPUT_PINS.json\nudt_native_field_connection_audit_2026-09-13/AUDIT_REUSE.json\nudt_native_field_connection_audit_2026-09-13/CANDIDATE_FREEZE.json\nudt_native_field_connection_audit_2026-09-13/CHECKPOINT.md\nudt_native_field_connection_audit_2026-09-13/CHECK_REPAIR.md\nudt_native_field_connection_audit_2026-09-13/CLOSEOUT.md\nudt_native_field_connection_audit_2026-09-13/CONNECTION_LEDGER.tsv\nudt_native_field_connection_audit_2026-09-13/CONNECTION_RESULT.json\nudt_native_field_connection_audit_2026-09-13/DECISION_BRIEF.md\nudt_native_field_connection_audit_2026-09-13/DEPENDENCY_MAP.md\nudt_native_field_connection_audit_2026-09-13/EXECUTION_INTERVALS.json\nudt_native_field_connection_audit_2026-09-13/EXECUTION_INTERVALS_FINAL.json\nudt_native_field_connection_audit_2026-09-13/FINAL_AUTHORIZATION_CLARIFICATION.md\nudt_native_field_connection_audit_2026-09-13/FINAL_FIDELITY_AMENDMENT.json\nudt_native_field_connection_audit_2026-09-13/FINAL_FIDELITY_REQUEST.json\nudt_native_field_connection_audit_2026-09-13/FINAL_WORDING_REPAIR.md\nudt_native_field_connection_audit_2026-09-13/INITIAL_AUDIT.md\nudt_native_field_connection_audit_2026-09-13/LAUNCH.json\nudt_native_field_connection_audit_2026-09-13/NOTATION_CLARIFICATION.md\nudt_native_field_connection_audit_2026-09-13/POST_REVIEW_GATE.json\nudt_native_field_connection_audit_2026-09-13/PREMISE_CAPTURE_COPY.json\nudt_native_field_connection_audit_2026-09-13/PRESERVATION.json\nudt_native_field_connection_audit_2026-09-13/PUBLISH_PLAN.json\nudt_native_field_connection_audit_2026-09-13/README.md\nudt_native_field_connection_audit_2026-09-13/REPAIR_FREEZE.json\nudt_native_field_connection_audit_2026-09-13/REVIEWED_AUDIT.md\nudt_native_field_connection_audit_2026-09-13/SELECTED_PREMISES.json\nudt_native_field_connection_audit_2026-09-13/SHA256SUMS.json\nudt_native_field_connection_audit_2026-09-13/SOURCE_MAP.md\nudt_native_field_connection_audit_2026-09-13/SOURCE_PINS.json\nudt_native_field_connection_audit_2026-09-13/WORK_ORDER.md\nudt_native_field_connection_audit_2026-09-13/check_connection.py\nudt_native_field_connection_audit_2026-09-13/check_connection_repaired.py\nudt_native_field_connection_audit_2026-09-13/checks/connection.capture_provenance.json\nudt_native_field_connection_audit_2026-09-13/checks/connection.json\nudt_native_field_connection_audit_2026-09-13/checks/connection.stderr\nudt_native_field_connection_audit_2026-09-13/checks/connection.stdout\nudt_native_field_connection_audit_2026-09-13/checks/connection_repaired.capture_provenance.json\nudt_native_field_connection_audit_2026-09-13/checks/connection_repaired.json\nudt_native_field_connection_audit_2026-09-13/checks/connection_repaired.stderr\nudt_native_field_connection_audit_2026-09-13/checks/connection_repaired.stdout\nudt_native_field_connection_audit_2026-09-13/checks/current_surface.capture_provenance.json\nudt_native_field_connection_audit_2026-09-13/checks/current_surface.json\nudt_native_field_connection_audit_2026-09-13/checks/current_surface.stderr\nudt_native_field_connection_audit_2026-09-13/checks/current_surface.stdout\nudt_native_field_connection_audit_2026-09-13/checks/navigation.capture_provenance.json\nudt_native_field_connection_audit_2026-09-13/checks/navigation.json\nudt_native_field_connection_audit_2026-09-13/checks/navigation.stderr\nudt_native_field_connection_audit_2026-09-13/checks/navigation.stdout\nudt_native_field_connection_audit_2026-09-13/checks/premise406.capture_provenance.json\nudt_native_field_connection_audit_2026-09-13/checks/premise406.json\nudt_native_field_connection_audit_2026-09-13/checks/premise406.stderr\nudt_native_field_connection_audit_2026-09-13/checks/premise406.stdout\nudt_native_field_connection_audit_2026-09-13/checks/prepublication_fetch.capture_provenance.json\nudt_native_field_connection_audit_2026-09-13/checks/prepublication_fetch.json\nudt_native_field_connection_audit_2026-09-13/checks/prepublication_fetch.stderr\nudt_native_field_connection_audit_2026-09-13/checks/prepublication_fetch.stdout\nudt_native_field_connection_audit_2026-09-13/review/ALLOCATION.json\nudt_native_field_connection_audit_2026-09-13/review/ALLOCATION_RECEIPT.json\nudt_native_field_connection_audit_2026-09-13/review/DIRECT_REVIEW.md\nudt_native_field_connection_audit_2026-09-13/review/DIRECT_REVIEW_PINS.json\nudt_native_field_connection_audit_2026-09-13/review/FINAL_FIDELITY.md\nudt_native_field_connection_audit_2026-09-13/review/FINAL_FIDELITY_CHECKS.json\nudt_native_field_connection_audit_2026-09-13/review/FINAL_FIDELITY_PINS.json\nudt_native_field_connection_audit_2026-09-13/review/INDEPENDENT_FREEZE.json\nudt_native_field_connection_audit_2026-09-13/review/INDEPENDENT_RESULT.json\nudt_native_field_connection_audit_2026-09-13/review/INDEPENDENT_SCOPE.md\nudt_native_field_connection_audit_2026-09-13/review/SOURCE_FIDELITY.json\nudt_native_field_connection_audit_2026-09-13/review/SOURCE_FIRST.md\nudt_native_field_connection_audit_2026-09-13/review/SOURCE_FIRST_PINS.json\nudt_native_field_connection_audit_2026-09-13/review/SOURCE_FIRST_REQUEST.md\nudt_native_field_connection_audit_2026-09-13/review/independent_capture.capture_provenance.json\nudt_native_field_connection_audit_2026-09-13/review/independent_capture.json\nudt_native_field_connection_audit_2026-09-13/review/independent_capture.stderr\nudt_native_field_connection_audit_2026-09-13/review/independent_capture.stdout\nudt_native_field_connection_audit_2026-09-13/review/independent_connection_check.py\n",
+      "stderr": ""
+    },
+    {
+      "utc": "2026-09-13T14:18:38.023560+00:00",
+      "command": [
+        "git",
+        "commit",
+        "-m",
+        "Audit native field connections and correct research direction"
+      ],
+      "exit": 0,
+      "stdout": "[grok 7e9461fb] Audit native field connections and correct research direction\n 82 files changed, 3850 insertions(+), 6 deletions(-)\n create mode 100644 udt_native_field_connection_audit_2026-09-13/AUDIT_INPUT_PINS.json\n create mode 100644 udt_native_field_connection_audit_2026-09-13/AUDIT_REUSE.json\n create mode 100644 udt_native_field_connection_audit_2026-09-13/CANDIDATE_FREEZE.json\n create mode 100644 udt_native_field_connection_audit_2026-09-13/CHECKPOINT.md\n create mode 100644 udt_native_field_connection_audit_2026-09-13/CHECK_REPAIR.md\n create mode 100644 udt_native_field_connection_audit_2026-09-13/CLOSEOUT.md\n create mode 100644 udt_native_field_connection_audit_2026-09-13/CONNECTION_LEDGER.tsv\n create mode 100644 udt_native_field_connection_audit_2026-09-13/CONNECTION_RESULT.json\n create mode 100644 udt_native_field_connection_audit_2026-09-13/DECISION_BRIEF.md\n create mode 100644 udt_native_field_connection_audit_2026-09-13/DEPENDENCY_MAP.md\n create mode 100644 udt_native_field_connection_audit_2026-09-13/EXECUTION_INTERVALS.json\n create mode 100644 udt_native_field_connection_audit_2026-09-13/EXECUTION_INTERVALS_FINAL.json\n create mode 100644 udt_native_field_connection_audit_2026-09-13/FINAL_AUTHORIZATION_CLARIFICATION.md\n create mode 100644 udt_native_field_connection_audit_2026-09-13/FINAL_FIDELITY_AMENDMENT.json\n create mode 100644 udt_native_field_connection_audit_2026-09-13/FINAL_FIDELITY_REQUEST.json\n create mode 100644 udt_native_field_connection_audit_2026-09-13/FINAL_WORDING_REPAIR.md\n create mode 100644 udt_native_field_connection_audit_2026-09-13/INITIAL_AUDIT.md\n create mode 100644 udt_native_field_connection_audit_2026-09-13/LAUNCH.json\n create mode 100644 udt_native_field_connection_audit_2026-09-13/NOTATION_CLARIFICATION.md\n create mode 100644 udt_native_field_connection_audit_2026-09-13/POST_REVIEW_GATE.json\n create mode 100644 udt_native_field_connection_audit_2026-09-13/PREMISE_CAPTURE_COPY.json\n create mode 100644 udt_native_field_connection_audit_2026-09-13/PRESERVATION.json\n create mode 100644 udt_native_field_connection_audit_2026-09-13/PUBLISH_PLAN.json\n create mode 100644 udt_native_field_connection_audit_2026-09-13/README.md\n create mode 100644 udt_native_field_connection_audit_2026-09-13/REPAIR_FREEZE.json\n create mode 100644 udt_native_field_connection_audit_2026-09-13/REVIEWED_AUDIT.md\n create mode 100644 udt_native_field_connection_audit_2026-09-13/SELECTED_PREMISES.json\n create mode 100644 udt_native_field_connection_audit_2026-09-13/SHA256SUMS.json\n create mode 100644 udt_native_field_connection_audit_2026-09-13/SOURCE_MAP.md\n create mode 100644 udt_native_field_connection_audit_2026-09-13/SOURCE_PINS.json\n create mode 100644 udt_native_field_connection_audit_2026-09-13/WORK_ORDER.md\n create mode 100644 udt_native_field_connection_audit_2026-09-13/check_connection.py\n create mode 100644 udt_native_field_connection_audit_2026-09-13/check_connection_repaired.py\n create mode 100644 udt_native_field_connection_audit_2026-09-13/checks/connection.capture_provenance.json\n create mode 100644 udt_native_field_connection_audit_2026-09-13/checks/connection.json\n create mode 100644 udt_native_field_connection_audit_2026-09-13/checks/connection.stderr\n create mode 100644 udt_native_field_connection_audit_2026-09-13/checks/connection.stdout\n create mode 100644 udt_native_field_connection_audit_2026-09-13/checks/connection_repaired.capture_provenance.json\n create mode 100644 udt_native_field_connection_audit_2026-09-13/checks/connection_repaired.json\n create mode 100644 udt_native_field_connection_audit_2026-09-13/checks/connection_repaired.stderr\n create mode 100644 udt_native_field_connection_audit_2026-09-13/checks/connection_repaired.stdout\n create mode 100644 udt_native_field_connection_audit_2026-09-13/checks/current_surface.capture_provenance.json\n create mode 100644 udt_native_field_connection_audit_2026-09-13/checks/current_surface.json\n create mode 100644 udt_native_field_connection_audit_2026-09-13/checks/current_surface.stderr\n create mode 100644 udt_native_field_connection_audit_2026-09-13/checks/current_surface.stdout\n create mode 100644 udt_native_field_connection_audit_2026-09-13/checks/navigation.capture_provenance.json\n create mode 100644 udt_native_field_connection_audit_2026-09-13/checks/navigation.json\n create mode 100644 udt_native_field_connection_audit_2026-09-13/checks/navigation.stderr\n create mode 100644 udt_native_field_connection_audit_2026-09-13/checks/navigation.stdout\n create mode 100644 udt_native_field_connection_audit_2026-09-13/checks/premise406.capture_provenance.json\n create mode 100644 udt_native_field_connection_audit_2026-09-13/checks/premise406.json\n create mode 100644 udt_native_field_connection_audit_2026-09-13/checks/premise406.stderr\n create mode 100644 udt_native_field_connection_audit_2026-09-13/checks/premise406.stdout\n create mode 100644 udt_native_field_connection_audit_2026-09-13/checks/prepublication_fetch.capture_provenance.json\n create mode 100644 udt_native_field_connection_audit_2026-09-13/checks/prepublication_fetch.json\n create mode 100644 udt_native_field_connection_audit_2026-09-13/checks/prepublication_fetch.stderr\n create mode 100644 udt_native_field_connection_audit_2026-09-13/checks/prepublication_fetch.stdout\n create mode 100644 udt_native_field_connection_audit_2026-09-13/review/ALLOCATION.json\n create mode 100644 udt_native_field_connection_audit_2026-09-13/review/ALLOCATION_RECEIPT.json\n create mode 100644 udt_native_field_connection_audit_2026-09-13/review/DIRECT_REVIEW.md\n create mode 100644 udt_native_field_connection_audit_2026-09-13/review/DIRECT_REVIEW_PINS.json\n create mode 100644 udt_native_field_connection_audit_2026-09-13/review/FINAL_FIDELITY.md\n create mode 100644 udt_native_field_connection_audit_2026-09-13/review/FINAL_FIDELITY_CHECKS.json\n create mode 100644 udt_native_field_connection_audit_2026-09-13/review/FINAL_FIDELITY_PINS.json\n create mode 100644 udt_native_field_connection_audit_2026-09-13/review/INDEPENDENT_FREEZE.json\n create mode 100644 udt_native_field_connection_audit_2026-09-13/review/INDEPENDENT_RESULT.json\n create mode 100644 udt_native_field_connection_audit_2026-09-13/review/INDEPENDENT_SCOPE.md\n create mode 100644 udt_native_field_connection_audit_2026-09-13/review/SOURCE_FIDELITY.json\n create mode 100644 udt_native_field_connection_audit_2026-09-13/review/SOURCE_FIRST.md\n create mode 100644 udt_native_field_connection_audit_2026-09-13/review/SOURCE_FIRST_PINS.json\n create mode 100644 udt_native_field_connection_audit_2026-09-13/review/SOURCE_FIRST_REQUEST.md\n create mode 100644 udt_native_field_connection_audit_2026-09-13/review/independent_capture.capture_provenance.json\n create mode 100644 udt_native_field_connection_audit_2026-09-13/review/independent_capture.json\n create mode 100644 udt_native_field_connection_audit_2026-09-13/review/independent_capture.stderr\n create mode 100644 udt_native_field_connection_audit_2026-09-13/review/independent_capture.stdout\n create mode 100644 udt_native_field_connection_audit_2026-09-13/review/independent_connection_check.py\n",
+      "stderr": ""
+    },
+    {
+      "utc": "2026-09-13T14:18:38.053505+00:00",
+      "command": [
+        "git",
+        "rev-parse",
+        "HEAD"
+      ],
+      "exit": 0,
+      "stdout": "7e9461fb448dd1f5d0c57f7b12d0632886ff1b3c\n",
+      "stderr": ""
+    },
+    {
+      "utc": "2026-09-13T14:18:38.055010+00:00",
+      "command": [
+        "git",
+        "diff-tree",
+        "--no-commit-id",
+        "--name-only",
+        "-r",
+        "HEAD"
+      ],
+      "exit": 0,
+      "stdout": "CURRENT_RESEARCH_PROGRAM.md\nHANDOFF.md\nINDEX.md\nLIVE.md\nMEMORY.md\nUDT_RESEARCH_ROADMAP.md\nudt_native_field_connection_audit_2026-09-13/AUDIT_INPUT_PINS.json\nudt_native_field_connection_audit_2026-09-13/AUDIT_REUSE.json\nudt_native_field_connection_audit_2026-09-13/CANDIDATE_FREEZE.json\nudt_native_field_connection_audit_2026-09-13/CHECKPOINT.md\nudt_native_field_connection_audit_2026-09-13/CHECK_REPAIR.md\nudt_native_field_connection_audit_2026-09-13/CLOSEOUT.md\nudt_native_field_connection_audit_2026-09-13/CONNECTION_LEDGER.tsv\nudt_native_field_connection_audit_2026-09-13/CONNECTION_RESULT.json\nudt_native_field_connection_audit_2026-09-13/DECISION_BRIEF.md\nudt_native_field_connection_audit_2026-09-13/DEPENDENCY_MAP.md\nudt_native_field_connection_audit_2026-09-13/EXECUTION_INTERVALS.json\nudt_native_field_connection_audit_2026-09-13/EXECUTION_INTERVALS_FINAL.json\nudt_native_field_connection_audit_2026-09-13/FINAL_AUTHORIZATION_CLARIFICATION.md\nudt_native_field_connection_audit_2026-09-13/FINAL_FIDELITY_AMENDMENT.json\nudt_native_field_connection_audit_2026-09-13/FINAL_FIDELITY_REQUEST.json\nudt_native_field_connection_audit_2026-09-13/FINAL_WORDING_REPAIR.md\nudt_native_field_connection_audit_2026-09-13/INITIAL_AUDIT.md\nudt_native_field_connection_audit_2026-09-13/LAUNCH.json\nudt_native_field_connection_audit_2026-09-13/NOTATION_CLARIFICATION.md\nudt_native_field_connection_audit_2026-09-13/POST_REVIEW_GATE.json\nudt_native_field_connection_audit_2026-09-13/PREMISE_CAPTURE_COPY.json\nudt_native_field_connection_audit_2026-09-13/PRESERVATION.json\nudt_native_field_connection_audit_2026-09-13/PUBLISH_PLAN.json\nudt_native_field_connection_audit_2026-09-13/README.md\nudt_native_field_connection_audit_2026-09-13/REPAIR_FREEZE.json\nudt_native_field_connection_audit_2026-09-13/REVIEWED_AUDIT.md\nudt_native_field_connection_audit_2026-09-13/SELECTED_PREMISES.json\nudt_native_field_connection_audit_2026-09-13/SHA256SUMS.json\nudt_native_field_connection_audit_2026-09-13/SOURCE_MAP.md\nudt_native_field_connection_audit_2026-09-13/SOURCE_PINS.json\nudt_native_field_connection_audit_2026-09-13/WORK_ORDER.md\nudt_native_field_connection_audit_2026-09-13/check_connection.py\nudt_native_field_connection_audit_2026-09-13/check_connection_repaired.py\nudt_native_field_connection_audit_2026-09-13/checks/connection.capture_provenance.json\nudt_native_field_connection_audit_2026-09-13/checks/connection.json\nudt_native_field_connection_audit_2026-09-13/checks/connection.stderr\nudt_native_field_connection_audit_2026-09-13/checks/connection.stdout\nudt_native_field_connection_audit_2026-09-13/checks/connection_repaired.capture_provenance.json\nudt_native_field_connection_audit_2026-09-13/checks/connection_repaired.json\nudt_native_field_connection_audit_2026-09-13/checks/connection_repaired.stderr\nudt_native_field_connection_audit_2026-09-13/checks/connection_repaired.stdout\nudt_native_field_connection_audit_2026-09-13/checks/current_surface.capture_provenance.json\nudt_native_field_connection_audit_2026-09-13/checks/current_surface.json\nudt_native_field_connection_audit_2026-09-13/checks/current_surface.stderr\nudt_native_field_connection_audit_2026-09-13/checks/current_surface.stdout\nudt_native_field_connection_audit_2026-09-13/checks/navigation.capture_provenance.json\nudt_native_field_connection_audit_2026-09-13/checks/navigation.json\nudt_native_field_connection_audit_2026-09-13/checks/navigation.stderr\nudt_native_field_connection_audit_2026-09-13/checks/navigation.stdout\nudt_native_field_connection_audit_2026-09-13/checks/premise406.capture_provenance.json\nudt_native_field_connection_audit_2026-09-13/checks/premise406.json\nudt_native_field_connection_audit_2026-09-13/checks/premise406.stderr\nudt_native_field_connection_audit_2026-09-13/checks/premise406.stdout\nudt_native_field_connection_audit_2026-09-13/checks/prepublication_fetch.capture_provenance.json\nudt_native_field_connection_audit_2026-09-13/checks/prepublication_fetch.json\nudt_native_field_connection_audit_2026-09-13/checks/prepublication_fetch.stderr\nudt_native_field_connection_audit_2026-09-13/checks/prepublication_fetch.stdout\nudt_native_field_connection_audit_2026-09-13/review/ALLOCATION.json\nudt_native_field_connection_audit_2026-09-13/review/ALLOCATION_RECEIPT.json\nudt_native_field_connection_audit_2026-09-13/review/DIRECT_REVIEW.md\nudt_native_field_connection_audit_2026-09-13/review/DIRECT_REVIEW_PINS.json\nudt_native_field_connection_audit_2026-09-13/review/FINAL_FIDELITY.md\nudt_native_field_connection_audit_2026-09-13/review/FINAL_FIDELITY_CHECKS.json\nudt_native_field_connection_audit_2026-09-13/review/FINAL_FIDELITY_PINS.json\nudt_native_field_connection_audit_2026-09-13/review/INDEPENDENT_FREEZE.json\nudt_native_field_connection_audit_2026-09-13/review/INDEPENDENT_RESULT.json\nudt_native_field_connection_audit_2026-09-13/review/INDEPENDENT_SCOPE.md\nudt_native_field_connection_audit_2026-09-13/review/SOURCE_FIDELITY.json\nudt_native_field_connection_audit_2026-09-13/review/SOURCE_FIRST.md\nudt_native_field_connection_audit_2026-09-13/review/SOURCE_FIRST_PINS.json\nudt_native_field_connection_audit_2026-09-13/review/SOURCE_FIRST_REQUEST.md\nudt_native_field_connection_audit_2026-09-13/review/independent_capture.capture_provenance.json\nudt_native_field_connection_audit_2026-09-13/review/independent_capture.json\nudt_native_field_connection_audit_2026-09-13/review/independent_capture.stderr\nudt_native_field_connection_audit_2026-09-13/review/independent_capture.stdout\nudt_native_field_connection_audit_2026-09-13/review/independent_connection_check.py\n",
+      "stderr": ""
+    },
+    {
+      "utc": "2026-09-13T14:18:54.509984+00:00",
+      "command": [
+        "git",
+        "push",
+        "origin",
+        "grok"
+      ],
+      "exit": 0,
+      "stdout": "",
+      "stderr": "To https://github.com/charlesrotter/udt_mass_codex.git\n   ebed7b98..7e9461fb  grok -> grok\n"
+    },
+    {
+      "utc": "2026-09-13T14:18:56.624555+00:00",
+      "command": [
+        "git",
+        "rev-parse",
+        "HEAD",
+        "origin/grok"
+      ],
+      "exit": 0,
+      "stdout": "7e9461fb448dd1f5d0c57f7b12d0632886ff1b3c\n7e9461fb448dd1f5d0c57f7b12d0632886ff1b3c\n",
+      "stderr": ""
+    },
+    {
+      "utc": "2026-09-13T14:18:56.626332+00:00",
+      "command": [
+        "git",
+        "diff",
+        "--name-only"
+      ],
+      "exit": 0,
+      "stdout": "",
+      "stderr": ""
+    },
+    {
+      "utc": "2026-09-13T14:18:56.635748+00:00",
+      "command": [
+        "git",
+        "diff",
+        "--cached",
+        "--name-only"
+      ],
+      "exit": 0,
+      "stdout": "",
+      "stderr": ""
+    },
+    {
+      "utc": "2026-09-13T14:18:56.641625+00:00",
+      "command": [
+        "git",
+        "status",
+        "--short",
+        "--untracked-files=all"
+      ],
+      "exit": 0,
+      "stdout": "?? 8_25/UDT_FOUNDING_VALUE_LAW_ANALYSIS.md\n?? 8_25/udt_extension_checks.py\n?? 8_25/udt_extension_minimality_response.md\n?? 8_25/udt_value_law_checks.py\n?? 8_25/udt_value_law_checks_llm1.py\n?? 8_25/udt_value_law_external_response.md\n?? UDT_Complete_Guardrails_and_Central_Science_Tracking.md\n?? UDT_Next_Step_After_Two_Stages.md\n?? UDT_Sequenced_Guardrails_and_Development_Work_Order.md\n?? udt_native_onshell_timelive_reset_owner_audit_2026-08-10/CANDIDATE_LAW_MAP.tsv\n?? udt_native_onshell_timelive_reset_owner_audit_2026-08-10/DERIVATION_RESULT.json\n?? udt_native_onshell_timelive_reset_owner_audit_2026-08-10/EQUATION_OWNERSHIP_ATLAS.tsv\n?? udt_native_onshell_timelive_reset_owner_audit_2026-08-10/SOURCE_SCOPE_CLARIFICATION.md\n?? udt_native_onshell_timelive_reset_owner_audit_2026-08-10/derive_owner_atlas.py\n?? udt_native_onshell_timelive_reset_owner_audit_2026-08-10/run_catch_proofs.py\n?? udt_native_onshell_timelive_reset_owner_audit_2026-08-10/verify_owner_independent.py\n?? udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/ADVERSARIAL_REVIEW_REQUEST.md\n?? udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/AUDIT_REPORT.md\n?? udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/CATCH_PROOF_RESULT.json\n?? udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/DERIVATION_RESULT.json\n?? udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/EVIDENCE_GATES.md\n?? udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/EXACT_DERIVATION.md\n?? udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/INDEPENDENT_VERIFICATION.json\n?? udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/LAY_REPORT.md\n?? udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/STATUS_LEDGER.tsv\n?? udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/VERIFICATION_RESULT.json\n?? udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/WITNESS_ATLAS.tsv\n?? udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/build_review_intake.py\n?? udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/derive_regime_flow.py\n?? udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/run_catch_proofs.py\n?? udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/verify_independent.py\n?? udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/verify_package.py\n?? udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/AUDIT_REPORT.md\n?? udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/CATCH_PROOF_RESULT.json\n?? udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/DERIVATION_RESULT.json\n?? udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/EVIDENCE_GATES.md\n?? udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/EXACT_DERIVATION.md\n?? udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/INDEPENDENT_RADAU_REPLAY.tsv\n?? udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/INDEPENDENT_VERIFICATION.json\n?? udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/LAY_REPORT.md\n?? udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/PREREGISTRATION_EXECUTION_NOTE.md\n?? udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/PROFILE_COMPATIBILITY_ATLAS.tsv\n?? udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/REVIEW_DISPATCH.md\n?? udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/RUN_CHECKPOINT.tsv\n?? udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/STATUS_LEDGER.tsv\n?? udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/VERIFICATION_RESULT.json\n?? udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/build_review_manifest.py\n?? udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/derive_compatibility_atlas.py\n?? udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/run_catch_proofs.py\n?? udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/verify_independent.py\n?? udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/verify_package.py\n",
+      "stderr": ""
+    }
+  ],
+  "baseline_head": "ebed7b98f9289d00e2b89aadbd9bc0a457e7c021",
+  "original_untracked_status_sha256": "747cf3c497bfbdf7c373a2aa621be3cb241a61f7ef9f508c39bf64588ff70a60",
+  "planned_paths": [
+    "CURRENT_RESEARCH_PROGRAM.md",
+    "HANDOFF.md",
+    "INDEX.md",
+    "LIVE.md",
+    "MEMORY.md",
+    "UDT_RESEARCH_ROADMAP.md",
+    "udt_native_field_connection_audit_2026-09-13/AUDIT_INPUT_PINS.json",
+    "udt_native_field_connection_audit_2026-09-13/AUDIT_REUSE.json",
+    "udt_native_field_connection_audit_2026-09-13/CANDIDATE_FREEZE.json",
+    "udt_native_field_connection_audit_2026-09-13/CHECKPOINT.md",
+    "udt_native_field_connection_audit_2026-09-13/CHECK_REPAIR.md",
+    "udt_native_field_connection_audit_2026-09-13/CLOSEOUT.md",
+    "udt_native_field_connection_audit_2026-09-13/CONNECTION_LEDGER.tsv",
+    "udt_native_field_connection_audit_2026-09-13/CONNECTION_RESULT.json",
+    "udt_native_field_connection_audit_2026-09-13/DECISION_BRIEF.md",
+    "udt_native_field_connection_audit_2026-09-13/DEPENDENCY_MAP.md",
+    "udt_native_field_connection_audit_2026-09-13/EXECUTION_INTERVALS.json",
+    "udt_native_field_connection_audit_2026-09-13/EXECUTION_INTERVALS_FINAL.json",
+    "udt_native_field_connection_audit_2026-09-13/FINAL_AUTHORIZATION_CLARIFICATION.md",
+    "udt_native_field_connection_audit_2026-09-13/FINAL_FIDELITY_AMENDMENT.json",
+    "udt_native_field_connection_audit_2026-09-13/FINAL_FIDELITY_REQUEST.json",
+    "udt_native_field_connection_audit_2026-09-13/FINAL_WORDING_REPAIR.md",
+    "udt_native_field_connection_audit_2026-09-13/INITIAL_AUDIT.md",
+    "udt_native_field_connection_audit_2026-09-13/LAUNCH.json",
+    "udt_native_field_connection_audit_2026-09-13/NOTATION_CLARIFICATION.md",
+    "udt_native_field_connection_audit_2026-09-13/POST_REVIEW_GATE.json",
+    "udt_native_field_connection_audit_2026-09-13/PREMISE_CAPTURE_COPY.json",
+    "udt_native_field_connection_audit_2026-09-13/PRESERVATION.json",
+    "udt_native_field_connection_audit_2026-09-13/PUBLISH_PLAN.json",
+    "udt_native_field_connection_audit_2026-09-13/README.md",
+    "udt_native_field_connection_audit_2026-09-13/REPAIR_FREEZE.json",
+    "udt_native_field_connection_audit_2026-09-13/REVIEWED_AUDIT.md",
+    "udt_native_field_connection_audit_2026-09-13/SELECTED_PREMISES.json",
+    "udt_native_field_connection_audit_2026-09-13/SHA256SUMS.json",
+    "udt_native_field_connection_audit_2026-09-13/SOURCE_MAP.md",
+    "udt_native_field_connection_audit_2026-09-13/SOURCE_PINS.json",
+    "udt_native_field_connection_audit_2026-09-13/WORK_ORDER.md",
+    "udt_native_field_connection_audit_2026-09-13/check_connection.py",
+    "udt_native_field_connection_audit_2026-09-13/check_connection_repaired.py",
+    "udt_native_field_connection_audit_2026-09-13/checks/connection.capture_provenance.json",
+    "udt_native_field_connection_audit_2026-09-13/checks/connection.json",
+    "udt_native_field_connection_audit_2026-09-13/checks/connection.stderr",
+    "udt_native_field_connection_audit_2026-09-13/checks/connection.stdout",
+    "udt_native_field_connection_audit_2026-09-13/checks/connection_repaired.capture_provenance.json",
+    "udt_native_field_connection_audit_2026-09-13/checks/connection_repaired.json",
+    "udt_native_field_connection_audit_2026-09-13/checks/connection_repaired.stderr",
+    "udt_native_field_connection_audit_2026-09-13/checks/connection_repaired.stdout",
+    "udt_native_field_connection_audit_2026-09-13/checks/current_surface.capture_provenance.json",
+    "udt_native_field_connection_audit_2026-09-13/checks/current_surface.json",
+    "udt_native_field_connection_audit_2026-09-13/checks/current_surface.stderr",
+    "udt_native_field_connection_audit_2026-09-13/checks/current_surface.stdout",
+    "udt_native_field_connection_audit_2026-09-13/checks/navigation.capture_provenance.json",
+    "udt_native_field_connection_audit_2026-09-13/checks/navigation.json",
+    "udt_native_field_connection_audit_2026-09-13/checks/navigation.stderr",
+    "udt_native_field_connection_audit_2026-09-13/checks/navigation.stdout",
+    "udt_native_field_connection_audit_2026-09-13/checks/premise406.capture_provenance.json",
+    "udt_native_field_connection_audit_2026-09-13/checks/premise406.json",
+    "udt_native_field_connection_audit_2026-09-13/checks/premise406.stderr",
+    "udt_native_field_connection_audit_2026-09-13/checks/premise406.stdout",
+    "udt_native_field_connection_audit_2026-09-13/checks/prepublication_fetch.capture_provenance.json",
+    "udt_native_field_connection_audit_2026-09-13/checks/prepublication_fetch.json",
+    "udt_native_field_connection_audit_2026-09-13/checks/prepublication_fetch.stderr",
+    "udt_native_field_connection_audit_2026-09-13/checks/prepublication_fetch.stdout",
+    "udt_native_field_connection_audit_2026-09-13/review/ALLOCATION.json",
+    "udt_native_field_connection_audit_2026-09-13/review/ALLOCATION_RECEIPT.json",
+    "udt_native_field_connection_audit_2026-09-13/review/DIRECT_REVIEW.md",
+    "udt_native_field_connection_audit_2026-09-13/review/DIRECT_REVIEW_PINS.json",
+    "udt_native_field_connection_audit_2026-09-13/review/FINAL_FIDELITY.md",
+    "udt_native_field_connection_audit_2026-09-13/review/FINAL_FIDELITY_CHECKS.json",
+    "udt_native_field_connection_audit_2026-09-13/review/FINAL_FIDELITY_PINS.json",
+    "udt_native_field_connection_audit_2026-09-13/review/INDEPENDENT_FREEZE.json",
+    "udt_native_field_connection_audit_2026-09-13/review/INDEPENDENT_RESULT.json",
+    "udt_native_field_connection_audit_2026-09-13/review/INDEPENDENT_SCOPE.md",
+    "udt_native_field_connection_audit_2026-09-13/review/SOURCE_FIDELITY.json",
+    "udt_native_field_connection_audit_2026-09-13/review/SOURCE_FIRST.md",
+    "udt_native_field_connection_audit_2026-09-13/review/SOURCE_FIRST_PINS.json",
+    "udt_native_field_connection_audit_2026-09-13/review/SOURCE_FIRST_REQUEST.md",
+    "udt_native_field_connection_audit_2026-09-13/review/independent_capture.capture_provenance.json",
+    "udt_native_field_connection_audit_2026-09-13/review/independent_capture.json",
+    "udt_native_field_connection_audit_2026-09-13/review/independent_capture.stderr",
+    "udt_native_field_connection_audit_2026-09-13/review/independent_capture.stdout",
+    "udt_native_field_connection_audit_2026-09-13/review/independent_connection_check.py"
+  ],
+  "science_commit": "7e9461fb448dd1f5d0c57f7b12d0632886ff1b3c",
+  "postpush_verified_utc": "2026-09-13T14:18:56.670789+00:00",
+  "postpush_refs": [
+    "7e9461fb448dd1f5d0c57f7b12d0632886ff1b3c",
+    "7e9461fb448dd1f5d0c57f7b12d0632886ff1b3c"
+  ],
+  "tracked_clean": true,
+  "original51_status_names_exact": true,
+  "committed_manifest_verification": {
+    "recorded_utc": "2026-09-13T14:19:52.113978+00:00",
+    "command_template": [
+      "git",
+      "show",
+      "7e9461fb448dd1f5d0c57f7b12d0632886ff1b3c:<each manifest path>"
+    ],
+    "matched_entries": 81,
+    "sha256": {
+      "CURRENT_RESEARCH_PROGRAM.md": "cb8389d2ad8be4358b6e8194b3fe3da6b234bbf1ef9d4a322573ed8ef7319728",
+      "HANDOFF.md": "d16e59be9fecb2523e2ce6d62663e832f409cf6b8cf3fc6b194f7903a87fa57f",
+      "INDEX.md": "1431ca76b59be5ebc745105b6b92feb2e38912432e0ccd8de5a00e10e7fda38e",
+      "LIVE.md": "5cbe2ff457b1989868301282b3716e785b669eb880816c132f3f93202d5e4d56",
+      "MEMORY.md": "a8fcfe77bdb8eb0bc3265d5f8b790d1004c38e2b9f4fa5f5199643286b7e3f8e",
+      "UDT_RESEARCH_ROADMAP.md": "712dbf5ef27663564d2c947f5c1cf35d82a2534f290c1e50b052cf9b6cac3a7c",
+      "udt_native_field_connection_audit_2026-09-13/AUDIT_INPUT_PINS.json": "6aed628dee1b0b562719b657755a2f73515d863bd7eaee83167edd2e6aecc1a1",
+      "udt_native_field_connection_audit_2026-09-13/AUDIT_REUSE.json": "dcfb82d851caa8f7f4a9e693f4b7d97ddbafb31ae0287ad9e7971a9079d360e4",
+      "udt_native_field_connection_audit_2026-09-13/CANDIDATE_FREEZE.json": "4531f6d5d761ac4f9e8e9818da83df0a3b279ce392c3977fd779cd0cc8d03afc",
+      "udt_native_field_connection_audit_2026-09-13/CHECKPOINT.md": "b3ea2c8449da4b77580970f37489b69ea58432ded40d59f21e93029bfb6a9bd2",
+      "udt_native_field_connection_audit_2026-09-13/CHECK_REPAIR.md": "398c2f6ccf7f8ce731f95f99fc9f8432af0e9896d0fd132cdb1a9d3c4c127cfc",
+      "udt_native_field_connection_audit_2026-09-13/CLOSEOUT.md": "2913863102944b049f2157c9afe8ddc4e6a5a9cf6c71b899523a05096224cf25",
+      "udt_native_field_connection_audit_2026-09-13/CONNECTION_LEDGER.tsv": "a8ae89a0f209e4250c85f30b1ee202b22ec19f2f3e33ce1aa63a35a489bfa06c",
+      "udt_native_field_connection_audit_2026-09-13/CONNECTION_RESULT.json": "00419b35030d76fd385a497c2444d72435120acf515f9756f98f47d9a20f7051",
+      "udt_native_field_connection_audit_2026-09-13/DECISION_BRIEF.md": "47e9521207377b77a8adb9f918cd31e8f89273877706ab26f001c97f3cd8df1d",
+      "udt_native_field_connection_audit_2026-09-13/DEPENDENCY_MAP.md": "c1d19ceed0ef586f388e5fbbb4fcf7905eb76fe8428391cc4d384d5bd83d1609",
+      "udt_native_field_connection_audit_2026-09-13/EXECUTION_INTERVALS.json": "d127ea6899dcb0cf4c25dbf4c988ca4b8d691787c8ce474b13db022edb838f4b",
+      "udt_native_field_connection_audit_2026-09-13/EXECUTION_INTERVALS_FINAL.json": "2c7964a50ad31635d260a72285ff3467b59dc73f87c107dba3a8302d294a5790",
+      "udt_native_field_connection_audit_2026-09-13/FINAL_AUTHORIZATION_CLARIFICATION.md": "b7b53881565d59533db575148f359f8a6e03985e52a46434ff22afe1b4564917",
+      "udt_native_field_connection_audit_2026-09-13/FINAL_FIDELITY_AMENDMENT.json": "a848b319a50650333d6fccb8f511b0ff034b18dfd99bb7eef0fc427583dc8aba",
+      "udt_native_field_connection_audit_2026-09-13/FINAL_FIDELITY_REQUEST.json": "f7c379f3fb80ceb27d6eb77caf6cbe6107c318d799be01fc9a798cc5e5167a1b",
+      "udt_native_field_connection_audit_2026-09-13/FINAL_WORDING_REPAIR.md": "14ecb7c1e3c3a407b7e82b43fe89fa6b3db24523a00651321b0d5e76681d65b7",
+      "udt_native_field_connection_audit_2026-09-13/INITIAL_AUDIT.md": "cf49459ad27fc1ed6d91f250fcecb9ed3dfb7d3cbaa26e358f2cc364d73a0728",
+      "udt_native_field_connection_audit_2026-09-13/LAUNCH.json": "5a970941b7fac269c53e8ac91393b25fb235b634eba56445643335c3521c6abb",
+      "udt_native_field_connection_audit_2026-09-13/NOTATION_CLARIFICATION.md": "3753b06ac36cbc1692597fe31aae3a71bdccdefea0c4935b6537915d049c1e41",
+      "udt_native_field_connection_audit_2026-09-13/POST_REVIEW_GATE.json": "2efd78e1c9e4de37e71d74130c6f673e7af7a65134ffb72a4a2e7c0cda071556",
+      "udt_native_field_connection_audit_2026-09-13/PREMISE_CAPTURE_COPY.json": "91dd019693372496964c7412a357af60921c7c1836ab54216497b882c29f579d",
+      "udt_native_field_connection_audit_2026-09-13/PRESERVATION.json": "25cc937428ec3bf2e69bc55dbe2f2559c451f17d058e6a43b29ab3a40d76334d",
+      "udt_native_field_connection_audit_2026-09-13/PUBLISH_PLAN.json": "d05e9fe0f49251cef7e4215b86ed0e493acfa05ac848248d4d441a02609b5482",
+      "udt_native_field_connection_audit_2026-09-13/README.md": "cf9a9299711b983bddcb8e7fb29c128a9cc7312c18015982515a20347a7caea3",
+      "udt_native_field_connection_audit_2026-09-13/REPAIR_FREEZE.json": "50b4178b043678dc4483ed51129d9df13e47f433b577f88b7068dd330ed50237",
+      "udt_native_field_connection_audit_2026-09-13/REVIEWED_AUDIT.md": "c0cf9a2221f929fbb2a0c3c5ca93985bfeb0de814e0166883b9837dc620b10cd",
+      "udt_native_field_connection_audit_2026-09-13/SELECTED_PREMISES.json": "fe35ea3ea3578b71a4adf517bf8dd45e36c6d671e21a8fbdefec4a3626012fe1",
+      "udt_native_field_connection_audit_2026-09-13/SOURCE_MAP.md": "a5e2cd5b11a7c7ae4697828c5aa3e8288bd866ba11fa36a8eb124dead1fc9a76",
+      "udt_native_field_connection_audit_2026-09-13/SOURCE_PINS.json": "8415bdc254b75a502a2eea99211bad0976ec972584b657abd686eb77238cbf04",
+      "udt_native_field_connection_audit_2026-09-13/WORK_ORDER.md": "168201f628982fdddbc01b4b57f4e746073cd67bbb30d4f8fa74705c6a0c4ac0",
+      "udt_native_field_connection_audit_2026-09-13/check_connection.py": "7bd0bfcfe5bd9923ad9c24731e587dd308ca3f3d7a46eebf0f685ffc90d527b8",
+      "udt_native_field_connection_audit_2026-09-13/check_connection_repaired.py": "cff142dde3981219f20d50633bf84738ab0e804474235aea9983b855b81ac937",
+      "udt_native_field_connection_audit_2026-09-13/checks/connection.capture_provenance.json": "7ce2d135ac1880d743a8617b951e24e975603d618c4203947af43b00f3eb345e",
+      "udt_native_field_connection_audit_2026-09-13/checks/connection.json": "35d98f3bdcae09f4e8209a5b01b26779ef78d8d8d56a00f23bb3ec0de1997b94",
+      "udt_native_field_connection_audit_2026-09-13/checks/connection.stderr": "3d7a1ed8f0023191215275346e8e43c53653881db95d872710770ac40dcbab18",
+      "udt_native_field_connection_audit_2026-09-13/checks/connection.stdout": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "udt_native_field_connection_audit_2026-09-13/checks/connection_repaired.capture_provenance.json": "62d894c5ff189945ff8d9a335966e4ff50dd70f5375dd9e8f733f3fb04737634",
+      "udt_native_field_connection_audit_2026-09-13/checks/connection_repaired.json": "ad01e1c5ee2c3c8f1171327cccd809989bb88f64e23f1b2a2251761af928a7b0",
+      "udt_native_field_connection_audit_2026-09-13/checks/connection_repaired.stderr": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "udt_native_field_connection_audit_2026-09-13/checks/connection_repaired.stdout": "3db30c16a3eace3daae6a6c4cf1404d74424f49df890f31771bf9a4b4eacb1e5",
+      "udt_native_field_connection_audit_2026-09-13/checks/current_surface.capture_provenance.json": "eb1470d611c5a4cc7b1fee76d516ea00ad037a3558471783b5bc383092886f1c",
+      "udt_native_field_connection_audit_2026-09-13/checks/current_surface.json": "b0b2eb52dfb390e5eefc3a845292937ca905c9e968e6cd31db1c5d8f91e7be5e",
+      "udt_native_field_connection_audit_2026-09-13/checks/current_surface.stderr": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "udt_native_field_connection_audit_2026-09-13/checks/current_surface.stdout": "e08daa6e9b025d59081cf81ac7eb7b0eceb58af2963abe7a4c71b159f52d8593",
+      "udt_native_field_connection_audit_2026-09-13/checks/navigation.capture_provenance.json": "32ec9db56849720c3b6162c9f0ce0d138c7646dfda0e9c78e72e570008921179",
+      "udt_native_field_connection_audit_2026-09-13/checks/navigation.json": "611fdf987e7789a9c2ebc314aec86f5376017b61080c1f96f669634b7c3c53a8",
+      "udt_native_field_connection_audit_2026-09-13/checks/navigation.stderr": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "udt_native_field_connection_audit_2026-09-13/checks/navigation.stdout": "55c21c9f1c4be7f3b8ea640d1b28b5be91a629ca69431a7a8aa60424583f8c55",
+      "udt_native_field_connection_audit_2026-09-13/checks/premise406.capture_provenance.json": "422af293cd240c74bb2420052a0cb0885da49fd0fa76b2cbdc53bd100c0c6a4e",
+      "udt_native_field_connection_audit_2026-09-13/checks/premise406.json": "88b83dba08b801980ba4d810768b86d95ba5bccfe44940567bef93f6a4cc80ee",
+      "udt_native_field_connection_audit_2026-09-13/checks/premise406.stderr": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "udt_native_field_connection_audit_2026-09-13/checks/premise406.stdout": "394e02c4ced55fc8f6480a3cc65b9ebd38f9c0cb553f897b10313b8ad2104b53",
+      "udt_native_field_connection_audit_2026-09-13/checks/prepublication_fetch.capture_provenance.json": "d13944b0fad7843ac81bb6fa0ec6dc2e256fd10fb74e38480f41b61d8a261cc8",
+      "udt_native_field_connection_audit_2026-09-13/checks/prepublication_fetch.json": "ebc63f6f2d610f75df7e3c4bdd575e938c6ff89afe9d41084d555ee7e05b1591",
+      "udt_native_field_connection_audit_2026-09-13/checks/prepublication_fetch.stderr": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "udt_native_field_connection_audit_2026-09-13/checks/prepublication_fetch.stdout": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "udt_native_field_connection_audit_2026-09-13/review/ALLOCATION.json": "6b98704f0a4413cb3ef83fde6a379592f5d3617d60c1340b40dc926f825dad41",
+      "udt_native_field_connection_audit_2026-09-13/review/ALLOCATION_RECEIPT.json": "5b5de809573a2ac0d20555f71fff4c435f94138cd97884239f7213a9810141fe",
+      "udt_native_field_connection_audit_2026-09-13/review/DIRECT_REVIEW.md": "ab571aaae80280631ad2378a6787e07aa7f32a8d1ca88e33527724d693208d19",
+      "udt_native_field_connection_audit_2026-09-13/review/DIRECT_REVIEW_PINS.json": "c6c510c07432c87752f747ed8fcb85811157dbdfcd50a65b8ae50712ac9a0838",
+      "udt_native_field_connection_audit_2026-09-13/review/FINAL_FIDELITY.md": "70963268f53d82d879e53f6e437a462fa64a94b148093d8a19f85e3c44cabdc4",
+      "udt_native_field_connection_audit_2026-09-13/review/FINAL_FIDELITY_CHECKS.json": "de0704c680027fac451a421e9afe5642408b0535a9526382b0fa23f8edfb7170",
+      "udt_native_field_connection_audit_2026-09-13/review/FINAL_FIDELITY_PINS.json": "48195760fd3a8b5c7e6636dfbb28af5ff98583c329cc44789ced8d67f2413429",
+      "udt_native_field_connection_audit_2026-09-13/review/INDEPENDENT_FREEZE.json": "5a8a465c5404a4a9252128c013168335e6e0d4133a6e5e798c474d50466a9c7b",
+      "udt_native_field_connection_audit_2026-09-13/review/INDEPENDENT_RESULT.json": "c5563f7fc863a0d51d5699a903c7b9f806f9a0d49de848b23aa96dd1c78fd522",
+      "udt_native_field_connection_audit_2026-09-13/review/INDEPENDENT_SCOPE.md": "0b9dac9896d6edd8b05c5dba48de860d785f7b10db36fc07bb4d8b91ad26de8e",
+      "udt_native_field_connection_audit_2026-09-13/review/SOURCE_FIDELITY.json": "76db3a3bfa389052f52cecd9bc89275eb772bcc39a776d4209f63c17b4c73c5d",
+      "udt_native_field_connection_audit_2026-09-13/review/SOURCE_FIRST.md": "3fa386f1136b1882042d7097d4736c86473c62f6b9df8ab9704ec6bd693d1178",
+      "udt_native_field_connection_audit_2026-09-13/review/SOURCE_FIRST_PINS.json": "9272b1cd5718e245251d5ba000ac5967dfba89877f6e5c2301c174fc434c68f5",
+      "udt_native_field_connection_audit_2026-09-13/review/SOURCE_FIRST_REQUEST.md": "8d3023e9199512b94fc27847525ac4edf727d15e157f20c2ad4d484d7aa2b95f",
+      "udt_native_field_connection_audit_2026-09-13/review/independent_capture.capture_provenance.json": "3e3618d5417655448a1b7648adf060d4154515264baf8c96f7ab209cabd994df",
+      "udt_native_field_connection_audit_2026-09-13/review/independent_capture.json": "0c7e35bd98758a3b358e94ca6ae7166d6551453143d5c7538018a84f0ae0a991",
+      "udt_native_field_connection_audit_2026-09-13/review/independent_capture.stderr": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "udt_native_field_connection_audit_2026-09-13/review/independent_capture.stdout": "543f82ca40154befcdbb79ec694e3f7a00598f6aeec1618bf73b83fc9b574b89",
+      "udt_native_field_connection_audit_2026-09-13/review/independent_connection_check.py": "3dae104e6bda988f69f55a56775ee286b1ef942b14bdc4abea875ca3f2de3efc"
+    },
+    "scope": "committed artifact correspondence, not scientific truth"
+  }
+}
