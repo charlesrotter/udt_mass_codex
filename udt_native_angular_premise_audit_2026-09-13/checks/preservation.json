@@ -1,0 +1,14 @@
+{
+  "command": [
+    "python3",
+    "udt_native_angular_premise_audit_2026-09-13/verify_preservation.py"
+  ],
+  "cwd": "/home/udt-admin/udt_mass_codex",
+  "started_utc": "2026-09-13T19:01:03.843443+00:00",
+  "duration_seconds": 0.08585454802960157,
+  "returncode": 1,
+  "timeout": false,
+  "address_space_bytes": 2147483648,
+  "cpu_seconds": 120,
+  "maxrss_kib": 27808
+}

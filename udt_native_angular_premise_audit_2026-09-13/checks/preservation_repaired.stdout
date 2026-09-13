@@ -1,0 +1,89 @@
+{
+  "status": "PASS",
+  "python": "3.10.12",
+  "argv": [
+    "udt_native_angular_premise_audit_2026-09-13/verify_preservation.py"
+  ],
+  "source_pins_and_fixed_evidence_checked": 31,
+  "selected_registry_rows_exact": 16,
+  "initial_candidate_and_code_preserved": true,
+  "own_navigation_only": [
+    "CURRENT_RESEARCH_PROGRAM.md",
+    "HANDOFF.md",
+    "INDEX.md",
+    "LIVE.md",
+    "MEMORY.md",
+    "UDT_RESEARCH_ROADMAP.md"
+  ],
+  "original_untracked_names_exact": 51,
+  "original_untracked_sha256": "747cf3c497bfbdf7c373a2aa621be3cb241a61f7ef9f508c39bf64588ff70a60",
+  "protected_payloads": "not read or hashed; status names only",
+  "full406_parent_symbolic_independent_and_navigation_captures_verified": true,
+  "commands": [
+    {
+      "command": [
+        "git",
+        "rev-parse",
+        "--abbrev-ref",
+        "HEAD"
+      ],
+      "exit": 0,
+      "stdout": "grok\n",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "git",
+        "rev-parse",
+        "HEAD",
+        "origin/grok"
+      ],
+      "exit": 0,
+      "stdout": "04765748a5402a6717f47ec0670fd3ea225e4c01\n04765748a5402a6717f47ec0670fd3ea225e4c01\n",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "git",
+        "diff",
+        "--cached",
+        "--name-only"
+      ],
+      "exit": 0,
+      "stdout": "",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "git",
+        "status",
+        "--short",
+        "--untracked-files=all"
+      ],
+      "exit": 0,
+      "stdout": " M CURRENT_RESEARCH_PROGRAM.md\n M HANDOFF.md\n M INDEX.md\n M LIVE.md\n M MEMORY.md\n M UDT_RESEARCH_ROADMAP.md\n?? 8_25/UDT_FOUNDING_VALUE_LAW_ANALYSIS.md\n?? 8_25/udt_extension_checks.py\n?? 8_25/udt_extension_minimality_response.md\n?? 8_25/udt_value_law_checks.py\n?? 8_25/udt_value_law_checks_llm1.py\n?? 8_25/udt_value_law_external_response.md\n?? UDT_Complete_Guardrails_and_Central_Science_Tracking.md\n?? UDT_Next_Step_After_Two_Stages.md\n?? UDT_Sequenced_Guardrails_and_Development_Work_Order.md\n?? udt_native_angular_premise_audit_2026-09-13/ADDITIONAL_SOURCE_PINS.json\n?? udt_native_angular_premise_audit_2026-09-13/CANDIDATE_FREEZE.json\n?? udt_native_angular_premise_audit_2026-09-13/DECISION_BRIEF.md\n?? udt_native_angular_premise_audit_2026-09-13/FINAL_SOURCE_PINS.json\n?? udt_native_angular_premise_audit_2026-09-13/INITIAL_CANDIDATE.md\n?? udt_native_angular_premise_audit_2026-09-13/LAUNCH.json\n?? udt_native_angular_premise_audit_2026-09-13/LOAD_BEARING_REGISTRY_ROWS.tsv\n?? udt_native_angular_premise_audit_2026-09-13/NAVIGATION_BEFORE.json\n?? udt_native_angular_premise_audit_2026-09-13/PACKAGING_REPAIR.md\n?? udt_native_angular_premise_audit_2026-09-13/PARENT_CODE_FREEZE.json\n?? udt_native_angular_premise_audit_2026-09-13/PROTECTED_EVIDENCE_PINS.json\n?? udt_native_angular_premise_audit_2026-09-13/REPAIR.md\n?? udt_native_angular_premise_audit_2026-09-13/REVIEWED_RESULT.md\n?? udt_native_angular_premise_audit_2026-09-13/SOURCE_CONSTRAINT_MAP.md\n?? udt_native_angular_premise_audit_2026-09-13/SOURCE_PINS.json\n?? udt_native_angular_premise_audit_2026-09-13/WORK_ORDER.md\n?? udt_native_angular_premise_audit_2026-09-13/WORK_ORDER_FREEZE.json\n?? udt_native_angular_premise_audit_2026-09-13/checks/parent_exact.capture_provenance.json\n?? udt_native_angular_premise_audit_2026-09-13/checks/parent_exact.json\n?? udt_native_angular_premise_audit_2026-09-13/checks/parent_exact.stderr\n?? udt_native_angular_premise_audit_2026-09-13/checks/premise406.capture_provenance.json\n?? udt_native_angular_premise_audit_2026-09-13/checks/premise406.json\n?? udt_native_angular_premise_audit_2026-09-13/checks/premise406.stderr\n?? udt_native_angular_premise_audit_2026-09-13/checks/preservation.capture_provenance.json\n?? udt_native_angular_premise_audit_2026-09-13/checks/preservation.json\n?? udt_native_angular_premise_audit_2026-09-13/checks/preservation.stderr\n?? udt_native_angular_premise_audit_2026-09-13/checks/preservation_repaired.capture_provenance.json\n?? udt_native_angular_premise_audit_2026-09-13/checks/startup_tests.capture_provenance.json\n?? udt_native_angular_premise_audit_2026-09-13/checks/startup_tests.json\n?? udt_native_angular_premise_audit_2026-09-13/checks/startup_tests.stderr\n?? udt_native_angular_premise_audit_2026-09-13/parent_exact.py\n?? udt_native_angular_premise_audit_2026-09-13/publication_adapter.py\n?? udt_native_angular_premise_audit_2026-09-13/review/ALLOCATION.json\n?? udt_native_angular_premise_audit_2026-09-13/review/DIRECT_EXPOSURE.json\n?? udt_native_angular_premise_audit_2026-09-13/review/DIRECT_REVIEW_FREEZE.json\n?? udt_native_angular_premise_audit_2026-09-13/review/INDEPENDENT_ANALYTICAL_NOTE.md\n?? udt_native_angular_premise_audit_2026-09-13/review/INDEPENDENT_ANALYTICAL_NOTE_FREEZE.json\n?? udt_native_angular_premise_audit_2026-09-13/review/INDEPENDENT_CHECK_EXECUTION.json\n?? udt_native_angular_premise_audit_2026-09-13/review/INDEPENDENT_CHECK_PREFREEZE.json\n?? udt_native_angular_premise_audit_2026-09-13/review/REVIEW.md\n?? udt_native_angular_premise_audit_2026-09-13/review/SOURCE_FIRST_FREEZE.json\n?? udt_native_angular_premise_audit_2026-09-13/review/SOURCE_FIRST_FREEZE.md\n?? udt_native_angular_premise_audit_2026-09-13/review/SOURCE_FIRST_REQUEST.md\n?? udt_native_angular_premise_audit_2026-09-13/review/SOURCE_READING_LOG.md\n?? udt_native_angular_premise_audit_2026-09-13/review/independent_center_check.py\n?? udt_native_angular_premise_audit_2026-09-13/review/independent_center_check.stderr\n?? udt_native_angular_premise_audit_2026-09-13/verify_preservation.py\n?? udt_native_angular_premise_audit_2026-09-13/verify_preservation_initial.py\n?? udt_native_onshell_timelive_reset_owner_audit_2026-08-10/CANDIDATE_LAW_MAP.tsv\n?? udt_native_onshell_timelive_reset_owner_audit_2026-08-10/DERIVATION_RESULT.json\n?? udt_native_onshell_timelive_reset_owner_audit_2026-08-10/EQUATION_OWNERSHIP_ATLAS.tsv\n?? udt_native_onshell_timelive_reset_owner_audit_2026-08-10/SOURCE_SCOPE_CLARIFICATION.md\n?? udt_native_onshell_timelive_reset_owner_audit_2026-08-10/derive_owner_atlas.py\n?? udt_native_onshell_timelive_reset_owner_audit_2026-08-10/run_catch_proofs.py\n?? udt_native_onshell_timelive_reset_owner_audit_2026-08-10/verify_owner_independent.py\n?? udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/ADVERSARIAL_REVIEW_REQUEST.md\n?? udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/AUDIT_REPORT.md\n?? udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/CATCH_PROOF_RESULT.json\n?? udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/DERIVATION_RESULT.json\n?? udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/EVIDENCE_GATES.md\n?? udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/EXACT_DERIVATION.md\n?? udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/INDEPENDENT_VERIFICATION.json\n?? udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/LAY_REPORT.md\n?? udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/STATUS_LEDGER.tsv\n?? udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/VERIFICATION_RESULT.json\n?? udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/WITNESS_ATLAS.tsv\n?? udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/build_review_intake.py\n?? udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/derive_regime_flow.py\n?? udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/run_catch_proofs.py\n?? udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/verify_independent.py\n?? udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/verify_package.py\n?? udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/AUDIT_REPORT.md\n?? udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/CATCH_PROOF_RESULT.json\n?? udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/DERIVATION_RESULT.json\n?? udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/EVIDENCE_GATES.md\n?? udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/EXACT_DERIVATION.md\n?? udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/INDEPENDENT_RADAU_REPLAY.tsv\n?? udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/INDEPENDENT_VERIFICATION.json\n?? udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/LAY_REPORT.md\n?? udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/PREREGISTRATION_EXECUTION_NOTE.md\n?? udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/PROFILE_COMPATIBILITY_ATLAS.tsv\n?? udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/REVIEW_DISPATCH.md\n?? udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/RUN_CHECKPOINT.tsv\n?? udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/STATUS_LEDGER.tsv\n?? udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/VERIFICATION_RESULT.json\n?? udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/build_review_manifest.py\n?? udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/derive_compatibility_atlas.py\n?? udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/run_catch_proofs.py\n?? udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/verify_independent.py\n?? udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/verify_package.py\n",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "git",
+        "diff",
+        "--name-only"
+      ],
+      "exit": 0,
+      "stdout": "CURRENT_RESEARCH_PROGRAM.md\nHANDOFF.md\nINDEX.md\nLIVE.md\nMEMORY.md\nUDT_RESEARCH_ROADMAP.md\n",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "git",
+        "diff",
+        "--check"
+      ],
+      "exit": 0,
+      "stdout": "",
+      "stderr": ""
+    }
+  ],
+  "limits": "correspondence/regression, not independent scientific proof or backup completeness"
+}

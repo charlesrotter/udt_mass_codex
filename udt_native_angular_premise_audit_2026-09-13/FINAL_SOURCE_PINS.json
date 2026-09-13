@@ -1,0 +1,8 @@
+{
+  "utc": "2026-09-13T19:01:40.339671+00:00",
+  "pins": {
+    "udt_g214_completed_tuple_overlap_and_three_observer_carry_2026-08-22/AUDIT_REPORT.md": "9736f98f78ffe7e64c5940984831e06364f1b2b20fd0fcbf0f3e877a49d88af5",
+    "udt_g170_endpoint_relative_bidirectional_pair_response_2026-08-19/AUDIT_REPORT.md": "5eec3eec5ee17825628176f4e8346e5542a3c883374f2745a32fed937b71294e"
+  },
+  "scope": "G170/G214 source reports used by final map and separately examined by reviewer; candidate-pinned records remain unchanged"
+}

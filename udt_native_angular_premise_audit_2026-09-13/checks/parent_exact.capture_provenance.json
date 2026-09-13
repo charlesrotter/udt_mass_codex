@@ -1,0 +1,18 @@
+{
+  "source": "/home/udt-admin/udt_mass_codex/udt_shared_readout_metric_constraint_campaign_2026-09-06/run_capture.py",
+  "source_sha256": "8ff5469ace76bdfc84188915242abbf3baff35516f9ee3f9ba4b1cbfeb2573ef",
+  "adapted_capture_sha256": "15ed81619d57206aef515a3136b28be50df888a839fac760417cc0b2be35dd26",
+  "limits": {
+    "seconds": 120,
+    "mib": 2048
+  },
+  "thread_environment": {
+    "OMP_NUM_THREADS": "1",
+    "OPENBLAS_NUM_THREADS": "1",
+    "MKL_NUM_THREADS": "1"
+  },
+  "command": [
+    "python3",
+    "udt_native_angular_premise_audit_2026-09-13/parent_exact.py"
+  ]
+}

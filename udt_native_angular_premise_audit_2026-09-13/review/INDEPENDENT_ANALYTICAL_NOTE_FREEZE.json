@@ -1,0 +1,11 @@
+{
+  "recorded_utc": "2026-09-13T18:53:54.699071+00:00",
+  "new_parent_candidate_exposure": false,
+  "sha256": {
+    "udt_g301_scale_free_quiet_regular_causal_principal_classification_2026-08-30/AUDIT_REPORT.md": "f2197ee7a23a88017a9ac970f9a187a13113cf0bbcc1dcbd493588e9c53a1c5f",
+    "udt_g301_scale_free_quiet_regular_causal_principal_classification_2026-08-30/EXACT_DERIVATION.md": "633b907b5384aa63d61d49db067dd4e608e6abd3bf3571e4267f91e5c74da8fb",
+    "udt_g310_differential_dual_reciprocity_tracefree_ownership_2026-08-31/EXACT_DERIVATION.md": "a417b3cfa1cc6136429a14d3b330c1b8c25c73c9e946d6b6454d6ffae72c25a0",
+    "CROSS_MODEL_VERIFY.md": "2b0509d933d731fbf3f72aa88777a54d3e48a94d4bae3d324087871777f9a007",
+    "udt_native_angular_premise_audit_2026-09-13/review/INDEPENDENT_ANALYTICAL_NOTE.md": "f12bb44d6b1a5fc799d7889555c13a3bf680b6d43b288537bb1ff647e0842c9a"
+  }
+}

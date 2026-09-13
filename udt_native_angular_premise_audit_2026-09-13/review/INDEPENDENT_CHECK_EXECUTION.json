@@ -1,0 +1,23 @@
+{
+  "command": [
+    "timeout",
+    "120s",
+    "python3",
+    "-S",
+    "udt_native_angular_premise_audit_2026-09-13/review/independent_center_check.py"
+  ],
+  "started_utc": "2026-09-13T18:52:53.808097+00:00",
+  "ended_utc": "2026-09-13T18:52:53.899780+00:00",
+  "elapsed_seconds": 0.0916843069717288,
+  "exit_code": 0,
+  "timeout_seconds": 120,
+  "memory_limit_MiB": 2048,
+  "memory_limit_mechanism": "check script RLIMIT_AS",
+  "sha256": {
+    "independent_center_check.py": "efb759dea886ab1c63112c60fd08b331f0d1f1594fd51ff9eec334505b23af4b",
+    "independent_center_check.stdout": "6471ba16cbdbb24191b4f3c05e6bcd320b3001bb0130656f02736f73f5d01466",
+    "independent_center_check.stderr": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "new_parent_candidate_exposure": false,
+  "cpu_overlap": "parent explicitly released slot after full406; parent scientific work held"
+}

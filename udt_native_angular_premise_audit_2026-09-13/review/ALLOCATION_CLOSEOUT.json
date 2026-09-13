@@ -1,0 +1,19 @@
+{
+  "review_context": "/root/nap1_source_review",
+  "conservative_start_utc": "2026-09-13T18:46:19+00:00",
+  "review_work_completed_utc": "2026-09-13T19:06:18.074092+00:00",
+  "conservative_elapsed_seconds": 1199.074092,
+  "allocated_seconds": 2100,
+  "hard_deadline_utc": "2026-09-13T19:21:19+00:00",
+  "within_allocation": true,
+  "source_first_reasoning_freeze_utc": "2026-09-13T18:48:52.032452+00:00",
+  "source_first_freeze_elapsed_seconds": 153.032452,
+  "pre_candidate_exposure_upper_utc": "2026-09-13T18:54:01+00:00",
+  "scientific_subprocesses": 1,
+  "scientific_subprocess_overlap_seconds": 0,
+  "new_review_allocations": 1,
+  "new_scientific_reruns_during_fidelity": 0,
+  "write_stop": "All reviewer writes stop after this final record set.",
+  "final_fidelity_md_sha256": "ae4f0c4b256b6d8c4c688126942529a8253dfde115d76797863b29fae75f8cb0",
+  "final_fidelity_json_sha256": "6231e2bf8e61157acddc0cde65e118900c1e9edb47926e1fcceef8637735a0ec"
+}

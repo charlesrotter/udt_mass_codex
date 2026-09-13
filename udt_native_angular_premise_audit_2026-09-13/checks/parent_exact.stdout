@@ -1,0 +1,186 @@
+{
+  "status": "PASS",
+  "python": "3.10.12",
+  "sympy": "1.13.1",
+  "argv": [
+    "udt_native_angular_premise_audit_2026-09-13/parent_exact.py"
+  ],
+  "script_sha256": "e9448173f3992bcd3b1c362967a6f6b40ad4d3b81a824b2a77efea9be6f9d822",
+  "check_count": 35,
+  "checks": [
+    "metric_at_center",
+    "zero_first_derivative_x0",
+    "zero_first_derivative_x",
+    "zero_first_derivative_y",
+    "zero_first_derivative_z",
+    "original_metric_Ricci",
+    "original_metric_scalar",
+    "conditional_response_TF",
+    "unit_direction_0",
+    "reciprocal_tangent_trace_0",
+    "full_factor_two_balance_0",
+    "unit_direction_1",
+    "reciprocal_tangent_trace_1",
+    "full_factor_two_balance_1",
+    "unit_direction_2",
+    "reciprocal_tangent_trace_2",
+    "full_factor_two_balance_2",
+    "unit_direction_3",
+    "reciprocal_tangent_trace_3",
+    "full_factor_two_balance_3",
+    "unit_direction_4",
+    "reciprocal_tangent_trace_4",
+    "full_factor_two_balance_4",
+    "five_direction_rank_5",
+    "scalar_response_blindness_control",
+    "all_S_zero_center_TF",
+    "DDR_allows_nonzero_trace_response",
+    "density_second_jet_retains_S",
+    "six_density_coefficients",
+    "full_density_rank_5",
+    "radial_density_S_blindness",
+    "exact_completed_pair",
+    "full_tuple_reconstruction",
+    "normalized_determinant",
+    "full_pair_covariance"
+  ],
+  "hostile_recomputations": {
+    "axis_only_misses_mixed_S": true,
+    "half_tangent_wrong_normalization": true,
+    "drop_density_loses_real_angular_information": true,
+    "forcing_E_zero_rejects_valid_pointwise_DDR_trace": true,
+    "a_zero_cannot_reject_nonzero_S": true
+  },
+  "response_balances": [
+    "6*a*s11",
+    "6*a*s22",
+    "54*a*s11/25 + 144*a*s12/25 + 96*a*s22/25",
+    "-42*a*s11/25 + 144*a*s13/25 - 96*a*s22/25",
+    "-96*a*s11/25 - 42*a*s22/25 + 144*a*s23/25"
+  ],
+  "balance_matrix": [
+    [
+      "1",
+      "0",
+      "0",
+      "0",
+      "0"
+    ],
+    [
+      "0",
+      "1",
+      "0",
+      "0",
+      "0"
+    ],
+    [
+      "9/25",
+      "16/25",
+      "24/25",
+      "0",
+      "0"
+    ],
+    [
+      "-7/25",
+      "-16/25",
+      "0",
+      "24/25",
+      "0"
+    ],
+    [
+      "-16/25",
+      "-7/25",
+      "0",
+      "0",
+      "24/25"
+    ]
+  ],
+  "balance_rank": 5,
+  "balance_determinant": "13824/15625",
+  "density_probes": [
+    [
+      [
+        "0",
+        "1",
+        "0"
+      ],
+      [
+        "0",
+        "0",
+        "1"
+      ]
+    ],
+    [
+      [
+        "1",
+        "0",
+        "0"
+      ],
+      [
+        "0",
+        "0",
+        "1"
+      ]
+    ],
+    [
+      [
+        "1",
+        "0",
+        "0"
+      ],
+      [
+        "0",
+        "1",
+        "0"
+      ]
+    ],
+    [
+      [
+        "0",
+        "0",
+        "1"
+      ],
+      [
+        "1",
+        "1",
+        "0"
+      ]
+    ],
+    [
+      [
+        "0",
+        "1",
+        "0"
+      ],
+      [
+        "1",
+        "0",
+        "1"
+      ]
+    ],
+    [
+      [
+        "1",
+        "0",
+        "0"
+      ],
+      [
+        "0",
+        "1",
+        "1"
+      ]
+    ]
+  ],
+  "density_coefficients": [
+    "s11",
+    "s22",
+    "-s11 - s22",
+    "s11 - 2*s12 + s22",
+    "-2*s13 - s22",
+    "-s11 - 2*s23"
+  ],
+  "density_rank": 5,
+  "scalar": "-12*c2",
+  "trace_witness": "Matrix([[3, 0, 0, 0], [0, -3, 0, 0], [0, 0, -3, 0], [0, 0, 0, -3]])",
+  "scope": "Exact center-jet and supplied-pair algebra; G301 membership explicitly conditional; no native physical admission, new response or neighborhood solution claim."
+}

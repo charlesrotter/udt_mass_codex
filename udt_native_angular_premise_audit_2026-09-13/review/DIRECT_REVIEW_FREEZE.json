@@ -1,0 +1,18 @@
+{
+  "recorded_utc": "2026-09-13T18:57:40.608128+00:00",
+  "stage": "initial direct review with R1 outstanding",
+  "pins": {
+    "REVIEW.md": "24a4ae0d9955466e07a5f723d3ad2c77efb255b3ac3e87b7553587fc4e0946ca",
+    "DIRECT_EXPOSURE.json": "97db35f70af0caa02ede7513a505c2d29349ff356d506538bf31784bb782c5c2",
+    "SOURCE_FIRST_FREEZE.md": "f5d716e8fb63ea487abf10fb88ca58096dabde862c9d6ecabfbda96cfe89f409",
+    "SOURCE_FIRST_FREEZE.json": "35b81666164f83f8a3be42f545e3667b0c0fa60f8476cb32252bc06797105ae1",
+    "INDEPENDENT_CHECK_PREFREEZE.json": "4a6bf87b2c30c3e848ec6f678a7d586a1b72b44c62ff2ec68f50e555b73027cd",
+    "independent_center_check.py": "efb759dea886ab1c63112c60fd08b331f0d1f1594fd51ff9eec334505b23af4b",
+    "INDEPENDENT_CHECK_EXECUTION.json": "7c13cbea89d2cf5a923bdfcd5df6f88130b660b89229ef94b08aca450a854fdd",
+    "independent_center_check.stdout": "6471ba16cbdbb24191b4f3c05e6bcd320b3001bb0130656f02736f73f5d01466",
+    "independent_center_check.stderr": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "INDEPENDENT_ANALYTICAL_NOTE.md": "f12bb44d6b1a5fc799d7889555c13a3bf680b6d43b288537bb1ff647e0842c9a",
+    "INDEPENDENT_ANALYTICAL_NOTE_FREEZE.json": "2f8570c5ca34911273b0a793bc6655f8aeb9c7d8308729d483878e2b9a82e8dd",
+    "SOURCE_READING_LOG.md": "223c0261de555ed731fef0e43b3b2c4ca8779518c4194541f31de56a8934ec22"
+  }
+}

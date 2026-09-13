@@ -1,0 +1,10 @@
+{
+  "utc": "2026-09-13T18:53:35.176006+00:00",
+  "pins": {
+    "INITIAL_CANDIDATE.md": "ad906b3619669d7f1d2cdd5c4cb4d0fe4a20314003fe5bd57d87331c12350a84",
+    "WORK_ORDER.md": "72b61a39a6c230ae35a57393269cfd72a26e4532ad75c094a935713b22fbe100",
+    "SOURCE_PINS.json": "063356ac020792c4d23c7b6063e7b526a3b1abdd13ca20443c7b0914dbddf60b",
+    "ADDITIONAL_SOURCE_PINS.json": "2f0a03d8b5ea986afe036c9440b0aca5f6a6718ebdb5443f429c6fed912e168e"
+  },
+  "state": "before parent NAP1 scientific computation; separate reviewer source-first already frozen"
+}

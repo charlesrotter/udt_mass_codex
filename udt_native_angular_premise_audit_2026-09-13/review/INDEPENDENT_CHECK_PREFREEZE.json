@@ -1,0 +1,9 @@
+{
+  "prepared_utc": "2026-09-13T18:52:31.852019+00:00",
+  "sha256": "efb759dea886ab1c63112c60fd08b331f0d1f1594fd51ff9eec334505b23af4b",
+  "new_parent_candidate_exposure": false,
+  "executed": false,
+  "input": "LSR1 source quadratic metric jet; G310 original full reciprocal tangent; current G312 ceiling",
+  "planned_command": "timeout 120s python3 -S udt_native_angular_premise_audit_2026-09-13/review/independent_center_check.py",
+  "cpu_coordination": "waiting for parent release; no scientific subprocess started"
+}

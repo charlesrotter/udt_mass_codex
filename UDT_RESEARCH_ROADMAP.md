@@ -14,6 +14,46 @@ Current acceptance overlay: earlier UNPROMOTED/campaign-only language below reco
 returns. The G383--G412, G413--G415 and G416--G423 banking packets and maintained checkpoint own later dispositions;
 original result packages remain unchanged. No physical adoption or canon is included.
 
+## NAP1 reviewed native-premise angular audit — 2026-09-13
+
+Charles's next proceed authorized the native-premise audit of LSR1's explicit
+leading angular tensor. Work order: `udt_native_angular_premise_audit_2026-09-13/WORK_ORDER.md`;
+90minutes maximum including one fresh source-first adversarial review and
+same-premise repair. Return: source-relative VERIFIED-WITH-CAVEATS, UNPROMOTED;
+controlling argument: its REVIEWED_RESULT.md; lay explanation: DECISION_BRIEF.md;
+actual checks, allocations, preservation and publication: CLOSEOUT.md and receipts.
+LSR1 remains a reviewed UNPROMOTED mathematical input, not a physical premise.
+
+Complete pair records retain all five leading angular components through their
+ruler-density second jets; the common static scalar/kernel reading can agree.
+G176/G179 completion, G213 information retention and current G215 shared-clock
+scalar closure do not introduce an S=0 condition on these supplied geometries.
+No obsolete raw G171 scalar defect or arbitrary global-carry claim is restored.
+This is compatibility with named algebraic conditions, not native admission.
+
+The existing owner-provisional Universal Reciprocity/DDR supplies a substantive
+all-pair constraint TF(E)=0; explained Local Metric Sufficiency is retained.
+INSIDE the entire conditional nondegenerate G301 response class, the original
+center metric gives TF(E)=3a diag(0,S). Five explicitly stated directional
+balances have rank five, so center DDR is equivalent to S=0 in THIS restricted
+class. b and c2 cancel; no scale or higher-jet/global restriction is selected.
+The full G312 membership route remains unclosed under GR FILTER ONLY, so this
+conditional result is not a native physical exclusion of angular structure.
+
+Initial candidate and review history remain fixed. One R1 precision repair
+qualifies the nonzero-trace witness: E=-3(a+4b)c2 eta at S=0; e.g. a=1,b=0,c2!=0
+shows DDR need not mean E=0. No new response, field, physical law, observation,
+promotion, registry/CANON/fixed-manuscript change or Maxwell expansion occurred.
+
+Next proposed metric-expansion question: release the isotropic clock second jet
+and check its relation to angular geometry using existing native pair/assembly
+relations and complete records. That separates a fixed round-clock restriction
+from a demonstrated native requirement. Any local metric comparison must retain
+its explicit admission boundary; G301 remains a labeled diagnostic, not a newly
+installed law. A bounded work order with exact hypotheses, useful return and
+normal fresh review is required before execution. No automatic successor or
+promotion; stop for discussion. The owner emergence-method correction below applies.
+
 ## LSR1 reviewed local metric/kernel symmetry release — 2026-09-13
 
 Charles authorized the two-hour local symmetry-release question with one fresh
@@ -46,12 +86,11 @@ No physical field, law, content, observation, scale or history was added or
 selected. This geometric permission is not a claim that full native UDT admits
 every member. Whole initial arguments, precision repairs and review control.
 
-Next proposed gate: determine what existing native metric/pair assembly premises
-actually constrain about this explicit leading angular tensor. The preceding
-geometric class is not automatically a physical premise. A new bounded work
-order must identify the source argument and potential advance; no successor,
-promotion, registry/manuscript/CANON change or Maxwell expansion is authorized.
-Stop for discussion. The primary working-method correction below still applies.
+This return proposed the native-premise angular audit. Charles later authorized
+it; the completed NAP1 checkpoint above owns that execution and current next
+proposal. LSR1's geometric class is not automatically a physical premise, and
+neither its publication nor NAP1 promotes it. The primary working-method
+correction below still applies.
 
 ## Owner direction clarification — emergence question, 2026-09-13
 

@@ -114,4 +114,4 @@ Backup completeness/pre-reboot unsaved state remain UNVERIFIED; ScratchDisk is a
 
 G383--G412 exact-scope banking is COMPLETE; G413--G423 banked; BE1/SD1/NR1/NR2/TI3 reviewed conditional UNPROMOTED; OB2 eligibility unresolved: INDEX.
 G312 membership unclosed; G352 physical-realization: physical identification remains OPEN.
-Charles authorized broader-geometry testing and one bounded follow-up; completed; LSR1 reviewed/UNPROMOTED; native admission OPEN; Maxwell PAUSED; discussion stop; work order and return gates: roadmap.
+Charles authorized broader-geometry testing and one bounded follow-up; completed; NAP1 reviewed/UNPROMOTED; native admission OPEN; Maxwell PAUSED; discussion stop; work order and return gates: roadmap.

@@ -1,0 +1,17 @@
+{
+  "context": "/root/nap1_source_review",
+  "fresh_context": true,
+  "fork_turns": "none",
+  "model_override": null,
+  "conservative_start_utc": "2026-09-13T18:46:19+00:00",
+  "allocation_confirmed_utc": "2026-09-13T18:46:46.240715+00:00",
+  "source_first_deadline_utc": "2026-09-13T18:51:19+00:00",
+  "hard_deadline_utc": "2026-09-13T19:21:19+00:00",
+  "maximum_seconds": 2100,
+  "scope": "one source-first adversarial review and same-premise repair/final fidelity",
+  "parent_overlap": "Parent source mapping and audit construction active; new full406 subprocess RUNNING at allocation.",
+  "runtime_model": "UNATTESTED",
+  "different_model": "UNTESTED",
+  "general_capacity": "UNVERIFIED",
+  "allocation_limit_observed": false
+}

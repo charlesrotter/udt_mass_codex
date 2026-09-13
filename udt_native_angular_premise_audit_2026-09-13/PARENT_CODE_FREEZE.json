@@ -1,0 +1,6 @@
+{
+  "utc": "2026-09-13T18:55:13.281436+00:00",
+  "parent_code_sha256": "e9448173f3992bcd3b1c362967a6f6b40ad4d3b81a824b2a77efea9be6f9d822",
+  "source_method": "pinned LSR1 original Cartesian Hessian convention reused; not implementation-independent of LSR1",
+  "reviewer_exposure": "parent has received reviewer outcome summary; has not read reviewer code"
+}
