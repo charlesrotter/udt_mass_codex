@@ -14,6 +14,45 @@ Current acceptance overlay: earlier UNPROMOTED/campaign-only language below reco
 returns. The G383--G412, G413--G415 and G416--G423 banking packets and maintained checkpoint own later dispositions;
 original result packages remain unchanged. No physical adoption or canon is included.
 
+## Owner direction clarification — emergence question, 2026-09-13
+
+Charles clarified that asking about a UDT Maxwell possibility meant asking whether
+Maxwell-like behavior could now emerge from the developed metric/kernel. It did
+not request an added model designed to reproduce electromagnetism. The appropriate
+current readiness answer is **not yet established**. This is the limit of the
+reviewed results, not a finding that emergence is impossible.
+
+NR1/NR2 and GFC1 retain their reviewed conditional mathematics. In particular,
+GFC1 constructs screens whose freely supplied profiles reproduce the target
+field family on an existing geometry. That representation does not establish
+independent native generation or physical identification. Successful checks and
+conditional labels do not make it an answer to the original emergence question.
+The source packages, their failures/repairs, reviews and grades remain unchanged.
+The intervening bounded studies had explicit work orders; this clarification
+changes their role and future direction, not their historical authorization.
+
+The default direction is metric/kernel development from current premises.
+Future emergence proposals must identify the objects' UDT provenance and role
+independently of a desired physical resemblance, distinguish ordinary free data
+from added physical assumptions, and state what would be learned if the resemblance
+does not appear. Existing physics and observations serve as constraints,
+calibration, anchors, or tests through justified explicit interfaces; they do
+not supply an unacknowledged UDT law. Conditional labeling alone does not justify
+replacing an emergence question with a construction of the target.
+
+Automatic Maxwell-like field/screen expansion remains PAUSED. Preserve the
+conditional comparison branch; any extension of it needs an explicitly justified
+and authorized scope. Broad geometry, valid unfamiliar solutions, mathematical
+ansatzes at declared scope, and legitimate free initial/query data remain available.
+Neither a unique universe nor physical light is required for every mathematical
+or explicitly justified observational question. No new solve, promotion, physical
+premise or canon change is authorized by this method clarification.
+
+This current direction qualifies successor language in the historical returns
+below. The primary method rule is in `AGENTS.md`, under Method. Implementation
+and actual checks: `maintenance_emergence_method_2026-09-13/WORK_RECORD.md`.
+Stop for discussion; a new scientific question has not been selected here.
+
 ## GFC1 reviewed geometric response / field connection — 2026-09-13
 
 Charles authorized the two-hour connection study with one fresh review.

@@ -1,0 +1,40 @@
+{
+  "recorded_utc": "2026-09-13T16:32:10.447221+00:00",
+  "branch": "grok",
+  "head": "9cb7f3550a16aa2b17437707fc528553c391a457",
+  "origin": "9cb7f3550a16aa2b17437707fc528553c391a457",
+  "fetch_exit": 0,
+  "fetch_evidence": "Parent tool call git fetch origin; exit0 immediately before this capture.",
+  "original_untracked_status": "?? 8_25/UDT_FOUNDING_VALUE_LAW_ANALYSIS.md\n?? 8_25/udt_extension_checks.py\n?? 8_25/udt_extension_minimality_response.md\n?? 8_25/udt_value_law_checks.py\n?? 8_25/udt_value_law_checks_llm1.py\n?? 8_25/udt_value_law_external_response.md\n?? UDT_Complete_Guardrails_and_Central_Science_Tracking.md\n?? UDT_Next_Step_After_Two_Stages.md\n?? UDT_Sequenced_Guardrails_and_Development_Work_Order.md\n?? udt_native_onshell_timelive_reset_owner_audit_2026-08-10/CANDIDATE_LAW_MAP.tsv\n?? udt_native_onshell_timelive_reset_owner_audit_2026-08-10/DERIVATION_RESULT.json\n?? udt_native_onshell_timelive_reset_owner_audit_2026-08-10/EQUATION_OWNERSHIP_ATLAS.tsv\n?? udt_native_onshell_timelive_reset_owner_audit_2026-08-10/SOURCE_SCOPE_CLARIFICATION.md\n?? udt_native_onshell_timelive_reset_owner_audit_2026-08-10/derive_owner_atlas.py\n?? udt_native_onshell_timelive_reset_owner_audit_2026-08-10/run_catch_proofs.py\n?? udt_native_onshell_timelive_reset_owner_audit_2026-08-10/verify_owner_independent.py\n?? udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/ADVERSARIAL_REVIEW_REQUEST.md\n?? udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/AUDIT_REPORT.md\n?? udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/CATCH_PROOF_RESULT.json\n?? udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/DERIVATION_RESULT.json\n?? udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/EVIDENCE_GATES.md\n?? udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/EXACT_DERIVATION.md\n?? udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/INDEPENDENT_VERIFICATION.json\n?? udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/LAY_REPORT.md\n?? udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/STATUS_LEDGER.tsv\n?? udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/VERIFICATION_RESULT.json\n?? udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/WITNESS_ATLAS.tsv\n?? udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/build_review_intake.py\n?? udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/derive_regime_flow.py\n?? udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/run_catch_proofs.py\n?? udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/verify_independent.py\n?? udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/verify_package.py\n?? udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/AUDIT_REPORT.md\n?? udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/CATCH_PROOF_RESULT.json\n?? udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/DERIVATION_RESULT.json\n?? udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/EVIDENCE_GATES.md\n?? udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/EXACT_DERIVATION.md\n?? udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/INDEPENDENT_RADAU_REPLAY.tsv\n?? udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/INDEPENDENT_VERIFICATION.json\n?? udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/LAY_REPORT.md\n?? udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/PREREGISTRATION_EXECUTION_NOTE.md\n?? udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/PROFILE_COMPATIBILITY_ATLAS.tsv\n?? udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/REVIEW_DISPATCH.md\n?? udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/RUN_CHECKPOINT.tsv\n?? udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/STATUS_LEDGER.tsv\n?? udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/VERIFICATION_RESULT.json\n?? udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/build_review_manifest.py\n?? udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/derive_compatibility_atlas.py\n?? udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/run_catch_proofs.py\n?? udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/verify_independent.py\n?? udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/verify_package.py\n",
+  "original_untracked_status_sha256": "747cf3c497bfbdf7c373a2aa621be3cb241a61f7ef9f508c39bf64588ff70a60",
+  "permitted_tracked_edits": [
+    "AGENTS.md",
+    "LIVE.md",
+    "HANDOFF.md",
+    "CURRENT_RESEARCH_PROGRAM.md",
+    "MEMORY.md",
+    "UDT_RESEARCH_ROADMAP.md"
+  ],
+  "before_pins": {
+    "AGENTS.md": "f8fa9f6135d80332e4d28b0dcfefd04e43c00042512968bb9eacf2f692499053",
+    "LIVE.md": "ca69578aa2947d1580f9d6e3efc047b5e66813ee5787babcb12738e3ecd9867f",
+    "HANDOFF.md": "3c217157e577173c6e4fab58844737b7e9db7253bcc2ee4811609c5f698a7591",
+    "CURRENT_RESEARCH_PROGRAM.md": "614e06d8a8369df5b4fd8dc4ae806b3ed1d7a52025c79a60e488fcd2d820573c",
+    "MEMORY.md": "a4ba543e003aba03e891da4bc49de2da8418f2a2883660a82d950f3bf105a8fa",
+    "UDT_RESEARCH_ROADMAP.md": "2e8a3976b841cbdc79688df46bfdc9d5f3aa39b6f4eac2e8d4cdbb7acbbb56e4"
+  },
+  "unchanged_scientific_pins": {
+    "CURRENT_SCIENTIFIC_PREMISES.tsv": "7a3d69d5a0bc3ac98e2ebe2bb0c6d029df30071bf403baffed2223a193dc720b",
+    "CANON.md": "047b7fbbc1acacf01d2716e3c98cdefd0b9b20136ac4a3306f55dd6775465250",
+    "UDT_METRIC_KERNEL_DEVELOPMENT.md": "3b625d8f43620a37c99d9f4f0fdc9390c3a12306b1da87281c143ce84d40a81e",
+    "UDT_METRIC_KERNEL_COVERAGE.tsv": "b9a8d84d58b60dd6381af6512d89a63c8fa26750f0068e444dd039d329e74bc4",
+    "udt_geometric_response_field_connection_2026-09-13/REVIEWED_RESULT.md": "593c3de470fb009ceaab5a2b012ba05b537231a8ca92c078f26d25e1dac59bde",
+    "udt_geometric_response_field_connection_2026-09-13/review/FINAL_FIDELITY.md": "cffcb7292aa24ac93762d6f88e08de431c130f66c98f32cd5af10b64b2e92229",
+    "udt_native_field_connection_audit_2026-09-13/DECISION_BRIEF.md": "47e9521207377b77a8adb9f918cd31e8f89273877706ab26f001c97f3cd8df1d"
+  },
+  "scope": "Owner-requested method clarification and direction checkpoint; no scientific construction, promotion, premise or canon change.",
+  "fresh_agent_allocations": 0,
+  "runtime_model": "UNATTESTED",
+  "general_capacity": "UNVERIFIED",
+  "protected_payloads": "Not inspected or hashed"
+}

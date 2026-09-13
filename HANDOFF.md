@@ -4,7 +4,7 @@
 ## Current handoff anchor — 2026-09-12
 
 `LIVE.md` wins; exact grades belong to the 406-row `CURRENT_SCIENTIFIC_PREMISES.tsv`.
-Current sources and completed-campaign routes: `INDEX.md`; dependency spine:
+Sources and completed-campaign routes: `INDEX.md`; dependency spine:
 `CURRENT_RESEARCH_PROGRAM.md`. Historical status: `archive/STARTUP_SURFACE_HISTORY.md`.
 
 On a supplied regular calibrated pair, `phi_pair=delta_AB` is DERIVED_CONDITIONAL;
@@ -81,5 +81,5 @@ Availability testing is operational only; the whiteboard's scientific audit is P
 
 Next: G383--G412 exact-scope banking is COMPLETE; G413--G423 banked; BE1/SD1/NR1/NR2/TI3 reviewed conditional UNPROMOTED; OB2 eligibility unresolved: INDEX.
 G312 membership unclosed; G352 physical-realization: physical identification remains OPEN.
-Charles authorized broader-geometry testing and one bounded follow-up; completed; GFC1 reviewed; discussion stop; work order and return gates: roadmap.
+Charles authorized broader-geometry testing and one bounded follow-up; completed; GFC1 conditional; Maxwell emergence unproved, expansion PAUSED; discussion stop; work order and return gates: roadmap.
 <!-- STARTUP_CURRENT_END -->

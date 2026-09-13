@@ -1,14 +1,11 @@
 # UDT Mass Codex — primary working-method authority
 
-Charles canonizes; `CANON.md` requires sign-off. This is an evidence ledger; do not
-strengthen claims.
+Charles canonizes; `CANON.md` requires sign-off. This evidence ledger must not strengthen claims.
 
-This file is the primary method authority. Despite historical names, `CLAUDE.md` and
-`.claude/skills/` are shared instructions in the active Codex/ChatGPT startup chain. Hooks,
-templates, and runtime-specific files are compatibility adapters; none may contradict this file or
-supply scientific premises. Current status comes from the current status documents. Grades belong
-only to exact registry and reviewed sources. Instructions, reminders, checklists, and tests are not scientific
-evidence. A coverage checklist is premise-relative, never an if-and-only-if theorem.
+`CLAUDE.md` and `.claude/skills/` are shared instructions in the active Codex/ChatGPT startup chain.
+Hooks, templates and runtime files are compatibility adapters; none may contradict this authority
+or supply scientific premises. Current documents own status; exact registry and reviewed sources own grades.
+Instructions and tests are not scientific evidence. A coverage checklist is premise-relative, never an if-and-only-if theorem.
 
 ## Mandatory startup
 
@@ -74,7 +71,7 @@ a long solve before that orientation.
 
 ## Scoped synthesis and documentation
 
-After startup, use the maintained checkpoint in `UDT_RESEARCH_ROADMAP.md`; it supplies neither premises nor authorization.
+After startup, `UDT_RESEARCH_ROADMAP.md` tracks direction, not premises or authorization.
 Method instructions, skills, hooks, examples, and dispatch templates do not supply scientific
 premises. Registry sources own grades. Historical field, action, carrier, boundary, topology, and
 finite-cell examples are branch-specific unless current evidence admits them. Checklists
@@ -83,9 +80,9 @@ as methods with hypotheses checked. Do not add a physical premise, replace an eq
 fitted profile, or invent a connection. Mark an unsupported join open.
 
 A labeled draft or candidate-synthesis checkpoint may be saved and committed with snapshot, scope,
-premises, limits and review state, without acceptance. Review documentation in proportion
-to what changed and record omissions. Review neither upgrades evidence nor adopts premises,
-establishes empirical truth or makes canon. A claimed independent reviewer must be an actual separate context.
+premises, limits and review state; saving is not acceptance. Review documentation in proportion
+to what changed; record omissions. Review cannot upgrade evidence, adopt premises or establish
+truth/canon. A claimed independent reviewer must be an actual separate context.
 
 ## Bounded discovery authorization
 
@@ -162,9 +159,13 @@ scale, bootstrap, Maxwell-like, carrier, `X_max`, mass, source, or boundary clai
 
 ## Method
 
-Before computation state the question/quantifier/regime; metric- or template-led frame; every
-physical choice and numerical control; omissions; evidence-appropriate freeze; resources/stops; and
-maximum claim. Use `free-and-explored`, `pinned-by-THEORY` with citation, or `pinned-by-HABIT`.
+**Emergence:** assess current UDT consequences; if unproved, say “not yet established.”
+Conditional labels do not justify substituting a target-matching construction;
+see Charles's 2026-09-13 direction in `UDT_RESEARCH_ROADMAP.md`.
+
+Before computation state question/quantifier/regime, metric- or template-led frame, physical choices,
+numerical controls, omissions, evidence-appropriate freeze, resources/stops and maximum claim.
+Use `free-and-explored`, `pinned-by-THEORY` with citation, or `pinned-by-HABIT`.
 
 Targeted bounded questions are legitimate; hidden answer-fitting is not. A witness may prove scoped
 existence and a counterexample may refute a universal. Neither proves uniqueness, typicality,
@@ -221,5 +222,4 @@ certify stability.
 
 Lead with learning and open scope; separate observation, inference, and canon. For a proposed premise
 or adoption give Charles a lay packet: change, provenance, no-change/alternatives, consequences,
-counterevidence, resources, and exact decision. Approval is authority, not proof. Do not re-ask for
-routine actions already authorized.
+counterevidence, resources, and exact decision. Approval is authority, not proof. Do not re-ask for routine actions already authorized.

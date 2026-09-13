@@ -1,0 +1,30 @@
+{
+  "baseline_head": "9cb7f3550a16aa2b17437707fc528553c391a457",
+  "scope": "Owner-directed working-method clarification; no scientific claim, registry regrading or canon change",
+  "paths": [
+    "AGENTS.md",
+    "CURRENT_RESEARCH_PROGRAM.md",
+    "HANDOFF.md",
+    "LIVE.md",
+    "MEMORY.md",
+    "UDT_RESEARCH_ROADMAP.md",
+    "maintenance_emergence_method_2026-09-13/BASELINE.json",
+    "maintenance_emergence_method_2026-09-13/CHECKS.json",
+    "maintenance_emergence_method_2026-09-13/PUBLISH_PLAN.json",
+    "maintenance_emergence_method_2026-09-13/SHA256SUMS.json",
+    "maintenance_emergence_method_2026-09-13/WORK_RECORD.md",
+    "maintenance_emergence_method_2026-09-13/current_surface.json",
+    "maintenance_emergence_method_2026-09-13/current_surface.stderr",
+    "maintenance_emergence_method_2026-09-13/current_surface.stdout",
+    "maintenance_emergence_method_2026-09-13/current_surface_repaired.json",
+    "maintenance_emergence_method_2026-09-13/current_surface_repaired.stderr",
+    "maintenance_emergence_method_2026-09-13/current_surface_repaired.stdout",
+    "maintenance_emergence_method_2026-09-13/startup_tests.json",
+    "maintenance_emergence_method_2026-09-13/startup_tests.stderr",
+    "maintenance_emergence_method_2026-09-13/startup_tests.stdout",
+    "maintenance_emergence_method_2026-09-13/startup_tests_repaired.json",
+    "maintenance_emergence_method_2026-09-13/startup_tests_repaired.stderr",
+    "maintenance_emergence_method_2026-09-13/startup_tests_repaired.stdout"
+  ],
+  "original_untracked_names_preserved": true
+}

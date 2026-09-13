@@ -1,0 +1,141 @@
+{
+  "recorded_utc": "2026-09-13T16:40:15.933764+00:00",
+  "scope": "Owner-requested method/documentation only; no scientific regrading or new claim.",
+  "captures": {
+    "current_surface": {
+      "command": [
+        "python3",
+        "-c",
+        "from pathlib import Path; import verify_current_scientific_premises as v; v.validate_startup_surface(Path.cwd()); print(\"PASS: current emergence-method startup surface\")"
+      ],
+      "cwd": "/home/udt-admin/udt_mass_codex",
+      "started_utc": "2026-09-13T16:33:24.500720+00:00",
+      "duration_seconds": 0.1794227509526536,
+      "returncode": 1,
+      "timeout": false,
+      "address_space_bytes": 536870912,
+      "cpu_seconds": 60,
+      "maxrss_kib": 55488
+    },
+    "current_surface_repaired": {
+      "command": [
+        "python3",
+        "-c",
+        "from pathlib import Path; import verify_current_scientific_premises as v; v.validate_startup_surface(Path.cwd()); print(\"PASS: current emergence-method startup surface\")"
+      ],
+      "cwd": "/home/udt-admin/udt_mass_codex",
+      "started_utc": "2026-09-13T16:34:06.550629+00:00",
+      "duration_seconds": 0.1428047940135002,
+      "returncode": 0,
+      "timeout": false,
+      "address_space_bytes": 536870912,
+      "cpu_seconds": 60,
+      "maxrss_kib": 30260
+    },
+    "startup_tests": {
+      "command": [
+        "python3",
+        "-m",
+        "pytest",
+        "--noconftest",
+        "-q",
+        "-p",
+        "no:cacheprovider",
+        "tests/test_startup_surface.py",
+        "-k",
+        "not full_foundational_premise_verifier_is_in_pytest"
+      ],
+      "cwd": "/home/udt-admin/udt_mass_codex",
+      "started_utc": "2026-09-13T16:34:14.858271+00:00",
+      "duration_seconds": 15.115030894987285,
+      "returncode": 1,
+      "timeout": false,
+      "address_space_bytes": 536870912,
+      "cpu_seconds": 60,
+      "maxrss_kib": 53748
+    },
+    "startup_tests_repaired": {
+      "command": [
+        "python3",
+        "-m",
+        "pytest",
+        "--noconftest",
+        "-q",
+        "-p",
+        "no:cacheprovider",
+        "tests/test_startup_surface.py",
+        "-k",
+        "not full_foundational_premise_verifier_is_in_pytest"
+      ],
+      "cwd": "/home/udt-admin/udt_mass_codex",
+      "started_utc": "2026-09-13T16:38:27.428846+00:00",
+      "duration_seconds": 15.1007669538958,
+      "returncode": 0,
+      "timeout": false,
+      "address_space_bytes": 536870912,
+      "cpu_seconds": 60,
+      "maxrss_kib": 51940
+    }
+  },
+  "capture_utility": "udt_shared_readout_metric_constraint_campaign_2026-09-06/run_capture.py",
+  "capture_utility_sha256": "8ff5469ace76bdfc84188915242abbf3baff35516f9ee3f9ba4b1cbfeb2573ef",
+  "capture_invocation": "python3 <capture_utility> <absolute_output_prefix> /home/udt-admin/udt_mass_codex <command recorded in each capture>",
+  "thread_environment_for_pytest_only": {
+    "OMP_NUM_THREADS": "1",
+    "OPENBLAS_NUM_THREADS": "1",
+    "MKL_NUM_THREADS": "1"
+  },
+  "python": "3.10.12 (main, Aug 31 2026, 10:18:17) [GCC 11.4.0]",
+  "full_premise_verifier_repeated_in_this_update": false,
+  "attributed_prior_full_audit": "udt_geometric_response_field_connection_2026-09-13/checks/premise406.json",
+  "prior_full_audit_scope": "Earlier actual GFC1 run, not a new run for this method update. No new scientific claim or scientific source/registry/premise change. New startup tests verify final instruction surfaces.",
+  "review": "Parent read final documentation diff against the owner request and existing GFC1/NFCA1 reviewed summaries. No separate-context review claimed or allocated.",
+  "unchanged_scientific_pins": {
+    "CURRENT_SCIENTIFIC_PREMISES.tsv": "7a3d69d5a0bc3ac98e2ebe2bb0c6d029df30071bf403baffed2223a193dc720b",
+    "CANON.md": "047b7fbbc1acacf01d2716e3c98cdefd0b9b20136ac4a3306f55dd6775465250",
+    "UDT_METRIC_KERNEL_DEVELOPMENT.md": "3b625d8f43620a37c99d9f4f0fdc9390c3a12306b1da87281c143ce84d40a81e",
+    "UDT_METRIC_KERNEL_COVERAGE.tsv": "b9a8d84d58b60dd6381af6512d89a63c8fa26750f0068e444dd039d329e74bc4",
+    "udt_geometric_response_field_connection_2026-09-13/REVIEWED_RESULT.md": "593c3de470fb009ceaab5a2b012ba05b537231a8ca92c078f26d25e1dac59bde",
+    "udt_geometric_response_field_connection_2026-09-13/review/FINAL_FIDELITY.md": "cffcb7292aa24ac93762d6f88e08de431c130f66c98f32cd5af10b64b2e92229",
+    "udt_native_field_connection_audit_2026-09-13/DECISION_BRIEF.md": "47e9521207377b77a8adb9f918cd31e8f89273877706ab26f001c97f3cd8df1d"
+  },
+  "final_document_pins": {
+    "AGENTS.md": "68552fe3eea97720ef4384189e68ae124744cc560edaa834212c6feb2e2b76d6",
+    "LIVE.md": "6bf6b08d0f304ef31f3967bcff6a6061b9a2e16043a3db22dd26328a578a67fe",
+    "HANDOFF.md": "e17decd7000f9fd495efcc60d6ec57d206e5eaf07b01e6681963269365a27d44",
+    "CURRENT_RESEARCH_PROGRAM.md": "dbbba07c0adf3d65942f34af40e2ac6d04391649fb90aea82127c7917f977217",
+    "MEMORY.md": "98d6dea9296ef68b1ba81556686a4245049c870aa39e4ac8177299741befaab3",
+    "UDT_RESEARCH_ROADMAP.md": "056ce09ec8eaa6da0ccf3250f8ed6954eb1f87710878bc37bae98b0431db6d9f"
+  },
+  "final_line_word_counts": {
+    "AGENTS.md": {
+      "lines": 225,
+      "words": 1942
+    },
+    "LIVE.md": {
+      "lines": 112,
+      "words": 898
+    },
+    "HANDOFF.md": {
+      "lines": 85,
+      "words": 600
+    },
+    "CURRENT_RESEARCH_PROGRAM.md": {
+      "lines": 117,
+      "words": 1096
+    },
+    "MEMORY.md": {
+      "lines": 55,
+      "words": 450
+    },
+    "UDT_RESEARCH_ROADMAP.md": {
+      "lines": 1062,
+      "words": 9448
+    }
+  },
+  "omissions": [
+    "No mathematical recomputation, solver/GPU suite, native-field derivation, observation fit, or independent scientific review.",
+    "No new automated semantic guard or completeness claim.",
+    "Protected payload contents not inspected or hashed; unrelated preservation is names-only."
+  ]
+}
