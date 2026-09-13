@@ -14,6 +14,36 @@ Current acceptance overlay: earlier UNPROMOTED/campaign-only language below reco
 returns. The G383--G412, G413--G415 and G416--G423 banking packets and maintained checkpoint own later dispositions;
 original result packages remain unchanged. No physical adoption or canon is included.
 
+## Proposed native theory development plan — 2026-09-13
+
+Charles asks for a step-by-step program toward predictive spacetime/cosmology,
+and eventually mass, electromagnetic, quantum and particle physics. His explicit
+correction is **do NOT build this out of scaffolding**. Temporary ansatzes are
+bounded probes; added physical mechanisms do not become native dependencies.
+A dead end must be recorded at its actual scope, without a fabricated repair.
+
+Draft plan: `udt_native_theory_research_plan_2026-09-13/PLAN.md`;
+prospective task graph: its PROPOSED_TASKS.tsv. This is a planning deliverable,
+not an independently reviewed scientific result, premise adoption or dispatch.
+Existing grades, provisional postulates, conditional gains, protected work and
+paused branches are preserved. Current scientific return remains NAP1 below.
+
+Proposed priority: native response/assembly implication -> coherent development
+-> linked predictions -> cosmological sector and independently justified emergence
+questions -> joint empirical evaluation. Reuse CWA1/J01--J13 and GL/RF gains;
+listing already-known missing premises is not new progress. Broad geometry remains
+available when it serves a named question; the NAP1 clock/angular release is an
+unexecuted secondary proposal, not an automatic substitute for native closure.
+
+First proposed packet TC0: at most6hours total, CPU-only, at most2 fresh review
+contexts with exact sub-budgets and same-premise repair. A45minute novelty gate
+must identify one precise source-supported implication beyond completed work;
+otherwise return the existing decision boundary without occupying the remaining
+hours. Exact premises, workspace, resource limits, stops and useful return are
+in PLAN. A longer24/48hour execution needs a bounded successor graph and explicit
+authorization. No persistent goal, schedule, new worker or research solve was
+started by drafting the plan. Stop for discussion; no canon or scientific promotion.
+
 ## NAP1 reviewed native-premise angular audit — 2026-09-13
 
 Charles's next proceed authorized the native-premise audit of LSR1's explicit
