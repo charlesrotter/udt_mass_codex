@@ -1,0 +1,14 @@
+{
+  "utc": "2026-09-13T20:59:06.021052+00:00",
+  "state": "INITIAL_SOURCE_SYNTHESIS_FOR_FRESH_REVIEW; no new mathematical candidate",
+  "source_pins": 54,
+  "drafts": {
+    "udt_field_equation_provenance_and_process_2026-09-13/RECOVERY_REPORT.md": "c1510a3832ae5a4af095708428fee8c5c5fee720c70f375e265fdcb2a724a14e",
+    "udt_field_equation_provenance_and_process_2026-09-13/FIELD_EQUATION_PROCESS.md": "b785e2e93010cf0ad98647dde5c7faaa1de728cba4305b69796c5e2281962163",
+    "udt_field_equation_provenance_and_process_2026-09-13/PROPOSED_NEXT_WORK_ORDER.md": "b0b0ff58c6975a34af1f25321f0ab8eebb55c7ca7d684354ba56a89461bea8eb",
+    "udt_field_equation_provenance_and_process_2026-09-13/ROUTE_LEDGER.tsv": "919858c8bea3382002218309e0d03dee1e65d2dec2527296af3d43ac2d6b73c2",
+    "udt_field_equation_provenance_and_process_2026-09-13/DECISION_BRIEF.md": "7a64556a26864650f95c44aac6137c92e698f9da3533dd2bfbe14a8d003caff6",
+    "udt_field_equation_provenance_and_process_2026-09-13/DEPENDENCY_IMPACT.md": "b651f01d9dc84581035e3ebfdc0dda2782db327ee98609430bd247c14d4a0700",
+    "udt_native_theory_research_plan_2026-09-13/PLAN.md": "da10b31eaca19735521e6218deda0e3a6edfb078d3ee543ae521d420021ec460"
+  }
+}

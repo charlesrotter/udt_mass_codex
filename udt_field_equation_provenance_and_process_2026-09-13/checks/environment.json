@@ -1,0 +1,10 @@
+{
+  "utc": "2026-09-13T21:08:51.166524+00:00",
+  "python": "3.10.12",
+  "platform": "Linux-6.8.0-138-generic-x86_64-with-glibc2.35",
+  "logical_cpus": 24,
+  "physical_memory_bytes": 134828810240,
+  "scientific_compute": "one premise verifier; no new numerical or symbolic scientific solve",
+  "gpu_used": false,
+  "runtime_config_changed": false
+}

@@ -1,0 +1,40 @@
+{
+  "scope": "FEP1 authorized bounded source/process work; continuing top-level",
+  "fresh_allocations_attempted": 2,
+  "fresh_allocations_succeeded": 2,
+  "general_capacity": "UNVERIFIED",
+  "runtime_models": "UNATTESTED",
+  "configured_parent": "gpt-6-astra/xhigh attributed from continuing-session TC0 WORK_RECORD, not resampled or changed in FEP1",
+  "different_model_independence": "UNTESTED",
+  "subdelegation": false,
+  "allocation_limit_recurred": false,
+  "agents": [
+    {
+      "agent": "/root/fep1_historical_sources",
+      "fork_turns": "none",
+      "model_override": null,
+      "start_utc": "2026-09-13T20:44:58+00:00",
+      "end_utc": "2026-09-13T20:51:58+00:00",
+      "elapsed_seconds": 420,
+      "budget_seconds": 1200,
+      "type": "source-first historical recovery, not parent-synthesis review",
+      "checks": "own source/status/hash checks; parent full406 attributed",
+      "overlap_with_parent_full406_seconds": 305.698813
+    },
+    {
+      "agent": "/root/fep1_synthesis_review",
+      "fork_turns": "none",
+      "model_override": null,
+      "start_utc": "2026-09-13T20:54:37+00:00",
+      "end_utc": "2026-09-13T21:05:41+00:00",
+      "elapsed_seconds": 664,
+      "budget_seconds": 1800,
+      "type": "source-first assessment then direct review and R1\u2013R3 repair review",
+      "checks": "own source/status/hash/argument-fidelity checks; no original scientific replay"
+    }
+  ],
+  "agent_to_agent_overlap_seconds": 0,
+  "max_observed_fresh_contexts_including_parent": 2,
+  "overlap_meaning": "Both agents overlapped useful parent work; the two fresh agents did not overlap each other. Allocation intervals use their independently sampled first/last work times, not server queue or billing telemetry.",
+  "recorded_utc": "2026-09-13T21:08:51.166524+00:00"
+}

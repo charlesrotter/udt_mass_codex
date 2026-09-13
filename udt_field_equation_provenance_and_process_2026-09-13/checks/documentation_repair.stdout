@@ -1,0 +1,31 @@
+{
+  "branch_grok": true,
+  "source_pins_disk_and_baseline_match": 55,
+  "fixed_launch_pins_disk_and_baseline_match": 7,
+  "current_scientific_status_unchanged": true,
+  "original_plan_snapshot_exact": true,
+  "initial_review_snapshots_exact": 7,
+  "exact_selected_registry_rows": 19,
+  "unique_routes_with_existing_source": 16,
+  "original_untracked_name_count": 51,
+  "original_untracked_status_sha256": "747cf3c497bfbdf7c373a2aa621be3cb241a61f7ef9f508c39bf64588ff70a60",
+  "tracked_change_scope": [
+    "INDEX.md",
+    "MEMORY.md",
+    "UDT_RESEARCH_ROADMAP.md",
+    "udt_native_theory_research_plan_2026-09-13/PLAN.md"
+  ],
+  "checks/premise406.json": {
+    "returncode": 0,
+    "duration_seconds": 405.0059316760162
+  },
+  "checks/navigation.json": {
+    "returncode": 0,
+    "duration_seconds": 15.132843361003324
+  },
+  "result": "PASS_DOCUMENTARY_CORRESPONDENCE_ONLY",
+  "utc": "2026-09-13T21:07:31.667415+00:00",
+  "baseline_head": "5f870140237ce1982609e29b3d6722f54ce70c29",
+  "python": "3.10.12 (main, Aug 31 2026, 10:18:17) [GCC 11.4.0]",
+  "platform": "Linux-6.8.0-138-generic-x86_64-with-glibc2.35"
+}

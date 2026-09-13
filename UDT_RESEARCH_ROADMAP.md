@@ -14,6 +14,32 @@ Current acceptance overlay: earlier UNPROMOTED/campaign-only language below reco
 returns. The G383--G412, G413--G415 and G416--G423 banking packets and maintained checkpoint own later dispositions;
 original result packages remain unchanged. No physical adoption or canon is included.
 
+## Field-equation recovery and process — FEP1, 2026-09-13
+
+Charles now asks to recover past equation attempts and develop the process of
+creating or deriving UDT field equations. The current packet is
+`udt_field_equation_provenance_and_process_2026-09-13/DECISION_BRIEF.md`;
+its RECOVERY_REPORT, ROUTE_LEDGER and FIELD_EQUATION_PROCESS preserve exact scope.
+The maintained `udt_native_theory_research_plan_2026-09-13/PLAN.md` is updated in
+place; its original planning and TC0 evidence remains snapshot-bound in Git.
+
+The recovered routes distinguish corrected sign/variation mistakes from valid
+conditional mathematics and superseded premise ownership. G255's exact earlier
+recovery is reused, not repeated or expanded into a universal no-go. DDR and
+Local Metric Sufficiency remain owner-provisional; current G312 keeps GR FILTER
+ONLY. Law and legitimate variations must be defined together. Response-first is
+a pragmatic recommendation; action-first remains eligible with explicit premises.
+
+Current sequence: dynamical principle -> specified equations -> consistency and
+development -> linked predictions -> tests -> justified extensions. The proposed
+FE1 work order is one two-hour principle/equation packet, with an early motivation
+gate and one fresh reviewer. It may derive a connection or prepare an explicitly
+unadopted UDT-motivated hypothesis for Charles's decision. The existing conditional
+trace-free Ricci reference gets the same motivation gate as alternatives and
+cannot win by default. No scientific promotion, physical adoption or FE1 execution
+is included in FEP1. This process supersedes TC0's derive-only successor restriction
+for the proposed hypothesis-design task; TC0's completed stop remains intact.
+
 ## Native theory plan and TC0 early return — 2026-09-13
 
 Charles asks for a step-by-step program toward predictive spacetime/cosmology,
