@@ -1,0 +1,351 @@
+{
+  "scope": "four exact supplied witness/probe cases; analytic arguments own general dependencies",
+  "implementation": "fresh Fraction matrix/first-derivative implementation; no parent scientific import",
+  "python": "3.10.12",
+  "cases": [
+    {
+      "case": "off_axis_0",
+      "h": [
+        [
+          "-1",
+          "0"
+        ],
+        [
+          "0",
+          "1"
+        ]
+      ],
+      "m_squared": "1",
+      "h_s": [
+        [
+          "-1",
+          "0"
+        ],
+        [
+          "0",
+          "1"
+        ]
+      ],
+      "chi": "0",
+      "F_ux": "4"
+    },
+    {
+      "case": "off_axis_1/8",
+      "h": [
+        [
+          "-7/8",
+          "0"
+        ],
+        [
+          "0",
+          "1"
+        ]
+      ],
+      "m_squared": "7/8",
+      "h_s": [
+        [
+          "-7/8",
+          "0"
+        ],
+        [
+          "0",
+          "8/7"
+        ]
+      ],
+      "chi": "1/15",
+      "F_ux": "4"
+    },
+    {
+      "case": "center_0",
+      "h": [
+        [
+          "-3",
+          "0"
+        ],
+        [
+          "0",
+          "1"
+        ]
+      ],
+      "m_squared": "3",
+      "h_s": [
+        [
+          "-3",
+          "0"
+        ],
+        [
+          "0",
+          "1/3"
+        ]
+      ],
+      "chi": "-1/2",
+      "F_ux": "4"
+    },
+    {
+      "case": "center_1/8",
+      "h": [
+        [
+          "-3",
+          "0"
+        ],
+        [
+          "0",
+          "1"
+        ]
+      ],
+      "m_squared": "3",
+      "h_s": [
+        [
+          "-3",
+          "0"
+        ],
+        [
+          "0",
+          "1/3"
+        ]
+      ],
+      "chi": "-1/2",
+      "F_ux": "4"
+    }
+  ],
+  "checks": [
+    {
+      "name": "off_axis_0_inverse_identity",
+      "pass": true
+    },
+    {
+      "name": "off_axis_0_full_pullback",
+      "pass": true
+    },
+    {
+      "name": "off_axis_0_regular",
+      "pass": true
+    },
+    {
+      "name": "off_axis_0_diagonal",
+      "pass": true
+    },
+    {
+      "name": "off_axis_0_completed_det",
+      "pass": true
+    },
+    {
+      "name": "off_axis_0_density_inverse",
+      "pass": true
+    },
+    {
+      "name": "off_axis_0_chi",
+      "pass": true
+    },
+    {
+      "name": "off_axis_0_lowered_K",
+      "pass": true
+    },
+    {
+      "name": "off_axis_0_exterior_full",
+      "pass": true
+    },
+    {
+      "name": "off_axis_0_raised_full",
+      "pass": true
+    },
+    {
+      "name": "off_axis_0_null_contraction",
+      "pass": true
+    },
+    {
+      "name": "off_axis_0_fixed_metric_K_rescale",
+      "pass": true
+    },
+    {
+      "name": "off_axis_0_F_rescale",
+      "pass": true
+    },
+    {
+      "name": "off_axis_0_fixed_J_rescale",
+      "pass": true
+    },
+    {
+      "name": "off_axis_1/8_inverse_identity",
+      "pass": true
+    },
+    {
+      "name": "off_axis_1/8_full_pullback",
+      "pass": true
+    },
+    {
+      "name": "off_axis_1/8_regular",
+      "pass": true
+    },
+    {
+      "name": "off_axis_1/8_diagonal",
+      "pass": true
+    },
+    {
+      "name": "off_axis_1/8_completed_det",
+      "pass": true
+    },
+    {
+      "name": "off_axis_1/8_density_inverse",
+      "pass": true
+    },
+    {
+      "name": "off_axis_1/8_chi",
+      "pass": true
+    },
+    {
+      "name": "off_axis_1/8_lowered_K",
+      "pass": true
+    },
+    {
+      "name": "off_axis_1/8_exterior_full",
+      "pass": true
+    },
+    {
+      "name": "off_axis_1/8_raised_full",
+      "pass": true
+    },
+    {
+      "name": "off_axis_1/8_null_contraction",
+      "pass": true
+    },
+    {
+      "name": "off_axis_1/8_fixed_metric_K_rescale",
+      "pass": true
+    },
+    {
+      "name": "off_axis_1/8_F_rescale",
+      "pass": true
+    },
+    {
+      "name": "off_axis_1/8_fixed_J_rescale",
+      "pass": true
+    },
+    {
+      "name": "center_0_inverse_identity",
+      "pass": true
+    },
+    {
+      "name": "center_0_full_pullback",
+      "pass": true
+    },
+    {
+      "name": "center_0_regular",
+      "pass": true
+    },
+    {
+      "name": "center_0_diagonal",
+      "pass": true
+    },
+    {
+      "name": "center_0_completed_det",
+      "pass": true
+    },
+    {
+      "name": "center_0_density_inverse",
+      "pass": true
+    },
+    {
+      "name": "center_0_chi",
+      "pass": true
+    },
+    {
+      "name": "center_0_lowered_K",
+      "pass": true
+    },
+    {
+      "name": "center_0_exterior_full",
+      "pass": true
+    },
+    {
+      "name": "center_0_raised_full",
+      "pass": true
+    },
+    {
+      "name": "center_0_null_contraction",
+      "pass": true
+    },
+    {
+      "name": "center_0_fixed_metric_K_rescale",
+      "pass": true
+    },
+    {
+      "name": "center_0_F_rescale",
+      "pass": true
+    },
+    {
+      "name": "center_0_fixed_J_rescale",
+      "pass": true
+    },
+    {
+      "name": "center_1/8_inverse_identity",
+      "pass": true
+    },
+    {
+      "name": "center_1/8_full_pullback",
+      "pass": true
+    },
+    {
+      "name": "center_1/8_regular",
+      "pass": true
+    },
+    {
+      "name": "center_1/8_diagonal",
+      "pass": true
+    },
+    {
+      "name": "center_1/8_completed_det",
+      "pass": true
+    },
+    {
+      "name": "center_1/8_density_inverse",
+      "pass": true
+    },
+    {
+      "name": "center_1/8_chi",
+      "pass": true
+    },
+    {
+      "name": "center_1/8_lowered_K",
+      "pass": true
+    },
+    {
+      "name": "center_1/8_exterior_full",
+      "pass": true
+    },
+    {
+      "name": "center_1/8_raised_full",
+      "pass": true
+    },
+    {
+      "name": "center_1/8_null_contraction",
+      "pass": true
+    },
+    {
+      "name": "center_1/8_fixed_metric_K_rescale",
+      "pass": true
+    },
+    {
+      "name": "center_1/8_F_rescale",
+      "pass": true
+    },
+    {
+      "name": "center_1/8_fixed_J_rescale",
+      "pass": true
+    },
+    {
+      "name": "density_deletion_changes_off_axis_ruler",
+      "pass": true
+    },
+    {
+      "name": "wrong_depth_sign_changes_nonzero_chi",
+      "pass": true
+    },
+    {
+      "name": "shape_guard_rejects_unequal_lengths",
+      "pass": true
+    }
+  ],
+  "passed": 59,
+  "total": 59
+}

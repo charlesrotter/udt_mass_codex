@@ -1,0 +1,11 @@
+{
+  "recorded_utc": "2026-09-13T13:59:10.703492+00:00",
+  "stage": "pre-execution; candidate-exposed; parent-new-check outcomes unexposed",
+  "files": {
+    "INITIAL_AUDIT.md": "cf49459ad27fc1ed6d91f250fcecb9ed3dfb7d3cbaa26e358f2cc364d73a0728",
+    "SOURCE_PINS.json": "8415bdc254b75a502a2eea99211bad0976ec972584b657abd686eb77238cbf04",
+    "review/INDEPENDENT_SCOPE.md": "0b9dac9896d6edd8b05c5dba48de860d785f7b10db36fc07bb4d8b91ad26de8e",
+    "review/independent_connection_check.py": "3dae104e6bda988f69f55a56775ee286b1ef942b14bdc4abea875ca3f2de3efc",
+    "review/SOURCE_FIRST.md": "3fa386f1136b1882042d7097d4736c86473c62f6b9df8ab9704ec6bd693d1178"
+  }
+}

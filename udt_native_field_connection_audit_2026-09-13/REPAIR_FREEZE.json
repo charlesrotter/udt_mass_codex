@@ -1,0 +1,10 @@
+{
+  "utc": "2026-09-13T13:59:32.636389+00:00",
+  "scope": "exact integer representation repair and three helper controls, no scientific changes",
+  "pins": {
+    "CHECK_REPAIR.md": "398c2f6ccf7f8ce731f95f99fc9f8432af0e9896d0fd132cdb1a9d3c4c127cfc",
+    "check_connection_repaired.py": "cff142dde3981219f20d50633bf84738ab0e804474235aea9983b855b81ac937",
+    "checks/connection.json": "35d98f3bdcae09f4e8209a5b01b26779ef78d8d8d56a00f23bb3ec0de1997b94",
+    "checks/connection.stderr": "3d7a1ed8f0023191215275346e8e43c53653881db95d872710770ac40dcbab18"
+  }
+}

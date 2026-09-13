@@ -1,0 +1,379 @@
+{
+  "kind": "exact original-pullback and exterior-derivative witnesses, plus existing density-loss control; not new general proof",
+  "python": "3.10.12",
+  "sympy": "1.13.1",
+  "checks": [
+    {
+      "name": "python_integer_zero_supported",
+      "pass": true
+    },
+    {
+      "name": "python_integer_nonzero_retained",
+      "pass": true
+    },
+    {
+      "name": "shape_mismatch_rejected",
+      "pass": true
+    },
+    {
+      "name": "full_metric_determinant",
+      "pass": true,
+      "shape": [
+        1,
+        1
+      ],
+      "residuals": [
+        "0"
+      ]
+    },
+    {
+      "name": "supplied_pair_rank",
+      "pass": true,
+      "shape": [
+        1,
+        1
+      ],
+      "residuals": [
+        "0"
+      ]
+    },
+    {
+      "name": "full_original_pullback",
+      "pass": true,
+      "shape": [
+        4,
+        4
+      ],
+      "residuals": [
+        "0",
+        "0",
+        "0",
+        "0"
+      ]
+    },
+    {
+      "name": "full_lowering",
+      "pass": true,
+      "shape": [
+        4,
+        4
+      ],
+      "residuals": [
+        "0",
+        "0",
+        "0",
+        "0"
+      ]
+    },
+    {
+      "name": "original_exterior_field",
+      "pass": true,
+      "shape": [
+        16,
+        16
+      ],
+      "residuals": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ]
+    },
+    {
+      "name": "same_field_under_cubic_change",
+      "pass": true,
+      "shape": [
+        16,
+        16
+      ],
+      "residuals": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ]
+    },
+    {
+      "name": "generator_rescaling_changes_field",
+      "pass": true,
+      "shape": [
+        16,
+        16
+      ],
+      "residuals": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ]
+    },
+    {
+      "name": "nonzero_field_rescaling_at_u1",
+      "pass": true
+    },
+    {
+      "name": "epsilon_0_regular_pair",
+      "pass": true
+    },
+    {
+      "name": "epsilon_0_completed_determinant",
+      "pass": true,
+      "shape": [
+        1,
+        1
+      ],
+      "residuals": [
+        "0"
+      ]
+    },
+    {
+      "name": "epsilon_0_reconstruct_original_pullback",
+      "pass": true,
+      "shape": [
+        4,
+        4
+      ],
+      "residuals": [
+        "0",
+        "0",
+        "0",
+        "0"
+      ]
+    },
+    {
+      "name": "epsilon_0_kernel_from_log_tanh",
+      "pass": true,
+      "shape": [
+        1,
+        1
+      ],
+      "residuals": [
+        "0"
+      ]
+    },
+    {
+      "name": "epsilon_0_full_field_unchanged",
+      "pass": true,
+      "shape": [
+        16,
+        16
+      ],
+      "residuals": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ]
+    },
+    {
+      "name": "epsilon_0_different_unit_clock_query",
+      "pass": true,
+      "shape": [
+        1,
+        1
+      ],
+      "residuals": [
+        "0"
+      ]
+    },
+    {
+      "name": "epsilon_1_8_regular_pair",
+      "pass": true
+    },
+    {
+      "name": "epsilon_1_8_completed_determinant",
+      "pass": true,
+      "shape": [
+        1,
+        1
+      ],
+      "residuals": [
+        "0"
+      ]
+    },
+    {
+      "name": "epsilon_1_8_reconstruct_original_pullback",
+      "pass": true,
+      "shape": [
+        4,
+        4
+      ],
+      "residuals": [
+        "0",
+        "0",
+        "0",
+        "0"
+      ]
+    },
+    {
+      "name": "epsilon_1_8_kernel_from_log_tanh",
+      "pass": true,
+      "shape": [
+        1,
+        1
+      ],
+      "residuals": [
+        "0"
+      ]
+    },
+    {
+      "name": "epsilon_1_8_full_field_unchanged",
+      "pass": true,
+      "shape": [
+        16,
+        16
+      ],
+      "residuals": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ]
+    },
+    {
+      "name": "epsilon_1_8_different_unit_clock_query",
+      "pass": true,
+      "shape": [
+        1,
+        1
+      ],
+      "residuals": [
+        "0"
+      ]
+    },
+    {
+      "name": "central_full_pullback_for_all_epsilon",
+      "pass": true,
+      "shape": [
+        4,
+        4
+      ],
+      "residuals": [
+        "0",
+        "0",
+        "0",
+        "0"
+      ]
+    },
+    {
+      "name": "central_kernel_for_all_epsilon",
+      "pass": true,
+      "shape": [
+        1,
+        1
+      ],
+      "residuals": [
+        "0"
+      ]
+    },
+    {
+      "name": "density_deleted_completed_records_equal",
+      "pass": true,
+      "shape": [
+        4,
+        4
+      ],
+      "residuals": [
+        "0",
+        "0",
+        "0",
+        "0"
+      ]
+    },
+    {
+      "name": "original_pullbacks_different_despite_normalized_equality",
+      "pass": true
+    },
+    {
+      "name": "dropping_density_breaks_reconstruction",
+      "pass": true
+    }
+  ],
+  "count": 28,
+  "passed": 28,
+  "all_pass": true,
+  "records": [
+    {
+      "epsilon": "0",
+      "h": "Matrix([[-1, 0], [0, 1]])",
+      "m": "1",
+      "h_s": "Matrix([[-1, 0], [0, 1]])",
+      "Phi": "0",
+      "chi": "0",
+      "F": "Matrix([[0, 0, 4, 0], [0, 0, 0, 0], [-4, 0, 0, 0], [0, 0, 0, 0]])",
+      "unit_normalized_query_chi": "0, different J/protocol"
+    },
+    {
+      "epsilon": "1/8",
+      "h": "Matrix([[-7/8, 0], [0, 1]])",
+      "m": "sqrt(14)/4",
+      "h_s": "Matrix([[-7/8, 0], [0, 8/7]])",
+      "Phi": "-log(7/8)/2",
+      "chi": "1/15",
+      "F": "Matrix([[0, 0, 4, 0], [0, 0, 0, 0], [-4, 0, 0, 0], [0, 0, 0, 0]])",
+      "unit_normalized_query_chi": "0, different J/protocol"
+    }
+  ],
+  "code_sha256": "cff142dde3981219f20d50633bf84738ab0e804474235aea9983b855b81ac937",
+  "limits": "same auxiliary J and calibration marking; T is not a unit observer; all-pair fixed-g independence is an analytic dependency statement; no physical field/shift or UDT admission claimed"
+}

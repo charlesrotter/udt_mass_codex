@@ -1,0 +1,15 @@
+{
+  "utc": "2026-09-13T13:58:49.722699+00:00",
+  "history": "Initial audit drafted before reviewer findings. Before this formal check freeze, source-first agreement and direct hand verification of sectionC were received; no new parent mathematical code outcome seen. Exposed audit verification, not blind discovery.",
+  "question": "same-premise original-metric/pair/field witness and source-preserving dependency classification",
+  "parameters": "existing NR2 full metric, epsilon0/1/8; u1,x1,y0 and central sheet; fixed auxiliary J=(du+3dv/2,dx), original K and2K; calibration explicitly supplied",
+  "checks": "original pullback/exterior derivative, regularity/completed determinant/reconstruction, exact log-tanh kernel, changed unit-query control and retained-density control; no floats/tolerances",
+  "resources": "CPUone thread/process180s2048MiB; full406 separatelycompleted",
+  "pins": {
+    "WORK_ORDER.md": "168201f628982fdddbc01b4b57f4e746073cd67bbb30d4f8fa74705c6a0c4ac0",
+    "SOURCE_PINS.json": "8415bdc254b75a502a2eea99211bad0976ec972584b657abd686eb77238cbf04",
+    "SOURCE_MAP.md": "a5e2cd5b11a7c7ae4697828c5aa3e8288bd866ba11fa36a8eb124dead1fc9a76",
+    "INITIAL_AUDIT.md": "cf49459ad27fc1ed6d91f250fcecb9ed3dfb7d3cbaa26e358f2cc364d73a0728",
+    "check_connection.py": "7bd0bfcfe5bd9923ad9c24731e587dd308ca3f3d7a46eebf0f685ffc90d527b8"
+  }
+}

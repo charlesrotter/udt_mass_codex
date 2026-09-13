@@ -1,0 +1,94 @@
+{
+  "recorded_utc": "2026-09-13T14:09:45.334345+00:00",
+  "scope": "Bounded captured operations only; uncaptured administrative/source-reading commands are not a complete CPU census. Reviewer-context overlap is separately recorded in its final receipt.",
+  "intervals": [
+    {
+      "capture": "checks/connection.json",
+      "context": "parent",
+      "start_utc": "2026-09-13T13:58:49.740104+00:00",
+      "end_utc": "2026-09-13T13:58:49.921416+00:00",
+      "seconds": 0.18131242005620152,
+      "exit": 1,
+      "command": [
+        "python3",
+        "udt_native_field_connection_audit_2026-09-13/check_connection.py",
+        "udt_native_field_connection_audit_2026-09-13/CONNECTION_RESULT.json"
+      ]
+    },
+    {
+      "capture": "checks/connection_repaired.json",
+      "context": "parent",
+      "start_utc": "2026-09-13T13:59:32.655740+00:00",
+      "end_utc": "2026-09-13T13:59:32.831559+00:00",
+      "seconds": 0.17581911804154515,
+      "exit": 0,
+      "command": [
+        "python3",
+        "udt_native_field_connection_audit_2026-09-13/check_connection_repaired.py",
+        "udt_native_field_connection_audit_2026-09-13/CONNECTION_RESULT.json"
+      ]
+    },
+    {
+      "capture": "checks/current_surface.json",
+      "context": "parent",
+      "start_utc": "2026-09-13T14:08:23.494309+00:00",
+      "end_utc": "2026-09-13T14:08:23.680995+00:00",
+      "seconds": 0.18668554606847465,
+      "exit": 0,
+      "command": [
+        "python3",
+        "-c",
+        "from pathlib import Path; import verify_current_scientific_premises as v; v.validate_startup_surface(Path.cwd()); print(\"PASS: actual NFCA1 current startup surface\")"
+      ]
+    },
+    {
+      "capture": "checks/navigation.json",
+      "context": "parent",
+      "start_utc": "2026-09-13T14:08:29.337300+00:00",
+      "end_utc": "2026-09-13T14:08:44.497864+00:00",
+      "seconds": 15.160564434947446,
+      "exit": 0,
+      "command": [
+        "python3",
+        "-m",
+        "pytest",
+        "--noconftest",
+        "-q",
+        "-p",
+        "no:cacheprovider",
+        "tests/test_startup_surface.py",
+        "-k",
+        "not full_foundational_premise_verifier_is_in_pytest"
+      ]
+    },
+    {
+      "capture": "checks/premise406.json",
+      "context": "parent",
+      "start_utc": "2026-09-13T13:46:46.828948+00:00",
+      "end_utc": "2026-09-13T13:53:30.243728+00:00",
+      "seconds": 403.4147800139617,
+      "exit": 0,
+      "command": [
+        "python3",
+        "verify_current_scientific_premises.py"
+      ]
+    },
+    {
+      "capture": "review/independent_capture.json",
+      "context": "reviewer",
+      "start_utc": "2026-09-13T13:59:28.385872+00:00",
+      "end_utc": "2026-09-13T13:59:28.411411+00:00",
+      "seconds": 0.02553936594631523,
+      "exit": 0,
+      "command": [
+        "python3",
+        "udt_native_field_connection_audit_2026-09-13/review/independent_connection_check.py",
+        "udt_native_field_connection_audit_2026-09-13/review/INDEPENDENT_RESULT.json"
+      ]
+    }
+  ],
+  "captured_process_overlaps": [],
+  "same_context_overlap_detected": false,
+  "runtime_model": "UNATTESTED",
+  "general_capacity": "UNVERIFIED"
+}

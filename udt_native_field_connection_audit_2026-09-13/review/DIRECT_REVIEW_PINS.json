@@ -1,0 +1,21 @@
+{
+  "recorded_utc": "2026-09-13T14:02:51.990934+00:00",
+  "verdict": "scientific VERIFIED-WITH-CAVEATS; frozen covector shorthand clarification pending final fidelity",
+  "pins": {
+    "INITIAL_AUDIT.md": "cf49459ad27fc1ed6d91f250fcecb9ed3dfb7d3cbaa26e358f2cc364d73a0728",
+    "SOURCE_MAP.md": "a5e2cd5b11a7c7ae4697828c5aa3e8288bd866ba11fa36a8eb124dead1fc9a76",
+    "CANDIDATE_FREEZE.json": "4531f6d5d761ac4f9e8e9818da83df0a3b279ce392c3977fd779cd0cc8d03afc",
+    "CHECK_REPAIR.md": "398c2f6ccf7f8ce731f95f99fc9f8432af0e9896d0fd132cdb1a9d3c4c127cfc",
+    "REPAIR_FREEZE.json": "50b4178b043678dc4483ed51129d9df13e47f433b577f88b7068dd330ed50237",
+    "check_connection.py": "7bd0bfcfe5bd9923ad9c24731e587dd308ca3f3d7a46eebf0f685ffc90d527b8",
+    "check_connection_repaired.py": "cff142dde3981219f20d50633bf84738ab0e804474235aea9983b855b81ac937",
+    "CONNECTION_RESULT.json": "00419b35030d76fd385a497c2444d72435120acf515f9756f98f47d9a20f7051",
+    "checks/connection.json": "35d98f3bdcae09f4e8209a5b01b26779ef78d8d8d56a00f23bb3ec0de1997b94",
+    "checks/connection.stderr": "3d7a1ed8f0023191215275346e8e43c53653881db95d872710770ac40dcbab18",
+    "checks/connection_repaired.json": "ad01e1c5ee2c3c8f1171327cccd809989bb88f64e23f1b2a2251761af928a7b0",
+    "review/INDEPENDENT_RESULT.json": "c5563f7fc863a0d51d5699a903c7b9f806f9a0d49de848b23aa96dd1c78fd522",
+    "review/INDEPENDENT_FREEZE.json": "5a8a465c5404a4a9252128c013168335e6e0d4133a6e5e798c474d50466a9c7b",
+    "review/independent_capture.json": "0c7e35bd98758a3b358e94ca6ae7166d6551453143d5c7538018a84f0ae0a991",
+    "review/DIRECT_REVIEW.md": "ab571aaae80280631ad2378a6787e07aa7f32a8d1ca88e33527724d693208d19"
+  }
+}

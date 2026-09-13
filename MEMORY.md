@@ -46,8 +46,8 @@ Fixed manuscript/coverage is the through-G352 edition, not the current frontier.
 Session transition: `HANDOFF.md`.
 
 Banking through G382 is complete; G312 membership unclosed, G352 physical identification OPEN.
-Consolidated gains/gates: `UDT_CONSOLIDATED_RESEARCH_ACCOUNT.md`; roadmap owns dispositions and reviewed NR2.
-NR2 checked/reviewed with bounded repairs; stop for discussion; no successor authorized.
+Consolidated gains/gates: `UDT_CONSOLIDATED_RESEARCH_ACCOUNT.md`; roadmap owns dispositions and NFCA1 connection audit.
+Metric/kernel bridge retained; field identity OPEN; automatic field expansion paused; discussion stop.
 
 Backup completeness/pre-reboot unsaved state remain UNVERIFIED; ScratchDisk archive-only.
 R2--R5 remain verified with caveats;184,300 covariance rows unresolved, no preferred scale.

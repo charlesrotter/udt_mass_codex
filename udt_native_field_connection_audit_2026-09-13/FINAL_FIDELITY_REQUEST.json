@@ -1,0 +1,30 @@
+{
+  "recorded_utc": "2026-09-13T14:09:45.334482+00:00",
+  "scope": "final summary/navigation fidelity; direct scientific review completed; publication pending",
+  "package_pins": {
+    "WORK_ORDER.md": "168201f628982fdddbc01b4b57f4e746073cd67bbb30d4f8fa74705c6a0c4ac0",
+    "INITIAL_AUDIT.md": "cf49459ad27fc1ed6d91f250fcecb9ed3dfb7d3cbaa26e358f2cc364d73a0728",
+    "CHECK_REPAIR.md": "398c2f6ccf7f8ce731f95f99fc9f8432af0e9896d0fd132cdb1a9d3c4c127cfc",
+    "NOTATION_CLARIFICATION.md": "3753b06ac36cbc1692597fe31aae3a71bdccdefea0c4935b6537915d049c1e41",
+    "FINAL_WORDING_REPAIR.md": "14ecb7c1e3c3a407b7e82b43fe89fa6b3db24523a00651321b0d5e76681d65b7",
+    "REVIEWED_AUDIT.md": "c0cf9a2221f929fbb2a0c3c5ca93985bfeb0de814e0166883b9837dc620b10cd",
+    "DECISION_BRIEF.md": "47e9521207377b77a8adb9f918cd31e8f89273877706ab26f001c97f3cd8df1d",
+    "DEPENDENCY_MAP.md": "c1d19ceed0ef586f388e5fbbb4fcf7905eb76fe8428391cc4d384d5bd83d1609",
+    "CONNECTION_LEDGER.tsv": "a8ae89a0f209e4250c85f30b1ee202b22ec19f2f3e33ce1aa63a35a489bfa06c",
+    "README.md": "cf9a9299711b983bddcb8e7fb29c128a9cc7312c18015982515a20347a7caea3",
+    "CLOSEOUT.md": "2913863102944b049f2157c9afe8ddc4e6a5a9cf6c71b899523a05096224cf25",
+    "CHECKPOINT.md": "b3ea2c8449da4b77580970f37489b69ea58432ded40d59f21e93029bfb6a9bd2",
+    "PRESERVATION.json": "25cc937428ec3bf2e69bc55dbe2f2559c451f17d058e6a43b29ab3a40d76334d",
+    "AUDIT_REUSE.json": "dcfb82d851caa8f7f4a9e693f4b7d97ddbafb31ae0287ad9e7971a9079d360e4",
+    "EXECUTION_INTERVALS.json": "d127ea6899dcb0cf4c25dbf4c988ca4b8d691787c8ce474b13db022edb838f4b"
+  },
+  "navigation_pins": {
+    "CURRENT_RESEARCH_PROGRAM.md": "cb8389d2ad8be4358b6e8194b3fe3da6b234bbf1ef9d4a322573ed8ef7319728",
+    "HANDOFF.md": "d16e59be9fecb2523e2ce6d62663e832f409cf6b8cf3fc6b194f7903a87fa57f",
+    "INDEX.md": "1431ca76b59be5ebc745105b6b92feb2e38912432e0ccd8de5a00e10e7fda38e",
+    "LIVE.md": "5cbe2ff457b1989868301282b3716e785b669eb880816c132f3f93202d5e4d56",
+    "MEMORY.md": "a8fcfe77bdb8eb0bc3265d5f8b790d1004c38e2b9f4fa5f5199643286b7e3f8e",
+    "UDT_RESEARCH_ROADMAP.md": "75a239a81a2c30d19a3d703dd987714c987d5708dcde898af17374aa65c56ee6"
+  },
+  "future_only": "reviewer final verdict/pins/receipt; parent factual post-review interval/gate, manifests/publication and checkpoint completion without changed scientific text"
+}

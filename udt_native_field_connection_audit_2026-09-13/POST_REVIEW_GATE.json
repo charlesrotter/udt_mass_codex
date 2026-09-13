@@ -1,0 +1,23 @@
+{
+  "recorded_utc": "2026-09-13T14:17:51.036548+00:00",
+  "all_final_package_pins_match": 50,
+  "all_final_navigation_pins_match": 6,
+  "review_receipt_sha256": "5b5de809573a2ac0d20555f71fff4c435f94138cd97884239f7213a9810141fe",
+  "review_receipt_report_pins_match": true,
+  "verdict": "FIDELITY_REVIEWED__VERIFIED_WITH_CAVEATS__CONDITIONAL_UNPROMOTED",
+  "actual_review_end": "2026-09-13T14:14:52.270565+00:00",
+  "conservative_review_elapsed_seconds": 1363.270565,
+  "fresh_prepublication_fetch": "checks/prepublication_fetch.json: exit0; refs unchanged",
+  "git_diff_check": {
+    "command": [
+      "git",
+      "diff",
+      "--check"
+    ],
+    "exit": 0,
+    "stdout": "",
+    "stderr": ""
+  },
+  "markdown_extra_terminal_blank_line_check": "PASS across own package only",
+  "subsequent_scope": "exact allowlisted publication and factual receipt/checkpoint completion only; no science/navigation mutation or promotion"
+}

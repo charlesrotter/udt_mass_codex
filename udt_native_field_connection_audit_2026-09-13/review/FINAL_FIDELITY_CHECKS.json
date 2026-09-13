@@ -1,0 +1,219 @@
+{
+  "recorded_utc": "2026-09-13T14:11:41.077827+00:00",
+  "scope": "independent final byte/navigation/status fidelity only; no new scientific computation",
+  "effective_package_pins": {
+    "WORK_ORDER.md": "168201f628982fdddbc01b4b57f4e746073cd67bbb30d4f8fa74705c6a0c4ac0",
+    "INITIAL_AUDIT.md": "cf49459ad27fc1ed6d91f250fcecb9ed3dfb7d3cbaa26e358f2cc364d73a0728",
+    "CHECK_REPAIR.md": "398c2f6ccf7f8ce731f95f99fc9f8432af0e9896d0fd132cdb1a9d3c4c127cfc",
+    "NOTATION_CLARIFICATION.md": "3753b06ac36cbc1692597fe31aae3a71bdccdefea0c4935b6537915d049c1e41",
+    "FINAL_WORDING_REPAIR.md": "14ecb7c1e3c3a407b7e82b43fe89fa6b3db24523a00651321b0d5e76681d65b7",
+    "REVIEWED_AUDIT.md": "c0cf9a2221f929fbb2a0c3c5ca93985bfeb0de814e0166883b9837dc620b10cd",
+    "DECISION_BRIEF.md": "47e9521207377b77a8adb9f918cd31e8f89273877706ab26f001c97f3cd8df1d",
+    "DEPENDENCY_MAP.md": "c1d19ceed0ef586f388e5fbbb4fcf7905eb76fe8428391cc4d384d5bd83d1609",
+    "CONNECTION_LEDGER.tsv": "a8ae89a0f209e4250c85f30b1ee202b22ec19f2f3e33ce1aa63a35a489bfa06c",
+    "README.md": "cf9a9299711b983bddcb8e7fb29c128a9cc7312c18015982515a20347a7caea3",
+    "CLOSEOUT.md": "2913863102944b049f2157c9afe8ddc4e6a5a9cf6c71b899523a05096224cf25",
+    "CHECKPOINT.md": "b3ea2c8449da4b77580970f37489b69ea58432ded40d59f21e93029bfb6a9bd2",
+    "PRESERVATION.json": "25cc937428ec3bf2e69bc55dbe2f2559c451f17d058e6a43b29ab3a40d76334d",
+    "AUDIT_REUSE.json": "dcfb82d851caa8f7f4a9e693f4b7d97ddbafb31ae0287ad9e7971a9079d360e4",
+    "EXECUTION_INTERVALS.json": "d127ea6899dcb0cf4c25dbf4c988ca4b8d691787c8ce474b13db022edb838f4b",
+    "FINAL_AUTHORIZATION_CLARIFICATION.md": "b7b53881565d59533db575148f359f8a6e03985e52a46434ff22afe1b4564917"
+  },
+  "effective_navigation_pins": {
+    "CURRENT_RESEARCH_PROGRAM.md": "cb8389d2ad8be4358b6e8194b3fe3da6b234bbf1ef9d4a322573ed8ef7319728",
+    "HANDOFF.md": "d16e59be9fecb2523e2ce6d62663e832f409cf6b8cf3fc6b194f7903a87fa57f",
+    "INDEX.md": "1431ca76b59be5ebc745105b6b92feb2e38912432e0ccd8de5a00e10e7fda38e",
+    "LIVE.md": "5cbe2ff457b1989868301282b3716e785b669eb880816c132f3f93202d5e4d56",
+    "MEMORY.md": "a8fcfe77bdb8eb0bc3265d5f8b790d1004c38e2b9f4fa5f5199643286b7e3f8e",
+    "UDT_RESEARCH_ROADMAP.md": "712dbf5ef27663564d2c947f5c1cf35d82a2534f290c1e50b052cf9b6cac3a7c"
+  },
+  "package_matches": {
+    "WORK_ORDER.md": true,
+    "INITIAL_AUDIT.md": true,
+    "CHECK_REPAIR.md": true,
+    "NOTATION_CLARIFICATION.md": true,
+    "FINAL_WORDING_REPAIR.md": true,
+    "REVIEWED_AUDIT.md": true,
+    "DECISION_BRIEF.md": true,
+    "DEPENDENCY_MAP.md": true,
+    "CONNECTION_LEDGER.tsv": true,
+    "README.md": true,
+    "CLOSEOUT.md": true,
+    "CHECKPOINT.md": true,
+    "PRESERVATION.json": true,
+    "AUDIT_REUSE.json": true,
+    "EXECUTION_INTERVALS.json": true,
+    "FINAL_AUTHORIZATION_CLARIFICATION.md": true
+  },
+  "navigation_matches": {
+    "CURRENT_RESEARCH_PROGRAM.md": true,
+    "HANDOFF.md": true,
+    "INDEX.md": true,
+    "LIVE.md": true,
+    "MEMORY.md": true,
+    "UDT_RESEARCH_ROADMAP.md": true
+  },
+  "source_matches": {
+    "CURRENT_SCIENTIFIC_PREMISES.tsv": true,
+    "udt_g179_complete_coframe_pair_pullback_extension_2026-08-19/AUDIT_REPORT.md": true,
+    "udt_g213_determinant_one_spatial_remainder_and_completed_rank_closure_2026-08-22/AUDIT_REPORT.md": true,
+    "udt_g311_universal_reciprocity_full_covariant_response_2026-09-01/AUDIT_REPORT.md": true,
+    "udt_gr_filter_reconciliation_2026-09-09/AUTHORITY_RECORD.md": true,
+    "udt_native_radiative_current_energy_owner_audit_2026-08-15/EXTERNAL_REVIEW_ADJUDICATION.md": true,
+    "udt_g348_generic_lorentzian_null_screen_area_theorem_2026-09-04/AUDIT_REPORT.md": true,
+    "udt_g351_source_free_labelwise_carried_measure_conservation_2026-09-05/AUDIT_REPORT.md": true,
+    "udt_g352_clock_rate_carried_measure_readout_2026-09-05/AUDIT_REPORT.md": true,
+    "UDT_CONSOLIDATED_RESEARCH_ACCOUNT.md": true,
+    "udt_response_foundations_campaign_2026-09-10/DECISION_BRIEF.md": true,
+    "udt_reviewed_backlog_banking_2026-09-10/BANKED_CLAIMS.json": true,
+    "udt_current_native_radiation_feasibility_2026-09-13/INITIAL_CANDIDATE.md": true,
+    "udt_current_native_radiation_feasibility_2026-09-13/PROFILE_SCOPE_CLARIFICATION.md": true,
+    "udt_current_native_radiation_feasibility_2026-09-13/REVIEWED_RESULT.md": true,
+    "udt_current_native_radiation_feasibility_2026-09-13/review/DIRECT_REVIEW.md": true,
+    "udt_current_native_radiation_feasibility_2026-09-13/SOURCE_MAP.md": true,
+    "udt_geometric_field_choice_discrimination_2026-09-13/INITIAL_CANDIDATE.md": true,
+    "udt_geometric_field_choice_discrimination_2026-09-13/REPAIR_RECORD.md": true,
+    "udt_geometric_field_choice_discrimination_2026-09-13/REVIEWED_RESULT.md": true,
+    "udt_geometric_field_choice_discrimination_2026-09-13/review/DIRECT_REVIEW.md": true,
+    "udt_geometric_field_choice_discrimination_2026-09-13/COMPARISON_BOUNDARY.md": true
+  },
+  "audited_input_matches": {
+    "AGENTS.md": true,
+    "CLAUDE.md": true,
+    "CURRENT_SCIENTIFIC_PREMISES.tsv": true,
+    "CURRENT_SCIENTIFIC_PREMISES.md": true,
+    "verify_current_scientific_premises.py": true
+  },
+  "selected_row_matches": {
+    "G399": true,
+    "G400": true,
+    "G401": true,
+    "G352": true,
+    "G351": true,
+    "G348": true,
+    "G312": true,
+    "G311": true,
+    "G310": true,
+    "G213": true,
+    "G179": true,
+    "G95": true
+  },
+  "registry_rows": 406,
+  "ledger_rows": 12,
+  "ledger_shape_unique_ids_valid": true,
+  "branch": "grok",
+  "refs": [
+    "ebed7b98f9289d00e2b89aadbd9bc0a457e7c021",
+    "ebed7b98f9289d00e2b89aadbd9bc0a457e7c021"
+  ],
+  "tracked_changes": [
+    "CURRENT_RESEARCH_PROGRAM.md",
+    "HANDOFF.md",
+    "INDEX.md",
+    "LIVE.md",
+    "MEMORY.md",
+    "UDT_RESEARCH_ROADMAP.md"
+  ],
+  "index_changes": [],
+  "original_status_names": 51,
+  "original_status_names_unchanged": true,
+  "protected_payloads_read_or_hashed": false,
+  "capture_results_inspected": {
+    "checks/premise406.json": {
+      "returncode": 0,
+      "timeout": false,
+      "seconds": 403.4147800139617
+    },
+    "checks/connection.json": {
+      "returncode": 1,
+      "timeout": false,
+      "seconds": 0.18131242005620152
+    },
+    "checks/connection_repaired.json": {
+      "returncode": 0,
+      "timeout": false,
+      "seconds": 0.17581911804154515
+    },
+    "checks/current_surface.json": {
+      "returncode": 0,
+      "timeout": false,
+      "seconds": 0.18668554606847465
+    },
+    "checks/navigation.json": {
+      "returncode": 0,
+      "timeout": false,
+      "seconds": 15.160564434947446
+    },
+    "review/independent_capture.json": {
+      "returncode": 0,
+      "timeout": false,
+      "seconds": 0.02553936594631523
+    }
+  },
+  "events": [
+    {
+      "command": [
+        "git",
+        "rev-parse",
+        "HEAD",
+        "origin/grok"
+      ],
+      "exit": 0,
+      "stdout": "ebed7b98f9289d00e2b89aadbd9bc0a457e7c021\nebed7b98f9289d00e2b89aadbd9bc0a457e7c021\n",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "git",
+        "branch",
+        "--show-current"
+      ],
+      "exit": 0,
+      "stdout": "grok\n",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "git",
+        "diff",
+        "--name-only"
+      ],
+      "exit": 0,
+      "stdout": "CURRENT_RESEARCH_PROGRAM.md\nHANDOFF.md\nINDEX.md\nLIVE.md\nMEMORY.md\nUDT_RESEARCH_ROADMAP.md\n",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "git",
+        "diff",
+        "--cached",
+        "--name-only"
+      ],
+      "exit": 0,
+      "stdout": "",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "git",
+        "diff",
+        "--check"
+      ],
+      "exit": 0,
+      "stdout": "",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "git",
+        "status",
+        "--short",
+        "--untracked-files=all"
+      ],
+      "exit": 0,
+      "stdout": "status captured for names-only comparison; payloads not read",
+      "stderr": ""
+    }
+  ],
+  "all_fidelity_pass": true
+}

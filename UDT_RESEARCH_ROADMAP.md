@@ -14,6 +14,47 @@ Current acceptance overlay: earlier UNPROMOTED/campaign-only language below reco
 returns. The G383--G412, G413--G415 and G416--G423 banking packets and maintained checkpoint own later dispositions;
 original result packages remain unchanged. No physical adoption or canon is included.
 
+## NFCA1 reviewed native-connection audit — 2026-09-13
+
+Charles authorized the revised connection audit after asking whether the added
+field work was becoming scaffolding. NFCA1 has a direct reviewed conditional
+return; final fidelity and publication are separately recorded in its review/
+and CLOSEOUT. Lay decision: `udt_native_field_connection_audit_2026-09-13/DECISION_BRIEF.md`;
+full argument and dependency map: its REVIEWED_AUDIT and CONNECTION_LEDGER.
+This audit supersedes the transverse-field successor proposal below, which
+was not authorized or launched.
+
+The established G179 metric-to-pair and G213 complete-record-to-metric bridges
+remain valid at their supplied, calibrated, marked, rank-complete scopes.
+Ruler densities matter; differential geometry additionally requires smooth
+metric/record fields. G348 generic Lorentz geometry can be metric-native: shared
+mathematics does not import another theory's physical law. The earlier caution
+must not erase these gains. G351/G352 conservation/readout gains also survive.
+
+September13 NR1/NR2 remain reviewed conditional UNPROMOTED field constructions
+and controls. Their native-response and physical identification are unproved;
+this does not prove that a unique-field selector or new postulate is required.
+NFCA1's exact check applies G179 to the EXISTING NR2 metric family: an off-axis
+metric/kernel change leaves F unchanged; rescaling the supplied generator
+changes F with the metric and fixed-pair evaluations unchanged. The central
+blind spot and neighboring tidal distinction remain useful metric behavior.
+DDR's symmetric response E is not identified with the antisymmetric F.
+Current G312 FILTER ONLY and G401's realizable-jet gain retain their exact scopes.
+
+Direction gate: pause automatic field-family expansion. A next work order must
+name a precise unresolved implication, its current source dependency or justified
+comparison assumption, the nearest completed result, and the substantive advance
+with retained/released restrictions. Conditional metric/kernel expansion remains
+available; unique-universe selection and physical identification are not blanket
+prerequisites. This is a research-direction rule, not a new physical premise.
+
+NFCA1 has not found a distinct next theorem beyond known response gates; merely
+relisting those gates would repeat work. No successor, G424/promotion, physical
+law, source/action, instrument campaign, CANON or fixed-manuscript change is
+launched. New full406 premise audit PASS, parent28/28 after preserved helper
+failure/repair, and fresh independent59/59 support this bounded return; counts
+are checks, not proof counts. Stop for discussion after factual publication.
+
 ## NR2 reviewed field discrimination and symmetry survivor — 2026-09-13
 
 Charles's later “proceed” authorized NR1's named field-orientation/phase and

@@ -1,0 +1,8 @@
+Traceback (most recent call last):
+  File "/home/udt-admin/udt_mass_codex/udt_native_field_connection_audit_2026-09-13/check_connection.py", line 16, in <module>
+    eq('full_metric_determinant',g.det(),-1);eq('supplied_pair_rank',J.rank(),2)
+  File "/home/udt-admin/udt_mass_codex/udt_native_field_connection_audit_2026-09-13/check_connection.py", line 13, in eq
+    rr=[s.simplify((a-b).rewrite(s.exp)) for a,b in zip(aa,bb)]
+  File "/home/udt-admin/udt_mass_codex/udt_native_field_connection_audit_2026-09-13/check_connection.py", line 13, in <listcomp>
+    rr=[s.simplify((a-b).rewrite(s.exp)) for a,b in zip(aa,bb)]
+AttributeError: 'int' object has no attribute 'rewrite'

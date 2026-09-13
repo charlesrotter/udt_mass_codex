@@ -1,0 +1,188 @@
+{
+  "recorded_utc": "2026-09-13T13:54:18.552262+00:00",
+  "source_checks": [
+    {
+      "path": "CURRENT_SCIENTIFIC_PREMISES.tsv",
+      "expected_sha256": "7a3d69d5a0bc3ac98e2ebe2bb0c6d029df30071bf403baffed2223a193dc720b",
+      "actual_sha256": "7a3d69d5a0bc3ac98e2ebe2bb0c6d029df30071bf403baffed2223a193dc720b",
+      "match": true
+    },
+    {
+      "path": "udt_g179_complete_coframe_pair_pullback_extension_2026-08-19/AUDIT_REPORT.md",
+      "expected_sha256": "fe4d0aa56a734ca58972ea8123264efa6e0b979831f7f618eab8f69afa7ee2f2",
+      "actual_sha256": "fe4d0aa56a734ca58972ea8123264efa6e0b979831f7f618eab8f69afa7ee2f2",
+      "match": true
+    },
+    {
+      "path": "udt_g213_determinant_one_spatial_remainder_and_completed_rank_closure_2026-08-22/AUDIT_REPORT.md",
+      "expected_sha256": "b46d70a9b915d9d477b872cd8ba0d8fd8f96dc81c5b5dcd8bf4cc9d72c6ffc53",
+      "actual_sha256": "b46d70a9b915d9d477b872cd8ba0d8fd8f96dc81c5b5dcd8bf4cc9d72c6ffc53",
+      "match": true
+    },
+    {
+      "path": "udt_g311_universal_reciprocity_full_covariant_response_2026-09-01/AUDIT_REPORT.md",
+      "expected_sha256": "a411de5e2e40982c4f9c8107bd6d3a598dd55056924d4bc3d39d93f8db89e578",
+      "actual_sha256": "a411de5e2e40982c4f9c8107bd6d3a598dd55056924d4bc3d39d93f8db89e578",
+      "match": true
+    },
+    {
+      "path": "udt_gr_filter_reconciliation_2026-09-09/AUTHORITY_RECORD.md",
+      "expected_sha256": "80daa0be6d3e1c0ac1b734fea089c4eb487f05bc1e1fbb2fabd69322ca89f28c",
+      "actual_sha256": "80daa0be6d3e1c0ac1b734fea089c4eb487f05bc1e1fbb2fabd69322ca89f28c",
+      "match": true
+    },
+    {
+      "path": "udt_native_radiative_current_energy_owner_audit_2026-08-15/EXTERNAL_REVIEW_ADJUDICATION.md",
+      "expected_sha256": "73c03b4e104153409a0ddd7cacfb53f0b5fd5b7e9711dea44a055f7f4b9a986f",
+      "actual_sha256": "73c03b4e104153409a0ddd7cacfb53f0b5fd5b7e9711dea44a055f7f4b9a986f",
+      "match": true
+    },
+    {
+      "path": "udt_g348_generic_lorentzian_null_screen_area_theorem_2026-09-04/AUDIT_REPORT.md",
+      "expected_sha256": "b264f4a8959a557884f3e6a668aab68d2831b477caf693f95db7b524c01bd279",
+      "actual_sha256": "b264f4a8959a557884f3e6a668aab68d2831b477caf693f95db7b524c01bd279",
+      "match": true
+    },
+    {
+      "path": "udt_g351_source_free_labelwise_carried_measure_conservation_2026-09-05/AUDIT_REPORT.md",
+      "expected_sha256": "9fe05975201708714983e03ca592f75bd40ccb16ea4079b7e4a33c9dfe4b48c1",
+      "actual_sha256": "9fe05975201708714983e03ca592f75bd40ccb16ea4079b7e4a33c9dfe4b48c1",
+      "match": true
+    },
+    {
+      "path": "udt_g352_clock_rate_carried_measure_readout_2026-09-05/AUDIT_REPORT.md",
+      "expected_sha256": "4f1925a1d11d00d55bea6bf3858cbedf2878e63c8e4e14e5a22211b4e03d9f8f",
+      "actual_sha256": "4f1925a1d11d00d55bea6bf3858cbedf2878e63c8e4e14e5a22211b4e03d9f8f",
+      "match": true
+    },
+    {
+      "path": "UDT_CONSOLIDATED_RESEARCH_ACCOUNT.md",
+      "expected_sha256": "d767d3f67a5abcf1674627ce469ac6fee3994b1bf8b144df74ada39df9813490",
+      "actual_sha256": "d767d3f67a5abcf1674627ce469ac6fee3994b1bf8b144df74ada39df9813490",
+      "match": true
+    },
+    {
+      "path": "udt_response_foundations_campaign_2026-09-10/DECISION_BRIEF.md",
+      "expected_sha256": "32c20fde998ee27530eab6034d4e2ef99b30236870a9435ad0ed1bfbf9e99643",
+      "actual_sha256": "32c20fde998ee27530eab6034d4e2ef99b30236870a9435ad0ed1bfbf9e99643",
+      "match": true
+    },
+    {
+      "path": "udt_reviewed_backlog_banking_2026-09-10/BANKED_CLAIMS.json",
+      "expected_sha256": "4b98b1dea6ce9dc0d62f9fa6183c1379aed534989159b45a208dad93fce12c2e",
+      "actual_sha256": "4b98b1dea6ce9dc0d62f9fa6183c1379aed534989159b45a208dad93fce12c2e",
+      "match": true
+    },
+    {
+      "path": "udt_current_native_radiation_feasibility_2026-09-13/INITIAL_CANDIDATE.md",
+      "expected_sha256": "569de1c36d052a0a844031c2161bf5e64f42014c99815d2bde0b30c7507caf57",
+      "actual_sha256": "569de1c36d052a0a844031c2161bf5e64f42014c99815d2bde0b30c7507caf57",
+      "match": true
+    },
+    {
+      "path": "udt_current_native_radiation_feasibility_2026-09-13/PROFILE_SCOPE_CLARIFICATION.md",
+      "expected_sha256": "53d7a5e420a5443d1fc1e4d6c12d08b010efca8dedafab2ee0be7824f61ed4f4",
+      "actual_sha256": "53d7a5e420a5443d1fc1e4d6c12d08b010efca8dedafab2ee0be7824f61ed4f4",
+      "match": true
+    },
+    {
+      "path": "udt_current_native_radiation_feasibility_2026-09-13/REVIEWED_RESULT.md",
+      "expected_sha256": "35ff6515d1f35cf127daf25abaa62a41a56981e978afcb158f5f52e07333168f",
+      "actual_sha256": "35ff6515d1f35cf127daf25abaa62a41a56981e978afcb158f5f52e07333168f",
+      "match": true
+    },
+    {
+      "path": "udt_current_native_radiation_feasibility_2026-09-13/review/DIRECT_REVIEW.md",
+      "expected_sha256": "b902f6d7fcdca77a384e83fe4d6fc1e8fb4552766af6755f2ffb785a1a4ac30d",
+      "actual_sha256": "b902f6d7fcdca77a384e83fe4d6fc1e8fb4552766af6755f2ffb785a1a4ac30d",
+      "match": true
+    },
+    {
+      "path": "udt_current_native_radiation_feasibility_2026-09-13/SOURCE_MAP.md",
+      "expected_sha256": "ee8f741a60133cbf1f4251c3102be711257467386bd7307ff1b4d84dadd437e0",
+      "actual_sha256": "ee8f741a60133cbf1f4251c3102be711257467386bd7307ff1b4d84dadd437e0",
+      "match": true
+    },
+    {
+      "path": "udt_geometric_field_choice_discrimination_2026-09-13/INITIAL_CANDIDATE.md",
+      "expected_sha256": "d208d623a1c0340b79f4bd9aaee012cbbca4c41b0c3db41178647dafa43251c8",
+      "actual_sha256": "d208d623a1c0340b79f4bd9aaee012cbbca4c41b0c3db41178647dafa43251c8",
+      "match": true
+    },
+    {
+      "path": "udt_geometric_field_choice_discrimination_2026-09-13/REPAIR_RECORD.md",
+      "expected_sha256": "48f84407a0ed63fa93284a9559a4033a5c951d1702478fa9c3846e4996e63520",
+      "actual_sha256": "48f84407a0ed63fa93284a9559a4033a5c951d1702478fa9c3846e4996e63520",
+      "match": true
+    },
+    {
+      "path": "udt_geometric_field_choice_discrimination_2026-09-13/REVIEWED_RESULT.md",
+      "expected_sha256": "c1075680e3052faeddc8ec7edad39a4db5d9128ce23dba33bc9cc029e74995df",
+      "actual_sha256": "c1075680e3052faeddc8ec7edad39a4db5d9128ce23dba33bc9cc029e74995df",
+      "match": true
+    },
+    {
+      "path": "udt_geometric_field_choice_discrimination_2026-09-13/review/DIRECT_REVIEW.md",
+      "expected_sha256": "3a045f23f6c7c32ed93d136a9ea8cd8b3d898a16b68db807d5a18817f7a4532f",
+      "actual_sha256": "3a045f23f6c7c32ed93d136a9ea8cd8b3d898a16b68db807d5a18817f7a4532f",
+      "match": true
+    },
+    {
+      "path": "udt_geometric_field_choice_discrimination_2026-09-13/COMPARISON_BOUNDARY.md",
+      "expected_sha256": "5a3835e04aad5c9c13a7038d3d2723b39528d3f9b4e698a19c0b1fe6d5a94edb",
+      "actual_sha256": "5a3835e04aad5c9c13a7038d3d2723b39528d3f9b4e698a19c0b1fe6d5a94edb",
+      "match": true
+    }
+  ],
+  "selected_registry_checks": [
+    {
+      "premise_id": "G399",
+      "match": true
+    },
+    {
+      "premise_id": "G400",
+      "match": true
+    },
+    {
+      "premise_id": "G401",
+      "match": true
+    },
+    {
+      "premise_id": "G352",
+      "match": true
+    },
+    {
+      "premise_id": "G351",
+      "match": true
+    },
+    {
+      "premise_id": "G348",
+      "match": true
+    },
+    {
+      "premise_id": "G312",
+      "match": true
+    },
+    {
+      "premise_id": "G311",
+      "match": true
+    },
+    {
+      "premise_id": "G310",
+      "match": true
+    },
+    {
+      "premise_id": "G213",
+      "match": true
+    },
+    {
+      "premise_id": "G179",
+      "match": true
+    },
+    {
+      "premise_id": "G95",
+      "match": true
+    }
+  ],
+  "ceiling": "byte and selected-row fidelity only; not mathematical proof or full406 audit"
+}

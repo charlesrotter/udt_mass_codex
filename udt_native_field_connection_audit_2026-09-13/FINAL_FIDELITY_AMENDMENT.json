@@ -1,0 +1,11 @@
+{
+  "recorded_utc": "2026-09-13T14:10:08.688619+00:00",
+  "initial_request_sha256": "f7c379f3fb80ceb27d6eb77caf6cbe6107c318d799be01fc9a798cc5e5167a1b",
+  "changed_navigation_pins": {
+    "UDT_RESEARCH_ROADMAP.md": "712dbf5ef27663564d2c947f5c1cf35d82a2534f290c1e50b052cf9b6cac3a7c"
+  },
+  "additional_package_pins": {
+    "FINAL_AUTHORIZATION_CLARIFICATION.md": "b7b53881565d59533db575148f359f8a6e03985e52a46434ff22afe1b4564917"
+  },
+  "scope": "historical authorization sentence only; no scientific change"
+}

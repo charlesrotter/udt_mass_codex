@@ -1,0 +1,26 @@
+{
+  "copied_utc": "2026-09-13T13:56:17.125593+00:00",
+  "originals_retained": true,
+  "copies": [
+    {
+      "from": "/tmp/nfca1_premise406.json",
+      "to": "udt_native_field_connection_audit_2026-09-13/checks/premise406.json",
+      "sha256": "88b83dba08b801980ba4d810768b86d95ba5bccfe44940567bef93f6a4cc80ee"
+    },
+    {
+      "from": "/tmp/nfca1_premise406.stdout",
+      "to": "udt_native_field_connection_audit_2026-09-13/checks/premise406.stdout",
+      "sha256": "394e02c4ced55fc8f6480a3cc65b9ebd38f9c0cb553f897b10313b8ad2104b53"
+    },
+    {
+      "from": "/tmp/nfca1_premise406.stderr",
+      "to": "udt_native_field_connection_audit_2026-09-13/checks/premise406.stderr",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "from": "/tmp/nfca1_premise406.capture_provenance.json",
+      "to": "udt_native_field_connection_audit_2026-09-13/checks/premise406.capture_provenance.json",
+      "sha256": "422af293cd240c74bb2420052a0cb0885da49fd0fa76b2cbdc53bd100c0c6a4e"
+    }
+  ]
+}
