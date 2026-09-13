@@ -4,8 +4,8 @@
   "UDT_RESEARCH_ROADMAP.md": "903b331e774999bc27f14090a6cf2b2a096f5b462e361e3f53f06c07f791ed4b",
   "udt_field_equation_principle_design_2026-09-13/AGENT_ALLOCATION.json": "289b63b0be05d8f5dd9d89eb313fe2ada0813230cf23a6ef4f0f72deeea49ea3",
   "udt_field_equation_principle_design_2026-09-13/CANDIDATE.md": "8215f1aea8a272dbb869bee96f322517f7495ba636dcd5946c376f363d8dab17",
-  "udt_field_equation_principle_design_2026-09-13/CHECKPOINT.md": "86333f0b619b4a287c76798e1e4974b6d2b9b862018d8d66dfcbd32434e0eca7",
-  "udt_field_equation_principle_design_2026-09-13/CLOSEOUT.md": "c40d9eb01b1522f31cf94e49496b88b539c8d3b632e00e4a3f2fac3273bc8124",
+  "udt_field_equation_principle_design_2026-09-13/CHECKPOINT.md": "7943b65e13acff8886117c0d8c83c9a0ed5060753cfe940234c97835544b891c",
+  "udt_field_equation_principle_design_2026-09-13/CLOSEOUT.md": "a79a85912e00875816c4b61c0cc10d0652e149ff659b5cc70f7121f8488442e9",
   "udt_field_equation_principle_design_2026-09-13/DECISION_PACKET.md": "f7e915dd01b4ffc803c6a55ab76310f5efc802971b060fbf9c4897c01c4118c5",
   "udt_field_equation_principle_design_2026-09-13/DEPENDENCY_IMPACT.md": "14f4a5ce2ab67cf49ec04cd373297b50e475a3d0c5a742f1e770240d04f8a041",
   "udt_field_equation_principle_design_2026-09-13/DERIVATION.md": "cf8234d7835c917ac343a22e45796c2df84e42095a1b7141f6ae526a4374d47c",
@@ -56,5 +56,6 @@
   "udt_field_equation_principle_design_2026-09-13/reviews/initial/DISCOVERY_NOTES.md": "6a3ed2685972e76b703e15a68ff9a159d492b8aff4cf0524bd91ad5604e3e14d",
   "udt_field_equation_principle_design_2026-09-13/reviews/initial/PREMISE_DELTA.tsv": "6f8026e92460fdce36def60a49810c5f248cc5c1f24daabc4fdc6339ea62ea36",
   "udt_field_equation_principle_design_2026-09-13/verify_documentation.py": "6ec8f54fd4bc45def350f1d7b0f31c20447484dbe22bb1bc6a890a7e1d9c93cb",
-  "udt_native_theory_research_plan_2026-09-13/PLAN.md": "a667500a24944492b4f184dbf56f32a406f72c2177d8d9d94d3bbf3c959aff74"
+  "udt_native_theory_research_plan_2026-09-13/PLAN.md": "a667500a24944492b4f184dbf56f32a406f72c2177d8d9d94d3bbf3c959aff74",
+  "udt_field_equation_principle_design_2026-09-13/PUBLICATION_RECEIPT.json": "29021c966d6daf413247e3047de88c0f54ac3653374cfc8254426b1eb6b708a4"
 }

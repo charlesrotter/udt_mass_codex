@@ -1,6 +1,6 @@
 # FE1 reviewed return
 
-Recorded 2026-09-13T21:44:31.960654+00:00. Scientific/design scope complete; publication pending.
+Recorded 2026-09-13T21:44:31.960654+00:00. Scientific/design scope complete; verified publication is recorded below.
 Return: one REVIEWED UNADOPTED HYPOTHESIS DRAFT, VERIFIED-WITH-CAVEATS at the
 exact mathematical/proposal scope. The fresh review is not an adoption endorsement.
 The proposal meets minimal draft eligibility before its30minute gate; volume
@@ -29,4 +29,14 @@ ScratchDisk untouched and unnecessary. Compact current-return pointers changed
 in roadmap/INDEX/MEMORY and the maintained PLAN. WORK_RECORD records exact scope,
 commands, versions, exposure, omissions, source pins and preservation.
 
-Publication status will be replaced here by the actual verified push receipt.
+Reviewed-proposal commit `545e53932cd351db162b50ef128d46abcba897a4` was pushed and verified
+against origin/grok at 2026-09-13T21:46:55.668671+00:00. Tracked/index state was
+clean and original51 untracked status names matched exactly. Actual commands
+and outputs: PUBLICATION_RECEIPT.json. The adapter key science_commit records
+only this evidence commit, not scientific promotion or physical adoption.
+
+Final closeout recorded 2026-09-13T21:48:09.265827+00:00, elapsed1582.266s
+from the sampled launch, within the2hour ceiling. This receipt accompanies the
+final documentary checkpoint. PUBLISH_PLAN preserves the exact59-path first
+publication snapshot; SHA256SUMS additionally covers this actual receipt.
+Return for discussion. No new scientific action or automatic successor.
