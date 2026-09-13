@@ -1,0 +1,88 @@
+{
+  "utc": "2026-09-13T02:44:30.212000+00:00",
+  "verdict": "PASS_EXACT_TRANSCRIPTION_AND_DEPENDENCY_MEMBERSHIP",
+  "freeze": {
+    "frozen_utc": "2026-09-13T02:43:03.813387+00:00",
+    "before_direct_banking_review": true,
+    "stage": "Acceptance candidate; integration guard/current audit still pending",
+    "files": {
+      "udt_signal_chain_banking_2026-09-13/WORK_ORDER.md": "f77d7ff8f7c1fd684fd68da494491d977d2c6ccad102bcd1a5ce0297b2d6f84c",
+      "udt_signal_chain_banking_2026-09-13/BANKING_RECORD.md": "acd318302cd8e2d5c9205900c50fd226c14624b9437157e01f9aa6ef7aa21712",
+      "udt_signal_chain_banking_2026-09-13/BANKED_CLAIMS.json": "48d6e1233f8bc55683130eec5c2a9246c067fad0bc13368b2bcf9eb6ecd57599",
+      "udt_signal_chain_banking_2026-09-13/BANKED_ROWS.tsv": "abce35323a1eaa328e224ef9305f8a59ab8b7fc1e933ca6ca660ff4c2362b163",
+      "udt_signal_chain_banking_2026-09-13/DISPOSITIONS.tsv": "65bfade755d0abeba7ddfb3016c9a0b94a062a8de2caf62fa0a30d9f56f14de4",
+      "udt_signal_chain_banking_2026-09-13/SOURCE_EVIDENCE_SHA256SUMS": "44bc5acb083274befe7e2c3df2fcdbd4103aa550447c948321f4aa380932f021",
+      "udt_signal_chain_banking_2026-09-13/SOURCE_MEMBERSHIP.json": "92fac2cf8856b235bfec9a65dfcef602d86462e4b6f64027866dbcd94d2f311c"
+    }
+  },
+  "claim_rows_exact": 8,
+  "original_rows": 398,
+  "prospective_rows": 406,
+  "acyclic_prior_dependency_edges": {
+    "G416": [
+      "G405",
+      "G176",
+      "G166",
+      "G312"
+    ],
+    "G417": [
+      "G220",
+      "G280",
+      "G281",
+      "G348",
+      "G349",
+      "G351",
+      "G352",
+      "G402",
+      "G312"
+    ],
+    "G418": [
+      "G394",
+      "G415",
+      "G220",
+      "G312"
+    ],
+    "G419": [
+      "G394",
+      "G415",
+      "G348",
+      "G418",
+      "G312"
+    ],
+    "G420": [
+      "G260",
+      "G395",
+      "G397",
+      "G220",
+      "G176",
+      "G312"
+    ],
+    "G421": [
+      "G394",
+      "G415",
+      "G220",
+      "G348",
+      "G418",
+      "G419",
+      "G176",
+      "G312"
+    ],
+    "G422": [
+      "G405",
+      "G416",
+      "G176",
+      "G312"
+    ],
+    "G423": [
+      "G421",
+      "G220",
+      "G348",
+      "G417",
+      "G176",
+      "G312"
+    ]
+  },
+  "controls_disjoint_from_required_ids": true,
+  "all_named_controlling_members_in_authenticated_source_manifest": true,
+  "scope": "Claims reviewed against complete source survivors; required IDs include boundary authority and reused result scopes, not adoption of optional optics."
+}

@@ -6,6 +6,7 @@ import io
 import json
 import re
 import subprocess
+from signal_chain_banking_guard import without_signal_chain
 
 NCB1_BANKING_IDS = ("G415",)
 NCB1_PREFIXES = (b"G415\t",)
@@ -27,6 +28,7 @@ def without_ncb1(raw: bytes, *, required: bool = False) -> bytes:
     Absence is allowed for isolated historical guards; the current validator requires it.
     No second registry read, unvalidated substitute, or broad prefix deletion is permitted.
     """
+    raw = without_signal_chain(raw)
     lines = raw.splitlines(keepends=True)
     selected = [line for line in lines if line.startswith(NCB1_PREFIXES)]
     require(len(selected) <= 1 and (not required or len(selected) == 1),
@@ -47,7 +49,7 @@ def validate_ncb1_banking(root: Path, *, authenticate_sources: bool = True) -> N
         require(hashlib.sha256(raw).hexdigest() == expected, f"NCB1 guard file changed: {name}")
         payloads[name] = raw
     scope = json.loads(payloads[f"{NCB1_PACKAGE}/BANKED_CLAIM.json"])
-    raw = (root / "CURRENT_SCIENTIFIC_PREMISES.tsv").read_bytes()
+    raw = without_signal_chain((root / "CURRENT_SCIENTIFIC_PREMISES.tsv").read_bytes())
     original = without_ncb1(raw, required=True)
     require(hashlib.sha256(original).hexdigest() == NCB1_BASE_SHA256,
             "NCB1 changed an original397 registry byte")

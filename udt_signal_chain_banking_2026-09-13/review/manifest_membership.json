@@ -1,0 +1,14 @@
+{
+  "command": [
+    "python3",
+    "udt_signal_chain_banking_2026-09-13/review/probe_manifest_membership.py"
+  ],
+  "cwd": "/home/udt-admin/udt_mass_codex",
+  "started_utc": "2026-09-13T02:56:06.429199+00:00",
+  "duration_seconds": 0.06925065501127392,
+  "returncode": 0,
+  "timeout": false,
+  "address_space_bytes": 2147483648,
+  "cpu_seconds": 180,
+  "maxrss_kib": 28608
+}

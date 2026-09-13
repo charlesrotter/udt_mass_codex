@@ -1,10 +1,10 @@
 # INDEX — compact current pointers; `LIVE.md` wins
 
-G383--G412 banking COMPLETE; G413/G414/G415 banked; exact scopes/reviews below.
+G383--G415 banked; G416--G423 acceptance: `udt_signal_chain_banking_2026-09-13/BANKING_RECORD.md`.
 Roadmap: `UDT_RESEARCH_ROADMAP.md`; G414: `udt_ti2_banking_2026-09-11/BANKING_RECORD.md`; TI3 reviewed/UNPROMOTED: `udt_two_shape_profile_dependence_2026-09-11/DECISION_BRIEF.md`.
-CWA1: `UDT_CONSOLIDATED_RESEARCH_ACCOUNT.md`; CSS: `udt_conditional_signal_sequence_2026-09-12/CLOSEOUT.md` (UNPROMOTED).
+CWA1: `UDT_CONSOLIDATED_RESEARCH_ACCOUNT.md`; continuation: `udt_signal_continuation_2026-09-13/CHECKPOINT.md`.
 Backlog: `udt_reviewed_backlog_banking_2026-09-10/BANKING_RECORD.md`; exact claims/dispositions/checks there.
-The exact 398-row `CURRENT_SCIENTIFIC_PREMISES.tsv` owns grades, not these pointers.
+The exact 406-row `CURRENT_SCIENTIFIC_PREMISES.tsv` owns grades, not these pointers.
 GR is FILTER ONLY, not a response-law input; Local Metric Sufficiency remains owner-provisional.
 Inherited G312 Einstein claims remain CONDITIONAL, not established from filter-only GR; grades fixed.
 Current authority: `udt_gr_filter_reconciliation_2026-09-09/AUTHORITY_RECORD.md`.

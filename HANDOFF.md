@@ -3,7 +3,7 @@
 <!-- STARTUP_CURRENT_BEGIN -->
 ## Current handoff anchor — 2026-09-12
 
-`LIVE.md` wins; exact grades belong to the 398-row `CURRENT_SCIENTIFIC_PREMISES.tsv`.
+`LIVE.md` wins; exact grades belong to the 406-row `CURRENT_SCIENTIFIC_PREMISES.tsv`.
 Current sources and completed-campaign routes: `INDEX.md`; dependency spine:
 `CURRENT_RESEARCH_PROGRAM.md`. Historical status: `archive/STARTUP_SURFACE_HISTORY.md`.
 
@@ -79,7 +79,7 @@ report actual model/instructions/checks. After orientation: `maintenance_agent_c
 dated handoff sequence. General capacity UNVERIFIED; prior passes are historical evidence.
 Availability testing is operational only; the whiteboard's scientific audit is PROPOSED, NOT AUTHORIZED.
 
-Next: G383--G412 exact-scope banking is COMPLETE; G413=TI1/G414=TI2/G415=NCB1 conditionally banked; TI3/OB1/ZDR1/NCR1/NTB1/LSB1/CSS3–5 reviewed conditional UNPROMOTED; OB2 eligibility unresolved: INDEX.
+Next: G383--G412 exact-scope banking is COMPLETE; G413--G415 banked; G416--G423 conditional acceptance: INDEX; TI3 UNPROMOTED; OB2 eligibility unresolved.
 G312 membership unclosed; G352 physical-realization: physical identification remains OPEN.
-Stop for lay discussion with Charles; no new campaign is authorized.
+Charles authorized broader-geometry testing and one bounded follow-up; work order and return gates: roadmap.
 <!-- STARTUP_CURRENT_END -->

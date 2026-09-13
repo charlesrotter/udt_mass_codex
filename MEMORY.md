@@ -1,6 +1,6 @@
 # MEMORY — compact pointer only
 
-`LIVE.md` wins. The exact 398-row `CURRENT_SCIENTIFIC_PREMISES.tsv` owns grades;
+`LIVE.md` wins. The exact 406-row `CURRENT_SCIENTIFIC_PREMISES.tsv` owns grades;
 `CURRENT_RESEARCH_PROGRAM.md` is the dependency spine and `INDEX.md` the evidence map.
 
 The kernel evaluates supplied ordered depth; complete `B,Q,S,Y,Z` enters before readout.
@@ -15,13 +15,13 @@ G350 leaves `R^p A^q`; G351 provisionally conserves a supplied label measure, gi
 `R^p A^-1` only for its nonzero regular AC density. G352 provisionally gives
 `T_clock=R A^-1` only for the chosen continuous phase/product readout.
 
-Conditional banking through G382 is COMPLETE at exact reviewed scopes.
+Conditional banking through G382 is COMPLETE at reviewed scopes.
 G381=NT1 precedes G382=NT2: tidal-neighborhood obstruction and restricted real null jets
 with actual local Lambda=0 realizations; not general metric realization or physical modes.
 Evidence, false passes, repairs and lost-output caveats stay fixed.
 G383--G412 exact-scope banking COMPLETE; three CD vacuous checks remain EXCLUDED.
 27 conditional mathematical results plus CO2 design, LC2 benchmark and FW2 finite procedure; scopes: INDEX.
-G413=TI1/G414=TI2/G415=NCB1 conditional; original397 rows/evidence unchanged; checks/reviews: INDEX.
+G413--G415 conditional; G416--G423 acceptance: INDEX; original398 rows/evidence unchanged.
 
 Keep the corrections explicit:
 

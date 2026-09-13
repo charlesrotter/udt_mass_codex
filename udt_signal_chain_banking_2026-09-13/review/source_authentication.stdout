@@ -1,0 +1,26 @@
+{
+  "timestamp_utc": "2026-09-13T02:38:16.055464+00:00",
+  "python": "3.10.12 (main, Aug 31 2026, 10:18:17) [GCC 11.4.0]",
+  "platform": "Linux-6.8.0-138-generic-x86_64-with-glibc2.35",
+  "baseline": "bf1a58140ef3eaf438f18e3cc2dcd57df52d2549",
+  "manifest_sha256": "44bc5acb083274befe7e2c3df2fcdbd4103aa550447c948321f4aa380932f021",
+  "source_count": 662,
+  "packages": [
+    "udt_conditional_signal_sequence_2026-09-12",
+    "udt_linked_stationary_signal_benchmark_2026-09-12",
+    "udt_ne1_directional_clock_reach_2026-09-12",
+    "udt_ne1_tilted_beam_geometry_2026-09-12",
+    "udt_optics_bridge_assessment_2026-09-12",
+    "udt_redshift_distance_readiness_2026-09-12"
+  ],
+  "checks": {
+    "exact_count662": true,
+    "no_duplicates": true,
+    "sorted": true,
+    "exact_baseline_membership": true,
+    "six_packages": true,
+    "all_sources_authenticate": true
+  },
+  "failures": [],
+  "verdict": "PASS"
+}

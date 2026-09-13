@@ -1,0 +1,21 @@
+{
+  "recorded_utc": "2026-09-13T02:54:51.928837+00:00",
+  "timing": "Recorded just after full audit launch; no named input changed between launch and this recording. Later navigation-only closure must be separately checked.",
+  "sha256": {
+    "AGENTS.md": "f8fa9f6135d80332e4d28b0dcfefd04e43c00042512968bb9eacf2f692499053",
+    "CURRENT_RESEARCH_PROGRAM.md": "3c8ec2b9a8b5843f03de7b5254a1f8adcb435a6979a7e22b1344fc5e3a3fbbf7",
+    "CURRENT_SCIENTIFIC_PREMISES.md": "84f0a48b2931c89e4f42323c2eb891f19bb6cdf325bee4564995740cb516f334",
+    "CURRENT_SCIENTIFIC_PREMISES.tsv": "7a3d69d5a0bc3ac98e2ebe2bb0c6d029df30071bf403baffed2223a193dc720b",
+    "HANDOFF.md": "7674cb445dec9d506d5e1b8095ca76198923c91e0ac61d0028735917d0a39023",
+    "INDEX.md": "d34b33b280d2f0f7da203d5a71db49dcd35bdec129afacc8ca1c4fdf2342b64b",
+    "LIVE.md": "d249bc71e98b71db2679ee8c152dbaff8169ab757b963c1c473eef298dca6cea",
+    "MEMORY.md": "762317d480a8e1f4c04686c934785ba50e3a9877d6b30b6aee9048dd23823d7c",
+    "UDT_RESEARCH_ROADMAP.md": "d20702d036f1f131c261531556133c63fa4e84b9e604f39a8e51bbb2d8b835ae",
+    "ncb1_banking_guard.py": "e98cdc069845d332fcb835852c619a784bd30816185bf8cae2b5fe1c44d51e9b",
+    "tests/test_ncb1_banking.py": "612873b6a68e75cf76bbf36516e8503e3d8eb9c802b43995a2fd1c4d5a748723",
+    "tests/test_startup_surface.py": "2b8d6be30250d67a8ade4bd4bd885c0d4fa9acb9512b8abbef2473c029e443f8",
+    "verify_current_scientific_premises.py": "98dd79610f6bc9d116db65104345c84b64aae0bae2f81c93bec2f64b40745eec",
+    "signal_chain_banking_guard.py": "ac46d366fd47e16da1d55d3fe97a534d94116090a742bc8e66903be5c1e336f1",
+    "tests/test_signal_chain_banking.py": "29a732f272dfa2aa0626a7b02588c2994151f73d1d91163d79285c69c0c1b372"
+  }
+}

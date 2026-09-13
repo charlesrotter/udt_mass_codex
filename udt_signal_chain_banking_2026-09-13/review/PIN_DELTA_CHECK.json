@@ -1,0 +1,20 @@
+{
+  "verdict": "PASS_PIN_ADDITIONS_AND_AUTHORITY_POISON",
+  "guard_sha256": "ac46d366fd47e16da1d55d3fe97a534d94116090a742bc8e66903be5c1e336f1",
+  "pins": {
+    "udt_signal_chain_banking_2026-09-13/WORK_ORDER.md": "f77d7ff8f7c1fd684fd68da494491d977d2c6ccad102bcd1a5ce0297b2d6f84c",
+    "udt_signal_chain_banking_2026-09-13/BANKING_RECORD.md": "5e7070af6dcc549ecad8962dd0056ea7a08bb747140aa4484da26f4ba9dc2397",
+    "udt_signal_chain_banking_2026-09-13/BANKED_CLAIMS.json": "48d6e1233f8bc55683130eec5c2a9246c067fad0bc13368b2bcf9eb6ecd57599",
+    "udt_signal_chain_banking_2026-09-13/BANKED_ROWS.tsv": "abce35323a1eaa328e224ef9305f8a59ab8b7fc1e933ca6ca660ff4c2362b163",
+    "udt_signal_chain_banking_2026-09-13/DISPOSITIONS.tsv": "65bfade755d0abeba7ddfb3016c9a0b94a062a8de2caf62fa0a30d9f56f14de4",
+    "udt_signal_chain_banking_2026-09-13/SOURCE_EVIDENCE_SHA256SUMS": "44bc5acb083274befe7e2c3df2fcdbd4103aa550447c948321f4aa380932f021",
+    "udt_signal_chain_banking_2026-09-13/SOURCE_MEMBERSHIP.json": "92fac2cf8856b235bfec9a65dfcef602d86462e4b6f64027866dbcd94d2f311c",
+    "udt_signal_chain_banking_2026-09-13/BANKING_RECORD_INITIAL.md": "acd318302cd8e2d5c9205900c50fd226c14624b9437157e01f9aa6ef7aa21712",
+    "udt_signal_chain_banking_2026-09-13/ACCEPTANCE_FREEZE.json": "34e51716fb8a5552485cb4cb5b18422d5e8ddeec13d244cb9096e4940d5f61b2",
+    "udt_signal_chain_banking_2026-09-13/ACCEPTANCE_AMENDMENT.json": "16a3b0819fdb73ae0a2317e3f0edcfa13e92545f97870e31eb21baa9a9cc3f27",
+    "udt_signal_chain_banking_2026-09-13/review/REVIEW.md": "24d8f9b97f80aa8b109a77adece6f24840f6e4290e1a6915ffeec4842460e90a",
+    "udt_signal_chain_banking_2026-09-13/review/REVIEW_RECEIPT.json": "84b825fefc72ff9cd43ca0998fae12e3e670e6d23e027dcc06f22f8580aa4845",
+    "udt_signal_continuation_2026-09-13/WORK_ORDER.md": "72cdd8495380e08724949cc3b0c48297ad1696171b769dcf689b82b506685bd9"
+  },
+  "master_authority_poison_rejection": "SIGNAL guard file changed: udt_signal_continuation_2026-09-13/WORK_ORDER.md"
+}

@@ -1,0 +1,10 @@
+{
+  "utc": "2026-09-13T02:56:06.490045+00:00",
+  "verdict": "PASS_EQUAL_COUNT_FORGED_MEMBERSHIP_REJECTED",
+  "removed": "udt_conditional_signal_sequence_2026-09-12/CHECK_CONTRACT.md",
+  "forged": "udt_conditional_signal_sequence_2026-09-12/FORGED_UNTRACKED_MEMBER.md",
+  "manifest_count": 662,
+  "fake_file_reads": 1,
+  "rejection": "SIGNAL exact baseline source membership failed",
+  "scope": "In-memory semantic-membership test with outer manifest hash temporarily made consistent; no physical file created and no original evidence changed."
+}

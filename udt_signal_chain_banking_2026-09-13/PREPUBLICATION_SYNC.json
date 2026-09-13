@@ -1,0 +1,17 @@
+{
+  "recorded_utc": "2026-09-13T03:00:45.756037+00:00",
+  "command": [
+    "git",
+    "fetch",
+    "origin"
+  ],
+  "exit": 0,
+  "stdout": "",
+  "stderr": "",
+  "followup_rev_parse": [
+    "HEAD",
+    "origin/grok"
+  ],
+  "expected_both": "bf1a58140ef3eaf438f18e3cc2dcd57df52d2549",
+  "observed_both": "bf1a58140ef3eaf438f18e3cc2dcd57df52d2549"
+}

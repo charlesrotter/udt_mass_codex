@@ -1,0 +1,96 @@
+{
+  "checked": [
+    {
+      "path": "AGENTS.md",
+      "audit_input": "f8fa9f6135d80332e4d28b0dcfefd04e43c00042512968bb9eacf2f692499053",
+      "current": "f8fa9f6135d80332e4d28b0dcfefd04e43c00042512968bb9eacf2f692499053",
+      "post_audit_navigation": false
+    },
+    {
+      "path": "CURRENT_RESEARCH_PROGRAM.md",
+      "audit_input": "3c8ec2b9a8b5843f03de7b5254a1f8adcb435a6979a7e22b1344fc5e3a3fbbf7",
+      "current": "53f662476475392f70ce43e4dfa115f40351bae097e44911c37c4bc86d14691f",
+      "post_audit_navigation": true
+    },
+    {
+      "path": "CURRENT_SCIENTIFIC_PREMISES.md",
+      "audit_input": "84f0a48b2931c89e4f42323c2eb891f19bb6cdf325bee4564995740cb516f334",
+      "current": "58c0898f6e98a3998ae28e33dd598bc34bda14b4e7bcfb2840028c57bc10a1d2",
+      "post_audit_navigation": true
+    },
+    {
+      "path": "CURRENT_SCIENTIFIC_PREMISES.tsv",
+      "audit_input": "7a3d69d5a0bc3ac98e2ebe2bb0c6d029df30071bf403baffed2223a193dc720b",
+      "current": "7a3d69d5a0bc3ac98e2ebe2bb0c6d029df30071bf403baffed2223a193dc720b",
+      "post_audit_navigation": false
+    },
+    {
+      "path": "HANDOFF.md",
+      "audit_input": "7674cb445dec9d506d5e1b8095ca76198923c91e0ac61d0028735917d0a39023",
+      "current": "a438c7831a729d4a875dd3333e443b5b4d4607b610447ff8c989922ef6efb1e2",
+      "post_audit_navigation": true
+    },
+    {
+      "path": "INDEX.md",
+      "audit_input": "d34b33b280d2f0f7da203d5a71db49dcd35bdec129afacc8ca1c4fdf2342b64b",
+      "current": "409e551233fef8d8e8fa44cdea5d7a59c217f2b68e7bc0e28331b62b5ec70c77",
+      "post_audit_navigation": true
+    },
+    {
+      "path": "LIVE.md",
+      "audit_input": "d249bc71e98b71db2679ee8c152dbaff8169ab757b963c1c473eef298dca6cea",
+      "current": "01472c4a98802729c7e4e2e71c13a52a2754040bc3b6460eebb1955aa828dd86",
+      "post_audit_navigation": true
+    },
+    {
+      "path": "MEMORY.md",
+      "audit_input": "762317d480a8e1f4c04686c934785ba50e3a9877d6b30b6aee9048dd23823d7c",
+      "current": "41569ccf5d8e908f4c470966bc0682a63b814749f777ff126062ad21f441044e",
+      "post_audit_navigation": true
+    },
+    {
+      "path": "UDT_RESEARCH_ROADMAP.md",
+      "audit_input": "d20702d036f1f131c261531556133c63fa4e84b9e604f39a8e51bbb2d8b835ae",
+      "current": "702bdf02cb5a6b07602662f184b2a3ff4efdee736094ced404a205bd6a0bae87",
+      "post_audit_navigation": true
+    },
+    {
+      "path": "ncb1_banking_guard.py",
+      "audit_input": "e98cdc069845d332fcb835852c619a784bd30816185bf8cae2b5fe1c44d51e9b",
+      "current": "e98cdc069845d332fcb835852c619a784bd30816185bf8cae2b5fe1c44d51e9b",
+      "post_audit_navigation": false
+    },
+    {
+      "path": "tests/test_ncb1_banking.py",
+      "audit_input": "612873b6a68e75cf76bbf36516e8503e3d8eb9c802b43995a2fd1c4d5a748723",
+      "current": "612873b6a68e75cf76bbf36516e8503e3d8eb9c802b43995a2fd1c4d5a748723",
+      "post_audit_navigation": false
+    },
+    {
+      "path": "tests/test_startup_surface.py",
+      "audit_input": "2b8d6be30250d67a8ade4bd4bd885c0d4fa9acb9512b8abbef2473c029e443f8",
+      "current": "2b8d6be30250d67a8ade4bd4bd885c0d4fa9acb9512b8abbef2473c029e443f8",
+      "post_audit_navigation": false
+    },
+    {
+      "path": "verify_current_scientific_premises.py",
+      "audit_input": "98dd79610f6bc9d116db65104345c84b64aae0bae2f81c93bec2f64b40745eec",
+      "current": "98dd79610f6bc9d116db65104345c84b64aae0bae2f81c93bec2f64b40745eec",
+      "post_audit_navigation": false
+    },
+    {
+      "path": "signal_chain_banking_guard.py",
+      "audit_input": "ac46d366fd47e16da1d55d3fe97a534d94116090a742bc8e66903be5c1e336f1",
+      "current": "ac46d366fd47e16da1d55d3fe97a534d94116090a742bc8e66903be5c1e336f1",
+      "post_audit_navigation": false
+    },
+    {
+      "path": "tests/test_signal_chain_banking.py",
+      "audit_input": "29a732f272dfa2aa0626a7b02588c2994151f73d1d91163d79285c69c0c1b372",
+      "current": "29a732f272dfa2aa0626a7b02588c2994151f73d1d91163d79285c69c0c1b372",
+      "post_audit_navigation": false
+    }
+  ],
+  "all_match_or_explicitly_navigational": true,
+  "source_boundary": "Named input hashes and explicit navigation delta; not an independently monitored atomic audit snapshot"
+}

@@ -1,0 +1,8 @@
+{
+  "utc": "2026-09-13T03:04:24.439549+00:00",
+  "reason": "Reviewer count precision: 198 boundary cases comprise163 rejection cases and35 valid/historical acceptance cases; four disabled-auth red catches additional. No scientific or guard change.",
+  "old_closeout_sha256": "2ba1044ba3aada8d513e946824f389704c54c65d1b684620ab398ae7b579c5f6",
+  "new_closeout_sha256": "3c07593ead187cbbc4ab434e23fbed7d3ce86f0b51b725ff68a44f7288987f5b",
+  "initial_copy": "CLOSEOUT_BEFORE_COUNT_CLARIFICATION.md",
+  "initial_intake_sha256": "0e6548953f045dafcd3fcb4f1bc2b2fc02da28aa740493c9385388407ecba6c1"
+}

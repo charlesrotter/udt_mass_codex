@@ -1,0 +1,19 @@
+{
+  "verdict": "PASS_EXACT_ONE_FILE_EDITORIAL_AMENDMENT",
+  "original_final_intake_unchanged": true,
+  "original_closeout_copies_authenticated": 1,
+  "reviewer_initial_final_closeout_copy_matches": "AMENDED_CLOSEOUT",
+  "reviewer_copy_timing_assumption_failure_preserved": "review/SEAL_DIAGNOSTIC.md",
+  "changed_files": [
+    "udt_signal_chain_banking_2026-09-13/CLOSEOUT.md"
+  ],
+  "other_nine_original_intake_files_unchanged": true,
+  "exact_replacement": {
+    "before": "Reviewer integration:198 hostile cases, including all new-row fields, current",
+    "after": "Reviewer integration:198 boundary cases (163 rejections,35 valid/historical\n  acceptances), including all new-row fields, current"
+  },
+  "science_guard_test_change": false,
+  "amendment_sha256": "aa644244801e80ef0ff32b8297c2b6b3272840416541f35eb37d1d36bf3f63b7",
+  "old_closeout_sha256": "2ba1044ba3aada8d513e946824f389704c54c65d1b684620ab398ae7b579c5f6",
+  "current_closeout_sha256": "3c07593ead187cbbc4ab434e23fbed7d3ce86f0b51b725ff68a44f7288987f5b"
+}

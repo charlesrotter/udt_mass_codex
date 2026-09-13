@@ -1,18 +1,36 @@
 # UDT research roadmap — geometry, dynamics and physical connection
 
-Updated: 2026-09-12. Charles Rotter requested the whole plan on 2026-09-09;
+Updated: 2026-09-13. Charles Rotter requested the whole plan on 2026-09-09;
 its original baseline was `d0fe8b3e5f95c3963dc8702bb4a31485678bd1e3`, branch `grok`.
-Earlier campaigns and banking through G415 are COMPLETE; TI3/OB1/ZDR1/NCR1/NTB1 remain reviewed conditional UNPROMOTED.
+Banking through G415 is COMPLETE; G416--G423 signal-chain conditional acceptance and actual gates: its CLOSEOUT.
 Current operational handoff: `HANDOFF.md`; the maintained checkpoint below records the reviewed
 ER1 expansion, banking, nonlinear and measurement returns, and the CWA1 consolidation.
 CWA1's consolidation, NCB1's banking and NCR1/NTB1's directional returns are recorded below.
-NCB1 is conditionally banked as G415; NCR1/NTB1 are reviewed UNPROMOTED; no further successor is authorized.
+Charles authorized banking, broader-geometry testing and one result-informed follow-up; TI3/OB2 retain separate holds.
 This is a maintained direction document, not a premise, theorem, promotion
 or replacement for LIVE, the exact registry, or reviewed scientific sources.
 
 Current acceptance overlay: earlier UNPROMOTED/campaign-only language below records historical
-returns. The G383--G412, G413--G415 banking packets and maintained checkpoint own later dispositions;
+returns. The G383--G412, G413--G415 and G416--G423 banking packets and maintained checkpoint own later dispositions;
 original result packages remain unchanged. No physical adoption or canon is included.
+
+## Active authorized continuation — 2026-09-13
+
+Charles: “Proceed with banking, testing how much survives in broader geometries,
+and then move on to the next scientific question.” The controlling scope is
+`udt_signal_continuation_2026-09-13/WORK_ORDER.md`; maintained state and remaining
+gates: `udt_signal_continuation_2026-09-13/CHECKPOINT.md`.
+
+Stage A accepts OB1/ZDR1/NCR1/NTB1/LSB1/CSS3/CSS4/CSS5 as G416--G423 only at
+full reviewed conditional scope, after exact-source fidelity, new406 audit and
+integration/publication gates. Its BANKING_RECORD and CLOSEOUT own actual checks.
+Stage B tests broader supplied evolving profiles without linearizing the metric;
+Stage C asks one result-informed question about remaining joint-record freedom.
+Each includes finite checks, one fresh review and bounded same-premise repairs;
+new Stage B/C results remain conditional UNPROMOTED. Seven-hour overall ceiling,
+no physical adoption, observational fit or protected-work access. Return together
+for lay discussion after all authorized stages or a stated bounded blocker.
+Earlier stop/UNPROMOTED language below remains historical, not current authorization.
 
 ## Aim and current position
 

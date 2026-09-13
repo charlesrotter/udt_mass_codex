@@ -1,0 +1,319 @@
+{
+  "sealed_utc": "2026-09-13T03:12:01.399719+00:00",
+  "actual_review_end_utc": "2026-09-13T03:12:01.399719+00:00",
+  "verdict": "VERIFIED_WITH_CAVEATS_EXACT_CONDITIONAL_BANKING_FIDELITY_ACCEPTED",
+  "unresolved_review_objections": [],
+  "closed_initial_pending_gates": [
+    "guard implementation and actual boundary/catch tests",
+    "original398 preservation/current406 exact claims",
+    "new parent full406 premise audit",
+    "final navigation, input, closeout and source fidelity"
+  ],
+  "remaining_parent_owned": [
+    "exact staging and evidence manifest",
+    "accepted commit/push and publication receipts"
+  ],
+  "review_context": "/root/signal_banking_review",
+  "actual_separate_context_count": 1,
+  "subdelegation_count": 0,
+  "parent_startup_attribution": "Completed earlier in the same continuing top-level session; reviewer independently checked assigned scope and local branch/hash/status.",
+  "baseline_head": "bf1a58140ef3eaf438f18e3cc2dcd57df52d2549",
+  "local_origin_ref": "bf1a58140ef3eaf438f18e3cc2dcd57df52d2549",
+  "branch": "grok",
+  "remote_fetch_pull": "Parent-attributed successful synchronization; reviewer independently read local refs, did not mutate Git.",
+  "conservative_allocation_start_utc": "2026-09-13T02:36:34+00:00",
+  "first_observed_clock_utc": "2026-09-13T02:37:02Z",
+  "first_action": "Direct pwd/git status/git rev-parse immediately before first observed clock; exact first-command start not exposed",
+  "hard_deadline_utc": "2026-09-13T03:16:34+00:00",
+  "elapsed_upper_bound_seconds": 2127.399719,
+  "configured_parent_attribution": "gpt-6-astra/xhigh; not runtime attestation",
+  "runtime_model": "UNATTESTED",
+  "different_model": "UNTESTED",
+  "general_capacity": "UNVERIFIED",
+  "exposure": "Entire initial/reviewed candidates, clarifications, substantive/numerical/final reviews exposed; not blind scientific reproof",
+  "independence": "Fresh separate context; independent saved-readout arithmetic and Path.open attack harness; actual shared production guards. Original scientific arguments and verdicts exposed and attributed; not blind scientific reproof.",
+  "source_manifest_members": 662,
+  "source_membership_and_working_baseline_hashes_exact": true,
+  "original398_byte_identity": true,
+  "current406_exact_claims": true,
+  "acceptance_ids": [
+    "G416=OB1",
+    "G417=ZDR1",
+    "G418=NCR1",
+    "G419=NTB1",
+    "G420=LSB1",
+    "G421=CSS3",
+    "G422=CSS4",
+    "G423=CSS5"
+  ],
+  "boundary_cases_per_integration_run": {
+    "total": 198,
+    "expected_rejections": 163,
+    "valid_historical_acceptances": 35
+  },
+  "additional_catches": {
+    "same_shared_gate_disabled_red_assertions": 4,
+    "forged_membership_rejection": 1
+  },
+  "repairs": [
+    {
+      "id": "D1",
+      "scope": "freeze versus output/exposure chronology",
+      "status": "RESOLVED_EXPLICIT_ACCEPTANCE_AMENDMENT",
+      "science_changed": false
+    },
+    {
+      "id": "PARENT_WORD_LIMIT",
+      "scope": "MEMORY451 to450 words",
+      "status": "RESOLVED_ORIGINAL_FAILURE_PRESERVED_THRESHOLD_UNCHANGED",
+      "science_changed": false
+    },
+    {
+      "id": "FINAL_COUNT_PRECISION",
+      "scope": "198 boundary cases:163 rejection and35 acceptance",
+      "status": "RESOLVED_EXACT_ONE_FILE_FINAL_INTAKE_AMENDMENT",
+      "science_changed": false
+    },
+    {
+      "id": "REVIEWER_COPY_TIMING",
+      "scope": "Administrative failed assumption that reviewer closeout copy preceded amendment",
+      "status": "RESOLVED_ACTUAL_HASH_CORRESPONDENCE_INITIAL_SCRIPT_AND_FAILURE_PRESERVED",
+      "science_changed": false
+    }
+  ],
+  "parent_checks": {
+    "initial_integration": "775 passed,1 failed,1 deselected; original failure preserved",
+    "repaired_integration": "778 passed,1 deselected; captured exit0",
+    "new_full406": {
+      "capture": "checks/premise406.json",
+      "started_utc": "2026-09-13T02:53:59.265734+00:00",
+      "duration_seconds": 403.5664156450657,
+      "returncode": 0,
+      "timeout": false,
+      "maxrss_kib": 120192,
+      "attribution": "Actual parent capture inspected, not reviewer rerun or historical CSS398 substitute"
+    },
+    "final_focused": "489 passed,1 deselected; captured exit0"
+  },
+  "audit_input_correspondence": {
+    "named_inputs": 15,
+    "explicit_later_navigation_changes": 7,
+    "science_guard_test_inputs_unchanged": true,
+    "whole_program_atomic_snapshot": "NOT_ATTESTED",
+    "launch_to_later_input_record_no_change": "PARENT_ATTRIBUTED"
+  },
+  "reviewer_captures": [
+    {
+      "stem": "source_authentication",
+      "started_utc": "2026-09-13T02:38:14.706057+00:00",
+      "duration_seconds": 1.3535831230692565,
+      "maxrss_kib": 15936,
+      "command": [
+        "python3",
+        "udt_signal_chain_banking_2026-09-13/review/authenticate_sources.py"
+      ],
+      "cpu_seconds": 180,
+      "address_space_bytes": 2147483648
+    },
+    {
+      "stem": "saved_readouts",
+      "started_utc": "2026-09-13T02:42:37.587935+00:00",
+      "duration_seconds": 0.02664013102184981,
+      "maxrss_kib": 16408,
+      "command": [
+        "python3",
+        "udt_signal_chain_banking_2026-09-13/review/inspect_saved_readouts.py"
+      ],
+      "cpu_seconds": 180,
+      "address_space_bytes": 2147483648
+    },
+    {
+      "stem": "integration_initial",
+      "started_utc": "2026-09-13T02:52:40.018896+00:00",
+      "duration_seconds": 0.5455427290871739,
+      "maxrss_kib": 66552,
+      "command": [
+        "python3",
+        "udt_signal_chain_banking_2026-09-13/review/check_integration.py",
+        "signal_chain_banking_guard"
+      ],
+      "cpu_seconds": 180,
+      "address_space_bytes": 2147483648
+    },
+    {
+      "stem": "integration_pinned",
+      "started_utc": "2026-09-13T02:54:02.461517+00:00",
+      "duration_seconds": 0.543744485010393,
+      "maxrss_kib": 66180,
+      "command": [
+        "python3",
+        "udt_signal_chain_banking_2026-09-13/review/check_integration.py",
+        "signal_chain_banking_guard"
+      ],
+      "cpu_seconds": 180,
+      "address_space_bytes": 2147483648
+    },
+    {
+      "stem": "manifest_membership",
+      "started_utc": "2026-09-13T02:56:06.429199+00:00",
+      "duration_seconds": 0.06925065501127392,
+      "maxrss_kib": 28608,
+      "command": [
+        "python3",
+        "udt_signal_chain_banking_2026-09-13/review/probe_manifest_membership.py"
+      ],
+      "cpu_seconds": 180,
+      "address_space_bytes": 2147483648
+    }
+  ],
+  "reviewer_captured_wall_seconds_total": 2.538761123199947,
+  "reviewer_maxrss_kib": 66552,
+  "reviewer_capture_controls": "Serialized CPU/one library thread; <=180seconds and2048MiB each.",
+  "nine_capture_intervals_independently_recomputed": true,
+  "same_context_overlap": false,
+  "cross_context_capture_overlaps": [
+    {
+      "a": "checks/premise406.json",
+      "b": "review/integration_pinned.json",
+      "seconds": 0.543744,
+      "same_context": false
+    },
+    {
+      "a": "checks/premise406.json",
+      "b": "review/manifest_membership.json",
+      "seconds": 0.069251,
+      "same_context": false
+    }
+  ],
+  "process_census_limit": "Captured checks only; administrative/source reads are not a complete process census.",
+  "original_scientific_campaign_reruns": 0,
+  "full_premise_verifier_reruns_by_reviewer": 0,
+  "preservation": {
+    "original_untracked_status_names": 51,
+    "status_name_sha256": "747cf3c497bfbdf7c373a2aa621be3cb241a61f7ef9f508c39bf64588ff70a60",
+    "protected_payload_bytes_read_or_hashed": false,
+    "fixed_document_sha256": {
+      "CANON.md": "047b7fbbc1acacf01d2716e3c98cdefd0b9b20136ac4a3306f55dd6775465250",
+      "UDT_METRIC_KERNEL_DEVELOPMENT.md": "3b625d8f43620a37c99d9f4f0fdc9390c3a12306b1da87281c143ce84d40a81e",
+      "UDT_CONSOLIDATED_RESEARCH_ACCOUNT.md": "d767d3f67a5abcf1674627ce469ac6fee3994b1bf8b144df74ada39df9813490"
+    },
+    "index_empty_at_final_metadata_check": true
+  },
+  "omissions": [
+    "new scientific reproof or original trajectory campaign",
+    "interval certification",
+    "empirical validation or physical-model selection",
+    "different-model/human/runtime attestation",
+    "genericity or exhaustive software proof",
+    "protected payload and backup completeness",
+    "Stage B/C scientific results",
+    "subsequent Git staging/commit/push/publication"
+  ],
+  "input_sha256": {
+    "AGENTS.md": "f8fa9f6135d80332e4d28b0dcfefd04e43c00042512968bb9eacf2f692499053",
+    "CANON.md": "047b7fbbc1acacf01d2716e3c98cdefd0b9b20136ac4a3306f55dd6775465250",
+    "CURRENT_RESEARCH_PROGRAM.md": "53f662476475392f70ce43e4dfa115f40351bae097e44911c37c4bc86d14691f",
+    "CURRENT_SCIENTIFIC_PREMISES.md": "58c0898f6e98a3998ae28e33dd598bc34bda14b4e7bcfb2840028c57bc10a1d2",
+    "CURRENT_SCIENTIFIC_PREMISES.tsv": "7a3d69d5a0bc3ac98e2ebe2bb0c6d029df30071bf403baffed2223a193dc720b",
+    "HANDOFF.md": "a438c7831a729d4a875dd3333e443b5b4d4607b610447ff8c989922ef6efb1e2",
+    "INDEX.md": "409e551233fef8d8e8fa44cdea5d7a59c217f2b68e7bc0e28331b62b5ec70c77",
+    "LIVE.md": "01472c4a98802729c7e4e2e71c13a52a2754040bc3b6460eebb1955aa828dd86",
+    "MEMORY.md": "41569ccf5d8e908f4c470966bc0682a63b814749f777ff126062ad21f441044e",
+    "UDT_CONSOLIDATED_RESEARCH_ACCOUNT.md": "d767d3f67a5abcf1674627ce469ac6fee3994b1bf8b144df74ada39df9813490",
+    "UDT_METRIC_KERNEL_DEVELOPMENT.md": "3b625d8f43620a37c99d9f4f0fdc9390c3a12306b1da87281c143ce84d40a81e",
+    "UDT_RESEARCH_ROADMAP.md": "702bdf02cb5a6b07602662f184b2a3ff4efdee736094ced404a205bd6a0bae87",
+    "ncb1_banking_guard.py": "e98cdc069845d332fcb835852c619a784bd30816185bf8cae2b5fe1c44d51e9b",
+    "signal_chain_banking_guard.py": "ac46d366fd47e16da1d55d3fe97a534d94116090a742bc8e66903be5c1e336f1",
+    "tests/test_ncb1_banking.py": "612873b6a68e75cf76bbf36516e8503e3d8eb9c802b43995a2fd1c4d5a748723",
+    "tests/test_signal_chain_banking.py": "29a732f272dfa2aa0626a7b02588c2994151f73d1d91163d79285c69c0c1b372",
+    "tests/test_startup_surface.py": "2b8d6be30250d67a8ade4bd4bd885c0d4fa9acb9512b8abbef2473c029e443f8",
+    "udt_signal_chain_banking_2026-09-13/ACCEPTANCE_AMENDMENT.json": "16a3b0819fdb73ae0a2317e3f0edcfa13e92545f97870e31eb21baa9a9cc3f27",
+    "udt_signal_chain_banking_2026-09-13/ACCEPTANCE_FREEZE.json": "34e51716fb8a5552485cb4cb5b18422d5e8ddeec13d244cb9096e4940d5f61b2",
+    "udt_signal_chain_banking_2026-09-13/AUDIT_INPUTS.json": "72c34fbb2884813ad47abc34b6dd980cd0d5ba17015eadc8a57f2844dcc4ecfd",
+    "udt_signal_chain_banking_2026-09-13/BANKED_CLAIMS.json": "48d6e1233f8bc55683130eec5c2a9246c067fad0bc13368b2bcf9eb6ecd57599",
+    "udt_signal_chain_banking_2026-09-13/BANKED_ROWS.tsv": "abce35323a1eaa328e224ef9305f8a59ab8b7fc1e933ca6ca660ff4c2362b163",
+    "udt_signal_chain_banking_2026-09-13/BANKING_RECORD.md": "5e7070af6dcc549ecad8962dd0056ea7a08bb747140aa4484da26f4ba9dc2397",
+    "udt_signal_chain_banking_2026-09-13/BANKING_RECORD_INITIAL.md": "acd318302cd8e2d5c9205900c50fd226c14624b9437157e01f9aa6ef7aa21712",
+    "udt_signal_chain_banking_2026-09-13/CLOSEOUT.md": "3c07593ead187cbbc4ab434e23fbed7d3ce86f0b51b725ff68a44f7288987f5b",
+    "udt_signal_chain_banking_2026-09-13/CLOSEOUT_BEFORE_COUNT_CLARIFICATION.md": "2ba1044ba3aada8d513e946824f389704c54c65d1b684620ab398ae7b579c5f6",
+    "udt_signal_chain_banking_2026-09-13/DISPOSITIONS.tsv": "65bfade755d0abeba7ddfb3016c9a0b94a062a8de2caf62fa0a30d9f56f14de4",
+    "udt_signal_chain_banking_2026-09-13/EXECUTION_INTERVALS.json": "740d99a703968b09b9b2d1d3ec78162d5b96eb7acba567c02e43740f40941118",
+    "udt_signal_chain_banking_2026-09-13/FINAL_INTAKE_AMENDMENT.json": "aa644244801e80ef0ff32b8297c2b6b3272840416541f35eb37d1d36bf3f63b7",
+    "udt_signal_chain_banking_2026-09-13/FINAL_REVIEW_INTAKE.json": "0e6548953f045dafcd3fcb4f1bc2b2fc02da28aa740493c9385388407ecba6c1",
+    "udt_signal_chain_banking_2026-09-13/INTEGRATION_REPAIR_NOTE.md": "2a60ec0c2f9aa2512fb899bbc024ae2a1c25a1b2a62c39a57ecbd189911a7517",
+    "udt_signal_chain_banking_2026-09-13/LAUNCH.json": "afb4f27eda47be05ef4a8a73ebfec155c91641233180e868788a956e241951dd",
+    "udt_signal_chain_banking_2026-09-13/LAY_REPORT.md": "e66c51691dbd2bf507bf1c9086d5519b397fe0b56e3fa5b5f9cc5fccbe9e4b0d",
+    "udt_signal_chain_banking_2026-09-13/POST_AUDIT_NAVIGATION.json": "e9adbf5beee28b6de3b8ca23e5716ee70480b764a3c837afdba3a9978153a929",
+    "udt_signal_chain_banking_2026-09-13/REVIEW_DISPATCH.md": "7d4e064f81d6bc92b9794fb2289641bd924663ec64e90241f3e6e1746534be1b",
+    "udt_signal_chain_banking_2026-09-13/SOURCE_EVIDENCE_SHA256SUMS": "44bc5acb083274befe7e2c3df2fcdbd4103aa550447c948321f4aa380932f021",
+    "udt_signal_chain_banking_2026-09-13/SOURCE_MEMBERSHIP.json": "92fac2cf8856b235bfec9a65dfcef602d86462e4b6f64027866dbcd94d2f311c",
+    "udt_signal_chain_banking_2026-09-13/WORK_ORDER.md": "f77d7ff8f7c1fd684fd68da494491d977d2c6ccad102bcd1a5ce0297b2d6f84c",
+    "udt_signal_chain_banking_2026-09-13/checks/integration_final.capture_provenance.json": "1708ac5c5d0d04121fbf8a8a37492ae7048039e54bbd6017a0c3fc5222886e40",
+    "udt_signal_chain_banking_2026-09-13/checks/integration_final.json": "3c2f00126fee483b3887d448f77963e08b8d44eaae881daab1190e6f562cf96b",
+    "udt_signal_chain_banking_2026-09-13/checks/integration_final.stderr": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "udt_signal_chain_banking_2026-09-13/checks/integration_final.stdout": "72a487f1a09303302843f867d40cbb3c7525a30e2e53c4310dce152bf7243ffa",
+    "udt_signal_chain_banking_2026-09-13/checks/integration_initial.capture_provenance.json": "1708ac5c5d0d04121fbf8a8a37492ae7048039e54bbd6017a0c3fc5222886e40",
+    "udt_signal_chain_banking_2026-09-13/checks/integration_initial.json": "01bc9daf99bd9edf7e7e8f27c7d824204bccf22358d7935cd4d4915c72303d05",
+    "udt_signal_chain_banking_2026-09-13/checks/integration_initial.stderr": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "udt_signal_chain_banking_2026-09-13/checks/integration_initial.stdout": "f8e02116d0154dce260dcae28d6003857f40a8827c32cb2b8d9563dc6d3f6125",
+    "udt_signal_chain_banking_2026-09-13/checks/navigation_final.capture_provenance.json": "cc6bd72bf11294027991dd739db3a56cb4c6b16aad88b1efe8d6797d67121427",
+    "udt_signal_chain_banking_2026-09-13/checks/navigation_final.json": "2370bc28c2562ba97885bd887ef6fdf4442ea15a2fb0a214985d7201589a6a22",
+    "udt_signal_chain_banking_2026-09-13/checks/navigation_final.stderr": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "udt_signal_chain_banking_2026-09-13/checks/navigation_final.stdout": "1998f39b5603b52367bc3f5fec3c5ee949a71cbb613b5920611df6a1e666e5e7",
+    "udt_signal_chain_banking_2026-09-13/checks/premise406.capture_provenance.json": "422af293cd240c74bb2420052a0cb0885da49fd0fa76b2cbdc53bd100c0c6a4e",
+    "udt_signal_chain_banking_2026-09-13/checks/premise406.json": "59db14cc68a623e894106570a04d93825d23c61daab458ec8f82e1597018ecb6",
+    "udt_signal_chain_banking_2026-09-13/checks/premise406.stderr": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "udt_signal_chain_banking_2026-09-13/checks/premise406.stdout": "394e02c4ced55fc8f6480a3cc65b9ebd38f9c0cb553f897b10313b8ad2104b53",
+    "udt_signal_chain_banking_2026-09-13/review/ACCEPTANCE_CORRESPONDENCE.json": "5d43e67109aefe981b754ed9a4d3e52ca1ad95746cc3f349543c749b9cd01f3e",
+    "udt_signal_chain_banking_2026-09-13/review/ASSERTION_DIFF.json": "a59a708d07b7f3eed70e32ae3b9e3a895f880cad302568c0a84bf991eba00fc6",
+    "udt_signal_chain_banking_2026-09-13/review/AUDIT_INPUT_CORRESPONDENCE.json": "df79568f8097896310bee114b064ab65e8b7064c715cc8d52c77e92564a6e834",
+    "udt_signal_chain_banking_2026-09-13/review/BASELINE_ASSERTIONS.json": "8df4003a6056096e07159d0c4145a1e3250466baa801ea6409b942f7a7ddca1d",
+    "udt_signal_chain_banking_2026-09-13/review/COUNT_PRECISION_NOTE.md": "682a53e68e1d919c3c5e30d762ed2fb567270be28bf184f824e170c0c030c1a3",
+    "udt_signal_chain_banking_2026-09-13/review/FINAL_AMENDMENT_CHECK.json": "0f16bd0b3f87d21f5b4f21135bc890dd3d1a0d85436a4146b19070fc110e08dd",
+    "udt_signal_chain_banking_2026-09-13/review/FINAL_FIDELITY.md": "d29134b68c543b62b766c0673f9f52c371be1c9fe4a236ffa2845b05f2d77f44",
+    "udt_signal_chain_banking_2026-09-13/review/FINAL_METADATA_CHECK.json": "74a38cd062fb3cf35898f2cb446aa63c4a54acd62e5adba94d6c8ff687e83d66",
+    "udt_signal_chain_banking_2026-09-13/review/INITIAL_ACCEPTANCE_FREEZE.json": "34e51716fb8a5552485cb4cb5b18422d5e8ddeec13d244cb9096e4940d5f61b2",
+    "udt_signal_chain_banking_2026-09-13/review/INITIAL_BANKING_RECORD.md": "acd318302cd8e2d5c9205900c50fd226c14624b9437157e01f9aa6ef7aa21712",
+    "udt_signal_chain_banking_2026-09-13/review/INITIAL_FINAL_CLOSEOUT.md": "3c07593ead187cbbc4ab434e23fbed7d3ce86f0b51b725ff68a44f7288987f5b",
+    "udt_signal_chain_banking_2026-09-13/review/INITIAL_FINAL_INTAKE.json": "0e6548953f045dafcd3fcb4f1bc2b2fc02da28aa740493c9385388407ecba6c1",
+    "udt_signal_chain_banking_2026-09-13/review/INITIAL_SEAL_SCRIPT.py": "66fcb4740b016f6bfe6e464299303e44ba26b642ca3169f3db06fa6c52e87464",
+    "udt_signal_chain_banking_2026-09-13/review/INSPECTION_DIAGNOSTIC.md": "213ecc44894bd9ebf1937cd2750a6c04fc8741464f964a61558ab1999e11487a",
+    "udt_signal_chain_banking_2026-09-13/review/INTEGRATION_REVIEW.md": "467549b53fcf3cba39c0f3a23afaaf35c70c63fe365bb31de58df2671972cfd0",
+    "udt_signal_chain_banking_2026-09-13/review/OBJECTION_CHRONOLOGY.md": "a2598a6666837c6c7c7bc86acd6a6921119853f87ab7779078d849a73abab533",
+    "udt_signal_chain_banking_2026-09-13/review/PIN_DELTA_CHECK.json": "1afb1d9301405e131804dacb9706b15b74e3876783aa985b715c7d2a5de3680e",
+    "udt_signal_chain_banking_2026-09-13/review/PRESERVATION_CHECK.json": "37c8228942634694bcb8b7481efb342319f26ebc143c8f01e11bcf4eb85bbd57",
+    "udt_signal_chain_banking_2026-09-13/review/REVIEW.md": "24d8f9b97f80aa8b109a77adece6f24840f6e4290e1a6915ffeec4842460e90a",
+    "udt_signal_chain_banking_2026-09-13/review/REVIEW_RECEIPT.json": "84b825fefc72ff9cd43ca0998fae12e3e670e6d23e027dcc06f22f8580aa4845",
+    "udt_signal_chain_banking_2026-09-13/review/SEAL_DIAGNOSTIC.md": "56ff2e3540302d22a9af74b5e29862955b3ac2595639821f927b8417236374c2",
+    "udt_signal_chain_banking_2026-09-13/review/SOURCE_SCOPE_NOTES.md": "7072db543f43424b1b09a4434572bf9317b0d70b0017bcff30937c1e96f6f718",
+    "udt_signal_chain_banking_2026-09-13/review/authenticate_sources.py": "32210829013700b82e3c6c71c7a8098833d8d61b3b48eedffb92be24c0457555",
+    "udt_signal_chain_banking_2026-09-13/review/check_final_correspondence.py": "2eda7c453fd8c251b599d63749c57ced1dd2f49b2994a66366d85a61106c822b",
+    "udt_signal_chain_banking_2026-09-13/review/check_integration.py": "270f43e87568e39103fe4448b6ddf52e697a1f78c12d39707497d5399d8f1eb6",
+    "udt_signal_chain_banking_2026-09-13/review/inspect_saved_readouts.py": "48c0f57f5deb6bbacc82195905dc7999a4fd9fe8c39e048ed7898f97c665d9a0",
+    "udt_signal_chain_banking_2026-09-13/review/integration_initial.capture_provenance.json": "95bbf99a2baf7a754036e57aa7fa9a15c6085086f6473a8de048f2ecf991c8fe",
+    "udt_signal_chain_banking_2026-09-13/review/integration_initial.json": "caf5f677c7db7a67969096d764f41089833943a1641aea02c4b884a66cfadb49",
+    "udt_signal_chain_banking_2026-09-13/review/integration_initial.stderr": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "udt_signal_chain_banking_2026-09-13/review/integration_initial.stdout": "8932a45a05d2e4b90a31f85e2c8bb558be0fa23ea772a4aeff913787ac629ba9",
+    "udt_signal_chain_banking_2026-09-13/review/integration_pinned.capture_provenance.json": "95bbf99a2baf7a754036e57aa7fa9a15c6085086f6473a8de048f2ecf991c8fe",
+    "udt_signal_chain_banking_2026-09-13/review/integration_pinned.json": "3320059eb09fe4892d4d99b1203796194e227fb19733ad56cb943b9a9bbad0c1",
+    "udt_signal_chain_banking_2026-09-13/review/integration_pinned.stderr": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "udt_signal_chain_banking_2026-09-13/review/integration_pinned.stdout": "c3d5a4bb8231646753540f9de486aacb6de31c143c570dab3214001dd92ae35b",
+    "udt_signal_chain_banking_2026-09-13/review/manifest_membership.capture_provenance.json": "65b01bd2438b5c865857a809f124ceba33f5b51a90f2216d36ad20c928dfe119",
+    "udt_signal_chain_banking_2026-09-13/review/manifest_membership.json": "35d1745db5994775f7478ff73ab4d7a9e001d77efa9ee39ec5b94d3fc68ec7a9",
+    "udt_signal_chain_banking_2026-09-13/review/manifest_membership.stderr": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "udt_signal_chain_banking_2026-09-13/review/manifest_membership.stdout": "200830afc5c82944ef06892c4b018310c864aa7f84ba0df49eda1cb5e3b193ef",
+    "udt_signal_chain_banking_2026-09-13/review/probe_manifest_membership.py": "977c50d5dec30c8c37438ad03895077324f638e7b596bcb8d7d63af92a295fc8",
+    "udt_signal_chain_banking_2026-09-13/review/saved_readouts.capture_provenance.json": "3442e20d53623cdeabf7be024bb168bdb35b550435b786320deacf39d1a2d596",
+    "udt_signal_chain_banking_2026-09-13/review/saved_readouts.json": "598128c79ef08ee02fca707d7d02ca2f761ce4214a80fc9aaffdd660672a4164",
+    "udt_signal_chain_banking_2026-09-13/review/saved_readouts.stderr": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "udt_signal_chain_banking_2026-09-13/review/saved_readouts.stdout": "5c544473b89c6e385faf0820c241d7302ba33e4b88ac4fb80ae5181b641fb214",
+    "udt_signal_chain_banking_2026-09-13/review/seal_final_review.py": "6e523033655959199f43eba62a1359eeea3d0fdb7491a4ac45eac50f25e10384",
+    "udt_signal_chain_banking_2026-09-13/review/source_authentication.capture_provenance.json": "bafa4fa8bfba97f4d67b0e505c2f5517a99a9546b10ddbc833f860e2a58a032c",
+    "udt_signal_chain_banking_2026-09-13/review/source_authentication.json": "6cb4330fa1647d685e1bfe5912097c530b5f5d5f1648b171d4c7bdb666937ec3",
+    "udt_signal_chain_banking_2026-09-13/review/source_authentication.stderr": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "udt_signal_chain_banking_2026-09-13/review/source_authentication.stdout": "d6976732e149925954f4ff5abd6b68b177b826c29f3c632932dac3274f6f591b",
+    "udt_signal_continuation_2026-09-13/WORK_ORDER.md": "72cdd8495380e08724949cc3b0c48297ad1696171b769dcf689b82b506685bd9",
+    "verify_current_scientific_premises.py": "98dd79610f6bc9d116db65104345c84b64aae0bae2f81c93bec2f64b40745eec"
+  },
+  "receipt_self_hash": "Excluded to avoid circularity; caller may hash sealed file."
+}

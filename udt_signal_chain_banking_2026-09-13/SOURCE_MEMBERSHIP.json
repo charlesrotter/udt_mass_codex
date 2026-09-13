@@ -1,0 +1,26 @@
+{
+  "recorded_utc": "2026-09-13T02:36:34.329564+00:00",
+  "baseline_head": "bf1a58140ef3eaf438f18e3cc2dcd57df52d2549",
+  "packages": {
+    "udt_optics_bridge_assessment_2026-09-12": 120,
+    "udt_redshift_distance_readiness_2026-09-12": 63,
+    "udt_ne1_directional_clock_reach_2026-09-12": 103,
+    "udt_ne1_tilted_beam_geometry_2026-09-12": 108,
+    "udt_linked_stationary_signal_benchmark_2026-09-12": 95,
+    "udt_conditional_signal_sequence_2026-09-12": 173
+  },
+  "tracked_source_files": 662,
+  "source_manifest_sha256": "44bc5acb083274befe7e2c3df2fcdbd4103aa550447c948321f4aa380932f021",
+  "membership_command": [
+    "git",
+    "ls-files",
+    "-z",
+    "--",
+    "udt_optics_bridge_assessment_2026-09-12",
+    "udt_redshift_distance_readiness_2026-09-12",
+    "udt_ne1_directional_clock_reach_2026-09-12",
+    "udt_ne1_tilted_beam_geometry_2026-09-12",
+    "udt_linked_stationary_signal_benchmark_2026-09-12",
+    "udt_conditional_signal_sequence_2026-09-12"
+  ]
+}

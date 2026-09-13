@@ -1,0 +1,12 @@
+id	result	disposition	reason
+G416	OB1	OWNER_AUTHORIZED_EXACT_CONDITIONAL_BANKING_PENDING_GATES	Entire original candidates/reviews/clarifications control
+G417	ZDR1	OWNER_AUTHORIZED_EXACT_CONDITIONAL_BANKING_PENDING_GATES	Entire original candidates/reviews/clarifications control
+G418	NCR1	OWNER_AUTHORIZED_EXACT_CONDITIONAL_BANKING_PENDING_GATES	Entire original candidates/reviews/clarifications control
+G419	NTB1	OWNER_AUTHORIZED_EXACT_CONDITIONAL_BANKING_PENDING_GATES	Entire original candidates/reviews/clarifications control
+G420	LSB1	OWNER_AUTHORIZED_EXACT_CONDITIONAL_BANKING_PENDING_GATES	Entire original candidates/reviews/clarifications control
+G421	CSS3	OWNER_AUTHORIZED_EXACT_CONDITIONAL_BANKING_PENDING_GATES	Entire original candidates/reviews/clarifications control
+G422	CSS4	OWNER_AUTHORIZED_EXACT_CONDITIONAL_BANKING_PENDING_GATES	Entire original candidates/reviews/clarifications control
+G423	CSS5	OWNER_AUTHORIZED_EXACT_CONDITIONAL_BANKING_PENDING_GATES	Entire original candidates/reviews/clarifications control
+--	TI3	SEPARATE_HOLD	Not a prerequisite of this signal-chain banking scope
+--	OB2	ELIGIBILITY_UNRESOLVED	No instrument/dataset authorization
+--	NEW_STAGE_B_C	CONDITIONAL_UNPROMOTED	Scientific extensions may be reviewed but promotion not included

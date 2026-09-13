@@ -1,0 +1,26 @@
+{
+  "utc": "2026-09-13T02:59:56.170654+00:00",
+  "verdict": "PASS_DIRECT_SCOPE_AND_NAME_STATUS",
+  "head": "bf1a58140ef3eaf438f18e3cc2dcd57df52d2549",
+  "origin_grok_local_ref": "bf1a58140ef3eaf438f18e3cc2dcd57df52d2549",
+  "branch": "grok",
+  "original_untracked_names_exact": 51,
+  "original_untracked_name_status_sha256": "747cf3c497bfbdf7c373a2aa621be3cb241a61f7ef9f508c39bf64588ff70a60",
+  "tracked_modified_paths": [
+    "AGENTS.md",
+    "CURRENT_RESEARCH_PROGRAM.md",
+    "CURRENT_SCIENTIFIC_PREMISES.md",
+    "CURRENT_SCIENTIFIC_PREMISES.tsv",
+    "HANDOFF.md",
+    "INDEX.md",
+    "LIVE.md",
+    "MEMORY.md",
+    "UDT_RESEARCH_ROADMAP.md",
+    "ncb1_banking_guard.py",
+    "tests/test_ncb1_banking.py",
+    "tests/test_startup_surface.py",
+    "verify_current_scientific_premises.py"
+  ],
+  "staged_paths": [],
+  "scope": "Name/status and tracked path inventory only; protected payload bytes uninspected; local origin ref is not a fresh network check."
+}

@@ -1,0 +1,12 @@
+{
+  "utc": "2026-09-13T02:53:12.294559+00:00",
+  "stage": "integration implementation; source-fidelity review now pinned; actual regression and full406 pending",
+  "sha256": {
+    "signal_chain_banking_guard.py": "4211aa3a9c327c676c85d2826aba45552fa629cb1760354d58ff87d681e141db",
+    "ncb1_banking_guard.py": "e98cdc069845d332fcb835852c619a784bd30816185bf8cae2b5fe1c44d51e9b",
+    "verify_current_scientific_premises.py": "8290845644fdafd237efdd53974c7653579e7b5da7e5a4e3b3ba58f710cad8ec",
+    "tests/test_signal_chain_banking.py": "29a732f272dfa2aa0626a7b02588c2994151f73d1d91163d79285c69c0c1b372",
+    "tests/test_ncb1_banking.py": "612873b6a68e75cf76bbf36516e8503e3d8eb9c802b43995a2fd1c4d5a748723",
+    "tests/test_startup_surface.py": "2b8d6be30250d67a8ade4bd4bd885c0d4fa9acb9512b8abbef2473c029e443f8"
+  }
+}

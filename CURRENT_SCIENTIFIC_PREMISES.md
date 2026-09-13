@@ -1,16 +1,16 @@
 # Current scientific premises — bounded orientation
 
-`LIVE.md` owns current status. The exact 398-row `CURRENT_SCIENTIFIC_PREMISES.tsv` owns grades;
+`LIVE.md` owns current status. The exact 406-row `CURRENT_SCIENTIFIC_PREMISES.tsv` owns grades;
 run `python3 verify_current_scientific_premises.py` before querying exact rows.
 Exact-scope banking through G415 is COMPLETE; all inherited limits remain.
-Sources/reviews: `INDEX.md`.
-Original397 rows, evidence, canon and fixed manuscript remain unchanged.
+G416--G423 conditional acceptance/current checks: `INDEX.md`.
+Original398 rows, evidence, canon and fixed manuscript remain unchanged.
 
 GR is FILTER ONLY, not a response-law input; Local Metric Sufficiency remains owner-provisional.
 G312's current authority qualifies inherited “admitted/lawful” labels. Einstein claims remain
 CONDITIONAL on full reviewed premises, not established from filter-only GR; membership is unclosed.
 Current record: `udt_gr_filter_reconciliation_2026-09-09/AUTHORITY_RECORD.md`. No theorem is regraded.
-G415 banking checks/review: INDEX; earlier passes remain attributed evidence.
+G416--G423 banking checks/review: INDEX; earlier passes remain attributed evidence.
 
 ## Foundational and adopted layer
 

@@ -1,0 +1,1026 @@
+{
+  "utc": "2026-09-13T02:54:02.995191+00:00",
+  "verdict": "PASS_DIRECT_BYTE_AUTHENTICATION_AND_HOSTILE_BOUNDARIES",
+  "module": "signal_chain_banking_guard",
+  "projector": "without_signal_chain",
+  "original398_byte_identity": true,
+  "current406_exact_rows": true,
+  "events": [
+    {
+      "case": "G416:field0",
+      "reads": 1,
+      "rejection": "SIGNAL current rows missing/partial/duplicate"
+    },
+    {
+      "case": "G416:field1",
+      "reads": 1,
+      "rejection": "SIGNAL exact row/scope changed: G416"
+    },
+    {
+      "case": "G416:field2",
+      "reads": 1,
+      "rejection": "SIGNAL exact row/scope changed: G416"
+    },
+    {
+      "case": "G416:field3",
+      "reads": 1,
+      "rejection": "SIGNAL exact row/scope changed: G416"
+    },
+    {
+      "case": "G416:field4",
+      "reads": 1,
+      "rejection": "SIGNAL exact row/scope changed: G416"
+    },
+    {
+      "case": "G416:field5",
+      "reads": 1,
+      "rejection": "SIGNAL exact row/scope changed: G416"
+    },
+    {
+      "case": "G416:field6",
+      "reads": 1,
+      "rejection": "SIGNAL exact row/scope changed: G416"
+    },
+    {
+      "case": "G416:field7",
+      "reads": 1,
+      "rejection": "SIGNAL exact row/scope changed: G416"
+    },
+    {
+      "case": "G416:field8",
+      "reads": 1,
+      "rejection": "SIGNAL exact row/scope changed: G416"
+    },
+    {
+      "case": "G416:missing",
+      "reads": 1,
+      "rejection": "SIGNAL current rows missing/partial/duplicate"
+    },
+    {
+      "case": "G416:duplicate",
+      "reads": 1,
+      "rejection": "SIGNAL current rows missing/partial/duplicate"
+    },
+    {
+      "case": "G417:field0",
+      "reads": 1,
+      "rejection": "SIGNAL current rows missing/partial/duplicate"
+    },
+    {
+      "case": "G417:field1",
+      "reads": 1,
+      "rejection": "SIGNAL exact row/scope changed: G417"
+    },
+    {
+      "case": "G417:field2",
+      "reads": 1,
+      "rejection": "SIGNAL exact row/scope changed: G417"
+    },
+    {
+      "case": "G417:field3",
+      "reads": 1,
+      "rejection": "SIGNAL exact row/scope changed: G417"
+    },
+    {
+      "case": "G417:field4",
+      "reads": 1,
+      "rejection": "SIGNAL exact row/scope changed: G417"
+    },
+    {
+      "case": "G417:field5",
+      "reads": 1,
+      "rejection": "SIGNAL exact row/scope changed: G417"
+    },
+    {
+      "case": "G417:field6",
+      "reads": 1,
+      "rejection": "SIGNAL exact row/scope changed: G417"
+    },
+    {
+      "case": "G417:field7",
+      "reads": 1,
+      "rejection": "SIGNAL exact row/scope changed: G417"
+    },
+    {
+      "case": "G417:field8",
+      "reads": 1,
+      "rejection": "SIGNAL exact row/scope changed: G417"
+    },
+    {
+      "case": "G417:missing",
+      "reads": 1,
+      "rejection": "SIGNAL current rows missing/partial/duplicate"
+    },
+    {
+      "case": "G417:duplicate",
+      "reads": 1,
+      "rejection": "SIGNAL current rows missing/partial/duplicate"
+    },
+    {
+      "case": "G418:field0",
+      "reads": 1,
+      "rejection": "SIGNAL current rows missing/partial/duplicate"
+    },
+    {
+      "case": "G418:field1",
+      "reads": 1,
+      "rejection": "SIGNAL exact row/scope changed: G418"
+    },
+    {
+      "case": "G418:field2",
+      "reads": 1,
+      "rejection": "SIGNAL exact row/scope changed: G418"
+    },
+    {
+      "case": "G418:field3",
+      "reads": 1,
+      "rejection": "SIGNAL exact row/scope changed: G418"
+    },
+    {
+      "case": "G418:field4",
+      "reads": 1,
+      "rejection": "SIGNAL exact row/scope changed: G418"
+    },
+    {
+      "case": "G418:field5",
+      "reads": 1,
+      "rejection": "SIGNAL exact row/scope changed: G418"
+    },
+    {
+      "case": "G418:field6",
+      "reads": 1,
+      "rejection": "SIGNAL exact row/scope changed: G418"
+    },
+    {
+      "case": "G418:field7",
+      "reads": 1,
+      "rejection": "SIGNAL exact row/scope changed: G418"
+    },
+    {
+      "case": "G418:field8",
+      "reads": 1,
+      "rejection": "SIGNAL exact row/scope changed: G418"
+    },
+    {
+      "case": "G418:missing",
+      "reads": 1,
+      "rejection": "SIGNAL current rows missing/partial/duplicate"
+    },
+    {
+      "case": "G418:duplicate",
+      "reads": 1,
+      "rejection": "SIGNAL current rows missing/partial/duplicate"
+    },
+    {
+      "case": "G419:field0",
+      "reads": 1,
+      "rejection": "SIGNAL current rows missing/partial/duplicate"
+    },
+    {
+      "case": "G419:field1",
+      "reads": 1,
+      "rejection": "SIGNAL exact row/scope changed: G419"
+    },
+    {
+      "case": "G419:field2",
+      "reads": 1,
+      "rejection": "SIGNAL exact row/scope changed: G419"
+    },
+    {
+      "case": "G419:field3",
+      "reads": 1,
+      "rejection": "SIGNAL exact row/scope changed: G419"
+    },
+    {
+      "case": "G419:field4",
+      "reads": 1,
+      "rejection": "SIGNAL exact row/scope changed: G419"
+    },
+    {
+      "case": "G419:field5",
+      "reads": 1,
+      "rejection": "SIGNAL exact row/scope changed: G419"
+    },
+    {
+      "case": "G419:field6",
+      "reads": 1,
+      "rejection": "SIGNAL exact row/scope changed: G419"
+    },
+    {
+      "case": "G419:field7",
+      "reads": 1,
+      "rejection": "SIGNAL exact row/scope changed: G419"
+    },
+    {
+      "case": "G419:field8",
+      "reads": 1,
+      "rejection": "SIGNAL exact row/scope changed: G419"
+    },
+    {
+      "case": "G419:missing",
+      "reads": 1,
+      "rejection": "SIGNAL current rows missing/partial/duplicate"
+    },
+    {
+      "case": "G419:duplicate",
+      "reads": 1,
+      "rejection": "SIGNAL current rows missing/partial/duplicate"
+    },
+    {
+      "case": "G420:field0",
+      "reads": 1,
+      "rejection": "SIGNAL current rows missing/partial/duplicate"
+    },
+    {
+      "case": "G420:field1",
+      "reads": 1,
+      "rejection": "SIGNAL exact row/scope changed: G420"
+    },
+    {
+      "case": "G420:field2",
+      "reads": 1,
+      "rejection": "SIGNAL exact row/scope changed: G420"
+    },
+    {
+      "case": "G420:field3",
+      "reads": 1,
+      "rejection": "SIGNAL exact row/scope changed: G420"
+    },
+    {
+      "case": "G420:field4",
+      "reads": 1,
+      "rejection": "SIGNAL exact row/scope changed: G420"
+    },
+    {
+      "case": "G420:field5",
+      "reads": 1,
+      "rejection": "SIGNAL exact row/scope changed: G420"
+    },
+    {
+      "case": "G420:field6",
+      "reads": 1,
+      "rejection": "SIGNAL exact row/scope changed: G420"
+    },
+    {
+      "case": "G420:field7",
+      "reads": 1,
+      "rejection": "SIGNAL exact row/scope changed: G420"
+    },
+    {
+      "case": "G420:field8",
+      "reads": 1,
+      "rejection": "SIGNAL exact row/scope changed: G420"
+    },
+    {
+      "case": "G420:missing",
+      "reads": 1,
+      "rejection": "SIGNAL current rows missing/partial/duplicate"
+    },
+    {
+      "case": "G420:duplicate",
+      "reads": 1,
+      "rejection": "SIGNAL current rows missing/partial/duplicate"
+    },
+    {
+      "case": "G421:field0",
+      "reads": 1,
+      "rejection": "SIGNAL current rows missing/partial/duplicate"
+    },
+    {
+      "case": "G421:field1",
+      "reads": 1,
+      "rejection": "SIGNAL exact row/scope changed: G421"
+    },
+    {
+      "case": "G421:field2",
+      "reads": 1,
+      "rejection": "SIGNAL exact row/scope changed: G421"
+    },
+    {
+      "case": "G421:field3",
+      "reads": 1,
+      "rejection": "SIGNAL exact row/scope changed: G421"
+    },
+    {
+      "case": "G421:field4",
+      "reads": 1,
+      "rejection": "SIGNAL exact row/scope changed: G421"
+    },
+    {
+      "case": "G421:field5",
+      "reads": 1,
+      "rejection": "SIGNAL exact row/scope changed: G421"
+    },
+    {
+      "case": "G421:field6",
+      "reads": 1,
+      "rejection": "SIGNAL exact row/scope changed: G421"
+    },
+    {
+      "case": "G421:field7",
+      "reads": 1,
+      "rejection": "SIGNAL exact row/scope changed: G421"
+    },
+    {
+      "case": "G421:field8",
+      "reads": 1,
+      "rejection": "SIGNAL exact row/scope changed: G421"
+    },
+    {
+      "case": "G421:missing",
+      "reads": 1,
+      "rejection": "SIGNAL current rows missing/partial/duplicate"
+    },
+    {
+      "case": "G421:duplicate",
+      "reads": 1,
+      "rejection": "SIGNAL current rows missing/partial/duplicate"
+    },
+    {
+      "case": "G422:field0",
+      "reads": 1,
+      "rejection": "SIGNAL current rows missing/partial/duplicate"
+    },
+    {
+      "case": "G422:field1",
+      "reads": 1,
+      "rejection": "SIGNAL exact row/scope changed: G422"
+    },
+    {
+      "case": "G422:field2",
+      "reads": 1,
+      "rejection": "SIGNAL exact row/scope changed: G422"
+    },
+    {
+      "case": "G422:field3",
+      "reads": 1,
+      "rejection": "SIGNAL exact row/scope changed: G422"
+    },
+    {
+      "case": "G422:field4",
+      "reads": 1,
+      "rejection": "SIGNAL exact row/scope changed: G422"
+    },
+    {
+      "case": "G422:field5",
+      "reads": 1,
+      "rejection": "SIGNAL exact row/scope changed: G422"
+    },
+    {
+      "case": "G422:field6",
+      "reads": 1,
+      "rejection": "SIGNAL exact row/scope changed: G422"
+    },
+    {
+      "case": "G422:field7",
+      "reads": 1,
+      "rejection": "SIGNAL exact row/scope changed: G422"
+    },
+    {
+      "case": "G422:field8",
+      "reads": 1,
+      "rejection": "SIGNAL exact row/scope changed: G422"
+    },
+    {
+      "case": "G422:missing",
+      "reads": 1,
+      "rejection": "SIGNAL current rows missing/partial/duplicate"
+    },
+    {
+      "case": "G422:duplicate",
+      "reads": 1,
+      "rejection": "SIGNAL current rows missing/partial/duplicate"
+    },
+    {
+      "case": "G423:field0",
+      "reads": 1,
+      "rejection": "SIGNAL current rows missing/partial/duplicate"
+    },
+    {
+      "case": "G423:field1",
+      "reads": 1,
+      "rejection": "SIGNAL exact row/scope changed: G423"
+    },
+    {
+      "case": "G423:field2",
+      "reads": 1,
+      "rejection": "SIGNAL exact row/scope changed: G423"
+    },
+    {
+      "case": "G423:field3",
+      "reads": 1,
+      "rejection": "SIGNAL exact row/scope changed: G423"
+    },
+    {
+      "case": "G423:field4",
+      "reads": 1,
+      "rejection": "SIGNAL exact row/scope changed: G423"
+    },
+    {
+      "case": "G423:field5",
+      "reads": 1,
+      "rejection": "SIGNAL exact row/scope changed: G423"
+    },
+    {
+      "case": "G423:field6",
+      "reads": 1,
+      "rejection": "SIGNAL exact row/scope changed: G423"
+    },
+    {
+      "case": "G423:field7",
+      "reads": 1,
+      "rejection": "SIGNAL exact row/scope changed: G423"
+    },
+    {
+      "case": "G423:field8",
+      "reads": 1,
+      "rejection": "SIGNAL exact row/scope changed: G423"
+    },
+    {
+      "case": "G423:missing",
+      "reads": 1,
+      "rejection": "SIGNAL current rows missing/partial/duplicate"
+    },
+    {
+      "case": "G423:duplicate",
+      "reads": 1,
+      "rejection": "SIGNAL current rows missing/partial/duplicate"
+    },
+    {
+      "case": "all new rows absent",
+      "reads": 1,
+      "rejection": "SIGNAL current rows missing/partial/duplicate"
+    },
+    {
+      "case": "old row changed",
+      "reads": 1,
+      "rejection": "SIGNAL changed an original398 registry byte"
+    },
+    {
+      "case": "header changed",
+      "reads": 1,
+      "rejection": "SIGNAL changed an original398 registry byte"
+    },
+    {
+      "case": "validate_conditional_banking:valid then poisoned second read",
+      "reads": 1,
+      "rejection": null
+    },
+    {
+      "case": "validate_conditional_banking:poisoned first then valid",
+      "reads": 1,
+      "rejection": "SIGNAL exact row/scope changed: G421"
+    },
+    {
+      "case": "validate_conditional_banking:partial then valid",
+      "reads": 1,
+      "rejection": "SIGNAL current rows missing/partial/duplicate"
+    },
+    {
+      "case": "validate_conditional_banking:duplicate then valid",
+      "reads": 1,
+      "rejection": "SIGNAL current rows missing/partial/duplicate"
+    },
+    {
+      "case": "validate_conditional_banking:historical absence",
+      "reads": 1,
+      "rejection": null
+    },
+    {
+      "case": "validate_shared_constraint_banking:valid then poisoned second read",
+      "reads": 1,
+      "rejection": null
+    },
+    {
+      "case": "validate_shared_constraint_banking:poisoned first then valid",
+      "reads": 1,
+      "rejection": "SIGNAL exact row/scope changed: G421"
+    },
+    {
+      "case": "validate_shared_constraint_banking:partial then valid",
+      "reads": 1,
+      "rejection": "SIGNAL current rows missing/partial/duplicate"
+    },
+    {
+      "case": "validate_shared_constraint_banking:duplicate then valid",
+      "reads": 1,
+      "rejection": "SIGNAL current rows missing/partial/duplicate"
+    },
+    {
+      "case": "validate_shared_constraint_banking:historical absence",
+      "reads": 1,
+      "rejection": null
+    },
+    {
+      "case": "validate_persistence_banking:valid then poisoned second read",
+      "reads": 1,
+      "rejection": null
+    },
+    {
+      "case": "validate_persistence_banking:poisoned first then valid",
+      "reads": 1,
+      "rejection": "SIGNAL exact row/scope changed: G421"
+    },
+    {
+      "case": "validate_persistence_banking:partial then valid",
+      "reads": 1,
+      "rejection": "SIGNAL current rows missing/partial/duplicate"
+    },
+    {
+      "case": "validate_persistence_banking:duplicate then valid",
+      "reads": 1,
+      "rejection": "SIGNAL current rows missing/partial/duplicate"
+    },
+    {
+      "case": "validate_persistence_banking:historical absence",
+      "reads": 1,
+      "rejection": null
+    },
+    {
+      "case": "validate_restrictiveness_banking:valid then poisoned second read",
+      "reads": 1,
+      "rejection": null
+    },
+    {
+      "case": "validate_restrictiveness_banking:poisoned first then valid",
+      "reads": 1,
+      "rejection": "SIGNAL exact row/scope changed: G421"
+    },
+    {
+      "case": "validate_restrictiveness_banking:partial then valid",
+      "reads": 1,
+      "rejection": "SIGNAL current rows missing/partial/duplicate"
+    },
+    {
+      "case": "validate_restrictiveness_banking:duplicate then valid",
+      "reads": 1,
+      "rejection": "SIGNAL current rows missing/partial/duplicate"
+    },
+    {
+      "case": "validate_restrictiveness_banking:historical absence",
+      "reads": 1,
+      "rejection": null
+    },
+    {
+      "case": "validate_source_metric_banking:valid then poisoned second read",
+      "reads": 1,
+      "rejection": null
+    },
+    {
+      "case": "validate_source_metric_banking:poisoned first then valid",
+      "reads": 1,
+      "rejection": "SIGNAL exact row/scope changed: G421"
+    },
+    {
+      "case": "validate_source_metric_banking:partial then valid",
+      "reads": 1,
+      "rejection": "SIGNAL current rows missing/partial/duplicate"
+    },
+    {
+      "case": "validate_source_metric_banking:duplicate then valid",
+      "reads": 1,
+      "rejection": "SIGNAL current rows missing/partial/duplicate"
+    },
+    {
+      "case": "validate_source_metric_banking:historical absence",
+      "reads": 1,
+      "rejection": null
+    },
+    {
+      "case": "validate_reconstruction_banking:valid then poisoned second read",
+      "reads": 1,
+      "rejection": null
+    },
+    {
+      "case": "validate_reconstruction_banking:poisoned first then valid",
+      "reads": 1,
+      "rejection": "SIGNAL exact row/scope changed: G421"
+    },
+    {
+      "case": "validate_reconstruction_banking:partial then valid",
+      "reads": 1,
+      "rejection": "SIGNAL current rows missing/partial/duplicate"
+    },
+    {
+      "case": "validate_reconstruction_banking:duplicate then valid",
+      "reads": 1,
+      "rejection": "SIGNAL current rows missing/partial/duplicate"
+    },
+    {
+      "case": "validate_reconstruction_banking:historical absence",
+      "reads": 1,
+      "rejection": null
+    },
+    {
+      "case": "validate_coupled_banking:valid then poisoned second read",
+      "reads": 1,
+      "rejection": null
+    },
+    {
+      "case": "validate_coupled_banking:poisoned first then valid",
+      "reads": 1,
+      "rejection": "SIGNAL exact row/scope changed: G421"
+    },
+    {
+      "case": "validate_coupled_banking:partial then valid",
+      "reads": 1,
+      "rejection": "SIGNAL current rows missing/partial/duplicate"
+    },
+    {
+      "case": "validate_coupled_banking:duplicate then valid",
+      "reads": 1,
+      "rejection": "SIGNAL current rows missing/partial/duplicate"
+    },
+    {
+      "case": "validate_coupled_banking:historical absence",
+      "reads": 1,
+      "rejection": null
+    },
+    {
+      "case": "validate_vacuum_scale_banking:valid then poisoned second read",
+      "reads": 1,
+      "rejection": null
+    },
+    {
+      "case": "validate_vacuum_scale_banking:poisoned first then valid",
+      "reads": 1,
+      "rejection": "SIGNAL exact row/scope changed: G421"
+    },
+    {
+      "case": "validate_vacuum_scale_banking:partial then valid",
+      "reads": 1,
+      "rejection": "SIGNAL current rows missing/partial/duplicate"
+    },
+    {
+      "case": "validate_vacuum_scale_banking:duplicate then valid",
+      "reads": 1,
+      "rejection": "SIGNAL current rows missing/partial/duplicate"
+    },
+    {
+      "case": "validate_vacuum_scale_banking:historical absence",
+      "reads": 1,
+      "rejection": null
+    },
+    {
+      "case": "validate_berger_banking:valid then poisoned second read",
+      "reads": 1,
+      "rejection": null
+    },
+    {
+      "case": "validate_berger_banking:poisoned first then valid",
+      "reads": 1,
+      "rejection": "SIGNAL exact row/scope changed: G421"
+    },
+    {
+      "case": "validate_berger_banking:partial then valid",
+      "reads": 1,
+      "rejection": "SIGNAL current rows missing/partial/duplicate"
+    },
+    {
+      "case": "validate_berger_banking:duplicate then valid",
+      "reads": 1,
+      "rejection": "SIGNAL current rows missing/partial/duplicate"
+    },
+    {
+      "case": "validate_berger_banking:historical absence",
+      "reads": 1,
+      "rejection": null
+    },
+    {
+      "case": "validate_closed_fibre_banking:valid then poisoned second read",
+      "reads": 1,
+      "rejection": null
+    },
+    {
+      "case": "validate_closed_fibre_banking:poisoned first then valid",
+      "reads": 1,
+      "rejection": "SIGNAL exact row/scope changed: G421"
+    },
+    {
+      "case": "validate_closed_fibre_banking:partial then valid",
+      "reads": 1,
+      "rejection": "SIGNAL current rows missing/partial/duplicate"
+    },
+    {
+      "case": "validate_closed_fibre_banking:duplicate then valid",
+      "reads": 1,
+      "rejection": "SIGNAL current rows missing/partial/duplicate"
+    },
+    {
+      "case": "validate_closed_fibre_banking:historical absence",
+      "reads": 1,
+      "rejection": null
+    },
+    {
+      "case": "validate_neighboring_tidal_banking:valid then poisoned second read",
+      "reads": 1,
+      "rejection": null
+    },
+    {
+      "case": "validate_neighboring_tidal_banking:poisoned first then valid",
+      "reads": 1,
+      "rejection": "SIGNAL exact row/scope changed: G421"
+    },
+    {
+      "case": "validate_neighboring_tidal_banking:partial then valid",
+      "reads": 1,
+      "rejection": "SIGNAL current rows missing/partial/duplicate"
+    },
+    {
+      "case": "validate_neighboring_tidal_banking:duplicate then valid",
+      "reads": 1,
+      "rejection": "SIGNAL current rows missing/partial/duplicate"
+    },
+    {
+      "case": "validate_neighboring_tidal_banking:historical absence",
+      "reads": 1,
+      "rejection": null
+    },
+    {
+      "case": "validate_reviewed_backlog_banking:valid then poisoned second read",
+      "reads": 1,
+      "rejection": null
+    },
+    {
+      "case": "validate_reviewed_backlog_banking:poisoned first then valid",
+      "reads": 1,
+      "rejection": "SIGNAL exact row/scope changed: G421"
+    },
+    {
+      "case": "validate_reviewed_backlog_banking:partial then valid",
+      "reads": 1,
+      "rejection": "SIGNAL current rows missing/partial/duplicate"
+    },
+    {
+      "case": "validate_reviewed_backlog_banking:duplicate then valid",
+      "reads": 1,
+      "rejection": "SIGNAL current rows missing/partial/duplicate"
+    },
+    {
+      "case": "validate_reviewed_backlog_banking:historical absence",
+      "reads": 1,
+      "rejection": null
+    },
+    {
+      "case": "validate_ti1_banking:valid then poisoned second read",
+      "reads": 1,
+      "rejection": null
+    },
+    {
+      "case": "validate_ti1_banking:poisoned first then valid",
+      "reads": 1,
+      "rejection": "SIGNAL exact row/scope changed: G421"
+    },
+    {
+      "case": "validate_ti1_banking:partial then valid",
+      "reads": 1,
+      "rejection": "SIGNAL current rows missing/partial/duplicate"
+    },
+    {
+      "case": "validate_ti1_banking:duplicate then valid",
+      "reads": 1,
+      "rejection": "SIGNAL current rows missing/partial/duplicate"
+    },
+    {
+      "case": "validate_ti1_banking:historical absence",
+      "reads": 1,
+      "rejection": null
+    },
+    {
+      "case": "validate_ti2_banking:valid then poisoned second read",
+      "reads": 1,
+      "rejection": null
+    },
+    {
+      "case": "validate_ti2_banking:poisoned first then valid",
+      "reads": 1,
+      "rejection": "SIGNAL exact row/scope changed: G421"
+    },
+    {
+      "case": "validate_ti2_banking:partial then valid",
+      "reads": 1,
+      "rejection": "SIGNAL current rows missing/partial/duplicate"
+    },
+    {
+      "case": "validate_ti2_banking:duplicate then valid",
+      "reads": 1,
+      "rejection": "SIGNAL current rows missing/partial/duplicate"
+    },
+    {
+      "case": "validate_ti2_banking:historical absence",
+      "reads": 1,
+      "rejection": null
+    },
+    {
+      "case": "validate_ncb1_banking:valid then poisoned second read",
+      "reads": 1,
+      "rejection": null
+    },
+    {
+      "case": "validate_ncb1_banking:poisoned first then valid",
+      "reads": 1,
+      "rejection": "SIGNAL exact row/scope changed: G421"
+    },
+    {
+      "case": "validate_ncb1_banking:partial then valid",
+      "reads": 1,
+      "rejection": "SIGNAL current rows missing/partial/duplicate"
+    },
+    {
+      "case": "validate_ncb1_banking:duplicate then valid",
+      "reads": 1,
+      "rejection": "SIGNAL current rows missing/partial/duplicate"
+    },
+    {
+      "case": "validate_ncb1_banking:historical absence",
+      "reads": 1,
+      "rejection": null
+    },
+    {
+      "case": "new_current:valid then poisoned second read",
+      "reads": 1,
+      "rejection": null
+    },
+    {
+      "case": "new_current:poisoned first then valid",
+      "reads": 1,
+      "rejection": "SIGNAL exact row/scope changed: G421"
+    },
+    {
+      "case": "new_current:partial then valid",
+      "reads": 1,
+      "rejection": "SIGNAL current rows missing/partial/duplicate"
+    },
+    {
+      "case": "new_current:duplicate then valid",
+      "reads": 1,
+      "rejection": "SIGNAL current rows missing/partial/duplicate"
+    },
+    {
+      "case": "new_current:historical absence",
+      "reads": 1,
+      "rejection": "SIGNAL current rows missing/partial/duplicate"
+    },
+    {
+      "case": "historical_banking_snapshot:valid then poisoned second read",
+      "reads": 1,
+      "rejection": null
+    },
+    {
+      "case": "historical_banking_snapshot:poisoned first then valid",
+      "reads": 1,
+      "rejection": "SIGNAL exact row/scope changed: G421"
+    },
+    {
+      "case": "historical_banking_snapshot:partial then valid",
+      "reads": 1,
+      "rejection": "SIGNAL current rows missing/partial/duplicate"
+    },
+    {
+      "case": "historical_banking_snapshot:duplicate then valid",
+      "reads": 1,
+      "rejection": "SIGNAL current rows missing/partial/duplicate"
+    },
+    {
+      "case": "historical_banking_snapshot:historical absence",
+      "reads": 1,
+      "rejection": null
+    },
+    {
+      "case": "registry_bytes_for_historical_banking:valid then poisoned second read",
+      "reads": 1,
+      "rejection": null
+    },
+    {
+      "case": "registry_bytes_for_historical_banking:poisoned first then valid",
+      "reads": 1,
+      "rejection": "SIGNAL exact row/scope changed: G421"
+    },
+    {
+      "case": "registry_bytes_for_historical_banking:partial then valid",
+      "reads": 1,
+      "rejection": "SIGNAL current rows missing/partial/duplicate"
+    },
+    {
+      "case": "registry_bytes_for_historical_banking:duplicate then valid",
+      "reads": 1,
+      "rejection": "SIGNAL current rows missing/partial/duplicate"
+    },
+    {
+      "case": "registry_bytes_for_historical_banking:historical absence",
+      "reads": 1,
+      "rejection": null
+    },
+    {
+      "case": "source poison:udt_conditional_signal_sequence_2026-09-12/review_evolving/FINAL_FIDELITY.md",
+      "reads": 1,
+      "rejection": "SIGNAL original source evidence changed: udt_conditional_signal_sequence_2026-09-12/review_evolving/FINAL_FIDELITY.md"
+    },
+    {
+      "case": "source poison:udt_conditional_signal_sequence_2026-09-12/step_03/INITIAL_CANDIDATE.md",
+      "reads": 1,
+      "rejection": "SIGNAL original source evidence changed: udt_conditional_signal_sequence_2026-09-12/step_03/INITIAL_CANDIDATE.md"
+    },
+    {
+      "case": "source poison:udt_linked_stationary_signal_benchmark_2026-09-12/INITIAL_CANDIDATE.md",
+      "reads": 1,
+      "rejection": "SIGNAL original source evidence changed: udt_linked_stationary_signal_benchmark_2026-09-12/INITIAL_CANDIDATE.md"
+    },
+    {
+      "case": "source poison:udt_linked_stationary_signal_benchmark_2026-09-12/review/FINAL_FIDELITY.md",
+      "reads": 1,
+      "rejection": "SIGNAL original source evidence changed: udt_linked_stationary_signal_benchmark_2026-09-12/review/FINAL_FIDELITY.md"
+    },
+    {
+      "case": "source poison:udt_ne1_directional_clock_reach_2026-09-12/INITIAL_CANDIDATE.md",
+      "reads": 1,
+      "rejection": "SIGNAL original source evidence changed: udt_ne1_directional_clock_reach_2026-09-12/INITIAL_CANDIDATE.md"
+    },
+    {
+      "case": "source poison:udt_ne1_directional_clock_reach_2026-09-12/review/FINAL_FIDELITY_REVIEW.md",
+      "reads": 1,
+      "rejection": "SIGNAL original source evidence changed: udt_ne1_directional_clock_reach_2026-09-12/review/FINAL_FIDELITY_REVIEW.md"
+    },
+    {
+      "case": "source poison:udt_ne1_tilted_beam_geometry_2026-09-12/INITIAL_CANDIDATE.md",
+      "reads": 1,
+      "rejection": "SIGNAL original source evidence changed: udt_ne1_tilted_beam_geometry_2026-09-12/INITIAL_CANDIDATE.md"
+    },
+    {
+      "case": "source poison:udt_ne1_tilted_beam_geometry_2026-09-12/review/FINAL_FIDELITY.md",
+      "reads": 1,
+      "rejection": "SIGNAL original source evidence changed: udt_ne1_tilted_beam_geometry_2026-09-12/review/FINAL_FIDELITY.md"
+    },
+    {
+      "case": "source poison:udt_optics_bridge_assessment_2026-09-12/INITIAL_CANDIDATE.md",
+      "reads": 1,
+      "rejection": "SIGNAL original source evidence changed: udt_optics_bridge_assessment_2026-09-12/INITIAL_CANDIDATE.md"
+    },
+    {
+      "case": "source poison:udt_optics_bridge_assessment_2026-09-12/review/FINAL_FIDELITY.md",
+      "reads": 1,
+      "rejection": "SIGNAL original source evidence changed: udt_optics_bridge_assessment_2026-09-12/review/FINAL_FIDELITY.md"
+    },
+    {
+      "case": "source poison:udt_redshift_distance_readiness_2026-09-12/INITIAL_CANDIDATE.md",
+      "reads": 1,
+      "rejection": "SIGNAL original source evidence changed: udt_redshift_distance_readiness_2026-09-12/INITIAL_CANDIDATE.md"
+    },
+    {
+      "case": "source poison:udt_redshift_distance_readiness_2026-09-12/review/FINAL_FIDELITY.md",
+      "reads": 1,
+      "rejection": "SIGNAL original source evidence changed: udt_redshift_distance_readiness_2026-09-12/review/FINAL_FIDELITY.md"
+    },
+    {
+      "case": "acceptance poison:BANKED_CLAIMS.json",
+      "reads": 1,
+      "rejection": "SIGNAL guard file changed: udt_signal_chain_banking_2026-09-13/BANKED_CLAIMS.json"
+    },
+    {
+      "case": "acceptance poison:BANKED_ROWS.tsv",
+      "reads": 1,
+      "rejection": "SIGNAL guard file changed: udt_signal_chain_banking_2026-09-13/BANKED_ROWS.tsv"
+    },
+    {
+      "case": "acceptance poison:BANKING_RECORD.md",
+      "reads": 1,
+      "rejection": "SIGNAL guard file changed: udt_signal_chain_banking_2026-09-13/BANKING_RECORD.md"
+    },
+    {
+      "case": "acceptance poison:SOURCE_EVIDENCE_SHA256SUMS",
+      "reads": 1,
+      "rejection": "SIGNAL guard file changed: udt_signal_chain_banking_2026-09-13/SOURCE_EVIDENCE_SHA256SUMS"
+    },
+    {
+      "case": "acceptance poison:SOURCE_MEMBERSHIP.json",
+      "reads": 1,
+      "rejection": "SIGNAL guard file changed: udt_signal_chain_banking_2026-09-13/SOURCE_MEMBERSHIP.json"
+    }
+  ],
+  "removed_authentication_catchproofs": [
+    {
+      "module": "verify_current_scientific_premises",
+      "unchanged_hostile_assertion_failed": "('removed authentication:verify_current_scientific_premises', None)"
+    },
+    {
+      "module": "ti1_banking_guard",
+      "unchanged_hostile_assertion_failed": "('removed authentication:ti1_banking_guard', None)"
+    },
+    {
+      "module": "ti2_banking_guard",
+      "unchanged_hostile_assertion_failed": "('removed authentication:ti2_banking_guard', None)"
+    },
+    {
+      "module": "ncb1_banking_guard",
+      "unchanged_hostile_assertion_failed": "('removed authentication:ncb1_banking_guard', None)"
+    }
+  ],
+  "source_poison_count": 12,
+  "input_hashes": {
+    "CURRENT_SCIENTIFIC_PREMISES.tsv": "7a3d69d5a0bc3ac98e2ebe2bb0c6d029df30071bf403baffed2223a193dc720b",
+    "udt_signal_chain_banking_2026-09-13/BANKED_CLAIMS.json": "48d6e1233f8bc55683130eec5c2a9246c067fad0bc13368b2bcf9eb6ecd57599",
+    "signal_chain_banking_guard.py": "ac46d366fd47e16da1d55d3fe97a534d94116090a742bc8e66903be5c1e336f1",
+    "verify_current_scientific_premises.py": "98dd79610f6bc9d116db65104345c84b64aae0bae2f81c93bec2f64b40745eec"
+  },
+  "scope": "Independent fault-injection harness executing shared guarded implementations; correspondence/regression, not new scientific proof."
+}

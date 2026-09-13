@@ -1,0 +1,41 @@
+{
+  "utc": "2026-09-13T03:01:27.505692+00:00",
+  "changes": [
+    {
+      "path": "CURRENT_RESEARCH_PROGRAM.md",
+      "old": "3c8ec2b9a8b5843f03de7b5254a1f8adcb435a6979a7e22b1344fc5e3a3fbbf7",
+      "new": "53f662476475392f70ce43e4dfa115f40351bae097e44911c37c4bc86d14691f"
+    },
+    {
+      "path": "CURRENT_SCIENTIFIC_PREMISES.md",
+      "old": "84f0a48b2931c89e4f42323c2eb891f19bb6cdf325bee4564995740cb516f334",
+      "new": "58c0898f6e98a3998ae28e33dd598bc34bda14b4e7bcfb2840028c57bc10a1d2"
+    },
+    {
+      "path": "HANDOFF.md",
+      "old": "7674cb445dec9d506d5e1b8095ca76198923c91e0ac61d0028735917d0a39023",
+      "new": "a438c7831a729d4a875dd3333e443b5b4d4607b610447ff8c989922ef6efb1e2"
+    },
+    {
+      "path": "INDEX.md",
+      "old": "d34b33b280d2f0f7da203d5a71db49dcd35bdec129afacc8ca1c4fdf2342b64b",
+      "new": "409e551233fef8d8e8fa44cdea5d7a59c217f2b68e7bc0e28331b62b5ec70c77"
+    },
+    {
+      "path": "LIVE.md",
+      "old": "d249bc71e98b71db2679ee8c152dbaff8169ab757b963c1c473eef298dca6cea",
+      "new": "01472c4a98802729c7e4e2e71c13a52a2754040bc3b6460eebb1955aa828dd86"
+    },
+    {
+      "path": "MEMORY.md",
+      "old": "762317d480a8e1f4c04686c934785ba50e3a9877d6b30b6aee9048dd23823d7c",
+      "new": "41569ccf5d8e908f4c470966bc0682a63b814749f777ff126062ad21f441044e"
+    },
+    {
+      "path": "UDT_RESEARCH_ROADMAP.md",
+      "old": "d20702d036f1f131c261531556133c63fa4e84b9e604f39a8e51bbb2d8b835ae",
+      "new": "702bdf02cb5a6b07602662f184b2a3ff4efdee736094ced404a205bd6a0bae87"
+    }
+  ],
+  "scope": "Navigation-only acceptance wording; registry, scientific sources, guards and tests unchanged from successful full406 inputs. Final focused suite follows."
+}

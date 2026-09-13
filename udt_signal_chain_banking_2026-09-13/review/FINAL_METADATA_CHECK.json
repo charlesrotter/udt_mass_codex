@@ -1,0 +1,45 @@
+{
+  "utc": "2026-09-13T03:07:55.245825+00:00",
+  "verdict": "PASS_FINAL_SOURCE_INPUT_METADATA_CHECK_WITH_EXPOSED_INTAKE_MISMATCHES",
+  "original_intake_mismatches": {
+    "udt_signal_chain_banking_2026-09-13/CLOSEOUT.md": {
+      "original": "2ba1044ba3aada8d513e946824f389704c54c65d1b684620ab398ae7b579c5f6",
+      "current": "3c07593ead187cbbc4ab434e23fbed7d3ce86f0b51b725ff68a44f7288987f5b"
+    }
+  },
+  "source_files": 662,
+  "original398_byte_identity": true,
+  "current406_exact_claims": true,
+  "fixed_document_sha256": {
+    "CANON.md": "047b7fbbc1acacf01d2716e3c98cdefd0b9b20136ac4a3306f55dd6775465250",
+    "UDT_METRIC_KERNEL_DEVELOPMENT.md": "3b625d8f43620a37c99d9f4f0fdc9390c3a12306b1da87281c143ce84d40a81e",
+    "UDT_CONSOLIDATED_RESEARCH_ACCOUNT.md": "d767d3f67a5abcf1674627ce469ac6fee3994b1bf8b144df74ada39df9813490"
+  },
+  "all_initial_source_review_pins_unchanged": true,
+  "parent_full406_actual_exit": 0,
+  "parent_focused_actual_counts": "489 passed, 1 deselected",
+  "audit_inputs_accounted": 15,
+  "post_audit_navigation_files": 7,
+  "captured_intervals_recomputed": 9,
+  "same_context_overlap": false,
+  "observed_cross_context_overlaps": [
+    {
+      "a": "checks/premise406.json",
+      "b": "review/integration_pinned.json",
+      "seconds": 0.543744,
+      "same_context": false
+    },
+    {
+      "a": "checks/premise406.json",
+      "b": "review/manifest_membership.json",
+      "seconds": 0.069251,
+      "same_context": false
+    }
+  ],
+  "baseline_head": "bf1a58140ef3eaf438f18e3cc2dcd57df52d2549",
+  "local_origin_ref": "bf1a58140ef3eaf438f18e3cc2dcd57df52d2549",
+  "branch": "grok",
+  "original_untracked_name_status_count": 51,
+  "original_untracked_name_status_sha256": "747cf3c497bfbdf7c373a2aa621be3cb241a61f7ef9f508c39bf64588ff70a60",
+  "scope": "Administrative byte, saved-output, command/resource and local-ref correspondence; parent full audit attributed, no scientific reproof or protected-payload byte inspection."
+}

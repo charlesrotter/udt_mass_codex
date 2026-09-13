@@ -1,0 +1,50 @@
+{
+  "verify_current_scientific_premises.py": {
+    "before": 3560,
+    "after": 3560,
+    "removed": [
+      "Call(func=Name(id='require', ctx=Load()), args=[Compare(left=Call(func=Name(id='len', ctx=Load()), args=[Name(id='registry_rows', ctx=Load())], keywords=[]), ops=[Eq()], comparators=[Name(id='CURRENT_REGISTRY_ROW_COUNT', ctx=Load())]), Constant(value='premise registry must contain exactly 398 rows')], keywords=[])",
+      "Call(func=Name(id='require', ctx=Load()), args=[Compare(left=Call(func=Name(id='len', ctx=Load()), args=[Name(id='rows', ctx=Load())], keywords=[]), ops=[Eq()], comparators=[Name(id='CURRENT_REGISTRY_ROW_COUNT', ctx=Load())]), Constant(value='premise registry must contain exactly 398 rows')], keywords=[])"
+    ],
+    "added": [
+      "Call(func=Name(id='require', ctx=Load()), args=[Compare(left=Call(func=Name(id='len', ctx=Load()), args=[Name(id='registry_rows', ctx=Load())], keywords=[]), ops=[Eq()], comparators=[Name(id='CURRENT_REGISTRY_ROW_COUNT', ctx=Load())]), Constant(value='premise registry must contain exactly 406 rows')], keywords=[])",
+      "Call(func=Name(id='require', ctx=Load()), args=[Compare(left=Call(func=Name(id='len', ctx=Load()), args=[Name(id='rows', ctx=Load())], keywords=[]), ops=[Eq()], comparators=[Name(id='CURRENT_REGISTRY_ROW_COUNT', ctx=Load())]), Constant(value='premise registry must contain exactly 406 rows')], keywords=[])"
+    ]
+  },
+  "ncb1_banking_guard.py": {
+    "before": 14,
+    "after": 14,
+    "removed": [],
+    "added": []
+  },
+  "ti1_banking_guard.py": {
+    "before": 14,
+    "after": 14,
+    "removed": [],
+    "added": []
+  },
+  "ti2_banking_guard.py": {
+    "before": 14,
+    "after": 14,
+    "removed": [],
+    "added": []
+  },
+  "tests/test_ncb1_banking.py": {
+    "before": 6,
+    "after": 6,
+    "removed": [],
+    "added": []
+  },
+  "tests/test_ti1_banking.py": {
+    "before": 5,
+    "after": 5,
+    "removed": [],
+    "added": []
+  },
+  "tests/test_ti2_banking.py": {
+    "before": 6,
+    "after": 6,
+    "removed": [],
+    "added": []
+  }
+}

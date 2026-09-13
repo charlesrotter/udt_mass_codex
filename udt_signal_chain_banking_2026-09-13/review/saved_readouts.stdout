@@ -1,0 +1,41 @@
+{
+  "utc": "2026-09-13T02:42:37.611804+00:00",
+  "verdict": "PASS_SAVED_READOUT_TRANSCRIPTION",
+  "sources_sha256": {
+    "udt_conditional_signal_sequence_2026-09-12/checks/evolving_repaired.stdout": "20ec91f8bba1826ae6b1b26ffae2e0275aacb2fe8471721d564a12e12056968c",
+    "udt_conditional_signal_sequence_2026-09-12/checks/routes.stdout": "8dfefe67bd24e3594e254e7210e33e2a346e189dccbc8442579dad3f6fa51004",
+    "udt_conditional_signal_sequence_2026-09-12/CHECK_SUMMARY.json": "1b9d2299009cf9292a056537c6bac21c3e79e134530a30241fb09e62b0ea899d",
+    "udt_linked_stationary_signal_benchmark_2026-09-12/checks/benchmark.stdout": "0370a2e898477a173c055b38aedbe9e0f08f107f2d67575fcb3b83e7e94993c7",
+    "udt_linked_stationary_signal_benchmark_2026-09-12/BENCHMARK_TABLE.tsv": "7f84d89ef238d15374e17545c07b4de08410aca9379950a3558fcbe470a03c4c"
+  },
+  "css_main_endpoint_max": 1.6653345369377348e-13,
+  "css_all_endpoint_guard_max": 5.522249324485529e-13,
+  "css_area_manual_determinant_error": 7.105427357601002e-15,
+  "css_actual_reverse_area_identity_errors": [
+    5.773159728050814e-15,
+    2.6645352591003757e-15,
+    2.6645352591003757e-15
+  ],
+  "css_event_readouts_recomputed_from_arrival_endpoints": [
+    {
+      "epsilon": -0.5,
+      "arrival_duration": 2.1577957376970436,
+      "mean_R": 1.7981631147475363,
+      "initial_pulse_fractional_error": 0.025806151796527576
+    },
+    {
+      "epsilon": 0.0,
+      "arrival_duration": 2.2967189103608328,
+      "mean_R": 1.913932425300694,
+      "initial_pulse_fractional_error": 0.06544400490448679
+    },
+    {
+      "epsilon": 0.5,
+      "arrival_duration": 2.001317041893365,
+      "mean_R": 1.6677642015778043,
+      "initial_pulse_fractional_error": 0.3147236791353029
+    }
+  ],
+  "lsb_table_rows_all_fields_exact": 9,
+  "scope": "Independent arithmetic/transcription on saved FLOAT64 records; no new trajectory, geodesic proof, interval certificate or observation."
+}

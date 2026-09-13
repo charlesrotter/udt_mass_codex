@@ -1,0 +1,9 @@
+{
+  "utc": "2026-09-13T02:49:04.441823+00:00",
+  "reason": "Reviewer D1: distinguish execution/outcome availability from author exposure for NTB1. No scientific row, hypothesis or dependency changes.",
+  "initial_record": "BANKING_RECORD_INITIAL.md",
+  "old_sha256": "acd318302cd8e2d5c9205900c50fd226c14624b9437157e01f9aa6ef7aa21712",
+  "new_sha256": "5e7070af6dcc549ecad8962dd0056ea7a08bb747140aa4484da26f4ba9dc2397",
+  "initial_freeze_sha256": "34e51716fb8a5552485cb4cb5b18422d5e8ddeec13d244cb9096e4940d5f61b2",
+  "other_six_frozen_files_unchanged": true
+}

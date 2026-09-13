@@ -1,0 +1,15 @@
+{
+  "utc": "2026-09-13T03:02:51.379197+00:00",
+  "files": {
+    "udt_signal_chain_banking_2026-09-13/CLOSEOUT.md": "2ba1044ba3aada8d513e946824f389704c54c65d1b684620ab398ae7b579c5f6",
+    "udt_signal_chain_banking_2026-09-13/LAY_REPORT.md": "e66c51691dbd2bf507bf1c9086d5519b397fe0b56e3fa5b5f9cc5fccbe9e4b0d",
+    "udt_signal_chain_banking_2026-09-13/EXECUTION_INTERVALS.json": "740d99a703968b09b9b2d1d3ec78162d5b96eb7acba567c02e43740f40941118",
+    "udt_signal_chain_banking_2026-09-13/POST_AUDIT_NAVIGATION.json": "e9adbf5beee28b6de3b8ca23e5716ee70480b764a3c837afdba3a9978153a929",
+    "udt_signal_chain_banking_2026-09-13/checks/premise406.json": "59db14cc68a623e894106570a04d93825d23c61daab458ec8f82e1597018ecb6",
+    "udt_signal_chain_banking_2026-09-13/checks/premise406.stdout": "394e02c4ced55fc8f6480a3cc65b9ebd38f9c0cb553f897b10313b8ad2104b53",
+    "udt_signal_chain_banking_2026-09-13/checks/premise406.stderr": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "udt_signal_chain_banking_2026-09-13/checks/navigation_final.json": "2370bc28c2562ba97885bd887ef6fdf4442ea15a2fb0a214985d7201589a6a22",
+    "udt_signal_chain_banking_2026-09-13/checks/navigation_final.stdout": "1998f39b5603b52367bc3f5fec3c5ee949a71cbb613b5920611df6a1e666e5e7",
+    "udt_signal_chain_banking_2026-09-13/checks/navigation_final.stderr": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "utc": "2026-09-13T03:03:31.859850+00:00",
+  "original51_status_names_present": true,
+  "original_status_name_sha256": "747cf3c497bfbdf7c373a2aa621be3cb241a61f7ef9f508c39bf64588ff70a60",
+  "payload_access": "No protected payload inspection or hashing; status names only.",
+  "fixed_authorities_git_diff_exit": 0,
+  "fixed_authorities_command": [
+    "git",
+    "diff",
+    "--quiet",
+    "bf1a58140ef3eaf438f18e3cc2dcd57df52d2549",
+    "--",
+    "CANON.md",
+    "UDT_METRIC_KERNEL_DEVELOPMENT.md",
+    "UDT_METRIC_KERNEL_COVERAGE.tsv",
+    "UDT_CONSOLIDATED_RESEARCH_ACCOUNT.md"
+  ],
+  "current_registry_sha256": "7a3d69d5a0bc3ac98e2ebe2bb0c6d029df30071bf403baffed2223a193dc720b"
+}

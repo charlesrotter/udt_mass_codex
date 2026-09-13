@@ -1,0 +1,162 @@
+{
+  "recorded_utc": "2026-09-13T03:02:05.479056+00:00",
+  "scope": "Captured scientific/check processes only; uncaptured administrative/source-reading commands are not a complete CPU census. Reviewer-context overlap is separately recorded in its final receipt.",
+  "intervals": [
+    {
+      "capture": "checks/integration_final.json",
+      "context": "parent",
+      "start_utc": "2026-09-13T02:53:28.359072+00:00",
+      "end_utc": "2026-09-13T02:53:45.318945+00:00",
+      "seconds": 16.959872522973455,
+      "exit": 0,
+      "command": [
+        "python3",
+        "-m",
+        "pytest",
+        "--noconftest",
+        "-q",
+        "tests/test_signal_chain_banking.py",
+        "tests/test_ncb1_banking.py",
+        "tests/test_ti2_banking.py",
+        "tests/test_ti1_banking.py",
+        "tests/test_reviewed_backlog_banking.py",
+        "tests/test_startup_surface.py",
+        "-k",
+        "not full_foundational_premise_verifier_is_in_pytest"
+      ]
+    },
+    {
+      "capture": "checks/integration_initial.json",
+      "context": "parent",
+      "start_utc": "2026-09-13T02:52:46.223847+00:00",
+      "end_utc": "2026-09-13T02:53:03.282894+00:00",
+      "seconds": 17.059047351009212,
+      "exit": 1,
+      "command": [
+        "python3",
+        "-m",
+        "pytest",
+        "--noconftest",
+        "-q",
+        "tests/test_signal_chain_banking.py",
+        "tests/test_ncb1_banking.py",
+        "tests/test_ti2_banking.py",
+        "tests/test_ti1_banking.py",
+        "tests/test_reviewed_backlog_banking.py",
+        "tests/test_startup_surface.py",
+        "-k",
+        "not full_foundational_premise_verifier_is_in_pytest"
+      ]
+    },
+    {
+      "capture": "checks/navigation_final.json",
+      "context": "parent",
+      "start_utc": "2026-09-13T03:01:27.526339+00:00",
+      "end_utc": "2026-09-13T03:01:43.105214+00:00",
+      "seconds": 15.57887499500066,
+      "exit": 0,
+      "command": [
+        "python3",
+        "-m",
+        "pytest",
+        "--noconftest",
+        "-q",
+        "tests/test_signal_chain_banking.py",
+        "tests/test_startup_surface.py",
+        "-k",
+        "not full_foundational_premise_verifier_is_in_pytest"
+      ]
+    },
+    {
+      "capture": "checks/premise406.json",
+      "context": "parent",
+      "start_utc": "2026-09-13T02:53:59.265734+00:00",
+      "end_utc": "2026-09-13T03:00:42.832150+00:00",
+      "seconds": 403.5664156450657,
+      "exit": 0,
+      "command": [
+        "python3",
+        "verify_current_scientific_premises.py"
+      ]
+    },
+    {
+      "capture": "review/integration_initial.json",
+      "context": "reviewer",
+      "start_utc": "2026-09-13T02:52:40.018896+00:00",
+      "end_utc": "2026-09-13T02:52:40.564439+00:00",
+      "seconds": 0.5455427290871739,
+      "exit": 0,
+      "command": [
+        "python3",
+        "udt_signal_chain_banking_2026-09-13/review/check_integration.py",
+        "signal_chain_banking_guard"
+      ]
+    },
+    {
+      "capture": "review/integration_pinned.json",
+      "context": "reviewer",
+      "start_utc": "2026-09-13T02:54:02.461517+00:00",
+      "end_utc": "2026-09-13T02:54:03.005261+00:00",
+      "seconds": 0.543744485010393,
+      "exit": 0,
+      "command": [
+        "python3",
+        "udt_signal_chain_banking_2026-09-13/review/check_integration.py",
+        "signal_chain_banking_guard"
+      ]
+    },
+    {
+      "capture": "review/manifest_membership.json",
+      "context": "reviewer",
+      "start_utc": "2026-09-13T02:56:06.429199+00:00",
+      "end_utc": "2026-09-13T02:56:06.498450+00:00",
+      "seconds": 0.06925065501127392,
+      "exit": 0,
+      "command": [
+        "python3",
+        "udt_signal_chain_banking_2026-09-13/review/probe_manifest_membership.py"
+      ]
+    },
+    {
+      "capture": "review/saved_readouts.json",
+      "context": "reviewer",
+      "start_utc": "2026-09-13T02:42:37.587935+00:00",
+      "end_utc": "2026-09-13T02:42:37.614575+00:00",
+      "seconds": 0.02664013102184981,
+      "exit": 0,
+      "command": [
+        "python3",
+        "udt_signal_chain_banking_2026-09-13/review/inspect_saved_readouts.py"
+      ]
+    },
+    {
+      "capture": "review/source_authentication.json",
+      "context": "reviewer",
+      "start_utc": "2026-09-13T02:38:14.706057+00:00",
+      "end_utc": "2026-09-13T02:38:16.059640+00:00",
+      "seconds": 1.3535831230692565,
+      "exit": 0,
+      "command": [
+        "python3",
+        "udt_signal_chain_banking_2026-09-13/review/authenticate_sources.py"
+      ]
+    }
+  ],
+  "captured_process_overlaps": [
+    {
+      "a": "checks/premise406.json",
+      "b": "review/integration_pinned.json",
+      "seconds": 0.543744,
+      "same_context": false
+    },
+    {
+      "a": "checks/premise406.json",
+      "b": "review/manifest_membership.json",
+      "seconds": 0.069251,
+      "same_context": false
+    }
+  ],
+  "same_context_overlap_detected": false,
+  "runtime_model": "UNATTESTED",
+  "general_capacity": "UNVERIFIED"
+}
