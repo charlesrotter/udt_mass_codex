@@ -1,0 +1,297 @@
+{
+  "status": "PASS",
+  "records": [
+    {
+      "b_star": -0.3,
+      "kappa": 0.0,
+      "emission_t": 1.0,
+      "directions": [
+        {
+          "sign": 1,
+          "arrival": 8.225663103256526,
+          "proper_duration": 12.283627275536094,
+          "slope": 0.9999999999976694,
+          "duration_error": 5.329070518200751e-15,
+          "slope_error": 2.3305801732931286e-12
+        },
+        {
+          "sign": -1,
+          "arrival": 6.340707511102647,
+          "proper_duration": 9.0792027688745,
+          "slope": 0.9999999999976694,
+          "duration_error": 1.7763568394002505e-15,
+          "slope_error": 2.3305801732931286e-12
+        }
+      ],
+      "kappa_recovered": 0.0,
+      "kappa_error": 0.0,
+      "b_at_emission_recovered": -0.3000000000000007,
+      "b_at_emission_original": -0.3,
+      "b_error": 7.216449660063518e-16
+    },
+    {
+      "b_star": -0.3,
+      "kappa": 0.0,
+      "emission_t": 3.0,
+      "directions": [
+        {
+          "sign": 1,
+          "arrival": 10.225663103256526,
+          "proper_duration": 12.283627275536094,
+          "slope": 0.9999999999976694,
+          "duration_error": 5.329070518200751e-15,
+          "slope_error": 2.3305801732931286e-12
+        },
+        {
+          "sign": -1,
+          "arrival": 8.340707511102648,
+          "proper_duration": 9.079202768874502,
+          "slope": 0.9999999999976694,
+          "duration_error": 0.0,
+          "slope_error": 2.3305801732931286e-12
+        }
+      ],
+      "kappa_recovered": 0.0,
+      "kappa_error": 0.0,
+      "b_at_emission_recovered": -0.3000000000000007,
+      "b_at_emission_original": -0.3,
+      "b_error": 7.216449660063518e-16
+    },
+    {
+      "b_star": 0.3,
+      "kappa": 0.0,
+      "emission_t": 1.0,
+      "directions": [
+        {
+          "sign": 1,
+          "arrival": 6.340707511102647,
+          "proper_duration": 9.0792027688745,
+          "slope": 0.9999999999976694,
+          "duration_error": 1.7763568394002505e-15,
+          "slope_error": 2.3305801732931286e-12
+        },
+        {
+          "sign": -1,
+          "arrival": 8.225663103256526,
+          "proper_duration": 12.283627275536094,
+          "slope": 0.9999999999976694,
+          "duration_error": 5.329070518200751e-15,
+          "slope_error": 2.3305801732931286e-12
+        }
+      ],
+      "kappa_recovered": 0.0,
+      "kappa_error": 0.0,
+      "b_at_emission_recovered": 0.30000000000000027,
+      "b_at_emission_original": 0.3,
+      "b_error": 2.7755575615628914e-16
+    },
+    {
+      "b_star": 0.3,
+      "kappa": 0.0,
+      "emission_t": 3.0,
+      "directions": [
+        {
+          "sign": 1,
+          "arrival": 8.340707511102648,
+          "proper_duration": 9.079202768874502,
+          "slope": 0.9999999999976694,
+          "duration_error": 0.0,
+          "slope_error": 2.3305801732931286e-12
+        },
+        {
+          "sign": -1,
+          "arrival": 10.225663103256526,
+          "proper_duration": 12.283627275536094,
+          "slope": 0.9999999999976694,
+          "duration_error": 5.329070518200751e-15,
+          "slope_error": 2.3305801732931286e-12
+        }
+      ],
+      "kappa_recovered": 0.0,
+      "kappa_error": 0.0,
+      "b_at_emission_recovered": 0.30000000000000004,
+      "b_at_emission_original": 0.3,
+      "b_error": 5.551115123125783e-17
+    },
+    {
+      "b_star": 0.0,
+      "kappa": 0.0,
+      "emission_t": 1.0,
+      "directions": [
+        {
+          "sign": 1,
+          "arrival": 7.283185307179586,
+          "proper_duration": 10.681415022205297,
+          "slope": 0.9999999999976694,
+          "duration_error": 0.0,
+          "slope_error": 2.3305801732931286e-12
+        },
+        {
+          "sign": -1,
+          "arrival": 7.283185307179586,
+          "proper_duration": 10.681415022205297,
+          "slope": 0.9999999999976694,
+          "duration_error": 0.0,
+          "slope_error": 2.3305801732931286e-12
+        }
+      ],
+      "kappa_recovered": 0.0,
+      "kappa_error": 0.0,
+      "b_at_emission_recovered": 0.0,
+      "b_at_emission_original": 0.0,
+      "b_error": 0.0
+    },
+    {
+      "b_star": 0.0,
+      "kappa": 0.0,
+      "emission_t": 3.0,
+      "directions": [
+        {
+          "sign": 1,
+          "arrival": 9.283185307179586,
+          "proper_duration": 10.681415022205297,
+          "slope": 0.9999999999976694,
+          "duration_error": 0.0,
+          "slope_error": 2.3305801732931286e-12
+        },
+        {
+          "sign": -1,
+          "arrival": 9.283185307179586,
+          "proper_duration": 10.681415022205297,
+          "slope": 0.9999999999976694,
+          "duration_error": 0.0,
+          "slope_error": 2.3305801732931286e-12
+        }
+      ],
+      "kappa_recovered": 0.0,
+      "kappa_error": 0.0,
+      "b_at_emission_recovered": 0.0,
+      "b_at_emission_original": 0.0,
+      "b_error": 0.0
+    },
+    {
+      "b_star": 0.0,
+      "kappa": -0.02,
+      "emission_t": 1.0,
+      "directions": [
+        {
+          "sign": 1,
+          "arrival": 7.484777329494924,
+          "proper_duration": 11.024121460141371,
+          "slope": 1.0648477732955186,
+          "duration_error": 1.7763568394002505e-15,
+          "slope_error": 5.693223670277803e-13
+        },
+        {
+          "sign": -1,
+          "arrival": 7.08986325757033,
+          "proper_duration": 10.35276753786956,
+          "slope": 0.9391013674253657,
+          "duration_error": 6.892264536872972e-13,
+          "slope_error": 1.0730305533002138e-12
+        }
+      ],
+      "kappa_recovered": -0.01999999999990326,
+      "kappa_error": 9.674205880827458e-14,
+      "b_at_emission_recovered": -3.0730973321624333e-13,
+      "b_at_emission_original": 0.0,
+      "b_error": 3.0730973321624333e-13
+    },
+    {
+      "b_star": 0.0,
+      "kappa": -0.02,
+      "emission_t": 3.0,
+      "directions": [
+        {
+          "sign": 1,
+          "arrival": 9.614472876084847,
+          "proper_duration": 11.244603889344239,
+          "slope": 1.0648477732999595,
+          "duration_error": 4.263256414560601e-14,
+          "slope_error": 5.0102144655284064e-12
+        },
+        {
+          "sign": -1,
+          "arrival": 8.96806599241921,
+          "proper_duration": 10.145712187112656,
+          "slope": 0.9391013674253657,
+          "duration_error": 1.900701818158268e-13,
+          "slope_error": 1.0730305533002138e-12
+        }
+      ],
+      "kappa_recovered": -0.020000000000567005,
+      "kappa_error": 5.670047764638753e-13,
+      "b_at_emission_recovered": -0.03999999999817172,
+      "b_at_emission_original": -0.04,
+      "b_error": 1.8282805824831883e-12
+    },
+    {
+      "b_star": 0.0,
+      "kappa": 0.02,
+      "emission_t": 1.0,
+      "directions": [
+        {
+          "sign": 1,
+          "arrival": 7.08986325757033,
+          "proper_duration": 10.35276753786956,
+          "slope": 0.9391013674253657,
+          "duration_error": 6.892264536872972e-13,
+          "slope_error": 1.0730305533002138e-12
+        },
+        {
+          "sign": -1,
+          "arrival": 7.484777329494924,
+          "proper_duration": 11.024121460141371,
+          "slope": 1.0648477732955186,
+          "duration_error": 1.7763568394002505e-15,
+          "slope_error": 5.693223670277803e-13
+        }
+      ],
+      "kappa_recovered": 0.019999999999903255,
+      "kappa_error": 9.674552825522653e-14,
+      "b_at_emission_recovered": 4.3365311341858614e-13,
+      "b_at_emission_original": 0.0,
+      "b_error": 4.3365311341858614e-13
+    },
+    {
+      "b_star": 0.0,
+      "kappa": 0.02,
+      "emission_t": 3.0,
+      "directions": [
+        {
+          "sign": 1,
+          "arrival": 8.96806599241921,
+          "proper_duration": 10.145712187112656,
+          "slope": 0.9391013674253657,
+          "duration_error": 1.900701818158268e-13,
+          "slope_error": 1.0730305533002138e-12
+        },
+        {
+          "sign": -1,
+          "arrival": 9.614472876084847,
+          "proper_duration": 11.244603889344239,
+          "slope": 1.0648477732999595,
+          "duration_error": 4.263256414560601e-14,
+          "slope_error": 5.0102144655284064e-12
+        }
+      ],
+      "kappa_recovered": 0.020000000000567,
+      "kappa_error": 5.670013070169233e-13,
+      "b_at_emission_recovered": 0.039999999998308944,
+      "b_at_emission_original": 0.04,
+      "b_error": 1.691057016639519e-12
+    }
+  ],
+  "failures": [],
+  "source_sha256": "8dfefe67bd24e3594e254e7210e33e2a346e189dccbc8442579dad3f6fa51004",
+  "script_sha256": "891e09537488163fe6d354aa6fd6d128bab70f519c900c3406cfa4465d70e890",
+  "max_duration_error": 6.892264536872972e-13,
+  "max_slope_error": 5.0102144655284064e-12,
+  "max_kappa_error": 5.670047764638753e-13,
+  "max_b_error": 1.8282805824831883e-12,
+  "versions": {
+    "python": "3.10.12",
+    "scipy": "1.15.3"
+  },
+  "scope": "Outcome-exposed independent quadrature/Brent readout and noiseless algebra calibration"
+}

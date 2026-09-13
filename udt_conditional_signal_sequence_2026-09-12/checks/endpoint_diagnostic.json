@@ -1,0 +1,14 @@
+{
+  "command": [
+    "python3",
+    "udt_conditional_signal_sequence_2026-09-12/step_03/diagnose_endpoint.py"
+  ],
+  "cwd": "/home/udt-admin/udt_mass_codex",
+  "started_utc": "2026-09-13T00:19:16.707042+00:00",
+  "duration_seconds": 1.0046969410032034,
+  "returncode": 0,
+  "timeout": false,
+  "address_space_bytes": 2147483648,
+  "cpu_seconds": 180,
+  "maxrss_kib": 80696
+}

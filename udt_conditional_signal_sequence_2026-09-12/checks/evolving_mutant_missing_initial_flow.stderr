@@ -1,0 +1,10 @@
+Traceback (most recent call last):
+  File "/home/udt-admin/udt_mass_codex/udt_conditional_signal_sequence_2026-09-12/step_03/check_evolving.py", line 134, in main
+    row=boundary(.4,.5);records.append(row)
+  File "/home/udt-admin/udt_mass_codex/udt_conditional_signal_sequence_2026-09-12/step_03/check_evolving.py", line 88, in boundary
+    row=readout(te,te+opt.x[2],eps,state,ini,se,frozen)
+  File "/home/udt-admin/udt_mass_codex/udt_conditional_signal_sequence_2026-09-12/step_03/check_evolving.py", line 66, in readout
+    guard('changing_initial_time_clock',diff(implicit_R,R))
+  File "/home/udt-admin/udt_mass_codex/udt_conditional_signal_sequence_2026-09-12/step_03/check_evolving.py", line 22, in guard
+    if not np.isfinite(value) or value>tol:raise AssertionError((name,value,tol))
+AssertionError: ('changing_initial_time_clock', 0.6350836907124171, 2e-07)

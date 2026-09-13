@@ -1,0 +1,12 @@
+{
+  "status": "FAIL",
+  "mutation": "drop_clock_scale",
+  "records": [],
+  "versions": {
+    "python": "3.10.12",
+    "numpy": "2.2.6",
+    "scipy": "1.15.3"
+  },
+  "scope": "Ten chosen histories/emissions, explicit guide; no free-geodesic or physical energy claim.",
+  "failure": "AssertionError(('original_null_guide_and_proper_clock', -0.3, 0.0, 1.0, 1, 5.057964172279598))"
+}

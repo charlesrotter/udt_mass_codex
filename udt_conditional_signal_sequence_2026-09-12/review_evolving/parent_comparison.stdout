@@ -1,0 +1,3368 @@
+{
+  "status": "PASS",
+  "check_count": 336,
+  "all12_parent_records_compared": true,
+  "max_central_scaled_error": 2.8056283166907242e-12,
+  "max_beam_scaled_error": 3.158129026605949e-08,
+  "sha256": {
+    "checks/evolving_repaired.stdout": "20ec91f8bba1826ae6b1b26ffae2e0275aacb2fe8471721d564a12e12056968c",
+    "review_evolving/affine_initial.stdout": "bcf6118e02123e1e99d46e26ffbcafdcee8a6d22d4c49f701cd95783c75b5636",
+    "review_evolving/affine_extended_repaired.stdout": "0da99d35e18184d85d6bcc81175bff7e463cad46a5130a3e753f06e9fb77024e",
+    "review_evolving/frozen_independent.stdout": "2ce23f116e5bdc7390f76c453cc9eba43d584c06ac0a93b749126840ae604f21",
+    "step_03/check_evolving.py": "b9b7e5e4fbaa8c0d281ff43c5add812b2a12832b19b99f2175506c6999ef555e"
+  },
+  "checks": [
+    {
+      "name": "base_te",
+      "key": [
+        -0.5,
+        0.0
+      ],
+      "scaled_error": 0.0,
+      "tolerance": 2e-07,
+      "pass": true
+    },
+    {
+      "name": "base_to",
+      "key": [
+        -0.5,
+        0.0
+      ],
+      "scaled_error": 1.9584817847345968e-13,
+      "tolerance": 2e-07,
+      "pass": true
+    },
+    {
+      "name": "base_R",
+      "key": [
+        -0.5,
+        0.0
+      ],
+      "scaled_error": 2.568147649213481e-13,
+      "tolerance": 2e-07,
+      "pass": true
+    },
+    {
+      "name": "base_arrival_clock",
+      "key": [
+        -0.5,
+        0.0
+      ],
+      "scaled_error": 2.1639637325489412e-13,
+      "tolerance": 2e-07,
+      "pass": true
+    },
+    {
+      "name": "base_source_sky",
+      "key": [
+        -0.5,
+        0.0
+      ],
+      "scaled_error": 2.1145130601329921e-13,
+      "tolerance": 2e-07,
+      "pass": true
+    },
+    {
+      "name": "base_arrival_sky",
+      "key": [
+        -0.5,
+        0.0
+      ],
+      "scaled_error": 2.228391468995743e-13,
+      "tolerance": 2e-07,
+      "pass": true
+    },
+    {
+      "name": "base_spatial_momentum",
+      "key": [
+        -0.5,
+        0.0
+      ],
+      "scaled_error": 1.1211625158450585e-13,
+      "tolerance": 2e-07,
+      "pass": true
+    },
+    {
+      "name": "base_area",
+      "key": [
+        -0.5,
+        0.0
+      ],
+      "scaled_error": 1.2447461799638521e-08,
+      "tolerance": 2e-06,
+      "pass": true
+    },
+    {
+      "name": "base_widths",
+      "key": [
+        -0.5,
+        0.0
+      ],
+      "scaled_error": 1.0860074600597795e-08,
+      "tolerance": 2e-06,
+      "pass": true
+    },
+    {
+      "name": "base_screen_map",
+      "key": [
+        -0.5,
+        0.0
+      ],
+      "scaled_error": 2.1903013803996568e-08,
+      "tolerance": 2e-06,
+      "pass": true
+    },
+    {
+      "name": "tight_te",
+      "key": [
+        -0.5,
+        0.0
+      ],
+      "scaled_error": 0.0,
+      "tolerance": 2e-07,
+      "pass": true
+    },
+    {
+      "name": "tight_to",
+      "key": [
+        -0.5,
+        0.0
+      ],
+      "scaled_error": 2.0260156393806176e-13,
+      "tolerance": 2e-07,
+      "pass": true
+    },
+    {
+      "name": "tight_R",
+      "key": [
+        -0.5,
+        0.0
+      ],
+      "scaled_error": 2.635278560408727e-13,
+      "tolerance": 2e-07,
+      "pass": true
+    },
+    {
+      "name": "tight_arrival_clock",
+      "key": [
+        -0.5,
+        0.0
+      ],
+      "scaled_error": 2.2392320362897738e-13,
+      "tolerance": 2e-07,
+      "pass": true
+    },
+    {
+      "name": "tight_source_sky",
+      "key": [
+        -0.5,
+        0.0
+      ],
+      "scaled_error": 2.1045400892983604e-13,
+      "tolerance": 2e-07,
+      "pass": true
+    },
+    {
+      "name": "tight_arrival_sky",
+      "key": [
+        -0.5,
+        0.0
+      ],
+      "scaled_error": 2.3129788240727437e-13,
+      "tolerance": 2e-07,
+      "pass": true
+    },
+    {
+      "name": "tight_spatial_momentum",
+      "key": [
+        -0.5,
+        0.0
+      ],
+      "scaled_error": 1.1808616316682888e-13,
+      "tolerance": 2e-07,
+      "pass": true
+    },
+    {
+      "name": "tight_area",
+      "key": [
+        -0.5,
+        0.0
+      ],
+      "scaled_error": 1.2447500155625166e-08,
+      "tolerance": 2e-06,
+      "pass": true
+    },
+    {
+      "name": "tight_widths",
+      "key": [
+        -0.5,
+        0.0
+      ],
+      "scaled_error": 1.0860090015319426e-08,
+      "tolerance": 2e-06,
+      "pass": true
+    },
+    {
+      "name": "tight_screen_map",
+      "key": [
+        -0.5,
+        0.0
+      ],
+      "scaled_error": 2.1903034116543745e-08,
+      "tolerance": 2e-06,
+      "pass": true
+    },
+    {
+      "name": "frozen_te",
+      "key": [
+        -0.5,
+        0.0
+      ],
+      "scaled_error": 0.0,
+      "tolerance": 2e-07,
+      "pass": true
+    },
+    {
+      "name": "frozen_to",
+      "key": [
+        -0.5,
+        0.0
+      ],
+      "scaled_error": 0.0,
+      "tolerance": 2e-07,
+      "pass": true
+    },
+    {
+      "name": "frozen_R",
+      "key": [
+        -0.5,
+        0.0
+      ],
+      "scaled_error": 1.1102230246251565e-16,
+      "tolerance": 2e-07,
+      "pass": true
+    },
+    {
+      "name": "frozen_source_sky",
+      "key": [
+        -0.5,
+        0.0
+      ],
+      "scaled_error": 6.307771318079719e-17,
+      "tolerance": 2e-07,
+      "pass": true
+    },
+    {
+      "name": "frozen_arrival_sky",
+      "key": [
+        -0.5,
+        0.0
+      ],
+      "scaled_error": 3.84590198980155e-17,
+      "tolerance": 2e-07,
+      "pass": true
+    },
+    {
+      "name": "frozen_area",
+      "key": [
+        -0.5,
+        0.0
+      ],
+      "scaled_error": 7.1352488413567854e-09,
+      "tolerance": 2e-06,
+      "pass": true
+    },
+    {
+      "name": "frozen_widths",
+      "key": [
+        -0.5,
+        0.0
+      ],
+      "scaled_error": 3.062502438209605e-09,
+      "tolerance": 2e-06,
+      "pass": true
+    },
+    {
+      "name": "base_te",
+      "key": [
+        -0.5,
+        0.4
+      ],
+      "scaled_error": 0.0,
+      "tolerance": 2e-07,
+      "pass": true
+    },
+    {
+      "name": "base_to",
+      "key": [
+        -0.5,
+        0.4
+      ],
+      "scaled_error": 5.10788967588438e-13,
+      "tolerance": 2e-07,
+      "pass": true
+    },
+    {
+      "name": "base_R",
+      "key": [
+        -0.5,
+        0.4
+      ],
+      "scaled_error": 2.0856192188111838e-13,
+      "tolerance": 2e-07,
+      "pass": true
+    },
+    {
+      "name": "base_arrival_clock",
+      "key": [
+        -0.5,
+        0.4
+      ],
+      "scaled_error": 5.37996370817471e-13,
+      "tolerance": 2e-07,
+      "pass": true
+    },
+    {
+      "name": "base_source_sky",
+      "key": [
+        -0.5,
+        0.4
+      ],
+      "scaled_error": 1.9527894550138728e-13,
+      "tolerance": 2e-07,
+      "pass": true
+    },
+    {
+      "name": "base_arrival_sky",
+      "key": [
+        -0.5,
+        0.4
+      ],
+      "scaled_error": 1.0818935283761282e-13,
+      "tolerance": 2e-07,
+      "pass": true
+    },
+    {
+      "name": "base_spatial_momentum",
+      "key": [
+        -0.5,
+        0.4
+      ],
+      "scaled_error": 1.3323258026038152e-14,
+      "tolerance": 2e-07,
+      "pass": true
+    },
+    {
+      "name": "base_area",
+      "key": [
+        -0.5,
+        0.4
+      ],
+      "scaled_error": 1.8532259972210418e-08,
+      "tolerance": 2e-06,
+      "pass": true
+    },
+    {
+      "name": "base_widths",
+      "key": [
+        -0.5,
+        0.4
+      ],
+      "scaled_error": 1.1754859363398737e-08,
+      "tolerance": 2e-06,
+      "pass": true
+    },
+    {
+      "name": "base_screen_map",
+      "key": [
+        -0.5,
+        0.4
+      ],
+      "scaled_error": 1.716745347503394e-08,
+      "tolerance": 2e-06,
+      "pass": true
+    },
+    {
+      "name": "tight_te",
+      "key": [
+        -0.5,
+        0.4
+      ],
+      "scaled_error": 0.0,
+      "tolerance": 2e-07,
+      "pass": true
+    },
+    {
+      "name": "tight_to",
+      "key": [
+        -0.5,
+        0.4
+      ],
+      "scaled_error": 5.109313279472977e-13,
+      "tolerance": 2e-07,
+      "pass": true
+    },
+    {
+      "name": "tight_R",
+      "key": [
+        -0.5,
+        0.4
+      ],
+      "scaled_error": 2.0872180070203145e-13,
+      "tolerance": 2e-07,
+      "pass": true
+    },
+    {
+      "name": "tight_arrival_clock",
+      "key": [
+        -0.5,
+        0.4
+      ],
+      "scaled_error": 5.381134793004526e-13,
+      "tolerance": 2e-07,
+      "pass": true
+    },
+    {
+      "name": "tight_source_sky",
+      "key": [
+        -0.5,
+        0.4
+      ],
+      "scaled_error": 1.9525432016147537e-13,
+      "tolerance": 2e-07,
+      "pass": true
+    },
+    {
+      "name": "tight_arrival_sky",
+      "key": [
+        -0.5,
+        0.4
+      ],
+      "scaled_error": 1.0814753244610235e-13,
+      "tolerance": 2e-07,
+      "pass": true
+    },
+    {
+      "name": "tight_spatial_momentum",
+      "key": [
+        -0.5,
+        0.4
+      ],
+      "scaled_error": 1.3143213998659257e-14,
+      "tolerance": 2e-07,
+      "pass": true
+    },
+    {
+      "name": "tight_area",
+      "key": [
+        -0.5,
+        0.4
+      ],
+      "scaled_error": 1.8532260702386623e-08,
+      "tolerance": 2e-06,
+      "pass": true
+    },
+    {
+      "name": "tight_widths",
+      "key": [
+        -0.5,
+        0.4
+      ],
+      "scaled_error": 1.1754860375127103e-08,
+      "tolerance": 2e-06,
+      "pass": true
+    },
+    {
+      "name": "tight_screen_map",
+      "key": [
+        -0.5,
+        0.4
+      ],
+      "scaled_error": 1.716745308690346e-08,
+      "tolerance": 2e-06,
+      "pass": true
+    },
+    {
+      "name": "frozen_te",
+      "key": [
+        -0.5,
+        0.4
+      ],
+      "scaled_error": 0.0,
+      "tolerance": 2e-07,
+      "pass": true
+    },
+    {
+      "name": "frozen_to",
+      "key": [
+        -0.5,
+        0.4
+      ],
+      "scaled_error": 1.0701077296691135e-12,
+      "tolerance": 2e-07,
+      "pass": true
+    },
+    {
+      "name": "frozen_R",
+      "key": [
+        -0.5,
+        0.4
+      ],
+      "scaled_error": 0.0,
+      "tolerance": 2e-07,
+      "pass": true
+    },
+    {
+      "name": "frozen_source_sky",
+      "key": [
+        -0.5,
+        0.4
+      ],
+      "scaled_error": 7.919225367991106e-13,
+      "tolerance": 2e-07,
+      "pass": true
+    },
+    {
+      "name": "frozen_arrival_sky",
+      "key": [
+        -0.5,
+        0.4
+      ],
+      "scaled_error": 5.067036129264084e-13,
+      "tolerance": 2e-07,
+      "pass": true
+    },
+    {
+      "name": "frozen_area",
+      "key": [
+        -0.5,
+        0.4
+      ],
+      "scaled_error": 7.2299198634275635e-09,
+      "tolerance": 2e-06,
+      "pass": true
+    },
+    {
+      "name": "frozen_widths",
+      "key": [
+        -0.5,
+        0.4
+      ],
+      "scaled_error": 3.1238534838718975e-09,
+      "tolerance": 2e-06,
+      "pass": true
+    },
+    {
+      "name": "base_te",
+      "key": [
+        -0.5,
+        0.8
+      ],
+      "scaled_error": 0.0,
+      "tolerance": 2e-07,
+      "pass": true
+    },
+    {
+      "name": "base_to",
+      "key": [
+        -0.5,
+        0.8
+      ],
+      "scaled_error": 7.137488352056988e-14,
+      "tolerance": 2e-07,
+      "pass": true
+    },
+    {
+      "name": "base_R",
+      "key": [
+        -0.5,
+        0.8
+      ],
+      "scaled_error": 5.084547300846515e-13,
+      "tolerance": 2e-07,
+      "pass": true
+    },
+    {
+      "name": "base_arrival_clock",
+      "key": [
+        -0.5,
+        0.8
+      ],
+      "scaled_error": 7.45088989606011e-14,
+      "tolerance": 2e-07,
+      "pass": true
+    },
+    {
+      "name": "base_source_sky",
+      "key": [
+        -0.5,
+        0.8
+      ],
+      "scaled_error": 1.1927135170207679e-13,
+      "tolerance": 2e-07,
+      "pass": true
+    },
+    {
+      "name": "base_arrival_sky",
+      "key": [
+        -0.5,
+        0.8
+      ],
+      "scaled_error": 6.317720677542719e-13,
+      "tolerance": 2e-07,
+      "pass": true
+    },
+    {
+      "name": "base_spatial_momentum",
+      "key": [
+        -0.5,
+        0.8
+      ],
+      "scaled_error": 1.858460422889637e-13,
+      "tolerance": 2e-07,
+      "pass": true
+    },
+    {
+      "name": "base_area",
+      "key": [
+        -0.5,
+        0.8
+      ],
+      "scaled_error": 1.8559420876969758e-08,
+      "tolerance": 2e-06,
+      "pass": true
+    },
+    {
+      "name": "base_widths",
+      "key": [
+        -0.5,
+        0.8
+      ],
+      "scaled_error": 1.0861976888696141e-08,
+      "tolerance": 2e-06,
+      "pass": true
+    },
+    {
+      "name": "base_screen_map",
+      "key": [
+        -0.5,
+        0.8
+      ],
+      "scaled_error": 1.090815876791053e-08,
+      "tolerance": 2e-06,
+      "pass": true
+    },
+    {
+      "name": "tight_te",
+      "key": [
+        -0.5,
+        0.8
+      ],
+      "scaled_error": 0.0,
+      "tolerance": 2e-07,
+      "pass": true
+    },
+    {
+      "name": "tight_to",
+      "key": [
+        -0.5,
+        0.8
+      ],
+      "scaled_error": 7.137488352056988e-14,
+      "tolerance": 2e-07,
+      "pass": true
+    },
+    {
+      "name": "tight_R",
+      "key": [
+        -0.5,
+        0.8
+      ],
+      "scaled_error": 5.082150060252057e-13,
+      "tolerance": 2e-07,
+      "pass": true
+    },
+    {
+      "name": "tight_arrival_clock",
+      "key": [
+        -0.5,
+        0.8
+      ],
+      "scaled_error": 7.45088989606011e-14,
+      "tolerance": 2e-07,
+      "pass": true
+    },
+    {
+      "name": "tight_source_sky",
+      "key": [
+        -0.5,
+        0.8
+      ],
+      "scaled_error": 1.1932077523950643e-13,
+      "tolerance": 2e-07,
+      "pass": true
+    },
+    {
+      "name": "tight_arrival_sky",
+      "key": [
+        -0.5,
+        0.8
+      ],
+      "scaled_error": 6.319418419075144e-13,
+      "tolerance": 2e-07,
+      "pass": true
+    },
+    {
+      "name": "tight_spatial_momentum",
+      "key": [
+        -0.5,
+        0.8
+      ],
+      "scaled_error": 1.8595850963569583e-13,
+      "tolerance": 2e-07,
+      "pass": true
+    },
+    {
+      "name": "tight_area",
+      "key": [
+        -0.5,
+        0.8
+      ],
+      "scaled_error": 1.8559419958655603e-08,
+      "tolerance": 2e-06,
+      "pass": true
+    },
+    {
+      "name": "tight_widths",
+      "key": [
+        -0.5,
+        0.8
+      ],
+      "scaled_error": 1.0861976888696141e-08,
+      "tolerance": 2e-06,
+      "pass": true
+    },
+    {
+      "name": "tight_screen_map",
+      "key": [
+        -0.5,
+        0.8
+      ],
+      "scaled_error": 1.090815876791053e-08,
+      "tolerance": 2e-06,
+      "pass": true
+    },
+    {
+      "name": "frozen_te",
+      "key": [
+        -0.5,
+        0.8
+      ],
+      "scaled_error": 0.0,
+      "tolerance": 2e-07,
+      "pass": true
+    },
+    {
+      "name": "frozen_to",
+      "key": [
+        -0.5,
+        0.8
+      ],
+      "scaled_error": 6.505778188693302e-13,
+      "tolerance": 2e-07,
+      "pass": true
+    },
+    {
+      "name": "frozen_R",
+      "key": [
+        -0.5,
+        0.8
+      ],
+      "scaled_error": 1.1295056932571852e-16,
+      "tolerance": 2e-07,
+      "pass": true
+    },
+    {
+      "name": "frozen_source_sky",
+      "key": [
+        -0.5,
+        0.8
+      ],
+      "scaled_error": 9.889376393305126e-13,
+      "tolerance": 2e-07,
+      "pass": true
+    },
+    {
+      "name": "frozen_arrival_sky",
+      "key": [
+        -0.5,
+        0.8
+      ],
+      "scaled_error": 8.054887634104875e-13,
+      "tolerance": 2e-07,
+      "pass": true
+    },
+    {
+      "name": "frozen_area",
+      "key": [
+        -0.5,
+        0.8
+      ],
+      "scaled_error": 7.267188328187279e-09,
+      "tolerance": 2e-06,
+      "pass": true
+    },
+    {
+      "name": "frozen_widths",
+      "key": [
+        -0.5,
+        0.8
+      ],
+      "scaled_error": 3.3036235105386777e-09,
+      "tolerance": 2e-06,
+      "pass": true
+    },
+    {
+      "name": "base_te",
+      "key": [
+        -0.5,
+        1.2
+      ],
+      "scaled_error": 1.1837967688846107e-16,
+      "tolerance": 2e-07,
+      "pass": true
+    },
+    {
+      "name": "base_to",
+      "key": [
+        -0.5,
+        1.2
+      ],
+      "scaled_error": 1.805477003852468e-13,
+      "tolerance": 2e-07,
+      "pass": true
+    },
+    {
+      "name": "base_R",
+      "key": [
+        -0.5,
+        1.2
+      ],
+      "scaled_error": 1.1069395743542801e-13,
+      "tolerance": 2e-07,
+      "pass": true
+    },
+    {
+      "name": "base_arrival_clock",
+      "key": [
+        -0.5,
+        1.2
+      ],
+      "scaled_error": 2.015713969474793e-13,
+      "tolerance": 2e-07,
+      "pass": true
+    },
+    {
+      "name": "base_source_sky",
+      "key": [
+        -0.5,
+        1.2
+      ],
+      "scaled_error": 6.795857935652251e-14,
+      "tolerance": 2e-07,
+      "pass": true
+    },
+    {
+      "name": "base_arrival_sky",
+      "key": [
+        -0.5,
+        1.2
+      ],
+      "scaled_error": 1.5860101757183872e-13,
+      "tolerance": 2e-07,
+      "pass": true
+    },
+    {
+      "name": "base_spatial_momentum",
+      "key": [
+        -0.5,
+        1.2
+      ],
+      "scaled_error": 6.080379596872141e-14,
+      "tolerance": 2e-07,
+      "pass": true
+    },
+    {
+      "name": "base_area",
+      "key": [
+        -0.5,
+        1.2
+      ],
+      "scaled_error": 9.00809802886359e-09,
+      "tolerance": 2e-06,
+      "pass": true
+    },
+    {
+      "name": "base_widths",
+      "key": [
+        -0.5,
+        1.2
+      ],
+      "scaled_error": 1.0021291684861959e-08,
+      "tolerance": 2e-06,
+      "pass": true
+    },
+    {
+      "name": "base_screen_map",
+      "key": [
+        -0.5,
+        1.2
+      ],
+      "scaled_error": 3.158128893544097e-08,
+      "tolerance": 2e-06,
+      "pass": true
+    },
+    {
+      "name": "tight_te",
+      "key": [
+        -0.5,
+        1.2
+      ],
+      "scaled_error": 1.1837967688846107e-16,
+      "tolerance": 2e-07,
+      "pass": true
+    },
+    {
+      "name": "tight_to",
+      "key": [
+        -0.5,
+        1.2
+      ],
+      "scaled_error": 1.805477003852468e-13,
+      "tolerance": 2e-07,
+      "pass": true
+    },
+    {
+      "name": "tight_R",
+      "key": [
+        -0.5,
+        1.2
+      ],
+      "scaled_error": 1.1061611358350437e-13,
+      "tolerance": 2e-07,
+      "pass": true
+    },
+    {
+      "name": "tight_arrival_clock",
+      "key": [
+        -0.5,
+        1.2
+      ],
+      "scaled_error": 2.015713969474793e-13,
+      "tolerance": 2e-07,
+      "pass": true
+    },
+    {
+      "name": "tight_source_sky",
+      "key": [
+        -0.5,
+        1.2
+      ],
+      "scaled_error": 6.78358661399163e-14,
+      "tolerance": 2e-07,
+      "pass": true
+    },
+    {
+      "name": "tight_arrival_sky",
+      "key": [
+        -0.5,
+        1.2
+      ],
+      "scaled_error": 1.588097946901869e-13,
+      "tolerance": 2e-07,
+      "pass": true
+    },
+    {
+      "name": "tight_spatial_momentum",
+      "key": [
+        -0.5,
+        1.2
+      ],
+      "scaled_error": 6.116680370584811e-14,
+      "tolerance": 2e-07,
+      "pass": true
+    },
+    {
+      "name": "tight_area",
+      "key": [
+        -0.5,
+        1.2
+      ],
+      "scaled_error": 9.008098719196591e-09,
+      "tolerance": 2e-06,
+      "pass": true
+    },
+    {
+      "name": "tight_widths",
+      "key": [
+        -0.5,
+        1.2
+      ],
+      "scaled_error": 1.0021292233039903e-08,
+      "tolerance": 2e-06,
+      "pass": true
+    },
+    {
+      "name": "tight_screen_map",
+      "key": [
+        -0.5,
+        1.2
+      ],
+      "scaled_error": 3.158129026605949e-08,
+      "tolerance": 2e-06,
+      "pass": true
+    },
+    {
+      "name": "frozen_te",
+      "key": [
+        -0.5,
+        1.2
+      ],
+      "scaled_error": 1.1837967688846107e-16,
+      "tolerance": 2e-07,
+      "pass": true
+    },
+    {
+      "name": "frozen_to",
+      "key": [
+        -0.5,
+        1.2
+      ],
+      "scaled_error": 1.9984487410190698e-14,
+      "tolerance": 2e-07,
+      "pass": true
+    },
+    {
+      "name": "frozen_R",
+      "key": [
+        -0.5,
+        1.2
+      ],
+      "scaled_error": 1.1081635530265313e-16,
+      "tolerance": 2e-07,
+      "pass": true
+    },
+    {
+      "name": "frozen_source_sky",
+      "key": [
+        -0.5,
+        1.2
+      ],
+      "scaled_error": 5.546796635244208e-14,
+      "tolerance": 2e-07,
+      "pass": true
+    },
+    {
+      "name": "frozen_arrival_sky",
+      "key": [
+        -0.5,
+        1.2
+      ],
+      "scaled_error": 6.137815447810707e-14,
+      "tolerance": 2e-07,
+      "pass": true
+    },
+    {
+      "name": "frozen_area",
+      "key": [
+        -0.5,
+        1.2
+      ],
+      "scaled_error": 8.941151401693011e-09,
+      "tolerance": 2e-06,
+      "pass": true
+    },
+    {
+      "name": "frozen_widths",
+      "key": [
+        -0.5,
+        1.2
+      ],
+      "scaled_error": 4.578297415927232e-09,
+      "tolerance": 2e-06,
+      "pass": true
+    },
+    {
+      "name": "base_te",
+      "key": [
+        0.0,
+        0.0
+      ],
+      "scaled_error": 0.0,
+      "tolerance": 2e-07,
+      "pass": true
+    },
+    {
+      "name": "base_to",
+      "key": [
+        0.0,
+        0.0
+      ],
+      "scaled_error": 8.452578979916931e-13,
+      "tolerance": 2e-07,
+      "pass": true
+    },
+    {
+      "name": "base_R",
+      "key": [
+        0.0,
+        0.0
+      ],
+      "scaled_error": 5.362641245654735e-13,
+      "tolerance": 2e-07,
+      "pass": true
+    },
+    {
+      "name": "base_arrival_clock",
+      "key": [
+        0.0,
+        0.0
+      ],
+      "scaled_error": 7.666243771538987e-13,
+      "tolerance": 2e-07,
+      "pass": true
+    },
+    {
+      "name": "base_source_sky",
+      "key": [
+        0.0,
+        0.0
+      ],
+      "scaled_error": 6.940609586283367e-14,
+      "tolerance": 2e-07,
+      "pass": true
+    },
+    {
+      "name": "base_arrival_sky",
+      "key": [
+        0.0,
+        0.0
+      ],
+      "scaled_error": 5.814224029842388e-13,
+      "tolerance": 2e-07,
+      "pass": true
+    },
+    {
+      "name": "base_spatial_momentum",
+      "key": [
+        0.0,
+        0.0
+      ],
+      "scaled_error": 5.3543350954203615e-14,
+      "tolerance": 2e-07,
+      "pass": true
+    },
+    {
+      "name": "base_area",
+      "key": [
+        0.0,
+        0.0
+      ],
+      "scaled_error": 2.4963253974828144e-08,
+      "tolerance": 2e-06,
+      "pass": true
+    },
+    {
+      "name": "base_widths",
+      "key": [
+        0.0,
+        0.0
+      ],
+      "scaled_error": 1.7801273357074908e-08,
+      "tolerance": 2e-06,
+      "pass": true
+    },
+    {
+      "name": "base_screen_map",
+      "key": [
+        0.0,
+        0.0
+      ],
+      "scaled_error": 1.7801273357074908e-08,
+      "tolerance": 2e-06,
+      "pass": true
+    },
+    {
+      "name": "tight_te",
+      "key": [
+        0.0,
+        0.0
+      ],
+      "scaled_error": 0.0,
+      "tolerance": 2e-07,
+      "pass": true
+    },
+    {
+      "name": "tight_to",
+      "key": [
+        0.0,
+        0.0
+      ],
+      "scaled_error": 8.524810109381675e-13,
+      "tolerance": 2e-07,
+      "pass": true
+    },
+    {
+      "name": "tight_R",
+      "key": [
+        0.0,
+        0.0
+      ],
+      "scaled_error": 5.324649781789062e-13,
+      "tolerance": 2e-07,
+      "pass": true
+    },
+    {
+      "name": "tight_arrival_clock",
+      "key": [
+        0.0,
+        0.0
+      ],
+      "scaled_error": 7.732189954519967e-13,
+      "tolerance": 2e-07,
+      "pass": true
+    },
+    {
+      "name": "tight_source_sky",
+      "key": [
+        0.0,
+        0.0
+      ],
+      "scaled_error": 7.145252781900248e-14,
+      "tolerance": 2e-07,
+      "pass": true
+    },
+    {
+      "name": "tight_arrival_sky",
+      "key": [
+        0.0,
+        0.0
+      ],
+      "scaled_error": 5.805585683623796e-13,
+      "tolerance": 2e-07,
+      "pass": true
+    },
+    {
+      "name": "tight_spatial_momentum",
+      "key": [
+        0.0,
+        0.0
+      ],
+      "scaled_error": 5.5115917396250335e-14,
+      "tolerance": 2e-07,
+      "pass": true
+    },
+    {
+      "name": "tight_area",
+      "key": [
+        0.0,
+        0.0
+      ],
+      "scaled_error": 2.4963271598262074e-08,
+      "tolerance": 2e-06,
+      "pass": true
+    },
+    {
+      "name": "tight_widths",
+      "key": [
+        0.0,
+        0.0
+      ],
+      "scaled_error": 1.7801285035726857e-08,
+      "tolerance": 2e-06,
+      "pass": true
+    },
+    {
+      "name": "tight_screen_map",
+      "key": [
+        0.0,
+        0.0
+      ],
+      "scaled_error": 1.7801285035726857e-08,
+      "tolerance": 2e-06,
+      "pass": true
+    },
+    {
+      "name": "frozen_te",
+      "key": [
+        0.0,
+        0.0
+      ],
+      "scaled_error": 0.0,
+      "tolerance": 2e-07,
+      "pass": true
+    },
+    {
+      "name": "frozen_to",
+      "key": [
+        0.0,
+        0.0
+      ],
+      "scaled_error": 0.0,
+      "tolerance": 2e-07,
+      "pass": true
+    },
+    {
+      "name": "frozen_R",
+      "key": [
+        0.0,
+        0.0
+      ],
+      "scaled_error": 1.1102230246251565e-16,
+      "tolerance": 2e-07,
+      "pass": true
+    },
+    {
+      "name": "frozen_source_sky",
+      "key": [
+        0.0,
+        0.0
+      ],
+      "scaled_error": 6.307771318079719e-17,
+      "tolerance": 2e-07,
+      "pass": true
+    },
+    {
+      "name": "frozen_arrival_sky",
+      "key": [
+        0.0,
+        0.0
+      ],
+      "scaled_error": 3.84590198980155e-17,
+      "tolerance": 2e-07,
+      "pass": true
+    },
+    {
+      "name": "frozen_area",
+      "key": [
+        0.0,
+        0.0
+      ],
+      "scaled_error": 7.1352488413567854e-09,
+      "tolerance": 2e-06,
+      "pass": true
+    },
+    {
+      "name": "frozen_widths",
+      "key": [
+        0.0,
+        0.0
+      ],
+      "scaled_error": 3.062502438209605e-09,
+      "tolerance": 2e-06,
+      "pass": true
+    },
+    {
+      "name": "base_te",
+      "key": [
+        0.0,
+        0.4
+      ],
+      "scaled_error": 8.652781350862271e-17,
+      "tolerance": 2e-07,
+      "pass": true
+    },
+    {
+      "name": "base_to",
+      "key": [
+        0.0,
+        0.4
+      ],
+      "scaled_error": 8.303059759068691e-13,
+      "tolerance": 2e-07,
+      "pass": true
+    },
+    {
+      "name": "base_R",
+      "key": [
+        0.0,
+        0.4
+      ],
+      "scaled_error": 3.9927056941139936e-13,
+      "tolerance": 2e-07,
+      "pass": true
+    },
+    {
+      "name": "base_arrival_clock",
+      "key": [
+        0.0,
+        0.4
+      ],
+      "scaled_error": 7.198622324272565e-13,
+      "tolerance": 2e-07,
+      "pass": true
+    },
+    {
+      "name": "base_source_sky",
+      "key": [
+        0.0,
+        0.4
+      ],
+      "scaled_error": 8.456947619075115e-14,
+      "tolerance": 2e-07,
+      "pass": true
+    },
+    {
+      "name": "base_arrival_sky",
+      "key": [
+        0.0,
+        0.4
+      ],
+      "scaled_error": 4.858265645747284e-13,
+      "tolerance": 2e-07,
+      "pass": true
+    },
+    {
+      "name": "base_spatial_momentum",
+      "key": [
+        0.0,
+        0.4
+      ],
+      "scaled_error": 5.853169618576493e-14,
+      "tolerance": 2e-07,
+      "pass": true
+    },
+    {
+      "name": "base_area",
+      "key": [
+        0.0,
+        0.4
+      ],
+      "scaled_error": 2.385916424887605e-08,
+      "tolerance": 2e-06,
+      "pass": true
+    },
+    {
+      "name": "base_widths",
+      "key": [
+        0.0,
+        0.4
+      ],
+      "scaled_error": 1.674814812440006e-08,
+      "tolerance": 2e-06,
+      "pass": true
+    },
+    {
+      "name": "base_screen_map",
+      "key": [
+        0.0,
+        0.4
+      ],
+      "scaled_error": 1.674814812440006e-08,
+      "tolerance": 2e-06,
+      "pass": true
+    },
+    {
+      "name": "tight_te",
+      "key": [
+        0.0,
+        0.4
+      ],
+      "scaled_error": 8.652781350862271e-17,
+      "tolerance": 2e-07,
+      "pass": true
+    },
+    {
+      "name": "tight_to",
+      "key": [
+        0.0,
+        0.4
+      ],
+      "scaled_error": 8.310251668777715e-13,
+      "tolerance": 2e-07,
+      "pass": true
+    },
+    {
+      "name": "tight_R",
+      "key": [
+        0.0,
+        0.4
+      ],
+      "scaled_error": 3.9896900553722153e-13,
+      "tolerance": 2e-07,
+      "pass": true
+    },
+    {
+      "name": "tight_arrival_clock",
+      "key": [
+        0.0,
+        0.4
+      ],
+      "scaled_error": 7.205236678628711e-13,
+      "tolerance": 2e-07,
+      "pass": true
+    },
+    {
+      "name": "tight_source_sky",
+      "key": [
+        0.0,
+        0.4
+      ],
+      "scaled_error": 8.469496881011715e-14,
+      "tolerance": 2e-07,
+      "pass": true
+    },
+    {
+      "name": "tight_arrival_sky",
+      "key": [
+        0.0,
+        0.4
+      ],
+      "scaled_error": 4.858265645747284e-13,
+      "tolerance": 2e-07,
+      "pass": true
+    },
+    {
+      "name": "tight_spatial_momentum",
+      "key": [
+        0.0,
+        0.4
+      ],
+      "scaled_error": 5.862240282143027e-14,
+      "tolerance": 2e-07,
+      "pass": true
+    },
+    {
+      "name": "tight_area",
+      "key": [
+        0.0,
+        0.4
+      ],
+      "scaled_error": 2.385916626774753e-08,
+      "tolerance": 2e-06,
+      "pass": true
+    },
+    {
+      "name": "tight_widths",
+      "key": [
+        0.0,
+        0.4
+      ],
+      "scaled_error": 1.6748149266512634e-08,
+      "tolerance": 2e-06,
+      "pass": true
+    },
+    {
+      "name": "tight_screen_map",
+      "key": [
+        0.0,
+        0.4
+      ],
+      "scaled_error": 1.6748149266512634e-08,
+      "tolerance": 2e-06,
+      "pass": true
+    },
+    {
+      "name": "frozen_te",
+      "key": [
+        0.0,
+        0.4
+      ],
+      "scaled_error": 8.652781350862271e-17,
+      "tolerance": 2e-07,
+      "pass": true
+    },
+    {
+      "name": "frozen_to",
+      "key": [
+        0.0,
+        0.4
+      ],
+      "scaled_error": 1.1630702485380257e-15,
+      "tolerance": 2e-07,
+      "pass": true
+    },
+    {
+      "name": "frozen_R",
+      "key": [
+        0.0,
+        0.4
+      ],
+      "scaled_error": 0.0,
+      "tolerance": 2e-07,
+      "pass": true
+    },
+    {
+      "name": "frozen_source_sky",
+      "key": [
+        0.0,
+        0.4
+      ],
+      "scaled_error": 3.265861564426581e-16,
+      "tolerance": 2e-07,
+      "pass": true
+    },
+    {
+      "name": "frozen_arrival_sky",
+      "key": [
+        0.0,
+        0.4
+      ],
+      "scaled_error": 3.265861564426581e-16,
+      "tolerance": 2e-07,
+      "pass": true
+    },
+    {
+      "name": "frozen_area",
+      "key": [
+        0.0,
+        0.4
+      ],
+      "scaled_error": 7.766698358481859e-09,
+      "tolerance": 2e-06,
+      "pass": true
+    },
+    {
+      "name": "frozen_widths",
+      "key": [
+        0.0,
+        0.4
+      ],
+      "scaled_error": 3.2563590084429657e-09,
+      "tolerance": 2e-06,
+      "pass": true
+    },
+    {
+      "name": "base_te",
+      "key": [
+        0.0,
+        0.8
+      ],
+      "scaled_error": 3.341536671718529e-15,
+      "tolerance": 2e-07,
+      "pass": true
+    },
+    {
+      "name": "base_to",
+      "key": [
+        0.0,
+        0.8
+      ],
+      "scaled_error": 7.167775138706104e-13,
+      "tolerance": 2e-07,
+      "pass": true
+    },
+    {
+      "name": "base_R",
+      "key": [
+        0.0,
+        0.8
+      ],
+      "scaled_error": 7.3283873066438e-13,
+      "tolerance": 2e-07,
+      "pass": true
+    },
+    {
+      "name": "base_arrival_clock",
+      "key": [
+        0.0,
+        0.8
+      ],
+      "scaled_error": 6.041983978526638e-13,
+      "tolerance": 2e-07,
+      "pass": true
+    },
+    {
+      "name": "base_source_sky",
+      "key": [
+        0.0,
+        0.8
+      ],
+      "scaled_error": 1.8133177062269625e-13,
+      "tolerance": 2e-07,
+      "pass": true
+    },
+    {
+      "name": "base_arrival_sky",
+      "key": [
+        0.0,
+        0.8
+      ],
+      "scaled_error": 6.894816501056429e-13,
+      "tolerance": 2e-07,
+      "pass": true
+    },
+    {
+      "name": "base_spatial_momentum",
+      "key": [
+        0.0,
+        0.8
+      ],
+      "scaled_error": 1.154569039889768e-13,
+      "tolerance": 2e-07,
+      "pass": true
+    },
+    {
+      "name": "base_area",
+      "key": [
+        0.0,
+        0.8
+      ],
+      "scaled_error": 2.266265506286048e-08,
+      "tolerance": 2e-06,
+      "pass": true
+    },
+    {
+      "name": "base_widths",
+      "key": [
+        0.0,
+        0.8
+      ],
+      "scaled_error": 1.569299737363821e-08,
+      "tolerance": 2e-06,
+      "pass": true
+    },
+    {
+      "name": "base_screen_map",
+      "key": [
+        0.0,
+        0.8
+      ],
+      "scaled_error": 1.569299737363821e-08,
+      "tolerance": 2e-06,
+      "pass": true
+    },
+    {
+      "name": "tight_te",
+      "key": [
+        0.0,
+        0.8
+      ],
+      "scaled_error": 3.341536671718529e-15,
+      "tolerance": 2e-07,
+      "pass": true
+    },
+    {
+      "name": "tight_to",
+      "key": [
+        0.0,
+        0.8
+      ],
+      "scaled_error": 7.167775138706104e-13,
+      "tolerance": 2e-07,
+      "pass": true
+    },
+    {
+      "name": "tight_R",
+      "key": [
+        0.0,
+        0.8
+      ],
+      "scaled_error": 7.329932890806332e-13,
+      "tolerance": 2e-07,
+      "pass": true
+    },
+    {
+      "name": "tight_arrival_clock",
+      "key": [
+        0.0,
+        0.8
+      ],
+      "scaled_error": 6.041983978526638e-13,
+      "tolerance": 2e-07,
+      "pass": true
+    },
+    {
+      "name": "tight_source_sky",
+      "key": [
+        0.0,
+        0.8
+      ],
+      "scaled_error": 1.8131905985789722e-13,
+      "tolerance": 2e-07,
+      "pass": true
+    },
+    {
+      "name": "tight_arrival_sky",
+      "key": [
+        0.0,
+        0.8
+      ],
+      "scaled_error": 6.894816501056429e-13,
+      "tolerance": 2e-07,
+      "pass": true
+    },
+    {
+      "name": "tight_spatial_momentum",
+      "key": [
+        0.0,
+        0.8
+      ],
+      "scaled_error": 1.1545033684808668e-13,
+      "tolerance": 2e-07,
+      "pass": true
+    },
+    {
+      "name": "tight_area",
+      "key": [
+        0.0,
+        0.8
+      ],
+      "scaled_error": 2.266265435900824e-08,
+      "tolerance": 2e-06,
+      "pass": true
+    },
+    {
+      "name": "tight_widths",
+      "key": [
+        0.0,
+        0.8
+      ],
+      "scaled_error": 1.569299737363821e-08,
+      "tolerance": 2e-06,
+      "pass": true
+    },
+    {
+      "name": "tight_screen_map",
+      "key": [
+        0.0,
+        0.8
+      ],
+      "scaled_error": 1.5692997525733004e-08,
+      "tolerance": 2e-06,
+      "pass": true
+    },
+    {
+      "name": "frozen_te",
+      "key": [
+        0.0,
+        0.8
+      ],
+      "scaled_error": 3.341536671718529e-15,
+      "tolerance": 2e-07,
+      "pass": true
+    },
+    {
+      "name": "frozen_to",
+      "key": [
+        0.0,
+        0.8
+      ],
+      "scaled_error": 4.660248576152468e-15,
+      "tolerance": 2e-07,
+      "pass": true
+    },
+    {
+      "name": "frozen_R",
+      "key": [
+        0.0,
+        0.8
+      ],
+      "scaled_error": 0.0,
+      "tolerance": 2e-07,
+      "pass": true
+    },
+    {
+      "name": "frozen_source_sky",
+      "key": [
+        0.0,
+        0.8
+      ],
+      "scaled_error": 1.1211931038560633e-15,
+      "tolerance": 2e-07,
+      "pass": true
+    },
+    {
+      "name": "frozen_arrival_sky",
+      "key": [
+        0.0,
+        0.8
+      ],
+      "scaled_error": 1.1211931038560633e-15,
+      "tolerance": 2e-07,
+      "pass": true
+    },
+    {
+      "name": "frozen_area",
+      "key": [
+        0.0,
+        0.8
+      ],
+      "scaled_error": 8.220490544500645e-09,
+      "tolerance": 2e-06,
+      "pass": true
+    },
+    {
+      "name": "frozen_widths",
+      "key": [
+        0.0,
+        0.8
+      ],
+      "scaled_error": 3.415034619800924e-09,
+      "tolerance": 2e-06,
+      "pass": true
+    },
+    {
+      "name": "base_te",
+      "key": [
+        0.0,
+        1.2
+      ],
+      "scaled_error": 4.140368957667966e-15,
+      "tolerance": 2e-07,
+      "pass": true
+    },
+    {
+      "name": "base_to",
+      "key": [
+        0.0,
+        1.2
+      ],
+      "scaled_error": 6.683799982850656e-13,
+      "tolerance": 2e-07,
+      "pass": true
+    },
+    {
+      "name": "base_R",
+      "key": [
+        0.0,
+        1.2
+      ],
+      "scaled_error": 6.491473575686547e-13,
+      "tolerance": 2e-07,
+      "pass": true
+    },
+    {
+      "name": "base_arrival_clock",
+      "key": [
+        0.0,
+        1.2
+      ],
+      "scaled_error": 5.525920852029883e-13,
+      "tolerance": 2e-07,
+      "pass": true
+    },
+    {
+      "name": "base_source_sky",
+      "key": [
+        0.0,
+        1.2
+      ],
+      "scaled_error": 1.4615212408752268e-13,
+      "tolerance": 2e-07,
+      "pass": true
+    },
+    {
+      "name": "base_arrival_sky",
+      "key": [
+        0.0,
+        1.2
+      ],
+      "scaled_error": 6.230769868093905e-13,
+      "tolerance": 2e-07,
+      "pass": true
+    },
+    {
+      "name": "base_spatial_momentum",
+      "key": [
+        0.0,
+        1.2
+      ],
+      "scaled_error": 8.711181443751185e-14,
+      "tolerance": 2e-07,
+      "pass": true
+    },
+    {
+      "name": "base_area",
+      "key": [
+        0.0,
+        1.2
+      ],
+      "scaled_error": 2.1628899979261787e-08,
+      "tolerance": 2e-06,
+      "pass": true
+    },
+    {
+      "name": "base_widths",
+      "key": [
+        0.0,
+        1.2
+      ],
+      "scaled_error": 1.4805616828722976e-08,
+      "tolerance": 2e-06,
+      "pass": true
+    },
+    {
+      "name": "base_screen_map",
+      "key": [
+        0.0,
+        1.2
+      ],
+      "scaled_error": 1.4805616828722976e-08,
+      "tolerance": 2e-06,
+      "pass": true
+    },
+    {
+      "name": "tight_te",
+      "key": [
+        0.0,
+        1.2
+      ],
+      "scaled_error": 4.140368957667966e-15,
+      "tolerance": 2e-07,
+      "pass": true
+    },
+    {
+      "name": "tight_to",
+      "key": [
+        0.0,
+        1.2
+      ],
+      "scaled_error": 6.688744841037722e-13,
+      "tolerance": 2e-07,
+      "pass": true
+    },
+    {
+      "name": "tight_R",
+      "key": [
+        0.0,
+        1.2
+      ],
+      "scaled_error": 6.490685297170982e-13,
+      "tolerance": 2e-07,
+      "pass": true
+    },
+    {
+      "name": "tight_arrival_clock",
+      "key": [
+        0.0,
+        1.2
+      ],
+      "scaled_error": 5.529133596711296e-13,
+      "tolerance": 2e-07,
+      "pass": true
+    },
+    {
+      "name": "tight_source_sky",
+      "key": [
+        0.0,
+        1.2
+      ],
+      "scaled_error": 1.4630613054072344e-13,
+      "tolerance": 2e-07,
+      "pass": true
+    },
+    {
+      "name": "tight_arrival_sky",
+      "key": [
+        0.0,
+        1.2
+      ],
+      "scaled_error": 6.230168500478029e-13,
+      "tolerance": 2e-07,
+      "pass": true
+    },
+    {
+      "name": "tight_spatial_momentum",
+      "key": [
+        0.0,
+        1.2
+      ],
+      "scaled_error": 8.720460644862994e-14,
+      "tolerance": 2e-07,
+      "pass": true
+    },
+    {
+      "name": "tight_area",
+      "key": [
+        0.0,
+        1.2
+      ],
+      "scaled_error": 2.162890087836934e-08,
+      "tolerance": 2e-06,
+      "pass": true
+    },
+    {
+      "name": "tight_widths",
+      "key": [
+        0.0,
+        1.2
+      ],
+      "scaled_error": 1.4805617543810062e-08,
+      "tolerance": 2e-06,
+      "pass": true
+    },
+    {
+      "name": "tight_screen_map",
+      "key": [
+        0.0,
+        1.2
+      ],
+      "scaled_error": 1.4805617686827479e-08,
+      "tolerance": 2e-06,
+      "pass": true
+    },
+    {
+      "name": "frozen_te",
+      "key": [
+        0.0,
+        1.2
+      ],
+      "scaled_error": 4.140368957667966e-15,
+      "tolerance": 2e-07,
+      "pass": true
+    },
+    {
+      "name": "frozen_to",
+      "key": [
+        0.0,
+        1.2
+      ],
+      "scaled_error": 3.968369294155434e-15,
+      "tolerance": 2e-07,
+      "pass": true
+    },
+    {
+      "name": "frozen_R",
+      "key": [
+        0.0,
+        1.2
+      ],
+      "scaled_error": 1.1102230246251565e-16,
+      "tolerance": 2e-07,
+      "pass": true
+    },
+    {
+      "name": "frozen_source_sky",
+      "key": [
+        0.0,
+        1.2
+      ],
+      "scaled_error": 6.72416271698598e-16,
+      "tolerance": 2e-07,
+      "pass": true
+    },
+    {
+      "name": "frozen_arrival_sky",
+      "key": [
+        0.0,
+        1.2
+      ],
+      "scaled_error": 6.275885202520248e-16,
+      "tolerance": 2e-07,
+      "pass": true
+    },
+    {
+      "name": "frozen_area",
+      "key": [
+        0.0,
+        1.2
+      ],
+      "scaled_error": 8.544184460532332e-09,
+      "tolerance": 2e-06,
+      "pass": true
+    },
+    {
+      "name": "frozen_widths",
+      "key": [
+        0.0,
+        1.2
+      ],
+      "scaled_error": 3.5401186892907693e-09,
+      "tolerance": 2e-06,
+      "pass": true
+    },
+    {
+      "name": "base_te",
+      "key": [
+        0.5,
+        0.0
+      ],
+      "scaled_error": 0.0,
+      "tolerance": 2e-07,
+      "pass": true
+    },
+    {
+      "name": "base_to",
+      "key": [
+        0.5,
+        0.0
+      ],
+      "scaled_error": 1.282149193716635e-12,
+      "tolerance": 2e-07,
+      "pass": true
+    },
+    {
+      "name": "base_R",
+      "key": [
+        0.5,
+        0.0
+      ],
+      "scaled_error": 3.143601400914648e-14,
+      "tolerance": 2e-07,
+      "pass": true
+    },
+    {
+      "name": "base_arrival_clock",
+      "key": [
+        0.5,
+        0.0
+      ],
+      "scaled_error": 1.3911117849723309e-12,
+      "tolerance": 2e-07,
+      "pass": true
+    },
+    {
+      "name": "base_source_sky",
+      "key": [
+        0.5,
+        0.0
+      ],
+      "scaled_error": 8.282584522555112e-14,
+      "tolerance": 2e-07,
+      "pass": true
+    },
+    {
+      "name": "base_arrival_sky",
+      "key": [
+        0.5,
+        0.0
+      ],
+      "scaled_error": 5.269048906548536e-13,
+      "tolerance": 2e-07,
+      "pass": true
+    },
+    {
+      "name": "base_spatial_momentum",
+      "key": [
+        0.5,
+        0.0
+      ],
+      "scaled_error": 1.6219654808864597e-13,
+      "tolerance": 2e-07,
+      "pass": true
+    },
+    {
+      "name": "base_area",
+      "key": [
+        0.5,
+        0.0
+      ],
+      "scaled_error": 2.1301002417777584e-08,
+      "tolerance": 2e-06,
+      "pass": true
+    },
+    {
+      "name": "base_widths",
+      "key": [
+        0.5,
+        0.0
+      ],
+      "scaled_error": 1.4387039907965428e-08,
+      "tolerance": 2e-06,
+      "pass": true
+    },
+    {
+      "name": "base_screen_map",
+      "key": [
+        0.5,
+        0.0
+      ],
+      "scaled_error": 2.9028430729380255e-08,
+      "tolerance": 2e-06,
+      "pass": true
+    },
+    {
+      "name": "tight_te",
+      "key": [
+        0.5,
+        0.0
+      ],
+      "scaled_error": 0.0,
+      "tolerance": 2e-07,
+      "pass": true
+    },
+    {
+      "name": "tight_to",
+      "key": [
+        0.5,
+        0.0
+      ],
+      "scaled_error": 1.2927232946495515e-12,
+      "tolerance": 2e-07,
+      "pass": true
+    },
+    {
+      "name": "tight_R",
+      "key": [
+        0.5,
+        0.0
+      ],
+      "scaled_error": 3.5469838815629875e-14,
+      "tolerance": 2e-07,
+      "pass": true
+    },
+    {
+      "name": "tight_arrival_clock",
+      "key": [
+        0.5,
+        0.0
+      ],
+      "scaled_error": 1.4023567904716844e-12,
+      "tolerance": 2e-07,
+      "pass": true
+    },
+    {
+      "name": "tight_source_sky",
+      "key": [
+        0.5,
+        0.0
+      ],
+      "scaled_error": 8.067755716218751e-14,
+      "tolerance": 2e-07,
+      "pass": true
+    },
+    {
+      "name": "tight_arrival_sky",
+      "key": [
+        0.5,
+        0.0
+      ],
+      "scaled_error": 5.215972189587307e-13,
+      "tolerance": 2e-07,
+      "pass": true
+    },
+    {
+      "name": "tight_spatial_momentum",
+      "key": [
+        0.5,
+        0.0
+      ],
+      "scaled_error": 1.6003137500765312e-13,
+      "tolerance": 2e-07,
+      "pass": true
+    },
+    {
+      "name": "tight_area",
+      "key": [
+        0.5,
+        0.0
+      ],
+      "scaled_error": 2.1301049376495775e-08,
+      "tolerance": 2e-06,
+      "pass": true
+    },
+    {
+      "name": "tight_widths",
+      "key": [
+        0.5,
+        0.0
+      ],
+      "scaled_error": 1.438705773360457e-08,
+      "tolerance": 2e-06,
+      "pass": true
+    },
+    {
+      "name": "tight_screen_map",
+      "key": [
+        0.5,
+        0.0
+      ],
+      "scaled_error": 2.902844154151758e-08,
+      "tolerance": 2e-06,
+      "pass": true
+    },
+    {
+      "name": "frozen_te",
+      "key": [
+        0.5,
+        0.0
+      ],
+      "scaled_error": 0.0,
+      "tolerance": 2e-07,
+      "pass": true
+    },
+    {
+      "name": "frozen_to",
+      "key": [
+        0.5,
+        0.0
+      ],
+      "scaled_error": 0.0,
+      "tolerance": 2e-07,
+      "pass": true
+    },
+    {
+      "name": "frozen_R",
+      "key": [
+        0.5,
+        0.0
+      ],
+      "scaled_error": 1.1102230246251565e-16,
+      "tolerance": 2e-07,
+      "pass": true
+    },
+    {
+      "name": "frozen_source_sky",
+      "key": [
+        0.5,
+        0.0
+      ],
+      "scaled_error": 6.307771318079719e-17,
+      "tolerance": 2e-07,
+      "pass": true
+    },
+    {
+      "name": "frozen_arrival_sky",
+      "key": [
+        0.5,
+        0.0
+      ],
+      "scaled_error": 3.84590198980155e-17,
+      "tolerance": 2e-07,
+      "pass": true
+    },
+    {
+      "name": "frozen_area",
+      "key": [
+        0.5,
+        0.0
+      ],
+      "scaled_error": 7.1352488413567854e-09,
+      "tolerance": 2e-06,
+      "pass": true
+    },
+    {
+      "name": "frozen_widths",
+      "key": [
+        0.5,
+        0.0
+      ],
+      "scaled_error": 3.062502438209605e-09,
+      "tolerance": 2e-06,
+      "pass": true
+    },
+    {
+      "name": "base_te",
+      "key": [
+        0.5,
+        0.4
+      ],
+      "scaled_error": 0.0,
+      "tolerance": 2e-07,
+      "pass": true
+    },
+    {
+      "name": "base_to",
+      "key": [
+        0.5,
+        0.4
+      ],
+      "scaled_error": 6.398632551573579e-13,
+      "tolerance": 2e-07,
+      "pass": true
+    },
+    {
+      "name": "base_R",
+      "key": [
+        0.5,
+        0.4
+      ],
+      "scaled_error": 1.4584985590763163e-15,
+      "tolerance": 2e-07,
+      "pass": true
+    },
+    {
+      "name": "base_arrival_clock",
+      "key": [
+        0.5,
+        0.4
+      ],
+      "scaled_error": 6.628246181580878e-13,
+      "tolerance": 2e-07,
+      "pass": true
+    },
+    {
+      "name": "base_source_sky",
+      "key": [
+        0.5,
+        0.4
+      ],
+      "scaled_error": 2.3033768597659214e-13,
+      "tolerance": 2e-07,
+      "pass": true
+    },
+    {
+      "name": "base_arrival_sky",
+      "key": [
+        0.5,
+        0.4
+      ],
+      "scaled_error": 9.803552038837405e-13,
+      "tolerance": 2e-07,
+      "pass": true
+    },
+    {
+      "name": "base_spatial_momentum",
+      "key": [
+        0.5,
+        0.4
+      ],
+      "scaled_error": 3.953348494854741e-13,
+      "tolerance": 2e-07,
+      "pass": true
+    },
+    {
+      "name": "base_area",
+      "key": [
+        0.5,
+        0.4
+      ],
+      "scaled_error": 1.9982446797879926e-08,
+      "tolerance": 2e-06,
+      "pass": true
+    },
+    {
+      "name": "base_widths",
+      "key": [
+        0.5,
+        0.4
+      ],
+      "scaled_error": 1.033264122770713e-08,
+      "tolerance": 2e-06,
+      "pass": true
+    },
+    {
+      "name": "base_screen_map",
+      "key": [
+        0.5,
+        0.4
+      ],
+      "scaled_error": 1.1914829267595978e-08,
+      "tolerance": 2e-06,
+      "pass": true
+    },
+    {
+      "name": "tight_te",
+      "key": [
+        0.5,
+        0.4
+      ],
+      "scaled_error": 0.0,
+      "tolerance": 2e-07,
+      "pass": true
+    },
+    {
+      "name": "tight_to",
+      "key": [
+        0.5,
+        0.4
+      ],
+      "scaled_error": 6.398632551573579e-13,
+      "tolerance": 2e-07,
+      "pass": true
+    },
+    {
+      "name": "tight_R",
+      "key": [
+        0.5,
+        0.4
+      ],
+      "scaled_error": 1.6205539545292401e-15,
+      "tolerance": 2e-07,
+      "pass": true
+    },
+    {
+      "name": "tight_arrival_clock",
+      "key": [
+        0.5,
+        0.4
+      ],
+      "scaled_error": 6.628246181580878e-13,
+      "tolerance": 2e-07,
+      "pass": true
+    },
+    {
+      "name": "tight_source_sky",
+      "key": [
+        0.5,
+        0.4
+      ],
+      "scaled_error": 2.30449164868266e-13,
+      "tolerance": 2e-07,
+      "pass": true
+    },
+    {
+      "name": "tight_arrival_sky",
+      "key": [
+        0.5,
+        0.4
+      ],
+      "scaled_error": 9.807759471581e-13,
+      "tolerance": 2e-07,
+      "pass": true
+    },
+    {
+      "name": "tight_spatial_momentum",
+      "key": [
+        0.5,
+        0.4
+      ],
+      "scaled_error": 3.9549076936300733e-13,
+      "tolerance": 2e-07,
+      "pass": true
+    },
+    {
+      "name": "tight_area",
+      "key": [
+        0.5,
+        0.4
+      ],
+      "scaled_error": 1.9982447608051204e-08,
+      "tolerance": 2e-06,
+      "pass": true
+    },
+    {
+      "name": "tight_widths",
+      "key": [
+        0.5,
+        0.4
+      ],
+      "scaled_error": 1.0332641743641363e-08,
+      "tolerance": 2e-06,
+      "pass": true
+    },
+    {
+      "name": "tight_screen_map",
+      "key": [
+        0.5,
+        0.4
+      ],
+      "scaled_error": 1.1914829892251703e-08,
+      "tolerance": 2e-06,
+      "pass": true
+    },
+    {
+      "name": "frozen_te",
+      "key": [
+        0.5,
+        0.4
+      ],
+      "scaled_error": 0.0,
+      "tolerance": 2e-07,
+      "pass": true
+    },
+    {
+      "name": "frozen_to",
+      "key": [
+        0.5,
+        0.4
+      ],
+      "scaled_error": 5.4936831362383616e-14,
+      "tolerance": 2e-07,
+      "pass": true
+    },
+    {
+      "name": "frozen_R",
+      "key": [
+        0.5,
+        0.4
+      ],
+      "scaled_error": 1.1301764774328082e-16,
+      "tolerance": 2e-07,
+      "pass": true
+    },
+    {
+      "name": "frozen_source_sky",
+      "key": [
+        0.5,
+        0.4
+      ],
+      "scaled_error": 8.868117498354824e-14,
+      "tolerance": 2e-07,
+      "pass": true
+    },
+    {
+      "name": "frozen_arrival_sky",
+      "key": [
+        0.5,
+        0.4
+      ],
+      "scaled_error": 8.115855786229139e-14,
+      "tolerance": 2e-07,
+      "pass": true
+    },
+    {
+      "name": "frozen_area",
+      "key": [
+        0.5,
+        0.4
+      ],
+      "scaled_error": 6.6393145898276895e-09,
+      "tolerance": 2e-06,
+      "pass": true
+    },
+    {
+      "name": "frozen_widths",
+      "key": [
+        0.5,
+        0.4
+      ],
+      "scaled_error": 3.1621661754917226e-09,
+      "tolerance": 2e-06,
+      "pass": true
+    },
+    {
+      "name": "base_te",
+      "key": [
+        0.5,
+        0.8
+      ],
+      "scaled_error": 0.0,
+      "tolerance": 2e-07,
+      "pass": true
+    },
+    {
+      "name": "base_to",
+      "key": [
+        0.5,
+        0.8
+      ],
+      "scaled_error": 2.6675819563244945e-13,
+      "tolerance": 2e-07,
+      "pass": true
+    },
+    {
+      "name": "base_R",
+      "key": [
+        0.5,
+        0.8
+      ],
+      "scaled_error": 2.3622679618973576e-13,
+      "tolerance": 2e-07,
+      "pass": true
+    },
+    {
+      "name": "base_arrival_clock",
+      "key": [
+        0.5,
+        0.8
+      ],
+      "scaled_error": 2.85420593386237e-13,
+      "tolerance": 2e-07,
+      "pass": true
+    },
+    {
+      "name": "base_source_sky",
+      "key": [
+        0.5,
+        0.8
+      ],
+      "scaled_error": 2.155408422881724e-14,
+      "tolerance": 2e-07,
+      "pass": true
+    },
+    {
+      "name": "base_arrival_sky",
+      "key": [
+        0.5,
+        0.8
+      ],
+      "scaled_error": 2.6451077225444355e-13,
+      "tolerance": 2e-07,
+      "pass": true
+    },
+    {
+      "name": "base_spatial_momentum",
+      "key": [
+        0.5,
+        0.8
+      ],
+      "scaled_error": 3.162687265226293e-14,
+      "tolerance": 2e-07,
+      "pass": true
+    },
+    {
+      "name": "base_area",
+      "key": [
+        0.5,
+        0.8
+      ],
+      "scaled_error": 1.1070920818362625e-08,
+      "tolerance": 2e-06,
+      "pass": true
+    },
+    {
+      "name": "base_widths",
+      "key": [
+        0.5,
+        0.8
+      ],
+      "scaled_error": 6.237260869585446e-09,
+      "tolerance": 2e-06,
+      "pass": true
+    },
+    {
+      "name": "base_screen_map",
+      "key": [
+        0.5,
+        0.8
+      ],
+      "scaled_error": 6.282250628645595e-09,
+      "tolerance": 2e-06,
+      "pass": true
+    },
+    {
+      "name": "tight_te",
+      "key": [
+        0.5,
+        0.8
+      ],
+      "scaled_error": 0.0,
+      "tolerance": 2e-07,
+      "pass": true
+    },
+    {
+      "name": "tight_to",
+      "key": [
+        0.5,
+        0.8
+      ],
+      "scaled_error": 2.665317455512674e-13,
+      "tolerance": 2e-07,
+      "pass": true
+    },
+    {
+      "name": "tight_R",
+      "key": [
+        0.5,
+        0.8
+      ],
+      "scaled_error": 2.3622679618973576e-13,
+      "tolerance": 2e-07,
+      "pass": true
+    },
+    {
+      "name": "tight_arrival_clock",
+      "key": [
+        0.5,
+        0.8
+      ],
+      "scaled_error": 2.852362131579513e-13,
+      "tolerance": 2e-07,
+      "pass": true
+    },
+    {
+      "name": "tight_source_sky",
+      "key": [
+        0.5,
+        0.8
+      ],
+      "scaled_error": 2.1480520801415133e-14,
+      "tolerance": 2e-07,
+      "pass": true
+    },
+    {
+      "name": "tight_arrival_sky",
+      "key": [
+        0.5,
+        0.8
+      ],
+      "scaled_error": 2.6462757983768687e-13,
+      "tolerance": 2e-07,
+      "pass": true
+    },
+    {
+      "name": "tight_spatial_momentum",
+      "key": [
+        0.5,
+        0.8
+      ],
+      "scaled_error": 3.183664902178633e-14,
+      "tolerance": 2e-07,
+      "pass": true
+    },
+    {
+      "name": "tight_area",
+      "key": [
+        0.5,
+        0.8
+      ],
+      "scaled_error": 1.1070920818362625e-08,
+      "tolerance": 2e-06,
+      "pass": true
+    },
+    {
+      "name": "tight_widths",
+      "key": [
+        0.5,
+        0.8
+      ],
+      "scaled_error": 6.237260709643499e-09,
+      "tolerance": 2e-06,
+      "pass": true
+    },
+    {
+      "name": "tight_screen_map",
+      "key": [
+        0.5,
+        0.8
+      ],
+      "scaled_error": 6.2822511578916135e-09,
+      "tolerance": 2e-06,
+      "pass": true
+    },
+    {
+      "name": "frozen_te",
+      "key": [
+        0.5,
+        0.8
+      ],
+      "scaled_error": 0.0,
+      "tolerance": 2e-07,
+      "pass": true
+    },
+    {
+      "name": "frozen_to",
+      "key": [
+        0.5,
+        0.8
+      ],
+      "scaled_error": 5.819896803361342e-14,
+      "tolerance": 2e-07,
+      "pass": true
+    },
+    {
+      "name": "frozen_R",
+      "key": [
+        0.5,
+        0.8
+      ],
+      "scaled_error": 0.0,
+      "tolerance": 2e-07,
+      "pass": true
+    },
+    {
+      "name": "frozen_source_sky",
+      "key": [
+        0.5,
+        0.8
+      ],
+      "scaled_error": 5.939610764451934e-14,
+      "tolerance": 2e-07,
+      "pass": true
+    },
+    {
+      "name": "frozen_arrival_sky",
+      "key": [
+        0.5,
+        0.8
+      ],
+      "scaled_error": 1.603628859526324e-13,
+      "tolerance": 2e-07,
+      "pass": true
+    },
+    {
+      "name": "frozen_area",
+      "key": [
+        0.5,
+        0.8
+      ],
+      "scaled_error": 6.0555992474479065e-09,
+      "tolerance": 2e-06,
+      "pass": true
+    },
+    {
+      "name": "frozen_widths",
+      "key": [
+        0.5,
+        0.8
+      ],
+      "scaled_error": 3.3846622406057855e-09,
+      "tolerance": 2e-06,
+      "pass": true
+    },
+    {
+      "name": "base_te",
+      "key": [
+        0.5,
+        1.2
+      ],
+      "scaled_error": 1.1837967688846107e-16,
+      "tolerance": 2e-07,
+      "pass": true
+    },
+    {
+      "name": "base_to",
+      "key": [
+        0.5,
+        1.2
+      ],
+      "scaled_error": 4.4621911710100805e-14,
+      "tolerance": 2e-07,
+      "pass": true
+    },
+    {
+      "name": "base_R",
+      "key": [
+        0.5,
+        1.2
+      ],
+      "scaled_error": 8.571509068251283e-14,
+      "tolerance": 2e-07,
+      "pass": true
+    },
+    {
+      "name": "base_arrival_clock",
+      "key": [
+        0.5,
+        1.2
+      ],
+      "scaled_error": 5.051666416905608e-14,
+      "tolerance": 2e-07,
+      "pass": true
+    },
+    {
+      "name": "base_source_sky",
+      "key": [
+        0.5,
+        1.2
+      ],
+      "scaled_error": 3.4550627775815275e-14,
+      "tolerance": 2e-07,
+      "pass": true
+    },
+    {
+      "name": "base_arrival_sky",
+      "key": [
+        0.5,
+        1.2
+      ],
+      "scaled_error": 1.1028447760735555e-13,
+      "tolerance": 2e-07,
+      "pass": true
+    },
+    {
+      "name": "base_spatial_momentum",
+      "key": [
+        0.5,
+        1.2
+      ],
+      "scaled_error": 2.915626255623781e-14,
+      "tolerance": 2e-07,
+      "pass": true
+    },
+    {
+      "name": "base_area",
+      "key": [
+        0.5,
+        1.2
+      ],
+      "scaled_error": 5.622042499911453e-09,
+      "tolerance": 2e-06,
+      "pass": true
+    },
+    {
+      "name": "base_widths",
+      "key": [
+        0.5,
+        1.2
+      ],
+      "scaled_error": 5.345162568254883e-09,
+      "tolerance": 2e-06,
+      "pass": true
+    },
+    {
+      "name": "base_screen_map",
+      "key": [
+        0.5,
+        1.2
+      ],
+      "scaled_error": 1.578181271726053e-08,
+      "tolerance": 2e-06,
+      "pass": true
+    },
+    {
+      "name": "tight_te",
+      "key": [
+        0.5,
+        1.2
+      ],
+      "scaled_error": 1.1837967688846107e-16,
+      "tolerance": 2e-07,
+      "pass": true
+    },
+    {
+      "name": "tight_to",
+      "key": [
+        0.5,
+        1.2
+      ],
+      "scaled_error": 4.472402134788136e-14,
+      "tolerance": 2e-07,
+      "pass": true
+    },
+    {
+      "name": "tight_R",
+      "key": [
+        0.5,
+        1.2
+      ],
+      "scaled_error": 8.543977454541697e-14,
+      "tolerance": 2e-07,
+      "pass": true
+    },
+    {
+      "name": "tight_arrival_clock",
+      "key": [
+        0.5,
+        1.2
+      ],
+      "scaled_error": 5.051666416905608e-14,
+      "tolerance": 2e-07,
+      "pass": true
+    },
+    {
+      "name": "tight_source_sky",
+      "key": [
+        0.5,
+        1.2
+      ],
+      "scaled_error": 3.434936198294645e-14,
+      "tolerance": 2e-07,
+      "pass": true
+    },
+    {
+      "name": "tight_arrival_sky",
+      "key": [
+        0.5,
+        1.2
+      ],
+      "scaled_error": 1.1034393015593094e-13,
+      "tolerance": 2e-07,
+      "pass": true
+    },
+    {
+      "name": "tight_spatial_momentum",
+      "key": [
+        0.5,
+        1.2
+      ],
+      "scaled_error": 2.941053228783291e-14,
+      "tolerance": 2e-07,
+      "pass": true
+    },
+    {
+      "name": "tight_area",
+      "key": [
+        0.5,
+        1.2
+      ],
+      "scaled_error": 5.622044143989183e-09,
+      "tolerance": 2e-06,
+      "pass": true
+    },
+    {
+      "name": "tight_widths",
+      "key": [
+        0.5,
+        1.2
+      ],
+      "scaled_error": 5.345163477047816e-09,
+      "tolerance": 2e-06,
+      "pass": true
+    },
+    {
+      "name": "tight_screen_map",
+      "key": [
+        0.5,
+        1.2
+      ],
+      "scaled_error": 1.578181347786426e-08,
+      "tolerance": 2e-06,
+      "pass": true
+    },
+    {
+      "name": "frozen_te",
+      "key": [
+        0.5,
+        1.2
+      ],
+      "scaled_error": 1.1837967688846107e-16,
+      "tolerance": 2e-07,
+      "pass": true
+    },
+    {
+      "name": "frozen_to",
+      "key": [
+        0.5,
+        1.2
+      ],
+      "scaled_error": 3.6092144580500425e-14,
+      "tolerance": 2e-07,
+      "pass": true
+    },
+    {
+      "name": "frozen_R",
+      "key": [
+        0.5,
+        1.2
+      ],
+      "scaled_error": 0.0,
+      "tolerance": 2e-07,
+      "pass": true
+    },
+    {
+      "name": "frozen_source_sky",
+      "key": [
+        0.5,
+        1.2
+      ],
+      "scaled_error": 3.3786100642808505e-14,
+      "tolerance": 2e-07,
+      "pass": true
+    },
+    {
+      "name": "frozen_arrival_sky",
+      "key": [
+        0.5,
+        1.2
+      ],
+      "scaled_error": 3.745866173583703e-14,
+      "tolerance": 2e-07,
+      "pass": true
+    },
+    {
+      "name": "frozen_area",
+      "key": [
+        0.5,
+        1.2
+      ],
+      "scaled_error": 8.228986915609174e-09,
+      "tolerance": 2e-06,
+      "pass": true
+    },
+    {
+      "name": "frozen_widths",
+      "key": [
+        0.5,
+        1.2
+      ],
+      "scaled_error": 4.894239894311542e-09,
+      "tolerance": 2e-06,
+      "pass": true
+    },
+    {
+      "name": "event_arrival_duration",
+      "key": [
+        -0.5
+      ],
+      "scaled_error": 5.438264907348526e-13,
+      "tolerance": 2e-07,
+      "pass": true
+    },
+    {
+      "name": "event_mean_R",
+      "key": [
+        -0.5
+      ],
+      "scaled_error": 5.114346162304457e-13,
+      "tolerance": 2e-07,
+      "pass": true
+    },
+    {
+      "name": "event_single_initial_pulse_duration_error",
+      "key": [
+        -0.5
+      ],
+      "scaled_error": 2.457102770529755e-12,
+      "tolerance": 2e-07,
+      "pass": true
+    },
+    {
+      "name": "event_arrival_duration",
+      "key": [
+        0.0
+      ],
+      "scaled_error": 1.7511834903206658e-13,
+      "tolerance": 2e-07,
+      "pass": true
+    },
+    {
+      "name": "event_mean_R",
+      "key": [
+        0.0
+      ],
+      "scaled_error": 1.6505139587033054e-13,
+      "tolerance": 2e-07,
+      "pass": true
+    },
+    {
+      "name": "event_single_initial_pulse_duration_error",
+      "key": [
+        0.0
+      ],
+      "scaled_error": 2.202095605839779e-12,
+      "tolerance": 2e-07,
+      "pass": true
+    },
+    {
+      "name": "event_arrival_duration",
+      "key": [
+        0.5
+      ],
+      "scaled_error": 1.483346899577046e-12,
+      "tolerance": 2e-07,
+      "pass": true
+    },
+    {
+      "name": "event_mean_R",
+      "key": [
+        0.5
+      ],
+      "scaled_error": 1.3906481153349661e-12,
+      "tolerance": 2e-07,
+      "pass": true
+    },
+    {
+      "name": "event_single_initial_pulse_duration_error",
+      "key": [
+        0.5
+      ],
+      "scaled_error": 2.8056283166907242e-12,
+      "tolerance": 2e-07,
+      "pass": true
+    },
+    {
+      "name": "reverse_area",
+      "key": [
+        -0.5,
+        0.4
+      ],
+      "scaled_error": 1.5103253143491712e-09,
+      "tolerance": 2e-06,
+      "pass": true
+    },
+    {
+      "name": "reverse_area",
+      "key": [
+        0.0,
+        0.4
+      ],
+      "scaled_error": 1.6499380251446927e-09,
+      "tolerance": 2e-06,
+      "pass": true
+    },
+    {
+      "name": "reverse_area",
+      "key": [
+        0.5,
+        0.4
+      ],
+      "scaled_error": 2.2875353354721127e-09,
+      "tolerance": 2e-06,
+      "pass": true
+    }
+  ],
+  "scope": "Distinct full-affine vs reduced-Hamiltonian derivative implementations; shared scipy Bessel/library; finite FLOAT64 diagnostic, not interval certification."
+}

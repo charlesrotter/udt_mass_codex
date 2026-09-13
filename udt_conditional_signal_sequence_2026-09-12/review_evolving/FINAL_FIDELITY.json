@@ -1,0 +1,316 @@
+{
+  "verdict": "VERIFIED-WITH-CAVEATS__REVIEWED_CONDITIONAL__UNPROMOTED",
+  "required_repairs_remaining": [],
+  "context": "/root/css_evolving_review",
+  "source_base_HEAD": "b69e03913caf42e7b6d502e4f3449921c500b4dd",
+  "branch": "grok",
+  "conservative_allocation_start_utc": "2026-09-13T00:08:20+00:00",
+  "first_observed_action_utc": "2026-09-13T00:09:12+00:00",
+  "final_sealed_utc": "2026-09-13T00:36:20.290404+00:00",
+  "deadline_utc": "2026-09-13T00:48:20+00:00",
+  "elapsed_seconds_from_conservative_start": 1680.290404,
+  "within40minutes": true,
+  "runtime_model_version": "UNATTESTED",
+  "configured_parent_attribution": "gpt-6-astra/xhigh; attribution only",
+  "fresh_context": true,
+  "different_model_claimed": false,
+  "distinct_implementation": "full affine8 Hamiltonian from original metric versus parent reduced6+Hessian; independent code before parent code/output exposure",
+  "shared_dependencies": "same supplied source metric and scipy Bessel/FLOAT64 libraries; not independent physical premises",
+  "source_first_notes_sha256": "abd2e9e315d98a09a3e7aade6416c3b100f3c0900f2bf400aacdcfbe9ffd4bd3",
+  "original_intake_sha256": "49176b588e672f15a985bcd5d0b6f4896230f110939a7fb7cf99566da601ea13",
+  "amendment_sha256": "de7c41e008b66db5c14b3ef0c1ce468f9afb3ec981b28328113e3e6f44274270",
+  "amendment": {
+    "recorded_utc": "2026-09-13T00:34:15.054772+00:00",
+    "original_intake_sha256": "49176b588e672f15a985bcd5d0b6f4896230f110939a7fb7cf99566da601ea13",
+    "changed_file": "udt_conditional_signal_sequence_2026-09-12/CLOSEOUT.md",
+    "original_sha256": "ddf63a29665519a997d32d17e2b21eaaf691049646cd28fafa5af4dde95564e8",
+    "reviewed_replacement_sha256": "e04fc67e3098424bb07f7938a064c8aea701ffda6a3b4633f50db575fc6a66cd",
+    "reason": "Reviewer identified that1.67e-13 is maximum of12 main-case endpoint residuals, whereas all original_endpoint guard calls include5.522249324485529e-13. Wording now distinguishes main/all guards. Same saved evidence, no numerical/candidate change.",
+    "source": "CHECK_SUMMARY.json maximum_endpoint_residual and max_scaled_errors.original_endpoint",
+    "other_intake_files_unchanged": true,
+    "required_fidelity": "Both final seals must bind this amendment and replacement CLOSEOUT; original FINAL_REVIEW_INTAKE remains unchanged."
+  },
+  "first_final_pin_attempt": "Stopped at original CLOSEOUT hash mismatch while authorized amendment arrived; no seal emitted. Tool transcript and FINAL_FIDELITY.md retain this documentary check history.",
+  "intake_frozen_utc": "2026-09-13T00:32:02.780769+00:00",
+  "final_intake_checks_with_amendment": {
+    "udt_conditional_signal_sequence_2026-09-12/CLOSEOUT.md": {
+      "expected": "e04fc67e3098424bb07f7938a064c8aea701ffda6a3b4633f50db575fc6a66cd",
+      "actual": "e04fc67e3098424bb07f7938a064c8aea701ffda6a3b4633f50db575fc6a66cd",
+      "pass": true
+    },
+    "udt_conditional_signal_sequence_2026-09-12/DECISION_BRIEF.md": {
+      "expected": "3cb85adebf0f7992f65696f55f952c2c0c5d136bf1594864117c0bae8647c6bf",
+      "actual": "3cb85adebf0f7992f65696f55f952c2c0c5d136bf1594864117c0bae8647c6bf",
+      "pass": true
+    },
+    "udt_conditional_signal_sequence_2026-09-12/NUMERICAL_RESULTS.md": {
+      "expected": "b29d86b1bfd74960b758aaeca46650f705a947d943d547e0f1785f3c5ae1a66b",
+      "actual": "b29d86b1bfd74960b758aaeca46650f705a947d943d547e0f1785f3c5ae1a66b",
+      "pass": true
+    },
+    "udt_conditional_signal_sequence_2026-09-12/CHECK_SUMMARY.json": {
+      "expected": "1b9d2299009cf9292a056537c6bac21c3e79e134530a30241fb09e62b0ea899d",
+      "actual": "1b9d2299009cf9292a056537c6bac21c3e79e134530a30241fb09e62b0ea899d",
+      "pass": true
+    },
+    "udt_conditional_signal_sequence_2026-09-12/CHECK_RESULTS.json": {
+      "expected": "8ac6d2b521b129a0cf1f94074c97674f5c0175e7f1655507e7d8eb017dfb6f48",
+      "actual": "8ac6d2b521b129a0cf1f94074c97674f5c0175e7f1655507e7d8eb017dfb6f48",
+      "pass": true
+    },
+    "udt_conditional_signal_sequence_2026-09-12/PRESERVATION_CHECK.json": {
+      "expected": "6bf800612254601416940c3effe4e84a512441a8a6c56251a5cc7797b1a75c8f",
+      "actual": "6bf800612254601416940c3effe4e84a512441a8a6c56251a5cc7797b1a75c8f",
+      "pass": true
+    },
+    "udt_conditional_signal_sequence_2026-09-12/REVIEW_ALLOCATION.json": {
+      "expected": "d0b2b1656bacc8633cf559c06d6ef71333f3293fb3deb1a3940cb04dc8834784",
+      "actual": "d0b2b1656bacc8633cf559c06d6ef71333f3293fb3deb1a3940cb04dc8834784",
+      "pass": true
+    },
+    "udt_conditional_signal_sequence_2026-09-12/DISCOVERY_AND_REVIEW_HISTORY.md": {
+      "expected": "d63579faf53914879ca28fa14bc1e4ad662e2db40c10f116d39778db3b939719",
+      "actual": "d63579faf53914879ca28fa14bc1e4ad662e2db40c10f116d39778db3b939719",
+      "pass": true
+    },
+    "udt_conditional_signal_sequence_2026-09-12/WORK_ORDER.md": {
+      "expected": "12163bce4c51dcd5d5480f6a09212a647d4699b813e3a283942f2b493efb187f",
+      "actual": "12163bce4c51dcd5d5480f6a09212a647d4699b813e3a283942f2b493efb187f",
+      "pass": true
+    },
+    "udt_conditional_signal_sequence_2026-09-12/CHECK_CONTRACT.md": {
+      "expected": "09f85736141b0896200b964d9aef8533cbf6e1f623e81e1d020a27b54da51a37",
+      "actual": "09f85736141b0896200b964d9aef8533cbf6e1f623e81e1d020a27b54da51a37",
+      "pass": true
+    },
+    "udt_conditional_signal_sequence_2026-09-12/step_03/REVIEWED_RESULT.md": {
+      "expected": "a335fa72cf556758696cd7720881ac4801f3d0acd50c6403bb44520e22913997",
+      "actual": "a335fa72cf556758696cd7720881ac4801f3d0acd50c6403bb44520e22913997",
+      "pass": true
+    },
+    "udt_conditional_signal_sequence_2026-09-12/step_04/REVIEWED_RESULT.md": {
+      "expected": "b9be0c15d794c32a0c9c460bc168a5cc3de335ba8c7de8872cf2c560e0ab9028",
+      "actual": "b9be0c15d794c32a0c9c460bc168a5cc3de335ba8c7de8872cf2c560e0ab9028",
+      "pass": true
+    },
+    "udt_conditional_signal_sequence_2026-09-12/step_05/REVIEWED_RESULT.md": {
+      "expected": "ad8290f8e71403a3c9f496a3ec83ff8df38c7ac91894639e21af16641c1fa8f6",
+      "actual": "ad8290f8e71403a3c9f496a3ec83ff8df38c7ac91894639e21af16641c1fa8f6",
+      "pass": true
+    },
+    "udt_conditional_signal_sequence_2026-09-12/step_03/REPAIR_CONTRACT.md": {
+      "expected": "0ce7210a95b3a1e36eb1399769558b8d633aafd59666328f3c4bde36e354746d",
+      "actual": "0ce7210a95b3a1e36eb1399769558b8d633aafd59666328f3c4bde36e354746d",
+      "pass": true
+    },
+    "udt_conditional_signal_sequence_2026-09-12/step_04/CLARIFICATIONS.md": {
+      "expected": "ccd48fc7966d502c57663e127d74253405e891291b9efa30157f4c109471210d",
+      "actual": "ccd48fc7966d502c57663e127d74253405e891291b9efa30157f4c109471210d",
+      "pass": true
+    },
+    "LIVE.md": {
+      "expected": "a934600f3b9edecbebfb6b5e6aff8782febb16457e90dced7216dc80e441c067",
+      "actual": "a934600f3b9edecbebfb6b5e6aff8782febb16457e90dced7216dc80e441c067",
+      "pass": true
+    },
+    "HANDOFF.md": {
+      "expected": "37f787f18c3cb043a2a6507ab63f33472268225f7dbf6644c6fb25937975a190",
+      "actual": "37f787f18c3cb043a2a6507ab63f33472268225f7dbf6644c6fb25937975a190",
+      "pass": true
+    },
+    "CURRENT_RESEARCH_PROGRAM.md": {
+      "expected": "6396f1e2c0e9b3ba89779fee59d66f9befe28d79f6f8d0da878499f796df6537",
+      "actual": "6396f1e2c0e9b3ba89779fee59d66f9befe28d79f6f8d0da878499f796df6537",
+      "pass": true
+    },
+    "INDEX.md": {
+      "expected": "99069e4a9426adf600d6872ca3ae5a67a9a94e264f33d23f1a28b6e2a5ce7b25",
+      "actual": "99069e4a9426adf600d6872ca3ae5a67a9a94e264f33d23f1a28b6e2a5ce7b25",
+      "pass": true
+    },
+    "UDT_RESEARCH_ROADMAP.md": {
+      "expected": "ae56e7e86d0cfc6b15b2bcf3db90d94b71d61257e89b48c1cc9a084b64bcb2f5",
+      "actual": "ae56e7e86d0cfc6b15b2bcf3db90d94b71d61257e89b48c1cc9a084b64bcb2f5",
+      "pass": true
+    }
+  },
+  "source_pin_checks": {
+    "AGENTS.md": {
+      "expected": "f4862a564c8a2a98554ee4af23b89bd21deb679db6f9739880e808c7f6371c89",
+      "actual": "f4862a564c8a2a98554ee4af23b89bd21deb679db6f9739880e808c7f6371c89",
+      "pass": true
+    },
+    "CLAUDE.md": {
+      "expected": "b7e524a5b06760e57877a408630228767ae9a394134095f9851bef5d06e17751",
+      "actual": "b7e524a5b06760e57877a408630228767ae9a394134095f9851bef5d06e17751",
+      "pass": true
+    },
+    "CURRENT_SCIENTIFIC_PREMISES.md": {
+      "expected": "cd5e3ed21a5e437d81b12f68bdfa4586441621d1f14f32c64e2bf3696467976c",
+      "actual": "cd5e3ed21a5e437d81b12f68bdfa4586441621d1f14f32c64e2bf3696467976c",
+      "pass": true
+    },
+    "CURRENT_SCIENTIFIC_PREMISES.tsv": {
+      "expected": "c614575c251a0e110146ae30b8c6f87d7d01862e3eab2da861b43c33537168e2",
+      "actual": "c614575c251a0e110146ae30b8c6f87d7d01862e3eab2da861b43c33537168e2",
+      "pass": true
+    },
+    "verify_current_scientific_premises.py": {
+      "expected": "6575bd0a99a39cc2a4f387a74ffb69e153f3fcdb195a689e135f88f37e748dec",
+      "actual": "6575bd0a99a39cc2a4f387a74ffb69e153f3fcdb195a689e135f88f37e748dec",
+      "pass": true
+    },
+    "MEMORY.md": {
+      "expected": "3472ab0a1523cdb4e4b7586c86ddf9d7c01bb415727102f419fd24610ef273ea",
+      "actual": "3472ab0a1523cdb4e4b7586c86ddf9d7c01bb415727102f419fd24610ef273ea",
+      "pass": true
+    },
+    "CANON.md": {
+      "expected": "047b7fbbc1acacf01d2716e3c98cdefd0b9b20136ac4a3306f55dd6775465250",
+      "actual": "047b7fbbc1acacf01d2716e3c98cdefd0b9b20136ac4a3306f55dd6775465250",
+      "pass": true
+    },
+    "UDT_METRIC_KERNEL_DEVELOPMENT.md": {
+      "expected": "3b625d8f43620a37c99d9f4f0fdc9390c3a12306b1da87281c143ce84d40a81e",
+      "actual": "3b625d8f43620a37c99d9f4f0fdc9390c3a12306b1da87281c143ce84d40a81e",
+      "pass": true
+    },
+    "UDT_CONSOLIDATED_RESEARCH_ACCOUNT.md": {
+      "expected": "d767d3f67a5abcf1674627ce469ac6fee3994b1bf8b144df74ada39df9813490",
+      "actual": "d767d3f67a5abcf1674627ce469ac6fee3994b1bf8b144df74ada39df9813490",
+      "pass": true
+    },
+    "udt_accepted_work_consolidation_2026-09-12/GAP_AND_REUSE_MAP.tsv": {
+      "expected": "750026d5043af2c825232522ebc6d237a260f74e3aa7e6349c9e6af9f39f8843",
+      "actual": "750026d5043af2c825232522ebc6d237a260f74e3aa7e6349c9e6af9f39f8843",
+      "pass": true
+    },
+    "udt_gr_filter_reconciliation_2026-09-09/AUTHORITY_RECORD.md": {
+      "expected": "80daa0be6d3e1c0ac1b734fea089c4eb487f05bc1e1fbb2fabd69322ca89f28c",
+      "actual": "80daa0be6d3e1c0ac1b734fea089c4eb487f05bc1e1fbb2fabd69322ca89f28c",
+      "pass": true
+    },
+    "udt_ne1_tilted_beam_geometry_2026-09-12/INITIAL_CANDIDATE.md": {
+      "expected": "9932e4a2557144873cd7e23b4147948cc18a559605b920e5109deb4954ea6015",
+      "actual": "9932e4a2557144873cd7e23b4147948cc18a559605b920e5109deb4954ea6015",
+      "pass": true
+    },
+    "udt_ne1_tilted_beam_geometry_2026-09-12/REVIEWED_RESULT.md": {
+      "expected": "de9f754f41b6eda9bf9d419113d821f51a043d3506da20c7a6c33f132c8bc517",
+      "actual": "de9f754f41b6eda9bf9d419113d821f51a043d3506da20c7a6c33f132c8bc517",
+      "pass": true
+    },
+    "udt_ne1_tilted_beam_geometry_2026-09-12/discover_beams.py": {
+      "expected": "791d65bead8298cbb9162aa9e49c7edf323b61a57be56dcd6513ce0d52ecf293",
+      "actual": "791d65bead8298cbb9162aa9e49c7edf323b61a57be56dcd6513ce0d52ecf293",
+      "pass": true
+    },
+    "udt_ne1_directional_clock_reach_2026-09-12/INITIAL_CANDIDATE.md": {
+      "expected": "bb8559afcd073cd969719dca645e678b60e9f0ef3098e04d44b203712a68089a",
+      "actual": "bb8559afcd073cd969719dca645e678b60e9f0ef3098e04d44b203712a68089a",
+      "pass": true
+    },
+    "udt_ne1_directional_clock_reach_2026-09-12/REVIEWED_RESULT.md": {
+      "expected": "3f75de6af337144d169d16bc54dd88b3863fa6d403a1ad6313a80937cef6aa19",
+      "actual": "3f75de6af337144d169d16bc54dd88b3863fa6d403a1ad6313a80937cef6aa19",
+      "pass": true
+    },
+    "udt_nonlinear_ripple_geometry_2026-09-09/INITIAL_CANDIDATE.md": {
+      "expected": "49880008dcb5a646d6867e377f6dc84ded692b98250701aba4cab7119ca500de",
+      "actual": "49880008dcb5a646d6867e377f6dc84ded692b98250701aba4cab7119ca500de",
+      "pass": true
+    },
+    "udt_nonlinear_ripple_geometry_2026-09-09/REVIEWED_RESULT.md": {
+      "expected": "45cc3bc950b76ceed6a1fd49c248688242bc3c008864256de9bb494c1b8bbfaa",
+      "actual": "45cc3bc950b76ceed6a1fd49c248688242bc3c008864256de9bb494c1b8bbfaa",
+      "pass": true
+    },
+    "udt_optics_bridge_assessment_2026-09-12/REVIEWED_RESULT.md": {
+      "expected": "89e1226c55adcd3e68389f3d96955ae34efd62ae2c4ae76478631bcb29f9f1ac",
+      "actual": "89e1226c55adcd3e68389f3d96955ae34efd62ae2c4ae76478631bcb29f9f1ac",
+      "pass": true
+    },
+    "udt_exact_metric_kernel_expansion_2026-09-10/INITIAL_CANDIDATE.md": {
+      "expected": "439bbf545bc11901005bfa96ad154ddab68d3d6a383c358dc787b9eb38584f73",
+      "actual": "439bbf545bc11901005bfa96ad154ddab68d3d6a383c358dc787b9eb38584f73",
+      "pass": true
+    },
+    "udt_redshift_distance_readiness_2026-09-12/REVIEWED_RESULT.md": {
+      "expected": "c7ae6c167d8da7356c79a55b01d14a21312007972d9397e8e860f82f5500d5a1",
+      "actual": "c7ae6c167d8da7356c79a55b01d14a21312007972d9397e8e860f82f5500d5a1",
+      "pass": true
+    },
+    "udt_g220_covariant_null_clock_arrow_timelive_lift_2026-08-22/AUDIT_REPORT.md": {
+      "expected": "9806ac14f5d0bc419501878627dc79770ba4dd7c50f4f14dee0db216c3d9598f",
+      "actual": "9806ac14f5d0bc419501878627dc79770ba4dd7c50f4f14dee0db216c3d9598f",
+      "pass": true
+    },
+    "udt_g348_generic_lorentzian_null_screen_area_theorem_2026-09-04/EXACT_DERIVATION.md": {
+      "expected": "04917cd0336f5c06ee76129f5a8005f5e483e8a6fcdacbb87c96a6e0ad89544c",
+      "actual": "04917cd0336f5c06ee76129f5a8005f5e483e8a6fcdacbb87c96a6e0ad89544c",
+      "pass": true
+    },
+    "udt_g176_completed_pair_dual_reciprocity_consolidation_2026-08-19/AUDIT_REPORT.md": {
+      "expected": "c7c96194a8baf3465b2d8c58ff19051ee2937b4b7f7a5d0e8859ad1a26651d84",
+      "actual": "c7c96194a8baf3465b2d8c58ff19051ee2937b4b7f7a5d0e8859ad1a26651d84",
+      "pass": true
+    },
+    "udt_linked_stationary_signal_benchmark_2026-09-12/REVIEWED_RESULT.md": {
+      "expected": "2b1cd6d93d71bf9989ecf070beca56aa53470749af13189416bdc512143b85b3",
+      "actual": "2b1cd6d93d71bf9989ecf070beca56aa53470749af13189416bdc512143b85b3",
+      "pass": true
+    },
+    "udt_reviewed_backlog_banking_2026-09-10/capture_existing.py": {
+      "expected": "1b95a783e861a52cc9fc50d3c76c152cb3673fc9045372afafd30da269ffec3f",
+      "actual": "1b95a783e861a52cc9fc50d3c76c152cb3673fc9045372afafd30da269ffec3f",
+      "pass": true
+    },
+    "udt_shared_readout_metric_constraint_campaign_2026-09-06/run_capture.py": {
+      "expected": "8ff5469ace76bdfc84188915242abbf3baff35516f9ee3f9ba4b1cbfeb2573ef",
+      "actual": "8ff5469ace76bdfc84188915242abbf3baff35516f9ee3f9ba4b1cbfeb2573ef",
+      "pass": true
+    }
+  },
+  "original_candidate_checks": {
+    "step_03": {
+      "expected": "9a18b1754cc40c77017f6372d2ad950b991beff6448963b76d44081b9fcf8f67",
+      "actual": "9a18b1754cc40c77017f6372d2ad950b991beff6448963b76d44081b9fcf8f67",
+      "pass": true
+    },
+    "step_05": {
+      "expected": "1ac77fab0e542d7569f0dfb8fa7f0d959b9e22ace323182870eef6ad4be60c8d",
+      "actual": "1ac77fab0e542d7569f0dfb8fa7f0d959b9e22ace323182870eef6ad4be60c8d",
+      "pass": true
+    }
+  },
+  "repaired_code_freeze_checks": {
+    "udt_conditional_signal_sequence_2026-09-12/step_03/check_evolving.py": true,
+    "udt_conditional_signal_sequence_2026-09-12/step_03/REPAIR_CONTRACT.md": true
+  },
+  "capture_count_this_context": 5,
+  "captured_subprocess_seconds_this_context": 16.974329853081144,
+  "maxrss_kib_this_context": 85868,
+  "all_own_captures_within180s_2048MiB": true,
+  "campaign24_receipt_metadata_matches": true,
+  "captured_process_overlaps": [],
+  "navigation_final_receipt_sha256": "6161e7a99e28d8092dc9ae07575ad874e834611478a0a0dcf047ad5e93f8b7be",
+  "navigation_final_stdout_sha256": "ea03eff6a90673849f25c37b31d0ccffeeaaab6bd2547dafaa6993342e296435",
+  "navigation359passed1deselected": true,
+  "parent_full398": "Actual parent capture attributed/read; not independently rerun",
+  "scope": "Substantive CSS3/5 proof/code/numerics and same-premise repair; combined final20-file documentary fidelity with exact CLOSEOUT amendment. CSS4 proof credited to actual separate routes review.",
+  "omissions": [
+    "independent full398 and historical source campaigns",
+    "global path/caustic proof",
+    "interval or proof-assistant certification",
+    "physical light/EM/flux/initial-record acquisition",
+    "empirical data",
+    "different-model or human review",
+    "eventual git publication verification"
+  ],
+  "no_protected_payload_read_or_hashed": true,
+  "no_git_mutation": true,
+  "writes_only": "udt_conditional_signal_sequence_2026-09-12/review_evolving/",
+  "hash_limit": "Correspondence, not scientific truth, independent authorship or external chronology",
+  "seal_script_sha256": "46db932f382969651ace7e64b3a876ce1acba9418c07f0c2f3ccfcd05fb3b151",
+  "final_report_sha256": "2e71d8f4f04ed4c9564bafc2f6c9413032123a8b6ac73150ea8723079e2b4637"
+}

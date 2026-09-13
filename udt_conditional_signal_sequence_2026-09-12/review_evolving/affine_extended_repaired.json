@@ -1,0 +1,14 @@
+{
+  "command": [
+    "python3",
+    "udt_conditional_signal_sequence_2026-09-12/review_evolving/extended_affine.py"
+  ],
+  "cwd": "/home/udt-admin/udt_mass_codex",
+  "started_utc": "2026-09-13T00:16:00.596307+00:00",
+  "duration_seconds": 8.815336056053638,
+  "returncode": 0,
+  "timeout": false,
+  "address_space_bytes": 2147483648,
+  "cpu_seconds": 180,
+  "maxrss_kib": 80768
+}

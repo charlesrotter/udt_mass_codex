@@ -1,0 +1,25 @@
+{
+  "records": [],
+  "mutation": "source_epoch",
+  "checks": [
+    {
+      "name": "original_endpoint",
+      "error": 3.2218672174622043e-13,
+      "tolerance": 2e-08
+    },
+    {
+      "name": "actual_source_frequency",
+      "error": 0.2596166255639776,
+      "tolerance": 2e-12
+    }
+  ],
+  "dtype": "float64",
+  "versions": {
+    "python": "3.10.12",
+    "numpy": "2.2.6",
+    "scipy": "1.15.3"
+  },
+  "scope": "Conditional finite diagnostics, not global uniqueness or observed physics.",
+  "status": "FAIL",
+  "failure": "AssertionError(('actual_source_frequency', 0.2596166255639776, 2e-12))"
+}

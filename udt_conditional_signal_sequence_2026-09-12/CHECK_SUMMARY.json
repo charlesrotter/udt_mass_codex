@@ -1,0 +1,66 @@
+{
+  "sources": {
+    "checks/evolving_repaired.stdout": "20ec91f8bba1826ae6b1b26ffae2e0275aacb2fe8471721d564a12e12056968c",
+    "checks/routes.stdout": "8dfefe67bd24e3594e254e7210e33e2a346e189dccbc8442579dad3f6fa51004"
+  },
+  "full_cases": 12,
+  "parent_guard_count": 1044,
+  "route_cases": 10,
+  "events": [
+    {
+      "epsilon": -0.5,
+      "source_duration": 1.2,
+      "arrival_duration": 2.1577957376970436,
+      "mean_R": 1.7981631147475363,
+      "initial_R": 1.8445667850416283,
+      "single_initial_pulse_duration_error": 0.05568440435291011,
+      "initial_pulse_relative_duration_error": 0.025806151796527576
+    },
+    {
+      "epsilon": 0.0,
+      "source_duration": 1.2,
+      "arrival_duration": 2.2967189103608328,
+      "mean_R": 1.913932425300694,
+      "initial_R": 2.039187828328929,
+      "single_initial_pulse_duration_error": 0.15030648363388188,
+      "initial_pulse_relative_duration_error": 0.06544400490448679
+    },
+    {
+      "epsilon": 0.5,
+      "source_duration": 1.2,
+      "arrival_duration": 2.001317041893365,
+      "mean_R": 1.6677642015778043,
+      "initial_R": 2.1926490870285216,
+      "single_initial_pulse_duration_error": 0.629861862540861,
+      "initial_pulse_relative_duration_error": 0.3147236791353029
+    }
+  ],
+  "max_scaled_errors": {
+    "actual_source_frequency": 2.220446049250313e-16,
+    "changing_initial_time_clock": 5.54269347557762e-16,
+    "endpoint_beam_rank_identity": 6.516291693897818e-16,
+    "endpoint_condition": 86.99615359954268,
+    "exact_axial_clock": 0.0,
+    "exact_axial_widths": 3.35524275428759e-16,
+    "independent_emission_clock_difference": 7.901249837015593e-10,
+    "original_endpoint": 5.522249324485529e-13,
+    "positive_beam_width": 1.7041339098635993e-08,
+    "reverse_central_endpoint": 1.1755302613678128e-15,
+    "same_segment_area_reciprocity": 1.387752221516906e-15,
+    "screen_orthogonality": 4.79876510703867e-16,
+    "stationary_frozen_clock": 2.2163271060530625e-16,
+    "symplectic": 7.80005939743246e-17,
+    "tighter_R": 6.713091119522832e-15,
+    "tighter_area": 4.6958717188903826e-14,
+    "tighter_arrival_clock": 1.1245005499337596e-14,
+    "tighter_arrival_sky": 8.458735507698126e-15,
+    "tighter_screen_map": 2.493086085019597e-14,
+    "tighter_source_sky": 5.96991158232231e-15,
+    "tighter_to": 1.0574100932902941e-14,
+    "tighter_widths": 2.229007375778537e-14,
+    "whole_event_endpoint_vs_integral": 1.769648246608721e-10,
+    "whole_event_quadrature_refinement": 1.7694780810918675e-10
+  },
+  "maximum_endpoint_residual": 1.6653345369377348e-13,
+  "scope": "Finite floating-point records; no global, physical or observational claim."
+}

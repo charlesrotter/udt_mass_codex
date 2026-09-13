@@ -1,0 +1,8 @@
+Traceback (most recent call last):
+  File "/home/udt-admin/udt_mass_codex/udt_conditional_signal_sequence_2026-09-12/step_03/check_evolving.py", line 135, in main
+    if MUT=='reverse_frequency':out['reverse']=[reverse(row)]
+  File "/home/udt-admin/udt_mass_codex/udt_conditional_signal_sequence_2026-09-12/step_03/check_evolving.py", line 99, in reverse
+    ar=abs(np.linalg.det(Dr));guard('same_segment_area_reciprocity',diff(row['area']/ar,row['R']**2))
+  File "/home/udt-admin/udt_mass_codex/udt_conditional_signal_sequence_2026-09-12/step_03/check_evolving.py", line 22, in guard
+    if not np.isfinite(value) or value>tol:raise AssertionError((name,value,tol))
+AssertionError: ('same_segment_area_reciprocity', 0.5035783692068871, 2e-07)

@@ -1,0 +1,158 @@
+{
+  "science_seal_utc": "2026-09-13T00:20:05.598229+00:00",
+  "context": "/root/css_routes_review",
+  "actual_first_action_utc": "2026-09-13T00:03:33+00:00",
+  "conservative_allocation_utc": "2026-09-13T00:02:25+00:00",
+  "deadline_utc": "2026-09-13T00:42:25+00:00",
+  "elapsed_from_conservative_allocation_seconds": 1060.598229,
+  "science_disposition": "VERIFIED-WITH-CAVEATS; exact CSS4 initial candidate plus normalization clarification; UNPROMOTED",
+  "runtime_model_version": "UNATTESTED",
+  "configured_parent_attribution": "gpt-6-astra/xhigh",
+  "general_capacity": "UNVERIFIED",
+  "source_hashes_unchanged": {
+    "AGENTS.md": true,
+    "CLAUDE.md": true,
+    "CURRENT_SCIENTIFIC_PREMISES.tsv": true,
+    "CURRENT_SCIENTIFIC_PREMISES.md": true,
+    "udt_exact_metric_kernel_expansion_2026-09-10/INITIAL_CANDIDATE.md": true,
+    "udt_optics_bridge_assessment_2026-09-12/REVIEWED_RESULT.md": true,
+    "udt_gr_filter_reconciliation_2026-09-09/AUTHORITY_RECORD.md": true,
+    "udt_reviewed_backlog_banking_2026-09-10/capture_existing.py": true,
+    "udt_exact_metric_kernel_expansion_2026-09-10/REPAIR_LOG.md": true,
+    "udt_exact_metric_kernel_expansion_2026-09-10/review/REVIEW.md": true,
+    "udt_optics_bridge_assessment_2026-09-12/INITIAL_CANDIDATE.md": true,
+    "udt_conditional_signal_sequence_2026-09-12/WORK_ORDER.md": true
+  },
+  "all_pinned_sources_unchanged": true,
+  "reviewed_versions": {
+    "udt_conditional_signal_sequence_2026-09-12/step_04/INITIAL_CANDIDATE.md": "7e1c5af4b294e4ec2e0837465fbde3cd0c8f697c8412ea54ae60399ebe4ac8c3",
+    "udt_conditional_signal_sequence_2026-09-12/step_04/CLARIFICATIONS.md": "ccd48fc7966d502c57663e127d74253405e891291b9efa30157f4c109471210d",
+    "udt_conditional_signal_sequence_2026-09-12/step_04/check_routes.py": "41a0465dfa04bf6d2f414e4930f1ee36f7e968a94403f4f6e4d7d450a7cc0f30",
+    "udt_conditional_signal_sequence_2026-09-12/CHECK_CONTRACT.md": "09f85736141b0896200b964d9aef8533cbf6e1f623e81e1d020a27b54da51a37",
+    "udt_conditional_signal_sequence_2026-09-12/checks/routes.stdout": "8dfefe67bd24e3594e254e7210e33e2a346e189dccbc8442579dad3f6fa51004",
+    "udt_conditional_signal_sequence_2026-09-12/review_routes/REVIEW.md": "7cc05b552e40c70982c2748eec402558095fc815cac27b80b3477753e83bc92f"
+  },
+  "science_subprocesses": [
+    {
+      "command": [
+        "python3",
+        "udt_conditional_signal_sequence_2026-09-12/review_routes/independent_routes.py"
+      ],
+      "cwd": "/home/udt-admin/udt_mass_codex",
+      "started_utc": "2026-09-13T00:12:37.042973+00:00",
+      "duration_seconds": 2.6334068990545347,
+      "returncode": 0,
+      "timeout": false,
+      "address_space_bytes": 2147483648,
+      "cpu_seconds": 180,
+      "maxrss_kib": 114168,
+      "stem": "udt_conditional_signal_sequence_2026-09-12/review_routes/independent_initial",
+      "end_utc": "2026-09-13T00:12:39.676380+00:00"
+    },
+    {
+      "command": [
+        "python3",
+        "udt_conditional_signal_sequence_2026-09-12/step_04/check_routes.py"
+      ],
+      "cwd": "/home/udt-admin/udt_mass_codex",
+      "started_utc": "2026-09-13T00:13:40.673137+00:00",
+      "duration_seconds": 0.25238886498846114,
+      "returncode": 0,
+      "timeout": false,
+      "address_space_bytes": 2147483648,
+      "cpu_seconds": 180,
+      "maxrss_kib": 78176,
+      "stem": "udt_conditional_signal_sequence_2026-09-12/review_routes/author_replay",
+      "end_utc": "2026-09-13T00:13:40.925526+00:00"
+    },
+    {
+      "command": [
+        "python3",
+        "udt_conditional_signal_sequence_2026-09-12/step_04/check_routes.py",
+        "--mutate",
+        "reverse_sign"
+      ],
+      "cwd": "/home/udt-admin/udt_mass_codex",
+      "started_utc": "2026-09-13T00:13:41.001672+00:00",
+      "duration_seconds": 0.17086722503881902,
+      "returncode": 1,
+      "timeout": false,
+      "address_space_bytes": 2147483648,
+      "cpu_seconds": 180,
+      "maxrss_kib": 77876,
+      "stem": "udt_conditional_signal_sequence_2026-09-12/review_routes/author_mutant_reverse_sign",
+      "end_utc": "2026-09-13T00:13:41.172539+00:00"
+    },
+    {
+      "command": [
+        "python3",
+        "udt_conditional_signal_sequence_2026-09-12/step_04/check_routes.py",
+        "--mutate",
+        "freeze_shift"
+      ],
+      "cwd": "/home/udt-admin/udt_mass_codex",
+      "started_utc": "2026-09-13T00:13:41.253135+00:00",
+      "duration_seconds": 0.22146431205328554,
+      "returncode": 1,
+      "timeout": false,
+      "address_space_bytes": 2147483648,
+      "cpu_seconds": 180,
+      "maxrss_kib": 78036,
+      "stem": "udt_conditional_signal_sequence_2026-09-12/review_routes/author_mutant_freeze_shift",
+      "end_utc": "2026-09-13T00:13:41.474599+00:00"
+    },
+    {
+      "command": [
+        "python3",
+        "udt_conditional_signal_sequence_2026-09-12/step_04/check_routes.py",
+        "--mutate",
+        "drop_clock_scale"
+      ],
+      "cwd": "/home/udt-admin/udt_mass_codex",
+      "started_utc": "2026-09-13T00:13:41.546496+00:00",
+      "duration_seconds": 0.16880844696424901,
+      "returncode": 1,
+      "timeout": false,
+      "address_space_bytes": 2147483648,
+      "cpu_seconds": 180,
+      "maxrss_kib": 77748,
+      "stem": "udt_conditional_signal_sequence_2026-09-12/review_routes/author_mutant_drop_clock_scale",
+      "end_utc": "2026-09-13T00:13:41.715304+00:00"
+    },
+    {
+      "command": [
+        "python3",
+        "udt_conditional_signal_sequence_2026-09-12/review_routes/check_saved_artifact.py"
+      ],
+      "cwd": "/home/udt-admin/udt_mass_codex",
+      "started_utc": "2026-09-13T00:16:36.601721+00:00",
+      "duration_seconds": 0.168124545016326,
+      "returncode": 0,
+      "timeout": false,
+      "address_space_bytes": 2147483648,
+      "cpu_seconds": 180,
+      "maxrss_kib": 77808,
+      "stem": "udt_conditional_signal_sequence_2026-09-12/review_routes/saved_artifact_independent",
+      "end_utc": "2026-09-13T00:16:36.769846+00:00"
+    }
+  ],
+  "one_science_subprocess_at_a_time_in_context": true,
+  "total_science_subprocess_wall_seconds": 3.6150602931156754,
+  "max_recorded_rss_kib": 114168,
+  "resource_caps_each": {
+    "seconds": 180,
+    "MiB": 2048,
+    "cpu_only": true,
+    "library_threads": 1,
+    "PYTHONDONTWRITEBYTECODE": "1"
+  },
+  "cross_context_overlap": "Not polled; parent owns combined allocation/process receipts. Parent full398 and routes capture intervals read and predate first reviewer scientific run.",
+  "reviewed_scope_exclusions": [
+    "later CSS3/5 scientific changes",
+    "combined final narrative pending",
+    "scientific promotion",
+    "physical adoption",
+    "canon"
+  ],
+  "final_fidelity_state": "Science sealed now; remaining context budget may cover later final prose until declared deadline without resetting allocation."
+}

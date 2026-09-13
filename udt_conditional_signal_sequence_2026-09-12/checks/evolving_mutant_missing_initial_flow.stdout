@@ -1,0 +1,55 @@
+{
+  "records": [],
+  "mutation": "missing_initial_flow",
+  "checks": [
+    {
+      "name": "original_endpoint",
+      "error": 1.1102230246251565e-15,
+      "tolerance": 2e-08
+    },
+    {
+      "name": "actual_source_frequency",
+      "error": 0.0,
+      "tolerance": 2e-12
+    },
+    {
+      "name": "endpoint_condition",
+      "error": 23.70163617760037,
+      "tolerance": 100000000.0
+    },
+    {
+      "name": "positive_beam_width",
+      "error": 2.5177425708259635e-09,
+      "tolerance": 1.0
+    },
+    {
+      "name": "symplectic",
+      "error": 9.337270256802743e-18,
+      "tolerance": 2e-07
+    },
+    {
+      "name": "screen_orthogonality",
+      "error": 9.861571293773881e-17,
+      "tolerance": 2e-07
+    },
+    {
+      "name": "endpoint_beam_rank_identity",
+      "error": 2.317747452299865e-16,
+      "tolerance": 2e-07
+    },
+    {
+      "name": "changing_initial_time_clock",
+      "error": 0.6350836907124171,
+      "tolerance": 2e-07
+    }
+  ],
+  "dtype": "float64",
+  "versions": {
+    "python": "3.10.12",
+    "numpy": "2.2.6",
+    "scipy": "1.15.3"
+  },
+  "scope": "Conditional finite diagnostics, not global uniqueness or observed physics.",
+  "status": "FAIL",
+  "failure": "AssertionError(('changing_initial_time_clock', 0.6350836907124171, 2e-07))"
+}

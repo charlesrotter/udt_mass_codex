@@ -79,7 +79,7 @@ report actual model/instructions/checks. After orientation: `maintenance_agent_c
 dated handoff sequence. General capacity UNVERIFIED; prior passes are historical evidence.
 Availability testing is operational only; the whiteboard's scientific audit is PROPOSED, NOT AUTHORIZED.
 
-Next: G383--G412 exact-scope banking is COMPLETE; G413=TI1/G414=TI2/G415=NCB1 conditionally banked; TI3/OB1/ZDR1/NCR1/NTB1/LSB1 reviewed conditional UNPROMOTED; OB2 eligibility unresolved: INDEX.
+Next: G383--G412 exact-scope banking is COMPLETE; G413=TI1/G414=TI2/G415=NCB1 conditionally banked; TI3/OB1/ZDR1/NCR1/NTB1/LSB1/CSS3–5 reviewed conditional UNPROMOTED; OB2 eligibility unresolved: INDEX.
 G312 membership unclosed; G352 physical-realization: physical identification remains OPEN.
 Stop for lay discussion with Charles; no new campaign is authorized.
 <!-- STARTUP_CURRENT_END -->

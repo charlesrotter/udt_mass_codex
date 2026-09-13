@@ -490,21 +490,80 @@ physical identification is not a prerequisite for conditional banking. Retain
 finite illustrations and defect injections as controls. TI3/OB1/ZDR1/NCR1/NTB1
 and OB2 keep their existing holds; fixed manuscript and CWA1 snapshot are unchanged.
 
-The conditional-signal program has the following continuation gates. Only its
-first row was dispatched and is now complete; the other rows are proposals.
+The conditional-signal program now has the following completed checkpoints
+and retained open coverage. Charles subsequently dispatched rows3,4,5 as CSS;
+the omitted standalone beam/path-multiplicity row was not newly dispatched.
 
 | Exploration | Reuse and next unresolved difference |
 |---|---|
 | Linked stationary clock/angle/time benchmark | LSB1 complete at its reviewed conditional scope |
 | Beam shape and path multiplicity | Reuse G348/G349/G415 and conditional NTB1; do not repeat their exact beam results or infer general multiple-image/caustic coverage |
-| Repeated signals in evolving geometry | Proposed next discussion: combine existing metric/beam results at prescribed source and receiver worldlines, addressing marked-slice versus fixed-apparatus comparison |
-| Route and loop timing | Reuse G405/OB1; distinguish free geodesics from explicitly supplied relays/guides and later causal returns |
-| Redshift, duration and area together | Reuse G220/G348 and conditional ZDR1 on a supplied evolving history; no automatic SNe fit, flux law or new dataset |
+| Repeated signals in evolving geometry | CSS3 complete: prescribed worldlines and source proper-clock schedule, endpoint/beam-rank relation, full/frozen finite comparisons; reviewed conditional UNPROMOTED |
+| Route and loop timing | CSS4 complete: exact time-changing circulation guide map and frozen contrast; centered circular guide distinct from free rays; reviewed conditional UNPROMOTED |
+| Redshift, duration and area together | CSS5 complete: same-family interval/area relations and supplied initial-rate calibration; reviewed conditional UNPROMOTED, no flux/SNe claim |
 
 Before another campaign name the new question, retained/released restrictions,
 calibration/output split, review/resource budget and return. Native equation and
 assembly work remains parallel open science, not a blanket prerequisite for a
 conditional signal model. No automatic successor, promotion or physical adoption.
+
+### CSS remaining conditional-signal sequence — 2026-09-12/13UTC
+
+Charles authorized the remaining enumerated steps3,4,5; step1/LSB1 was reused.
+`udt_conditional_signal_sequence_2026-09-12/WORK_ORDER.md` owns the three-hour
+ceiling, two fresh complementary reviewer contexts (40minutes each), complete
+construction/check/review/repair cycle and return. All three steps returned
+**VERIFIED-WITH-CAVEATS, REVIEWED CONDITIONAL UNPROMOTED**. Their result files,
+DECISION_BRIEF.md, preserved candidates/repairs and final fidelity records own
+scope; CLOSEOUT.md and publication receipts distinguish actual execution.
+
+CSS3 reuses the FULL supplied G394/NE1 metric and G220/G348/NCR1/NTB1 mathematics
+at actual emission epochs. It solves for launch direction and arrival time at
+prescribed emitter/receiver worldlines under the same source proper-clock
+schedule. The exact local endpoint determinant equals the oriented beam
+determinant divided by arrival t, linking local reception regularity and beam
+rank. This is no global uniqueness or no-caustic theorem. Twelve full/tighter
+examples, their separate frozen-emission controls and exact axial anchors
+retain clock/angle/area/both widths together. Identical initial metric values
+with different supplied derivatives give different later records; no identical
+complete initial-data ambiguity or native history selection is claimed.
+
+CSS4 supplies G405's linear-time shift and an explicit centered circular null
+guide. Opposite tagged pulse slopes are exp(-/+pi R² kappa), and the exact
+finite arrival maps retain change during traversal. Even zero initial
+circulation can leave nonzero timing contrast, whereas its frozen control gives
+zero. Whole-route positive-slice eligibility is required. The literal K=partial_t
+lapse is L; scalar records are identical across b at fixed L, not automatically
+zero. Those original pair queries differ from guided arrival-clock queries.
+The guide is not a free ray, native response law or physical energy transport.
+
+CSS5 returns to CSS3’s G394/NE1 evolving fixed-worldline branch: whole-event stretch is
+the interval average of pulse stretch, and actual same-segment reverse beam
+area obeys G348 reciprocity. Later causal return is different. Supplied initial
+metric-rate records fix L and signed amplitude only with known epoch/phase/axes
+and nonnode calibration. Jointly scaled protocols have stated scale invariants;
+fixed physical cadence while varying L is not covered by that invariance.
+No brightness, luminosity distance, instrument or SNe fit is inferred.
+
+A numerical sky-chart bound8 excluded three otherwise valid finite endpoints.
+The failed procedure/diagnostic were retained, and widening only that numerical
+bound to32 passed the unchanged cases/equations/tolerances. Independent affine
+geodesic/finite-angle beams and time-domain/full-metric loop checks supported
+the surviving statements. Normalization, scope and serialization corrections
+are preserved with their separate review chronology. The actual new398 premise
+audit and navigation checks are in the package; no historical pass substitutes.
+
+This advances the existing expansion/development and conditional-measurement
+lines, especially CWA1 J11. It does not change G312 FILTER ONLY, native response
+membership, full event/path assembly, physical identification or selected scale.
+Original398 rows, CANON, fixed through-G352 manuscript and CWA1 snapshot remain
+unchanged. No protected payload was accessed or modified by this task.
+TI3/OB1/ZDR1/NCR1/NTB1/LSB1 keep their existing holds.
+
+Return for Charles's discussion of exact-scope promotion and a later broader
+metric/data-family test with shared calibration and unused joint outputs.
+No automatic successor, observation campaign, scientific promotion or physical
+adoption is authorized by this completed checkpoint.
 
 ### Existing expansion and observation returns
 

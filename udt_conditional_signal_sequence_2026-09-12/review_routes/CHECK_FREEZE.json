@@ -1,0 +1,10 @@
+{
+  "utc": "2026-09-13T00:12:30.812698+00:00",
+  "sha256": {
+    "udt_conditional_signal_sequence_2026-09-12/review_routes/CHECK_FREEZE.md": "d17c916ad99c1ba7bd2d469f98b70d6dee7417ed346578e665df69576ed46865",
+    "udt_conditional_signal_sequence_2026-09-12/review_routes/independent_routes.py": "a35b9a3b44ced8dbb8e69d901e9eb9b6b2aca6777a2844cdb41f61017d89e84d",
+    "udt_conditional_signal_sequence_2026-09-12/step_04/INITIAL_CANDIDATE.md": "7e1c5af4b294e4ec2e0837465fbde3cd0c8f697c8412ea54ae60399ebe4ac8c3"
+  },
+  "parent_science_code_read": false,
+  "numeric_outcomes_seen": false
+}

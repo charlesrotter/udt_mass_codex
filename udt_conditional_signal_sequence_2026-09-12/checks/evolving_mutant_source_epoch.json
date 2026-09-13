@@ -1,0 +1,16 @@
+{
+  "command": [
+    "python3",
+    "udt_conditional_signal_sequence_2026-09-12/step_03/check_evolving.py",
+    "--mutate",
+    "source_epoch"
+  ],
+  "cwd": "/home/udt-admin/udt_mass_codex",
+  "started_utc": "2026-09-13T00:22:24.219082+00:00",
+  "duration_seconds": 0.42790694790892303,
+  "returncode": 1,
+  "timeout": false,
+  "address_space_bytes": 2147483648,
+  "cpu_seconds": 180,
+  "maxrss_kib": 80284
+}

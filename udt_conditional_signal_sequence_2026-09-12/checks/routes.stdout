@@ -1,0 +1,352 @@
+{
+  "status": "PASS",
+  "mutation": null,
+  "records": [
+    {
+      "b_star": -0.3,
+      "kappa": 0.0,
+      "emission_t": 1.0,
+      "directions": [
+        {
+          "sign": 1,
+          "coordinate_duration": 7.225663103256523,
+          "proper_duration": 12.28362727553609,
+          "ode_proper_duration": 12.283627275536121,
+          "ode_error": 3.197442310920451e-14,
+          "slope": 1.0,
+          "slope_fd": 1.0000000000065512,
+          "finite_event_stretch": 1.0000000000000024,
+          "last_time": 8.225663103256542,
+          "nfev": 1526
+        },
+        {
+          "sign": -1,
+          "coordinate_duration": 5.340707511102648,
+          "proper_duration": 9.079202768874502,
+          "ode_proper_duration": 9.079202768874476,
+          "ode_error": 2.6645352591003757e-14,
+          "slope": 1.0,
+          "slope_fd": 0.9999999999976694,
+          "finite_event_stretch": 0.9999999999999994,
+          "last_time": 6.340707511102633,
+          "nfev": 1526
+        }
+      ],
+      "proper_direction_contrast": 3.204424506661587,
+      "frozen_direction_contrast": 3.204424506661589,
+      "recovered_kappa": 0.0
+    },
+    {
+      "b_star": -0.3,
+      "kappa": 0.0,
+      "emission_t": 3.0,
+      "directions": [
+        {
+          "sign": 1,
+          "coordinate_duration": 7.225663103256523,
+          "proper_duration": 12.28362727553609,
+          "ode_proper_duration": 12.283627275536082,
+          "ode_error": 7.105427357601002e-15,
+          "slope": 1.0,
+          "slope_fd": 1.0000000000065512,
+          "finite_event_stretch": 1.0000000000000024,
+          "last_time": 10.225663103256519,
+          "nfev": 1526
+        },
+        {
+          "sign": -1,
+          "coordinate_duration": 5.340707511102648,
+          "proper_duration": 9.079202768874502,
+          "ode_proper_duration": 9.079202768874481,
+          "ode_error": 2.1316282072803006e-14,
+          "slope": 1.0,
+          "slope_fd": 0.9999999999976694,
+          "finite_event_stretch": 0.9999999999999994,
+          "last_time": 8.340707511102636,
+          "nfev": 1526
+        }
+      ],
+      "proper_direction_contrast": 3.204424506661587,
+      "frozen_direction_contrast": 3.204424506661589,
+      "recovered_kappa": 0.0
+    },
+    {
+      "b_star": 0.3,
+      "kappa": 0.0,
+      "emission_t": 1.0,
+      "directions": [
+        {
+          "sign": 1,
+          "coordinate_duration": 5.340707511102648,
+          "proper_duration": 9.079202768874502,
+          "ode_proper_duration": 9.079202768874476,
+          "ode_error": 2.6645352591003757e-14,
+          "slope": 1.0,
+          "slope_fd": 0.9999999999976694,
+          "finite_event_stretch": 0.9999999999999994,
+          "last_time": 6.340707511102633,
+          "nfev": 1526
+        },
+        {
+          "sign": -1,
+          "coordinate_duration": 7.225663103256523,
+          "proper_duration": 12.28362727553609,
+          "ode_proper_duration": 12.283627275536121,
+          "ode_error": 3.197442310920451e-14,
+          "slope": 1.0,
+          "slope_fd": 1.0000000000065512,
+          "finite_event_stretch": 1.0000000000000024,
+          "last_time": 8.225663103256542,
+          "nfev": 1526
+        }
+      ],
+      "proper_direction_contrast": -3.204424506661587,
+      "frozen_direction_contrast": -3.204424506661589,
+      "recovered_kappa": 0.0
+    },
+    {
+      "b_star": 0.3,
+      "kappa": 0.0,
+      "emission_t": 3.0,
+      "directions": [
+        {
+          "sign": 1,
+          "coordinate_duration": 5.340707511102648,
+          "proper_duration": 9.079202768874502,
+          "ode_proper_duration": 9.079202768874481,
+          "ode_error": 2.1316282072803006e-14,
+          "slope": 1.0,
+          "slope_fd": 0.9999999999976694,
+          "finite_event_stretch": 0.9999999999999994,
+          "last_time": 8.340707511102636,
+          "nfev": 1526
+        },
+        {
+          "sign": -1,
+          "coordinate_duration": 7.225663103256523,
+          "proper_duration": 12.28362727553609,
+          "ode_proper_duration": 12.283627275536082,
+          "ode_error": 7.105427357601002e-15,
+          "slope": 1.0,
+          "slope_fd": 1.0000000000065512,
+          "finite_event_stretch": 1.0000000000000024,
+          "last_time": 10.225663103256519,
+          "nfev": 1526
+        }
+      ],
+      "proper_direction_contrast": -3.204424506661587,
+      "frozen_direction_contrast": -3.204424506661589,
+      "recovered_kappa": 0.0
+    },
+    {
+      "b_star": 0.0,
+      "kappa": 0.0,
+      "emission_t": 1.0,
+      "directions": [
+        {
+          "sign": 1,
+          "coordinate_duration": 6.283185307179586,
+          "proper_duration": 10.681415022205297,
+          "ode_proper_duration": 10.681415022205305,
+          "ode_error": 8.881784197001252e-15,
+          "slope": 1.0,
+          "slope_fd": 0.9999999999976694,
+          "finite_event_stretch": 0.9999999999999994,
+          "last_time": 7.283185307179592,
+          "nfev": 1526
+        },
+        {
+          "sign": -1,
+          "coordinate_duration": 6.283185307179586,
+          "proper_duration": 10.681415022205297,
+          "ode_proper_duration": 10.681415022205305,
+          "ode_error": 8.881784197001252e-15,
+          "slope": 1.0,
+          "slope_fd": 0.9999999999976694,
+          "finite_event_stretch": 0.9999999999999994,
+          "last_time": 7.283185307179592,
+          "nfev": 1526
+        }
+      ],
+      "proper_direction_contrast": 0.0,
+      "frozen_direction_contrast": -0.0,
+      "recovered_kappa": 0.0
+    },
+    {
+      "b_star": 0.0,
+      "kappa": 0.0,
+      "emission_t": 3.0,
+      "directions": [
+        {
+          "sign": 1,
+          "coordinate_duration": 6.283185307179586,
+          "proper_duration": 10.681415022205297,
+          "ode_proper_duration": 10.68141502220533,
+          "ode_error": 3.375077994860476e-14,
+          "slope": 1.0,
+          "slope_fd": 0.9999999999976694,
+          "finite_event_stretch": 0.9999999999999994,
+          "last_time": 9.283185307179606,
+          "nfev": 1526
+        },
+        {
+          "sign": -1,
+          "coordinate_duration": 6.283185307179586,
+          "proper_duration": 10.681415022205297,
+          "ode_proper_duration": 10.68141502220533,
+          "ode_error": 3.375077994860476e-14,
+          "slope": 1.0,
+          "slope_fd": 0.9999999999976694,
+          "finite_event_stretch": 0.9999999999999994,
+          "last_time": 9.283185307179606,
+          "nfev": 1526
+        }
+      ],
+      "proper_direction_contrast": 0.0,
+      "frozen_direction_contrast": -0.0,
+      "recovered_kappa": 0.0
+    },
+    {
+      "b_star": 0.0,
+      "kappa": -0.02,
+      "emission_t": 1.0,
+      "directions": [
+        {
+          "sign": 1,
+          "coordinate_duration": 6.484777329494923,
+          "proper_duration": 11.02412146014137,
+          "ode_proper_duration": 11.024121460141364,
+          "ode_error": 5.329070518200751e-15,
+          "slope": 1.0648477732949493,
+          "slope_fd": 1.0648477732910777,
+          "finite_event_stretch": 1.0648477732949502,
+          "last_time": 7.4847773294949205,
+          "nfev": 1526
+        },
+        {
+          "sign": -1,
+          "coordinate_duration": 6.089863257570736,
+          "proper_duration": 10.35276753787025,
+          "ode_proper_duration": 10.35276753787025,
+          "ode_error": 0.0,
+          "slope": 0.9391013674242926,
+          "slope_fd": 0.9391013674209248,
+          "finite_event_stretch": 0.939101367424294,
+          "last_time": 7.089863257570736,
+          "nfev": 1526
+        }
+      ],
+      "proper_direction_contrast": 0.6713539222711198,
+      "frozen_direction_contrast": -0.0,
+      "recovered_kappa": -0.020000000000000014
+    },
+    {
+      "b_star": 0.0,
+      "kappa": -0.02,
+      "emission_t": 3.0,
+      "directions": [
+        {
+          "sign": 1,
+          "coordinate_duration": 6.614472876084822,
+          "proper_duration": 11.244603889344196,
+          "ode_proper_duration": 11.2446038893442,
+          "ode_error": 3.552713678800501e-15,
+          "slope": 1.0648477732949493,
+          "slope_fd": 1.0648477732999595,
+          "finite_event_stretch": 1.0648477732949502,
+          "last_time": 9.614472876084823,
+          "nfev": 1526
+        },
+        {
+          "sign": -1,
+          "coordinate_duration": 5.968065992419321,
+          "proper_duration": 10.145712187112846,
+          "ode_proper_duration": 10.145712187112851,
+          "ode_error": 5.329070518200751e-15,
+          "slope": 0.9391013674242926,
+          "slope_fd": 0.9391013674253657,
+          "finite_event_stretch": 0.939101367424291,
+          "last_time": 8.968065992419325,
+          "nfev": 1526
+        }
+      ],
+      "proper_direction_contrast": 1.0988917022313505,
+      "frozen_direction_contrast": 0.4272566008882119,
+      "recovered_kappa": -0.020000000000000014
+    },
+    {
+      "b_star": 0.0,
+      "kappa": 0.02,
+      "emission_t": 1.0,
+      "directions": [
+        {
+          "sign": 1,
+          "coordinate_duration": 6.089863257570736,
+          "proper_duration": 10.35276753787025,
+          "ode_proper_duration": 10.35276753787025,
+          "ode_error": 0.0,
+          "slope": 0.9391013674242926,
+          "slope_fd": 0.9391013674209248,
+          "finite_event_stretch": 0.939101367424294,
+          "last_time": 7.089863257570736,
+          "nfev": 1526
+        },
+        {
+          "sign": -1,
+          "coordinate_duration": 6.484777329494923,
+          "proper_duration": 11.02412146014137,
+          "ode_proper_duration": 11.024121460141364,
+          "ode_error": 5.329070518200751e-15,
+          "slope": 1.0648477732949493,
+          "slope_fd": 1.0648477732910777,
+          "finite_event_stretch": 1.0648477732949502,
+          "last_time": 7.4847773294949205,
+          "nfev": 1526
+        }
+      ],
+      "proper_direction_contrast": -0.6713539222711198,
+      "frozen_direction_contrast": -0.0,
+      "recovered_kappa": 0.020000000000000025
+    },
+    {
+      "b_star": 0.0,
+      "kappa": 0.02,
+      "emission_t": 3.0,
+      "directions": [
+        {
+          "sign": 1,
+          "coordinate_duration": 5.968065992419321,
+          "proper_duration": 10.145712187112846,
+          "ode_proper_duration": 10.145712187112851,
+          "ode_error": 5.329070518200751e-15,
+          "slope": 0.9391013674242926,
+          "slope_fd": 0.9391013674253657,
+          "finite_event_stretch": 0.939101367424291,
+          "last_time": 8.968065992419325,
+          "nfev": 1526
+        },
+        {
+          "sign": -1,
+          "coordinate_duration": 6.614472876084822,
+          "proper_duration": 11.244603889344196,
+          "ode_proper_duration": 11.2446038893442,
+          "ode_error": 3.552713678800501e-15,
+          "slope": 1.0648477732949493,
+          "slope_fd": 1.0648477732999595,
+          "finite_event_stretch": 1.0648477732949502,
+          "last_time": 9.614472876084823,
+          "nfev": 1526
+        }
+      ],
+      "proper_direction_contrast": -1.0988917022313505,
+      "frozen_direction_contrast": -0.4272566008882119,
+      "recovered_kappa": 0.020000000000000025
+    }
+  ],
+  "versions": {
+    "python": "3.10.12",
+    "numpy": "2.2.6",
+    "scipy": "1.15.3"
+  },
+  "scope": "Ten chosen histories/emissions, explicit guide; no free-geodesic or physical energy claim."
+}

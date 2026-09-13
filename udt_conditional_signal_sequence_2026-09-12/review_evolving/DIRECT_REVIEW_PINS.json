@@ -1,0 +1,21 @@
+{
+  "recorded_utc": "2026-09-13T00:17:49.665323+00:00",
+  "role": "source/candidate/version correspondence, not independent chronology or truth",
+  "sha256": {
+    "AGENTS.md": "f4862a564c8a2a98554ee4af23b89bd21deb679db6f9739880e808c7f6371c89",
+    "udt_conditional_signal_sequence_2026-09-12/WORK_ORDER.md": "12163bce4c51dcd5d5480f6a09212a647d4699b813e3a283942f2b493efb187f",
+    "udt_conditional_signal_sequence_2026-09-12/CHECK_CONTRACT.md": "09f85736141b0896200b964d9aef8533cbf6e1f623e81e1d020a27b54da51a37",
+    "udt_conditional_signal_sequence_2026-09-12/step_03/INITIAL_CANDIDATE.md": "9a18b1754cc40c77017f6372d2ad950b991beff6448963b76d44081b9fcf8f67",
+    "udt_conditional_signal_sequence_2026-09-12/step_05/INITIAL_CANDIDATE.md": "1ac77fab0e542d7569f0dfb8fa7f0d959b9e22ace323182870eef6ad4be60c8d",
+    "udt_nonlinear_ripple_geometry_2026-09-09/INITIAL_CANDIDATE.md": "49880008dcb5a646d6867e377f6dc84ded692b98250701aba4cab7119ca500de",
+    "udt_ne1_tilted_beam_geometry_2026-09-12/INITIAL_CANDIDATE.md": "9932e4a2557144873cd7e23b4147948cc18a559605b920e5109deb4954ea6015",
+    "udt_ne1_tilted_beam_geometry_2026-09-12/REVIEWED_RESULT.md": "de9f754f41b6eda9bf9d419113d821f51a043d3506da20c7a6c33f132c8bc517",
+    "udt_g220_covariant_null_clock_arrow_timelive_lift_2026-08-22/EXACT_DERIVATION.md": "0e5b33a0c013def973bdca369944d99a84fe278614cae1794e7cb50b56db0f6f",
+    "udt_g348_generic_lorentzian_null_screen_area_theorem_2026-09-04/EXACT_DERIVATION.md": "04917cd0336f5c06ee76129f5a8005f5e483e8a6fcdacbb87c96a6e0ad89544c",
+    "udt_conditional_signal_sequence_2026-09-12/review_evolving/SOURCE_FIRST_NOTES.md": "abd2e9e315d98a09a3e7aade6416c3b100f3c0900f2bf400aacdcfbe9ffd4bd3",
+    "udt_conditional_signal_sequence_2026-09-12/review_evolving/EXTENDED_CHECK_CONTRACT.md": "41ae23437f11857d3b46778724e48366a0d0e72e1e0f7cca0f41d5164ef2b544",
+    "udt_conditional_signal_sequence_2026-09-12/review_evolving/independent_affine.py": "1448067f258bfcdf842e5b90caa6857bd57f9afb75b9903886d47f63e1dded1b",
+    "udt_conditional_signal_sequence_2026-09-12/review_evolving/extended_affine.initial.py": "0c3d18409ed0762854de0a41c698d53b360bb013271f709ff73f6957d47e4b77",
+    "udt_conditional_signal_sequence_2026-09-12/review_evolving/extended_affine.py": "63f3fcb637ad012d9607e533e5944f378a4b7c049a0ad2f0e7c988e2d2d88b2f"
+  }
+}

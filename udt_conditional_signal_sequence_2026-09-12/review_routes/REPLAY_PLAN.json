@@ -1,0 +1,52 @@
+{
+  "utc": "2026-09-13T00:13:40.575884+00:00",
+  "source_hashes": {
+    "udt_conditional_signal_sequence_2026-09-12/step_04/INITIAL_CANDIDATE.md": "7e1c5af4b294e4ec2e0837465fbde3cd0c8f697c8412ea54ae60399ebe4ac8c3",
+    "udt_conditional_signal_sequence_2026-09-12/step_04/CLARIFICATIONS.md": "6a7d2de18390715ea6b340a3cb5fabd12a659bc532dace7480c7fe31d6c84b1d",
+    "udt_conditional_signal_sequence_2026-09-12/step_04/check_routes.py": "41a0465dfa04bf6d2f414e4930f1ee36f7e968a94403f4f6e4d7d450a7cc0f30",
+    "udt_conditional_signal_sequence_2026-09-12/CHECK_CONTRACT.md": "09f85736141b0896200b964d9aef8533cbf6e1f623e81e1d020a27b54da51a37",
+    "udt_conditional_signal_sequence_2026-09-12/checks/routes.stdout": "8dfefe67bd24e3594e254e7210e33e2a346e189dccbc8442579dad3f6fa51004",
+    "udt_conditional_signal_sequence_2026-09-12/checks/routes.json": "3bef93d7573b6d8a3f95b8fdcca7d8984dd1c4b21200dbebb54ec525826e80fc"
+  },
+  "planned_replays": [
+    {
+      "name": "author_replay",
+      "argv": [
+        "python3",
+        "udt_conditional_signal_sequence_2026-09-12/step_04/check_routes.py"
+      ],
+      "expected_exit": 0
+    },
+    {
+      "name": "author_mutant_reverse_sign",
+      "argv": [
+        "python3",
+        "udt_conditional_signal_sequence_2026-09-12/step_04/check_routes.py",
+        "--mutate",
+        "reverse_sign"
+      ],
+      "expected_exit": 1
+    },
+    {
+      "name": "author_mutant_freeze_shift",
+      "argv": [
+        "python3",
+        "udt_conditional_signal_sequence_2026-09-12/step_04/check_routes.py",
+        "--mutate",
+        "freeze_shift"
+      ],
+      "expected_exit": 1
+    },
+    {
+      "name": "author_mutant_drop_clock_scale",
+      "argv": [
+        "python3",
+        "udt_conditional_signal_sequence_2026-09-12/step_04/check_routes.py",
+        "--mutate",
+        "drop_clock_scale"
+      ],
+      "expected_exit": 1
+    }
+  ],
+  "independence": "Author reruns are same-code regressions. Independent source-first metric-root result already saved in independent_initial.stdout."
+}

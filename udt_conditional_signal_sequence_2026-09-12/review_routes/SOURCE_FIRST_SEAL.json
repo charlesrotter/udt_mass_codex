@@ -1,0 +1,37 @@
+{
+  "observed_seal_utc": "2026-09-13T00:07:54.631583+00:00",
+  "actual_first_tool_action_utc": "2026-09-13T00:03:33+00:00",
+  "conservative_allocation_utc": "2026-09-13T00:02:25+00:00",
+  "deadline_utc": "2026-09-13T00:42:25+00:00",
+  "context": "/root/css_routes_review",
+  "runtime_model_version": "UNATTESTED",
+  "configured_parent_attribution": "gpt-6-astra/xhigh",
+  "general_capacity": "UNVERIFIED",
+  "css_candidate_read_before_seal": false,
+  "source_first_notes_sha256": "8aca7cec4ace4ddcfcf3965d9f0e35932eeabd669bf5d737cf48e16ecaebcb2e",
+  "source_hashes": {
+    "AGENTS.md": "f4862a564c8a2a98554ee4af23b89bd21deb679db6f9739880e808c7f6371c89",
+    "CLAUDE.md": "b7e524a5b06760e57877a408630228767ae9a394134095f9851bef5d06e17751",
+    "CURRENT_SCIENTIFIC_PREMISES.tsv": "c614575c251a0e110146ae30b8c6f87d7d01862e3eab2da861b43c33537168e2",
+    "CURRENT_SCIENTIFIC_PREMISES.md": "cd5e3ed21a5e437d81b12f68bdfa4586441621d1f14f32c64e2bf3696467976c",
+    "udt_exact_metric_kernel_expansion_2026-09-10/INITIAL_CANDIDATE.md": "439bbf545bc11901005bfa96ad154ddab68d3d6a383c358dc787b9eb38584f73",
+    "udt_optics_bridge_assessment_2026-09-12/REVIEWED_RESULT.md": "89e1226c55adcd3e68389f3d96955ae34efd62ae2c4ae76478631bcb29f9f1ac",
+    "udt_gr_filter_reconciliation_2026-09-09/AUTHORITY_RECORD.md": "80daa0be6d3e1c0ac1b734fea089c4eb487f05bc1e1fbb2fabd69322ca89f28c",
+    "udt_reviewed_backlog_banking_2026-09-10/capture_existing.py": "1b95a783e861a52cc9fc50d3c76c152cb3673fc9045372afafd30da269ffec3f",
+    "udt_exact_metric_kernel_expansion_2026-09-10/REPAIR_LOG.md": "a4dcf5154a4fe7d1e9a6392eb0d2054bdbcef4ac4b6ab0f842f394bbfd3fe285",
+    "udt_exact_metric_kernel_expansion_2026-09-10/review/REVIEW.md": "5359bd687245ab0f5d085b430987bf5b2c08321dd9d6f40b4ee1f753a9e586f7",
+    "udt_optics_bridge_assessment_2026-09-12/INITIAL_CANDIDATE.md": "6fc4af08f7f35044b179451e9a4b163b113ffe61b4a5bcfed08f25836243e729",
+    "udt_conditional_signal_sequence_2026-09-12/WORK_ORDER.md": "12163bce4c51dcd5d5480f6a09212a647d4699b813e3a283942f2b493efb187f"
+  },
+  "parent_pins_match": {
+    "AGENTS.md": true,
+    "CLAUDE.md": true,
+    "CURRENT_SCIENTIFIC_PREMISES.tsv": true,
+    "CURRENT_SCIENTIFIC_PREMISES.md": true,
+    "udt_exact_metric_kernel_expansion_2026-09-10/INITIAL_CANDIDATE.md": true,
+    "udt_optics_bridge_assessment_2026-09-12/REVIEWED_RESULT.md": true,
+    "udt_gr_filter_reconciliation_2026-09-09/AUTHORITY_RECORD.md": true,
+    "udt_reviewed_backlog_banking_2026-09-10/capture_existing.py": true
+  },
+  "clock_and_checksums": "Observed local timestamps and byte correspondence; not external attestation."
+}

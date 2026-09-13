@@ -1,0 +1,40 @@
+{
+  "frozen_utc": "2026-09-13T00:32:02.780769+00:00",
+  "scope": "Final combined science/report/current navigation fidelity; original direct code/output reviews remain separate. No publication yet.",
+  "files": {
+    "udt_conditional_signal_sequence_2026-09-12/CLOSEOUT.md": "ddf63a29665519a997d32d17e2b21eaaf691049646cd28fafa5af4dde95564e8",
+    "udt_conditional_signal_sequence_2026-09-12/DECISION_BRIEF.md": "3cb85adebf0f7992f65696f55f952c2c0c5d136bf1594864117c0bae8647c6bf",
+    "udt_conditional_signal_sequence_2026-09-12/NUMERICAL_RESULTS.md": "b29d86b1bfd74960b758aaeca46650f705a947d943d547e0f1785f3c5ae1a66b",
+    "udt_conditional_signal_sequence_2026-09-12/CHECK_SUMMARY.json": "1b9d2299009cf9292a056537c6bac21c3e79e134530a30241fb09e62b0ea899d",
+    "udt_conditional_signal_sequence_2026-09-12/CHECK_RESULTS.json": "8ac6d2b521b129a0cf1f94074c97674f5c0175e7f1655507e7d8eb017dfb6f48",
+    "udt_conditional_signal_sequence_2026-09-12/PRESERVATION_CHECK.json": "6bf800612254601416940c3effe4e84a512441a8a6c56251a5cc7797b1a75c8f",
+    "udt_conditional_signal_sequence_2026-09-12/REVIEW_ALLOCATION.json": "d0b2b1656bacc8633cf559c06d6ef71333f3293fb3deb1a3940cb04dc8834784",
+    "udt_conditional_signal_sequence_2026-09-12/DISCOVERY_AND_REVIEW_HISTORY.md": "d63579faf53914879ca28fa14bc1e4ad662e2db40c10f116d39778db3b939719",
+    "udt_conditional_signal_sequence_2026-09-12/WORK_ORDER.md": "12163bce4c51dcd5d5480f6a09212a647d4699b813e3a283942f2b493efb187f",
+    "udt_conditional_signal_sequence_2026-09-12/CHECK_CONTRACT.md": "09f85736141b0896200b964d9aef8533cbf6e1f623e81e1d020a27b54da51a37",
+    "udt_conditional_signal_sequence_2026-09-12/step_03/REVIEWED_RESULT.md": "a335fa72cf556758696cd7720881ac4801f3d0acd50c6403bb44520e22913997",
+    "udt_conditional_signal_sequence_2026-09-12/step_04/REVIEWED_RESULT.md": "b9be0c15d794c32a0c9c460bc168a5cc3de335ba8c7de8872cf2c560e0ab9028",
+    "udt_conditional_signal_sequence_2026-09-12/step_05/REVIEWED_RESULT.md": "ad8290f8e71403a3c9f496a3ec83ff8df38c7ac91894639e21af16641c1fa8f6",
+    "udt_conditional_signal_sequence_2026-09-12/step_03/REPAIR_CONTRACT.md": "0ce7210a95b3a1e36eb1399769558b8d633aafd59666328f3c4bde36e354746d",
+    "udt_conditional_signal_sequence_2026-09-12/step_04/CLARIFICATIONS.md": "ccd48fc7966d502c57663e127d74253405e891291b9efa30157f4c109471210d",
+    "LIVE.md": "a934600f3b9edecbebfb6b5e6aff8782febb16457e90dced7216dc80e441c067",
+    "HANDOFF.md": "37f787f18c3cb043a2a6507ab63f33472268225f7dbf6644c6fb25937975a190",
+    "CURRENT_RESEARCH_PROGRAM.md": "6396f1e2c0e9b3ba89779fee59d66f9befe28d79f6f8d0da878499f796df6537",
+    "INDEX.md": "99069e4a9426adf600d6872ca3ae5a67a9a94e264f33d23f1a28b6e2a5ce7b25",
+    "UDT_RESEARCH_ROADMAP.md": "ae56e7e86d0cfc6b15b2bcf3db90d94b71d61257e89b48c1cc9a084b64bcb2f5"
+  },
+  "future_exclusions": [
+    "reviewer final seal files",
+    "SHA256SUMS",
+    "STAGING_PLAN.json",
+    "GIT_EXECUTION.json",
+    "INDEX_CHECK.json",
+    "PUBLICATION.json",
+    "PUBLICATION.md"
+  ],
+  "prepublication_remote_refresh": {
+    "fetch_exit": 0,
+    "HEAD": "b69e03913caf42e7b6d502e4f3449921c500b4dd",
+    "origin_grok": "b69e03913caf42e7b6d502e4f3449921c500b4dd"
+  }
+}

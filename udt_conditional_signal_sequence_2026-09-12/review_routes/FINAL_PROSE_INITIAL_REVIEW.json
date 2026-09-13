@@ -1,0 +1,18 @@
+{
+  "utc": "2026-09-13T00:23:06.528027+00:00",
+  "reviewed_versions": {
+    "udt_conditional_signal_sequence_2026-09-12/step_04/REVIEWED_RESULT.md": "4d9302a7b14dedf0ccde25565a434f9086b0de0edd5d6a7f943053b82b6f48f3",
+    "udt_conditional_signal_sequence_2026-09-12/step_04/CLARIFICATIONS.md": "ccd48fc7966d502c57663e127d74253405e891291b9efa30157f4c109471210d"
+  },
+  "disposition": "Formulas and substantive normalization/query clarification accepted; compact final-summary scope edits requested before final prose seal.",
+  "requested_edits": [
+    "Explicit R>0 and exact centered circle r=R,z=0",
+    "Same stationary emission/detection point",
+    "Two pulse slopes multiply to1, rather than ambiguous maps antecedent",
+    "Unknown R qualification applies to slopes alone",
+    "Dynamic proper contrast explicitly plus-minus",
+    "Explicit ../review_routes/SCIENCE_SEAL.json pointer"
+  ],
+  "scientific_rerun_required": false,
+  "clarification_editorial_range_correction": "Accepted; equation(7) is final label, correction history retained."
+}

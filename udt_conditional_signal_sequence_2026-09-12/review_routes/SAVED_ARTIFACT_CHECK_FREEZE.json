@@ -1,0 +1,8 @@
+{
+  "utc": "2026-09-13T00:16:36.508030+00:00",
+  "outcome_exposure": "Parent ten rows previously read; new check not blinded.",
+  "sha256": {
+    "udt_conditional_signal_sequence_2026-09-12/review_routes/SAVED_ARTIFACT_CHECK_PLAN.md": "b62593c72e1348a1e80bb8271051c98af0ffdb9d583fb9f4b592adbee871aa30",
+    "udt_conditional_signal_sequence_2026-09-12/review_routes/check_saved_artifact.py": "891e09537488163fe6d354aa6fd6d128bab70f519c900c3406cfa4465d70e890"
+  }
+}

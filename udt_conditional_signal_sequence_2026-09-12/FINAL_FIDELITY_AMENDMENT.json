@@ -1,0 +1,11 @@
+{
+  "recorded_utc": "2026-09-13T00:34:15.054772+00:00",
+  "original_intake_sha256": "49176b588e672f15a985bcd5d0b6f4896230f110939a7fb7cf99566da601ea13",
+  "changed_file": "udt_conditional_signal_sequence_2026-09-12/CLOSEOUT.md",
+  "original_sha256": "ddf63a29665519a997d32d17e2b21eaaf691049646cd28fafa5af4dde95564e8",
+  "reviewed_replacement_sha256": "e04fc67e3098424bb07f7938a064c8aea701ffda6a3b4633f50db575fc6a66cd",
+  "reason": "Reviewer identified that1.67e-13 is maximum of12 main-case endpoint residuals, whereas all original_endpoint guard calls include5.522249324485529e-13. Wording now distinguishes main/all guards. Same saved evidence, no numerical/candidate change.",
+  "source": "CHECK_SUMMARY.json maximum_endpoint_residual and max_scaled_errors.original_endpoint",
+  "other_intake_files_unchanged": true,
+  "required_fidelity": "Both final seals must bind this amendment and replacement CLOSEOUT; original FINAL_REVIEW_INTAKE remains unchanged."
+}

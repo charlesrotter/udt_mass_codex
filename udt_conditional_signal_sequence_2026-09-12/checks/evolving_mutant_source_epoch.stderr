@@ -1,0 +1,10 @@
+Traceback (most recent call last):
+  File "/home/udt-admin/udt_mass_codex/udt_conditional_signal_sequence_2026-09-12/step_03/check_evolving.py", line 134, in main
+    row=boundary(.4,.5);records.append(row)
+  File "/home/udt-admin/udt_mass_codex/udt_conditional_signal_sequence_2026-09-12/step_03/check_evolving.py", line 88, in boundary
+    row=readout(te,te+opt.x[2],eps,state,ini,se,frozen)
+  File "/home/udt-admin/udt_mass_codex/udt_conditional_signal_sequence_2026-09-12/step_03/check_evolving.py", line 45, in readout
+    guard('actual_source_frequency',abs(np.linalg.norm(ini[3:6]/le)-1),2e-12)
+  File "/home/udt-admin/udt_mass_codex/udt_conditional_signal_sequence_2026-09-12/step_03/check_evolving.py", line 22, in guard
+    if not np.isfinite(value) or value>tol:raise AssertionError((name,value,tol))
+AssertionError: ('actual_source_frequency', 0.2596166255639776, 2e-12)
