@@ -1,0 +1,15 @@
+{
+  "conservative_start_utc": "2026-09-13T03:55:09+00:00",
+  "hard_end_utc": "2026-09-13T04:35:09+00:00",
+  "context": "/root/signal_shape_review",
+  "master_allocation_number": 3,
+  "fresh_context": true,
+  "fork_turns": "none",
+  "source_first_max_minutes": 8,
+  "total_max_minutes": 40,
+  "subdelegation": false,
+  "configured_parent_attribution": "gpt-6-astra/xhigh",
+  "runtime_model": "UNATTESTED",
+  "different_model": "UNTESTED",
+  "general_capacity": "UNVERIFIED"
+}

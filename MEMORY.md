@@ -21,7 +21,7 @@ with actual local Lambda=0 realizations; not general metric realization or physi
 Evidence, false passes, repairs and lost-output caveats stay fixed.
 G383--G412 exact-scope banking COMPLETE; three CD vacuous checks remain EXCLUDED.
 27 conditional mathematical results plus CO2 design, LC2 benchmark and FW2 finite procedure; scopes: INDEX.
-G413--G423 conditional; BE1 reviewed/UNPROMOTED; original398 rows unchanged; scope: INDEX.
+G413--G423 conditional; BE1/SD1 reviewed/UNPROMOTED; original398 rows unchanged; scope: INDEX.
 
 Keep the corrections explicit:
 

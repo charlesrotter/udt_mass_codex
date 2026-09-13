@@ -1,0 +1,14 @@
+{
+  "command": [
+    "python3",
+    "udt_joint_signal_shape_discrimination_2026-09-13/check_discrimination.py"
+  ],
+  "cwd": "/home/udt-admin/udt_mass_codex",
+  "started_utc": "2026-09-13T03:58:17.546564+00:00",
+  "duration_seconds": 1.4446233690250665,
+  "returncode": 1,
+  "timeout": false,
+  "address_space_bytes": 2147483648,
+  "cpu_seconds": 180,
+  "maxrss_kib": 115412
+}

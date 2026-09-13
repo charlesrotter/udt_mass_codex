@@ -1,0 +1,6 @@
+Traceback (most recent call last):
+  File "/home/udt-admin/udt_mass_codex/udt_joint_signal_shape_discrimination_2026-09-13/check_discrimination.py", line 103, in main
+    if gate:guard('leading_convergence_'+name,errors[-1],.8*errors[0]+1e-8)
+  File "/home/udt-admin/udt_mass_codex/udt_joint_signal_shape_discrimination_2026-09-13/check_discrimination.py", line 18, in guard
+    assert np.isfinite(error) and error<=tol,(name,error,tol)
+AssertionError: ('leading_convergence_clock_second', 0.0003058256669758626, np.float64(0.00022747466775052932))

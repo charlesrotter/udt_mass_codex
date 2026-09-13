@@ -1,0 +1,21 @@
+{
+  "utc": "2026-09-13T04:07:48.921604+00:00",
+  "full406_capture_attributed": "udt_broader_evolving_signal_geometry_2026-09-13/checks/premise406.json",
+  "full406_actual_exit": 0,
+  "full406_actual_seconds": 400.19077900308184,
+  "not_rerun_in_stageC": true,
+  "unchanged_full_audit_core_inputs": {
+    "AGENTS.md": "f8fa9f6135d80332e4d28b0dcfefd04e43c00042512968bb9eacf2f692499053",
+    "CURRENT_SCIENTIFIC_PREMISES.tsv": "7a3d69d5a0bc3ac98e2ebe2bb0c6d029df30071bf403baffed2223a193dc720b",
+    "verify_current_scientific_premises.py": "98dd79610f6bc9d116db65104345c84b64aae0bae2f81c93bec2f64b40745eec",
+    "signal_chain_banking_guard.py": "ac46d366fd47e16da1d55d3fe97a534d94116090a742bc8e66903be5c1e336f1",
+    "CURRENT_SCIENTIFIC_PREMISES.md": "7b574665f714551a3a565987fc5bc56a4b44c7e6fb274532f61609c25153f627"
+  },
+  "source_pins_verified_by": "checks/saved_evidence.stdout",
+  "new_navigation_checks": [
+    "checks/navigation.json",
+    "checks/current_surface.json"
+  ],
+  "navigation_hash_map": "FINAL_NAVIGATION_INPUTS.json",
+  "scope": "Audit correspondence, not independent SD1 mathematical proof"
+}

@@ -1,0 +1,6 @@
+Traceback (most recent call last):
+  File "/home/udt-admin/udt_mass_codex/udt_joint_signal_shape_discrimination_2026-09-13/check_discrimination.py", line 75, in main
+    out['symbolic']=symbolic()
+  File "/home/udt-admin/udt_mass_codex/udt_joint_signal_shape_discrimination_2026-09-13/check_discrimination.py", line 67, in symbolic
+    assert sp.trigsimp(raw+k*sp.tan(th)*(1+2*sp.cos(th)**2))==0
+AssertionError

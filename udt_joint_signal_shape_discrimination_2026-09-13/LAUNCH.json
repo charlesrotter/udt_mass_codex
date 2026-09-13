@@ -1,0 +1,17 @@
+{
+  "recorded_utc": "2026-09-13T03:55:09.203686+00:00",
+  "start_utc": "2026-09-13T03:54:12+00:00",
+  "deadline_utc": "2026-09-13T05:54:12+00:00",
+  "head": "3ce1bcb806d506b21bb20eabd5b942df0613880c",
+  "origin": "3ce1bcb806d506b21bb20eabd5b942df0613880c",
+  "tracked_clean": true,
+  "original51_status_names_exact": true,
+  "original_status_sha256": "747cf3c497bfbdf7c373a2aa621be3cb241a61f7ef9f508c39bf64588ff70a60",
+  "stageB_science_commit": "6b001c896f29a419476cbd205771e8a7b303655f",
+  "stageB_publication_receipt_commit": "3ce1bcb806d506b21bb20eabd5b942df0613880c",
+  "question": "At fixed supplied initial expansion-rate calibration, can clocks and labelled beam shape distinguish the remaining known two-mode amplitude direction?",
+  "mathematical_exploration_history": "Hand Taylor/rank exploration and /tmp drafts during StageB packaging, before this formal StageC start; no SD1 numerical or fresh reviewer outcomes then",
+  "configured_parent_attribution": "gpt-6-astra/xhigh",
+  "runtime_model": "UNATTESTED",
+  "general_capacity": "UNVERIFIED"
+}

@@ -1,0 +1,10 @@
+{
+  "utc": "2026-09-13T03:56:56.669811+00:00",
+  "before_finite_example_outcomes": true,
+  "sha256": {
+    "udt_joint_signal_shape_discrimination_2026-09-13/check_discrimination.py": "1cb351ece1907f4663fce9adcf9573bbee044bfefe8919cbd3d3eb45e6469cf1",
+    "udt_joint_signal_shape_discrimination_2026-09-13/INITIAL_check_discrimination.py": "b8ef4ac71af79c31d6eddc631722b74d5674dd8be56875b25361db1e33d39403",
+    "udt_joint_signal_shape_discrimination_2026-09-13/SYMBOLIC_NORMAL_FORM_REPAIR.md": "e71e70ad67fb71608897092989dc8daf8205161eafd7edacca88ee30be21074a"
+  },
+  "exact_diff": "--- initial\n+++ rational_normal_form\n@@ -64,7 +64,7 @@\n  assert sp.simplify(lr-((q*q-1)*d/4+(sp.Rational(1,8)-q*q/8+q*r/2)*d*d))==0\n  th,k=sp.symbols('theta k',real=True)\n  raw=k*(sp.cos(2*th)*sp.sin(th)/sp.cos(th)-2*sp.sin(2*th))\n- assert sp.trigsimp(raw+k*sp.tan(th)*(1+2*sp.cos(th)**2))==0\n+ assert sp.cancel(sp.expand_trig(raw+k*sp.sin(th)/sp.cos(th)*(1+2*sp.cos(th)**2)))==0\n  return {'logR_series':str(lr),'H_series':str(h),'v_identity':'EXACT_SYMPY','scope':'Exact truncated algebra; prose analytic remainder and source hypotheses are separately reviewed.'}\n \n def main():\n"
+}

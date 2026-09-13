@@ -1,0 +1,52 @@
+{
+  "utc": "2026-09-13T04:13:06.003591+00:00",
+  "actual_allocations": [
+    {
+      "stage": "A",
+      "context": "/root/signal_banking_review",
+      "fresh_separate_context": true,
+      "receipt": "udt_signal_chain_banking_2026-09-13/review/FINAL_RECEIPT.json",
+      "receipt_sha256": "5ad62d59bc9dbfd8e1ebbce755408e64233d2b0f68ea396cbdd59293a868473b",
+      "conservative_start_utc": "2026-09-13T02:36:34+00:00",
+      "actual_end_utc": "2026-09-13T03:12:01.399719+00:00",
+      "upper_bound_seconds": 2127.399719,
+      "upper_bound_minutes": 35.45666198333333
+    },
+    {
+      "stage": "B",
+      "context": "/root/broader_signal_review",
+      "fresh_separate_context": true,
+      "receipt": "udt_broader_evolving_signal_geometry_2026-09-13/review/FINAL_RECEIPT.json",
+      "receipt_sha256": "f707622d0350fc93878504ee2eb097b6bd283f661801f7dcc8bf430bf604ac38",
+      "conservative_start_utc": "2026-09-13T03:23:33+00:00",
+      "actual_end_utc": "2026-09-13T03:51:39.890801+00:00",
+      "upper_bound_seconds": 1686.890801,
+      "upper_bound_minutes": 28.114846683333333
+    },
+    {
+      "stage": "C",
+      "context": "/root/signal_shape_review",
+      "fresh_separate_context": true,
+      "receipt": "udt_joint_signal_shape_discrimination_2026-09-13/review/FINAL_RECEIPT.json",
+      "receipt_sha256": "31393bb88e414889ec68ef25db37ad75e6b9ee549b0386b026500517cc8bfdd3",
+      "conservative_start_utc": "2026-09-13T03:55:09+00:00",
+      "actual_end_utc": "2026-09-13T04:11:59.492320+00:00",
+      "upper_bound_seconds": 1010.49232,
+      "upper_bound_minutes": 16.841538666666665
+    }
+  ],
+  "allocation_count": 3,
+  "authorized_maximum": 3,
+  "reviewer_context_overlap": false,
+  "parent_reviewer_capture_overlap_evidence": [
+    "udt_signal_chain_banking_2026-09-13/EXECUTION_INTERVALS.json",
+    "udt_broader_evolving_signal_geometry_2026-09-13/EXECUTION_INTERVALS.json",
+    "udt_joint_signal_shape_discrimination_2026-09-13/FINAL_EXECUTION_INTERVALS.json"
+  ],
+  "scope": "Conservative context windows and captured scientific/check subprocess intervals; exact server allocations and a whole-machine process census are not exposed",
+  "further_allocations": "STOP",
+  "configured_parent_attribution": "gpt-6-astra/xhigh",
+  "runtime_model": "UNATTESTED",
+  "different_model": "UNTESTED",
+  "general_capacity": "UNVERIFIED"
+}

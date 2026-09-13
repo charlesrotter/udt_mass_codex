@@ -1,0 +1,15 @@
+{
+  "command": [
+    "python3",
+    "-c",
+    "import sympy as s; t,k=s.symbols(\"theta k\",real=True); raw=k*(s.cos(2*t)*s.sin(t)/s.cos(t)-2*s.sin(2*t)); print(\"initial simplifier:\",s.trigsimp(raw+k*s.tan(t)*(1+2*s.cos(t)**2))); reduced=s.trigsimp(s.expand_trig(raw+k*s.sin(t)/s.cos(t)*(1+2*s.cos(t)**2))); print(\"expanded rational trig:\",reduced); assert reduced==0"
+  ],
+  "cwd": "/home/udt-admin/udt_mass_codex",
+  "started_utc": "2026-09-13T03:56:22.767628+00:00",
+  "duration_seconds": 0.2725445410469547,
+  "returncode": 1,
+  "timeout": false,
+  "address_space_bytes": 2147483648,
+  "cpu_seconds": 180,
+  "maxrss_kib": 57060
+}

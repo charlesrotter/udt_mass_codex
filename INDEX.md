@@ -2,7 +2,7 @@
 
 G383--G415 banked; G416--G423 acceptance: `udt_signal_chain_banking_2026-09-13/BANKING_RECORD.md`.
 Roadmap: `UDT_RESEARCH_ROADMAP.md`; G414: `udt_ti2_banking_2026-09-11/BANKING_RECORD.md`; TI3 reviewed/UNPROMOTED: `udt_two_shape_profile_dependence_2026-09-11/DECISION_BRIEF.md`.
-CWA1: `UDT_CONSOLIDATED_RESEARCH_ACCOUNT.md`; `udt_signal_continuation_2026-09-13/CHECKPOINT.md`; BE1: `udt_broader_evolving_signal_geometry_2026-09-13/DECISION_BRIEF.md` (UNPROMOTED).
+CWA1: `UDT_CONSOLIDATED_RESEARCH_ACCOUNT.md`; `udt_signal_continuation_2026-09-13/CHECKPOINT.md`; BE1/SD1: `udt_joint_signal_shape_discrimination_2026-09-13/DECISION_BRIEF.md` (UNPROMOTED).
 Backlog: `udt_reviewed_backlog_banking_2026-09-10/BANKING_RECORD.md`; exact claims/dispositions/checks there.
 The exact 406-row `CURRENT_SCIENTIFIC_PREMISES.tsv` owns grades, not these pointers.
 GR is FILTER ONLY, not a response-law input; Local Metric Sufficiency remains owner-provisional.

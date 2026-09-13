@@ -1,0 +1,11 @@
+{
+  "utc": "2026-09-13T03:58:17.443577+00:00",
+  "outcome_exposed": true,
+  "scope": "Capture continuation only; failed frozen gate remains failed and exit1",
+  "sha256": {
+    "udt_joint_signal_shape_discrimination_2026-09-13/check_discrimination.py": "695557d4ab3cbc938b96b74af7111f1fe2150eb5b7c495aa51e87e9a16600677",
+    "udt_joint_signal_shape_discrimination_2026-09-13/SIMPLIFIER_REPAIRED_check_discrimination.py": "1cb351ece1907f4663fce9adcf9573bbee044bfefe8919cbd3d3eb45e6469cf1",
+    "udt_joint_signal_shape_discrimination_2026-09-13/FINITE_GATE_DIAGNOSTIC.md": "b31a0f899ec8b1bc0eb055ed1b8c0983b7798ea100ec7c99e40694e4744aa452"
+  },
+  "exact_diff": "--- abort_first\n+++ preserve_all_failures\n@@ -100,14 +100,17 @@\n       ('labelled_shape_rank',lambda a:a['deta_H']/a['d']**2,'shape_derivative_second')]:\n      errors=[abs(estimate(a)-a[target]) for a in sequence]\n      gate=abs(sequence[0][target])>1e-14\n-     if gate:guard('leading_convergence_'+name,errors[-1],.8*errors[0]+1e-8)\n+     if gate:\n+      try: guard('leading_convergence_'+name,errors[-1],.8*errors[0]+1e-8)\n+      except AssertionError: pass  # Preserve failed gate; finish the frozen capture, final status remains FAIL.\n      out['convergence'].append({'Q':Q,'eta':eta,'quantity':name,'d_values':[a['d'] for a in sequence],'estimates':[estimate(a) for a in sequence],'target':sequence[0][target],'absolute_errors':errors,'nonzero_leading_gate':gate})\n   zero=[a['tight'] for a in out['records'] if a['tight']['Q']==0]\n   for neg in [a for a in zero if a['eta']==-.15]:\n    pos=next(a for a in zero if a['eta']==.15 and a['d']==neg['d'])\n    for k1,k2 in [('R','R'),('Dy','Dz'),('Dz','Dy'),('area','area')]:guard('zero_Q_exact_symmetry_'+k1,abs(neg[k1]-pos[k2]),2e-11)\n-  out['status']='PASS';out['guard_count']=len(GUARDS)\n+  out['failed_guards']=[g for g in GUARDS if not np.isfinite(g['error']) or g['error']>g['tolerance']]\n+  out['status']='FAIL' if out['failed_guards'] else 'PASS';out['guard_count']=len(GUARDS)\n  except Exception as e:\n   out['status']='FAIL';out['exception']=repr(e);print(json.dumps(out,indent=2));traceback.print_exc();return 1\n- print(json.dumps(out,indent=2));return 0\n+ print(json.dumps(out,indent=2));return 0 if out['status']=='PASS' else 1\n if __name__=='__main__':raise SystemExit(main())\n"
+}

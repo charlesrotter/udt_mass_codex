@@ -1,0 +1,16 @@
+{
+  "scope": "SD1 conditional marked two-mode finite FLOAT64 support; no interval/noise/global inference",
+  "mutation": false,
+  "versions": {
+    "python": "3.10.12",
+    "numpy": "2.2.6",
+    "scipy": "1.15.3",
+    "sympy": "1.13.1"
+  },
+  "records": [],
+  "parameter_difference_checks": [],
+  "convergence": [],
+  "guards": [],
+  "status": "FAIL",
+  "exception": "AssertionError()"
+}

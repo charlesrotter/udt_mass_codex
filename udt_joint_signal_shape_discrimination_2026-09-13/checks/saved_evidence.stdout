@@ -1,0 +1,96 @@
+{
+  "status": "PASS_SAVED_EVIDENCE_FIDELITY",
+  "scientific_finite_plan": "FAIL_ONE_ORIGINAL_FROZEN_CONVERGENCE_GATE",
+  "original_guard_count": 388,
+  "passed_guards": 387,
+  "failed_guards": [
+    {
+      "name": "leading_convergence_clock_second",
+      "error": 0.0003058256669758626,
+      "tolerance": 0.00022747466775052932
+    }
+  ],
+  "record_count": 30,
+  "all_original_records_and_guard_prefix_exactly_preserved": true,
+  "all_source_pins_and_original_freezes_authentic": true,
+  "mutation_fails_shape_guards": 11,
+  "mutation_failed_guards": [
+    {
+      "name": "leading_convergence_shape_second",
+      "error": 0.243375940013476,
+      "tolerance": 0.1846369533321301
+    },
+    {
+      "name": "leading_convergence_labelled_shape_rank",
+      "error": 1.6225063091245115,
+      "tolerance": 1.2310523957275024
+    },
+    {
+      "name": "leading_convergence_labelled_shape_rank",
+      "error": 1.6225062455787371,
+      "tolerance": 1.2308432537985439
+    },
+    {
+      "name": "leading_convergence_shape_second",
+      "error": 0.24337594001331744,
+      "tolerance": 0.18463695333212846
+    },
+    {
+      "name": "leading_convergence_labelled_shape_rank",
+      "error": 1.6225063091245115,
+      "tolerance": 1.2310523957275024
+    },
+    {
+      "name": "leading_convergence_shape_second",
+      "error": 31.033309175233974,
+      "tolerance": 1.475368231695649
+    },
+    {
+      "name": "leading_convergence_labelled_shape_rank",
+      "error": 1.6232757578246173,
+      "tolerance": 1.2401254903221623
+    },
+    {
+      "name": "leading_convergence_shape_second",
+      "error": 30.789818817590362,
+      "tolerance": 1.289539958087639
+    },
+    {
+      "name": "leading_convergence_labelled_shape_rank",
+      "error": 1.6232623652881846,
+      "tolerance": 1.2376552811208665
+    },
+    {
+      "name": "leading_convergence_clock_second",
+      "error": 0.0003058256669758626,
+      "tolerance": 0.00022747466775052932
+    },
+    {
+      "name": "leading_convergence_shape_second",
+      "error": 30.546330459288257,
+      "tolerance": 1.1040505632474409
+    },
+    {
+      "name": "leading_convergence_labelled_shape_rank",
+      "error": 1.6232490999377343,
+      "tolerance": 1.2356068273365057
+    }
+  ],
+  "limits": "Separate standard-library readout arithmetic and source correspondence; not independent metric propagation, symbolic proof or approval of the failed plan.",
+  "original_lapse": {
+    "count": 30,
+    "max_error": 2.2898349882893854e-16
+  },
+  "quadrature": {
+    "count": 180,
+    "max_error": 2.3592239273284576e-16
+  },
+  "eta_difference": {
+    "count": 120,
+    "max_error": 3.735262099624492e-12
+  },
+  "zero_Q": {
+    "count": 20,
+    "max_error": 0.0
+  }
+}

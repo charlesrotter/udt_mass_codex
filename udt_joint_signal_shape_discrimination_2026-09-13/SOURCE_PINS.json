@@ -1,0 +1,28 @@
+{
+  "utc": "2026-09-13T03:55:09.204022+00:00",
+  "head": "3ce1bcb806d506b21bb20eabd5b942df0613880c",
+  "sha256": {
+    "AGENTS.md": "f8fa9f6135d80332e4d28b0dcfefd04e43c00042512968bb9eacf2f692499053",
+    "CURRENT_SCIENTIFIC_PREMISES.tsv": "7a3d69d5a0bc3ac98e2ebe2bb0c6d029df30071bf403baffed2223a193dc720b",
+    "verify_current_scientific_premises.py": "98dd79610f6bc9d116db65104345c84b64aae0bae2f81c93bec2f64b40745eec",
+    "signal_chain_banking_guard.py": "ac46d366fd47e16da1d55d3fe97a534d94116090a742bc8e66903be5c1e336f1",
+    "udt_signal_continuation_2026-09-13/WORK_ORDER.md": "72cdd8495380e08724949cc3b0c48297ad1696171b769dcf689b82b506685bd9",
+    "udt_gr_filter_reconciliation_2026-09-09/AUTHORITY_RECORD.md": "80daa0be6d3e1c0ac1b734fea089c4eb487f05bc1e1fbb2fabd69322ca89f28c",
+    "udt_broader_evolving_signal_geometry_2026-09-13/INITIAL_CANDIDATE.md": "0c4b42c310e08767deba69dfee6c4f85e37b728a4436979dc1034e2ae7b3fcb3",
+    "udt_broader_evolving_signal_geometry_2026-09-13/CALIBRATION_SCOPE_CLARIFICATION.md": "6bc3c086c612ae6131e12aaee5c14e9814cbbbecaf3d5b2d32b01d5aca5e30a9",
+    "udt_broader_evolving_signal_geometry_2026-09-13/REVIEWED_RESULT.md": "9c8ba8a9e52ba15b8ebf49de3ab9a335c2bd8613bfd1983f75b744c9a29bffcd",
+    "udt_broader_evolving_signal_geometry_2026-09-13/check_broader.py": "7a86dbe8efd2accf601a4d54bec1d27e99fe4c4c311921045abb59d7301ea29b",
+    "udt_broader_evolving_signal_geometry_2026-09-13/review/DIRECT_REVIEW.md": "d7fae599a0986c1eea28309449e6e8b91d5ee4e28dedaf14b59b2730b4797668",
+    "udt_broader_evolving_signal_geometry_2026-09-13/review/FINAL_FIDELITY.md": "f68c14b02a096a4b5daaec8e3465198d925c25e86f52b95d063d5b53ac7e7c22",
+    "udt_broader_evolving_signal_geometry_2026-09-13/review/FINAL_RECEIPT.json": "f707622d0350fc93878504ee2eb097b6bd283f661801f7dcc8bf430bf604ac38",
+    "udt_broader_evolving_signal_geometry_2026-09-13/DECISION_BRIEF.md": "cbe714d4887b024905537fad8fa2c708b512fb1068137e08f4d9c15d5e620893",
+    "udt_broader_evolving_signal_geometry_2026-09-13/PUBLICATION.json": "867823401ca4ebfe237168e5b9060737d11daebf7d7195863d592e770bca6427",
+    "udt_broader_evolving_signal_geometry_2026-09-13/checks/premise406.json": "13cf03e2a8030880c202af44cf6f0ab640fd4796bf48e6b0f956155532fd2062",
+    "udt_conditional_signal_sequence_2026-09-12/step_03/INITIAL_CANDIDATE.md": "9a18b1754cc40c77017f6372d2ad950b991beff6448963b76d44081b9fcf8f67",
+    "udt_conditional_signal_sequence_2026-09-12/step_03/REVIEWED_RESULT.md": "a335fa72cf556758696cd7720881ac4801f3d0acd50c6403bb44520e22913997",
+    "udt_conditional_signal_sequence_2026-09-12/step_03/check_evolving.py": "b9b7e5e4fbaa8c0d281ff43c5add812b2a12832b19b99f2175506c6999ef555e",
+    "udt_conditional_signal_sequence_2026-09-12/step_05/INITIAL_CANDIDATE.md": "1ac77fab0e542d7569f0dfb8fa7f0d959b9e22ace323182870eef6ad4be60c8d",
+    "udt_conditional_signal_sequence_2026-09-12/step_05/REVIEWED_RESULT.md": "ad8290f8e71403a3c9f496a3ec83ff8df38c7ac91894639e21af16641c1fa8f6",
+    "udt_ne1_tilted_beam_geometry_2026-09-12/discover_beams.py": "791d65bead8298cbb9162aa9e49c7edf323b61a57be56dcd6513ce0d52ecf293"
+  }
+}

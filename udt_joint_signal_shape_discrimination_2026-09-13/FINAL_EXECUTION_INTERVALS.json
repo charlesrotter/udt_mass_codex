@@ -1,0 +1,195 @@
+{
+  "recorded_utc": "2026-09-13T04:11:45.171463+00:00",
+  "scope": "Captured scientific/check processes only; uncaptured administrative/source-reading commands are not a complete CPU census. Reviewer-context overlap is separately recorded in its final receipt.",
+  "intervals": [
+    {
+      "capture": "checks/current_surface.json",
+      "context": "parent",
+      "start_utc": "2026-09-13T04:06:34.238982+00:00",
+      "end_utc": "2026-09-13T04:06:34.418963+00:00",
+      "seconds": 0.17998087196610868,
+      "exit": 0,
+      "command": [
+        "python3",
+        "-c",
+        "from pathlib import Path; import verify_current_scientific_premises as v; v.validate_startup_surface(Path.cwd()); print(\"PASS current startup surface; full406 is attributed to BE1 actual audit with unchanged scientific input pins\")"
+      ]
+    },
+    {
+      "capture": "checks/discrimination_complete.json",
+      "context": "parent",
+      "start_utc": "2026-09-13T03:58:17.546564+00:00",
+      "end_utc": "2026-09-13T03:58:18.991187+00:00",
+      "seconds": 1.4446233690250665,
+      "exit": 1,
+      "command": [
+        "python3",
+        "udt_joint_signal_shape_discrimination_2026-09-13/check_discrimination.py"
+      ]
+    },
+    {
+      "capture": "checks/discrimination_initial.json",
+      "context": "parent",
+      "start_utc": "2026-09-13T03:55:52.925012+00:00",
+      "end_utc": "2026-09-13T03:55:53.635389+00:00",
+      "seconds": 0.7103769610403106,
+      "exit": 1,
+      "command": [
+        "python3",
+        "udt_joint_signal_shape_discrimination_2026-09-13/check_discrimination.py"
+      ]
+    },
+    {
+      "capture": "checks/discrimination_repaired.json",
+      "context": "parent",
+      "start_utc": "2026-09-13T03:56:56.766663+00:00",
+      "end_utc": "2026-09-13T03:56:58.232644+00:00",
+      "seconds": 1.4659805480623618,
+      "exit": 1,
+      "command": [
+        "python3",
+        "udt_joint_signal_shape_discrimination_2026-09-13/check_discrimination.py"
+      ]
+    },
+    {
+      "capture": "checks/mutant_endpoint_rulers.json",
+      "context": "parent",
+      "start_utc": "2026-09-13T03:58:35.497362+00:00",
+      "end_utc": "2026-09-13T03:58:36.963657+00:00",
+      "seconds": 1.4662951289210469,
+      "exit": 1,
+      "command": [
+        "python3",
+        "udt_joint_signal_shape_discrimination_2026-09-13/check_discrimination.py",
+        "--omit_endpoint_rulers"
+      ]
+    },
+    {
+      "capture": "checks/navigation.json",
+      "context": "parent",
+      "start_utc": "2026-09-13T04:06:04.416141+00:00",
+      "end_utc": "2026-09-13T04:06:19.232596+00:00",
+      "seconds": 14.81645502790343,
+      "exit": 0,
+      "command": [
+        "python3",
+        "-m",
+        "pytest",
+        "--noconftest",
+        "-q",
+        "tests/test_startup_surface.py",
+        "-k",
+        "not full_foundational_premise_verifier_is_in_pytest"
+      ]
+    },
+    {
+      "capture": "checks/saved_evidence.json",
+      "context": "parent",
+      "start_utc": "2026-09-13T03:59:30.917250+00:00",
+      "end_utc": "2026-09-13T03:59:30.938334+00:00",
+      "seconds": 0.021084284060634673,
+      "exit": 0,
+      "command": [
+        "python3",
+        "udt_joint_signal_shape_discrimination_2026-09-13/verify_saved_evidence.py"
+      ]
+    },
+    {
+      "capture": "checks/trig_diagnostic.json",
+      "context": "parent",
+      "start_utc": "2026-09-13T03:56:22.767628+00:00",
+      "end_utc": "2026-09-13T03:56:23.040173+00:00",
+      "seconds": 0.2725445410469547,
+      "exit": 1,
+      "command": [
+        "python3",
+        "-c",
+        "import sympy as s; t,k=s.symbols(\"theta k\",real=True); raw=k*(s.cos(2*t)*s.sin(t)/s.cos(t)-2*s.sin(2*t)); print(\"initial simplifier:\",s.trigsimp(raw+k*s.tan(t)*(1+2*s.cos(t)**2))); reduced=s.trigsimp(s.expand_trig(raw+k*s.sin(t)/s.cos(t)*(1+2*s.cos(t)**2))); print(\"expanded rational trig:\",reduced); assert reduced==0"
+      ]
+    },
+    {
+      "capture": "review/checks/direct.json",
+      "context": "reviewer",
+      "start_utc": "2026-09-13T04:02:27.889287+00:00",
+      "end_utc": "2026-09-13T04:02:43.287082+00:00",
+      "seconds": 15.397794986027293,
+      "exit": 0,
+      "command": [
+        "python3",
+        "udt_joint_signal_shape_discrimination_2026-09-13/review/direct_checks.py"
+      ]
+    },
+    {
+      "capture": "review/checks/evidence_correspondence.json",
+      "context": "reviewer",
+      "start_utc": "2026-09-13T04:07:13.519623+00:00",
+      "end_utc": "2026-09-13T04:07:13.545783+00:00",
+      "seconds": 0.02616010105703026,
+      "exit": 0,
+      "command": [
+        "python3",
+        "udt_joint_signal_shape_discrimination_2026-09-13/review/verify_review_evidence.py"
+      ]
+    },
+    {
+      "capture": "review/checks/final_fidelity.json",
+      "context": "reviewer",
+      "start_utc": "2026-09-13T04:10:20.763463+00:00",
+      "end_utc": "2026-09-13T04:10:20.811874+00:00",
+      "seconds": 0.04841116105671972,
+      "exit": 0,
+      "command": [
+        "python3",
+        "udt_joint_signal_shape_discrimination_2026-09-13/review/check_final_fidelity.py"
+      ]
+    },
+    {
+      "capture": "review/checks/parent_mutant_replay.json",
+      "context": "reviewer",
+      "start_utc": "2026-09-13T04:03:35.945760+00:00",
+      "end_utc": "2026-09-13T04:03:37.397988+00:00",
+      "seconds": 1.4522278050426394,
+      "exit": 1,
+      "command": [
+        "python3",
+        "udt_joint_signal_shape_discrimination_2026-09-13/check_discrimination.py",
+        "--omit_endpoint_rulers"
+      ]
+    },
+    {
+      "capture": "review/checks/parent_replay.json",
+      "context": "reviewer",
+      "start_utc": "2026-09-13T04:02:51.246313+00:00",
+      "end_utc": "2026-09-13T04:02:52.715050+00:00",
+      "seconds": 1.468736552982591,
+      "exit": 1,
+      "command": [
+        "python3",
+        "udt_joint_signal_shape_discrimination_2026-09-13/check_discrimination.py"
+      ]
+    },
+    {
+      "capture": "review/checks/source_first.json",
+      "context": "reviewer",
+      "start_utc": "2026-09-13T03:59:26.175658+00:00",
+      "end_utc": "2026-09-13T03:59:34.645605+00:00",
+      "seconds": 8.469946866040118,
+      "exit": 0,
+      "command": [
+        "python3",
+        "udt_joint_signal_shape_discrimination_2026-09-13/review/source_first_check.py"
+      ]
+    }
+  ],
+  "captured_process_overlaps": [
+    {
+      "a": "checks/saved_evidence.json",
+      "b": "review/checks/source_first.json",
+      "seconds": 0.021084,
+      "same_context": false
+    }
+  ],
+  "same_context_overlap_detected": false,
+  "runtime_model": "UNATTESTED",
+  "general_capacity": "UNVERIFIED"
+}

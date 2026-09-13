@@ -1,13 +1,15 @@
 # Continuation checkpoint
 
-StageA COMPLETE: G416--G423 conditionally banked and pushed in4f84a38e;
-publication/format receipts through53fc4ed3, original failed receipt check preserved.
-StageB reviewed CONDITIONAL UNPROMOTED with C1 rank repair; final fidelity and
-publication closing. Start03:15:35UTC, ceiling06:15:35UTC. Result/actual checks:
-../udt_broader_evolving_signal_geometry_2026-09-13/REVIEWED_RESULT.md and CLOSEOUT.md.
-StageC AUTHORIZED, not started: after fixed initial geometric expansion-rate
-calibration, test two-mode shape discrimination by unused clocks/labelled beams.
-BE1 is an explicitly conditional unpromoted dependency. Exact question: BE1
-DECISION_BRIEF.md. Master resources and final discussion stop: WORK_ORDER.md.
-Two of three fresh reviewer allocations used; StageA35.4567min, StageB <=40min.
-General capacity UNVERIFIED, runtime model UNATTESTED. Original51 names preserved.
+StageA COMPLETE: G416--G423 conditionally banked in4f84a38e; receipts through53fc4ed3.
+StageB COMPLETE: reviewed conditional UNPROMOTED BE1 with C1 rank repair,
+science6b001c89/publication3ce1bcb8 pushed; actual full406 PASS400.190779s.
+StageC scientific return: SD1 reviewed CONDITIONAL UNPROMOTED, original candidate
+plus magnitude supplement and explicit failed finite convergence gate. Source:
+../udt_joint_signal_shape_discrimination_2026-09-13/REVIEWED_RESULT.md.
+Final concrete fidelity and publication receipts in that package own actual
+completion; Git success is not inferred from a review. StageC ceiling05:54:12UTC.
+BE1 remains an explicitly conditional unpromoted dependency. No new result banked.
+All three fresh allocations used; StageA35.4567min, StageB28.11485min,
+StageC <=40min from03:55:09UTC. No further allocation, science or promotion.
+General capacity UNVERIFIED, runtime model UNATTESTED; original51 names preserved.
+Return combined lay findings and STOP for discussion. Master limits: WORK_ORDER.md.

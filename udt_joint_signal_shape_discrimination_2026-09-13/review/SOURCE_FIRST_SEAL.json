@@ -1,0 +1,26 @@
+{
+  "sealed_utc": "2026-09-13T03:59:09.887887+00:00",
+  "head": "3ce1bcb806d506b21bb20eabd5b942df0613880c",
+  "context": "/root/signal_shape_review",
+  "source_method_exposed": true,
+  "SD1_candidate_code_parent_numerical_outputs_read": false,
+  "runtime_model": "UNATTESTED",
+  "sha256": {
+    "AGENTS.md": "f8fa9f6135d80332e4d28b0dcfefd04e43c00042512968bb9eacf2f692499053",
+    "CLAUDE.md": "b7e524a5b06760e57877a408630228767ae9a394134095f9851bef5d06e17751",
+    ".claude/skills/no-shortcuts/SKILL.md": "fd3a1f3218481134f2af829d3ae4175ac53518f75bf9673287efbfb7d7708fc1",
+    ".claude/skills/verifier-before-record/SKILL.md": "9b3a4aacd4b4006b2b7f01edada73b7c87b99bea6e754583558713bfc145e5ac",
+    ".claude/skills/completeness-map/SKILL.md": "a8cf9e5f4a6d35a0d0ebfe4bc48dbf328ca74e318f020a6a22cb683666a611c0",
+    "CURRENT_SCIENTIFIC_PREMISES.tsv": "7a3d69d5a0bc3ac98e2ebe2bb0c6d029df30071bf403baffed2223a193dc720b",
+    "udt_broader_evolving_signal_geometry_2026-09-13/INITIAL_CANDIDATE.md": "0c4b42c310e08767deba69dfee6c4f85e37b728a4436979dc1034e2ae7b3fcb3",
+    "udt_broader_evolving_signal_geometry_2026-09-13/REVIEWED_RESULT.md": "9c8ba8a9e52ba15b8ebf49de3ab9a335c2bd8613bfd1983f75b744c9a29bffcd",
+    "udt_broader_evolving_signal_geometry_2026-09-13/CALIBRATION_SCOPE_CLARIFICATION.md": "6bc3c086c612ae6131e12aaee5c14e9814cbbbecaf3d5b2d32b01d5aca5e30a9",
+    "udt_conditional_signal_sequence_2026-09-12/step_03/INITIAL_CANDIDATE.md": "9a18b1754cc40c77017f6372d2ad950b991beff6448963b76d44081b9fcf8f67",
+    "udt_conditional_signal_sequence_2026-09-12/step_05/INITIAL_CANDIDATE.md": "1ac77fab0e542d7569f0dfb8fa7f0d959b9e22ace323182870eef6ad4be60c8d",
+    "udt_joint_signal_shape_discrimination_2026-09-13/REVIEW_DISPATCH.md": "2594da7ca12341dce3909deac2151c11ea0413c6985c75d4b7cd5389d0af0c34",
+    "udt_joint_signal_shape_discrimination_2026-09-13/WORK_ORDER.md": "3d5b6d920c940eed4b04df26e52a009bbd36c2b0a37d29f53fbad2317c192b7b",
+    "udt_joint_signal_shape_discrimination_2026-09-13/REVIEW_ALLOCATION.json": "0bfeba6324b743cd3469b4401be55643cafd5dc1d7525f20377e72e015d0d64d",
+    "udt_joint_signal_shape_discrimination_2026-09-13/review/SOURCE_FIRST_ARGUMENT.md": "9c873517675e3ffdb7d28194d0de655777de89855ab1e2bd5cffae16e218a5ff",
+    "udt_joint_signal_shape_discrimination_2026-09-13/review/source_first_check.py": "af8e691b6e602ac88bb8e0dd1cc8c38cf1956b010eed888d1e697f1311571d60"
+  }
+}

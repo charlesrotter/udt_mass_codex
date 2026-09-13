@@ -1,0 +1,2 @@
+initial simplifier: 2*k*(-sin(2*theta) + cos(2*theta)*tan(theta) + tan(theta))
+expanded rational trig: k*(-sin(2*theta) + cos(2*theta)*tan(theta) + tan(theta))

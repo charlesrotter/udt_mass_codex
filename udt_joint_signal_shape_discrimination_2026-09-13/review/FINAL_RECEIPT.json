@@ -1,0 +1,168 @@
+{
+  "actual_review_end_utc": "2026-09-13T04:11:59.492320+00:00",
+  "conservative_allocation_start_utc": "2026-09-13T03:55:09+00:00",
+  "hard_end_utc": "2026-09-13T04:35:09+00:00",
+  "elapsed_upper_bound_seconds": 1010.49232,
+  "review_context": "/root/signal_shape_review",
+  "master_allocation_number": 3,
+  "actual_separate_context": true,
+  "subdelegation": false,
+  "configured_parent_attribution": "gpt-6-astra/xhigh; not runtime attestation",
+  "runtime_model": "UNATTESTED",
+  "different_model": "UNTESTED",
+  "general_capacity": "UNVERIFIED",
+  "verdict": "VERIFIED-WITH-CAVEATS_CONDITIONAL_ANALYTIC_RESULT_UNPROMOTED",
+  "original_finite_plan": "FAIL_ONE_ORIGINAL_FROZEN_CONVERGENCE_GATE",
+  "final_fidelity": "PASS_EXACT_18_FILE_INTAKE",
+  "unresolved_scientific_objections": [],
+  "source_first_seal_utc": "2026-09-13T03:59:09.887887+00:00",
+  "source_first_exposure": "Source/method-exposed reconstruction; no SD1 candidate/code/parent numerical outputs until after source-first seal and parent direct invitation",
+  "direct_exposure": "Parent candidate/code/full outcomes and reported failed gate exposed; supplemental magnitude claim post-source-first and post-parent-outcome",
+  "independence": "Separate context and independently reconstructed argument; mpmath integrated-constraint implementation without parent scientific import; source mathematics/shared general quadrature method explicit; parent replays are same-code regression only",
+  "head": "3ce1bcb806d506b21bb20eabd5b942df0613880c",
+  "origin_tracking_ref": "3ce1bcb806d506b21bb20eabd5b942df0613880c",
+  "parent_startup_and_remote_sync": "Attributed continuing top-level startup and actual parent sync; independently checked local branch/refs/status/assigned sources",
+  "premise406": {
+    "capture": "udt_broader_evolving_signal_geometry_2026-09-13/checks/premise406.json",
+    "returncode": 0,
+    "duration_seconds": 400.19077900308184,
+    "reviewer_rerun": false
+  },
+  "captures": [
+    {
+      "capture": "udt_joint_signal_shape_discrimination_2026-09-13/review/checks/direct.json",
+      "kind": "scientific",
+      "start_utc": "2026-09-13T04:02:27.889287+00:00",
+      "end_utc": "2026-09-13T04:02:43.287082+00:00",
+      "duration_seconds": 15.397794986027293,
+      "returncode": 0,
+      "timeout": false,
+      "command": [
+        "python3",
+        "udt_joint_signal_shape_discrimination_2026-09-13/review/direct_checks.py"
+      ]
+    },
+    {
+      "capture": "udt_joint_signal_shape_discrimination_2026-09-13/review/checks/evidence_correspondence.json",
+      "kind": "administrative_correspondence",
+      "start_utc": "2026-09-13T04:07:13.519623+00:00",
+      "end_utc": "2026-09-13T04:07:13.545783+00:00",
+      "duration_seconds": 0.02616010105703026,
+      "returncode": 0,
+      "timeout": false,
+      "command": [
+        "python3",
+        "udt_joint_signal_shape_discrimination_2026-09-13/review/verify_review_evidence.py"
+      ]
+    },
+    {
+      "capture": "udt_joint_signal_shape_discrimination_2026-09-13/review/checks/final_fidelity.json",
+      "kind": "administrative_correspondence",
+      "start_utc": "2026-09-13T04:10:20.763463+00:00",
+      "end_utc": "2026-09-13T04:10:20.811874+00:00",
+      "duration_seconds": 0.04841116105671972,
+      "returncode": 0,
+      "timeout": false,
+      "command": [
+        "python3",
+        "udt_joint_signal_shape_discrimination_2026-09-13/review/check_final_fidelity.py"
+      ]
+    },
+    {
+      "capture": "udt_joint_signal_shape_discrimination_2026-09-13/review/checks/parent_mutant_replay.json",
+      "kind": "scientific",
+      "start_utc": "2026-09-13T04:03:35.945760+00:00",
+      "end_utc": "2026-09-13T04:03:37.397988+00:00",
+      "duration_seconds": 1.4522278050426394,
+      "returncode": 1,
+      "timeout": false,
+      "command": [
+        "python3",
+        "udt_joint_signal_shape_discrimination_2026-09-13/check_discrimination.py",
+        "--omit_endpoint_rulers"
+      ]
+    },
+    {
+      "capture": "udt_joint_signal_shape_discrimination_2026-09-13/review/checks/parent_replay.json",
+      "kind": "scientific",
+      "start_utc": "2026-09-13T04:02:51.246313+00:00",
+      "end_utc": "2026-09-13T04:02:52.715050+00:00",
+      "duration_seconds": 1.468736552982591,
+      "returncode": 1,
+      "timeout": false,
+      "command": [
+        "python3",
+        "udt_joint_signal_shape_discrimination_2026-09-13/check_discrimination.py"
+      ]
+    },
+    {
+      "capture": "udt_joint_signal_shape_discrimination_2026-09-13/review/checks/source_first.json",
+      "kind": "scientific",
+      "start_utc": "2026-09-13T03:59:26.175658+00:00",
+      "end_utc": "2026-09-13T03:59:34.645605+00:00",
+      "duration_seconds": 8.469946866040118,
+      "returncode": 0,
+      "timeout": false,
+      "command": [
+        "python3",
+        "udt_joint_signal_shape_discrimination_2026-09-13/review/source_first_check.py"
+      ]
+    }
+  ],
+  "scientific_capture_count": 4,
+  "administrative_capture_count": 2,
+  "same_context_captured_overlap": false,
+  "captured_cross_context_overlap": [
+    {
+      "a": "checks/saved_evidence.json",
+      "b": "review/checks/source_first.json",
+      "seconds": 0.021084,
+      "same_context": false
+    }
+  ],
+  "execution_snapshot_scope": "13 captured processes through parent04:07:48 snapshot; reviewer final_fidelity administrative capture is additionally listed here; uncaptured read/admin activity not a machine census",
+  "earlier_reviewers": [
+    {
+      "package": "udt_signal_chain_banking_2026-09-13",
+      "actual_review_end_utc": "2026-09-13T03:12:01.399719+00:00"
+    },
+    {
+      "package": "udt_broader_evolving_signal_geometry_2026-09-13",
+      "actual_review_end_utc": "2026-09-13T03:51:39.890801+00:00"
+    }
+  ],
+  "original_untracked_names_exact": 51,
+  "protected_payloads": "Not read or hashed by reviewer; only status names inspected; review writes confined to review/",
+  "remaining_parent_owned": [
+    "Commit/push/publication receipts and final user return"
+  ],
+  "no_scientific_promotion_or_canon": true,
+  "final_intake_files": {
+    "udt_joint_signal_shape_discrimination_2026-09-13/REVIEWED_RESULT.md": "0528fb57e86fca7033be554f86e11ac63103fddeb4b5e84a10285ccbd8798b5a",
+    "udt_joint_signal_shape_discrimination_2026-09-13/DECISION_BRIEF.md": "e5da9ddd43728ff5603b8c8e39bdedd4583293742b2d6eb2c5851b2d863a82b9",
+    "udt_joint_signal_shape_discrimination_2026-09-13/CLOSEOUT.md": "dd4337953e28dd6a4f62499f52483ee46eb736608f053d210dc62113f62017fa",
+    "udt_joint_signal_shape_discrimination_2026-09-13/SCOPE_MAP.tsv": "ec4ae79e263cec7b22aa477b8e65815c34ab4a075a57188cb98802641d0c4126",
+    "udt_joint_signal_shape_discrimination_2026-09-13/RECORDS.tsv": "32e5ffcd0aa4d2ea17dc59c6e8b488ae34cf29762a24c005d3d83e47e938798b",
+    "udt_joint_signal_shape_discrimination_2026-09-13/EXECUTION_INTERVALS.json": "747e6d9104cacd0d56a2897ed9e07aceda042900f6e1c4f11bbfa6083bb852a1",
+    "udt_joint_signal_shape_discrimination_2026-09-13/AUDIT_REUSE.json": "ab018fc587839e5e8c0436d118373866f4dc02e90f4530e5d88da0e7d0ec67c3",
+    "udt_joint_signal_shape_discrimination_2026-09-13/FINAL_NAVIGATION_INPUTS.json": "338e407e6a0792b554be0295cf7a367d255f35505fede00f6f5b9dc55b9c7382",
+    "udt_joint_signal_shape_discrimination_2026-09-13/MAGNITUDE_SUPPLEMENT.md": "f43437ad83bd4089958f8acc56c052db8936164a9cea036b4d6dd83aa34a7bae",
+    "udt_joint_signal_shape_discrimination_2026-09-13/FINITE_GATE_DIAGNOSTIC.md": "b31a0f899ec8b1bc0eb055ed1b8c0983b7798ea100ec7c99e40694e4744aa452",
+    "LIVE.md": "b7c4f210508cc190e914ebd5d995eefe7e3bff7169d1c37af37f122db056923e",
+    "HANDOFF.md": "a3980baef3bb9d6a43abf94cbc9b751815e96ac2d77747cb48d02329d875723a",
+    "CURRENT_RESEARCH_PROGRAM.md": "cfac658f38edf045631fd658ccb159e9252b797cdf1b109548969d67b0efe198",
+    "CURRENT_SCIENTIFIC_PREMISES.md": "7b574665f714551a3a565987fc5bc56a4b44c7e6fb274532f61609c25153f627",
+    "INDEX.md": "5d5ead27b03ce5f1195e9f0b712e74f002734827c8efaa8650df68586d08fe63",
+    "MEMORY.md": "636e5d29b6449684082da3393e9f91a0acbf4549a58b4ce017c09312bec2c60a",
+    "UDT_RESEARCH_ROADMAP.md": "336134f8f8e618219ddddbbc0e1021d5f089edcf9eb5753f216bcf0c48dfd5cf",
+    "udt_signal_continuation_2026-09-13/CHECKPOINT.md": "7082b02130d42e2fa272a70e969c63f3f7b9bf97cce4f5804c19da0f4281fd4c"
+  },
+  "sealed_review_inputs": {
+    "FINAL_REVIEW_INTAKE.json": "e70180837dc9e583732c2e348b57bf643f8fa15f45e6b541125236358c1e7c98",
+    "FINAL_FIDELITY.md": "113ad4b86e7f0018428799e88007c2093c4615332f17fd702152862c894a2bd9",
+    "DIRECT_REVIEW.md": "0d821431c0314c6ea5bcc0af5a45ab7d154d1f959194d351c75c137c8979a191",
+    "SOURCE_FIRST_SEAL.json": "65524de06e7ddcdab01f67c7ad9ade0e6dc198d4968cf73bde4604a5b756467d",
+    "FINAL_REVIEW_SHA256SUMS": "7f09de92baf37c42197ab2a015725970c54bda2913de3982e57cd2993f9888db"
+  },
+  "manifest_scope": "All review files present before receipt, excluding manifest itself and this receipt; parent package manifest can cover the receipt."
+}

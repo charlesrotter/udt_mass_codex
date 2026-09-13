@@ -1,0 +1,14 @@
+{
+  "sealed_utc": "2026-09-13T04:06:22.570152+00:00",
+  "verdict": "VERIFIED-WITH-CAVEATS_CONDITIONAL_ANALYTIC_RESULT_UNPROMOTED",
+  "original_finite_plan": "FAIL_ONE_FROZEN_CONVERGENCE_GATE",
+  "actual_end_receipt_pending_final_fidelity": true,
+  "sha256": {
+    "udt_joint_signal_shape_discrimination_2026-09-13/INITIAL_CANDIDATE.md": "be9f955153f9f4b223c4e2d003b8c4f2f23dfbcce04a5f0d6b7c5606472b2599",
+    "udt_joint_signal_shape_discrimination_2026-09-13/MAGNITUDE_SUPPLEMENT.md": "f43437ad83bd4089958f8acc56c052db8936164a9cea036b4d6dd83aa34a7bae",
+    "udt_joint_signal_shape_discrimination_2026-09-13/review/DIRECT_REVIEW.md": "0d821431c0314c6ea5bcc0af5a45ab7d154d1f959194d351c75c137c8979a191",
+    "udt_joint_signal_shape_discrimination_2026-09-13/review/direct_checks.py": "73963f45cd3c286e6f2d7a8b6146aebe446af0466715e3f21ffbdde489b7e2ce",
+    "udt_joint_signal_shape_discrimination_2026-09-13/review/source_first_check.py": "af8e691b6e602ac88bb8e0dd1cc8c38cf1956b010eed888d1e697f1311571d60",
+    "udt_joint_signal_shape_discrimination_2026-09-13/check_discrimination.py": "695557d4ab3cbc938b96b74af7111f1fe2150eb5b7c495aa51e87e9a16600677"
+  }
+}

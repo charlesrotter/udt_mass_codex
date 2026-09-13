@@ -14,18 +14,18 @@ Current acceptance overlay: earlier UNPROMOTED/campaign-only language below reco
 returns. The G383--G412, G413--G415 and G416--G423 banking packets and maintained checkpoint own later dispositions;
 original result packages remain unchanged. No physical adoption or canon is included.
 
-## Active authorized continuation — 2026-09-13
+## Reviewed authorized continuation — 2026-09-13
 
 Charles: “Proceed with banking, testing how much survives in broader geometries,
 and then move on to the next scientific question.” The controlling scope is
 `udt_signal_continuation_2026-09-13/WORK_ORDER.md`; maintained state and remaining
 gates: `udt_signal_continuation_2026-09-13/CHECKPOINT.md`.
 
-Stage A accepts OB1/ZDR1/NCR1/NTB1/LSB1/CSS3/CSS4/CSS5 as G416--G423 only at
-full reviewed conditional scope, after exact-source fidelity, new406 audit and
+Stage A banked OB1/ZDR1/NCR1/NTB1/LSB1/CSS3/CSS4/CSS5 as G416--G423 at
+full reviewed conditional scope after exact-source fidelity, new406 audit and
 integration/publication gates. Its BANKING_RECORD and CLOSEOUT own actual checks.
 Stage B has returned reviewed conditional BE1 under `udt_broader_evolving_signal_geometry_2026-09-13/WORK_ORDER.md`;
-Stage C asks one result-informed question about remaining joint-record freedom.
+Stage C returned SD1 on calibrated two-mode clock/labelled-beam discrimination.
 Each includes finite checks, one fresh review and bounded same-premise repairs;
 new Stage B/C results remain conditional UNPROMOTED. Seven-hour overall ceiling,
 no physical adoption, observational fit or protected-work access. Return together
@@ -41,15 +41,32 @@ symmetry. Its calibration statement has one genuine reviewed rank repair:
 nonzero source coefficient row gives rank1; simultaneous nodes give rank0.
 The original unqualified sentence/candidate and counterexample remain preserved.
 Full result, scope, checks and publication: `udt_broader_evolving_signal_geometry_2026-09-13/REVIEWED_RESULT.md`
-and its CLOSEOUT; final fidelity remains a separate recorded gate.
+and its CLOSEOUT; final fidelity accepted and science6b001c89/publication3ce1bcb8 pushed.
 
-The already-authorized single StageC question now targets the remaining calibrated
-two-mode amplitude direction: can unused clock ratios and labelled beam shape
-distinguish it, and where is a chosen record blind? Keep known phases/nonnode,
-explicit observer layout/marking and the UNPROMOTED BE1 dependency. No generic
-inverse theory, physical light, instrument/SNe fit, native response law or
-promotion. StageC work order must freeze its exact map/tests/review budget; after
-that one return, stop for the combined lay discussion.
+The single authorized StageC follow-up has returned SD1, CONDITIONAL UNPROMOTED,
+with BE1 explicitly retained as an unpromoted conditional dependency. Full scope,
+check history, review and publication: `udt_joint_signal_shape_discrimination_2026-09-13/DECISION_BRIEF.md`
+and its REVIEWED_RESULT/CLOSEOUT. After initial ideal geometric-rate calibration,
+labelled infinitesimal beam shape gives local rank for the remaining known two-mode
+amplitude at sufficiently small positive separation. Clocks also give local rank
+when Q is nonzero. At Q=0, clocks determine magnitude for any finite positive axial
+separation but retain exact sign ambiguity; unordered shape is also blind to that
+axis-exchange sign. Labelled sign sensitivity does not identify distinct unmarked
+spacetimes or a preferred physical frame. No certified operating distance or
+instrument accuracy follows. The exact result uses the full evolving metric.
+
+One original finite convergence gate FAILED and remains failed; no thresholds or
+samples were changed to make it pass. Independent analysis supports the conditional
+analytic claim, with that numerical limit explicit. The symbolic checker repair,
+complete-capture amendment, source-first magnitude gain and all initial failures
+are preserved. None of this is a new native law, physical light or empirical fit.
+
+All three authorized stages have scientific returns; final actual commit/push
+receipts own publication completion. All three fresh reviewer allocations are
+spent; no additional campaign, promotion or physical adoption is authorized.
+STOP for Charles's combined lay discussion. A possible later decision is whether
+to promote these exact reviewed conditional results before widening the profile
+inversion question; this is a proposal only, not an automatic next dispatch.
 
 ## Aim and current position
 

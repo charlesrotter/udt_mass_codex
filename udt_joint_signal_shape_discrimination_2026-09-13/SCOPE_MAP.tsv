@@ -1,0 +1,9 @@
+item	conditional_result	quantifier	limit
+initial_calibration	Supplied H_y,H_z fix L and Q	Known initial epoch, phase, labelled axes and compatible two-mode family	Not pulse-derived acquisition, native scale selection or full profile determination
+remaining_direction	eta varies with a1=(Q-c2 eta)/c1	Known theta=21/40, c1 nonzero	Two modes and known phases only
+clock_local_rank	Partial_eta logR=(9/8)Qv d^2+O(d^3)	Each fixed finite Q nonzero and eta, sufficiently small d>0	No certified d0, uniform sensitivity or global signed inversion
+labelled_shape_rank	Partial_eta log(Dy/Dz)=(v/2)d^2+O(d^3), v nonzero	Each fixed finite Q,eta and sufficiently small d>0	Signed marked y/z width ratio, not unordered aspect ratio or finite beam
+zero_Q_magnitude	R=(1+d)^(-1/4)exp(eta^2 A(d)/4), A(d)>0	Every finite d>0 on the supplied axial layout	Post-source-first supplement; conditional known-family magnitude, not physical acquisition
+zero_Q_sign	Clocks and unordered shape are even, labelled shape is odd	Exact eta to minus_eta symmetry at Q=0	Sign is exchanged by y/z coordinate exchange; no distinct unmarked spacetime claim
+finite_plan	387 of388 original guards pass, one frozen convergence criterion fails	30 fixed records, two quadrature orders, unchanged samples/tolerances	Do not call numerical plan a pass; no retrospective range selection
+scope	CONDITIONAL UNPROMOTED dependency chain	BE1 unpromoted plus accepted G421/G423 at their reviewed hypotheses	No native response selection, photons/energy/EM, observations or canon
