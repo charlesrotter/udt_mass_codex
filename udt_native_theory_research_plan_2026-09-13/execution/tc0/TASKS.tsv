@@ -4,4 +4,4 @@ TC0_NOVELTY	STOP_NO_SUBSTANTIVE_NEW_IMPLICATION	TC0_START	early source-grounded 
 TC0_DERIVE	NOT_ENTERED	TC0_NOVELTY_PASS	no candidate
 TC0_CHECK	NOT_ENTERED	TC0_DERIVE	no new scientific calculation
 TC0_REVIEW	NOT_ALLOCATED	TC0_CHECK	source challenger completed; no separate candidate review
-TC0_RETURN	READY_FOR_PUBLICATION	declared novelty stop	RESULT and DECISION_BRIEF; factual publication pending
+TC0_RETURN	COMPLETE_PUBLISHED	declared novelty stop	RESULT and DECISION_BRIEF; publication receipt09ff6794

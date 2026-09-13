@@ -103,3 +103,14 @@ of this record into a scientific result. PUBLISH_PLAN and SHA256SUMS specify exa
 paths/bytes; current output/tool evidence must establish actual commit and push.
 At preparation of this record, publication is pending. Do not read this sentence
 as a success claim; the later Git/tool receipt controls completion.
+
+## Actual publication overlay
+
+Evidence/navigation commit09ff6794a1f72f6549238005e7ed6de585d14b6c was pushed to
+origin/grok; matching HEAD/origin, clean tracked/index state and exact original51
+untracked names were verified at2026-09-13T20:16:55.216905+00:00. Full command outputs
+are preserved in PUBLICATION_RECEIPT.json. This supersedes the preparation-time
+pending statement above. Current checkpoint and task return now record completion.
+Receipt-only bookkeeping updates their hashes; no scientific or navigation content
+changed after the checked evidence commit. Total elapsed at receipt preparation
+was1797.0s, below the360minute maximum.

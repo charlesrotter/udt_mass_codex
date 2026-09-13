@@ -1,0 +1,335 @@
+{
+  "package": "udt_native_theory_research_plan_2026-09-13/execution/tc0",
+  "events": [
+    {
+      "utc": "2026-09-13T20:13:12.462303+00:00",
+      "command": [
+        "git",
+        "rev-parse",
+        "--abbrev-ref",
+        "HEAD"
+      ],
+      "exit": 0,
+      "stdout": "grok\n",
+      "stderr": ""
+    },
+    {
+      "utc": "2026-09-13T20:13:12.463779+00:00",
+      "command": [
+        "git",
+        "rev-parse",
+        "HEAD",
+        "origin/grok"
+      ],
+      "exit": 0,
+      "stdout": "cc51afe2415898844b3cbf31089921b00c9cda62\ncc51afe2415898844b3cbf31089921b00c9cda62\n",
+      "stderr": ""
+    },
+    {
+      "utc": "2026-09-13T20:13:12.465184+00:00",
+      "command": [
+        "git",
+        "diff",
+        "--cached",
+        "--name-only"
+      ],
+      "exit": 0,
+      "stdout": "",
+      "stderr": ""
+    },
+    {
+      "utc": "2026-09-13T20:13:12.475014+00:00",
+      "command": [
+        "git",
+        "diff",
+        "--name-only"
+      ],
+      "exit": 0,
+      "stdout": "INDEX.md\nMEMORY.md\nUDT_RESEARCH_ROADMAP.md\n",
+      "stderr": ""
+    },
+    {
+      "utc": "2026-09-13T20:13:12.483234+00:00",
+      "command": [
+        "git",
+        "status",
+        "--short",
+        "--untracked-files=all"
+      ],
+      "exit": 0,
+      "stdout": " M INDEX.md\n M MEMORY.md\n M UDT_RESEARCH_ROADMAP.md\n?? 8_25/UDT_FOUNDING_VALUE_LAW_ANALYSIS.md\n?? 8_25/udt_extension_checks.py\n?? 8_25/udt_extension_minimality_response.md\n?? 8_25/udt_value_law_checks.py\n?? 8_25/udt_value_law_checks_llm1.py\n?? 8_25/udt_value_law_external_response.md\n?? UDT_Complete_Guardrails_and_Central_Science_Tracking.md\n?? UDT_Next_Step_After_Two_Stages.md\n?? UDT_Sequenced_Guardrails_and_Development_Work_Order.md\n?? udt_native_onshell_timelive_reset_owner_audit_2026-08-10/CANDIDATE_LAW_MAP.tsv\n?? udt_native_onshell_timelive_reset_owner_audit_2026-08-10/DERIVATION_RESULT.json\n?? udt_native_onshell_timelive_reset_owner_audit_2026-08-10/EQUATION_OWNERSHIP_ATLAS.tsv\n?? udt_native_onshell_timelive_reset_owner_audit_2026-08-10/SOURCE_SCOPE_CLARIFICATION.md\n?? udt_native_onshell_timelive_reset_owner_audit_2026-08-10/derive_owner_atlas.py\n?? udt_native_onshell_timelive_reset_owner_audit_2026-08-10/run_catch_proofs.py\n?? udt_native_onshell_timelive_reset_owner_audit_2026-08-10/verify_owner_independent.py\n?? udt_native_theory_research_plan_2026-09-13/execution/tc0/AGENT_ALLOCATIONS.json\n?? udt_native_theory_research_plan_2026-09-13/execution/tc0/CHECKPOINT.md\n?? udt_native_theory_research_plan_2026-09-13/execution/tc0/DECISION_BRIEF.md\n?? udt_native_theory_research_plan_2026-09-13/execution/tc0/LAUNCH.json\n?? udt_native_theory_research_plan_2026-09-13/execution/tc0/RESULT.md\n?? udt_native_theory_research_plan_2026-09-13/execution/tc0/SOURCE_PINS.json\n?? udt_native_theory_research_plan_2026-09-13/execution/tc0/TASKS.tsv\n?? udt_native_theory_research_plan_2026-09-13/execution/tc0/WORK_ORDER.md\n?? udt_native_theory_research_plan_2026-09-13/execution/tc0/WORK_RECORD.md\n?? udt_native_theory_research_plan_2026-09-13/execution/tc0/checks/navigation.capture_provenance.json\n?? udt_native_theory_research_plan_2026-09-13/execution/tc0/checks/navigation.json\n?? udt_native_theory_research_plan_2026-09-13/execution/tc0/checks/navigation.stderr\n?? udt_native_theory_research_plan_2026-09-13/execution/tc0/checks/navigation_final.capture_provenance.json\n?? udt_native_theory_research_plan_2026-09-13/execution/tc0/checks/navigation_final.json\n?? udt_native_theory_research_plan_2026-09-13/execution/tc0/checks/navigation_final.stderr\n?? udt_native_theory_research_plan_2026-09-13/execution/tc0/checks/navigation_initial_changes.patch\n?? udt_native_theory_research_plan_2026-09-13/execution/tc0/checks/navigation_repair.capture_provenance.json\n?? udt_native_theory_research_plan_2026-09-13/execution/tc0/checks/navigation_repair.json\n?? udt_native_theory_research_plan_2026-09-13/execution/tc0/checks/navigation_repair.stderr\n?? udt_native_theory_research_plan_2026-09-13/execution/tc0/checks/navigation_repair_changes.patch\n?? udt_native_theory_research_plan_2026-09-13/execution/tc0/checks/premise406.capture_provenance.json\n?? udt_native_theory_research_plan_2026-09-13/execution/tc0/checks/premise406.json\n?? udt_native_theory_research_plan_2026-09-13/execution/tc0/checks/premise406.stderr\n?? udt_native_theory_research_plan_2026-09-13/execution/tc0/checks/prepublication_fetch.capture_provenance.json\n?? udt_native_theory_research_plan_2026-09-13/execution/tc0/checks/prepublication_fetch.json\n?? udt_native_theory_research_plan_2026-09-13/execution/tc0/checks/prepublication_fetch.stderr\n?? udt_native_theory_research_plan_2026-09-13/execution/tc0/checks/preservation.capture_provenance.json\n?? udt_native_theory_research_plan_2026-09-13/execution/tc0/checks/preservation.json\n?? udt_native_theory_research_plan_2026-09-13/execution/tc0/checks/preservation.stderr\n?? udt_native_theory_research_plan_2026-09-13/execution/tc0/publication_adapter.py\n?? udt_native_theory_research_plan_2026-09-13/execution/tc0/reviews/novelty_challenger.md\n?? udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/ADVERSARIAL_REVIEW_REQUEST.md\n?? udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/AUDIT_REPORT.md\n?? udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/CATCH_PROOF_RESULT.json\n?? udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/DERIVATION_RESULT.json\n?? udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/EVIDENCE_GATES.md\n?? udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/EXACT_DERIVATION.md\n?? udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/INDEPENDENT_VERIFICATION.json\n?? udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/LAY_REPORT.md\n?? udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/STATUS_LEDGER.tsv\n?? udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/VERIFICATION_RESULT.json\n?? udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/WITNESS_ATLAS.tsv\n?? udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/build_review_intake.py\n?? udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/derive_regime_flow.py\n?? udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/run_catch_proofs.py\n?? udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/verify_independent.py\n?? udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/verify_package.py\n?? udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/AUDIT_REPORT.md\n?? udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/CATCH_PROOF_RESULT.json\n?? udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/DERIVATION_RESULT.json\n?? udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/EVIDENCE_GATES.md\n?? udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/EXACT_DERIVATION.md\n?? udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/INDEPENDENT_RADAU_REPLAY.tsv\n?? udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/INDEPENDENT_VERIFICATION.json\n?? udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/LAY_REPORT.md\n?? udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/PREREGISTRATION_EXECUTION_NOTE.md\n?? udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/PROFILE_COMPATIBILITY_ATLAS.tsv\n?? udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/REVIEW_DISPATCH.md\n?? udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/RUN_CHECKPOINT.tsv\n?? udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/STATUS_LEDGER.tsv\n?? udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/VERIFICATION_RESULT.json\n?? udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/build_review_manifest.py\n?? udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/derive_compatibility_atlas.py\n?? udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/run_catch_proofs.py\n?? udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/verify_independent.py\n?? udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/verify_package.py\n",
+      "stderr": ""
+    },
+    {
+      "utc": "2026-09-13T20:16:20.573586+00:00",
+      "command": [
+        "git",
+        "rev-parse",
+        "--abbrev-ref",
+        "HEAD"
+      ],
+      "exit": 0,
+      "stdout": "grok\n",
+      "stderr": ""
+    },
+    {
+      "utc": "2026-09-13T20:16:20.575175+00:00",
+      "command": [
+        "git",
+        "rev-parse",
+        "HEAD",
+        "origin/grok"
+      ],
+      "exit": 0,
+      "stdout": "cc51afe2415898844b3cbf31089921b00c9cda62\ncc51afe2415898844b3cbf31089921b00c9cda62\n",
+      "stderr": ""
+    },
+    {
+      "utc": "2026-09-13T20:16:20.576180+00:00",
+      "command": [
+        "git",
+        "diff",
+        "--cached",
+        "--name-only"
+      ],
+      "exit": 0,
+      "stdout": "",
+      "stderr": ""
+    },
+    {
+      "utc": "2026-09-13T20:16:20.581528+00:00",
+      "command": [
+        "git",
+        "diff",
+        "--name-only"
+      ],
+      "exit": 0,
+      "stdout": "INDEX.md\nMEMORY.md\nUDT_RESEARCH_ROADMAP.md\n",
+      "stderr": ""
+    },
+    {
+      "utc": "2026-09-13T20:16:20.591455+00:00",
+      "command": [
+        "git",
+        "status",
+        "--short",
+        "--untracked-files=all"
+      ],
+      "exit": 0,
+      "stdout": " M INDEX.md\n M MEMORY.md\n M UDT_RESEARCH_ROADMAP.md\n?? 8_25/UDT_FOUNDING_VALUE_LAW_ANALYSIS.md\n?? 8_25/udt_extension_checks.py\n?? 8_25/udt_extension_minimality_response.md\n?? 8_25/udt_value_law_checks.py\n?? 8_25/udt_value_law_checks_llm1.py\n?? 8_25/udt_value_law_external_response.md\n?? UDT_Complete_Guardrails_and_Central_Science_Tracking.md\n?? UDT_Next_Step_After_Two_Stages.md\n?? UDT_Sequenced_Guardrails_and_Development_Work_Order.md\n?? udt_native_onshell_timelive_reset_owner_audit_2026-08-10/CANDIDATE_LAW_MAP.tsv\n?? udt_native_onshell_timelive_reset_owner_audit_2026-08-10/DERIVATION_RESULT.json\n?? udt_native_onshell_timelive_reset_owner_audit_2026-08-10/EQUATION_OWNERSHIP_ATLAS.tsv\n?? udt_native_onshell_timelive_reset_owner_audit_2026-08-10/SOURCE_SCOPE_CLARIFICATION.md\n?? udt_native_onshell_timelive_reset_owner_audit_2026-08-10/derive_owner_atlas.py\n?? udt_native_onshell_timelive_reset_owner_audit_2026-08-10/run_catch_proofs.py\n?? udt_native_onshell_timelive_reset_owner_audit_2026-08-10/verify_owner_independent.py\n?? udt_native_theory_research_plan_2026-09-13/execution/tc0/.gitattributes\n?? udt_native_theory_research_plan_2026-09-13/execution/tc0/AGENT_ALLOCATIONS.json\n?? udt_native_theory_research_plan_2026-09-13/execution/tc0/CHECKPOINT.md\n?? udt_native_theory_research_plan_2026-09-13/execution/tc0/DECISION_BRIEF.md\n?? udt_native_theory_research_plan_2026-09-13/execution/tc0/LAUNCH.json\n?? udt_native_theory_research_plan_2026-09-13/execution/tc0/PUBLISH_PLAN.json\n?? udt_native_theory_research_plan_2026-09-13/execution/tc0/RESULT.md\n?? udt_native_theory_research_plan_2026-09-13/execution/tc0/SHA256SUMS.json\n?? udt_native_theory_research_plan_2026-09-13/execution/tc0/SOURCE_PINS.json\n?? udt_native_theory_research_plan_2026-09-13/execution/tc0/TASKS.tsv\n?? udt_native_theory_research_plan_2026-09-13/execution/tc0/WORK_ORDER.md\n?? udt_native_theory_research_plan_2026-09-13/execution/tc0/WORK_RECORD.md\n?? udt_native_theory_research_plan_2026-09-13/execution/tc0/checks/navigation.capture_provenance.json\n?? udt_native_theory_research_plan_2026-09-13/execution/tc0/checks/navigation.json\n?? udt_native_theory_research_plan_2026-09-13/execution/tc0/checks/navigation.stderr\n?? udt_native_theory_research_plan_2026-09-13/execution/tc0/checks/navigation_final.capture_provenance.json\n?? udt_native_theory_research_plan_2026-09-13/execution/tc0/checks/navigation_final.json\n?? udt_native_theory_research_plan_2026-09-13/execution/tc0/checks/navigation_final.stderr\n?? udt_native_theory_research_plan_2026-09-13/execution/tc0/checks/navigation_initial_changes.patch\n?? udt_native_theory_research_plan_2026-09-13/execution/tc0/checks/navigation_repair.capture_provenance.json\n?? udt_native_theory_research_plan_2026-09-13/execution/tc0/checks/navigation_repair.json\n?? udt_native_theory_research_plan_2026-09-13/execution/tc0/checks/navigation_repair.stderr\n?? udt_native_theory_research_plan_2026-09-13/execution/tc0/checks/navigation_repair_changes.patch\n?? udt_native_theory_research_plan_2026-09-13/execution/tc0/checks/premise406.capture_provenance.json\n?? udt_native_theory_research_plan_2026-09-13/execution/tc0/checks/premise406.json\n?? udt_native_theory_research_plan_2026-09-13/execution/tc0/checks/premise406.stderr\n?? udt_native_theory_research_plan_2026-09-13/execution/tc0/checks/prepublication_fetch.capture_provenance.json\n?? udt_native_theory_research_plan_2026-09-13/execution/tc0/checks/prepublication_fetch.json\n?? udt_native_theory_research_plan_2026-09-13/execution/tc0/checks/prepublication_fetch.stderr\n?? udt_native_theory_research_plan_2026-09-13/execution/tc0/checks/preservation.capture_provenance.json\n?? udt_native_theory_research_plan_2026-09-13/execution/tc0/checks/preservation.json\n?? udt_native_theory_research_plan_2026-09-13/execution/tc0/checks/preservation.stderr\n?? udt_native_theory_research_plan_2026-09-13/execution/tc0/publication_adapter.py\n?? udt_native_theory_research_plan_2026-09-13/execution/tc0/reviews/novelty_challenger.md\n?? udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/ADVERSARIAL_REVIEW_REQUEST.md\n?? udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/AUDIT_REPORT.md\n?? udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/CATCH_PROOF_RESULT.json\n?? udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/DERIVATION_RESULT.json\n?? udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/EVIDENCE_GATES.md\n?? udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/EXACT_DERIVATION.md\n?? udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/INDEPENDENT_VERIFICATION.json\n?? udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/LAY_REPORT.md\n?? udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/STATUS_LEDGER.tsv\n?? udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/VERIFICATION_RESULT.json\n?? udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/WITNESS_ATLAS.tsv\n?? udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/build_review_intake.py\n?? udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/derive_regime_flow.py\n?? udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/run_catch_proofs.py\n?? udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/verify_independent.py\n?? udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/verify_package.py\n?? udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/AUDIT_REPORT.md\n?? udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/CATCH_PROOF_RESULT.json\n?? udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/DERIVATION_RESULT.json\n?? udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/EVIDENCE_GATES.md\n?? udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/EXACT_DERIVATION.md\n?? udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/INDEPENDENT_RADAU_REPLAY.tsv\n?? udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/INDEPENDENT_VERIFICATION.json\n?? udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/LAY_REPORT.md\n?? udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/PREREGISTRATION_EXECUTION_NOTE.md\n?? udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/PROFILE_COMPATIBILITY_ATLAS.tsv\n?? udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/REVIEW_DISPATCH.md\n?? udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/RUN_CHECKPOINT.tsv\n?? udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/STATUS_LEDGER.tsv\n?? udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/VERIFICATION_RESULT.json\n?? udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/build_review_manifest.py\n?? udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/derive_compatibility_atlas.py\n?? udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/run_catch_proofs.py\n?? udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/verify_independent.py\n?? udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/verify_package.py\n",
+      "stderr": ""
+    },
+    {
+      "utc": "2026-09-13T20:16:24.846695+00:00",
+      "command": [
+        "git",
+        "add",
+        "-f",
+        "--pathspec-from-file=/tmp/tc0.nul",
+        "--pathspec-file-nul"
+      ],
+      "exit": 0,
+      "stdout": "",
+      "stderr": ""
+    },
+    {
+      "utc": "2026-09-13T20:16:24.885385+00:00",
+      "command": [
+        "git",
+        "diff",
+        "--cached",
+        "--check"
+      ],
+      "exit": 0,
+      "stdout": "",
+      "stderr": ""
+    },
+    {
+      "utc": "2026-09-13T20:16:24.892735+00:00",
+      "command": [
+        "git",
+        "diff",
+        "--cached",
+        "--name-only"
+      ],
+      "exit": 0,
+      "stdout": "INDEX.md\nMEMORY.md\nUDT_RESEARCH_ROADMAP.md\nudt_native_theory_research_plan_2026-09-13/execution/tc0/.gitattributes\nudt_native_theory_research_plan_2026-09-13/execution/tc0/AGENT_ALLOCATIONS.json\nudt_native_theory_research_plan_2026-09-13/execution/tc0/CHECKPOINT.md\nudt_native_theory_research_plan_2026-09-13/execution/tc0/DECISION_BRIEF.md\nudt_native_theory_research_plan_2026-09-13/execution/tc0/LAUNCH.json\nudt_native_theory_research_plan_2026-09-13/execution/tc0/PUBLISH_PLAN.json\nudt_native_theory_research_plan_2026-09-13/execution/tc0/RESULT.md\nudt_native_theory_research_plan_2026-09-13/execution/tc0/SHA256SUMS.json\nudt_native_theory_research_plan_2026-09-13/execution/tc0/SOURCE_PINS.json\nudt_native_theory_research_plan_2026-09-13/execution/tc0/TASKS.tsv\nudt_native_theory_research_plan_2026-09-13/execution/tc0/WORK_ORDER.md\nudt_native_theory_research_plan_2026-09-13/execution/tc0/WORK_RECORD.md\nudt_native_theory_research_plan_2026-09-13/execution/tc0/checks/navigation.capture_provenance.json\nudt_native_theory_research_plan_2026-09-13/execution/tc0/checks/navigation.json\nudt_native_theory_research_plan_2026-09-13/execution/tc0/checks/navigation.stderr\nudt_native_theory_research_plan_2026-09-13/execution/tc0/checks/navigation.stdout\nudt_native_theory_research_plan_2026-09-13/execution/tc0/checks/navigation_final.capture_provenance.json\nudt_native_theory_research_plan_2026-09-13/execution/tc0/checks/navigation_final.json\nudt_native_theory_research_plan_2026-09-13/execution/tc0/checks/navigation_final.stderr\nudt_native_theory_research_plan_2026-09-13/execution/tc0/checks/navigation_final.stdout\nudt_native_theory_research_plan_2026-09-13/execution/tc0/checks/navigation_initial_changes.patch\nudt_native_theory_research_plan_2026-09-13/execution/tc0/checks/navigation_repair.capture_provenance.json\nudt_native_theory_research_plan_2026-09-13/execution/tc0/checks/navigation_repair.json\nudt_native_theory_research_plan_2026-09-13/execution/tc0/checks/navigation_repair.stderr\nudt_native_theory_research_plan_2026-09-13/execution/tc0/checks/navigation_repair.stdout\nudt_native_theory_research_plan_2026-09-13/execution/tc0/checks/navigation_repair_changes.patch\nudt_native_theory_research_plan_2026-09-13/execution/tc0/checks/premise406.capture_provenance.json\nudt_native_theory_research_plan_2026-09-13/execution/tc0/checks/premise406.json\nudt_native_theory_research_plan_2026-09-13/execution/tc0/checks/premise406.stderr\nudt_native_theory_research_plan_2026-09-13/execution/tc0/checks/premise406.stdout\nudt_native_theory_research_plan_2026-09-13/execution/tc0/checks/prepublication_fetch.capture_provenance.json\nudt_native_theory_research_plan_2026-09-13/execution/tc0/checks/prepublication_fetch.json\nudt_native_theory_research_plan_2026-09-13/execution/tc0/checks/prepublication_fetch.stderr\nudt_native_theory_research_plan_2026-09-13/execution/tc0/checks/prepublication_fetch.stdout\nudt_native_theory_research_plan_2026-09-13/execution/tc0/checks/preservation.capture_provenance.json\nudt_native_theory_research_plan_2026-09-13/execution/tc0/checks/preservation.json\nudt_native_theory_research_plan_2026-09-13/execution/tc0/checks/preservation.stderr\nudt_native_theory_research_plan_2026-09-13/execution/tc0/checks/preservation.stdout\nudt_native_theory_research_plan_2026-09-13/execution/tc0/publication_adapter.py\nudt_native_theory_research_plan_2026-09-13/execution/tc0/reviews/novelty_challenger.md\n",
+      "stderr": ""
+    },
+    {
+      "utc": "2026-09-13T20:16:42.126176+00:00",
+      "command": [
+        "git",
+        "diff",
+        "--cached",
+        "--check"
+      ],
+      "exit": 0,
+      "stdout": "",
+      "stderr": ""
+    },
+    {
+      "utc": "2026-09-13T20:16:42.133992+00:00",
+      "command": [
+        "git",
+        "diff",
+        "--cached",
+        "--name-only"
+      ],
+      "exit": 0,
+      "stdout": "INDEX.md\nMEMORY.md\nUDT_RESEARCH_ROADMAP.md\nudt_native_theory_research_plan_2026-09-13/execution/tc0/.gitattributes\nudt_native_theory_research_plan_2026-09-13/execution/tc0/AGENT_ALLOCATIONS.json\nudt_native_theory_research_plan_2026-09-13/execution/tc0/CHECKPOINT.md\nudt_native_theory_research_plan_2026-09-13/execution/tc0/DECISION_BRIEF.md\nudt_native_theory_research_plan_2026-09-13/execution/tc0/LAUNCH.json\nudt_native_theory_research_plan_2026-09-13/execution/tc0/PUBLISH_PLAN.json\nudt_native_theory_research_plan_2026-09-13/execution/tc0/RESULT.md\nudt_native_theory_research_plan_2026-09-13/execution/tc0/SHA256SUMS.json\nudt_native_theory_research_plan_2026-09-13/execution/tc0/SOURCE_PINS.json\nudt_native_theory_research_plan_2026-09-13/execution/tc0/TASKS.tsv\nudt_native_theory_research_plan_2026-09-13/execution/tc0/WORK_ORDER.md\nudt_native_theory_research_plan_2026-09-13/execution/tc0/WORK_RECORD.md\nudt_native_theory_research_plan_2026-09-13/execution/tc0/checks/navigation.capture_provenance.json\nudt_native_theory_research_plan_2026-09-13/execution/tc0/checks/navigation.json\nudt_native_theory_research_plan_2026-09-13/execution/tc0/checks/navigation.stderr\nudt_native_theory_research_plan_2026-09-13/execution/tc0/checks/navigation.stdout\nudt_native_theory_research_plan_2026-09-13/execution/tc0/checks/navigation_final.capture_provenance.json\nudt_native_theory_research_plan_2026-09-13/execution/tc0/checks/navigation_final.json\nudt_native_theory_research_plan_2026-09-13/execution/tc0/checks/navigation_final.stderr\nudt_native_theory_research_plan_2026-09-13/execution/tc0/checks/navigation_final.stdout\nudt_native_theory_research_plan_2026-09-13/execution/tc0/checks/navigation_initial_changes.patch\nudt_native_theory_research_plan_2026-09-13/execution/tc0/checks/navigation_repair.capture_provenance.json\nudt_native_theory_research_plan_2026-09-13/execution/tc0/checks/navigation_repair.json\nudt_native_theory_research_plan_2026-09-13/execution/tc0/checks/navigation_repair.stderr\nudt_native_theory_research_plan_2026-09-13/execution/tc0/checks/navigation_repair.stdout\nudt_native_theory_research_plan_2026-09-13/execution/tc0/checks/navigation_repair_changes.patch\nudt_native_theory_research_plan_2026-09-13/execution/tc0/checks/premise406.capture_provenance.json\nudt_native_theory_research_plan_2026-09-13/execution/tc0/checks/premise406.json\nudt_native_theory_research_plan_2026-09-13/execution/tc0/checks/premise406.stderr\nudt_native_theory_research_plan_2026-09-13/execution/tc0/checks/premise406.stdout\nudt_native_theory_research_plan_2026-09-13/execution/tc0/checks/prepublication_fetch.capture_provenance.json\nudt_native_theory_research_plan_2026-09-13/execution/tc0/checks/prepublication_fetch.json\nudt_native_theory_research_plan_2026-09-13/execution/tc0/checks/prepublication_fetch.stderr\nudt_native_theory_research_plan_2026-09-13/execution/tc0/checks/prepublication_fetch.stdout\nudt_native_theory_research_plan_2026-09-13/execution/tc0/checks/preservation.capture_provenance.json\nudt_native_theory_research_plan_2026-09-13/execution/tc0/checks/preservation.json\nudt_native_theory_research_plan_2026-09-13/execution/tc0/checks/preservation.stderr\nudt_native_theory_research_plan_2026-09-13/execution/tc0/checks/preservation.stdout\nudt_native_theory_research_plan_2026-09-13/execution/tc0/publication_adapter.py\nudt_native_theory_research_plan_2026-09-13/execution/tc0/reviews/novelty_challenger.md\n",
+      "stderr": ""
+    },
+    {
+      "utc": "2026-09-13T20:16:42.139433+00:00",
+      "command": [
+        "git",
+        "commit",
+        "-m",
+        "Record TC0 source challenge and native-closure novelty stop"
+      ],
+      "exit": 0,
+      "stdout": "[grok 09ff6794] Record TC0 source challenge and native-closure novelty stop\n 43 files changed, 1006 insertions(+), 15 deletions(-)\n create mode 100644 udt_native_theory_research_plan_2026-09-13/execution/tc0/.gitattributes\n create mode 100644 udt_native_theory_research_plan_2026-09-13/execution/tc0/AGENT_ALLOCATIONS.json\n create mode 100644 udt_native_theory_research_plan_2026-09-13/execution/tc0/CHECKPOINT.md\n create mode 100644 udt_native_theory_research_plan_2026-09-13/execution/tc0/DECISION_BRIEF.md\n create mode 100644 udt_native_theory_research_plan_2026-09-13/execution/tc0/LAUNCH.json\n create mode 100644 udt_native_theory_research_plan_2026-09-13/execution/tc0/PUBLISH_PLAN.json\n create mode 100644 udt_native_theory_research_plan_2026-09-13/execution/tc0/RESULT.md\n create mode 100644 udt_native_theory_research_plan_2026-09-13/execution/tc0/SHA256SUMS.json\n create mode 100644 udt_native_theory_research_plan_2026-09-13/execution/tc0/SOURCE_PINS.json\n create mode 100644 udt_native_theory_research_plan_2026-09-13/execution/tc0/TASKS.tsv\n create mode 100644 udt_native_theory_research_plan_2026-09-13/execution/tc0/WORK_ORDER.md\n create mode 100644 udt_native_theory_research_plan_2026-09-13/execution/tc0/WORK_RECORD.md\n create mode 100644 udt_native_theory_research_plan_2026-09-13/execution/tc0/checks/navigation.capture_provenance.json\n create mode 100644 udt_native_theory_research_plan_2026-09-13/execution/tc0/checks/navigation.json\n create mode 100644 udt_native_theory_research_plan_2026-09-13/execution/tc0/checks/navigation.stderr\n create mode 100644 udt_native_theory_research_plan_2026-09-13/execution/tc0/checks/navigation.stdout\n create mode 100644 udt_native_theory_research_plan_2026-09-13/execution/tc0/checks/navigation_final.capture_provenance.json\n create mode 100644 udt_native_theory_research_plan_2026-09-13/execution/tc0/checks/navigation_final.json\n create mode 100644 udt_native_theory_research_plan_2026-09-13/execution/tc0/checks/navigation_final.stderr\n create mode 100644 udt_native_theory_research_plan_2026-09-13/execution/tc0/checks/navigation_final.stdout\n create mode 100644 udt_native_theory_research_plan_2026-09-13/execution/tc0/checks/navigation_initial_changes.patch\n create mode 100644 udt_native_theory_research_plan_2026-09-13/execution/tc0/checks/navigation_repair.capture_provenance.json\n create mode 100644 udt_native_theory_research_plan_2026-09-13/execution/tc0/checks/navigation_repair.json\n create mode 100644 udt_native_theory_research_plan_2026-09-13/execution/tc0/checks/navigation_repair.stderr\n create mode 100644 udt_native_theory_research_plan_2026-09-13/execution/tc0/checks/navigation_repair.stdout\n create mode 100644 udt_native_theory_research_plan_2026-09-13/execution/tc0/checks/navigation_repair_changes.patch\n create mode 100644 udt_native_theory_research_plan_2026-09-13/execution/tc0/checks/premise406.capture_provenance.json\n create mode 100644 udt_native_theory_research_plan_2026-09-13/execution/tc0/checks/premise406.json\n create mode 100644 udt_native_theory_research_plan_2026-09-13/execution/tc0/checks/premise406.stderr\n create mode 100644 udt_native_theory_research_plan_2026-09-13/execution/tc0/checks/premise406.stdout\n create mode 100644 udt_native_theory_research_plan_2026-09-13/execution/tc0/checks/prepublication_fetch.capture_provenance.json\n create mode 100644 udt_native_theory_research_plan_2026-09-13/execution/tc0/checks/prepublication_fetch.json\n create mode 100644 udt_native_theory_research_plan_2026-09-13/execution/tc0/checks/prepublication_fetch.stderr\n create mode 100644 udt_native_theory_research_plan_2026-09-13/execution/tc0/checks/prepublication_fetch.stdout\n create mode 100644 udt_native_theory_research_plan_2026-09-13/execution/tc0/checks/preservation.capture_provenance.json\n create mode 100644 udt_native_theory_research_plan_2026-09-13/execution/tc0/checks/preservation.json\n create mode 100644 udt_native_theory_research_plan_2026-09-13/execution/tc0/checks/preservation.stderr\n create mode 100644 udt_native_theory_research_plan_2026-09-13/execution/tc0/checks/preservation.stdout\n create mode 100644 udt_native_theory_research_plan_2026-09-13/execution/tc0/publication_adapter.py\n create mode 100644 udt_native_theory_research_plan_2026-09-13/execution/tc0/reviews/novelty_challenger.md\n",
+      "stderr": ""
+    },
+    {
+      "utc": "2026-09-13T20:16:42.169901+00:00",
+      "command": [
+        "git",
+        "rev-parse",
+        "HEAD"
+      ],
+      "exit": 0,
+      "stdout": "09ff6794a1f72f6549238005e7ed6de585d14b6c\n",
+      "stderr": ""
+    },
+    {
+      "utc": "2026-09-13T20:16:42.171370+00:00",
+      "command": [
+        "git",
+        "diff-tree",
+        "--no-commit-id",
+        "--name-only",
+        "-r",
+        "HEAD"
+      ],
+      "exit": 0,
+      "stdout": "INDEX.md\nMEMORY.md\nUDT_RESEARCH_ROADMAP.md\nudt_native_theory_research_plan_2026-09-13/execution/tc0/.gitattributes\nudt_native_theory_research_plan_2026-09-13/execution/tc0/AGENT_ALLOCATIONS.json\nudt_native_theory_research_plan_2026-09-13/execution/tc0/CHECKPOINT.md\nudt_native_theory_research_plan_2026-09-13/execution/tc0/DECISION_BRIEF.md\nudt_native_theory_research_plan_2026-09-13/execution/tc0/LAUNCH.json\nudt_native_theory_research_plan_2026-09-13/execution/tc0/PUBLISH_PLAN.json\nudt_native_theory_research_plan_2026-09-13/execution/tc0/RESULT.md\nudt_native_theory_research_plan_2026-09-13/execution/tc0/SHA256SUMS.json\nudt_native_theory_research_plan_2026-09-13/execution/tc0/SOURCE_PINS.json\nudt_native_theory_research_plan_2026-09-13/execution/tc0/TASKS.tsv\nudt_native_theory_research_plan_2026-09-13/execution/tc0/WORK_ORDER.md\nudt_native_theory_research_plan_2026-09-13/execution/tc0/WORK_RECORD.md\nudt_native_theory_research_plan_2026-09-13/execution/tc0/checks/navigation.capture_provenance.json\nudt_native_theory_research_plan_2026-09-13/execution/tc0/checks/navigation.json\nudt_native_theory_research_plan_2026-09-13/execution/tc0/checks/navigation.stderr\nudt_native_theory_research_plan_2026-09-13/execution/tc0/checks/navigation.stdout\nudt_native_theory_research_plan_2026-09-13/execution/tc0/checks/navigation_final.capture_provenance.json\nudt_native_theory_research_plan_2026-09-13/execution/tc0/checks/navigation_final.json\nudt_native_theory_research_plan_2026-09-13/execution/tc0/checks/navigation_final.stderr\nudt_native_theory_research_plan_2026-09-13/execution/tc0/checks/navigation_final.stdout\nudt_native_theory_research_plan_2026-09-13/execution/tc0/checks/navigation_initial_changes.patch\nudt_native_theory_research_plan_2026-09-13/execution/tc0/checks/navigation_repair.capture_provenance.json\nudt_native_theory_research_plan_2026-09-13/execution/tc0/checks/navigation_repair.json\nudt_native_theory_research_plan_2026-09-13/execution/tc0/checks/navigation_repair.stderr\nudt_native_theory_research_plan_2026-09-13/execution/tc0/checks/navigation_repair.stdout\nudt_native_theory_research_plan_2026-09-13/execution/tc0/checks/navigation_repair_changes.patch\nudt_native_theory_research_plan_2026-09-13/execution/tc0/checks/premise406.capture_provenance.json\nudt_native_theory_research_plan_2026-09-13/execution/tc0/checks/premise406.json\nudt_native_theory_research_plan_2026-09-13/execution/tc0/checks/premise406.stderr\nudt_native_theory_research_plan_2026-09-13/execution/tc0/checks/premise406.stdout\nudt_native_theory_research_plan_2026-09-13/execution/tc0/checks/prepublication_fetch.capture_provenance.json\nudt_native_theory_research_plan_2026-09-13/execution/tc0/checks/prepublication_fetch.json\nudt_native_theory_research_plan_2026-09-13/execution/tc0/checks/prepublication_fetch.stderr\nudt_native_theory_research_plan_2026-09-13/execution/tc0/checks/prepublication_fetch.stdout\nudt_native_theory_research_plan_2026-09-13/execution/tc0/checks/preservation.capture_provenance.json\nudt_native_theory_research_plan_2026-09-13/execution/tc0/checks/preservation.json\nudt_native_theory_research_plan_2026-09-13/execution/tc0/checks/preservation.stderr\nudt_native_theory_research_plan_2026-09-13/execution/tc0/checks/preservation.stdout\nudt_native_theory_research_plan_2026-09-13/execution/tc0/publication_adapter.py\nudt_native_theory_research_plan_2026-09-13/execution/tc0/reviews/novelty_challenger.md\n",
+      "stderr": ""
+    },
+    {
+      "utc": "2026-09-13T20:16:53.160322+00:00",
+      "command": [
+        "git",
+        "push",
+        "origin",
+        "grok"
+      ],
+      "exit": 0,
+      "stdout": "",
+      "stderr": "To https://github.com/charlesrotter/udt_mass_codex.git\n   cc51afe2..09ff6794  grok -> grok\n"
+    },
+    {
+      "utc": "2026-09-13T20:16:55.173104+00:00",
+      "command": [
+        "git",
+        "rev-parse",
+        "HEAD",
+        "origin/grok"
+      ],
+      "exit": 0,
+      "stdout": "09ff6794a1f72f6549238005e7ed6de585d14b6c\n09ff6794a1f72f6549238005e7ed6de585d14b6c\n",
+      "stderr": ""
+    },
+    {
+      "utc": "2026-09-13T20:16:55.174874+00:00",
+      "command": [
+        "git",
+        "diff",
+        "--name-only"
+      ],
+      "exit": 0,
+      "stdout": "",
+      "stderr": ""
+    },
+    {
+      "utc": "2026-09-13T20:16:55.182615+00:00",
+      "command": [
+        "git",
+        "diff",
+        "--cached",
+        "--name-only"
+      ],
+      "exit": 0,
+      "stdout": "",
+      "stderr": ""
+    },
+    {
+      "utc": "2026-09-13T20:16:55.188180+00:00",
+      "command": [
+        "git",
+        "status",
+        "--short",
+        "--untracked-files=all"
+      ],
+      "exit": 0,
+      "stdout": "?? 8_25/UDT_FOUNDING_VALUE_LAW_ANALYSIS.md\n?? 8_25/udt_extension_checks.py\n?? 8_25/udt_extension_minimality_response.md\n?? 8_25/udt_value_law_checks.py\n?? 8_25/udt_value_law_checks_llm1.py\n?? 8_25/udt_value_law_external_response.md\n?? UDT_Complete_Guardrails_and_Central_Science_Tracking.md\n?? UDT_Next_Step_After_Two_Stages.md\n?? UDT_Sequenced_Guardrails_and_Development_Work_Order.md\n?? udt_native_onshell_timelive_reset_owner_audit_2026-08-10/CANDIDATE_LAW_MAP.tsv\n?? udt_native_onshell_timelive_reset_owner_audit_2026-08-10/DERIVATION_RESULT.json\n?? udt_native_onshell_timelive_reset_owner_audit_2026-08-10/EQUATION_OWNERSHIP_ATLAS.tsv\n?? udt_native_onshell_timelive_reset_owner_audit_2026-08-10/SOURCE_SCOPE_CLARIFICATION.md\n?? udt_native_onshell_timelive_reset_owner_audit_2026-08-10/derive_owner_atlas.py\n?? udt_native_onshell_timelive_reset_owner_audit_2026-08-10/run_catch_proofs.py\n?? udt_native_onshell_timelive_reset_owner_audit_2026-08-10/verify_owner_independent.py\n?? udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/ADVERSARIAL_REVIEW_REQUEST.md\n?? udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/AUDIT_REPORT.md\n?? udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/CATCH_PROOF_RESULT.json\n?? udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/DERIVATION_RESULT.json\n?? udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/EVIDENCE_GATES.md\n?? udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/EXACT_DERIVATION.md\n?? udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/INDEPENDENT_VERIFICATION.json\n?? udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/LAY_REPORT.md\n?? udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/STATUS_LEDGER.tsv\n?? udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/VERIFICATION_RESULT.json\n?? udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/WITNESS_ATLAS.tsv\n?? udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/build_review_intake.py\n?? udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/derive_regime_flow.py\n?? udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/run_catch_proofs.py\n?? udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/verify_independent.py\n?? udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/verify_package.py\n?? udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/AUDIT_REPORT.md\n?? udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/CATCH_PROOF_RESULT.json\n?? udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/DERIVATION_RESULT.json\n?? udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/EVIDENCE_GATES.md\n?? udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/EXACT_DERIVATION.md\n?? udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/INDEPENDENT_RADAU_REPLAY.tsv\n?? udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/INDEPENDENT_VERIFICATION.json\n?? udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/LAY_REPORT.md\n?? udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/PREREGISTRATION_EXECUTION_NOTE.md\n?? udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/PROFILE_COMPATIBILITY_ATLAS.tsv\n?? udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/REVIEW_DISPATCH.md\n?? udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/RUN_CHECKPOINT.tsv\n?? udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/STATUS_LEDGER.tsv\n?? udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/VERIFICATION_RESULT.json\n?? udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/build_review_manifest.py\n?? udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/derive_compatibility_atlas.py\n?? udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/run_catch_proofs.py\n?? udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/verify_independent.py\n?? udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/verify_package.py\n",
+      "stderr": ""
+    }
+  ],
+  "baseline_head": "cc51afe2415898844b3cbf31089921b00c9cda62",
+  "original_untracked_status_sha256": "747cf3c497bfbdf7c373a2aa621be3cb241a61f7ef9f508c39bf64588ff70a60",
+  "planned_paths": [
+    "INDEX.md",
+    "MEMORY.md",
+    "UDT_RESEARCH_ROADMAP.md",
+    "udt_native_theory_research_plan_2026-09-13/execution/tc0/.gitattributes",
+    "udt_native_theory_research_plan_2026-09-13/execution/tc0/AGENT_ALLOCATIONS.json",
+    "udt_native_theory_research_plan_2026-09-13/execution/tc0/CHECKPOINT.md",
+    "udt_native_theory_research_plan_2026-09-13/execution/tc0/DECISION_BRIEF.md",
+    "udt_native_theory_research_plan_2026-09-13/execution/tc0/LAUNCH.json",
+    "udt_native_theory_research_plan_2026-09-13/execution/tc0/PUBLISH_PLAN.json",
+    "udt_native_theory_research_plan_2026-09-13/execution/tc0/RESULT.md",
+    "udt_native_theory_research_plan_2026-09-13/execution/tc0/SHA256SUMS.json",
+    "udt_native_theory_research_plan_2026-09-13/execution/tc0/SOURCE_PINS.json",
+    "udt_native_theory_research_plan_2026-09-13/execution/tc0/TASKS.tsv",
+    "udt_native_theory_research_plan_2026-09-13/execution/tc0/WORK_ORDER.md",
+    "udt_native_theory_research_plan_2026-09-13/execution/tc0/WORK_RECORD.md",
+    "udt_native_theory_research_plan_2026-09-13/execution/tc0/checks/navigation.capture_provenance.json",
+    "udt_native_theory_research_plan_2026-09-13/execution/tc0/checks/navigation.json",
+    "udt_native_theory_research_plan_2026-09-13/execution/tc0/checks/navigation.stderr",
+    "udt_native_theory_research_plan_2026-09-13/execution/tc0/checks/navigation.stdout",
+    "udt_native_theory_research_plan_2026-09-13/execution/tc0/checks/navigation_final.capture_provenance.json",
+    "udt_native_theory_research_plan_2026-09-13/execution/tc0/checks/navigation_final.json",
+    "udt_native_theory_research_plan_2026-09-13/execution/tc0/checks/navigation_final.stderr",
+    "udt_native_theory_research_plan_2026-09-13/execution/tc0/checks/navigation_final.stdout",
+    "udt_native_theory_research_plan_2026-09-13/execution/tc0/checks/navigation_initial_changes.patch",
+    "udt_native_theory_research_plan_2026-09-13/execution/tc0/checks/navigation_repair.capture_provenance.json",
+    "udt_native_theory_research_plan_2026-09-13/execution/tc0/checks/navigation_repair.json",
+    "udt_native_theory_research_plan_2026-09-13/execution/tc0/checks/navigation_repair.stderr",
+    "udt_native_theory_research_plan_2026-09-13/execution/tc0/checks/navigation_repair.stdout",
+    "udt_native_theory_research_plan_2026-09-13/execution/tc0/checks/navigation_repair_changes.patch",
+    "udt_native_theory_research_plan_2026-09-13/execution/tc0/checks/premise406.capture_provenance.json",
+    "udt_native_theory_research_plan_2026-09-13/execution/tc0/checks/premise406.json",
+    "udt_native_theory_research_plan_2026-09-13/execution/tc0/checks/premise406.stderr",
+    "udt_native_theory_research_plan_2026-09-13/execution/tc0/checks/premise406.stdout",
+    "udt_native_theory_research_plan_2026-09-13/execution/tc0/checks/prepublication_fetch.capture_provenance.json",
+    "udt_native_theory_research_plan_2026-09-13/execution/tc0/checks/prepublication_fetch.json",
+    "udt_native_theory_research_plan_2026-09-13/execution/tc0/checks/prepublication_fetch.stderr",
+    "udt_native_theory_research_plan_2026-09-13/execution/tc0/checks/prepublication_fetch.stdout",
+    "udt_native_theory_research_plan_2026-09-13/execution/tc0/checks/preservation.capture_provenance.json",
+    "udt_native_theory_research_plan_2026-09-13/execution/tc0/checks/preservation.json",
+    "udt_native_theory_research_plan_2026-09-13/execution/tc0/checks/preservation.stderr",
+    "udt_native_theory_research_plan_2026-09-13/execution/tc0/checks/preservation.stdout",
+    "udt_native_theory_research_plan_2026-09-13/execution/tc0/publication_adapter.py",
+    "udt_native_theory_research_plan_2026-09-13/execution/tc0/reviews/novelty_challenger.md"
+  ],
+  "science_commit": "09ff6794a1f72f6549238005e7ed6de585d14b6c",
+  "postpush_verified_utc": "2026-09-13T20:16:55.216905+00:00",
+  "postpush_refs": [
+    "09ff6794a1f72f6549238005e7ed6de585d14b6c",
+    "09ff6794a1f72f6549238005e7ed6de585d14b6c"
+  ],
+  "tracked_clean": true,
+  "original51_status_names_exact": true
+}

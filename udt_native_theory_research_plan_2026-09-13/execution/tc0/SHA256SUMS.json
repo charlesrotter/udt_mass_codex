@@ -4,15 +4,15 @@
   "UDT_RESEARCH_ROADMAP.md": "41a06a9cd12a493ba7d4a70f3352af6f3126e4a18ae77f22c639ea2d3c0b28b3",
   "udt_native_theory_research_plan_2026-09-13/execution/tc0/.gitattributes": "1d18c6cca95bf2fd4f138f5460a9f8003a38a893007347e9dbacd98f8123c2a7",
   "udt_native_theory_research_plan_2026-09-13/execution/tc0/AGENT_ALLOCATIONS.json": "9c5fac739651a659c79555a959a6ea8476b4c0bb04207c79d5daff770c6d81f7",
-  "udt_native_theory_research_plan_2026-09-13/execution/tc0/CHECKPOINT.md": "9b8d5fea128db7da5c25bd5df1058135428e8be1b15a8111ec90f0b9943cdabb",
+  "udt_native_theory_research_plan_2026-09-13/execution/tc0/CHECKPOINT.md": "75e0e7ad54a37948ec0a6f46ab9cb5bf6b2d61aa0312e065e20c1447159bed19",
   "udt_native_theory_research_plan_2026-09-13/execution/tc0/DECISION_BRIEF.md": "67a88a659cfef6e17d9766d6d020553d839e7b526d0386b1d997e7e2b39d8c04",
   "udt_native_theory_research_plan_2026-09-13/execution/tc0/LAUNCH.json": "03eb1771dd6ba560e32c8f3f9e3f354e362e79e1f937b0dfef8faae40585fbbb",
   "udt_native_theory_research_plan_2026-09-13/execution/tc0/PUBLISH_PLAN.json": "2ba88999b60235ff425ed9ebb65777b1705e1ed3b3f2a30ddb29ad106cee6a9d",
   "udt_native_theory_research_plan_2026-09-13/execution/tc0/RESULT.md": "fd556f5b8ba2dbe3b41b2077d82b9ecb9e09963030937e0b4ba352c0b60018c3",
   "udt_native_theory_research_plan_2026-09-13/execution/tc0/SOURCE_PINS.json": "9894913ec8ffd3e513805e39914563cb38d17fc3881f57ae60e36b2055feaddc",
-  "udt_native_theory_research_plan_2026-09-13/execution/tc0/TASKS.tsv": "c565155c610b2f0f4ea521b3bcf0ba6b607d1f5435a87fdb47b91cbf0c2271c0",
+  "udt_native_theory_research_plan_2026-09-13/execution/tc0/TASKS.tsv": "27f3d9e211c69cdfc663bc9128ecc8094442fcc03de5e8cdfe5dc381db24d1e6",
   "udt_native_theory_research_plan_2026-09-13/execution/tc0/WORK_ORDER.md": "522221deffacdd7aa531c782fafb2e2052e3ae59a3e744cb3e1d6f76d53fa843",
-  "udt_native_theory_research_plan_2026-09-13/execution/tc0/WORK_RECORD.md": "16110e1b4ac939cbc729fcc3646bec3b67249042618f220c4bf5c4df6310cace",
+  "udt_native_theory_research_plan_2026-09-13/execution/tc0/WORK_RECORD.md": "86efed09185c642bb19974e2551ffbe1a2ffe79087c2c55b2d77d79fa7dc1238",
   "udt_native_theory_research_plan_2026-09-13/execution/tc0/checks/navigation.capture_provenance.json": "912e6e5c0467fe204d0dc4f2db5eb24e3367825dc302caa1079e0ed8f38019be",
   "udt_native_theory_research_plan_2026-09-13/execution/tc0/checks/navigation.json": "21479e219171cf95e93141d13f7ea5e260994cdaf762ca23c72333080c881dd6",
   "udt_native_theory_research_plan_2026-09-13/execution/tc0/checks/navigation.stderr": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
@@ -40,5 +40,6 @@
   "udt_native_theory_research_plan_2026-09-13/execution/tc0/checks/preservation.stderr": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
   "udt_native_theory_research_plan_2026-09-13/execution/tc0/checks/preservation.stdout": "284267eacc3b819c39567076592ad8f86697ffc564ad0af7584c0f8d0320b8ec",
   "udt_native_theory_research_plan_2026-09-13/execution/tc0/publication_adapter.py": "10806805ac2294b81ffc201d87df7e3b35da6798e66fb1335fce618618e0017e",
-  "udt_native_theory_research_plan_2026-09-13/execution/tc0/reviews/novelty_challenger.md": "ded9c92b5f022645f12ce0b0a73470240aadff9566a3368718d33ed783dfaf81"
+  "udt_native_theory_research_plan_2026-09-13/execution/tc0/reviews/novelty_challenger.md": "ded9c92b5f022645f12ce0b0a73470240aadff9566a3368718d33ed783dfaf81",
+  "udt_native_theory_research_plan_2026-09-13/execution/tc0/PUBLICATION_RECEIPT.json": "d9d3789fe227448f333ac5122a4bddf18e1ab82247a73c3f81f5869b50bf83da"
 }
