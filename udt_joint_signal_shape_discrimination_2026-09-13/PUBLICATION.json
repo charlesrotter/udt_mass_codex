@@ -1,0 +1,398 @@
+{
+  "package": "udt_joint_signal_shape_discrimination_2026-09-13",
+  "events": [
+    {
+      "utc": "2026-09-13T04:13:06.130079+00:00",
+      "command": [
+        "git",
+        "rev-parse",
+        "--abbrev-ref",
+        "HEAD"
+      ],
+      "exit": 0,
+      "stdout": "grok\n",
+      "stderr": ""
+    },
+    {
+      "utc": "2026-09-13T04:13:06.131553+00:00",
+      "command": [
+        "git",
+        "rev-parse",
+        "HEAD",
+        "origin/grok"
+      ],
+      "exit": 0,
+      "stdout": "3ce1bcb806d506b21bb20eabd5b942df0613880c\n3ce1bcb806d506b21bb20eabd5b942df0613880c\n",
+      "stderr": ""
+    },
+    {
+      "utc": "2026-09-13T04:13:06.132794+00:00",
+      "command": [
+        "git",
+        "diff",
+        "--cached",
+        "--name-only"
+      ],
+      "exit": 0,
+      "stdout": "",
+      "stderr": ""
+    },
+    {
+      "utc": "2026-09-13T04:13:06.142349+00:00",
+      "command": [
+        "git",
+        "diff",
+        "--name-only"
+      ],
+      "exit": 0,
+      "stdout": "CURRENT_RESEARCH_PROGRAM.md\nHANDOFF.md\nINDEX.md\nLIVE.md\nMEMORY.md\nUDT_RESEARCH_ROADMAP.md\nudt_signal_continuation_2026-09-13/CHECKPOINT.md\n",
+      "stderr": ""
+    },
+    {
+      "utc": "2026-09-13T04:13:06.152290+00:00",
+      "command": [
+        "git",
+        "status",
+        "--short",
+        "--untracked-files=all"
+      ],
+      "exit": 0,
+      "stdout": " M CURRENT_RESEARCH_PROGRAM.md\n M HANDOFF.md\n M INDEX.md\n M LIVE.md\n M MEMORY.md\n M UDT_RESEARCH_ROADMAP.md\n M udt_signal_continuation_2026-09-13/CHECKPOINT.md\n?? 8_25/UDT_FOUNDING_VALUE_LAW_ANALYSIS.md\n?? 8_25/udt_extension_checks.py\n?? 8_25/udt_extension_minimality_response.md\n?? 8_25/udt_value_law_checks.py\n?? 8_25/udt_value_law_checks_llm1.py\n?? 8_25/udt_value_law_external_response.md\n?? UDT_Complete_Guardrails_and_Central_Science_Tracking.md\n?? UDT_Next_Step_After_Two_Stages.md\n?? UDT_Sequenced_Guardrails_and_Development_Work_Order.md\n?? udt_joint_signal_shape_discrimination_2026-09-13/AUDIT_REUSE.json\n?? udt_joint_signal_shape_discrimination_2026-09-13/CANDIDATE_FREEZE.json\n?? udt_joint_signal_shape_discrimination_2026-09-13/CLOSEOUT.md\n?? udt_joint_signal_shape_discrimination_2026-09-13/COMPLETE_CAPTURE_AMENDMENT.json\n?? udt_joint_signal_shape_discrimination_2026-09-13/CONTINUATION_REVIEW_LEDGER.json\n?? udt_joint_signal_shape_discrimination_2026-09-13/DECISION_BRIEF.md\n?? udt_joint_signal_shape_discrimination_2026-09-13/EXECUTION_INTERVALS.json\n?? udt_joint_signal_shape_discrimination_2026-09-13/FINAL_EXECUTION_INTERVALS.json\n?? udt_joint_signal_shape_discrimination_2026-09-13/FINAL_NAVIGATION_INPUTS.json\n?? udt_joint_signal_shape_discrimination_2026-09-13/FINAL_REVIEW_INTAKE.json\n?? udt_joint_signal_shape_discrimination_2026-09-13/FINITE_GATE_DIAGNOSTIC.md\n?? udt_joint_signal_shape_discrimination_2026-09-13/INITIAL_CANDIDATE.md\n?? udt_joint_signal_shape_discrimination_2026-09-13/INITIAL_check_discrimination.py\n?? udt_joint_signal_shape_discrimination_2026-09-13/LAUNCH.json\n?? udt_joint_signal_shape_discrimination_2026-09-13/MAGNITUDE_SUPPLEMENT.md\n?? udt_joint_signal_shape_discrimination_2026-09-13/MAGNITUDE_SUPPLEMENT_FREEZE.json\n?? udt_joint_signal_shape_discrimination_2026-09-13/RECORDS.tsv\n?? udt_joint_signal_shape_discrimination_2026-09-13/REVIEWED_RESULT.md\n?? udt_joint_signal_shape_discrimination_2026-09-13/REVIEW_ALLOCATION.json\n?? udt_joint_signal_shape_discrimination_2026-09-13/REVIEW_DISPATCH.md\n?? udt_joint_signal_shape_discrimination_2026-09-13/SCOPE_MAP.tsv\n?? udt_joint_signal_shape_discrimination_2026-09-13/SIMPLIFIER_REPAIRED_check_discrimination.py\n?? udt_joint_signal_shape_discrimination_2026-09-13/SOURCE_PINS.json\n?? udt_joint_signal_shape_discrimination_2026-09-13/SYMBOLIC_NORMAL_FORM_REPAIR.md\n?? udt_joint_signal_shape_discrimination_2026-09-13/SYMBOLIC_REPAIR_FREEZE.json\n?? udt_joint_signal_shape_discrimination_2026-09-13/WORK_ORDER.md\n?? udt_joint_signal_shape_discrimination_2026-09-13/check_discrimination.py\n?? udt_joint_signal_shape_discrimination_2026-09-13/checks/current_surface.capture_provenance.json\n?? udt_joint_signal_shape_discrimination_2026-09-13/checks/current_surface.json\n?? udt_joint_signal_shape_discrimination_2026-09-13/checks/current_surface.stderr\n?? udt_joint_signal_shape_discrimination_2026-09-13/checks/discrimination_complete.capture_provenance.json\n?? udt_joint_signal_shape_discrimination_2026-09-13/checks/discrimination_complete.json\n?? udt_joint_signal_shape_discrimination_2026-09-13/checks/discrimination_complete.stderr\n?? udt_joint_signal_shape_discrimination_2026-09-13/checks/discrimination_initial.capture_provenance.json\n?? udt_joint_signal_shape_discrimination_2026-09-13/checks/discrimination_initial.json\n?? udt_joint_signal_shape_discrimination_2026-09-13/checks/discrimination_initial.stderr\n?? udt_joint_signal_shape_discrimination_2026-09-13/checks/discrimination_repaired.capture_provenance.json\n?? udt_joint_signal_shape_discrimination_2026-09-13/checks/discrimination_repaired.json\n?? udt_joint_signal_shape_discrimination_2026-09-13/checks/discrimination_repaired.stderr\n?? udt_joint_signal_shape_discrimination_2026-09-13/checks/mutant_endpoint_rulers.capture_provenance.json\n?? udt_joint_signal_shape_discrimination_2026-09-13/checks/mutant_endpoint_rulers.json\n?? udt_joint_signal_shape_discrimination_2026-09-13/checks/mutant_endpoint_rulers.stderr\n?? udt_joint_signal_shape_discrimination_2026-09-13/checks/navigation.capture_provenance.json\n?? udt_joint_signal_shape_discrimination_2026-09-13/checks/navigation.json\n?? udt_joint_signal_shape_discrimination_2026-09-13/checks/navigation.stderr\n?? udt_joint_signal_shape_discrimination_2026-09-13/checks/saved_evidence.capture_provenance.json\n?? udt_joint_signal_shape_discrimination_2026-09-13/checks/saved_evidence.json\n?? udt_joint_signal_shape_discrimination_2026-09-13/checks/saved_evidence.stderr\n?? udt_joint_signal_shape_discrimination_2026-09-13/checks/trig_diagnostic.capture_provenance.json\n?? udt_joint_signal_shape_discrimination_2026-09-13/checks/trig_diagnostic.json\n?? udt_joint_signal_shape_discrimination_2026-09-13/checks/trig_diagnostic.stderr\n?? udt_joint_signal_shape_discrimination_2026-09-13/review/DIRECT_REVIEW.md\n?? udt_joint_signal_shape_discrimination_2026-09-13/review/DIRECT_REVIEW_SEAL.json\n?? udt_joint_signal_shape_discrimination_2026-09-13/review/FINAL_FIDELITY.md\n?? udt_joint_signal_shape_discrimination_2026-09-13/review/FINAL_RECEIPT.json\n?? udt_joint_signal_shape_discrimination_2026-09-13/review/FINAL_REVIEW_SHA256SUMS\n?? udt_joint_signal_shape_discrimination_2026-09-13/review/FINAL_VISIBLE_STATUS.txt\n?? udt_joint_signal_shape_discrimination_2026-09-13/review/SOURCE_FIRST_ARGUMENT.md\n?? udt_joint_signal_shape_discrimination_2026-09-13/review/SOURCE_FIRST_SEAL.json\n?? udt_joint_signal_shape_discrimination_2026-09-13/review/check_final_fidelity.py\n?? udt_joint_signal_shape_discrimination_2026-09-13/review/checks/direct.capture_provenance.json\n?? udt_joint_signal_shape_discrimination_2026-09-13/review/checks/direct.json\n?? udt_joint_signal_shape_discrimination_2026-09-13/review/checks/direct.stderr\n?? udt_joint_signal_shape_discrimination_2026-09-13/review/checks/evidence_correspondence.capture_provenance.json\n?? udt_joint_signal_shape_discrimination_2026-09-13/review/checks/evidence_correspondence.json\n?? udt_joint_signal_shape_discrimination_2026-09-13/review/checks/evidence_correspondence.stderr\n?? udt_joint_signal_shape_discrimination_2026-09-13/review/checks/final_fidelity.capture_provenance.json\n?? udt_joint_signal_shape_discrimination_2026-09-13/review/checks/final_fidelity.json\n?? udt_joint_signal_shape_discrimination_2026-09-13/review/checks/final_fidelity.stderr\n?? udt_joint_signal_shape_discrimination_2026-09-13/review/checks/parent_mutant_replay.capture_provenance.json\n?? udt_joint_signal_shape_discrimination_2026-09-13/review/checks/parent_mutant_replay.json\n?? udt_joint_signal_shape_discrimination_2026-09-13/review/checks/parent_mutant_replay.stderr\n?? udt_joint_signal_shape_discrimination_2026-09-13/review/checks/parent_replay.capture_provenance.json\n?? udt_joint_signal_shape_discrimination_2026-09-13/review/checks/parent_replay.json\n?? udt_joint_signal_shape_discrimination_2026-09-13/review/checks/parent_replay.stderr\n?? udt_joint_signal_shape_discrimination_2026-09-13/review/checks/source_first.capture_provenance.json\n?? udt_joint_signal_shape_discrimination_2026-09-13/review/checks/source_first.json\n?? udt_joint_signal_shape_discrimination_2026-09-13/review/checks/source_first.stderr\n?? udt_joint_signal_shape_discrimination_2026-09-13/review/direct_checks.py\n?? udt_joint_signal_shape_discrimination_2026-09-13/review/source_first_check.py\n?? udt_joint_signal_shape_discrimination_2026-09-13/review/verify_review_evidence.py\n?? udt_joint_signal_shape_discrimination_2026-09-13/verify_saved_evidence.py\n?? udt_native_onshell_timelive_reset_owner_audit_2026-08-10/CANDIDATE_LAW_MAP.tsv\n?? udt_native_onshell_timelive_reset_owner_audit_2026-08-10/DERIVATION_RESULT.json\n?? udt_native_onshell_timelive_reset_owner_audit_2026-08-10/EQUATION_OWNERSHIP_ATLAS.tsv\n?? udt_native_onshell_timelive_reset_owner_audit_2026-08-10/SOURCE_SCOPE_CLARIFICATION.md\n?? udt_native_onshell_timelive_reset_owner_audit_2026-08-10/derive_owner_atlas.py\n?? udt_native_onshell_timelive_reset_owner_audit_2026-08-10/run_catch_proofs.py\n?? udt_native_onshell_timelive_reset_owner_audit_2026-08-10/verify_owner_independent.py\n?? udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/ADVERSARIAL_REVIEW_REQUEST.md\n?? udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/AUDIT_REPORT.md\n?? udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/CATCH_PROOF_RESULT.json\n?? udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/DERIVATION_RESULT.json\n?? udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/EVIDENCE_GATES.md\n?? udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/EXACT_DERIVATION.md\n?? udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/INDEPENDENT_VERIFICATION.json\n?? udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/LAY_REPORT.md\n?? udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/STATUS_LEDGER.tsv\n?? udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/VERIFICATION_RESULT.json\n?? udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/WITNESS_ATLAS.tsv\n?? udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/build_review_intake.py\n?? udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/derive_regime_flow.py\n?? udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/run_catch_proofs.py\n?? udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/verify_independent.py\n?? udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/verify_package.py\n?? udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/AUDIT_REPORT.md\n?? udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/CATCH_PROOF_RESULT.json\n?? udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/DERIVATION_RESULT.json\n?? udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/EVIDENCE_GATES.md\n?? udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/EXACT_DERIVATION.md\n?? udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/INDEPENDENT_RADAU_REPLAY.tsv\n?? udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/INDEPENDENT_VERIFICATION.json\n?? udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/LAY_REPORT.md\n?? udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/PREREGISTRATION_EXECUTION_NOTE.md\n?? udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/PROFILE_COMPATIBILITY_ATLAS.tsv\n?? udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/REVIEW_DISPATCH.md\n?? udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/RUN_CHECKPOINT.tsv\n?? udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/STATUS_LEDGER.tsv\n?? udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/VERIFICATION_RESULT.json\n?? udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/build_review_manifest.py\n?? udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/derive_compatibility_atlas.py\n?? udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/run_catch_proofs.py\n?? udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/verify_independent.py\n?? udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/verify_package.py\n",
+      "stderr": ""
+    },
+    {
+      "utc": "2026-09-13T04:13:45.785876+00:00",
+      "command": [
+        "git",
+        "rev-parse",
+        "--abbrev-ref",
+        "HEAD"
+      ],
+      "exit": 0,
+      "stdout": "grok\n",
+      "stderr": ""
+    },
+    {
+      "utc": "2026-09-13T04:13:45.787464+00:00",
+      "command": [
+        "git",
+        "rev-parse",
+        "HEAD",
+        "origin/grok"
+      ],
+      "exit": 0,
+      "stdout": "3ce1bcb806d506b21bb20eabd5b942df0613880c\n3ce1bcb806d506b21bb20eabd5b942df0613880c\n",
+      "stderr": ""
+    },
+    {
+      "utc": "2026-09-13T04:13:45.789432+00:00",
+      "command": [
+        "git",
+        "diff",
+        "--cached",
+        "--name-only"
+      ],
+      "exit": 0,
+      "stdout": "",
+      "stderr": ""
+    },
+    {
+      "utc": "2026-09-13T04:13:45.796105+00:00",
+      "command": [
+        "git",
+        "diff",
+        "--name-only"
+      ],
+      "exit": 0,
+      "stdout": "CURRENT_RESEARCH_PROGRAM.md\nHANDOFF.md\nINDEX.md\nLIVE.md\nMEMORY.md\nUDT_RESEARCH_ROADMAP.md\nudt_signal_continuation_2026-09-13/CHECKPOINT.md\n",
+      "stderr": ""
+    },
+    {
+      "utc": "2026-09-13T04:13:45.804681+00:00",
+      "command": [
+        "git",
+        "status",
+        "--short",
+        "--untracked-files=all"
+      ],
+      "exit": 0,
+      "stdout": " M CURRENT_RESEARCH_PROGRAM.md\n M HANDOFF.md\n M INDEX.md\n M LIVE.md\n M MEMORY.md\n M UDT_RESEARCH_ROADMAP.md\n M udt_signal_continuation_2026-09-13/CHECKPOINT.md\n?? 8_25/UDT_FOUNDING_VALUE_LAW_ANALYSIS.md\n?? 8_25/udt_extension_checks.py\n?? 8_25/udt_extension_minimality_response.md\n?? 8_25/udt_value_law_checks.py\n?? 8_25/udt_value_law_checks_llm1.py\n?? 8_25/udt_value_law_external_response.md\n?? UDT_Complete_Guardrails_and_Central_Science_Tracking.md\n?? UDT_Next_Step_After_Two_Stages.md\n?? UDT_Sequenced_Guardrails_and_Development_Work_Order.md\n?? udt_joint_signal_shape_discrimination_2026-09-13/AUDIT_REUSE.json\n?? udt_joint_signal_shape_discrimination_2026-09-13/CANDIDATE_FREEZE.json\n?? udt_joint_signal_shape_discrimination_2026-09-13/CLOSEOUT.md\n?? udt_joint_signal_shape_discrimination_2026-09-13/COMPLETE_CAPTURE_AMENDMENT.json\n?? udt_joint_signal_shape_discrimination_2026-09-13/CONTINUATION_REVIEW_LEDGER.json\n?? udt_joint_signal_shape_discrimination_2026-09-13/DECISION_BRIEF.md\n?? udt_joint_signal_shape_discrimination_2026-09-13/EXECUTION_INTERVALS.json\n?? udt_joint_signal_shape_discrimination_2026-09-13/FINAL_EXECUTION_INTERVALS.json\n?? udt_joint_signal_shape_discrimination_2026-09-13/FINAL_NAVIGATION_INPUTS.json\n?? udt_joint_signal_shape_discrimination_2026-09-13/FINAL_REVIEW_INTAKE.json\n?? udt_joint_signal_shape_discrimination_2026-09-13/FINITE_GATE_DIAGNOSTIC.md\n?? udt_joint_signal_shape_discrimination_2026-09-13/INITIAL_CANDIDATE.md\n?? udt_joint_signal_shape_discrimination_2026-09-13/INITIAL_check_discrimination.py\n?? udt_joint_signal_shape_discrimination_2026-09-13/LAUNCH.json\n?? udt_joint_signal_shape_discrimination_2026-09-13/MAGNITUDE_SUPPLEMENT.md\n?? udt_joint_signal_shape_discrimination_2026-09-13/MAGNITUDE_SUPPLEMENT_FREEZE.json\n?? udt_joint_signal_shape_discrimination_2026-09-13/PARENT_PUBLICATION_AUDIT.json\n?? udt_joint_signal_shape_discrimination_2026-09-13/PUBLISH_PLAN.json\n?? udt_joint_signal_shape_discrimination_2026-09-13/RECORDS.tsv\n?? udt_joint_signal_shape_discrimination_2026-09-13/REVIEWED_RESULT.md\n?? udt_joint_signal_shape_discrimination_2026-09-13/REVIEW_ALLOCATION.json\n?? udt_joint_signal_shape_discrimination_2026-09-13/REVIEW_DISPATCH.md\n?? udt_joint_signal_shape_discrimination_2026-09-13/SCOPE_MAP.tsv\n?? udt_joint_signal_shape_discrimination_2026-09-13/SHA256SUMS.json\n?? udt_joint_signal_shape_discrimination_2026-09-13/SIMPLIFIER_REPAIRED_check_discrimination.py\n?? udt_joint_signal_shape_discrimination_2026-09-13/SOURCE_PINS.json\n?? udt_joint_signal_shape_discrimination_2026-09-13/SYMBOLIC_NORMAL_FORM_REPAIR.md\n?? udt_joint_signal_shape_discrimination_2026-09-13/SYMBOLIC_REPAIR_FREEZE.json\n?? udt_joint_signal_shape_discrimination_2026-09-13/WORK_ORDER.md\n?? udt_joint_signal_shape_discrimination_2026-09-13/check_discrimination.py\n?? udt_joint_signal_shape_discrimination_2026-09-13/checks/current_surface.capture_provenance.json\n?? udt_joint_signal_shape_discrimination_2026-09-13/checks/current_surface.json\n?? udt_joint_signal_shape_discrimination_2026-09-13/checks/current_surface.stderr\n?? udt_joint_signal_shape_discrimination_2026-09-13/checks/discrimination_complete.capture_provenance.json\n?? udt_joint_signal_shape_discrimination_2026-09-13/checks/discrimination_complete.json\n?? udt_joint_signal_shape_discrimination_2026-09-13/checks/discrimination_complete.stderr\n?? udt_joint_signal_shape_discrimination_2026-09-13/checks/discrimination_initial.capture_provenance.json\n?? udt_joint_signal_shape_discrimination_2026-09-13/checks/discrimination_initial.json\n?? udt_joint_signal_shape_discrimination_2026-09-13/checks/discrimination_initial.stderr\n?? udt_joint_signal_shape_discrimination_2026-09-13/checks/discrimination_repaired.capture_provenance.json\n?? udt_joint_signal_shape_discrimination_2026-09-13/checks/discrimination_repaired.json\n?? udt_joint_signal_shape_discrimination_2026-09-13/checks/discrimination_repaired.stderr\n?? udt_joint_signal_shape_discrimination_2026-09-13/checks/mutant_endpoint_rulers.capture_provenance.json\n?? udt_joint_signal_shape_discrimination_2026-09-13/checks/mutant_endpoint_rulers.json\n?? udt_joint_signal_shape_discrimination_2026-09-13/checks/mutant_endpoint_rulers.stderr\n?? udt_joint_signal_shape_discrimination_2026-09-13/checks/navigation.capture_provenance.json\n?? udt_joint_signal_shape_discrimination_2026-09-13/checks/navigation.json\n?? udt_joint_signal_shape_discrimination_2026-09-13/checks/navigation.stderr\n?? udt_joint_signal_shape_discrimination_2026-09-13/checks/saved_evidence.capture_provenance.json\n?? udt_joint_signal_shape_discrimination_2026-09-13/checks/saved_evidence.json\n?? udt_joint_signal_shape_discrimination_2026-09-13/checks/saved_evidence.stderr\n?? udt_joint_signal_shape_discrimination_2026-09-13/checks/trig_diagnostic.capture_provenance.json\n?? udt_joint_signal_shape_discrimination_2026-09-13/checks/trig_diagnostic.json\n?? udt_joint_signal_shape_discrimination_2026-09-13/checks/trig_diagnostic.stderr\n?? udt_joint_signal_shape_discrimination_2026-09-13/review/DIRECT_REVIEW.md\n?? udt_joint_signal_shape_discrimination_2026-09-13/review/DIRECT_REVIEW_SEAL.json\n?? udt_joint_signal_shape_discrimination_2026-09-13/review/FINAL_FIDELITY.md\n?? udt_joint_signal_shape_discrimination_2026-09-13/review/FINAL_RECEIPT.json\n?? udt_joint_signal_shape_discrimination_2026-09-13/review/FINAL_REVIEW_SHA256SUMS\n?? udt_joint_signal_shape_discrimination_2026-09-13/review/FINAL_VISIBLE_STATUS.txt\n?? udt_joint_signal_shape_discrimination_2026-09-13/review/SOURCE_FIRST_ARGUMENT.md\n?? udt_joint_signal_shape_discrimination_2026-09-13/review/SOURCE_FIRST_SEAL.json\n?? udt_joint_signal_shape_discrimination_2026-09-13/review/check_final_fidelity.py\n?? udt_joint_signal_shape_discrimination_2026-09-13/review/checks/direct.capture_provenance.json\n?? udt_joint_signal_shape_discrimination_2026-09-13/review/checks/direct.json\n?? udt_joint_signal_shape_discrimination_2026-09-13/review/checks/direct.stderr\n?? udt_joint_signal_shape_discrimination_2026-09-13/review/checks/evidence_correspondence.capture_provenance.json\n?? udt_joint_signal_shape_discrimination_2026-09-13/review/checks/evidence_correspondence.json\n?? udt_joint_signal_shape_discrimination_2026-09-13/review/checks/evidence_correspondence.stderr\n?? udt_joint_signal_shape_discrimination_2026-09-13/review/checks/final_fidelity.capture_provenance.json\n?? udt_joint_signal_shape_discrimination_2026-09-13/review/checks/final_fidelity.json\n?? udt_joint_signal_shape_discrimination_2026-09-13/review/checks/final_fidelity.stderr\n?? udt_joint_signal_shape_discrimination_2026-09-13/review/checks/parent_mutant_replay.capture_provenance.json\n?? udt_joint_signal_shape_discrimination_2026-09-13/review/checks/parent_mutant_replay.json\n?? udt_joint_signal_shape_discrimination_2026-09-13/review/checks/parent_mutant_replay.stderr\n?? udt_joint_signal_shape_discrimination_2026-09-13/review/checks/parent_replay.capture_provenance.json\n?? udt_joint_signal_shape_discrimination_2026-09-13/review/checks/parent_replay.json\n?? udt_joint_signal_shape_discrimination_2026-09-13/review/checks/parent_replay.stderr\n?? udt_joint_signal_shape_discrimination_2026-09-13/review/checks/source_first.capture_provenance.json\n?? udt_joint_signal_shape_discrimination_2026-09-13/review/checks/source_first.json\n?? udt_joint_signal_shape_discrimination_2026-09-13/review/checks/source_first.stderr\n?? udt_joint_signal_shape_discrimination_2026-09-13/review/direct_checks.py\n?? udt_joint_signal_shape_discrimination_2026-09-13/review/source_first_check.py\n?? udt_joint_signal_shape_discrimination_2026-09-13/review/verify_review_evidence.py\n?? udt_joint_signal_shape_discrimination_2026-09-13/verify_saved_evidence.py\n?? udt_native_onshell_timelive_reset_owner_audit_2026-08-10/CANDIDATE_LAW_MAP.tsv\n?? udt_native_onshell_timelive_reset_owner_audit_2026-08-10/DERIVATION_RESULT.json\n?? udt_native_onshell_timelive_reset_owner_audit_2026-08-10/EQUATION_OWNERSHIP_ATLAS.tsv\n?? udt_native_onshell_timelive_reset_owner_audit_2026-08-10/SOURCE_SCOPE_CLARIFICATION.md\n?? udt_native_onshell_timelive_reset_owner_audit_2026-08-10/derive_owner_atlas.py\n?? udt_native_onshell_timelive_reset_owner_audit_2026-08-10/run_catch_proofs.py\n?? udt_native_onshell_timelive_reset_owner_audit_2026-08-10/verify_owner_independent.py\n?? udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/ADVERSARIAL_REVIEW_REQUEST.md\n?? udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/AUDIT_REPORT.md\n?? udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/CATCH_PROOF_RESULT.json\n?? udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/DERIVATION_RESULT.json\n?? udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/EVIDENCE_GATES.md\n?? udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/EXACT_DERIVATION.md\n?? udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/INDEPENDENT_VERIFICATION.json\n?? udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/LAY_REPORT.md\n?? udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/STATUS_LEDGER.tsv\n?? udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/VERIFICATION_RESULT.json\n?? udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/WITNESS_ATLAS.tsv\n?? udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/build_review_intake.py\n?? udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/derive_regime_flow.py\n?? udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/run_catch_proofs.py\n?? udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/verify_independent.py\n?? udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/verify_package.py\n?? udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/AUDIT_REPORT.md\n?? udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/CATCH_PROOF_RESULT.json\n?? udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/DERIVATION_RESULT.json\n?? udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/EVIDENCE_GATES.md\n?? udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/EXACT_DERIVATION.md\n?? udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/INDEPENDENT_RADAU_REPLAY.tsv\n?? udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/INDEPENDENT_VERIFICATION.json\n?? udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/LAY_REPORT.md\n?? udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/PREREGISTRATION_EXECUTION_NOTE.md\n?? udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/PROFILE_COMPATIBILITY_ATLAS.tsv\n?? udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/REVIEW_DISPATCH.md\n?? udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/RUN_CHECKPOINT.tsv\n?? udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/STATUS_LEDGER.tsv\n?? udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/VERIFICATION_RESULT.json\n?? udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/build_review_manifest.py\n?? udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/derive_compatibility_atlas.py\n?? udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/run_catch_proofs.py\n?? udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/verify_independent.py\n?? udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/verify_package.py\n",
+      "stderr": ""
+    },
+    {
+      "utc": "2026-09-13T04:14:02.157641+00:00",
+      "command": [
+        "git",
+        "add",
+        "-f",
+        "--pathspec-from-file=/tmp/udt_joint_signal_shape_discrimination_2026-09-13.nul",
+        "--pathspec-file-nul"
+      ],
+      "exit": 0,
+      "stdout": "",
+      "stderr": ""
+    },
+    {
+      "utc": "2026-09-13T04:14:02.209948+00:00",
+      "command": [
+        "git",
+        "diff",
+        "--cached",
+        "--check"
+      ],
+      "exit": 0,
+      "stdout": "",
+      "stderr": ""
+    },
+    {
+      "utc": "2026-09-13T04:14:02.220944+00:00",
+      "command": [
+        "git",
+        "diff",
+        "--cached",
+        "--name-only"
+      ],
+      "exit": 0,
+      "stdout": "CURRENT_RESEARCH_PROGRAM.md\nHANDOFF.md\nINDEX.md\nLIVE.md\nMEMORY.md\nUDT_RESEARCH_ROADMAP.md\nudt_joint_signal_shape_discrimination_2026-09-13/AUDIT_REUSE.json\nudt_joint_signal_shape_discrimination_2026-09-13/CANDIDATE_FREEZE.json\nudt_joint_signal_shape_discrimination_2026-09-13/CLOSEOUT.md\nudt_joint_signal_shape_discrimination_2026-09-13/COMPLETE_CAPTURE_AMENDMENT.json\nudt_joint_signal_shape_discrimination_2026-09-13/CONTINUATION_REVIEW_LEDGER.json\nudt_joint_signal_shape_discrimination_2026-09-13/DECISION_BRIEF.md\nudt_joint_signal_shape_discrimination_2026-09-13/EXECUTION_INTERVALS.json\nudt_joint_signal_shape_discrimination_2026-09-13/FINAL_EXECUTION_INTERVALS.json\nudt_joint_signal_shape_discrimination_2026-09-13/FINAL_NAVIGATION_INPUTS.json\nudt_joint_signal_shape_discrimination_2026-09-13/FINAL_REVIEW_INTAKE.json\nudt_joint_signal_shape_discrimination_2026-09-13/FINITE_GATE_DIAGNOSTIC.md\nudt_joint_signal_shape_discrimination_2026-09-13/INITIAL_CANDIDATE.md\nudt_joint_signal_shape_discrimination_2026-09-13/INITIAL_check_discrimination.py\nudt_joint_signal_shape_discrimination_2026-09-13/LAUNCH.json\nudt_joint_signal_shape_discrimination_2026-09-13/MAGNITUDE_SUPPLEMENT.md\nudt_joint_signal_shape_discrimination_2026-09-13/MAGNITUDE_SUPPLEMENT_FREEZE.json\nudt_joint_signal_shape_discrimination_2026-09-13/PARENT_PUBLICATION_AUDIT.json\nudt_joint_signal_shape_discrimination_2026-09-13/PUBLISH_PLAN.json\nudt_joint_signal_shape_discrimination_2026-09-13/RECORDS.tsv\nudt_joint_signal_shape_discrimination_2026-09-13/REVIEWED_RESULT.md\nudt_joint_signal_shape_discrimination_2026-09-13/REVIEW_ALLOCATION.json\nudt_joint_signal_shape_discrimination_2026-09-13/REVIEW_DISPATCH.md\nudt_joint_signal_shape_discrimination_2026-09-13/SCOPE_MAP.tsv\nudt_joint_signal_shape_discrimination_2026-09-13/SHA256SUMS.json\nudt_joint_signal_shape_discrimination_2026-09-13/SIMPLIFIER_REPAIRED_check_discrimination.py\nudt_joint_signal_shape_discrimination_2026-09-13/SOURCE_PINS.json\nudt_joint_signal_shape_discrimination_2026-09-13/SYMBOLIC_NORMAL_FORM_REPAIR.md\nudt_joint_signal_shape_discrimination_2026-09-13/SYMBOLIC_REPAIR_FREEZE.json\nudt_joint_signal_shape_discrimination_2026-09-13/WORK_ORDER.md\nudt_joint_signal_shape_discrimination_2026-09-13/check_discrimination.py\nudt_joint_signal_shape_discrimination_2026-09-13/checks/current_surface.capture_provenance.json\nudt_joint_signal_shape_discrimination_2026-09-13/checks/current_surface.json\nudt_joint_signal_shape_discrimination_2026-09-13/checks/current_surface.stderr\nudt_joint_signal_shape_discrimination_2026-09-13/checks/current_surface.stdout\nudt_joint_signal_shape_discrimination_2026-09-13/checks/discrimination_complete.capture_provenance.json\nudt_joint_signal_shape_discrimination_2026-09-13/checks/discrimination_complete.json\nudt_joint_signal_shape_discrimination_2026-09-13/checks/discrimination_complete.stderr\nudt_joint_signal_shape_discrimination_2026-09-13/checks/discrimination_complete.stdout\nudt_joint_signal_shape_discrimination_2026-09-13/checks/discrimination_initial.capture_provenance.json\nudt_joint_signal_shape_discrimination_2026-09-13/checks/discrimination_initial.json\nudt_joint_signal_shape_discrimination_2026-09-13/checks/discrimination_initial.stderr\nudt_joint_signal_shape_discrimination_2026-09-13/checks/discrimination_initial.stdout\nudt_joint_signal_shape_discrimination_2026-09-13/checks/discrimination_repaired.capture_provenance.json\nudt_joint_signal_shape_discrimination_2026-09-13/checks/discrimination_repaired.json\nudt_joint_signal_shape_discrimination_2026-09-13/checks/discrimination_repaired.stderr\nudt_joint_signal_shape_discrimination_2026-09-13/checks/discrimination_repaired.stdout\nudt_joint_signal_shape_discrimination_2026-09-13/checks/mutant_endpoint_rulers.capture_provenance.json\nudt_joint_signal_shape_discrimination_2026-09-13/checks/mutant_endpoint_rulers.json\nudt_joint_signal_shape_discrimination_2026-09-13/checks/mutant_endpoint_rulers.stderr\nudt_joint_signal_shape_discrimination_2026-09-13/checks/mutant_endpoint_rulers.stdout\nudt_joint_signal_shape_discrimination_2026-09-13/checks/navigation.capture_provenance.json\nudt_joint_signal_shape_discrimination_2026-09-13/checks/navigation.json\nudt_joint_signal_shape_discrimination_2026-09-13/checks/navigation.stderr\nudt_joint_signal_shape_discrimination_2026-09-13/checks/navigation.stdout\nudt_joint_signal_shape_discrimination_2026-09-13/checks/saved_evidence.capture_provenance.json\nudt_joint_signal_shape_discrimination_2026-09-13/checks/saved_evidence.json\nudt_joint_signal_shape_discrimination_2026-09-13/checks/saved_evidence.stderr\nudt_joint_signal_shape_discrimination_2026-09-13/checks/saved_evidence.stdout\nudt_joint_signal_shape_discrimination_2026-09-13/checks/trig_diagnostic.capture_provenance.json\nudt_joint_signal_shape_discrimination_2026-09-13/checks/trig_diagnostic.json\nudt_joint_signal_shape_discrimination_2026-09-13/checks/trig_diagnostic.stderr\nudt_joint_signal_shape_discrimination_2026-09-13/checks/trig_diagnostic.stdout\nudt_joint_signal_shape_discrimination_2026-09-13/review/DIRECT_REVIEW.md\nudt_joint_signal_shape_discrimination_2026-09-13/review/DIRECT_REVIEW_SEAL.json\nudt_joint_signal_shape_discrimination_2026-09-13/review/FINAL_FIDELITY.md\nudt_joint_signal_shape_discrimination_2026-09-13/review/FINAL_RECEIPT.json\nudt_joint_signal_shape_discrimination_2026-09-13/review/FINAL_REVIEW_SHA256SUMS\nudt_joint_signal_shape_discrimination_2026-09-13/review/FINAL_VISIBLE_STATUS.txt\nudt_joint_signal_shape_discrimination_2026-09-13/review/SOURCE_FIRST_ARGUMENT.md\nudt_joint_signal_shape_discrimination_2026-09-13/review/SOURCE_FIRST_SEAL.json\nudt_joint_signal_shape_discrimination_2026-09-13/review/check_final_fidelity.py\nudt_joint_signal_shape_discrimination_2026-09-13/review/checks/direct.capture_provenance.json\nudt_joint_signal_shape_discrimination_2026-09-13/review/checks/direct.json\nudt_joint_signal_shape_discrimination_2026-09-13/review/checks/direct.stderr\nudt_joint_signal_shape_discrimination_2026-09-13/review/checks/direct.stdout\nudt_joint_signal_shape_discrimination_2026-09-13/review/checks/evidence_correspondence.capture_provenance.json\nudt_joint_signal_shape_discrimination_2026-09-13/review/checks/evidence_correspondence.json\nudt_joint_signal_shape_discrimination_2026-09-13/review/checks/evidence_correspondence.stderr\nudt_joint_signal_shape_discrimination_2026-09-13/review/checks/evidence_correspondence.stdout\nudt_joint_signal_shape_discrimination_2026-09-13/review/checks/final_fidelity.capture_provenance.json\nudt_joint_signal_shape_discrimination_2026-09-13/review/checks/final_fidelity.json\nudt_joint_signal_shape_discrimination_2026-09-13/review/checks/final_fidelity.stderr\nudt_joint_signal_shape_discrimination_2026-09-13/review/checks/final_fidelity.stdout\nudt_joint_signal_shape_discrimination_2026-09-13/review/checks/parent_mutant_replay.capture_provenance.json\nudt_joint_signal_shape_discrimination_2026-09-13/review/checks/parent_mutant_replay.json\nudt_joint_signal_shape_discrimination_2026-09-13/review/checks/parent_mutant_replay.stderr\nudt_joint_signal_shape_discrimination_2026-09-13/review/checks/parent_mutant_replay.stdout\nudt_joint_signal_shape_discrimination_2026-09-13/review/checks/parent_replay.capture_provenance.json\nudt_joint_signal_shape_discrimination_2026-09-13/review/checks/parent_replay.json\nudt_joint_signal_shape_discrimination_2026-09-13/review/checks/parent_replay.stderr\nudt_joint_signal_shape_discrimination_2026-09-13/review/checks/parent_replay.stdout\nudt_joint_signal_shape_discrimination_2026-09-13/review/checks/source_first.capture_provenance.json\nudt_joint_signal_shape_discrimination_2026-09-13/review/checks/source_first.json\nudt_joint_signal_shape_discrimination_2026-09-13/review/checks/source_first.stderr\nudt_joint_signal_shape_discrimination_2026-09-13/review/checks/source_first.stdout\nudt_joint_signal_shape_discrimination_2026-09-13/review/direct_checks.py\nudt_joint_signal_shape_discrimination_2026-09-13/review/source_first_check.py\nudt_joint_signal_shape_discrimination_2026-09-13/review/verify_review_evidence.py\nudt_joint_signal_shape_discrimination_2026-09-13/verify_saved_evidence.py\nudt_signal_continuation_2026-09-13/CHECKPOINT.md\n",
+      "stderr": ""
+    },
+    {
+      "utc": "2026-09-13T04:14:06.669729+00:00",
+      "command": [
+        "git",
+        "diff",
+        "--cached",
+        "--check"
+      ],
+      "exit": 0,
+      "stdout": "",
+      "stderr": ""
+    },
+    {
+      "utc": "2026-09-13T04:14:06.679169+00:00",
+      "command": [
+        "git",
+        "diff",
+        "--cached",
+        "--name-only"
+      ],
+      "exit": 0,
+      "stdout": "CURRENT_RESEARCH_PROGRAM.md\nHANDOFF.md\nINDEX.md\nLIVE.md\nMEMORY.md\nUDT_RESEARCH_ROADMAP.md\nudt_joint_signal_shape_discrimination_2026-09-13/AUDIT_REUSE.json\nudt_joint_signal_shape_discrimination_2026-09-13/CANDIDATE_FREEZE.json\nudt_joint_signal_shape_discrimination_2026-09-13/CLOSEOUT.md\nudt_joint_signal_shape_discrimination_2026-09-13/COMPLETE_CAPTURE_AMENDMENT.json\nudt_joint_signal_shape_discrimination_2026-09-13/CONTINUATION_REVIEW_LEDGER.json\nudt_joint_signal_shape_discrimination_2026-09-13/DECISION_BRIEF.md\nudt_joint_signal_shape_discrimination_2026-09-13/EXECUTION_INTERVALS.json\nudt_joint_signal_shape_discrimination_2026-09-13/FINAL_EXECUTION_INTERVALS.json\nudt_joint_signal_shape_discrimination_2026-09-13/FINAL_NAVIGATION_INPUTS.json\nudt_joint_signal_shape_discrimination_2026-09-13/FINAL_REVIEW_INTAKE.json\nudt_joint_signal_shape_discrimination_2026-09-13/FINITE_GATE_DIAGNOSTIC.md\nudt_joint_signal_shape_discrimination_2026-09-13/INITIAL_CANDIDATE.md\nudt_joint_signal_shape_discrimination_2026-09-13/INITIAL_check_discrimination.py\nudt_joint_signal_shape_discrimination_2026-09-13/LAUNCH.json\nudt_joint_signal_shape_discrimination_2026-09-13/MAGNITUDE_SUPPLEMENT.md\nudt_joint_signal_shape_discrimination_2026-09-13/MAGNITUDE_SUPPLEMENT_FREEZE.json\nudt_joint_signal_shape_discrimination_2026-09-13/PARENT_PUBLICATION_AUDIT.json\nudt_joint_signal_shape_discrimination_2026-09-13/PUBLISH_PLAN.json\nudt_joint_signal_shape_discrimination_2026-09-13/RECORDS.tsv\nudt_joint_signal_shape_discrimination_2026-09-13/REVIEWED_RESULT.md\nudt_joint_signal_shape_discrimination_2026-09-13/REVIEW_ALLOCATION.json\nudt_joint_signal_shape_discrimination_2026-09-13/REVIEW_DISPATCH.md\nudt_joint_signal_shape_discrimination_2026-09-13/SCOPE_MAP.tsv\nudt_joint_signal_shape_discrimination_2026-09-13/SHA256SUMS.json\nudt_joint_signal_shape_discrimination_2026-09-13/SIMPLIFIER_REPAIRED_check_discrimination.py\nudt_joint_signal_shape_discrimination_2026-09-13/SOURCE_PINS.json\nudt_joint_signal_shape_discrimination_2026-09-13/SYMBOLIC_NORMAL_FORM_REPAIR.md\nudt_joint_signal_shape_discrimination_2026-09-13/SYMBOLIC_REPAIR_FREEZE.json\nudt_joint_signal_shape_discrimination_2026-09-13/WORK_ORDER.md\nudt_joint_signal_shape_discrimination_2026-09-13/check_discrimination.py\nudt_joint_signal_shape_discrimination_2026-09-13/checks/current_surface.capture_provenance.json\nudt_joint_signal_shape_discrimination_2026-09-13/checks/current_surface.json\nudt_joint_signal_shape_discrimination_2026-09-13/checks/current_surface.stderr\nudt_joint_signal_shape_discrimination_2026-09-13/checks/current_surface.stdout\nudt_joint_signal_shape_discrimination_2026-09-13/checks/discrimination_complete.capture_provenance.json\nudt_joint_signal_shape_discrimination_2026-09-13/checks/discrimination_complete.json\nudt_joint_signal_shape_discrimination_2026-09-13/checks/discrimination_complete.stderr\nudt_joint_signal_shape_discrimination_2026-09-13/checks/discrimination_complete.stdout\nudt_joint_signal_shape_discrimination_2026-09-13/checks/discrimination_initial.capture_provenance.json\nudt_joint_signal_shape_discrimination_2026-09-13/checks/discrimination_initial.json\nudt_joint_signal_shape_discrimination_2026-09-13/checks/discrimination_initial.stderr\nudt_joint_signal_shape_discrimination_2026-09-13/checks/discrimination_initial.stdout\nudt_joint_signal_shape_discrimination_2026-09-13/checks/discrimination_repaired.capture_provenance.json\nudt_joint_signal_shape_discrimination_2026-09-13/checks/discrimination_repaired.json\nudt_joint_signal_shape_discrimination_2026-09-13/checks/discrimination_repaired.stderr\nudt_joint_signal_shape_discrimination_2026-09-13/checks/discrimination_repaired.stdout\nudt_joint_signal_shape_discrimination_2026-09-13/checks/mutant_endpoint_rulers.capture_provenance.json\nudt_joint_signal_shape_discrimination_2026-09-13/checks/mutant_endpoint_rulers.json\nudt_joint_signal_shape_discrimination_2026-09-13/checks/mutant_endpoint_rulers.stderr\nudt_joint_signal_shape_discrimination_2026-09-13/checks/mutant_endpoint_rulers.stdout\nudt_joint_signal_shape_discrimination_2026-09-13/checks/navigation.capture_provenance.json\nudt_joint_signal_shape_discrimination_2026-09-13/checks/navigation.json\nudt_joint_signal_shape_discrimination_2026-09-13/checks/navigation.stderr\nudt_joint_signal_shape_discrimination_2026-09-13/checks/navigation.stdout\nudt_joint_signal_shape_discrimination_2026-09-13/checks/saved_evidence.capture_provenance.json\nudt_joint_signal_shape_discrimination_2026-09-13/checks/saved_evidence.json\nudt_joint_signal_shape_discrimination_2026-09-13/checks/saved_evidence.stderr\nudt_joint_signal_shape_discrimination_2026-09-13/checks/saved_evidence.stdout\nudt_joint_signal_shape_discrimination_2026-09-13/checks/trig_diagnostic.capture_provenance.json\nudt_joint_signal_shape_discrimination_2026-09-13/checks/trig_diagnostic.json\nudt_joint_signal_shape_discrimination_2026-09-13/checks/trig_diagnostic.stderr\nudt_joint_signal_shape_discrimination_2026-09-13/checks/trig_diagnostic.stdout\nudt_joint_signal_shape_discrimination_2026-09-13/review/DIRECT_REVIEW.md\nudt_joint_signal_shape_discrimination_2026-09-13/review/DIRECT_REVIEW_SEAL.json\nudt_joint_signal_shape_discrimination_2026-09-13/review/FINAL_FIDELITY.md\nudt_joint_signal_shape_discrimination_2026-09-13/review/FINAL_RECEIPT.json\nudt_joint_signal_shape_discrimination_2026-09-13/review/FINAL_REVIEW_SHA256SUMS\nudt_joint_signal_shape_discrimination_2026-09-13/review/FINAL_VISIBLE_STATUS.txt\nudt_joint_signal_shape_discrimination_2026-09-13/review/SOURCE_FIRST_ARGUMENT.md\nudt_joint_signal_shape_discrimination_2026-09-13/review/SOURCE_FIRST_SEAL.json\nudt_joint_signal_shape_discrimination_2026-09-13/review/check_final_fidelity.py\nudt_joint_signal_shape_discrimination_2026-09-13/review/checks/direct.capture_provenance.json\nudt_joint_signal_shape_discrimination_2026-09-13/review/checks/direct.json\nudt_joint_signal_shape_discrimination_2026-09-13/review/checks/direct.stderr\nudt_joint_signal_shape_discrimination_2026-09-13/review/checks/direct.stdout\nudt_joint_signal_shape_discrimination_2026-09-13/review/checks/evidence_correspondence.capture_provenance.json\nudt_joint_signal_shape_discrimination_2026-09-13/review/checks/evidence_correspondence.json\nudt_joint_signal_shape_discrimination_2026-09-13/review/checks/evidence_correspondence.stderr\nudt_joint_signal_shape_discrimination_2026-09-13/review/checks/evidence_correspondence.stdout\nudt_joint_signal_shape_discrimination_2026-09-13/review/checks/final_fidelity.capture_provenance.json\nudt_joint_signal_shape_discrimination_2026-09-13/review/checks/final_fidelity.json\nudt_joint_signal_shape_discrimination_2026-09-13/review/checks/final_fidelity.stderr\nudt_joint_signal_shape_discrimination_2026-09-13/review/checks/final_fidelity.stdout\nudt_joint_signal_shape_discrimination_2026-09-13/review/checks/parent_mutant_replay.capture_provenance.json\nudt_joint_signal_shape_discrimination_2026-09-13/review/checks/parent_mutant_replay.json\nudt_joint_signal_shape_discrimination_2026-09-13/review/checks/parent_mutant_replay.stderr\nudt_joint_signal_shape_discrimination_2026-09-13/review/checks/parent_mutant_replay.stdout\nudt_joint_signal_shape_discrimination_2026-09-13/review/checks/parent_replay.capture_provenance.json\nudt_joint_signal_shape_discrimination_2026-09-13/review/checks/parent_replay.json\nudt_joint_signal_shape_discrimination_2026-09-13/review/checks/parent_replay.stderr\nudt_joint_signal_shape_discrimination_2026-09-13/review/checks/parent_replay.stdout\nudt_joint_signal_shape_discrimination_2026-09-13/review/checks/source_first.capture_provenance.json\nudt_joint_signal_shape_discrimination_2026-09-13/review/checks/source_first.json\nudt_joint_signal_shape_discrimination_2026-09-13/review/checks/source_first.stderr\nudt_joint_signal_shape_discrimination_2026-09-13/review/checks/source_first.stdout\nudt_joint_signal_shape_discrimination_2026-09-13/review/direct_checks.py\nudt_joint_signal_shape_discrimination_2026-09-13/review/source_first_check.py\nudt_joint_signal_shape_discrimination_2026-09-13/review/verify_review_evidence.py\nudt_joint_signal_shape_discrimination_2026-09-13/verify_saved_evidence.py\nudt_signal_continuation_2026-09-13/CHECKPOINT.md\n",
+      "stderr": ""
+    },
+    {
+      "utc": "2026-09-13T04:14:06.683969+00:00",
+      "command": [
+        "git",
+        "commit",
+        "-m",
+        "Preserve reviewed conditional signal shape discrimination and limits"
+      ],
+      "exit": 0,
+      "stdout": "[grok b54eb812] Preserve reviewed conditional signal shape discrimination and limits\n 106 files changed, 28695 insertions(+), 34 deletions(-)\n create mode 100644 udt_joint_signal_shape_discrimination_2026-09-13/AUDIT_REUSE.json\n create mode 100644 udt_joint_signal_shape_discrimination_2026-09-13/CANDIDATE_FREEZE.json\n create mode 100644 udt_joint_signal_shape_discrimination_2026-09-13/CLOSEOUT.md\n create mode 100644 udt_joint_signal_shape_discrimination_2026-09-13/COMPLETE_CAPTURE_AMENDMENT.json\n create mode 100644 udt_joint_signal_shape_discrimination_2026-09-13/CONTINUATION_REVIEW_LEDGER.json\n create mode 100644 udt_joint_signal_shape_discrimination_2026-09-13/DECISION_BRIEF.md\n create mode 100644 udt_joint_signal_shape_discrimination_2026-09-13/EXECUTION_INTERVALS.json\n create mode 100644 udt_joint_signal_shape_discrimination_2026-09-13/FINAL_EXECUTION_INTERVALS.json\n create mode 100644 udt_joint_signal_shape_discrimination_2026-09-13/FINAL_NAVIGATION_INPUTS.json\n create mode 100644 udt_joint_signal_shape_discrimination_2026-09-13/FINAL_REVIEW_INTAKE.json\n create mode 100644 udt_joint_signal_shape_discrimination_2026-09-13/FINITE_GATE_DIAGNOSTIC.md\n create mode 100644 udt_joint_signal_shape_discrimination_2026-09-13/INITIAL_CANDIDATE.md\n create mode 100644 udt_joint_signal_shape_discrimination_2026-09-13/INITIAL_check_discrimination.py\n create mode 100644 udt_joint_signal_shape_discrimination_2026-09-13/LAUNCH.json\n create mode 100644 udt_joint_signal_shape_discrimination_2026-09-13/MAGNITUDE_SUPPLEMENT.md\n create mode 100644 udt_joint_signal_shape_discrimination_2026-09-13/MAGNITUDE_SUPPLEMENT_FREEZE.json\n create mode 100644 udt_joint_signal_shape_discrimination_2026-09-13/PARENT_PUBLICATION_AUDIT.json\n create mode 100644 udt_joint_signal_shape_discrimination_2026-09-13/PUBLISH_PLAN.json\n create mode 100644 udt_joint_signal_shape_discrimination_2026-09-13/RECORDS.tsv\n create mode 100644 udt_joint_signal_shape_discrimination_2026-09-13/REVIEWED_RESULT.md\n create mode 100644 udt_joint_signal_shape_discrimination_2026-09-13/REVIEW_ALLOCATION.json\n create mode 100644 udt_joint_signal_shape_discrimination_2026-09-13/REVIEW_DISPATCH.md\n create mode 100644 udt_joint_signal_shape_discrimination_2026-09-13/SCOPE_MAP.tsv\n create mode 100644 udt_joint_signal_shape_discrimination_2026-09-13/SHA256SUMS.json\n create mode 100644 udt_joint_signal_shape_discrimination_2026-09-13/SIMPLIFIER_REPAIRED_check_discrimination.py\n create mode 100644 udt_joint_signal_shape_discrimination_2026-09-13/SOURCE_PINS.json\n create mode 100644 udt_joint_signal_shape_discrimination_2026-09-13/SYMBOLIC_NORMAL_FORM_REPAIR.md\n create mode 100644 udt_joint_signal_shape_discrimination_2026-09-13/SYMBOLIC_REPAIR_FREEZE.json\n create mode 100644 udt_joint_signal_shape_discrimination_2026-09-13/WORK_ORDER.md\n create mode 100644 udt_joint_signal_shape_discrimination_2026-09-13/check_discrimination.py\n create mode 100644 udt_joint_signal_shape_discrimination_2026-09-13/checks/current_surface.capture_provenance.json\n create mode 100644 udt_joint_signal_shape_discrimination_2026-09-13/checks/current_surface.json\n create mode 100644 udt_joint_signal_shape_discrimination_2026-09-13/checks/current_surface.stderr\n create mode 100644 udt_joint_signal_shape_discrimination_2026-09-13/checks/current_surface.stdout\n create mode 100644 udt_joint_signal_shape_discrimination_2026-09-13/checks/discrimination_complete.capture_provenance.json\n create mode 100644 udt_joint_signal_shape_discrimination_2026-09-13/checks/discrimination_complete.json\n create mode 100644 udt_joint_signal_shape_discrimination_2026-09-13/checks/discrimination_complete.stderr\n create mode 100644 udt_joint_signal_shape_discrimination_2026-09-13/checks/discrimination_complete.stdout\n create mode 100644 udt_joint_signal_shape_discrimination_2026-09-13/checks/discrimination_initial.capture_provenance.json\n create mode 100644 udt_joint_signal_shape_discrimination_2026-09-13/checks/discrimination_initial.json\n create mode 100644 udt_joint_signal_shape_discrimination_2026-09-13/checks/discrimination_initial.stderr\n create mode 100644 udt_joint_signal_shape_discrimination_2026-09-13/checks/discrimination_initial.stdout\n create mode 100644 udt_joint_signal_shape_discrimination_2026-09-13/checks/discrimination_repaired.capture_provenance.json\n create mode 100644 udt_joint_signal_shape_discrimination_2026-09-13/checks/discrimination_repaired.json\n create mode 100644 udt_joint_signal_shape_discrimination_2026-09-13/checks/discrimination_repaired.stderr\n create mode 100644 udt_joint_signal_shape_discrimination_2026-09-13/checks/discrimination_repaired.stdout\n create mode 100644 udt_joint_signal_shape_discrimination_2026-09-13/checks/mutant_endpoint_rulers.capture_provenance.json\n create mode 100644 udt_joint_signal_shape_discrimination_2026-09-13/checks/mutant_endpoint_rulers.json\n create mode 100644 udt_joint_signal_shape_discrimination_2026-09-13/checks/mutant_endpoint_rulers.stderr\n create mode 100644 udt_joint_signal_shape_discrimination_2026-09-13/checks/mutant_endpoint_rulers.stdout\n create mode 100644 udt_joint_signal_shape_discrimination_2026-09-13/checks/navigation.capture_provenance.json\n create mode 100644 udt_joint_signal_shape_discrimination_2026-09-13/checks/navigation.json\n create mode 100644 udt_joint_signal_shape_discrimination_2026-09-13/checks/navigation.stderr\n create mode 100644 udt_joint_signal_shape_discrimination_2026-09-13/checks/navigation.stdout\n create mode 100644 udt_joint_signal_shape_discrimination_2026-09-13/checks/saved_evidence.capture_provenance.json\n create mode 100644 udt_joint_signal_shape_discrimination_2026-09-13/checks/saved_evidence.json\n create mode 100644 udt_joint_signal_shape_discrimination_2026-09-13/checks/saved_evidence.stderr\n create mode 100644 udt_joint_signal_shape_discrimination_2026-09-13/checks/saved_evidence.stdout\n create mode 100644 udt_joint_signal_shape_discrimination_2026-09-13/checks/trig_diagnostic.capture_provenance.json\n create mode 100644 udt_joint_signal_shape_discrimination_2026-09-13/checks/trig_diagnostic.json\n create mode 100644 udt_joint_signal_shape_discrimination_2026-09-13/checks/trig_diagnostic.stderr\n create mode 100644 udt_joint_signal_shape_discrimination_2026-09-13/checks/trig_diagnostic.stdout\n create mode 100644 udt_joint_signal_shape_discrimination_2026-09-13/review/DIRECT_REVIEW.md\n create mode 100644 udt_joint_signal_shape_discrimination_2026-09-13/review/DIRECT_REVIEW_SEAL.json\n create mode 100644 udt_joint_signal_shape_discrimination_2026-09-13/review/FINAL_FIDELITY.md\n create mode 100644 udt_joint_signal_shape_discrimination_2026-09-13/review/FINAL_RECEIPT.json\n create mode 100644 udt_joint_signal_shape_discrimination_2026-09-13/review/FINAL_REVIEW_SHA256SUMS\n create mode 100644 udt_joint_signal_shape_discrimination_2026-09-13/review/FINAL_VISIBLE_STATUS.txt\n create mode 100644 udt_joint_signal_shape_discrimination_2026-09-13/review/SOURCE_FIRST_ARGUMENT.md\n create mode 100644 udt_joint_signal_shape_discrimination_2026-09-13/review/SOURCE_FIRST_SEAL.json\n create mode 100644 udt_joint_signal_shape_discrimination_2026-09-13/review/check_final_fidelity.py\n create mode 100644 udt_joint_signal_shape_discrimination_2026-09-13/review/checks/direct.capture_provenance.json\n create mode 100644 udt_joint_signal_shape_discrimination_2026-09-13/review/checks/direct.json\n create mode 100644 udt_joint_signal_shape_discrimination_2026-09-13/review/checks/direct.stderr\n create mode 100644 udt_joint_signal_shape_discrimination_2026-09-13/review/checks/direct.stdout\n create mode 100644 udt_joint_signal_shape_discrimination_2026-09-13/review/checks/evidence_correspondence.capture_provenance.json\n create mode 100644 udt_joint_signal_shape_discrimination_2026-09-13/review/checks/evidence_correspondence.json\n create mode 100644 udt_joint_signal_shape_discrimination_2026-09-13/review/checks/evidence_correspondence.stderr\n create mode 100644 udt_joint_signal_shape_discrimination_2026-09-13/review/checks/evidence_correspondence.stdout\n create mode 100644 udt_joint_signal_shape_discrimination_2026-09-13/review/checks/final_fidelity.capture_provenance.json\n create mode 100644 udt_joint_signal_shape_discrimination_2026-09-13/review/checks/final_fidelity.json\n create mode 100644 udt_joint_signal_shape_discrimination_2026-09-13/review/checks/final_fidelity.stderr\n create mode 100644 udt_joint_signal_shape_discrimination_2026-09-13/review/checks/final_fidelity.stdout\n create mode 100644 udt_joint_signal_shape_discrimination_2026-09-13/review/checks/parent_mutant_replay.capture_provenance.json\n create mode 100644 udt_joint_signal_shape_discrimination_2026-09-13/review/checks/parent_mutant_replay.json\n create mode 100644 udt_joint_signal_shape_discrimination_2026-09-13/review/checks/parent_mutant_replay.stderr\n create mode 100644 udt_joint_signal_shape_discrimination_2026-09-13/review/checks/parent_mutant_replay.stdout\n create mode 100644 udt_joint_signal_shape_discrimination_2026-09-13/review/checks/parent_replay.capture_provenance.json\n create mode 100644 udt_joint_signal_shape_discrimination_2026-09-13/review/checks/parent_replay.json\n create mode 100644 udt_joint_signal_shape_discrimination_2026-09-13/review/checks/parent_replay.stderr\n create mode 100644 udt_joint_signal_shape_discrimination_2026-09-13/review/checks/parent_replay.stdout\n create mode 100644 udt_joint_signal_shape_discrimination_2026-09-13/review/checks/source_first.capture_provenance.json\n create mode 100644 udt_joint_signal_shape_discrimination_2026-09-13/review/checks/source_first.json\n create mode 100644 udt_joint_signal_shape_discrimination_2026-09-13/review/checks/source_first.stderr\n create mode 100644 udt_joint_signal_shape_discrimination_2026-09-13/review/checks/source_first.stdout\n create mode 100644 udt_joint_signal_shape_discrimination_2026-09-13/review/direct_checks.py\n create mode 100644 udt_joint_signal_shape_discrimination_2026-09-13/review/source_first_check.py\n create mode 100644 udt_joint_signal_shape_discrimination_2026-09-13/review/verify_review_evidence.py\n create mode 100644 udt_joint_signal_shape_discrimination_2026-09-13/verify_saved_evidence.py\n rewrite udt_signal_continuation_2026-09-13/CHECKPOINT.md (94%)\n",
+      "stderr": ""
+    },
+    {
+      "utc": "2026-09-13T04:14:06.714738+00:00",
+      "command": [
+        "git",
+        "rev-parse",
+        "HEAD"
+      ],
+      "exit": 0,
+      "stdout": "b54eb8127728745d85ea36d8e5c4ab171a4b8c7e\n",
+      "stderr": ""
+    },
+    {
+      "utc": "2026-09-13T04:14:06.716232+00:00",
+      "command": [
+        "git",
+        "diff-tree",
+        "--no-commit-id",
+        "--name-only",
+        "-r",
+        "HEAD"
+      ],
+      "exit": 0,
+      "stdout": "CURRENT_RESEARCH_PROGRAM.md\nHANDOFF.md\nINDEX.md\nLIVE.md\nMEMORY.md\nUDT_RESEARCH_ROADMAP.md\nudt_joint_signal_shape_discrimination_2026-09-13/AUDIT_REUSE.json\nudt_joint_signal_shape_discrimination_2026-09-13/CANDIDATE_FREEZE.json\nudt_joint_signal_shape_discrimination_2026-09-13/CLOSEOUT.md\nudt_joint_signal_shape_discrimination_2026-09-13/COMPLETE_CAPTURE_AMENDMENT.json\nudt_joint_signal_shape_discrimination_2026-09-13/CONTINUATION_REVIEW_LEDGER.json\nudt_joint_signal_shape_discrimination_2026-09-13/DECISION_BRIEF.md\nudt_joint_signal_shape_discrimination_2026-09-13/EXECUTION_INTERVALS.json\nudt_joint_signal_shape_discrimination_2026-09-13/FINAL_EXECUTION_INTERVALS.json\nudt_joint_signal_shape_discrimination_2026-09-13/FINAL_NAVIGATION_INPUTS.json\nudt_joint_signal_shape_discrimination_2026-09-13/FINAL_REVIEW_INTAKE.json\nudt_joint_signal_shape_discrimination_2026-09-13/FINITE_GATE_DIAGNOSTIC.md\nudt_joint_signal_shape_discrimination_2026-09-13/INITIAL_CANDIDATE.md\nudt_joint_signal_shape_discrimination_2026-09-13/INITIAL_check_discrimination.py\nudt_joint_signal_shape_discrimination_2026-09-13/LAUNCH.json\nudt_joint_signal_shape_discrimination_2026-09-13/MAGNITUDE_SUPPLEMENT.md\nudt_joint_signal_shape_discrimination_2026-09-13/MAGNITUDE_SUPPLEMENT_FREEZE.json\nudt_joint_signal_shape_discrimination_2026-09-13/PARENT_PUBLICATION_AUDIT.json\nudt_joint_signal_shape_discrimination_2026-09-13/PUBLISH_PLAN.json\nudt_joint_signal_shape_discrimination_2026-09-13/RECORDS.tsv\nudt_joint_signal_shape_discrimination_2026-09-13/REVIEWED_RESULT.md\nudt_joint_signal_shape_discrimination_2026-09-13/REVIEW_ALLOCATION.json\nudt_joint_signal_shape_discrimination_2026-09-13/REVIEW_DISPATCH.md\nudt_joint_signal_shape_discrimination_2026-09-13/SCOPE_MAP.tsv\nudt_joint_signal_shape_discrimination_2026-09-13/SHA256SUMS.json\nudt_joint_signal_shape_discrimination_2026-09-13/SIMPLIFIER_REPAIRED_check_discrimination.py\nudt_joint_signal_shape_discrimination_2026-09-13/SOURCE_PINS.json\nudt_joint_signal_shape_discrimination_2026-09-13/SYMBOLIC_NORMAL_FORM_REPAIR.md\nudt_joint_signal_shape_discrimination_2026-09-13/SYMBOLIC_REPAIR_FREEZE.json\nudt_joint_signal_shape_discrimination_2026-09-13/WORK_ORDER.md\nudt_joint_signal_shape_discrimination_2026-09-13/check_discrimination.py\nudt_joint_signal_shape_discrimination_2026-09-13/checks/current_surface.capture_provenance.json\nudt_joint_signal_shape_discrimination_2026-09-13/checks/current_surface.json\nudt_joint_signal_shape_discrimination_2026-09-13/checks/current_surface.stderr\nudt_joint_signal_shape_discrimination_2026-09-13/checks/current_surface.stdout\nudt_joint_signal_shape_discrimination_2026-09-13/checks/discrimination_complete.capture_provenance.json\nudt_joint_signal_shape_discrimination_2026-09-13/checks/discrimination_complete.json\nudt_joint_signal_shape_discrimination_2026-09-13/checks/discrimination_complete.stderr\nudt_joint_signal_shape_discrimination_2026-09-13/checks/discrimination_complete.stdout\nudt_joint_signal_shape_discrimination_2026-09-13/checks/discrimination_initial.capture_provenance.json\nudt_joint_signal_shape_discrimination_2026-09-13/checks/discrimination_initial.json\nudt_joint_signal_shape_discrimination_2026-09-13/checks/discrimination_initial.stderr\nudt_joint_signal_shape_discrimination_2026-09-13/checks/discrimination_initial.stdout\nudt_joint_signal_shape_discrimination_2026-09-13/checks/discrimination_repaired.capture_provenance.json\nudt_joint_signal_shape_discrimination_2026-09-13/checks/discrimination_repaired.json\nudt_joint_signal_shape_discrimination_2026-09-13/checks/discrimination_repaired.stderr\nudt_joint_signal_shape_discrimination_2026-09-13/checks/discrimination_repaired.stdout\nudt_joint_signal_shape_discrimination_2026-09-13/checks/mutant_endpoint_rulers.capture_provenance.json\nudt_joint_signal_shape_discrimination_2026-09-13/checks/mutant_endpoint_rulers.json\nudt_joint_signal_shape_discrimination_2026-09-13/checks/mutant_endpoint_rulers.stderr\nudt_joint_signal_shape_discrimination_2026-09-13/checks/mutant_endpoint_rulers.stdout\nudt_joint_signal_shape_discrimination_2026-09-13/checks/navigation.capture_provenance.json\nudt_joint_signal_shape_discrimination_2026-09-13/checks/navigation.json\nudt_joint_signal_shape_discrimination_2026-09-13/checks/navigation.stderr\nudt_joint_signal_shape_discrimination_2026-09-13/checks/navigation.stdout\nudt_joint_signal_shape_discrimination_2026-09-13/checks/saved_evidence.capture_provenance.json\nudt_joint_signal_shape_discrimination_2026-09-13/checks/saved_evidence.json\nudt_joint_signal_shape_discrimination_2026-09-13/checks/saved_evidence.stderr\nudt_joint_signal_shape_discrimination_2026-09-13/checks/saved_evidence.stdout\nudt_joint_signal_shape_discrimination_2026-09-13/checks/trig_diagnostic.capture_provenance.json\nudt_joint_signal_shape_discrimination_2026-09-13/checks/trig_diagnostic.json\nudt_joint_signal_shape_discrimination_2026-09-13/checks/trig_diagnostic.stderr\nudt_joint_signal_shape_discrimination_2026-09-13/checks/trig_diagnostic.stdout\nudt_joint_signal_shape_discrimination_2026-09-13/review/DIRECT_REVIEW.md\nudt_joint_signal_shape_discrimination_2026-09-13/review/DIRECT_REVIEW_SEAL.json\nudt_joint_signal_shape_discrimination_2026-09-13/review/FINAL_FIDELITY.md\nudt_joint_signal_shape_discrimination_2026-09-13/review/FINAL_RECEIPT.json\nudt_joint_signal_shape_discrimination_2026-09-13/review/FINAL_REVIEW_SHA256SUMS\nudt_joint_signal_shape_discrimination_2026-09-13/review/FINAL_VISIBLE_STATUS.txt\nudt_joint_signal_shape_discrimination_2026-09-13/review/SOURCE_FIRST_ARGUMENT.md\nudt_joint_signal_shape_discrimination_2026-09-13/review/SOURCE_FIRST_SEAL.json\nudt_joint_signal_shape_discrimination_2026-09-13/review/check_final_fidelity.py\nudt_joint_signal_shape_discrimination_2026-09-13/review/checks/direct.capture_provenance.json\nudt_joint_signal_shape_discrimination_2026-09-13/review/checks/direct.json\nudt_joint_signal_shape_discrimination_2026-09-13/review/checks/direct.stderr\nudt_joint_signal_shape_discrimination_2026-09-13/review/checks/direct.stdout\nudt_joint_signal_shape_discrimination_2026-09-13/review/checks/evidence_correspondence.capture_provenance.json\nudt_joint_signal_shape_discrimination_2026-09-13/review/checks/evidence_correspondence.json\nudt_joint_signal_shape_discrimination_2026-09-13/review/checks/evidence_correspondence.stderr\nudt_joint_signal_shape_discrimination_2026-09-13/review/checks/evidence_correspondence.stdout\nudt_joint_signal_shape_discrimination_2026-09-13/review/checks/final_fidelity.capture_provenance.json\nudt_joint_signal_shape_discrimination_2026-09-13/review/checks/final_fidelity.json\nudt_joint_signal_shape_discrimination_2026-09-13/review/checks/final_fidelity.stderr\nudt_joint_signal_shape_discrimination_2026-09-13/review/checks/final_fidelity.stdout\nudt_joint_signal_shape_discrimination_2026-09-13/review/checks/parent_mutant_replay.capture_provenance.json\nudt_joint_signal_shape_discrimination_2026-09-13/review/checks/parent_mutant_replay.json\nudt_joint_signal_shape_discrimination_2026-09-13/review/checks/parent_mutant_replay.stderr\nudt_joint_signal_shape_discrimination_2026-09-13/review/checks/parent_mutant_replay.stdout\nudt_joint_signal_shape_discrimination_2026-09-13/review/checks/parent_replay.capture_provenance.json\nudt_joint_signal_shape_discrimination_2026-09-13/review/checks/parent_replay.json\nudt_joint_signal_shape_discrimination_2026-09-13/review/checks/parent_replay.stderr\nudt_joint_signal_shape_discrimination_2026-09-13/review/checks/parent_replay.stdout\nudt_joint_signal_shape_discrimination_2026-09-13/review/checks/source_first.capture_provenance.json\nudt_joint_signal_shape_discrimination_2026-09-13/review/checks/source_first.json\nudt_joint_signal_shape_discrimination_2026-09-13/review/checks/source_first.stderr\nudt_joint_signal_shape_discrimination_2026-09-13/review/checks/source_first.stdout\nudt_joint_signal_shape_discrimination_2026-09-13/review/direct_checks.py\nudt_joint_signal_shape_discrimination_2026-09-13/review/source_first_check.py\nudt_joint_signal_shape_discrimination_2026-09-13/review/verify_review_evidence.py\nudt_joint_signal_shape_discrimination_2026-09-13/verify_saved_evidence.py\nudt_signal_continuation_2026-09-13/CHECKPOINT.md\n",
+      "stderr": ""
+    },
+    {
+      "utc": "2026-09-13T04:14:18.867427+00:00",
+      "command": [
+        "git",
+        "push",
+        "origin",
+        "grok"
+      ],
+      "exit": 0,
+      "stdout": "",
+      "stderr": "To https://github.com/charlesrotter/udt_mass_codex.git\n   3ce1bcb8..b54eb812  grok -> grok\n"
+    },
+    {
+      "utc": "2026-09-13T04:14:20.703639+00:00",
+      "command": [
+        "git",
+        "rev-parse",
+        "HEAD",
+        "origin/grok"
+      ],
+      "exit": 0,
+      "stdout": "b54eb8127728745d85ea36d8e5c4ab171a4b8c7e\nb54eb8127728745d85ea36d8e5c4ab171a4b8c7e\n",
+      "stderr": ""
+    },
+    {
+      "utc": "2026-09-13T04:14:20.705393+00:00",
+      "command": [
+        "git",
+        "diff",
+        "--name-only"
+      ],
+      "exit": 0,
+      "stdout": "",
+      "stderr": ""
+    },
+    {
+      "utc": "2026-09-13T04:14:20.714053+00:00",
+      "command": [
+        "git",
+        "diff",
+        "--cached",
+        "--name-only"
+      ],
+      "exit": 0,
+      "stdout": "",
+      "stderr": ""
+    },
+    {
+      "utc": "2026-09-13T04:14:20.721123+00:00",
+      "command": [
+        "git",
+        "status",
+        "--short",
+        "--untracked-files=all"
+      ],
+      "exit": 0,
+      "stdout": "?? 8_25/UDT_FOUNDING_VALUE_LAW_ANALYSIS.md\n?? 8_25/udt_extension_checks.py\n?? 8_25/udt_extension_minimality_response.md\n?? 8_25/udt_value_law_checks.py\n?? 8_25/udt_value_law_checks_llm1.py\n?? 8_25/udt_value_law_external_response.md\n?? UDT_Complete_Guardrails_and_Central_Science_Tracking.md\n?? UDT_Next_Step_After_Two_Stages.md\n?? UDT_Sequenced_Guardrails_and_Development_Work_Order.md\n?? udt_native_onshell_timelive_reset_owner_audit_2026-08-10/CANDIDATE_LAW_MAP.tsv\n?? udt_native_onshell_timelive_reset_owner_audit_2026-08-10/DERIVATION_RESULT.json\n?? udt_native_onshell_timelive_reset_owner_audit_2026-08-10/EQUATION_OWNERSHIP_ATLAS.tsv\n?? udt_native_onshell_timelive_reset_owner_audit_2026-08-10/SOURCE_SCOPE_CLARIFICATION.md\n?? udt_native_onshell_timelive_reset_owner_audit_2026-08-10/derive_owner_atlas.py\n?? udt_native_onshell_timelive_reset_owner_audit_2026-08-10/run_catch_proofs.py\n?? udt_native_onshell_timelive_reset_owner_audit_2026-08-10/verify_owner_independent.py\n?? udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/ADVERSARIAL_REVIEW_REQUEST.md\n?? udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/AUDIT_REPORT.md\n?? udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/CATCH_PROOF_RESULT.json\n?? udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/DERIVATION_RESULT.json\n?? udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/EVIDENCE_GATES.md\n?? udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/EXACT_DERIVATION.md\n?? udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/INDEPENDENT_VERIFICATION.json\n?? udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/LAY_REPORT.md\n?? udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/STATUS_LEDGER.tsv\n?? udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/VERIFICATION_RESULT.json\n?? udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/WITNESS_ATLAS.tsv\n?? udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/build_review_intake.py\n?? udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/derive_regime_flow.py\n?? udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/run_catch_proofs.py\n?? udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/verify_independent.py\n?? udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/verify_package.py\n?? udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/AUDIT_REPORT.md\n?? udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/CATCH_PROOF_RESULT.json\n?? udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/DERIVATION_RESULT.json\n?? udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/EVIDENCE_GATES.md\n?? udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/EXACT_DERIVATION.md\n?? udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/INDEPENDENT_RADAU_REPLAY.tsv\n?? udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/INDEPENDENT_VERIFICATION.json\n?? udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/LAY_REPORT.md\n?? udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/PREREGISTRATION_EXECUTION_NOTE.md\n?? udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/PROFILE_COMPATIBILITY_ATLAS.tsv\n?? udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/REVIEW_DISPATCH.md\n?? udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/RUN_CHECKPOINT.tsv\n?? udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/STATUS_LEDGER.tsv\n?? udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/VERIFICATION_RESULT.json\n?? udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/build_review_manifest.py\n?? udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/derive_compatibility_atlas.py\n?? udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/run_catch_proofs.py\n?? udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/verify_independent.py\n?? udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/verify_package.py\n",
+      "stderr": ""
+    }
+  ],
+  "baseline_head": "3ce1bcb806d506b21bb20eabd5b942df0613880c",
+  "original_untracked_status_sha256": "747cf3c497bfbdf7c373a2aa621be3cb241a61f7ef9f508c39bf64588ff70a60",
+  "planned_paths": [
+    "CURRENT_RESEARCH_PROGRAM.md",
+    "HANDOFF.md",
+    "INDEX.md",
+    "LIVE.md",
+    "MEMORY.md",
+    "UDT_RESEARCH_ROADMAP.md",
+    "udt_joint_signal_shape_discrimination_2026-09-13/AUDIT_REUSE.json",
+    "udt_joint_signal_shape_discrimination_2026-09-13/CANDIDATE_FREEZE.json",
+    "udt_joint_signal_shape_discrimination_2026-09-13/CLOSEOUT.md",
+    "udt_joint_signal_shape_discrimination_2026-09-13/COMPLETE_CAPTURE_AMENDMENT.json",
+    "udt_joint_signal_shape_discrimination_2026-09-13/CONTINUATION_REVIEW_LEDGER.json",
+    "udt_joint_signal_shape_discrimination_2026-09-13/DECISION_BRIEF.md",
+    "udt_joint_signal_shape_discrimination_2026-09-13/EXECUTION_INTERVALS.json",
+    "udt_joint_signal_shape_discrimination_2026-09-13/FINAL_EXECUTION_INTERVALS.json",
+    "udt_joint_signal_shape_discrimination_2026-09-13/FINAL_NAVIGATION_INPUTS.json",
+    "udt_joint_signal_shape_discrimination_2026-09-13/FINAL_REVIEW_INTAKE.json",
+    "udt_joint_signal_shape_discrimination_2026-09-13/FINITE_GATE_DIAGNOSTIC.md",
+    "udt_joint_signal_shape_discrimination_2026-09-13/INITIAL_CANDIDATE.md",
+    "udt_joint_signal_shape_discrimination_2026-09-13/INITIAL_check_discrimination.py",
+    "udt_joint_signal_shape_discrimination_2026-09-13/LAUNCH.json",
+    "udt_joint_signal_shape_discrimination_2026-09-13/MAGNITUDE_SUPPLEMENT.md",
+    "udt_joint_signal_shape_discrimination_2026-09-13/MAGNITUDE_SUPPLEMENT_FREEZE.json",
+    "udt_joint_signal_shape_discrimination_2026-09-13/PARENT_PUBLICATION_AUDIT.json",
+    "udt_joint_signal_shape_discrimination_2026-09-13/PUBLISH_PLAN.json",
+    "udt_joint_signal_shape_discrimination_2026-09-13/RECORDS.tsv",
+    "udt_joint_signal_shape_discrimination_2026-09-13/REVIEWED_RESULT.md",
+    "udt_joint_signal_shape_discrimination_2026-09-13/REVIEW_ALLOCATION.json",
+    "udt_joint_signal_shape_discrimination_2026-09-13/REVIEW_DISPATCH.md",
+    "udt_joint_signal_shape_discrimination_2026-09-13/SCOPE_MAP.tsv",
+    "udt_joint_signal_shape_discrimination_2026-09-13/SHA256SUMS.json",
+    "udt_joint_signal_shape_discrimination_2026-09-13/SIMPLIFIER_REPAIRED_check_discrimination.py",
+    "udt_joint_signal_shape_discrimination_2026-09-13/SOURCE_PINS.json",
+    "udt_joint_signal_shape_discrimination_2026-09-13/SYMBOLIC_NORMAL_FORM_REPAIR.md",
+    "udt_joint_signal_shape_discrimination_2026-09-13/SYMBOLIC_REPAIR_FREEZE.json",
+    "udt_joint_signal_shape_discrimination_2026-09-13/WORK_ORDER.md",
+    "udt_joint_signal_shape_discrimination_2026-09-13/check_discrimination.py",
+    "udt_joint_signal_shape_discrimination_2026-09-13/checks/current_surface.capture_provenance.json",
+    "udt_joint_signal_shape_discrimination_2026-09-13/checks/current_surface.json",
+    "udt_joint_signal_shape_discrimination_2026-09-13/checks/current_surface.stderr",
+    "udt_joint_signal_shape_discrimination_2026-09-13/checks/current_surface.stdout",
+    "udt_joint_signal_shape_discrimination_2026-09-13/checks/discrimination_complete.capture_provenance.json",
+    "udt_joint_signal_shape_discrimination_2026-09-13/checks/discrimination_complete.json",
+    "udt_joint_signal_shape_discrimination_2026-09-13/checks/discrimination_complete.stderr",
+    "udt_joint_signal_shape_discrimination_2026-09-13/checks/discrimination_complete.stdout",
+    "udt_joint_signal_shape_discrimination_2026-09-13/checks/discrimination_initial.capture_provenance.json",
+    "udt_joint_signal_shape_discrimination_2026-09-13/checks/discrimination_initial.json",
+    "udt_joint_signal_shape_discrimination_2026-09-13/checks/discrimination_initial.stderr",
+    "udt_joint_signal_shape_discrimination_2026-09-13/checks/discrimination_initial.stdout",
+    "udt_joint_signal_shape_discrimination_2026-09-13/checks/discrimination_repaired.capture_provenance.json",
+    "udt_joint_signal_shape_discrimination_2026-09-13/checks/discrimination_repaired.json",
+    "udt_joint_signal_shape_discrimination_2026-09-13/checks/discrimination_repaired.stderr",
+    "udt_joint_signal_shape_discrimination_2026-09-13/checks/discrimination_repaired.stdout",
+    "udt_joint_signal_shape_discrimination_2026-09-13/checks/mutant_endpoint_rulers.capture_provenance.json",
+    "udt_joint_signal_shape_discrimination_2026-09-13/checks/mutant_endpoint_rulers.json",
+    "udt_joint_signal_shape_discrimination_2026-09-13/checks/mutant_endpoint_rulers.stderr",
+    "udt_joint_signal_shape_discrimination_2026-09-13/checks/mutant_endpoint_rulers.stdout",
+    "udt_joint_signal_shape_discrimination_2026-09-13/checks/navigation.capture_provenance.json",
+    "udt_joint_signal_shape_discrimination_2026-09-13/checks/navigation.json",
+    "udt_joint_signal_shape_discrimination_2026-09-13/checks/navigation.stderr",
+    "udt_joint_signal_shape_discrimination_2026-09-13/checks/navigation.stdout",
+    "udt_joint_signal_shape_discrimination_2026-09-13/checks/saved_evidence.capture_provenance.json",
+    "udt_joint_signal_shape_discrimination_2026-09-13/checks/saved_evidence.json",
+    "udt_joint_signal_shape_discrimination_2026-09-13/checks/saved_evidence.stderr",
+    "udt_joint_signal_shape_discrimination_2026-09-13/checks/saved_evidence.stdout",
+    "udt_joint_signal_shape_discrimination_2026-09-13/checks/trig_diagnostic.capture_provenance.json",
+    "udt_joint_signal_shape_discrimination_2026-09-13/checks/trig_diagnostic.json",
+    "udt_joint_signal_shape_discrimination_2026-09-13/checks/trig_diagnostic.stderr",
+    "udt_joint_signal_shape_discrimination_2026-09-13/checks/trig_diagnostic.stdout",
+    "udt_joint_signal_shape_discrimination_2026-09-13/review/DIRECT_REVIEW.md",
+    "udt_joint_signal_shape_discrimination_2026-09-13/review/DIRECT_REVIEW_SEAL.json",
+    "udt_joint_signal_shape_discrimination_2026-09-13/review/FINAL_FIDELITY.md",
+    "udt_joint_signal_shape_discrimination_2026-09-13/review/FINAL_RECEIPT.json",
+    "udt_joint_signal_shape_discrimination_2026-09-13/review/FINAL_REVIEW_SHA256SUMS",
+    "udt_joint_signal_shape_discrimination_2026-09-13/review/FINAL_VISIBLE_STATUS.txt",
+    "udt_joint_signal_shape_discrimination_2026-09-13/review/SOURCE_FIRST_ARGUMENT.md",
+    "udt_joint_signal_shape_discrimination_2026-09-13/review/SOURCE_FIRST_SEAL.json",
+    "udt_joint_signal_shape_discrimination_2026-09-13/review/check_final_fidelity.py",
+    "udt_joint_signal_shape_discrimination_2026-09-13/review/checks/direct.capture_provenance.json",
+    "udt_joint_signal_shape_discrimination_2026-09-13/review/checks/direct.json",
+    "udt_joint_signal_shape_discrimination_2026-09-13/review/checks/direct.stderr",
+    "udt_joint_signal_shape_discrimination_2026-09-13/review/checks/direct.stdout",
+    "udt_joint_signal_shape_discrimination_2026-09-13/review/checks/evidence_correspondence.capture_provenance.json",
+    "udt_joint_signal_shape_discrimination_2026-09-13/review/checks/evidence_correspondence.json",
+    "udt_joint_signal_shape_discrimination_2026-09-13/review/checks/evidence_correspondence.stderr",
+    "udt_joint_signal_shape_discrimination_2026-09-13/review/checks/evidence_correspondence.stdout",
+    "udt_joint_signal_shape_discrimination_2026-09-13/review/checks/final_fidelity.capture_provenance.json",
+    "udt_joint_signal_shape_discrimination_2026-09-13/review/checks/final_fidelity.json",
+    "udt_joint_signal_shape_discrimination_2026-09-13/review/checks/final_fidelity.stderr",
+    "udt_joint_signal_shape_discrimination_2026-09-13/review/checks/final_fidelity.stdout",
+    "udt_joint_signal_shape_discrimination_2026-09-13/review/checks/parent_mutant_replay.capture_provenance.json",
+    "udt_joint_signal_shape_discrimination_2026-09-13/review/checks/parent_mutant_replay.json",
+    "udt_joint_signal_shape_discrimination_2026-09-13/review/checks/parent_mutant_replay.stderr",
+    "udt_joint_signal_shape_discrimination_2026-09-13/review/checks/parent_mutant_replay.stdout",
+    "udt_joint_signal_shape_discrimination_2026-09-13/review/checks/parent_replay.capture_provenance.json",
+    "udt_joint_signal_shape_discrimination_2026-09-13/review/checks/parent_replay.json",
+    "udt_joint_signal_shape_discrimination_2026-09-13/review/checks/parent_replay.stderr",
+    "udt_joint_signal_shape_discrimination_2026-09-13/review/checks/parent_replay.stdout",
+    "udt_joint_signal_shape_discrimination_2026-09-13/review/checks/source_first.capture_provenance.json",
+    "udt_joint_signal_shape_discrimination_2026-09-13/review/checks/source_first.json",
+    "udt_joint_signal_shape_discrimination_2026-09-13/review/checks/source_first.stderr",
+    "udt_joint_signal_shape_discrimination_2026-09-13/review/checks/source_first.stdout",
+    "udt_joint_signal_shape_discrimination_2026-09-13/review/direct_checks.py",
+    "udt_joint_signal_shape_discrimination_2026-09-13/review/source_first_check.py",
+    "udt_joint_signal_shape_discrimination_2026-09-13/review/verify_review_evidence.py",
+    "udt_joint_signal_shape_discrimination_2026-09-13/verify_saved_evidence.py",
+    "udt_signal_continuation_2026-09-13/CHECKPOINT.md"
+  ],
+  "science_commit": "b54eb8127728745d85ea36d8e5c4ab171a4b8c7e",
+  "postpush_verified_utc": "2026-09-13T04:14:20.744398+00:00",
+  "postpush_refs": [
+    "b54eb8127728745d85ea36d8e5c4ab171a4b8c7e",
+    "b54eb8127728745d85ea36d8e5c4ab171a4b8c7e"
+  ],
+  "tracked_clean": true,
+  "original51_status_names_exact": true
+}
