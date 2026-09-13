@@ -1,0 +1,11 @@
+{
+  "recorded_utc": "2026-09-13T12:48:36.722161+00:00",
+  "timing": "after new audit launch; no pre-launch freeze claimed",
+  "pins": {
+    "AGENTS.md": "f8fa9f6135d80332e4d28b0dcfefd04e43c00042512968bb9eacf2f692499053",
+    "CLAUDE.md": "b7e524a5b06760e57877a408630228767ae9a394134095f9851bef5d06e17751",
+    "CURRENT_SCIENTIFIC_PREMISES.tsv": "7a3d69d5a0bc3ac98e2ebe2bb0c6d029df30071bf403baffed2223a193dc720b",
+    "CURRENT_SCIENTIFIC_PREMISES.md": "7b574665f714551a3a565987fc5bc56a4b44c7e6fb274532f61609c25153f627",
+    "verify_current_scientific_premises.py": "98dd79610f6bc9d116db65104345c84b64aae0bae2f81c93bec2f64b40745eec"
+  }
+}

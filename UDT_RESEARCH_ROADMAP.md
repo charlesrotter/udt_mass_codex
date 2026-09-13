@@ -6,13 +6,52 @@ Banking through G423 is COMPLETE; exact conditional signal-chain scope and actua
 Current operational handoff: `HANDOFF.md`; the maintained checkpoint below records the reviewed
 ER1 expansion, banking, nonlinear and measurement returns, and the CWA1 consolidation.
 CWA1's consolidation, NCB1's banking and NCR1/NTB1's directional returns are recorded below.
-Banking, broader-geometry testing, one follow-up and the separately authorized NR1 now have reviewed returns; TI3/OB2 retain separate holds.
+Banking, broader-geometry testing, one follow-up and the separately authorized NR1/NR2 now have reviewed returns; TI3/OB2 retain separate holds.
 This is a maintained direction document, not a premise, theorem, promotion
 or replacement for LIVE, the exact registry, or reviewed scientific sources.
 
 Current acceptance overlay: earlier UNPROMOTED/campaign-only language below records historical
 returns. The G383--G412, G413--G415 and G416--G423 banking packets and maintained checkpoint own later dispositions;
 original result packages remain unchanged. No physical adoption or canon is included.
+
+## NR2 reviewed field discrimination and symmetry survivor — 2026-09-13
+
+Charles's later “proceed” authorized NR1's named field-orientation/phase and
+symmetry-control question, superseding that earlier discussion stop only for
+this scope. NR2 has returned VERIFIED-WITH-CAVEATS, CONDITIONAL UNPROMOTED.
+Lay return and bounded next proposal:
+`udt_geometric_field_choice_discrimination_2026-09-13/DECISION_BRIEF.md`;
+full candidate, implementation repair and fresh review: its REVIEWED_RESULT;
+actual checks/resources/fidelity/publication: CLOSEOUT and factual receipt.
+
+The fixed full evolving geometry's specified four-parameter field family is
+identified by signed projections plus their calibrated first derivative, with
+explicit squared-record sign/scale/zero and two-sample blind spots. This is an
+ideal mathematical map, not physical detection. Profile phase and compensated
+same-field phase factorization remain distinct from G352's supplied count phase.
+
+Breaking the old transverse Killing symmetry in an exact harmonic cubic metric
+control leaves its field intact. More broadly, arbitrary smooth aligned profiles
+satisfy the source-free Maxwell-form equations for any v-independent H in the
+specified flat-transverse Brinkmann geometry, without requiring that symmetry
+or Ricci-flatness. The finite-family inverse does not classify this wider family.
+Central metric two-jets and corresponding clock/infinitesimal-Jacobi records miss
+the cubic change; neighboring tides or their gradient distinguish it. No global
+or finite-beam indistinguishability, all-field census or native membership claim.
+
+Initial49/50 and diagnostic5/6 failures remain: symbolic coincident determinant
+substitution was undefined. Original-matrix evaluation-order repair passes52/52;
+fresh independent checks pass126/126 with separate analytic reconstruction.
+New406 premise audit passed. Source grades/registry and through-G352 manuscript
+remain unchanged; G312 FILTER ONLY, G351/G352 limits and all earlier gains persist.
+Final documentary/publication receipts own subsequent completion, not test counts.
+
+STOP for discussion. Proposed successor: broaden transverse geometry and derive
+which aligned-profile restrictions or freedoms survive, retaining NR2 as a
+conditional control. DECISION_BRIEF states the two-hour/one-review construction,
+checks, bounded repairs and return envelope. It is NOT AUTHORIZED or launched.
+No promotion/G424, new source/action/physical postulate, instrument campaign,
+physical Maxwell identification or reuse of spent reviewer budgets follows.
 
 ## NR1 reviewed current-premise radiation feasibility — 2026-09-13
 

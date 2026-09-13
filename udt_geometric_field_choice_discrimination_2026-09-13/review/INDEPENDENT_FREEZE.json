@@ -1,0 +1,15 @@
+{
+  "utc": "2026-09-13T13:07:54.687072+00:00",
+  "meaning": "pre-execution correspondence; direct outcome exposure disclosed",
+  "pins": {
+    "review/INDEPENDENT_FREEZE.md": "53a3f64e1fd6e8e8e05357c69c9d6f841e5a0d16d05948bd14f40fc40de320f4",
+    "review/independent_checks.py": "15fee73f7f19ac6a7a59caf9d2715b61fa346d9f8b78a3a2db03dad7cd4ce7da",
+    "INITIAL_CANDIDATE.md": "d208d623a1c0340b79f4bd9aaee012cbbca4c41b0c3db41178647dafa43251c8",
+    "CANDIDATE_FREEZE.json": "7202a08e372e8d288dd9740f60b480495662e6e78d426161966a8335f3997421",
+    "REPAIR_RECORD.md": "48f84407a0ed63fa93284a9559a4033a5c951d1702478fa9c3846e4996e63520",
+    "REPAIR_FREEZE.json": "a5af059490a1989d394e21d84e0a6e3a318f8b45e14e1e975aefb9158dd7075b",
+    "EXACT_RESULT.json": "91fee12e82e2143e4ed40fb3e2dd230ebfa7c2326674ee2c16d827b033914bc8",
+    "REPAIRED_RESULT.json": "ea35be936dc368dd6303614f3bb8b4b7b5ecf3b503fb9ff425e950492ef2ddbf"
+  },
+  "utility_sha256": "d7b4c22e9d3557c197c2b946d5d2305fe29e5542488edaacc54a5dc27d7fe825"
+}

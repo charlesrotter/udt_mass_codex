@@ -1,0 +1,164 @@
+{
+  "recorded_utc": "2026-09-13T13:18:01.292870+00:00",
+  "scope": "Nine captured bounded operations including scientific/check processes and Git fetch; not a full CPU census. Initial eight-operation snapshot unchanged.",
+  "intervals": [
+    {
+      "capture": "checks/candidate_exact.json",
+      "context": "parent",
+      "start_utc": "2026-09-13T12:58:56.948104+00:00",
+      "end_utc": "2026-09-13T12:58:57.719103+00:00",
+      "seconds": 0.7709992399904877,
+      "exit": 1,
+      "command": [
+        "python3",
+        "udt_geometric_field_choice_discrimination_2026-09-13/check_candidate.py",
+        "udt_geometric_field_choice_discrimination_2026-09-13/EXACT_RESULT.json"
+      ]
+    },
+    {
+      "capture": "checks/candidate_repaired.json",
+      "context": "parent",
+      "start_utc": "2026-09-13T13:03:52.799563+00:00",
+      "end_utc": "2026-09-13T13:03:53.538552+00:00",
+      "seconds": 0.7389885369921103,
+      "exit": 0,
+      "command": [
+        "python3",
+        "udt_geometric_field_choice_discrimination_2026-09-13/check_candidate_repaired.py",
+        "udt_geometric_field_choice_discrimination_2026-09-13/REPAIRED_RESULT.json"
+      ]
+    },
+    {
+      "capture": "checks/coincident_diagnostic.json",
+      "context": "parent",
+      "start_utc": "2026-09-13T13:03:15.196535+00:00",
+      "end_utc": "2026-09-13T13:03:15.742898+00:00",
+      "seconds": 0.5463629399891943,
+      "exit": 1,
+      "command": [
+        "python3",
+        "udt_geometric_field_choice_discrimination_2026-09-13/diagnose_coincident.py",
+        "udt_geometric_field_choice_discrimination_2026-09-13/COINCIDENT_DIAGNOSTIC.json"
+      ]
+    },
+    {
+      "capture": "checks/current_surface.json",
+      "context": "parent",
+      "start_utc": "2026-09-13T13:10:19.412754+00:00",
+      "end_utc": "2026-09-13T13:10:19.601614+00:00",
+      "seconds": 0.188859898946248,
+      "exit": 0,
+      "command": [
+        "python3",
+        "-c",
+        "from pathlib import Path; import verify_current_scientific_premises as v; v.validate_startup_surface(Path.cwd()); print(\"PASS: actual NR2 current startup surface\")"
+      ]
+    },
+    {
+      "capture": "checks/navigation.json",
+      "context": "parent",
+      "start_utc": "2026-09-13T13:10:25.820228+00:00",
+      "end_utc": "2026-09-13T13:10:40.933841+00:00",
+      "seconds": 15.11361261701677,
+      "exit": 0,
+      "command": [
+        "python3",
+        "-m",
+        "pytest",
+        "--noconftest",
+        "-q",
+        "-p",
+        "no:cacheprovider",
+        "tests/test_startup_surface.py",
+        "-k",
+        "not full_foundational_premise_verifier_is_in_pytest"
+      ]
+    },
+    {
+      "capture": "checks/premise406.json",
+      "context": "parent",
+      "start_utc": "2026-09-13T12:43:14.428401+00:00",
+      "end_utc": "2026-09-13T12:49:58.728535+00:00",
+      "seconds": 404.3001335510053,
+      "exit": 0,
+      "command": [
+        "python3",
+        "verify_current_scientific_premises.py"
+      ]
+    },
+    {
+      "capture": "checks/prepublication_fetch.json",
+      "context": "parent",
+      "start_utc": "2026-09-13T13:07:35.279261+00:00",
+      "end_utc": "2026-09-13T13:07:35.707037+00:00",
+      "seconds": 0.42777624796144664,
+      "exit": 0,
+      "command": [
+        "git",
+        "fetch",
+        "origin"
+      ]
+    },
+    {
+      "capture": "review/final_fidelity_capture.json",
+      "context": "reviewer",
+      "start_utc": "2026-09-13T13:15:01.099436+00:00",
+      "end_utc": "2026-09-13T13:15:01.172987+00:00",
+      "seconds": 0.07355052093043923,
+      "exit": 0,
+      "command": [
+        "python3",
+        "udt_geometric_field_choice_discrimination_2026-09-13/review/final_fidelity_checks.py",
+        "udt_geometric_field_choice_discrimination_2026-09-13/review/FINAL_CHECK_RESULT.json"
+      ]
+    },
+    {
+      "capture": "review/independent_capture.json",
+      "context": "reviewer",
+      "start_utc": "2026-09-13T13:07:54.786724+00:00",
+      "end_utc": "2026-09-13T13:07:55.345381+00:00",
+      "seconds": 0.5586565190460533,
+      "exit": 0,
+      "command": [
+        "python3",
+        "udt_geometric_field_choice_discrimination_2026-09-13/review/independent_checks.py",
+        "udt_geometric_field_choice_discrimination_2026-09-13/review/INDEPENDENT_RESULT.json"
+      ]
+    }
+  ],
+  "captured_process_overlaps": [],
+  "same_context_overlap_detected": false,
+  "runtime_model": "UNATTESTED",
+  "general_capacity": "UNVERIFIED",
+  "review_context": {
+    "reviewer": "/root/field_choice_review",
+    "review_work_completion_record_utc": "2026-09-13T13:17:02.825874+00:00",
+    "meaning_of_completion": "scientific review and final fidelity work completed before this receipt; tool/final-message delivery may follow; no exact runtime teardown timestamp claimed",
+    "allocation_observed_bracket_utc": [
+      "2026-09-13T12:51:59+00:00",
+      "2026-09-13T12:52:25+00:00"
+    ],
+    "first_actual_tool_utc": "2026-09-13T12:52:20+00:00",
+    "source_first_saved_by_observed_utc": "2026-09-13T12:56:04+00:00",
+    "source_first_elapsed_upper_bound_seconds": 245,
+    "hard_stop_utc": "2026-09-13T13:31:59+00:00",
+    "conservative_allocation_elapsed_upper_bound_seconds": 1503.825874,
+    "first_tool_to_completion_seconds": 1482.825874,
+    "completed_before_hard_stop": true,
+    "runtime_model": "UNATTESTED",
+    "different_model": "UNTESTED",
+    "general_capacity": "UNVERIFIED",
+    "allocations": 1,
+    "subdelegation": false,
+    "verdict": "VERIFIED-WITH-CAVEATS CONDITIONAL UNPROMOTED",
+    "final_fidelity": "ACCEPTED_WITH_DIRECT_REVIEW_CAVEATS",
+    "independent_scientific_groups": "126/126; reused Fraction engine/new cases and shared SymPy map library; analytic proof separate",
+    "administrative_groups": "35/35",
+    "captured_operation_count_including_final_metadata_check": 9,
+    "captured_process_overlaps": [],
+    "parent_captured_operation_seconds_inside_allocation": 17.786599480896257,
+    "overlap_limit": "parent and reviewer contexts coexisted; captured process intervals are not a full CPU census or exact context-allocation timestamp",
+    "final_fidelity_pins_sha256": "7f68de73e73a14bad7e8016e96b0d02b00f8cbcdaa2bf4f0a8ee02173d38d5c2",
+    "next": "parent already-authorized factual publication/checkpoint completion only; no scientific successor or promotion"
+  }
+}

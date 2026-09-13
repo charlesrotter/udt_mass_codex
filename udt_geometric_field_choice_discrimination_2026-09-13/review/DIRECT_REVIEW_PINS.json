@@ -1,0 +1,30 @@
+{
+  "utc": "2026-09-13T13:11:53.491913+00:00",
+  "pins": {
+    "INITIAL_CANDIDATE.md": "d208d623a1c0340b79f4bd9aaee012cbbca4c41b0c3db41178647dafa43251c8",
+    "CANDIDATE_FREEZE.json": "7202a08e372e8d288dd9740f60b480495662e6e78d426161966a8335f3997421",
+    "REPAIR_RECORD.md": "48f84407a0ed63fa93284a9559a4033a5c951d1702478fa9c3846e4996e63520",
+    "REPAIR_FREEZE.json": "a5af059490a1989d394e21d84e0a6e3a318f8b45e14e1e975aefb9158dd7075b",
+    "check_candidate.py": "e031f64835e21a8c2d52b39f46a0a71254570571392a8097063c47f9d074c7a7",
+    "check_candidate_repaired.py": "f2d148e99fdad8c315c5238790e8c05c0606c94f7e51410c4809dafb1962ac36",
+    "EXACT_RESULT.json": "91fee12e82e2143e4ed40fb3e2dd230ebfa7c2326674ee2c16d827b033914bc8",
+    "COINCIDENT_DIAGNOSTIC.json": "a44161bec99ccd26ef85b9d2e76dd677e45269438d8583c7957dbcaf301e803a",
+    "REPAIRED_RESULT.json": "ea35be936dc368dd6303614f3bb8b4b7b5ecf3b503fb9ff425e950492ef2ddbf",
+    "review/SOURCE_FIRST.md": "a6fc97e201a81f8ca0ff08a5dff6984d215f711cb0aa583a64caff283a1a447e",
+    "review/SOURCE_FIRST_PINS.json": "40e81ecaa839e43cfb102c21af7d31137c299ae3877c565ea499325d1e390ecd",
+    "review/INDEPENDENT_FREEZE.md": "53a3f64e1fd6e8e8e05357c69c9d6f841e5a0d16d05948bd14f40fc40de320f4",
+    "review/INDEPENDENT_FREEZE.json": "33b45482d0124b4e1b132fad0aae76ac16096a74bea39a6a7dfc00a960146797",
+    "review/independent_checks.py": "15fee73f7f19ac6a7a59caf9d2715b61fa346d9f8b78a3a2db03dad7cd4ce7da",
+    "review/INDEPENDENT_RESULT.json": "3befb1d754e372718631c09e951419afd2f63e4a9a9a74efb12118e67552e081",
+    "review/independent_capture.json": "c374b761f992a8fe6909dad9f31f83716ee305b8f999e6bb2bd76cfc64273be1",
+    "review/DIRECT_REVIEW.md": "3a045f23f6c7c32ed93d136a9ea8cd8b3d898a16b68db807d5a18817f7a4532f",
+    "REVIEWED_RESULT.md": "687c67c480d3fcddf6623c33d720e5887563e63d70c4f806b862bde26c57a61b",
+    "DECISION_BRIEF.md": "93a98090e9cc7153a0d55afd0a31aeaeecb401fa860a31370789a29f5a03c0bc",
+    "RESULT_SCOPE.tsv": "ab179b8086be565912e875de7a4cadcf33f1afddbb0bd09dfce67dc5d89b6061",
+    "COMPARISON_BOUNDARY.md": "5a3835e04aad5c9c13a7038d3d2723b39528d3f9b4e698a19c0b1fe6d5a94edb",
+    "README.md": "31447e37979731bcb936a21c7e4c23a28a91dd1f87ffe4d19ce4121b82e15c2d"
+  },
+  "meaning": "review correspondence; final navigation and publication fidelity separate",
+  "verdict": "VERIFIED-WITH-CAVEATS CONDITIONAL UNPROMOTED",
+  "candidate_utility_correspondence": true
+}

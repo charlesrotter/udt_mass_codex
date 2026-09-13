@@ -1,0 +1,35 @@
+{
+  "utc": "2026-09-13T13:17:02.825491+00:00",
+  "package_pins": {
+    "REVIEWED_RESULT.md": "c1075680e3052faeddc8ec7edad39a4db5d9128ce23dba33bc9cc029e74995df",
+    "DECISION_BRIEF.md": "40654e6c3ba9b2584a4e5dec0a81f37283de5d1ad335f0a22725ada71eb7a286",
+    "RESULT_SCOPE.tsv": "ab179b8086be565912e875de7a4cadcf33f1afddbb0bd09dfce67dc5d89b6061",
+    "COMPARISON_BOUNDARY.md": "5a3835e04aad5c9c13a7038d3d2723b39528d3f9b4e698a19c0b1fe6d5a94edb",
+    "README.md": "31447e37979731bcb936a21c7e4c23a28a91dd1f87ffe4d19ce4121b82e15c2d",
+    "CLOSEOUT.md": "af89d89599cee34818123b81e771625ec7681640650eebbf00b05276b8c83ad2",
+    "CHECKPOINT.md": "bb3300a41365619c2ecdefa27457019ff08e2f55a12c65ab0db36d6e37339e0e",
+    "AUDIT_REUSE.json": "be305895a8425a6b263c96c06a6c0671967079084a566b358e66e3e7a0bfea7a",
+    "PRESERVATION.json": "9804633c6cd35c43bc1596302e79b635142fb0215b4332f3bce6a7f7d1fa1d51",
+    "EXECUTION_INTERVALS.json": "a2db4e11b677194f0aaefafadd398693a115f569a4ad03b9c836a848af7b9273",
+    "INTERVAL_PROVENANCE.json": "ec09cec5c919d592450e097c4dcbe425db4994e9c1589762564845b53143214e",
+    "review/ALLOCATION.json": "786cc7b25ff622aba7005f8f5f04fb45d96756760f11bbb73c1b0cd416032c0b",
+    "review/SOURCE_FIRST.md": "a6fc97e201a81f8ca0ff08a5dff6984d215f711cb0aa583a64caff283a1a447e",
+    "review/DIRECT_REVIEW.md": "3a045f23f6c7c32ed93d136a9ea8cd8b3d898a16b68db807d5a18817f7a4532f",
+    "review/DIRECT_REVIEW_PINS.json": "9ec2649b53e6a97d3d24c3117c1fa5900e76ab16ade3f22ad2997206c7b9748e",
+    "review/FINAL_FIDELITY.md": "05ecb50e6ce918b435f5aff97c1ecfa2bea4fc69660d9befc5dce5212810c4f9",
+    "review/final_fidelity_checks.py": "0fa48aa2249c8ba9300a353ee3e0b534db7bd9d0066bd3748fe202750b2828fc",
+    "review/FINAL_CHECK_RESULT.json": "8e132996ecdff53f5eec0b099b12f30302655cb7c8d465fb572b7d62c7687f5e",
+    "review/final_fidelity_capture.json": "7276a8be0bc335598793b6d2bfbc75322a93f0dd5a5ee2d0d5eb04d8e5976933",
+    "review/final_fidelity_capture.stdout": "9b65e2d216a0c9e549d9a081254e28be40d2edfc5005bff909e6bd2ae8ca847a",
+    "review/final_fidelity_capture.stderr": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "navigation_pins": {
+    "LIVE.md": "4d190dced863cf2917e43c91caf6a7d8a1559cb6bff69128bf3e20e5c3219bf8",
+    "HANDOFF.md": "cb7e5ce5c512f9b81e7a6491d980512af588a5b0698b76ee9ea124ce30222415",
+    "CURRENT_RESEARCH_PROGRAM.md": "a93e16de34dbd1c360a0b92c5832ba9662899664572457ce03859e6a2fd8ba5e",
+    "INDEX.md": "fb31f86eab62ddb033d26897466d32888d12b75c21007c749538353ac73514b4",
+    "MEMORY.md": "87787b98f20a41fa97ba700d78eac73d1d63ebd1462c4a738cd1f2d2f5fb012f",
+    "UDT_RESEARCH_ROADMAP.md": "e21c3c353d78404ffe2c351baf9280eb840f182c322f91660676ce85ff7b9908"
+  },
+  "meaning": "inspected prepublication documentary bytes; parent subsequent factual publication/checkpoint/append-only interval receipts explicitly separate"
+}

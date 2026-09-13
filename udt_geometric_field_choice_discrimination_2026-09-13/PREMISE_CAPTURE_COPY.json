@@ -1,0 +1,23 @@
+{
+  "utc": "2026-09-13T12:51:59.826183+00:00",
+  "copies": {
+    "/tmp/nr2_premise406.json": {
+      "destination": "udt_geometric_field_choice_discrimination_2026-09-13/checks/premise406.json",
+      "sha256": "4b92f61277008605b0abe863cd20016574f1029a3df904d0f79a4f35341526ce"
+    },
+    "/tmp/nr2_premise406.stdout": {
+      "destination": "udt_geometric_field_choice_discrimination_2026-09-13/checks/premise406.stdout",
+      "sha256": "394e02c4ced55fc8f6480a3cc65b9ebd38f9c0cb553f897b10313b8ad2104b53"
+    },
+    "/tmp/nr2_premise406.stderr": {
+      "destination": "udt_geometric_field_choice_discrimination_2026-09-13/checks/premise406.stderr",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "/tmp/nr2_premise406.capture_provenance.json": {
+      "destination": "udt_geometric_field_choice_discrimination_2026-09-13/checks/premise406.capture_provenance.json",
+      "sha256": "422af293cd240c74bb2420052a0cb0885da49fd0fa76b2cbdc53bd100c0c6a4e"
+    }
+  },
+  "originals_retained": true,
+  "actual_result": "PASS exit0 404.300133551s, start12:43:14.428401UTC; stdout inspected for current406 PASS"
+}

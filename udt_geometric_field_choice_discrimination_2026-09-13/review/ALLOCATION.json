@@ -1,0 +1,17 @@
+{
+  "context": "/root/field_choice_review",
+  "fork_turns": "none",
+  "attempts": 1,
+  "allocated": true,
+  "allocation_observed_bracket_utc": [
+    "2026-09-13T12:51:59+00:00",
+    "2026-09-13T12:52:25+00:00"
+  ],
+  "conservative_hard_stop_utc": "2026-09-13T13:31:59+00:00",
+  "source_first_deadline_utc": "2026-09-13T12:59:59+00:00",
+  "runtime_model": "UNATTESTED",
+  "different_model": "UNTESTED",
+  "general_capacity": "UNVERIFIED",
+  "no_capacity_limit_recurrence": true,
+  "timing_note": "Clock observations bracket actual successful allocation tool; do not claim an unattested exact spawn time."
+}

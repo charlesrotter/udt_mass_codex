@@ -1,0 +1,20 @@
+{
+  "utc": "2026-09-13T12:58:56.929965+00:00",
+  "history": "Initial candidate drafted before reviewer source-first result. Before this formal freeze, parent received source-first agreement at12:56:04 observation, including same larger aligned survivor and central blind spot. No new confirmatory mathematical code outcome seen. Candidate draft exposure statement refers to draft time; this record owns later freeze exposure. Not outcome-blind discovery.",
+  "scope": "entire candidate sections1-6, exact finite-family inversion and explicit sufficient larger family, with source/readout/currentG312 boundaries",
+  "parameters": "all real four-state data; u>0; exact b2 and first blind exp(pi/nu); epsilon free, explicit1/8 and1 controls; q/r zeros, sign/reflection, phase relabel and cubic/nonharmonic controls",
+  "tests": "exact original Ricci/Lie/divergence/Riemann and central2jets; ODE and map identities; squared/sign/phase zeros; 50digit values descriptive only; equal flattened lengths asserted; no floating acceptance threshold",
+  "resources": "one thread/process,180s2048MiB; full406 already completed separately",
+  "pins": {
+    "WORK_ORDER.md": "1b7f1e9efa256c9e027d066fc802f07ddaca540de4e9640b959d262d8ab62b18",
+    "SOURCE_MAP.md": "d8957f0be59240cabc7a1d2250e4ac08aa1ea11c2a8cb09e31f2d34b89768872",
+    "SOURCE_PINS.json": "32863c7f7adcde04a7777c627f791658ee4a9f01f6086f2a4b5bd20b1e4670eb",
+    "INITIAL_CANDIDATE.md": "d208d623a1c0340b79f4bd9aaee012cbbca4c41b0c3db41178647dafa43251c8",
+    "check_candidate.py": "e031f64835e21a8c2d52b39f46a0a71254570571392a8097063c47f9d074c7a7",
+    "LITERATURE_EXPOSURE.md": "745d84a728f452fdc5a93d3e90c06b343080455d14097f32575bea532c6fe9a4"
+  },
+  "utility_pin": {
+    "path": "udt_current_native_radiation_feasibility_2026-09-13/check_candidate.py",
+    "sha256": "85711d60ceedb583d5350059a952db6fd6f649e880e8fcb0d8317b714fdf26d5"
+  }
+}

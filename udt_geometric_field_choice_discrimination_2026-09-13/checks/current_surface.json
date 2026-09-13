@@ -1,0 +1,15 @@
+{
+  "command": [
+    "python3",
+    "-c",
+    "from pathlib import Path; import verify_current_scientific_premises as v; v.validate_startup_surface(Path.cwd()); print(\"PASS: actual NR2 current startup surface\")"
+  ],
+  "cwd": "/home/udt-admin/udt_mass_codex",
+  "started_utc": "2026-09-13T13:10:19.412754+00:00",
+  "duration_seconds": 0.188859898946248,
+  "returncode": 0,
+  "timeout": false,
+  "address_space_bytes": 2147483648,
+  "cpu_seconds": 180,
+  "maxrss_kib": 55872
+}

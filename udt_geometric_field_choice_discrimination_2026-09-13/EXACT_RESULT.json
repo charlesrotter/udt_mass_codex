@@ -1,0 +1,770 @@
+{
+  "kind": "original-equation symbolic regression, exact map checks and labeled finite descriptions; not independent proof",
+  "python": "3.10.12",
+  "sympy": "1.13.1",
+  "utility_source": "udt_current_native_radiation_feasibility_2026-09-13/check_candidate.py",
+  "utility_source_sha256": "85711d60ceedb583d5350059a952db6fd6f649e880e8fcb0d8317b714fdf26d5",
+  "checks": [
+    {
+      "name": "general_full_Ricci",
+      "pass": true,
+      "shape": [
+        16,
+        16
+      ],
+      "residuals": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ]
+    },
+    {
+      "name": "general_det",
+      "pass": true,
+      "shape": [
+        1,
+        1
+      ],
+      "residuals": [
+        "0"
+      ]
+    },
+    {
+      "name": "arbitrary_profile_closed",
+      "pass": true,
+      "shape": [
+        4,
+        4
+      ],
+      "residuals": [
+        "0",
+        "0",
+        "0",
+        "0"
+      ]
+    },
+    {
+      "name": "arbitrary_profile_original_divergence",
+      "pass": true,
+      "shape": [
+        4,
+        4
+      ],
+      "residuals": [
+        "0",
+        "0",
+        "0",
+        "0"
+      ]
+    },
+    {
+      "name": "arbitrary_profile_null",
+      "pass": true,
+      "shape": [
+        1,
+        1
+      ],
+      "residuals": [
+        "0"
+      ]
+    },
+    {
+      "name": "arbitrary_profile_wedge_square",
+      "pass": true,
+      "shape": [
+        1,
+        1
+      ],
+      "residuals": [
+        "0"
+      ]
+    },
+    {
+      "name": "lowering_retains_full_metric_Kflat",
+      "pass": true,
+      "shape": [
+        4,
+        4
+      ],
+      "residuals": [
+        "0",
+        "0",
+        "0",
+        "0"
+      ]
+    },
+    {
+      "name": "full_F_from_K",
+      "pass": true,
+      "shape": [
+        16,
+        16
+      ],
+      "residuals": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ]
+    },
+    {
+      "name": "general_K_Lie",
+      "pass": true,
+      "shape": [
+        16,
+        16
+      ],
+      "residuals": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ]
+    },
+    {
+      "name": "cubic_full_Ricci",
+      "pass": true,
+      "shape": [
+        16,
+        16
+      ],
+      "residuals": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ]
+    },
+    {
+      "name": "cubic_actual_Lie_residual",
+      "pass": true,
+      "shape": [
+        16,
+        16
+      ],
+      "residuals": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ]
+    },
+    {
+      "name": "cubic_K_failure_exact_witness",
+      "pass": true,
+      "expression": "3",
+      "meaning": "not the identically zero symbolic expression or a declared exact nonzero witness, not universal nonvanishing"
+    },
+    {
+      "name": "base_Killing",
+      "pass": true,
+      "shape": [
+        16,
+        16
+      ],
+      "residuals": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ]
+    },
+    {
+      "name": "central_Killing_survives",
+      "pass": true,
+      "shape": [
+        16,
+        16
+      ],
+      "residuals": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ]
+    },
+    {
+      "name": "general_screen_Riemann",
+      "pass": true,
+      "shape": [
+        4,
+        4
+      ],
+      "residuals": [
+        "0",
+        "0",
+        "0",
+        "0"
+      ]
+    },
+    {
+      "name": "cubic_off_axis_tide",
+      "pass": true,
+      "shape": [
+        4,
+        4
+      ],
+      "residuals": [
+        "0",
+        "0",
+        "0",
+        "0"
+      ]
+    },
+    {
+      "name": "central_tide_unchanged",
+      "pass": true,
+      "shape": [
+        4,
+        4
+      ],
+      "residuals": [
+        "0",
+        "0",
+        "0",
+        "0"
+      ]
+    },
+    {
+      "name": "central_transverse_tidal_gradient",
+      "pass": true,
+      "shape": [
+        1,
+        1
+      ],
+      "residuals": [
+        "0"
+      ]
+    },
+    {
+      "name": "all_central_metric_two_jet_differences",
+      "pass": true,
+      "shape": [
+        21,
+        21
+      ],
+      "residuals": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ]
+    },
+    {
+      "name": "catch_central_equality_promoted_to_all_points",
+      "pass": true,
+      "expression": "-3/8",
+      "meaning": "not the identically zero symbolic expression or a declared exact nonzero witness, not universal nonvanishing"
+    },
+    {
+      "name": "nonharmonic_Ricci_control",
+      "pass": true,
+      "shape": [
+        1,
+        1
+      ],
+      "residuals": [
+        "0"
+      ]
+    },
+    {
+      "name": "catch_unchecked_harmonicity",
+      "pass": true,
+      "expression": "-2",
+      "meaning": "not the identically zero symbolic expression or a declared exact nonzero witness, not universal nonvanishing"
+    },
+    {
+      "name": "central_U_norm",
+      "pass": true,
+      "shape": [
+        1,
+        1
+      ],
+      "residuals": [
+        "0"
+      ]
+    },
+    {
+      "name": "central_connection_zero",
+      "pass": true,
+      "shape": [
+        64,
+        64
+      ],
+      "residuals": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ]
+    },
+    {
+      "name": "signed_projection_normalization",
+      "pass": true,
+      "shape": [
+        2,
+        2
+      ],
+      "residuals": [
+        "0",
+        "0"
+      ]
+    },
+    {
+      "name": "q_original_ODE",
+      "pass": true,
+      "shape": [
+        1,
+        1
+      ],
+      "residuals": [
+        "0"
+      ]
+    },
+    {
+      "name": "r_original_ODE",
+      "pass": true,
+      "shape": [
+        1,
+        1
+      ],
+      "residuals": [
+        "0"
+      ]
+    },
+    {
+      "name": "all_four_initial_data",
+      "pass": true,
+      "shape": [
+        4,
+        4
+      ],
+      "residuals": [
+        "0",
+        "0",
+        "0",
+        "0"
+      ]
+    },
+    {
+      "name": "local_signed_inverse",
+      "pass": true,
+      "shape": [
+        4,
+        4
+      ],
+      "residuals": [
+        "0",
+        "0",
+        "0",
+        "0"
+      ]
+    },
+    {
+      "name": "signed_jet_full_rank_det",
+      "pass": true,
+      "shape": [
+        1,
+        1
+      ],
+      "residuals": [
+        "0"
+      ]
+    },
+    {
+      "name": "two_sample_x_coefficient",
+      "pass": true,
+      "shape": [
+        1,
+        1
+      ],
+      "residuals": [
+        "0"
+      ]
+    },
+    {
+      "name": "two_sample_y_coefficient",
+      "pass": true,
+      "shape": [
+        1,
+        1
+      ],
+      "residuals": [
+        "0"
+      ]
+    },
+    {
+      "name": "two_sample_det_factor",
+      "pass": true,
+      "shape": [
+        1,
+        1
+      ],
+      "residuals": [
+        "0"
+      ]
+    },
+    {
+      "name": "exact_y_blind_return",
+      "pass": true,
+      "shape": [
+        1,
+        1
+      ],
+      "residuals": [
+        "0"
+      ]
+    },
+    {
+      "name": "x_still_visible_at_blind_return",
+      "pass": true,
+      "expression": "-(2 - 2*exp(6*sqrt(7)*pi/7))*exp(-4*sqrt(7)*pi/7)/3",
+      "meaning": "not the identically zero symbolic expression or a declared exact nonzero witness, not universal nonvanishing"
+    },
+    {
+      "name": "coincident_samples_rank_loss",
+      "pass": false,
+      "shape": [
+        1,
+        1
+      ],
+      "residuals": [
+        "nan"
+      ]
+    },
+    {
+      "name": "quadratic_first_jet_inverse",
+      "pass": true,
+      "shape": [
+        2,
+        2
+      ],
+      "residuals": [
+        "0",
+        "0"
+      ]
+    },
+    {
+      "name": "quadratic_sign_ambiguity",
+      "pass": true,
+      "shape": [
+        4,
+        4
+      ],
+      "residuals": [
+        "0",
+        "0",
+        "0",
+        "0"
+      ]
+    },
+    {
+      "name": "normalized_line_scale_ambiguity",
+      "pass": true,
+      "shape": [
+        4,
+        4
+      ],
+      "residuals": [
+        "0",
+        "0",
+        "0",
+        "0"
+      ]
+    },
+    {
+      "name": "quadratic_zero_first_jet",
+      "pass": true,
+      "shape": [
+        8,
+        8
+      ],
+      "residuals": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ]
+    },
+    {
+      "name": "zero_record_can_have_nonzero_second_jet",
+      "pass": true,
+      "expression": "2",
+      "meaning": "not the identically zero symbolic expression or a declared exact nonzero witness, not universal nonvanishing"
+    },
+    {
+      "name": "all_history_scalar_I_reflection",
+      "pass": true,
+      "shape": [
+        1,
+        1
+      ],
+      "residuals": [
+        "0"
+      ]
+    },
+    {
+      "name": "orientation_cross_term_plus",
+      "pass": true,
+      "shape": [
+        1,
+        1
+      ],
+      "residuals": [
+        "0"
+      ]
+    },
+    {
+      "name": "orientation_cross_term_minus",
+      "pass": true,
+      "shape": [
+        1,
+        1
+      ],
+      "residuals": [
+        "0"
+      ]
+    },
+    {
+      "name": "same_F_phase_factorization",
+      "pass": true,
+      "shape": [
+        16,
+        16
+      ],
+      "residuals": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ]
+    },
+    {
+      "name": "phase_example_compensated_F",
+      "pass": true,
+      "shape": [
+        1,
+        1
+      ],
+      "residuals": [
+        "0"
+      ]
+    },
+    {
+      "name": "different_phase_gradients",
+      "pass": true,
+      "expression": "1 - 2*u",
+      "meaning": "not the identically zero symbolic expression or a declared exact nonzero witness, not universal nonvanishing"
+    },
+    {
+      "name": "larger_family_same_signed_first_jet",
+      "pass": true,
+      "shape": [
+        2,
+        2
+      ],
+      "residuals": [
+        "0",
+        "0"
+      ]
+    },
+    {
+      "name": "larger_family_different_field_at2",
+      "pass": true,
+      "expression": "1",
+      "meaning": "not the identically zero symbolic expression or a declared exact nonzero witness, not universal nonvanishing"
+    },
+    {
+      "name": "catch_unrestricted_transverse_profile",
+      "pass": true,
+      "expression": "1",
+      "meaning": "not the identically zero symbolic expression or a declared exact nonzero witness, not universal nonvanishing"
+    }
+  ],
+  "count": 50,
+  "passed": 49,
+  "all_pass": false,
+  "finite_descriptions_50_digits": {
+    "two_sample_det_at2": "3.9599140943636046497586140894703518563549211429155",
+    "first_nonzero_blind_b": "10.749087029163505467801312618091215583780012695572"
+  },
+  "evidence_limit": "Generic nonzero expressions are not universal nonzero claims; all-function classification rests on analytic proof; no floating tolerance or operating-domain certification."
+}

@@ -1,0 +1,1389 @@
+{
+  "scope": "outcome-exposed independent check cases; reused Fraction tensor engine; original covariant equations and exact record maps",
+  "utc": "2026-09-13T13:07:55.314879+00:00",
+  "python": "3.10.12",
+  "sympy_map_checks": "1.13.1",
+  "utility": "udt_current_native_radiation_feasibility_2026-09-13/review/independent_exact.py",
+  "utility_sha256": "d7b4c22e9d3557c197c2b946d5d2305fe29e5542488edaacc54a5dc27d7fe825",
+  "code_sha256": "15fee73f7f19ac6a7a59caf9d2715b61fa346d9f8b78a3a2db03dad7cd4ce7da",
+  "thread_environment": {
+    "OMP_NUM_THREADS": "1",
+    "OPENBLAS_NUM_THREADS": "1",
+    "MKL_NUM_THREADS": "1"
+  },
+  "checks": [
+    {
+      "name": "shape_mismatch_rejected",
+      "pass": true
+    },
+    {
+      "name": "rational_jet_derivative",
+      "pass": true,
+      "shape": [
+        1,
+        1
+      ],
+      "nonzero": []
+    },
+    {
+      "name": "rational_jet_inverse",
+      "pass": true,
+      "shape": [
+        1,
+        1
+      ],
+      "nonzero": []
+    },
+    {
+      "name": "point0_base_full_Ricci",
+      "pass": true,
+      "shape": [
+        16,
+        16
+      ],
+      "nonzero": []
+    },
+    {
+      "name": "point0_base_full_F",
+      "pass": true,
+      "shape": [
+        16,
+        16
+      ],
+      "nonzero": []
+    },
+    {
+      "name": "point0_base_original_covariant_divergence",
+      "pass": true,
+      "shape": [
+        4,
+        4
+      ],
+      "nonzero": []
+    },
+    {
+      "name": "point0_base_exterior_closure",
+      "pass": true,
+      "shape": [
+        4,
+        4
+      ],
+      "nonzero": []
+    },
+    {
+      "name": "point0_base_null_invariants",
+      "pass": true,
+      "shape": [
+        2,
+        2
+      ],
+      "nonzero": []
+    },
+    {
+      "name": "point0_base_full_Lie",
+      "pass": true,
+      "shape": [
+        16,
+        16
+      ],
+      "nonzero": []
+    },
+    {
+      "name": "point0_base_full_screen_tide",
+      "pass": true,
+      "shape": [
+        4,
+        4
+      ],
+      "nonzero": []
+    },
+    {
+      "name": "point0_base_field_u_jet",
+      "pass": true,
+      "shape": [
+        2,
+        2
+      ],
+      "nonzero": []
+    },
+    {
+      "name": "point0_cubic_full_Ricci",
+      "pass": true,
+      "shape": [
+        16,
+        16
+      ],
+      "nonzero": []
+    },
+    {
+      "name": "point0_cubic_full_F",
+      "pass": true,
+      "shape": [
+        16,
+        16
+      ],
+      "nonzero": []
+    },
+    {
+      "name": "point0_cubic_original_covariant_divergence",
+      "pass": true,
+      "shape": [
+        4,
+        4
+      ],
+      "nonzero": []
+    },
+    {
+      "name": "point0_cubic_exterior_closure",
+      "pass": true,
+      "shape": [
+        4,
+        4
+      ],
+      "nonzero": []
+    },
+    {
+      "name": "point0_cubic_null_invariants",
+      "pass": true,
+      "shape": [
+        2,
+        2
+      ],
+      "nonzero": []
+    },
+    {
+      "name": "point0_cubic_full_Lie",
+      "pass": true,
+      "shape": [
+        16,
+        16
+      ],
+      "nonzero": []
+    },
+    {
+      "name": "point0_cubic_full_screen_tide",
+      "pass": true,
+      "shape": [
+        4,
+        4
+      ],
+      "nonzero": []
+    },
+    {
+      "name": "point0_cubic_field_u_jet",
+      "pass": true,
+      "shape": [
+        2,
+        2
+      ],
+      "nonzero": []
+    },
+    {
+      "name": "center_cubic_all_metric2jet_coefficients",
+      "pass": true
+    },
+    {
+      "name": "center_cubic_connection",
+      "pass": true,
+      "shape": [
+        64,
+        64
+      ],
+      "nonzero": []
+    },
+    {
+      "name": "center_full_Riemann_same",
+      "pass": true,
+      "shape": [
+        256,
+        256
+      ],
+      "nonzero": []
+    },
+    {
+      "name": "point0_nonharmonic_full_Ricci",
+      "pass": true,
+      "shape": [
+        16,
+        16
+      ],
+      "nonzero": []
+    },
+    {
+      "name": "point0_nonharmonic_full_F",
+      "pass": true,
+      "shape": [
+        16,
+        16
+      ],
+      "nonzero": []
+    },
+    {
+      "name": "point0_nonharmonic_original_covariant_divergence",
+      "pass": true,
+      "shape": [
+        4,
+        4
+      ],
+      "nonzero": []
+    },
+    {
+      "name": "point0_nonharmonic_exterior_closure",
+      "pass": true,
+      "shape": [
+        4,
+        4
+      ],
+      "nonzero": []
+    },
+    {
+      "name": "point0_nonharmonic_null_invariants",
+      "pass": true,
+      "shape": [
+        2,
+        2
+      ],
+      "nonzero": []
+    },
+    {
+      "name": "point0_nonharmonic_full_Lie",
+      "pass": true,
+      "shape": [
+        16,
+        16
+      ],
+      "nonzero": []
+    },
+    {
+      "name": "point0_nonharmonic_full_screen_tide",
+      "pass": true,
+      "shape": [
+        4,
+        4
+      ],
+      "nonzero": []
+    },
+    {
+      "name": "point0_nonharmonic_field_u_jet",
+      "pass": true,
+      "shape": [
+        2,
+        2
+      ],
+      "nonzero": []
+    },
+    {
+      "name": "point1_base_full_Ricci",
+      "pass": true,
+      "shape": [
+        16,
+        16
+      ],
+      "nonzero": []
+    },
+    {
+      "name": "point1_base_full_F",
+      "pass": true,
+      "shape": [
+        16,
+        16
+      ],
+      "nonzero": []
+    },
+    {
+      "name": "point1_base_original_covariant_divergence",
+      "pass": true,
+      "shape": [
+        4,
+        4
+      ],
+      "nonzero": []
+    },
+    {
+      "name": "point1_base_exterior_closure",
+      "pass": true,
+      "shape": [
+        4,
+        4
+      ],
+      "nonzero": []
+    },
+    {
+      "name": "point1_base_null_invariants",
+      "pass": true,
+      "shape": [
+        2,
+        2
+      ],
+      "nonzero": []
+    },
+    {
+      "name": "point1_base_full_Lie",
+      "pass": true,
+      "shape": [
+        16,
+        16
+      ],
+      "nonzero": []
+    },
+    {
+      "name": "point1_base_full_screen_tide",
+      "pass": true,
+      "shape": [
+        4,
+        4
+      ],
+      "nonzero": []
+    },
+    {
+      "name": "point1_base_field_u_jet",
+      "pass": true,
+      "shape": [
+        2,
+        2
+      ],
+      "nonzero": []
+    },
+    {
+      "name": "point1_cubic_full_Ricci",
+      "pass": true,
+      "shape": [
+        16,
+        16
+      ],
+      "nonzero": []
+    },
+    {
+      "name": "point1_cubic_full_F",
+      "pass": true,
+      "shape": [
+        16,
+        16
+      ],
+      "nonzero": []
+    },
+    {
+      "name": "point1_cubic_original_covariant_divergence",
+      "pass": true,
+      "shape": [
+        4,
+        4
+      ],
+      "nonzero": []
+    },
+    {
+      "name": "point1_cubic_exterior_closure",
+      "pass": true,
+      "shape": [
+        4,
+        4
+      ],
+      "nonzero": []
+    },
+    {
+      "name": "point1_cubic_null_invariants",
+      "pass": true,
+      "shape": [
+        2,
+        2
+      ],
+      "nonzero": []
+    },
+    {
+      "name": "point1_cubic_full_Lie",
+      "pass": true,
+      "shape": [
+        16,
+        16
+      ],
+      "nonzero": []
+    },
+    {
+      "name": "point1_cubic_full_screen_tide",
+      "pass": true,
+      "shape": [
+        4,
+        4
+      ],
+      "nonzero": []
+    },
+    {
+      "name": "point1_cubic_field_u_jet",
+      "pass": true,
+      "shape": [
+        2,
+        2
+      ],
+      "nonzero": []
+    },
+    {
+      "name": "point1_nonharmonic_full_Ricci",
+      "pass": true,
+      "shape": [
+        16,
+        16
+      ],
+      "nonzero": []
+    },
+    {
+      "name": "point1_nonharmonic_full_F",
+      "pass": true,
+      "shape": [
+        16,
+        16
+      ],
+      "nonzero": []
+    },
+    {
+      "name": "point1_nonharmonic_original_covariant_divergence",
+      "pass": true,
+      "shape": [
+        4,
+        4
+      ],
+      "nonzero": []
+    },
+    {
+      "name": "point1_nonharmonic_exterior_closure",
+      "pass": true,
+      "shape": [
+        4,
+        4
+      ],
+      "nonzero": []
+    },
+    {
+      "name": "point1_nonharmonic_null_invariants",
+      "pass": true,
+      "shape": [
+        2,
+        2
+      ],
+      "nonzero": []
+    },
+    {
+      "name": "point1_nonharmonic_full_Lie",
+      "pass": true,
+      "shape": [
+        16,
+        16
+      ],
+      "nonzero": []
+    },
+    {
+      "name": "point1_nonharmonic_full_screen_tide",
+      "pass": true,
+      "shape": [
+        4,
+        4
+      ],
+      "nonzero": []
+    },
+    {
+      "name": "point1_nonharmonic_field_u_jet",
+      "pass": true,
+      "shape": [
+        2,
+        2
+      ],
+      "nonzero": []
+    },
+    {
+      "name": "point2_base_full_Ricci",
+      "pass": true,
+      "shape": [
+        16,
+        16
+      ],
+      "nonzero": []
+    },
+    {
+      "name": "point2_base_full_F",
+      "pass": true,
+      "shape": [
+        16,
+        16
+      ],
+      "nonzero": []
+    },
+    {
+      "name": "point2_base_original_covariant_divergence",
+      "pass": true,
+      "shape": [
+        4,
+        4
+      ],
+      "nonzero": []
+    },
+    {
+      "name": "point2_base_exterior_closure",
+      "pass": true,
+      "shape": [
+        4,
+        4
+      ],
+      "nonzero": []
+    },
+    {
+      "name": "point2_base_null_invariants",
+      "pass": true,
+      "shape": [
+        2,
+        2
+      ],
+      "nonzero": []
+    },
+    {
+      "name": "point2_base_full_Lie",
+      "pass": true,
+      "shape": [
+        16,
+        16
+      ],
+      "nonzero": []
+    },
+    {
+      "name": "point2_base_full_screen_tide",
+      "pass": true,
+      "shape": [
+        4,
+        4
+      ],
+      "nonzero": []
+    },
+    {
+      "name": "point2_base_field_u_jet",
+      "pass": true,
+      "shape": [
+        2,
+        2
+      ],
+      "nonzero": []
+    },
+    {
+      "name": "point2_cubic_full_Ricci",
+      "pass": true,
+      "shape": [
+        16,
+        16
+      ],
+      "nonzero": []
+    },
+    {
+      "name": "point2_cubic_full_F",
+      "pass": true,
+      "shape": [
+        16,
+        16
+      ],
+      "nonzero": []
+    },
+    {
+      "name": "point2_cubic_original_covariant_divergence",
+      "pass": true,
+      "shape": [
+        4,
+        4
+      ],
+      "nonzero": []
+    },
+    {
+      "name": "point2_cubic_exterior_closure",
+      "pass": true,
+      "shape": [
+        4,
+        4
+      ],
+      "nonzero": []
+    },
+    {
+      "name": "point2_cubic_null_invariants",
+      "pass": true,
+      "shape": [
+        2,
+        2
+      ],
+      "nonzero": []
+    },
+    {
+      "name": "point2_cubic_full_Lie",
+      "pass": true,
+      "shape": [
+        16,
+        16
+      ],
+      "nonzero": []
+    },
+    {
+      "name": "point2_cubic_full_screen_tide",
+      "pass": true,
+      "shape": [
+        4,
+        4
+      ],
+      "nonzero": []
+    },
+    {
+      "name": "point2_cubic_field_u_jet",
+      "pass": true,
+      "shape": [
+        2,
+        2
+      ],
+      "nonzero": []
+    },
+    {
+      "name": "point2_nonharmonic_full_Ricci",
+      "pass": true,
+      "shape": [
+        16,
+        16
+      ],
+      "nonzero": []
+    },
+    {
+      "name": "point2_nonharmonic_full_F",
+      "pass": true,
+      "shape": [
+        16,
+        16
+      ],
+      "nonzero": []
+    },
+    {
+      "name": "point2_nonharmonic_original_covariant_divergence",
+      "pass": true,
+      "shape": [
+        4,
+        4
+      ],
+      "nonzero": []
+    },
+    {
+      "name": "point2_nonharmonic_exterior_closure",
+      "pass": true,
+      "shape": [
+        4,
+        4
+      ],
+      "nonzero": []
+    },
+    {
+      "name": "point2_nonharmonic_null_invariants",
+      "pass": true,
+      "shape": [
+        2,
+        2
+      ],
+      "nonzero": []
+    },
+    {
+      "name": "point2_nonharmonic_full_Lie",
+      "pass": true,
+      "shape": [
+        16,
+        16
+      ],
+      "nonzero": []
+    },
+    {
+      "name": "point2_nonharmonic_full_screen_tide",
+      "pass": true,
+      "shape": [
+        4,
+        4
+      ],
+      "nonzero": []
+    },
+    {
+      "name": "point2_nonharmonic_field_u_jet",
+      "pass": true,
+      "shape": [
+        2,
+        2
+      ],
+      "nonzero": []
+    },
+    {
+      "name": "central_Killing_survives",
+      "pass": true,
+      "shape": [
+        16,
+        16
+      ],
+      "nonzero": []
+    },
+    {
+      "name": "central_F_zero",
+      "pass": true,
+      "shape": [
+        16,
+        16
+      ],
+      "nonzero": []
+    },
+    {
+      "name": "wrong_Kv_sign_detected",
+      "pass": true,
+      "values": [
+        "8",
+        "0",
+        "4",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "4",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ]
+    },
+    {
+      "name": "arbitrary_profile_original_divergence",
+      "pass": true,
+      "shape": [
+        4,
+        4
+      ],
+      "nonzero": []
+    },
+    {
+      "name": "arbitrary_profile_closed",
+      "pass": true,
+      "shape": [
+        4,
+        4
+      ],
+      "nonzero": []
+    },
+    {
+      "name": "arbitrary_profile_null",
+      "pass": true,
+      "shape": [
+        1,
+        1
+      ],
+      "nonzero": []
+    },
+    {
+      "name": "arbitrary_profile_non_Ricci_flat",
+      "pass": true,
+      "values": [
+        "-4/9",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ]
+    },
+    {
+      "name": "transverse_dependence_divergence_caught",
+      "pass": true,
+      "values": [
+        "0",
+        "1",
+        "0",
+        "0"
+      ]
+    },
+    {
+      "name": "nonconstant_det_chart_covariant_divergence",
+      "pass": true,
+      "shape": [
+        4,
+        4
+      ],
+      "nonzero": []
+    },
+    {
+      "name": "nonconstant_det_chart_closed",
+      "pass": true,
+      "shape": [
+        4,
+        4
+      ],
+      "nonzero": []
+    },
+    {
+      "name": "nonconstant_det_chart_null",
+      "pass": true,
+      "shape": [
+        1,
+        1
+      ],
+      "nonzero": []
+    },
+    {
+      "name": "dropping_connection_terms_caught",
+      "pass": true,
+      "values": [
+        "0",
+        "0",
+        "13/36",
+        "2/9"
+      ]
+    },
+    {
+      "name": "coincident_original_matrix_rank",
+      "pass": true,
+      "shape": [
+        1,
+        1
+      ],
+      "nonzero": []
+    },
+    {
+      "name": "coincident_original_repeated_rows",
+      "pass": true,
+      "shape": [
+        8,
+        8
+      ],
+      "nonzero": []
+    },
+    {
+      "name": "local_signed_jet_rank_u1/2",
+      "pass": true,
+      "shape": [
+        1,
+        1
+      ],
+      "nonzero": []
+    },
+    {
+      "name": "local_signed_jet_rank_u1",
+      "pass": true,
+      "shape": [
+        1,
+        1
+      ],
+      "nonzero": []
+    },
+    {
+      "name": "local_signed_jet_rank_u3",
+      "pass": true,
+      "shape": [
+        1,
+        1
+      ],
+      "nonzero": []
+    },
+    {
+      "name": "two_sample_structural_rank_2_3",
+      "pass": true,
+      "shape": [
+        1,
+        1
+      ],
+      "nonzero": []
+    },
+    {
+      "name": "two_sample_structural_rank_0_3",
+      "pass": true,
+      "shape": [
+        1,
+        1
+      ],
+      "nonzero": []
+    },
+    {
+      "name": "two_sample_structural_rank_2_0",
+      "pass": true,
+      "shape": [
+        1,
+        1
+      ],
+      "nonzero": []
+    },
+    {
+      "name": "two_sample_structural_rank_0_0",
+      "pass": true,
+      "shape": [
+        1,
+        1
+      ],
+      "nonzero": []
+    },
+    {
+      "name": "quadratic_derivative_inverse_0",
+      "pass": true,
+      "shape": [
+        2,
+        2
+      ],
+      "nonzero": []
+    },
+    {
+      "name": "quadratic_global_sign_0",
+      "pass": true,
+      "shape": [
+        4,
+        4
+      ],
+      "nonzero": []
+    },
+    {
+      "name": "quadratic_reconstructed_same_sign_0",
+      "pass": true,
+      "shape": [
+        2,
+        2
+      ],
+      "nonzero": []
+    },
+    {
+      "name": "quadratic_derivative_inverse_1",
+      "pass": true,
+      "shape": [
+        2,
+        2
+      ],
+      "nonzero": []
+    },
+    {
+      "name": "quadratic_global_sign_1",
+      "pass": true,
+      "shape": [
+        4,
+        4
+      ],
+      "nonzero": []
+    },
+    {
+      "name": "quadratic_reconstructed_same_sign_1",
+      "pass": true,
+      "shape": [
+        2,
+        2
+      ],
+      "nonzero": []
+    },
+    {
+      "name": "quadratic_derivative_inverse_2",
+      "pass": true,
+      "shape": [
+        2,
+        2
+      ],
+      "nonzero": []
+    },
+    {
+      "name": "quadratic_global_sign_2",
+      "pass": true,
+      "shape": [
+        4,
+        4
+      ],
+      "nonzero": []
+    },
+    {
+      "name": "quadratic_reconstructed_same_sign_2",
+      "pass": true,
+      "shape": [
+        2,
+        2
+      ],
+      "nonzero": []
+    },
+    {
+      "name": "zero_e_gives_zero_Q",
+      "pass": true,
+      "shape": [
+        4,
+        4
+      ],
+      "nonzero": []
+    },
+    {
+      "name": "zero_e_nonzero_Qsecond",
+      "pass": true,
+      "values": [
+        "8",
+        "-12",
+        "-12",
+        "18"
+      ]
+    },
+    {
+      "name": "scalar_I_reflection_example",
+      "pass": true,
+      "shape": [
+        1,
+        1
+      ],
+      "nonzero": []
+    },
+    {
+      "name": "Qxy_reflection_detectable",
+      "pass": true,
+      "values": [
+        "4"
+      ]
+    },
+    {
+      "name": "arbitrary_profile_same_first_record_jet",
+      "pass": true,
+      "shape": [
+        2,
+        2
+      ],
+      "nonzero": []
+    },
+    {
+      "name": "arbitrary_profile_second_record_jet_changes",
+      "pass": true,
+      "shape": [
+        1,
+        1
+      ],
+      "nonzero": []
+    },
+    {
+      "name": "explicit_q_ODE",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "name": "explicit_r_ODE",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "name": "r_sample_q_coefficient",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "name": "first_blind_return_y_coefficient",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "name": "independent_original_coincident_matrix_det",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "name": "independent_original_coincident_rank2",
+      "pass": true
+    },
+    {
+      "name": "sample_det_by_block_formula",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "name": "profile_phase_derivative",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "name": "same_form_phase_u_squared",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "name": "all13_source_pins_match",
+      "pass": true
+    },
+    {
+      "name": "CANDIDATE_FREEZE.json_all_pins_match",
+      "pass": true
+    },
+    {
+      "name": "REPAIR_FREEZE.json_all_pins_match",
+      "pass": true
+    }
+  ],
+  "records": [
+    {
+      "point": [
+        "1",
+        "0",
+        "0",
+        "0"
+      ],
+      "local_state": [
+        "2",
+        "0",
+        "-3",
+        "0"
+      ],
+      "metric": "base",
+      "Lie_uu": "0",
+      "F_ux": "0",
+      "F_uy": "0",
+      "tide": [
+        [
+          "-2",
+          "0"
+        ],
+        [
+          "0",
+          "2"
+        ]
+      ]
+    },
+    {
+      "point": [
+        "1",
+        "0",
+        "0",
+        "0"
+      ],
+      "local_state": [
+        "2",
+        "0",
+        "-3",
+        "0"
+      ],
+      "metric": "cubic",
+      "Lie_uu": "0",
+      "F_ux": "0",
+      "F_uy": "0",
+      "tide": [
+        [
+          "-2",
+          "0"
+        ],
+        [
+          "0",
+          "2"
+        ]
+      ]
+    },
+    {
+      "point": [
+        "1",
+        "0",
+        "0",
+        "0"
+      ],
+      "local_state": [
+        "2",
+        "0",
+        "-3",
+        "0"
+      ],
+      "metric": "nonharmonic",
+      "Lie_uu": "0",
+      "F_ux": "0",
+      "F_uy": "0",
+      "tide": [
+        [
+          "-16/7",
+          "0"
+        ],
+        [
+          "0",
+          "12/7"
+        ]
+      ]
+    },
+    {
+      "point": [
+        "2",
+        "1/3",
+        "1/2",
+        "-2/3"
+      ],
+      "local_state": [
+        "-1",
+        "3/2",
+        "5/3",
+        "-2"
+      ],
+      "metric": "base",
+      "Lie_uu": "0",
+      "F_ux": "3",
+      "F_uy": "-4",
+      "tide": [
+        [
+          "-1/2",
+          "0"
+        ],
+        [
+          "0",
+          "1/2"
+        ]
+      ]
+    },
+    {
+      "point": [
+        "2",
+        "1/3",
+        "1/2",
+        "-2/3"
+      ],
+      "local_state": [
+        "-1",
+        "3/2",
+        "5/3",
+        "-2"
+      ],
+      "metric": "cubic",
+      "Lie_uu": "47/60",
+      "F_ux": "3",
+      "F_uy": "-4",
+      "tide": [
+        [
+          "-4/5",
+          "-2/5"
+        ],
+        [
+          "-2/5",
+          "4/5"
+        ]
+      ]
+    },
+    {
+      "point": [
+        "2",
+        "1/3",
+        "1/2",
+        "-2/3"
+      ],
+      "local_state": [
+        "-1",
+        "3/2",
+        "5/3",
+        "-2"
+      ],
+      "metric": "nonharmonic",
+      "Lie_uu": "-58/63",
+      "F_ux": "3",
+      "F_uy": "-4",
+      "tide": [
+        [
+          "-11/14",
+          "0"
+        ],
+        [
+          "0",
+          "3/14"
+        ]
+      ]
+    },
+    {
+      "point": [
+        "3/2",
+        "-1",
+        "-2/5",
+        "4/7"
+      ],
+      "local_state": [
+        "1/4",
+        "-1/2",
+        "3",
+        "2/5"
+      ],
+      "metric": "base",
+      "Lie_uu": "0",
+      "F_ux": "-1",
+      "F_uy": "4/5",
+      "tide": [
+        [
+          "-8/9",
+          "0"
+        ],
+        [
+          "0",
+          "8/9"
+        ]
+      ]
+    },
+    {
+      "point": [
+        "3/2",
+        "-1",
+        "-2/5",
+        "4/7"
+      ],
+      "local_state": [
+        "1/4",
+        "-1/2",
+        "3",
+        "2/5"
+      ],
+      "metric": "cubic",
+      "Lie_uu": "4887/6125",
+      "F_ux": "-1",
+      "F_uy": "4/5",
+      "tide": [
+        [
+          "-146/225",
+          "12/35"
+        ],
+        [
+          "12/35",
+          "146/225"
+        ]
+      ]
+    },
+    {
+      "point": [
+        "3/2",
+        "-1",
+        "-2/5",
+        "4/7"
+      ],
+      "local_state": [
+        "1/4",
+        "-1/2",
+        "3",
+        "2/5"
+      ],
+      "metric": "nonharmonic",
+      "Lie_uu": "226/245",
+      "F_ux": "-1",
+      "F_uy": "4/5",
+      "tide": [
+        [
+          "-74/63",
+          "0"
+        ],
+        [
+          "0",
+          "38/63"
+        ]
+      ]
+    },
+    {
+      "type": "x=(v+2)z coordinate control",
+      "sqrt_minus_det": "v+2",
+      "raw_partial_divergence": [
+        "0",
+        "0",
+        "13/36",
+        "2/9"
+      ],
+      "full_covariant_divergence": [
+        "0",
+        "0",
+        "0",
+        "0"
+      ]
+    }
+  ],
+  "count": 126,
+  "passed": 126,
+  "all_pass": true,
+  "limits": "finite coordinate-jet checks are not all-function proof; no floating approximation; reused engine is not new independent engine; symbolic map library shared"
+}

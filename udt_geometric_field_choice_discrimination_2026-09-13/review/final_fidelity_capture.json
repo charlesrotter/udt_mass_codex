@@ -1,0 +1,15 @@
+{
+  "command": [
+    "python3",
+    "udt_geometric_field_choice_discrimination_2026-09-13/review/final_fidelity_checks.py",
+    "udt_geometric_field_choice_discrimination_2026-09-13/review/FINAL_CHECK_RESULT.json"
+  ],
+  "cwd": "/home/udt-admin/udt_mass_codex",
+  "started_utc": "2026-09-13T13:15:01.099436+00:00",
+  "duration_seconds": 0.07355052093043923,
+  "returncode": 0,
+  "timeout": false,
+  "address_space_bytes": 2147483648,
+  "cpu_seconds": 180,
+  "maxrss_kib": 16748
+}

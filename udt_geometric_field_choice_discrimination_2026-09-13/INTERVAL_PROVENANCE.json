@@ -1,0 +1,10 @@
+{
+  "source": "udt_signal_chain_banking_2026-09-13/record_execution.py",
+  "sha256": "3988644f37649cadb9510448d61bb778858279b1039c45052e84e7f64a6a5e74",
+  "adaptations": [
+    "P bound to NR2 package in memory",
+    "scope clarified to include captured Git fetch"
+  ],
+  "initial_output": "EXECUTION_INTERVALS.json",
+  "final_rule": "append separate EXECUTION_INTERVALS_FINAL.json after reviewer completion; do not rewrite reviewed initial snapshot"
+}

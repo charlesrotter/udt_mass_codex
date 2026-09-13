@@ -1,0 +1,23 @@
+{
+  "recorded_utc": "2026-09-13T13:11:17.812081+00:00",
+  "branch": "grok",
+  "refs": [
+    "f2e5c94d6418dbcd5ca09545f87a208dde7913b0",
+    "f2e5c94d6418dbcd5ca09545f87a208dde7913b0"
+  ],
+  "original51_status_names_exact": true,
+  "status_names_sha256": "747cf3c497bfbdf7c373a2aa621be3cb241a61f7ef9f508c39bf64588ff70a60",
+  "protected_payload_bytes": "NOT READ OR HASHED; names-only preservation is not a byte-level certificate",
+  "tracked_changes": [
+    "CURRENT_RESEARCH_PROGRAM.md",
+    "HANDOFF.md",
+    "INDEX.md",
+    "LIVE.md",
+    "MEMORY.md",
+    "UDT_RESEARCH_ROADMAP.md"
+  ],
+  "index_empty": true,
+  "all13_source_pins_match": true,
+  "all5_audit_input_pins_match": true,
+  "candidate_and_repair_pins_match": true
+}

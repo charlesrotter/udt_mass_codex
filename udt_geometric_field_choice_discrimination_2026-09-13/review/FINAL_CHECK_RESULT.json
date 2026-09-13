@@ -1,0 +1,246 @@
+{
+  "utc": "2026-09-13T13:15:01.168157+00:00",
+  "meaning": "administrative correspondence checks; no science replay; counts are not proofs",
+  "checks": [
+    {
+      "name": "13_scientific_sources",
+      "pass": true,
+      "count": 13,
+      "actual": {
+        "CURRENT_SCIENTIFIC_PREMISES.tsv": "7a3d69d5a0bc3ac98e2ebe2bb0c6d029df30071bf403baffed2223a193dc720b",
+        "udt_current_native_radiation_feasibility_2026-09-13/INITIAL_CANDIDATE.md": "569de1c36d052a0a844031c2161bf5e64f42014c99815d2bde0b30c7507caf57",
+        "udt_current_native_radiation_feasibility_2026-09-13/PROFILE_SCOPE_CLARIFICATION.md": "53d7a5e420a5443d1fc1e4d6c12d08b010efca8dedafab2ee0be7824f61ed4f4",
+        "udt_current_native_radiation_feasibility_2026-09-13/REVIEWED_RESULT.md": "35ff6515d1f35cf127daf25abaa62a41a56981e978afcb158f5f52e07333168f",
+        "udt_current_native_radiation_feasibility_2026-09-13/review/SOURCE_FIRST.md": "5596c9d70e9c2f53811454717b87c467cc9808d90147ce1482e6b3519479e90d",
+        "udt_current_native_radiation_feasibility_2026-09-13/review/DIRECT_REVIEW.md": "b902f6d7fcdca77a384e83fe4d6fc1e8fb4552766af6755f2ffb785a1a4ac30d",
+        "udt_current_native_radiation_feasibility_2026-09-13/COMPARISON_BOUNDARY.md": "9f25664960398dfe0119818de054885b98ba6ba1a156eba9a612905ec0b4b5fb",
+        "udt_current_native_radiation_feasibility_2026-09-13/DECISION_BRIEF.md": "3e15915320a5b058576885b6a3cd5cd1a27e2c49d545332d07972896763dcd4d",
+        "udt_g179_complete_coframe_pair_pullback_extension_2026-08-19/AUDIT_REPORT.md": "fe4d0aa56a734ca58972ea8123264efa6e0b979831f7f618eab8f69afa7ee2f2",
+        "udt_gr_filter_reconciliation_2026-09-09/AUTHORITY_RECORD.md": "80daa0be6d3e1c0ac1b734fea089c4eb487f05bc1e1fbb2fabd69322ca89f28c",
+        "udt_g348_generic_lorentzian_null_screen_area_theorem_2026-09-04/AUDIT_REPORT.md": "b264f4a8959a557884f3e6a668aab68d2831b477caf693f95db7b524c01bd279",
+        "udt_g351_source_free_labelwise_carried_measure_conservation_2026-09-05/AUDIT_REPORT.md": "9fe05975201708714983e03ca592f75bd40ccb16ea4079b7e4a33c9dfe4b48c1",
+        "udt_g352_clock_rate_carried_measure_readout_2026-09-05/AUDIT_REPORT.md": "4f1925a1d11d00d55bea6bf3858cbedf2878e63c8e4e14e5a22211b4e03d9f8f"
+      }
+    },
+    {
+      "name": "5_full_audit_inputs",
+      "pass": true,
+      "count": 5,
+      "actual": {
+        "AGENTS.md": "f8fa9f6135d80332e4d28b0dcfefd04e43c00042512968bb9eacf2f692499053",
+        "CLAUDE.md": "b7e524a5b06760e57877a408630228767ae9a394134095f9851bef5d06e17751",
+        "CURRENT_SCIENTIFIC_PREMISES.tsv": "7a3d69d5a0bc3ac98e2ebe2bb0c6d029df30071bf403baffed2223a193dc720b",
+        "CURRENT_SCIENTIFIC_PREMISES.md": "7b574665f714551a3a565987fc5bc56a4b44c7e6fb274532f61609c25153f627",
+        "verify_current_scientific_premises.py": "98dd79610f6bc9d116db65104345c84b64aae0bae2f81c93bec2f64b40745eec"
+      }
+    },
+    {
+      "name": "6_initial_candidate_freeze",
+      "pass": true,
+      "count": 6,
+      "actual": {
+        "WORK_ORDER.md": "1b7f1e9efa256c9e027d066fc802f07ddaca540de4e9640b959d262d8ab62b18",
+        "SOURCE_MAP.md": "d8957f0be59240cabc7a1d2250e4ac08aa1ea11c2a8cb09e31f2d34b89768872",
+        "SOURCE_PINS.json": "32863c7f7adcde04a7777c627f791658ee4a9f01f6086f2a4b5bd20b1e4670eb",
+        "INITIAL_CANDIDATE.md": "d208d623a1c0340b79f4bd9aaee012cbbca4c41b0c3db41178647dafa43251c8",
+        "check_candidate.py": "e031f64835e21a8c2d52b39f46a0a71254570571392a8097063c47f9d074c7a7",
+        "LITERATURE_EXPOSURE.md": "745d84a728f452fdc5a93d3e90c06b343080455d14097f32575bea532c6fe9a4"
+      }
+    },
+    {
+      "name": "6_repair_freeze",
+      "pass": true,
+      "count": 6,
+      "actual": {
+        "FINITE_DIAGNOSTIC.md": "bf320f1fa6edcfd2951a9d40ffb593b42c9798b51b85837f7039713b8f7c0a6d",
+        "diagnose_coincident.py": "bdb2751bd114d9165cb8df70856abe6150209dc5b5036a5f4e49ce82c78c33e1",
+        "COINCIDENT_DIAGNOSTIC.json": "a44161bec99ccd26ef85b9d2e76dd677e45269438d8583c7957dbcaf301e803a",
+        "REPAIR_RECORD.md": "48f84407a0ed63fa93284a9559a4033a5c951d1702478fa9c3846e4996e63520",
+        "check_candidate_repaired.py": "f2d148e99fdad8c315c5238790e8c05c0606c94f7e51410c4809dafb1962ac36",
+        "EXACT_RESULT.json": "91fee12e82e2143e4ed40fb3e2dd230ebfa7c2326674ee2c16d827b033914bc8"
+      }
+    },
+    {
+      "name": "independent_check_freeze",
+      "pass": true,
+      "count": 8,
+      "actual": {
+        "review/INDEPENDENT_FREEZE.md": "53a3f64e1fd6e8e8e05357c69c9d6f841e5a0d16d05948bd14f40fc40de320f4",
+        "review/independent_checks.py": "15fee73f7f19ac6a7a59caf9d2715b61fa346d9f8b78a3a2db03dad7cd4ce7da",
+        "INITIAL_CANDIDATE.md": "d208d623a1c0340b79f4bd9aaee012cbbca4c41b0c3db41178647dafa43251c8",
+        "CANDIDATE_FREEZE.json": "7202a08e372e8d288dd9740f60b480495662e6e78d426161966a8335f3997421",
+        "REPAIR_RECORD.md": "48f84407a0ed63fa93284a9559a4033a5c951d1702478fa9c3846e4996e63520",
+        "REPAIR_FREEZE.json": "a5af059490a1989d394e21d84e0a6e3a318f8b45e14e1e975aefb9158dd7075b",
+        "EXACT_RESULT.json": "91fee12e82e2143e4ed40fb3e2dd230ebfa7c2326674ee2c16d827b033914bc8",
+        "REPAIRED_RESULT.json": "ea35be936dc368dd6303614f3bb8b4b7b5ecf3b503fb9ff425e950492ef2ddbf"
+      }
+    },
+    {
+      "name": "6_tested_navigation_files",
+      "pass": true,
+      "count": 6,
+      "actual": {
+        "LIVE.md": "4d190dced863cf2917e43c91caf6a7d8a1559cb6bff69128bf3e20e5c3219bf8",
+        "HANDOFF.md": "cb7e5ce5c512f9b81e7a6491d980512af588a5b0698b76ee9ea124ce30222415",
+        "CURRENT_RESEARCH_PROGRAM.md": "a93e16de34dbd1c360a0b92c5832ba9662899664572457ce03859e6a2fd8ba5e",
+        "INDEX.md": "fb31f86eab62ddb033d26897466d32888d12b75c21007c749538353ac73514b4",
+        "MEMORY.md": "87787b98f20a41fa97ba700d78eac73d1d63ebd1462c4a738cd1f2d2f5fb012f",
+        "UDT_RESEARCH_ROADMAP.md": "e21c3c353d78404ffe2c351baf9280eb840f182c322f91660676ce85ff7b9908"
+      }
+    },
+    {
+      "name": "source_first_unchanged",
+      "pass": true
+    },
+    {
+      "name": "independent_code_result_correspondence",
+      "pass": true
+    },
+    {
+      "name": "126_independent_recorded_passes",
+      "pass": true
+    },
+    {
+      "name": "original_failures_preserved",
+      "pass": true
+    },
+    {
+      "name": "52_repaired_recorded_passes",
+      "pass": true
+    },
+    {
+      "name": "checks/premise406_actual_capture_exit",
+      "pass": true,
+      "start": "2026-09-13T12:43:14.428401+00:00",
+      "seconds": 404.3001335510053
+    },
+    {
+      "name": "checks/candidate_exact_actual_capture_exit",
+      "pass": true,
+      "start": "2026-09-13T12:58:56.948104+00:00",
+      "seconds": 0.7709992399904877
+    },
+    {
+      "name": "checks/coincident_diagnostic_actual_capture_exit",
+      "pass": true,
+      "start": "2026-09-13T13:03:15.196535+00:00",
+      "seconds": 0.5463629399891943
+    },
+    {
+      "name": "checks/candidate_repaired_actual_capture_exit",
+      "pass": true,
+      "start": "2026-09-13T13:03:52.799563+00:00",
+      "seconds": 0.7389885369921103
+    },
+    {
+      "name": "review/independent_capture_actual_capture_exit",
+      "pass": true,
+      "start": "2026-09-13T13:07:54.786724+00:00",
+      "seconds": 0.5586565190460533
+    },
+    {
+      "name": "checks/current_surface_actual_capture_exit",
+      "pass": true,
+      "start": "2026-09-13T13:10:19.412754+00:00",
+      "seconds": 0.188859898946248
+    },
+    {
+      "name": "checks/navigation_actual_capture_exit",
+      "pass": true,
+      "start": "2026-09-13T13:10:25.820228+00:00",
+      "seconds": 15.11361261701677
+    },
+    {
+      "name": "checks/prepublication_fetch_actual_capture_exit",
+      "pass": true,
+      "start": "2026-09-13T13:07:35.279261+00:00",
+      "seconds": 0.42777624796144664
+    },
+    {
+      "name": "actual_full406_stdout",
+      "pass": true
+    },
+    {
+      "name": "actual_startup_stdout",
+      "pass": true
+    },
+    {
+      "name": "actual_current_surface_stdout",
+      "pass": true
+    },
+    {
+      "name": "original51_names_exact",
+      "pass": true,
+      "count": 51,
+      "sha256": "747cf3c497bfbdf7c373a2aa621be3cb241a61f7ef9f508c39bf64588ff70a60",
+      "boundary": "names only; protected payload bytes not read or hashed"
+    },
+    {
+      "name": "only_six_reviewed_navigation_changes",
+      "pass": true,
+      "paths": [
+        "CURRENT_RESEARCH_PROGRAM.md",
+        "HANDOFF.md",
+        "INDEX.md",
+        "LIVE.md",
+        "MEMORY.md",
+        "UDT_RESEARCH_ROADMAP.md"
+      ]
+    },
+    {
+      "name": "index_empty_before_publication",
+      "pass": true
+    },
+    {
+      "name": "baseline_refs_and_branch",
+      "pass": true,
+      "refs": [
+        "f2e5c94d6418dbcd5ca09545f87a208dde7913b0",
+        "f2e5c94d6418dbcd5ca09545f87a208dde7913b0"
+      ],
+      "branch": "grok"
+    },
+    {
+      "name": "interval_correspondence_checks/candidate_exact.json",
+      "pass": true
+    },
+    {
+      "name": "interval_correspondence_checks/candidate_repaired.json",
+      "pass": true
+    },
+    {
+      "name": "interval_correspondence_checks/coincident_diagnostic.json",
+      "pass": true
+    },
+    {
+      "name": "interval_correspondence_checks/current_surface.json",
+      "pass": true
+    },
+    {
+      "name": "interval_correspondence_checks/navigation.json",
+      "pass": true
+    },
+    {
+      "name": "interval_correspondence_checks/premise406.json",
+      "pass": true
+    },
+    {
+      "name": "interval_correspondence_checks/prepublication_fetch.json",
+      "pass": true
+    },
+    {
+      "name": "interval_correspondence_review/independent_capture.json",
+      "pass": true
+    },
+    {
+      "name": "eight_existing_captured_operations_no_overlap",
+      "pass": true,
+      "count": 8,
+      "overlaps": []
+    }
+  ],
+  "count": 35,
+  "passed": 35,
+  "all_pass": true,
+  "code_sha256": "0fa48aa2249c8ba9300a353ee3e0b534db7bd9d0066bd3748fe202750b2828fc"
+}

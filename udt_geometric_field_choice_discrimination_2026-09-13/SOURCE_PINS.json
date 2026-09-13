@@ -1,0 +1,20 @@
+{
+  "utc": "2026-09-13T12:51:59.826240+00:00",
+  "baseline_head": "f2e5c94d6418dbcd5ca09545f87a208dde7913b0",
+  "sources": {
+    "CURRENT_SCIENTIFIC_PREMISES.tsv": "7a3d69d5a0bc3ac98e2ebe2bb0c6d029df30071bf403baffed2223a193dc720b",
+    "udt_current_native_radiation_feasibility_2026-09-13/INITIAL_CANDIDATE.md": "569de1c36d052a0a844031c2161bf5e64f42014c99815d2bde0b30c7507caf57",
+    "udt_current_native_radiation_feasibility_2026-09-13/PROFILE_SCOPE_CLARIFICATION.md": "53d7a5e420a5443d1fc1e4d6c12d08b010efca8dedafab2ee0be7824f61ed4f4",
+    "udt_current_native_radiation_feasibility_2026-09-13/REVIEWED_RESULT.md": "35ff6515d1f35cf127daf25abaa62a41a56981e978afcb158f5f52e07333168f",
+    "udt_current_native_radiation_feasibility_2026-09-13/review/SOURCE_FIRST.md": "5596c9d70e9c2f53811454717b87c467cc9808d90147ce1482e6b3519479e90d",
+    "udt_current_native_radiation_feasibility_2026-09-13/review/DIRECT_REVIEW.md": "b902f6d7fcdca77a384e83fe4d6fc1e8fb4552766af6755f2ffb785a1a4ac30d",
+    "udt_current_native_radiation_feasibility_2026-09-13/COMPARISON_BOUNDARY.md": "9f25664960398dfe0119818de054885b98ba6ba1a156eba9a612905ec0b4b5fb",
+    "udt_current_native_radiation_feasibility_2026-09-13/DECISION_BRIEF.md": "3e15915320a5b058576885b6a3cd5cd1a27e2c49d545332d07972896763dcd4d",
+    "udt_g179_complete_coframe_pair_pullback_extension_2026-08-19/AUDIT_REPORT.md": "fe4d0aa56a734ca58972ea8123264efa6e0b979831f7f618eab8f69afa7ee2f2",
+    "udt_gr_filter_reconciliation_2026-09-09/AUTHORITY_RECORD.md": "80daa0be6d3e1c0ac1b734fea089c4eb487f05bc1e1fbb2fabd69322ca89f28c",
+    "udt_g348_generic_lorentzian_null_screen_area_theorem_2026-09-04/AUDIT_REPORT.md": "b264f4a8959a557884f3e6a668aab68d2831b477caf693f95db7b524c01bd279",
+    "udt_g351_source_free_labelwise_carried_measure_conservation_2026-09-05/AUDIT_REPORT.md": "9fe05975201708714983e03ca592f75bd40ccb16ea4079b7e4a33c9dfe4b48c1",
+    "udt_g352_clock_rate_carried_measure_readout_2026-09-05/AUDIT_REPORT.md": "4f1925a1d11d00d55bea6bf3858cbedf2878e63c8e4e14e5a22211b4e03d9f8f"
+  },
+  "meaning": "Byte correspondence, not proof, chronology or promotion; NR1 remains explicit UNPROMOTED dependency."
+}

@@ -1,0 +1,10 @@
+{
+  "utc": "2026-09-13T13:18:01.293220+00:00",
+  "all_final_package_pins_match": 21,
+  "all_final_navigation_pins_match": 6,
+  "review_receipt_pin_match": true,
+  "scientific_and_fidelity_verdict": "VERIFIED-WITH-CAVEATS CONDITIONAL UNPROMOTED; final fidelity accepted",
+  "actual_review_end": "2026-09-13T13:17:02.825874+00:00",
+  "allocation_upper_seconds": 1503.825874,
+  "subsequent_scope": "exact publication and receipt/checkpoint completion only; no science mutation or promotion"
+}

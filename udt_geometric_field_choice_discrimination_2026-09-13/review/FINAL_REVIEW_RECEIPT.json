@@ -1,0 +1,31 @@
+{
+  "reviewer": "/root/field_choice_review",
+  "review_work_completion_record_utc": "2026-09-13T13:17:02.825874+00:00",
+  "meaning_of_completion": "scientific review and final fidelity work completed before this receipt; tool/final-message delivery may follow; no exact runtime teardown timestamp claimed",
+  "allocation_observed_bracket_utc": [
+    "2026-09-13T12:51:59+00:00",
+    "2026-09-13T12:52:25+00:00"
+  ],
+  "first_actual_tool_utc": "2026-09-13T12:52:20+00:00",
+  "source_first_saved_by_observed_utc": "2026-09-13T12:56:04+00:00",
+  "source_first_elapsed_upper_bound_seconds": 245,
+  "hard_stop_utc": "2026-09-13T13:31:59+00:00",
+  "conservative_allocation_elapsed_upper_bound_seconds": 1503.825874,
+  "first_tool_to_completion_seconds": 1482.825874,
+  "completed_before_hard_stop": true,
+  "runtime_model": "UNATTESTED",
+  "different_model": "UNTESTED",
+  "general_capacity": "UNVERIFIED",
+  "allocations": 1,
+  "subdelegation": false,
+  "verdict": "VERIFIED-WITH-CAVEATS CONDITIONAL UNPROMOTED",
+  "final_fidelity": "ACCEPTED_WITH_DIRECT_REVIEW_CAVEATS",
+  "independent_scientific_groups": "126/126; reused Fraction engine/new cases and shared SymPy map library; analytic proof separate",
+  "administrative_groups": "35/35",
+  "captured_operation_count_including_final_metadata_check": 9,
+  "captured_process_overlaps": [],
+  "parent_captured_operation_seconds_inside_allocation": 17.786599480896257,
+  "overlap_limit": "parent and reviewer contexts coexisted; captured process intervals are not a full CPU census or exact context-allocation timestamp",
+  "final_fidelity_pins_sha256": "7f68de73e73a14bad7e8016e96b0d02b00f8cbcdaa2bf4f0a8ee02173d38d5c2",
+  "next": "parent already-authorized factual publication/checkpoint completion only; no scientific successor or promotion"
+}

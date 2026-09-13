@@ -1,0 +1,12 @@
+{
+  "utc": "2026-09-13T13:03:52.780973+00:00",
+  "scope": "sole original-matrix evaluation-order repair plus two checks; proof clarification only",
+  "pins": {
+    "FINITE_DIAGNOSTIC.md": "bf320f1fa6edcfd2951a9d40ffb593b42c9798b51b85837f7039713b8f7c0a6d",
+    "diagnose_coincident.py": "bdb2751bd114d9165cb8df70856abe6150209dc5b5036a5f4e49ce82c78c33e1",
+    "COINCIDENT_DIAGNOSTIC.json": "a44161bec99ccd26ef85b9d2e76dd677e45269438d8583c7957dbcaf301e803a",
+    "REPAIR_RECORD.md": "48f84407a0ed63fa93284a9559a4033a5c951d1702478fa9c3846e4996e63520",
+    "check_candidate_repaired.py": "f2d148e99fdad8c315c5238790e8c05c0606c94f7e51410c4809dafb1962ac36",
+    "EXACT_RESULT.json": "91fee12e82e2143e4ed40fb3e2dd230ebfa7c2326674ee2c16d827b033914bc8"
+  }
+}

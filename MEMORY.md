@@ -21,7 +21,7 @@ with actual local Lambda=0 realizations; not general metric realization or physi
 Evidence, false passes, repairs and lost-output caveats stay fixed.
 G383--G412 exact-scope banking COMPLETE; three CD vacuous checks remain EXCLUDED.
 27 conditional mathematical results plus CO2 design, LC2 benchmark and FW2 finite procedure; scopes: INDEX.
-G413--G423 conditional; BE1/SD1/NR1 reviewed/UNPROMOTED; original398 rows unchanged; scope: INDEX.
+G413--G423 conditional; BE1/SD1/NR1/NR2 reviewed/UNPROMOTED; original398 rows unchanged; scope: INDEX.
 
 Keep the corrections explicit:
 
@@ -46,8 +46,8 @@ Fixed manuscript/coverage is the through-G352 edition, not the current frontier.
 Session transition: `HANDOFF.md`.
 
 Banking through G382 is complete; G312 membership unclosed, G352 physical identification OPEN.
-Consolidated gains/gates: `UDT_CONSOLIDATED_RESEARCH_ACCOUNT.md`; roadmap owns dispositions and reviewed NR1.
-NR1 checked/reviewed with bounded repairs; stop for discussion; no successor authorized.
+Consolidated gains/gates: `UDT_CONSOLIDATED_RESEARCH_ACCOUNT.md`; roadmap owns dispositions and reviewed NR2.
+NR2 checked/reviewed with bounded repairs; stop for discussion; no successor authorized.
 
 Backup completeness/pre-reboot unsaved state remain UNVERIFIED; ScratchDisk archive-only.
 R2--R5 remain verified with caveats;184,300 covariance rows unresolved, no preferred scale.

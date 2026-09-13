@@ -1,0 +1,121 @@
+{
+  "recorded_utc": "2026-09-13T13:11:17.815529+00:00",
+  "scope": "Captured bounded operations, including scientific/check processes and the captured Git fetch; not a census of uncaptured administrative/source-reading CPU use. Reviewer context allocation/coexistence bounds are separately recorded in its final receipt.",
+  "intervals": [
+    {
+      "capture": "checks/candidate_exact.json",
+      "context": "parent",
+      "start_utc": "2026-09-13T12:58:56.948104+00:00",
+      "end_utc": "2026-09-13T12:58:57.719103+00:00",
+      "seconds": 0.7709992399904877,
+      "exit": 1,
+      "command": [
+        "python3",
+        "udt_geometric_field_choice_discrimination_2026-09-13/check_candidate.py",
+        "udt_geometric_field_choice_discrimination_2026-09-13/EXACT_RESULT.json"
+      ]
+    },
+    {
+      "capture": "checks/candidate_repaired.json",
+      "context": "parent",
+      "start_utc": "2026-09-13T13:03:52.799563+00:00",
+      "end_utc": "2026-09-13T13:03:53.538552+00:00",
+      "seconds": 0.7389885369921103,
+      "exit": 0,
+      "command": [
+        "python3",
+        "udt_geometric_field_choice_discrimination_2026-09-13/check_candidate_repaired.py",
+        "udt_geometric_field_choice_discrimination_2026-09-13/REPAIRED_RESULT.json"
+      ]
+    },
+    {
+      "capture": "checks/coincident_diagnostic.json",
+      "context": "parent",
+      "start_utc": "2026-09-13T13:03:15.196535+00:00",
+      "end_utc": "2026-09-13T13:03:15.742898+00:00",
+      "seconds": 0.5463629399891943,
+      "exit": 1,
+      "command": [
+        "python3",
+        "udt_geometric_field_choice_discrimination_2026-09-13/diagnose_coincident.py",
+        "udt_geometric_field_choice_discrimination_2026-09-13/COINCIDENT_DIAGNOSTIC.json"
+      ]
+    },
+    {
+      "capture": "checks/current_surface.json",
+      "context": "parent",
+      "start_utc": "2026-09-13T13:10:19.412754+00:00",
+      "end_utc": "2026-09-13T13:10:19.601614+00:00",
+      "seconds": 0.188859898946248,
+      "exit": 0,
+      "command": [
+        "python3",
+        "-c",
+        "from pathlib import Path; import verify_current_scientific_premises as v; v.validate_startup_surface(Path.cwd()); print(\"PASS: actual NR2 current startup surface\")"
+      ]
+    },
+    {
+      "capture": "checks/navigation.json",
+      "context": "parent",
+      "start_utc": "2026-09-13T13:10:25.820228+00:00",
+      "end_utc": "2026-09-13T13:10:40.933841+00:00",
+      "seconds": 15.11361261701677,
+      "exit": 0,
+      "command": [
+        "python3",
+        "-m",
+        "pytest",
+        "--noconftest",
+        "-q",
+        "-p",
+        "no:cacheprovider",
+        "tests/test_startup_surface.py",
+        "-k",
+        "not full_foundational_premise_verifier_is_in_pytest"
+      ]
+    },
+    {
+      "capture": "checks/premise406.json",
+      "context": "parent",
+      "start_utc": "2026-09-13T12:43:14.428401+00:00",
+      "end_utc": "2026-09-13T12:49:58.728535+00:00",
+      "seconds": 404.3001335510053,
+      "exit": 0,
+      "command": [
+        "python3",
+        "verify_current_scientific_premises.py"
+      ]
+    },
+    {
+      "capture": "checks/prepublication_fetch.json",
+      "context": "parent",
+      "start_utc": "2026-09-13T13:07:35.279261+00:00",
+      "end_utc": "2026-09-13T13:07:35.707037+00:00",
+      "seconds": 0.42777624796144664,
+      "exit": 0,
+      "command": [
+        "git",
+        "fetch",
+        "origin"
+      ]
+    },
+    {
+      "capture": "review/independent_capture.json",
+      "context": "reviewer",
+      "start_utc": "2026-09-13T13:07:54.786724+00:00",
+      "end_utc": "2026-09-13T13:07:55.345381+00:00",
+      "seconds": 0.5586565190460533,
+      "exit": 0,
+      "command": [
+        "python3",
+        "udt_geometric_field_choice_discrimination_2026-09-13/review/independent_checks.py",
+        "udt_geometric_field_choice_discrimination_2026-09-13/review/INDEPENDENT_RESULT.json"
+      ]
+    }
+  ],
+  "captured_process_overlaps": [],
+  "same_context_overlap_detected": false,
+  "runtime_model": "UNATTESTED",
+  "general_capacity": "UNVERIFIED",
+  "scope_updated_utc": "2026-09-13T13:13:50.846983+00:00"
+}
