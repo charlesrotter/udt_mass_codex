@@ -1,0 +1,15 @@
+{
+  "recorded_utc": "2026-09-13T03:14:01.916150+00:00",
+  "science_commit": "4f84a38eca38b04ede234f1523cae4a463d0f78e",
+  "origin_grok": "4f84a38eca38b04ede234f1523cae4a463d0f78e",
+  "exact_commit_paths": 112,
+  "manifest_entries_authenticated_from_commit": 111,
+  "original51_status_names_exact": true,
+  "status_sha256": "747cf3c497bfbdf7c373a2aa621be3cb241a61f7ef9f508c39bf64588ff70a60",
+  "index_empty": true,
+  "tracked_clean": true,
+  "science_scope": "G416--G423 accepted exactly conditionally; StageB/C not promoted",
+  "git_add_initial_exit": 1,
+  "git_add_initial_reason": "Generic ignore rules exclude9 stdout files; exact allowlist retried with -f, exit0. No ignore/runtime configuration changed.",
+  "git_diff_cached_check_exit": 0
+}

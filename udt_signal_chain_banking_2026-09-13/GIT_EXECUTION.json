@@ -1,0 +1,59 @@
+{
+  "scope": "Actual StageA publication commands; first ignored-stdout staging failure retained. No automatic approval rejection occurred.",
+  "events": [
+    {
+      "command": "git add --pathspec-from-file=/tmp/udt_signal_stage_paths.nul --pathspec-file-nul",
+      "chunk_id": "7886ca",
+      "wall_time_seconds": 0.000002435,
+      "exit_code": 1,
+      "original_token_count": 202,
+      "output": "The following paths are ignored by one of your .gitignore files:\nudt_signal_chain_banking_2026-09-13/checks/integration_final.stdout\nudt_signal_chain_banking_2026-09-13/checks/integration_initial.stdout\nudt_signal_chain_banking_2026-09-13/checks/navigation_final.stdout\nudt_signal_chain_banking_2026-09-13/checks/premise406.stdout\nudt_signal_chain_banking_2026-09-13/review/integration_initial.stdout\nudt_signal_chain_banking_2026-09-13/review/integration_pinned.stdout\nudt_signal_chain_banking_2026-09-13/review/manifest_membership.stdout\nudt_signal_chain_banking_2026-09-13/review/saved_readouts.stdout\nudt_signal_chain_banking_2026-09-13/review/source_authentication.stdout\nhint: Use -f if you really want to add them.\nhint: Turn this message off by running\nhint: \"git config advice.addIgnoredFile false\"\n"
+    },
+    {
+      "command": "git add -f --pathspec-from-file=/tmp/udt_signal_stage_paths.nul --pathspec-file-nul",
+      "chunk_id": "261234",
+      "wall_time_seconds": 0.000002624,
+      "exit_code": 0,
+      "original_token_count": 0,
+      "output": ""
+    },
+    {
+      "command": "git diff --cached --check",
+      "chunk_id": "874a4d",
+      "wall_time_seconds": 0.000001972,
+      "exit_code": 0,
+      "original_token_count": 0,
+      "output": ""
+    },
+    {
+      "command": "python3 - <<'PY'\nfrom pathlib import Path\nimport subprocess,json\nplan=json.loads(Path('udt_signal_chain_banking_2026-09-13/PUBLISH_PLAN.json').read_text())\nactual=subprocess.run(['git','diff','--cached','--name-only','-z'],capture_output=True,check=True).stdout\nassert {p.decode() for p in actual.split(b'\\0') if p}==set(plan['paths'])\nprint('Exact112-path staging; no unrelated paths')\nPY",
+      "chunk_id": "055174",
+      "wall_time_seconds": 0.000002525,
+      "exit_code": 0,
+      "original_token_count": 11,
+      "output": "Exact112-path staging; no unrelated paths\n"
+    },
+    {
+      "command": "git commit -m \"Bank eight reviewed conditional signal-chain results as G416-G423\"",
+      "chunk_id": "f4344f",
+      "wall_time_seconds": 0.000002736,
+      "exit_code": 0,
+      "original_token_count": 2130,
+      "output": "[grok 4f84a38e] Bank eight reviewed conditional signal-chain results as G416-G423\n 112 files changed, 10878 insertions(+), 67 deletions(-)\n create mode 100644 signal_chain_banking_guard.py\n create mode 100644 tests/test_signal_chain_banking.py\n create mode 100644 udt_signal_chain_banking_2026-09-13/ACCEPTANCE_AMENDMENT.json\n create mode 100644 udt_signal_chain_banking_2026-09-13/ACCEPTANCE_FREEZE.json\n create mode 100644 udt_signal_chain_banking_2026-09-13/AUDIT_INPUTS.json\n create mode 100644 udt_signal_chain_banking_2026-09-13/BANKED_CLAIMS.json\n create mode 100644 udt_signal_chain_banking_2026-09-13/BANKED_ROWS.tsv\n create mode 100644 udt_signal_chain_banking_2026-09-13/BANKING_RECORD.md\n create mode 100644 udt_signal_chain_banking_2026-09-13/BANKING_RECORD_INITIAL.md\n create mode 100644 udt_signal_chain_banking_2026-09-13/CLOSEOUT.md\n create mode 100644 udt_signal_chain_banking_2026-09-13/CLOSEOUT_BEFORE_COUNT_CLARIFICATION.md\n create mode 100644 udt_signal_chain_banking_2026-09-13/DISPOSITIONS.tsv\n create mode 100644 udt_signal_chain_banking_2026-09-13/EXECUTION_INTERVALS.json\n create mode 100644 udt_signal_chain_banking_2026-09-13/FINAL_INTAKE_AMENDMENT.json\n create mode 100644 udt_signal_chain_banking_2026-09-13/FINAL_REVIEW_INTAKE.json\n create mode 100644 udt_signal_chain_banking_2026-09-13/INTEGRATION_FREEZE.json\n create mode 100644 udt_signal_chain_banking_2026-09-13/INTEGRATION_REPAIR_NOTE.md\n create mode 100644 udt_signal_chain_banking_2026-09-13/LAUNCH.json\n create mode 100644 udt_signal_chain_banking_2026-09-13/LAY_REPORT.md\n create mode 100644 udt_signal_chain_banking_2026-09-13/POST_AUDIT_NAVIGATION.json\n create mode 100644 udt_signal_chain_banking_2026-09-13/PREPUBLICATION_SYNC.json\n create mode 100644 udt_signal_chain_banking_2026-09-13/PRESERVATION_CHECK.json\n create mode 100644 udt_signal_chain_banking_2026-09-13/PUBLISH_PLAN.json\n create mode 100644 udt_signal_chain_banking_2026-09-13/REVIEW_DISPATCH.md\n create mode 100644 udt_signal_chain_banking_2026-09-13/SHA256SUMS\n create mode 100644 udt_signal_chain_banking_2026-09-13/SOURCE_EVIDENCE_SHA256SUMS\n create mode 100644 udt_signal_chain_banking_2026-09-13/SOURCE_MEMBERSHIP.json\n create mode 100644 udt_signal_chain_banking_2026-09-13/WORK_ORDER.md\n create mode 100644 udt_signal_chain_banking_2026-09-13/build_acceptance.py\n create mode 100644 udt_signal_chain_banking_2026-09-13/build_guard.py\n create mode 100644 udt_signal_chain_banking_2026-09-13/checks/integration_final.capture_provenance.json\n create mode 100644 udt_signal_chain_banking_2026-09-13/checks/integration_final.json\n create mode 100644 udt_signal_chain_banking_2026-09-13/checks/integration_final.stderr\n create mode 100644 udt_signal_chain_banking_2026-09-13/checks/integration_final.stdout\n create mode 100644 udt_signal_chain_banking_2026-09-13/checks/integration_initial.capture_provenance.json\n create mode 100644 udt_signal_chain_banking_2026-09-13/checks/integration_initial.json\n create mode 100644 udt_signal_chain_banking_2026-09-13/checks/integration_initial.stderr\n create mode 100644 udt_signal_chain_banking_2026-09-13/checks/integration_initial.stdout\n create mode 100644 udt_signal_chain_banking_2026-09-13/checks/navigation_final.capture_provenance.json\n create mode 100644 udt_signal_chain_banking_2026-09-13/checks/navigation_final.json\n create mode 100644 udt_signal_chain_banking_2026-09-13/checks/navigation_final.stderr\n create mode 100644 udt_signal_chain_banking_2026-09-13/checks/navigation_final.stdout\n create mode 100644 udt_signal_chain_banking_2026-09-13/checks/premise406.capture_provenance.json\n create mode 100644 udt_signal_chain_banking_2026-09-13/checks/premise406.json\n create mode 100644 udt_signal_chain_banking_2026-09-13/checks/premise406.stderr\n create mode 100644 udt_signal_chain_banking_2026-09-13/checks/premise406.stdout\n create mode 100644 udt_signal_chain_banking_2026-09-13/record_execution.py\n create mode 100644 udt_signal_chain_banking_2026-09-13/review/ACCEPTANCE_CORRESPONDENCE.json\n create mode 100644 udt_signal_chain_banking_2026-09-13/review/ASSERTION_DIFF.json\n create mode 100644 udt_signal_chain_banking_2026-09-13/review/AUDIT_INPUT_CORRESPONDENCE.json\n create mode 100644 udt_signal_chain_banking_2026-09-13/review/BASELINE_ASSERTIONS.json\n create mode 100644 udt_signal_chain_banking_2026-09-13/review/COUNT_PRECISION_NOTE.md\n create mode 100644 udt_signal_chain_banking_2026-09-13/review/FINAL_AMENDMENT_CHECK.json\n create mode 100644 udt_signal_chain_banking_2026-09-13/review/FINAL_FIDELITY.md\n create mode 100644 udt_signal_chain_banking_2026-09-13/review/FINAL_METADATA_CHECK.json\n create mode 100644 udt_signal_chain_banking_2026-09-13/review/FINAL_RECEIPT.json\n create mode 100644 udt_signal_chain_banking_2026-09-13/review/INITIAL_ACCEPTANCE_FREEZE.json\n create mode 100644 udt_signal_chain_banking_2026-09-13/review/INITIAL_BANKING_RECORD.md\n create mode 100644 udt_signal_chain_banking_2026-09-13/review/INITIAL_FINAL_CLOSEOUT.md\n create mode 100644 udt_signal_chain_banking_2026-09-13/review/INITIAL_FINAL_INTAKE.json\n create mode 100644 udt_signal_chain_banking_2026-09-13/review/INITIAL_SEAL_SCRIPT.py\n create mode 100644 udt_signal_chain_banking_2026-09-13/review/INSPECTION_DIAGNOSTIC.md\n create mode 100644 udt_signal_chain_banking_2026-09-13/review/INTEGRATION_REVIEW.md\n create mode 100644 udt_signal_chain_banking_2026-09-13/review/OBJECTION_CHRONOLOGY.md\n create mode 100644 udt_signal_chain_banking_2026-09-13/review/PIN_DELTA_CHECK.json\n create mode 100644 udt_signal_chain_banking_2026-09-13/review/PRESERVATION_CHECK.json\n create mode 100644 udt_signal_chain_banking_2026-09-13/review/REVIEW.md\n create mode 100644 udt_signal_chain_banking_2026-09-13/review/REVIEW_RECEIPT.json\n create mode 100644 udt_signal_chain_banking_2026-09-13/review/SEAL_DIAGNOSTIC.md\n create mode 100644 udt_signal_chain_banking_2026-09-13/review/SOURCE_SCOPE_NOTES.md\n create mode 100644 udt_signal_chain_banking_2026-09-13/review/authenticate_sources.py\n create mode 100644 udt_signal_chain_banking_2026-09-13/review/check_final_correspondence.py\n create mode 100644 udt_signal_chain_banking_2026-09-13/review/check_integration.py\n create mode 100644 udt_signal_chain_banking_2026-09-13/review/inspect_saved_readouts.py\n create mode 100644 udt_signal_chain_banking_2026-09-13/review/integration_initial.capture_provenance.json\n create mode 100644 udt_signal_chain_banking_2026-09-13/review/integration_initial.json\n create mode 100644 udt_signal_chain_banking_2026-09-13/review/integration_initial.stderr\n create mode 100644 udt_signal_chain_banking_2026-09-13/review/integration_initial.stdout\n create mode 100644 udt_signal_chain_banking_2026-09-13/review/integration_pinned.capture_provenance.json\n create mode 100644 udt_signal_chain_banking_2026-09-13/review/integration_pinned.json\n create mode 100644 udt_signal_chain_banking_2026-09-13/review/integration_pinned.stderr\n create mode 100644 udt_signal_chain_banking_2026-09-13/review/integration_pinned.stdout\n create mode 100644 udt_signal_chain_banking_2026-09-13/review/manifest_membership.capture_provenance.json\n create mode 100644 udt_signal_chain_banking_2026-09-13/review/manifest_membership.json\n create mode 100644 udt_signal_chain_banking_2026-09-13/review/manifest_membership.stderr\n create mode 100644 udt_signal_chain_banking_2026-09-13/review/manifest_membership.stdout\n create mode 100644 udt_signal_chain_banking_2026-09-13/review/probe_manifest_membership.py\n create mode 100644 udt_signal_chain_banking_2026-09-13/review/saved_readouts.capture_provenance.json\n create mode 100644 udt_signal_chain_banking_2026-09-13/review/saved_readouts.json\n create mode 100644 udt_signal_chain_banking_2026-09-13/review/saved_readouts.stderr\n create mode 100644 udt_signal_chain_banking_2026-09-13/review/saved_readouts.stdout\n create mode 100644 udt_signal_chain_banking_2026-09-13/review/seal_final_review.py\n create mode 100644 udt_signal_chain_banking_2026-09-13/review/source_authentication.capture_provenance.json\n create mode 100644 udt_signal_chain_banking_2026-09-13/review/source_authentication.json\n create mode 100644 udt_signal_chain_banking_2026-09-13/review/source_authentication.stderr\n create mode 100644 udt_signal_chain_banking_2026-09-13/review/source_authentication.stdout\n create mode 100644 udt_signal_continuation_2026-09-13/CHECKPOINT.md\n create mode 100644 udt_signal_continuation_2026-09-13/NEXT_STAGE_SOURCE_MAP.md\n create mode 100644 udt_signal_continuation_2026-09-13/WORK_ORDER.md\n"
+    },
+    {
+      "command": "git push origin grok",
+      "chunk_id": "2e5a07",
+      "wall_time_seconds": 1.000732816,
+      "session_id": 99751,
+      "original_token_count": 0,
+      "output": ""
+    },
+    {
+      "command": "git push origin grok; completion of session99751",
+      "exit_code": 0,
+      "output": "To https://github.com/charlesrotter/udt_mass_codex.git\n   bf1a5814..4f84a38e  grok -> grok\n"
+    }
+  ]
+}
+
