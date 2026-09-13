@@ -1,0 +1,359 @@
+{
+  "recorded_utc": "2026-09-13T05:36:51.039769+00:00",
+  "status": "SCIENCE_COMMITTED_PUSHED_AND_VERIFIED__CONDITIONAL_UNPROMOTED",
+  "science_commit": "a2b1a3993f3895ad309b92e4a9ab9375b734e53a",
+  "actual_publication": {
+    "package": "udt_current_native_radiation_feasibility_2026-09-13",
+    "events": [
+      {
+        "utc": "2026-09-13T05:34:48.904093+00:00",
+        "command": [
+          "git",
+          "rev-parse",
+          "--abbrev-ref",
+          "HEAD"
+        ],
+        "exit": 0,
+        "stdout": "grok\n",
+        "stderr": ""
+      },
+      {
+        "utc": "2026-09-13T05:34:48.905348+00:00",
+        "command": [
+          "git",
+          "rev-parse",
+          "HEAD",
+          "origin/grok"
+        ],
+        "exit": 0,
+        "stdout": "22921f57d29a5990b7422509d1fd9b24a6ec36f3\n22921f57d29a5990b7422509d1fd9b24a6ec36f3\n",
+        "stderr": ""
+      },
+      {
+        "utc": "2026-09-13T05:34:48.906725+00:00",
+        "command": [
+          "git",
+          "diff",
+          "--cached",
+          "--name-only"
+        ],
+        "exit": 0,
+        "stdout": "",
+        "stderr": ""
+      },
+      {
+        "utc": "2026-09-13T05:34:48.913117+00:00",
+        "command": [
+          "git",
+          "diff",
+          "--name-only"
+        ],
+        "exit": 0,
+        "stdout": "CURRENT_RESEARCH_PROGRAM.md\nHANDOFF.md\nINDEX.md\nLIVE.md\nMEMORY.md\nUDT_RESEARCH_ROADMAP.md\n",
+        "stderr": ""
+      },
+      {
+        "utc": "2026-09-13T05:34:48.920364+00:00",
+        "command": [
+          "git",
+          "status",
+          "--short",
+          "--untracked-files=all"
+        ],
+        "exit": 0,
+        "stdout": " M CURRENT_RESEARCH_PROGRAM.md\n M HANDOFF.md\n M INDEX.md\n M LIVE.md\n M MEMORY.md\n M UDT_RESEARCH_ROADMAP.md\n?? 8_25/UDT_FOUNDING_VALUE_LAW_ANALYSIS.md\n?? 8_25/udt_extension_checks.py\n?? 8_25/udt_extension_minimality_response.md\n?? 8_25/udt_value_law_checks.py\n?? 8_25/udt_value_law_checks_llm1.py\n?? 8_25/udt_value_law_external_response.md\n?? UDT_Complete_Guardrails_and_Central_Science_Tracking.md\n?? UDT_Next_Step_After_Two_Stages.md\n?? UDT_Sequenced_Guardrails_and_Development_Work_Order.md\n?? udt_current_native_radiation_feasibility_2026-09-13/AUDIT_INPUT_PINS.json\n?? udt_current_native_radiation_feasibility_2026-09-13/AUDIT_REUSE.json\n?? udt_current_native_radiation_feasibility_2026-09-13/CANDIDATE_FREEZE.json\n?? udt_current_native_radiation_feasibility_2026-09-13/CHECKPOINT.md\n?? udt_current_native_radiation_feasibility_2026-09-13/CLOSEOUT.md\n?? udt_current_native_radiation_feasibility_2026-09-13/COMPARISON_BOUNDARY.md\n?? udt_current_native_radiation_feasibility_2026-09-13/DECISION_BRIEF.md\n?? udt_current_native_radiation_feasibility_2026-09-13/EXACT_RESULT.json\n?? udt_current_native_radiation_feasibility_2026-09-13/EXECUTION_INTERVALS.json\n?? udt_current_native_radiation_feasibility_2026-09-13/EXECUTION_INTERVALS_FINAL.json\n?? udt_current_native_radiation_feasibility_2026-09-13/EXECUTION_INTERVALS_PRE_FIDELITY.json\n?? udt_current_native_radiation_feasibility_2026-09-13/FIDELITY_REPAIRS.json\n?? udt_current_native_radiation_feasibility_2026-09-13/FREEZE_CORRESPONDENCE.json\n?? udt_current_native_radiation_feasibility_2026-09-13/INITIAL_CANDIDATE.md\n?? udt_current_native_radiation_feasibility_2026-09-13/LAUNCH.json\n?? udt_current_native_radiation_feasibility_2026-09-13/LITERATURE_EXPOSURE.md\n?? udt_current_native_radiation_feasibility_2026-09-13/NON_EINSTEIN_CONTROL.md\n?? udt_current_native_radiation_feasibility_2026-09-13/NON_EINSTEIN_FREEZE.json\n?? udt_current_native_radiation_feasibility_2026-09-13/NON_EINSTEIN_RESULT.json\n?? udt_current_native_radiation_feasibility_2026-09-13/OPERATIONAL_COMPLETION.json\n?? udt_current_native_radiation_feasibility_2026-09-13/PREPUBLICATION_SYNC.json\n?? udt_current_native_radiation_feasibility_2026-09-13/PRESERVATION_CHECK.json\n?? udt_current_native_radiation_feasibility_2026-09-13/PROFILE_CLARIFICATION_FREEZE.json\n?? udt_current_native_radiation_feasibility_2026-09-13/PROFILE_SCOPE_CLARIFICATION.md\n?? udt_current_native_radiation_feasibility_2026-09-13/README.md\n?? udt_current_native_radiation_feasibility_2026-09-13/RESULT_SCOPE.tsv\n?? udt_current_native_radiation_feasibility_2026-09-13/REVIEWED_RESULT.md\n?? udt_current_native_radiation_feasibility_2026-09-13/SELECTED_PREMISES.json\n?? udt_current_native_radiation_feasibility_2026-09-13/SOURCE_MAP.md\n?? udt_current_native_radiation_feasibility_2026-09-13/SOURCE_MAP_ADDENDUM.md\n?? udt_current_native_radiation_feasibility_2026-09-13/SOURCE_PINS.json\n?? udt_current_native_radiation_feasibility_2026-09-13/STARTUP_CHECK_DIAGNOSTIC.md\n?? udt_current_native_radiation_feasibility_2026-09-13/WORK_ORDER.md\n?? udt_current_native_radiation_feasibility_2026-09-13/check_candidate.py\n?? udt_current_native_radiation_feasibility_2026-09-13/check_non_einstein.py\n?? udt_current_native_radiation_feasibility_2026-09-13/checks/candidate_exact.capture_provenance.json\n?? udt_current_native_radiation_feasibility_2026-09-13/checks/candidate_exact.json\n?? udt_current_native_radiation_feasibility_2026-09-13/checks/candidate_exact.stderr\n?? udt_current_native_radiation_feasibility_2026-09-13/checks/current_surface_final.capture_provenance.json\n?? udt_current_native_radiation_feasibility_2026-09-13/checks/current_surface_final.json\n?? udt_current_native_radiation_feasibility_2026-09-13/checks/current_surface_final.stderr\n?? udt_current_native_radiation_feasibility_2026-09-13/checks/navigation_final.capture_provenance.json\n?? udt_current_native_radiation_feasibility_2026-09-13/checks/navigation_final.json\n?? udt_current_native_radiation_feasibility_2026-09-13/checks/navigation_final.stderr\n?? udt_current_native_radiation_feasibility_2026-09-13/checks/non_einstein_exact.capture_provenance.json\n?? udt_current_native_radiation_feasibility_2026-09-13/checks/non_einstein_exact.json\n?? udt_current_native_radiation_feasibility_2026-09-13/checks/non_einstein_exact.stderr\n?? udt_current_native_radiation_feasibility_2026-09-13/checks/premise406.capture_provenance.json\n?? udt_current_native_radiation_feasibility_2026-09-13/checks/premise406.json\n?? udt_current_native_radiation_feasibility_2026-09-13/checks/premise406.stderr\n?? udt_current_native_radiation_feasibility_2026-09-13/checks/startup_active.capture_provenance.json\n?? udt_current_native_radiation_feasibility_2026-09-13/checks/startup_active.json\n?? udt_current_native_radiation_feasibility_2026-09-13/checks/startup_active.stderr\n?? udt_current_native_radiation_feasibility_2026-09-13/checks/startup_active_isolated.capture_provenance.json\n?? udt_current_native_radiation_feasibility_2026-09-13/checks/startup_active_isolated.json\n?? udt_current_native_radiation_feasibility_2026-09-13/checks/startup_active_isolated.stderr\n?? udt_current_native_radiation_feasibility_2026-09-13/review/ALLOCATION.json\n?? udt_current_native_radiation_feasibility_2026-09-13/review/ALLOCATION_INITIAL.json\n?? udt_current_native_radiation_feasibility_2026-09-13/review/CHECK_FREEZE.md\n?? udt_current_native_radiation_feasibility_2026-09-13/review/DIRECT_REQUEST.md\n?? udt_current_native_radiation_feasibility_2026-09-13/review/DIRECT_REVIEW.md\n?? udt_current_native_radiation_feasibility_2026-09-13/review/DIRECT_REVIEW_PINS.json\n?? udt_current_native_radiation_feasibility_2026-09-13/review/FINAL_DOCUMENT_PINS.json\n?? udt_current_native_radiation_feasibility_2026-09-13/review/FINAL_FIDELITY.md\n?? udt_current_native_radiation_feasibility_2026-09-13/review/FINAL_FIDELITY_REQUEST.md\n?? udt_current_native_radiation_feasibility_2026-09-13/review/FINAL_RECEIPT.json\n?? udt_current_native_radiation_feasibility_2026-09-13/review/INDEPENDENT_FREEZE.json\n?? udt_current_native_radiation_feasibility_2026-09-13/review/INDEPENDENT_RESULT.json\n?? udt_current_native_radiation_feasibility_2026-09-13/review/REPAIR_CHECK_FREEZE.md\n?? udt_current_native_radiation_feasibility_2026-09-13/review/REPAIR_RESULT.json\n?? udt_current_native_radiation_feasibility_2026-09-13/review/REVIEW_METADATA.json\n?? udt_current_native_radiation_feasibility_2026-09-13/review/ROSTER_OBSERVATION.json\n?? udt_current_native_radiation_feasibility_2026-09-13/review/SHAPE_AUDIT_RESULT.json\n?? udt_current_native_radiation_feasibility_2026-09-13/review/SHAPE_REPLAY_BODY.json\n?? udt_current_native_radiation_feasibility_2026-09-13/review/SOURCE_FIRST.md\n?? udt_current_native_radiation_feasibility_2026-09-13/review/SOURCE_FIRST_REQUEST.md\n?? udt_current_native_radiation_feasibility_2026-09-13/review/check_comparison_shapes.py\n?? udt_current_native_radiation_feasibility_2026-09-13/review/final_fidelity_capture.capture_provenance.json\n?? udt_current_native_radiation_feasibility_2026-09-13/review/final_fidelity_capture.json\n?? udt_current_native_radiation_feasibility_2026-09-13/review/final_fidelity_capture.stderr\n?? udt_current_native_radiation_feasibility_2026-09-13/review/final_fidelity_check.py\n?? udt_current_native_radiation_feasibility_2026-09-13/review/independent_capture.capture_provenance.json\n?? udt_current_native_radiation_feasibility_2026-09-13/review/independent_capture.json\n?? udt_current_native_radiation_feasibility_2026-09-13/review/independent_capture.stderr\n?? udt_current_native_radiation_feasibility_2026-09-13/review/independent_exact.py\n?? udt_current_native_radiation_feasibility_2026-09-13/review/repair_capture.capture_provenance.json\n?? udt_current_native_radiation_feasibility_2026-09-13/review/repair_capture.json\n?? udt_current_native_radiation_feasibility_2026-09-13/review/repair_capture.stderr\n?? udt_current_native_radiation_feasibility_2026-09-13/review/repair_controls.py\n?? udt_current_native_radiation_feasibility_2026-09-13/review/shape_capture.capture_provenance.json\n?? udt_current_native_radiation_feasibility_2026-09-13/review/shape_capture.json\n?? udt_current_native_radiation_feasibility_2026-09-13/review/shape_capture.stderr\n?? udt_native_onshell_timelive_reset_owner_audit_2026-08-10/CANDIDATE_LAW_MAP.tsv\n?? udt_native_onshell_timelive_reset_owner_audit_2026-08-10/DERIVATION_RESULT.json\n?? udt_native_onshell_timelive_reset_owner_audit_2026-08-10/EQUATION_OWNERSHIP_ATLAS.tsv\n?? udt_native_onshell_timelive_reset_owner_audit_2026-08-10/SOURCE_SCOPE_CLARIFICATION.md\n?? udt_native_onshell_timelive_reset_owner_audit_2026-08-10/derive_owner_atlas.py\n?? udt_native_onshell_timelive_reset_owner_audit_2026-08-10/run_catch_proofs.py\n?? udt_native_onshell_timelive_reset_owner_audit_2026-08-10/verify_owner_independent.py\n?? udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/ADVERSARIAL_REVIEW_REQUEST.md\n?? udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/AUDIT_REPORT.md\n?? udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/CATCH_PROOF_RESULT.json\n?? udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/DERIVATION_RESULT.json\n?? udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/EVIDENCE_GATES.md\n?? udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/EXACT_DERIVATION.md\n?? udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/INDEPENDENT_VERIFICATION.json\n?? udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/LAY_REPORT.md\n?? udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/STATUS_LEDGER.tsv\n?? udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/VERIFICATION_RESULT.json\n?? udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/WITNESS_ATLAS.tsv\n?? udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/build_review_intake.py\n?? udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/derive_regime_flow.py\n?? udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/run_catch_proofs.py\n?? udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/verify_independent.py\n?? udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/verify_package.py\n?? udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/AUDIT_REPORT.md\n?? udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/CATCH_PROOF_RESULT.json\n?? udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/DERIVATION_RESULT.json\n?? udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/EVIDENCE_GATES.md\n?? udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/EXACT_DERIVATION.md\n?? udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/INDEPENDENT_RADAU_REPLAY.tsv\n?? udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/INDEPENDENT_VERIFICATION.json\n?? udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/LAY_REPORT.md\n?? udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/PREREGISTRATION_EXECUTION_NOTE.md\n?? udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/PROFILE_COMPATIBILITY_ATLAS.tsv\n?? udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/REVIEW_DISPATCH.md\n?? udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/RUN_CHECKPOINT.tsv\n?? udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/STATUS_LEDGER.tsv\n?? udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/VERIFICATION_RESULT.json\n?? udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/build_review_manifest.py\n?? udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/derive_compatibility_atlas.py\n?? udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/run_catch_proofs.py\n?? udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/verify_independent.py\n?? udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/verify_package.py\n",
+        "stderr": ""
+      },
+      {
+        "utc": "2026-09-13T05:35:12.002648+00:00",
+        "command": [
+          "git",
+          "add",
+          "-f",
+          "--pathspec-from-file=/tmp/udt_current_native_radiation_feasibility_2026-09-13.nul",
+          "--pathspec-file-nul"
+        ],
+        "exit": 0,
+        "stdout": "",
+        "stderr": ""
+      },
+      {
+        "utc": "2026-09-13T05:35:12.050837+00:00",
+        "command": [
+          "git",
+          "diff",
+          "--cached",
+          "--check"
+        ],
+        "exit": 0,
+        "stdout": "",
+        "stderr": ""
+      },
+      {
+        "utc": "2026-09-13T05:35:12.059695+00:00",
+        "command": [
+          "git",
+          "diff",
+          "--cached",
+          "--name-only"
+        ],
+        "exit": 0,
+        "stdout": "CURRENT_RESEARCH_PROGRAM.md\nHANDOFF.md\nINDEX.md\nLIVE.md\nMEMORY.md\nUDT_RESEARCH_ROADMAP.md\nudt_current_native_radiation_feasibility_2026-09-13/AUDIT_INPUT_PINS.json\nudt_current_native_radiation_feasibility_2026-09-13/AUDIT_REUSE.json\nudt_current_native_radiation_feasibility_2026-09-13/CANDIDATE_FREEZE.json\nudt_current_native_radiation_feasibility_2026-09-13/CHECKPOINT.md\nudt_current_native_radiation_feasibility_2026-09-13/CLOSEOUT.md\nudt_current_native_radiation_feasibility_2026-09-13/COMPARISON_BOUNDARY.md\nudt_current_native_radiation_feasibility_2026-09-13/DECISION_BRIEF.md\nudt_current_native_radiation_feasibility_2026-09-13/EXACT_RESULT.json\nudt_current_native_radiation_feasibility_2026-09-13/EXECUTION_INTERVALS.json\nudt_current_native_radiation_feasibility_2026-09-13/EXECUTION_INTERVALS_FINAL.json\nudt_current_native_radiation_feasibility_2026-09-13/EXECUTION_INTERVALS_PRE_FIDELITY.json\nudt_current_native_radiation_feasibility_2026-09-13/FIDELITY_REPAIRS.json\nudt_current_native_radiation_feasibility_2026-09-13/FREEZE_CORRESPONDENCE.json\nudt_current_native_radiation_feasibility_2026-09-13/INITIAL_CANDIDATE.md\nudt_current_native_radiation_feasibility_2026-09-13/LAUNCH.json\nudt_current_native_radiation_feasibility_2026-09-13/LITERATURE_EXPOSURE.md\nudt_current_native_radiation_feasibility_2026-09-13/NON_EINSTEIN_CONTROL.md\nudt_current_native_radiation_feasibility_2026-09-13/NON_EINSTEIN_FREEZE.json\nudt_current_native_radiation_feasibility_2026-09-13/NON_EINSTEIN_RESULT.json\nudt_current_native_radiation_feasibility_2026-09-13/OPERATIONAL_COMPLETION.json\nudt_current_native_radiation_feasibility_2026-09-13/PREPUBLICATION_SYNC.json\nudt_current_native_radiation_feasibility_2026-09-13/PRESERVATION_CHECK.json\nudt_current_native_radiation_feasibility_2026-09-13/PROFILE_CLARIFICATION_FREEZE.json\nudt_current_native_radiation_feasibility_2026-09-13/PROFILE_SCOPE_CLARIFICATION.md\nudt_current_native_radiation_feasibility_2026-09-13/PUBLISH_PLAN.json\nudt_current_native_radiation_feasibility_2026-09-13/README.md\nudt_current_native_radiation_feasibility_2026-09-13/RESULT_SCOPE.tsv\nudt_current_native_radiation_feasibility_2026-09-13/REVIEWED_RESULT.md\nudt_current_native_radiation_feasibility_2026-09-13/SELECTED_PREMISES.json\nudt_current_native_radiation_feasibility_2026-09-13/SHA256SUMS.json\nudt_current_native_radiation_feasibility_2026-09-13/SOURCE_MAP.md\nudt_current_native_radiation_feasibility_2026-09-13/SOURCE_MAP_ADDENDUM.md\nudt_current_native_radiation_feasibility_2026-09-13/SOURCE_PINS.json\nudt_current_native_radiation_feasibility_2026-09-13/STARTUP_CHECK_DIAGNOSTIC.md\nudt_current_native_radiation_feasibility_2026-09-13/WORK_ORDER.md\nudt_current_native_radiation_feasibility_2026-09-13/check_candidate.py\nudt_current_native_radiation_feasibility_2026-09-13/check_non_einstein.py\nudt_current_native_radiation_feasibility_2026-09-13/checks/candidate_exact.capture_provenance.json\nudt_current_native_radiation_feasibility_2026-09-13/checks/candidate_exact.json\nudt_current_native_radiation_feasibility_2026-09-13/checks/candidate_exact.stderr\nudt_current_native_radiation_feasibility_2026-09-13/checks/candidate_exact.stdout\nudt_current_native_radiation_feasibility_2026-09-13/checks/current_surface_final.capture_provenance.json\nudt_current_native_radiation_feasibility_2026-09-13/checks/current_surface_final.json\nudt_current_native_radiation_feasibility_2026-09-13/checks/current_surface_final.stderr\nudt_current_native_radiation_feasibility_2026-09-13/checks/current_surface_final.stdout\nudt_current_native_radiation_feasibility_2026-09-13/checks/navigation_final.capture_provenance.json\nudt_current_native_radiation_feasibility_2026-09-13/checks/navigation_final.json\nudt_current_native_radiation_feasibility_2026-09-13/checks/navigation_final.stderr\nudt_current_native_radiation_feasibility_2026-09-13/checks/navigation_final.stdout\nudt_current_native_radiation_feasibility_2026-09-13/checks/non_einstein_exact.capture_provenance.json\nudt_current_native_radiation_feasibility_2026-09-13/checks/non_einstein_exact.json\nudt_current_native_radiation_feasibility_2026-09-13/checks/non_einstein_exact.stderr\nudt_current_native_radiation_feasibility_2026-09-13/checks/non_einstein_exact.stdout\nudt_current_native_radiation_feasibility_2026-09-13/checks/premise406.capture_provenance.json\nudt_current_native_radiation_feasibility_2026-09-13/checks/premise406.json\nudt_current_native_radiation_feasibility_2026-09-13/checks/premise406.stderr\nudt_current_native_radiation_feasibility_2026-09-13/checks/premise406.stdout\nudt_current_native_radiation_feasibility_2026-09-13/checks/startup_active.capture_provenance.json\nudt_current_native_radiation_feasibility_2026-09-13/checks/startup_active.json\nudt_current_native_radiation_feasibility_2026-09-13/checks/startup_active.stderr\nudt_current_native_radiation_feasibility_2026-09-13/checks/startup_active.stdout\nudt_current_native_radiation_feasibility_2026-09-13/checks/startup_active_isolated.capture_provenance.json\nudt_current_native_radiation_feasibility_2026-09-13/checks/startup_active_isolated.json\nudt_current_native_radiation_feasibility_2026-09-13/checks/startup_active_isolated.stderr\nudt_current_native_radiation_feasibility_2026-09-13/checks/startup_active_isolated.stdout\nudt_current_native_radiation_feasibility_2026-09-13/review/ALLOCATION.json\nudt_current_native_radiation_feasibility_2026-09-13/review/ALLOCATION_INITIAL.json\nudt_current_native_radiation_feasibility_2026-09-13/review/CHECK_FREEZE.md\nudt_current_native_radiation_feasibility_2026-09-13/review/DIRECT_REQUEST.md\nudt_current_native_radiation_feasibility_2026-09-13/review/DIRECT_REVIEW.md\nudt_current_native_radiation_feasibility_2026-09-13/review/DIRECT_REVIEW_PINS.json\nudt_current_native_radiation_feasibility_2026-09-13/review/FINAL_DOCUMENT_PINS.json\nudt_current_native_radiation_feasibility_2026-09-13/review/FINAL_FIDELITY.md\nudt_current_native_radiation_feasibility_2026-09-13/review/FINAL_FIDELITY_REQUEST.md\nudt_current_native_radiation_feasibility_2026-09-13/review/FINAL_RECEIPT.json\nudt_current_native_radiation_feasibility_2026-09-13/review/INDEPENDENT_FREEZE.json\nudt_current_native_radiation_feasibility_2026-09-13/review/INDEPENDENT_RESULT.json\nudt_current_native_radiation_feasibility_2026-09-13/review/REPAIR_CHECK_FREEZE.md\nudt_current_native_radiation_feasibility_2026-09-13/review/REPAIR_RESULT.json\nudt_current_native_radiation_feasibility_2026-09-13/review/REVIEW_METADATA.json\nudt_current_native_radiation_feasibility_2026-09-13/review/ROSTER_OBSERVATION.json\nudt_current_native_radiation_feasibility_2026-09-13/review/SHAPE_AUDIT_RESULT.json\nudt_current_native_radiation_feasibility_2026-09-13/review/SHAPE_REPLAY_BODY.json\nudt_current_native_radiation_feasibility_2026-09-13/review/SOURCE_FIRST.md\nudt_current_native_radiation_feasibility_2026-09-13/review/SOURCE_FIRST_REQUEST.md\nudt_current_native_radiation_feasibility_2026-09-13/review/check_comparison_shapes.py\nudt_current_native_radiation_feasibility_2026-09-13/review/final_fidelity_capture.capture_provenance.json\nudt_current_native_radiation_feasibility_2026-09-13/review/final_fidelity_capture.json\nudt_current_native_radiation_feasibility_2026-09-13/review/final_fidelity_capture.stderr\nudt_current_native_radiation_feasibility_2026-09-13/review/final_fidelity_capture.stdout\nudt_current_native_radiation_feasibility_2026-09-13/review/final_fidelity_check.py\nudt_current_native_radiation_feasibility_2026-09-13/review/independent_capture.capture_provenance.json\nudt_current_native_radiation_feasibility_2026-09-13/review/independent_capture.json\nudt_current_native_radiation_feasibility_2026-09-13/review/independent_capture.stderr\nudt_current_native_radiation_feasibility_2026-09-13/review/independent_capture.stdout\nudt_current_native_radiation_feasibility_2026-09-13/review/independent_exact.py\nudt_current_native_radiation_feasibility_2026-09-13/review/repair_capture.capture_provenance.json\nudt_current_native_radiation_feasibility_2026-09-13/review/repair_capture.json\nudt_current_native_radiation_feasibility_2026-09-13/review/repair_capture.stderr\nudt_current_native_radiation_feasibility_2026-09-13/review/repair_capture.stdout\nudt_current_native_radiation_feasibility_2026-09-13/review/repair_controls.py\nudt_current_native_radiation_feasibility_2026-09-13/review/shape_capture.capture_provenance.json\nudt_current_native_radiation_feasibility_2026-09-13/review/shape_capture.json\nudt_current_native_radiation_feasibility_2026-09-13/review/shape_capture.stderr\nudt_current_native_radiation_feasibility_2026-09-13/review/shape_capture.stdout\n",
+        "stderr": ""
+      },
+      {
+        "utc": "2026-09-13T05:35:25.127858+00:00",
+        "command": [
+          "git",
+          "diff",
+          "--cached",
+          "--check"
+        ],
+        "exit": 0,
+        "stdout": "",
+        "stderr": ""
+      },
+      {
+        "utc": "2026-09-13T05:35:25.137214+00:00",
+        "command": [
+          "git",
+          "diff",
+          "--cached",
+          "--name-only"
+        ],
+        "exit": 0,
+        "stdout": "CURRENT_RESEARCH_PROGRAM.md\nHANDOFF.md\nINDEX.md\nLIVE.md\nMEMORY.md\nUDT_RESEARCH_ROADMAP.md\nudt_current_native_radiation_feasibility_2026-09-13/AUDIT_INPUT_PINS.json\nudt_current_native_radiation_feasibility_2026-09-13/AUDIT_REUSE.json\nudt_current_native_radiation_feasibility_2026-09-13/CANDIDATE_FREEZE.json\nudt_current_native_radiation_feasibility_2026-09-13/CHECKPOINT.md\nudt_current_native_radiation_feasibility_2026-09-13/CLOSEOUT.md\nudt_current_native_radiation_feasibility_2026-09-13/COMPARISON_BOUNDARY.md\nudt_current_native_radiation_feasibility_2026-09-13/DECISION_BRIEF.md\nudt_current_native_radiation_feasibility_2026-09-13/EXACT_RESULT.json\nudt_current_native_radiation_feasibility_2026-09-13/EXECUTION_INTERVALS.json\nudt_current_native_radiation_feasibility_2026-09-13/EXECUTION_INTERVALS_FINAL.json\nudt_current_native_radiation_feasibility_2026-09-13/EXECUTION_INTERVALS_PRE_FIDELITY.json\nudt_current_native_radiation_feasibility_2026-09-13/FIDELITY_REPAIRS.json\nudt_current_native_radiation_feasibility_2026-09-13/FREEZE_CORRESPONDENCE.json\nudt_current_native_radiation_feasibility_2026-09-13/INITIAL_CANDIDATE.md\nudt_current_native_radiation_feasibility_2026-09-13/LAUNCH.json\nudt_current_native_radiation_feasibility_2026-09-13/LITERATURE_EXPOSURE.md\nudt_current_native_radiation_feasibility_2026-09-13/NON_EINSTEIN_CONTROL.md\nudt_current_native_radiation_feasibility_2026-09-13/NON_EINSTEIN_FREEZE.json\nudt_current_native_radiation_feasibility_2026-09-13/NON_EINSTEIN_RESULT.json\nudt_current_native_radiation_feasibility_2026-09-13/OPERATIONAL_COMPLETION.json\nudt_current_native_radiation_feasibility_2026-09-13/PREPUBLICATION_SYNC.json\nudt_current_native_radiation_feasibility_2026-09-13/PRESERVATION_CHECK.json\nudt_current_native_radiation_feasibility_2026-09-13/PROFILE_CLARIFICATION_FREEZE.json\nudt_current_native_radiation_feasibility_2026-09-13/PROFILE_SCOPE_CLARIFICATION.md\nudt_current_native_radiation_feasibility_2026-09-13/PUBLISH_PLAN.json\nudt_current_native_radiation_feasibility_2026-09-13/README.md\nudt_current_native_radiation_feasibility_2026-09-13/RESULT_SCOPE.tsv\nudt_current_native_radiation_feasibility_2026-09-13/REVIEWED_RESULT.md\nudt_current_native_radiation_feasibility_2026-09-13/SELECTED_PREMISES.json\nudt_current_native_radiation_feasibility_2026-09-13/SHA256SUMS.json\nudt_current_native_radiation_feasibility_2026-09-13/SOURCE_MAP.md\nudt_current_native_radiation_feasibility_2026-09-13/SOURCE_MAP_ADDENDUM.md\nudt_current_native_radiation_feasibility_2026-09-13/SOURCE_PINS.json\nudt_current_native_radiation_feasibility_2026-09-13/STARTUP_CHECK_DIAGNOSTIC.md\nudt_current_native_radiation_feasibility_2026-09-13/WORK_ORDER.md\nudt_current_native_radiation_feasibility_2026-09-13/check_candidate.py\nudt_current_native_radiation_feasibility_2026-09-13/check_non_einstein.py\nudt_current_native_radiation_feasibility_2026-09-13/checks/candidate_exact.capture_provenance.json\nudt_current_native_radiation_feasibility_2026-09-13/checks/candidate_exact.json\nudt_current_native_radiation_feasibility_2026-09-13/checks/candidate_exact.stderr\nudt_current_native_radiation_feasibility_2026-09-13/checks/candidate_exact.stdout\nudt_current_native_radiation_feasibility_2026-09-13/checks/current_surface_final.capture_provenance.json\nudt_current_native_radiation_feasibility_2026-09-13/checks/current_surface_final.json\nudt_current_native_radiation_feasibility_2026-09-13/checks/current_surface_final.stderr\nudt_current_native_radiation_feasibility_2026-09-13/checks/current_surface_final.stdout\nudt_current_native_radiation_feasibility_2026-09-13/checks/navigation_final.capture_provenance.json\nudt_current_native_radiation_feasibility_2026-09-13/checks/navigation_final.json\nudt_current_native_radiation_feasibility_2026-09-13/checks/navigation_final.stderr\nudt_current_native_radiation_feasibility_2026-09-13/checks/navigation_final.stdout\nudt_current_native_radiation_feasibility_2026-09-13/checks/non_einstein_exact.capture_provenance.json\nudt_current_native_radiation_feasibility_2026-09-13/checks/non_einstein_exact.json\nudt_current_native_radiation_feasibility_2026-09-13/checks/non_einstein_exact.stderr\nudt_current_native_radiation_feasibility_2026-09-13/checks/non_einstein_exact.stdout\nudt_current_native_radiation_feasibility_2026-09-13/checks/premise406.capture_provenance.json\nudt_current_native_radiation_feasibility_2026-09-13/checks/premise406.json\nudt_current_native_radiation_feasibility_2026-09-13/checks/premise406.stderr\nudt_current_native_radiation_feasibility_2026-09-13/checks/premise406.stdout\nudt_current_native_radiation_feasibility_2026-09-13/checks/startup_active.capture_provenance.json\nudt_current_native_radiation_feasibility_2026-09-13/checks/startup_active.json\nudt_current_native_radiation_feasibility_2026-09-13/checks/startup_active.stderr\nudt_current_native_radiation_feasibility_2026-09-13/checks/startup_active.stdout\nudt_current_native_radiation_feasibility_2026-09-13/checks/startup_active_isolated.capture_provenance.json\nudt_current_native_radiation_feasibility_2026-09-13/checks/startup_active_isolated.json\nudt_current_native_radiation_feasibility_2026-09-13/checks/startup_active_isolated.stderr\nudt_current_native_radiation_feasibility_2026-09-13/checks/startup_active_isolated.stdout\nudt_current_native_radiation_feasibility_2026-09-13/review/ALLOCATION.json\nudt_current_native_radiation_feasibility_2026-09-13/review/ALLOCATION_INITIAL.json\nudt_current_native_radiation_feasibility_2026-09-13/review/CHECK_FREEZE.md\nudt_current_native_radiation_feasibility_2026-09-13/review/DIRECT_REQUEST.md\nudt_current_native_radiation_feasibility_2026-09-13/review/DIRECT_REVIEW.md\nudt_current_native_radiation_feasibility_2026-09-13/review/DIRECT_REVIEW_PINS.json\nudt_current_native_radiation_feasibility_2026-09-13/review/FINAL_DOCUMENT_PINS.json\nudt_current_native_radiation_feasibility_2026-09-13/review/FINAL_FIDELITY.md\nudt_current_native_radiation_feasibility_2026-09-13/review/FINAL_FIDELITY_REQUEST.md\nudt_current_native_radiation_feasibility_2026-09-13/review/FINAL_RECEIPT.json\nudt_current_native_radiation_feasibility_2026-09-13/review/INDEPENDENT_FREEZE.json\nudt_current_native_radiation_feasibility_2026-09-13/review/INDEPENDENT_RESULT.json\nudt_current_native_radiation_feasibility_2026-09-13/review/REPAIR_CHECK_FREEZE.md\nudt_current_native_radiation_feasibility_2026-09-13/review/REPAIR_RESULT.json\nudt_current_native_radiation_feasibility_2026-09-13/review/REVIEW_METADATA.json\nudt_current_native_radiation_feasibility_2026-09-13/review/ROSTER_OBSERVATION.json\nudt_current_native_radiation_feasibility_2026-09-13/review/SHAPE_AUDIT_RESULT.json\nudt_current_native_radiation_feasibility_2026-09-13/review/SHAPE_REPLAY_BODY.json\nudt_current_native_radiation_feasibility_2026-09-13/review/SOURCE_FIRST.md\nudt_current_native_radiation_feasibility_2026-09-13/review/SOURCE_FIRST_REQUEST.md\nudt_current_native_radiation_feasibility_2026-09-13/review/check_comparison_shapes.py\nudt_current_native_radiation_feasibility_2026-09-13/review/final_fidelity_capture.capture_provenance.json\nudt_current_native_radiation_feasibility_2026-09-13/review/final_fidelity_capture.json\nudt_current_native_radiation_feasibility_2026-09-13/review/final_fidelity_capture.stderr\nudt_current_native_radiation_feasibility_2026-09-13/review/final_fidelity_capture.stdout\nudt_current_native_radiation_feasibility_2026-09-13/review/final_fidelity_check.py\nudt_current_native_radiation_feasibility_2026-09-13/review/independent_capture.capture_provenance.json\nudt_current_native_radiation_feasibility_2026-09-13/review/independent_capture.json\nudt_current_native_radiation_feasibility_2026-09-13/review/independent_capture.stderr\nudt_current_native_radiation_feasibility_2026-09-13/review/independent_capture.stdout\nudt_current_native_radiation_feasibility_2026-09-13/review/independent_exact.py\nudt_current_native_radiation_feasibility_2026-09-13/review/repair_capture.capture_provenance.json\nudt_current_native_radiation_feasibility_2026-09-13/review/repair_capture.json\nudt_current_native_radiation_feasibility_2026-09-13/review/repair_capture.stderr\nudt_current_native_radiation_feasibility_2026-09-13/review/repair_capture.stdout\nudt_current_native_radiation_feasibility_2026-09-13/review/repair_controls.py\nudt_current_native_radiation_feasibility_2026-09-13/review/shape_capture.capture_provenance.json\nudt_current_native_radiation_feasibility_2026-09-13/review/shape_capture.json\nudt_current_native_radiation_feasibility_2026-09-13/review/shape_capture.stderr\nudt_current_native_radiation_feasibility_2026-09-13/review/shape_capture.stdout\n",
+        "stderr": ""
+      },
+      {
+        "utc": "2026-09-13T05:35:25.142879+00:00",
+        "command": [
+          "git",
+          "commit",
+          "-m",
+          "Preserve reviewed conditional NR1 geometric field construction"
+        ],
+        "exit": 0,
+        "stdout": "[grok a2b1a399] Preserve reviewed conditional NR1 geometric field construction\n 111 files changed, 5897 insertions(+), 11 deletions(-)\n create mode 100644 udt_current_native_radiation_feasibility_2026-09-13/AUDIT_INPUT_PINS.json\n create mode 100644 udt_current_native_radiation_feasibility_2026-09-13/AUDIT_REUSE.json\n create mode 100644 udt_current_native_radiation_feasibility_2026-09-13/CANDIDATE_FREEZE.json\n create mode 100644 udt_current_native_radiation_feasibility_2026-09-13/CHECKPOINT.md\n create mode 100644 udt_current_native_radiation_feasibility_2026-09-13/CLOSEOUT.md\n create mode 100644 udt_current_native_radiation_feasibility_2026-09-13/COMPARISON_BOUNDARY.md\n create mode 100644 udt_current_native_radiation_feasibility_2026-09-13/DECISION_BRIEF.md\n create mode 100644 udt_current_native_radiation_feasibility_2026-09-13/EXACT_RESULT.json\n create mode 100644 udt_current_native_radiation_feasibility_2026-09-13/EXECUTION_INTERVALS.json\n create mode 100644 udt_current_native_radiation_feasibility_2026-09-13/EXECUTION_INTERVALS_FINAL.json\n create mode 100644 udt_current_native_radiation_feasibility_2026-09-13/EXECUTION_INTERVALS_PRE_FIDELITY.json\n create mode 100644 udt_current_native_radiation_feasibility_2026-09-13/FIDELITY_REPAIRS.json\n create mode 100644 udt_current_native_radiation_feasibility_2026-09-13/FREEZE_CORRESPONDENCE.json\n create mode 100644 udt_current_native_radiation_feasibility_2026-09-13/INITIAL_CANDIDATE.md\n create mode 100644 udt_current_native_radiation_feasibility_2026-09-13/LAUNCH.json\n create mode 100644 udt_current_native_radiation_feasibility_2026-09-13/LITERATURE_EXPOSURE.md\n create mode 100644 udt_current_native_radiation_feasibility_2026-09-13/NON_EINSTEIN_CONTROL.md\n create mode 100644 udt_current_native_radiation_feasibility_2026-09-13/NON_EINSTEIN_FREEZE.json\n create mode 100644 udt_current_native_radiation_feasibility_2026-09-13/NON_EINSTEIN_RESULT.json\n create mode 100644 udt_current_native_radiation_feasibility_2026-09-13/OPERATIONAL_COMPLETION.json\n create mode 100644 udt_current_native_radiation_feasibility_2026-09-13/PREPUBLICATION_SYNC.json\n create mode 100644 udt_current_native_radiation_feasibility_2026-09-13/PRESERVATION_CHECK.json\n create mode 100644 udt_current_native_radiation_feasibility_2026-09-13/PROFILE_CLARIFICATION_FREEZE.json\n create mode 100644 udt_current_native_radiation_feasibility_2026-09-13/PROFILE_SCOPE_CLARIFICATION.md\n create mode 100644 udt_current_native_radiation_feasibility_2026-09-13/PUBLISH_PLAN.json\n create mode 100644 udt_current_native_radiation_feasibility_2026-09-13/README.md\n create mode 100644 udt_current_native_radiation_feasibility_2026-09-13/RESULT_SCOPE.tsv\n create mode 100644 udt_current_native_radiation_feasibility_2026-09-13/REVIEWED_RESULT.md\n create mode 100644 udt_current_native_radiation_feasibility_2026-09-13/SELECTED_PREMISES.json\n create mode 100644 udt_current_native_radiation_feasibility_2026-09-13/SHA256SUMS.json\n create mode 100644 udt_current_native_radiation_feasibility_2026-09-13/SOURCE_MAP.md\n create mode 100644 udt_current_native_radiation_feasibility_2026-09-13/SOURCE_MAP_ADDENDUM.md\n create mode 100644 udt_current_native_radiation_feasibility_2026-09-13/SOURCE_PINS.json\n create mode 100644 udt_current_native_radiation_feasibility_2026-09-13/STARTUP_CHECK_DIAGNOSTIC.md\n create mode 100644 udt_current_native_radiation_feasibility_2026-09-13/WORK_ORDER.md\n create mode 100644 udt_current_native_radiation_feasibility_2026-09-13/check_candidate.py\n create mode 100644 udt_current_native_radiation_feasibility_2026-09-13/check_non_einstein.py\n create mode 100644 udt_current_native_radiation_feasibility_2026-09-13/checks/candidate_exact.capture_provenance.json\n create mode 100644 udt_current_native_radiation_feasibility_2026-09-13/checks/candidate_exact.json\n create mode 100644 udt_current_native_radiation_feasibility_2026-09-13/checks/candidate_exact.stderr\n create mode 100644 udt_current_native_radiation_feasibility_2026-09-13/checks/candidate_exact.stdout\n create mode 100644 udt_current_native_radiation_feasibility_2026-09-13/checks/current_surface_final.capture_provenance.json\n create mode 100644 udt_current_native_radiation_feasibility_2026-09-13/checks/current_surface_final.json\n create mode 100644 udt_current_native_radiation_feasibility_2026-09-13/checks/current_surface_final.stderr\n create mode 100644 udt_current_native_radiation_feasibility_2026-09-13/checks/current_surface_final.stdout\n create mode 100644 udt_current_native_radiation_feasibility_2026-09-13/checks/navigation_final.capture_provenance.json\n create mode 100644 udt_current_native_radiation_feasibility_2026-09-13/checks/navigation_final.json\n create mode 100644 udt_current_native_radiation_feasibility_2026-09-13/checks/navigation_final.stderr\n create mode 100644 udt_current_native_radiation_feasibility_2026-09-13/checks/navigation_final.stdout\n create mode 100644 udt_current_native_radiation_feasibility_2026-09-13/checks/non_einstein_exact.capture_provenance.json\n create mode 100644 udt_current_native_radiation_feasibility_2026-09-13/checks/non_einstein_exact.json\n create mode 100644 udt_current_native_radiation_feasibility_2026-09-13/checks/non_einstein_exact.stderr\n create mode 100644 udt_current_native_radiation_feasibility_2026-09-13/checks/non_einstein_exact.stdout\n create mode 100644 udt_current_native_radiation_feasibility_2026-09-13/checks/premise406.capture_provenance.json\n create mode 100644 udt_current_native_radiation_feasibility_2026-09-13/checks/premise406.json\n create mode 100644 udt_current_native_radiation_feasibility_2026-09-13/checks/premise406.stderr\n create mode 100644 udt_current_native_radiation_feasibility_2026-09-13/checks/premise406.stdout\n create mode 100644 udt_current_native_radiation_feasibility_2026-09-13/checks/startup_active.capture_provenance.json\n create mode 100644 udt_current_native_radiation_feasibility_2026-09-13/checks/startup_active.json\n create mode 100644 udt_current_native_radiation_feasibility_2026-09-13/checks/startup_active.stderr\n create mode 100644 udt_current_native_radiation_feasibility_2026-09-13/checks/startup_active.stdout\n create mode 100644 udt_current_native_radiation_feasibility_2026-09-13/checks/startup_active_isolated.capture_provenance.json\n create mode 100644 udt_current_native_radiation_feasibility_2026-09-13/checks/startup_active_isolated.json\n create mode 100644 udt_current_native_radiation_feasibility_2026-09-13/checks/startup_active_isolated.stderr\n create mode 100644 udt_current_native_radiation_feasibility_2026-09-13/checks/startup_active_isolated.stdout\n create mode 100644 udt_current_native_radiation_feasibility_2026-09-13/review/ALLOCATION.json\n create mode 100644 udt_current_native_radiation_feasibility_2026-09-13/review/ALLOCATION_INITIAL.json\n create mode 100644 udt_current_native_radiation_feasibility_2026-09-13/review/CHECK_FREEZE.md\n create mode 100644 udt_current_native_radiation_feasibility_2026-09-13/review/DIRECT_REQUEST.md\n create mode 100644 udt_current_native_radiation_feasibility_2026-09-13/review/DIRECT_REVIEW.md\n create mode 100644 udt_current_native_radiation_feasibility_2026-09-13/review/DIRECT_REVIEW_PINS.json\n create mode 100644 udt_current_native_radiation_feasibility_2026-09-13/review/FINAL_DOCUMENT_PINS.json\n create mode 100644 udt_current_native_radiation_feasibility_2026-09-13/review/FINAL_FIDELITY.md\n create mode 100644 udt_current_native_radiation_feasibility_2026-09-13/review/FINAL_FIDELITY_REQUEST.md\n create mode 100644 udt_current_native_radiation_feasibility_2026-09-13/review/FINAL_RECEIPT.json\n create mode 100644 udt_current_native_radiation_feasibility_2026-09-13/review/INDEPENDENT_FREEZE.json\n create mode 100644 udt_current_native_radiation_feasibility_2026-09-13/review/INDEPENDENT_RESULT.json\n create mode 100644 udt_current_native_radiation_feasibility_2026-09-13/review/REPAIR_CHECK_FREEZE.md\n create mode 100644 udt_current_native_radiation_feasibility_2026-09-13/review/REPAIR_RESULT.json\n create mode 100644 udt_current_native_radiation_feasibility_2026-09-13/review/REVIEW_METADATA.json\n create mode 100644 udt_current_native_radiation_feasibility_2026-09-13/review/ROSTER_OBSERVATION.json\n create mode 100644 udt_current_native_radiation_feasibility_2026-09-13/review/SHAPE_AUDIT_RESULT.json\n create mode 100644 udt_current_native_radiation_feasibility_2026-09-13/review/SHAPE_REPLAY_BODY.json\n create mode 100644 udt_current_native_radiation_feasibility_2026-09-13/review/SOURCE_FIRST.md\n create mode 100644 udt_current_native_radiation_feasibility_2026-09-13/review/SOURCE_FIRST_REQUEST.md\n create mode 100644 udt_current_native_radiation_feasibility_2026-09-13/review/check_comparison_shapes.py\n create mode 100644 udt_current_native_radiation_feasibility_2026-09-13/review/final_fidelity_capture.capture_provenance.json\n create mode 100644 udt_current_native_radiation_feasibility_2026-09-13/review/final_fidelity_capture.json\n create mode 100644 udt_current_native_radiation_feasibility_2026-09-13/review/final_fidelity_capture.stderr\n create mode 100644 udt_current_native_radiation_feasibility_2026-09-13/review/final_fidelity_capture.stdout\n create mode 100644 udt_current_native_radiation_feasibility_2026-09-13/review/final_fidelity_check.py\n create mode 100644 udt_current_native_radiation_feasibility_2026-09-13/review/independent_capture.capture_provenance.json\n create mode 100644 udt_current_native_radiation_feasibility_2026-09-13/review/independent_capture.json\n create mode 100644 udt_current_native_radiation_feasibility_2026-09-13/review/independent_capture.stderr\n create mode 100644 udt_current_native_radiation_feasibility_2026-09-13/review/independent_capture.stdout\n create mode 100644 udt_current_native_radiation_feasibility_2026-09-13/review/independent_exact.py\n create mode 100644 udt_current_native_radiation_feasibility_2026-09-13/review/repair_capture.capture_provenance.json\n create mode 100644 udt_current_native_radiation_feasibility_2026-09-13/review/repair_capture.json\n create mode 100644 udt_current_native_radiation_feasibility_2026-09-13/review/repair_capture.stderr\n create mode 100644 udt_current_native_radiation_feasibility_2026-09-13/review/repair_capture.stdout\n create mode 100644 udt_current_native_radiation_feasibility_2026-09-13/review/repair_controls.py\n create mode 100644 udt_current_native_radiation_feasibility_2026-09-13/review/shape_capture.capture_provenance.json\n create mode 100644 udt_current_native_radiation_feasibility_2026-09-13/review/shape_capture.json\n create mode 100644 udt_current_native_radiation_feasibility_2026-09-13/review/shape_capture.stderr\n create mode 100644 udt_current_native_radiation_feasibility_2026-09-13/review/shape_capture.stdout\n",
+        "stderr": ""
+      },
+      {
+        "utc": "2026-09-13T05:35:25.169535+00:00",
+        "command": [
+          "git",
+          "rev-parse",
+          "HEAD"
+        ],
+        "exit": 0,
+        "stdout": "a2b1a3993f3895ad309b92e4a9ab9375b734e53a\n",
+        "stderr": ""
+      },
+      {
+        "utc": "2026-09-13T05:35:25.171118+00:00",
+        "command": [
+          "git",
+          "diff-tree",
+          "--no-commit-id",
+          "--name-only",
+          "-r",
+          "HEAD"
+        ],
+        "exit": 0,
+        "stdout": "CURRENT_RESEARCH_PROGRAM.md\nHANDOFF.md\nINDEX.md\nLIVE.md\nMEMORY.md\nUDT_RESEARCH_ROADMAP.md\nudt_current_native_radiation_feasibility_2026-09-13/AUDIT_INPUT_PINS.json\nudt_current_native_radiation_feasibility_2026-09-13/AUDIT_REUSE.json\nudt_current_native_radiation_feasibility_2026-09-13/CANDIDATE_FREEZE.json\nudt_current_native_radiation_feasibility_2026-09-13/CHECKPOINT.md\nudt_current_native_radiation_feasibility_2026-09-13/CLOSEOUT.md\nudt_current_native_radiation_feasibility_2026-09-13/COMPARISON_BOUNDARY.md\nudt_current_native_radiation_feasibility_2026-09-13/DECISION_BRIEF.md\nudt_current_native_radiation_feasibility_2026-09-13/EXACT_RESULT.json\nudt_current_native_radiation_feasibility_2026-09-13/EXECUTION_INTERVALS.json\nudt_current_native_radiation_feasibility_2026-09-13/EXECUTION_INTERVALS_FINAL.json\nudt_current_native_radiation_feasibility_2026-09-13/EXECUTION_INTERVALS_PRE_FIDELITY.json\nudt_current_native_radiation_feasibility_2026-09-13/FIDELITY_REPAIRS.json\nudt_current_native_radiation_feasibility_2026-09-13/FREEZE_CORRESPONDENCE.json\nudt_current_native_radiation_feasibility_2026-09-13/INITIAL_CANDIDATE.md\nudt_current_native_radiation_feasibility_2026-09-13/LAUNCH.json\nudt_current_native_radiation_feasibility_2026-09-13/LITERATURE_EXPOSURE.md\nudt_current_native_radiation_feasibility_2026-09-13/NON_EINSTEIN_CONTROL.md\nudt_current_native_radiation_feasibility_2026-09-13/NON_EINSTEIN_FREEZE.json\nudt_current_native_radiation_feasibility_2026-09-13/NON_EINSTEIN_RESULT.json\nudt_current_native_radiation_feasibility_2026-09-13/OPERATIONAL_COMPLETION.json\nudt_current_native_radiation_feasibility_2026-09-13/PREPUBLICATION_SYNC.json\nudt_current_native_radiation_feasibility_2026-09-13/PRESERVATION_CHECK.json\nudt_current_native_radiation_feasibility_2026-09-13/PROFILE_CLARIFICATION_FREEZE.json\nudt_current_native_radiation_feasibility_2026-09-13/PROFILE_SCOPE_CLARIFICATION.md\nudt_current_native_radiation_feasibility_2026-09-13/PUBLISH_PLAN.json\nudt_current_native_radiation_feasibility_2026-09-13/README.md\nudt_current_native_radiation_feasibility_2026-09-13/RESULT_SCOPE.tsv\nudt_current_native_radiation_feasibility_2026-09-13/REVIEWED_RESULT.md\nudt_current_native_radiation_feasibility_2026-09-13/SELECTED_PREMISES.json\nudt_current_native_radiation_feasibility_2026-09-13/SHA256SUMS.json\nudt_current_native_radiation_feasibility_2026-09-13/SOURCE_MAP.md\nudt_current_native_radiation_feasibility_2026-09-13/SOURCE_MAP_ADDENDUM.md\nudt_current_native_radiation_feasibility_2026-09-13/SOURCE_PINS.json\nudt_current_native_radiation_feasibility_2026-09-13/STARTUP_CHECK_DIAGNOSTIC.md\nudt_current_native_radiation_feasibility_2026-09-13/WORK_ORDER.md\nudt_current_native_radiation_feasibility_2026-09-13/check_candidate.py\nudt_current_native_radiation_feasibility_2026-09-13/check_non_einstein.py\nudt_current_native_radiation_feasibility_2026-09-13/checks/candidate_exact.capture_provenance.json\nudt_current_native_radiation_feasibility_2026-09-13/checks/candidate_exact.json\nudt_current_native_radiation_feasibility_2026-09-13/checks/candidate_exact.stderr\nudt_current_native_radiation_feasibility_2026-09-13/checks/candidate_exact.stdout\nudt_current_native_radiation_feasibility_2026-09-13/checks/current_surface_final.capture_provenance.json\nudt_current_native_radiation_feasibility_2026-09-13/checks/current_surface_final.json\nudt_current_native_radiation_feasibility_2026-09-13/checks/current_surface_final.stderr\nudt_current_native_radiation_feasibility_2026-09-13/checks/current_surface_final.stdout\nudt_current_native_radiation_feasibility_2026-09-13/checks/navigation_final.capture_provenance.json\nudt_current_native_radiation_feasibility_2026-09-13/checks/navigation_final.json\nudt_current_native_radiation_feasibility_2026-09-13/checks/navigation_final.stderr\nudt_current_native_radiation_feasibility_2026-09-13/checks/navigation_final.stdout\nudt_current_native_radiation_feasibility_2026-09-13/checks/non_einstein_exact.capture_provenance.json\nudt_current_native_radiation_feasibility_2026-09-13/checks/non_einstein_exact.json\nudt_current_native_radiation_feasibility_2026-09-13/checks/non_einstein_exact.stderr\nudt_current_native_radiation_feasibility_2026-09-13/checks/non_einstein_exact.stdout\nudt_current_native_radiation_feasibility_2026-09-13/checks/premise406.capture_provenance.json\nudt_current_native_radiation_feasibility_2026-09-13/checks/premise406.json\nudt_current_native_radiation_feasibility_2026-09-13/checks/premise406.stderr\nudt_current_native_radiation_feasibility_2026-09-13/checks/premise406.stdout\nudt_current_native_radiation_feasibility_2026-09-13/checks/startup_active.capture_provenance.json\nudt_current_native_radiation_feasibility_2026-09-13/checks/startup_active.json\nudt_current_native_radiation_feasibility_2026-09-13/checks/startup_active.stderr\nudt_current_native_radiation_feasibility_2026-09-13/checks/startup_active.stdout\nudt_current_native_radiation_feasibility_2026-09-13/checks/startup_active_isolated.capture_provenance.json\nudt_current_native_radiation_feasibility_2026-09-13/checks/startup_active_isolated.json\nudt_current_native_radiation_feasibility_2026-09-13/checks/startup_active_isolated.stderr\nudt_current_native_radiation_feasibility_2026-09-13/checks/startup_active_isolated.stdout\nudt_current_native_radiation_feasibility_2026-09-13/review/ALLOCATION.json\nudt_current_native_radiation_feasibility_2026-09-13/review/ALLOCATION_INITIAL.json\nudt_current_native_radiation_feasibility_2026-09-13/review/CHECK_FREEZE.md\nudt_current_native_radiation_feasibility_2026-09-13/review/DIRECT_REQUEST.md\nudt_current_native_radiation_feasibility_2026-09-13/review/DIRECT_REVIEW.md\nudt_current_native_radiation_feasibility_2026-09-13/review/DIRECT_REVIEW_PINS.json\nudt_current_native_radiation_feasibility_2026-09-13/review/FINAL_DOCUMENT_PINS.json\nudt_current_native_radiation_feasibility_2026-09-13/review/FINAL_FIDELITY.md\nudt_current_native_radiation_feasibility_2026-09-13/review/FINAL_FIDELITY_REQUEST.md\nudt_current_native_radiation_feasibility_2026-09-13/review/FINAL_RECEIPT.json\nudt_current_native_radiation_feasibility_2026-09-13/review/INDEPENDENT_FREEZE.json\nudt_current_native_radiation_feasibility_2026-09-13/review/INDEPENDENT_RESULT.json\nudt_current_native_radiation_feasibility_2026-09-13/review/REPAIR_CHECK_FREEZE.md\nudt_current_native_radiation_feasibility_2026-09-13/review/REPAIR_RESULT.json\nudt_current_native_radiation_feasibility_2026-09-13/review/REVIEW_METADATA.json\nudt_current_native_radiation_feasibility_2026-09-13/review/ROSTER_OBSERVATION.json\nudt_current_native_radiation_feasibility_2026-09-13/review/SHAPE_AUDIT_RESULT.json\nudt_current_native_radiation_feasibility_2026-09-13/review/SHAPE_REPLAY_BODY.json\nudt_current_native_radiation_feasibility_2026-09-13/review/SOURCE_FIRST.md\nudt_current_native_radiation_feasibility_2026-09-13/review/SOURCE_FIRST_REQUEST.md\nudt_current_native_radiation_feasibility_2026-09-13/review/check_comparison_shapes.py\nudt_current_native_radiation_feasibility_2026-09-13/review/final_fidelity_capture.capture_provenance.json\nudt_current_native_radiation_feasibility_2026-09-13/review/final_fidelity_capture.json\nudt_current_native_radiation_feasibility_2026-09-13/review/final_fidelity_capture.stderr\nudt_current_native_radiation_feasibility_2026-09-13/review/final_fidelity_capture.stdout\nudt_current_native_radiation_feasibility_2026-09-13/review/final_fidelity_check.py\nudt_current_native_radiation_feasibility_2026-09-13/review/independent_capture.capture_provenance.json\nudt_current_native_radiation_feasibility_2026-09-13/review/independent_capture.json\nudt_current_native_radiation_feasibility_2026-09-13/review/independent_capture.stderr\nudt_current_native_radiation_feasibility_2026-09-13/review/independent_capture.stdout\nudt_current_native_radiation_feasibility_2026-09-13/review/independent_exact.py\nudt_current_native_radiation_feasibility_2026-09-13/review/repair_capture.capture_provenance.json\nudt_current_native_radiation_feasibility_2026-09-13/review/repair_capture.json\nudt_current_native_radiation_feasibility_2026-09-13/review/repair_capture.stderr\nudt_current_native_radiation_feasibility_2026-09-13/review/repair_capture.stdout\nudt_current_native_radiation_feasibility_2026-09-13/review/repair_controls.py\nudt_current_native_radiation_feasibility_2026-09-13/review/shape_capture.capture_provenance.json\nudt_current_native_radiation_feasibility_2026-09-13/review/shape_capture.json\nudt_current_native_radiation_feasibility_2026-09-13/review/shape_capture.stderr\nudt_current_native_radiation_feasibility_2026-09-13/review/shape_capture.stdout\n",
+        "stderr": ""
+      },
+      {
+        "utc": "2026-09-13T05:35:35.989629+00:00",
+        "command": [
+          "git",
+          "push",
+          "origin",
+          "grok"
+        ],
+        "exit": 0,
+        "stdout": "",
+        "stderr": "To https://github.com/charlesrotter/udt_mass_codex.git\n   22921f57..a2b1a399  grok -> grok\n"
+      },
+      {
+        "utc": "2026-09-13T05:35:37.572413+00:00",
+        "command": [
+          "git",
+          "rev-parse",
+          "HEAD",
+          "origin/grok"
+        ],
+        "exit": 0,
+        "stdout": "a2b1a3993f3895ad309b92e4a9ab9375b734e53a\na2b1a3993f3895ad309b92e4a9ab9375b734e53a\n",
+        "stderr": ""
+      },
+      {
+        "utc": "2026-09-13T05:35:37.579668+00:00",
+        "command": [
+          "git",
+          "diff",
+          "--name-only"
+        ],
+        "exit": 0,
+        "stdout": "",
+        "stderr": ""
+      },
+      {
+        "utc": "2026-09-13T05:35:37.588506+00:00",
+        "command": [
+          "git",
+          "diff",
+          "--cached",
+          "--name-only"
+        ],
+        "exit": 0,
+        "stdout": "",
+        "stderr": ""
+      },
+      {
+        "utc": "2026-09-13T05:35:37.593578+00:00",
+        "command": [
+          "git",
+          "status",
+          "--short",
+          "--untracked-files=all"
+        ],
+        "exit": 0,
+        "stdout": "?? 8_25/UDT_FOUNDING_VALUE_LAW_ANALYSIS.md\n?? 8_25/udt_extension_checks.py\n?? 8_25/udt_extension_minimality_response.md\n?? 8_25/udt_value_law_checks.py\n?? 8_25/udt_value_law_checks_llm1.py\n?? 8_25/udt_value_law_external_response.md\n?? UDT_Complete_Guardrails_and_Central_Science_Tracking.md\n?? UDT_Next_Step_After_Two_Stages.md\n?? UDT_Sequenced_Guardrails_and_Development_Work_Order.md\n?? udt_native_onshell_timelive_reset_owner_audit_2026-08-10/CANDIDATE_LAW_MAP.tsv\n?? udt_native_onshell_timelive_reset_owner_audit_2026-08-10/DERIVATION_RESULT.json\n?? udt_native_onshell_timelive_reset_owner_audit_2026-08-10/EQUATION_OWNERSHIP_ATLAS.tsv\n?? udt_native_onshell_timelive_reset_owner_audit_2026-08-10/SOURCE_SCOPE_CLARIFICATION.md\n?? udt_native_onshell_timelive_reset_owner_audit_2026-08-10/derive_owner_atlas.py\n?? udt_native_onshell_timelive_reset_owner_audit_2026-08-10/run_catch_proofs.py\n?? udt_native_onshell_timelive_reset_owner_audit_2026-08-10/verify_owner_independent.py\n?? udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/ADVERSARIAL_REVIEW_REQUEST.md\n?? udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/AUDIT_REPORT.md\n?? udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/CATCH_PROOF_RESULT.json\n?? udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/DERIVATION_RESULT.json\n?? udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/EVIDENCE_GATES.md\n?? udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/EXACT_DERIVATION.md\n?? udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/INDEPENDENT_VERIFICATION.json\n?? udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/LAY_REPORT.md\n?? udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/STATUS_LEDGER.tsv\n?? udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/VERIFICATION_RESULT.json\n?? udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/WITNESS_ATLAS.tsv\n?? udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/build_review_intake.py\n?? udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/derive_regime_flow.py\n?? udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/run_catch_proofs.py\n?? udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/verify_independent.py\n?? udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/verify_package.py\n?? udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/AUDIT_REPORT.md\n?? udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/CATCH_PROOF_RESULT.json\n?? udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/DERIVATION_RESULT.json\n?? udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/EVIDENCE_GATES.md\n?? udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/EXACT_DERIVATION.md\n?? udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/INDEPENDENT_RADAU_REPLAY.tsv\n?? udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/INDEPENDENT_VERIFICATION.json\n?? udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/LAY_REPORT.md\n?? udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/PREREGISTRATION_EXECUTION_NOTE.md\n?? udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/PROFILE_COMPATIBILITY_ATLAS.tsv\n?? udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/REVIEW_DISPATCH.md\n?? udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/RUN_CHECKPOINT.tsv\n?? udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/STATUS_LEDGER.tsv\n?? udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/VERIFICATION_RESULT.json\n?? udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/build_review_manifest.py\n?? udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/derive_compatibility_atlas.py\n?? udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/run_catch_proofs.py\n?? udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/verify_independent.py\n?? udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/verify_package.py\n",
+        "stderr": ""
+      }
+    ],
+    "baseline_head": "22921f57d29a5990b7422509d1fd9b24a6ec36f3",
+    "original_untracked_status_sha256": "747cf3c497bfbdf7c373a2aa621be3cb241a61f7ef9f508c39bf64588ff70a60",
+    "planned_paths": [
+      "CURRENT_RESEARCH_PROGRAM.md",
+      "HANDOFF.md",
+      "INDEX.md",
+      "LIVE.md",
+      "MEMORY.md",
+      "UDT_RESEARCH_ROADMAP.md",
+      "udt_current_native_radiation_feasibility_2026-09-13/AUDIT_INPUT_PINS.json",
+      "udt_current_native_radiation_feasibility_2026-09-13/AUDIT_REUSE.json",
+      "udt_current_native_radiation_feasibility_2026-09-13/CANDIDATE_FREEZE.json",
+      "udt_current_native_radiation_feasibility_2026-09-13/CHECKPOINT.md",
+      "udt_current_native_radiation_feasibility_2026-09-13/CLOSEOUT.md",
+      "udt_current_native_radiation_feasibility_2026-09-13/COMPARISON_BOUNDARY.md",
+      "udt_current_native_radiation_feasibility_2026-09-13/DECISION_BRIEF.md",
+      "udt_current_native_radiation_feasibility_2026-09-13/EXACT_RESULT.json",
+      "udt_current_native_radiation_feasibility_2026-09-13/EXECUTION_INTERVALS.json",
+      "udt_current_native_radiation_feasibility_2026-09-13/EXECUTION_INTERVALS_FINAL.json",
+      "udt_current_native_radiation_feasibility_2026-09-13/EXECUTION_INTERVALS_PRE_FIDELITY.json",
+      "udt_current_native_radiation_feasibility_2026-09-13/FIDELITY_REPAIRS.json",
+      "udt_current_native_radiation_feasibility_2026-09-13/FREEZE_CORRESPONDENCE.json",
+      "udt_current_native_radiation_feasibility_2026-09-13/INITIAL_CANDIDATE.md",
+      "udt_current_native_radiation_feasibility_2026-09-13/LAUNCH.json",
+      "udt_current_native_radiation_feasibility_2026-09-13/LITERATURE_EXPOSURE.md",
+      "udt_current_native_radiation_feasibility_2026-09-13/NON_EINSTEIN_CONTROL.md",
+      "udt_current_native_radiation_feasibility_2026-09-13/NON_EINSTEIN_FREEZE.json",
+      "udt_current_native_radiation_feasibility_2026-09-13/NON_EINSTEIN_RESULT.json",
+      "udt_current_native_radiation_feasibility_2026-09-13/OPERATIONAL_COMPLETION.json",
+      "udt_current_native_radiation_feasibility_2026-09-13/PREPUBLICATION_SYNC.json",
+      "udt_current_native_radiation_feasibility_2026-09-13/PRESERVATION_CHECK.json",
+      "udt_current_native_radiation_feasibility_2026-09-13/PROFILE_CLARIFICATION_FREEZE.json",
+      "udt_current_native_radiation_feasibility_2026-09-13/PROFILE_SCOPE_CLARIFICATION.md",
+      "udt_current_native_radiation_feasibility_2026-09-13/PUBLISH_PLAN.json",
+      "udt_current_native_radiation_feasibility_2026-09-13/README.md",
+      "udt_current_native_radiation_feasibility_2026-09-13/RESULT_SCOPE.tsv",
+      "udt_current_native_radiation_feasibility_2026-09-13/REVIEWED_RESULT.md",
+      "udt_current_native_radiation_feasibility_2026-09-13/SELECTED_PREMISES.json",
+      "udt_current_native_radiation_feasibility_2026-09-13/SHA256SUMS.json",
+      "udt_current_native_radiation_feasibility_2026-09-13/SOURCE_MAP.md",
+      "udt_current_native_radiation_feasibility_2026-09-13/SOURCE_MAP_ADDENDUM.md",
+      "udt_current_native_radiation_feasibility_2026-09-13/SOURCE_PINS.json",
+      "udt_current_native_radiation_feasibility_2026-09-13/STARTUP_CHECK_DIAGNOSTIC.md",
+      "udt_current_native_radiation_feasibility_2026-09-13/WORK_ORDER.md",
+      "udt_current_native_radiation_feasibility_2026-09-13/check_candidate.py",
+      "udt_current_native_radiation_feasibility_2026-09-13/check_non_einstein.py",
+      "udt_current_native_radiation_feasibility_2026-09-13/checks/candidate_exact.capture_provenance.json",
+      "udt_current_native_radiation_feasibility_2026-09-13/checks/candidate_exact.json",
+      "udt_current_native_radiation_feasibility_2026-09-13/checks/candidate_exact.stderr",
+      "udt_current_native_radiation_feasibility_2026-09-13/checks/candidate_exact.stdout",
+      "udt_current_native_radiation_feasibility_2026-09-13/checks/current_surface_final.capture_provenance.json",
+      "udt_current_native_radiation_feasibility_2026-09-13/checks/current_surface_final.json",
+      "udt_current_native_radiation_feasibility_2026-09-13/checks/current_surface_final.stderr",
+      "udt_current_native_radiation_feasibility_2026-09-13/checks/current_surface_final.stdout",
+      "udt_current_native_radiation_feasibility_2026-09-13/checks/navigation_final.capture_provenance.json",
+      "udt_current_native_radiation_feasibility_2026-09-13/checks/navigation_final.json",
+      "udt_current_native_radiation_feasibility_2026-09-13/checks/navigation_final.stderr",
+      "udt_current_native_radiation_feasibility_2026-09-13/checks/navigation_final.stdout",
+      "udt_current_native_radiation_feasibility_2026-09-13/checks/non_einstein_exact.capture_provenance.json",
+      "udt_current_native_radiation_feasibility_2026-09-13/checks/non_einstein_exact.json",
+      "udt_current_native_radiation_feasibility_2026-09-13/checks/non_einstein_exact.stderr",
+      "udt_current_native_radiation_feasibility_2026-09-13/checks/non_einstein_exact.stdout",
+      "udt_current_native_radiation_feasibility_2026-09-13/checks/premise406.capture_provenance.json",
+      "udt_current_native_radiation_feasibility_2026-09-13/checks/premise406.json",
+      "udt_current_native_radiation_feasibility_2026-09-13/checks/premise406.stderr",
+      "udt_current_native_radiation_feasibility_2026-09-13/checks/premise406.stdout",
+      "udt_current_native_radiation_feasibility_2026-09-13/checks/startup_active.capture_provenance.json",
+      "udt_current_native_radiation_feasibility_2026-09-13/checks/startup_active.json",
+      "udt_current_native_radiation_feasibility_2026-09-13/checks/startup_active.stderr",
+      "udt_current_native_radiation_feasibility_2026-09-13/checks/startup_active.stdout",
+      "udt_current_native_radiation_feasibility_2026-09-13/checks/startup_active_isolated.capture_provenance.json",
+      "udt_current_native_radiation_feasibility_2026-09-13/checks/startup_active_isolated.json",
+      "udt_current_native_radiation_feasibility_2026-09-13/checks/startup_active_isolated.stderr",
+      "udt_current_native_radiation_feasibility_2026-09-13/checks/startup_active_isolated.stdout",
+      "udt_current_native_radiation_feasibility_2026-09-13/review/ALLOCATION.json",
+      "udt_current_native_radiation_feasibility_2026-09-13/review/ALLOCATION_INITIAL.json",
+      "udt_current_native_radiation_feasibility_2026-09-13/review/CHECK_FREEZE.md",
+      "udt_current_native_radiation_feasibility_2026-09-13/review/DIRECT_REQUEST.md",
+      "udt_current_native_radiation_feasibility_2026-09-13/review/DIRECT_REVIEW.md",
+      "udt_current_native_radiation_feasibility_2026-09-13/review/DIRECT_REVIEW_PINS.json",
+      "udt_current_native_radiation_feasibility_2026-09-13/review/FINAL_DOCUMENT_PINS.json",
+      "udt_current_native_radiation_feasibility_2026-09-13/review/FINAL_FIDELITY.md",
+      "udt_current_native_radiation_feasibility_2026-09-13/review/FINAL_FIDELITY_REQUEST.md",
+      "udt_current_native_radiation_feasibility_2026-09-13/review/FINAL_RECEIPT.json",
+      "udt_current_native_radiation_feasibility_2026-09-13/review/INDEPENDENT_FREEZE.json",
+      "udt_current_native_radiation_feasibility_2026-09-13/review/INDEPENDENT_RESULT.json",
+      "udt_current_native_radiation_feasibility_2026-09-13/review/REPAIR_CHECK_FREEZE.md",
+      "udt_current_native_radiation_feasibility_2026-09-13/review/REPAIR_RESULT.json",
+      "udt_current_native_radiation_feasibility_2026-09-13/review/REVIEW_METADATA.json",
+      "udt_current_native_radiation_feasibility_2026-09-13/review/ROSTER_OBSERVATION.json",
+      "udt_current_native_radiation_feasibility_2026-09-13/review/SHAPE_AUDIT_RESULT.json",
+      "udt_current_native_radiation_feasibility_2026-09-13/review/SHAPE_REPLAY_BODY.json",
+      "udt_current_native_radiation_feasibility_2026-09-13/review/SOURCE_FIRST.md",
+      "udt_current_native_radiation_feasibility_2026-09-13/review/SOURCE_FIRST_REQUEST.md",
+      "udt_current_native_radiation_feasibility_2026-09-13/review/check_comparison_shapes.py",
+      "udt_current_native_radiation_feasibility_2026-09-13/review/final_fidelity_capture.capture_provenance.json",
+      "udt_current_native_radiation_feasibility_2026-09-13/review/final_fidelity_capture.json",
+      "udt_current_native_radiation_feasibility_2026-09-13/review/final_fidelity_capture.stderr",
+      "udt_current_native_radiation_feasibility_2026-09-13/review/final_fidelity_capture.stdout",
+      "udt_current_native_radiation_feasibility_2026-09-13/review/final_fidelity_check.py",
+      "udt_current_native_radiation_feasibility_2026-09-13/review/independent_capture.capture_provenance.json",
+      "udt_current_native_radiation_feasibility_2026-09-13/review/independent_capture.json",
+      "udt_current_native_radiation_feasibility_2026-09-13/review/independent_capture.stderr",
+      "udt_current_native_radiation_feasibility_2026-09-13/review/independent_capture.stdout",
+      "udt_current_native_radiation_feasibility_2026-09-13/review/independent_exact.py",
+      "udt_current_native_radiation_feasibility_2026-09-13/review/repair_capture.capture_provenance.json",
+      "udt_current_native_radiation_feasibility_2026-09-13/review/repair_capture.json",
+      "udt_current_native_radiation_feasibility_2026-09-13/review/repair_capture.stderr",
+      "udt_current_native_radiation_feasibility_2026-09-13/review/repair_capture.stdout",
+      "udt_current_native_radiation_feasibility_2026-09-13/review/repair_controls.py",
+      "udt_current_native_radiation_feasibility_2026-09-13/review/shape_capture.capture_provenance.json",
+      "udt_current_native_radiation_feasibility_2026-09-13/review/shape_capture.json",
+      "udt_current_native_radiation_feasibility_2026-09-13/review/shape_capture.stderr",
+      "udt_current_native_radiation_feasibility_2026-09-13/review/shape_capture.stdout"
+    ],
+    "science_commit": "a2b1a3993f3895ad309b92e4a9ab9375b734e53a",
+    "postpush_verified_utc": "2026-09-13T05:35:37.620823+00:00",
+    "postpush_refs": [
+      "a2b1a3993f3895ad309b92e4a9ab9375b734e53a",
+      "a2b1a3993f3895ad309b92e4a9ab9375b734e53a"
+    ],
+    "tracked_clean": true,
+    "original51_status_names_exact": true
+  },
+  "science_manifest_commit_correspondence": {
+    "all": true,
+    "hashed_payloads": 110,
+    "meaning": "checksums correspond to science commit, not scientific truth; receipt-only checkpoint update is a separate administrative snapshot"
+  },
+  "elapsed_since_conservative_start_seconds": 2416.039769,
+  "within_two_hour_scope": true,
+  "review": "review/FINAL_RECEIPT.json; one allocation, actual end05:33:52.808695UTC, elapsed bounds1581.808695--1749.808695s; general capacity UNVERIFIED",
+  "fixed_sources": "406-row registry, accepted scientific sources, fixed through-G352 manuscript and CANON unchanged",
+  "receipt_scope": "This receipt records actual science publication. Its own exact paths/checkpoint completion update are committed separately; terminal tools verify that receipt push."
+}

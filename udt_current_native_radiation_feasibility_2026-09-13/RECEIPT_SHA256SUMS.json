@@ -1,0 +1,9 @@
+{
+  "science_commit": "a2b1a3993f3895ad309b92e4a9ab9375b734e53a",
+  "scope": "receipt and checkpoint-only administrative completion, no science change",
+  "pins": {
+    "udt_current_native_radiation_feasibility_2026-09-13/CHECKPOINT.md": "b15dab0faed5d78b0ec8240679eb02e1ca3fb8782b8ed4c14e5b081439d22327",
+    "udt_current_native_radiation_feasibility_2026-09-13/PUBLICATION.json": "fe730fc90346428c83a6cb21df3fb1101c22762021b0aa9bbc0e59f1b1c5c5b3",
+    "udt_current_native_radiation_feasibility_2026-09-13/PUBLICATION.md": "2ac41af48288e5e398fe8e8f3596074382c973e4c6e5b389e9bf392225b01922"
+  }
+}
