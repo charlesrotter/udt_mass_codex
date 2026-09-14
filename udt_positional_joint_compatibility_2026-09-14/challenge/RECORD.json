@@ -1,0 +1,59 @@
+{
+  "status": "SOURCE_CHALLENGE_COMPLETE__RECOVERED_INTERLOCK__KNOWN_IDENTITY_NOVELTY_STOP",
+  "reviewer_context": "/root/pjc1_source_challenger",
+  "context": "fresh separate context",
+  "model_runtime": "UNATTESTED",
+  "different_model": "UNTESTED",
+  "first_clock_utc": "2026-09-14 00:05:35 UTC",
+  "final_clock_utc": "2026-09-14 00:16:15 UTC",
+  "deadline_utc": "2026-09-14 00:20:35 UTC",
+  "head_observed": "0b84057f6030afd5aaf516bce859b9934d06171f",
+  "branch_observed": "grok",
+  "original_tracked_dirt": "none",
+  "unrelated_and_protected_untracked": "observed names, preserved, payloads not read",
+  "startup": "parent continuing-session synchronization attributed",
+  "full406": {
+    "owner": "parent execution, not reviewer replay",
+    "reported_result": "PASS",
+    "exit_code": 0,
+    "duration_seconds": 404.244434,
+    "start_utc": "2026-09-14 00:02:54.157478 UTC",
+    "peak_rss_kib": 120576
+  },
+  "selected_registry_queries": "G201,G271,G272,G273,G274,G275,G312; only after parent PASS report",
+  "source_exposure_record": "SOURCE_ASSESSMENT.md sections 1-2; SOURCE_CHECK.json",
+  "candidate_exposure": "parent f_eps example received after first source-first messages; assessment file composed afterward; no retroactive blind claim",
+  "independent_properties": {
+    "source_reading": true,
+    "source_first_reconstruction_of_angular_derivative_identity": true,
+    "independent_scientific_implementation": false,
+    "old_campaign_replay": false,
+    "whole_theory_proof": false
+  },
+  "numerical_production": "none",
+  "source_check_command": "python3 udt_positional_joint_compatibility_2026-09-14/challenge/check_sources.py > udt_positional_joint_compatibility_2026-09-14/challenge/SOURCE_CHECK.json 2> udt_positional_joint_compatibility_2026-09-14/challenge/SOURCE_CHECK.stderr",
+  "source_check_exit_code": 0,
+  "additional_exposure_sources": 18,
+  "selected_registry_fields": [
+    "premise_id",
+    "current_status",
+    "epistemic_label",
+    "controlling_source",
+    "precedence_rule"
+  ],
+  "omitted_checks": "Original scientific campaigns/reviews, independent numerical implementation, physical admission, new response law, full metric realization, empirical predictions.",
+  "scope": "one metric, full completed records, primary static spherical regular r>0 positive C2 profile; G271 source null-germ and transported branch restrictions retained",
+  "recommendation": "Stop at known-identity gate; recover explicit joint compatibility/reconstruction equations; retain exact response/value-law specification boundary.",
+  "operational_notes": [
+    "Initial SOURCE_PINS.tsv read failed; corrected to actual SOURCE_PINS.json.",
+    "Initial selected registry lookup used nonexistent id key and returned no rows; corrected to premise_id.",
+    "One broad /tmp filename-only listing produced unrelated system-directory permission messages; no payloads read.",
+    "No subdelegation, model override, git mutation, numerical production, protected payload read, or source mutation.",
+    "Final packaging assertion expected the early 19-pin count; SOURCE_PINS.json had grown to 34 pins. It failed closed, all 34 saved pins matched, and metadata was repaired to distinguish early and saved snapshots; scientific argument unchanged."
+  ],
+  "early_source_pins_matched": 19,
+  "saved_source_pins_matched": 34,
+  "all_source_hashes_captured": 47,
+  "source_inventory_exposure_qualification": "SOURCE_CHECK includes all expanded parent pins for byte checks; this does not claim their content was read. Actual content reading is limited to the initial 19 pinned files and the extra list in check_sources.py (some only targeted sections), plus AGENTS and work-order/current files identified in SOURCE_ASSESSMENT.",
+  "initial_close_clock_utc": "2026-09-14 00:14:36 UTC"
+}

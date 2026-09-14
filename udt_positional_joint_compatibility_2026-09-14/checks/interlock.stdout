@@ -1,0 +1,33 @@
+{
+  "status": "PASS_SOURCE_FORMULA_REPLAY_ONLY",
+  "utc": "2026-09-14T00:14:40.657242+00:00",
+  "script_sha256": "1910985a2d42f789c974770a6b2328cb065f9dc65f3adce9e304253ddb492b90",
+  "python": "3.10.12 (main, Aug 31 2026, 10:18:17) [GCC 11.4.0]",
+  "sympy": "1.13.1",
+  "platform": "Linux-6.8.0-138-generic-x86_64-with-glibc2.35",
+  "checks": {
+    "neighboring_interlock": "0",
+    "reconstruction_equation": "0",
+    "integrating_factor": "0",
+    "supplied_b_reconstruction": "0",
+    "homogeneous_A_invisible": "0",
+    "homogeneous_B_invisible": "0",
+    "clock_A": "0",
+    "clock_B": "0",
+    "exact_control_jet_and_amplitudes": {
+      "f_jets_dimensionless": [
+        "2",
+        "2",
+        "4*epsilon + 2"
+      ],
+      "A_perp": "0",
+      "A_parallel": "2*epsilon",
+      "epsilon_smallness_assumed": false
+    },
+    "hostile_controls": {
+      "wrong_sign_nonidentity_residual": "r*Derivative(f(r), r)",
+      "missing_constant_nonidentity_residual": "2"
+    }
+  },
+  "maximum_claim": "source-relative interlock/reconstruction identities and explicit finite-data counter-reading; no new native law/admission/no-go"
+}

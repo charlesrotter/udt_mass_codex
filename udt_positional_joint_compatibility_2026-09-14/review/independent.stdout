@@ -1,0 +1,152 @@
+{
+  "status": "PASS_BOUNDED_EXACT_FORMULA_CHECKS",
+  "utc": "2026-09-14T00:20:22.024668+00:00",
+  "python": "3.10.12 (main, Aug 31 2026, 10:18:17) [GCC 11.4.0]",
+  "platform": "Linux-6.8.0-138-generic-x86_64-with-glibc2.35",
+  "script_sha256": "6cc6ab2d1730102b596af0e3bd95d710a296d4b17241abbce51090be39fea99d",
+  "implementation": "standard-library Fraction Laurent polynomials and exact Taylor jets; no parent scientific import",
+  "profile_count": 4,
+  "positive_regular_samples": [
+    {
+      "r": "1/2",
+      "f": "1",
+      "A_perp": "0",
+      "A_parallel": "0"
+    },
+    {
+      "r": "1",
+      "f": "1",
+      "A_perp": "0",
+      "A_parallel": "0"
+    },
+    {
+      "r": "3/2",
+      "f": "1",
+      "A_perp": "0",
+      "A_parallel": "0"
+    },
+    {
+      "r": "1/2",
+      "f": "7/6",
+      "A_perp": "0",
+      "A_parallel": "0"
+    },
+    {
+      "r": "1",
+      "f": "5/3",
+      "A_perp": "0",
+      "A_parallel": "0"
+    },
+    {
+      "r": "3/2",
+      "f": "5/2",
+      "A_perp": "0",
+      "A_parallel": "0"
+    },
+    {
+      "r": "1/2",
+      "f": "72825/64064",
+      "A_perp": "141/4576",
+      "A_parallel": "293/2288"
+    },
+    {
+      "r": "1",
+      "f": "1962/1001",
+      "A_perp": "87/143",
+      "A_parallel": "392/143"
+    },
+    {
+      "r": "3/2",
+      "f": "329393/64064",
+      "A_perp": "18549/4576",
+      "A_parallel": "45117/2288"
+    },
+    {
+      "r": "1/2",
+      "f": "2131/630",
+      "A_perp": "-3721/1260",
+      "A_parallel": "3509/1260"
+    },
+    {
+      "r": "1",
+      "f": "1076/315",
+      "A_perp": "-1031/630",
+      "A_parallel": "1009/630"
+    },
+    {
+      "r": "3/2",
+      "f": "27217/5670",
+      "A_perp": "-8707/11340",
+      "A_parallel": "35423/11340"
+    }
+  ],
+  "diagnostic_cases": [
+    {
+      "epsilon": "-7/3",
+      "jets": [
+        "2",
+        "2",
+        "-22/3"
+      ],
+      "A_perp": "0",
+      "A_parallel": "-14/3"
+    },
+    {
+      "epsilon": "0",
+      "jets": [
+        "2",
+        "2",
+        "2"
+      ],
+      "A_perp": "0",
+      "A_parallel": "0"
+    },
+    {
+      "epsilon": "5/2",
+      "jets": [
+        "2",
+        "2",
+        "12"
+      ],
+      "A_perp": "0",
+      "A_parallel": "5"
+    }
+  ],
+  "projection_cases": [
+    {
+      "cos": "-3/5",
+      "sin": "-4/5",
+      "sum": "1/25"
+    },
+    {
+      "cos": "3/5",
+      "sin": "-4/5",
+      "sum": "1/25"
+    },
+    {
+      "cos": "1",
+      "sin": "0",
+      "sum": "1/25"
+    },
+    {
+      "cos": "4/5",
+      "sin": "3/5",
+      "sum": "1/25"
+    },
+    {
+      "cos": "0",
+      "sin": "1",
+      "sum": "1/25"
+    },
+    {
+      "cos": "-4/5",
+      "sin": "3/5",
+      "sum": "1/25"
+    }
+  ],
+  "mutation_catches": {
+    "longitudinal_first_derivative_sign": "REJECTED_BY_EQUALITY_CHECK",
+    "transverse_constant_dropped": "REJECTED_BY_EQUALITY_CHECK"
+  },
+  "maximum_claim": "supplement to source-first calculus argument; no all-UDT countermodel, physical admission, or source theorem replay"
+}

@@ -1,0 +1,14 @@
+{
+  "utc": "2026-09-14T00:28:01.665398+00:00",
+  "owner": "parent correspondence seal after final fresh review; candidate bytes unchanged since REPAIR_FREEZE",
+  "review_record_sha256": "12ba2424c7315c74a58cf4ff826047cf3ac0c78b43def2fe86e5b527239903aa",
+  "files": {
+    "udt_positional_joint_compatibility_2026-09-14/CANDIDATE.md": "5a5e422c4fff56399ec34d4db7841d744dd6c0e2802e6da7dcded0b82f688d61",
+    "udt_positional_joint_compatibility_2026-09-14/DECISION_BRIEF.md": "73cc5fec7b190be52b066b4aeec21b5e2f08eabf3a907eefb1b232390acedd47",
+    "udt_positional_joint_compatibility_2026-09-14/DEPENDENCY_IMPACT.tsv": "11da72898383afaee1b856e507bddae58d74729d00be9ba9d2b1416316aeae1e",
+    "UDT_RESEARCH_ROADMAP.md": "bb3c8b473dcf629302c01df69f78ee4f110bfb0f2fb9a3e21bc93c6eb3ea2c9f",
+    "udt_native_theory_research_plan_2026-09-13/PLAN.md": "b80f7c5cb7d21b279a305ffd56531406c2465a3c1a3e49a3d2b34b1587023949",
+    "INDEX.md": "f9b2676a6f3300ba277c8e660a9cf8d03b578262916b91856fd1a19895c96258",
+    "MEMORY.md": "81ab2529f21328a9e40f91aefccdb49fd300581f766bcf3e4380a9ceefa97de2"
+  }
+}

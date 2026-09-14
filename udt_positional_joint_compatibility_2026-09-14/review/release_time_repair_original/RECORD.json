@@ -1,0 +1,123 @@
+{
+  "reviewer": "/root/pjc1_adversarial_review",
+  "context": "fresh separate",
+  "runtime_model": "UNATTESTED",
+  "different_model": "UNTESTED",
+  "first_clock_utc": "2026-09-14T00:15:32+00:00",
+  "recorded_completion_utc": "2026-09-14T00:24:49.396256+00:00",
+  "deadline_utc": "2026-09-14T00:45:32+00:00",
+  "elapsed_seconds_from_first_clock": 557.396256,
+  "baseline_head": "0b84057f6030afd5aaf516bce859b9934d06171f",
+  "source_first_sha256": "01c139d73a1a314939f366ef26513d3e64109f63d640cec3cba982d491778f08",
+  "initial_candidate_sha256": "6d51a4935599b7a0ec9659c3cec66835d223d25eb8d00811cf756b4b17e65d49",
+  "reviewed_files": {
+    "udt_positional_joint_compatibility_2026-09-14/CANDIDATE.md": "5a5e422c4fff56399ec34d4db7841d744dd6c0e2802e6da7dcded0b82f688d61",
+    "udt_positional_joint_compatibility_2026-09-14/DECISION_BRIEF.md": "73cc5fec7b190be52b066b4aeec21b5e2f08eabf3a907eefb1b232390acedd47",
+    "udt_positional_joint_compatibility_2026-09-14/DEPENDENCY_IMPACT.tsv": "11da72898383afaee1b856e507bddae58d74729d00be9ba9d2b1416316aeae1e",
+    "UDT_RESEARCH_ROADMAP.md": "bb3c8b473dcf629302c01df69f78ee4f110bfb0f2fb9a3e21bc93c6eb3ea2c9f",
+    "udt_native_theory_research_plan_2026-09-13/PLAN.md": "b80f7c5cb7d21b279a305ffd56531406c2465a3c1a3e49a3d2b34b1587023949",
+    "INDEX.md": "f9b2676a6f3300ba277c8e660a9cf8d03b578262916b91856fd1a19895c96258",
+    "MEMORY.md": "81ab2529f21328a9e40f91aefccdb49fd300581f766bcf3e4380a9ceefa97de2"
+  },
+  "checks": {
+    "source_pins": {
+      "AGENTS.md": true,
+      "CLAUDE.md": true,
+      "CROSS_MODEL_VERIFY.md": true,
+      ".claude/skills/no-shortcuts/SKILL.md": true,
+      ".claude/skills/completeness-map/SKILL.md": true,
+      ".claude/skills/verifier-before-record/SKILL.md": true,
+      "founding.md": true,
+      "udt_joint_observer_relation_scope_correction_2026-09-13/CORRECTION.md": true,
+      "udt_native_theory_research_plan_2026-09-13/execution/tc0/RESULT.md": true,
+      "udt_field_equation_provenance_and_process_2026-09-13/FIELD_EQUATION_PROCESS.md": true,
+      "udt_g166_primary_metric_ordered_pair_kernel_descent_2026-08-18/AUDIT_REPORT.md": true,
+      "udt_g167_primary_metric_full_pair_pullback_orchestra_2026-08-18/AUDIT_REPORT.md": true,
+      "udt_g176_completed_pair_dual_reciprocity_consolidation_2026-08-19/AUDIT_REPORT.md": true,
+      "udt_g179_complete_coframe_pair_pullback_extension_2026-08-19/AUDIT_REPORT.md": true,
+      "udt_g213_determinant_one_spatial_remainder_and_completed_rank_closure_2026-08-22/AUDIT_REPORT.md": true,
+      "udt_g215_completed_scalar_shared_clock_incidence_descent_2026-08-22/AUDIT_REPORT.md": true,
+      "udt_g274_projective_pair_position_network_descent_2026-08-26/AUDIT_REPORT.md": true,
+      "udt_gr_filter_reconciliation_2026-09-09/AUTHORITY_RECORD.md": true,
+      "udt_native_angular_premise_audit_2026-09-13/REVIEWED_RESULT.md": true,
+      ".claude/skills/solver-first/SKILL.md": true,
+      "udt_g231_cartan_regional_realization_bridge_2026-08-23/AUDIT_REPORT.md": true,
+      "udt_g231_cartan_regional_realization_bridge_2026-08-23/EXACT_DERIVATION.md": true,
+      "udt_g130_copresence_rank_complete_network_ownership_2026-08-16/AUDIT_REPORT.md": true,
+      "udt_g299_complete_relation_kernel_domain_ownership_2026-08-29/AUDIT_REPORT.md": true,
+      "udt_g288_smooth_center_micro_regime_jet_interlock_2026-08-28/AUDIT_REPORT.md": true,
+      "udt_g288_smooth_center_micro_regime_jet_interlock_2026-08-28/EXACT_DERIVATION.md": true,
+      "udt_g311_universal_reciprocity_full_covariant_response_2026-09-01/EXACT_DERIVATION.md": true,
+      "udt_g201_primary_metric_phi_jet_regime_amplitude_2026-08-21/AUDIT_REPORT.md": true,
+      "udt_g273_projective_pair_distance_foundational_ownership_2026-08-26/AUDIT_REPORT.md": true,
+      "udt_g271_primary_metric_null_screen_first_jet_interlock_2026-08-26/AUDIT_REPORT.md": true,
+      "udt_g272_complete_relation_rapidity_distance_ownership_2026-08-26/EXACT_DERIVATION.md": true,
+      "udt_g255_g165_g254_lost_closure_recovery_audit_2026-08-24/AUDIT_REPORT.md": true,
+      "udt_local_kernel_symmetry_release_2026-09-13/capture.py": true,
+      "udt_shared_readout_metric_constraint_campaign_2026-09-06/run_capture.py": true
+    },
+    "fixed_pins": {
+      "LIVE.md": true,
+      "HANDOFF.md": true,
+      "CURRENT_RESEARCH_PROGRAM.md": true,
+      "CURRENT_SCIENTIFIC_PREMISES.md": true,
+      "CURRENT_SCIENTIFIC_PREMISES.tsv": true,
+      "CANON.md": true,
+      "UDT_METRIC_KERNEL_DEVELOPMENT.md": true,
+      "UDT_METRIC_KERNEL_COVERAGE.tsv": true,
+      "UDT_CONSOLIDATED_RESEARCH_ACCOUNT.md": true
+    },
+    "reviewed_seven": {
+      "udt_positional_joint_compatibility_2026-09-14/CANDIDATE.md": true,
+      "udt_positional_joint_compatibility_2026-09-14/DECISION_BRIEF.md": true,
+      "udt_positional_joint_compatibility_2026-09-14/DEPENDENCY_IMPACT.tsv": true,
+      "UDT_RESEARCH_ROADMAP.md": true,
+      "udt_native_theory_research_plan_2026-09-13/PLAN.md": true,
+      "INDEX.md": true,
+      "MEMORY.md": true
+    }
+  },
+  "initial_snapshots_match": true,
+  "parent_regression_named_results_match": true,
+  "scientific_slot_released_utc": "2026-09-14T00:20:32+00:00",
+  "independent_capture": {
+    "command": [
+      "python3",
+      "udt_positional_joint_compatibility_2026-09-14/review/check_independent.py"
+    ],
+    "cwd": "/home/udt-admin/udt_mass_codex",
+    "started_utc": "2026-09-14T00:20:22.004547+00:00",
+    "duration_seconds": 0.02473452500998974,
+    "returncode": 0,
+    "timeout": false,
+    "address_space_bytes": 2147483648,
+    "cpu_seconds": 120,
+    "maxrss_kib": 15716
+  },
+  "parent_replay_capture": {
+    "command": [
+      "python3",
+      "udt_positional_joint_compatibility_2026-09-14/replay_interlock.py"
+    ],
+    "cwd": "/home/udt-admin/udt_mass_codex",
+    "started_utc": "2026-09-14T00:20:32.435681+00:00",
+    "duration_seconds": 0.3114963830448687,
+    "returncode": 0,
+    "timeout": false,
+    "address_space_bytes": 2147483648,
+    "cpu_seconds": 120,
+    "maxrss_kib": 51128
+  },
+  "full406": "actual saved PASS stdout and exit0 process record inspected; parent execution attributed, not rerun by reviewer",
+  "exposure": "target/knownidentity dispatched; source-first argument before candidate; code/check implementation after candidate/code/results exposure; no challenger report/code/results read",
+  "verdict": "VERIFIED-WITH-CAVEATS_SOURCE_RECOVERY_AND_BOUNDED_FAILED_ENTAILMENT",
+  "maintained_verdict": "FIDELITY_REVIEWED_WITH_SOURCE_LIMITS",
+  "open_science": "no native field law/admission, physical response identification or complete all-UDT no-go established",
+  "actual_writes": "review/ only; no git mutation, protected payload read, GPU or subdelegation",
+  "commands": [
+    "git diff 0b84057f6030afd5aaf516bce859b9934d06171f -- UDT_RESEARCH_ROADMAP.md udt_native_theory_research_plan_2026-09-13/PLAN.md INDEX.md MEMORY.md",
+    "git diff --check"
+  ],
+  "final_review_sha256": "fcb0cef9c120d72fc8f874af8f4821a0c4aedf0b916a3dff2a1857b4fb836ab5",
+  "maintained_review_sha256": "9f339becc860b240d9704d1fb143eb23071df43fa531e6d245c82243c1ee9c40"
+}

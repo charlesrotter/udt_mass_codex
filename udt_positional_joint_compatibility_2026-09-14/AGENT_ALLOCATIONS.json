@@ -1,0 +1,44 @@
+{
+  "recorded_utc": "2026-09-14T00:28:01.665503+00:00",
+  "parent_launch_utc": "2026-09-14T00:02:54.045177+00:00",
+  "contexts_allocated": 2,
+  "allocation_failures": 0,
+  "subdelegations": 0,
+  "allocation_timestamp_limit": "Tool allocation timestamps were not instrumented; durations below use observed first clock and saved record completion, not asserted exact spawn lifetime.",
+  "contexts": [
+    {
+      "agent": "/root/pjc1_source_challenger",
+      "fresh_context": true,
+      "first_clock_utc": "2026-09-14T00:05:35+00:00",
+      "completion_utc": "2026-09-14T00:16:15+00:00",
+      "observed_seconds": 640,
+      "ceiling_seconds": 900,
+      "task": "source-first read-only scientific challenge; documentary writes in challenge/",
+      "scientific_production": false
+    },
+    {
+      "agent": "/root/pjc1_adversarial_review",
+      "fresh_context": true,
+      "first_clock_utc": "2026-09-14T00:15:32+00:00",
+      "initial_review_completion_utc": "2026-09-14T00:24:49.396256+00:00",
+      "initial_review_seconds": 557.396256,
+      "metadata_repair_completion_utc": "2026-09-14T00:27:16.536005+00:00",
+      "observed_envelope_seconds_including_idle_and_repair": 704.536005,
+      "ceiling_seconds": 1800,
+      "followup": "same-context documentary release-timestamp correction only; no new allocation or science rerun"
+    }
+  ],
+  "two_child_observed_intervals_overlap_seconds": 43,
+  "overlap_interval_utc": [
+    "2026-09-14T00:15:32+00:00",
+    "2026-09-14T00:16:15+00:00"
+  ],
+  "parent_overlap": "Both child observed intervals lie inside the active parent task interval; wall overlap is not proof of simultaneous CPU sampling.",
+  "source_challenge_parent_full406_overlap_seconds": 243.401912,
+  "reviewer_last_scientific_capture_end_utc": "2026-09-14T00:20:32.747177383+00:00",
+  "scientific_process_overlap": "No parent scientific calculation overlapped reviewer calculations; source challenger ran no scientific calculation.",
+  "configured_model": "gpt-6-astra/xhigh attributed from continuing-session record, not resampled",
+  "runtime_model": "UNATTESTED",
+  "different_model_independence": "UNTESTED",
+  "capacity_conclusion": "Two successful fresh contexts in this bounded work order only; no inference of generally restored capacity."
+}

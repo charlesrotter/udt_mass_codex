@@ -1,0 +1,10 @@
+{
+  "utc": "2026-09-14T00:14:40.272482+00:00",
+  "files": {
+    "CANDIDATE.md": "6d51a4935599b7a0ec9659c3cec66835d223d25eb8d00811cf756b4b17e65d49",
+    "CHECK_PLAN.md": "c249ca90773ab8da2018e8910614f6ee50910674ba4d4df5090fe968e65bfaba",
+    "GATE_RECORD.md": "40043a843eb3da6f224b75cfb9579eeb1cc92b9e5aad28ce7f3427eeb5c55752",
+    "replay_interlock.py": "1910985a2d42f789c974770a6b2328cb065f9dc65f3adce9e304253ddb492b90"
+  },
+  "prior_exposure": "source formulas and planned diagnostic outcomes known; mathematics discovered/recovered before freeze; no outcome-blind claim"
+}
