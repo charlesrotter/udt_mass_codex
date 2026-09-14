@@ -1,0 +1,9 @@
+{
+  "utc": "2026-09-14T19:01:33.346129+00:00",
+  "files": {
+    "udt_directional_clock_release_2026-09-14/INITIAL_CANDIDATE.md": "8cf60de7f15a57e370270fe578bd2bc85a117b511ef6177397b1e412206cbaf8",
+    "udt_directional_clock_release_2026-09-14/CHECK_PLAN.md": "c347191986b9c2c05251cf6bd986f4174f20e800992c7ee7f9e425298a3f3cee",
+    "udt_directional_clock_release_2026-09-14/check_exact.py": "3108e88e84502303d691e41f3899ae1a0b7fa38b75a926f8e70adcf042a1c3d4"
+  },
+  "exposure": "Reviewer preliminary source-first formulas received before parent written candidate; no parent scientific run yet. Source-first reviewer memo frozen before candidate invitation."
+}

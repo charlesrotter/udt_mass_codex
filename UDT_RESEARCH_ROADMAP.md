@@ -14,6 +14,33 @@ Current acceptance overlay: earlier UNPROMOTED/campaign-only language below reco
 returns. The G383--G412, G413--G415 and G416--G423 banking packets and maintained checkpoint own later dispositions;
 original result packages remain unchanged. No physical adoption or canon is included.
 
+## Directional clock release — DCR1, 2026-09-14 UTC
+
+Charles authorized the two-hour expansion with exact checks, one fresh adversarial
+review and bounded repair. Current candidate and lay return:
+`udt_directional_clock_release_2026-09-14/CANDIDATE.md` and DECISION_BRIEF.md;
+actual final review, checks and publication are owned by its CLOSEOUT.md.
+This is a conditional mathematical candidate, UNPROMOTED; no physical adoption.
+
+Releasing only radial/isotropic clock dependence in the supplied static,
+analytic-even, strongly radial-reciprocal, exactly areal class gives the full
+marked second jet gamma=I-c xx^T-(x^T K x)I+C(x)^T S C(x)+O(r^4), with
+f=1+x^T(cI+K)x+O(r^4) and K,S symmetric tracefree. Every such geometric jet has
+an exact positive local analytic realization preserving the retained conditions.
+The eleven marked coefficients are not physical modes or a neighborhood solution.
+
+Within full G301 and its declared curvature domain, the conditional all-pair
+DDR center test still gives S=0. The electric Weyl tensor is K+3S/2, so S=0
+does not force central quietness after K is released. All central null-screen
+tides vanish iff K=S=0 in this stated class. NAP1's original K=0 result survives;
+generic Einstein/Weyl freedom is prior mathematics, not a new UDT discovery.
+
+Changing K changes the complete clock/ruler/angular relation; no independent
+distance is held fixed while its defining metric effects vary. G312 membership
+and native admission remain OPEN, FE1 UNADOPTED. Exact local metric realization
+does not prove a field equation on a neighborhood, time evolution or physical
+predictions. No promotion or automatic successor; return for discussion.
+
 ## Finite-separation reciprocity check — FSR1, 2026-09-14 UTC
 
 Charles authorized a two-hour finite-separation investigation with a thirty-minute

@@ -1,0 +1,22 @@
+{
+  "UDT_RESEARCH_ROADMAP.md": {
+    "saved_baseline_equals_HEAD": true,
+    "baseline_sha256": "5535d11185440c50f006dc64c51f6ccf6ab04cf506bf9d1d4f29a33da421c5a8",
+    "current_sha256": "a0c8ab2736c8e14580c69e4c9523932374cf4257d666af881be6d4da0f071aa4"
+  },
+  "udt_native_theory_research_plan_2026-09-13/PLAN.md": {
+    "saved_baseline_equals_HEAD": true,
+    "baseline_sha256": "8b09d352f62a11ef246d9bdc09d7d674982162570f874c30dbbf9c4b3bef72cf",
+    "current_sha256": "5a718b0765951f97d2fcbdecf872d505557611f98524bc0e09888c1db64b5a5f"
+  },
+  "INDEX.md": {
+    "saved_baseline_equals_HEAD": true,
+    "baseline_sha256": "433bd27c76f84a4ae643f3f9b31e69226fc42a5111a1c64727fdb868720cbc27",
+    "current_sha256": "50e37feb4a4862b51399716eae4a0d6d8ba915712eeba652fb2e5a1cd2bd4883"
+  },
+  "MEMORY.md": {
+    "saved_baseline_equals_HEAD": true,
+    "baseline_sha256": "855dddd35f19da6add62ab6fcf63c2216f1b7301edeea68835ec468db1c261d5",
+    "current_sha256": "7605ef1f353cef58e49b4b82301b4c260faf0ba20a015669e45572543972644e"
+  }
+}

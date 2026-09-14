@@ -1,0 +1,28 @@
+{
+  "first_task_clock": "2026-09-14T18:52:30+00:00",
+  "reviewer": "/root/dcr1_adversarial_review",
+  "spawn_context": "fresh fork none",
+  "model_override": null,
+  "first_observed_reviewer_clock": "2026-09-14 18:56:48 UTC",
+  "review_sealed": "2026-09-14 19:08:47 UTC",
+  "review_seconds": 719,
+  "budget_seconds": 2400,
+  "full406_overlap_seconds": 372.84385,
+  "scientific_process_overlap": false,
+  "scientific_checks": [
+    "checks/full406",
+    "checks/parent_exact",
+    "review/independent_run",
+    "checks/navigation"
+  ],
+  "runtime_model": "UNATTESTED",
+  "different_model": "UNTESTED",
+  "human_specialist": "UNTESTED",
+  "capacity": "one useful actual allocation; no restored general capacity inference",
+  "review_record_sha256": "1b29598c9f3841b2d0257809b737769a72367ef04ff13ba783c618d6a70e9fea",
+  "initial_review_record_sha256": "798772eee0576310b7a0953a985f26c161eb881f5c01b0a9d4678a3bcadb70a2",
+  "documentary_followup_seconds": 116.366495,
+  "final_reviewer_seal": "2026-09-14T19:15:57.366495+00:00",
+  "total_observed_reviewer_envelope_seconds": 1149.366495,
+  "scientific_plus_documentary_observed_seconds": 835.366495
+}

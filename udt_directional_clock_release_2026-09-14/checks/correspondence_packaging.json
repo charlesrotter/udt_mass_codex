@@ -1,0 +1,14 @@
+{
+  "command": [
+    "python3",
+    "udt_directional_clock_release_2026-09-14/verify_correspondence.py"
+  ],
+  "cwd": "/home/udt-admin/udt_mass_codex",
+  "started_utc": "2026-09-14T19:16:43.902965+00:00",
+  "duration_seconds": 0.08136603503953665,
+  "returncode": 0,
+  "timeout": false,
+  "address_space_bytes": 2147483648,
+  "cpu_seconds": 120,
+  "maxrss_kib": 16904
+}

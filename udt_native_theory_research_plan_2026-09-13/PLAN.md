@@ -22,6 +22,15 @@ or field equation followed. The reciprocal squeeze and unit-frame transport have
 an exact basis correspondence, but their physical actions are not thereby identified.
 Exact arguments, review and the early stop are in FSR1;
 the same local-versus-finite hunt is not an automatic next task.
+DCR1 subsequently executed the separately authorized directional-clock release:
+`../udt_directional_clock_release_2026-09-14/CANDIDATE.md` and DECISION_BRIEF.md;
+its CLOSEOUT owns actual review/check/publication status. It extends the supplied
+static reciprocal-areal second-jet class, with exact local geometric realization.
+Under full G301 at an eligible center, S=0 survives but released clock anisotropy
+K can carry nonzero Weyl/tide. K=S=0 is required for all central null-screen
+quietness in this class. These are conditional mathematical statements, not a
+native field equation or neighborhood PDE solution. NAP1 at K=0 remains valid.
+Do not resume a field-equation hunt or wider release automatically from DCR1.
 The original planning snapshot is preserved in Git and PLANNING_SNAPSHOT.json;
 TC0 executed separately and stopped at its novelty gate. Current direction here
 supersedes the original derive-only next-step restriction. It authorizes no

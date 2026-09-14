@@ -1,0 +1,57 @@
+{
+  "status": "PASS",
+  "python": "3.10.12",
+  "sympy": "1.13.1",
+  "script_sha256": "3108e88e84502303d691e41f3899ae1a0b7fa38b75a926f8e70adcf042a1c3d4",
+  "checks": [
+    "strong_radial_quadratic",
+    "old_class_recovered_at_K_zero",
+    "leading_area_trace_relation",
+    "full_density_quadratic",
+    "original_metric_Ricci",
+    "scalar_curvature",
+    "tracefree_Ricci",
+    "clock_curvature",
+    "all_spatial_Riemann_components",
+    "electric_Weyl",
+    "magnetic_Weyl_zero",
+    "full_Weyl_contraction",
+    "conditional_response_TF",
+    "permitted_trace",
+    "response_map_rank_5",
+    "surviving_electric_map_rank_5",
+    "general_coefficients_screen_00",
+    "general_coefficients_screen_01",
+    "general_coefficients_screen_10",
+    "general_coefficients_screen_11",
+    "screen_trace",
+    "witness_Ricci_zero",
+    "witness_Weyl_squared",
+    "witness_tide_positive",
+    "witness_tide_negative",
+    "hostile_omitted_spatial_clock_coupling_detected",
+    "hostile_omitted_lapse_curvature_detected",
+    "hostile_S_zero_implies_quiet_detected",
+    "hostile_DDR_means_E_zero_detected",
+    "hostile_area_trace_defect"
+  ],
+  "named_check_count": 30,
+  "parameter_count": 11,
+  "response_rank": 5,
+  "surviving_electric_rank": 5,
+  "witness": {
+    "Ricci": "zero at center only",
+    "Weyl_squared": 16,
+    "screen_diagonal": [
+      2,
+      -2
+    ]
+  },
+  "not_checked": [
+    "neighborhood Einstein PDE",
+    "physical admission",
+    "time evolution",
+    "empirical prediction"
+  ],
+  "scope": "exact symbolic second-jet checks; analytic class/converse proof reviewed separately"
+}

@@ -1,0 +1,79 @@
+{
+  "status": "PASS",
+  "utc": "2026-09-14T19:11:52.613975+00:00",
+  "fixed_pins": 12,
+  "source_pins": 13,
+  "selected_exact_rows": 8,
+  "review_manifest_entries_checked": 56,
+  "original_untracked_names": 51,
+  "package_bytes_before_this_capture": 293840,
+  "parent_named_checks": 30,
+  "independent_assertions": 13870,
+  "captures": {
+    "checks/full406": {
+      "command": [
+        "python3",
+        "verify_current_scientific_premises.py"
+      ],
+      "cwd": "/home/udt-admin/udt_mass_codex",
+      "started_utc": "2026-09-14T18:56:16.733245+00:00",
+      "duration_seconds": 404.11060517898295,
+      "returncode": 0,
+      "timeout": false,
+      "address_space_bytes": 2147483648,
+      "cpu_seconds": 900,
+      "maxrss_kib": 120192
+    },
+    "checks/parent_exact": {
+      "command": [
+        "python3",
+        "udt_directional_clock_release_2026-09-14/check_exact.py"
+      ],
+      "cwd": "/home/udt-admin/udt_mass_codex",
+      "started_utc": "2026-09-14T19:03:22.083849+00:00",
+      "duration_seconds": 0.3902986759785563,
+      "returncode": 0,
+      "timeout": false,
+      "address_space_bytes": 2147483648,
+      "cpu_seconds": 120,
+      "maxrss_kib": 49860
+    },
+    "review/independent_run": {
+      "command": [
+        "python3",
+        "udt_directional_clock_release_2026-09-14/review/independent_check.py"
+      ],
+      "cwd": "/home/udt-admin/udt_mass_codex",
+      "started_utc": "2026-09-14T19:04:01.692255+00:00",
+      "duration_seconds": 0.111987101030536,
+      "returncode": 0,
+      "timeout": false,
+      "address_space_bytes": 2147483648,
+      "cpu_seconds": 120,
+      "maxrss_kib": 12672
+    },
+    "checks/navigation": {
+      "command": [
+        "python3",
+        "-m",
+        "pytest",
+        "--noconftest",
+        "-q",
+        "-p",
+        "no:cacheprovider",
+        "tests/test_startup_surface.py",
+        "-k",
+        "not full_foundational_premise_verifier_is_in_pytest"
+      ],
+      "cwd": "/home/udt-admin/udt_mass_codex",
+      "started_utc": "2026-09-14T19:06:23.671288+00:00",
+      "duration_seconds": 15.194845114951022,
+      "returncode": 0,
+      "timeout": false,
+      "address_space_bytes": 2147483648,
+      "cpu_seconds": 120,
+      "maxrss_kib": 53092
+    }
+  },
+  "scope": "hash correspondence, actual outputs and names-only preservation; not proof, review independence or chronology"
+}

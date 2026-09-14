@@ -1,0 +1,13 @@
+{
+  "utc": "2026-09-14T19:02:16.950802+00:00",
+  "gate_sha256": "7302a35d399caf085f846bb98e1bb467e2a2e9e39fe81f8a8bb0a4ff190281c2",
+  "decision": "CONTINUE_WITHIN_AUTHORIZED_CLASS",
+  "reviewer": "/root/dcr1_adversarial_review",
+  "reviewer_first_clock": "2026-09-14T18:56:48+00:00",
+  "reviewer_deadline": "2026-09-14T19:36:48+00:00",
+  "context": "fresh fork none",
+  "model_override": null,
+  "runtime_model": "UNATTESTED",
+  "different_model": "UNTESTED",
+  "science_process_slot": "parent full406 then parent exact then reviewer independent; sequential"
+}

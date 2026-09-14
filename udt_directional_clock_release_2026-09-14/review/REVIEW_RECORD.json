@@ -1,0 +1,56 @@
+{
+  "verdict": "VERIFIED-WITH-CAVEATS",
+  "scientific_status": "UNPROMOTED source-relative conditional mathematical candidate",
+  "reviewer_context": "/root/dcr1_adversarial_review",
+  "runtime_model": "UNATTESTED",
+  "different_model": "UNTESTED",
+  "human_specialist": "UNTESTED",
+  "first_clock_utc": "2026-09-14 18:56:48 UTC",
+  "review_sealed_utc": "2026-09-14 19:08:47 UTC",
+  "measured_seconds": 719,
+  "review_budget_seconds": 2400,
+  "review_sha256": "3104620ed79caed471e7752791e9e57ac516d06801c140d76e05b8b5975acb50",
+  "direct_review_sha256": "a6f58bebd3c5946b6662988830f925335149444eb6a5974ab72ebe9ee66c46f8",
+  "final_candidate_sha256": "dfd1327216f6014180d037522fd53dfee73c110ced2dce288ff5695ce846b967",
+  "final_presentation_manifest": "FINAL_PINS.sha256",
+  "final_presentation_manifest_sha256": "f0a4b0526b0db7acc499d96cd5a60ecf147de115edfe9c959387e66c819aa189",
+  "r1": "ACCEPTED domain qualification; equations and scientific code unchanged",
+  "independent_check": {
+    "status": "PASS",
+    "assertions": 13870,
+    "parameter_cases": 14,
+    "transverse_rank": 30,
+    "transverse_nullity": 6,
+    "area_augmented_rank": 31,
+    "response_rank": 5,
+    "hostile_claim_controls": 4,
+    "seconds": 0.111987101030536,
+    "maxrss_kib": 12672,
+    "script_sha256": "6652d14406d4a43957480d4b89189ecc999b32d15ce278b6780b5cacc1e8ac23"
+  },
+  "parent_results_independently_inspected": {
+    "exact_named_checks": 30,
+    "full406": "PASS",
+    "navigation": {
+      "passed": 359,
+      "deselected": 1
+    }
+  },
+  "publication": "NOT REVIEWED YET; parent owns exact commit/push verification",
+  "exposure": "Source-first with qualitative work-order exposure. Reviewer code frozen before candidate read; candidate read before reviewer execution; parent code/output read after reviewer execution.",
+  "no_scientific_successor": true,
+  "packaging_reseal": {
+    "utc": "2026-09-14T19:15:57.366495+00:00",
+    "original_review_seconds": 719,
+    "documentary_seconds_to_reseal": 116.366495,
+    "wall_seconds_since_first_review_clock": 1149.366495,
+    "original_evidence_snapshot": "udt_directional_clock_release_2026-09-14/PACKAGING_INITIAL.json",
+    "snapshot_sha256": "cb4a84b567087c39d7c9aa5a083dd7bf6db9f6aa7af2e347fdd2a52a25cb3c02",
+    "original_review_sha256": "c27b9336f061b3c5e1961d1c802bbf5881497bf78ff2d6236a23e562df0fd30c",
+    "original_record_sha256": "798772eee0576310b7a0953a985f26c161eb881f5c01b0a9d4678a3bcadb70a2",
+    "original_manifest_sha256": "0ca7bcb61de55d063265e4cf5d8b41fc0e01e8e9c3e5d456713b9d9e50504a46",
+    "change": "Remove one surplus trailing newline in REVIEW.md; update review hash and this documentary reseal metadata in REVIEW_RECORD.json; one final newline per file; regenerate correspondence manifest.",
+    "science": "UNCHANGED; no scientific rerun, new scientific review, equation change, input change or verdict change",
+    "final_eight_presentations": "UNCHANGED"
+  }
+}
