@@ -18,9 +18,8 @@ specific new source assertion or deductive step beyond the recorded stop.
 FSR1 checked the proposed finite-separation route on2026-09-14UTC:
 `../udt_finite_separation_reciprocity_2026-09-14/DECISION_BRIEF.md`.
 Finite inverse/composition was already present; no extra neighborhood condition
-or field equation followed. The reciprocal squeeze and unit-frame transport have
-an exact basis correspondence, but their physical actions are not thereby identified.
-Exact arguments, review and the early stop are in FSR1;
+or field equation followed. The reciprocal squeeze and unit-frame transport are
+different operations. Exact arguments, review and the early stop are in FSR1;
 the same local-versus-finite hunt is not an automatic next task.
 The original planning snapshot is preserved in Git and PLANNING_SNAPSHOT.json;
 TC0 executed separately and stopped at its novelty gate. Current direction here
@@ -144,7 +143,7 @@ identities does not meet T1's next-result gate. The equations constrain independ
 readout proposals but do not select a profile when readouts are computed from it.
 FSR1 also checked the finite counterpart: G215 scalar cycles and G274 full-path
 inversion/concatenation do not supply physical neighborhood matching. Keep the
-typed actions of D and Lambda distinct while retaining their basis correspondence. No event-moving
+finite squeeze D and Lorentz frame arrow Lambda distinct. No event-moving
 isometry, full path independence or finite response invariance may be silently
 added to reopen that gate.
 

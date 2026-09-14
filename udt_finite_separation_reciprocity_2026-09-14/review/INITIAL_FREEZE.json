@@ -1,0 +1,13 @@
+{
+  "utc": "2026-09-14T00:59:19.639537+00:00",
+  "files": {
+    "udt_finite_separation_reciprocity_2026-09-14/CANDIDATE.md": "685b1c4cff2969b94447bec32bfd81d3d613889525dec7b4ad821e599a8956d1",
+    "udt_finite_separation_reciprocity_2026-09-14/DECISION_BRIEF.md": "a363a6fa67facf2d45dd489b29db1cce7da92212024a5322a02552f1a8e60d7a",
+    "udt_finite_separation_reciprocity_2026-09-14/DEPENDENCY_IMPACT.tsv": "e6e1ab86e613cea5deb240da9e282f4b87f82b87b80e46f747cc306c8e1e8786",
+    "UDT_RESEARCH_ROADMAP.md": "5a051bb3cc81b35739e16ecc93c44192859e7f4337f728648433aedd0f703c1e",
+    "udt_native_theory_research_plan_2026-09-13/PLAN.md": "33f06e63cdf743bc30dfae8123dcfbc3647023c74cee00629333bd44e6e7f7c9",
+    "INDEX.md": "433bd27c76f84a4ae643f3f9b31e69226fc42a5111a1c64727fdb868720cbc27",
+    "MEMORY.md": "855dddd35f19da6add62ab6fcf63c2216f1b7301edeea68835ec468db1c261d5"
+  },
+  "stage": "initial seven-file submission; first science candidate unchanged since CHECK_FREEZE"
+}

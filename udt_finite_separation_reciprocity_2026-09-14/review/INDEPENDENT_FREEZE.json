@@ -1,0 +1,12 @@
+{
+  "utc": "2026-09-14T01:00:42.168961+00:00",
+  "stage": "before independent scientific execution; candidate and parent code exposed",
+  "files": {
+    "CANDIDATE.md": "685b1c4cff2969b94447bec32bfd81d3d613889525dec7b4ad821e599a8956d1",
+    "CHECK_PLAN.md": "72958b6d3341690a74dc785585c132b072d669631ff9d9bf4c5db6e26afcc0ca",
+    "replay_finite.py": "2ac61a8ce48abaef8c9b4eef79c670d7466bedc43c68af9fc4baa0aa55d4be96",
+    "review/check_independent.py": "6dfed92b10e0856f0c76795e85a80a9761ce570912ef53af60c1eb78f04fd72e",
+    "review/SOURCE_FIRST.md": "ff6cbc147fe8523bff677fcd8d0010d1f33a92a0c3b8110b4e9ddca5b3ba9a70",
+    "review/EXPOSURE_LOG.md": "437a45a48662c0c805b530eca7d6016f51a0c39ca5614b92d8a9906c68d883d3"
+  }
+}

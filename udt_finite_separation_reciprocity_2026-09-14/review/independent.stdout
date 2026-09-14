@@ -1,0 +1,235 @@
+{
+  "status": "PASS_INDEPENDENT_EXACT_FINITE_ALGEBRA_ONLY",
+  "utc": "2026-09-14T01:00:42.383429+00:00",
+  "python": "3.10.12 (main, Aug 31 2026, 10:18:17) [GCC 11.4.0]",
+  "platform": "Linux-6.8.0-138-generic-x86_64-with-glibc2.35",
+  "script_sha256": "6dfed92b10e0856f0c76795e85a80a9761ce570912ef53af60c1eb78f04fd72e",
+  "method": "standard-library Fraction matrices; generic Gaussian inversion; elementary-arrow products and recovered canonical carry",
+  "parent_code_exposure": "read before implementation; no parent scientific imports or SymPy use",
+  "arrow_cases": [
+    {
+      "label": "identity",
+      "forward": [
+        "0",
+        "0",
+        "0"
+      ],
+      "reverse": [
+        "0",
+        "0",
+        "0"
+      ],
+      "gamma": "1",
+      "omit_carry_defect": [
+        "0",
+        "0",
+        "0"
+      ]
+    },
+    {
+      "label": "zero_vector_rotated",
+      "forward": [
+        "0",
+        "0",
+        "0"
+      ],
+      "reverse": [
+        "0",
+        "0",
+        "0"
+      ],
+      "gamma": "1",
+      "omit_carry_defect": [
+        "0",
+        "0",
+        "0"
+      ]
+    },
+    {
+      "label": "radial",
+      "forward": [
+        "3/5",
+        "0",
+        "0"
+      ],
+      "reverse": [
+        "-3/5",
+        "0",
+        "0"
+      ],
+      "gamma": "5/4",
+      "omit_carry_defect": [
+        "0",
+        "0",
+        "0"
+      ]
+    },
+    {
+      "label": "radial_with_rotated_axes",
+      "forward": [
+        "3/5",
+        "0",
+        "0"
+      ],
+      "reverse": [
+        "0",
+        "3/5",
+        "0"
+      ],
+      "gamma": "5/4",
+      "omit_carry_defect": [
+        "3/5",
+        "3/5",
+        "0"
+      ]
+    },
+    {
+      "label": "noncollinear_xy",
+      "forward": [
+        "36/65",
+        "5/13",
+        "0"
+      ],
+      "reverse": [
+        "-3/5",
+        "-4/13",
+        "0"
+      ],
+      "gamma": "65/48",
+      "omit_carry_defect": [
+        "-3/65",
+        "1/13",
+        "0"
+      ]
+    },
+    {
+      "label": "all_axes_boosted",
+      "forward": [
+        "108/221",
+        "75/221",
+        "-8/17"
+      ],
+      "reverse": [
+        "-3/5",
+        "-4/13",
+        "384/1105"
+      ],
+      "gamma": "221/144",
+      "omit_carry_defect": [
+        "-123/1105",
+        "7/221",
+        "-8/65"
+      ]
+    },
+    {
+      "label": "all_axes_and_rotations",
+      "forward": [
+        "95/329",
+        "22476/55601",
+        "1680/7943"
+      ],
+      "reverse": [
+        "-1620/4277",
+        "-5/13",
+        "-48/4277"
+      ],
+      "gamma": "4277/3600",
+      "omit_carry_defect": [
+        "-55/611",
+        "1091/55601",
+        "11136/55601"
+      ]
+    },
+    {
+      "label": "reversed_product",
+      "forward": [
+        "-1620/4277",
+        "-5/13",
+        "-48/4277"
+      ],
+      "reverse": [
+        "95/329",
+        "22476/55601",
+        "1680/7943"
+      ],
+      "gamma": "4277/3600",
+      "omit_carry_defect": [
+        "-55/611",
+        "1091/55601",
+        "11136/55601"
+      ]
+    }
+  ],
+  "ordered_products_checked": 64,
+  "wrong_inverse_order_rejected_cases": 40,
+  "squeeze_cases": [
+    {
+      "scale": "1",
+      "transformed_eta": [
+        [
+          "-1",
+          "0"
+        ],
+        [
+          "0",
+          "1"
+        ]
+      ]
+    },
+    {
+      "scale": "2",
+      "transformed_eta": [
+        [
+          "-1/4",
+          "0"
+        ],
+        [
+          "0",
+          "4"
+        ]
+      ]
+    },
+    {
+      "scale": "2/3",
+      "transformed_eta": [
+        [
+          "-9/4",
+          "0"
+        ],
+        [
+          "0",
+          "4/9"
+        ]
+      ]
+    },
+    {
+      "scale": "7/4",
+      "transformed_eta": [
+        [
+          "-16/49",
+          "0"
+        ],
+        [
+          "0",
+          "49/16"
+        ]
+      ]
+    }
+  ],
+  "DDR_tangent": [
+    [
+      "2",
+      "0"
+    ],
+    [
+      "0",
+      "2"
+    ]
+  ],
+  "hostile_controls": {
+    "drop_carry": "REJECTED",
+    "wrong_inverse_order": "REJECTED",
+    "pretend_squeeze_preserves_eta": "REJECTED"
+  },
+  "scope": "exact selected algebraic diagnostics, supplementing the analytic general argument; no geometry, physical admission or response-law selection"
+}

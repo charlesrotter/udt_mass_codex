@@ -27,8 +27,7 @@ explicit canonical-frame consequence is pi(Lambda^-1)=-R^-1 v when
 Lambda=B(v)diag(1,R). It preserves the reversal magnitude and requires frame
 carry. This is source algebra, not a new native metric restriction. F2's squeeze
 D preserves its clock/ruler conversion form K, whereas the unit-frame arrow
-Lambda preserves eta. A change of basis relates the representations exactly;
-it does not alone identify their physical channel actions or a neighborhood law.
+Lambda preserves eta; identifying these operations would add an unjustified step.
 
 The examined sources do not promote observer exchange into an event-moving
 neighborhood isometry, universal recentering, full path independence or finite

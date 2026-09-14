@@ -1,0 +1,18 @@
+{
+  "utc": "2026-09-14T01:07:16.081001+00:00",
+  "files": {
+    "udt_finite_separation_reciprocity_2026-09-14/CANDIDATE.md": "195772489fe683f2a863e9d3af10143dc44b3a0555592d8c44f0f4262f7e87e7",
+    "udt_finite_separation_reciprocity_2026-09-14/DECISION_BRIEF.md": "92345b2a9ba81f82cc5f581a6e1462b493194146823738bdae31ce82017f5168",
+    "udt_finite_separation_reciprocity_2026-09-14/DEPENDENCY_IMPACT.tsv": "e6e1ab86e613cea5deb240da9e282f4b87f82b87b80e46f747cc306c8e1e8786",
+    "UDT_RESEARCH_ROADMAP.md": "5535d11185440c50f006dc64c51f6ccf6ab04cf506bf9d1d4f29a33da421c5a8",
+    "udt_native_theory_research_plan_2026-09-13/PLAN.md": "8b09d352f62a11ef246d9bdc09d7d674982162570f874c30dbbf9c4b3bef72cf",
+    "INDEX.md": "433bd27c76f84a4ae643f3f9b31e69226fc42a5111a1c64727fdb868720cbc27",
+    "MEMORY.md": "855dddd35f19da6add62ab6fcf63c2216f1b7301edeea68835ec468db1c261d5"
+  },
+  "repair": "explicit basis correspondence; no physical operation/neighborhood identification or new field law",
+  "check_files": {
+    "CHECK_PLAN.md": "e3764799b475b810e7e1a7dee5f2ccf6dd77011c6b5b89abd4d6c6829d9617d9",
+    "replay_finite.py": "f20089f62fff6bdff87593ca6f26e68c3571be8b918393ea5ffe3380d1c60620",
+    "BASIS_REPAIR_PLAN.md": "098b9a63dd017effc82b1de98646594c920327ffbba5b6a51d9da54135a45062"
+  }
+}

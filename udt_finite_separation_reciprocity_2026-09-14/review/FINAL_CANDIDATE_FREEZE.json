@@ -1,0 +1,14 @@
+{
+  "utc": "2026-09-14T01:12:11.803289+00:00",
+  "owner": "parent post-review correspondence seal; exact reviewed bytes unchanged",
+  "review_record_sha256": "f14ed6ab09d9079a7774c114ae064ccb4c16b45b56285a8b584859fd4941260a",
+  "files": {
+    "udt_finite_separation_reciprocity_2026-09-14/CANDIDATE.md": "195772489fe683f2a863e9d3af10143dc44b3a0555592d8c44f0f4262f7e87e7",
+    "udt_finite_separation_reciprocity_2026-09-14/DECISION_BRIEF.md": "92345b2a9ba81f82cc5f581a6e1462b493194146823738bdae31ce82017f5168",
+    "udt_finite_separation_reciprocity_2026-09-14/DEPENDENCY_IMPACT.tsv": "e6e1ab86e613cea5deb240da9e282f4b87f82b87b80e46f747cc306c8e1e8786",
+    "UDT_RESEARCH_ROADMAP.md": "5535d11185440c50f006dc64c51f6ccf6ab04cf506bf9d1d4f29a33da421c5a8",
+    "udt_native_theory_research_plan_2026-09-13/PLAN.md": "8b09d352f62a11ef246d9bdc09d7d674982162570f874c30dbbf9c4b3bef72cf",
+    "INDEX.md": "433bd27c76f84a4ae643f3f9b31e69226fc42a5111a1c64727fdb868720cbc27",
+    "MEMORY.md": "855dddd35f19da6add62ab6fcf63c2216f1b7301edeea68835ec468db1c261d5"
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "source_disk_baseline_pins": 26,
+  "tool_disk_baseline_pins": 4,
+  "fixed_disk_baseline_pins": 9,
+  "maintained_before_snapshots": 4,
+  "original_candidate_and_initial7_exact": true,
+  "final_reviewed_hashes": 7,
+  "whole_exact_registry_rows": 13,
+  "original_untracked_names": 51,
+  "original_untracked_name_sha256": "747cf3c497bfbdf7c373a2aa621be3cb241a61f7ef9f508c39bf64588ff70a60",
+  "tracked_change_scope": [
+    "INDEX.md",
+    "MEMORY.md",
+    "UDT_RESEARCH_ROADMAP.md",
+    "udt_native_theory_research_plan_2026-09-13/PLAN.md"
+  ],
+  "full406": {
+    "exit": 0,
+    "duration_seconds": 405.90482307609636
+  },
+  "finite": {
+    "exit": 0,
+    "duration_seconds": 0.24644278502091765
+  },
+  "finite_basis": {
+    "exit": 0,
+    "duration_seconds": 0.2895263530081138
+  },
+  "navigation": {
+    "exit": 0,
+    "duration_seconds": 15.18559087102767
+  },
+  "navigation_basis": {
+    "exit": 0,
+    "duration_seconds": 15.164085631957278
+  },
+  "initial_and_repaired_formula_evidence_preserved": true,
+  "symbolic_source_replay_script_correspondence": true,
+  "review_manifest_files": 29,
+  "review_actual_capture_script_correspondence": true,
+  "fresh_review_candidate_correspondence": true,
+  "result": "PASS_DOCUMENTARY_CORRESPONDENCE_ONLY",
+  "utc": "2026-09-14T01:12:12.063130+00:00",
+  "python": "3.10.12 (main, Aug 31 2026, 10:18:17) [GCC 11.4.0]",
+  "platform": "Linux-6.8.0-138-generic-x86_64-with-glibc2.35"
+}

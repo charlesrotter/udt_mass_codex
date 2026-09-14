@@ -1,0 +1,12 @@
+{
+  "utc": "2026-09-14T00:57:36.456338+00:00",
+  "files": {
+    "CANDIDATE.md": "685b1c4cff2969b94447bec32bfd81d3d613889525dec7b4ad821e599a8956d1",
+    "DECISION_BRIEF.md": "a363a6fa67facf2d45dd489b29db1cce7da92212024a5322a02552f1a8e60d7a",
+    "DEPENDENCY_IMPACT.tsv": "e6e1ab86e613cea5deb240da9e282f4b87f82b87b80e46f747cc306c8e1e8786",
+    "CHECK_PLAN.md": "72958b6d3341690a74dc785585c132b072d669631ff9d9bf4c5db6e26afcc0ca",
+    "replay_finite.py": "2ac61a8ce48abaef8c9b4eef79c670d7466bedc43c68af9fc4baa0aa55d4be96",
+    "GATE_RECORD.md": "5b9f13a20905a57761574461aaac7829008ec3f3a20ab8b90be39a9ad3e90f9a"
+  },
+  "stage": "before parent formula replay; reviewer preliminary source-first D/Lambda observation incorporated and exposed"
+}

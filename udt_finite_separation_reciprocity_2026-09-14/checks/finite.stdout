@@ -1,0 +1,85 @@
+{
+  "status": "PASS_SOURCE_FORMULA_DIAGNOSTICS_ONLY",
+  "utc": "2026-09-14T00:57:36.784792+00:00",
+  "python": "3.10.12 (main, Aug 31 2026, 10:18:17) [GCC 11.4.0]",
+  "sympy": "1.13.1",
+  "platform": "Linux-6.8.0-138-generic-x86_64-with-glibc2.35",
+  "script_sha256": "2ac61a8ce48abaef8c9b4eef79c670d7466bedc43c68af9fc4baa0aa55d4be96",
+  "symbolic_squeeze_eta_defect": [
+    [
+      "1 - 1/a**2",
+      "0"
+    ],
+    [
+      "0",
+      "a**2 - 1"
+    ]
+  ],
+  "squeeze_K_identity_and_DDR_tangent": "PASS",
+  "finite_reversal_cases": [
+    {
+      "label": "all_three_components_with_carry",
+      "forward": [
+        "19845/53222",
+        "14175/53222",
+        "11025/53222"
+      ],
+      "reverse": [
+        "-23247/53222",
+        "-95445/691886",
+        "-143577/691886"
+      ],
+      "gamma": "53222/46003",
+      "omitted_carry_defect": [
+        "-1701/26611",
+        "44415/345943",
+        "-126/345943"
+      ]
+    },
+    {
+      "label": "zero_vector_with_carry",
+      "forward": [
+        "0",
+        "0",
+        "0"
+      ],
+      "reverse": [
+        "0",
+        "0",
+        "0"
+      ],
+      "gamma": "1",
+      "omitted_carry_defect": [
+        "0",
+        "0",
+        "0"
+      ]
+    },
+    {
+      "label": "radial_without_carry",
+      "forward": [
+        "3/5",
+        "0",
+        "0"
+      ],
+      "reverse": [
+        "-3/5",
+        "0",
+        "0"
+      ],
+      "gamma": "5/4",
+      "omitted_carry_defect": [
+        "0",
+        "0",
+        "0"
+      ]
+    }
+  ],
+  "reverse_concatenation_order": "PASS",
+  "hostile_controls": {
+    "pretend_squeeze_preserves_eta": "REJECTED",
+    "drop_frame_carry": "REJECTED_ON_DECLARED_NONRADIAL_CASE",
+    "reverse_arrows_in_wrong_order": "REJECTED"
+  },
+  "scope": "Source algebra and selected exact controls; no curvature, native-admission, neighborhood-isometry or physical-evolution computation."
+}
