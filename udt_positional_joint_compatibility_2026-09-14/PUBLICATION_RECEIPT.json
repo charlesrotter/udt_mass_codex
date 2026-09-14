@@ -1,0 +1,311 @@
+{
+  "package": "udt_positional_joint_compatibility_2026-09-14",
+  "events": [
+    {
+      "utc": "2026-09-14T00:28:16.846415+00:00",
+      "command": [
+        "git",
+        "rev-parse",
+        "--abbrev-ref",
+        "HEAD"
+      ],
+      "exit": 0,
+      "stdout": "grok\n",
+      "stderr": ""
+    },
+    {
+      "utc": "2026-09-14T00:28:16.847933+00:00",
+      "command": [
+        "git",
+        "rev-parse",
+        "HEAD",
+        "origin/grok"
+      ],
+      "exit": 0,
+      "stdout": "0b84057f6030afd5aaf516bce859b9934d06171f\n0b84057f6030afd5aaf516bce859b9934d06171f\n",
+      "stderr": ""
+    },
+    {
+      "utc": "2026-09-14T00:28:16.849342+00:00",
+      "command": [
+        "git",
+        "diff",
+        "--cached",
+        "--name-only"
+      ],
+      "exit": 0,
+      "stdout": "",
+      "stderr": ""
+    },
+    {
+      "utc": "2026-09-14T00:28:16.856128+00:00",
+      "command": [
+        "git",
+        "diff",
+        "--name-only"
+      ],
+      "exit": 0,
+      "stdout": "INDEX.md\nMEMORY.md\nUDT_RESEARCH_ROADMAP.md\nudt_native_theory_research_plan_2026-09-13/PLAN.md\n",
+      "stderr": ""
+    },
+    {
+      "utc": "2026-09-14T00:28:16.863397+00:00",
+      "command": [
+        "git",
+        "status",
+        "--short",
+        "--untracked-files=all"
+      ],
+      "exit": 0,
+      "stdout": " M INDEX.md\n M MEMORY.md\n M UDT_RESEARCH_ROADMAP.md\n M udt_native_theory_research_plan_2026-09-13/PLAN.md\n?? 8_25/UDT_FOUNDING_VALUE_LAW_ANALYSIS.md\n?? 8_25/udt_extension_checks.py\n?? 8_25/udt_extension_minimality_response.md\n?? 8_25/udt_value_law_checks.py\n?? 8_25/udt_value_law_checks_llm1.py\n?? 8_25/udt_value_law_external_response.md\n?? UDT_Complete_Guardrails_and_Central_Science_Tracking.md\n?? UDT_Next_Step_After_Two_Stages.md\n?? UDT_Sequenced_Guardrails_and_Development_Work_Order.md\n?? udt_native_onshell_timelive_reset_owner_audit_2026-08-10/CANDIDATE_LAW_MAP.tsv\n?? udt_native_onshell_timelive_reset_owner_audit_2026-08-10/DERIVATION_RESULT.json\n?? udt_native_onshell_timelive_reset_owner_audit_2026-08-10/EQUATION_OWNERSHIP_ATLAS.tsv\n?? udt_native_onshell_timelive_reset_owner_audit_2026-08-10/SOURCE_SCOPE_CLARIFICATION.md\n?? udt_native_onshell_timelive_reset_owner_audit_2026-08-10/derive_owner_atlas.py\n?? udt_native_onshell_timelive_reset_owner_audit_2026-08-10/run_catch_proofs.py\n?? udt_native_onshell_timelive_reset_owner_audit_2026-08-10/verify_owner_independent.py\n?? udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/ADVERSARIAL_REVIEW_REQUEST.md\n?? udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/AUDIT_REPORT.md\n?? udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/CATCH_PROOF_RESULT.json\n?? udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/DERIVATION_RESULT.json\n?? udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/EVIDENCE_GATES.md\n?? udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/EXACT_DERIVATION.md\n?? udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/INDEPENDENT_VERIFICATION.json\n?? udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/LAY_REPORT.md\n?? udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/STATUS_LEDGER.tsv\n?? udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/VERIFICATION_RESULT.json\n?? udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/WITNESS_ATLAS.tsv\n?? udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/build_review_intake.py\n?? udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/derive_regime_flow.py\n?? udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/run_catch_proofs.py\n?? udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/verify_independent.py\n?? udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/verify_package.py\n?? udt_positional_joint_compatibility_2026-09-14/AGENT_ALLOCATIONS.json\n?? udt_positional_joint_compatibility_2026-09-14/CANDIDATE.md\n?? udt_positional_joint_compatibility_2026-09-14/CHECK_FREEZE.json\n?? udt_positional_joint_compatibility_2026-09-14/CHECK_PLAN.md\n?? udt_positional_joint_compatibility_2026-09-14/CLOSEOUT.md\n?? udt_positional_joint_compatibility_2026-09-14/DECISION_BRIEF.md\n?? udt_positional_joint_compatibility_2026-09-14/DEPENDENCY_IMPACT.tsv\n?? udt_positional_joint_compatibility_2026-09-14/FIXED_PINS.json\n?? udt_positional_joint_compatibility_2026-09-14/GATE_RECORD.md\n?? udt_positional_joint_compatibility_2026-09-14/LAUNCH.json\n?? udt_positional_joint_compatibility_2026-09-14/MAINTAINED_BEFORE.json\n?? udt_positional_joint_compatibility_2026-09-14/SELECTED_PREMISES.tsv\n?? udt_positional_joint_compatibility_2026-09-14/SOURCE_PINS.json\n?? udt_positional_joint_compatibility_2026-09-14/TOOL_PINS.json\n?? udt_positional_joint_compatibility_2026-09-14/WORK_ORDER.md\n?? udt_positional_joint_compatibility_2026-09-14/WORK_RECORD.md\n?? udt_positional_joint_compatibility_2026-09-14/challenge/CHECK_REPAIR.md\n?? udt_positional_joint_compatibility_2026-09-14/challenge/RECORD.json\n?? udt_positional_joint_compatibility_2026-09-14/challenge/SELECTED_REGISTRY.json\n?? udt_positional_joint_compatibility_2026-09-14/challenge/SHA256SUMS\n?? udt_positional_joint_compatibility_2026-09-14/challenge/SOURCE_ASSESSMENT.md\n?? udt_positional_joint_compatibility_2026-09-14/challenge/SOURCE_CHECK.json\n?? udt_positional_joint_compatibility_2026-09-14/challenge/SOURCE_CHECK.stderr\n?? udt_positional_joint_compatibility_2026-09-14/challenge/check_sources.py\n?? udt_positional_joint_compatibility_2026-09-14/checks/documentation.capture_provenance.json\n?? udt_positional_joint_compatibility_2026-09-14/checks/documentation.json\n?? udt_positional_joint_compatibility_2026-09-14/checks/documentation.stderr\n?? udt_positional_joint_compatibility_2026-09-14/checks/full406.capture_provenance.json\n?? udt_positional_joint_compatibility_2026-09-14/checks/full406.json\n?? udt_positional_joint_compatibility_2026-09-14/checks/full406.stderr\n?? udt_positional_joint_compatibility_2026-09-14/checks/interlock.capture_provenance.json\n?? udt_positional_joint_compatibility_2026-09-14/checks/interlock.json\n?? udt_positional_joint_compatibility_2026-09-14/checks/interlock.stderr\n?? udt_positional_joint_compatibility_2026-09-14/checks/navigation.capture_provenance.json\n?? udt_positional_joint_compatibility_2026-09-14/checks/navigation.json\n?? udt_positional_joint_compatibility_2026-09-14/checks/navigation.stderr\n?? udt_positional_joint_compatibility_2026-09-14/publication_adapter.py\n?? udt_positional_joint_compatibility_2026-09-14/replay_interlock.py\n?? udt_positional_joint_compatibility_2026-09-14/review/CHECK_PLAN.md\n?? udt_positional_joint_compatibility_2026-09-14/review/FINAL_CANDIDATE_FREEZE.json\n?? udt_positional_joint_compatibility_2026-09-14/review/FINAL_REVIEW.md\n?? udt_positional_joint_compatibility_2026-09-14/review/INITIAL_FREEZE.json\n?? udt_positional_joint_compatibility_2026-09-14/review/MAINTAINED_REVIEW.md\n?? udt_positional_joint_compatibility_2026-09-14/review/RECORD.json\n?? udt_positional_joint_compatibility_2026-09-14/review/RELEASE_TIME_REPAIR.md\n?? udt_positional_joint_compatibility_2026-09-14/review/REPAIR_FREEZE.json\n?? udt_positional_joint_compatibility_2026-09-14/review/SHA256SUMS\n?? udt_positional_joint_compatibility_2026-09-14/review/SOURCE_FIRST.md\n?? udt_positional_joint_compatibility_2026-09-14/review/check_independent.py\n?? udt_positional_joint_compatibility_2026-09-14/review/independent.capture_provenance.json\n?? udt_positional_joint_compatibility_2026-09-14/review/independent.json\n?? udt_positional_joint_compatibility_2026-09-14/review/independent.stderr\n?? udt_positional_joint_compatibility_2026-09-14/review/initial/00_CANDIDATE.md\n?? udt_positional_joint_compatibility_2026-09-14/review/initial/01_DECISION_BRIEF.md\n?? udt_positional_joint_compatibility_2026-09-14/review/initial/02_DEPENDENCY_IMPACT.tsv\n?? udt_positional_joint_compatibility_2026-09-14/review/initial/03_UDT_RESEARCH_ROADMAP.md\n?? udt_positional_joint_compatibility_2026-09-14/review/initial/04_PLAN.md\n?? udt_positional_joint_compatibility_2026-09-14/review/initial/05_INDEX.md\n?? udt_positional_joint_compatibility_2026-09-14/review/initial/06_MEMORY.md\n?? udt_positional_joint_compatibility_2026-09-14/review/parent_replay.capture_provenance.json\n?? udt_positional_joint_compatibility_2026-09-14/review/parent_replay.json\n?? udt_positional_joint_compatibility_2026-09-14/review/parent_replay.stderr\n?? udt_positional_joint_compatibility_2026-09-14/review/release_time_repair_original/FINAL_REVIEW.md\n?? udt_positional_joint_compatibility_2026-09-14/review/release_time_repair_original/RECORD.json\n?? udt_positional_joint_compatibility_2026-09-14/review/release_time_repair_original/SHA256SUMS\n?? udt_positional_joint_compatibility_2026-09-14/verify_documentation.py\n?? udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/AUDIT_REPORT.md\n?? udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/CATCH_PROOF_RESULT.json\n?? udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/DERIVATION_RESULT.json\n?? udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/EVIDENCE_GATES.md\n?? udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/EXACT_DERIVATION.md\n?? udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/INDEPENDENT_RADAU_REPLAY.tsv\n?? udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/INDEPENDENT_VERIFICATION.json\n?? udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/LAY_REPORT.md\n?? udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/PREREGISTRATION_EXECUTION_NOTE.md\n?? udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/PROFILE_COMPATIBILITY_ATLAS.tsv\n?? udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/REVIEW_DISPATCH.md\n?? udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/RUN_CHECKPOINT.tsv\n?? udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/STATUS_LEDGER.tsv\n?? udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/VERIFICATION_RESULT.json\n?? udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/build_review_manifest.py\n?? udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/derive_compatibility_atlas.py\n?? udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/run_catch_proofs.py\n?? udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/verify_independent.py\n?? udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/verify_package.py\n",
+      "stderr": ""
+    },
+    {
+      "utc": "2026-09-14T00:28:26.993952+00:00",
+      "command": [
+        "git",
+        "add",
+        "-f",
+        "--pathspec-from-file=/tmp/udt_positional_joint_compatibility_2026-09-14.nul",
+        "--pathspec-file-nul"
+      ],
+      "exit": 0,
+      "stdout": "",
+      "stderr": ""
+    },
+    {
+      "utc": "2026-09-14T00:28:27.044420+00:00",
+      "command": [
+        "git",
+        "diff",
+        "--cached",
+        "--check"
+      ],
+      "exit": 0,
+      "stdout": "",
+      "stderr": ""
+    },
+    {
+      "utc": "2026-09-14T00:28:27.051756+00:00",
+      "command": [
+        "git",
+        "diff",
+        "--cached",
+        "--name-only"
+      ],
+      "exit": 0,
+      "stdout": "INDEX.md\nMEMORY.md\nUDT_RESEARCH_ROADMAP.md\nudt_native_theory_research_plan_2026-09-13/PLAN.md\nudt_positional_joint_compatibility_2026-09-14/AGENT_ALLOCATIONS.json\nudt_positional_joint_compatibility_2026-09-14/CANDIDATE.md\nudt_positional_joint_compatibility_2026-09-14/CHECK_FREEZE.json\nudt_positional_joint_compatibility_2026-09-14/CHECK_PLAN.md\nudt_positional_joint_compatibility_2026-09-14/CLOSEOUT.md\nudt_positional_joint_compatibility_2026-09-14/DECISION_BRIEF.md\nudt_positional_joint_compatibility_2026-09-14/DEPENDENCY_IMPACT.tsv\nudt_positional_joint_compatibility_2026-09-14/FIXED_PINS.json\nudt_positional_joint_compatibility_2026-09-14/GATE_RECORD.md\nudt_positional_joint_compatibility_2026-09-14/LAUNCH.json\nudt_positional_joint_compatibility_2026-09-14/MAINTAINED_BEFORE.json\nudt_positional_joint_compatibility_2026-09-14/PUBLISH_PLAN.json\nudt_positional_joint_compatibility_2026-09-14/SELECTED_PREMISES.tsv\nudt_positional_joint_compatibility_2026-09-14/SHA256SUMS.json\nudt_positional_joint_compatibility_2026-09-14/SOURCE_PINS.json\nudt_positional_joint_compatibility_2026-09-14/TOOL_PINS.json\nudt_positional_joint_compatibility_2026-09-14/WORK_ORDER.md\nudt_positional_joint_compatibility_2026-09-14/WORK_RECORD.md\nudt_positional_joint_compatibility_2026-09-14/challenge/CHECK_REPAIR.md\nudt_positional_joint_compatibility_2026-09-14/challenge/RECORD.json\nudt_positional_joint_compatibility_2026-09-14/challenge/SELECTED_REGISTRY.json\nudt_positional_joint_compatibility_2026-09-14/challenge/SHA256SUMS\nudt_positional_joint_compatibility_2026-09-14/challenge/SOURCE_ASSESSMENT.md\nudt_positional_joint_compatibility_2026-09-14/challenge/SOURCE_CHECK.json\nudt_positional_joint_compatibility_2026-09-14/challenge/SOURCE_CHECK.stderr\nudt_positional_joint_compatibility_2026-09-14/challenge/check_sources.py\nudt_positional_joint_compatibility_2026-09-14/checks/documentation.capture_provenance.json\nudt_positional_joint_compatibility_2026-09-14/checks/documentation.json\nudt_positional_joint_compatibility_2026-09-14/checks/documentation.stderr\nudt_positional_joint_compatibility_2026-09-14/checks/documentation.stdout\nudt_positional_joint_compatibility_2026-09-14/checks/full406.capture_provenance.json\nudt_positional_joint_compatibility_2026-09-14/checks/full406.json\nudt_positional_joint_compatibility_2026-09-14/checks/full406.stderr\nudt_positional_joint_compatibility_2026-09-14/checks/full406.stdout\nudt_positional_joint_compatibility_2026-09-14/checks/interlock.capture_provenance.json\nudt_positional_joint_compatibility_2026-09-14/checks/interlock.json\nudt_positional_joint_compatibility_2026-09-14/checks/interlock.stderr\nudt_positional_joint_compatibility_2026-09-14/checks/interlock.stdout\nudt_positional_joint_compatibility_2026-09-14/checks/navigation.capture_provenance.json\nudt_positional_joint_compatibility_2026-09-14/checks/navigation.json\nudt_positional_joint_compatibility_2026-09-14/checks/navigation.stderr\nudt_positional_joint_compatibility_2026-09-14/checks/navigation.stdout\nudt_positional_joint_compatibility_2026-09-14/publication_adapter.py\nudt_positional_joint_compatibility_2026-09-14/replay_interlock.py\nudt_positional_joint_compatibility_2026-09-14/review/CHECK_PLAN.md\nudt_positional_joint_compatibility_2026-09-14/review/FINAL_CANDIDATE_FREEZE.json\nudt_positional_joint_compatibility_2026-09-14/review/FINAL_REVIEW.md\nudt_positional_joint_compatibility_2026-09-14/review/INITIAL_FREEZE.json\nudt_positional_joint_compatibility_2026-09-14/review/MAINTAINED_REVIEW.md\nudt_positional_joint_compatibility_2026-09-14/review/RECORD.json\nudt_positional_joint_compatibility_2026-09-14/review/RELEASE_TIME_REPAIR.md\nudt_positional_joint_compatibility_2026-09-14/review/REPAIR_FREEZE.json\nudt_positional_joint_compatibility_2026-09-14/review/SHA256SUMS\nudt_positional_joint_compatibility_2026-09-14/review/SOURCE_FIRST.md\nudt_positional_joint_compatibility_2026-09-14/review/check_independent.py\nudt_positional_joint_compatibility_2026-09-14/review/independent.capture_provenance.json\nudt_positional_joint_compatibility_2026-09-14/review/independent.json\nudt_positional_joint_compatibility_2026-09-14/review/independent.stderr\nudt_positional_joint_compatibility_2026-09-14/review/independent.stdout\nudt_positional_joint_compatibility_2026-09-14/review/initial/00_CANDIDATE.md\nudt_positional_joint_compatibility_2026-09-14/review/initial/01_DECISION_BRIEF.md\nudt_positional_joint_compatibility_2026-09-14/review/initial/02_DEPENDENCY_IMPACT.tsv\nudt_positional_joint_compatibility_2026-09-14/review/initial/03_UDT_RESEARCH_ROADMAP.md\nudt_positional_joint_compatibility_2026-09-14/review/initial/04_PLAN.md\nudt_positional_joint_compatibility_2026-09-14/review/initial/05_INDEX.md\nudt_positional_joint_compatibility_2026-09-14/review/initial/06_MEMORY.md\nudt_positional_joint_compatibility_2026-09-14/review/parent_replay.capture_provenance.json\nudt_positional_joint_compatibility_2026-09-14/review/parent_replay.json\nudt_positional_joint_compatibility_2026-09-14/review/parent_replay.stderr\nudt_positional_joint_compatibility_2026-09-14/review/parent_replay.stdout\nudt_positional_joint_compatibility_2026-09-14/review/release_time_repair_original/FINAL_REVIEW.md\nudt_positional_joint_compatibility_2026-09-14/review/release_time_repair_original/RECORD.json\nudt_positional_joint_compatibility_2026-09-14/review/release_time_repair_original/SHA256SUMS\nudt_positional_joint_compatibility_2026-09-14/verify_documentation.py\n",
+      "stderr": ""
+    },
+    {
+      "utc": "2026-09-14T00:28:36.535035+00:00",
+      "command": [
+        "git",
+        "diff",
+        "--cached",
+        "--check"
+      ],
+      "exit": 0,
+      "stdout": "",
+      "stderr": ""
+    },
+    {
+      "utc": "2026-09-14T00:28:36.545261+00:00",
+      "command": [
+        "git",
+        "diff",
+        "--cached",
+        "--name-only"
+      ],
+      "exit": 0,
+      "stdout": "INDEX.md\nMEMORY.md\nUDT_RESEARCH_ROADMAP.md\nudt_native_theory_research_plan_2026-09-13/PLAN.md\nudt_positional_joint_compatibility_2026-09-14/AGENT_ALLOCATIONS.json\nudt_positional_joint_compatibility_2026-09-14/CANDIDATE.md\nudt_positional_joint_compatibility_2026-09-14/CHECK_FREEZE.json\nudt_positional_joint_compatibility_2026-09-14/CHECK_PLAN.md\nudt_positional_joint_compatibility_2026-09-14/CLOSEOUT.md\nudt_positional_joint_compatibility_2026-09-14/DECISION_BRIEF.md\nudt_positional_joint_compatibility_2026-09-14/DEPENDENCY_IMPACT.tsv\nudt_positional_joint_compatibility_2026-09-14/FIXED_PINS.json\nudt_positional_joint_compatibility_2026-09-14/GATE_RECORD.md\nudt_positional_joint_compatibility_2026-09-14/LAUNCH.json\nudt_positional_joint_compatibility_2026-09-14/MAINTAINED_BEFORE.json\nudt_positional_joint_compatibility_2026-09-14/PUBLISH_PLAN.json\nudt_positional_joint_compatibility_2026-09-14/SELECTED_PREMISES.tsv\nudt_positional_joint_compatibility_2026-09-14/SHA256SUMS.json\nudt_positional_joint_compatibility_2026-09-14/SOURCE_PINS.json\nudt_positional_joint_compatibility_2026-09-14/TOOL_PINS.json\nudt_positional_joint_compatibility_2026-09-14/WORK_ORDER.md\nudt_positional_joint_compatibility_2026-09-14/WORK_RECORD.md\nudt_positional_joint_compatibility_2026-09-14/challenge/CHECK_REPAIR.md\nudt_positional_joint_compatibility_2026-09-14/challenge/RECORD.json\nudt_positional_joint_compatibility_2026-09-14/challenge/SELECTED_REGISTRY.json\nudt_positional_joint_compatibility_2026-09-14/challenge/SHA256SUMS\nudt_positional_joint_compatibility_2026-09-14/challenge/SOURCE_ASSESSMENT.md\nudt_positional_joint_compatibility_2026-09-14/challenge/SOURCE_CHECK.json\nudt_positional_joint_compatibility_2026-09-14/challenge/SOURCE_CHECK.stderr\nudt_positional_joint_compatibility_2026-09-14/challenge/check_sources.py\nudt_positional_joint_compatibility_2026-09-14/checks/documentation.capture_provenance.json\nudt_positional_joint_compatibility_2026-09-14/checks/documentation.json\nudt_positional_joint_compatibility_2026-09-14/checks/documentation.stderr\nudt_positional_joint_compatibility_2026-09-14/checks/documentation.stdout\nudt_positional_joint_compatibility_2026-09-14/checks/full406.capture_provenance.json\nudt_positional_joint_compatibility_2026-09-14/checks/full406.json\nudt_positional_joint_compatibility_2026-09-14/checks/full406.stderr\nudt_positional_joint_compatibility_2026-09-14/checks/full406.stdout\nudt_positional_joint_compatibility_2026-09-14/checks/interlock.capture_provenance.json\nudt_positional_joint_compatibility_2026-09-14/checks/interlock.json\nudt_positional_joint_compatibility_2026-09-14/checks/interlock.stderr\nudt_positional_joint_compatibility_2026-09-14/checks/interlock.stdout\nudt_positional_joint_compatibility_2026-09-14/checks/navigation.capture_provenance.json\nudt_positional_joint_compatibility_2026-09-14/checks/navigation.json\nudt_positional_joint_compatibility_2026-09-14/checks/navigation.stderr\nudt_positional_joint_compatibility_2026-09-14/checks/navigation.stdout\nudt_positional_joint_compatibility_2026-09-14/publication_adapter.py\nudt_positional_joint_compatibility_2026-09-14/replay_interlock.py\nudt_positional_joint_compatibility_2026-09-14/review/CHECK_PLAN.md\nudt_positional_joint_compatibility_2026-09-14/review/FINAL_CANDIDATE_FREEZE.json\nudt_positional_joint_compatibility_2026-09-14/review/FINAL_REVIEW.md\nudt_positional_joint_compatibility_2026-09-14/review/INITIAL_FREEZE.json\nudt_positional_joint_compatibility_2026-09-14/review/MAINTAINED_REVIEW.md\nudt_positional_joint_compatibility_2026-09-14/review/RECORD.json\nudt_positional_joint_compatibility_2026-09-14/review/RELEASE_TIME_REPAIR.md\nudt_positional_joint_compatibility_2026-09-14/review/REPAIR_FREEZE.json\nudt_positional_joint_compatibility_2026-09-14/review/SHA256SUMS\nudt_positional_joint_compatibility_2026-09-14/review/SOURCE_FIRST.md\nudt_positional_joint_compatibility_2026-09-14/review/check_independent.py\nudt_positional_joint_compatibility_2026-09-14/review/independent.capture_provenance.json\nudt_positional_joint_compatibility_2026-09-14/review/independent.json\nudt_positional_joint_compatibility_2026-09-14/review/independent.stderr\nudt_positional_joint_compatibility_2026-09-14/review/independent.stdout\nudt_positional_joint_compatibility_2026-09-14/review/initial/00_CANDIDATE.md\nudt_positional_joint_compatibility_2026-09-14/review/initial/01_DECISION_BRIEF.md\nudt_positional_joint_compatibility_2026-09-14/review/initial/02_DEPENDENCY_IMPACT.tsv\nudt_positional_joint_compatibility_2026-09-14/review/initial/03_UDT_RESEARCH_ROADMAP.md\nudt_positional_joint_compatibility_2026-09-14/review/initial/04_PLAN.md\nudt_positional_joint_compatibility_2026-09-14/review/initial/05_INDEX.md\nudt_positional_joint_compatibility_2026-09-14/review/initial/06_MEMORY.md\nudt_positional_joint_compatibility_2026-09-14/review/parent_replay.capture_provenance.json\nudt_positional_joint_compatibility_2026-09-14/review/parent_replay.json\nudt_positional_joint_compatibility_2026-09-14/review/parent_replay.stderr\nudt_positional_joint_compatibility_2026-09-14/review/parent_replay.stdout\nudt_positional_joint_compatibility_2026-09-14/review/release_time_repair_original/FINAL_REVIEW.md\nudt_positional_joint_compatibility_2026-09-14/review/release_time_repair_original/RECORD.json\nudt_positional_joint_compatibility_2026-09-14/review/release_time_repair_original/SHA256SUMS\nudt_positional_joint_compatibility_2026-09-14/verify_documentation.py\n",
+      "stderr": ""
+    },
+    {
+      "utc": "2026-09-14T00:28:36.555168+00:00",
+      "command": [
+        "git",
+        "commit",
+        "-m",
+        "Recover positional interlocks and record field-equation compatibility stop"
+      ],
+      "exit": 0,
+      "stdout": "[grok 4a4b1b8d] Recover positional interlocks and record field-equation compatibility stop\n 78 files changed, 5111 insertions(+), 3 deletions(-)\n create mode 100644 udt_positional_joint_compatibility_2026-09-14/AGENT_ALLOCATIONS.json\n create mode 100644 udt_positional_joint_compatibility_2026-09-14/CANDIDATE.md\n create mode 100644 udt_positional_joint_compatibility_2026-09-14/CHECK_FREEZE.json\n create mode 100644 udt_positional_joint_compatibility_2026-09-14/CHECK_PLAN.md\n create mode 100644 udt_positional_joint_compatibility_2026-09-14/CLOSEOUT.md\n create mode 100644 udt_positional_joint_compatibility_2026-09-14/DECISION_BRIEF.md\n create mode 100644 udt_positional_joint_compatibility_2026-09-14/DEPENDENCY_IMPACT.tsv\n create mode 100644 udt_positional_joint_compatibility_2026-09-14/FIXED_PINS.json\n create mode 100644 udt_positional_joint_compatibility_2026-09-14/GATE_RECORD.md\n create mode 100644 udt_positional_joint_compatibility_2026-09-14/LAUNCH.json\n create mode 100644 udt_positional_joint_compatibility_2026-09-14/MAINTAINED_BEFORE.json\n create mode 100644 udt_positional_joint_compatibility_2026-09-14/PUBLISH_PLAN.json\n create mode 100644 udt_positional_joint_compatibility_2026-09-14/SELECTED_PREMISES.tsv\n create mode 100644 udt_positional_joint_compatibility_2026-09-14/SHA256SUMS.json\n create mode 100644 udt_positional_joint_compatibility_2026-09-14/SOURCE_PINS.json\n create mode 100644 udt_positional_joint_compatibility_2026-09-14/TOOL_PINS.json\n create mode 100644 udt_positional_joint_compatibility_2026-09-14/WORK_ORDER.md\n create mode 100644 udt_positional_joint_compatibility_2026-09-14/WORK_RECORD.md\n create mode 100644 udt_positional_joint_compatibility_2026-09-14/challenge/CHECK_REPAIR.md\n create mode 100644 udt_positional_joint_compatibility_2026-09-14/challenge/RECORD.json\n create mode 100644 udt_positional_joint_compatibility_2026-09-14/challenge/SELECTED_REGISTRY.json\n create mode 100644 udt_positional_joint_compatibility_2026-09-14/challenge/SHA256SUMS\n create mode 100644 udt_positional_joint_compatibility_2026-09-14/challenge/SOURCE_ASSESSMENT.md\n create mode 100644 udt_positional_joint_compatibility_2026-09-14/challenge/SOURCE_CHECK.json\n create mode 100644 udt_positional_joint_compatibility_2026-09-14/challenge/SOURCE_CHECK.stderr\n create mode 100644 udt_positional_joint_compatibility_2026-09-14/challenge/check_sources.py\n create mode 100644 udt_positional_joint_compatibility_2026-09-14/checks/documentation.capture_provenance.json\n create mode 100644 udt_positional_joint_compatibility_2026-09-14/checks/documentation.json\n create mode 100644 udt_positional_joint_compatibility_2026-09-14/checks/documentation.stderr\n create mode 100644 udt_positional_joint_compatibility_2026-09-14/checks/documentation.stdout\n create mode 100644 udt_positional_joint_compatibility_2026-09-14/checks/full406.capture_provenance.json\n create mode 100644 udt_positional_joint_compatibility_2026-09-14/checks/full406.json\n create mode 100644 udt_positional_joint_compatibility_2026-09-14/checks/full406.stderr\n create mode 100644 udt_positional_joint_compatibility_2026-09-14/checks/full406.stdout\n create mode 100644 udt_positional_joint_compatibility_2026-09-14/checks/interlock.capture_provenance.json\n create mode 100644 udt_positional_joint_compatibility_2026-09-14/checks/interlock.json\n create mode 100644 udt_positional_joint_compatibility_2026-09-14/checks/interlock.stderr\n create mode 100644 udt_positional_joint_compatibility_2026-09-14/checks/interlock.stdout\n create mode 100644 udt_positional_joint_compatibility_2026-09-14/checks/navigation.capture_provenance.json\n create mode 100644 udt_positional_joint_compatibility_2026-09-14/checks/navigation.json\n create mode 100644 udt_positional_joint_compatibility_2026-09-14/checks/navigation.stderr\n create mode 100644 udt_positional_joint_compatibility_2026-09-14/checks/navigation.stdout\n create mode 100644 udt_positional_joint_compatibility_2026-09-14/publication_adapter.py\n create mode 100644 udt_positional_joint_compatibility_2026-09-14/replay_interlock.py\n create mode 100644 udt_positional_joint_compatibility_2026-09-14/review/CHECK_PLAN.md\n create mode 100644 udt_positional_joint_compatibility_2026-09-14/review/FINAL_CANDIDATE_FREEZE.json\n create mode 100644 udt_positional_joint_compatibility_2026-09-14/review/FINAL_REVIEW.md\n create mode 100644 udt_positional_joint_compatibility_2026-09-14/review/INITIAL_FREEZE.json\n create mode 100644 udt_positional_joint_compatibility_2026-09-14/review/MAINTAINED_REVIEW.md\n create mode 100644 udt_positional_joint_compatibility_2026-09-14/review/RECORD.json\n create mode 100644 udt_positional_joint_compatibility_2026-09-14/review/RELEASE_TIME_REPAIR.md\n create mode 100644 udt_positional_joint_compatibility_2026-09-14/review/REPAIR_FREEZE.json\n create mode 100644 udt_positional_joint_compatibility_2026-09-14/review/SHA256SUMS\n create mode 100644 udt_positional_joint_compatibility_2026-09-14/review/SOURCE_FIRST.md\n create mode 100644 udt_positional_joint_compatibility_2026-09-14/review/check_independent.py\n create mode 100644 udt_positional_joint_compatibility_2026-09-14/review/independent.capture_provenance.json\n create mode 100644 udt_positional_joint_compatibility_2026-09-14/review/independent.json\n create mode 100644 udt_positional_joint_compatibility_2026-09-14/review/independent.stderr\n create mode 100644 udt_positional_joint_compatibility_2026-09-14/review/independent.stdout\n create mode 100644 udt_positional_joint_compatibility_2026-09-14/review/initial/00_CANDIDATE.md\n create mode 100644 udt_positional_joint_compatibility_2026-09-14/review/initial/01_DECISION_BRIEF.md\n create mode 100644 udt_positional_joint_compatibility_2026-09-14/review/initial/02_DEPENDENCY_IMPACT.tsv\n create mode 100644 udt_positional_joint_compatibility_2026-09-14/review/initial/03_UDT_RESEARCH_ROADMAP.md\n create mode 100644 udt_positional_joint_compatibility_2026-09-14/review/initial/04_PLAN.md\n create mode 100644 udt_positional_joint_compatibility_2026-09-14/review/initial/05_INDEX.md\n create mode 100644 udt_positional_joint_compatibility_2026-09-14/review/initial/06_MEMORY.md\n create mode 100644 udt_positional_joint_compatibility_2026-09-14/review/parent_replay.capture_provenance.json\n create mode 100644 udt_positional_joint_compatibility_2026-09-14/review/parent_replay.json\n create mode 100644 udt_positional_joint_compatibility_2026-09-14/review/parent_replay.stderr\n create mode 100644 udt_positional_joint_compatibility_2026-09-14/review/parent_replay.stdout\n create mode 100644 udt_positional_joint_compatibility_2026-09-14/review/release_time_repair_original/FINAL_REVIEW.md\n create mode 100644 udt_positional_joint_compatibility_2026-09-14/review/release_time_repair_original/RECORD.json\n create mode 100644 udt_positional_joint_compatibility_2026-09-14/review/release_time_repair_original/SHA256SUMS\n create mode 100644 udt_positional_joint_compatibility_2026-09-14/verify_documentation.py\n",
+      "stderr": ""
+    },
+    {
+      "utc": "2026-09-14T00:28:36.587231+00:00",
+      "command": [
+        "git",
+        "rev-parse",
+        "HEAD"
+      ],
+      "exit": 0,
+      "stdout": "4a4b1b8ddede0f80bd32c6a1eda91672cbea5a3f\n",
+      "stderr": ""
+    },
+    {
+      "utc": "2026-09-14T00:28:36.588840+00:00",
+      "command": [
+        "git",
+        "diff-tree",
+        "--no-commit-id",
+        "--name-only",
+        "-r",
+        "HEAD"
+      ],
+      "exit": 0,
+      "stdout": "INDEX.md\nMEMORY.md\nUDT_RESEARCH_ROADMAP.md\nudt_native_theory_research_plan_2026-09-13/PLAN.md\nudt_positional_joint_compatibility_2026-09-14/AGENT_ALLOCATIONS.json\nudt_positional_joint_compatibility_2026-09-14/CANDIDATE.md\nudt_positional_joint_compatibility_2026-09-14/CHECK_FREEZE.json\nudt_positional_joint_compatibility_2026-09-14/CHECK_PLAN.md\nudt_positional_joint_compatibility_2026-09-14/CLOSEOUT.md\nudt_positional_joint_compatibility_2026-09-14/DECISION_BRIEF.md\nudt_positional_joint_compatibility_2026-09-14/DEPENDENCY_IMPACT.tsv\nudt_positional_joint_compatibility_2026-09-14/FIXED_PINS.json\nudt_positional_joint_compatibility_2026-09-14/GATE_RECORD.md\nudt_positional_joint_compatibility_2026-09-14/LAUNCH.json\nudt_positional_joint_compatibility_2026-09-14/MAINTAINED_BEFORE.json\nudt_positional_joint_compatibility_2026-09-14/PUBLISH_PLAN.json\nudt_positional_joint_compatibility_2026-09-14/SELECTED_PREMISES.tsv\nudt_positional_joint_compatibility_2026-09-14/SHA256SUMS.json\nudt_positional_joint_compatibility_2026-09-14/SOURCE_PINS.json\nudt_positional_joint_compatibility_2026-09-14/TOOL_PINS.json\nudt_positional_joint_compatibility_2026-09-14/WORK_ORDER.md\nudt_positional_joint_compatibility_2026-09-14/WORK_RECORD.md\nudt_positional_joint_compatibility_2026-09-14/challenge/CHECK_REPAIR.md\nudt_positional_joint_compatibility_2026-09-14/challenge/RECORD.json\nudt_positional_joint_compatibility_2026-09-14/challenge/SELECTED_REGISTRY.json\nudt_positional_joint_compatibility_2026-09-14/challenge/SHA256SUMS\nudt_positional_joint_compatibility_2026-09-14/challenge/SOURCE_ASSESSMENT.md\nudt_positional_joint_compatibility_2026-09-14/challenge/SOURCE_CHECK.json\nudt_positional_joint_compatibility_2026-09-14/challenge/SOURCE_CHECK.stderr\nudt_positional_joint_compatibility_2026-09-14/challenge/check_sources.py\nudt_positional_joint_compatibility_2026-09-14/checks/documentation.capture_provenance.json\nudt_positional_joint_compatibility_2026-09-14/checks/documentation.json\nudt_positional_joint_compatibility_2026-09-14/checks/documentation.stderr\nudt_positional_joint_compatibility_2026-09-14/checks/documentation.stdout\nudt_positional_joint_compatibility_2026-09-14/checks/full406.capture_provenance.json\nudt_positional_joint_compatibility_2026-09-14/checks/full406.json\nudt_positional_joint_compatibility_2026-09-14/checks/full406.stderr\nudt_positional_joint_compatibility_2026-09-14/checks/full406.stdout\nudt_positional_joint_compatibility_2026-09-14/checks/interlock.capture_provenance.json\nudt_positional_joint_compatibility_2026-09-14/checks/interlock.json\nudt_positional_joint_compatibility_2026-09-14/checks/interlock.stderr\nudt_positional_joint_compatibility_2026-09-14/checks/interlock.stdout\nudt_positional_joint_compatibility_2026-09-14/checks/navigation.capture_provenance.json\nudt_positional_joint_compatibility_2026-09-14/checks/navigation.json\nudt_positional_joint_compatibility_2026-09-14/checks/navigation.stderr\nudt_positional_joint_compatibility_2026-09-14/checks/navigation.stdout\nudt_positional_joint_compatibility_2026-09-14/publication_adapter.py\nudt_positional_joint_compatibility_2026-09-14/replay_interlock.py\nudt_positional_joint_compatibility_2026-09-14/review/CHECK_PLAN.md\nudt_positional_joint_compatibility_2026-09-14/review/FINAL_CANDIDATE_FREEZE.json\nudt_positional_joint_compatibility_2026-09-14/review/FINAL_REVIEW.md\nudt_positional_joint_compatibility_2026-09-14/review/INITIAL_FREEZE.json\nudt_positional_joint_compatibility_2026-09-14/review/MAINTAINED_REVIEW.md\nudt_positional_joint_compatibility_2026-09-14/review/RECORD.json\nudt_positional_joint_compatibility_2026-09-14/review/RELEASE_TIME_REPAIR.md\nudt_positional_joint_compatibility_2026-09-14/review/REPAIR_FREEZE.json\nudt_positional_joint_compatibility_2026-09-14/review/SHA256SUMS\nudt_positional_joint_compatibility_2026-09-14/review/SOURCE_FIRST.md\nudt_positional_joint_compatibility_2026-09-14/review/check_independent.py\nudt_positional_joint_compatibility_2026-09-14/review/independent.capture_provenance.json\nudt_positional_joint_compatibility_2026-09-14/review/independent.json\nudt_positional_joint_compatibility_2026-09-14/review/independent.stderr\nudt_positional_joint_compatibility_2026-09-14/review/independent.stdout\nudt_positional_joint_compatibility_2026-09-14/review/initial/00_CANDIDATE.md\nudt_positional_joint_compatibility_2026-09-14/review/initial/01_DECISION_BRIEF.md\nudt_positional_joint_compatibility_2026-09-14/review/initial/02_DEPENDENCY_IMPACT.tsv\nudt_positional_joint_compatibility_2026-09-14/review/initial/03_UDT_RESEARCH_ROADMAP.md\nudt_positional_joint_compatibility_2026-09-14/review/initial/04_PLAN.md\nudt_positional_joint_compatibility_2026-09-14/review/initial/05_INDEX.md\nudt_positional_joint_compatibility_2026-09-14/review/initial/06_MEMORY.md\nudt_positional_joint_compatibility_2026-09-14/review/parent_replay.capture_provenance.json\nudt_positional_joint_compatibility_2026-09-14/review/parent_replay.json\nudt_positional_joint_compatibility_2026-09-14/review/parent_replay.stderr\nudt_positional_joint_compatibility_2026-09-14/review/parent_replay.stdout\nudt_positional_joint_compatibility_2026-09-14/review/release_time_repair_original/FINAL_REVIEW.md\nudt_positional_joint_compatibility_2026-09-14/review/release_time_repair_original/RECORD.json\nudt_positional_joint_compatibility_2026-09-14/review/release_time_repair_original/SHA256SUMS\nudt_positional_joint_compatibility_2026-09-14/verify_documentation.py\n",
+      "stderr": ""
+    },
+    {
+      "utc": "2026-09-14T00:28:49.108654+00:00",
+      "command": [
+        "git",
+        "push",
+        "origin",
+        "grok"
+      ],
+      "exit": 0,
+      "stdout": "",
+      "stderr": "To https://github.com/charlesrotter/udt_mass_codex.git\n   0b84057f..4a4b1b8d  grok -> grok\n"
+    },
+    {
+      "utc": "2026-09-14T00:28:51.239743+00:00",
+      "command": [
+        "git",
+        "rev-parse",
+        "HEAD",
+        "origin/grok"
+      ],
+      "exit": 0,
+      "stdout": "4a4b1b8ddede0f80bd32c6a1eda91672cbea5a3f\n4a4b1b8ddede0f80bd32c6a1eda91672cbea5a3f\n",
+      "stderr": ""
+    },
+    {
+      "utc": "2026-09-14T00:28:51.247120+00:00",
+      "command": [
+        "git",
+        "diff",
+        "--name-only"
+      ],
+      "exit": 0,
+      "stdout": "",
+      "stderr": ""
+    },
+    {
+      "utc": "2026-09-14T00:28:51.256623+00:00",
+      "command": [
+        "git",
+        "diff",
+        "--cached",
+        "--name-only"
+      ],
+      "exit": 0,
+      "stdout": "",
+      "stderr": ""
+    },
+    {
+      "utc": "2026-09-14T00:28:51.262537+00:00",
+      "command": [
+        "git",
+        "status",
+        "--short",
+        "--untracked-files=all"
+      ],
+      "exit": 0,
+      "stdout": "?? 8_25/UDT_FOUNDING_VALUE_LAW_ANALYSIS.md\n?? 8_25/udt_extension_checks.py\n?? 8_25/udt_extension_minimality_response.md\n?? 8_25/udt_value_law_checks.py\n?? 8_25/udt_value_law_checks_llm1.py\n?? 8_25/udt_value_law_external_response.md\n?? UDT_Complete_Guardrails_and_Central_Science_Tracking.md\n?? UDT_Next_Step_After_Two_Stages.md\n?? UDT_Sequenced_Guardrails_and_Development_Work_Order.md\n?? udt_native_onshell_timelive_reset_owner_audit_2026-08-10/CANDIDATE_LAW_MAP.tsv\n?? udt_native_onshell_timelive_reset_owner_audit_2026-08-10/DERIVATION_RESULT.json\n?? udt_native_onshell_timelive_reset_owner_audit_2026-08-10/EQUATION_OWNERSHIP_ATLAS.tsv\n?? udt_native_onshell_timelive_reset_owner_audit_2026-08-10/SOURCE_SCOPE_CLARIFICATION.md\n?? udt_native_onshell_timelive_reset_owner_audit_2026-08-10/derive_owner_atlas.py\n?? udt_native_onshell_timelive_reset_owner_audit_2026-08-10/run_catch_proofs.py\n?? udt_native_onshell_timelive_reset_owner_audit_2026-08-10/verify_owner_independent.py\n?? udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/ADVERSARIAL_REVIEW_REQUEST.md\n?? udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/AUDIT_REPORT.md\n?? udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/CATCH_PROOF_RESULT.json\n?? udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/DERIVATION_RESULT.json\n?? udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/EVIDENCE_GATES.md\n?? udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/EXACT_DERIVATION.md\n?? udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/INDEPENDENT_VERIFICATION.json\n?? udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/LAY_REPORT.md\n?? udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/STATUS_LEDGER.tsv\n?? udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/VERIFICATION_RESULT.json\n?? udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/WITNESS_ATLAS.tsv\n?? udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/build_review_intake.py\n?? udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/derive_regime_flow.py\n?? udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/run_catch_proofs.py\n?? udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/verify_independent.py\n?? udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/verify_package.py\n?? udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/AUDIT_REPORT.md\n?? udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/CATCH_PROOF_RESULT.json\n?? udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/DERIVATION_RESULT.json\n?? udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/EVIDENCE_GATES.md\n?? udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/EXACT_DERIVATION.md\n?? udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/INDEPENDENT_RADAU_REPLAY.tsv\n?? udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/INDEPENDENT_VERIFICATION.json\n?? udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/LAY_REPORT.md\n?? udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/PREREGISTRATION_EXECUTION_NOTE.md\n?? udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/PROFILE_COMPATIBILITY_ATLAS.tsv\n?? udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/REVIEW_DISPATCH.md\n?? udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/RUN_CHECKPOINT.tsv\n?? udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/STATUS_LEDGER.tsv\n?? udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/VERIFICATION_RESULT.json\n?? udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/build_review_manifest.py\n?? udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/derive_compatibility_atlas.py\n?? udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/run_catch_proofs.py\n?? udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/verify_independent.py\n?? udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/verify_package.py\n",
+      "stderr": ""
+    }
+  ],
+  "baseline_head": "0b84057f6030afd5aaf516bce859b9934d06171f",
+  "original_untracked_status_sha256": "747cf3c497bfbdf7c373a2aa621be3cb241a61f7ef9f508c39bf64588ff70a60",
+  "planned_paths": [
+    "INDEX.md",
+    "MEMORY.md",
+    "UDT_RESEARCH_ROADMAP.md",
+    "udt_native_theory_research_plan_2026-09-13/PLAN.md",
+    "udt_positional_joint_compatibility_2026-09-14/AGENT_ALLOCATIONS.json",
+    "udt_positional_joint_compatibility_2026-09-14/CANDIDATE.md",
+    "udt_positional_joint_compatibility_2026-09-14/CHECK_FREEZE.json",
+    "udt_positional_joint_compatibility_2026-09-14/CHECK_PLAN.md",
+    "udt_positional_joint_compatibility_2026-09-14/CLOSEOUT.md",
+    "udt_positional_joint_compatibility_2026-09-14/DECISION_BRIEF.md",
+    "udt_positional_joint_compatibility_2026-09-14/DEPENDENCY_IMPACT.tsv",
+    "udt_positional_joint_compatibility_2026-09-14/FIXED_PINS.json",
+    "udt_positional_joint_compatibility_2026-09-14/GATE_RECORD.md",
+    "udt_positional_joint_compatibility_2026-09-14/LAUNCH.json",
+    "udt_positional_joint_compatibility_2026-09-14/MAINTAINED_BEFORE.json",
+    "udt_positional_joint_compatibility_2026-09-14/PUBLISH_PLAN.json",
+    "udt_positional_joint_compatibility_2026-09-14/SELECTED_PREMISES.tsv",
+    "udt_positional_joint_compatibility_2026-09-14/SHA256SUMS.json",
+    "udt_positional_joint_compatibility_2026-09-14/SOURCE_PINS.json",
+    "udt_positional_joint_compatibility_2026-09-14/TOOL_PINS.json",
+    "udt_positional_joint_compatibility_2026-09-14/WORK_ORDER.md",
+    "udt_positional_joint_compatibility_2026-09-14/WORK_RECORD.md",
+    "udt_positional_joint_compatibility_2026-09-14/challenge/CHECK_REPAIR.md",
+    "udt_positional_joint_compatibility_2026-09-14/challenge/RECORD.json",
+    "udt_positional_joint_compatibility_2026-09-14/challenge/SELECTED_REGISTRY.json",
+    "udt_positional_joint_compatibility_2026-09-14/challenge/SHA256SUMS",
+    "udt_positional_joint_compatibility_2026-09-14/challenge/SOURCE_ASSESSMENT.md",
+    "udt_positional_joint_compatibility_2026-09-14/challenge/SOURCE_CHECK.json",
+    "udt_positional_joint_compatibility_2026-09-14/challenge/SOURCE_CHECK.stderr",
+    "udt_positional_joint_compatibility_2026-09-14/challenge/check_sources.py",
+    "udt_positional_joint_compatibility_2026-09-14/checks/documentation.capture_provenance.json",
+    "udt_positional_joint_compatibility_2026-09-14/checks/documentation.json",
+    "udt_positional_joint_compatibility_2026-09-14/checks/documentation.stderr",
+    "udt_positional_joint_compatibility_2026-09-14/checks/documentation.stdout",
+    "udt_positional_joint_compatibility_2026-09-14/checks/full406.capture_provenance.json",
+    "udt_positional_joint_compatibility_2026-09-14/checks/full406.json",
+    "udt_positional_joint_compatibility_2026-09-14/checks/full406.stderr",
+    "udt_positional_joint_compatibility_2026-09-14/checks/full406.stdout",
+    "udt_positional_joint_compatibility_2026-09-14/checks/interlock.capture_provenance.json",
+    "udt_positional_joint_compatibility_2026-09-14/checks/interlock.json",
+    "udt_positional_joint_compatibility_2026-09-14/checks/interlock.stderr",
+    "udt_positional_joint_compatibility_2026-09-14/checks/interlock.stdout",
+    "udt_positional_joint_compatibility_2026-09-14/checks/navigation.capture_provenance.json",
+    "udt_positional_joint_compatibility_2026-09-14/checks/navigation.json",
+    "udt_positional_joint_compatibility_2026-09-14/checks/navigation.stderr",
+    "udt_positional_joint_compatibility_2026-09-14/checks/navigation.stdout",
+    "udt_positional_joint_compatibility_2026-09-14/publication_adapter.py",
+    "udt_positional_joint_compatibility_2026-09-14/replay_interlock.py",
+    "udt_positional_joint_compatibility_2026-09-14/review/CHECK_PLAN.md",
+    "udt_positional_joint_compatibility_2026-09-14/review/FINAL_CANDIDATE_FREEZE.json",
+    "udt_positional_joint_compatibility_2026-09-14/review/FINAL_REVIEW.md",
+    "udt_positional_joint_compatibility_2026-09-14/review/INITIAL_FREEZE.json",
+    "udt_positional_joint_compatibility_2026-09-14/review/MAINTAINED_REVIEW.md",
+    "udt_positional_joint_compatibility_2026-09-14/review/RECORD.json",
+    "udt_positional_joint_compatibility_2026-09-14/review/RELEASE_TIME_REPAIR.md",
+    "udt_positional_joint_compatibility_2026-09-14/review/REPAIR_FREEZE.json",
+    "udt_positional_joint_compatibility_2026-09-14/review/SHA256SUMS",
+    "udt_positional_joint_compatibility_2026-09-14/review/SOURCE_FIRST.md",
+    "udt_positional_joint_compatibility_2026-09-14/review/check_independent.py",
+    "udt_positional_joint_compatibility_2026-09-14/review/independent.capture_provenance.json",
+    "udt_positional_joint_compatibility_2026-09-14/review/independent.json",
+    "udt_positional_joint_compatibility_2026-09-14/review/independent.stderr",
+    "udt_positional_joint_compatibility_2026-09-14/review/independent.stdout",
+    "udt_positional_joint_compatibility_2026-09-14/review/initial/00_CANDIDATE.md",
+    "udt_positional_joint_compatibility_2026-09-14/review/initial/01_DECISION_BRIEF.md",
+    "udt_positional_joint_compatibility_2026-09-14/review/initial/02_DEPENDENCY_IMPACT.tsv",
+    "udt_positional_joint_compatibility_2026-09-14/review/initial/03_UDT_RESEARCH_ROADMAP.md",
+    "udt_positional_joint_compatibility_2026-09-14/review/initial/04_PLAN.md",
+    "udt_positional_joint_compatibility_2026-09-14/review/initial/05_INDEX.md",
+    "udt_positional_joint_compatibility_2026-09-14/review/initial/06_MEMORY.md",
+    "udt_positional_joint_compatibility_2026-09-14/review/parent_replay.capture_provenance.json",
+    "udt_positional_joint_compatibility_2026-09-14/review/parent_replay.json",
+    "udt_positional_joint_compatibility_2026-09-14/review/parent_replay.stderr",
+    "udt_positional_joint_compatibility_2026-09-14/review/parent_replay.stdout",
+    "udt_positional_joint_compatibility_2026-09-14/review/release_time_repair_original/FINAL_REVIEW.md",
+    "udt_positional_joint_compatibility_2026-09-14/review/release_time_repair_original/RECORD.json",
+    "udt_positional_joint_compatibility_2026-09-14/review/release_time_repair_original/SHA256SUMS",
+    "udt_positional_joint_compatibility_2026-09-14/verify_documentation.py"
+  ],
+  "science_commit": "4a4b1b8ddede0f80bd32c6a1eda91672cbea5a3f",
+  "postpush_verified_utc": "2026-09-14T00:28:51.293825+00:00",
+  "postpush_refs": [
+    "4a4b1b8ddede0f80bd32c6a1eda91672cbea5a3f",
+    "4a4b1b8ddede0f80bd32c6a1eda91672cbea5a3f"
+  ],
+  "tracked_clean": true,
+  "original51_status_names_exact": true
+}
