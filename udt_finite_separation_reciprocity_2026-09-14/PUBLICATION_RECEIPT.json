@@ -1,0 +1,320 @@
+{
+  "package": "udt_finite_separation_reciprocity_2026-09-14",
+  "events": [
+    {
+      "utc": "2026-09-14T01:12:41.074492+00:00",
+      "command": [
+        "git",
+        "rev-parse",
+        "--abbrev-ref",
+        "HEAD"
+      ],
+      "exit": 0,
+      "stdout": "grok\n",
+      "stderr": ""
+    },
+    {
+      "utc": "2026-09-14T01:12:41.076173+00:00",
+      "command": [
+        "git",
+        "rev-parse",
+        "HEAD",
+        "origin/grok"
+      ],
+      "exit": 0,
+      "stdout": "8502fc3e02a9a35a6e376b0dc411e0754921bb0c\n8502fc3e02a9a35a6e376b0dc411e0754921bb0c\n",
+      "stderr": ""
+    },
+    {
+      "utc": "2026-09-14T01:12:41.077556+00:00",
+      "command": [
+        "git",
+        "diff",
+        "--cached",
+        "--name-only"
+      ],
+      "exit": 0,
+      "stdout": "",
+      "stderr": ""
+    },
+    {
+      "utc": "2026-09-14T01:12:41.084138+00:00",
+      "command": [
+        "git",
+        "diff",
+        "--name-only"
+      ],
+      "exit": 0,
+      "stdout": "INDEX.md\nMEMORY.md\nUDT_RESEARCH_ROADMAP.md\nudt_native_theory_research_plan_2026-09-13/PLAN.md\n",
+      "stderr": ""
+    },
+    {
+      "utc": "2026-09-14T01:12:41.091407+00:00",
+      "command": [
+        "git",
+        "status",
+        "--short",
+        "--untracked-files=all"
+      ],
+      "exit": 0,
+      "stdout": " M INDEX.md\n M MEMORY.md\n M UDT_RESEARCH_ROADMAP.md\n M udt_native_theory_research_plan_2026-09-13/PLAN.md\n?? 8_25/UDT_FOUNDING_VALUE_LAW_ANALYSIS.md\n?? 8_25/udt_extension_checks.py\n?? 8_25/udt_extension_minimality_response.md\n?? 8_25/udt_value_law_checks.py\n?? 8_25/udt_value_law_checks_llm1.py\n?? 8_25/udt_value_law_external_response.md\n?? UDT_Complete_Guardrails_and_Central_Science_Tracking.md\n?? UDT_Next_Step_After_Two_Stages.md\n?? UDT_Sequenced_Guardrails_and_Development_Work_Order.md\n?? udt_finite_separation_reciprocity_2026-09-14/AGENT_ALLOCATIONS.json\n?? udt_finite_separation_reciprocity_2026-09-14/BASIS_REPAIR_INITIAL.json\n?? udt_finite_separation_reciprocity_2026-09-14/BASIS_REPAIR_PLAN.md\n?? udt_finite_separation_reciprocity_2026-09-14/CANDIDATE.md\n?? udt_finite_separation_reciprocity_2026-09-14/CHECK_FREEZE.json\n?? udt_finite_separation_reciprocity_2026-09-14/CHECK_PLAN.md\n?? udt_finite_separation_reciprocity_2026-09-14/CLOSEOUT.md\n?? udt_finite_separation_reciprocity_2026-09-14/DECISION_BRIEF.md\n?? udt_finite_separation_reciprocity_2026-09-14/DEPENDENCY_IMPACT.tsv\n?? udt_finite_separation_reciprocity_2026-09-14/FIXED_PINS.json\n?? udt_finite_separation_reciprocity_2026-09-14/GATE_RECORD.md\n?? udt_finite_separation_reciprocity_2026-09-14/LAUNCH.json\n?? udt_finite_separation_reciprocity_2026-09-14/MAINTAINED_BEFORE.json\n?? udt_finite_separation_reciprocity_2026-09-14/SELECTED_PREMISES.tsv\n?? udt_finite_separation_reciprocity_2026-09-14/SOURCE_PINS.json\n?? udt_finite_separation_reciprocity_2026-09-14/TOOL_PINS.json\n?? udt_finite_separation_reciprocity_2026-09-14/WORK_ORDER.md\n?? udt_finite_separation_reciprocity_2026-09-14/WORK_RECORD.md\n?? udt_finite_separation_reciprocity_2026-09-14/basis_repair_initial/CANDIDATE.md\n?? udt_finite_separation_reciprocity_2026-09-14/basis_repair_initial/CHECK_FREEZE.json\n?? udt_finite_separation_reciprocity_2026-09-14/basis_repair_initial/CHECK_PLAN.md\n?? udt_finite_separation_reciprocity_2026-09-14/basis_repair_initial/DECISION_BRIEF.md\n?? udt_finite_separation_reciprocity_2026-09-14/basis_repair_initial/replay_finite.py\n?? udt_finite_separation_reciprocity_2026-09-14/checks/documentation.capture_provenance.json\n?? udt_finite_separation_reciprocity_2026-09-14/checks/documentation.json\n?? udt_finite_separation_reciprocity_2026-09-14/checks/documentation.stderr\n?? udt_finite_separation_reciprocity_2026-09-14/checks/finite.capture_provenance.json\n?? udt_finite_separation_reciprocity_2026-09-14/checks/finite.json\n?? udt_finite_separation_reciprocity_2026-09-14/checks/finite.stderr\n?? udt_finite_separation_reciprocity_2026-09-14/checks/finite_basis.capture_provenance.json\n?? udt_finite_separation_reciprocity_2026-09-14/checks/finite_basis.json\n?? udt_finite_separation_reciprocity_2026-09-14/checks/finite_basis.stderr\n?? udt_finite_separation_reciprocity_2026-09-14/checks/full406.capture_provenance.json\n?? udt_finite_separation_reciprocity_2026-09-14/checks/full406.json\n?? udt_finite_separation_reciprocity_2026-09-14/checks/full406.stderr\n?? udt_finite_separation_reciprocity_2026-09-14/checks/navigation.capture_provenance.json\n?? udt_finite_separation_reciprocity_2026-09-14/checks/navigation.json\n?? udt_finite_separation_reciprocity_2026-09-14/checks/navigation.stderr\n?? udt_finite_separation_reciprocity_2026-09-14/checks/navigation_basis.capture_provenance.json\n?? udt_finite_separation_reciprocity_2026-09-14/checks/navigation_basis.json\n?? udt_finite_separation_reciprocity_2026-09-14/checks/navigation_basis.stderr\n?? udt_finite_separation_reciprocity_2026-09-14/publication_adapter.py\n?? udt_finite_separation_reciprocity_2026-09-14/replay_finite.py\n?? udt_finite_separation_reciprocity_2026-09-14/review/BASIS_FOLLOWUP.md\n?? udt_finite_separation_reciprocity_2026-09-14/review/EXPOSURE_LOG.md\n?? udt_finite_separation_reciprocity_2026-09-14/review/FINAL_CANDIDATE_FREEZE.json\n?? udt_finite_separation_reciprocity_2026-09-14/review/FINAL_REVIEW.md\n?? udt_finite_separation_reciprocity_2026-09-14/review/INDEPENDENT_FREEZE.json\n?? udt_finite_separation_reciprocity_2026-09-14/review/INITIAL_FREEZE.json\n?? udt_finite_separation_reciprocity_2026-09-14/review/MAINTAINED_REVIEW.md\n?? udt_finite_separation_reciprocity_2026-09-14/review/RECORD.json\n?? udt_finite_separation_reciprocity_2026-09-14/review/REPAIR_FREEZE.json\n?? udt_finite_separation_reciprocity_2026-09-14/review/REVIEW_MANIFEST.sha256\n?? udt_finite_separation_reciprocity_2026-09-14/review/SOURCE_FIRST.md\n?? udt_finite_separation_reciprocity_2026-09-14/review/check_independent.py\n?? udt_finite_separation_reciprocity_2026-09-14/review/independent.capture_provenance.json\n?? udt_finite_separation_reciprocity_2026-09-14/review/independent.json\n?? udt_finite_separation_reciprocity_2026-09-14/review/independent.stderr\n?? udt_finite_separation_reciprocity_2026-09-14/review/initial/00_CANDIDATE.md\n?? udt_finite_separation_reciprocity_2026-09-14/review/initial/01_DECISION_BRIEF.md\n?? udt_finite_separation_reciprocity_2026-09-14/review/initial/02_DEPENDENCY_IMPACT.tsv\n?? udt_finite_separation_reciprocity_2026-09-14/review/initial/03_UDT_RESEARCH_ROADMAP.md\n?? udt_finite_separation_reciprocity_2026-09-14/review/initial/04_PLAN.md\n?? udt_finite_separation_reciprocity_2026-09-14/review/initial/05_INDEX.md\n?? udt_finite_separation_reciprocity_2026-09-14/review/initial/06_MEMORY.md\n?? udt_finite_separation_reciprocity_2026-09-14/review/initial_verdict/FINAL_REVIEW.md\n?? udt_finite_separation_reciprocity_2026-09-14/review/initial_verdict/MAINTAINED_REVIEW.md\n?? udt_finite_separation_reciprocity_2026-09-14/review/initial_verdict/RECORD.json\n?? udt_finite_separation_reciprocity_2026-09-14/review/initial_verdict/REVIEW_MANIFEST.sha256\n?? udt_finite_separation_reciprocity_2026-09-14/review/parent_replay.capture_provenance.json\n?? udt_finite_separation_reciprocity_2026-09-14/review/parent_replay.json\n?? udt_finite_separation_reciprocity_2026-09-14/review/parent_replay.stderr\n?? udt_finite_separation_reciprocity_2026-09-14/verify_documentation.py\n?? udt_native_onshell_timelive_reset_owner_audit_2026-08-10/CANDIDATE_LAW_MAP.tsv\n?? udt_native_onshell_timelive_reset_owner_audit_2026-08-10/DERIVATION_RESULT.json\n?? udt_native_onshell_timelive_reset_owner_audit_2026-08-10/EQUATION_OWNERSHIP_ATLAS.tsv\n?? udt_native_onshell_timelive_reset_owner_audit_2026-08-10/SOURCE_SCOPE_CLARIFICATION.md\n?? udt_native_onshell_timelive_reset_owner_audit_2026-08-10/derive_owner_atlas.py\n?? udt_native_onshell_timelive_reset_owner_audit_2026-08-10/run_catch_proofs.py\n?? udt_native_onshell_timelive_reset_owner_audit_2026-08-10/verify_owner_independent.py\n?? udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/ADVERSARIAL_REVIEW_REQUEST.md\n?? udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/AUDIT_REPORT.md\n?? udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/CATCH_PROOF_RESULT.json\n?? udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/DERIVATION_RESULT.json\n?? udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/EVIDENCE_GATES.md\n?? udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/EXACT_DERIVATION.md\n?? udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/INDEPENDENT_VERIFICATION.json\n?? udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/LAY_REPORT.md\n?? udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/STATUS_LEDGER.tsv\n?? udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/VERIFICATION_RESULT.json\n?? udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/WITNESS_ATLAS.tsv\n?? udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/build_review_intake.py\n?? udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/derive_regime_flow.py\n?? udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/run_catch_proofs.py\n?? udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/verify_independent.py\n?? udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/verify_package.py\n?? udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/AUDIT_REPORT.md\n?? udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/CATCH_PROOF_RESULT.json\n?? udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/DERIVATION_RESULT.json\n?? udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/EVIDENCE_GATES.md\n?? udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/EXACT_DERIVATION.md\n?? udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/INDEPENDENT_RADAU_REPLAY.tsv\n?? udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/INDEPENDENT_VERIFICATION.json\n?? udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/LAY_REPORT.md\n?? udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/PREREGISTRATION_EXECUTION_NOTE.md\n?? udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/PROFILE_COMPATIBILITY_ATLAS.tsv\n?? udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/REVIEW_DISPATCH.md\n?? udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/RUN_CHECKPOINT.tsv\n?? udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/STATUS_LEDGER.tsv\n?? udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/VERIFICATION_RESULT.json\n?? udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/build_review_manifest.py\n?? udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/derive_compatibility_atlas.py\n?? udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/run_catch_proofs.py\n?? udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/verify_independent.py\n?? udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/verify_package.py\n",
+      "stderr": ""
+    },
+    {
+      "utc": "2026-09-14T01:13:11.729223+00:00",
+      "command": [
+        "git",
+        "add",
+        "-f",
+        "--pathspec-from-file=/tmp/udt_finite_separation_reciprocity_2026-09-14.nul",
+        "--pathspec-file-nul"
+      ],
+      "exit": 0,
+      "stdout": "",
+      "stderr": ""
+    },
+    {
+      "utc": "2026-09-14T01:13:11.780588+00:00",
+      "command": [
+        "git",
+        "diff",
+        "--cached",
+        "--check"
+      ],
+      "exit": 0,
+      "stdout": "",
+      "stderr": ""
+    },
+    {
+      "utc": "2026-09-14T01:13:11.791103+00:00",
+      "command": [
+        "git",
+        "diff",
+        "--cached",
+        "--name-only"
+      ],
+      "exit": 0,
+      "stdout": "INDEX.md\nMEMORY.md\nUDT_RESEARCH_ROADMAP.md\nudt_finite_separation_reciprocity_2026-09-14/AGENT_ALLOCATIONS.json\nudt_finite_separation_reciprocity_2026-09-14/BASIS_REPAIR_INITIAL.json\nudt_finite_separation_reciprocity_2026-09-14/BASIS_REPAIR_PLAN.md\nudt_finite_separation_reciprocity_2026-09-14/CANDIDATE.md\nudt_finite_separation_reciprocity_2026-09-14/CHECK_FREEZE.json\nudt_finite_separation_reciprocity_2026-09-14/CHECK_PLAN.md\nudt_finite_separation_reciprocity_2026-09-14/CLOSEOUT.md\nudt_finite_separation_reciprocity_2026-09-14/DECISION_BRIEF.md\nudt_finite_separation_reciprocity_2026-09-14/DEPENDENCY_IMPACT.tsv\nudt_finite_separation_reciprocity_2026-09-14/FIXED_PINS.json\nudt_finite_separation_reciprocity_2026-09-14/GATE_RECORD.md\nudt_finite_separation_reciprocity_2026-09-14/LAUNCH.json\nudt_finite_separation_reciprocity_2026-09-14/MAINTAINED_BEFORE.json\nudt_finite_separation_reciprocity_2026-09-14/PUBLISH_PLAN.json\nudt_finite_separation_reciprocity_2026-09-14/SELECTED_PREMISES.tsv\nudt_finite_separation_reciprocity_2026-09-14/SHA256SUMS.json\nudt_finite_separation_reciprocity_2026-09-14/SOURCE_PINS.json\nudt_finite_separation_reciprocity_2026-09-14/TOOL_PINS.json\nudt_finite_separation_reciprocity_2026-09-14/WORK_ORDER.md\nudt_finite_separation_reciprocity_2026-09-14/WORK_RECORD.md\nudt_finite_separation_reciprocity_2026-09-14/basis_repair_initial/CANDIDATE.md\nudt_finite_separation_reciprocity_2026-09-14/basis_repair_initial/CHECK_FREEZE.json\nudt_finite_separation_reciprocity_2026-09-14/basis_repair_initial/CHECK_PLAN.md\nudt_finite_separation_reciprocity_2026-09-14/basis_repair_initial/DECISION_BRIEF.md\nudt_finite_separation_reciprocity_2026-09-14/basis_repair_initial/replay_finite.py\nudt_finite_separation_reciprocity_2026-09-14/checks/documentation.capture_provenance.json\nudt_finite_separation_reciprocity_2026-09-14/checks/documentation.json\nudt_finite_separation_reciprocity_2026-09-14/checks/documentation.stderr\nudt_finite_separation_reciprocity_2026-09-14/checks/documentation.stdout\nudt_finite_separation_reciprocity_2026-09-14/checks/finite.capture_provenance.json\nudt_finite_separation_reciprocity_2026-09-14/checks/finite.json\nudt_finite_separation_reciprocity_2026-09-14/checks/finite.stderr\nudt_finite_separation_reciprocity_2026-09-14/checks/finite.stdout\nudt_finite_separation_reciprocity_2026-09-14/checks/finite_basis.capture_provenance.json\nudt_finite_separation_reciprocity_2026-09-14/checks/finite_basis.json\nudt_finite_separation_reciprocity_2026-09-14/checks/finite_basis.stderr\nudt_finite_separation_reciprocity_2026-09-14/checks/finite_basis.stdout\nudt_finite_separation_reciprocity_2026-09-14/checks/full406.capture_provenance.json\nudt_finite_separation_reciprocity_2026-09-14/checks/full406.json\nudt_finite_separation_reciprocity_2026-09-14/checks/full406.stderr\nudt_finite_separation_reciprocity_2026-09-14/checks/full406.stdout\nudt_finite_separation_reciprocity_2026-09-14/checks/navigation.capture_provenance.json\nudt_finite_separation_reciprocity_2026-09-14/checks/navigation.json\nudt_finite_separation_reciprocity_2026-09-14/checks/navigation.stderr\nudt_finite_separation_reciprocity_2026-09-14/checks/navigation.stdout\nudt_finite_separation_reciprocity_2026-09-14/checks/navigation_basis.capture_provenance.json\nudt_finite_separation_reciprocity_2026-09-14/checks/navigation_basis.json\nudt_finite_separation_reciprocity_2026-09-14/checks/navigation_basis.stderr\nudt_finite_separation_reciprocity_2026-09-14/checks/navigation_basis.stdout\nudt_finite_separation_reciprocity_2026-09-14/publication_adapter.py\nudt_finite_separation_reciprocity_2026-09-14/replay_finite.py\nudt_finite_separation_reciprocity_2026-09-14/review/BASIS_FOLLOWUP.md\nudt_finite_separation_reciprocity_2026-09-14/review/EXPOSURE_LOG.md\nudt_finite_separation_reciprocity_2026-09-14/review/FINAL_CANDIDATE_FREEZE.json\nudt_finite_separation_reciprocity_2026-09-14/review/FINAL_REVIEW.md\nudt_finite_separation_reciprocity_2026-09-14/review/INDEPENDENT_FREEZE.json\nudt_finite_separation_reciprocity_2026-09-14/review/INITIAL_FREEZE.json\nudt_finite_separation_reciprocity_2026-09-14/review/MAINTAINED_REVIEW.md\nudt_finite_separation_reciprocity_2026-09-14/review/RECORD.json\nudt_finite_separation_reciprocity_2026-09-14/review/REPAIR_FREEZE.json\nudt_finite_separation_reciprocity_2026-09-14/review/REVIEW_MANIFEST.sha256\nudt_finite_separation_reciprocity_2026-09-14/review/SOURCE_FIRST.md\nudt_finite_separation_reciprocity_2026-09-14/review/check_independent.py\nudt_finite_separation_reciprocity_2026-09-14/review/independent.capture_provenance.json\nudt_finite_separation_reciprocity_2026-09-14/review/independent.json\nudt_finite_separation_reciprocity_2026-09-14/review/independent.stderr\nudt_finite_separation_reciprocity_2026-09-14/review/independent.stdout\nudt_finite_separation_reciprocity_2026-09-14/review/initial/00_CANDIDATE.md\nudt_finite_separation_reciprocity_2026-09-14/review/initial/01_DECISION_BRIEF.md\nudt_finite_separation_reciprocity_2026-09-14/review/initial/02_DEPENDENCY_IMPACT.tsv\nudt_finite_separation_reciprocity_2026-09-14/review/initial/03_UDT_RESEARCH_ROADMAP.md\nudt_finite_separation_reciprocity_2026-09-14/review/initial/04_PLAN.md\nudt_finite_separation_reciprocity_2026-09-14/review/initial/05_INDEX.md\nudt_finite_separation_reciprocity_2026-09-14/review/initial/06_MEMORY.md\nudt_finite_separation_reciprocity_2026-09-14/review/initial_verdict/FINAL_REVIEW.md\nudt_finite_separation_reciprocity_2026-09-14/review/initial_verdict/MAINTAINED_REVIEW.md\nudt_finite_separation_reciprocity_2026-09-14/review/initial_verdict/RECORD.json\nudt_finite_separation_reciprocity_2026-09-14/review/initial_verdict/REVIEW_MANIFEST.sha256\nudt_finite_separation_reciprocity_2026-09-14/review/parent_replay.capture_provenance.json\nudt_finite_separation_reciprocity_2026-09-14/review/parent_replay.json\nudt_finite_separation_reciprocity_2026-09-14/review/parent_replay.stderr\nudt_finite_separation_reciprocity_2026-09-14/review/parent_replay.stdout\nudt_finite_separation_reciprocity_2026-09-14/verify_documentation.py\nudt_native_theory_research_plan_2026-09-13/PLAN.md\n",
+      "stderr": ""
+    },
+    {
+      "utc": "2026-09-14T01:13:15.740963+00:00",
+      "command": [
+        "git",
+        "diff",
+        "--cached",
+        "--check"
+      ],
+      "exit": 0,
+      "stdout": "",
+      "stderr": ""
+    },
+    {
+      "utc": "2026-09-14T01:13:15.748543+00:00",
+      "command": [
+        "git",
+        "diff",
+        "--cached",
+        "--name-only"
+      ],
+      "exit": 0,
+      "stdout": "INDEX.md\nMEMORY.md\nUDT_RESEARCH_ROADMAP.md\nudt_finite_separation_reciprocity_2026-09-14/AGENT_ALLOCATIONS.json\nudt_finite_separation_reciprocity_2026-09-14/BASIS_REPAIR_INITIAL.json\nudt_finite_separation_reciprocity_2026-09-14/BASIS_REPAIR_PLAN.md\nudt_finite_separation_reciprocity_2026-09-14/CANDIDATE.md\nudt_finite_separation_reciprocity_2026-09-14/CHECK_FREEZE.json\nudt_finite_separation_reciprocity_2026-09-14/CHECK_PLAN.md\nudt_finite_separation_reciprocity_2026-09-14/CLOSEOUT.md\nudt_finite_separation_reciprocity_2026-09-14/DECISION_BRIEF.md\nudt_finite_separation_reciprocity_2026-09-14/DEPENDENCY_IMPACT.tsv\nudt_finite_separation_reciprocity_2026-09-14/FIXED_PINS.json\nudt_finite_separation_reciprocity_2026-09-14/GATE_RECORD.md\nudt_finite_separation_reciprocity_2026-09-14/LAUNCH.json\nudt_finite_separation_reciprocity_2026-09-14/MAINTAINED_BEFORE.json\nudt_finite_separation_reciprocity_2026-09-14/PUBLISH_PLAN.json\nudt_finite_separation_reciprocity_2026-09-14/SELECTED_PREMISES.tsv\nudt_finite_separation_reciprocity_2026-09-14/SHA256SUMS.json\nudt_finite_separation_reciprocity_2026-09-14/SOURCE_PINS.json\nudt_finite_separation_reciprocity_2026-09-14/TOOL_PINS.json\nudt_finite_separation_reciprocity_2026-09-14/WORK_ORDER.md\nudt_finite_separation_reciprocity_2026-09-14/WORK_RECORD.md\nudt_finite_separation_reciprocity_2026-09-14/basis_repair_initial/CANDIDATE.md\nudt_finite_separation_reciprocity_2026-09-14/basis_repair_initial/CHECK_FREEZE.json\nudt_finite_separation_reciprocity_2026-09-14/basis_repair_initial/CHECK_PLAN.md\nudt_finite_separation_reciprocity_2026-09-14/basis_repair_initial/DECISION_BRIEF.md\nudt_finite_separation_reciprocity_2026-09-14/basis_repair_initial/replay_finite.py\nudt_finite_separation_reciprocity_2026-09-14/checks/documentation.capture_provenance.json\nudt_finite_separation_reciprocity_2026-09-14/checks/documentation.json\nudt_finite_separation_reciprocity_2026-09-14/checks/documentation.stderr\nudt_finite_separation_reciprocity_2026-09-14/checks/documentation.stdout\nudt_finite_separation_reciprocity_2026-09-14/checks/finite.capture_provenance.json\nudt_finite_separation_reciprocity_2026-09-14/checks/finite.json\nudt_finite_separation_reciprocity_2026-09-14/checks/finite.stderr\nudt_finite_separation_reciprocity_2026-09-14/checks/finite.stdout\nudt_finite_separation_reciprocity_2026-09-14/checks/finite_basis.capture_provenance.json\nudt_finite_separation_reciprocity_2026-09-14/checks/finite_basis.json\nudt_finite_separation_reciprocity_2026-09-14/checks/finite_basis.stderr\nudt_finite_separation_reciprocity_2026-09-14/checks/finite_basis.stdout\nudt_finite_separation_reciprocity_2026-09-14/checks/full406.capture_provenance.json\nudt_finite_separation_reciprocity_2026-09-14/checks/full406.json\nudt_finite_separation_reciprocity_2026-09-14/checks/full406.stderr\nudt_finite_separation_reciprocity_2026-09-14/checks/full406.stdout\nudt_finite_separation_reciprocity_2026-09-14/checks/navigation.capture_provenance.json\nudt_finite_separation_reciprocity_2026-09-14/checks/navigation.json\nudt_finite_separation_reciprocity_2026-09-14/checks/navigation.stderr\nudt_finite_separation_reciprocity_2026-09-14/checks/navigation.stdout\nudt_finite_separation_reciprocity_2026-09-14/checks/navigation_basis.capture_provenance.json\nudt_finite_separation_reciprocity_2026-09-14/checks/navigation_basis.json\nudt_finite_separation_reciprocity_2026-09-14/checks/navigation_basis.stderr\nudt_finite_separation_reciprocity_2026-09-14/checks/navigation_basis.stdout\nudt_finite_separation_reciprocity_2026-09-14/publication_adapter.py\nudt_finite_separation_reciprocity_2026-09-14/replay_finite.py\nudt_finite_separation_reciprocity_2026-09-14/review/BASIS_FOLLOWUP.md\nudt_finite_separation_reciprocity_2026-09-14/review/EXPOSURE_LOG.md\nudt_finite_separation_reciprocity_2026-09-14/review/FINAL_CANDIDATE_FREEZE.json\nudt_finite_separation_reciprocity_2026-09-14/review/FINAL_REVIEW.md\nudt_finite_separation_reciprocity_2026-09-14/review/INDEPENDENT_FREEZE.json\nudt_finite_separation_reciprocity_2026-09-14/review/INITIAL_FREEZE.json\nudt_finite_separation_reciprocity_2026-09-14/review/MAINTAINED_REVIEW.md\nudt_finite_separation_reciprocity_2026-09-14/review/RECORD.json\nudt_finite_separation_reciprocity_2026-09-14/review/REPAIR_FREEZE.json\nudt_finite_separation_reciprocity_2026-09-14/review/REVIEW_MANIFEST.sha256\nudt_finite_separation_reciprocity_2026-09-14/review/SOURCE_FIRST.md\nudt_finite_separation_reciprocity_2026-09-14/review/check_independent.py\nudt_finite_separation_reciprocity_2026-09-14/review/independent.capture_provenance.json\nudt_finite_separation_reciprocity_2026-09-14/review/independent.json\nudt_finite_separation_reciprocity_2026-09-14/review/independent.stderr\nudt_finite_separation_reciprocity_2026-09-14/review/independent.stdout\nudt_finite_separation_reciprocity_2026-09-14/review/initial/00_CANDIDATE.md\nudt_finite_separation_reciprocity_2026-09-14/review/initial/01_DECISION_BRIEF.md\nudt_finite_separation_reciprocity_2026-09-14/review/initial/02_DEPENDENCY_IMPACT.tsv\nudt_finite_separation_reciprocity_2026-09-14/review/initial/03_UDT_RESEARCH_ROADMAP.md\nudt_finite_separation_reciprocity_2026-09-14/review/initial/04_PLAN.md\nudt_finite_separation_reciprocity_2026-09-14/review/initial/05_INDEX.md\nudt_finite_separation_reciprocity_2026-09-14/review/initial/06_MEMORY.md\nudt_finite_separation_reciprocity_2026-09-14/review/initial_verdict/FINAL_REVIEW.md\nudt_finite_separation_reciprocity_2026-09-14/review/initial_verdict/MAINTAINED_REVIEW.md\nudt_finite_separation_reciprocity_2026-09-14/review/initial_verdict/RECORD.json\nudt_finite_separation_reciprocity_2026-09-14/review/initial_verdict/REVIEW_MANIFEST.sha256\nudt_finite_separation_reciprocity_2026-09-14/review/parent_replay.capture_provenance.json\nudt_finite_separation_reciprocity_2026-09-14/review/parent_replay.json\nudt_finite_separation_reciprocity_2026-09-14/review/parent_replay.stderr\nudt_finite_separation_reciprocity_2026-09-14/review/parent_replay.stdout\nudt_finite_separation_reciprocity_2026-09-14/verify_documentation.py\nudt_native_theory_research_plan_2026-09-13/PLAN.md\n",
+      "stderr": ""
+    },
+    {
+      "utc": "2026-09-14T01:13:15.753669+00:00",
+      "command": [
+        "git",
+        "commit",
+        "-m",
+        "Record finite-separation reciprocity scope and field-equation search stop"
+      ],
+      "exit": 0,
+      "stdout": "[grok 3a91aa7c] Record finite-separation reciprocity scope and field-equation search stop\n 87 files changed, 5651 insertions(+), 3 deletions(-)\n create mode 100644 udt_finite_separation_reciprocity_2026-09-14/AGENT_ALLOCATIONS.json\n create mode 100644 udt_finite_separation_reciprocity_2026-09-14/BASIS_REPAIR_INITIAL.json\n create mode 100644 udt_finite_separation_reciprocity_2026-09-14/BASIS_REPAIR_PLAN.md\n create mode 100644 udt_finite_separation_reciprocity_2026-09-14/CANDIDATE.md\n create mode 100644 udt_finite_separation_reciprocity_2026-09-14/CHECK_FREEZE.json\n create mode 100644 udt_finite_separation_reciprocity_2026-09-14/CHECK_PLAN.md\n create mode 100644 udt_finite_separation_reciprocity_2026-09-14/CLOSEOUT.md\n create mode 100644 udt_finite_separation_reciprocity_2026-09-14/DECISION_BRIEF.md\n create mode 100644 udt_finite_separation_reciprocity_2026-09-14/DEPENDENCY_IMPACT.tsv\n create mode 100644 udt_finite_separation_reciprocity_2026-09-14/FIXED_PINS.json\n create mode 100644 udt_finite_separation_reciprocity_2026-09-14/GATE_RECORD.md\n create mode 100644 udt_finite_separation_reciprocity_2026-09-14/LAUNCH.json\n create mode 100644 udt_finite_separation_reciprocity_2026-09-14/MAINTAINED_BEFORE.json\n create mode 100644 udt_finite_separation_reciprocity_2026-09-14/PUBLISH_PLAN.json\n create mode 100644 udt_finite_separation_reciprocity_2026-09-14/SELECTED_PREMISES.tsv\n create mode 100644 udt_finite_separation_reciprocity_2026-09-14/SHA256SUMS.json\n create mode 100644 udt_finite_separation_reciprocity_2026-09-14/SOURCE_PINS.json\n create mode 100644 udt_finite_separation_reciprocity_2026-09-14/TOOL_PINS.json\n create mode 100644 udt_finite_separation_reciprocity_2026-09-14/WORK_ORDER.md\n create mode 100644 udt_finite_separation_reciprocity_2026-09-14/WORK_RECORD.md\n create mode 100644 udt_finite_separation_reciprocity_2026-09-14/basis_repair_initial/CANDIDATE.md\n create mode 100644 udt_finite_separation_reciprocity_2026-09-14/basis_repair_initial/CHECK_FREEZE.json\n create mode 100644 udt_finite_separation_reciprocity_2026-09-14/basis_repair_initial/CHECK_PLAN.md\n create mode 100644 udt_finite_separation_reciprocity_2026-09-14/basis_repair_initial/DECISION_BRIEF.md\n create mode 100644 udt_finite_separation_reciprocity_2026-09-14/basis_repair_initial/replay_finite.py\n create mode 100644 udt_finite_separation_reciprocity_2026-09-14/checks/documentation.capture_provenance.json\n create mode 100644 udt_finite_separation_reciprocity_2026-09-14/checks/documentation.json\n create mode 100644 udt_finite_separation_reciprocity_2026-09-14/checks/documentation.stderr\n create mode 100644 udt_finite_separation_reciprocity_2026-09-14/checks/documentation.stdout\n create mode 100644 udt_finite_separation_reciprocity_2026-09-14/checks/finite.capture_provenance.json\n create mode 100644 udt_finite_separation_reciprocity_2026-09-14/checks/finite.json\n create mode 100644 udt_finite_separation_reciprocity_2026-09-14/checks/finite.stderr\n create mode 100644 udt_finite_separation_reciprocity_2026-09-14/checks/finite.stdout\n create mode 100644 udt_finite_separation_reciprocity_2026-09-14/checks/finite_basis.capture_provenance.json\n create mode 100644 udt_finite_separation_reciprocity_2026-09-14/checks/finite_basis.json\n create mode 100644 udt_finite_separation_reciprocity_2026-09-14/checks/finite_basis.stderr\n create mode 100644 udt_finite_separation_reciprocity_2026-09-14/checks/finite_basis.stdout\n create mode 100644 udt_finite_separation_reciprocity_2026-09-14/checks/full406.capture_provenance.json\n create mode 100644 udt_finite_separation_reciprocity_2026-09-14/checks/full406.json\n create mode 100644 udt_finite_separation_reciprocity_2026-09-14/checks/full406.stderr\n create mode 100644 udt_finite_separation_reciprocity_2026-09-14/checks/full406.stdout\n create mode 100644 udt_finite_separation_reciprocity_2026-09-14/checks/navigation.capture_provenance.json\n create mode 100644 udt_finite_separation_reciprocity_2026-09-14/checks/navigation.json\n create mode 100644 udt_finite_separation_reciprocity_2026-09-14/checks/navigation.stderr\n create mode 100644 udt_finite_separation_reciprocity_2026-09-14/checks/navigation.stdout\n create mode 100644 udt_finite_separation_reciprocity_2026-09-14/checks/navigation_basis.capture_provenance.json\n create mode 100644 udt_finite_separation_reciprocity_2026-09-14/checks/navigation_basis.json\n create mode 100644 udt_finite_separation_reciprocity_2026-09-14/checks/navigation_basis.stderr\n create mode 100644 udt_finite_separation_reciprocity_2026-09-14/checks/navigation_basis.stdout\n create mode 100644 udt_finite_separation_reciprocity_2026-09-14/publication_adapter.py\n create mode 100644 udt_finite_separation_reciprocity_2026-09-14/replay_finite.py\n create mode 100644 udt_finite_separation_reciprocity_2026-09-14/review/BASIS_FOLLOWUP.md\n create mode 100644 udt_finite_separation_reciprocity_2026-09-14/review/EXPOSURE_LOG.md\n create mode 100644 udt_finite_separation_reciprocity_2026-09-14/review/FINAL_CANDIDATE_FREEZE.json\n create mode 100644 udt_finite_separation_reciprocity_2026-09-14/review/FINAL_REVIEW.md\n create mode 100644 udt_finite_separation_reciprocity_2026-09-14/review/INDEPENDENT_FREEZE.json\n create mode 100644 udt_finite_separation_reciprocity_2026-09-14/review/INITIAL_FREEZE.json\n create mode 100644 udt_finite_separation_reciprocity_2026-09-14/review/MAINTAINED_REVIEW.md\n create mode 100644 udt_finite_separation_reciprocity_2026-09-14/review/RECORD.json\n create mode 100644 udt_finite_separation_reciprocity_2026-09-14/review/REPAIR_FREEZE.json\n create mode 100644 udt_finite_separation_reciprocity_2026-09-14/review/REVIEW_MANIFEST.sha256\n create mode 100644 udt_finite_separation_reciprocity_2026-09-14/review/SOURCE_FIRST.md\n create mode 100644 udt_finite_separation_reciprocity_2026-09-14/review/check_independent.py\n create mode 100644 udt_finite_separation_reciprocity_2026-09-14/review/independent.capture_provenance.json\n create mode 100644 udt_finite_separation_reciprocity_2026-09-14/review/independent.json\n create mode 100644 udt_finite_separation_reciprocity_2026-09-14/review/independent.stderr\n create mode 100644 udt_finite_separation_reciprocity_2026-09-14/review/independent.stdout\n create mode 100644 udt_finite_separation_reciprocity_2026-09-14/review/initial/00_CANDIDATE.md\n create mode 100644 udt_finite_separation_reciprocity_2026-09-14/review/initial/01_DECISION_BRIEF.md\n create mode 100644 udt_finite_separation_reciprocity_2026-09-14/review/initial/02_DEPENDENCY_IMPACT.tsv\n create mode 100644 udt_finite_separation_reciprocity_2026-09-14/review/initial/03_UDT_RESEARCH_ROADMAP.md\n create mode 100644 udt_finite_separation_reciprocity_2026-09-14/review/initial/04_PLAN.md\n create mode 100644 udt_finite_separation_reciprocity_2026-09-14/review/initial/05_INDEX.md\n create mode 100644 udt_finite_separation_reciprocity_2026-09-14/review/initial/06_MEMORY.md\n create mode 100644 udt_finite_separation_reciprocity_2026-09-14/review/initial_verdict/FINAL_REVIEW.md\n create mode 100644 udt_finite_separation_reciprocity_2026-09-14/review/initial_verdict/MAINTAINED_REVIEW.md\n create mode 100644 udt_finite_separation_reciprocity_2026-09-14/review/initial_verdict/RECORD.json\n create mode 100644 udt_finite_separation_reciprocity_2026-09-14/review/initial_verdict/REVIEW_MANIFEST.sha256\n create mode 100644 udt_finite_separation_reciprocity_2026-09-14/review/parent_replay.capture_provenance.json\n create mode 100644 udt_finite_separation_reciprocity_2026-09-14/review/parent_replay.json\n create mode 100644 udt_finite_separation_reciprocity_2026-09-14/review/parent_replay.stderr\n create mode 100644 udt_finite_separation_reciprocity_2026-09-14/review/parent_replay.stdout\n create mode 100644 udt_finite_separation_reciprocity_2026-09-14/verify_documentation.py\n",
+      "stderr": ""
+    },
+    {
+      "utc": "2026-09-14T01:13:15.784576+00:00",
+      "command": [
+        "git",
+        "rev-parse",
+        "HEAD"
+      ],
+      "exit": 0,
+      "stdout": "3a91aa7cc5a4253abaa4c5094aa9fdcb57c6a445\n",
+      "stderr": ""
+    },
+    {
+      "utc": "2026-09-14T01:13:15.786056+00:00",
+      "command": [
+        "git",
+        "diff-tree",
+        "--no-commit-id",
+        "--name-only",
+        "-r",
+        "HEAD"
+      ],
+      "exit": 0,
+      "stdout": "INDEX.md\nMEMORY.md\nUDT_RESEARCH_ROADMAP.md\nudt_finite_separation_reciprocity_2026-09-14/AGENT_ALLOCATIONS.json\nudt_finite_separation_reciprocity_2026-09-14/BASIS_REPAIR_INITIAL.json\nudt_finite_separation_reciprocity_2026-09-14/BASIS_REPAIR_PLAN.md\nudt_finite_separation_reciprocity_2026-09-14/CANDIDATE.md\nudt_finite_separation_reciprocity_2026-09-14/CHECK_FREEZE.json\nudt_finite_separation_reciprocity_2026-09-14/CHECK_PLAN.md\nudt_finite_separation_reciprocity_2026-09-14/CLOSEOUT.md\nudt_finite_separation_reciprocity_2026-09-14/DECISION_BRIEF.md\nudt_finite_separation_reciprocity_2026-09-14/DEPENDENCY_IMPACT.tsv\nudt_finite_separation_reciprocity_2026-09-14/FIXED_PINS.json\nudt_finite_separation_reciprocity_2026-09-14/GATE_RECORD.md\nudt_finite_separation_reciprocity_2026-09-14/LAUNCH.json\nudt_finite_separation_reciprocity_2026-09-14/MAINTAINED_BEFORE.json\nudt_finite_separation_reciprocity_2026-09-14/PUBLISH_PLAN.json\nudt_finite_separation_reciprocity_2026-09-14/SELECTED_PREMISES.tsv\nudt_finite_separation_reciprocity_2026-09-14/SHA256SUMS.json\nudt_finite_separation_reciprocity_2026-09-14/SOURCE_PINS.json\nudt_finite_separation_reciprocity_2026-09-14/TOOL_PINS.json\nudt_finite_separation_reciprocity_2026-09-14/WORK_ORDER.md\nudt_finite_separation_reciprocity_2026-09-14/WORK_RECORD.md\nudt_finite_separation_reciprocity_2026-09-14/basis_repair_initial/CANDIDATE.md\nudt_finite_separation_reciprocity_2026-09-14/basis_repair_initial/CHECK_FREEZE.json\nudt_finite_separation_reciprocity_2026-09-14/basis_repair_initial/CHECK_PLAN.md\nudt_finite_separation_reciprocity_2026-09-14/basis_repair_initial/DECISION_BRIEF.md\nudt_finite_separation_reciprocity_2026-09-14/basis_repair_initial/replay_finite.py\nudt_finite_separation_reciprocity_2026-09-14/checks/documentation.capture_provenance.json\nudt_finite_separation_reciprocity_2026-09-14/checks/documentation.json\nudt_finite_separation_reciprocity_2026-09-14/checks/documentation.stderr\nudt_finite_separation_reciprocity_2026-09-14/checks/documentation.stdout\nudt_finite_separation_reciprocity_2026-09-14/checks/finite.capture_provenance.json\nudt_finite_separation_reciprocity_2026-09-14/checks/finite.json\nudt_finite_separation_reciprocity_2026-09-14/checks/finite.stderr\nudt_finite_separation_reciprocity_2026-09-14/checks/finite.stdout\nudt_finite_separation_reciprocity_2026-09-14/checks/finite_basis.capture_provenance.json\nudt_finite_separation_reciprocity_2026-09-14/checks/finite_basis.json\nudt_finite_separation_reciprocity_2026-09-14/checks/finite_basis.stderr\nudt_finite_separation_reciprocity_2026-09-14/checks/finite_basis.stdout\nudt_finite_separation_reciprocity_2026-09-14/checks/full406.capture_provenance.json\nudt_finite_separation_reciprocity_2026-09-14/checks/full406.json\nudt_finite_separation_reciprocity_2026-09-14/checks/full406.stderr\nudt_finite_separation_reciprocity_2026-09-14/checks/full406.stdout\nudt_finite_separation_reciprocity_2026-09-14/checks/navigation.capture_provenance.json\nudt_finite_separation_reciprocity_2026-09-14/checks/navigation.json\nudt_finite_separation_reciprocity_2026-09-14/checks/navigation.stderr\nudt_finite_separation_reciprocity_2026-09-14/checks/navigation.stdout\nudt_finite_separation_reciprocity_2026-09-14/checks/navigation_basis.capture_provenance.json\nudt_finite_separation_reciprocity_2026-09-14/checks/navigation_basis.json\nudt_finite_separation_reciprocity_2026-09-14/checks/navigation_basis.stderr\nudt_finite_separation_reciprocity_2026-09-14/checks/navigation_basis.stdout\nudt_finite_separation_reciprocity_2026-09-14/publication_adapter.py\nudt_finite_separation_reciprocity_2026-09-14/replay_finite.py\nudt_finite_separation_reciprocity_2026-09-14/review/BASIS_FOLLOWUP.md\nudt_finite_separation_reciprocity_2026-09-14/review/EXPOSURE_LOG.md\nudt_finite_separation_reciprocity_2026-09-14/review/FINAL_CANDIDATE_FREEZE.json\nudt_finite_separation_reciprocity_2026-09-14/review/FINAL_REVIEW.md\nudt_finite_separation_reciprocity_2026-09-14/review/INDEPENDENT_FREEZE.json\nudt_finite_separation_reciprocity_2026-09-14/review/INITIAL_FREEZE.json\nudt_finite_separation_reciprocity_2026-09-14/review/MAINTAINED_REVIEW.md\nudt_finite_separation_reciprocity_2026-09-14/review/RECORD.json\nudt_finite_separation_reciprocity_2026-09-14/review/REPAIR_FREEZE.json\nudt_finite_separation_reciprocity_2026-09-14/review/REVIEW_MANIFEST.sha256\nudt_finite_separation_reciprocity_2026-09-14/review/SOURCE_FIRST.md\nudt_finite_separation_reciprocity_2026-09-14/review/check_independent.py\nudt_finite_separation_reciprocity_2026-09-14/review/independent.capture_provenance.json\nudt_finite_separation_reciprocity_2026-09-14/review/independent.json\nudt_finite_separation_reciprocity_2026-09-14/review/independent.stderr\nudt_finite_separation_reciprocity_2026-09-14/review/independent.stdout\nudt_finite_separation_reciprocity_2026-09-14/review/initial/00_CANDIDATE.md\nudt_finite_separation_reciprocity_2026-09-14/review/initial/01_DECISION_BRIEF.md\nudt_finite_separation_reciprocity_2026-09-14/review/initial/02_DEPENDENCY_IMPACT.tsv\nudt_finite_separation_reciprocity_2026-09-14/review/initial/03_UDT_RESEARCH_ROADMAP.md\nudt_finite_separation_reciprocity_2026-09-14/review/initial/04_PLAN.md\nudt_finite_separation_reciprocity_2026-09-14/review/initial/05_INDEX.md\nudt_finite_separation_reciprocity_2026-09-14/review/initial/06_MEMORY.md\nudt_finite_separation_reciprocity_2026-09-14/review/initial_verdict/FINAL_REVIEW.md\nudt_finite_separation_reciprocity_2026-09-14/review/initial_verdict/MAINTAINED_REVIEW.md\nudt_finite_separation_reciprocity_2026-09-14/review/initial_verdict/RECORD.json\nudt_finite_separation_reciprocity_2026-09-14/review/initial_verdict/REVIEW_MANIFEST.sha256\nudt_finite_separation_reciprocity_2026-09-14/review/parent_replay.capture_provenance.json\nudt_finite_separation_reciprocity_2026-09-14/review/parent_replay.json\nudt_finite_separation_reciprocity_2026-09-14/review/parent_replay.stderr\nudt_finite_separation_reciprocity_2026-09-14/review/parent_replay.stdout\nudt_finite_separation_reciprocity_2026-09-14/verify_documentation.py\nudt_native_theory_research_plan_2026-09-13/PLAN.md\n",
+      "stderr": ""
+    },
+    {
+      "utc": "2026-09-14T01:13:19.107087+00:00",
+      "command": [
+        "git",
+        "push",
+        "origin",
+        "grok"
+      ],
+      "exit": 0,
+      "stdout": "",
+      "stderr": "To https://github.com/charlesrotter/udt_mass_codex.git\n   8502fc3e..3a91aa7c  grok -> grok\n"
+    },
+    {
+      "utc": "2026-09-14T01:13:21.243895+00:00",
+      "command": [
+        "git",
+        "rev-parse",
+        "HEAD",
+        "origin/grok"
+      ],
+      "exit": 0,
+      "stdout": "3a91aa7cc5a4253abaa4c5094aa9fdcb57c6a445\n3a91aa7cc5a4253abaa4c5094aa9fdcb57c6a445\n",
+      "stderr": ""
+    },
+    {
+      "utc": "2026-09-14T01:13:21.245605+00:00",
+      "command": [
+        "git",
+        "diff",
+        "--name-only"
+      ],
+      "exit": 0,
+      "stdout": "",
+      "stderr": ""
+    },
+    {
+      "utc": "2026-09-14T01:13:21.254872+00:00",
+      "command": [
+        "git",
+        "diff",
+        "--cached",
+        "--name-only"
+      ],
+      "exit": 0,
+      "stdout": "",
+      "stderr": ""
+    },
+    {
+      "utc": "2026-09-14T01:13:21.259801+00:00",
+      "command": [
+        "git",
+        "status",
+        "--short",
+        "--untracked-files=all"
+      ],
+      "exit": 0,
+      "stdout": "?? 8_25/UDT_FOUNDING_VALUE_LAW_ANALYSIS.md\n?? 8_25/udt_extension_checks.py\n?? 8_25/udt_extension_minimality_response.md\n?? 8_25/udt_value_law_checks.py\n?? 8_25/udt_value_law_checks_llm1.py\n?? 8_25/udt_value_law_external_response.md\n?? UDT_Complete_Guardrails_and_Central_Science_Tracking.md\n?? UDT_Next_Step_After_Two_Stages.md\n?? UDT_Sequenced_Guardrails_and_Development_Work_Order.md\n?? udt_native_onshell_timelive_reset_owner_audit_2026-08-10/CANDIDATE_LAW_MAP.tsv\n?? udt_native_onshell_timelive_reset_owner_audit_2026-08-10/DERIVATION_RESULT.json\n?? udt_native_onshell_timelive_reset_owner_audit_2026-08-10/EQUATION_OWNERSHIP_ATLAS.tsv\n?? udt_native_onshell_timelive_reset_owner_audit_2026-08-10/SOURCE_SCOPE_CLARIFICATION.md\n?? udt_native_onshell_timelive_reset_owner_audit_2026-08-10/derive_owner_atlas.py\n?? udt_native_onshell_timelive_reset_owner_audit_2026-08-10/run_catch_proofs.py\n?? udt_native_onshell_timelive_reset_owner_audit_2026-08-10/verify_owner_independent.py\n?? udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/ADVERSARIAL_REVIEW_REQUEST.md\n?? udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/AUDIT_REPORT.md\n?? udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/CATCH_PROOF_RESULT.json\n?? udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/DERIVATION_RESULT.json\n?? udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/EVIDENCE_GATES.md\n?? udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/EXACT_DERIVATION.md\n?? udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/INDEPENDENT_VERIFICATION.json\n?? udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/LAY_REPORT.md\n?? udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/STATUS_LEDGER.tsv\n?? udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/VERIFICATION_RESULT.json\n?? udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/WITNESS_ATLAS.tsv\n?? udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/build_review_intake.py\n?? udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/derive_regime_flow.py\n?? udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/run_catch_proofs.py\n?? udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/verify_independent.py\n?? udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/verify_package.py\n?? udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/AUDIT_REPORT.md\n?? udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/CATCH_PROOF_RESULT.json\n?? udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/DERIVATION_RESULT.json\n?? udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/EVIDENCE_GATES.md\n?? udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/EXACT_DERIVATION.md\n?? udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/INDEPENDENT_RADAU_REPLAY.tsv\n?? udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/INDEPENDENT_VERIFICATION.json\n?? udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/LAY_REPORT.md\n?? udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/PREREGISTRATION_EXECUTION_NOTE.md\n?? udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/PROFILE_COMPATIBILITY_ATLAS.tsv\n?? udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/REVIEW_DISPATCH.md\n?? udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/RUN_CHECKPOINT.tsv\n?? udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/STATUS_LEDGER.tsv\n?? udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/VERIFICATION_RESULT.json\n?? udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/build_review_manifest.py\n?? udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/derive_compatibility_atlas.py\n?? udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/run_catch_proofs.py\n?? udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/verify_independent.py\n?? udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/verify_package.py\n",
+      "stderr": ""
+    }
+  ],
+  "baseline_head": "8502fc3e02a9a35a6e376b0dc411e0754921bb0c",
+  "original_untracked_status_sha256": "747cf3c497bfbdf7c373a2aa621be3cb241a61f7ef9f508c39bf64588ff70a60",
+  "planned_paths": [
+    "INDEX.md",
+    "MEMORY.md",
+    "UDT_RESEARCH_ROADMAP.md",
+    "udt_finite_separation_reciprocity_2026-09-14/AGENT_ALLOCATIONS.json",
+    "udt_finite_separation_reciprocity_2026-09-14/BASIS_REPAIR_INITIAL.json",
+    "udt_finite_separation_reciprocity_2026-09-14/BASIS_REPAIR_PLAN.md",
+    "udt_finite_separation_reciprocity_2026-09-14/CANDIDATE.md",
+    "udt_finite_separation_reciprocity_2026-09-14/CHECK_FREEZE.json",
+    "udt_finite_separation_reciprocity_2026-09-14/CHECK_PLAN.md",
+    "udt_finite_separation_reciprocity_2026-09-14/CLOSEOUT.md",
+    "udt_finite_separation_reciprocity_2026-09-14/DECISION_BRIEF.md",
+    "udt_finite_separation_reciprocity_2026-09-14/DEPENDENCY_IMPACT.tsv",
+    "udt_finite_separation_reciprocity_2026-09-14/FIXED_PINS.json",
+    "udt_finite_separation_reciprocity_2026-09-14/GATE_RECORD.md",
+    "udt_finite_separation_reciprocity_2026-09-14/LAUNCH.json",
+    "udt_finite_separation_reciprocity_2026-09-14/MAINTAINED_BEFORE.json",
+    "udt_finite_separation_reciprocity_2026-09-14/PUBLISH_PLAN.json",
+    "udt_finite_separation_reciprocity_2026-09-14/SELECTED_PREMISES.tsv",
+    "udt_finite_separation_reciprocity_2026-09-14/SHA256SUMS.json",
+    "udt_finite_separation_reciprocity_2026-09-14/SOURCE_PINS.json",
+    "udt_finite_separation_reciprocity_2026-09-14/TOOL_PINS.json",
+    "udt_finite_separation_reciprocity_2026-09-14/WORK_ORDER.md",
+    "udt_finite_separation_reciprocity_2026-09-14/WORK_RECORD.md",
+    "udt_finite_separation_reciprocity_2026-09-14/basis_repair_initial/CANDIDATE.md",
+    "udt_finite_separation_reciprocity_2026-09-14/basis_repair_initial/CHECK_FREEZE.json",
+    "udt_finite_separation_reciprocity_2026-09-14/basis_repair_initial/CHECK_PLAN.md",
+    "udt_finite_separation_reciprocity_2026-09-14/basis_repair_initial/DECISION_BRIEF.md",
+    "udt_finite_separation_reciprocity_2026-09-14/basis_repair_initial/replay_finite.py",
+    "udt_finite_separation_reciprocity_2026-09-14/checks/documentation.capture_provenance.json",
+    "udt_finite_separation_reciprocity_2026-09-14/checks/documentation.json",
+    "udt_finite_separation_reciprocity_2026-09-14/checks/documentation.stderr",
+    "udt_finite_separation_reciprocity_2026-09-14/checks/documentation.stdout",
+    "udt_finite_separation_reciprocity_2026-09-14/checks/finite.capture_provenance.json",
+    "udt_finite_separation_reciprocity_2026-09-14/checks/finite.json",
+    "udt_finite_separation_reciprocity_2026-09-14/checks/finite.stderr",
+    "udt_finite_separation_reciprocity_2026-09-14/checks/finite.stdout",
+    "udt_finite_separation_reciprocity_2026-09-14/checks/finite_basis.capture_provenance.json",
+    "udt_finite_separation_reciprocity_2026-09-14/checks/finite_basis.json",
+    "udt_finite_separation_reciprocity_2026-09-14/checks/finite_basis.stderr",
+    "udt_finite_separation_reciprocity_2026-09-14/checks/finite_basis.stdout",
+    "udt_finite_separation_reciprocity_2026-09-14/checks/full406.capture_provenance.json",
+    "udt_finite_separation_reciprocity_2026-09-14/checks/full406.json",
+    "udt_finite_separation_reciprocity_2026-09-14/checks/full406.stderr",
+    "udt_finite_separation_reciprocity_2026-09-14/checks/full406.stdout",
+    "udt_finite_separation_reciprocity_2026-09-14/checks/navigation.capture_provenance.json",
+    "udt_finite_separation_reciprocity_2026-09-14/checks/navigation.json",
+    "udt_finite_separation_reciprocity_2026-09-14/checks/navigation.stderr",
+    "udt_finite_separation_reciprocity_2026-09-14/checks/navigation.stdout",
+    "udt_finite_separation_reciprocity_2026-09-14/checks/navigation_basis.capture_provenance.json",
+    "udt_finite_separation_reciprocity_2026-09-14/checks/navigation_basis.json",
+    "udt_finite_separation_reciprocity_2026-09-14/checks/navigation_basis.stderr",
+    "udt_finite_separation_reciprocity_2026-09-14/checks/navigation_basis.stdout",
+    "udt_finite_separation_reciprocity_2026-09-14/publication_adapter.py",
+    "udt_finite_separation_reciprocity_2026-09-14/replay_finite.py",
+    "udt_finite_separation_reciprocity_2026-09-14/review/BASIS_FOLLOWUP.md",
+    "udt_finite_separation_reciprocity_2026-09-14/review/EXPOSURE_LOG.md",
+    "udt_finite_separation_reciprocity_2026-09-14/review/FINAL_CANDIDATE_FREEZE.json",
+    "udt_finite_separation_reciprocity_2026-09-14/review/FINAL_REVIEW.md",
+    "udt_finite_separation_reciprocity_2026-09-14/review/INDEPENDENT_FREEZE.json",
+    "udt_finite_separation_reciprocity_2026-09-14/review/INITIAL_FREEZE.json",
+    "udt_finite_separation_reciprocity_2026-09-14/review/MAINTAINED_REVIEW.md",
+    "udt_finite_separation_reciprocity_2026-09-14/review/RECORD.json",
+    "udt_finite_separation_reciprocity_2026-09-14/review/REPAIR_FREEZE.json",
+    "udt_finite_separation_reciprocity_2026-09-14/review/REVIEW_MANIFEST.sha256",
+    "udt_finite_separation_reciprocity_2026-09-14/review/SOURCE_FIRST.md",
+    "udt_finite_separation_reciprocity_2026-09-14/review/check_independent.py",
+    "udt_finite_separation_reciprocity_2026-09-14/review/independent.capture_provenance.json",
+    "udt_finite_separation_reciprocity_2026-09-14/review/independent.json",
+    "udt_finite_separation_reciprocity_2026-09-14/review/independent.stderr",
+    "udt_finite_separation_reciprocity_2026-09-14/review/independent.stdout",
+    "udt_finite_separation_reciprocity_2026-09-14/review/initial/00_CANDIDATE.md",
+    "udt_finite_separation_reciprocity_2026-09-14/review/initial/01_DECISION_BRIEF.md",
+    "udt_finite_separation_reciprocity_2026-09-14/review/initial/02_DEPENDENCY_IMPACT.tsv",
+    "udt_finite_separation_reciprocity_2026-09-14/review/initial/03_UDT_RESEARCH_ROADMAP.md",
+    "udt_finite_separation_reciprocity_2026-09-14/review/initial/04_PLAN.md",
+    "udt_finite_separation_reciprocity_2026-09-14/review/initial/05_INDEX.md",
+    "udt_finite_separation_reciprocity_2026-09-14/review/initial/06_MEMORY.md",
+    "udt_finite_separation_reciprocity_2026-09-14/review/initial_verdict/FINAL_REVIEW.md",
+    "udt_finite_separation_reciprocity_2026-09-14/review/initial_verdict/MAINTAINED_REVIEW.md",
+    "udt_finite_separation_reciprocity_2026-09-14/review/initial_verdict/RECORD.json",
+    "udt_finite_separation_reciprocity_2026-09-14/review/initial_verdict/REVIEW_MANIFEST.sha256",
+    "udt_finite_separation_reciprocity_2026-09-14/review/parent_replay.capture_provenance.json",
+    "udt_finite_separation_reciprocity_2026-09-14/review/parent_replay.json",
+    "udt_finite_separation_reciprocity_2026-09-14/review/parent_replay.stderr",
+    "udt_finite_separation_reciprocity_2026-09-14/review/parent_replay.stdout",
+    "udt_finite_separation_reciprocity_2026-09-14/verify_documentation.py",
+    "udt_native_theory_research_plan_2026-09-13/PLAN.md"
+  ],
+  "science_commit": "3a91aa7cc5a4253abaa4c5094aa9fdcb57c6a445",
+  "postpush_verified_utc": "2026-09-14T01:13:21.290138+00:00",
+  "postpush_refs": [
+    "3a91aa7cc5a4253abaa4c5094aa9fdcb57c6a445",
+    "3a91aa7cc5a4253abaa4c5094aa9fdcb57c6a445"
+  ],
+  "tracked_clean": true,
+  "original51_status_names_exact": true
+}
