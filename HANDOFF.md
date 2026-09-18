@@ -1,7 +1,7 @@
 # HANDOFF — lean fresh-session anchor
 
 <!-- STARTUP_CURRENT_BEGIN -->
-## Current handoff anchor — 2026-09-12
+## Current handoff anchor — 2026-09-18
 
 `LIVE.md` wins; exact grades belong to the 406-row `CURRENT_SCIENTIFIC_PREMISES.tsv`.
 Sources and completed-campaign routes: `INDEX.md`; dependency spine:
@@ -79,7 +79,6 @@ report actual model/instructions/checks. After orientation: `maintenance_agent_c
 dated handoff sequence. General capacity UNVERIFIED; prior passes are historical evidence.
 Availability testing is operational only; the whiteboard's scientific audit is PROPOSED, NOT AUTHORIZED.
 
-Next: G383--G412 exact-scope banking is COMPLETE; G413--G423 banked; BE1/SD1/NR1/NR2/TI3 reviewed conditional UNPROMOTED; OB2 eligibility unresolved: INDEX.
+Next: DCR1 reviewed conditional UNPROMOTED return (`udt_directional_clock_release_2026-09-14/`); FSR1/PJC1 already stopped without new field equation; native admission OPEN; Maxwell PAUSED; FE1 UNADOPTED; discussion/direction stop; no automatic successor; roadmap owns dispositions.
 G312 membership unclosed; G352 physical-realization: physical identification remains OPEN.
-Charles authorized broader-geometry testing and one bounded follow-up; completed; NAP1 reviewed/UNPROMOTED; native admission OPEN; Maxwell PAUSED; discussion stop; work order and return gates: roadmap.
 <!-- STARTUP_CURRENT_END -->

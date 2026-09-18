@@ -2,6 +2,7 @@
 from pathlib import Path
 import csv
 import hashlib
+from pin_hash import normalize_eol, pin_sha256, pin_matches
 import io
 import json
 import re
@@ -37,7 +38,7 @@ def without_ti1(raw: bytes, *, required: bool = False) -> bytes:
             "TI1 current row missing/duplicate")
     if not selected:
         return raw
-    require(hashlib.sha256(selected[0]).hexdigest() == TI1_ROW_SHA256,
+    require(hashlib.sha256(normalize_eol(selected[0])).hexdigest() == TI1_ROW_SHA256,
             "TI1 exact row/scope changed")
     return b"".join(line for line in lines if not line.startswith(TI1_PREFIXES))
 
@@ -48,15 +49,15 @@ def validate_ti1_banking(root: Path, *, authenticate_sources: bool = True) -> No
         target = root / name
         require(target.is_file(), f"TI1 guard file missing: {name}")
         raw = target.read_bytes()
-        require(hashlib.sha256(raw).hexdigest() == expected, f"TI1 guard file changed: {name}")
+        require(pin_matches(raw, expected), f"TI1 guard file changed: {name}")
         payloads[name] = raw
     scope = json.loads(payloads[f"{TI1_PACKAGE}/BANKED_CLAIM.json"])
-    raw = without_ti2(without_ncb1((root / "CURRENT_SCIENTIFIC_PREMISES.tsv").read_bytes()))
+    raw = without_ti2(without_ncb1(normalize_eol((root / "CURRENT_SCIENTIFIC_PREMISES.tsv").read_bytes())))
     original = without_ti1(raw, required=True)
-    require(hashlib.sha256(original).hexdigest() == TI1_BASE_SHA256,
+    require(pin_matches(original, TI1_BASE_SHA256),
             "TI1 changed an original395 registry byte")
     expected = payloads[f"{TI1_PACKAGE}/BANKED_ROW.tsv"].splitlines(keepends=True)
-    require(raw.splitlines(keepends=True)[:2] == expected, "TI1 row/header/order changed")
+    require([normalize_eol(x) for x in raw.splitlines(keepends=True)[:2]] == [normalize_eol(x) for x in expected], "TI1 row/header/order changed")
     rows = list(csv.DictReader(io.StringIO(raw.decode()), delimiter="\t"))
     by_id = {r["premise_id"]: r for r in rows}
     require(len(rows) == len(by_id) == 396, "TI1 current396 count/uniqueness changed")
@@ -66,8 +67,7 @@ def validate_ti1_banking(root: Path, *, authenticate_sources: bool = True) -> No
     if not authenticate_sources:
         return
     authority = root / scope["authority_source"]
-    require(authority.is_file() and hashlib.sha256(authority.read_bytes()).hexdigest()
-            == scope["authority_sha256"], "TI1 authority source changed")
+    require(authority.is_file() and pin_matches(authority.read_bytes(), scope["authority_sha256"]), "TI1 authority source changed")
     entries = [line.split(maxsplit=1) for line in
                payloads[f"{TI1_PACKAGE}/SOURCE_EVIDENCE_SHA256SUMS"].decode().splitlines()]
     require(len(entries) == len({name for _, name in entries}) == 103,
@@ -79,10 +79,10 @@ def validate_ti1_banking(root: Path, *, authenticate_sources: bool = True) -> No
                 re.fullmatch(r"[0-9a-f]{64}", expected_hash) is not None,
                 "TI1 unsafe source path")
         source = root / path
-        require(source.is_file() and hashlib.sha256(source.read_bytes()).hexdigest() == expected_hash,
+        require(source.is_file() and pin_matches(source.read_bytes(), expected_hash),
                 f"TI1 original source evidence changed: {name}")
     frozen = subprocess.run(["git", "show", f"{scope['baseline_head']}:CURRENT_SCIENTIFIC_PREMISES.tsv"],
                             cwd=Path(__file__).resolve().parent, capture_output=True,
                             timeout=15, check=False)
-    require(frozen.returncode == 0 and frozen.stdout == original,
+    require(frozen.returncode == 0 and normalize_eol(frozen.stdout) == normalize_eol(original),
             "TI1 baseline registry correspondence failed")

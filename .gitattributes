@@ -21,3 +21,10 @@ native_action_arm_c_2026-07-18/ARM_C_RETURN/ARM_C_REPORT.md -whitespace
 native_action_arm_c_2026-07-18/ARM_C_RETURN/*.tsv -whitespace
 native_action_arm_c_2026-07-18/ARM_C_RETURN/cas_armc_*.py -whitespace
 native_action_arm_c_2026-07-18/ARM_C_RETURN/cas_armc_*_out.txt -whitespace
+
+# Sealed GR-filter / startup authority pins: force LF working tree.
+udt_gr_filter_reconciliation_2026-09-09/AUTHORITY_RECORD.md text eol=lf
+udt_gr_filter_reconciliation_2026-09-09/REGISTRY_TRANSITION.json text eol=lf
+startup_surface_g312_two_premise_adoption_refresh_2026-09-01/ADOPTION_RECORD.md text eol=lf
+startup_surface_g310_universal_reciprocity_refresh_2026-08-31/ADOPTION_RECORD.md text eol=lf
+

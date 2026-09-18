@@ -1,7 +1,7 @@
 # LIVE — current state only
 
 <!-- STARTUP_CURRENT_BEGIN -->
-## CURRENT STATE — 2026-09-12
+## CURRENT STATE — 2026-09-18
 
 Branch: `grok`. Synchronize; inspect dirt. This block overrides older status.
 
@@ -106,7 +106,6 @@ Protected—do not stage, modify, mine or cite without dispatch:
 
 ### Next gate
 
-G383--G412 exact-scope banking is COMPLETE; G413--G423 banked; BE1/SD1/NR1/NR2/TI3 reviewed conditional UNPROMOTED; OB2 eligibility unresolved: INDEX.
+DCR1 reviewed conditional UNPROMOTED return (`udt_directional_clock_release_2026-09-14/`); FSR1/PJC1 already stopped without new field equation; native admission OPEN; Maxwell PAUSED; FE1 UNADOPTED; discussion/direction stop; no automatic successor; roadmap owns dispositions.
 G312 membership unclosed; G352 physical-realization: physical identification remains OPEN.
-Charles authorized broader-geometry testing and one bounded follow-up; completed; NAP1 reviewed/UNPROMOTED; native admission OPEN; Maxwell PAUSED; discussion stop; work order and return gates: roadmap.
 <!-- STARTUP_CURRENT_END -->

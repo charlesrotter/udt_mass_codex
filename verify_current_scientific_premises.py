@@ -21,6 +21,7 @@ from ti2_banking_guard import (TI2_BANKING_IDS, TI2_PREFIXES, TI2_GUARD_FILES,
                                without_ti2, validate_ti2_banking)
 from ti1_banking_guard import (TI1_BANKING_IDS, TI1_PREFIXES, TI1_GUARD_FILES,
                                without_ti1, validate_ti1_banking)
+from pin_hash import normalize_eol, pin_sha256, pin_matches
 
 
 ROOT = Path(__file__).resolve().parent
@@ -276,7 +277,7 @@ def frozen_git_source_bytes(relative: str, expected_sha256: str) -> bytes:
             capture_output=True,
             check=False,
         )
-        if frozen.returncode == 0 and hashlib.sha256(frozen.stdout).hexdigest() == expected_sha256:
+        if frozen.returncode == 0 and pin_matches(frozen.stdout, expected_sha256):
             _FROZEN_GIT_SOURCE_CACHE[key] = frozen.stdout
             return frozen.stdout
     raise SystemExit(f"historical source hash not found: {relative} {expected_sha256}")
@@ -321,9 +322,9 @@ def replay_package_with_current_registry_rows_removed(
                     require(len(matches) == 1, f"ephemeral registry removal count changed: {premise_id}")
                     lines = [line for line in lines if not line.startswith(prefix)]
                 payload = b"".join(lines)
-                if hashlib.sha256(payload).hexdigest() != row["sha256"]:
+                if pin_sha256(payload) != row["sha256"]:
                     payload = frozen_git_source_bytes(source_key, row["sha256"])
-            elif hashlib.sha256(payload).hexdigest() != row["sha256"]:
+            elif pin_sha256(payload) != row["sha256"]:
                 payload = frozen_git_source_bytes(source_key, row["sha256"])
             destination = root / source_key
             destination.parent.mkdir(parents=True, exist_ok=True)
@@ -366,21 +367,22 @@ def _gr_filter_validated_snapshot(root: Path) -> tuple[dict, bytes]:
     for relative, expected in GR_FILTER_PINS.items():
         path = root / relative
         payload = path.read_bytes() if path.is_file() else b""
-        require(hashlib.sha256(payload).hexdigest() == expected,
+        require(pin_matches(payload, expected),
                 f"GR-filter authority/source pin changed: {relative}")
-        authenticated[relative] = payload
+        # Keep authenticated bytes LF-normalized so JSON/tsv consumers see sealed form.
+        authenticated[relative] = normalize_eol(payload)
     # Parse the authenticated bytes, not a second potentially changed file read.
     transition = json.loads(authenticated[GR_FILTER_TRANSITION_SOURCE])
-    raw = (root / "CURRENT_SCIENTIFIC_PREMISES.tsv").read_bytes()
+    raw = normalize_eol((root / "CURRENT_SCIENTIFIC_PREMISES.tsv").read_bytes())
     without_ncb1(raw)  # Authenticate present G415 before any historical projection.
     without_ti2(raw)  # Authenticate present G414 on this SAME snapshot; retain every byte.
     without_ti1(raw)  # Authenticate present G413 on this snapshot; retain every byte.
     ddr = [line for line in raw.splitlines(keepends=True) if line.startswith(b"G310\t")]
-    require(len(ddr) == 1 and hashlib.sha256(ddr[0]).hexdigest()
+    require(len(ddr) == 1 and hashlib.sha256(normalize_eol(ddr[0])).hexdigest()
             == "a8ee1424099aa865c32bad1a72c256da0dd66ea1fed98b7c05ece1c04056d42a",
             "GR-filter retained DDR authority changed")
     current = [line for line in raw.splitlines(keepends=True) if line.startswith(b"G312\t")]
-    require(current == [transition["after_line"].encode()],
+    require([normalize_eol(x) for x in current] == [normalize_eol(transition["after_line"].encode())],
             "GR-filter current G312 row differs from exact authorized transition")
     return transition, raw
 
@@ -530,31 +532,29 @@ def validate_conditional_banking(root: Path, *, authenticate_sources: bool = Tru
     campaign = root / CONDITIONAL_BANKING_CAMPAIGN
     manifest = campaign / "ARTIFACT_SHA256SUMS"
     require(manifest.is_file(), "conditional banking frozen campaign manifest missing")
-    require(hashlib.sha256(manifest.read_bytes()).hexdigest()
-            == "048e2870eb229943d029c8383ae82c5609a0d3e1e77c4d910916e4b3ece87dcb",
+    require(pin_matches(manifest.read_bytes(), "048e2870eb229943d029c8383ae82c5609a0d3e1e77c4d910916e4b3ece87dcb"),
             "conditional banking frozen campaign manifest changed")
-    entries = [line.split(maxsplit=1) for line in manifest.read_text().splitlines()]
+    entries = [line.split(maxsplit=1) for line in manifest.read_text(encoding="utf-8").splitlines()]
     require(len(entries) == len({item[1] for item in entries}) == 350,
             "conditional banking frozen campaign manifest membership changed")
     for expected, relative in entries:
         payload = campaign / relative
-        require(payload.is_file() and hashlib.sha256(payload.read_bytes()).hexdigest() == expected,
+        require(payload.is_file() and pin_matches(payload.read_bytes(), expected),
                 f"conditional banking frozen campaign payload changed: {relative}")
 
     historical_sources: dict[str, bytes] = {}
     for step in range(1, 5):
         directory = campaign / f"step_{step:02d}"
-        review = json.loads((directory / "review/REVIEW_VERDICT.json").read_text())
+        review = json.loads((directory / "review/REVIEW_VERDICT.json").read_text(encoding="utf-8"))
         require(review["verdict"] == "VERIFIED-WITH-CAVEATS"
                 and review["required_defects"] == [],
                 f"G{352 + step} retained review verdict changed")
         require(review.get("exact_runtime_model", review.get("runtime_model")) == "UNKNOWN"
                 and review.get("different_model_review", review.get("different_model")) == "UNTESTED",
                 f"G{352 + step} retained model-independence limit changed")
-        require(hashlib.sha256((directory / "CANDIDATE_ARGUMENT.md").read_bytes()).hexdigest()
-                == review["candidate_argument_sha256"],
+        require(pin_matches((directory / "CANDIDATE_ARGUMENT.md").read_bytes(), review["candidate_argument_sha256"]),
                 f"G{352 + step} argument no longer matches its direct review")
-        for line in (directory / "SOURCE_SHA256SUMS").read_text().splitlines():
+        for line in (directory / "SOURCE_SHA256SUMS").read_text(encoding="utf-8").splitlines():
             expected, relative = line.split(maxsplit=1)
             if relative not in historical_sources:
                 frozen = subprocess.run(
@@ -564,13 +564,13 @@ def validate_conditional_banking(root: Path, *, authenticate_sources: bool = Tru
                 require(frozen.returncode == 0,
                         f"conditional banking historical source unavailable: {relative}")
                 historical_sources[relative] = frozen.stdout
-            require(hashlib.sha256(historical_sources[relative]).hexdigest() == expected,
+            require(pin_matches(historical_sources[relative], expected),
                     f"conditional banking historical source hash changed: {relative}")
             if relative != "CURRENT_SCIENTIFIC_PREMISES.tsv":
                 current = root / relative
-                require(current.is_file() and current.read_bytes() == historical_sources[relative],
+                require(current.is_file() and normalize_eol(current.read_bytes()) == normalize_eol(historical_sources[relative]),
                         f"conditional banking scientific source changed since snapshot: {relative}")
-    require(old_bytes == historical_sources["CURRENT_SCIENTIFIC_PREMISES.tsv"],
+    require(normalize_eol(old_bytes) == normalize_eol(historical_sources["CURRENT_SCIENTIFIC_PREMISES.tsv"]),
             "conditional banking is not an additive four-row change from the authorized snapshot")
 
 
@@ -665,19 +665,18 @@ def validate_shared_constraint_banking(root: Path, *, authenticate_sources: bool
     campaign = root / SHARED_CONSTRAINT_BANKING_CAMPAIGN
     manifest = campaign / "ARTIFACT_SHA256SUMS"
     require(manifest.is_file(), "shared-constraint banking frozen campaign manifest missing")
-    require(hashlib.sha256(manifest.read_bytes()).hexdigest()
-            == "32daf9c0b69ec4107b310f9275a6bc1e2b674f7c40fb456811f0f6d122a26cfe",
+    require(pin_matches(manifest.read_bytes(), "32daf9c0b69ec4107b310f9275a6bc1e2b674f7c40fb456811f0f6d122a26cfe"),
             "shared-constraint banking frozen campaign manifest changed")
-    entries = [line.split(maxsplit=1) for line in manifest.read_text().splitlines()]
+    entries = [line.split(maxsplit=1) for line in manifest.read_text(encoding="utf-8").splitlines()]
     require(len(entries) == len({item[1] for item in entries}) == 441,
             "shared-constraint banking frozen campaign manifest membership changed")
     for expected, relative in entries:
         payload = root / relative
-        require(payload.is_file() and hashlib.sha256(payload.read_bytes()).hexdigest() == expected,
+        require(payload.is_file() and pin_matches(payload.read_bytes(), expected),
                 f"shared-constraint banking frozen campaign payload changed: {relative}")
     historical_sources: dict[str, bytes] = {}
     for step in range(1, 6):
-        for line in (campaign / f"step_{step:02d}/SOURCE_SHA256SUMS").read_text().splitlines():
+        for line in (campaign / f"step_{step:02d}/SOURCE_SHA256SUMS").read_text(encoding="utf-8").splitlines():
             expected, relative = line.split(maxsplit=1)
             if relative not in historical_sources:
                 frozen = subprocess.run(
@@ -687,13 +686,13 @@ def validate_shared_constraint_banking(root: Path, *, authenticate_sources: bool
                 require(frozen.returncode == 0,
                         f"shared-constraint banking historical source unavailable: {relative}")
                 historical_sources[relative] = frozen.stdout
-            require(hashlib.sha256(historical_sources[relative]).hexdigest() == expected,
+            require(pin_matches(historical_sources[relative], expected),
                     f"shared-constraint banking historical source hash changed: {relative}")
             if relative != "CURRENT_SCIENTIFIC_PREMISES.tsv":
                 current = root / relative
-                require(current.is_file() and current.read_bytes() == historical_sources[relative],
+                require(current.is_file() and normalize_eol(current.read_bytes()) == normalize_eol(historical_sources[relative]),
                         f"shared-constraint banking scientific source changed since snapshot: {relative}")
-    require(old_bytes == historical_sources["CURRENT_SCIENTIFIC_PREMISES.tsv"],
+    require(normalize_eol(old_bytes) == normalize_eol(historical_sources["CURRENT_SCIENTIFIC_PREMISES.tsv"]),
             "shared-constraint banking is not additive from the authorized snapshot")
 
 
@@ -718,7 +717,7 @@ def validate_persistence_banking(root: Path, *, authenticate_sources: bool = Tru
             "persistence banking must add exactly three distinct rows to 343")
     record_path = root / PERSISTENCE_BANKING_SOURCE
     require(record_path.is_file(), "persistence banking record missing")
-    record = " ".join(record_path.read_text().split())
+    record = " ".join(record_path.read_text(encoding="utf-8").split())
     for token in (*PERSISTENCE_BANKING_IDS, PERSISTENCE_BANKING_SNAPSHOT,
                   "BANKED_DERIVED_CONDITIONAL", "VERIFIED-WITH-CAVEATS", "CHOSEN",
                   "restricted full spacelike initial-data class", "local wave-method",
@@ -769,26 +768,25 @@ def validate_persistence_banking(root: Path, *, authenticate_sources: bool = Tru
         return
     campaign = root / PERSISTENCE_BANKING_CAMPAIGN
     manifest = campaign / "CAMPAIGN_SHA256SUMS"
-    require(manifest.is_file() and hashlib.sha256(manifest.read_bytes()).hexdigest()
-            == "603f2e1166e80877b23ffb822c430cf15ce5657ac7ab3b7e93f825a83b2c9107",
+    require(manifest.is_file() and pin_matches(manifest.read_bytes(), "603f2e1166e80877b23ffb822c430cf15ce5657ac7ab3b7e93f825a83b2c9107"),
             "persistence banking frozen campaign manifest changed")
-    entries = [line.split(maxsplit=1) for line in manifest.read_text().splitlines()]
+    entries = [line.split(maxsplit=1) for line in manifest.read_text(encoding="utf-8").splitlines()]
     require(len(entries) == len({relative for _, relative in entries}) == 241,
             "persistence banking frozen campaign membership changed")
     for expected, relative in entries:
         payload = root / relative
-        require(payload.is_file() and hashlib.sha256(payload.read_bytes()).hexdigest() == expected,
+        require(payload.is_file() and pin_matches(payload.read_bytes(), expected),
                 f"persistence banking frozen campaign payload changed: {relative}")
     # The excluded later receipt is historical evidence too, not a source of science.
     receipt = subprocess.run(
         ["git", "show", f"{PERSISTENCE_BANKING_SNAPSHOT}:{PERSISTENCE_BANKING_CAMPAIGN}/CLOSURE_RECEIPT.json"],
         cwd=ROOT, capture_output=True, check=False, timeout=10)
     require(receipt.returncode == 0
-            and (campaign / "CLOSURE_RECEIPT.json").read_bytes() == receipt.stdout,
+            and normalize_eol((campaign / "CLOSURE_RECEIPT.json").read_bytes()) == normalize_eol(receipt.stdout),
             "persistence banking original closure receipt changed")
     historical: dict[str, bytes] = {}
     for step in range(1, 4):
-        for line in (campaign / f"step_{step:02d}/SOURCE_SHA256SUMS").read_text().splitlines():
+        for line in (campaign / f"step_{step:02d}/SOURCE_SHA256SUMS").read_text(encoding="utf-8").splitlines():
             expected, relative = line.split(maxsplit=1)
             if relative not in historical:
                 frozen = subprocess.run(
@@ -796,13 +794,13 @@ def validate_persistence_banking(root: Path, *, authenticate_sources: bool = Tru
                     cwd=ROOT, capture_output=True, check=False, timeout=10)
                 require(frozen.returncode == 0, f"persistence banking source unavailable: {relative}")
                 historical[relative] = frozen.stdout
-            require(hashlib.sha256(historical[relative]).hexdigest() == expected,
+            require(pin_matches(historical[relative], expected),
                     f"persistence banking frozen source hash changed: {relative}")
             if relative != "CURRENT_SCIENTIFIC_PREMISES.tsv":
                 current = root / relative
-                require(current.is_file() and current.read_bytes() == historical[relative],
+                require(current.is_file() and normalize_eol(current.read_bytes()) == normalize_eol(historical[relative]),
                         f"persistence banking scientific source changed since snapshot: {relative}")
-    require(old_bytes == historical["CURRENT_SCIENTIFIC_PREMISES.tsv"],
+    require(normalize_eol(old_bytes) == normalize_eol(historical["CURRENT_SCIENTIFIC_PREMISES.tsv"]),
             "persistence banking is not additive from the authorized snapshot")
 
 
@@ -826,7 +824,7 @@ def validate_restrictiveness_banking(root: Path, *, authenticate_sources: bool =
             "restrictiveness banking must add exactly three distinct rows to 346")
     record_path = root / RESTRICTIVENESS_BANKING_SOURCE
     require(record_path.is_file(), "restrictiveness banking record missing")
-    record = " ".join(record_path.read_text().split())
+    record = " ".join(record_path.read_text(encoding="utf-8").split())
     for token in (*RESTRICTIVENESS_BANKING_IDS, RESTRICTIVENESS_BANKING_SNAPSHOT,
                   "BANKED_DERIVED_CONDITIONAL", "VERIFIED-WITH-CAVEATS", "CHOSEN",
                   "local wave-method hypothesis", "NOT wholly proof-blind",
@@ -872,25 +870,24 @@ def validate_restrictiveness_banking(root: Path, *, authenticate_sources: bool =
         return
     campaign = root / RESTRICTIVENESS_BANKING_CAMPAIGN
     manifest = campaign / "CAMPAIGN_SHA256SUMS"
-    require(manifest.is_file() and hashlib.sha256(manifest.read_bytes()).hexdigest()
-            == "66b21e83705a3abf4dc4cfae4b28f02f77f686e3ff3bdd34f52e8948ae904545",
+    require(manifest.is_file() and pin_matches(manifest.read_bytes(), "66b21e83705a3abf4dc4cfae4b28f02f77f686e3ff3bdd34f52e8948ae904545"),
             "restrictiveness banking frozen campaign manifest changed")
-    entries = [line.split(maxsplit=1) for line in manifest.read_text().splitlines()]
+    entries = [line.split(maxsplit=1) for line in manifest.read_text(encoding="utf-8").splitlines()]
     require(len(entries) == len({relative for _, relative in entries}) == 281,
             "restrictiveness banking frozen campaign membership changed")
     for expected, relative in entries:
         payload = root / relative
-        require(payload.is_file() and hashlib.sha256(payload.read_bytes()).hexdigest() == expected,
+        require(payload.is_file() and pin_matches(payload.read_bytes(), expected),
                 f"restrictiveness banking frozen campaign payload changed: {relative}")
     receipt = subprocess.run(
         ["git", "show", f"{RESTRICTIVENESS_BANKING_SNAPSHOT}:{RESTRICTIVENESS_BANKING_CAMPAIGN}/CLOSURE_RECEIPT.json"],
         cwd=ROOT, capture_output=True, check=False, timeout=10)
     require(receipt.returncode == 0
-            and (campaign / "CLOSURE_RECEIPT.json").read_bytes() == receipt.stdout,
+            and normalize_eol((campaign / "CLOSURE_RECEIPT.json").read_bytes()) == normalize_eol(receipt.stdout),
             "restrictiveness banking original closure receipt changed")
     historical: dict[str, bytes] = {}
     for step in range(1, 4):
-        for line in (campaign / f"step_{step:02d}/SOURCE_SHA256SUMS").read_text().splitlines():
+        for line in (campaign / f"step_{step:02d}/SOURCE_SHA256SUMS").read_text(encoding="utf-8").splitlines():
             expected, relative = line.split(maxsplit=1)
             if relative not in historical:
                 frozen = subprocess.run(
@@ -898,13 +895,13 @@ def validate_restrictiveness_banking(root: Path, *, authenticate_sources: bool =
                     cwd=ROOT, capture_output=True, check=False, timeout=10)
                 require(frozen.returncode == 0, f"restrictiveness banking source unavailable: {relative}")
                 historical[relative] = frozen.stdout
-            require(hashlib.sha256(historical[relative]).hexdigest() == expected,
+            require(pin_matches(historical[relative], expected),
                     f"restrictiveness banking frozen source hash changed: {relative}")
             if relative != "CURRENT_SCIENTIFIC_PREMISES.tsv":
                 current = root / relative
-                require(current.is_file() and current.read_bytes() == historical[relative],
+                require(current.is_file() and normalize_eol(current.read_bytes()) == normalize_eol(historical[relative]),
                         f"restrictiveness banking scientific source changed since snapshot: {relative}")
-    require(old_bytes == historical["CURRENT_SCIENTIFIC_PREMISES.tsv"],
+    require(normalize_eol(old_bytes) == normalize_eol(historical["CURRENT_SCIENTIFIC_PREMISES.tsv"]),
             "restrictiveness banking is not additive from the authorized snapshot")
 
 
@@ -927,7 +924,7 @@ def validate_source_metric_banking(root: Path, *, authenticate_sources: bool = T
             "source-metric banking must add exactly three distinct rows to 349")
     record_path = root / SOURCE_METRIC_BANKING_SOURCE
     require(record_path.is_file(), "source-metric banking record missing")
-    record = " ".join(record_path.read_text().split())
+    record = " ".join(record_path.read_text(encoding="utf-8").split())
     for token in (*SOURCE_METRIC_BANKING_IDS, SOURCE_METRIC_BANKING_SNAPSHOT,
                   "BANKED_DERIVED_CONDITIONAL", "VERIFIED-WITH-CAVEATS", "CHOSEN",
                   "OPTIONAL", "UNADOPTED", "physical identification remains OPEN",
@@ -969,10 +966,9 @@ def validate_source_metric_banking(root: Path, *, authenticate_sources: bool = T
         return
     campaign = root / SOURCE_METRIC_BANKING_CAMPAIGN
     manifest = campaign / "SHA256SUMS"
-    require(manifest.is_file() and hashlib.sha256(manifest.read_bytes()).hexdigest()
-            == "0bcebba6ac6760ad9b2ad1849a2c67c66bae01aefbee809984c5e8d05040c51c",
+    require(manifest.is_file() and pin_matches(manifest.read_bytes(), "0bcebba6ac6760ad9b2ad1849a2c67c66bae01aefbee809984c5e8d05040c51c"),
             "source-metric original manifest changed")
-    entries = [line.split(maxsplit=1) for line in manifest.read_text().splitlines()]
+    entries = [line.split(maxsplit=1) for line in manifest.read_text(encoding="utf-8").splitlines()]
     require(len(entries) == len({path for _, path in entries}) == 90,
             "source-metric frozen campaign membership changed")
     historical_controls = {"LIVE.md", "HANDOFF.md", "CURRENT_RESEARCH_PROGRAM.md"}
@@ -987,15 +983,15 @@ def validate_source_metric_banking(root: Path, *, authenticate_sources: bool = T
         else:
             require((root / relative).is_file(), f"source-metric frozen payload missing: {relative}")
             payload = (root / relative).read_bytes()
-        require(hashlib.sha256(payload).hexdigest() == expected,
+        require(pin_matches(payload, expected),
                 f"source-metric frozen evidence changed: {relative}")
     for row in read_tsv(campaign / "SOURCE_LEDGER.tsv"):
-        require(hashlib.sha256((root / row["path"]).read_bytes()).hexdigest() == row["sha256"],
+        require(pin_matches((root / row["path"]).read_bytes(), row["sha256"]),
                 f"source-metric controlling source changed: {row['path']}")
     frozen_registry = subprocess.run(
         ["git", "show", f"{SOURCE_METRIC_BANKING_SNAPSHOT}:CURRENT_SCIENTIFIC_PREMISES.tsv"],
         cwd=ROOT, capture_output=True, check=False, timeout=10)
-    require(frozen_registry.returncode == 0 and old_bytes == frozen_registry.stdout,
+    require(frozen_registry.returncode == 0 and normalize_eol(old_bytes) == normalize_eol(frozen_registry.stdout),
             "source-metric banking is not additive from authorized baseline")
 
 
@@ -1018,7 +1014,7 @@ def validate_reconstruction_banking(root: Path, *, authenticate_sources: bool = 
             "reconstruction banking must add exactly two distinct rows to 352")
     record_path = root / RECONSTRUCTION_BANKING_SOURCE
     require(record_path.is_file(), "reconstruction banking record missing")
-    record = " ".join(record_path.read_text().split())
+    record = " ".join(record_path.read_text(encoding="utf-8").split())
     for token in (*RECONSTRUCTION_BANKING_IDS, RECONSTRUCTION_BANKING_SNAPSHOT,
                   "BANKED_DERIVED_CONDITIONAL", "VERIFIED-WITH-CAVEATS", "CHOSEN",
                   "OPTIONAL", "UNADOPTED", "physical identification remains OPEN",
@@ -1073,10 +1069,9 @@ def validate_reconstruction_banking(root: Path, *, authenticate_sources: bool = 
         return
     campaign = root / RECONSTRUCTION_BANKING_CAMPAIGN
     manifest = campaign / "SHA256SUMS"
-    require(manifest.is_file() and hashlib.sha256(manifest.read_bytes()).hexdigest()
-            == "6cbbdfdad409e889ab372c9be7c212478b715663635bccf05297ec333b908208",
+    require(manifest.is_file() and pin_matches(manifest.read_bytes(), "6cbbdfdad409e889ab372c9be7c212478b715663635bccf05297ec333b908208"),
             "reconstruction original manifest changed")
-    entries = [line.split(maxsplit=1) for line in manifest.read_text().splitlines()]
+    entries = [line.split(maxsplit=1) for line in manifest.read_text(encoding="utf-8").splitlines()]
     require(len(entries) == len({path for _, path in entries}) == 70,
             "reconstruction frozen campaign membership changed")
     for expected, relative in entries:
@@ -1084,18 +1079,18 @@ def validate_reconstruction_banking(root: Path, *, authenticate_sources: bool = 
                 and ".." not in Path(relative).parts,
                 f"reconstruction manifest target outside frozen scope: {relative}")
         target = root / relative
-        require(target.is_file() and hashlib.sha256(target.read_bytes()).hexdigest() == expected,
+        require(target.is_file() and pin_matches(target.read_bytes(), expected),
                 f"reconstruction frozen evidence changed: {relative}")
     ledger = read_tsv(campaign / "SOURCE_LEDGER.tsv")
     require(len(ledger) == 13, "reconstruction source-ledger membership changed")
     for row in ledger:
         payload = old_bytes if row["path"] == "CURRENT_SCIENTIFIC_PREMISES.tsv" else (root / row["path"]).read_bytes()
-        require(hashlib.sha256(payload).hexdigest() == row["sha256"],
+        require(pin_matches(payload, row["sha256"]),
                 f"reconstruction controlling source changed: {row['path']}")
     frozen_registry = subprocess.run(
         ["git", "show", f"{RECONSTRUCTION_BANKING_SNAPSHOT}:CURRENT_SCIENTIFIC_PREMISES.tsv"],
         cwd=ROOT, capture_output=True, check=False, timeout=10)
-    require(frozen_registry.returncode == 0 and old_bytes == frozen_registry.stdout,
+    require(frozen_registry.returncode == 0 and normalize_eol(old_bytes) == normalize_eol(frozen_registry.stdout),
             "reconstruction banking is not additive from authorized baseline")
 
 
@@ -1118,7 +1113,7 @@ def validate_coupled_banking(root: Path, *, authenticate_sources: bool = True) -
             "coupled banking must add exactly two distinct rows to 354")
     record_path = root / COUPLED_BANKING_SOURCE
     require(record_path.is_file(), "coupled banking record missing")
-    record = " ".join(record_path.read_text().split())
+    record = " ".join(record_path.read_text(encoding="utf-8").split())
     for token in (*COUPLED_BANKING_IDS, COUPLED_BANKING_SNAPSHOT,
                   "BANKED_DERIVED_CONDITIONAL", "VERIFIED-WITH-CAVEATS",
                   "ENTIRE", "OPTIONAL", "UNADOPTED", "CHOSEN",
@@ -1178,10 +1173,9 @@ def validate_coupled_banking(root: Path, *, authenticate_sources: bool = True) -
         return
     campaign = root / COUPLED_BANKING_CAMPAIGN
     manifest = campaign / "EVIDENCE_SHA256SUMS"
-    require(manifest.is_file() and hashlib.sha256(manifest.read_bytes()).hexdigest()
-            == "4827328fde50ce091004a4ecbb6875b532798dcbfc7b4bcf3408b8e76fb41ecf",
+    require(manifest.is_file() and pin_matches(manifest.read_bytes(), "4827328fde50ce091004a4ecbb6875b532798dcbfc7b4bcf3408b8e76fb41ecf"),
             "coupled original manifest changed")
-    entries = [line.split(maxsplit=1) for line in manifest.read_text().splitlines()]
+    entries = [line.split(maxsplit=1) for line in manifest.read_text(encoding="utf-8").splitlines()]
     require(len(entries) == len({path for _, path in entries}) == 79,
             "coupled frozen campaign membership changed")
     for expected, relative in entries:
@@ -1189,16 +1183,15 @@ def validate_coupled_banking(root: Path, *, authenticate_sources: bool = True) -
                 and ".." not in Path(relative).parts,
                 f"coupled manifest target outside frozen scope: {relative}")
         target = root / relative
-        require(target.is_file() and hashlib.sha256(target.read_bytes()).hexdigest() == expected,
+        require(target.is_file() and pin_matches(target.read_bytes(), expected),
                 f"coupled frozen evidence changed: {relative}")
     completion = campaign / "COMPLETION_RECORD.md"
-    require(completion.is_file() and hashlib.sha256(completion.read_bytes()).hexdigest()
-            == "580f0649e2c87dcaebd71b40e5ff14ba1703bbfc6ec75a12e986b211d45f82c5",
+    require(completion.is_file() and pin_matches(completion.read_bytes(), "580f0649e2c87dcaebd71b40e5ff14ba1703bbfc6ec75a12e986b211d45f82c5"),
             "coupled original completion receipt changed")
     frozen_registry = subprocess.run(
         ["git", "show", f"{COUPLED_BANKING_SNAPSHOT}:CURRENT_SCIENTIFIC_PREMISES.tsv"],
         cwd=ROOT, capture_output=True, check=False, timeout=10)
-    require(frozen_registry.returncode == 0 and old_bytes == frozen_registry.stdout,
+    require(frozen_registry.returncode == 0 and normalize_eol(old_bytes) == normalize_eol(frozen_registry.stdout),
             "coupled banking is not additive from authorized baseline")
 
 
@@ -1216,7 +1209,7 @@ def validate_vacuum_scale_banking(root: Path, *, authenticate_sources: bool = Tr
     by_id = {row["premise_id"]: row for row in rows}
     require(len(rows) == len(by_id) == 358,
             "vacuum-scale banking must add exactly two distinct rows to 356")
-    record = " ".join((root / VACUUM_SCALE_BANKING_SOURCE).read_text().split())
+    record = " ".join((root / VACUUM_SCALE_BANKING_SOURCE).read_text(encoding="utf-8").split())
     for token in (*VACUUM_SCALE_BANKING_IDS, VACUUM_SCALE_BANKING_SNAPSHOT,
                   "ENTIRE", "BANKED_DERIVED_CONDITIONAL", "VERIFIED-WITH-CAVEATS",
                   "FIXED SUPPLIED", "FIXED TARGET SCALAR", "SHRINKING",
@@ -1276,24 +1269,23 @@ def validate_vacuum_scale_banking(root: Path, *, authenticate_sources: bool = Tr
         return
     campaign = root / VACUUM_SCALE_BANKING_CAMPAIGN
     manifest = campaign / "EVIDENCE_SHA256SUMS"
-    require(hashlib.sha256(manifest.read_bytes()).hexdigest()
-            == "aa0773be81fdf2f4b2e3dcbeb06e411be3aacf63ff946879085ed56691c7aa57",
+    require(pin_matches(manifest.read_bytes(), "aa0773be81fdf2f4b2e3dcbeb06e411be3aacf63ff946879085ed56691c7aa57"),
             "vacuum-scale original manifest changed")
-    entries = [line.split(maxsplit=1) for line in manifest.read_text().splitlines()]
+    entries = [line.split(maxsplit=1) for line in manifest.read_text(encoding="utf-8").splitlines()]
     require(len(entries) == len({path for _, path in entries}) == 69,
             "vacuum-scale frozen membership changed")
     for expected, relative in entries:
         require(relative.startswith(VACUUM_SCALE_BANKING_CAMPAIGN + "/")
                 and ".." not in Path(relative).parts, "vacuum-scale unsafe manifest target")
-        require(hashlib.sha256((root / relative).read_bytes()).hexdigest() == expected,
+        require(pin_matches((root / relative).read_bytes(), expected),
                 f"vacuum-scale original evidence changed: {relative}")
-    require(hashlib.sha256((campaign / "COMPLETION_RECORD.md").read_bytes()).hexdigest()
+    require(pin_sha256((campaign / "COMPLETION_RECORD.md").read_bytes())
             == "38ec5987e1281dadae1167899e45bffd39df7906ff1adede7d6df9a27a95c5fb",
             "vacuum-scale original completion changed")
     frozen = subprocess.run(["git", "show",
         f"{VACUUM_SCALE_BANKING_SNAPSHOT}:CURRENT_SCIENTIFIC_PREMISES.tsv"],
         cwd=ROOT, capture_output=True, check=False, timeout=10)
-    require(frozen.returncode == 0 and frozen.stdout == old,
+    require(frozen.returncode == 0 and normalize_eol(frozen.stdout) == normalize_eol(old),
             "vacuum-scale banking is not additive from authorized baseline")
 
 
@@ -1311,7 +1303,7 @@ def validate_berger_banking(root: Path, *, authenticate_sources: bool = True) ->
     by_id = {row["premise_id"]: row for row in rows}
     require(len(rows) == len(by_id) == 361,
             "Berger banking must add exactly three distinct rows to 358")
-    record = " ".join((root / BERGER_BANKING_SOURCE).read_text().split())
+    record = " ".join((root / BERGER_BANKING_SOURCE).read_text(encoding="utf-8").split())
     for token in (*BERGER_BANKING_IDS, BERGER_BANKING_SNAPSHOT, "ENTIRE",
                   "BANKED_DERIVED_CONDITIONAL", "VERIFIED-WITH-CAVEATS",
                   "SEPARATELY IDENTIFIED REQUIRED PREREQUISITE",
@@ -1391,10 +1383,9 @@ def validate_berger_banking(root: Path, *, authenticate_sources: bool = True) ->
     if not authenticate_sources:
         return
     manifest = root / "udt_g376_g378_conditional_banking_2026-09-08/SOURCE_EVIDENCE_SHA256SUMS"
-    require(hashlib.sha256(manifest.read_bytes()).hexdigest()
-            == "43ceb5808c8f7fb1ea40a212b486dd84de183eab6c5b258c9826aad27b20bdc1",
+    require(pin_matches(manifest.read_bytes(), "43ceb5808c8f7fb1ea40a212b486dd84de183eab6c5b258c9826aad27b20bdc1"),
             "Berger source manifest changed")
-    entries = [line.split(maxsplit=1) for line in manifest.read_text().splitlines()]
+    entries = [line.split(maxsplit=1) for line in manifest.read_text(encoding="utf-8").splitlines()]
     require(len(entries) == len({path for _, path in entries}) == 225,
             "Berger source membership changed")
     allowed = ("udt_berger_initial_data_preservation_campaign_2026-09-08/step_01/",
@@ -1404,12 +1395,12 @@ def validate_berger_banking(root: Path, *, authenticate_sources: bool = True) ->
                 and re.fullmatch(r"[0-9a-f]{64}", expected) is not None,
                 "Berger unsafe source manifest target")
         target = root / relative
-        require(target.is_file() and hashlib.sha256(target.read_bytes()).hexdigest() == expected,
+        require(target.is_file() and pin_matches(target.read_bytes(), expected),
                 f"Berger original evidence changed: {relative}")
     frozen = subprocess.run(["git", "show",
         f"{BERGER_BANKING_SNAPSHOT}:CURRENT_SCIENTIFIC_PREMISES.tsv"],
         cwd=ROOT, capture_output=True, check=False, timeout=10)
-    require(frozen.returncode == 0 and frozen.stdout == old,
+    require(frozen.returncode == 0 and normalize_eol(frozen.stdout) == normalize_eol(old),
             "Berger banking is not additive from authorized baseline")
 
 
@@ -1430,7 +1421,7 @@ def validate_closed_fibre_banking(root: Path, *, authenticate_sources: bool = Tr
     for dependency in ("G376", "G377", "G378"):
         require(by_id[dependency]["current_status"] == CONDITIONAL_BANKING_STATUS,
                 f"closed-fibre required accepted dependency changed: {dependency}")
-    record = " ".join((root / CLOSED_FIBRE_BANKING_SOURCE).read_text().split())
+    record = " ".join((root / CLOSED_FIBRE_BANKING_SOURCE).read_text(encoding="utf-8").split())
     for token in (*CLOSED_FIBRE_BANKING_IDS, CLOSED_FIBRE_BANKING_SNAPSHOT,
                   "ENTIRE", "BANKED_DERIVED_CONDITIONAL", "VERIFIED-WITH-CAVEATS",
                   "HB2/HB3 and BI2/BI3 remain UNPROMOTED",
@@ -1504,10 +1495,9 @@ def validate_closed_fibre_banking(root: Path, *, authenticate_sources: bool = Tr
     if not authenticate_sources:
         return
     manifest = root / "udt_g379_g380_conditional_banking_2026-09-08/SOURCE_EVIDENCE_SHA256SUMS"
-    require(hashlib.sha256(manifest.read_bytes()).hexdigest()
-            == "d25ba1fd84817aa3db38a69604a17b6496395d9b21d033c5e4f9a4d26aec91d6",
+    require(pin_matches(manifest.read_bytes(), "d25ba1fd84817aa3db38a69604a17b6496395d9b21d033c5e4f9a4d26aec91d6"),
             "closed-fibre source manifest changed")
-    entries = [line.split(maxsplit=1) for line in manifest.read_text().splitlines()]
+    entries = [line.split(maxsplit=1) for line in manifest.read_text(encoding="utf-8").splitlines()]
     require(len(entries) == len({path for _, path in entries}) == 149,
             "closed-fibre source membership changed")
     for expected, relative in entries:
@@ -1516,15 +1506,15 @@ def validate_closed_fibre_banking(root: Path, *, authenticate_sources: bool = Tr
                 and re.fullmatch(r"[0-9a-f]{64}", expected) is not None,
                 "closed-fibre unsafe source manifest target")
         target = root / relative
-        require(target.is_file() and hashlib.sha256(target.read_bytes()).hexdigest() == expected,
+        require(target.is_file() and pin_matches(target.read_bytes(), expected),
                 f"closed-fibre original evidence changed: {relative}")
     frozen = subprocess.run(["git", "show",
         f"{CLOSED_FIBRE_BANKING_SNAPSHOT}:CURRENT_SCIENTIFIC_PREMISES.tsv"],
         cwd=ROOT, capture_output=True, check=False, timeout=10)
-    require(frozen.returncode == 0 and frozen.stdout == old,
+    require(frozen.returncode == 0 and normalize_eol(frozen.stdout) == normalize_eol(old),
             "closed-fibre banking is not additive from authorized baseline")
     pins = root / "udt_closed_fibre_persistence_campaign_2026-09-08/step_02/SOURCE_PINS_SHA256SUMS"
-    pin_rows = [line.split(maxsplit=1) for line in pins.read_text().splitlines()]
+    pin_rows = [line.split(maxsplit=1) for line in pins.read_text(encoding="utf-8").splitlines()]
     require(len(pin_rows) == len({name for _, name in pin_rows}) == 25,
             "closed-fibre dependency pin count changed")
     for expected, relative in pin_rows:
@@ -1536,7 +1526,7 @@ def validate_closed_fibre_banking(root: Path, *, authenticate_sources: bool = Tr
             data = snapshot.stdout
         else:
             data = (root / relative).read_bytes()
-        require(hashlib.sha256(data).hexdigest() == expected,
+        require(pin_matches(data, expected),
                 f"closed-fibre source pin changed: {relative}")
 
 
@@ -1559,7 +1549,7 @@ def validate_neighboring_tidal_banking(root: Path, *, authenticate_sources: bool
             "neighboring-tidal rows must precede historical rows in dependency order")
     require(by_id["G358"]["current_status"] == CONDITIONAL_BANKING_STATUS,
             "neighboring-tidal accepted G358 dependency changed")
-    record = " ".join((root / NEIGHBORING_TIDAL_BANKING_SOURCE).read_text().split())
+    record = " ".join((root / NEIGHBORING_TIDAL_BANKING_SOURCE).read_text(encoding="utf-8").split())
     for token in (*NEIGHBORING_TIDAL_BANKING_IDS, NEIGHBORING_TIDAL_BANKING_SNAPSHOT,
                   "ENTIRE", "BANKED_DERIVED_CONDITIONAL", "VERIFIED-WITH-CAVEATS",
                   "G381 enters the accepted dependency chain before G382",
@@ -1636,10 +1626,9 @@ def validate_neighboring_tidal_banking(root: Path, *, authenticate_sources: bool
     if not authenticate_sources:
         return
     manifest = root / "udt_g381_g382_conditional_banking_2026-09-09/SOURCE_EVIDENCE_SHA256SUMS"
-    require(hashlib.sha256(manifest.read_bytes()).hexdigest()
-            == "a70545e7bc69fff6b077633878305d3d9359b6ae2a647164a7c387c362261d79",
+    require(pin_matches(manifest.read_bytes(), "a70545e7bc69fff6b077633878305d3d9359b6ae2a647164a7c387c362261d79"),
             "neighboring-tidal source manifest changed")
-    entries = [line.split(maxsplit=1) for line in manifest.read_text().splitlines()]
+    entries = [line.split(maxsplit=1) for line in manifest.read_text(encoding="utf-8").splitlines()]
     require(len(entries) == len({path for _, path in entries}) == 338,
             "neighboring-tidal source membership changed")
     for expected, relative in entries:
@@ -1648,22 +1637,22 @@ def validate_neighboring_tidal_banking(root: Path, *, authenticate_sources: bool
                 and re.fullmatch(r"[0-9a-f]{64}", expected) is not None,
                 "neighboring-tidal unsafe source manifest target")
         target = root / relative
-        require(target.is_file() and hashlib.sha256(target.read_bytes()).hexdigest() == expected,
+        require(target.is_file() and pin_matches(target.read_bytes(), expected),
                 f"neighboring-tidal original evidence changed: {relative}")
     frozen = subprocess.run(["git", "-c", "core.packedGitWindowSize=16m", "-c",
         "core.packedGitLimit=64m", "show",
         f"{NEIGHBORING_TIDAL_BANKING_SNAPSHOT}:CURRENT_SCIENTIFIC_PREMISES.tsv"],
         cwd=ROOT, capture_output=True, check=False, timeout=10)
-    require(frozen.returncode == 0 and frozen.stdout == old,
+    require(frozen.returncode == 0 and normalize_eol(frozen.stdout) == normalize_eol(old),
             "neighboring-tidal banking is not additive from authorized baseline")
     for pinfile in ("SOURCE_SHA256SUMS", "step_02/SOURCE_SHA256SUMS"):
         pins = root / "udt_neighboring_tidal_consistency_campaign_2026-09-08" / pinfile
-        for line in pins.read_text().splitlines():
+        for line in pins.read_text(encoding="utf-8").splitlines():
             if not line or line.startswith("#"):
                 continue
             expected, relative = line.split(maxsplit=1)
             payload = old if relative == "CURRENT_SCIENTIFIC_PREMISES.tsv" else (root / relative).read_bytes()
-            require(hashlib.sha256(payload).hexdigest() == expected,
+            require(pin_matches(payload, expected),
                     f"neighboring-tidal source dependency changed: {relative}")
 
 def validate_reviewed_backlog_banking(root: Path, *, authenticate_sources: bool = True) -> None:
@@ -1677,12 +1666,12 @@ def validate_reviewed_backlog_banking(root: Path, *, authenticate_sources: bool 
         target = root / relative
         require(target.is_file(), f"backlog guard file missing: {relative}")
         payload = target.read_bytes()
-        require(hashlib.sha256(payload).hexdigest() == expected,
+        require(pin_matches(payload, expected),
                 f"backlog guard file changed: {relative}")
         payloads[relative] = payload
     package = Path(REVIEWED_BACKLOG_BANKING_SOURCE).parent
-    claims = json.loads(payloads[str(package / "BANKED_CLAIMS.json")])["claims"]
-    expected_rows = payloads[str(package / "BANKED_ROWS.tsv")].splitlines(keepends=True)
+    claims = json.loads(payloads[(package / "BANKED_CLAIMS.json").as_posix()])["claims"]
+    expected_rows = payloads[(package / "BANKED_ROWS.tsv").as_posix()].splitlines(keepends=True)
     raw = without_ti1(without_ti2(without_ncb1((root / "CURRENT_SCIENTIFIC_PREMISES.tsv").read_bytes())))
     lines = raw.splitlines(keepends=True)
     require(lines[:1] == expected_rows[:1], "backlog registry header changed")
@@ -1690,7 +1679,7 @@ def validate_reviewed_backlog_banking(root: Path, *, authenticate_sources: bool 
     require(added == expected_rows[1:], "backlog exact rows/scope/order changed")
     require(lines[1:1+len(added)] == added, "backlog rows must precede original rows")
     original = b"".join(line for line in lines if not line.startswith(REVIEWED_BACKLOG_PREFIXES))
-    require(hashlib.sha256(original).hexdigest() == REVIEWED_BACKLOG_BASE_SHA256,
+    require(pin_matches(original, REVIEWED_BACKLOG_BASE_SHA256),
             "backlog changed an original365 registry byte")
     rows = list(csv.DictReader(raw.decode().splitlines(), delimiter="\t"))
     by_id = {row["premise_id"]:row for row in rows}
@@ -1711,7 +1700,7 @@ def validate_reviewed_backlog_banking(root: Path, *, authenticate_sources: bool 
     if not authenticate_sources:
         return
     entries = [line.split(maxsplit=1) for line in
-               payloads[str(package / "SOURCE_EVIDENCE_SHA256SUMS")].decode().splitlines()]
+               payloads[(package / "SOURCE_EVIDENCE_SHA256SUMS").as_posix()].decode().splitlines()]
     require(len(entries) == len({name for _,name in entries}), "backlog duplicate evidence path")
     for expected, relative in entries:
         path = Path(relative)
@@ -1719,11 +1708,11 @@ def validate_reviewed_backlog_banking(root: Path, *, authenticate_sources: bool 
                 and re.fullmatch(r"[0-9a-f]{64}",expected) is not None,
                 "backlog unsafe evidence path")
         target = root / path
-        require(target.is_file() and hashlib.sha256(target.read_bytes()).hexdigest() == expected,
+        require(target.is_file() and pin_matches(target.read_bytes(), expected),
                 f"backlog original source evidence changed: {relative}")
     frozen = subprocess.run(["git", "show", f"{REVIEWED_BACKLOG_BASELINE}:CURRENT_SCIENTIFIC_PREMISES.tsv"],
                             cwd=ROOT, capture_output=True, timeout=15, check=False)
-    require(frozen.returncode == 0 and frozen.stdout == original,
+    require(frozen.returncode == 0 and normalize_eol(frozen.stdout) == normalize_eol(original),
             "backlog does not reproduce authorized baseline registry")
 
 
@@ -2399,7 +2388,7 @@ def validate_startup_surface(root: Path) -> None:
     for name, (expected_hash, expected_lines) in ARCHIVED_STARTUP_SNAPSHOTS.items():
         path = archive / name
         require(path.is_file(), f"startup archive snapshot missing: {name}")
-        require(hashlib.sha256(path.read_bytes()).hexdigest() == expected_hash,
+        require(pin_matches(path.read_bytes(), expected_hash),
                 f"startup archive hash mismatch: {name}")
         require(len(path.read_text(encoding="utf-8").splitlines()) == expected_lines,
                 f"startup archive line-count mismatch: {name}")
@@ -2409,7 +2398,7 @@ def validate_startup_surface(root: Path) -> None:
     for name, (expected_hash, expected_lines) in PRE_ZOOMOUT_STARTUP_SNAPSHOTS.items():
         path = pre_zoomout / name
         require(path.is_file(), f"pre-zoomout startup snapshot missing: {name}")
-        require(hashlib.sha256(path.read_bytes()).hexdigest() == expected_hash,
+        require(pin_matches(path.read_bytes(), expected_hash),
                 f"pre-zoomout startup hash mismatch: {name}")
         require(len(path.read_text(encoding="utf-8").splitlines()) == expected_lines,
                 f"pre-zoomout startup line-count mismatch: {name}")
@@ -2421,7 +2410,7 @@ def validate_startup_surface(root: Path) -> None:
     for name, (expected_hash, expected_lines) in PRE_G270_STARTUP_SNAPSHOTS.items():
         path = pre_g270 / name
         require(path.is_file(), f"pre-G270 startup snapshot missing: {name}")
-        require(hashlib.sha256(path.read_bytes()).hexdigest() == expected_hash,
+        require(pin_matches(path.read_bytes(), expected_hash),
                 f"pre-G270 startup hash mismatch: {name}")
         require(len(path.read_text(encoding="utf-8").splitlines()) == expected_lines,
                 f"pre-G270 startup line-count mismatch: {name}")
@@ -3028,7 +3017,7 @@ def main() -> None:
         shutil.copytree(g299, replay_package)
         for row in read_tsv(g299 / "SOURCE_MANIFEST.tsv"):
             source = ROOT / row["path"]
-            require(hashlib.sha256(source.read_bytes()).hexdigest() == row["sha256"],
+            require(pin_matches(source.read_bytes(), row["sha256"]),
                     f"G299 source hash changed: {row['path']}")
             destination = replay_root / row["path"]
             destination.parent.mkdir(parents=True, exist_ok=True)
@@ -3237,7 +3226,7 @@ def main() -> None:
             and "4c030845" in (g303 / "PREREGISTRATION_ANCESTRY.md").read_text(encoding="utf-8"),
             "G303 external review or repair ancestry changed")
     g303_manifest = {row["path"]: row for row in read_tsv(g303 / "SOURCE_MANIFEST.tsv")}
-    registry_lines = without_ti1(without_ti2(without_ncb1((ROOT / "CURRENT_SCIENTIFIC_PREMISES.tsv").read_bytes()))).splitlines(keepends=True)
+    registry_lines = without_ti1(without_ti2(without_ncb1(normalize_eol((ROOT / "CURRENT_SCIENTIFIC_PREMISES.tsv").read_bytes())))).splitlines(keepends=True)
     registry_lines = tuple(
         line for line in registry_lines
         if not line.startswith(SIGNAL_CHAIN_PREFIXES + NCB1_PREFIXES + TI2_PREFIXES + TI1_PREFIXES + REVIEWED_BACKLOG_PREFIXES + (b"G382\t", b"G381\t", b"G380\t", b"G379\t", b"G378\t", b"G377\t", b"G376\t", b"G375\t", b"G374\t", b"G373\t", b"G372\t", b"G371\t", b"G370\t", b"G369\t", b"G368\t", b"G367\t", b"G366\t", b"G365\t", b"G364\t", b"G363\t", b"G362\t", b"G361\t", b"G360\t", b"G359\t", b"G358\t", b"G357\t", b"G356\t", b"G355\t", b"G354\t", b"G353\t", b"G352\t", b"G351\t", b"G350\t", b"G349\t", b"G348\t", b"G347\t", b"G346\t", b"G345\t", b"G344\t"))
@@ -3312,7 +3301,7 @@ def main() -> None:
             and "bb1c689e" in (g304 / "RUN_RECORD.md").read_text(encoding="utf-8"),
             "G304 external review or repair ancestry changed")
     g304_manifest = {row["path"]: row for row in read_tsv(g304 / "SOURCE_MANIFEST.tsv")}
-    registry_lines = without_ti1(without_ti2(without_ncb1((ROOT / "CURRENT_SCIENTIFIC_PREMISES.tsv").read_bytes()))).splitlines(keepends=True)
+    registry_lines = without_ti1(without_ti2(without_ncb1(normalize_eol((ROOT / "CURRENT_SCIENTIFIC_PREMISES.tsv").read_bytes())))).splitlines(keepends=True)
     registry_lines = tuple(
         line for line in registry_lines
         if not line.startswith(SIGNAL_CHAIN_PREFIXES + NCB1_PREFIXES + TI2_PREFIXES + TI1_PREFIXES + REVIEWED_BACKLOG_PREFIXES + (b"G382\t", b"G381\t", b"G380\t", b"G379\t", b"G378\t", b"G377\t", b"G376\t", b"G375\t", b"G374\t", b"G373\t", b"G372\t", b"G371\t", b"G370\t", b"G369\t", b"G368\t", b"G367\t", b"G366\t", b"G365\t", b"G364\t", b"G363\t", b"G362\t", b"G361\t", b"G360\t", b"G359\t", b"G358\t", b"G357\t", b"G356\t", b"G355\t", b"G354\t", b"G353\t", b"G352\t", b"G351\t", b"G350\t", b"G349\t", b"G348\t", b"G347\t", b"G346\t", b"G345\t", b"G344\t"))
@@ -3391,7 +3380,7 @@ def main() -> None:
             and "ca462391" in (g305 / "RUN_RECORD.md").read_text(encoding="utf-8"),
             "G305 external repair ancestry changed")
     g305_sources = {row["path"]: row for row in read_tsv(g305 / "SOURCE_SCOPE.tsv")}
-    registry_lines = without_ti1(without_ti2(without_ncb1((ROOT / "CURRENT_SCIENTIFIC_PREMISES.tsv").read_bytes()))).splitlines(keepends=True)
+    registry_lines = without_ti1(without_ti2(without_ncb1(normalize_eol((ROOT / "CURRENT_SCIENTIFIC_PREMISES.tsv").read_bytes())))).splitlines(keepends=True)
     registry_lines = tuple(
         line for line in registry_lines
         if not line.startswith(SIGNAL_CHAIN_PREFIXES + NCB1_PREFIXES + TI2_PREFIXES + TI1_PREFIXES + REVIEWED_BACKLOG_PREFIXES + (b"G382\t", b"G381\t", b"G380\t", b"G379\t", b"G378\t", b"G377\t", b"G376\t", b"G375\t", b"G374\t", b"G373\t", b"G372\t", b"G371\t", b"G370\t", b"G369\t", b"G368\t", b"G367\t", b"G366\t", b"G365\t", b"G364\t", b"G363\t", b"G362\t", b"G361\t", b"G360\t", b"G359\t", b"G358\t", b"G357\t", b"G356\t", b"G355\t", b"G354\t", b"G353\t", b"G352\t", b"G351\t", b"G350\t", b"G349\t", b"G348\t", b"G347\t", b"G346\t", b"G345\t", b"G344\t"))
@@ -3484,7 +3473,7 @@ def main() -> None:
             and replayed_g306["external_review"] == "G306_REPAIRS_ACCEPTED",
             "G306 sealed package replay changed")
     g306_manifest = {row["path"]: row for row in read_tsv(g306 / "SOURCE_MANIFEST.tsv")}
-    registry_lines = without_ti1(without_ti2(without_ncb1((ROOT / "CURRENT_SCIENTIFIC_PREMISES.tsv").read_bytes()))).splitlines(keepends=True)
+    registry_lines = without_ti1(without_ti2(without_ncb1(normalize_eol((ROOT / "CURRENT_SCIENTIFIC_PREMISES.tsv").read_bytes())))).splitlines(keepends=True)
     registry_lines = tuple(
         line for line in registry_lines
         if not line.startswith(SIGNAL_CHAIN_PREFIXES + NCB1_PREFIXES + TI2_PREFIXES + TI1_PREFIXES + REVIEWED_BACKLOG_PREFIXES + (b"G382\t", b"G381\t", b"G380\t", b"G379\t", b"G378\t", b"G377\t", b"G376\t", b"G375\t", b"G374\t", b"G373\t", b"G372\t", b"G371\t", b"G370\t", b"G369\t", b"G368\t", b"G367\t", b"G366\t", b"G365\t", b"G364\t", b"G363\t", b"G362\t", b"G361\t", b"G360\t", b"G359\t", b"G358\t", b"G357\t", b"G356\t", b"G355\t", b"G354\t", b"G353\t", b"G352\t", b"G351\t", b"G350\t", b"G349\t", b"G348\t", b"G347\t", b"G346\t", b"G345\t", b"G344\t"))
@@ -4394,8 +4383,7 @@ def main() -> None:
     g328_external_path = g328 / "EXTERNAL_REVIEW.md"
     g328_external = g328_external_path.read_text(encoding="utf-8")
     require(
-        hashlib.sha256(g328_external_path.read_bytes()).hexdigest()
-        == "9fc5ed67f54643dc62be672a582d4d9650904dcab59c77f96e2467d271afa59a"
+        pin_matches(g328_external_path.read_bytes(), "9fc5ed67f54643dc62be672a582d4d9650904dcab59c77f96e2467d271afa59a")
         and g328_external.rstrip().endswith("ACCEPT__G328_BOUNDED_TRANSVERSE_CENSUS")
         and "full `3 + 7 = 10` symmetric metric content" in g328_external
         and "No branch was missing" in g328_external,
@@ -4457,8 +4445,7 @@ def main() -> None:
     g329_external_path = g329 / "EXTERNAL_REVIEW.md"
     g329_external = g329_external_path.read_text(encoding="utf-8")
     require(
-        hashlib.sha256(g329_external_path.read_bytes()).hexdigest()
-        == "54aa248f64413e8bb79437e16c3826b6872dc99a2b39e3d8b682fb6d9930a782"
+        pin_matches(g329_external_path.read_bytes(), "54aa248f64413e8bb79437e16c3826b6872dc99a2b39e3d8b682fb6d9930a782")
         and g329_external.rstrip().endswith("ACCEPT__G329_BOUNDED_OBLIQUE_CENSUS")
         and "All `41/41` payloads matched" in g329_external
         and "both master equations and the representative reconstruction are correct"
@@ -4516,8 +4503,7 @@ def main() -> None:
     g330_external_path = g330 / "EXTERNAL_R3_COMPLETION_FOLLOWUP.md"
     g330_external = g330_external_path.read_text(encoding="utf-8")
     require(
-        hashlib.sha256(g330_external_path.read_bytes()).hexdigest()
-        == "beb90c562324a667d7ef10e207eb8517d7ec87cd956894697b11e4cb7e25ade3"
+        pin_matches(g330_external_path.read_bytes(), "beb90c562324a667d7ef10e207eb8517d7ec87cd956894697b11e4cb7e25ade3")
         and g330_external.rstrip().endswith(
             "R3_COMPLETION_ACCEPTED__G330_BOUNDED_SCIENTIFIC_LANDING_RETAINED")
         and "48 payloads; 50 files" in g330_external
@@ -4577,8 +4563,7 @@ def main() -> None:
     g331_external_path = g331 / "EXTERNAL_REVIEW.md"
     g331_external = g331_external_path.read_text(encoding="utf-8")
     require(
-        hashlib.sha256(g331_external_path.read_bytes()).hexdigest()
-        == "7a4d62601caab5f9254b58856a5a2e2f7891ab3282da75bc77403e119cd01ac5"
+        pin_matches(g331_external_path.read_bytes(), "7a4d62601caab5f9254b58856a5a2e2f7891ab3282da75bc77403e119cd01ac5")
         and g331_external.rstrip().endswith(
             "ACCEPT__G331_BOUNDED_EIGENLINE_FIBRATION_BOUNDARY")
         and "all 39 listed payloads" in g331_external
@@ -4637,8 +4622,7 @@ def main() -> None:
     g332_external_path = g332 / "EXTERNAL_REPAIR_FOLLOWUP.md"
     g332_external = g332_external_path.read_text(encoding="utf-8")
     require(
-        hashlib.sha256(g332_external_path.read_bytes()).hexdigest()
-        == "00fdac3620a99ecbf0b1bbd8ab7f1d5eeeaba3a106c16ef4f8236aeb32a4f9ea"
+        pin_matches(g332_external_path.read_bytes(), "00fdac3620a99ecbf0b1bbd8ab7f1d5eeeaba3a106c16ef4f8236aeb32a4f9ea")
         and g332_external.rstrip().endswith(
             "REPAIRS_ACCEPTED__G332_BOUNDED_SCIENTIFIC_LANDING_RETAINED")
         and "manifest contains 44 payload rows" in g332_external.lower()
@@ -4701,8 +4685,7 @@ def main() -> None:
     g333_external_path = g333 / "EXTERNAL_REPAIR_FOLLOWUP.md"
     g333_external = g333_external_path.read_text(encoding="utf-8")
     require(
-        hashlib.sha256(g333_external_path.read_bytes()).hexdigest()
-        == "52d7d293f55ce3284ef0e777151b43bfd64e217d2725cff5717577ef185b4a95"
+        pin_matches(g333_external_path.read_bytes(), "52d7d293f55ce3284ef0e777151b43bfd64e217d2725cff5717577ef185b4a95")
         and g333_external.rstrip().endswith(
             "REPAIRS_ACCEPTED__G333_BOUNDED_FIRST_RESPONSE_RETAINED")
         and "all `41` manifest payloads" in g333_external
@@ -4781,8 +4764,7 @@ def main() -> None:
     g334_external_path = g334 / "EXTERNAL_REPAIR_FOLLOWUP.md"
     g334_external = g334_external_path.read_text(encoding="utf-8")
     require(
-        hashlib.sha256(g334_external_path.read_bytes()).hexdigest()
-        == "5ae19e07fb9c2b7cf03aa7efd8719ad94ae3a32c9345d6bfffb62762bb6abfb2"
+        pin_matches(g334_external_path.read_bytes(), "5ae19e07fb9c2b7cf03aa7efd8719ad94ae3a32c9345d6bfffb62762bb6abfb2")
         and "REPAIRS_ACCEPTED__G334_BOUNDED_BOOSTED_PAIR_FIRST_JET_RETAINED"
         in g334_external
         and "43-file fresh-review product" in g334_external
@@ -4984,8 +4966,7 @@ def main() -> None:
     g336_repair_external = g336_repair_external_path.read_text(encoding="utf-8")
     require("ACCEPT_WITH_REPAIRS__G336_BOUNDED_SILENT_SECOND_JET_RETAINED"
             in g336_fresh_external
-            and hashlib.sha256(g336_repair_external_path.read_bytes()).hexdigest()
-            == "38abd3906a94cae86093fbf75adc95954d2001d5f399997a293b6bba32343cd3"
+            and pin_matches(g336_repair_external_path.read_bytes(), "38abd3906a94cae86093fbf75adc95954d2001d5f399997a293b6bba32343cd3")
             and "REPAIRS_ACCEPTED__G336_BOUNDED_SILENT_SECOND_JET_RETAINED"
             in g336_repair_external
             and "0<mu<1" in g336_repair_external
@@ -5083,8 +5064,7 @@ def main() -> None:
     g337_repair = (g337 / "REPAIR_IMPLEMENTATION.md").read_text(encoding="utf-8")
     g337_repair_external_path = g337 / "EXTERNAL_REPAIR_FOLLOWUP.md"
     g337_repair_external = g337_repair_external_path.read_text(encoding="utf-8")
-    require(hashlib.sha256(g337_external_path.read_bytes()).hexdigest()
-            == "f211d162488c84ae5a10b22eaa69daf1474c2f41dedfc714abc5e1738a96c597"
+    require(pin_matches(g337_external_path.read_bytes(), "f211d162488c84ae5a10b22eaa69daf1474c2f41dedfc714abc5e1738a96c597")
             and g337_external.rstrip().endswith(
                 "ACCEPT_WITH_REPAIRS__G337_BOUNDED_THIRD_JET_OWNERSHIP_RETAINED"
             )
@@ -5095,8 +5075,7 @@ def main() -> None:
             and "sources/" in g337_repair
             and "byte-identical" in g337_repair,
             "G337 R1 preregistration or local implementation changed")
-    require(hashlib.sha256(g337_repair_external_path.read_bytes()).hexdigest()
-            == "f6e5fd6b862c27c7945e39b93e1cb043a09342bf31e5a345147629b1b8b30d2d"
+    require(pin_matches(g337_repair_external_path.read_bytes(), "f6e5fd6b862c27c7945e39b93e1cb043a09342bf31e5a345147629b1b8b30d2d")
             and g337_repair_external.rstrip().endswith(
                 "REPAIRS_ACCEPTED__G337_BOUNDED_THIRD_JET_OWNERSHIP_RETAINED"
             )
@@ -5173,7 +5152,7 @@ def main() -> None:
             "G338 aggregate package evidence changed")
 
     g338_before = {
-        path.name: hashlib.sha256(path.read_bytes()).hexdigest()
+        path.name: pin_sha256(path.read_bytes())
         for path in g338.iterdir() if path.is_file()
     }
     g338_env = dict(os.environ)
@@ -5196,7 +5175,7 @@ def main() -> None:
         require(replay.returncode == 0 and token in replay.stdout,
                 f"G338 dependency-free no-write replay failed: {script}: {replay.stderr}")
     g338_after = {
-        path.name: hashlib.sha256(path.read_bytes()).hexdigest()
+        path.name: pin_sha256(path.read_bytes())
         for path in g338.iterdir() if path.is_file()
     }
     require(g338_before == g338_after, "G338 no-write replay changed evidence bytes")
@@ -5212,13 +5191,12 @@ def main() -> None:
             check=False,
         )
         require(frozen.returncode == 0
-                and hashlib.sha256(frozen.stdout).hexdigest() == expected_hash,
+                and pin_matches(frozen.stdout, expected_hash),
                 f"G338 frozen source provenance changed: {source_path}")
 
     g338_external_path = g338 / "EXTERNAL_REVIEW_RESPONSE.md"
     g338_external = g338_external_path.read_text(encoding="utf-8")
-    require(hashlib.sha256(g338_external_path.read_bytes()).hexdigest()
-            == "8dd58f0276289ef6a68a968bbad52d16f06dfe1b5e9ee636b9988857da76e442"
+    require(pin_matches(g338_external_path.read_bytes(), "8dd58f0276289ef6a68a968bbad52d16f06dfe1b5e9ee636b9988857da76e442")
             and g338_external.rstrip().endswith(
                 "ACCEPT_G338_BOUNDED_FINITE_TIME_PAIR_READOUT"
             )
@@ -5302,7 +5280,7 @@ def main() -> None:
             "G339 aggregate package evidence changed")
 
     g339_before = {
-        path.name: hashlib.sha256(path.read_bytes()).hexdigest()
+        path.name: pin_sha256(path.read_bytes())
         for path in g339.iterdir() if path.is_file()
     }
     g339_env = dict(os.environ)
@@ -5325,7 +5303,7 @@ def main() -> None:
         require(replay.returncode == 0 and token in replay.stdout,
                 f"G339 dependency-free no-write replay failed: {script}: {replay.stderr}")
     g339_after = {
-        path.name: hashlib.sha256(path.read_bytes()).hexdigest()
+        path.name: pin_sha256(path.read_bytes())
         for path in g339.iterdir() if path.is_file()
     }
     require(g339_before == g339_after, "G339 no-write replay changed evidence bytes")
@@ -5341,13 +5319,12 @@ def main() -> None:
             check=False,
         )
         require(frozen.returncode == 0
-                and hashlib.sha256(frozen.stdout).hexdigest() == expected_hash,
+                and pin_matches(frozen.stdout, expected_hash),
                 f"G339 frozen source provenance changed: {source_path}")
 
     g339_external_path = g339 / "EXTERNAL_REVIEW_RESPONSE.md"
     g339_external = g339_external_path.read_text(encoding="utf-8")
-    require(hashlib.sha256(g339_external_path.read_bytes()).hexdigest()
-            == "22943e5e00ed44da3690eb41aefc6111e4418d1d8f5ddcac6486776897c98eee"
+    require(pin_matches(g339_external_path.read_bytes(), "22943e5e00ed44da3690eb41aefc6111e4418d1d8f5ddcac6486776897c98eee")
             and g339_external.rstrip().endswith(
                 "ACCEPT_G339_BOUNDED_CARRY_TYPE_CLASSIFICATION"
             )
@@ -5439,7 +5416,7 @@ def main() -> None:
             "G340 aggregate package evidence changed")
 
     g340_before = {
-        path.name: hashlib.sha256(path.read_bytes()).hexdigest()
+        path.name: pin_sha256(path.read_bytes())
         for path in g340.iterdir() if path.is_file()
     }
     g340_env = dict(os.environ)
@@ -5462,7 +5439,7 @@ def main() -> None:
         require(replay.returncode == 0 and token in replay.stdout,
                 f"G340 dependency-free no-write replay failed: {script}: {replay.stderr}")
     g340_after = {
-        path.name: hashlib.sha256(path.read_bytes()).hexdigest()
+        path.name: pin_sha256(path.read_bytes())
         for path in g340.iterdir() if path.is_file()
     }
     require(g340_before == g340_after, "G340 no-write replay changed evidence bytes")
@@ -5478,13 +5455,12 @@ def main() -> None:
             check=False,
         )
         require(frozen.returncode == 0
-                and hashlib.sha256(frozen.stdout).hexdigest() == expected_hash,
+                and pin_matches(frozen.stdout, expected_hash),
                 f"G340 frozen source provenance changed: {source_path}")
 
     g340_external_path = g340 / "EXTERNAL_REVIEW_RESPONSE.md"
     g340_external = g340_external_path.read_text(encoding="utf-8")
-    require(hashlib.sha256(g340_external_path.read_bytes()).hexdigest()
-            == "fe712e1bfc62cf6ddcc14a1f34cf6712b915d69c6ae578cd3d72f3591446bdc6"
+    require(pin_matches(g340_external_path.read_bytes(), "fe712e1bfc62cf6ddcc14a1f34cf6712b915d69c6ae578cd3d72f3591446bdc6")
             and g340_external.rstrip().endswith(
                 "ACCEPT_G340_BOUNDED_FINITE_PAIR_RELATION_CLASSIFICATION"
             )
@@ -5602,7 +5578,7 @@ def main() -> None:
             "G341 aggregate package evidence changed")
 
     g341_before = {
-        path.name: hashlib.sha256(path.read_bytes()).hexdigest()
+        path.name: pin_sha256(path.read_bytes())
         for path in g341.iterdir() if path.is_file()
     }
     g341_env = dict(os.environ)
@@ -5625,7 +5601,7 @@ def main() -> None:
         require(replay.returncode == 0 and token in replay.stdout,
                 f"G341 dependency-free no-write replay failed: {script}: {replay.stderr}")
     g341_after = {
-        path.name: hashlib.sha256(path.read_bytes()).hexdigest()
+        path.name: pin_sha256(path.read_bytes())
         for path in g341.iterdir() if path.is_file()
     }
     require(g341_before == g341_after, "G341 no-write replay changed evidence bytes")
@@ -5641,13 +5617,12 @@ def main() -> None:
             check=False,
         )
         require(frozen.returncode == 0
-                and hashlib.sha256(frozen.stdout).hexdigest() == expected_hash,
+                and pin_matches(frozen.stdout, expected_hash),
                 f"G341 frozen source provenance changed: {source_path}")
 
     g341_external_path = g341 / "EXTERNAL_REVIEW_RESPONSE.md"
     g341_external = g341_external_path.read_text(encoding="utf-8")
-    require(hashlib.sha256(g341_external_path.read_bytes()).hexdigest()
-            == "8b9276c4937ade7c823d6caf74e0ac841d7c70993f3af3986f151a5825a9393c"
+    require(pin_matches(g341_external_path.read_bytes(), "8b9276c4937ade7c823d6caf74e0ac841d7c70993f3af3986f151a5825a9393c")
             and g341_external.rstrip().endswith(
                 "ACCEPT_G341_BOUNDED_NONPRINCIPAL_NULL_RELATION_AND_SCREEN_CARRY"
             )
@@ -5767,7 +5742,7 @@ def main() -> None:
             "G342 aggregate package evidence changed")
 
     g342_before = {
-        path.name: hashlib.sha256(path.read_bytes()).hexdigest()
+        path.name: pin_sha256(path.read_bytes())
         for path in g342.iterdir() if path.is_file()
     }
     g342_env = dict(os.environ)
@@ -5790,7 +5765,7 @@ def main() -> None:
         require(replay.returncode == 0 and token in replay.stdout,
                 f"G342 dependency-free no-write replay failed: {script}: {replay.stderr}")
     g342_after = {
-        path.name: hashlib.sha256(path.read_bytes()).hexdigest()
+        path.name: pin_sha256(path.read_bytes())
         for path in g342.iterdir() if path.is_file()
     }
     require(g342_before == g342_after, "G342 no-write replay changed evidence bytes")
@@ -5806,13 +5781,12 @@ def main() -> None:
             check=False,
         )
         require(frozen.returncode == 0
-                and hashlib.sha256(frozen.stdout).hexdigest() == expected_hash,
+                and pin_matches(frozen.stdout, expected_hash),
                 f"G342 frozen source provenance changed: {source_path}")
 
     g342_external_path = g342 / "EXTERNAL_REVIEW_RESPONSE.md"
     g342_external = g342_external_path.read_text(encoding="utf-8")
-    require(hashlib.sha256(g342_external_path.read_bytes()).hexdigest()
-            == "d4905f8f5abd10fca02cb9b6a47463f6104a4f110c11c18c11307c7c6203e5b0"
+    require(pin_matches(g342_external_path.read_bytes(), "d4905f8f5abd10fca02cb9b6a47463f6104a4f110c11c18c11307c7c6203e5b0")
             and g342_external.rstrip().endswith(
                 "ACCEPT_G342_BOUNDED_FULL_NULL_JACOBI_BEAM_AREA"
             )
@@ -5935,7 +5909,7 @@ def main() -> None:
             "G343 aggregate package evidence changed")
 
     g343_before = {
-        path.name: hashlib.sha256(path.read_bytes()).hexdigest()
+        path.name: pin_sha256(path.read_bytes())
         for path in g343.iterdir() if path.is_file()
     }
     g343_env = dict(os.environ)
@@ -5958,7 +5932,7 @@ def main() -> None:
         require(replay.returncode == 0 and token in replay.stdout,
                 f"G343 dependency-free no-write replay failed: {script}: {replay.stderr}")
     g343_after = {
-        path.name: hashlib.sha256(path.read_bytes()).hexdigest()
+        path.name: pin_sha256(path.read_bytes())
         for path in g343.iterdir() if path.is_file()
     }
     require(g343_before == g343_after, "G343 no-write replay changed evidence bytes")
@@ -5974,13 +5948,12 @@ def main() -> None:
             check=False,
         )
         require(frozen.returncode == 0
-                and hashlib.sha256(frozen.stdout).hexdigest() == expected_hash,
+                and pin_matches(frozen.stdout, expected_hash),
                 f"G343 frozen source provenance changed: {source_path}")
 
     g343_external_path = g343 / "EXTERNAL_REVIEW_RESPONSE.md"
     g343_external = g343_external_path.read_text(encoding="utf-8")
-    require(hashlib.sha256(g343_external_path.read_bytes()).hexdigest()
-            == "31e14bc6c971f2dae0abd0a49519279d0d4b636e50c495330d22c9d8d008056d"
+    require(pin_matches(g343_external_path.read_bytes(), "31e14bc6c971f2dae0abd0a49519279d0d4b636e50c495330d22c9d8d008056d")
             and g343_external.rstrip().endswith(
                 "ACCEPT_G343_BOUNDED_BILOCAL_SCREEN_PHASE_SPACE_PROPAGATOR"
             )
@@ -6110,7 +6083,7 @@ def main() -> None:
             "G344 aggregate package evidence changed")
 
     g344_before = {
-        path.name: hashlib.sha256(path.read_bytes()).hexdigest()
+        path.name: pin_sha256(path.read_bytes())
         for path in g344.iterdir() if path.is_file()
     }
     g344_env = dict(os.environ)
@@ -6133,7 +6106,7 @@ def main() -> None:
         require(replay.returncode == 0 and token in replay.stdout,
                 f"G344 dependency-free no-write replay failed: {script}: {replay.stderr}")
     g344_after = {
-        path.name: hashlib.sha256(path.read_bytes()).hexdigest()
+        path.name: pin_sha256(path.read_bytes())
         for path in g344.iterdir() if path.is_file()
     }
     require(g344_before == g344_after, "G344 no-write replay changed evidence bytes")
@@ -6147,13 +6120,12 @@ def main() -> None:
             continue
         direct_source = ROOT / source_path
         require(direct_source.is_file()
-                and hashlib.sha256(direct_source.read_bytes()).hexdigest() == expected_hash,
+                and pin_matches(direct_source.read_bytes(), expected_hash),
                 f"G344 frozen source provenance changed: {source_path}")
 
     g344_external_path = g344 / "EXTERNAL_REVIEW_RESPONSE.md"
     g344_external = g344_external_path.read_text(encoding="utf-8")
-    require(hashlib.sha256(g344_external_path.read_bytes()).hexdigest()
-            == "c01f0f13bb08d0675d6d637c5960a1fd25963b287ada01cb45905283340c95ff"
+    require(pin_matches(g344_external_path.read_bytes(), "c01f0f13bb08d0675d6d637c5960a1fd25963b287ada01cb45905283340c95ff")
             and g344_external.rstrip().endswith(
                 "ACCEPT_G344_BOUNDED_SCREEN_ENDPOINT_GENERATOR_AND_BIDENSITY"
             )
@@ -6281,7 +6253,7 @@ def main() -> None:
             "G345 aggregate package evidence changed")
 
     g345_before = {
-        path.name: hashlib.sha256(path.read_bytes()).hexdigest()
+        path.name: pin_sha256(path.read_bytes())
         for path in g345.iterdir() if path.is_file()
     }
     g345_env = dict(os.environ)
@@ -6304,15 +6276,14 @@ def main() -> None:
         require(replay.returncode == 0 and token in replay.stdout,
                 f"G345 dependency-free no-write replay failed: {script}: {replay.stderr}")
     g345_after = {
-        path.name: hashlib.sha256(path.read_bytes()).hexdigest()
+        path.name: pin_sha256(path.read_bytes())
         for path in g345.iterdir() if path.is_file()
     }
     require(g345_before == g345_after, "G345 no-write replay changed evidence bytes")
 
     g345_external_path = g345 / "EXTERNAL_REVIEW_RESPONSE.md"
     g345_external = g345_external_path.read_text(encoding="utf-8")
-    require(hashlib.sha256(g345_external_path.read_bytes()).hexdigest()
-            == "688ada3bce98b97dbe95e158f52af5fe7040b20ff6cfe872c95bac4acfb3206c"
+    require(pin_matches(g345_external_path.read_bytes(), "688ada3bce98b97dbe95e158f52af5fe7040b20ff6cfe872c95bac4acfb3206c")
             and g345_external.rstrip().endswith(
                 "ACCEPT_G345_BOUNDED_OBSERVER_CALIBRATED_SCREEN_SCALAR"
             )
@@ -6441,7 +6412,7 @@ def main() -> None:
             "G346 aggregate package evidence changed")
 
     g346_before = {
-        path.name: hashlib.sha256(path.read_bytes()).hexdigest()
+        path.name: pin_sha256(path.read_bytes())
         for path in g346.iterdir() if path.is_file()
     }
     g346_env = dict(os.environ)
@@ -6464,15 +6435,14 @@ def main() -> None:
         require(replay.returncode == 0 and token in replay.stdout,
                 f"G346 dependency-free no-write replay failed: {script}: {replay.stderr}")
     g346_after = {
-        path.name: hashlib.sha256(path.read_bytes()).hexdigest()
+        path.name: pin_sha256(path.read_bytes())
         for path in g346.iterdir() if path.is_file()
     }
     require(g346_before == g346_after, "G346 no-write replay changed evidence bytes")
 
     g346_external_path = g346 / "EXTERNAL_REVIEW_RESPONSE.md"
     g346_external = g346_external_path.read_text(encoding="utf-8")
-    require(hashlib.sha256(g346_external_path.read_bytes()).hexdigest()
-            == "798633026df1ca03249900c57a4c4cf3848a8590fe4ef2f58617f63c4bef6199"
+    require(pin_matches(g346_external_path.read_bytes(), "798633026df1ca03249900c57a4c4cf3848a8590fe4ef2f58617f63c4bef6199")
             and g346_external.rstrip().endswith(
                 "ACCEPT_G346_BOUNDED_DIRECTIONAL_ANGULAR_AREA_RECIPROCITY"
             )
@@ -6601,7 +6571,7 @@ def main() -> None:
             "G347 aggregate package evidence changed")
 
     g347_before = {
-        path.name: hashlib.sha256(path.read_bytes()).hexdigest()
+        path.name: pin_sha256(path.read_bytes())
         for path in g347.iterdir() if path.is_file()
     }
     g347_env = dict(os.environ)
@@ -6618,15 +6588,14 @@ def main() -> None:
     require(g347_replay.returncode == 0 and '"checks_total": 21' in g347_replay.stdout,
             f"G347 dependency-free no-write replay failed: {g347_replay.stderr}")
     g347_after = {
-        path.name: hashlib.sha256(path.read_bytes()).hexdigest()
+        path.name: pin_sha256(path.read_bytes())
         for path in g347.iterdir() if path.is_file()
     }
     require(g347_before == g347_after, "G347 no-write replay changed evidence bytes")
 
     g347_external_path = g347 / "EXTERNAL_REVIEW_RESPONSE.md"
     g347_external = g347_external_path.read_text(encoding="utf-8")
-    require(hashlib.sha256(g347_external_path.read_bytes()).hexdigest()
-            == "af2e0a6612cac8a4b0a090927ae4b84a9338fef3ee60d694e86c05521b11ac4d"
+    require(pin_matches(g347_external_path.read_bytes(), "af2e0a6612cac8a4b0a090927ae4b84a9338fef3ee60d694e86c05521b11ac4d")
             and g347_external.rstrip().endswith(
                 "ACCEPT_G347_BOUNDED_ENDPOINT_OBSERVER_COVARIANCE"
             )
@@ -6747,7 +6716,7 @@ def main() -> None:
             "G348 aggregate package evidence changed")
 
     g348_before = {
-        path.name: hashlib.sha256(path.read_bytes()).hexdigest()
+        path.name: pin_sha256(path.read_bytes())
         for path in g348.iterdir() if path.is_file()
     }
     g348_env = dict(os.environ)
@@ -6764,15 +6733,14 @@ def main() -> None:
     require(g348_replay.returncode == 0 and '"checks_total": 19' in g348_replay.stdout,
             f"G348 dependency-free no-write replay failed: {g348_replay.stderr}")
     g348_after = {
-        path.name: hashlib.sha256(path.read_bytes()).hexdigest()
+        path.name: pin_sha256(path.read_bytes())
         for path in g348.iterdir() if path.is_file()
     }
     require(g348_before == g348_after, "G348 no-write replay changed evidence bytes")
 
     g348_external_path = g348 / "EXTERNAL_REVIEW_RESPONSE.md"
     g348_external = g348_external_path.read_text(encoding="utf-8")
-    require(hashlib.sha256(g348_external_path.read_bytes()).hexdigest()
-            == "6d8b02c9ce76d99039318ab03fc0e737a5ab2c456178fae9f66e684c3cce0af5"
+    require(pin_matches(g348_external_path.read_bytes(), "6d8b02c9ce76d99039318ab03fc0e737a5ab2c456178fae9f66e684c3cce0af5")
             and g348_external.rstrip().endswith(
                 "ACCEPT_G348_GENERIC_NULL_SCREEN_AREA_THEOREM"
             )
@@ -6883,7 +6851,7 @@ def main() -> None:
             "G349 aggregate package evidence changed")
 
     g349_before = {
-        path.relative_to(g349).as_posix(): hashlib.sha256(path.read_bytes()).hexdigest()
+        path.relative_to(g349).as_posix(): pin_sha256(path.read_bytes())
         for path in g349.rglob("*") if path.is_file() and "__pycache__" not in path.parts
     }
     g349_env = dict(os.environ)
@@ -6902,15 +6870,14 @@ def main() -> None:
             f"G349 dependency-free no-write replay failed (exit {g349_replay.returncode}):"
             f"\nSTDOUT:\n{g349_replay.stdout}\nSTDERR:\n{g349_replay.stderr}")
     g349_after = {
-        path.relative_to(g349).as_posix(): hashlib.sha256(path.read_bytes()).hexdigest()
+        path.relative_to(g349).as_posix(): pin_sha256(path.read_bytes())
         for path in g349.rglob("*") if path.is_file() and "__pycache__" not in path.parts
     }
     require(g349_before == g349_after, "G349 no-write replay changed evidence bytes")
 
     g349_followup_path = g349 / "EXTERNAL_REPAIR_FOLLOWUP_RESPONSE.md"
     g349_followup = g349_followup_path.read_text(encoding="utf-8")
-    require(hashlib.sha256(g349_followup_path.read_bytes()).hexdigest()
-            == "4852b3a868b2920a1cc2e08c2fe4521a8e1e9b819dc56ea68cb124df700e0dcb"
+    require(pin_matches(g349_followup_path.read_bytes(), "4852b3a868b2920a1cc2e08c2fe4521a8e1e9b819dc56ea68cb124df700e0dcb")
             and g349_followup.rstrip().endswith("ACCEPT_G349_R1_R4_REPAIR_FOLLOWUP")
             and "`r_F=2`" in g349_followup
             and "`r_s=1`" in g349_followup
@@ -7023,7 +6990,7 @@ def main() -> None:
             "G350 aggregate package evidence changed")
 
     g350_before = {
-        path.relative_to(g350).as_posix(): hashlib.sha256(path.read_bytes()).hexdigest()
+        path.relative_to(g350).as_posix(): pin_sha256(path.read_bytes())
         for path in g350.rglob("*") if path.is_file() and "__pycache__" not in path.parts
     }
     g350_env = dict(os.environ)
@@ -7041,15 +7008,14 @@ def main() -> None:
     require(g350_replay.returncode == 0 and '"checks_total": 33' in g350_replay.stdout,
             f"G350 dependency-free no-write replay failed: {g350_replay.stderr}")
     g350_after = {
-        path.relative_to(g350).as_posix(): hashlib.sha256(path.read_bytes()).hexdigest()
+        path.relative_to(g350).as_posix(): pin_sha256(path.read_bytes())
         for path in g350.rglob("*") if path.is_file() and "__pycache__" not in path.parts
     }
     require(g350_before == g350_after, "G350 no-write replay changed evidence bytes")
 
     g350_followup_path = g350 / "EXTERNAL_REPAIR_FOLLOWUP_RESPONSE.md"
     g350_followup = g350_followup_path.read_text(encoding="utf-8")
-    require(hashlib.sha256(g350_followup_path.read_bytes()).hexdigest()
-            == "6b77e0f8aa2cbb1d7d8630ba23e349823a3feb9eba5def7a961c8579acbe5ec7"
+    require(pin_matches(g350_followup_path.read_bytes(), "6b77e0f8aa2cbb1d7d8630ba23e349823a3feb9eba5def7a961c8579acbe5ec7")
             and g350_followup.rstrip().endswith("ACCEPT_G350_R1_R4_REPAIR_FOLLOWUP")
             and "No defect was found within repairs R1–R4" in g350_followup
             and "no regression was found" in g350_followup,
@@ -7167,7 +7133,7 @@ def main() -> None:
             destination.parent.mkdir(parents=True, exist_ok=True)
             destination.write_bytes(source_bytes)
         g351_before = {
-            path.relative_to(g351_copy).as_posix(): hashlib.sha256(path.read_bytes()).hexdigest()
+            path.relative_to(g351_copy).as_posix(): pin_sha256(path.read_bytes())
             for path in g351_copy.rglob("*")
             if path.is_file() and "__pycache__" not in path.parts
         }
@@ -7187,7 +7153,7 @@ def main() -> None:
                 in g351_replay.stdout,
                 f"G351 dependency-free no-write replay failed: {g351_replay.stderr}")
         g351_after = {
-            path.relative_to(g351_copy).as_posix(): hashlib.sha256(path.read_bytes()).hexdigest()
+            path.relative_to(g351_copy).as_posix(): pin_sha256(path.read_bytes())
             for path in g351_copy.rglob("*")
             if path.is_file() and "__pycache__" not in path.parts
         }
@@ -7195,8 +7161,7 @@ def main() -> None:
 
     g351_external_path = g351 / "EXTERNAL_REVIEW_RESPONSE.md"
     g351_external = g351_external_path.read_text(encoding="utf-8")
-    require(hashlib.sha256(g351_external_path.read_bytes()).hexdigest()
-            == "77890a2fd784a9f40230594bf5b20096c10955dfa80b9ccdc1c8e534f975a897"
+    require(pin_matches(g351_external_path.read_bytes(), "77890a2fd784a9f40230594bf5b20096c10955dfa80b9ccdc1c8e534f975a897")
             and g351_external.rstrip().endswith(
                 "ACCEPT_G351_BOUNDED_CARRIED_MEASURE_CONSERVATION")
             and "standard finite nonnegative countably additive measure" in g351_external
@@ -7315,7 +7280,7 @@ def main() -> None:
             "G352 aggregate package evidence changed")
 
     g352_before = {
-        path.relative_to(g352).as_posix(): hashlib.sha256(path.read_bytes()).hexdigest()
+        path.relative_to(g352).as_posix(): pin_sha256(path.read_bytes())
         for path in g352.rglob("*") if path.is_file() and "__pycache__" not in path.parts
     }
     g352_env = dict(os.environ)
@@ -7334,15 +7299,14 @@ def main() -> None:
             in g352_replay.stdout,
             f"G352 dependency-free no-write replay failed: {g352_replay.stderr}")
     g352_after = {
-        path.relative_to(g352).as_posix(): hashlib.sha256(path.read_bytes()).hexdigest()
+        path.relative_to(g352).as_posix(): pin_sha256(path.read_bytes())
         for path in g352.rglob("*") if path.is_file() and "__pycache__" not in path.parts
     }
     require(g352_before == g352_after, "G352 no-write replay changed evidence bytes")
 
     g352_external_path = g352 / "EXTERNAL_REPAIR_FOLLOWUP_RESPONSE.md"
     g352_external = g352_external_path.read_text(encoding="utf-8")
-    require(hashlib.sha256(g352_external_path.read_bytes()).hexdigest()
-            == "f04c7d38567bdb56854c1ee6fc4da80b0307be3aa62286127a61775dcaf3760e"
+    require(pin_matches(g352_external_path.read_bytes(), "f04c7d38567bdb56854c1ee6fc4da80b0307be3aa62286127a61775dcaf3760e")
             and g352_external.rstrip().endswith("ACCEPT_G352_R2_REPAIR_COMPLETION")
             and "continuous total-phase-variation" in g352_external
             and "Literal atomic crossings" in g352_external
@@ -7444,7 +7408,7 @@ def main() -> None:
         all(token in w5["forbidden_regression"] for token in ("standalone full nonradial", "screen frame carry", "c_E", "Xmax")),
         "W5 regression guard missing",
     )
-    founding_w5 = " ".join((ROOT / "founding.md").read_text().split())
+    founding_w5 = " ".join((ROOT / "founding.md").read_text(encoding="utf-8").split())
     for token in (
         "### W5. Physical normalized projective pair position",
         "provisionally authorized by Charles Rotter on 2026-08-26",
@@ -7492,7 +7456,7 @@ def main() -> None:
         source_path = ROOT / source["path"]
         require(source_path.is_file(), f"G276 source missing: {source['path']}")
         payload = source_path.read_bytes()
-        if hashlib.sha256(payload).hexdigest() != source["sha256"]:
+        if pin_sha256(payload) != source["sha256"]:
             frozen = subprocess.run(
                 ["git", "show", f"e5fddc76:{source['path']}"],
                 cwd=ROOT,
@@ -7502,7 +7466,7 @@ def main() -> None:
             require(frozen.returncode == 0, f"G276 frozen source unavailable: {source['path']}")
             payload = frozen.stdout
         require(
-            hashlib.sha256(payload).hexdigest() == source["sha256"],
+            pin_matches(payload, source["sha256"]),
             f"G276 preregistered source hash changed: {source['path']}",
         )
     g276_row = by_id["G276"]
@@ -7552,10 +7516,10 @@ def main() -> None:
         "verify_package.py",
     ):
         require((g276 / name).is_file(), f"G276 evidence missing: {name}")
-    g276_production = json.loads((g276 / "DERIVATION_RESULT.json").read_text())
-    g276_independent = json.loads((g276 / "INDEPENDENT_VERIFICATION.json").read_text())
-    g276_catches = json.loads((g276 / "CATCH_PROOF_RESULT.json").read_text())
-    g276_verification = json.loads((g276 / "VERIFICATION_RESULT.json").read_text())
+    g276_production = json.loads((g276 / "DERIVATION_RESULT.json").read_text(encoding="utf-8"))
+    g276_independent = json.loads((g276 / "INDEPENDENT_VERIFICATION.json").read_text(encoding="utf-8"))
+    g276_catches = json.loads((g276 / "CATCH_PROOF_RESULT.json").read_text(encoding="utf-8"))
+    g276_verification = json.loads((g276 / "VERIFICATION_RESULT.json").read_text(encoding="utf-8"))
     g276_landing = (
         "ONE_INDEPENDENT_SAME_SEGMENT_PROPER_CLOCK_RECORD_HAS_HOMOTHETY_WEIGHT_PLUS_ONE__"
         "CE_CARRIES_THE_ATTACHED_TIME_TO_A_UNIQUE_LENGTH_SCALE__"
@@ -7603,8 +7567,8 @@ def main() -> None:
         and g276_verification["no_write_replays"] == 3,
         "G276 package verification changed",
     )
-    g276_external = (g276 / "EXTERNAL_REVIEW.md").read_text()
-    g276_repair = (g276 / "REPAIR_RESULT.md").read_text()
+    g276_external = (g276 / "EXTERNAL_REVIEW.md").read_text(encoding="utf-8")
+    g276_repair = (g276 / "REPAIR_RESULT.md").read_text(encoding="utf-8")
     require(
         "ACCEPT_WITH_REPAIRS" in g276_external
         and "scientific landing does not change" in g276_external.lower()
@@ -7618,7 +7582,7 @@ def main() -> None:
         and "REPAIR_ACCEPTED__BOUNDED_G276_LANDING_UNCHANGED" in g276_repair,
         "G276 R1 repair result changed",
     )
-    g276_followup = (g276 / "EXTERNAL_REPAIR_FOLLOWUP.md").read_text()
+    g276_followup = (g276 / "EXTERNAL_REPAIR_FOLLOWUP.md").read_text(encoding="utf-8")
     require(
         "REPAIR_ACCEPTED__BOUNDED_G276_LANDING_UNCHANGED" in g276_followup
         and "34/34 manifest entries" in g276_followup
@@ -7643,7 +7607,7 @@ def main() -> None:
         source_path = ROOT / source["path"]
         require(source_path.is_file(), f"G275 source missing: {source['path']}")
         payload = source_path.read_bytes()
-        if hashlib.sha256(payload).hexdigest() != source["sha256"]:
+        if pin_sha256(payload) != source["sha256"]:
             frozen = subprocess.run(
                 ["git", "show", f"c42da02d:{source['path']}"],
                 cwd=ROOT,
@@ -7653,7 +7617,7 @@ def main() -> None:
             require(frozen.returncode == 0, f"G275 frozen source unavailable: {source['path']}")
             payload = frozen.stdout
         require(
-            hashlib.sha256(payload).hexdigest() == source["sha256"],
+            pin_matches(payload, source["sha256"]),
             f"G275 preregistered source hash changed: {source['path']}",
         )
     g275_row = by_id["G275"]
@@ -7699,10 +7663,10 @@ def main() -> None:
         "verify_review_repairs.py",
     ):
         require((g275 / name).is_file(), f"G275 evidence missing: {name}")
-    g275_production = json.loads((g275 / "DERIVATION_RESULT.json").read_text())
-    g275_independent = json.loads((g275 / "INDEPENDENT_VERIFICATION.json").read_text())
-    g275_catches = json.loads((g275 / "CATCH_PROOF_RESULT.json").read_text())
-    g275_verification = json.loads((g275 / "VERIFICATION_RESULT.json").read_text())
+    g275_production = json.loads((g275 / "DERIVATION_RESULT.json").read_text(encoding="utf-8"))
+    g275_independent = json.loads((g275 / "INDEPENDENT_VERIFICATION.json").read_text(encoding="utf-8"))
+    g275_catches = json.loads((g275 / "CATCH_PROOF_RESULT.json").read_text(encoding="utf-8"))
+    g275_verification = json.loads((g275 / "VERIFICATION_RESULT.json").read_text(encoding="utf-8"))
     g275_landing = (
         "W5_PROJECTIVE_POSITION_IS_HOMOTHETY_INVARIANT__"
         "ONE_MATCHED_NONZERO_WEIGHT_ANCHOR_FIXES_ONE_DIMENSIONAL_SCALE__"
@@ -7746,7 +7710,7 @@ def main() -> None:
         and g275_verification["no_write_replays"] == 3,
         "G275 package verification changed",
     )
-    g275_second_review = (g275 / "SECOND_REPAIR_FOLLOWUP_REVIEW.md").read_text()
+    g275_second_review = (g275 / "SECOND_REPAIR_FOLLOWUP_REVIEW.md").read_text(encoding="utf-8")
     require(
         "R4_ACCEPTED__SCIENTIFIC_LANDING_UNCHANGED" in g275_second_review
         and "da9a7fdd40a04638a9df92d949baa960af43e418611cee5596a35e3b02ec40b1"
@@ -7763,7 +7727,7 @@ def main() -> None:
         env={**os.environ, "PYTHONDONTWRITEBYTECODE": "1"},
     )
     require(g275_replay.returncode == 0, "G275 no-write package replay failed")
-    g275_repair_result = json.loads((g275 / "REPAIR_VERIFICATION_RESULT.json").read_text())
+    g275_repair_result = json.loads((g275 / "REPAIR_VERIFICATION_RESULT.json").read_text(encoding="utf-8"))
     require(
         g275_repair_result["status"] == "PASS"
         and g275_repair_result["clean_sealed_replay"] is True
@@ -7808,7 +7772,7 @@ def main() -> None:
         "SOURCE_MANIFEST.tsv",
     ):
         require((g196 / name).is_file(), f"G196 evidence missing: {name}")
-    g196_package = json.loads((g196 / "PACKAGE_VERIFICATION_RESULT.json").read_text())
+    g196_package = json.loads((g196 / "PACKAGE_VERIFICATION_RESULT.json").read_text(encoding="utf-8"))
     require(g196_package["status"] == "PASS", "G196 package verification failed")
     require(
         g196_package["grade"]
@@ -7819,7 +7783,7 @@ def main() -> None:
     require(g196_package["independent_histories"] == 204, "G196 history count changed")
     require(g196_package["independent_assertions"] == 5313, "G196 assertion count changed")
     require(g196_package["mutation_catches"] == 9, "G196 hostile count changed")
-    g196_repair = json.loads((g196 / "REPAIR_VERIFICATION_RESULT.json").read_text())
+    g196_repair = json.loads((g196 / "REPAIR_VERIFICATION_RESULT.json").read_text(encoding="utf-8"))
     require(g196_repair["status"] == "PASS", "G196 repair verification failed")
     require(g196_repair["r1_independence_scope_corrected"] is True, "G196 R1 absent")
     require(g196_repair["r2_torch_import_read_only_replay"] is True, "G196 R2 absent")
@@ -7867,7 +7831,7 @@ def main() -> None:
         "SOURCE_MANIFEST.tsv",
     ):
         require((g198 / name).is_file(), f"G198 evidence missing: {name}")
-    g198_package = json.loads((g198 / "PACKAGE_VERIFICATION_RESULT.json").read_text())
+    g198_package = json.loads((g198 / "PACKAGE_VERIFICATION_RESULT.json").read_text(encoding="utf-8"))
     require(g198_package["status"] == "PASS", "G198 package verification failed")
     require(
         g198_package["grade"] == "INDEPENDENTLY_VERIFIED_WITH_CAVEATS",
@@ -7918,7 +7882,7 @@ def main() -> None:
         "SOURCE_MANIFEST.tsv",
     ):
         require((g199 / name).is_file(), f"G199 evidence missing: {name}")
-    g199_package = json.loads((g199 / "PACKAGE_VERIFICATION_RESULT.json").read_text())
+    g199_package = json.loads((g199 / "PACKAGE_VERIFICATION_RESULT.json").read_text(encoding="utf-8"))
     require(g199_package["all_pass"] is True, "G199 package verification failed")
     require(g199_package["no_write_replay"] is True, "G199 no-write replay absent")
     require(g199_package["production_assertions"] == 65, "G199 production count changed")
@@ -7967,7 +7931,7 @@ def main() -> None:
         "SOURCE_MANIFEST.tsv",
     ):
         require((g200 / name).is_file(), f"G200 evidence missing: {name}")
-    g200_package = json.loads((g200 / "PACKAGE_VERIFICATION_RESULT.json").read_text())
+    g200_package = json.loads((g200 / "PACKAGE_VERIFICATION_RESULT.json").read_text(encoding="utf-8"))
     require(g200_package["all_pass"] is True, "G200 package verification failed")
     require(g200_package["no_write_replay"] is True, "G200 no-write replay absent")
     require(g200_package["production_assertions"] == 64, "G200 production count changed")
@@ -8021,7 +7985,7 @@ def main() -> None:
         "SOURCE_MANIFEST.tsv",
     ):
         require((g201 / name).is_file(), f"G201 evidence missing: {name}")
-    g201_package = json.loads((g201 / "PACKAGE_VERIFICATION_RESULT.json").read_text())
+    g201_package = json.loads((g201 / "PACKAGE_VERIFICATION_RESULT.json").read_text(encoding="utf-8"))
     require(g201_package["all_pass"] is True, "G201 package verification failed")
     require(g201_package["no_write_replay"] is True, "G201 no-write replay absent")
     require(g201_package["production_assertions"] == 20, "G201 production count changed")
@@ -8072,7 +8036,7 @@ def main() -> None:
         "SOURCE_MANIFEST.tsv",
     ):
         require((g202 / name).is_file(), f"G202 evidence missing: {name}")
-    g202_package = json.loads((g202 / "PACKAGE_VERIFICATION_RESULT.json").read_text())
+    g202_package = json.loads((g202 / "PACKAGE_VERIFICATION_RESULT.json").read_text(encoding="utf-8"))
     require(g202_package["all_pass"] is True, "G202 package verification failed")
     require(g202_package["no_write_replay"] is True, "G202 no-write replay absent")
     require(g202_package["production_assertions"] == 32, "G202 production count changed")
@@ -8123,7 +8087,7 @@ def main() -> None:
         "SOURCE_MANIFEST.tsv",
     ):
         require((g203 / name).is_file(), f"G203 evidence missing: {name}")
-    g203_package = json.loads((g203 / "PACKAGE_VERIFICATION_RESULT.json").read_text())
+    g203_package = json.loads((g203 / "PACKAGE_VERIFICATION_RESULT.json").read_text(encoding="utf-8"))
     require(g203_package["all_pass"] is True, "G203 package verification failed")
     require(g203_package["no_write_replay"] is True, "G203 no-write replay absent")
     require(g203_package["production_assertions"] == 70, "G203 production count changed")
@@ -8177,7 +8141,7 @@ def main() -> None:
         "SOURCE_MANIFEST.tsv",
     ):
         require((g204 / name).is_file(), f"G204 evidence missing: {name}")
-    g204_package = json.loads((g204 / "PACKAGE_VERIFICATION_RESULT.json").read_text())
+    g204_package = json.loads((g204 / "PACKAGE_VERIFICATION_RESULT.json").read_text(encoding="utf-8"))
     require(g204_package["all_pass"] is True, "G204 package verification failed")
     require(g204_package["no_write_replay"] is True, "G204 no-write replay absent")
     require(g204_package["repair_preregistered"] is True, "G204 repair preregistration absent")
@@ -8234,7 +8198,7 @@ def main() -> None:
         "SOURCE_MANIFEST.tsv",
     ):
         require((g205 / name).is_file(), f"G205 evidence missing: {name}")
-    g205_package = json.loads((g205 / "PACKAGE_VERIFICATION_RESULT.json").read_text())
+    g205_package = json.loads((g205 / "PACKAGE_VERIFICATION_RESULT.json").read_text(encoding="utf-8"))
     require(g205_package["all_pass"] is True, "G205 package verification failed")
     require(g205_package["no_write_replay"] is True, "G205 no-write replay absent")
     require(g205_package["production_assertions"] == 112, "G205 production count changed")
@@ -8295,7 +8259,7 @@ def main() -> None:
         "SOURCE_MANIFEST.tsv",
     ):
         require((g206 / name).is_file(), f"G206 evidence missing: {name}")
-    g206_package = json.loads((g206 / "PACKAGE_VERIFICATION_RESULT.json").read_text())
+    g206_package = json.loads((g206 / "PACKAGE_VERIFICATION_RESULT.json").read_text(encoding="utf-8"))
     require(g206_package["all_pass"] is True, "G206 package verification failed")
     require(g206_package["no_write_replay"] is True, "G206 no-write replay absent")
     require(g206_package["production_assertions"] == 27, "G206 production count changed")
@@ -8356,7 +8320,7 @@ def main() -> None:
         "SOURCE_MANIFEST.tsv",
     ):
         require((g207 / name).is_file(), f"G207 evidence missing: {name}")
-    g207_package = json.loads((g207 / "PACKAGE_VERIFICATION_RESULT.json").read_text())
+    g207_package = json.loads((g207 / "PACKAGE_VERIFICATION_RESULT.json").read_text(encoding="utf-8"))
     require(g207_package["all_pass"] is True, "G207 package verification failed")
     require(g207_package["no_write_replay"] is True, "G207 no-write replay absent")
     require(g207_package["production_assertions"] == 36, "G207 production count changed")
@@ -8421,7 +8385,7 @@ def main() -> None:
         "SOURCE_MANIFEST.tsv",
     ):
         require((g208 / name).is_file(), f"G208 evidence missing: {name}")
-    g208_package = json.loads((g208 / "PACKAGE_VERIFICATION_RESULT.json").read_text())
+    g208_package = json.loads((g208 / "PACKAGE_VERIFICATION_RESULT.json").read_text(encoding="utf-8"))
     require(g208_package["status"] == "PASS", "G208 package verification failed")
     require(g208_package["no_write_replay"] is True, "G208 no-write replay absent")
     require(g208_package["production_assertions"] == 20, "G208 production count changed")
@@ -8497,7 +8461,7 @@ def main() -> None:
         "SOURCE_MANIFEST.tsv",
     ):
         require((g209 / name).is_file(), f"G209 evidence missing: {name}")
-    g209_package = json.loads((g209 / "PACKAGE_VERIFICATION_RESULT.json").read_text())
+    g209_package = json.loads((g209 / "PACKAGE_VERIFICATION_RESULT.json").read_text(encoding="utf-8"))
     require(g209_package["status"] == "PASS", "G209 package verification failed")
     require(g209_package["core_no_write_replay"] is True, "G209 no-write replay absent")
     require(g209_package["production_assertions"] == 21, "G209 production count changed")
@@ -8570,7 +8534,7 @@ def main() -> None:
         "SOURCE_MANIFEST.tsv",
     ):
         require((g210 / name).is_file(), f"G210 evidence missing: {name}")
-    g210_package = json.loads((g210 / "PACKAGE_VERIFICATION_RESULT.json").read_text())
+    g210_package = json.loads((g210 / "PACKAGE_VERIFICATION_RESULT.json").read_text(encoding="utf-8"))
     require(g210_package["status"] == "PASS", "G210 package verification failed")
     require(g210_package["core_no_write_replay"] is True, "G210 no-write replay absent")
     require(g210_package["production_assertions"] == 24, "G210 production count changed")
@@ -8639,7 +8603,7 @@ def main() -> None:
         "SOURCE_MANIFEST.tsv",
     ):
         require((g211 / name).is_file(), f"G211 evidence missing: {name}")
-    g211_package = json.loads((g211 / "PACKAGE_VERIFICATION_RESULT.json").read_text())
+    g211_package = json.loads((g211 / "PACKAGE_VERIFICATION_RESULT.json").read_text(encoding="utf-8"))
     require(g211_package["status"] == "PASS", "G211 package verification failed")
     require(g211_package["core_no_write_replay"] is True, "G211 no-write replay absent")
     require(g211_package["production_assertions"] == 29, "G211 production count changed")
@@ -8702,7 +8666,7 @@ def main() -> None:
         "STATUS_LEDGER.tsv",
     ):
         require((g212 / name).is_file(), f"G212 evidence missing: {name}")
-    g212_package = json.loads((g212 / "PACKAGE_VERIFICATION_RESULT.json").read_text())
+    g212_package = json.loads((g212 / "PACKAGE_VERIFICATION_RESULT.json").read_text(encoding="utf-8"))
     require(g212_package["status"] == "PASS", "G212 package verification failed")
     require(g212_package["core_no_write_replay"] is True, "G212 no-write replay absent")
     require(g212_package["symbolic_checks"] == 29, "G212 symbolic count changed")
@@ -8761,10 +8725,10 @@ def main() -> None:
         "EXTERNAL_REPAIR_FOLLOWUP_ADJUDICATION.md",
     ):
         require((g213 / name).is_file(), f"G213 evidence missing: {name}")
-    g213_package = json.loads((g213 / "VERIFICATION_RESULT.json").read_text())
+    g213_package = json.loads((g213 / "VERIFICATION_RESULT.json").read_text(encoding="utf-8"))
     require(
         "G213_REPAIR_ONLY_ACCEPTED__REGISTERED_REPAIRS_VERIFIED__BOUNDED_LANDING_UNCHANGED"
-        in (g213 / "EXTERNAL_REPAIR_FOLLOWUP_RAW.md").read_text(),
+        in (g213 / "EXTERNAL_REPAIR_FOLLOWUP_RAW.md").read_text(encoding="utf-8"),
         "G213 repair follow-up acceptance absent",
     )
     require(g213_package["status"] == "PASS", "G213 package verification failed")
@@ -8833,10 +8797,10 @@ def main() -> None:
         require((g214 / name).is_file(), f"G214 evidence missing: {name}")
     require(
         "G214_VERIFIED_WITH_CAVEATS__LOCAL_TO_COVER_DESCENT_CLOSES__THREE_PAIR_PRODUCT_NOT_DERIVED"
-        in (g214 / "EXTERNAL_REVIEW_RAW.md").read_text(),
+        in (g214 / "EXTERNAL_REVIEW_RAW.md").read_text(encoding="utf-8"),
         "G214 external-review acceptance absent",
     )
-    g214_package = json.loads((g214 / "VERIFICATION_RESULT.json").read_text())
+    g214_package = json.loads((g214 / "VERIFICATION_RESULT.json").read_text(encoding="utf-8"))
     require(g214_package["status"] == "PASS", "G214 package verification failed")
     require(g214_package["no_write_replay"] is True, "G214 no-write replay absent")
     require(g214_package["core_files_hashed"] == 16, "G214 core file count changed")
@@ -8905,10 +8869,10 @@ def main() -> None:
         require((g215 / name).is_file(), f"G215 evidence missing: {name}")
     require(
         "G215_VERIFIED_WITH_CAVEATS__SHARED_CLOCK_SCALAR_DESCENT_CLOSES__FULL_GERM_CARRY_REMAINS_OPEN"
-        in (g215 / "EXTERNAL_REVIEW_RAW.md").read_text(),
+        in (g215 / "EXTERNAL_REVIEW_RAW.md").read_text(encoding="utf-8"),
         "G215 external-review acceptance absent",
     )
-    g215_package = json.loads((g215 / "VERIFICATION_RESULT.json").read_text())
+    g215_package = json.loads((g215 / "VERIFICATION_RESULT.json").read_text(encoding="utf-8"))
     require(g215_package["status"] == "PASS", "G215 package verification failed")
     require(g215_package["no_write_replay"] is True, "G215 no-write replay absent")
     require(g215_package["core_files_hashed"] == 17, "G215 core file count changed")
@@ -8986,10 +8950,10 @@ def main() -> None:
         require((g216 / name).is_file(), f"G216 evidence missing: {name}")
     require(
         "G216_VERIFIED_WITH_CAVEATS__PAIR_GERM_PROPER_CLOCK_RATE_LAW_CLOSES__PHYSICAL_PAIR_GERM_OWNERSHIP_REMAINS_OPEN"
-        in (g216 / "EXTERNAL_REVIEW_RAW.md").read_text(),
+        in (g216 / "EXTERNAL_REVIEW_RAW.md").read_text(encoding="utf-8"),
         "G216 external-review acceptance absent",
     )
-    g216_package = json.loads((g216 / "VERIFICATION_RESULT.json").read_text())
+    g216_package = json.loads((g216 / "VERIFICATION_RESULT.json").read_text(encoding="utf-8"))
     require(g216_package["status"] == "PASS", "G216 package verification failed")
     require(g216_package["no_write_replay"] is True, "G216 no-write replay absent")
     require(g216_package["core_files_hashed"] == 17, "G216 core file count changed")
@@ -9073,10 +9037,10 @@ def main() -> None:
         require((g217 / name).is_file(), f"G217 evidence missing: {name}")
     require(
         "G217_VERIFIED_WITH_CAVEATS__POSITIVE_FIRST_JET_CLOSES_ON_SUPPLIED_PAIRED_EVENTS_AND_DEPTH__EVENT_INCIDENCE_AND_FULL_GERM_REMAIN_OPEN"
-        in (g217 / "EXTERNAL_REVIEW_RAW.md").read_text(),
+        in (g217 / "EXTERNAL_REVIEW_RAW.md").read_text(encoding="utf-8"),
         "G217 external-review acceptance absent",
     )
-    g217_package = json.loads((g217 / "VERIFICATION_RESULT.json").read_text())
+    g217_package = json.loads((g217 / "VERIFICATION_RESULT.json").read_text(encoding="utf-8"))
     require(g217_package["status"] == "PASS", "G217 package verification failed")
     require(g217_package["no_write_replay"] is True, "G217 no-write replay absent")
     require(g217_package["core_files_hashed"] == 17, "G217 core file count changed")
@@ -9141,7 +9105,7 @@ def main() -> None:
         "verify_whiteboard.py",
     ):
         require((g218 / name).is_file(), f"G218 evidence missing: {name}")
-    g218_package = json.loads((g218 / "VERIFICATION_RESULT.json").read_text())
+    g218_package = json.loads((g218 / "VERIFICATION_RESULT.json").read_text(encoding="utf-8"))
     require(g218_package["status"] == "PASS", "G218 whiteboard verification failed")
     require(g218_package["source_count"] == 9, "G218 source count changed")
     require(g218_package["debate_rows"] == 10, "G218 debate count changed")
@@ -9218,7 +9182,7 @@ def main() -> None:
         "verify_package.py",
     ):
         require((g219 / name).is_file(), f"G219 evidence missing: {name}")
-    g219_package = json.loads((g219 / "VERIFICATION_RESULT.json").read_text())
+    g219_package = json.loads((g219 / "VERIFICATION_RESULT.json").read_text(encoding="utf-8"))
     require(g219_package["status"] == "PASS", "G219 package verification failed")
     require(g219_package["source_count"] == 11, "G219 source count changed")
     require(g219_package["exact_checks"] == 18, "G219 exact count changed")
@@ -9307,7 +9271,7 @@ def main() -> None:
         "VERIFICATION_RESULT.json",
     ):
         require((g220 / name).is_file(), f"G220 evidence missing: {name}")
-    g220_package = json.loads((g220 / "VERIFICATION_RESULT.json").read_text())
+    g220_package = json.loads((g220 / "VERIFICATION_RESULT.json").read_text(encoding="utf-8"))
     require(g220_package["status"] == "PASS", "G220 package verification failed")
     require(g220_package["source_count"] == 11, "G220 source count changed")
     require(g220_package["symbolic_checks"] == 28, "G220 symbolic count changed")
@@ -9399,7 +9363,7 @@ def main() -> None:
         "verify_package.py",
     ):
         require((g221 / name).is_file(), f"G221 evidence missing: {name}")
-    g221_package = json.loads((g221 / "VERIFICATION_RESULT.json").read_text())
+    g221_package = json.loads((g221 / "VERIFICATION_RESULT.json").read_text(encoding="utf-8"))
     require(g221_package["status"] == "PASS", "G221 package verification failed")
     require(g221_package["source_count"] == 12, "G221 source count changed")
     require(g221_package["symbolic_checks"] == 21, "G221 symbolic count changed")
@@ -9490,7 +9454,7 @@ def main() -> None:
         "verify_package.py",
     ):
         require((g222 / name).is_file(), f"G222 evidence missing: {name}")
-    g222_package = json.loads((g222 / "VERIFICATION_RESULT.json").read_text())
+    g222_package = json.loads((g222 / "VERIFICATION_RESULT.json").read_text(encoding="utf-8"))
     require(g222_package["status"] == "PASS", "G222 package verification failed")
     require(g222_package["source_count"] == 10, "G222 source count changed")
     require(g222_package["symbolic_checks"] == 43, "G222 symbolic count changed")
@@ -9593,7 +9557,7 @@ def main() -> None:
         "verify_package.py",
     ):
         require((g223 / name).is_file(), f"G223 evidence missing: {name}")
-    g223_package = json.loads((g223 / "VERIFICATION_RESULT.json").read_text())
+    g223_package = json.loads((g223 / "VERIFICATION_RESULT.json").read_text(encoding="utf-8"))
     require(g223_package["status"] == "PASS", "G223 package verification failed")
     require(g223_package["source_count"] == 7, "G223 source count changed")
     require(g223_package["symbolic_checks"] == 21, "G223 symbolic count changed")
@@ -9693,7 +9657,7 @@ def main() -> None:
         "verify_package.py",
     ):
         require((g224 / name).is_file(), f"G224 evidence missing: {name}")
-    g224_package = json.loads((g224 / "VERIFICATION_RESULT.json").read_text())
+    g224_package = json.loads((g224 / "VERIFICATION_RESULT.json").read_text(encoding="utf-8"))
     require(g224_package["status"] == "PASS", "G224 package verification failed")
     require(
         g224_package["grade"]
@@ -9809,7 +9773,7 @@ def main() -> None:
         "verify_package.py",
     ):
         require((g225 / name).is_file(), f"G225 evidence missing: {name}")
-    g225_package = json.loads((g225 / "VERIFICATION_RESULT.json").read_text())
+    g225_package = json.loads((g225 / "VERIFICATION_RESULT.json").read_text(encoding="utf-8"))
     require(g225_package["status"] == "PASS", "G225 package verification failed")
     require(
         g225_package["grade"]
@@ -9917,7 +9881,7 @@ def main() -> None:
         "verify_package.py",
     ):
         require((g226 / name).is_file(), f"G226 evidence missing: {name}")
-    g226_package = json.loads((g226 / "VERIFICATION_RESULT.json").read_text())
+    g226_package = json.loads((g226 / "VERIFICATION_RESULT.json").read_text(encoding="utf-8"))
     require(g226_package["status"] == "PASS_EXTERNAL_REPAIRS_VERIFIED", "G226 package verification failed")
     require(
         g226_package["grade"] == "DERIVED_CONDITIONAL__EXTERNALLY_VERIFIED__REPAIRS_VERIFIED",
@@ -10020,7 +9984,7 @@ def main() -> None:
         "EVIDENCE_MANIFEST.tsv",
     ):
         require((g227 / name).is_file(), f"G227 evidence missing: {name}")
-    g227_result = json.loads((g227 / "DERIVATION_RESULT.json").read_text())
+    g227_result = json.loads((g227 / "DERIVATION_RESULT.json").read_text(encoding="utf-8"))
     require(g227_result["cumulative_null_ranks"] == [3, 6, 9, 12, 15, 16, 17, 18, 19],
             "G227 cumulative ranks changed")
     require(g227_result["null_rank"] == 19 and g227_result["nullity"] == 1,
@@ -10031,12 +9995,12 @@ def main() -> None:
     require(g227_result["augmented_rank"] == 20, "G227 timelike completion changed")
     require(g227_result["held_out_rank_increase"] == 0 and g227_result["held_out_prediction_exact"] is True,
             "G227 held-out prediction changed")
-    g227_independent = json.loads((g227 / "INDEPENDENT_VERIFICATION.json").read_text())
+    g227_independent = json.loads((g227 / "INDEPENDENT_VERIFICATION.json").read_text(encoding="utf-8"))
     require(g227_independent["pass"] is True, "G227 independent replay failed")
-    g227_negative = json.loads((g227 / "HOSTILE_CATCH_RESULT.json").read_text())
+    g227_negative = json.loads((g227 / "HOSTILE_CATCH_RESULT.json").read_text(encoding="utf-8"))
     require(g227_negative["pass"] is True and g227_negative["passed"] == g227_negative["total"] == 7,
             "G227 structural negative controls changed")
-    g227_package = json.loads((g227 / "VERIFICATION_RESULT.json").read_text())
+    g227_package = json.loads((g227 / "VERIFICATION_RESULT.json").read_text(encoding="utf-8"))
     require(g227_package["pass"] is True, "G227 package verification failed")
     require(
         g227_package["landing"]
@@ -10119,7 +10083,7 @@ def main() -> None:
         "EVIDENCE_MANIFEST.tsv",
     ):
         require((g228 / name).is_file(), f"G228 evidence missing: {name}")
-    g228_result = json.loads((g228 / "DERIVATION_RESULT.json").read_text())
+    g228_result = json.loads((g228 / "DERIVATION_RESULT.json").read_text(encoding="utf-8"))
     require(g228_result["raw_derivative_variables"] == 80, "G228 reduced variable count changed")
     require(g228_result["differential_bianchi_generated_rows"] == 24,
             "G228 generated Bianchi count changed")
@@ -10136,7 +10100,7 @@ def main() -> None:
         == "B_ONE_DIRECTION_SURJECTIVE__FIRST_RESTRICTION_AT_THREE_DIRECTIONS",
         "G228 selected preregistered alternative changed",
     )
-    g228_independent = json.loads((g228 / "INDEPENDENT_VERIFICATION.json").read_text())
+    g228_independent = json.loads((g228 / "INDEPENDENT_VERIFICATION.json").read_text(encoding="utf-8"))
     require(g228_independent["differential_bianchi_independent_rank"] == 20,
             "G228 independent Bianchi rank changed")
     require(g228_independent["compatible_module_dimension"] == 60,
@@ -10148,7 +10112,7 @@ def main() -> None:
     }
     require(subset_classes == {1: (20, 20, 0), 2: (40, 40, 0), 3: (54, 60, 6), 4: (60, 80, 20)},
             "G228 subset rank classes changed")
-    g228_anchor = json.loads((g228 / "FULL_INDEX_ANCHOR.json").read_text())
+    g228_anchor = json.loads((g228 / "FULL_INDEX_ANCHOR.json").read_text(encoding="utf-8"))
     require(g228_anchor["raw_full_slot_variables"] == 84, "G228 full-slot anchor count changed")
     require(g228_anchor["algebraic_bianchi_rank"] == 4, "G228 algebraic Bianchi anchor changed")
     require(g228_anchor["combined_constraint_rank"] == 24, "G228 combined anchor rank changed")
@@ -10156,10 +10120,10 @@ def main() -> None:
             "G228 differential anchor rank changed")
     require(g228_anchor["compatible_module_dimension"] == 60,
             "G228 full-slot module dimension changed")
-    g228_hostile = json.loads((g228 / "HOSTILE_CATCH_RESULT.json").read_text())
+    g228_hostile = json.loads((g228 / "HOSTILE_CATCH_RESULT.json").read_text(encoding="utf-8"))
     require(g228_hostile["all_pass"] is True and g228_hostile["passed"] == g228_hostile["total"] == 11,
             "G228 structural catches changed")
-    g228_package = json.loads((g228 / "VERIFICATION_RESULT.json").read_text())
+    g228_package = json.loads((g228 / "VERIFICATION_RESULT.json").read_text(encoding="utf-8"))
     require(g228_package["all_pass"] is True, "G228 package verification failed")
     require(g228_package["passed"] == g228_package["total"] == 13,
             "G228 package check count changed")
@@ -10244,7 +10208,7 @@ def main() -> None:
         "EVIDENCE_MANIFEST.tsv",
     ):
         require((g229 / name).is_file(), f"G229 evidence missing: {name}")
-    g229_result = json.loads((g229 / "exact_results.json").read_text())
+    g229_result = json.loads((g229 / "exact_results.json").read_text(encoding="utf-8"))
     require(g229_result["all_exact_checks_pass"] is True, "G229 production exact checks failed")
     require(
         g229_result["landing"]
@@ -10265,7 +10229,7 @@ def main() -> None:
     ):
         require(g229_result["ranks"][key] == expected, f"G229 rank changed: {key}")
     require(all(g229_result["checks"].values()), "G229 production identity failed")
-    g229_independent = json.loads((g229 / "independent_verification.json").read_text())
+    g229_independent = json.loads((g229 / "independent_verification.json").read_text(encoding="utf-8"))
     require(g229_independent["all_checks_pass"] is True, "G229 independent replay failed")
     require(g229_independent["ranks"]["c2_full21"] == 20, "G229 independent C2 rank changed")
     require(g229_independent["ranks"]["c3_full84"] == 60, "G229 independent C3 rank changed")
@@ -10277,18 +10241,18 @@ def main() -> None:
         all(g229_independent["shared_matrix_hash_matches_production"].values()),
         "G229 shared gauge/normal matrix hashes changed",
     )
-    g229_hostile = json.loads((g229 / "hostile_results.json").read_text())
+    g229_hostile = json.loads((g229 / "hostile_results.json").read_text(encoding="utf-8"))
     require(
         g229_hostile["all_caught"] is True and g229_hostile["count"] == 9,
         "G229 hostile controls changed",
     )
-    g229_projection = json.loads((g229 / "projection_recovery.json").read_text())
+    g229_projection = json.loads((g229 / "projection_recovery.json").read_text(encoding="utf-8"))
     require(g229_projection["all_checks_pass"] is True, "G229 projection recovery failed")
     require(
         g229_projection["g188_jacobi_sign_bridge"]["lower_left_block_equals_minus_tide"] is True,
         "G229 Jacobi sign bridge changed",
     )
-    g229_package = json.loads((g229 / "verification_results.json").read_text())
+    g229_package = json.loads((g229 / "verification_results.json").read_text(encoding="utf-8"))
     require(g229_package["all_pass"] is True, "G229 package verification failed")
     require(
         g229_package["passed"] == g229_package["total"] == 13,
@@ -10296,7 +10260,7 @@ def main() -> None:
     )
     require(all(g229_package["checks"].values()), "G229 package check failed")
     require(
-        hashlib.sha256((g229 / "PREREGISTRATION.md").read_bytes()).hexdigest()
+        pin_sha256((g229 / "PREREGISTRATION.md").read_bytes())
         == "610eac53da7ace52dae4630895eec25cb44025d3be3fd644edf5bab111dd0280",
         "G229 preregistration hash changed",
     )
@@ -10378,7 +10342,7 @@ def main() -> None:
         "EVIDENCE_MANIFEST.tsv",
     ):
         require((g230 / name).is_file(), f"G230 evidence missing: {name}")
-    g230_result = json.loads((g230 / "exact_results.json").read_text())
+    g230_result = json.loads((g230 / "exact_results.json").read_text(encoding="utf-8"))
     require(
         g230_result["landing"]
         == "FIRST_NONLINEAR_OVERLAP_OBSTRUCTION__FULL_LOCAL_4JET_REALIZATION",
@@ -10419,7 +10383,7 @@ def main() -> None:
         },
         "G230 explicit lower-gate residuals changed",
     )
-    g230_independent = json.loads((g230 / "independent_results.json").read_text())
+    g230_independent = json.loads((g230 / "independent_results.json").read_text(encoding="utf-8"))
     require(all(g230_independent["checks"].values()), "G230 independent replay failed")
     require(
         g230_independent["landing"]
@@ -10445,13 +10409,13 @@ def main() -> None:
         and g230_independent["witness"]["g230_zero_E_commutator_residual_nonzero"] == 2,
         "G230 independent nonlinear witness changed",
     )
-    g230_hostile = json.loads((g230 / "hostile_results.json").read_text())
+    g230_hostile = json.loads((g230 / "hostile_results.json").read_text(encoding="utf-8"))
     require(
         g230_hostile["landing"] == "HOSTILE_MUTATIONS_9_OF_9_CAUGHT"
         and all(g230_hostile["catches"].values()),
         "G230 hostile controls changed",
     )
-    g230_package = json.loads((g230 / "verification_results.json").read_text())
+    g230_package = json.loads((g230 / "verification_results.json").read_text(encoding="utf-8"))
     require(g230_package["all_pass"] is True, "G230 package verification failed")
     require(
         g230_package["passed"] == g230_package["total"] == 13,
@@ -10459,7 +10423,7 @@ def main() -> None:
     )
     require(all(g230_package["checks"].values()), "G230 package check failed")
     require(
-        hashlib.sha256((g230 / "PREREGISTRATION.md").read_bytes()).hexdigest()
+        pin_sha256((g230 / "PREREGISTRATION.md").read_bytes())
         == "ab306f5e590a74fd95a5facdda7db54fee5ddc9c2b85f6ac51374fac12ee5189",
         "G230 preregistration hash changed",
     )
@@ -10541,7 +10505,7 @@ def main() -> None:
         "EVIDENCE_MANIFEST.tsv",
     ):
         require((g231 / name).is_file(), f"G231 evidence missing: {name}")
-    g231_result = json.loads((g231 / "exact_results.json").read_text())
+    g231_result = json.loads((g231 / "exact_results.json").read_text(encoding="utf-8"))
     require(
         g231_result["landing"]
         == "CARTAN_REGIONAL_BRIDGE__BARE_R_NOT_CLOSED__CLASSIFYING_DERIVATIVE_DATA_REQUIRED",
@@ -10581,7 +10545,7 @@ def main() -> None:
         ),
         "G231 constant-curvature closure changed",
     )
-    g231_independent = json.loads((g231 / "independent_results.json").read_text())
+    g231_independent = json.loads((g231 / "independent_results.json").read_text(encoding="utf-8"))
     require(g231_independent["all_checks_pass"] is True, "G231 independent replay failed")
     require(all(g231_independent["checks"].values()), "G231 independent check failed")
     require(
@@ -10598,14 +10562,14 @@ def main() -> None:
         and g231_independent["independent_vertical_action"]["explicit_transform_matches"] is True,
         "G231 independent vertical action changed",
     )
-    g231_hostile = json.loads((g231 / "hostile_results.json").read_text())
+    g231_hostile = json.loads((g231 / "hostile_results.json").read_text(encoding="utf-8"))
     require(
         g231_hostile["count"] == 17
         and g231_hostile["all_caught"] is True
         and all(g231_hostile["catches"].values()),
         "G231 hostile controls changed",
     )
-    g231_package = json.loads((g231 / "verification_results.json").read_text())
+    g231_package = json.loads((g231 / "verification_results.json").read_text(encoding="utf-8"))
     require(g231_package["all_pass"] is True, "G231 package verification failed")
     require(
         g231_package["passed"] == g231_package["total"] == 20,
@@ -10613,11 +10577,11 @@ def main() -> None:
     )
     require(all(g231_package["checks"].values()), "G231 package check failed")
     require(
-        hashlib.sha256((g231 / "PREREGISTRATION.md").read_bytes()).hexdigest()
+        pin_sha256((g231 / "PREREGISTRATION.md").read_bytes())
         == "7be3da557da4e34019af42f400283de11f9a8e6a33370010fd78a4bca3cde067",
         "G231 preregistration hash changed",
     )
-    g231_manifest = (g231 / "EVIDENCE_MANIFEST.tsv").read_text().splitlines()
+    g231_manifest = (g231 / "EVIDENCE_MANIFEST.tsv").read_text(encoding="utf-8").splitlines()
     require(len(g231_manifest) == 29, "G231 evidence manifest count changed")
 
     require(
@@ -10686,7 +10650,7 @@ def main() -> None:
     ):
         require((g233 / name).is_file(), f"G233 evidence missing: {name}")
     require(b"\x0c" not in (g233 / "EXACT_DERIVATION.md").read_bytes(), "G233 LaTeX control character returned")
-    g233_result = json.loads((g233 / "exact_results.json").read_text())
+    g233_result = json.loads((g233 / "exact_results.json").read_text(encoding="utf-8"))
     require(g233_result["all_checks_pass"] is True, "G233 production verification failed")
     require(all(g233_result["checks"].values()), "G233 production check failed")
     require(g233_result["next_difference_b1_minus_b0"] == "240/r0**5", "G233 separator changed")
@@ -10694,37 +10658,37 @@ def main() -> None:
         all(item["pass"] is True for item in g233_result["arbitrary_order_checks"].values()),
         "G233 arbitrary-order check failed",
     )
-    g233_independent = json.loads((g233 / "independent_results.json").read_text())
+    g233_independent = json.loads((g233 / "independent_results.json").read_text(encoding="utf-8"))
     require(g233_independent["all_checks_pass"] is True, "G233 independent replay failed")
     require(g233_independent["next_difference"] == "560/81", "G233 independent separator changed")
-    g233_initial = json.loads((g233 / "INITIAL_INDEPENDENT_FAILURE.json").read_text())
+    g233_initial = json.loads((g233 / "INITIAL_INDEPENDENT_FAILURE.json").read_text(encoding="utf-8"))
     require(
         g233_initial["all_checks_pass"] is False
         and g233_initial["checks"]["nabla3_difference_matches_exact_coefficient"] is True
         and g233_initial["checks"]["radial_unit_field_geodesic"] is False,
         "G233 initial failure record changed",
     )
-    g233_hostile = json.loads((g233 / "hostile_results.json").read_text())
+    g233_hostile = json.loads((g233 / "hostile_results.json").read_text(encoding="utf-8"))
     require(
         g233_hostile["count"] == 7
         and g233_hostile["all_caught"] is True
         and all(g233_hostile["mutations"].values()),
         "G233 hostile controls changed",
     )
-    g233_package = json.loads((g233 / "package_verification.json").read_text())
+    g233_package = json.loads((g233 / "package_verification.json").read_text(encoding="utf-8"))
     require(g233_package["all_pass"] is True, "G233 package verification failed")
     require(all(g233_package["checks"].values()), "G233 package check failed")
     require(
-        "VERIFIED_WITH_CAVEATS" in (g233 / "EXTERNAL_ADVERSARIAL_REVIEW.md").read_text()
-        and "No scientific refutation" in (g233 / "EXTERNAL_ADVERSARIAL_REVIEW.md").read_text(),
+        "VERIFIED_WITH_CAVEATS" in (g233 / "EXTERNAL_ADVERSARIAL_REVIEW.md").read_text(encoding="utf-8")
+        and "No scientific refutation" in (g233 / "EXTERNAL_ADVERSARIAL_REVIEW.md").read_text(encoding="utf-8"),
         "G233 external-review acceptance absent",
     )
     require(
-        hashlib.sha256((ROOT / "udt_g232_primary_metric_cartan_closure_whiteboard_2026-08-23/NEXT_CALCULATION_PREREGISTRATION.md").read_bytes()).hexdigest()
+        pin_sha256((ROOT / "udt_g232_primary_metric_cartan_closure_whiteboard_2026-08-23/NEXT_CALCULATION_PREREGISTRATION.md").read_bytes())
         == "072fe4f380db85754339a346733e1dd4cb9089744dacbebfbe56b9cc8fdfe2ce",
         "G233 preregistration hash changed",
     )
-    g233_manifest_lines = (g233 / "FINAL_EVIDENCE_MANIFEST.tsv").read_text().splitlines()
+    g233_manifest_lines = (g233 / "FINAL_EVIDENCE_MANIFEST.tsv").read_text(encoding="utf-8").splitlines()
     require(g233_manifest_lines[0] == "sha256\tpath", "G233 final manifest header changed")
     g233_registered = {}
     for line in g233_manifest_lines[1:]:
@@ -10732,7 +10696,7 @@ def main() -> None:
         require(relative not in g233_registered, f"G233 duplicate manifest path: {relative}")
         g233_registered[relative] = digest
     g233_actual = {
-        path.relative_to(g233).as_posix(): hashlib.sha256(path.read_bytes()).hexdigest()
+        path.relative_to(g233).as_posix(): pin_sha256(path.read_bytes())
         for path in g233.rglob("*")
         if path.is_file()
         and path.name != "FINAL_EVIDENCE_MANIFEST.tsv"
@@ -10792,12 +10756,12 @@ def main() -> None:
         "SOURCE_MANIFEST.tsv",
     ):
         require((g234 / name).is_file(), f"G234 evidence missing: {name}")
-    g234_audit = (g234 / "AUDIT_REPORT.md").read_text()
+    g234_audit = (g234 / "AUDIT_REPORT.md").read_text(encoding="utf-8")
     require("TIMELIVE_NONSPHERICAL_EXTENSION_IS_AN_ARENA_NOT_A_SELECTOR" in g234_audit,
             "G234 corrected landing absent")
     require("TIMELIVE_NONSHPERICAL_EXTENSION_IS_AN_ARENA_NOT_A_SELECTOR" not in g234_audit,
             "G234 spelling repair regressed")
-    g234_review = (g234 / "EXTERNAL_REVIEW.md").read_text()
+    g234_review = (g234 / "EXTERNAL_REVIEW.md").read_text(encoding="utf-8")
     require("G234_MAP_VERIFIED_WITH_CAVEATS" in g234_review and "None found" in g234_review,
             "G234 external-review acceptance absent")
     g234_routes = read_tsv(g234 / "ROUTE_OWNERSHIP_MAP.tsv")
@@ -10809,7 +10773,7 @@ def main() -> None:
             "G234 valued-network classification changed")
     require(len(read_tsv(g234 / "PREMISE_LEDGER.tsv")) == 17, "G234 premise-ledger count changed")
     require(len(read_tsv(g234 / "SOURCE_MANIFEST.tsv")) == 22, "G234 source-manifest count changed")
-    g234_manifest_lines = (g234 / "FINAL_EVIDENCE_MANIFEST.tsv").read_text().splitlines()
+    g234_manifest_lines = (g234 / "FINAL_EVIDENCE_MANIFEST.tsv").read_text(encoding="utf-8").splitlines()
     require(g234_manifest_lines[0] == "sha256\tpath", "G234 final manifest header changed")
     g234_registered = {}
     for line in g234_manifest_lines[1:]:
@@ -10817,7 +10781,7 @@ def main() -> None:
         require(relative not in g234_registered, f"G234 duplicate manifest path: {relative}")
         g234_registered[relative] = digest
     g234_actual = {
-        path.relative_to(g234).as_posix(): hashlib.sha256(path.read_bytes()).hexdigest()
+        path.relative_to(g234).as_posix(): pin_sha256(path.read_bytes())
         for path in g234.rglob("*")
         if path.is_file() and path.name != "FINAL_EVIDENCE_MANIFEST.tsv"
     }
@@ -10881,8 +10845,8 @@ def main() -> None:
         "verify_package.py",
     ):
         require((g235 / name).is_file(), f"G235 evidence missing: {name}")
-    g235_result = json.loads((g235 / "DERIVATION_RESULT.json").read_text())
-    g235_independent = json.loads((g235 / "INDEPENDENT_VERIFICATION.json").read_text())
+    g235_result = json.loads((g235 / "DERIVATION_RESULT.json").read_text(encoding="utf-8"))
+    g235_independent = json.loads((g235 / "INDEPENDENT_VERIFICATION.json").read_text(encoding="utf-8"))
     require(g235_result["all_positive_checks_pass"] is True, "G235 production check failed")
     require(g235_result["candidate_nonidentity_gate_passes"] is False, "G235 candidate promoted")
     require(g235_result["design_rank"] == 10, "G235 design rank changed")
@@ -10903,13 +10867,13 @@ def main() -> None:
         "G235 independent twin verdict changed",
     )
     require(
-        "G235_ACCEPTED_WITH_CAVEATS" in (g235 / "EXTERNAL_REVIEW.md").read_text()
-        and "No scientific or type error was found" in (g235 / "EXTERNAL_REVIEW.md").read_text(),
+        "G235_ACCEPTED_WITH_CAVEATS" in (g235 / "EXTERNAL_REVIEW.md").read_text(encoding="utf-8")
+        and "No scientific or type error was found" in (g235 / "EXTERNAL_REVIEW.md").read_text(encoding="utf-8"),
         "G235 fresh external-review acceptance absent",
     )
     require(
         "G235_REPAIRS_ACCEPTED__NO_CANDIDATE_RETAINED"
-        in (g235 / "EXTERNAL_REPAIR_FOLLOWUP.md").read_text(),
+        in (g235 / "EXTERNAL_REPAIR_FOLLOWUP.md").read_text(encoding="utf-8"),
         "G235 repair-followup acceptance absent",
     )
     require(len(read_tsv(g235 / "PREMISE_LEDGER.tsv")) == 14, "G235 premise count changed")
@@ -10918,7 +10882,7 @@ def main() -> None:
     g235_registered = {row["path"]: row["sha256"] for row in g235_manifest_rows}
     require(len(g235_registered) == len(g235_manifest_rows), "G235 duplicate manifest path")
     g235_actual = {
-        path.name: hashlib.sha256(path.read_bytes()).hexdigest()
+        path.name: pin_sha256(path.read_bytes())
         for path in g235.iterdir()
         if path.is_file() and path.name != "FINAL_EVIDENCE_MANIFEST.tsv"
     }
@@ -10984,10 +10948,10 @@ def main() -> None:
         "verify_package.py",
     ):
         require((g236 / name).is_file(), f"G236 evidence missing: {name}")
-    g236_result = json.loads((g236 / "PRODUCTION_RESULT.json").read_text())
-    g236_independent = json.loads((g236 / "INDEPENDENT_VERIFICATION.json").read_text())
-    g236_verification = json.loads((g236 / "VERIFICATION_RESULT.json").read_text())
-    g236_chronology = json.loads((g236 / "CHRONOLOGY_AND_NONINTERFERENCE_PROOF.json").read_text())
+    g236_result = json.loads((g236 / "PRODUCTION_RESULT.json").read_text(encoding="utf-8"))
+    g236_independent = json.loads((g236 / "INDEPENDENT_VERIFICATION.json").read_text(encoding="utf-8"))
+    g236_verification = json.loads((g236 / "VERIFICATION_RESULT.json").read_text(encoding="utf-8"))
+    g236_chronology = json.loads((g236 / "CHRONOLOGY_AND_NONINTERFERENCE_PROOF.json").read_text(encoding="utf-8"))
     require(g236_result["status"] == "PASS", "G236 production status changed")
     require(
         g236_result["landing"] == "DUAL_SNE_RELATIONAL_STATE_CONCORDANCE_LEAD",
@@ -11033,14 +10997,14 @@ def main() -> None:
         "G236 chronology ceiling changed",
     )
     require(
-        "G236_SCIENTIFIC_REPAIR_REQUIRED" in (g236 / "EXTERNAL_REVIEW.md").read_text()
+        "G236_SCIENTIFIC_REPAIR_REQUIRED" in (g236 / "EXTERNAL_REVIEW.md").read_text(encoding="utf-8")
         and "no scientific, statistical, type, or data-provenance error"
-        in (g236 / "EXTERNAL_REVIEW.md").read_text(),
+        in (g236 / "EXTERNAL_REVIEW.md").read_text(encoding="utf-8"),
         "G236 initial external review absent",
     )
     require(
         "G236_REPAIR_ACCEPTED__SCIENTIFIC_LANDING_RETAINED"
-        in (g236 / "EXTERNAL_REPAIR_FOLLOWUP.md").read_text(),
+        in (g236 / "EXTERNAL_REPAIR_FOLLOWUP.md").read_text(encoding="utf-8"),
         "G236 repair-followup acceptance absent",
     )
     require(len(read_tsv(g236 / "PREMISE_LEDGER.tsv")) == 15, "G236 premise count changed")
@@ -11049,7 +11013,7 @@ def main() -> None:
     g236_registered = {row["path"]: row["sha256"] for row in g236_manifest_rows}
     require(len(g236_registered) == len(g236_manifest_rows), "G236 duplicate manifest path")
     g236_actual = {
-        path.relative_to(g236).as_posix(): hashlib.sha256(path.read_bytes()).hexdigest()
+        path.relative_to(g236).as_posix(): pin_sha256(path.read_bytes())
         for path in g236.rglob("*")
         if path.is_file()
         and path.name != "FINAL_EVIDENCE_MANIFEST.tsv"
@@ -11122,11 +11086,11 @@ def main() -> None:
         "verify_repair.py",
     ):
         require((g237 / name).is_file(), f"G237 evidence missing: {name}")
-    g237_result = json.loads((g237 / "JOINT_STATE_RESULT.json").read_text())
-    g237_independent = json.loads((g237 / "INDEPENDENT_RAW_GLS.json").read_text())
-    g237_verification = json.loads((g237 / "VERIFICATION_RESULT.json").read_text())
-    g237_chronology = json.loads((g237 / "CHRONOLOGY_BUNDLE_VERIFICATION.json").read_text())
-    g237_repair = json.loads((g237 / "REPAIR_CERTIFICATION.json").read_text())
+    g237_result = json.loads((g237 / "JOINT_STATE_RESULT.json").read_text(encoding="utf-8"))
+    g237_independent = json.loads((g237 / "INDEPENDENT_RAW_GLS.json").read_text(encoding="utf-8"))
+    g237_verification = json.loads((g237 / "VERIFICATION_RESULT.json").read_text(encoding="utf-8"))
+    g237_chronology = json.loads((g237 / "CHRONOLOGY_BUNDLE_VERIFICATION.json").read_text(encoding="utf-8"))
+    g237_repair = json.loads((g237 / "REPAIR_CERTIFICATION.json").read_text(encoding="utf-8"))
     require(g237_result["status"] == "PASS", "G237 production status changed")
     require(
         g237_result["landing"] == "JOINT_DUAL_SNE_RELATIVE_STATE_FROZEN_WITH_CAVEATS",
@@ -11163,12 +11127,12 @@ def main() -> None:
     require(g237_repair["status"] == "PASS" and g237_repair["scientific_landing_changed"] is False,
             "G237 repair certification changed")
     require(
-        "G237_SCIENTIFIC_OR_EVIDENCE_REPAIR_REQUIRED" in (g237 / "EXTERNAL_REVIEW.md").read_text(),
+        "G237_SCIENTIFIC_OR_EVIDENCE_REPAIR_REQUIRED" in (g237 / "EXTERNAL_REVIEW.md").read_text(encoding="utf-8"),
         "G237 initial external review absent",
     )
     require(
         "G237_REPAIRS_ACCEPTED__SCIENTIFIC_LANDING_RETAINED"
-        in (g237 / "EXTERNAL_REPAIR_FOLLOWUP.md").read_text(),
+        in (g237 / "EXTERNAL_REPAIR_FOLLOWUP.md").read_text(encoding="utf-8"),
         "G237 repair-followup acceptance absent",
     )
     frozen_hashes = {
@@ -11177,7 +11141,7 @@ def main() -> None:
         "JOINT_STATE.tsv": "548219b37459a12c590a43568120e519fc58fa79b322c2059a7b06ba8b88c4b1",
     }
     for name, digest in frozen_hashes.items():
-        require(hashlib.sha256((g237 / name).read_bytes()).hexdigest() == digest,
+        require(pin_matches((g237 / name).read_bytes(), digest),
                 f"G237 frozen artifact changed: {name}")
     require(len(read_tsv(g237 / "PREMISE_LEDGER.tsv")) == 16, "G237 premise count changed")
     require(len(read_tsv(g237 / "SOURCE_MANIFEST.tsv")) == 7, "G237 source count changed")
@@ -11185,7 +11149,7 @@ def main() -> None:
     g237_registered = {row["path"]: row["sha256"] for row in g237_manifest_rows}
     require(len(g237_registered) == len(g237_manifest_rows), "G237 duplicate manifest path")
     g237_actual = {
-        path.relative_to(g237).as_posix(): hashlib.sha256(path.read_bytes()).hexdigest()
+        path.relative_to(g237).as_posix(): pin_sha256(path.read_bytes())
         for path in g237.rglob("*")
         if path.is_file()
         and path.name != "FINAL_EVIDENCE_MANIFEST.tsv"
@@ -11248,9 +11212,9 @@ def main() -> None:
         "verify_query_typing_independent.py",
     ):
         require((g238 / name).is_file(), f"G238 evidence missing: {name}")
-    g238_result = json.loads((g238 / "DERIVATION_RESULT.json").read_text())
-    g238_verification = json.loads((g238 / "VERIFICATION_RESULT.json").read_text())
-    g238_catches = json.loads((g238 / "CATCH_PROOF_RESULT.json").read_text())
+    g238_result = json.loads((g238 / "DERIVATION_RESULT.json").read_text(encoding="utf-8"))
+    g238_verification = json.loads((g238 / "VERIFICATION_RESULT.json").read_text(encoding="utf-8"))
+    g238_catches = json.loads((g238 / "CATCH_PROOF_RESULT.json").read_text(encoding="utf-8"))
     expected_g238_landing = (
         "QUERY_TYPING_INCOMPLETE__NO_OUTCOME_OPENING"
         "__FROZEN_SNE_STATE_DOES_NOT_DETERMINE_CONTINUOUS_METRIC_OR_SCREEN_HISTORY"
@@ -11285,12 +11249,12 @@ def main() -> None:
     require(all(case["caught"] for case in g238_catches["cases"]), "G238 hostile mutation escaped")
     require(
         "G238_REPAIR_REQUIRED__SCIENTIFIC_LANDING_RETAINED"
-        in (g238 / "EXTERNAL_REVIEW.md").read_text(),
+        in (g238 / "EXTERNAL_REVIEW.md").read_text(encoding="utf-8"),
         "G238 initial external review absent",
     )
     require(
         "G238_REPAIRS_ACCEPTED__SCIENTIFIC_LANDING_RETAINED"
-        in (g238 / "EXTERNAL_REPAIR_FOLLOWUP.md").read_text(),
+        in (g238 / "EXTERNAL_REPAIR_FOLLOWUP.md").read_text(encoding="utf-8"),
         "G238 repair-followup acceptance absent",
     )
     require(len(read_tsv(g238 / "SOURCE_MANIFEST.tsv")) == 15, "G238 source count changed")
@@ -11350,11 +11314,11 @@ def main() -> None:
         "verify_sealed_premise_scope.py",
     ):
         require((g239 / name).is_file(), f"G239 evidence missing: {name}")
-    g239_result = json.loads((g239 / "DERIVATION_RESULT.json").read_text())
-    g239_independent = json.loads((g239 / "INDEPENDENT_VERIFICATION.json").read_text())
-    g239_catches = json.loads((g239 / "CATCH_PROOF_RESULT.json").read_text())
-    g239_scope = json.loads((g239 / "SEALED_PREMISE_SCOPE_RESULT.json").read_text())
-    g239_verification = json.loads((g239 / "VERIFICATION_RESULT.json").read_text())
+    g239_result = json.loads((g239 / "DERIVATION_RESULT.json").read_text(encoding="utf-8"))
+    g239_independent = json.loads((g239 / "INDEPENDENT_VERIFICATION.json").read_text(encoding="utf-8"))
+    g239_catches = json.loads((g239 / "CATCH_PROOF_RESULT.json").read_text(encoding="utf-8"))
+    g239_scope = json.loads((g239 / "SEALED_PREMISE_SCOPE_RESULT.json").read_text(encoding="utf-8"))
+    g239_verification = json.loads((g239 / "VERIFICATION_RESULT.json").read_text(encoding="utf-8"))
     expected_g239_landing = (
         "REFERENCE_PROJECTED_METRIC_INTENSITY_OPERATOR_DERIVED_CONDITIONALLY"
         "__MATCHED_REFERENCE_AND_ANGULARLY_CONSTANT_RESPONSE_CANCEL_EXACTLY"
@@ -11407,7 +11371,7 @@ def main() -> None:
     )
     require(
         "G239_R1_R2_REPAIRS_ACCEPTED__SCIENTIFIC_LANDING_RETAINED"
-        in (g239 / "EXTERNAL_REPAIR_FOLLOWUP.md").read_text(),
+        in (g239 / "EXTERNAL_REPAIR_FOLLOWUP.md").read_text(encoding="utf-8"),
         "G239 repair-followup acceptance absent",
     )
     require(len(read_tsv(g239 / "SOURCE_MANIFEST.tsv")) == 12, "G239 source count changed")
@@ -11474,10 +11438,10 @@ def main() -> None:
         "verify_package.py",
     ):
         require((g240 / name).is_file(), f"G240 evidence missing: {name}")
-    g240_result = json.loads((g240 / "DERIVATION_RESULT.json").read_text())
-    g240_independent = json.loads((g240 / "INDEPENDENT_VERIFICATION.json").read_text())
-    g240_catches = json.loads((g240 / "CATCH_PROOF_RESULT.json").read_text())
-    g240_verification = json.loads((g240 / "VERIFICATION_RESULT.json").read_text())
+    g240_result = json.loads((g240 / "DERIVATION_RESULT.json").read_text(encoding="utf-8"))
+    g240_independent = json.loads((g240 / "INDEPENDENT_VERIFICATION.json").read_text(encoding="utf-8"))
+    g240_catches = json.loads((g240 / "CATCH_PROOF_RESULT.json").read_text(encoding="utf-8"))
+    g240_verification = json.loads((g240 / "VERIFICATION_RESULT.json").read_text(encoding="utf-8"))
     expected_g240_landing = (
         "ALL_REGULAR_NULL_IMAGE_QUERY_REMOVES_ARBITRARY_BRANCH_WEIGHTS_CONDITIONALLY"
         "__METRIC_RELATION_INDUCES_IMAGE_INTENSITY_AND_SIBLING_PAIR_MEASURE_ON_A_SUPPLIED_HISTORY"
@@ -11523,7 +11487,7 @@ def main() -> None:
     )
     require(
         "G240_REPAIR_ACCEPTED__SCIENTIFIC_LANDING_UNCHANGED"
-        in (g240 / "EXTERNAL_REPAIR_FOLLOWUP.md").read_text(),
+        in (g240 / "EXTERNAL_REPAIR_FOLLOWUP.md").read_text(encoding="utf-8"),
         "G240 repair-followup acceptance absent",
     )
     require(len(read_tsv(g240 / "SOURCE_MANIFEST.tsv")) == 11, "G240 source count changed")
@@ -11593,10 +11557,10 @@ def main() -> None:
         "verify_sne_tidal_bridge_independent.py",
     ):
         require((g241 / name).is_file(), f"G241 evidence missing: {name}")
-    g241_result = json.loads((g241 / "DERIVATION_RESULT.json").read_text())
-    g241_independent = json.loads((g241 / "INDEPENDENT_VERIFICATION.json").read_text())
-    g241_verification = json.loads((g241 / "VERIFICATION_RESULT.json").read_text())
-    g241_catches = json.loads((g241 / "CATCH_PROOF_RESULT.json").read_text())
+    g241_result = json.loads((g241 / "DERIVATION_RESULT.json").read_text(encoding="utf-8"))
+    g241_independent = json.loads((g241 / "INDEPENDENT_VERIFICATION.json").read_text(encoding="utf-8"))
+    g241_verification = json.loads((g241 / "VERIFICATION_RESULT.json").read_text(encoding="utf-8"))
+    g241_catches = json.loads((g241 / "CATCH_PROOF_RESULT.json").read_text(encoding="utf-8"))
     expected_g241_landing = "NO_REGISTERED_SMOOTH_ANCHOR_ADEQUATE__STOP_BEFORE_BOSS"
     require(g241_result["landing"] == expected_g241_landing, "G241 landing changed")
     require(g241_result["candidate_degrees"] == [2, 3, 4], "G241 candidate census changed")
@@ -11625,7 +11589,7 @@ def main() -> None:
             "G241 hostile catches changed")
     require(
         "G241_BOUNDED_NEGATIVE_ACCEPTED__RADIAL_TO_TIDAL_IDENTITY_RETAINED"
-        in (g241 / "EXTERNAL_REPAIR_FOLLOWUP_RAW.md").read_text(),
+        in (g241 / "EXTERNAL_REPAIR_FOLLOWUP_RAW.md").read_text(encoding="utf-8"),
         "G241 repair-followup acceptance absent",
     )
     require(len(read_tsv(g241 / "SOURCE_MANIFEST.tsv")) == 6, "G241 source count changed")
@@ -11703,10 +11667,10 @@ def main() -> None:
         "verify_package.py",
     ):
         require((g242 / name).is_file(), f"G242 evidence missing: {name}")
-    g242_result = json.loads((g242 / "DERIVATION_RESULT.json").read_text())
-    g242_independent = json.loads((g242 / "INDEPENDENT_VERIFICATION.json").read_text())
-    g242_verification = json.loads((g242 / "VERIFICATION_RESULT.json").read_text())
-    g242_catches = json.loads((g242 / "CATCH_PROOF_RESULT.json").read_text())
+    g242_result = json.loads((g242 / "DERIVATION_RESULT.json").read_text(encoding="utf-8"))
+    g242_independent = json.loads((g242 / "INDEPENDENT_VERIFICATION.json").read_text(encoding="utf-8"))
+    g242_verification = json.loads((g242 / "VERIFICATION_RESULT.json").read_text(encoding="utf-8"))
+    g242_catches = json.loads((g242 / "CATCH_PROOF_RESULT.json").read_text(encoding="utf-8"))
     expected_g242 = "EXACT_QUIET_SUBFAMILY_INCOMPATIBLE__SMALL_NONZERO_RESPONSE_REMAINS_OPEN"
     require(g242_result["classification"] == expected_g242, "G242 landing changed")
     require(g242_result["boss_outcomes"] == "CLOSED_AND_UNREAD", "G242 BOSS gate opened")
@@ -11731,11 +11695,11 @@ def main() -> None:
     )
     require(
         "G242_BOUNDED_NEGATIVE_ACCEPTED__SMALL_NONZERO_RESPONSE_OPEN"
-        in (g242 / "EXTERNAL_REVIEW_RAW.md").read_text(),
+        in (g242 / "EXTERNAL_REVIEW_RAW.md").read_text(encoding="utf-8"),
         "G242 external acceptance absent",
     )
     require(
-        hashlib.sha256((g242 / "EXTERNAL_REVIEW_RAW.md").read_bytes()).hexdigest()
+        pin_sha256((g242 / "EXTERNAL_REVIEW_RAW.md").read_bytes())
         == "64ef54b7ec980f6f3b10016b5204e28a9d209ca0848c3b38ec6ddb05fe468faa",
         "G242 normalized external review hash changed",
     )
@@ -11811,14 +11775,14 @@ def main() -> None:
     ):
         require((g243 / name).is_file(), f"G243 evidence missing: {name}")
     require(
-        hashlib.sha256((g243 / "RADIAL_REPRESENTATION.npz").read_bytes()).hexdigest()
+        pin_sha256((g243 / "RADIAL_REPRESENTATION.npz").read_bytes())
         == "68deaa48bb68493febb1c9d34de426a215675f917b971b1aca59f833d468600b",
         "G243 frozen radial representation hash changed",
     )
-    g243_result = json.loads((g243 / "DERIVATION_RESULT.json").read_text())
-    g243_independent = json.loads((g243 / "INDEPENDENT_VERIFICATION.json").read_text())
-    g243_verification = json.loads((g243 / "VERIFICATION_RESULT.json").read_text())
-    g243_catches = json.loads((g243 / "CATCH_PROOF_RESULT.json").read_text())
+    g243_result = json.loads((g243 / "DERIVATION_RESULT.json").read_text(encoding="utf-8"))
+    g243_independent = json.loads((g243 / "INDEPENDENT_VERIFICATION.json").read_text(encoding="utf-8"))
+    g243_verification = json.loads((g243 / "VERIFICATION_RESULT.json").read_text(encoding="utf-8"))
+    g243_catches = json.loads((g243 / "CATCH_PROOF_RESULT.json").read_text(encoding="utf-8"))
     require(g243_result["redshift_role"] == "DIRECT_RECIPROCAL_DEPTH__NO_ANGULAR_INPUT",
             "G243 redshift ownership changed")
     require(g243_result["boss_outcomes"] == "CLOSED_AND_UNREAD", "G243 BOSS gate opened")
@@ -11843,7 +11807,7 @@ def main() -> None:
             "G243 hostile catches changed")
     require(
         "G243_NO_FREEZE_ACCEPTED__LOCAL_TURNING_CANDIDATE_RETAINED"
-        in (g243 / "EXTERNAL_REVIEW_RAW.md").read_text(),
+        in (g243 / "EXTERNAL_REVIEW_RAW.md").read_text(encoding="utf-8"),
         "G243 external acceptance absent",
     )
     require(len(read_tsv(g243 / "SOURCE_MANIFEST.tsv")) == 8, "G243 source count changed")
@@ -11923,9 +11887,9 @@ def main() -> None:
         "__NO_FITTED_ANGULAR_COEFFICIENT"
         "__CATALOG_IDENTIFICATION_AND_HISTORY_OPEN"
     )
-    g244_result = json.loads((g244 / "DERIVATION_RESULT.json").read_text())
-    g244_independent = json.loads((g244 / "INDEPENDENT_VERIFICATION.json").read_text())
-    g244_verification = json.loads((g244 / "VERIFICATION_RESULT.json").read_text())
+    g244_result = json.loads((g244 / "DERIVATION_RESULT.json").read_text(encoding="utf-8"))
+    g244_independent = json.loads((g244 / "INDEPENDENT_VERIFICATION.json").read_text(encoding="utf-8"))
+    g244_verification = json.loads((g244 / "VERIFICATION_RESULT.json").read_text(encoding="utf-8"))
     require(g244_result["classification"] == expected_g244, "G244 production landing changed")
     require(g244_independent["classification"] == expected_g244, "G244 independent landing changed")
     require(g244_result["screen_outputs"]["area"] == "A=sqrt(det H)=abs(det D)",
@@ -11952,7 +11916,7 @@ def main() -> None:
         "G244 package verification changed",
     )
     require(
-        "G244_ACCEPTED_WITH_STATED_BOUNDS" in (g244 / "EXTERNAL_REVIEW_RAW.md").read_text(),
+        "G244_ACCEPTED_WITH_STATED_BOUNDS" in (g244 / "EXTERNAL_REVIEW_RAW.md").read_text(encoding="utf-8"),
         "G244 external acceptance absent",
     )
     require(len(read_tsv(g244 / "SOURCE_MANIFEST.tsv")) == 8, "G244 source count changed")
@@ -12042,10 +12006,10 @@ def main() -> None:
         "__G244_AREA_SHAPE_ARE_INDUCED_CONE_GEOMETRY"
         "__SOURCE_POPULATION_GLOBAL_BRANCH_AND_PHYSICAL_HISTORY_REMAIN_OPEN"
     )
-    g245_result = json.loads((g245 / "DERIVATION_RESULT.json").read_text())
-    g245_independent = json.loads((g245 / "INDEPENDENT_VERIFICATION.json").read_text())
-    g245_catches = json.loads((g245 / "CATCH_PROOF_RESULT.json").read_text())
-    g245_verification = json.loads((g245 / "VERIFICATION_RESULT.json").read_text())
+    g245_result = json.loads((g245 / "DERIVATION_RESULT.json").read_text(encoding="utf-8"))
+    g245_independent = json.loads((g245 / "INDEPENDENT_VERIFICATION.json").read_text(encoding="utf-8"))
+    g245_catches = json.loads((g245 / "CATCH_PROOF_RESULT.json").read_text(encoding="utf-8"))
+    g245_verification = json.loads((g245 / "VERIFICATION_RESULT.json").read_text(encoding="utf-8"))
     require(g245_result["classification"] == expected_g245, "G245 production landing changed")
     require(g245_independent["classification"] == expected_g245, "G245 independent landing changed")
     require(
@@ -12098,7 +12062,7 @@ def main() -> None:
         "G245 package verification changed",
     )
     require(
-        "G245_REPAIR_FOLLOWUP_ACCEPTED" in (g245 / "EXTERNAL_REPAIR_FOLLOWUP_RAW.md").read_text(),
+        "G245_REPAIR_FOLLOWUP_ACCEPTED" in (g245 / "EXTERNAL_REPAIR_FOLLOWUP_RAW.md").read_text(encoding="utf-8"),
         "G245 repair-only follow-up acceptance absent",
     )
     require(len(read_tsv(g245 / "SOURCE_MANIFEST.tsv")) == 5, "G245 source count changed")
@@ -12188,10 +12152,10 @@ def main() -> None:
         "__MATHEMATICAL_REVERSAL_DIFFERS_FROM_PHYSICAL_FUTURE_RETURN"
         "__GLOBAL_BRANCH_SELECTION_AND_PHYSICAL_HISTORY_REMAIN_OPEN"
     )
-    g246_result = json.loads((g246 / "DERIVATION_RESULT.json").read_text())
-    g246_independent = json.loads((g246 / "INDEPENDENT_VERIFICATION.json").read_text())
-    g246_catches = json.loads((g246 / "CATCH_PROOF_RESULT.json").read_text())
-    g246_verification = json.loads((g246 / "VERIFICATION_RESULT.json").read_text())
+    g246_result = json.loads((g246 / "DERIVATION_RESULT.json").read_text(encoding="utf-8"))
+    g246_independent = json.loads((g246 / "INDEPENDENT_VERIFICATION.json").read_text(encoding="utf-8"))
+    g246_catches = json.loads((g246 / "CATCH_PROOF_RESULT.json").read_text(encoding="utf-8"))
+    g246_verification = json.loads((g246 / "VERIFICATION_RESULT.json").read_text(encoding="utf-8"))
     require(g246_result["classification"] == expected_g246, "G246 production landing changed")
     require(g246_independent["classification"] == expected_g246, "G246 independent landing changed")
     require(
@@ -12248,7 +12212,7 @@ def main() -> None:
         "G246 package verification changed",
     )
     require(
-        "G246_ACCEPTED_WITH_STATED_BOUNDS" in (g246 / "EXTERNAL_REVIEW_RAW.md").read_text(),
+        "G246_ACCEPTED_WITH_STATED_BOUNDS" in (g246 / "EXTERNAL_REVIEW_RAW.md").read_text(encoding="utf-8"),
         "G246 external acceptance absent",
     )
     require(len(read_tsv(g246 / "SOURCE_MANIFEST.tsv")) == 8, "G246 source count changed")
@@ -12343,10 +12307,10 @@ def main() -> None:
         "__FREE_MATCHED_NULL_CHAIN_CATEGORY_CARRIES_ADDITIVE_DEPTH_AND_PATH_LABELLED_PHASE"
         "__CAUSTIC_BRANCH_AGGREGATION_GLOBAL_SELECTION_AND_PHYSICAL_HISTORY_REMAIN_OPEN"
     )
-    g247_result = json.loads((g247 / "DERIVATION_RESULT.json").read_text())
-    g247_independent = json.loads((g247 / "INDEPENDENT_VERIFICATION.json").read_text())
-    g247_catches = json.loads((g247 / "CATCH_PROOF_RESULT.json").read_text())
-    g247_verification = json.loads((g247 / "VERIFICATION_RESULT.json").read_text())
+    g247_result = json.loads((g247 / "DERIVATION_RESULT.json").read_text(encoding="utf-8"))
+    g247_independent = json.loads((g247 / "INDEPENDENT_VERIFICATION.json").read_text(encoding="utf-8"))
+    g247_catches = json.loads((g247 / "CATCH_PROOF_RESULT.json").read_text(encoding="utf-8"))
+    g247_verification = json.loads((g247 / "VERIFICATION_RESULT.json").read_text(encoding="utf-8"))
     require(g247_result["landing"] == expected_g247, "G247 production landing changed")
     require(g247_independent["expected_landing"] == expected_g247, "G247 independent landing changed")
     require(
@@ -12384,7 +12348,7 @@ def main() -> None:
         "G247 package verification changed",
     )
     require(
-        "G247_ACCEPTED_WITH_STATED_BOUNDS" in (g247 / "EXTERNAL_REVIEW_RAW.md").read_text(),
+        "G247_ACCEPTED_WITH_STATED_BOUNDS" in (g247 / "EXTERNAL_REVIEW_RAW.md").read_text(encoding="utf-8"),
         "G247 external acceptance absent",
     )
     require(len(read_tsv(g247 / "SOURCE_MANIFEST.tsv")) == 10, "G247 source count changed")
@@ -12477,10 +12441,10 @@ def main() -> None:
         "__CSP4_COMPOSITION_LEAVES_REAL_CHARACTER_FAMILY_R_TO_ALPHA"
         "__UNIVERSAL_PHYSICAL_BRANCH_MEASURE_SOURCE_POPULATION_AND_CRITICAL_COMPLETION_REMAIN_OPEN"
     )
-    g248_result = json.loads((g248 / "DERIVATION_RESULT.json").read_text())
-    g248_independent = json.loads((g248 / "INDEPENDENT_VERIFICATION.json").read_text())
-    g248_catches = json.loads((g248 / "CATCH_PROOF_RESULT.json").read_text())
-    g248_verification = json.loads((g248 / "VERIFICATION_RESULT.json").read_text())
+    g248_result = json.loads((g248 / "DERIVATION_RESULT.json").read_text(encoding="utf-8"))
+    g248_independent = json.loads((g248 / "INDEPENDENT_VERIFICATION.json").read_text(encoding="utf-8"))
+    g248_catches = json.loads((g248 / "CATCH_PROOF_RESULT.json").read_text(encoding="utf-8"))
+    g248_verification = json.loads((g248 / "VERIFICATION_RESULT.json").read_text(encoding="utf-8"))
     require(g248_result["landing"] == expected_g248, "G248 production landing changed")
     require(g248_independent["expected_landing"] == expected_g248, "G248 independent landing changed")
     require(
@@ -12525,7 +12489,7 @@ def main() -> None:
         "G248 package verification changed",
     )
     require(
-        "G248_ACCEPTED_WITH_STATED_BOUNDS" in (g248 / "EXTERNAL_REVIEW_RAW.md").read_text(),
+        "G248_ACCEPTED_WITH_STATED_BOUNDS" in (g248 / "EXTERNAL_REVIEW_RAW.md").read_text(encoding="utf-8"),
         "G248 external acceptance absent",
     )
     require(len(read_tsv(g248 / "SOURCE_MANIFEST.tsv")) == 11, "G248 source count changed")
@@ -12632,10 +12596,10 @@ def main() -> None:
         "__FULL_DIMENSIONLESS_METRIC_AND_BRANCH_FIX_NORMALIZED_JACOBI_RESPONSE_CONDITIONALLY"
         "__ONE_INDEPENDENT_DIMENSIONFUL_ANCHOR_REMAINS_FOR_ABSOLUTE_SCALE"
     )
-    g249_result = json.loads((g249 / "DERIVATION_RESULT.json").read_text())
-    g249_independent = json.loads((g249 / "INDEPENDENT_VERIFICATION.json").read_text())
-    g249_catches = json.loads((g249 / "CATCH_PROOF_RESULT.json").read_text())
-    g249_verification = json.loads((g249 / "VERIFICATION_RESULT.json").read_text())
+    g249_result = json.loads((g249 / "DERIVATION_RESULT.json").read_text(encoding="utf-8"))
+    g249_independent = json.loads((g249 / "INDEPENDENT_VERIFICATION.json").read_text(encoding="utf-8"))
+    g249_catches = json.loads((g249 / "CATCH_PROOF_RESULT.json").read_text(encoding="utf-8"))
+    g249_verification = json.loads((g249 / "VERIFICATION_RESULT.json").read_text(encoding="utf-8"))
     require(g249_result["landing"] == expected_g249, "G249 production landing changed")
     require(g249_independent["expected_landing"] == expected_g249, "G249 independent landing changed")
     require(
@@ -12677,7 +12641,7 @@ def main() -> None:
     )
     require(
         "G249_SECOND_REPAIRS_ACCEPTED__SCIENTIFIC_LANDING_UNCHANGED"
-        in (g249 / "SECOND_REPAIR_FOLLOWUP_RAW.md").read_text(),
+        in (g249 / "SECOND_REPAIR_FOLLOWUP_RAW.md").read_text(encoding="utf-8"),
         "G249 final external acceptance absent",
     )
     require(len(read_tsv(g249 / "SOURCE_MANIFEST.tsv")) == 9, "G249 source count changed")
@@ -12780,10 +12744,10 @@ def main() -> None:
         "__G99_XEFF_REMAINS_HISTORICAL_TRANSFER_CONDITIONAL_NOT_NATIVE_G249_INPUT"
         "__NO_ANCHOR_VALUE_HISTORY_PROFILE_OR_OUTCOME_SELECTED"
     )
-    g250_result = json.loads((g250 / "DERIVATION_RESULT.json").read_text())
-    g250_independent = json.loads((g250 / "INDEPENDENT_VERIFICATION.json").read_text())
-    g250_catches = json.loads((g250 / "CATCH_PROOF_RESULT.json").read_text())
-    g250_verification = json.loads((g250 / "VERIFICATION_RESULT.json").read_text())
+    g250_result = json.loads((g250 / "DERIVATION_RESULT.json").read_text(encoding="utf-8"))
+    g250_independent = json.loads((g250 / "INDEPENDENT_VERIFICATION.json").read_text(encoding="utf-8"))
+    g250_catches = json.loads((g250 / "CATCH_PROOF_RESULT.json").read_text(encoding="utf-8"))
+    g250_verification = json.loads((g250 / "VERIFICATION_RESULT.json").read_text(encoding="utf-8"))
     g250_candidates = read_tsv(g250 / "CANDIDATE_CLASSIFICATION.tsv")
     require(g250_result["landing"] == expected_g250, "G250 production landing changed")
     require(g250_independent["expected_landing"] == expected_g250, "G250 independent landing changed")
@@ -12828,17 +12792,17 @@ def main() -> None:
     )
     require(
         "G250_R1_R2_R3_ACCEPTED__NO_REMAINING_REPAIR_DEFECT__SCIENTIFIC_LANDING_UNCHANGED"
-        in (g250 / "REPAIR_FOLLOWUP.md").read_text(),
+        in (g250 / "REPAIR_FOLLOWUP.md").read_text(encoding="utf-8"),
         "G250 external repair acceptance absent",
     )
     require(
         "No anchor, value, fit, history, profile, population, or outcome was selected."
-        in (g250 / "BANKING_INTEGRATION_NOTE.md").read_text(),
+        in (g250 / "BANKING_INTEGRATION_NOTE.md").read_text(encoding="utf-8"),
         "G250 banking scope guard absent",
     )
     require(
         "PASS: 155 passed, 1 expected xfail."
-        in (g250 / "BANKING_REPLAY_RECORD.md").read_text(),
+        in (g250 / "BANKING_REPLAY_RECORD.md").read_text(encoding="utf-8"),
         "G250 final banking replay absent",
     )
     require(len(read_tsv(g250 / "SOURCE_MANIFEST.tsv")) == 9, "G250 source count changed")
@@ -12932,11 +12896,11 @@ def main() -> None:
         "__MASS_DENSITY_ENERGY_COMPOSITES_REQUIRE_AN_ADDITIONAL_MATTER_OR_INSTRUMENT_LAW"
         "__NO_ANCHOR_VALUE_HISTORY_BRANCH_POPULATION_FIT_OR_OUTCOME_SELECTED"
     )
-    g251_result = json.loads((g251 / "DERIVATION_RESULT.json").read_text())
-    g251_independent = json.loads((g251 / "INDEPENDENT_VERIFICATION.json").read_text())
-    g251_catches = json.loads((g251 / "CATCH_PROOF_RESULT.json").read_text())
-    g251_premises = json.loads((g251 / "SEALED_PREMISE_REGISTRY_RESULT.json").read_text())
-    g251_verification = json.loads((g251 / "VERIFICATION_RESULT.json").read_text())
+    g251_result = json.loads((g251 / "DERIVATION_RESULT.json").read_text(encoding="utf-8"))
+    g251_independent = json.loads((g251 / "INDEPENDENT_VERIFICATION.json").read_text(encoding="utf-8"))
+    g251_catches = json.loads((g251 / "CATCH_PROOF_RESULT.json").read_text(encoding="utf-8"))
+    g251_premises = json.loads((g251 / "SEALED_PREMISE_REGISTRY_RESULT.json").read_text(encoding="utf-8"))
+    g251_verification = json.loads((g251 / "VERIFICATION_RESULT.json").read_text(encoding="utf-8"))
     g251_ledger = read_tsv(g251 / "ATTACHMENT_OWNERSHIP.tsv")
     require(g251_result["landing"] == expected_g251, "G251 production landing changed")
     require(g251_independent["expected_landing"] == expected_g251, "G251 independent landing changed")
@@ -12995,17 +12959,17 @@ def main() -> None:
         "G251 package verification changed",
     )
     require(
-        (g251 / "EXTERNAL_FOLLOWUP_REVIEW_RAW.md").read_text().startswith("REPAIRS_ACCEPTED"),
+        (g251 / "EXTERNAL_FOLLOWUP_REVIEW_RAW.md").read_text(encoding="utf-8").startswith("REPAIRS_ACCEPTED"),
         "G251 external repair acceptance absent",
     )
     require(
         "No attachment, anchor value, history, branch population, fit, or observational outcome was selected."
-        in (g251 / "BANKING_INTEGRATION_NOTE.md").read_text(),
+        in (g251 / "BANKING_INTEGRATION_NOTE.md").read_text(encoding="utf-8"),
         "G251 banking scope guard absent",
     )
     require(
         "PASS: 156 passed, 1 expected xfail."
-        in (g251 / "BANKING_REPLAY_RECORD.md").read_text(),
+        in (g251 / "BANKING_REPLAY_RECORD.md").read_text(encoding="utf-8"),
         "G251 final banking replay absent",
     )
     require(len(read_tsv(g251 / "SOURCE_MANIFEST.tsv")) == 12, "G251 source count changed")
@@ -13103,9 +13067,9 @@ def main() -> None:
         "__EVENT_IDENTITY_AND_INDEPENDENT_CALIBRATION_ARE_SUPPLIED_OPERATIONAL_INPUTS_NOT_METRIC_DERIVATIONS"
         "__NO_CLOCK_VALUE_HISTORY_BRANCH_POPULATION_FIT_OUTCOME_OR_NEW_KERNEL_MECHANISM_SELECTED"
     )
-    g252_result = json.loads((g252 / "DERIVATION_RESULT.json").read_text())
-    g252_independent = json.loads((g252 / "INDEPENDENT_VERIFICATION.json").read_text())
-    g252_catches = json.loads((g252 / "CATCH_PROOF_RESULT.json").read_text())
+    g252_result = json.loads((g252 / "DERIVATION_RESULT.json").read_text(encoding="utf-8"))
+    g252_independent = json.loads((g252 / "INDEPENDENT_VERIFICATION.json").read_text(encoding="utf-8"))
+    g252_catches = json.loads((g252 / "CATCH_PROOF_RESULT.json").read_text(encoding="utf-8"))
     require(g252_result["landing"] == expected_g252, "G252 production landing changed")
     require(g252_independent["expected_landing"] == expected_g252, "G252 independent landing changed")
     require(
@@ -13143,17 +13107,17 @@ def main() -> None:
         "G252 empirical or kernel boundary changed",
     )
     require(
-        (g252 / "REPAIR_FOLLOWUP_RAW.md").read_text().startswith("REPAIRS_ACCEPTED"),
+        (g252 / "REPAIR_FOLLOWUP_RAW.md").read_text(encoding="utf-8").startswith("REPAIRS_ACCEPTED"),
         "G252 external repair acceptance absent",
     )
     require(
         "No clock record or value, complete history, branch population, fit, outcome, or new kernel mechanism is selected."
-        in (g252 / "BANKING_INTEGRATION_NOTE.md").read_text(),
+        in (g252 / "BANKING_INTEGRATION_NOTE.md").read_text(encoding="utf-8"),
         "G252 banking scope guard absent",
     )
     require(
         "PASS: 157 passed, 1 xfailed."
-        in (g252 / "BANKING_REPLAY_RECORD.md").read_text(),
+        in (g252 / "BANKING_REPLAY_RECORD.md").read_text(encoding="utf-8"),
         "G252 final banking replay absent",
     )
     require(len(read_tsv(g252 / "SOURCE_MANIFEST.tsv")) == 6, "G252 source count changed")
@@ -13246,9 +13210,9 @@ def main() -> None:
         "__ANGULAR_RESPONSE_SIBLING_NOT_POSTPROCESSING"
         "__SCALE_ATTACHMENT_DOWNSTREAM"
     )
-    g253_result = json.loads((g253 / "DERIVATION_RESULT.json").read_text())
-    g253_independent = json.loads((g253 / "INDEPENDENT_VERIFICATION.json").read_text())
-    g253_catches = json.loads((g253 / "CATCH_PROOF_RESULT.json").read_text())
+    g253_result = json.loads((g253 / "DERIVATION_RESULT.json").read_text(encoding="utf-8"))
+    g253_independent = json.loads((g253 / "INDEPENDENT_VERIFICATION.json").read_text(encoding="utf-8"))
+    g253_catches = json.loads((g253 / "CATCH_PROOF_RESULT.json").read_text(encoding="utf-8"))
     require(g253_result["landing"] == expected_g253, "G253 production landing changed")
     require(
         g253_result["manifest_sources"] == 21
@@ -13280,7 +13244,7 @@ def main() -> None:
         "G253 hostile ledger changed",
     )
     require(
-        "REPAIRS_ACCEPTED" in (g253 / "EXTERNAL_REPAIR_FOLLOWUP_GPT54.md").read_text(),
+        "REPAIRS_ACCEPTED" in (g253 / "EXTERNAL_REPAIR_FOLLOWUP_GPT54.md").read_text(encoding="utf-8"),
         "G253 external repair acceptance absent",
     )
     require(len(read_tsv(g253 / "SOURCE_MANIFEST.tsv")) == 21, "G253 source count changed")
@@ -13334,9 +13298,9 @@ def main() -> None:
         "verify_package.py",
     ):
         require((g254 / name).is_file(), f"G254 evidence missing: {name}")
-    g254_result = json.loads((g254 / "DERIVATION_RESULT.json").read_text())
-    g254_independent = json.loads((g254 / "INDEPENDENT_VERIFICATION.json").read_text())
-    g254_catches = json.loads((g254 / "CATCH_PROOF_RESULT.json").read_text())
+    g254_result = json.loads((g254 / "DERIVATION_RESULT.json").read_text(encoding="utf-8"))
+    g254_independent = json.loads((g254 / "INDEPENDENT_VERIFICATION.json").read_text(encoding="utf-8"))
+    g254_catches = json.loads((g254 / "CATCH_PROOF_RESULT.json").read_text(encoding="utf-8"))
     expected_g254 = "NO_OWNED_TIMELIVE_RESIDUAL__ODE_AND_GPU_SOLVES_NOT_YET_DEFINED"
     require(
         g254_result["landing"] == g254_independent["landing"] == expected_g254,
@@ -13365,7 +13329,7 @@ def main() -> None:
     )
     require(len(read_tsv(g254 / "SOURCE_MANIFEST.tsv")) == 16, "G254 source count changed")
     require(
-        "G254_VERIFIED_WITH_CAVEATS" in (g254 / "EXTERNAL_REVIEW_GPT54.md").read_text(),
+        "G254_VERIFIED_WITH_CAVEATS" in (g254 / "EXTERNAL_REVIEW_GPT54.md").read_text(encoding="utf-8"),
         "G254 external review acceptance absent",
     )
     g254_replay = replay_package_with_current_registry_rows_removed(g254, ("G267", "G266", "G265", "G264", "G263", "G262", "G261", "G260", "G259", "G258", "G257", "G256", "G255", "G254"))
@@ -13420,9 +13384,9 @@ def main() -> None:
         "verify_package.py",
     ):
         require((g255 / name).is_file(), f"G255 evidence missing: {name}")
-    g255_result = json.loads((g255 / "EQUATION_OWNERSHIP_RESULT.json").read_text())
-    g255_independent = json.loads((g255 / "INDEPENDENT_VERIFICATION.json").read_text())
-    g255_verification = json.loads((g255 / "VERIFICATION_RESULT.json").read_text())
+    g255_result = json.loads((g255 / "EQUATION_OWNERSHIP_RESULT.json").read_text(encoding="utf-8"))
+    g255_independent = json.loads((g255 / "INDEPENDENT_VERIFICATION.json").read_text(encoding="utf-8"))
+    g255_verification = json.loads((g255 / "VERIFICATION_RESULT.json").read_text(encoding="utf-8"))
     require(
         g255_result["landing"] == g255_independent["landing"] == g255_verification["landing"]
         == "NO_LOST_CLOSURE_IN_G165_G254",
@@ -13450,8 +13414,8 @@ def main() -> None:
     )
     require(len(read_tsv(g255 / "SOURCE_MANIFEST.tsv")) == 321, "G255 source count changed")
     require(
-        "G255_ACCEPTED_WITH_CAVEATS" in (g255 / "EXTERNAL_REVIEW_GPT54.md").read_text()
-        and "no findings" in (g255 / "EXTERNAL_REVIEW_GPT54.md").read_text().lower(),
+        "G255_ACCEPTED_WITH_CAVEATS" in (g255 / "EXTERNAL_REVIEW_GPT54.md").read_text(encoding="utf-8")
+        and "no findings" in (g255 / "EXTERNAL_REVIEW_GPT54.md").read_text(encoding="utf-8").lower(),
         "G255 external review acceptance absent",
     )
     g255_replay = replay_package_with_current_registry_rows_removed(g255, ("G267", "G266", "G265", "G264", "G263", "G262", "G261", "G260", "G259", "G258", "G257", "G256"))
@@ -13504,9 +13468,9 @@ def main() -> None:
         "verify_package.py",
     ):
         require((g256 / name).is_file(), f"G256 evidence missing: {name}")
-    g256_result = json.loads((g256 / "DERIVATION_RESULT.json").read_text())
-    g256_independent = json.loads((g256 / "INDEPENDENT_VERIFICATION.json").read_text())
-    g256_catches = json.loads((g256 / "CATCH_PROOF_RESULT.json").read_text())
+    g256_result = json.loads((g256 / "DERIVATION_RESULT.json").read_text(encoding="utf-8"))
+    g256_independent = json.loads((g256 / "INDEPENDENT_VERIFICATION.json").read_text(encoding="utf-8"))
+    g256_catches = json.loads((g256 / "CATCH_PROOF_RESULT.json").read_text(encoding="utf-8"))
     expected_g256 = (
         "FUNCTION_VALUED_PRIMARY_STATE_REMAINS__"
         "ANGULAR_INTERLOCK_IS_TOMOGRAPHIC_NOT_PROPAGATING__NO_ODE_GPU"
@@ -13570,7 +13534,7 @@ def main() -> None:
     require(len(read_tsv(g256 / "SOURCE_MANIFEST.tsv")) == 18, "G256 source count changed")
     require(
         "G256_R2_SELF_CONTAINED_REPLAY_ACCEPTED__SCIENTIFIC_LANDING_RETAINED"
-        in (g256 / "EXTERNAL_R2_FOLLOWUP_GPT54.md").read_text(),
+        in (g256 / "EXTERNAL_R2_FOLLOWUP_GPT54.md").read_text(encoding="utf-8"),
         "G256 external R2 acceptance absent",
     )
     g256_replay = replay_package_with_current_registry_rows_removed(g256, ("G267", "G266", "G265", "G264", "G263", "G262", "G261", "G260", "G259", "G258", "G257", "G256"))
@@ -13630,9 +13594,9 @@ def main() -> None:
         "verify_package.py",
     ):
         require((g257 / name).is_file(), f"G257 evidence missing: {name}")
-    g257_result = json.loads((g257 / "DERIVATION_RESULT.json").read_text())
-    g257_independent = json.loads((g257 / "INDEPENDENT_VERIFICATION.json").read_text())
-    g257_catches = json.loads((g257 / "CATCH_PROOF_RESULT.json").read_text())
+    g257_result = json.loads((g257 / "DERIVATION_RESULT.json").read_text(encoding="utf-8"))
+    g257_independent = json.loads((g257 / "INDEPENDENT_VERIFICATION.json").read_text(encoding="utf-8"))
+    g257_catches = json.loads((g257 / "CATCH_PROOF_RESULT.json").read_text(encoding="utf-8"))
     require(
         g257_result["landing"]
         == "EXACT_GR_VACUUM_BRANCH_EMBEDS__PAIR_KERNEL_AND_ANGULAR_RESPONSE_REMAIN_NATIVE",
@@ -13669,7 +13633,7 @@ def main() -> None:
         "G257 hostile ledger changed",
     )
     require(len(read_tsv(g257 / "SOURCE_MANIFEST.tsv")) == 9, "G257 source count changed")
-    g257_external = (g257 / "EXTERNAL_REVIEW_GPT54.md").read_text()
+    g257_external = (g257 / "EXTERNAL_REVIEW_GPT54.md").read_text(encoding="utf-8")
     require(
         "Disposition: `ACCEPT`" in g257_external
         and "Scientific defects: none found" in g257_external
@@ -13738,10 +13702,10 @@ def main() -> None:
         "verify_repair.py",
     ):
         require((g258 / name).is_file(), f"G258 evidence missing: {name}")
-    g258_result = json.loads((g258 / "DERIVATION_RESULT.json").read_text())
-    g258_independent = json.loads((g258 / "INDEPENDENT_VERIFICATION.json").read_text())
-    g258_catches = json.loads((g258 / "CATCH_PROOF_RESULT.json").read_text())
-    g258_repair = json.loads((g258 / "REPAIR_CERTIFICATION.json").read_text())
+    g258_result = json.loads((g258 / "DERIVATION_RESULT.json").read_text(encoding="utf-8"))
+    g258_independent = json.loads((g258 / "INDEPENDENT_VERIFICATION.json").read_text(encoding="utf-8"))
+    g258_catches = json.loads((g258 / "CATCH_PROOF_RESULT.json").read_text(encoding="utf-8"))
+    g258_repair = json.loads((g258 / "REPAIR_CERTIFICATION.json").read_text(encoding="utf-8"))
     require(
         g258_result["status"] == "PASS"
         and g258_result["landing"]
@@ -13785,14 +13749,14 @@ def main() -> None:
         and g258_repair["external_repair_followup"] == "ACCEPTED",
         "G258 R1 exact-provenance certification changed",
     )
-    g258_external = (g258 / "EXTERNAL_REVIEW_GPT54.md").read_text()
+    g258_external = (g258 / "EXTERNAL_REVIEW_GPT54.md").read_text(encoding="utf-8")
     require(
         "`ACCEPT_WITH_REPAIRS`" in g258_external
         and "bounded scientific core passed" in g258_external
         and "Provenance verification is not fully exact" in g258_external,
         "G258 external adjudication absent",
     )
-    g258_followup = (g258 / "EXTERNAL_REPAIR_FOLLOWUP_GPT54.md").read_text()
+    g258_followup = (g258 / "EXTERNAL_REPAIR_FOLLOWUP_GPT54.md").read_text(encoding="utf-8")
     require(
         g258_followup.startswith("REPAIRS_ACCEPTED\n")
         and "R1 is implemented as preregistered" in g258_followup
@@ -13808,7 +13772,7 @@ def main() -> None:
         source_bytes = source_path.read_bytes()
         if (
             source["path"] == "CURRENT_SCIENTIFIC_PREMISES.tsv"
-            and hashlib.sha256(source_bytes).hexdigest() != source["sha256"]
+            and pin_sha256(source_bytes) != source["sha256"]
         ):
             historical = subprocess.run(
                 ["git", "show", "a9f96360:CURRENT_SCIENTIFIC_PREMISES.tsv"],
@@ -13819,7 +13783,7 @@ def main() -> None:
             )
             source_bytes = historical.stdout
         require(
-            hashlib.sha256(source_bytes).hexdigest() == source["sha256"],
+            pin_matches(source_bytes, source["sha256"]),
             f"G258 source hash changed: {source['path']}",
         )
     require(
@@ -13888,11 +13852,11 @@ def main() -> None:
         "build_review_intake.py",
     ):
         require((g259 / name).is_file(), f"G259 evidence missing: {name}")
-    g259_result = json.loads((g259 / "DERIVATION_RESULT.json").read_text())
-    g259_independent = json.loads((g259 / "INDEPENDENT_VERIFICATION.json").read_text())
-    g259_catches = json.loads((g259 / "CATCH_PROOF_RESULT.json").read_text())
-    g259_dependency_free = json.loads((g259 / "DEPENDENCY_FREE_REPLAY_RESULT.json").read_text())
-    g259_verification = json.loads((g259 / "VERIFICATION_RESULT.json").read_text())
+    g259_result = json.loads((g259 / "DERIVATION_RESULT.json").read_text(encoding="utf-8"))
+    g259_independent = json.loads((g259 / "INDEPENDENT_VERIFICATION.json").read_text(encoding="utf-8"))
+    g259_catches = json.loads((g259 / "CATCH_PROOF_RESULT.json").read_text(encoding="utf-8"))
+    g259_dependency_free = json.loads((g259 / "DEPENDENCY_FREE_REPLAY_RESULT.json").read_text(encoding="utf-8"))
+    g259_verification = json.loads((g259 / "VERIFICATION_RESULT.json").read_text(encoding="utf-8"))
     expected_g259_landing = (
         "CONDITIONAL_LOVELOCK_CLASS_SELECTS_EINSTEIN_ZERO_SET__"
         "CLASS_ASSUMPTIONS_NOT_UDT_DERIVED__"
@@ -13960,20 +13924,20 @@ def main() -> None:
     )
     require(
         "Disposition: `ACCEPT_WITH_REPAIRS`"
-        in (g259 / "EXTERNAL_REVIEW_GPT54.md").read_text(),
+        in (g259 / "EXTERNAL_REVIEW_GPT54.md").read_text(encoding="utf-8"),
         "G259 external review disposition absent",
     )
     require(
-        "ACCEPT_REPAIRS" in (g259 / "EXTERNAL_REPAIR_FOLLOWUP_GPT54.md").read_text()
+        "ACCEPT_REPAIRS" in (g259 / "EXTERNAL_REPAIR_FOLLOWUP_GPT54.md").read_text(encoding="utf-8")
         and "The bounded scientific landing is unchanged"
-        in (g259 / "EXTERNAL_REPAIR_FOLLOWUP_GPT54.md").read_text(),
+        in (g259 / "EXTERNAL_REPAIR_FOLLOWUP_GPT54.md").read_text(encoding="utf-8"),
         "G259 repair-only acceptance absent",
     )
     require(
         "does not say that UDT's physical parent operator belongs to this class"
-        in (g259 / "LOVELOCK_NAVARRO_SCOPE.md").read_text()
+        in (g259 / "LOVELOCK_NAVARRO_SCOPE.md").read_text(encoding="utf-8")
         and "The degenerate case \\(a=0\\) is the identically zero operator"
-        in (g259 / "EXACT_DERIVATION.md").read_text(),
+        in (g259 / "EXACT_DERIVATION.md").read_text(encoding="utf-8"),
         "G259 R1/R2 wording repair absent",
     )
     require(len(read_tsv(g259 / "SOURCE_MANIFEST.tsv")) == 11, "G259 source count changed")
@@ -14041,11 +14005,11 @@ def main() -> None:
         "verify_package.py",
     ):
         require((g260 / name).is_file(), f"G260 evidence missing: {name}")
-    g260_result = json.loads((g260 / "DERIVATION_RESULT.json").read_text())
-    g260_independent = json.loads((g260 / "INDEPENDENT_VERIFICATION.json").read_text())
-    g260_catches = json.loads((g260 / "CATCH_PROOF_RESULT.json").read_text())
-    g260_verification = json.loads((g260 / "VERIFICATION_RESULT.json").read_text())
-    g260_repair = json.loads((g260 / "REPAIR_CERTIFICATION.json").read_text())
+    g260_result = json.loads((g260 / "DERIVATION_RESULT.json").read_text(encoding="utf-8"))
+    g260_independent = json.loads((g260 / "INDEPENDENT_VERIFICATION.json").read_text(encoding="utf-8"))
+    g260_catches = json.loads((g260 / "CATCH_PROOF_RESULT.json").read_text(encoding="utf-8"))
+    g260_verification = json.loads((g260 / "VERIFICATION_RESULT.json").read_text(encoding="utf-8"))
+    g260_repair = json.loads((g260 / "REPAIR_CERTIFICATION.json").read_text(encoding="utf-8"))
     expected_g260_landing = "FULL_METRIC_CANCELLATION_WITH_ACTIVE_ANGULAR_SECTOR"
     require(
         g260_result["status"] == "PASS"
@@ -14101,11 +14065,11 @@ def main() -> None:
         "G260 R1 certification changed",
     )
     require(
-        hashlib.sha256((g260 / "DERIVATION_RESULT.json").read_bytes()).hexdigest()
+        pin_sha256((g260 / "DERIVATION_RESULT.json").read_bytes())
         == "ddc9b6f0ef357cf433d171472e51d49ca7c87352d5464ec4cf2d3349aa429248",
         "G260 production result hash changed",
     )
-    g260_production = (g260 / "derive_angular_nondiscard.py").read_text()
+    g260_production = (g260 / "derive_angular_nondiscard.py").read_text(encoding="utf-8")
     require(
         "import sympy" not in g260_production
         and "from sympy" not in g260_production
@@ -14116,14 +14080,14 @@ def main() -> None:
     )
     require(
         "Disposition: `ACCEPT_WITH_REPAIRS`"
-        in (g260 / "EXTERNAL_REVIEW_GPT54.md").read_text(),
+        in (g260 / "EXTERNAL_REVIEW_GPT54.md").read_text(encoding="utf-8"),
         "G260 fresh external disposition absent",
     )
     require(
         "Disposition: `ACCEPT_REPAIR`"
-        in (g260 / "EXTERNAL_REPAIR_FOLLOWUP_GPT54.md").read_text()
+        in (g260 / "EXTERNAL_REPAIR_FOLLOWUP_GPT54.md").read_text(encoding="utf-8")
         and "Exact remaining repair: none."
-        in (g260 / "EXTERNAL_REPAIR_FOLLOWUP_GPT54.md").read_text(),
+        in (g260 / "EXTERNAL_REPAIR_FOLLOWUP_GPT54.md").read_text(encoding="utf-8"),
         "G260 repair-only acceptance absent",
     )
     require(len(read_tsv(g260 / "SOURCE_MANIFEST.tsv")) == 11, "G260 source count changed")
@@ -14186,10 +14150,10 @@ def main() -> None:
         "verify_package.py",
     ):
         require((g261 / name).is_file(), f"G261 evidence missing: {name}")
-    g261_result = json.loads((g261 / "DERIVATION_RESULT.json").read_text())
-    g261_independent = json.loads((g261 / "INDEPENDENT_VERIFICATION.json").read_text())
-    g261_catches = json.loads((g261 / "CATCH_PROOF_RESULT.json").read_text())
-    g261_verification = json.loads((g261 / "VERIFICATION_RESULT.json").read_text())
+    g261_result = json.loads((g261 / "DERIVATION_RESULT.json").read_text(encoding="utf-8"))
+    g261_independent = json.loads((g261 / "INDEPENDENT_VERIFICATION.json").read_text(encoding="utf-8"))
+    g261_catches = json.loads((g261 / "CATCH_PROOF_RESULT.json").read_text(encoding="utf-8"))
+    g261_verification = json.loads((g261 / "VERIFICATION_RESULT.json").read_text(encoding="utf-8"))
     expected_g261_landing = (
         "W4_OWNS_UNIVERSAL_METRIC_COUPLING__PRIMARY_METRIC_UNCHANGED__"
         "G259_CLASS_STILL_UNOWNED__ONE_DYNAMICS_GENERATOR_PREMISE_REMAINS"
@@ -14266,14 +14230,14 @@ def main() -> None:
     )
     require(
         "Disposition: `ACCEPT_WITH_REPAIRS`"
-        in (g261 / "EXTERNAL_REVIEW_GPT54.md").read_text(),
+        in (g261 / "EXTERNAL_REVIEW_GPT54.md").read_text(encoding="utf-8"),
         "G261 fresh external disposition absent",
     )
     require(
         "Disposition: `ACCEPT_REPAIR`"
-        in (g261 / "EXTERNAL_REPAIR_FOLLOWUP_GPT54.md").read_text()
+        in (g261 / "EXTERNAL_REPAIR_FOLLOWUP_GPT54.md").read_text(encoding="utf-8")
         and "Remaining defects: none within preregistered repairs R1--R4."
-        in (g261 / "EXTERNAL_REPAIR_FOLLOWUP_GPT54.md").read_text(),
+        in (g261 / "EXTERNAL_REPAIR_FOLLOWUP_GPT54.md").read_text(encoding="utf-8"),
         "G261 repair-only external acceptance absent",
     )
     require(len(read_tsv(g261 / "SOURCE_MANIFEST.tsv")) == 10, "G261 source count changed")
@@ -14334,10 +14298,10 @@ def main() -> None:
         "verify_package.py",
     ):
         require((g262 / name).is_file(), f"G262 evidence missing: {name}")
-    g262_result = json.loads((g262 / "DERIVATION_RESULT.json").read_text())
-    g262_independent = json.loads((g262 / "INDEPENDENT_VERIFICATION.json").read_text())
-    g262_catches = json.loads((g262 / "CATCH_PROOF_RESULT.json").read_text())
-    g262_verification = json.loads((g262 / "VERIFICATION_RESULT.json").read_text())
+    g262_result = json.loads((g262 / "DERIVATION_RESULT.json").read_text(encoding="utf-8"))
+    g262_independent = json.loads((g262 / "INDEPENDENT_VERIFICATION.json").read_text(encoding="utf-8"))
+    g262_catches = json.loads((g262 / "CATCH_PROOF_RESULT.json").read_text(encoding="utf-8"))
+    g262_verification = json.loads((g262 / "VERIFICATION_RESULT.json").read_text(encoding="utf-8"))
     expected_g262_landing = (
         "ONE_METRIC_STATE_HIERARCHY_DERIVED__COVECTOR_ENERGY_PAIRING_CONDITIONAL__"
         "LOCAL_REST_MASS_PHYSICAL_TOTAL_MASS_XMAX_VALUE_AND_HISTORY_LAW_OPEN"
@@ -14377,13 +14341,13 @@ def main() -> None:
         "G262 package certification changed",
     )
     require(
-        "ACCEPT_WITH_REPAIRS" in (g262 / "EXTERNAL_REVIEW_GPT54.md").read_text(),
+        "ACCEPT_WITH_REPAIRS" in (g262 / "EXTERNAL_REVIEW_GPT54.md").read_text(encoding="utf-8"),
         "G262 fresh external disposition absent",
     )
     require(
-        "ACCEPT_REPAIR" in (g262 / "EXTERNAL_REPAIR_FOLLOWUP_GPT54.md").read_text()
+        "ACCEPT_REPAIR" in (g262 / "EXTERNAL_REPAIR_FOLLOWUP_GPT54.md").read_text(encoding="utf-8")
         and "No remaining defects within the preregistered scope."
-        in (g262 / "EXTERNAL_REPAIR_FOLLOWUP_GPT54.md").read_text(),
+        in (g262 / "EXTERNAL_REPAIR_FOLLOWUP_GPT54.md").read_text(encoding="utf-8"),
         "G262 repair-only external acceptance absent",
     )
     require(len(read_tsv(g262 / "SOURCE_MANIFEST.tsv")) == 19, "G262 source count changed")
@@ -14434,8 +14398,8 @@ def main() -> None:
         "verify_sealed_replay.py",
     ):
         require((g263 / name).is_file(), f"G263 evidence missing: {name}")
-    g263_result = json.loads((g263 / "DERIVATION_RESULT.json").read_text())
-    g263_verification = json.loads((g263 / "VERIFICATION_RESULT.json").read_text())
+    g263_result = json.loads((g263 / "DERIVATION_RESULT.json").read_text(encoding="utf-8"))
+    g263_verification = json.loads((g263 / "VERIFICATION_RESULT.json").read_text(encoding="utf-8"))
     expected_g263_landing = (
         "PAIR_ARROW_REVERSAL_IS_EXACT_RECIPROCAL_INVOLUTION__"
         "WHOLE_PROFILE_SIGN_CONJUGATION_IS_A_DISTINCT_METRIC_INVOLUTION__"
@@ -14464,8 +14428,8 @@ def main() -> None:
         "G263 package certification changed",
     )
     require(
-        "`ACCEPT_REPAIR`" in (g263 / "EXTERNAL_REPAIR_FOLLOWUP_GPT54.md").read_text()
-        and "No remaining defects" in (g263 / "EXTERNAL_REPAIR_FOLLOWUP_GPT54.md").read_text(),
+        "`ACCEPT_REPAIR`" in (g263 / "EXTERNAL_REPAIR_FOLLOWUP_GPT54.md").read_text(encoding="utf-8")
+        and "No remaining defects" in (g263 / "EXTERNAL_REPAIR_FOLLOWUP_GPT54.md").read_text(encoding="utf-8"),
         "G263 repair-only external acceptance absent",
     )
     require(
@@ -14519,9 +14483,9 @@ def main() -> None:
         "verify_repair_catches.py",
     ):
         require((g264 / name).is_file(), f"G264 evidence missing: {name}")
-    g264_result = json.loads((g264 / "DERIVATION_RESULT.json").read_text())
-    g264_metric_first = json.loads((g264 / "METRIC_FIRST_VERIFICATION.json").read_text())
-    g264_verification = json.loads((g264 / "VERIFICATION_RESULT.json").read_text())
+    g264_result = json.loads((g264 / "DERIVATION_RESULT.json").read_text(encoding="utf-8"))
+    g264_metric_first = json.loads((g264 / "METRIC_FIRST_VERIFICATION.json").read_text(encoding="utf-8"))
+    g264_verification = json.loads((g264 / "VERIFICATION_RESULT.json").read_text(encoding="utf-8"))
     expected_g264_landing = (
         "NEGATIVE_PHI_SIGN_ALONE_DOES_NOT_SELECT__"
         "FINITE_ARBITRARILY_DEEP_SMOOTH_ASYMPTOTICALLY_FLAT_SLICE_COMPLETE_COUNTERFAMILY_EXISTS__"
@@ -14559,9 +14523,9 @@ def main() -> None:
     )
     require(
         "`ACCEPT_PACKAGING_REPAIR`"
-        in (g264 / "EXTERNAL_PACKAGING_REPAIR_FOLLOWUP_GPT54.md").read_text()
+        in (g264 / "EXTERNAL_PACKAGING_REPAIR_FOLLOWUP_GPT54.md").read_text(encoding="utf-8")
         and "did not contain SymPy"
-        in (g264 / "EXTERNAL_PACKAGING_REPAIR_FOLLOWUP_GPT54.md").read_text(),
+        in (g264 / "EXTERNAL_PACKAGING_REPAIR_FOLLOWUP_GPT54.md").read_text(encoding="utf-8"),
         "G264 final external acceptance or caveat absent",
     )
     require(
@@ -14629,9 +14593,9 @@ def main() -> None:
         "verify_package.py",
     ):
         require((g265 / name).is_file(), f"G265 evidence missing: {name}")
-    g265_result = json.loads((g265 / "DERIVATION_RESULT.json").read_text())
-    g265_independent = json.loads((g265 / "INDEPENDENT_VERIFICATION.json").read_text())
-    g265_catches = json.loads((g265 / "CATCH_PROOF_RESULT.json").read_text())
+    g265_result = json.loads((g265 / "DERIVATION_RESULT.json").read_text(encoding="utf-8"))
+    g265_independent = json.loads((g265 / "INDEPENDENT_VERIFICATION.json").read_text(encoding="utf-8"))
+    g265_catches = json.loads((g265 / "CATCH_PROOF_RESULT.json").read_text(encoding="utf-8"))
     expected_g265_landing = (
         "INFINITE_BARE_C_METRIC_NULL_READING_IS_IDENTITY__"
         "LITERAL_DISTANCE_TIME_CLOSURE_TRIVIALIZES_THE_STATIC_PROFILE__"
@@ -14667,10 +14631,10 @@ def main() -> None:
         "G265 mutation ledger changed",
     )
     require(
-        "REPAIRS_ACCEPTED" in (g265 / "EXTERNAL_REPAIR_FOLLOWUP_GPT54.md").read_text()
-        and "18/18" in (g265 / "EXTERNAL_REPAIR_FOLLOWUP_GPT54.md").read_text()
-        and "63/63" in (g265 / "EXTERNAL_REPAIR_FOLLOWUP_GPT54.md").read_text()
-        and "8/8" in (g265 / "EXTERNAL_REPAIR_FOLLOWUP_GPT54.md").read_text(),
+        "REPAIRS_ACCEPTED" in (g265 / "EXTERNAL_REPAIR_FOLLOWUP_GPT54.md").read_text(encoding="utf-8")
+        and "18/18" in (g265 / "EXTERNAL_REPAIR_FOLLOWUP_GPT54.md").read_text(encoding="utf-8")
+        and "63/63" in (g265 / "EXTERNAL_REPAIR_FOLLOWUP_GPT54.md").read_text(encoding="utf-8")
+        and "8/8" in (g265 / "EXTERNAL_REPAIR_FOLLOWUP_GPT54.md").read_text(encoding="utf-8"),
         "G265 repair-only external acceptance absent",
     )
     require(len(read_tsv(g265 / "SOURCE_MANIFEST.tsv")) == 9, "G265 source count changed")
@@ -14762,9 +14726,9 @@ def main() -> None:
         "verify_package.py",
     ):
         require((g266 / name).is_file(), f"G266 evidence missing: {name}")
-    g266_result = json.loads((g266 / "DERIVATION_RESULT.json").read_text())
-    g266_independent = json.loads((g266 / "INDEPENDENT_VERIFICATION.json").read_text())
-    g266_catches = json.loads((g266 / "CATCH_PROOF_RESULT.json").read_text())
+    g266_result = json.loads((g266 / "DERIVATION_RESULT.json").read_text(encoding="utf-8"))
+    g266_independent = json.loads((g266 / "INDEPENDENT_VERIFICATION.json").read_text(encoding="utf-8"))
+    g266_catches = json.loads((g266 / "CATCH_PROOF_RESULT.json").read_text(encoding="utf-8"))
     expected_g266_landing = (
         "CANONICAL_REVERSAL_EVEN_TRACE_CHANNEL_DERIVED_ON_SUPPLIED_TIMELIVE_RELATION__"
         "NONTRIVIAL_COMPOSITION_REQUIRES_THE_ODD_COMPANION__"
@@ -14796,7 +14760,7 @@ def main() -> None:
         "G266 mutation ledger changed",
     )
     require(
-        (g266 / "EXTERNAL_REPAIR_FOLLOWUP_GPT54.md").read_text()
+        (g266 / "EXTERNAL_REPAIR_FOLLOWUP_GPT54.md").read_text(encoding="utf-8")
         == "REPAIRS_ACCEPTED\n",
         "G266 repair-only external acceptance absent",
     )
@@ -14881,9 +14845,9 @@ def main() -> None:
         "verify_package.py",
     ):
         require((g267 / name).is_file(), f"G267 evidence missing: {name}")
-    g267_result = json.loads((g267 / "DERIVATION_RESULT.json").read_text())
-    g267_independent = json.loads((g267 / "INDEPENDENT_VERIFICATION.json").read_text())
-    g267_catches = json.loads((g267 / "CATCH_PROOF_RESULT.json").read_text())
+    g267_result = json.loads((g267 / "DERIVATION_RESULT.json").read_text(encoding="utf-8"))
+    g267_independent = json.loads((g267 / "INDEPENDENT_VERIFICATION.json").read_text(encoding="utf-8"))
+    g267_catches = json.loads((g267 / "CATCH_PROOF_RESULT.json").read_text(encoding="utf-8"))
     expected_g267_landing = (
         "SECH_PROVISIONALLY_CLOSES_A_COEFFICIENT_FREE_BOUNDED_PAIR_STATE__"
         "SIGNED_COMPANION_REQUIRED_FOR_COMPOSITION__"
@@ -14914,7 +14878,7 @@ def main() -> None:
         and len(g267_catches["mutations"]) == 8,
         "G267 mutation ledger changed",
     )
-    external_g267 = (g267 / "EXTERNAL_REVIEW.md").read_text()
+    external_g267 = (g267 / "EXTERNAL_REVIEW.md").read_text(encoding="utf-8")
     require(
         "ACCEPT_NO_REPAIRS" in external_g267
         and "Bounded scientific landing survives: **yes**" in external_g267,
@@ -14984,8 +14948,8 @@ def main() -> None:
             "verify_package.py",
         ):
             require((package / name).is_file(), f"{premise_id} evidence missing: {name}")
-        production = json.loads((package / "DERIVATION_RESULT.json").read_text())
-        independent = json.loads((package / "INDEPENDENT_VERIFICATION.json").read_text())
+        production = json.loads((package / "DERIVATION_RESULT.json").read_text(encoding="utf-8"))
+        independent = json.loads((package / "INDEPENDENT_VERIFICATION.json").read_text(encoding="utf-8"))
         require(
             production["status"] == independent["status"] == "PASS"
             and production["landing"] == independent["expected_landing"] == expected["landing"]
@@ -14993,9 +14957,9 @@ def main() -> None:
             and independent["assertions"] == expected["assertions"],
             f"{premise_id} recorded landing or verification changed",
         )
-    require("REPAIRS_ACCEPTED" in (recent_packages["G268"] / "REPAIR_FOLLOWUP_REVIEW.md").read_text(), "G268 repair acceptance absent")
-    require("ACCEPT_NO_REPAIRS" in (recent_packages["G269"] / "EXTERNAL_REVIEW.md").read_text(), "G269 external acceptance absent")
-    require("ACCEPT_REPAIRS" in (recent_packages["G270"] / "REPAIR_FOLLOWUP_REVIEW.md").read_text(), "G270 repair acceptance absent")
+    require("REPAIRS_ACCEPTED" in (recent_packages["G268"] / "REPAIR_FOLLOWUP_REVIEW.md").read_text(encoding="utf-8"), "G268 repair acceptance absent")
+    require("ACCEPT_NO_REPAIRS" in (recent_packages["G269"] / "EXTERNAL_REVIEW.md").read_text(encoding="utf-8"), "G269 external acceptance absent")
+    require("ACCEPT_REPAIRS" in (recent_packages["G270"] / "REPAIR_FOLLOWUP_REVIEW.md").read_text(encoding="utf-8"), "G270 repair acceptance absent")
     require(len(read_tsv(recent_packages["G268"] / "SOURCE_MANIFEST.tsv")) == 10, "G268 source count changed")
     require(len(read_tsv(recent_packages["G269"] / "SOURCE_MANIFEST.tsv")) == 11, "G269 source count changed")
     require(len(read_tsv(recent_packages["G270"] / "SOURCE_MANIFEST.tsv")) == 13, "G270 source count changed")
@@ -15098,9 +15062,9 @@ def main() -> None:
             "verify_package.py",
         ):
             require((package / name).is_file(), f"{premise_id} evidence missing: {name}")
-        production = json.loads((package / "DERIVATION_RESULT.json").read_text())
-        independent = json.loads((package / "INDEPENDENT_VERIFICATION.json").read_text())
-        catches = json.loads((package / "CATCH_PROOF_RESULT.json").read_text())
+        production = json.loads((package / "DERIVATION_RESULT.json").read_text(encoding="utf-8"))
+        independent = json.loads((package / "INDEPENDENT_VERIFICATION.json").read_text(encoding="utf-8"))
+        catches = json.loads((package / "CATCH_PROOF_RESULT.json").read_text(encoding="utf-8"))
         require(
             production["status"] == independent["status"] == catches["status"] == "PASS"
             and production["landing"] == independent["landing"] == expected["landing"]
@@ -15111,10 +15075,10 @@ def main() -> None:
         )
         require(len(read_tsv(package / "SOURCE_MANIFEST.tsv")) == expected["source_count"], f"{premise_id} source count changed")
         require(
-            expected["external_token"] in (package / expected["external_file"]).read_text(),
+            expected["external_token"] in (package / expected["external_file"]).read_text(encoding="utf-8"),
             f"{premise_id} external acceptance absent",
         )
-    founding_text = " ".join((ROOT / "founding.md").read_text().split())
+    founding_text = " ".join((ROOT / "founding.md").read_text(encoding="utf-8").split())
     require(
         "### W4. Universal metric coupling" in founding_text
         and "does not alter F1--F4's reciprocal algebra or the primary metric components" in founding_text
@@ -15160,12 +15124,12 @@ def main() -> None:
         require((g195 / name).is_file(), f"G195 evidence missing: {name}")
     require(
         "G195_NO_WRITE_EVIDENCE_REPAIR_ACCEPTED__BOUNDED_LANDING_RETAINED"
-        in (g195 / "EXTERNAL_REVIEW_ADJUDICATION.md").read_text(),
+        in (g195 / "EXTERNAL_REVIEW_ADJUDICATION.md").read_text(encoding="utf-8"),
         "G195 external R1 acceptance missing",
     )
     require(
         '"external_review": "G195_NO_WRITE_EVIDENCE_REPAIR_ACCEPTED__BOUNDED_LANDING_RETAINED"'
-        in (g195 / "PACKAGE_VERIFICATION_RESULT.json").read_text(),
+        in (g195 / "PACKAGE_VERIFICATION_RESULT.json").read_text(encoding="utf-8"),
         "G195 accepted package state absent",
     )
     require(
@@ -15206,12 +15170,12 @@ def main() -> None:
         require((g194 / name).is_file(), f"G194 evidence missing: {name}")
     require(
         "G194_R5_REPAIRS_ACCEPTED__BOUNDED_LANDING_RETAINED"
-        in (g194 / "EXTERNAL_REVIEW_ADJUDICATION.md").read_text(),
+        in (g194 / "EXTERNAL_REVIEW_ADJUDICATION.md").read_text(encoding="utf-8"),
         "G194 external R5 repair acceptance missing",
     )
     require(
         '"external_review": "G194_R5_REPAIRS_ACCEPTED__BOUNDED_LANDING_RETAINED"'
-        in (g194 / "PACKAGE_VERIFICATION_RESULT.json").read_text(),
+        in (g194 / "PACKAGE_VERIFICATION_RESULT.json").read_text(encoding="utf-8"),
         "G194 accepted package state absent",
     )
     require(
@@ -15253,12 +15217,12 @@ def main() -> None:
         require((g193 / name).is_file(), f"G193 evidence missing: {name}")
     require(
         "G193_REPAIRS_ACCEPTED__BOUNDED_LANDING_RETAINED"
-        in (g193 / "EXTERNAL_REVIEW_ADJUDICATION.md").read_text(),
+        in (g193 / "EXTERNAL_REVIEW_ADJUDICATION.md").read_text(encoding="utf-8"),
         "G193 external repair acceptance missing",
     )
     require(
         '"external_review": "G193_REPAIRS_ACCEPTED__BOUNDED_LANDING_RETAINED"'
-        in (g193 / "PACKAGE_VERIFICATION_RESULT.json").read_text(),
+        in (g193 / "PACKAGE_VERIFICATION_RESULT.json").read_text(encoding="utf-8"),
         "G193 accepted package state absent",
     )
     require(
@@ -15300,12 +15264,12 @@ def main() -> None:
         require((g192 / name).is_file(), f"G192 evidence missing: {name}")
     require(
         "G192_ACCEPTED_WITH_STATED_BOUNDS"
-        in (g192 / "EXTERNAL_REVIEW_ADJUDICATION.md").read_text(),
+        in (g192 / "EXTERNAL_REVIEW_ADJUDICATION.md").read_text(encoding="utf-8"),
         "G192 external acceptance missing",
     )
     require(
         '"external_review": "G192_ACCEPTED_WITH_STATED_BOUNDS"'
-        in (g192 / "PACKAGE_VERIFICATION_RESULT.json").read_text(),
+        in (g192 / "PACKAGE_VERIFICATION_RESULT.json").read_text(encoding="utf-8"),
         "G192 accepted package state absent",
     )
     require(
@@ -15344,12 +15308,12 @@ def main() -> None:
         require((g191 / name).is_file(), f"G191 evidence missing: {name}")
     require(
         "G191_ACCEPTED_WITH_STATED_BOUNDS"
-        in (g191 / "EXTERNAL_REVIEW_ADJUDICATION.md").read_text(),
+        in (g191 / "EXTERNAL_REVIEW_ADJUDICATION.md").read_text(encoding="utf-8"),
         "G191 external acceptance missing",
     )
     require(
         '"external_review": "G191_ACCEPTED_WITH_STATED_BOUNDS"'
-        in (g191 / "PACKAGE_VERIFICATION_RESULT.json").read_text(),
+        in (g191 / "PACKAGE_VERIFICATION_RESULT.json").read_text(encoding="utf-8"),
         "G191 accepted package state absent",
     )
     require(
@@ -15383,12 +15347,12 @@ def main() -> None:
         require((g190 / name).is_file(), f"G190 evidence missing: {name}")
     require(
         "G190_ACCEPTED_WITH_STATED_BOUNDS"
-        in (g190 / "EXTERNAL_REVIEW_ADJUDICATION.md").read_text(),
+        in (g190 / "EXTERNAL_REVIEW_ADJUDICATION.md").read_text(encoding="utf-8"),
         "G190 external acceptance missing",
     )
     require(
         '"external_review": "G190_ACCEPTED_WITH_STATED_BOUNDS"'
-        in (g190 / "PACKAGE_VERIFICATION_RESULT.json").read_text(),
+        in (g190 / "PACKAGE_VERIFICATION_RESULT.json").read_text(encoding="utf-8"),
         "G190 accepted package state absent",
     )
     require(
@@ -19022,7 +18986,7 @@ def main() -> None:
         "G180 repair preregistration missing",
     )
     require(
-        (ROOT / "udt_g180_completed_pair_smooth_family_descent_2026-08-19/EXTERNAL_FOLLOWUP_REVIEW_RAW.md").read_text().strip()
+        (ROOT / "udt_g180_completed_pair_smooth_family_descent_2026-08-19/EXTERNAL_FOLLOWUP_REVIEW_RAW.md").read_text(encoding="utf-8").strip()
         == "G180_REPAIR_ACCEPTED",
         "G180 repair-only external acceptance missing",
     )
@@ -19077,12 +19041,12 @@ def main() -> None:
     require((g181 / "EXTERNAL_REVIEW_ADJUDICATION.md").is_file(), "G181 adjudication missing")
     require((g181 / "REVIEW_REPAIR_PREREGISTRATION.md").is_file(), "G181 repair preregistration missing")
     require(
-        (g181 / "EXTERNAL_REPAIR_FOLLOWUP_RAW.md").read_text().startswith("G181_REPAIR_ACCEPTED"),
+        (g181 / "EXTERNAL_REPAIR_FOLLOWUP_RAW.md").read_text(encoding="utf-8").startswith("G181_REPAIR_ACCEPTED"),
         "G181 repair-only external acceptance missing",
     )
     require(
         '"external_followup": "G181_REPAIR_ACCEPTED"'
-        in (g181 / "VERIFICATION_RESULT.json").read_text(),
+        in (g181 / "VERIFICATION_RESULT.json").read_text(encoding="utf-8"),
         "G181 accepted verdict not recorded",
     )
     require((g181 / "TRANSMISSION_RECORD.md").is_file(), "G181 transmission record missing")
@@ -19133,12 +19097,12 @@ def main() -> None:
     require((g182 / "TRANSMISSION_RECORD.md").is_file(), "G182 transmission record missing")
     require(
         "G182_ACCEPTED_WITH_STATED_BOUNDS"
-        in (g182 / "EXTERNAL_ADVERSARIAL_REVIEW_RAW.md").read_text(),
+        in (g182 / "EXTERNAL_ADVERSARIAL_REVIEW_RAW.md").read_text(encoding="utf-8"),
         "G182 external acceptance missing",
     )
     require(
         '"external_review_accepted": true'
-        in (g182 / "VERIFICATION_RESULT.json").read_text(),
+        in (g182 / "VERIFICATION_RESULT.json").read_text(encoding="utf-8"),
         "G182 accepted verdict not recorded",
     )
 
@@ -19193,10 +19157,10 @@ def main() -> None:
     ):
         require((g183 / name).is_file(), f"G183 evidence missing: {name}")
     require(
-        "G183_REPAIR_ACCEPTED" in (g183 / "EXTERNAL_REPAIR_FOLLOWUP_RAW.md").read_text(),
+        "G183_REPAIR_ACCEPTED" in (g183 / "EXTERNAL_REPAIR_FOLLOWUP_RAW.md").read_text(encoding="utf-8"),
         "G183 repair-only external acceptance missing",
     )
-    g183_verification = (g183 / "VERIFICATION_RESULT.json").read_text()
+    g183_verification = (g183 / "VERIFICATION_RESULT.json").read_text(encoding="utf-8")
     require('"external_review": "ACCEPTED"' in g183_verification, "G183 accepted review state absent")
     require('"external_review_accepted": true' in g183_verification, "G183 acceptance check absent")
 
@@ -19253,10 +19217,10 @@ def main() -> None:
     ):
         require((g184 / name).is_file(), f"G184 evidence missing: {name}")
     require(
-        "G184_REPAIR_ACCEPTED" in (g184 / "EXTERNAL_REPAIR_FOLLOWUP_RAW.md").read_text(),
+        "G184_REPAIR_ACCEPTED" in (g184 / "EXTERNAL_REPAIR_FOLLOWUP_RAW.md").read_text(encoding="utf-8"),
         "G184 repair-only external acceptance missing",
     )
-    g184_verification = (g184 / "VERIFICATION_RESULT.json").read_text()
+    g184_verification = (g184 / "VERIFICATION_RESULT.json").read_text(encoding="utf-8")
     require('"external_review": "ACCEPTED"' in g184_verification, "G184 accepted review state absent")
     require('"external_review_accepted": true' in g184_verification, "G184 acceptance check absent")
 

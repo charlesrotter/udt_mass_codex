@@ -1,6 +1,6 @@
 # Current UDT research program
 
-Date: 2026-09-12
+Date: 2026-09-18
 
 `LIVE.md` controls status; exact 406-row `CURRENT_SCIENTIFIC_PREMISES.tsv` controls ownership.
 
@@ -112,6 +112,5 @@ Backup completeness/pre-reboot unsaved state remain UNVERIFIED; ScratchDisk is a
 
 ## Current next gate
 
-G383--G412 exact-scope banking is COMPLETE; G413--G423 banked; BE1/SD1/NR1/NR2/TI3 reviewed conditional UNPROMOTED; OB2 eligibility unresolved: INDEX.
+DCR1 reviewed conditional UNPROMOTED return (`udt_directional_clock_release_2026-09-14/`); FSR1/PJC1 already stopped without new field equation; native admission OPEN; Maxwell PAUSED; FE1 UNADOPTED; discussion/direction stop; no automatic successor; roadmap owns dispositions.
 G312 membership unclosed; G352 physical-realization: physical identification remains OPEN.
-Charles authorized broader-geometry testing and one bounded follow-up; completed; NAP1 reviewed/UNPROMOTED; native admission OPEN; Maxwell PAUSED; discussion stop; work order and return gates: roadmap.
