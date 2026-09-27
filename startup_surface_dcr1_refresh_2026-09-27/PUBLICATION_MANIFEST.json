@@ -1,0 +1,8 @@
+{
+  "startup_surface_dcr1_refresh_2026-09-27/PUBLICATION_RECEIPT.md": "8758e8279282cf84f36798abe32d5e7f121ec4e987a14cf9eb598054856b846a",
+  "startup_surface_dcr1_refresh_2026-09-27/PUBLICATION_CHECKS.json": "e8f193b170fa38b039d72ef48f9ac1992751e5fec703d4f9235b10e6fbff5452",
+  "startup_surface_dcr1_refresh_2026-09-27/checks/publication_all_whitespace.stderr": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "startup_surface_dcr1_refresh_2026-09-27/checks/publication_all_whitespace.stdout": "bcef93e7a3fe1a40171e992f26b0293c983d6e04c6890ca7092156d2cc69dfd3",
+  "startup_surface_dcr1_refresh_2026-09-27/checks/publication_source_whitespace.stderr": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "startup_surface_dcr1_refresh_2026-09-27/checks/publication_source_whitespace.stdout": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+}

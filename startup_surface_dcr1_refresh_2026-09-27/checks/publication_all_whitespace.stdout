@@ -1,0 +1,70 @@
+startup_surface_dcr1_refresh_2026-09-27/changes.patch:7: trailing whitespace.
++ 
+startup_surface_dcr1_refresh_2026-09-27/changes.patch:10: trailing whitespace.
++ 
+startup_surface_dcr1_refresh_2026-09-27/changes.patch:12: trailing whitespace.
++ 
+startup_surface_dcr1_refresh_2026-09-27/changes.patch:16: trailing whitespace.
++ 
+startup_surface_dcr1_refresh_2026-09-27/changes.patch:28: trailing whitespace.
++ 
+startup_surface_dcr1_refresh_2026-09-27/changes.patch:30: trailing whitespace.
++ 
+startup_surface_dcr1_refresh_2026-09-27/changes.patch:43: trailing whitespace.
++ 
+startup_surface_dcr1_refresh_2026-09-27/changes.patch:47: trailing whitespace.
++ 
+startup_surface_dcr1_refresh_2026-09-27/changes.patch:51: trailing whitespace.
++ 
+startup_surface_dcr1_refresh_2026-09-27/changes.patch:53: trailing whitespace.
++ 
+startup_surface_dcr1_refresh_2026-09-27/changes.patch:61: trailing whitespace.
++ 
+startup_surface_dcr1_refresh_2026-09-27/changes.patch:88: trailing whitespace.
++ 
+startup_surface_dcr1_refresh_2026-09-27/changes.patch:92: trailing whitespace.
++ 
+startup_surface_dcr1_refresh_2026-09-27/changes.patch:95: trailing whitespace.
++ 
+startup_surface_dcr1_refresh_2026-09-27/changes.patch:97: trailing whitespace.
++ 
+startup_surface_dcr1_refresh_2026-09-27/changes.patch:104: trailing whitespace.
++ 
+startup_surface_dcr1_refresh_2026-09-27/changes.patch:112: trailing whitespace.
++ 
+startup_surface_dcr1_refresh_2026-09-27/changes.patch:114: trailing whitespace.
++ 
+startup_surface_dcr1_refresh_2026-09-27/changes.patch:116: trailing whitespace.
++ 
+startup_surface_dcr1_refresh_2026-09-27/changes.patch:118: trailing whitespace.
++ 
+startup_surface_dcr1_refresh_2026-09-27/changes.patch:131: trailing whitespace.
++ 
+startup_surface_dcr1_refresh_2026-09-27/changes.patch:138: trailing whitespace.
++ 
+startup_surface_dcr1_refresh_2026-09-27/changes.patch:146: trailing whitespace.
++ 
+startup_surface_dcr1_refresh_2026-09-27/changes.patch:170: trailing whitespace.
++ 
+startup_surface_dcr1_refresh_2026-09-27/changes.patch:171: trailing whitespace.
++ 
+startup_surface_dcr1_refresh_2026-09-27/changes.patch:203: trailing whitespace.
++ 
+startup_surface_dcr1_refresh_2026-09-27/checks/initial_navigation.stdout:168: trailing whitespace.
++tests/test_startup_surface.py:647: 
+startup_surface_dcr1_refresh_2026-09-27/checks/initial_navigation.stdout:169: trailing whitespace.
++_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+startup_surface_dcr1_refresh_2026-09-27/checks/initial_navigation.stdout:172: trailing whitespace.
++_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+startup_surface_dcr1_refresh_2026-09-27/checks/initial_navigation.stdout:550: trailing whitespace.
++tests/test_startup_surface.py:1060: 
+startup_surface_dcr1_refresh_2026-09-27/checks/initial_navigation.stdout:551: trailing whitespace.
++_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+startup_surface_dcr1_refresh_2026-09-27/checks/initial_navigation.stdout:579: trailing whitespace.
++tests/test_startup_surface.py:1060: 
+startup_surface_dcr1_refresh_2026-09-27/checks/initial_navigation.stdout:580: trailing whitespace.
++_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+startup_surface_dcr1_refresh_2026-09-27/checks/initial_navigation.stdout:609: trailing whitespace.
++tests/test_startup_surface.py:1060: 
+startup_surface_dcr1_refresh_2026-09-27/checks/initial_navigation.stdout:610: trailing whitespace.
++_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 

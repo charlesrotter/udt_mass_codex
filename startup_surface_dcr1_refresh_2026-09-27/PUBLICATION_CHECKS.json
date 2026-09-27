@@ -1,0 +1,43 @@
+{
+  "utc": "2026-09-27T19:30:42.613776+00:00",
+  "substantive_commit": "469d15f3664a8835a92ecd8ced2bbb6149c2860f",
+  "origin_grok": "469d15f3664a8835a92ecd8ced2bbb6149c2860f",
+  "checks": [
+    {
+      "label": "publication_all_whitespace",
+      "command": [
+        "git",
+        "diff",
+        "--check",
+        "4f98d8fe44791ffdcaf225e5be7b21e30a8f7629",
+        "469d15f3664a8835a92ecd8ced2bbb6149c2860f"
+      ],
+      "returncode": 2
+    },
+    {
+      "label": "publication_source_whitespace",
+      "command": [
+        "git",
+        "diff",
+        "--check",
+        "4f98d8fe44791ffdcaf225e5be7b21e30a8f7629",
+        "469d15f3664a8835a92ecd8ced2bbb6149c2860f",
+        "--",
+        "LIVE.md",
+        "HANDOFF.md",
+        "CURRENT_RESEARCH_PROGRAM.md",
+        "INDEX.md",
+        "MEMORY.md",
+        "verify_current_scientific_premises.py",
+        "tests/test_startup_surface.py"
+      ],
+      "returncode": 0
+    }
+  ],
+  "manifest_correspondence": "PASS",
+  "original_untracked_names_preserved": 52,
+  "unchanged_sources": 14,
+  "tracked_clean": true,
+  "index_clean": true,
+  "note": "Initial staged all-file whitespace check returned2 on verbatim patch context lines and initial pytest stdout; orchestration proceeded to commit/push before inspecting that result. This post-publication repeat reproduces it. Source-only whitespace check passes; raw evidence preserved unchanged."
+}
