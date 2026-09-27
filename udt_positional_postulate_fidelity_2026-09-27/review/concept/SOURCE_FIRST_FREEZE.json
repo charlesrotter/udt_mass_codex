@@ -1,0 +1,16 @@
+{
+  "utc": "2026-09-27T22:54:42.698555+00:00",
+  "head": "97af29a72322fa686dd0158a33947a91ac27d678",
+  "phase": "SOURCE_FIRST_PRE_PARENT_CANDIDATE",
+  "source_exposure": "Sources, previous FSR1 candidate, prior foundation continuation decision brief, parent G269 followup source pointer; no new candidate.",
+  "independence": "Fresh same-model context; runtime attestation unavailable; separate exact script, shared source arguments.",
+  "files": {
+    "SOURCE_FIRST.md": "57ae10d8025ba93cc884a84f8d90989063a51cb401694af742d862a75ac8c3eb",
+    "SOURCE_PINS.tsv": "556a1e40c647dfb7564c6af8d8436c73b18da494d233581aabc24ed9f4e5dae3",
+    "independent_checks.py": "0eb8bfeb665bcb6355916b65766ee6caab6fd920499c46bab09cc719f32a2cd5",
+    "INDEPENDENT_CHECKS.json": "0357ab0d99aaeaa9d13ddde927854b50f81df27d49751d1f0ea362b6d7286cb1",
+    "INDEPENDENT_CHECKS.stderr": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "STATUS_AT_FREEZE.txt": "c1445cb572f1cd5f8566a702439a48297331d2b049380606e26f9d196146bc69",
+    "EXECUTION_RECORD.md": "82948036262a9912d3dbbbc945de862864243710824525c6aab0e68c57ad4a99"
+  }
+}

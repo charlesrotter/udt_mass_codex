@@ -1,0 +1,12 @@
+{
+  "command": [
+    "python3",
+    "udt_positional_postulate_fidelity_2026-09-27/review/math/check_exact.py"
+  ],
+  "returncode": 0,
+  "elapsed_seconds": 1.0864591598510742,
+  "timestamp_utc": "2026-09-27T22:52:19Z",
+  "script_sha256": "4fe2169c775d572762812a1212188b46c3b470aedb2363c3acfdd2e8aa9c50fc",
+  "stdout_sha256": "948e96955599124200c3184c5ca5e7c1e36b10ff553ee45ee7a914fecdd8e89f",
+  "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+}

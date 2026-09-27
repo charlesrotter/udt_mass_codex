@@ -1,0 +1,244 @@
+{
+  "status": "PASS",
+  "checks": [
+    {
+      "name": "F2 conversion pairing",
+      "passed": true,
+      "residuals": [
+        "0",
+        "0",
+        "0",
+        "0"
+      ]
+    },
+    {
+      "name": "reciprocity preserves K",
+      "passed": true,
+      "residuals": [
+        "0",
+        "0",
+        "0",
+        "0"
+      ]
+    },
+    {
+      "name": "fixed Lorentz readout deforms",
+      "passed": true,
+      "residuals": [
+        "0",
+        "0",
+        "0",
+        "0"
+      ]
+    },
+    {
+      "name": "shifted determinant",
+      "passed": true,
+      "residuals": [
+        "0"
+      ]
+    },
+    {
+      "name": "W1 normalized determinant",
+      "passed": true,
+      "residuals": [
+        "0"
+      ]
+    },
+    {
+      "name": "W1 reconstruct with density",
+      "passed": true,
+      "residuals": [
+        "0",
+        "0",
+        "0",
+        "0"
+      ]
+    },
+    {
+      "name": "clock entry unaffected",
+      "passed": true,
+      "residuals": [
+        "0"
+      ]
+    },
+    {
+      "name": "generic areal Einstein all components",
+      "passed": true,
+      "residuals": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ]
+    },
+    {
+      "name": "areal mixed Einstein difference",
+      "passed": true,
+      "residuals": [
+        "0"
+      ]
+    },
+    {
+      "name": "primary full four-dimensional Einstein",
+      "passed": true,
+      "residuals": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ]
+    },
+    {
+      "name": "reduced Bianchi relation",
+      "passed": true,
+      "residuals": [
+        "0"
+      ]
+    },
+    {
+      "name": "angular trace and GR residual join",
+      "passed": true,
+      "residuals": [
+        "0"
+      ]
+    },
+    {
+      "name": "PJC1 interlock",
+      "passed": true,
+      "residuals": [
+        "0"
+      ]
+    },
+    {
+      "name": "vacuum full tensor",
+      "passed": true,
+      "residuals": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ]
+    },
+    {
+      "name": "trace-balanced full tensor",
+      "passed": true,
+      "residuals": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ]
+    },
+    {
+      "name": "trace-balanced angular sum",
+      "passed": true,
+      "residuals": [
+        "0"
+      ]
+    },
+    {
+      "name": "flat-screen missing sphere failure",
+      "passed": true,
+      "residuals": [
+        "0"
+      ]
+    },
+    {
+      "name": "two-dimensional Einstein is identically vacuous",
+      "passed": true,
+      "residuals": [
+        "0",
+        "0",
+        "0",
+        "0"
+      ]
+    },
+    {
+      "name": "nonreciprocal diagnostic difference",
+      "passed": true,
+      "residuals": [
+        "0"
+      ]
+    },
+    {
+      "name": "nonreciprocal metric still pair-normalizes",
+      "passed": true,
+      "residuals": [
+        "0",
+        "0",
+        "0",
+        "0"
+      ]
+    }
+  ],
+  "count": 20,
+  "expressions": {
+    "normalized_pair": "Matrix([[-T**2, -T*beta/L], [-T*beta/L, (L**2 - T**2*beta**2)/(L**2*T**2)]])",
+    "generic_G_t_t": "-(r*Derivative(B(r), r) + B(r)**2 - B(r))/(r**2*B(r)**2)",
+    "generic_G_r_r": "(r*Derivative(A(r), r) - A(r)*B(r) + A(r))/(r**2*A(r)*B(r))",
+    "generic_G_r_r_minus_G_t_t": "(A(r)*Derivative(B(r), r) + B(r)*Derivative(A(r), r))/(r*A(r)*B(r)**2)",
+    "generic_scalar_curvature": "-Derivative(A(r), (r, 2))/(A(r)*B(r)) + Derivative(A(r), r)*Derivative(B(r), r)/(2*A(r)*B(r)**2) + Derivative(A(r), r)**2/(2*A(r)**2*B(r)) + 2*Derivative(B(r), r)/(r*B(r)**2) - 2*Derivative(A(r), r)/(r*A(r)*B(r)) + 2/r**2 - 2/(r**2*B(r))",
+    "nonreciprocal_control_G_difference": "2/(r**2 + 1)",
+    "control_areal_radius_after_tape_change": "r remains areal radius; ds=sqrt(1+r^2) dr does not make s areal radius",
+    "static_clock_and_null_speed": {
+      "proper_time": "d_tau=sqrt(A) dt",
+      "radial_proper_length": "d_ell=sqrt(B) dr",
+      "radial_coordinate_null_speed": "abs(dr/dt)=c_E sqrt(A/B)",
+      "radial_local_speed": "abs(d_ell/d_tau)=c_E",
+      "reciprocal_specialization": "A=f, B=1/f: abs(dr/dt)=c_E f"
+    }
+  },
+  "python": "3.10.12",
+  "sympy": "1.13.1",
+  "method": "Christoffel to Ricci to mixed Einstein; exact symbolic; no repository code",
+  "scope": "positive C2 A,B on r>0 regular static spherical areal chart; external GR diagnostic only"
+}

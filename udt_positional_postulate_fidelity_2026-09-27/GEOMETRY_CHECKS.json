@@ -1,0 +1,57 @@
+{
+  "status": "PASS",
+  "checks": [
+    "off_diagonal_0_1",
+    "off_diagonal_0_2",
+    "off_diagonal_0_3",
+    "off_diagonal_1_0",
+    "off_diagonal_1_2",
+    "off_diagonal_1_3",
+    "off_diagonal_2_0",
+    "off_diagonal_2_1",
+    "off_diagonal_2_3",
+    "off_diagonal_3_0",
+    "off_diagonal_3_1",
+    "off_diagonal_3_2",
+    "general_clock_radial_difference",
+    "general_tt",
+    "general_rr",
+    "primary_component_0",
+    "primary_component_1",
+    "primary_component_2",
+    "primary_component_3",
+    "primary_conservation_identity",
+    "all_primary_flat",
+    "einstein_family_residual",
+    "control_tt",
+    "control_angle",
+    "control_anisotropy",
+    "nonzero_control_contrast_at_regular_positive_point",
+    "completed_pair_det",
+    "completed_pair_clock_kept",
+    "completed_pair_shift_kept"
+  ],
+  "count": 29,
+  "python": "3.10.12",
+  "sympy": "1.13.1",
+  "elapsed_seconds": 0.7610526240005129,
+  "general_einstein_mixed_diagonal": [
+    "-(r*Derivative(B(r), r) + B(r)**2 - B(r))/(r**2*B(r)**2)",
+    "(r*Derivative(A(r), r) - A(r)*B(r) + A(r))/(r**2*A(r)*B(r))",
+    "(2*r*A(r)*B(r)*Derivative(A(r), (r, 2)) - r*A(r)*Derivative(A(r), r)*Derivative(B(r), r) - r*B(r)*Derivative(A(r), r)**2 - 2*A(r)**2*Derivative(B(r), r) + 2*A(r)*B(r)*Derivative(A(r), r))/(4*r*A(r)**2*B(r)**2)",
+    "(2*r*A(r)*B(r)*Derivative(A(r), (r, 2)) - r*A(r)*Derivative(A(r), r)*Derivative(B(r), r) - r*B(r)*Derivative(A(r), r)**2 - 2*A(r)**2*Derivative(B(r), r) + 2*A(r)*B(r)*Derivative(A(r), r))/(4*r*A(r)**2*B(r)**2)"
+  ],
+  "primary_einstein_mixed_diagonal": [
+    "(r*Derivative(A(r), r) + A(r) - 1)/r**2",
+    "(r*Derivative(A(r), r) + A(r) - 1)/r**2",
+    "(r*Derivative(A(r), (r, 2)) + 2*Derivative(A(r), r))/(2*r)",
+    "(r*Derivative(A(r), (r, 2)) + 2*Derivative(A(r), r))/(2*r)"
+  ],
+  "control_mixed_diagonal": [
+    "5*eps*r**2/L**4",
+    "5*eps*r**2/L**4",
+    "10*eps*r**2/L**4",
+    "10*eps*r**2/L**4"
+  ],
+  "limits": "Exact supplied static-spherical geometry on a regular positive domain. GR diagnostic only; no native metric admission, source interpretation, new law or full spacetime classification."
+}

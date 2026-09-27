@@ -1,0 +1,106 @@
+{
+  "scope": "Exact source identities only; not a fidelity proof, native-admission test, empirical test, or completeness theorem.",
+  "implementation": "Fresh source-first script; no imports from historical or parent candidate code.",
+  "python": "3.10.12 (main, Aug 31 2026, 10:18:17) [GCC 11.4.0]",
+  "platform": "Linux-6.8.0-138-generic-x86_64-with-glibc2.35",
+  "sympy": "1.13.1",
+  "checks": {
+    "dual_pairing_0": {
+      "pass": true,
+      "residual": "0"
+    },
+    "dual_pairing_1": {
+      "pass": true,
+      "residual": "0"
+    },
+    "dual_pairing_2": {
+      "pass": true,
+      "residual": "0"
+    },
+    "dual_pairing_3": {
+      "pass": true,
+      "residual": "0"
+    },
+    "reciprocal_determinant": {
+      "pass": true,
+      "residual": "0"
+    },
+    "even_trace": {
+      "pass": true,
+      "residual": "0"
+    },
+    "signed_factor_from_even_odd": {
+      "pass": true,
+      "residual": "0"
+    },
+    "pair_ratio_equals_squared_static_clock_ratio": {
+      "pass": true,
+      "residual": "0"
+    },
+    "signed_reverse_product": {
+      "pass": true,
+      "residual": "0"
+    },
+    "even_candidate_reverse": {
+      "pass": true,
+      "residual": "0"
+    },
+    "radial_null": {
+      "pass": true,
+      "residual": "0"
+    },
+    "local_proper_null_speed": {
+      "pass": true,
+      "residual": "0"
+    },
+    "clock_times_ruler_scale": {
+      "pass": true,
+      "residual": "0"
+    },
+    "normalized_determinant": {
+      "pass": true,
+      "residual": "0"
+    },
+    "pullback_recovery_0": {
+      "pass": true,
+      "residual": "0"
+    },
+    "pullback_recovery_1": {
+      "pass": true,
+      "residual": "0"
+    },
+    "pullback_recovery_2": {
+      "pass": true,
+      "residual": "0"
+    },
+    "pullback_recovery_3": {
+      "pass": true,
+      "residual": "0"
+    },
+    "normalized_spatial_schur": {
+      "pass": true,
+      "residual": "0"
+    },
+    "completed_clock_coefficient": {
+      "pass": true,
+      "residual": "0"
+    },
+    "transported_clock_unit_norm": {
+      "pass": true,
+      "residual": "0"
+    },
+    "directional_frequency_contraction": {
+      "pass": true,
+      "residual": "0"
+    },
+    "mutual_reversal_with_screen_carry": {
+      "pass": true,
+      "residual": "0"
+    },
+    "planar_mutual_reduction": {
+      "pass": true,
+      "residual": "0"
+    }
+  },
+  "all_pass": true
+}

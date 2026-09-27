@@ -1,0 +1,86 @@
+{
+  "status": "PASS",
+  "count": 8,
+  "checks": [
+    {
+      "name": "candidate quartic full Einstein from independent geometry",
+      "residuals": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ]
+    },
+    {
+      "name": "mutual transport interlock from unit-clock equation",
+      "residuals": [
+        "0"
+      ]
+    },
+    {
+      "name": "reversal with carried screen norm",
+      "residuals": [
+        "0"
+      ]
+    },
+    {
+      "name": "planar inverse mutual",
+      "residuals": [
+        "0"
+      ]
+    },
+    {
+      "name": "positive screen gap",
+      "residuals": [
+        "0"
+      ]
+    },
+    {
+      "name": "G301 trace-free coefficient independence",
+      "residuals": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ]
+    },
+    {
+      "name": "source-to-observer redshift sign",
+      "residuals": [
+        "0"
+      ]
+    },
+    {
+      "name": "redshift delta_z sign",
+      "residuals": [
+        "0"
+      ]
+    }
+  ],
+  "scope": "candidate-exposed supplemental exact checks; previous 20 source-first checks reused from unchanged frozen implementation",
+  "new_current_candidate_code_exposure": true
+}

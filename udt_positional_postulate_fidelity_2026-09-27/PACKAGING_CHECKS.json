@@ -1,0 +1,58 @@
+{
+  "json_syntax_files": 15,
+  "local_links_checked": [
+    [
+      "README.md",
+      "DECISION_BRIEF.md"
+    ],
+    [
+      "README.md",
+      "CANDIDATE.md"
+    ],
+    [
+      "README.md",
+      "INITIAL_CANDIDATE.md"
+    ],
+    [
+      "README.md",
+      "WORK_ORDER.md"
+    ],
+    [
+      "README.md",
+      "REPAIR_LOG.md"
+    ],
+    [
+      "README.md",
+      "PARENT_SOURCE_PINS.tsv"
+    ],
+    [
+      "README.md",
+      "GEOMETRY_CHECKS.json"
+    ],
+    [
+      "README.md",
+      "review/concept/SOURCE_FIRST.md"
+    ],
+    [
+      "README.md",
+      "review/math/SOURCE_FIRST.md"
+    ],
+    [
+      "DECISION_BRIEF.md",
+      "CANDIDATE.md"
+    ],
+    [
+      "CLOSEOUT.md",
+      "CANDIDATE.md"
+    ],
+    [
+      "CLOSEOUT.md",
+      "DECISION_BRIEF.md"
+    ]
+  ],
+  "final_reviewed_hashes_match": true,
+  "unrelated_status_paths_preserved": true,
+  "full_premise_output_pass": true,
+  "elapsed_minutes_at_closeout": 13.254,
+  "scope": "Packaging correspondence only; not scientific evidence or independent review."
+}

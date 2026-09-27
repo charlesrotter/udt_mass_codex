@@ -1,0 +1,12 @@
+{
+  "utc": "2026-09-27T22:59:47.044524+00:00",
+  "disposition": "ACCEPT_WITH_EXISTING_DECLARED_SCOPE",
+  "scope": "Final repair and lay-fidelity wording review; no new scientific checks; see FINAL_REVIEW.md for exact omissions.",
+  "files": {
+    "udt_positional_postulate_fidelity_2026-09-27/CANDIDATE.md": "2f21520e2d1fbf5131733c118fabe996445c40f9b8e54b194906724041527491",
+    "udt_positional_postulate_fidelity_2026-09-27/DECISION_BRIEF.md": "9ed5e65326f73db224a4c7f89b4beecc07bb44848bf9d86552dc1c7201224493",
+    "UDT_RESEARCH_ROADMAP.md": "2025b23ce3a0b4923abeeae6282f32251d18efd17af266ad07448fcc7573f5f8",
+    "udt_positional_postulate_fidelity_2026-09-27/REPAIR_LOG.md": "f55e69ce63c2456e5ee6d456ebdc0775209225bd26eeb76cdabf9b92d022f88a",
+    "udt_positional_postulate_fidelity_2026-09-27/review/concept/FINAL_REVIEW.md": "0d6606cd52978f2b7fd81dd988db0e7b4322daf3b3a040f319ac1efbd1e88098"
+  }
+}

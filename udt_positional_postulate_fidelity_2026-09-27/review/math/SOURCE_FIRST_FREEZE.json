@@ -1,0 +1,24 @@
+{
+  "timestamp_utc": "2026-09-27T22:55:39Z",
+  "phase": "SOURCE_FIRST_BEFORE_CURRENT_CANDIDATE",
+  "head_observed": "97af29a72322fa686dd0158a33947a91ac27d678",
+  "candidate_exposed": false,
+  "files": {
+    "udt_positional_postulate_fidelity_2026-09-27/review/math/CHECK_PLAN.md": "75bbbe93fd1e026896f7b69494dad326a1ad79e43fac19a43aecfd7e3dd884c5",
+    "udt_positional_postulate_fidelity_2026-09-27/review/math/SOURCE_FIRST.md": "35791f38fcef9d1db191f944a462db04c396c54ebd1d00f3356ea7dfbe1c111c",
+    "udt_positional_postulate_fidelity_2026-09-27/review/math/SOURCE_PINS.json": "aeac1ec9e34cf36dfa6142d1214f6b22fe4ab4679db7411bc45c0e75e4540006",
+    "udt_positional_postulate_fidelity_2026-09-27/review/math/check_exact.py": "4fe2169c775d572762812a1212188b46c3b470aedb2363c3acfdd2e8aa9c50fc",
+    "udt_positional_postulate_fidelity_2026-09-27/review/math/exact.capture.json": "6072e17ff1be5a881da5f271e95b6fa910952a073b5619530848de48d41f100a",
+    "udt_positional_postulate_fidelity_2026-09-27/review/math/exact.stderr": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "udt_positional_postulate_fidelity_2026-09-27/review/math/exact.stdout.json": "948e96955599124200c3184c5ca5e7c1e36b10ff553ee45ee7a914fecdd8e89f",
+    "udt_positional_postulate_fidelity_2026-09-27/review/math/git_head.txt": "c4f3a7c47008cfb3de5cf9c8edea2a3d0503d92cb878a0eab82988a0a5efa4ba",
+    "udt_positional_postulate_fidelity_2026-09-27/review/math/git_status.txt": "c1445cb572f1cd5f8566a702439a48297331d2b049380606e26f9d196146bc69"
+  },
+  "independence": {
+    "context": "fresh separate context",
+    "model": "inherited, exact variant unavailable; different-model UNTESTED",
+    "implementation": "independent Christoffel/Ricci construction, no repo scientific code imported",
+    "argument": "source-first reconstruction, prior arguments exposed",
+    "targeted_parent_question": "generic A,B and mixed Einstein difference vs AB constant"
+  }
+}

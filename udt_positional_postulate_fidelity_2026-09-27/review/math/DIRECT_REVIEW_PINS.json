@@ -1,0 +1,15 @@
+{
+  "timestamp_utc": "2026-09-27T22:59:01Z",
+  "first_candidate_reviewed": "84ced7b9a9f483c4caee3b1e3eff246b429688a9f64596a0c386328e4c485961",
+  "files": {
+    "udt_positional_postulate_fidelity_2026-09-27/CANDIDATE.md": "2f21520e2d1fbf5131733c118fabe996445c40f9b8e54b194906724041527491",
+    "udt_positional_postulate_fidelity_2026-09-27/REPAIR_LOG.md": "f55e69ce63c2456e5ee6d456ebdc0775209225bd26eeb76cdabf9b92d022f88a",
+    "udt_positional_postulate_fidelity_2026-09-27/check_geometry.py": "34bf5424f4ac785c74fb6b0597805f4d8fd26186d4da158f150a994bd8dfb4f8",
+    "udt_positional_postulate_fidelity_2026-09-27/GEOMETRY_CHECKS.json": "810c670f5b08a83dc611f23553337363fdbec34c2701bd886c246b6b56f9f494",
+    "udt_g220_covariant_null_clock_arrow_timelive_lift_2026-08-22/EXACT_DERIVATION.md": "0e5b33a0c013def973bdca369944d99a84fe278614cae1794e7cb50b56db0f6f",
+    "udt_g265_infinite_bare_c_mutual_pair_null_closure_2026-08-26/EXACT_DERIVATION.md": "9e51c9940632160dc216da5c7bfa6e5c05c9b662d6226cbcb04a157a49d48ef9",
+    "udt_g269_null_transport_mutual_clock_screen_interlock_2026-08-26/EXACT_DERIVATION.md": "812023393d4e04b8f2b47cc5429002dc78912b85983117e5633faed30a2f876e",
+    "udt_g301_scale_free_quiet_regular_causal_principal_classification_2026-08-30/EXACT_DERIVATION.md": "633b907b5384aa63d61d49db067dd4e608e6abd3bf3571e4267f91e5c74da8fb"
+  },
+  "review_sha256": "a9dee05a808b43444f4c34f5f057f2032e2da3dff22fba754c6bb23390b473ee"
+}

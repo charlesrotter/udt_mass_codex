@@ -14,6 +14,28 @@ Current acceptance overlay: earlier UNPROMOTED/campaign-only language below reco
 returns. The G383--G412, G413--G415 and G416--G423 banking packets and maintained checkpoint own later dispositions;
 original result packages remain unchanged. No physical adoption or canon is included.
 
+## Founding-postulate fidelity and GR exploration — 2026-09-27
+
+Charles reaffirmed that observed c arising from positional clock dilation is the
+major founding POSTULATE; a deeper why is not required. The authorized question
+is whether the mathematical construction faithfully expresses its physical
+content. Taking measured c_E as calibration remains legitimate. This clarification
+does not derive consequences, change registry grades, or canonize a field law.
+
+Investigation and return: `udt_positional_postulate_fidelity_2026-09-27/DECISION_BRIEF.md`;
+its candidate, reviews and CLOSEOUT own scope and actual checks. The complete metric
+already supplies clock/ruler/null relationships; the scalar is one contrast/readout.
+Primary static areal reciprocity is a real geometric restriction, distinct from
+normalizing a supplied pair. Complete physical equivalence and response-class
+membership remain unclosed; neither a kernel defect nor an all-route no-go is proved.
+
+Charles also permits considering GR field-equation modifications without adopting
+them. Native deduction and explicitly unadopted counterfactual exploration are
+different routes. A chosen exploratory modification need not already be derived;
+its extra assumptions and checks must be explicit. Merely adding existing metric
+clock effects does not identify a new law. No correction tensor is selected here,
+and no paused route or automatic successor is launched. Return for discussion.
+
 ## Foundation alignment and first archival batch — 2026-09-27
 
 Charles authorized integration of the reviewed foundation guidance, a focused

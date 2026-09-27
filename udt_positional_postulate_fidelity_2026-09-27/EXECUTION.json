@@ -1,0 +1,35 @@
+{
+  "commands": [
+    {
+      "command": "git fetch origin",
+      "exit_code": 0,
+      "note": "Initial sandbox call could not write FETCH_HEAD; reviewed elevated retry succeeded."
+    },
+    {
+      "command": "git pull --ff-only origin grok",
+      "exit_code": 0,
+      "stdout": "Already up to date."
+    },
+    {
+      "command": "timeout 120s python3 udt_positional_postulate_fidelity_2026-09-27/check_geometry.py > udt_positional_postulate_fidelity_2026-09-27/geometry.stdout.txt 2> udt_positional_postulate_fidelity_2026-09-27/geometry.stderr.txt",
+      "exit_code": 0,
+      "result": "29 exact symbolic checks PASS"
+    },
+    {
+      "command": "timeout 900s python3 verify_current_scientific_premises.py > udt_positional_postulate_fidelity_2026-09-27/premise_verifier.stdout.txt 2> udt_positional_postulate_fidelity_2026-09-27/premise_verifier.stderr.txt",
+      "exit_code": 0,
+      "result": "406-row premise registry PASS; stderr empty",
+      "elapsed": "not separately measured for this run; prior startup duration is not reused"
+    },
+    {
+      "command": "git diff --check",
+      "exit_code": 0
+    }
+  ],
+  "scientific_source_changes": false,
+  "versions": {
+    "python": "3.10.12 (main, Aug 31 2026, 10:18:17) [GCC 11.4.0]"
+  },
+  "full_verifier_scope": "Unchanged scientific registry and named sources; maintained roadmap addition is direction-only, reviewed separately.",
+  "protected_payloads_read": false
+}

@@ -1,0 +1,30 @@
+{
+  "utc": "2026-09-27T22:57:15.521010+00:00",
+  "phase": "DIRECT_REVIEW_AFTER_SOURCE_FIRST_FREEZE",
+  "files": {
+    "udt_positional_postulate_fidelity_2026-09-27/CANDIDATE.md": {
+      "sha256": "84ced7b9a9f483c4caee3b1e3eff246b429688a9f64596a0c386328e4c485961",
+      "scope": "full direct review after source-first freeze"
+    },
+    "udt_positional_postulate_fidelity_2026-09-27/REPAIR_LOG.md": {
+      "sha256": "df86442700839087bc7b3c9a130183d6b581519eea1688e6fb4142d65f792543",
+      "scope": "full"
+    },
+    "udt_positional_postulate_fidelity_2026-09-27/GEOMETRY_CHECKS.json": {
+      "sha256": "810c670f5b08a83dc611f23553337363fdbec34c2701bd886c246b6b56f9f494",
+      "scope": "full; attributed parent output; code not read/replayed"
+    },
+    "udt_positional_postulate_fidelity_2026-09-27/review/concept/DIRECT_REVIEW.md": {
+      "sha256": "5ab16d6568f0fe76b802eeb7018c17a55e6584b571ab098259b3ae0c5e8d9abe",
+      "scope": "review artifact"
+    },
+    "udt_linked_stationary_signal_benchmark_2026-09-12/INITIAL_CANDIDATE.md": {
+      "sha256": "b09a8c222d4dd01a319131a30f7547ef684e7c2c91b71ae4f70628837f0193f4",
+      "scope": "lines 1-80 and 163-187; static clock equations and flat relay duration"
+    },
+    "udt_linked_stationary_signal_benchmark_2026-09-12/REVIEWED_RESULT.md": {
+      "sha256": "2b1cd6d93d71bf9989ecf070beca56aa53470749af13189416bdc512143b85b3",
+      "scope": "lines 1-44; overlay and supplied protocol scope"
+    }
+  }
+}
