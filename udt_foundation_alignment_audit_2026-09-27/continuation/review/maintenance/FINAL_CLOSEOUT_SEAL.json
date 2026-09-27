@@ -1,0 +1,118 @@
+{
+  "utc": "2026-09-27T21:19:22.250639+00:00",
+  "verdict": "VERIFIED citation/check-result-only delta; no new scientific claim or replay",
+  "prior_closeout_sha256": "6e9ac818a2ed0e5f9d307417a5ab72562496a22129ed67caaeb9e9b3e00b4e40",
+  "final_closeout_sha256": "05f1881e75306c67b56f3fc0ba44bbd077a9a0d28e7f6790dcf63479c9a5dc1f",
+  "reconstructing_prior_by_reversing_exact_two_edits_matches_prior_hash": true,
+  "changes": [
+    "Replace generic review directory with explicit packaging review and negative-control JSON links",
+    "Add the actual three-positive/three-rejection packaging check row with explicit non-exhaustiveness limit"
+  ],
+  "readme_closeout_brief_link_count": 20,
+  "all_links_resolve": true,
+  "links": [
+    {
+      "source": "README.md",
+      "target": "DECISION_BRIEF.md",
+      "exists": true
+    },
+    {
+      "source": "README.md",
+      "target": "CLOSEOUT.md",
+      "exists": true
+    },
+    {
+      "source": "README.md",
+      "target": "WORK_ORDER.md",
+      "exists": true
+    },
+    {
+      "source": "README.md",
+      "target": "../README.md",
+      "exists": true
+    },
+    {
+      "source": "README.md",
+      "target": "attachment/CANDIDATE.md",
+      "exists": true
+    },
+    {
+      "source": "README.md",
+      "target": "initial_candidate/ATTACHMENT_CANDIDATE.md",
+      "exists": true
+    },
+    {
+      "source": "README.md",
+      "target": "initial_candidate/FREEZE.json",
+      "exists": true
+    },
+    {
+      "source": "README.md",
+      "target": "review/science/FINAL_FIDELITY.md",
+      "exists": true
+    },
+    {
+      "source": "README.md",
+      "target": "review/maintenance/POSTMOVE_REVIEW.md",
+      "exists": true
+    },
+    {
+      "source": "README.md",
+      "target": "archive/ARCHIVE_MANIFEST.tsv",
+      "exists": true
+    },
+    {
+      "source": "README.md",
+      "target": "integration/MAINTAINED_DOCS.patch",
+      "exists": true
+    },
+    {
+      "source": "README.md",
+      "target": "SOURCE_READ_LEDGER.tsv",
+      "exists": true
+    },
+    {
+      "source": "CLOSEOUT.md",
+      "target": "WORK_ORDER.md",
+      "exists": true
+    },
+    {
+      "source": "CLOSEOUT.md",
+      "target": "attachment/CANDIDATE.md",
+      "exists": true
+    },
+    {
+      "source": "CLOSEOUT.md",
+      "target": "DECISION_BRIEF.md",
+      "exists": true
+    },
+    {
+      "source": "CLOSEOUT.md",
+      "target": "review/maintenance/PACKAGING_REVIEW.md",
+      "exists": true
+    },
+    {
+      "source": "CLOSEOUT.md",
+      "target": "review/maintenance/PACKAGING_NEGATIVE_CONTROLS.json",
+      "exists": true
+    },
+    {
+      "source": "DECISION_BRIEF.md",
+      "target": "../../archive/stale_working_documents_2026-09-27/README.md",
+      "exists": true
+    },
+    {
+      "source": "DECISION_BRIEF.md",
+      "target": "../README.md",
+      "exists": true
+    },
+    {
+      "source": "DECISION_BRIEF.md",
+      "target": "attachment/CANDIDATE.md",
+      "exists": true
+    }
+  ],
+  "result_row_correspondence": "Matches independently executed PACKAGING_NEGATIVE_CONTROLS.json",
+  "remaining_gate": "Parent manifest/staged/committed-blob/push verification; not claimed complete",
+  "reviewer_writes_cease_after_this_seal": true
+}

@@ -1,0 +1,10 @@
+{
+  "created_utc": "2026-09-27T20:55:44.874430+00:00",
+  "head": "b770dc484d4dc991644f170a3eeb3cfa4616e58d",
+  "parent_candidate_exposure": false,
+  "scientific_subprocesses_executed": 0,
+  "files": {
+    "udt_foundation_alignment_audit_2026-09-27/continuation/review/science/SOURCE_FIRST.md": "09df8761a7b88fe108ff25a16ad1e008d2f60c65b26a55a0cf64bcbc7cac48f0",
+    "udt_foundation_alignment_audit_2026-09-27/continuation/review/science/SOURCE_PINS.tsv": "59c8f0f66200fc4bce52cb3e2167e8290427a3ca09df5ca53f3d56ece331f3f2"
+  }
+}

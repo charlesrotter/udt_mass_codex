@@ -3,7 +3,7 @@
 `LIVE.md` wins. The exact 406-row `CURRENT_SCIENTIFIC_PREMISES.tsv` owns grades;
 `CURRENT_RESEARCH_PROGRAM.md` is the dependency spine and `INDEX.md` the evidence map.
 
-The kernel evaluates supplied ordered depth; complete `B,Q,S,Y,Z` enters before readout.
+Foundation alignment/archival return: INDEX. Kernel evaluates supplied depth; complete `B,Q,S,Y,Z` enters before readout.
 Universal Reciprocity/DDR and explained Local Metric Sufficiency remain owner-adopted provisional premises.
 GR is FILTER ONLY, not a response-law input; Local Metric Sufficiency remains owner-provisional.
 G312 qualifies inherited “admitted/lawful” labels: Einstein claims stay CONDITIONAL on full reviewed
@@ -15,10 +15,10 @@ G350 leaves `R^p A^q`; G351 provisionally conserves a supplied label measure, gi
 `R^p A^-1` only for its nonzero regular AC density. G352 provisionally gives
 `T_clock=R A^-1` only for the chosen continuous phase/product readout.
 
-Conditional banking through G382 is COMPLETE at reviewed scopes.
+Banking through G382 COMPLETE at reviewed scopes.
 G381=NT1 precedes G382=NT2: tidal-neighborhood obstruction and restricted real null jets
 with actual local Lambda=0 realizations; not general metric realization or physical modes.
-Evidence, false passes, repairs and lost-output caveats stay fixed.
+Evidence/repair/lost-output caveats stay fixed.
 G383--G412 exact-scope banking COMPLETE; three CD vacuous checks remain EXCLUDED.
 27 conditional mathematical results plus CO2 design, LC2 benchmark and FW2 finite procedure; scopes: INDEX.
 G413--G423 conditional; BE1/SD1/NR1/NR2 reviewed/UNPROMOTED; original398 rows unchanged; scope: INDEX.

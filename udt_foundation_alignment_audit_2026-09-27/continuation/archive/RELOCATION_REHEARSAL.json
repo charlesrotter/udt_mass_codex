@@ -1,0 +1,9 @@
+{
+  "status": "PASS",
+  "files": 7,
+  "bytes": 72250,
+  "source_baseline": "b770dc484d4dc991644f170a3eeb3cfa4616e58d",
+  "scratch_snapshot": "/tmp/udt_archive_rehearsal_23wptxf8",
+  "scope": "Seven-file isolated relocation/restoration rehearsal, not a full clone or full scientific verifier",
+  "all_restored_hashes_match": true
+}

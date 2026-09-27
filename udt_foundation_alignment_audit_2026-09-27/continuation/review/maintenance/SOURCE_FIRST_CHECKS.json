@@ -1,0 +1,33 @@
+{
+  "head": "b770dc484d4dc991644f170a3eeb3cfa4616e58d",
+  "registry_literal_path_matches": {
+    "ATLAS_UNTRACKED_STARTUP_NOTE_PREREG_2026-08-05.md": 0,
+    "PHI_ORCHESTRA_STARTUP_UPDATE_PREREG_2026-08-05.md": 0,
+    "PHI_ORCHESTRA_VERIFIER_LIVE_REGISTRY_REPAIR_PREREG_2026-08-05.md": 0,
+    "UDT_SYNTHESIS_METHOD_PATCH_REVIEW_2026-09-05.md": 0,
+    "maintenance_agent_capacity_2026-09-10.md": 0,
+    "RESTART_CHECKPOINT.md": 0,
+    "UDT_Cold_Start_Rehearsal_and_Workstation_Restart.md": 0
+  },
+  "known_original_relocation_matches": {
+    "ATLAS_UNTRACKED_STARTUP_NOTE_PREREG_2026-08-05.md": 0,
+    "PHI_ORCHESTRA_STARTUP_UPDATE_PREREG_2026-08-05.md": 0,
+    "PHI_ORCHESTRA_VERIFIER_LIVE_REGISTRY_REPAIR_PREREG_2026-08-05.md": 0,
+    "UDT_SYNTHESIS_METHOD_PATCH_REVIEW_2026-09-05.md": 0,
+    "maintenance_agent_capacity_2026-09-10.md": 0,
+    "RESTART_CHECKPOINT.md": 0,
+    "UDT_Cold_Start_Rehearsal_and_Workstation_Restart.md": 0
+  },
+  "science_not_replayed": true,
+  "report_file_sizes": {
+    "additional_candidate_paths.txt": 182,
+    "candidate_references.txt": 2329357,
+    "SOURCE_FIRST.md": 9028,
+    "additional_references.txt": 488208,
+    "SOURCE_FIRST_CANDIDATES.tsv": 1793,
+    "SOURCE_FIRST_REFERENCES.tsv": 12424,
+    "source_first_shortlist.txt": 328,
+    "reference_search_contract.json": 2317,
+    "candidate_paths.txt": 871
+  }
+}

@@ -1,0 +1,105 @@
+{
+  "status": "PASS",
+  "links": [
+    {
+      "document": "udt_foundation_alignment_audit_2026-09-27/continuation/README.md",
+      "target": "DECISION_BRIEF.md",
+      "exists": true
+    },
+    {
+      "document": "udt_foundation_alignment_audit_2026-09-27/continuation/README.md",
+      "target": "CLOSEOUT.md",
+      "exists": true
+    },
+    {
+      "document": "udt_foundation_alignment_audit_2026-09-27/continuation/README.md",
+      "target": "WORK_ORDER.md",
+      "exists": true
+    },
+    {
+      "document": "udt_foundation_alignment_audit_2026-09-27/continuation/README.md",
+      "target": "../README.md",
+      "exists": true
+    },
+    {
+      "document": "udt_foundation_alignment_audit_2026-09-27/continuation/README.md",
+      "target": "attachment/CANDIDATE.md",
+      "exists": true
+    },
+    {
+      "document": "udt_foundation_alignment_audit_2026-09-27/continuation/README.md",
+      "target": "initial_candidate/ATTACHMENT_CANDIDATE.md",
+      "exists": true
+    },
+    {
+      "document": "udt_foundation_alignment_audit_2026-09-27/continuation/README.md",
+      "target": "initial_candidate/FREEZE.json",
+      "exists": true
+    },
+    {
+      "document": "udt_foundation_alignment_audit_2026-09-27/continuation/README.md",
+      "target": "review/science/FINAL_FIDELITY.md",
+      "exists": true
+    },
+    {
+      "document": "udt_foundation_alignment_audit_2026-09-27/continuation/README.md",
+      "target": "review/maintenance/POSTMOVE_REVIEW.md",
+      "exists": true
+    },
+    {
+      "document": "udt_foundation_alignment_audit_2026-09-27/continuation/README.md",
+      "target": "archive/ARCHIVE_MANIFEST.tsv",
+      "exists": true
+    },
+    {
+      "document": "udt_foundation_alignment_audit_2026-09-27/continuation/README.md",
+      "target": "integration/MAINTAINED_DOCS.patch",
+      "exists": true
+    },
+    {
+      "document": "udt_foundation_alignment_audit_2026-09-27/continuation/README.md",
+      "target": "SOURCE_READ_LEDGER.tsv",
+      "exists": true
+    },
+    {
+      "document": "udt_foundation_alignment_audit_2026-09-27/continuation/CLOSEOUT.md",
+      "target": "WORK_ORDER.md",
+      "exists": true
+    },
+    {
+      "document": "udt_foundation_alignment_audit_2026-09-27/continuation/CLOSEOUT.md",
+      "target": "attachment/CANDIDATE.md",
+      "exists": true
+    },
+    {
+      "document": "udt_foundation_alignment_audit_2026-09-27/continuation/CLOSEOUT.md",
+      "target": "DECISION_BRIEF.md",
+      "exists": true
+    },
+    {
+      "document": "udt_foundation_alignment_audit_2026-09-27/continuation/CLOSEOUT.md",
+      "target": "review/maintenance/PACKAGING_REVIEW.md",
+      "exists": true
+    },
+    {
+      "document": "udt_foundation_alignment_audit_2026-09-27/continuation/CLOSEOUT.md",
+      "target": "review/maintenance/PACKAGING_NEGATIVE_CONTROLS.json",
+      "exists": true
+    },
+    {
+      "document": "udt_foundation_alignment_audit_2026-09-27/continuation/DECISION_BRIEF.md",
+      "target": "../../archive/stale_working_documents_2026-09-27/README.md",
+      "exists": true
+    },
+    {
+      "document": "udt_foundation_alignment_audit_2026-09-27/continuation/DECISION_BRIEF.md",
+      "target": "../README.md",
+      "exists": true
+    },
+    {
+      "document": "udt_foundation_alignment_audit_2026-09-27/continuation/DECISION_BRIEF.md",
+      "target": "attachment/CANDIDATE.md",
+      "exists": true
+    }
+  ]
+}

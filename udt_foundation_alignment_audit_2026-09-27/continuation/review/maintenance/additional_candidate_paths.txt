@@ -1,0 +1,5 @@
+UDT_SYNTHESIS_METHOD_PATCH_REVIEW_2026-09-05.md
+cognitive_corral_triggers_results.md
+p3_discipline_skills_results.md
+p4_cross_model_verify_results.md
+p5_live_state_shrink_results.md

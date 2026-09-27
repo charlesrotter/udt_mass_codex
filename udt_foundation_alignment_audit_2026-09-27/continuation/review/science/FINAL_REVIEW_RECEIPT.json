@@ -1,0 +1,48 @@
+{
+  "sealed_utc": "2026-09-27T21:10:04.353108+00:00",
+  "review_status": "VERIFIED-WITH-CAVEATS__SOURCE_RELATIVE_FIDELITY_ONLY",
+  "scientific_subprocesses_total": 1,
+  "scientific_subprocesses_after_final_parent_audit_launched": 0,
+  "files": {
+    "udt_foundation_alignment_audit_2026-09-27/continuation/review/science/FINAL_FIDELITY.md": {
+      "sha256": "62283192abeeda9d038e8c7032784ba746b28ee34152d8401ff15f9be9e04cc3",
+      "bytes": 5693
+    },
+    "udt_foundation_alignment_audit_2026-09-27/continuation/review/science/FINAL_FIDELITY_PINS.json": {
+      "sha256": "abec11070e508c0fae967ba9bbf1d118386f7db802bc633ced98565f75dfa597",
+      "bytes": 1377
+    },
+    "udt_foundation_alignment_audit_2026-09-27/continuation/review/science/DIRECT_REVIEW.md": {
+      "sha256": "b2a25ddc46e67b5afaccc22fba3036477e442f8c521bc46b20d0044d9ea2169d",
+      "bytes": 8072
+    },
+    "udt_foundation_alignment_audit_2026-09-27/continuation/review/science/DIRECT_REVIEW_PINS.json": {
+      "sha256": "3aa9bd7849f9bd552e3b9e3351c5c5961deacdc4e7b9c59079b4967f4063a6b5",
+      "bytes": 1761
+    },
+    "udt_foundation_alignment_audit_2026-09-27/continuation/review/science/SOURCE_FIRST.md": {
+      "sha256": "09df8761a7b88fe108ff25a16ad1e008d2f60c65b26a55a0cf64bcbc7cac48f0",
+      "bytes": 13937
+    },
+    "udt_foundation_alignment_audit_2026-09-27/continuation/review/science/SOURCE_FIRST_FREEZE.json": {
+      "sha256": "5ebb7cbe308c57db8b3b7131493d4ce92b50e0316e512db753e3c419cc4f2f6e",
+      "bytes": 528
+    },
+    "udt_foundation_alignment_audit_2026-09-27/continuation/review/science/EXACT_CHECK_AND_DIAGNOSTIC.md": {
+      "sha256": "c91874675fc26800309c4837084da8ae8d13af1040a7d58c7013498356ffb4df",
+      "bytes": 4098
+    },
+    "udt_foundation_alignment_audit_2026-09-27/continuation/review/science/exact_attachment_check.py": {
+      "sha256": "eaaed6c503fa5c15f728d908e53ba411dc31fc0a22b2077b3f77e0f204a67c7a",
+      "bytes": 5011
+    },
+    "udt_foundation_alignment_audit_2026-09-27/continuation/review/science/EXACT_ATTACHMENT_CHECK.json": {
+      "sha256": "b6b5b883813e7ba42f887974daac2b2c6df75931f5d8868952e6a7c431c71e63",
+      "bytes": 5315
+    },
+    "udt_foundation_alignment_audit_2026-09-27/continuation/review/science/EXACT_ATTACHMENT_CHECK.stderr": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    }
+  }
+}

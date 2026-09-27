@@ -1,0 +1,30 @@
+{
+  "status": "PASS",
+  "scope": "Three isolated metadata defects through actual checker; no scientific replay",
+  "python": "3.10.12 (main, Aug 31 2026, 10:18:17) [GCC 11.4.0]",
+  "checker_sha256": "cd8607d865609de8fa9c8ac993e2a1e8f7febaa0e1c233bbce7a92e7b38dfe68",
+  "fixture": "/tmp/udt_packaging_metadata_review_vqwx7o55",
+  "actual_root": "/home/udt-admin/udt_mass_codex",
+  "actual_prefix": "udt_foundation_alignment_audit_2026-09-27/continuation/",
+  "authoritative_fixture_inputs_unchanged": true,
+  "cases": [
+    {
+      "case": "wrong_archive_source_commit",
+      "positive_control": "PASS",
+      "negative_control": "REJECTED",
+      "diagnostic": "archive source commit mismatch"
+    },
+    {
+      "case": "empty_source_pins",
+      "positive_control": "PASS",
+      "negative_control": "REJECTED",
+      "diagnostic": "source pin count mismatch"
+    },
+    {
+      "case": "duplicate_source_pin_path",
+      "positive_control": "PASS",
+      "negative_control": "REJECTED",
+      "diagnostic": "duplicate source pin path"
+    }
+  ]
+}

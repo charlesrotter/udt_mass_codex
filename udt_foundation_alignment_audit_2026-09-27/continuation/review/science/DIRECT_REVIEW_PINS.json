@@ -1,0 +1,37 @@
+{
+  "created_utc": "2026-09-27T21:07:04.501899+00:00",
+  "candidate_initial_hash": "664e157c2e739590a6192e08f4d8a7de40759daa18fb6499cef790754f4b2df5",
+  "source_pin_count": 41,
+  "changed_pinned_sources": [],
+  "scientific_replays_this_stage": 0,
+  "files": {
+    "udt_foundation_alignment_audit_2026-09-27/continuation/attachment/CANDIDATE.md": {
+      "sha256": "1bc08c9cc650650f99239a1945e9760debc8650726f8181762c9e73a0db015be",
+      "bytes": 13113
+    },
+    "udt_foundation_alignment_audit_2026-09-27/continuation/initial_candidate/ATTACHMENT_CANDIDATE.md": {
+      "sha256": "664e157c2e739590a6192e08f4d8a7de40759daa18fb6499cef790754f4b2df5",
+      "bytes": 12956
+    },
+    "udt_foundation_alignment_audit_2026-09-27/continuation/review/science/DIRECT_REVIEW.md": {
+      "sha256": "b2a25ddc46e67b5afaccc22fba3036477e442f8c521bc46b20d0044d9ea2169d",
+      "bytes": 8072
+    },
+    "udt_foundation_alignment_audit_2026-09-27/continuation/review/science/EXACT_CHECK_AND_DIAGNOSTIC.md": {
+      "sha256": "c91874675fc26800309c4837084da8ae8d13af1040a7d58c7013498356ffb4df",
+      "bytes": 4098
+    },
+    "udt_foundation_alignment_audit_2026-09-27/continuation/review/science/exact_attachment_check.py": {
+      "sha256": "eaaed6c503fa5c15f728d908e53ba411dc31fc0a22b2077b3f77e0f204a67c7a",
+      "bytes": 5011
+    },
+    "udt_foundation_alignment_audit_2026-09-27/continuation/review/science/EXACT_ATTACHMENT_CHECK.json": {
+      "sha256": "b6b5b883813e7ba42f887974daac2b2c6df75931f5d8868952e6a7c431c71e63",
+      "bytes": 5315
+    },
+    "udt_foundation_alignment_audit_2026-09-27/continuation/review/science/EXACT_ATTACHMENT_CHECK.stderr": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    }
+  }
+}

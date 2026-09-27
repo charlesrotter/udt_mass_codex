@@ -1,0 +1,78 @@
+{
+  "status": "PASS",
+  "kind": "integrity and status metadata, not scientific proof",
+  "baseline": "b770dc484d4dc991644f170a3eeb3cfa4616e58d",
+  "archive_files": [
+    {
+      "source": "ATLAS_UNTRACKED_STARTUP_NOTE_PREREG_2026-08-05.md",
+      "destination": "archive/stale_working_documents_2026-09-27/ATLAS_UNTRACKED_STARTUP_NOTE_PREREG_2026-08-05.md",
+      "bytes": 1038,
+      "sha256": "4aba2d9dc0a830d903665ded50a7ce0f5b14958bd758d0b86f28b23e273aab2b"
+    },
+    {
+      "source": "PHI_ORCHESTRA_STARTUP_UPDATE_PREREG_2026-08-05.md",
+      "destination": "archive/stale_working_documents_2026-09-27/PHI_ORCHESTRA_STARTUP_UPDATE_PREREG_2026-08-05.md",
+      "bytes": 1438,
+      "sha256": "5af67acc70207c5e5a28abb9ed96e5908b4cbbca3922a753a2ca9a597829f7ee"
+    },
+    {
+      "source": "PHI_ORCHESTRA_VERIFIER_LIVE_REGISTRY_REPAIR_PREREG_2026-08-05.md",
+      "destination": "archive/stale_working_documents_2026-09-27/PHI_ORCHESTRA_VERIFIER_LIVE_REGISTRY_REPAIR_PREREG_2026-08-05.md",
+      "bytes": 1224,
+      "sha256": "3e0845e6578cbb8130a45ac4047447b6d551c61113fbe91882a5e4307ee2ec5f"
+    },
+    {
+      "source": "UDT_SYNTHESIS_METHOD_PATCH_REVIEW_2026-09-05.md",
+      "destination": "archive/stale_working_documents_2026-09-27/UDT_SYNTHESIS_METHOD_PATCH_REVIEW_2026-09-05.md",
+      "bytes": 2942,
+      "sha256": "a52c065b5750e65e7db7daf5ce8cc33bf67dade346a97c7166976e6cdac3dd6e"
+    },
+    {
+      "source": "maintenance_agent_capacity_2026-09-10.md",
+      "destination": "archive/stale_working_documents_2026-09-27/maintenance_agent_capacity_2026-09-10.md",
+      "bytes": 27666,
+      "sha256": "44ec86138326423db48bc5c2553465f4bd39331edefcea7d127b7d4ae2cdca2f"
+    },
+    {
+      "source": "RESTART_CHECKPOINT.md",
+      "destination": "archive/stale_working_documents_2026-09-27/RESTART_CHECKPOINT.md",
+      "bytes": 9564,
+      "sha256": "3f384600563f22c036beb9377cb654dc2c08e815279e5c9fe4929512ce06859d"
+    },
+    {
+      "source": "UDT_Cold_Start_Rehearsal_and_Workstation_Restart.md",
+      "destination": "archive/stale_working_documents_2026-09-27/UDT_Cold_Start_Rehearsal_and_Workstation_Restart.md",
+      "bytes": 28378,
+      "sha256": "c01b813e4c94f3433a4486b518452f169ec18ede2c29a91e308b6f7a2919f3f0"
+    }
+  ],
+  "archive_bytes": 72250,
+  "unchanged_sources": [
+    "CANON.md",
+    "CURRENT_SCIENTIFIC_PREMISES.tsv",
+    "founding.md",
+    "research/_registry/CURRENT_ARTIFACT_PATHS.tsv",
+    "verify_current_scientific_premises.py",
+    "tests/test_startup_surface.py"
+  ],
+  "reviewer_source_pins_checked": 41,
+  "registry_rows": 406,
+  "outside_status_entries": 52,
+  "tracked_changes": [
+    "ATLAS_UNTRACKED_STARTUP_NOTE_PREREG_2026-08-05.md",
+    "CURRENT_RESEARCH_PROGRAM.md",
+    "HANDOFF.md",
+    "INDEX.md",
+    "LIVE.md",
+    "MEMORY.md",
+    "PHI_ORCHESTRA_STARTUP_UPDATE_PREREG_2026-08-05.md",
+    "PHI_ORCHESTRA_VERIFIER_LIVE_REGISTRY_REPAIR_PREREG_2026-08-05.md",
+    "RESTART_CHECKPOINT.md",
+    "UDT_Cold_Start_Rehearsal_and_Workstation_Restart.md",
+    "UDT_RESEARCH_ROADMAP.md",
+    "UDT_SYNTHESIS_METHOD_PATCH_REVIEW_2026-09-05.md",
+    "maintenance_agent_capacity_2026-09-10.md",
+    "udt_native_theory_research_plan_2026-09-13/PLAN.md"
+  ],
+  "limitations": "No protected/untracked payload hashes; no exhaustive reference graph or old scientific campaign replay."
+}

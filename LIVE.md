@@ -3,7 +3,7 @@
 <!-- STARTUP_CURRENT_BEGIN -->
 ## CURRENT STATE — 2026-09-27
 
-Branch: `grok`. Synchronize; inspect dirt. Overrides older status.
+Branch: `grok`. Synchronize; inspect dirt.
 
 ### Honest claim
 
@@ -75,7 +75,8 @@ G374/G375 restrict position-dependent rescaling on a fixed base but retain const
 `g_hat=a^-2 g, Lambda_hat=a^2 Lambda, a>0`. No physical size or absolute scale is selected.
 A separately fixed target scalar restricts that rescaling; its value is supplied, not derived.
 Carried measure, configuration population and history selection differ; “occupancy” supplies no law.
-A successor needs an unexamined admitted implication, not repeated scalar/source nonselection.
+Foundation audit integrated; seven working documents archived: INDEX.
+A successor needs an unexamined admitted implication.
 
 Geometric/calibration and emergence aims remain parallel. Conditional measurements need justified
 transfer/instrument assumptions; an admitted sourced sector or emergent light is not a blanket prerequisite.
@@ -87,7 +88,7 @@ The optional source-model branch is PAUSED after its bounded analytic-coherence 
 The automatic Hopfion-stabilization mechanism is PAUSED; no rescue restriction, carrier or action.
 GOCE is PARKED with eligibility UNRESOLVED/OPEN; enquiry UNSENT, not rejected or awaiting a reply.
 The particular GW procedure is parked at its design gate; clock/complementary campaigns are complete.
-No instrument work resumes from old work orders; ideal tides are groundwork.
+Old work orders do not restart instruments.
 
 R2--R5 in `udt_observed_angular_pattern_raw_restart_2026-08-12/` remain verified with caveats:
 184,300 covariance rows unresolved, no preferred scale; raw archive

@@ -1,0 +1,16 @@
+{
+  "python": "3.10.12",
+  "platform": "Linux-6.8.0-138-generic-x86_64-with-glibc2.35",
+  "git": "git version 2.34.1",
+  "pytest": "pytest 9.1.1",
+  "resources": "CPU only; no GPU. Parent baseline audit, reviewer exact check, startup tests and final premise run serialized. No host-wide process attestation. Each long audit timeout900s; startup timeout120s.",
+  "commands": {
+    "baseline": "timeout 900s python3 verify_current_scientific_premises.py > /tmp/udt_alignment_startup_2026-09-27.log 2> /tmp/udt_alignment_startup_2026-09-27.err; exit captured and raw files copied to checks/BASELINE_PREMISE.*.txt",
+    "startup": "timeout 120s python3 -m pytest -q tests/test_startup_surface.py -k \"not full_foundational_premise_verifier_is_in_pytest\"; stdout/stderr/exit retained as STARTUP_TESTS.*.txt",
+    "final_premise": "timeout 900s python3 verify_current_scientific_premises.py; stdout/stderr/exit retained as FINAL_PREMISE.*.txt",
+    "integrity": "python3 udt_foundation_alignment_audit_2026-09-27/continuation/check_integrity.py; output retained as INTEGRITY.json; stderr/exit retained",
+    "diff_whitespace": "git diff --check",
+    "reviewer_exact": "See review/science/EXACT_CHECK_AND_DIAGNOSTIC.md and exact_attachment_check.py; reviewer executed one short subprocess; parent did not replay it",
+    "relocation": "See archive/RELOCATION_REHEARSAL.json and independent review/maintenance/POSTMOVE_CHECKS.json"
+  }
+}

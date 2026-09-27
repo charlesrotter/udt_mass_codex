@@ -8,9 +8,7 @@ The exact 406-row `CURRENT_SCIENTIFIC_PREMISES.tsv` owns grades, not these point
 GR is FILTER ONLY, not a response-law input; Local Metric Sufficiency remains owner-provisional.
 Inherited G312 Einstein claims remain CONDITIONAL, not established from filter-only GR; grades fixed.
 Current authority: `udt_gr_filter_reconciliation_2026-09-09/AUTHORITY_RECORD.md`.
-Prior audit: `udt_gr_filter_authority_audit_2026-09-09/REVIEWED_AUDIT.md`.
 Documentation closeout: `udt_gr_filter_reconciliation_2026-09-09/documentation_closeout/CLOSEOUT.md`; replacement review: `udt_gr_filter_reconciliation_2026-09-09/documentation_closeout/review/REPLACEMENT_REVIEW.md`.
-Unproduced report remains historical; replacement is dated.
 1. Follow `AGENTS.md`.
 2. Read the current blocks in `LIVE.md` and `HANDOFF.md`.
 3. Read `CURRENT_RESEARCH_PROGRAM.md`.
@@ -42,10 +40,11 @@ restricted 3D localization, smooth-method/symmetry/smallness caveats; LG2 requir
 Predecessor: `udt_nonlinear_mode_realizability_campaign_2026-09-09/DECISION_BRIEF.md`;
 G388--G389 conditional, compact-sector mixed-C2/analytic-local tangent limits; original reviews control.
 Prior maintenance: `maintenance_guard_sweep_2026-09-10/WORK_RECORD.md`; historical full365 PASS.
-Session: `HANDOFF.md`; diagnostic: `maintenance_agent_capacity_2026-09-10.md` (partial usability; no scientific authorization).
 
 ## Founding, relational and response sources
 
+- Foundation alignment/integration, reviewed source-relative audit; no new authority:
+  `udt_foundation_alignment_audit_2026-09-27/continuation/DECISION_BRIEF.md`.
 - `UDT_RECIPROCAL_C_FOUNDING_POSTULATE_DERIVATION_RESULTS.md`
 - `udt_uncompressed_pair_kernel_reconstruction_2026-08-14/`
 - `udt_g163_xmax_dependency_reversal_audit_2026-08-18/`; `udt_g166_primary_metric_ordered_pair_kernel_descent_2026-08-18/`
@@ -53,7 +52,7 @@ Session: `HANDOFF.md`; diagnostic: `maintenance_agent_capacity_2026-09-10.md` (p
 - `udt_g176_completed_pair_dual_reciprocity_consolidation_2026-08-19/`
 - `udt_g197_native_kernel_provenance_and_startup_integrity_audit_2026-08-21/`
 - Scaffold quarantine: `archive/scaffolded_kernel_controls_2026-08-19/README.md`
-- W5/W6: `founding.md`
+- W4/W5/W6: `founding.md`
 - `startup_surface_g310_universal_reciprocity_refresh_2026-08-31/ADOPTION_RECORD.md`
 - `startup_surface_g312_two_premise_adoption_refresh_2026-09-01/ADOPTION_RECORD.md`
 - `udt_g312_quiet_gr_response_constitution_discriminator_2026-09-01/AUDIT_REPORT.md`
@@ -115,4 +114,5 @@ These reviewed conditional designs/benchmarks are not scientific-grade or eligib
 - Chosen-family evaluators/controls: `udt_g190_completed_pair_timelive_frequency_screen_join_2026-08-20/`;
   `udt_g196_longitudinal_screen_mixing_descent_2026-08-20/`—not current construction inputs.
 - Historical startup: `archive/STARTUP_SURFACE_HISTORY.md`; prior current pages remain in Git.
+- Archived working documents: `archive/stale_working_documents_2026-09-27/README.md` (seven-file lookup).
 - Known old path only: `research/_registry/CURRENT_ARTIFACT_PATHS.tsv`, not a frontier/startup read.

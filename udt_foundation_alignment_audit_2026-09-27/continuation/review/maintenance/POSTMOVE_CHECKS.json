@@ -1,0 +1,184 @@
+{
+  "status": "PASS",
+  "scope": "Maintenance-only independent byte/path tests; not scientific verification",
+  "head": "b770dc484d4dc991644f170a3eeb3cfa4616e58d",
+  "branch": "grok",
+  "source_baseline": "b770dc484d4dc991644f170a3eeb3cfa4616e58d",
+  "archive_files": [
+    {
+      "source": "ATLAS_UNTRACKED_STARTUP_NOTE_PREREG_2026-08-05.md",
+      "destination": "archive/stale_working_documents_2026-09-27/ATLAS_UNTRACKED_STARTUP_NOTE_PREREG_2026-08-05.md",
+      "bytes": 1038,
+      "sha256": "4aba2d9dc0a830d903665ded50a7ce0f5b14958bd758d0b86f28b23e273aab2b",
+      "git_blob_oid": "46c5001f3267c73ce9c737ae4de8bd235ced9275",
+      "checks": {
+        "source_absent": true,
+        "destination_regular_nonsymlink": true,
+        "archive_equals_git_blob": true,
+        "archive_sha_matches_manifest": true,
+        "archive_sha_matches_prior_reviewer": true,
+        "size_matches_manifest": true,
+        "git_oid_matches_manifest": true,
+        "source_commit_matches_baseline": true
+      }
+    },
+    {
+      "source": "PHI_ORCHESTRA_STARTUP_UPDATE_PREREG_2026-08-05.md",
+      "destination": "archive/stale_working_documents_2026-09-27/PHI_ORCHESTRA_STARTUP_UPDATE_PREREG_2026-08-05.md",
+      "bytes": 1438,
+      "sha256": "5af67acc70207c5e5a28abb9ed96e5908b4cbbca3922a753a2ca9a597829f7ee",
+      "git_blob_oid": "2b8c55fadb040b7e48d6d7fe8d756eef87cb24e1",
+      "checks": {
+        "source_absent": true,
+        "destination_regular_nonsymlink": true,
+        "archive_equals_git_blob": true,
+        "archive_sha_matches_manifest": true,
+        "archive_sha_matches_prior_reviewer": true,
+        "size_matches_manifest": true,
+        "git_oid_matches_manifest": true,
+        "source_commit_matches_baseline": true
+      }
+    },
+    {
+      "source": "PHI_ORCHESTRA_VERIFIER_LIVE_REGISTRY_REPAIR_PREREG_2026-08-05.md",
+      "destination": "archive/stale_working_documents_2026-09-27/PHI_ORCHESTRA_VERIFIER_LIVE_REGISTRY_REPAIR_PREREG_2026-08-05.md",
+      "bytes": 1224,
+      "sha256": "3e0845e6578cbb8130a45ac4047447b6d551c61113fbe91882a5e4307ee2ec5f",
+      "git_blob_oid": "b4b963f8805b775e38497ece905aa44ae6ede3c4",
+      "checks": {
+        "source_absent": true,
+        "destination_regular_nonsymlink": true,
+        "archive_equals_git_blob": true,
+        "archive_sha_matches_manifest": true,
+        "archive_sha_matches_prior_reviewer": true,
+        "size_matches_manifest": true,
+        "git_oid_matches_manifest": true,
+        "source_commit_matches_baseline": true
+      }
+    },
+    {
+      "source": "UDT_SYNTHESIS_METHOD_PATCH_REVIEW_2026-09-05.md",
+      "destination": "archive/stale_working_documents_2026-09-27/UDT_SYNTHESIS_METHOD_PATCH_REVIEW_2026-09-05.md",
+      "bytes": 2942,
+      "sha256": "a52c065b5750e65e7db7daf5ce8cc33bf67dade346a97c7166976e6cdac3dd6e",
+      "git_blob_oid": "d635f9e43a056b0f46183c6bd5f60d2aec64ad33",
+      "checks": {
+        "source_absent": true,
+        "destination_regular_nonsymlink": true,
+        "archive_equals_git_blob": true,
+        "archive_sha_matches_manifest": true,
+        "archive_sha_matches_prior_reviewer": true,
+        "size_matches_manifest": true,
+        "git_oid_matches_manifest": true,
+        "source_commit_matches_baseline": true
+      }
+    },
+    {
+      "source": "maintenance_agent_capacity_2026-09-10.md",
+      "destination": "archive/stale_working_documents_2026-09-27/maintenance_agent_capacity_2026-09-10.md",
+      "bytes": 27666,
+      "sha256": "44ec86138326423db48bc5c2553465f4bd39331edefcea7d127b7d4ae2cdca2f",
+      "git_blob_oid": "87efe52c05fc7f894d4a606bf28375a0250a3631",
+      "checks": {
+        "source_absent": true,
+        "destination_regular_nonsymlink": true,
+        "archive_equals_git_blob": true,
+        "archive_sha_matches_manifest": true,
+        "archive_sha_matches_prior_reviewer": true,
+        "size_matches_manifest": true,
+        "git_oid_matches_manifest": true,
+        "source_commit_matches_baseline": true
+      }
+    },
+    {
+      "source": "RESTART_CHECKPOINT.md",
+      "destination": "archive/stale_working_documents_2026-09-27/RESTART_CHECKPOINT.md",
+      "bytes": 9564,
+      "sha256": "3f384600563f22c036beb9377cb654dc2c08e815279e5c9fe4929512ce06859d",
+      "git_blob_oid": "c6106c415e098b7d2a190faa9e590cbc5b86cd36",
+      "checks": {
+        "source_absent": true,
+        "destination_regular_nonsymlink": true,
+        "archive_equals_git_blob": true,
+        "archive_sha_matches_manifest": true,
+        "archive_sha_matches_prior_reviewer": true,
+        "size_matches_manifest": true,
+        "git_oid_matches_manifest": true,
+        "source_commit_matches_baseline": true
+      }
+    },
+    {
+      "source": "UDT_Cold_Start_Rehearsal_and_Workstation_Restart.md",
+      "destination": "archive/stale_working_documents_2026-09-27/UDT_Cold_Start_Rehearsal_and_Workstation_Restart.md",
+      "bytes": 28378,
+      "sha256": "c01b813e4c94f3433a4486b518452f169ec18ede2c29a91e308b6f7a2919f3f0",
+      "git_blob_oid": "dec4686c889c62ba5a37ed6748d233e98740168c",
+      "checks": {
+        "source_absent": true,
+        "destination_regular_nonsymlink": true,
+        "archive_equals_git_blob": true,
+        "archive_sha_matches_manifest": true,
+        "archive_sha_matches_prior_reviewer": true,
+        "size_matches_manifest": true,
+        "git_oid_matches_manifest": true,
+        "source_commit_matches_baseline": true
+      }
+    }
+  ],
+  "total_bytes": 72250,
+  "preexisting_status_metadata_preserved": {
+    "baseline_lines": 52,
+    "missing_or_changed_lines": [],
+    "contents_not_read": true
+  },
+  "unchanged_control_files": {
+    "CANON.md": {
+      "equals_git_baseline": true,
+      "sha256": "047b7fbbc1acacf01d2716e3c98cdefd0b9b20136ac4a3306f55dd6775465250"
+    },
+    "CURRENT_SCIENTIFIC_PREMISES.tsv": {
+      "equals_git_baseline": true,
+      "sha256": "7a3d69d5a0bc3ac98e2ebe2bb0c6d029df30071bf403baffed2223a193dc720b"
+    },
+    "CURRENT_SCIENTIFIC_PREMISES.md": {
+      "equals_git_baseline": true,
+      "sha256": "7b574665f714551a3a565987fc5bc56a4b44c7e6fb274532f61609c25153f627"
+    },
+    "research/_registry/CURRENT_ARTIFACT_PATHS.tsv": {
+      "equals_git_baseline": true,
+      "sha256": "fa09e7767ad90d098fb0d2ae17736b50c4f10d63997b1045c525b60be81688b6"
+    },
+    "verify_current_scientific_premises.py": {
+      "equals_git_baseline": true,
+      "sha256": "97724ef61bf70902ed6b70df9ee92e13acfb2a55fbede2d32adae46fa5b76bd4"
+    },
+    "AGENTS.md": {
+      "equals_git_baseline": true,
+      "sha256": "c578b045cf3278804124e23a5408ff9634a9a2165f7d20223f654d76bffd8ec9"
+    },
+    "CLAUDE.md": {
+      "equals_git_baseline": true,
+      "sha256": "b7e524a5b06760e57877a408630228767ae9a394134095f9851bef5d06e17751"
+    }
+  },
+  "maintained_pointer_hits": [
+    {
+      "path": "HANDOFF.md",
+      "line": 65,
+      "target": "RESTART_CHECKPOINT.md"
+    },
+    {
+      "path": "HANDOFF.md",
+      "line": 78,
+      "target": "maintenance_agent_capacity_2026-09-10.md"
+    }
+  ],
+  "stale_selected_root_pointer_hits": [],
+  "package_local_checkpoint": {
+    "path": "udt_gw170817_fixed_window_test_campaign_2026-09-07/history/RESTART_CHECKPOINT.md",
+    "unchanged": true,
+    "sha256": "be46decc74c7f6b2876ba2deb0833acc76be86b755f99f124295335fd9f374d0"
+  },
+  "index_routes_archive_readme": true,
+  "old_manifest_not_extended": true
+}

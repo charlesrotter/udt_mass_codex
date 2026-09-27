@@ -4,7 +4,7 @@
 ## Current handoff anchor — 2026-09-27
 
 `LIVE.md` wins; exact grades belong to the 406-row `CURRENT_SCIENTIFIC_PREMISES.tsv`.
-Sources and completed-campaign routes: `INDEX.md`; dependency spine:
+Sources: `INDEX.md`; dependency spine:
 `CURRENT_RESEARCH_PROGRAM.md`. Historical status: `archive/STARTUP_SURFACE_HISTORY.md`.
 
 On a supplied regular calibrated pair, `phi_pair=delta_AB` is DERIVED_CONDITIONAL;
@@ -17,8 +17,8 @@ GR is FILTER ONLY, not a response-law input; Local Metric Sufficiency remains ow
 Current G312 authority qualifies inherited “admitted/lawful” labels; the multibranch Einstein arena
 remains CONDITIONAL on full reviewed premises, not established from filter-only GR. Grades/math unchanged.
 Current authority: `udt_gr_filter_reconciliation_2026-09-09/AUTHORITY_RECORD.md`.
-Metric/kernel are unchanged; angular-sector cancellation owns loud--quiet--loud.
-One Ricci scalar does not exhaust free geometry/data.
+Metric/kernel unchanged; angular-sector cancellation owns loud--quiet--loud.
+Foundation audit integrated; seven documents archived: INDEX.
 
 G351's owner-provisional finite nonnegative countably additive label measure gives
 `R^p A^-1` for nonzero absolutely continuous regular density, leaving `p` free.
@@ -62,7 +62,7 @@ GW procedure parked; clock/complementary campaigns complete; no instrument work 
 R2--R5 in `udt_observed_angular_pattern_raw_restart_2026-08-12/` remain verified with caveats:
 184,300 unresolved covariance rows, no preferred scale; raw archive
 `/media/udt-admin/ScratchDisk/Data/UDT_BOSS_R3_2026-08-14/`.
-`RESTART_CHECKPOINT.md` is operational history. Backup completeness/pre-reboot unsaved state
+`archive/stale_working_documents_2026-09-27/RESTART_CHECKPOINT.md` is operational history. Backup completeness/pre-reboot unsaved state
 remain UNVERIFIED; ScratchDisk blocks only archive-dependent work.
 
 Protected—do not stage, modify, mine or cite without dispatch:
@@ -75,7 +75,7 @@ Protected—do not stage, modify, mine or cite without dispatch:
 ### Fresh-session handoff
 
 Follow AGENTS; report actual instructions/checks and distinguish configured from runtime-attested model.
-The dated availability check is COMPLETE: `maintenance_agent_capacity_2026-09-10.md`; retain history.
+Dated availability check COMPLETE: `archive/stale_working_documents_2026-09-27/maintenance_agent_capacity_2026-09-10.md`.
 General capacity UNVERIFIED; no automatic repeat. FSR1/PJC1 supplied no new field equation; Maxwell PAUSED.
 
 Next: DCR1 reviewed conditional UNPROMOTED: directional clocks permit central tides in its supplied static class

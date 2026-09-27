@@ -1,0 +1,35 @@
+{
+  "created_utc": "2026-09-27T21:09:44.060786+00:00",
+  "head": "b770dc484d4dc991644f170a3eeb3cfa4616e58d",
+  "verdict": "VERIFIED-WITH-CAVEATS__SOURCE_RELATIVE_FIDELITY_ONLY",
+  "source_pin_count": 41,
+  "changed_source_pins": [],
+  "files": {
+    "udt_foundation_alignment_audit_2026-09-27/continuation/attachment/CANDIDATE.md": {
+      "sha256": "1bc08c9cc650650f99239a1945e9760debc8650726f8181762c9e73a0db015be",
+      "bytes": 13113,
+      "read_depth": "FULL"
+    },
+    "udt_foundation_alignment_audit_2026-09-27/continuation/initial_candidate/ATTACHMENT_CANDIDATE.md": {
+      "sha256": "664e157c2e739590a6192e08f4d8a7de40759daa18fb6499cef790754f4b2df5",
+      "bytes": 12956,
+      "read_depth": "FULL"
+    },
+    "udt_foundation_alignment_audit_2026-09-27/continuation/DECISION_BRIEF.md": {
+      "sha256": "c84fa0d12d9ed1aa625bb3e2d93591861fffee21bf5ac8fb617f82c3d077bda9",
+      "bytes": 3372,
+      "read_depth": "FULL"
+    },
+    "CURRENT_RESEARCH_PROGRAM.md": {
+      "sha256": "5736c273164a435e63b6daa97f28dd13edf074a37965adf429b82fcfd39e0494",
+      "bytes": 9141,
+      "read_depth": "FULL"
+    },
+    "UDT_RESEARCH_ROADMAP.md": {
+      "sha256": "558c254cf748dfca0e825afb12aabdd48bb364bc0a5d1c8db02e2e7d50533d4e",
+      "bytes": 96177,
+      "read_depth": "Sep27 section and current top overlay only"
+    }
+  },
+  "scientific_subprocesses_final_stage": 0
+}

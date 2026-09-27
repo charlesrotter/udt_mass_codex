@@ -1,0 +1,323 @@
+{
+  "status": "PASS",
+  "python": "3.10.12",
+  "arithmetic": "fractions.Fraction exact",
+  "assertions": 147,
+  "lsb_cases": 27,
+  "local_null_controls": 3,
+  "adverse_algebra_controls": 1,
+  "seconds": 0.0020448619998205686,
+  "flat_rate_delay_control": {
+    "p": "3",
+    "r_A": "5",
+    "r_B": "13/4",
+    "d": "21/4",
+    "L": "2",
+    "c_E": "3/2",
+    "R": "1",
+    "delta": "0",
+    "chi_clock": "0",
+    "tau_round": "14"
+  },
+  "cases": [
+    {
+      "radii": [
+        1,
+        2,
+        3
+      ],
+      "a": "-1/100",
+      "b": "-1/10",
+      "det": "200/89",
+      "unused_ratio_squared": "139/356"
+    },
+    {
+      "radii": [
+        1,
+        2,
+        3
+      ],
+      "a": "-1/100",
+      "b": "0",
+      "det": "200/99",
+      "unused_ratio_squared": "4/11"
+    },
+    {
+      "radii": [
+        1,
+        2,
+        3
+      ],
+      "a": "-1/100",
+      "b": "1/10",
+      "det": "200/109",
+      "unused_ratio_squared": "149/436"
+    },
+    {
+      "radii": [
+        1,
+        2,
+        3
+      ],
+      "a": "0",
+      "b": "-1/10",
+      "det": "20/9",
+      "unused_ratio_squared": "79/72"
+    },
+    {
+      "radii": [
+        1,
+        2,
+        3
+      ],
+      "a": "0",
+      "b": "0",
+      "det": "2",
+      "unused_ratio_squared": "1"
+    },
+    {
+      "radii": [
+        1,
+        2,
+        3
+      ],
+      "a": "0",
+      "b": "1/10",
+      "det": "20/11",
+      "unused_ratio_squared": "81/88"
+    },
+    {
+      "radii": [
+        1,
+        2,
+        3
+      ],
+      "a": "1/100",
+      "b": "-1/10",
+      "det": "200/91",
+      "unused_ratio_squared": "93/52"
+    },
+    {
+      "radii": [
+        1,
+        2,
+        3
+      ],
+      "a": "1/100",
+      "b": "0",
+      "det": "200/101",
+      "unused_ratio_squared": "164/101"
+    },
+    {
+      "radii": [
+        1,
+        2,
+        3
+      ],
+      "a": "1/100",
+      "b": "1/10",
+      "det": "200/111",
+      "unused_ratio_squared": "661/444"
+    },
+    {
+      "radii": [
+        1,
+        3,
+        5
+      ],
+      "a": "-1/100",
+      "b": "-1/10",
+      "det": "960/89",
+      "unused_ratio_squared": "139/356"
+    },
+    {
+      "radii": [
+        1,
+        3,
+        5
+      ],
+      "a": "-1/100",
+      "b": "0",
+      "det": "320/33",
+      "unused_ratio_squared": "4/11"
+    },
+    {
+      "radii": [
+        1,
+        3,
+        5
+      ],
+      "a": "-1/100",
+      "b": "1/10",
+      "det": "960/109",
+      "unused_ratio_squared": "149/436"
+    },
+    {
+      "radii": [
+        1,
+        3,
+        5
+      ],
+      "a": "0",
+      "b": "-1/10",
+      "det": "32/3",
+      "unused_ratio_squared": "79/72"
+    },
+    {
+      "radii": [
+        1,
+        3,
+        5
+      ],
+      "a": "0",
+      "b": "0",
+      "det": "48/5",
+      "unused_ratio_squared": "1"
+    },
+    {
+      "radii": [
+        1,
+        3,
+        5
+      ],
+      "a": "0",
+      "b": "1/10",
+      "det": "96/11",
+      "unused_ratio_squared": "81/88"
+    },
+    {
+      "radii": [
+        1,
+        3,
+        5
+      ],
+      "a": "1/100",
+      "b": "-1/10",
+      "det": "960/91",
+      "unused_ratio_squared": "93/52"
+    },
+    {
+      "radii": [
+        1,
+        3,
+        5
+      ],
+      "a": "1/100",
+      "b": "0",
+      "det": "960/101",
+      "unused_ratio_squared": "164/101"
+    },
+    {
+      "radii": [
+        1,
+        3,
+        5
+      ],
+      "a": "1/100",
+      "b": "1/10",
+      "det": "320/37",
+      "unused_ratio_squared": "661/444"
+    },
+    {
+      "radii": [
+        2,
+        3,
+        7
+      ],
+      "a": "-1/100",
+      "b": "-1/10",
+      "det": "4000/637",
+      "unused_ratio_squared": "139/364"
+    },
+    {
+      "radii": [
+        2,
+        3,
+        7
+      ],
+      "a": "-1/100",
+      "b": "0",
+      "det": "125/21",
+      "unused_ratio_squared": "3/8"
+    },
+    {
+      "radii": [
+        2,
+        3,
+        7
+      ],
+      "a": "-1/100",
+      "b": "1/10",
+      "det": "4000/707",
+      "unused_ratio_squared": "149/404"
+    },
+    {
+      "radii": [
+        2,
+        3,
+        7
+      ],
+      "a": "0",
+      "b": "-1/10",
+      "det": "800/133",
+      "unused_ratio_squared": "79/76"
+    },
+    {
+      "radii": [
+        2,
+        3,
+        7
+      ],
+      "a": "0",
+      "b": "0",
+      "det": "40/7",
+      "unused_ratio_squared": "1"
+    },
+    {
+      "radii": [
+        2,
+        3,
+        7
+      ],
+      "a": "0",
+      "b": "1/10",
+      "det": "800/147",
+      "unused_ratio_squared": "27/28"
+    },
+    {
+      "radii": [
+        2,
+        3,
+        7
+      ],
+      "a": "1/100",
+      "b": "-1/10",
+      "det": "4000/693",
+      "unused_ratio_squared": "217/132"
+    },
+    {
+      "radii": [
+        2,
+        3,
+        7
+      ],
+      "a": "1/100",
+      "b": "0",
+      "det": "500/91",
+      "unused_ratio_squared": "41/26"
+    },
+    {
+      "radii": [
+        2,
+        3,
+        7
+      ],
+      "a": "1/100",
+      "b": "1/10",
+      "det": "4000/763",
+      "unused_ratio_squared": "661/436"
+    }
+  ],
+  "script_sha256": "eaaed6c503fa5c15f728d908e53ba411dc31fc0a22b2077b3f77e0f204a67c7a",
+  "limitations": "Finite exact controls; analytic source-relative argument owns universal scope. No physical apparatus, scale selection, native dynamics or statistical independence certified."
+}

@@ -1,0 +1,88 @@
+{
+  "utc": "2026-09-27T21:18:16.759340+00:00",
+  "links": [
+    {
+      "source": "README.md",
+      "target": "DECISION_BRIEF.md",
+      "exists": true
+    },
+    {
+      "source": "README.md",
+      "target": "CLOSEOUT.md",
+      "exists": true
+    },
+    {
+      "source": "README.md",
+      "target": "WORK_ORDER.md",
+      "exists": true
+    },
+    {
+      "source": "README.md",
+      "target": "../README.md",
+      "exists": true
+    },
+    {
+      "source": "README.md",
+      "target": "attachment/CANDIDATE.md",
+      "exists": true
+    },
+    {
+      "source": "README.md",
+      "target": "initial_candidate/ATTACHMENT_CANDIDATE.md",
+      "exists": true
+    },
+    {
+      "source": "README.md",
+      "target": "initial_candidate/FREEZE.json",
+      "exists": true
+    },
+    {
+      "source": "README.md",
+      "target": "review/science/FINAL_FIDELITY.md",
+      "exists": true
+    },
+    {
+      "source": "README.md",
+      "target": "review/maintenance/POSTMOVE_REVIEW.md",
+      "exists": true
+    },
+    {
+      "source": "README.md",
+      "target": "archive/ARCHIVE_MANIFEST.tsv",
+      "exists": true
+    },
+    {
+      "source": "README.md",
+      "target": "integration/MAINTAINED_DOCS.patch",
+      "exists": true
+    },
+    {
+      "source": "README.md",
+      "target": "SOURCE_READ_LEDGER.tsv",
+      "exists": true
+    },
+    {
+      "source": "CLOSEOUT.md",
+      "target": "WORK_ORDER.md",
+      "exists": true
+    },
+    {
+      "source": "CLOSEOUT.md",
+      "target": "attachment/CANDIDATE.md",
+      "exists": true
+    },
+    {
+      "source": "CLOSEOUT.md",
+      "target": "DECISION_BRIEF.md",
+      "exists": true
+    }
+  ],
+  "closeout_sha256": "6e9ac818a2ed0e5f9d307417a5ab72562496a22129ed67caaeb9e9b3e00b4e40",
+  "final_parent_premise_receipts_observed": {
+    "exit_text": "0",
+    "stderr_bytes": 0,
+    "stdout_has_406_row_pass": true,
+    "execution_attributed_to_parent_not_rerun": true
+  },
+  "manifest_and_publication": "Pending parent construction/final correspondence; no claim of completed push"
+}

@@ -1,0 +1,75 @@
+{
+  "utc": "2026-09-27T21:11:44.692474+00:00",
+  "head": "b770dc484d4dc991644f170a3eeb3cfa4616e58d",
+  "reviewed_worktree_hashes": {
+    "CURRENT_RESEARCH_PROGRAM.md": "5736c273164a435e63b6daa97f28dd13edf074a37965adf429b82fcfd39e0494",
+    "HANDOFF.md": "4a98567d9275f592ce22153589af215ae77357def3abf823bf909897ef7e0ab4",
+    "INDEX.md": "742e1dec7b6bb44e1cc276a8bf8fc0ad673faafe85e2c2637d5a0ca4ee352044",
+    "LIVE.md": "6170a2e95f56f8a00ef43003425253e277d35973db400ea7d7776c57f9aa7159",
+    "MEMORY.md": "391da60de354afef8d34844695e494a4249ce88862201a3f785e9e81447da0fe",
+    "UDT_RESEARCH_ROADMAP.md": "558c254cf748dfca0e825afb12aabdd48bb364bc0a5d1c8db02e2e7d50533d4e",
+    "udt_native_theory_research_plan_2026-09-13/PLAN.md": "c93e61c271d7e4e9d9d6003136b28df6bdea88f8a1bda87d45ad3f9453e3bd37",
+    "archive/stale_working_documents_2026-09-27/README.md": "3ad287ee7f80683bbbba51a274adf9167f40dcc65d73314db9fb86e68f437ca9",
+    "udt_foundation_alignment_audit_2026-09-27/continuation/DECISION_BRIEF.md": "c84fa0d12d9ed1aa625bb3e2d93591861fffee21bf5ac8fb617f82c3d077bda9",
+    "udt_foundation_alignment_audit_2026-09-27/continuation/archive/ARCHIVE_MANIFEST.tsv": "54e0b2ece43b4bb834e14c955965cd7d2b26176f75c96525f6462ee028ef6021"
+  },
+  "new_archive_and_brief_markdown_links": [
+    {
+      "document": "archive/stale_working_documents_2026-09-27/README.md",
+      "target": "../../udt_foundation_alignment_audit_2026-09-27/continuation/archive/ARCHIVE_MANIFEST.tsv",
+      "exists": true
+    },
+    {
+      "document": "archive/stale_working_documents_2026-09-27/README.md",
+      "target": "ATLAS_UNTRACKED_STARTUP_NOTE_PREREG_2026-08-05.md",
+      "exists": true
+    },
+    {
+      "document": "archive/stale_working_documents_2026-09-27/README.md",
+      "target": "PHI_ORCHESTRA_STARTUP_UPDATE_PREREG_2026-08-05.md",
+      "exists": true
+    },
+    {
+      "document": "archive/stale_working_documents_2026-09-27/README.md",
+      "target": "PHI_ORCHESTRA_VERIFIER_LIVE_REGISTRY_REPAIR_PREREG_2026-08-05.md",
+      "exists": true
+    },
+    {
+      "document": "archive/stale_working_documents_2026-09-27/README.md",
+      "target": "UDT_SYNTHESIS_METHOD_PATCH_REVIEW_2026-09-05.md",
+      "exists": true
+    },
+    {
+      "document": "archive/stale_working_documents_2026-09-27/README.md",
+      "target": "maintenance_agent_capacity_2026-09-10.md",
+      "exists": true
+    },
+    {
+      "document": "archive/stale_working_documents_2026-09-27/README.md",
+      "target": "RESTART_CHECKPOINT.md",
+      "exists": true
+    },
+    {
+      "document": "archive/stale_working_documents_2026-09-27/README.md",
+      "target": "UDT_Cold_Start_Rehearsal_and_Workstation_Restart.md",
+      "exists": true
+    },
+    {
+      "document": "udt_foundation_alignment_audit_2026-09-27/continuation/DECISION_BRIEF.md",
+      "target": "../../archive/stale_working_documents_2026-09-27/README.md",
+      "exists": true
+    },
+    {
+      "document": "udt_foundation_alignment_audit_2026-09-27/continuation/DECISION_BRIEF.md",
+      "target": "../README.md",
+      "exists": true
+    },
+    {
+      "document": "udt_foundation_alignment_audit_2026-09-27/continuation/DECISION_BRIEF.md",
+      "target": "attachment/CANDIDATE.md",
+      "exists": true
+    }
+  ],
+  "tracked_changes_outside_expected_sources": [],
+  "scope": "Exact reviewed worktree snapshot before commit/publication; parent must bind final Git tree"
+}

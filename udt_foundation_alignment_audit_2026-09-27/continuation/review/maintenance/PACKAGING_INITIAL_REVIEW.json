@@ -1,0 +1,33 @@
+{
+  "utc": "2026-09-27T21:15:26.808347+00:00",
+  "scope": "Static packaging review; no scientific replay and no repetition of completed archive byte checks",
+  "files": {
+    "README.md": "cd5010b3ebb1363e43e88f51d49f36d1756d20fd0b429dd0f78cb3e3747a698e",
+    "REPAIR_AND_SCOPE.md": "ef225c671e31da58f1b38e37d26e391498930f00736e86f4c63347a1d6c9fab2",
+    "SOURCE_READ_LEDGER.tsv": "7c292df5e50e121dc365d6536e316ce2ed97468073e17c4234bf2760da9770a4",
+    "check_integrity.py": "cd8607d865609de8fa9c8ac993e2a1e8f7febaa0e1c233bbce7a92e7b38dfe68"
+  },
+  "findings": [
+    {
+      "id": "PKG1",
+      "severity": "bounded_integrity_gap",
+      "defect": "Archive manifest source_commit is not compared to BASELINE HEAD.",
+      "smallest_repair": "Assert row source_commit equals commit used for Git blob retrieval."
+    },
+    {
+      "id": "PKG2",
+      "severity": "vacuous_check_gap",
+      "defect": "No nonempty/count/unique-path constraint on source_pins; header-only pin file returns PASS with zero sources checked.",
+      "smallest_repair": "Assert expected 41 unique source paths for this fixed review snapshot, or compare against frozen pin identities."
+    }
+  ],
+  "pending_not_failures": [
+    "CLOSEOUT.md construction and final full406 outcome",
+    "SHA256SUMS creation after final retained files",
+    "Final committed-blob/publication verification"
+  ],
+  "outcomes_not_independently_replayed": [
+    "Parent startup tests 371 passed / 1 deselected",
+    "Parent integrity execution PASS"
+  ]
+}

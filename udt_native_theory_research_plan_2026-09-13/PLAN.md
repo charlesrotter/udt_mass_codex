@@ -409,6 +409,8 @@ Every block should answer, in plain language:
    a physical identification, or only a scoped mathematical comparison?
 6. What exact task becomes eligible next, or why does this branch stop?
 
-The next recommended decision is FE1's bounded dynamical-principle design packet.
+The current next gate is the LIVE direction discussion after DCR1; FE1 remains
+unadopted. The earlier FE1 design recommendation above is historical, not a new
+dispatch. No field-equation campaign resumes automatically.
 This plan does not promise a replacement for any established theory, and does not
 assume that merely extending the current mathematical atlas will provide one.

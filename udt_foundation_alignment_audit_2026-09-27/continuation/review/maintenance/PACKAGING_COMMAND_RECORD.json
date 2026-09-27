@@ -1,0 +1,11 @@
+{
+  "utc": "2026-09-27T21:17:32.638220+00:00",
+  "cwd": "/home/udt-admin/udt_mass_codex",
+  "command": "python3 udt_foundation_alignment_audit_2026-09-27/continuation/review/maintenance/packaging_negative_controls.py > udt_foundation_alignment_audit_2026-09-27/continuation/review/maintenance/PACKAGING_NEGATIVE_CONTROLS.stdout.txt 2> udt_foundation_alignment_audit_2026-09-27/continuation/review/maintenance/PACKAGING_NEGATIVE_CONTROLS.stderr.txt",
+  "exit_code": 0,
+  "script_sha256": "6a03ae176e3c868d6763c2d48ae7dd27c4aa3a1592a4620c360eda82582c3867",
+  "stdout_bytes": 1051,
+  "stderr_bytes": 0,
+  "stdout_read_after_execution": true,
+  "scope": "Three targeted metadata fault controls, independent test construction using actual maintenance checker; no science subprocess"
+}

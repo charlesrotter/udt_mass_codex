@@ -1,6 +1,6 @@
 # UDT research roadmap — geometry, dynamics and physical connection
 
-Updated: 2026-09-14 UTC. Charles Rotter requested the whole plan on 2026-09-09;
+Updated: 2026-09-27 UTC. Charles Rotter requested the whole plan on 2026-09-09;
 its original baseline was `d0fe8b3e5f95c3963dc8702bb4a31485678bd1e3`, branch `grok`.
 Banking through G423 is COMPLETE; exact conditional signal-chain scope and actual gates: its CLOSEOUT.
 Current operational handoff: `HANDOFF.md`; the maintained checkpoint below records the reviewed
@@ -13,6 +13,34 @@ or replacement for LIVE, the exact registry, or reviewed scientific sources.
 Current acceptance overlay: earlier UNPROMOTED/campaign-only language below records historical
 returns. The G383--G412, G413--G415 and G416--G423 banking packets and maintained checkpoint own later dispositions;
 original result packages remain unchanged. No physical adoption or canon is included.
+
+## Foundation alignment and first archival batch — 2026-09-27
+
+Charles authorized integration of the reviewed foundation guidance, a focused
+physical-attachment audit with independent review/repair, and stale-material
+archival. Return: `udt_foundation_alignment_audit_2026-09-27/continuation/DECISION_BRIEF.md`;
+its CLOSEOUT owns execution/checks. This is source-relative synthesis, not a
+new result, physical premise or scientific promotion.
+
+W4 already supplies working local metric coupling. G220 and G420/LSB1 already
+connect supplied complete geometry and declared signal queries to clock ratios,
+sky angles and round-trip duration. Rate ratios and elapsed flight duration are
+different records: equal-rate clocks can have positive round-trip time in the
+existing flat comparison. This narrows one unadopted reading of “c is clock
+dilation”; it does not refute the broader positional interpretation.
+
+Keep real-apparatus validation, native response ownership and UDT-versus-GR
+discrimination separate. The next native milestone needs a previously unexamined
+implication from current premises; check G261/G301/G312 and completed FE1/FSR1/DCR1
+first. Reinterpretation alone does not distinguish theories sharing a metric and
+protocol. No unique universe or derived matter is required for every conditional
+measurement test. No new campaign is launched; return for lay discussion.
+
+Seven completed operational documents were removed from root into
+`archive/stale_working_documents_2026-09-27/`, retaining exact bytes and retrieval
+routes. Fixed historical evidence, original reviews, guarded root interfaces and
+protected local work remain outside this archival batch. Continue archival only
+by checked batches after reference classification, never by age alone.
 
 ## Directional clock release — DCR1, 2026-09-14 UTC
 
