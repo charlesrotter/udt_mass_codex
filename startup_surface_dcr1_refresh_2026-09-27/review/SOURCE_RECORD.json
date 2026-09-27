@@ -1,0 +1,29 @@
+{
+  "reviewer": "/root/startup_dcr1_fidelity",
+  "start_utc": "2026-09-27 19:18:46 UTC",
+  "source_first_pins_utc": "2026-09-27T19:20:07.594587+00:00",
+  "head": "4f98d8fe44791ffdcaf225e5be7b21e30a8f7629",
+  "branch": "grok",
+  "runtime_exact_model": "UNATTESTED",
+  "source_sha256": {
+    "AGENTS.md": "c578b045cf3278804124e23a5408ff9634a9a2165f7d20223f654d76bffd8ec9",
+    ".claude/skills/verifier-before-record/SKILL.md": "9b3a4aacd4b4006b2b7f01edada73b7c87b99bea6e754583558713bfc145e5ac",
+    "CLAUDE.md": "b7e524a5b06760e57877a408630228767ae9a394134095f9851bef5d06e17751",
+    "udt_directional_clock_release_2026-09-14/DECISION_BRIEF.md": "a2a514909668c26b2025adb266c067395637d71583299d0415ee3b1b79b99171",
+    "udt_directional_clock_release_2026-09-14/CLOSEOUT.md": "e7a03487bfd7af6f7b34bd0f9b0f596fca23a3f1200fe58316da4c3e0447bfe1",
+    "udt_directional_clock_release_2026-09-14/review/REVIEW.md": "3104620ed79caed471e7752791e9e57ac516d06801c140d76e05b8b5975acb50",
+    "udt_finite_separation_reciprocity_2026-09-14/DECISION_BRIEF.md": "92345b2a9ba81f82cc5f581a6e1462b493194146823738bdae31ce82017f5168",
+    "udt_positional_joint_compatibility_2026-09-14/DECISION_BRIEF.md": "73cc5fec7b190be52b066b4aeec21b5e2f08eabf3a907eefb1b232390acedd47",
+    "udt_field_equation_principle_design_2026-09-13/DECISION_PACKET.md": "f7e915dd01b4ffc803c6a55ab76310f5efc802971b060fbf9c4897c01c4118c5",
+    "maintenance_agent_capacity_2026-09-10.md": "44ec86138326423db48bc5c2553465f4bd39331edefcea7d127b7d4ae2cdca2f"
+  },
+  "parent_attribution": "Parent reports ordered sync and bounded startup/orientation complete; full premise verifier pending at dispatch. No independent sync or full verifier claim.",
+  "scope": "Editorial fidelity only, no scientific renewal/adoption.",
+  "exposure": "Source-first substantive review before parent draft diff. Parent task disclosed target limits and baseline navigation result. Entire maintenance file was inadvertently emitted by initial cat, followed by precise reread of dated completion prose; earlier history is exposure only, not renewed authority. No protected payload read.",
+  "sources_read_scopes": {
+    "AGENTS.md": "Full",
+    "CLAUDE.md": "How we work; DRIVER TRIGGERS; Repo discipline only (plus heading search)",
+    ".claude/skills/verifier-before-record/SKILL.md": "Full",
+    "maintenance_agent_capacity_2026-09-10.md": "Initial cat emitted entire file; final substantive check restricted to Fresh top-level availability check dated 2026-09-10 prose. All other listed scientific source documents read in full."
+  }
+}

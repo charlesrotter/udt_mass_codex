@@ -1051,9 +1051,15 @@ def test_catch_unattributed_g352_next_gate(tmp_path: Path) -> None:
 
 @pytest.mark.parametrize("name", ("LIVE.md", "HANDOFF.md"))
 @pytest.mark.parametrize("token", (
-    "exact-scope banking",
+    "DCR1 reviewed conditional UNPROMOTED",
+    "full G301 at an eligible center",
+    "no neighborhood field equation",
+    "FE1 UNADOPTED",
+    "G312 membership/native admission unclosed",
+    "response identification OPEN",
     "physical identification remains OPEN",
-    "Charles authorized broader-geometry testing and one bounded follow-up",
+    "Stop for lay discussion",
+    "no new campaign is authorized",
 ))
 def test_catch_conditional_banking_next_gate_scope(tmp_path: Path, name: str, token: str) -> None:
     root = _startup_copy(tmp_path)
@@ -1486,8 +1492,7 @@ def test_current_next_gate_is_three_sentences_not_campaign_history() -> None:
         text = text.split("<!-- STARTUP_CURRENT_END -->", 1)[0].strip()
         assert len(re.findall(r"\.(?:\s|$)", text)) == 3, relative
         assert len(text.split()) <= 65, relative
-        assert (("Stop for lay discussion" in text and "no new campaign is authorized" in text)
-                or "Charles authorized broader-geometry testing and one bounded follow-up" in text)
+        assert "Stop for lay discussion" in text and "no new campaign is authorized" in text
 
 
 @pytest.mark.parametrize("old,new", (

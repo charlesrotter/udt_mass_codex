@@ -1,7 +1,7 @@
 # HANDOFF — lean fresh-session anchor
 
 <!-- STARTUP_CURRENT_BEGIN -->
-## Current handoff anchor — 2026-09-18
+## Current handoff anchor — 2026-09-27
 
 `LIVE.md` wins; exact grades belong to the 406-row `CURRENT_SCIENTIFIC_PREMISES.tsv`.
 Sources and completed-campaign routes: `INDEX.md`; dependency spine:
@@ -74,11 +74,12 @@ Protected—do not stage, modify, mine or cite without dispatch:
 
 ### Fresh-session handoff
 
-Fresh Codex session authorized, not resume/fork; retain session history. Follow AGENTS;
-report actual model/instructions/checks. After orientation: `maintenance_agent_capacity_2026-09-10.md`,
-dated handoff sequence. General capacity UNVERIFIED; prior passes are historical evidence.
-Availability testing is operational only; the whiteboard's scientific audit is PROPOSED, NOT AUTHORIZED.
+Follow AGENTS; report actual instructions/checks and distinguish configured from runtime-attested model.
+The dated availability check is COMPLETE: `maintenance_agent_capacity_2026-09-10.md`; retain history.
+General capacity UNVERIFIED; no automatic repeat. FSR1/PJC1 supplied no new field equation; Maxwell PAUSED.
 
-Next: DCR1 reviewed conditional UNPROMOTED return (`udt_directional_clock_release_2026-09-14/`); FSR1/PJC1 already stopped without new field equation; native admission OPEN; Maxwell PAUSED; FE1 UNADOPTED; discussion/direction stop; no automatic successor; roadmap owns dispositions.
-G312 membership unclosed; G352 physical-realization: physical identification remains OPEN.
+Next: DCR1 reviewed conditional UNPROMOTED: directional clocks permit central tides in its supplied static class
+under full G301 at an eligible center; no neighborhood field equation; FE1 UNADOPTED.
+G312 membership/native admission unclosed; response identification OPEN; G352 physical-realization: physical identification remains OPEN.
+Stop for lay discussion; no new campaign is authorized; work order and return gates: `UDT_RESEARCH_ROADMAP.md`.
 <!-- STARTUP_CURRENT_END -->

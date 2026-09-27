@@ -28,7 +28,7 @@ review restoration requires `--record-review REVIEW_RECORD.json` tied to exact c
 Prior banking: `udt_g381_g382_conditional_banking_2026-09-09/BANKING_RECORD.md`;
 its execution/publication records own completion. Original campaign:
 `udt_neighboring_tidal_consistency_campaign_2026-09-08/CAMPAIGN_LOG.md`.
-Prior compaction: `startup_surface_current_tracking_compaction_2026-09-09/WORK_RECORD.md`.
+Startup refresh: `startup_surface_dcr1_refresh_2026-09-27/WORK_RECORD.md`.
 Earlier geometry: `udt_nonlinear_ripple_geometry_2026-09-09/DECISION_BRIEF.md`; G394=NE1 conditional;
 exact polarized development: fading profile, cumulative marked-area-rate/tidal departure.
 REVIEWED_RESULT.md and full review control; supplied-data/marking and conditional-method limits, not stability/content.

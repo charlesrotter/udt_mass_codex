@@ -1,0 +1,24 @@
+{
+  "start_utc": "2026-09-27T19:22:32.954946+00:00",
+  "end_utc": "2026-09-27T19:22:36.381289+00:00",
+  "elapsed_seconds": 3.4263470200821757,
+  "command": [
+    "python3",
+    "-m",
+    "pytest",
+    "-q",
+    "-p",
+    "no:cacheprovider",
+    "tests/test_startup_surface.py",
+    "-k",
+    "conditional_banking_next_gate_scope or current_next_gate_is_three_sentences_not_campaign_history or current_startup_surface_passes_in_isolation or unattributed_g352_next_gate",
+    "--basetemp",
+    "/home/udt-admin/udt_mass_codex/startup_surface_dcr1_refresh_2026-09-27/review/review-pytest-dgjv2zj6/fixtures"
+  ],
+  "environment_delta": {
+    "PYTHONDONTWRITEBYTECODE": "1"
+  },
+  "python_version": "Python 3.10.12",
+  "returncode": 0,
+  "scratch_policy": "Unique reviewer-owned TemporaryDirectory under review, automatically removed; no source mutation or pytest cache."
+}

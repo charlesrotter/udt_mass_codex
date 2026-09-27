@@ -1,0 +1,9 @@
+[
+  {
+    "path": "udt_g237_dual_sne_joint_relational_state_freeze_2026-08-23/JOINT_STATE.tsv",
+    "expected": "548219b37459a12c590a43568120e519fc58fa79b322c2059a7b06ba8b88c4b1",
+    "raw": "548219b37459a12c590a43568120e519fc58fa79b322c2059a7b06ba8b88c4b1",
+    "normalized": "e3845edc2286ffc0355c426462374b07305645535bb88054655517ff1a412505",
+    "matches": true
+  }
+]

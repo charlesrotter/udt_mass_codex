@@ -1,0 +1,55 @@
+{
+  "start_utc": "2026-09-27T19:23:51.526911+00:00",
+  "end_utc": "2026-09-27T19:23:51.622548+00:00",
+  "elapsed_seconds": 0.09563645883463323,
+  "result": "PASS",
+  "kind": "Checksum correspondence and regression only; no scientific artifacts interpreted or reconstructed.",
+  "manifest_checks": [
+    {
+      "package": "udt_g236_dual_sne_relational_state_reconstruction_2026-08-23",
+      "manifest_rows": 35,
+      "raw_mismatches": [],
+      "normalized_mismatches": [
+        "STATE_RECONSTRUCTION.tsv"
+      ],
+      "special_file": "STATE_RECONSTRUCTION.tsv",
+      "special_raw_sha256": "6855e2ac5d39c1de525cb1be1cea2305e2280a5db9dd5b78fef50a66b2368916",
+      "special_normalized_sha256": "7845d4cd1b6b1e2367f3b3a99e076d1d1991ee92e07b8512690311c22b91c6e3",
+      "exact_extracted_guard_hostile_checks": {
+        "raw": "ACCEPTED",
+        "lf": "ACCEPTED",
+        "changed_payload": "REJECTED",
+        "added_path": "REJECTED",
+        "missing_path": "REJECTED"
+      }
+    },
+    {
+      "package": "udt_g237_dual_sne_joint_relational_state_freeze_2026-08-23",
+      "manifest_rows": 33,
+      "raw_mismatches": [],
+      "normalized_mismatches": [
+        "JOINT_STATE.tsv"
+      ],
+      "special_file": "JOINT_STATE.tsv",
+      "special_raw_sha256": "548219b37459a12c590a43568120e519fc58fa79b322c2059a7b06ba8b88c4b1",
+      "special_normalized_sha256": "e3845edc2286ffc0355c426462374b07305645535bb88054655517ff1a412505",
+      "exact_extracted_guard_hostile_checks": {
+        "raw": "ACCEPTED",
+        "lf": "ACCEPTED",
+        "changed_payload": "REJECTED",
+        "added_path": "REJECTED",
+        "missing_path": "REJECTED"
+      }
+    }
+  ],
+  "binary": {
+    "path": "udt_g243_reciprocal_sne_radial_spline_freeze_2026-08-24/RADIAL_REPRESENTATION.npz",
+    "raw_sha256": "68deaa48bb68493febb1c9d34de426a215675f917b971b1aca59f833d468600b",
+    "normalized_sha256": "7bbb0063ced4dd07b40dea6f05d57f4fe3f55af0ec27764fa5f05a2969681f1d",
+    "raw_matches_frozen_pin": true,
+    "changed_payload_rejected": true
+  },
+  "guard_source_sha256": "97724ef61bf70902ed6b70df9ee92e13acfb2a55fbede2d32adae46fa5b76bd4",
+  "pin_helper_sha256": "b5199a9f48ea60ca5789d6944d73eae3a0bc498ff30d9d7ab241d67a5955fe33",
+  "scratch": "Reviewer-owned TemporaryDirectory fixtures under review automatically removed."
+}

@@ -1,0 +1,13 @@
+{
+  "command": [
+    "python3",
+    "-u",
+    "verify_current_scientific_premises.py"
+  ],
+  "returncode": 1,
+  "observed_completion_utc": null,
+  "exact_elapsed_seconds": null,
+  "capture": "shell redirection, tool session8621; no resource capture wrapper",
+  "failure": "G236 final evidence manifest mismatch",
+  "timing_note": "Exact start/end timestamps not captured; actual tool session completion returned exit1 before edits."
+}

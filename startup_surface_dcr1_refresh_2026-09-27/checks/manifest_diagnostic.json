@@ -1,0 +1,11 @@
+{
+  "udt_g236_dual_sne_relational_state_reconstruction_2026-08-23": [
+    {
+      "path": "STATE_RECONSTRUCTION.tsv",
+      "expected": "6855e2ac5d39c1de525cb1be1cea2305e2280a5db9dd5b78fef50a66b2368916",
+      "raw": "6855e2ac5d39c1de525cb1be1cea2305e2280a5db9dd5b78fef50a66b2368916",
+      "normalized": "7845d4cd1b6b1e2367f3b3a99e076d1d1991ee92e07b8512690311c22b91c6e3",
+      "raw_matches": true
+    }
+  ]
+}

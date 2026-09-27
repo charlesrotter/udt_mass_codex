@@ -1,6 +1,6 @@
 # Current UDT research program
 
-Date: 2026-09-18
+Date: 2026-09-27
 
 `LIVE.md` controls status; exact 406-row `CURRENT_SCIENTIFIC_PREMISES.tsv` controls ownership.
 
@@ -102,15 +102,17 @@ G406--G410: conditional measurement mathematics and G409=CO2 design control.
 G411=LC2: published-summary benchmark; G412=FW2: failed finite procedure, not a metric constraint.
 Whole original reviews/caveats control; roadmap: `UDT_RESEARCH_ROADMAP.md`; consolidated gains/gates: `UDT_CONSOLIDATED_RESEARCH_ACCOUNT.md`.
 
-Geometric theory/calibration and possible emergence remain parallel, neither prerequisite.
-Explicit justified transfer/instrument assumptions can support conditional measurements;
-neither emergent light nor an admitted sourced sector is a blanket prerequisite for every route.
-No measurement assumption is silently adopted. GOCE PARKED, eligibility UNRESOLVED/OPEN,
+Geometric/calibration and emergence aims remain parallel; conditional measurements need justified
+transfer/instrument assumptions, not necessarily emergent light or an admitted sourced sector.
+No assumption is adopted. FSR1/PJC1 supplied no new field equation; Maxwell PAUSED.
+GOCE PARKED, eligibility UNRESOLVED/OPEN,
 enquiry UNSENT; GW procedure parked at its design gate, clock/complementary campaigns complete.
 Instrument gaps do not block theory. Fixed manuscript/coverage stays through G352.
 Backup completeness/pre-reboot unsaved state remain UNVERIFIED; ScratchDisk is archive-only.
 
 ## Current next gate
 
-DCR1 reviewed conditional UNPROMOTED return (`udt_directional_clock_release_2026-09-14/`); FSR1/PJC1 already stopped without new field equation; native admission OPEN; Maxwell PAUSED; FE1 UNADOPTED; discussion/direction stop; no automatic successor; roadmap owns dispositions.
-G312 membership unclosed; G352 physical-realization: physical identification remains OPEN.
+DCR1 reviewed conditional UNPROMOTED: directional clocks permit central tides in its supplied static class
+under full G301 at an eligible center; no neighborhood field equation; FE1 UNADOPTED.
+G312 membership/native admission unclosed; response identification OPEN; G352 physical-realization: physical identification remains OPEN.
+Stop for lay discussion; no new campaign is authorized; work order and return gates: `UDT_RESEARCH_ROADMAP.md`.

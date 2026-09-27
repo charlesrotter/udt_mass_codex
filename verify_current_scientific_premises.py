@@ -1842,18 +1842,22 @@ def validate_startup_surface(root: Path) -> None:
     require(len(live_next_parts) == 2, "LIVE next-gate section missing")
     live_next = " ".join(live_next_parts[1].split())
     for token in (
-        "G383--G412", "COMPLETE", "exact-scope banking",
+        "DCR1 reviewed conditional UNPROMOTED", "full G301 at an eligible center",
+        "no neighborhood field equation", "FE1 UNADOPTED",
+        "G312 membership/native admission unclosed", "response identification OPEN",
         "G352 physical-realization", "physical identification remains OPEN",
-        "Charles authorized broader-geometry testing and one bounded follow-up", "work order and return gates",
+        "Stop for lay discussion", "no new campaign is authorized", "work order and return gates",
     ):
         require(token in live_next, f"LIVE next gate lacks bounded conditional banking status: {token}")
     handoff_next_parts = handoff.split("Next:", 1)
     require(len(handoff_next_parts) == 2, "HANDOFF next-gate statement missing")
     handoff_next = " ".join(handoff_next_parts[1].split())
     for token in (
-        "G383--G412", "COMPLETE", "exact-scope banking",
+        "DCR1 reviewed conditional UNPROMOTED", "full G301 at an eligible center",
+        "no neighborhood field equation", "FE1 UNADOPTED",
+        "G312 membership/native admission unclosed", "response identification OPEN",
         "G352 physical-realization", "physical identification remains OPEN",
-        "Charles authorized broader-geometry testing and one bounded follow-up", "work order and return gates",
+        "Stop for lay discussion", "no new campaign is authorized", "work order and return gates",
     ):
         require(token in handoff_next, f"HANDOFF next gate lacks bounded conditional banking status: {token}")
 
@@ -11013,13 +11017,16 @@ def main() -> None:
     g236_registered = {row["path"]: row["sha256"] for row in g236_manifest_rows}
     require(len(g236_registered) == len(g236_manifest_rows), "G236 duplicate manifest path")
     g236_actual = {
-        path.relative_to(g236).as_posix(): pin_sha256(path.read_bytes())
+        path.relative_to(g236).as_posix(): path.read_bytes()
         for path in g236.rglob("*")
         if path.is_file()
         and path.name != "FINAL_EVIDENCE_MANIFEST.tsv"
         and "__pycache__" not in path.parts
     }
-    require(g236_registered == g236_actual, "G236 final evidence manifest mismatch")
+    require(g236_registered.keys() == g236_actual.keys()
+            and all(pin_matches(payload, g236_registered[name])
+                    for name, payload in g236_actual.items()),
+            "G236 final evidence manifest mismatch")
     require(
         by_id["G237"]["current_status"].startswith(
             "EXTERNALLY_VERIFIED_WITH_CAVEATS__PREREGISTERED_AT_AD49B9C8"
@@ -11149,13 +11156,16 @@ def main() -> None:
     g237_registered = {row["path"]: row["sha256"] for row in g237_manifest_rows}
     require(len(g237_registered) == len(g237_manifest_rows), "G237 duplicate manifest path")
     g237_actual = {
-        path.relative_to(g237).as_posix(): pin_sha256(path.read_bytes())
+        path.relative_to(g237).as_posix(): path.read_bytes()
         for path in g237.rglob("*")
         if path.is_file()
         and path.name != "FINAL_EVIDENCE_MANIFEST.tsv"
         and "__pycache__" not in path.parts
     }
-    require(g237_registered == g237_actual, "G237 final evidence manifest mismatch")
+    require(g237_registered.keys() == g237_actual.keys()
+            and all(pin_matches(payload, g237_registered[name])
+                    for name, payload in g237_actual.items()),
+            "G237 final evidence manifest mismatch")
     require(
         by_id["G238"]["current_status"].startswith(
             "EXTERNALLY_VERIFIED_WITH_CAVEATS__PREREGISTERED_AT_CF7DEED2"
@@ -11775,7 +11785,7 @@ def main() -> None:
     ):
         require((g243 / name).is_file(), f"G243 evidence missing: {name}")
     require(
-        pin_sha256((g243 / "RADIAL_REPRESENTATION.npz").read_bytes())
+        hashlib.sha256((g243 / "RADIAL_REPRESENTATION.npz").read_bytes()).hexdigest()
         == "68deaa48bb68493febb1c9d34de426a215675f917b971b1aca59f833d468600b",
         "G243 frozen radial representation hash changed",
     )

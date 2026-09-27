@@ -1,9 +1,9 @@
 # LIVE — current state only
 
 <!-- STARTUP_CURRENT_BEGIN -->
-## CURRENT STATE — 2026-09-18
+## CURRENT STATE — 2026-09-27
 
-Branch: `grok`. Synchronize; inspect dirt. This block overrides older status.
+Branch: `grok`. Synchronize; inspect dirt. Overrides older status.
 
 ### Honest claim
 
@@ -75,12 +75,11 @@ G374/G375 restrict position-dependent rescaling on a fixed base but retain const
 `g_hat=a^-2 g, Lambda_hat=a^2 Lambda, a>0`. No physical size or absolute scale is selected.
 A separately fixed target scalar restricts that rescaling; its value is supplied, not derived.
 Carried measure, configuration population and history selection differ; “occupancy” supplies no law.
-A successor must identify an unexamined admitted implication, not repeat scalar/source nonselection.
+A successor needs an unexamined admitted implication, not repeated scalar/source nonselection.
 
-Geometric theory/calibration and possible emergence remain parallel, neither prerequisite.
-Conditional measurement models require explicit justified transfer/instrument assumptions;
-an admitted sourced sector or emergent light is not a blanket prerequisite for every route.
-No such assumption is adopted by this wording.
+Geometric/calibration and emergence aims remain parallel. Conditional measurements need justified
+transfer/instrument assumptions; an admitted sourced sector or emergent light is not a blanket prerequisite.
+No assumption is adopted. FSR1/PJC1 stopped without a new field equation; Maxwell PAUSED.
 
 ### Paused routes and preservation
 
@@ -106,6 +105,8 @@ Protected—do not stage, modify, mine or cite without dispatch:
 
 ### Next gate
 
-DCR1 reviewed conditional UNPROMOTED return (`udt_directional_clock_release_2026-09-14/`); FSR1/PJC1 already stopped without new field equation; native admission OPEN; Maxwell PAUSED; FE1 UNADOPTED; discussion/direction stop; no automatic successor; roadmap owns dispositions.
-G312 membership unclosed; G352 physical-realization: physical identification remains OPEN.
+DCR1 reviewed conditional UNPROMOTED: directional clocks permit central tides in its supplied static class
+under full G301 at an eligible center; no neighborhood field equation; FE1 UNADOPTED.
+G312 membership/native admission unclosed; response identification OPEN; G352 physical-realization: physical identification remains OPEN.
+Stop for lay discussion; no new campaign is authorized; work order and return gates: `UDT_RESEARCH_ROADMAP.md`.
 <!-- STARTUP_CURRENT_END -->

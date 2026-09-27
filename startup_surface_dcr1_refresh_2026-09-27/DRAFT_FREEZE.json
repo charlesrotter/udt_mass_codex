@@ -1,0 +1,29 @@
+{
+  "observed_utc": "2026-09-27T19:22:53.330281+00:00",
+  "head": "4f98d8fe44791ffdcaf225e5be7b21e30a8f7629",
+  "changes": {
+    "LIVE.md": "0dd8dea02261f465cdb6bb81eac6129431a45b39617a886b88a082b45b9ff1af",
+    "HANDOFF.md": "36104dab5a979fba1b225ee3046aca94bedee5a4dbd85ac91f03da796503d440",
+    "CURRENT_RESEARCH_PROGRAM.md": "2b4d7b7bbc49cdbe3cceb1d86260058a1d0da6226f30c34ee04bbc832ed8cec1",
+    "INDEX.md": "8fab39013ade3f63d314b68b2b41a03a4b0a1702ac12b7610e783c97f000daf6",
+    "MEMORY.md": "faab7b95506c73a98821dae936514f89a452842c0ecf78a23a4587542bbc7628",
+    "verify_current_scientific_premises.py": "97724ef61bf70902ed6b70df9ee92e13acfb2a55fbede2d32adae46fa5b76bd4",
+    "tests/test_startup_surface.py": "de5384a6e6b2267f0f5d9a0ae0c1c9e71e265cc09a3dcf72826f43dca01b0e6f"
+  },
+  "unchanged_sources": {
+    "udt_directional_clock_release_2026-09-14/DECISION_BRIEF.md": true,
+    "udt_directional_clock_release_2026-09-14/CLOSEOUT.md": true,
+    "udt_directional_clock_release_2026-09-14/review/REVIEW.md": true,
+    "udt_finite_separation_reciprocity_2026-09-14/DECISION_BRIEF.md": true,
+    "udt_positional_joint_compatibility_2026-09-14/DECISION_BRIEF.md": true,
+    "udt_field_equation_principle_design_2026-09-13/DECISION_PACKET.md": true,
+    "UDT_RESEARCH_ROADMAP.md": true,
+    "udt_native_theory_research_plan_2026-09-13/PLAN.md": true,
+    "maintenance_agent_capacity_2026-09-10.md": true,
+    "CURRENT_SCIENTIFIC_PREMISES.tsv": true,
+    "CURRENT_SCIENTIFIC_PREMISES.md": true,
+    "CANON.md": true,
+    "UDT_METRIC_KERNEL_DEVELOPMENT.md": true,
+    "UDT_METRIC_KERNEL_COVERAGE.tsv": true
+  }
+}

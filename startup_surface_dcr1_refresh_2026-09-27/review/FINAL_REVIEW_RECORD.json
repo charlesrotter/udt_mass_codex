@@ -1,0 +1,48 @@
+{
+  "reviewer": "/root/startup_dcr1_fidelity",
+  "start_utc": "2026-09-27T19:18:46+00:00",
+  "seal_utc": "2026-09-27T19:25:09.487506+00:00",
+  "elapsed_seconds": 383.487506,
+  "allocation_budget_seconds": 600,
+  "head": "4f98d8fe44791ffdcaf225e5be7b21e30a8f7629",
+  "branch": "grok",
+  "verdict": "VERIFIED-WITH-CAVEATS",
+  "scope": "Editorial fidelity of five startup documents and bounded integrity/startup guard repairs; not renewed scientific verification.",
+  "changed_file_sha256": {
+    "LIVE.md": "0dd8dea02261f465cdb6bb81eac6129431a45b39617a886b88a082b45b9ff1af",
+    "HANDOFF.md": "36104dab5a979fba1b225ee3046aca94bedee5a4dbd85ac91f03da796503d440",
+    "CURRENT_RESEARCH_PROGRAM.md": "2b4d7b7bbc49cdbe3cceb1d86260058a1d0da6226f30c34ee04bbc832ed8cec1",
+    "INDEX.md": "8fab39013ade3f63d314b68b2b41a03a4b0a1702ac12b7610e783c97f000daf6",
+    "MEMORY.md": "faab7b95506c73a98821dae936514f89a452842c0ecf78a23a4587542bbc7628",
+    "verify_current_scientific_premises.py": "97724ef61bf70902ed6b70df9ee92e13acfb2a55fbede2d32adae46fa5b76bd4",
+    "tests/test_startup_surface.py": "de5384a6e6b2267f0f5d9a0ae0c1c9e71e265cc09a3dcf72826f43dca01b0e6f"
+  },
+  "additional_checksum_sources_sha256": {
+    "pin_hash.py": "b5199a9f48ea60ca5789d6944d73eae3a0bc498ff30d9d7ab241d67a5955fe33",
+    "udt_g236_dual_sne_relational_state_reconstruction_2026-08-23/FINAL_EVIDENCE_MANIFEST.tsv": "edf6bd23d613cee2508763cddb87a59c9b3d6ea34653d7db6144981337d78ff2",
+    "udt_g236_dual_sne_relational_state_reconstruction_2026-08-23/STATE_RECONSTRUCTION.tsv": "6855e2ac5d39c1de525cb1be1cea2305e2280a5db9dd5b78fef50a66b2368916",
+    "udt_g237_dual_sne_joint_relational_state_freeze_2026-08-23/FINAL_EVIDENCE_MANIFEST.tsv": "f021818535b83c4b7a5760d7509181b6d4ab8bb2463754be40eba19f183ef11b",
+    "udt_g237_dual_sne_joint_relational_state_freeze_2026-08-23/JOINT_STATE.tsv": "548219b37459a12c590a43568120e519fc58fa79b322c2059a7b06ba8b88c4b1",
+    "udt_g243_reciprocal_sne_radial_spline_freeze_2026-08-24/RADIAL_REPRESENTATION.npz": "68deaa48bb68493febb1c9d34de426a215675f917b971b1aca59f833d468600b"
+  },
+  "source_first_pins_still_match": true,
+  "runtime_exact_model": "UNATTESTED",
+  "different_model": "UNTESTED",
+  "independent_context": true,
+  "independent_scientific_argument": false,
+  "separate_guard_execution": true,
+  "final_full_premise_verifier": "Parent-reported pending at review seal; not rerun or attested by reviewer.",
+  "parent_navigation": "Parent reported navigation02:371passed/1deselected; not independently replayed in full.",
+  "bounded_pytest": "21passed/351deselected; exact command/times/output in BOUNDED_TESTS.*",
+  "packaging_checks": "PASS; actual extracted manifest guards reject changed payload/extra path/missing path; actual raw sealed bytes agree. Exact details in PACKAGING_GUARD_CHECKS.json.",
+  "tracked_changed_scope_exact": [
+    "CURRENT_RESEARCH_PROGRAM.md",
+    "HANDOFF.md",
+    "INDEX.md",
+    "LIVE.md",
+    "MEMORY.md",
+    "tests/test_startup_surface.py",
+    "verify_current_scientific_premises.py"
+  ],
+  "status_scope": "Names and status flags only in INITIAL_STATUS.txt and FINAL_STATUS.txt; no payload integrity claim."
+}

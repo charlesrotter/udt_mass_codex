@@ -1,0 +1,250 @@
+diff --git a/CURRENT_RESEARCH_PROGRAM.md b/CURRENT_RESEARCH_PROGRAM.md
+index 7cec79b5..af603970 100644
+--- a/CURRENT_RESEARCH_PROGRAM.md
++++ b/CURRENT_RESEARCH_PROGRAM.md
+@@ -1,6 +1,6 @@
+ # Current UDT research program
+ 
+-Date: 2026-09-18
++Date: 2026-09-27
+ 
+ `LIVE.md` controls status; exact 406-row `CURRENT_SCIENTIFIC_PREMISES.tsv` controls ownership.
+ 
+@@ -102,15 +102,17 @@ G406--G410: conditional measurement mathematics and G409=CO2 design control.
+ G411=LC2: published-summary benchmark; G412=FW2: failed finite procedure, not a metric constraint.
+ Whole original reviews/caveats control; roadmap: `UDT_RESEARCH_ROADMAP.md`; consolidated gains/gates: `UDT_CONSOLIDATED_RESEARCH_ACCOUNT.md`.
+ 
+-Geometric theory/calibration and possible emergence remain parallel, neither prerequisite.
+-Explicit justified transfer/instrument assumptions can support conditional measurements;
+-neither emergent light nor an admitted sourced sector is a blanket prerequisite for every route.
+-No measurement assumption is silently adopted. GOCE PARKED, eligibility UNRESOLVED/OPEN,
++Geometric/calibration and emergence aims remain parallel; conditional measurements need justified
++transfer/instrument assumptions, not necessarily emergent light or an admitted sourced sector.
++No assumption is adopted. FSR1/PJC1 supplied no new field equation; Maxwell PAUSED.
++GOCE PARKED, eligibility UNRESOLVED/OPEN,
+ enquiry UNSENT; GW procedure parked at its design gate, clock/complementary campaigns complete.
+ Instrument gaps do not block theory. Fixed manuscript/coverage stays through G352.
+ Backup completeness/pre-reboot unsaved state remain UNVERIFIED; ScratchDisk is archive-only.
+ 
+ ## Current next gate
+ 
+-DCR1 reviewed conditional UNPROMOTED return (`udt_directional_clock_release_2026-09-14/`); FSR1/PJC1 already stopped without new field equation; native admission OPEN; Maxwell PAUSED; FE1 UNADOPTED; discussion/direction stop; no automatic successor; roadmap owns dispositions.
+-G312 membership unclosed; G352 physical-realization: physical identification remains OPEN.
++DCR1 reviewed conditional UNPROMOTED: directional clocks permit central tides in its supplied static class
++under full G301 at an eligible center; no neighborhood field equation; FE1 UNADOPTED.
++G312 membership/native admission unclosed; response identification OPEN; G352 physical-realization: physical identification remains OPEN.
++Stop for lay discussion; no new campaign is authorized; work order and return gates: `UDT_RESEARCH_ROADMAP.md`.
+diff --git a/HANDOFF.md b/HANDOFF.md
+index c3a1b92d..e4f4e9ca 100644
+--- a/HANDOFF.md
++++ b/HANDOFF.md
+@@ -1,7 +1,7 @@
+ # HANDOFF — lean fresh-session anchor
+ 
+ <!-- STARTUP_CURRENT_BEGIN -->
+-## Current handoff anchor — 2026-09-18
++## Current handoff anchor — 2026-09-27
+ 
+ `LIVE.md` wins; exact grades belong to the 406-row `CURRENT_SCIENTIFIC_PREMISES.tsv`.
+ Sources and completed-campaign routes: `INDEX.md`; dependency spine:
+@@ -74,11 +74,12 @@ Protected—do not stage, modify, mine or cite without dispatch:
+ 
+ ### Fresh-session handoff
+ 
+-Fresh Codex session authorized, not resume/fork; retain session history. Follow AGENTS;
+-report actual model/instructions/checks. After orientation: `maintenance_agent_capacity_2026-09-10.md`,
+-dated handoff sequence. General capacity UNVERIFIED; prior passes are historical evidence.
+-Availability testing is operational only; the whiteboard's scientific audit is PROPOSED, NOT AUTHORIZED.
++Follow AGENTS; report actual instructions/checks and distinguish configured from runtime-attested model.
++The dated availability check is COMPLETE: `maintenance_agent_capacity_2026-09-10.md`; retain history.
++General capacity UNVERIFIED; no automatic repeat. FSR1/PJC1 supplied no new field equation; Maxwell PAUSED.
+ 
+-Next: DCR1 reviewed conditional UNPROMOTED return (`udt_directional_clock_release_2026-09-14/`); FSR1/PJC1 already stopped without new field equation; native admission OPEN; Maxwell PAUSED; FE1 UNADOPTED; discussion/direction stop; no automatic successor; roadmap owns dispositions.
+-G312 membership unclosed; G352 physical-realization: physical identification remains OPEN.
++Next: DCR1 reviewed conditional UNPROMOTED: directional clocks permit central tides in its supplied static class
++under full G301 at an eligible center; no neighborhood field equation; FE1 UNADOPTED.
++G312 membership/native admission unclosed; response identification OPEN; G352 physical-realization: physical identification remains OPEN.
++Stop for lay discussion; no new campaign is authorized; work order and return gates: `UDT_RESEARCH_ROADMAP.md`.
+ <!-- STARTUP_CURRENT_END -->
+diff --git a/INDEX.md b/INDEX.md
+index 1edf8d85..e87039d7 100644
+--- a/INDEX.md
++++ b/INDEX.md
+@@ -28,7 +28,7 @@ review restoration requires `--record-review REVIEW_RECORD.json` tied to exact c
+ Prior banking: `udt_g381_g382_conditional_banking_2026-09-09/BANKING_RECORD.md`;
+ its execution/publication records own completion. Original campaign:
+ `udt_neighboring_tidal_consistency_campaign_2026-09-08/CAMPAIGN_LOG.md`.
+-Prior compaction: `startup_surface_current_tracking_compaction_2026-09-09/WORK_RECORD.md`.
++Startup refresh: `startup_surface_dcr1_refresh_2026-09-27/WORK_RECORD.md`.
+ Earlier geometry: `udt_nonlinear_ripple_geometry_2026-09-09/DECISION_BRIEF.md`; G394=NE1 conditional;
+ exact polarized development: fading profile, cumulative marked-area-rate/tidal departure.
+ REVIEWED_RESULT.md and full review control; supplied-data/marking and conditional-method limits, not stability/content.
+diff --git a/LIVE.md b/LIVE.md
+index 8fffe6bc..1f455152 100644
+--- a/LIVE.md
++++ b/LIVE.md
+@@ -1,9 +1,9 @@
+ # LIVE — current state only
+ 
+ <!-- STARTUP_CURRENT_BEGIN -->
+-## CURRENT STATE — 2026-09-18
++## CURRENT STATE — 2026-09-27
+ 
+-Branch: `grok`. Synchronize; inspect dirt. This block overrides older status.
++Branch: `grok`. Synchronize; inspect dirt. Overrides older status.
+ 
+ ### Honest claim
+ 
+@@ -75,12 +75,11 @@ G374/G375 restrict position-dependent rescaling on a fixed base but retain const
+ `g_hat=a^-2 g, Lambda_hat=a^2 Lambda, a>0`. No physical size or absolute scale is selected.
+ A separately fixed target scalar restricts that rescaling; its value is supplied, not derived.
+ Carried measure, configuration population and history selection differ; “occupancy” supplies no law.
+-A successor must identify an unexamined admitted implication, not repeat scalar/source nonselection.
++A successor needs an unexamined admitted implication, not repeated scalar/source nonselection.
+ 
+-Geometric theory/calibration and possible emergence remain parallel, neither prerequisite.
+-Conditional measurement models require explicit justified transfer/instrument assumptions;
+-an admitted sourced sector or emergent light is not a blanket prerequisite for every route.
+-No such assumption is adopted by this wording.
++Geometric/calibration and emergence aims remain parallel. Conditional measurements need justified
++transfer/instrument assumptions; an admitted sourced sector or emergent light is not a blanket prerequisite.
++No assumption is adopted. FSR1/PJC1 stopped without a new field equation; Maxwell PAUSED.
+ 
+ ### Paused routes and preservation
+ 
+@@ -106,6 +105,8 @@ Protected—do not stage, modify, mine or cite without dispatch:
+ 
+ ### Next gate
+ 
+-DCR1 reviewed conditional UNPROMOTED return (`udt_directional_clock_release_2026-09-14/`); FSR1/PJC1 already stopped without new field equation; native admission OPEN; Maxwell PAUSED; FE1 UNADOPTED; discussion/direction stop; no automatic successor; roadmap owns dispositions.
+-G312 membership unclosed; G352 physical-realization: physical identification remains OPEN.
++DCR1 reviewed conditional UNPROMOTED: directional clocks permit central tides in its supplied static class
++under full G301 at an eligible center; no neighborhood field equation; FE1 UNADOPTED.
++G312 membership/native admission unclosed; response identification OPEN; G352 physical-realization: physical identification remains OPEN.
++Stop for lay discussion; no new campaign is authorized; work order and return gates: `UDT_RESEARCH_ROADMAP.md`.
+ <!-- STARTUP_CURRENT_END -->
+diff --git a/MEMORY.md b/MEMORY.md
+index e7f7c4a0..a31873a6 100644
+--- a/MEMORY.md
++++ b/MEMORY.md
+@@ -47,8 +47,8 @@ Session transition: `HANDOFF.md`.
+ 
+ Banking through G382 is complete; G312 membership unclosed, G352 physical identification OPEN.
+ Consolidated gains/gates: `UDT_CONSOLIDATED_RESEARCH_ACCOUNT.md`; roadmap owns dispositions and GFC1 connection.
+-NAP1 reviewed/UNPROMOTED; admission OPEN; Maxwell PAUSED; emergence rule: AGENTS/roadmap;
+-FE1 UNADOPTED; JRC1/PJC1/FSR1/DCR1 scopes: roadmap.
++NAP1/DCR1 reviewed/UNPROMOTED; native admission/response identification OPEN; Maxwell PAUSED.
++FE1 UNADOPTED; JRC1/PJC1/FSR1/DCR1 scopes/stop: roadmap.
+ 
+ Backup completeness/pre-reboot unsaved state remain UNVERIFIED; ScratchDisk archive-only.
+ R2--R5 remain verified with caveats;184,300 covariance rows unresolved, no preferred scale.
+diff --git a/tests/test_startup_surface.py b/tests/test_startup_surface.py
+index cbf05da1..cfb733f3 100644
+--- a/tests/test_startup_surface.py
++++ b/tests/test_startup_surface.py
+@@ -1051,9 +1051,15 @@ def test_catch_unattributed_g352_next_gate(tmp_path: Path) -> None:
+ 
+ @pytest.mark.parametrize("name", ("LIVE.md", "HANDOFF.md"))
+ @pytest.mark.parametrize("token", (
+-    "exact-scope banking",
++    "DCR1 reviewed conditional UNPROMOTED",
++    "full G301 at an eligible center",
++    "no neighborhood field equation",
++    "FE1 UNADOPTED",
++    "G312 membership/native admission unclosed",
++    "response identification OPEN",
+     "physical identification remains OPEN",
+-    "Charles authorized broader-geometry testing and one bounded follow-up",
++    "Stop for lay discussion",
++    "no new campaign is authorized",
+ ))
+ def test_catch_conditional_banking_next_gate_scope(tmp_path: Path, name: str, token: str) -> None:
+     root = _startup_copy(tmp_path)
+@@ -1486,8 +1492,7 @@ def test_current_next_gate_is_three_sentences_not_campaign_history() -> None:
+         text = text.split("<!-- STARTUP_CURRENT_END -->", 1)[0].strip()
+         assert len(re.findall(r"\.(?:\s|$)", text)) == 3, relative
+         assert len(text.split()) <= 65, relative
+-        assert (("Stop for lay discussion" in text and "no new campaign is authorized" in text)
+-                or "Charles authorized broader-geometry testing and one bounded follow-up" in text)
++        assert "Stop for lay discussion" in text and "no new campaign is authorized" in text
+ 
+ 
+ @pytest.mark.parametrize("old,new", (
+diff --git a/verify_current_scientific_premises.py b/verify_current_scientific_premises.py
+index 64945a96..f297ac6d 100644
+--- a/verify_current_scientific_premises.py
++++ b/verify_current_scientific_premises.py
+@@ -1842,18 +1842,22 @@ def validate_startup_surface(root: Path) -> None:
+     require(len(live_next_parts) == 2, "LIVE next-gate section missing")
+     live_next = " ".join(live_next_parts[1].split())
+     for token in (
+-        "G383--G412", "COMPLETE", "exact-scope banking",
++        "DCR1 reviewed conditional UNPROMOTED", "full G301 at an eligible center",
++        "no neighborhood field equation", "FE1 UNADOPTED",
++        "G312 membership/native admission unclosed", "response identification OPEN",
+         "G352 physical-realization", "physical identification remains OPEN",
+-        "Charles authorized broader-geometry testing and one bounded follow-up", "work order and return gates",
++        "Stop for lay discussion", "no new campaign is authorized", "work order and return gates",
+     ):
+         require(token in live_next, f"LIVE next gate lacks bounded conditional banking status: {token}")
+     handoff_next_parts = handoff.split("Next:", 1)
+     require(len(handoff_next_parts) == 2, "HANDOFF next-gate statement missing")
+     handoff_next = " ".join(handoff_next_parts[1].split())
+     for token in (
+-        "G383--G412", "COMPLETE", "exact-scope banking",
++        "DCR1 reviewed conditional UNPROMOTED", "full G301 at an eligible center",
++        "no neighborhood field equation", "FE1 UNADOPTED",
++        "G312 membership/native admission unclosed", "response identification OPEN",
+         "G352 physical-realization", "physical identification remains OPEN",
+-        "Charles authorized broader-geometry testing and one bounded follow-up", "work order and return gates",
++        "Stop for lay discussion", "no new campaign is authorized", "work order and return gates",
+     ):
+         require(token in handoff_next, f"HANDOFF next gate lacks bounded conditional banking status: {token}")
+ 
+@@ -11013,13 +11017,16 @@ def main() -> None:
+     g236_registered = {row["path"]: row["sha256"] for row in g236_manifest_rows}
+     require(len(g236_registered) == len(g236_manifest_rows), "G236 duplicate manifest path")
+     g236_actual = {
+-        path.relative_to(g236).as_posix(): pin_sha256(path.read_bytes())
++        path.relative_to(g236).as_posix(): path.read_bytes()
+         for path in g236.rglob("*")
+         if path.is_file()
+         and path.name != "FINAL_EVIDENCE_MANIFEST.tsv"
+         and "__pycache__" not in path.parts
+     }
+-    require(g236_registered == g236_actual, "G236 final evidence manifest mismatch")
++    require(g236_registered.keys() == g236_actual.keys()
++            and all(pin_matches(payload, g236_registered[name])
++                    for name, payload in g236_actual.items()),
++            "G236 final evidence manifest mismatch")
+     require(
+         by_id["G237"]["current_status"].startswith(
+             "EXTERNALLY_VERIFIED_WITH_CAVEATS__PREREGISTERED_AT_AD49B9C8"
+@@ -11149,13 +11156,16 @@ def main() -> None:
+     g237_registered = {row["path"]: row["sha256"] for row in g237_manifest_rows}
+     require(len(g237_registered) == len(g237_manifest_rows), "G237 duplicate manifest path")
+     g237_actual = {
+-        path.relative_to(g237).as_posix(): pin_sha256(path.read_bytes())
++        path.relative_to(g237).as_posix(): path.read_bytes()
+         for path in g237.rglob("*")
+         if path.is_file()
+         and path.name != "FINAL_EVIDENCE_MANIFEST.tsv"
+         and "__pycache__" not in path.parts
+     }
+-    require(g237_registered == g237_actual, "G237 final evidence manifest mismatch")
++    require(g237_registered.keys() == g237_actual.keys()
++            and all(pin_matches(payload, g237_registered[name])
++                    for name, payload in g237_actual.items()),
++            "G237 final evidence manifest mismatch")
+     require(
+         by_id["G238"]["current_status"].startswith(
+             "EXTERNALLY_VERIFIED_WITH_CAVEATS__PREREGISTERED_AT_CF7DEED2"
+@@ -11775,7 +11785,7 @@ def main() -> None:
+     ):
+         require((g243 / name).is_file(), f"G243 evidence missing: {name}")
+     require(
+-        pin_sha256((g243 / "RADIAL_REPRESENTATION.npz").read_bytes())
++        hashlib.sha256((g243 / "RADIAL_REPRESENTATION.npz").read_bytes()).hexdigest()
+         == "68deaa48bb68493febb1c9d34de426a215675f917b971b1aca59f833d468600b",
+         "G243 frozen radial representation hash changed",
+     )
