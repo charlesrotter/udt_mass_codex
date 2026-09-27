@@ -66,3 +66,8 @@ Publication state at this file's freeze: prepared for a packet-only commit/push;
 the final user-facing report and Git history own the actual publication result.
 Saving this draft is not scientific acceptance. No live status pointer is changed
 as part of this checkpoint.
+
+The first local commit needed a packaging-only repair before push; see
+`PUBLICATION_REPAIR.md` for the failed staging-count check, ignored empty receipt,
+format-specific whitespace diagnostics and final Git-blob correspondence gate.
+These are preserved execution history, not new scientific objections.

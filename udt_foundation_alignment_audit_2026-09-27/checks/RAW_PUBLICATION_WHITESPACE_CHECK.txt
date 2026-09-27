@@ -1,0 +1,192 @@
+udt_foundation_alignment_audit_2026-09-27/candidate/MAINTAINED_DOCS.patch:5: trailing whitespace.
++ 
+udt_foundation_alignment_audit_2026-09-27/candidate/MAINTAINED_DOCS.patch:28: trailing whitespace.
++ 
+udt_foundation_alignment_audit_2026-09-27/candidate/MAINTAINED_DOCS.patch:30: trailing whitespace.
++ 
+udt_foundation_alignment_audit_2026-09-27/candidate/MAINTAINED_DOCS.patch:33: trailing whitespace.
++ 
+udt_foundation_alignment_audit_2026-09-27/candidate/MAINTAINED_DOCS.patch:38: trailing whitespace.
++ 
+udt_foundation_alignment_audit_2026-09-27/candidate/MAINTAINED_DOCS.patch:43: trailing whitespace.
++ 
+udt_foundation_alignment_audit_2026-09-27/candidate/MAINTAINED_DOCS.patch:45: trailing whitespace.
++ 
+udt_foundation_alignment_audit_2026-09-27/candidate/MAINTAINED_DOCS.patch:56: trailing whitespace.
++ 
+udt_foundation_alignment_audit_2026-09-27/initial_candidate/MAINTAINED_DOCS.patch:5: trailing whitespace.
++ 
+udt_foundation_alignment_audit_2026-09-27/initial_candidate/MAINTAINED_DOCS.patch:28: trailing whitespace.
++ 
+udt_foundation_alignment_audit_2026-09-27/initial_candidate/MAINTAINED_DOCS.patch:30: trailing whitespace.
++ 
+udt_foundation_alignment_audit_2026-09-27/initial_candidate/MAINTAINED_DOCS.patch:33: trailing whitespace.
++ 
+udt_foundation_alignment_audit_2026-09-27/initial_candidate/MAINTAINED_DOCS.patch:38: trailing whitespace.
++ 
+udt_foundation_alignment_audit_2026-09-27/initial_candidate/MAINTAINED_DOCS.patch:43: trailing whitespace.
++ 
+udt_foundation_alignment_audit_2026-09-27/initial_candidate/MAINTAINED_DOCS.patch:45: trailing whitespace.
++ 
+udt_foundation_alignment_audit_2026-09-27/initial_candidate/MAINTAINED_DOCS.patch:56: trailing whitespace.
++ 
+udt_foundation_alignment_audit_2026-09-27/review/concept/DIRECT_SOURCE_PINS.tsv:1: trailing whitespace.
++path	sha256	read_depth
+udt_foundation_alignment_audit_2026-09-27/review/concept/DIRECT_SOURCE_PINS.tsv:2: trailing whitespace.
++udt_g176_completed_pair_dual_reciprocity_consolidation_2026-08-19/AUDIT_REPORT.md	c7c96194a8baf3465b2d8c58ff19051ee2937b4b7f7a5d0e8859ad1a26651d84	full
+udt_foundation_alignment_audit_2026-09-27/review/concept/DIRECT_SOURCE_PINS.tsv:3: trailing whitespace.
++udt_g178_completed_pair_kernel_fresh_adversarial_review_2026-08-19/AUDIT_REPORT.md	df7db9300a350d5721874175b4d0f2eff60967d7588eb0f763f63fffa32d7744	full
+udt_foundation_alignment_audit_2026-09-27/review/concept/DIRECT_SOURCE_PINS.tsv:4: trailing whitespace.
++udt_g166_primary_metric_ordered_pair_kernel_descent_2026-08-18/AUDIT_REPORT.md	3b7bef3e8027eb95dd9070cf8844bfbbba602d4a7ce30c1772bbc540f9e97bd7	full
+udt_foundation_alignment_audit_2026-09-27/review/concept/DIRECT_SOURCE_PINS.tsv:5: trailing whitespace.
++udt_ncb1_banking_2026-09-12/BANKING_RECORD.md	4a888a6552360e71b97372623fe135458a546311c8e73a4ac9e99302e1be8022	full scope record; original evidence not reread
+udt_foundation_alignment_audit_2026-09-27/review/concept/DIRECT_SOURCE_PINS.tsv:6: trailing whitespace.
++udt_signal_chain_banking_2026-09-13/BANKING_RECORD.md	5e7070af6dcc549ecad8962dd0056ea7a08bb747140aa4484da26f4ba9dc2397	full scope record; original evidence not reread
+udt_foundation_alignment_audit_2026-09-27/review/concept/DIRECT_SOURCE_PINS.tsv:7: trailing whitespace.
++udt_accepted_work_consolidation_2026-09-12/REGISTRY_COVERAGE.tsv	4c91838974091bcd860760768c40d6ac2f141259e85a0114004aeb8ef1a50671	all rows metadata comparison only
+udt_foundation_alignment_audit_2026-09-27/review/concept/DIRECT_SOURCE_PINS.tsv:8: trailing whitespace.
++udt_accepted_work_consolidation_2026-09-12/FAMILY_MAP.tsv	92e1f4dd7050b1e801961d9c10be85486600e997d892dc6ee957b4eaca028ef9	all family metadata machine comparison only
+udt_foundation_alignment_audit_2026-09-27/review/concept/DIRECT_SOURCE_PINS.tsv:9: trailing whitespace.
++udt_accepted_work_consolidation_2026-09-12/SOURCE_READ_LEDGER.tsv	f686a4d28f2e483aae3d2b82005eccd9cd60f07f800b0f7eb0930a0816921733	schema and metadata depth counts only
+udt_foundation_alignment_audit_2026-09-27/review/concept/DIRECT_SOURCE_PINS.tsv:10: trailing whitespace.
++udt_native_theory_research_plan_2026-09-13/PLAN.md	5a718b0765951f97d2fcbdecf872d505557611f98524bc0e09888c1db64b5a5f	lines 400-420 current patch target only
+udt_foundation_alignment_audit_2026-09-27/review/concept/DIRECT_SOURCE_PINS.tsv:11: trailing whitespace.
++udt_field_equation_provenance_and_process_2026-09-13/RECOVERY_REPORT.md	b22b593ef4e884da24e400eece52a78fe96a033ac14e3025e492c0552b4894c0	heading/Maxwell/target keyword excerpts only; roadmap controls intent-drift statement
+udt_foundation_alignment_audit_2026-09-27/review/concept/SOURCE_PINS.tsv:1: trailing whitespace.
++path	sha256	bytes	read_depth	role_and_limit
+udt_foundation_alignment_audit_2026-09-27/review/concept/SOURCE_PINS.tsv:2: trailing whitespace.
++AGENTS.md	c578b045cf3278804124e23a5408ff9634a9a2165f7d20223f654d76bffd8ec9	15476	full	method authority; parent startup attribution
+udt_foundation_alignment_audit_2026-09-27/review/concept/SOURCE_PINS.tsv:3: trailing whitespace.
++udt_foundation_alignment_audit_2026-09-27/WORK_ORDER.md	4c7cc7d166dbc3b4a1fbad04f66585dff735c14397ac03a5990b95b07b2c3629	6506	full	authorized scope; no candidate exposure
+udt_foundation_alignment_audit_2026-09-27/review/concept/SOURCE_PINS.tsv:4: trailing whitespace.
++CLAUDE.md	b7e524a5b06760e57877a408630228767ae9a394134095f9851bef5d06e17751	9879	full lines 1-149	shared method and scope/review discipline
+udt_foundation_alignment_audit_2026-09-27/review/concept/SOURCE_PINS.tsv:5: trailing whitespace.
++.claude/skills/no-shortcuts/SKILL.md	fd3a1f3218481134f2af829d3ae4175ac53518f75bf9673287efbfb7d7708fc1	2966	full	native/import and premise audit protocol
+udt_foundation_alignment_audit_2026-09-27/review/concept/SOURCE_PINS.tsv:6: trailing whitespace.
++.claude/skills/completeness-map/SKILL.md	a8cf9e5f4a6d35a0d0ebfe4bc48dbf328ca74e318f020a6a22cb683666a611c0	2490	full	premise-relative scope protocol
+udt_foundation_alignment_audit_2026-09-27/review/concept/SOURCE_PINS.tsv:7: trailing whitespace.
++.claude/skills/verifier-before-record/SKILL.md	9b3a4aacd4b4006b2b7f01edada73b7c87b99bea6e754583558713bfc145e5ac	3545	full	source fidelity review protocol
+udt_foundation_alignment_audit_2026-09-27/review/concept/SOURCE_PINS.tsv:8: trailing whitespace.
++CROSS_MODEL_VERIFY.md	2b0509d933d731fbf3f72aa88777a54d3e48a94d4bae3d324087871777f9a007	2632	full	independence reporting protocol
+udt_foundation_alignment_audit_2026-09-27/review/concept/SOURCE_PINS.tsv:9: trailing whitespace.
++LIVE.md	0dd8dea02261f465cdb6bb81eac6129431a45b39617a886b88a082b45b9ff1af	7970	STARTUP_CURRENT block only lines 3-112	current authority
+udt_foundation_alignment_audit_2026-09-27/review/concept/SOURCE_PINS.tsv:10: trailing whitespace.
++CURRENT_RESEARCH_PROGRAM.md	2b4d7b7bbc49cdbe3cceb1d86260058a1d0da6226f30c34ee04bbc832ed8cec1	9064	full	dependency spine and latest gate
+udt_foundation_alignment_audit_2026-09-27/review/concept/SOURCE_PINS.tsv:11: trailing whitespace.
++CURRENT_SCIENTIFIC_PREMISES.md	7b574665f714551a3a565987fc5bc56a4b44c7e6fb274532f61609c25153f627	10204	full	bounded scientific premise summary
+udt_foundation_alignment_audit_2026-09-27/review/concept/SOURCE_PINS.tsv:12: trailing whitespace.
++CURRENT_SCIENTIFIC_PREMISES.tsv	7a3d69d5a0bc3ac98e2ebe2bb0c6d029df30071bf403baffed2223a193dc720b	909534	selected rows only: G163 G220 G265 G269 G274 G276 G294 G301 G312 W5 W6; header; queried columns recorded by tool output	exact grades; full-file hash is correspondence only; no whole-registry review
+udt_foundation_alignment_audit_2026-09-27/review/concept/SOURCE_PINS.tsv:13: trailing whitespace.
++INDEX.md	8fab39013ade3f63d314b68b2b41a03a4b0a1702ac12b7610e783c97f000daf6	9245	headings search plus lines 47-68	navigation only
+udt_foundation_alignment_audit_2026-09-27/review/concept/SOURCE_PINS.tsv:14: trailing whitespace.
++MEMORY.md	faab7b95506c73a98821dae936514f89a452842c0ecf78a23a4587542bbc7628	3790	headings search only	not used as scientific evidence
+udt_foundation_alignment_audit_2026-09-27/review/concept/SOURCE_PINS.tsv:15: trailing whitespace.
++PROVENANCE.md	90f2a0e73881e3a9de99802af8be75f820a9873b6d76d2baa82b1ad4e8d7d16c	5175	full	original prompts intent; historical significance notes not current authority
+udt_foundation_alignment_audit_2026-09-27/review/concept/SOURCE_PINS.tsv:16: trailing whitespace.
++Mass creates gravity.txt	34989126d5788a9065439fbc87c8e6086e971ced3e3b767f54edabd0eb72333b	43722	full 415 lines; split reads after combined output truncation	supplied lecture; explanatory text, not historical testimony or scientific authority
+udt_foundation_alignment_audit_2026-09-27/review/concept/SOURCE_PINS.tsv:17: trailing whitespace.
++founding.md	b4b0d9a9fdd093c992647195aca7579566a9e77a396071a699c1938888a49e75	41347	full 1-1068	conceptual/assumption synthesis; W3 and other historical language qualified by latest authority
+udt_foundation_alignment_audit_2026-09-27/review/concept/SOURCE_PINS.tsv:18: trailing whitespace.
++UDT_RECIPROCAL_C_FOUNDING_POSTULATE_DERIVATION_RESULTS.md	b2bdf9dd427871c6e951c6b47748b7663aa4a6264fcfcbff59b51f1ea2272003	11418	full	founding derivation and explicit covariance countercase; historical action/X discussions not adopted
+udt_foundation_alignment_audit_2026-09-27/review/concept/SOURCE_PINS.tsv:19: trailing whitespace.
++udt_gr_filter_reconciliation_2026-09-09/AUTHORITY_RECORD.md	80daa0be6d3e1c0ac1b734fea089c4eb487f05bc1e1fbb2fabd69322ca89f28c	5452	full	latest GR-filter authority and conditional response class boundary
+udt_foundation_alignment_audit_2026-09-27/review/concept/SOURCE_PINS.tsv:20: trailing whitespace.
++UDT_RESEARCH_ROADMAP.md	a0c8ab2736c8e14580c69e4c9523932374cf4257d666af881be6d4da0f071aa4	94405	keyword/heading search; lines 299-335 536-574 666-685	direction only; emergence scope and GR correspondence expectation
+udt_foundation_alignment_audit_2026-09-27/review/concept/SOURCE_PINS.tsv:21: trailing whitespace.
++udt_g163_xmax_dependency_reversal_audit_2026-08-18/AUDIT_REPORT.md	e7eda779c8496f269a0e94060a5824dd79b2b147af8186277236982ec2708670	3403	full	dimensionless saturation vs dimensionful completion
+udt_foundation_alignment_audit_2026-09-27/review/concept/SOURCE_PINS.tsv:22: trailing whitespace.
++udt_g220_covariant_null_clock_arrow_timelive_lift_2026-08-22/AUDIT_REPORT.md	9806ac14f5d0bc419501878627dc79770ba4dd7c50f4f14dee0db216c3d9598f	3332	full	null arrow direction and supplied branch scope
+udt_foundation_alignment_audit_2026-09-27/review/concept/SOURCE_PINS.tsv:23: trailing whitespace.
++udt_g265_infinite_bare_c_mutual_pair_null_closure_2026-08-26/AUDIT_REPORT.md	b2f17879ad93375df50667d890041305a1cf5bb99763cfd4bb6af78c24c1358c	1604	full	bounded infinite bare c/signed versus even classification
+udt_foundation_alignment_audit_2026-09-27/review/concept/SOURCE_PINS.tsv:24: trailing whitespace.
++udt_g265_infinite_bare_c_mutual_pair_null_closure_2026-08-26/EXACT_DERIVATION.md	9e51c9940632160dc216da5c7bfa6e5c05c9b662d6226cbcb04a157a49d48ef9	9212	full	optical/proper distance; local measured speed; mutuality repair history
+udt_foundation_alignment_audit_2026-09-27/review/concept/SOURCE_PINS.tsv:25: trailing whitespace.
++udt_g269_null_transport_mutual_clock_screen_interlock_2026-08-26/AUDIT_REPORT.md	673a867b5b3c025a0cb07178edcabc5578a108e395834980ecaa4596febbb9f3	1846	full	metric-owned mutual scalar and scope
+udt_foundation_alignment_audit_2026-09-27/review/concept/SOURCE_PINS.tsv:26: trailing whitespace.
++udt_g269_null_transport_mutual_clock_screen_interlock_2026-08-26/EXACT_DERIVATION.md	812023393d4e04b8f2b47cc5429002dc78912b85983117e5633faed30a2f876e	7077	full	independent constructions and screen countercase
+udt_foundation_alignment_audit_2026-09-27/review/concept/SOURCE_PINS.tsv:27: trailing whitespace.
++udt_g274_projective_pair_position_network_descent_2026-08-26/AUDIT_REPORT.md	551bb9492118f941e0f30b0905255b2e97f7cf9b5fa23ce1d5a179809d13dabb	2306	full	screen/frame carry; old unadopted wording superseded only by W5
+udt_foundation_alignment_audit_2026-09-27/review/concept/SOURCE_PINS.tsv:28: trailing whitespace.
++udt_g276_proper_clock_ce_scale_anchor_reconciliation_2026-08-26/AUDIT_REPORT.md	cc66be850523fac561b411b32d7532069d838a6d6e6800568afd72f5560b862d	2987	full	same-segment independent clock scale attachment
+udt_foundation_alignment_audit_2026-09-27/review/concept/SOURCE_PINS.tsv:29: trailing whitespace.
++udt_g294_nonsignalling_copresence_network_architecture_2026-08-29/OWNER_INPUT.md	acd87e92083a407e84aee9bce0bb0649daddb1e8cd62ed49c5d9a071887662ac	679	full	owner intuition and authorization limits
+udt_foundation_alignment_audit_2026-09-27/review/concept/SOURCE_PINS.tsv:30: trailing whitespace.
++udt_g294_nonsignalling_copresence_network_architecture_2026-08-29/AUDIT_REPORT.md	de171479ff682ece888d005f0ab6f00410b609364ca653510fcc13a86a0700e0	4365	full	architecture result; original internal/implementation-distinct review grade
+udt_foundation_alignment_audit_2026-09-27/review/concept/SOURCE_PINS.tsv:31: trailing whitespace.
++udt_g294_nonsignalling_copresence_network_architecture_2026-08-29/EXACT_DERIVATION.md	2d7173af941e550bc79d66fcd25bf7bec9e171a962c79f881353b10301323844	8709	full	co-presence versus causal response; dimensional and graph/foliation controls
+udt_foundation_alignment_audit_2026-09-27/review/math/SOURCE_PINS.tsv:1: trailing whitespace.
++source	role	read_depth	file_sha256	selection_sha256
+udt_foundation_alignment_audit_2026-09-27/review/math/SOURCE_PINS.tsv:2: trailing whitespace.
++AGENTS.md	method authority	full	c578b045cf3278804124e23a5408ff9634a9a2165f7d20223f654d76bffd8ec9	
+udt_foundation_alignment_audit_2026-09-27/review/math/SOURCE_PINS.tsv:3: trailing whitespace.
++CLAUDE.md	runtime method	lines 9-83 and 121-134; headings searched	b7e524a5b06760e57877a408630228767ae9a394134095f9851bef5d06e17751	
+udt_foundation_alignment_audit_2026-09-27/review/math/SOURCE_PINS.tsv:4: trailing whitespace.
++.claude/skills/no-shortcuts/SKILL.md	triggered method	full	fd3a1f3218481134f2af829d3ae4175ac53518f75bf9673287efbfb7d7708fc1	
+udt_foundation_alignment_audit_2026-09-27/review/math/SOURCE_PINS.tsv:5: trailing whitespace.
++.claude/skills/completeness-map/SKILL.md	triggered method	full	a8cf9e5f4a6d35a0d0ebfe4bc48dbf328ca74e318f020a6a22cb683666a611c0	
+udt_foundation_alignment_audit_2026-09-27/review/math/SOURCE_PINS.tsv:6: trailing whitespace.
++.claude/skills/verifier-before-record/SKILL.md	triggered method	full	9b3a4aacd4b4006b2b7f01edada73b7c87b99bea6e754583558713bfc145e5ac	
+udt_foundation_alignment_audit_2026-09-27/review/math/SOURCE_PINS.tsv:7: trailing whitespace.
++udt_foundation_alignment_audit_2026-09-27/WORK_ORDER.md	authorization	full	4c7cc7d166dbc3b4a1fbad04f66585dff735c14397ac03a5990b95b07b2c3629	
+udt_foundation_alignment_audit_2026-09-27/review/math/SOURCE_PINS.tsv:8: trailing whitespace.
++UDT_RECIPROCAL_C_FOUNDING_POSTULATE_DERIVATION_RESULTS.md	founding argument	full	b2bdf9dd427871c6e951c6b47748b7663aa4a6264fcfcbff59b51f1ea2272003	
+udt_foundation_alignment_audit_2026-09-27/review/math/SOURCE_PINS.tsv:9: trailing whitespace.
++founding.md	scoped synthesis/source equations	lines 1-597; 675-796; 995-1065	b4b0d9a9fdd093c992647195aca7579566a9e77a396071a699c1938888a49e75	
+udt_foundation_alignment_audit_2026-09-27/review/math/SOURCE_PINS.tsv:10: trailing whitespace.
++udt_founding_phi_ownership_morphism_audit_2026-08-05/AUDIT_REPORT.md	G01 current grade	full	65905b6b2718fd9c1057143a7148104bb14d7e65eeee3bdc7a7010af8cbe90eb	
+udt_foundation_alignment_audit_2026-09-27/review/math/SOURCE_PINS.tsv:11: trailing whitespace.
++udt_founding_phi_ownership_morphism_audit_2026-08-05/EXACT_DERIVATION.md	G01/G02 argument	full	0d83baaaa9f0586cb3f3b0cd7af16b201996a124dba6a050c71624a2e638a4fd	
+udt_foundation_alignment_audit_2026-09-27/review/math/SOURCE_PINS.tsv:12: trailing whitespace.
++udt_g163_xmax_dependency_reversal_audit_2026-08-18/AUDIT_REPORT.md	G163 current grade	full	e7eda779c8496f269a0e94060a5824dd79b2b147af8186277236982ec2708670	
+udt_foundation_alignment_audit_2026-09-27/review/math/SOURCE_PINS.tsv:13: trailing whitespace.
++udt_g163_xmax_dependency_reversal_audit_2026-08-18/EXACT_DERIVATION.md	G163 argument	full	7b0e24a2fb0d8ebf0996977ecfbc48a12a20353fe38e4169bc5b53f6acc37838	
+udt_foundation_alignment_audit_2026-09-27/review/math/SOURCE_PINS.tsv:14: trailing whitespace.
++udt_g166_primary_metric_ordered_pair_kernel_descent_2026-08-18/AUDIT_REPORT.md	G166 current grade	full	3b7bef3e8027eb95dd9070cf8844bfbbba602d4a7ce30c1772bbc540f9e97bd7	
+udt_foundation_alignment_audit_2026-09-27/review/math/SOURCE_PINS.tsv:15: trailing whitespace.
++udt_g166_primary_metric_ordered_pair_kernel_descent_2026-08-18/EXACT_DERIVATION.md	G166 argument	full	9e985bbd73a2ffe099a57257ea51778fff9ec75eb48721565faafaafd14edc62	
+udt_foundation_alignment_audit_2026-09-27/review/math/SOURCE_PINS.tsv:16: trailing whitespace.
++udt_g176_completed_pair_dual_reciprocity_consolidation_2026-08-19/AUDIT_REPORT.md	G176 current grade	full	c7c96194a8baf3465b2d8c58ff19051ee2937b4b7f7a5d0e8859ad1a26651d84	
+udt_foundation_alignment_audit_2026-09-27/review/math/SOURCE_PINS.tsv:17: trailing whitespace.
++udt_g176_completed_pair_dual_reciprocity_consolidation_2026-08-19/EXACT_DERIVATION.md	G176 argument	full	df53a5b3c52d0bd24496d060637dc158a4f2c7cdd17226c9446ea0d338d27831	
+udt_foundation_alignment_audit_2026-09-27/review/math/SOURCE_PINS.tsv:18: trailing whitespace.
++udt_g178_completed_pair_kernel_fresh_adversarial_review_2026-08-19/AUDIT_REPORT.md	G178 historical separate review report	full report; review payload not replayed	df7db9300a350d5721874175b4d0f2eff60967d7588eb0f763f63fffa32d7744	
+udt_foundation_alignment_audit_2026-09-27/review/math/SOURCE_PINS.tsv:19: trailing whitespace.
++udt_g170_endpoint_relative_bidirectional_pair_response_2026-08-19/AUDIT_REPORT.md	G170 current grade	full	5eec3eec5ee17825628176f4e8346e5542a3c883374f2745a32fed937b71294e	
+udt_foundation_alignment_audit_2026-09-27/review/math/SOURCE_PINS.tsv:20: trailing whitespace.
++udt_g170_endpoint_relative_bidirectional_pair_response_2026-08-19/EXACT_DERIVATION.md	G170 argument	full	f4ff6489086e157deb9fb1e31ddf613e849a6806a129ec4c7d7657c0ebbd6d74	
+udt_foundation_alignment_audit_2026-09-27/review/math/SOURCE_PINS.tsv:21: trailing whitespace.
++udt_g265_infinite_bare_c_mutual_pair_null_closure_2026-08-26/AUDIT_REPORT.md	G265 current grade	full	b2f17879ad93375df50667d890041305a1cf5bb99763cfd4bb6af78c24c1358c	
+udt_foundation_alignment_audit_2026-09-27/review/math/SOURCE_PINS.tsv:22: trailing whitespace.
++udt_g265_infinite_bare_c_mutual_pair_null_closure_2026-08-26/EXACT_DERIVATION.md	G265 argument	full	9e51c9940632160dc216da5c7bfa6e5c05c9b662d6226cbcb04a157a49d48ef9	
+udt_foundation_alignment_audit_2026-09-27/review/math/SOURCE_PINS.tsv:23: trailing whitespace.
++udt_g269_null_transport_mutual_clock_screen_interlock_2026-08-26/AUDIT_REPORT.md	G269 current grade	full	673a867b5b3c025a0cb07178edcabc5578a108e395834980ecaa4596febbb9f3	
+udt_foundation_alignment_audit_2026-09-27/review/math/SOURCE_PINS.tsv:24: trailing whitespace.
++udt_g269_null_transport_mutual_clock_screen_interlock_2026-08-26/EXACT_DERIVATION.md	G269 argument	full	812023393d4e04b8f2b47cc5429002dc78912b85983117e5633faed30a2f876e	
+udt_foundation_alignment_audit_2026-09-27/review/math/SOURCE_PINS.tsv:25: trailing whitespace.
++udt_g312_quiet_gr_response_constitution_discriminator_2026-09-01/AUDIT_REPORT.md	G312 historical report; current authority qualifies	full	c8f9e5547c13067282d37bfb51db78d13bbdc06b48ef50f8f3f498e196abcb57	
+udt_foundation_alignment_audit_2026-09-27/review/math/SOURCE_PINS.tsv:26: trailing whitespace.
++udt_gr_filter_reconciliation_2026-09-09/AUTHORITY_RECORD.md	G312 current authority	full	80daa0be6d3e1c0ac1b734fea089c4eb487f05bc1e1fbb2fabd69322ca89f28c	
+udt_foundation_alignment_audit_2026-09-27/review/math/SOURCE_PINS.tsv:27: trailing whitespace.
++CURRENT_SCIENTIFIC_PREMISES.tsv	current exact registry authority	exact full row G312	7a3d69d5a0bc3ac98e2ebe2bb0c6d029df30071bf403baffed2223a193dc720b	0241837d895c1f545b6b41a3930b98c6574edc0a674573157cf1084c320d1df0
+udt_foundation_alignment_audit_2026-09-27/review/math/SOURCE_PINS.tsv:28: trailing whitespace.
++CURRENT_SCIENTIFIC_PREMISES.tsv	current exact registry authority	exact full row W6	7a3d69d5a0bc3ac98e2ebe2bb0c6d029df30071bf403baffed2223a193dc720b	eaf7d98238686d243f12c8fdd2b5aaae985fcbebbb2f11c4c6b20f6dd006223c
+udt_foundation_alignment_audit_2026-09-27/review/math/SOURCE_PINS.tsv:29: trailing whitespace.
++CURRENT_SCIENTIFIC_PREMISES.tsv	current exact registry authority	exact full row W5	7a3d69d5a0bc3ac98e2ebe2bb0c6d029df30071bf403baffed2223a193dc720b	567b53f5c7e30dfdeb0fa3d40907b196c072f1698d73156f6bacbec08a34a9c1
+udt_foundation_alignment_audit_2026-09-27/review/math/SOURCE_PINS.tsv:30: trailing whitespace.
++CURRENT_SCIENTIFIC_PREMISES.tsv	current exact registry authority	exact full row G269	7a3d69d5a0bc3ac98e2ebe2bb0c6d029df30071bf403baffed2223a193dc720b	7622802cc5d5080bb12dc98f3c2d0e11ca01fe5dbd677e4d1f22ef1b3265c841
+udt_foundation_alignment_audit_2026-09-27/review/math/SOURCE_PINS.tsv:31: trailing whitespace.
++CURRENT_SCIENTIFIC_PREMISES.tsv	current exact registry authority	exact full row G265	7a3d69d5a0bc3ac98e2ebe2bb0c6d029df30071bf403baffed2223a193dc720b	598283d4b088af45ba3f840ac2ebd91ed8db369176e33a1023aff884c2b9f6a7
+udt_foundation_alignment_audit_2026-09-27/review/math/SOURCE_PINS.tsv:32: trailing whitespace.
++CURRENT_SCIENTIFIC_PREMISES.tsv	current exact registry authority	exact full row G178	7a3d69d5a0bc3ac98e2ebe2bb0c6d029df30071bf403baffed2223a193dc720b	f2cc45155cdd91b935d9e6a77672be594bfea7396ecc19f6668aacfdfb8918f7
+udt_foundation_alignment_audit_2026-09-27/review/math/SOURCE_PINS.tsv:33: trailing whitespace.
++CURRENT_SCIENTIFIC_PREMISES.tsv	current exact registry authority	exact full row G176	7a3d69d5a0bc3ac98e2ebe2bb0c6d029df30071bf403baffed2223a193dc720b	7349ceb680d32451a9a85e03e04be46fa0360fb0fc939aa635157a16176f308d
+udt_foundation_alignment_audit_2026-09-27/review/math/SOURCE_PINS.tsv:34: trailing whitespace.
++CURRENT_SCIENTIFIC_PREMISES.tsv	current exact registry authority	exact full row G170	7a3d69d5a0bc3ac98e2ebe2bb0c6d029df30071bf403baffed2223a193dc720b	a9c9ae9338b5cea389e0cbb5795073696eb4b83bbbf8fd73473cd8f121130ee9
+udt_foundation_alignment_audit_2026-09-27/review/math/SOURCE_PINS.tsv:35: trailing whitespace.
++CURRENT_SCIENTIFIC_PREMISES.tsv	current exact registry authority	exact full row G166	7a3d69d5a0bc3ac98e2ebe2bb0c6d029df30071bf403baffed2223a193dc720b	8640d5ea24f0147d81d568a1c91b5c098002fdb38124dd492b03d894064d0484
+udt_foundation_alignment_audit_2026-09-27/review/math/SOURCE_PINS.tsv:36: trailing whitespace.
++CURRENT_SCIENTIFIC_PREMISES.tsv	current exact registry authority	exact full row G163	7a3d69d5a0bc3ac98e2ebe2bb0c6d029df30071bf403baffed2223a193dc720b	cf130459b64eabf1adfa84ab13bce1486d2a066eafaf3d58367477af742a9f0b
+udt_foundation_alignment_audit_2026-09-27/review/math/SOURCE_PINS.tsv:37: trailing whitespace.
++CURRENT_SCIENTIFIC_PREMISES.tsv	current exact registry authority	exact full row G01	7a3d69d5a0bc3ac98e2ebe2bb0c6d029df30071bf403baffed2223a193dc720b	085c171bcacb714260591dfa2a19f9b522c923cd6150b3807d45ce1f6d1db4ba
+udt_foundation_alignment_audit_2026-09-27/review/math/SOURCE_PINS.tsv:38: trailing whitespace.
++CURRENT_SCIENTIFIC_PREMISES.tsv	current exact registry authority	exact full row G02	7a3d69d5a0bc3ac98e2ebe2bb0c6d029df30071bf403baffed2223a193dc720b	e969d02f0d53dcc16f629119b79f1b319bd1582ade678b6d2cda0ba203ee88a4

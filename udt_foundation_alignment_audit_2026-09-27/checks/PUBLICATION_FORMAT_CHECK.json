@@ -1,0 +1,18 @@
+{
+  "status": "PASS_FORMAT_CLASSIFICATION_NOT_RAW_WHITESPACE_PASS",
+  "raw_returncode": 2,
+  "warning_count": 96,
+  "categories": [
+    "TSV_CRLF_or_empty_final_column",
+    "unified_diff_blank_context"
+  ],
+  "affected_paths": [
+    "candidate/MAINTAINED_DOCS.patch",
+    "initial_candidate/MAINTAINED_DOCS.patch",
+    "review/concept/DIRECT_SOURCE_PINS.tsv",
+    "review/concept/SOURCE_PINS.tsv",
+    "review/math/SOURCE_PINS.tsv"
+  ],
+  "regular_prose_code_check_exit": 0,
+  "scientific_bytes_changed": false
+}
