@@ -1,0 +1,34 @@
+{
+  "utc": "2026-09-27T20:34:40.130288+00:00",
+  "head": "9858453171994858d85ff4c365382d67ca0c7d0c",
+  "tracked_diff": "",
+  "all_eight_initial_candidates_unchanged": true,
+  "final_candidate_sha256": {
+    "THEORY_BRIEF.md": "62b79fba06905ab9ff3a92dabf94f3a939f0fdc40ec0484309703d2419fba317",
+    "AUDIT.md": "64ad29ec03f7901e9278ae16051f3f2f1b2a9ae7194826d7c2f0d4edbb60eb8a",
+    "ARCHIVE_AND_CROSSCHECK_PLAN.md": "66bb35c311c050082158114526d96d4fd833b0597503dab62098d4c1fba606c4",
+    "SOURCE_CLAIM_MAP.tsv": "dcea251f0dcf79ec1aceaa67a14300851776627eaf55d4898aab9e431317808c",
+    "MAINTAINED_DOCS.patch": "ab61a8136c9165f0fa4e2d686850bd1811ad9fbebc10e0b88fe0301dced76342",
+    "COVERAGE_SUMMARY.json": "0067370c8b359c1939da3fcab94a6d6650919406e8efb6afd154786dccd55efc",
+    "FAMILY_ROUTING.tsv": "a07c35fe5d08370b48f46546e90bbcca13617a66d3ab1eb88745a8f581bdc9d7",
+    "REGISTRY_COVERAGE.tsv": "fc130b2367375b43d7b86221bb8683e32863def35a318eed4f56a6c1f4891c20"
+  },
+  "changed_candidates": [
+    "THEORY_BRIEF.md",
+    "AUDIT.md",
+    "MAINTAINED_DOCS.patch"
+  ],
+  "support_sha256": {
+    "README.md": "80826d9f404d5c6ff98229d18f5ba877d332bc4657d3dc7b40b94fcd8a743d54",
+    "REPAIR_HISTORY.md": "81c2ef2b8f08fadeef904ea0d5937530f6bfe8e5f8a40669c05c8b0dfaeebb78",
+    "checks/EXECUTION_RECORD.md": "3e8a0521a71404d2a34f5cfe7124f4353b5be675bda25c32d987af1bcb42e62f",
+    "SOURCE_READ_LEDGER.tsv": "7e9a716da370a7ed561a6d0b55ff1533ade9ed767e6cefd170a9cf0853b6ec2b"
+  },
+  "patch_check": {
+    "command": "git apply --check udt_foundation_alignment_audit_2026-09-27/candidate/MAINTAINED_DOCS.patch",
+    "returncode": 0,
+    "stdout": "",
+    "stderr": ""
+  },
+  "omissions": "No scientific package replay or full verifier. Unchanged coverage was independently checked during direct review. Process receipts attributed where not independently observed."
+}

@@ -1,0 +1,62 @@
+--- a/CURRENT_RESEARCH_PROGRAM.md
++++ b/CURRENT_RESEARCH_PROGRAM.md
+@@ -3,6 +3,27 @@
+ Date: 2026-09-27
+ 
+ `LIVE.md` controls status; exact 406-row `CURRENT_SCIENTIFIC_PREMISES.tsv` controls ownership.
++
++## Purpose and the missing connection
++
++UDT investigates a positional-clock interpretation of observed c_E through
++reciprocal clock/ruler relations, with an intended extension of GR. This is the
++research intention preserved in PROVENANCE and founding.md, not a derived claim
++that the entire physical connection is complete. W5/W6 and completed-pair
++calibration retain their working status; original prompts do not override grades.
++
++For supplied ordered depth, chi=tanh(delta). On the matched static
++conserved-frequency comparison, define delta_z=log(1+z)=-delta_source,observer
++and chi_z=tanh(delta_z); then 1+z=sqrt((1+chi_z)/(1-chi_z)). The nonlinear climb
++needs no second fitted response curve. It does not assign depth to every physical
++event/path, identify projective position with measured distance, or select X_max.
++The pair c_eff ratio is not automatically a local signal speed. GR stays FILTER
++ONLY; the native route into the full G301 response class remains unclosed.
++
++Use each next task to close, narrow, refute or test a named indispensable link.
++Ordinary declared query/initial data remain legitimate; a target-matching profile
++or imported response law cannot replace a missing native connection. LIVE controls
++the actual next gate, and no successor is launched by this purpose statement.
+ 
+ ## Architecture
+ 
+@@ -56,6 +77,8 @@
+ | G381--G382 | Neighboring tidal obstruction, restricted null jets and actual local Lambda=0 realization | General metric realization, selected physical modes or content |
+ 
+ Active evaluator: `udt_uncompressed_pair_kernel_reconstruction_2026-08-14/`.
++Its original arbitrary-calibration scalar is a control readout; use G176/G178
++for the completed-pair physical normalization and retain the stated input type.
+ G190--G198 are controls, not construction inputs.
+ 
+ ## Open boundary
+--- a/INDEX.md
++++ b/INDEX.md
+@@ -46,6 +46,8 @@
+ 
+ ## Founding, relational and response sources
+ 
++- Foundation alignment audit, reviewed draft only; no new authority:
++  `udt_foundation_alignment_audit_2026-09-27/README.md`.
+ - `UDT_RECIPROCAL_C_FOUNDING_POSTULATE_DERIVATION_RESULTS.md`
+ - `udt_uncompressed_pair_kernel_reconstruction_2026-08-14/`
+ - `udt_g163_xmax_dependency_reversal_audit_2026-08-18/`; `udt_g166_primary_metric_ordered_pair_kernel_descent_2026-08-18/`
+--- a/udt_native_theory_research_plan_2026-09-13/PLAN.md
++++ b/udt_native_theory_research_plan_2026-09-13/PLAN.md
+@@ -409,6 +409,8 @@
+    a physical identification, or only a scoped mathematical comparison?
+ 6. What exact task becomes eligible next, or why does this branch stop?
+ 
+-The next recommended decision is FE1's bounded dynamical-principle design packet.
++The current next gate is the LIVE direction discussion after DCR1; FE1 remains
++unadopted. The earlier FE1 design recommendation above is historical, not a new
++dispatch. No field-equation campaign resumes automatically.
+ This plan does not promise a replacement for any established theory, and does not
+ assume that merely extending the current mathematical atlas will provide one.

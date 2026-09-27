@@ -1,0 +1,18 @@
+{
+  "status": "PASS",
+  "registry_rows": 406,
+  "exact_fields_per_row": 9,
+  "editorial_families": 23,
+  "negative_controls_rejected": [
+    "dropped row",
+    "duplicated row",
+    "changed epistemic_label",
+    "changed open_scope",
+    "changed editorial_family",
+    "changed packet_read_depth"
+  ],
+  "source_pins": 48,
+  "outside_status_lines": 52,
+  "preexisting_untracked_content_identity": "NOT_CLAIMED; only authorized lecture hashed",
+  "scientific_claim": "NONE; correspondence and local preservation only"
+}

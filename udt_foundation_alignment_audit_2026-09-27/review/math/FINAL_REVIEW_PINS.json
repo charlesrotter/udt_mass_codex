@@ -1,0 +1,25 @@
+{
+  "recorded_utc": "2026-09-27T20:34:44.515874+00:00",
+  "head": "9858453171994858d85ff4c365382d67ca0c7d0c",
+  "candidate_sha256": {
+    "ARCHIVE_AND_CROSSCHECK_PLAN.md": "66bb35c311c050082158114526d96d4fd833b0597503dab62098d4c1fba606c4",
+    "AUDIT.md": "64ad29ec03f7901e9278ae16051f3f2f1b2a9ae7194826d7c2f0d4edbb60eb8a",
+    "COVERAGE_SUMMARY.json": "0067370c8b359c1939da3fcab94a6d6650919406e8efb6afd154786dccd55efc",
+    "FAMILY_ROUTING.tsv": "a07c35fe5d08370b48f46546e90bbcca13617a66d3ab1eb88745a8f581bdc9d7",
+    "MAINTAINED_DOCS.patch": "ab61a8136c9165f0fa4e2d686850bd1811ad9fbebc10e0b88fe0301dced76342",
+    "REGISTRY_COVERAGE.tsv": "fc130b2367375b43d7b86221bb8683e32863def35a318eed4f56a6c1f4891c20",
+    "SOURCE_CLAIM_MAP.tsv": "dcea251f0dcf79ec1aceaa67a14300851776627eaf55d4898aab9e431317808c",
+    "THEORY_BRIEF.md": "62b79fba06905ab9ff3a92dabf94f3a939f0fdc40ec0484309703d2419fba317"
+  },
+  "changed_from_initial": [
+    "AUDIT.md",
+    "MAINTAINED_DOCS.patch",
+    "THEORY_BRIEF.md"
+  ],
+  "initial_freeze_still_matches": true,
+  "source_first_unchanged": true,
+  "patch_check_returncode": 0,
+  "patch_check_stdout": "",
+  "patch_check_stderr": "",
+  "tracked_dirt": ""
+}

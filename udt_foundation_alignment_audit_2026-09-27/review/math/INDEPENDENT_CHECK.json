@@ -1,0 +1,39 @@
+{
+  "status": "PASS",
+  "python": "3.10.12 (main, Aug 31 2026, 10:18:17) [GCC 11.4.0]",
+  "platform": "Linux-6.8.0-138-generic-x86_64-with-glibc2.35",
+  "implementation": "standard-library fractions; no scientific-source-code imports",
+  "evidence_type": "exact arithmetic witnesses and finite regression; analytic general arguments in SOURCE_FIRST.md",
+  "checks": {
+    "duality": 6,
+    "conversion_countercase": 3,
+    "pair_decomposition": 81,
+    "W1_normalization": 81,
+    "rescaling_type_separation": 54,
+    "matched_endpoint_composition": 81,
+    "unmatched_middle_failure": 1,
+    "null_transport_interlock": 125,
+    "fixed_ratio_separator": 5,
+    "projective_frame_carry": 5,
+    "static_local_null_speed": 3,
+    "redshift_attachment": 2
+  },
+  "total_assertions": 447,
+  "transverse_generated_cases": 20,
+  "parameters": {
+    "pair_cases": 27,
+    "endpoint_triples": 27,
+    "unit_clock_cases": 25,
+    "dtype": "exact Fraction",
+    "device": "CPU",
+    "grid": "none"
+  },
+  "failure_cases_preserved": [
+    "ordinary same-side conversion does not preserve K",
+    "reciprocal D is not a Lorentz isometry in the physical diagonal basis",
+    "unmatched middle endpoint does not telescope",
+    "fixed frequency ratio does not fix M_PT",
+    "projected clock vector alone does not compose nonradial frame morphisms",
+    "auxiliary conformal ratio invariance does not survive W1 renormalization as the same scalar"
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "current_count": 406,
+  "inherited_count": 397,
+  "added_ids": [
+    "G415",
+    "G416",
+    "G417",
+    "G418",
+    "G419",
+    "G420",
+    "G421",
+    "G422",
+    "G423"
+  ],
+  "removed_ids": [],
+  "changed_in_four_compared_fields": [],
+  "compared_fields": [
+    "term",
+    "epistemic_label",
+    "active_use",
+    "controlling_source"
+  ],
+  "family_count": 23,
+  "all_nine_current_fields_copied": true,
+  "full_historical_row_byte_identity": "NOT_TESTED_BY_THIS_FOUR_FIELD_COMPARISON",
+  "source_sha256": {
+    "CURRENT_SCIENTIFIC_PREMISES.tsv": "7a3d69d5a0bc3ac98e2ebe2bb0c6d029df30071bf403baffed2223a193dc720b",
+    "udt_accepted_work_consolidation_2026-09-12/REGISTRY_COVERAGE.tsv": "4c91838974091bcd860760768c40d6ac2f141259e85a0114004aeb8ef1a50671",
+    "udt_accepted_work_consolidation_2026-09-12/FAMILY_MAP.tsv": "92e1f4dd7050b1e801961d9c10be85486600e997d892dc6ee957b4eaca028ef9"
+  },
+  "interpretation": "Correspondence/coverage only; no new grades or blanket scientific review"
+}

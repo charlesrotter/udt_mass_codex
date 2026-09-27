@@ -1,0 +1,66 @@
+{
+  "recorded_utc": "2026-09-27T20:34:20.551372+00:00",
+  "sources": [
+    {
+      "path": "CURRENT_RESEARCH_PROGRAM.md",
+      "read_depth": "lines 1-100, with 1-25 reread after truncated combined output",
+      "sha256": "2b4d7b7bbc49cdbe3cceb1d86260058a1d0da6226f30c34ee04bbc832ed8cec1"
+    },
+    {
+      "path": "INDEX.md",
+      "read_depth": "lines 35-65",
+      "sha256": "8fab39013ade3f63d314b68b2b41a03a4b0a1702ac12b7610e783c97f000daf6"
+    },
+    {
+      "path": "udt_native_theory_research_plan_2026-09-13/PLAN.md",
+      "read_depth": "lines 395-425 (through file end)",
+      "sha256": "5a718b0765951f97d2fcbdecf872d505557611f98524bc0e09888c1db64b5a5f"
+    },
+    {
+      "path": "udt_g294_nonsignalling_copresence_network_architecture_2026-08-29/AUDIT_REPORT.md",
+      "read_depth": "full report, no production implementation",
+      "sha256": "de171479ff682ece888d005f0ab6f00410b609364ca653510fcc13a86a0700e0"
+    },
+    {
+      "path": "udt_uncompressed_pair_kernel_reconstruction_2026-08-14/AUDIT_REPORT.md",
+      "read_depth": "full report, no production implementation",
+      "sha256": "45fa4a9a2a7ff911e3abf20ceae33eb88b2622c9201b4e0c63e9f63693fb9a13"
+    },
+    {
+      "path": "Mass creates gravity.txt",
+      "read_depth": "targeted search hits; lines 94-110,202-236,272-287; not full independent lecture read",
+      "sha256": "34989126d5788a9065439fbc87c8e6086e971ced3e3b767f54edabd0eb72333b"
+    },
+    {
+      "path": "CURRENT_SCIENTIFIC_PREMISES.tsv",
+      "read_depth": "all nine fields/all406 rows machine correspondence; only assigned source-first rows interpreted",
+      "sha256": "7a3d69d5a0bc3ac98e2ebe2bb0c6d029df30071bf403baffed2223a193dc720b"
+    },
+    {
+      "path": "udt_accepted_work_consolidation_2026-09-12/REGISTRY_COVERAGE.tsv",
+      "read_depth": "all397 rows machine four-field correspondence; no underlying source proof census",
+      "sha256": "4c91838974091bcd860760768c40d6ac2f141259e85a0114004aeb8ef1a50671"
+    },
+    {
+      "path": "udt_foundation_alignment_audit_2026-09-27/SOURCE_READ_LEDGER.tsv",
+      "read_depth": "full parent ledger metadata, not replicated source reading",
+      "sha256": "7e9a716da370a7ed561a6d0b55ff1533ade9ed767e6cefd170a9cf0853b6ec2b"
+    }
+  ],
+  "external_primary_access": [
+    {
+      "url": "https://ned.ipac.caltech.edu/level5/March01/Carroll3/Carroll4.html",
+      "result": "available; local equivalence lines15-22, gravitational redshift lines38-56, Newtonian conditions line65; no downloaded content hash"
+    },
+    {
+      "url": "https://www.gutenberg.org/cache/epub/5001/pg5001-images.html",
+      "result": "available; targeted clock/rate and spectral searches: sectionXXIII and appendixIIIc; no downloaded content hash"
+    },
+    {
+      "url": "https://www.damtp.cam.ac.uk/user/tong/gr/grhtml/S1.html",
+      "result": "web tool Internal Error; content not read or credited"
+    }
+  ],
+  "direct_correspondence_script_sha256": "6038720af85e4e1db7cacb97ab29725ba1b98c1895c990034984f55eb24cc93e",
+  "direct_correspondence_output_sha256": "77944718fb46d7ea9003ccf90fea992ef5e293cb81ec9933d392c73e339597cc"
+}

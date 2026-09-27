@@ -1,0 +1,15 @@
+{
+  "recorded_utc": "2026-09-27T20:22:48.471129+00:00",
+  "head": "9858453171994858d85ff4c365382d67ca0c7d0c",
+  "branch": "grok",
+  "tracked_dirt": "",
+  "parent_startup": "attributed; not replayed",
+  "candidate_exposure": "none at source-first freeze",
+  "independent_check_exit_code": 0,
+  "stderr_bytes": 0,
+  "source_pins_sha256": "bc61d3e09e7092ace92ab5029e323207d2ef4b3bbb0976a7a91c0c503d07964f",
+  "source_first_sha256": "5428be5f9442942db13877e1ef3eaae2313802c0ae2ae42a68a8b89ad9494366",
+  "check_script_sha256": "6a46ca317b27cb9c007f1022eaee58e3487d33acfe4845d8246380a37998a698",
+  "check_output_sha256": "6bcb0245e64e6faa5c6f32177a92c03ab7bd3492a923db10e326ed3ceb34fbb8",
+  "selection_hash_format": "SHA-256 of json.dumps(DictReader_row,sort_keys=True,separators=(comma,colon)).encode()"
+}
