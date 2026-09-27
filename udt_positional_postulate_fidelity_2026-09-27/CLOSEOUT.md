@@ -33,7 +33,7 @@ scientific source packages and CANON were not edited.
 | Mathematical reviewer | 20 source-first + 8 supplemental exact checks PASS | Independent full curvature implementation, comparison and source-fidelity checks |
 | Full premise verifier | PASS, exit 0; 406-row registry; empty stderr | Existing scientific registry/guards and named evidence; no new physical validation |
 | Parent source correspondence | All 18 pins matched | Roadmap pin is its baseline version; its new direction-only section was reviewed separately |
-| Whitespace/diff | git diff --check PASS | Authorized tracked roadmap change |
+| Whitespace/diff | Roadmap check PASS; packet check PASS with cr-at-eol recognition | Default staged check reported CRLF terminators in two TSVs; see publication qualification below |
 | Preservation | Same 47 pre-existing status entries / 52 expanded untracked paths; scientific tracked files unchanged | Path/status preservation; protected contents were not opened or hashed |
 
 Exact parent commands, versions and output locations are in EXECUTION.json;
@@ -78,3 +78,15 @@ The packet is a reviewed documentation checkpoint. Its containing git commit
 preserves the work; a commit does not adopt its exploratory possibilities.
 Return for discussion. A successor may pursue native deduction or an explicitly
 bounded unadopted equation hypothesis; neither is automatically launched here.
+
+## Publication qualification
+
+The default staged whitespace check reported CRLF record terminators in two
+source-pin TSVs (parent and conceptual review), after the earlier roadmap-only
+check passed. The first documentation commit was made before that output was
+evaluated; this ordering error is recorded rather than hidden. Frozen tabular
+bytes are preserved. Rechecking the committed diff with Git's cr-at-eol setting
+passed, still checking substantive end-of-line/end-of-file whitespace and
+space-before-tab. No equation, candidate, lay brief or reviewed roadmap bytes
+changed. EXECUTION.json records both actual outcomes. This qualification is a
+packaging follow-up, not a repeat or waiver of the scientific checks.

@@ -24,6 +24,16 @@
     {
       "command": "git diff --check",
       "exit_code": 0
+    },
+    {
+      "command": "git diff --cached --check",
+      "exit_code": 2,
+      "result": "CRLF record terminators reported as trailing whitespace in exactly two source-pin TSVs; no other whitespace errors. The subsequent commit was made before this output was evaluated; this ordering error is retained here."
+    },
+    {
+      "command": "git -c core.whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol diff HEAD^ HEAD --check",
+      "exit_code": 0,
+      "result": "PASS with CR recognized as a valid line terminator. Frozen source-pin bytes preserved; no substantive trailing whitespace exemption."
     }
   ],
   "scientific_source_changes": false,
