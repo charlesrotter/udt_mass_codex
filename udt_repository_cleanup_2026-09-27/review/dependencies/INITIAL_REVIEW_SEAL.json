@@ -1,0 +1,29 @@
+{
+  "stage": "SOURCE_FIRST_DEPENDENCY_AND_INITIAL_INVENTORY_REVIEW",
+  "status": "VERIFIED_WITH_CAVEATS_PENDING_FINAL_CONSTRUCTION",
+  "reviewer_context": "/root/cleanup_dependency_review",
+  "model": "GPT-6 family; precise runtime identifier not exposed",
+  "branch": "grok",
+  "HEAD": "8aac11e13a2311347771e11f507f4f2042ea02a2",
+  "parent_startup_attribution": "Parent reports synchronizedgrok and priorfull406PASS at8aac11e; not independently rerun here.",
+  "independence": {
+    "separate_context": true,
+    "different_model_established": false,
+    "independent_metadata_implementation": true,
+    "scientific_review": false,
+    "candidate_name_coordination": "cleanup_surface_review supplied shortlist; source/consumer review separately performed"
+  },
+  "files": {
+    "DEPENDENCY_ADJUDICATION.md": "da6b94544bee0d960e580bbaf298c91649b63aff84c13e967ae0867d1f7df1b6",
+    "DEPENDENCY_CLASSIFICATION.tsv": "bd9049660085444e58a6c1934abfcad3dcd0d005b06b428d73ebcb68fa5b829d",
+    "SUPPLEMENTAL_DEPENDENCY_CLASSIFICATION.tsv": "2bf3339ecd1825a94e0b785074995a2bd85a5c42ec5a535ed0a405ff95e4c7ff",
+    "SOURCE_VERSION_PINS.tsv": "350cad2f37fe06fbcff7c97e66d1a8a4a95040c4abfc8a6a13adb822a167787c",
+    "ROOT_COUNT_RECONCILIATION.json": "6845f2e91424b1c22ad30a7c8d172b2d48dd26495190de27102540a207101dae",
+    "INDEPENDENT_INVENTORY_RESULT.json": "156e6b677fb6e142629fa8f534762ea49981c1c80646b387766d371f068acfd1",
+    "BUILDER_GUARD_RESULT.json": "a8540127d65457cedb58d50c2d62cf6a93f6f4a5d53064106751d45fe3d8a5db",
+    "scan_dependencies.py": "dd5c7377724b6a82265562624c3a4ee6dc8b5c02f2597c7358ec5939ed4608fc",
+    "verify_inventory_independent.py": "ea348ee1fe972e5bdd32702e26022e0c725dbb385eb8f9d0dfbec1e527762d9e",
+    "check_builder_guards.py": "0f540e24a4901f8216cccbb8a8fe618fc54219d30d06341aca66e1607bf1f7af"
+  },
+  "limits": "No protected contents, raw arrays, GPU, full scientific verifier or numerical campaign read/run. Cleared dependencies do not substitute for content approval or final archival byte/retrieval checks."
+}

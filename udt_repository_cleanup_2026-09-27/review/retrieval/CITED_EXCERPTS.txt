@@ -1,0 +1,504 @@
+INDEX.md:66: ## Exact conditional banking and original evidence
+INDEX.md:67: 
+INDEX.md:68: Each BANKING_RECORD links entire controlling candidates/reviews, exclusions and execution receipts;
+INDEX.md:69: original UNPROMOTED/NOT_BANKED headings remain historical. Old proposals do not authorize successors.
+INDEX.md:70: 
+INDEX.md:71: - G353--G356: `udt_g353_g356_conditional_banking_2026-09-06/BANKING_RECORD.md`
+INDEX.md:72: - G357--G360: `udt_g357_g360_conditional_banking_2026-09-07/BANKING_RECORD.md`; SC1 source map.
+INDEX.md:73: - G361--G363: `udt_g361_g363_conditional_banking_2026-09-07/BANKING_RECORD.md`
+INDEX.md:74: - G364--G366: `udt_g364_g366_conditional_banking_2026-09-07/BANKING_RECORD.md`; RC2 exposure.
+INDEX.md:75: - G367--G369: `udt_g367_g369_conditional_banking_2026-09-08/BANKING_RECORD.md`
+INDEX.md:76: - G370--G371: `udt_g370_g371_conditional_banking_2026-09-08/BANKING_RECORD.md`
+INDEX.md:77: - G372--G373: `udt_g372_g373_conditional_banking_2026-09-08/BANKING_RECORD.md`; three vacuous checks excluded.
+INDEX.md:78: - G374--G375: `udt_g374_g375_conditional_banking_2026-09-08/BANKING_RECORD.md`
+INDEX.md:79: - G376=BI1/G377=BG1/G378=BG2: `udt_g376_g378_conditional_banking_2026-09-08/BANKING_RECORD.md`
+INDEX.md:80: - G379=CF1/G380=CF2: `udt_g379_g380_conditional_banking_2026-09-08/BANKING_RECORD.md`
+INDEX.md:81: - G381=NT1/G382=NT2: latest banking above; LOST/unsnapshotted-source caveats retained.
+
+INDEX.md:87: ## Completed/parked observational routes
+INDEX.md:88: 
+INDEX.md:89: These reviewed conditional designs/benchmarks are not scientific-grade or eligibility promotions.
+INDEX.md:90: 
+INDEX.md:91: - Ideal tides: `udt_tidal_measurement_feasibility_campaign_2026-09-07/DECISION_BRIEF.md`
+INDEX.md:92: - GOCE eligibility: `udt_goce_product_eligibility_audit_2026-09-07/DECISION_BRIEF.md`
+INDEX.md:93: - GOCE documentation/enquiry: `udt_goce_documentation_followup_2026-09-07/DECISION_BRIEF.md`
+INDEX.md:94: - GOCE PARKED, eligibility UNRESOLVED/OPEN; enquiry UNSENT, not rejected/awaiting reply.
+INDEX.md:95: - Route survey: `udt_observational_route_selection_campaign_2026-09-07/DECISION_BRIEF.md`
+INDEX.md:96: - Clock benchmark: `udt_local_clock_metric_benchmark_campaign_2026-09-07/DECISION_BRIEF.md`
+INDEX.md:97: - Complementary readout: `udt_complementary_wave_observable_campaign_2026-09-07/DECISION_BRIEF.md`
+INDEX.md:98: - Fixed window: `udt_gw170817_fixed_window_test_campaign_2026-09-07/DECISION_BRIEF.md`
+INDEX.md:99: - GW design gate, parked: `udt_gw_response_robustness_design_campaign/DECISION_BRIEF.md`
+INDEX.md:100: - Earlier interface: `udt_g277_observational_scale_anchor_ownership_2026-08-26/`;
+INDEX.md:101:   `udt_g279_native_kernel_observational_interface_provenance_audit_2026-08-27/`;
+INDEX.md:102:   `udt_g281_sne_validation_provenance_reconstruction_audit_2026-08-27/`.
+INDEX.md:103: - Raw-pattern evidence: `udt_observed_angular_pattern_raw_restart_2026-08-12/`:
+INDEX.md:104:   `R5_OUTCOME_REPORT.md`, `R5_EXTERNAL_FOLLOWUP_REVIEW.md`, `R5_FINAL_EVIDENCE_MANIFEST.tsv`.
+INDEX.md:105: - Raw archive locator: `/media/udt-admin/ScratchDisk/Data/UDT_BOSS_R3_2026-08-14/`;
+INDEX.md:106:   current archive access/completeness is not asserted.
+INDEX.md:107: 
+INDEX.md:108: ## Specialized/historical entry points
+INDEX.md:109: 
+INDEX.md:110: - Carrier/topology first: `native_hopfion_topology_audit_2026-07-19/AUDIT_REPORT.md` and ledger.
+INDEX.md:111: - Mass/stability first: `udt_scientific_arc_recovery_checkpoint_2026-08-04/MASS_BRANCH_AUTHORITY_MAP.tsv`.
+INDEX.md:112:   `stability_branch_follow_256_DECISION.md` is durable lane evidence only.
+INDEX.md:113: - Chosen-family evaluators/controls: `udt_g190_completed_pair_timelive_frequency_screen_join_2026-08-20/`;
+INDEX.md:114:   `udt_g196_longitudinal_screen_mixing_descent_2026-08-20/`—not current construction inputs.
+INDEX.md:115: - Historical startup: `archive/STARTUP_SURFACE_HISTORY.md`; prior current pages remain in Git.
+INDEX.md:116: - Cleanup/archive lookup: `udt_repository_cleanup_2026-09-27/README.md`.
+INDEX.md:117: - Known old path only: `research/_registry/CURRENT_ARTIFACT_PATHS.tsv`, not a frontier/startup read.
+
+udt_g374_g375_conditional_banking_2026-09-08/BANKING_RECORD.md:1: # G374–G375: exact reviewed conditional banking of VS1–VS2
+udt_g374_g375_conditional_banking_2026-09-08/BANKING_RECORD.md:2: 
+udt_g374_g375_conditional_banking_2026-09-08/BANKING_RECORD.md:3: Charles authorizes these two mathematical results at EXACT reviewed scopes.
+udt_g374_g375_conditional_banking_2026-09-08/BANKING_RECORD.md:4: Baseline grok7e6d144a9f45fc2cee6d041448e6b6ee9e324cc3. Grade:
+udt_g374_g375_conditional_banking_2026-09-08/BANKING_RECORD.md:5: BANKED_DERIVED_CONDITIONAL, VERIFIED-WITH-CAVEATS, OWNER_AUTHORIZED,
+udt_g374_g375_conditional_banking_2026-09-08/BANKING_RECORD.md:6: NOT_PHYSICAL_ADOPTION, NOT_CANON. Integration is COMPLETE after the full358
+udt_g374_g375_conditional_banking_2026-09-08/BANKING_RECORD.md:7: audits and fresh fidelity review; EXECUTION_RECORD.md owns completion/publication.
+udt_g374_g375_conditional_banking_2026-09-08/BANKING_RECORD.md:8: INITIAL_BANKING_RECORD.md preserves the reviewed initial wrapper and its hash.
+udt_g374_g375_conditional_banking_2026-09-08/BANKING_RECORD.md:9: The authenticated prebank356 audit passed, exit0/401.593s. Instructions and
+udt_g374_g375_conditional_banking_2026-09-08/BANKING_RECORD.md:10: this correspondence guard do not prove the science.
+udt_g374_g375_conditional_banking_2026-09-08/BANKING_RECORD.md:11: 
+udt_g374_g375_conditional_banking_2026-09-08/BANKING_RECORD.md:12: ## Whole-source scope, not a new summary theorem
+udt_g374_g375_conditional_banking_2026-09-08/BANKING_RECORD.md:13: 
+udt_g374_g375_conditional_banking_2026-09-08/BANKING_RECORD.md:14: The ENTIRE original CANDIDATE_INITIAL.md, REVIEWED_RESULT.md and
+udt_g374_g375_conditional_banking_2026-09-08/BANKING_RECORD.md:15: review/REVIEW_RECORD.md of each step in
+udt_g374_g375_conditional_banking_2026-09-08/BANKING_RECORD.md:16: udt_vacuum_common_scale_campaign_2026-09-08 control, together with its work
+udt_g374_g375_conditional_banking_2026-09-08/BANKING_RECORD.md:17: order, source pins, check/failure/repair records and all review qualifications.
+udt_g374_g375_conditional_banking_2026-09-08/BANKING_RECORD.md:18: All71 original tracked files remain byte-identical. Their original NOT_BANKED
+udt_g374_g375_conditional_banking_2026-09-08/BANKING_RECORD.md:19: headings record chronology and are not rewritten. The69-entry manifest plus
+udt_g374_g375_conditional_banking_2026-09-08/BANKING_RECORD.md:20: manifest itself and completion record pins the entire campaign.
+udt_g374_g375_conditional_banking_2026-09-08/BANKING_RECORD.md:21: 
+udt_g374_g375_conditional_banking_2026-09-08/BANKING_RECORD.md:22: G310/G312 remain OWNER_ADOPTED_PROVISIONAL. G313 supplies their bounded
+udt_g374_g375_conditional_banking_2026-09-08/BANKING_RECORD.md:23: Einstein arena; G131/G176/G180 supply the reduced/completed query distinctions.
+udt_g374_g375_conditional_banking_2026-09-08/BANKING_RECORD.md:24: The optional source branch stays PAUSED. No new source law or physical carrier
+udt_g374_g375_conditional_banking_2026-09-08/BANKING_RECORD.md:25: is involved. This applies known mathematics to the admitted conditional arena,
+udt_g374_g375_conditional_banking_2026-09-08/BANKING_RECORD.md:26: not a claim of a new differential-geometric theorem.
+udt_g374_g375_conditional_banking_2026-09-08/BANKING_RECORD.md:27: 
+udt_g374_g375_conditional_banking_2026-09-08/BANKING_RECORD.md:28: ## G374 = VS1
+udt_g374_g375_conditional_banking_2026-09-08/BANKING_RECORD.md:29: 
+udt_g374_g375_conditional_banking_2026-09-08/BANKING_RECORD.md:30: On a FIXED SUPPLIED smooth connected regular local4D Lorentzian Einstein base
+udt_g374_g375_conditional_banking_2026-09-08/BANKING_RECORD.md:31: Ric(g)=Lambda g, set k=Lambda/3 and u=Omega^-1>0. The second metric u^-2 g
+udt_g374_g375_conditional_banking_2026-09-08/BANKING_RECORD.md:32: is Einstein iff Hess(u)=(c-ku)g with connected constant c. The rank-six
+udt_g374_g375_conditional_banking_2026-09-08/BANKING_RECORD.md:33: connection du=mu, nabla(mu)=(c-ku)g, dc=0 supplies an exact smooth local
+udt_g374_g375_conditional_banking_2026-09-08/BANKING_RECORD.md:34: realization criterion: data fixed by ALL based neighborhood loops. It is NOT
+udt_g374_g375_conditional_banking_2026-09-08/BANKING_RECORD.md:35: a finite pointwise curvature algorithm. Weyl contraction annihilation is
+udt_g374_g375_conditional_banking_2026-09-08/BANKING_RECORD.md:36: necessary throughout the neighborhood; pointwise passing alone is insufficient.
+udt_g374_g375_conditional_banking_2026-09-08/BANKING_RECORD.md:37: Compatible solutions inject into six initial numbers; the real solution-space
+udt_g374_g375_conditional_banking_2026-09-08/BANKING_RECORD.md:38: dimension is at most6, attained locally in flat geometry. Six numbers do NOT
+udt_g374_g375_conditional_banking_2026-09-08/BANKING_RECORD.md:39: determine the supplied base metric, and arbitrary six data need not extend.
+udt_g374_g375_conditional_banking_2026-09-08/BANKING_RECORD.md:40: Positive factors are a restricted domain, not a vector space of physical moduli.
+udt_g374_g375_conditional_banking_2026-09-08/BANKING_RECORD.md:41: 
+udt_g374_g375_conditional_banking_2026-09-08/BANKING_RECORD.md:42: Q=|du|^2+k*u^2-2*c*u is constant; Lambda_hat=-3Q. An independently FIXED TARGET
+udt_g374_g375_conditional_banking_2026-09-08/BANKING_RECORD.md:43: SCALAR imposes this extra quadratic restriction; a free target is its resulting
+udt_g374_g375_conditional_banking_2026-09-08/BANKING_RECORD.md:44: value. Positivity at one point may require SHRINKING the domain. Constant
+udt_g374_g375_conditional_banking_2026-09-08/BANKING_RECORD.md:45: u=a>0 gives Lambda_hat=a^2 Lambda, not absolute scale selection. u is affine
+udt_g374_g375_conditional_banking_2026-09-08/BANKING_RECORD.md:46: along supplied base-affine null geodesic segments in the regular positive domain.
+udt_g374_g375_conditional_banking_2026-09-08/BANKING_RECORD.md:47: These are geometric queries, not identified light or detector trajectories.
+udt_g374_g375_conditional_banking_2026-09-08/BANKING_RECORD.md:48: At identical supplied pair embeddings m_hat=u^-2 m and Phi_hat=Phi+log u;
+udt_g374_g375_conditional_banking_2026-09-08/BANKING_RECORD.md:49: G131 reduced blindness is NOT completed-pair blindness.
+udt_g374_g375_conditional_banking_2026-09-08/BANKING_RECORD.md:50: 
+udt_g374_g375_conditional_banking_2026-09-08/BANKING_RECORD.md:51: VS1 initial candidate SHA25613d516978df4cc0de99ef94428efaf1253d9cc4fe8aa07a7e7bf55032b928c9b;
+udt_g374_g375_conditional_banking_2026-09-08/BANKING_RECORD.md:52: original fresh review SHA256c287a30178ccb55deea4fab760ee61e76faf1abee73d975231ac3a357369e3c1.
+udt_g374_g375_conditional_banking_2026-09-08/BANKING_RECORD.md:53: No scientific repair. Proof owns universal claims;19 author groups/seven actual
+udt_g374_g375_conditional_banking_2026-09-08/BANKING_RECORD.md:54: hostile catches and independent Fraction Ricci anchors are supporting checks,
+udt_g374_g375_conditional_banking_2026-09-08/BANKING_RECORD.md:55: not substitutes. Original reviewer source-first argument/implementation precede
+udt_g374_g375_conditional_banking_2026-09-08/BANKING_RECORD.md:56: candidate exposure; later whole-review blindness is not claimed. Model UNKNOWN,
+udt_g374_g375_conditional_banking_2026-09-08/BANKING_RECORD.md:57: different-model/human/formal/empirical review UNTESTED.
+
+udt_vacuum_common_scale_campaign_2026-09-08/step_01/REVIEWED_RESULT.md:1: # VS1 reviewed conditional result — NOT_BANKED
+udt_vacuum_common_scale_campaign_2026-09-08/step_01/REVIEWED_RESULT.md:2: 
+udt_vacuum_common_scale_campaign_2026-09-08/step_01/REVIEWED_RESULT.md:3: Exact initial argument: CANDIDATE_INITIAL.md,
+udt_vacuum_common_scale_campaign_2026-09-08/step_01/REVIEWED_RESULT.md:4: SHA25613d516978df4cc0de99ef94428efaf1253d9cc4fe8aa07a7e7bf55032b928c9b.
+udt_vacuum_common_scale_campaign_2026-09-08/step_01/REVIEWED_RESULT.md:5: Fresh review: review/REVIEW_RECORD.md,
+udt_vacuum_common_scale_campaign_2026-09-08/step_01/REVIEWED_RESULT.md:6: SHA256c287a30178ccb55deea4fab760ee61e76faf1abee73d975231ac3a357369e3c1.
+udt_vacuum_common_scale_campaign_2026-09-08/step_01/REVIEWED_RESULT.md:7: Verdict VERIFIED-WITH-CAVEATS; no repair or unresolved load-bearing objection.
+udt_vacuum_common_scale_campaign_2026-09-08/step_01/REVIEWED_RESULT.md:8: 
+udt_vacuum_common_scale_campaign_2026-09-08/step_01/REVIEWED_RESULT.md:9: For a supplied smooth connected local4D Lorentzian Einstein base Ric(g)=Lambda g,
+udt_vacuum_common_scale_campaign_2026-09-08/step_01/REVIEWED_RESULT.md:10: u=Omega^-1>0 gives another Einstein metric exactly when
+udt_vacuum_common_scale_campaign_2026-09-08/step_01/REVIEWED_RESULT.md:11: Hess(u)=(c-Lambda*u/3)g with c constant. A rank-six linear connection gives
+udt_vacuum_common_scale_campaign_2026-09-08/step_01/REVIEWED_RESULT.md:12: unique determination from at most six compatible initial numbers and an exact
+udt_vacuum_common_scale_campaign_2026-09-08/step_01/REVIEWED_RESULT.md:13: all-neighborhood-loop realization criterion. Six is attained on a flat base;
+udt_vacuum_common_scale_campaign_2026-09-08/step_01/REVIEWED_RESULT.md:14: arbitrary six data need not be admissible on a curved base. Weyl contraction
+udt_vacuum_common_scale_campaign_2026-09-08/step_01/REVIEWED_RESULT.md:15: annihilation is necessary throughout the neighborhood, not a sufficient test
+udt_vacuum_common_scale_campaign_2026-09-08/step_01/REVIEWED_RESULT.md:16: at one event. Weyl injectivity on an open subset is one sufficient rigidity
+udt_vacuum_common_scale_campaign_2026-09-08/step_01/REVIEWED_RESULT.md:17: condition, not a classification. The target scalar and null-affine inverse
+udt_vacuum_common_scale_campaign_2026-09-08/step_01/REVIEWED_RESULT.md:18: factor are as derived in the frozen argument.
+udt_vacuum_common_scale_campaign_2026-09-08/step_01/REVIEWED_RESULT.md:19: 
+udt_vacuum_common_scale_campaign_2026-09-08/step_01/REVIEWED_RESULT.md:20: All premise stamps, fixed/free scalar distinctions, positive local domains,
+udt_vacuum_common_scale_campaign_2026-09-08/step_01/REVIEWED_RESULT.md:21: identified-query conditions and review limitations are inherited unchanged.
+udt_vacuum_common_scale_campaign_2026-09-08/step_01/REVIEWED_RESULT.md:22: This constrains scale over a supplied base, not the whole geometric freedom,
+udt_vacuum_common_scale_campaign_2026-09-08/step_01/REVIEWED_RESULT.md:23: physical content or a selected universe. Completed G176/G180 data are not
+udt_vacuum_common_scale_campaign_2026-09-08/step_01/REVIEWED_RESULT.md:24: conformally blind merely because G131 reduced control is. No source law or
+udt_vacuum_common_scale_campaign_2026-09-08/step_01/REVIEWED_RESULT.md:25: measurement transfer is introduced. Conditional downstream VS2 is permitted
+udt_vacuum_common_scale_campaign_2026-09-08/step_01/REVIEWED_RESULT.md:26: by the existing work order; no accepted-grade promotion follows.
+
+udt_vacuum_common_scale_campaign_2026-09-08/step_01/review/REVIEW_RECORD.md:1: # VS1 separate-context adversarial review
+udt_vacuum_common_scale_campaign_2026-09-08/step_01/review/REVIEW_RECORD.md:2: 
+udt_vacuum_common_scale_campaign_2026-09-08/step_01/review/REVIEW_RECORD.md:3: Verdict: VERIFIED-WITH-CAVEATS, conditional mathematics, NOT_BANKED.
+udt_vacuum_common_scale_campaign_2026-09-08/step_01/review/REVIEW_RECORD.md:4: No load-bearing mathematical objection or required repair was found in the
+udt_vacuum_common_scale_campaign_2026-09-08/step_01/review/REVIEW_RECORD.md:5: initial candidate at the exact scope below. This is review, not adoption,
+udt_vacuum_common_scale_campaign_2026-09-08/step_01/review/REVIEW_RECORD.md:6: empirical validation, an accepted-grade change or canon.
+udt_vacuum_common_scale_campaign_2026-09-08/step_01/review/REVIEW_RECORD.md:7: 
+udt_vacuum_common_scale_campaign_2026-09-08/step_01/review/REVIEW_RECORD.md:8: Reviewer: `/root/vs1_adversarial_review`; fresh context. Exact model identifier
+udt_vacuum_common_scale_campaign_2026-09-08/step_01/review/REVIEW_RECORD.md:9: UNKNOWN. Review completed14:51UTC on2026-09-08, within the60-minute dispatch
+udt_vacuum_common_scale_campaign_2026-09-08/step_01/review/REVIEW_RECORD.md:10: limit; first explicit reviewer clock read was14:41:32UTC after source intake.
+udt_vacuum_common_scale_campaign_2026-09-08/step_01/review/REVIEW_RECORD.md:11: Whole-review elapsed time was not measured. No further agent was spawned.
+udt_vacuum_common_scale_campaign_2026-09-08/step_01/review/REVIEW_RECORD.md:12: Source snapshot: grok4ffd6a4d2a30d7d6c8e0fdb79dae548769c2d717, personally
+udt_vacuum_common_scale_campaign_2026-09-08/step_01/review/REVIEW_RECORD.md:13: inspected with unrelated/protected untracked work preserved.
+udt_vacuum_common_scale_campaign_2026-09-08/step_01/review/REVIEW_RECORD.md:14: 
+udt_vacuum_common_scale_campaign_2026-09-08/step_01/review/REVIEW_RECORD.md:15: ## Candidate and exact reviewed result
+udt_vacuum_common_scale_campaign_2026-09-08/step_01/review/REVIEW_RECORD.md:16: 
+udt_vacuum_common_scale_campaign_2026-09-08/step_01/review/REVIEW_RECORD.md:17: Candidate: `step_01/CANDIDATE_INITIAL.md`, SHA256
+udt_vacuum_common_scale_campaign_2026-09-08/step_01/review/REVIEW_RECORD.md:18: 13d516978df4cc0de99ef94428efaf1253d9cc4fe8aa07a7e7bf55032b928c9b.
+udt_vacuum_common_scale_campaign_2026-09-08/step_01/review/REVIEW_RECORD.md:19: Author checker: `step_01/check_scale.py`, SHA256
+udt_vacuum_common_scale_campaign_2026-09-08/step_01/review/REVIEW_RECORD.md:20: e7afe62920b995946697aa2b9754ac507be651d4f6740f93d526296ab673a9f0.
+udt_vacuum_common_scale_campaign_2026-09-08/step_01/review/REVIEW_RECORD.md:21: No reviewer repair or candidate change was requested. Initial bytes remain.
+udt_vacuum_common_scale_campaign_2026-09-08/step_01/review/REVIEW_RECORD.md:22: 
+udt_vacuum_common_scale_campaign_2026-09-08/step_01/review/REVIEW_RECORD.md:23: For each supplied smooth connected regular4D Lorentzian Einstein base
+udt_vacuum_common_scale_campaign_2026-09-08/step_01/review/REVIEW_RECORD.md:24: Ric(g)=Lambda g, all smooth positive local factors Omega giving another
+udt_vacuum_common_scale_campaign_2026-09-08/step_01/review/REVIEW_RECORD.md:25: Einstein metric correspond exactly to u=Omega^-1>0 solving
+udt_vacuum_common_scale_campaign_2026-09-08/step_01/review/REVIEW_RECORD.md:26: Hess(u)=(c-(Lambda/3)u)g with c constant. The associated smooth rank-six
+udt_vacuum_common_scale_campaign_2026-09-08/step_01/review/REVIEW_RECORD.md:27: linear connection gives injective initial-data evaluation and an exact
+udt_vacuum_common_scale_campaign_2026-09-08/step_01/review/REVIEW_RECORD.md:28: neighborhood realization criterion through its loop-invariant fiber data.
+udt_vacuum_common_scale_campaign_2026-09-08/step_01/review/REVIEW_RECORD.md:29: The universal six-dimensional upper bound is attained on a flat local base.
+udt_vacuum_common_scale_campaign_2026-09-08/step_01/review/REVIEW_RECORD.md:30: The Weyl contraction condition is necessary throughout the neighborhood;
+udt_vacuum_common_scale_campaign_2026-09-08/step_01/review/REVIEW_RECORD.md:31: injectivity on a nonempty open subset is a sufficient rigidity sector.
+udt_vacuum_common_scale_campaign_2026-09-08/step_01/review/REVIEW_RECORD.md:32: The target connected scalar, the inverse-factor affine law along supplied
+udt_vacuum_common_scale_campaign_2026-09-08/step_01/review/REVIEW_RECORD.md:33: base-null geodesic segments, and the existing G176/G180 completed tape/depth
+udt_vacuum_common_scale_campaign_2026-09-08/step_01/review/REVIEW_RECORD.md:34: weights are correct at the stated supplied-query scope.
+udt_vacuum_common_scale_campaign_2026-09-08/step_01/review/REVIEW_RECORD.md:35: 
+udt_vacuum_common_scale_campaign_2026-09-08/step_01/review/REVIEW_RECORD.md:36: This proves finite determination of a profile for a FIXED supplied base,
+udt_vacuum_common_scale_campaign_2026-09-08/step_01/review/REVIEW_RECORD.md:37: not six freely admissible data for every base and not a count of physical or
+udt_vacuum_common_scale_campaign_2026-09-08/step_01/review/REVIEW_RECORD.md:38: quotient moduli. The actual smooth realization criterion is not a finite
+udt_vacuum_common_scale_campaign_2026-09-08/step_01/review/REVIEW_RECORD.md:39: pointwise decision procedure. No matter/source extension is admitted.
+udt_vacuum_common_scale_campaign_2026-09-08/step_01/review/REVIEW_RECORD.md:40: 
+udt_vacuum_common_scale_campaign_2026-09-08/step_01/review/REVIEW_RECORD.md:41: ## Independence and exposure
+udt_vacuum_common_scale_campaign_2026-09-08/step_01/review/REVIEW_RECORD.md:42: 
+udt_vacuum_common_scale_campaign_2026-09-08/step_01/review/REVIEW_RECORD.md:43: | Axis | Actual record |
+udt_vacuum_common_scale_campaign_2026-09-08/step_01/review/REVIEW_RECORD.md:44: |---|---|
+udt_vacuum_common_scale_campaign_2026-09-08/step_01/review/REVIEW_RECORD.md:45: | Context | Fresh separate agent, forked definitions/dispatch only, no author candidate at intake |
+udt_vacuum_common_scale_campaign_2026-09-08/step_01/review/REVIEW_RECORD.md:46: | Model | Exact identifier UNKNOWN; same/different relation UNKNOWN |
+udt_vacuum_common_scale_campaign_2026-09-08/step_01/review/REVIEW_RECORD.md:47: | Argument | Source-first reconstruction sealed before candidate exposure; later direct adversarial comparison |
+udt_vacuum_common_scale_campaign_2026-09-08/step_01/review/REVIEW_RECORD.md:48: | Implementation | Reviewer stdlib Fraction metric-jet Ricci implementation written, frozen and executed before candidate/code read; author symbolic replay is shared-code regression only |
+udt_vacuum_common_scale_campaign_2026-09-08/step_01/review/REVIEW_RECORD.md:49: | Other axes | Different-model, human-specialist, formal-proof and empirical review UNTESTED |
+
+udt_gw170817_fixed_window_test_campaign_2026-09-07/DECISION_BRIEF.md:1: # Decision brief — completed, reviewed sensitivity limitation
+udt_gw170817_fixed_window_test_campaign_2026-09-07/DECISION_BRIEF.md:2: 
+udt_gw170817_fixed_window_test_campaign_2026-09-07/DECISION_BRIEF.md:3: The public three-detector data are accessible, but the chosen sensitivity
+udt_gw170817_fixed_window_test_campaign_2026-09-07/DECISION_BRIEF.md:4: screen is not useful at its frozen target. One allowed background record
+udt_gw170817_fixed_window_test_campaign_2026-09-07/DECISION_BRIEF.md:5: sets an exceptionally high threshold. The corrected synthetic tests cross
+udt_gw170817_fixed_window_test_campaign_2026-09-07/DECISION_BRIEF.md:6: it only 5/168, 3/168 and 3/168 times across the three specified families,
+udt_gw170817_fixed_window_test_campaign_2026-09-07/DECISION_BRIEF.md:7: versus the required 152/168. Even the largest predeclared amplitude gives
+udt_gw170817_fixed_window_test_campaign_2026-09-07/DECISION_BRIEF.md:8: only 8/168 in each family. This is a negative result about this particular
+udt_gw170817_fixed_window_test_campaign_2026-09-07/DECISION_BRIEF.md:9: procedure, not a verdict against interferometers or UDT.
+udt_gw170817_fixed_window_test_campaign_2026-09-07/DECISION_BRIEF.md:10: 
+udt_gw170817_fixed_window_test_campaign_2026-09-07/DECISION_BRIEF.md:11: FW1 and FW2 R1 are VERIFIED-WITH-CAVEATS at their exact narrowed scopes.
+udt_gw170817_fixed_window_test_campaign_2026-09-07/DECISION_BRIEF.md:12: The campaign is complete after two reviewed steps, stopping at its declared
+udt_gw170817_fixed_window_test_campaign_2026-09-07/DECISION_BRIEF.md:13: failed sensitivity gate. The reserved event window has not been opened.
+udt_gw170817_fixed_window_test_campaign_2026-09-07/DECISION_BRIEF.md:14: No new constraint on geometric freedom has been obtained; no third step was
+udt_gw170817_fixed_window_test_campaign_2026-09-07/DECISION_BRIEF.md:15: manufactured. There is no remaining runtime/access blocker for this return.
+udt_gw170817_fixed_window_test_campaign_2026-09-07/DECISION_BRIEF.md:16: 
+udt_gw170817_fixed_window_test_campaign_2026-09-07/DECISION_BRIEF.md:17: ## What the result actually depends on
+udt_gw170817_fixed_window_test_campaign_2026-09-07/DECISION_BRIEF.md:18: 
+udt_gw170817_fixed_window_test_campaign_2026-09-07/DECISION_BRIEF.md:19: The admitted conditional wave/readout class permits two freely supplied
+udt_gw170817_fixed_window_test_campaign_2026-09-07/DECISION_BRIEF.md:20: waveform functions. Under the chosen static, finite cyclic response,
+udt_gw170817_fixed_window_test_campaign_2026-09-07/DECISION_BRIEF.md:21: three consistently delay-aligned channels leave one algebraic contrast
+udt_gw170817_fixed_window_test_campaign_2026-09-07/DECISION_BRIEF.md:22: r=sum_i b_i d_i, with column b satisfying b^T F=0. Here d_i includes the
+udt_gw170817_fixed_window_test_campaign_2026-09-07/DECISION_BRIEF.md:23: frozen zero-DC/Nyquist projection and cyclic delay alignment.
+udt_gw170817_fixed_window_test_campaign_2026-09-07/DECISION_BRIEF.md:24: The statistic is Q=||Lr||^2, where L contains the fixed crop, Hann window,
+udt_gw170817_fixed_window_test_campaign_2026-09-07/DECISION_BRIEF.md:25: frequency selection and PSD weights. Twelve background records fix the PSD;
+udt_gw170817_fixed_window_test_campaign_2026-09-07/DECISION_BRIEF.md:26: the maximum Q over 21 other records fixes the threshold. No waveform template,
+udt_gw170817_fixed_window_test_campaign_2026-09-07/DECISION_BRIEF.md:27: binary mechanism or physical-content law is selected.
+udt_gw170817_fixed_window_test_campaign_2026-09-07/DECISION_BRIEF.md:28: 
+udt_gw170817_fixed_window_test_campaign_2026-09-07/DECISION_BRIEF.md:29: The residual injection target is h_rss=1e-21 strain sqrt(second), normalized
+udt_gw170817_fixed_window_test_campaign_2026-09-07/DECISION_BRIEF.md:30: over the 90-second core before Hann. Fractions use 21 backgrounds times 8 frozen
+udt_gw170817_fixed_window_test_campaign_2026-09-07/DECISION_BRIEF.md:31: synthetic draws per family; they are not population power or confidence.
+udt_gw170817_fixed_window_test_campaign_2026-09-07/DECISION_BRIEF.md:32: The extreme record has Q=31313.96 versus roughly 1 for the others. Its
+udt_gw170817_fixed_window_test_campaign_2026-09-07/DECISION_BRIEF.md:33: decomposition is Virgo-channel-dominated; its physical cause is unresolved.
+udt_gw170817_fixed_window_test_campaign_2026-09-07/DECISION_BRIEF.md:34: No record was deleted or threshold retuned. The finite identity does not
+udt_gw170817_fixed_window_test_campaign_2026-09-07/DECISION_BRIEF.md:35: certify rotating, finite-arm or upstream physical signal preservation.
+
+udt_gw170817_fixed_window_test_campaign_2026-09-07/step_02/review/FINAL_REVIEW.md:67: At h_rss=1e-21 strain sqrt(second), normalized on the90s core before Hann,
+udt_gw170817_fixed_window_test_campaign_2026-09-07/step_02/review/FINAL_REVIEW.md:68: direct recomputation of all504 background/waveform additions gives:
+udt_gw170817_fixed_window_test_campaign_2026-09-07/step_02/review/FINAL_REVIEW.md:69: 
+udt_gw170817_fixed_window_test_campaign_2026-09-07/step_02/review/FINAL_REVIEW.md:70: | Inclusive synthetic band | Strict crossings /168 | Required |
+udt_gw170817_fixed_window_test_campaign_2026-09-07/step_02/review/FINAL_REVIEW.md:71: |---|---:|---:|
+udt_gw170817_fixed_window_test_campaign_2026-09-07/step_02/review/FINAL_REVIEW.md:72: |30--500Hz|5|152|
+udt_gw170817_fixed_window_test_campaign_2026-09-07/step_02/review/FINAL_REVIEW.md:73: |30--100Hz|3|152|
+udt_gw170817_fixed_window_test_campaign_2026-09-07/step_02/review/FINAL_REVIEW.md:74: |100--500Hz|3|152|
+udt_gw170817_fixed_window_test_campaign_2026-09-07/step_02/review/FINAL_REVIEW.md:75: 
+udt_gw170817_fixed_window_test_campaign_2026-09-07/step_02/review/FINAL_REVIEW.md:76: All three complete frozen amplitude curves independently match. At1e-19,
+udt_gw170817_fixed_window_test_campaign_2026-09-07/step_02/review/FINAL_REVIEW.md:77: each has8/168 crossings. Direct target additions agree with independent
+udt_gw170817_fixed_window_test_campaign_2026-09-07/step_02/review/FINAL_REVIEW.md:78: quadratic evaluation within6.17e-15 relative;18 full raw-channel V inverse-delay
+udt_gw170817_fixed_window_test_campaign_2026-09-07/step_02/review/FINAL_REVIEW.md:79: injections, including the extreme background and upper grid endpoint, agree
+udt_gw170817_fixed_window_test_campaign_2026-09-07/step_02/review/FINAL_REVIEW.md:80: within6.59e-15. The smallest target decision margin is3.10e-8 of threshold,
+udt_gw170817_fixed_window_test_campaign_2026-09-07/step_02/review/FINAL_REVIEW.md:81: well separated from the observed numerical discrepancies. Saved cross and
+udt_gw170817_fixed_window_test_campaign_2026-09-07/step_02/review/FINAL_REVIEW.md:82: signal quadratic coefficients agree within6.41e-14 and6.30e-15 relative L2.
+udt_gw170817_fixed_window_test_campaign_2026-09-07/step_02/review/FINAL_REVIEW.md:83: 
+udt_gw170817_fixed_window_test_campaign_2026-09-07/step_02/review/FINAL_REVIEW.md:84: These reused-background fractions are descriptive finite outcomes, not
+udt_gw170817_fixed_window_test_campaign_2026-09-07/step_02/review/FINAL_REVIEW.md:85: independent Bernoulli trials, population detection power or confidence.
+udt_gw170817_fixed_window_test_campaign_2026-09-07/step_02/review/FINAL_REVIEW.md:86: Rank1/22 would require a separate exchangeable noise-only statistic conditional
+udt_gw170817_fixed_window_test_campaign_2026-09-07/step_02/review/FINAL_REVIEW.md:87: on training; neither that condition nor selection-corrected coverage is proved.
+udt_gw170817_fixed_window_test_campaign_2026-09-07/step_02/review/FINAL_REVIEW.md:88: The algebraic beyond-grid roots are checked threshold-equality roots/strict-
+udt_gw170817_fixed_window_test_campaign_2026-09-07/step_02/review/FINAL_REVIEW.md:89: crossing infima, not directly injected trials or a second decision rule.
+udt_gw170817_fixed_window_test_campaign_2026-09-07/step_02/review/FINAL_REVIEW.md:90: 
+udt_gw170817_fixed_window_test_campaign_2026-09-07/step_02/review/FINAL_REVIEW.md:91: ## Argument, defect and repair
+udt_gw170817_fixed_window_test_campaign_2026-09-07/step_02/review/FINAL_REVIEW.md:92: 
+udt_gw170817_fixed_window_test_campaign_2026-09-07/step_02/review/FINAL_REVIEW.md:93: Source-first reconstruction established the finite all-vectors identity:
+udt_gw170817_fixed_window_test_campaign_2026-09-07/step_02/review/FINAL_REVIEW.md:94: on the zero-DC/Nyquist image, cyclic alignment inverts the supplied delays,
+udt_gw170817_fixed_window_test_campaign_2026-09-07/step_02/review/FINAL_REVIEW.md:95: constant F commutes with that projection, and bF=0 annihilates both arbitrary
+udt_gw170817_fixed_window_test_campaign_2026-09-07/step_02/review/FINAL_REVIEW.md:96: tensor functions before common crop/taper. This is finite algebra, not an
+udt_gw170817_fixed_window_test_campaign_2026-09-07/step_02/review/FINAL_REVIEW.md:97: empirical inference from passing injections. Static cyclic boundary data do
+udt_gw170817_fixed_window_test_campaign_2026-09-07/step_02/review/FINAL_REVIEW.md:98: not establish physical periodicity, finite-arm/rotating response, calibration
+udt_gw170817_fixed_window_test_campaign_2026-09-07/step_02/review/FINAL_REVIEW.md:99: coverage or upstream signal retention. An alternative in col(F) is invisible.
+udt_gw170817_fixed_window_test_campaign_2026-09-07/step_02/review/FINAL_REVIEW.md:100: 
+udt_gw170817_fixed_window_test_campaign_2026-09-07/step_02/review/FINAL_REVIEW.md:101: Independent dense-DFT and full-size source-first controls reject wrong delay
+udt_gw170817_fixed_window_test_campaign_2026-09-07/step_02/review/FINAL_REVIEW.md:102: sign, omitted H coefficient and premature taper. Full-size correct relative
+udt_gw170817_fixed_window_test_campaign_2026-09-07/step_02/review/FINAL_REVIEW.md:103: residual is3.25e-16, versus0.831 and0.334 for the two principal defects;
+udt_gw170817_fixed_window_test_campaign_2026-09-07/step_02/review/FINAL_REVIEW.md:104: the invalid zero assertions actually fail. Norm/scaling checks avoid an
+udt_gw170817_fixed_window_test_campaign_2026-09-07/step_02/review/FINAL_REVIEW.md:105: absolute tolerance that would accept any physically tiny strain. All24
+udt_gw170817_fixed_window_test_campaign_2026-09-07/step_02/review/FINAL_REVIEW.md:106: source-defined waveform norms and V inverse-delay round trips were checked.
+udt_gw170817_fixed_window_test_campaign_2026-09-07/step_02/review/FINAL_REVIEW.md:107: Direct Fourier-sum anchors independently match FFT within2.83e-14.
+udt_gw170817_fixed_window_test_campaign_2026-09-07/step_02/review/FINAL_REVIEW.md:108: 
+udt_gw170817_fixed_window_test_campaign_2026-09-07/step_02/review/FINAL_REVIEW.md:109: R1 fixed a real mismatch: floating labels29.999999999999996 and
+udt_gw170817_fixed_window_test_campaign_2026-09-07/step_02/review/FINAL_REVIEW.md:110: 99.99999999999999 excluded the mathematically inclusive lower bin. The missing
+udt_gw170817_fixed_window_test_campaign_2026-09-07/step_02/review/FINAL_REVIEW.md:111: bin changed PCG64 draw counts/assignment, so initial4/168,3/168,4/168 counts
+udt_gw170817_fixed_window_test_campaign_2026-09-07/step_02/review/FINAL_REVIEW.md:112: were not the frozen experiment. Exact integer membership restores
+udt_gw170817_fixed_window_test_campaign_2026-09-07/step_02/review/FINAL_REVIEW.md:113: 46061/6861/39201 bins. Original candidate/source, coefficients, outputs and
+udt_gw170817_fixed_window_test_campaign_2026-09-07/step_02/review/FINAL_REVIEW.md:114: initial review survive byte-identically. Only synthetic()/the output filename
+udt_gw170817_fixed_window_test_campaign_2026-09-07/step_02/review/FINAL_REVIEW.md:115: in evaluate() change function definitions; the core-band membership is
+udt_gw170817_fixed_window_test_campaign_2026-09-07/step_02/review/FINAL_REVIEW.md:116: independently unchanged. Seeds, draw order, freeze, data, PSD, query, target
+udt_gw170817_fixed_window_test_campaign_2026-09-07/step_02/review/FINAL_REVIEW.md:117: and stopping rule remain fixed. Reinserted legacy masks and defective null
+udt_gw170817_fixed_window_test_campaign_2026-09-07/step_02/review/FINAL_REVIEW.md:118: operators actually fail their guards in this review's same-code replays;
+udt_gw170817_fixed_window_test_campaign_2026-09-07/step_02/review/FINAL_REVIEW.md:119: those reruns are regression evidence, distinct from the independent pipeline.
+
+udt_reviewed_backlog_banking_2026-09-10/BANKING_RECORD.md:80: 
+udt_reviewed_backlog_banking_2026-09-10/BANKING_RECORD.md:81: Physical identification remains OPEN. No claim here chooses light, matter, mass, energy, a source
+udt_reviewed_backlog_banking_2026-09-10/BANKING_RECORD.md:82: law, response coefficient, field history, observer/pair population, absolute scale or X_max.
+udt_reviewed_backlog_banking_2026-09-10/BANKING_RECORD.md:83: No device/transfer assumptions become native UDT derivations. Small-domain, regularity, positivity,
+udt_reviewed_backlog_banking_2026-09-10/BANKING_RECORD.md:84: symmetry, compactness, marking, calibration and equation conditions are substantive hypotheses.
+udt_reviewed_backlog_banking_2026-09-10/BANKING_RECORD.md:85: Known geometry and standard PDE/linear-algebra methods remain credited applications; novelty and
+udt_reviewed_backlog_banking_2026-09-10/BANKING_RECORD.md:86: familiar physical appearance are not acceptance criteria. Negative results retain their quantifiers.
+udt_reviewed_backlog_banking_2026-09-10/BANKING_RECORD.md:87: 
+udt_reviewed_backlog_banking_2026-09-10/BANKING_RECORD.md:88: CO2 is a FLOAT64 design at one supplied nominal geometry, not an empirical null or uniform error
+udt_reviewed_backlog_banking_2026-09-10/BANKING_RECORD.md:89: bound. LC2 uses one already exposed published gradient, not two experiments or a new blind test;
+udt_reviewed_backlog_banking_2026-09-10/BANKING_RECORD.md:90: standard uncertainties are neither hard error bounds nor validated confidence intervals. FW2 is
+udt_reviewed_backlog_banking_2026-09-10/BANKING_RECORD.md:91: one failed frozen offsource procedure, not population power, an event result, a metric constraint
+udt_reviewed_backlog_banking_2026-09-10/BANKING_RECORD.md:92: or an instrument-wide rejection. Its reserved event remains unexamined; all33 backgrounds remain
+udt_reviewed_backlog_banking_2026-09-10/BANKING_RECORD.md:93: exposed, including the extreme record. RD1's practical response/support gate remains uncleared.
+udt_reviewed_backlog_banking_2026-09-10/BANKING_RECORD.md:94: 
+udt_reviewed_backlog_banking_2026-09-10/BANKING_RECORD.md:95: ## Discovery, failed checks and review independence
+udt_reviewed_backlog_banking_2026-09-10/BANKING_RECORD.md:96: 
+udt_reviewed_backlog_banking_2026-09-10/BANKING_RECORD.md:97: All original evidence is preserved, including initial candidates, failures, false passes, repairs,
+udt_reviewed_backlog_banking_2026-09-10/BANKING_RECORD.md:98: excluded checks, lost-output qualifications and historical UNPROMOTED headers. The per-claim
+udt_reviewed_backlog_banking_2026-09-10/BANKING_RECORD.md:99: history in BANKED_CLAIMS.json is part of the scope, not optional background. Examples include
+udt_reviewed_backlog_banking_2026-09-10/BANKING_RECORD.md:100: LG2's exact source-covector repair; BI2/BI3 false-pass and full-tensor qualifications; NR1's
+udt_reviewed_backlog_banking_2026-09-10/BANKING_RECORD.md:101: incomplete harmonic-support check; SE1's provenance correction/followup; QC1's excluded/vacuous
+udt_reviewed_backlog_banking_2026-09-10/BANKING_RECORD.md:102: checks; GL1/RF1 parse/check repairs; DCI1's premature time substitution; KTI1's ShapeError;
+udt_reviewed_backlog_banking_2026-09-10/BANKING_RECORD.md:103: ER1's wording/packaging repairs; LC1/LC2 band-rule/validator repairs; and FW2's inclusive-bin
+udt_reviewed_backlog_banking_2026-09-10/BANKING_RECORD.md:104: repair with its original failed/overlapping executions. None is transformed into a historical pass.
+
+PROVENANCE.md:1: # PROVENANCE — Origin of the UDT Metric
+PROVENANCE.md:2: 
+PROVENANCE.md:3: Append-only. Created 2026-06-10.
+PROVENANCE.md:4: 
+PROVENANCE.md:5: ## The origin prompts (2025-08-12, Grok)
+PROVENANCE.md:6: 
+PROVENANCE.md:7: The positional-dilation metric (P0) was produced by an AI (Grok) on
+PROVENANCE.md:8: 2025-08-12 from a set of prompts written by Charles. The original
+PROVENANCE.md:9: screenshot is archived as `provenance_origin_prompts_2025-08-12.png`
+PROVENANCE.md:10: (supplied by Charles 2026-06-10). Transcription:
+PROVENANCE.md:11: 
+PROVENANCE.md:12: > **Prompt 1.** "Imagine a new cosmology. We complete Einstein's
+PROVENANCE.md:13: > spacetime with a third equivalence, that there is a time dilation with
+PROVENANCE.md:14: > distance, just as there is with velocity and acceleration. What we
+PROVENANCE.md:15: > view as the speed of light is actually the time dilation with
+PROVENANCE.md:16: > distance. Instead of 186,000 mi/s we get a time dilation of
+PROVENANCE.md:17: > 1/186,000th of a second/mile. The actual foundational speed of light
+PROVENANCE.md:18: > is infinite, but the curved spacetime cause this time dilation to make
+PROVENANCE.md:19: > it appear that c_eff is constant for all observers within certain
+PROVENANCE.md:20: > distance scales. This curved spacetime enforces light cones and
+PROVENANCE.md:21: > causality despite the underlying infinite c. This time dilation also
+PROVENANCE.md:22: > causes a red shift, replacing the need for dark matter and dark
+PROVENANCE.md:23: > energy. At extreme distances the red shift causes the thermalization
+PROVENANCE.md:24: > of starlight and gives us what appears as the cmb. At quantum
+PROVENANCE.md:25: > distances, c_eff begins to approach the speed of light, possibly
+PROVENANCE.md:26: > explaining quantum weirdness and other observations. At intermediate
+PROVENANCE.md:27: > distances, such as terrestrial and solar this spacetime reduces to GR
+PROVENANCE.md:28: > as a special case. Can you come up with the spacetime equations and
+PROVENANCE.md:29: > metric for this theory."
+PROVENANCE.md:30: >
+PROVENANCE.md:31: > **Prompt 2.** "This is a unique theory. At large and small distances,
+PROVENANCE.md:32: > behavior diverges asymptotically from GR. The same way there is an
+PROVENANCE.md:33: > asymptotic mass increase with velocity approaching C in SR, the
+PROVENANCE.md:34: > redshift will increase asymptotically as you approach the universe
+PROVENANCE.md:35: > boundary."
+PROVENANCE.md:36: >
+PROVENANCE.md:37: > **Prompt 3.** "The affect is relative A sees B slow down. B sees A
+PROVENANCE.md:38: > slow down."
+PROVENANCE.md:39: >
+PROVENANCE.md:40: > **Prompt 4.** "The 186,000 was meant as a metaphor to explain time
+PROVENANCE.md:41: > dilation. That's all."
+
+PROVENANCE.md:43: ## Significance notes (honest grading)
+PROVENANCE.md:44: 
+PROVENANCE.md:45: 1. **Origin does not grade.** The metric's standing rests on its
+PROVENANCE.md:46:    verification record (GR limit: Mercury, light bending, beta=gamma=1
+PROVENANCE.md:47:    via the C1 action; Pantheon+ chi2/dof 0.94; DESI BAO 0.90 sigma),
+PROVENANCE.md:48:    not on its origin. This record exists so the origin is documented,
+PROVENANCE.md:49:    not to argue from it.
+PROVENANCE.md:50: 2. **The distance notion was UNSPECIFIED in the original.** The prompts
+PROVENANCE.md:51:    say "time dilation with distance" without fixing what distance means.
+PROVENANCE.md:52:    The areal reading (CANON C-2026-06-10-1, rho = r forced) is a LATER
+PROVENANCE.md:53:    refinement, fixed by macro data on 2026-06-10 — consistent with, but
+PROVENANCE.md:54:    not contained in, the founding intent.
+PROVENANCE.md:55: 3. **The universe boundary IS in the original.** Prompt 2: "the redshift
+PROVENANCE.md:56:    will increase asymptotically as you approach the universe boundary."
+PROVENANCE.md:57:    The finite-cell canon (CANON C-2026-06-10-2: monotone dilation on a
+PROVENANCE.md:58:    finite domain terminated by a physical boundary) — which the program
+PROVENANCE.md:59:    re-derived from the macro corpus eight months later — matches the
+PROVENANCE.md:60:    founding intent directly. Recorded as consilience, not evidence.
+PROVENANCE.md:61: 4. **The CMB-as-thermalized-starlight (recycling) ontology** of the
+PROVENANCE.md:62:    macro work traces to Prompt 1 verbatim.
+PROVENANCE.md:63: 5. **Reciprocity** (Prompt 3: A sees B slow, B sees A slow) and the
+PROVENANCE.md:64:    **infinite-foundational-c / emergent-c_eff** reading (Prompts 1, 4)
+PROVENANCE.md:65:    are founding-intent items not yet formalized in the rebuild; flagged
+PROVENANCE.md:66:    as potential future audit targets (does the banked metric realize
+PROVENANCE.md:67:    reciprocity exactly? what is c_eff operationally at quantum
+PROVENANCE.md:68:    distances on the matter side?).
+PROVENANCE.md:69: 
+PROVENANCE.md:70: ## The idea's true origin (appended 2026-06-10, per Charles)
+PROVENANCE.md:71: 
+PROVENANCE.md:72: The positional-dilation idea itself dates to circa 1991 (recorded
+PROVENANCE.md:73: elsewhere by Charles). It remained undeveloped for roughly three
+PROVENANCE.md:74: decades for lack of any means to develop it; the advent of LLMs made
+PROVENANCE.md:75: the development possible, beginning with the 2025-08-12 Grok prompts
+PROVENANCE.md:76: above. The 2025 prompts are therefore the first *formalization* event,
+PROVENANCE.md:77: not the conception.
+PROVENANCE.md:78: 
+PROVENANCE.md:79: ## Artifact appended 2026-06-10 (session resume)
+PROVENANCE.md:80: 
+PROVENANCE.md:81: The source screenshot of the origin prompts (the Grok exchange
+PROVENANCE.md:82: transcribed above) is archived in-repo as
+PROVENANCE.md:83: origin_prompts_screenshot_2025-08-12.png (dropped in by Charles as
+PROVENANCE.md:84: "image (104).png"; renamed and committed for provenance).
+
+archive/remaining_working_surfaces_2026-09-27/REORGANIZATION_R0_PREREG_2026-07-18.md:1: # Repository reorganization Phase R0 preregistration
+archive/remaining_working_surfaces_2026-09-27/REORGANIZATION_R0_PREREG_2026-07-18.md:2: 
+archive/remaining_working_surfaces_2026-09-27/REORGANIZATION_R0_PREREG_2026-07-18.md:3: Date: 2026-07-18
+archive/remaining_working_surfaces_2026-09-27/REORGANIZATION_R0_PREREG_2026-07-18.md:4: Base commit: `bfa0b9a9371fab0266315bc2bb6845b8a7446a18`
+archive/remaining_working_surfaces_2026-09-27/REORGANIZATION_R0_PREREG_2026-07-18.md:5: Branch: `codex/reorg-r0-2026-07-18`
+archive/remaining_working_surfaces_2026-09-27/REORGANIZATION_R0_PREREG_2026-07-18.md:6: Clean worktree: `/tmp/udt_mass_codex_r0_20260718`
+archive/remaining_working_surfaces_2026-09-27/REORGANIZATION_R0_PREREG_2026-07-18.md:7: 
+archive/remaining_working_surfaces_2026-09-27/REORGANIZATION_R0_PREREG_2026-07-18.md:8: ## Authorized question and maximum conclusion
+archive/remaining_working_surfaces_2026-09-27/REORGANIZATION_R0_PREREG_2026-07-18.md:9: 
+archive/remaining_working_surfaces_2026-09-27/REORGANIZATION_R0_PREREG_2026-07-18.md:10: R0 asks only: what exists at the repository root at the fixed base snapshot,
+archive/remaining_working_surfaces_2026-09-27/REORGANIZATION_R0_PREREG_2026-07-18.md:11: what depends on it, what must remain at root, and what directory layout could be
+archive/remaining_working_surfaces_2026-09-27/REORGANIZATION_R0_PREREG_2026-07-18.md:12: audited in a later phase? R0 may add inventories, validators, navigation, and a
+archive/remaining_working_surfaces_2026-09-27/REORGANIZATION_R0_PREREG_2026-07-18.md:13: proposal. It may not delete, move, rename, rewrite history, alter physics,
+archive/remaining_working_surfaces_2026-09-27/REORGANIZATION_R0_PREREG_2026-07-18.md:14: change an existing tracked byte, touch the dirty workstation files, or execute
+archive/remaining_working_surfaces_2026-09-27/REORGANIZATION_R0_PREREG_2026-07-18.md:15: the proposed moves.
+archive/remaining_working_surfaces_2026-09-27/REORGANIZATION_R0_PREREG_2026-07-18.md:16: 
+archive/remaining_working_surfaces_2026-09-27/REORGANIZATION_R0_PREREG_2026-07-18.md:17: The maximum conclusion is a mechanically checked classification and a proposed
+archive/remaining_working_surfaces_2026-09-27/REORGANIZATION_R0_PREREG_2026-07-18.md:18: move plan. No file is approved to move merely because R0 calls it a candidate.
+
+archive/remaining_working_surfaces_2026-09-27/README.md:1: # Preserved historical working documents
+archive/remaining_working_surfaces_2026-09-27/README.md:2: 
+archive/remaining_working_surfaces_2026-09-27/README.md:3: These 34 documents were moved intact from repository root at baseline
+archive/remaining_working_surfaces_2026-09-27/README.md:4: `8aac11e13a2311347771e11f507f4f2042ea02a2`. They retain historical claims, criticisms,
+archive/remaining_working_surfaces_2026-09-27/README.md:5: failed transports, premises, reviews and superseded instructions. Placement does
+archive/remaining_working_surfaces_2026-09-27/README.md:6: not change their scientific grade or make their old work orders executable.
+archive/remaining_working_surfaces_2026-09-27/README.md:7: Root AGENTS/LIVE and the exact premise registry remain the current authorities.
+archive/remaining_working_surfaces_2026-09-27/README.md:8: 
+archive/remaining_working_surfaces_2026-09-27/README.md:9: The [archive manifest](../../udt_repository_cleanup_2026-09-27/archive/ARCHIVE_MANIFEST.tsv)
+archive/remaining_working_surfaces_2026-09-27/README.md:10: records original names, destinations, hashes, review sources and reference handling.
+archive/remaining_working_surfaces_2026-09-27/README.md:11: The [earlier seven-document archive](../stale_working_documents_2026-09-27/README.md)
+archive/remaining_working_surfaces_2026-09-27/README.md:12: is separate. The [repository map](../../udt_repository_cleanup_2026-09-27/REPOSITORY_MAP.md)
+archive/remaining_working_surfaces_2026-09-27/README.md:13: explains retained root interfaces and current evidence retrieval.
+archive/remaining_working_surfaces_2026-09-27/README.md:14: 
+archive/remaining_working_surfaces_2026-09-27/README.md:15: ## Fixed-manuscript review history
+archive/remaining_working_surfaces_2026-09-27/README.md:16: 
+archive/remaining_working_surfaces_2026-09-27/README.md:17: The three September 5 fidelity reviews below remain the review receipts for the
+archive/remaining_working_surfaces_2026-09-27/README.md:18: unchanged through-G352 manuscript. Its original bare-filename citation to the
+archive/remaining_working_surfaces_2026-09-27/README.md:19: observer-pair review resolves here. The completion receipt records the historical
+archive/remaining_working_surfaces_2026-09-27/README.md:20: edition, not today's scientific frontier. Neither manuscript bytes nor coverage
+archive/remaining_working_surfaces_2026-09-27/README.md:21: were rewritten for relocation.
+archive/remaining_working_surfaces_2026-09-27/README.md:22: 
+archive/remaining_working_surfaces_2026-09-27/README.md:23: ## completed external review brief/return
+archive/remaining_working_surfaces_2026-09-27/README.md:24: 
+archive/remaining_working_surfaces_2026-09-27/README.md:25: - [EXTERNAL_REVIEW_RETURN_2026-07-28_fresh_perspective.md](EXTERNAL_REVIEW_RETURN_2026-07-28_fresh_perspective.md)
+archive/remaining_working_surfaces_2026-09-27/README.md:26: - [UDT_EXTERNAL_AI_REVIEW_BRIEF_2026-07-28.md](UDT_EXTERNAL_AI_REVIEW_BRIEF_2026-07-28.md)
+archive/remaining_working_surfaces_2026-09-27/README.md:27: 
+archive/remaining_working_surfaces_2026-09-27/README.md:28: ## completed manuscript fidelity evidence
+archive/remaining_working_surfaces_2026-09-27/README.md:29: 
+archive/remaining_working_surfaces_2026-09-27/README.md:30: - [UDT_METRIC_KERNEL_DEVELOPMENT_FIDELITY_REVIEW_2026-09-05.md](UDT_METRIC_KERNEL_DEVELOPMENT_FIDELITY_REVIEW_2026-09-05.md)
+archive/remaining_working_surfaces_2026-09-27/README.md:31: - [UDT_METRIC_KERNEL_FOUNDATIONS_FIDELITY_REVIEW_2026-09-05.md](UDT_METRIC_KERNEL_FOUNDATIONS_FIDELITY_REVIEW_2026-09-05.md)
+archive/remaining_working_surfaces_2026-09-27/README.md:32: - [UDT_METRIC_KERNEL_OBSERVER_PAIR_FIDELITY_REVIEW_2026-09-05.md](UDT_METRIC_KERNEL_OBSERVER_PAIR_FIDELITY_REVIEW_2026-09-05.md)
+
+UDT_METRIC_KERNEL_DEVELOPMENT.md:1: # UDT: Development of the Metric and Reciprocal Kernel
+UDT_METRIC_KERNEL_DEVELOPMENT.md:2: 
+UDT_METRIC_KERNEL_DEVELOPMENT.md:3: *Accepted results, explicit premises, and open extensions*
+UDT_METRIC_KERNEL_DEVELOPMENT.md:4: 
+UDT_METRIC_KERNEL_DEVELOPMENT.md:5: ## Edition record and authority
+UDT_METRIC_KERNEL_DEVELOPMENT.md:6: 
+UDT_METRIC_KERNEL_DEVELOPMENT.md:7: - **Edition date:** 2026-09-05
+UDT_METRIC_KERNEL_DEVELOPMENT.md:8: - **Scientific source snapshot:** `f23199e4a47aaf83acb9ea7d1ad382cd814159c2`
+UDT_METRIC_KERNEL_DEVELOPMENT.md:9: - **Manuscript state:** `COMPLETE_FOR_DECLARED_ACCEPTED_SCOPE_AND_SNAPSHOT__FIDELITY_REVIEWED`
+UDT_METRIC_KERNEL_DEVELOPMENT.md:10: - **Previously reviewed coverage retained:** F1--F4 with G01/G02, G166--G180
+UDT_METRIC_KERNEL_DEVELOPMENT.md:11:   completed metric and pair kernel, and G350--G351
+UDT_METRIC_KERNEL_DEVELOPMENT.md:12: - **New fixed-snapshot coverage fidelity reviewed:** relational/projective
+UDT_METRIC_KERNEL_DEVELOPMENT.md:13:   typing, G282--G337 response/development, G338--G349 causal/area geometry,
+UDT_METRIC_KERNEL_DEVELOPMENT.md:14:   complete G352 readout, and G277--G281 observational boundary
+UDT_METRIC_KERNEL_DEVELOPMENT.md:15: - **Method revision used for drafting:** `657f5485d50fed4005455c33ebf1bf559b3ad516`
+UDT_METRIC_KERNEL_DEVELOPMENT.md:16: - **Observer-pair fidelity record:**
+UDT_METRIC_KERNEL_DEVELOPMENT.md:17:   [2026-09-05 review](UDT_METRIC_KERNEL_OBSERVER_PAIR_FIDELITY_REVIEW_2026-09-05.md)
+UDT_METRIC_KERNEL_DEVELOPMENT.md:18: 
+UDT_METRIC_KERNEL_DEVELOPMENT.md:19: This manuscript is an explanatory synthesis. It is not canon, a scientific
+UDT_METRIC_KERNEL_DEVELOPMENT.md:20: source of record, or an upgrade to any source claim. `CANON.md` remains under
+UDT_METRIC_KERNEL_DEVELOPMENT.md:21: Charles's separate control. The exact registry and the cited evidence packages
+UDT_METRIC_KERNEL_DEVELOPMENT.md:22: remain authoritative for scientific grades; `LIVE.md` remains authoritative
+UDT_METRIC_KERNEL_DEVELOPMENT.md:23: for current operational status.
+
+udt_gr_filter_reconciliation_2026-09-09/AUTHORITY_RECORD.md:23: 1. Universal Reciprocity/DDR remains one OWNER_ADOPTED_PROVISIONAL_POSTULATE
+udt_gr_filter_reconciliation_2026-09-09/AUTHORITY_RECORD.md:24:    with two formulations, not derived or canonized; its 2026-08-31 adoption
+udt_gr_filter_reconciliation_2026-09-09/AUTHORITY_RECORD.md:25:    remains unchanged.
+udt_gr_filter_reconciliation_2026-09-09/AUTHORITY_RECORD.md:26: 2. GR is FILTER ONLY, not a response-law construction input. The stronger
+udt_gr_filter_reconciliation_2026-09-09/AUTHORITY_RECORD.md:27:    full quiet GR principal-response overlap is not currently adopted.
+udt_gr_filter_reconciliation_2026-09-09/AUTHORITY_RECORD.md:28:    The authentic 2026-09-01 two-premise approval and all its evidence remain
+udt_gr_filter_reconciliation_2026-09-09/AUTHORITY_RECORD.md:29:    historical records; they do not override this later clarification.
+udt_gr_filter_reconciliation_2026-09-09/AUTHORITY_RECORD.md:30: 3. Explained Local Metric Sufficiency remains affirmed owner-provisional,
+udt_gr_filter_reconciliation_2026-09-09/AUTHORITY_RECORD.md:31:    not derived/canon: fixing the relevant completed finite local metric jet
+udt_gr_filter_reconciliation_2026-09-09/AUTHORITY_RECORD.md:32:    fixes local response, without a further independent hidden-history label.
+udt_gr_filter_reconciliation_2026-09-09/AUTHORITY_RECORD.md:33:    Global formation or selection of that local geometry is not excluded.
+udt_gr_filter_reconciliation_2026-09-09/AUTHORITY_RECORD.md:34:    This does not itself choose jet order, tensor type, weight, principal
+udt_gr_filter_reconciliation_2026-09-09/AUTHORITY_RECORD.md:35:    nondegeneracy or a complete response architecture.
+udt_gr_filter_reconciliation_2026-09-09/AUTHORITY_RECORD.md:36: 
+udt_gr_filter_reconciliation_2026-09-09/AUTHORITY_RECORD.md:37: G312's current precedence qualifies ALL inherited G312 “owner-provisional,”
+udt_gr_filter_reconciliation_2026-09-09/AUTHORITY_RECORD.md:38: “active equation,” “admitted,” “lawful,” and “vacuum evolution” labels in
+udt_gr_filter_reconciliation_2026-09-09/AUTHORITY_RECORD.md:39: other registry rows and source summaries: their Einstein-branch use remains
+udt_gr_filter_reconciliation_2026-09-09/AUTHORITY_RECORD.md:40: conditional on the full reviewed premises, not established from filter-only
+udt_gr_filter_reconciliation_2026-09-09/AUTHORITY_RECORD.md:41: GR. It does not demote separately owned DDR/locality, regrade the mathematics,
+udt_gr_filter_reconciliation_2026-09-09/AUTHORITY_RECORD.md:42: or declare every later result dependent on this branch. Old founding W3
+udt_gr_filter_reconciliation_2026-09-09/AUTHORITY_RECORD.md:43: and adoption wording are historical authority at their snapshots, not a
+udt_gr_filter_reconciliation_2026-09-09/AUTHORITY_RECORD.md:44: current stronger-GR override. LIVE then the current registry/current record
+udt_gr_filter_reconciliation_2026-09-09/AUTHORITY_RECORD.md:45: govern use; original sources still own exact scientific grades and scopes.
+udt_gr_filter_reconciliation_2026-09-09/AUTHORITY_RECORD.md:46: 
+udt_gr_filter_reconciliation_2026-09-09/AUTHORITY_RECORD.md:47: ## Mathematical survivor and unclosed join
+udt_gr_filter_reconciliation_2026-09-09/AUTHORITY_RECORD.md:48: 
+udt_gr_filter_reconciliation_2026-09-09/AUTHORITY_RECORD.md:49: For the G310/G311 regular full all-pair domain and specified symmetric
+udt_gr_filter_reconciliation_2026-09-09/AUTHORITY_RECORD.md:50: response, DDR gives TF(E)=0, hence E=lambda(x)g. It does not identify E with
+udt_gr_filter_reconciliation_2026-09-09/AUTHORITY_RECORD.md:51: Ricci. Within the ENTIRE G301 class E=a Ric+b Rg, a!=0, this implies
+udt_gr_filter_reconciliation_2026-09-09/AUTHORITY_RECORD.md:52: S=Ric-(R/4)g=0; contracted Bianchi then makes R constant on a connected
+udt_gr_filter_reconciliation_2026-09-09/AUTHORITY_RECORD.md:53: regular region and Ric=Lambda g. All class gates remain: local metric
+udt_gr_filter_reconciliation_2026-09-09/AUTHORITY_RECORD.md:54: two-jet/curvature order, unoriented naturality, symmetric rank two,
+udt_gr_filter_reconciliation_2026-09-09/AUTHORITY_RECORD.md:55: flat-quiet differentiability with F(0)=0, exact F(tK)=tF(K), and the stated
+udt_gr_filter_reconciliation_2026-09-09/AUTHORITY_RECORD.md:56: scale/principal gates. These are conditional mathematical statements.
+udt_gr_filter_reconciliation_2026-09-09/AUTHORITY_RECORD.md:57: 
+udt_gr_filter_reconciliation_2026-09-09/AUTHORITY_RECORD.md:58: G312's existing class-membership route uses the stronger GR input and is
+udt_gr_filter_reconciliation_2026-09-09/AUTHORITY_RECORD.md:59: UNCLOSED under filter-only GR. No independent route is disproved, and no
+udt_gr_filter_reconciliation_2026-09-09/AUTHORITY_RECORD.md:60: necessity for a new premise follows. A comparison filter can constrain
+udt_gr_filter_reconciliation_2026-09-09/AUTHORITY_RECORD.md:61: candidates; this reconciliation does not invent its domain, tolerance,
+udt_gr_filter_reconciliation_2026-09-09/AUTHORITY_RECORD.md:62: observables, survivor rule or replacement equation. Sharing GR mathematics
+udt_gr_filter_reconciliation_2026-09-09/AUTHORITY_RECORD.md:63: is not a defect. Angular-sector cancellation owns loud--quiet--loud, but
+udt_gr_filter_reconciliation_2026-09-09/AUTHORITY_RECORD.md:64: the bounded G257/G260 angular calculations are not a universal vacuum law.
+

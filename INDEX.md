@@ -13,7 +13,7 @@ Documentation closeout: `udt_gr_filter_reconciliation_2026-09-09/documentation_c
 2. Read the current blocks in `LIVE.md` and `HANDOFF.md`.
 3. Read `CURRENT_RESEARCH_PROGRAM.md`.
 4. Read `CURRENT_SCIENTIFIC_PREMISES.md`; run `python3 verify_current_scientific_premises.py`.
-5. Read `CLAUDE.md` sections `How we work`, `DRIVER TRIGGERS`, and `Repo discipline`.
+5. Read `CLAUDE.md` sections `How we work`, `DRIVER TRIGGERS`, and `Repo discipline`; task-triggered skills.
 6. Read `INDEX.md` and `MEMORY.md`, then stop and give the orientation report.
 7. After orientation, open only load-bearing evidence.
 
@@ -39,7 +39,6 @@ Dependency: `udt_localized_geometry_campaign_2026-09-09/DECISION_BRIEF.md`; G390
 restricted 3D localization, smooth-method/symmetry/smallness caveats; LG2 requires its REPAIR.md.
 Predecessor: `udt_nonlinear_mode_realizability_campaign_2026-09-09/DECISION_BRIEF.md`;
 G388--G389 conditional, compact-sector mixed-C2/analytic-local tangent limits; original reviews control.
-Prior maintenance: `maintenance_guard_sweep_2026-09-10/WORK_RECORD.md`; historical full365 PASS.
 
 ## Founding, relational and response sources
 
@@ -114,5 +113,5 @@ These reviewed conditional designs/benchmarks are not scientific-grade or eligib
 - Chosen-family evaluators/controls: `udt_g190_completed_pair_timelive_frequency_screen_join_2026-08-20/`;
   `udt_g196_longitudinal_screen_mixing_descent_2026-08-20/`—not current construction inputs.
 - Historical startup: `archive/STARTUP_SURFACE_HISTORY.md`; prior current pages remain in Git.
-- Archived working documents: `archive/stale_working_documents_2026-09-27/README.md` (seven-file lookup).
+- Cleanup/archive lookup: `udt_repository_cleanup_2026-09-27/README.md`.
 - Known old path only: `research/_registry/CURRENT_ARTIFACT_PATHS.tsv`, not a frontier/startup read.

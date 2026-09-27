@@ -1,0 +1,48 @@
+{
+  "status": "PASS",
+  "review_seals": [
+    {
+      "seal": "review/surfaces/REVIEW_SHA256SUMS.txt",
+      "entries": 22,
+      "status": "PASS"
+    },
+    {
+      "seal": "review/surfaces/supplemental_transfer/SUPPLEMENTAL_SHA256SUMS.txt",
+      "entries": 3,
+      "status": "PASS"
+    },
+    {
+      "seal": "review/surfaces/direct/DIRECT_SHA256SUMS.txt",
+      "entries": 12,
+      "status": "PASS"
+    },
+    {
+      "seal": "review/retrieval/REVIEW_SHA256SUMS",
+      "entries": 7,
+      "status": "PASS"
+    },
+    {
+      "seal": "review/dependencies/INITIAL_REVIEW_SEAL.json",
+      "entries": 10,
+      "status": "PASS"
+    },
+    {
+      "seal": "review/dependencies/FINAL_REVIEW_SEAL.json",
+      "entries": 10,
+      "status": "PASS"
+    },
+    {
+      "seal": "review/retrieval/FINAL_CLOSEOUT_SHA256SUMS",
+      "entries": 2,
+      "status": "PASS"
+    },
+    {
+      "seal": "review/dependencies/publication_gate/PUBLICATION_GATE_REVIEW_SEAL.json",
+      "entries": 6,
+      "status": "PASS"
+    }
+  ],
+  "final_dependency_input_rows_match": true,
+  "limits": "Source-first read-set pins refer to historical baseline versions; this checks preserved review artifacts and final dependency inputs, not scientific truth.",
+  "publication_checker_repaired_version_matches_review": true
+}

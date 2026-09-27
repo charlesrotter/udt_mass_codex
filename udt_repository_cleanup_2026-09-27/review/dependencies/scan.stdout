@@ -1,0 +1,30 @@
+{
+  "baseline": "8aac11e13a2311347771e11f507f4f2042ea02a2",
+  "branch": "grok",
+  "tracked_paths": 33380,
+  "root_files": 1147,
+  "root_extensions": {
+    ".py": 397,
+    ".md": 468,
+    ".pt": 90,
+    ".json": 168,
+    ".txt": 15,
+    ".tsv": 2,
+    "": 2,
+    ".png": 2,
+    ".out": 2,
+    ".ini": 1
+  },
+  "selected_candidates": 55,
+  "relocation_matches": 40,
+  "literal_reference_rows": 16922,
+  "python_version": "3.10.12 (main, Aug 31 2026, 10:18:17) [GCC 11.4.0]",
+  "git_version": "git version 2.34.1",
+  "excluded_content": [
+    "udt_kernel_plane_global_curvature_holonomy_atlas_2026-08-02/",
+    "udt_native_onshell_timelive_reset_owner_audit_2026-08-10/",
+    "udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/",
+    "udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/"
+  ],
+  "method": "git tracked text fixed-string search; no protected content; no untracked source reads; metadata-only Git object identity comparison; literal matches require consumer review"
+}

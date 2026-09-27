@@ -1,0 +1,27 @@
+{
+  "snapshot": "8aac11e13a2311347771e11f507f4f2042ea02a2",
+  "candidate_union": 90,
+  "initial58_covered": true,
+  "postledger48_covered": true,
+  "unique": true,
+  "full_prose_count": 47,
+  "archive_full_prose": true,
+  "dispositions": {
+    "ARCHIVE_ELIGIBLE": 31,
+    "RETAIN_GUARDED_INTERFACE": 2,
+    "RETAIN_CURRENT_INTERFACE": 6,
+    "RETAIN_SOURCE_INTERFACE": 22,
+    "RETAIN_CURRENT_AUTHORITY": 3,
+    "RETAIN_SCIENTIFIC_SYNTHESIS": 1,
+    "RETAIN_SCIENTIFIC_DOCUMENTATION": 2,
+    "RETAIN_CURRENT_DIRECTION": 1,
+    "RETAIN_HISTORICAL_SOURCE_INTERFACE": 1,
+    "RETAIN_SCIENTIFIC_SOURCE": 2,
+    "RETAIN_CURRENT_CODE": 8,
+    "RETAIN_COHERENT_CODE": 1,
+    "RETAIN_SCIENTIFIC_CONTRACT": 8,
+    "RETAIN_COHERENT_CODE_AND_EVIDENCE": 2
+  },
+  "timestamp_utc": "2026-09-27T21:46:04.013098+00:00",
+  "no_scientific_subprocess": true
+}

@@ -11,6 +11,11 @@ is not a startup read, not a current-frontier index, and not guaranteed to inclu
 after that snapshot.
 Use root `INDEX.md` for the compact current-frontier paths.
 
+Later working-document moves are recorded in
+`../../udt_foundation_alignment_audit_2026-09-27/continuation/archive/ARCHIVE_MANIFEST.tsv` and
+`../../udt_repository_cleanup_2026-09-27/archive/ARCHIVE_MANIFEST.tsv`.
+If a known old path is absent, follow these later maps; the older ledger remains unchanged.
+
 ## Immutable historical tables
 
 R0-R1C ownership, readiness, census, preregistration, and verification records are fixed snapshots

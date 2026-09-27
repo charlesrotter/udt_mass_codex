@@ -1,0 +1,89 @@
+{
+  "status": "PASS",
+  "source_sha256": "54dc5bd25b78b24072c11b7a0f4658ebb2e9fa7f84bf09506eba0b82cd2c2ba6",
+  "scratch_root": "/tmp/cleanup_publication_real_git_1aqu_1ev",
+  "actual_repository_index_touched": false,
+  "results": {
+    "valid_staged_index": {
+      "status": "PASS",
+      "target": "index",
+      "baseline": "d809f77602c4f3cfb241efbf8c8c75cfe9c8664b",
+      "published_files": 12,
+      "deleted_originals": 1,
+      "delivered_bytes": 8418,
+      "manifest_sha256": "3269dea3ea297698b9bf0b1a012c5791c93b5338077aa1dacd80b7a4a060b513",
+      "scope": "Exact changed-path membership and every expected delivered blob against sealed working files; not scientific evidence."
+    },
+    "valid_single_parent_commit": {
+      "status": "PASS",
+      "target": "5e3dd770045e6a7dcf44838f4caea0246b6a67aa",
+      "baseline": "d809f77602c4f3cfb241efbf8c8c75cfe9c8664b",
+      "published_files": 12,
+      "deleted_originals": 1,
+      "delivered_bytes": 8418,
+      "manifest_sha256": "3269dea3ea297698b9bf0b1a012c5791c93b5338077aa1dacd80b7a4a060b513",
+      "scope": "Exact changed-path membership and every expected delivered blob against sealed working files; not scientific evidence."
+    },
+    "omitted_archive_destination": {
+      "status": "REJECTED",
+      "reason": "archive destination omitted from publication"
+    },
+    "omitted_scope_delivery": {
+      "status": "REJECTED",
+      "reason": "required publication interfaces omitted"
+    },
+    "owned_artifact_omission": {
+      "status": "REJECTED",
+      "reason": "owned artifact omitted or extra publication path"
+    },
+    "wrong_archive_destination": {
+      "status": "REJECTED",
+      "reason": ""
+    },
+    "duplicate_archive_row": {
+      "status": "REJECTED",
+      "reason": ""
+    },
+    "duplicate_required_file": {
+      "status": "REJECTED",
+      "reason": ""
+    },
+    "executable_index_mode": {
+      "status": "REJECTED",
+      "reason": "publication requires regular non-executable files"
+    },
+    "manifest_hash_mismatch": {
+      "status": "REJECTED",
+      "reason": "manifest hash differs: HANDOFF.md"
+    },
+    "manifest_membership_omission": {
+      "status": "REJECTED",
+      "reason": "manifest membership"
+    },
+    "working_same_bytes_symlink": {
+      "status": "REJECTED",
+      "reason": "working publication file type/mode"
+    },
+    "working_bytes_after_stage": {
+      "status": "REJECTED",
+      "reason": "delivered blob differs: archive/remaining_working_surfaces_2026-09-27/original.md"
+    },
+    "extra_staged_path": {
+      "status": "REJECTED",
+      "reason": "exact publication membership"
+    },
+    "original_still_in_index": {
+      "status": "REJECTED",
+      "reason": "deleted originals remain"
+    },
+    "wrong_single_parent": {
+      "status": "REJECTED",
+      "reason": "unexpected commit parent(s)"
+    },
+    "merge_first_parent_matches": {
+      "status": "REJECTED",
+      "reason": "unexpected commit parent(s)"
+    }
+  },
+  "scope": "Real Git in owned temporary repositories, actual production verify() with ROOT/PACKET/PREFIX redirected. Two healthy states and15 faults; no scientific/protected inputs or remote activity."
+}

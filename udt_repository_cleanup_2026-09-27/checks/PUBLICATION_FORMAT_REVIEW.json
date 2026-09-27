@@ -1,0 +1,8 @@
+{
+  "status": "PASS_WITH_RAW_FORMAT_PRESERVED",
+  "source": "review/retrieval/CITED_EXCERPTS.txt",
+  "blank_source_line_labels": 70,
+  "rule": "Every flagged line is exactly filename:number: followed by one separator space and empty quoted content. These are raw citation labels, not authored trailing whitespace. Preserve the sealed excerpt.",
+  "initial_display": "Overbroad diagnostic context display truncated; exact finite regex check above established all70 cases without relying on unshown text.",
+  "original_precheck_failure": "PUBLICATION_PRECHECK_FAILURE.json; no manifests or staging existed at failure."
+}

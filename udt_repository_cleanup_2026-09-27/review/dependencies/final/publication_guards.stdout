@@ -1,0 +1,58 @@
+{
+  "status": "PASS",
+  "checker_sha256": "cb78b7a20d22405ea46e6c05e2b327c336a206e52fae2bb8ae3c933a3191f01b",
+  "scratch": "/tmp/cleanup_publication_guards_k1iuyaew",
+  "results": {
+    "valid_regular_664": "PASS",
+    "valid_regular_644": "PASS",
+    "inventory_destination_mismatch": {
+      "status": "REJECTED",
+      "reason": "inventory destination mismatch"
+    },
+    "same_bytes_archive_symlink": {
+      "status": "REJECTED",
+      "reason": "archive file type/mode"
+    },
+    "dangling_original_symlink": {
+      "status": "REJECTED",
+      "reason": "root duplicate remains"
+    },
+    "executable_archive_mode": {
+      "status": "REJECTED",
+      "reason": "archive file type/mode"
+    },
+    "archive_bytes_changed": {
+      "status": "REJECTED",
+      "reason": "archive content"
+    },
+    "archive_manifest_hash_changed": {
+      "status": "REJECTED",
+      "reason": "archive hash"
+    },
+    "archive_manifest_size_changed": {
+      "status": "REJECTED",
+      "reason": "archive size"
+    },
+    "archive_manifest_blob_changed": {
+      "status": "REJECTED",
+      "reason": "archive blob"
+    },
+    "archive_duplicate_row": {
+      "status": "REJECTED",
+      "reason": "archive empty/duplicate"
+    },
+    "retained_destination_changed": {
+      "status": "REJECTED",
+      "reason": "retained path changed"
+    },
+    "unrelated_tracked_change": {
+      "status": "REJECTED",
+      "reason": "unexpected tracked edit"
+    },
+    "unrelated_status_change": {
+      "status": "REJECTED",
+      "reason": "outside status changed"
+    }
+  },
+  "scope": "Actual run() with Git/table input functions and ROOT/PACKET replaced by isolated synthetic fixtures. Real lstat/read_bytes/sha and guard branches execute. Synthetic bytes only; no production source mutation or protected content."
+}

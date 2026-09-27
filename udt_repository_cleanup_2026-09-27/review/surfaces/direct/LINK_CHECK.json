@@ -1,0 +1,230 @@
+[
+  {
+    "source": "udt_repository_cleanup_2026-09-27/README.md",
+    "target": "../udt_foundation_alignment_audit_2026-09-27/continuation/DECISION_BRIEF.md"
+  },
+  {
+    "source": "udt_repository_cleanup_2026-09-27/README.md",
+    "target": "REPOSITORY_MAP.md"
+  },
+  {
+    "source": "udt_repository_cleanup_2026-09-27/README.md",
+    "target": "../archive/stale_working_documents_2026-09-27/README.md"
+  },
+  {
+    "source": "udt_repository_cleanup_2026-09-27/README.md",
+    "target": "../archive/remaining_working_surfaces_2026-09-27/README.md"
+  },
+  {
+    "source": "udt_repository_cleanup_2026-09-27/README.md",
+    "target": "archive/ARCHIVE_MANIFEST.tsv"
+  },
+  {
+    "source": "udt_repository_cleanup_2026-09-27/README.md",
+    "target": "inventory/ROOT_DISPOSITIONS.tsv"
+  },
+  {
+    "source": "udt_repository_cleanup_2026-09-27/README.md",
+    "target": "inventory/PACKAGE_DISPOSITIONS.tsv"
+  },
+  {
+    "source": "udt_repository_cleanup_2026-09-27/README.md",
+    "target": "review/surfaces/REPORT.md"
+  },
+  {
+    "source": "udt_repository_cleanup_2026-09-27/README.md",
+    "target": "review/surfaces/supplemental_transfer/SUPPLEMENTAL_VERDICT.md"
+  },
+  {
+    "source": "udt_repository_cleanup_2026-09-27/README.md",
+    "target": "review/dependencies/DEPENDENCY_ADJUDICATION.md"
+  },
+  {
+    "source": "udt_repository_cleanup_2026-09-27/README.md",
+    "target": "WORK_ORDER.md"
+  },
+  {
+    "source": "udt_repository_cleanup_2026-09-27/README.md",
+    "target": "CLOSEOUT.md"
+  },
+  {
+    "source": "archive/remaining_working_surfaces_2026-09-27/README.md",
+    "target": "../../udt_repository_cleanup_2026-09-27/archive/ARCHIVE_MANIFEST.tsv"
+  },
+  {
+    "source": "archive/remaining_working_surfaces_2026-09-27/README.md",
+    "target": "../stale_working_documents_2026-09-27/README.md"
+  },
+  {
+    "source": "archive/remaining_working_surfaces_2026-09-27/README.md",
+    "target": "../../udt_repository_cleanup_2026-09-27/REPOSITORY_MAP.md"
+  },
+  {
+    "source": "archive/remaining_working_surfaces_2026-09-27/README.md",
+    "target": "EXTERNAL_REVIEW_RETURN_2026-07-28_fresh_perspective.md"
+  },
+  {
+    "source": "archive/remaining_working_surfaces_2026-09-27/README.md",
+    "target": "UDT_EXTERNAL_AI_REVIEW_BRIEF_2026-07-28.md"
+  },
+  {
+    "source": "archive/remaining_working_surfaces_2026-09-27/README.md",
+    "target": "UDT_METRIC_KERNEL_DEVELOPMENT_FIDELITY_REVIEW_2026-09-05.md"
+  },
+  {
+    "source": "archive/remaining_working_surfaces_2026-09-27/README.md",
+    "target": "UDT_METRIC_KERNEL_FOUNDATIONS_FIDELITY_REVIEW_2026-09-05.md"
+  },
+  {
+    "source": "archive/remaining_working_surfaces_2026-09-27/README.md",
+    "target": "UDT_METRIC_KERNEL_OBSERVER_PAIR_FIDELITY_REVIEW_2026-09-05.md"
+  },
+  {
+    "source": "archive/remaining_working_surfaces_2026-09-27/README.md",
+    "target": "UDT_COMPLETION_REPORT.md"
+  },
+  {
+    "source": "archive/remaining_working_surfaces_2026-09-27/README.md",
+    "target": "UDT_NATIVE_ACTION_WORKSTATION_SYNC_AUDIT_2026-07-17.md"
+  },
+  {
+    "source": "archive/remaining_working_surfaces_2026-09-27/README.md",
+    "target": "UDT_NATIVE_ACTION_WORKSTATION_SYNC_DISPATCH.md"
+  },
+  {
+    "source": "archive/remaining_working_surfaces_2026-09-27/README.md",
+    "target": "UDT_WORKSTATION_TRANSFER_MANIFEST_2026-07-17.md"
+  },
+  {
+    "source": "archive/remaining_working_surfaces_2026-09-27/README.md",
+    "target": "UDT_F_POSTRETURN_AUDIT_AND_CODEX_TRANSITION_DISPATCH.md"
+  },
+  {
+    "source": "archive/remaining_working_surfaces_2026-09-27/README.md",
+    "target": "UDT_H3_BOUNDARY_AUDIT_PATCH_THEN_F_DISPATCH.md"
+  },
+  {
+    "source": "archive/remaining_working_surfaces_2026-09-27/README.md",
+    "target": "UDT_H3_BOUNDARY_VIRIAL_CLOSURE_BEFORE_F_DISPATCH.md"
+  },
+  {
+    "source": "archive/remaining_working_surfaces_2026-09-27/README.md",
+    "target": "UDT_H3_CORRECTED_G_THEN_F_SEQUENCING_DISPATCH.md"
+  },
+  {
+    "source": "archive/remaining_working_surfaces_2026-09-27/README.md",
+    "target": "SOLVER_INTEGRITY_UPGRADES_SPEC.md"
+  },
+  {
+    "source": "archive/remaining_working_surfaces_2026-09-27/README.md",
+    "target": "UDT_NATIVE_ACTION_ARM_C_LAUNCH_RECORD_2026-07-18.md"
+  },
+  {
+    "source": "archive/remaining_working_surfaces_2026-09-27/README.md",
+    "target": "UDT_NATIVE_ACTION_ARM_C_RETURN_2026-07-18.md"
+  },
+  {
+    "source": "archive/remaining_working_surfaces_2026-09-27/README.md",
+    "target": "UDT_NATIVE_ACTION_FINAL_ADJUDICATION_RETURN_2026-07-18.md"
+  },
+  {
+    "source": "archive/remaining_working_surfaces_2026-09-27/README.md",
+    "target": "UDT_NATIVE_ACTION_STAGE1_LAUNCH_RECORD_2026-07-17.md"
+  },
+  {
+    "source": "archive/remaining_working_surfaces_2026-09-27/README.md",
+    "target": "UDT_NATIVE_ACTION_STAGE1_RETURN_2026-07-18.md"
+  },
+  {
+    "source": "archive/remaining_working_surfaces_2026-09-27/README.md",
+    "target": "UDT_NATIVE_ACTION_STAGE2_LAUNCH_RECORD_2026-07-18.md"
+  },
+  {
+    "source": "archive/remaining_working_surfaces_2026-09-27/README.md",
+    "target": "UDT_NATIVE_ACTION_STAGE2_RETURN_2026-07-18.md"
+  },
+  {
+    "source": "archive/remaining_working_surfaces_2026-09-27/README.md",
+    "target": "REORGANIZATION_R0_PREREG_2026-07-18.md"
+  },
+  {
+    "source": "archive/remaining_working_surfaces_2026-09-27/README.md",
+    "target": "cognitive_corral_triggers_results.md"
+  },
+  {
+    "source": "archive/remaining_working_surfaces_2026-09-27/README.md",
+    "target": "p3_discipline_skills_results.md"
+  },
+  {
+    "source": "archive/remaining_working_surfaces_2026-09-27/README.md",
+    "target": "p4_cross_model_verify_results.md"
+  },
+  {
+    "source": "archive/remaining_working_surfaces_2026-09-27/README.md",
+    "target": "ANGULAR_TORIC_HANDOFF_UPDATE_PREREG_2026-07-19.md"
+  },
+  {
+    "source": "archive/remaining_working_surfaces_2026-09-27/README.md",
+    "target": "UDT_NATIVE_HOPFION_STARTUP_INTEGRATION_PREREG_2026-07-19.md"
+  },
+  {
+    "source": "archive/remaining_working_surfaces_2026-09-27/README.md",
+    "target": "UDT_SCIENTIFIC_CHECKPOINT_INTEGRATION_PREREG_2026-07-19.md"
+  },
+  {
+    "source": "archive/remaining_working_surfaces_2026-09-27/README.md",
+    "target": "hopfion_WORKSTATION_DISPATCH_GP_switch.md"
+  },
+  {
+    "source": "archive/remaining_working_surfaces_2026-09-27/README.md",
+    "target": "hopfion_WORKSTATION_DISPATCH_phase2_metric.md"
+  },
+  {
+    "source": "archive/remaining_working_surfaces_2026-09-27/README.md",
+    "target": "threadB_WORKSTATION_DISPATCH.md"
+  },
+  {
+    "source": "archive/remaining_working_surfaces_2026-09-27/README.md",
+    "target": "threadB_WORKSTATION_DISPATCH_mirror_vs_wall.md"
+  },
+  {
+    "source": "archive/remaining_working_surfaces_2026-09-27/README.md",
+    "target": "relay_claudeai_2026-07-02.md"
+  },
+  {
+    "source": "archive/remaining_working_surfaces_2026-09-27/README.md",
+    "target": "p5_live_state_shrink_results.md"
+  },
+  {
+    "source": "archive/stale_working_documents_2026-09-27/README.md",
+    "target": "../../udt_foundation_alignment_audit_2026-09-27/continuation/archive/ARCHIVE_MANIFEST.tsv"
+  },
+  {
+    "source": "archive/stale_working_documents_2026-09-27/README.md",
+    "target": "ATLAS_UNTRACKED_STARTUP_NOTE_PREREG_2026-08-05.md"
+  },
+  {
+    "source": "archive/stale_working_documents_2026-09-27/README.md",
+    "target": "PHI_ORCHESTRA_STARTUP_UPDATE_PREREG_2026-08-05.md"
+  },
+  {
+    "source": "archive/stale_working_documents_2026-09-27/README.md",
+    "target": "PHI_ORCHESTRA_VERIFIER_LIVE_REGISTRY_REPAIR_PREREG_2026-08-05.md"
+  },
+  {
+    "source": "archive/stale_working_documents_2026-09-27/README.md",
+    "target": "UDT_SYNTHESIS_METHOD_PATCH_REVIEW_2026-09-05.md"
+  },
+  {
+    "source": "archive/stale_working_documents_2026-09-27/README.md",
+    "target": "maintenance_agent_capacity_2026-09-10.md"
+  },
+  {
+    "source": "archive/stale_working_documents_2026-09-27/README.md",
+    "target": "RESTART_CHECKPOINT.md"
+  },
+  {
+    "source": "archive/stale_working_documents_2026-09-27/README.md",
+    "target": "UDT_Cold_Start_Rehearsal_and_Workstation_Restart.md"
+  }
+]

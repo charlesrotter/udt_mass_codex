@@ -1,0 +1,11 @@
+{
+  "status": "PASS",
+  "baseline": "8aac11e13a2311347771e11f507f4f2042ea02a2",
+  "archive_files": 34,
+  "archive_bytes": 223085,
+  "archive_file_modes": {
+    "0o664": 32,
+    "0o644": 2
+  },
+  "unchanged_untracked_status_entries": 52
+}

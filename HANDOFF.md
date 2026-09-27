@@ -18,7 +18,7 @@ Current G312 authority qualifies inherited “admitted/lawful” labels; the mul
 remains CONDITIONAL on full reviewed premises, not established from filter-only GR. Grades/math unchanged.
 Current authority: `udt_gr_filter_reconciliation_2026-09-09/AUTHORITY_RECORD.md`.
 Metric/kernel unchanged; angular-sector cancellation owns loud--quiet--loud.
-Foundation audit integrated; seven documents archived: INDEX.
+Foundation audit integrated; reviewed working-surface cleanup: INDEX.
 
 G351's owner-provisional finite nonnegative countably additive label measure gives
 `R^p A^-1` for nonzero absolutely continuous regular density, leaving `p` free.

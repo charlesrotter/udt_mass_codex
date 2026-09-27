@@ -1,0 +1,15 @@
+{
+  "timestamp_utc": "2026-09-27T21:52:19.673500+00:00",
+  "head": "8aac11e13a2311347771e11f507f4f2042ea02a2",
+  "exact_read_command": "cat UDT_WORKSTATION_TRANSFER_MANIFEST_2026-07-17.md UDT_NATIVE_ACTION_WORKSTATION_SYNC_DISPATCH.md UDT_NATIVE_ACTION_WORKSTATION_SYNC_AUDIT_2026-07-17.md",
+  "all3_full_prose_read": true,
+  "all3_equal_baseline_and_initial_record": true,
+  "all3_dependency_clear": true,
+  "initial_surface_table_sha256": "d1baa5a55e7feaf4164ecc1a5a116d8926b925df1039feec80e4885eeef49e99",
+  "initial_report_sha256": "a9fc44fdbc265618bf206afb636051f569c9cc2d23b85b4ade5423795c7f4476",
+  "dependency_table_sha256": "bd9049660085444e58a6c1934abfcad3dcd0d005b06b428d73ebcb68fa5b829d",
+  "dependency_finding": "DEPENDENCY_ADJUDICATION.md:48: intake manifest uses active/... package-relative paths, not these root originals; scientific source-census builder consumes fixed Git snapshot.",
+  "effective_archive_eligible_count_if_all_initial31_selected": 34,
+  "effective_unique_full_prose_read_count": 49,
+  "initial_artifacts_preserved": true
+}

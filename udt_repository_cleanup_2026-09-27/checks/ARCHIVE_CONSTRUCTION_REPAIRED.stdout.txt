@@ -1,0 +1,8 @@
+{
+  "status": "PASS",
+  "baseline": "8aac11e13a2311347771e11f507f4f2042ea02a2",
+  "archived_files": 34,
+  "archived_bytes": 223085,
+  "scratch_relocation_and_restoration": "exact bytes for every selected file",
+  "source_and_dependency_rows_matched": true
+}

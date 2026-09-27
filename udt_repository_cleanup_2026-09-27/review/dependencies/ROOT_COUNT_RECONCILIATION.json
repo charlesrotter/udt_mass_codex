@@ -1,0 +1,8 @@
+{
+  "tracked_root_files": 1147,
+  "known_root_original_paths_found_in_historical_ledger": 1099,
+  "current_root_paths_not_in_historical_ledger": 48,
+  "historical_ledger_rows": 1114,
+  "historical_originals_not_current_root": 15,
+  "meaning": "Different epochs and sets: current root = overlap plus current-only paths; old ledger = overlap plus old originals no longer at current root. No subtraction-based missing-file claim."
+}

@@ -1,0 +1,23 @@
+{
+  "status": "PASS",
+  "baseline": "8aac11e13a2311347771e11f507f4f2042ea02a2",
+  "tracked_paths": 33380,
+  "archived_files": 34,
+  "archive_bytes": 223085,
+  "packet_bytes_at_check": 29793545,
+  "unchanged_sources": [
+    "AGENTS.md",
+    "CLAUDE.md",
+    "CANON.md",
+    "founding.md",
+    "CURRENT_SCIENTIFIC_PREMISES.tsv",
+    "CURRENT_SCIENTIFIC_PREMISES.md",
+    "CURRENT_RESEARCH_PROGRAM.md",
+    "UDT_METRIC_KERNEL_DEVELOPMENT.md",
+    "research/_registry/CURRENT_ARTIFACT_PATHS.tsv",
+    "verify_current_scientific_premises.py",
+    "tests/test_startup_surface.py"
+  ],
+  "outside_status_entries": 52,
+  "scope": "Exact inventory/blob/byte/status correspondence; protected content unread; no scientific proof or full dynamic dependency claim."
+}

@@ -1,0 +1,69 @@
+{
+  "status": "PASS",
+  "builder_sha256": "e11dea5f898f607863efdb9cbe688bbe3b3d7b6b87d558532241729f08d558fb",
+  "scratch": "/tmp/cleanup_builder_guard_r3m_o13d",
+  "results": {
+    "valid_archive_metadata": "PASS",
+    "metadata_override_header": {
+      "status": "REJECTED",
+      "reason": "override fields may not replace immutable Git metadata"
+    },
+    "unknown_disposition": {
+      "status": "REJECTED",
+      "reason": "unknown disposition"
+    },
+    "protected_payload_override": {
+      "status": "REJECTED",
+      "reason": "protected override"
+    },
+    "fixed_interface_override": {
+      "status": "REJECTED",
+      "reason": "protected interface override"
+    },
+    "unknown_source": {
+      "status": "REJECTED",
+      "reason": ""
+    },
+    "duplicate_source": {
+      "status": "REJECTED",
+      "reason": ""
+    },
+    "duplicate_destination": {
+      "status": "REJECTED",
+      "reason": "missing or duplicate destination"
+    },
+    "destination_outside_archive": {
+      "status": "REJECTED",
+      "reason": "archive destination required"
+    },
+    "destination_traversal": {
+      "status": "REJECTED",
+      "reason": "unsafe destination"
+    },
+    "absolute_destination": {
+      "status": "REJECTED",
+      "reason": "unsafe destination"
+    },
+    "metadata_only_archive": {
+      "status": "REJECTED",
+      "reason": "archive requires full content review"
+    },
+    "single_review": {
+      "status": "REJECTED",
+      "reason": "archive requires distinct review references"
+    },
+    "duplicate_review": {
+      "status": "REJECTED",
+      "reason": "archive requires distinct review references"
+    },
+    "missing_review": {
+      "status": "REJECTED",
+      "reason": "missing review reference"
+    },
+    "retained_destination_move": {
+      "status": "REJECTED",
+      "reason": "retained destination must stay fixed"
+    }
+  },
+  "scope": "Actual production build() guards, with only baseline_tree replaced by four synthetic metadata rows and ROOT/PACKET redirected. No scientific/protected content read. Review fixture files test existence only, not true reviewer independence."
+}

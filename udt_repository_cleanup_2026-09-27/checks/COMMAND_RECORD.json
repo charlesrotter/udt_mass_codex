@@ -1,0 +1,54 @@
+{
+  "cwd": "/home/udt-admin/udt_mass_codex",
+  "baseline": "8aac11e13a2311347771e11f507f4f2042ea02a2",
+  "commands": [
+    {
+      "command": "python3 udt_repository_cleanup_2026-09-27/build_inventory.py",
+      "records": [
+        "INITIAL_INVENTORY",
+        "FINAL_INVENTORY"
+      ]
+    },
+    {
+      "command": "python3 udt_repository_cleanup_2026-09-27/prepare_archive.py",
+      "records": [
+        "ARCHIVE_CONSTRUCTION",
+        "ARCHIVE_CONSTRUCTION_REPAIRED"
+      ],
+      "first_failure": "filesystem permission0644 assumption; stopped before any move"
+    },
+    {
+      "command": "python3 udt_repository_cleanup_2026-09-27/verify_cleanup.py",
+      "records": [
+        "INTEGRITY_INITIAL",
+        "INTEGRITY_FINAL"
+      ]
+    },
+    {
+      "command": "timeout 900 python3 -m pytest -q tests/test_startup_surface.py tests/test_guardrail_policy.py tests/test_hygiene_header.py -k 'not full_foundational_premise_verifier_is_in_pytest'",
+      "exact_argv": "RELEVANT_TESTS.command.json",
+      "records": [
+        "RELEVANT_TESTS"
+      ]
+    },
+    {
+      "command": "timeout 900 python3 verify_current_scientific_premises.py",
+      "exact_argv": "FULL_PREMISE_VERIFIER.command.json",
+      "records": [
+        "FULL_PREMISE_VERIFIER"
+      ]
+    }
+  ],
+  "record_format": "Named checks have .stdout.txt .stderr.txt .exit.txt receipts. Final test commands also retain exact JSON argv and elapsed seconds. Reviewer command scripts and receipts live under review/; original display metadata commands are recorded there. No GPU or research solve.",
+  "publication_commands": [
+    "python3 udt_repository_cleanup_2026-09-27/verify_publication.py",
+    "python3 udt_repository_cleanup_2026-09-27/verify_publication.py --commit HEAD",
+    "git fetch origin",
+    "git add -f --pathspec-from-file=<exact NUL-delimited publication list> --pathspec-file-nul",
+    "git diff --cached --check",
+    "git commit -m <reviewed maintenance description>",
+    "git push origin grok",
+    "git ls-remote origin refs/heads/grok"
+  ],
+  "publication_receipts": "Post-seal delivery receipts are written under /tmp/udt-cleanup-publication-2026-09-27 to avoid mutating the sealed commit; terminal/tool transcript and Git history retain actual publication evidence."
+}

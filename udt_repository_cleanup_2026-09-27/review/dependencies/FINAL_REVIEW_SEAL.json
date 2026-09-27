@@ -1,0 +1,23 @@
+{
+  "stage": "FINAL_DIRECT_CONSTRUCTION_REVIEW",
+  "verdict": "VERIFIED_WITH_CAVEATS",
+  "reviewer_context": "/root/cleanup_dependency_review",
+  "model": "GPT-6 family; precise runtime identifier not exposed",
+  "HEAD": "8aac11e13a2311347771e11f507f4f2042ea02a2",
+  "branch": "grok",
+  "scope": "34 selected archive paths, exact33380baseline inventory,34 deletions+5navigation modifications, direct unchanged-source and maintained-link checks; actual publicationchecker synthetic fault fixtures",
+  "review_independence": "Separate source-exposed context; independent metadata/archive comparison code; production guard tests deliberately execute same guard code; no different-model or scientific-review claim",
+  "pending": "Parent integrated regression/scientific tests, fresh-reader report, publication scope/seals/size, commit and remote verification",
+  "files": {
+    "FINAL_DIRECT_REVIEW.md": "cdf447fe7b1aab605a3149fa773acd42ef1cce944289816f2d88093552802a8c",
+    "verify_final_constructed.py": "17b0ebe609646df33da16da62784be7153e1f640bd65e1b29268ee32c552b0e0",
+    "check_publication_guards.py": "048d3f63e254f42fed6a2820cd7094e00bc58dcaa0315ad37cf63240c13c5def",
+    "final/REVIEWED_FINAL_INPUTS.tsv": "40ebc986ce698e711740c52506a2d996e69a20b03b0a2bbdff37e54ed6fe1fbc",
+    "final/INDEPENDENT_INVENTORY_RESULT.json": "db758162571a811fe3d580c3aabeba5e02383e7e799b2b3c0a323c0fb91f55df",
+    "final/DIRECT_CONSTRUCTION_RESULT.json": "3aa9619db7208934e6201bdb481144c4231ed395c8057b39b49ae5a9250bb505",
+    "final/PUBLICATION_GUARD_RESULT.json": "dc3cba17dbb0a823876fbe27cb7dee2c8a5a7b46278dd056edd71054eea75438",
+    "final/SURFACE_REFERENCE_CORRESPONDENCE.json": "a0a2385c0c42ce8f7434e68ec27c31c6e7184529601d2a00e48fd1646e2f2745",
+    "final/publication_direct.stdout": "dd9256d8490bf649ec034f376bf1a351d5315faa241f4a8cb089960dd0676cd9",
+    "final/publication_direct.stderr": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "command": "python3 udt_repository_cleanup_2026-09-27/review/surfaces/direct/check_constructed_selection.py",
+  "cwd": "/home/udt-admin/udt_mass_codex",
+  "time_utc": "2026-09-27T21:58:58.353972+00:00",
+  "python": "Python 3.10.12",
+  "result": "exit0; full stdout/stderr retained; no scientific subprocess"
+}

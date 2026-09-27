@@ -75,7 +75,7 @@ G374/G375 restrict position-dependent rescaling on a fixed base but retain const
 `g_hat=a^-2 g, Lambda_hat=a^2 Lambda, a>0`. No physical size or absolute scale is selected.
 A separately fixed target scalar restricts that rescaling; its value is supplied, not derived.
 Carried measure, configuration population and history selection differ; “occupancy” supplies no law.
-Foundation audit integrated; seven working documents archived: INDEX.
+Foundation audit integrated; reviewed working-surface cleanup: INDEX.
 A successor needs an unexamined admitted implication.
 
 Geometric/calibration and emergence aims remain parallel. Conditional measurements need justified

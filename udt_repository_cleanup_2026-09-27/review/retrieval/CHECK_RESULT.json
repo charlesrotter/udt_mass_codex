@@ -1,0 +1,505 @@
+{
+  "timestamp_utc": "2026-09-27T22:01:23.818934+00:00",
+  "reviewer_context": "/root/cleanup_retrieval_review",
+  "source_first_sha256": "cb158aa7589fc329cc1107bb7c5cd96fbf8f3c971cdefe53f763473aef7503ad",
+  "head": "8aac11e13a2311347771e11f507f4f2042ea02a2",
+  "scientific_computations_executed": false,
+  "source_exposure_count": 32,
+  "checks_passed": 98,
+  "checks": [
+    {
+      "check": "actual_branch",
+      "passed": true,
+      "detail": "grok"
+    },
+    {
+      "check": "actual_head",
+      "passed": true,
+      "detail": "8aac11e13a2311347771e11f507f4f2042ea02a2"
+    },
+    {
+      "check": "unique_archive_mapping:REORGANIZATION_R0_PREREG_2026-07-18.md",
+      "passed": true,
+      "detail": 1
+    },
+    {
+      "check": "archive_byte_identity:REORGANIZATION_R0_PREREG_2026-07-18.md",
+      "passed": true,
+      "detail": "archive/remaining_working_surfaces_2026-09-27/REORGANIZATION_R0_PREREG_2026-07-18.md"
+    },
+    {
+      "check": "archive_sha256:REORGANIZATION_R0_PREREG_2026-07-18.md",
+      "passed": true,
+      "detail": "dce487c438f597dc267bd7c2fed4eb908442c9b133747f1255ea6b78dd4e4b87"
+    },
+    {
+      "check": "archive_blob_oid:REORGANIZATION_R0_PREREG_2026-07-18.md",
+      "passed": true,
+      "detail": "ce4bdc2aadadc4d701fe8972898e2a927f185437"
+    },
+    {
+      "check": "archive_source_pin:REORGANIZATION_R0_PREREG_2026-07-18.md",
+      "passed": true,
+      "detail": "8aac11e13a2311347771e11f507f4f2042ea02a2"
+    },
+    {
+      "check": "archive_original_absent:REORGANIZATION_R0_PREREG_2026-07-18.md",
+      "passed": true,
+      "detail": "historical direct root path absent"
+    },
+    {
+      "check": "unique_archive_mapping:UDT_METRIC_KERNEL_OBSERVER_PAIR_FIDELITY_REVIEW_2026-09-05.md",
+      "passed": true,
+      "detail": 1
+    },
+    {
+      "check": "archive_byte_identity:UDT_METRIC_KERNEL_OBSERVER_PAIR_FIDELITY_REVIEW_2026-09-05.md",
+      "passed": true,
+      "detail": "archive/remaining_working_surfaces_2026-09-27/UDT_METRIC_KERNEL_OBSERVER_PAIR_FIDELITY_REVIEW_2026-09-05.md"
+    },
+    {
+      "check": "archive_sha256:UDT_METRIC_KERNEL_OBSERVER_PAIR_FIDELITY_REVIEW_2026-09-05.md",
+      "passed": true,
+      "detail": "3ab924c1c99337be6c5d94f31c50d0eb152fcbae7083a27c119df24d6907455d"
+    },
+    {
+      "check": "archive_blob_oid:UDT_METRIC_KERNEL_OBSERVER_PAIR_FIDELITY_REVIEW_2026-09-05.md",
+      "passed": true,
+      "detail": "084615d7b5d9feeaf9315ea872dbc4eba65c6b70"
+    },
+    {
+      "check": "archive_source_pin:UDT_METRIC_KERNEL_OBSERVER_PAIR_FIDELITY_REVIEW_2026-09-05.md",
+      "passed": true,
+      "detail": "8aac11e13a2311347771e11f507f4f2042ea02a2"
+    },
+    {
+      "check": "archive_original_absent:UDT_METRIC_KERNEL_OBSERVER_PAIR_FIDELITY_REVIEW_2026-09-05.md",
+      "passed": true,
+      "detail": "historical direct root path absent"
+    },
+    {
+      "check": "original_review_pin:udt_vacuum_common_scale_campaign_2026-09-08/step_01/CANDIDATE_INITIAL.md",
+      "passed": true,
+      "detail": "13d516978df4cc0de99ef94428efaf1253d9cc4fe8aa07a7e7bf55032b928c9b"
+    },
+    {
+      "check": "original_review_pin:udt_vacuum_common_scale_campaign_2026-09-08/step_01/review/REVIEW_RECORD.md",
+      "passed": true,
+      "detail": "c287a30178ccb55deea4fab760ee61e76faf1abee73d975231ac3a357369e3c1"
+    },
+    {
+      "check": "unchanged_baseline:UDT_METRIC_KERNEL_DEVELOPMENT.md",
+      "passed": true,
+      "detail": "exact bytes"
+    },
+    {
+      "check": "unchanged_baseline:UDT_METRIC_KERNEL_COVERAGE.tsv",
+      "passed": true,
+      "detail": "exact bytes"
+    },
+    {
+      "check": "unchanged_baseline:PROVENANCE.md",
+      "passed": true,
+      "detail": "exact bytes"
+    },
+    {
+      "check": "unchanged_baseline:CURRENT_SCIENTIFIC_PREMISES.tsv",
+      "passed": true,
+      "detail": "exact bytes"
+    },
+    {
+      "check": "tracked_provenance:PROVENANCE.md",
+      "passed": true,
+      "detail": "Git metadata only for screenshots; images not opened"
+    },
+    {
+      "check": "tracked_provenance:origin_prompts_screenshot_2025-08-12.png",
+      "passed": true,
+      "detail": "Git metadata only for screenshots; images not opened"
+    },
+    {
+      "check": "tracked_provenance:provenance_origin_prompts_2025-08-12.png",
+      "passed": true,
+      "detail": "Git metadata only for screenshots; images not opened"
+    },
+    {
+      "check": "navigation_token:INDEX.md:udt_repository_cleanup_2026-09-27/README.md",
+      "passed": true,
+      "detail": "udt_repository_cleanup_2026-09-27/README.md"
+    },
+    {
+      "check": "navigation_token:udt_repository_cleanup_2026-09-27/README.md:../archive/remaining_working_surfaces_2026-09-27/README.md",
+      "passed": true,
+      "detail": "../archive/remaining_working_surfaces_2026-09-27/README.md"
+    },
+    {
+      "check": "navigation_token:udt_repository_cleanup_2026-09-27/README.md:archive/ARCHIVE_MANIFEST.tsv",
+      "passed": true,
+      "detail": "archive/ARCHIVE_MANIFEST.tsv"
+    },
+    {
+      "check": "navigation_token:archive/remaining_working_surfaces_2026-09-27/README.md:UDT_METRIC_KERNEL_OBSERVER_PAIR_FIDELITY_REVIEW_2026-09-05.md",
+      "passed": true,
+      "detail": "UDT_METRIC_KERNEL_OBSERVER_PAIR_FIDELITY_REVIEW_2026-09-05.md"
+    },
+    {
+      "check": "navigation_token:INDEX.md:udt_g374_g375_conditional_banking_2026-09-08/BANKING_RECORD.md",
+      "passed": true,
+      "detail": "udt_g374_g375_conditional_banking_2026-09-08/BANKING_RECORD.md"
+    },
+    {
+      "check": "navigation_token:INDEX.md:udt_gw170817_fixed_window_test_campaign_2026-09-07/DECISION_BRIEF.md",
+      "passed": true,
+      "detail": "udt_gw170817_fixed_window_test_campaign_2026-09-07/DECISION_BRIEF.md"
+    },
+    {
+      "check": "navigation_token:INDEX.md:udt_reviewed_backlog_banking_2026-09-10/BANKING_RECORD.md",
+      "passed": true,
+      "detail": "udt_reviewed_backlog_banking_2026-09-10/BANKING_RECORD.md"
+    },
+    {
+      "check": "navigation_token:INDEX.md:udt_foundation_alignment_audit_2026-09-27/continuation/DECISION_BRIEF.md",
+      "passed": true,
+      "detail": "udt_foundation_alignment_audit_2026-09-27/continuation/DECISION_BRIEF.md"
+    },
+    {
+      "check": "selected_registry_ids",
+      "passed": true,
+      "detail": [
+        "G374",
+        "G412"
+      ]
+    },
+    {
+      "check": "G374_conditional_category",
+      "passed": true,
+      "detail": "BANKED_DERIVED_CONDITIONAL__VERIFIED_WITH_CAVEATS__OWNER_AUTHORIZED__NOT_PHYSICAL_ADOPTION__NOT_CANON"
+    },
+    {
+      "check": "G412_finite_procedure_category",
+      "passed": true,
+      "detail": "BANKED_REVIEWED_FINITE_PROCEDURE_RESULT__VERIFIED_WITH_CAVEATS__OWNER_AUTHORIZED__NOT_PHYSICAL_ADOPTION__NOT_CANON"
+    },
+    {
+      "check": "outside_protected_prefixes:AGENTS.md",
+      "passed": true,
+      "detail": "AGENTS.md"
+    },
+    {
+      "check": "authorized_source_path:AGENTS.md",
+      "passed": true,
+      "detail": "tracked text or authorized maintenance artifact"
+    },
+    {
+      "check": "outside_protected_prefixes:LIVE.md",
+      "passed": true,
+      "detail": "LIVE.md"
+    },
+    {
+      "check": "authorized_source_path:LIVE.md",
+      "passed": true,
+      "detail": "tracked text or authorized maintenance artifact"
+    },
+    {
+      "check": "outside_protected_prefixes:HANDOFF.md",
+      "passed": true,
+      "detail": "HANDOFF.md"
+    },
+    {
+      "check": "authorized_source_path:HANDOFF.md",
+      "passed": true,
+      "detail": "tracked text or authorized maintenance artifact"
+    },
+    {
+      "check": "outside_protected_prefixes:CURRENT_RESEARCH_PROGRAM.md",
+      "passed": true,
+      "detail": "CURRENT_RESEARCH_PROGRAM.md"
+    },
+    {
+      "check": "authorized_source_path:CURRENT_RESEARCH_PROGRAM.md",
+      "passed": true,
+      "detail": "tracked text or authorized maintenance artifact"
+    },
+    {
+      "check": "outside_protected_prefixes:CURRENT_SCIENTIFIC_PREMISES.md",
+      "passed": true,
+      "detail": "CURRENT_SCIENTIFIC_PREMISES.md"
+    },
+    {
+      "check": "authorized_source_path:CURRENT_SCIENTIFIC_PREMISES.md",
+      "passed": true,
+      "detail": "tracked text or authorized maintenance artifact"
+    },
+    {
+      "check": "outside_protected_prefixes:CLAUDE.md",
+      "passed": true,
+      "detail": "CLAUDE.md"
+    },
+    {
+      "check": "authorized_source_path:CLAUDE.md",
+      "passed": true,
+      "detail": "tracked text or authorized maintenance artifact"
+    },
+    {
+      "check": "outside_protected_prefixes:.claude/skills/completeness-map/SKILL.md",
+      "passed": true,
+      "detail": ".claude/skills/completeness-map/SKILL.md"
+    },
+    {
+      "check": "authorized_source_path:.claude/skills/completeness-map/SKILL.md",
+      "passed": true,
+      "detail": "tracked text or authorized maintenance artifact"
+    },
+    {
+      "check": "outside_protected_prefixes:.claude/skills/verifier-before-record/SKILL.md",
+      "passed": true,
+      "detail": ".claude/skills/verifier-before-record/SKILL.md"
+    },
+    {
+      "check": "authorized_source_path:.claude/skills/verifier-before-record/SKILL.md",
+      "passed": true,
+      "detail": "tracked text or authorized maintenance artifact"
+    },
+    {
+      "check": "outside_protected_prefixes:INDEX.md",
+      "passed": true,
+      "detail": "INDEX.md"
+    },
+    {
+      "check": "authorized_source_path:INDEX.md",
+      "passed": true,
+      "detail": "tracked text or authorized maintenance artifact"
+    },
+    {
+      "check": "outside_protected_prefixes:MEMORY.md",
+      "passed": true,
+      "detail": "MEMORY.md"
+    },
+    {
+      "check": "authorized_source_path:MEMORY.md",
+      "passed": true,
+      "detail": "tracked text or authorized maintenance artifact"
+    },
+    {
+      "check": "outside_protected_prefixes:README.md",
+      "passed": true,
+      "detail": "README.md"
+    },
+    {
+      "check": "authorized_source_path:README.md",
+      "passed": true,
+      "detail": "tracked text or authorized maintenance artifact"
+    },
+    {
+      "check": "outside_protected_prefixes:udt_repository_cleanup_2026-09-27/README.md",
+      "passed": true,
+      "detail": "udt_repository_cleanup_2026-09-27/README.md"
+    },
+    {
+      "check": "authorized_source_path:udt_repository_cleanup_2026-09-27/README.md",
+      "passed": true,
+      "detail": "tracked text or authorized maintenance artifact"
+    },
+    {
+      "check": "outside_protected_prefixes:udt_g374_g375_conditional_banking_2026-09-08/BANKING_RECORD.md",
+      "passed": true,
+      "detail": "udt_g374_g375_conditional_banking_2026-09-08/BANKING_RECORD.md"
+    },
+    {
+      "check": "authorized_source_path:udt_g374_g375_conditional_banking_2026-09-08/BANKING_RECORD.md",
+      "passed": true,
+      "detail": "tracked text or authorized maintenance artifact"
+    },
+    {
+      "check": "outside_protected_prefixes:udt_gw170817_fixed_window_test_campaign_2026-09-07/DECISION_BRIEF.md",
+      "passed": true,
+      "detail": "udt_gw170817_fixed_window_test_campaign_2026-09-07/DECISION_BRIEF.md"
+    },
+    {
+      "check": "authorized_source_path:udt_gw170817_fixed_window_test_campaign_2026-09-07/DECISION_BRIEF.md",
+      "passed": true,
+      "detail": "tracked text or authorized maintenance artifact"
+    },
+    {
+      "check": "outside_protected_prefixes:UDT_METRIC_KERNEL_DEVELOPMENT.md",
+      "passed": true,
+      "detail": "UDT_METRIC_KERNEL_DEVELOPMENT.md"
+    },
+    {
+      "check": "authorized_source_path:UDT_METRIC_KERNEL_DEVELOPMENT.md",
+      "passed": true,
+      "detail": "tracked text or authorized maintenance artifact"
+    },
+    {
+      "check": "outside_protected_prefixes:founding.md",
+      "passed": true,
+      "detail": "founding.md"
+    },
+    {
+      "check": "authorized_source_path:founding.md",
+      "passed": true,
+      "detail": "tracked text or authorized maintenance artifact"
+    },
+    {
+      "check": "outside_protected_prefixes:udt_repository_cleanup_2026-09-27/REPOSITORY_MAP.md",
+      "passed": true,
+      "detail": "udt_repository_cleanup_2026-09-27/REPOSITORY_MAP.md"
+    },
+    {
+      "check": "authorized_source_path:udt_repository_cleanup_2026-09-27/REPOSITORY_MAP.md",
+      "passed": true,
+      "detail": "tracked text or authorized maintenance artifact"
+    },
+    {
+      "check": "outside_protected_prefixes:archive/remaining_working_surfaces_2026-09-27/README.md",
+      "passed": true,
+      "detail": "archive/remaining_working_surfaces_2026-09-27/README.md"
+    },
+    {
+      "check": "authorized_source_path:archive/remaining_working_surfaces_2026-09-27/README.md",
+      "passed": true,
+      "detail": "tracked text or authorized maintenance artifact"
+    },
+    {
+      "check": "outside_protected_prefixes:udt_foundation_alignment_audit_2026-09-27/continuation/DECISION_BRIEF.md",
+      "passed": true,
+      "detail": "udt_foundation_alignment_audit_2026-09-27/continuation/DECISION_BRIEF.md"
+    },
+    {
+      "check": "authorized_source_path:udt_foundation_alignment_audit_2026-09-27/continuation/DECISION_BRIEF.md",
+      "passed": true,
+      "detail": "tracked text or authorized maintenance artifact"
+    },
+    {
+      "check": "outside_protected_prefixes:udt_foundation_alignment_audit_2026-09-27/README.md",
+      "passed": true,
+      "detail": "udt_foundation_alignment_audit_2026-09-27/README.md"
+    },
+    {
+      "check": "authorized_source_path:udt_foundation_alignment_audit_2026-09-27/README.md",
+      "passed": true,
+      "detail": "tracked text or authorized maintenance artifact"
+    },
+    {
+      "check": "outside_protected_prefixes:udt_foundation_alignment_audit_2026-09-27/continuation/attachment/CANDIDATE.md",
+      "passed": true,
+      "detail": "udt_foundation_alignment_audit_2026-09-27/continuation/attachment/CANDIDATE.md"
+    },
+    {
+      "check": "authorized_source_path:udt_foundation_alignment_audit_2026-09-27/continuation/attachment/CANDIDATE.md",
+      "passed": true,
+      "detail": "tracked text or authorized maintenance artifact"
+    },
+    {
+      "check": "outside_protected_prefixes:udt_foundation_alignment_audit_2026-09-27/candidate/SOURCE_CLAIM_MAP.tsv",
+      "passed": true,
+      "detail": "udt_foundation_alignment_audit_2026-09-27/candidate/SOURCE_CLAIM_MAP.tsv"
+    },
+    {
+      "check": "authorized_source_path:udt_foundation_alignment_audit_2026-09-27/candidate/SOURCE_CLAIM_MAP.tsv",
+      "passed": true,
+      "detail": "tracked text or authorized maintenance artifact"
+    },
+    {
+      "check": "outside_protected_prefixes:PROVENANCE.md",
+      "passed": true,
+      "detail": "PROVENANCE.md"
+    },
+    {
+      "check": "authorized_source_path:PROVENANCE.md",
+      "passed": true,
+      "detail": "tracked text or authorized maintenance artifact"
+    },
+    {
+      "check": "outside_protected_prefixes:archive/remaining_working_surfaces_2026-09-27/REORGANIZATION_R0_PREREG_2026-07-18.md",
+      "passed": true,
+      "detail": "archive/remaining_working_surfaces_2026-09-27/REORGANIZATION_R0_PREREG_2026-07-18.md"
+    },
+    {
+      "check": "authorized_source_path:archive/remaining_working_surfaces_2026-09-27/REORGANIZATION_R0_PREREG_2026-07-18.md",
+      "passed": true,
+      "detail": "tracked text or authorized maintenance artifact"
+    },
+    {
+      "check": "outside_protected_prefixes:udt_gw170817_fixed_window_test_campaign_2026-09-07/step_02/review/FINAL_REVIEW.md",
+      "passed": true,
+      "detail": "udt_gw170817_fixed_window_test_campaign_2026-09-07/step_02/review/FINAL_REVIEW.md"
+    },
+    {
+      "check": "authorized_source_path:udt_gw170817_fixed_window_test_campaign_2026-09-07/step_02/review/FINAL_REVIEW.md",
+      "passed": true,
+      "detail": "tracked text or authorized maintenance artifact"
+    },
+    {
+      "check": "outside_protected_prefixes:udt_reviewed_backlog_banking_2026-09-10/BANKING_RECORD.md",
+      "passed": true,
+      "detail": "udt_reviewed_backlog_banking_2026-09-10/BANKING_RECORD.md"
+    },
+    {
+      "check": "authorized_source_path:udt_reviewed_backlog_banking_2026-09-10/BANKING_RECORD.md",
+      "passed": true,
+      "detail": "tracked text or authorized maintenance artifact"
+    },
+    {
+      "check": "outside_protected_prefixes:udt_repository_cleanup_2026-09-27/archive/ARCHIVE_MANIFEST.tsv",
+      "passed": true,
+      "detail": "udt_repository_cleanup_2026-09-27/archive/ARCHIVE_MANIFEST.tsv"
+    },
+    {
+      "check": "authorized_source_path:udt_repository_cleanup_2026-09-27/archive/ARCHIVE_MANIFEST.tsv",
+      "passed": true,
+      "detail": "tracked text or authorized maintenance artifact"
+    },
+    {
+      "check": "outside_protected_prefixes:udt_vacuum_common_scale_campaign_2026-09-08/step_01/REVIEWED_RESULT.md",
+      "passed": true,
+      "detail": "udt_vacuum_common_scale_campaign_2026-09-08/step_01/REVIEWED_RESULT.md"
+    },
+    {
+      "check": "authorized_source_path:udt_vacuum_common_scale_campaign_2026-09-08/step_01/REVIEWED_RESULT.md",
+      "passed": true,
+      "detail": "tracked text or authorized maintenance artifact"
+    },
+    {
+      "check": "outside_protected_prefixes:udt_vacuum_common_scale_campaign_2026-09-08/step_01/review/REVIEW_RECORD.md",
+      "passed": true,
+      "detail": "udt_vacuum_common_scale_campaign_2026-09-08/step_01/review/REVIEW_RECORD.md"
+    },
+    {
+      "check": "authorized_source_path:udt_vacuum_common_scale_campaign_2026-09-08/step_01/review/REVIEW_RECORD.md",
+      "passed": true,
+      "detail": "tracked text or authorized maintenance artifact"
+    },
+    {
+      "check": "outside_protected_prefixes:archive/remaining_working_surfaces_2026-09-27/UDT_METRIC_KERNEL_OBSERVER_PAIR_FIDELITY_REVIEW_2026-09-05.md",
+      "passed": true,
+      "detail": "archive/remaining_working_surfaces_2026-09-27/UDT_METRIC_KERNEL_OBSERVER_PAIR_FIDELITY_REVIEW_2026-09-05.md"
+    },
+    {
+      "check": "authorized_source_path:archive/remaining_working_surfaces_2026-09-27/UDT_METRIC_KERNEL_OBSERVER_PAIR_FIDELITY_REVIEW_2026-09-05.md",
+      "passed": true,
+      "detail": "tracked text or authorized maintenance artifact"
+    },
+    {
+      "check": "outside_protected_prefixes:CURRENT_SCIENTIFIC_PREMISES.tsv",
+      "passed": true,
+      "detail": "CURRENT_SCIENTIFIC_PREMISES.tsv"
+    },
+    {
+      "check": "authorized_source_path:CURRENT_SCIENTIFIC_PREMISES.tsv",
+      "passed": true,
+      "detail": "tracked text or authorized maintenance artifact"
+    },
+    {
+      "check": "outside_protected_prefixes:udt_gr_filter_reconciliation_2026-09-09/AUTHORITY_RECORD.md",
+      "passed": true,
+      "detail": "udt_gr_filter_reconciliation_2026-09-09/AUTHORITY_RECORD.md"
+    },
+    {
+      "check": "authorized_source_path:udt_gr_filter_reconciliation_2026-09-09/AUTHORITY_RECORD.md",
+      "passed": true,
+      "detail": "tracked text or authorized maintenance artifact"
+    }
+  ],
+  "known_limit": "Fixed manuscript historical direct hyperlink is dangling; current-pointer exact-filename archive recovery succeeds."
+}

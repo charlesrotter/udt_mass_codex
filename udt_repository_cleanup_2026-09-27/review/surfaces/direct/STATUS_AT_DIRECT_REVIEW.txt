@@ -1,0 +1,238 @@
+## grok...origin/grok
+ D ANGULAR_TORIC_HANDOFF_UPDATE_PREREG_2026-07-19.md
+ D EXTERNAL_REVIEW_RETURN_2026-07-28_fresh_perspective.md
+ M HANDOFF.md
+ M INDEX.md
+ M LIVE.md
+ M README.md
+ D REORGANIZATION_R0_PREREG_2026-07-18.md
+ D SOLVER_INTEGRITY_UPGRADES_SPEC.md
+ D UDT_COMPLETION_REPORT.md
+ D UDT_EXTERNAL_AI_REVIEW_BRIEF_2026-07-28.md
+ D UDT_F_POSTRETURN_AUDIT_AND_CODEX_TRANSITION_DISPATCH.md
+ D UDT_H3_BOUNDARY_AUDIT_PATCH_THEN_F_DISPATCH.md
+ D UDT_H3_BOUNDARY_VIRIAL_CLOSURE_BEFORE_F_DISPATCH.md
+ D UDT_H3_CORRECTED_G_THEN_F_SEQUENCING_DISPATCH.md
+ D UDT_METRIC_KERNEL_DEVELOPMENT_FIDELITY_REVIEW_2026-09-05.md
+ D UDT_METRIC_KERNEL_FOUNDATIONS_FIDELITY_REVIEW_2026-09-05.md
+ D UDT_METRIC_KERNEL_OBSERVER_PAIR_FIDELITY_REVIEW_2026-09-05.md
+ D UDT_NATIVE_ACTION_ARM_C_LAUNCH_RECORD_2026-07-18.md
+ D UDT_NATIVE_ACTION_ARM_C_RETURN_2026-07-18.md
+ D UDT_NATIVE_ACTION_FINAL_ADJUDICATION_RETURN_2026-07-18.md
+ D UDT_NATIVE_ACTION_STAGE1_LAUNCH_RECORD_2026-07-17.md
+ D UDT_NATIVE_ACTION_STAGE1_RETURN_2026-07-18.md
+ D UDT_NATIVE_ACTION_STAGE2_LAUNCH_RECORD_2026-07-18.md
+ D UDT_NATIVE_ACTION_STAGE2_RETURN_2026-07-18.md
+ D UDT_NATIVE_ACTION_WORKSTATION_SYNC_AUDIT_2026-07-17.md
+ D UDT_NATIVE_ACTION_WORKSTATION_SYNC_DISPATCH.md
+ D UDT_NATIVE_HOPFION_STARTUP_INTEGRATION_PREREG_2026-07-19.md
+ D UDT_SCIENTIFIC_CHECKPOINT_INTEGRATION_PREREG_2026-07-19.md
+ D UDT_WORKSTATION_TRANSFER_MANIFEST_2026-07-17.md
+ D cognitive_corral_triggers_results.md
+ D hopfion_WORKSTATION_DISPATCH_GP_switch.md
+ D hopfion_WORKSTATION_DISPATCH_phase2_metric.md
+ D p3_discipline_skills_results.md
+ D p4_cross_model_verify_results.md
+ D p5_live_state_shrink_results.md
+ D relay_claudeai_2026-07-02.md
+ M research/_registry/README.md
+ D threadB_WORKSTATION_DISPATCH.md
+ D threadB_WORKSTATION_DISPATCH_mirror_vs_wall.md
+?? 8_25/UDT_FOUNDING_VALUE_LAW_ANALYSIS.md
+?? 8_25/udt_extension_checks.py
+?? 8_25/udt_extension_minimality_response.md
+?? 8_25/udt_value_law_checks.py
+?? 8_25/udt_value_law_checks_llm1.py
+?? 8_25/udt_value_law_external_response.md
+?? "Mass creates gravity.txt"
+?? UDT_Complete_Guardrails_and_Central_Science_Tracking.md
+?? UDT_Next_Step_After_Two_Stages.md
+?? UDT_Sequenced_Guardrails_and_Development_Work_Order.md
+?? archive/remaining_working_surfaces_2026-09-27/ANGULAR_TORIC_HANDOFF_UPDATE_PREREG_2026-07-19.md
+?? archive/remaining_working_surfaces_2026-09-27/EXTERNAL_REVIEW_RETURN_2026-07-28_fresh_perspective.md
+?? archive/remaining_working_surfaces_2026-09-27/README.md
+?? archive/remaining_working_surfaces_2026-09-27/REORGANIZATION_R0_PREREG_2026-07-18.md
+?? archive/remaining_working_surfaces_2026-09-27/SOLVER_INTEGRITY_UPGRADES_SPEC.md
+?? archive/remaining_working_surfaces_2026-09-27/UDT_COMPLETION_REPORT.md
+?? archive/remaining_working_surfaces_2026-09-27/UDT_EXTERNAL_AI_REVIEW_BRIEF_2026-07-28.md
+?? archive/remaining_working_surfaces_2026-09-27/UDT_F_POSTRETURN_AUDIT_AND_CODEX_TRANSITION_DISPATCH.md
+?? archive/remaining_working_surfaces_2026-09-27/UDT_H3_BOUNDARY_AUDIT_PATCH_THEN_F_DISPATCH.md
+?? archive/remaining_working_surfaces_2026-09-27/UDT_H3_BOUNDARY_VIRIAL_CLOSURE_BEFORE_F_DISPATCH.md
+?? archive/remaining_working_surfaces_2026-09-27/UDT_H3_CORRECTED_G_THEN_F_SEQUENCING_DISPATCH.md
+?? archive/remaining_working_surfaces_2026-09-27/UDT_METRIC_KERNEL_DEVELOPMENT_FIDELITY_REVIEW_2026-09-05.md
+?? archive/remaining_working_surfaces_2026-09-27/UDT_METRIC_KERNEL_FOUNDATIONS_FIDELITY_REVIEW_2026-09-05.md
+?? archive/remaining_working_surfaces_2026-09-27/UDT_METRIC_KERNEL_OBSERVER_PAIR_FIDELITY_REVIEW_2026-09-05.md
+?? archive/remaining_working_surfaces_2026-09-27/UDT_NATIVE_ACTION_ARM_C_LAUNCH_RECORD_2026-07-18.md
+?? archive/remaining_working_surfaces_2026-09-27/UDT_NATIVE_ACTION_ARM_C_RETURN_2026-07-18.md
+?? archive/remaining_working_surfaces_2026-09-27/UDT_NATIVE_ACTION_FINAL_ADJUDICATION_RETURN_2026-07-18.md
+?? archive/remaining_working_surfaces_2026-09-27/UDT_NATIVE_ACTION_STAGE1_LAUNCH_RECORD_2026-07-17.md
+?? archive/remaining_working_surfaces_2026-09-27/UDT_NATIVE_ACTION_STAGE1_RETURN_2026-07-18.md
+?? archive/remaining_working_surfaces_2026-09-27/UDT_NATIVE_ACTION_STAGE2_LAUNCH_RECORD_2026-07-18.md
+?? archive/remaining_working_surfaces_2026-09-27/UDT_NATIVE_ACTION_STAGE2_RETURN_2026-07-18.md
+?? archive/remaining_working_surfaces_2026-09-27/UDT_NATIVE_ACTION_WORKSTATION_SYNC_AUDIT_2026-07-17.md
+?? archive/remaining_working_surfaces_2026-09-27/UDT_NATIVE_ACTION_WORKSTATION_SYNC_DISPATCH.md
+?? archive/remaining_working_surfaces_2026-09-27/UDT_NATIVE_HOPFION_STARTUP_INTEGRATION_PREREG_2026-07-19.md
+?? archive/remaining_working_surfaces_2026-09-27/UDT_SCIENTIFIC_CHECKPOINT_INTEGRATION_PREREG_2026-07-19.md
+?? archive/remaining_working_surfaces_2026-09-27/UDT_WORKSTATION_TRANSFER_MANIFEST_2026-07-17.md
+?? archive/remaining_working_surfaces_2026-09-27/cognitive_corral_triggers_results.md
+?? archive/remaining_working_surfaces_2026-09-27/hopfion_WORKSTATION_DISPATCH_GP_switch.md
+?? archive/remaining_working_surfaces_2026-09-27/hopfion_WORKSTATION_DISPATCH_phase2_metric.md
+?? archive/remaining_working_surfaces_2026-09-27/p3_discipline_skills_results.md
+?? archive/remaining_working_surfaces_2026-09-27/p4_cross_model_verify_results.md
+?? archive/remaining_working_surfaces_2026-09-27/p5_live_state_shrink_results.md
+?? archive/remaining_working_surfaces_2026-09-27/relay_claudeai_2026-07-02.md
+?? archive/remaining_working_surfaces_2026-09-27/threadB_WORKSTATION_DISPATCH.md
+?? archive/remaining_working_surfaces_2026-09-27/threadB_WORKSTATION_DISPATCH_mirror_vs_wall.md
+?? udt_native_onshell_timelive_reset_owner_audit_2026-08-10/CANDIDATE_LAW_MAP.tsv
+?? udt_native_onshell_timelive_reset_owner_audit_2026-08-10/DERIVATION_RESULT.json
+?? udt_native_onshell_timelive_reset_owner_audit_2026-08-10/EQUATION_OWNERSHIP_ATLAS.tsv
+?? udt_native_onshell_timelive_reset_owner_audit_2026-08-10/SOURCE_SCOPE_CLARIFICATION.md
+?? udt_native_onshell_timelive_reset_owner_audit_2026-08-10/derive_owner_atlas.py
+?? udt_native_onshell_timelive_reset_owner_audit_2026-08-10/run_catch_proofs.py
+?? udt_native_onshell_timelive_reset_owner_audit_2026-08-10/verify_owner_independent.py
+?? udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/ADVERSARIAL_REVIEW_REQUEST.md
+?? udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/AUDIT_REPORT.md
+?? udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/CATCH_PROOF_RESULT.json
+?? udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/DERIVATION_RESULT.json
+?? udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/EVIDENCE_GATES.md
+?? udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/EXACT_DERIVATION.md
+?? udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/INDEPENDENT_VERIFICATION.json
+?? udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/LAY_REPORT.md
+?? udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/STATUS_LEDGER.tsv
+?? udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/VERIFICATION_RESULT.json
+?? udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/WITNESS_ATLAS.tsv
+?? udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/build_review_intake.py
+?? udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/derive_regime_flow.py
+?? udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/run_catch_proofs.py
+?? udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/verify_independent.py
+?? udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/verify_package.py
+?? udt_repository_cleanup_2026-09-27/BASELINE.json
+?? udt_repository_cleanup_2026-09-27/CLOSEOUT.md
+?? udt_repository_cleanup_2026-09-27/README.md
+?? udt_repository_cleanup_2026-09-27/REPAIRS_AND_LIMITS.md
+?? udt_repository_cleanup_2026-09-27/REPOSITORY_MAP.md
+?? udt_repository_cleanup_2026-09-27/WORK_ORDER.md
+?? udt_repository_cleanup_2026-09-27/archive/ARCHIVE_MANIFEST.tsv
+?? udt_repository_cleanup_2026-09-27/archive/CONSTRUCTION_RESULT.json
+?? udt_repository_cleanup_2026-09-27/build_inventory.py
+?? udt_repository_cleanup_2026-09-27/checks/ARCHIVE_CONSTRUCTION.exit.txt
+?? udt_repository_cleanup_2026-09-27/checks/ARCHIVE_CONSTRUCTION.stderr.txt
+?? udt_repository_cleanup_2026-09-27/checks/ARCHIVE_CONSTRUCTION.stdout.txt
+?? udt_repository_cleanup_2026-09-27/checks/ARCHIVE_CONSTRUCTION_REPAIRED.exit.txt
+?? udt_repository_cleanup_2026-09-27/checks/ARCHIVE_CONSTRUCTION_REPAIRED.stderr.txt
+?? udt_repository_cleanup_2026-09-27/checks/ARCHIVE_CONSTRUCTION_REPAIRED.stdout.txt
+?? udt_repository_cleanup_2026-09-27/checks/COMMAND_RECORD.json
+?? udt_repository_cleanup_2026-09-27/checks/FINAL_INVENTORY.exit.txt
+?? udt_repository_cleanup_2026-09-27/checks/FINAL_INVENTORY.stderr.txt
+?? udt_repository_cleanup_2026-09-27/checks/FINAL_INVENTORY.stdout.txt
+?? udt_repository_cleanup_2026-09-27/checks/FULL_PREMISE_VERIFIER.command.json
+?? udt_repository_cleanup_2026-09-27/checks/FULL_PREMISE_VERIFIER.stderr.txt
+?? udt_repository_cleanup_2026-09-27/checks/FULL_PREMISE_VERIFIER.stdout.txt
+?? udt_repository_cleanup_2026-09-27/checks/INITIAL_INVENTORY.exit.txt
+?? udt_repository_cleanup_2026-09-27/checks/INITIAL_INVENTORY.stderr.txt
+?? udt_repository_cleanup_2026-09-27/checks/INITIAL_INVENTORY.stdout.txt
+?? udt_repository_cleanup_2026-09-27/checks/INTEGRITY_INITIAL.exit.txt
+?? udt_repository_cleanup_2026-09-27/checks/INTEGRITY_INITIAL.stderr.txt
+?? udt_repository_cleanup_2026-09-27/checks/INTEGRITY_INITIAL.stdout.txt
+?? udt_repository_cleanup_2026-09-27/checks/NAVIGATION.json
+?? udt_repository_cleanup_2026-09-27/checks/PREFLIGHT_SYNC.json
+?? udt_repository_cleanup_2026-09-27/checks/RELEVANT_TESTS.command.json
+?? udt_repository_cleanup_2026-09-27/checks/RELEVANT_TESTS.exit.txt
+?? udt_repository_cleanup_2026-09-27/checks/RELEVANT_TESTS.seconds.txt
+?? udt_repository_cleanup_2026-09-27/checks/RELEVANT_TESTS.stderr.txt
+?? udt_repository_cleanup_2026-09-27/checks/RELEVANT_TESTS.stdout.txt
+?? udt_repository_cleanup_2026-09-27/checks/VERSIONS.json
+?? udt_repository_cleanup_2026-09-27/inventory/DISPOSITION_RULES.md
+?? udt_repository_cleanup_2026-09-27/inventory/PACKAGE_DISPOSITIONS.tsv
+?? udt_repository_cleanup_2026-09-27/inventory/POST_LEDGER_ROOT_PATHS.txt
+?? udt_repository_cleanup_2026-09-27/inventory/REVIEWED_OVERRIDES.tsv
+?? udt_repository_cleanup_2026-09-27/inventory/ROOT_DISPOSITIONS.tsv
+?? udt_repository_cleanup_2026-09-27/inventory/SUMMARY.json
+?? udt_repository_cleanup_2026-09-27/inventory/TRACKED_DISPOSITIONS.tsv
+?? udt_repository_cleanup_2026-09-27/prepare_archive.py
+?? udt_repository_cleanup_2026-09-27/review/dependencies/BUILDER_GUARD_RESULT.json
+?? udt_repository_cleanup_2026-09-27/review/dependencies/CANDIDATE_REFERENCE_SUMMARY.tsv
+?? udt_repository_cleanup_2026-09-27/review/dependencies/DEPENDENCY_ADJUDICATION.md
+?? udt_repository_cleanup_2026-09-27/review/dependencies/DEPENDENCY_CLASSIFICATION.tsv
+?? udt_repository_cleanup_2026-09-27/review/dependencies/DISCOVERY_AND_COMMANDS.md
+?? udt_repository_cleanup_2026-09-27/review/dependencies/INDEPENDENT_INVENTORY_RESULT.json
+?? udt_repository_cleanup_2026-09-27/review/dependencies/INITIAL_INDEPENDENT_INVENTORY_RESULT.json
+?? udt_repository_cleanup_2026-09-27/review/dependencies/INITIAL_REVIEW_SEAL.json
+?? udt_repository_cleanup_2026-09-27/review/dependencies/INITIAL_inventory.stderr
+?? udt_repository_cleanup_2026-09-27/review/dependencies/LITERAL_REFERENCES.tsv
+?? udt_repository_cleanup_2026-09-27/review/dependencies/ROOT_COUNT_RECONCILIATION.json
+?? udt_repository_cleanup_2026-09-27/review/dependencies/SCAN_METADATA.json
+?? udt_repository_cleanup_2026-09-27/review/dependencies/SELECTED_DUPLICATE_BLOBS.tsv
+?? udt_repository_cleanup_2026-09-27/review/dependencies/SELECTED_RELOCATION_ROWS.tsv
+?? udt_repository_cleanup_2026-09-27/review/dependencies/SOURCE_VERSION_PINS.tsv
+?? udt_repository_cleanup_2026-09-27/review/dependencies/SUPPLEMENTAL_DEPENDENCY_CLASSIFICATION.tsv
+?? udt_repository_cleanup_2026-09-27/review/dependencies/builder_guards.stderr
+?? udt_repository_cleanup_2026-09-27/review/dependencies/check_builder_guards.py
+?? udt_repository_cleanup_2026-09-27/review/dependencies/check_publication_guards.py
+?? udt_repository_cleanup_2026-09-27/review/dependencies/final/DIRECT_CONSTRUCTION_RESULT.json
+?? udt_repository_cleanup_2026-09-27/review/dependencies/final/INDEPENDENT_INVENTORY_RESULT.json
+?? udt_repository_cleanup_2026-09-27/review/dependencies/final/PUBLICATION_GUARD_RESULT.json
+?? udt_repository_cleanup_2026-09-27/review/dependencies/final/REVIEWED_FINAL_INPUTS.tsv
+?? udt_repository_cleanup_2026-09-27/review/dependencies/final/direct.stderr
+?? udt_repository_cleanup_2026-09-27/review/dependencies/final/inventory.stderr
+?? udt_repository_cleanup_2026-09-27/review/dependencies/final/publication_direct.stderr
+?? udt_repository_cleanup_2026-09-27/review/dependencies/final/publication_guards.stderr
+?? udt_repository_cleanup_2026-09-27/review/dependencies/inventory.stderr
+?? udt_repository_cleanup_2026-09-27/review/dependencies/scan.stderr
+?? udt_repository_cleanup_2026-09-27/review/dependencies/scan_dependencies.py
+?? udt_repository_cleanup_2026-09-27/review/dependencies/verify_final_constructed.py
+?? udt_repository_cleanup_2026-09-27/review/dependencies/verify_inventory_independent.py
+?? udt_repository_cleanup_2026-09-27/review/surfaces/ADDITIONAL_LITERAL_CONSUMERS.tsv
+?? udt_repository_cleanup_2026-09-27/review/surfaces/ADDITIONAL_POST_LEDGER_NAMES.txt
+?? udt_repository_cleanup_2026-09-27/review/surfaces/ARCHIVE_CANDIDATE_NAMES.txt
+?? udt_repository_cleanup_2026-09-27/review/surfaces/ARCHIVE_ELIGIBLE_NAMES.txt
+?? udt_repository_cleanup_2026-09-27/review/surfaces/CANDIDATE_METADATA.tsv
+?? udt_repository_cleanup_2026-09-27/review/surfaces/CANDIDATE_NAMES.txt
+?? udt_repository_cleanup_2026-09-27/review/surfaces/CLASSIFICATION_CHECK.json
+?? udt_repository_cleanup_2026-09-27/review/surfaces/COMMAND_RECORD.md
+?? udt_repository_cleanup_2026-09-27/review/surfaces/DEPENDENCY_ALIGNMENT.json
+?? udt_repository_cleanup_2026-09-27/review/surfaces/FREEZE.md
+?? udt_repository_cleanup_2026-09-27/review/surfaces/HEAD.txt
+?? udt_repository_cleanup_2026-09-27/review/surfaces/HEAD_AT_REPORT.txt
+?? udt_repository_cleanup_2026-09-27/review/surfaces/KNOWN_PATH_LEDGER_ROWS.tsv
+?? udt_repository_cleanup_2026-09-27/review/surfaces/LITERAL_CONSUMERS.tsv
+?? udt_repository_cleanup_2026-09-27/review/surfaces/READ_SET_SHA256SUMS.txt
+?? udt_repository_cleanup_2026-09-27/review/surfaces/REPORT.md
+?? udt_repository_cleanup_2026-09-27/review/surfaces/REVIEW_SHA256SUMS.txt
+?? udt_repository_cleanup_2026-09-27/review/surfaces/ROOT_TRACKED_PATHS.txt
+?? udt_repository_cleanup_2026-09-27/review/surfaces/SOURCE_FIRST_CLASSIFICATION.tsv
+?? udt_repository_cleanup_2026-09-27/review/surfaces/STATUS_AT_FREEZE.txt
+?? udt_repository_cleanup_2026-09-27/review/surfaces/STATUS_AT_REPORT.txt
+?? udt_repository_cleanup_2026-09-27/review/surfaces/SURFACE_CLASSIFICATION.tsv
+?? udt_repository_cleanup_2026-09-27/review/surfaces/TRACKED_DIFF_AT_REPORT.txt
+?? udt_repository_cleanup_2026-09-27/review/surfaces/direct/CHECK.stderr.txt
+?? udt_repository_cleanup_2026-09-27/review/surfaces/direct/CHECK.stdout.txt
+?? udt_repository_cleanup_2026-09-27/review/surfaces/direct/CONSTRUCTED_SELECTION_CHECK.json
+?? udt_repository_cleanup_2026-09-27/review/surfaces/direct/LINK_CHECK.json
+?? udt_repository_cleanup_2026-09-27/review/surfaces/direct/PER_FILE_BYTE_CHECK.json
+?? udt_repository_cleanup_2026-09-27/review/surfaces/direct/REVIEWED_INPUT_SHA256SUMS.txt
+?? udt_repository_cleanup_2026-09-27/review/surfaces/direct/check_constructed_selection.py
+?? udt_repository_cleanup_2026-09-27/review/surfaces/supplemental_transfer/READ_AND_CORRESPONDENCE.json
+?? udt_repository_cleanup_2026-09-27/review/surfaces/supplemental_transfer/SUPPLEMENTAL_CLASSIFICATION.tsv
+?? udt_repository_cleanup_2026-09-27/review/surfaces/supplemental_transfer/SUPPLEMENTAL_SHA256SUMS.txt
+?? udt_repository_cleanup_2026-09-27/review/surfaces/supplemental_transfer/SUPPLEMENTAL_VERDICT.md
+?? udt_repository_cleanup_2026-09-27/verify_cleanup.py
+?? udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/AUDIT_REPORT.md
+?? udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/CATCH_PROOF_RESULT.json
+?? udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/DERIVATION_RESULT.json
+?? udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/EVIDENCE_GATES.md
+?? udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/EXACT_DERIVATION.md
+?? udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/INDEPENDENT_RADAU_REPLAY.tsv
+?? udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/INDEPENDENT_VERIFICATION.json
+?? udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/LAY_REPORT.md
+?? udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/PREREGISTRATION_EXECUTION_NOTE.md
+?? udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/PROFILE_COMPATIBILITY_ATLAS.tsv
+?? udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/REVIEW_DISPATCH.md
+?? udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/RUN_CHECKPOINT.tsv
+?? udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/STATUS_LEDGER.tsv
+?? udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/VERIFICATION_RESULT.json
+?? udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/build_review_manifest.py
+?? udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/derive_compatibility_atlas.py
+?? udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/run_catch_proofs.py
+?? udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/verify_independent.py
+?? udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/verify_package.py

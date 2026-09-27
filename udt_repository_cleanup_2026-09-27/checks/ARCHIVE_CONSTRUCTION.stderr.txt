@@ -1,0 +1,6 @@
+Traceback (most recent call last):
+  File "/home/udt-admin/udt_mass_codex/udt_repository_cleanup_2026-09-27/prepare_archive.py", line 96, in <module>
+    main()
+  File "/home/udt-admin/udt_mass_codex/udt_repository_cleanup_2026-09-27/prepare_archive.py", line 60, in main
+    assert stat.S_ISREG(mode) and stat.S_IMODE(mode) == 0o644
+AssertionError

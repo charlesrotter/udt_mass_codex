@@ -1,0 +1,7 @@
+{
+  "branch": "grok",
+  "HEAD": "8aac11e13a2311347771e11f507f4f2042ea02a2",
+  "origin_grok": "8aac11e13a2311347771e11f507f4f2042ea02a2",
+  "fetch_observed_exit": 0,
+  "publication_state": "precommit; final remote check still required"
+}

@@ -1,0 +1,5 @@
+{
+  "python": "3.10.12",
+  "git": "git version 2.34.1",
+  "pytest": "pytest 9.1.1"
+}

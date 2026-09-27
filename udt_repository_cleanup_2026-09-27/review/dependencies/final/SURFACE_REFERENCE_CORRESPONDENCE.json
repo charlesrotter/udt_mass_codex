@@ -1,0 +1,7 @@
+{
+  "status": "PASS",
+  "surface_rows_unique": 90,
+  "supplement_rows_unique": 3,
+  "matching_full_read_eligible_archive_rows": 34,
+  "scope": "Reviewer table correspondence; relies on actual surface reviewer disclosure for claimed read depth, not inference from checksum."
+}

@@ -1,0 +1,77 @@
+{
+  "tracked_paths": 33380,
+  "root_paths": 1147,
+  "groups": 799,
+  "dispositions": {
+    "RETAIN_METHOD_AND_TESTS": 83,
+    "RETAIN_CODE_OR_CONFIGURATION": 400,
+    "RETAIN_MAINTAINED_NAVIGATION": 14,
+    "RETAIN_ROOT_EVIDENCE_OR_DATA": 711,
+    "RETAIN_FOUNDATIONAL_SOURCE": 4,
+    "RETAIN_FIXED_ROOT_INTERFACE": 14,
+    "RETAIN_COHERENT_PACKAGE": 30880,
+    "RETAIN_EXISTING_ARCHIVE": 753,
+    "RETAIN_REORGANIZATION_PROVENANCE": 297,
+    "RETAIN_ORGANIZED_EVIDENCE": 13,
+    "EXCLUDE_PROTECTED": 211
+  },
+  "status": "PASS",
+  "baseline": "8aac11e13a2311347771e11f507f4f2042ea02a2",
+  "negative_controls": {
+    "missing_path": {
+      "status": "REJECTED",
+      "reason": "exact baseline path membership"
+    },
+    "duplicate_path": {
+      "status": "REJECTED",
+      "reason": "duplicate inventory path"
+    },
+    "same_count_path_substitution": {
+      "status": "REJECTED",
+      "reason": "exact baseline path membership"
+    },
+    "baseline_mode_mutation": {
+      "status": "REJECTED",
+      "reason": "baseline metadata drift"
+    },
+    "baseline_object_id_mutation": {
+      "status": "REJECTED",
+      "reason": "baseline metadata drift"
+    },
+    "baseline_bytes_mutation": {
+      "status": "REJECTED",
+      "reason": "baseline metadata drift"
+    },
+    "unknown_disposition": {
+      "status": "REJECTED",
+      "reason": "unknown disposition"
+    },
+    "retained_path_moved": {
+      "status": "REJECTED",
+      "reason": "retained destination moved"
+    },
+    "destination_traversal": {
+      "status": "REJECTED",
+      "reason": "unsafe destination"
+    },
+    "destination_collision": {
+      "status": "REJECTED",
+      "reason": "duplicate destination"
+    },
+    "protected_override": {
+      "status": "REJECTED",
+      "reason": "protected disposition"
+    },
+    "root_projection_omission": {
+      "status": "REJECTED",
+      "reason": "root projection mismatch"
+    },
+    "package_count_mutation": {
+      "status": "REJECTED",
+      "reason": "package count mismatch"
+    }
+  },
+  "limitations": "Independent exact metadata accounting and finite guard tests; does not prove scientific content review or dynamic dependency closure.",
+  "inventory_sha256": "435d89c7d236a0ccdeb07a0be1a823f0025c870654cb938615311b28c9b6bde7",
+  "builder_sha256": "e11dea5f898f607863efdb9cbe688bbe3b3d7b6b87d558532241729f08d558fb"
+}

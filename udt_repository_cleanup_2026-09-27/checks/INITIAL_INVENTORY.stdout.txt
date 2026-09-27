@@ -1,0 +1,21 @@
+{
+  "baseline": "8aac11e13a2311347771e11f507f4f2042ea02a2",
+  "tracked_paths": 33380,
+  "root_paths": 1147,
+  "groups": 799,
+  "dispositions": {
+    "EXCLUDE_PROTECTED": 211,
+    "RETAIN_CODE_OR_CONFIGURATION": 400,
+    "RETAIN_COHERENT_PACKAGE": 30880,
+    "RETAIN_EXISTING_ARCHIVE": 753,
+    "RETAIN_FIXED_ROOT_INTERFACE": 14,
+    "RETAIN_FOUNDATIONAL_SOURCE": 4,
+    "RETAIN_MAINTAINED_NAVIGATION": 14,
+    "RETAIN_METHOD_AND_TESTS": 83,
+    "RETAIN_ORGANIZED_EVIDENCE": 13,
+    "RETAIN_REORGANIZATION_PROVENANCE": 297,
+    "RETAIN_ROOT_EVIDENCE_OR_DATA": 711
+  },
+  "reviewed_overrides": 0,
+  "scope": "Exact baseline metadata census plus individually reviewed overrides; not content/proof review of every file or a complete dynamic dependency graph."
+}

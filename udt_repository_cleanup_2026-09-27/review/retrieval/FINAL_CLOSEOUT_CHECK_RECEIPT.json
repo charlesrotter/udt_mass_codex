@@ -1,0 +1,10 @@
+{
+  "command": "python3 - <<'PY'\nimport csv,hashlib,json\nfrom pathlib import Path\np=Path('udt_repository_cleanup_2026-09-27')\nr=p/'review/retrieval'\nh=lambda x:hashlib.sha256(x.read_bytes()).hexdigest()\nchecks=json.loads((r/'CHECK_RESULT.json').read_text())\nassert checks['checks_passed']==98\nassert len(checks['checks'])==98\nassert all(x['passed'] for x in checks['checks'])\nrows={x['path']:x for x in csv.DictReader((r/'SOURCE_EXPOSURE.tsv').open(),delimiter='\\t')}\nnav=['README.md','INDEX.md','LIVE.md','HANDOFF.md']\nfor name in nav: assert h(Path(name))==rows[name]['sha256']\nassert h(r/'SOURCE_FIRST.md')==checks['source_first_sha256']\nprint(json.dumps({'recorded_mechanical_assertions':98,'all_recorded_assertions_passed':True,'source_first_unchanged':True,'previously_read_root_navigation_unchanged':nav,'closeout_sha256':h(p/'CLOSEOUT.md'),'repairs_and_limits_sha256':h(p/'REPAIRS_AND_LIMITS.md'),'science_rerun':False,'other_review_checks_replayed':False},indent=2))\nPY",
+  "tool_result": {
+    "chunk_id": "0c14a0",
+    "wall_time_seconds": 0.000010682,
+    "exit_code": 0,
+    "original_token_count": 124,
+    "output": "{\n  \"recorded_mechanical_assertions\": 98,\n  \"all_recorded_assertions_passed\": true,\n  \"source_first_unchanged\": true,\n  \"previously_read_root_navigation_unchanged\": [\n    \"README.md\",\n    \"INDEX.md\",\n    \"LIVE.md\",\n    \"HANDOFF.md\"\n  ],\n  \"closeout_sha256\": \"381a45a968b1a4691c1dcb451822458bdf91caa5a1afb3f653c073fe0b937e1f\",\n  \"repairs_and_limits_sha256\": \"1f07dbb3e0e49203c41f3b9d2538f59a6a8b0346e46ed1778780473d152e5f7c\",\n  \"science_rerun\": false,\n  \"other_review_checks_replayed\": false\n}\n"
+  }
+}

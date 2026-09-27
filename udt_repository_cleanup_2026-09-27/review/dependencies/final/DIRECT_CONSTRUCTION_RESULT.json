@@ -1,0 +1,636 @@
+{
+  "status": "PASS",
+  "baseline": "8aac11e13a2311347771e11f507f4f2042ea02a2",
+  "archive_files": 34,
+  "archive_bytes": 223085,
+  "archive_file_modes": {
+    "0o664": 32,
+    "0o644": 2
+  },
+  "files": [
+    {
+      "source": "ANGULAR_TORIC_HANDOFF_UPDATE_PREREG_2026-07-19.md",
+      "destination": "archive/remaining_working_surfaces_2026-09-27/ANGULAR_TORIC_HANDOFF_UPDATE_PREREG_2026-07-19.md",
+      "git_blob_oid": "bc4d50d9a2283f3665ed985e3a96c38c24bd36da",
+      "sha256": "19f24688b7c7921ad991781096b4054e826b679380564f51f00c9bb60530b058",
+      "bytes": 2269,
+      "mode": "0o664",
+      "regular_non_symlink": true
+    },
+    {
+      "source": "EXTERNAL_REVIEW_RETURN_2026-07-28_fresh_perspective.md",
+      "destination": "archive/remaining_working_surfaces_2026-09-27/EXTERNAL_REVIEW_RETURN_2026-07-28_fresh_perspective.md",
+      "git_blob_oid": "4457e2baf0e3a71fe9a895a655e5f3e1aac508d2",
+      "sha256": "23ffe02a2a4e5cd85766dc9670af14d762af3bb8cca5a68061b7fdec951b8ea7",
+      "bytes": 15516,
+      "mode": "0o664",
+      "regular_non_symlink": true
+    },
+    {
+      "source": "REORGANIZATION_R0_PREREG_2026-07-18.md",
+      "destination": "archive/remaining_working_surfaces_2026-09-27/REORGANIZATION_R0_PREREG_2026-07-18.md",
+      "git_blob_oid": "ce4bdc2aadadc4d701fe8972898e2a927f185437",
+      "sha256": "dce487c438f597dc267bd7c2fed4eb908442c9b133747f1255ea6b78dd4e4b87",
+      "bytes": 6670,
+      "mode": "0o664",
+      "regular_non_symlink": true
+    },
+    {
+      "source": "SOLVER_INTEGRITY_UPGRADES_SPEC.md",
+      "destination": "archive/remaining_working_surfaces_2026-09-27/SOLVER_INTEGRITY_UPGRADES_SPEC.md",
+      "git_blob_oid": "a9a92a60a13f24aff911511ac79cf91f88671e1a",
+      "sha256": "f105bdb094d361c40046c688ca2428bf6e2f620e85915ee9c68962232a3b2312",
+      "bytes": 3995,
+      "mode": "0o664",
+      "regular_non_symlink": true
+    },
+    {
+      "source": "UDT_COMPLETION_REPORT.md",
+      "destination": "archive/remaining_working_surfaces_2026-09-27/UDT_COMPLETION_REPORT.md",
+      "git_blob_oid": "4581f3b600a187ab2387ace5b634c95593500cb7",
+      "sha256": "2ea9c47d8388a05a4620b07e6c350345fd5bb766e6eca83b8ee6862cc2819475",
+      "bytes": 13208,
+      "mode": "0o664",
+      "regular_non_symlink": true
+    },
+    {
+      "source": "UDT_EXTERNAL_AI_REVIEW_BRIEF_2026-07-28.md",
+      "destination": "archive/remaining_working_surfaces_2026-09-27/UDT_EXTERNAL_AI_REVIEW_BRIEF_2026-07-28.md",
+      "git_blob_oid": "89c2a515600825e5455e4fd481b0531f3f53758d",
+      "sha256": "21d239973008c743242dc1af4ba9b5d2d171cfe4b019b1b51447940d83ad403c",
+      "bytes": 11451,
+      "mode": "0o664",
+      "regular_non_symlink": true
+    },
+    {
+      "source": "UDT_F_POSTRETURN_AUDIT_AND_CODEX_TRANSITION_DISPATCH.md",
+      "destination": "archive/remaining_working_surfaces_2026-09-27/UDT_F_POSTRETURN_AUDIT_AND_CODEX_TRANSITION_DISPATCH.md",
+      "git_blob_oid": "2aefcf5b07fd8457847ee24089153a3e3924f9ea",
+      "sha256": "eda3f3c2b0e03a37a58ffd0ba74b08384a986db3d041d25c03d6c685e7b8ede7",
+      "bytes": 10256,
+      "mode": "0o664",
+      "regular_non_symlink": true
+    },
+    {
+      "source": "UDT_H3_BOUNDARY_AUDIT_PATCH_THEN_F_DISPATCH.md",
+      "destination": "archive/remaining_working_surfaces_2026-09-27/UDT_H3_BOUNDARY_AUDIT_PATCH_THEN_F_DISPATCH.md",
+      "git_blob_oid": "793ba7e083d2a343bcc6730ab16df46ce0fe2817",
+      "sha256": "1108767722d32250bbb46396dd54c9c915b591cbd07b2d3e0b95db24737d3f5c",
+      "bytes": 18588,
+      "mode": "0o664",
+      "regular_non_symlink": true
+    },
+    {
+      "source": "UDT_H3_BOUNDARY_VIRIAL_CLOSURE_BEFORE_F_DISPATCH.md",
+      "destination": "archive/remaining_working_surfaces_2026-09-27/UDT_H3_BOUNDARY_VIRIAL_CLOSURE_BEFORE_F_DISPATCH.md",
+      "git_blob_oid": "3236b926b6d2aa344e3ba306093d708bfdde981c",
+      "sha256": "ab974da9b841eae9b9c7d2c2684765820afedddb095d320ff696961c7f70526e",
+      "bytes": 12006,
+      "mode": "0o664",
+      "regular_non_symlink": true
+    },
+    {
+      "source": "UDT_H3_CORRECTED_G_THEN_F_SEQUENCING_DISPATCH.md",
+      "destination": "archive/remaining_working_surfaces_2026-09-27/UDT_H3_CORRECTED_G_THEN_F_SEQUENCING_DISPATCH.md",
+      "git_blob_oid": "c8d6d4a06fb47ed667a9c9a9c201cbdf78b13a29",
+      "sha256": "c0882cc4a2233b6278bb1e573f30ac43e67141301c4a3933ba6722652a038d9f",
+      "bytes": 12946,
+      "mode": "0o664",
+      "regular_non_symlink": true
+    },
+    {
+      "source": "UDT_METRIC_KERNEL_DEVELOPMENT_FIDELITY_REVIEW_2026-09-05.md",
+      "destination": "archive/remaining_working_surfaces_2026-09-27/UDT_METRIC_KERNEL_DEVELOPMENT_FIDELITY_REVIEW_2026-09-05.md",
+      "git_blob_oid": "b93e0ac0b8a5704ba2f4dd59bfcda901e9869cbb",
+      "sha256": "bd4dc777ea2c2254f31ab4f1d8460eb960404c685947cc788cd6a6925ee0bc1f",
+      "bytes": 4390,
+      "mode": "0o664",
+      "regular_non_symlink": true
+    },
+    {
+      "source": "UDT_METRIC_KERNEL_FOUNDATIONS_FIDELITY_REVIEW_2026-09-05.md",
+      "destination": "archive/remaining_working_surfaces_2026-09-27/UDT_METRIC_KERNEL_FOUNDATIONS_FIDELITY_REVIEW_2026-09-05.md",
+      "git_blob_oid": "bbe6991c48d2e41cb4cfcb4a511212970f4da7c3",
+      "sha256": "e624c9f77acd58d5429013bf32ff76dc1b47f9e9c8c33f858347a6023856cf2f",
+      "bytes": 4072,
+      "mode": "0o664",
+      "regular_non_symlink": true
+    },
+    {
+      "source": "UDT_METRIC_KERNEL_OBSERVER_PAIR_FIDELITY_REVIEW_2026-09-05.md",
+      "destination": "archive/remaining_working_surfaces_2026-09-27/UDT_METRIC_KERNEL_OBSERVER_PAIR_FIDELITY_REVIEW_2026-09-05.md",
+      "git_blob_oid": "084615d7b5d9feeaf9315ea872dbc4eba65c6b70",
+      "sha256": "3ab924c1c99337be6c5d94f31c50d0eb152fcbae7083a27c119df24d6907455d",
+      "bytes": 6550,
+      "mode": "0o664",
+      "regular_non_symlink": true
+    },
+    {
+      "source": "UDT_NATIVE_ACTION_ARM_C_LAUNCH_RECORD_2026-07-18.md",
+      "destination": "archive/remaining_working_surfaces_2026-09-27/UDT_NATIVE_ACTION_ARM_C_LAUNCH_RECORD_2026-07-18.md",
+      "git_blob_oid": "49204d407815016567354d40136b68164cbf0390",
+      "sha256": "34aa15eef432be448bd261d2cc9c8c1e697c948851649e584a1b09330b1e5ca6",
+      "bytes": 6426,
+      "mode": "0o664",
+      "regular_non_symlink": true
+    },
+    {
+      "source": "UDT_NATIVE_ACTION_ARM_C_RETURN_2026-07-18.md",
+      "destination": "archive/remaining_working_surfaces_2026-09-27/UDT_NATIVE_ACTION_ARM_C_RETURN_2026-07-18.md",
+      "git_blob_oid": "0c693377bc8debb4b2417b5434c25ae8bd260360",
+      "sha256": "66165473d65498e98c02896b4793ae24d137b6863199640fb07e3e11e8577f53",
+      "bytes": 4952,
+      "mode": "0o664",
+      "regular_non_symlink": true
+    },
+    {
+      "source": "UDT_NATIVE_ACTION_FINAL_ADJUDICATION_RETURN_2026-07-18.md",
+      "destination": "archive/remaining_working_surfaces_2026-09-27/UDT_NATIVE_ACTION_FINAL_ADJUDICATION_RETURN_2026-07-18.md",
+      "git_blob_oid": "a2b8475c90dd72b35e7c298eddbcb4db6d6ab685",
+      "sha256": "71909c0d8591aea14836685c9f7dcbd9b5b9b4c5bb27878c30829dffcef13c4d",
+      "bytes": 3837,
+      "mode": "0o664",
+      "regular_non_symlink": true
+    },
+    {
+      "source": "UDT_NATIVE_ACTION_STAGE1_LAUNCH_RECORD_2026-07-17.md",
+      "destination": "archive/remaining_working_surfaces_2026-09-27/UDT_NATIVE_ACTION_STAGE1_LAUNCH_RECORD_2026-07-17.md",
+      "git_blob_oid": "6da2969b429f265b371a0ed15e3912f090d57d21",
+      "sha256": "825959587e02b877c9a0aacb6f9e45d57b86b9aad8504e3a766006df52917897",
+      "bytes": 4531,
+      "mode": "0o664",
+      "regular_non_symlink": true
+    },
+    {
+      "source": "UDT_NATIVE_ACTION_STAGE1_RETURN_2026-07-18.md",
+      "destination": "archive/remaining_working_surfaces_2026-09-27/UDT_NATIVE_ACTION_STAGE1_RETURN_2026-07-18.md",
+      "git_blob_oid": "81570de2b1a0f8e51d8b0244970824031e2bc2b3",
+      "sha256": "be351d6f44229b7cc3e166dcb230f2b985d2a8a6b062c59c987c154d72c2bd76",
+      "bytes": 3874,
+      "mode": "0o664",
+      "regular_non_symlink": true
+    },
+    {
+      "source": "UDT_NATIVE_ACTION_STAGE2_LAUNCH_RECORD_2026-07-18.md",
+      "destination": "archive/remaining_working_surfaces_2026-09-27/UDT_NATIVE_ACTION_STAGE2_LAUNCH_RECORD_2026-07-18.md",
+      "git_blob_oid": "8d763cdafba64d16ea254ea88fa783e5b2eb2d11",
+      "sha256": "3f1102e48c399f74858f717dc5da75b4be0ec7208b437833406466106dd54681",
+      "bytes": 6569,
+      "mode": "0o664",
+      "regular_non_symlink": true
+    },
+    {
+      "source": "UDT_NATIVE_ACTION_STAGE2_RETURN_2026-07-18.md",
+      "destination": "archive/remaining_working_surfaces_2026-09-27/UDT_NATIVE_ACTION_STAGE2_RETURN_2026-07-18.md",
+      "git_blob_oid": "68e37d19b5524e30f9c2c7b756cd36c72035d6ed",
+      "sha256": "6bed5c57649d9a38f0f3644b9e44de966b0a08be21aab33df4b26386dd42a32d",
+      "bytes": 5506,
+      "mode": "0o664",
+      "regular_non_symlink": true
+    },
+    {
+      "source": "UDT_NATIVE_ACTION_WORKSTATION_SYNC_AUDIT_2026-07-17.md",
+      "destination": "archive/remaining_working_surfaces_2026-09-27/UDT_NATIVE_ACTION_WORKSTATION_SYNC_AUDIT_2026-07-17.md",
+      "git_blob_oid": "69d7febeaf61e6a64c0fa350f361543f347efffd",
+      "sha256": "f1b6b03c1d3aeed59e3476d0c50e61d884408ca435af97d191ac12c1f088fb87",
+      "bytes": 9694,
+      "mode": "0o664",
+      "regular_non_symlink": true
+    },
+    {
+      "source": "UDT_NATIVE_ACTION_WORKSTATION_SYNC_DISPATCH.md",
+      "destination": "archive/remaining_working_surfaces_2026-09-27/UDT_NATIVE_ACTION_WORKSTATION_SYNC_DISPATCH.md",
+      "git_blob_oid": "33b54d3472f6759523a237a7e18258069fcfa36c",
+      "sha256": "53859e31068721a27098bea865bc8b29a86ac7686e14d8ee1f0dfb4571b84056",
+      "bytes": 6071,
+      "mode": "0o644",
+      "regular_non_symlink": true
+    },
+    {
+      "source": "UDT_NATIVE_HOPFION_STARTUP_INTEGRATION_PREREG_2026-07-19.md",
+      "destination": "archive/remaining_working_surfaces_2026-09-27/UDT_NATIVE_HOPFION_STARTUP_INTEGRATION_PREREG_2026-07-19.md",
+      "git_blob_oid": "45aba454cdc133382d3c94936c8c90f7f6aec398",
+      "sha256": "4a9263de87ca3fb8f5a4f8032834ca1a475f10584dbd1d70f3f4fdc554111551",
+      "bytes": 3409,
+      "mode": "0o664",
+      "regular_non_symlink": true
+    },
+    {
+      "source": "UDT_SCIENTIFIC_CHECKPOINT_INTEGRATION_PREREG_2026-07-19.md",
+      "destination": "archive/remaining_working_surfaces_2026-09-27/UDT_SCIENTIFIC_CHECKPOINT_INTEGRATION_PREREG_2026-07-19.md",
+      "git_blob_oid": "62c4bccb064c364a6ba93480dfbf6ea859a849a0",
+      "sha256": "b1ab9b11695eb59949f28c9d7577824e61ed9d4b8403cf655ca50aebff758987",
+      "bytes": 3923,
+      "mode": "0o664",
+      "regular_non_symlink": true
+    },
+    {
+      "source": "UDT_WORKSTATION_TRANSFER_MANIFEST_2026-07-17.md",
+      "destination": "archive/remaining_working_surfaces_2026-09-27/UDT_WORKSTATION_TRANSFER_MANIFEST_2026-07-17.md",
+      "git_blob_oid": "79ba10937e5e6c46bfb5dc4557dc72ae21ea3a71",
+      "sha256": "6b9c3918749fe66879fd572005cef8306c2c4556f1098207ec33f75bb832194f",
+      "bytes": 1921,
+      "mode": "0o644",
+      "regular_non_symlink": true
+    },
+    {
+      "source": "cognitive_corral_triggers_results.md",
+      "destination": "archive/remaining_working_surfaces_2026-09-27/cognitive_corral_triggers_results.md",
+      "git_blob_oid": "a0981b3dc1bc34af7254ccfe2ba89fe492c16a48",
+      "sha256": "9097e7400521ca4309c5ce5c7a21171398545545eee3265617ffffe1512f1a7c",
+      "bytes": 6835,
+      "mode": "0o664",
+      "regular_non_symlink": true
+    },
+    {
+      "source": "hopfion_WORKSTATION_DISPATCH_GP_switch.md",
+      "destination": "archive/remaining_working_surfaces_2026-09-27/hopfion_WORKSTATION_DISPATCH_GP_switch.md",
+      "git_blob_oid": "46365a4dc94f274c963b498b9924a764b1cd5057",
+      "sha256": "4c5468016183b06da507fe812e73e56d22129e8a21d869754b15a23678c41bb3",
+      "bytes": 6144,
+      "mode": "0o664",
+      "regular_non_symlink": true
+    },
+    {
+      "source": "hopfion_WORKSTATION_DISPATCH_phase2_metric.md",
+      "destination": "archive/remaining_working_surfaces_2026-09-27/hopfion_WORKSTATION_DISPATCH_phase2_metric.md",
+      "git_blob_oid": "db4b7a9f196690841b0814a1a469bf7bac7941c1",
+      "sha256": "903b62915dd2b75029a7def1a5674162f5be1223ca91bb61b6d7bc86ec1b0e02",
+      "bytes": 5913,
+      "mode": "0o664",
+      "regular_non_symlink": true
+    },
+    {
+      "source": "p3_discipline_skills_results.md",
+      "destination": "archive/remaining_working_surfaces_2026-09-27/p3_discipline_skills_results.md",
+      "git_blob_oid": "dc1d1c5124f9b24f92ffe89f595666d9aca5eeae",
+      "sha256": "8d20526d864fca72627d330b633579fe79ad965dadae67f8d2308e7865659907",
+      "bytes": 3217,
+      "mode": "0o664",
+      "regular_non_symlink": true
+    },
+    {
+      "source": "p4_cross_model_verify_results.md",
+      "destination": "archive/remaining_working_surfaces_2026-09-27/p4_cross_model_verify_results.md",
+      "git_blob_oid": "dc84cf1d582efa60f625cbd46c589327c2fa76bb",
+      "sha256": "d4f5cbeb6e79df2e83242e39e46da995dfcceb613b74c8d74244dfa19cf651ca",
+      "bytes": 3680,
+      "mode": "0o664",
+      "regular_non_symlink": true
+    },
+    {
+      "source": "p5_live_state_shrink_results.md",
+      "destination": "archive/remaining_working_surfaces_2026-09-27/p5_live_state_shrink_results.md",
+      "git_blob_oid": "e7826daaa3cfe3dc904422ddde61394ffa3020f8",
+      "sha256": "53097c8d7f45bba9dfe4ffa414a85955f7e7469de63a95acbcea39f9c2ccf0f9",
+      "bytes": 2616,
+      "mode": "0o664",
+      "regular_non_symlink": true
+    },
+    {
+      "source": "relay_claudeai_2026-07-02.md",
+      "destination": "archive/remaining_working_surfaces_2026-09-27/relay_claudeai_2026-07-02.md",
+      "git_blob_oid": "6347e4751afe6fa86b1527cae326297796a917a4",
+      "sha256": "011fe6116e105353055252bd054080ea440975c052d6ea9878c207f705623350",
+      "bytes": 3869,
+      "mode": "0o664",
+      "regular_non_symlink": true
+    },
+    {
+      "source": "threadB_WORKSTATION_DISPATCH.md",
+      "destination": "archive/remaining_working_surfaces_2026-09-27/threadB_WORKSTATION_DISPATCH.md",
+      "git_blob_oid": "f921df635449acc25621bb957763991d63c32957",
+      "sha256": "d9d3e40afbaf33586c0d85d47e65997ea59c53ee33f9ed4749e33d3ef92ad443",
+      "bytes": 3517,
+      "mode": "0o664",
+      "regular_non_symlink": true
+    },
+    {
+      "source": "threadB_WORKSTATION_DISPATCH_mirror_vs_wall.md",
+      "destination": "archive/remaining_working_surfaces_2026-09-27/threadB_WORKSTATION_DISPATCH_mirror_vs_wall.md",
+      "git_blob_oid": "3634d7bab44c537e3f1aafe12a5ba0d5ef1ffb38",
+      "sha256": "cf77a2cd74176a8e8b72670b6b9c8d057432054227303e98c1653c5ca57d3c23",
+      "bytes": 4664,
+      "mode": "0o664",
+      "regular_non_symlink": true
+    }
+  ],
+  "preserved_sources": [
+    {
+      "path": "AGENTS.md",
+      "git_blob_oid": "025d6f993b41b9cd0e5a2422997d372d315d75c2",
+      "sha256": "c578b045cf3278804124e23a5408ff9634a9a2165f7d20223f654d76bffd8ec9"
+    },
+    {
+      "path": "CLAUDE.md",
+      "git_blob_oid": "0f17cab8c98727a84f69160e899609a2893d39a7",
+      "sha256": "b7e524a5b06760e57877a408630228767ae9a394134095f9851bef5d06e17751"
+    },
+    {
+      "path": "CANON.md",
+      "git_blob_oid": "d42805ed92e4d5d8474f31d6761d075e3300509e",
+      "sha256": "047b7fbbc1acacf01d2716e3c98cdefd0b9b20136ac4a3306f55dd6775465250"
+    },
+    {
+      "path": "founding.md",
+      "git_blob_oid": "610ca273ea011fe4301c2e626a77b35d1fa4abe3",
+      "sha256": "b4b0d9a9fdd093c992647195aca7579566a9e77a396071a699c1938888a49e75"
+    },
+    {
+      "path": "CURRENT_SCIENTIFIC_PREMISES.tsv",
+      "git_blob_oid": "d9520234736c56cade3df73ebfc3b1ca272269d1",
+      "sha256": "7a3d69d5a0bc3ac98e2ebe2bb0c6d029df30071bf403baffed2223a193dc720b"
+    },
+    {
+      "path": "CURRENT_SCIENTIFIC_PREMISES.md",
+      "git_blob_oid": "18a70ad4015316ab049c7ee0326de198d3bdf6f4",
+      "sha256": "7b574665f714551a3a565987fc5bc56a4b44c7e6fb274532f61609c25153f627"
+    },
+    {
+      "path": "CURRENT_RESEARCH_PROGRAM.md",
+      "git_blob_oid": "aee5c830bcddb9552d434db767ee4ec9040cb921",
+      "sha256": "5736c273164a435e63b6daa97f28dd13edf074a37965adf429b82fcfd39e0494"
+    },
+    {
+      "path": "UDT_METRIC_KERNEL_DEVELOPMENT.md",
+      "git_blob_oid": "92a51103eebed352b7054ca7d1d3097fbd11f7b7",
+      "sha256": "3b625d8f43620a37c99d9f4f0fdc9390c3a12306b1da87281c143ce84d40a81e"
+    },
+    {
+      "path": "UDT_METRIC_KERNEL_COVERAGE.tsv",
+      "git_blob_oid": "324398ecc201fde4e36150726c81eaba6a9e0284",
+      "sha256": "b9a8d84d58b60dd6381af6512d89a63c8fa26750f0068e444dd039d329e74bc4"
+    },
+    {
+      "path": "research/_registry/CURRENT_ARTIFACT_PATHS.tsv",
+      "git_blob_oid": "936d103fd9ba6d2514f9035911c58bd284a58a6d",
+      "sha256": "fa09e7767ad90d098fb0d2ae17736b50c4f10d63997b1045c525b60be81688b6"
+    },
+    {
+      "path": "verify_current_scientific_premises.py",
+      "git_blob_oid": "f297ac6d876fe795b51de76dcbe21c11d5d0bcb4",
+      "sha256": "97724ef61bf70902ed6b70df9ee92e13acfb2a55fbede2d32adae46fa5b76bd4"
+    },
+    {
+      "path": "tests/test_startup_surface.py",
+      "git_blob_oid": "cfb733f30aa37b4625947ef0f08dcf9d4e908768",
+      "sha256": "de5384a6e6b2267f0f5d9a0ae0c1c9e71e265cc09a3dcf72826f43dca01b0e6f"
+    },
+    {
+      "path": "CODEX_STARTUP_REHEARSAL_2026-07-17.md",
+      "git_blob_oid": "404039f1ae739de3ce2f35cca06a43d18af6044d",
+      "sha256": "2b4af69fea9cdd6324309f258f6c109d227897e090b66cc9493fb686ea6848bd"
+    },
+    {
+      "path": "codex_rehearsal_final.md",
+      "git_blob_oid": "ec96234fe27e201edc2f433d727e021703b0096c",
+      "sha256": "698e71c3efbe9b32e1b64a711ffdea2a63ab43285f6adeaa110fc62ccf3ca170"
+    },
+    {
+      "path": "codex_rehearsal_transcript.txt",
+      "git_blob_oid": "f13302b9007eb82749f7c97f67750c00caf1d21b",
+      "sha256": "9fbdee8aa123a12ee08860d65a0b3712a5f0e23897a97762ba9596573eb0a669"
+    }
+  ],
+  "changed_tracked_paths": {
+    "ANGULAR_TORIC_HANDOFF_UPDATE_PREREG_2026-07-19.md": "D",
+    "EXTERNAL_REVIEW_RETURN_2026-07-28_fresh_perspective.md": "D",
+    "HANDOFF.md": "M",
+    "INDEX.md": "M",
+    "LIVE.md": "M",
+    "README.md": "M",
+    "REORGANIZATION_R0_PREREG_2026-07-18.md": "D",
+    "SOLVER_INTEGRITY_UPGRADES_SPEC.md": "D",
+    "UDT_COMPLETION_REPORT.md": "D",
+    "UDT_EXTERNAL_AI_REVIEW_BRIEF_2026-07-28.md": "D",
+    "UDT_F_POSTRETURN_AUDIT_AND_CODEX_TRANSITION_DISPATCH.md": "D",
+    "UDT_H3_BOUNDARY_AUDIT_PATCH_THEN_F_DISPATCH.md": "D",
+    "UDT_H3_BOUNDARY_VIRIAL_CLOSURE_BEFORE_F_DISPATCH.md": "D",
+    "UDT_H3_CORRECTED_G_THEN_F_SEQUENCING_DISPATCH.md": "D",
+    "UDT_METRIC_KERNEL_DEVELOPMENT_FIDELITY_REVIEW_2026-09-05.md": "D",
+    "UDT_METRIC_KERNEL_FOUNDATIONS_FIDELITY_REVIEW_2026-09-05.md": "D",
+    "UDT_METRIC_KERNEL_OBSERVER_PAIR_FIDELITY_REVIEW_2026-09-05.md": "D",
+    "UDT_NATIVE_ACTION_ARM_C_LAUNCH_RECORD_2026-07-18.md": "D",
+    "UDT_NATIVE_ACTION_ARM_C_RETURN_2026-07-18.md": "D",
+    "UDT_NATIVE_ACTION_FINAL_ADJUDICATION_RETURN_2026-07-18.md": "D",
+    "UDT_NATIVE_ACTION_STAGE1_LAUNCH_RECORD_2026-07-17.md": "D",
+    "UDT_NATIVE_ACTION_STAGE1_RETURN_2026-07-18.md": "D",
+    "UDT_NATIVE_ACTION_STAGE2_LAUNCH_RECORD_2026-07-18.md": "D",
+    "UDT_NATIVE_ACTION_STAGE2_RETURN_2026-07-18.md": "D",
+    "UDT_NATIVE_ACTION_WORKSTATION_SYNC_AUDIT_2026-07-17.md": "D",
+    "UDT_NATIVE_ACTION_WORKSTATION_SYNC_DISPATCH.md": "D",
+    "UDT_NATIVE_HOPFION_STARTUP_INTEGRATION_PREREG_2026-07-19.md": "D",
+    "UDT_SCIENTIFIC_CHECKPOINT_INTEGRATION_PREREG_2026-07-19.md": "D",
+    "UDT_WORKSTATION_TRANSFER_MANIFEST_2026-07-17.md": "D",
+    "cognitive_corral_triggers_results.md": "D",
+    "hopfion_WORKSTATION_DISPATCH_GP_switch.md": "D",
+    "hopfion_WORKSTATION_DISPATCH_phase2_metric.md": "D",
+    "p3_discipline_skills_results.md": "D",
+    "p4_cross_model_verify_results.md": "D",
+    "p5_live_state_shrink_results.md": "D",
+    "relay_claudeai_2026-07-02.md": "D",
+    "research/_registry/README.md": "M",
+    "threadB_WORKSTATION_DISPATCH.md": "D",
+    "threadB_WORKSTATION_DISPATCH_mirror_vs_wall.md": "D"
+  },
+  "unchanged_untracked_status_entries": 52,
+  "maintained_markdown_links": [
+    {
+      "source": "archive/remaining_working_surfaces_2026-09-27/README.md",
+      "target": "../../udt_repository_cleanup_2026-09-27/archive/ARCHIVE_MANIFEST.tsv"
+    },
+    {
+      "source": "archive/remaining_working_surfaces_2026-09-27/README.md",
+      "target": "../stale_working_documents_2026-09-27/README.md"
+    },
+    {
+      "source": "archive/remaining_working_surfaces_2026-09-27/README.md",
+      "target": "../../udt_repository_cleanup_2026-09-27/REPOSITORY_MAP.md"
+    },
+    {
+      "source": "archive/remaining_working_surfaces_2026-09-27/README.md",
+      "target": "EXTERNAL_REVIEW_RETURN_2026-07-28_fresh_perspective.md"
+    },
+    {
+      "source": "archive/remaining_working_surfaces_2026-09-27/README.md",
+      "target": "UDT_EXTERNAL_AI_REVIEW_BRIEF_2026-07-28.md"
+    },
+    {
+      "source": "archive/remaining_working_surfaces_2026-09-27/README.md",
+      "target": "UDT_METRIC_KERNEL_DEVELOPMENT_FIDELITY_REVIEW_2026-09-05.md"
+    },
+    {
+      "source": "archive/remaining_working_surfaces_2026-09-27/README.md",
+      "target": "UDT_METRIC_KERNEL_FOUNDATIONS_FIDELITY_REVIEW_2026-09-05.md"
+    },
+    {
+      "source": "archive/remaining_working_surfaces_2026-09-27/README.md",
+      "target": "UDT_METRIC_KERNEL_OBSERVER_PAIR_FIDELITY_REVIEW_2026-09-05.md"
+    },
+    {
+      "source": "archive/remaining_working_surfaces_2026-09-27/README.md",
+      "target": "UDT_COMPLETION_REPORT.md"
+    },
+    {
+      "source": "archive/remaining_working_surfaces_2026-09-27/README.md",
+      "target": "UDT_NATIVE_ACTION_WORKSTATION_SYNC_AUDIT_2026-07-17.md"
+    },
+    {
+      "source": "archive/remaining_working_surfaces_2026-09-27/README.md",
+      "target": "UDT_NATIVE_ACTION_WORKSTATION_SYNC_DISPATCH.md"
+    },
+    {
+      "source": "archive/remaining_working_surfaces_2026-09-27/README.md",
+      "target": "UDT_WORKSTATION_TRANSFER_MANIFEST_2026-07-17.md"
+    },
+    {
+      "source": "archive/remaining_working_surfaces_2026-09-27/README.md",
+      "target": "UDT_F_POSTRETURN_AUDIT_AND_CODEX_TRANSITION_DISPATCH.md"
+    },
+    {
+      "source": "archive/remaining_working_surfaces_2026-09-27/README.md",
+      "target": "UDT_H3_BOUNDARY_AUDIT_PATCH_THEN_F_DISPATCH.md"
+    },
+    {
+      "source": "archive/remaining_working_surfaces_2026-09-27/README.md",
+      "target": "UDT_H3_BOUNDARY_VIRIAL_CLOSURE_BEFORE_F_DISPATCH.md"
+    },
+    {
+      "source": "archive/remaining_working_surfaces_2026-09-27/README.md",
+      "target": "UDT_H3_CORRECTED_G_THEN_F_SEQUENCING_DISPATCH.md"
+    },
+    {
+      "source": "archive/remaining_working_surfaces_2026-09-27/README.md",
+      "target": "SOLVER_INTEGRITY_UPGRADES_SPEC.md"
+    },
+    {
+      "source": "archive/remaining_working_surfaces_2026-09-27/README.md",
+      "target": "UDT_NATIVE_ACTION_ARM_C_LAUNCH_RECORD_2026-07-18.md"
+    },
+    {
+      "source": "archive/remaining_working_surfaces_2026-09-27/README.md",
+      "target": "UDT_NATIVE_ACTION_ARM_C_RETURN_2026-07-18.md"
+    },
+    {
+      "source": "archive/remaining_working_surfaces_2026-09-27/README.md",
+      "target": "UDT_NATIVE_ACTION_FINAL_ADJUDICATION_RETURN_2026-07-18.md"
+    },
+    {
+      "source": "archive/remaining_working_surfaces_2026-09-27/README.md",
+      "target": "UDT_NATIVE_ACTION_STAGE1_LAUNCH_RECORD_2026-07-17.md"
+    },
+    {
+      "source": "archive/remaining_working_surfaces_2026-09-27/README.md",
+      "target": "UDT_NATIVE_ACTION_STAGE1_RETURN_2026-07-18.md"
+    },
+    {
+      "source": "archive/remaining_working_surfaces_2026-09-27/README.md",
+      "target": "UDT_NATIVE_ACTION_STAGE2_LAUNCH_RECORD_2026-07-18.md"
+    },
+    {
+      "source": "archive/remaining_working_surfaces_2026-09-27/README.md",
+      "target": "UDT_NATIVE_ACTION_STAGE2_RETURN_2026-07-18.md"
+    },
+    {
+      "source": "archive/remaining_working_surfaces_2026-09-27/README.md",
+      "target": "REORGANIZATION_R0_PREREG_2026-07-18.md"
+    },
+    {
+      "source": "archive/remaining_working_surfaces_2026-09-27/README.md",
+      "target": "cognitive_corral_triggers_results.md"
+    },
+    {
+      "source": "archive/remaining_working_surfaces_2026-09-27/README.md",
+      "target": "p3_discipline_skills_results.md"
+    },
+    {
+      "source": "archive/remaining_working_surfaces_2026-09-27/README.md",
+      "target": "p4_cross_model_verify_results.md"
+    },
+    {
+      "source": "archive/remaining_working_surfaces_2026-09-27/README.md",
+      "target": "ANGULAR_TORIC_HANDOFF_UPDATE_PREREG_2026-07-19.md"
+    },
+    {
+      "source": "archive/remaining_working_surfaces_2026-09-27/README.md",
+      "target": "UDT_NATIVE_HOPFION_STARTUP_INTEGRATION_PREREG_2026-07-19.md"
+    },
+    {
+      "source": "archive/remaining_working_surfaces_2026-09-27/README.md",
+      "target": "UDT_SCIENTIFIC_CHECKPOINT_INTEGRATION_PREREG_2026-07-19.md"
+    },
+    {
+      "source": "archive/remaining_working_surfaces_2026-09-27/README.md",
+      "target": "hopfion_WORKSTATION_DISPATCH_GP_switch.md"
+    },
+    {
+      "source": "archive/remaining_working_surfaces_2026-09-27/README.md",
+      "target": "hopfion_WORKSTATION_DISPATCH_phase2_metric.md"
+    },
+    {
+      "source": "archive/remaining_working_surfaces_2026-09-27/README.md",
+      "target": "threadB_WORKSTATION_DISPATCH.md"
+    },
+    {
+      "source": "archive/remaining_working_surfaces_2026-09-27/README.md",
+      "target": "threadB_WORKSTATION_DISPATCH_mirror_vs_wall.md"
+    },
+    {
+      "source": "archive/remaining_working_surfaces_2026-09-27/README.md",
+      "target": "relay_claudeai_2026-07-02.md"
+    },
+    {
+      "source": "archive/remaining_working_surfaces_2026-09-27/README.md",
+      "target": "p5_live_state_shrink_results.md"
+    },
+    {
+      "source": "udt_repository_cleanup_2026-09-27/README.md",
+      "target": "../udt_foundation_alignment_audit_2026-09-27/continuation/DECISION_BRIEF.md"
+    },
+    {
+      "source": "udt_repository_cleanup_2026-09-27/README.md",
+      "target": "REPOSITORY_MAP.md"
+    },
+    {
+      "source": "udt_repository_cleanup_2026-09-27/README.md",
+      "target": "../archive/stale_working_documents_2026-09-27/README.md"
+    },
+    {
+      "source": "udt_repository_cleanup_2026-09-27/README.md",
+      "target": "../archive/remaining_working_surfaces_2026-09-27/README.md"
+    },
+    {
+      "source": "udt_repository_cleanup_2026-09-27/README.md",
+      "target": "archive/ARCHIVE_MANIFEST.tsv"
+    },
+    {
+      "source": "udt_repository_cleanup_2026-09-27/README.md",
+      "target": "inventory/ROOT_DISPOSITIONS.tsv"
+    },
+    {
+      "source": "udt_repository_cleanup_2026-09-27/README.md",
+      "target": "inventory/PACKAGE_DISPOSITIONS.tsv"
+    },
+    {
+      "source": "udt_repository_cleanup_2026-09-27/README.md",
+      "target": "review/surfaces/REPORT.md"
+    },
+    {
+      "source": "udt_repository_cleanup_2026-09-27/README.md",
+      "target": "review/surfaces/supplemental_transfer/SUPPLEMENTAL_VERDICT.md"
+    },
+    {
+      "source": "udt_repository_cleanup_2026-09-27/README.md",
+      "target": "review/dependencies/DEPENDENCY_ADJUDICATION.md"
+    },
+    {
+      "source": "udt_repository_cleanup_2026-09-27/README.md",
+      "target": "WORK_ORDER.md"
+    },
+    {
+      "source": "udt_repository_cleanup_2026-09-27/README.md",
+      "target": "CLOSEOUT.md"
+    }
+  ],
+  "limits": "Direct selected-byte/type/path checks and maintained-link resolution. No scientific tests; historical relative references inside original bytes remain explicitly historical and resolve through archive map or baseline Git tree."
+}

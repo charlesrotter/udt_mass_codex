@@ -1,0 +1,10 @@
+{
+  "command": "python3 udt_repository_cleanup_2026-09-27/review/retrieval/check_retrieval.py",
+  "tool_result": {
+    "chunk_id": "32fb1b",
+    "wall_time_seconds": 0.000012837,
+    "exit_code": 0,
+    "original_token_count": 124,
+    "output": "{\n  \"timestamp_utc\": \"2026-09-27T22:01:23.818934+00:00\",\n  \"reviewer_context\": \"/root/cleanup_retrieval_review\",\n  \"source_first_sha256\": \"cb158aa7589fc329cc1107bb7c5cd96fbf8f3c971cdefe53f763473aef7503ad\",\n  \"head\": \"8aac11e13a2311347771e11f507f4f2042ea02a2\",\n  \"scientific_computations_executed\": false,\n  \"source_exposure_count\": 32,\n  \"checks_passed\": 98,\n  \"known_limit\": \"Fixed manuscript historical direct hyperlink is dangling; current-pointer exact-filename archive recovery succeeds.\"\n}\n"
+  }
+}

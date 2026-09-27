@@ -1,0 +1,6 @@
+{
+  "status": "EXPECTED_PRESERVATION_CASE_REQUIRING_REVIEW",
+  "stage": "before manifest generation or staging",
+  "assertion": "Unexpected trailing whitespace in review/retrieval/CITED_EXCERPTS.txt outside initially enumerated archival/raw-diff exceptions",
+  "action": "Inspect cited source and preserve exact raw excerpt; add narrowly justified preservation exception. No review artifact edited."
+}

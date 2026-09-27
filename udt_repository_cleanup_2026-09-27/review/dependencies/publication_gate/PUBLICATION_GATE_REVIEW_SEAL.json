@@ -1,0 +1,20 @@
+{
+  "stage": "PUBLICATION_GATE_SUPPLEMENT",
+  "verdict": "BOUNDED_REVIEW_PASS",
+  "reviewer_context": "/root/cleanup_dependency_review",
+  "baseline": "8aac11e13a2311347771e11f507f4f2042ea02a2",
+  "production_file": "udt_repository_cleanup_2026-09-27/verify_publication.py",
+  "production_sha256": "54dc5bd25b78b24072c11b7a0f4658ebb2e9fa7f84bf09506eba0b82cd2c2ba6",
+  "prior_final_seal_sha256": "f5ec2af3fd4028a9696ea8b51e2138d039b23493528071ddc55bfc4ce150b145",
+  "healthy_cases": 2,
+  "rejected_fault_cases": 15,
+  "actual_repository_index_touched": false,
+  "files": {
+    "PUBLICATION_GATE_SUPPLEMENT.md": "3c8e00d66eea8b0157948408b0d20b9010bdcc730aa7ff42942d7b064989326a",
+    "REPAIRED_CAPTURE_verify_publication.py": "54dc5bd25b78b24072c11b7a0f4658ebb2e9fa7f84bf09506eba0b82cd2c2ba6",
+    "SCRATCH_GIT_RESULT.json": "8ab55bc9dfaf5d73577d828e92dd9fd7679a8c3a8e87b02de10973d903cc02c2",
+    "check_scratch_git.py": "0dbb6872536b3c1a7d9385e03bf400a3989ad94d446bf810446c5596e9274954",
+    "scratch_git.stderr": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "scratch_git.stdout": "8ab55bc9dfaf5d73577d828e92dd9fd7679a8c3a8e87b02de10973d903cc02c2"
+  }
+}

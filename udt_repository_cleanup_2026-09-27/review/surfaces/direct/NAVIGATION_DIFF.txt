@@ -1,0 +1,94 @@
+diff --git a/HANDOFF.md b/HANDOFF.md
+index af2ba645..13ea0d4b 100644
+--- a/HANDOFF.md
++++ b/HANDOFF.md
+@@ -18,7 +18,7 @@ Current G312 authority qualifies inherited “admitted/lawful” labels; the mul
+ remains CONDITIONAL on full reviewed premises, not established from filter-only GR. Grades/math unchanged.
+ Current authority: `udt_gr_filter_reconciliation_2026-09-09/AUTHORITY_RECORD.md`.
+ Metric/kernel unchanged; angular-sector cancellation owns loud--quiet--loud.
+-Foundation audit integrated; seven documents archived: INDEX.
++Foundation audit integrated; reviewed working-surface cleanup: INDEX.
+ 
+ G351's owner-provisional finite nonnegative countably additive label measure gives
+ `R^p A^-1` for nonzero absolutely continuous regular density, leaving `p` free.
+diff --git a/INDEX.md b/INDEX.md
+index 993231b2..af630c0f 100644
+--- a/INDEX.md
++++ b/INDEX.md
+@@ -13,7 +13,7 @@ Documentation closeout: `udt_gr_filter_reconciliation_2026-09-09/documentation_c
+ 2. Read the current blocks in `LIVE.md` and `HANDOFF.md`.
+ 3. Read `CURRENT_RESEARCH_PROGRAM.md`.
+ 4. Read `CURRENT_SCIENTIFIC_PREMISES.md`; run `python3 verify_current_scientific_premises.py`.
+-5. Read `CLAUDE.md` sections `How we work`, `DRIVER TRIGGERS`, and `Repo discipline`.
++5. Read `CLAUDE.md` sections `How we work`, `DRIVER TRIGGERS`, and `Repo discipline`; task-triggered skills.
+ 6. Read `INDEX.md` and `MEMORY.md`, then stop and give the orientation report.
+ 7. After orientation, open only load-bearing evidence.
+ 
+@@ -39,7 +39,6 @@ Dependency: `udt_localized_geometry_campaign_2026-09-09/DECISION_BRIEF.md`; G390
+ restricted 3D localization, smooth-method/symmetry/smallness caveats; LG2 requires its REPAIR.md.
+ Predecessor: `udt_nonlinear_mode_realizability_campaign_2026-09-09/DECISION_BRIEF.md`;
+ G388--G389 conditional, compact-sector mixed-C2/analytic-local tangent limits; original reviews control.
+-Prior maintenance: `maintenance_guard_sweep_2026-09-10/WORK_RECORD.md`; historical full365 PASS.
+ 
+ ## Founding, relational and response sources
+ 
+@@ -114,5 +113,5 @@ These reviewed conditional designs/benchmarks are not scientific-grade or eligib
+ - Chosen-family evaluators/controls: `udt_g190_completed_pair_timelive_frequency_screen_join_2026-08-20/`;
+   `udt_g196_longitudinal_screen_mixing_descent_2026-08-20/`—not current construction inputs.
+ - Historical startup: `archive/STARTUP_SURFACE_HISTORY.md`; prior current pages remain in Git.
+-- Archived working documents: `archive/stale_working_documents_2026-09-27/README.md` (seven-file lookup).
++- Cleanup/archive lookup: `udt_repository_cleanup_2026-09-27/README.md`.
+ - Known old path only: `research/_registry/CURRENT_ARTIFACT_PATHS.tsv`, not a frontier/startup read.
+diff --git a/LIVE.md b/LIVE.md
+index 676e9763..ee992bd5 100644
+--- a/LIVE.md
++++ b/LIVE.md
+@@ -75,7 +75,7 @@ G374/G375 restrict position-dependent rescaling on a fixed base but retain const
+ `g_hat=a^-2 g, Lambda_hat=a^2 Lambda, a>0`. No physical size or absolute scale is selected.
+ A separately fixed target scalar restricts that rescaling; its value is supplied, not derived.
+ Carried measure, configuration population and history selection differ; “occupancy” supplies no law.
+-Foundation audit integrated; seven working documents archived: INDEX.
++Foundation audit integrated; reviewed working-surface cleanup: INDEX.
+ A successor needs an unexamined admitted implication.
+ 
+ Geometric/calibration and emergence aims remain parallel. Conditional measurements need justified
+diff --git a/README.md b/README.md
+index d6cc100e..0d4241c7 100644
+--- a/README.md
++++ b/README.md
+@@ -29,8 +29,8 @@ Exact relational-geometry execution status and the next gate belong only in `LIV
+ `udt_observed_angular_pattern_raw_restart_2026-08-12/` is a retained bounded evidence lane, not the
+ current research frontier. Do not reconstruct the frontier from this deliberately low-churn README.
+ 
+-For a readable, source-indexed account of the accepted metric and observer-pair kernel development
+-at scientific snapshot `f23199e4a47aaf83acb9ea7d1ad382cd814159c2`, read
++For the fixed metric/observer-pair account at scientific snapshot
++`f23199e4a47aaf83acb9ea7d1ad382cd814159c2`, read
+ `UDT_METRIC_KERNEL_DEVELOPMENT.md`. Its machine-checked row-by-row coverage companion is
+ `UDT_METRIC_KERNEL_COVERAGE.tsv`. These explain and track accepted results; they do not replace
+ `LIVE.md` as the current-work owner or `CURRENT_SCIENTIFIC_PREMISES.tsv` as the status authority.
+@@ -47,6 +47,8 @@ at scientific snapshot `f23199e4a47aaf83acb9ea7d1ad382cd814159c2`, read
+ 
+ ## Historical material
+ 
++Cleanup and retrieval: `udt_repository_cleanup_2026-09-27/README.md`.
++
+ Use `archive/STARTUP_SURFACE_HISTORY.md` for the nonauthoritative startup-surface chronology and
+ exact Git recovery anchors. Historical surfaces are not startup reads.
+ 
+diff --git a/research/_registry/README.md b/research/_registry/README.md
+index 69a8d3a5..e10e80a4 100644
+--- a/research/_registry/README.md
++++ b/research/_registry/README.md
+@@ -11,6 +11,11 @@ is not a startup read, not a current-frontier index, and not guaranteed to inclu
+ after that snapshot.
+ Use root `INDEX.md` for the compact current-frontier paths.
+ 
++Later working-document moves are recorded in
++`../../udt_foundation_alignment_audit_2026-09-27/continuation/archive/ARCHIVE_MANIFEST.tsv` and
++`../../udt_repository_cleanup_2026-09-27/archive/ARCHIVE_MANIFEST.tsv`.
++If a known old path is absent, follow these later maps; the older ledger remains unchanged.
++
+ ## Immutable historical tables
+ 
+ R0-R1C ownership, readiness, census, preregistration, and verification records are fixed snapshots

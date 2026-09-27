@@ -1,0 +1,6 @@
+[
+  "timeout",
+  "900",
+  "python3",
+  "verify_current_scientific_premises.py"
+]

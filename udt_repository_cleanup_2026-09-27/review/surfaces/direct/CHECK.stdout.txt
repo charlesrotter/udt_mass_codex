@@ -1,0 +1,19 @@
+{
+  "status": "PASS",
+  "baseline": "8aac11e13a2311347771e11f507f4f2042ea02a2",
+  "reviewed_union": 90,
+  "full_prose_archive_selection": 34,
+  "retained": 56,
+  "archive_bytes_independently_recomputed": 223085,
+  "archive_modes": [
+    "0o644",
+    "0o664"
+  ],
+  "local_markdown_links_checked": 57,
+  "unchanged_prior_archive_paths": 8,
+  "unchanged_fixed_or_control_paths_checked": 12,
+  "tracked_diff_exact_selected_moves_plus_five_navigation_edits": true,
+  "no_unprocessed_eligible_item_in_reviewed_union": true,
+  "scientific_checks_not_replayed": true,
+  "limits": "Metadata/byte/static-link checks only; substantive source-first placement review is separately recorded. No complete dynamic dependency graph or scientific reproof."
+}
