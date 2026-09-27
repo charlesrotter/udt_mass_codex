@@ -1,0 +1,118 @@
+{
+  "status": "PASS",
+  "check_count": 27,
+  "checks": {
+    "q_AB": {
+      "actual": "5/2",
+      "expected": "5/2"
+    },
+    "q_CB": {
+      "actual": "1/2",
+      "expected": "1/2"
+    },
+    "composition": {
+      "actual": "5",
+      "expected": "5"
+    },
+    "reversal": {
+      "actual": "1",
+      "expected": "1"
+    },
+    "A_pair_det": {
+      "actual": "-1",
+      "expected": "-1"
+    },
+    "A_theta_carry": {
+      "actual": "4",
+      "expected": "4"
+    },
+    "A_phi_carry": {
+      "actual": "3",
+      "expected": "3"
+    },
+    "A_full_det": {
+      "actual": "-12",
+      "expected": "-12"
+    },
+    "A_carried_null": {
+      "actual": "0",
+      "expected": "0"
+    },
+    "A_base_null_slope": {
+      "actual": "5",
+      "expected": "5"
+    },
+    "A_proper_ratio_squared": {
+      "actual": "1",
+      "expected": "1"
+    },
+    "A_wrong_second_cone": {
+      "actual": "21/4",
+      "expected": "21/4"
+    },
+    "C_pair_det": {
+      "actual": "-1",
+      "expected": "-1"
+    },
+    "C_theta_carry": {
+      "actual": "4",
+      "expected": "4"
+    },
+    "C_phi_carry": {
+      "actual": "3",
+      "expected": "3"
+    },
+    "C_full_det": {
+      "actual": "-12",
+      "expected": "-12"
+    },
+    "C_carried_null": {
+      "actual": "0",
+      "expected": "0"
+    },
+    "C_base_null_slope": {
+      "actual": "5",
+      "expected": "5"
+    },
+    "C_proper_ratio_squared": {
+      "actual": "1",
+      "expected": "1"
+    },
+    "C_wrong_second_cone": {
+      "actual": "-3/4",
+      "expected": "-3/4"
+    },
+    "E9_arbitrary_component": {
+      "actual": "0",
+      "expected": "0"
+    },
+    "E9_no_dRic": {
+      "actual": "0",
+      "expected": "0"
+    },
+    "E9_no_h": {
+      "actual": "0",
+      "expected": "0"
+    },
+    "E9_zero_scalar_direction": {
+      "actual": "0",
+      "expected": "0"
+    },
+    "varying_C_term": {
+      "actual": "0",
+      "expected": "0"
+    },
+    "E10_trace": {
+      "actual": "0",
+      "expected": "0"
+    },
+    "omitted_C_h_detected": {
+      "actual": "h/(8*alpha)",
+      "expected": "h/(8*alpha)"
+    }
+  },
+  "python": "3.10.12",
+  "sympy": "1.13.1",
+  "script_sha256": "99110d31f9e23d427091088f6f112a6394b7142501eeb0bf69c0aca17636a88c",
+  "limits": "Finite native controls and abstract full component linearization; no general query population or full metric-perturbation PDE certification."
+}

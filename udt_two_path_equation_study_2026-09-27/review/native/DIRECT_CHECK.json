@@ -1,0 +1,33 @@
+{
+  "status": "PASS_DIRECT_REVIEW_ALGEBRA",
+  "python": "3.10.12",
+  "sympy": "1.13.1",
+  "exposure": "candidate proof read before this separately written check; no parent script or output imported",
+  "method": "exact symbolic direct check; sourced/candidate tensor formulas, not independent Riemann reconstruction",
+  "checks": [
+    "trace_algebra",
+    "integrated_scalar_family",
+    "open_interval_linear_coefficient",
+    "open_interval_quartic_coefficient",
+    "trace_after_u_zero",
+    "constant_scalar_time_tracefree",
+    "constant_scalar_angular_tracefree",
+    "remaining_DDR_factor",
+    "exceptional_F_zero",
+    "exceptional_pure_trace_equals_Cg",
+    "fixed_C_metric_variation_cancellation",
+    "fixed_C_delta_L_coefficient",
+    "linearized_trace_operator",
+    "linearized_trace_box_coefficient"
+  ],
+  "check_count": 14,
+  "trace_polynomial": "6*alpha*p*u - 3*alpha*r**4*u**2/2 + 12*alpha*r*u + r**3*(-2*alpha*u*v - u) + r**2*(-4*C - v)",
+  "exceptional_R": "-1/(2*alpha)",
+  "exceptional_E_coefficient": "1/(8*alpha)",
+  "full_action_stationarity_excludes_exceptional_for_finite_nonzero_alpha": true,
+  "scope_limits": [
+    "no principal-system causality or stability proof",
+    "no physical response adoption",
+    "no full metric perturbation realization classification"
+  ]
+}

@@ -1,0 +1,82 @@
+{
+  "status": "PASS_EXACT_CONTROL_ONLY",
+  "python": "3.10.12",
+  "method": "dependency-free exact rational arithmetic",
+  "scope": "two matched static reference queries on one supplied complete positive-f metric",
+  "interpretation": "query dependence is demonstrated; physical population and field-law admission are not",
+  "fixed_base_metric_at_B_equator": [
+    "-5",
+    "1/5",
+    "4",
+    "4"
+  ],
+  "fixed_dimensionless_profile_jet_at_B_through_order_four": [
+    "5",
+    "4",
+    "2",
+    "0",
+    "0"
+  ],
+  "queries": [
+    {
+      "reference": "A",
+      "reference_r_over_ell": "1",
+      "reference_f": "2",
+      "terminal_r_over_ell": "2",
+      "terminal_f": "5",
+      "clock_ratio_squared_T2": "5/2",
+      "completed_pair_c_eff_over_c_E": "5/2",
+      "carried_metric_at_B_equator": [
+        "-5/2",
+        "2/5",
+        "4",
+        "4"
+      ],
+      "proper_null_speed_squared_over_c_E_squared": "1",
+      "base_coordinate_null_dr_over_dx0": "5"
+    },
+    {
+      "reference": "C",
+      "reference_r_over_ell": "3",
+      "reference_f": "10",
+      "terminal_r_over_ell": "2",
+      "terminal_f": "5",
+      "clock_ratio_squared_T2": "1/2",
+      "completed_pair_c_eff_over_c_E": "1/2",
+      "carried_metric_at_B_equator": [
+        "-1/2",
+        "2",
+        "4",
+        "4"
+      ],
+      "proper_null_speed_squared_over_c_E_squared": "1",
+      "base_coordinate_null_dr_over_dx0": "5"
+    }
+  ],
+  "original_proper_metric_residual_after_named_bad_cone_substitution": [
+    "21/4",
+    "-3/4"
+  ],
+  "checks": [
+    "A:full_metric_pullback",
+    "A:reciprocal_pair_determinant",
+    "A:regular_clock_and_pair",
+    "A:coordinate_null_tangent",
+    "A:proper_null_ratio_squared",
+    "A:same_base_null_direction",
+    "A:angular_sector_retained",
+    "C:full_metric_pullback",
+    "C:reciprocal_pair_determinant",
+    "C:regular_clock_and_pair",
+    "C:coordinate_null_tangent",
+    "C:proper_null_ratio_squared",
+    "C:same_base_null_direction",
+    "C:angular_sector_retained",
+    "different_matched_reference_queries",
+    "matched_composition",
+    "matched_reversal",
+    "direct_proper_cone_substitution_fails_A",
+    "direct_proper_cone_substitution_fails_C"
+  ],
+  "check_count": 19
+}

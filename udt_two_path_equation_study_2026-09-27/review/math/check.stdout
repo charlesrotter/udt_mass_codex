@@ -1,0 +1,11 @@
+{
+  "status": "PASS",
+  "exact_checks": 49,
+  "refuting_controls": {
+    "discard_degenerate_nonEinstein": "1",
+    "replace_DDR_by_zero_response": "-3",
+    "omit_angular_equation": "-2"
+  },
+  "python": "3.10.12",
+  "sympy": "1.13.1"
+}

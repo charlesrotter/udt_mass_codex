@@ -1,0 +1,25 @@
+{
+  "status": "PASS",
+  "scope": "Packaging, correspondence and preserved source versions; not a new scientific proof or independent review",
+  "utc": "2026-09-27T23:35:56.682916+00:00",
+  "baseline": "6553f5e90e5e7a51030fb9f8205528f8420b0b0f",
+  "checks": [
+    "branch_and_baseline",
+    "only_authorized_tracked_change_no_preexisting_stage",
+    "52_preexisting_untracked_paths_preserved_contents_not_read",
+    "34_source_pins_match_roadmap_at_baseline_other_sources_on_disk",
+    "four_initial_and_review_manifests_match",
+    "final_reviewed_science_documentation_and_roadmap_bytes_match",
+    "all_json_parse",
+    "all_local_markdown_links_resolve",
+    "LF_text_no_CRLF",
+    "parent_saved_output_correspondence",
+    "actual_full406_exit0_PASS_empty_stderr"
+  ],
+  "source_pin_count": 34,
+  "json_files_parsed_before_receipt": 12,
+  "local_markdown_links_checked": 13,
+  "pre_existing_untracked_paths": 52,
+  "prior_failure": "First raw-section hash included one separator newline; exact difference and corrected extraction are preserved in REPAIR_LOG.md.",
+  "publication": "Commit and remote verification occur after this receipt."
+}

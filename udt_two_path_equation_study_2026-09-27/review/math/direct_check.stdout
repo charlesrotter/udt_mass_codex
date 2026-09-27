@@ -1,0 +1,6 @@
+{
+  "status": "PASS",
+  "exact_checks": 27,
+  "python": "3.10.12",
+  "sympy": "1.13.1"
+}

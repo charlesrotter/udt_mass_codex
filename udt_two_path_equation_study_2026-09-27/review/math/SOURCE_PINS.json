@@ -1,0 +1,73 @@
+{
+  "freeze_utc": "2026-09-27T23:21:13.624932+00:00",
+  "local_HEAD": "6553f5e90e5e7a51030fb9f8205528f8420b0b0f",
+  "local_branch": "grok",
+  "parent_startup_attribution": "Parent reports successful fetch/pull and full406 PASS. Scoped reviewer did not rerun synchronization or full premise audit.",
+  "sources": [
+    {
+      "path": "AGENTS.md",
+      "sha256": "c578b045cf3278804124e23a5408ff9634a9a2165f7d20223f654d76bffd8ec9"
+    },
+    {
+      "path": "CLAUDE.md",
+      "sha256": "b7e524a5b06760e57877a408630228767ae9a394134095f9851bef5d06e17751"
+    },
+    {
+      "path": ".claude/skills/no-shortcuts/SKILL.md",
+      "sha256": "fd3a1f3218481134f2af829d3ae4175ac53518f75bf9673287efbfb7d7708fc1"
+    },
+    {
+      "path": ".claude/skills/completeness-map/SKILL.md",
+      "sha256": "a8cf9e5f4a6d35a0d0ebfe4bc48dbf328ca74e318f020a6a22cb683666a611c0"
+    },
+    {
+      "path": ".claude/skills/verifier-before-record/SKILL.md",
+      "sha256": "9b3a4aacd4b4006b2b7f01edada73b7c87b99bea6e754583558713bfc145e5ac"
+    },
+    {
+      "path": "udt_two_path_equation_study_2026-09-27/WORK_ORDER.md",
+      "sha256": "36342b08652e325f70f5338e330bd3bddd76e29e99935b5683877cd53ed46476"
+    },
+    {
+      "path": "udt_gr_filter_reconciliation_2026-09-09/AUTHORITY_RECORD.md",
+      "sha256": "80daa0be6d3e1c0ac1b734fea089c4eb487f05bc1e1fbb2fabd69322ca89f28c"
+    },
+    {
+      "path": "udt_g311_universal_reciprocity_full_covariant_response_2026-09-01/AUDIT_REPORT.md",
+      "sha256": "a411de5e2e40982c4f9c8107bd6d3a598dd55056924d4bc3d39d93f8db89e578"
+    },
+    {
+      "path": "udt_g311_universal_reciprocity_full_covariant_response_2026-09-01/EXACT_DERIVATION.md",
+      "sha256": "4fd4ca84d353018c02e32d49cf261de3472b3fafd74b0f268b0960653bdfd307"
+    },
+    {
+      "path": "udt_g201_primary_metric_phi_jet_regime_amplitude_2026-08-21/AUDIT_REPORT.md",
+      "sha256": "02a072c80b0a9010080da8a6b1330ab8bc5d366aac7271c393e7a98921c6fa2d"
+    },
+    {
+      "path": "udt_g201_primary_metric_phi_jet_regime_amplitude_2026-08-21/EXACT_DERIVATION.md",
+      "sha256": "8c4361c3e11c7eaece17b7da9b7c47ee372989b99f495a68a1ec87d4a8b31951"
+    }
+  ],
+  "registry_rows": {
+    "G312": "ecc03e71b2466d99128155b65b21f86644ab377f244796f09220fa7e18cb56f4",
+    "G311": "b523c6d3f656e1b2ec2575a488e9f5438fdb5df56eadf44d44183a835b8163d2",
+    "G201": "1c675000e1b0584389722779d8e9bacf3c0f1044efc1fcaf8bb052c2bb3e971e"
+  },
+  "external_primary": {
+    "url": "https://arxiv.org/html/1002.0617v4",
+    "authors": "Guarnizo, Castaneda, Tejeiro",
+    "formulas": [
+      "2.2",
+      "3.8",
+      "3.14",
+      "3.25"
+    ],
+    "boundary_note": "following 3.23",
+    "access_date": "2026-09-27",
+    "raw_byte_hash": "not captured; explicitly versioned source link and retrieved formulas only"
+  },
+  "command": "timeout 120s python3 udt_two_path_equation_study_2026-09-27/review/math/independent_static_check.py > udt_two_path_equation_study_2026-09-27/review/math/check.stdout 2> udt_two_path_equation_study_2026-09-27/review/math/check.stderr",
+  "run_exit_code": 0,
+  "exposure": "No parent candidate/code/output before this freeze. Only task/work order/source instructions disclosed."
+}
