@@ -1,11 +1,20 @@
 # HANDOFF — lean fresh-session anchor
 
 <!-- STARTUP_CURRENT_BEGIN -->
-## Current handoff anchor — 2026-09-27
+## Current handoff anchor — 2026-09-28
 
 `LIVE.md` wins; exact grades belong to the 406-row `CURRENT_SCIENTIFIC_PREMISES.tsv`.
 Sources: `INDEX.md`; dependency spine:
 `CURRENT_RESEARCH_PROGRAM.md`. Historical status: `archive/STARTUP_SURFACE_HISTORY.md`.
+
+Keep Charles's founding interpretation first: positional dilation constitutes
+the one geometry underlying observed c_E, interpreted as time per separation
+1/c_E, alongside velocity and gravity. Slower received ticks automatically mean
+redshift. The open join is physical separation/geometry to the clock-rate ratio,
+not another redshift mechanism. The solar-distance detectability suggestion is
+a working expectation, not a cutoff or selected scale. The program's opening
+section preserves this intent; exact words:
+`udt_positional_geometry_clock_connection_2026-09-28/OWNER_STATEMENT.md`.
 
 On a supplied regular calibrated pair, `phi_pair=delta_AB` is DERIVED_CONDITIONAL;
 `c_eff/c_E=exp(-2 delta_AB)` is not automatically signal speed.
@@ -78,7 +87,12 @@ Follow AGENTS; report actual instructions/checks and distinguish configured from
 Dated availability check COMPLETE: `archive/stale_working_documents_2026-09-27/maintenance_agent_capacity_2026-09-10.md`.
 General capacity UNVERIFIED; no automatic repeat. FSR1/PJC1 supplied no new field equation; Maxwell PAUSED.
 
-Next: DCR1 reviewed conditional UNPROMOTED: directional clocks permit central tides in its supplied static class
+Next: discuss the completed reviewed conditional UNPROMOTED positional-geometry
+connection: `udt_positional_geometry_clock_connection_2026-09-28/DECISION_BRIEF.md`.
+Automatic redshift is settled; native physical event/path/separation-to-clock-rate
+assignment remains OPEN. No affine control was promoted to a positional law.
+
+DCR1 reviewed conditional UNPROMOTED: directional clocks permit central tides in its supplied static class
 under full G301 at an eligible center; no neighborhood field equation; FE1 UNADOPTED.
 G312 membership/native admission unclosed; response identification OPEN; G352 physical-realization: physical identification remains OPEN.
 Stop for lay discussion; no new campaign is authorized; work order and return gates: `UDT_RESEARCH_ROADMAP.md`.

@@ -14,6 +14,35 @@ Current acceptance overlay: earlier UNPROMOTED/campaign-only language below reco
 returns. The G383--G412, G413--G415 and G416--G423 banking packets and maintained checkpoint own later dispositions;
 original result packages remain unchanged. No physical adoption or canon is included.
 
+## One geometry and automatic redshift — clarified construction, 2026-09-28
+
+Charles authorized preserving the interpretation front and center and proceeding
+through one bounded construction/check/review cycle. During work he emphasized:
+“time slowing down is an automatic redshift.” The maintained research program
+and startup pointers now foreground positional geometry, time per separation
+1/c_E, one-geometry SR/GR extension intent and actual received ticks. The tentative
+solar-distance detectability expectation is not a cutoff or selected scale.
+Exact wording and authorization:
+`udt_positional_geometry_clock_connection_2026-09-28/OWNER_STATEMENT.md`.
+
+Reviewed return: `udt_positional_geometry_clock_connection_2026-09-28/DECISION_BRIEF.md`;
+its CANDIDATE, review/DIRECT_REVIEW and CLOSEOUT own the actual scope and checks.
+On the declared regular supplied diagonal longitudinal metric, the exact
+received-clock slope includes endpoint lapse, endpoint motion and the integrated
+time derivative of coordinate null slowness, with coordinate changes canceling
+in the total. This applies G220 and the existing G402/G403 geometry; it is not a
+new physical law. Slower received ticks already give 1+z=r automatically.
+The conditional nearby bound does not remove the foundational timing geometry.
+
+The known affine-ruler control admits mutual future received redshift and a
+reciprocal-coordinate representation, but is locally flat in 1+1 and can be
+ordinary recession. Re-expression does not select a native positional history.
+This attempt stops at physical event/path/separation-to-clock-rate ownership;
+it supplies no new response equation, detection threshold or native prediction.
+Fresh separate-context argument and different implementation agree; no scientific
+repair was needed, and no different-model claim is made. No registry/canon
+change or automatic successor; the founding postulate remains fixed.
+
 ## Positional dilation as causal geometry — fidelity audit, 2026-09-28
 
 Charles clarified that positional dilation is the actual spacetime geometry

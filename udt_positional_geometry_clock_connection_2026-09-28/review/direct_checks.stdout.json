@@ -1,0 +1,333 @@
+{
+  "classification": "exact symbolic identities and independent floating-point controls, not certification",
+  "versions": {
+    "python": "3.10.12",
+    "sympy": "1.13.1",
+    "scipy": "1.15.3"
+  },
+  "method": "exact conformal-Minkowski null incidence with brentq; independent integral quad; finite pulse clocks",
+  "tolerances": {
+    "identity": 1e-11,
+    "pulse": 2e-07,
+    "mutant_rejection": 1e-05
+  },
+  "exact": [
+    {
+      "name": "affine_Minkowski_pullback_00",
+      "residual": "0"
+    },
+    {
+      "name": "affine_Minkowski_pullback_01",
+      "residual": "0"
+    },
+    {
+      "name": "affine_Minkowski_pullback_10",
+      "residual": "0"
+    },
+    {
+      "name": "affine_Minkowski_pullback_11",
+      "residual": "0"
+    },
+    {
+      "name": "time_reparam_lapse_integral_cancellation",
+      "residual": "0"
+    }
+  ],
+  "records": [
+    {
+      "case": "coordinate_only",
+      "direction": -1,
+      "arrival": 1.1225162850998371,
+      "direct_incidence_ratio": 1.0,
+      "candidate_formula_ratio": 0.9999999999999997,
+      "transformed_coordinate_ratio": 1.0,
+      "endpoint_beta": [
+        0.0,
+        0.0
+      ],
+      "errors": {
+        "formula": 3.3306690738754696e-16,
+        "time_reparam": 0.0,
+        "integral_identity": 3.3306690738754696e-16
+      },
+      "pulse_intervals": [
+        {
+          "half_interval": 0.01,
+          "ratio": 1.0000000000000118,
+          "error": 1.176836406102666e-14
+        },
+        {
+          "half_interval": 0.003,
+          "ratio": 1.0000000000000189,
+          "error": 1.887379141862766e-14
+        },
+        {
+          "half_interval": 0.001,
+          "ratio": 0.9999999999999694,
+          "error": 3.064215547965432e-14
+        }
+      ]
+    },
+    {
+      "case": "coordinate_only",
+      "direction": 1,
+      "arrival": 1.1225162850998371,
+      "direct_incidence_ratio": 1.0,
+      "candidate_formula_ratio": 0.9999999999999997,
+      "transformed_coordinate_ratio": 1.0,
+      "endpoint_beta": [
+        0.0,
+        0.0
+      ],
+      "errors": {
+        "formula": 3.3306690738754696e-16,
+        "time_reparam": 0.0,
+        "integral_identity": 3.3306690738754696e-16
+      },
+      "pulse_intervals": [
+        {
+          "half_interval": 0.01,
+          "ratio": 1.0000000000000118,
+          "error": 1.176836406102666e-14
+        },
+        {
+          "half_interval": 0.003,
+          "ratio": 1.0000000000000189,
+          "error": 1.887379141862766e-14
+        },
+        {
+          "half_interval": 0.001,
+          "ratio": 0.9999999999999694,
+          "error": 3.064215547965432e-14
+        }
+      ]
+    },
+    {
+      "case": "conformal_accelerating",
+      "direction": -1,
+      "arrival": 1.088268024000085,
+      "direct_incidence_ratio": 0.9548820141546626,
+      "candidate_formula_ratio": 0.9548820141546628,
+      "transformed_coordinate_ratio": 0.9548820141546626,
+      "endpoint_beta": [
+        -0.04465953296116888,
+        0.030279557312176075
+      ],
+      "errors": {
+        "formula": 2.220446049250313e-16,
+        "time_reparam": 0.0,
+        "integral_identity": 2.220446049250313e-16
+      },
+      "pulse_intervals": [
+        {
+          "half_interval": 0.01,
+          "ratio": 0.9548817293774339,
+          "error": 2.8477722868736066e-07
+        },
+        {
+          "half_interval": 0.003,
+          "ratio": 0.9548819885249986,
+          "error": 2.5629663946702408e-08
+        },
+        {
+          "half_interval": 0.001,
+          "ratio": 0.9548820113068314,
+          "error": 2.847831193086847e-09
+        }
+      ]
+    },
+    {
+      "case": "conformal_accelerating",
+      "direction": 1,
+      "arrival": 1.0896997743053494,
+      "direct_incidence_ratio": 1.0346422629713279,
+      "candidate_formula_ratio": 1.0346422629713277,
+      "transformed_coordinate_ratio": 1.0346422629713274,
+      "endpoint_beta": [
+        0.034156601999999994,
+        -0.020101047820160492
+      ],
+      "errors": {
+        "formula": 2.220446049250313e-16,
+        "time_reparam": 4.440892098500626e-16,
+        "integral_identity": 1.1102230246251565e-16
+      },
+      "pulse_intervals": [
+        {
+          "half_interval": 0.01,
+          "ratio": 1.0346430491135632,
+          "error": 7.861422353094838e-07
+        },
+        {
+          "half_interval": 0.003,
+          "ratio": 1.0346423337273736,
+          "error": 7.075604568917981e-08
+        },
+        {
+          "half_interval": 0.001,
+          "ratio": 1.0346422708331224,
+          "error": 7.861794548702505e-09
+        }
+      ]
+    },
+    {
+      "case": "conformal_accelerating_second",
+      "direction": -1,
+      "arrival": 1.2372279821619778,
+      "direct_incidence_ratio": 1.1223198066636813,
+      "candidate_formula_ratio": 1.12231980666368,
+      "transformed_coordinate_ratio": 1.1223198066636813,
+      "endpoint_beta": [
+        0.029655090888899765,
+        -0.029108441080578026
+      ],
+      "errors": {
+        "formula": 1.3322676295501878e-15,
+        "time_reparam": 0.0,
+        "integral_identity": 1.2212453270876722e-15
+      },
+      "pulse_intervals": [
+        {
+          "half_interval": 0.01,
+          "ratio": 1.1223194211330345,
+          "error": 3.8553064674040627e-07
+        },
+        {
+          "half_interval": 0.003,
+          "ratio": 1.1223197719660614,
+          "error": 3.469761988839082e-08
+        },
+        {
+          "half_interval": 0.001,
+          "ratio": 1.1223198028085253,
+          "error": 3.855155972232183e-09
+        }
+      ]
+    },
+    {
+      "case": "conformal_accelerating_second",
+      "direction": 1,
+      "arrival": 1.232210646255125,
+      "direct_incidence_ratio": 1.0341490285058406,
+      "candidate_formula_ratio": 1.0341490285058408,
+      "transformed_coordinate_ratio": 1.0341490285058403,
+      "endpoint_beta": [
+        -0.024275777595339075,
+        0.014603975756641557
+      ],
+      "errors": {
+        "formula": 2.220446049250313e-16,
+        "time_reparam": 2.220446049250313e-16,
+        "integral_identity": 2.7755575615628914e-16
+      },
+      "pulse_intervals": [
+        {
+          "half_interval": 0.01,
+          "ratio": 1.0341481656856775,
+          "error": 8.628201630944687e-07
+        },
+        {
+          "half_interval": 0.003,
+          "ratio": 1.0341489508516675,
+          "error": 7.765417309180123e-08
+        },
+        {
+          "half_interval": 0.001,
+          "ratio": 1.0341490198774685,
+          "error": 8.628372016872277e-09
+        }
+      ]
+    }
+  ],
+  "wrong_formula_rejections": {
+    "omit_lapse": [
+      {
+        "case": "coordinate_only",
+        "direction": -1,
+        "error": 0.399780989372842
+      },
+      {
+        "case": "coordinate_only",
+        "direction": 1,
+        "error": 0.399780989372842
+      },
+      {
+        "case": "conformal_accelerating",
+        "direction": -1,
+        "error": 0.3832316309816469
+      },
+      {
+        "case": "conformal_accelerating",
+        "direction": 1,
+        "error": 0.45167044333426254
+      },
+      {
+        "case": "conformal_accelerating_second",
+        "direction": -1,
+        "error": 0.3299626627079094
+      },
+      {
+        "case": "conformal_accelerating_second",
+        "direction": 1,
+        "error": 0.2557071101609779
+      }
+    ],
+    "omit_integral": [
+      {
+        "case": "coordinate_only",
+        "direction": -1,
+        "error": 0.6660585257956388
+      },
+      {
+        "case": "coordinate_only",
+        "direction": 1,
+        "error": 0.6660585257956388
+      },
+      {
+        "case": "conformal_accelerating",
+        "direction": -1,
+        "error": 0.5948501606001935
+      },
+      {
+        "case": "conformal_accelerating",
+        "direction": 1,
+        "error": 0.6463739642094688
+      },
+      {
+        "case": "conformal_accelerating_second",
+        "direction": -1,
+        "error": 0.37986607790724203
+      },
+      {
+        "case": "conformal_accelerating_second",
+        "direction": 1,
+        "error": 0.34701321969968824
+      }
+    ],
+    "reverse_motion": [
+      {
+        "case": "conformal_accelerating",
+        "direction": -1,
+        "error": 0.15448396235395867
+      },
+      {
+        "case": "conformal_accelerating",
+        "direction": 1,
+        "error": 0.11862963101888746
+      },
+      {
+        "case": "conformal_accelerating_second",
+        "direction": -1,
+        "error": 0.12448057983240735
+      },
+      {
+        "case": "conformal_accelerating_second",
+        "direction": 1,
+        "error": 0.07737900890598937
+      }
+    ]
+  },
+  "max_formula_error": 1.3322676295501878e-15,
+  "max_final_pulse_error": 8.628372016872277e-09,
+  "all_pass": true
+}

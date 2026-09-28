@@ -1,0 +1,30 @@
+{
+  "utc": "2026-09-28T02:57:20.164372+00:00",
+  "verdict": "VERIFIED-WITH-CAVEATS",
+  "repair_requested": false,
+  "frozen_parent_files_match": {
+    "udt_positional_geometry_clock_connection_2026-09-28/CANDIDATE.md": true,
+    "udt_positional_geometry_clock_connection_2026-09-28/DECISION_BRIEF.md": true,
+    "udt_positional_geometry_clock_connection_2026-09-28/OWNER_STATEMENT.md": true,
+    "udt_positional_geometry_clock_connection_2026-09-28/WORK_ORDER.md": true,
+    "udt_positional_geometry_clock_connection_2026-09-28/check_connection.py": true,
+    "udt_positional_geometry_clock_connection_2026-09-28/CHECK_RESULT.json": true,
+    "udt_positional_geometry_clock_connection_2026-09-28/CHECK_EXECUTION.json": true,
+    "udt_positional_geometry_clock_connection_2026-09-28/SCOPED_REGISTRY.json": true,
+    "LIVE.md": true,
+    "HANDOFF.md": true,
+    "CURRENT_RESEARCH_PROGRAM.md": true,
+    "INDEX.md": true,
+    "MEMORY.md": true
+  },
+  "saved_registry_fields_match_current": {
+    "G402": true,
+    "G403": true,
+    "G312": true,
+    "G269": true,
+    "G265": true,
+    "G220": true
+  },
+  "registry_sha256": "7a3d69d5a0bc3ac98e2ebe2bb0c6d029df30071bf403baffed2223a193dc720b",
+  "source_first_freeze_preserved": true
+}

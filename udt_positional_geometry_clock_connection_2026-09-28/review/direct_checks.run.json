@@ -1,0 +1,13 @@
+{
+  "command": [
+    "python3",
+    "udt_positional_geometry_clock_connection_2026-09-28/review/direct_checks.py"
+  ],
+  "cwd": "/home/udt-admin/udt_mass_codex",
+  "start_utc": "2026-09-28T02:54:34.828993+00:00",
+  "elapsed_seconds": 0.47329269500187365,
+  "returncode": 0,
+  "timeout_seconds": 120,
+  "cpu_only": true,
+  "source_sha256": "a833d4cf55e3a41e2a579f4b271e85c0380cedc93980438d9ec89ec262a1b5b1"
+}

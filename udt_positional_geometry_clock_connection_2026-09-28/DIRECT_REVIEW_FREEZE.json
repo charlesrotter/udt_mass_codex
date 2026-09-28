@@ -1,0 +1,18 @@
+{
+  "frozen_utc": "2026-09-28T02:51:33.109197+00:00",
+  "files": {
+    "udt_positional_geometry_clock_connection_2026-09-28/CANDIDATE.md": "58b02dc275c480856fc403a728815fa68edc6ce4529c7b0901dc447ce7921e36",
+    "udt_positional_geometry_clock_connection_2026-09-28/DECISION_BRIEF.md": "77a89ecf3eeca2c8c97c3847c8b1d97104f2264a700dafb86e1fac7a53595345",
+    "udt_positional_geometry_clock_connection_2026-09-28/OWNER_STATEMENT.md": "6d51ac6e4525dec57f7a9d3f795568410052e20102d9971bca0a4275eef4bee7",
+    "udt_positional_geometry_clock_connection_2026-09-28/WORK_ORDER.md": "74802e3dbb0100ba03287d89a25a0a485f3e3af63dd4866d52878d0cd469b31f",
+    "udt_positional_geometry_clock_connection_2026-09-28/check_connection.py": "1e8f31e5a05fe2f19f17e4467d764f080ce7646ab6c8387d7d6c04a8f903a6f4",
+    "udt_positional_geometry_clock_connection_2026-09-28/CHECK_RESULT.json": "f7058cff99595298ee13a80e3c242551197ef5c60f1af89bae8836b429c81166",
+    "udt_positional_geometry_clock_connection_2026-09-28/CHECK_EXECUTION.json": "01aa6e586b51d075d1195026f5eabbbc8b2526ccf79ae491a688a2b2e65e965e",
+    "udt_positional_geometry_clock_connection_2026-09-28/SCOPED_REGISTRY.json": "902e0c6b35e57610f6719e9a88dfaf8410ad16364fdba1de37090e9c9cedbca0",
+    "LIVE.md": "4c68c37c42caa3de94804e7525e7dbd79ca29a98b127c9833c134475088b9f3a",
+    "HANDOFF.md": "c7a196d66ebda42e942906b060e130b69d447e092fc13728867ebb800aa88613",
+    "CURRENT_RESEARCH_PROGRAM.md": "f68ee8307a62a886af214696b4cadfa521a4566f7a6ce751beb9e698311b43af",
+    "INDEX.md": "453971fe363d19844c6ab2f7ffa6a75f8ebf0350efb76fce6ceea6368bbab949",
+    "MEMORY.md": "227382fc5e85641023d74dd96779f22b1d35cdf2bb7c18c6a0101bfaad96c707"
+  }
+}

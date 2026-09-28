@@ -1,0 +1,50 @@
+{
+  "classification": "independent exact symbolic arithmetic supporting source-first analysis",
+  "python": "3.10.12",
+  "sympy": "1.13.1",
+  "shape": "one 4x4 local derivative matrix; scalar exact checks; no grid",
+  "checks": {
+    "time_live_incidence_chord": {
+      "residual": "0",
+      "pass": true
+    },
+    "time_live_received_clock_slope": {
+      "residual": "0",
+      "pass": true
+    },
+    "flat_constant_delay_zero_shift": {
+      "residual": "0",
+      "pass": true
+    },
+    "time_live_flat_limit": {
+      "residual": "0",
+      "pass": true
+    },
+    "static_return_reciprocal": {
+      "residual": "0",
+      "pass": true
+    },
+    "even_candidate_differs_from_signed_arrow": {
+      "residual": "0",
+      "pass": true
+    },
+    "fixed_velocity_nearby_slope_is_two": {
+      "residual": "0",
+      "pass": true
+    },
+    "zero_distance_does_not_remove_fixed_velocity_shift": {
+      "residual": "0",
+      "pass": true
+    },
+    "clock_slope_kinematic_decomposition_on_unit_sphere": {
+      "residual": "0",
+      "pass": true
+    },
+    "opposite_direction_even_channel": {
+      "residual": "0",
+      "pass": true
+    }
+  },
+  "all_pass": true,
+  "limits": "No physical metric, observer population, signal content, scale or native value law is selected."
+}

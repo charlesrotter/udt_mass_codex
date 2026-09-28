@@ -42,6 +42,10 @@ G388--G389 conditional, compact-sector mixed-C2/analytic-local tangent limits; o
 
 ## Founding, relational and response sources
 
+- Current owner interpretation comes first in `CURRENT_RESEARCH_PROGRAM.md`;
+  exact words: `udt_positional_geometry_clock_connection_2026-09-28/OWNER_STATEMENT.md`.
+  Reviewed conditional connection and native-selection stop: that package's
+  `DECISION_BRIEF.md`; `CLOSEOUT.md` owns actual checks and review.
 - Foundation alignment/integration, reviewed source-relative audit; no new authority:
   `udt_foundation_alignment_audit_2026-09-27/continuation/DECISION_BRIEF.md`.
 - `UDT_RECIPROCAL_C_FOUNDING_POSTULATE_DERIVATION_RESULTS.md`

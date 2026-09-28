@@ -1,0 +1,15 @@
+{
+  "command": [
+    "python3",
+    "udt_positional_geometry_clock_connection_2026-09-28/review/author_replay/check_connection.py"
+  ],
+  "cwd": "/home/udt-admin/udt_mass_codex",
+  "start_utc": "2026-09-28T02:55:05.189450+00:00",
+  "elapsed_seconds": 0.6649151950005034,
+  "returncode": 0,
+  "timeout_seconds": 120,
+  "copied_source_matches": true,
+  "source_sha256": "1e8f31e5a05fe2f19f17e4467d764f080ce7646ab6c8387d7d6c04a8f903a6f4",
+  "result_sha256": "f7058cff99595298ee13a80e3c242551197ef5c60f1af89bae8836b429c81166",
+  "result_matches_author_saved": true
+}

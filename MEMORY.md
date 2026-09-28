@@ -3,6 +3,11 @@
 `LIVE.md` wins. The exact 406-row `CURRENT_SCIENTIFIC_PREMISES.tsv` owns grades;
 `CURRENT_RESEARCH_PROGRAM.md` is the dependency spine and `INDEX.md` the evidence map.
 
+The program's opening preserves Charles's founding positional-geometry/1/c_E
+interpretation and one-geometry SR/GR extension intent. Received slowing is
+automatic redshift; physical separation to clock-rate ratio remains the open join.
+Solar-distance detectability is a working expectation, not a selected threshold.
+
 Foundation alignment/archival return: INDEX. Kernel evaluates supplied depth; complete `B,Q,S,Y,Z` enters before readout.
 Universal Reciprocity/DDR and explained Local Metric Sufficiency remain owner-adopted provisional premises.
 GR is FILTER ONLY, not a response-law input; Local Metric Sufficiency remains owner-provisional.

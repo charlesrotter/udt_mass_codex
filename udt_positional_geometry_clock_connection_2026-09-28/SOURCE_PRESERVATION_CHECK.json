@@ -1,0 +1,94 @@
+{
+  "baseline_head": "e3712bc487bd51b6fb812478c41b4ac81292f7a6",
+  "checks": {
+    "AGENTS.md": {
+      "matches_pinned_sha256": true,
+      "matches_baseline_git_bytes": true
+    },
+    "CLAUDE.md": {
+      "matches_pinned_sha256": true,
+      "matches_baseline_git_bytes": true
+    },
+    "CURRENT_SCIENTIFIC_PREMISES.md": {
+      "matches_pinned_sha256": true,
+      "matches_baseline_git_bytes": true
+    },
+    "CURRENT_SCIENTIFIC_PREMISES.tsv": {
+      "matches_pinned_sha256": true,
+      "matches_baseline_git_bytes": true
+    },
+    "verify_current_scientific_premises.py": {
+      "matches_pinned_sha256": true,
+      "matches_baseline_git_bytes": true
+    },
+    "CANON.md": {
+      "matches_pinned_sha256": true,
+      "matches_baseline_git_bytes": true
+    },
+    "founding.md": {
+      "matches_pinned_sha256": true,
+      "matches_baseline_git_bytes": true
+    },
+    "UDT_RECIPROCAL_C_FOUNDING_POSTULATE_DERIVATION_RESULTS.md": {
+      "matches_pinned_sha256": true,
+      "matches_baseline_git_bytes": true
+    },
+    "udt_g220_covariant_null_clock_arrow_timelive_lift_2026-08-22/EXACT_DERIVATION.md": {
+      "matches_pinned_sha256": true,
+      "matches_baseline_git_bytes": true
+    },
+    "udt_g219_clock_arrow_dynamic_protocol_discrimination_2026-08-22/EXACT_DERIVATION.md": {
+      "matches_pinned_sha256": true,
+      "matches_baseline_git_bytes": true
+    },
+    "udt_g265_infinite_bare_c_mutual_pair_null_closure_2026-08-26/EXACT_DERIVATION.md": {
+      "matches_pinned_sha256": true,
+      "matches_baseline_git_bytes": true
+    },
+    "udt_null_clock_depth_integrability_assessment_2026-09-10/INITIAL_CANDIDATE.md": {
+      "matches_pinned_sha256": true,
+      "matches_baseline_git_bytes": true
+    },
+    "udt_null_clock_depth_integrability_assessment_2026-09-10/REPAIR.md": {
+      "matches_pinned_sha256": true,
+      "matches_baseline_git_bytes": true
+    },
+    "udt_null_clock_depth_integrability_assessment_2026-09-10/DIRECT_REVIEW.md": {
+      "matches_pinned_sha256": true,
+      "matches_baseline_git_bytes": true
+    },
+    "udt_directional_clock_curvature_whiteboard_2026-09-10/INITIAL_CANDIDATE.md": {
+      "matches_pinned_sha256": true,
+      "matches_baseline_git_bytes": true
+    },
+    "udt_directional_clock_curvature_whiteboard_2026-09-10/REPAIR.md": {
+      "matches_pinned_sha256": true,
+      "matches_baseline_git_bytes": true
+    },
+    "udt_directional_clock_curvature_whiteboard_2026-09-10/review/REVIEW.md": {
+      "matches_pinned_sha256": true,
+      "matches_baseline_git_bytes": true
+    },
+    "udt_causal_geometry_fidelity_audit_2026-09-28/AUDIT_REPORT.md": {
+      "matches_pinned_sha256": true,
+      "matches_baseline_git_bytes": true
+    },
+    "udt_causal_geometry_fidelity_audit_2026-09-28/OWNER_STATEMENT.md": {
+      "matches_pinned_sha256": true,
+      "matches_baseline_git_bytes": true
+    },
+    "udt_reviewed_backlog_banking_2026-09-10/BANKING_RECORD.md": {
+      "matches_pinned_sha256": true,
+      "matches_baseline_git_bytes": true
+    },
+    "udt_reviewed_backlog_banking_2026-09-10/BANKED_CLAIMS.json": {
+      "matches_pinned_sha256": true,
+      "matches_baseline_git_bytes": true
+    },
+    "udt_gr_filter_reconciliation_2026-09-09/AUTHORITY_RECORD.md": {
+      "matches_pinned_sha256": true,
+      "matches_baseline_git_bytes": true
+    }
+  },
+  "scope": "Exact named scientific/method sources; protected payload bytes were not read."
+}

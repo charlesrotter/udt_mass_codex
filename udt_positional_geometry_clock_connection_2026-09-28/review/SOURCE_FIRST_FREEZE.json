@@ -1,0 +1,14 @@
+{
+  "frozen_utc": "2026-09-28T02:46:54.894750+00:00",
+  "stage": "SOURCE_FIRST_BEFORE_PARENT_CANDIDATE_EXPOSURE",
+  "reviewer_context": "/root/positional_connection_review",
+  "source_head": "e3712bc487bd51b6fb812478c41b4ac81292f7a6",
+  "files": {
+    "udt_positional_geometry_clock_connection_2026-09-28/review/SOURCE_FIRST_ASSESSMENT.md": "16740f2603a62b75285a1e8cce13ad28beee05fc5375758bcc5efd9646caa6ca",
+    "udt_positional_geometry_clock_connection_2026-09-28/review/SOURCE_SHA256SUMS": "d78b082088c8fb0ed033e5f7782bd11ecec07da3274d6014b59ffa47f5d54ce4",
+    "udt_positional_geometry_clock_connection_2026-09-28/review/source_checks.py": "22f4e64d7b1e540d8dd87ccf72970cbbe6ce7db3cd2cf08675aa708e90ced809",
+    "udt_positional_geometry_clock_connection_2026-09-28/review/source_checks.run.json": "f9ecb23daa8b816435524fba6664e699a46d1405d1aa56c142d3c838933893b5",
+    "udt_positional_geometry_clock_connection_2026-09-28/review/source_checks.stderr.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "udt_positional_geometry_clock_connection_2026-09-28/review/source_checks.stdout.json": "69d0e33c08d8fe2c2721d370cdeb54568f9fefcce1864fd6de83393be766bb35"
+  }
+}

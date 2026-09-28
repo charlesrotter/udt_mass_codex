@@ -1,0 +1,40 @@
+{
+  "checked_utc": "2026-09-28T03:03:08.714829+00:00",
+  "commands": [
+    {
+      "command": [
+        "python3",
+        "-c",
+        "import verify_current_scientific_premises as v; v.validate_startup_surface(v.ROOT); print(\"Current startup surface validator: PASS\")"
+      ],
+      "exit_code": 0,
+      "stdout": "Current startup surface validator: PASS\n",
+      "stderr": "",
+      "elapsed_seconds": 0.1489187179977307
+    },
+    {
+      "command": [
+        "git",
+        "diff",
+        "--check"
+      ],
+      "exit_code": 0,
+      "stdout": "",
+      "stderr": "",
+      "elapsed_seconds": 0.009104288998059928
+    }
+  ],
+  "candidate_math_unchanged_after_review": true,
+  "baseline_untracked_path_list_unchanged": true,
+  "baseline_untracked_path_count": 52,
+  "tracked_change_paths": [
+    "CURRENT_RESEARCH_PROGRAM.md",
+    "HANDOFF.md",
+    "INDEX.md",
+    "LIVE.md",
+    "MEMORY.md",
+    "UDT_RESEARCH_ROADMAP.md"
+  ],
+  "source_preservation_record": "SOURCE_PRESERVATION_CHECK.json",
+  "note": "Path-list preservation only for protected work; no protected bytes read. Full406 runs are recorded separately."
+}

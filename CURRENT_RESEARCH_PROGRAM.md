@@ -1,15 +1,40 @@
 # Current UDT research program
 
-Date: 2026-09-27
+Date: 2026-09-28
 
 `LIVE.md` controls status; exact 406-row `CURRENT_SCIENTIFIC_PREMISES.tsv` controls ownership.
 
 ## Purpose and the missing connection
 
-UDT investigates observed c_E as positional-clock geometry through reciprocal
-clock/ruler relations, intending an extension of GR. This aim is not derived.
-W4 provisionally supplies one local metric for clocks,
-rulers, free fall and null propagation; W5/W6 and calibration retain their grades.
+**Founding owner postulate:** positional dilation is the spacetime geometry
+underlying observed c_E, light cones, causality and measured signal timing.
+Charles emphasizes time per separation: 1/c_E = 1/299792458 seconds/metre
+(the familiar roughly 186,000 is miles/second, whose inverse is seconds/mile).
+The physical interpretation is postulated; it is not merely a units conversion
+and needs no deeper explanation of why positional dilation exists.
+
+UDT is intended as an extension of GR: positional mutual slowing, velocity and
+acceleration/gravitational effects belong to **one geometry**, with ordinary
+local proper clocks. The x, dx/dt, d²x/dt² hierarchy describes that intent; it
+does not supply an additive equation or three independent correction factors.
+“Viewed” means actual received ticks. Slower received ticking is automatically
+redshift: 1+z = received/emitted inter-tick proper interval in the differential
+limit. No second response profile or redshift mechanism is required.
+
+Charles expects a positional redshifting contribution in separated observations,
+possibly too small to measure at solar distances. This is a working expectation,
+not an established onset, cutoff, selected scale, or guaranteed net redshift
+after all effects combine. Tiny frequency contrast does not remove the geometry
+responsible for finite timing. Appropriate SR/GR correspondence is a goal to
+demonstrate, not permission to import GR field equations as UDT dynamics.
+Exact owner words and bounded investigation:
+`udt_positional_geometry_clock_connection_2026-09-28/OWNER_STATEMENT.md` and
+its `WORK_ORDER.md`. W4 provisionally supplies the common local metric;
+W5/W6, calibration, existing source grades and canon remain unchanged.
+
+The open connection is positional geometry and physical event/path assignment
+to the received clock-rate ratio as separation varies. The conversion of that
+ratio to redshift is already settled. No numerical derivation of c_E is required.
 
 For supplied ordered depth, chi=tanh(delta). On the matched static
 conserved-frequency comparison, define delta_z=log(1+z)=-delta_source,observer
@@ -118,6 +143,15 @@ Instrument gaps do not block theory. Manuscript fixed through G352.
 Backup/unsaved state UNVERIFIED; ScratchDisk archive-only.
 
 ## Current next gate
+
+The bounded positional-geometry/received-clock investigation is reviewed conditional
+UNPROMOTED and complete: `udt_positional_geometry_clock_connection_2026-09-28/DECISION_BRIEF.md`.
+Its exact readout combines clock normalization, motion and changing geometry;
+the coordinate split does not identify independent physical factors. The known
+affine-ruler example supplies compatibility, not a native positional law.
+Physical event/path/separation-to-clock-rate assignment remains OPEN; the
+conversion from that ratio to redshift is already automatic. Its CLOSEOUT owns
+checks and review. Return for discussion; no automatic successor.
 
 DCR1 reviewed conditional UNPROMOTED: directional clocks permit central tides in its supplied static class
 under full G301 at an eligible center; no neighborhood field equation; FE1 UNADOPTED.

@@ -1,0 +1,153 @@
+{
+  "checked_utc": "2026-09-28T03:05:59.747940+00:00",
+  "final_freeze_matches": {
+    "udt_positional_geometry_clock_connection_2026-09-28/CANDIDATE.md": true,
+    "udt_positional_geometry_clock_connection_2026-09-28/DECISION_BRIEF.md": true,
+    "udt_positional_geometry_clock_connection_2026-09-28/OWNER_STATEMENT.md": true,
+    "udt_positional_geometry_clock_connection_2026-09-28/WORK_ORDER.md": true,
+    "udt_positional_geometry_clock_connection_2026-09-28/CLOSEOUT.md": true,
+    "udt_positional_geometry_clock_connection_2026-09-28/FINAL_CHECKS.json": true,
+    "udt_positional_geometry_clock_connection_2026-09-28/closing_premise_audit/execution.json": true,
+    "CURRENT_RESEARCH_PROGRAM.md": true,
+    "HANDOFF.md": true,
+    "INDEX.md": true,
+    "LIVE.md": true,
+    "MEMORY.md": true,
+    "UDT_RESEARCH_ROADMAP.md": true
+  },
+  "candidate_body_identical": true,
+  "initial_candidate_matches_direct_freeze": true,
+  "source_checks": {
+    "AGENTS.md": {
+      "pinned": true,
+      "baseline_bytes": true
+    },
+    "CLAUDE.md": {
+      "pinned": true,
+      "baseline_bytes": true
+    },
+    "CURRENT_SCIENTIFIC_PREMISES.md": {
+      "pinned": true,
+      "baseline_bytes": true
+    },
+    "CURRENT_SCIENTIFIC_PREMISES.tsv": {
+      "pinned": true,
+      "baseline_bytes": true
+    },
+    "verify_current_scientific_premises.py": {
+      "pinned": true,
+      "baseline_bytes": true
+    },
+    "CANON.md": {
+      "pinned": true,
+      "baseline_bytes": true
+    },
+    "founding.md": {
+      "pinned": true,
+      "baseline_bytes": true
+    },
+    "UDT_RECIPROCAL_C_FOUNDING_POSTULATE_DERIVATION_RESULTS.md": {
+      "pinned": true,
+      "baseline_bytes": true
+    },
+    "udt_g220_covariant_null_clock_arrow_timelive_lift_2026-08-22/EXACT_DERIVATION.md": {
+      "pinned": true,
+      "baseline_bytes": true
+    },
+    "udt_g219_clock_arrow_dynamic_protocol_discrimination_2026-08-22/EXACT_DERIVATION.md": {
+      "pinned": true,
+      "baseline_bytes": true
+    },
+    "udt_g265_infinite_bare_c_mutual_pair_null_closure_2026-08-26/EXACT_DERIVATION.md": {
+      "pinned": true,
+      "baseline_bytes": true
+    },
+    "udt_null_clock_depth_integrability_assessment_2026-09-10/INITIAL_CANDIDATE.md": {
+      "pinned": true,
+      "baseline_bytes": true
+    },
+    "udt_null_clock_depth_integrability_assessment_2026-09-10/REPAIR.md": {
+      "pinned": true,
+      "baseline_bytes": true
+    },
+    "udt_null_clock_depth_integrability_assessment_2026-09-10/DIRECT_REVIEW.md": {
+      "pinned": true,
+      "baseline_bytes": true
+    },
+    "udt_directional_clock_curvature_whiteboard_2026-09-10/INITIAL_CANDIDATE.md": {
+      "pinned": true,
+      "baseline_bytes": true
+    },
+    "udt_directional_clock_curvature_whiteboard_2026-09-10/REPAIR.md": {
+      "pinned": true,
+      "baseline_bytes": true
+    },
+    "udt_directional_clock_curvature_whiteboard_2026-09-10/review/REVIEW.md": {
+      "pinned": true,
+      "baseline_bytes": true
+    },
+    "udt_causal_geometry_fidelity_audit_2026-09-28/AUDIT_REPORT.md": {
+      "pinned": true,
+      "baseline_bytes": true
+    },
+    "udt_causal_geometry_fidelity_audit_2026-09-28/OWNER_STATEMENT.md": {
+      "pinned": true,
+      "baseline_bytes": true
+    },
+    "udt_reviewed_backlog_banking_2026-09-10/BANKING_RECORD.md": {
+      "pinned": true,
+      "baseline_bytes": true
+    },
+    "udt_reviewed_backlog_banking_2026-09-10/BANKED_CLAIMS.json": {
+      "pinned": true,
+      "baseline_bytes": true
+    },
+    "udt_gr_filter_reconciliation_2026-09-09/AUTHORITY_RECORD.md": {
+      "pinned": true,
+      "baseline_bytes": true
+    }
+  },
+  "outside_packet_untracked_names_match": true,
+  "outside_packet_untracked_count": 52,
+  "display_normalizations": [
+    [
+      "\"Mass creates gravity.txt\"",
+      "Mass creates gravity.txt"
+    ]
+  ],
+  "tracked_paths_match_whitelist": true,
+  "closing_full_audit_attributed_record": {
+    "returncode": 0,
+    "elapsed_seconds": 409.22280527600014,
+    "seven_input_hashes_match": true,
+    "seven_inputs_count": 7,
+    "stdout_contains_406_pass": true,
+    "stderr_empty": true,
+    "stdout_sha256": "394e02c4ced55fc8f6480a3cc65b9ebd38f9c0cb553f897b10313b8ad2104b53"
+  },
+  "reviewer_focused_commands": [
+    {
+      "command": [
+        "python3",
+        "-c",
+        "import verify_current_scientific_premises as v; v.validate_startup_surface(v.ROOT); print(\"Current startup surface validator: PASS\")"
+      ],
+      "returncode": 0,
+      "stdout": "Current startup surface validator: PASS\n",
+      "stderr": "",
+      "elapsed_seconds": 0.14670113199827028
+    },
+    {
+      "command": [
+        "git",
+        "diff",
+        "--check"
+      ],
+      "returncode": 0,
+      "stdout": "",
+      "stderr": "",
+      "elapsed_seconds": 0.008525793000444537
+    }
+  ],
+  "all_pass": true
+}

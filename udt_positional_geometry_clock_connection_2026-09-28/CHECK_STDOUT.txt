@@ -1,0 +1,1 @@
+{"exact_checks": 12, "numeric_controls": 8, "wrong_formula_types_rejected": 3, "max_formula_hamiltonian_error": 2.220446049250313e-16, "max_final_pulse_error": 8.080935920418142e-11}

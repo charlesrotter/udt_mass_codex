@@ -1,0 +1,29 @@
+{
+  "command": [
+    "python3",
+    "verify_current_scientific_premises.py"
+  ],
+  "started_utc": "2026-09-28T02:54:04.454662+00:00",
+  "elapsed_seconds": 409.22280527600014,
+  "timeout_seconds": 900,
+  "timed_out": false,
+  "returncode": 0,
+  "input_sha256_at_start": {
+    "LIVE.md": "4c68c37c42caa3de94804e7525e7dbd79ca29a98b127c9833c134475088b9f3a",
+    "HANDOFF.md": "c7a196d66ebda42e942906b060e130b69d447e092fc13728867ebb800aa88613",
+    "CURRENT_RESEARCH_PROGRAM.md": "f68ee8307a62a886af214696b4cadfa521a4566f7a6ce751beb9e698311b43af",
+    "INDEX.md": "453971fe363d19844c6ab2f7ffa6a75f8ebf0350efb76fce6ceea6368bbab949",
+    "MEMORY.md": "227382fc5e85641023d74dd96779f22b1d35cdf2bb7c18c6a0101bfaad96c707",
+    "CURRENT_SCIENTIFIC_PREMISES.tsv": "7a3d69d5a0bc3ac98e2ebe2bb0c6d029df30071bf403baffed2223a193dc720b",
+    "verify_current_scientific_premises.py": "97724ef61bf70902ed6b70df9ee92e13acfb2a55fbede2d32adae46fa5b76bd4"
+  },
+  "input_sha256_at_finish": {
+    "LIVE.md": "4c68c37c42caa3de94804e7525e7dbd79ca29a98b127c9833c134475088b9f3a",
+    "HANDOFF.md": "c7a196d66ebda42e942906b060e130b69d447e092fc13728867ebb800aa88613",
+    "CURRENT_RESEARCH_PROGRAM.md": "f68ee8307a62a886af214696b4cadfa521a4566f7a6ce751beb9e698311b43af",
+    "INDEX.md": "453971fe363d19844c6ab2f7ffa6a75f8ebf0350efb76fce6ceea6368bbab949",
+    "MEMORY.md": "227382fc5e85641023d74dd96779f22b1d35cdf2bb7c18c6a0101bfaad96c707",
+    "CURRENT_SCIENTIFIC_PREMISES.tsv": "7a3d69d5a0bc3ac98e2ebe2bb0c6d029df30071bf403baffed2223a193dc720b",
+    "verify_current_scientific_premises.py": "97724ef61bf70902ed6b70df9ee92e13acfb2a55fbede2d32adae46fa5b76bd4"
+  }
+}

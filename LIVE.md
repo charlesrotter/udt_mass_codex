@@ -1,11 +1,21 @@
 # LIVE — current state only
 
 <!-- STARTUP_CURRENT_BEGIN -->
-## CURRENT STATE — 2026-09-27
+## CURRENT STATE — 2026-09-28
 
 Branch: `grok`. Synchronize; inspect dirt.
 
 ### Honest claim
+
+**Founding interpretation:** positional dilation is the geometry underlying
+observed c_E (time per separation, 1/c_E), light cones and causal timing. UDT
+intends an extension of GR with positional, velocity and gravitational clock
+effects in one geometry. Slower received ticking automatically means redshift;
+the open join is geometry/separation to that clock-rate ratio. Detectability
+beyond solar distances is Charles's working expectation, not a selected scale.
+Read the concise owner clarification at the front of `CURRENT_RESEARCH_PROGRAM.md`;
+verbatim source: `udt_positional_geometry_clock_connection_2026-09-28/OWNER_STATEMENT.md`.
+These clarify intent without changing the following scientific grades or canon.
 
 On supplied ordered depth, `h_AB=diag(-exp(-2 delta_AB),exp(+2 delta_AB))`.
 On a supplied regular calibrated pair, `phi_pair=delta_AB` is DERIVED_CONDITIONAL.
@@ -105,6 +115,12 @@ Protected—do not stage, modify, mine or cite without dispatch:
 
 
 ### Next gate
+
+Positional geometry / received-clock connection reviewed conditional UNPROMOTED:
+`udt_positional_geometry_clock_connection_2026-09-28/DECISION_BRIEF.md`.
+Automatic redshift is settled once the received-clock ratio is known; native
+physical event/path/separation-to-clock-rate assignment remains OPEN. The known
+affine control was not promoted to a positional law. This bounded cycle is complete.
 
 DCR1 reviewed conditional UNPROMOTED: directional clocks permit central tides in its supplied static class
 under full G301 at an eligible center; no neighborhood field equation; FE1 UNADOPTED.

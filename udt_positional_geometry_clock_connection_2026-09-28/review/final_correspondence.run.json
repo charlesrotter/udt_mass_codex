@@ -1,0 +1,12 @@
+{
+  "command": [
+    "python3",
+    "udt_positional_geometry_clock_connection_2026-09-28/review/check_final_correspondence.py"
+  ],
+  "cwd": "/home/udt-admin/udt_mass_codex",
+  "start_utc": "2026-09-28T03:05:59.476904+00:00",
+  "elapsed_seconds": 0.27401238400125294,
+  "returncode": 0,
+  "timeout_seconds": 120,
+  "script_sha256": "ae3cd0497bb88946551e2814042635354cf1a4c13a4a9f916ab54b0999244eb3"
+}

@@ -1,0 +1,424 @@
+{
+  "scope": "Conditional geometry checks, not physical UDT selection or observational evidence",
+  "versions": {
+    "python": "3.10.12",
+    "sympy": "1.13.1",
+    "scipy": "1.15.3"
+  },
+  "exact_checks": [
+    {
+      "name": "geodesic_energy_direction_-1",
+      "residual": "0"
+    },
+    {
+      "name": "endpoint_plus_slowness_direction_-1",
+      "residual": "0"
+    },
+    {
+      "name": "geodesic_energy_direction_1",
+      "residual": "0"
+    },
+    {
+      "name": "endpoint_plus_slowness_direction_1",
+      "residual": "0"
+    },
+    {
+      "name": "moving_endpoint_rapidity_-1",
+      "residual": "0"
+    },
+    {
+      "name": "moving_endpoint_rapidity_1",
+      "residual": "0"
+    },
+    {
+      "name": "affine_incidence",
+      "residual": "0"
+    },
+    {
+      "name": "affine_clock_slope",
+      "residual": "0"
+    },
+    {
+      "name": "affine_echo_slope",
+      "residual": "0"
+    },
+    {
+      "name": "affine_zero_parameter_timing",
+      "residual": "0"
+    },
+    {
+      "name": "affine_reciprocal_time_change",
+      "residual": "0"
+    },
+    {
+      "name": "lapse_only_clock_ratio",
+      "residual": "0"
+    }
+  ],
+  "numeric_controls": [
+    {
+      "case": "flat_motion",
+      "direction": -1,
+      "parameters": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        -0.03,
+        0.05
+      ],
+      "emission_time": 0.2,
+      "arrival_time": 1.1371428571428566,
+      "formula_ratio": 0.9230695140591976,
+      "hamiltonian_ratio": 0.9230695140591975,
+      "hamiltonian_arrival_difference": 2.220446049250313e-16,
+      "max_null_residual": 0.0,
+      "pulse_intervals": [
+        {
+          "half_interval": 0.01,
+          "ratio": 0.9230695140591996,
+          "error": 1.9984014443252818e-15
+        },
+        {
+          "half_interval": 0.003,
+          "ratio": 0.9230695140591848,
+          "error": 1.27675647831893e-14
+        },
+        {
+          "half_interval": 0.001,
+          "ratio": 0.9230695140592218,
+          "error": 2.4202861936828413e-14
+        }
+      ]
+    },
+    {
+      "case": "flat_motion",
+      "direction": 1,
+      "parameters": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.05,
+        -0.03
+      ],
+      "emission_time": 0.2,
+      "arrival_time": 1.1553398058252424,
+      "formula_ratio": 0.9230695140591976,
+      "hamiltonian_ratio": 0.9230695140591975,
+      "hamiltonian_arrival_difference": 2.220446049250313e-16,
+      "max_null_residual": 0.0,
+      "pulse_intervals": [
+        {
+          "half_interval": 0.01,
+          "ratio": 0.9230695140591941,
+          "error": 3.4416913763379853e-15
+        },
+        {
+          "half_interval": 0.003,
+          "ratio": 0.9230695140591646,
+          "error": 3.297362383136715e-14
+        },
+        {
+          "half_interval": 0.001,
+          "ratio": 0.9230695140592384,
+          "error": 4.085620730620576e-14
+        }
+      ]
+    },
+    {
+      "case": "static",
+      "direction": -1,
+      "parameters": [
+        0.08,
+        0.0,
+        0.02,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "emission_time": 0.2,
+      "arrival_time": 1.1705911069291883,
+      "formula_ratio": 0.9231163463866358,
+      "hamiltonian_ratio": 0.9231163463866358,
+      "hamiltonian_arrival_difference": 2.220446049250313e-16,
+      "max_null_residual": 6.661338147750939e-16,
+      "pulse_intervals": [
+        {
+          "half_interval": 0.01,
+          "ratio": 0.9231163463866358,
+          "error": 0.0
+        },
+        {
+          "half_interval": 0.003,
+          "ratio": 0.9231163463866358,
+          "error": 0.0
+        },
+        {
+          "half_interval": 0.001,
+          "ratio": 0.9231163463866356,
+          "error": 1.1102230246251565e-16
+        }
+      ]
+    },
+    {
+      "case": "static",
+      "direction": 1,
+      "parameters": [
+        0.08,
+        0.0,
+        0.02,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "emission_time": 0.2,
+      "arrival_time": 1.1705911069291877,
+      "formula_ratio": 1.0832870676749586,
+      "hamiltonian_ratio": 1.0832870676749586,
+      "hamiltonian_arrival_difference": 2.220446049250313e-16,
+      "max_null_residual": 4.440892098500626e-16,
+      "pulse_intervals": [
+        {
+          "half_interval": 0.01,
+          "ratio": 1.0832870676749586,
+          "error": 0.0
+        },
+        {
+          "half_interval": 0.003,
+          "ratio": 1.0832870676749586,
+          "error": 0.0
+        },
+        {
+          "half_interval": 0.001,
+          "ratio": 1.0832870676749586,
+          "error": 0.0
+        }
+      ]
+    },
+    {
+      "case": "lapse_only",
+      "direction": -1,
+      "parameters": [
+        0.0,
+        0.04,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "emission_time": 0.2,
+      "arrival_time": 1.172855034234608,
+      "formula_ratio": 1.0,
+      "hamiltonian_ratio": 1.0,
+      "hamiltonian_arrival_difference": 4.440892098500626e-16,
+      "max_null_residual": 0.0,
+      "pulse_intervals": [
+        {
+          "half_interval": 0.01,
+          "ratio": 0.9999999999999963,
+          "error": 3.6637359812630166e-15
+        },
+        {
+          "half_interval": 0.003,
+          "ratio": 0.9999999999999076,
+          "error": 9.237055564881302e-14
+        },
+        {
+          "half_interval": 0.001,
+          "ratio": 0.9999999999998052,
+          "error": 1.9484414082171497e-13
+        }
+      ]
+    },
+    {
+      "case": "lapse_only",
+      "direction": 1,
+      "parameters": [
+        0.0,
+        0.04,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "emission_time": 0.2,
+      "arrival_time": 1.172855034234608,
+      "formula_ratio": 1.0,
+      "hamiltonian_ratio": 0.9999999999999998,
+      "hamiltonian_arrival_difference": 1.1102230246251565e-15,
+      "max_null_residual": 6.661338147750939e-16,
+      "pulse_intervals": [
+        {
+          "half_interval": 0.01,
+          "ratio": 0.9999999999999963,
+          "error": 3.6637359812630166e-15
+        },
+        {
+          "half_interval": 0.003,
+          "ratio": 1.000000000000023,
+          "error": 2.3092638912203256e-14
+        },
+        {
+          "half_interval": 0.001,
+          "ratio": 0.9999999999999206,
+          "error": 7.938094626069869e-14
+        }
+      ]
+    },
+    {
+      "case": "mixed",
+      "direction": -1,
+      "parameters": [
+        0.03,
+        0.02,
+        0.01,
+        0.07,
+        -0.03,
+        0.02
+      ],
+      "emission_time": 0.2,
+      "arrival_time": 1.1942660235189877,
+      "formula_ratio": 0.9896120219140372,
+      "hamiltonian_ratio": 0.989612021914037,
+      "hamiltonian_arrival_difference": 2.220446049250313e-16,
+      "max_null_residual": 8.881784197001252e-16,
+      "pulse_intervals": [
+        {
+          "half_interval": 0.01,
+          "ratio": 0.9896120160554018,
+          "error": 5.858635354627495e-09
+        },
+        {
+          "half_interval": 0.003,
+          "ratio": 0.9896120213867252,
+          "error": 5.273119718651742e-10
+        },
+        {
+          "half_interval": 0.001,
+          "ratio": 0.9896120218555324,
+          "error": 5.85047565948571e-11
+        }
+      ]
+    },
+    {
+      "case": "mixed",
+      "direction": 1,
+      "parameters": [
+        0.03,
+        0.02,
+        0.01,
+        0.07,
+        0.02,
+        -0.03
+      ],
+      "emission_time": 0.2,
+      "arrival_time": 1.18462321962619,
+      "formula_ratio": 1.0473913741904193,
+      "hamiltonian_ratio": 1.0473913741904195,
+      "hamiltonian_arrival_difference": 0.0,
+      "max_null_residual": 8.881784197001252e-16,
+      "pulse_intervals": [
+        {
+          "half_interval": 0.01,
+          "ratio": 1.047391366095809,
+          "error": 8.094610315367845e-09
+        },
+        {
+          "half_interval": 0.003,
+          "ratio": 1.0473913734618374,
+          "error": 7.285818615088147e-10
+        },
+        {
+          "half_interval": 0.001,
+          "ratio": 1.04739137410961,
+          "error": 8.080935920418142e-11
+        }
+      ]
+    }
+  ],
+  "wrong_formula_rejections": {
+    "omit_endpoint_clock_normalization": [
+      {
+        "case": "static",
+        "direction": -1,
+        "error": 0.07688365361336424
+      },
+      {
+        "case": "static",
+        "direction": 1,
+        "error": 0.08328706767495864
+      },
+      {
+        "case": "lapse_only",
+        "direction": -1,
+        "error": 0.03816677041977534
+      },
+      {
+        "case": "lapse_only",
+        "direction": 1,
+        "error": 0.03816677041977512
+      },
+      {
+        "case": "mixed",
+        "direction": -1,
+        "error": 0.009164537294386266
+      },
+      {
+        "case": "mixed",
+        "direction": 1,
+        "error": 0.049592584081660895
+      }
+    ],
+    "omit_time_live_integral": [
+      {
+        "case": "lapse_only",
+        "direction": -1,
+        "error": 0.03968127659348242
+      },
+      {
+        "case": "lapse_only",
+        "direction": 1,
+        "error": 0.03968127659348264
+      },
+      {
+        "case": "mixed",
+        "direction": -1,
+        "error": 0.04799402575257494
+      },
+      {
+        "case": "mixed",
+        "direction": 1,
+        "error": 0.05031558393705593
+      }
+    ],
+    "reverse_endpoint_motion": [
+      {
+        "case": "flat_motion",
+        "direction": -1,
+        "error": 0.1602725146494538
+      },
+      {
+        "case": "flat_motion",
+        "direction": 1,
+        "error": 0.1602725146494538
+      },
+      {
+        "case": "mixed",
+        "direction": -1,
+        "error": 0.10613097837607
+      },
+      {
+        "case": "mixed",
+        "direction": 1,
+        "error": 0.11348157159461891
+      }
+    ]
+  },
+  "numeric_method": "DOP853; rtol=2e-12, atol=2e-14, max_step=.05; quad atol/rtol=1e-13",
+  "thresholds": {
+    "ratio_and_event_and_null": 1e-09,
+    "final_pulse_ratio": 2e-08
+  },
+  "classification": "Exact symbolic identities plus floating-point cross-checks; not numerical certification"
+}
