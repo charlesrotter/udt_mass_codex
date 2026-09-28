@@ -1,0 +1,28 @@
+{
+  "utc": "2026-09-28T02:04:40.753413+00:00",
+  "files": {
+    "AGENTS.md": "c578b045cf3278804124e23a5408ff9634a9a2165f7d20223f654d76bffd8ec9",
+    "CLAUDE.md": "b7e524a5b06760e57877a408630228767ae9a394134095f9851bef5d06e17751",
+    "CROSS_MODEL_VERIFY.md": "2b0509d933d731fbf3f72aa88777a54d3e48a94d4bae3d324087871777f9a007",
+    ".claude/skills/no-shortcuts/SKILL.md": "fd3a1f3218481134f2af829d3ae4175ac53518f75bf9673287efbfb7d7708fc1",
+    ".claude/skills/completeness-map/SKILL.md": "a8cf9e5f4a6d35a0d0ebfe4bc48dbf328ca74e318f020a6a22cb683666a611c0",
+    ".claude/skills/verifier-before-record/SKILL.md": "9b3a4aacd4b4006b2b7f01edada73b7c87b99bea6e754583558713bfc145e5ac",
+    "CURRENT_SCIENTIFIC_PREMISES.tsv": "7a3d69d5a0bc3ac98e2ebe2bb0c6d029df30071bf403baffed2223a193dc720b",
+    "founding.md": "b4b0d9a9fdd093c992647195aca7579566a9e77a396071a699c1938888a49e75",
+    "udt_gr_filter_reconciliation_2026-09-09/AUTHORITY_RECORD.md": "80daa0be6d3e1c0ac1b734fea089c4eb487f05bc1e1fbb2fabd69322ca89f28c",
+    "udt_positional_postulate_fidelity_2026-09-27/CANDIDATE.md": "2f21520e2d1fbf5131733c118fabe996445c40f9b8e54b194906724041527491",
+    "udt_response_whiteboard_2026-09-28/RESULT.md": "76d254a965633c7e15ff04757f47c1a4cb6381ba9ff0038bfd7632d2e4236bd1",
+    "UDT_RESEARCH_ROADMAP.md": "1d556d3671d19269ba864a63c884b4fc3b78d8d4d2a6e7c53c46065140ea293a",
+    "udt_g220_covariant_null_clock_arrow_timelive_lift_2026-08-22/AUDIT_REPORT.md": "9806ac14f5d0bc419501878627dc79770ba4dd7c50f4f14dee0db216c3d9598f",
+    "udt_g220_covariant_null_clock_arrow_timelive_lift_2026-08-22/EXACT_DERIVATION.md": "0e5b33a0c013def973bdca369944d99a84fe278614cae1794e7cb50b56db0f6f",
+    "udt_g265_infinite_bare_c_mutual_pair_null_closure_2026-08-26/AUDIT_REPORT.md": "b2f17879ad93375df50667d890041305a1cf5bb99763cfd4bb6af78c24c1358c",
+    "udt_g265_infinite_bare_c_mutual_pair_null_closure_2026-08-26/EXACT_DERIVATION.md": "9e51c9940632160dc216da5c7bfa6e5c05c9b662d6226cbcb04a157a49d48ef9",
+    "udt_g269_null_transport_mutual_clock_screen_interlock_2026-08-26/AUDIT_REPORT.md": "673a867b5b3c025a0cb07178edcabc5578a108e395834980ecaa4596febbb9f3",
+    "udt_g269_null_transport_mutual_clock_screen_interlock_2026-08-26/EXACT_DERIVATION.md": "812023393d4e04b8f2b47cc5429002dc78912b85983117e5633faed30a2f876e",
+    "udt_g294_nonsignalling_copresence_network_architecture_2026-08-29/AUDIT_REPORT.md": "de171479ff682ece888d005f0ab6f00410b609364ca653510fcc13a86a0700e0",
+    "udt_g294_nonsignalling_copresence_network_architecture_2026-08-29/EXACT_DERIVATION.md": "2d7173af941e550bc79d66fcd25bf7bec9e171a962c79f881353b10301323844",
+    "udt_g294_nonsignalling_copresence_network_architecture_2026-08-29/OWNER_INPUT.md": "acd87e92083a407e84aee9bce0bb0649daddb1e8cd62ed49c5d9a071887662ac",
+    "udt_g294_nonsignalling_copresence_network_architecture_2026-08-29/MAP.md": "31386436fefb5efac78ba2be4042a01d61918fd368183199f42e43ac50aa1ff7"
+  },
+  "note": "Roadmap hash is baseline only; allowed direction update later. Other source bytes stay fixed."
+}

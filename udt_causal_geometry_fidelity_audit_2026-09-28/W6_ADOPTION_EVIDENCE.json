@@ -1,0 +1,12 @@
+{
+  "command": [
+    "git",
+    "show",
+    "c4241148",
+    "--",
+    "founding.md"
+  ],
+  "exit_code": 0,
+  "stdout": "commit c424114847e19250aa855fd1cf269d0612025a1b\nAuthor: Charles Rotter <charles@charlesrotter.com>\nDate:   Sat Aug 29 11:07:20 2026 -0400\n\n    Adopt W6 non-signalling copresence clarification\n    \n    Record Charles's provisional, noncanon type clarification that copresence is nonpropagating relational membership while controllable response remains metric-causal. Retain the open constraint, update, history, population, scale, and global-now boundaries and advance the exact premise registry to 278 rows.\n\ndiff --git a/founding.md b/founding.md\nindex 6fbdf927..610ca273 100644\n--- a/founding.md\n+++ b/founding.md\n@@ -247,6 +247,19 @@ metric history, relation/path population, or path-independence law; or derive `X\n separate operational or global-completion questions. W5 also does not change F1--F4, W1, the metric,\n or the reciprocal kernel.\n \n+### W6. Non-signalling co-presence\n+\n+`WORKING_FOUNDATIONAL_CLARIFICATION`, provisionally authorized by Charles Rotter on 2026-08-29,\n+not canon: co-presence may denote non-propagating membership or admissibility in one complete\n+relational state. It is not a signal, worldline, response kernel, or speed. Every controllable\n+observable response must remain supported inside the causal structure of the completed UDT metric.\n+\n+W6 does not assert a universal global present, select a co-presence graph or physical foliation,\n+populate observer/event relations, or provide the nonidentity complete-network constraint, causal\n+update, response functional, observation map, metric history, distance attachment, or `X_max`.\n+It changes neither F1--F4, W1, W5, the metric, nor the reciprocal kernel. G294 supplies the bounded\n+type analysis; a concrete constraint and causal preservation law remain `OPEN`.\n+\n ### Observational anchors\n \n \\(c_E\\) and \\(G_{\\rm obs}\\) are accepted `OBSERVED` anchors. Neither is presently an equation for\n",
+  "stderr": ""
+}

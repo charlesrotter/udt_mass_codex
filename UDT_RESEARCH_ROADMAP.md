@@ -14,6 +14,27 @@ Current acceptance overlay: earlier UNPROMOTED/campaign-only language below reco
 returns. The G383--G412, G413--G415 and G416--G423 banking packets and maintained checkpoint own later dispositions;
 original result packages remain unchanged. No physical adoption or canon is included.
 
+## Positional dilation as causal geometry — fidelity audit, 2026-09-28
+
+Charles clarified that positional dilation is the actual spacetime geometry
+responsible for light cones, causal timing and measured signal propagation,
+with ordinary local proper clocks. “Viewed” refers to actual received ticks.
+Exact owner statements and the reviewed source-relative audit:
+`udt_causal_geometry_fidelity_audit_2026-09-28/OWNER_STATEMENT.md` and
+`udt_causal_geometry_fidelity_audit_2026-09-28/DECISION_BRIEF.md`; its CLOSEOUT
+owns actual review and checks. This direction record is not a registry regrade.
+
+F4/W4/G265 already retain geometry-owned timing without a separate bare delay.
+The missing equivalence must not be concealed: G269's symmetric transported
+clock scalar is not automatically G220's received-frequency comparison, and
+W6's adopted co-membership/causal-support clarification does not prove that it
+exhausts the intended geometric postulate. G294 exclusivity wording is flagged
+for scoped fidelity reconciliation. Zero clock contrast is not established as
+removing all foundational geometry. The static reciprocal-frequency diagnostic
+does not decide all dynamical observer regimes. Prior mathematics and the
+bounded whiteboard stop remain scoped; no lost breakthrough or cause of the
+bottleneck is established. No canon, field-law adoption or automatic successor.
+
 ## Focused response whiteboard — 2026-09-28
 
 Charles authorized three independent initial passes, a novelty checkpoint and

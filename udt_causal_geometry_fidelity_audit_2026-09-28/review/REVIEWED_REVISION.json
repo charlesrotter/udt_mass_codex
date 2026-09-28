@@ -1,0 +1,15 @@
+{
+  "utc": "2026-09-28T02:12:10.130991+00:00",
+  "verdict": "VERIFIED-WITH-CAVEATS__SOURCE_FIDELITY_ACCEPTED_AFTER_BOUNDED_WORDING_REPAIR",
+  "head": "3d644ee97b5c2d01c59c1795007e92f4c9c21a72",
+  "files": {
+    "udt_causal_geometry_fidelity_audit_2026-09-28/AUDIT_REPORT.md": "4d6027548bf9d89420327e488207ad4e7d0d7710af4806f8c2a24f2d80bc38ef",
+    "udt_causal_geometry_fidelity_audit_2026-09-28/DECISION_BRIEF.md": "123aa3ebfaa5c685e7bc171a8655e6c0db3f8f05f23cf0cba6e81b7dc5ce1c2b",
+    "udt_causal_geometry_fidelity_audit_2026-09-28/OWNER_STATEMENT.md": "cc869d1283a314b626a4ebede8ad561bb96b95fd5c815215a08202d5701c1c69",
+    "udt_causal_geometry_fidelity_audit_2026-09-28/WORK_ORDER.md": "d9d81b7b1fd0afa65c9adcb63dd2c4b801983e6c74e7696f6d35c5e9cbf95f0f",
+    "udt_causal_geometry_fidelity_audit_2026-09-28/CLOSEOUT.md": "d5c76886b64f582202e2525b65911a2633f2b24e012b6224f5e3a9b998c027d0",
+    "udt_causal_geometry_fidelity_audit_2026-09-28/AUDIT_REPORT_INITIAL.md": "5d72ae9587fd64dbc3bfcaa2941f3d7c072c89273480542981d64ea9f0f5ba92",
+    "udt_causal_geometry_fidelity_audit_2026-09-28/DECISION_BRIEF_INITIAL.md": "0bc9bc2ba69996c66fccf71a8121a7d79bf7e59ee40f16541b2192eb8323e304",
+    "UDT_RESEARCH_ROADMAP.md": "a647169c21d10fba07d2a481f79c6cce987046f23aa806b2df5773ef72710489"
+  }
+}

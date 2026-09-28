@@ -1,0 +1,11 @@
+{
+  "utc": "2026-09-28T02:08:13.611223+00:00",
+  "stage": "initial audit frozen for direct review after reviewer source-first assessment",
+  "files": {
+    "udt_causal_geometry_fidelity_audit_2026-09-28/AUDIT_REPORT.md": "5d72ae9587fd64dbc3bfcaa2941f3d7c072c89273480542981d64ea9f0f5ba92",
+    "udt_causal_geometry_fidelity_audit_2026-09-28/DECISION_BRIEF.md": "0bc9bc2ba69996c66fccf71a8121a7d79bf7e59ee40f16541b2192eb8323e304",
+    "udt_causal_geometry_fidelity_audit_2026-09-28/OWNER_STATEMENT.md": "cc869d1283a314b626a4ebede8ad561bb96b95fd5c815215a08202d5701c1c69",
+    "udt_causal_geometry_fidelity_audit_2026-09-28/WORK_ORDER.md": "d9d81b7b1fd0afa65c9adcb63dd2c4b801983e6c74e7696f6d35c5e9cbf95f0f",
+    "UDT_RESEARCH_ROADMAP.md": "a647169c21d10fba07d2a481f79c6cce987046f23aa806b2df5773ef72710489"
+  }
+}
