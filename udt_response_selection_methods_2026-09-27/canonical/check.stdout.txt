@@ -1,0 +1,70 @@
+{
+  "check_count": 34,
+  "checks": {
+    "all_component_curvature_linearization": true,
+    "catch_missing_offdiagonal_factor": true,
+    "catch_omitted_weight_one_connection": true,
+    "catch_wrong_momentum_bracket_sign": true,
+    "catch_wrong_trace_coefficient": true,
+    "control_momentum_and_trace_both_nonzero": true,
+    "divergence_and_trace_gradient_independent": true,
+    "exact_smeared_bracket_vs_direct_hessian": true,
+    "kinetic_h_derivative_00": true,
+    "kinetic_h_derivative_01": true,
+    "kinetic_h_derivative_02": true,
+    "kinetic_h_derivative_11": true,
+    "kinetic_h_derivative_12": true,
+    "kinetic_h_derivative_22": true,
+    "kinetic_pi_derivative_00": true,
+    "kinetic_pi_derivative_01": true,
+    "kinetic_pi_derivative_02": true,
+    "kinetic_pi_derivative_11": true,
+    "kinetic_pi_derivative_12": true,
+    "kinetic_pi_derivative_22": true,
+    "legendre_kinetic_identity": true,
+    "legendre_velocity_inversion": true,
+    "normalized_closure_control": true,
+    "volume_h_derivative_00": true,
+    "volume_h_derivative_01": true,
+    "volume_h_derivative_02": true,
+    "volume_h_derivative_11": true,
+    "volume_h_derivative_12": true,
+    "volume_h_derivative_22": true,
+    "witness_H_scalar_direct": true,
+    "witness_H_zero_after_ODE": true,
+    "witness_curvature_direct": true,
+    "witness_density_trace_gradient_direct": true,
+    "witness_momentum_constraint_direct": true
+  },
+  "details": {
+    "cube_Dw": "-33554432/31255875",
+    "cube_direct_bracket": "-33554432*C*(9*A + 20*B)/31255875",
+    "cube_trace_gradient_integral": "33554432/6251175",
+    "jet_map_rank": 6,
+    "jet_map_shape": [
+      6,
+      18
+    ],
+    "positive_metric_leading_minors": [
+      4,
+      11,
+      17
+    ],
+    "witness_H_over_sqrt_h": "A*q(x)**2 + B*q(x)**2 - 2*C*Derivative(f(x), (x, 2))/f(x) + D",
+    "witness_covariant_trace_gradient": [
+      "f(x)*Derivative(q(x), x)",
+      "0",
+      "0"
+    ],
+    "witness_momentum_divergence": [
+      "0",
+      "0",
+      "0"
+    ],
+    "witness_scalar_curvature": "-2*Derivative(f(x), (x, 2))/f(x)"
+  },
+  "evidence": "exact symbolic author controls; not fresh review",
+  "python": "3.10.12",
+  "status": "PASS",
+  "sympy": "1.13.1"
+}

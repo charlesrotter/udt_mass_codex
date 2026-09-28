@@ -1,0 +1,46 @@
+{
+  "utc": "2026-09-27T23:58:05.129145+00:00",
+  "author_context": "/root/closure_construct",
+  "runtime": "Codex, described as GPT-6-based; exact underlying model identifier not exposed",
+  "independence": {
+    "context": "separate construction context from parent; not fresh adversarial reviewer",
+    "implementation": "author-written exact controls, no parent code imported",
+    "argument": "free-coefficient direct functional variation, density-aware integration by parts; full constrained witness",
+    "exposure": "work order, source ownership, method protocols, primary canonical literature; parent scope clarification; no parent candidate/proof/code/results before initial derivation and check",
+    "different_model": "UNKNOWN/UNTESTED",
+    "human_specialist_review": "NOT PERFORMED"
+  },
+  "scientific_commands": [
+    {
+      "command": "timeout 120s python3 udt_response_selection_methods_2026-09-27/canonical/check_canonical.py > udt_response_selection_methods_2026-09-27/canonical/check.stdout.txt 2> udt_response_selection_methods_2026-09-27/canonical/check.stderr.txt",
+      "exit_code": 0,
+      "result": "PASS, 34 exact symbolic controls, including 4 deliberate wrong-formula catches",
+      "stdout": "check.stdout.txt",
+      "stderr": "check.stderr.txt",
+      "stderr_bytes": 0
+    }
+  ],
+  "environment": {
+    "python": "3.10.12",
+    "sympy": "1.13.1",
+    "device": "CPU",
+    "grid": null,
+    "floating_point_tolerance": null,
+    "scientific_subprocess_timeout_seconds": 120,
+    "gpu_processes": 0,
+    "physical_parameters": "none selected"
+  },
+  "actual_status_inspection": "git status --short --branch; git branch --show-current; git rev-parse HEAD. grok at baseline; unrelated untracked work visible and preserved.",
+  "startup_attribution": "Parent reports same top-level startup, current fetch/pull succeeded; not independently replayed by scoped worker. Parent reports actual full406 premise verifier PASS, exit0,409.752464 seconds, empty stderr. This is attributed parent evidence, not child re-execution.",
+  "known_repairs_before_initial_freeze": [
+    "Initial prose tightened N nonzero to N>0 in the covariant action comparison, to match sqrt(-g)=N sqrt(h) on the selected time-orientation branch.",
+    "Added empty-constraint-surface caveat for A=B=C=0,D!=0. No initial scientific check failed."
+  ],
+  "omitted_checks": [
+    "No independent separate-context review yet at initial freeze.",
+    "No full arbitrary curved-metric computer functional variation; universal curvature identity is analytic, with all-component flat linearization and curved witness controls.",
+    "No nonlinear evolution, gauge-fixed well-posedness, global boundary, additional-constraint consistency or native membership theorem.",
+    "Historical solver harness irrelevant to this new exact algebra packet; existing physical solver not edited or invoked."
+  ],
+  "read_scope": "AGENTS/required CLAUDE/protocols; new work order; compact current source ownership and selected registry rows; exact G301/G310/current G312 authority; founding W4; external canonical-method references. Initial broad text query returned extra IDs but no unrelated payload contents were read."
+}

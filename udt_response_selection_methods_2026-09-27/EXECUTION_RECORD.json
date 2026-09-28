@@ -1,0 +1,38 @@
+{
+  "baseline_branch": "grok",
+  "baseline_head": "df71211c11fde4b123d1e71e2028cc571719ea68",
+  "recorded_utc": "2026-09-28T00:05:08.646953+00:00",
+  "author_context": "/root",
+  "runtime": "Codex, described as GPT-6-based; exact underlying model identifier not exposed",
+  "authorization": "Charles proceed to proposed GR-method response-selection study; WORK_ORDER.md bounds execution/review/repair/return",
+  "environment": {
+    "python": "3.10.12",
+    "sympy": "1.13.1",
+    "device": "CPU",
+    "logical_cpu_count_observed": 24,
+    "grid": null,
+    "floating_point_tolerance": null,
+    "gpu_processes": 0
+  },
+  "scientific_commands": [
+    {
+      "command": "timeout 120s python3 udt_response_selection_methods_2026-09-27/check_parent.py > udt_response_selection_methods_2026-09-27/parent.stdout.json 2> udt_response_selection_methods_2026-09-27/parent.stderr.txt",
+      "exit_code": 0,
+      "exact_checks": 56,
+      "elapsed_seconds": 0.4475692890009668,
+      "stdout": "parent.stdout.json",
+      "stderr": "parent.stderr.txt",
+      "stderr_bytes": 0,
+      "result_json": "PARENT_CHECKS.json",
+      "role": "author construction controls; not independent review"
+    }
+  ],
+  "full_premise_execution_record": "PREMISE_VERIFIER_EXECUTION.json",
+  "canonical_execution_record": "canonical/EXECUTION_RECORD.json",
+  "source_first_review_freeze": "review/SOURCE_FIRST_FREEZE.json",
+  "discovery": "Parent preliminary algebra before text freeze; constructor/reviewer independently reconstructed without parent candidate/code exposure, then reported coefficient agreement before parent first text freeze. Not blind discovery.",
+  "repair_history": "REPAIR_LOG.md; scientific formulas unchanged after review. Reviewer failed check retained and repaired in review directory.",
+  "resource_use": "One parent exact run and one full premise run. Canonical and review own their exact run records. No long production solve. All work remains within work-order worker/time limits.",
+  "omissions": "No native membership proof, field/action adoption, nonlinear evolution, stability, full PDE/mode classification, physical signal/coupling claim, historical solver or protected-payload inspection.",
+  "publication": "No commit/push claim in this execution record; actual commands are checked after the packet is frozen."
+}

@@ -1,0 +1,15 @@
+{
+  "freeze_kind": "INITIAL_CANDIDATE_BEFORE_INDEPENDENT_REVIEW",
+  "frozen_at_utc": "2026-09-27T23:58:05.129251+00:00",
+  "baseline_head": "df71211c11fde4b123d1e71e2028cc571719ea68",
+  "files": {
+    "CHECK_RESULT.json": "613b4919a59e901851b6aa1d73aed29488d2d5f843def93c3414a340d782c3e6",
+    "CONSTRUCTION.md": "e72b5deb23536882ace3fb7509959cce0ad6aaa6a7a4bf5c996970b5139c6bd4",
+    "EXECUTION_RECORD.json": "0603e54996b2da102088d5fe04476d192b449dac25bb0a655d5cd254baaaf80c",
+    "SOURCE_PINS.json": "8ec7fd4cedd07e2ec92929ee087e8d378521d7f7c57ccecafa4347e9fa4ed3a4",
+    "check.stderr.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "check.stdout.txt": "613b4919a59e901851b6aa1d73aed29488d2d5f843def93c3414a340d782c3e6",
+    "check_canonical.py": "7bc0e3d5ad12482f9d2419bc13c50c10388a4253911b0e98e3cdf8f483c1b049"
+  },
+  "meaning": "Byte correspondence only; not proof, truth, independence or scientific adoption."
+}

@@ -1,0 +1,11 @@
+{
+  "command": [
+    "python3",
+    "verify_current_scientific_premises.py"
+  ],
+  "started_utc": "2026-09-27T23:48:19.536675+00:00",
+  "exit_code": 0,
+  "timeout": false,
+  "timeout_seconds": 900,
+  "elapsed_seconds": 409.752463877001
+}

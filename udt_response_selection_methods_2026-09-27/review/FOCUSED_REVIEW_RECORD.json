@@ -1,0 +1,26 @@
+{
+  "pending_not_certified": [
+    "Final packaging results",
+    "Roadmap installation",
+    "Git commit",
+    "Git push"
+  ],
+  "reason": "Same-premise documentation clarifications; underlying scripts, formulas and scientific source bytes unchanged",
+  "recorded_utc": "2026-09-28T00:05:23.457553+00:00",
+  "reviewed_sha256": {
+    "udt_response_selection_methods_2026-09-27/CANDIDATE.md": "4cbb78cc473e27d1e9a012537f3b353c8a78344542c3bd04057cee59ad6b1a13",
+    "udt_response_selection_methods_2026-09-27/CANDIDATE_REVIEW_INPUT.md": "51fc139e2d6de2b8ee25c20338fef2d8cefbf23cfdf1f00aec14402b57103dbc",
+    "udt_response_selection_methods_2026-09-27/CLOSEOUT.md": "90fc6b4cb70a76d1b6970fbef718783be0252a0fd0325cd4fc91ddb6df29e7f6",
+    "udt_response_selection_methods_2026-09-27/DECISION_BRIEF.md": "2fe1ab78ae90feb5648adccdc320b589e8e00a001ff8b81dfa7bbdb5343d3d2d",
+    "udt_response_selection_methods_2026-09-27/DECISION_BRIEF_REVIEW_INPUT.md": "ebcf0c0eeef5e083feacc520f6e9a2a2d15e60b452c0a969d3d722435100bb2d",
+    "udt_response_selection_methods_2026-09-27/REPAIR_LOG.md": "ba0ed39b60c5d5e73ca800cea0a8405ed4c11aab7d833106081fec8c93221bbc",
+    "udt_response_selection_methods_2026-09-27/ROADMAP_INSERT.md": "cc01e4dfe88b5be16e08fe84dcd95a1998c6cc2c2737ecb2740d8a8064e8753e",
+    "udt_response_selection_methods_2026-09-27/review/DIRECT_REVIEW.md": "d1cf8b339e74ef3dee9aba44506aae18c69ee2ac73d3b5cc65f2e072a92db618",
+    "udt_response_selection_methods_2026-09-27/review/DIRECT_REVIEW_RECORD.json": "84b6ad2925bf0a819b8673e11f57f96a9d377b6374aa3d2c329d3b13750d6873",
+    "udt_response_selection_methods_2026-09-27/review/FOCUSED_REVIEW.md": "cd3efcb13aea3008087929a2b5fefa48147323f031d9a0cf245936dddad45d6e"
+  },
+  "role": "Same reviewer focused re-review; not another independent context",
+  "science_rerun": false,
+  "source_first_recheck": "All source_sha256 and artifact_sha256 entries independently checked and matched",
+  "verdict": "VERIFIED-WITH-CAVEATS"
+}

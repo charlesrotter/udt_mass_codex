@@ -1,0 +1,22 @@
+{
+  "arithmetic": "exact symbolic; no floating point",
+  "canonical_bracket": "-A*C*D[w]-2*C*(A+2*B)*integral(w^i*nabla_i(pi))",
+  "checks": {
+    "A_zero_cannot_close_strongly": true,
+    "C_zero_cannot_close_strongly": true,
+    "curved_nondiagonal_density_bracket_mod_divergence": true,
+    "flat_full_symmetric_helmholtz_identity": true,
+    "helmholtz_einstein_relation": true,
+    "helmholtz_nonvacuous": true,
+    "helmholtz_tracefree_response_fails": true,
+    "kinetic_trace_degeneracy_not_selected": true,
+    "omitted_density_connection_detected": true,
+    "strong_lorentzian_coefficients": true
+  },
+  "helmholtz_obstruction": "(a/2+b)*(tr(u)*k.v.k-tr(v)*k.u.k)",
+  "passed": 10,
+  "python": "3.10.12",
+  "scope": "Independent finite exact checks support, but do not replace, analytic derivations.",
+  "sympy": "1.13.1",
+  "total": 10
+}

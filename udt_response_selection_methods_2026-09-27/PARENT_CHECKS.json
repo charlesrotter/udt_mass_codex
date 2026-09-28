@@ -1,0 +1,180 @@
+{
+  "status": "PASS",
+  "count": 56,
+  "checks": {
+    "scalar_symbol": {
+      "residual": "0"
+    },
+    "linear_bianchi_0": {
+      "residual": "0"
+    },
+    "linear_bianchi_1": {
+      "residual": "0"
+    },
+    "linear_bianchi_2": {
+      "residual": "0"
+    },
+    "linear_bianchi_3": {
+      "residual": "0"
+    },
+    "full_arbitrary_symbol_helmholtz_skew": {
+      "residual": "0"
+    },
+    "one_symbol_necessity_witness": {
+      "residual": "0"
+    },
+    "einstein_symbol_self_adjoint": {
+      "residual": "0"
+    },
+    "tracefree_ricci_not_unrestricted_variational": {
+      "nonzero_control": "-1"
+    },
+    "nonconstant_scalar_control": {
+      "residual": "0"
+    },
+    "on_shell_off_shell_divergence_discriminator": {
+      "nonzero_control": "-5"
+    },
+    "auxiliary_scalar_equation": {
+      "residual": "0"
+    },
+    "auxiliary_elimination_density": {
+      "residual": "0"
+    },
+    "trace_sector_variation_sign": {
+      "residual": "0"
+    },
+    "quadratic_linearized_trace": {
+      "residual": "0"
+    },
+    "scalar_lift_curvature": {
+      "residual": "0"
+    },
+    "scalar_lift_full_residual_factor_00": {
+      "residual": "0"
+    },
+    "scalar_lift_full_residual_factor_01": {
+      "residual": "0"
+    },
+    "scalar_lift_full_residual_factor_02": {
+      "residual": "0"
+    },
+    "scalar_lift_full_residual_factor_03": {
+      "residual": "0"
+    },
+    "scalar_lift_full_residual_factor_11": {
+      "residual": "0"
+    },
+    "scalar_lift_full_residual_factor_12": {
+      "residual": "0"
+    },
+    "scalar_lift_full_residual_factor_13": {
+      "residual": "0"
+    },
+    "scalar_lift_full_residual_factor_22": {
+      "residual": "0"
+    },
+    "scalar_lift_full_residual_factor_23": {
+      "residual": "0"
+    },
+    "scalar_lift_full_residual_factor_33": {
+      "residual": "0"
+    },
+    "scalar_shell_reproduces_rho": {
+      "residual": "0"
+    },
+    "scalar_shell_full_equation_00": {
+      "residual": "0"
+    },
+    "scalar_shell_full_equation_01": {
+      "residual": "0"
+    },
+    "scalar_shell_full_equation_02": {
+      "residual": "0"
+    },
+    "scalar_shell_full_equation_03": {
+      "residual": "0"
+    },
+    "scalar_shell_full_equation_11": {
+      "residual": "0"
+    },
+    "scalar_shell_full_equation_12": {
+      "residual": "0"
+    },
+    "scalar_shell_full_equation_13": {
+      "residual": "0"
+    },
+    "scalar_shell_full_equation_22": {
+      "residual": "0"
+    },
+    "scalar_shell_full_equation_23": {
+      "residual": "0"
+    },
+    "scalar_shell_full_equation_33": {
+      "residual": "0"
+    },
+    "nonzero_scalar_gauge_invariant_control": {
+      "nonzero_control": "1"
+    },
+    "TT_null_full_equation_00": {
+      "residual": "0"
+    },
+    "TT_null_full_equation_01": {
+      "residual": "0"
+    },
+    "TT_null_full_equation_02": {
+      "residual": "0"
+    },
+    "TT_null_full_equation_03": {
+      "residual": "0"
+    },
+    "TT_null_full_equation_11": {
+      "residual": "0"
+    },
+    "TT_null_full_equation_12": {
+      "residual": "0"
+    },
+    "TT_null_full_equation_13": {
+      "residual": "0"
+    },
+    "TT_null_full_equation_22": {
+      "residual": "0"
+    },
+    "TT_null_full_equation_23": {
+      "residual": "0"
+    },
+    "TT_null_full_equation_33": {
+      "residual": "0"
+    },
+    "legendre_velocity_inverse_00": {
+      "residual": "0"
+    },
+    "legendre_velocity_inverse_01": {
+      "residual": "0"
+    },
+    "legendre_velocity_inverse_02": {
+      "residual": "0"
+    },
+    "legendre_velocity_inverse_11": {
+      "residual": "0"
+    },
+    "legendre_velocity_inverse_12": {
+      "residual": "0"
+    },
+    "legendre_velocity_inverse_22": {
+      "residual": "0"
+    },
+    "legendre_kinetic_contraction": {
+      "residual": "0"
+    },
+    "legendre_transform": {
+      "residual": "0"
+    }
+  },
+  "python": "3.10.12",
+  "sympy": "1.13.1",
+  "elapsed_seconds": 0.4475692890009668,
+  "helmholtz_witness": "-2*(a + 2*b)",
+  "scalar_lift_factor": "-2 alpha P_ab (1+6 alpha q^2) rho",
+  "limits": "Conditional class/response mathematics and exact first variations only; no native admission, nonlinear existence, complete mode count, stability, or full hyperbolicity proof."
+}

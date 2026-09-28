@@ -1,0 +1,84 @@
+{
+  "artifact_sha256": {
+    "udt_response_selection_methods_2026-09-27/review/DIRECT_REVIEW.md": "d1cf8b339e74ef3dee9aba44506aae18c69ee2ac73d3b5cc65f2e072a92db618",
+    "udt_response_selection_methods_2026-09-27/review/SOURCE_FIRST.md": "b321d01715234795c22f1df64df6a03cc26f56bb86fa7f440264b3b810af36d9",
+    "udt_response_selection_methods_2026-09-27/review/SOURCE_FIRST_FREEZE.json": "bdc2fc9977e6017303fd609330a47737571b2eddd6bab4133701856bcfc6335f",
+    "udt_response_selection_methods_2026-09-27/review/direct_checks.py": "7b9c10ef28d8a6d545853ec0d60bcf9478614321696be329ba7995b37456030c",
+    "udt_response_selection_methods_2026-09-27/review/direct_checks.stderr.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "udt_response_selection_methods_2026-09-27/review/direct_checks.stdout.json": "fb79466403584e0aea84f6f5835c63618e163b7ff467f6ad8c9c53eb4dfee79c",
+    "udt_response_selection_methods_2026-09-27/review/initial_failed_direct_checks.py": "3eaedc815cc223c1763fea5cfa39258a565ee3d71916becbaef332d574ece225",
+    "udt_response_selection_methods_2026-09-27/review/initial_failed_direct_checks.stderr.txt": "5ff3e87b5e53e9ebe4a84f121bf00de8cf9ab7062a03b42ec57cdcd7e13a3a99",
+    "udt_response_selection_methods_2026-09-27/review/initial_failed_direct_checks.stdout.json": "2fd2abf999d795d8d8289f0d9488a36b676b70cd086d7dc94b7167a462f93e3f",
+    "udt_response_selection_methods_2026-09-27/review/source_first_checks.py": "2738a67d49839a1a3d32476fa10cacfa7c96a9dddd46d5d19c5cbd73fbf4bea0",
+    "udt_response_selection_methods_2026-09-27/review/source_first_checks.stderr.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "udt_response_selection_methods_2026-09-27/review/source_first_checks.stdout.json": "956fd313cb8524bfcfd33b6979d4609afb0c507c82e4fd2ba485ab453e40f3c9"
+  },
+  "candidate_sha256_at_exposure": "51fc139e2d6de2b8ee25c20338fef2d8cefbf23cfdf1f00aec14402b57103dbc",
+  "independence": {
+    "argument": "source-first independent reconstruction before candidate exposure",
+    "context": "fresh separate",
+    "human_or_different_model": "UNTESTED",
+    "implementation": "independent code; no construction imports",
+    "model": "same inherited Codex/GPT-6; no more precise exposed ID"
+  },
+  "input_sha256": {
+    "udt_response_selection_methods_2026-09-27/CANDIDATE.md": "4cbb78cc473e27d1e9a012537f3b353c8a78344542c3bd04057cee59ad6b1a13",
+    "udt_response_selection_methods_2026-09-27/CANDIDATE_REVIEW_INPUT.md": "51fc139e2d6de2b8ee25c20338fef2d8cefbf23cfdf1f00aec14402b57103dbc",
+    "udt_response_selection_methods_2026-09-27/DECISION_BRIEF.md": "2fe1ab78ae90feb5648adccdc320b589e8e00a001ff8b81dfa7bbdb5343d3d2d",
+    "udt_response_selection_methods_2026-09-27/PARENT_CHECKS.json": "06403260c6f0bda3dfa54110c52d728ac68c9707bc45c12e3d8601d833e28689",
+    "udt_response_selection_methods_2026-09-27/PREMISE_VERIFIER_EXECUTION.json": "5b4ca0b5b74323f3c7a9af2480f4c01f279452895e1970a7d2bb4f3b31c1abe1",
+    "udt_response_selection_methods_2026-09-27/SOURCE_PINS.tsv": "8a8eac4b408e151a72d395ad3e2725f0ee080e152b0fb5c1c79c0bfcbc064974",
+    "udt_response_selection_methods_2026-09-27/canonical/CHECK_RESULT.json": "613b4919a59e901851b6aa1d73aed29488d2d5f843def93c3414a340d782c3e6",
+    "udt_response_selection_methods_2026-09-27/canonical/CONSTRUCTION.md": "e72b5deb23536882ace3fb7509959cce0ad6aaa6a7a4bf5c996970b5139c6bd4",
+    "udt_response_selection_methods_2026-09-27/canonical/INITIAL_MANIFEST.json": "d2bcd623e0eb2e71ad62bf03282e18039f2159063c1a3dd2c9369792b73f855f",
+    "udt_response_selection_methods_2026-09-27/canonical/check_canonical.py": "7bc0e3d5ad12482f9d2419bc13c50c10388a4253911b0e98e3cdf8f483c1b049",
+    "udt_response_selection_methods_2026-09-27/check_parent.py": "f560dffe8bc18369622d10cdf883243ffb89c64643680115cc73fbccbb1f2a2e",
+    "udt_response_selection_methods_2026-09-27/premise_verifier.stderr.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "udt_response_selection_methods_2026-09-27/premise_verifier.stdout.txt": "394e02c4ced55fc8f6480a3cc65b9ebd38f9c0cb553f897b10313b8ad2104b53",
+    "udt_two_path_equation_study_2026-09-27/CLOSEOUT.md": "422b705f5a6dd837061dec4a9afa3ad8a421f1a98d484051559b3327cd0b10ea",
+    "udt_two_path_equation_study_2026-09-27/EXTENSION_CANDIDATE.md": "c49e60aab6d14a459a7b948d64503345c580f2b9bdf4d991556381e79738d710"
+  },
+  "packaging_history": [
+    {
+      "resolution": "independently checked preserved CANDIDATE_REVIEW_INPUT.md51fc139e and pinned original plus final separately",
+      "result": "assertion failed before file write because parent concurrently changed CANDIDATE.md to announced same-premise repair; expected original51fc139e but current4cbb78cc",
+      "stage": "first attempted direct input-pin record"
+    }
+  ],
+  "recorded_utc": "2026-09-28T00:04:14.411530+00:00",
+  "runs": [
+    {
+      "command": "timeout 120s python3 udt_response_selection_methods_2026-09-27/review/source_first_checks.py > udt_response_selection_methods_2026-09-27/review/source_first_checks.stdout.json 2> udt_response_selection_methods_2026-09-27/review/source_first_checks.stderr.txt",
+      "exit_code": 0,
+      "passed": 10,
+      "stage": "source-first",
+      "total": 10
+    },
+    {
+      "command": "timeout 120s python3 udt_response_selection_methods_2026-09-27/review/direct_checks.py > udt_response_selection_methods_2026-09-27/review/direct_checks.stdout.json 2> udt_response_selection_methods_2026-09-27/review/direct_checks.stderr.txt",
+      "exit_code": 1,
+      "passed": 28,
+      "stage": "initial direct; false structural-equality failure, preserved as initial_failed_*",
+      "total": 29,
+      "wall_seconds": 0.450401172
+    },
+    {
+      "command": "timeout 120s python3 udt_response_selection_methods_2026-09-27/review/direct_checks.py > udt_response_selection_methods_2026-09-27/review/direct_checks.stdout.json 2> udt_response_selection_methods_2026-09-27/review/direct_checks.stderr.txt",
+      "exit_code": 0,
+      "passed": 29,
+      "stage": "simplification repair and removal of unnecessary nonzero assumptions",
+      "stream_preservation": "intermediate success overwritten by final success; failed initial preserved",
+      "total": 29,
+      "wall_seconds": 0.42548212
+    },
+    {
+      "command": "timeout 120s python3 udt_response_selection_methods_2026-09-27/review/direct_checks.py > udt_response_selection_methods_2026-09-27/review/direct_checks.stdout.json 2> udt_response_selection_methods_2026-09-27/review/direct_checks.stderr.txt",
+      "exit_code": 0,
+      "passed": 29,
+      "stage": "final after replacing tautological normalization check with independent metric-jet substitution",
+      "total": 29,
+      "wall_seconds": 0.42542537
+    }
+  ],
+  "verdict": "VERIFIED-WITH-CAVEATS: conditional mathematics only"
+}
