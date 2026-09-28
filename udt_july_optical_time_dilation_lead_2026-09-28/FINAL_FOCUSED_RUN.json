@@ -1,0 +1,19 @@
+{
+  "command": [
+    "python3",
+    "-c",
+    "from pathlib import Path; import verify_current_scientific_premises as v; v.validate_startup_surface(Path.cwd()); print(\"PASS: validate_startup_surface\")"
+  ],
+  "exit_code": 0,
+  "elapsed_seconds": 0.1506737689996953,
+  "timeout_seconds": 60,
+  "surface_sha256": {
+    "LIVE.md": "fb44d29eaeb44514373b76dbf70dd1e062b0e40d8a8d209155ae58a4ba1530e3",
+    "HANDOFF.md": "82c94aab042719675b165565cb096272f8334be574269afdabd3c5feddb728d0",
+    "CURRENT_RESEARCH_PROGRAM.md": "283f233300ea32a8e8154783118a0f03e7f29af7ebca41f1db1a8a6aae7c5b64",
+    "INDEX.md": "340c831ac8d663e0b48b10b32a12196e4e145224c102fa3332d98902140b4c86",
+    "MEMORY.md": "be374d1d8511e93fd8fdcca1a6c39152cbe21397be0406e1085644cf0c48332d",
+    "UDT_RESEARCH_ROADMAP.md": "43d7eda2fb9f0923e1d8a4e2efe8da9236933340f80e51c6a6ee0c138447ef19"
+  },
+  "scope": "Focused validator only; earlier quiet-success record retained in STARTUP_SURFACE_CHECK.json."
+}

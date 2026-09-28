@@ -1,0 +1,6 @@
+Traceback (most recent call last):
+  File "/home/udt-admin/udt_mass_codex/udt_july_optical_time_dilation_lead_2026-09-28/check_lead.py", line 40, in <module>
+    zero('two_direction_clock_product',s.sqrt(f0/F)*s.sqrt(F/f0)-1)
+  File "/home/udt-admin/udt_mass_codex/udt_july_optical_time_dilation_lead_2026-09-28/check_lead.py", line 19, in zero
+    raise AssertionError((name, s.simplify(expression)))
+AssertionError: ('two_direction_clock_product', sqrt(-1/(b*x - f0))*sqrt(-b*x + f0) - 1)

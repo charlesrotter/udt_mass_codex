@@ -42,6 +42,10 @@ G388--G389 conditional, compact-sector mixed-C2/analytic-local tangent limits; o
 
 ## Founding, relational and response sources
 
+- July optical-time/dilation lead, reviewed conditional UNPROMOTED:
+  `udt_july_optical_time_dilation_lead_2026-09-28/DECISION_BRIEF.md`.
+  Its CLOSEOUT owns checks, repair/re-review and the native-selection stop;
+  OWNER_DIRECTION preserves no-preferred-observer and Hubble/Doppler clarification.
 - Current owner interpretation comes first in `CURRENT_RESEARCH_PROGRAM.md`;
   exact words: `udt_positional_geometry_clock_connection_2026-09-28/OWNER_STATEMENT.md`.
   Reviewed conditional connection and native-selection stop: that package's

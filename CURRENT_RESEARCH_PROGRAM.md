@@ -21,6 +21,12 @@ does not supply an additive equation or three independent correction factors.
 redshift: 1+z = received/emitted inter-tick proper interval in the differential
 limit. No second response profile or redshift mechanism is required.
 
+No observer or physical cosmic center is fundamentally privileged. Positional
+dilation is intended to explain cosmological redshift without requiring Hubble
+expansion; relative-motion Doppler and gravitational effects remain. This is
+owner intent, not an established cosmological result. Exact clarification:
+`udt_july_optical_time_dilation_lead_2026-09-28/OWNER_DIRECTION.md`.
+
 Charles expects a positional redshifting contribution in separated observations,
 possibly too small to measure at solar distances. This is a working expectation,
 not an established onset, cutoff, selected scale, or guaranteed net redshift
@@ -143,6 +149,17 @@ Instrument gaps do not block theory. Manuscript fixed through G352.
 Backup/unsaved state UNVERIFIED; ScratchDisk archive-only.
 
 ## Current next gate
+
+The July optical-time lead is reviewed conditional UNPROMOTED and complete:
+`udt_july_optical_time_dilation_lead_2026-09-28/DECISION_BRIEF.md`.
+Constant optical advance per depth restricts the supplied stationary profile;
+it is not forced by reciprocal form alone. Its stationary reversal is not a
+generic future-return law or a UDT requirement. Time-dependent controls permit
+mutual redshift but leave physical history unspecified. No positional
+component was isolated, no Hubble expansion or physical time dependence adopted.
+The next dependency is sufficient physical geometric and observer/path data
+to determine the received-clock map; a unique complete universe is not required
+before every bounded advance. The packet's CLOSEOUT owns checks and review.
 
 The bounded positional-geometry/received-clock investigation is reviewed conditional
 UNPROMOTED and complete: `udt_positional_geometry_clock_connection_2026-09-28/DECISION_BRIEF.md`.

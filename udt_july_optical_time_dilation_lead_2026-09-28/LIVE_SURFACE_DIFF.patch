@@ -1,0 +1,142 @@
+diff --git a/CURRENT_RESEARCH_PROGRAM.md b/CURRENT_RESEARCH_PROGRAM.md
+index fd9bfb1a..5a08a5f9 100644
+--- a/CURRENT_RESEARCH_PROGRAM.md
++++ b/CURRENT_RESEARCH_PROGRAM.md
+@@ -21,6 +21,12 @@ does not supply an additive equation or three independent correction factors.
+ redshift: 1+z = received/emitted inter-tick proper interval in the differential
+ limit. No second response profile or redshift mechanism is required.
+ 
++No observer or physical cosmic center is fundamentally privileged. Positional
++dilation is intended to explain cosmological redshift without requiring Hubble
++expansion; relative-motion Doppler and gravitational effects remain. This is
++owner intent, not an established cosmological result. Exact clarification:
++`udt_july_optical_time_dilation_lead_2026-09-28/OWNER_DIRECTION.md`.
++
+ Charles expects a positional redshifting contribution in separated observations,
+ possibly too small to measure at solar distances. This is a working expectation,
+ not an established onset, cutoff, selected scale, or guaranteed net redshift
+@@ -144,6 +150,17 @@ Backup/unsaved state UNVERIFIED; ScratchDisk archive-only.
+ 
+ ## Current next gate
+ 
++The July optical-time lead is reviewed conditional UNPROMOTED and complete:
++`udt_july_optical_time_dilation_lead_2026-09-28/DECISION_BRIEF.md`.
++Constant optical advance per depth restricts the supplied stationary profile;
++it is not forced by reciprocal form alone. Its stationary reversal is not a
++generic future-return law or a UDT requirement. Time-dependent controls permit
++mutual redshift but leave physical history unspecified. No positional
++component was isolated, no Hubble expansion or physical time dependence adopted.
++The next dependency is sufficient physical geometric and observer/path data
++to determine the received-clock map; a unique complete universe is not required
++before every bounded advance. The packet's CLOSEOUT owns checks and review.
++
+ The bounded positional-geometry/received-clock investigation is reviewed conditional
+ UNPROMOTED and complete: `udt_positional_geometry_clock_connection_2026-09-28/DECISION_BRIEF.md`.
+ Its exact readout combines clock normalization, motion and changing geometry;
+diff --git a/HANDOFF.md b/HANDOFF.md
+index e62db8fa..8bd7d9e9 100644
+--- a/HANDOFF.md
++++ b/HANDOFF.md
+@@ -87,7 +87,15 @@ Follow AGENTS; report actual instructions/checks and distinguish configured from
+ Dated availability check COMPLETE: `archive/stale_working_documents_2026-09-27/maintenance_agent_capacity_2026-09-10.md`.
+ General capacity UNVERIFIED; no automatic repeat. FSR1/PJC1 supplied no new field equation; Maxwell PAUSED.
+ 
+-Next: discuss the completed reviewed conditional UNPROMOTED positional-geometry
++Next: discuss the completed reviewed conditional UNPROMOTED July optical-time lead:
++`udt_july_optical_time_dilation_lead_2026-09-28/DECISION_BRIEF.md`.
++Its static reversal is not a generic future-return rule or a UDT requirement;
++time-dependent controls permit mutual redshift but select no physical history.
++No preferred observer; no required Hubble expansion is the aim, with relative
++motion and gravity retained. OWNER_DIRECTION.md preserves Charles's clarification.
++Sufficient geometric and observer/path data for the clock map remain OPEN.
++
++Prior completed reviewed conditional UNPROMOTED positional-geometry
+ connection: `udt_positional_geometry_clock_connection_2026-09-28/DECISION_BRIEF.md`.
+ Automatic redshift is settled; native physical event/path/separation-to-clock-rate
+ assignment remains OPEN. No affine control was promoted to a positional law.
+diff --git a/INDEX.md b/INDEX.md
+index abad1a0e..269d1e30 100644
+--- a/INDEX.md
++++ b/INDEX.md
+@@ -42,6 +42,10 @@ G388--G389 conditional, compact-sector mixed-C2/analytic-local tangent limits; o
+ 
+ ## Founding, relational and response sources
+ 
++- July optical-time/dilation lead, reviewed conditional UNPROMOTED:
++  `udt_july_optical_time_dilation_lead_2026-09-28/DECISION_BRIEF.md`.
++  Its CLOSEOUT owns checks, repair/re-review and the native-selection stop;
++  OWNER_DIRECTION preserves no-preferred-observer and Hubble/Doppler clarification.
+ - Current owner interpretation comes first in `CURRENT_RESEARCH_PROGRAM.md`;
+   exact words: `udt_positional_geometry_clock_connection_2026-09-28/OWNER_STATEMENT.md`.
+   Reviewed conditional connection and native-selection stop: that package's
+diff --git a/LIVE.md b/LIVE.md
+index e2f93fc3..1977f74f 100644
+--- a/LIVE.md
++++ b/LIVE.md
+@@ -116,6 +116,14 @@ Protected—do not stage, modify, mine or cite without dispatch:
+ 
+ ### Next gate
+ 
++July optical-time lead reviewed conditional UNPROMOTED; bounded cycle complete:
++`udt_july_optical_time_dilation_lead_2026-09-28/DECISION_BRIEF.md`.
++Stationary reversal belongs to the old supplied model, not a general UDT law.
++Time-dependent sign controls select no physical history. Sufficient geometric
++and observer/path data for the received-clock map remain OPEN. Owner intent
++retains no preferred observer and no required Hubble expansion, with Doppler
++and gravity still included; exact clarification is in that packet.
++
+ Positional geometry / received-clock connection reviewed conditional UNPROMOTED:
+ `udt_positional_geometry_clock_connection_2026-09-28/DECISION_BRIEF.md`.
+ Automatic redshift is settled once the received-clock ratio is known; native
+diff --git a/MEMORY.md b/MEMORY.md
+index 539eca06..084a22b4 100644
+--- a/MEMORY.md
++++ b/MEMORY.md
+@@ -7,6 +7,10 @@ The program's opening preserves Charles's founding positional-geometry/1/c_E
+ interpretation and one-geometry SR/GR extension intent. Received slowing is
+ automatic redshift; physical separation to clock-rate ratio remains the open join.
+ Solar-distance detectability is a working expectation, not a selected threshold.
++No preferred observer; the aim of redshift without requiring Hubble expansion
++retains relative-motion Doppler and gravity. July lead reviewed/UNPROMOTED:
++`udt_july_optical_time_dilation_lead_2026-09-28/DECISION_BRIEF.md`.
++Its stationary reversal is not a generic UDT law; physical clock-map data remain open.
+ 
+ Foundation alignment/archival return: INDEX. Kernel evaluates supplied depth; complete `B,Q,S,Y,Z` enters before readout.
+ Universal Reciprocity/DDR and explained Local Metric Sufficiency remain owner-adopted provisional premises.
+diff --git a/UDT_RESEARCH_ROADMAP.md b/UDT_RESEARCH_ROADMAP.md
+index e6878cdf..ee583753 100644
+--- a/UDT_RESEARCH_ROADMAP.md
++++ b/UDT_RESEARCH_ROADMAP.md
+@@ -14,6 +14,32 @@ Current acceptance overlay: earlier UNPROMOTED/campaign-only language below reco
+ returns. The G383--G412, G413--G415 and G416--G423 banking packets and maintained checkpoint own later dispositions;
+ original result packages remain unchanged. No physical adoption or canon is included.
+ 
++## July optical-time lead — reviewed conditional return, 2026-09-28
++
++Charles authorized exploring July's optical-time/dilation connection and
++clarified no preferred observer, cosmological redshift without requiring Hubble
++expansion while retaining Doppler effects, and concern about a predicted reversal.
++Exact words and scope: `udt_july_optical_time_dilation_lead_2026-09-28/OWNER_DIRECTION.md`
++and WORK_ORDER.md. Return: that packet's DECISION_BRIEF.md and CLOSEOUT.md.
++
++Within the supplied stationary reciprocal class, constant optical advance per
++depth is exactly an affine-lapse restriction; reciprocal form alone does not
++force it. The fixed-endpoint reversal is a property of that static query, not
++a universal UDT rule or disproof of an independently justified positional
++component. Removing stationarity while retaining the algebraic spatial rule
++leaves a free time function; smooth local sign controls allow mutual redshift
++but do not select a physical history. The existing covariant clock identity
++remains the general evaluator. Neither an endpoint scalar nor optical distance
++may silently replace the full received-clock comparison.
++
++Fresh source-first/direct review and one bounded repair/re-review completed.
++The repair restricts a variable-coefficient rewriting to nonzero profile
++derivative and avoids making full metric construction a necessary next gate.
++This is reviewed conditional mathematics, UNPROMOTED; no new native law,
++required expansion, center, boundary, scale, source or registry/canon change.
++The next dependency is sufficient physical geometry and observer/path data to
++determine the clock map. Return for discussion; no automatic successor.
++
+ ## One geometry and automatic redshift — clarified construction, 2026-09-28
+ 
+ Charles authorized preserving the interpretation front and center and proceeding

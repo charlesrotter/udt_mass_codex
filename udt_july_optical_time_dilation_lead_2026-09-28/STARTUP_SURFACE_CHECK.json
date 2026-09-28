@@ -1,0 +1,6 @@
+{
+  "command": "python3: import verify_current_scientific_premises as v; v.validate_startup_surface(Path.cwd())",
+  "result": "PASS",
+  "elapsed_seconds": 0.12227778700253111,
+  "scope": "Focused existing validator after pointer/owner-intent edits; not a second full premise replay."
+}

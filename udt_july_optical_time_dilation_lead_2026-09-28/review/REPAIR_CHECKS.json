@@ -1,0 +1,62 @@
+{
+  "utc": "2026-09-28T03:47:59.817237+00:00",
+  "python": "3.10.12",
+  "sympy": "1.13.1",
+  "independent_sign_checks": [
+    {
+      "direction": -1,
+      "v": "0",
+      "origin_rate": "b/2",
+      "passed": true
+    },
+    {
+      "direction": -1,
+      "v": "2*b",
+      "origin_rate": "3*b/2",
+      "passed": true
+    },
+    {
+      "direction": -1,
+      "v": "-2*b",
+      "origin_rate": "-b/2",
+      "passed": true
+    },
+    {
+      "direction": 1,
+      "v": "0",
+      "origin_rate": "-b/2",
+      "passed": true
+    },
+    {
+      "direction": 1,
+      "v": "2*b",
+      "origin_rate": "b/2",
+      "passed": true
+    },
+    {
+      "direction": 1,
+      "v": "-2*b",
+      "origin_rate": "-3*b/2",
+      "passed": true
+    }
+  ],
+  "local_neighborhood_margin_in_units_b": "13/38",
+  "review_target_pins": {
+    "INITIAL_CANDIDATE.md": "a8ac6f12056d82c4d9a1e4c6e763d661353bfeb95d537c7131ac1e77210f132e",
+    "REPAIR.md": "d07f60298cd86625156101df1e5b559c46450ebc61d9008300f37026f515bedf",
+    "TIME_DEPENDENT_FOLLOWUP.md": "11cc3ec224ef52e283e5274de63ce4e03b859c8d35fb021ce818aae5e0aebbf0",
+    "DECISION_BRIEF.md": "8118f1bfb13c48e599239778eb13859fd63e4b847577c9557fd043b4c198c6e9",
+    "OWNER_DIRECTION.md": "7736baaefc8dfa4c6e7dfef04435802eee4c1473b22edd627c5e1fd279cd3ac8",
+    "check_time_dependent_followup.py": "6d68316116d3b8f98ee470df4e995c85e974045f0ab90eb65de2581f04fbeb3e",
+    "TIME_DEPENDENT_CHECK_RESULT.json": "25946e6c4c40483b20ca490e7343f8bbe1c3a7ded50058f6d751ae1b5bb24a31"
+  },
+  "author_replay": {
+    "label": "same-code regression",
+    "exit_code": 0,
+    "output_equals_saved": true,
+    "exact_checks": 12,
+    "wrong_endpoint_depth_rejected": true,
+    "mutant_difference": "b"
+  },
+  "scope": "Conditional unadopted controls only; no physical time dependence selected."
+}

@@ -1,0 +1,33 @@
+{
+  "scope": "single-context exact geometric controls, no selected dynamics",
+  "python": "3.10.12",
+  "sympy": "1.13.1",
+  "script_sha256": "6d68316116d3b8f98ee470df4e995c85e974045f0ab90eb65de2581f04fbeb3e",
+  "checks": {
+    "direct_null_clock_contraction_-1": true,
+    "spatial_Popt_time_live_-1": true,
+    "local_rate_-1_0": true,
+    "local_rate_-1_2*b": true,
+    "local_rate_-1_-2*b": true,
+    "direct_null_clock_contraction_1": true,
+    "spatial_Popt_time_live_1": true,
+    "local_rate_1_0": true,
+    "local_rate_1_2*b": true,
+    "local_rate_1_-2*b": true,
+    "spatial_Popt_residual": true,
+    "stationary_point_domain_counterexample": true
+  },
+  "local_sign_controls": {
+    "positive_both_directions": [
+      "3*b/2",
+      "b/2"
+    ],
+    "negative_both_directions": [
+      "-b/2",
+      "-3*b/2"
+    ]
+  },
+  "wrong_endpoint_depth_rejected": true,
+  "mutant_difference": "b",
+  "passed": true
+}

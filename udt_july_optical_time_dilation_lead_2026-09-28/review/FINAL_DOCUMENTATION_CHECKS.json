@@ -1,0 +1,69 @@
+{
+  "utc": "2026-09-28T03:55:33.500387+00:00",
+  "branch": "grok",
+  "head": "008cce0d42bf0d2e27b26af5a4fbf5a6aaa7aae5",
+  "verified_documentation_hashes": {
+    "files": {
+      "CURRENT_RESEARCH_PROGRAM.md": "283f233300ea32a8e8154783118a0f03e7f29af7ebca41f1db1a8a6aae7c5b64",
+      "LIVE.md": "fb44d29eaeb44514373b76dbf70dd1e062b0e40d8a8d209155ae58a4ba1530e3",
+      "HANDOFF.md": "82c94aab042719675b165565cb096272f8334be574269afdabd3c5feddb728d0",
+      "INDEX.md": "340c831ac8d663e0b48b10b32a12196e4e145224c102fa3332d98902140b4c86",
+      "MEMORY.md": "be374d1d8511e93fd8fdcca1a6c39152cbe21397be0406e1085644cf0c48332d",
+      "UDT_RESEARCH_ROADMAP.md": "43d7eda2fb9f0923e1d8a4e2efe8da9236933340f80e51c6a6ee0c138447ef19"
+    },
+    "package_docs": {
+      "CANDIDATE.md": "744881a17885464725f0f58311325a2b0d3560d77fbe3425ebf4a1ee7692f81c",
+      "DECISION_BRIEF.md": "483745bebec78e9695b8cccd4addd0df6a2260577cf09b416880745e146b8007",
+      "CLOSEOUT.md": "7742871aa4ff32554dafcf83a0e79996d9054224286db57a1778f1c44fe11c13",
+      "REPAIR.md": "d07f60298cd86625156101df1e5b559c46450ebc61d9008300f37026f515bedf",
+      "TIME_DEPENDENT_FOLLOWUP.md": "11cc3ec224ef52e283e5274de63ce4e03b859c8d35fb021ce818aae5e0aebbf0",
+      "OWNER_DIRECTION.md": "7736baaefc8dfa4c6e7dfef04435802eee4c1473b22edd627c5e1fd279cd3ac8"
+    }
+  },
+  "candidate_status_only_change": true,
+  "brief_status_only_change": true,
+  "repaired_science_unchanged": true,
+  "pinned_scientific_method_sources_unchanged": 21,
+  "tracked_changes_exactly_six_surfaces": [
+    "CURRENT_RESEARCH_PROGRAM.md",
+    "HANDOFF.md",
+    "INDEX.md",
+    "LIVE.md",
+    "MEMORY.md",
+    "UDT_RESEARCH_ROADMAP.md"
+  ],
+  "actual_diff_matches_saved_patch": true,
+  "git_diff_check_exit": 0,
+  "prior_untracked_names_retained": 52,
+  "protected_content_claim": "No protected contents read/hashed; name preservation only.",
+  "parent_audit": {
+    "record_read": true,
+    "full_audit_replayed_by_reviewer": false,
+    "exit_code": 0,
+    "elapsed_seconds": 411.01145662899944,
+    "recorded_inputs_unchanged": true,
+    "stdout_406_pass": true,
+    "stderr_empty": true
+  },
+  "focused_surface_evidence": "PASS: validate_startup_surface",
+  "focused_run_record": {
+    "command": [
+      "python3",
+      "-c",
+      "from pathlib import Path; import verify_current_scientific_premises as v; v.validate_startup_surface(Path.cwd()); print(\"PASS: validate_startup_surface\")"
+    ],
+    "exit_code": 0,
+    "elapsed_seconds": 0.1506737689996953,
+    "timeout_seconds": 60,
+    "surface_sha256": {
+      "LIVE.md": "fb44d29eaeb44514373b76dbf70dd1e062b0e40d8a8d209155ae58a4ba1530e3",
+      "HANDOFF.md": "82c94aab042719675b165565cb096272f8334be574269afdabd3c5feddb728d0",
+      "CURRENT_RESEARCH_PROGRAM.md": "283f233300ea32a8e8154783118a0f03e7f29af7ebca41f1db1a8a6aae7c5b64",
+      "INDEX.md": "340c831ac8d663e0b48b10b32a12196e4e145224c102fa3332d98902140b4c86",
+      "MEMORY.md": "be374d1d8511e93fd8fdcca1a6c39152cbe21397be0406e1085644cf0c48332d",
+      "UDT_RESEARCH_ROADMAP.md": "43d7eda2fb9f0923e1d8a4e2efe8da9236933340f80e51c6a6ee0c138447ef19"
+    },
+    "scope": "Focused validator only; earlier quiet-success record retained in STARTUP_SURFACE_CHECK.json."
+  },
+  "scope": "Documentation fidelity only; final manifest/check file assembly and commit/push belong to parent."
+}

@@ -1,0 +1,181 @@
+{
+  "utc": "2026-09-28T03:38:30.189186+00:00",
+  "python": "3.10.12",
+  "sympy": "1.13.1",
+  "checks_passed": 26,
+  "checks": [
+    {
+      "name": "P_opt_residual_factorization",
+      "residual": "0",
+      "passed": true
+    },
+    {
+      "name": "affine_profile_P_opt",
+      "residual": "0",
+      "passed": true
+    },
+    {
+      "name": "positive_counterprofile_effective_kappa",
+      "residual": "0",
+      "passed": true
+    },
+    {
+      "name": "counterprofile_nonconstant_derivative",
+      "residual": "0",
+      "passed": true
+    },
+    {
+      "name": "constant_profile_P_opt_nonzero_residual",
+      "residual": "0",
+      "passed": true
+    },
+    {
+      "name": "longitudinal_scalar_curvature",
+      "residual": "0",
+      "passed": true
+    },
+    {
+      "name": "affine_profile_zero_curvature",
+      "residual": "0",
+      "passed": true
+    },
+    {
+      "name": "Rindler_pullback_0_0",
+      "residual": "0",
+      "passed": true
+    },
+    {
+      "name": "Rindler_pullback_0_1",
+      "residual": "0",
+      "passed": true
+    },
+    {
+      "name": "Rindler_pullback_1_0",
+      "residual": "0",
+      "passed": true
+    },
+    {
+      "name": "Rindler_pullback_1_1",
+      "residual": "0",
+      "passed": true
+    },
+    {
+      "name": "rho_from_affine_profile",
+      "residual": "0",
+      "passed": true
+    },
+    {
+      "name": "static_opposite_future_exchange_inverse",
+      "residual": "0",
+      "passed": true
+    },
+    {
+      "name": "static_readout_lapse_ratio",
+      "residual": "0",
+      "passed": true
+    },
+    {
+      "name": "receive_from_lower_lapse_redshift_control",
+      "residual": "0",
+      "passed": true
+    },
+    {
+      "name": "send_to_lower_lapse_blueshift_control",
+      "residual": "0",
+      "passed": true
+    },
+    {
+      "name": "reference_normalization_optical_length",
+      "residual": "0",
+      "passed": true
+    },
+    {
+      "name": "reference_normalization_affine_slope",
+      "residual": "0",
+      "passed": true
+    },
+    {
+      "name": "reference_normalization_preserves_clock_ratio",
+      "residual": "0",
+      "passed": true
+    },
+    {
+      "name": "unit_observer",
+      "residual": "0",
+      "passed": true
+    },
+    {
+      "name": "static_acceleration_t",
+      "residual": "0",
+      "passed": true
+    },
+    {
+      "name": "static_acceleration_x",
+      "residual": "0",
+      "passed": true
+    },
+    {
+      "name": "plus_direction_clock_rate",
+      "residual": "0",
+      "passed": true
+    },
+    {
+      "name": "plus_direction_rate_integrand",
+      "residual": "0",
+      "passed": true
+    },
+    {
+      "name": "P_opt_rate_per_optical_length",
+      "residual": "0",
+      "passed": true
+    },
+    {
+      "name": "all_direction_constant_rate_conditions",
+      "solution": {
+        "H": "rate",
+        "a1": "0",
+        "a2": "0",
+        "a3": "0",
+        "s11": "0",
+        "s12": "0",
+        "s13": "0",
+        "s22": "0",
+        "s23": "0"
+      },
+      "passed": true
+    }
+  ],
+  "source_pins": [
+    {
+      "path": "simple_metric_L_native_optical_derive_results.md",
+      "sha256": "3da5b6a53d77c5433348daa55f9d06cff33f8d6809adf84e55c76a5dba2474e1",
+      "pin_match": true
+    },
+    {
+      "path": "simple_metric_L_wall_regularity_closure_results.md",
+      "sha256": "0c68719277edb652fcb825d225f02cb8bb25f16a36efe6b40f3b1d9a5147b6b8",
+      "pin_match": true
+    },
+    {
+      "path": "udt_positional_geometry_clock_connection_2026-09-28/CANDIDATE.md",
+      "sha256": "7c9d0e240d09c2faf58c543b7a6b2bc02b1b1771899c16040a9e167f0bae55f6",
+      "pin_match": true
+    },
+    {
+      "path": "udt_positional_geometry_clock_connection_2026-09-28/SCOPED_REGISTRY.json",
+      "sha256": "902e0c6b35e57610f6719e9a88dfaf8410ad16364fdba1de37090e9c9cedbca0",
+      "pin_match": true
+    },
+    {
+      "path": "udt_null_clock_depth_integrability_assessment_2026-09-10/INITIAL_CANDIDATE.md",
+      "sha256": "a2769dd02500970475225939f0606ba212bdde6b6a54a3bebdd5023ced1385e1",
+      "pin_match": true
+    },
+    {
+      "path": "udt_null_clock_depth_integrability_assessment_2026-09-10/REPAIR.md",
+      "sha256": "38f0bf9512a426e23e76acba8bca71dcef36b0d1e126ce5f45eabbe269b98dc4",
+      "pin_match": true
+    }
+  ],
+  "interpretation": "Exact conditional algebra; diagnostic profiles are not physically selected; no new-candidate exposure or author-code reuse."
+}

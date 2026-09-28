@@ -1,0 +1,25 @@
+{
+  "scope": "preservation, exact edit scope and focused startup checks; no new scientific evidence",
+  "checks": {
+    "all_pinned_sources_unchanged": true,
+    "tracked_edit_whitelist": true,
+    "live_surface_freeze": true,
+    "package_documentation_freeze": true,
+    "prior_untracked_names_preserved": true,
+    "initial_candidate_preserved": true,
+    "author_science_freeze": true,
+    "repaired_science_freeze": true,
+    "candidate_status_only_update": true,
+    "brief_status_only_update": true,
+    "full_premise_audit_pass": true,
+    "author_checks_pass": true,
+    "review_records_present": true,
+    "focused_startup_surface_pass": true,
+    "git_diff_check": true
+  },
+  "pinned_source_count": 21,
+  "prior_untracked_name_count": 52,
+  "full_audit_seconds": 411.01145662899944,
+  "focused_check_seconds": 0.1320634039984725,
+  "passed": true
+}

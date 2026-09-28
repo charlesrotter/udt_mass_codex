@@ -87,7 +87,15 @@ Follow AGENTS; report actual instructions/checks and distinguish configured from
 Dated availability check COMPLETE: `archive/stale_working_documents_2026-09-27/maintenance_agent_capacity_2026-09-10.md`.
 General capacity UNVERIFIED; no automatic repeat. FSR1/PJC1 supplied no new field equation; Maxwell PAUSED.
 
-Next: discuss the completed reviewed conditional UNPROMOTED positional-geometry
+Next: discuss the completed reviewed conditional UNPROMOTED July optical-time lead:
+`udt_july_optical_time_dilation_lead_2026-09-28/DECISION_BRIEF.md`.
+Its static reversal is not a generic future-return rule or a UDT requirement;
+time-dependent controls permit mutual redshift but select no physical history.
+No preferred observer; no required Hubble expansion is the aim, with relative
+motion and gravity retained. OWNER_DIRECTION.md preserves Charles's clarification.
+Sufficient geometric and observer/path data for the clock map remain OPEN.
+
+Prior completed reviewed conditional UNPROMOTED positional-geometry
 connection: `udt_positional_geometry_clock_connection_2026-09-28/DECISION_BRIEF.md`.
 Automatic redshift is settled; native physical event/path/separation-to-clock-rate
 assignment remains OPEN. No affine control was promoted to a positional law.

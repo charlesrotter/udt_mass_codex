@@ -1,0 +1,102 @@
+{
+  "utc": "2026-09-28T03:43:31.038269+00:00",
+  "python": "3.10.12",
+  "sympy": "1.13.1",
+  "exact_check_count": 8,
+  "checks": [
+    {
+      "name": "areal_scalar_curvature",
+      "residual": "0",
+      "passed": true
+    },
+    {
+      "name": "areal_Kretschmann",
+      "residual": "0",
+      "passed": true
+    },
+    {
+      "name": "strict_decrease_counterexample_zero_derivative",
+      "residual": "0",
+      "passed": true
+    },
+    {
+      "name": "variable_kappa_domain_pole",
+      "residual": "0",
+      "passed": true
+    },
+    {
+      "name": "time_live_total_optical_rate_eps_-1",
+      "residual": "0",
+      "passed": true
+    },
+    {
+      "name": "time_live_total_optical_rate_eps_1",
+      "residual": "0",
+      "passed": true
+    },
+    {
+      "name": "homogeneous_implicit_arrival_slope",
+      "residual": "0",
+      "passed": true
+    },
+    {
+      "name": "homogeneous_zero_h_limit",
+      "residual": "0",
+      "passed": true
+    }
+  ],
+  "wrong_assertion_counterexamples": {
+    "reciprocity_alone_implies_constant_Popt": "2",
+    "same_positive_shift_both_static_directions": "3/2",
+    "same_coefficient_after_proper_clock_normalization": "-1/2",
+    "shear_can_be_isotropic": "3"
+  },
+  "initial_freeze": [
+    {
+      "path": "CANDIDATE.md",
+      "sha256": "a8ac6f12056d82c4d9a1e4c6e763d661353bfeb95d537c7131ac1e77210f132e",
+      "matches_initial_freeze": true
+    },
+    {
+      "path": "check_lead.py",
+      "sha256": "acd60e5ce1f4ecbb9c1c3d13af0f93bffb695fcdc34fe86317cda1b2199dbb42",
+      "matches_initial_freeze": true
+    },
+    {
+      "path": "CHECK_RESULT.json",
+      "sha256": "3cabd22635d0642f915e25192e4ae69a059de7cf27f58523d2ef0a3b3effeda1",
+      "matches_initial_freeze": true
+    },
+    {
+      "path": "WORK_ORDER.md",
+      "sha256": "162ee3e7a93b8354f08fb34b0bb6413a212fad6ff78ce8e2dbfdc29baa8ac136",
+      "matches_initial_freeze": true
+    },
+    {
+      "path": "SOURCE_PINS.json",
+      "sha256": "399db4706c014aa0e3e88213f7d69fb75e9d42c713e7c6acf5a4e470fdbf26c5",
+      "matches_initial_freeze": true
+    }
+  ],
+  "author_replays": [
+    {
+      "origin": "INITIAL_check_lead.py",
+      "script_sha256": "8fa31006ab84062be08bbbf6e732dbdb3bc4a06138e63e7894e504b0f02207a3",
+      "returncode": 1,
+      "label": "same-code regression",
+      "same_failure_site": true
+    },
+    {
+      "origin": "check_lead.py",
+      "script_sha256": "acd60e5ce1f4ecbb9c1c3d13af0f93bffb695fcdc34fe86317cda1b2199dbb42",
+      "returncode": 0,
+      "label": "same-code regression",
+      "output_equals_frozen": true,
+      "exact_check_count": 20,
+      "wrong_assertions_rejected": 4,
+      "finite_pulse_controls": 3,
+      "max_pulse_error": 3.647304680498564e-11
+    }
+  ],
+  "interpretation": "Independent direct-stage exact checks, with separately labeled source-preserving same-code author replay; no physical adoption."
+}

@@ -1,0 +1,56 @@
+{
+  "exact_checks": {
+    "affine_longitudinal_flatness": true,
+    "affine_original_equation": true,
+    "all_direction_isotropy_coefficients": true,
+    "counterprofile_residual": true,
+    "flat_pullback_00": true,
+    "flat_pullback_01": true,
+    "flat_pullback_10": true,
+    "flat_pullback_11": true,
+    "homogeneous_arrival_slope": true,
+    "homogeneous_null_incidence": true,
+    "local_length_to_optical_conversion": true,
+    "longitudinal_curvature": true,
+    "original_Popt_residual": true,
+    "positive_counterprofile_nonconstant": true,
+    "proper_clock_normalization": true,
+    "reference_normalized_optical_coefficient": true,
+    "reference_normalized_profile": true,
+    "static_acceleration_norm": true,
+    "travel_integral_derivative": true,
+    "two_direction_clock_product": true
+  },
+  "finite_pulse_controls": [
+    {
+      "error": 1.2871925747504065e-12,
+      "expected": 0.9354143466934853,
+      "measured": 0.9354143466921981,
+      "readout": "stationary_A_to_B"
+    },
+    {
+      "error": 1.4807044479425713e-12,
+      "expected": 0.8869204367171575,
+      "measured": 0.8869204367156768,
+      "readout": "stationary_A_to_B"
+    },
+    {
+      "error": 3.647304680498564e-11,
+      "expected": 1.0652033106985348,
+      "measured": 1.0652033107350078,
+      "readout": "supplied_homogeneous_control"
+    }
+  ],
+  "max_pulse_error": 3.647304680498564e-11,
+  "passed": true,
+  "python": "3.10.12",
+  "rejected_mutants": {
+    "reciprocity_alone_implies_constant_Popt": true,
+    "same_coefficient_after_proper_clock_normalization": true,
+    "same_positive_shift_both_static_directions": true,
+    "shear_can_be_isotropic": true
+  },
+  "scope": "conditional single-context symbolic checks and floating-point pulse controls; no independent review or native admission implied",
+  "script_sha256": "acd60e5ce1f4ecbb9c1c3d13af0f93bffb695fcdc34fe86317cda1b2199dbb42",
+  "sympy": "1.13.1"
+}

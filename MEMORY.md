@@ -7,6 +7,10 @@ The program's opening preserves Charles's founding positional-geometry/1/c_E
 interpretation and one-geometry SR/GR extension intent. Received slowing is
 automatic redshift; physical separation to clock-rate ratio remains the open join.
 Solar-distance detectability is a working expectation, not a selected threshold.
+No preferred observer; the aim of redshift without requiring Hubble expansion
+retains relative-motion Doppler and gravity. July lead reviewed/UNPROMOTED:
+`udt_july_optical_time_dilation_lead_2026-09-28/DECISION_BRIEF.md`.
+Its stationary reversal is not a generic UDT law; physical clock-map data remain open.
 
 Foundation alignment/archival return: INDEX. Kernel evaluates supplied depth; complete `B,Q,S,Y,Z` enters before readout.
 Universal Reciprocity/DDR and explained Local Metric Sufficiency remain owner-adopted provisional premises.

@@ -14,6 +14,32 @@ Current acceptance overlay: earlier UNPROMOTED/campaign-only language below reco
 returns. The G383--G412, G413--G415 and G416--G423 banking packets and maintained checkpoint own later dispositions;
 original result packages remain unchanged. No physical adoption or canon is included.
 
+## July optical-time lead — reviewed conditional return, 2026-09-28
+
+Charles authorized exploring July's optical-time/dilation connection and
+clarified no preferred observer, cosmological redshift without requiring Hubble
+expansion while retaining Doppler effects, and concern about a predicted reversal.
+Exact words and scope: `udt_july_optical_time_dilation_lead_2026-09-28/OWNER_DIRECTION.md`
+and WORK_ORDER.md. Return: that packet's DECISION_BRIEF.md and CLOSEOUT.md.
+
+Within the supplied stationary reciprocal class, constant optical advance per
+depth is exactly an affine-lapse restriction; reciprocal form alone does not
+force it. The fixed-endpoint reversal is a property of that static query, not
+a universal UDT rule or disproof of an independently justified positional
+component. Removing stationarity while retaining the algebraic spatial rule
+leaves a free time function; smooth local sign controls allow mutual redshift
+but do not select a physical history. The existing covariant clock identity
+remains the general evaluator. Neither an endpoint scalar nor optical distance
+may silently replace the full received-clock comparison.
+
+Fresh source-first/direct review and one bounded repair/re-review completed.
+The repair restricts a variable-coefficient rewriting to nonzero profile
+derivative and avoids making full metric construction a necessary next gate.
+This is reviewed conditional mathematics, UNPROMOTED; no new native law,
+required expansion, center, boundary, scale, source or registry/canon change.
+The next dependency is sufficient physical geometry and observer/path data to
+determine the clock map. Return for discussion; no automatic successor.
+
 ## One geometry and automatic redshift — clarified construction, 2026-09-28
 
 Charles authorized preserving the interpretation front and center and proceeding

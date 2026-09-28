@@ -116,6 +116,14 @@ Protected—do not stage, modify, mine or cite without dispatch:
 
 ### Next gate
 
+July optical-time lead reviewed conditional UNPROMOTED; bounded cycle complete:
+`udt_july_optical_time_dilation_lead_2026-09-28/DECISION_BRIEF.md`.
+Stationary reversal belongs to the old supplied model, not a general UDT law.
+Time-dependent sign controls select no physical history. Sufficient geometric
+and observer/path data for the received-clock map remain OPEN. Owner intent
+retains no preferred observer and no required Hubble expansion, with Doppler
+and gravity still included; exact clarification is in that packet.
+
 Positional geometry / received-clock connection reviewed conditional UNPROMOTED:
 `udt_positional_geometry_clock_connection_2026-09-28/DECISION_BRIEF.md`.
 Automatic redshift is settled once the received-clock ratio is known; native
