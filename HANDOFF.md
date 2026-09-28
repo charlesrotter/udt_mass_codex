@@ -93,34 +93,24 @@ Follow AGENTS; report actual instructions/checks and distinguish configured from
 Dated availability check COMPLETE: `archive/stale_working_documents_2026-09-27/maintenance_agent_capacity_2026-09-10.md`.
 General capacity UNVERIFIED; no automatic repeat. FSR1/PJC1 supplied no new field equation; Maxwell PAUSED.
 
-Next: ICN1 is complete, reviewed conditional UNPROMOTED. Current explanation:
-`CURRENT_RESEARCH_PROGRAM.md`, “Current next gate.”
+Next: ICN1 is complete, reviewed conditional UNPROMOTED. Current trajectory and open
+question: `CURRENT_RESEARCH_PROGRAM.md`, “Current next gate.” FSL1 already
+computes clock comparisons from supplied geometry/clocks/regular null paths;
+ICN1 reconstructs metric information from supplied timing only in its stated
+longitudinal sector. The native physical pair assignment and separation-dependent
+law remain OPEN. Ordinary local proper clocks and accepted c_E/G_obs inputs
+remain in place; local-E identification is not a prerequisite for this route.
+
 Lay return: `udt_interframe_clock_network_2026-09-28/DECISION_BRIEF.md`;
-exact hypotheses, chronology repair and limits: REVIEWED_RESULT and CLOSEOUT.
+REVIEWED_RESULT and CLOSEOUT own the full hypotheses, chronology repair and limits.
+Both matched legs being net redshifted forces increasing radar separation,
+without identifying an expansion mechanism. c_E calibrates measured delay;
+c_E/G_obs alone select no intrinsic length/time or source law. DDR remains
+TF(E)=0, with physical E and native conservation OPEN.
 
-ICN1 constructs actual two-way proper-clock comparisons and radar separation.
-Both matched legs being net redshifted forces increasing radar separation;
-this operational restriction does not identify a Hubble-expansion mechanism.
-In a stated totally geodesic longitudinal sector, two ratios and their drift
-reconstruct a metric coefficient and its first derivatives along a free clock.
-This is conditional data reconstruction, not a generic4D or native field law.
-Third-clock relay/direct routes differ; finite timing data alone can leave
-interior geometry ambiguous. No native-admitted conformal twins are claimed.
-
-Charles explicitly accepts measured c_E and G_obs as inputs. c_E calibrates
-proper-time delay into radar length; c_E and G_obs alone do not select an
-intrinsic length/time. A further measured or derived dimensional datum can
-supply scale. No mass/density law, fitted profile or source coupling is adopted.
-
-Ordinary local proper clocks remain an existing premise. The full physical
-pair assembly and native separation-dependent relation remain OPEN. FSL1/FCV1
-and CRV1/RMS1 retain their scopes; local E identification is not a prerequisite
-for this route. DDR remains TF(E)=0, with physical E and its native conservation
-OPEN. Empirical correspondence and global asymptotic completion remain separate.
-
-INDEX routes FCV1/FSL1/CRV1/RMS1/GRS1/CRD1/CGW1/OFS1 and the July results. Completed campaign chronology
-is historical: `archive/roadmap_history_2026-09-28/README.md`. Original source paths,
-conditions and grades are unchanged; former next-step language is not authorization.
+INDEX routes all nine recent returns; the program groups their gains and limits.
+Completed chronology: `archive/roadmap_history_2026-09-28/README.md`.
+Original source paths and grades remain fixed; old next-step language is historical.
 
 DCR1 reviewed conditional UNPROMOTED: directional clocks permit central tides in its supplied static class
 under full G301 at an eligible center; no neighborhood field equation; FE1 UNADOPTED.

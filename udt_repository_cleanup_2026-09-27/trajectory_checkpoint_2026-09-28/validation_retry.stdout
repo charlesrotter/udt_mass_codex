@@ -1,0 +1,16 @@
+{
+  "status": "PASS",
+  "scope": "documentation correspondence and same-code startup regression only",
+  "head": "a453fcb326a430369b1003d11596230ccc937dc6",
+  "source_pins": 21,
+  "root_docs": 6,
+  "local_links_checked": 12,
+  "prior_untracked_paths": 52,
+  "founding_opening": "byte-preserved",
+  "architecture_and_later_program": "byte-preserved",
+  "roadmap_owner_direction_sections": "byte-preserved",
+  "full_premise_audit": "prior ICN1 exit0,405.819s; reuse with unchanged scientific inputs; not rerun",
+  "startup_guard": "PASS after edits",
+  "tracked_edits_outside_scope": false,
+  "python": "3.10.12 (main, Aug 31 2026, 10:18:17) [GCC 11.4.0]"
+}

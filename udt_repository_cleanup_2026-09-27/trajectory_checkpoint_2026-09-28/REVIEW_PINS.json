@@ -1,0 +1,181 @@
+{
+  "schema": "editorial-fidelity-review-v1",
+  "utc": "2026-09-28T20:58:46.315855+00:00",
+  "verdict": "FIDELITY_REVIEWED",
+  "reviewer": "/root/trajectory_cleanup_review",
+  "model_attestation": "Codex/GPT-6 family in runtime instructions; exact deployed variant unavailable; no different-model claim",
+  "baseline_head": "a453fcb326a430369b1003d11596230ccc937dc6",
+  "branch": "grok",
+  "local_origin_grok": "a453fcb326a430369b1003d11596230ccc937dc6",
+  "reviewed_documents_sha256": {
+    "LIVE.md": "9f2d9258bc2cbd845d43e6347e020effbe66cc2ec1ac073277ab898467ccbbb1",
+    "HANDOFF.md": "a545ba12be834988a6a0e8c9313427003a31a8327068b6ca9f76abe2c01087e9",
+    "CURRENT_RESEARCH_PROGRAM.md": "973811ad0edab9ba698fd3796cc90f4242ff3cc913d050d0af0dcd14661cc18a",
+    "MEMORY.md": "c4cdd18eade05f292e9650cfe4d070cc727f88b1c07273094fdade1bfe97c368",
+    "INDEX.md": "4a2e2e4fb0bfbaba3fabecc475fe691c70f9dada398d4a629d111dadc5a782f6",
+    "UDT_RESEARCH_ROADMAP.md": "0a7c594b45a27ff00d6ec50999b34a73c0b1194602c5ddce7b9157504d8192dd"
+  },
+  "content_reviewed_scientific_sources_sha256": {
+    "udt_observation_guided_function_search_2026-09-28/REVIEWED_RESULT.md": "f1dffa344c81154e533274495b70c6d884c65e6628b85a076c20400d7833b79c",
+    "udt_common_geometry_whiteboard_2026-09-28/REVIEWED_RESULT.md": "b4bdb53716762b6bac91dc95dd867920c18892e82c425d701e28d1981929e0b9",
+    "udt_clock_curvature_derivation_2026-09-28/REVIEWED_RESULT.md": "0afd91a8305d0f3cb6de78b0c5a275b861b15bd02db00900b7f3648eed28d852",
+    "udt_gr_response_selection_2026-09-28/REVIEWED_RESULT.md": "4c0cbaf8dac98010556136d4189f1abe724f089ca91e353b520401ff05725795",
+    "udt_response_measurement_scaling_2026-09-28/REVIEWED_RESULT.md": "462cad1bb96a2ed121edede7e93d4f0fcf9d7f61c1a35f438d42ae47b7dfec3c",
+    "udt_conservation_variational_response_2026-09-28/REVIEWED_RESULT.md": "fa6c2d6d511a01e20a3db043d824a7838b4ae7aadf57c3bd4edf1b7e820bc4ae",
+    "udt_finite_separation_law_2026-09-28/REVIEWED_RESULT.md": "1a1770b84ba184e2411cf4dac30e694bffec46a762bba618c2edf0d1df8b8740",
+    "udt_finite_clock_metric_variation_2026-09-28/REVIEWED_RESULT.md": "609f7889104aa3cc9804926738e888a83df7d593db7daab0763aef20809023f8",
+    "udt_interframe_clock_network_2026-09-28/REVIEWED_RESULT.md": "28c8e36dd78e8007cba1ec7846350793e9142029fbb2e4e6891ed4cb9c21ab54",
+    "udt_finite_separation_law_2026-09-28/DECISION_BRIEF.md": "beaaf18b25ddcf03b711e6d054b00390d2c7ddd274f8ddcee7cfccd38a07274e",
+    "udt_finite_clock_metric_variation_2026-09-28/DECISION_BRIEF.md": "70979aa2aa0b8f4f99808575bc8c8a3654dff1c0ea1b783edadaf064b9e9c673",
+    "udt_interframe_clock_network_2026-09-28/DECISION_BRIEF.md": "a713160b68038b398784ab2ad1360c310aadcca6e9efe520c8608df14d9f95ae",
+    "udt_observation_guided_function_search_2026-09-28/REPAIR.md": "f397568bde2c8cf3e1a2932ba88046c0be11f4ca5d920343858ea1198985cb24",
+    "udt_observation_guided_function_search_2026-09-28/review/RE_REVIEW.md": "d772875deb61f4345db1f0b239f86e18232a9481f7ba84f26c5d2bdeef1c0137"
+  },
+  "read_instructions_sha256": {
+    "AGENTS.md": "c578b045cf3278804124e23a5408ff9634a9a2165f7d20223f654d76bffd8ec9",
+    "CLAUDE.md": "b7e524a5b06760e57877a408630228767ae9a394134095f9851bef5d06e17751",
+    ".claude/skills/verifier-before-record/SKILL.md": "9b3a4aacd4b4006b2b7f01edada73b7c87b99bea6e754583558713bfc145e5ac",
+    ".claude/skills/completeness-map/SKILL.md": "a8cf9e5f4a6d35a0d0ebfe4bc48dbf328ca74e318f020a6a22cb683666a611c0"
+  },
+  "unchanged_launch_control_sha256": {
+    "CURRENT_SCIENTIFIC_PREMISES.md": "7b574665f714551a3a565987fc5bc56a4b44c7e6fb274532f61609c25153f627",
+    "CURRENT_SCIENTIFIC_PREMISES.tsv": "7a3d69d5a0bc3ac98e2ebe2bb0c6d029df30071bf403baffed2223a193dc720b",
+    "verify_current_scientific_premises.py": "97724ef61bf70902ed6b70df9ee92e13acfb2a55fbede2d32adae46fa5b76bd4",
+    "CANON.md": "047b7fbbc1acacf01d2716e3c98cdefd0b9b20136ac4a3306f55dd6775465250",
+    "founding.md": "b4b0d9a9fdd093c992647195aca7579566a9e77a396071a699c1938888a49e75",
+    "udt_interframe_clock_network_2026-09-28/CLOSEOUT.md": "c164855845d1c6287b901e9975f879ebb6257b7a8c02c7896b6a07d6bff2153d",
+    "udt_finite_separation_law_2026-09-28/CLOSEOUT.md": "8a988f6160cf9437f453c0f78c22518f638a7f54a70a531bcd1077d91988332d",
+    "udt_finite_clock_metric_variation_2026-09-28/CLOSEOUT.md": "5009568a2afe63a902eaeb625469feacfba65927c7e5e4ee4eb3c0542adaec20",
+    "udt_interframe_clock_network_2026-09-28/checks/premise_audit.json": "38befc01574d71e672797fd42bcf8956f4ec55eaa80686a45c457d43c7fa04e2",
+    "udt_interframe_clock_network_2026-09-28/checks/premise_audit.stdout": "394e02c4ced55fc8f6480a3cc65b9ebd38f9c0cb553f897b10313b8ad2104b53",
+    "udt_interframe_clock_network_2026-09-28/checks/premise_audit.stderr": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "control_read_scope": "Control bytes were hashed; only ICN1 premise_audit.json and selected verifier portions were read. Source CLOSEOUT files, registry wide rows, CANON and founding.md were not substantively reviewed.",
+  "launch_sha256": {
+    "udt_repository_cleanup_2026-09-27/trajectory_checkpoint_2026-09-28/LAUNCH.json": "c447b65ccf96717fc711eeb5eb707ea6b8245f07867c3966f5d0110deb10788b"
+  },
+  "review_report_sha256": {
+    "udt_repository_cleanup_2026-09-27/trajectory_checkpoint_2026-09-28/REVIEW.md": "1c232a46ca195da5ef9ede2e3d1676a4d1735e7813c905b6365d67a4483bab0a"
+  },
+  "unsealed_scope_exposure": [
+    "udt_repository_cleanup_2026-09-27/trajectory_checkpoint_2026-09-28/WORK_RECORD.md"
+  ],
+  "independence": {
+    "fresh_separate_context": true,
+    "blind_to_editorial_candidate": false,
+    "different_model_attested": false,
+    "independent_scientific_implementation": false,
+    "independent_mathematical_proof": false,
+    "independent_source_comparison_and_preservation_checks": true
+  },
+  "checks": [
+    {
+      "command": [
+        "git",
+        "diff",
+        "--check"
+      ],
+      "returncode": 0,
+      "stdout": "",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "python3",
+        "-"
+      ],
+      "stdin": "import subprocess, hashlib, json, re\nfrom pathlib import Path\nroot=Path.cwd()\npkt=root/'udt_repository_cleanup_2026-09-27/trajectory_checkpoint_2026-09-28'\nlaunch=json.loads((pkt/'LAUNCH.json').read_text())\nbase=launch['head']\nsha=lambda b: hashlib.sha256(b).hexdigest()\nrun=lambda *args: subprocess.check_output(args).decode()\nchanged=run('git','diff','--name-only',base).splitlines()\nassert sorted(changed)==sorted(launch['scope_files']), changed\nassert all(sha(subprocess.check_output(['git','show',f'{base}:{p}']))==s for p,s in launch['before_sha256'].items())\nsource_results={p:sha((root/p).read_bytes())==s for p,s in launch['source_sha256'].items()}\nassert all(source_results.values()), source_results\nuntracked=run('git','ls-files','--others','--exclude-standard').splitlines()\nassert all(p in untracked for p in launch['prior_untracked_paths'])\nprogram=(root/'CURRENT_RESEARCH_PROGRAM.md').read_bytes()\nold_program=subprocess.check_output(['git','show',f'{base}:CURRENT_RESEARCH_PROGRAM.md'])\nassert program.split(b'## Current next gate')[0]==old_program.split(b'## Current next gate')[0]\nroadmap=(root/'UDT_RESEARCH_ROADMAP.md').read_bytes()\nold_roadmap=subprocess.check_output(['git','show',f'{base}:UDT_RESEARCH_ROADMAP.md'])\nquotes=lambda b:[l for l in b.splitlines() if l.startswith(b'>')]\nassert quotes(roadmap)==quotes(old_roadmap)\nleft=b'## Accepted calibration inputs'\nright=b'## Other branches and reusable work'\nassert roadmap.split(left)[1].split(right)[0]==old_roadmap.split(left)[1].split(right)[0]\nnew_links=[]\nfor p in launch['scope_files']:\n    text=(root/p).read_text()\n    for path in re.findall(r'\\[[^\\]]+\\]\\(([^)]+)\\)',text):\n        if '://' in path: continue\n        target, _, anchor=path.partition('#')\n        q=root/target\n        assert q.is_file(), (p,path)\n        if anchor:\n            headings=re.findall(r'^#+\\s+(.+)$',q.read_text(),re.M)\n            anchors=[re.sub(r'[^\\w\\- ]','',h.lower()).replace(' ','-') for h in headings]\n            assert anchor in anchors,(p,path)\n        new_links.append([p,path])\nprint(json.dumps({'head':run('git','rev-parse','HEAD').strip(),'origin_grok':run('git','rev-parse','origin/grok').strip(),'branch':run('git','branch','--show-current').strip(),'changed_files':changed,'baseline_hashes_match':len(launch['before_sha256']),'unchanged_launch_source_hashes':len(source_results),'prior_untracked_paths_still_untracked':len(launch['prior_untracked_paths']),'founding_opening_byte_identical':True,'roadmap_owner_sections_byte_identical':True,'roadmap_blockquote_lines_byte_identical':len(quotes(roadmap)),'markdown_links_and_anchors_checked':len(new_links),'status':'PASS'},indent=2))\n",
+      "returncode": 0,
+      "stdout_json": {
+        "head": "a453fcb326a430369b1003d11596230ccc937dc6",
+        "origin_grok": "a453fcb326a430369b1003d11596230ccc937dc6",
+        "branch": "grok",
+        "changed_files": [
+          "CURRENT_RESEARCH_PROGRAM.md",
+          "HANDOFF.md",
+          "INDEX.md",
+          "LIVE.md",
+          "MEMORY.md",
+          "UDT_RESEARCH_ROADMAP.md"
+        ],
+        "baseline_hashes_match": 6,
+        "unchanged_launch_source_hashes": 21,
+        "prior_untracked_paths_still_untracked": 52,
+        "founding_opening_byte_identical": true,
+        "roadmap_owner_sections_byte_identical": true,
+        "roadmap_blockquote_lines_byte_identical": 6,
+        "markdown_links_and_anchors_checked": 12,
+        "status": "PASS"
+      },
+      "stderr": ""
+    },
+    {
+      "command": [
+        "python3",
+        "-"
+      ],
+      "environment": {
+        "PYTHONDONTWRITEBYTECODE": "1"
+      },
+      "stdin": "from pathlib import Path\nfrom verify_current_scientific_premises import validate_startup_surface\nvalidate_startup_surface(Path.cwd())\nprint('PASS: validate_startup_surface; regression only, not a full premise audit')\n",
+      "returncode": 0,
+      "tool_wall_time_seconds": 0.023817641,
+      "stdout": "PASS: validate_startup_surface; regression only, not a full premise audit\n",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "git",
+        "show",
+        "BASELINE:PATH"
+      ],
+      "paths": [
+        "udt_observation_guided_function_search_2026-09-28/REVIEWED_RESULT.md",
+        "udt_common_geometry_whiteboard_2026-09-28/REVIEWED_RESULT.md",
+        "udt_clock_curvature_derivation_2026-09-28/REVIEWED_RESULT.md",
+        "udt_gr_response_selection_2026-09-28/REVIEWED_RESULT.md",
+        "udt_response_measurement_scaling_2026-09-28/REVIEWED_RESULT.md",
+        "udt_conservation_variational_response_2026-09-28/REVIEWED_RESULT.md",
+        "udt_finite_separation_law_2026-09-28/REVIEWED_RESULT.md",
+        "udt_finite_clock_metric_variation_2026-09-28/REVIEWED_RESULT.md",
+        "udt_interframe_clock_network_2026-09-28/REVIEWED_RESULT.md",
+        "udt_finite_separation_law_2026-09-28/DECISION_BRIEF.md",
+        "udt_finite_clock_metric_variation_2026-09-28/DECISION_BRIEF.md",
+        "udt_interframe_clock_network_2026-09-28/DECISION_BRIEF.md",
+        "udt_observation_guided_function_search_2026-09-28/REPAIR.md",
+        "udt_observation_guided_function_search_2026-09-28/review/RE_REVIEW.md"
+      ],
+      "comparison": "sha256(git show)==sha256(current bytes)",
+      "passed": 14
+    },
+    {
+      "command": [
+        "python3",
+        "--version"
+      ],
+      "returncode": 0,
+      "stdout": "Python 3.10.12\n",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "git",
+        "--version"
+      ],
+      "returncode": 0,
+      "stdout": "git version 2.34.1\n",
+      "stderr": ""
+    }
+  ],
+  "repairs_required": 0,
+  "omissions": [
+    "No repeated top-level startup or remote fetch/pull",
+    "No full406-row premise audit repeat",
+    "No derivation, empirical fit, numerical or scientific-suite replay",
+    "No source-package mutation/catch-proof replay",
+    "No protected untracked payload reads or content hashes",
+    "No cross-model, human or formal-proof review",
+    "No banking/push or final execution-receipt audit"
+  ],
+  "maximum_conclusion": "Source-faithful documentation only; no promotion, physical premise, native-law closure or canon."
+}

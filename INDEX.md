@@ -1,6 +1,9 @@
 # INDEX — compact current pointers; `LIVE.md` wins
 
 Current explanation: `CURRENT_RESEARCH_PROGRAM.md`; current direction: `UDT_RESEARCH_ROADMAP.md`.
+Recent work: [forward/inverse distinction](CURRENT_RESEARCH_PROGRAM.md#forward-prediction-and-inverse-reconstruction),
+[nine-result trajectory](CURRENT_RESEARCH_PROGRAM.md#trajectory-of-the-recent-work), and
+[next discussion](CURRENT_RESEARCH_PROGRAM.md#next-discussion-and-stopping-boundary).
 Completed chronology and older campaign locator: `archive/roadmap_history_2026-09-28/README.md`.
 The exact 406-row `CURRENT_SCIENTIFIC_PREMISES.tsv` owns grades, not these pointers.
 GR is FILTER ONLY, not a response-law input; Local Metric Sufficiency remains owner-provisional.
@@ -172,4 +175,5 @@ These reviewed conditional designs/benchmarks are not scientific-grade or eligib
 - Historical startup: `archive/STARTUP_SURFACE_HISTORY.md`; prior current pages remain in Git.
 - Completed roadmap chronology: `archive/roadmap_history_2026-09-28/README.md`; byte-preserved baseline and editorial review.
 - Cleanup/archive lookup: `udt_repository_cleanup_2026-09-27/README.md`.
+- Post-ICN1 trajectory cleanup: `udt_repository_cleanup_2026-09-27/trajectory_checkpoint_2026-09-28/WORK_RECORD.md`; documentation only.
 - Known old path only: `research/_registry/CURRENT_ARTIFACT_PATHS.tsv`, not a frontier/startup read.

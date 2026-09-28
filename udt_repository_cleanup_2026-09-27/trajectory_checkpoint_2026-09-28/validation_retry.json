@@ -1,0 +1,14 @@
+{
+  "command": [
+    "python3",
+    "udt_repository_cleanup_2026-09-27/trajectory_checkpoint_2026-09-28/VALIDATE.py"
+  ],
+  "cwd": "/home/udt-admin/udt_mass_codex",
+  "started_utc": "2026-09-28T20:55:55.890955+00:00",
+  "duration_seconds": 0.24592939599824604,
+  "returncode": 0,
+  "timeout": false,
+  "address_space_bytes": 536870912,
+  "cpu_seconds": 60,
+  "maxrss_kib": 30380
+}

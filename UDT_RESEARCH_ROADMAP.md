@@ -1,6 +1,6 @@
 # UDT research roadmap — current direction
 
-Updated 2026-09-28 after ICN1. This is a direction document, not scientific
+Updated 2026-09-28: trajectory cleanup after ICN1. This is a direction document, not scientific
 premise authority or research authorization. LIVE controls operational status;
 the exact registry and original reviewed sources control grades and scope.
 AGENTS controls method. Charles canonizes; CANON is unchanged.
@@ -12,29 +12,26 @@ This roadmap does not duplicate their detailed derivations or premise inventory.
 
 ## Current return and next discussion
 
-ICN1 is complete: [lay return](udt_interframe_clock_network_2026-09-28/DECISION_BRIEF.md)
-and [reviewed result](udt_interframe_clock_network_2026-09-28/REVIEWED_RESULT.md).
-It constructs actual two-way clock/radar relations and a conditional longitudinal
-metric/gradient reconstruction, while keeping local proper clocks ordinary.
-Net redshift on both matched legs requires increasing radar separation; this does
-not establish an expansion mechanism. Third-clock route consistency and the
-finite-network conformal control expose limits of timing-only reconstruction.
-No native pair assignment or predictive distance dependence is selected.
+ICN1 is complete, reviewed conditional UNPROMOTED:
+[lay return](udt_interframe_clock_network_2026-09-28/DECISION_BRIEF.md) and
+[reviewed result](udt_interframe_clock_network_2026-09-28/REVIEWED_RESULT.md).
+The [program's current gate](CURRENT_RESEARCH_PROGRAM.md#current-next-gate)
+owns the connected explanation and nine-result trajectory. FSL1 calculates
+clock comparisons from supplied geometry and actual matched null queries;
+ICN1 reconstructs part of the geometry from timing only in its specified
+longitudinal sector. Their mathematical content and limits remain unchanged.
 
-Measured c_E and G_obs are accepted inputs. c_E calibrates delay to distance;
-the two constants alone do not select an intrinsic length/time. Additional
-justified dimensional data may supply scale; no source law is adopted here.
-FSL1/FCV1/CRV1/RMS1 routes retain their hypotheses through INDEX. DDR remains
-TF(E)=0 and GR remains FILTER ONLY. A successor needs a specific unexamined
-restriction on physical relations beyond evaluating a supplied metric or timing
-record. No successor is authorized by this completed cycle.
+The latest lay clarification asks for UDT's native quantitative relation for
+actual observers and paths. It does not claim that forward clock calculation
+from a specified geometry is missing, or that ordinary local clocks need an
+extra premise. Native physical pair assignment remains OPEN. A future question
+must add something beyond evaluating supplied geometry or reconstructing supplied
+records. No successor is authorized by the completed ICN1 cycle or this cleanup.
 
-Keep the open questions distinct: native response selection, physical event/path-
-to-depth assignment, a chosen observable's signal/measurement connection, empirical
-correspondence and global asymptotic completion. Legitimate free initial/query data
-do not by themselves imply a missing law; selecting one unique universe is not
-required for field theory. An explicitly conditional geometric or observational
-consequence need not await all these closures.
+Response selection, pair assignment, a chosen signal/measurement interface,
+empirical correspondence and global asymptotic completion are distinct questions.
+Legitimate free initial/query data do not require a unique-universe law. Conditional
+geometric or observational work need not await every closure.
 
 GR is FILTER ONLY, not a response-law input; Local Metric Sufficiency remains
 owner-provisional. DDR remains owner-provisional, not derived or canonized.
@@ -239,16 +236,10 @@ GOCE is PARKED with eligibility UNRESOLVED/OPEN and enquiry UNSENT; the particul
 GW procedure is parked. Completed clock/complementary campaigns are not restarted.
 Full branch limits and protected local-work instructions remain in LIVE/AGENTS.
 
-Use reviewed results at their stated scope before proposing a successor:
-
-| Question | Current source route | Limit to carry forward |
-|---|---|---|
-| Response meaning/scaling | RMS1, INDEX | TF(E) class conditions and physical identification remain conditional/open |
-| Reciprocity and GR-shaped response | GRS1, INDEX | Does not select an action or establish native class membership |
-| Clock changes and curvature | CRD1, INDEX | Geometric identities do not select the response; restricted scalar evolution shortcut fails |
-| Shared clocks, beams and later observations | CGW1, INDEX | Scoped compatibility/drift controls, not a selected cosmology |
-| Empirical curve shapes and distant tails | OFS1, INDEX | Fits/inverse constructions do not supply a native law or physical asymptote |
-| Earlier admitted mathematics | Exact banking records in INDEX | Full source premises, exclusions, repairs and reviews control |
+The [recent-work trajectory](CURRENT_RESEARCH_PROGRAM.md#trajectory-of-the-recent-work)
+connects the nine completed OFS1-to-ICN1 returns by purpose; INDEX owns their
+source routes. Review those exact limits before proposing a successor. Earlier
+admitted mathematics remains available through the exact banking records.
 
 The through-G352 metric/kernel manuscript remains its fixed edition. The
 September12 CWA1 consolidated account is a source-bound synthesis with its later

@@ -100,137 +100,93 @@ Attachment audit/archive: INDEX.
 
 ## Current next gate
 
-ICN1 is complete, reviewed conditional UNPROMOTED.
-Lay return: `udt_interframe_clock_network_2026-09-28/DECISION_BRIEF.md`;
-exact hypotheses, chronology repair and limits: REVIEWED_RESULT and CLOSEOUT.
+ICN1 is complete, reviewed conditional UNPROMOTED. The active question is:
+**what quantitative interframe relation follows from UDT's admitted geometry
+and premises for actual observers and signal paths?** Ordinary local proper
+clocks and accepted c_E/G_obs inputs are already available.
 
-ICN1 constructs actual two-way proper-clock comparisons and radar separation.
-Both matched legs being net redshifted forces increasing radar separation;
-this operational restriction does not identify a Hubble-expansion mechanism.
-In a stated totally geodesic longitudinal sector, two ratios and their drift
-reconstruct a metric coefficient and its first derivatives along a free clock.
-This is conditional data reconstruction, not a generic4D or native field law.
-Third-clock relay/direct routes differ; finite timing data alone can leave
-interior geometry ambiguous. No native-admitted conformal twins are claimed.
+### Forward prediction and inverse reconstruction
 
-Charles explicitly accepts measured c_E and G_obs as inputs. c_E calibrates
-proper-time delay into radar length; c_E and G_obs alone do not select an
-intrinsic length/time. A further measured or derived dimensional datum can
-supply scale. No mass/density law, fitted profile or source coupling is adopted.
+These are two uses of the same geometric connection, not two competing theories:
 
-Ordinary local proper clocks remain an existing premise. The full physical
-pair assembly and native separation-dependent relation remain OPEN. FSL1/FCV1
-and CRV1/RMS1 retain their scopes; local E identification is not a prerequisite
-for this route. DDR remains TF(E)=0, with physical E and its native conservation
-OPEN. Empirical correspondence and global asymptotic completion remain separate.
-
-| Reviewed return | Usable gain | Limit that remains |
+| Direction | What is supplied | What the reviewed work gives |
 |---|---|---|
-| ICN1 — actual interframe network | Exact echo/radar relation and conditional longitudinal metric/gradient reconstruction; explicit c_E/G calibration scope | Native pair and distance law OPEN; no generic4D reconstruction, expansion inference or intrinsic scale from c_E/G alone |
-| FCV1 — finite-clock metric variation | Full arrival/clock/protocol derivative; exact interior response and direct-identification obstruction | One measurement response is not directly a smooth local DDR tensor; no no-go for local field laws or other reconstructions |
-| FSL1 — finite-separation law | Full-frame/null-ray clock composition and an exact directional asymptotic test | Supplied geometry and regular null query; no native response or realized physical asymptote |
-| CRV1 — conservation/variation | On a fixed contractible metric region, E=S+qg can be conserved iff d(div S)=0; the conditional Ricci class completes to aG+Cg | A scalar primitive need not be a natural finite-jet operator; physical response/conservation and inverse-variational theorem hypotheses remain unowned |
-| RMS1 — response meaning/scaling | Ideal clock/motion readings have derived scaling; suitable families reconstruct Ricci; classification can target TF(E) | No physical identification of E or TF(E); no adopted homothety symmetry |
-| GRS1 — GR-response comparison | Conditional natural-tensor classification; reciprocity does not choose an action | Full hypotheses and nonzero Ricci coefficient are not native ownership |
-| CRD1 — clock/curvature derivation | Complete shifted-pair and full4D geometric identities | In the unshifted exact-reciprocal restriction, derivative-free curvature input gives an elliptic scalar equation, not standalone causal evolution; a constraint role remains possible |
-| CGW1 — common geometry | Clock/screen compatibility and a scoped later-observation drift discriminator | Does not select a cosmology, establish solar precision or realize the global asymptote |
-| OFS1 — observation-guided functions | Finite-range SNe shapes, conditional BAO comparison and a restricted metric inverse | Processed/exposed data and conventional interfaces; expanding controls are not the intended native positional explanation |
+| Forward comparison — FSL1 | A sufficiently specified metric, endpoint clocks, and a regular null path with consistent frames/direction | Received/emitted tick-interval ratio and its same-path composition; an exact directional asymptotic criterion |
+| Inverse reconstruction — ICN1 | Actual outward/return timing records and the stated ideal relay protocol | Radar separation/drift; only in a smooth totally geodesic longitudinal Lorentz2 sector, a metric coefficient and its first derivatives along a freely falling clock |
 
-These nine returns are reviewed conditional (OFS1 also empirical) and UNPROMOTED;
-no grade is changed here. INDEX gives each exact REVIEWED_RESULT/DECISION_BRIEF
-route; those sources and reviews control qualifications and evidence. Earlier
-July/positional-geometry returns retain their scopes, including no generic
-stationary reversal or selected future-return rule.
-CRD1's principal-type conclusion can change under a derivative-dependent closing
-law; it is not a UDT-wide claim of ellipticity or acausality.
+A supplied geometry can already predict clock comparisons. The open task is
+UDT's native physical event/path-to-depth assignment and predictive dependence
+across separation; another conversion from clock slowing to redshift is not
+missing. An equation selecting allowed geometries may help, but full field
+closure or a unique universe is not required for every scoped consequence.
+Legitimate initial/query data can remain supplied. Reconstructing a metric from
+a desired redshift curve does not establish its native UDT origin.
 
-FSL1's same-transport readout is Z=(1-chi dot n_o)/sqrt(1-|chi|^2), where
-Z is received/emitted differential tick interval and n_o is the actual future
-propagation direction at reception. This requires W5's arrow, endpoint clocks
-and the null comparison to match; chi alone cannot supply the ray. G220's
-same-correspondence clock leg still gives Phi=-log Z without constructing the
-full pair. G269/G272 already own the planar/rapidity distinction; they are reused.
-For r=|chi|->1 and mu=chi dot n_o/r, Z->infinity iff
-(1-mu)/sqrt(1-r)->infinity. A supplied flat comparison family reaches r->1 with
-Z=1, so bounded projective position alone does not realize the intended asymptote.
-This is not a physical UDT cosmology or an exclusion of the owner's target.
-Full hypotheses, consistent-frame-orientation repair, checks and review:
-`udt_finite_separation_law_2026-09-28/REVIEWED_RESULT.md`.
+ICN1's regular, causally ordered two-way protocol has a necessary timing result:
+if BOTH matched legs have net redshift, radar separation increases. This does
+not isolate a positional contribution or infer Hubble expansion or local material
+recession. Third-clock relayed/direct signals follow distinct actual routes.
+Finite-network conformal controls leave some interior geometry undetermined;
+no native-admitted twins or impossibility of a UDT prediction are established.
+Full hypotheses, chronology repair and limits:
+[ICN1 reviewed result](udt_interframe_clock_network_2026-09-28/REVIEWED_RESULT.md);
+[lay return](udt_interframe_clock_network_2026-09-28/DECISION_BRIEF.md).
 
-FCV1 keeps the metric variation of the full null correspondence, rather than
-only a fixed local clock leg. The changed ray enters by exact geodesic first
-variation; arrival displacement and proper-clock normalization remain explicit.
-A compact interior reciprocal-shape perturbation changes the clock ratio while
-all endpoint metric jets remain fixed. The single-query derivative is supported
-on its ray and cannot directly equal a smooth spacetime-volume response in the
-nonzero witness. This does not forbid local equations governing geometry or a
-justified local limit/reconstruction. Same-map inverse-clock consistency does
-not derive the adopted DDR balance. Full scope, controls and review:
-`udt_finite_clock_metric_variation_2026-09-28/REVIEWED_RESULT.md`.
+c_E converts a measured proper-time delay into radar length. Accepted c_E and
+G_obs alone do not select an intrinsic length/time; further justified dimensional
+data may supply scale. No mass/density law or source coupling follows merely
+from accepting the constants. Ordinary local clocks require no added slowing.
 
-### The precise conditional response route
+### Trajectory of the recent work
 
-RMS1 applies GRS1 to S[g]=TF_g(E[g]) alone. Require S to be metric-only, symmetric
-covariant rank-two, natural under local diffeomorphisms and unoriented frames,
-finite-jet, differentiable at the flat normal jet on a domain containing the
-flattening rays, with exact S[ell^2 g]=S[g] for constant ell>0. Then
-S=a(Ric-Rg/4); with a!=0, all-pair DDR gives the trace-free Einstein vacuum equation.
-The scalar curvature is constant on a connected regular solution region; this
-does not require constant full curvature. These are conditional mathematics,
-not proof of native class membership, physical response identification or nonzero a.
-This is one sufficient route, not a necessary form for every possible UDT dynamics.
-The pure-trace part of E is invisible to DDR; it need not satisfy the same weight.
+This map groups reusable results by purpose. It is not a new dependency theorem
+or authorization to resume a completed campaign. All nine returns are reviewed
+conditional (OFS1 also empirical) and UNPROMOTED; original reviews own exact scope.
+INDEX routes each package's REVIEWED_RESULT, DECISION_BRIEF and CLOSEOUT.
 
-G403/DCI1 supplies Ric(U,U) from its specified ideal directional-clock, temporal
-and observer-motion records. RMS1's suitable-family reconstruction recovers Ricci
-and its scaling. This does not identify that reading with E. Direct kernel
-variation fails its own reciprocal balance, and the chosen G352 density cannot
-directly equal E(U,U) for all observers in its stated protocol. Those are specific
-failed shortcuts, not universal impossibility or a need for a new postulate.
-Full controls and review: `udt_response_measurement_scaling_2026-09-28/REVIEWED_RESULT.md`.
+| Purpose | Reviewed return and usable gain | Boundary to carry forward |
+|---|---|---|
+| Find clues and consistency tests | OFS1: finite-range SNe shapes, conditional BAO comparison, restricted metric inverse | Exposed/processed data and conventional interfaces; no native profile or physical asymptote |
+| Connect observations to geometry | CGW1: clock/screen compatibility and a scoped later-observation drift discriminator | No selected cosmology, solar precision or realized global limit |
+| Connect clocks to curvature | CRD1: full4D and shifted-pair identities | The unshifted exact-reciprocal, derivative-free scalar closure is elliptic, not standalone causal evolution; constraint/derivative-dependent alternatives remain |
+| Explore a GR-shaped response | GRS1: conditional natural-tensor classification and action nonselection | Full class hypotheses and nonzero Ricci coefficient need native justification; GR remains filter only |
+| Identify what response would measure | RMS1: ideal clock/motion scaling, suitable-family Ricci reconstruction, trace-free response classification | The readings do not identify physical E or TF(E); no homothety symmetry is adopted |
+| Test conservation/action connections | CRV1: fixed-metric trace-completion criterion and conditional conserved/action representative | Native response/conservation and inverse-variational hypotheses remain unowned; DDR is TF(E)=0, not E=0 |
+| Compute finite clock comparisons | FSL1: directional, full-frame null-clock composition and exact asymptotic test | Supplied geometry and regular matched null query; approaching projective saturation alone does not realize the physical asymptote |
+| Vary the complete comparison | FCV1: arrival/ray/clock/protocol derivative and interior-response witness | One nonzero measurement derivative cannot directly be a smooth local DDR tensor; this is not a no-go for local equations or other reconstructions |
+| Compare an actual clock network | ICN1: two-way radar relation and restricted longitudinal metric/gradient reconstruction | Native pair/distance law remains OPEN; no generic4D reconstruction or selected intrinsic scale |
 
-CRV1 completes this conditional S to E=aG+Cg if off-shell conservation is
-separately required. Universal constants a,C give a variational representative;
-DDR still imposes TF(E)=0, not E=0, and no scalar value or source coupling is
-selected. Its weak-class obstruction is not a UDT no-go. An inverse-variational
-theorem can supply action existence for a natural conserved metric response of
-order at most three under its stated regularity/domain hypotheses; current
-finite-jet sufficiency supplies neither that bound nor conservation. Exact
-scope and the preserved variation-sign repair:
-`udt_conservation_variational_response_2026-09-28/REVIEWED_RESULT.md`.
+Detailed response-class algebra stays in its reviewed sources, reachable through
+INDEX. RMS1/GRS1 classify the trace-free part only under their full naturality,
+regularity, finite-jet, domain and scaling hypotheses. CRV1's conservation/action
+route needs further hypotheses; its scalar primitive need not be a natural
+finite-jet operator. No direct identification or new physical postulate is
+established. These results remain reusable conditional routes, not a mandatory
+local-E gate before developing the interframe comparison.
 
-### Questions that must remain distinct
+### Next discussion and stopping boundary
 
-- **Native response selection:** identify and justify the complete-metric response
-  constrained by reciprocity. Computing a quantity from a chosen metric does not
-  establish a law selecting allowed geometries.
-- **Physical clock map:** determine the relevant event/observer/path-to-depth
-  relation for separation-dependent predictions. Supplied depth-to-redshift
-  conversion is already known; another fitted redshift mechanism is not required.
-- **Measurement connection:** state actual signal, clock, source and detector
-  assumptions for a chosen observable. Geometric phases or label measures do not
-  automatically identify photons or energy. G352 retains its physical-realization gap.
-- **Correspondence and completion:** establish local empirical precision and the
-  intended distant asymptotic behavior from completed geometry. Neither a similar
-  curve shape nor an observed finite-range fit establishes those claims.
+Choose a specific unexamined restriction on physical pair assignment or allowed
+geometry, and say what it adds beyond FSL1/FCV1/ICN1. Existing reconstruction and
+comparison formulas supply checks for that work; repeating them alone does not
+supply the missing law. No particular new ansatz or derivation is authorized by
+this organizational cleanup. A future bounded proposal follows the work-order
+and review cycle in UDT_RESEARCH_ROADMAP; it may return a conditional implication,
+a refutation or a precise unresolved join without claiming full closure.
 
-These questions are not a mandatory serial checklist. Scoped geometric deductions,
-explicitly conditional observations and empirical discovery may progress without
-full field equations or microscopic light first. Initial/query data may remain
-free; unique-universe selection is optional. Carrier/mass/source questions retain
-their separate current authority and pauses, not assumptions for this route.
-
-Stop before turning a readout, supplied profile or comparison into native physics.
-A successor needs a specific unexamined implication and a bounded work order;
-repeating completed identities or nonselection results does not close the gap.
-Current direction and continuing owner constraints: `UDT_RESEARCH_ROADMAP.md`.
-Completed chronology: `archive/roadmap_history_2026-09-28/README.md`.
+Keep native response selection, physical pair assignment, signal/instrument
+identification, empirical correspondence and global asymptotic completion distinct.
+Conditional geometry or measurement need not await a microscopic theory of light,
+a sourced sector or a unique history. July results retain their stated limits;
+no generic stationary reversal or selected future-return rule is adopted.
+Carrier/mass/source branches retain their existing authority and pauses.
 
 DCR1 reviewed conditional UNPROMOTED: directional clocks permit central tides in its supplied static class
 under full G301 at an eligible center; no neighborhood field equation; FE1 UNADOPTED.
 G312 membership/native admission unclosed; response identification OPEN; G352 physical-realization: physical identification remains OPEN.
 Stop for lay discussion. ICN1 is complete; no new campaign is authorized;
 work order and return gates: `UDT_RESEARCH_ROADMAP.md`.
+Completed chronology: `archive/roadmap_history_2026-09-28/README.md`.
 
 ## Architecture
 
