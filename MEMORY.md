@@ -17,12 +17,13 @@ retains relative-motion Doppler and gravity. July lead reviewed/UNPROMOTED:
 `udt_july_optical_time_dilation_lead_2026-09-28/DECISION_BRIEF.md`.
 Its stationary reversal is not a generic UDT law; physical clock-map data remain open.
 
-ICN1 complete, reviewed conditional UNPROMOTED. Program “Current next gate”
-separates FSL1 forward comparison on supplied geometry from ICN1's restricted
-inverse reconstruction; neither selects the native physical pair/distance law.
-Ordinary local clocks and accepted c_E/G_obs inputs stay explicit. The program
-maps all nine recent returns and their limits; INDEX routes the exact evidence.
-Latest lay return: `udt_interframe_clock_network_2026-09-28/DECISION_BRIEF.md`.
+MGC1 complete, reviewed conditional UNPROMOTED. The Machian lead separates
+independent physical scale attachment from an actual matter–geometry–clock law;
+the latter remains OPEN. External GR controls are not native UDT histories.
+Program “Current next gate” preserves FSL1 forward comparison and ICN1's restricted
+inverse reconstruction, ordinary local clocks, and accepted c_E/G_obs inputs.
+The program maps all ten recent returns; INDEX routes exact evidence.
+Latest lay return: `udt_machian_global_clock_feasibility_2026-09-28/DECISION_BRIEF.md`.
 DDR remains TF(E)=0; local-E identification is not a gate for every interframe
 question. No automatic successor; current status and permissions stay in LIVE.
 

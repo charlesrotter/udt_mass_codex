@@ -1,0 +1,58 @@
+{
+  "status": "PASS",
+  "checks": {
+    "compactness_dimensions": true,
+    "fixed_mass_scale": true,
+    "density_scale": true,
+    "defined_mass_identity": true,
+    "general_homogeneity": true,
+    "geometric_mass_weight_one": true,
+    "fixed_mass_nonzero_scale_slope": true,
+    "fixed_density_scale_slope": true,
+    "rescaled_arrival_map": true,
+    "proper_clock_derivative_invariant": true,
+    "echo_length_scaling": true,
+    "measure_normalization_transfer_ratio": true,
+    "flat_friedmann_compactness_identity": true,
+    "flat_friedmann_no_H_selection": true,
+    "static_original_metric_Ricci": true,
+    "static_original_metric_scalar": true,
+    "static_original_Einstein_equation": true,
+    "ordinary_local_clock": true,
+    "parallel_timelike_direction": true,
+    "radial_tangent_null": true,
+    "radial_tangent_affine_geodesic": true,
+    "S3_volume": true,
+    "proper_dust_mass": true,
+    "static_compactness": true,
+    "independent_mass_fixes_radius": true,
+    "static_family_mass_scales": true,
+    "static_tick_ratio": true,
+    "antipodal_delay_limit": true,
+    "antipodal_no_redshift_limit": true
+  },
+  "rejected_wrong_rules": {
+    "wrong_fixed_mass_invariance": true,
+    "wrong_fixed_density_invariance": true,
+    "wrong_elapsed_time_invariance": true,
+    "wrong_absolute_density_invariance": true,
+    "wrong_flat_friedmann_value": true,
+    "wrong_static_density": true,
+    "wrong_static_Lambda": true,
+    "wrong_euclidean_global_volume": true,
+    "wrong_static_clock_slowing": true
+  },
+  "values": {
+    "external_static_rho": "c**2/(4*pi*G*a**2)",
+    "external_static_Lambda": "a**(-2)",
+    "proper_dust_mass": "pi*a*c**2/(2*G)",
+    "Q_static_curvature_radius": "pi/2",
+    "Q_flat_Friedmann_defined_ball": "1/2",
+    "static_clock_Z": "1"
+  },
+  "versions": {
+    "python": "3.10.12",
+    "sympy": "1.13.1"
+  },
+  "limits": "Exact symbolic supporting controls, not independent proof; imported GR never native; no empirical/stability claim"
+}

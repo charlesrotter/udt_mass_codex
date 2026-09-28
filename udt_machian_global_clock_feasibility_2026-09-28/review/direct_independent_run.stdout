@@ -1,0 +1,226 @@
+{
+  "status": "PASS",
+  "python": "3.10.12",
+  "sympy": "1.13.1",
+  "total": 42,
+  "checks": [
+    {
+      "name": "Gauss_Ricci_product_time",
+      "kind": "exact_identity",
+      "residual": "0"
+    },
+    {
+      "name": "Gauss_Ricci_spatial_1",
+      "kind": "exact_identity",
+      "residual": "0"
+    },
+    {
+      "name": "Gauss_Ricci_spatial_2",
+      "kind": "exact_identity",
+      "residual": "0"
+    },
+    {
+      "name": "Gauss_Ricci_spatial_3",
+      "kind": "exact_identity",
+      "residual": "0"
+    },
+    {
+      "name": "Gauss_scalar",
+      "kind": "exact_identity",
+      "residual": "0"
+    },
+    {
+      "name": "Gauss_Einstein_time",
+      "kind": "exact_identity",
+      "residual": "0"
+    },
+    {
+      "name": "Gauss_Einstein_spatial_1",
+      "kind": "exact_identity",
+      "residual": "0"
+    },
+    {
+      "name": "Gauss_Einstein_spatial_2",
+      "kind": "exact_identity",
+      "residual": "0"
+    },
+    {
+      "name": "Gauss_Einstein_spatial_3",
+      "kind": "exact_identity",
+      "residual": "0"
+    },
+    {
+      "name": "independently_solved_Lambda",
+      "kind": "exact_identity",
+      "residual": "0"
+    },
+    {
+      "name": "independently_solved_dust_density",
+      "kind": "exact_identity",
+      "residual": "0"
+    },
+    {
+      "name": "full_diagonal_field_residual_0",
+      "kind": "exact_identity",
+      "residual": "0"
+    },
+    {
+      "name": "full_diagonal_field_residual_1",
+      "kind": "exact_identity",
+      "residual": "0"
+    },
+    {
+      "name": "full_diagonal_field_residual_2",
+      "kind": "exact_identity",
+      "residual": "0"
+    },
+    {
+      "name": "full_diagonal_field_residual_3",
+      "kind": "exact_identity",
+      "residual": "0"
+    },
+    {
+      "name": "incorrect_dust_coefficient",
+      "kind": "wrong_formula_rejected",
+      "actual": "K*c**2/(4*pi*G)",
+      "wrong": "K*c**2/(8*pi*G)"
+    },
+    {
+      "name": "incorrect_Lambda",
+      "kind": "wrong_formula_rejected",
+      "actual": "K",
+      "wrong": "2*K"
+    },
+    {
+      "name": "round_S3_volume_from_volume_form",
+      "kind": "exact_identity",
+      "residual": "0"
+    },
+    {
+      "name": "proper_dust_mass",
+      "kind": "exact_identity",
+      "residual": "0"
+    },
+    {
+      "name": "dust_compactness",
+      "kind": "exact_identity",
+      "residual": "0"
+    },
+    {
+      "name": "if_vacuum_included_compactness_changes",
+      "kind": "exact_identity",
+      "residual": "0"
+    },
+    {
+      "name": "vacuum_mass_silently_included",
+      "kind": "wrong_formula_rejected",
+      "actual": "3*pi/4",
+      "wrong": "pi/2"
+    },
+    {
+      "name": "stationary_null_clock_Z",
+      "kind": "exact_identity",
+      "residual": "0"
+    },
+    {
+      "name": "finite_antipodal_delay",
+      "kind": "exact_identity",
+      "residual": "0"
+    },
+    {
+      "name": "round_sphere_Jacobi_equation",
+      "kind": "exact_identity",
+      "residual": "0"
+    },
+    {
+      "name": "first_antipodal_Jacobi_zero",
+      "kind": "exact_identity",
+      "residual": "0"
+    },
+    {
+      "name": "moving_observer_unit_norm",
+      "kind": "exact_identity",
+      "residual": "0"
+    },
+    {
+      "name": "all_observers_have_Z_one",
+      "kind": "wrong_formula_rejected",
+      "actual": "2",
+      "wrong": "1"
+    },
+    {
+      "name": "generic_connection_scale_cancellation",
+      "kind": "exact_identity",
+      "residual": "0"
+    },
+    {
+      "name": "clock_normalization_ratio",
+      "kind": "exact_identity",
+      "residual": "0"
+    },
+    {
+      "name": "same_affine_tangent_frequency_ratio",
+      "kind": "exact_identity",
+      "residual": "0"
+    },
+    {
+      "name": "same_phase_covector_frequency_ratio",
+      "kind": "exact_identity",
+      "residual": "0"
+    },
+    {
+      "name": "nonlinear_arrival_matched_event",
+      "kind": "exact_identity",
+      "residual": "0"
+    },
+    {
+      "name": "unmatched_label_clock_ratio",
+      "kind": "wrong_formula_rejected",
+      "actual": "28/3",
+      "wrong": "76"
+    },
+    {
+      "name": "ICN_relay_product_matched_events",
+      "kind": "exact_identity",
+      "residual": "0"
+    },
+    {
+      "name": "ICN_beta_homothety",
+      "kind": "exact_identity",
+      "residual": "0"
+    },
+    {
+      "name": "radar_length_scale",
+      "kind": "exact_identity",
+      "residual": "0"
+    },
+    {
+      "name": "constraint_derivative_at_root",
+      "kind": "exact_identity",
+      "residual": "0"
+    },
+    {
+      "name": "weight_one_identity",
+      "kind": "exact_identity",
+      "residual": "0"
+    },
+    {
+      "name": "fixed_mass_scale_blind",
+      "kind": "wrong_formula_rejected",
+      "actual": "1/3",
+      "wrong": "1"
+    },
+    {
+      "name": "Friedmann_defined_compactness",
+      "kind": "exact_identity",
+      "residual": "0"
+    },
+    {
+      "name": "Friedmann_compactness_H_derivative",
+      "kind": "exact_identity",
+      "residual": "0"
+    }
+  ],
+  "exposure": "Candidate and sources read; author code and outputs unread",
+  "limitations": "Product/Gauss curvature route differs from coordinate Ricci; shared standard geometry and SymPy; illustrative wrong-formula controls are not full harness mutation audit"
+}

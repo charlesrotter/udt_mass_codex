@@ -1,0 +1,15 @@
+{
+  "command": [
+    "python3",
+    "-c",
+    "from pathlib import Path\nimport csv,json,hashlib,subprocess\nroot=Path.cwd();p=root/'udt_machian_global_clock_feasibility_2026-09-28'\ndef git(*a):return subprocess.check_output(['git','-c','core.preloadIndex=false','-c','index.threads=1','-c','core.packedGitWindowSize=8m','-c','core.packedGitLimit=32m',*a])\nsha=lambda b:hashlib.sha256(b).hexdigest()\ndocs={'LIVE.md','HANDOFF.md','CURRENT_RESEARCH_PROGRAM.md','MEMORY.md','INDEX.md','UDT_RESEARCH_ROADMAP.md'}\npayload={str(f.relative_to(root)) for f in p.rglob('*') if f.is_file()}\nstaged=set(git('diff','--cached','--name-only').decode().splitlines())\nassert staged==payload|docs,sorted(staged.symmetric_difference(payload|docs))\nassert not git('diff','--name-only').strip()\nfor name in staged:assert git('show',':'+name)==(root/name).read_bytes(),name\nwith (p/'SHA256_MANIFEST.tsv').open() as f:\n rows=list(csv.DictReader(f,delimiter='\\t'))\nfor row in rows:\n b=(p/row['path']).read_bytes();assert sha(b)==row['sha256'] and len(b)==int(row['bytes']),row['path']\nassert {row['path'] for row in rows}|{'SHA256_MANIFEST.tsv'}=={str(f.relative_to(p)) for f in p.rglob('*') if f.is_file()}\nfor name,h in json.loads((p/'review/FINAL_FIDELITY_SEAL.json').read_text())['sha256'].items():assert sha(git('show',':'+name))==h,name\nlaunch=json.loads((p/'LAUNCH.json').read_text())\nprior=git('ls-files','--others','--exclude-standard').decode().splitlines()\nassert sorted(prior)==sorted(launch['prior_untracked_paths'])\nassert git('rev-parse','HEAD').strip()==git('rev-parse','origin/grok').strip()==launch['head'].encode()\ngit('diff','--cached','--check')\nprint(json.dumps({'status':'PASS','staged_files':len(staged),'package_files':len(payload),'maintained_pointers':len(docs),'manifest_payloads':len(rows),'every_staged_blob_matches_disk':True,'all_final_fidelity_pins_match_staged_bytes':True,'prior_untracked_names_preserved':len(prior),'tracked_unstaged_changes':False,'commit_push':'pending'},indent=2))\n"
+  ],
+  "cwd": "/home/udt-admin/udt_mass_codex",
+  "started_utc": "2026-09-28T22:09:10.109368+00:00",
+  "duration_seconds": 0.5329220540006645,
+  "returncode": 0,
+  "timeout": false,
+  "address_space_bytes": 536870912,
+  "cpu_seconds": 60,
+  "maxrss_kib": 17664
+}

@@ -100,10 +100,27 @@ Attachment audit/archive: INDEX.
 
 ## Current next gate
 
-ICN1 is complete, reviewed conditional UNPROMOTED. The active question is:
+MGC1 is complete, reviewed conditional UNPROMOTED. The active question remains:
 **what quantitative interframe relation follows from UDT's admitted geometry
 and premises for actual observers and signal paths?** Ordinary local proper
 clocks and accepted c_E/G_obs inputs are already available.
+
+### Machian scale and clock geometry — latest return
+
+MGC1 tests Charles's Machian lead while retaining c_E/G_obs as accepted inputs.
+A separately justified Q=G_obs M/(c_E^2 L)=q_* plus independently meaningful
+mass or density could attach scale. Co-scaling geometric mass and length may
+leave Q unchanged; defining one from the other is not an independent law.
+G275/G276 already own the general independent-anchor distinction.
+
+An external Einstein-static GR control has a mass–size relation and no preferred
+spatial center, yet its stationary dust-rest clocks have Z=1. This is no native
+UDT counterexample. It shows why broad mass/size ingredients alone do not force
+clock slowing. The named source chain still lacks an owned physical matter–geometry
+relation constraining the actual clock family; no new premise is proved necessary.
+No radius is identified with X_max, and FSL1's directional asymptotic test remains.
+[Reviewed scope](udt_machian_global_clock_feasibility_2026-09-28/REVIEWED_RESULT.md);
+[lay return](udt_machian_global_clock_feasibility_2026-09-28/DECISION_BRIEF.md).
 
 ### Forward prediction and inverse reconstruction
 
@@ -140,7 +157,7 @@ from accepting the constants. Ordinary local clocks require no added slowing.
 ### Trajectory of the recent work
 
 This map groups reusable results by purpose. It is not a new dependency theorem
-or authorization to resume a completed campaign. All nine returns are reviewed
+or authorization to resume a completed campaign. All ten returns are reviewed
 conditional (OFS1 also empirical) and UNPROMOTED; original reviews own exact scope.
 INDEX routes each package's REVIEWED_RESULT, DECISION_BRIEF and CLOSEOUT.
 
@@ -155,6 +172,7 @@ INDEX routes each package's REVIEWED_RESULT, DECISION_BRIEF and CLOSEOUT.
 | Compute finite clock comparisons | FSL1: directional, full-frame null-clock composition and exact asymptotic test | Supplied geometry and regular matched null query; approaching projective saturation alone does not realize the physical asymptote |
 | Vary the complete comparison | FCV1: arrival/ray/clock/protocol derivative and interior-response witness | One nonzero measurement derivative cannot directly be a smooth local DDR tensor; this is not a no-go for local equations or other reconstructions |
 | Compare an actual clock network | ICN1: two-way radar relation and restricted longitudinal metric/gradient reconstruction | Native pair/distance law remains OPEN; no generic4D reconstruction or selected intrinsic scale |
+| Test the Machian scale lead | MGC1: conditional physical-mass/density attachment, scaling test and external clock controls | No native matter–geometry–clock law or physical X_max; scale attachment alone does not select the clock curve |
 
 Detailed response-class algebra stays in its reviewed sources, reachable through
 INDEX. RMS1/GRS1 classify the trace-free part only under their full naturality,
@@ -167,10 +185,10 @@ local-E gate before developing the interframe comparison.
 ### Next discussion and stopping boundary
 
 Choose a specific unexamined restriction on physical pair assignment or allowed
-geometry, and say what it adds beyond FSL1/FCV1/ICN1. Existing reconstruction and
+geometry, and say what it adds beyond FSL1/FCV1/ICN1/MGC1. Existing reconstruction and
 comparison formulas supply checks for that work; repeating them alone does not
 supply the missing law. No particular new ansatz or derivation is authorized by
-this organizational cleanup. A future bounded proposal follows the work-order
+the completed Machian feasibility study. A future bounded proposal follows the work-order
 and review cycle in UDT_RESEARCH_ROADMAP; it may return a conditional implication,
 a refutation or a precise unresolved join without claiming full closure.
 
@@ -184,7 +202,7 @@ Carrier/mass/source branches retain their existing authority and pauses.
 DCR1 reviewed conditional UNPROMOTED: directional clocks permit central tides in its supplied static class
 under full G301 at an eligible center; no neighborhood field equation; FE1 UNADOPTED.
 G312 membership/native admission unclosed; response identification OPEN; G352 physical-realization: physical identification remains OPEN.
-Stop for lay discussion. ICN1 is complete; no new campaign is authorized;
+Stop for lay discussion. MGC1 is complete; no new campaign is authorized;
 work order and return gates: `UDT_RESEARCH_ROADMAP.md`.
 Completed chronology: `archive/roadmap_history_2026-09-28/README.md`.
 

@@ -1,0 +1,7 @@
+Traceback (most recent call last):
+  File "<string>", line 1, in <module>
+  File "/home/udt-admin/udt_mass_codex/udt_machian_global_clock_feasibility_2026-09-28/check_machian.py", line 49, in <module>
+    eq('measure_normalization_transfer_ratio',(lam*(mu1+mu2)/J2)/(lam*(mu1+mu2)/J1),J1/J2)
+  File "/home/udt-admin/udt_mass_codex/udt_machian_global_clock_feasibility_2026-09-28/check_machian.py", line 23, in eq
+    rr=residual(a,b);assert all(x==0 for x in rr),(name,rr);checks[name]=True
+AssertionError: ('measure_normalization_transfer_ratio', [3/7])

@@ -45,8 +45,13 @@ G388--G389 conditional, compact-sector mixed-C2/analytic-local tangent limits; o
 
 Use CURRENT_RESEARCH_PROGRAM for the connected explanation. Open the following
 exact source only for the question it addresses; none is a new startup prerequisite.
-ICN1/FCV1/FSL1/CRV1/RMS1/GRS1/CRD1/CGW1/OFS1 remain reviewed UNPROMOTED; their source reviews control.
+MGC1/ICN1/FCV1/FSL1/CRV1/RMS1/GRS1/CRD1/CGW1/OFS1 remain reviewed UNPROMOTED; their source reviews control.
 
+- MGC1 Machian global clock feasibility, reviewed conditional UNPROMOTED:
+  `udt_machian_global_clock_feasibility_2026-09-28/DECISION_BRIEF.md`.
+  Independent physical scale attachment versus co-scaling geometric mass;
+  external GR controls do not select native clock geometry or physical X_max.
+  Source credit, full scope, checks and review: REVIEWED_RESULT and CLOSEOUT.
 - ICN1 actual interframe clock network, reviewed conditional UNPROMOTED:
   `udt_interframe_clock_network_2026-09-28/DECISION_BRIEF.md`.
   Echo/radar restriction, conditional longitudinal metric/gradient reconstruction,

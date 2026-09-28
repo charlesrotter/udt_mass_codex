@@ -1,0 +1,23 @@
+{
+  "utc": "2026-09-28T22:07:17.952213+00:00",
+  "stage": "FINAL_FIDELITY_VERIFIED_WITH_CAVEATS_ZERO_PROSE_CORRECTIONS",
+  "head": "e569de0a06849c4c97bceb9898ee3a64dae9932c",
+  "scope": "three summaries and six maintained pointers; final parent staging/commit/push checks pending",
+  "sha256": {
+    "udt_machian_global_clock_feasibility_2026-09-28/REVIEWED_RESULT.md": "9102fcf8b97e0b168ca23cf98e9ad6ebf45c04073e02dd8120c8cb7934f6a7e3",
+    "udt_machian_global_clock_feasibility_2026-09-28/DECISION_BRIEF.md": "d63fee386e00f70a2a80c59623bfb84e80019aece567d73aa16d5feec3fd8010",
+    "udt_machian_global_clock_feasibility_2026-09-28/CLOSEOUT.md": "2986133a5c276031e87aa0598b67acbcdddad8821eabfebfd955e2d8d2738563",
+    "LIVE.md": "0dd06530c8105273a7c3978bdc8f1224cc908719d8c823ef0783b2847a0b86df",
+    "HANDOFF.md": "6310350e7e110fb02c48f0d6fbc04d1fdb26d37b4f7272b2c7a92a767e0b2480",
+    "CURRENT_RESEARCH_PROGRAM.md": "d22be05e8f16e014dc6815ed5cbd37b14f31debe106436d4424ed2e60e7db24a",
+    "MEMORY.md": "9fb7ceb84011db348496bfad8e7baa4c3fd7419b78cfa9420a10a1455be0cabf",
+    "INDEX.md": "1193eaf98ca0156b01a24a6291295996ec6d19f45a67b78c7cc47358be39ba45",
+    "UDT_RESEARCH_ROADMAP.md": "b88789a1359990e369d23745c283c3a71e69f5648c9c10315fd6aa29e7ba9aa4",
+    "udt_machian_global_clock_feasibility_2026-09-28/INITIAL_CANDIDATE.md": "431610fc8e8d7672447b879f327272c257de74635e902e76c120de2f041dbf79",
+    "udt_machian_global_clock_feasibility_2026-09-28/CANDIDATE_FREEZE.json": "3dc7fd38ecadd44051aef9dce22b50da44847523b314a8a662aae2d7c9587f72",
+    "udt_machian_global_clock_feasibility_2026-09-28/SOURCE_MAP.md": "0297763bdccf42ae91dd89df801ac7a983b3e61d5ef2fca0f4af5157e2ac6466",
+    "udt_machian_global_clock_feasibility_2026-09-28/review/DIRECT_REVIEW.md": "a5826c06adf30ce787834a45f1e39772999f9f1465bb048c03e07e777990a353",
+    "udt_machian_global_clock_feasibility_2026-09-28/review/DIRECT_REVIEW_SEAL.json": "b66016bb0128f89d6f90da2fa489c3586ff7673acc313bfb4039d03a72333bba",
+    "udt_machian_global_clock_feasibility_2026-09-28/review/FINAL_FIDELITY.md": "f475bebe1dc994b295b526f8fb5aa3744dff55bf058861079335ee0cd4d014ce"
+  }
+}

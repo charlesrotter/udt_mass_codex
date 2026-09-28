@@ -1,0 +1,142 @@
+{
+  "status": "PASS_EXPECTED_FAILURES",
+  "total": 9,
+  "records": [
+    {
+      "name": "fixed_mass",
+      "changed_expression": [
+        "Q.subs(L,G*M/(q*c**2))",
+        "Q.subs(L,G*M/(2*q*c**2))"
+      ],
+      "command": [
+        "/usr/bin/python3",
+        "-c",
+        "from pathlib import Path; p=Path('/home/udt-admin/udt_mass_codex/udt_machian_global_clock_feasibility_2026-09-28/review/mutations/fixed_mass.py'); exec(compile(p.read_text(),'/home/udt-admin/udt_mass_codex/udt_machian_global_clock_feasibility_2026-09-28/check_machian.py','exec'),{'__file__':'/home/udt-admin/udt_mass_codex/udt_machian_global_clock_feasibility_2026-09-28/check_machian.py','__name__':'__main__'})"
+      ],
+      "returncode": 1,
+      "expected_assertion": "fixed_mass_scale",
+      "expected_failure_observed": true
+    },
+    {
+      "name": "fixed_density",
+      "changed_expression": [
+        "L,c*S.sqrt(q/(C*G*rho))",
+        "L,2*c*S.sqrt(q/(C*G*rho))"
+      ],
+      "command": [
+        "/usr/bin/python3",
+        "-c",
+        "from pathlib import Path; p=Path('/home/udt-admin/udt_mass_codex/udt_machian_global_clock_feasibility_2026-09-28/review/mutations/fixed_density.py'); exec(compile(p.read_text(),'/home/udt-admin/udt_mass_codex/udt_machian_global_clock_feasibility_2026-09-28/check_machian.py','exec'),{'__file__':'/home/udt-admin/udt_mass_codex/udt_machian_global_clock_feasibility_2026-09-28/check_machian.py','__name__':'__main__'})"
+      ],
+      "returncode": 1,
+      "expected_assertion": "density_scale",
+      "expected_failure_observed": true
+    },
+    {
+      "name": "elapsed_time",
+      "changed_expression": [
+        "fl=lam*f(t/lam)",
+        "fl=f(t/lam)"
+      ],
+      "command": [
+        "/usr/bin/python3",
+        "-c",
+        "from pathlib import Path; p=Path('/home/udt-admin/udt_mass_codex/udt_machian_global_clock_feasibility_2026-09-28/review/mutations/elapsed_time.py'); exec(compile(p.read_text(),'/home/udt-admin/udt_mass_codex/udt_machian_global_clock_feasibility_2026-09-28/check_machian.py','exec'),{'__file__':'/home/udt-admin/udt_mass_codex/udt_machian_global_clock_feasibility_2026-09-28/check_machian.py','__name__':'__main__'})"
+      ],
+      "returncode": 1,
+      "expected_assertion": "rescaled_arrival_map",
+      "expected_failure_observed": true
+    },
+    {
+      "name": "label_density",
+      "changed_expression": [
+        "(lam*(mu1+mu2)/J2)/(lam*(mu1+mu2)/J1)",
+        "(2*lam*(mu1+mu2)/J2)/(lam*(mu1+mu2)/J1)"
+      ],
+      "command": [
+        "/usr/bin/python3",
+        "-c",
+        "from pathlib import Path; p=Path('/home/udt-admin/udt_mass_codex/udt_machian_global_clock_feasibility_2026-09-28/review/mutations/label_density.py'); exec(compile(p.read_text(),'/home/udt-admin/udt_mass_codex/udt_machian_global_clock_feasibility_2026-09-28/check_machian.py','exec'),{'__file__':'/home/udt-admin/udt_mass_codex/udt_machian_global_clock_feasibility_2026-09-28/check_machian.py','__name__':'__main__'})"
+      ],
+      "returncode": 1,
+      "expected_assertion": "measure_normalization_transfer_ratio",
+      "expected_failure_observed": true
+    },
+    {
+      "name": "Friedmann",
+      "changed_expression": [
+        "rhoc=3*H**2/(8*S.pi*G)",
+        "rhoc=6*H**2/(8*S.pi*G)"
+      ],
+      "command": [
+        "/usr/bin/python3",
+        "-c",
+        "from pathlib import Path; p=Path('/home/udt-admin/udt_mass_codex/udt_machian_global_clock_feasibility_2026-09-28/review/mutations/Friedmann.py'); exec(compile(p.read_text(),'/home/udt-admin/udt_mass_codex/udt_machian_global_clock_feasibility_2026-09-28/check_machian.py','exec'),{'__file__':'/home/udt-admin/udt_mass_codex/udt_machian_global_clock_feasibility_2026-09-28/check_machian.py','__name__':'__main__'})"
+      ],
+      "returncode": 1,
+      "expected_assertion": "flat_friedmann_compactness_identity",
+      "expected_failure_observed": true
+    },
+    {
+      "name": "dust_density",
+      "changed_expression": [
+        "rhoE=c*c/(4*S.pi*G*a*a)",
+        "rhoE=c*c/(8*S.pi*G*a*a)"
+      ],
+      "command": [
+        "/usr/bin/python3",
+        "-c",
+        "from pathlib import Path; p=Path('/home/udt-admin/udt_mass_codex/udt_machian_global_clock_feasibility_2026-09-28/review/mutations/dust_density.py'); exec(compile(p.read_text(),'/home/udt-admin/udt_mass_codex/udt_machian_global_clock_feasibility_2026-09-28/check_machian.py','exec'),{'__file__':'/home/udt-admin/udt_mass_codex/udt_machian_global_clock_feasibility_2026-09-28/check_machian.py','__name__':'__main__'})"
+      ],
+      "returncode": 1,
+      "expected_assertion": "static_original_Einstein_equation",
+      "expected_failure_observed": true
+    },
+    {
+      "name": "Lambda",
+      "changed_expression": [
+        "Lambda=1/a**2",
+        "Lambda=2/a**2"
+      ],
+      "command": [
+        "/usr/bin/python3",
+        "-c",
+        "from pathlib import Path; p=Path('/home/udt-admin/udt_mass_codex/udt_machian_global_clock_feasibility_2026-09-28/review/mutations/Lambda.py'); exec(compile(p.read_text(),'/home/udt-admin/udt_mass_codex/udt_machian_global_clock_feasibility_2026-09-28/check_machian.py','exec'),{'__file__':'/home/udt-admin/udt_mass_codex/udt_machian_global_clock_feasibility_2026-09-28/check_machian.py','__name__':'__main__'})"
+      ],
+      "returncode": 1,
+      "expected_assertion": "static_original_Einstein_equation",
+      "expected_failure_observed": true
+    },
+    {
+      "name": "volume",
+      "changed_expression": [
+        "vol=S.integrate(a**3*S.sin(chi)**2*S.sin(theta),(phi,0,2*S.pi),(theta,0,S.pi),(chi,0,S.pi))",
+        "vol=4*S.pi*a**3/3"
+      ],
+      "command": [
+        "/usr/bin/python3",
+        "-c",
+        "from pathlib import Path; p=Path('/home/udt-admin/udt_mass_codex/udt_machian_global_clock_feasibility_2026-09-28/review/mutations/volume.py'); exec(compile(p.read_text(),'/home/udt-admin/udt_mass_codex/udt_machian_global_clock_feasibility_2026-09-28/check_machian.py','exec'),{'__file__':'/home/udt-admin/udt_mass_codex/udt_machian_global_clock_feasibility_2026-09-28/check_machian.py','__name__':'__main__'})"
+      ],
+      "returncode": 1,
+      "expected_assertion": "S3_volume",
+      "expected_failure_observed": true
+    },
+    {
+      "name": "clock_ratio",
+      "changed_expression": [
+        "Z=S.diff(arrival,t)",
+        "Z=2*S.diff(arrival,t)"
+      ],
+      "command": [
+        "/usr/bin/python3",
+        "-c",
+        "from pathlib import Path; p=Path('/home/udt-admin/udt_mass_codex/udt_machian_global_clock_feasibility_2026-09-28/review/mutations/clock_ratio.py'); exec(compile(p.read_text(),'/home/udt-admin/udt_mass_codex/udt_machian_global_clock_feasibility_2026-09-28/check_machian.py','exec'),{'__file__':'/home/udt-admin/udt_mass_codex/udt_machian_global_clock_feasibility_2026-09-28/check_machian.py','__name__':'__main__'})"
+      ],
+      "returncode": 1,
+      "expected_assertion": "static_tick_ratio",
+      "expected_failure_observed": true
+    }
+  ],
+  "scope": "Actual mutated producer payloads; unchanged science/source files; author replay is regression only"
+}

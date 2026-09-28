@@ -1,0 +1,12 @@
+{
+  "status": "PASS",
+  "staged_files": 81,
+  "package_files": 75,
+  "maintained_pointers": 6,
+  "manifest_payloads": 74,
+  "every_staged_blob_matches_disk": true,
+  "all_final_fidelity_pins_match_staged_bytes": true,
+  "prior_untracked_names_preserved": 52,
+  "tracked_unstaged_changes": false,
+  "commit_push": "pending"
+}

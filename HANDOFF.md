@@ -93,28 +93,27 @@ Follow AGENTS; report actual instructions/checks and distinguish configured from
 Dated availability check COMPLETE: `archive/stale_working_documents_2026-09-27/maintenance_agent_capacity_2026-09-10.md`.
 General capacity UNVERIFIED; no automatic repeat. FSR1/PJC1 supplied no new field equation; Maxwell PAUSED.
 
-Next: ICN1 is complete, reviewed conditional UNPROMOTED. Current trajectory and open
-question: `CURRENT_RESEARCH_PROGRAM.md`, “Current next gate.” FSL1 already
-computes clock comparisons from supplied geometry/clocks/regular null paths;
-ICN1 reconstructs metric information from supplied timing only in its stated
-longitudinal sector. The native physical pair assignment and separation-dependent
-law remain OPEN. Ordinary local proper clocks and accepted c_E/G_obs inputs
+Next: MGC1 is complete, reviewed conditional UNPROMOTED. Current trajectory and open
+question: `CURRENT_RESEARCH_PROGRAM.md`, “Current next gate.” A justified
+mass–size relation plus an independent physical datum could fix scale; a
+co-scaling geometric mass may not. No native matter–geometry–clock law is derived.
+The external GR clock control is not a native UDT counterexample or new premise.
+
+Lay return: `udt_machian_global_clock_feasibility_2026-09-28/DECISION_BRIEF.md`;
+REVIEWED_RESULT and CLOSEOUT own the exact hypotheses, checks and review limits.
+FSL1 computes clock comparisons on supplied geometry; ICN1 reconstructs only
+its stated longitudinal sector. Native physical pair/separation assignment and
+physical X_max remain OPEN. Ordinary local clocks and accepted c_E/G_obs inputs
 remain in place; local-E identification is not a prerequisite for this route.
+DDR remains TF(E)=0, with physical E and native conservation OPEN.
 
-Lay return: `udt_interframe_clock_network_2026-09-28/DECISION_BRIEF.md`;
-REVIEWED_RESULT and CLOSEOUT own the full hypotheses, chronology repair and limits.
-Both matched legs being net redshifted forces increasing radar separation,
-without identifying an expansion mechanism. c_E calibrates measured delay;
-c_E/G_obs alone select no intrinsic length/time or source law. DDR remains
-TF(E)=0, with physical E and native conservation OPEN.
-
-INDEX routes all nine recent returns; the program groups their gains and limits.
+INDEX routes all ten recent returns; the program groups their gains and limits.
 Completed chronology: `archive/roadmap_history_2026-09-28/README.md`.
 Original source paths and grades remain fixed; old next-step language is historical.
 
 DCR1 reviewed conditional UNPROMOTED: directional clocks permit central tides in its supplied static class
 under full G301 at an eligible center; no neighborhood field equation; FE1 UNADOPTED.
 G312 membership/native admission unclosed; response identification OPEN; G352 physical-realization: physical identification remains OPEN.
-Stop for lay discussion. ICN1 is complete; no new campaign is authorized;
+Stop for lay discussion. MGC1 is complete; no new campaign is authorized;
 work order and return gates: `UDT_RESEARCH_ROADMAP.md`.
 <!-- STARTUP_CURRENT_END -->

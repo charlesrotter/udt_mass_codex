@@ -1,0 +1,24 @@
+{
+  "status": "PASS",
+  "scope": "startup regression, source/freeze and document correspondence; not scientific proof",
+  "head": "e569de0a06849c4c97bceb9898ee3a64dae9932c",
+  "unchanged_source_pins": 25,
+  "frozen_candidate_entries": 8,
+  "review_seals_checked": 3,
+  "maintained_pointers": 6,
+  "prior_untracked_names": 52,
+  "protected_payload_contents": "not read or certified",
+  "founding_opening_and_program_architecture": "byte-preserved",
+  "prior_owner_quotes_and_core_direction_sections": "preserved",
+  "local_links_checked": 23,
+  "full_premise_audit": "exit0/406 rows; original receipt inspected, no repeat",
+  "startup_guard": "PASS after pointer edits",
+  "pointer_sha256": {
+    "CURRENT_RESEARCH_PROGRAM.md": "d22be05e8f16e014dc6815ed5cbd37b14f31debe106436d4424ed2e60e7db24a",
+    "HANDOFF.md": "6310350e7e110fb02c48f0d6fbc04d1fdb26d37b4f7272b2c7a92a767e0b2480",
+    "INDEX.md": "1193eaf98ca0156b01a24a6291295996ec6d19f45a67b78c7cc47358be39ba45",
+    "LIVE.md": "0dd06530c8105273a7c3978bdc8f1224cc908719d8c823ef0783b2847a0b86df",
+    "MEMORY.md": "9fb7ceb84011db348496bfad8e7baa4c3fd7419b78cfa9420a10a1455be0cabf",
+    "UDT_RESEARCH_ROADMAP.md": "b88789a1359990e369d23745c283c3a71e69f5648c9c10315fd6aa29e7ba9aa4"
+  }
+}

@@ -1,6 +1,6 @@
 # UDT research roadmap — current direction
 
-Updated 2026-09-28: trajectory cleanup after ICN1. This is a direction document, not scientific
+Updated 2026-09-28: Machian feasibility return after MGC1. This is a direction document, not scientific
 premise authority or research authorization. LIVE controls operational status;
 the exact registry and original reviewed sources control grades and scope.
 AGENTS controls method. Charles canonizes; CANON is unchanged.
@@ -12,21 +12,21 @@ This roadmap does not duplicate their detailed derivations or premise inventory.
 
 ## Current return and next discussion
 
-ICN1 is complete, reviewed conditional UNPROMOTED:
-[lay return](udt_interframe_clock_network_2026-09-28/DECISION_BRIEF.md) and
-[reviewed result](udt_interframe_clock_network_2026-09-28/REVIEWED_RESULT.md).
+MGC1 is complete, reviewed conditional UNPROMOTED:
+[lay return](udt_machian_global_clock_feasibility_2026-09-28/DECISION_BRIEF.md) and
+[reviewed result](udt_machian_global_clock_feasibility_2026-09-28/REVIEWED_RESULT.md).
 The [program's current gate](CURRENT_RESEARCH_PROGRAM.md#current-next-gate)
-owns the connected explanation and nine-result trajectory. FSL1 calculates
-clock comparisons from supplied geometry and actual matched null queries;
-ICN1 reconstructs part of the geometry from timing only in its specified
-longitudinal sector. Their mathematical content and limits remain unchanged.
+owns the connected explanation and ten-result trajectory. A justified physical
+mass–size relation with independent data could attach scale; no native relation
+constraining the actual clock family or physical X_max was derived. The external
+GR controls are comparisons, not native UDT histories or adopted dynamics.
 
-The latest lay clarification asks for UDT's native quantitative relation for
-actual observers and paths. It does not claim that forward clock calculation
-from a specified geometry is missing, or that ordinary local clocks need an
-extra premise. Native physical pair assignment remains OPEN. A future question
-must add something beyond evaluating supplied geometry or reconstructing supplied
-records. No successor is authorized by the completed ICN1 cycle or this cleanup.
+FSL1's forward clock calculation and ICN1's restricted reconstruction remain
+available. Ordinary local clocks require no extra premise. Native physical pair
+assignment remains OPEN; no new premise has been proved necessary. A successor
+must identify a specific implication beyond evaluating supplied geometry,
+reconstructing supplied records or repeating scale attachment. This completed
+study authorizes no automatic successor.
 
 Response selection, pair assignment, a chosen signal/measurement interface,
 empirical correspondence and global asymptotic completion are distinct questions.
@@ -40,6 +40,19 @@ not established from filter-only GR. Current authority:
 `udt_gr_filter_reconciliation_2026-09-09/AUTHORITY_RECORD.md`.
 No physical response definition, nonzero normalization or scale symmetry is
 supplied by this roadmap. Current sources own all mathematical hypotheses.
+
+## Machian investigative direction — 2026-09-28
+
+Charles asked:
+
+> In many ways all of UDT ideas were inspired by a Machian view of the universe, that c_E must somehow be a measure or a consequence of the size and mass of the universe.  Does this idea lead to any methods that may allow us to unravel the geometry of clock dilation and x_max?
+
+His “proceed” authorized MGC1's bounded source audit, analytic feasibility study,
+exact checks, fresh separate-context review and bounded same-premise repair cycle.
+This records inspiration and investigative direction, not a new physical mass law
+or a requirement to derive c_E before using it. MGC1 returned the conditional
+scale test and unresolved matter–geometry–clock join above. No native law,
+new source coupling, global mass/radius or X_max realization is adopted.
 
 ## Accepted calibration inputs — 2026-09-28
 
@@ -126,7 +139,7 @@ A targeted consequence or discriminator is legitimate without a complete theory
 of light, a unique history or all field equations. Repeating a completed identity
 or nonselection result is not a new connection. Scientific promotion or a proposed
 physical premise needs its own authority; committing a conditional result preserves
-it without changing its grade. This documentation cleanup launches no solve.
+it without changing its grade. This completed return launches no successor.
 
 ## Data-guided discovery with native derivation — 2026-09-28
 
@@ -237,7 +250,7 @@ GW procedure is parked. Completed clock/complementary campaigns are not restarte
 Full branch limits and protected local-work instructions remain in LIVE/AGENTS.
 
 The [recent-work trajectory](CURRENT_RESEARCH_PROGRAM.md#trajectory-of-the-recent-work)
-connects the nine completed OFS1-to-ICN1 returns by purpose; INDEX owns their
+connects the ten completed OFS1-to-MGC1 returns by purpose; INDEX owns their
 source routes. Review those exact limits before proposing a successor. Earlier
 admitted mathematics remains available through the exact banking records.
 

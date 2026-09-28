@@ -1,0 +1,13 @@
+{
+  "scope": "candidate and author exact checks frozen before direct review; disclosed pre-freeze reasoning in work order",
+  "sha256": {
+    "INITIAL_CANDIDATE.md": "431610fc8e8d7672447b879f327272c257de74635e902e76c120de2f041dbf79",
+    "check_machian.py": "6fdce3735757a8a493dc783e4f6ed7233e45ceff4ceb41fe9cfab31891226f98",
+    "checks/analytic.json": "3df4f8dbe6830d67cca1af0c9b3df122a2e3e3bffb313b3af5221054a0ba5dce",
+    "checks/analytic.stdout": "3a0fbfbdc21e1dadd0995f1ec1b3931369b5c9e6efdfeb7eb1fbb84b42803d0e",
+    "checks/analytic.stderr": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "WORK_ORDER.md": "e7d1753a9d4e0f3b90e3ae53cb210142e2d610438c943ff41fe9d805c5252459",
+    "LAUNCH.json": "f4209b5109e7babb93a149a17156212e45ee70cf623936bfc75df319983a6501",
+    "ADDITIONAL_SOURCE_PINS.json": "fcdc2e0899c722ebac1b75134ca189d7dce6083a32a79384e4692399eccd90a4"
+  }
+}

@@ -1,0 +1,158 @@
+{
+  "status": "PASS",
+  "python": "3.10.12",
+  "sympy": "1.13.1",
+  "checks": [
+    {
+      "name": "Gamma_x_tt",
+      "kind": "exact_identity",
+      "residual": "0"
+    },
+    {
+      "name": "static_clock_geodesic_pi/2_0",
+      "kind": "exact_identity",
+      "residual": "0"
+    },
+    {
+      "name": "static_clock_geodesic_pi/2_1",
+      "kind": "exact_identity",
+      "residual": "0"
+    },
+    {
+      "name": "static_clock_geodesic_pi/2_2",
+      "kind": "exact_identity",
+      "residual": "0"
+    },
+    {
+      "name": "static_clock_geodesic_pi/2_3",
+      "kind": "exact_identity",
+      "residual": "0"
+    },
+    {
+      "name": "static_clock_geodesic_3*pi/2_0",
+      "kind": "exact_identity",
+      "residual": "0"
+    },
+    {
+      "name": "static_clock_geodesic_3*pi/2_1",
+      "kind": "exact_identity",
+      "residual": "0"
+    },
+    {
+      "name": "static_clock_geodesic_3*pi/2_2",
+      "kind": "exact_identity",
+      "residual": "0"
+    },
+    {
+      "name": "static_clock_geodesic_3*pi/2_3",
+      "kind": "exact_identity",
+      "residual": "0"
+    },
+    {
+      "name": "slice_volume",
+      "kind": "exact_identity",
+      "residual": "0"
+    },
+    {
+      "name": "volume_lapse_independence",
+      "kind": "exact_identity",
+      "residual": "0"
+    },
+    {
+      "name": "supplied_density_integral_lapse_independence",
+      "kind": "exact_identity",
+      "residual": "0"
+    },
+    {
+      "name": "stationary_interval_ratio_from_arrival",
+      "kind": "exact_identity",
+      "residual": "0"
+    },
+    {
+      "name": "torus_endpoint_clock_ratio",
+      "kind": "exact_identity",
+      "residual": "0"
+    },
+    {
+      "name": "actual_stationary_return_product",
+      "kind": "exact_identity",
+      "residual": "0"
+    },
+    {
+      "name": "same_integral_implies_same_clocks",
+      "kind": "wrong_formula_rejected",
+      "actual": "1/2",
+      "wrong": "1"
+    },
+    {
+      "name": "clock_ratio_inverted",
+      "kind": "wrong_formula_rejected",
+      "actual": "1/2",
+      "wrong": "2"
+    },
+    {
+      "name": "measure_normalization_cancels_transfer",
+      "kind": "exact_identity",
+      "residual": "0"
+    },
+    {
+      "name": "conservation_selects_source_magnitude",
+      "kind": "wrong_formula_rejected",
+      "actual": "21",
+      "wrong": "3"
+    },
+    {
+      "name": "directional_boundary_family",
+      "kind": "exact_rational_controls",
+      "cases": [
+        {
+          "k": 2,
+          "r": "3/5",
+          "parallel_Z": "1/2",
+          "transverse_Z": "5/4"
+        },
+        {
+          "k": 3,
+          "r": "4/5",
+          "parallel_Z": "1/3",
+          "transverse_Z": "5/3"
+        },
+        {
+          "k": 7,
+          "r": "24/25",
+          "parallel_Z": "1/7",
+          "transverse_Z": "25/7"
+        },
+        {
+          "k": 100,
+          "r": "9999/10001",
+          "parallel_Z": "1/100",
+          "transverse_Z": "10001/200"
+        }
+      ]
+    },
+    {
+      "name": "boundary_norm_forces_redshift",
+      "kind": "wrong_formula_rejected",
+      "actual": "1/100",
+      "wrong": "10001/200"
+    },
+    {
+      "name": "geometric_mass_homothety_compactness",
+      "kind": "exact_identity",
+      "residual": "0"
+    },
+    {
+      "name": "fixed_independent_mass_compactness_weight",
+      "kind": "exact_identity",
+      "residual": "0"
+    },
+    {
+      "name": "compactness_unit_invariance",
+      "kind": "exact_identity",
+      "residual": "0"
+    }
+  ],
+  "total": 24,
+  "ceiling": "SUPPLIED_GEOMETRY_SEPARATORS_AND_EXACT_CONSISTENCY_ONLY; NO_NATIVE_ADMISSION_OR_NO_GO"
+}

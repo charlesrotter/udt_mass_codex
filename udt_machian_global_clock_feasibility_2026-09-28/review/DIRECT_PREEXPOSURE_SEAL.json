@@ -1,0 +1,13 @@
+{
+  "utc": "2026-09-28T21:58:49.532696+00:00",
+  "stage": "INDEPENDENT_DIRECT_CHECKS_SEALED_BEFORE_AUTHOR_CODE_AND_OUTPUT_EXPOSURE",
+  "sha256": {
+    "udt_machian_global_clock_feasibility_2026-09-28/INITIAL_CANDIDATE.md": "431610fc8e8d7672447b879f327272c257de74635e902e76c120de2f041dbf79",
+    "udt_machian_global_clock_feasibility_2026-09-28/CANDIDATE_FREEZE.json": "3dc7fd38ecadd44051aef9dce22b50da44847523b314a8a662aae2d7c9587f72",
+    "udt_machian_global_clock_feasibility_2026-09-28/review/DIRECT_PREEXPOSURE.md": "02d834fc4f06f5e601f04fec337674d5fc4206d4781163b99dfeb6d6a6f0b081",
+    "udt_machian_global_clock_feasibility_2026-09-28/review/direct_independent_checks.py": "0826ecad71cd63f9f5252c3713b46bb0af9acbb69477411b7c9cb10427191dfb",
+    "udt_machian_global_clock_feasibility_2026-09-28/review/direct_independent_run.stdout": "397325b471f0f9545c5823d30945fe335f53dbdba6a8d64f705f47fa1c3cf355",
+    "udt_machian_global_clock_feasibility_2026-09-28/review/direct_independent_run.stderr": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "udt_machian_global_clock_feasibility_2026-09-28/review/direct_independent_run.json": "fa4701d682c6e0111438b6dec4e9dd4eef60852ba08c44e38b257f88a91dc949"
+  }
+}
