@@ -1,0 +1,13 @@
+{
+  "sealed_utc": "2026-09-28T18:59:00.276274+00:00",
+  "new_candidate_exposed": false,
+  "files": {
+    "udt_finite_clock_metric_variation_2026-09-28/review/SOURCE_FIRST_PLAN.md": "2d4c49059d99caf7a0843985742220919beb9d29d6a3fa8af8e55d0d3cc5d190",
+    "udt_finite_clock_metric_variation_2026-09-28/review/source_first_check.json": "0ea0d3275748ff8a02048e613f00ab4b65314d73828fac51953ddfe950fd3a49",
+    "udt_finite_clock_metric_variation_2026-09-28/review/SOURCE_FIRST.md": "bdd0d14db5c8715e0741062b8191dfad7ae6dd2a0c742dee14b582522726c8a8",
+    "udt_finite_clock_metric_variation_2026-09-28/review/source_first_check.stderr": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "udt_finite_clock_metric_variation_2026-09-28/review/SOURCE_PINS.json": "af0b640ae789dad3d102953257db43dd1bcdd07e6daf492158576da5fb048c05",
+    "udt_finite_clock_metric_variation_2026-09-28/review/source_first_exact.py": "8efaec1922190dd835b643f51535efe7c4486d328ef83558bafccf343d185ddd",
+    "udt_finite_clock_metric_variation_2026-09-28/review/source_first_check.stdout": "c1d8d378d719bf387bd0432b4af763047a457866d32bdd1f45536b154b09c155"
+  }
+}

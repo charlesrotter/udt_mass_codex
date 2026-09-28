@@ -1,0 +1,13 @@
+{
+  "frozen_utc": "2026-09-28T19:00:07.723070+00:00",
+  "candidate_and_checks": {
+    "WORK_ORDER.md": "7fa9becc457cb2e016ad87efdd16894eef822c311a573b78de206fa1d71010fa",
+    "INITIAL_CANDIDATE.md": "ed65323a439e1d509bc0241c6550a5485e3f1a496b06b6ab01eb34692443d1d4",
+    "check_clock_variation.py": "cd243268ef668087b3cffa33140424a78d892fc7c0c45b66ee99907acd31becf",
+    "checks/clock_variation.json": "6698e88c1b4e1a58d7c4a4638f05c58fd4702fb7001325863daac0a8d3de3bb2",
+    "checks/clock_variation.stdout": "e0d706227964f3ff609391eaf9431af2e3b7bf608acca8d48df73a0e29ff82a5",
+    "checks/clock_variation.stderr": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "SCOPED_REGISTRY.json": "ee0e5815b2b180cc92ecde1c7ebffecb840c78c3eb46d85b6a1a4b237886fe0f"
+  },
+  "discovery": "Candidate built after explicit analytic exploration; exact controls then passed before direct review. No observation or fit. Original geodesic first-variation proof and smooth bump argument own general results; polynomial control does not claim identical endpoint jets."
+}

@@ -1,6 +1,6 @@
 # UDT research roadmap — current direction
 
-Updated 2026-09-28 after FSL1. This is a direction document, not scientific
+Updated 2026-09-28 after FCV1. This is a direction document, not scientific
 premise authority or research authorization. LIVE controls operational status;
 the exact registry and original reviewed sources control grades and scope.
 AGENTS controls method. Charles canonizes; CANON is unchanged.
@@ -12,17 +12,17 @@ This roadmap does not duplicate their detailed derivations or premise inventory.
 
 ## Current return and next discussion
 
-FSL1 is complete: [lay return](udt_finite_separation_law_2026-09-28/DECISION_BRIEF.md)
-and [reviewed result](udt_finite_separation_law_2026-09-28/REVIEWED_RESULT.md).
-It connects existing metric/frame/null-clock results into a universal-form finite
-comparison rule and derives an exact directional condition for the redshift
-asymptote. The rule needs supplied geometry, observers and a regular null query;
-it does not select physical relations or a native metric response. The full
-projective boundary alone is insufficient to realize the owner's intended limit.
-CRV1/RMS1 response routes retain all hypotheses and remain available through INDEX.
-DDR remains TF(E)=0, not E=0; no conservation or action premise is newly adopted.
-The next target is a justified metric-response connection tested with full clock,
-ray/frame and curvature data. No successor is authorized.
+FCV1 is complete: [lay return](udt_finite_clock_metric_variation_2026-09-28/DECISION_BRIEF.md)
+and [reviewed result](udt_finite_clock_metric_variation_2026-09-28/REVIEWED_RESULT.md).
+It derives the full finite-clock response to metric/protocol changes, retaining
+arrival, ray and calibration terms. Same-map inverse reciprocity remains an
+identity; one measurement derivative does not directly identify the smooth local
+response in DDR. The scoped obstruction does not exclude local field equations
+or other justified response reconstructions. No dynamical candidate was obtained.
+FSL1's conditional asymptotic test and CRV1/RMS1 response routes retain their
+hypotheses through INDEX. DDR remains TF(E)=0, not E=0; no new physical premise
+is adopted. A successor needs a defended response identification or reconstruction
+procedure beyond repeating clock-map consistency. No successor is authorized.
 
 Keep the open questions distinct: native response selection, physical event/path-
 to-depth assignment, a chosen observable's signal/measurement connection, empirical
@@ -54,6 +54,11 @@ the founding positional interpretation retain their existing provisional status;
 these words do not adopt a new field equation, physical null protocol or profile.
 The geometric asymptotic criterion is a constraint for candidate development,
 not evidence that the intended physical asymptote has been realized.
+
+Charles subsequently authorized the proposed finite-clock metric-variation
+derivation with “proceeed.” FCV1 completed that bounded construction/check/review
+cycle. Its failed direct identification is preserved as a specific result; it
+does not establish that a new physical postulate is necessary.
 
 ## Direction for the next bounded question
 

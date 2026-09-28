@@ -1,0 +1,19 @@
+{
+  "status": "PASS",
+  "evidence": "correspondence/preservation only",
+  "prior_untracked_paths_preserved": 52,
+  "registry_rows_unchanged": 406,
+  "selected_rows_verified": 4,
+  "candidate_pins": 7,
+  "review_seals_verified": 3,
+  "maintained": [
+    "CURRENT_RESEARCH_PROGRAM.md",
+    "HANDOFF.md",
+    "INDEX.md",
+    "LIVE.md",
+    "MEMORY.md",
+    "UDT_RESEARCH_ROADMAP.md"
+  ],
+  "founding_opening_unchanged": true,
+  "package_bytes": 112872
+}

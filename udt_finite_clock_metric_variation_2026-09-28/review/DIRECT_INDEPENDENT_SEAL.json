@@ -1,0 +1,21 @@
+{
+  "sealed_utc": "2026-09-28T19:01:46.189653+00:00",
+  "author_code_exposed": false,
+  "candidate_exposed": true,
+  "candidate_pins_verified": {
+    "WORK_ORDER.md": true,
+    "INITIAL_CANDIDATE.md": true,
+    "check_clock_variation.py": true,
+    "checks/clock_variation.json": true,
+    "checks/clock_variation.stdout": true,
+    "checks/clock_variation.stderr": true,
+    "SCOPED_REGISTRY.json": true
+  },
+  "source_pins_verified": true,
+  "files": {
+    "udt_finite_clock_metric_variation_2026-09-28/review/direct_independent_check.stderr": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "udt_finite_clock_metric_variation_2026-09-28/review/direct_independent_check.stdout": "e421343acf5e9bbe9282d07ac16db71a6609e56bcfc6661da2311570dd054242",
+    "udt_finite_clock_metric_variation_2026-09-28/review/direct_independent_check.json": "8e4041f21883cd02451114f6ab0504a24eeb9704591e61a1ef60e1945984b7ba",
+    "udt_finite_clock_metric_variation_2026-09-28/review/direct_independent.py": "5d1a5d3e1edeba33b30a48bcb4771b47df18e75da019d2cb8007e6575c7faee6"
+  }
+}

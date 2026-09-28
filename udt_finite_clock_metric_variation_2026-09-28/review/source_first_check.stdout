@@ -1,0 +1,126 @@
+{
+  "python": "3.10.12",
+  "sympy": "1.13.1",
+  "checks": [
+    {
+      "name": "interior_A",
+      "got": "1/30",
+      "want": "1/30",
+      "residual": "0",
+      "passed": true
+    },
+    {
+      "name": "interior_B",
+      "got": "1/60",
+      "want": "1/60",
+      "residual": "0",
+      "passed": true
+    },
+    {
+      "name": "arrival_first_variation",
+      "got": "s/30 + 1/60",
+      "want": "s/30 + 1/60",
+      "residual": "0",
+      "passed": true
+    },
+    {
+      "name": "ratio_first_variation",
+      "got": "1/30",
+      "want": "1/30",
+      "residual": "0",
+      "passed": true
+    },
+    {
+      "name": "exact_ODE_ratio",
+      "got": "1/30",
+      "want": "1/30",
+      "residual": "0",
+      "passed": true
+    },
+    {
+      "name": "endpoint_metric_variation_A",
+      "got": "0",
+      "want": "0",
+      "residual": "0",
+      "passed": true
+    },
+    {
+      "name": "endpoint_metric_variation_B",
+      "got": "0",
+      "want": "0",
+      "residual": "0",
+      "passed": true
+    },
+    {
+      "name": "endpoint_only_mutant_rejected",
+      "residual": "1/30",
+      "passed": true
+    },
+    {
+      "name": "gauge_world_function",
+      "got": "-s**2 - 2*s + (s + 1)**2 - 1",
+      "want": "0",
+      "residual": "0",
+      "passed": true
+    },
+    {
+      "name": "gauge_clock_rate",
+      "got": "0",
+      "want": "0",
+      "residual": "0",
+      "passed": true
+    },
+    {
+      "name": "metric_only_gauge_mutant_rejected",
+      "residual": "-2*s - 1",
+      "passed": true
+    },
+    {
+      "name": "inverse_fixed_target",
+      "got": "0",
+      "want": "0",
+      "residual": "0",
+      "passed": true
+    },
+    {
+      "name": "inverse_response_with_argument_shift",
+      "got": "0",
+      "want": "0",
+      "residual": "0",
+      "passed": true
+    },
+    {
+      "name": "inverse_missing_shift_mutant_rejected",
+      "residual": "-1/(2*s)",
+      "passed": true
+    },
+    {
+      "name": "inverse_pair_slope_identity",
+      "got": "(e + 2*s)**2/(e**2 + 4*e*s + 4*s**2)",
+      "want": "1",
+      "residual": "0",
+      "passed": true
+    },
+    {
+      "name": "conformal_log_ratio_response",
+      "got": "-s**2 + (s + 1)**2 + 1",
+      "want": "2*s + 2",
+      "residual": "0",
+      "passed": true
+    },
+    {
+      "name": "proper_time_anchor_response",
+      "got": "(-s**2/2 - s)*(1/(s + 1) - (s + 2)/(s + 1)**2)/(s + 2)",
+      "want": "s/(2*(s + 1)**2)",
+      "residual": "0",
+      "passed": true
+    },
+    {
+      "name": "fixed_label_vs_proper_time_mutant_rejected",
+      "residual": "s/(2*(s**2 + 2*s + 1))",
+      "passed": true
+    }
+  ],
+  "count": 18,
+  "passed": true
+}

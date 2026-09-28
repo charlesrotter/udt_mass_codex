@@ -1,0 +1,26 @@
+{
+  "sealed_utc": "2026-09-28T19:03:40.634158+00:00",
+  "candidate_sha256": "ed65323a439e1d509bc0241c6550a5485e3f1a496b06b6ab01eb34692443d1d4",
+  "verdict": "VERIFIED-WITH-CAVEATS",
+  "repairs_required": 0,
+  "producer_stdout_matches_frozen": true,
+  "files": {
+    "udt_finite_clock_metric_variation_2026-09-28/review/SOURCE_FIRST_PLAN.md": "2d4c49059d99caf7a0843985742220919beb9d29d6a3fa8af8e55d0d3cc5d190",
+    "udt_finite_clock_metric_variation_2026-09-28/review/direct_independent_check.stderr": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "udt_finite_clock_metric_variation_2026-09-28/review/direct_independent_check.stdout": "e421343acf5e9bbe9282d07ac16db71a6609e56bcfc6661da2311570dd054242",
+    "udt_finite_clock_metric_variation_2026-09-28/review/source_first_check.json": "0ea0d3275748ff8a02048e613f00ab4b65314d73828fac51953ddfe950fd3a49",
+    "udt_finite_clock_metric_variation_2026-09-28/review/SOURCE_FIRST.md": "bdd0d14db5c8715e0741062b8191dfad7ae6dd2a0c742dee14b582522726c8a8",
+    "udt_finite_clock_metric_variation_2026-09-28/review/source_first_check.stderr": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "udt_finite_clock_metric_variation_2026-09-28/review/SOURCE_PINS.json": "af0b640ae789dad3d102953257db43dd1bcdd07e6daf492158576da5fb048c05",
+    "udt_finite_clock_metric_variation_2026-09-28/review/DIRECT_REVIEW.md": "7df0c2f2937b7fa34ce8831b67d052372275447c59023cd1ad6988824b79709c",
+    "udt_finite_clock_metric_variation_2026-09-28/review/direct_independent_check.json": "8e4041f21883cd02451114f6ab0504a24eeb9704591e61a1ef60e1945984b7ba",
+    "udt_finite_clock_metric_variation_2026-09-28/review/DIRECT_INDEPENDENT_SEAL.json": "38d6f21a61558d2c9d451c15854f0170d1094b00c70e3d5d23d3a12ec5c788ad",
+    "udt_finite_clock_metric_variation_2026-09-28/review/direct_independent.py": "5d1a5d3e1edeba33b30a48bcb4771b47df18e75da019d2cb8007e6575c7faee6",
+    "udt_finite_clock_metric_variation_2026-09-28/review/SOURCE_FIRST_SEAL.json": "4679744fe460edf0f9eda2e74b6f7d02835f71c45bdb8c2828ad39080c865b5e",
+    "udt_finite_clock_metric_variation_2026-09-28/review/producer_regression.json": "6c6b2edb5b3abbaa6af1178999327d03e709f8490edc9a79f8c581ecddaff2ce",
+    "udt_finite_clock_metric_variation_2026-09-28/review/source_first_exact.py": "8efaec1922190dd835b643f51535efe7c4486d328ef83558bafccf343d185ddd",
+    "udt_finite_clock_metric_variation_2026-09-28/review/producer_regression.stderr": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "udt_finite_clock_metric_variation_2026-09-28/review/source_first_check.stdout": "c1d8d378d719bf387bd0432b4af763047a457866d32bdd1f45536b154b09c155",
+    "udt_finite_clock_metric_variation_2026-09-28/review/producer_regression.stdout": "e0d706227964f3ff609391eaf9431af2e3b7bf608acca8d48df73a0e29ff82a5"
+  }
+}

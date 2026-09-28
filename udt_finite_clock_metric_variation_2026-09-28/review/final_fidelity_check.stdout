@@ -1,0 +1,39 @@
+{
+  "status": "PASS",
+  "evidence": "final fidelity correspondence and existing startup-guard regression only",
+  "sources_unchanged": {
+    "AGENTS.md": true,
+    "CLAUDE.md": true,
+    "founding.md": true,
+    "CANON.md": true,
+    "CURRENT_SCIENTIFIC_PREMISES.md": true,
+    "CURRENT_SCIENTIFIC_PREMISES.tsv": true,
+    "verify_current_scientific_premises.py": true,
+    "udt_finite_separation_law_2026-09-28/REVIEWED_RESULT.md": true,
+    "udt_finite_separation_law_2026-09-28/INITIAL_CANDIDATE.md": true,
+    "udt_finite_separation_law_2026-09-28/REPAIR.md": true,
+    "udt_finite_separation_law_2026-09-28/run_audit_capture.py": true,
+    "udt_response_measurement_scaling_2026-09-28/REVIEWED_RESULT.md": true,
+    "udt_g220_covariant_null_clock_arrow_timelive_lift_2026-08-22/EXACT_DERIVATION.md": true,
+    "udt_g310_differential_dual_reciprocity_tracefree_ownership_2026-08-31/EXACT_DERIVATION.md": true,
+    "udt_gr_filter_reconciliation_2026-09-09/AUTHORITY_RECORD.md": true
+  },
+  "protected_unrelated_paths_present": 52,
+  "protected_payloads_read": false,
+  "maintained_pointers": [
+    "CURRENT_RESEARCH_PROGRAM.md",
+    "HANDOFF.md",
+    "INDEX.md",
+    "LIVE.md",
+    "MEMORY.md",
+    "UDT_RESEARCH_ROADMAP.md"
+  ],
+  "registry_rows": 406,
+  "selected_rows": 4,
+  "candidate_pins": 7,
+  "review_seals_unchanged": 3,
+  "founding_opening_unchanged": true,
+  "premise_receipt_exit": 0,
+  "premise_receipt_seconds": 404.24799341701146,
+  "startup_surface_replayed": true
+}

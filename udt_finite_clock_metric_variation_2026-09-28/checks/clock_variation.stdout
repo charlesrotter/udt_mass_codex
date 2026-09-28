@@ -1,0 +1,77 @@
+{
+  "status": "PASS",
+  "evidence": "exact first-variation controls; general claims rest on proofs",
+  "python": "3.10.12",
+  "sympy": "1.13.1",
+  "exact_check_count": 29,
+  "rejected_wrong_rules": 8,
+  "checks": [
+    "reciprocal_exact_determinant",
+    "reciprocal_tracefree_tangent",
+    "reciprocal_full_factor_two",
+    "polynomial_source_clock_unchanged",
+    "polynomial_target_clock_unchanged",
+    "world_function_vs_ray_ODE",
+    "variation_original_null_ODE",
+    "arrival_shift_exact_value",
+    "clock_response_exact_value",
+    "static_lapse_null",
+    "static_lapse_affine_geodesic",
+    "static_time_transfer_variation",
+    "static_V_value",
+    "static_clock_ratio_derivative",
+    "conformal_baseline_null",
+    "conformal_baseline_affine_geodesic",
+    "conformal_ruler_arrival",
+    "conformal_arrival_normalization",
+    "conformal_selected_value",
+    "conformal_hkk_zero",
+    "conformal_clock_normalization",
+    "fixed_proper_source_example",
+    "gauge_metric_integral_boundary",
+    "gauge_arrival_cancellation",
+    "gauge_proper_clock_cancellation",
+    "uncarried_worldlines_are_different_protocol",
+    "inverse_composition",
+    "fixed_inverse_chain_term",
+    "paired_inverse_response"
+  ],
+  "catches": [
+    "endpoint_only_response_rejected",
+    "reciprocal_stationarity_rejected",
+    "drop_half_worldfunction_rejected",
+    "static_normalization_sign_rejected",
+    "omit_arrival_event_rejected",
+    "fixed_label_equals_fixed_proper_rejected",
+    "drop_worldline_terms_in_gauge_rejected",
+    "drop_inverse_argument_shift_rejected"
+  ],
+  "values": {
+    "polynomial_control": {
+      "B0": "1/30",
+      "B1": "1/60",
+      "V": "s/15 + 1/30",
+      "Q": "1/15",
+      "compact_support": false
+    },
+    "static": {
+      "V": "-log(2)/2",
+      "Q": "1",
+      "baseline_Z": "2"
+    },
+    "curved_ruler": {
+      "V": "L*alpha",
+      "Q": "L*alpha/(L + s + 1)"
+    },
+    "gauge": {
+      "I": "s + 1",
+      "J_carried": "0",
+      "Q_uncarried": "2"
+    },
+    "inverse": {
+      "Q_forward": "1/(2*q)",
+      "Q_reverse_fixed_label": "0",
+      "Q_reverse_paired": "-1/(2*q)"
+    }
+  }
+}

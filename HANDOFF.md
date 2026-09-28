@@ -87,19 +87,19 @@ Follow AGENTS; report actual instructions/checks and distinguish configured from
 Dated availability check COMPLETE: `archive/stale_working_documents_2026-09-27/maintenance_agent_capacity_2026-09-10.md`.
 General capacity UNVERIFIED; no automatic repeat. FSR1/PJC1 supplied no new field equation; Maxwell PAUSED.
 
-Next: FSL1 is complete, reviewed conditional UNPROMOTED. Its result and the current
+Next: FCV1 is complete, reviewed conditional UNPROMOTED. Its result and the current
 research checkpoint are explained in `CURRENT_RESEARCH_PROGRAM.md`, “Current next gate.”
-Lay return: `udt_finite_separation_law_2026-09-28/DECISION_BRIEF.md`;
-exact hypotheses, frame-orientation repair and limits: REVIEWED_RESULT and CLOSEOUT.
+Lay return: `udt_finite_clock_metric_variation_2026-09-28/DECISION_BRIEF.md`;
+exact hypotheses, review and limits: REVIEWED_RESULT and CLOSEOUT.
 
-FSL1 connects existing null-clock and full-frame results into a finite comparison
-rule, carrying the actual ray through subdivisions. For the same transported
-null query, Z=(1-chi dot n_o)/sqrt(1-|chi|^2); W5's vector alone does not supply
-the ray or physical comparison. Approaching |chi|=1 alone need not give infinite
-redshift; the reviewed directional limit criterion is conditional on a realized
-family. This selects no metric response, physical protocol, scale or X_max.
-CRV1's conditional conservation/action route remains; native E and its off-shell
-conservation are OPEN. DDR remains TF(E)=0 rather than E=0. No new premise is adopted.
+FCV1 derives the full finite-clock metric variation, including ray, arrival,
+clock normalization and observer protocol. Same-map reciprocal inversion remains
+an identity. The direct identification of one measurement derivative with a
+smooth local DDR response fails in the tested class; local field equations and
+other justified reconstructions are not excluded. No native dynamics follows.
+FSL1's conditional comparison/asymptotic test and CRV1's conditional action route
+remain available. Native E and its off-shell conservation are OPEN; DDR remains
+TF(E)=0 rather than E=0. No new physical premise or protocol is adopted.
 
 We can reconstruct geometric information from specified ideal clock/motion
 records; identifying the response whose balance selects geometry remains OPEN.
@@ -109,13 +109,13 @@ local empirical correspondence and global asymptotic completion remain distinct.
 No completed microscopic light theory is a blanket prerequisite for scoped geometry
 or justified conditional measurement. Founding intent above remains controlling.
 
-INDEX routes CRV1/RMS1/GRS1/CRD1/CGW1/OFS1 and the July results. Completed campaign chronology
+INDEX routes FSL1/CRV1/RMS1/GRS1/CRD1/CGW1/OFS1 and the July results. Completed campaign chronology
 is historical: `archive/roadmap_history_2026-09-28/README.md`. Original source paths,
 conditions and grades are unchanged; former next-step language is not authorization.
 
 DCR1 reviewed conditional UNPROMOTED: directional clocks permit central tides in its supplied static class
 under full G301 at an eligible center; no neighborhood field equation; FE1 UNADOPTED.
 G312 membership/native admission unclosed; response identification OPEN; G352 physical-realization: physical identification remains OPEN.
-Stop for lay discussion. FSL1 is complete; no new campaign is authorized;
+Stop for lay discussion. FCV1 is complete; no new campaign is authorized;
 work order and return gates: `UDT_RESEARCH_ROADMAP.md`.
 <!-- STARTUP_CURRENT_END -->

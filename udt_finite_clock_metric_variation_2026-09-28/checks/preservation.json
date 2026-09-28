@@ -1,0 +1,15 @@
+{
+  "command": [
+    "python3",
+    "-c",
+    "\nfrom pathlib import Path\nimport csv, hashlib, json, subprocess\nroot=Path.cwd(); p=root/'udt_finite_clock_metric_variation_2026-09-28'\nlaunch=json.loads((p/'LAUNCH.json').read_text())\nmaintained={'LIVE.md','HANDOFF.md','CURRENT_RESEARCH_PROGRAM.md','MEMORY.md','INDEX.md','UDT_RESEARCH_ROADMAP.md'}\ndef check(base, mapping):\n    for name,h in mapping.items():\n        assert hashlib.sha256((base/name).read_bytes()).hexdigest()==h,name\ncheck(root,{f:h for f,h in launch['source_pins'].items() if f not in maintained})\nfreeze=json.loads((p/'CANDIDATE_FREEZE.json').read_text())\ncheck(p,freeze['candidate_and_checks'])\nfor name in ['SOURCE_FIRST_SEAL','DIRECT_INDEPENDENT_SEAL','DIRECT_REVIEW_SEAL']:\n    check(root,json.loads((p/'review'/f'{name}.json').read_text())['files'])\nrows={r['premise_id']:r for r in csv.DictReader((root/'CURRENT_SCIENTIFIC_PREMISES.tsv').open(),delimiter='\\t')}\nassert len(rows)==406\nselected=json.loads((p/'SCOPED_REGISTRY.json').read_text())\nassert all(rows[r['premise_id']]==r for r in selected)\ndef git(*args):\n    return subprocess.check_output(['git','-c','core.preloadIndex=false','-c','index.threads=1',*args],text=True)\nassert git('branch','--show-current').strip()=='grok'\nassert git('rev-parse','HEAD').strip()==launch['head']\nassert git('rev-parse','origin/grok').strip()==launch['origin_grok']\nuntracked=set(git('ls-files','--others','--exclude-standard').splitlines())\nassert {f for f in untracked if not f.startswith(p.name+'/')}==set(launch['prior_untracked_paths'])\nassert set(git('diff','--name-only').splitlines())==maintained\nassert not git('diff','--cached','--name-only').strip()\nbefore=git('show',launch['head']+':CURRENT_RESEARCH_PROGRAM.md')\nassert before.split('## Current next gate')[0]==(root/'CURRENT_RESEARCH_PROGRAM.md').read_text().split('## Current next gate')[0]\nassert not git('diff','--check')\nsize=sum(f.stat().st_size for f in p.rglob('*') if f.is_file())\nassert size<2*1024**2,size\nprint(json.dumps({'status':'PASS','evidence':'correspondence/preservation only','prior_untracked_paths_preserved':len(launch['prior_untracked_paths']),'registry_rows_unchanged':len(rows),'selected_rows_verified':len(selected),'candidate_pins':len(freeze['candidate_and_checks']),'review_seals_verified':3,'maintained':sorted(maintained),'founding_opening_unchanged':True,'package_bytes':size},indent=2))\n"
+  ],
+  "cwd": "/home/udt-admin/udt_mass_codex",
+  "started_utc": "2026-09-28T19:10:34.040406+00:00",
+  "duration_seconds": 0.11746163599309511,
+  "returncode": 0,
+  "timeout": false,
+  "address_space_bytes": 536870912,
+  "cpu_seconds": 60,
+  "maxrss_kib": 17280
+}

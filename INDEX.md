@@ -42,8 +42,13 @@ G388--G389 conditional, compact-sector mixed-C2/analytic-local tangent limits; o
 
 Use CURRENT_RESEARCH_PROGRAM for the connected explanation. Open the following
 exact source only for the question it addresses; none is a new startup prerequisite.
-FSL1/CRV1/RMS1/GRS1/CRD1/CGW1/OFS1 remain reviewed UNPROMOTED; their source reviews control.
+FCV1/FSL1/CRV1/RMS1/GRS1/CRD1/CGW1/OFS1 remain reviewed UNPROMOTED; their source reviews control.
 
+- FCV1 full finite-clock metric variation, reviewed conditional UNPROMOTED:
+  `udt_finite_clock_metric_variation_2026-09-28/DECISION_BRIEF.md`.
+  Arrival/ray/normalization/protocol response and specific failed direct local-E
+  identification; no native field equation or no-go for other reconstructions.
+  Full hypotheses, controls, review and preservation: REVIEWED_RESULT and CLOSEOUT.
 - FSL1 universal finite-separation comparison, reviewed conditional UNPROMOTED:
   `udt_finite_separation_law_2026-09-28/DECISION_BRIEF.md`.
   Direction-carried null-clock composition and exact asymptotic criterion;

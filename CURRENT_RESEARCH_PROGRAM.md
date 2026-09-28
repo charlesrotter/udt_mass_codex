@@ -87,17 +87,18 @@ Attachment audit/archive: INDEX.
 
 ## Current next gate
 
-FSL1 is complete, reviewed conditional UNPROMOTED. It connects the existing
-null-clock and full-frame results into an explicit universal-form comparison
-rule on supplied metric, observers and a regular null branch. It also gives the
-exact directional condition for divergent redshift at the projective boundary.
-This is a geometric comparison law; physical query assignment and the native
-response governing allowed geometry remain OPEN. Positional dilation stays the
-founding interpretation of c_E, light cones and causal timing. No new premise,
-physical protocol, Einstein field equation or cosmological history is adopted.
+FCV1 is complete, reviewed conditional UNPROMOTED. It derives how the actual
+finite clock comparison changes under metric and observer-protocol variation,
+including the intervening ray and changed arrival event. Reciprocal inversion
+still differentiates to an identity. The attempted direct identification with
+DDR's smooth local response fails at the stated scope; no native field equation
+is selected. Other justified response identifications remain OPEN. Positional
+dilation stays the founding interpretation of c_E, light cones and causal timing;
+no new physical premise, protocol or GR field equation is adopted.
 
 | Reviewed return | Usable gain | Limit that remains |
 |---|---|---|
+| FCV1 — finite-clock metric variation | Full arrival/clock/protocol derivative; exact interior response and direct-identification obstruction | One measurement response is not directly a smooth local DDR tensor; no no-go for local field laws or other reconstructions |
 | FSL1 — finite-separation law | Full-frame/null-ray clock composition and an exact directional asymptotic test | Supplied geometry and regular null query; no native response or realized physical asymptote |
 | CRV1 — conservation/variation | On a fixed contractible metric region, E=S+qg can be conserved iff d(div S)=0; the conditional Ricci class completes to aG+Cg | A scalar primitive need not be a natural finite-jet operator; physical response/conservation and inverse-variational theorem hypotheses remain unowned |
 | RMS1 — response meaning/scaling | Ideal clock/motion readings have derived scaling; suitable families reconstruct Ricci; classification can target TF(E) | No physical identification of E or TF(E); no adopted homothety symmetry |
@@ -106,7 +107,7 @@ physical protocol, Einstein field equation or cosmological history is adopted.
 | CGW1 — common geometry | Clock/screen compatibility and a scoped later-observation drift discriminator | Does not select a cosmology, establish solar precision or realize the global asymptote |
 | OFS1 — observation-guided functions | Finite-range SNe shapes, conditional BAO comparison and a restricted metric inverse | Processed/exposed data and conventional interfaces; expanding controls are not the intended native positional explanation |
 
-These seven returns are reviewed conditional (OFS1 also empirical) and UNPROMOTED;
+These eight returns are reviewed conditional (OFS1 also empirical) and UNPROMOTED;
 no grade is changed here. INDEX gives each exact REVIEWED_RESULT/DECISION_BRIEF
 route; those sources and reviews control qualifications and evidence. Earlier
 July/positional-geometry returns retain their scopes, including no generic
@@ -126,6 +127,17 @@ Z=1, so bounded projective position alone does not realize the intended asymptot
 This is not a physical UDT cosmology or an exclusion of the owner's target.
 Full hypotheses, consistent-frame-orientation repair, checks and review:
 `udt_finite_separation_law_2026-09-28/REVIEWED_RESULT.md`.
+
+FCV1 keeps the metric variation of the full null correspondence, rather than
+only a fixed local clock leg. The changed ray enters by exact geodesic first
+variation; arrival displacement and proper-clock normalization remain explicit.
+A compact interior reciprocal-shape perturbation changes the clock ratio while
+all endpoint metric jets remain fixed. The single-query derivative is supported
+on its ray and cannot directly equal a smooth spacetime-volume response in the
+nonzero witness. This does not forbid local equations governing geometry or a
+justified local limit/reconstruction. Same-map inverse-clock consistency does
+not derive the adopted DDR balance. Full scope, controls and review:
+`udt_finite_clock_metric_variation_2026-09-28/REVIEWED_RESULT.md`.
 
 ### The precise conditional response route
 
@@ -188,7 +200,7 @@ Completed chronology: `archive/roadmap_history_2026-09-28/README.md`.
 DCR1 reviewed conditional UNPROMOTED: directional clocks permit central tides in its supplied static class
 under full G301 at an eligible center; no neighborhood field equation; FE1 UNADOPTED.
 G312 membership/native admission unclosed; response identification OPEN; G352 physical-realization: physical identification remains OPEN.
-Stop for lay discussion. FSL1 is complete; no new campaign is authorized;
+Stop for lay discussion. FCV1 is complete; no new campaign is authorized;
 work order and return gates: `UDT_RESEARCH_ROADMAP.md`.
 
 ## Architecture

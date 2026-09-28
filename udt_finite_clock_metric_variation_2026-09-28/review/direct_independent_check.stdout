@@ -1,0 +1,84 @@
+{
+  "count": 12,
+  "passed": true,
+  "checks": [
+    {
+      "name": "reciprocal_B0",
+      "value": "2187/17920",
+      "expected": "2187/17920",
+      "residual": "0",
+      "passed": true
+    },
+    {
+      "name": "reciprocal_B1",
+      "value": "6561/71680",
+      "expected": "6561/71680",
+      "residual": "0",
+      "passed": true
+    },
+    {
+      "name": "reciprocal_worldfunction_V",
+      "value": "2187*s/8960 + 6561/35840",
+      "expected": "2187*s/8960 + 6561/35840",
+      "residual": "0",
+      "passed": true
+    },
+    {
+      "name": "reciprocal_Q",
+      "value": "2187/8960",
+      "expected": "2187/8960",
+      "residual": "0",
+      "passed": true
+    },
+    {
+      "name": "reciprocal_ODE_V",
+      "value": "2187*s/8960 + 6561/35840",
+      "expected": "2187*s/8960 + 6561/35840",
+      "residual": "0",
+      "passed": true
+    },
+    {
+      "name": "reciprocal_ODE_Q",
+      "value": "2187/8960",
+      "expected": "2187/8960",
+      "residual": "0",
+      "passed": true
+    },
+    {
+      "name": "lost_reciprocal_factor_two",
+      "residual": "2187/17920",
+      "passed": true
+    },
+    {
+      "name": "moving_receiver_general_Q",
+      "value": "-2*a*v*(L + s)/((1 - v)*(1 - v**2)) + a*(2*L + 2*s)/(1 - v)**2",
+      "expected": "2*a*(L + s)/((1 - v)*(1 - v**2))",
+      "residual": "0",
+      "passed": true
+    },
+    {
+      "name": "moving_receiver_arrival",
+      "value": "155/24",
+      "expected": "155/24",
+      "residual": "0",
+      "passed": true
+    },
+    {
+      "name": "moving_receiver_Q",
+      "value": "3875/672",
+      "expected": "3875/672",
+      "residual": "0",
+      "passed": true
+    },
+    {
+      "name": "missing_worldline_clock_normalization",
+      "residual": "2*a*v*(L + s)/((v - 1)**2*(v + 1))",
+      "passed": true
+    },
+    {
+      "name": "missing_arrival_slope",
+      "residual": "-2*a*(L + s)/(v - 1)**2",
+      "passed": true
+    }
+  ]
+}
