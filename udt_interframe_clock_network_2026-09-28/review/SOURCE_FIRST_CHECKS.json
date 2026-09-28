@@ -1,0 +1,357 @@
+{
+  "stage": "SOURCE_FIRST_BEFORE_ICN1_CANDIDATE_EXPOSURE",
+  "branch": "grok",
+  "head": "50cd10b21218a4a8ae68f4ccb61794afd1cfea03",
+  "origin_grok": "50cd10b21218a4a8ae68f4ccb61794afd1cfea03",
+  "python": "3.10.12 (main, Aug 31 2026, 10:18:17) [GCC 11.4.0]",
+  "sympy": "1.13.1",
+  "platform": "Linux-6.8.0-138-generic-x86_64-with-glibc2.35",
+  "source_pins": {
+    "AGENTS.md": {
+      "expected": "c578b045cf3278804124e23a5408ff9634a9a2165f7d20223f654d76bffd8ec9",
+      "actual": "c578b045cf3278804124e23a5408ff9634a9a2165f7d20223f654d76bffd8ec9"
+    },
+    "CLAUDE.md": {
+      "expected": "b7e524a5b06760e57877a408630228767ae9a394134095f9851bef5d06e17751",
+      "actual": "b7e524a5b06760e57877a408630228767ae9a394134095f9851bef5d06e17751"
+    },
+    "founding.md": {
+      "expected": "b4b0d9a9fdd093c992647195aca7579566a9e77a396071a699c1938888a49e75",
+      "actual": "b4b0d9a9fdd093c992647195aca7579566a9e77a396071a699c1938888a49e75"
+    },
+    "CANON.md": {
+      "expected": "047b7fbbc1acacf01d2716e3c98cdefd0b9b20136ac4a3306f55dd6775465250",
+      "actual": "047b7fbbc1acacf01d2716e3c98cdefd0b9b20136ac4a3306f55dd6775465250"
+    },
+    "CURRENT_SCIENTIFIC_PREMISES.md": {
+      "expected": "7b574665f714551a3a565987fc5bc56a4b44c7e6fb274532f61609c25153f627",
+      "actual": "7b574665f714551a3a565987fc5bc56a4b44c7e6fb274532f61609c25153f627"
+    },
+    "CURRENT_SCIENTIFIC_PREMISES.tsv": {
+      "expected": "7a3d69d5a0bc3ac98e2ebe2bb0c6d029df30071bf403baffed2223a193dc720b",
+      "actual": "7a3d69d5a0bc3ac98e2ebe2bb0c6d029df30071bf403baffed2223a193dc720b"
+    },
+    "verify_current_scientific_premises.py": {
+      "expected": "97724ef61bf70902ed6b70df9ee92e13acfb2a55fbede2d32adae46fa5b76bd4",
+      "actual": "97724ef61bf70902ed6b70df9ee92e13acfb2a55fbede2d32adae46fa5b76bd4"
+    },
+    "LIVE.md": {
+      "expected": "7556517bf384bc61edccc08409b312f7e8ce48b70bd59fd7e25b036755be68db",
+      "actual": "7556517bf384bc61edccc08409b312f7e8ce48b70bd59fd7e25b036755be68db"
+    },
+    "HANDOFF.md": {
+      "expected": "2bebff6656d7988ad81a12a499624ad24fc4219ba9aeaed6f177205fd21ac611",
+      "actual": "2bebff6656d7988ad81a12a499624ad24fc4219ba9aeaed6f177205fd21ac611"
+    },
+    "CURRENT_RESEARCH_PROGRAM.md": {
+      "expected": "05eee119b0c7e2e9c7276555efe2f57bb07abc5005043bb0f34fc8772b32dd95",
+      "actual": "05eee119b0c7e2e9c7276555efe2f57bb07abc5005043bb0f34fc8772b32dd95"
+    },
+    "INDEX.md": {
+      "expected": "d15a0affbeb52a3270b797e27c50bb46109b2df68e7c28388c4b7cb90f0b9488",
+      "actual": "d15a0affbeb52a3270b797e27c50bb46109b2df68e7c28388c4b7cb90f0b9488"
+    },
+    "MEMORY.md": {
+      "expected": "f19447182792fd61ed3cc29e6b398b726cf15f654387d6b999e16b404c814cee",
+      "actual": "f19447182792fd61ed3cc29e6b398b726cf15f654387d6b999e16b404c814cee"
+    },
+    "UDT_RESEARCH_ROADMAP.md": {
+      "expected": "e11d18c22605e227e6d72f8e0ba43307edbd4ef789ea5c98c35901fc3a68e344",
+      "actual": "e11d18c22605e227e6d72f8e0ba43307edbd4ef789ea5c98c35901fc3a68e344"
+    },
+    "udt_finite_separation_law_2026-09-28/REVIEWED_RESULT.md": {
+      "expected": "1a1770b84ba184e2411cf4dac30e694bffec46a762bba618c2edf0d1df8b8740",
+      "actual": "1a1770b84ba184e2411cf4dac30e694bffec46a762bba618c2edf0d1df8b8740"
+    },
+    "udt_finite_separation_law_2026-09-28/INITIAL_CANDIDATE.md": {
+      "expected": "7dd39a4840390f15fcedc2ae0e588f51e441b4348eaf0f0f8d9b81968b60d8e4",
+      "actual": "7dd39a4840390f15fcedc2ae0e588f51e441b4348eaf0f0f8d9b81968b60d8e4"
+    },
+    "udt_finite_separation_law_2026-09-28/run_audit_capture.py": {
+      "expected": "4382e7c767f47b96a80a970509b3f16d44ec2a76ee3af279ca2e25129c73a54e",
+      "actual": "4382e7c767f47b96a80a970509b3f16d44ec2a76ee3af279ca2e25129c73a54e"
+    },
+    "udt_finite_clock_metric_variation_2026-09-28/REVIEWED_RESULT.md": {
+      "expected": "609f7889104aa3cc9804926738e888a83df7d593db7daab0763aef20809023f8",
+      "actual": "609f7889104aa3cc9804926738e888a83df7d593db7daab0763aef20809023f8"
+    },
+    "udt_response_measurement_scaling_2026-09-28/REVIEWED_RESULT.md": {
+      "expected": "462cad1bb96a2ed121edede7e93d4f0fcf9d7f61c1a35f438d42ae47b7dfec3c",
+      "actual": "462cad1bb96a2ed121edede7e93d4f0fcf9d7f61c1a35f438d42ae47b7dfec3c"
+    },
+    "udt_common_geometry_whiteboard_2026-09-28/REVIEWED_RESULT.md": {
+      "expected": "b4bdb53716762b6bac91dc95dd867920c18892e82c425d701e28d1981929e0b9",
+      "actual": "b4bdb53716762b6bac91dc95dd867920c18892e82c425d701e28d1981929e0b9"
+    },
+    "udt_clock_curvature_derivation_2026-09-28/REVIEWED_RESULT.md": {
+      "expected": "0afd91a8305d0f3cb6de78b0c5a275b861b15bd02db00900b7f3648eed28d852",
+      "actual": "0afd91a8305d0f3cb6de78b0c5a275b861b15bd02db00900b7f3648eed28d852"
+    },
+    "udt_july_optical_time_dilation_lead_2026-09-28/DECISION_BRIEF.md": {
+      "expected": "483745bebec78e9695b8cccd4addd0df6a2260577cf09b416880745e146b8007",
+      "actual": "483745bebec78e9695b8cccd4addd0df6a2260577cf09b416880745e146b8007"
+    },
+    "udt_g220_covariant_null_clock_arrow_timelive_lift_2026-08-22/EXACT_DERIVATION.md": {
+      "expected": "0e5b33a0c013def973bdca369944d99a84fe278614cae1794e7cb50b56db0f6f",
+      "actual": "0e5b33a0c013def973bdca369944d99a84fe278614cae1794e7cb50b56db0f6f"
+    },
+    "udt_gr_filter_reconciliation_2026-09-09/AUTHORITY_RECORD.md": {
+      "expected": "80daa0be6d3e1c0ac1b734fea089c4eb487f05bc1e1fbb2fabd69322ca89f28c",
+      "actual": "80daa0be6d3e1c0ac1b734fea089c4eb487f05bc1e1fbb2fabd69322ca89f28c"
+    },
+    "udt_shared_readout_metric_constraint_campaign_2026-09-06/run_capture.py": {
+      "expected": "8ff5469ace76bdfc84188915242abbf3baff35516f9ee3f9ba4b1cbfeb2573ef",
+      "actual": "8ff5469ace76bdfc84188915242abbf3baff35516f9ee3f9ba4b1cbfeb2573ef"
+    }
+  },
+  "checks": [
+    {
+      "name": "echo chain with actual return event",
+      "passed": true,
+      "actual": "Derivative(F(s), s)*Derivative(G(F(s)), F(s))",
+      "expected": "Derivative(F(s), s)*Subs(Derivative(G(s), s), s, F(s))",
+      "residual": "0"
+    },
+    {
+      "name": "radar rate",
+      "passed": true,
+      "actual": "c*(Derivative(F(s), s)*Derivative(G(F(s)), F(s)) - 1)/(2*(Derivative(F(s), s)*Derivative(G(F(s)), F(s))/2 + 1/2))",
+      "expected": "c*(Derivative(F(s), s)*Subs(Derivative(G(s), s), s, F(s)) - 1)/(Derivative(F(s), s)*Subs(Derivative(G(s), s), s, F(s)) + 1)",
+      "residual": "0"
+    },
+    {
+      "name": "positive rate subluminal margin",
+      "passed": true,
+      "actual": "-(q - 1)**2/(q + 1)**2 + 1",
+      "expected": "4*q/(q + 1)**2",
+      "residual": "0"
+    },
+    {
+      "name": "sum-depth kernel half argument",
+      "passed": true,
+      "actual": "-tanh(log(q)/2)",
+      "expected": "(1 - q)/(q + 1)",
+      "residual": "0"
+    },
+    {
+      "name": "latency chain",
+      "passed": true,
+      "actual": "Derivative(F(s), s)*Derivative(G(H(F(s))), H(F(s)))*Derivative(H(F(s)), F(s))",
+      "expected": "Derivative(F(s), s)*Subs(Derivative(G(s), s), s, H(F(s)))*Subs(Derivative(H(s), s), s, F(s))",
+      "residual": "0"
+    },
+    {
+      "name": "inertial proper normalization",
+      "passed": true,
+      "actual": "1",
+      "expected": "1",
+      "residual": "0"
+    },
+    {
+      "name": "outbound null incidence",
+      "passed": true,
+      "actual": "5*L/2 + 3*s/2",
+      "expected": "5*L/2 + 3*s/2",
+      "residual": "0"
+    },
+    {
+      "name": "return null incidence",
+      "passed": true,
+      "actual": "L + 3*b/4",
+      "expected": "L + 3*b/4",
+      "residual": "0"
+    },
+    {
+      "name": "inertial outward clock ratio",
+      "passed": true,
+      "actual": "2",
+      "expected": "2",
+      "residual": "0"
+    },
+    {
+      "name": "inertial return clock ratio",
+      "passed": true,
+      "actual": "2",
+      "expected": "2",
+      "residual": "0"
+    },
+    {
+      "name": "inertial echo slope",
+      "passed": true,
+      "actual": "4",
+      "expected": "4",
+      "residual": "0"
+    },
+    {
+      "name": "inertial radar position",
+      "passed": true,
+      "actual": "5*L/2 + 3*s/2",
+      "expected": "5*L/2 + 3*s/2",
+      "residual": "0"
+    },
+    {
+      "name": "inertial radar velocity",
+      "passed": true,
+      "actual": "3/5",
+      "expected": "3/5",
+      "residual": "0"
+    },
+    {
+      "name": "causal return is not inverse slope",
+      "passed": true,
+      "actual": "2",
+      "incorrect": "1/2",
+      "residual": "3/2"
+    },
+    {
+      "name": "same clock ratios permit distinct radar distances",
+      "passed": true,
+      "actual": "3*s/2 + 5",
+      "incorrect": "3*s/2 + 5/2",
+      "residual": "5/2"
+    },
+    {
+      "name": "flat endpoint frame carry composition",
+      "passed": true,
+      "actual": "0",
+      "expected": "0",
+      "residual": "0"
+    },
+    {
+      "name": "outward null Doppler factor",
+      "passed": true,
+      "actual": "1/2",
+      "expected": "1/2",
+      "residual": "0"
+    },
+    {
+      "name": "return null Doppler factor after ray reset",
+      "passed": true,
+      "actual": "1/2",
+      "expected": "1/2",
+      "residual": "0"
+    },
+    {
+      "name": "relay product from separate rays",
+      "passed": true,
+      "actual": "4",
+      "expected": "4",
+      "residual": "0"
+    },
+    {
+      "name": "unbroken-ray cocycle cannot replace relay product",
+      "passed": true,
+      "actual": "4",
+      "incorrect": "1",
+      "residual": "3"
+    },
+    {
+      "name": "third-clock direct and relay slopes may agree",
+      "passed": true,
+      "actual": "1",
+      "expected": "1",
+      "residual": "0"
+    },
+    {
+      "name": "third-clock direct and relay arrival maps differ",
+      "passed": true,
+      "actual": "s + 1 + sqrt(2)",
+      "incorrect": "s + 1",
+      "residual": "sqrt(2)"
+    },
+    {
+      "name": "conformal observer unit normalization",
+      "passed": true,
+      "actual": "-1",
+      "expected": "-1",
+      "residual": "0"
+    },
+    {
+      "name": "conformal observer time acceleration",
+      "passed": true,
+      "actual": "0",
+      "expected": "0",
+      "residual": "0"
+    },
+    {
+      "name": "time-dependent actual-leg product",
+      "passed": true,
+      "actual": "(2*ell + eta)/eta",
+      "expected": "(2*ell + eta)/eta",
+      "residual": "0"
+    },
+    {
+      "name": "conformal numerical pair slopes",
+      "passed": true,
+      "actual": "2",
+      "expected": "2",
+      "residual": "0"
+    },
+    {
+      "name": "wrong unevolved return evaluation",
+      "passed": true,
+      "actual": "(2*ell + eta)/eta",
+      "incorrect": "(ell + eta)**2/eta**2",
+      "residual": "-ell**2/eta**2"
+    },
+    {
+      "name": "conformal radar rate",
+      "passed": true,
+      "actual": "ell/(ell + eta)",
+      "expected": "(-1 + (2*ell + eta)/eta)/(1 + (2*ell + eta)/eta)",
+      "residual": "0"
+    },
+    {
+      "name": "conformal late radar distance divergent",
+      "passed": true,
+      "actual": "oo",
+      "expected": "oo",
+      "residual": "0"
+    },
+    {
+      "name": "conformal late echo slope tends to one",
+      "passed": true,
+      "actual": "1",
+      "expected": "1",
+      "residual": "0"
+    },
+    {
+      "name": "two calibration dimensions independent",
+      "passed": true,
+      "actual": "2",
+      "expected": "2",
+      "residual": "0"
+    },
+    {
+      "name": "no pure length from c and G",
+      "passed": true,
+      "actual": "3",
+      "expected": "3",
+      "residual": "0"
+    },
+    {
+      "name": "no pure time from c and G",
+      "passed": true,
+      "actual": "3",
+      "expected": "3",
+      "residual": "0"
+    },
+    {
+      "name": "no pure mass from c and G",
+      "passed": true,
+      "actual": "3",
+      "expected": "3",
+      "residual": "0"
+    },
+    {
+      "name": "G over c squared needs mass to make length",
+      "passed": true,
+      "actual": "Matrix([[-1], [1], [0]])",
+      "expected": "Matrix([[-1], [1], [0]])",
+      "residual": "0"
+    }
+  ],
+  "count": 35,
+  "passed": true,
+  "source_first_script_sha256": "e61d5fc4df360119453687cff06f943c57582026f084baa9cb1eeec2d7e96b00"
+}

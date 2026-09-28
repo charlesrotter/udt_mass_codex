@@ -1,0 +1,46 @@
+{
+  "status": "PASS",
+  "scope": "final byte correspondence and same-code startup regression only",
+  "head": "50cd10b21218a4a8ae68f4ccb61794afd1cfea03",
+  "maintained": [
+    "CURRENT_RESEARCH_PROGRAM.md",
+    "HANDOFF.md",
+    "INDEX.md",
+    "LIVE.md",
+    "MEMORY.md",
+    "UDT_RESEARCH_ROADMAP.md"
+  ],
+  "prior_untracked_paths": 52,
+  "source_and_candidate_hashes": "match",
+  "review_seals": "match",
+  "startup_guard": "PASS",
+  "protected_payload_reads": false,
+  "runs": {
+    "premise_audit": {
+      "returncode": 0,
+      "duration_seconds": 405.8192713460012,
+      "maxrss_kib": 120384
+    },
+    "startup_surface": {
+      "returncode": 0,
+      "duration_seconds": 0.1534515969979111,
+      "maxrss_kib": 30084
+    },
+    "preservation": {
+      "returncode": 0,
+      "duration_seconds": 0.11919138400116935,
+      "maxrss_kib": 17088
+    },
+    "network": {
+      "returncode": 1,
+      "duration_seconds": 1.3565713059942937,
+      "maxrss_kib": 64528
+    },
+    "network_repaired": {
+      "returncode": 0,
+      "duration_seconds": 1.3110503510106355,
+      "maxrss_kib": 53476
+    }
+  },
+  "package_bytes_before_final_report": 160997
+}

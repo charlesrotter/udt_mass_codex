@@ -58,6 +58,10 @@ direction — 2026-09-28.” Earlier exact owner words and bounded investigation
 its `WORK_ORDER.md`. W4 provisionally supplies the common local metric;
 W5/W6, calibration, existing source grades and canon remain unchanged.
 
+Charles explicitly accepts measured c_E and G_obs as inputs (2026-09-28),
+reaffirming their OBSERVED anchor status. Neither must be derived before use;
+using them for calibration does not by itself select an intrinsic physical scale.
+
 The open connection is positional geometry and physical event/path assignment
 to the received clock-rate ratio as separation varies. The conversion of that
 ratio to redshift is already settled. No numerical derivation of c_E is required.
@@ -96,25 +100,33 @@ Attachment audit/archive: INDEX.
 
 ## Current next gate
 
-FCV1 is complete, reviewed conditional UNPROMOTED. It derives how the actual
-finite clock comparison changes under metric and observer-protocol variation,
-including the intervening ray and changed arrival event. Reciprocal inversion
-still differentiates to an identity. The attempted direct identification with
-DDR's smooth local response fails at the stated scope; no native field equation
-is selected. Other justified response identifications remain OPEN. Positional
-dilation stays the founding interpretation of c_E, light cones and causal timing;
-no new physical premise, protocol or GR field equation is adopted.
+ICN1 is complete, reviewed conditional UNPROMOTED.
+Lay return: `udt_interframe_clock_network_2026-09-28/DECISION_BRIEF.md`;
+exact hypotheses, chronology repair and limits: REVIEWED_RESULT and CLOSEOUT.
 
-FCV1's path-dependent comparison is compatible with ordinary local proper-time
-clocks. Its failed direct local-response identification is not an objection to
-interframe dilation. The next question may concern restrictions on consistent
-interframe relationships; a conventional local field equation is one possible
-form of a predictive law, not a prerequisite. Native law and physical pair
-assignment remain OPEN; reciprocal inversion of one correspondence does not
-settle mutually received ticking in two distinct causal signal exchanges.
+ICN1 constructs actual two-way proper-clock comparisons and radar separation.
+Both matched legs being net redshifted forces increasing radar separation;
+this operational restriction does not identify a Hubble-expansion mechanism.
+In a stated totally geodesic longitudinal sector, two ratios and their drift
+reconstruct a metric coefficient and its first derivatives along a free clock.
+This is conditional data reconstruction, not a generic4D or native field law.
+Third-clock relay/direct routes differ; finite timing data alone can leave
+interior geometry ambiguous. No native-admitted conformal twins are claimed.
+
+Charles explicitly accepts measured c_E and G_obs as inputs. c_E calibrates
+proper-time delay into radar length; c_E and G_obs alone do not select an
+intrinsic length/time. A further measured or derived dimensional datum can
+supply scale. No mass/density law, fitted profile or source coupling is adopted.
+
+Ordinary local proper clocks remain an existing premise. The full physical
+pair assembly and native separation-dependent relation remain OPEN. FSL1/FCV1
+and CRV1/RMS1 retain their scopes; local E identification is not a prerequisite
+for this route. DDR remains TF(E)=0, with physical E and its native conservation
+OPEN. Empirical correspondence and global asymptotic completion remain separate.
 
 | Reviewed return | Usable gain | Limit that remains |
 |---|---|---|
+| ICN1 — actual interframe network | Exact echo/radar relation and conditional longitudinal metric/gradient reconstruction; explicit c_E/G calibration scope | Native pair and distance law OPEN; no generic4D reconstruction, expansion inference or intrinsic scale from c_E/G alone |
 | FCV1 — finite-clock metric variation | Full arrival/clock/protocol derivative; exact interior response and direct-identification obstruction | One measurement response is not directly a smooth local DDR tensor; no no-go for local field laws or other reconstructions |
 | FSL1 — finite-separation law | Full-frame/null-ray clock composition and an exact directional asymptotic test | Supplied geometry and regular null query; no native response or realized physical asymptote |
 | CRV1 — conservation/variation | On a fixed contractible metric region, E=S+qg can be conserved iff d(div S)=0; the conditional Ricci class completes to aG+Cg | A scalar primitive need not be a natural finite-jet operator; physical response/conservation and inverse-variational theorem hypotheses remain unowned |
@@ -124,7 +136,7 @@ settle mutually received ticking in two distinct causal signal exchanges.
 | CGW1 — common geometry | Clock/screen compatibility and a scoped later-observation drift discriminator | Does not select a cosmology, establish solar precision or realize the global asymptote |
 | OFS1 — observation-guided functions | Finite-range SNe shapes, conditional BAO comparison and a restricted metric inverse | Processed/exposed data and conventional interfaces; expanding controls are not the intended native positional explanation |
 
-These eight returns are reviewed conditional (OFS1 also empirical) and UNPROMOTED;
+These nine returns are reviewed conditional (OFS1 also empirical) and UNPROMOTED;
 no grade is changed here. INDEX gives each exact REVIEWED_RESULT/DECISION_BRIEF
 route; those sources and reviews control qualifications and evidence. Earlier
 July/positional-geometry returns retain their scopes, including no generic
@@ -217,7 +229,7 @@ Completed chronology: `archive/roadmap_history_2026-09-28/README.md`.
 DCR1 reviewed conditional UNPROMOTED: directional clocks permit central tides in its supplied static class
 under full G301 at an eligible center; no neighborhood field equation; FE1 UNADOPTED.
 G312 membership/native admission unclosed; response identification OPEN; G352 physical-realization: physical identification remains OPEN.
-Stop for lay discussion. FCV1 is complete; no new campaign is authorized;
+Stop for lay discussion. ICN1 is complete; no new campaign is authorized;
 work order and return gates: `UDT_RESEARCH_ROADMAP.md`.
 
 ## Architecture

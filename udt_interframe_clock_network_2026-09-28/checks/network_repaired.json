@@ -1,0 +1,14 @@
+{
+  "command": [
+    "python3",
+    "udt_interframe_clock_network_2026-09-28/check_network.py"
+  ],
+  "cwd": "/home/udt-admin/udt_mass_codex",
+  "started_utc": "2026-09-28T20:03:06.132858+00:00",
+  "duration_seconds": 1.3110503510106355,
+  "returncode": 0,
+  "timeout": false,
+  "address_space_bytes": 536870912,
+  "cpu_seconds": 60,
+  "maxrss_kib": 53476
+}

@@ -1,0 +1,18 @@
+{
+  "frozen_utc": "2026-09-28T20:03:29.723609+00:00",
+  "candidate_and_checks": {
+    "WORK_ORDER.md": "3a1abb7fef7d34091736cd3fc143b16045d5d45fc757417bbba24ab2af7acbc2",
+    "INITIAL_CANDIDATE.md": "7cc6ad40fbaa67c8d666fccc25cad3ceb3ec379df29f101be48e1697e0bed8ae",
+    "SCOPED_REGISTRY.json": "ee0e5815b2b180cc92ecde1c7ebffecb840c78c3eb46d85b6a1a4b237886fe0f",
+    "check_network.py": "af6823f3d5badbaec28f3f6162181112076e18ee43bdb3240a8d7197fd589cb4",
+    "checks/initial_check_network.py": "4f418d41c73d6754be397724d5254491345c10989e59b6c031c6c285e7551705",
+    "checks/CHECK_REPAIR.md": "11703909e2bc32aa8509462bef7041039c3a39389f4c5288980707fef0418be6",
+    "checks/network.json": "d1b51bd2df7f32d2d2f9501134af1387fe80dd1580ee87e33dfe5cf58c0c7f0f",
+    "checks/network.stderr": "2693fa70bf55b11935d6869fa5e5edcc238d6814278e9990cbc29dd72cfc28c7",
+    "checks/network.stdout": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "checks/network_repaired.json": "ad201794d5d0ac0910c3d5c63a025e794e5ad9a688571fa15d7a746f2f1692c5",
+    "checks/network_repaired.stderr": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "checks/network_repaired.stdout": "463041808735f4019651da7eace877939134c9205605982a0be1edc3b310dbf5"
+  },
+  "discovery": "Analytic candidate preceded controls. Initial zero-Matrix assertion defect and corrected replay retained; no scientific equation repair. Freeze precedes direct adversarial review."
+}

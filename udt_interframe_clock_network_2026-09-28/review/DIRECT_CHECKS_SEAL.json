@@ -1,0 +1,11 @@
+{
+  "utc": "2026-09-28T20:07:01.288514+00:00",
+  "stage": "DIRECT_INDEPENDENT_CHECKS_SEALED_BEFORE_AUTHOR_CODE_OUTPUT_CONTENT_EXPOSURE",
+  "sha256": {
+    "direct_checks.py": "3f6a6314cd401adb6f72c97b2524ec2494e4c1befedcc894af892e4d6f22638f",
+    "DIRECT_CHECKS.json": "d807e3c757607e067519e758c4135ad4658de6d02cbd5372f2eb8cc061d2d1aa",
+    "direct_run.stdout": "3b19608e451843d451589f4f4d225c4a39114d7478f3bf52372699607f95648d",
+    "direct_run.stderr": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "direct_run.json": "d9fb0365f14e52d7f8f45ae1b632618daa739c9ab833afccad52dbe40ea65d32"
+  }
+}

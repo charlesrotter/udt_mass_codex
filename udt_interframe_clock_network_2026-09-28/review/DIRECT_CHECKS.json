@@ -1,0 +1,208 @@
+{
+  "stage": "DIRECT_CHECKS_BEFORE_AUTHOR_CODE_OUTPUT_EXPOSURE",
+  "candidate_sha256": "7cc6ad40fbaa67c8d666fccc25cad3ceb3ec379df29f101be48e1697e0bed8ae",
+  "frozen_pins": {
+    "WORK_ORDER.md": "3a1abb7fef7d34091736cd3fc143b16045d5d45fc757417bbba24ab2af7acbc2",
+    "INITIAL_CANDIDATE.md": "7cc6ad40fbaa67c8d666fccc25cad3ceb3ec379df29f101be48e1697e0bed8ae",
+    "SCOPED_REGISTRY.json": "ee0e5815b2b180cc92ecde1c7ebffecb840c78c3eb46d85b6a1a4b237886fe0f",
+    "check_network.py": "af6823f3d5badbaec28f3f6162181112076e18ee43bdb3240a8d7197fd589cb4",
+    "checks/initial_check_network.py": "4f418d41c73d6754be397724d5254491345c10989e59b6c031c6c285e7551705",
+    "checks/CHECK_REPAIR.md": "11703909e2bc32aa8509462bef7041039c3a39389f4c5288980707fef0418be6",
+    "checks/network.json": "d1b51bd2df7f32d2d2f9501134af1387fe80dd1580ee87e33dfe5cf58c0c7f0f",
+    "checks/network.stderr": "2693fa70bf55b11935d6869fa5e5edcc238d6814278e9990cbc29dd72cfc28c7",
+    "checks/network.stdout": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "checks/network_repaired.json": "ad201794d5d0ac0910c3d5c63a025e794e5ad9a688571fa15d7a746f2f1692c5",
+    "checks/network_repaired.stderr": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "checks/network_repaired.stdout": "463041808735f4019651da7eace877939134c9205605982a0be1edc3b310dbf5"
+  },
+  "python": "3.10.12 (main, Aug 31 2026, 10:18:17) [GCC 11.4.0]",
+  "sympy": "1.13.1",
+  "platform": "Linux-6.8.0-138-generic-x86_64-with-glibc2.35",
+  "records": [
+    {
+      "label": "no transverse acceleration in product sector",
+      "kind": "exact_identity",
+      "residual": "0"
+    },
+    {
+      "label": "original connection gives candidate beta equation",
+      "kind": "exact_identity",
+      "residual": "0"
+    },
+    {
+      "label": "reference clock radial acceleration at beta0",
+      "kind": "exact_identity",
+      "residual": "0"
+    },
+    {
+      "label": "independent gradient linear solve time",
+      "kind": "exact_identity",
+      "residual": "0"
+    },
+    {
+      "label": "independent gradient linear solve space",
+      "kind": "exact_identity",
+      "residual": "0"
+    },
+    {
+      "label": "normalization directly recovers Omega squared",
+      "kind": "exact_identity",
+      "residual": "0"
+    },
+    {
+      "label": "coordinate velocity directly from null labels",
+      "kind": "exact_identity",
+      "residual": "0"
+    },
+    {
+      "label": "finite gradient time from measured drift",
+      "kind": "exact_identity",
+      "residual": "0"
+    },
+    {
+      "label": "finite gradient space from measured drift",
+      "kind": "exact_identity",
+      "residual": "0"
+    },
+    {
+      "label": "wrong time cross sign",
+      "kind": "wrong_rule_rejected",
+      "residual": "531/616"
+    },
+    {
+      "label": "time denominator omitted",
+      "kind": "wrong_rule_rejected",
+      "residual": "9/175"
+    },
+    {
+      "label": "time beta cross term omitted",
+      "kind": "wrong_rule_rejected",
+      "residual": "531/1232"
+    },
+    {
+      "label": "space main sign reversed",
+      "kind": "wrong_rule_rejected",
+      "residual": "-885/616"
+    },
+    {
+      "label": "space beta cross sign reversed",
+      "kind": "wrong_rule_rejected",
+      "residual": "213/616"
+    },
+    {
+      "label": "space denominator omitted",
+      "kind": "wrong_rule_rejected",
+      "residual": "-54/275"
+    },
+    {
+      "label": "nonstatic control A normalization",
+      "kind": "exact_identity",
+      "residual": "0"
+    },
+    {
+      "label": "nonstatic control A free fall",
+      "kind": "exact_identity",
+      "residual": "0"
+    },
+    {
+      "label": "nonstatic control reconstructs phiT",
+      "kind": "exact_identity",
+      "residual": "0"
+    },
+    {
+      "label": "nonstatic control reconstructs c phiR",
+      "kind": "exact_identity",
+      "residual": "0"
+    },
+    {
+      "label": "direct null incidence at C",
+      "kind": "exact_identity",
+      "residual": "0"
+    },
+    {
+      "label": "relay B to C left-null incidence",
+      "kind": "exact_identity",
+      "residual": "0"
+    },
+    {
+      "label": "delay slope from incidence equations",
+      "kind": "exact_identity",
+      "residual": "0"
+    },
+    {
+      "label": "three-clock positive delay and opposite drift v=1/5",
+      "kind": "exact_inequality",
+      "passed": true
+    },
+    {
+      "label": "three-clock positive delay and opposite drift v=-1/5",
+      "kind": "exact_inequality",
+      "passed": true
+    },
+    {
+      "label": "original metric connection curvature at interior point",
+      "kind": "exact_identity",
+      "residual": "0"
+    },
+    {
+      "label": "curvature sign flip",
+      "kind": "wrong_rule_rejected",
+      "residual": "-24"
+    },
+    {
+      "label": "nonconstant conformal deformation called flat",
+      "kind": "wrong_rule_rejected",
+      "residual": "-12"
+    },
+    {
+      "label": "coordinate ray remains null",
+      "kind": "exact_identity",
+      "residual": "0"
+    },
+    {
+      "label": "conformal ray affine reparametrization",
+      "kind": "exact_identity",
+      "residual": "0"
+    },
+    {
+      "label": "third derivative remainder bound sharp control",
+      "kind": "exact_identity",
+      "residual": "0"
+    },
+    {
+      "label": "unit-rescaling stabilizer leaves both constants",
+      "kind": "exact_identity",
+      "residual": "0"
+    },
+    {
+      "label": "unit-rescaling stabilizer changes length",
+      "kind": "exact_identity",
+      "residual": "0"
+    },
+    {
+      "label": "unit-rescaling stabilizer changes time",
+      "kind": "exact_identity",
+      "residual": "0"
+    }
+  ],
+  "count": 33,
+  "three_clock_samples": [
+    {
+      "v": "1/5",
+      "direct_t": "5/4",
+      "relay_t": "5/2",
+      "delay": "sqrt(6)/2",
+      "delay_slope": "-sqrt(6)/6"
+    },
+    {
+      "v": "-1/5",
+      "direct_t": "5/6",
+      "relay_t": "15/4",
+      "delay": "7*sqrt(6)/6",
+      "delay_slope": "sqrt(6)/6"
+    }
+  ],
+  "curvature_scalar": "12*k*(-2*k*x**2 - 1)*exp(-2*k*x**2)",
+  "passed": true,
+  "script_sha256": "3f6a6314cd401adb6f72c97b2524ec2494e4c1befedcc894af892e4d6f22638f"
+}

@@ -1,0 +1,13 @@
+{
+  "stage": "SOURCE_FIRST_SEALED_BEFORE_ICN1_CANDIDATE_EXPOSURE",
+  "utc": "2026-09-28T20:01:50.630450+00:00",
+  "sha256": {
+    "SOURCE_FIRST.md": "d23469ecb1d48627d13748c3361067815630d9d84407e56ee614562f7d1e1e02",
+    "SOURCE_FIRST_COMMANDS.md": "8e13a1fcbb4dae7f83780319e778ce95c8a2d883dc0087273abfeba5784ba0ad",
+    "source_first_checks.py": "e61d5fc4df360119453687cff06f943c57582026f084baa9cb1eeec2d7e96b00",
+    "SOURCE_FIRST_CHECKS.json": "5e918f93c8b7b6c694247936f6b00e78fc339495743b8692e828b6c2c418dec7",
+    "source_first_run.stdout": "d8d532ac24a33f0cc222a38878600f99829ebc7037e981c29020c1e88df4f508",
+    "source_first_run.stderr": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "source_first_run.json": "2b016763da5d0222de52f48b95851baebab572a224ccad8aa5caadf1b55dbba4"
+  }
+}

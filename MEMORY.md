@@ -17,20 +17,20 @@ retains relative-motion Doppler and gravity. July lead reviewed/UNPROMOTED:
 `udt_july_optical_time_dilation_lead_2026-09-28/DECISION_BRIEF.md`.
 Its stationary reversal is not a generic UDT law; physical clock-map data remain open.
 
-FCV1 is complete, reviewed conditional UNPROMOTED. Current explanation and exact
-conditional response routes: `CURRENT_RESEARCH_PROGRAM.md`, “Current next gate.”
-Lay return: `udt_finite_clock_metric_variation_2026-09-28/DECISION_BRIEF.md`.
-Full finite-clock variation includes path, arrival, normalization and protocol.
-Inverse-clock consistency remains an identity; a single measurement derivative
-does not directly supply a smooth local DDR response. Other reconstructions and
-local field equations are not excluded. FSL1's conditional asymptotic test and
-CRV1 response route survive. Physical E and native off-shell conservation remain
-OPEN; DDR still gives TF(E)=0, not an adopted E=0 law.
-Response selection, physical clock map, measurement connection and empirical/global
-completion remain distinct. No light-theory or complete-field-law blanket gate.
-INDEX routes FSL1/CRV1/RMS1/GRS1/CRD1/CGW1/OFS1 and July evidence; original scopes/grades remain.
-Completed chronology: `archive/roadmap_history_2026-09-28/README.md`.
-Stop for discussion; no automatic successor.
+ICN1 is complete, reviewed conditional UNPROMOTED. Current explanation:
+`CURRENT_RESEARCH_PROGRAM.md`, “Current next gate.” Lay return:
+`udt_interframe_clock_network_2026-09-28/DECISION_BRIEF.md`.
+Actual two-way clock/radar restriction and conditional longitudinal metric/gradient
+reconstruction; no native pair assembly, distance law or generic4D reconstruction.
+Both net-redshifted legs imply positive radar drift; this does not select Hubble
+expansion. Third-clock routes are actual distinct experiments. Finite timing
+networks can leave supplied interior geometries ambiguous; native admission unproved.
+Charles accepts measured c_E/G_obs inputs. c_E calibrates measured delay to length;
+both constants alone do not select intrinsic length/time. No source law is added.
+Ordinary local clocks remain intact. Prior FCV1/FSL1/CRV1/RMS1 scopes survive;
+physical E, native conservation, pair assignment and global/empirical completion
+remain distinct/open. DDR remains TF(E)=0, not an adopted E=0 law.
+INDEX routes the exact sources. Stop for discussion; no automatic successor.
 
 Foundation alignment/archival return: INDEX. Kernel evaluates supplied depth; complete `B,Q,S,Y,Z` enters before readout.
 Universal Reciprocity/DDR and explained Local Metric Sufficiency remain owner-adopted provisional premises.

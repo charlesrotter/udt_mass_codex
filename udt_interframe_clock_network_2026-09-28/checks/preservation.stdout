@@ -1,0 +1,20 @@
+{
+  "status": "PASS",
+  "scope": "source/preservation correspondence, not scientific proof",
+  "registry_rows_unchanged": 406,
+  "scoped_rows_verified": 4,
+  "prior_untracked_paths_preserved": 52,
+  "protected_payloads_read_or_hashed": false,
+  "candidate_initial_failure_and_repaired_checks_pinned": true,
+  "three_review_seals_verified": true,
+  "founding_opening_only_authorized_calibration_clarification": true,
+  "maintained": [
+    "CURRENT_RESEARCH_PROGRAM.md",
+    "HANDOFF.md",
+    "INDEX.md",
+    "LIVE.md",
+    "MEMORY.md",
+    "UDT_RESEARCH_ROADMAP.md"
+  ],
+  "package_bytes": 150059
+}

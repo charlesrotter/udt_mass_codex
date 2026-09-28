@@ -1,0 +1,15 @@
+{
+  "command": [
+    "python3",
+    "-c",
+    "\nfrom pathlib import Path\nimport csv,hashlib,json,subprocess\nroot=Path.cwd();p=root/'udt_interframe_clock_network_2026-09-28'\nlaunch=json.loads((p/'LAUNCH.json').read_text())\nmaintained={'LIVE.md','HANDOFF.md','CURRENT_RESEARCH_PROGRAM.md','MEMORY.md','INDEX.md','UDT_RESEARCH_ROADMAP.md'}\ndef pins(base,d):\n for f,h in d.items(): assert hashlib.sha256((base/f).read_bytes()).hexdigest()==h,f\npins(root,{f:h for f,h in launch['source_pins'].items() if f not in maintained})\nfreeze=json.loads((p/'CANDIDATE_FREEZE.json').read_text());pins(p,freeze['candidate_and_checks'])\nfor name,base in [('SOURCE_FIRST_SEAL.json',p/'review'),('DIRECT_CHECKS_SEAL.json',p/'review'),('DIRECT_REVIEW_SEAL.json',p)]:\n pins(base,json.loads((p/'review'/name).read_text())['sha256'])\nrows={r['premise_id']:r for r in csv.DictReader((root/'CURRENT_SCIENTIFIC_PREMISES.tsv').open(),delimiter='\\t')}\nassert len(rows)==406\nselected=json.loads((p/'SCOPED_REGISTRY.json').read_text());assert all(rows[r['premise_id']]==r for r in selected)\ndef git(*a):return subprocess.check_output(['git','-c','core.preloadIndex=false','-c','index.threads=1',*a],text=True).strip()\nassert git('branch','--show-current')=='grok'\nassert git('rev-parse','HEAD')==git('rev-parse','origin/grok')==launch['head']\nassert set(git('diff','--name-only').splitlines())==maintained\nassert not git('diff','--cached','--name-only') and not git('diff','--check')\nu=set(git('ls-files','--others','--exclude-standard').splitlines());assert {f for f in u if not f.startswith(p.name+'/')}==set(launch['prior_untracked_paths'])\naddition='Charles explicitly accepts measured c_E and G_obs as inputs (2026-09-28),\\nreaffirming their OBSERVED anchor status. Neither must be derived before use;\\nusing them for calibration does not by itself select an intrinsic physical scale.\\n\\n'\nold=git('show',launch['head']+':CURRENT_RESEARCH_PROGRAM.md').split('## Current next gate')[0]\nnew=(root/'CURRENT_RESEARCH_PROGRAM.md').read_text().split('## Current next gate')[0]\nassert new.count(addition)==1 and new.replace(addition,'')==old\nsize=sum(f.stat().st_size for f in p.rglob('*') if f.is_file());assert size<2*1024**2,size\nprint(json.dumps({'status':'PASS','scope':'source/preservation correspondence, not scientific proof','registry_rows_unchanged':406,'scoped_rows_verified':len(selected),'prior_untracked_paths_preserved':len(launch['prior_untracked_paths']),'protected_payloads_read_or_hashed':False,'candidate_initial_failure_and_repaired_checks_pinned':True,'three_review_seals_verified':True,'founding_opening_only_authorized_calibration_clarification':True,'maintained':sorted(maintained),'package_bytes':size},indent=2))\n"
+  ],
+  "cwd": "/home/udt-admin/udt_mass_codex",
+  "started_utc": "2026-09-28T20:13:17.775555+00:00",
+  "duration_seconds": 0.11919138400116935,
+  "returncode": 0,
+  "timeout": false,
+  "address_space_bytes": 536870912,
+  "cpu_seconds": 60,
+  "maxrss_kib": 17088
+}

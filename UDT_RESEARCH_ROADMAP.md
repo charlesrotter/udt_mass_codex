@@ -1,6 +1,6 @@
 # UDT research roadmap — current direction
 
-Updated 2026-09-28 after FCV1. This is a direction document, not scientific
+Updated 2026-09-28 after ICN1. This is a direction document, not scientific
 premise authority or research authorization. LIVE controls operational status;
 the exact registry and original reviewed sources control grades and scope.
 AGENTS controls method. Charles canonizes; CANON is unchanged.
@@ -12,20 +12,22 @@ This roadmap does not duplicate their detailed derivations or premise inventory.
 
 ## Current return and next discussion
 
-FCV1 is complete: [lay return](udt_finite_clock_metric_variation_2026-09-28/DECISION_BRIEF.md)
-and [reviewed result](udt_finite_clock_metric_variation_2026-09-28/REVIEWED_RESULT.md).
-It derives the full finite-clock response to metric/protocol changes, retaining
-arrival, ray and calibration terms. Same-map inverse reciprocity remains an
-identity; one measurement derivative does not directly identify the smooth local
-response in DDR. The scoped obstruction does not exclude local field equations
-or other justified response reconstructions. No dynamical candidate was obtained.
-FSL1's conditional asymptotic test and CRV1/RMS1 response routes retain their
-hypotheses through INDEX. DDR remains TF(E)=0, not E=0; no new physical premise
-is adopted. A successor may investigate restrictions on interframe relationships
-or a defended physical-response identification beyond clock-map consistency.
-Ordinary local proper-time clocks are already part of the premise; identifying
-one finite measurement with a local field response is not a prerequisite.
-No successor research campaign is authorized by this documentation change.
+ICN1 is complete: [lay return](udt_interframe_clock_network_2026-09-28/DECISION_BRIEF.md)
+and [reviewed result](udt_interframe_clock_network_2026-09-28/REVIEWED_RESULT.md).
+It constructs actual two-way clock/radar relations and a conditional longitudinal
+metric/gradient reconstruction, while keeping local proper clocks ordinary.
+Net redshift on both matched legs requires increasing radar separation; this does
+not establish an expansion mechanism. Third-clock route consistency and the
+finite-network conformal control expose limits of timing-only reconstruction.
+No native pair assignment or predictive distance dependence is selected.
+
+Measured c_E and G_obs are accepted inputs. c_E calibrates delay to distance;
+the two constants alone do not select an intrinsic length/time. Additional
+justified dimensional data may supply scale; no source law is adopted here.
+FSL1/FCV1/CRV1/RMS1 routes retain their hypotheses through INDEX. DDR remains
+TF(E)=0 and GR remains FILTER ONLY. A successor needs a specific unexamined
+restriction on physical relations beyond evaluating a supplied metric or timing
+record. No successor is authorized by this completed cycle.
 
 Keep the open questions distinct: native response selection, physical event/path-
 to-depth assignment, a chosen observable's signal/measurement connection, empirical
@@ -41,6 +43,22 @@ not established from filter-only GR. Current authority:
 `udt_gr_filter_reconciliation_2026-09-09/AUTHORITY_RECORD.md`.
 No physical response definition, nonzero normalization or scale symmetry is
 supplied by this roadmap. Current sources own all mathematical hypotheses.
+
+## Accepted calibration inputs — 2026-09-28
+
+Charles approved the proposed interframe construction/check/fresh-review cycle
+and added:
+
+> Yes and I think c_E and G may end up providing physcial scale at some point. We can accept both as inputs.
+
+ICN1 uses both as permitted OBSERVED inputs, consistent with founding.md's
+observational anchors. It supplies no new numerical estimate of either. A measured
+clock duration plus c_E already defines radar length. The dimensional limit on
+forming intrinsic length/time from c_E/G alone is not a prohibition on scale
+from measured data, geometry or a justified matter relation. No new source or
+mass/density law is authorized merely by accepting the constants. ICN1 completed
+the bounded construction, exact checks, fresh review and one chronology-domain
+repair. It returns the reviewed conditional result above and stops for discussion.
 
 ## Ordinary local clocks and interframe dilation — 2026-09-28
 
