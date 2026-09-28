@@ -61,6 +61,26 @@ event/path, identify projective position with measured distance, or select X_max
 The pair c_eff ratio is not automatically local signal speed; native G301
 response-class membership remains unclosed.
 
+Charles reiterates the extreme-separation requirement: positional dilation
+increases asymptotically toward an unreachable limit. Keep this working global
+completion target explicit when assessing candidate histories. X_max's value,
+profile and physical realization remain OPEN; the asymptote must follow from
+the completed geometry, not be imposed as a local input, material wall, preferred
+center or selected cutoff. The supplied kernel's nonlinear readout alone does
+not establish that physical distance dependence.
+
+Observations may guide discovery: Charles explicitly supports using supernova,
+galaxy, quasar and other cosmological curve shapes and scales to suggest candidate
+formulas, with each observable's distance and calibration assumptions explicit.
+Exploratory fitting and reverse engineering are legitimate with disclosed data
+exposure and assumptions. Acceptance still requires the relation to follow from
+the admitted UDT metric/kernel and premises; inserting a fitted depth profile
+into the metric does not establish native derivation. Observationally estimated
+parameters remain calibrated, not derived. Full field-equation closure is not
+a prerequisite for a bounded empirical clue, conditional comparison or scoped
+native consequence. Latest direction and proposed route: `UDT_RESEARCH_ROADMAP.md`,
+“Data-guided discovery with native derivation — 2026-09-28.”
+
 Test a named indispensable link. Query/initial data remain legitimate; target
 fitting cannot supply native ownership. Clock rates and flight durations differ.
 Attachment audit/archive: INDEX.

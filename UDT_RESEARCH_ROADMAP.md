@@ -14,6 +14,65 @@ Current acceptance overlay: earlier UNPROMOTED/campaign-only language below reco
 returns. The G383--G412, G413--G415 and G416--G423 banking packets and maintained checkpoint own later dispositions;
 original result packages remain unchanged. No physical adoption or canon is included.
 
+## Data-guided discovery with native derivation — 2026-09-28
+
+Charles's direction, preserved verbatim:
+
+> Supernova and other cosmological data thought to be hubble effects should give you shapes and dimensions of curves to fit red shift to distance which may guide reverse engineering formulas to match.  Results must be natively derivable or a direct consequence of the metric or  kenel.
+
+His follow-up, also preserved verbatim:
+
+> galaxies qusars, lots of data. Just remember that at extreme distance there's an asymptotic increase in dilation to an unreachable limite.
+
+The observational search includes galaxies and quasars as well as supernovae;
+each proposed observable needs its own source, distance, calibration and selection
+account. The asymptotic increase toward an unreachable limit is an explicit
+owner requirement for the intended extreme-separation behavior, alongside local
+GR correspondence. X_max retains its existing WORKING/OPEN global-completion
+status: its value, profile and realization must emerge from the completed
+geometry/history. Neither data fitting nor the supplied kernel's nonlinear
+readout establishes that completion. Do not turn this reminder into a physical
+wall, preferred center, local input or fixed-distance cutoff. A fit over observed
+distances does not by itself verify an extrapolated asymptote.
+
+Exploratory fitting may suggest candidate functional forms, dimensional scales
+and discriminating observations before the full UDT field equations are known.
+Disclose this discovery history. A candidate's native status requires an actual
+derivation from the admitted metric/kernel and premises; inserting the fitted
+profile as free metric data and recovering it is not such a derivation. Keep
+calibrated constants and chosen initial/query data distinct from derived laws.
+The 2026-09-13 emergence direction below continues to prohibit unacknowledged
+target constructions; it does not prohibit this explicitly requested discovery
+use of observational fits.
+
+The proposed route is to reconstruct empirical shape with uncertainties and
+explicit distance/calibration assumptions, use it to focus native derivations,
+then test fixed candidates against additional observations with exposure and
+shared systematics disclosed. A shape constraint is not automatically an absolute
+scale or a unique field equation. Preserve redshift, brightness/beam-area and
+arrival-duration comparisons together where their interfaces are justified.
+Each quantitative step needs its declared data, estimator, controls and budget;
+candidate verification includes separate-context adversarial review and bounded
+same-premise repair/re-review. Return a reviewed conditional candidate, a narrowed
+result, a refutation or an explicit unresolved dependency. Do not fill a missing
+source/transfer law or distance map with an undisclosed fitted function.
+
+Documentation-level source check on 2026-09-28: the
+[Pantheon+ release definitions](https://github.com/PantheonPlusSH0ES/DataRelease/blob/main/Pantheon%2B_Data/4_DISTANCES_AND_COVAR/README)
+distinguish corrected brightness, redshift frames, Cepheid-calibrated distance
+moduli and full covariance. The
+[analysis methods](https://arxiv.org/html/2202.04077v2)
+describe standardization, selection corrections and their simulation cosmology.
+These are candidate measurement interfaces, not certified UDT inputs. Avoid
+using a distance calculated from redshift under the model being tested as an
+independent measurement of that same relation. The already exposed
+[DES duration study](https://arxiv.org/abs/2406.05050v2)
+is an additional methods/constraint lead, with the source and estimator limits
+recorded in `udt_redshift_distance_readiness_2026-09-12/DECISION_BRIEF.md`.
+That checkpoint and July's reviewed return retain their grades and scope.
+No catalog arrays were analysed and no fit, native curve, empirical eligibility,
+new physical premise or scientific promotion is claimed by this direction update.
+
 ## Observational correspondence direction — 2026-09-28
 
 Charles's latest clarification, preserved verbatim:
