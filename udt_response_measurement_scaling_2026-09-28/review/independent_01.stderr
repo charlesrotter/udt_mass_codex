@@ -1,0 +1,6 @@
+Traceback (most recent call last):
+  File "/home/udt-admin/udt_mass_codex/udt_response_measurement_scaling_2026-09-28/review/check_independent.py", line 112, in <module>
+    reject('active channel '+key,one[key],0)
+  File "/home/udt-admin/udt_mass_codex/udt_response_measurement_scaling_2026-09-28/review/check_independent.py", line 29, in reject
+    assert any(z != 0 for z in residuals), name
+AssertionError: active channel mdot

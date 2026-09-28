@@ -1,0 +1,31 @@
+{
+  "utc": "2026-09-28T15:46:13.922907+00:00",
+  "verdict": "VERIFIED-WITH-CAVEATS",
+  "candidate_unchanged": true,
+  "hashes": {
+    "udt_gr_response_selection_2026-09-28/INITIAL_DERIVATION.md": "06c030b7d8039c923727a7c6056434b368d952724140082cc7f0501065ed8535",
+    "udt_g352_clock_rate_carried_measure_readout_2026-09-05/EXACT_DERIVATION.md": "70aac9b85acb797cba41caa8dad9d567174b8031e853de8189a074e929e51b0d",
+    "udt_response_measurement_scaling_2026-09-28/review/DIRECT_INTAKE.json": "9c273bfad0f0b8348c6ce031d71915fc989d49966e301be467c9637c8475c086",
+    "udt_response_measurement_scaling_2026-09-28/review/DIRECT_REVIEW.md": "84c474b3b12a492b7c274cf20d859cf3b22a430290b210c5f29c6146445c1e11",
+    "udt_response_measurement_scaling_2026-09-28/review/DISCOVERY_AND_EXPOSURE.md": "77cd9af832dc0645f399d71498ae29a4de873d00fce0b772bcf0b6b231da9f35",
+    "udt_response_measurement_scaling_2026-09-28/review/INDEPENDENT_ARGUMENT.md": "f4c51ae410cb11b970675f12dcb77e7260bbc4fadb0bb3e631b0c0c412eb668f",
+    "udt_response_measurement_scaling_2026-09-28/review/INDEPENDENT_CHECK_FREEZE.json": "29b5296ad86cd392b9858c9154f5fa657d59d6a8cc82e0bf5b08ef425c188498",
+    "udt_response_measurement_scaling_2026-09-28/review/INITIAL_check_independent.py": "340993e1fbbf2c1e68603e3e59a4c3b7f85357494b6ce420479c9c619f6e769c",
+    "udt_response_measurement_scaling_2026-09-28/review/SOURCE_FIRST.md": "d6ed10af6323d729f6332ad9133c2da770021a8cd3384bb99c8daee50133d690",
+    "udt_response_measurement_scaling_2026-09-28/review/SOURCE_FIRST_FREEZE.json": "5a354a7e83fdb6cbb90658df05a02a4d4ea11f589deb131e7557fb4e483166d4",
+    "udt_response_measurement_scaling_2026-09-28/review/check_direct_lemmas.py": "727cbfe31f4dae045b8217c394586304cde44a678d9e52d6fccf67094b5b12e0",
+    "udt_response_measurement_scaling_2026-09-28/review/check_independent.py": "dd2881b0eb44ac29bc0c5af012b0fdd8f21830d2ace53912ddfb1ec15afa3254",
+    "udt_response_measurement_scaling_2026-09-28/review/direct_lemmas_01.capture_provenance.json": "00a5e81449afa97ae1083338021a565283f9f9209c12b8fa8982994ce4004e92",
+    "udt_response_measurement_scaling_2026-09-28/review/direct_lemmas_01.json": "28835939ecaca1a1df686a839633bdfafbf6444158be94f734d338556b0789e4",
+    "udt_response_measurement_scaling_2026-09-28/review/direct_lemmas_01.stderr": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "udt_response_measurement_scaling_2026-09-28/review/direct_lemmas_01.stdout": "90a6149b4cb2a0e41679e01560e2672c1e4c2cfd2b005354d860568ac93ba35d",
+    "udt_response_measurement_scaling_2026-09-28/review/independent_01.capture_provenance.json": "099168644f9f6e1a9986ee12e5ce79ff3578436a79408a8a6a265ef8fc8160ec",
+    "udt_response_measurement_scaling_2026-09-28/review/independent_01.json": "31d55e8f1c6f07a5b6d02146aefcc899b3bb111d29eecb079141c11441e0da79",
+    "udt_response_measurement_scaling_2026-09-28/review/independent_01.stderr": "ffced20030f859bfcdfe1ffa41bf21f12999dfe0ae7ad4f97a29e3be64707fc2",
+    "udt_response_measurement_scaling_2026-09-28/review/independent_01.stdout": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "udt_response_measurement_scaling_2026-09-28/review/independent_02.capture_provenance.json": "099168644f9f6e1a9986ee12e5ce79ff3578436a79408a8a6a265ef8fc8160ec",
+    "udt_response_measurement_scaling_2026-09-28/review/independent_02.json": "17cfda7fe862e18ed6b1bdb23403154fcb084fd9ded13e3cc5d5efeadfb9d19f",
+    "udt_response_measurement_scaling_2026-09-28/review/independent_02.stderr": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "udt_response_measurement_scaling_2026-09-28/review/independent_02.stdout": "47ee43659a760a7add36fcc9f1d3ff410748ae9deef73d8fa0860f02516c1384"
+  }
+}

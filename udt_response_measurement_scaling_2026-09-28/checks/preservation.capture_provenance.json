@@ -1,0 +1,27 @@
+{
+  "source": "udt_shared_readout_metric_constraint_campaign_2026-09-06/run_capture.py",
+  "source_sha256": "8ff5469ace76bdfc84188915242abbf3baff35516f9ee3f9ba4b1cbfeb2573ef",
+  "adapted_capture_sha256": "6bd11bdb0ddf49bf57699fb1089d1f1b767de16cdc889f8100ef84ec883be070",
+  "wrapper_sha256": "1b95a783e861a52cc9fc50d3c76c152cb3673fc9045372afafd30da269ffec3f",
+  "replacements": {
+    "(512 * 1024**2, 512 * 1024**2)": "(2048 * 1024**2, 2048 * 1024**2)",
+    "(60, 60)": "(900, 900)",
+    "timeout=60": "timeout=900",
+    "address_space_bytes=512 * 1024**2": "address_space_bytes=2048 * 1024**2",
+    "cpu_seconds=60": "cpu_seconds=900"
+  },
+  "thread_environment": {
+    "OMP_NUM_THREADS": "1",
+    "OPENBLAS_NUM_THREADS": "1",
+    "MKL_NUM_THREADS": "1"
+  },
+  "limits": {
+    "seconds": 900,
+    "mib": 2048
+  },
+  "command": [
+    "python3",
+    "-c",
+    "import hashlib,json,subprocess\nfrom pathlib import Path\nroot=Path.cwd(); p=root/'udt_response_measurement_scaling_2026-09-28'\nlaunch=json.loads((p/'LAUNCH.json').read_text())\nmaintained={'LIVE.md','HANDOFF.md','CURRENT_RESEARCH_PROGRAM.md','MEMORY.md','INDEX.md','UDT_RESEARCH_ROADMAP.md'}\ndef git(*args): return subprocess.check_output(['git',*args],cwd=root)\ndef digest(raw): return hashlib.sha256(raw).hexdigest()\ndef verify(pins,base=root,baseline=False):\n for name,expected in pins.items():\n  raw=git('show',launch['head']+':'+name) if baseline and name in maintained else (base/name).read_bytes()\n  assert digest(raw)==expected,name\n return len(pins)\nassert git('branch','--show-current').decode().strip()=='grok'\nassert git('rev-parse','HEAD').decode().strip()==launch['head']\nassert git('rev-parse','origin/grok').decode().strip()==launch['head']\nassert set(git('diff','--name-only').decode().splitlines())==maintained\nassert not git('diff','--cached','--name-only')\ncounts={'launch_sources':verify(launch['source_sha256'],baseline=True),\n 'additional_sources':verify(json.loads((p/'ADDITIONAL_SOURCES.json').read_text())),\n 'initial_candidate':verify(json.loads((p/'CANDIDATE_FREEZE.json').read_text())['files'],base=p)}\nfor name,key in [('SOURCE_FIRST_FREEZE.json','source_sha256'),('INDEPENDENT_CHECK_FREEZE.json','hashes'),('DIRECT_FREEZE.json','hashes')]:\n counts[name]=verify(json.loads((p/'review'/name).read_text())[key])\nfinal=json.loads((p/'review/FINAL_FIDELITY.json').read_text())\ncounts['final_files']=verify(final['reviewed_file_sha256'])\ncounts['final_evidence']=verify(final['review_evidence_sha256'])\nuntracked=set(git('ls-files','--others','--exclude-standard','-z').decode().split('\\0'))-{''}\noutside={name for name in untracked if not name.startswith(p.name+'/')}\nassert outside==set(launch['preexisting_untracked_paths'])\nsubprocess.run(['git','diff','--check'],check=True)\nfiles=[f for f in p.rglob('*') if f.is_file() and '__pycache__' not in f.parts]\nsize=sum(f.stat().st_size for f in files); assert size<10_000_000\nprint(json.dumps({'status':'PASS','meaning':'source and packaging correspondence, not scientific proof',\n 'pin_counts':counts,'preserved_untracked_pathnames':len(outside),'protected_payloads_read':False,\n 'maintained_paths':sorted(maintained),'files_at_check':len(files),'bytes_at_check':size}))\n"
+  ]
+}

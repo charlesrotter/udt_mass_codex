@@ -1,0 +1,30 @@
+{
+  "utc": "2026-09-28T15:49:32.006752+00:00",
+  "objections": [
+    {
+      "path": "UDT_RESEARCH_ROADMAP.md",
+      "old_text": "The accepted G403/DCI1 ideal clock/motion records reconstruct Ricci",
+      "reason": "G403 banked target is Ric(U,U), while suitable-family tensor polarization is RMS1 construction. Clarify attribution; scientific result survives.",
+      "suggested_repair": "G403/DCI1 supplies Ric(U,U) from its ideal clock/motion records; RMS1 conditionally reconstructs Ricci from a suitable family of those readings."
+    },
+    {
+      "path": "udt_response_measurement_scaling_2026-09-28/DECISION_BRIEF.md",
+      "old_text": "leaving its invisible trace contribution unspecified",
+      "reason": "Invisible is relative to DDR, not all measurements.",
+      "suggested_repair": "leaving its trace contribution, which DDR does not constrain, unspecified."
+    }
+  ],
+  "candidate_science_unchanged": true,
+  "file_sha256_at_request_record": {
+    "udt_response_measurement_scaling_2026-09-28/REVIEWED_RESULT.md": "462cad1bb96a2ed121edede7e93d4f0fcf9d7f61c1a35f438d42ae47b7dfec3c",
+    "udt_response_measurement_scaling_2026-09-28/DECISION_BRIEF.md": "8a6285b01fe83e94f4bee7f6273d1c6af9d5b8ed0ca7a066251bedff5eb54569",
+    "udt_response_measurement_scaling_2026-09-28/CLOSEOUT.md": "5959b1ebb36c323c968e8788945ffafb441b76c49bb820c03a13d9824150dd06",
+    "LIVE.md": "ab3284574b335cea999231a8f41a4a97edf500024341e8370a8cfb11cb205fa9",
+    "HANDOFF.md": "ccc3addcacc088090bce859d90dd5496e40593a5c3ff1b40eee5ce2904709fef",
+    "CURRENT_RESEARCH_PROGRAM.md": "235966c1fd45c0d556d4f66d016f73f7a4450c0fb29732f69af788a08f59359b",
+    "MEMORY.md": "bcad34c5fa011a62e75dd05764ef7c4a0f90272ed8a96b7bc92f8da0470e5d43",
+    "INDEX.md": "2f41762828725a027f659fb10c3d17544ea18a473261721b3251890bc3a81d51",
+    "UDT_RESEARCH_ROADMAP.md": "4b4df115f0d7e4bfc960fdc056433289d328f02e880f4ed0db0f588a5f016ef9"
+  },
+  "timing_note": "The original objection wording is transcribed from the first actual read. The parent applied wording repairs concurrently before this hash snapshot was captured; these hashes therefore already match the repaired files and do not pin the earlier full-document bytes."
+}

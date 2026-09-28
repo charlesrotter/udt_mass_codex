@@ -42,6 +42,11 @@ G388--G389 conditional, compact-sector mixed-C2/analytic-local tangent limits; o
 
 ## Founding, relational and response sources
 
+- RMS1 response meaning/scaling, reviewed conditional UNPROMOTED:
+  `udt_response_measurement_scaling_2026-09-28/DECISION_BRIEF.md`.
+  Conditional clock/motion-to-Ricci scaling, trace-free-only sufficient target
+  and scoped failed direct identifications; physical response identification OPEN.
+  Full hypotheses, precision qualifications and review: REVIEWED_RESULT and CLOSEOUT.
 - GRS1 GR-response selection comparison, reviewed conditional UNPROMOTED:
   `udt_gr_response_selection_2026-09-28/DECISION_BRIEF.md`.
   Natural finite-jet homothety classification and explicit action-nonselection

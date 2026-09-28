@@ -1,0 +1,23 @@
+{
+  "utc": "2026-09-28T15:37:58.225517+00:00",
+  "stage": "independent source-first checks completed; no new candidate proof/code/result read",
+  "hashes": {
+    "udt_g352_clock_rate_carried_measure_readout_2026-09-05/EXACT_DERIVATION.md": "70aac9b85acb797cba41caa8dad9d567174b8031e853de8189a074e929e51b0d",
+    "udt_reviewed_backlog_banking_2026-09-10/capture_existing.py": "1b95a783e861a52cc9fc50d3c76c152cb3673fc9045372afafd30da269ffec3f",
+    "udt_shared_readout_metric_constraint_campaign_2026-09-06/run_capture.py": "8ff5469ace76bdfc84188915242abbf3baff35516f9ee3f9ba4b1cbfeb2573ef",
+    "udt_response_measurement_scaling_2026-09-28/review/DISCOVERY_AND_EXPOSURE.md": "77cd9af832dc0645f399d71498ae29a4de873d00fce0b772bcf0b6b231da9f35",
+    "udt_response_measurement_scaling_2026-09-28/review/INDEPENDENT_ARGUMENT.md": "f4c51ae410cb11b970675f12dcb77e7260bbc4fadb0bb3e631b0c0c412eb668f",
+    "udt_response_measurement_scaling_2026-09-28/review/INITIAL_check_independent.py": "340993e1fbbf2c1e68603e3e59a4c3b7f85357494b6ce420479c9c619f6e769c",
+    "udt_response_measurement_scaling_2026-09-28/review/SOURCE_FIRST.md": "d6ed10af6323d729f6332ad9133c2da770021a8cd3384bb99c8daee50133d690",
+    "udt_response_measurement_scaling_2026-09-28/review/SOURCE_FIRST_FREEZE.json": "5a354a7e83fdb6cbb90658df05a02a4d4ea11f589deb131e7557fb4e483166d4",
+    "udt_response_measurement_scaling_2026-09-28/review/check_independent.py": "dd2881b0eb44ac29bc0c5af012b0fdd8f21830d2ace53912ddfb1ec15afa3254",
+    "udt_response_measurement_scaling_2026-09-28/review/independent_01.capture_provenance.json": "099168644f9f6e1a9986ee12e5ce79ff3578436a79408a8a6a265ef8fc8160ec",
+    "udt_response_measurement_scaling_2026-09-28/review/independent_01.json": "31d55e8f1c6f07a5b6d02146aefcc899b3bb111d29eecb079141c11441e0da79",
+    "udt_response_measurement_scaling_2026-09-28/review/independent_01.stderr": "ffced20030f859bfcdfe1ffa41bf21f12999dfe0ae7ad4f97a29e3be64707fc2",
+    "udt_response_measurement_scaling_2026-09-28/review/independent_01.stdout": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "udt_response_measurement_scaling_2026-09-28/review/independent_02.capture_provenance.json": "099168644f9f6e1a9986ee12e5ce79ff3578436a79408a8a6a265ef8fc8160ec",
+    "udt_response_measurement_scaling_2026-09-28/review/independent_02.json": "17cfda7fe862e18ed6b1bdb23403154fcb084fd9ded13e3cc5d5efeadfb9d19f",
+    "udt_response_measurement_scaling_2026-09-28/review/independent_02.stderr": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "udt_response_measurement_scaling_2026-09-28/review/independent_02.stdout": "47ee43659a760a7add36fcc9f1d3ff410748ae9deef73d8fa0860f02516c1384"
+  }
+}

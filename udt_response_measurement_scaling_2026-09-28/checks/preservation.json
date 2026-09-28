@@ -1,0 +1,15 @@
+{
+  "command": [
+    "python3",
+    "-c",
+    "import hashlib,json,subprocess\nfrom pathlib import Path\nroot=Path.cwd(); p=root/'udt_response_measurement_scaling_2026-09-28'\nlaunch=json.loads((p/'LAUNCH.json').read_text())\nmaintained={'LIVE.md','HANDOFF.md','CURRENT_RESEARCH_PROGRAM.md','MEMORY.md','INDEX.md','UDT_RESEARCH_ROADMAP.md'}\ndef git(*args): return subprocess.check_output(['git',*args],cwd=root)\ndef digest(raw): return hashlib.sha256(raw).hexdigest()\ndef verify(pins,base=root,baseline=False):\n for name,expected in pins.items():\n  raw=git('show',launch['head']+':'+name) if baseline and name in maintained else (base/name).read_bytes()\n  assert digest(raw)==expected,name\n return len(pins)\nassert git('branch','--show-current').decode().strip()=='grok'\nassert git('rev-parse','HEAD').decode().strip()==launch['head']\nassert git('rev-parse','origin/grok').decode().strip()==launch['head']\nassert set(git('diff','--name-only').decode().splitlines())==maintained\nassert not git('diff','--cached','--name-only')\ncounts={'launch_sources':verify(launch['source_sha256'],baseline=True),\n 'additional_sources':verify(json.loads((p/'ADDITIONAL_SOURCES.json').read_text())),\n 'initial_candidate':verify(json.loads((p/'CANDIDATE_FREEZE.json').read_text())['files'],base=p)}\nfor name,key in [('SOURCE_FIRST_FREEZE.json','source_sha256'),('INDEPENDENT_CHECK_FREEZE.json','hashes'),('DIRECT_FREEZE.json','hashes')]:\n counts[name]=verify(json.loads((p/'review'/name).read_text())[key])\nfinal=json.loads((p/'review/FINAL_FIDELITY.json').read_text())\ncounts['final_files']=verify(final['reviewed_file_sha256'])\ncounts['final_evidence']=verify(final['review_evidence_sha256'])\nuntracked=set(git('ls-files','--others','--exclude-standard','-z').decode().split('\\0'))-{''}\noutside={name for name in untracked if not name.startswith(p.name+'/')}\nassert outside==set(launch['preexisting_untracked_paths'])\nsubprocess.run(['git','diff','--check'],check=True)\nfiles=[f for f in p.rglob('*') if f.is_file() and '__pycache__' not in f.parts]\nsize=sum(f.stat().st_size for f in files); assert size<10_000_000\nprint(json.dumps({'status':'PASS','meaning':'source and packaging correspondence, not scientific proof',\n 'pin_counts':counts,'preserved_untracked_pathnames':len(outside),'protected_payloads_read':False,\n 'maintained_paths':sorted(maintained),'files_at_check':len(files),'bytes_at_check':size}))\n"
+  ],
+  "cwd": "/home/udt-admin/udt_mass_codex",
+  "started_utc": "2026-09-28T15:51:30.565645+00:00",
+  "duration_seconds": 0.0825013180001406,
+  "returncode": 0,
+  "timeout": false,
+  "address_space_bytes": 2147483648,
+  "cpu_seconds": 900,
+  "maxrss_kib": 17088
+}

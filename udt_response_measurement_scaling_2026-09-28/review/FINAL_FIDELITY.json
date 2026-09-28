@@ -1,0 +1,24 @@
+{
+  "utc": "2026-09-28T15:51:03.857272+00:00",
+  "verdict": "FIDELITY_ACCEPTED_AFTER_TWO_WORDING_CLARIFICATIONS",
+  "context": "same exposed reviewer context; not a new independent scientific review",
+  "reviewed_file_sha256": {
+    "udt_response_measurement_scaling_2026-09-28/REVIEWED_RESULT.md": "462cad1bb96a2ed121edede7e93d4f0fcf9d7f61c1a35f438d42ae47b7dfec3c",
+    "udt_response_measurement_scaling_2026-09-28/DECISION_BRIEF.md": "8a6285b01fe83e94f4bee7f6273d1c6af9d5b8ed0ca7a066251bedff5eb54569",
+    "udt_response_measurement_scaling_2026-09-28/CLOSEOUT.md": "5959b1ebb36c323c968e8788945ffafb441b76c49bb820c03a13d9824150dd06",
+    "LIVE.md": "ab3284574b335cea999231a8f41a4a97edf500024341e8370a8cfb11cb205fa9",
+    "HANDOFF.md": "ccc3addcacc088090bce859d90dd5496e40593a5c3ff1b40eee5ce2904709fef",
+    "CURRENT_RESEARCH_PROGRAM.md": "235966c1fd45c0d556d4f66d016f73f7a4450c0fb29732f69af788a08f59359b",
+    "MEMORY.md": "bcad34c5fa011a62e75dd05764ef7c4a0f90272ed8a96b7bc92f8da0470e5d43",
+    "INDEX.md": "2f41762828725a027f659fb10c3d17544ea18a473261721b3251890bc3a81d51",
+    "UDT_RESEARCH_ROADMAP.md": "4b4df115f0d7e4bfc960fdc056433289d328f02e880f4ed0db0f588a5f016ef9"
+  },
+  "review_evidence_sha256": {
+    "udt_response_measurement_scaling_2026-09-28/review/FINAL_FIDELITY.md": "549ec9cbab7427ee5589673f0be577fa4957ae88ad1b27941666021a8a74d256",
+    "udt_response_measurement_scaling_2026-09-28/review/FIDELITY_REQUEST.json": "781a842346329d48049fafbaeef83530baff13f42336a1de66750bd03c529b68",
+    "udt_response_measurement_scaling_2026-09-28/review/RESOURCE_CLARIFICATION.md": "e22c666a08fefd4cf01a6bb35e2dfa92779c34d8f76642e78c2a0130717be0a9",
+    "udt_response_measurement_scaling_2026-09-28/review/DIRECT_REVIEW.md": "84c474b3b12a492b7c274cf20d859cf3b22a430290b210c5f29c6146445c1e11",
+    "udt_response_measurement_scaling_2026-09-28/review/DIRECT_FREEZE.json": "07914930a58fb8b343d59278265235338ae319e55995ffb1ce1967a5ef03ae5e"
+  },
+  "candidate_science_unchanged": true
+}

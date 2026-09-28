@@ -87,19 +87,28 @@ Follow AGENTS; report actual instructions/checks and distinguish configured from
 Dated availability check COMPLETE: `archive/stale_working_documents_2026-09-27/maintenance_agent_capacity_2026-09-10.md`.
 General capacity UNVERIFIED; no automatic repeat. FSR1/PJC1 supplied no new field equation; Maxwell PAUSED.
 
-Next: GRS1 GR-response selection comparison is reviewed conditional UNPROMOTED;
-its bounded construction, exact-check and fresh-review cycle is complete:
+Next: RMS1 response meaning/scaling exploration is reviewed conditional UNPROMOTED;
+its bounded construction, exact checks and fresh adversarial review are complete:
+`udt_response_measurement_scaling_2026-09-28/DECISION_BRIEF.md`.
+Conditional directional clock/motion records reconstruct Ricci; their matched
+unit-observer readings have weight -2 under constant metric homothety.
+This does not identify DDR's response. The narrower sufficient target is
+S=TF(E): under the reviewed covariant rank-two, natural finite-jet, flat-regular
+flattening-domain and exact weight-zero hypotheses, S=a(Ric-Rg/4).
+With a!=0, DDR gives the trace-free Einstein vacuum equation. Native ownership
+of these hypotheses, physical response identification and nonzero a remain OPEN.
+Kernel differentiation and direct G352 density identification fail their stated
+shortcuts; this is not universal non-derivability. Geometry needs no blanket
+light-theory prerequisite; actual record access and signal identification remain
+conditional. GR is FILTER ONLY. No field law, scale symmetry or premise is adopted.
+REVIEWED_RESULT and CLOSEOUT own precision qualifications, review and limits.
+
+Prior GRS1 reviewed conditional UNPROMOTED return:
 `udt_gr_response_selection_2026-09-28/DECISION_BRIEF.md`.
-Under the reviewed covariant rank-two, natural finite-jet, flat-regular
-flattening-domain and exact weight-zero hypotheses, E=a Ric+b Rg.
-With a!=0, DDR gives the trace-free Einstein vacuum equation; second derivative
-order follows under those hypotheses.
-The physical response's membership, weight and nontrivial shape sensitivity
-remain unclosed. Reciprocity does not select an action: EH/R^2 are unadopted
-comparisons. GR remains FILTER ONLY. No source, scale or field law is adopted.
-REVIEWED_RESULT and CLOSEOUT own hypotheses, review, failures and checks.
+Its full-E conditional classification survives; RMS1 weakens this route's target
+to TF(E). Reciprocity does not select an action; EH/R^2 remain unadopted comparisons.
 Native selection, measured local GR precision and physical asymptotic completion
-remain OPEN. No premise, scientific grade, canon or successor is adopted.
+remain OPEN. No scientific grade, canon or successor is adopted.
 
 Prior CRD1 reviewed conditional UNPROMOTED return:
 `udt_clock_curvature_derivation_2026-09-28/DECISION_BRIEF.md`.
@@ -122,6 +131,6 @@ future-return rule, preferred observer or required Hubble expansion.
 DCR1 reviewed conditional UNPROMOTED: directional clocks permit central tides in its supplied static class
 under full G301 at an eligible center; no neighborhood field equation; FE1 UNADOPTED.
 G312 membership/native admission unclosed; response identification OPEN; G352 physical-realization: physical identification remains OPEN.
-Stop for lay discussion. GRS1 is complete; no new campaign is authorized;
+Stop for lay discussion. RMS1 is complete; no new campaign is authorized;
 work order and return gates: `UDT_RESEARCH_ROADMAP.md`.
 <!-- STARTUP_CURRENT_END -->

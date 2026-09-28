@@ -1,0 +1,65 @@
+[
+  {
+    "premise_id": "G403",
+    "term": "directional_clock_timelike_curvature_factorization",
+    "epistemic_label": "MIXED",
+    "active_use": "DCI1; ENTIRE frozen statement and controlling reviews/repairs. For any supplied smooth local Lorentzian four-metric and future unit congruence, the declared ideal all-direction normalized clock-slope record q(n), observer-time mean drift dot(m), and separately supplied A=div(a), W=w_ab*w^ab determine Ric(U,U)=3 dot(m)-3m^2-(15/2)V+A+W, where m=<q> and V is even-direction variance. Exact drift, acceleration-divergence, twist and shear metric witnesses defeat the stated reduced record maps. W>=0 gives only the stated one-sided implication when W is omitted; only A+W enters this target. HYPOTHESES: All-direction properly calibrated infinitesimal null queries; common rest-frame/units and smooth observer-time mean; Full spacetime acceleration divergence and full vorticity norm; stated curvature sign; Inverse record map excludes complete metric derivatives, incidence, path, travel-time and transport information",
+    "open_scope": "Physical identification remains OPEN; G166 native assembly is OPEN; G176 remains WORKING; G312 GR is FILTER ONLY and response-class membership is unclosed. No physical metric/equation/observer/population/history/scale selection or canon follows. No arbitrary-record realizability, full curvature/metric reconstruction or minimum-data theorem; Separately supplied motion channels are not proven instrument access or statistically independent measurements; Zero finite scalar depths on each own branch do not mean equal incidence or full kernel",
+    "controlling_source": "udt_reviewed_backlog_banking_2026-09-10/BANKING_RECORD.md",
+    "precedence_rule": "G403 accepts only DCI1 at its exact frozen scope; required registry IDs: G220; BANKED_CLAIMS.json distinguishes required premises from methods/controls/source credit. ENTIRE original candidate, review, repairs, exclusions and discovery history remain controlling. Fresh separate-context banking fidelity is not blind reproof; runtime model/version UNATTESTED; different-model/human/formal axes UNTESTED. LIVE then exact registry then banking record and immutable sources; conflict means STOP."
+  },
+  {
+    "premise_id": "G352",
+    "term": "continuous_phase_clock_rate_carried_measure_readout",
+    "epistemic_label": "MIXED",
+    "active_use": "OWNER_ADOPTED_PROVISIONAL_CLOCK_RATE_READOUT__EXPLICITLY_CHOSEN_CONTINUOUS_TOTAL_PHASE_VARIATION_ON_SUPPLIED_NONZERO_FUTURE_RAISED_NULL_PHASE_GRADIENT__FIXED_POSITIVE_COMMON_PHASE_SPACING__EXPLICIT_PRODUCT_MEASURABLE_SPACE_WITH_SAME_PHASE_INDEPENDENT_G351_LABEL_MEASURE_AND_NO_PHASE_LABEL_CORRELATION__COMMON_NONZERO_ABSOLUTELY_CONTINUOUS_REGULAR_SUPPORT__ARBITRARY_FINITE_FUTURE_TIMELIKE_LOCAL_OBSERVERS__FULL_G350_INDEPENDENT_POSITIVE_R_A_CHARACTER_DOMAIN__COMMON_POSITIVE_AFFINE_PHASE_RESCALE__IDENTITY_COMPARISON_REVERSAL_AND_THREE_CUT_SEWING__MEASURABLE_FREQUENCY_INTEGRABLE_WEIGHTED_PUSHFORWARD_THROUGH_RANK_LOSS",
+    "open_scope": "physical identity and realization of any carried content; literal atomic event averaging interpolation or coarse graining; emission absorption source magnitude support and populated labels; phase dependent or correlated label content; cross-label aggregation interference and detector law; light photon energy brightness flux luminosity distance and observations; global worldlines path population route selection history occupancy topology matter mass action stability absolute scale physical Xmax and canon",
+    "controlling_source": "udt_g352_clock_rate_carried_measure_readout_2026-09-05/AUDIT_REPORT.md",
+    "precedence_rule": "G352_EXTERNAL_R2_REPAIR_FOLLOWUP_ACCEPTS_THE_BOUNDED_CONTINUOUS_PHASE_CLOCK_RATE_READOUT__OWNER_PROVISIONAL_READOUT_PLUS_EXPLICIT_CHOSEN_NONNEGATIVE_PHASE_LABEL_PRODUCT_GIVES_GAMMA_EQUALS_OMEGA_OVER_DELTATHETA_TIMES_S_OVER_J_AND_T_CLOCK_EQUALS_R_A_INVERSE__P_EQUALS_ONE_Q_EQUALS_MINUS_ONE_ONLY_FOR_THIS_READOUT_IN_G350_FULL_INDEPENDENT_POSITIVE_CHARACTER_DOMAIN__ATOMIC_CROSSINGS_P_ZERO_OTHER_READOUTS_PHYSICAL_IDENTITY_SOURCE_POPULATION_LIGHT_DISTANCE_HISTORY_SCALE_XMAX_MATTER_AND_CANON_REMAIN_DISTINCT_OR_OPEN__METRIC_KERNEL_ANGULAR_EQUATION_UNCHANGED__LIVE_THEN_THIS_REGISTRY_THEN_CITED_G352_SOURCE__CONFLICT_MEANS_STOP"
+  },
+  {
+    "premise_id": "G351",
+    "term": "source_free_labelwise_carried_measure_conservation",
+    "epistemic_label": "MIXED",
+    "active_use": "OWNER_ADOPTED_PROVISIONAL_SOURCE_FREE_LABELWISE_CONSERVATION_OF_ONE_STANDARD_FINITE_NONNEGATIVE_COUNTABLY_ADDITIVE_MEASURE_ON_SUPPLIED_MEASURABLE_LABEL_SPACE__REGULAR_CUTS_WITH_FINITE_POSITIVE_TWO_DIMENSIONAL_METRIC_AREA_JACOBIAN__NONZERO_ABSOLUTELY_CONTINUOUS_COMPONENT_ONLY_FOR_Q_EQUALS_MINUS_ONE__DIVISION_FREE_ZERO_DENSITY_LAW_RETAINED__FULL_G350_INDEPENDENT_POSITIVE_R_A_CHARACTER_DOMAIN__ALL_REAL_DECLARED_OBSERVER_WEIGHTS_P_RETAINED__MEASURABLE_PUSHFORWARD_RETAINS_PREIMAGE_MULTIPLICITY_THROUGH_CAUSTICS__SINGULAR_CONTENT_REMAINS_MEASURE_VALUED",
+    "open_scope": "physical identity and observer weight p of any carried readout; source magnitude support and populated labels; local balance and sourced evolution; signed complex or field-valued content; cross-label aggregation interference and detector law; emission absorption light photon energy brightness flux luminosity probability and distance; route germ history topology occupancy matter mass action stability observations scale physical Xmax and canon",
+    "controlling_source": "udt_g351_source_free_labelwise_carried_measure_conservation_2026-09-05/AUDIT_REPORT.md",
+    "precedence_rule": "G351_FRESH_EXTERNAL_GPT56SOL_ACCEPTS_THE_BOUNDED_CARRIED_MEASURE_CONSERVATION_RESULT__OWNER_PROVISIONAL_STANDARD_COUNTABLY_ADDITIVE_SOURCE_FREE_LABEL_MEASURE_GIVES_NONZERO_ABSOLUTELY_CONTINUOUS_REGULAR_DENSITY_AREA_WEIGHT_Q_EQUALS_MINUS_ONE__P_REMAINS_ARBITRARY__FULL_FINITE_MEASURE_SURVIVES_CAUSTIC_PUSHFORWARD_WHILE_SINGULAR_CONTENT_HAS_NO_ORDINARY_DENSITY_EXPONENT__NO_SOURCE_POPULATION_CROSS_LABEL_PHYSICS_LIGHT_DISTANCE_HISTORY_SCALE_XMAX_MATTER_OR_CANON__METRIC_KERNEL_ANGULAR_EQUATION_UNCHANGED__LIVE_THEN_THIS_REGISTRY_THEN_CITED_G351_SOURCE__CONFLICT_MEANS_STOP"
+  },
+  {
+    "premise_id": "G350",
+    "term": "frequency_area_carried_content_ownership",
+    "epistemic_label": "MIXED",
+    "active_use": "ACTIVE_BOUNDED_ONE_SUPPLIED_RETAINED_PATH_LABEL__COMMON_POSITIVE_SCREEN_RANK_TWO_STRATUM__POSITIVE_METRIC_FREQUENCY_RATIO_R_AND_METRIC_SHEET_AREA_RATIO_A__CONTINUOUS_POSITIVE_LOCAL_SCALAR_MULTIPLIER__IDENTITY_REVERSAL_AND_EXACT_MULTIPLICATIVE_SEWING_FOR_EVERY_PAIR_ON_CHOSEN_FULL_ABSTRACT_RPLUS_SQUARED_DOMAIN__ALL_REAL_CHARACTER_WEIGHTS_P_Q_RETAINED__OBSERVER_COVARIANCE_TYPED_AS_ONE_DIMENSIONAL_WEIGHT_REPRESENTATION__CONSISTENTLY_ENDPOINT_ASSIGNED_POSITIVE_ZERO_CHAINS_RETAINED_AS_BROADER_COBOUNDARY_FREEDOM__ONE_SIDED_CAUSTIC_LIMIT_ONLY_UNDER_POSITIVE_DENOMINATOR_AND_FINITE_NONZERO_FREQUENCY_RATIO",
+    "open_scope": "physical identity of carried object or field and its nonzero source value or angular distribution; physical frequency weight p; conservation or local balance selecting area weight q; caustic continuation simultaneous-zero limits and cross-label aggregation; nonlocal additive interacting phase or field-valued transfer classes; emission absorption detector brightness flux luminosity probability and observational distance; physical ray route observer germ path-label population and weighting; selected metric history topology occupancy stability source action matter mass scale physical Xmax observations and canon",
+    "controlling_source": "udt_g350_frequency_area_carried_content_ownership_2026-09-05/AUDIT_REPORT.md",
+    "precedence_rule": "G350_EXTERNAL_REPAIR_FOLLOWUP_ACCEPTS_R1_R4_AND_THE_BOUNDED_FREQUENCY_AREA_CARRIED_CONTENT_OWNERSHIP_CLASSIFICATION__EVERY_CONTINUOUS_POSITIVE_LOCAL_TWO_RATIO_MULTIPLICATIVE_RULE_ON_THE_CHOSEN_FULL_ABSTRACT_DOMAIN_IS_R_TO_P_A_TO_Q_WITH_ARBITRARY_REAL_WEIGHTS__RECIPROCITY_SEWING_AND_OBSERVER_COVARIANCE_SELECT_NO_WEIGHT__INVERSE_AREA_REQUIRES_A_NEW_UNADOPTED_CONSERVATION_PREMISE__SOURCE_CAUSTIC_AND_LABEL_AGGREGATION_REMAIN_SUPPLIED_OR_OPEN__NO_CARRIED_FIELD_LIGHT_FLUX_LUMINOSITY_DISTANCE_HISTORY_SCALE_XMAX_OR_CANON__LIVE_THEN_THIS_REGISTRY_THEN_CITED_G350_SOURCE__CONFLICT_MEANS_STOP"
+  },
+  {
+    "premise_id": "G312",
+    "term": "quiet_gr_response_constitution_discriminator",
+    "epistemic_label": "MIXED",
+    "active_use": "CURRENT_GR_FILTER_ONLY_NOT_RESPONSE_LAW_INPUT__LOCAL_METRIC_SUFFICIENCY_AFFIRMED_OWNER_PROVISIONAL__G312_CLASS_MEMBERSHIP_ROUTE_UNCLOSED_UNDER_FILTER_ONLY_GR__REVIEWED_G301_TRACEFREE_RICCI_MATHEMATICS_CONDITIONAL",
+    "open_scope": "independent response-class membership route under filter-only GR; comparison-filter domain and survivor rule not specified by this reconciliation; covariant extension beyond the registered regular local smooth metric-only scale-free vacuum arena; derivative-order ownership outside existing gates; scalar curvature magnitude and sign; lawful data; topology and boundary completion; global bootstrap or admissibility law; realized history; pair and query population; source action matter mass observation scale and physical Xmax",
+    "controlling_source": "udt_g312_quiet_gr_response_constitution_discriminator_2026-09-01/AUDIT_REPORT.md",
+    "precedence_rule": "OWNER_CLARIFICATION_2026_09_09_SUPERSEDES_STRONGER_CURRENT_GR_BUILDING_AUTHORITY_NOT_HISTORICAL_APPROVAL_OR_MATHEMATICAL_EVIDENCE__GR_FILTER_ONLY__LOCAL_METRIC_SUFFICIENCY_AFFIRMED_OWNER_PROVISIONAL_NOT_DERIVED_NOT_CANON__INHERITED_G312_ADMITTED_LAWFUL_AND_OWNER_PROVISIONAL_LABELS_ARE_CONDITIONAL_ON_FULL_REVIEWED_PREMISES_NOT_ESTABLISHED_FROM_FILTER_ONLY_GR__ORIGINAL_G312_SOURCE_OWNS_MATHEMATICAL_GRADE__CURRENT_AUTHORITY_udt_gr_filter_reconciliation_2026-09-09/AUTHORITY_RECORD.md__LIVE_THEN_THIS_REGISTRY_THEN_CURRENT_AUTHORITY_RECORD_THEN_HISTORICAL_G312_ADOPTION__CONFLICT_MEANS_STOP"
+  },
+  {
+    "premise_id": "G310",
+    "term": "differential_dual_reciprocity_tracefree_ownership",
+    "epistemic_label": "MIXED",
+    "active_use": "ACTIVE_BOUNDED_LOCAL_FOUR_DIMENSIONAL_ALL_PAIR_DIFFERENTIAL_RECIPROCITY_PROVISIONAL_POSTULATE_AND_CONDITIONAL_SUFFICIENCY_THEOREM_INSIDE_G301_RESPONSE_CLASS_ONLY",
+    "open_scope": "covariant extension beyond the bounded conditional G301 arena; canonization; whether all algebraically admissible planes are physically populated; validity of G301 locality metric-only order and response typing; scalar curvature magnitude and sign outside bounded downstream controls; realized global history; source matter mass population observation scale and physical Xmax; higher-order nonlocal auxiliary parity-odd and singular sectors",
+    "controlling_source": "udt_g310_differential_dual_reciprocity_tracefree_ownership_2026-08-31/AUDIT_REPORT.md",
+    "precedence_rule": "OWNER_ADOPTION_2026_08_31_SUPERSEDES_ONLY_THE_HISTORICAL_UNADOPTED_GRADE__G310_EXTERNAL_EVIDENCE_STILL_CONTROLS_THE_BOUNDED_CONSISTENCY_AND_CONDITIONAL_SUFFICIENCY_THEOREM__DDR_IS_NOT_DERIVED_OR_CANON__SELECTS_NO_MAGNITUDE_REALIZED_HISTORY_POPULATION_MASS_SCALE_OR_PHYSICAL_XMAX__ANGULAR_CANCELLATION_SEPARATELY_OWNS_LOUD_QUIET_LOUD__LIVE_THEN_THIS_REGISTRY_THEN_G310_AND_ADOPTION_RECORD__CONFLICT_MEANS_STOP"
+  },
+  {
+    "premise_id": "G176",
+    "term": "completed_pair_dual_reciprocity_consolidation",
+    "epistemic_label": "MIXED",
+    "active_use": "ACTIVE_GENERIC_LOCAL_REGULAR_COMPLETED_PHYSICAL_UDT_RECIPROCAL_PAIR_NORMALIZATION_AND_BOUNDED_G173_STATIC_SPECIALIZATION_ONLY",
+    "open_scope": "which observer events and pair germs are physically realized; complete nonspherical timelive micro and ambient history ownership beyond supplied pullback; coincidence null degenerate singular cut focal topology-changing and global strata; non-scalar screen orientation connection Jacobi and holonomy transport; cross-query and global relation population; positive dimensionful separation numerical Xmax and global completion; observations radiative transfer dynamics action source matter bootstrap mass and signalling",
+    "controlling_source": "udt_g176_completed_pair_dual_reciprocity_consolidation_2026-08-19/AUDIT_REPORT.md",
+    "precedence_rule": "G176_CONDITIONALLY_DERIVES_FROM_CHARLES_WORKING_CLARIFICATION_THAT_AFTER_ALL_COMPLETE_PAIR_METRIC_CONTRIBUTIONS_ENTER_THE_PHYSICAL_RECIPROCAL_PAIR_HAS_THE_UNIQUE_POSITIVE_RULER_DENSITY_M_EQUALS_T_LSIGMA_EQUALS_SQRT_MINUS_DET_HSIGMA_WITH_TL_EQUALS_ONE_DET_HS_EQUALS_MINUS_ONE_SHIFT_RETAINED_AND_PHI_EQUALS_MINUS_LOG_T__IN_THE_G173_STATIC_FAMILY_THIS_IS_M2_EQUALS_EXP_MINUS_2PHI_H_AND_PHI_EQUALS_PHI_WITH_RADIAL_RECOVERY_AND_REGULAR_ANGULAR_TURNS__ARBITRARY_CALIBRATIONS_REMAIN_LAWFUL_CONTROL_QUERIES_NOT_ALTERNATIVE_PHYSICAL_KERNELS__THE_CLARIFICATION_IS_NOT_CANON_AND_DOES_NOT_SELECT_EVENTS_GERMS_GLOBAL_RELATIONS_NONSCALAR_TRANSPORT_COMPLETION_XMAX_OR_DOWNSTREAM_PHYSICS__LIVE_THEN_THIS_REGISTRY_THEN_CITED_SOURCE__CONFLICT_MEANS_STOP"
+  }
+]

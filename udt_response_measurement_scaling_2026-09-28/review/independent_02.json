@@ -1,0 +1,14 @@
+{
+  "command": [
+    "python3",
+    "udt_response_measurement_scaling_2026-09-28/review/check_independent.py"
+  ],
+  "cwd": "/home/udt-admin/udt_mass_codex",
+  "started_utc": "2026-09-28T15:34:47.062781+00:00",
+  "duration_seconds": 0.5576652910094708,
+  "returncode": 0,
+  "timeout": false,
+  "address_space_bytes": 1610612736,
+  "cpu_seconds": 900,
+  "maxrss_kib": 53032
+}

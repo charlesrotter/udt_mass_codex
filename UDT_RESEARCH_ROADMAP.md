@@ -14,6 +14,36 @@ Current acceptance overlay: earlier UNPROMOTED/campaign-only language below reco
 returns. The G383--G412, G413--G415 and G416--G423 banking packets and maintained checkpoint own later dispositions;
 original result packages remain unchanged. No physical adoption or canon is included.
 
+## Response meaning and scaling — 2026-09-28
+
+Charles authorized the recorded proposal below with “Proceed with the exploration.”
+RMS1 completed construction, exact checks and fresh source-first/direct adversarial
+review within its bounded work order; reviewed conditional UNPROMOTED return:
+`udt_response_measurement_scaling_2026-09-28/DECISION_BRIEF.md`.
+WORK_ORDER, REVIEWED_RESULT, review/DIRECT_REVIEW and CLOSEOUT own the scope,
+precision qualifications, actual checks, preserved reviewer failure and omissions.
+
+G403/DCI1 supplies Ric(U,U) from its ideal clock/motion records; RMS1 conditionally
+reconstructs Ricci from a suitable family of those readings. Their unit-observer
+reading has weight -2 under the declared constant metric homothety.
+This identifies a geometric reading, not DDR's physical response. The conditional
+classification route can target S=TF(E) alone: under the reviewed metric-only
+symmetric covariant rank-two, natural finite-jet, flat-regular flattening-domain
+and exact weight-zero hypotheses, S=a(Ric-Rg/4). With a!=0, DDR gives the trace-free
+Einstein vacuum equation. Native ownership and physical identification remain OPEN;
+no full causal/principal membership or nonzero coefficient was established.
+
+The fixed-query kernel derivative fails its own reciprocal balance. The chosen
+G352 rate/area density also cannot directly equal E(U,U) for all observers in the
+stated fixed-sheet protocol. These reject specific identifications, not every
+possible connection. Query regrading, changing units and a response homothety
+law are distinct. No physical scale symmetry, light/energy law or new premise is
+adopted. Geometry remains valid at its hypotheses without demanding light
+emergence first; actual signal/clock realization remains conditional.
+
+The smaller target is a constructive refinement; the selection law is still
+missing. Return for lay discussion. RMS1 is complete; no successor is authorized.
+
 ## GR response selection comparison — 2026-09-28
 
 Charles asked whether GR has similar reciprocity and authorized the offered
@@ -37,16 +67,18 @@ Current GR authority remains FILTER ONLY. No action, response definition,
 source, scale, physical symmetry, scientific grade or canon is adopted.
 REVIEWED_RESULT and CLOSEOUT preserve the initial negative-control failure,
 same-premise repair, reviewer self-erratum, review exposure and omissions.
-The suggested next discussion target is physical response identification and
-its scaling from current geometry/readout premises; the brief gives a bounded
-possible work order, not authorization. Stop for discussion; no automatic successor.
+The then-suggested discussion target was physical response identification and
+its scaling from current geometry/readout premises. Charles later authorized
+the expanded scope below; its completed RMS1 return is recorded above. The
+original GRS1 decision brief remains the reviewed historical snapshot.
 
-### Proposed response and scaling exploration — epistemic scope
+### Authorized response and scaling exploration — retained epistemic scope
 
 Charles requested incorporating the discussion about working without a completed
-UDT theory of light into this existing proposal. This records the proposed scope;
-it does not dispatch the exploration, adopt a physical premise or change the
-reviewed GRS1 result. Its earlier decision brief remains the reviewed snapshot.
+UDT theory of light into the proposal, then authorized it with “Proceed with the
+exploration.” The following scope records that authorization and its epistemic
+limits; RMS1 above is its completed return. It adopts no physical premise and
+does not change the earlier reviewed GRS1 snapshot.
 
 Question: **what does UDT's response E physically measure, and can that
 identification determine how E transforms under uniform metric rescaling?**
@@ -88,7 +120,8 @@ or observational fit. Return a reviewed conditional connection and lay brief,
 narrowed obstruction, refutation of the proposed connection or unresolved
 objection. Stop before adding unowned physics. Record which conclusions follow
 from geometry, which depend on measurement assumptions, and which physical
-identifications remain open. This is a proposal for later authorization.
+identifications remain open. This authorized cycle is now complete; further
+research needs its own bounded work order. Saving RMS1 is not scientific promotion.
 
 ## Constructive clock-curvature derivation — 2026-09-28
 

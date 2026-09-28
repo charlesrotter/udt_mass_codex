@@ -1,0 +1,1 @@
+{"status": "PASS", "checks": 6, "sympy": "1.13.1", "results": {"unit_U": "-1", "unit_n": "1", "orthogonal": "0", "reciprocal_trace": "0", "covariant_variation_pairing": "1", "inverse_variation_pairing": "-1"}, "scope": "orthonormal-pair contraction and sign control; not physical response admission"}

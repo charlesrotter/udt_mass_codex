@@ -1,0 +1,531 @@
+{
+  "status": "PASS",
+  "checks": [
+    {
+      "name": "unit_observer_as_field",
+      "pass": true,
+      "residual": [
+        "0"
+      ]
+    },
+    {
+      "name": "regular_Lorentz_metric_at_event",
+      "pass": true,
+      "residual": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ]
+    },
+    {
+      "name": "base_angular_mean",
+      "pass": true,
+      "residual": [
+        "0"
+      ]
+    },
+    {
+      "name": "base_even_variance",
+      "pass": true,
+      "residual": [
+        "0"
+      ]
+    },
+    {
+      "name": "base_DCI1_vs_original_Ricci",
+      "pass": true,
+      "residual": [
+        "0"
+      ]
+    },
+    {
+      "name": "scaled_angular_mean",
+      "pass": true,
+      "residual": [
+        "0"
+      ]
+    },
+    {
+      "name": "scaled_even_variance",
+      "pass": true,
+      "residual": [
+        "0"
+      ]
+    },
+    {
+      "name": "scaled_DCI1_vs_original_Ricci",
+      "pass": true,
+      "residual": [
+        "0"
+      ]
+    },
+    {
+      "name": "actual_homothety_q",
+      "pass": true,
+      "residual": [
+        "0"
+      ]
+    },
+    {
+      "name": "actual_homothety_m",
+      "pass": true,
+      "residual": [
+        "0"
+      ]
+    },
+    {
+      "name": "actual_homothety_V",
+      "pass": true,
+      "residual": [
+        "0"
+      ]
+    },
+    {
+      "name": "actual_homothety_dotm",
+      "pass": true,
+      "residual": [
+        "0"
+      ]
+    },
+    {
+      "name": "actual_homothety_A",
+      "pass": true,
+      "residual": [
+        "0"
+      ]
+    },
+    {
+      "name": "actual_homothety_W",
+      "pass": true,
+      "residual": [
+        "0"
+      ]
+    },
+    {
+      "name": "actual_homothety_ricUU",
+      "pass": true,
+      "residual": [
+        "0"
+      ]
+    },
+    {
+      "name": "covariant_Ricci_weight_zero",
+      "pass": true,
+      "residual": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ]
+    },
+    {
+      "name": "nonzero_channel_A",
+      "pass": true,
+      "nonzero": [
+        "16"
+      ]
+    },
+    {
+      "name": "nonzero_channel_W",
+      "pass": true,
+      "nonzero": [
+        "2"
+      ]
+    },
+    {
+      "name": "nonzero_channel_sigma2",
+      "pass": true,
+      "nonzero": [
+        "14/3"
+      ]
+    },
+    {
+      "name": "nonzero_channel_dotm",
+      "pass": true,
+      "nonzero": [
+        "-2/3"
+      ]
+    },
+    {
+      "name": "reject_missing_acceleration",
+      "pass": true,
+      "nonzero": [
+        "-16"
+      ]
+    },
+    {
+      "name": "reject_missing_twist",
+      "pass": true,
+      "nonzero": [
+        "-2"
+      ]
+    },
+    {
+      "name": "reject_opposite_Ricci_sign",
+      "pass": true,
+      "nonzero": [
+        "20"
+      ]
+    },
+    {
+      "name": "reject_fixed_observer_normalization",
+      "pass": true,
+      "nonzero": [
+        "-(ell - 1)*(ell + 1)"
+      ]
+    },
+    {
+      "name": "complete_pair_calibrated_determinant",
+      "pass": true,
+      "residual": [
+        "0"
+      ]
+    },
+    {
+      "name": "raw_pair_density_homothety",
+      "pass": true,
+      "residual": [
+        "0"
+      ]
+    },
+    {
+      "name": "kernel_covariant_variation",
+      "pass": true,
+      "residual": [
+        "0"
+      ]
+    },
+    {
+      "name": "kernel_inverse_variation",
+      "pass": true,
+      "residual": [
+        "0"
+      ]
+    },
+    {
+      "name": "kernel_covariant_coefficient_weight_plus_two",
+      "pass": true,
+      "residual": [
+        "0",
+        "0",
+        "0",
+        "0"
+      ]
+    },
+    {
+      "name": "co_normalized_clock_T_squared",
+      "pass": true,
+      "residual": [
+        "0"
+      ]
+    },
+    {
+      "name": "unit_tomography_observer_0",
+      "pass": true,
+      "residual": [
+        "0"
+      ]
+    },
+    {
+      "name": "unit_tomography_observer_1",
+      "pass": true,
+      "residual": [
+        "0"
+      ]
+    },
+    {
+      "name": "unit_tomography_observer_2",
+      "pass": true,
+      "residual": [
+        "0"
+      ]
+    },
+    {
+      "name": "unit_tomography_observer_3",
+      "pass": true,
+      "residual": [
+        "0"
+      ]
+    },
+    {
+      "name": "unit_tomography_observer_4",
+      "pass": true,
+      "residual": [
+        "0"
+      ]
+    },
+    {
+      "name": "unit_tomography_observer_5",
+      "pass": true,
+      "residual": [
+        "0"
+      ]
+    },
+    {
+      "name": "unit_tomography_observer_6",
+      "pass": true,
+      "residual": [
+        "0"
+      ]
+    },
+    {
+      "name": "unit_tomography_observer_7",
+      "pass": true,
+      "residual": [
+        "0"
+      ]
+    },
+    {
+      "name": "unit_tomography_observer_8",
+      "pass": true,
+      "residual": [
+        "0"
+      ]
+    },
+    {
+      "name": "unit_tomography_observer_9",
+      "pass": true,
+      "residual": [
+        "0"
+      ]
+    },
+    {
+      "name": "timelike_tomography_rank",
+      "pass": true,
+      "residual": [
+        "0"
+      ]
+    },
+    {
+      "name": "timelike_tensor_reconstruction",
+      "pass": true,
+      "residual": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ]
+    },
+    {
+      "name": "weight_zero_from_reading_minus_two",
+      "pass": true,
+      "residual": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ]
+    },
+    {
+      "name": "one_observer_not_complete",
+      "pass": true,
+      "nonzero": [
+        "-9"
+      ]
+    },
+    {
+      "name": "null_readout_rank",
+      "pass": true,
+      "residual": [
+        "0"
+      ]
+    },
+    {
+      "name": "null_trace_blindness",
+      "pass": true,
+      "residual": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ]
+    },
+    {
+      "name": "null_one_dimensional_ambiguity",
+      "pass": true,
+      "residual": [
+        "0"
+      ]
+    },
+    {
+      "name": "tracefree_projection_under_homothety",
+      "pass": true,
+      "residual": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ]
+    },
+    {
+      "name": "shape_ignores_weight_two_trace",
+      "pass": true,
+      "residual": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ]
+    },
+    {
+      "name": "reject_full_response_weight_inference",
+      "pass": true,
+      "nonzero": [
+        "-(ell - 1)*(ell + 1)",
+        "(ell - 1)*(ell + 1)",
+        "(ell - 1)*(ell + 1)",
+        "(ell - 1)*(ell + 1)"
+      ]
+    },
+    {
+      "name": "absolute_Gamma_weight_minus_three",
+      "pass": true,
+      "residual": [
+        "0"
+      ]
+    },
+    {
+      "name": "endpoint_rate_ratio_invariant",
+      "pass": true,
+      "residual": [
+        "0"
+      ]
+    },
+    {
+      "name": "area_ratio_invariant",
+      "pass": true,
+      "residual": [
+        "0"
+      ]
+    },
+    {
+      "name": "reject_area_ratio_weight_two",
+      "pass": true,
+      "nonzero": [
+        "-Jj*(ell - 1)*(ell + 1)/Ji"
+      ]
+    },
+    {
+      "name": "supplied_measure_rescaling_visible",
+      "pass": true,
+      "residual": [
+        "0"
+      ]
+    },
+    {
+      "name": "quadratic_boost_design_rank",
+      "pass": true,
+      "residual": [
+        "0"
+      ]
+    },
+    {
+      "name": "linear_readout_augmented_rank",
+      "pass": true,
+      "residual": [
+        "0"
+      ]
+    }
+  ],
+  "count": 57,
+  "outputs": {
+    "base": {
+      "Ric": "Matrix([[10, 2, 6, 0], [2, -1, 1, 0], [6, 1, -5, 0], [0, 0, 0, 0]])",
+      "q": "-n1**2 - 2*n1 - 2*n2**2 + n3**2",
+      "m": "-2/3",
+      "V": "28/45",
+      "dotm": "-2/3",
+      "A": "16",
+      "W": "2",
+      "ricUU": "10"
+    },
+    "scaled": {
+      "Ric": "Matrix([[10, 2, 6, 0], [2, -1, 1, 0], [6, 1, -5, 0], [0, 0, 0, 0]])",
+      "q": "-(n1**2 + 2*n1 + 2*n2**2 - n3**2)/ell",
+      "m": "-2/(3*ell)",
+      "V": "28/(45*ell**2)",
+      "dotm": "-2/(3*ell**2)",
+      "A": "16/ell**2",
+      "W": "2/ell**2",
+      "ricUU": "10/ell**2"
+    }
+  },
+  "versions": {
+    "python": "3.10.12",
+    "sympy": "1.13.1"
+  },
+  "script_sha256": "391fb47ee8a4ce595872eaed44fc49c8f0901685c9537bca263a66bef360ac96",
+  "scope": "exact event jets, algebraic reconstruction and protocol controls; analytic arguments own generic statements",
+  "not_established": [
+    "native E identification",
+    "physical record accessibility",
+    "light/source law",
+    "physical scale symmetry"
+  ]
+}

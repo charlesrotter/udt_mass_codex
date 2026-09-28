@@ -12,7 +12,18 @@ retains relative-motion Doppler and gravity. July lead reviewed/UNPROMOTED:
 `udt_july_optical_time_dilation_lead_2026-09-28/DECISION_BRIEF.md`.
 Its stationary reversal is not a generic UDT law; physical clock-map data remain open.
 
-GRS1 reviewed conditional UNPROMOTED; GR-response comparison/derivation complete:
+RMS1 reviewed conditional UNPROMOTED; response meaning/scaling cycle complete:
+`udt_response_measurement_scaling_2026-09-28/DECISION_BRIEF.md`.
+Conditional clock/motion records reconstruct Ricci with unit-observer weight -2;
+physical identification with DDR's response remains OPEN. This route needs the
+full reviewed covariant rank-two, natural finite-jet, flat-regular flattening-domain,
+exact weight-zero conditions only for S=TF(E), not its unconstrained trace sector.
+Then S=a(Ric-Rg/4); nonzero a is still required and unowned. Kernel differentiation
+and direct carried-density identification supply no shortcut. No light-theory
+prerequisite for geometry or new physical law is adopted. Full review/limits:
+REVIEWED_RESULT and CLOSEOUT. Stop for discussion; no automatic successor.
+
+Prior GRS1 reviewed conditional UNPROMOTED; GR-response comparison/derivation complete:
 `udt_gr_response_selection_2026-09-28/DECISION_BRIEF.md`.
 Under the reviewed covariant rank-two, natural finite-jet, flat-regular
 flattening-domain and exact weight-zero hypotheses, E=a Ric+b Rg; DDR with
