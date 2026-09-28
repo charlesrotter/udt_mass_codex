@@ -1,0 +1,20 @@
+{
+  "utc": "2026-09-28T13:51:26.844289+00:00",
+  "command": [
+    "git",
+    "apply",
+    "--unidiff-zero",
+    "/home/udt-admin/udt_mass_codex/udt_common_geometry_whiteboard_2026-09-28/STATUS_AT_CONSTRUCTION.patch"
+  ],
+  "scratch_directory": "/tmp/cgw1_status_snapshot_0mhsfste",
+  "returncode": 0,
+  "stdout": "",
+  "stderr": "",
+  "reconstructed_matches": {
+    "LIVE.md": true,
+    "HANDOFF.md": true,
+    "CURRENT_RESEARCH_PROGRAM.md": true,
+    "UDT_RESEARCH_ROADMAP.md": true
+  },
+  "scope": "Packaging correspondence only; no live source changed"
+}

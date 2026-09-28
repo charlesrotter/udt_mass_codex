@@ -1,0 +1,16 @@
+{
+  "command": [
+    "python3",
+    "-B",
+    "udt_common_geometry_whiteboard_2026-09-28/review/replays/horizons_initial/check_horizons.py"
+  ],
+  "cwd": "/home/udt-admin/udt_mass_codex",
+  "started_utc": "2026-09-28T13:47:48.162873+00:00",
+  "elapsed_seconds": 0.8393683899994357,
+  "exit_code": 1,
+  "timeout": false,
+  "memory_bytes": 2147483648,
+  "cpu_seconds": 60,
+  "threads_maximum": 2,
+  "method": "byte-identical author-script copy; regression only; original outputs preserved"
+}

@@ -1,0 +1,50 @@
+{
+  "method": "Independent exp(x)F/Fprime derivation and saved-source binary64 arithmetic; no significance",
+  "python": "3.10.12 (main, Aug 31 2026, 10:18:17) [GCC 11.4.0]",
+  "sympy": "1.13.1",
+  "source": "udt_observation_guided_function_search_2026-09-28/observations/comparison_checked/RESULT.json",
+  "source_sha256": "ac01993e70f4a5b25f68942bcb72a496703144d319efbf634f968a716db199a2",
+  "rows": [
+    {
+      "z": 0.51,
+      "observed": 0.6214891536355314,
+      "sigma": 0.01710914602323674,
+      "predicted": 0.51,
+      "difference": -0.11148915363553136
+    },
+    {
+      "z": 0.706,
+      "observed": 0.8918211017171782,
+      "sigma": 0.020776150259281742,
+      "predicted": 0.706,
+      "difference": -0.18582110171717825
+    },
+    {
+      "z": 0.934,
+      "observed": 1.223005193169959,
+      "sigma": 0.019160171222185246,
+      "predicted": 0.934,
+      "difference": -0.289005193169959
+    },
+    {
+      "z": 1.321,
+      "observed": 1.9470100283531242,
+      "sigma": 0.04514281683326695,
+      "predicted": 1.321,
+      "difference": -0.6260100283531242
+    },
+    {
+      "z": 1.484,
+      "observed": 2.3805805950697523,
+      "sigma": 0.1358822075026633,
+      "predicted": 1.484,
+      "difference": -0.8965805950697523
+    }
+  ],
+  "max_arithmetic_difference": 0,
+  "shape": [
+    6,
+    6
+  ],
+  "selected_bins": 5
+}

@@ -1,0 +1,19 @@
+{
+  "recorded_utc": "2026-09-28T14:03:45.760316+00:00",
+  "state": "REVIEW_AND_DOCUMENT_GATES_COMPLETE_READY_FOR_SCOPED_BANKING",
+  "launch_head": "be806b1830b24328caf47d99328fc1ecf992e6fe",
+  "branch": "grok",
+  "scientific_review": "VERIFIED-WITH-CAVEATS; no required scientific repair; zero repair cycles",
+  "final_fidelity": "FIDELITY_ACCEPTED_WITH_RECORDED_SCOPE; no corrections",
+  "review_sha256": "7c58db0492b0cc35147d8ca08b75b81bf71b74418fa2e32c54907c8f5a055de2",
+  "fidelity_sha256": "2193421c6ce39577c8f8b7d6f13e5a024e27c58f27f6b1678373342cc49222e9",
+  "checks": [
+    "checks/premise_audit_launch.json",
+    "checks/final_startup_surface.json",
+    "checks/final_preservation.json",
+    "checks/status_snapshot_reconstruction.json"
+  ],
+  "preservation": "52 preexisting untracked names outside scope; protected contents not read/hashed; old scientific and canon bytes unchanged",
+  "publication": "Actual scoped commit/push and resulting HEAD are established by git history and final tool receipt, not preclaimed here",
+  "stop": "Return for lay discussion; no new research campaign or scientific promotion"
+}

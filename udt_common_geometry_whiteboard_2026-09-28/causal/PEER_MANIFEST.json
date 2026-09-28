@@ -1,0 +1,14 @@
+{
+  "recorded_utc": "2026-09-28T13:34:15.772284+00:00",
+  "files": {
+    "PEER_CRITIQUE_KERNEL.md": "6a1c6c5300e6e1fa0b12e6765408b32963d442579a1b2d2fd2e34147b5df50e1",
+    "PEER_KERNEL_CHECK_FREEZE.md": "e6daf7a68401af16335cb9619942e1926156fca0c0b25ded9a311f77d7eb8d03",
+    "peer_kernel_check.py": "eed34db6f209f04fdf95511dcfa921d7a07bf939121e54ac4f7e1d78e68bd218",
+    "peer_kernel_01.stdout": "4fa9f6db0c1afe79598165ba2761bb1694f9ddacc5afa2590028494933241814",
+    "peer_kernel_01.stderr": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "peer_kernel_01.json": "368497e81f8091141d7ed96490d738ef4cdd120d4bd562fb1613f8df42bd8764",
+    "POST_SEAL_SOURCE_NOTE.md": "f26c99d6304f47f15878cb2a50f5dfba16f39fcaad065f26e1f641afb1d927ac"
+  },
+  "target_sha256": "3a50ac98902b6323f24c7bd68e406d3a93945c58a8713f1cfef8625bf53bc9b0",
+  "own_initial_note_sha256": "04ab83d23ee6f695dc1a6cd80c773163129a45703e0cf29b47a0d78160fcb75b"
+}

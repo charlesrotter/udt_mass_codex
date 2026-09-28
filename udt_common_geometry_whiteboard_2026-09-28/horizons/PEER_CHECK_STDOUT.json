@@ -1,0 +1,59 @@
+{
+  "kind": "PEER_INDEPENDENT_SMALL_SYMBOLIC_REDERIVATION_NOT_FRESH_REVIEW",
+  "python": "3.10.12",
+  "sympy": "1.13.1",
+  "checks": {
+    "raw_conformal_affine": {
+      "residual": "0",
+      "pass": true
+    },
+    "observer_frequency_normalized_affine": {
+      "residual": "0",
+      "pass": true
+    },
+    "normalized_initial_affine_derivative": {
+      "residual": "0",
+      "pass": true
+    },
+    "one_cone_u": {
+      "residual": "0",
+      "pass": true
+    },
+    "proper_drift": {
+      "residual": "0",
+      "pass": true
+    },
+    "screen_drift": {
+      "residual": "0",
+      "pass": true
+    },
+    "all_epoch_product": {
+      "residual": "0",
+      "pass": true
+    },
+    "quadratic_conformal_Ricci": {
+      "residual": "0",
+      "pass": true
+    },
+    "quadratic_scalar": {
+      "residual": "0",
+      "pass": true
+    },
+    "future_echo_chain": {
+      "residual": "0",
+      "pass": true
+    },
+    "zero_epoch_forward": {
+      "residual": "0",
+      "pass": true
+    },
+    "zero_epoch_later_return": {
+      "residual": "0",
+      "pass": true
+    }
+  },
+  "count": 12,
+  "status": "PASS",
+  "future_return_result": "-1/(2*L**2*k - 1)",
+  "scope": "positive finite segments; no source tensor utility imported"
+}

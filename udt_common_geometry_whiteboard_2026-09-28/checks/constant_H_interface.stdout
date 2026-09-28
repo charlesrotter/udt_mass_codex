@@ -1,0 +1,47 @@
+{
+  "utc": "2026-09-28T13:25:16.259807+00:00",
+  "python": "3.10.12",
+  "arithmetic": "Python binary64; exact prediction AP=z",
+  "source": "udt_observation_guided_function_search_2026-09-28/observations/comparison_checked/RESULT.json",
+  "source_sha256": "ac01993e70f4a5b25f68942bcb72a496703144d319efbf634f968a716db199a2",
+  "freeze_sha256": "a7344e49aa192ac14dbefba792dfe7f6e1cf8f8bffbea65ef26e91b3055e6f94",
+  "status": "Exposed conditional pointwise comparison only; no fit, statistic, threshold or native-law exclusion",
+  "rows": [
+    {
+      "z": 0.51,
+      "observed_ratio": 0.6214891536355314,
+      "inherited_linear_sigma": 0.01710914602323674,
+      "constant_H_prediction": 0.51,
+      "prediction_minus_observed": -0.11148915363553136
+    },
+    {
+      "z": 0.706,
+      "observed_ratio": 0.8918211017171782,
+      "inherited_linear_sigma": 0.020776150259281742,
+      "constant_H_prediction": 0.706,
+      "prediction_minus_observed": -0.18582110171717825
+    },
+    {
+      "z": 0.934,
+      "observed_ratio": 1.223005193169959,
+      "inherited_linear_sigma": 0.019160171222185246,
+      "constant_H_prediction": 0.934,
+      "prediction_minus_observed": -0.289005193169959
+    },
+    {
+      "z": 1.321,
+      "observed_ratio": 1.9470100283531242,
+      "inherited_linear_sigma": 0.04514281683326695,
+      "constant_H_prediction": 1.321,
+      "prediction_minus_observed": -0.6260100283531242
+    },
+    {
+      "z": 1.484,
+      "observed_ratio": 2.3805805950697523,
+      "inherited_linear_sigma": 0.1358822075026633,
+      "constant_H_prediction": 1.484,
+      "prediction_minus_observed": -0.8965805950697523
+    }
+  ],
+  "omissions": "No likelihood, new uncertainty propagation, physical positional-component isolation, or general conformal-class test"
+}

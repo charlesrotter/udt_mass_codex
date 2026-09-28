@@ -1,0 +1,41 @@
+{
+  "actual_hostile_rejections": {
+    "arbitrary_positive_conformal_profile_is_Einstein": "arbitrary_positive_conformal_profile_is_Einstein: [3*H**2/2, 0, 0, 0, 0, H**2/2, 0, 0, 0, 0, H**2/2, 0, 0, 0, 0, H**2/2]",
+    "dropped_endpoint_screen_factor": "dropped_endpoint_screen_factor: [d*we*(ue - 1)/(uo*wo)]",
+    "missing_proper_clock_conversion_at_nonzero_epoch": "missing_proper_clock_conversion_at_nonzero_epoch: [R*T**2*c**2*(T**2*c + 2)/(T**2*c - 2)**2]",
+    "nonaffine_null_scale": "nonaffine_null_scale: [2*c]",
+    "wrong_conformal_clock_weight": "wrong_conformal_clock_weight: [we*(ue - uo)*(ue + uo)/(ue*uo*wo)]"
+  },
+  "checks": {
+    "affine_parameter_derivative": "EXACT_ZERO",
+    "affine_profile_original_Ricci": "EXACT_ZERO",
+    "affine_zero_tide_Jacobi": "EXACT_ZERO",
+    "all_epoch_clock_beam_product": "EXACT_ZERO",
+    "conformal_clock_beam_cancellation": "EXACT_ZERO",
+    "exact_received_clock_incidence": "EXACT_ZERO",
+    "general_affine_parameter": "EXACT_ZERO",
+    "general_zero_Schwarzian": "EXACT_ZERO",
+    "local_value_and_first_jet_agree": "EXACT_ZERO",
+    "proper_clock_beam_drift_at_vertex": "EXACT_ZERO",
+    "proper_clock_redshift_drift_at_vertex": "EXACT_ZERO",
+    "proper_lookback_derivative": "EXACT_ZERO",
+    "quadratic_cone_factor": "EXACT_ZERO",
+    "quadratic_original_Ricci": "EXACT_ZERO",
+    "quadratic_original_affine_null_geodesic": "EXACT_ZERO",
+    "quadratic_original_constant_curvature": "EXACT_ZERO",
+    "quadratic_original_scalar": "EXACT_ZERO",
+    "quadratic_screen_original_tide": "EXACT_ZERO",
+    "single_cone_complete_readout": "EXACT_ZERO",
+    "vertex_clock_beam_drift_cancellation": "EXACT_ZERO"
+  },
+  "kind": "AUTHOR_EXACT_SYMBOLIC_CHECKS_SHARED_GEOMETRY_UTILITY",
+  "method_sha256": "0605d00ae53d195935d5163a02834f825b008a5f3846a4a21aab71e18af84094",
+  "python": "3.10.12",
+  "sympy": "1.13.1",
+  "values": {
+    "affine_extent_limit": "1/H",
+    "exponential_tracefree_Ricci": "Matrix([[3*H**2/2, 0, 0, 0], [0, H**2/2, 0, 0], [0, 0, H**2/2, 0], [0, 0, 0, H**2/2]])",
+    "proper_lookback_limit": "oo",
+    "quadratic_redshift_drift_general": "-R*c*(T**2*c + 2)/(T**2*c - 2)"
+  }
+}

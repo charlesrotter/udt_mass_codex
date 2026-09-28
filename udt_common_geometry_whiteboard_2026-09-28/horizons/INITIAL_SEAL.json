@@ -1,0 +1,87 @@
+{
+  "recorded_utc": "2026-09-28T13:25:43.652760+00:00",
+  "state": "INITIAL AUTHOR CANDIDATE BEFORE SIBLING EXPOSURE; UNREVIEWED; UNPROMOTED",
+  "head": "be806b1830b24328caf47d99328fc1ecf992e6fe",
+  "entries": [
+    {
+      "path": "CHECK_FREEZE.md",
+      "bytes": 3135,
+      "sha256": "f366b543cc5c03e25fb0a6611c37fd1af50d6e49c5f350cbaafdf02b2861fa15"
+    },
+    {
+      "path": "CHECK_REPAIR.md",
+      "bytes": 694,
+      "sha256": "82a3e42215f0dc662ff2cf7fbdaf6703e8b4741d7efbfd1bc544ed0e27e6b912"
+    },
+    {
+      "path": "CHECK_RESULT.json",
+      "bytes": 4122,
+      "sha256": "162aba8209ecc896dc67e0c6553857c31a939cf7ef43c15515c3c5984d3a0974"
+    },
+    {
+      "path": "CHECK_STDERR.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "CHECK_STDOUT.json",
+      "bytes": 4122,
+      "sha256": "162aba8209ecc896dc67e0c6553857c31a939cf7ef43c15515c3c5984d3a0974"
+    },
+    {
+      "path": "EXECUTION.md",
+      "bytes": 3441,
+      "sha256": "aecfe3e131808b9820c78058acbb4118410b3d8267ded14838491ec87bb12f4f"
+    },
+    {
+      "path": "INITIAL_NOTE.md",
+      "bytes": 17261,
+      "sha256": "f01a54ae65ea3c6a1c107c0e2b8cc24632f6d83eb5ba333134f28ee1717d1b13"
+    },
+    {
+      "path": "SOURCE_PINS.json",
+      "bytes": 2543,
+      "sha256": "5a4cc5e2640dc03bd57d04ce8ec02396d796efb6cfe4ed06b4ef2477a66f94c0"
+    },
+    {
+      "path": "check_horizons.py",
+      "bytes": 4851,
+      "sha256": "139267dee89491b2f515df05fdfd7c69b12ecc39bc8ac453e5bd73d11020b71c"
+    },
+    {
+      "path": "initial_check_run/CHECK_RESULT.json",
+      "bytes": 3897,
+      "sha256": "43fbd91de95f331511e52d2b57a1223c86d86a8afef0abd1db4103db6195f339"
+    },
+    {
+      "path": "initial_check_run/CHECK_STDERR.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "initial_check_run/CHECK_STDOUT.json",
+      "bytes": 3897,
+      "sha256": "43fbd91de95f331511e52d2b57a1223c86d86a8afef0abd1db4103db6195f339"
+    },
+    {
+      "path": "initial_check_run/check_horizons.py",
+      "bytes": 4328,
+      "sha256": "3867d624918b0a43baf740abe03c6fab64c403ecd84854682303f56c4803d632"
+    },
+    {
+      "path": "sources/DOWNLOADS.json",
+      "bytes": 770,
+      "sha256": "cf598673137a0f0090bc778686688d5147a0fedcfbb48483a51515f5e8581619"
+    },
+    {
+      "path": "sources/DOWNLOADS_NETWORK_RETRY.json",
+      "bytes": 759,
+      "sha256": "c80b0ca9e6d453b6621bd4783f4607e1d2eaea02092475851b7499c2e20a88c1"
+    },
+    {
+      "path": "sources/WEB_METHOD_SOURCE_SNAPSHOT.json",
+      "bytes": 29010,
+      "sha256": "eb59507336d905b279010df22216ed99aa78c9687a819d093f296f71b1886a81"
+    }
+  ]
+}

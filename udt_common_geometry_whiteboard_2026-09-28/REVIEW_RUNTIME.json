@@ -1,0 +1,17 @@
+{
+  "utc": "2026-09-28T13:38:50.182416+00:00",
+  "reviewer_thread_id": "01a0e83c-e223-74b1-9ce3-f785dcd4693f",
+  "interface": "mcp codex_tui create_thread; new task, no history fork",
+  "reason": "collaboration thread limit retained old/completed contexts; actual specialist work completed before fresh task launch",
+  "configured_model": "inherited, no override; exact runtime version not attested",
+  "independence": "Fresh separate context source-first argument sealed before synthesis/manifest/brief/sibling exposure; direct review and independent recomputation now in progress; no different-model claim.",
+  "active_resource_count": "parent and reviewer only; previous three specialist turns completed",
+  "authority": "Charles proceed to four-hour work order includes fresh adversarial review and bounded repair; not a new research scope",
+  "source_first_sealed_utc": "2026-09-28T13:41:18.050114+00:00",
+  "source_first_sha256": "3eb4a7e7e51945a762530a7a34f5391c66ae4d68e885052164ca62f95e90075d",
+  "scientific_review_completed_utc": "2026-09-28T13:53:52.482924+00:00",
+  "scientific_verdict": "VERIFIED-WITH-CAVEATS",
+  "required_scientific_repairs": [],
+  "scientific_repair_cycles_used": 0,
+  "review_sha256": "7c58db0492b0cc35147d8ca08b75b81bf71b74418fa2e32c54907c8f5a055de2"
+}

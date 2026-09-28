@@ -14,15 +14,19 @@ Current acceptance overlay: earlier UNPROMOTED/campaign-only language below reco
 returns. The G383--G412, G413--G415 and G416--G423 banking packets and maintained checkpoint own later dispositions;
 original result packages remain unchanged. No physical adoption or canon is included.
 
-## Proposed common-geometry whiteboard — 2026-09-28
+## Reviewed common-geometry whiteboard — 2026-09-28
 
-Charles asks whether the current direction supports a search with specialist
-mathematical/physics perspectives. Concrete four-hour scope, **PROPOSED, not launched**:
+Charles authorized the concrete four-hour scope with “proceed”:
 `udt_common_geometry_whiteboard_2026-09-28/WORK_ORDER.md`.
-It includes three independent AI specialist starts, shared critique, a bounded
-synthesis, fresh adversarial review and repair/re-review. The target is a native
-compatibility relation linking clock evolution, causal structure, beam geometry
-and the limiting response. The previous OFS1 return remains complete and unchanged.
+CGW1 returned reviewed conditional UNPROMOTED after three source-led starts,
+cyclic cross-critique and fresh source-first adversarial review. No scientific
+repair was required. Return: `udt_common_geometry_whiteboard_2026-09-28/DECISION_BRIEF.md`.
+Its exact conformal clock/screen and all-direction potential restrictions,
+same-cone drift discriminator and endpoint controls retain their complete
+metric/observer/domain hypotheses. G312 native membership and physical
+asymptotic completion remain OPEN; no new equation, physical premise or canon.
+REVIEWED_RESULT and CLOSEOUT own evidence, coverage caveats and preservation.
+The earlier OFS1 return is unchanged. Stop for discussion; no automatic successor.
 
 Latest owner direction, preserved verbatim:
 
@@ -36,8 +40,8 @@ The positional-dilation/causal-geometry interpretation is already founding
 direction; the common SR/GR/UDT limiting structure is an investigative hypothesis.
 It supplies no new response equation, horizon identification, distance map,
 physical scale or canon change. “Flat curve” refers to the intended weak nearby
-response, not an adopted spatial-flatness premise. No specialist search begins
-automatically from this proposal.
+response, not an adopted spatial-flatness premise. The authorized bounded
+cycle is complete; further research or promotion needs its own explicit scope.
 
 ## Data-guided discovery with native derivation — 2026-09-28
 

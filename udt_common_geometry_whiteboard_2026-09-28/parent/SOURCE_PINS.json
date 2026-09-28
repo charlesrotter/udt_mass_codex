@@ -1,0 +1,27 @@
+{
+  "utc": "2026-09-28T13:19:15.876928+00:00",
+  "source_sha256": {
+    "udt_observation_guided_function_search_2026-09-28/REVIEWED_RESULT.md": "f1dffa344c81154e533274495b70c6d884c65e6628b85a076c20400d7833b79c",
+    "udt_observation_guided_function_search_2026-09-28/geometry/INITIAL_METRIC_PASS.md": "5b0f6796df76d826f9dd745a5737dd4d13d25562e21dbe122b440d74c367b273",
+    "udt_null_clock_depth_integrability_assessment_2026-09-10/INITIAL_CANDIDATE.md": "a2769dd02500970475225939f0606ba212bdde6b6a54a3bebdd5023ced1385e1",
+    "udt_null_clock_depth_integrability_assessment_2026-09-10/REPAIR.md": "38f0bf9512a426e23e76acba8bca71dcef36b0d1e126ce5f45eabbe269b98dc4",
+    "udt_g374_g375_conditional_banking_2026-09-08/BANKING_RECORD.md": "47554c199ec7b31907d3b6454e2956f4d2231213285e0245baa07bf65d84c0cd",
+    "udt_ncb1_banking_2026-09-12/BANKING_RECORD.md": "4a888a6552360e71b97372623fe135458a546311c8e73a4ac9e99302e1be8022"
+  },
+  "external_methods": [
+    {
+      "url": "https://arxiv.org/abs/0802.3642",
+      "title": "On Conformal Vector Fields Parallel to The Observer Field",
+      "version": "v2",
+      "use": "Primary method identification only; full local proof in NCI1 controls arguments"
+    },
+    {
+      "url": "https://www.damtp.cam.ac.uk/user/tong/gr/grhtml/S1.html",
+      "status": "web fetch timeout; not treated as freshly inspected content"
+    },
+    {
+      "url": "https://www.damtp.cam.ac.uk/user/tong/gr/grhtml/S6.html",
+      "status": "web fetch timeout; not treated as freshly inspected content"
+    }
+  ]
+}

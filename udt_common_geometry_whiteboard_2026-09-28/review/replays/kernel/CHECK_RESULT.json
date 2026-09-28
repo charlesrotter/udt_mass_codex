@@ -1,0 +1,210 @@
+{
+  "status": "PASS_EXACT_CONDITIONAL_ANCHORS",
+  "utc": "2026-09-28T13:47:48.134238+00:00",
+  "python": "3.10.12",
+  "sympy": "1.13.1",
+  "dtype": "symbolic exact, no floating grid",
+  "runtime_seconds": 0.2516513329974259,
+  "max_rss_kib": 53436,
+  "script_sha256": "15da4f10a8f9aa2af618aaf94b99e295f3ed89327b6e86c15f280b483f212fc3",
+  "contract_sha256": "b3a26340a6c83dd2b5e3b82ca460fd87dd48f72990a7abd76859fd67f8ea2a3e",
+  "checks": {
+    "pair_original_determinant": {
+      "kind": "exact symbolic identity",
+      "residual": "0"
+    },
+    "pair_completed_determinant": {
+      "kind": "exact symbolic identity",
+      "residual": "0"
+    },
+    "pair_positive_clock_square": {
+      "kind": "exact symbolic identity",
+      "residual": "0"
+    },
+    "pair_shift_retained": {
+      "kind": "exact symbolic identity",
+      "residual": "0"
+    },
+    "pair_calibrated_spatial_factor": {
+      "kind": "exact symbolic identity",
+      "residual": "0"
+    },
+    "pair_q_readout": {
+      "kind": "exact symbolic identity",
+      "residual": "0"
+    },
+    "proper_clock_unit": {
+      "kind": "exact symbolic identity",
+      "residual": "0"
+    },
+    "null_metric": {
+      "kind": "exact symbolic identity",
+      "residual": "0"
+    },
+    "metric_frequency": {
+      "kind": "exact symbolic identity",
+      "residual": "0"
+    },
+    "original_affine_geodesic_component_0": {
+      "kind": "exact symbolic identity",
+      "residual": "0"
+    },
+    "original_affine_geodesic_component_1": {
+      "kind": "exact symbolic identity",
+      "residual": "0"
+    },
+    "original_affine_geodesic_component_2": {
+      "kind": "exact symbolic identity",
+      "residual": "0"
+    },
+    "original_affine_geodesic_component_3": {
+      "kind": "exact symbolic identity",
+      "residual": "0"
+    },
+    "original_metric_screen_tide": {
+      "kind": "exact symbolic identity",
+      "residual": "0"
+    },
+    "jacobi_original_equation": {
+      "kind": "exact symbolic identity",
+      "residual": "0"
+    },
+    "jacobi_vertex": {
+      "kind": "exact symbolic identity",
+      "residual": "0"
+    },
+    "jacobi_unit_source_frequency": {
+      "kind": "exact symbolic identity",
+      "residual": "0"
+    },
+    "normalized_redshift_gradient": {
+      "kind": "exact symbolic identity",
+      "residual": "0"
+    },
+    "catch_missing_frequency_normalization": {
+      "kind": "deliberately wrong identity rejected",
+      "nonzero_residual": "(C - f(t))*Derivative(f(t), t)/f(t)**3"
+    },
+    "conformal_killing_time_factor": {
+      "kind": "exact symbolic identity",
+      "residual": "0"
+    },
+    "normalized_base_stationary": {
+      "kind": "exact symbolic identity",
+      "residual": "0"
+    },
+    "observer_longitudinal_Doppler": {
+      "kind": "exact symbolic identity",
+      "residual": "0"
+    },
+    "received_ratio_not_gamma": {
+      "kind": "exact symbolic identity",
+      "residual": "0"
+    },
+    "observer_area_ratio_covariance": {
+      "kind": "exact symbolic identity",
+      "residual": "0"
+    },
+    "carried_chain_rule_log": {
+      "kind": "exact symbolic identity",
+      "residual": "0"
+    },
+    "catch_uncarried_same_epoch_product": {
+      "kind": "deliberately wrong identity rejected",
+      "nonzero_residual": "-2*kappa*l1*l2"
+    },
+    "finite_forward_at_zero_expansion_epoch": {
+      "kind": "exact symbolic identity",
+      "residual": "0"
+    },
+    "later_future_return": {
+      "kind": "exact symbolic identity",
+      "residual": "0"
+    },
+    "catch_return_as_inverse": {
+      "kind": "deliberately wrong identity rejected",
+      "nonzero_residual": "4*kappa*l1**2"
+    },
+    "same_segment_inverse": {
+      "kind": "exact symbolic identity",
+      "residual": "0"
+    },
+    "catch_depth_sign": {
+      "kind": "deliberately wrong identity rejected",
+      "nonzero_residual": "2*kappa*l1**2"
+    },
+    "all_direction_mean_moment": {
+      "kind": "exact symbolic identity",
+      "residual": "0"
+    },
+    "directional_odd_part_0": {
+      "kind": "exact symbolic identity",
+      "residual": "0"
+    },
+    "directional_odd_part_1": {
+      "kind": "exact symbolic identity",
+      "residual": "0"
+    },
+    "directional_odd_part_2": {
+      "kind": "exact symbolic identity",
+      "residual": "0"
+    },
+    "zero_mean_shear_trace": {
+      "kind": "exact symbolic identity",
+      "residual": "0"
+    },
+    "G415_background_average": {
+      "kind": "exact symbolic identity",
+      "residual": "0"
+    },
+    "G415_background_shear_xi": {
+      "kind": "exact symbolic identity",
+      "residual": "0"
+    },
+    "catch_axial_potential_implies_all_direction": {
+      "kind": "deliberately wrong identity rejected",
+      "nonzero_residual": "-3/(4*t*N(t))"
+    },
+    "ultrastatic_acceleration": {
+      "kind": "exact symbolic identity",
+      "residual": "0"
+    },
+    "ultrastatic_curved_screen_tide": {
+      "kind": "exact symbolic identity",
+      "residual": "0"
+    },
+    "ultrastatic_flat_screen_tide": {
+      "kind": "exact symbolic identity",
+      "residual": "0"
+    },
+    "ultrastatic_curved_jacobi": {
+      "kind": "exact symbolic identity",
+      "residual": "0"
+    },
+    "ultrastatic_flat_jacobi": {
+      "kind": "exact symbolic identity",
+      "residual": "0"
+    }
+  },
+  "endpoint_extents": {
+    "1/4": {
+      "f_endpoint": "infinity",
+      "proper_integral": "4/3",
+      "affine_integral": "2",
+      "interpretation": "supplied conformal-flat comparison; not a selected UDT completion"
+    },
+    "3/4": {
+      "f_endpoint": "infinity",
+      "proper_integral": "4",
+      "affine_integral": "oo",
+      "interpretation": "supplied conformal-flat comparison; not a selected UDT completion"
+    },
+    "1": {
+      "f_endpoint": "infinity",
+      "proper_integral": "oo",
+      "affine_integral": "oo",
+      "interpretation": "supplied conformal-flat comparison; not a selected UDT completion"
+    }
+  },
+  "limits": "Same reused context; finite exact anchors support hand arguments, not global metric extension, physical identification, native admission, or fresh review."
+}

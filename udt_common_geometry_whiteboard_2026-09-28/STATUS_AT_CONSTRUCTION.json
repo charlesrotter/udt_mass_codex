@@ -1,0 +1,14 @@
+{
+  "utc": "2026-09-28T13:48:51.090693+00:00",
+  "base": "be806b1830b24328caf47d99328fc1ecf992e6fe",
+  "purpose": "Reconstruct the exact ACTIVE maintained surfaces pinned by lane/source-first reads; historical execution provenance, never current startup authority",
+  "files_sha256": {
+    "LIVE.md": "45e0dcc588648e2715fed16b933a646a8d026d5aeb55b165174474ef9a9b5256",
+    "HANDOFF.md": "3e052d5552e2c2401f6f491655553208c778e34281abea35d09c11de0fd2efe4",
+    "CURRENT_RESEARCH_PROGRAM.md": "c0317e820a51c1ec3d29716d64d52ff08252b609083ed566f93414a9cab9a9fb",
+    "UDT_RESEARCH_ROADMAP.md": "3ce98326dc258ac93fb948e7d941bc93d3a384e4ca0aebc7e091f6e2c109634d"
+  },
+  "patch_sha256": "849a4b6e05e4995f063160fbeb744eee4ab9bc115aec3ca12e4a8eaa520a2453",
+  "reconstruction": "Apply with git apply --unidiff-zero to these four base files in a separate scratch tree; never reset/overwrite the live tree",
+  "packaging": "Zero-context patch preserves exact changes without whitespace-only context lines; not scientific evidence"
+}

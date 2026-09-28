@@ -1,0 +1,23 @@
+{
+  "utc": "2026-09-28T13:16:49.944439+00:00",
+  "records": [
+    {
+      "path": "tong_s1.html",
+      "url": "https://davidtong.org/teaching/general-relativity/grhtml/S1",
+      "status": "failed",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "path": "tong_s6.html",
+      "url": "https://davidtong.org/teaching/general-relativity/grhtml/S6",
+      "status": "failed",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "path": "reall_black_holes_2024.pdf",
+      "url": "https://www.damtp.cam.ac.uk/user/hsr1000/black_holes_lectures_2024.pdf",
+      "status": "failed",
+      "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1007)>"
+    }
+  ]
+}

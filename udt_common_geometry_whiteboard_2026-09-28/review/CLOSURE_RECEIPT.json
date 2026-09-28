@@ -1,0 +1,16 @@
+{
+  "completed_utc": "2026-09-28T13:53:52.482924+00:00",
+  "head": "be806b1830b24328caf47d99328fc1ecf992e6fe",
+  "branch": "grok",
+  "construction_entries_checked": 79,
+  "construction_mismatches": [],
+  "source_first_seal_unchanged": true,
+  "review_sha256": "7c58db0492b0cc35147d8ca08b75b81bf71b74418fa2e32c54907c8f5a055de2",
+  "independent_checks_sha256": "b60af2e55aa62c215044eae4e8cc0c25658a76cbee4434d831f85bd26150fded",
+  "verdict": "VERIFIED-WITH-CAVEATS",
+  "required_scientific_repairs": 0,
+  "reviewer_own_writes": "review/ only",
+  "external_observations_or_downloads": false,
+  "git_mutation": false,
+  "full_premise_audit": "Parent-owned; saved exit 0 receipt inspected, not rerun"
+}

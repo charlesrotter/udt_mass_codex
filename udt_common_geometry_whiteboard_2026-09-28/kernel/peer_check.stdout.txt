@@ -1,0 +1,197 @@
+{
+  "utc": "2026-09-28T13:34:29.082656+00:00",
+  "scope": "Independent peer checks of supplied HR1/HR2 static radial class only",
+  "python": "3.10.12",
+  "sympy": "1.13.1",
+  "script_sha256": "0b6707ede8db4d6784ca9635acae8061fdbfa9c8269b0b93e54bc62b18e626d4",
+  "runtime_seconds": 0.26728004300093744,
+  "peak_rss_kib": 52212,
+  "checks": [
+    {
+      "name": "original_Ricci_scalar",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "name": "null_sign_-1",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "name": "original_affine_equation_sign_-1_component_0",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "name": "original_affine_equation_sign_-1_component_1",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "name": "calibrated_tape_rate_sign_-1",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "name": "null_sign_1",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "name": "original_affine_equation_sign_1_component_0",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "name": "original_affine_equation_sign_1_component_1",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "name": "calibrated_tape_rate_sign_1",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "name": "static_unit_norm",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "name": "frequency_from_original_metric",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "name": "static_proper_acceleration",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "name": "HR2_depth_curvature",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "name": "G176_calibrated_determinant",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "name": "G176_calibrated_radial_entry",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "name": "redshift_and_ordered_depth_have_opposite_sign",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "name": "anchor_received_factor_N_half",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "name": "anchor_ordered_depth_N_half",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "name": "wrong_depth_sign_N_half",
+      "negative_control": "-log(4)",
+      "pass": true
+    },
+    {
+      "name": "wrong_optical_equals_affine_density_N_half",
+      "negative_control": "3/2",
+      "pass": true
+    },
+    {
+      "name": "p_not_one_affine_primitive",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "name": "p_one_affine_primitive",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "name": "common_initial_depth_slope",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "name": "explicit_tail_p_1/2",
+      "limit": "oo",
+      "pass": true
+    },
+    {
+      "name": "explicit_tail_p_1",
+      "limit": "oo",
+      "pass": true
+    },
+    {
+      "name": "explicit_tail_p_2",
+      "limit": "2/k",
+      "pass": true
+    },
+    {
+      "name": "exponential_tape_primitive",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "name": "exponential_affine_endpoint",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "name": "EF_metric_vv",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "name": "EF_metric_vs",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "name": "EF_metric_ss",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "name": "EF_nondegenerate_at_horizon",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "name": "EF_finite_curvature",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "name": "EF_crossing_null",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "name": "EF_crossing_Killing_energy",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "name": "EF_affine_crossing_equation_0",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "name": "EF_affine_crossing_equation_1",
+      "residual": "0",
+      "pass": true
+    }
+  ],
+  "all_pass": true
+}

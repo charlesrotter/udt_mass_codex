@@ -1,0 +1,71 @@
+{
+  "recorded_utc": "2026-09-28T13:24:59.578786+00:00",
+  "head": "be806b1830b24328caf47d99328fc1ecf992e6fe",
+  "repo_sources": [
+    {
+      "path": "AGENTS.md",
+      "sha256": "c578b045cf3278804124e23a5408ff9634a9a2165f7d20223f654d76bffd8ec9"
+    },
+    {
+      "path": "CLAUDE.md",
+      "sha256": "b7e524a5b06760e57877a408630228767ae9a394134095f9851bef5d06e17751"
+    },
+    {
+      "path": "CURRENT_RESEARCH_PROGRAM.md",
+      "sha256": "c0317e820a51c1ec3d29716d64d52ff08252b609083ed566f93414a9cab9a9fb"
+    },
+    {
+      "path": "CURRENT_SCIENTIFIC_PREMISES.md",
+      "sha256": "7b574665f714551a3a565987fc5bc56a4b44c7e6fb274532f61609c25153f627"
+    },
+    {
+      "path": "CURRENT_SCIENTIFIC_PREMISES.tsv",
+      "sha256": "7a3d69d5a0bc3ac98e2ebe2bb0c6d029df30071bf403baffed2223a193dc720b"
+    },
+    {
+      "path": "udt_common_geometry_whiteboard_2026-09-28/WORK_ORDER.md",
+      "sha256": "d1c0ebc3cd819f1b92a026f2472c0c475c628ee7cb5fb8703aa18fb22f9bbdb8"
+    },
+    {
+      "path": "udt_common_geometry_whiteboard_2026-09-28/LAUNCH.json",
+      "sha256": "10100f73c51fb89bee5b48d3be9e923acd4479fe44fb16555c17035225c58474"
+    },
+    {
+      "path": "udt_gr_filter_reconciliation_2026-09-09/AUTHORITY_RECORD.md",
+      "sha256": "80daa0be6d3e1c0ac1b734fea089c4eb487f05bc1e1fbb2fabd69322ca89f28c"
+    },
+    {
+      "path": "udt_g176_completed_pair_dual_reciprocity_consolidation_2026-08-19/AUDIT_REPORT.md",
+      "sha256": "c7c96194a8baf3465b2d8c58ff19051ee2937b4b7f7a5d0e8859ad1a26651d84"
+    },
+    {
+      "path": "udt_observation_guided_function_search_2026-09-28/REVIEWED_RESULT.md",
+      "sha256": "f1dffa344c81154e533274495b70c6d884c65e6628b85a076c20400d7833b79c"
+    }
+  ],
+  "primary_method_sources": [
+    {
+      "url": "https://davidtong.org/teaching/general-relativity/grhtml/S1",
+      "sections": [
+        "1.2.1 proper time",
+        "1.2.4 accelerated observer coordinates"
+      ],
+      "use": "comparison mathematics; not UDT premises"
+    },
+    {
+      "url": "https://davidtong.org/teaching/general-relativity/grhtml/S6",
+      "sections": [
+        "6.1.2 near horizon Rindler limit",
+        "6.1.3 regular horizon extension"
+      ],
+      "use": "comparison mathematics; not UDT premises"
+    }
+  ],
+  "web_snapshot": "sources/WEB_METHOD_SOURCE_SNAPSHOT.json",
+  "snapshot_scope": "tool-returned excerpts, not full webpage content",
+  "unavailable": [
+    "https://www.damtp.cam.ac.uk/user/hsr1000/black_holes_lectures_2024.pdf"
+  ],
+  "download_bytes_raw_sources": 0,
+  "web_snapshot_bytes": 29010
+}

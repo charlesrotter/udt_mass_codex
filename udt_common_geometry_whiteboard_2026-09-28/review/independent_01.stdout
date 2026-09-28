@@ -1,0 +1,211 @@
+{
+  "python": "3.10.12 (main, Aug 31 2026, 10:18:17) [GCC 11.4.0]",
+  "sympy": "1.13.1",
+  "metric_shapes": [
+    "4x4",
+    "4x4",
+    "2x2",
+    "2x2"
+  ],
+  "Riemann_shape": "4x4x4x4",
+  "method": "original-coordinate metric differentiation; no author scientific routine",
+  "groups": [
+    {
+      "label": "C1_original_Ricci",
+      "components": 16,
+      "residuals": [
+        "EXACT_ZERO"
+      ]
+    },
+    {
+      "label": "C1_original_scalar",
+      "components": 1,
+      "residuals": [
+        "EXACT_ZERO"
+      ]
+    },
+    {
+      "label": "C1_all_constant_curvature_components",
+      "components": 256,
+      "residuals": [
+        "EXACT_ZERO"
+      ]
+    },
+    {
+      "label": "C1_unit_observer",
+      "components": 1,
+      "residuals": [
+        "EXACT_ZERO"
+      ]
+    },
+    {
+      "label": "C1_null_affine_original",
+      "components": 5,
+      "residuals": [
+        "EXACT_ZERO"
+      ]
+    },
+    {
+      "label": "C1_cone_frequency_and_factor",
+      "components": 2,
+      "residuals": [
+        "EXACT_ZERO"
+      ]
+    },
+    {
+      "label": "C1_cone_screen_tide",
+      "components": 2,
+      "residuals": [
+        "EXACT_ZERO"
+      ]
+    },
+    {
+      "label": "C1_neighbor_arrival_drift",
+      "components": 3,
+      "residuals": [
+        "EXACT_ZERO"
+      ]
+    },
+    {
+      "label": "C1_actual_future_relay",
+      "components": 2,
+      "residuals": [
+        "EXACT_ZERO"
+      ]
+    },
+    {
+      "label": "catch_reversed_clock_ratio",
+      "rejected_residual": "-1/5",
+      "point": {
+        "k": "1/10",
+        "L": "1"
+      }
+    },
+    {
+      "label": "catch_future_return_is_inverse",
+      "rejected_residual": "1/4",
+      "point": {
+        "k": "1/10",
+        "L": "1"
+      }
+    },
+    {
+      "label": "catch_wrong_curvature_coefficient",
+      "rejected_residual": "6/5",
+      "point": {
+        "k": "1/10"
+      }
+    },
+    {
+      "label": "C1_affine_reparameterization",
+      "components": 1,
+      "residuals": [
+        "EXACT_ZERO"
+      ]
+    },
+    {
+      "label": "C2_original_null_affine",
+      "components": 5,
+      "residuals": [
+        "EXACT_ZERO"
+      ]
+    },
+    {
+      "label": "C2_normalized_clock_slope",
+      "components": 1,
+      "residuals": [
+        "EXACT_ZERO"
+      ]
+    },
+    {
+      "label": "C2_original_screen_tide",
+      "components": 1,
+      "residuals": [
+        "EXACT_ZERO"
+      ]
+    },
+    {
+      "label": "C2_original_Jacobi_residual_and_vertex",
+      "components": 3,
+      "residuals": [
+        "EXACT_ZERO"
+      ]
+    },
+    {
+      "label": "catch_unnormalized_clock_slope",
+      "rejected_residual": "-2*(-1 + E)*exp(-2)",
+      "point": {
+        "k": "1",
+        "t": "1",
+        "te": "0"
+      }
+    },
+    {
+      "label": "catch_wrong_screen_frequency",
+      "rejected_residual": "-(-1 + E)*exp(-1)",
+      "point": {
+        "k": "1",
+        "te": "1"
+      }
+    },
+    {
+      "label": "C2_carried_composition",
+      "components": 1,
+      "residuals": [
+        "EXACT_ZERO"
+      ]
+    },
+    {
+      "label": "catch_uncarried_composition",
+      "rejected_residual": "4",
+      "point": {
+        "k": "1",
+        "L1": "1",
+        "L2": "2"
+      }
+    },
+    {
+      "label": "C2_emission_reception_and_return",
+      "components": 3,
+      "residuals": [
+        "EXACT_ZERO"
+      ]
+    },
+    {
+      "label": "H_original_curvature",
+      "components": 1,
+      "residuals": [
+        "EXACT_ZERO"
+      ]
+    },
+    {
+      "label": "H_original_null_affine",
+      "components": 3,
+      "residuals": [
+        "EXACT_ZERO"
+      ]
+    },
+    {
+      "label": "H_regular_extension",
+      "components": 4,
+      "residuals": [
+        "EXACT_ZERO"
+      ]
+    },
+    {
+      "label": "SR_actual_forward_return",
+      "components": 1,
+      "residuals": [
+        "EXACT_ZERO"
+      ]
+    },
+    {
+      "label": "catch_Doppler_equals_gamma",
+      "rejected_residual": "3/4",
+      "point": {
+        "beta": "3/5"
+      }
+    }
+  ],
+  "checks": 27
+}

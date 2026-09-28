@@ -181,39 +181,27 @@ Backup/unsaved state UNVERIFIED; ScratchDisk archive-only.
 
 ## Current next gate
 
-OFS1 is a completed reviewed empirical/conditional UNPROMOTED return:
+CGW1 common-geometry whiteboard is reviewed conditional UNPROMOTED; its
+bounded construction, cross-critique and fresh-review cycle is complete:
+`udt_common_geometry_whiteboard_2026-09-28/DECISION_BRIEF.md`.
+Exact conformal clock/screen compatibility and all-direction potential tests
+survive at their declared scopes. A specified same-cone degeneracy is separated
+by finite-source clock drift or local timelike tides. Conditional Einstein
+restrictions are comparison mathematics, not native response ownership.
+REVIEWED_RESULT and CLOSEOUT own the whole review, limits and checks.
+Native selection, measured local GR precision and physical asymptotic completion
+remain OPEN. No premise, scientific grade, canon or successor is adopted.
+
+Prior OFS1 reviewed empirical/conditional UNPROMOTED return:
 `udt_observation_guided_function_search_2026-09-28/DECISION_BRIEF.md`.
-Six SNe families yield finite-range shapes; an unretuned BAO comparison adds a
-conditional derivative constraint. An exact restricted inverse supplies a
-compatible metric but leaves its function/history and interfaces supplied.
-Different smooth tails preserve the same observed range. Native selection,
-physical asymptotic completion and measured local GR correspondence remain OPEN.
-Expanding controls are not the intended native positional explanation. The
-package's REVIEWED_RESULT and CLOSEOUT own repaired scope and independent checks;
-no scientific grade, physical premise or canon changed.
-
-The July optical-time lead is reviewed conditional UNPROMOTED and complete:
-`udt_july_optical_time_dilation_lead_2026-09-28/DECISION_BRIEF.md`.
-Constant optical advance per depth restricts the supplied stationary profile;
-it is not forced by reciprocal form alone. Its stationary reversal is not a
-generic future-return law or a UDT requirement. Time-dependent controls permit
-mutual redshift but leave physical history unspecified. No positional
-component was isolated, no Hubble expansion or physical time dependence adopted.
-The next dependency is sufficient physical geometric and observer/path data
-to determine the received-clock map; a unique complete universe is not required
-before every bounded advance. The packet's CLOSEOUT owns checks and review.
-
-The bounded positional-geometry/received-clock investigation is reviewed conditional
-UNPROMOTED and complete: `udt_positional_geometry_clock_connection_2026-09-28/DECISION_BRIEF.md`.
-Its exact readout combines clock normalization, motion and changing geometry;
-the coordinate split does not identify independent physical factors. The known
-affine-ruler example supplies compatibility, not a native positional law.
-Physical event/path/separation-to-clock-rate assignment remains OPEN; the
-conversion from that ratio to redshift is already automatic. Its CLOSEOUT owns
-checks and review. Return for discussion; no automatic successor.
+Its finite-range SNe/conditional BAO shapes and supplied inverse remain leads;
+expanding controls are not the intended native positional law.
+Prior July optical-time and positional-geometry cycles are complete; INDEX
+routes their reviewed returns. Their stationary controls select no generic
+future-return rule, preferred observer or required Hubble expansion.
 
 DCR1 reviewed conditional UNPROMOTED: directional clocks permit central tides in its supplied static class
 under full G301 at an eligible center; no neighborhood field equation; FE1 UNADOPTED.
 G312 membership/native admission unclosed; response identification OPEN; G352 physical-realization: physical identification remains OPEN.
-Stop for lay discussion. Completed work orders remain closed;
-no new campaign is authorized; work order and return gates: `UDT_RESEARCH_ROADMAP.md`.
+Stop for lay discussion. CGW1 is complete; no new campaign is authorized;
+work order and return gates: `UDT_RESEARCH_ROADMAP.md`.

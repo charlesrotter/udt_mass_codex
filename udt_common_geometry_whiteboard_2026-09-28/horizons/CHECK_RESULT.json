@@ -1,0 +1,198 @@
+{
+  "status": "PASS",
+  "kind": "author exact symbolic regression; not independent review",
+  "python": "3.10.12",
+  "sympy": "1.13.1",
+  "checks": [
+    {
+      "name": "Ricci_scalar_from_Christoffels",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "name": "static_oriented_acceleration",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "name": "tidal_depth_Riccati",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "name": "null_constraint",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "name": "null_geodesic_0",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "name": "null_geodesic_1",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "name": "Killing_energy",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "name": "affine_integrand",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "name": "optical_integrand",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "name": "reciprocal_determinant",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "name": "power_family_affine_primitive_p_not_1",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "name": "power_family_affine_primitive_p_1",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "name": "power_family_depth_initial_value",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "name": "power_family_depth_initial_slope",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "name": "exponential_affine_primitive",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "name": "exponential_reciprocal_endpoint",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "name": "finite_simple_root_lapse_acceleration",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "name": "finite_simple_root_flatness",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "name": "SR_received_forward",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "name": "SR_received_return",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "name": "SR_gamma_from_Doppler",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "name": "SR_time_dilation_not_Doppler",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "name": "accelerated_outgoing_intersection",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "name": "accelerated_return_intersection",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "name": "accelerated_forward_clock_factor",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "name": "accelerated_return_clock_factor",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "name": "accelerated_echo_map",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "name": "Rindler_exact_pullback_00",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "name": "Rindler_exact_pullback_01",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "name": "Rindler_exact_pullback_10",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "name": "Rindler_exact_pullback_11",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "name": "Schwarzschild_relative_lapse_error",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "name": "Schwarzschild_radial_factor",
+      "residual": "0",
+      "pass": true
+    }
+  ],
+  "count": 33,
+  "negative_controls": [
+    {
+      "name": "gamma_substituted_for_received_D_at_eta_log2",
+      "residual": "-3/4",
+      "detected": true
+    },
+    {
+      "name": "inverse_lapse_substituted_for_affine_integrand_N2_E1_null_constraint",
+      "residual": "15/4",
+      "detected": true
+    },
+    {
+      "name": "opposite_radial_curvature_sign_N_exp_minus_l",
+      "residual": "-4",
+      "detected": true
+    }
+  ],
+  "derived_R2": "-2*Derivative(N(l), (l, 2))/N(l)",
+  "limits": {
+    "power_p_less_equal_1_affine": "infinite as l tends to +infinity",
+    "power_p_greater_1_affine": "p/[k(p-1)] from 0 to +infinity",
+    "exponential_affine": "1/k from 0 to +infinity"
+  },
+  "failures": []
+}

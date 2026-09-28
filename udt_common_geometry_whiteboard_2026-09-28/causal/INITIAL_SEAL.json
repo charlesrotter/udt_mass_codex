@@ -1,0 +1,17 @@
+{
+  "sealed_utc": "2026-09-28T13:24:21.079809+00:00",
+  "head": "be806b1830b24328caf47d99328fc1ecf992e6fe",
+  "review_state": "INITIAL_AUTHOR_NOTE_NOT_REVIEWED",
+  "sibling_exposure": "none before seal",
+  "empirical_exposure": "OFS1 reviewed-result published coefficients seen, not used",
+  "files": {
+    "udt_common_geometry_whiteboard_2026-09-28/causal/CHECK_FREEZE.md": "7737e2e2f20595f8aaef4f48867aa3bfe180001a28940f518c7c6e7b42d3835e",
+    "udt_common_geometry_whiteboard_2026-09-28/causal/INITIAL_NOTE.md": "04ab83d23ee6f695dc1a6cd80c773163129a45703e0cf29b47a0d78160fcb75b",
+    "udt_common_geometry_whiteboard_2026-09-28/causal/SCOPED_REGISTRY.json": "9defe0be7f243b4a26a3ac3c1a5e74853f3b6f23346db63953cf6a2a7a4ef35e",
+    "udt_common_geometry_whiteboard_2026-09-28/causal/SOURCE_PINS.json": "2a3fba7e9c60bc9b7b9b182505ee14aba7ce3215e97b657621eb0800da00001d",
+    "udt_common_geometry_whiteboard_2026-09-28/causal/author_01.json": "34e53f29e360615597edc573fa1b23696e7447cd77b88ad7248bc58a6cdd16a5",
+    "udt_common_geometry_whiteboard_2026-09-28/causal/author_01.stderr": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "udt_common_geometry_whiteboard_2026-09-28/causal/author_01.stdout": "5790ed0ac101f0dda01cd993f69f0a21e836fa90e0d0c4ac30a761c46a81ef7f",
+    "udt_common_geometry_whiteboard_2026-09-28/causal/check_causal.py": "b1a967126356ed84a21f7d55e867612dbca8d408b9a6d08bdadaa373a2f2f391"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "sealed_utc": "2026-09-28T13:41:18.050114+00:00",
+  "phase": "A_SOURCE_FIRST_SEALED",
+  "candidate_exposed": false,
+  "files": {
+    "SOURCE_FIRST.md": "3eb4a7e7e51945a762530a7a34f5391c66ae4d68e885052164ca62f95e90075d",
+    "SOURCE_FIRST_PINS.sha256": "f900c6175db33116f5d062e7dd9e149a83b46ee2b42b9bd45cb0e88abf919e92"
+  },
+  "note": "Byte correspondence seal; chronology rests on actual tool sequence."
+}

@@ -1,0 +1,8 @@
+{
+  "utc": "2026-09-28T13:24:05.773714+00:00",
+  "sha256": {
+    "COMPARISON_FREEZE.md": "a7344e49aa192ac14dbefba792dfe7f6e1cf8f8bffbea65ef26e91b3055e6f94",
+    "compare_existing_control.py": "a3f4e098b1910fc95a688784bd63702198dd9af5719c35eb6677642560e16ddf"
+  },
+  "stage": "before this campaign comparison numerical execution; OFS1 data already exposed"
+}

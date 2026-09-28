@@ -1,8 +1,11 @@
 # Common geometry whiteboard: clocks, causal structure and the asymptotic limit
 
-Status: PROPOSED, not launched. Charles asked whether there is enough direction
-to begin a search and whether a specialist whiteboard is appropriate. This
-document supplies the concrete scope for that decision; it adopts no physics.
+Status: REVIEWED CONDITIONAL / UNPROMOTED. The bounded scientific/review
+cycle is complete; CLOSEOUT.md owns final integration checks and return.
+Charles’s “proceed” authorized the scope below; no successor is authorized.
+Launched 2026-09-28 13:09:22 UTC; hard return 17:09:22 UTC, including review
+and closeout. Actual launch HEAD: be806b1830b24328caf47d99328fc1ecf992e6fe.
+The saved PROPOSED_WORK_ORDER.md preserves the proposal; no physics is adopted.
 Proposal baseline: grok `52b0bd62923bfc119022a7518f691c1aec4d3d04`.
 The preceding OFS1 campaign is complete and does not authorize this successor.
 
@@ -127,7 +130,7 @@ upgrade premises; an objection does not prove whole-theory impossibility.
 
 ## Resources, preservation and stop
 
-Proposed budget: **four elapsed hours**, including checks, review, repair and
+Authorized budget: **four elapsed hours**, including checks, review, repair and
 closeout. Aim to freeze the initial synthesis by 2.5 hours and reserve the final
 1.5 hours for verification/return. At most four simultaneous contexts including
 parent: three specialist contexts initially, then a fresh reviewer after the
@@ -156,7 +159,6 @@ what follows from current UDT, what remains supplied, which intended limit was
 tested, what survives, and the smallest next decision. An honest narrowed result
 is acceptable; repeated vague statements that a function is missing are not.
 
-Proposal validation: author source/scope and preservation review only. No
-specialist context, new derivation, independent candidate review or campaign
-has been launched by preparing this work order. A subsequent “proceed” to this
-scope includes construction, checks, fresh review and bounded repair/re-review.
+Proposal validation was author source/scope and preservation review only.
+Charles’s subsequent “proceed” authorizes construction, checks, fresh review
+and bounded repair/re-review. Current exposure and execution: CAMPAIGN_LOG.md.

@@ -42,6 +42,10 @@ G388--G389 conditional, compact-sector mixed-C2/analytic-local tangent limits; o
 
 ## Founding, relational and response sources
 
+- CGW1 common-geometry whiteboard, reviewed conditional UNPROMOTED:
+  `udt_common_geometry_whiteboard_2026-09-28/DECISION_BRIEF.md`.
+  Exact clock/screen restrictions and a scoped drift discriminator; full sources,
+  review and limits: REVIEWED_RESULT and CLOSEOUT. Native selection remains OPEN.
 - OFS1 observation-guided functions, reviewed empirical/conditional UNPROMOTED:
   `udt_observation_guided_function_search_2026-09-28/DECISION_BRIEF.md`.
   REVIEWED_RESULT controls the initial snapshot with REPAIR qualifications;

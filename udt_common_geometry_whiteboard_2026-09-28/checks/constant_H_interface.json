@@ -1,0 +1,14 @@
+{
+  "command": [
+    "python3",
+    "udt_common_geometry_whiteboard_2026-09-28/parent/compare_existing_control.py"
+  ],
+  "cwd": "/home/udt-admin/udt_mass_codex",
+  "started_utc": "2026-09-28T13:25:16.240847+00:00",
+  "duration_seconds": 0.022428477997891605,
+  "returncode": 0,
+  "timeout": false,
+  "address_space_bytes": 2147483648,
+  "cpu_seconds": 600,
+  "maxrss_kib": 16124
+}

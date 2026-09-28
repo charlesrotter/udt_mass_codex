@@ -1,0 +1,27 @@
+{
+  "source": "udt_shared_readout_metric_constraint_campaign_2026-09-06/run_capture.py",
+  "source_sha256": "8ff5469ace76bdfc84188915242abbf3baff35516f9ee3f9ba4b1cbfeb2573ef",
+  "adapted_capture_sha256": "089072caf8ae28a7791c5634e90284cde730889653be5b962cdcb6c4a08fa0c6",
+  "wrapper_sha256": "1b95a783e861a52cc9fc50d3c76c152cb3673fc9045372afafd30da269ffec3f",
+  "replacements": {
+    "(512 * 1024**2, 512 * 1024**2)": "(2048 * 1024**2, 2048 * 1024**2)",
+    "(60, 60)": "(600, 600)",
+    "timeout=60": "timeout=600",
+    "address_space_bytes=512 * 1024**2": "address_space_bytes=2048 * 1024**2",
+    "cpu_seconds=60": "cpu_seconds=600"
+  },
+  "thread_environment": {
+    "OMP_NUM_THREADS": "1",
+    "OPENBLAS_NUM_THREADS": "1",
+    "MKL_NUM_THREADS": "1"
+  },
+  "limits": {
+    "seconds": 600,
+    "mib": 2048
+  },
+  "command": [
+    "python3",
+    "-c",
+    "from pathlib import Path\nimport datetime,hashlib,json,subprocess,sys\nroot=Path.cwd();p=root/\"udt_common_geometry_whiteboard_2026-09-28\"\nlaunch=json.loads((p/\"LAUNCH.json\").read_text())\nsha=lambda b:hashlib.sha256(b).hexdigest()\nprotected=(\"udt_kernel_plane_global_curvature_holonomy_atlas_2026-08-02/\",\"udt_native_onshell_timelive_reset_owner_audit_2026-08-10/\",\"udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/\",\"udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/\")\nmaintained={\"LIVE.md\",\"HANDOFF.md\",\"CURRENT_RESEARCH_PROGRAM.md\",\"UDT_RESEARCH_ROADMAP.md\",\"INDEX.md\",\"MEMORY.md\"}\nfixed=[\"AGENTS.md\",\"CLAUDE.md\",\"CANON.md\",\"founding.md\",\"CURRENT_SCIENTIFIC_PREMISES.md\",\"CURRENT_SCIENTIFIC_PREMISES.tsv\",\"verify_current_scientific_premises.py\"]\nassert all(sha((root/x).read_bytes())==launch[\"source_sha256\"][x] for x in fixed)\nmanifest=json.loads((p/\"CONSTRUCTION_MANIFEST.json\").read_text())\nbad=[name for name,item in manifest[\"files\"].items() if sha((p/name).read_bytes())!=item[\"sha256\"] or (p/name).stat().st_size!=item[\"bytes\"]]\nassert not bad,bad\nreview_count=0\nfor line in (p/\"review/REVIEW_MANIFEST.sha256\").read_text().splitlines():\n expected,name=line.split(\"  \",1)\n assert not name.startswith(protected)\n assert sha((root/name).read_bytes())==expected,name\n review_count+=1\npins={}\nfor name in [\"causal/SOURCE_PINS.json\",\"kernel/SOURCE_PINS.json\",\"parent/SOURCE_PINS.json\"]:\n for path,expected in json.loads((p/name).read_text())[\"source_sha256\"].items():\n  pins.setdefault(path,set()).add(expected)\nfor row in json.loads((p/\"horizons/SOURCE_PINS.json\").read_text())[\"repo_sources\"]:\n pins.setdefault(row[\"path\"],set()).add(row[\"sha256\"])\nsnapshot=json.loads((p/\"STATUS_AT_CONSTRUCTION.json\").read_text())\nreconstructed=json.loads((p/\"checks/status_snapshot_reconstruction.json\").read_text())\nassert reconstructed[\"returncode\"]==0 and all(reconstructed[\"reconstructed_matches\"].values())\nhistorical=[]; checked=0\nfor name,expecteds in pins.items():\n assert not name.startswith(protected),name\n current=sha((root/name).read_bytes())\n for expected in expecteds:\n  checked+=1\n  if current==expected:continue\n  if name in snapshot[\"files_sha256\"] and snapshot[\"files_sha256\"][name]==expected:\n   assert sha((Path(reconstructed[\"scratch_directory\"])/name).read_bytes())==expected\n   historical.append({\"source\":name,\"record\":\"STATUS_AT_CONSTRUCTION.patch\"});continue\n  if name==str((p/\"WORK_ORDER.md\").relative_to(root)) and sha((p/\"AUTHORIZED_WORK_ORDER.md\").read_bytes())==expected:\n   historical.append({\"source\":name,\"record\":\"AUTHORIZED_WORK_ORDER.md\"});continue\n  if name in maintained and sha(subprocess.check_output([\"git\",\"show\",launch[\"head\"]+\":\"+name]))==expected:\n   historical.append({\"source\":name,\"record\":\"launch git commit\"});continue\n  raise AssertionError(\"Unpreserved source pin: \"+name)\nassert subprocess.check_output([\"git\",\"rev-parse\",\"HEAD\"],text=True).strip()==launch[\"head\"]\nassert subprocess.check_output([\"git\",\"branch\",\"--show-current\"],text=True).strip()==\"grok\"\ntracked=set(subprocess.check_output([\"git\",\"diff\",\"--name-only\"],text=True).splitlines())\nassert tracked<=maintained|{str((p/\"WORK_ORDER.md\").relative_to(root))},tracked\nassert not subprocess.check_output([\"git\",\"diff\",\"--cached\",\"--name-only\"],text=True).strip()\nuntracked=[x for x in subprocess.check_output([\"git\",\"ls-files\",\"--others\",\"--exclude-standard\",\"-z\"]).decode().split(\"\\0\") if x]\nold=sorted(x for x in untracked if not x.startswith(p.name+\"/\"))\nassert old==sorted(launch[\"preexisting_untracked_paths\"])\nprint(json.dumps({\"utc\":datetime.datetime.now(datetime.timezone.utc).isoformat(),\"python\":sys.version.split()[0],\"status\":\"PASS_CORRESPONDENCE_AND_PRESERVATION\",\"fixed_authority_and_scientific_files\":len(fixed),\"construction_files_unchanged\":len(manifest[\"files\"]),\"original_review_files_unchanged\":review_count,\"source_versions_checked\":checked,\"historical_status_versions\":historical,\"preexisting_untracked_paths_preserved\":len(old),\"protected_payloads\":\"NOT_READ_OR_HASHED\",\"index_before_banking\":\"EMPTY\",\"tracked_changes\":\"only six maintained files and package work order\",\"scope\":\"Correspondence and preservation, not proof, independence or physical truth\"},indent=2))\n"
+  ]
+}

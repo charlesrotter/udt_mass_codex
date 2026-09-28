@@ -1,0 +1,28 @@
+{
+  "kind": "PEER_CHECK_AFTER_CANDIDATE_EXPOSURE",
+  "python": "3.10.12",
+  "sympy": "1.13.1",
+  "checks": {
+    "nontrivial_normal_form_unit_0": "EXACT_ZERO",
+    "nontrivial_normal_form_shear_0": "EXACT_ZERO",
+    "nontrivial_normal_form_alpha_0": "EXACT_ZERO",
+    "nontrivial_normal_form_expansion_0": "EXACT_ZERO",
+    "nontrivial_normal_form_unit_1": "EXACT_ZERO",
+    "nontrivial_normal_form_shear_1": "EXACT_ZERO",
+    "nontrivial_normal_form_alpha_1": "EXACT_ZERO",
+    "nontrivial_normal_form_expansion_1": "EXACT_ZERO",
+    "actual_coordinate_clock_vector_retained": "EXACT_ZERO",
+    "actual_coordinate_determinant": "EXACT_ZERO",
+    "coframe_density_reciprocity": "EXACT_ZERO",
+    "actual_coordinate_extra_time_coefficient": "EXACT_ZERO",
+    "quadratic_emission_zero_redshift": "EXACT_ZERO",
+    "quadratic_reception_zero_blueshift": "EXACT_ZERO"
+  },
+  "values": {
+    "twist_squared_event_0": "1",
+    "twist_squared_event_1": "6481377/11669480",
+    "coframe_nonclosure_coefficient": "2*exp(2*t)",
+    "quadratic_received_at_zero_log_ratio": "-L**2*kappa"
+  },
+  "independence": "New small pointwise metric-jet contraction code; candidate and its code read first; no blind-method claim"
+}
