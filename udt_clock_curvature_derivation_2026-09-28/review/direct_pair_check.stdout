@@ -1,0 +1,43 @@
+{
+  "python": "3.10.12",
+  "sympy": "1.13.1",
+  "computation": "general two-variable coordinate Christoffel/Ricci/scalar",
+  "shape": [
+    2,
+    2
+  ],
+  "arithmetic": "exact symbolic",
+  "residual_R_minus_2K": "0",
+  "clock_acceleration_identity": true,
+  "clock_expansion_identity": true,
+  "candidate_exposure": false
+}
+{
+  "bidirectional_interlock_residual": "0 identically",
+  "both_directions": [
+    {
+      "epsilon": 1,
+      "null_nonaffinity_components": 2,
+      "residual": "0 identically"
+    },
+    {
+      "epsilon": -1,
+      "null_nonaffinity_components": 2,
+      "residual": "0 identically"
+    }
+  ],
+  "restricted_F_equation_residual": "0 identically",
+  "linearized_principal_part": "f_tt + F0^-2 f_xx",
+  "ellipticity_domain": "F>0; prescribed derivative-free curvature; not a UDT-wide dynamical statement",
+  "actual_rejections": [
+    "omit shift time derivative",
+    "omit measure time derivative",
+    "wrong-sign hyperbolic linearized mode"
+  ],
+  "controls": {
+    "shift_scalar": "-2",
+    "time_measure_scalar": "2"
+  },
+  "author_code_exposure": false,
+  "reuse": "source-first reviewer coordinate implementation, not author code"
+}

@@ -1,0 +1,58 @@
+{
+  "python": "3.10.12",
+  "sympy": "1.13.1",
+  "rho": "t + x*y + z**2 + 1",
+  "boost_parameter": "t/20 + x/10 + 3*y/20 + z/4",
+  "arithmetic": "exact rational metric/observer jets; exact symbolic immersion",
+  "general_proof": "reviewed analytically by Ricci commutation, not supplied by finite point checks",
+  "points": [
+    {
+      "point": [
+        "1/3",
+        "1/5",
+        "-1/7",
+        "1/11"
+      ],
+      "zero_ricci_components": 16,
+      "frequency_transport": true,
+      "wrong_sign_rejected": true,
+      "missing_quadratic_rejected": true,
+      "nonzero_tide_components": 16
+    },
+    {
+      "point": [
+        "-1/4",
+        "1/7",
+        "1/3",
+        "-1/9"
+      ],
+      "zero_ricci_components": 16,
+      "frequency_transport": true,
+      "wrong_sign_rejected": true,
+      "missing_quadratic_rejected": true,
+      "nonzero_tide_components": 16
+    },
+    {
+      "point": [
+        "1/2",
+        "-1/6",
+        "1/8",
+        "1/5"
+      ],
+      "zero_ricci_components": 16,
+      "frequency_transport": true,
+      "wrong_sign_rejected": true,
+      "missing_quadratic_rejected": true,
+      "nonzero_tide_components": 16
+    }
+  ],
+  "immersion_metric": "Matrix([[-1, 0], [0, cosh(tt)**2]])",
+  "II_frame": [
+    "1",
+    "-1",
+    "0"
+  ],
+  "both_null_II_vanish": true,
+  "nonzero_gauss_correction": "-1",
+  "author_code_exposure": false
+}

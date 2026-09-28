@@ -1,0 +1,63 @@
+{
+  "status": "PASS",
+  "python": "3.10.12 (main, Aug 31 2026, 10:18:17) [GCC 11.4.0]",
+  "sympy": "1.13.1",
+  "exact_check_count": 31,
+  "checks": [
+    "generic_shifted_curvature_from_coordinate_Riemann",
+    "orthonormal_u",
+    "orthonormal_n",
+    "orthogonal_frame",
+    "reciprocal_density",
+    "observer_acceleration_0",
+    "observer_acceleration_1",
+    "spatial_observer_deformation_0",
+    "spatial_observer_deformation_1",
+    "null_-1",
+    "null_nonaffinity_-1_0",
+    "null_nonaffinity_-1_1",
+    "null_1",
+    "null_nonaffinity_1_0",
+    "null_nonaffinity_1_1",
+    "cross_null_clock_curvature",
+    "calibrated_acceleration",
+    "calibrated_expansion",
+    "full_calibrated_scalar_identity",
+    "reciprocal_restricted_PDE",
+    "principal_Ftt",
+    "principal_Fxx_positive",
+    "elliptic_linearized_mode",
+    "embedding_metric_tt",
+    "embedding_metric_tx",
+    "embedding_metric_xx",
+    "embedding_normal_unit",
+    "Gauss_with_nonzero_extrinsic_term",
+    "embedding_both_null_normal_accelerations_-1",
+    "embedding_both_null_normal_accelerations_1",
+    "embedding_induced_tide_minus_one"
+  ],
+  "wrong_formula_rejections": [
+    {
+      "name": "omit_time_derivative_of_shift",
+      "nonzero_residual": "1"
+    },
+    {
+      "name": "omit_time_dependent_ruler_calibration",
+      "nonzero_residual": "-1"
+    },
+    {
+      "name": "reverse_curvature_sign",
+      "nonzero_residual": "2"
+    },
+    {
+      "name": "equate_induced_to_flat_ambient_tide",
+      "nonzero_residual": "-1"
+    },
+    {
+      "name": "insert_hyperbolic_spatial_sign",
+      "nonzero_residual": "2"
+    }
+  ],
+  "principal_symbol": "xi_t^2 + F^-2 xi_x^2 (F>0)",
+  "scope": "Generic local shifted two-metric identities; labeled controls; no field-law selection"
+}

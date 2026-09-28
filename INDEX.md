@@ -42,6 +42,10 @@ G388--G389 conditional, compact-sector mixed-C2/analytic-local tangent limits; o
 
 ## Founding, relational and response sources
 
+- CRD1 constructive clock-curvature derivation, reviewed conditional UNPROMOTED:
+  `udt_clock_curvature_derivation_2026-09-28/DECISION_BRIEF.md`.
+  Exact geometric identities and a scoped failed scalar-evolution shortcut;
+  native response identification remains OPEN. Full argument/review: REVIEWED_RESULT.
 - CGW1 common-geometry whiteboard, reviewed conditional UNPROMOTED:
   `udt_common_geometry_whiteboard_2026-09-28/DECISION_BRIEF.md`.
   Exact clock/screen restrictions and a scoped drift discriminator; full sources,

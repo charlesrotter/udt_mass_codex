@@ -1,0 +1,31 @@
+{
+  "utc": "2026-09-28T14:38:49.905358+00:00",
+  "review_type": "same-context final documentation fidelity; no new scientific pass",
+  "targets": {
+    "LIVE.md": "81c62db06bbb61bcc867c7d0c194d723cb9dcde26c672adc50eb03d18d838c6f",
+    "HANDOFF.md": "20eb8e42dd574e4b19c3fcce94dfa444ba7ce60674980ad1f173b52e2534e213",
+    "CURRENT_RESEARCH_PROGRAM.md": "22c055b0f740c8289de8a027ae0a29bdc4c301843f03bb3ed9a32ea92ec3dc16",
+    "UDT_RESEARCH_ROADMAP.md": "e25169289b54a79272e1c9cde9d748793742473d540ee533fbb76fd3e0da7cd3",
+    "INDEX.md": "d3eab2afbadcf7acb6fef051b26a69b4cfaba60855148b0b83c1bfb3e518fd56",
+    "MEMORY.md": "002dc3122f2d39e557723ab0536db35ae7ff1fe82476542ee3b2db73fed52858",
+    "udt_clock_curvature_derivation_2026-09-28/DECISION_BRIEF.md": "f60b832be292295b1668882d7587e84f9b0a80ffc8ed6fe8c320d8530e5a076e",
+    "udt_clock_curvature_derivation_2026-09-28/REVIEWED_RESULT.md": "0afd91a8305d0f3cb6de78b0c5a275b861b15bd02db00900b7f3648eed28d852",
+    "udt_clock_curvature_derivation_2026-09-28/CLOSEOUT.md": "404c219a78257c0929739d359720f738625de3ed6c371da9f843e28bff3c1f18"
+  },
+  "target_mismatches": [],
+  "construction_entries_checked": 27,
+  "construction_mismatches": [],
+  "sources": {
+    "udt_clock_curvature_derivation_2026-09-28/INITIAL_DERIVATION.md": "e896d9e7044ed936c82c4c2d5f83a97bf00f8a6732997c0d57e0442413324201",
+    "udt_clock_curvature_derivation_2026-09-28/INITIAL_LAY_BRIEF.md": "fdb5c5448f81c020df644b68e095210e829fde46ffacce958310e181368e33b2",
+    "udt_clock_curvature_derivation_2026-09-28/review/REVIEW.md": "0cc0da6c8440879771287a431696559f600ce8c3fbbee87379f68326d0311287",
+    "udt_clock_curvature_derivation_2026-09-28/review/SOURCE_FIRST_SEAL.sha256": "4c36b7d1c265e1ba8a3566122c5a9670ac420a8ce29b370dcc2e0b93ed13fecf",
+    "udt_clock_curvature_derivation_2026-09-28/CONSTRUCTION_MANIFEST.json": "b8dff4876ea3c145148a19b8e0366279798c36733e8c6cf895e7d0726b206de0",
+    "udt_clock_curvature_derivation_2026-09-28/DOCUMENTATION_FREEZE.json": "9011197ca645e940db10718d83cb8a95f3878021616b0681331ddc3449eabd7c",
+    "udt_clock_curvature_derivation_2026-09-28/checks/final_startup.json": "a7c993413bb0d6fec6621d7e02860cdbbd06a3a30e771bd04cd48d5fe5e38351",
+    "udt_clock_curvature_derivation_2026-09-28/checks/final_startup.stdout": "e5cb35072c079d44553f058249938b3eb11d81e8970547cfbfc0795bfdaf3186",
+    "udt_clock_curvature_derivation_2026-09-28/checks/final_preservation.json": "e5dfe9b31a72f21c56faeaf5c42f6a7c211f0f0b52449cf9c21dc7262ba73871",
+    "udt_clock_curvature_derivation_2026-09-28/checks/final_preservation.stdout": "a2e8151e1ddac35135c2c1254f90355f51eeefd94f015c321555cec661b459d4"
+  },
+  "final_fidelity_sha256": "5372b830ee690a21dc925db88385bfd143e9b235bbb9b723e9247fc0099f17d6"
+}

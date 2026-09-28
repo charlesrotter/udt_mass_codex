@@ -12,11 +12,13 @@ retains relative-motion Doppler and gravity. July lead reviewed/UNPROMOTED:
 `udt_july_optical_time_dilation_lead_2026-09-28/DECISION_BRIEF.md`.
 Its stationary reversal is not a generic UDT law; physical clock-map data remain open.
 
-CGW1 reviewed conditional UNPROMOTED; bounded whiteboard/review complete:
-`udt_common_geometry_whiteboard_2026-09-28/DECISION_BRIEF.md`.
-Exact clock/screen compatibility and a finite-source drift discriminator;
-conditional comparison classes select no native law or physical asymptote.
-Full review/limits: its REVIEWED_RESULT and CLOSEOUT. Stop for discussion.
+CRD1 reviewed conditional UNPROMOTED; constructive derivation/review complete:
+`udt_clock_curvature_derivation_2026-09-28/DECISION_BRIEF.md`.
+Exact shifted-pair/full4D clock-curvature identities; restricted scalar equation
+is elliptic under prescribed derivative-free curvature, not standalone causal
+evolution. A larger-system constraint role remains possible. Native response
+identification remains OPEN. Full review/limits: REVIEWED_RESULT and CLOSEOUT.
+Stop for discussion. Prior CGW1 clock/screen and drift results remain; see INDEX.
 
 OFS1 reviewed empirical/conditional UNPROMOTED return:
 `udt_observation_guided_function_search_2026-09-28/DECISION_BRIEF.md`.

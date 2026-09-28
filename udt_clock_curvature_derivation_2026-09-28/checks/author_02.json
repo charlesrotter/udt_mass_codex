@@ -1,0 +1,14 @@
+{
+  "command": [
+    "python3",
+    "udt_clock_curvature_derivation_2026-09-28/check_derivation.py"
+  ],
+  "cwd": "/home/udt-admin/udt_mass_codex",
+  "started_utc": "2026-09-28T14:26:21.539330+00:00",
+  "duration_seconds": 4.178119610005524,
+  "returncode": 0,
+  "timeout": false,
+  "address_space_bytes": 2147483648,
+  "cpu_seconds": 900,
+  "maxrss_kib": 54160
+}

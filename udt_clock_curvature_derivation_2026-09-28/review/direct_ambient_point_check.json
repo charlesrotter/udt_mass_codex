@@ -1,0 +1,14 @@
+{
+  "command": [
+    "python3",
+    "udt_clock_curvature_derivation_2026-09-28/review/direct_ambient_point_check.py"
+  ],
+  "cwd": "/home/udt-admin/udt_mass_codex",
+  "started_utc": "2026-09-28T14:31:17.606285+00:00",
+  "duration_seconds": 2.6657401849952294,
+  "returncode": 0,
+  "timeout": false,
+  "address_space_bytes": 1610612736,
+  "cpu_seconds": 300,
+  "maxrss_kib": 51728
+}

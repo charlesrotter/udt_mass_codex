@@ -1,0 +1,34 @@
+Traceback (most recent call last):
+  File "/home/udt-admin/udt_mass_codex/udt_clock_curvature_derivation_2026-09-28/review/direct_ambient_check.py", line 27, in <module>
+    ricci_identity=(convM+M*M-gradA+tide).applyfunc(cancel)
+  File "/home/udt-admin/.local/lib/python3.10/site-packages/sympy/matrices/matrixbase.py", line 2110, in applyfunc
+    return self._eval_applyfunc(f)
+  File "/home/udt-admin/.local/lib/python3.10/site-packages/sympy/matrices/matrixbase.py", line 2042, in _eval_applyfunc
+    valmap = {v: f(v) for v in dok.values()}
+  File "/home/udt-admin/.local/lib/python3.10/site-packages/sympy/matrices/matrixbase.py", line 2042, in <dictcomp>
+    valmap = {v: f(v) for v in dok.values()}
+  File "/home/udt-admin/.local/lib/python3.10/site-packages/sympy/polys/polytools.py", line 7182, in cancel
+    R, (F, G) = sring((p, q), *gens, **args)
+  File "/home/udt-admin/.local/lib/python3.10/site-packages/sympy/polys/rings.py", line 163, in sring
+    reps, opt = _parallel_dict_from_expr(exprs, opt)
+  File "/home/udt-admin/.local/lib/python3.10/site-packages/sympy/polys/polyutils.py", line 344, in _parallel_dict_from_expr
+    exprs = [ expr.expand() for expr in exprs ]
+  File "/home/udt-admin/.local/lib/python3.10/site-packages/sympy/polys/polyutils.py", line 344, in <listcomp>
+    exprs = [ expr.expand() for expr in exprs ]
+  File "/home/udt-admin/.local/lib/python3.10/site-packages/sympy/core/cache.py", line 72, in wrapper
+    retval = cfunc(*args, **kwargs)
+  File "/home/udt-admin/.local/lib/python3.10/site-packages/sympy/core/expr.py", line 3673, in expand
+    expr, hit = Expr._expand_hint(expr, hint, deep=deep, **hints)
+  File "/home/udt-admin/.local/lib/python3.10/site-packages/sympy/core/expr.py", line 3604, in _expand_hint
+    arg, arghit = Expr._expand_hint(arg, hint, **hints)
+  File "/home/udt-admin/.local/lib/python3.10/site-packages/sympy/core/expr.py", line 3604, in _expand_hint
+    arg, arghit = Expr._expand_hint(arg, hint, **hints)
+  File "/home/udt-admin/.local/lib/python3.10/site-packages/sympy/core/expr.py", line 3612, in _expand_hint
+    newexpr = getattr(expr, hint)(**hints)
+  File "/home/udt-admin/.local/lib/python3.10/site-packages/sympy/core/power.py", line 1101, in _eval_expand_multinomial
+    expansion_dict = multinomial_coefficients(len(p), n)
+  File "/home/udt-admin/.local/lib/python3.10/site-packages/sympy/ntheory/multinomial.py", line 93, in multinomial_coefficients
+    return dict(multinomial_coefficients_iterator(m, n))
+  File "/home/udt-admin/.local/lib/python3.10/site-packages/sympy/ntheory/multinomial.py", line 186, in multinomial_coefficients_iterator
+    t1 = _tuple(t)
+MemoryError

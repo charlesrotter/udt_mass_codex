@@ -14,6 +14,33 @@ Current acceptance overlay: earlier UNPROMOTED/campaign-only language below reco
 returns. The G383--G412, G413--G415 and G416--G423 banking packets and maintained checkpoint own later dispositions;
 original result packages remain unchanged. No physical adoption or canon is included.
 
+## Constructive clock-curvature derivation — 2026-09-28
+
+Charles: “proceed. time to derive.” This authorized the offered construction
+attempt with independent checking and a derived relation or precise obstruction
+as return. Scope: `udt_clock_curvature_derivation_2026-09-28/WORK_ORDER.md`.
+CRD1 returned reviewed conditional UNPROMOTED after exact construction and fresh
+source-first adversarial review, with no scientific repair required. Lay return:
+`udt_clock_curvature_derivation_2026-09-28/DECISION_BRIEF.md`.
+
+The full shifted pair yields an explicit nonlinear relation between both
+received-clock gradients and induced curvature, retaining changing ruler
+calibration and shift. A full4D Ricci-commutation identity connects observer
+strain, acceleration and ambient tides. These are geometric identities, not a
+selected response law. The restricted unshifted reciprocal scalar equation is
+elliptic when curvature is supplied as derivative-free forcing; it cannot alone
+serve as hyperbolic Cauchy evolution, though it may be a constraint in a larger
+system. Pair bending and transverse geometry remain explicit.
+
+DDR constrains E[g], but this calculation does not identify E with Ricci or
+the query-dependent tide. The existing G301 implication stays conditional;
+native response ownership remains unclosed. This is not an impossibility theorem
+or proof that another physical premise is necessary. No physics/canon/grades
+changed. REVIEWED_RESULT and CLOSEOUT preserve full hypotheses, checks, failed
+symbolic runs, review exposure and the two final clarifications. Return for
+discussion; no automatic successor. Further work should address the identified
+response step rather than repeat these identities as a new dynamics result.
+
 ## Reviewed common-geometry whiteboard — 2026-09-28
 
 Charles authorized the concrete four-hour scope with “proceed”:

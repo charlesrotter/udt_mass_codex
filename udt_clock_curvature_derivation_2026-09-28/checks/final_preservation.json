@@ -1,0 +1,15 @@
+{
+  "command": [
+    "python3",
+    "-c",
+    "from pathlib import Path\nimport hashlib,json,subprocess\np=Path(\"udt_clock_curvature_derivation_2026-09-28\")\nlaunch=json.loads((p/\"LAUNCH.json\").read_text())\nmanifest=json.loads((p/\"CONSTRUCTION_MANIFEST.json\").read_text())\nsha=lambda data:hashlib.sha256(data).hexdigest()\nroot_changes={\"LIVE.md\",\"HANDOFF.md\",\"CURRENT_RESEARCH_PROGRAM.md\",\"UDT_RESEARCH_ROADMAP.md\",\"INDEX.md\",\"MEMORY.md\"}\nfor n,h in launch[\"source_sha256\"].items():\n    data=(subprocess.check_output([\"git\",\"show\",launch[\"head\"]+\":\"+n]) if n in root_changes else Path(n).read_bytes())\n    assert sha(data)==h,n\nfor n,r in manifest[\"files\"].items():\n    assert sha((p/n).read_bytes())==r[\"sha256\"],n\nsealed=0\nfor row in (p/\"review/SOURCE_FIRST_SEAL.sha256\").read_text().splitlines():\n    h,n=row.split(None,1);n=n.strip()\n    assert sha(Path(n).read_bytes())==h,n\n    sealed+=1\ndoc=json.loads((p/\"DOCUMENTATION_FREEZE.json\").read_text())\nfor n,h in doc[\"files\"].items(): assert sha(Path(n).read_bytes())==h,n\nchanged=set(subprocess.check_output([\"git\",\"diff\",\"--name-only\"],text=True).splitlines())\nassert changed==root_changes,changed\nassert not subprocess.check_output([\"git\",\"diff\",\"--cached\",\"--name-only\"])\ncurrent=set(filter(None,subprocess.check_output([\"git\",\"ls-files\",\"--others\",\"--exclude-standard\",\"-z\"],text=True).split(\"\\0\")))\nprevious=set(launch[\"preexisting_untracked_paths\"])\nassert {n for n in current if not n.startswith(str(p)+\"/\")}==previous\nassert subprocess.check_output([\"git\",\"rev-parse\",\"HEAD\"],text=True).strip()==launch[\"head\"]\nstyle=[]\nfor f in list(p.rglob(\"*.md\"))+[Path(n) for n in root_changes]:\n    for i,line in enumerate(f.read_text().splitlines(),1):\n        if line.rstrip()!=line:style.append([str(f),i])\nassert not style,style\nprint(json.dumps({\"status\":\"PASS\",\"source_versions\":len(launch[\"source_sha256\"]),\"maintained_baseline_sources_via_git\":2,\"immutable_author_files\":len(manifest[\"files\"]),\"sealed_source_first_files\":sealed,\"frozen_final_documentation\":len(doc[\"files\"]),\"tracked_changes\":sorted(changed),\"preexisting_untracked_names_preserved\":len(previous),\"untracked_payloads_not_read\":True,\"index_empty_before_staging\":True,\"markdown_whitespace_findings\":style},indent=2))\n"
+  ],
+  "cwd": "/home/udt-admin/udt_mass_codex",
+  "started_utc": "2026-09-28T14:38:26.509623+00:00",
+  "duration_seconds": 0.06774321099510416,
+  "returncode": 0,
+  "timeout": false,
+  "address_space_bytes": 1073741824,
+  "cpu_seconds": 300,
+  "maxrss_kib": 17088
+}

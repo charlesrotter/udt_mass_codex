@@ -87,16 +87,22 @@ Follow AGENTS; report actual instructions/checks and distinguish configured from
 Dated availability check COMPLETE: `archive/stale_working_documents_2026-09-27/maintenance_agent_capacity_2026-09-10.md`.
 General capacity UNVERIFIED; no automatic repeat. FSR1/PJC1 supplied no new field equation; Maxwell PAUSED.
 
-Next: CGW1 common-geometry whiteboard is reviewed conditional UNPROMOTED; its
-bounded construction, cross-critique and fresh-review cycle is complete:
-`udt_common_geometry_whiteboard_2026-09-28/DECISION_BRIEF.md`.
-Exact conformal clock/screen compatibility and all-direction potential tests
-survive at their declared scopes. A specified same-cone degeneracy is separated
-by finite-source clock drift or local timelike tides. Conditional Einstein
-restrictions are comparison mathematics, not native response ownership.
-REVIEWED_RESULT and CLOSEOUT own the whole review, limits and checks.
+Next: CRD1 constructive clock-curvature derivation is reviewed conditional UNPROMOTED;
+its bounded construction, exact-check and fresh-review cycle is complete:
+`udt_clock_curvature_derivation_2026-09-28/DECISION_BRIEF.md`.
+Full shifted-pair and four-dimensional clock-curvature identities are derived.
+They do not select native dynamics. Prescribing curvature in the restricted
+unshifted reciprocal scalar class gives an elliptic relation, not a standalone
+hyperbolic evolution; a constraint role in a larger system remains possible.
+Ambient curvature, pair bending and observer data are kept distinct. DDR still
+leaves native response identification unclosed; no Ricci substitution is adopted.
+REVIEWED_RESULT and CLOSEOUT own review, failures, qualifications and checks.
 Native selection, measured local GR precision and physical asymptotic completion
 remain OPEN. No premise, scientific grade, canon or successor is adopted.
+
+Prior CGW1 reviewed conditional UNPROMOTED return:
+`udt_common_geometry_whiteboard_2026-09-28/DECISION_BRIEF.md`.
+Its clock/screen restrictions and scoped drift discriminator remain unchanged.
 
 Prior OFS1 reviewed empirical/conditional UNPROMOTED return:
 `udt_observation_guided_function_search_2026-09-28/DECISION_BRIEF.md`.
@@ -109,6 +115,6 @@ future-return rule, preferred observer or required Hubble expansion.
 DCR1 reviewed conditional UNPROMOTED: directional clocks permit central tides in its supplied static class
 under full G301 at an eligible center; no neighborhood field equation; FE1 UNADOPTED.
 G312 membership/native admission unclosed; response identification OPEN; G352 physical-realization: physical identification remains OPEN.
-Stop for lay discussion. CGW1 is complete; no new campaign is authorized;
+Stop for lay discussion. CRD1 is complete; no new campaign is authorized;
 work order and return gates: `UDT_RESEARCH_ROADMAP.md`.
 <!-- STARTUP_CURRENT_END -->

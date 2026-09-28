@@ -1,0 +1,35 @@
+{
+  "sealed_utc": "2026-09-28T14:23:35.677852+00:00",
+  "agent": "/root/crd_review",
+  "runtime_description": "Codex, based on GPT-6 (developer text); exact model revision not exposed",
+  "context": "actual separate review context; source-first before parent candidate/code/results",
+  "model_independence": "not attested; no different-model claim",
+  "argument": "source-first Cartan derivation and coordinate Christoffel/Ricci verification",
+  "implementation": "reviewer-authored Python; no author code read",
+  "exposure": [
+    "assigned target and work order",
+    "current premise summary",
+    "G176 and G220 exact derivations",
+    "G310 exact derivation/adoption overlay",
+    "current G312 authority",
+    "method protocols",
+    "parent message with capture utility path and pending audit"
+  ],
+  "not_exposed": [
+    "parent CRD1 candidate",
+    "parent scientific scripts/results",
+    "CGW1 synthesis",
+    "prior CRD1 verdict"
+  ],
+  "head": "653c9a5779eb6e2919d3103edb8ae2cb787dcb1f",
+  "branch": "grok",
+  "startup": "parent-attributed continuing-session startup and sync; branch/hash/status independently checked",
+  "premise_audit": "parent reported running; no pass claimed at sealing",
+  "resources": {
+    "cpu_processes": 1,
+    "memory_mib": 1536,
+    "source_first_budget_minutes": 15,
+    "review_budget_minutes": 30,
+    "gpu": false
+  }
+}

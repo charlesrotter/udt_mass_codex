@@ -1,0 +1,20 @@
+{
+  "status": "PASS",
+  "source_versions": 22,
+  "maintained_baseline_sources_via_git": 2,
+  "immutable_author_files": 27,
+  "sealed_source_first_files": 8,
+  "frozen_final_documentation": 9,
+  "tracked_changes": [
+    "CURRENT_RESEARCH_PROGRAM.md",
+    "HANDOFF.md",
+    "INDEX.md",
+    "LIVE.md",
+    "MEMORY.md",
+    "UDT_RESEARCH_ROADMAP.md"
+  ],
+  "preexisting_untracked_names_preserved": 52,
+  "untracked_payloads_not_read": true,
+  "index_empty_before_staging": true,
+  "markdown_whitespace_findings": []
+}

@@ -1,0 +1,114 @@
+{
+  "utc": "2026-09-28T14:27:14.428817+00:00",
+  "scope": "immutable initial construction and checks, before direct candidate review; reviewer source-first already sealed",
+  "files": {
+    "CHECK_PLAN.md": {
+      "sha256": "9de550409125c611a822833c8acdf4da2e504bc495eda0e9034da7860e64d9a9",
+      "bytes": 1980
+    },
+    "CHECK_REPAIR.md": {
+      "sha256": "48e64419bf5ba2c61281d2889a26c4589e2d31d471a9aa48af8524dbffa42e6e",
+      "bytes": 884
+    },
+    "INITIAL_DERIVATION.md": {
+      "sha256": "e896d9e7044ed936c82c4c2d5f83a97bf00f8a6732997c0d57e0442413324201",
+      "bytes": 11967
+    },
+    "INITIAL_LAY_BRIEF.md": {
+      "sha256": "fdb5c5448f81c020df644b68e095210e829fde46ffacce958310e181368e33b2",
+      "bytes": 1376
+    },
+    "LAUNCH.json": {
+      "sha256": "a82823460219ea1f1ccfd87fa694dc39054bca3aa563b195fccb8d64bf98ab60",
+      "bytes": 7551
+    },
+    "METHOD_SOURCES.md": {
+      "sha256": "ca558d5b36cde20a6e1e59dd541930d547cc07bff4b363fd45ec16463b32e4b4",
+      "bytes": 983
+    },
+    "SCOPED_REGISTRY.json": {
+      "sha256": "b54a3258aaa0f6eb01b4c934265b54208b65010bfa85822c469a678b1748fc2f",
+      "bytes": 21852
+    },
+    "WORK_ORDER.md": {
+      "sha256": "58e628a377276a6e8c10e9268a1edb0f8afcd42a8a592cab54824812661b6ed4",
+      "bytes": 5091
+    },
+    "check_derivation.py": {
+      "sha256": "cccb15bf5c04aee2b924dfc1570d5a79e2d0b0f210f09fc40a4d1fb27e89cf41",
+      "bytes": 5965
+    },
+    "check_four_geometry.py": {
+      "sha256": "9daa3043f0c8fb7e2c95a1a2aa8be144318626829384767d7868c05a369f927e",
+      "bytes": 3352
+    },
+    "checks/author_01.capture_provenance.json": {
+      "sha256": "fc6abdcdcb1848c319ba85200011820c9dee765e4412c2afc5c71106ee7461fc",
+      "bytes": 919
+    },
+    "checks/author_01.json": {
+      "sha256": "931d7a4de3907142d6329d3bd3b465afe3432158a5939d0bd920c75f1fed0ad0",
+      "bytes": 364
+    },
+    "checks/author_01.stderr": {
+      "sha256": "402d2bedc69f6102b0f4bd356c319b3cf9591583ce5937e5fb90fe509c4ec39d",
+      "bytes": 496
+    },
+    "checks/author_01.stdout": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    "checks/author_02.capture_provenance.json": {
+      "sha256": "fc6abdcdcb1848c319ba85200011820c9dee765e4412c2afc5c71106ee7461fc",
+      "bytes": 919
+    },
+    "checks/author_02.json": {
+      "sha256": "410a93a88e65af9486b7a41c8440715dbad19ae1ac435bd40df1f902482bb6d3",
+      "bytes": 364
+    },
+    "checks/author_02.stderr": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    "checks/author_02.stdout": {
+      "sha256": "a46ace0905fa67849de6ab41ab29b15159373c4d37511ed34fdd1500f2001ca6",
+      "bytes": 1773
+    },
+    "checks/four_geometry_01.capture_provenance.json": {
+      "sha256": "269a8957e4697fe435aa791419d0f7849926ea1fad62d37f54850f980b03dfdf",
+      "bytes": 922
+    },
+    "checks/four_geometry_01.json": {
+      "sha256": "38fc961d270311cb6aadf39341d5522c524a32c6063ca3f43e5bcea9ddac0f3c",
+      "bytes": 369
+    },
+    "checks/four_geometry_01.stderr": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    "checks/four_geometry_01.stdout": {
+      "sha256": "8680c1da03af588a788f346d22b3d81c42dfa040a051f867f7065205f800da01",
+      "bytes": 1289
+    },
+    "checks/premise_audit.capture_provenance.json": {
+      "sha256": "422af293cd240c74bb2420052a0cb0885da49fd0fa76b2cbdc53bd100c0c6a4e",
+      "bytes": 895
+    },
+    "checks/premise_audit.json": {
+      "sha256": "4208f60235c51c210f5f29b843b763b5b8bf69d9b351da2352a34a6534108f7a",
+      "bytes": 342
+    },
+    "checks/premise_audit.stderr": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    "checks/premise_audit.stdout": {
+      "sha256": "394e02c4ced55fc8f6480a3cc65b9ebd38f9c0cb553f897b10313b8ad2104b53",
+      "bytes": 3500
+    },
+    "initial_check/check_derivation.py": {
+      "sha256": "440f3dc54981109e9e48afae28eb2f52f1c9df55833683ec700ced6c6ec2bb40",
+      "bytes": 5787
+    }
+  }
+}

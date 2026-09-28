@@ -1,0 +1,66 @@
+{
+  "status": "PASS",
+  "sympy": "1.13.1",
+  "exact_points": [
+    {
+      "point": [
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "unit_observer": true,
+      "all_16_Ricci_identity_components_zero": true,
+      "nonzero_tidal_components": 7
+    },
+    {
+      "point": [
+        "1/4",
+        "-1/5",
+        "0",
+        "0"
+      ],
+      "unit_observer": true,
+      "all_16_Ricci_identity_components_zero": true,
+      "nonzero_tidal_components": 10
+    },
+    {
+      "point": [
+        "-1/6",
+        "1/7",
+        "1/8",
+        "1/9"
+      ],
+      "unit_observer": true,
+      "all_16_Ricci_identity_components_zero": true,
+      "nonzero_tidal_components": 10
+    }
+  ],
+  "wrong_formula_rejections": [
+    {
+      "point": 0,
+      "reversed_tidal_sign_first_residual": [
+        1,
+        1,
+        "-40/1089"
+      ]
+    },
+    {
+      "point": 1,
+      "reversed_tidal_sign_first_residual": [
+        0,
+        1,
+        "-15667314776/2469610433704293"
+      ]
+    },
+    {
+      "point": 2,
+      "reversed_tidal_sign_first_residual": [
+        0,
+        1,
+        "-501878224825986576952/3778995327799940750684259"
+      ]
+    }
+  ],
+  "scope": "3 supplied rational points verify implementation, not general theorem or physical admission"
+}

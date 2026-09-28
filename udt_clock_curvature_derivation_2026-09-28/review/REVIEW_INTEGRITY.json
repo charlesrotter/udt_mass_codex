@@ -1,0 +1,17 @@
+{
+  "utc": "2026-09-28T14:34:45.809817+00:00",
+  "head": "653c9a5779eb6e2919d3103edb8ae2cb787dcb1f",
+  "branch": "grok",
+  "construction_manifest_entries": 27,
+  "construction_mismatches": [],
+  "source_first_seal_mismatches": [],
+  "premise_audit_observed": "parent captured exit0 and 406-row pass; not independently rerun",
+  "candidate_sha256": "e896d9e7044ed936c82c4c2d5f83a97bf00f8a6732997c0d57e0442413324201",
+  "lay_sha256": "fdb5c5448f81c020df644b68e095210e829fde46ffacce958310e181368e33b2",
+  "verdict": "VERIFIED-WITH-CAVEATS",
+  "limits": [
+    "restricted forced scalar equation may be a constraint in larger system",
+    "parallel screen Jacobi equation uses transverse data",
+    "generic4D symbolic attempt hit memory limit; exact finite jets and analytic argument used"
+  ]
+}

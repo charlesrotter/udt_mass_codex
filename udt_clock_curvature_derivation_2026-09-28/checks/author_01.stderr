@@ -1,0 +1,6 @@
+Traceback (most recent call last):
+  File "/home/udt-admin/udt_mass_codex/udt_clock_curvature_derivation_2026-09-28/check_derivation.py", line 113, in <module>
+    zero('Gauss_with_nonzero_extrinsic_term', ts-(II00*II11-II01**2))
+  File "/home/udt-admin/udt_mass_codex/udt_clock_curvature_derivation_2026-09-28/check_derivation.py", line 14, in zero
+    raise AssertionError((name, value))
+AssertionError: ('Gauss_with_nonzero_extrinsic_term', (sinh(2*t)*tanh(t) - cosh(2*t) + 1)/(2*cosh(t)**2))

@@ -1,0 +1,26 @@
+{
+  "source": "udt_shared_readout_metric_constraint_campaign_2026-09-06/run_capture.py",
+  "source_sha256": "8ff5469ace76bdfc84188915242abbf3baff35516f9ee3f9ba4b1cbfeb2573ef",
+  "adapted_capture_sha256": "0510611ea521df0539d8d67f033837aab39bbaa144e6a6b8d65adeaa1e0b0d1a",
+  "wrapper_sha256": "1b95a783e861a52cc9fc50d3c76c152cb3673fc9045372afafd30da269ffec3f",
+  "replacements": {
+    "(512 * 1024**2, 512 * 1024**2)": "(1536 * 1024**2, 1536 * 1024**2)",
+    "(60, 60)": "(300, 300)",
+    "timeout=60": "timeout=300",
+    "address_space_bytes=512 * 1024**2": "address_space_bytes=1536 * 1024**2",
+    "cpu_seconds=60": "cpu_seconds=300"
+  },
+  "thread_environment": {
+    "OMP_NUM_THREADS": "1",
+    "OPENBLAS_NUM_THREADS": "1",
+    "MKL_NUM_THREADS": "1"
+  },
+  "limits": {
+    "seconds": 300,
+    "mib": 1536
+  },
+  "command": [
+    "python3",
+    "udt_clock_curvature_derivation_2026-09-28/review/direct_pair_check.py"
+  ]
+}

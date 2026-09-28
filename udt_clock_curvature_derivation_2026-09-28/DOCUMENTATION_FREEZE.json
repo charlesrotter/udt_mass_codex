@@ -1,0 +1,15 @@
+{
+  "utc": "2026-09-28T14:37:39.216088+00:00",
+  "scope": "Final documentation target for same-context fidelity review after scientific review; not a new independent scientific pass",
+  "files": {
+    "LIVE.md": "81c62db06bbb61bcc867c7d0c194d723cb9dcde26c672adc50eb03d18d838c6f",
+    "HANDOFF.md": "20eb8e42dd574e4b19c3fcce94dfa444ba7ce60674980ad1f173b52e2534e213",
+    "CURRENT_RESEARCH_PROGRAM.md": "22c055b0f740c8289de8a027ae0a29bdc4c301843f03bb3ed9a32ea92ec3dc16",
+    "UDT_RESEARCH_ROADMAP.md": "e25169289b54a79272e1c9cde9d748793742473d540ee533fbb76fd3e0da7cd3",
+    "INDEX.md": "d3eab2afbadcf7acb6fef051b26a69b4cfaba60855148b0b83c1bfb3e518fd56",
+    "MEMORY.md": "002dc3122f2d39e557723ab0536db35ae7ff1fe82476542ee3b2db73fed52858",
+    "udt_clock_curvature_derivation_2026-09-28/DECISION_BRIEF.md": "f60b832be292295b1668882d7587e84f9b0a80ffc8ed6fe8c320d8530e5a076e",
+    "udt_clock_curvature_derivation_2026-09-28/REVIEWED_RESULT.md": "0afd91a8305d0f3cb6de78b0c5a275b861b15bd02db00900b7f3648eed28d852",
+    "udt_clock_curvature_derivation_2026-09-28/CLOSEOUT.md": "404c219a78257c0929739d359720f738625de3ed6c371da9f843e28bff3c1f18"
+  }
+}

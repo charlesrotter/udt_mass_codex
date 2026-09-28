@@ -1,0 +1,15 @@
+{
+  "command": [
+    "python3",
+    "-c",
+    "from pathlib import Path; from verify_current_scientific_premises import validate_startup_surface; validate_startup_surface(Path.cwd()); print(\"PASS: final maintained startup surfaces\")"
+  ],
+  "cwd": "/home/udt-admin/udt_mass_codex",
+  "started_utc": "2026-09-28T14:37:38.893069+00:00",
+  "duration_seconds": 0.1517079309996916,
+  "returncode": 0,
+  "timeout": false,
+  "address_space_bytes": 1073741824,
+  "cpu_seconds": 300,
+  "maxrss_kib": 30044
+}
