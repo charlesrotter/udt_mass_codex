@@ -1,0 +1,6 @@
+{
+  "utc": "2026-09-28T12:02:28.488038+00:00",
+  "freeze_sha256": "922bd3abf2184d2d9b61c63ec4d138d27fb28d56bab3259007a34a1ebdc0a636",
+  "script_sha256": "262c5f953288c9efc418381ddbecf705915df0bda0ee6cb8758c1d7da43a4be7",
+  "exposure": "initial fits and alias schema diagnostics already exposed; repaired scores not yet computed"
+}

@@ -1,9 +1,14 @@
 # Observation-guided search for native UDT functions
 
 Date: 2026-09-28. Baseline: `360c412071d74d6f4332ba5026f7138851b85361`, `grok`.
-Status: PROPOSED, not launched. Charles asked for the next step and whether his
-constraints suffice for a thorough exploration. This is the concrete proposed
-scope, not a claim of approved resources, selected physics or a discovered law.
+Status: SCIENTIFIC/REVIEW RETURN COMPLETE, reviewed conditional/empirical
+UNPROMOTED; closeout receipts are in CLOSEOUT.md. Charles's “proceeed” authorized
+construction, checks, fresh review and bounded repair/re-review. One precision
+repair/re-review cycle closed; no native law or successor is authorized.
+Launch: 2026-09-28 11:45:32 UTC; hard return: 17:45:32 UTC. Actual baseline,
+measured resources and preserved local work are recorded in LAUNCH.json.
+The committed proposal remains recoverable at `2dcec4fc`. No physical law is
+adopted by authorizing this exploration.
 The owner directions are preserved verbatim in `UDT_RESEARCH_ROADMAP.md`.
 
 ## Question and return
@@ -150,7 +155,7 @@ claim unless actually established. No external messages or human-review request.
 
 ## Resources, workspace and stopping conditions
 
-Proposed first campaign: at most six elapsed hours from recorded launch,
+Authorized first campaign: at most six elapsed hours from recorded launch,
 including review, repair and closeout; at most three simultaneous agent contexts
 including the parent. Up to two construction contexts (data and geometry),
 followed by one new reviewer context. No model overrides or subdelegation.
@@ -208,5 +213,5 @@ summaries exposed; no new target arrays downloaded or fitted):
   and [quasar variability information study](https://arxiv.org/abs/2606.01496).
   These are leads for measurement assumptions, not established UDT interfaces.
 
-Proposal validation: author source/scope check only; no campaign, substantive
-candidate review or full scientific replay has run under this work order.
+Proposal validation was author source/scope review only. Actual construction,
+review and scientific checks are recorded separately as this campaign proceeds.

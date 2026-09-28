@@ -1,0 +1,72 @@
+[
+  {
+    "url": "https://data.desi.lbl.gov/doc/releases/",
+    "path": "sources/desi_release.html",
+    "requested_utc": "2026-09-28T11:51:31.717895+00:00",
+    "status": 200,
+    "final_url": "https://data.desi.lbl.gov/doc/releases/",
+    "content_type": "text/html",
+    "bytes": 28203,
+    "sha256": "d71a5a1ddb90736e0e30f4fa6347dbb8fed5829afce4b80e71f850486f10d697"
+  },
+  {
+    "url": "https://data.desi.lbl.gov/public/papers/y3/bao-cosmo-params/README.html",
+    "path": "sources/desi_dr2_products.html",
+    "requested_utc": "2026-09-28T11:51:31.922499+00:00",
+    "status": 200,
+    "final_url": "https://data.desi.lbl.gov/public/papers/y3/bao-cosmo-params/README.html",
+    "content_type": "text/html",
+    "bytes": 28945,
+    "sha256": "0bc25ea1fd907c11ea88c14d57f031e0c268683ca15582004c4a380bb76f5627"
+  },
+  {
+    "url": "https://arxiv.org/html/2503.14738v3",
+    "path": "sources/desi_dr2_methods.html",
+    "requested_utc": "2026-09-28T11:51:32.031432+00:00",
+    "status": 200,
+    "final_url": "https://arxiv.org/html/2503.14738v3",
+    "content_type": "text/html; charset=utf-8",
+    "bytes": 1170284,
+    "sha256": "782d7b25d5a6d7195e0dc0cfdab029e49a4b05cff8263e18f843e82e9c054c49"
+  },
+  {
+    "url": "https://api.github.com/repos/CobayaSampler/bao_data/contents/desi_bao_dr2",
+    "path": "sources/desi_bao_files.json",
+    "requested_utc": "2026-09-28T11:51:32.378067+00:00",
+    "status": 200,
+    "final_url": "https://api.github.com/repos/CobayaSampler/bao_data/contents/desi_bao_dr2",
+    "content_type": "application/json; charset=utf-8",
+    "bytes": 17597,
+    "sha256": "0c73e718e0bf1b781f92a3648bb27c91528876075cc32da1a01627827eb43365"
+  },
+  {
+    "url": "https://arxiv.org/html/2501.04171v2",
+    "path": "sources/quasar_duration_methods.html",
+    "requested_utc": "2026-09-28T11:51:32.743262+00:00",
+    "status": 200,
+    "final_url": "https://arxiv.org/html/2501.04171v2",
+    "content_type": "text/html; charset=utf-8",
+    "bytes": 239603,
+    "sha256": "96166dc0419db1badc7f8515c8ddfd08cef7b0a1991c3507367c8c89009f2162"
+  },
+  {
+    "url": "https://arxiv.org/html/2606.01496v1",
+    "path": "sources/quasar_volatility_methods.html",
+    "requested_utc": "2026-09-28T11:51:33.522348+00:00",
+    "status": 200,
+    "final_url": "https://arxiv.org/html/2606.01496v1",
+    "content_type": "text/html; charset=utf-8",
+    "bytes": 397574,
+    "sha256": "6f4912ee13f49dcc97c56f35f11f580f4658af916ad29ce073aa3f5aa5849e57"
+  },
+  {
+    "url": "https://api.github.com/repos/eggplantbren/QuasarTimeDilation2/contents/",
+    "path": "sources/quasar_code_files.json",
+    "requested_utc": "2026-09-28T11:51:34.368827+00:00",
+    "status": 200,
+    "final_url": "https://api.github.com/repos/eggplantbren/QuasarTimeDilation2/contents/",
+    "content_type": "application/json; charset=utf-8",
+    "bytes": 16152,
+    "sha256": "411d3143c768facb83093b058920c0d40771141d662e09fcd3876bc58068b882"
+  }
+]

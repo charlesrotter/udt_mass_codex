@@ -1,0 +1,504 @@
+[
+  {
+    "family": "F0",
+    "n_train": 1067,
+    "n_validation": 304,
+    "train_fit": {
+      "family": "F0",
+      "n": 1067,
+      "p": 1,
+      "dof": 1066,
+      "beta": [
+        23.881782841484814
+      ],
+      "sigma": [
+        0.004862964204322225
+      ],
+      "parameter_covariance": [
+        [
+          2.364842085251929e-05
+        ]
+      ],
+      "parameter_correlation": [
+        [
+          1.0
+        ]
+      ],
+      "chi2": 1005.3516083598807,
+      "chi2_whitened": 1005.3516083598809,
+      "quadratic_agreement_abs": 1.1368683772161603e-13,
+      "chi2_reduced": 0.9431065744464172,
+      "p_upper": 0.9073727233447452,
+      "p_lower": 0.09262727665525482,
+      "aicc_without_common_constant": 1007.3553642284253,
+      "bic_without_common_constant": 1012.3242146111825,
+      "magnitude_rms": 0.1596302318302836,
+      "rank": 1,
+      "whitened_design_condition": 1.0,
+      "score_over_information_sqrt_max": 4.453926396004629e-12,
+      "optimization": null
+    },
+    "conditional_predictive_chi2": 307.42322895028144,
+    "conditional_predictive_dof": 304,
+    "conditional_predictive_p_upper": 0.4343427273530493,
+    "conditional_predictive_p_lower": 0.5656572726469508,
+    "conditional_predictive_minus2logpdf": -302.58431931340806,
+    "cross_covariance_max_abs": 0.03710219,
+    "uncertainty": "exact linear Gaussian",
+    "exposure": "same-release consistency split; not blind independent confirmation"
+  },
+  {
+    "family": "F1",
+    "n_train": 1067,
+    "n_validation": 304,
+    "train_fit": {
+      "family": "F1",
+      "n": 1067,
+      "p": 2,
+      "dof": 1065,
+      "beta": [
+        23.819952844458946,
+        0.15013093909904818
+      ],
+      "sigma": [
+        0.00846696305852929,
+        0.016829731507205736
+      ],
+      "parameter_covariance": [
+        [
+          7.168946343449968e-05,
+          -0.00011664963909204121
+        ],
+        [
+          -0.00011664963909204121,
+          0.00028323986260463346
+        ]
+      ],
+      "parameter_correlation": [
+        [
+          1.0000000000000002,
+          -0.8186128299706371
+        ],
+        [
+          -0.8186128299706371,
+          1.0
+        ]
+      ],
+      "chi2": 925.7748896470044,
+      "chi2_whitened": 925.7748896470047,
+      "quadratic_agreement_abs": 2.2737367544323206e-13,
+      "chi2_reduced": 0.8692721968516474,
+      "p_upper": 0.9991682897471169,
+      "p_lower": 0.0008317102528830911,
+      "aicc_without_common_constant": 929.7861678424931,
+      "bic_without_common_constant": 939.7201021496079,
+      "magnitude_rms": 0.15049189273790894,
+      "rank": 2,
+      "whitened_design_condition": 4.092386163670872,
+      "score_over_information_sqrt_max": 5.574497658800606e-12,
+      "optimization": null
+    },
+    "conditional_predictive_chi2": 293.9526516144672,
+    "conditional_predictive_dof": 304,
+    "conditional_predictive_p_upper": 0.6498572426774718,
+    "conditional_predictive_p_lower": 0.3501427573225282,
+    "conditional_predictive_minus2logpdf": -315.87067512620104,
+    "cross_covariance_max_abs": 0.03710219,
+    "uncertainty": "exact linear Gaussian",
+    "exposure": "same-release consistency split; not blind independent confirmation"
+  },
+  {
+    "family": "F2",
+    "n_train": 1067,
+    "n_validation": 304,
+    "train_fit": {
+      "family": "F2",
+      "n": 1067,
+      "p": 3,
+      "dof": 1064,
+      "beta": [
+        23.799388318042258,
+        0.2621251126015065,
+        -0.18687213965082938
+      ],
+      "sigma": [
+        0.01049594616156059,
+        0.03774088428078931,
+        0.05636604250911617
+      ],
+      "parameter_covariance": [
+        [
+          0.00011016488582637849,
+          -0.0003261863453417128,
+          0.00034963044422488845
+        ],
+        [
+          -0.0003261863453417128,
+          0.0014243743462959298,
+          -0.0019040833636944315
+        ],
+        [
+          0.00034963044422488845,
+          -0.0019040833636944315,
+          0.003177130748139491
+        ]
+      ],
+      "parameter_correlation": [
+        [
+          1.0,
+          -0.8234402865629812,
+          0.5909763532732254
+        ],
+        [
+          -0.8234402865629812,
+          1.0000000000000002,
+          -0.8950686437767481
+        ],
+        [
+          0.5909763532732254,
+          -0.8950686437767481,
+          1.0
+        ]
+      ],
+      "chi2": 914.7834639406086,
+      "chi2_whitened": 914.7834639406084,
+      "quadratic_agreement_abs": 2.2737367544323206e-13,
+      "chi2_reduced": 0.8597588946810232,
+      "p_upper": 0.9996440857246298,
+      "p_lower": 0.00035591427537018714,
+      "aicc_without_common_constant": 920.8060415511449,
+      "bic_without_common_constant": 935.7012826945139,
+      "magnitude_rms": 0.14836387571948453,
+      "rank": 3,
+      "whitened_design_condition": 15.067632470755132,
+      "score_over_information_sqrt_max": 4.870974525739865e-12,
+      "optimization": null
+    },
+    "conditional_predictive_chi2": 294.8046602620809,
+    "conditional_predictive_dof": 304,
+    "conditional_predictive_p_upper": 0.6366948538891295,
+    "conditional_predictive_p_lower": 0.36330514611087056,
+    "conditional_predictive_minus2logpdf": -314.78046585419304,
+    "cross_covariance_max_abs": 0.03710219,
+    "uncertainty": "exact linear Gaussian",
+    "exposure": "same-release consistency split; not blind independent confirmation"
+  },
+  {
+    "family": "F3",
+    "n_train": 1067,
+    "n_validation": 304,
+    "train_fit": {
+      "family": "F3",
+      "n": 1067,
+      "p": 4,
+      "dof": 1063,
+      "beta": [
+        23.796679814790124,
+        0.284293482509863,
+        -0.2602994856849512,
+        0.05869422839550376
+      ],
+      "sigma": [
+        0.012823540988358232,
+        0.071136973193944,
+        0.20753048409268957,
+        0.15965378735388713
+      ],
+      "parameter_covariance": [
+        [
+          0.0001644432034801036,
+          -0.0007704397619868415,
+          0.0018211120861180412,
+          -0.0011762304404809212
+        ],
+        [
+          -0.0007704397619868415,
+          0.005060468955195908,
+          -0.013947764435610506,
+          0.009627129478833289
+        ],
+        [
+          0.0018211120861180412,
+          -0.013947764435610506,
+          0.04306890182774608,
+          -0.03188753031819124
+        ],
+        [
+          -0.0011762304404809212,
+          0.009627129478833289,
+          -0.03188753031819124,
+          0.02548933181644021
+        ]
+      ],
+      "parameter_correlation": [
+        [
+          1.0,
+          -0.8445693988658544,
+          0.6843004305286248,
+          -0.5745200966580862
+        ],
+        [
+          -0.8445693988658544,
+          1.0,
+          -0.9447726714734617,
+          0.8476610053678674
+        ],
+        [
+          0.6843004305286248,
+          -0.9447726714734617,
+          1.0,
+          -0.962409186779332
+        ],
+        [
+          -0.5745200966580862,
+          0.8476610053678674,
+          -0.962409186779332,
+          1.0
+        ]
+      ],
+      "chi2": 914.6483088697834,
+      "chi2_whitened": 914.6483088697835,
+      "quadratic_agreement_abs": 1.1368683772161603e-13,
+      "chi2_reduced": 0.8604405539696928,
+      "p_upper": 0.9996186543044929,
+      "p_lower": 0.000381345695507065,
+      "aicc_without_common_constant": 922.6859736532109,
+      "bic_without_common_constant": 942.5387338749904,
+      "magnitude_rms": 0.14829716771298468,
+      "rank": 4,
+      "whitened_design_condition": 60.65883721073505,
+      "score_over_information_sqrt_max": 3.237676660904451e-12,
+      "optimization": null
+    },
+    "conditional_predictive_chi2": 294.8275389471437,
+    "conditional_predictive_dof": 304,
+    "conditional_predictive_p_upper": 0.6363394441238286,
+    "conditional_predictive_p_lower": 0.3636605558761714,
+    "conditional_predictive_minus2logpdf": -314.58886193435285,
+    "cross_covariance_max_abs": 0.03710219,
+    "uncertainty": "exact linear Gaussian",
+    "exposure": "same-release consistency split; not blind independent confirmation"
+  },
+  {
+    "family": "F4",
+    "n_train": 1067,
+    "n_validation": 304,
+    "train_fit": {
+      "family": "F4",
+      "n": 1067,
+      "p": 6,
+      "dof": 1061,
+      "beta": [
+        23.81356073447375,
+        23.839769268016575,
+        23.928838339989014,
+        23.96120204013208,
+        24.021400394257643,
+        23.9218528056435
+      ],
+      "sigma": [
+        0.0169877776112232,
+        0.009584818105752478,
+        0.009070197774723917,
+        0.016382724734321043,
+        0.04291851802002408,
+        0.1546811395742038
+      ],
+      "parameter_covariance": [
+        [
+          0.0002885845881683762,
+          -4.533613607618557e-05,
+          -9.067030060466643e-06,
+          -6.513067931109245e-05,
+          8.331708997739582e-06,
+          -0.00017461631387614293
+        ],
+        [
+          -4.533613607618557e-05,
+          9.186873812036051e-05,
+          -8.027409012580437e-06,
+          2.2148005281533754e-05,
+          -7.066966189732693e-05,
+          3.1634135951960616e-05
+        ],
+        [
+          -9.067030060466643e-06,
+          -8.027409012580437e-06,
+          8.226848767260672e-05,
+          -5.0090245708446255e-06,
+          7.011622176108472e-05,
+          -8.168413655844367e-05
+        ],
+        [
+          -6.513067931109245e-05,
+          2.2148005281533754e-05,
+          -5.0090245708446255e-06,
+          0.00026839366972053447,
+          -4.3869129600562754e-05,
+          0.00013867889974755317
+        ],
+        [
+          8.331708997739582e-06,
+          -7.066966189732693e-05,
+          7.011622176108472e-05,
+          -4.3869129600562754e-05,
+          0.001841999189035132,
+          -0.0011617466845327553
+        ],
+        [
+          -0.00017461631387614293,
+          3.1634135951960616e-05,
+          -8.168413655844367e-05,
+          0.00013867889974755317,
+          -0.0011617466845327553,
+          0.023926254939974315
+        ]
+      ],
+      "parameter_correlation": [
+        [
+          1.0,
+          -0.27843515024893384,
+          -0.058845293283532184,
+          -0.23402535176050482,
+          0.011427541538808322,
+          -0.06645243298734993
+        ],
+        [
+          -0.27843515024893384,
+          0.9999999999999999,
+          -0.0923367871544334,
+          0.14104724529557508,
+          -0.17179258737692404,
+          0.0213370678492617
+        ],
+        [
+          -0.058845293283532184,
+          -0.0923367871544334,
+          1.0000000000000002,
+          -0.03370934166327183,
+          0.18011796504115585,
+          -0.058221528494854714
+        ],
+        [
+          -0.23402535176050482,
+          0.14104724529557508,
+          -0.03370934166327183,
+          1.0,
+          -0.06239189352481778,
+          0.05472514112541339
+        ],
+        [
+          0.011427541538808322,
+          -0.17179258737692404,
+          0.18011796504115585,
+          -0.06239189352481778,
+          1.0,
+          -0.17499649948798446
+        ],
+        [
+          -0.06645243298734993,
+          0.0213370678492617,
+          -0.058221528494854714,
+          0.05472514112541339,
+          -0.17499649948798446,
+          1.0
+        ]
+      ],
+      "chi2": 912.1658206178279,
+      "chi2_whitened": 912.1658206178278,
+      "quadratic_agreement_abs": 1.1368683772161603e-13,
+      "chi2_reduced": 0.8597227338528066,
+      "p_upper": 0.9996390018965445,
+      "p_lower": 0.0003609981034555487,
+      "aicc_without_common_constant": 924.2450659008467,
+      "bic_without_common_constant": 954.0014581256384,
+      "magnitude_rms": 0.1483370735928076,
+      "rank": 6,
+      "whitened_design_condition": 18.251998284358386,
+      "score_over_information_sqrt_max": 2.2653452947244448e-12,
+      "optimization": null,
+      "knots_z": [
+        0.001,
+        0.1,
+        0.3,
+        0.6000000000000001,
+        1.0,
+        2.3
+      ]
+    },
+    "conditional_predictive_chi2": 291.4220155830096,
+    "conditional_predictive_dof": 304,
+    "conditional_predictive_p_upper": 0.6879964173661111,
+    "conditional_predictive_p_lower": 0.3120035826338889,
+    "conditional_predictive_minus2logpdf": -317.5261211432984,
+    "cross_covariance_max_abs": 0.03710219,
+    "uncertainty": "exact linear Gaussian",
+    "exposure": "same-release consistency split; not blind independent confirmation"
+  },
+  {
+    "family": "F5",
+    "n_train": 1067,
+    "n_validation": 304,
+    "train_fit": {
+      "family": "F5",
+      "n": 1067,
+      "p": 2,
+      "dof": 1065,
+      "beta": [
+        23.8003422424673,
+        0.3268384672912165
+      ],
+      "sigma": [
+        0.008355392257072906,
+        0.020324685512835387
+      ],
+      "parameter_covariance": [
+        [
+          6.981257976955387e-05,
+          0.00013809447334504668
+        ],
+        [
+          0.00013809447334504668,
+          0.00041309284119566065
+        ]
+      ],
+      "parameter_correlation": [
+        [
+          1.0,
+          0.8131779995777088
+        ],
+        [
+          0.8131779995777088,
+          1.0
+        ]
+      ],
+      "chi2": 914.7139668793636,
+      "chi2_whitened": 914.7139668793639,
+      "quadratic_agreement_abs": 2.2737367544323206e-13,
+      "chi2_reduced": 0.8588863538773367,
+      "p_upper": 0.999673843969349,
+      "p_lower": 0.00032615603065099045,
+      "aicc_without_common_constant": 918.7252450748523,
+      "bic_without_common_constant": 928.6591793819671,
+      "magnitude_rms": 0.14839253978034964,
+      "rank": 2,
+      "whitened_design_condition": 4.67176487526948,
+      "score_over_information_sqrt_max": 1.4344952808252368e-07,
+      "optimization": {
+        "success": true,
+        "nfev": 14,
+        "bound_contact": false,
+        "max_quadrature_magnitude_difference": 1.9286549331065747e-15,
+        "uncertainty": "local Jacobian information approximation"
+      }
+    },
+    "conditional_predictive_chi2": 294.9816830301643,
+    "conditional_predictive_dof": 304,
+    "conditional_predictive_p_upper": 0.6339423235897561,
+    "conditional_predictive_p_lower": 0.36605767641024395,
+    "conditional_predictive_minus2logpdf": -314.8445076458735,
+    "cross_covariance_max_abs": 0.03710219,
+    "uncertainty": "local Jacobian approximation",
+    "exposure": "same-release consistency split; not blind independent confirmation"
+  }
+]

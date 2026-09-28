@@ -1,0 +1,154 @@
+{
+  "utc": "2026-09-28T12:30:18.630446+00:00",
+  "command": [
+    "git",
+    "diff",
+    "--cached",
+    "--check"
+  ],
+  "returncode": 2,
+  "stdout_uncompressed_sha256": "273e3a05bda81392b75ef1c19c59b1a766cdef601155af9cc8b977a469c8392b",
+  "stdout_uncompressed_bytes": 2699659,
+  "diagnostics": [
+    {
+      "file": "udt_observation_guided_function_search_2026-09-28/data/alias_validation/assignments.tsv",
+      "diagnostic": "trailing whitespace.",
+      "count": 1372
+    },
+    {
+      "file": "udt_observation_guided_function_search_2026-09-28/data/alias_validation/validation_residuals_F0.tsv",
+      "diagnostic": "trailing whitespace.",
+      "count": 305
+    },
+    {
+      "file": "udt_observation_guided_function_search_2026-09-28/data/alias_validation/validation_residuals_F1.tsv",
+      "diagnostic": "trailing whitespace.",
+      "count": 305
+    },
+    {
+      "file": "udt_observation_guided_function_search_2026-09-28/data/alias_validation/validation_residuals_F2.tsv",
+      "diagnostic": "trailing whitespace.",
+      "count": 305
+    },
+    {
+      "file": "udt_observation_guided_function_search_2026-09-28/data/alias_validation/validation_residuals_F3.tsv",
+      "diagnostic": "trailing whitespace.",
+      "count": 305
+    },
+    {
+      "file": "udt_observation_guided_function_search_2026-09-28/data/alias_validation/validation_residuals_F4.tsv",
+      "diagnostic": "trailing whitespace.",
+      "count": 305
+    },
+    {
+      "file": "udt_observation_guided_function_search_2026-09-28/data/alias_validation/validation_residuals_F5.tsv",
+      "diagnostic": "trailing whitespace.",
+      "count": 305
+    },
+    {
+      "file": "udt_observation_guided_function_search_2026-09-28/data/raw/README.txt",
+      "diagnostic": "new blank line at EOF.",
+      "count": 1
+    },
+    {
+      "file": "udt_observation_guided_function_search_2026-09-28/data/raw/README.txt",
+      "diagnostic": "trailing whitespace.",
+      "count": 3
+    },
+    {
+      "file": "udt_observation_guided_function_search_2026-09-28/data/raw/release_likelihood.py",
+      "diagnostic": "trailing whitespace.",
+      "count": 7
+    },
+    {
+      "file": "udt_observation_guided_function_search_2026-09-28/data/results/anchor_curves.tsv",
+      "diagnostic": "trailing whitespace.",
+      "count": 37
+    },
+    {
+      "file": "udt_observation_guided_function_search_2026-09-28/data/results/curves.tsv",
+      "diagnostic": "trailing whitespace.",
+      "count": 2401
+    },
+    {
+      "file": "udt_observation_guided_function_search_2026-09-28/data/results/model_comparison.tsv",
+      "diagnostic": "trailing whitespace.",
+      "count": 7
+    },
+    {
+      "file": "udt_observation_guided_function_search_2026-09-28/data/results/primary_rows.tsv",
+      "diagnostic": "trailing whitespace.",
+      "count": 1372
+    },
+    {
+      "file": "udt_observation_guided_function_search_2026-09-28/data/results/residuals.tsv",
+      "diagnostic": "trailing whitespace.",
+      "count": 1372
+    },
+    {
+      "file": "udt_observation_guided_function_search_2026-09-28/data/results/validation_residuals_F0.tsv",
+      "diagnostic": "trailing whitespace.",
+      "count": 302
+    },
+    {
+      "file": "udt_observation_guided_function_search_2026-09-28/data/results/validation_residuals_F1.tsv",
+      "diagnostic": "trailing whitespace.",
+      "count": 302
+    },
+    {
+      "file": "udt_observation_guided_function_search_2026-09-28/data/results/validation_residuals_F2.tsv",
+      "diagnostic": "trailing whitespace.",
+      "count": 302
+    },
+    {
+      "file": "udt_observation_guided_function_search_2026-09-28/data/results/validation_residuals_F3.tsv",
+      "diagnostic": "trailing whitespace.",
+      "count": 302
+    },
+    {
+      "file": "udt_observation_guided_function_search_2026-09-28/data/results/validation_residuals_F4.tsv",
+      "diagnostic": "trailing whitespace.",
+      "count": 302
+    },
+    {
+      "file": "udt_observation_guided_function_search_2026-09-28/data/results/validation_residuals_F5.tsv",
+      "diagnostic": "trailing whitespace.",
+      "count": 302
+    },
+    {
+      "file": "udt_observation_guided_function_search_2026-09-28/geometry/conditional_inverse_comparison.svg",
+      "diagnostic": "trailing whitespace.",
+      "count": 2485
+    },
+    {
+      "file": "udt_observation_guided_function_search_2026-09-28/geometry/data_inverse_values.tsv",
+      "diagnostic": "trailing whitespace.",
+      "count": 15
+    },
+    {
+      "file": "udt_observation_guided_function_search_2026-09-28/observations/sources/desi_dr2_methods.html",
+      "diagnostic": "trailing whitespace.",
+      "count": 502
+    },
+    {
+      "file": "udt_observation_guided_function_search_2026-09-28/observations/sources/desi_dr2_products.html",
+      "diagnostic": "trailing whitespace.",
+      "count": 319
+    },
+    {
+      "file": "udt_observation_guided_function_search_2026-09-28/observations/sources/desi_release.html",
+      "diagnostic": "trailing whitespace.",
+      "count": 536
+    },
+    {
+      "file": "udt_observation_guided_function_search_2026-09-28/observations/sources/quasar_duration_methods.html",
+      "diagnostic": "trailing whitespace.",
+      "count": 43
+    },
+    {
+      "file": "udt_observation_guided_function_search_2026-09-28/observations/sources/quasar_volatility_methods.html",
+      "diagnostic": "trailing whitespace.",
+      "count": 24
+    }
+  ]
+}

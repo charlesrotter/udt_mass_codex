@@ -1,0 +1,18 @@
+[
+  {
+    "step_factor": 1e-05,
+    "relative_error": 9.356114181633723e-07
+  },
+  {
+    "step_factor": 1e-06,
+    "relative_error": 9.402206374115102e-09
+  },
+  {
+    "step_factor": 1e-07,
+    "relative_error": 3.286587564367962e-09
+  },
+  {
+    "step_factor": 1e-08,
+    "relative_error": 5.240706886841447e-08
+  }
+]

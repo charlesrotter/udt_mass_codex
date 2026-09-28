@@ -1,0 +1,17 @@
+{
+  "command": [
+    "python3",
+    "udt_observation_guided_function_search_2026-09-28/geometry/check_geometry.py"
+  ],
+  "cwd": "/home/udt-admin/udt_mass_codex",
+  "start_utc": "2026-09-28T11:59:35.725843+00:00",
+  "elapsed_seconds": 1.3177286889986135,
+  "exit_code": 0,
+  "memory_cap_bytes": 2147483648,
+  "thread_env": {
+    "OMP_NUM_THREADS": "2",
+    "OPENBLAS_NUM_THREADS": "2",
+    "MKL_NUM_THREADS": "2",
+    "NUMEXPR_NUM_THREADS": "2"
+  }
+}

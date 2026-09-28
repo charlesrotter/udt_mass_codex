@@ -1,0 +1,63 @@
+{
+  "utc": "2026-09-28T12:02:29.147893+00:00",
+  "status": "DRAFT_ALIAS_REPAIR_CHECKED",
+  "primary_rows": 1371,
+  "primary_conservative_groups": 1304,
+  "development_rows": 1067,
+  "validation_rows": 304,
+  "changed_primary_rows": 3,
+  "F2_direct_anchor_chi2": 294.80466026208126,
+  "F2_direct_anchor_abs_difference": 3.410605131648481e-13,
+  "all_data_fits": "unchanged; no refit",
+  "identity_limit": "finite conservative alias check, not exhaustive physical identity verification",
+  "validation_comparison": [
+    {
+      "family": "F0",
+      "old_chi2": 295.5802386337771,
+      "old_n": 301,
+      "repaired_chi2": 307.42322895028144,
+      "repaired_n": 304,
+      "repaired_minus2logpdf": -302.58431931340806
+    },
+    {
+      "family": "F1",
+      "old_chi2": 280.28987445953425,
+      "old_n": 301,
+      "repaired_chi2": 293.9526516144672,
+      "repaired_n": 304,
+      "repaired_minus2logpdf": -315.87067512620104
+    },
+    {
+      "family": "F2",
+      "old_chi2": 280.5745661004375,
+      "old_n": 301,
+      "repaired_chi2": 294.8046602620809,
+      "repaired_n": 304,
+      "repaired_minus2logpdf": -314.78046585419304
+    },
+    {
+      "family": "F3",
+      "old_chi2": 280.61692050546134,
+      "old_n": 301,
+      "repaired_chi2": 294.8275389471437,
+      "repaired_n": 304,
+      "repaired_minus2logpdf": -314.58886193435285
+    },
+    {
+      "family": "F4",
+      "old_chi2": 277.03465978807753,
+      "old_n": 301,
+      "repaired_chi2": 291.4220155830096,
+      "repaired_n": 304,
+      "repaired_minus2logpdf": -317.5261211432984
+    },
+    {
+      "family": "F5",
+      "old_chi2": 280.77386439344895,
+      "old_n": 301,
+      "repaired_chi2": 294.9816830301643,
+      "repaired_n": 304,
+      "repaired_minus2logpdf": -314.8445076458735
+    }
+  ]
+}

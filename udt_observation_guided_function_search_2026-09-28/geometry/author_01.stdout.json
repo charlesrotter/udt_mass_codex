@@ -1,0 +1,232 @@
+{
+  "python": "3.10.12 (main, Aug 31 2026, 10:18:17) [GCC 11.4.0]",
+  "platform": "Linux-6.8.0-138-generic-x86_64-with-glibc2.35",
+  "sympy": "1.13.1",
+  "numpy": "2.2.6",
+  "scipy": "1.15.3",
+  "symbolic": {
+    "checks": {
+      "static_ricci_scalar": true,
+      "static_constant_sectional_curvature": true,
+      "static_kretschmann": true,
+      "static_original_geodesic_both_directions": true,
+      "static_null_tangent": true,
+      "static_null_ricci": true,
+      "radar_distance_original_derivative": true,
+      "proper_distance_original_derivative": true,
+      "radar_redshift_squared": true,
+      "proper_redshift_squared": true,
+      "kernel_redshift_algebra": true,
+      "homogeneous_null_tide_from_curvature": true,
+      "homogeneous_scalar_from_curvature": true,
+      "inverse_scale_rate": true,
+      "inverse_deceleration": true,
+      "inverse_affine_jacobi_original": true,
+      "inverse_reparameterized_jacobi": true,
+      "inverse_AP_ratio": true,
+      "AP_amplitude_cancellation": true,
+      "curved_inverse_deceleration": true,
+      "local_area_series": true,
+      "static_clock_area_differential": true,
+      "static_future_clock_product_one": true
+    },
+    "count": 23,
+    "failed": [],
+    "static_ricci_scalar": "12*K",
+    "static_kretschmann": "24*K**2",
+    "homogeneous_null_tide": "(-a(T)*Derivative(a(T), (T, 2)) + Derivative(a(T), T)**2)/a(T)**2",
+    "local_series_coefficients": {
+      "c2": "-q0/2",
+      "c3": "-F0/6 + q0**2/6 - q1/6"
+    }
+  },
+  "numerical": {
+    "passed": true,
+    "geodesic_jacobi_resolution": [
+      {
+        "rtol": 1e-08,
+        "atol": 2e-10,
+        "nfev": 398,
+        "state_scaled_max_errors": {
+          "T": 3.0183718043824822e-09,
+          "chi": 1.2485936395911779e-08,
+          "kT": 2.364614891538913e-08,
+          "kchi": 4.870915461865872e-08,
+          "J": 2.9897297276269557e-09,
+          "Jdot": 4.755061491173161e-08
+        },
+        "original_null_constraint_max": 5.725771991967992e-09,
+        "conserved_spatial_momentum_max": 1.2307676766631914e-08
+      },
+      {
+        "rtol": 1e-10,
+        "atol": 2e-12,
+        "nfev": 701,
+        "state_scaled_max_errors": {
+          "T": 4.349206058341502e-11,
+          "chi": 1.2282438770228738e-10,
+          "kT": 2.570034139109353e-10,
+          "kchi": 5.249663214334454e-10,
+          "J": 3.050169935805143e-11,
+          "Jdot": 5.105972687248602e-10
+        },
+        "original_null_constraint_max": 8.742066294672037e-11,
+        "conserved_spatial_momentum_max": 1.6098389288288217e-10
+      },
+      {
+        "rtol": 1e-12,
+        "atol": 2e-14,
+        "nfev": 776,
+        "state_scaled_max_errors": {
+          "T": 3.602866070932922e-13,
+          "chi": 1.3938813559834246e-12,
+          "kT": 2.9193547593093778e-12,
+          "kchi": 5.963632745366413e-12,
+          "J": 3.4480649572401445e-13,
+          "Jdot": 6.056014554619167e-12
+        },
+        "original_null_constraint_max": 8.686247720560204e-13,
+        "conserved_spatial_momentum_max": 1.7740253710485376e-12
+      }
+    ],
+    "separate_pulse_incidence": [
+      {
+        "x_e": 0.2,
+        "epsilon": 0.001,
+        "arrival_nominal": -2.345346139520643e-15,
+        "pulse_slope": 1.2214027733331023,
+        "geodesic_expected": 1.2214027581601699,
+        "absolute_error": 1.5172932466001043e-08
+      },
+      {
+        "x_e": 0.2,
+        "epsilon": 0.0001,
+        "arrival_nominal": -2.345346139520643e-15,
+        "pulse_slope": 1.221402758311632,
+        "geodesic_expected": 1.2214027581601699,
+        "absolute_error": 1.5146217613448698e-10
+      },
+      {
+        "x_e": 0.2,
+        "epsilon": 1e-05,
+        "arrival_nominal": -2.345346139520643e-15,
+        "pulse_slope": 1.2214027581662623,
+        "geodesic_expected": 1.2214027581601699,
+        "absolute_error": 6.092459869933009e-12
+      },
+      {
+        "x_e": 0.7,
+        "epsilon": 0.001,
+        "arrival_nominal": -4.950206911047417e-14,
+        "pulse_slope": 2.0137529414994346,
+        "geodesic_expected": 2.0137527074704766,
+        "absolute_error": 2.3402895799051748e-07
+      },
+      {
+        "x_e": 0.7,
+        "epsilon": 0.0001,
+        "arrival_nominal": -4.950206911047417e-14,
+        "pulse_slope": 2.013752709806513,
+        "geodesic_expected": 2.0137527074704766,
+        "absolute_error": 2.3360362533253465e-09
+      },
+      {
+        "x_e": 0.7,
+        "epsilon": 1e-05,
+        "arrival_nominal": -4.950206911047417e-14,
+        "pulse_slope": 2.0137527074838566,
+        "geodesic_expected": 2.0137527074704766,
+        "absolute_error": 1.3379963803572537e-11
+      },
+      {
+        "x_e": 1.5,
+        "epsilon": 0.001,
+        "arrival_nominal": -3.9456632405787673e-13,
+        "pulse_slope": 4.481694253559697,
+        "geodesic_expected": 4.4816890703380645,
+        "absolute_error": 5.1832216323433045e-06
+      },
+      {
+        "x_e": 1.5,
+        "epsilon": 0.0001,
+        "arrival_nominal": -3.9456632405787673e-13,
+        "pulse_slope": 4.481689122157028,
+        "geodesic_expected": 4.4816890703380645,
+        "absolute_error": 5.1818963342498137e-08
+      },
+      {
+        "x_e": 1.5,
+        "epsilon": 1e-05,
+        "arrival_nominal": -3.9456632405787673e-13,
+        "pulse_slope": 4.481689070540661,
+        "geodesic_expected": 4.4816890703380645,
+        "absolute_error": 2.0259616206885767e-10
+      }
+    ],
+    "actual_future_return_controls": [
+      {
+        "control": "affine_scale",
+        "chi": 0.02,
+        "T_A": 1.0,
+        "T_B": 1.0202013400267558,
+        "T_C": 1.0408107741923882,
+        "r_out": 1.0202013400267558,
+        "r_return": 1.0202013400267558,
+        "r_echo": 1.0408107741923882
+      },
+      {
+        "control": "exponential_scale",
+        "chi": 0.02,
+        "T_A": 0,
+        "T_B": 0.02020270731751945,
+        "T_C": 0.04082199452025513,
+        "r_out": 1.0204081632653061,
+        "r_return": 1.0208333333333333,
+        "r_echo": 1.0416666666666667
+      },
+      {
+        "control": "affine_scale",
+        "chi": 0.2,
+        "T_A": 1.0,
+        "T_B": 1.2214027581601699,
+        "T_C": 1.4918246976412703,
+        "r_out": 1.2214027581601699,
+        "r_return": 1.2214027581601699,
+        "r_echo": 1.4918246976412703
+      },
+      {
+        "control": "exponential_scale",
+        "chi": 0.2,
+        "T_A": 0,
+        "T_B": 0.22314355131420976,
+        "T_C": 0.5108256237659907,
+        "r_out": 1.25,
+        "r_return": 1.3333333333333335,
+        "r_echo": 1.6666666666666667
+      },
+      {
+        "control": "affine_scale",
+        "chi": 0.4,
+        "T_A": 1.0,
+        "T_B": 1.4918246976412703,
+        "T_C": 2.225540928492468,
+        "r_out": 1.4918246976412703,
+        "r_return": 1.4918246976412703,
+        "r_echo": 2.225540928492468
+      },
+      {
+        "control": "exponential_scale",
+        "chi": 0.4,
+        "T_A": 0,
+        "T_B": 0.5108256237659907,
+        "T_C": 1.6094379124341005,
+        "r_out": 1.6666666666666667,
+        "r_return": 3.0000000000000004,
+        "r_echo": 5.000000000000001
+      }
+    ],
+    "endpoint_boost_area_covariance_max": 1.332267629550188e-16,
+    "no_independence_claim": "Author context; metric construction shared, original geodesic/Jacobi and pulse-incidence algorithms distinct. Fresh review is separate."
+  },
+  "passed": true
+}

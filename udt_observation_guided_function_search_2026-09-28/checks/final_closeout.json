@@ -1,0 +1,14 @@
+{
+  "command": [
+    "python3",
+    "udt_observation_guided_function_search_2026-09-28/checks/closeout_check.py"
+  ],
+  "cwd": "/home/udt-admin/udt_mass_codex",
+  "started_utc": "2026-09-28T12:27:40.512367+00:00",
+  "duration_seconds": 0.18998579299659468,
+  "returncode": 0,
+  "timeout": false,
+  "address_space_bytes": 2147483648,
+  "cpu_seconds": 600,
+  "maxrss_kib": 31268
+}

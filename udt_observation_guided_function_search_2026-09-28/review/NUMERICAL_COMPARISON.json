@@ -1,0 +1,11 @@
+{
+  "utc": "2026-09-28T12:19:18.828561+00:00",
+  "F2_beta_max_abs": 1.562916462916064e-13,
+  "F2_covariance_max_abs": 3.0357660829594124e-18,
+  "F2_chi2_abs": 1.1368683772161603e-12,
+  "validation_abs": 7.105427357601002e-12,
+  "AP_quadratic_abs": 1.9522161665008753e-12,
+  "AP_prediction_max_abs": 2.1609380951304047e-12,
+  "AP_covariance_max_abs": 7.223110998211268e-13,
+  "independent_alias_pairs": 10
+}

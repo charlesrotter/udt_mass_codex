@@ -1,0 +1,12 @@
+{
+  "command": [
+    "python3",
+    "udt_observation_guided_function_search_2026-09-28/geometry/check_data_inverse.py"
+  ],
+  "cwd": "/home/udt-admin/udt_mass_codex",
+  "start_utc": "2026-09-28T12:07:00.001454+00:00",
+  "elapsed_seconds": 2.0192405479974695,
+  "exit_code": 0,
+  "memory_cap_bytes": 2147483648,
+  "threads": 2
+}

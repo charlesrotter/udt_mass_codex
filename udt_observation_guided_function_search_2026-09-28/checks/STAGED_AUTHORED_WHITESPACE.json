@@ -1,0 +1,25 @@
+{
+  "utc": "2026-09-28T12:30:50.931140+00:00",
+  "command": [
+    "git",
+    "-c",
+    "core.whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol",
+    "diff",
+    "--cached",
+    "--check",
+    "--",
+    ".",
+    ":(exclude)udt_observation_guided_function_search_2026-09-28/data/raw",
+    ":(exclude)udt_observation_guided_function_search_2026-09-28/observations/sources",
+    ":(exclude)udt_observation_guided_function_search_2026-09-28/geometry/conditional_inverse_comparison.svg"
+  ],
+  "returncode": 0,
+  "scope": "Authored code/docs/JSON and generated tables, accepting preserved standard CRLF table line endings. Pinned upstream byte snapshots and unmodified Matplotlib SVG exempt from editorial whitespace rules. Default broader check remains failed and preserved.",
+  "exclusions": [
+    "udt_observation_guided_function_search_2026-09-28/data/raw",
+    "udt_observation_guided_function_search_2026-09-28/observations/sources",
+    "udt_observation_guided_function_search_2026-09-28/geometry/conditional_inverse_comparison.svg"
+  ],
+  "stdout_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+}

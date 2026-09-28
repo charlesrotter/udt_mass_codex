@@ -1,0 +1,12 @@
+{
+  "utc": "2026-09-28T11:59:48.876930+00:00",
+  "exposure": "No empirical lane files, numeric coefficients or new observations read. Parent supplied desired algebraic inverse/AP questions only. Initial argument saved before computation; this manifest seals exact bytes while author check is running.",
+  "files": {
+    "INITIAL_METRIC_PASS.md": "5b0f6796df76d826f9dd745a5737dd4d13d25562e21dbe122b440d74c367b273",
+    "NUMERICAL_FREEZE.md": "dff2aac7bd7af873a368719433bd6179f0fa4cbc2cbaf238106f07d58fbbc9a1",
+    "SOURCE_PINS.json": "273f9c183cba9b506818a30f96bc7f90f7993d88bc8962a30b53bab2264a3a84",
+    "SCOPED_REGISTRY.json": "8d7cde86d6750c594ac8c0dfc77744e6c55e8b849cb0092c9be2b357aae3b703",
+    "POST_FREEZE_ANALYTIC_NOTE.md": "4bdcb6c8b71da563232e248d5a98a6d2dd546d7499bcc791b5710011fd80cdf8",
+    "check_geometry.py": "0605d00ae53d195935d5163a02834f825b008a5f3846a4a21aab71e18af84094"
+  }
+}

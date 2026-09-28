@@ -12,6 +12,11 @@ retains relative-motion Doppler and gravity. July lead reviewed/UNPROMOTED:
 `udt_july_optical_time_dilation_lead_2026-09-28/DECISION_BRIEF.md`.
 Its stationary reversal is not a generic UDT law; physical clock-map data remain open.
 
+OFS1 reviewed empirical/conditional UNPROMOTED return:
+`udt_observation_guided_function_search_2026-09-28/DECISION_BRIEF.md`.
+Finite-range SNe/conditional BAO shapes and a supplied metric inverse; native
+selection and physical asymptote remain OPEN. No automatic successor; see INDEX.
+
 Foundation alignment/archival return: INDEX. Kernel evaluates supplied depth; complete `B,Q,S,Y,Z` enters before readout.
 Universal Reciprocity/DDR and explained Local Metric Sufficiency remain owner-adopted provisional premises.
 GR is FILTER ONLY, not a response-law input; Local Metric Sufficiency remains owner-provisional.

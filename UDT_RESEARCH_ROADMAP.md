@@ -16,12 +16,19 @@ original result packages remain unchanged. No physical adoption or canon is incl
 
 ## Data-guided discovery with native derivation — 2026-09-28
 
-Concrete next exploration proposed after Charles asked whether the direction was
-sufficient: `udt_observation_guided_function_search_2026-09-28/WORK_ORDER.md`.
-Six-hour first campaign: empirical reconstruction and native construction,
-followed by fresh adversarial review and bounded repair/re-review. PROPOSED,
-not launched; its question, resource limits, exclusions and return govern the
-proposal. No new function or scientific result is claimed by preparing it.
+Charles authorized the concrete next exploration with “proceeed”:
+`udt_observation_guided_function_search_2026-09-28/WORK_ORDER.md`.
+The six-hour first campaign returned within budget after empirical reconstruction,
+conditional metric construction, fresh adversarial review and one bounded
+precision/presentation repair cycle. Reviewed empirical/conditional UNPROMOTED:
+`udt_observation_guided_function_search_2026-09-28/DECISION_BRIEF.md`.
+Six fitted SNe families and a conditional unretuned BAO comparison give useful
+finite-range shapes. The restricted metric inverse and contrasting smooth tails
+clarify the remaining native-selection and asymptotic-completion gap; an
+expanding compatibility control is not the intended native positional explanation.
+REVIEWED_RESULT and CLOSEOUT own scope, failures, checks and independent review.
+No premise, scientific grade, canon or successor campaign is adopted. Return for
+discussion; the recorded working constraints below remain the research direction.
 
 Charles's direction, preserved verbatim:
 

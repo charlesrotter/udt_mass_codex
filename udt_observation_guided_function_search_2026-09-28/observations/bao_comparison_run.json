@@ -1,0 +1,14 @@
+{
+  "command": [
+    "python3",
+    "udt_observation_guided_function_search_2026-09-28/observations/compare_bao.py"
+  ],
+  "cwd": "/home/udt-admin/udt_mass_codex",
+  "started_utc": "2026-09-28T11:59:11.264953+00:00",
+  "duration_seconds": 1.3151551839982858,
+  "returncode": 1,
+  "timeout": false,
+  "address_space_bytes": 2147483648,
+  "cpu_seconds": 600,
+  "maxrss_kib": 142236
+}

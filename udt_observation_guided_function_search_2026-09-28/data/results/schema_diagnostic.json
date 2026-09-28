@@ -1,0 +1,111 @@
+{
+  "diagnostic_status": "post-fit source-schema check, no fit tuning",
+  "possible_cross_CID_aliases_same_sky_time_redshift": [
+    {
+      "i": 15,
+      "j": 16,
+      "CID_i": "2005df",
+      "CID_j": "2005df_ANU",
+      "both_primary": false
+    },
+    {
+      "i": 714,
+      "j": 715,
+      "CID_i": "7876",
+      "CID_j": "2005ir",
+      "both_primary": true
+    },
+    {
+      "i": 721,
+      "j": 722,
+      "CID_i": "17186",
+      "CID_j": "2007hx",
+      "both_primary": true
+    },
+    {
+      "i": 387,
+      "j": 388,
+      "CID_i": "2012bh",
+      "CID_j": "370356",
+      "both_primary": true
+    },
+    {
+      "i": 145,
+      "j": 146,
+      "CID_i": "AT2017cfd",
+      "CID_j": "2017cfd",
+      "both_primary": false
+    },
+    {
+      "i": 31,
+      "j": 32,
+      "CID_i": "2016coj",
+      "CID_j": "SN2016coj",
+      "both_primary": false
+    },
+    {
+      "i": 274,
+      "j": 275,
+      "CID_i": "2016hpw",
+      "CID_j": "ATLAS16dqf",
+      "both_primary": false
+    },
+    {
+      "i": 1262,
+      "j": 1263,
+      "CID_i": "580104",
+      "CID_j": "1261579",
+      "both_primary": true
+    },
+    {
+      "i": 552,
+      "j": 553,
+      "CID_i": "2016fbk",
+      "CID_j": "AT2016fbk",
+      "both_primary": true
+    },
+    {
+      "i": 253,
+      "j": 254,
+      "CID_i": "2016ffh",
+      "CID_j": "ATLAS16cpu",
+      "both_primary": false
+    }
+  ],
+  "alias_criterion": "within5 arcsec, abs(PKMJD difference)<10 days, abs(zHD difference)<.001; not an exhaustive identity census",
+  "CID_casefold_unique": 1543,
+  "primary_covariance_raw_asymmetry_max_abs": 0.0,
+  "official_covariance_used": "full STAT+SYS submatrix; plotting error column never used",
+  "issue_sources": [
+    {
+      "path": "raw/issue_6.json",
+      "url": "https://api.github.com/repos/PantheonPlusSH0ES/DataRelease/issues/6",
+      "sha256": "335b54a03728d1d28bccb16d527cc55335d9f72a09976aa459625efab3a9a94a"
+    },
+    {
+      "path": "raw/issue_6_comments.json",
+      "url": "https://api.github.com/repos/PantheonPlusSH0ES/DataRelease/issues/6/comments",
+      "sha256": "f942660a1421632751df2b44dd3fb95caaebc8c58cf309a8f7991f07760e70d5"
+    },
+    {
+      "path": "raw/issue_10.json",
+      "url": "https://api.github.com/repos/PantheonPlusSH0ES/DataRelease/issues/10",
+      "sha256": "dcaec5db52fb2a0ebcc9944da7cc96b85a3a29e3eb3e63141fb760474b1b6a3f"
+    },
+    {
+      "path": "raw/issue_10_comments.json",
+      "url": "https://api.github.com/repos/PantheonPlusSH0ES/DataRelease/issues/10/comments",
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    {
+      "path": "raw/issue_13.json",
+      "url": "https://api.github.com/repos/PantheonPlusSH0ES/DataRelease/issues/13",
+      "sha256": "a8867d59f5fb387a7b07a87d9e5d03566279bca60e5338986aceeec6f19c1f7d"
+    },
+    {
+      "path": "raw/issue_13_comments.json",
+      "url": "https://api.github.com/repos/PantheonPlusSH0ES/DataRelease/issues/13/comments",
+      "sha256": "bf1fb425743933167054b861666687a3f527d91c8fe808afe2d59d6d87beb731"
+    }
+  ]
+}

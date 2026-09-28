@@ -87,7 +87,15 @@ Follow AGENTS; report actual instructions/checks and distinguish configured from
 Dated availability check COMPLETE: `archive/stale_working_documents_2026-09-27/maintenance_agent_capacity_2026-09-10.md`.
 General capacity UNVERIFIED; no automatic repeat. FSR1/PJC1 supplied no new field equation; Maxwell PAUSED.
 
-Next: discuss the completed reviewed conditional UNPROMOTED July optical-time lead:
+Next: discuss the completed OFS1 reviewed empirical/conditional UNPROMOTED return:
+`udt_observation_guided_function_search_2026-09-28/DECISION_BRIEF.md`.
+Six SNe families, an unretuned conditional BAO comparison, and the supplied
+metric inverse survive fresh review with precision repairs. Native selection,
+physical asymptote and measured local GR correspondence remain OPEN. The
+expanding controls are not a native positional law. Its REVIEWED_RESULT and
+CLOSEOUT own exact limits, initial failures, checks and review independence.
+
+Prior completed reviewed conditional UNPROMOTED July optical-time lead:
 `udt_july_optical_time_dilation_lead_2026-09-28/DECISION_BRIEF.md`.
 Its static reversal is not a generic future-return rule or a UDT requirement;
 time-dependent controls permit mutual redshift but select no physical history.
@@ -103,5 +111,7 @@ assignment remains OPEN. No affine control was promoted to a positional law.
 DCR1 reviewed conditional UNPROMOTED: directional clocks permit central tides in its supplied static class
 under full G301 at an eligible center; no neighborhood field equation; FE1 UNADOPTED.
 G312 membership/native admission unclosed; response identification OPEN; G352 physical-realization: physical identification remains OPEN.
-Stop for lay discussion; no new campaign is authorized; work order and return gates: `UDT_RESEARCH_ROADMAP.md`.
+Stop for lay discussion. Completed work orders remain closed;
+no new campaign is authorized; work order and return gates:
+`UDT_RESEARCH_ROADMAP.md`.
 <!-- STARTUP_CURRENT_END -->

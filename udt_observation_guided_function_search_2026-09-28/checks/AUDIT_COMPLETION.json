@@ -1,0 +1,18 @@
+{
+  "utc": "2026-09-28T12:09:48.492802+00:00",
+  "audit_returncode": 0,
+  "duration_seconds": 406.5033215469957,
+  "during_run_snapshot_unchanged_at_completion": {
+    "AGENTS.md": true,
+    "CLAUDE.md": true,
+    "CANON.md": true,
+    "founding.md": true,
+    "CURRENT_SCIENTIFIC_PREMISES.md": true,
+    "CURRENT_SCIENTIFIC_PREMISES.tsv": true,
+    "verify_current_scientific_premises.py": true,
+    "LIVE.md": true,
+    "HANDOFF.md": true,
+    "CURRENT_RESEARCH_PROGRAM.md": true
+  },
+  "scope": "Full audit on current active-status surfaces; later closeout-only surface changes require focused validation. Snapshot taken during run, not a prelaunch seal."
+}

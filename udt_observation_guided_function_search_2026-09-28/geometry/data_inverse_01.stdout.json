@@ -1,0 +1,566 @@
+{
+  "utc": "2026-09-28T12:07:01.880733+00:00",
+  "inputs": {
+    "/home/udt-admin/udt_mass_codex/udt_observation_guided_function_search_2026-09-28/data/results/full_fits.json": "554cc8974207cef125504a0b6b829fa9a486fe77963ed027a63ec80959687c54",
+    "/home/udt-admin/udt_mass_codex/udt_observation_guided_function_search_2026-09-28/data/results/diagnostics.json": "e47b5d167ab2c4ebd74f1deaf4c33d5706e7dc4d5d8cb9de3025b2b92b9c62cf",
+    "/home/udt-admin/udt_mass_codex/udt_observation_guided_function_search_2026-09-28/data/fit_empirical.py": "6e250d2ddadefbabb7bd23852449d7501824cc7bf1c56d09e09bb13fe9c08e61",
+    "/home/udt-admin/udt_mass_codex/udt_observation_guided_function_search_2026-09-28/data/results/sensitivity.json": "9c228ac0e26d70c166371d843d1babe0ea7fc90738e1d13906d78437921476ec"
+  },
+  "versions": {
+    "numpy": "2.2.6",
+    "scipy": "1.15.3",
+    "sympy": "1.13.1",
+    "matplotlib": "3.10.8"
+  },
+  "data_domain": {
+    "x_min": 0.022768812052701454,
+    "x_max": 1.1821473524990231,
+    "z_max": 2.26137
+  },
+  "exact_point_estimate_domains": {
+    "F2": {
+      "coefficients_exact_decimals": [
+        "4896081847360731/20000000000000000",
+        "-7966534354227339/50000000000000000"
+      ],
+      "P": "-7966534354227339*x**2/25000000000000000 + 4896081847360731*x/20000000000000000 + 1",
+      "real_root_isolations": [
+        {
+          "rational_interval": [
+            "-20491985050/14344819499",
+            "-15874006001/11112137270"
+          ],
+          "decimal_midpoint": "-1.4285286093302553308032394193850229771582679396416",
+          "multiplicity": 1,
+          "positive": false
+        },
+        {
+          "rational_interval": [
+            "32530268295/14808327554",
+            "18917951324/8611770961"
+          ],
+          "decimal_midpoint": "2.1967550472107824094703341721554913107727043739903",
+          "multiplicity": 1,
+          "positive": true
+        }
+      ],
+      "nonnegative_critical_points": [
+        {
+          "x": "0.3841132189402635393338246745438971967519",
+          "P": "1.047016243964618060947789183787354716496"
+        }
+      ],
+      "P_at_zero": "1",
+      "positive_root_count": 1
+    },
+    "F3": {
+      "coefficients_exact_decimals": [
+        "328891688154207/1250000000000000",
+        "-11025873077513501/50000000000000000",
+        "491683028862887/10000000000000000"
+      ],
+      "P": "1475049086588661*x**3/10000000000000000 - 11025873077513501*x**2/25000000000000000 + 328891688154207*x/1250000000000000 + 1",
+      "real_root_isolations": [
+        {
+          "rational_interval": [
+            "-16743847351/15375925380",
+            "-13859479177/12727201411"
+          ],
+          "decimal_midpoint": "-1.0889651801236824160472554313071620107055464237674",
+          "multiplicity": 1,
+          "positive": false
+        }
+      ],
+      "nonnegative_critical_points": [
+        {
+          "x": "0.3652001644598568074700360126165623187804",
+          "P": "1.044452246139138574330814464869107816665"
+        },
+        {
+          "x": "1.628111683534388170207009738932028096013",
+          "P": "0.8958945174647104674682879089920557778191"
+        }
+      ],
+      "P_at_zero": "1",
+      "positive_root_count": 0
+    }
+  },
+  "F2_endpoint": {
+    "x_star": 2.196755047210782,
+    "z_star": 7.995775220779238,
+    "F_star": 1.7434547019864335,
+    "P_prime_star": -1.1552378717461231,
+    "a_scale_star": 0.11116329337466231,
+    "H_over_h0_leading_C_over_xstar_minus_x": 9.811561764048756,
+    "proper_lookback_h0_at_star": 0.8531528397442877,
+    "affine_extent_h0_at_star": 0.512933085727963,
+    "curved_turning_point_kappa": 0.3289869444814173,
+    "curved_turning_limit_E": 7.115133195988216
+  },
+  "F3_tail": {
+    "Fprime_positive_all_x_ge_0": true,
+    "cubic_exponent_c": 0.0491683028862887,
+    "c_sigma": 0.14673746304293878,
+    "tail": "c>0 forces F, e^-x F, proper-lookback and affine integrals to diverge; H and flat curvature tend to zero. Fixed extrapolated central coefficients only."
+  },
+  "F4_domain": {
+    "knots_x": [
+      0.0009995003330835331,
+      0.09531017980432487,
+      0.26236426446749106,
+      0.4700036292457356,
+      0.6931471805599453,
+      1.1939224684724346
+    ],
+    "records": [
+      {
+        "interval_index": 0,
+        "valid_intersection": [
+          0.022768812052701454,
+          0.09531017980432487
+        ],
+        "P_real_roots_global_x": [
+          -0.41926735409755256
+        ],
+        "minimum_P_in_intersection": 1.0017372672563811
+      },
+      {
+        "interval_index": 1,
+        "valid_intersection": [
+          0.09531017980432487,
+          0.26236426446749106
+        ],
+        "P_real_roots_global_x": [
+          0.5419820596964063
+        ],
+        "minimum_P_in_intersection": 1.0177915149076477
+      },
+      {
+        "interval_index": 2,
+        "valid_intersection": [
+          0.26236426446749106,
+          0.4700036292457356
+        ],
+        "P_real_roots_global_x": [
+          -0.22539092687217788
+        ],
+        "minimum_P_in_intersection": 1.0013833311070446
+      },
+      {
+        "interval_index": 3,
+        "valid_intersection": [
+          0.4700036292457356,
+          0.6931471805599453
+        ],
+        "P_real_roots_global_x": [
+          0.9668838206888222
+        ],
+        "minimum_P_in_intersection": 1.0531628283714647
+      },
+      {
+        "interval_index": 4,
+        "valid_intersection": [
+          0.6931471805599453,
+          1.1821473524990231
+        ],
+        "P_real_roots_global_x": [
+          -0.2734024391336458
+        ],
+        "minimum_P_in_intersection": 0.6532645095171743
+      }
+    ],
+    "roots_in_data_interval": [],
+    "minimum_P_in_data_interval": 0.6532645095171743,
+    "literal_terminal_polynomial_extrapolation_roots": [],
+    "terminal_cubic_coefficient": 1.328332735201146,
+    "scope": "float64 fixed-coefficient polynomial analysis; spline global extension is not physically justified"
+  },
+  "jacobian_step_checks": [
+    {
+      "family": "F2",
+      "z": 0.05,
+      "epsilon": 0.0001,
+      "scaled_max_error": 7.592364974451897e-12
+    },
+    {
+      "family": "F2",
+      "z": 0.05,
+      "epsilon": 1e-05,
+      "scaled_max_error": 6.3335002710169914e-12
+    },
+    {
+      "family": "F2",
+      "z": 0.05,
+      "epsilon": 1e-06,
+      "scaled_max_error": 4.8776655186048145e-11
+    },
+    {
+      "family": "F2",
+      "z": 0.1,
+      "epsilon": 0.0001,
+      "scaled_max_error": 2.8280159767975602e-11
+    },
+    {
+      "family": "F2",
+      "z": 0.1,
+      "epsilon": 1e-05,
+      "scaled_max_error": 9.87482314195799e-12
+    },
+    {
+      "family": "F2",
+      "z": 0.1,
+      "epsilon": 1e-06,
+      "scaled_max_error": 4.226306964827725e-11
+    },
+    {
+      "family": "F2",
+      "z": 0.3,
+      "epsilon": 0.0001,
+      "scaled_max_error": 3.2550590534894356e-10
+    },
+    {
+      "family": "F2",
+      "z": 0.3,
+      "epsilon": 1e-05,
+      "scaled_max_error": 1.54554075778981e-11
+    },
+    {
+      "family": "F2",
+      "z": 0.3,
+      "epsilon": 1e-06,
+      "scaled_max_error": 4.596472647361912e-11
+    },
+    {
+      "family": "F2",
+      "z": 0.6,
+      "epsilon": 0.0001,
+      "scaled_max_error": 1.5562324660857834e-09
+    },
+    {
+      "family": "F2",
+      "z": 0.6,
+      "epsilon": 1e-05,
+      "scaled_max_error": 1.4031136849499675e-11
+    },
+    {
+      "family": "F2",
+      "z": 0.6,
+      "epsilon": 1e-06,
+      "scaled_max_error": 4.796441243594013e-11
+    },
+    {
+      "family": "F2",
+      "z": 1.0,
+      "epsilon": 0.0001,
+      "scaled_max_error": 7.064487608733321e-09
+    },
+    {
+      "family": "F2",
+      "z": 1.0,
+      "epsilon": 1e-05,
+      "scaled_max_error": 7.106684453234331e-11
+    },
+    {
+      "family": "F2",
+      "z": 1.0,
+      "epsilon": 1e-06,
+      "scaled_max_error": 3.33555678523803e-11
+    },
+    {
+      "family": "F2",
+      "z": 2.0,
+      "epsilon": 0.0001,
+      "scaled_max_error": 7.429609450148982e-08
+    },
+    {
+      "family": "F2",
+      "z": 2.0,
+      "epsilon": 1e-05,
+      "scaled_max_error": 7.419163285654184e-10
+    },
+    {
+      "family": "F2",
+      "z": 2.0,
+      "epsilon": 1e-06,
+      "scaled_max_error": 6.16135074404626e-11
+    },
+    {
+      "family": "F2",
+      "z": 2.26137,
+      "epsilon": 0.0001,
+      "scaled_max_error": 1.109571422994082e-07
+    },
+    {
+      "family": "F2",
+      "z": 2.26137,
+      "epsilon": 1e-05,
+      "scaled_max_error": 1.1114290594550548e-09
+    },
+    {
+      "family": "F2",
+      "z": 2.26137,
+      "epsilon": 1e-06,
+      "scaled_max_error": 1.5735601407080026e-11
+    },
+    {
+      "family": "F3",
+      "z": 0.05,
+      "epsilon": 0.0001,
+      "scaled_max_error": 7.609094695285354e-12
+    },
+    {
+      "family": "F3",
+      "z": 0.05,
+      "epsilon": 1e-05,
+      "scaled_max_error": 6.491595143168062e-12
+    },
+    {
+      "family": "F3",
+      "z": 0.05,
+      "epsilon": 1e-06,
+      "scaled_max_error": 4.805525868382946e-11
+    },
+    {
+      "family": "F3",
+      "z": 0.1,
+      "epsilon": 0.0001,
+      "scaled_max_error": 2.8252818436835924e-11
+    },
+    {
+      "family": "F3",
+      "z": 0.1,
+      "epsilon": 1e-05,
+      "scaled_max_error": 1.1310884953513456e-11
+    },
+    {
+      "family": "F3",
+      "z": 0.1,
+      "epsilon": 1e-06,
+      "scaled_max_error": 5.4108321477111484e-11
+    },
+    {
+      "family": "F3",
+      "z": 0.3,
+      "epsilon": 0.0001,
+      "scaled_max_error": 3.255751730252952e-10
+    },
+    {
+      "family": "F3",
+      "z": 0.3,
+      "epsilon": 1e-05,
+      "scaled_max_error": 1.139980156624258e-11
+    },
+    {
+      "family": "F3",
+      "z": 0.3,
+      "epsilon": 1e-06,
+      "scaled_max_error": 7.112453682305646e-11
+    },
+    {
+      "family": "F3",
+      "z": 0.6,
+      "epsilon": 0.0001,
+      "scaled_max_error": 1.5664589758166521e-09
+    },
+    {
+      "family": "F3",
+      "z": 0.6,
+      "epsilon": 1e-05,
+      "scaled_max_error": 2.122325898160957e-11
+    },
+    {
+      "family": "F3",
+      "z": 0.6,
+      "epsilon": 1e-06,
+      "scaled_max_error": 5.1771555234901146e-11
+    },
+    {
+      "family": "F3",
+      "z": 1.0,
+      "epsilon": 0.0001,
+      "scaled_max_error": 7.056697172104964e-09
+    },
+    {
+      "family": "F3",
+      "z": 1.0,
+      "epsilon": 1e-05,
+      "scaled_max_error": 7.107502348162285e-11
+    },
+    {
+      "family": "F3",
+      "z": 1.0,
+      "epsilon": 1e-06,
+      "scaled_max_error": 4.3851642376033276e-11
+    },
+    {
+      "family": "F3",
+      "z": 2.0,
+      "epsilon": 0.0001,
+      "scaled_max_error": 1.7107325931946057e-07
+    },
+    {
+      "family": "F3",
+      "z": 2.0,
+      "epsilon": 1e-05,
+      "scaled_max_error": 1.7105363786005311e-09
+    },
+    {
+      "family": "F3",
+      "z": 2.0,
+      "epsilon": 1e-06,
+      "scaled_max_error": 3.662899119629926e-11
+    },
+    {
+      "family": "F3",
+      "z": 2.26137,
+      "epsilon": 0.0001,
+      "scaled_max_error": 2.778746443964392e-07
+    },
+    {
+      "family": "F3",
+      "z": 2.26137,
+      "epsilon": 1e-05,
+      "scaled_max_error": 2.7784792263766253e-09
+    },
+    {
+      "family": "F3",
+      "z": 2.26137,
+      "epsilon": 1e-06,
+      "scaled_max_error": 5.609878586936758e-11
+    }
+  ],
+  "sensitivity_coefficients_no_refits": [
+    {
+      "variant": "zgt0p01",
+      "family": "F2",
+      "shape_coefficients": [
+        0.23123323663422007,
+        -0.14263997516782778
+      ],
+      "shape_sigma": [
+        0.032781135404297175,
+        0.04891302572586807
+      ]
+    },
+    {
+      "variant": "zgt0p01",
+      "family": "F3",
+      "shape_coefficients": [
+        0.23659368127885608,
+        -0.16080237660777824,
+        0.014709005815718906
+      ],
+      "shape_sigma": [
+        0.06161545249783217,
+        0.1834111978363144,
+        0.1431579554836431
+      ]
+    },
+    {
+      "variant": "zgt0p05",
+      "family": "F2",
+      "shape_coefficients": [
+        0.2481462980733548,
+        -0.17156229243084392
+      ],
+      "shape_sigma": [
+        0.044344841826439836,
+        0.05884488155640098
+      ]
+    },
+    {
+      "variant": "zgt0p05",
+      "family": "F3",
+      "shape_coefficients": [
+        0.28585063578057923,
+        -0.28101209010595507,
+        0.08153275331352577
+      ],
+      "shape_sigma": [
+        0.09102905395394727,
+        0.23815272942018847,
+        0.17190688557205325
+      ]
+    },
+    {
+      "variant": "primary_zlt1",
+      "family": "F2",
+      "shape_coefficients": [
+        0.2882655507613756,
+        -0.26925952636131234
+      ],
+      "shape_sigma": [
+        0.045726386784785106,
+        0.08442416052641068
+      ]
+    },
+    {
+      "variant": "primary_zlt1",
+      "family": "F3",
+      "shape_coefficients": [
+        0.2601116320180824,
+        -0.1427133361310263,
+        -0.14799003664027668
+      ],
+      "shape_sigma": [
+        0.11396923125980077,
+        0.47676381615225844,
+        0.5487426104747164
+      ]
+    },
+    {
+      "variant": "raw_upper",
+      "family": "F2",
+      "shape_coefficients": [
+        0.24480409236803655,
+        -0.15933068708454678
+      ],
+      "shape_sigma": [
+        0.034040199382026314,
+        0.050037192645181215
+      ]
+    },
+    {
+      "variant": "raw_upper",
+      "family": "F3",
+      "shape_coefficients": [
+        0.2631133505233656,
+        -0.22051746155027002,
+        0.0491683028862887
+      ],
+      "shape_sigma": [
+        0.06437765636586827,
+        0.18933676733821866,
+        0.14673746304293878
+      ]
+    },
+    {
+      "variant": "raw_lower",
+      "family": "F2",
+      "shape_coefficients": [
+        0.24480409236803655,
+        -0.15933068708454678
+      ],
+      "shape_sigma": [
+        0.034040199382026314,
+        0.050037192645181215
+      ]
+    },
+    {
+      "variant": "raw_lower",
+      "family": "F3",
+      "shape_coefficients": [
+        0.2631133505233656,
+        -0.22051746155027002,
+        0.0491683028862887
+      ],
+      "shape_sigma": [
+        0.06437765636586827,
+        0.18933676733821866,
+        0.14673746304293878
+      ]
+    }
+  ],
+  "scope": "Exposed fixed coefficients; inverse restricted to supplied homogeneous class. No native selection, new data test, retuning or global-tail confidence.",
+  "passed": true
+}

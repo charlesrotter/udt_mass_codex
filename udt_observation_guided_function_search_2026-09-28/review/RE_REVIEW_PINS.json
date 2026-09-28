@@ -1,0 +1,15 @@
+{
+  "utc": "2026-09-28T12:23:03.790687+00:00",
+  "cycle": 1,
+  "construction_mismatches": [],
+  "ordinary_AIC_arithmetic_pass": true,
+  "repair_input_hashes_pass": true,
+  "sha256": {
+    "REPAIR.md": "f397568bde2c8cf3e1a2932ba88046c0be11f4ca5d920343858ea1198985cb24",
+    "REVIEWED_RESULT.md": "f1dffa344c81154e533274495b70c6d884c65e6628b85a076c20400d7833b79c",
+    "observations/plot_reviewed_bao.py": "9a94e50548b454bdce13ed6b593ef0485c3368fcf4577623fba99f8e6b9919e6",
+    "observations/comparison_reviewed/PRECISION_REPAIR.json": "de16d4f6a55eccc137a4110e6c62423ba65bbf5bd340bc564332ef6da9a51b23",
+    "observations/comparison_reviewed/bao_shape_comparison.png": "2a4eaf8081420455408a7cc8ddc742348b8c59a71b13c7583aef820159d7ae66",
+    "observations/comparison_reviewed/bao_shape_comparison.pdf": "f821f79b7dbb268c3c9d64cfa48887973afcd478889e7ceefaf7e932d19f0d49"
+  }
+}

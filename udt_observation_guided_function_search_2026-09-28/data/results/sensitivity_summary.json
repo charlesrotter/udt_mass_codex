@@ -1,0 +1,299 @@
+{
+  "sample_domains": {
+    "primary": [
+      0.02303,
+      2.26137
+    ],
+    "zgt0p01": [
+      0.01016,
+      2.26137
+    ],
+    "zgt0p05": [
+      0.05018,
+      2.26137
+    ],
+    "primary_zlt1": [
+      0.02303,
+      0.97423
+    ]
+  },
+  "comparison_grid": [
+    0.05018,
+    0.97423,
+    400
+  ],
+  "comparison_normalization": "F(z)/F(.1), same as relative DL or DA shape departures",
+  "sensitivity_json_note": "Its original fixed common_grid_curves include boundary z=.05 and1 that can sit just outside a cut sample. Use this exact common-data-domain summary for no-extrapolation comparisons.",
+  "comparisons": [
+    {
+      "variant": "zgt0p01",
+      "family": "F0",
+      "max_abs_fractional_relative_shape_change": 0.0,
+      "max_abs_d_logF_dx_change": 0.0,
+      "chi2": 1490.48488162415,
+      "dof": 1579,
+      "aicc": 1492.4874164783957
+    },
+    {
+      "variant": "zgt0p01",
+      "family": "F1",
+      "max_abs_fractional_relative_shape_change": 0.001146389586447012,
+      "max_abs_d_logF_dx_change": 0.0019612060598959147,
+      "chi2": 1394.4511701467707,
+      "dof": 1578,
+      "aicc": 1398.4587795316788
+    },
+    {
+      "variant": "zgt0p01",
+      "family": "F2",
+      "max_abs_fractional_relative_shape_change": 0.0016154049183454413,
+      "max_abs_d_logF_dx_change": 0.011936448545419864,
+      "chi2": 1385.9469704165263,
+      "dof": 1577,
+      "aicc": 1391.9621988429221
+    },
+    {
+      "variant": "zgt0p01",
+      "family": "F3",
+      "max_abs_fractional_relative_shape_change": 0.0014958452323116324,
+      "max_abs_d_logF_dx_change": 0.02092000087566248,
+      "chi2": 1385.9364135345872,
+      "dof": 1576,
+      "aicc": 1393.9618103599842
+    },
+    {
+      "variant": "zgt0p01",
+      "family": "F4",
+      "max_abs_fractional_relative_shape_change": 0.0018147882394009404,
+      "max_abs_d_logF_dx_change": 0.05011679163486704,
+      "chi2": 1377.9988511237395,
+      "dof": 1574,
+      "aicc": 1390.0522522680499
+    },
+    {
+      "variant": "zgt0p01",
+      "family": "F5",
+      "max_abs_fractional_relative_shape_change": 0.0022178589780614158,
+      "max_abs_d_logF_dx_change": 0.00396821505416467,
+      "chi2": 1386.4052667825517,
+      "dof": 1578,
+      "aicc": 1390.41287616746
+    },
+    {
+      "variant": "zgt0p05",
+      "family": "F0",
+      "max_abs_fractional_relative_shape_change": 0.0,
+      "max_abs_d_logF_dx_change": 0.0,
+      "chi2": 983.858301672139,
+      "dof": 1055,
+      "aicc": 985.8620967385526
+    },
+    {
+      "variant": "zgt0p05",
+      "family": "F1",
+      "max_abs_fractional_relative_shape_change": 0.010612601160912033,
+      "max_abs_d_logF_dx_change": 0.018242255559723475,
+      "chi2": 931.0531209418856,
+      "dof": 1054,
+      "aicc": 935.0645169532816
+    },
+    {
+      "variant": "zgt0p05",
+      "family": "F2",
+      "max_abs_fractional_relative_shape_change": 0.0035865537521915956,
+      "max_abs_d_logF_dx_change": 0.013297142999050493,
+      "chi2": 922.5529767031571,
+      "dof": 1053,
+      "aicc": 928.5757903913701
+    },
+    {
+      "variant": "zgt0p05",
+      "family": "F3",
+      "max_abs_fractional_relative_shape_change": 0.003975214305337602,
+      "max_abs_d_logF_dx_change": 0.01704621599129652,
+      "chi2": 922.3280310153002,
+      "dof": 1052,
+      "aicc": 930.366090006737
+    },
+    {
+      "variant": "zgt0p05",
+      "family": "F4",
+      "max_abs_fractional_relative_shape_change": 0.0046714464034122525,
+      "max_abs_d_logF_dx_change": 0.10336813429472258,
+      "chi2": 916.639952308563,
+      "dof": 1050,
+      "aicc": 928.7200285716707
+    },
+    {
+      "variant": "zgt0p05",
+      "family": "F5",
+      "max_abs_fractional_relative_shape_change": 0.002008853487596033,
+      "max_abs_d_logF_dx_change": 0.0035936453471538954,
+      "chi2": 922.514502302367,
+      "dof": 1054,
+      "aicc": 926.5258983137629
+    },
+    {
+      "variant": "primary_zlt1",
+      "family": "F0",
+      "max_abs_fractional_relative_shape_change": 0.0,
+      "max_abs_d_logF_dx_change": 0.0,
+      "chi2": 1280.3462176934688,
+      "dof": 1345,
+      "aicc": 1282.349193883945
+    },
+    {
+      "variant": "primary_zlt1",
+      "family": "F1",
+      "max_abs_fractional_relative_shape_change": 0.0027037840397869505,
+      "max_abs_d_logF_dx_change": 0.004616655636180411,
+      "chi2": 1198.1149230026124,
+      "dof": 1344,
+      "aicc": 1202.12385822227
+    },
+    {
+      "variant": "primary_zlt1",
+      "family": "F2",
+      "max_abs_fractional_relative_shape_change": 0.02414371521918379,
+      "max_abs_d_logF_dx_change": 0.10608099638724644,
+      "chi2": 1187.9428690922277,
+      "dof": 1343,
+      "aicc": 1193.9607528478164
+    },
+    {
+      "variant": "primary_zlt1",
+      "family": "F3",
+      "max_abs_fractional_relative_shape_change": 0.027940130225308966,
+      "max_abs_d_logF_dx_change": 0.17080195262018028,
+      "chi2": 1187.8701367479978,
+      "dof": 1342,
+      "aicc": 1195.899965234202
+    },
+    {
+      "variant": "primary_zlt1",
+      "family": "F4",
+      "max_abs_fractional_relative_shape_change": 0.018315783707286787,
+      "max_abs_d_logF_dx_change": 0.5093131879116084,
+      "chi2": 1185.2003398364745,
+      "dof": 1340,
+      "aicc": 1197.2630732195962
+    },
+    {
+      "variant": "primary_zlt1",
+      "family": "F5",
+      "max_abs_fractional_relative_shape_change": 0.007470474633636514,
+      "max_abs_d_logF_dx_change": 0.013425646957865744,
+      "chi2": 1188.8900359322963,
+      "dof": 1344,
+      "aicc": 1192.898971151954
+    },
+    {
+      "variant": "raw_upper",
+      "family": "F0",
+      "max_abs_fractional_relative_shape_change": 0.0,
+      "max_abs_d_logF_dx_change": 0.0,
+      "chi2": 1312.7748373101626,
+      "dof": 1370,
+      "aicc": 1314.7777591509223
+    },
+    {
+      "variant": "raw_upper",
+      "family": "F1",
+      "max_abs_fractional_relative_shape_change": 0.0,
+      "max_abs_d_logF_dx_change": 0.0,
+      "chi2": 1219.7275412614733,
+      "dof": 1369,
+      "aicc": 1223.736313191298
+    },
+    {
+      "variant": "raw_upper",
+      "family": "F2",
+      "max_abs_fractional_relative_shape_change": 0.0,
+      "max_abs_d_logF_dx_change": 0.0,
+      "chi2": 1209.5881242026937,
+      "dof": 1368,
+      "aicc": 1215.6056808961832
+    },
+    {
+      "variant": "raw_upper",
+      "family": "F3",
+      "max_abs_fractional_relative_shape_change": 0.0,
+      "max_abs_d_logF_dx_change": 0.0,
+      "chi2": 1209.475847816927,
+      "dof": 1367,
+      "aicc": 1217.5051303937937
+    },
+    {
+      "variant": "raw_upper",
+      "family": "F4",
+      "max_abs_fractional_relative_shape_change": 0.0,
+      "max_abs_d_logF_dx_change": 0.0,
+      "chi2": 1203.587836200835,
+      "dof": 1365,
+      "aicc": 1215.6494197785476
+    },
+    {
+      "variant": "raw_lower",
+      "family": "F0",
+      "max_abs_fractional_relative_shape_change": 0.0,
+      "max_abs_d_logF_dx_change": 0.0,
+      "chi2": 1312.7748373101626,
+      "dof": 1370,
+      "aicc": 1314.7777591509223
+    },
+    {
+      "variant": "raw_lower",
+      "family": "F1",
+      "max_abs_fractional_relative_shape_change": 0.0,
+      "max_abs_d_logF_dx_change": 0.0,
+      "chi2": 1219.7275412614733,
+      "dof": 1369,
+      "aicc": 1223.736313191298
+    },
+    {
+      "variant": "raw_lower",
+      "family": "F2",
+      "max_abs_fractional_relative_shape_change": 0.0,
+      "max_abs_d_logF_dx_change": 0.0,
+      "chi2": 1209.5881242026937,
+      "dof": 1368,
+      "aicc": 1215.6056808961832
+    },
+    {
+      "variant": "raw_lower",
+      "family": "F3",
+      "max_abs_fractional_relative_shape_change": 0.0,
+      "max_abs_d_logF_dx_change": 0.0,
+      "chi2": 1209.475847816927,
+      "dof": 1367,
+      "aicc": 1217.5051303937937
+    },
+    {
+      "variant": "raw_lower",
+      "family": "F4",
+      "max_abs_fractional_relative_shape_change": 0.0,
+      "max_abs_d_logF_dx_change": 0.0,
+      "chi2": 1203.587836200835,
+      "dof": 1365,
+      "aicc": 1215.6494197785476
+    },
+    {
+      "variant": "spline_coarse",
+      "family": "F4",
+      "max_abs_fractional_relative_shape_change": 0.029143794595129842,
+      "max_abs_d_logF_dx_change": 0.19667846136725586,
+      "chi2": 1208.773809789537,
+      "dof": 1367,
+      "aicc": 1216.8030923664037
+    },
+    {
+      "variant": "spline_fine",
+      "family": "F4",
+      "max_abs_fractional_relative_shape_change": 0.00682120030987054,
+      "max_abs_d_logF_dx_change": 0.17364742173518266,
+      "chi2": 1201.8406653886623,
+      "dof": 1362,
+      "aicc": 1219.9729210830046
+    }
+  ]
+}

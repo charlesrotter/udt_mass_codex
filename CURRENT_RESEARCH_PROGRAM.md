@@ -181,11 +181,16 @@ Backup/unsaved state UNVERIFIED; ScratchDisk archive-only.
 
 ## Current next gate
 
-Proposed next exploration:
-`udt_observation_guided_function_search_2026-09-28/WORK_ORDER.md`.
-It combines observation-guided reconstruction with native metric/kernel
-construction and fresh review, within a six-hour first-campaign budget.
-PROPOSED, not launched; no candidate function or new scientific result yet.
+OFS1 is a completed reviewed empirical/conditional UNPROMOTED return:
+`udt_observation_guided_function_search_2026-09-28/DECISION_BRIEF.md`.
+Six SNe families yield finite-range shapes; an unretuned BAO comparison adds a
+conditional derivative constraint. An exact restricted inverse supplies a
+compatible metric but leaves its function/history and interfaces supplied.
+Different smooth tails preserve the same observed range. Native selection,
+physical asymptotic completion and measured local GR correspondence remain OPEN.
+Expanding controls are not the intended native positional explanation. The
+package's REVIEWED_RESULT and CLOSEOUT own repaired scope and independent checks;
+no scientific grade, physical premise or canon changed.
 
 The July optical-time lead is reviewed conditional UNPROMOTED and complete:
 `udt_july_optical_time_dilation_lead_2026-09-28/DECISION_BRIEF.md`.
@@ -210,4 +215,5 @@ checks and review. Return for discussion; no automatic successor.
 DCR1 reviewed conditional UNPROMOTED: directional clocks permit central tides in its supplied static class
 under full G301 at an eligible center; no neighborhood field equation; FE1 UNADOPTED.
 G312 membership/native admission unclosed; response identification OPEN; G352 physical-realization: physical identification remains OPEN.
-Stop for lay discussion; no new campaign is authorized; work order and return gates: `UDT_RESEARCH_ROADMAP.md`.
+Stop for lay discussion. Completed work orders remain closed;
+no new campaign is authorized; work order and return gates: `UDT_RESEARCH_ROADMAP.md`.

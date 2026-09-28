@@ -1,0 +1,12 @@
+{
+  "utc": "2026-09-28T12:12:20.135156+00:00",
+  "exposure": "Additional source reports and public source likelihood/schema after source-first seal, still before campaign candidate or outputs",
+  "sha256": {
+    "udt_g277_observational_scale_anchor_ownership_2026-08-26/LAY_REPORT.md": "f59a444093b57fc56cabc06bff757f98238a186fe9ae29818b1384f07e48b651",
+    "udt_g279_native_kernel_observational_interface_provenance_audit_2026-08-27/LAY_REPORT.md": "523ec4e58699e4b8001de0f077e4621004e34b7bfe20a09efba75cb7fab22129",
+    "udt_g281_sne_validation_provenance_reconstruction_audit_2026-08-27/LAY_REPORT.md": "a0dbd72d6f319f68fcc6f61e1056c2ae4c2ac7a54408a960a3ec4b4026125b1a",
+    "udt_redshift_distance_readiness_2026-09-12/DECISION_BRIEF.md": "c6b772414a5c3a42e006a98ba7f7ddabb6b44106ef36f25dea34e1a04dc78428",
+    "udt_observation_guided_function_search_2026-09-28/data/raw/README.txt": "e2b0d262757f01c1794a938c78d32600a21e289b2a0320e5c660c4c6fc9aa87e",
+    "udt_observation_guided_function_search_2026-09-28/data/raw/release_likelihood.py": "345fac3781a5cb930b95e91c1c07eb17dcf99b441703bb5e449477519240a59d"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "utc": "2026-09-28T12:22:25.677327+00:00",
+  "reason": "Same-cycle reviewer refinement: full STAT+SYS coefficient covariance includes modeled systematics; caption should exclude only additional unmodeled/interface systematics. No numerical change.",
+  "initial_directory": "comparison_reviewed",
+  "preserved_directory": "presentation_initial",
+  "preserved_files_sha256": {
+    "PRECISION_REPAIR.json": "f4815a95a4d80335b43d643b57389479a29d1d16c3616612e2bedfc7f92afeb0",
+    "bao_shape_comparison.png": "55e66859b9f36845eac24f0f90ee0968f7fa6d96d19079cca2377b9ce923408a",
+    "bao_shape_comparison.pdf": "e815a13680a8c988ca02bbe890cebbeacc74141e5315a6ecd436d8aa29b64bca"
+  },
+  "initial_script": "INITIAL_plot_reviewed_bao.py",
+  "initial_script_sha256": "1f490b4068d15e4bff795c0e489cca0313ca7165b925287b6b49fbc62ce18cb0"
+}

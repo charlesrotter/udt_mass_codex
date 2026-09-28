@@ -1,0 +1,47 @@
+{
+  "status": "saved without refit",
+  "scores": {
+    "F0": {
+      "k": 1,
+      "chi2": 1312.7748373101626,
+      "AIC": 1314.7748373101626,
+      "conventional_AICc_heuristic": 1314.7777591509223,
+      "conventional_BIC_heuristic": 1319.998132989725
+    },
+    "F1": {
+      "k": 2,
+      "chi2": 1219.7275412614733,
+      "AIC": 1223.7275412614733,
+      "conventional_AICc_heuristic": 1223.736313191298,
+      "conventional_BIC_heuristic": 1234.174132620598
+    },
+    "F2": {
+      "k": 3,
+      "chi2": 1209.5881242026937,
+      "AIC": 1215.5881242026937,
+      "conventional_AICc_heuristic": 1215.6056808961832,
+      "conventional_BIC_heuristic": 1231.2580112413807
+    },
+    "F3": {
+      "k": 4,
+      "chi2": 1209.475847816927,
+      "AIC": 1217.475847816927,
+      "conventional_AICc_heuristic": 1217.5051303937937,
+      "conventional_BIC_heuristic": 1238.3690305351763
+    },
+    "F4": {
+      "k": 6,
+      "chi2": 1203.587836200835,
+      "AIC": 1215.587836200835,
+      "conventional_AICc_heuristic": 1215.6494197785476,
+      "conventional_BIC_heuristic": 1246.927610278209
+    },
+    "F5": {
+      "k": 2,
+      "chi2": 1209.6956368085173,
+      "AIC": 1213.6956368085173,
+      "conventional_AICc_heuristic": 1213.704408738342,
+      "conventional_BIC_heuristic": 1224.1422281676419
+    }
+  }
+}

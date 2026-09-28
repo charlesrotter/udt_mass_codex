@@ -1,0 +1,28 @@
+{
+  "utc": "2026-09-28T12:12:51.620332+00:00",
+  "files": {
+    "geometry/DATA_EXPOSED_CHECK_FREEZE.md": "c038cde7a5a2abe869229ee6eb5ce0a3c9a9ad8ad1a3e38a0e843f1c229e5ad1",
+    "geometry/DATA_EXPOSED_FOLLOWUP.md": "927042efac2c0b45c5e0f8ec4d7f5f1d4c6eea311738027599428d0a8b2d05c5",
+    "geometry/DISCOVERY_AND_CHECK_LOG.md": "5138c3acbd88157da91fc516d0ade30649ed8b6230ee3223bd13015f4d61b492",
+    "geometry/FINAL_INTEGRITY.json": "f3423345f5755b1950c45fa28ac7a4b29cb12987234744cb24ddd83ab07cec67",
+    "geometry/INITIAL_FREEZE.json": "ef747f978e66f4b83a2372c30f03e5a9b43d04f9fc5c579aa4cb4bcf003131a5",
+    "geometry/INITIAL_METRIC_PASS.md": "5b0f6796df76d826f9dd745a5737dd4d13d25562e21dbe122b440d74c367b273",
+    "geometry/NUMERICAL_FREEZE.md": "dff2aac7bd7af873a368719433bd6179f0fa4cbc2cbaf238106f07d58fbbc9a1",
+    "geometry/POST_FREEZE_ANALYTIC_NOTE.md": "4bdcb6c8b71da563232e248d5a98a6d2dd546d7499bcc791b5710011fd80cdf8",
+    "geometry/SCOPED_REGISTRY.json": "8d7cde86d6750c594ac8c0dfc77744e6c55e8b849cb0092c9be2b357aae3b703",
+    "geometry/SOURCE_PINS.json": "273f9c183cba9b506818a30f96bc7f90f7993d88bc8962a30b53bab2264a3a84",
+    "geometry/author_01.run.json": "400a88b7144d86df1b94b437a04ee8354a985fbbd7574529dede75351d76a9a2",
+    "geometry/author_01.stderr.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "geometry/author_01.stdout.json": "8b2fb0166905af589550a1260718a7d8c77adef8fa017b285f2ed299b4a40723",
+    "geometry/check_data_inverse.py": "ec47e84d91418cb3fae70142b495c4b607ef1325ddf01b1227b65fa3001833ed",
+    "geometry/check_geometry.py": "0605d00ae53d195935d5163a02834f825b008a5f3846a4a21aab71e18af84094",
+    "geometry/conditional_inverse_comparison.png": "33556edb0b61aa08f2e7db69faeb80d8a27bd7ccd24f2c399694c8dddb8dc4a2",
+    "geometry/conditional_inverse_comparison.svg": "09c3c4ad63f27e46857b908371d38147f16bec53dc3d4b30f026768a38bee43c",
+    "geometry/data_inverse_01.run.json": "dedd27a4ab298f0ee9145c1e15f8d5094d4af8d3b061d5ffbf88ab0ae8ec181b",
+    "geometry/data_inverse_01.stderr.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "geometry/data_inverse_01.stdout.json": "33bd76d122e21fc5b549d2fe1d00f63a2aa182d877da6bf368b9b0e56abf5533",
+    "geometry/data_inverse_values.tsv": "564f8b34469b94ea180a17a9a94805afc9987f1b656d882961ad21bfaca35c6d",
+    "GEOMETRY_RESULT.md": "65705eaa6f681dd91fd914d6675ffa66425ec5730daab251e34ff5bb59e4dda3"
+  },
+  "status": "DRAFT; hashes establish file correspondence, not truth or independent chronology."
+}

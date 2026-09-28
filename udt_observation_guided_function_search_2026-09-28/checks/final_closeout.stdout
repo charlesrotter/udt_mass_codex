@@ -1,0 +1,51 @@
+{
+  "utc": "2026-09-28T12:27:40.693704+00:00",
+  "head": "2dcec4fcf54c418543cc41c464432cb6028aa697",
+  "scope": "Final packaging/startup/preservation; no new scientific verification or protected-content reads",
+  "initial_files_preserved": 132,
+  "mutable_snapshot_mapping": {
+    "WORK_ORDER.md": "INITIAL_WORK_ORDER.md",
+    "DECISION_BRIEF.md": "INITIAL_DECISION_BRIEF.md"
+  },
+  "core_sources_unchanged": [
+    "AGENTS.md",
+    "CLAUDE.md",
+    "CANON.md",
+    "founding.md",
+    "CURRENT_SCIENTIFIC_PREMISES.md",
+    "CURRENT_SCIENTIFIC_PREMISES.tsv",
+    "verify_current_scientific_premises.py"
+  ],
+  "preexisting_paths_present": 52,
+  "preexisting_paths_staged": [],
+  "tracked_changes_in_scope": [
+    "CURRENT_RESEARCH_PROGRAM.md",
+    "HANDOFF.md",
+    "INDEX.md",
+    "LIVE.md",
+    "MEMORY.md",
+    "UDT_RESEARCH_ROADMAP.md",
+    "udt_observation_guided_function_search_2026-09-28/WORK_ORDER.md"
+  ],
+  "startup_surface_validator": "PASS",
+  "git_diff_check": "PASS",
+  "relative_package_links": "PASS",
+  "full_audit": {
+    "returncode": 0,
+    "duration_seconds": 406.5033215469957,
+    "timeout": false
+  },
+  "full_audit_scope": "Active-status inputs before final prose changes; scientific inputs unchanged, current startup surface checked here",
+  "elapsed_seconds_at_check": 2528.285795,
+  "package_files_at_check": 194,
+  "package_bytes_at_check": 16314840,
+  "surface_sha256": {
+    "LIVE.md": "525bbc6ec344a6004a9eee6ad27045654dfb31cedee787307a5eceb25f23c962",
+    "HANDOFF.md": "602c01098f2aaab7d0a637286d42bc466e44f15264cce0a5bcfc9e8860d50ff5",
+    "CURRENT_RESEARCH_PROGRAM.md": "39acf0ba8fa9120a630553e699e878df624cc0e5a4e667c762c99d6e041b56da",
+    "UDT_RESEARCH_ROADMAP.md": "9a125835bf3f0deaf04c2e2f977552ce01ccbddb26b5e563eff70bd5d7975dda",
+    "INDEX.md": "6a3f918ed7245db67ebc87bfb86107b5050b5f0e697d3bfc5dff7cf80e7f2fc5",
+    "MEMORY.md": "a7fe50c62f7345733f64cc5dbc9ce85f8e6ec05e9c4e949db1bdb58abb6869d6"
+  },
+  "script_sha256": "2f4186f6f571c77cb71ad43907e8ee82ae91833a9383f69d41767934f4c8360e"
+}

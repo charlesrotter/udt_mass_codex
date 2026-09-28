@@ -1,0 +1,35 @@
+{
+  "utc": "2026-09-28T12:32:03.202618+00:00",
+  "scope": "Packaging-only staged-whitespace fidelity addendum; science unchanged",
+  "changed_previous_fidelity_docs": [
+    "udt_observation_guided_function_search_2026-09-28/CLOSEOUT.md",
+    "udt_observation_guided_function_search_2026-09-28/CAMPAIGN_LOG.md"
+  ],
+  "compressed_failure_hash_and_bytes_match": true,
+  "diagnostic_counts_match": true,
+  "diagnostic_total": 14138,
+  "scoped_staged_check_command": [
+    "git",
+    "-c",
+    "core.whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol",
+    "diff",
+    "--cached",
+    "--check",
+    "--",
+    ".",
+    ":(exclude)udt_observation_guided_function_search_2026-09-28/data/raw",
+    ":(exclude)udt_observation_guided_function_search_2026-09-28/observations/sources",
+    ":(exclude)udt_observation_guided_function_search_2026-09-28/geometry/conditional_inverse_comparison.svg"
+  ],
+  "scoped_staged_check_returncode": 0,
+  "scoped_stdout_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "scoped_stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "unstaged_diff_check": "PASS",
+  "initial132_scientific_snapshot_preserved": true,
+  "cycle1_repair_pins_unchanged": true,
+  "evidence_sha256": {
+    "udt_observation_guided_function_search_2026-09-28/checks/STAGED_WHITESPACE_INITIAL.json": "d9d5a3593e3321b608631a6ccbcfd27b94ab3aade5c342a1dcd150c9e301d772",
+    "udt_observation_guided_function_search_2026-09-28/checks/STAGED_AUTHORED_WHITESPACE.json": "51e8e11abc5ebb15e6864dfd0481ba6a3f5e39f5754c0133bcef2cf9ff212f0d",
+    "udt_observation_guided_function_search_2026-09-28/checks/staged_whitespace_initial.stdout.gz": "154da98a743c6738c000a3d7c545d45f72106a2933a17c5a82c9f6adba6e2e78"
+  }
+}

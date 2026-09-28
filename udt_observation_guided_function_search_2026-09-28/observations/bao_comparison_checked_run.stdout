@@ -1,0 +1,36 @@
+{
+  "bao_delta_ok": true,
+  "included": 5,
+  "models": {
+    "F0": {
+      "quadratic_consistency_statistic": 9.238415169701788,
+      "local_gaussian_prediction_diagnostic_pass": true,
+      "positive_draw_fraction_all_included": 1.0
+    },
+    "F1": {
+      "quadratic_consistency_statistic": 31.353480182506978,
+      "local_gaussian_prediction_diagnostic_pass": true,
+      "positive_draw_fraction_all_included": 1.0
+    },
+    "F2": {
+      "quadratic_consistency_statistic": 4.518571598780655,
+      "local_gaussian_prediction_diagnostic_pass": true,
+      "positive_draw_fraction_all_included": 1.0
+    },
+    "F3": {
+      "quadratic_consistency_statistic": 4.3117360422451965,
+      "local_gaussian_prediction_diagnostic_pass": true,
+      "positive_draw_fraction_all_included": 1.0
+    },
+    "F4": {
+      "quadratic_consistency_statistic": null,
+      "local_gaussian_prediction_diagnostic_pass": false,
+      "positive_draw_fraction_all_included": 1.0
+    },
+    "F5": {
+      "quadratic_consistency_statistic": 7.111386647022124,
+      "local_gaussian_prediction_diagnostic_pass": true,
+      "positive_draw_fraction_all_included": 1.0
+    }
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "utc": "2026-09-28T12:29:29.499835+00:00",
+  "head": "2dcec4fcf54c418543cc41c464432cb6028aa697",
+  "origin_tracking_hash": "2dcec4fcf54c418543cc41c464432cb6028aa697",
+  "scope": "final wording/link/preservation fidelity; no repeat scientific audit",
+  "initial_files_preserved": 132,
+  "initial_snapshot_mapping": {
+    "WORK_ORDER.md": "INITIAL_WORK_ORDER.md",
+    "DECISION_BRIEF.md": "INITIAL_DECISION_BRIEF.md"
+  },
+  "source_core_unchanged": true,
+  "prior_repair_pins_unchanged": true,
+  "focused_startup_validator": "PASS",
+  "git_diff_check": "PASS",
+  "relative_links": "PASS",
+  "sha256": {
+    "udt_observation_guided_function_search_2026-09-28/DECISION_BRIEF.md": "614e5a71335833439af94ea719c0ac506b4e5a1766177cc335643ee345243a29",
+    "udt_observation_guided_function_search_2026-09-28/CLOSEOUT.md": "e216bfa2740e0fc96bb3929aab5dc0235431cf2fc87352bf5e8ba66e645113f2",
+    "udt_observation_guided_function_search_2026-09-28/WORK_ORDER.md": "65250c53d25ae0ee32718b1a21aa9ac8db36fba2d36051da933765a4dc836cf2",
+    "udt_observation_guided_function_search_2026-09-28/CAMPAIGN_LOG.md": "6fa79c0deca1dcef555acdf0b4ffb6b5eb46cb0f9774e832c90a00bd599fe9c1",
+    "LIVE.md": "525bbc6ec344a6004a9eee6ad27045654dfb31cedee787307a5eceb25f23c962",
+    "HANDOFF.md": "602c01098f2aaab7d0a637286d42bc466e44f15264cce0a5bcfc9e8860d50ff5",
+    "CURRENT_RESEARCH_PROGRAM.md": "39acf0ba8fa9120a630553e699e878df624cc0e5a4e667c762c99d6e041b56da",
+    "UDT_RESEARCH_ROADMAP.md": "9a125835bf3f0deaf04c2e2f977552ce01ccbddb26b5e563eff70bd5d7975dda",
+    "INDEX.md": "6a3f918ed7245db67ebc87bfb86107b5050b5f0e697d3bfc5dff7cf80e7f2fc5",
+    "MEMORY.md": "a7fe50c62f7345733f64cc5dbc9ce85f8e6ec05e9c4e949db1bdb58abb6869d6",
+    "udt_observation_guided_function_search_2026-09-28/checks/STAGED_WHITESPACE_INITIAL.json": "d9d5a3593e3321b608631a6ccbcfd27b94ab3aade5c342a1dcd150c9e301d772",
+    "udt_observation_guided_function_search_2026-09-28/checks/STAGED_AUTHORED_WHITESPACE.json": "51e8e11abc5ebb15e6864dfd0481ba6a3f5e39f5754c0133bcef2cf9ff212f0d",
+    "udt_observation_guided_function_search_2026-09-28/checks/staged_whitespace_initial.stdout.gz": "154da98a743c6738c000a3d7c545d45f72106a2933a17c5a82c9f6adba6e2e78"
+  },
+  "excluded_pending_parent_operations": [
+    "final ARTIFACT_MANIFEST creation/verification",
+    "commit/push and remote result",
+    "freshness of parent-attributed pre-banking fetch"
+  ],
+  "packaging_addenda": [
+    {
+      "utc": "2026-09-28T12:32:03.202618+00:00",
+      "prior_doc_sha256": {
+        "udt_observation_guided_function_search_2026-09-28/CLOSEOUT.md": "92cca1809065443ea809403549eee7dc9b27a55eed78e572e1941e83884039ed",
+        "udt_observation_guided_function_search_2026-09-28/CAMPAIGN_LOG.md": "0ab44d66ac0d0704a8bb2fa48b3bd61619bde99006d04782858e49257b57587f"
+      },
+      "check": "review/STAGED_WHITESPACE_FIDELITY.json",
+      "scope": "Packaging-only staged-whitespace fidelity addendum; science unchanged"
+    }
+  ],
+  "latest_packaging_utc": "2026-09-28T12:32:03.202618+00:00"
+}

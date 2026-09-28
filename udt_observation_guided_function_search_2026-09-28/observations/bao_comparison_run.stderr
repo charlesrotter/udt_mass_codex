@@ -1,0 +1,6 @@
+Traceback (most recent call last):
+  File "/home/udt-admin/udt_mass_codex/udt_observation_guided_function_search_2026-09-28/observations/compare_bao.py", line 181, in <module>
+    if __name__=='__main__': main()
+  File "/home/udt-admin/udt_mass_codex/udt_observation_guided_function_search_2026-09-28/observations/compare_bao.py", line 148, in main
+    if jacobian_error>2e-7: raise AssertionError(f'{family} parameter Jacobian disagreement {jacobian_error}')
+AssertionError: F4 parameter Jacobian disagreement 9.356114181633723e-07

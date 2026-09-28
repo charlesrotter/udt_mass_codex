@@ -1,0 +1,26 @@
+{
+  "source": "udt_shared_readout_metric_constraint_campaign_2026-09-06/run_capture.py",
+  "source_sha256": "8ff5469ace76bdfc84188915242abbf3baff35516f9ee3f9ba4b1cbfeb2573ef",
+  "adapted_capture_sha256": "8677c2c7a4dfe26b6ba53455caaf24aad5027ac88907f5427cb430838749350c",
+  "wrapper_sha256": "1b95a783e861a52cc9fc50d3c76c152cb3673fc9045372afafd30da269ffec3f",
+  "replacements": {
+    "(512 * 1024**2, 512 * 1024**2)": "(1024 * 1024**2, 1024 * 1024**2)",
+    "(60, 60)": "(420, 420)",
+    "timeout=60": "timeout=420",
+    "address_space_bytes=512 * 1024**2": "address_space_bytes=1024 * 1024**2",
+    "cpu_seconds=60": "cpu_seconds=420"
+  },
+  "thread_environment": {
+    "OMP_NUM_THREADS": "1",
+    "OPENBLAS_NUM_THREADS": "1",
+    "MKL_NUM_THREADS": "1"
+  },
+  "limits": {
+    "seconds": 420,
+    "mib": 1024
+  },
+  "command": [
+    "python3",
+    "udt_observation_guided_function_search_2026-09-28/observations/fetch_sources.py"
+  ]
+}

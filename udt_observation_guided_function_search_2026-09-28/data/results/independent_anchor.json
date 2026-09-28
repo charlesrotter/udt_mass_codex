@@ -1,0 +1,85 @@
+{
+  "status": "PASS_WITH_RELEASE_CAVEATS",
+  "utc": "2026-09-28T11:59:03.446493+00:00",
+  "independence": "same author context, separate implementation; no import/reuse of fitter functions; not separate-context review",
+  "raw_covariance_sha256": "abf806d966485e64afdb359c87bffc0ecc00d05eff0a31ced66f247385df0fdc",
+  "script_sha256": "89af96d4364f11149528c7a6c3921c6702c36801f5d3579036e4313b70e173d6",
+  "checks": {
+    "F0": {
+      "beta_max_abs_difference": 1.0658141036401503e-14,
+      "covariance_max_abs_difference": 3.3881317890172014e-21,
+      "chi2": 1312.7748373101617,
+      "chi2_abs_difference": 9.094947017729282e-13,
+      "original_solve_scaled_backward_error": 4.348515377533628e-18
+    },
+    "F1": {
+      "beta_max_abs_difference": 1.0350054147068022e-13,
+      "covariance_max_abs_difference": 1.0842021724855044e-19,
+      "chi2": 1219.727541261474,
+      "chi2_abs_difference": 6.821210263296962e-13,
+      "original_solve_scaled_backward_error": 3.951322918296076e-18
+    },
+    "F2": {
+      "beta_max_abs_difference": 3.1952218648712005e-13,
+      "covariance_max_abs_difference": 1.734723475976807e-17,
+      "chi2": 1209.5881242026933,
+      "chi2_abs_difference": 4.547473508864641e-13,
+      "original_solve_scaled_backward_error": 3.4719696176306865e-18
+    },
+    "F2_validation": {
+      "conditional_predictive_chi2": 280.5745661004318,
+      "difference": 5.6843418860808015e-12,
+      "n_validation": 301
+    },
+    "F3": {
+      "beta_max_abs_difference": 4.0189518379918354e-12,
+      "covariance_max_abs_difference": 1.4363510381087963e-15,
+      "chi2": 1209.475847816928,
+      "chi2_abs_difference": 1.1368683772161603e-12,
+      "original_solve_scaled_backward_error": 3.646362151728036e-18
+    },
+    "F4": {
+      "beta_max_abs_difference": 5.684341886080802e-14,
+      "covariance_max_abs_difference": 1.734723475976807e-18,
+      "chi2": 1203.5878362008382,
+      "chi2_abs_difference": 3.183231456205249e-12,
+      "original_solve_scaled_backward_error": 3.645854136460265e-18
+    },
+    "F5_adaptive_quadrature": {
+      "chi2": 1209.6956368085173,
+      "difference": 0.0,
+      "anchors": {
+        "0.1": 0.09750371902804707,
+        "0.5": 0.4367891143475856,
+        "1": 0.7590247433010828,
+        "2": 1.1816897648558031
+      }
+    },
+    "release_schema_diagnostic": {
+      "n_release": 1701,
+      "distinct_CID_keys": 1543,
+      "all_rows_sigma_vs_table_max_abs": 1.3379655610965662,
+      "primary_sigma_vs_table_max_abs": 0.2114666722081764,
+      "primary_sigma_vs_table_median_difference": -0.056394068284997684,
+      "interpretation": "Published plotting-error column is not numerically the covariance diagonal; it was never used for fitting. Issue6/13 retained, unresolved explanation."
+    }
+  },
+  "nested_contrasts": {
+    "F0_to_F1": {
+      "delta_chi2": 93.0472960486893,
+      "extra_parameters": 1,
+      "nominal_nested_p": 5.105947335250963e-22
+    },
+    "F1_to_F2": {
+      "delta_chi2": 10.1394170587796,
+      "extra_parameters": 1,
+      "nominal_nested_p": 0.0014513205273472927
+    },
+    "F2_to_F3": {
+      "delta_chi2": 0.11227638576679055,
+      "extra_parameters": 1,
+      "nominal_nested_p": 0.7375672388677885
+    }
+  },
+  "not_checked": "Raw-photometry likelihood, physical optical transfer, unknown covariance errors, native-law derivation, parameter identifiability beyond this empirical model."
+}

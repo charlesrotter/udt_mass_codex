@@ -42,6 +42,10 @@ G388--G389 conditional, compact-sector mixed-C2/analytic-local tangent limits; o
 
 ## Founding, relational and response sources
 
+- OFS1 observation-guided functions, reviewed empirical/conditional UNPROMOTED:
+  `udt_observation_guided_function_search_2026-09-28/DECISION_BRIEF.md`.
+  REVIEWED_RESULT controls the initial snapshot with REPAIR qualifications;
+  CLOSEOUT owns independent checks and preservation. Native selection remains OPEN.
 - July optical-time/dilation lead, reviewed conditional UNPROMOTED:
   `udt_july_optical_time_dilation_lead_2026-09-28/DECISION_BRIEF.md`.
   Its CLOSEOUT owns checks, repair/re-review and the native-selection stop;

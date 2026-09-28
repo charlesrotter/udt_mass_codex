@@ -1,0 +1,19 @@
+{
+  "utc": "2026-09-28T12:12:51.620152+00:00",
+  "initial_preservation": {
+    "INITIAL_METRIC_PASS.md": true,
+    "NUMERICAL_FREEZE.md": true,
+    "SOURCE_PINS.json": true,
+    "SCOPED_REGISTRY.json": true,
+    "POST_FREEZE_ANALYTIC_NOTE.md": true,
+    "check_geometry.py": true
+  },
+  "author_01_passed": true,
+  "data_inverse_01_passed": true,
+  "stderr_empty": [
+    true,
+    true
+  ],
+  "status": "DRAFT pending actual fresh separate-context review; parent owns full premise audit and banking",
+  "exposure": "Initial metric pass sealed before fits; later fixed-coefficient exposed followup separately preserved."
+}

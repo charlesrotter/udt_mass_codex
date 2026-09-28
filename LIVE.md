@@ -116,6 +116,15 @@ Protected—do not stage, modify, mine or cite without dispatch:
 
 ### Next gate
 
+OFS1 observation-guided function search is reviewed empirical/conditional
+UNPROMOTED; its bounded scientific/review cycle is complete:
+`udt_observation_guided_function_search_2026-09-28/DECISION_BRIEF.md`.
+Six SNe families, a conditional unretuned BAO comparison, and an exact supplied
+metric inverse give concrete finite-range leads. Native selection, local GR
+precision and physical asymptotic completion remain OPEN. Expanding controls
+are not the intended native positional explanation. REVIEWED_RESULT and
+CLOSEOUT own qualifications, fresh review, precision repairs and checks.
+
 July optical-time lead reviewed conditional UNPROMOTED; bounded cycle complete:
 `udt_july_optical_time_dilation_lead_2026-09-28/DECISION_BRIEF.md`.
 Stationary reversal belongs to the old supplied model, not a general UDT law.
@@ -133,5 +142,7 @@ affine control was not promoted to a positional law. This bounded cycle is compl
 DCR1 reviewed conditional UNPROMOTED: directional clocks permit central tides in its supplied static class
 under full G301 at an eligible center; no neighborhood field equation; FE1 UNADOPTED.
 G312 membership/native admission unclosed; response identification OPEN; G352 physical-realization: physical identification remains OPEN.
-Stop for lay discussion; no new campaign is authorized; work order and return gates: `UDT_RESEARCH_ROADMAP.md`.
+Stop for lay discussion. The function-search return does not authorize a
+successor; no new campaign is authorized; work order and return gates:
+`UDT_RESEARCH_ROADMAP.md`.
 <!-- STARTUP_CURRENT_END -->
