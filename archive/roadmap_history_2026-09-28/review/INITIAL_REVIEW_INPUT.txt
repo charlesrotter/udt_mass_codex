@@ -1,0 +1,694 @@
+# Direct-review exposure snapshot
+
+Captured tool outputs before repair; this records review exposure, not independent scientific proof.
+
+## git diff -- LIVE.md HANDOFF.md MEMORY.md INDEX.md
+
+diff --git a/HANDOFF.md b/HANDOFF.md
+index 561b11ca..b4972650 100644
+--- a/HANDOFF.md
++++ b/HANDOFF.md
+@@ -87,46 +87,22 @@ Follow AGENTS; report actual instructions/checks and distinguish configured from
+ Dated availability check COMPLETE: `archive/stale_working_documents_2026-09-27/maintenance_agent_capacity_2026-09-10.md`.
+ General capacity UNVERIFIED; no automatic repeat. FSR1/PJC1 supplied no new field equation; Maxwell PAUSED.
+ 
+-Next: RMS1 response meaning/scaling exploration is reviewed conditional UNPROMOTED;
+-its bounded construction, exact checks and fresh adversarial review are complete:
+-`udt_response_measurement_scaling_2026-09-28/DECISION_BRIEF.md`.
+-Conditional directional clock/motion records reconstruct Ricci; their matched
+-unit-observer readings have weight -2 under constant metric homothety.
+-This does not identify DDR's response. The narrower sufficient target is
+-S=TF(E): under the reviewed covariant rank-two, natural finite-jet, flat-regular
+-flattening-domain and exact weight-zero hypotheses, S=a(Ric-Rg/4).
+-With a!=0, DDR gives the trace-free Einstein vacuum equation. Native ownership
+-of these hypotheses, physical response identification and nonzero a remain OPEN.
+-Kernel differentiation and direct G352 density identification fail their stated
+-shortcuts; this is not universal non-derivability. Geometry needs no blanket
+-light-theory prerequisite; actual record access and signal identification remain
+-conditional. GR is FILTER ONLY. No field law, scale symmetry or premise is adopted.
+-REVIEWED_RESULT and CLOSEOUT own precision qualifications, review and limits.
+-
+-Prior GRS1 reviewed conditional UNPROMOTED return:
+-`udt_gr_response_selection_2026-09-28/DECISION_BRIEF.md`.
+-Its full-E conditional classification survives; RMS1 weakens this route's target
+-to TF(E). Reciprocity does not select an action; EH/R^2 remain unadopted comparisons.
+-Native selection, measured local GR precision and physical asymptotic completion
+-remain OPEN. No scientific grade, canon or successor is adopted.
+-
+-Prior CRD1 reviewed conditional UNPROMOTED return:
+-`udt_clock_curvature_derivation_2026-09-28/DECISION_BRIEF.md`.
+-Full shifted-pair/full4D clock-curvature identities remain valid at their scopes.
+-The restricted scalar relation is elliptic with derivative-free curvature input;
+-a larger-system constraint role remains possible. It selects no native response.
+-
+-Prior CGW1 reviewed conditional UNPROMOTED return:
+-`udt_common_geometry_whiteboard_2026-09-28/DECISION_BRIEF.md`.
+-Its clock/screen restrictions and scoped drift discriminator remain unchanged.
+-
+-Prior OFS1 reviewed empirical/conditional UNPROMOTED return:
+-`udt_observation_guided_function_search_2026-09-28/DECISION_BRIEF.md`.
+-Its finite-range SNe/conditional BAO shapes and supplied inverse remain leads;
+-expanding controls are not the intended native positional law.
+-Prior July optical-time and positional-geometry cycles are complete; INDEX
+-routes their reviewed returns. Their stationary controls select no generic
+-future-return rule, preferred observer or required Hubble expansion.
++Next: RMS1 is complete, reviewed conditional UNPROMOTED. Its result and the current
++research checkpoint are explained in `CURRENT_RESEARCH_PROGRAM.md`, “Current next gate.”
++Lay return: `udt_response_measurement_scaling_2026-09-28/DECISION_BRIEF.md`;
++exact hypotheses, review and limits: that package's REVIEWED_RESULT and CLOSEOUT.
++
++We can reconstruct geometric information from specified ideal clock/motion
++records; identifying the response whose balance selects geometry remains OPEN.
++The narrower conditional route concerns TF(E); it adopts no response law or new
++premise. Physical event/path-to-depth assignment, actual measurement connection,
++local empirical correspondence and global asymptotic completion remain distinct.
++No completed microscopic light theory is a blanket prerequisite for scoped geometry
++or justified conditional measurement. Founding intent above remains controlling.
++
++INDEX routes GRS1/CRD1/CGW1/OFS1 and the July results. Completed campaign chronology
++is historical: `archive/roadmap_history_2026-09-28/README.md`. Original source paths,
++conditions and grades are unchanged; former next-step language is not authorization.
+ 
+ DCR1 reviewed conditional UNPROMOTED: directional clocks permit central tides in its supplied static class
+ under full G301 at an eligible center; no neighborhood field equation; FE1 UNADOPTED.
+diff --git a/INDEX.md b/INDEX.md
+index 4f9542f5..739d4d74 100644
+--- a/INDEX.md
++++ b/INDEX.md
+@@ -1,9 +1,7 @@
+ # INDEX — compact current pointers; `LIVE.md` wins
+ 
+-G383--G415 banked; G416--G423 acceptance: `udt_signal_chain_banking_2026-09-13/BANKING_RECORD.md`.
+-Roadmap: `UDT_RESEARCH_ROADMAP.md`; G414: `udt_ti2_banking_2026-09-11/BANKING_RECORD.md`; TI3 reviewed/UNPROMOTED: `udt_two_shape_profile_dependence_2026-09-11/DECISION_BRIEF.md`.
+-CWA1: `UDT_CONSOLIDATED_RESEARCH_ACCOUNT.md`; BE1/SD1/NR1/NR2/NFCA1/GFC1/LSR1/TC0/FEP1/FE1/JRC1/PJC1/FSR1/DCR1: roadmap; NAP1: `udt_native_angular_premise_audit_2026-09-13/DECISION_BRIEF.md` (reviewed/UNPROMOTED).
+-Backlog: `udt_reviewed_backlog_banking_2026-09-10/BANKING_RECORD.md`; exact claims/dispositions/checks there.
++Current explanation: `CURRENT_RESEARCH_PROGRAM.md`; current direction: `UDT_RESEARCH_ROADMAP.md`.
++Completed chronology and older campaign locator: `archive/roadmap_history_2026-09-28/README.md`.
+ The exact 406-row `CURRENT_SCIENTIFIC_PREMISES.tsv` owns grades, not these pointers.
+ GR is FILTER ONLY, not a response-law input; Local Metric Sufficiency remains owner-provisional.
+ Inherited G312 Einstein claims remain CONDITIONAL, not established from filter-only GR; grades fixed.
+@@ -42,6 +40,10 @@ G388--G389 conditional, compact-sector mixed-C2/analytic-local tangent limits; o
+ 
+ ## Founding, relational and response sources
+ 
++Use CURRENT_RESEARCH_PROGRAM for the connected explanation. Open the following
++exact source only for the question it addresses; none is a new startup prerequisite.
++RMS1/GRS1/CRD1/CGW1/OFS1 remain reviewed UNPROMOTED; their source reviews control.
++
+ - RMS1 response meaning/scaling, reviewed conditional UNPROMOTED:
+   `udt_response_measurement_scaling_2026-09-28/DECISION_BRIEF.md`.
+   Conditional clock/motion-to-Ricci scaling, trace-free-only sufficient target
+@@ -95,6 +97,11 @@ G388--G389 conditional, compact-sector mixed-C2/analytic-local tangent limits; o
+ 
+ ## Exact conditional banking and original evidence
+ 
++G383--G415 banked; G416--G423 acceptance: `udt_signal_chain_banking_2026-09-13/BANKING_RECORD.md`.
++Roadmap: `UDT_RESEARCH_ROADMAP.md`; G414: `udt_ti2_banking_2026-09-11/BANKING_RECORD.md`; TI3 reviewed/UNPROMOTED: `udt_two_shape_profile_dependence_2026-09-11/DECISION_BRIEF.md`.
++CWA1: `UDT_CONSOLIDATED_RESEARCH_ACCOUNT.md`; BE1/SD1/NR1/NR2/NFCA1/GFC1/LSR1/TC0/FEP1/FE1/JRC1/PJC1/FSR1/DCR1: archived roadmap locator; NAP1: `udt_native_angular_premise_audit_2026-09-13/DECISION_BRIEF.md` (reviewed/UNPROMOTED).
++Backlog: `udt_reviewed_backlog_banking_2026-09-10/BANKING_RECORD.md`; exact claims/dispositions/checks there.
++
+ Each BANKING_RECORD links entire controlling candidates/reviews, exclusions and execution receipts;
+ original UNPROMOTED/NOT_BANKED headings remain historical. Old proposals do not authorize successors.
+ 
+@@ -143,5 +150,6 @@ These reviewed conditional designs/benchmarks are not scientific-grade or eligib
+ - Chosen-family evaluators/controls: `udt_g190_completed_pair_timelive_frequency_screen_join_2026-08-20/`;
+   `udt_g196_longitudinal_screen_mixing_descent_2026-08-20/`—not current construction inputs.
+ - Historical startup: `archive/STARTUP_SURFACE_HISTORY.md`; prior current pages remain in Git.
++- Completed roadmap chronology: `archive/roadmap_history_2026-09-28/README.md`; byte-preserved baseline and editorial review.
+ - Cleanup/archive lookup: `udt_repository_cleanup_2026-09-27/README.md`.
+ - Known old path only: `research/_registry/CURRENT_ARTIFACT_PATHS.tsv`, not a frontier/startup read.
+diff --git a/LIVE.md b/LIVE.md
+index 8f4dec24..fb804146 100644
+--- a/LIVE.md
++++ b/LIVE.md
+@@ -116,46 +116,22 @@ Protected—do not stage, modify, mine or cite without dispatch:
+ 
+ ### Next gate
+ 
+-RMS1 response meaning/scaling exploration is reviewed conditional UNPROMOTED;
+-its bounded construction, exact checks and fresh adversarial review are complete:
+-`udt_response_measurement_scaling_2026-09-28/DECISION_BRIEF.md`.
+-Conditional directional clock/motion records reconstruct Ricci; their matched
+-unit-observer readings have weight -2 under constant metric homothety.
+-This does not identify DDR's response. The narrower sufficient target is
+-S=TF(E): under the reviewed covariant rank-two, natural finite-jet, flat-regular
+-flattening-domain and exact weight-zero hypotheses, S=a(Ric-Rg/4).
+-With a!=0, DDR gives the trace-free Einstein vacuum equation. Native ownership
+-of these hypotheses, physical response identification and nonzero a remain OPEN.
+-Kernel differentiation and direct G352 density identification fail their stated
+-shortcuts; this is not universal non-derivability. Geometry needs no blanket
+-light-theory prerequisite; actual record access and signal identification remain
+-conditional. GR is FILTER ONLY. No field law, scale symmetry or premise is adopted.
+-REVIEWED_RESULT and CLOSEOUT own precision qualifications, review and limits.
+-
+-Prior GRS1 reviewed conditional UNPROMOTED return:
+-`udt_gr_response_selection_2026-09-28/DECISION_BRIEF.md`.
+-Its full-E conditional classification survives; RMS1 weakens this route's target
+-to TF(E). Reciprocity does not select an action; EH/R^2 remain unadopted comparisons.
+-Native selection, measured local GR precision and physical asymptotic completion
+-remain OPEN. No scientific grade, canon or successor is adopted.
+-
+-Prior CRD1 reviewed conditional UNPROMOTED return:
+-`udt_clock_curvature_derivation_2026-09-28/DECISION_BRIEF.md`.
+-Full shifted-pair/full4D clock-curvature identities remain valid at their scopes.
+-The restricted scalar relation is elliptic with derivative-free curvature input;
+-a larger-system constraint role remains possible. It selects no native response.
+-
+-Prior CGW1 reviewed conditional UNPROMOTED return:
+-`udt_common_geometry_whiteboard_2026-09-28/DECISION_BRIEF.md`.
+-Its clock/screen restrictions and scoped drift discriminator remain unchanged.
+-
+-Prior OFS1 reviewed empirical/conditional UNPROMOTED return:
+-`udt_observation_guided_function_search_2026-09-28/DECISION_BRIEF.md`.
+-Its finite-range SNe/conditional BAO shapes and supplied inverse remain leads;
+-expanding controls are not the intended native positional law.
+-Prior July optical-time and positional-geometry cycles are complete; INDEX
+-routes their reviewed returns. Their stationary controls select no generic
+-future-return rule, preferred observer or required Hubble expansion.
++RMS1 is complete, reviewed conditional UNPROMOTED. Its result and the current
++research checkpoint are explained in `CURRENT_RESEARCH_PROGRAM.md`, “Current next gate.”
++Lay return: `udt_response_measurement_scaling_2026-09-28/DECISION_BRIEF.md`;
++exact hypotheses, review and limits: that package's REVIEWED_RESULT and CLOSEOUT.
++
++We can reconstruct geometric information from specified ideal clock/motion
++records; identifying the response whose balance selects geometry remains OPEN.
++The narrower conditional route concerns TF(E); it adopts no response law or new
++premise. Physical event/path-to-depth assignment, actual measurement connection,
++local empirical correspondence and global asymptotic completion remain distinct.
++No completed microscopic light theory is a blanket prerequisite for scoped geometry
++or justified conditional measurement. Founding intent above remains controlling.
++
++INDEX routes GRS1/CRD1/CGW1/OFS1 and the July results. Completed campaign chronology
++is historical: `archive/roadmap_history_2026-09-28/README.md`. Original source paths,
++conditions and grades are unchanged; former next-step language is not authorization.
+ 
+ DCR1 reviewed conditional UNPROMOTED: directional clocks permit central tides in its supplied static class
+ under full G301 at an eligible center; no neighborhood field equation; FE1 UNADOPTED.
+diff --git a/MEMORY.md b/MEMORY.md
+index 5820ae75..dc560d1b 100644
+--- a/MEMORY.md
++++ b/MEMORY.md
+@@ -12,40 +12,16 @@ retains relative-motion Doppler and gravity. July lead reviewed/UNPROMOTED:
+ `udt_july_optical_time_dilation_lead_2026-09-28/DECISION_BRIEF.md`.
+ Its stationary reversal is not a generic UDT law; physical clock-map data remain open.
+ 
+-RMS1 reviewed conditional UNPROMOTED; response meaning/scaling cycle complete:
+-`udt_response_measurement_scaling_2026-09-28/DECISION_BRIEF.md`.
+-Conditional clock/motion records reconstruct Ricci with unit-observer weight -2;
+-physical identification with DDR's response remains OPEN. This route needs the
+-full reviewed covariant rank-two, natural finite-jet, flat-regular flattening-domain,
+-exact weight-zero conditions only for S=TF(E), not its unconstrained trace sector.
+-Then S=a(Ric-Rg/4); nonzero a is still required and unowned. Kernel differentiation
+-and direct carried-density identification supply no shortcut. No light-theory
+-prerequisite for geometry or new physical law is adopted. Full review/limits:
+-REVIEWED_RESULT and CLOSEOUT. Stop for discussion; no automatic successor.
+-
+-Prior GRS1 reviewed conditional UNPROMOTED; GR-response comparison/derivation complete:
+-`udt_gr_response_selection_2026-09-28/DECISION_BRIEF.md`.
+-Under the reviewed covariant rank-two, natural finite-jet, flat-regular
+-flattening-domain and exact weight-zero hypotheses, E=a Ric+b Rg; DDR with
+-nonzero Ricci coefficient gives the trace-free Einstein vacuum equation.
+-Second order follows conditionally; native response type/weight/regularity and
+-nondegeneracy remain unclosed. Reciprocity does not choose an action; EH/R^2
+-are unadopted comparisons. Full scope/review: REVIEWED_RESULT and CLOSEOUT.
++RMS1 is complete, reviewed conditional UNPROMOTED. Current explanation and exact
++conditional TF(E) route: `CURRENT_RESEARCH_PROGRAM.md`, “Current next gate.”
++Lay return: `udt_response_measurement_scaling_2026-09-28/DECISION_BRIEF.md`.
++Geometric reconstruction does not identify the response selecting geometry.
++Response selection, physical clock map, measurement connection and empirical/global
++completion remain distinct. No light-theory or complete-field-law blanket gate.
++INDEX routes GRS1/CRD1/CGW1/OFS1 and July evidence; original scopes/grades remain.
++Completed chronology: `archive/roadmap_history_2026-09-28/README.md`.
+ Stop for discussion; no automatic successor.
+ 
+-Prior CRD1 reviewed conditional UNPROMOTED; constructive derivation/review complete:
+-`udt_clock_curvature_derivation_2026-09-28/DECISION_BRIEF.md`.
+-Exact shifted-pair/full4D clock-curvature identities; restricted scalar equation
+-is elliptic under prescribed derivative-free curvature, not standalone causal
+-evolution. A larger-system constraint role remains possible. Native response
+-identification remains OPEN. Full review/limits: REVIEWED_RESULT and CLOSEOUT.
+-Stop for discussion. Prior CGW1 clock/screen and drift results remain; see INDEX.
+-
+-OFS1 reviewed empirical/conditional UNPROMOTED return:
+-`udt_observation_guided_function_search_2026-09-28/DECISION_BRIEF.md`.
+-Finite-range SNe/conditional BAO shapes and a supplied metric inverse; native
+-selection and physical asymptote remain OPEN. No automatic successor; see INDEX.
+-
+ Foundation alignment/archival return: INDEX. Kernel evaluates supplied depth; complete `B,Q,S,Y,Z` enters before readout.
+ Universal Reciprocity/DDR and explained Local Metric Sufficiency remain owner-adopted provisional premises.
+ GR is FILTER ONLY, not a response-law input; Local Metric Sufficiency remains owner-provisional.
+@@ -89,9 +65,10 @@ Fixed manuscript/coverage is the through-G352 edition, not the current frontier.
+ Session transition: `HANDOFF.md`.
+ 
+ Banking through G382 is complete; G312 membership unclosed, G352 physical identification OPEN.
+-Consolidated gains/gates: `UDT_CONSOLIDATED_RESEARCH_ACCOUNT.md`; roadmap owns dispositions and GFC1 connection.
++CWA1 historical synthesis: `UDT_CONSOLIDATED_RESEARCH_ACCOUNT.md`; current checkpoint: program.
++Older dispositions/GFC1 history: archived roadmap locator; original source scopes control.
+ NAP1/DCR1 reviewed/UNPROMOTED; native admission/response identification OPEN; Maxwell PAUSED.
+-FE1 UNADOPTED; JRC1/PJC1/FSR1/DCR1 scopes/stop: roadmap.
++FE1 UNADOPTED; JRC1/PJC1/FSR1/DCR1 scopes/stop: roadmap historical locator.
+ 
+ Backup completeness/pre-reboot unsaved state remain UNVERIFIED; ScratchDisk archive-only.
+ R2--R5 remain verified with caveats;184,300 covariance rows unresolved, no preferred scale.
+
+## git diff -- CURRENT_RESEARCH_PROGRAM.md
+
+diff --git a/CURRENT_RESEARCH_PROGRAM.md b/CURRENT_RESEARCH_PROGRAM.md
+index 76ef9639..c60495f8 100644
+--- a/CURRENT_RESEARCH_PROGRAM.md
++++ b/CURRENT_RESEARCH_PROGRAM.md
+@@ -85,6 +85,80 @@ Test a named indispensable link. Query/initial data remain legitimate; target
+ fitting cannot supply native ownership. Clock rates and flight durations differ.
+ Attachment audit/archive: INDEX.
+ 
++## Current next gate
++
++RMS1 is complete, reviewed conditional UNPROMOTED. The mathematical gain is a
++smaller sufficient response-class target; the physical response law remains
++unidentified. Positional dilation stays the founding postulate, not a claim
++that has been replaced by a conventional speed-of-transfer premise.
++
++| Reviewed return | Usable gain | Limit that remains |
++|---|---|---|
++| RMS1 — response meaning/scaling | Ideal clock/motion readings have derived scaling; suitable families reconstruct Ricci; classification can target TF(E) | No physical identification of E or TF(E); no adopted homothety symmetry |
++| GRS1 — GR-response comparison | Conditional natural-tensor classification; reciprocity does not choose an action | Full hypotheses and nonzero Ricci coefficient are not native ownership |
++| CRD1 — clock/curvature derivation | Complete shifted-pair and full4D geometric identities | Restricted prescribed-curvature scalar equation is elliptic, not standalone causal evolution; a constraint role remains possible |
++| CGW1 — common geometry | Clock/screen compatibility and a scoped later-observation drift discriminator | Does not select a cosmology, establish solar precision or realize the global asymptote |
++| OFS1 — observation-guided functions | Finite-range SNe shapes, conditional BAO comparison and a restricted metric inverse | Processed/exposed data and conventional interfaces; expanding controls are not the intended native positional explanation |
++
++These five returns are reviewed conditional (OFS1 also empirical) and UNPROMOTED;
++no grade is changed here. INDEX gives each exact REVIEWED_RESULT/DECISION_BRIEF
++route; those sources and reviews control qualifications and evidence. Earlier
++July/positional-geometry returns retain their scopes, including no generic
++stationary reversal or selected future-return rule.
++
++### The precise conditional response route
++
++RMS1 applies GRS1 to S[g]=TF_g(E[g]) alone. Require S to be metric-only, symmetric
++covariant rank-two, natural under local diffeomorphisms and unoriented frames,
++finite-jet, differentiable at the flat normal jet on a domain containing the
++flattening rays, with exact S[ell^2 g]=S[g] for constant ell>0. Then
++S=a(Ric-Rg/4); with a!=0, all-pair DDR gives the trace-free Einstein vacuum equation.
++The scalar curvature is constant on a connected regular solution region; this
++does not require constant full curvature. These are conditional mathematics,
++not proof of native class membership, physical response identification or nonzero a.
++The pure-trace part of E is invisible to DDR; it need not satisfy the same weight.
++
++G403/DCI1 supplies Ric(U,U) from its specified ideal directional-clock, temporal
++and observer-motion records. RMS1's suitable-family reconstruction recovers Ricci
++and its scaling. This does not identify that reading with E. Direct kernel
++variation fails its own reciprocal balance, and the chosen G352 density cannot
++directly equal E(U,U) for all observers in its stated protocol. Those are specific
++failed shortcuts, not universal impossibility or a need for a new postulate.
++Full controls and review: `udt_response_measurement_scaling_2026-09-28/REVIEWED_RESULT.md`.
++
++### Questions that must remain distinct
++
++- **Native response selection:** identify and justify the complete-metric response
++  constrained by reciprocity. Computing a quantity from a chosen metric does not
++  establish a law selecting allowed geometries.
++- **Physical clock map:** determine the relevant event/observer/path-to-depth
++  relation for separation-dependent predictions. Supplied depth-to-redshift
++  conversion is already known; another fitted redshift mechanism is not required.
++- **Measurement connection:** state actual signal, clock, source and detector
++  assumptions for a chosen observable. Geometric phases or label measures do not
++  automatically identify photons or energy. G352 retains its physical-realization gap.
++- **Correspondence and completion:** establish local empirical precision and the
++  intended distant asymptotic behavior from completed geometry. Neither a similar
++  curve shape nor an observed finite-range fit establishes those claims.
++
++These questions are not a mandatory serial checklist. Scoped geometric deductions,
++explicitly conditional observations and empirical discovery may progress without
++full field equations or microscopic light first. Initial/query data may remain
++free; unique-universe selection is optional. Carrier/mass/source questions retain
++their separate current authority and pauses, not assumptions for this route.
++
++Stop before turning a readout, supplied profile or comparison into native physics.
++A successor needs a specific unexamined implication and a bounded work order;
++repeating completed identities or nonselection results does not close the gap.
++Current direction and continuing owner constraints: `UDT_RESEARCH_ROADMAP.md`.
++Completed chronology: `archive/roadmap_history_2026-09-28/README.md`.
++
++DCR1 reviewed conditional UNPROMOTED: directional clocks permit central tides in its supplied static class
++under full G301 at an eligible center; no neighborhood field equation; FE1 UNADOPTED.
++G312 membership/native admission unclosed; response identification OPEN; G352 physical-realization: physical identification remains OPEN.
++Stop for lay discussion. RMS1 is complete; no new campaign is authorized;
++work order and return gates: `UDT_RESEARCH_ROADMAP.md`.
++
+ ## Architecture
+ 
+ 1. Founded relation: supplied depth gives the determinant-one reciprocal clock/ruler block.
+@@ -178,52 +252,3 @@ FSR1/PJC1 supplied no field equation; Maxwell PAUSED. GOCE PARKED, eligibility
+ UNRESOLVED/OPEN, enquiry UNSENT; GW parked, clock/complementary campaigns complete.
+ Instrument gaps do not block theory. Manuscript fixed through G352.
+ Backup/unsaved state UNVERIFIED; ScratchDisk archive-only.
+-
+-## Current next gate
+-
+-RMS1 response meaning/scaling exploration is reviewed conditional UNPROMOTED;
+-its bounded construction, exact checks and fresh adversarial review are complete:
+-`udt_response_measurement_scaling_2026-09-28/DECISION_BRIEF.md`.
+-Conditional directional clock/motion records reconstruct Ricci; their matched
+-unit-observer readings have weight -2 under constant metric homothety.
+-This does not identify DDR's response. The narrower sufficient target is
+-S=TF(E): under the reviewed covariant rank-two, natural finite-jet, flat-regular
+-flattening-domain and exact weight-zero hypotheses, S=a(Ric-Rg/4).
+-With a!=0, DDR gives the trace-free Einstein vacuum equation. Native ownership
+-of these hypotheses, physical response identification and nonzero a remain OPEN.
+-Kernel differentiation and direct G352 density identification fail their stated
+-shortcuts; this is not universal non-derivability. Geometry needs no blanket
+-light-theory prerequisite; actual record access and signal identification remain
+-conditional. GR is FILTER ONLY. No field law, scale symmetry or premise is adopted.
+-REVIEWED_RESULT and CLOSEOUT own precision qualifications, review and limits.
+-
+-Prior GRS1 reviewed conditional UNPROMOTED return:
+-`udt_gr_response_selection_2026-09-28/DECISION_BRIEF.md`.
+-Its full-E conditional classification survives; RMS1 weakens this route's target
+-to TF(E). Reciprocity does not select an action; EH/R^2 remain unadopted comparisons.
+-Native selection, measured local GR precision and physical asymptotic completion
+-remain OPEN. No scientific grade, canon or successor is adopted.
+-
+-Prior CRD1 reviewed conditional UNPROMOTED return:
+-`udt_clock_curvature_derivation_2026-09-28/DECISION_BRIEF.md`.
+-Full shifted-pair/full4D clock-curvature identities remain valid at their scopes.
+-The restricted scalar relation is elliptic with derivative-free curvature input;
+-a larger-system constraint role remains possible. It selects no native response.
+-
+-Prior CGW1 reviewed conditional UNPROMOTED return:
+-`udt_common_geometry_whiteboard_2026-09-28/DECISION_BRIEF.md`.
+-Its clock/screen restrictions and scoped drift discriminator remain unchanged.
+-
+-Prior OFS1 reviewed empirical/conditional UNPROMOTED return:
+-`udt_observation_guided_function_search_2026-09-28/DECISION_BRIEF.md`.
+-Its finite-range SNe/conditional BAO shapes and supplied inverse remain leads;
+-expanding controls are not the intended native positional law.
+-Prior July optical-time and positional-geometry cycles are complete; INDEX
+-routes their reviewed returns. Their stationary controls select no generic
+-future-return rule, preferred observer or required Hubble expansion.
+-
+-DCR1 reviewed conditional UNPROMOTED: directional clocks permit central tides in its supplied static class
+-under full G301 at an eligible center; no neighborhood field equation; FE1 UNADOPTED.
+-G312 membership/native admission unclosed; response identification OPEN; G352 physical-realization: physical identification remains OPEN.
+-Stop for lay discussion. RMS1 is complete; no new campaign is authorized;
+-work order and return gates: `UDT_RESEARCH_ROADMAP.md`.
+
+## cat UDT_RESEARCH_ROADMAP.md archive/roadmap_history_2026-09-28/README.md archive/roadmap_history_2026-09-28/WORK_RECORD.md
+
+# UDT research roadmap — current direction
+
+Updated 2026-09-28 after RMS1. This is a direction document, not scientific
+premise authority or research authorization. LIVE controls operational status;
+the exact registry and original reviewed sources control grades and scope.
+AGENTS controls method. Charles canonizes; CANON is unchanged.
+
+The founding statement and current scientific checkpoint are maintained in
+[CURRENT_RESEARCH_PROGRAM.md](CURRENT_RESEARCH_PROGRAM.md). Read that explanation
+before choosing a new question. [INDEX.md](INDEX.md) routes supporting sources.
+This roadmap does not duplicate their detailed derivations or premise inventory.
+
+## Current return and next discussion
+
+RMS1 is complete: [lay return](udt_response_measurement_scaling_2026-09-28/DECISION_BRIEF.md)
+and [reviewed result](udt_response_measurement_scaling_2026-09-28/REVIEWED_RESULT.md).
+It supplies conditional scaling/reconstruction and a smaller sufficient response
+classification target, not native identification of the response or a field law.
+The next discussion concerns a justified connection to the response constrained
+by reciprocity. No successor is authorized.
+
+Keep the open questions distinct: native response selection, physical event/path-
+to-depth assignment, a chosen observable's signal/measurement connection, empirical
+correspondence and global asymptotic completion. Legitimate free initial/query data
+do not by themselves imply a missing law; selecting one unique universe is not
+required for field theory. An explicitly conditional geometric or observational
+consequence need not await all these closures.
+
+GR is FILTER ONLY, not a response-law input; Local Metric Sufficiency remains
+owner-provisional. DDR remains owner-provisional, not derived or canonized.
+Inherited Einstein conclusions are CONDITIONAL on their full reviewed hypotheses,
+not established from filter-only GR. Current authority:
+`udt_gr_filter_reconciliation_2026-09-09/AUTHORITY_RECORD.md`.
+No physical response definition, nonzero normalization or scale symmetry is
+supplied by this roadmap. Current sources own all mathematical hypotheses.
+
+## Direction for the next bounded question
+
+1. Identify a specific unexamined implication of admitted metric/kernel structure
+   or a justified empirical clue. Explain what it adds beyond the reviewed returns.
+2. Separate a geometric identity, supplied-data reconstruction, conditional
+   measurement and a law restricting allowed geometry. A missing join stays OPEN.
+3. State the quantifier, regime, premises, physical choices, methods, exclusions,
+   resources, stops and maximum return before seeking a research dispatch.
+4. Include construction, relevant checks, fresh separate-context adversarial
+   review and bounded same-premise repair/re-review in the normal work order.
+   Preserve failed candidates and discovery exposure. Review does not adopt physics.
+
+A targeted consequence or discriminator is legitimate without a complete theory
+of light, a unique history or all field equations. Repeating a completed identity
+or nonselection result is not a new connection. Scientific promotion or a proposed
+physical premise needs its own authority; committing a conditional result preserves
+it without changing its grade. This documentation cleanup launches no solve.
+
+## Data-guided discovery with native derivation — 2026-09-28
+
+Charles's continuing direction, preserved verbatim:
+
+> Supernova and other cosmological data thought to be hubble effects should give you shapes and dimensions of curves to fit red shift to distance which may guide reverse engineering formulas to match.  Results must be natively derivable or a direct consequence of the metric or  kenel.
+
+> galaxies qusars, lots of data. Just remember that at extreme distance there's an asymptotic increase in dilation to an unreachable limite.
+
+Supernova, galaxy, quasar and other observations may guide candidate forms and
+scales. State each observable's distance, calibration, selection, covariance and
+transfer assumptions; disclose prior exposure and exploratory tuning. A distance
+computed from redshift under the model being tested is not an independent test
+of that same relation. Calibration remains calibration, not native derivation.
+
+The extreme-separation target is an asymptotic increase toward an unreachable
+limit. X_max retains WORKING/OPEN global-completion status: value, profile and
+realization remain unselected. The physical asymptote must follow from completed
+geometry/history; a finite-range fit or the kernel's nonlinear readout alone does
+not establish it. No local cutoff, material wall or preferred center is introduced.
+
+A fitted profile can guide discovery before full field-equation closure. Its
+native acceptance requires derivation from admitted UDT metric/kernel premises;
+inserting it as free metric data and recovering it is not that derivation.
+Preserve redshift, brightness/beam-area and arrival-duration relations together
+where their interfaces are justified. Freeze candidates for subsequent tests and
+disclose shared systematics or reuse of exposed data. A shape constraint need not
+select an absolute scale or a unique equation.
+
+OFS1's completed empirical/conditional UNPROMOTED return is in
+`udt_observation_guided_function_search_2026-09-28/DECISION_BRIEF.md`.
+Its finite-range SNe fits, conventional-interface BAO comparison and restricted
+metric inverse are leads, with the full source/review qualifications. Expanding
+comparison geometries are not the intended native explanation without requiring
+Hubble expansion. Quasar methods did not supply a new distance fit. Original
+measurement references, outcomes and prior work-order history remain in the
+source package and archived roadmap; no new fit is authorized here.
+
+## Observational correspondence direction — 2026-09-28
+
+Charles's clarification, preserved verbatim:
+
+> In terms of observatble effects, UDT is to GR, as GR is to Newton.   Newton works with planetary orbits within the solar system with a mild divergence in the precession of Mercury. UDT's positional time dilation and redshift is below observable values within terrestrial and solar regimes, and like SR and mass, requires high velocity before dilation effects becomoe apparent. Just as GR is a function of geometry and energy/mass density and gravity, so likely is UDT.  The formulas that incorporate positional dilation likely have similar structures to the nonlinear dilation in GR or SR.
+
+This is an owner expectation and correspondence target: local agreement within
+measurement precision, with positional departures appreciable over larger
+separations. It is not an established bound, detection threshold or exact GR
+limit. High relative velocity is not required for positional dilation; the
+analogy concerns detectability. The founding geometry behind finite c_E persists
+locally. No observer is privileged. The intended positional explanation does
+not require Hubble expansion and retains ordinary Doppler/gravitational effects.
+
+Possible nonlinear similarity to SR/GR and dependence on geometry and mass/energy
+distribution are investigative leads, not adopted formulas or source couplings.
+The x, dx/dt, d²x/dt² wording does not supply additive correction factors. Received
+slowing already means redshift; the physical separation-to-clock mapping remains
+open. The full founding interpretation, reciprocal kernel qualifications and
+asymptotic target stay at the front of CURRENT_RESEARCH_PROGRAM.md.
+
+## Owner direction clarification — emergence question, 2026-09-13
+
+Charles clarified that asking about a UDT Maxwell possibility meant asking whether
+Maxwell-like behavior could now emerge from the developed metric/kernel. It did
+not request an added model designed to reproduce electromagnetism. The appropriate
+current readiness answer is **not yet established**. This is the limit of the
+reviewed results, not a finding that emergence is impossible.
+
+NR1/NR2 and GFC1 retain their reviewed conditional mathematics. In particular,
+GFC1 constructs screens whose freely supplied profiles reproduce the target
+field family on an existing geometry. That representation does not establish
+independent native generation or physical identification. Successful checks and
+conditional labels do not make it an answer to the original emergence question.
+The source packages, their failures/repairs, reviews and grades remain unchanged.
+The intervening bounded studies had explicit work orders; this clarification
+changes their role and future direction, not their historical authorization.
+
+The default direction is metric/kernel development from current premises.
+Future emergence proposals must identify the objects' UDT provenance and role
+independently of a desired physical resemblance, distinguish ordinary free data
+from added physical assumptions, and state what would be learned if the resemblance
+does not appear. Existing physics and observations serve as constraints,
+calibration, anchors, or tests through justified explicit interfaces; they do
+not supply an unacknowledged UDT law. Conditional labeling alone does not justify
+replacing an emergence question with a construction of the target.
+
+Automatic Maxwell-like field/screen expansion remains PAUSED. Preserve the
+conditional comparison branch; any extension of it needs an explicitly justified
+and authorized scope. Broad geometry, valid unfamiliar solutions, mathematical
+ansatzes at declared scope, and legitimate free initial/query data remain available.
+Neither a unique universe nor physical light is required for every mathematical
+or explicitly justified observational question. No new solve, promotion, physical
+premise or canon change is authorized by this method clarification.
+
+This continuing direction controls future interpretations of historical work.
+Its method-only implementation is preserved at
+`maintenance_emergence_method_2026-09-13/WORK_RECORD.md`. Later bounded dispatches
+and their returns remain historical facts, not current authorization.
+
+## Other branches and reusable work
+
+Geometric/calibration work and emergence remain parallel aims. G351's supplied
+measure and G352's chosen continuous readout do not identify physical light,
+energy, matter, emission or detection. The optional source-model branch and
+automatic Hopfion-stabilization mechanism remain PAUSED. Maxwell is PAUSED;
+no rescue coupling, carrier, action or target-selected construction is supplied.
+GOCE is PARKED with eligibility UNRESOLVED/OPEN and enquiry UNSENT; the particular
+GW procedure is parked. Completed clock/complementary campaigns are not restarted.
+Full branch limits and protected local-work instructions remain in LIVE/AGENTS.
+
+Use reviewed results at their stated scope before proposing a successor:
+
+| Question | Current source route | Limit to carry forward |
+|---|---|---|
+| Response meaning/scaling | RMS1, INDEX | TF(E) class conditions and physical identification remain conditional/open |
+| Reciprocity and GR-shaped response | GRS1, INDEX | Does not select an action or establish native class membership |
+| Clock changes and curvature | CRD1, INDEX | Geometric identities do not select the response; restricted scalar evolution shortcut fails |
+| Shared clocks, beams and later observations | CGW1, INDEX | Scoped compatibility/drift controls, not a selected cosmology |
+| Empirical curve shapes and distant tails | OFS1, INDEX | Fits/inverse constructions do not supply a native law or physical asymptote |
+| Earlier admitted mathematics | Exact banking records in INDEX | Full source premises, exclusions, repairs and reviews control |
+
+The through-G352 metric/kernel manuscript remains its fixed edition. The
+September12 CWA1 consolidated account is a source-bound synthesis with its later
+scope corrections; it is not the latest status or a new premise authority.
+Source packages, equations, raw evidence, original paths and registry grades
+are unchanged by this consolidation.
+
+## Completed chronology and archival lookup
+
+The former 1,847-line roadmap is preserved byte-for-byte from grok
+`b9820927631a801304cfad39517762b38f2b0968` in
+[the roadmap history archive](archive/roadmap_history_2026-09-28/README.md).
+Its section locator covers earlier plans, owner directions, dispatches, returns,
+FE1/JRC1/PJC1/FSR1/DCR1, NAP1/LSR1/GFC1 and older banking/measurement history.
+Historical “current,” “next” and “proposed” language does not restart a campaign.
+No reviewed scientific package has been retired or moved by archiving chronology.
+
+Stop for lay discussion. No new campaign is authorized.
+# Roadmap history — reference only
+
+The former living roadmap is preserved byte-for-byte in
+[UDT_RESEARCH_ROADMAP_before_consolidation.md](UDT_RESEARCH_ROADMAP_before_consolidation.md)
+from grok commit `b9820927631a801304cfad39517762b38f2b0968`.
+Its 1,847 lines include successive historical plans, dispatches, returns and
+owner clarifications. Old “current,” “next,” “proposed,” and authorization language
+belongs to its original date; it cannot restart work or override current status.
+
+Current status: [LIVE.md](../../LIVE.md). Founding intent and the current research
+checkpoint: [CURRENT_RESEARCH_PROGRAM.md](../../CURRENT_RESEARCH_PROGRAM.md).
+Current direction: [UDT_RESEARCH_ROADMAP.md](../../UDT_RESEARCH_ROADMAP.md).
+Exact registry grades and original reviewed sources still control science.
+
+This archive retires duplicated chronology from the active roadmap. It does not
+retire the founding postulate, current owner directions, accepted mathematics or
+reviewed conditional findings. Original scientific packages remain at their
+original paths. Relative source paths inside the byte-preserved snapshot refer
+to the repository root, as they did before archiving; use them from there or at
+the pinned commit. The snapshot itself was not rewritten to imitate new paths.
+
+Current owner-direction sections on data-guided discovery, observational
+correspondence and the September13 emergence restriction remain in the active
+roadmap. Current source routes are in INDEX. This folder's WORK_RECORD, checks
+and review describe only the editorial consolidation, not new scientific work.
+
+## Historical section locator
+
+Search the snapshot for the exact headings below; it is not a startup read.
+
+- Response meaning and scaling — 2026-09-28
+- GR response selection comparison — 2026-09-28
+- Constructive clock-curvature derivation — 2026-09-28
+- Reviewed common-geometry whiteboard — 2026-09-28
+- Data-guided discovery with native derivation — 2026-09-28
+- Observational correspondence direction — 2026-09-28
+- July optical-time lead — reviewed conditional return, 2026-09-28
+- One geometry and automatic redshift — clarified construction, 2026-09-28
+- Positional dilation as causal geometry — fidelity audit, 2026-09-28
+- Focused response whiteboard — 2026-09-28
+- Founded metric to response bridge — 2026-09-28
+- Response-selection methods — 2026-09-27
+- Two-path equation investigation — 2026-09-27
+- Founding-postulate fidelity and GR exploration — 2026-09-27
+- Foundation alignment and first archival batch — 2026-09-27
+- Directional clock release — DCR1, 2026-09-14 UTC
+- Finite-separation reciprocity check — FSR1, 2026-09-14 UTC
+- Positional interlocks and equation test — PJC1, 2026-09-14 UTC
+- Joint observer-relation correction — JRC1, 2026-09-13
+- FE1 geodesic-volume response proposal — 2026-09-13
+- Field-equation recovery and process — FEP1, 2026-09-13
+- Native theory plan and TC0 early return — 2026-09-13
+- NAP1 reviewed native-premise angular audit — 2026-09-13
+- LSR1 reviewed local metric/kernel symmetry release — 2026-09-13
+- Owner direction clarification — emergence question, 2026-09-13
+- GFC1 reviewed geometric response / field connection — 2026-09-13
+- NFCA1 reviewed native-connection audit — 2026-09-13
+- NR2 reviewed field discrimination and symmetry survivor — 2026-09-13
+- NR1 reviewed current-premise radiation feasibility — 2026-09-13
+- Reviewed authorized continuation — 2026-09-13
+- Broader-profile return and the single next question — 2026-09-13
+- Aim and current position
+- Four connected priorities
+- Completed native-response campaign and return point
+- Current discussion: exact and controlled GR correspondence
+- Null-clock depth integrability
+- Directional clock records and curvature
+- Latest bounded connection: kernel records in the twisting example
+- Proposed methodical metric/kernel expansion — 2026-09-10 discussion
+# Documentation consolidation — 2026-09-28
+
+Charles asked whether cleanup and organization should precede more research to
+avoid drift. This is a bounded editorial consolidation of the six maintained
+orientation/direction files, with byte-preserved roadmap history. No research,
+equation change, premise adoption, registry promotion or CANON edit is included.
+
+Launch: b9820927631a801304cfad39517762b38f2b0968, grok; fresh fetch,0/0,
+tracked clean. This continues the same top-level session; mandatory startup and
+the full406 audit were completed by RMS1. Current AGENTS/CLAUDE, relevant skills,
+LIVE/HANDOFF and program were reread. Orientation preceded edits. LAUNCH pins
+source versions and52 prior untracked pathnames, with protected payloads excluded.
+
+Scope: retain founding intent and current owner directions; place the response
+checkpoint and its limitations in CURRENT_RESEARCH_PROGRAM; shorten duplicated
+recent chronology in LIVE/HANDOFF/MEMORY; make INDEX a clear task-based route;
+replace the long roadmap chronology with current direction and a historical
+locator. Preserve the old roadmap byte-for-byte in this archive. Scientific
+packages retain original paths, bytes, evidence and grades.
+
+Keep geometry/clock mapping, response selection, measurement identification,
+empirical correspondence and global completion distinct. Conditional gains may
+not become native physics; free history data are not automatically a missing
+law. Keep exploratory observations available at justified scope without requiring
+full field equations or microscopic light first. Past proposals authorize no
+successor. No current owner constraint is retired merely because it is old.
+
+Checks: existing focused startup verifier, local route/link validation, archive
+byte identity, unchanged premise/source pins and package manifests, exact scope
+and prior-dirt preservation. A fresh separate-context fidelity review checks
+omissions and changed meanings, with bounded same-premise wording repair. Use
+the existing capture utility. No equation computation or full source-campaign
+replay is warranted by editorial changes; unchanged-science evidence is required.
+
+Budget: at most45 minutes from16:02UTC,4CPU/4GiB, noGPU/downloads. Review is
+editorial, not a new scientific proof or a different-model claim. Return a
+reviewed documentation cleanup, commit and push grok, then stop for discussion.
+Add no new standing status owner and launch no scientific successor.
+

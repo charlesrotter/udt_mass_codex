@@ -1,0 +1,1266 @@
+{
+  "baseline": "b9820927631a801304cfad39517762b38f2b0968",
+  "method": "literal Markdown local targets and strict slash-bearing backtick paths; existence only; no source payload reads",
+  "files": [
+    {
+      "path": "LIVE.md",
+      "sha256": "ab3284574b335cea999231a8f41a4a97edf500024341e8370a8cfb11cb205fa9",
+      "targets": [
+        {
+          "kind": "code_path",
+          "target": "archive/STARTUP_SURFACE_HISTORY.md",
+          "path_exists": true,
+          "anchor": null
+        },
+        {
+          "kind": "code_path",
+          "target": "udt_clock_curvature_derivation_2026-09-28/DECISION_BRIEF.md",
+          "path_exists": true,
+          "anchor": null
+        },
+        {
+          "kind": "code_path",
+          "target": "udt_common_geometry_whiteboard_2026-09-28/DECISION_BRIEF.md",
+          "path_exists": true,
+          "anchor": null
+        },
+        {
+          "kind": "code_path",
+          "target": "udt_gr_filter_reconciliation_2026-09-09/AUTHORITY_RECORD.md",
+          "path_exists": true,
+          "anchor": null
+        },
+        {
+          "kind": "code_path",
+          "target": "udt_gr_response_selection_2026-09-28/DECISION_BRIEF.md",
+          "path_exists": true,
+          "anchor": null
+        },
+        {
+          "kind": "code_path",
+          "target": "udt_kernel_plane_global_curvature_holonomy_atlas_2026-08-02/",
+          "path_exists": true,
+          "anchor": null
+        },
+        {
+          "kind": "code_path",
+          "target": "udt_native_onshell_timelive_reset_owner_audit_2026-08-10/",
+          "path_exists": true,
+          "anchor": null
+        },
+        {
+          "kind": "code_path",
+          "target": "udt_observation_guided_function_search_2026-09-28/DECISION_BRIEF.md",
+          "path_exists": true,
+          "anchor": null
+        },
+        {
+          "kind": "code_path",
+          "target": "udt_observed_angular_pattern_raw_restart_2026-08-12/",
+          "path_exists": true,
+          "anchor": null
+        },
+        {
+          "kind": "code_path",
+          "target": "udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/",
+          "path_exists": true,
+          "anchor": null
+        },
+        {
+          "kind": "code_path",
+          "target": "udt_positional_geometry_clock_connection_2026-09-28/OWNER_STATEMENT.md",
+          "path_exists": true,
+          "anchor": null
+        },
+        {
+          "kind": "code_path",
+          "target": "udt_response_measurement_scaling_2026-09-28/DECISION_BRIEF.md",
+          "path_exists": true,
+          "anchor": null
+        },
+        {
+          "kind": "code_path",
+          "target": "udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/",
+          "path_exists": true,
+          "anchor": null
+        },
+        {
+          "kind": "code_path",
+          "target": "udt_uncompressed_pair_kernel_reconstruction_2026-08-14/",
+          "path_exists": true,
+          "anchor": null
+        }
+      ]
+    },
+    {
+      "path": "HANDOFF.md",
+      "sha256": "ccc3addcacc088090bce859d90dd5496e40593a5c3ff1b40eee5ce2904709fef",
+      "targets": [
+        {
+          "kind": "code_path",
+          "target": "archive/STARTUP_SURFACE_HISTORY.md",
+          "path_exists": true,
+          "anchor": null
+        },
+        {
+          "kind": "code_path",
+          "target": "archive/stale_working_documents_2026-09-27/RESTART_CHECKPOINT.md",
+          "path_exists": true,
+          "anchor": null
+        },
+        {
+          "kind": "code_path",
+          "target": "archive/stale_working_documents_2026-09-27/maintenance_agent_capacity_2026-09-10.md",
+          "path_exists": true,
+          "anchor": null
+        },
+        {
+          "kind": "code_path",
+          "target": "udt_clock_curvature_derivation_2026-09-28/DECISION_BRIEF.md",
+          "path_exists": true,
+          "anchor": null
+        },
+        {
+          "kind": "code_path",
+          "target": "udt_common_geometry_whiteboard_2026-09-28/DECISION_BRIEF.md",
+          "path_exists": true,
+          "anchor": null
+        },
+        {
+          "kind": "code_path",
+          "target": "udt_gr_filter_reconciliation_2026-09-09/AUTHORITY_RECORD.md",
+          "path_exists": true,
+          "anchor": null
+        },
+        {
+          "kind": "code_path",
+          "target": "udt_gr_response_selection_2026-09-28/DECISION_BRIEF.md",
+          "path_exists": true,
+          "anchor": null
+        },
+        {
+          "kind": "code_path",
+          "target": "udt_kernel_plane_global_curvature_holonomy_atlas_2026-08-02/",
+          "path_exists": true,
+          "anchor": null
+        },
+        {
+          "kind": "code_path",
+          "target": "udt_native_onshell_timelive_reset_owner_audit_2026-08-10/",
+          "path_exists": true,
+          "anchor": null
+        },
+        {
+          "kind": "code_path",
+          "target": "udt_observation_guided_function_search_2026-09-28/DECISION_BRIEF.md",
+          "path_exists": true,
+          "anchor": null
+        },
+        {
+          "kind": "code_path",
+          "target": "udt_observed_angular_pattern_raw_restart_2026-08-12/",
+          "path_exists": true,
+          "anchor": null
+        },
+        {
+          "kind": "code_path",
+          "target": "udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/",
+          "path_exists": true,
+          "anchor": null
+        },
+        {
+          "kind": "code_path",
+          "target": "udt_positional_geometry_clock_connection_2026-09-28/OWNER_STATEMENT.md",
+          "path_exists": true,
+          "anchor": null
+        },
+        {
+          "kind": "code_path",
+          "target": "udt_response_measurement_scaling_2026-09-28/DECISION_BRIEF.md",
+          "path_exists": true,
+          "anchor": null
+        },
+        {
+          "kind": "code_path",
+          "target": "udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/",
+          "path_exists": true,
+          "anchor": null
+        }
+      ]
+    },
+    {
+      "path": "CURRENT_RESEARCH_PROGRAM.md",
+      "sha256": "235966c1fd45c0d556d4f66d016f73f7a4450c0fb29732f69af788a08f59359b",
+      "targets": [
+        {
+          "kind": "code_path",
+          "target": "udt_clock_curvature_derivation_2026-09-28/DECISION_BRIEF.md",
+          "path_exists": true,
+          "anchor": null
+        },
+        {
+          "kind": "code_path",
+          "target": "udt_common_geometry_whiteboard_2026-09-28/DECISION_BRIEF.md",
+          "path_exists": true,
+          "anchor": null
+        },
+        {
+          "kind": "code_path",
+          "target": "udt_gr_filter_reconciliation_2026-09-09/AUTHORITY_RECORD.md",
+          "path_exists": true,
+          "anchor": null
+        },
+        {
+          "kind": "code_path",
+          "target": "udt_gr_response_selection_2026-09-28/DECISION_BRIEF.md",
+          "path_exists": true,
+          "anchor": null
+        },
+        {
+          "kind": "code_path",
+          "target": "udt_july_optical_time_dilation_lead_2026-09-28/OWNER_DIRECTION.md",
+          "path_exists": true,
+          "anchor": null
+        },
+        {
+          "kind": "code_path",
+          "target": "udt_observation_guided_function_search_2026-09-28/DECISION_BRIEF.md",
+          "path_exists": true,
+          "anchor": null
+        },
+        {
+          "kind": "code_path",
+          "target": "udt_positional_geometry_clock_connection_2026-09-28/OWNER_STATEMENT.md",
+          "path_exists": true,
+          "anchor": null
+        },
+        {
+          "kind": "code_path",
+          "target": "udt_response_measurement_scaling_2026-09-28/DECISION_BRIEF.md",
+          "path_exists": true,
+          "anchor": null
+        },
+        {
+          "kind": "code_path",
+          "target": "udt_uncompressed_pair_kernel_reconstruction_2026-08-14/",
+          "path_exists": true,
+          "anchor": null
+        }
+      ]
+    },
+    {
+      "path": "MEMORY.md",
+      "sha256": "bcad34c5fa011a62e75dd05764ef7c4a0f90272ed8a96b7bc92f8da0470e5d43",
+      "targets": [
+        {
+          "kind": "code_path",
+          "target": "archive/STARTUP_SURFACE_HISTORY.md",
+          "path_exists": true,
+          "anchor": null
+        },
+        {
+          "kind": "code_path",
+          "target": "udt_clock_curvature_derivation_2026-09-28/DECISION_BRIEF.md",
+          "path_exists": true,
+          "anchor": null
+        },
+        {
+          "kind": "code_path",
+          "target": "udt_gr_filter_reconciliation_2026-09-09/AUTHORITY_RECORD.md",
+          "path_exists": true,
+          "anchor": null
+        },
+        {
+          "kind": "code_path",
+          "target": "udt_gr_response_selection_2026-09-28/DECISION_BRIEF.md",
+          "path_exists": true,
+          "anchor": null
+        },
+        {
+          "kind": "code_path",
+          "target": "udt_july_optical_time_dilation_lead_2026-09-28/DECISION_BRIEF.md",
+          "path_exists": true,
+          "anchor": null
+        },
+        {
+          "kind": "code_path",
+          "target": "udt_observation_guided_function_search_2026-09-28/DECISION_BRIEF.md",
+          "path_exists": true,
+          "anchor": null
+        },
+        {
+          "kind": "code_path",
+          "target": "udt_response_measurement_scaling_2026-09-28/DECISION_BRIEF.md",
+          "path_exists": true,
+          "anchor": null
+        }
+      ]
+    },
+    {
+      "path": "INDEX.md",
+      "sha256": "2f41762828725a027f659fb10c3d17544ea18a473261721b3251890bc3a81d51",
+      "targets": [
+        {
+          "kind": "code_path",
+          "target": "archive/STARTUP_SURFACE_HISTORY.md",
+          "path_exists": true,
+          "anchor": null
+        },
+        {
+          "kind": "code_path",
+          "target": "archive/scaffolded_kernel_controls_2026-08-19/README.md",
+          "path_exists": true,
+          "anchor": null
+        },
+        {
+          "kind": "code_path",
+          "target": "native_hopfion_topology_audit_2026-07-19/AUDIT_REPORT.md",
+          "path_exists": true,
+          "anchor": null
+        },
+        {
+          "kind": "code_path",
+          "target": "research/_registry/CURRENT_ARTIFACT_PATHS.tsv",
+          "path_exists": true,
+          "anchor": null
+        },
+        {
+          "kind": "code_path",
+          "target": "startup_surface_dcr1_refresh_2026-09-27/WORK_RECORD.md",
+          "path_exists": true,
+          "anchor": null
+        },
+        {
+          "kind": "code_path",
+          "target": "startup_surface_g310_universal_reciprocity_refresh_2026-08-31/ADOPTION_RECORD.md",
+          "path_exists": true,
+          "anchor": null
+        },
+        {
+          "kind": "code_path",
+          "target": "startup_surface_g312_two_premise_adoption_refresh_2026-09-01/ADOPTION_RECORD.md",
+          "path_exists": true,
+          "anchor": null
+        },
+        {
+          "kind": "code_path",
+          "target": "udt_berger_global_constraint_campaign_2026-09-08/DECISION_BRIEF.md",
+          "path_exists": true,
+          "anchor": null
+        },
+        {
+          "kind": "code_path",
+          "target": "udt_berger_initial_data_preservation_campaign_2026-09-08/DECISION_BRIEF.md",
+          "path_exists": true,
+          "anchor": null
+        },
+        {
+          "kind": "code_path",
+          "target": "udt_clock_curvature_derivation_2026-09-28/DECISION_BRIEF.md",
+          "path_exists": true,
+          "anchor": null
+        },
+        {
+          "kind": "code_path",
+          "target": "udt_closed_fibre_persistence_campaign_2026-09-08/DECISION_BRIEF.md",
+          "path_exists": true,
+          "anchor": null
+        },
+        {
+          "kind": "code_path",
+          "target": "udt_common_geometry_whiteboard_2026-09-28/DECISION_BRIEF.md",
+          "path_exists": true,
+          "anchor": null
+        },
+        {
+          "kind": "code_path",
+          "target": "udt_complementary_wave_observable_campaign_2026-09-07/DECISION_BRIEF.md",
+          "path_exists": true,
+          "anchor": null
+        },
+        {
+          "kind": "code_path",
+          "target": "udt_foundation_alignment_audit_2026-09-27/continuation/DECISION_BRIEF.md",
+          "path_exists": true,
+          "anchor": null
+        },
+        {
+          "kind": "code_path",
+          "target": "udt_g163_xmax_dependency_reversal_audit_2026-08-18/",
+          "path_exists": true,
+          "anchor": null
+        },
+        {
+          "kind": "code_path",
+          "target": "udt_g166_primary_metric_ordered_pair_kernel_descent_2026-08-18/",
+          "path_exists": true,
+          "anchor": null
+        },
+        {
+          "kind": "code_path",
+          "target": "udt_g167_primary_metric_full_pair_pullback_orchestra_2026-08-18/",
+          "path_exists": true,
+          "anchor": null
+        },
+        {
+          "kind": "code_path",
+          "target": "udt_g176_completed_pair_dual_reciprocity_consolidation_2026-08-19/",
+          "path_exists": true,
+          "anchor": null
+        },
+        {
+          "kind": "code_path",
+          "target": "udt_g190_completed_pair_timelive_frequency_screen_join_2026-08-20/",
+          "path_exists": true,
+          "anchor": null
+        },
+        {
+          "kind": "code_path",
+          "target": "udt_g196_longitudinal_screen_mixing_descent_2026-08-20/",
+          "path_exists": true,
+          "anchor": null
+        },
+        {
+          "kind": "code_path",
+          "target": "udt_g197_native_kernel_provenance_and_startup_integrity_audit_2026-08-21/",
+          "path_exists": true,
+          "anchor": null
+        },
+        {
+          "kind": "code_path",
+          "target": "udt_g277_observational_scale_anchor_ownership_2026-08-26/",
+          "path_exists": true,
+          "anchor": null
+        },
+        {
+          "kind": "code_path",
+          "target": "udt_g279_native_kernel_observational_interface_provenance_audit_2026-08-27/",
+          "path_exists": true,
+          "anchor": null
+        },
+        {
+          "kind": "code_path",
+          "target": "udt_g281_sne_validation_provenance_reconstruction_audit_2026-08-27/",
+          "path_exists": true,
+          "anchor": null
+        },
+        {
+          "kind": "code_path",
+          "target": "udt_g312_quiet_gr_response_constitution_discriminator_2026-09-01/AUDIT_REPORT.md",
+          "path_exists": true,
+          "anchor": null
+        },
+        {
+          "kind": "code_path",
+          "target": "udt_g313_tracefree_ricci_solution_space_bootstrap_map_2026-09-01/AUDIT_REPORT.md",
+          "path_exists": true,
+          "anchor": null
+        },
+        {
+          "kind": "code_path",
+          "target": "udt_g314_global_admissibility_actualization_type_classification_2026-09-01/AUDIT_REPORT.md",
+          "path_exists": true,
+          "anchor": null
+        },
+        {
+          "kind": "code_path",
+          "target": "udt_g348_generic_lorentzian_null_screen_area_theorem_2026-09-04/",
+          "path_exists": true,
+          "anchor": null
+        },
+        {
+          "kind": "code_path",
+          "target": "udt_g349_finite_null_wavefront_patch_area_2026-09-04/",
+          "path_exists": true,
+          "anchor": null
+        },
+        {
+          "kind": "code_path",
+          "target": "udt_g350_frequency_area_carried_content_ownership_2026-09-05/",
+          "path_exists": true,
+          "anchor": null
+        },
+        {
+          "kind": "code_path",
+          "target": "udt_g351_source_free_labelwise_carried_measure_conservation_2026-09-05/",
+          "path_exists": true,
+          "anchor": null
+        },
+        {
+          "kind": "code_path",
+          "target": "udt_g352_clock_rate_carried_measure_readout_2026-09-05/",
+          "path_exists": true,
+          "anchor": null
+        },
+        {
+          "kind": "code_path",
+          "target": "udt_g353_g356_conditional_banking_2026-09-06/BANKING_RECORD.md",
+          "path_exists": true,
+          "anchor": null
+        },
+        {
+          "kind": "code_path",
+          "target": "udt_g357_g360_conditional_banking_2026-09-07/BANKING_RECORD.md",
+          "path_exists": true,
+          "anchor": null
+        },
+        {
+          "kind": "code_path",
+          "target": "udt_g361_g363_conditional_banking_2026-09-07/BANKING_RECORD.md",
+          "path_exists": true,
+          "anchor": null
+        },
+        {
+          "kind": "code_path",
+          "target": "udt_g364_g366_conditional_banking_2026-09-07/BANKING_RECORD.md",
+          "path_exists": true,
+          "anchor": null
+        },
+        {
+          "kind": "code_path",
+          "target": "udt_g367_g369_conditional_banking_2026-09-08/BANKING_RECORD.md",
+          "path_exists": true,
+          "anchor": null
+        },
+        {
+          "kind": "code_path",
+          "target": "udt_g370_g371_conditional_banking_2026-09-08/BANKING_RECORD.md",
+          "path_exists": true,
+          "anchor": null
+        },
+        {
+          "kind": "code_path",
+          "target": "udt_g372_g373_conditional_banking_2026-09-08/BANKING_RECORD.md",
+          "path_exists": true,
+          "anchor": null
+        },
+        {
+          "kind": "code_path",
+          "target": "udt_g374_g375_conditional_banking_2026-09-08/BANKING_RECORD.md",
+          "path_exists": true,
+          "anchor": null
+        },
+        {
+          "kind": "code_path",
+          "target": "udt_g376_g378_conditional_banking_2026-09-08/BANKING_RECORD.md",
+          "path_exists": true,
+          "anchor": null
+        },
+        {
+          "kind": "code_path",
+          "target": "udt_g379_g380_conditional_banking_2026-09-08/BANKING_RECORD.md",
+          "path_exists": true,
+          "anchor": null
+        },
+        {
+          "kind": "code_path",
+          "target": "udt_g381_g382_conditional_banking_2026-09-09/BANKING_RECORD.md",
+          "path_exists": true,
+          "anchor": null
+        },
+        {
+          "kind": "code_path",
+          "target": "udt_goce_documentation_followup_2026-09-07/DECISION_BRIEF.md",
+          "path_exists": true,
+          "anchor": null
+        },
+        {
+          "kind": "code_path",
+          "target": "udt_goce_product_eligibility_audit_2026-09-07/DECISION_BRIEF.md",
+          "path_exists": true,
+          "anchor": null
+        },
+        {
+          "kind": "code_path",
+          "target": "udt_gr_filter_reconciliation_2026-09-09/AUTHORITY_RECORD.md",
+          "path_exists": true,
+          "anchor": null
+        },
+        {
+          "kind": "code_path",
+          "target": "udt_gr_filter_reconciliation_2026-09-09/documentation_closeout/CLOSEOUT.md",
+          "path_exists": true,
+          "anchor": null
+        },
+        {
+          "kind": "code_path",
+          "target": "udt_gr_filter_reconciliation_2026-09-09/documentation_closeout/review/REPLACEMENT_REVIEW.md",
+          "path_exists": true,
+          "anchor": null
+        },
+        {
+          "kind": "code_path",
+          "target": "udt_gr_response_selection_2026-09-28/DECISION_BRIEF.md",
+          "path_exists": true,
+          "anchor": null
+        },
+        {
+          "kind": "code_path",
+          "target": "udt_gw170817_fixed_window_test_campaign_2026-09-07/DECISION_BRIEF.md",
+          "path_exists": true,
+          "anchor": null
+        },
+        {
+          "kind": "code_path",
+          "target": "udt_gw_response_robustness_design_campaign/DECISION_BRIEF.md",
+          "path_exists": true,
+          "anchor": null
+        },
+        {
+          "kind": "code_path",
+          "target": "udt_hopfion_bridge_stability_reassessment_2026-09-08/DECISION_BRIEF.md",
+          "path_exists": true,
+          "anchor": null
+        },
+        {
+          "kind": "code_path",
+          "target": "udt_july_optical_time_dilation_lead_2026-09-28/DECISION_BRIEF.md",
+          "path_exists": true,
+          "anchor": null
+        },
+        {
+          "kind": "code_path",
+          "target": "udt_local_clock_metric_benchmark_campaign_2026-09-07/DECISION_BRIEF.md",
+          "path_exists": true,
+          "anchor": null
+        },
+        {
+          "kind": "code_path",
+          "target": "udt_localized_evolution_followup_2026-09-09/DECISION_BRIEF.md",
+          "path_exists": true,
+          "anchor": null
+        },
+        {
+          "kind": "code_path",
+          "target": "udt_localized_geometry_campaign_2026-09-09/DECISION_BRIEF.md",
+          "path_exists": true,
+          "anchor": null
+        },
+        {
+          "kind": "code_path",
+          "target": "udt_native_angular_premise_audit_2026-09-13/DECISION_BRIEF.md",
+          "path_exists": true,
+          "anchor": null
+        },
+        {
+          "kind": "code_path",
+          "target": "udt_neighboring_tidal_consistency_campaign_2026-09-08/CAMPAIGN_LOG.md",
+          "path_exists": true,
+          "anchor": null
+        },
+        {
+          "kind": "code_path",
+          "target": "udt_nonlinear_mode_realizability_campaign_2026-09-09/DECISION_BRIEF.md",
+          "path_exists": true,
+          "anchor": null
+        },
+        {
+          "kind": "code_path",
+          "target": "udt_nonlinear_ripple_geometry_2026-09-09/DECISION_BRIEF.md",
+          "path_exists": true,
+          "anchor": null
+        },
+        {
+          "kind": "code_path",
+          "target": "udt_observation_guided_function_search_2026-09-28/DECISION_BRIEF.md",
+          "path_exists": true,
+          "anchor": null
+        },
+        {
+          "kind": "code_path",
+          "target": "udt_observational_route_selection_campaign_2026-09-07/DECISION_BRIEF.md",
+          "path_exists": true,
+          "anchor": null
+        },
+        {
+          "kind": "code_path",
+          "target": "udt_observed_angular_pattern_raw_restart_2026-08-12/",
+          "path_exists": true,
+          "anchor": null
+        },
+        {
+          "kind": "code_path",
+          "target": "udt_positional_geometry_clock_connection_2026-09-28/OWNER_STATEMENT.md",
+          "path_exists": true,
+          "anchor": null
+        },
+        {
+          "kind": "code_path",
+          "target": "udt_repository_cleanup_2026-09-27/README.md",
+          "path_exists": true,
+          "anchor": null
+        },
+        {
+          "kind": "code_path",
+          "target": "udt_response_measurement_scaling_2026-09-28/DECISION_BRIEF.md",
+          "path_exists": true,
+          "anchor": null
+        },
+        {
+          "kind": "code_path",
+          "target": "udt_reviewed_backlog_banking_2026-09-10/BANKING_RECORD.md",
+          "path_exists": true,
+          "anchor": null
+        },
+        {
+          "kind": "code_path",
+          "target": "udt_scientific_arc_recovery_checkpoint_2026-08-04/MASS_BRANCH_AUTHORITY_MAP.tsv",
+          "path_exists": true,
+          "anchor": null
+        },
+        {
+          "kind": "code_path",
+          "target": "udt_signal_chain_banking_2026-09-13/BANKING_RECORD.md",
+          "path_exists": true,
+          "anchor": null
+        },
+        {
+          "kind": "code_path",
+          "target": "udt_spatial_curvature_evolution_2026-09-09/DECISION_BRIEF.md",
+          "path_exists": true,
+          "anchor": null
+        },
+        {
+          "kind": "code_path",
+          "target": "udt_ti2_banking_2026-09-11/BANKING_RECORD.md",
+          "path_exists": true,
+          "anchor": null
+        },
+        {
+          "kind": "code_path",
+          "target": "udt_tidal_measurement_feasibility_campaign_2026-09-07/DECISION_BRIEF.md",
+          "path_exists": true,
+          "anchor": null
+        },
+        {
+          "kind": "code_path",
+          "target": "udt_two_shape_profile_dependence_2026-09-11/DECISION_BRIEF.md",
+          "path_exists": true,
+          "anchor": null
+        },
+        {
+          "kind": "code_path",
+          "target": "udt_uncompressed_pair_kernel_reconstruction_2026-08-14/",
+          "path_exists": true,
+          "anchor": null
+        }
+      ]
+    },
+    {
+      "path": "UDT_RESEARCH_ROADMAP.md",
+      "sha256": "4b4df115f0d7e4bfc960fdc056433289d328f02e880f4ed0db0f588a5f016ef9",
+      "targets": [
+        {
+          "kind": "code_path",
+          "target": "archive/stale_working_documents_2026-09-27/",
+          "path_exists": true,
+          "anchor": null
+        },
+        {
+          "kind": "code_path",
+          "target": "archive/startup_surface_2026-09-10_pre_session_handoff/UDT_RESEARCH_ROADMAP.md",
+          "path_exists": true,
+          "anchor": null
+        },
+        {
+          "kind": "code_path",
+          "target": "execution/tc0/DECISION_BRIEF.md",
+          "path_exists": false,
+          "anchor": null
+        },
+        {
+          "kind": "code_path",
+          "target": "maintenance_emergence_method_2026-09-13/WORK_RECORD.md",
+          "path_exists": true,
+          "anchor": null
+        },
+        {
+          "kind": "code_path",
+          "target": "maintenance_guard_sweep_2026-09-10/WORK_RECORD.md",
+          "path_exists": true,
+          "anchor": null
+        },
+        {
+          "kind": "code_path",
+          "target": "review/REVIEW.md",
+          "path_exists": false,
+          "anchor": null
+        },
+        {
+          "kind": "code_path",
+          "target": "udt_accepted_work_consolidation_2026-09-12/GAP_AND_REUSE_MAP.tsv",
+          "path_exists": true,
+          "anchor": null
+        },
+        {
+          "kind": "code_path",
+          "target": "udt_accepted_work_consolidation_2026-09-12/review/",
+          "path_exists": true,
+          "anchor": null
+        },
+        {
+          "kind": "code_path",
+          "target": "udt_broader_evolving_signal_geometry_2026-09-13/REVIEWED_RESULT.md",
+          "path_exists": true,
+          "anchor": null
+        },
+        {
+          "kind": "code_path",
+          "target": "udt_broader_evolving_signal_geometry_2026-09-13/WORK_ORDER.md",
+          "path_exists": true,
+          "anchor": null
+        },
+        {
+          "kind": "code_path",
+          "target": "udt_causal_geometry_fidelity_audit_2026-09-28/DECISION_BRIEF.md",
+          "path_exists": true,
+          "anchor": null
+        },
+        {
+          "kind": "code_path",
+          "target": "udt_causal_geometry_fidelity_audit_2026-09-28/OWNER_STATEMENT.md",
+          "path_exists": true,
+          "anchor": null
+        },
+        {
+          "kind": "code_path",
+          "target": "udt_clock_curvature_derivation_2026-09-28/DECISION_BRIEF.md",
+          "path_exists": true,
+          "anchor": null
+        },
+        {
+          "kind": "code_path",
+          "target": "udt_clock_curvature_derivation_2026-09-28/WORK_ORDER.md",
+          "path_exists": true,
+          "anchor": null
+        },
+        {
+          "kind": "code_path",
+          "target": "udt_common_geometry_whiteboard_2026-09-28/DECISION_BRIEF.md",
+          "path_exists": true,
+          "anchor": null
+        },
+        {
+          "kind": "code_path",
+          "target": "udt_common_geometry_whiteboard_2026-09-28/WORK_ORDER.md",
+          "path_exists": true,
+          "anchor": null
+        },
+        {
+          "kind": "code_path",
+          "target": "udt_conditional_signal_sequence_2026-09-12/WORK_ORDER.md",
+          "path_exists": true,
+          "anchor": null
+        },
+        {
+          "kind": "code_path",
+          "target": "udt_current_native_radiation_feasibility_2026-09-13/DECISION_BRIEF.md",
+          "path_exists": true,
+          "anchor": null
+        },
+        {
+          "kind": "code_path",
+          "target": "udt_directional_clock_curvature_whiteboard_2026-09-10/DECISION_BRIEF.md",
+          "path_exists": true,
+          "anchor": null
+        },
+        {
+          "kind": "code_path",
+          "target": "udt_directional_clock_release_2026-09-14/CANDIDATE.md",
+          "path_exists": true,
+          "anchor": null
+        },
+        {
+          "kind": "code_path",
+          "target": "udt_exact_metric_kernel_expansion_2026-09-10/",
+          "path_exists": true,
+          "anchor": null
+        },
+        {
+          "kind": "code_path",
+          "target": "udt_exact_metric_kernel_expansion_2026-09-10/DECISION_BRIEF.md",
+          "path_exists": true,
+          "anchor": null
+        },
+        {
+          "kind": "code_path",
+          "target": "udt_exact_metric_kernel_expansion_2026-09-10/review/REVIEW.md",
+          "path_exists": true,
+          "anchor": null
+        },
+        {
+          "kind": "code_path",
+          "target": "udt_field_equation_principle_design_2026-09-13/DECISION_PACKET.md",
+          "path_exists": true,
+          "anchor": null
+        },
+        {
+          "kind": "code_path",
+          "target": "udt_field_equation_provenance_and_process_2026-09-13/DECISION_BRIEF.md",
+          "path_exists": true,
+          "anchor": null
+        },
+        {
+          "kind": "code_path",
+          "target": "udt_finite_separation_reciprocity_2026-09-14/DECISION_BRIEF.md",
+          "path_exists": true,
+          "anchor": null
+        },
+        {
+          "kind": "code_path",
+          "target": "udt_foundation_alignment_audit_2026-09-27/continuation/DECISION_BRIEF.md",
+          "path_exists": true,
+          "anchor": null
+        },
+        {
+          "kind": "code_path",
+          "target": "udt_geometric_field_choice_discrimination_2026-09-13/DECISION_BRIEF.md",
+          "path_exists": true,
+          "anchor": null
+        },
+        {
+          "kind": "code_path",
+          "target": "udt_geometric_response_field_connection_2026-09-13/DECISION_BRIEF.md",
+          "path_exists": true,
+          "anchor": null
+        },
+        {
+          "kind": "code_path",
+          "target": "udt_gr_filter_reconciliation_2026-09-09/AUTHORITY_RECORD.md",
+          "path_exists": true,
+          "anchor": null
+        },
+        {
+          "kind": "code_path",
+          "target": "udt_gr_limit_campaign_2026-09-10/DECISION_BRIEF.md",
+          "path_exists": true,
+          "anchor": null
+        },
+        {
+          "kind": "code_path",
+          "target": "udt_gr_limit_campaign_2026-09-10/WORK_ORDER.md",
+          "path_exists": true,
+          "anchor": null
+        },
+        {
+          "kind": "code_path",
+          "target": "udt_gr_response_selection_2026-09-28/DECISION_BRIEF.md",
+          "path_exists": true,
+          "anchor": null
+        },
+        {
+          "kind": "code_path",
+          "target": "udt_gr_response_selection_2026-09-28/WORK_ORDER.md",
+          "path_exists": true,
+          "anchor": null
+        },
+        {
+          "kind": "code_path",
+          "target": "udt_joint_observer_relation_scope_correction_2026-09-13/DECISION_BRIEF.md",
+          "path_exists": true,
+          "anchor": null
+        },
+        {
+          "kind": "code_path",
+          "target": "udt_joint_signal_shape_discrimination_2026-09-13/DECISION_BRIEF.md",
+          "path_exists": true,
+          "anchor": null
+        },
+        {
+          "kind": "code_path",
+          "target": "udt_july_optical_time_dilation_lead_2026-09-28/OWNER_DIRECTION.md",
+          "path_exists": true,
+          "anchor": null
+        },
+        {
+          "kind": "code_path",
+          "target": "udt_kernel_twist_information_audit_2026-09-10/DECISION_BRIEF.md",
+          "path_exists": true,
+          "anchor": null
+        },
+        {
+          "kind": "code_path",
+          "target": "udt_linked_stationary_signal_benchmark_2026-09-12/",
+          "path_exists": true,
+          "anchor": null
+        },
+        {
+          "kind": "code_path",
+          "target": "udt_local_kernel_symmetry_release_2026-09-13/CLOSEOUT.md",
+          "path_exists": true,
+          "anchor": null
+        },
+        {
+          "kind": "code_path",
+          "target": "udt_metric_derivation_response_bridge_2026-09-28/DECISION_BRIEF.md",
+          "path_exists": true,
+          "anchor": null
+        },
+        {
+          "kind": "code_path",
+          "target": "udt_native_angular_premise_audit_2026-09-13/WORK_ORDER.md",
+          "path_exists": true,
+          "anchor": null
+        },
+        {
+          "kind": "code_path",
+          "target": "udt_native_field_connection_audit_2026-09-13/DECISION_BRIEF.md",
+          "path_exists": true,
+          "anchor": null
+        },
+        {
+          "kind": "code_path",
+          "target": "udt_native_response_discrimination_2026-09-09/CAMPAIGN_LOG.md",
+          "path_exists": true,
+          "anchor": null
+        },
+        {
+          "kind": "code_path",
+          "target": "udt_native_response_discrimination_2026-09-09/DECISION_BRIEF.md",
+          "path_exists": true,
+          "anchor": null
+        },
+        {
+          "kind": "code_path",
+          "target": "udt_native_response_discrimination_2026-09-09/WORK_ORDER.md",
+          "path_exists": true,
+          "anchor": null
+        },
+        {
+          "kind": "code_path",
+          "target": "udt_native_theory_research_plan_2026-09-13/PLAN.md",
+          "path_exists": true,
+          "anchor": null
+        },
+        {
+          "kind": "code_path",
+          "target": "udt_ncb1_banking_2026-09-12/BANKING_RECORD.md",
+          "path_exists": true,
+          "anchor": null
+        },
+        {
+          "kind": "code_path",
+          "target": "udt_ne1_clock_beam_geometry_2026-09-12/WORK_ORDER.md",
+          "path_exists": true,
+          "anchor": null
+        },
+        {
+          "kind": "code_path",
+          "target": "udt_ne1_directional_clock_reach_2026-09-12/REVIEWED_RESULT.md",
+          "path_exists": true,
+          "anchor": null
+        },
+        {
+          "kind": "code_path",
+          "target": "udt_ne1_tilted_beam_geometry_2026-09-12/",
+          "path_exists": true,
+          "anchor": null
+        },
+        {
+          "kind": "code_path",
+          "target": "udt_ne1_tilted_beam_geometry_2026-09-12/REVIEWED_RESULT.md",
+          "path_exists": true,
+          "anchor": null
+        },
+        {
+          "kind": "code_path",
+          "target": "udt_nonlinear_mode_realizability_campaign_2026-09-09/DECISION_BRIEF.md",
+          "path_exists": true,
+          "anchor": null
+        },
+        {
+          "kind": "code_path",
+          "target": "udt_nonlinear_ripple_geometry_2026-09-09/DECISION_BRIEF.md",
+          "path_exists": true,
+          "anchor": null
+        },
+        {
+          "kind": "code_path",
+          "target": "udt_null_clock_depth_integrability_assessment_2026-09-10/DECISION_BRIEF.md",
+          "path_exists": true,
+          "anchor": null
+        },
+        {
+          "kind": "code_path",
+          "target": "udt_observation_guided_function_search_2026-09-28/DECISION_BRIEF.md",
+          "path_exists": true,
+          "anchor": null
+        },
+        {
+          "kind": "code_path",
+          "target": "udt_observation_guided_function_search_2026-09-28/WORK_ORDER.md",
+          "path_exists": true,
+          "anchor": null
+        },
+        {
+          "kind": "code_path",
+          "target": "udt_optical_instrument_eligibility_2026-09-12/WORK_ORDER.md",
+          "path_exists": true,
+          "anchor": null
+        },
+        {
+          "kind": "code_path",
+          "target": "udt_optics_bridge_assessment_2026-09-12/REVIEWED_RESULT.md",
+          "path_exists": true,
+          "anchor": null
+        },
+        {
+          "kind": "code_path",
+          "target": "udt_optics_bridge_assessment_2026-09-12/WORK_ORDER.md",
+          "path_exists": true,
+          "anchor": null
+        },
+        {
+          "kind": "code_path",
+          "target": "udt_positional_geometry_clock_connection_2026-09-28/DECISION_BRIEF.md",
+          "path_exists": true,
+          "anchor": null
+        },
+        {
+          "kind": "code_path",
+          "target": "udt_positional_geometry_clock_connection_2026-09-28/OWNER_STATEMENT.md",
+          "path_exists": true,
+          "anchor": null
+        },
+        {
+          "kind": "code_path",
+          "target": "udt_positional_joint_compatibility_2026-09-14/DECISION_BRIEF.md",
+          "path_exists": true,
+          "anchor": null
+        },
+        {
+          "kind": "code_path",
+          "target": "udt_positional_postulate_fidelity_2026-09-27/DECISION_BRIEF.md",
+          "path_exists": true,
+          "anchor": null
+        },
+        {
+          "kind": "code_path",
+          "target": "udt_quiet_correspondence_campaign_2026-09-10/WORK_ORDER.md",
+          "path_exists": true,
+          "anchor": null
+        },
+        {
+          "kind": "code_path",
+          "target": "udt_quiet_correspondence_direction_2026-09-09/DIRECTION_BRIEF.md",
+          "path_exists": true,
+          "anchor": null
+        },
+        {
+          "kind": "code_path",
+          "target": "udt_redshift_distance_readiness_2026-09-12/",
+          "path_exists": true,
+          "anchor": null
+        },
+        {
+          "kind": "code_path",
+          "target": "udt_redshift_distance_readiness_2026-09-12/DECISION_BRIEF.md",
+          "path_exists": true,
+          "anchor": null
+        },
+        {
+          "kind": "code_path",
+          "target": "udt_response_foundations_campaign_2026-09-10/DECISION_BRIEF.md",
+          "path_exists": true,
+          "anchor": null
+        },
+        {
+          "kind": "code_path",
+          "target": "udt_response_foundations_campaign_2026-09-10/WORK_ORDER.md",
+          "path_exists": true,
+          "anchor": null
+        },
+        {
+          "kind": "code_path",
+          "target": "udt_response_measurement_scaling_2026-09-28/DECISION_BRIEF.md",
+          "path_exists": true,
+          "anchor": null
+        },
+        {
+          "kind": "code_path",
+          "target": "udt_response_selection_methods_2026-09-27/DECISION_BRIEF.md",
+          "path_exists": true,
+          "anchor": null
+        },
+        {
+          "kind": "code_path",
+          "target": "udt_response_whiteboard_2026-09-28/DECISION_BRIEF.md",
+          "path_exists": true,
+          "anchor": null
+        },
+        {
+          "kind": "code_path",
+          "target": "udt_reviewed_backlog_banking_2026-09-10/BANKING_RECORD.md",
+          "path_exists": true,
+          "anchor": null
+        },
+        {
+          "kind": "code_path",
+          "target": "udt_signal_continuation_2026-09-13/CHECKPOINT.md",
+          "path_exists": true,
+          "anchor": null
+        },
+        {
+          "kind": "code_path",
+          "target": "udt_signal_continuation_2026-09-13/WORK_ORDER.md",
+          "path_exists": true,
+          "anchor": null
+        },
+        {
+          "kind": "code_path",
+          "target": "udt_ti1_banking_2026-09-11/BANKING_RECORD.md",
+          "path_exists": true,
+          "anchor": null
+        },
+        {
+          "kind": "code_path",
+          "target": "udt_ti1_banking_2026-09-11/WORK_ORDER.md",
+          "path_exists": true,
+          "anchor": null
+        },
+        {
+          "kind": "code_path",
+          "target": "udt_ti2_banking_2026-09-11/WORK_ORDER.md",
+          "path_exists": true,
+          "anchor": null
+        },
+        {
+          "kind": "code_path",
+          "target": "udt_two_path_equation_study_2026-09-27/DECISION_BRIEF.md",
+          "path_exists": true,
+          "anchor": null
+        },
+        {
+          "kind": "code_path",
+          "target": "udt_two_shape_evolution_2026-09-11/",
+          "path_exists": true,
+          "anchor": null
+        },
+        {
+          "kind": "code_path",
+          "target": "udt_two_shape_nonlinear_interaction_2026-09-11/REVIEWED_RESULT.md",
+          "path_exists": true,
+          "anchor": null
+        },
+        {
+          "kind": "code_path",
+          "target": "udt_two_shape_profile_dependence_2026-09-11/",
+          "path_exists": true,
+          "anchor": null
+        },
+        {
+          "kind": "code_path",
+          "target": "udt_two_shape_profile_dependence_2026-09-11/REVIEWED_RESULT.md",
+          "path_exists": true,
+          "anchor": null
+        },
+        {
+          "kind": "markdown",
+          "target": "UDT_CONSOLIDATED_RESEARCH_ACCOUNT.md",
+          "path_exists": true,
+          "anchor": null
+        }
+      ]
+    }
+  ]
+}

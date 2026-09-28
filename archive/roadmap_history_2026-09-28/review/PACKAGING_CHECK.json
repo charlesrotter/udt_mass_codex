@@ -1,0 +1,96 @@
+{
+  "utc": "2026-09-28T16:22:07.692038+00:00",
+  "scope": "packaging-only fidelity; no scientific rerun",
+  "checks": {
+    "all_initial_manifest_files_unchanged": true,
+    "all_nine_reviewed_docs_unchanged": true,
+    "all_immutable_source_pins_unchanged": true,
+    "unscoped_warnings_only_exact_allowed_paths": true,
+    "scoped_staged_whitespace_pass": true,
+    "raw_diagnostic_independent_whitespace_warnings_only_own_path": false,
+    "captured_unscoped_output_matches_current_reproduction": true,
+    "raw_context_line_14_is_literal_space": true,
+    "archive_unchanged": true
+  },
+  "counts": {
+    "initial_manifest_files": 45,
+    "reviewed_documents": 9,
+    "immutable_source_pins": 22
+  },
+  "exact_exception_paths": [
+    "archive/roadmap_history_2026-09-28/review/INITIAL_REVIEW_INPUT.txt",
+    "archive/roadmap_history_2026-09-28/checks/staged_raw_whitespace.stdout"
+  ],
+  "commands": [
+    {
+      "command": [
+        "git",
+        "-c",
+        "core.preloadIndex=false",
+        "-c",
+        "grep.threads=1",
+        "diff",
+        "--cached",
+        "--check"
+      ],
+      "returncode": 2,
+      "stdout": "archive/roadmap_history_2026-09-28/review/INITIAL_REVIEW_INPUT.txt:14: trailing whitespace.\n+ \narchive/roadmap_history_2026-09-28/review/INITIAL_REVIEW_INPUT.txt:71: trailing whitespace.\n+ \narchive/roadmap_history_2026-09-28/review/INITIAL_REVIEW_INPUT.txt:80: trailing whitespace.\n+ \narchive/roadmap_history_2026-09-28/review/INITIAL_REVIEW_INPUT.txt:91: trailing whitespace.\n+ \narchive/roadmap_history_2026-09-28/review/INITIAL_REVIEW_INPUT.txt:93: trailing whitespace.\n+ \narchive/roadmap_history_2026-09-28/review/INITIAL_REVIEW_INPUT.txt:102: trailing whitespace.\n+ \narchive/roadmap_history_2026-09-28/review/INITIAL_REVIEW_INPUT.txt:104: trailing whitespace.\n+ \narchive/roadmap_history_2026-09-28/review/INITIAL_REVIEW_INPUT.txt:112: trailing whitespace.\n+ \narchive/roadmap_history_2026-09-28/review/INITIAL_REVIEW_INPUT.txt:125: trailing whitespace.\n+ \narchive/roadmap_history_2026-09-28/review/INITIAL_REVIEW_INPUT.txt:127: trailing whitespace.\n+ \narchive/roadmap_history_2026-09-28/review/INITIAL_REVIEW_INPUT.txt:184: trailing whitespace.\n+ \narchive/roadmap_history_2026-09-28/review/INITIAL_REVIEW_INPUT.txt:194: trailing whitespace.\n+ \narchive/roadmap_history_2026-09-28/review/INITIAL_REVIEW_INPUT.txt:223: trailing whitespace.\n+ \narchive/roadmap_history_2026-09-28/review/INITIAL_REVIEW_INPUT.txt:242: trailing whitespace.\n+ \narchive/roadmap_history_2026-09-28/review/INITIAL_REVIEW_INPUT.txt:250: trailing whitespace.\n+ \narchive/roadmap_history_2026-09-28/review/INITIAL_REVIEW_INPUT.txt:263: trailing whitespace.\n+ \narchive/roadmap_history_2026-09-28/review/INITIAL_REVIEW_INPUT.txt:339: trailing whitespace.\n+ \narchive/roadmap_history_2026-09-28/review/INITIAL_REVIEW_INPUT.txt:694: new blank line at EOF.\n",
+      "stderr": "",
+      "warning_paths": [
+        "archive/roadmap_history_2026-09-28/review/INITIAL_REVIEW_INPUT.txt"
+      ]
+    },
+    {
+      "command": [
+        "git",
+        "-c",
+        "core.preloadIndex=false",
+        "-c",
+        "grep.threads=1",
+        "diff",
+        "--cached",
+        "--check",
+        "--",
+        ".",
+        ":(exclude)archive/roadmap_history_2026-09-28/review/INITIAL_REVIEW_INPUT.txt",
+        ":(exclude)archive/roadmap_history_2026-09-28/checks/staged_raw_whitespace.stdout"
+      ],
+      "returncode": 0,
+      "stdout": "",
+      "stderr": "",
+      "warning_paths": []
+    },
+    {
+      "command": [
+        "git",
+        "-c",
+        "core.preloadIndex=false",
+        "-c",
+        "grep.threads=1",
+        "diff",
+        "--no-index",
+        "--check",
+        "/dev/null",
+        "archive/roadmap_history_2026-09-28/checks/staged_raw_whitespace.stdout"
+      ],
+      "returncode": 3,
+      "stdout": "archive/roadmap_history_2026-09-28/checks/staged_raw_whitespace.stdout:2: trailing whitespace.\n++ \narchive/roadmap_history_2026-09-28/checks/staged_raw_whitespace.stdout:4: trailing whitespace.\n++ \narchive/roadmap_history_2026-09-28/checks/staged_raw_whitespace.stdout:6: trailing whitespace.\n++ \narchive/roadmap_history_2026-09-28/checks/staged_raw_whitespace.stdout:8: trailing whitespace.\n++ \narchive/roadmap_history_2026-09-28/checks/staged_raw_whitespace.stdout:10: trailing whitespace.\n++ \narchive/roadmap_history_2026-09-28/checks/staged_raw_whitespace.stdout:12: trailing whitespace.\n++ \narchive/roadmap_history_2026-09-28/checks/staged_raw_whitespace.stdout:14: trailing whitespace.\n++ \narchive/roadmap_history_2026-09-28/checks/staged_raw_whitespace.stdout:16: trailing whitespace.\n++ \narchive/roadmap_history_2026-09-28/checks/staged_raw_whitespace.stdout:18: trailing whitespace.\n++ \narchive/roadmap_history_2026-09-28/checks/staged_raw_whitespace.stdout:20: trailing whitespace.\n++ \narchive/roadmap_history_2026-09-28/checks/staged_raw_whitespace.stdout:22: trailing whitespace.\n++ \narchive/roadmap_history_2026-09-28/checks/staged_raw_whitespace.stdout:24: trailing whitespace.\n++ \narchive/roadmap_history_2026-09-28/checks/staged_raw_whitespace.stdout:26: trailing whitespace.\n++ \narchive/roadmap_history_2026-09-28/checks/staged_raw_whitespace.stdout:28: trailing whitespace.\n++ \narchive/roadmap_history_2026-09-28/checks/staged_raw_whitespace.stdout:30: trailing whitespace.\n++ \narchive/roadmap_history_2026-09-28/checks/staged_raw_whitespace.stdout:32: trailing whitespace.\n++ \narchive/roadmap_history_2026-09-28/checks/staged_raw_whitespace.stdout:34: trailing whitespace.\n++ \n",
+      "stderr": "",
+      "warning_paths": [
+        "archive/roadmap_history_2026-09-28/checks/staged_raw_whitespace.stdout"
+      ]
+    }
+  ],
+  "pins": {
+    "PACKAGING_NOTE.md": "2ec74c5c6d54a4bcce64346ff70eeb1e3a044af5635c36c851926b78a3eb1ab1",
+    "checks/staged_raw_whitespace.json": "8538289e0a786ea022b39e9c00afa23d620242da04b91424ba8b3496dcb362a0",
+    "checks/staged_raw_whitespace.stdout": "92d3ad8c12fbc8fca8b09c6f79481ca36280b99f9ed8d2345b28bd38a282526a",
+    "checks/staged_raw_whitespace.stderr": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "checks/staged_raw_whitespace.capture_provenance.json": "71a79cd8667d474aaa697b85024d98113632ee235f70de0912449da92eee7500",
+    "checks/INITIAL_SHA256_MANIFEST.json": "ee407f25b13f5a13c057b27d7275835bcb6644bc0534ce9cd3996ce6ce8d6d2f",
+    "review/INITIAL_REVIEW_INPUT.txt": "abb7dfb02739da3238db22a355187b876b77ab761c0e63ea8c576d3874ebd1d7",
+    "review/REVIEWED_VERSIONS.json": "6bf832f0aab53118342c2792785d36b276d1e10141ba628f99b997c21b2ba2c0",
+    "review/REVIEW.md": "23e7a5a94f84705e83c6803204b2d2835c06be95bbed3df4e8d6cdd5f4a02cd0"
+  },
+  "limits": "Raw diagnostic stdout was not yet staged at review time; its no-index check verifies its own whitespace. Parent must execute the promised complete-stage gate after adding final packaging records."
+}

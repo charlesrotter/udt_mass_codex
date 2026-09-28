@@ -1,0 +1,38 @@
+{
+  "utc": "2026-09-28T16:22:56.437804+00:00",
+  "initial_check_sha256": "6d442d0a351d6e449ba5d68080ef0165603943a9eea0c3a086c8f7671c279bf5",
+  "initial_assertion_error": "Supplemental no-index check expected cached-check returncode2, but the observed no-index result is3 with exactly the expected whitespace warnings and no stderr. The raw captures and all document/source pins were unaffected.",
+  "command": [
+    "git",
+    "-c",
+    "core.preloadIndex=false",
+    "-c",
+    "grep.threads=1",
+    "diff",
+    "--no-index",
+    "--check",
+    "/dev/null",
+    "archive/roadmap_history_2026-09-28/checks/staged_raw_whitespace.stdout"
+  ],
+  "returncode": 3,
+  "warning_paths": [
+    "archive/roadmap_history_2026-09-28/checks/staged_raw_whitespace.stdout"
+  ],
+  "stdout_sha256": "c87dcef3e806fbc1015cd4e043a53cfcd89b3a361cd75060a7870f2d19c60947",
+  "stderr": "",
+  "corrected_no_index_check_pass": true,
+  "all_pins_still_match": true,
+  "all_other_initial_checks_pass": true,
+  "pins": {
+    "PACKAGING_NOTE.md": "2ec74c5c6d54a4bcce64346ff70eeb1e3a044af5635c36c851926b78a3eb1ab1",
+    "checks/staged_raw_whitespace.json": "8538289e0a786ea022b39e9c00afa23d620242da04b91424ba8b3496dcb362a0",
+    "checks/staged_raw_whitespace.stdout": "92d3ad8c12fbc8fca8b09c6f79481ca36280b99f9ed8d2345b28bd38a282526a",
+    "checks/staged_raw_whitespace.stderr": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "checks/staged_raw_whitespace.capture_provenance.json": "71a79cd8667d474aaa697b85024d98113632ee235f70de0912449da92eee7500",
+    "checks/INITIAL_SHA256_MANIFEST.json": "ee407f25b13f5a13c057b27d7275835bcb6644bc0534ce9cd3996ce6ce8d6d2f",
+    "review/INITIAL_REVIEW_INPUT.txt": "abb7dfb02739da3238db22a355187b876b77ab761c0e63ea8c576d3874ebd1d7",
+    "review/REVIEWED_VERSIONS.json": "6bf832f0aab53118342c2792785d36b276d1e10141ba628f99b997c21b2ba2c0",
+    "review/REVIEW.md": "23e7a5a94f84705e83c6803204b2d2835c06be95bbed3df4e8d6cdd5f4a02cd0"
+  },
+  "verdict": "VERIFIED-WITH-CAVEATS: exact two-file raw-evidence exception; parent complete-stage check still required"
+}

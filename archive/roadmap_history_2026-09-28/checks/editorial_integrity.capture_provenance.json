@@ -1,0 +1,27 @@
+{
+  "source": "udt_shared_readout_metric_constraint_campaign_2026-09-06/run_capture.py",
+  "source_sha256": "8ff5469ace76bdfc84188915242abbf3baff35516f9ee3f9ba4b1cbfeb2573ef",
+  "adapted_capture_sha256": "6bd11bdb0ddf49bf57699fb1089d1f1b767de16cdc889f8100ef84ec883be070",
+  "wrapper_sha256": "1b95a783e861a52cc9fc50d3c76c152cb3673fc9045372afafd30da269ffec3f",
+  "replacements": {
+    "(512 * 1024**2, 512 * 1024**2)": "(2048 * 1024**2, 2048 * 1024**2)",
+    "(60, 60)": "(900, 900)",
+    "timeout=60": "timeout=900",
+    "address_space_bytes=512 * 1024**2": "address_space_bytes=2048 * 1024**2",
+    "cpu_seconds=60": "cpu_seconds=900"
+  },
+  "thread_environment": {
+    "OMP_NUM_THREADS": "1",
+    "OPENBLAS_NUM_THREADS": "1",
+    "MKL_NUM_THREADS": "1"
+  },
+  "limits": {
+    "seconds": 900,
+    "mib": 2048
+  },
+  "command": [
+    "python3",
+    "-c",
+    "import csv,hashlib,json,re,subprocess\nfrom pathlib import Path\nfrom urllib.parse import unquote\nroot=Path.cwd(); p=root/'archive/roadmap_history_2026-09-28'\nlaunch=json.loads((p/'LAUNCH.json').read_text()); head=launch['head']\nmaintained={'LIVE.md','HANDOFF.md','CURRENT_RESEARCH_PROGRAM.md','MEMORY.md','INDEX.md','UDT_RESEARCH_ROADMAP.md'}\ndef git(*a): return subprocess.check_output(['git',*a])\ndef sha(b): return hashlib.sha256(b).hexdigest()\nassert git('branch','--show-current').decode().strip()=='grok'\nassert git('rev-parse','HEAD').decode().strip()==head\nassert set(git('diff','--name-only').decode().splitlines())==maintained\nassert not git('diff','--cached','--name-only')\nfor name,h in launch['source_sha256'].items():\n raw=git('show',head+':'+name) if name in maintained else (root/name).read_bytes()\n assert sha(raw)==h,name\nold=git('show',head+':UDT_RESEARCH_ROADMAP.md')\nassert (p/'UDT_RESEARCH_ROADMAP_before_consolidation.md').read_bytes()==old\nnew=(root/'UDT_RESEARCH_ROADMAP.md').read_text()\nfor prefix in ['> Supernova and other','> galaxies qusars','> In terms of observatble']:\n original=[s for s in old.decode().splitlines() if s.startswith(prefix)]\n assert len(original)==1 and original[0] in new,prefix\nsection=old.decode().split('## Owner direction clarification \u2014 emergence question, 2026-09-13\\n',1)[1].split('This current direction qualifies successor language',1)[0].strip()\nassert section in new\nprog_old=git('show',head+':CURRENT_RESEARCH_PROGRAM.md').decode().split('## Architecture\\n')[0]\nprog_new=(root/'CURRENT_RESEARCH_PROGRAM.md').read_text().split('## Current next gate\\n')[0]\nassert prog_old==prog_new,'Founding explanation changed'\nfiles=[root/n for n in sorted(maintained)]+[p/'README.md',p/'WORK_RECORD.md']\nchecked=[]; missing=[]\nfor f in files:\n text=f.read_text()\n for target in re.findall(r'\\[[^\\]\\n]*\\]\\(([^)\\s]+)\\)',text):\n  if '://' in target or target.startswith('mailto:'): continue\n  filepart=unquote(target.split('#',1)[0])\n  resolved=(f.parent/filepart).resolve() if filepart else f\n  (checked if resolved.exists() else missing).append([str(f.relative_to(root)),target])\n for target in re.findall(r'`([^`\\n]+)`',text):\n  if '/' not in target or target.startswith('/') or any(c in target for c in [' ','*','^','=',':']): continue\n  if not (target.endswith('/') or re.search(r'\\.(md|py|tsv|json|txt)$',target)): continue\n  found=(root/target).exists() or (f.parent/target).exists()\n  (checked if found else missing).append([str(f.relative_to(root)),target])\nassert not missing,missing\nrows=list(csv.DictReader((root/'CURRENT_SCIENTIFIC_PREMISES.tsv').open(),delimiter='\\t'))\nassert len(rows)==406\nassert not [r['premise_id'] for r in rows if any('UDT_RESEARCH_ROADMAP.md' in v for v in r.values())]\npackage=root/'udt_response_measurement_scaling_2026-09-28'\nmanifest=json.loads((package/'SHA256_MANIFEST.json').read_text())\nfor name,h in manifest['files'].items(): assert sha((package/name).read_bytes())==h,name\naudit=json.loads((package/'checks/premise_audit.json').read_text()); assert audit['returncode']==0\nassert 'PASS' in (package/'checks/premise_audit.stdout').read_text()\nuntracked=set(git('ls-files','--others','--exclude-standard','-z').decode().split('\\0'))-{''}\noutside={n for n in untracked if not n.startswith(str(p.relative_to(root))+'/')}\nassert outside==set(launch['prior_untracked_paths'])\nsubprocess.run(['git','diff','--check'],check=True)\nresult={'status':'PASS','scope':'editorial preservation and route validity, not scientific proof',\n 'baseline':head,'source_pins_verified':len(launch['source_sha256']),'archive_byte_identity':True,\n 'founding_block_byte_identity':True,'verbatim_owner_quotes':3,'emergence_direction_preserved':True,\n 'checked_local_targets':len(checked),'missing_targets':missing,'prior_RMS1_manifest_files_unchanged':len(manifest['files']),\n 'premise_rows':len(rows),'full_audit':'reused RMS1 pass with unchanged premise/verifier/source pins; focused current-surface run is separate',\n 'prior_untracked_paths_preserved':len(outside),'protected_payloads_read':False,\n 'line_counts':{n:{'before':len(git('show',head+':'+n).decode().splitlines()),'after':len((root/n).read_text().splitlines())} for n in sorted(maintained)}}\nprint(json.dumps(result,indent=2))\n"
+  ]
+}

@@ -1,9 +1,7 @@
 # INDEX — compact current pointers; `LIVE.md` wins
 
-G383--G415 banked; G416--G423 acceptance: `udt_signal_chain_banking_2026-09-13/BANKING_RECORD.md`.
-Roadmap: `UDT_RESEARCH_ROADMAP.md`; G414: `udt_ti2_banking_2026-09-11/BANKING_RECORD.md`; TI3 reviewed/UNPROMOTED: `udt_two_shape_profile_dependence_2026-09-11/DECISION_BRIEF.md`.
-CWA1: `UDT_CONSOLIDATED_RESEARCH_ACCOUNT.md`; BE1/SD1/NR1/NR2/NFCA1/GFC1/LSR1/TC0/FEP1/FE1/JRC1/PJC1/FSR1/DCR1: roadmap; NAP1: `udt_native_angular_premise_audit_2026-09-13/DECISION_BRIEF.md` (reviewed/UNPROMOTED).
-Backlog: `udt_reviewed_backlog_banking_2026-09-10/BANKING_RECORD.md`; exact claims/dispositions/checks there.
+Current explanation: `CURRENT_RESEARCH_PROGRAM.md`; current direction: `UDT_RESEARCH_ROADMAP.md`.
+Completed chronology and older campaign locator: `archive/roadmap_history_2026-09-28/README.md`.
 The exact 406-row `CURRENT_SCIENTIFIC_PREMISES.tsv` owns grades, not these pointers.
 GR is FILTER ONLY, not a response-law input; Local Metric Sufficiency remains owner-provisional.
 Inherited G312 Einstein claims remain CONDITIONAL, not established from filter-only GR; grades fixed.
@@ -41,6 +39,10 @@ Predecessor: `udt_nonlinear_mode_realizability_campaign_2026-09-09/DECISION_BRIE
 G388--G389 conditional, compact-sector mixed-C2/analytic-local tangent limits; original reviews control.
 
 ## Founding, relational and response sources
+
+Use CURRENT_RESEARCH_PROGRAM for the connected explanation. Open the following
+exact source only for the question it addresses; none is a new startup prerequisite.
+RMS1/GRS1/CRD1/CGW1/OFS1 remain reviewed UNPROMOTED; their source reviews control.
 
 - RMS1 response meaning/scaling, reviewed conditional UNPROMOTED:
   `udt_response_measurement_scaling_2026-09-28/DECISION_BRIEF.md`.
@@ -95,6 +97,11 @@ G388--G389 conditional, compact-sector mixed-C2/analytic-local tangent limits; o
 
 ## Exact conditional banking and original evidence
 
+G383--G415 banked; G416--G423 acceptance: `udt_signal_chain_banking_2026-09-13/BANKING_RECORD.md`.
+Roadmap: `UDT_RESEARCH_ROADMAP.md`; G414: `udt_ti2_banking_2026-09-11/BANKING_RECORD.md`; TI3 reviewed/UNPROMOTED: `udt_two_shape_profile_dependence_2026-09-11/DECISION_BRIEF.md`.
+CWA1: `UDT_CONSOLIDATED_RESEARCH_ACCOUNT.md`; BE1/SD1/NR1/NR2/NFCA1/GFC1/LSR1/TC0/FEP1/FE1/JRC1/PJC1/FSR1/DCR1: archived roadmap locator; NAP1: `udt_native_angular_premise_audit_2026-09-13/DECISION_BRIEF.md` (reviewed/UNPROMOTED).
+Backlog: `udt_reviewed_backlog_banking_2026-09-10/BANKING_RECORD.md`; exact claims/dispositions/checks there.
+
 Each BANKING_RECORD links entire controlling candidates/reviews, exclusions and execution receipts;
 original UNPROMOTED/NOT_BANKED headings remain historical. Old proposals do not authorize successors.
 
@@ -143,5 +150,6 @@ These reviewed conditional designs/benchmarks are not scientific-grade or eligib
 - Chosen-family evaluators/controls: `udt_g190_completed_pair_timelive_frequency_screen_join_2026-08-20/`;
   `udt_g196_longitudinal_screen_mixing_descent_2026-08-20/`—not current construction inputs.
 - Historical startup: `archive/STARTUP_SURFACE_HISTORY.md`; prior current pages remain in Git.
+- Completed roadmap chronology: `archive/roadmap_history_2026-09-28/README.md`; byte-preserved baseline and editorial review.
 - Cleanup/archive lookup: `udt_repository_cleanup_2026-09-27/README.md`.
 - Known old path only: `research/_registry/CURRENT_ARTIFACT_PATHS.tsv`, not a frontier/startup read.

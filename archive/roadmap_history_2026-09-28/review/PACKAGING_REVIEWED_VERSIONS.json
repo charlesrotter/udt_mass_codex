@@ -1,0 +1,20 @@
+{
+  "sealed_utc": "2026-09-28T16:23:13.094375+00:00",
+  "verdict": "VERIFIED-WITH-CAVEATS packaging only; full final-stage check belongs to parent",
+  "pins": {
+    "PACKAGING_NOTE.md": "2ec74c5c6d54a4bcce64346ff70eeb1e3a044af5635c36c851926b78a3eb1ab1",
+    "checks/staged_raw_whitespace.json": "8538289e0a786ea022b39e9c00afa23d620242da04b91424ba8b3496dcb362a0",
+    "checks/staged_raw_whitespace.stdout": "92d3ad8c12fbc8fca8b09c6f79481ca36280b99f9ed8d2345b28bd38a282526a",
+    "checks/staged_raw_whitespace.stderr": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "checks/staged_raw_whitespace.capture_provenance.json": "71a79cd8667d474aaa697b85024d98113632ee235f70de0912449da92eee7500",
+    "checks/INITIAL_SHA256_MANIFEST.json": "ee407f25b13f5a13c057b27d7275835bcb6644bc0534ce9cd3996ce6ce8d6d2f",
+    "review/INITIAL_REVIEW_INPUT.txt": "abb7dfb02739da3238db22a355187b876b77ab761c0e63ea8c576d3874ebd1d7",
+    "review/REVIEWED_VERSIONS.json": "6bf832f0aab53118342c2792785d36b276d1e10141ba628f99b997c21b2ba2c0",
+    "review/REVIEW.md": "23e7a5a94f84705e83c6803204b2d2835c06be95bbed3df4e8d6cdd5f4a02cd0",
+    "review/PACKAGING_CHECK.json": "6d442d0a351d6e449ba5d68080ef0165603943a9eea0c3a086c8f7671c279bf5",
+    "review/PACKAGING_RECHECK.json": "7f7086aafda15c34f6075ef79ad89c55c5465c50ce4a1aada03c964aed971095",
+    "review/PACKAGING_REVIEW.md": "d86fbe204eda11358235bf1128a6f4c071ae8137284d3d356f484c1104675518"
+  },
+  "nine_original_document_pins_still_match": true,
+  "previous_review_files_modified": false
+}

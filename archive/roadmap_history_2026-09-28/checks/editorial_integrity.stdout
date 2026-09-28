@@ -1,0 +1,43 @@
+{
+  "status": "PASS",
+  "scope": "editorial preservation and route validity, not scientific proof",
+  "baseline": "b9820927631a801304cfad39517762b38f2b0968",
+  "source_pins_verified": 28,
+  "archive_byte_identity": true,
+  "founding_block_byte_identity": true,
+  "verbatim_owner_quotes": 3,
+  "emergence_direction_preserved": true,
+  "checked_local_targets": 122,
+  "missing_targets": [],
+  "prior_RMS1_manifest_files_unchanged": 67,
+  "premise_rows": 406,
+  "full_audit": "reused RMS1 pass with unchanged premise/verifier/source pins; focused current-surface run is separate",
+  "prior_untracked_paths_preserved": 52,
+  "protected_payloads_read": false,
+  "line_counts": {
+    "CURRENT_RESEARCH_PROGRAM.md": {
+      "before": 229,
+      "after": 254
+    },
+    "HANDOFF.md": {
+      "before": 136,
+      "after": 112
+    },
+    "INDEX.md": {
+      "before": 147,
+      "after": 155
+    },
+    "LIVE.md": {
+      "before": 165,
+      "after": 141
+    },
+    "MEMORY.md": {
+      "before": 99,
+      "after": 76
+    },
+    "UDT_RESEARCH_ROADMAP.md": {
+      "before": 1847,
+      "after": 190
+    }
+  }
+}

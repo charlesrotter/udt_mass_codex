@@ -1,0 +1,179 @@
+{
+  "utc": "2026-09-28T16:05:15.172303+00:00",
+  "branch": "grok",
+  "head": "b9820927631a801304cfad39517762b38f2b0968",
+  "source_checks": [
+    {
+      "path": "LIVE.md",
+      "launch_sha256": "ab3284574b335cea999231a8f41a4a97edf500024341e8370a8cfb11cb205fa9",
+      "actual_sha256": "ab3284574b335cea999231a8f41a4a97edf500024341e8370a8cfb11cb205fa9",
+      "matches": true
+    },
+    {
+      "path": "HANDOFF.md",
+      "launch_sha256": "ccc3addcacc088090bce859d90dd5496e40593a5c3ff1b40eee5ce2904709fef",
+      "actual_sha256": "ccc3addcacc088090bce859d90dd5496e40593a5c3ff1b40eee5ce2904709fef",
+      "matches": true
+    },
+    {
+      "path": "CURRENT_RESEARCH_PROGRAM.md",
+      "launch_sha256": "235966c1fd45c0d556d4f66d016f73f7a4450c0fb29732f69af788a08f59359b",
+      "actual_sha256": "235966c1fd45c0d556d4f66d016f73f7a4450c0fb29732f69af788a08f59359b",
+      "matches": true
+    },
+    {
+      "path": "MEMORY.md",
+      "launch_sha256": "bcad34c5fa011a62e75dd05764ef7c4a0f90272ed8a96b7bc92f8da0470e5d43",
+      "actual_sha256": "bcad34c5fa011a62e75dd05764ef7c4a0f90272ed8a96b7bc92f8da0470e5d43",
+      "matches": true
+    },
+    {
+      "path": "INDEX.md",
+      "launch_sha256": "2f41762828725a027f659fb10c3d17544ea18a473261721b3251890bc3a81d51",
+      "actual_sha256": "2f41762828725a027f659fb10c3d17544ea18a473261721b3251890bc3a81d51",
+      "matches": true
+    },
+    {
+      "path": "UDT_RESEARCH_ROADMAP.md",
+      "launch_sha256": "4b4df115f0d7e4bfc960fdc056433289d328f02e880f4ed0db0f588a5f016ef9",
+      "actual_sha256": "4b4df115f0d7e4bfc960fdc056433289d328f02e880f4ed0db0f588a5f016ef9",
+      "matches": true
+    },
+    {
+      "path": "AGENTS.md",
+      "launch_sha256": "c578b045cf3278804124e23a5408ff9634a9a2165f7d20223f654d76bffd8ec9",
+      "actual_sha256": "c578b045cf3278804124e23a5408ff9634a9a2165f7d20223f654d76bffd8ec9",
+      "matches": true
+    },
+    {
+      "path": "CLAUDE.md",
+      "launch_sha256": "b7e524a5b06760e57877a408630228767ae9a394134095f9851bef5d06e17751",
+      "actual_sha256": "b7e524a5b06760e57877a408630228767ae9a394134095f9851bef5d06e17751",
+      "matches": true
+    },
+    {
+      "path": ".claude/skills/completeness-map/SKILL.md",
+      "launch_sha256": "a8cf9e5f4a6d35a0d0ebfe4bc48dbf328ca74e318f020a6a22cb683666a611c0",
+      "actual_sha256": "a8cf9e5f4a6d35a0d0ebfe4bc48dbf328ca74e318f020a6a22cb683666a611c0",
+      "matches": true
+    },
+    {
+      "path": ".claude/skills/verifier-before-record/SKILL.md",
+      "launch_sha256": "9b3a4aacd4b4006b2b7f01edada73b7c87b99bea6e754583558713bfc145e5ac",
+      "actual_sha256": "9b3a4aacd4b4006b2b7f01edada73b7c87b99bea6e754583558713bfc145e5ac",
+      "matches": true
+    },
+    {
+      "path": "CURRENT_SCIENTIFIC_PREMISES.md",
+      "launch_sha256": "7b574665f714551a3a565987fc5bc56a4b44c7e6fb274532f61609c25153f627",
+      "actual_sha256": "7b574665f714551a3a565987fc5bc56a4b44c7e6fb274532f61609c25153f627",
+      "matches": true
+    },
+    {
+      "path": "CURRENT_SCIENTIFIC_PREMISES.tsv",
+      "launch_sha256": "7a3d69d5a0bc3ac98e2ebe2bb0c6d029df30071bf403baffed2223a193dc720b",
+      "actual_sha256": "7a3d69d5a0bc3ac98e2ebe2bb0c6d029df30071bf403baffed2223a193dc720b",
+      "matches": true
+    },
+    {
+      "path": "verify_current_scientific_premises.py",
+      "launch_sha256": "97724ef61bf70902ed6b70df9ee92e13acfb2a55fbede2d32adae46fa5b76bd4",
+      "actual_sha256": "97724ef61bf70902ed6b70df9ee92e13acfb2a55fbede2d32adae46fa5b76bd4",
+      "matches": true
+    },
+    {
+      "path": "founding.md",
+      "launch_sha256": "b4b0d9a9fdd093c992647195aca7579566a9e77a396071a699c1938888a49e75",
+      "actual_sha256": "b4b0d9a9fdd093c992647195aca7579566a9e77a396071a699c1938888a49e75",
+      "matches": true
+    },
+    {
+      "path": "CANON.md",
+      "launch_sha256": "047b7fbbc1acacf01d2716e3c98cdefd0b9b20136ac4a3306f55dd6775465250",
+      "actual_sha256": "047b7fbbc1acacf01d2716e3c98cdefd0b9b20136ac4a3306f55dd6775465250",
+      "matches": true
+    },
+    {
+      "path": "udt_response_measurement_scaling_2026-09-28/REVIEWED_RESULT.md",
+      "launch_sha256": "462cad1bb96a2ed121edede7e93d4f0fcf9d7f61c1a35f438d42ae47b7dfec3c",
+      "actual_sha256": "462cad1bb96a2ed121edede7e93d4f0fcf9d7f61c1a35f438d42ae47b7dfec3c",
+      "matches": true
+    },
+    {
+      "path": "udt_response_measurement_scaling_2026-09-28/DECISION_BRIEF.md",
+      "launch_sha256": "8a6285b01fe83e94f4bee7f6273d1c6af9d5b8ed0ca7a066251bedff5eb54569",
+      "actual_sha256": "8a6285b01fe83e94f4bee7f6273d1c6af9d5b8ed0ca7a066251bedff5eb54569",
+      "matches": true
+    },
+    {
+      "path": "udt_gr_response_selection_2026-09-28/REVIEWED_RESULT.md",
+      "launch_sha256": "4c0cbaf8dac98010556136d4189f1abe724f089ca91e353b520401ff05725795",
+      "actual_sha256": "4c0cbaf8dac98010556136d4189f1abe724f089ca91e353b520401ff05725795",
+      "matches": true
+    },
+    {
+      "path": "udt_gr_response_selection_2026-09-28/DECISION_BRIEF.md",
+      "launch_sha256": "48d24385c7688cf1020d3fae05fc7c681113a35bea05a9ba078fcad4b7bed852",
+      "actual_sha256": "48d24385c7688cf1020d3fae05fc7c681113a35bea05a9ba078fcad4b7bed852",
+      "matches": true
+    },
+    {
+      "path": "udt_clock_curvature_derivation_2026-09-28/REVIEWED_RESULT.md",
+      "launch_sha256": "0afd91a8305d0f3cb6de78b0c5a275b861b15bd02db00900b7f3648eed28d852",
+      "actual_sha256": "0afd91a8305d0f3cb6de78b0c5a275b861b15bd02db00900b7f3648eed28d852",
+      "matches": true
+    },
+    {
+      "path": "udt_clock_curvature_derivation_2026-09-28/DECISION_BRIEF.md",
+      "launch_sha256": "f60b832be292295b1668882d7587e84f9b0a80ffc8ed6fe8c320d8530e5a076e",
+      "actual_sha256": "f60b832be292295b1668882d7587e84f9b0a80ffc8ed6fe8c320d8530e5a076e",
+      "matches": true
+    },
+    {
+      "path": "udt_common_geometry_whiteboard_2026-09-28/REVIEWED_RESULT.md",
+      "launch_sha256": "b4bdb53716762b6bac91dc95dd867920c18892e82c425d701e28d1981929e0b9",
+      "actual_sha256": "b4bdb53716762b6bac91dc95dd867920c18892e82c425d701e28d1981929e0b9",
+      "matches": true
+    },
+    {
+      "path": "udt_common_geometry_whiteboard_2026-09-28/DECISION_BRIEF.md",
+      "launch_sha256": "f01da64794d0e816a4b7c59d77d9599ebbcf160e2409596c0d589f3cedce288b",
+      "actual_sha256": "f01da64794d0e816a4b7c59d77d9599ebbcf160e2409596c0d589f3cedce288b",
+      "matches": true
+    },
+    {
+      "path": "udt_observation_guided_function_search_2026-09-28/REVIEWED_RESULT.md",
+      "launch_sha256": "f1dffa344c81154e533274495b70c6d884c65e6628b85a076c20400d7833b79c",
+      "actual_sha256": "f1dffa344c81154e533274495b70c6d884c65e6628b85a076c20400d7833b79c",
+      "matches": true
+    },
+    {
+      "path": "udt_observation_guided_function_search_2026-09-28/DECISION_BRIEF.md",
+      "launch_sha256": "614e5a71335833439af94ea719c0ac506b4e5a1766177cc335643ee345243a29",
+      "actual_sha256": "614e5a71335833439af94ea719c0ac506b4e5a1766177cc335643ee345243a29",
+      "matches": true
+    },
+    {
+      "path": "udt_positional_geometry_clock_connection_2026-09-28/OWNER_STATEMENT.md",
+      "launch_sha256": "6d51ac6e4525dec57f7a9d3f795568410052e20102d9971bca0a4275eef4bee7",
+      "actual_sha256": "6d51ac6e4525dec57f7a9d3f795568410052e20102d9971bca0a4275eef4bee7",
+      "matches": true
+    },
+    {
+      "path": "udt_july_optical_time_dilation_lead_2026-09-28/OWNER_DIRECTION.md",
+      "launch_sha256": "7736baaefc8dfa4c6e7dfef04435802eee4c1473b22edd627c5e1fd279cd3ac8",
+      "actual_sha256": "7736baaefc8dfa4c6e7dfef04435802eee4c1473b22edd627c5e1fd279cd3ac8",
+      "matches": true
+    },
+    {
+      "path": "udt_gr_filter_reconciliation_2026-09-09/AUTHORITY_RECORD.md",
+      "launch_sha256": "80daa0be6d3e1c0ac1b734fea089c4eb487f05bc1e1fbb2fabd69322ca89f28c",
+      "actual_sha256": "80daa0be6d3e1c0ac1b734fea089c4eb487f05bc1e1fbb2fabd69322ca89f28c",
+      "matches": true
+    }
+  ],
+  "archive_sha256": "4b4df115f0d7e4bfc960fdc056433289d328f02e880f4ed0db0f588a5f016ef9",
+  "baseline_roadmap_sha256": "4b4df115f0d7e4bfc960fdc056433289d328f02e880f4ed0db0f588a5f016ef9",
+  "archive_byte_identity": true,
+  "review_scope": "documentation fidelity only; no scientific reproof"
+}

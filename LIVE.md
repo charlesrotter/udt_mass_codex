@@ -116,46 +116,22 @@ Protected—do not stage, modify, mine or cite without dispatch:
 
 ### Next gate
 
-RMS1 response meaning/scaling exploration is reviewed conditional UNPROMOTED;
-its bounded construction, exact checks and fresh adversarial review are complete:
-`udt_response_measurement_scaling_2026-09-28/DECISION_BRIEF.md`.
-Conditional directional clock/motion records reconstruct Ricci; their matched
-unit-observer readings have weight -2 under constant metric homothety.
-This does not identify DDR's response. The narrower sufficient target is
-S=TF(E): under the reviewed covariant rank-two, natural finite-jet, flat-regular
-flattening-domain and exact weight-zero hypotheses, S=a(Ric-Rg/4).
-With a!=0, DDR gives the trace-free Einstein vacuum equation. Native ownership
-of these hypotheses, physical response identification and nonzero a remain OPEN.
-Kernel differentiation and direct G352 density identification fail their stated
-shortcuts; this is not universal non-derivability. Geometry needs no blanket
-light-theory prerequisite; actual record access and signal identification remain
-conditional. GR is FILTER ONLY. No field law, scale symmetry or premise is adopted.
-REVIEWED_RESULT and CLOSEOUT own precision qualifications, review and limits.
+RMS1 is complete, reviewed conditional UNPROMOTED. Its result and the current
+research checkpoint are explained in `CURRENT_RESEARCH_PROGRAM.md`, “Current next gate.”
+Lay return: `udt_response_measurement_scaling_2026-09-28/DECISION_BRIEF.md`;
+exact hypotheses, review and limits: that package's REVIEWED_RESULT and CLOSEOUT.
 
-Prior GRS1 reviewed conditional UNPROMOTED return:
-`udt_gr_response_selection_2026-09-28/DECISION_BRIEF.md`.
-Its full-E conditional classification survives; RMS1 weakens this route's target
-to TF(E). Reciprocity does not select an action; EH/R^2 remain unadopted comparisons.
-Native selection, measured local GR precision and physical asymptotic completion
-remain OPEN. No scientific grade, canon or successor is adopted.
+We can reconstruct geometric information from specified ideal clock/motion
+records; identifying the response whose balance selects geometry remains OPEN.
+The narrower conditional route concerns TF(E); it adopts no response law or new
+premise. Physical event/path-to-depth assignment, actual measurement connection,
+local empirical correspondence and global asymptotic completion remain distinct.
+No completed microscopic light theory is a blanket prerequisite for scoped geometry
+or justified conditional measurement. Founding intent above remains controlling.
 
-Prior CRD1 reviewed conditional UNPROMOTED return:
-`udt_clock_curvature_derivation_2026-09-28/DECISION_BRIEF.md`.
-Full shifted-pair/full4D clock-curvature identities remain valid at their scopes.
-The restricted scalar relation is elliptic with derivative-free curvature input;
-a larger-system constraint role remains possible. It selects no native response.
-
-Prior CGW1 reviewed conditional UNPROMOTED return:
-`udt_common_geometry_whiteboard_2026-09-28/DECISION_BRIEF.md`.
-Its clock/screen restrictions and scoped drift discriminator remain unchanged.
-
-Prior OFS1 reviewed empirical/conditional UNPROMOTED return:
-`udt_observation_guided_function_search_2026-09-28/DECISION_BRIEF.md`.
-Its finite-range SNe/conditional BAO shapes and supplied inverse remain leads;
-expanding controls are not the intended native positional law.
-Prior July optical-time and positional-geometry cycles are complete; INDEX
-routes their reviewed returns. Their stationary controls select no generic
-future-return rule, preferred observer or required Hubble expansion.
+INDEX routes GRS1/CRD1/CGW1/OFS1 and the July results. Completed campaign chronology
+is historical: `archive/roadmap_history_2026-09-28/README.md`. Original source paths,
+conditions and grades are unchanged; former next-step language is not authorization.
 
 DCR1 reviewed conditional UNPROMOTED: directional clocks permit central tides in its supplied static class
 under full G301 at an eligible center; no neighborhood field equation; FE1 UNADOPTED.

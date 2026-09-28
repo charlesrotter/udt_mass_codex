@@ -12,39 +12,15 @@ retains relative-motion Doppler and gravity. July lead reviewed/UNPROMOTED:
 `udt_july_optical_time_dilation_lead_2026-09-28/DECISION_BRIEF.md`.
 Its stationary reversal is not a generic UDT law; physical clock-map data remain open.
 
-RMS1 reviewed conditional UNPROMOTED; response meaning/scaling cycle complete:
-`udt_response_measurement_scaling_2026-09-28/DECISION_BRIEF.md`.
-Conditional clock/motion records reconstruct Ricci with unit-observer weight -2;
-physical identification with DDR's response remains OPEN. This route needs the
-full reviewed covariant rank-two, natural finite-jet, flat-regular flattening-domain,
-exact weight-zero conditions only for S=TF(E), not its unconstrained trace sector.
-Then S=a(Ric-Rg/4); nonzero a is still required and unowned. Kernel differentiation
-and direct carried-density identification supply no shortcut. No light-theory
-prerequisite for geometry or new physical law is adopted. Full review/limits:
-REVIEWED_RESULT and CLOSEOUT. Stop for discussion; no automatic successor.
-
-Prior GRS1 reviewed conditional UNPROMOTED; GR-response comparison/derivation complete:
-`udt_gr_response_selection_2026-09-28/DECISION_BRIEF.md`.
-Under the reviewed covariant rank-two, natural finite-jet, flat-regular
-flattening-domain and exact weight-zero hypotheses, E=a Ric+b Rg; DDR with
-nonzero Ricci coefficient gives the trace-free Einstein vacuum equation.
-Second order follows conditionally; native response type/weight/regularity and
-nondegeneracy remain unclosed. Reciprocity does not choose an action; EH/R^2
-are unadopted comparisons. Full scope/review: REVIEWED_RESULT and CLOSEOUT.
+RMS1 is complete, reviewed conditional UNPROMOTED. Current explanation and exact
+conditional TF(E) route: `CURRENT_RESEARCH_PROGRAM.md`, “Current next gate.”
+Lay return: `udt_response_measurement_scaling_2026-09-28/DECISION_BRIEF.md`.
+Geometric reconstruction does not identify the response selecting geometry.
+Response selection, physical clock map, measurement connection and empirical/global
+completion remain distinct. No light-theory or complete-field-law blanket gate.
+INDEX routes GRS1/CRD1/CGW1/OFS1 and July evidence; original scopes/grades remain.
+Completed chronology: `archive/roadmap_history_2026-09-28/README.md`.
 Stop for discussion; no automatic successor.
-
-Prior CRD1 reviewed conditional UNPROMOTED; constructive derivation/review complete:
-`udt_clock_curvature_derivation_2026-09-28/DECISION_BRIEF.md`.
-Exact shifted-pair/full4D clock-curvature identities; restricted scalar equation
-is elliptic under prescribed derivative-free curvature, not standalone causal
-evolution. A larger-system constraint role remains possible. Native response
-identification remains OPEN. Full review/limits: REVIEWED_RESULT and CLOSEOUT.
-Stop for discussion. Prior CGW1 clock/screen and drift results remain; see INDEX.
-
-OFS1 reviewed empirical/conditional UNPROMOTED return:
-`udt_observation_guided_function_search_2026-09-28/DECISION_BRIEF.md`.
-Finite-range SNe/conditional BAO shapes and a supplied metric inverse; native
-selection and physical asymptote remain OPEN. No automatic successor; see INDEX.
 
 Foundation alignment/archival return: INDEX. Kernel evaluates supplied depth; complete `B,Q,S,Y,Z` enters before readout.
 Universal Reciprocity/DDR and explained Local Metric Sufficiency remain owner-adopted provisional premises.
@@ -89,9 +65,10 @@ Fixed manuscript/coverage is the through-G352 edition, not the current frontier.
 Session transition: `HANDOFF.md`.
 
 Banking through G382 is complete; G312 membership unclosed, G352 physical identification OPEN.
-Consolidated gains/gates: `UDT_CONSOLIDATED_RESEARCH_ACCOUNT.md`; roadmap owns dispositions and GFC1 connection.
+CWA1 historical synthesis: `UDT_CONSOLIDATED_RESEARCH_ACCOUNT.md`; current checkpoint: program.
+Older dispositions/GFC1 history: archived roadmap locator; original source scopes control.
 NAP1/DCR1 reviewed/UNPROMOTED; native admission/response identification OPEN; Maxwell PAUSED.
-FE1 UNADOPTED; JRC1/PJC1/FSR1/DCR1 scopes/stop: roadmap.
+FE1 UNADOPTED; JRC1/PJC1/FSR1/DCR1 scopes/stop: roadmap historical locator.
 
 Backup completeness/pre-reboot unsaved state remain UNVERIFIED; ScratchDisk archive-only.
 R2--R5 remain verified with caveats;184,300 covariance rows unresolved, no preferred scale.
