@@ -1,0 +1,14 @@
+{
+  "scope": "Packaging only; one saved unified-diff file has whitespace lint unset, source/code remain checked",
+  "checks": {
+    "sources_unchanged": true,
+    "reviewed_live_documents_unchanged": true,
+    "reviewed_packet_documents_unchanged": true,
+    "saved_patch_exact": true,
+    "full_change_whitespace_pass": true
+  },
+  "whitespace_stdout": "",
+  "whitespace_stderr": "",
+  "attribute_readout": "udt_july_optical_time_dilation_lead_2026-09-28/LIVE_SURFACE_DIFF.patch: whitespace: unset\nCURRENT_RESEARCH_PROGRAM.md: whitespace: unspecified\nudt_july_optical_time_dilation_lead_2026-09-28/check_lead.py: whitespace: unspecified\n",
+  "passed": true
+}
