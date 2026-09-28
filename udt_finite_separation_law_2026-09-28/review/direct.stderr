@@ -1,0 +1,6 @@
+Traceback (most recent call last):
+  File "/home/udt-admin/udt_mass_codex/udt_finite_separation_law_2026-09-28/review/direct_check.py", line 22, in <module>
+    ck('eq7_exact_decomposition',S.simplify(z-a-b*T)==0)
+  File "/home/udt-admin/udt_mass_codex/udt_finite_separation_law_2026-09-28/review/direct_check.py", line 7, in ck
+    if not c:raise AssertionError(name)
+AssertionError: eq7_exact_decomposition

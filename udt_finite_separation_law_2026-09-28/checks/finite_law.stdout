@@ -1,0 +1,101 @@
+{
+  "status": "PASS",
+  "evidence": "exact symbolic/rational checks, not a proof census",
+  "python": "3.10.12",
+  "sympy": "1.13.1",
+  "count": 53,
+  "checks": [
+    "Bx_metricity",
+    "Bx_determinant",
+    "By_metricity",
+    "By_determinant",
+    "rotation_metricity",
+    "rotation_determinant",
+    "product_metricity",
+    "product_determinant",
+    "case0_unit_launch",
+    "case0_unit_arrival",
+    "case0_composition",
+    "case0_direction",
+    "case0_inversion_factor",
+    "case0_inversion_direction",
+    "case0_clock_contraction",
+    "case0_projective_norm",
+    "case0_projective_readout",
+    "case0_middle_frame_cancels",
+    "case0_passive_rotation",
+    "case0_uncarried_direction_rejected",
+    "case0_gamma_as_redshift_rejected",
+    "case0_uncarried_inverse_rejected",
+    "case1_unit_launch",
+    "case1_unit_arrival",
+    "case1_composition",
+    "case1_direction",
+    "case1_inversion_factor",
+    "case1_inversion_direction",
+    "case1_clock_contraction",
+    "case1_projective_norm",
+    "case1_projective_readout",
+    "case1_middle_frame_cancels",
+    "case1_passive_rotation",
+    "case1_uncarried_direction_rejected",
+    "case1_gamma_as_redshift_rejected",
+    "case1_uncarried_inverse_rejected",
+    "aligned_planar_Z",
+    "opposite_planar_Z",
+    "transverse_Z",
+    "boundary_family_unit_clock",
+    "boundary_family_metricity",
+    "boundary_family_redshift_one",
+    "boundary_family_norm_identity",
+    "boundary_family_norm_limit",
+    "boundary_family_null_launch",
+    "boundary_family_launch_frequency_one",
+    "boundary_family_transport",
+    "aligned_boundary_zero",
+    "fixed_transverse_boundary_infinite",
+    "critical_angle_finite",
+    "faster_angle_zero",
+    "slower_angle_infinite",
+    "boundary_norm_alone_infinite_claim_rejected"
+  ],
+  "records": [
+    {
+      "launch": [
+        "0",
+        "1",
+        "0"
+      ],
+      "forward_frequency": "41/12",
+      "Z": "12/41",
+      "wrong_uncarried_frequency": "15/4",
+      "gamma": "25/12",
+      "direction": [
+        "9/41",
+        "40/41",
+        "0"
+      ]
+    },
+    {
+      "launch": [
+        "1/3",
+        "2/3",
+        "2/3"
+      ],
+      "forward_frequency": "61/18",
+      "Z": "18/61",
+      "wrong_uncarried_frequency": "23/6",
+      "gamma": "25/12",
+      "direction": [
+        "21/61",
+        "56/61",
+        "12/61"
+      ]
+    }
+  ],
+  "fixed_redshift_family": {
+    "gamma": "q**2/2 + 1",
+    "Z": "1",
+    "limit_norm_squared": "1"
+  }
+}

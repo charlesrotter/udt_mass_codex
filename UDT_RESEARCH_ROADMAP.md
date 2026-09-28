@@ -1,6 +1,6 @@
 # UDT research roadmap — current direction
 
-Updated 2026-09-28 after CRV1. This is a direction document, not scientific
+Updated 2026-09-28 after FSL1. This is a direction document, not scientific
 premise authority or research authorization. LIVE controls operational status;
 the exact registry and original reviewed sources control grades and scope.
 AGENTS controls method. Charles canonizes; CANON is unchanged.
@@ -12,16 +12,17 @@ This roadmap does not duplicate their detailed derivations or premise inventory.
 
 ## Current return and next discussion
 
-CRV1 is complete: [lay return](udt_conservation_variational_response_2026-09-28/DECISION_BRIEF.md)
-and [reviewed result](udt_conservation_variational_response_2026-09-28/REVIEWED_RESULT.md).
-It supplies a local scalar-trace completion test, a weak-class obstruction and
-a conditional conserved/variational representative. Native response selection
-and off-shell conservation remain OPEN. The current Ricci route still requires
-its full hypotheses; DDR remains TF(E)=0, not E=0. An action can follow under
-explicit inverse-variational theorem conditions, which are not newly adopted.
-RMS1's conditional scaling and smaller sufficient response-class target remain
-available through INDEX. The next discussion concerns physical response meaning
-and a justified conservation connection. No successor is authorized.
+FSL1 is complete: [lay return](udt_finite_separation_law_2026-09-28/DECISION_BRIEF.md)
+and [reviewed result](udt_finite_separation_law_2026-09-28/REVIEWED_RESULT.md).
+It connects existing metric/frame/null-clock results into a universal-form finite
+comparison rule and derives an exact directional condition for the redshift
+asymptote. The rule needs supplied geometry, observers and a regular null query;
+it does not select physical relations or a native metric response. The full
+projective boundary alone is insufficient to realize the owner's intended limit.
+CRV1/RMS1 response routes retain all hypotheses and remain available through INDEX.
+DDR remains TF(E)=0, not E=0; no conservation or action premise is newly adopted.
+The next target is a justified metric-response connection tested with full clock,
+ray/frame and curvature data. No successor is authorized.
 
 Keep the open questions distinct: native response selection, physical event/path-
 to-depth assignment, a chosen observable's signal/measurement connection, empirical
@@ -37,6 +38,22 @@ not established from filter-only GR. Current authority:
 `udt_gr_filter_reconciliation_2026-09-09/AUTHORITY_RECORD.md`.
 No physical response definition, nonzero normalization or scale symmetry is
 supplied by this roadmap. Current sources own all mathematical hypotheses.
+
+## Universal finite-separation direction — 2026-09-28
+
+Charles: “Keeping fidelity to SR and GR seems like an universal law governing
+positional dilation across finite separations is probably required.” He then
+authorized: “Let's develop the universal law, likely with similar techniques
+used to develop SR and GR.”
+
+FSL1 carried out the bounded construction/check/review cycle, including one
+frame-orientation clarification. Universality means one covariant rule with
+consistent same-path subdivision, not identical clock ratios for all observers
+or path independence. A later causal return is a separate comparison. W4/W5 and
+the founding positional interpretation retain their existing provisional status;
+these words do not adopt a new field equation, physical null protocol or profile.
+The geometric asymptotic criterion is a constraint for candidate development,
+not evidence that the intended physical asymptote has been realized.
 
 ## Direction for the next bounded question
 

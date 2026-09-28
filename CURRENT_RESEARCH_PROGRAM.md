@@ -87,15 +87,18 @@ Attachment audit/archive: INDEX.
 
 ## Current next gate
 
-CRV1 is complete, reviewed conditional UNPROMOTED. It gives a local test for
-whether a specified trace-free response admits a conserved scalar-trace
-completion, plus a conditional route to a variational representative. The
-physical response law and its native off-shell conservation remain unidentified.
-Positional dilation stays the founding postulate, not a claim that has been
-replaced by a conventional speed-of-transfer premise.
+FSL1 is complete, reviewed conditional UNPROMOTED. It connects the existing
+null-clock and full-frame results into an explicit universal-form comparison
+rule on supplied metric, observers and a regular null branch. It also gives the
+exact directional condition for divergent redshift at the projective boundary.
+This is a geometric comparison law; physical query assignment and the native
+response governing allowed geometry remain OPEN. Positional dilation stays the
+founding interpretation of c_E, light cones and causal timing. No new premise,
+physical protocol, Einstein field equation or cosmological history is adopted.
 
 | Reviewed return | Usable gain | Limit that remains |
 |---|---|---|
+| FSL1 — finite-separation law | Full-frame/null-ray clock composition and an exact directional asymptotic test | Supplied geometry and regular null query; no native response or realized physical asymptote |
 | CRV1 — conservation/variation | On a fixed contractible metric region, E=S+qg can be conserved iff d(div S)=0; the conditional Ricci class completes to aG+Cg | A scalar primitive need not be a natural finite-jet operator; physical response/conservation and inverse-variational theorem hypotheses remain unowned |
 | RMS1 — response meaning/scaling | Ideal clock/motion readings have derived scaling; suitable families reconstruct Ricci; classification can target TF(E) | No physical identification of E or TF(E); no adopted homothety symmetry |
 | GRS1 — GR-response comparison | Conditional natural-tensor classification; reciprocity does not choose an action | Full hypotheses and nonzero Ricci coefficient are not native ownership |
@@ -103,13 +106,26 @@ replaced by a conventional speed-of-transfer premise.
 | CGW1 — common geometry | Clock/screen compatibility and a scoped later-observation drift discriminator | Does not select a cosmology, establish solar precision or realize the global asymptote |
 | OFS1 — observation-guided functions | Finite-range SNe shapes, conditional BAO comparison and a restricted metric inverse | Processed/exposed data and conventional interfaces; expanding controls are not the intended native positional explanation |
 
-These six returns are reviewed conditional (OFS1 also empirical) and UNPROMOTED;
+These seven returns are reviewed conditional (OFS1 also empirical) and UNPROMOTED;
 no grade is changed here. INDEX gives each exact REVIEWED_RESULT/DECISION_BRIEF
 route; those sources and reviews control qualifications and evidence. Earlier
 July/positional-geometry returns retain their scopes, including no generic
 stationary reversal or selected future-return rule.
 CRD1's principal-type conclusion can change under a derivative-dependent closing
 law; it is not a UDT-wide claim of ellipticity or acausality.
+
+FSL1's same-transport readout is Z=(1-chi dot n_o)/sqrt(1-|chi|^2), where
+Z is received/emitted differential tick interval and n_o is the actual future
+propagation direction at reception. This requires W5's arrow, endpoint clocks
+and the null comparison to match; chi alone cannot supply the ray. G220's
+same-correspondence clock leg still gives Phi=-log Z without constructing the
+full pair. G269/G272 already own the planar/rapidity distinction; they are reused.
+For r=|chi|->1 and mu=chi dot n_o/r, Z->infinity iff
+(1-mu)/sqrt(1-r)->infinity. A supplied flat comparison family reaches r->1 with
+Z=1, so bounded projective position alone does not realize the intended asymptote.
+This is not a physical UDT cosmology or an exclusion of the owner's target.
+Full hypotheses, consistent-frame-orientation repair, checks and review:
+`udt_finite_separation_law_2026-09-28/REVIEWED_RESULT.md`.
 
 ### The precise conditional response route
 
@@ -172,7 +188,7 @@ Completed chronology: `archive/roadmap_history_2026-09-28/README.md`.
 DCR1 reviewed conditional UNPROMOTED: directional clocks permit central tides in its supplied static class
 under full G301 at an eligible center; no neighborhood field equation; FE1 UNADOPTED.
 G312 membership/native admission unclosed; response identification OPEN; G352 physical-realization: physical identification remains OPEN.
-Stop for lay discussion. CRV1 is complete; no new campaign is authorized;
+Stop for lay discussion. FSL1 is complete; no new campaign is authorized;
 work order and return gates: `UDT_RESEARCH_ROADMAP.md`.
 
 ## Architecture

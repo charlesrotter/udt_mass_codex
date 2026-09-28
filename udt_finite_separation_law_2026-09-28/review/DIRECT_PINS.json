@@ -1,0 +1,27 @@
+{
+  "sealed_utc": "2026-09-28T18:38:54.040618+00:00",
+  "verdict": "VERIFIED-WITH-CAVEATS",
+  "accepted_repairs": 1,
+  "sha256": {
+    "INITIAL_CANDIDATE.md": "7dd39a4840390f15fcedc2ae0e588f51e441b4348eaf0f0f8d9b81968b60d8e4",
+    "CANDIDATE_FREEZE.json": "0b978e014c7c3cf75c8020f58074890b9d7ce1538263bdd1ffc08dc8699a09a4",
+    "REPAIR.md": "be0927544e72bebd38a364cac33e0979aa8b4c4a1bdcdeba5dedf3e16e41e368",
+    "SOURCE_MAP.md": "a7d131635b70ef8a841e22495040233180e68c21e5bb0d81d2462cfc1e6dcc8c",
+    "WORK_ORDER.md": "21be10163410b95cd90416a1eff3b2bd4ac7163744bd60dcb3329886ab4de00b",
+    "check_finite_law.py": "94008fd0c628fe1204ce585d35bc86e82b37456bf4624f04acc76e42e44e1c6b",
+    "checks/finite_law.stdout": "7201fce4d6241d44d4ab105dfe10dd4ea8f6498e7b59e30c49658289b2dd840d",
+    "checks/finite_law.stderr": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "checks/finite_law.json": "148a1dc6ccfd9fc5ebe6f2777ee2e42f384e699bb31b9076d37e8e0ddcc9e494",
+    "checks/premise_audit.json": "ed73334c67e59243f3f3bbd57f41d5bf2988d4b24f864c9a8becf6855e7b95f9",
+    "review/DIRECT_REVIEW.md": "4a1cbe0cd72b6c526a310e584eb7dcf09cceb56d8b98283f2dfcb7024c1df29b",
+    "review/direct_check.py": "144ff03e06b2429999f6b630e4afd8fe1e27879bc166a2ca131ad0f8a69a6da6",
+    "review/direct_check_initial.py": "dc20f14a4d0c1ecbf72404f04f8493e9f84be3a6c2b13900ff800910c5f63798",
+    "review/direct_result_repaired.json": "c0f6988cc608fcd8e7a0a1d54546bfa690dde0249f09a587a77047d1cdf0af8e",
+    "review/direct.json": "6a85bd197ec9abb4669c67c7d426c3fdfebe02981a4de978167e5f465eaf0634",
+    "review/direct.stderr": "d0733c574d1ceaef6a8b2f6ce06acb4dc6f6e102750263b07185b5a7a3aed2ac",
+    "review/direct_repaired.json": "73acf705da8d053b2bd678861df805636b6b916125e9b5797f1cac695718a05c",
+    "review/direct_fraction_catches.py": "168f824b38b153c99b2554f68d82afe141875ffe38de7cfe826bbddcb0e72908",
+    "review/direct_fraction_result.json": "8d963870d354efaecc2ccdcd343bee4cf5615c05d740e43ac1620d70cad5b260",
+    "review/direct_fraction.json": "929417e0642d6d8c607a492b4d661d15396aaf1fc89932a6db17c8f99bf9fc44"
+  }
+}

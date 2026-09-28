@@ -1,0 +1,20 @@
+{
+  "frozen_utc": "2026-09-28T18:32:06.749854+00:00",
+  "candidate_and_checks": {
+    "INITIAL_CANDIDATE.md": "7dd39a4840390f15fcedc2ae0e588f51e441b4348eaf0f0f8d9b81968b60d8e4",
+    "WORK_ORDER.md": "21be10163410b95cd90416a1eff3b2bd4ac7163744bd60dcb3329886ab4de00b",
+    "check_finite_law.py": "94008fd0c628fe1204ce585d35bc86e82b37456bf4624f04acc76e42e44e1c6b",
+    "checks/finite_law.stdout": "7201fce4d6241d44d4ab105dfe10dd4ea8f6498e7b59e30c49658289b2dd840d",
+    "checks/finite_law.stderr": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "checks/finite_law.json": "148a1dc6ccfd9fc5ebe6f2777ee2e42f384e699bb31b9076d37e8e0ddcc9e494"
+  },
+  "additional_sources": {
+    "udt_g220_covariant_null_clock_arrow_timelive_lift_2026-08-22/AUDIT_REPORT.md": "9806ac14f5d0bc419501878627dc79770ba4dd7c50f4f14dee0db216c3d9598f",
+    "udt_g220_covariant_null_clock_arrow_timelive_lift_2026-08-22/EXACT_DERIVATION.md": "0e5b33a0c013def973bdca369944d99a84fe278614cae1794e7cb50b56db0f6f",
+    "udt_g269_null_transport_mutual_clock_screen_interlock_2026-08-26/EXACT_DERIVATION.md": "812023393d4e04b8f2b47cc5429002dc78912b85983117e5633faed30a2f876e",
+    "udt_g272_complete_relation_rapidity_distance_ownership_2026-08-26/EXACT_DERIVATION.md": "e0285d5cb0fce4caf2b46cb5a5e795696d1b3fa76c34dfc7cbce5aa70255d566",
+    "udt_g273_projective_pair_distance_foundational_ownership_2026-08-26/EXACT_DERIVATION.md": "cc77269724a0e4c814fc2d6794a5520e3840a7ca8519c3f2e8f702950056d186",
+    "udt_g274_projective_pair_position_network_descent_2026-08-26/EXACT_DERIVATION.md": "8cee4fa46ea13c6101bbce8c94072a516d38ce0f863e3658a87bab4d77e7e18f"
+  },
+  "discovery": "Source expansion exposed existing G269/G272/G273 results before candidate; boundary criterion explored analytically before tests, no observational outcomes."
+}

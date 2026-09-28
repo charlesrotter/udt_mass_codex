@@ -1,0 +1,17 @@
+{
+  "sealed_utc": "2026-09-28T18:32:31.331736+00:00",
+  "candidate_exposed": false,
+  "sha256": {
+    "SOURCE_FIRST.md": "1ae09d4fbf53dc6eab2201f7771c7d8400774656d7ffedcadcb9dab6a16a2a1e",
+    "source_first.json": "e7f42327e1367c87de0a68ebf8faa0b5eb8e305631bacd08d93f8ea99226e8b5",
+    "source_first.stderr": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "source_first.stdout": "14176154cea4d96908ea944cde1ccd33969463fa9200ad4d90158f41fae0d267",
+    "source_first_check.py": "953d8b1829d124de47b4b7e5be88f85f1402ea5c5f174d281a9e0fce91b0b834",
+    "source_first_check_initial.py": "9c3558c97867a083c395903403ee16cc67621740ee495ca4453a78584c25ab32",
+    "source_first_corrected.json": "bec2185c8d09b334e9554f64302d839a78445cfe544a0da8d60650b9dfc9ac59",
+    "source_first_corrected.stderr": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "source_first_corrected.stdout": "0db7511769c5a69a093b1fa64baf3359f1a9857265349dfbd18eacc04f28f2c1",
+    "source_first_result.json": "14176154cea4d96908ea944cde1ccd33969463fa9200ad4d90158f41fae0d267",
+    "source_first_result_corrected.json": "0db7511769c5a69a093b1fa64baf3359f1a9857265349dfbd18eacc04f28f2c1"
+  }
+}

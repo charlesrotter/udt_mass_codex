@@ -12,15 +12,17 @@ retains relative-motion Doppler and gravity. July lead reviewed/UNPROMOTED:
 `udt_july_optical_time_dilation_lead_2026-09-28/DECISION_BRIEF.md`.
 Its stationary reversal is not a generic UDT law; physical clock-map data remain open.
 
-CRV1 is complete, reviewed conditional UNPROMOTED. Current explanation and exact
+FSL1 is complete, reviewed conditional UNPROMOTED. Current explanation and exact
 conditional response routes: `CURRENT_RESEARCH_PROGRAM.md`, “Current next gate.”
-Lay return: `udt_conservation_variational_response_2026-09-28/DECISION_BRIEF.md`.
-Local scalar-trace completion and conditional action existence do not identify
-the physical response or establish native off-shell conservation. DDR remains
-TF(E)=0; no full E=0 field equation is adopted.
+Lay return: `udt_finite_separation_law_2026-09-28/DECISION_BRIEF.md`.
+The finite null-clock rule requires actual ray/frame carry and the same physical
+comparison. Its exact asymptotic condition shows the projective boundary alone
+does not force infinite redshift; no physical population or metric law is selected.
+CRV1's conditional conservation/action route remains; physical response and native
+off-shell conservation are OPEN. DDR remains TF(E)=0; no E=0 law is adopted.
 Response selection, physical clock map, measurement connection and empirical/global
 completion remain distinct. No light-theory or complete-field-law blanket gate.
-INDEX routes RMS1/GRS1/CRD1/CGW1/OFS1 and July evidence; original scopes/grades remain.
+INDEX routes CRV1/RMS1/GRS1/CRD1/CGW1/OFS1 and July evidence; original scopes/grades remain.
 Completed chronology: `archive/roadmap_history_2026-09-28/README.md`.
 Stop for discussion; no automatic successor.
 

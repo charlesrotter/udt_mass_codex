@@ -1,0 +1,29 @@
+{
+  "records": [
+    {
+      "f": "41/12",
+      "Z": "12/41",
+      "wrong_frequency": "15/4",
+      "gamma": "25/12"
+    },
+    {
+      "f": "61/18",
+      "Z": "18/61",
+      "wrong_frequency": "23/6",
+      "gamma": "25/12"
+    }
+  ],
+  "actual_mutations_rejected": [
+    "case0_uncarried_composition",
+    "case0_gamma_as_redshift",
+    "case0_uncarried_inverse",
+    "case1_uncarried_composition",
+    "case1_gamma_as_redshift",
+    "case1_uncarried_inverse",
+    "future_frame_alone_forces_positive_determinant",
+    "projective_norm_as_redshift"
+  ],
+  "count_mutations": 8,
+  "orientation_separator": "diag(1,-1,1,1): future metric-preserving, determinant -1",
+  "stage": "author code/results exposed; independently coded Fraction arithmetic; no author imports"
+}

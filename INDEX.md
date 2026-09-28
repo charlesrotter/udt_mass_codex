@@ -42,8 +42,13 @@ G388--G389 conditional, compact-sector mixed-C2/analytic-local tangent limits; o
 
 Use CURRENT_RESEARCH_PROGRAM for the connected explanation. Open the following
 exact source only for the question it addresses; none is a new startup prerequisite.
-CRV1/RMS1/GRS1/CRD1/CGW1/OFS1 remain reviewed UNPROMOTED; their source reviews control.
+FSL1/CRV1/RMS1/GRS1/CRD1/CGW1/OFS1 remain reviewed UNPROMOTED; their source reviews control.
 
+- FSL1 universal finite-separation comparison, reviewed conditional UNPROMOTED:
+  `udt_finite_separation_law_2026-09-28/DECISION_BRIEF.md`.
+  Direction-carried null-clock composition and exact asymptotic criterion;
+  G220/G269/G272/G274 reused, no native response/protocol/physical-limit selection.
+  Full scope, frame-orientation repair and review: REVIEWED_RESULT and CLOSEOUT.
 - CRV1 conservation and variational response, reviewed conditional UNPROMOTED:
   `udt_conservation_variational_response_2026-09-28/DECISION_BRIEF.md`.
   Fixed-metric scalar-trace completion criterion, weak-class obstruction and
