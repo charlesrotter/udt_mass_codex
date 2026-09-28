@@ -21,6 +21,15 @@ does not supply an additive equation or three independent correction factors.
 redshift: 1+z = received/emitted inter-tick proper interval in the differential
 limit. No second response profile or redshift mechanism is required.
 
+Charles's clarification after FCV1: each freely falling observer's own clock
+measures ordinary proper time, as in GR; UDT preserves that local behavior.
+Positional clock dilation is an interframe observable in the received ticks
+compared between separated observers within the shared geometry. An additional
+slowing of either observer's own local clock is not the missing premise.
+The open task is the quantitative relationship across separation between those
+ordinary clocks. Exact owner words and scope: `UDT_RESEARCH_ROADMAP.md`,
+“Ordinary local clocks and interframe dilation — 2026-09-28.”
+
 No observer or physical cosmic center is fundamentally privileged. Positional
 dilation is intended to explain cosmological redshift without requiring Hubble
 expansion; relative-motion Doppler and gravitational effects remain. This is
@@ -95,6 +104,14 @@ DDR's smooth local response fails at the stated scope; no native field equation
 is selected. Other justified response identifications remain OPEN. Positional
 dilation stays the founding interpretation of c_E, light cones and causal timing;
 no new physical premise, protocol or GR field equation is adopted.
+
+FCV1's path-dependent comparison is compatible with ordinary local proper-time
+clocks. Its failed direct local-response identification is not an objection to
+interframe dilation. The next question may concern restrictions on consistent
+interframe relationships; a conventional local field equation is one possible
+form of a predictive law, not a prerequisite. Native law and physical pair
+assignment remain OPEN; reciprocal inversion of one correspondence does not
+settle mutually received ticking in two distinct causal signal exchanges.
 
 | Reviewed return | Usable gain | Limit that remains |
 |---|---|---|

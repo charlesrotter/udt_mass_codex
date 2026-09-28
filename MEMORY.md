@@ -6,6 +6,11 @@
 The program's opening preserves Charles's founding positional-geometry/1/c_E
 interpretation and one-geometry SR/GR extension intent. Received slowing is
 automatic redshift; physical separation to clock-rate ratio remains the open join.
+Ordinary local proper-time clocks are an existing premise. Charles clarified
+that positional dilation is observed between frames through received ticks;
+the quantitative relation between those clocks is the target. Exact wording:
+UDT_RESEARCH_ROADMAP, “Ordinary local clocks and interframe dilation.” FCV1's
+failed direct local-response identification does not challenge this premise.
 Solar-distance detectability is a working expectation, not a selected threshold.
 No preferred observer; the aim of redshift without requiring Hubble expansion
 retains relative-motion Doppler and gravity. July lead reviewed/UNPROMOTED:

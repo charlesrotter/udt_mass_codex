@@ -16,6 +16,12 @@ a working expectation, not a cutoff or selected scale. The program's opening
 section preserves this intent; exact words:
 `udt_positional_geometry_clock_connection_2026-09-28/OWNER_STATEMENT.md`.
 
+Charles's post-FCV1 clarification: ordinary local proper-time clocks, including
+freely falling observers' clocks, are already part of UDT's premise. Positional
+dilation is the received-tick comparison between separated frames. The open task
+is their quantitative relationship across separation. Exact words and scope:
+`UDT_RESEARCH_ROADMAP.md`, “Ordinary local clocks and interframe dilation.”
+
 On a supplied regular calibrated pair, `phi_pair=delta_AB` is DERIVED_CONDITIONAL;
 `c_eff/c_E=exp(-2 delta_AB)` is not automatically signal speed.
 Complete `B,Q,S,Y,Z` enters `h=F^*g` before readout. Completed-pair Dual Reciprocity is
@@ -100,6 +106,11 @@ other justified reconstructions are not excluded. No native dynamics follows.
 FSL1's conditional comparison/asymptotic test and CRV1's conditional action route
 remain available. Native E and its off-shell conservation are OPEN; DDR remains
 TF(E)=0 rather than E=0. No new physical premise or protocol is adopted.
+
+The interframe nature of the measurement is compatible with ordinary local clocks;
+FCV1's failed direct local-response identification is not an objection to that
+premise. Restrictions on interframe relationships remain a legitimate direction;
+no conventional local field equation is required as the starting form of the law.
 
 We can reconstruct geometric information from specified ideal clock/motion
 records; identifying the response whose balance selects geometry remains OPEN.

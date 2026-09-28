@@ -21,8 +21,11 @@ response in DDR. The scoped obstruction does not exclude local field equations
 or other justified response reconstructions. No dynamical candidate was obtained.
 FSL1's conditional asymptotic test and CRV1/RMS1 response routes retain their
 hypotheses through INDEX. DDR remains TF(E)=0, not E=0; no new physical premise
-is adopted. A successor needs a defended response identification or reconstruction
-procedure beyond repeating clock-map consistency. No successor is authorized.
+is adopted. A successor may investigate restrictions on interframe relationships
+or a defended physical-response identification beyond clock-map consistency.
+Ordinary local proper-time clocks are already part of the premise; identifying
+one finite measurement with a local field response is not a prerequisite.
+No successor research campaign is authorized by this documentation change.
 
 Keep the open questions distinct: native response selection, physical event/path-
 to-depth assignment, a chosen observable's signal/measurement connection, empirical
@@ -38,6 +41,38 @@ not established from filter-only GR. Current authority:
 `udt_gr_filter_reconciliation_2026-09-09/AUTHORITY_RECORD.md`.
 No physical response definition, nonzero normalization or scale symmetry is
 supplied by this roadmap. Current sources own all mathematical hypotheses.
+
+## Ordinary local clocks and interframe dilation — 2026-09-28
+
+After FCV1, Charles clarified:
+
+> Doesn't the fact that UDT positional clock changing is only an interframe observable and doesn't affect local physics at all resolve most of this?
+
+> GR has an at rest with geodesic clock speed. UDT is no different.
+
+Charles's subsequent “Please.” authorizes carrying forward the clarified
+interpretation: each freely falling observer's clock measures its own ordinary
+proper time; positional dilation concerns the received-tick relationship between
+separated frames in the single geometry. Ordinary local clock behavior is an
+existing premise, not another missing assumption to derive. The quantitative
+relationship across separation remains the target. This agrees with the program's
+ordinary-local-clock statement and founding W4's WORKING/POSIT metric coupling;
+it records owner intent without regrading a theorem or canonizing a premise.
+
+FCV1's supplied example of changed received ticks with unchanged endpoint clock
+neighborhoods is compatible with that interpretation. Its scoped failure to
+identify one measurement derivative with a smooth local response remains valid;
+it does not require local clocks to run abnormally. A predictive interframe law
+could have a relational, functional or global form, as founding.md's problem
+statement already allows. No such law is derived by this clarification, and no
+physical response or conventional field equation is silently selected.
+
+Keep actual two-way signal comparisons distinct from inverting one mathematical
+correspondence. Preserve local proper-time behavior without inferring identical
+finite-region measurements for all geometries or promoting strong local CSN.
+DDR and Local Metric Sufficiency keep their owner-provisional status; GR remains
+a comparison filter. Existing reviewed evidence and registry grades are unchanged.
+This clarification records direction and starts no additional solve.
 
 ## Universal finite-separation direction — 2026-09-28
 
