@@ -14,6 +14,30 @@ Current acceptance overlay: earlier UNPROMOTED/campaign-only language below reco
 returns. The G383--G412, G413--G415 and G416--G423 banking packets and maintained checkpoint own later dispositions;
 original result packages remain unchanged. No physical adoption or canon is included.
 
+## Observational correspondence direction — 2026-09-28
+
+Charles's latest clarification, preserved verbatim:
+
+> In terms of observatble effects, UDT is to GR, as GR is to Newton.   Newton works with planetary orbits within the solar system with a mild divergence in the precession of Mercury. UDT's positional time dilation and redshift is below observable values within terrestrial and solar regimes, and like SR and mass, requires high velocity before dilation effects becomoe apparent. Just as GR is a function of geometry and energy/mass density and gravity, so likely is UDT.  The formulas that incorporate positional dilation likely have similar structures to the nonlinear dilation in GR or SR.
+
+Interpretation recorded in the opening of `CURRENT_RESEARCH_PROGRAM.md`: the
+intended observational correspondence is agreement with GR within measurement
+precision in terrestrial and solar regimes, with positional departures becoming
+appreciable over larger separations. This records an owner expectation and
+research target, not an established bound, exact GR limit or detection threshold.
+The velocity analogy concerns detectability as an effect grows; it does not
+require high relative velocity for positional dilation or make it switch on at
+a particular distance. Foundational geometry behind finite c_E persists locally.
+
+Nonlinear structures resembling SR/GR and dependence on geometry and mass/energy
+distribution are proposed leads, not adopted formulas or source laws. The
+existing nonlinear depth readout remains separate from the unclosed physical
+depth assignment. No response law, scale, cutoff or additive decomposition is
+selected. This clarification supplies direction for discussion, not a new
+research dispatch, registry regrade or canon change. Earlier correspondence
+work and its limits remain under “Current discussion: exact and controlled GR
+correspondence” below; completed work orders are not reopened.
+
 ## July optical-time lead — reviewed conditional return, 2026-09-28
 
 Charles authorized exploring July's optical-time/dilation connection and

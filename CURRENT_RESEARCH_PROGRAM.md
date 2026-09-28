@@ -27,13 +27,24 @@ expansion; relative-motion Doppler and gravitational effects remain. This is
 owner intent, not an established cosmological result. Exact clarification:
 `udt_july_optical_time_dilation_lead_2026-09-28/OWNER_DIRECTION.md`.
 
-Charles expects a positional redshifting contribution in separated observations,
-possibly too small to measure at solar distances. This is a working expectation,
-not an established onset, cutoff, selected scale, or guaranteed net redshift
-after all effects combine. Tiny frequency contrast does not remove the geometry
-responsible for finite timing. Appropriate SR/GR correspondence is a goal to
-demonstrate, not permission to import GR field equations as UDT dynamics.
-Exact owner words and bounded investigation:
+Charles's intended observational hierarchy is **UDT extends GR as GR extends
+Newtonian gravity**: agreement within measurement precision in the established
+terrestrial and solar regimes, with additional positional clock contrast and
+redshift becoming appreciable over larger separations. This is a correspondence
+goal and owner expectation, not an established empirical bound or a demonstrated
+limit. Detectability does not define a sharp onset, cutoff or selected scale,
+and the combined Doppler, gravitational and positional observation need not be
+net redshift. Tiny frequency contrast does not remove the geometry responsible
+for finite timing or the founding interpretation of c_E.
+
+Charles proposes nonlinear structure analogous to SR/GR and a possible dependence
+on geometry and the mass/energy distribution as investigative leads. These do
+not select a functional form, source coupling or response equation. The supplied
+depth-to-redshift readout is already nonlinear; what assigns that depth across
+physical comparisons remains open. Appropriate SR/GR correspondence must be
+demonstrated, not supplied by importing GR field equations as UDT dynamics.
+Latest owner wording: `UDT_RESEARCH_ROADMAP.md`, “Observational correspondence
+direction — 2026-09-28.” Earlier exact owner words and bounded investigation:
 `udt_positional_geometry_clock_connection_2026-09-28/OWNER_STATEMENT.md` and
 its `WORK_ORDER.md`. W4 provisionally supplies the common local metric;
 W5/W6, calibration, existing source grades and canon remain unchanged.
