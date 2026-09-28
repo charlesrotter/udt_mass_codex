@@ -1,0 +1,14 @@
+{
+  "utc": "2026-09-28T01:22:13.759797+00:00",
+  "original_result_matches_initial_freeze": true,
+  "original_result_sha256": "52e71136c2a86c41841156de41249713c6f58dd322f20f641b8fba22f3c582e3",
+  "repaired_result_sha256": "778f58e1f585776ce9c3215d2708644b7e68573638ffb3ee50a2f74c5f74f005",
+  "repair": "one table noun phrase; no equations or source changes",
+  "review_files": {
+    "udt_response_whiteboard_2026-09-28/review/REVIEW.md": "53b9541fb04f651c720d34cfee76008ef014820ccf3dcb2142f101b12fd6f7c3",
+    "udt_response_whiteboard_2026-09-28/review/REVIEW_INITIAL.md": "66ab66d3a3fc54858d7ab82e1e54338954aa23a898792f3a8204eaafa7a5c761",
+    "udt_response_whiteboard_2026-09-28/review/REVIEW_TIMING.json": "701824ef45ea1d4e954e9b1225f34f1c444b972b0d252c071050c4a005bdc0a8",
+    "udt_response_whiteboard_2026-09-28/review/SOURCE_CHECKS.json": "5ace5ce2b749723d0e3e1e3ebe75f2d63880e7d836dd904bd1a8c5e13bcfe5a8"
+  },
+  "final_diff_check": 0
+}

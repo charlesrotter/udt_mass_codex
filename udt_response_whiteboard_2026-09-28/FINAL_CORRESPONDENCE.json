@@ -1,0 +1,29 @@
+{
+  "utc": "2026-09-28T01:23:24.509315+00:00",
+  "scope": "Exact inversion of status labels and administrative closeout addition; no scientific or decision-content changes after final review",
+  "correspondence": [
+    {
+      "path": "udt_response_whiteboard_2026-09-28/RESULT.md",
+      "reviewed_sha256": "778f58e1f585776ce9c3215d2708644b7e68573638ffb3ee50a2f74c5f74f005",
+      "reconstructed_reviewed_sha256": "778f58e1f585776ce9c3215d2708644b7e68573638ffb3ee50a2f74c5f74f005",
+      "final_sha256": "76d254a965633c7e15ff04757f47c1a4cb6381ba9ff0038bfd7632d2e4236bd1",
+      "pass": true
+    },
+    {
+      "path": "udt_response_whiteboard_2026-09-28/DECISION_BRIEF.md",
+      "reviewed_sha256": "6cbb9bd61878d1a33b9fa41732f0df89d5f1fcba85e686bd90ac67f7a9a5193c",
+      "reconstructed_reviewed_sha256": "6cbb9bd61878d1a33b9fa41732f0df89d5f1fcba85e686bd90ac67f7a9a5193c",
+      "final_sha256": "12c05a1f0d5b072d142c04283f3f08b4baa6a50e1448825e55b65d75d8de211c",
+      "pass": true
+    },
+    {
+      "path": "udt_response_whiteboard_2026-09-28/CLOSEOUT.md",
+      "reviewed_sha256": "3ee50a0b4877bc4013de93b37368a917c130ffb143975c390fadba16a760e635",
+      "reconstructed_reviewed_sha256": "3ee50a0b4877bc4013de93b37368a917c130ffb143975c390fadba16a760e635",
+      "final_sha256": "dabd270893ffec3f1ad5ac238e54a4c7b1623995e3f77a1aa4b006bdf657242f",
+      "pass": true
+    }
+  ],
+  "roadmap_retains_reviewed_bytes": true,
+  "pass": true
+}

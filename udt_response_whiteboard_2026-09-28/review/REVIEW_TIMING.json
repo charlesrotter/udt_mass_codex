@@ -1,0 +1,11 @@
+{
+  "reviewer": "/root/wb_final_fidelity",
+  "first_actual_clock_utc": "2026-09-28T01:16:30+00:00",
+  "completed_utc": "2026-09-28T01:22:13.759797+00:00",
+  "measured_span_from_first_clock_seconds": 343.759797,
+  "conservative_start_bound_from_parent_review_input_freeze_utc": "2026-09-28T01:16:01.821161+00:00",
+  "conservative_elapsed_upper_bound_seconds": 371.938636,
+  "allocation_seconds": 1500,
+  "within_allocation": true,
+  "note": "The first clock is later than reviewer entry; the input-freeze bound is earlier than dispatch. This is wall elapsed, not CPU or summed active-agent time."
+}

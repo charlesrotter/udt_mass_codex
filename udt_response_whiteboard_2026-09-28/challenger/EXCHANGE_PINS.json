@@ -1,0 +1,14 @@
+{
+  "recorded_at_utc": "2026-09-28T01:14:58.247639+00:00",
+  "exchange_note_sha256": "d92c06f4be67eb11e5acaf08595e12112de171a6ef3fd938b57aedb6dddec955",
+  "initial_note_sha256": "7f0655396c4225011b23f20e5dd9e933fe16bd1e2a4d17ab38b5c417a21ff203",
+  "initial_note_preserved": true,
+  "sources": {
+    "udt_response_whiteboard_2026-09-28/foundations/INITIAL_NOTE.md": "6d8cdc272ae7ca936b5df3632bc656f8ed97d009a02fd0a05f372849f204682c",
+    "udt_response_whiteboard_2026-09-28/mathematics/INITIAL_NOTE.md": "22a03e67603a497dc3496d0298aa3352d88cdc98c700a9545a193812afd312a3",
+    "udt_two_path_equation_study_2026-09-27/EXTENSION_CANDIDATE.md": "c49e60aab6d14a459a7b948d64503345c580f2b9bdf4d991556381e79738d710",
+    "udt_gr_filter_reconciliation_2026-09-09/AUTHORITY_RECORD.md": "80daa0be6d3e1c0ac1b734fea089c4eb487f05bc1e1fbb2fabd69322ca89f28c"
+  },
+  "calculations_run": 0,
+  "final_reviewer_eligible": false
+}

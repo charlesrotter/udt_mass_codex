@@ -1,0 +1,449 @@
+{
+  "utc": "2026-09-28T01:19:50.674344+00:00",
+  "reviewer": "/root/wb_final_fidelity",
+  "runtime": "Codex/GPT-6-family per instructions; exact deployment/model identifier not exposed",
+  "python": "3.10.12 (main, Aug 31 2026, 10:18:17) [GCC 11.4.0]",
+  "scope": "documentation metadata/source correspondence only, not scientific computation",
+  "commands": {
+    "git rev-parse --abbrev-ref HEAD": {
+      "exit_code": 0,
+      "stdout": "grok\n",
+      "stderr": ""
+    },
+    "git rev-parse HEAD": {
+      "exit_code": 0,
+      "stdout": "7aa5bc02c47030ed2c8f941b0ac6265711a1d9f3\n",
+      "stderr": ""
+    },
+    "git diff --name-only": {
+      "exit_code": 0,
+      "stdout": "UDT_RESEARCH_ROADMAP.md\n",
+      "stderr": ""
+    },
+    "git diff --check": {
+      "exit_code": 0,
+      "stdout": "",
+      "stderr": ""
+    },
+    "git ls-files --others --exclude-standard -z": {
+      "exit_code": 0,
+      "stdout": "8_25/UDT_FOUNDING_VALUE_LAW_ANALYSIS.md\u00008_25/udt_extension_checks.py\u00008_25/udt_extension_minimality_response.md\u00008_25/udt_value_law_checks.py\u00008_25/udt_value_law_checks_llm1.py\u00008_25/udt_value_law_external_response.md\u0000Mass creates gravity.txt\u0000UDT_Complete_Guardrails_and_Central_Science_Tracking.md\u0000UDT_Next_Step_After_Two_Stages.md\u0000UDT_Sequenced_Guardrails_and_Development_Work_Order.md\u0000udt_native_onshell_timelive_reset_owner_audit_2026-08-10/CANDIDATE_LAW_MAP.tsv\u0000udt_native_onshell_timelive_reset_owner_audit_2026-08-10/DERIVATION_RESULT.json\u0000udt_native_onshell_timelive_reset_owner_audit_2026-08-10/EQUATION_OWNERSHIP_ATLAS.tsv\u0000udt_native_onshell_timelive_reset_owner_audit_2026-08-10/SOURCE_SCOPE_CLARIFICATION.md\u0000udt_native_onshell_timelive_reset_owner_audit_2026-08-10/derive_owner_atlas.py\u0000udt_native_onshell_timelive_reset_owner_audit_2026-08-10/run_catch_proofs.py\u0000udt_native_onshell_timelive_reset_owner_audit_2026-08-10/verify_owner_independent.py\u0000udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/ADVERSARIAL_REVIEW_REQUEST.md\u0000udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/AUDIT_REPORT.md\u0000udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/CATCH_PROOF_RESULT.json\u0000udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/DERIVATION_RESULT.json\u0000udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/EVIDENCE_GATES.md\u0000udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/EXACT_DERIVATION.md\u0000udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/INDEPENDENT_VERIFICATION.json\u0000udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/LAY_REPORT.md\u0000udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/STATUS_LEDGER.tsv\u0000udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/VERIFICATION_RESULT.json\u0000udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/WITNESS_ATLAS.tsv\u0000udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/build_review_intake.py\u0000udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/derive_regime_flow.py\u0000udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/run_catch_proofs.py\u0000udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/verify_independent.py\u0000udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/verify_package.py\u0000udt_response_whiteboard_2026-09-28/BASELINE.json\u0000udt_response_whiteboard_2026-09-28/CLOSEOUT.md\u0000udt_response_whiteboard_2026-09-28/DECISION_BRIEF.md\u0000udt_response_whiteboard_2026-09-28/DECISION_BRIEF_INITIAL.md\u0000udt_response_whiteboard_2026-09-28/PRESERVATION_CHECK.json\u0000udt_response_whiteboard_2026-09-28/RESULT.md\u0000udt_response_whiteboard_2026-09-28/RESULT_INITIAL.md\u0000udt_response_whiteboard_2026-09-28/REVIEW_INPUT_FREEZE.json\u0000udt_response_whiteboard_2026-09-28/REVIEW_REQUEST.md\u0000udt_response_whiteboard_2026-09-28/SOURCE_PINS.json\u0000udt_response_whiteboard_2026-09-28/WORK_ORDER.md\u0000udt_response_whiteboard_2026-09-28/challenger/EXCHANGE_NOTE.md\u0000udt_response_whiteboard_2026-09-28/challenger/EXCHANGE_PINS.json\u0000udt_response_whiteboard_2026-09-28/challenger/INITIAL_FREEZE.json\u0000udt_response_whiteboard_2026-09-28/challenger/INITIAL_NOTE.md\u0000udt_response_whiteboard_2026-09-28/challenger/NOTE_ERRATA.md\u0000udt_response_whiteboard_2026-09-28/foundations/EXCHANGE_NOTE.md\u0000udt_response_whiteboard_2026-09-28/foundations/EXCHANGE_PINS.json\u0000udt_response_whiteboard_2026-09-28/foundations/INITIAL_NOTE.md\u0000udt_response_whiteboard_2026-09-28/foundations/SOURCE_PINS.json\u0000udt_response_whiteboard_2026-09-28/mathematics/EXCHANGE_FREEZE.json\u0000udt_response_whiteboard_2026-09-28/mathematics/EXCHANGE_NOTE.md\u0000udt_response_whiteboard_2026-09-28/mathematics/INITIAL_FREEZE.json\u0000udt_response_whiteboard_2026-09-28/mathematics/INITIAL_NOTE.md\u0000udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/AUDIT_REPORT.md\u0000udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/CATCH_PROOF_RESULT.json\u0000udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/DERIVATION_RESULT.json\u0000udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/EVIDENCE_GATES.md\u0000udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/EXACT_DERIVATION.md\u0000udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/INDEPENDENT_RADAU_REPLAY.tsv\u0000udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/INDEPENDENT_VERIFICATION.json\u0000udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/LAY_REPORT.md\u0000udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/PREREGISTRATION_EXECUTION_NOTE.md\u0000udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/PROFILE_COMPATIBILITY_ATLAS.tsv\u0000udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/REVIEW_DISPATCH.md\u0000udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/RUN_CHECKPOINT.tsv\u0000udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/STATUS_LEDGER.tsv\u0000udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/VERIFICATION_RESULT.json\u0000udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/build_review_manifest.py\u0000udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/derive_compatibility_atlas.py\u0000udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/run_catch_proofs.py\u0000udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/verify_independent.py\u0000udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/verify_package.py\u0000",
+      "stderr": ""
+    },
+    "git status --short --branch": {
+      "exit_code": 0,
+      "stdout": "## grok...origin/grok\n M UDT_RESEARCH_ROADMAP.md\n?? 8_25/\n?? \"Mass creates gravity.txt\"\n?? UDT_Complete_Guardrails_and_Central_Science_Tracking.md\n?? UDT_Next_Step_After_Two_Stages.md\n?? UDT_Sequenced_Guardrails_and_Development_Work_Order.md\n?? udt_native_onshell_timelive_reset_owner_audit_2026-08-10/CANDIDATE_LAW_MAP.tsv\n?? udt_native_onshell_timelive_reset_owner_audit_2026-08-10/DERIVATION_RESULT.json\n?? udt_native_onshell_timelive_reset_owner_audit_2026-08-10/EQUATION_OWNERSHIP_ATLAS.tsv\n?? udt_native_onshell_timelive_reset_owner_audit_2026-08-10/SOURCE_SCOPE_CLARIFICATION.md\n?? udt_native_onshell_timelive_reset_owner_audit_2026-08-10/derive_owner_atlas.py\n?? udt_native_onshell_timelive_reset_owner_audit_2026-08-10/run_catch_proofs.py\n?? udt_native_onshell_timelive_reset_owner_audit_2026-08-10/verify_owner_independent.py\n?? udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/ADVERSARIAL_REVIEW_REQUEST.md\n?? udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/AUDIT_REPORT.md\n?? udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/CATCH_PROOF_RESULT.json\n?? udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/DERIVATION_RESULT.json\n?? udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/EVIDENCE_GATES.md\n?? udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/EXACT_DERIVATION.md\n?? udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/INDEPENDENT_VERIFICATION.json\n?? udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/LAY_REPORT.md\n?? udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/STATUS_LEDGER.tsv\n?? udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/VERIFICATION_RESULT.json\n?? udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/WITNESS_ATLAS.tsv\n?? udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/build_review_intake.py\n?? udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/derive_regime_flow.py\n?? udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/run_catch_proofs.py\n?? udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/verify_independent.py\n?? udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/verify_package.py\n?? udt_response_whiteboard_2026-09-28/\n?? udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/AUDIT_REPORT.md\n?? udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/CATCH_PROOF_RESULT.json\n?? udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/DERIVATION_RESULT.json\n?? udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/EVIDENCE_GATES.md\n?? udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/EXACT_DERIVATION.md\n?? udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/INDEPENDENT_RADAU_REPLAY.tsv\n?? udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/INDEPENDENT_VERIFICATION.json\n?? udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/LAY_REPORT.md\n?? udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/PREREGISTRATION_EXECUTION_NOTE.md\n?? udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/PROFILE_COMPATIBILITY_ATLAS.tsv\n?? udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/REVIEW_DISPATCH.md\n?? udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/RUN_CHECKPOINT.tsv\n?? udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/STATUS_LEDGER.tsv\n?? udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/VERIFICATION_RESULT.json\n?? udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/build_review_manifest.py\n?? udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/derive_compatibility_atlas.py\n?? udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/run_catch_proofs.py\n?? udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/verify_independent.py\n?? udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/verify_package.py\n",
+      "stderr": ""
+    }
+  },
+  "checks": {
+    "baseline_source_hashes": [
+      {
+        "path": "AGENTS.md",
+        "expected": "c578b045cf3278804124e23a5408ff9634a9a2165f7d20223f654d76bffd8ec9",
+        "actual": "c578b045cf3278804124e23a5408ff9634a9a2165f7d20223f654d76bffd8ec9",
+        "pass": true
+      },
+      {
+        "path": "CLAUDE.md",
+        "expected": "b7e524a5b06760e57877a408630228767ae9a394134095f9851bef5d06e17751",
+        "actual": "b7e524a5b06760e57877a408630228767ae9a394134095f9851bef5d06e17751",
+        "pass": true
+      },
+      {
+        "path": "CROSS_MODEL_VERIFY.md",
+        "expected": "2b0509d933d731fbf3f72aa88777a54d3e48a94d4bae3d324087871777f9a007",
+        "actual": "2b0509d933d731fbf3f72aa88777a54d3e48a94d4bae3d324087871777f9a007",
+        "pass": true
+      },
+      {
+        "path": ".claude/skills/no-shortcuts/SKILL.md",
+        "expected": "fd3a1f3218481134f2af829d3ae4175ac53518f75bf9673287efbfb7d7708fc1",
+        "actual": "fd3a1f3218481134f2af829d3ae4175ac53518f75bf9673287efbfb7d7708fc1",
+        "pass": true
+      },
+      {
+        "path": ".claude/skills/completeness-map/SKILL.md",
+        "expected": "a8cf9e5f4a6d35a0d0ebfe4bc48dbf328ca74e318f020a6a22cb683666a611c0",
+        "actual": "a8cf9e5f4a6d35a0d0ebfe4bc48dbf328ca74e318f020a6a22cb683666a611c0",
+        "pass": true
+      },
+      {
+        "path": ".claude/skills/verifier-before-record/SKILL.md",
+        "expected": "9b3a4aacd4b4006b2b7f01edada73b7c87b99bea6e754583558713bfc145e5ac",
+        "actual": "9b3a4aacd4b4006b2b7f01edada73b7c87b99bea6e754583558713bfc145e5ac",
+        "pass": true
+      },
+      {
+        "path": "CURRENT_SCIENTIFIC_PREMISES.tsv",
+        "expected": "7a3d69d5a0bc3ac98e2ebe2bb0c6d029df30071bf403baffed2223a193dc720b",
+        "actual": "7a3d69d5a0bc3ac98e2ebe2bb0c6d029df30071bf403baffed2223a193dc720b",
+        "pass": true
+      },
+      {
+        "path": "founding.md",
+        "expected": "b4b0d9a9fdd093c992647195aca7579566a9e77a396071a699c1938888a49e75",
+        "actual": "b4b0d9a9fdd093c992647195aca7579566a9e77a396071a699c1938888a49e75",
+        "pass": true
+      },
+      {
+        "path": "udt_gr_filter_reconciliation_2026-09-09/AUTHORITY_RECORD.md",
+        "expected": "80daa0be6d3e1c0ac1b734fea089c4eb487f05bc1e1fbb2fabd69322ca89f28c",
+        "actual": "80daa0be6d3e1c0ac1b734fea089c4eb487f05bc1e1fbb2fabd69322ca89f28c",
+        "pass": true
+      },
+      {
+        "path": "udt_g301_scale_free_quiet_regular_causal_principal_classification_2026-08-30/EXACT_DERIVATION.md",
+        "expected": "633b907b5384aa63d61d49db067dd4e608e6abd3bf3571e4267f91e5c74da8fb",
+        "actual": "633b907b5384aa63d61d49db067dd4e608e6abd3bf3571e4267f91e5c74da8fb",
+        "pass": true
+      },
+      {
+        "path": "udt_g310_differential_dual_reciprocity_tracefree_ownership_2026-08-31/EXACT_DERIVATION.md",
+        "expected": "a417b3cfa1cc6136429a14d3b330c1b8c25c73c9e946d6b6454d6ffae72c25a0",
+        "actual": "a417b3cfa1cc6136429a14d3b330c1b8c25c73c9e946d6b6454d6ffae72c25a0",
+        "pass": true
+      },
+      {
+        "path": "udt_g233_primary_profile_cartan_closure_discriminator_2026-08-23/AUDIT_REPORT.md",
+        "expected": "aa171e03c291f31d7d6df78ad68ae8abbcac30fce784e48c579154442907142d",
+        "actual": "aa171e03c291f31d7d6df78ad68ae8abbcac30fce784e48c579154442907142d",
+        "pass": true
+      },
+      {
+        "path": "udt_g259_metric_only_parent_operator_fork_classification_2026-08-25/AUDIT_REPORT.md",
+        "expected": "34b122ada58931f422261f4c2d0cd941cc1f04c3afa77e25e93dad0eef61c8e6",
+        "actual": "34b122ada58931f422261f4c2d0cd941cc1f04c3afa77e25e93dad0eef61c8e6",
+        "pass": true
+      },
+      {
+        "path": "udt_positional_postulate_fidelity_2026-09-27/CANDIDATE.md",
+        "expected": "2f21520e2d1fbf5131733c118fabe996445c40f9b8e54b194906724041527491",
+        "actual": "2f21520e2d1fbf5131733c118fabe996445c40f9b8e54b194906724041527491",
+        "pass": true
+      },
+      {
+        "path": "udt_response_selection_methods_2026-09-27/CANDIDATE.md",
+        "expected": "4cbb78cc473e27d1e9a012537f3b353c8a78344542c3bd04057cee59ad6b1a13",
+        "actual": "4cbb78cc473e27d1e9a012537f3b353c8a78344542c3bd04057cee59ad6b1a13",
+        "pass": true
+      },
+      {
+        "path": "udt_two_path_equation_study_2026-09-27/EXTENSION_CANDIDATE.md",
+        "expected": "c49e60aab6d14a459a7b948d64503345c580f2b9bdf4d991556381e79738d710",
+        "actual": "c49e60aab6d14a459a7b948d64503345c580f2b9bdf4d991556381e79738d710",
+        "pass": true
+      }
+    ],
+    "review_input_hashes": [
+      {
+        "path": "udt_response_whiteboard_2026-09-28/RESULT.md",
+        "expected": "52e71136c2a86c41841156de41249713c6f58dd322f20f641b8fba22f3c582e3",
+        "actual": "778f58e1f585776ce9c3215d2708644b7e68573638ffb3ee50a2f74c5f74f005",
+        "pass": false
+      },
+      {
+        "path": "udt_response_whiteboard_2026-09-28/DECISION_BRIEF.md",
+        "expected": "6cbb9bd61878d1a33b9fa41732f0df89d5f1fcba85e686bd90ac67f7a9a5193c",
+        "actual": "6cbb9bd61878d1a33b9fa41732f0df89d5f1fcba85e686bd90ac67f7a9a5193c",
+        "pass": true
+      },
+      {
+        "path": "UDT_RESEARCH_ROADMAP.md",
+        "expected": "1d556d3671d19269ba864a63c884b4fc3b78d8d4d2a6e7c53c46065140ea293a",
+        "actual": "1d556d3671d19269ba864a63c884b4fc3b78d8d4d2a6e7c53c46065140ea293a",
+        "pass": true
+      },
+      {
+        "path": "udt_two_path_equation_study_2026-09-27/EXTENSION_CANDIDATE.md",
+        "expected": "c49e60aab6d14a459a7b948d64503345c580f2b9bdf4d991556381e79738d710",
+        "actual": "c49e60aab6d14a459a7b948d64503345c580f2b9bdf4d991556381e79738d710",
+        "pass": true
+      },
+      {
+        "path": "udt_g311_universal_reciprocity_full_covariant_response_2026-09-01/EXACT_DERIVATION.md",
+        "expected": "4fd4ca84d353018c02e32d49cf261de3472b3fafd74b0f268b0960653bdfd307",
+        "actual": "4fd4ca84d353018c02e32d49cf261de3472b3fafd74b0f268b0960653bdfd307",
+        "pass": true
+      },
+      {
+        "path": "udt_response_foundations_campaign_2026-09-10/CANDIDATE.md",
+        "expected": "bf3d4eac664ec9d08f5b68c88062025ee1070e558b9974e6c27dd9f341992be2",
+        "actual": "bf3d4eac664ec9d08f5b68c88062025ee1070e558b9974e6c27dd9f341992be2",
+        "pass": true
+      }
+    ],
+    "original_note_hashes": [
+      {
+        "path": "udt_response_whiteboard_2026-09-28/foundations/INITIAL_NOTE.md",
+        "expected": "6d8cdc272ae7ca936b5df3632bc656f8ed97d009a02fd0a05f372849f204682c",
+        "actual": "6d8cdc272ae7ca936b5df3632bc656f8ed97d009a02fd0a05f372849f204682c",
+        "pass": true
+      },
+      {
+        "path": "udt_response_whiteboard_2026-09-28/mathematics/INITIAL_NOTE.md",
+        "expected": "22a03e67603a497dc3496d0298aa3352d88cdc98c700a9545a193812afd312a3",
+        "actual": "22a03e67603a497dc3496d0298aa3352d88cdc98c700a9545a193812afd312a3",
+        "pass": true
+      },
+      {
+        "path": "udt_response_whiteboard_2026-09-28/challenger/INITIAL_NOTE.md",
+        "expected": "7f0655396c4225011b23f20e5dd9e933fe16bd1e2a4d17ab38b5c417a21ff203",
+        "actual": "7f0655396c4225011b23f20e5dd9e933fe16bd1e2a4d17ab38b5c417a21ff203",
+        "pass": true
+      }
+    ],
+    "initial_summary_copies": {
+      "RESULT.md": false,
+      "DECISION_BRIEF.md": true
+    },
+    "untracked_names": {
+      "baseline_count": 52,
+      "missing": [],
+      "new_outside_packet": []
+    },
+    "prior_audit": {
+      "execution": {
+        "command": [
+          "python3",
+          "verify_current_scientific_premises.py"
+        ],
+        "started_utc": "2026-09-28T00:23:52.532626+00:00",
+        "elapsed_seconds": 407.3002588269992,
+        "exit_code": 0,
+        "timeout": false,
+        "timeout_seconds": 900
+      },
+      "stdout_contains_pass406": true,
+      "stderr_bytes": 0,
+      "attributed_not_rerun": true
+    }
+  },
+  "source_versions": [
+    {
+      "path": "AGENTS.md",
+      "sha256": "c578b045cf3278804124e23a5408ff9634a9a2165f7d20223f654d76bffd8ec9",
+      "inspected": "full; scoped-review startup rule"
+    },
+    {
+      "path": "CLAUDE.md",
+      "sha256": "b7e524a5b06760e57877a408630228767ae9a394134095f9851bef5d06e17751",
+      "inspected": "lines1-134: How we work, driver triggers, reviews, runtime, documentation, repo discipline"
+    },
+    {
+      "path": ".claude/skills/no-shortcuts/SKILL.md",
+      "sha256": "fd3a1f3218481134f2af829d3ae4175ac53518f75bf9673287efbfb7d7708fc1",
+      "inspected": "full"
+    },
+    {
+      "path": ".claude/skills/completeness-map/SKILL.md",
+      "sha256": "a8cf9e5f4a6d35a0d0ebfe4bc48dbf328ca74e318f020a6a22cb683666a611c0",
+      "inspected": "full"
+    },
+    {
+      "path": ".claude/skills/verifier-before-record/SKILL.md",
+      "sha256": "9b3a4aacd4b4006b2b7f01edada73b7c87b99bea6e754583558713bfc145e5ac",
+      "inspected": "full"
+    },
+    {
+      "path": "CROSS_MODEL_VERIFY.md",
+      "sha256": "2b0509d933d731fbf3f72aa88777a54d3e48a94d4bae3d324087871777f9a007",
+      "inspected": "full"
+    },
+    {
+      "path": "CURRENT_SCIENTIFIC_PREMISES.tsv",
+      "sha256": "7a3d69d5a0bc3ac98e2ebe2bb0c6d029df30071bf403baffed2223a193dc720b",
+      "inspected": "exact G301,G310,G311,G312,W5,W6 rows only; not full registry audit"
+    },
+    {
+      "path": "founding.md",
+      "sha256": "b4b0d9a9fdd093c992647195aca7579566a9e77a396071a699c1938888a49e75",
+      "inspected": "sections2 F1-F4/W1/W3/W4/W5/W6 and5-6; heading locator for other sections"
+    },
+    {
+      "path": "udt_gr_filter_reconciliation_2026-09-09/AUTHORITY_RECORD.md",
+      "sha256": "80daa0be6d3e1c0ac1b734fea089c4eb487f05bc1e1fbb2fabd69322ca89f28c",
+      "inspected": "full"
+    },
+    {
+      "path": "udt_g311_universal_reciprocity_full_covariant_response_2026-09-01/EXACT_DERIVATION.md",
+      "sha256": "4fd4ca84d353018c02e32d49cf261de3472b3fafd74b0f268b0960653bdfd307",
+      "inspected": "full; sections2-5 and7-9 load-bearing"
+    },
+    {
+      "path": "udt_g312_quiet_gr_response_constitution_discriminator_2026-09-01/EXACT_DERIVATION.md",
+      "sha256": "90ae2841153754087e64ba14d0a61c408d0b5767b5c8ed9f558da0b49ab30ea4",
+      "inspected": "sections1-2,4-8; current authority overrides historical labels"
+    },
+    {
+      "path": "udt_response_foundations_campaign_2026-09-10/CANDIDATE.md",
+      "sha256": "bf3d4eac664ec9d08f5b68c88062025ee1070e558b9974e6c27dd9f341992be2",
+      "inspected": "sections1-4 through line158; headings elsewhere"
+    },
+    {
+      "path": "udt_gr_limit_campaign_2026-09-10/step_01/CANDIDATE.md",
+      "sha256": "9a390933b76167cbe13741ef0523cd69b06544c66f3e574d2355b27883e7bff1",
+      "inspected": "sections1-4 through line155"
+    },
+    {
+      "path": "udt_two_path_equation_study_2026-09-27/EXTENSION_CANDIDATE.md",
+      "sha256": "c49e60aab6d14a459a7b948d64503345c580f2b9bdf4d991556381e79738d710",
+      "inspected": "sectionsA-C through line159, especially B/E4-E8"
+    },
+    {
+      "path": "udt_two_path_equation_study_2026-09-27/CLOSEOUT.md",
+      "sha256": "422b705f5a6dd837061dec4a9afa3ad8a421f1a98d484051559b3327cd0b10ea",
+      "inspected": "first60 lines"
+    },
+    {
+      "path": "udt_response_selection_methods_2026-09-27/CANDIDATE.md",
+      "sha256": "4cbb78cc473e27d1e9a012537f3b353c8a78344542c3bd04057cee59ad6b1a13",
+      "inspected": "sections5-6 Q1-Q3 lines153-212; headings elsewhere"
+    },
+    {
+      "path": "udt_metric_derivation_response_bridge_2026-09-28/CANDIDATE.md",
+      "sha256": "571e016a282dfe1a67a5bf6ff91376ec17ee703b79fd297a65b7c9ca2a61000c",
+      "inspected": "sections1-3 and start4 lines1-150 B1-B10"
+    },
+    {
+      "path": "udt_positional_postulate_fidelity_2026-09-27/CANDIDATE.md",
+      "sha256": "2f21520e2d1fbf5131733c118fabe996445c40f9b8e54b194906724041527491",
+      "inspected": "sections1-3 lines1-100"
+    },
+    {
+      "path": "udt_native_theory_research_plan_2026-09-13/execution/tc0/RESULT.md",
+      "sha256": "fd556f5b8ba2dbe3b41b2077d82b9ecb9e09963030937e0b4ba352c0b60018c3",
+      "inspected": "full"
+    },
+    {
+      "path": "udt_metric_derivation_response_bridge_2026-09-28/PREMISE_VERIFIER_EXECUTION.json",
+      "sha256": "eaeb877e6b3eaec51c161a9618003852fd0132227672538427db223db7ca665c",
+      "inspected": "full"
+    },
+    {
+      "path": "udt_metric_derivation_response_bridge_2026-09-28/premise_verifier.stdout.txt",
+      "sha256": "394e02c4ced55fc8f6480a3cc65b9ebd38f9c0cb553f897b10313b8ad2104b53",
+      "inspected": "full"
+    },
+    {
+      "path": "udt_metric_derivation_response_bridge_2026-09-28/premise_verifier.stderr.txt",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "inspected": "byte size0"
+    },
+    {
+      "path": "UDT_RESEARCH_ROADMAP.md",
+      "sha256": "1d556d3671d19269ba864a63c884b4fc3b78d8d4d2a6e7c53c46065140ea293a",
+      "inspected": "git diff: new focused-whiteboard section only"
+    },
+    {
+      "path": "udt_response_whiteboard_2026-09-28/REVIEW_REQUEST.md",
+      "sha256": "6473ab7a6eef0ce6b2ad44f05f78357e872c97713349e92a7195a00fa07b887f",
+      "inspected": "full text/metadata inspected; repeated pin maps also machine compared"
+    },
+    {
+      "path": "udt_response_whiteboard_2026-09-28/WORK_ORDER.md",
+      "sha256": "3103536e58b4f4700f533e06a0249e4db445c868d92eb0a8dbd67e9c6b84093e",
+      "inspected": "full text/metadata inspected; repeated pin maps also machine compared"
+    },
+    {
+      "path": "udt_response_whiteboard_2026-09-28/BASELINE.json",
+      "sha256": "6f0737458e43138174ab909be119b17426d40a4acdc2dea7cf8fed2677d0e246",
+      "inspected": "full text/metadata inspected; repeated pin maps also machine compared"
+    },
+    {
+      "path": "udt_response_whiteboard_2026-09-28/RESULT.md",
+      "sha256": "778f58e1f585776ce9c3215d2708644b7e68573638ffb3ee50a2f74c5f74f005",
+      "inspected": "full text/metadata inspected; repeated pin maps also machine compared"
+    },
+    {
+      "path": "udt_response_whiteboard_2026-09-28/DECISION_BRIEF.md",
+      "sha256": "6cbb9bd61878d1a33b9fa41732f0df89d5f1fcba85e686bd90ac67f7a9a5193c",
+      "inspected": "full text/metadata inspected; repeated pin maps also machine compared"
+    },
+    {
+      "path": "udt_response_whiteboard_2026-09-28/SOURCE_PINS.json",
+      "sha256": "af42ea9287321ecc181bc5b1c178ef3638df64a1082f2a2c77c5c9a58908c9d4",
+      "inspected": "full text/metadata inspected; repeated pin maps also machine compared"
+    },
+    {
+      "path": "udt_response_whiteboard_2026-09-28/REVIEW_INPUT_FREEZE.json",
+      "sha256": "d5376e776e6b3c25a9ad5c5a0b1c2469dff43ebdfaecf36554be6326a8f1c13a",
+      "inspected": "full text/metadata inspected; repeated pin maps also machine compared"
+    },
+    {
+      "path": "udt_response_whiteboard_2026-09-28/CLOSEOUT.md",
+      "sha256": "3ee50a0b4877bc4013de93b37368a917c130ffb143975c390fadba16a760e635",
+      "inspected": "full text/metadata inspected; repeated pin maps also machine compared"
+    },
+    {
+      "path": "udt_response_whiteboard_2026-09-28/PRESERVATION_CHECK.json",
+      "sha256": "c29c05c93765b44e7807984c50917d8ccb8e78eda9690c863622defc26d4caa2",
+      "inspected": "full text/metadata inspected; repeated pin maps also machine compared"
+    },
+    {
+      "path": "udt_response_whiteboard_2026-09-28/foundations/INITIAL_NOTE.md",
+      "sha256": "6d8cdc272ae7ca936b5df3632bc656f8ed97d009a02fd0a05f372849f204682c",
+      "inspected": "full text/metadata inspected; repeated pin maps also machine compared"
+    },
+    {
+      "path": "udt_response_whiteboard_2026-09-28/foundations/EXCHANGE_NOTE.md",
+      "sha256": "26705ef106b41788e4a66a83acb778731352fa79cb966112ac9251b832976129",
+      "inspected": "full text/metadata inspected; repeated pin maps also machine compared"
+    },
+    {
+      "path": "udt_response_whiteboard_2026-09-28/foundations/SOURCE_PINS.json",
+      "sha256": "18f34b985be09ace05fd20623c16ef96a6fbcb9e3667e82aa835f983cbcd4023",
+      "inspected": "full text/metadata inspected; repeated pin maps also machine compared"
+    },
+    {
+      "path": "udt_response_whiteboard_2026-09-28/foundations/EXCHANGE_PINS.json",
+      "sha256": "ce1bdce73cac6217ef4350b497777f5c223303e6cc77a7f7ee2e4342d2652460",
+      "inspected": "full text/metadata inspected; repeated pin maps also machine compared"
+    },
+    {
+      "path": "udt_response_whiteboard_2026-09-28/mathematics/INITIAL_NOTE.md",
+      "sha256": "22a03e67603a497dc3496d0298aa3352d88cdc98c700a9545a193812afd312a3",
+      "inspected": "full text/metadata inspected; repeated pin maps also machine compared"
+    },
+    {
+      "path": "udt_response_whiteboard_2026-09-28/mathematics/EXCHANGE_NOTE.md",
+      "sha256": "b344333de684036d63d1e4cba0bad32d9339f472d97bfec8d964bae26fd2bae2",
+      "inspected": "full text/metadata inspected; repeated pin maps also machine compared"
+    },
+    {
+      "path": "udt_response_whiteboard_2026-09-28/mathematics/INITIAL_FREEZE.json",
+      "sha256": "292cf4b7e9b6414fd36be76857d636a76ec2b21bfff252f2edad76846a6cec7e",
+      "inspected": "full text/metadata inspected; repeated pin maps also machine compared"
+    },
+    {
+      "path": "udt_response_whiteboard_2026-09-28/mathematics/EXCHANGE_FREEZE.json",
+      "sha256": "96b422b977ad737f11b23f03bc552cf648a427ad60581fff57633086adfe8ca9",
+      "inspected": "full text/metadata inspected; repeated pin maps also machine compared"
+    },
+    {
+      "path": "udt_response_whiteboard_2026-09-28/challenger/INITIAL_NOTE.md",
+      "sha256": "7f0655396c4225011b23f20e5dd9e933fe16bd1e2a4d17ab38b5c417a21ff203",
+      "inspected": "full text/metadata inspected; repeated pin maps also machine compared"
+    },
+    {
+      "path": "udt_response_whiteboard_2026-09-28/challenger/NOTE_ERRATA.md",
+      "sha256": "67f0ed37ff05541c733578132c4c54c570bf2138d6daa1515e9fe58eaae3922c",
+      "inspected": "full text/metadata inspected; repeated pin maps also machine compared"
+    },
+    {
+      "path": "udt_response_whiteboard_2026-09-28/challenger/EXCHANGE_NOTE.md",
+      "sha256": "d92c06f4be67eb11e5acaf08595e12112de171a6ef3fd938b57aedb6dddec955",
+      "inspected": "full text/metadata inspected; repeated pin maps also machine compared"
+    },
+    {
+      "path": "udt_response_whiteboard_2026-09-28/challenger/INITIAL_FREEZE.json",
+      "sha256": "7758d102ebc248ac6bbba87ed506c40fc0456c239e289127122cbbc19e71f79e",
+      "inspected": "full text/metadata inspected; repeated pin maps also machine compared"
+    },
+    {
+      "path": "udt_response_whiteboard_2026-09-28/challenger/EXCHANGE_PINS.json",
+      "sha256": "7742052e82bb461a24997121b54a15547b3696784dc3e752cd52dc7d1c487978",
+      "inspected": "full text/metadata inspected; repeated pin maps also machine compared"
+    }
+  ]
+}
