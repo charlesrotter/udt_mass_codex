@@ -12,13 +12,15 @@ retains relative-motion Doppler and gravity. July lead reviewed/UNPROMOTED:
 `udt_july_optical_time_dilation_lead_2026-09-28/DECISION_BRIEF.md`.
 Its stationary reversal is not a generic UDT law; physical clock-map data remain open.
 
-RMS1 is complete, reviewed conditional UNPROMOTED. Current explanation and exact
-conditional TF(E) route: `CURRENT_RESEARCH_PROGRAM.md`, “Current next gate.”
-Lay return: `udt_response_measurement_scaling_2026-09-28/DECISION_BRIEF.md`.
-Geometric reconstruction does not identify the response selecting geometry.
+CRV1 is complete, reviewed conditional UNPROMOTED. Current explanation and exact
+conditional response routes: `CURRENT_RESEARCH_PROGRAM.md`, “Current next gate.”
+Lay return: `udt_conservation_variational_response_2026-09-28/DECISION_BRIEF.md`.
+Local scalar-trace completion and conditional action existence do not identify
+the physical response or establish native off-shell conservation. DDR remains
+TF(E)=0; no full E=0 field equation is adopted.
 Response selection, physical clock map, measurement connection and empirical/global
 completion remain distinct. No light-theory or complete-field-law blanket gate.
-INDEX routes GRS1/CRD1/CGW1/OFS1 and July evidence; original scopes/grades remain.
+INDEX routes RMS1/GRS1/CRD1/CGW1/OFS1 and July evidence; original scopes/grades remain.
 Completed chronology: `archive/roadmap_history_2026-09-28/README.md`.
 Stop for discussion; no automatic successor.
 

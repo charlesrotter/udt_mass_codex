@@ -87,20 +87,23 @@ Attachment audit/archive: INDEX.
 
 ## Current next gate
 
-RMS1 is complete, reviewed conditional UNPROMOTED. The mathematical gain is a
-smaller sufficient response-class target; the physical response law remains
-unidentified. Positional dilation stays the founding postulate, not a claim
-that has been replaced by a conventional speed-of-transfer premise.
+CRV1 is complete, reviewed conditional UNPROMOTED. It gives a local test for
+whether a specified trace-free response admits a conserved scalar-trace
+completion, plus a conditional route to a variational representative. The
+physical response law and its native off-shell conservation remain unidentified.
+Positional dilation stays the founding postulate, not a claim that has been
+replaced by a conventional speed-of-transfer premise.
 
 | Reviewed return | Usable gain | Limit that remains |
 |---|---|---|
+| CRV1 — conservation/variation | On a fixed contractible metric region, E=S+qg can be conserved iff d(div S)=0; the conditional Ricci class completes to aG+Cg | A scalar primitive need not be a natural finite-jet operator; physical response/conservation and inverse-variational theorem hypotheses remain unowned |
 | RMS1 — response meaning/scaling | Ideal clock/motion readings have derived scaling; suitable families reconstruct Ricci; classification can target TF(E) | No physical identification of E or TF(E); no adopted homothety symmetry |
 | GRS1 — GR-response comparison | Conditional natural-tensor classification; reciprocity does not choose an action | Full hypotheses and nonzero Ricci coefficient are not native ownership |
 | CRD1 — clock/curvature derivation | Complete shifted-pair and full4D geometric identities | In the unshifted exact-reciprocal restriction, derivative-free curvature input gives an elliptic scalar equation, not standalone causal evolution; a constraint role remains possible |
 | CGW1 — common geometry | Clock/screen compatibility and a scoped later-observation drift discriminator | Does not select a cosmology, establish solar precision or realize the global asymptote |
 | OFS1 — observation-guided functions | Finite-range SNe shapes, conditional BAO comparison and a restricted metric inverse | Processed/exposed data and conventional interfaces; expanding controls are not the intended native positional explanation |
 
-These five returns are reviewed conditional (OFS1 also empirical) and UNPROMOTED;
+These six returns are reviewed conditional (OFS1 also empirical) and UNPROMOTED;
 no grade is changed here. INDEX gives each exact REVIEWED_RESULT/DECISION_BRIEF
 route; those sources and reviews control qualifications and evidence. Earlier
 July/positional-geometry returns retain their scopes, including no generic
@@ -128,6 +131,16 @@ variation fails its own reciprocal balance, and the chosen G352 density cannot
 directly equal E(U,U) for all observers in its stated protocol. Those are specific
 failed shortcuts, not universal impossibility or a need for a new postulate.
 Full controls and review: `udt_response_measurement_scaling_2026-09-28/REVIEWED_RESULT.md`.
+
+CRV1 completes this conditional S to E=aG+Cg if off-shell conservation is
+separately required. Universal constants a,C give a variational representative;
+DDR still imposes TF(E)=0, not E=0, and no scalar value or source coupling is
+selected. Its weak-class obstruction is not a UDT no-go. An inverse-variational
+theorem can supply action existence for a natural conserved metric response of
+order at most three under its stated regularity/domain hypotheses; current
+finite-jet sufficiency supplies neither that bound nor conservation. Exact
+scope and the preserved variation-sign repair:
+`udt_conservation_variational_response_2026-09-28/REVIEWED_RESULT.md`.
 
 ### Questions that must remain distinct
 
@@ -159,7 +172,7 @@ Completed chronology: `archive/roadmap_history_2026-09-28/README.md`.
 DCR1 reviewed conditional UNPROMOTED: directional clocks permit central tides in its supplied static class
 under full G301 at an eligible center; no neighborhood field equation; FE1 UNADOPTED.
 G312 membership/native admission unclosed; response identification OPEN; G352 physical-realization: physical identification remains OPEN.
-Stop for lay discussion. RMS1 is complete; no new campaign is authorized;
+Stop for lay discussion. CRV1 is complete; no new campaign is authorized;
 work order and return gates: `UDT_RESEARCH_ROADMAP.md`.
 
 ## Architecture

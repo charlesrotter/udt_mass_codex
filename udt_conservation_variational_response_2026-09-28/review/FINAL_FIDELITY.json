@@ -1,0 +1,39 @@
+{
+  "utc": "2026-09-28T18:02:34.563768+00:00",
+  "reviewer": "/root/crv1_review",
+  "verdict": "FIDELITY_REVIEWED_PASS",
+  "scientific_verdict": "VERIFIED-WITH-CAVEATS repaired conditional comparison; UNPROMOTED",
+  "launch_head": "43775d36836a88deca5303be870a67f6e259cff9",
+  "actual_head": "43775d36836a88deca5303be870a67f6e259cff9",
+  "checks": {
+    "candidate_freeze_unchanged": true,
+    "source_first_seal_unchanged": true,
+    "other_launch_sources_unchanged": true,
+    "diff_check_pass": true
+  },
+  "maintained_file_sha256": {
+    "LIVE.md": "354e9313945443a39c09b1793107d2ea4432f99f67e79c92badcf07e8a3867c7",
+    "HANDOFF.md": "cdcb3ec9f9702fb1b675aeb79f6322e3253c0e164350c5620589180bfcc0cc0b",
+    "CURRENT_RESEARCH_PROGRAM.md": "17f7a3d33bfc67b9beeb7557ce5a4bed6acf6cdbb1194153b168b27c25ae17f6",
+    "MEMORY.md": "49a5570579ea30e478b166e145fcb873874891fcc8ff491cabc086dc99b66331",
+    "INDEX.md": "7d697ee772558983ca1b5a62251abccf8d65174afe2eb21441008d14d217dd48",
+    "UDT_RESEARCH_ROADMAP.md": "5c7ca2f5061ed19619a838b8197db2ca5ac583652130ff85e575528b59af2396"
+  },
+  "maintained_diff_sha256": "355a658c324e829e8f1c1c99a6eee0d016a07f43287e5d550ee3441cb51c4e5d",
+  "package_file_sha256": {
+    "REVIEWED_RESULT.md": "fa6c2d6d511a01e20a3db043d824a7838b4ae7aadf57c3bd4edf1b7e820bc4ae",
+    "DECISION_BRIEF.md": "33269d5f3f3e4a3a1678295996172bbbf5a0d224fc8b4cf97ea68c2217f778ae",
+    "CLOSEOUT.md": "4fd9e927b334abbb9df580ef25764b06049b7da1162c8cc839f4b06a30041229",
+    "REPAIR.md": "5d2d59b8aa03b66b27acd9e834f8b4a8be52728e3f06641f8a5117df79bf0c9c",
+    "review/DIRECT_REVIEW.md": "4b1e9a5324c34b4e57a2d2912073cf373a2a62c842ea08de0940ee0ca7bc645d",
+    "review/DIRECT_REVIEW_PINS.json": "8e1187877a5c37783a7372a7aeefe37682b8acd6b1eadde0f35ff7f253a0afb4",
+    "review/FINAL_FIDELITY.md": "368f3999fee0fbf74691b8b65cd7285d0bcf1ed6cc1682706f7c6377f949f9dc",
+    "checks/startup_surface.json": "c3776e8531dac7d555190bcccba259c62897f169504f07be38bec495b221854c",
+    "checks/startup_surface.stdout": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "checks/startup_surface.stderr": "90505cfcd7f24669f4c28fd5519f987464f630c52c931de8c7d82b6db9ac9062",
+    "checks/startup_surface_repair.json": "d97fa60dc91a9858083b44062657bde777a14669f9a84f83ef01e3bb703a9537",
+    "checks/startup_surface_repair.stdout": "825c43c288a45bde76855bf572cbfb90461062f5109ade7ad43989fd8ce60bcf",
+    "checks/startup_surface_repair.stderr": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "commit_push": "Not claimed; parent must verify actual completion"
+}

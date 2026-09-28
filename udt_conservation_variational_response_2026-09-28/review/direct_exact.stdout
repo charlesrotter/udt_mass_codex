@@ -1,0 +1,37 @@
+{
+  "scope": "Direct independent metric witness/convention checks after candidate exposure",
+  "python": "3.10.12",
+  "sympy": "1.13.1",
+  "method": "Matrix-valued connection curvature and mixed-index density divergence; no producer imports",
+  "j": [
+    "0",
+    "-16*x*(3*y + 1)/(x**2 + y**3 + 1)**3",
+    "72*y*(x**2 - 2*y**3 - y**2 + 1)/(x**2 + y**3 + 1)**3",
+    "0"
+  ],
+  "curl": "-48*x*(6*x**2*y - x**2 - 21*y**4 - y**3 + 3*y**2 + 6*y - 1)/(x**2 + y**3 + 1)**4",
+  "curl_at_1_1": "16/3",
+  "same_action_inverse_pair": "154/9",
+  "same_action_covariant_plus_sign_defect": "308/9",
+  "checks": {
+    "Ricci_matrix_curvature": true,
+    "scalar_curvature": true,
+    "trace_free": true,
+    "j_vs_Ric_grad_R": true,
+    "author_j_x": true,
+    "author_j_y": true,
+    "author_curl_value": true,
+    "nontrivial_curl": true,
+    "curl_wrong_zero_rejected": true,
+    "curl_wrong_orientation_rejected": true,
+    "inverse_metric_tangent": true,
+    "same_action_covariant_density_minus": true,
+    "same_action_plus_density_rejected": true,
+    "volume_derivative": true,
+    "minus_two_C_action_gives_plus_Cg_inverse_response": true,
+    "density_divergence_conversion": true,
+    "density_divergence_control_nonzero": true
+  },
+  "passed": 17,
+  "script_sha256": "e5f747a32ffc88acef3cf0f8e56ee5ffb19a16c9fafa9238018e252008b3be23"
+}

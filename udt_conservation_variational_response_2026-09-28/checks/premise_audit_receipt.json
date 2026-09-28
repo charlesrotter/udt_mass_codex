@@ -1,0 +1,12 @@
+{
+  "command": ["python3", "verify_current_scientific_premises.py"],
+  "cwd": "/home/udt-admin/udt_mass_codex",
+  "exec_session_id": 58398,
+  "completion_chunk_id": "eafa52",
+  "exit_code": 0,
+  "registry_rows": 406,
+  "result": "PASS: full current scientific premise audit",
+  "capture_scope": "Original execution used exec_command, not the bounded capture helper. No output was returned on intermediate polls. Final combined output is transcribed in premise_audit.tool_output.txt. Separate stderr, total wall time and maximum RSS were not captured; no values are inferred. The work-order resource envelope was not enforced by this earlier startup invocation.",
+  "registry_and_verifier_hashes": "LAUNCH.json",
+  "source_changes_since_run": "None; only new CRV1 package exists before completion. Later maintained-pointer changes receive focused startup checks."
+}

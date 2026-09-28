@@ -1,0 +1,15 @@
+{
+  "command": [
+    "python3",
+    "-c",
+    "from pathlib import Path\nimport csv,hashlib,json,subprocess\np=Path(\"udt_conservation_variational_response_2026-09-28\")\nlaunch=json.loads((p/\"LAUNCH.json\").read_text())\nmaintained={\"LIVE.md\",\"HANDOFF.md\",\"CURRENT_RESEARCH_PROGRAM.md\",\"MEMORY.md\",\"INDEX.md\",\"UDT_RESEARCH_ROADMAP.md\"}\nbad=[f for f,h in launch[\"pins\"].items() if f not in maintained and hashlib.sha256(Path(f).read_bytes()).hexdigest()!=h]\nassert not bad,bad\nfreeze=json.loads((p/\"CANDIDATE_FREEZE.json\").read_text())\nassert all(hashlib.sha256((p/f).read_bytes()).hexdigest()==h for f,h in freeze[\"files\"].items())\nreview=json.loads((p/\"review/SOURCE_FIRST_PINS.json\").read_text())\nfor group in (\"sources\",\"sealed_source_first_evidence\"):\n for f,h in review[group].items():\n  assert hashlib.sha256(Path(f).read_bytes()).hexdigest()==h,f\nwith Path(\"CURRENT_SCIENTIFIC_PREMISES.tsv\").open() as f: rows={r[\"premise_id\"]:r for r in csv.DictReader(f,delimiter=\"\\t\")}\nselected=json.loads((p/\"SCOPED_REGISTRY.json\").read_text())\nassert all(rows[r[\"premise_id\"]]==r for r in selected)\ncurrent=set(subprocess.check_output([\"git\",\"ls-files\",\"--others\",\"--exclude-standard\"],text=True).splitlines())\nassert set(launch[\"untracked_paths\"])<=current\nassert {x for x in current if not x.startswith(str(p)+\"/\")}==set(launch[\"untracked_paths\"])\nchanged=set(subprocess.check_output([\"git\",\"diff\",\"--name-only\"],text=True).splitlines())\nassert changed==maintained,changed\nbefore=subprocess.check_output([\"git\",\"show\",launch[\"head\"]+\":CURRENT_RESEARCH_PROGRAM.md\"],text=True)\nnow=Path(\"CURRENT_RESEARCH_PROGRAM.md\").read_text()\nassert before.split(\"## Current next gate\")[0]==now.split(\"## Current next gate\")[0]\nsubprocess.run([\"git\",\"diff\",\"--check\"],check=True)\nsize=sum(f.stat().st_size for f in p.rglob(\"*\") if f.is_file())\nassert size<10_000_000,size\nprint(json.dumps({\"pass\":True,\"unchanged_source_pins\":len(launch[\"pins\"])-len(maintained),\"candidate_pins\":len(freeze[\"files\"]),\"source_first_pins\":sum(len(review[g]) for g in (\"sources\",\"sealed_source_first_evidence\")),\"scoped_registry_rows\":len(selected),\"prior_untracked_paths\":len(launch[\"untracked_paths\"]),\"maintained_files\":sorted(maintained),\"founding_opening_unchanged\":True,\"package_bytes\":size}))\n"
+  ],
+  "cwd": "/home/udt-admin/udt_mass_codex",
+  "started_utc": "2026-09-28T18:01:48.887396+00:00",
+  "duration_seconds": 0.08294908500101883,
+  "returncode": 1,
+  "timeout": false,
+  "address_space_bytes": 536870912,
+  "cpu_seconds": 60,
+  "maxrss_kib": 28140
+}

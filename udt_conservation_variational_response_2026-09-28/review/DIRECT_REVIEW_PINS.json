@@ -1,0 +1,27 @@
+{
+  "utc": "2026-09-28T17:58:58.616764+00:00",
+  "checks": {
+    "candidate_freeze_matches": true,
+    "source_first_seal_matches": true,
+    "source_first_sources_match": true
+  },
+  "files": {
+    "CANDIDATE_FREEZE.json": "02b11b970b7a6ed6d9b5827f55555a7b78c787c143d443b4ed65dd3be960b740",
+    "REPAIR.md": "5d2d59b8aa03b66b27acd9e834f8b4a8be52728e3f06641f8a5117df79bf0c9c",
+    "REVIEWED_RESULT.md": "53182fa17363c0dea29b0b45faf9c02bd2e45d5104e0afe8d819aeca1ce652e3",
+    "DECISION_BRIEF.md": "ef53ff99b63b6f6bd9d764dce5c980b0a06dcfc935132f3ebd2d57464147448c",
+    "checks/premise_audit_receipt.json": "d5e13ae22f69c33f70f828c267148db5c6790c25bee444d055cb81716d10e663",
+    "review/DIRECT_REVIEW.md": "4b1e9a5324c34b4e57a2d2912073cf373a2a62c842ea08de0940ee0ca7bc645d",
+    "review/direct_exact.py": "e5f747a32ffc88acef3cf0f8e56ee5ffb19a16c9fafa9238018e252008b3be23",
+    "review/direct_exact_result.json": "fbb4bbe05c0e8918f3f786caa1b6aab9c20ab933a7e27442728512441eef09e2",
+    "review/direct_exact.stdout": "fbb4bbe05c0e8918f3f786caa1b6aab9c20ab933a7e27442728512441eef09e2",
+    "review/direct_exact.stderr": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "review/direct_exact.json": "8a8dacb7c847e0c0afd6dbab8625277a4dad873fe973764d4d24018be7bb303b",
+    "review/SOURCE_FIRST_PINS.json": "69ef6fde172f29367d596ee21c6aa71703ff99f214a5abbf12dd5bc0c40d731e"
+  },
+  "external_source_versions": [
+    "https://arxiv.org/html/1202.5811v1",
+    "https://arxiv.org/html/1005.2386v4"
+  ],
+  "verdict": "VERIFIED-WITH-CAVEATS repaired conditional mathematical comparison; UNPROMOTED"
+}

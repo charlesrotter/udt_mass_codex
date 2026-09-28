@@ -1,0 +1,25 @@
+{
+  "utc": "2026-09-28T17:55:34.969264+00:00",
+  "sources": {
+    "AGENTS.md": "c578b045cf3278804124e23a5408ff9634a9a2165f7d20223f654d76bffd8ec9",
+    "CLAUDE.md": "b7e524a5b06760e57877a408630228767ae9a394134095f9851bef5d06e17751",
+    ".claude/skills/verifier-before-record/SKILL.md": "9b3a4aacd4b4006b2b7f01edada73b7c87b99bea6e754583558713bfc145e5ac",
+    ".claude/skills/no-shortcuts/SKILL.md": "fd3a1f3218481134f2af829d3ae4175ac53518f75bf9673287efbfb7d7708fc1",
+    ".claude/skills/completeness-map/SKILL.md": "a8cf9e5f4a6d35a0d0ebfe4bc48dbf328ca74e318f020a6a22cb683666a611c0",
+    "CROSS_MODEL_VERIFY.md": "2b0509d933d731fbf3f72aa88777a54d3e48a94d4bae3d324087871777f9a007",
+    "udt_conservation_variational_response_2026-09-28/WORK_ORDER.md": "d06d6c1a54477cc610824e224987981a8f9ef2d72c83f88dc4c489495d91050a",
+    "udt_conservation_variational_response_2026-09-28/LAUNCH.json": "abefff7a778ad0435ac6558c4c00b92e93252509917aaa0e20ccba3f5fed0c7b",
+    "udt_gr_filter_reconciliation_2026-09-09/AUTHORITY_RECORD.md": "80daa0be6d3e1c0ac1b734fea089c4eb487f05bc1e1fbb2fabd69322ca89f28c",
+    "udt_gr_response_selection_2026-09-28/REVIEWED_RESULT.md": "4c0cbaf8dac98010556136d4189f1abe724f089ca91e353b520401ff05725795",
+    "udt_gr_response_selection_2026-09-28/OWNERSHIP_MAP.md": "01c596dddb15b2a66cd6ad9902219b272877c96c398fe227617cd7a7902e0900",
+    "udt_response_measurement_scaling_2026-09-28/REVIEWED_RESULT.md": "462cad1bb96a2ed121edede7e93d4f0fcf9d7f61c1a35f438d42ae47b7dfec3c"
+  },
+  "sealed_source_first_evidence": {
+    "udt_conservation_variational_response_2026-09-28/review/source_first_exact.stdout": "8ab5866cbce1282805f90a5016c67a415a65d5d3c6c0f1e1d50ca670a3a8b3a2",
+    "udt_conservation_variational_response_2026-09-28/review/source_first_exact_result.json": "8ab5866cbce1282805f90a5016c67a415a65d5d3c6c0f1e1d50ca670a3a8b3a2",
+    "udt_conservation_variational_response_2026-09-28/review/source_first_exact.json": "9e309e88e0afebc0bf176a97ea89f9fb45f1050bb7e55fe79f8796656baefc44",
+    "udt_conservation_variational_response_2026-09-28/review/source_first_exact.stderr": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "udt_conservation_variational_response_2026-09-28/review/SOURCE_FIRST_REVIEW.md": "e94d660a6f54c6d0aec3e41d3b4e70feadb4878dcd2ab0d7a88909b9fb8587b7",
+    "udt_conservation_variational_response_2026-09-28/review/source_first_exact.py": "1f2653bdc40220148d4be4e5211115de27a584d71726f42305238a3162027746"
+  }
+}

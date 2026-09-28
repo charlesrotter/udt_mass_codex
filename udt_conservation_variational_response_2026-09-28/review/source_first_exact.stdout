@@ -1,0 +1,64 @@
+{
+  "scope": "Exact single UNADOPTED metric witness; not native UDT or GR-filter admission",
+  "versions": {
+    "python": "3.10.12 (main, Aug 31 2026, 10:18:17) [GCC 11.4.0]",
+    "sympy": "1.13.1",
+    "platform": "Linux-6.8.0-138-generic-x86_64-with-glibc2.35"
+  },
+  "coordinates": [
+    "t",
+    "x",
+    "y",
+    "z"
+  ],
+  "domain": "t>0,y>0",
+  "metric": "Matrix([[-1, 0, 0, 0], [0, t**4, 0, 0], [0, 0, 1, 0], [0, 0, 0, y**4]])",
+  "Ricci": "Matrix([[-2/t**2, 0, 0, 0], [0, 2*t**2, 0, 0], [0, 0, -2/y**2, 0], [0, 0, 0, -2*y**2]])",
+  "R": "4*(-t + y)*(t + y)/(t**2*y**2)",
+  "Q": "8*(t**4 + y**4)/(t**4*y**4)",
+  "S_definition": "Q*(Ric-R*g/4)",
+  "j_components": [
+    "-16*(t**4 + 2*t**2*y**2 + 3*y**4)/(t**7*y**4)",
+    "0",
+    "16*(3*t**4 + 2*t**2*y**2 + y**4)/(t**4*y**7)",
+    "0"
+  ],
+  "dj_ty": "-128*(t**2 + y**2)/(t**5*y**5)",
+  "point": {
+    "t": 1,
+    "y": 2
+  },
+  "dj_ty_at_point": "-20",
+  "j_at_point": [
+    "-57",
+    "0",
+    "27/8",
+    "0"
+  ],
+  "checks": {
+    "Ricci_from_metric_vs_product_formula": true,
+    "scalar_curvature": true,
+    "Ricci_squared": true,
+    "tracefree_Ricci": true,
+    "tracefree_trial_S": true,
+    "contracted_Bianchi": true,
+    "Einstein_divergence": true,
+    "shape_divergence": true,
+    "pure_trace_DDR": true,
+    "pure_trace_divergence": true,
+    "pure_trace_divergence_t_nonzero": true,
+    "Ricci_offshell_divergence_t_nonzero": true,
+    "independent_product_formula_for_j": true,
+    "curl_product_formula": true,
+    "curl_exact_value": true,
+    "trace_completion_obstruction": true,
+    "linear_shape_completion": true,
+    "wrong_sign_trace_completion_rejected": true,
+    "wrong_sign_trace_completion_really_nonzero": true,
+    "drop_Q_gradient_control_rejected": true,
+    "reverse_curl_control_rejected": true
+  },
+  "passed": 21,
+  "implementation": "Original source-first Christoffel/Ricci/covariant-divergence loops; shared SymPy library, no producer imports",
+  "script_sha256": "1f2653bdc40220148d4be4e5211115de27a584d71726f42305238a3162027746"
+}

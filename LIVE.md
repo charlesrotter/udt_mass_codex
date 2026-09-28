@@ -116,10 +116,15 @@ Protected—do not stage, modify, mine or cite without dispatch:
 
 ### Next gate
 
-RMS1 is complete, reviewed conditional UNPROMOTED. Its result and the current
+CRV1 is complete, reviewed conditional UNPROMOTED. Its result and the current
 research checkpoint are explained in `CURRENT_RESEARCH_PROGRAM.md`, “Current next gate.”
-Lay return: `udt_response_measurement_scaling_2026-09-28/DECISION_BRIEF.md`;
+Lay return: `udt_conservation_variational_response_2026-09-28/DECISION_BRIEF.md`;
 exact hypotheses, review and limits: that package's REVIEWED_RESULT and CLOSEOUT.
+
+CRV1 gives a local scalar-trace completion test and a conditional conserved/
+variational representative. It does not identify native E or prove its off-shell
+conservation. The fixed-metric test is not a natural finite-jet primitive theorem;
+DDR remains TF(E)=0 rather than E=0. No new physical premise is adopted.
 
 We can reconstruct geometric information from specified ideal clock/motion
 records; identifying the response whose balance selects geometry remains OPEN.
@@ -129,13 +134,13 @@ local empirical correspondence and global asymptotic completion remain distinct.
 No completed microscopic light theory is a blanket prerequisite for scoped geometry
 or justified conditional measurement. Founding intent above remains controlling.
 
-INDEX routes GRS1/CRD1/CGW1/OFS1 and the July results. Completed campaign chronology
+INDEX routes RMS1/GRS1/CRD1/CGW1/OFS1 and the July results. Completed campaign chronology
 is historical: `archive/roadmap_history_2026-09-28/README.md`. Original source paths,
 conditions and grades are unchanged; former next-step language is not authorization.
 
 DCR1 reviewed conditional UNPROMOTED: directional clocks permit central tides in its supplied static class
 under full G301 at an eligible center; no neighborhood field equation; FE1 UNADOPTED.
 G312 membership/native admission unclosed; response identification OPEN; G352 physical-realization: physical identification remains OPEN.
-Stop for lay discussion. RMS1 is complete; no new campaign is authorized;
+Stop for lay discussion. CRV1 is complete; no new campaign is authorized;
 work order and return gates: `UDT_RESEARCH_ROADMAP.md`.
 <!-- STARTUP_CURRENT_END -->

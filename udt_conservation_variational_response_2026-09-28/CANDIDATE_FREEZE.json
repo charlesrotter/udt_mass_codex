@@ -1,0 +1,15 @@
+{
+  "utc": "2026-09-28T17:52:32.047586+00:00",
+  "scope": "producer candidate before direct review; source-first reviewer not yet exposed",
+  "files": {
+    "WORK_ORDER.md": "d06d6c1a54477cc610824e224987981a8f9ef2d72c83f88dc4c489495d91050a",
+    "LAUNCH.json": "abefff7a778ad0435ac6558c4c00b92e93252509917aaa0e20ccba3f5fed0c7b",
+    "INITIAL_CANDIDATE.md": "6984197615903ad0ae4ab358f357e7b6e4420d30f8aeb7cc4db63fbd54edaed0",
+    "DISCOVERY.md": "fb328d17bcc5f906f5c4c3dd200c4b414da928556755156b112f9b265ba46ed4",
+    "check_conservation.py": "9364bdb8a7b55f55cb0b3daad31201803e14b01b0e7134585681a1f3758aea60",
+    "checks/AUTHOR_EXACT.json": "82fb24581266ec2b05b590871eef551d85f32023226fedc6575943b5d59a9506",
+    "checks/author_exact.stdout": "584324b10ec454a4dc5e14aa6c9cbc98de8565a99fe40de0ac79aa1f6c97d7b3",
+    "checks/author_exact.stderr": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "checks/author_exact.json": "3eccb6cdd75a69e5706aaf733f90ee7be948e00ac93a408460b08c08cb02e676"
+  }
+}

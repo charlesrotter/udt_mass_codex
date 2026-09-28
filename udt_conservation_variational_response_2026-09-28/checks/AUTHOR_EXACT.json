@@ -1,0 +1,294 @@
+{
+  "kind": "exact symbolic/rational witness checks",
+  "python": "3.10.12",
+  "sympy": "1.13.1",
+  "script_sha256": "9364bdb8a7b55f55cb0b3daad31201803e14b01b0e7134585681a1f3758aea60",
+  "metric": "Matrix([[-(x**2 + y**3 + 1)**2, 0, 0, 0], [0, 1, 0, 0], [0, 0, 1, 0], [0, 0, 0, 1]])",
+  "ricci": "Matrix([[2*(3*y + 1)*(x**2 + y**3 + 1), 0, 0, 0], [0, -2/(x**2 + y**3 + 1), 0, 0], [0, 0, -6*y/(x**2 + y**3 + 1), 0], [0, 0, 0, 0]])",
+  "scalar": "-4*(3*y + 1)/(x**2 + y**3 + 1)",
+  "j_nonlinear": "Matrix([[0], [-16*x*(3*y + 1)/(x**2 + y**3 + 1)**3], [72*y*(x**2 - 2*y**3 - y**2 + 1)/(x**2 + y**3 + 1)**3], [0]])",
+  "curl_nonlinear": "-48*x*(6*x**2*y - x**2 - 21*y**4 - y**3 + 3*y**2 + 6*y - 1)/(x**2 + y**3 + 1)**4",
+  "point": {
+    "x": 1,
+    "y": 1
+  },
+  "curl_value": "16/3",
+  "checks": [
+    {
+      "name": "Ricci from full metric 00",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "Ricci from full metric 01",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "Ricci from full metric 02",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "Ricci from full metric 03",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "Ricci from full metric 10",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "Ricci from full metric 11",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "Ricci from full metric 12",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "Ricci from full metric 13",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "Ricci from full metric 20",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "Ricci from full metric 21",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "Ricci from full metric 22",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "Ricci from full metric 23",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "Ricci from full metric 30",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "Ricci from full metric 31",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "Ricci from full metric 32",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "Ricci from full metric 33",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "scalar from full metric",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "trace S0",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "trace S1",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "contracted Bianchi 0",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "Einstein divergence 0",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "trace-free Ricci divergence 0",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "nonlinear trace-free divergence 0",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "conservative trace primitive 0",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "contracted Bianchi 1",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "Einstein divergence 1",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "trace-free Ricci divergence 1",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "nonlinear trace-free divergence 1",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "conservative trace primitive 1",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "contracted Bianchi 2",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "Einstein divergence 2",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "trace-free Ricci divergence 2",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "nonlinear trace-free divergence 2",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "conservative trace primitive 2",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "contracted Bianchi 3",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "Einstein divergence 3",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "trace-free Ricci divergence 3",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "nonlinear trace-free divergence 3",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "conservative trace primitive 3",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "j nonlinear x",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "j nonlinear y",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "Ricci trace completion curl zero",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "nonlinear curl at regular point",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "reject all natural responses have trace completion",
+      "passed": true,
+      "value": "16/3"
+    },
+    {
+      "name": "reject Ricci identically conserved",
+      "passed": true,
+      "value": "16/9"
+    },
+    {
+      "name": "reject wrong plus sign in scalar primitive",
+      "passed": true,
+      "value": "16/9"
+    },
+    {
+      "name": "regular lapse at witness",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "Lorentz determinant at witness",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "pure trace DDR is vacuous",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "pure trace divergence 0",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "pure trace divergence 1",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "pure trace divergence 2",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "pure trace divergence 3",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "reject DDR alone implies conservation",
+      "passed": true,
+      "value": "32/9"
+    }
+  ],
+  "passed": true,
+  "limitations": [
+    "one supplied static witness, not full metric coverage",
+    "no proof of general inverse-variational or classification theorem",
+    "no adopted physical response or empirical GR-filter claim"
+  ]
+}

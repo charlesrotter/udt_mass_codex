@@ -42,8 +42,13 @@ G388--G389 conditional, compact-sector mixed-C2/analytic-local tangent limits; o
 
 Use CURRENT_RESEARCH_PROGRAM for the connected explanation. Open the following
 exact source only for the question it addresses; none is a new startup prerequisite.
-RMS1/GRS1/CRD1/CGW1/OFS1 remain reviewed UNPROMOTED; their source reviews control.
+CRV1/RMS1/GRS1/CRD1/CGW1/OFS1 remain reviewed UNPROMOTED; their source reviews control.
 
+- CRV1 conservation and variational response, reviewed conditional UNPROMOTED:
+  `udt_conservation_variational_response_2026-09-28/DECISION_BRIEF.md`.
+  Fixed-metric scalar-trace completion criterion, weak-class obstruction and
+  conditional conserved/action representative; native response/conservation OPEN.
+  Full hypotheses, variation-sign repair and review: REVIEWED_RESULT and CLOSEOUT.
 - RMS1 response meaning/scaling, reviewed conditional UNPROMOTED:
   `udt_response_measurement_scaling_2026-09-28/DECISION_BRIEF.md`.
   Conditional clock/motion-to-Ricci scaling, trace-free-only sufficient target

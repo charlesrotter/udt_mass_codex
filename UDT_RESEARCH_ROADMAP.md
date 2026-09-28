@@ -1,6 +1,6 @@
 # UDT research roadmap — current direction
 
-Updated 2026-09-28 after RMS1. This is a direction document, not scientific
+Updated 2026-09-28 after CRV1. This is a direction document, not scientific
 premise authority or research authorization. LIVE controls operational status;
 the exact registry and original reviewed sources control grades and scope.
 AGENTS controls method. Charles canonizes; CANON is unchanged.
@@ -12,12 +12,16 @@ This roadmap does not duplicate their detailed derivations or premise inventory.
 
 ## Current return and next discussion
 
-RMS1 is complete: [lay return](udt_response_measurement_scaling_2026-09-28/DECISION_BRIEF.md)
-and [reviewed result](udt_response_measurement_scaling_2026-09-28/REVIEWED_RESULT.md).
-It supplies conditional scaling/reconstruction and a smaller sufficient response
-classification target, not native identification of the response or a field law.
-The next discussion concerns a justified connection to the response constrained
-by reciprocity. No successor is authorized.
+CRV1 is complete: [lay return](udt_conservation_variational_response_2026-09-28/DECISION_BRIEF.md)
+and [reviewed result](udt_conservation_variational_response_2026-09-28/REVIEWED_RESULT.md).
+It supplies a local scalar-trace completion test, a weak-class obstruction and
+a conditional conserved/variational representative. Native response selection
+and off-shell conservation remain OPEN. The current Ricci route still requires
+its full hypotheses; DDR remains TF(E)=0, not E=0. An action can follow under
+explicit inverse-variational theorem conditions, which are not newly adopted.
+RMS1's conditional scaling and smaller sufficient response-class target remain
+available through INDEX. The next discussion concerns physical response meaning
+and a justified conservation connection. No successor is authorized.
 
 Keep the open questions distinct: native response selection, physical event/path-
 to-depth assignment, a chosen observable's signal/measurement connection, empirical
