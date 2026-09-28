@@ -181,18 +181,25 @@ Backup/unsaved state UNVERIFIED; ScratchDisk archive-only.
 
 ## Current next gate
 
-CRD1 constructive clock-curvature derivation is reviewed conditional UNPROMOTED;
+GRS1 GR-response selection comparison is reviewed conditional UNPROMOTED;
 its bounded construction, exact-check and fresh-review cycle is complete:
-`udt_clock_curvature_derivation_2026-09-28/DECISION_BRIEF.md`.
-Full shifted-pair and four-dimensional clock-curvature identities are derived.
-They do not select native dynamics. Prescribing curvature in the restricted
-unshifted reciprocal scalar class gives an elliptic relation, not a standalone
-hyperbolic evolution; a constraint role in a larger system remains possible.
-Ambient curvature, pair bending and observer data are kept distinct. DDR still
-leaves native response identification unclosed; no Ricci substitution is adopted.
-REVIEWED_RESULT and CLOSEOUT own review, failures, qualifications and checks.
+`udt_gr_response_selection_2026-09-28/DECISION_BRIEF.md`.
+Under the reviewed covariant rank-two, natural finite-jet, flat-regular
+flattening-domain and exact weight-zero hypotheses, E=a Ric+b Rg.
+With a!=0, DDR gives the trace-free Einstein vacuum equation; second derivative
+order follows under those hypotheses.
+The physical response's membership, weight and nontrivial shape sensitivity
+remain unclosed. Reciprocity does not select an action: EH/R^2 are unadopted
+comparisons. GR remains FILTER ONLY. No source, scale or field law is adopted.
+REVIEWED_RESULT and CLOSEOUT own hypotheses, review, failures and checks.
 Native selection, measured local GR precision and physical asymptotic completion
 remain OPEN. No premise, scientific grade, canon or successor is adopted.
+
+Prior CRD1 reviewed conditional UNPROMOTED return:
+`udt_clock_curvature_derivation_2026-09-28/DECISION_BRIEF.md`.
+Full shifted-pair/full4D clock-curvature identities remain valid at their scopes.
+The restricted scalar relation is elliptic with derivative-free curvature input;
+a larger-system constraint role remains possible. It selects no native response.
 
 Prior CGW1 reviewed conditional UNPROMOTED return:
 `udt_common_geometry_whiteboard_2026-09-28/DECISION_BRIEF.md`.
@@ -209,5 +216,5 @@ future-return rule, preferred observer or required Hubble expansion.
 DCR1 reviewed conditional UNPROMOTED: directional clocks permit central tides in its supplied static class
 under full G301 at an eligible center; no neighborhood field equation; FE1 UNADOPTED.
 G312 membership/native admission unclosed; response identification OPEN; G352 physical-realization: physical identification remains OPEN.
-Stop for lay discussion. CRD1 is complete; no new campaign is authorized;
+Stop for lay discussion. GRS1 is complete; no new campaign is authorized;
 work order and return gates: `UDT_RESEARCH_ROADMAP.md`.

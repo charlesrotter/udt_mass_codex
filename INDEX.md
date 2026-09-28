@@ -42,6 +42,11 @@ G388--G389 conditional, compact-sector mixed-C2/analytic-local tangent limits; o
 
 ## Founding, relational and response sources
 
+- GRS1 GR-response selection comparison, reviewed conditional UNPROMOTED:
+  `udt_gr_response_selection_2026-09-28/DECISION_BRIEF.md`.
+  Natural finite-jet homothety classification and explicit action-nonselection
+  witness; physical response identification OPEN. EH/R^2 remain unadopted.
+  Full hypotheses, review, repairs and omissions: REVIEWED_RESULT and CLOSEOUT.
 - CRD1 constructive clock-curvature derivation, reviewed conditional UNPROMOTED:
   `udt_clock_curvature_derivation_2026-09-28/DECISION_BRIEF.md`.
   Exact geometric identities and a scoped failed scalar-evolution shortcut;

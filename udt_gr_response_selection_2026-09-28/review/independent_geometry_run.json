@@ -1,0 +1,14 @@
+{
+  "command": [
+    "python3",
+    "udt_gr_response_selection_2026-09-28/review/independent_geometry.py"
+  ],
+  "cwd": "/home/udt-admin/udt_mass_codex",
+  "started_utc": "2026-09-28T15:04:08.587001+00:00",
+  "duration_seconds": 0.3844559189892607,
+  "returncode": 0,
+  "timeout": false,
+  "address_space_bytes": 1610612736,
+  "cpu_seconds": 900,
+  "maxrss_kib": 52028
+}

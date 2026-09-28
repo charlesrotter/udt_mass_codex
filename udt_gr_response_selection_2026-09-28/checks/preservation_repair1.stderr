@@ -1,0 +1,4 @@
+Traceback (most recent call last):
+  File "/home/udt-admin/udt_mass_codex/udt_gr_response_selection_2026-09-28/check_preservation.py", line 34, in <module>
+    assert digest((package/name).read_bytes()) == expected,name
+AssertionError: DISCOVERY_AND_REPAIRS.md

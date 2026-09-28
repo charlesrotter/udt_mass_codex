@@ -1,0 +1,16 @@
+{
+  "utc": "2026-09-28T15:10:05.809956+00:00",
+  "scope": "final packaging fidelity only",
+  "finding": "Compressed conditional classification sentence omitted explicit covariant rank-two and flat-regular flattening-domain hypotheses. Smoothness on a curved-only domain does not imply smoothness at flat. Full REVIEWED_RESULT is correct.",
+  "smallest_repair": "Restore the named hypotheses in maintained theorem summaries; make lay brief explicitly refer to precise reviewed hypotheses.",
+  "scientific_change_required": false,
+  "rerun_required": false,
+  "pre_repair_sha256": {
+    "LIVE.md": "4daa1ecbbcfa28e9f40dced0ef9d3d8fa7583d54531e414750dc84b92f250efe",
+    "HANDOFF.md": "d563a09d0c03f4b4d73b61ebc18de8a059b60ead828edf2b22adb9d075062a8c",
+    "CURRENT_RESEARCH_PROGRAM.md": "74bdaedbeb6de0d3891e92323606e0c87c52bb4a524d7d05f07964f3a5c1c1b3",
+    "MEMORY.md": "c7c1f1baf895d483b8bb68e6e5d1f39bbcf654af761c74793a3c363663804b48",
+    "UDT_RESEARCH_ROADMAP.md": "ee107f23d33096adad0539996fd10d600d0ed8304e688b7fbae6265995e765cc",
+    "udt_gr_response_selection_2026-09-28/DECISION_BRIEF.md": "192ff6a7c681b19f0e9ee5c0283d7fd44823edf89ee8983833fc78f2f9e45fa4"
+  }
+}

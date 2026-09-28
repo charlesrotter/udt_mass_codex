@@ -1,0 +1,6 @@
+{
+  "sealed_utc": "2026-09-28T15:01:42.256781+00:00",
+  "source_first_sha256": "1fd03427d5032e7aa5bbbd539d64fc479da99e79df0cefe1d45ec59d6b4780c1",
+  "head": "45330a7bf4821a87ec70445ee47e1079c42a411f",
+  "exposure_at_note_write": "No GRS1 candidate proof, code, output or verdict. Parent check-plan description arrived after writing note and before this hash seal; disclosed in direct-stage record."
+}

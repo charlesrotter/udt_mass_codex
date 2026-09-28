@@ -1,0 +1,489 @@
+{
+  "status": "PASS",
+  "scope": "exact homogeneous-family identities and stated controls only",
+  "versions": {
+    "python": "3.10.12 (main, Aug 31 2026, 10:18:17) [GCC 11.4.0]",
+    "sympy": "1.13.1",
+    "platform": "Linux-6.8.0-138-generic-x86_64-with-glibc2.35"
+  },
+  "script_sha256": "8239aafd487bf00976e20c2fe53f5d7c683755604e5167ac3b501cc5f73a4ef1",
+  "elapsed_seconds": 1.3018114259903086,
+  "checks": [
+    {
+      "name": "metric_inverse",
+      "pass": true,
+      "residuals": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ]
+    },
+    {
+      "name": "Ricci_symmetry",
+      "pass": true,
+      "residuals": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ]
+    },
+    {
+      "name": "R_from_original_metric",
+      "pass": true,
+      "residuals": [
+        "0"
+      ]
+    },
+    {
+      "name": "R^1_lapse_Euler_from_density",
+      "pass": true,
+      "residuals": [
+        "0"
+      ]
+    },
+    {
+      "name": "R^1_scale_Euler_from_density",
+      "pass": true,
+      "residuals": [
+        "0"
+      ]
+    },
+    {
+      "name": "R^1_covariant_divergence",
+      "pass": true,
+      "residuals": [
+        "0",
+        "0",
+        "0",
+        "0"
+      ]
+    },
+    {
+      "name": "R^2_lapse_Euler_from_density",
+      "pass": true,
+      "residuals": [
+        "0"
+      ]
+    },
+    {
+      "name": "R^2_scale_Euler_from_density",
+      "pass": true,
+      "residuals": [
+        "0"
+      ]
+    },
+    {
+      "name": "R^2_covariant_divergence",
+      "pass": true,
+      "residuals": [
+        "0",
+        "0",
+        "0",
+        "0"
+      ]
+    },
+    {
+      "name": "R_squared_trace",
+      "pass": true,
+      "residuals": [
+        "0"
+      ]
+    },
+    {
+      "name": "EH_response",
+      "pass": true,
+      "residuals": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ]
+    },
+    {
+      "name": "witness_R_zero",
+      "pass": true,
+      "residuals": [
+        "0"
+      ]
+    },
+    {
+      "name": "witness_Ricci",
+      "pass": true,
+      "residuals": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ]
+    },
+    {
+      "name": "witness_R_squared_response_zero",
+      "pass": true,
+      "residuals": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ]
+    },
+    {
+      "name": "witness_tracefree_EH_response_nonzero",
+      "pass": true,
+      "nonzero_residuals": [
+        "3/(4*t**2)",
+        "1/(4*t)",
+        "1/(4*t)",
+        "1/(4*t)"
+      ]
+    },
+    {
+      "name": "reciprocal_tangent_trace",
+      "pass": true,
+      "residuals": [
+        "0"
+      ]
+    },
+    {
+      "name": "witness_actual_pair_balance_failure",
+      "pass": true,
+      "residuals": [
+        "0"
+      ]
+    },
+    {
+      "name": "control_R_nonconstant",
+      "pass": true,
+      "residuals": [
+        "0"
+      ]
+    },
+    {
+      "name": "reject_R_squared_without_derivative_terms",
+      "pass": true,
+      "nonzero_residuals": [
+        "-72/t**4",
+        "-24/t**2",
+        "-24/t**2",
+        "-24/t**2"
+      ]
+    },
+    {
+      "name": "preserved_wrong_formula_divergence_false_pass_at_A_t",
+      "pass": true,
+      "residuals": [
+        "0",
+        "0",
+        "0",
+        "0"
+      ]
+    },
+    {
+      "name": "sensitive_wrong_formula_divergence",
+      "pass": true,
+      "residuals": [
+        "0",
+        "0",
+        "0",
+        "0"
+      ]
+    },
+    {
+      "name": "reject_wrong_formula_divergence_at_A_t_squared",
+      "pass": true,
+      "nonzero_residuals": [
+        "-864/t**5"
+      ]
+    },
+    {
+      "name": "scaled_connection",
+      "pass": true,
+      "residuals": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ]
+    },
+    {
+      "name": "R^1_actual_metric_homothety_weight_0",
+      "pass": true,
+      "residuals": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ]
+    },
+    {
+      "name": "R^2_actual_metric_homothety_weight_-2",
+      "pass": true,
+      "residuals": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ]
+    },
+    {
+      "name": "reject_weight_zero_for_R_squared",
+      "pass": true,
+      "nonzero_residuals": [
+        "54*(lambda - 1)*(lambda + 1)/(lambda**2*t**4)",
+        "18*(lambda - 1)*(lambda + 1)/(lambda**2*t**2)",
+        "18*(lambda - 1)*(lambda + 1)/(lambda**2*t**2)",
+        "18*(lambda - 1)*(lambda + 1)/(lambda**2*t**2)"
+      ]
+    },
+    {
+      "name": "reject_TF_divisor_three_in_four_dimensions",
+      "pass": true,
+      "nonzero_residuals": [
+        "1/(2*t**2)",
+        "-1/2",
+        "-1/2",
+        "-1/2"
+      ]
+    },
+    {
+      "name": "scalar_only_response_DDR_vacuous",
+      "pass": true,
+      "residuals": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ]
+    },
+    {
+      "name": "constant_trace_term_DDR_invisible",
+      "pass": true,
+      "residuals": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ]
+    },
+    {
+      "name": "normal_jet_degree_two_enumeration_through_order_eight",
+      "pass": true,
+      "solutions": [
+        [
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      ],
+      "scope": "finite regression, not general proof"
+    }
+  ],
+  "outputs": {
+    "generic_R": "6*(A(t)*N(t)*Derivative(A(t), (t, 2)) - A(t)*Derivative(A(t), t)*Derivative(N(t), t) + N(t)*Derivative(A(t), t)**2)/(A(t)**2*N(t)**3)",
+    "generic_Ricci_diagonal": [
+      "-3*(N(t)*Derivative(A(t), (t, 2)) - Derivative(A(t), t)*Derivative(N(t), t))/(A(t)*N(t))",
+      "(A(t)*N(t)*Derivative(A(t), (t, 2)) - A(t)*Derivative(A(t), t)*Derivative(N(t), t) + 2*N(t)*Derivative(A(t), t)**2)/N(t)**3",
+      "(A(t)*N(t)*Derivative(A(t), (t, 2)) - A(t)*Derivative(A(t), t)*Derivative(N(t), t) + 2*N(t)*Derivative(A(t), t)**2)/N(t)**3",
+      "(A(t)*N(t)*Derivative(A(t), (t, 2)) - A(t)*Derivative(A(t), t)*Derivative(N(t), t) + 2*N(t)*Derivative(A(t), t)**2)/N(t)**3"
+    ],
+    "E_R1_diagonal": [
+      "3*Derivative(A(t), t)**2/A(t)**2",
+      "-(2*A(t)*N(t)*Derivative(A(t), (t, 2)) - 2*A(t)*Derivative(A(t), t)*Derivative(N(t), t) + N(t)*Derivative(A(t), t)**2)/N(t)**3",
+      "-(2*A(t)*N(t)*Derivative(A(t), (t, 2)) - 2*A(t)*Derivative(A(t), t)*Derivative(N(t), t) + N(t)*Derivative(A(t), t)**2)/N(t)**3",
+      "-(2*A(t)*N(t)*Derivative(A(t), (t, 2)) - 2*A(t)*Derivative(A(t), t)*Derivative(N(t), t) + N(t)*Derivative(A(t), t)**2)/N(t)**3"
+    ],
+    "E_R2_diagonal": [
+      "-18*(-2*A(t)**2*N(t)**2*Derivative(A(t), t)*Derivative(A(t), (t, 3)) + A(t)**2*N(t)**2*Derivative(A(t), (t, 2))**2 + 2*A(t)**2*N(t)*Derivative(A(t), t)**2*Derivative(N(t), (t, 2)) + 4*A(t)**2*N(t)*Derivative(A(t), t)*Derivative(A(t), (t, 2))*Derivative(N(t), t) - 5*A(t)**2*Derivative(A(t), t)**2*Derivative(N(t), t)**2 - 2*A(t)*N(t)**2*Derivative(A(t), t)**2*Derivative(A(t), (t, 2)) + 2*A(t)*N(t)*Derivative(A(t), t)**3*Derivative(N(t), t) + 3*N(t)**2*Derivative(A(t), t)**4)/(A(t)**4*N(t)**4)",
+      "6*(-2*A(t)**3*N(t)**3*Derivative(A(t), (t, 4)) + 2*A(t)**3*N(t)**2*Derivative(A(t), t)*Derivative(N(t), (t, 3)) + 8*A(t)**3*N(t)**2*Derivative(A(t), (t, 2))*Derivative(N(t), (t, 2)) + 12*A(t)**3*N(t)**2*Derivative(A(t), (t, 3))*Derivative(N(t), t) - 20*A(t)**3*N(t)*Derivative(A(t), t)*Derivative(N(t), t)*Derivative(N(t), (t, 2)) - 30*A(t)**3*N(t)*Derivative(A(t), (t, 2))*Derivative(N(t), t)**2 + 30*A(t)**3*Derivative(A(t), t)*Derivative(N(t), t)**3 - 4*A(t)**2*N(t)**3*Derivative(A(t), t)*Derivative(A(t), (t, 3)) - 3*A(t)**2*N(t)**3*Derivative(A(t), (t, 2))**2 + 4*A(t)**2*N(t)**2*Derivative(A(t), t)**2*Derivative(N(t), (t, 2)) + 18*A(t)**2*N(t)**2*Derivative(A(t), t)*Derivative(A(t), (t, 2))*Derivative(N(t), t) - 15*A(t)**2*N(t)*Derivative(A(t), t)**2*Derivative(N(t), t)**2 + 12*A(t)*N(t)**3*Derivative(A(t), t)**2*Derivative(A(t), (t, 2)) - 12*A(t)*N(t)**2*Derivative(A(t), t)**3*Derivative(N(t), t) - 3*N(t)**3*Derivative(A(t), t)**4)/(A(t)**2*N(t)**7)",
+      "6*(-2*A(t)**3*N(t)**3*Derivative(A(t), (t, 4)) + 2*A(t)**3*N(t)**2*Derivative(A(t), t)*Derivative(N(t), (t, 3)) + 8*A(t)**3*N(t)**2*Derivative(A(t), (t, 2))*Derivative(N(t), (t, 2)) + 12*A(t)**3*N(t)**2*Derivative(A(t), (t, 3))*Derivative(N(t), t) - 20*A(t)**3*N(t)*Derivative(A(t), t)*Derivative(N(t), t)*Derivative(N(t), (t, 2)) - 30*A(t)**3*N(t)*Derivative(A(t), (t, 2))*Derivative(N(t), t)**2 + 30*A(t)**3*Derivative(A(t), t)*Derivative(N(t), t)**3 - 4*A(t)**2*N(t)**3*Derivative(A(t), t)*Derivative(A(t), (t, 3)) - 3*A(t)**2*N(t)**3*Derivative(A(t), (t, 2))**2 + 4*A(t)**2*N(t)**2*Derivative(A(t), t)**2*Derivative(N(t), (t, 2)) + 18*A(t)**2*N(t)**2*Derivative(A(t), t)*Derivative(A(t), (t, 2))*Derivative(N(t), t) - 15*A(t)**2*N(t)*Derivative(A(t), t)**2*Derivative(N(t), t)**2 + 12*A(t)*N(t)**3*Derivative(A(t), t)**2*Derivative(A(t), (t, 2)) - 12*A(t)*N(t)**2*Derivative(A(t), t)**3*Derivative(N(t), t) - 3*N(t)**3*Derivative(A(t), t)**4)/(A(t)**2*N(t)**7)",
+      "6*(-2*A(t)**3*N(t)**3*Derivative(A(t), (t, 4)) + 2*A(t)**3*N(t)**2*Derivative(A(t), t)*Derivative(N(t), (t, 3)) + 8*A(t)**3*N(t)**2*Derivative(A(t), (t, 2))*Derivative(N(t), (t, 2)) + 12*A(t)**3*N(t)**2*Derivative(A(t), (t, 3))*Derivative(N(t), t) - 20*A(t)**3*N(t)*Derivative(A(t), t)*Derivative(N(t), t)*Derivative(N(t), (t, 2)) - 30*A(t)**3*N(t)*Derivative(A(t), (t, 2))*Derivative(N(t), t)**2 + 30*A(t)**3*Derivative(A(t), t)*Derivative(N(t), t)**3 - 4*A(t)**2*N(t)**3*Derivative(A(t), t)*Derivative(A(t), (t, 3)) - 3*A(t)**2*N(t)**3*Derivative(A(t), (t, 2))**2 + 4*A(t)**2*N(t)**2*Derivative(A(t), t)**2*Derivative(N(t), (t, 2)) + 18*A(t)**2*N(t)**2*Derivative(A(t), t)*Derivative(A(t), (t, 2))*Derivative(N(t), t) - 15*A(t)**2*N(t)*Derivative(A(t), t)**2*Derivative(N(t), t)**2 + 12*A(t)*N(t)**3*Derivative(A(t), t)**2*Derivative(A(t), (t, 2)) - 12*A(t)*N(t)**2*Derivative(A(t), t)**3*Derivative(N(t), t) - 3*N(t)**3*Derivative(A(t), t)**4)/(A(t)**2*N(t)**7)"
+    ],
+    "witness": {
+      "metric": "Matrix([[-1, 0, 0, 0], [0, t, 0, 0], [0, 0, t, 0], [0, 0, 0, t]])",
+      "Ricci": "Matrix([[3/(4*t**2), 0, 0, 0], [0, 1/(4*t), 0, 0], [0, 0, 1/(4*t), 0], [0, 0, 0, 1/(4*t)]])",
+      "R": "0",
+      "E_R2": "Matrix([[0, 0, 0, 0], [0, 0, 0, 0], [0, 0, 0, 0], [0, 0, 0, 0]])",
+      "Ricci_pair_contraction": "2/t**2"
+    },
+    "control_E_R2": "Matrix([[-54/t**4, 0, 0, 0], [0, -18/t**2, 0, 0], [0, 0, -18/t**2, 0], [0, 0, 0, -18/t**2]])",
+    "control_wrong_E_R2": "Matrix([[18/t**4, 0, 0, 0], [0, 6/t**2, 0, 0], [0, 0, 6/t**2, 0], [0, 0, 0, 6/t**2]])"
+  },
+  "omissions": [
+    "general finite-jet theorem owned by analytic argument",
+    "full G301 invariant-basis rank certificate not repeated",
+    "no native admission, empirical fit, stability or causal IVP test"
+  ]
+}

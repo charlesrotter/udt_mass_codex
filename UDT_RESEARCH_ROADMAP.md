@@ -14,6 +14,33 @@ Current acceptance overlay: earlier UNPROMOTED/campaign-only language below reco
 returns. The G383--G412, G413--G415 and G416--G423 banking packets and maintained checkpoint own later dispositions;
 original result packages remain unchanged. No physical adoption or canon is included.
 
+## GR response selection comparison — 2026-09-28
+
+Charles asked whether GR has similar reciprocity and authorized the offered
+comparison with “proceed.” Scope:
+`udt_gr_response_selection_2026-09-28/WORK_ORDER.md`.
+GRS1 returned reviewed conditional UNPROMOTED after exact checks and fresh
+source-first adversarial review. Lay return:
+`udt_gr_response_selection_2026-09-28/DECISION_BRIEF.md`.
+
+The action comparison shows reciprocal balance does not choose a functional;
+EH and R^2 remain explicitly UNADOPTED COMPARISON FUNCTIONALS. The separate
+classification route proves that under the reviewed covariant rank-two, natural
+finite-jet, flat-regular flattening-domain and exact weight-zero hypotheses,
+E=a Ric+b Rg. DDR and nonzero Ricci coefficient then give the trace-free Einstein
+vacuum equation.
+Second derivative order need not be separately stipulated in that mathematical
+route. Its full hypotheses, including response typing, flat regularity, scaling
+and nontrivial shape sensitivity, are not established as native UDT ownership.
+
+Current GR authority remains FILTER ONLY. No action, response definition,
+source, scale, physical symmetry, scientific grade or canon is adopted.
+REVIEWED_RESULT and CLOSEOUT preserve the initial negative-control failure,
+same-premise repair, reviewer self-erratum, review exposure and omissions.
+The suggested next discussion target is physical response identification and
+its scaling from current geometry/readout premises; the brief gives a bounded
+possible work order, not authorization. Stop for discussion; no automatic successor.
+
 ## Constructive clock-curvature derivation — 2026-09-28
 
 Charles: “proceed. time to derive.” This authorized the offered construction

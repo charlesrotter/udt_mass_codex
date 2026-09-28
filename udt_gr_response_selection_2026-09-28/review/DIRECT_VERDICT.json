@@ -1,0 +1,15 @@
+{
+  "utc": "2026-09-28T15:07:36.463013+00:00",
+  "verdict": "ACCEPT_CONDITIONAL_COMPARISON_WITH_OWNERSHIP_OPEN",
+  "candidate_freeze_sha256": "7756e9a72d401485d720b4940a21f323bbb48b4cdbbecd252cc3a9cd39b87e5e",
+  "reviewed_files": {
+    "review/DIRECT_REVIEW.md": "6748f0ab1f9cd424e34b81235f80919bb86e538503a3c053887c09db12c16ff9",
+    "OWNERSHIP_MAP.md": "01c596dddb15b2a66cd6ad9902219b272877c96c398fe227617cd7a7902e0900",
+    "review/SOURCE_FIRST_ERRATA.md": "baaa9ce4bbe637c35ae0e30d2a1748a560e9aae4e697bcd3226bc14fb48e1403",
+    "review/DIRECT_REVIEW_PINS.json": "13f84ccb3c9379a45769efd0188ff63ebf56b453df6d86404f22548e235f12e5"
+  },
+  "required_candidate_repairs": [],
+  "independent_checks": 39,
+  "physical_membership": "OPEN",
+  "promotion": "NOT_AUTHORIZED_BY_REVIEW"
+}

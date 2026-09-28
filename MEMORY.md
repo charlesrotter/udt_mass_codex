@@ -12,7 +12,17 @@ retains relative-motion Doppler and gravity. July lead reviewed/UNPROMOTED:
 `udt_july_optical_time_dilation_lead_2026-09-28/DECISION_BRIEF.md`.
 Its stationary reversal is not a generic UDT law; physical clock-map data remain open.
 
-CRD1 reviewed conditional UNPROMOTED; constructive derivation/review complete:
+GRS1 reviewed conditional UNPROMOTED; GR-response comparison/derivation complete:
+`udt_gr_response_selection_2026-09-28/DECISION_BRIEF.md`.
+Under the reviewed covariant rank-two, natural finite-jet, flat-regular
+flattening-domain and exact weight-zero hypotheses, E=a Ric+b Rg; DDR with
+nonzero Ricci coefficient gives the trace-free Einstein vacuum equation.
+Second order follows conditionally; native response type/weight/regularity and
+nondegeneracy remain unclosed. Reciprocity does not choose an action; EH/R^2
+are unadopted comparisons. Full scope/review: REVIEWED_RESULT and CLOSEOUT.
+Stop for discussion; no automatic successor.
+
+Prior CRD1 reviewed conditional UNPROMOTED; constructive derivation/review complete:
 `udt_clock_curvature_derivation_2026-09-28/DECISION_BRIEF.md`.
 Exact shifted-pair/full4D clock-curvature identities; restricted scalar equation
 is elliptic under prescribed derivative-free curvature, not standalone causal

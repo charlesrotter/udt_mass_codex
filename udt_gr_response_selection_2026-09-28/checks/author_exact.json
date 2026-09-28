@@ -1,0 +1,15 @@
+{
+  "command": [
+    "python3",
+    "udt_gr_response_selection_2026-09-28/check_response.py",
+    "udt_gr_response_selection_2026-09-28/checks/AUTHOR_EXACT.json"
+  ],
+  "cwd": "/home/udt-admin/udt_mass_codex",
+  "started_utc": "2026-09-28T15:02:32.494100+00:00",
+  "duration_seconds": 1.3656677849940024,
+  "returncode": 1,
+  "timeout": false,
+  "address_space_bytes": 2147483648,
+  "cpu_seconds": 900,
+  "maxrss_kib": 63140
+}
