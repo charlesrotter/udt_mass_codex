@@ -41,6 +41,55 @@ The suggested next discussion target is physical response identification and
 its scaling from current geometry/readout premises; the brief gives a bounded
 possible work order, not authorization. Stop for discussion; no automatic successor.
 
+### Proposed response and scaling exploration — epistemic scope
+
+Charles requested incorporating the discussion about working without a completed
+UDT theory of light into this existing proposal. This records the proposed scope;
+it does not dispatch the exploration, adopt a physical premise or change the
+reviewed GRS1 result. Its earlier decision brief remains the reviewed snapshot.
+
+Question: **what does UDT's response E physically measure, and can that
+identification determine how E transforms under uniform metric rescaling?**
+For each attempted connection, distinguish three levels:
+
+1. **Geometric deduction:** name the supplied metric, mathematical hypotheses
+   and admitted physical postulates, then state what follows. Preserve positional
+   dilation as the founding interpretation of c_E, clocks and causal geometry;
+   this exploration does not ask for a deeper reason why that postulate exists.
+2. **Conditional measurement:** explicitly identify the emission/reception or
+   event/pair map, physical clock readout, and any signal or instrument assumptions
+   used to connect geometry to received ticking. A completed microscopic theory
+   of light is not a blanket prerequisite for a justified conditional comparison.
+   A metric's null curves alone do not establish the behavior of an actual signal.
+   Slower received periodicity is redshift; deriving a physical distance-to-rate
+   relation still requires the relevant geometric and measurement connection.
+3. **Physical identification:** state what has actually been established about
+   the object represented by E or by a readout. Geometric curves, phases and label
+   measures must not silently become photons, energy, emission or detector laws.
+   Claims about brightness or energy transfer must expose their additional
+   transport, source and measurement assumptions. Light emergence and native
+   response selection remain distinct open questions unless a dependency is shown.
+
+Current sources control ownership: DDR and Local Metric Sufficiency remain
+owner-provisional; GR remains FILTER ONLY. GRS1's covariant rank-two, natural
+finite-jet, flat-regular flattening-domain, exact weight-zero and nonzero shape
+response conditions remain conditional, not consequences supplied by this
+planning note. Derive or justify each connection actually used. Do not choose
+a response weight because it recovers Einstein's equation, equate unit changes
+with a physical scale symmetry, or introduce an unowned response definition,
+normalization, action, source or scale. An unsupported connection stays OPEN;
+the absence of a light theory neither invalidates the geometric theorem nor
+fills its missing physical identification.
+
+Retain the proposed verification cycle and budget: construction, relevant exact
+checks, one fresh separate-context adversarial review and up to two bounded
+source-preserving repair/re-review cycles; two hours, at most4CPU/4GiB, noGPU
+or observational fit. Return a reviewed conditional connection and lay brief,
+narrowed obstruction, refutation of the proposed connection or unresolved
+objection. Stop before adding unowned physics. Record which conclusions follow
+from geometry, which depend on measurement assumptions, and which physical
+identifications remain open. This is a proposal for later authorization.
+
 ## Constructive clock-curvature derivation — 2026-09-28
 
 Charles: “proceed. time to derive.” This authorized the offered construction
