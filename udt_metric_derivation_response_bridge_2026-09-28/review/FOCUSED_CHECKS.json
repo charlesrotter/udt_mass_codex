@@ -1,0 +1,38 @@
+{
+  "utc": "2026-09-28T00:34:10.140948+00:00",
+  "head": "3b11eb2f2bf1d96182a9b9095d672349c308d6c9",
+  "branch": "grok",
+  "sha256": {
+    "CANDIDATE.md": "571e016a282dfe1a67a5bf6ff91376ec17ee703b79fd297a65b7c9ca2a61000c",
+    "DECISION_BRIEF.md": "722962826039c26455db628a124a0e992d26a0aaa53c596fe4eb46d05b404f54",
+    "ROADMAP_INSERT.md": "3b75df6811f877c8c2ab36e0129d1b01a6772efbcd67d18a64d0b9af083d62ba",
+    "CLOSEOUT.md": "1e0acbc330bb0edc11486ffeb2a3c52f4871eec749f5b3ba9c6038b9491118de",
+    "REPAIR_LOG.md": "29584e4d51e652b586aed8cb08ea77e060032f36b4075bec88b6f3d102abe844",
+    "EXECUTION_RECORD.json": "51e64d6866ad59aa831ea29057547a3b69e33c4f98e3371891d4a55c734e2f03",
+    "PREMISE_VERIFIER_EXECUTION.json": "eaeb877e6b3eaec51c161a9618003852fd0132227672538427db223db7ca665c"
+  },
+  "changed_tracked_paths": [],
+  "source_freeze_comparison": {
+    "AGENTS.md": true,
+    "CLAUDE.md": true,
+    ".claude/skills/no-shortcuts/SKILL.md": true,
+    ".claude/skills/completeness-map/SKILL.md": true,
+    ".claude/skills/verifier-before-record/SKILL.md": true,
+    "CROSS_MODEL_VERIFY.md": true,
+    "founding.md": true,
+    "CURRENT_SCIENTIFIC_PREMISES.tsv": true,
+    "udt_gr_filter_reconciliation_2026-09-09/AUTHORITY_RECORD.md": true,
+    "udt_g301_scale_free_quiet_regular_causal_principal_classification_2026-08-30/AUDIT_REPORT.md": true,
+    "udt_g310_differential_dual_reciprocity_tracefree_ownership_2026-08-31/AUDIT_REPORT.md": true,
+    "udt_response_selection_methods_2026-09-27/CANDIDATE.md": true,
+    "udt_response_selection_methods_2026-09-27/CLOSEOUT.md": true,
+    "udt_positional_postulate_fidelity_2026-09-27/CANDIDATE.md": true,
+    "udt_metric_derivation_response_bridge_2026-09-28/WORK_ORDER.md": true,
+    "udt_metric_derivation_response_bridge_2026-09-28/review/SOURCE_FIRST.md": true
+  },
+  "audit_stdout_contains_406_pass": true,
+  "audit_stderr_bytes": 0,
+  "source_first_actual_count": 47,
+  "direct_actual_count": 12,
+  "parent_actual_count": 50
+}

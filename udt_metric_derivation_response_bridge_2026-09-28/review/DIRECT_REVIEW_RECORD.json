@@ -1,0 +1,25 @@
+{
+  "utc": "2026-09-28T00:33:06.534070+00:00",
+  "status": "VERIFIED-WITH-CAVEATS; no substantive defect; R1/R2 wording refinements pending",
+  "input_sha256": {
+    "CANDIDATE_INITIAL.md": "ed96806781d1ce1ba940a8f66283c521b9c8545fe81b59a4be6472ddf8766f0a",
+    "check_bridge.py": "a836c60dd7188de479bd63a6b9f90c2b7d1f07e3f90204c7caf11095c90473c2",
+    "construction.stdout.json": "848490cbe07518e1da74c1e92fd3ed6c0a01701ea84b6be5ac3c443bfa55adc6",
+    "construction.stderr.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "DECISION_BRIEF.md": "722962826039c26455db628a124a0e992d26a0aaa53c596fe4eb46d05b404f54",
+    "ROADMAP_INSERT.md": "3b75df6811f877c8c2ab36e0129d1b01a6772efbcd67d18a64d0b9af083d62ba",
+    "review/SOURCE_FIRST.md": "15126ce3f1123d6394533ccc611018c2c309d6c2683bbcceba1781c44657a532",
+    "review/SOURCE_FIRST_FREEZE.json": "5b4c1f17fdd67df0c7ced0c088c48cda359d0eb43ab242a8121da7441dfd671a",
+    "review/source_first_checks.py": "f19eaaada06929b6a2434585463cd12b26d4bd565fb0611d9aa9d9e90a985f27",
+    "review/source_first_checks.stdout.json": "c28e722cd894ad42672530186c7b8e03999885a38cbd2376f048df63384e663b",
+    "review/direct_checks.py": "55368c5668dd01b62f8a07e538f5e0aa926a43b7a4492c74d5c33f774b5d8aba",
+    "review/direct_checks.stdout.json": "cfc64c1a9bcd2678c640130a48c2720bbb8903d7c1971e24e11dea14056ae56b",
+    "review/DIRECT_REVIEW.md": "4758f1a935e883e3643cee72f8acd64176a29580107cc3095a5a73498f17b971"
+  },
+  "non_scientific_read_failure": {
+    "command": "cat CANDIDATE.md && cat INITIAL_FREEZE.json && cat EXECUTION_RECORD.json (paths under packet)",
+    "exit_code": 1,
+    "stderr": "cat: udt_metric_derivation_response_bridge_2026-09-28/EXECUTION_RECORD.json: No such file or directory",
+    "scope": "candidate and freeze reads succeeded; attempted execution filename not then present"
+  }
+}

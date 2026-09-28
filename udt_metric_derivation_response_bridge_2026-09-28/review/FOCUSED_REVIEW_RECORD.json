@@ -1,0 +1,24 @@
+{
+  "utc": "2026-09-28T00:34:51.286899+00:00",
+  "verdict": "VERIFIED-WITH-CAVEATS",
+  "unresolved_scientific_or_fidelity_objections": [],
+  "review_scope": "Scoped static spherical bridge/projection argument; final candidate, brief, roadmap insertion and draft closeout; no scientific promotion",
+  "sha256": {
+    "CANDIDATE.md": "571e016a282dfe1a67a5bf6ff91376ec17ee703b79fd297a65b7c9ca2a61000c",
+    "CANDIDATE_INITIAL.md": "ed96806781d1ce1ba940a8f66283c521b9c8545fe81b59a4be6472ddf8766f0a",
+    "DECISION_BRIEF.md": "722962826039c26455db628a124a0e992d26a0aaa53c596fe4eb46d05b404f54",
+    "ROADMAP_INSERT.md": "3b75df6811f877c8c2ab36e0129d1b01a6772efbcd67d18a64d0b9af083d62ba",
+    "CLOSEOUT.md": "1e0acbc330bb0edc11486ffeb2a3c52f4871eec749f5b3ba9c6038b9491118de",
+    "REPAIR_LOG.md": "29584e4d51e652b586aed8cb08ea77e060032f36b4075bec88b6f3d102abe844",
+    "EXECUTION_RECORD.json": "51e64d6866ad59aa831ea29057547a3b69e33c4f98e3371891d4a55c734e2f03",
+    "PREMISE_VERIFIER_EXECUTION.json": "eaeb877e6b3eaec51c161a9618003852fd0132227672538427db223db7ca665c",
+    "review/FOCUSED_REVIEW.md": "f9bd613d5eac7ab47415761d03f93f28d46a71f4bb892baf442a91a6fc057c17",
+    "review/FOCUSED_CHECKS.json": "77eeacc7d3495c906f6944e5dbae52c9c9205c162ebd660e74d73504013a388e",
+    "review/DIRECT_REVIEW.md": "4758f1a935e883e3643cee72f8acd64176a29580107cc3095a5a73498f17b971",
+    "review/DIRECT_REVIEW_RECORD.json": "7e84ab9fefaf99a20389997be3ab2f72ff082d70994ac290ac7ad06d6674b4da",
+    "review/SOURCE_FIRST.md": "15126ce3f1123d6394533ccc611018c2c309d6c2683bbcceba1781c44657a532",
+    "review/SOURCE_FIRST_FREEZE.json": "5b4c1f17fdd67df0c7ced0c088c48cda359d0eb43ab242a8121da7441dfd671a",
+    "review/SOURCE_FIRST_EXECUTION.json": "b7549b2db4e4709608057adc595f0b0bab16022d3d1ed61b159fdcb3fa73269c",
+    "review/DIRECT_EXECUTION.json": "77309ab7c97bf3b55f629d882e5a16f9e2b48eee9a95a10ad820289dfe417ce6"
+  }
+}

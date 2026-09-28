@@ -1,0 +1,24 @@
+{
+  "status": "PASS",
+  "count": 12,
+  "checks": [
+    "varied_density_linear_in_test",
+    "pointwise_integration_by_parts",
+    "B14_reduced_bulk",
+    "B14_fourth_derivative_coefficient",
+    "B14_full_response_difference",
+    "B14_source_sign_and_weight",
+    "B14_control",
+    "B14_zero_alpha_control",
+    "reduced_only_control_R",
+    "reduced_only_control_stationary",
+    "reduced_only_control_full_shape",
+    "reduced_only_control_full_shape_nonidentity"
+  ],
+  "elapsed_s": 0.44470429600187344,
+  "python": "3.10.12",
+  "sympy": "1.13.1",
+  "bulk": "2*alpha*(r**2*(r**2*Derivative(f(r), (r, 4)) + 4*r*Derivative(f(r), (r, 3)) - 6*Derivative(f(r), (r, 2))) + 12*f(r) - 12)/r**2",
+  "reduced_only_clock_minus_angle": "2*c*(50*alpha*c*r**3 - 20*alpha - r**2)/r",
+  "scope": "Independent B14 metric variation and projection control; no new action or full solution claim."
+}

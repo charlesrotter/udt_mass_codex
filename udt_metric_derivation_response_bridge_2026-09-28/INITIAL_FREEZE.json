@@ -1,0 +1,11 @@
+{
+  "utc": "2026-09-28T00:29:41.863133+00:00",
+  "files": {
+    "CANDIDATE_INITIAL.md": "ed96806781d1ce1ba940a8f66283c521b9c8545fe81b59a4be6472ddf8766f0a",
+    "check_bridge.py": "a836c60dd7188de479bd63a6b9f90c2b7d1f07e3f90204c7caf11095c90473c2",
+    "construction.stdout.json": "848490cbe07518e1da74c1e92fd3ed6c0a01701ea84b6be5ac3c443bfa55adc6",
+    "construction.stderr.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "WORK_ORDER.md": "94ff97365c0b6538d4040bf60d4a5ff6d1bb969662c45529ac047792921639c9"
+  },
+  "exposure": "Parent preliminary algebra and completed script/run preceded inspection of reviewer source-first argument; text freeze follows that inspection. No blind discovery."
+}

@@ -1,0 +1,164 @@
+{
+  "status": "PASS",
+  "count": 50,
+  "checks": {
+    "full_4d_scalar_with_independent_N": {
+      "residual": "0"
+    },
+    "off_diagonal_Ric_01": {
+      "residual": "0"
+    },
+    "off_diagonal_Ric_02": {
+      "residual": "0"
+    },
+    "off_diagonal_Ric_03": {
+      "residual": "0"
+    },
+    "off_diagonal_Ric_10": {
+      "residual": "0"
+    },
+    "off_diagonal_Ric_12": {
+      "residual": "0"
+    },
+    "off_diagonal_Ric_13": {
+      "residual": "0"
+    },
+    "off_diagonal_Ric_20": {
+      "residual": "0"
+    },
+    "off_diagonal_Ric_21": {
+      "residual": "0"
+    },
+    "off_diagonal_Ric_23": {
+      "residual": "0"
+    },
+    "off_diagonal_Ric_30": {
+      "residual": "0"
+    },
+    "off_diagonal_Ric_31": {
+      "residual": "0"
+    },
+    "off_diagonal_Ric_32": {
+      "residual": "0"
+    },
+    "full_metric_determinant": {
+      "residual": "0"
+    },
+    "primary_Ric_0": {
+      "residual": "0"
+    },
+    "primary_Ric_1": {
+      "residual": "0"
+    },
+    "primary_Ric_2": {
+      "residual": "0"
+    },
+    "primary_Ric_3": {
+      "residual": "0"
+    },
+    "primary_scalar": {
+      "residual": "0"
+    },
+    "fixed_volume_directions_1": {
+      "residual": "0"
+    },
+    "fixed_volume_directions_2": {
+      "residual": "0"
+    },
+    "static_tracefree_pairing_rank": {
+      "residual": "0"
+    },
+    "pairing_kernel_dimension": {
+      "residual": "0"
+    },
+    "kernel_equal_entries": {
+      "residual": "0"
+    },
+    "generic_founded_tangent_pairing": {
+      "residual": "0"
+    },
+    "G301_founded_tangent_annihilates_all_coefficients": {
+      "residual": "0"
+    },
+    "complementary_probe": {
+      "residual": "0"
+    },
+    "complementary_Euler_equation": {
+      "residual": "0"
+    },
+    "known_Einstein_family_complement": {
+      "residual": "0"
+    },
+    "known_Einstein_family_scalar": {
+      "residual": "0"
+    },
+    "Hilbert_boundary_identity": {
+      "residual": "0"
+    },
+    "full_N_variation": {
+      "residual": "0"
+    },
+    "full_f_variation": {
+      "residual": "0"
+    },
+    "bulk_N_variation": {
+      "residual": "0"
+    },
+    "bulk_f_variation": {
+      "residual": "0"
+    },
+    "primary_density_total_derivative": {
+      "residual": "0"
+    },
+    "primary_Hilbert_EL_zero": {
+      "residual": "0"
+    },
+    "retained_N_variation_is_full_tt_equation": {
+      "residual": "0"
+    },
+    "fixed_Lambda_solution": {
+      "residual": "0"
+    },
+    "positive_profile_R": {
+      "residual": "0"
+    },
+    "missing_angular_equation_detected": {
+      "nonzero_control": "5*epsilon*r**2"
+    },
+    "missing_N_equation_detected": {
+      "nonzero_control": "-10*epsilon*r**4"
+    },
+    "wrong_profile_still_passes_primary_Hilbert_variation": {
+      "residual": "0"
+    },
+    "catch_wrong_sum_in_tangent_projection": {
+      "nonzero_control": "-20*epsilon*r**2"
+    },
+    "catch_discarded_angular_second_derivative": {
+      "nonzero_control": "6*epsilon*r**2"
+    },
+    "R2_full_response_t_minus_r": {
+      "residual": "0"
+    },
+    "R2_restricted_variation": {
+      "residual": "0"
+    },
+    "R2_projected_full_equals_restricted_variation": {
+      "residual": "0"
+    },
+    "R2_control_survives_projection": {
+      "nonzero_control": "120*alpha*epsilon*r**2"
+    },
+    "R2_fourth_radial_derivative_coefficient": {
+      "residual": "0"
+    }
+  },
+  "python": "3.10.12",
+  "sympy": "1.13.1",
+  "elapsed_seconds": 2.390887929999735,
+  "derived_scalar": "-Derivative(f(r), (r, 2)) - 2*f(r)*Derivative(N(r), (r, 2))/N(r) - 3*Derivative(N(r), r)*Derivative(f(r), r)/N(r) - 4*Derivative(f(r), r)/r - 4*f(r)*Derivative(N(r), r)/(r*N(r)) - 2*f(r)/r**2 + 2/r**2",
+  "founded_tangent_projection": "P-Q",
+  "complementary_projection": "2 a (V-U)",
+  "Hilbert_primary_EL": "0",
+  "limits": "Exact static spherical projection/variation diagnostic; not native action, full dynamics, universal postulate insufficiency, or an adopted extension."
+}

@@ -1,0 +1,11 @@
+{
+  "utc_start": "2026-09-28T00:28:42.978798+00:00",
+  "command": [
+    "python3",
+    "udt_metric_derivation_response_bridge_2026-09-28/review/source_first_checks.py"
+  ],
+  "timeout_s": 120,
+  "exit_code": 0,
+  "elapsed_s": 1.2988629389983544,
+  "script_sha256": "f19eaaada06929b6a2434585463cd12b26d4bd565fb0611d9aa9d9e90a985f27"
+}

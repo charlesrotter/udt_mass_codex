@@ -1,0 +1,21 @@
+{
+  "baseline_head": "3b11eb2f2bf1d96182a9b9095d672349c308d6c9",
+  "context": "/root",
+  "runtime": "Codex/GPT-6-based; precise underlying model identifier not exposed",
+  "command": "timeout 120s python3 udt_metric_derivation_response_bridge_2026-09-28/check_bridge.py > udt_metric_derivation_response_bridge_2026-09-28/construction.stdout.json 2> udt_metric_derivation_response_bridge_2026-09-28/construction.stderr.txt",
+  "exit_code": 0,
+  "checks": 50,
+  "elapsed_seconds": 2.390887929999735,
+  "stdout": "construction.stdout.json",
+  "stderr": "construction.stderr.txt",
+  "stderr_bytes": 0,
+  "python": "3.10.12",
+  "sympy": "1.13.1",
+  "device": "CPU",
+  "grid": null,
+  "floating_point_tolerance": null,
+  "gpu_processes": 0,
+  "premise_verifier": "PREMISE_VERIFIER_EXECUTION.json owns actual result when finished",
+  "history": "Preliminary parent algebra before implementation; script/run completed before reviewer SOURCE_FIRST opened; text freeze afterward disclosed reviewer refinements. No failed parent scientific run.",
+  "omissions": "No native full response or action derivation, canonical phase-space census, time-dependent extension, physical DOF count, nonlinear solve, stability or critical-branch rerun."
+}
