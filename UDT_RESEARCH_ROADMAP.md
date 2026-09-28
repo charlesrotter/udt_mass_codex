@@ -16,6 +16,13 @@ original result packages remain unchanged. No physical adoption or canon is incl
 
 ## Data-guided discovery with native derivation — 2026-09-28
 
+Concrete next exploration proposed after Charles asked whether the direction was
+sufficient: `udt_observation_guided_function_search_2026-09-28/WORK_ORDER.md`.
+Six-hour first campaign: empirical reconstruction and native construction,
+followed by fresh adversarial review and bounded repair/re-review. PROPOSED,
+not launched; its question, resource limits, exclusions and return govern the
+proposal. No new function or scientific result is claimed by preparing it.
+
 Charles's direction, preserved verbatim:
 
 > Supernova and other cosmological data thought to be hubble effects should give you shapes and dimensions of curves to fit red shift to distance which may guide reverse engineering formulas to match.  Results must be natively derivable or a direct consequence of the metric or  kenel.

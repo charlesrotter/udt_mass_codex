@@ -181,6 +181,12 @@ Backup/unsaved state UNVERIFIED; ScratchDisk archive-only.
 
 ## Current next gate
 
+Proposed next exploration:
+`udt_observation_guided_function_search_2026-09-28/WORK_ORDER.md`.
+It combines observation-guided reconstruction with native metric/kernel
+construction and fresh review, within a six-hour first-campaign budget.
+PROPOSED, not launched; no candidate function or new scientific result yet.
+
 The July optical-time lead is reviewed conditional UNPROMOTED and complete:
 `udt_july_optical_time_dilation_lead_2026-09-28/DECISION_BRIEF.md`.
 Constant optical advance per depth restricts the supplied stationary profile;
