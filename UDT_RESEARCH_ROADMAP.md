@@ -14,6 +14,31 @@ Current acceptance overlay: earlier UNPROMOTED/campaign-only language below reco
 returns. The G383--G412, G413--G415 and G416--G423 banking packets and maintained checkpoint own later dispositions;
 original result packages remain unchanged. No physical adoption or canon is included.
 
+## Proposed common-geometry whiteboard — 2026-09-28
+
+Charles asks whether the current direction supports a search with specialist
+mathematical/physics perspectives. Concrete four-hour scope, **PROPOSED, not launched**:
+`udt_common_geometry_whiteboard_2026-09-28/WORK_ORDER.md`.
+It includes three independent AI specialist starts, shared critique, a bounded
+synthesis, fresh adversarial review and repair/re-review. The target is a native
+compatibility relation linking clock evolution, causal structure, beam geometry
+and the limiting response. The previous OFS1 return remains complete and unchanged.
+
+Latest owner direction, preserved verbatim:
+
+> The geometry that should emerge from the metric or kernel in terms of a flat curve that goes asymptotic will almost certainly parallel mass approaching infinitiy in SR/GR or the event horizon of a black hole. All are likely manifestations of the same geometry.
+
+> This is probably also the same geometry that produces light cones and causality.
+
+> It's like the math structure is similar to GR with a modification of interlocking structure.  This is very naive take from someone with no math skills at this level.
+
+The positional-dilation/causal-geometry interpretation is already founding
+direction; the common SR/GR/UDT limiting structure is an investigative hypothesis.
+It supplies no new response equation, horizon identification, distance map,
+physical scale or canon change. “Flat curve” refers to the intended weak nearby
+response, not an adopted spatial-flatness premise. No specialist search begins
+automatically from this proposal.
+
 ## Data-guided discovery with native derivation — 2026-09-28
 
 Charles authorized the concrete next exploration with “proceeed”:
