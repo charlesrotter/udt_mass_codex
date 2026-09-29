@@ -1,0 +1,13 @@
+{
+  "stage": "initial candidate after analytic exploration and first exact controls, before direct review",
+  "sha256": {
+    "udt_lorentz_kernel_transport_2026-09-29/WORK_ORDER.md": "77e735b3c787221b15db5e5a14e5d3591ebc6fb5ce4f01ad1ed5820dde20403b",
+    "udt_lorentz_kernel_transport_2026-09-29/INITIAL_CANDIDATE.md": "600c261ec1662d8a8315034ef362f78563e7c8a193a2ca8fecad2d119ea46d52",
+    "udt_lorentz_kernel_transport_2026-09-29/SOURCE_PINS.json": "f804abe09489afe0584fe3dfe77c7e4c43ebca6d5c09671a01eb40c397d046a1",
+    "udt_lorentz_kernel_transport_2026-09-29/checks/CHECK_PLAN.md": "3e34e2c891d1d5f4d8fb64840000a4a7e1107f505af88e825f896f119f0d9ee5",
+    "udt_lorentz_kernel_transport_2026-09-29/checks/check_bridge.py": "95f81920e7c8750a85e915c697a333cf1681c782f9f1d338b7547f2866711b2d",
+    "udt_lorentz_kernel_transport_2026-09-29/checks/bridge_01.json": "cce2118e0a1b176c539defa94fa4b56c10e41c2ea2d01f4037205985ff093a6d",
+    "udt_lorentz_kernel_transport_2026-09-29/checks/bridge_01.stdout": "10504ad647b2957e315e45f3319775d031b73d24d88ae353b84ad4f0e3ba1a95",
+    "udt_lorentz_kernel_transport_2026-09-29/checks/bridge_01.stderr": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  }
+}

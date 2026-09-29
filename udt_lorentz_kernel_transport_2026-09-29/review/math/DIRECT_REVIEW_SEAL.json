@@ -1,0 +1,10 @@
+{
+  "sealed_utc": "2026-09-29T20:47:16.465666+00:00",
+  "verdict": "VERIFIED_WITH_CAVEATS",
+  "required_scientific_repair": false,
+  "files": {
+    "DIRECT_REVIEW.md": "8b35e0265512ddd75ce54766080b0744d285ea375eff6e8974fb9736f2a2caab",
+    "DIRECT_PINS.json": "c8101d83de7ed0e5df6933622d603ba06c459a9be740a3f51bc1fe532f5c5d9c",
+    "DIRECT_COMPUTATION_SEAL.json": "4f1988991e1e434fa4c6f53dcd704098593d05057a0ba136755a743e3661f101"
+  }
+}

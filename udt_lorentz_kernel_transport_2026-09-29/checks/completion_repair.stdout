@@ -1,0 +1,19 @@
+{
+  "status": "PASS",
+  "development": {
+    "status": "PASS",
+    "registry_rows": 406,
+    "later_returns": 27,
+    "central_arguments": 18,
+    "source_pins": 70,
+    "scope": "Version, routing and bounded regression checks; not semantic completeness, canon or full-corpus reproof."
+  },
+  "reviewed_files": 39,
+  "original_candidate_files": 8,
+  "source_versions": 19,
+  "prior_untracked_names": 52,
+  "protected_payloads_read": false,
+  "links_checked": 74,
+  "workspace_files": 95,
+  "workspace_bytes": 213529
+}

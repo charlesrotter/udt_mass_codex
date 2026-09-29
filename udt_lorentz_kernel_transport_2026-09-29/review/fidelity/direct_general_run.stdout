@@ -1,0 +1,31 @@
+{
+  "status": "PASS",
+  "count": 22,
+  "checks": {
+    "frame_metric": true,
+    "determinant_complete_shift": true,
+    "full_frame_connection_0": true,
+    "full_frame_connection_1": true,
+    "full_coordinate_Ricci_scalar": true,
+    "Ricci_symmetry": true,
+    "two_dimensional_Ricci_trace": true,
+    "null_norm_-1": true,
+    "clock_frequency_-1": true,
+    "full_coordinate_null_frequency_-1": true,
+    "null_norm_1": true,
+    "clock_frequency_1": true,
+    "full_coordinate_null_frequency_1": true,
+    "active_shift_independent_reconstruction": true,
+    "active_shift_curvature_nonzero": true,
+    "Milne_flat": true,
+    "Milne_null_incidence": true,
+    "Milne_clock_ratio": true,
+    "reciprocal_curvature": true,
+    "candidate_dual_form_basis": true,
+    "candidate_physical_form_basis": true,
+    "candidate_boost_conjugacy": true
+  },
+  "active_shift_R_at_origin": "2",
+  "python": "3.10.12",
+  "sympy": "1.13.1"
+}

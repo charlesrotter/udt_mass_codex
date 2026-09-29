@@ -78,6 +78,18 @@ class Maintenance(unittest.TestCase):
     def test_additional_owner_meaning_routes_to_core_and_restriction(self):
         p='udt_shared_geometry_extension_2026-09-29/OWNER_CLARIFICATION.md'
         self.assertTrue({'R6','R8','R8S','R10','R17','R18'}<=set(v.affected_nodes(self.graph,[p])))
+    def test_lkt_bridge_requires_actual_two_dimensional_geometry(self):
+        self.rejects(self.graph_change(lambda g:g['edges'].remove({'from':'C_LKT2D','to':'R7L','kind':'hypothesis'})),'missing required hypothesis')
+    def test_lkt_stationarity_requires_both_additional_hypotheses(self):
+        for condition in ('C_LKT_RECIPROCAL','C_LKT_SAME_PHI'):
+            with self.subTest(condition=condition):
+                self.rejects(self.graph_change(lambda g:g['edges'].remove({'from':condition,'to':'R7E','kind':'hypothesis'})),'missing required hypothesis')
+    def test_lkt_scalar_obstruction_requires_full_group_question(self):
+        self.rejects(self.graph_change(lambda g:g['edges'].remove({'from':'C_LKT_CHARACTER','to':'R7C','kind':'hypothesis'})),'missing required hypothesis')
+    def test_lkt_source_flags_positive_and_negative_descendants(self):
+        p='udt_lorentz_kernel_transport_2026-09-29/INITIAL_CANDIDATE.md'
+        self.assertTrue({'R7','R7C','R7L','R7E','R8S','R18'}<=set(v.affected_nodes(self.graph,[p])))
+        self.rejects({p:(ROOT/p).read_text()+'\nTEST'},'REVIEW_REQUIRED.*affected=')
     def test_open_join_as_premise(self):
         self.rejects(self.graph_change(lambda g:g['edges'].append({'from':'O_ASSIGNMENT','to':'R1','kind':'proof'})),'open join promoted')
     def test_cycle(self):

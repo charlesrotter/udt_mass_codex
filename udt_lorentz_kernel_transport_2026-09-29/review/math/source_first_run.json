@@ -1,0 +1,18 @@
+{
+  "command": [
+    "env",
+    "OMP_NUM_THREADS=1",
+    "OPENBLAS_NUM_THREADS=1",
+    "MKL_NUM_THREADS=1",
+    "python3",
+    "udt_lorentz_kernel_transport_2026-09-29/review/math/source_first_checks.py"
+  ],
+  "cwd": "/home/udt-admin/udt_mass_codex",
+  "started_utc": "2026-09-29T20:39:03.880820+00:00",
+  "duration_seconds": 0.017563241010066122,
+  "returncode": 0,
+  "timeout": false,
+  "address_space_bytes": 536870912,
+  "cpu_seconds": 60,
+  "maxrss_kib": 11136
+}

@@ -1,0 +1,24 @@
+{
+  "sealed_utc": "2026-09-29T20:46:52.430457+00:00",
+  "verdict": "VERIFIED_WITH_CAVEATS_NO_SUBSTANTIVE_REPAIR_REQUESTED",
+  "reviewer": "/root/lkt_fidelity",
+  "exposure": "Source-first before candidate; direct_general_controls independently written/run before author code exposure; no other reviewer read; shared SymPy algorithm family acknowledged.",
+  "sha256": {
+    "udt_lorentz_kernel_transport_2026-09-29/INITIAL_CANDIDATE.md": "600c261ec1662d8a8315034ef362f78563e7c8a193a2ca8fecad2d119ea46d52",
+    "udt_lorentz_kernel_transport_2026-09-29/CANDIDATE_FREEZE.json": "5de5935530e3eedc63b70168b9e6cda9e4dbd251958fa09cc57f67833883a71c",
+    "udt_g220_covariant_null_clock_arrow_timelive_lift_2026-08-22/EXACT_DERIVATION.md": "0e5b33a0c013def973bdca369944d99a84fe278614cae1794e7cb50b56db0f6f",
+    "udt_g180_completed_pair_smooth_family_descent_2026-08-19/EXACT_DERIVATION.md": "3e81642bacf30a9e94df3db4c041f6b6ae94af91b87d9f51c044116ed2afa7b6",
+    "udt_founding_phi_ownership_morphism_audit_2026-08-05/EXACT_DERIVATION.md": "0d83baaaa9f0586cb3f3b0cd7af16b201996a124dba6a050c71624a2e638a4fd",
+    "udt_finite_separation_law_2026-09-28/REVIEWED_RESULT.md": "1a1770b84ba184e2411cf4dac30e694bffec46a762bba618c2edf0d1df8b8740",
+    "udt_shared_geometry_extension_2026-09-29/REVIEWED_RESULT.md": "318760918a414727a889c924186512cb1b9e46524c029cced9214b6b26c82e48",
+    "udt_lorentz_kernel_transport_2026-09-29/checks/check_bridge.py": "95f81920e7c8750a85e915c697a333cf1681c782f9f1d338b7547f2866711b2d",
+    "udt_lorentz_kernel_transport_2026-09-29/checks/bridge_01.stdout": "10504ad647b2957e315e45f3319775d031b73d24d88ae353b84ad4f0e3ba1a95",
+    "udt_lorentz_kernel_transport_2026-09-29/checks/bridge_01.json": "cce2118e0a1b176c539defa94fa4b56c10e41c2ea2d01f4037205985ff093a6d",
+    "udt_lorentz_kernel_transport_2026-09-29/review/fidelity/DIRECT_REVIEW.md": "7396c0b926e7fb4c436b0924c5135a35d0b0a693039e6e816128c162ebc18c4a",
+    "udt_lorentz_kernel_transport_2026-09-29/review/fidelity/DIRECT_CHECK_PLAN.md": "998042487cbfb499275314efa2d6d9b5978a45583275b9db2d60b806e31090a8",
+    "udt_lorentz_kernel_transport_2026-09-29/review/fidelity/direct_general_controls.py": "cd58574529c61861d76aeff891bab827517fcbde749193928ff03ae78a984381",
+    "udt_lorentz_kernel_transport_2026-09-29/review/fidelity/direct_general_run.json": "cf7e46600d19a1d68cb7f4c708b3f082f0d1c5005688ef7ebc7a841f1f5a3178",
+    "udt_lorentz_kernel_transport_2026-09-29/review/fidelity/direct_general_run.stdout": "4dc98453f94633e67603c9dcc77533035e19deb153ed432aac67ba90305a8662",
+    "udt_lorentz_kernel_transport_2026-09-29/review/fidelity/direct_general_run.stderr": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  }
+}

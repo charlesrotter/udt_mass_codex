@@ -157,7 +157,11 @@
       "sources": [
         "udt_finite_separation_law_2026-09-28/INITIAL_CANDIDATE.md",
         "udt_finite_separation_law_2026-09-28/REVIEWED_RESULT.md",
-        "udt_finite_separation_reciprocity_2026-09-14/CANDIDATE.md"
+        "udt_finite_separation_reciprocity_2026-09-14/CANDIDATE.md",
+        "udt_lorentz_kernel_transport_2026-09-29/INITIAL_CANDIDATE.md",
+        "udt_lorentz_kernel_transport_2026-09-29/REVIEWED_RESULT.md",
+        "udt_founding_phi_ownership_morphism_audit_2026-08-05/EXACT_DERIVATION.md",
+        "udt_g274_projective_pair_position_network_descent_2026-08-26/EXACT_DERIVATION.md"
       ],
       "required_conditions": [
         "P_NULL"
@@ -406,7 +410,9 @@
         "udt_scientific_arc_recovery_checkpoint_2026-08-04/MASS_BRANCH_AUTHORITY_MAP.tsv",
         "udt_shared_geometry_extension_2026-09-29/INITIAL_DERIVATION.md",
         "udt_shared_geometry_extension_2026-09-29/REPAIR.md",
-        "udt_shared_geometry_extension_2026-09-29/REVIEWED_RESULT.md"
+        "udt_shared_geometry_extension_2026-09-29/REVIEWED_RESULT.md",
+        "udt_lorentz_kernel_transport_2026-09-29/INITIAL_CANDIDATE.md",
+        "udt_lorentz_kernel_transport_2026-09-29/REVIEWED_RESULT.md"
       ],
       "required_conditions": []
     },
@@ -490,6 +496,97 @@
       "required_conditions": [
         "C_STATIONARY_CLOCKS",
         "M_GEOMETRY",
+        "P_NULL"
+      ]
+    },
+    {
+      "id": "C_LKT_CHARACTER",
+      "kind": "method_hypotheses",
+      "statement": "Additional mathematical question: smooth real additive homomorphism on the ENTIRE SO+(1,3), with no null direction; not the physical clock cocycle.",
+      "sources": [
+        "udt_lorentz_kernel_transport_2026-09-29/INITIAL_CANDIDATE.md"
+      ]
+    },
+    {
+      "id": "C_LKT2D",
+      "kind": "method_hypotheses",
+      "statement": "Supplied actual smooth Lorentz2 metric or totally geodesic Lorentz2 surface carrying clocks/rays; T,L>0, x-fixed proper clocks and compatible orientation. Pointwise pullback alone is insufficient.",
+      "sources": [
+        "udt_lorentz_kernel_transport_2026-09-29/INITIAL_CANDIDATE.md"
+      ]
+    },
+    {
+      "id": "C_LKT_RECIPROCAL",
+      "kind": "method_hypotheses",
+      "statement": "Additional actual zero-shift reciprocal coordinate presentation T=e^-phi(t,x), L=e^phi(t,x); no physical chart/observer selection.",
+      "sources": [
+        "udt_lorentz_kernel_transport_2026-09-29/INITIAL_CANDIDATE.md"
+      ]
+    },
+    {
+      "id": "C_LKT_SAME_PHI",
+      "kind": "method_hypotheses",
+      "statement": "Extra tested identification: actual clock depth equals the SAME presentation-potential difference on EVERY sufficiently short null segment throughout a patch. Not a UDT postulate.",
+      "sources": [
+        "udt_lorentz_kernel_transport_2026-09-29/INITIAL_CANDIDATE.md"
+      ]
+    },
+    {
+      "id": "R7C",
+      "kind": "argument",
+      "anchor": "r7c",
+      "title": "R7 subsidiary: no nonzero smooth real character on full Lorentz group",
+      "registry_ids": [
+        "G274"
+      ],
+      "sources": [
+        "udt_lorentz_kernel_transport_2026-09-29/INITIAL_CANDIDATE.md",
+        "udt_lorentz_kernel_transport_2026-09-29/REVIEWED_RESULT.md",
+        "udt_g274_projective_pair_position_network_descent_2026-08-26/EXACT_DERIVATION.md"
+      ],
+      "required_conditions": [
+        "C_LKT_CHARACTER"
+      ]
+    },
+    {
+      "id": "R7L",
+      "kind": "argument",
+      "anchor": "r7l",
+      "title": "R7 subsidiary: full Lorentz2 metric derivatives to clock transport",
+      "registry_ids": [
+        "G176",
+        "G180",
+        "G220"
+      ],
+      "sources": [
+        "udt_lorentz_kernel_transport_2026-09-29/INITIAL_CANDIDATE.md",
+        "udt_lorentz_kernel_transport_2026-09-29/REVIEWED_RESULT.md",
+        "udt_g220_covariant_null_clock_arrow_timelive_lift_2026-08-22/EXACT_DERIVATION.md"
+      ],
+      "required_conditions": [
+        "C_LKT2D",
+        "M_GEOMETRY",
+        "P_NULL",
+        "P_PAIR"
+      ]
+    },
+    {
+      "id": "R7E",
+      "kind": "argument",
+      "anchor": "r7e",
+      "title": "R7 subsidiary: SAME-presentation endpoint-depth test",
+      "registry_ids": [
+        "G220"
+      ],
+      "sources": [
+        "udt_lorentz_kernel_transport_2026-09-29/INITIAL_CANDIDATE.md",
+        "udt_lorentz_kernel_transport_2026-09-29/REVIEWED_RESULT.md",
+        "udt_g220_covariant_null_clock_arrow_timelive_lift_2026-08-22/EXACT_DERIVATION.md"
+      ],
+      "required_conditions": [
+        "C_LKT2D",
+        "C_LKT_RECIPROCAL",
+        "C_LKT_SAME_PHI",
         "P_NULL"
       ]
     }
@@ -894,6 +991,111 @@
       "from": "R7",
       "to": "R8",
       "kind": "context"
+    },
+    {
+      "from": "C_LKT_CHARACTER",
+      "to": "R7C",
+      "kind": "hypothesis"
+    },
+    {
+      "from": "C_LKT2D",
+      "to": "R7L",
+      "kind": "hypothesis"
+    },
+    {
+      "from": "M_GEOMETRY",
+      "to": "R7L",
+      "kind": "hypothesis"
+    },
+    {
+      "from": "P_NULL",
+      "to": "R7L",
+      "kind": "hypothesis"
+    },
+    {
+      "from": "P_PAIR",
+      "to": "R7L",
+      "kind": "hypothesis"
+    },
+    {
+      "from": "C_LKT2D",
+      "to": "R7E",
+      "kind": "hypothesis"
+    },
+    {
+      "from": "C_LKT_RECIPROCAL",
+      "to": "R7E",
+      "kind": "hypothesis"
+    },
+    {
+      "from": "C_LKT_SAME_PHI",
+      "to": "R7E",
+      "kind": "hypothesis"
+    },
+    {
+      "from": "P_NULL",
+      "to": "R7E",
+      "kind": "hypothesis"
+    },
+    {
+      "from": "R1",
+      "to": "R7",
+      "kind": "context"
+    },
+    {
+      "from": "R2",
+      "to": "R7",
+      "kind": "context"
+    },
+    {
+      "from": "R7",
+      "to": "R7C",
+      "kind": "context"
+    },
+    {
+      "from": "R4",
+      "to": "R7L",
+      "kind": "proof"
+    },
+    {
+      "from": "R6",
+      "to": "R7L",
+      "kind": "proof"
+    },
+    {
+      "from": "R7",
+      "to": "R7L",
+      "kind": "context"
+    },
+    {
+      "from": "R7L",
+      "to": "R7E",
+      "kind": "proof"
+    },
+    {
+      "from": "R7L",
+      "to": "R8",
+      "kind": "context"
+    },
+    {
+      "from": "R7E",
+      "to": "R8S",
+      "kind": "context"
+    },
+    {
+      "from": "R7C",
+      "to": "R18",
+      "kind": "interpretation"
+    },
+    {
+      "from": "R7L",
+      "to": "R18",
+      "kind": "interpretation"
+    },
+    {
+      "from": "R7E",
+      "to": "R18",
+      "kind": "interpretation"
     }
   ],
   "sources_sha256": {
@@ -961,7 +1163,12 @@
     "udt_shared_geometry_extension_2026-09-29/REPAIR.md": "bb1118852acf2943128067568ddf7ca09cfd7cbe591bbdc8fa675a5b28fe1d60",
     "udt_shared_geometry_extension_2026-09-29/REVIEWED_RESULT.md": "318760918a414727a889c924186512cb1b9e46524c029cced9214b6b26c82e48",
     "udt_shared_geometry_extension_2026-09-29/OWNER_CLARIFICATION.md": "94480181e004a535e0dffd122545310c0aaedfb98d3734c5095c75bfe9ed3f50",
-    "udt_directional_clock_curvature_whiteboard_2026-09-10/INITIAL_CANDIDATE.md": "b11326b4f316f675a9c3ecc596d47e33c0e39215c591fddde1013c37c68d2375"
+    "udt_directional_clock_curvature_whiteboard_2026-09-10/INITIAL_CANDIDATE.md": "b11326b4f316f675a9c3ecc596d47e33c0e39215c591fddde1013c37c68d2375",
+    "udt_lorentz_kernel_transport_2026-09-29/INITIAL_CANDIDATE.md": "600c261ec1662d8a8315034ef362f78563e7c8a193a2ca8fecad2d119ea46d52",
+    "udt_lorentz_kernel_transport_2026-09-29/REVIEWED_RESULT.md": "a0472a66148a6e46857161488b09b11131bdd39fbf708256a43cea1bb1f60281",
+    "udt_founding_phi_ownership_morphism_audit_2026-08-05/EXACT_DERIVATION.md": "0d83baaaa9f0586cb3f3b0cd7af16b201996a124dba6a050c71624a2e638a4fd",
+    "udt_g220_covariant_null_clock_arrow_timelive_lift_2026-08-22/EXACT_DERIVATION.md": "0e5b33a0c013def973bdca369944d99a84fe278614cae1794e7cb50b56db0f6f",
+    "udt_g274_projective_pair_position_network_descent_2026-08-26/EXACT_DERIVATION.md": "8cee4fa46ea13c6101bbce8c94072a516d38ce0f863e3658a87bab4d77e7e18f"
   },
   "impact_policy": "Any changed source or registry row flags its mapped positive and negative central arguments and every reachable central descendant for review; no automatic truth reversal or regrading.",
   "review_support": [
@@ -1063,6 +1270,32 @@
         "R18"
       ],
       "scope": "Initial substantive review requiring explicit tube-domain qualification; REPAIR and final version-bound attestations own repaired integration acceptance."
+    },
+    {
+      "path": "udt_lorentz_kernel_transport_2026-09-29/review/math/DIRECT_REVIEW.md",
+      "sha256": "8b35e0265512ddd75ce54766080b0744d285ea375eff6e8974fb9736f2a2caab",
+      "role": "review_evidence",
+      "targets": [
+        "R7",
+        "R7C",
+        "R7L",
+        "R7E",
+        "R18"
+      ],
+      "scope": "LKT1 frozen-candidate direct review; conditional scope, no required scientific repair. Actual final integration acceptance belongs to final attestations, not this support edge."
+    },
+    {
+      "path": "udt_lorentz_kernel_transport_2026-09-29/review/fidelity/DIRECT_REVIEW.md",
+      "sha256": "7396c0b926e7fb4c436b0924c5135a35d0b0a693039e6e816128c162ebc18c4a",
+      "role": "review_evidence",
+      "targets": [
+        "R7",
+        "R7C",
+        "R7L",
+        "R7E",
+        "R18"
+      ],
+      "scope": "LKT1 frozen-candidate direct review; conditional scope, no required scientific repair. Actual final integration acceptance belongs to final attestations, not this support edge."
     }
   ]
 }

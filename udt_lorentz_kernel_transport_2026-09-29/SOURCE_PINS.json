@@ -1,0 +1,81 @@
+{
+  "sources": [
+    {
+      "path": "AGENTS.md",
+      "sha256": "8ae0d968a20f416ec628fcf9ad445d370822889a720168104a8e41aef2b1094c"
+    },
+    {
+      "path": "CLAUDE.md",
+      "sha256": "4ad2e773defb89cc79541fd0ababd75af5a3344ab134ee83722dfd943966e6e4"
+    },
+    {
+      "path": "founding.md",
+      "sha256": "b4b0d9a9fdd093c992647195aca7579566a9e77a396071a699c1938888a49e75"
+    },
+    {
+      "path": "CURRENT_SCIENTIFIC_PREMISES.tsv",
+      "sha256": "7a3d69d5a0bc3ac98e2ebe2bb0c6d029df30071bf403baffed2223a193dc720b"
+    },
+    {
+      "path": "UDT_DEVELOPMENT.md",
+      "sha256": "0068fa15f5589d76ecb1912073c44dd7e9696559d3b146f7227d10200d92aeae"
+    },
+    {
+      "path": "UDT_RECIPROCAL_C_FOUNDING_POSTULATE_DERIVATION_RESULTS.md",
+      "sha256": "b2bdf9dd427871c6e951c6b47748b7663aa4a6264fcfcbff59b51f1ea2272003"
+    },
+    {
+      "path": "udt_founding_phi_ownership_morphism_audit_2026-08-05/EXACT_DERIVATION.md",
+      "sha256": "0d83baaaa9f0586cb3f3b0cd7af16b201996a124dba6a050c71624a2e638a4fd"
+    },
+    {
+      "path": "udt_g176_completed_pair_dual_reciprocity_consolidation_2026-08-19/EXACT_DERIVATION.md",
+      "sha256": "df53a5b3c52d0bd24496d060637dc158a4f2c7cdd17226c9446ea0d338d27831"
+    },
+    {
+      "path": "udt_g180_completed_pair_smooth_family_descent_2026-08-19/EXACT_DERIVATION.md",
+      "sha256": "3e81642bacf30a9e94df3db4c041f6b6ae94af91b87d9f51c044116ed2afa7b6"
+    },
+    {
+      "path": "udt_g220_covariant_null_clock_arrow_timelive_lift_2026-08-22/EXACT_DERIVATION.md",
+      "sha256": "0e5b33a0c013def973bdca369944d99a84fe278614cae1794e7cb50b56db0f6f"
+    },
+    {
+      "path": "udt_g269_null_transport_mutual_clock_screen_interlock_2026-08-26/EXACT_DERIVATION.md",
+      "sha256": "812023393d4e04b8f2b47cc5429002dc78912b85983117e5633faed30a2f876e"
+    },
+    {
+      "path": "udt_g272_complete_relation_rapidity_distance_ownership_2026-08-26/EXACT_DERIVATION.md",
+      "sha256": "e0285d5cb0fce4caf2b46cb5a5e795696d1b3fa76c34dfc7cbce5aa70255d566"
+    },
+    {
+      "path": "udt_g274_projective_pair_position_network_descent_2026-08-26/EXACT_DERIVATION.md",
+      "sha256": "8cee4fa46ea13c6101bbce8c94072a516d38ce0f863e3658a87bab4d77e7e18f"
+    },
+    {
+      "path": "udt_finite_separation_law_2026-09-28/INITIAL_CANDIDATE.md",
+      "sha256": "7dd39a4840390f15fcedc2ae0e588f51e441b4348eaf0f0f8d9b81968b60d8e4"
+    },
+    {
+      "path": "udt_finite_separation_law_2026-09-28/REPAIR.md",
+      "sha256": "be0927544e72bebd38a364cac33e0979aa8b4c4a1bdcdeba5dedf3e16e41e368"
+    },
+    {
+      "path": "udt_finite_separation_law_2026-09-28/REVIEWED_RESULT.md",
+      "sha256": "1a1770b84ba184e2411cf4dac30e694bffec46a762bba618c2edf0d1df8b8740"
+    },
+    {
+      "path": "udt_shared_geometry_extension_2026-09-29/INITIAL_DERIVATION.md",
+      "sha256": "7fe9dd385437f927504d90ebe27e70b8751e889efe9140c240a3ee1913aa0484"
+    },
+    {
+      "path": "udt_shared_geometry_extension_2026-09-29/REPAIR.md",
+      "sha256": "bb1118852acf2943128067568ddf7ca09cfd7cbe591bbdc8fa675a5b28fe1d60"
+    },
+    {
+      "path": "udt_shared_geometry_extension_2026-09-29/REVIEWED_RESULT.md",
+      "sha256": "318760918a414727a889c924186512cb1b9e46524c029cced9214b6b26c82e48"
+    }
+  ],
+  "scope": "Source correspondence. Central R1-R8 reconstructed scopes plus exact load-bearing source sections; no full-corpus replay. Method authorities are not scientific premises. Current development bytes are launch edition, expected to change only after reviewed integration."
+}

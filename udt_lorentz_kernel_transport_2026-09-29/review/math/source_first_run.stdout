@@ -1,0 +1,35 @@
+{
+  "python": "3.10.12",
+  "arithmetic": "Fraction exact",
+  "checks": {
+    "dual_pair_preserved": true,
+    "physical_readout_not_preserved": true,
+    "basis_changes_form": true,
+    "conjugate_is_physical_boost": true,
+    "conjugate_sign": true,
+    "metric_x": true,
+    "metric_y": true,
+    "metric_product": true,
+    "direction_carried_product": true,
+    "wrong_uncarried_product_rejected": true,
+    "noncollinear_not_symmetric": true,
+    "intermediate_clock_frame_cancels": true,
+    "intermediate_factors_cancel": true,
+    "inverse_same_comparison": true,
+    "screen_clock_unit": true,
+    "screen_keeps_ratio": true,
+    "screen_strict_gap": true,
+    "screen_exact_mutual": true,
+    "two_way_can_redshift_both": true,
+    "two_way_not_inverse": true
+  },
+  "count": 20,
+  "values": {
+    "f1": "5/4",
+    "f2_carried": "41/15",
+    "f_total": "41/12",
+    "f_wrong_uncarried": "15/4",
+    "screen_mutual": "4/9",
+    "radar_beta": "5/7"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "candidate_freeze_correspondence": {
+    "udt_lorentz_kernel_transport_2026-09-29/WORK_ORDER.md": true,
+    "udt_lorentz_kernel_transport_2026-09-29/INITIAL_CANDIDATE.md": true,
+    "udt_lorentz_kernel_transport_2026-09-29/SOURCE_PINS.json": true,
+    "udt_lorentz_kernel_transport_2026-09-29/checks/CHECK_PLAN.md": true,
+    "udt_lorentz_kernel_transport_2026-09-29/checks/check_bridge.py": true,
+    "udt_lorentz_kernel_transport_2026-09-29/checks/bridge_01.json": true,
+    "udt_lorentz_kernel_transport_2026-09-29/checks/bridge_01.stdout": true,
+    "udt_lorentz_kernel_transport_2026-09-29/checks/bridge_01.stderr": true
+  },
+  "direct_exposure_files": {
+    "udt_lorentz_kernel_transport_2026-09-29/INITIAL_CANDIDATE.md": "600c261ec1662d8a8315034ef362f78563e7c8a193a2ca8fecad2d119ea46d52",
+    "udt_lorentz_kernel_transport_2026-09-29/CANDIDATE_FREEZE.json": "5de5935530e3eedc63b70168b9e6cda9e4dbd251958fa09cc57f67833883a71c",
+    "udt_lorentz_kernel_transport_2026-09-29/checks/check_bridge.py": "95f81920e7c8750a85e915c697a333cf1681c782f9f1d338b7547f2866711b2d",
+    "udt_lorentz_kernel_transport_2026-09-29/checks/CHECK_PLAN.md": "3e34e2c891d1d5f4d8fb64840000a4a7e1107f505af88e825f896f119f0d9ee5"
+  },
+  "source_first_seal": "a9021e6b2ca1ba4ad31e6f6409148e386ccd71c7b43896c5793aaad513b32cb8",
+  "direct_computation_seal": "4f1988991e1e434fa4c6f53dcd704098593d05057a0ba136755a743e3661f101"
+}

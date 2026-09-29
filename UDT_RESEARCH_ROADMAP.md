@@ -1,6 +1,6 @@
 # UDT research roadmap — current direction
 
-Updated 2026-09-29: SGE1 shared-geometry return after CDR1 reconstruction. This is a direction document, not scientific
+Updated 2026-09-29: LKT1 Lorentz-kernel return after SGE1/CDR1. This is a direction document, not scientific
 premise authority or research authorization. LIVE controls operational status;
 the exact registry and original reviewed sources control grades and scope.
 AGENTS controls method. Charles canonizes; CANON is unchanged.
@@ -12,12 +12,12 @@ This roadmap does not duplicate their detailed derivations or premise inventory.
 
 ## Current return and next discussion
 
-Charles completed the nine-stage CDR1 reconstruction, then clarified that UDT's
-founding interpretation is additional to SR/GR phenomena in the shared geometry.
-His subsequent “Proceed” authorized [SGE1's bounded deduction and review](udt_shared_geometry_extension_2026-09-29/WORK_ORDER.md).
-The maintained scientific return is integrated in [central R8](UDT_DEVELOPMENT.md#r8)
-and its R18 open connection. Current execution evidence is [SGE1 WORK_RECORD](udt_shared_geometry_extension_2026-09-29/WORK_RECORD.md).
-CDR1 and earlier work orders remain completed history. LIVE owns the operational
+After CDR1 and SGE1, Charles suggested that the missing relationship might be
+Lorentzian and authorized [LKT1's bounded investigation and review](udt_lorentz_kernel_transport_2026-09-29/WORK_ORDER.md).
+His additional-positional-effect interpretation remains explicit in the central
+orientation. The maintained return is integrated in [central R7](UDT_DEVELOPMENT.md#r7)
+and R18; current execution evidence is [LKT1 WORK_RECORD](udt_lorentz_kernel_transport_2026-09-29/WORK_RECORD.md).
+CDR1, SGE1 and earlier work orders remain completed history. LIVE owns the operational
 return point; this roadmap does not duplicate the derivation or confer adoption.
 Original grades and CANON remain fixed.
 
@@ -251,7 +251,7 @@ Full branch limits and protected local-work instructions remain in LIVE/AGENTS.
 
 The [central retained-results account](UDT_DEVELOPMENT.md#r18) explains gains
 and open connections. The [later-return ledger](development_reconstruction_2026-09-29/RECENT_DISPOSITIONS.tsv)
-maps26 reviewed returns, including OFS1 through MGC1 and SGE1, to exact sources and scopes.
+maps27 reviewed returns, including OFS1 through MGC1, SGE1 and LKT1, to exact sources and scopes.
 Review those limits before proposing a successor. Earlier admitted mathematics
 remains available through its original banking records.
 

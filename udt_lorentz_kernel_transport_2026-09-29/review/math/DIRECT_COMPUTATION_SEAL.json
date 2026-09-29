@@ -1,0 +1,11 @@
+{
+  "sealed_utc": "2026-09-29T20:45:09.736710+00:00",
+  "exposure": "Candidate and source-first sources read; no author implementation/output read. During execution parent disclosed one vacuous author assertion and SAME-phi scope caution.",
+  "files": {
+    "DIRECT_CHECK_PLAN.md": "354c2700272c8dc6a150742120a639d713ad8a454debe09cd3b4bd18bd465889",
+    "direct_coordinate_checks.py": "4f44722b081f0c2cac3ede57dd26fa2a179416e4bf43d7c43cb71e653e2b9d3b",
+    "direct_coordinate_run.stdout": "a837c449a7575ee71c9782e5bc26ad4f7dff19ba235104d955944dc3081dd41b",
+    "direct_coordinate_run.stderr": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "direct_coordinate_run.json": "5e9a024f165679b736c403525107fe57f5c5a21297c803bcc0bf9e3736804ea9"
+  }
+}

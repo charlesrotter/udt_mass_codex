@@ -1,0 +1,17 @@
+{
+  "sealed_utc": "2026-09-29T20:40:59.570988+00:00",
+  "head": "cffe75fa4bb027d7975f46f27a80d7f7d5731997",
+  "stage": "SOURCE_FIRST_BEFORE_LKT1_CANDIDATE_EXPOSURE",
+  "reviewer": "/root/lkt_math",
+  "same_inherited_model": true,
+  "exact_model": "unavailable",
+  "different_model": "UNTESTED",
+  "files": {
+    "SOURCE_FIRST.md": "34909f385f378059be52e668dc3123243065c81db37e3d38e0862a3c04d6973f",
+    "SOURCE_PINS.json": "9ae09ca5e4f6b7031191caeaf589847e562719d88b4a5e03dda462af41b50b75",
+    "source_first_checks.py": "5dbfaf56f65de4466f0e0729cb4c88fac0a24cf1e205bb3b17794b254351d47e",
+    "source_first_run.stdout": "f5b86cc89456dbb4a4efc33d657a4f5db867838b9bc988733a263892da806a92",
+    "source_first_run.stderr": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "source_first_run.json": "54b09d50211be043221fe91f588b4ebc571209c0e45649c53730df1bf3ef8ff6"
+  }
+}

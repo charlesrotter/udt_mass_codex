@@ -1,0 +1,96 @@
+{
+  "sealed_utc": "2026-09-29T20:39:02.287175+00:00",
+  "reviewer_context": "/root/lkt_fidelity; fresh separate context; same inherited model; exact runtime identifier unavailable",
+  "base_head": "cffe75fa4bb027d7975f46f27a80d7f7d5731997",
+  "exposure": "Task dispatch, source and method files listed. No LKT1 parent candidate or check code, no other LKT1 reviewer assessment read. Historical source audit verdicts seen as source provenance. Registry only G176/G220/G269/G272/G274 rows queried. UDT_DEVELOPMENT only definitions and R1-R8 including SGE1 read; whole-file hash is correspondence only. Founding derivation historical action/wall passages were visible in full-file read but excluded from premises. No protected payload read. Parent startup attributed to WORK_ORDER and LAUNCH; independently verified local HEAD/branch/status and baseline audit receipt hash/exit zero; no fresh top-level startup or full406 replay by reviewer.",
+  "sources": [
+    {
+      "path": "AGENTS.md",
+      "sha256": "8ae0d968a20f416ec628fcf9ad445d370822889a720168104a8e41aef2b1094c"
+    },
+    {
+      "path": "CLAUDE.md",
+      "sha256": "4ad2e773defb89cc79541fd0ababd75af5a3344ab134ee83722dfd943966e6e4"
+    },
+    {
+      "path": ".claude/skills/no-shortcuts/SKILL.md",
+      "sha256": "fd3a1f3218481134f2af829d3ae4175ac53518f75bf9673287efbfb7d7708fc1"
+    },
+    {
+      "path": ".claude/skills/completeness-map/SKILL.md",
+      "sha256": "a8cf9e5f4a6d35a0d0ebfe4bc48dbf328ca74e318f020a6a22cb683666a611c0"
+    },
+    {
+      "path": ".claude/skills/verifier-before-record/SKILL.md",
+      "sha256": "9b3a4aacd4b4006b2b7f01edada73b7c87b99bea6e754583558713bfc145e5ac"
+    },
+    {
+      "path": "udt_lorentz_kernel_transport_2026-09-29/WORK_ORDER.md",
+      "sha256": "77e735b3c787221b15db5e5a14e5d3591ebc6fb5ce4f01ad1ed5820dde20403b"
+    },
+    {
+      "path": "udt_lorentz_kernel_transport_2026-09-29/LAUNCH.json",
+      "sha256": "ea1c7354d96e514b96e68af09556642e1924ba762556d2d6ff6f779842d6ad0d"
+    },
+    {
+      "path": "UDT_DEVELOPMENT.md",
+      "sha256": "0068fa15f5589d76ecb1912073c44dd7e9696559d3b146f7227d10200d92aeae"
+    },
+    {
+      "path": "founding.md",
+      "sha256": "b4b0d9a9fdd093c992647195aca7579566a9e77a396071a699c1938888a49e75"
+    },
+    {
+      "path": "UDT_RECIPROCAL_C_FOUNDING_POSTULATE_DERIVATION_RESULTS.md",
+      "sha256": "b2bdf9dd427871c6e951c6b47748b7663aa4a6264fcfcbff59b51f1ea2272003"
+    },
+    {
+      "path": "udt_founding_phi_ownership_morphism_audit_2026-08-05/AUDIT_REPORT.md",
+      "sha256": "65905b6b2718fd9c1057143a7148104bb14d7e65eeee3bdc7a7010af8cbe90eb"
+    },
+    {
+      "path": "udt_g176_completed_pair_dual_reciprocity_consolidation_2026-08-19/EXACT_DERIVATION.md",
+      "sha256": "df53a5b3c52d0bd24496d060637dc158a4f2c7cdd17226c9446ea0d338d27831"
+    },
+    {
+      "path": "udt_finite_separation_law_2026-09-28/INITIAL_CANDIDATE.md",
+      "sha256": "7dd39a4840390f15fcedc2ae0e588f51e441b4348eaf0f0f8d9b81968b60d8e4"
+    },
+    {
+      "path": "udt_finite_separation_law_2026-09-28/REPAIR.md",
+      "sha256": "be0927544e72bebd38a364cac33e0979aa8b4c4a1bdcdeba5dedf3e16e41e368"
+    },
+    {
+      "path": "udt_g274_projective_pair_position_network_descent_2026-08-26/AUDIT_REPORT.md",
+      "sha256": "551bb9492118f941e0f30b0905255b2e97f7cf9b5fa23ce1d5a179809d13dabb"
+    },
+    {
+      "path": "udt_g274_projective_pair_position_network_descent_2026-08-26/EXACT_DERIVATION.md",
+      "sha256": "8cee4fa46ea13c6101bbce8c94072a516d38ce0f863e3658a87bab4d77e7e18f"
+    },
+    {
+      "path": "udt_g272_complete_relation_rapidity_distance_ownership_2026-08-26/AUDIT_REPORT.md",
+      "sha256": "6bd47148f8eb32d2308e3371af7178c269b06f9b7689de786ce42e4c147ce02f"
+    },
+    {
+      "path": "udt_g269_null_transport_mutual_clock_screen_interlock_2026-08-26/AUDIT_REPORT.md",
+      "sha256": "673a867b5b3c025a0cb07178edcabc5578a108e395834980ecaa4596febbb9f3"
+    },
+    {
+      "path": "CURRENT_SCIENTIFIC_PREMISES.tsv",
+      "sha256": "7a3d69d5a0bc3ac98e2ebe2bb0c6d029df30071bf403baffed2223a193dc720b"
+    },
+    {
+      "path": "development_reconstruction_2026-09-29/MAINTENANCE.md",
+      "sha256": "6aefb0450bf83d01620f8a94024df075508165ae1c9fd4185483d1db5a025b41"
+    },
+    {
+      "path": "udt_shared_geometry_extension_2026-09-29/checks/premise_after.json",
+      "sha256": "70096da8632a699ccb606d871a61bcc08e7e8ee398b18276692aa3873e7acbd4"
+    },
+    {
+      "path": "udt_shared_readout_metric_constraint_campaign_2026-09-06/run_capture.py",
+      "sha256": "8ff5469ace76bdfc84188915242abbf3baff35516f9ee3f9ba4b1cbfeb2573ef"
+    }
+  ]
+}

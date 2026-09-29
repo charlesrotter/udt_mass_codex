@@ -1,0 +1,7 @@
+{
+  "sealed_utc": "2026-09-29T20:43:01.195102+00:00",
+  "stage": "SOURCE_FIRST_CORRECTION_BEFORE_PARENT_CANDIDATE_OR_OTHER_REVIEW_EXPOSURE",
+  "path": "udt_lorentz_kernel_transport_2026-09-29/review/fidelity/SOURCE_FIRST_CORRECTION.md",
+  "sha256": "1f5c3217d0d37ac377d38d3c3e56168cc3593e250492d10e2d251649940e9c9a",
+  "initial_seal_sha256": "3f0b9537a036ac6a69d256fb7e1fd0bad64d7f0573576838dd94e2a3a3e55e36"
+}

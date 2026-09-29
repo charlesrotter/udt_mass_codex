@@ -1,0 +1,9 @@
+# Source-first independent check plan
+
+Question: what conditional relation follows between reciprocal character, complete Lorentz transport, and actual null-clock depth without making a new physical assignment? Quantifiers are exact algebra on supplied regular arrows, plus an explicitly restricted smooth diagonal Lorentz2 metric, not arbitrary native metric selection.
+
+Sources and exposure are sealed in SOURCE_PINS.json. No parent candidate/check code or other reviewer seen. Checks constructed here use Python Fraction for independently assembled Lorentz matrices and SymPy for an independent Christoffel-to-orthonormal-frame calculation. Fixed rational controls, direction, basis and diagonal presentation are free-and-explored. Lorentz signature and source-owned null/clock interface are pinned-by-THEORY at their conditional grades. No pinned-by-HABIT physical input.
+
+Controls: reciprocal K pairing versus declared eta readout; conjugacy to a boost as abstract representation; null-frequency cocycle, intermediate-frame cancellation, same-arrow inversion, a direction-dropping separator; directional clock-column identity; nontrivial zero-frequency-shift rotation; actual two-way derivative/radar identity; diagonal reciprocal metric Christoffels, frame connection, null-frequency derivative, stationary and time-only sign controls.
+
+Budget: CPU only, one thread, 60s wall/CPU and 512MiB address space via existing capture utility; no install/GPU/grid/data. Output is this directory. Stop on failure/resource cap; preserve failures. Maximum claim: scoped exact identities and controls plus independently reasoned conditional relationships. No full-source regression, empirical validation, global branch/caustic analysis, metric history selection, action/source, or full4D dynamics. Finite controls do not establish universal statements; the accompanying analytic argument does.
