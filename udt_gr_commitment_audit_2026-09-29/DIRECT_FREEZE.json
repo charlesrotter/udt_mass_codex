@@ -1,0 +1,11 @@
+{
+  "state": "candidate and proposed central insertion, before direct review",
+  "sha256": {
+    "udt_gr_commitment_audit_2026-09-29/CANDIDATE_FREEZE.json": "7e211ae17c7018d7cf0a594c068b9998f9df32908133219ac788c773b7a02fc8",
+    "udt_gr_commitment_audit_2026-09-29/INITIAL_CANDIDATE.md": "30c9bef57625a8e65cee24951a55a6db173ac1d91e0f1e88c6e0052fea781a47",
+    "udt_gr_commitment_audit_2026-09-29/CENTRAL_INSERTION.md": "3e3cbcd80c8e426c34462a311a88786eef73c38abb738f7284bdefacd7337870",
+    "udt_gr_commitment_audit_2026-09-29/DECISION_BRIEF.md": "9d8fddc6b639cfbdf0de2ef04d1174910f7f69f24537f933f29b80a028738e1f",
+    "udt_gr_commitment_audit_2026-09-29/REFERENCES.md": "df3d5b6afeef123c473ca3505e4e5e755ff52d23c0f1aead69d5916c479c34e4",
+    "udt_gr_commitment_audit_2026-09-29/SCOPED_REGISTRY.json": "8fd5d9b9ad34f7e4769c7f2392ad74fc343079f8c9dc704aa4622b956f332474"
+  }
+}

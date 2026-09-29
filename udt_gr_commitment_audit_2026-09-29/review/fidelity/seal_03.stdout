@@ -1,0 +1,12 @@
+{
+  "launch_pins_match": 21,
+  "consulted_sources": 34,
+  "review_payloads": 18,
+  "report_sha256": "8eb1e912b9716be52d49186430f29a6623b4bad38f276b76e7744606cfc36dd1",
+  "seal_sha256": "456de2d3eb76c65e64bab3c1b1a93108d00066391be7c52e9766dadfbcf3df21",
+  "head": "9edec2e528e058cbfab11de7a1eff1f90d0cc970",
+  "tracked_diff_names": [
+    "CURRENT_RESEARCH_PROGRAM.md",
+    "UDT_DEVELOPMENT.md"
+  ]
+}

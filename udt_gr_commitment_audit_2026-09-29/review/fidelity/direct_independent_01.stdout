@@ -1,0 +1,38 @@
+{
+  "freeze": {
+    "DIRECT_FREEZE.json": {
+      "sha256": "835697fda2d5f91b805ddf84ab451068dad95ada5b3f77971b0d0e3e09125ef2",
+      "verified_entries": 6
+    },
+    "CANDIDATE_FREEZE.json": {
+      "sha256": "7e211ae17c7018d7cf0a594c068b9998f9df32908133219ac788c773b7a02fc8",
+      "verified_entries": 13
+    }
+  },
+  "python": "3.10.12",
+  "sympy": "1.13.1",
+  "checks": [
+    "Negative-curvature product Ricci",
+    "Negative-curvature product scalar",
+    "Product Hessian scalar vanishes",
+    "Positive-alpha product response is pure trace",
+    "Positive-alpha product DDR",
+    "Product response covariant divergence",
+    "Nonzero controls: Einstein shape and full equation remain distinct",
+    "Independent nonconstant scalar",
+    "Full R-squared response divergence",
+    "Mixed action response divergence",
+    "Omitted-Hessian control from Ricci gradient",
+    "Derivative omission is detected on nonconstant curvature",
+    "General two-factor shape response multiplier"
+  ],
+  "count": 13,
+  "product_scalar": "-2/r**2",
+  "product_E_alpha": "Matrix([[-1/(2*r**2), 0, 0, 0], [0, 1/(2*r**2), 0, 0], [0, 0, 1/(2*y**2), 0], [0, 0, 0, 1/(2*y**2)]])",
+  "product_TF_Ric": "Matrix([[-1/(2*r**2), 0, 0, 0], [0, 1/(2*r**2), 0, 0], [0, 0, -1/(2*y**2), 0], [0, 0, 0, -1/(2*y**2)]])",
+  "nonconstant_R": "90/t**2",
+  "nonconstant_Q": "Matrix([[-2430/t**4, 0, 0, 0], [0, 1350*t**2, 0, 0], [0, 0, 1350*t**2, 0], [0, 0, 0, 1350*t**2]])",
+  "div_algebraic_Q": "Matrix([[-6480/t**5], [0], [0], [0]])",
+  "arithmetic": "exact; no tolerance",
+  "scope": "mathematical comparison only; no physical/model/filter/stability claim"
+}

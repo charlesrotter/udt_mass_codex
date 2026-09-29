@@ -1,0 +1,11 @@
+{
+  "pin_count": 21,
+  "all_match": true,
+  "branch": "grok",
+  "head": "9edec2e528e058cbfab11de7a1eff1f90d0cc970",
+  "state": {
+    "tracked_count": 2,
+    "untracked_entries": 48,
+    "scope_note": "Names only inspected; unrelated/protected payload not read"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "status": "PASS",
+  "reviewed_files": 52,
+  "unrelated_names_preserved": 52,
+  "tracked_owned_changes": 10,
+  "central_local_links": 69,
+  "workspace_files": 165,
+  "workspace_bytes": 371840,
+  "receipts": {
+    "comparisons_02": {
+      "seconds": 1.0762116069963668,
+      "maxrss_kib": 50012
+    },
+    "development_final": {
+      "seconds": 0.053479843016248196,
+      "maxrss_kib": 20768
+    },
+    "maintenance_final": {
+      "seconds": 0.4634914710186422,
+      "maxrss_kib": 28352
+    },
+    "premise_final": {
+      "seconds": 406.30386710501625,
+      "maxrss_kib": 120384
+    }
+  },
+  "scope": "Byte correspondence, receipts and preservation. No protected payload read, physical promotion or proof claim."
+}

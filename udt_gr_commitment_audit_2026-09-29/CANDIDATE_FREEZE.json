@@ -1,0 +1,18 @@
+{
+  "state": "Initial audit and exact diagnostics; frozen before direct review. No scientific adoption.",
+  "sha256": {
+    "udt_gr_commitment_audit_2026-09-29/WORK_ORDER.md": "bd25f8dc2e067fd273e62745ec2050b6795abb4e4f679f1f6fb58f28f3f52f87",
+    "udt_gr_commitment_audit_2026-09-29/INITIAL_CANDIDATE.md": "30c9bef57625a8e65cee24951a55a6db173ac1d91e0f1e88c6e0052fea781a47",
+    "udt_gr_commitment_audit_2026-09-29/SOURCE_PINS.json": "0aea03ff3a474676653cb104d896a0a35ccc2a8c0e52fae23bf482562fe9bb4a",
+    "udt_gr_commitment_audit_2026-09-29/checks/CHECK_PLAN.md": "c48e1371a43a5d66239abe82f27b7cdd4246daf7eb2383c7fbedb6e11ea19810",
+    "udt_gr_commitment_audit_2026-09-29/checks/check_comparisons_initial.py": "5143b274222e6d7835fe706831dfd79aa4f5039aabc08474f9f967bc97f1246d",
+    "udt_gr_commitment_audit_2026-09-29/checks/CHECK_REPAIR.md": "71ce757fd72e7d00e4756fc7bb2684543791c73bc23a09ac0ec1570a4c5df42d",
+    "udt_gr_commitment_audit_2026-09-29/checks/check_comparisons.py": "7516497597ba8353349698558e430303829f7719cd5bf4ce9dcbe0baa8f66ce0",
+    "udt_gr_commitment_audit_2026-09-29/checks/comparisons_01.json": "38f0f49e249662697b44ca32799ed1c463586d9422f2dc8d192e33bd0fd78033",
+    "udt_gr_commitment_audit_2026-09-29/checks/comparisons_01.stdout": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "udt_gr_commitment_audit_2026-09-29/checks/comparisons_01.stderr": "8a621a446264e2ab60f6b4f61792b8e7ea0690ca8721671166aa4822c96b276f",
+    "udt_gr_commitment_audit_2026-09-29/checks/comparisons_02.json": "b22659d84160ff7d2d374ace9c7c63563be34a46d5ba7344fe534557915d6bf4",
+    "udt_gr_commitment_audit_2026-09-29/checks/comparisons_02.stdout": "0750e9dafcc39c8c502b73b31c4429399442624de59a09f6cf433bebf5371652",
+    "udt_gr_commitment_audit_2026-09-29/checks/comparisons_02.stderr": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  }
+}

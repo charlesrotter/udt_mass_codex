@@ -1,16 +1,15 @@
 # LIVE — operational status
 
 <!-- STARTUP_CURRENT_BEGIN -->
-## CURRENT STATE — LKT1 after SGE1/CDR1, 2026-09-29
+## CURRENT STATE — GCA1 after LKT1/SGE1/CDR1, 2026-09-29
 
 Work on `grok`; independently verify HEAD, synchronization and dirt.
-CDR1's nine-stage reconstruction remains complete at its reviewed scope.
-SGE1's shared-geometry return remains integrated in R8/R18. Charles subsequently
-authorized LKT1's Lorentz-kernel investigation, two fresh reviews and a bounded
-repair allowance. Its conditional return is integrated in UDT_DEVELOPMENT.md
-R7/R18; exact scope and execution evidence are in
-`udt_lorentz_kernel_transport_2026-09-29/WORK_ORDER.md` and `WORK_RECORD.md`.
-No successor research campaign is authorized by this return.
+CDR1's nine-stage reconstruction and SGE1/LKT1 returns remain integrated at
+their reviewed scopes. Charles authorized GCA1's audit of GR commitments,
+conservation and response-class assumptions. Its conditional return is integrated
+in UDT_DEVELOPMENT.md R10/R17/R18; exact scope, reviews and execution evidence:
+`udt_gr_commitment_audit_2026-09-29/WORK_ORDER.md` and `WORK_RECORD.md`.
+No physical premise is adopted and no successor campaign is authorized.
 
 ### Honest claim
 
@@ -43,9 +42,10 @@ Protected: do not inspect, hash, stage, modify, mine or cite payloads without di
 
 ### Next gate
 
-Stop for lay discussion. LKT1 returns a reviewed conditional connection and
-restricted identification tests in the central argument. Its WORK_RECORD.md and
-git history own actual verification and banking evidence. No native law, new
-premise or successor solve follows from this mathematical return. Current
-scientific explanation: central R7/R18, with SGE1's R8 limits retained.
+Stop for lay discussion. GCA1 returns a reviewed conditional assumption audit
+and decision brief in the central argument, preserving current scientific grades.
+Its WORK_RECORD.md, actual receipts and Git history own verification and banking.
+A conserved-representative diagnostic is not a new mandatory UDT premise. No
+response law, action, exact scaling or derivative order is adopted. Current
+scientific explanation: central R10/R17/R18, with earlier sector limits retained.
 <!-- STARTUP_CURRENT_END -->

@@ -227,7 +227,11 @@
         "udt_gr_filter_reconciliation_2026-09-09/AUTHORITY_RECORD.md",
         "udt_gr_response_selection_2026-09-28/REVIEWED_RESULT.md",
         "udt_native_angular_premise_audit_2026-09-13/REVIEWED_RESULT.md",
-        "udt_response_measurement_scaling_2026-09-28/REVIEWED_RESULT.md"
+        "udt_response_measurement_scaling_2026-09-28/REVIEWED_RESULT.md",
+        "udt_gr_commitment_audit_2026-09-29/INITIAL_CANDIDATE.md",
+        "udt_gr_commitment_audit_2026-09-29/CENTRAL_INSERTION.md",
+        "udt_gr_commitment_audit_2026-09-29/DECISION_BRIEF.md",
+        "udt_gr_commitment_audit_2026-09-29/REVIEWED_RESULT.md"
       ],
       "required_conditions": [
         "C_RESPONSE"
@@ -372,7 +376,11 @@
         "udt_gr_response_selection_2026-09-28/REVIEWED_RESULT.md",
         "udt_native_theory_research_plan_2026-09-13/execution/tc0/RESULT.md",
         "udt_positional_joint_compatibility_2026-09-14/CANDIDATE.md",
-        "udt_response_measurement_scaling_2026-09-28/REVIEWED_RESULT.md"
+        "udt_response_measurement_scaling_2026-09-28/REVIEWED_RESULT.md",
+        "udt_gr_commitment_audit_2026-09-29/INITIAL_CANDIDATE.md",
+        "udt_gr_commitment_audit_2026-09-29/CENTRAL_INSERTION.md",
+        "udt_gr_commitment_audit_2026-09-29/DECISION_BRIEF.md",
+        "udt_gr_commitment_audit_2026-09-29/REVIEWED_RESULT.md"
       ],
       "required_conditions": [
         "M_GEOMETRY"
@@ -412,7 +420,11 @@
         "udt_shared_geometry_extension_2026-09-29/REPAIR.md",
         "udt_shared_geometry_extension_2026-09-29/REVIEWED_RESULT.md",
         "udt_lorentz_kernel_transport_2026-09-29/INITIAL_CANDIDATE.md",
-        "udt_lorentz_kernel_transport_2026-09-29/REVIEWED_RESULT.md"
+        "udt_lorentz_kernel_transport_2026-09-29/REVIEWED_RESULT.md",
+        "udt_gr_commitment_audit_2026-09-29/INITIAL_CANDIDATE.md",
+        "udt_gr_commitment_audit_2026-09-29/CENTRAL_INSERTION.md",
+        "udt_gr_commitment_audit_2026-09-29/DECISION_BRIEF.md",
+        "udt_gr_commitment_audit_2026-09-29/REVIEWED_RESULT.md"
       ],
       "required_conditions": []
     },
@@ -588,6 +600,85 @@
         "C_LKT_RECIPROCAL",
         "C_LKT_SAME_PHI",
         "P_NULL"
+      ]
+    },
+    {
+      "id": "C_HOMOTHETY",
+      "kind": "conditional_class",
+      "statement": "UNADOPTED route: trace-free symmetric covariant metric-natural finite-jet operator, unoriented equivariance, flat differentiability and flattening rays, exact weight zero; nonzero a required for shape selection."
+    },
+    {
+      "id": "C_GCA_COMPARISON",
+      "kind": "conditional_class",
+      "statement": "UNADOPTED metric-only f(R) Euler-response comparison, compact-support variation, smooth Lorentz4 Levi-Civita geometry; hypothetical scalar identity is a separate comparison, no physical action/field/source admission."
+    },
+    {
+      "id": "C_LOVELOCK",
+      "kind": "conditional_class",
+      "statement": "Published conditional theorem: smooth natural symmetric metric-only second-jet two-tensor operators over prescribed Lorentz signature in four dimensions, identically divergence-free on all metrics; no action/response identity/adoption supplied."
+    },
+    {
+      "id": "R10H",
+      "kind": "argument",
+      "anchor": "r10h",
+      "title": "Distinct finite-order exact-homothety sufficient route",
+      "registry_ids": [
+        "G301",
+        "G310",
+        "G312"
+      ],
+      "sources": [
+        "udt_gr_commitment_audit_2026-09-29/INITIAL_CANDIDATE.md",
+        "udt_gr_commitment_audit_2026-09-29/CENTRAL_INSERTION.md",
+        "udt_gr_commitment_audit_2026-09-29/DECISION_BRIEF.md",
+        "udt_gr_response_selection_2026-09-28/REVIEWED_RESULT.md",
+        "udt_response_measurement_scaling_2026-09-28/REVIEWED_RESULT.md",
+        "udt_gr_commitment_audit_2026-09-29/REVIEWED_RESULT.md"
+      ],
+      "required_conditions": [
+        "C_HOMOTHETY"
+      ]
+    },
+    {
+      "id": "R17C",
+      "kind": "argument",
+      "anchor": "r17c",
+      "title": "Conservation identities, representatives and restricted nonselection comparison",
+      "registry_ids": [
+        "G11",
+        "G310",
+        "G312"
+      ],
+      "sources": [
+        "udt_gr_commitment_audit_2026-09-29/INITIAL_CANDIDATE.md",
+        "udt_gr_commitment_audit_2026-09-29/CENTRAL_INSERTION.md",
+        "udt_gr_commitment_audit_2026-09-29/DECISION_BRIEF.md",
+        "udt_conservation_variational_response_2026-09-28/REVIEWED_RESULT.md",
+        "udt_gr_response_selection_2026-09-28/REVIEWED_RESULT.md",
+        "udt_gr_commitment_audit_2026-09-29/REVIEWED_RESULT.md"
+      ],
+      "required_conditions": [
+        "C_GCA_COMPARISON"
+      ]
+    },
+    {
+      "id": "R17L",
+      "kind": "argument",
+      "anchor": "r17l",
+      "title": "Separate second-order conservation classification and its ownership limit",
+      "registry_ids": [
+        "G301",
+        "G312"
+      ],
+      "sources": [
+        "udt_gr_commitment_audit_2026-09-29/INITIAL_CANDIDATE.md",
+        "udt_gr_commitment_audit_2026-09-29/CENTRAL_INSERTION.md",
+        "udt_gr_commitment_audit_2026-09-29/DECISION_BRIEF.md",
+        "udt_conservation_variational_response_2026-09-28/REVIEWED_RESULT.md",
+        "udt_gr_commitment_audit_2026-09-29/REVIEWED_RESULT.md"
+      ],
+      "required_conditions": [
+        "C_LOVELOCK"
       ]
     }
   ],
@@ -1096,6 +1187,66 @@
       "from": "R7E",
       "to": "R18",
       "kind": "interpretation"
+    },
+    {
+      "from": "C_HOMOTHETY",
+      "to": "R10H",
+      "kind": "hypothesis"
+    },
+    {
+      "from": "R9",
+      "to": "R10H",
+      "kind": "proof"
+    },
+    {
+      "from": "R10H",
+      "to": "R10",
+      "kind": "context"
+    },
+    {
+      "from": "C_GCA_COMPARISON",
+      "to": "R17C",
+      "kind": "hypothesis"
+    },
+    {
+      "from": "R9",
+      "to": "R17C",
+      "kind": "context"
+    },
+    {
+      "from": "R17",
+      "to": "R17C",
+      "kind": "context"
+    },
+    {
+      "from": "C_LOVELOCK",
+      "to": "R17L",
+      "kind": "hypothesis"
+    },
+    {
+      "from": "R9",
+      "to": "R17L",
+      "kind": "context"
+    },
+    {
+      "from": "R17",
+      "to": "R17L",
+      "kind": "context"
+    },
+    {
+      "from": "R10H",
+      "to": "R18",
+      "kind": "interpretation"
+    },
+    {
+      "from": "R17C",
+      "to": "R18",
+      "kind": "interpretation"
+    },
+    {
+      "from": "R17L",
+      "to": "R18",
+      "kind": "interpretation"
     }
   ],
   "sources_sha256": {
@@ -1168,7 +1319,11 @@
     "udt_lorentz_kernel_transport_2026-09-29/REVIEWED_RESULT.md": "a0472a66148a6e46857161488b09b11131bdd39fbf708256a43cea1bb1f60281",
     "udt_founding_phi_ownership_morphism_audit_2026-08-05/EXACT_DERIVATION.md": "0d83baaaa9f0586cb3f3b0cd7af16b201996a124dba6a050c71624a2e638a4fd",
     "udt_g220_covariant_null_clock_arrow_timelive_lift_2026-08-22/EXACT_DERIVATION.md": "0e5b33a0c013def973bdca369944d99a84fe278614cae1794e7cb50b56db0f6f",
-    "udt_g274_projective_pair_position_network_descent_2026-08-26/EXACT_DERIVATION.md": "8cee4fa46ea13c6101bbce8c94072a516d38ce0f863e3658a87bab4d77e7e18f"
+    "udt_g274_projective_pair_position_network_descent_2026-08-26/EXACT_DERIVATION.md": "8cee4fa46ea13c6101bbce8c94072a516d38ce0f863e3658a87bab4d77e7e18f",
+    "udt_gr_commitment_audit_2026-09-29/INITIAL_CANDIDATE.md": "30c9bef57625a8e65cee24951a55a6db173ac1d91e0f1e88c6e0052fea781a47",
+    "udt_gr_commitment_audit_2026-09-29/CENTRAL_INSERTION.md": "3e3cbcd80c8e426c34462a311a88786eef73c38abb738f7284bdefacd7337870",
+    "udt_gr_commitment_audit_2026-09-29/DECISION_BRIEF.md": "9d8fddc6b639cfbdf0de2ef04d1174910f7f69f24537f933f29b80a028738e1f",
+    "udt_gr_commitment_audit_2026-09-29/REVIEWED_RESULT.md": "3418a96c5de81dce9062871a1395801d887cdd7ab02159d392dd139b573ae368"
   },
   "impact_policy": "Any changed source or registry row flags its mapped positive and negative central arguments and every reachable central descendant for review; no automatic truth reversal or regrading.",
   "review_support": [
@@ -1296,6 +1451,28 @@
         "R18"
       ],
       "scope": "LKT1 frozen-candidate direct review; conditional scope, no required scientific repair. Actual final integration acceptance belongs to final attestations, not this support edge."
+    },
+    {
+      "path": "udt_gr_commitment_audit_2026-09-29/review/math/DIRECT_REVIEW.md",
+      "sha256": "40bb1e4a27ffed28eac32cf05e964ed6f41f93ef62bfb67e6be05f668b66014a",
+      "role": "review_evidence",
+      "targets": [
+        "R10H",
+        "R17C",
+        "R17L",
+        "R18"
+      ]
+    },
+    {
+      "path": "udt_gr_commitment_audit_2026-09-29/review/fidelity/DIRECT_REVIEW.md",
+      "sha256": "4a2a85c4acc600b157b3be3d7ffc24d407e07159d24c700e3b8bfc24ee71f64a",
+      "role": "review_evidence",
+      "targets": [
+        "R10H",
+        "R17C",
+        "R17L",
+        "R18"
+      ]
     }
   ]
 }

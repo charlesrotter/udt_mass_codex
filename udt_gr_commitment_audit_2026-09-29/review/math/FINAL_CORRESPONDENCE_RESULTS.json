@@ -1,0 +1,107 @@
+{
+  "utc": "2026-09-29T22:58:19.876569+00:00",
+  "baseline": "9edec2e528e058cbfab11de7a1eff1f90d0cc970",
+  "head": "9edec2e528e058cbfab11de7a1eff1f90d0cc970",
+  "branch": "grok",
+  "freeze_sha256": "daf5e4ccbca1e694f5d8a0379ef0e0cf878d2f4b18b0a47e6906eab49dcb60be",
+  "accepted_files": 52,
+  "frozen_inputs": {
+    "udt_gr_commitment_audit_2026-09-29/CANDIDATE_FREEZE.json": {
+      "sha256": "7e211ae17c7018d7cf0a594c068b9998f9df32908133219ac788c773b7a02fc8",
+      "entry_count": 13
+    },
+    "udt_gr_commitment_audit_2026-09-29/DIRECT_FREEZE.json": {
+      "sha256": "835697fda2d5f91b805ddf84ab451068dad95ada5b3f77971b0d0e3e09125ef2",
+      "entry_count": 6
+    },
+    "udt_gr_commitment_audit_2026-09-29/review/math/SOURCE_FIRST_SEAL.json": {
+      "sha256": "9fb0c12ba4b8ffa8754a03ddaf2dbbe51335c2051af79154e687c147442dbf0a",
+      "entry_count": 29
+    }
+  },
+  "launch_pins": 21,
+  "graph_original_pins_preserved": 70,
+  "graph_added_pins": 4,
+  "graph_no_old_edges_or_review_support_removed": true,
+  "new_node_ids": [
+    "C_GCA_COMPARISON",
+    "C_HOMOTHETY",
+    "C_LOVELOCK",
+    "R10H",
+    "R17C",
+    "R17L"
+  ],
+  "affected_nodes": [
+    "R10",
+    "R10H",
+    "R11",
+    "R12",
+    "R15",
+    "R17",
+    "R17C",
+    "R17L",
+    "R18"
+  ],
+  "registry_byte_identical_rows": 406,
+  "editorial_dispositions_changed": [
+    "G11",
+    "G301",
+    "G310",
+    "G312"
+  ],
+  "all_disposition_registry_row_hashes_retained": true,
+  "old_recent_rows_unchanged": 27,
+  "new_recent_rows": 28,
+  "exact_central_insertion_blocks": [
+    {
+      "heading": "## After R10, before R11",
+      "sha256": "97a067303d334f9bf3a18e743ba667883a9133afaf10fe5944c9c5a86c99993b"
+    },
+    {
+      "heading": "## In R17, after conservation completion and before finite clock variation",
+      "sha256": "0fc202f2acee6561291224b2b456e8a34d90280c8d8a224d0602e96052c7916a"
+    },
+    {
+      "heading": "## R18 addition",
+      "sha256": "e83423fe0e7932d765abf43ca5e09e80cffc9981aaa17b5d8c6edd4b87e7f444"
+    }
+  ],
+  "generated_orientation_matches": true,
+  "unrelated_untracked_names_preserved": 52,
+  "protected_payload_read_or_hash": false,
+  "previous_review_record_byte_identical_to_baseline": true,
+  "accepted_files_identical_to_baseline": [
+    "AGENTS.md",
+    "CLAUDE.md",
+    "CURRENT_SCIENTIFIC_PREMISES.md",
+    "INDEX.md",
+    "MEMORY.md",
+    "development_reconstruction_2026-09-29/FULL_REPAIR.md",
+    "development_reconstruction_2026-09-29/HISTORICAL_EVIDENCE_INDEX.md",
+    "development_reconstruction_2026-09-29/INTEGRATION_GUARD_CHANGE.md",
+    "development_reconstruction_2026-09-29/INTEGRATION_REPAIR.md",
+    "development_reconstruction_2026-09-29/MAINTENANCE.md",
+    "development_reconstruction_2026-09-29/SOURCE_CORRECTIONS.md",
+    "udt_lorentz_kernel_transport_2026-09-29/CANDIDATE_FREEZE.json",
+    "udt_lorentz_kernel_transport_2026-09-29/CENTRAL_INSERTION.md",
+    "udt_lorentz_kernel_transport_2026-09-29/INITIAL_CANDIDATE.md",
+    "udt_lorentz_kernel_transport_2026-09-29/REVIEWED_RESULT.md",
+    "udt_lorentz_kernel_transport_2026-09-29/SOURCE_PINS.json",
+    "udt_lorentz_kernel_transport_2026-09-29/WORK_ORDER.md",
+    "udt_lorentz_kernel_transport_2026-09-29/checks/CHECK_PLAN.md",
+    "udt_lorentz_kernel_transport_2026-09-29/checks/check_bridge.py",
+    "udt_shared_geometry_extension_2026-09-29/CANDIDATE_FREEZE.json",
+    "udt_shared_geometry_extension_2026-09-29/CENTRAL_INSERTION.md",
+    "udt_shared_geometry_extension_2026-09-29/INITIAL_DERIVATION.md",
+    "udt_shared_geometry_extension_2026-09-29/OWNER_CLARIFICATION.md",
+    "udt_shared_geometry_extension_2026-09-29/REPAIR.md",
+    "udt_shared_geometry_extension_2026-09-29/REVIEWED_RESULT.md",
+    "udt_shared_geometry_extension_2026-09-29/SOURCE_PINS.json",
+    "udt_shared_geometry_extension_2026-09-29/WORK_ORDER.md",
+    "udt_shared_geometry_extension_2026-09-29/checks/check_geometry.py",
+    "verify_current_scientific_premises.py",
+    "verify_udt_development.py"
+  ],
+  "work_record_inspected_sha256": "04e16e6889b2e074536b8dac4e1520865033124123a0c79fee66662a81663168",
+  "scope": "Correspondence and bounded routing, not scientific acceptance, semantic completeness or a full406 rerun"
+}

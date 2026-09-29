@@ -92,6 +92,16 @@ class Maintenance(unittest.TestCase):
         self.rejects({p:(ROOT/p).read_text()+'\nTEST'},'REVIEW_REQUIRED.*affected=')
     def test_open_join_as_premise(self):
         self.rejects(self.graph_change(lambda g:g['edges'].append({'from':'O_ASSIGNMENT','to':'R1','kind':'proof'})),'open join promoted')
+    def test_gca_homothety_route_requires_its_class(self):
+        self.rejects(self.graph_change(lambda g:g['edges'].remove({'from':'C_HOMOTHETY','to':'R10H','kind':'hypothesis'})),'missing required hypothesis')
+    def test_gca_conservation_comparison_is_conditional(self):
+        self.rejects(self.graph_change(lambda g:g['edges'].remove({'from':'C_GCA_COMPARISON','to':'R17C','kind':'hypothesis'})),'missing required hypothesis')
+    def test_gca_lovelock_requires_its_full_domain(self):
+        self.rejects(self.graph_change(lambda g:g['edges'].remove({'from':'C_LOVELOCK','to':'R17L','kind':'hypothesis'})),'missing required hypothesis')
+    def test_gca_source_routes_positive_and_negative_uses(self):
+        p='udt_gr_commitment_audit_2026-09-29/INITIAL_CANDIDATE.md'
+        self.assertTrue({'R10','R10H','R11','R12','R17','R17C','R17L','R18'}<=set(v.affected_nodes(self.graph,[p])))
+        self.rejects({p:(ROOT/p).read_text()+'\nTEST'},'REVIEW_REQUIRED.*affected=')
     def test_cycle(self):
         self.rejects(self.graph_change(lambda g:g['edges'].append({'from':'R18','to':'R1','kind':'context'})),'cycle')
     def test_source_path_protected_before_read(self):

@@ -1,0 +1,26 @@
+{
+  "scope": "Launch versions. UDT_DEVELOPMENT may change by reviewed integration; historical inputs remain fixed.",
+  "sha256": {
+    "AGENTS.md": "8ae0d968a20f416ec628fcf9ad445d370822889a720168104a8e41aef2b1094c",
+    "CLAUDE.md": "4ad2e773defb89cc79541fd0ababd75af5a3344ab134ee83722dfd943966e6e4",
+    "founding.md": "b4b0d9a9fdd093c992647195aca7579566a9e77a396071a699c1938888a49e75",
+    "CURRENT_SCIENTIFIC_PREMISES.tsv": "7a3d69d5a0bc3ac98e2ebe2bb0c6d029df30071bf403baffed2223a193dc720b",
+    "CANON.md": "047b7fbbc1acacf01d2716e3c98cdefd0b9b20136ac4a3306f55dd6775465250",
+    "UDT_DEVELOPMENT.md": "da42de0f20d58e4c930e310cca4ec2dec94bf8249e278bc7c810481c904de12d",
+    "verify_udt_development.py": "2825e3c31351f2c81ae39cede427b5c50fc62c98cd02d7a4059692b08bb6c94c",
+    "verify_current_scientific_premises.py": "a983c2456ce3a122629a116c735b32b96e055829ed3012fb416fabfa9b0b8127",
+    "udt_gr_filter_reconciliation_2026-09-09/AUTHORITY_RECORD.md": "80daa0be6d3e1c0ac1b734fea089c4eb487f05bc1e1fbb2fabd69322ca89f28c",
+    "udt_g301_scale_free_quiet_regular_causal_principal_classification_2026-08-30/EXACT_DERIVATION.md": "633b907b5384aa63d61d49db067dd4e608e6abd3bf3571e4267f91e5c74da8fb",
+    "udt_gr_response_selection_2026-09-28/REVIEWED_RESULT.md": "4c0cbaf8dac98010556136d4189f1abe724f089ca91e353b520401ff05725795",
+    "udt_gr_response_selection_2026-09-28/INITIAL_DERIVATION.md": "06c030b7d8039c923727a7c6056434b368d952724140082cc7f0501065ed8535",
+    "udt_gr_response_selection_2026-09-28/OWNERSHIP_MAP.md": "01c596dddb15b2a66cd6ad9902219b272877c96c398fe227617cd7a7902e0900",
+    "udt_gr_response_selection_2026-09-28/review/DIRECT_REVIEW.md": "6748f0ab1f9cd424e34b81235f80919bb86e538503a3c053887c09db12c16ff9",
+    "udt_response_measurement_scaling_2026-09-28/REVIEWED_RESULT.md": "462cad1bb96a2ed121edede7e93d4f0fcf9d7f61c1a35f438d42ae47b7dfec3c",
+    "udt_response_measurement_scaling_2026-09-28/INITIAL_CANDIDATE.md": "de2b256ba66a1347c4f490c8d6e3edcc639d818a3422a9cd6e15687ccc27ee76",
+    "udt_response_measurement_scaling_2026-09-28/review/DIRECT_REVIEW.md": "84c474b3b12a492b7c274cf20d859cf3b22a430290b210c5f29c6146445c1e11",
+    "udt_conservation_variational_response_2026-09-28/REVIEWED_RESULT.md": "fa6c2d6d511a01e20a3db043d824a7838b4ae7aadf57c3bd4edf1b7e820bc4ae",
+    "udt_conservation_variational_response_2026-09-28/INITIAL_CANDIDATE.md": "6984197615903ad0ae4ab358f357e7b6e4420d30f8aeb7cc4db63fbd54edaed0",
+    "udt_conservation_variational_response_2026-09-28/REPAIR.md": "5d2d59b8aa03b66b27acd9e834f8b4a8be52728e3f06641f8a5117df79bf0c9c",
+    "udt_conservation_variational_response_2026-09-28/review/DIRECT_REVIEW.md": "4b1e9a5324c34b4e57a2d2912073cf373a2a62c842ea08de0940ee0ca7bc645d"
+  }
+}

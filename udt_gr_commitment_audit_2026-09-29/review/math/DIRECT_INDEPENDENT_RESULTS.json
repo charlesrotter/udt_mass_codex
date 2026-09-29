@@ -1,0 +1,84 @@
+{
+  "utc": "2026-09-29T22:50:47.205664+00:00",
+  "python": "3.10.12",
+  "sympy": "1.13.1",
+  "exposure": "candidate prose and freezes read; producer code/output/repair not yet read",
+  "freeze_verification": {
+    "DIRECT_FREEZE.json": {
+      "sha256": "835697fda2d5f91b805ddf84ab451068dad95ada5b3f77971b0d0e3e09125ef2",
+      "entries": {
+        "udt_gr_commitment_audit_2026-09-29/CANDIDATE_FREEZE.json": "7e211ae17c7018d7cf0a594c068b9998f9df32908133219ac788c773b7a02fc8",
+        "udt_gr_commitment_audit_2026-09-29/INITIAL_CANDIDATE.md": "30c9bef57625a8e65cee24951a55a6db173ac1d91e0f1e88c6e0052fea781a47",
+        "udt_gr_commitment_audit_2026-09-29/CENTRAL_INSERTION.md": "3e3cbcd80c8e426c34462a311a88786eef73c38abb738f7284bdefacd7337870",
+        "udt_gr_commitment_audit_2026-09-29/DECISION_BRIEF.md": "9d8fddc6b639cfbdf0de2ef04d1174910f7f69f24537f933f29b80a028738e1f",
+        "udt_gr_commitment_audit_2026-09-29/REFERENCES.md": "df3d5b6afeef123c473ca3505e4e5e755ff52d23c0f1aead69d5916c479c34e4",
+        "udt_gr_commitment_audit_2026-09-29/SCOPED_REGISTRY.json": "8fd5d9b9ad34f7e4769c7f2392ad74fc343079f8c9dc704aa4622b956f332474"
+      }
+    },
+    "CANDIDATE_FREEZE.json": {
+      "sha256": "7e211ae17c7018d7cf0a594c068b9998f9df32908133219ac788c773b7a02fc8",
+      "entries": {
+        "udt_gr_commitment_audit_2026-09-29/WORK_ORDER.md": "bd25f8dc2e067fd273e62745ec2050b6795abb4e4f679f1f6fb58f28f3f52f87",
+        "udt_gr_commitment_audit_2026-09-29/INITIAL_CANDIDATE.md": "30c9bef57625a8e65cee24951a55a6db173ac1d91e0f1e88c6e0052fea781a47",
+        "udt_gr_commitment_audit_2026-09-29/SOURCE_PINS.json": "0aea03ff3a474676653cb104d896a0a35ccc2a8c0e52fae23bf482562fe9bb4a",
+        "udt_gr_commitment_audit_2026-09-29/checks/CHECK_PLAN.md": "c48e1371a43a5d66239abe82f27b7cdd4246daf7eb2383c7fbedb6e11ea19810",
+        "udt_gr_commitment_audit_2026-09-29/checks/check_comparisons_initial.py": "5143b274222e6d7835fe706831dfd79aa4f5039aabc08474f9f967bc97f1246d",
+        "udt_gr_commitment_audit_2026-09-29/checks/CHECK_REPAIR.md": "71ce757fd72e7d00e4756fc7bb2684543791c73bc23a09ac0ec1570a4c5df42d",
+        "udt_gr_commitment_audit_2026-09-29/checks/check_comparisons.py": "7516497597ba8353349698558e430303829f7719cd5bf4ce9dcbe0baa8f66ce0",
+        "udt_gr_commitment_audit_2026-09-29/checks/comparisons_01.json": "38f0f49e249662697b44ca32799ed1c463586d9422f2dc8d192e33bd0fd78033",
+        "udt_gr_commitment_audit_2026-09-29/checks/comparisons_01.stdout": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "udt_gr_commitment_audit_2026-09-29/checks/comparisons_01.stderr": "8a621a446264e2ab60f6b4f61792b8e7ea0690ca8721671166aa4822c96b276f",
+        "udt_gr_commitment_audit_2026-09-29/checks/comparisons_02.json": "b22659d84160ff7d2d374ace9c7c63563be34a46d5ba7344fe534557915d6bf4",
+        "udt_gr_commitment_audit_2026-09-29/checks/comparisons_02.stdout": "0750e9dafcc39c8c502b73b31c4429399442624de59a09f6cf433bebf5371652",
+        "udt_gr_commitment_audit_2026-09-29/checks/comparisons_02.stderr": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      }
+    }
+  },
+  "source_first_seal_verified": "9fb0c12ba4b8ffa8754a03ddaf2dbbe51335c2051af79154e687c147442dbf0a",
+  "check_count": 22,
+  "checks": [
+    "product_Ricci",
+    "product_R",
+    "product_general_shape",
+    "product_divergence_all_alpha",
+    "product_pure_trace",
+    "product_DDR_shape",
+    "product_not_E_zero",
+    "product_not_Ricci_shape_zero",
+    "product_alpha_zero_shape",
+    "variable_R",
+    "variable_boxR",
+    "variable_R_squared_response",
+    "variable_divG",
+    "variable_divQ",
+    "variable_divE_all_alpha",
+    "wrong_algebraic_time_divergence",
+    "omitted_derivatives_rejected",
+    "homothety_G_weight_zero",
+    "homothety_Q_weight_minus_two",
+    "fixed_alpha_full_E_not_weight_zero",
+    "candidate_scalar_Noether_sign",
+    "wrong_scalar_Noether_sign_rejected"
+  ],
+  "observations": {
+    "product_E_selected_diagonal": [
+      "1/(2*r**2)",
+      "-1/(2*r**2)",
+      "-1/2",
+      "-(-sin(2*y) + 2*cos(2*y)*tan(y))/(2*tan(y)) - 3*sin(y)**2/2"
+    ],
+    "product_shape_Ricci_diagonal": [
+      "1/(2*r**2)",
+      "-1/(2*r**2)",
+      "1/2",
+      "sin(y)**2/2"
+    ],
+    "control_Q_diagonal": [
+      "-648/t**4",
+      "216",
+      "216",
+      "216"
+    ],
+    "wrong_algebraic_time_divergence": "-864/t**5"
+  }
+}

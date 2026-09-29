@@ -3,24 +3,37 @@
   "accepted_sha256": {
     "AGENTS.md": "8ae0d968a20f416ec628fcf9ad445d370822889a720168104a8e41aef2b1094c",
     "CLAUDE.md": "4ad2e773defb89cc79541fd0ababd75af5a3344ab134ee83722dfd943966e6e4",
-    "CURRENT_RESEARCH_PROGRAM.md": "9a52c7ef97d0522594b92fa6e83bafe53d2664bebeb1112c23c3248ae4788118",
+    "CURRENT_RESEARCH_PROGRAM.md": "bef0e3caee2ffc44ec1b3ba801e0559131784de8f168ebc73959f016d82855e2",
     "CURRENT_SCIENTIFIC_PREMISES.md": "6b708f351b478dde0c6a93e8f29de08eae06533ba4fb789f79fd03bda1512718",
-    "HANDOFF.md": "9de25b40afc2a9822e9fdaed48373eb10162b4099e05f423269a53bb4e2a8808",
+    "HANDOFF.md": "e8d0555ffd1ec8d39e2d8896e71c784b75934b467e90f424d8196f448d039134",
     "INDEX.md": "80b0a1a553624516b223ced587a7a20dfaf86a90ef83a2b0c5478e64ba1a053b",
-    "LIVE.md": "f92da82e9c7d4a21e3016871ea8b4ce3f8f13e6521b9fbb9d675b77c445c5a75",
+    "LIVE.md": "7904a23010d964f1db9a9835bc1cc2637baa83a4071c1dd79973c4187f1d17ba",
     "MEMORY.md": "9cef036ad44244dd4dbb2951c08a544dddea5dc24bb33571906c7061e03c5761",
-    "UDT_DEVELOPMENT.md": "da42de0f20d58e4c930e310cca4ec2dec94bf8249e278bc7c810481c904de12d",
-    "UDT_RESEARCH_ROADMAP.md": "68d9f5d78eb603ee68fe61a050becf02539dd169a7b787224e8b9486852e1157",
-    "development_reconstruction_2026-09-29/CLAIM_DISPOSITIONS.tsv": "c700672b249ba2de25716158d1be5795241150860fbcd43af9723456541c5cca",
-    "development_reconstruction_2026-09-29/DEVELOPMENT_GRAPH.json": "e6cef521ab8c0ad74448b3916740455ebfbeece7605a0b66b47dff9092238d50",
+    "UDT_DEVELOPMENT.md": "3c28ff3b0c2e2079841dbade36575fdec2aa56c75a2fa1697888fcd8aa726135",
+    "UDT_RESEARCH_ROADMAP.md": "e28d283836c93c641818afff3e34180a9d980b92481f59733523262ab60f70e3",
+    "development_reconstruction_2026-09-29/CLAIM_DISPOSITIONS.tsv": "a14be5dbdc27fe6a232302f75d8116fdf6b8e546dd9ca250f6be792c9fae818d",
+    "development_reconstruction_2026-09-29/DEVELOPMENT_GRAPH.json": "d0679f2485f89d176dfac5674873ca3c05170a537404966f94ce13faed639c5c",
     "development_reconstruction_2026-09-29/FULL_REPAIR.md": "820441708b9607181c2c84b2df31b88ebdd4084b4a56c371706ea1ae93959bf8",
     "development_reconstruction_2026-09-29/HISTORICAL_EVIDENCE_INDEX.md": "7c1614619e94b35004ce0893e558ab7808d026aa012e00c69658bca70aa0e7a9",
     "development_reconstruction_2026-09-29/INTEGRATION_GUARD_CHANGE.md": "bb4dbfe3c32cb5f2e38e378237003efa6ee286340cae4d56a96b84058e7b3adc",
     "development_reconstruction_2026-09-29/INTEGRATION_REPAIR.md": "e614c73ef360e105ee9ddf94b5617d373150ed1f5213332da23d53ed93557175",
     "development_reconstruction_2026-09-29/MAINTENANCE.md": "6aefb0450bf83d01620f8a94024df075508165ae1c9fd4185483d1db5a025b41",
-    "development_reconstruction_2026-09-29/RECENT_DISPOSITIONS.tsv": "51942f97c7be63697617cf7f9c0e31fe0c91d4cd3c0485de8fa742cb55e47812",
+    "development_reconstruction_2026-09-29/RECENT_DISPOSITIONS.tsv": "318009ef14e53b9d6f1b526a5326f8cd5c82e04096db7397f7d83ca9790cb7fc",
     "development_reconstruction_2026-09-29/SOURCE_CORRECTIONS.md": "18742d3ca750540ade8108ac87d31b7355b0e88d8b96bc4a90b7f8de438d6fb0",
-    "development_reconstruction_2026-09-29/checks/test_maintenance.py": "70ef8cd7f6ad3322eafc381aff3d69070757e6088fa8fcfac65406145632f52f",
+    "development_reconstruction_2026-09-29/checks/test_maintenance.py": "d0a84fea035a3d18cd8b4231847eebc5e931579c4d320dcbc27d71e7b276a21a",
+    "udt_gr_commitment_audit_2026-09-29/CANDIDATE_FREEZE.json": "7e211ae17c7018d7cf0a594c068b9998f9df32908133219ac788c773b7a02fc8",
+    "udt_gr_commitment_audit_2026-09-29/CENTRAL_INSERTION.md": "3e3cbcd80c8e426c34462a311a88786eef73c38abb738f7284bdefacd7337870",
+    "udt_gr_commitment_audit_2026-09-29/DECISION_BRIEF.md": "9d8fddc6b639cfbdf0de2ef04d1174910f7f69f24537f933f29b80a028738e1f",
+    "udt_gr_commitment_audit_2026-09-29/DIRECT_FREEZE.json": "835697fda2d5f91b805ddf84ab451068dad95ada5b3f77971b0d0e3e09125ef2",
+    "udt_gr_commitment_audit_2026-09-29/INITIAL_CANDIDATE.md": "30c9bef57625a8e65cee24951a55a6db173ac1d91e0f1e88c6e0052fea781a47",
+    "udt_gr_commitment_audit_2026-09-29/REFERENCES.md": "df3d5b6afeef123c473ca3505e4e5e755ff52d23c0f1aead69d5916c479c34e4",
+    "udt_gr_commitment_audit_2026-09-29/REVIEWED_RESULT.md": "3418a96c5de81dce9062871a1395801d887cdd7ab02159d392dd139b573ae368",
+    "udt_gr_commitment_audit_2026-09-29/SCOPED_REGISTRY.json": "8fd5d9b9ad34f7e4769c7f2392ad74fc343079f8c9dc704aa4622b956f332474",
+    "udt_gr_commitment_audit_2026-09-29/SOURCE_PINS.json": "0aea03ff3a474676653cb104d896a0a35ccc2a8c0e52fae23bf482562fe9bb4a",
+    "udt_gr_commitment_audit_2026-09-29/WORK_ORDER.md": "bd25f8dc2e067fd273e62745ec2050b6795abb4e4f679f1f6fb58f28f3f52f87",
+    "udt_gr_commitment_audit_2026-09-29/checks/CHECK_PLAN.md": "c48e1371a43a5d66239abe82f27b7cdd4246daf7eb2383c7fbedb6e11ea19810",
+    "udt_gr_commitment_audit_2026-09-29/checks/CHECK_REPAIR.md": "71ce757fd72e7d00e4756fc7bb2684543791c73bc23a09ac0ec1570a4c5df42d",
+    "udt_gr_commitment_audit_2026-09-29/checks/check_comparisons.py": "7516497597ba8353349698558e430303829f7719cd5bf4ce9dcbe0baa8f66ce0",
     "udt_lorentz_kernel_transport_2026-09-29/CANDIDATE_FREEZE.json": "5de5935530e3eedc63b70168b9e6cda9e4dbd251958fa09cc57f67833883a71c",
     "udt_lorentz_kernel_transport_2026-09-29/CENTRAL_INSERTION.md": "ab1fa2f71c4a71831e5feab930db1040c7c29753013c25ab0e970c3d85e43aed",
     "udt_lorentz_kernel_transport_2026-09-29/INITIAL_CANDIDATE.md": "600c261ec1662d8a8315034ef362f78563e7c8a193a2ca8fecad2d119ea46d52",
@@ -43,15 +56,15 @@
   },
   "reviewers": [
     {
-      "context": "/root/lkt_math",
-      "attestation": "udt_lorentz_kernel_transport_2026-09-29/review/math/FINAL_ATTESTATION.json",
-      "sha256": "c435f33481d67ea10790532602dbdbd7e4766f52896782078bca8225f40c9d18"
+      "context": "/root/gca_math",
+      "attestation": "udt_gr_commitment_audit_2026-09-29/review/math/FINAL_ATTESTATION.json",
+      "sha256": "b0f99872cb850d9e888b0510d5f6098711b25085559d780f161edeb26e58d655"
     },
     {
-      "context": "/root/lkt_fidelity",
-      "attestation": "udt_lorentz_kernel_transport_2026-09-29/review/fidelity/FINAL_ATTESTATION.json",
-      "sha256": "ae443c51f1fbb769588d3f170cac6dc95ebcce42dc03139bce7928a1d9a4243e"
+      "context": "/root/gca_fidelity",
+      "attestation": "udt_gr_commitment_audit_2026-09-29/review/fidelity/FINAL_ATTESTATION.json",
+      "sha256": "e4705bc5633a7278e7b57f3e3e4ace9e9d26f04ce24372fd7e41fd7bd2c48c9b"
     }
   ],
-  "scope": "LKT1 conditional Lorentz-kernel argument and central integration, after two actual fresh source-first/direct/integration reviews. No required scientific repair; author-vacuity caveat explicit. Unchanged SGE1/CDR1 results retain predecessor scope preserved in udt_lorentz_kernel_transport_2026-09-29/PREVIOUS_REVIEW_RECORD.json. Final full audit and publication are separate parent gates owned by actual receipts and Git."
+  "scope": "GCA1 conditional commitment audit and central integration after two actual fresh source-first/direct/final contexts. No scientific repair; final brief wording clarification controls. Original scientific grades unchanged. Predecessor scopes preserved in udt_gr_commitment_audit_2026-09-29/PREVIOUS_REVIEW_RECORD.json. Full audit and banking are separate actual-receipt/Git gates."
 }

@@ -1,0 +1,40 @@
+test_additional_owner_meaning_routes_to_core_and_restriction (__main__.Maintenance) ... ok
+test_changed_source_flags_positive_negative_descendants (__main__.Maintenance) ... ok
+test_completed_pair_impact (__main__.Maintenance) ... ok
+test_correction_impact (__main__.Maintenance) ... ok
+test_cycle (__main__.Maintenance) ... ok
+test_gca_conservation_comparison_is_conditional (__main__.Maintenance) ... ok
+test_gca_homothety_route_requires_its_class (__main__.Maintenance) ... ok
+test_gca_lovelock_requires_its_full_domain (__main__.Maintenance) ... ok
+test_gca_source_routes_positive_and_negative_uses (__main__.Maintenance) ... ok
+test_gr_import (__main__.Maintenance) ... ok
+test_lkt_bridge_requires_actual_two_dimensional_geometry (__main__.Maintenance) ... ok
+test_lkt_scalar_obstruction_requires_full_group_question (__main__.Maintenance) ... ok
+test_lkt_source_flags_positive_and_negative_descendants (__main__.Maintenance) ... ok
+test_lkt_stationarity_requires_both_additional_hypotheses (__main__.Maintenance) ... ok
+test_local_response_universal_gate (__main__.Maintenance) ... ok
+test_lost_coverage (__main__.Maintenance) ... ok
+test_missing_class_prose_even_if_not_pattern (__main__.Maintenance) ... ok
+test_missing_optional_source (__main__.Maintenance) ... ok
+test_missing_response_class (__main__.Maintenance) ... ok
+test_missing_review_context (__main__.Maintenance) ... ok
+test_old_review_status_support_change (__main__.Maintenance) ... ok
+test_open_join_as_premise (__main__.Maintenance) ... ok
+test_owner_definition_impact (__main__.Maintenance) ... ok
+test_registry_change (__main__.Maintenance) ... ok
+test_report_bytes_are_bound (__main__.Maintenance) ... ok
+test_restricted_failure_promoted (__main__.Maintenance) ... ok
+test_review_version_mismatch (__main__.Maintenance) ... ok
+test_shared_geometry_source_flags_positive_and_negative (__main__.Maintenance) ... ok
+test_signal_speed (__main__.Maintenance) ... ok
+test_source_path_protected_before_read (__main__.Maintenance) ... ok
+test_stale_generated_orientation (__main__.Maintenance) ... ok
+test_stationary_exclusion_requires_its_sector (__main__.Maintenance) ... ok
+test_unreviewed_adapter_claim (__main__.Maintenance) ... ok
+test_unreviewed_body_change (__main__.Maintenance) ... ok
+test_valid_fixture (__main__.Maintenance) ... ok
+
+----------------------------------------------------------------------
+Ran 35 tests in 0.358s
+
+OK

@@ -1,0 +1,104 @@
+{
+  "status": "PASS",
+  "python": "3.10.12",
+  "sympy": "1.13.1",
+  "scope": "Exact diagnostic metrics and inherited f(R) identity; not proof of general classification or UDT admission.",
+  "items": [
+    {
+      "name": "product Ricci from metric",
+      "kind": "exact identity"
+    },
+    {
+      "name": "product scalar from metric",
+      "kind": "exact identity"
+    },
+    {
+      "name": "product is not Einstein",
+      "kind": "nonzero diagnostic",
+      "value": "1/(2*r**2)"
+    },
+    {
+      "name": "product conserved family",
+      "kind": "exact identity"
+    },
+    {
+      "name": "product tracefree multiplier",
+      "kind": "exact identity"
+    },
+    {
+      "name": "diagnostic pure trace response",
+      "kind": "exact identity"
+    },
+    {
+      "name": "diagnostic DDR holds",
+      "kind": "exact identity"
+    },
+    {
+      "name": "diagnostic full response not zero",
+      "kind": "nonzero diagnostic",
+      "value": "1/(2*r**2)"
+    },
+    {
+      "name": "wrong identification with Einstein shape fails",
+      "kind": "nonzero diagnostic",
+      "value": "1/(2*r**2)"
+    },
+    {
+      "name": "variable scalar from metric",
+      "kind": "exact identity"
+    },
+    {
+      "name": "variable Q components",
+      "kind": "exact identity"
+    },
+    {
+      "name": "variable family divergence",
+      "kind": "exact identity"
+    },
+    {
+      "name": "omitting Hessian breaks divergence",
+      "kind": "nonzero diagnostic",
+      "value": "-864/t**5"
+    },
+    {
+      "name": "Q changes tracefree equation",
+      "kind": "nonzero diagnostic",
+      "value": "-324/t**4"
+    },
+    {
+      "name": "Einstein covariant homothety weight zero",
+      "kind": "exact identity"
+    },
+    {
+      "name": "Q covariant homothety weight minus two",
+      "kind": "exact identity"
+    },
+    {
+      "name": "fixed nonzero alpha is not weight zero",
+      "kind": "nonzero diagnostic",
+      "value": "648*alpha*(ell**2 - 1)/(ell**2*t**4)"
+    },
+    {
+      "name": "Ricci and Einstein have same shape",
+      "kind": "exact identity"
+    },
+    {
+      "name": "Ricci is not offshell conserved",
+      "kind": "nonzero diagnostic",
+      "value": "-36/t**3"
+    },
+    {
+      "name": "Einstein is offshell conserved on control",
+      "kind": "exact identity"
+    },
+    {
+      "name": "nonvanishing response multiple same shape ratio",
+      "kind": "exact identity"
+    },
+    {
+      "name": "same-zero-set multiplier changes divergence",
+      "kind": "nonzero diagnostic",
+      "value": "62208/t**7"
+    }
+  ]
+}

@@ -1,22 +1,22 @@
 # HANDOFF — current operational handoff
 
 <!-- STARTUP_CURRENT_BEGIN -->
-## Current handoff — LKT1 after SGE1/CDR1, 2026-09-29
+## Current handoff — GCA1 after LKT1/SGE1/CDR1, 2026-09-29
 
-LIVE.md wins. CDR1's nine-stage reconstruction and SGE1's bounded shared-geometry
-deduction are complete at reviewed scope. Charles subsequently authorized LKT1's
-Lorentz-kernel investigation with two fresh reviews and a bounded repair allowance.
-The maintained argument is UDT_DEVELOPMENT.md; its generated startup view is
-CURRENT_RESEARCH_PROGRAM.md. Exact existing grades: CURRENT_SCIENTIFIC_PREMISES.tsv.
-LKT1's scope, frozen candidate, reviews and verification are preserved in
-`udt_lorentz_kernel_transport_2026-09-29/`; maintained dependencies and review
-bindings remain under `development_reconstruction_2026-09-29/`.
+LIVE.md wins. CDR1, SGE1 and LKT1 remain complete at reviewed scope. Charles
+subsequently authorized GCA1's conservation/GR-commitment audit with the normal
+fresh review and bounded repair cycle. The maintained argument is
+UDT_DEVELOPMENT.md; CURRENT_RESEARCH_PROGRAM.md is its generated startup view.
+Exact existing grades remain in CURRENT_SCIENTIFIC_PREMISES.tsv.
+GCA1's frozen argument, actual reviews and verification are preserved in
+`udt_gr_commitment_audit_2026-09-29/`; maintained dependencies/review bindings
+remain under `development_reconstruction_2026-09-29/`.
 
-Next: Stop for lay discussion of the reviewed conditional return in R7/R18.
-LKT1 WORK_RECORD.md and actual git history own verification/banking evidence.
-No successor campaign, physical premise, native field law or canon is adopted.
-Original evidence, fixed editions and the scientific registry retain their grades.
-Use LIVE for campaign pauses, archive caveats and preservation boundaries.
+Next: Stop for lay discussion of the conditional return in central R10/R17/R18.
+GCA1 WORK_RECORD.md and actual receipts/Git own verification and banking evidence.
+No conservation premise, action, response equation, native field law, scientific
+grade or canon is adopted. Original evidence and fixed editions retain their
+authentic scopes. Use LIVE for pauses, archive caveats and preservation boundaries.
 
 Protected payloads require explicit dispatch; preserve without inspecting/hashing:
 

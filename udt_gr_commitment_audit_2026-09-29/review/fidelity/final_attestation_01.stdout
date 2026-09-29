@@ -1,0 +1,8 @@
+{
+  "context": "/root/gca_fidelity",
+  "verdict": "ACCEPT_WITH_LIMITS",
+  "report_sha256": "eb8eeb90a8d72cd53747a6d8037c5e235f2e7ce983c2b6015f9f20eecc5826b6",
+  "attestation_sha256": "e4705bc5633a7278e7b57f3e3e4ace9e9d26f04ce24372fd7e41fd7bd2c48c9b",
+  "accepted_file_count": 52,
+  "source_first_and_direct_unchanged": true
+}

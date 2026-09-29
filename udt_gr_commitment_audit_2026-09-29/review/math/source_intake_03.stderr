@@ -1,0 +1,9 @@
+fatal: unable to create threaded lstat: Resource temporarily unavailable
+Traceback (most recent call last):
+  File "/home/udt-admin/udt_mass_codex/udt_gr_commitment_audit_2026-09-29/review/math/verify_source_intake.py", line 34, in <module>
+    status=subprocess.check_output(['git','-c','index.threads=1','status','--porcelain'],text=True).splitlines()
+  File "/usr/lib/python3.10/subprocess.py", line 421, in check_output
+    return run(*popenargs, stdout=PIPE, timeout=timeout, check=True,
+  File "/usr/lib/python3.10/subprocess.py", line 526, in run
+    raise CalledProcessError(retcode, process.args,
+subprocess.CalledProcessError: Command '['git', '-c', 'index.threads=1', 'status', '--porcelain']' returned non-zero exit status 128.

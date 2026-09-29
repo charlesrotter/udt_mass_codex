@@ -1,0 +1,37 @@
+{
+  "status": "PASS_CORRESPONDENCE_ONLY",
+  "integration_freeze_sha256": "daf5e4ccbca1e694f5d8a0379ef0e0cf878d2f4b18b0a47e6906eab49dcb60be",
+  "accepted_files": 52,
+  "original_freezes_verified": {
+    "DIRECT_FREEZE.json": 6,
+    "CANDIDATE_FREEZE.json": 13
+  },
+  "launch_pins_verified": 21,
+  "old_graph_pins_unchanged": 70,
+  "new_graph_pins": [
+    "udt_gr_commitment_audit_2026-09-29/CENTRAL_INSERTION.md",
+    "udt_gr_commitment_audit_2026-09-29/DECISION_BRIEF.md",
+    "udt_gr_commitment_audit_2026-09-29/INITIAL_CANDIDATE.md",
+    "udt_gr_commitment_audit_2026-09-29/REVIEWED_RESULT.md"
+  ],
+  "old_edges_preserved": 101,
+  "conditional_nodes_checked": [
+    "R10H",
+    "R17C",
+    "R17L"
+  ],
+  "actual_registry_rows_unchanged": 406,
+  "editorial_dispositions_changed": [
+    "G11",
+    "G301",
+    "G310",
+    "G312"
+  ],
+  "old_recent_rows_unchanged": 27,
+  "new_recent_row": "GCA1",
+  "exact_insertions_present": 3,
+  "unrelated_names_preserved": 52,
+  "protected_payloads": "Names only; no payload hash/content read",
+  "work_record_sha256_at_review": "04e16e6889b2e074536b8dac4e1520865033124123a0c79fee66662a81663168",
+  "scope": "Byte/routing preservation and actual integration correspondence, not predecessor scientific reproof"
+}

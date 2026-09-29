@@ -1,0 +1,30 @@
+{
+  "utc": "2026-09-29T22:53:16.337407+00:00",
+  "verdict": "VERIFIED-WITH-CAVEATS",
+  "context": "/root/gca_math",
+  "model": "inherited same-or-unknown; exact runtime unavailable",
+  "scope": "Frozen direct candidate and proposed insertion; no final integration attestation yet",
+  "sha256": {
+    "udt_gr_commitment_audit_2026-09-29/DIRECT_FREEZE.json": "835697fda2d5f91b805ddf84ab451068dad95ada5b3f77971b0d0e3e09125ef2",
+    "udt_gr_commitment_audit_2026-09-29/CANDIDATE_FREEZE.json": "7e211ae17c7018d7cf0a594c068b9998f9df32908133219ac788c773b7a02fc8",
+    "udt_gr_commitment_audit_2026-09-29/INITIAL_CANDIDATE.md": "30c9bef57625a8e65cee24951a55a6db173ac1d91e0f1e88c6e0052fea781a47",
+    "udt_gr_commitment_audit_2026-09-29/CENTRAL_INSERTION.md": "3e3cbcd80c8e426c34462a311a88786eef73c38abb738f7284bdefacd7337870",
+    "udt_gr_commitment_audit_2026-09-29/DECISION_BRIEF.md": "9d8fddc6b639cfbdf0de2ef04d1174910f7f69f24537f933f29b80a028738e1f",
+    "udt_gr_commitment_audit_2026-09-29/REFERENCES.md": "df3d5b6afeef123c473ca3505e4e5e755ff52d23c0f1aead69d5916c479c34e4",
+    "udt_gr_commitment_audit_2026-09-29/SCOPED_REGISTRY.json": "8fd5d9b9ad34f7e4769c7f2392ad74fc343079f8c9dc704aa4622b956f332474",
+    "udt_gr_commitment_audit_2026-09-29/checks/check_comparisons_initial.py": "5143b274222e6d7835fe706831dfd79aa4f5039aabc08474f9f967bc97f1246d",
+    "udt_gr_commitment_audit_2026-09-29/checks/check_comparisons.py": "7516497597ba8353349698558e430303829f7719cd5bf4ce9dcbe0baa8f66ce0",
+    "udt_gr_commitment_audit_2026-09-29/checks/CHECK_REPAIR.md": "71ce757fd72e7d00e4756fc7bb2684543791c73bc23a09ac0ec1570a4c5df42d",
+    "udt_gr_commitment_audit_2026-09-29/checks/comparisons_01.stderr": "8a621a446264e2ab60f6b4f61792b8e7ea0690ca8721671166aa4822c96b276f",
+    "udt_gr_commitment_audit_2026-09-29/checks/comparisons_02.stdout": "0750e9dafcc39c8c502b73b31c4429399442624de59a09f6cf433bebf5371652",
+    "udt_gr_commitment_audit_2026-09-29/checks/comparisons_02.json": "b22659d84160ff7d2d374ace9c7c63563be34a46d5ba7344fe534557915d6bf4",
+    "udt_gr_commitment_audit_2026-09-29/review/math/direct_checks_01.capture_provenance.json": "72fd541cbe4d4687074112bebe807463036675f511faf9e4edd12cabd1e4b057",
+    "udt_gr_commitment_audit_2026-09-29/review/math/DIRECT_REVIEW.md": "40bb1e4a27ffed28eac32cf05e964ed6f41f93ef62bfb67e6be05f668b66014a",
+    "udt_gr_commitment_audit_2026-09-29/review/math/direct_checks_01.json": "671e54f1097fceac948ce4f29900748e1fb6fdaac2bc5d082c3220d6fec89fe2",
+    "udt_gr_commitment_audit_2026-09-29/review/math/direct_independent.py": "a6b32ff88ce83fc267d83242daf8bb3b43e69dd914e98df29f9f9375d3625fad",
+    "udt_gr_commitment_audit_2026-09-29/review/math/SOURCE_FIRST_SEAL.json": "9fb0c12ba4b8ffa8754a03ddaf2dbbe51335c2051af79154e687c147442dbf0a",
+    "udt_gr_commitment_audit_2026-09-29/review/math/direct_checks_01.stderr": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "udt_gr_commitment_audit_2026-09-29/review/math/DIRECT_INDEPENDENT_RESULTS.json": "6d069aa1f5eacd5b70ae3521bbb389459fe248fd1501647615776f7a652e8a62",
+    "udt_gr_commitment_audit_2026-09-29/review/math/direct_checks_01.stdout": "049ef3ad04ff8aabb9e076f66150c465ef1734cec3180e5ec998bc139af289f6"
+  }
+}

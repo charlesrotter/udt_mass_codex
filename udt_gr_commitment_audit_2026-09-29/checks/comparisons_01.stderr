@@ -1,0 +1,6 @@
+Traceback (most recent call last):
+  File "/home/udt-admin/udt_mass_codex/udt_gr_commitment_audit_2026-09-29/checks/check_comparisons.py", line 52, in <module>
+    zero('product conserved family',dp(response))
+  File "/home/udt-admin/udt_mass_codex/udt_gr_commitment_audit_2026-09-29/checks/check_comparisons.py", line 14, in zero
+    assert all(v==0 for v in reduced), (name,reduced)
+AssertionError: ('product conserved family', [0, 0, alpha*(sin(2*y)*tan(y) + cos(2*y) - 1)/(r**4*sin(y)**2*tan(y)), 0])

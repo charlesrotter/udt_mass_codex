@@ -1,6 +1,6 @@
 # UDT research roadmap — current direction
 
-Updated 2026-09-29: LKT1 Lorentz-kernel return after SGE1/CDR1. This is a direction document, not scientific
+Updated 2026-09-29: GCA1 commitment audit after LKT1/SGE1/CDR1. This is a direction document, not scientific
 premise authority or research authorization. LIVE controls operational status;
 the exact registry and original reviewed sources control grades and scope.
 AGENTS controls method. Charles canonizes; CANON is unchanged.
@@ -12,14 +12,16 @@ This roadmap does not duplicate their detailed derivations or premise inventory.
 
 ## Current return and next discussion
 
-After CDR1 and SGE1, Charles suggested that the missing relationship might be
-Lorentzian and authorized [LKT1's bounded investigation and review](udt_lorentz_kernel_transport_2026-09-29/WORK_ORDER.md).
-His additional-positional-effect interpretation remains explicit in the central
-orientation. The maintained return is integrated in [central R7](UDT_DEVELOPMENT.md#r7)
-and R18; current execution evidence is [LKT1 WORK_RECORD](udt_lorentz_kernel_transport_2026-09-29/WORK_RECORD.md).
-CDR1, SGE1 and earlier work orders remain completed history. LIVE owns the operational
-return point; this roadmap does not duplicate the derivation or confer adoption.
-Original grades and CANON remain fixed.
+Charles asked which GR commitments could be explored provisionally without
+contaminating UDT's native development and authorized the recommendation to audit
+conservation and response-class assumptions. [GCA1's scope](udt_gr_commitment_audit_2026-09-29/WORK_ORDER.md)
+is now integrated in [central R10](UDT_DEVELOPMENT.md#r10) and
+[R17](UDT_DEVELOPMENT.md#r17), with the return boundary in R18.
+[Actual execution evidence](udt_gr_commitment_audit_2026-09-29/WORK_RECORD.md)
+records reviews, checks and the final banking gate. This direction record grants
+no new premise or automatic successor research. CDR1/SGE1/LKT1 remain completed
+history, their original scopes preserved. LIVE owns the operational return point;
+exact grades and CANON remain unchanged.
 
 Every next research proposal must name the central connection it advances and
 update that argument, its sources and affected positive/negative descendants.

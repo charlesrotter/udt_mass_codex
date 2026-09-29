@@ -1,0 +1,14 @@
+{
+  "command": [
+    "python3",
+    "udt_gr_commitment_audit_2026-09-29/checks/check_completion.py"
+  ],
+  "cwd": "/home/udt-admin/udt_mass_codex",
+  "started_utc": "2026-09-29T23:08:17.111770+00:00",
+  "duration_seconds": 0.09006485101417638,
+  "returncode": 0,
+  "timeout": false,
+  "address_space_bytes": 536870912,
+  "cpu_seconds": 60,
+  "maxrss_kib": 17472
+}

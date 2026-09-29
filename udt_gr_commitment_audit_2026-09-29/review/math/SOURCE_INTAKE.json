@@ -1,0 +1,169 @@
+{
+  "utc": "2026-09-29T22:48:36.068387+00:00",
+  "branch": "grok",
+  "head": "9edec2e528e058cbfab11de7a1eff1f90d0cc970",
+  "status_at_receipt": {
+    "tracked_count": 2,
+    "untracked_entries": 48,
+    "scope_note": "Names only inspected; unrelated/protected payload not read"
+  },
+  "launch_pin_checks": {
+    "AGENTS.md": {
+      "actual": "8ae0d968a20f416ec628fcf9ad445d370822889a720168104a8e41aef2b1094c",
+      "expected": "8ae0d968a20f416ec628fcf9ad445d370822889a720168104a8e41aef2b1094c",
+      "matches": true,
+      "version": "disk"
+    },
+    "CLAUDE.md": {
+      "actual": "4ad2e773defb89cc79541fd0ababd75af5a3344ab134ee83722dfd943966e6e4",
+      "expected": "4ad2e773defb89cc79541fd0ababd75af5a3344ab134ee83722dfd943966e6e4",
+      "matches": true,
+      "version": "disk"
+    },
+    "founding.md": {
+      "actual": "b4b0d9a9fdd093c992647195aca7579566a9e77a396071a699c1938888a49e75",
+      "expected": "b4b0d9a9fdd093c992647195aca7579566a9e77a396071a699c1938888a49e75",
+      "matches": true,
+      "version": "disk"
+    },
+    "CURRENT_SCIENTIFIC_PREMISES.tsv": {
+      "actual": "7a3d69d5a0bc3ac98e2ebe2bb0c6d029df30071bf403baffed2223a193dc720b",
+      "expected": "7a3d69d5a0bc3ac98e2ebe2bb0c6d029df30071bf403baffed2223a193dc720b",
+      "matches": true,
+      "version": "disk"
+    },
+    "CANON.md": {
+      "actual": "047b7fbbc1acacf01d2716e3c98cdefd0b9b20136ac4a3306f55dd6775465250",
+      "expected": "047b7fbbc1acacf01d2716e3c98cdefd0b9b20136ac4a3306f55dd6775465250",
+      "matches": true,
+      "version": "disk"
+    },
+    "UDT_DEVELOPMENT.md": {
+      "actual": "da42de0f20d58e4c930e310cca4ec2dec94bf8249e278bc7c810481c904de12d",
+      "expected": "da42de0f20d58e4c930e310cca4ec2dec94bf8249e278bc7c810481c904de12d",
+      "matches": true,
+      "version": "git launch HEAD"
+    },
+    "verify_udt_development.py": {
+      "actual": "2825e3c31351f2c81ae39cede427b5c50fc62c98cd02d7a4059692b08bb6c94c",
+      "expected": "2825e3c31351f2c81ae39cede427b5c50fc62c98cd02d7a4059692b08bb6c94c",
+      "matches": true,
+      "version": "disk"
+    },
+    "verify_current_scientific_premises.py": {
+      "actual": "a983c2456ce3a122629a116c735b32b96e055829ed3012fb416fabfa9b0b8127",
+      "expected": "a983c2456ce3a122629a116c735b32b96e055829ed3012fb416fabfa9b0b8127",
+      "matches": true,
+      "version": "disk"
+    },
+    "udt_gr_filter_reconciliation_2026-09-09/AUTHORITY_RECORD.md": {
+      "actual": "80daa0be6d3e1c0ac1b734fea089c4eb487f05bc1e1fbb2fabd69322ca89f28c",
+      "expected": "80daa0be6d3e1c0ac1b734fea089c4eb487f05bc1e1fbb2fabd69322ca89f28c",
+      "matches": true,
+      "version": "disk"
+    },
+    "udt_g301_scale_free_quiet_regular_causal_principal_classification_2026-08-30/EXACT_DERIVATION.md": {
+      "actual": "633b907b5384aa63d61d49db067dd4e608e6abd3bf3571e4267f91e5c74da8fb",
+      "expected": "633b907b5384aa63d61d49db067dd4e608e6abd3bf3571e4267f91e5c74da8fb",
+      "matches": true,
+      "version": "disk"
+    },
+    "udt_gr_response_selection_2026-09-28/REVIEWED_RESULT.md": {
+      "actual": "4c0cbaf8dac98010556136d4189f1abe724f089ca91e353b520401ff05725795",
+      "expected": "4c0cbaf8dac98010556136d4189f1abe724f089ca91e353b520401ff05725795",
+      "matches": true,
+      "version": "disk"
+    },
+    "udt_gr_response_selection_2026-09-28/INITIAL_DERIVATION.md": {
+      "actual": "06c030b7d8039c923727a7c6056434b368d952724140082cc7f0501065ed8535",
+      "expected": "06c030b7d8039c923727a7c6056434b368d952724140082cc7f0501065ed8535",
+      "matches": true,
+      "version": "disk"
+    },
+    "udt_gr_response_selection_2026-09-28/OWNERSHIP_MAP.md": {
+      "actual": "01c596dddb15b2a66cd6ad9902219b272877c96c398fe227617cd7a7902e0900",
+      "expected": "01c596dddb15b2a66cd6ad9902219b272877c96c398fe227617cd7a7902e0900",
+      "matches": true,
+      "version": "disk"
+    },
+    "udt_gr_response_selection_2026-09-28/review/DIRECT_REVIEW.md": {
+      "actual": "6748f0ab1f9cd424e34b81235f80919bb86e538503a3c053887c09db12c16ff9",
+      "expected": "6748f0ab1f9cd424e34b81235f80919bb86e538503a3c053887c09db12c16ff9",
+      "matches": true,
+      "version": "disk"
+    },
+    "udt_response_measurement_scaling_2026-09-28/REVIEWED_RESULT.md": {
+      "actual": "462cad1bb96a2ed121edede7e93d4f0fcf9d7f61c1a35f438d42ae47b7dfec3c",
+      "expected": "462cad1bb96a2ed121edede7e93d4f0fcf9d7f61c1a35f438d42ae47b7dfec3c",
+      "matches": true,
+      "version": "disk"
+    },
+    "udt_response_measurement_scaling_2026-09-28/INITIAL_CANDIDATE.md": {
+      "actual": "de2b256ba66a1347c4f490c8d6e3edcc639d818a3422a9cd6e15687ccc27ee76",
+      "expected": "de2b256ba66a1347c4f490c8d6e3edcc639d818a3422a9cd6e15687ccc27ee76",
+      "matches": true,
+      "version": "disk"
+    },
+    "udt_response_measurement_scaling_2026-09-28/review/DIRECT_REVIEW.md": {
+      "actual": "84c474b3b12a492b7c274cf20d859cf3b22a430290b210c5f29c6146445c1e11",
+      "expected": "84c474b3b12a492b7c274cf20d859cf3b22a430290b210c5f29c6146445c1e11",
+      "matches": true,
+      "version": "disk"
+    },
+    "udt_conservation_variational_response_2026-09-28/REVIEWED_RESULT.md": {
+      "actual": "fa6c2d6d511a01e20a3db043d824a7838b4ae7aadf57c3bd4edf1b7e820bc4ae",
+      "expected": "fa6c2d6d511a01e20a3db043d824a7838b4ae7aadf57c3bd4edf1b7e820bc4ae",
+      "matches": true,
+      "version": "disk"
+    },
+    "udt_conservation_variational_response_2026-09-28/INITIAL_CANDIDATE.md": {
+      "actual": "6984197615903ad0ae4ab358f357e7b6e4420d30f8aeb7cc4db63fbd54edaed0",
+      "expected": "6984197615903ad0ae4ab358f357e7b6e4420d30f8aeb7cc4db63fbd54edaed0",
+      "matches": true,
+      "version": "disk"
+    },
+    "udt_conservation_variational_response_2026-09-28/REPAIR.md": {
+      "actual": "5d2d59b8aa03b66b27acd9e834f8b4a8be52728e3f06641f8a5117df79bf0c9c",
+      "expected": "5d2d59b8aa03b66b27acd9e834f8b4a8be52728e3f06641f8a5117df79bf0c9c",
+      "matches": true,
+      "version": "disk"
+    },
+    "udt_conservation_variational_response_2026-09-28/review/DIRECT_REVIEW.md": {
+      "actual": "4b1e9a5324c34b4e57a2d2912073cf373a2a62c842ea08de0940ee0ca7bc645d",
+      "expected": "4b1e9a5324c34b4e57a2d2912073cf373a2a62c842ea08de0940ee0ca7bc645d",
+      "matches": true,
+      "version": "disk"
+    }
+  },
+  "additional_read_source_sha256": {
+    ".claude/skills/no-shortcuts/SKILL.md": "fd3a1f3218481134f2af829d3ae4175ac53518f75bf9673287efbfb7d7708fc1",
+    ".claude/skills/completeness-map/SKILL.md": "a8cf9e5f4a6d35a0d0ebfe4bc48dbf328ca74e318f020a6a22cb683666a611c0",
+    ".claude/skills/verifier-before-record/SKILL.md": "9b3a4aacd4b4006b2b7f01edada73b7c87b99bea6e754583558713bfc145e5ac",
+    "development_reconstruction_2026-09-29/MAINTENANCE.md": "6aefb0450bf83d01620f8a94024df075508165ae1c9fd4185483d1db5a025b41",
+    "development_reconstruction_2026-09-29/SOURCE_CORRECTIONS.md": "18742d3ca750540ade8108ac87d31b7355b0e88d8b96bc4a90b7f8de438d6fb0",
+    "startup_surface_g310_universal_reciprocity_refresh_2026-08-31/ADOPTION_RECORD.md": "4eb7d0a1130dcff997bc5180f420b633e2dcbbb5072d098997ba3672b38d8ab5",
+    "udt_g310_differential_dual_reciprocity_tracefree_ownership_2026-08-31/EXACT_DERIVATION.md": "a417b3cfa1cc6136429a14d3b330c1b8c25c73c9e946d6b6454d6ffae72c25a0",
+    "udt_local_kernel_symmetry_release_2026-09-13/capture.py": "78f3d662e42e072e66e6a31469572cae72fc77e307a67237efa7be310623b127",
+    "udt_shared_readout_metric_constraint_campaign_2026-09-06/run_capture.py": "8ff5469ace76bdfc84188915242abbf3baff35516f9ee3f9ba4b1cbfeb2573ef",
+    "udt_gr_commitment_audit_2026-09-29/WORK_ORDER.md": "bd25f8dc2e067fd273e62745ec2050b6795abb4e4f679f1f6fb58f28f3f52f87",
+    "udt_gr_commitment_audit_2026-09-29/SOURCE_PINS.json": "0aea03ff3a474676653cb104d896a0a35ccc2a8c0e52fae23bf482562fe9bb4a"
+  },
+  "external_statements_inspected": [
+    {
+      "url": "https://arxiv.org/html/1202.5811v1",
+      "sections": "definitions, equations 1.3-1.5, Theorem 1",
+      "proof_replayed": false
+    },
+    {
+      "url": "https://arxiv.org/html/0709.1928v2",
+      "sections": "Corollary 4.8, Theorem 5.1",
+      "proof_replayed": false
+    }
+  ],
+  "parent_startup_and_full406": "Attributed at launch HEAD; not independently rerun here",
+  "packaging_failures": [
+    "source_intake_01 correctly rejected changed current UDT_DEVELOPMENT; launch central bytes are now checked through git show. No changed prose exposed to reviewer.",
+    "source_intake_02 and source_intake_03 reached git status but threaded lstat failed under the resource bound; index.threads=1 alone was insufficient. Status now disables core.preloadIndex and sets index.threads=1 by command flags without changing git configuration."
+  ],
+  "preseal_parent_exposure": "After check run and substantive source-first draft: comparator family EH+alpha R\u00b2 on a product metric, 22 checks. No metric/proof/code/output/verdict seen."
+}
