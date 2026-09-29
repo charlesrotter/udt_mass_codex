@@ -1,0 +1,12 @@
+{
+  "utc": "2026-09-29T13:17:48.451969+00:00",
+  "candidate_exposure": false,
+  "sha256": {
+    "SOURCE_FIRST_REVIEW.md": "e7a718790e07dc6faf723b5c34a08aefd0d3e64baef5183bffb5dcfc903f8550",
+    "SOURCE_FIRST_PINS.json": "d1ebbf830853cf046031117e70ebc61efa90cec73452f8c8b321f17b9148f986",
+    "check_source_arguments.py": "ba974386a2c8636879064a1374bc10f7d007697e7d965ca076f059b1be066ac3",
+    "source_arguments.json": "a95f668f7434aa950cbfd61b0879d88669b9ba323e41725b6a79d4102ef851c9",
+    "source_arguments.stdout": "00cf96c799faa23f0d74b599052c073a116924147cbc4c04a2f22cc61d6c6cf9",
+    "source_arguments.stderr": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  }
+}

@@ -17,15 +17,17 @@ retains relative-motion Doppler and gravity. July lead reviewed/UNPROMOTED:
 `udt_july_optical_time_dilation_lead_2026-09-28/DECISION_BRIEF.md`.
 Its stationary reversal is not a generic UDT law; physical clock-map data remain open.
 
-MGC1 complete, reviewed conditional UNPROMOTED. The Machian lead separates
-independent physical scale attachment from an actual matter–geometry–clock law;
-the latter remains OPEN. External GR controls are not native UDT histories.
-Program “Current next gate” preserves FSL1 forward comparison and ICN1's restricted
-inverse reconstruction, ordinary local clocks, and accepted c_E/G_obs inputs.
-The program maps all ten recent returns; INDEX routes exact evidence.
-Latest lay return: `udt_machian_global_clock_feasibility_2026-09-28/DECISION_BRIEF.md`.
-DDR remains TF(E)=0; local-E identification is not a gate for every interframe
-question. No automatic successor; current status and permissions stay in LIVE.
+LCIA1 correction audit: `udt_repository_cleanup_2026-09-27/local_clock_impact_2026-09-29/REVIEWED_AUDIT.md`.
+The old local-E next-step requirement is retired as a universal gate. Ten lay
+entry points now separate historical advice from current use; six response-route
+briefs required explicit narrowing. Original scientific bodies remain intact.
+No specific algebra defect followed from the ordinary-clock clarification in
+inspected steps; no whole-corpus certification or full-UDT underdetermination.
+Charles clarified “no local physics” in the GR sense: ordinary local laws/clocks,
+geometric interframe effects. This does not impose identical finite experiments.
+Program maps ten scientific returns; FSL1/ICN1 remain usable without local E,
+and MGC1's missing matter coupling is specific to its Machian lead. DDR/locality
+remain provisional; no action/matter-first universal gate or automatic successor.
 
 Foundation alignment/archival return: INDEX. Kernel evaluates supplied depth; complete `B,Q,S,Y,Z` enters before readout.
 Universal Reciprocity/DDR and explained Local Metric Sufficiency remain owner-adopted provisional premises.

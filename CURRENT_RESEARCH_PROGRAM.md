@@ -1,6 +1,6 @@
 # Current UDT research program
 
-Date: 2026-09-28
+Date: 2026-09-29
 
 `LIVE.md` controls status; exact 406-row `CURRENT_SCIENTIFIC_PREMISES.tsv` controls ownership.
 
@@ -100,10 +100,32 @@ Attachment audit/archive: INDEX.
 
 ## Current next gate
 
-MGC1 is complete, reviewed conditional UNPROMOTED. The active question remains:
-**what quantitative interframe relation follows from UDT's admitted geometry
-and premises for actual observers and signal paths?** Ordinary local proper
-clocks and accepted c_E/G_obs inputs are already available.
+LCIA1 is the latest correction-audit return, FIDELITY_REVIEWED with caveats;
+the ten scientific returns below keep their original conditional/UNPROMOTED grades.
+[Correction and current-use map](udt_repository_cleanup_2026-09-27/local_clock_impact_2026-09-29/REVIEWED_AUDIT.md);
+[lay return](udt_repository_cleanup_2026-09-27/local_clock_impact_2026-09-29/DECISION_BRIEF.md).
+
+Six response-route briefs required their next-step guidance to be visibly
+historical/optional. CRD1/FCV1 local-E identification is retired as a universal
+prerequisite. Ten lay entry points now carry versioned current-use notices;
+the original scientific bodies and evidence remain preserved. A surviving
+conditional calculation does not mean all interpretations and recommendations
+survive. The inspected steps already used ordinary local clocks; no specific
+clarification-dependent algebra defect was found, not a whole-corpus certification.
+
+The active question remains **what quantitative interframe relation follows
+from UDT's admitted geometry and premises for actual observers and signal paths?**
+Ordinary local proper clocks and accepted c_E/G_obs inputs are available.
+A failed restricted route or supplied non-native control is not proof of full-UDT
+underdetermination. Local-response, conservation/action and Machian matter routes
+are optional routes, not universal prerequisites for every interframe consequence.
+
+Charles [clarified “no local physics”](udt_repository_cleanup_2026-09-27/local_clock_impact_2026-09-29/OWNER_CLARIFICATION.md)
+in the GR sense: ordinary local laws and proper-time clocks, with geometric
+interframe effects. That settles the pending interpretation without imposing
+equality of all finite experiments or adopting strong local CSN. Keep
+inverse-map reciprocity, actual two-way received ticking and
+specified-response stationarity distinct without revoking current DDR/locality.
 
 ### Machian scale and clock geometry — latest return
 
@@ -184,13 +206,14 @@ local-E gate before developing the interframe comparison.
 
 ### Next discussion and stopping boundary
 
-Choose a specific unexamined restriction on physical pair assignment or allowed
-geometry, and say what it adds beyond FSL1/FCV1/ICN1/MGC1. Existing reconstruction and
-comparison formulas supply checks for that work; repeating them alone does not
-supply the missing law. No particular new ansatz or derivation is authorized by
-the completed Machian feasibility study. A future bounded proposal follows the work-order
-and review cycle in UDT_RESEARCH_ROADMAP; it may return a conditional implication,
-a refutation or a precise unresolved join without claiming full closure.
+The local/interframe interpretation is clarified. The next discussion can focus
+on which consequences of those constraints the mathematical formulation actually
+captures, using LCIA1's corrected use map.
+Do not return automatically to local-E identification or infer that the full
+postulates are underdetermined from failures of restricted attempts. A proposed
+new derivation must name the additional implication it will examine beyond the
+retained comparison tools. No stronger premise is silently adopted by this audit.
+A future bounded work order follows UDT_RESEARCH_ROADMAP's review/repair cycle.
 
 Keep native response selection, physical pair assignment, signal/instrument
 identification, empirical correspondence and global asymptotic completion distinct.
@@ -202,7 +225,7 @@ Carrier/mass/source branches retain their existing authority and pauses.
 DCR1 reviewed conditional UNPROMOTED: directional clocks permit central tides in its supplied static class
 under full G301 at an eligible center; no neighborhood field equation; FE1 UNADOPTED.
 G312 membership/native admission unclosed; response identification OPEN; G352 physical-realization: physical identification remains OPEN.
-Stop for lay discussion. MGC1 is complete; no new campaign is authorized;
+Stop for lay discussion. LCIA1 correction audit is complete; no new campaign is authorized;
 work order and return gates: `UDT_RESEARCH_ROADMAP.md`.
 Completed chronology: `archive/roadmap_history_2026-09-28/README.md`.
 

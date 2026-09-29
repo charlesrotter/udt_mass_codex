@@ -1,3 +1,9 @@
+<!-- LCIA1_CURRENT_USE_BEGIN -->
+**Current use — 2026-09-29:** The proposed response-identification follow-up is historical and optional for this route. Its sufficient tensor classification is not a prerequisite for every interframe law.
+
+See the [reviewed correction audit](../udt_repository_cleanup_2026-09-27/local_clock_impact_2026-09-29/REVIEWED_AUDIT.md). The original return below is preserved from `238ff6a7`; its proposals do not authorize current work.
+<!-- LCIA1_CURRENT_USE_END -->
+
 # GRS1 lay return
 
 We found a useful conditional derivation, but have not yet derived UDT's physical

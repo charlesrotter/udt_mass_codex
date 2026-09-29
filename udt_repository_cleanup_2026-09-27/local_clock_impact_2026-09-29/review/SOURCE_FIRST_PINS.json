@@ -1,0 +1,214 @@
+{
+  "utc": "2026-09-29T13:15:24.203959+00:00",
+  "baseline_commit": "238ff6a7c7b5df528da2f1ae969b2127b7faf90b",
+  "read_scope": "See SOURCE_FIRST_REVIEW.md; registry hashed for version only, not full rows inspected. Founding passages only as stated.",
+  "paths": {
+    "AGENTS.md": {
+      "sha256": "c578b045cf3278804124e23a5408ff9634a9a2165f7d20223f654d76bffd8ec9",
+      "bytes": 15476
+    },
+    "CLAUDE.md": {
+      "sha256": "b7e524a5b06760e57877a408630228767ae9a394134095f9851bef5d06e17751",
+      "bytes": 9879
+    },
+    "CROSS_MODEL_VERIFY.md": {
+      "sha256": "2b0509d933d731fbf3f72aa88777a54d3e48a94d4bae3d324087871777f9a007",
+      "bytes": 2632
+    },
+    "CURRENT_SCIENTIFIC_PREMISES.md": {
+      "sha256": "7b574665f714551a3a565987fc5bc56a4b44c7e6fb274532f61609c25153f627",
+      "bytes": 10204
+    },
+    "CURRENT_SCIENTIFIC_PREMISES.tsv": {
+      "sha256": "7a3d69d5a0bc3ac98e2ebe2bb0c6d029df30071bf403baffed2223a193dc720b",
+      "bytes": 909534
+    },
+    "founding.md": {
+      "sha256": "b4b0d9a9fdd093c992647195aca7579566a9e77a396071a699c1938888a49e75",
+      "bytes": 41347
+    },
+    "LIVE.md": {
+      "sha256": "0dd06530c8105273a7c3978bdc8f1224cc908719d8c823ef0783b2847a0b86df",
+      "bytes": 10262
+    },
+    "CURRENT_RESEARCH_PROGRAM.md": {
+      "sha256": "d22be05e8f16e014dc6815ed5cbd37b14f31debe106436d4424ed2e60e7db24a",
+      "bytes": 22338
+    },
+    "UDT_RESEARCH_ROADMAP.md": {
+      "sha256": "b88789a1359990e369d23745c283c3a71e69f5648c9c10315fd6aa29e7ba9aa4",
+      "bytes": 17379
+    },
+    "INDEX.md": {
+      "sha256": "1193eaf98ca0156b01a24a6291295996ec6d19f45a67b78c7cc47358be39ba45",
+      "bytes": 14385
+    },
+    "startup_surface_g310_universal_reciprocity_refresh_2026-08-31/ADOPTION_RECORD.md": {
+      "sha256": "4eb7d0a1130dcff997bc5180f420b633e2dcbbb5072d098997ba3672b38d8ab5",
+      "bytes": 2114
+    },
+    "udt_gr_filter_reconciliation_2026-09-09/AUTHORITY_RECORD.md": {
+      "sha256": "80daa0be6d3e1c0ac1b734fea089c4eb487f05bc1e1fbb2fabd69322ca89f28c",
+      "bytes": 5452
+    },
+    "udt_repository_cleanup_2026-09-27/trajectory_checkpoint_2026-09-28/WORK_RECORD.md": {
+      "sha256": "6f6c2c1faad6b5d6bb492dd485ab4e888464905dc53d379be0aa661c4e323b26",
+      "bytes": 6400
+    },
+    "udt_shared_readout_metric_constraint_campaign_2026-09-06/run_capture.py": {
+      "sha256": "8ff5469ace76bdfc84188915242abbf3baff35516f9ee3f9ba4b1cbfeb2573ef",
+      "bytes": 1505
+    },
+    ".claude/skills/verifier-before-record/SKILL.md": {
+      "sha256": "9b3a4aacd4b4006b2b7f01edada73b7c87b99bea6e754583558713bfc145e5ac",
+      "bytes": 3545
+    },
+    ".claude/skills/completeness-map/SKILL.md": {
+      "sha256": "a8cf9e5f4a6d35a0d0ebfe4bc48dbf328ca74e318f020a6a22cb683666a611c0",
+      "bytes": 2490
+    },
+    ".claude/skills/solution-space-not-imposition/SKILL.md": {
+      "sha256": "095561e8f307928b286f7935d1d6f161b33ac56fe227d702c708f81a329bd47c",
+      "bytes": 5060
+    },
+    ".claude/skills/no-shortcuts/SKILL.md": {
+      "sha256": "fd3a1f3218481134f2af829d3ae4175ac53518f75bf9673287efbfb7d7708fc1",
+      "bytes": 2966
+    },
+    "udt_observation_guided_function_search_2026-09-28/REVIEWED_RESULT.md": {
+      "sha256": "f1dffa344c81154e533274495b70c6d884c65e6628b85a076c20400d7833b79c",
+      "bytes": 5572
+    },
+    "udt_observation_guided_function_search_2026-09-28/DECISION_BRIEF.md": {
+      "sha256": "614e5a71335833439af94ea719c0ac506b4e5a1766177cc335643ee345243a29",
+      "bytes": 4581
+    },
+    "udt_observation_guided_function_search_2026-09-28/GEOMETRY_RESULT.md": {
+      "sha256": "65705eaa6f681dd91fd914d6675ffa66425ec5730daab251e34ff5bb59e4dda3",
+      "bytes": 7408
+    },
+    "udt_observation_guided_function_search_2026-09-28/geometry/INITIAL_METRIC_PASS.md": {
+      "sha256": "5b0f6796df76d826f9dd745a5737dd4d13d25562e21dbe122b440d74c367b273",
+      "bytes": 15982
+    },
+    "udt_common_geometry_whiteboard_2026-09-28/REVIEWED_RESULT.md": {
+      "sha256": "b4bdb53716762b6bac91dc95dd867920c18892e82c425d701e28d1981929e0b9",
+      "bytes": 5478
+    },
+    "udt_common_geometry_whiteboard_2026-09-28/DECISION_BRIEF.md": {
+      "sha256": "f01da64794d0e816a4b7c59d77d9599ebbcf160e2409596c0d589f3cedce288b",
+      "bytes": 3292
+    },
+    "udt_common_geometry_whiteboard_2026-09-28/INITIAL_SYNTHESIS.md": {
+      "sha256": "42a4f286c15cceebf663deae5570f954f50587558268ecc8be4da10910f2b0d9",
+      "bytes": 19433
+    },
+    "udt_clock_curvature_derivation_2026-09-28/REVIEWED_RESULT.md": {
+      "sha256": "0afd91a8305d0f3cb6de78b0c5a275b861b15bd02db00900b7f3648eed28d852",
+      "bytes": 3487
+    },
+    "udt_clock_curvature_derivation_2026-09-28/DECISION_BRIEF.md": {
+      "sha256": "f60b832be292295b1668882d7587e84f9b0a80ffc8ed6fe8c320d8530e5a076e",
+      "bytes": 2253
+    },
+    "udt_clock_curvature_derivation_2026-09-28/INITIAL_DERIVATION.md": {
+      "sha256": "e896d9e7044ed936c82c4c2d5f83a97bf00f8a6732997c0d57e0442413324201",
+      "bytes": 11967
+    },
+    "udt_gr_response_selection_2026-09-28/REVIEWED_RESULT.md": {
+      "sha256": "4c0cbaf8dac98010556136d4189f1abe724f089ca91e353b520401ff05725795",
+      "bytes": 5740
+    },
+    "udt_gr_response_selection_2026-09-28/DECISION_BRIEF.md": {
+      "sha256": "48d24385c7688cf1020d3fae05fc7c681113a35bea05a9ba078fcad4b7bed852",
+      "bytes": 2964
+    },
+    "udt_gr_response_selection_2026-09-28/INITIAL_DERIVATION.md": {
+      "sha256": "06c030b7d8039c923727a7c6056434b368d952724140082cc7f0501065ed8535",
+      "bytes": 10352
+    },
+    "udt_response_measurement_scaling_2026-09-28/REVIEWED_RESULT.md": {
+      "sha256": "462cad1bb96a2ed121edede7e93d4f0fcf9d7f61c1a35f438d42ae47b7dfec3c",
+      "bytes": 8287
+    },
+    "udt_response_measurement_scaling_2026-09-28/DECISION_BRIEF.md": {
+      "sha256": "8a6285b01fe83e94f4bee7f6273d1c6af9d5b8ed0ca7a066251bedff5eb54569",
+      "bytes": 2594
+    },
+    "udt_response_measurement_scaling_2026-09-28/INITIAL_CANDIDATE.md": {
+      "sha256": "de2b256ba66a1347c4f490c8d6e3edcc639d818a3422a9cd6e15687ccc27ee76",
+      "bytes": 11014
+    },
+    "udt_conservation_variational_response_2026-09-28/REVIEWED_RESULT.md": {
+      "sha256": "fa6c2d6d511a01e20a3db043d824a7838b4ae7aadf57c3bd4edf1b7e820bc4ae",
+      "bytes": 5362
+    },
+    "udt_conservation_variational_response_2026-09-28/DECISION_BRIEF.md": {
+      "sha256": "33269d5f3f3e4a3a1678295996172bbbf5a0d224fc8b4cf97ea68c2217f778ae",
+      "bytes": 2269
+    },
+    "udt_conservation_variational_response_2026-09-28/INITIAL_CANDIDATE.md": {
+      "sha256": "6984197615903ad0ae4ab358f357e7b6e4420d30f8aeb7cc4db63fbd54edaed0",
+      "bytes": 8855
+    },
+    "udt_finite_separation_law_2026-09-28/REVIEWED_RESULT.md": {
+      "sha256": "1a1770b84ba184e2411cf4dac30e694bffec46a762bba618c2edf0d1df8b8740",
+      "bytes": 4141
+    },
+    "udt_finite_separation_law_2026-09-28/DECISION_BRIEF.md": {
+      "sha256": "beaaf18b25ddcf03b711e6d054b00390d2c7ddd274f8ddcee7cfccd38a07274e",
+      "bytes": 2396
+    },
+    "udt_finite_separation_law_2026-09-28/INITIAL_CANDIDATE.md": {
+      "sha256": "7dd39a4840390f15fcedc2ae0e588f51e441b4348eaf0f0f8d9b81968b60d8e4",
+      "bytes": 10261
+    },
+    "udt_finite_separation_law_2026-09-28/REPAIR.md": {
+      "sha256": "be0927544e72bebd38a364cac33e0979aa8b4c4a1bdcdeba5dedf3e16e41e368",
+      "bytes": 1132
+    },
+    "udt_finite_clock_metric_variation_2026-09-28/REVIEWED_RESULT.md": {
+      "sha256": "609f7889104aa3cc9804926738e888a83df7d593db7daab0763aef20809023f8",
+      "bytes": 6419
+    },
+    "udt_finite_clock_metric_variation_2026-09-28/DECISION_BRIEF.md": {
+      "sha256": "70979aa2aa0b8f4f99808575bc8c8a3654dff1c0ea1b783edadaf064b9e9c673",
+      "bytes": 2191
+    },
+    "udt_finite_clock_metric_variation_2026-09-28/INITIAL_CANDIDATE.md": {
+      "sha256": "ed65323a439e1d509bc0241c6550a5485e3f1a496b06b6ab01eb34692443d1d4",
+      "bytes": 13608
+    },
+    "udt_interframe_clock_network_2026-09-28/REVIEWED_RESULT.md": {
+      "sha256": "28c8e36dd78e8007cba1ec7846350793e9142029fbb2e4e6891ed4cb9c21ab54",
+      "bytes": 6645
+    },
+    "udt_interframe_clock_network_2026-09-28/DECISION_BRIEF.md": {
+      "sha256": "a713160b68038b398784ab2ad1360c310aadcca6e9efe520c8608df14d9f95ae",
+      "bytes": 2545
+    },
+    "udt_interframe_clock_network_2026-09-28/INITIAL_CANDIDATE.md": {
+      "sha256": "7cc6ad40fbaa67c8d666fccc25cad3ceb3ec379df29f101be48e1697e0bed8ae",
+      "bytes": 14927
+    },
+    "udt_interframe_clock_network_2026-09-28/REPAIR.md": {
+      "sha256": "1a27568a7e082fee4198e954b9bd726a500b2eac705989a1ba824cd0fd395fe5",
+      "bytes": 1430
+    },
+    "udt_machian_global_clock_feasibility_2026-09-28/REVIEWED_RESULT.md": {
+      "sha256": "9102fcf8b97e0b168ca23cf98e9ad6ebf45c04073e02dd8120c8cb7934f6a7e3",
+      "bytes": 7236
+    },
+    "udt_machian_global_clock_feasibility_2026-09-28/DECISION_BRIEF.md": {
+      "sha256": "d63fee386e00f70a2a80c59623bfb84e80019aece567d73aa16d5feec3fd8010",
+      "bytes": 3007
+    },
+    "udt_machian_global_clock_feasibility_2026-09-28/INITIAL_CANDIDATE.md": {
+      "sha256": "431610fc8e8d7672447b879f327272c257de74635e902e76c120de2f041dbf79",
+      "bytes": 11971
+    }
+  },
+  "history_commit_inspected": "50cd10b21218a4a8ae68f4ccb61794afd1cfea03",
+  "history_diff": "git show 50cd10b2 -- CURRENT_RESEARCH_PROGRAM.md UDT_RESEARCH_ROADMAP.md",
+  "protected_payloads_opened_or_hashed": false
+}

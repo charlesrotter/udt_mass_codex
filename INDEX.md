@@ -2,7 +2,7 @@
 
 Current explanation: `CURRENT_RESEARCH_PROGRAM.md`; current direction: `UDT_RESEARCH_ROADMAP.md`.
 Recent work: [forward/inverse distinction](CURRENT_RESEARCH_PROGRAM.md#forward-prediction-and-inverse-reconstruction),
-[nine-result trajectory](CURRENT_RESEARCH_PROGRAM.md#trajectory-of-the-recent-work), and
+[recent-result trajectory](CURRENT_RESEARCH_PROGRAM.md#trajectory-of-the-recent-work), and
 [next discussion](CURRENT_RESEARCH_PROGRAM.md#next-discussion-and-stopping-boundary).
 Completed chronology and older campaign locator: `archive/roadmap_history_2026-09-28/README.md`.
 The exact 406-row `CURRENT_SCIENTIFIC_PREMISES.tsv` owns grades, not these pointers.
@@ -42,6 +42,12 @@ Predecessor: `udt_nonlinear_mode_realizability_campaign_2026-09-09/DECISION_BRIE
 G388--G389 conditional, compact-sector mixed-C2/analytic-local tangent limits; original reviews control.
 
 ## Founding, relational and response sources
+
+Current-use correction: [LCIA1 audit](udt_repository_cleanup_2026-09-27/local_clock_impact_2026-09-29/REVIEWED_AUDIT.md)
+and [impact ledger](udt_repository_cleanup_2026-09-27/local_clock_impact_2026-09-29/IMPACT_LEDGER.tsv). The ten briefs below carry dated
+notices. Original candidates/work orders preserve historical next-step language;
+it is not current direction. Old reviews own their original versions. Optional
+response-classification routes are not prerequisites for every clock investigation.
 
 Use CURRENT_RESEARCH_PROGRAM for the connected explanation. Open the following
 exact source only for the question it addresses; none is a new startup prerequisite.

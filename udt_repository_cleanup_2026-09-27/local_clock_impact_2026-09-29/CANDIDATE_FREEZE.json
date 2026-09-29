@@ -1,0 +1,9 @@
+{
+  "scope": "Author initial impact argument/ledger before direct review; no new scientific derivation",
+  "sha256": {
+    "INITIAL_AUDIT.md": "1104bc372dc59d4360b4a4af5ccaf60ce70059d3ac548c1e3337f9746a31a703",
+    "IMPACT_LEDGER.tsv": "5f1b8f1b16cd0344f1b499141ea0d69fc4a8f220c441bb0a886e509bc5048014",
+    "WORK_ORDER.md": "b70ee1471bf5946f70126fc2cbb0dd86f7bab2fe86cf4e68f6beff2238aabcd0",
+    "LAUNCH.json": "f47a1033f1f520abb06161bfb3be42d0c0eaf66a5befa170d15afc194d799128"
+  }
+}

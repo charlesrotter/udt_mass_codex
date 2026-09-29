@@ -1,0 +1,14 @@
+{
+  "command": [
+    "python3",
+    "udt_repository_cleanup_2026-09-27/local_clock_impact_2026-09-29/review/check_final_preservation.py"
+  ],
+  "cwd": "/home/udt-admin/udt_mass_codex",
+  "started_utc": "2026-09-29T13:31:05.367584+00:00",
+  "duration_seconds": 0.14320462199975736,
+  "returncode": 0,
+  "timeout": false,
+  "address_space_bytes": 536870912,
+  "cpu_seconds": 60,
+  "maxrss_kib": 24796
+}

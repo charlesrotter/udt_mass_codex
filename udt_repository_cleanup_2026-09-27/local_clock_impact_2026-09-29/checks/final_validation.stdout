@@ -1,0 +1,13 @@
+{
+  "result": "PASS",
+  "startup_surface": "PASS",
+  "unchanged_package_files": 839,
+  "byte_preserved_original_briefs": 10,
+  "unchanged_authority_pins": 9,
+  "prior_untracked_names_preserved": 52,
+  "exact_tracked_change_paths": 16,
+  "founding_architecture_and_prior_owner_directions": "unchanged",
+  "candidate_and_source_first_seals": "unchanged",
+  "full_premise_audit": "attributed pre-edit PASS",
+  "limits": "Packaging regression. No scientific regrade or semantic completeness claim."
+}

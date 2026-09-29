@@ -1,0 +1,28 @@
+{
+  "status": "PASS",
+  "scope": "seven exact source argument anchors; not ten-package recertification",
+  "python": "3.10.12",
+  "sympy": "1.13.1",
+  "checks": {
+    "CRD_scalar_curvature": "Derivative(F(t, x), (t, 2)) + Derivative(F(t, x), (x, 2))/F(t, x)**2 - 2*Derivative(F(t, x), x)**2/F(t, x)**3",
+    "CRD_principal": "F_tt + F**(-2) F_xx; definite for F>0, restricted forcing only",
+    "GRS_R2_degeneracy": {
+      "R": "0",
+      "Ric_tt": "3/(4*t**2)",
+      "Ric_xx": "1/(4*t)"
+    },
+    "CRV_fixed_metric_curl": "16/3",
+    "FCV_original_null_ODE_control": {
+      "arrival_delta": "em/70 + 1/140",
+      "Q": "1/70",
+      "compact_bump_claim_checked_numerically": false
+    },
+    "FSL_direction_control": "gamma^2-|spatial|^2=1 and Z=1 for all q>0; norm tends to one",
+    "ICN_radar_and_longitudinal_gradient": {
+      "radar": "(p*q - 1)/(p*q + 1)",
+      "partial_T_phi": "(-beta*dS - dK)/(beta**2 - 1)",
+      "c_partial_R_phi": "(beta*dK + dS)/(beta**2 - 1)"
+    },
+    "MGC_clock_homothety": "f_ell(ell t) derivative equals f_prime(t); matched clocks required"
+  }
+}

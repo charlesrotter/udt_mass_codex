@@ -1,7 +1,7 @@
 # HANDOFF — lean fresh-session anchor
 
 <!-- STARTUP_CURRENT_BEGIN -->
-## Current handoff anchor — 2026-09-28
+## Current handoff anchor — 2026-09-29
 
 `LIVE.md` wins; exact grades belong to the 406-row `CURRENT_SCIENTIFIC_PREMISES.tsv`.
 Sources: `INDEX.md`; dependency spine:
@@ -93,27 +93,30 @@ Follow AGENTS; report actual instructions/checks and distinguish configured from
 Dated availability check COMPLETE: `archive/stale_working_documents_2026-09-27/maintenance_agent_capacity_2026-09-10.md`.
 General capacity UNVERIFIED; no automatic repeat. FSR1/PJC1 supplied no new field equation; Maxwell PAUSED.
 
-Next: MGC1 is complete, reviewed conditional UNPROMOTED. Current trajectory and open
-question: `CURRENT_RESEARCH_PROGRAM.md`, “Current next gate.” A justified
-mass–size relation plus an independent physical datum could fix scale; a
-co-scaling geometric mass may not. No native matter–geometry–clock law is derived.
-The external GR clock control is not a native UDT counterexample or new premise.
+Next: LCIA1 correction audit is complete, FIDELITY_REVIEWED with caveats. Latest
+[lay return](udt_repository_cleanup_2026-09-27/local_clock_impact_2026-09-29/DECISION_BRIEF.md);
+[current-use map](udt_repository_cleanup_2026-09-27/local_clock_impact_2026-09-29/REVIEWED_AUDIT.md).
+Six response-route recommendations are narrowed/retired as universal next gates;
+ten original lay briefs now carry current-use notices with original bodies preserved.
+No specific clarification-dependent algebra defect was found in inspected steps;
+this is not all-math recertification or a proof of full-UDT underdetermination.
 
-Lay return: `udt_machian_global_clock_feasibility_2026-09-28/DECISION_BRIEF.md`;
-REVIEWED_RESULT and CLOSEOUT own the exact hypotheses, checks and review limits.
-FSL1 computes clock comparisons on supplied geometry; ICN1 reconstructs only
-its stated longitudinal sector. Native physical pair/separation assignment and
-physical X_max remain OPEN. Ordinary local clocks and accepted c_E/G_obs inputs
-remain in place; local-E identification is not a prerequisite for this route.
-DDR remains TF(E)=0, with physical E and native conservation OPEN.
+Ordinary local clocks and accepted c_E/G_obs remain. Charles clarified “no local
+physics” in the GR sense: ordinary local laws/clocks, geometric interframe effects.
+No equality of all finite-region experiments follows from that clarification.
+Local-E identification, an action and a matter law are not universal prerequisites
+for every interframe consequence. DDR/locality and GR FILTER ONLY retain their
+existing grades. Native physical pair assignment and the physical X_max remain OPEN.
+The program preserves all ten scientific returns, including FSL1/ICN1 tools and
+MGC1's conditional scale result. Old proposed next steps are historical.
 
-INDEX routes all ten recent returns; the program groups their gains and limits.
 Completed chronology: `archive/roadmap_history_2026-09-28/README.md`.
-Original source paths and grades remain fixed; old next-step language is historical.
+Original source grades/reviews remain version-specific; notice review does not
+regrade the mathematics or assert that stronger interpretations were tested.
 
 DCR1 reviewed conditional UNPROMOTED: directional clocks permit central tides in its supplied static class
 under full G301 at an eligible center; no neighborhood field equation; FE1 UNADOPTED.
 G312 membership/native admission unclosed; response identification OPEN; G352 physical-realization: physical identification remains OPEN.
-Stop for lay discussion. MGC1 is complete; no new campaign is authorized;
+Stop for lay discussion. LCIA1 correction audit is complete; no new campaign is authorized;
 work order and return gates: `UDT_RESEARCH_ROADMAP.md`.
 <!-- STARTUP_CURRENT_END -->

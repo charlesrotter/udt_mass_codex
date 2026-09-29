@@ -1,3 +1,9 @@
+<!-- LCIA1_CURRENT_USE_BEGIN -->
+**Current use — 2026-09-29:** The proposed local-response development route is optional, not the universal next gate. Retain the supplied-geometry comparison and directional asymptotic test.
+
+See the [reviewed correction audit](../udt_repository_cleanup_2026-09-27/local_clock_impact_2026-09-29/REVIEWED_AUDIT.md). The original return below is preserved from `238ff6a7`; its proposals do not authorize current work.
+<!-- LCIA1_CURRENT_USE_END -->
+
 # FSL1 — lay return
 
 We have an explicit universal clock-comparison rule **once the geometry,

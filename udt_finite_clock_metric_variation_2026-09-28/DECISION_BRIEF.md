@@ -1,3 +1,9 @@
+<!-- LCIA1_CURRENT_USE_BEGIN -->
+**Current use — 2026-09-29:** The next-attempt requirement to identify a local DDR response is retired as universal guidance. The failed identification concerns one query derivative, not interframe dilation or all local dynamics.
+
+See the [reviewed correction audit](../udt_repository_cleanup_2026-09-27/local_clock_impact_2026-09-29/REVIEWED_AUDIT.md). The original return below is preserved from `238ff6a7`; its proposals do not authorize current work.
+<!-- LCIA1_CURRENT_USE_END -->
+
 # FCV1 — what the derivation tells us
 
 We derived how an actual comparison between separated clocks changes when the

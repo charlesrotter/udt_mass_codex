@@ -1,3 +1,9 @@
+<!-- LCIA1_CURRENT_USE_BEGIN -->
+**Current use — 2026-09-29:** Retain the conditional Machian scale test. A matter coupling is an open join for that lead, not a universal prerequisite for a geometric clock law.
+
+See the [reviewed correction audit](../udt_repository_cleanup_2026-09-27/local_clock_impact_2026-09-29/REVIEWED_AUDIT.md). The original return below is preserved from `238ff6a7`; its proposals do not authorize current work.
+<!-- LCIA1_CURRENT_USE_END -->
+
 # MGC1 — lay return
 
 **The Machian idea gives us a useful route toward scale, but has not yet given

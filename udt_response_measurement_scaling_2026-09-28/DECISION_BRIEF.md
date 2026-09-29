@@ -1,3 +1,9 @@
+<!-- LCIA1_CURRENT_USE_BEGIN -->
+**Current use — 2026-09-29:** The instruction to focus the next discussion on physical response identification is historical route-specific advice. Retain the conditional readings and narrowly rejected direct identifications.
+
+See the [reviewed correction audit](../udt_repository_cleanup_2026-09-27/local_clock_impact_2026-09-29/REVIEWED_AUDIT.md). The original return below is preserved from `238ff6a7`; its proposals do not authorize current work.
+<!-- LCIA1_CURRENT_USE_END -->
+
 # RMS1 — lay return
 
 This exploration narrows the missing connection, but does not yet derive UDT's

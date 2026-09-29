@@ -1,6 +1,6 @@
 # UDT research roadmap — current direction
 
-Updated 2026-09-28: Machian feasibility return after MGC1. This is a direction document, not scientific
+Updated 2026-09-29: local-clock clarification impact audit LCIA1. This is a direction document, not scientific
 premise authority or research authorization. LIVE controls operational status;
 the exact registry and original reviewed sources control grades and scope.
 AGENTS controls method. Charles canonizes; CANON is unchanged.
@@ -12,21 +12,27 @@ This roadmap does not duplicate their detailed derivations or premise inventory.
 
 ## Current return and next discussion
 
-MGC1 is complete, reviewed conditional UNPROMOTED:
-[lay return](udt_machian_global_clock_feasibility_2026-09-28/DECISION_BRIEF.md) and
-[reviewed result](udt_machian_global_clock_feasibility_2026-09-28/REVIEWED_RESULT.md).
+LCIA1 correction audit is complete, FIDELITY_REVIEWED with caveats:
+[lay return](udt_repository_cleanup_2026-09-27/local_clock_impact_2026-09-29/DECISION_BRIEF.md),
+[impact and corrected use](udt_repository_cleanup_2026-09-27/local_clock_impact_2026-09-29/REVIEWED_AUDIT.md).
 The [program's current gate](CURRENT_RESEARCH_PROGRAM.md#current-next-gate)
-owns the connected explanation and ten-result trajectory. A justified physical
-mass–size relation with independent data could attach scale; no native relation
-constraining the actual clock family or physical X_max was derived. The external
-GR controls are comparisons, not native UDT histories or adopted dynamics.
+keeps all ten scientific returns at their original scopes. Six response-route
+briefs required explicit narrowing of old next-step guidance; ten lay entry
+points now carry versioned notices, preserving their original bodies.
 
-FSL1's forward clock calculation and ICN1's restricted reconstruction remain
-available. Ordinary local clocks require no extra premise. Native physical pair
-assignment remains OPEN; no new premise has been proved necessary. A successor
-must identify a specific implication beyond evaluating supplied geometry,
-reconstructing supplied records or repeating scale attachment. This completed
-study authorizes no automatic successor.
+Ordinary local clocks were already used in the inspected calculations. That
+does not justify a blanket no-revision answer. No specific clarification-dependent
+algebra defect was found in the inspected steps; no whole-corpus correctness or
+full-UDT underdetermination is established. A local field response, action or
+physical matter law is not required for every conditional interframe consequence.
+MGC1 remains a conditional Machian scale lead, not a universal matter-first gate.
+
+Charles [clarified “no local physics”](udt_repository_cleanup_2026-09-27/local_clock_impact_2026-09-29/OWNER_CLARIFICATION.md)
+in the GR sense: ordinary local laws/clocks with geometric interframe effects.
+This settles that interpretation; no equality of all finite experiments or strong
+local CSN is adopted. The next discussion can examine which consequences of the
+intended interframe constraints the formulation captures. No successor is
+authorized by this correction audit.
 
 Response selection, pair assignment, a chosen signal/measurement interface,
 empirical correspondence and global asymptotic completion are distinct questions.
@@ -40,6 +46,19 @@ not established from filter-only GR. Current authority:
 `udt_gr_filter_reconciliation_2026-09-09/AUTHORITY_RECORD.md`.
 No physical response definition, nonzero normalization or scale symmetry is
 supplied by this roadmap. Current sources own all mathematical hypotheses.
+
+## Correction-propagation direction — 2026-09-29
+
+Charles challenged whether earlier conclusions were reconsidered after the
+local-physics clarification and whether stale work still redirects the program.
+[Exact concern and authorization](udt_repository_cleanup_2026-09-27/local_clock_impact_2026-09-29/OWNER_CONCERN.md).
+His “Proceed” authorized LCIA1's focused argument/impact audit, reading-point
+repairs and fresh review. It did not adopt a stronger local-neutrality premise.
+His subsequent clarification confirms the ordinary-local/geometric-interframe
+meaning; the final LCIA1 record includes that answer and its bounded impact check.
+Current statements, historical mathematical validity and research usefulness
+are evaluated separately. Failed restricted routes must not become a claim
+that all current UDT postulates underdetermine geometry.
 
 ## Machian investigative direction — 2026-09-28
 
