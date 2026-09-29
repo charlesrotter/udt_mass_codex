@@ -1,0 +1,43 @@
+{
+  "python": "3.10.12",
+  "sympy": "1.13.1",
+  "checks": {
+    "area_rank10_mixed_metric": true,
+    "area_sign_twins": true,
+    "mixed_metric_nonzero_shift": true,
+    "radar_geodesic_equation": true,
+    "proper_metric_value": true,
+    "radar_velocity_consistency": true,
+    "radar_inverse_gradients": true,
+    "nonCMC_complete_reconstruction": true,
+    "nonCMC_hamiltonian": true,
+    "nonCMC_all_momentum": true,
+    "nonCMC_vector_source_nonzero": true,
+    "nonCMC_momentum_normalization": true,
+    "conjugate_full_phase_invertible": true,
+    "conjugate_both_areas_zero": true,
+    "conjugate_quotient_undefined": true,
+    "neutral_density_area_only": true,
+    "weighted_density_-2": true,
+    "weighted_density_0": true,
+    "weighted_density_1": true,
+    "weighted_density_3": true,
+    "clock_rate_division_free": true,
+    "clock_zero_support": true,
+    "null_root_quadratic": true,
+    "null_future_root": true,
+    "interior_clock_ODE_response": true
+  },
+  "passed": 25,
+  "values": {
+    "area_control_metric": "Matrix([[-4, -2, 0, 0], [-2, 0, 1, 0], [0, 1, 5, 2], [0, 0, 2, 2]])",
+    "conjugate_rank_B": 0,
+    "clock_polynomial_control": {
+      "B0": "32/35",
+      "B1": "32/35",
+      "response": "64/35",
+      "scope": "algebra only; not an all-endpoint-jets compact-bump witness"
+    }
+  },
+  "script_sha256": "d26b0b172bbb1ea5f05bb37677bc709f1985e3bd2d5e734fde7c248842f0bc28"
+}

@@ -1,0 +1,24 @@
+{
+  "python": "3.10.12",
+  "sympy": "1.13.1",
+  "checks": {
+    "base_Ricci_00": true,
+    "base_Ricci_01": true,
+    "base_Ricci_10": true,
+    "base_Ricci_11": true,
+    "fiber_y_Ricci": true,
+    "fiber_z_Ricci": true,
+    "lambda_integrability": true,
+    "lambda_t_profile": true,
+    "lambda_x_profile": true,
+    "lambda_initial_constant": true,
+    "full_initial_Kx": true,
+    "full_initial_Ky": true,
+    "full_initial_Kz": true,
+    "initial_Hamiltonian": true,
+    "initial_momentum": true
+  },
+  "passed": 15,
+  "method": "2D conformal base plus two 1D warped fibers; no author curvature code imported",
+  "script_sha256": "21d66948c6927cc9f113295d1160b1a44b9e4577ba00922ab3df66d56a1c71fd"
+}

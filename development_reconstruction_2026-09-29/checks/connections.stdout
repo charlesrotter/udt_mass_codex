@@ -1,0 +1,14 @@
+{
+  "result": "PASS",
+  "sympy": "1.13.1",
+  "checked_connections": [
+    "area differential rank10 on nondegenerate Lorentz control",
+    "actual two-way normalization and gradient system",
+    "G310 corrected covector sign with negative coordinate component",
+    "full non-CMC flat-torus constraints with Lambda=-q^2",
+    "all original Ricci components vanish under polarized reduction",
+    "exact nonlinear lambda compatibility with chosen F ODE",
+    "optional future-raised null root"
+  ],
+  "scope": "Exact controls and original metric residuals. Conditional ansatz only; no general existence/stability proof or physical promotion."
+}

@@ -1,0 +1,18 @@
+{
+  "sha256": {
+    "development_reconstruction_2026-09-29/INTEGRATION_REPAIR_FREEZE.json": "4244dd0588c7065d1e0cbe014bf4a4841b05fc38e9a01ce7da1284d81ed9522a",
+    "development_reconstruction_2026-09-29/review/fidelity/FINAL_ATTESTATION.json": "bd27c415636b5974accfb923c9736a2cf64b33173c6b1e44584118bd5de31f86",
+    "development_reconstruction_2026-09-29/review/fidelity/FINAL_REVIEW.md": "fa349cbae82fec893f5fe218ede3b69e3b8f3b22b45418fe3787279c2ed6a696",
+    "development_reconstruction_2026-09-29/review/fidelity/FULL_DIRECT_SEAL.json": "6c549357f076baaf3db85d11613305df3a03376bb677100279e88b3197b27ea0",
+    "development_reconstruction_2026-09-29/review/fidelity/INTEGRATION_ATTESTATION.json": "86c8f52eb3b1e36cf46fb84fa17e1d05452657c6fd4949a14e4d1673ff403505",
+    "development_reconstruction_2026-09-29/review/fidelity/INTEGRATION_REPAIR_CHECKS.json": "50027e44d63692b2345e7d34d4458f9a28c42b9eb4e1e9dc66e9619fafe670b3",
+    "development_reconstruction_2026-09-29/review/fidelity/INTEGRATION_REVIEW.md": "20a05b147342f894907697479ab0d872aa5c0f76cab39d34373cced1335bb5ca",
+    "development_reconstruction_2026-09-29/review/fidelity/INTEGRATION_SEAL.json": "446c1555758f20ca417454802386ca7d2fb6602c7af4fc530538a598107894dd",
+    "development_reconstruction_2026-09-29/review/fidelity/SOURCE_FIRST_SEAL.json": "c9cbec733613c8a23dfc6fb31f402141df7a386c62b89c4487c2ec524c36ac93",
+    "development_reconstruction_2026-09-29/review/fidelity/integration_repair.stderr": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "development_reconstruction_2026-09-29/review/fidelity/integration_repair.stdout": "9aecd47eaf5679edf153463cd6850d1aaa963059495017100d78b1f6c6a8402f",
+    "development_reconstruction_2026-09-29/review/fidelity/integration_repair_checks.py": "d353eff6785335458df21ad0f45956e3183e81760b1d480d098805dfb0bb7304"
+  },
+  "utc": "2026-09-29T19:03:30.143052+00:00",
+  "verdict": "ACCEPT_WITH_LIMITS"
+}

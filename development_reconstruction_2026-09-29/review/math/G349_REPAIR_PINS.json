@@ -1,0 +1,19 @@
+{
+  "context": "/root/development_math_review",
+  "sha256": {
+    "development_reconstruction_2026-09-29/G349_ORIENTATION_REPAIR_FREEZE.json": "41258cbfaccb3972197be5a4c573a6ef728222d411685b52df59c5881808a794",
+    "development_reconstruction_2026-09-29/review/math/G349_REPAIR_REVIEW.md": "59b3eb3c3f59f9650a9223db3b91e07316f9b0366c366f878ae47ff03aef9c63",
+    "development_reconstruction_2026-09-29/review/math/G349_REPAIR_ATTESTATION.json": "4925d9ad7296e988408eba647fa924f2595929f72a0a6c61e31a98339dcba7fe",
+    "development_reconstruction_2026-09-29/review/math/AUDIT_REGRESSION_NOTE.md": "9b7237ded7bc9f5c0af665bf6e4dd62c9acfc6f426d7a266048846e27b7ed174",
+    "development_reconstruction_2026-09-29/review/math/g349_regression_replay.json": "4fb66174f76f0f4cb0b5bf0a32b2244d1738233f0197d83ac202c81a21babd5c",
+    "development_reconstruction_2026-09-29/review/math/g349_regression_replay.stdout": "0153524c490dcc68d9b655ecfb150c96fa14b3fcdc7a7c043a59c3eae1563a36",
+    "development_reconstruction_2026-09-29/review/math/g349_regression_replay.stderr": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "development_reconstruction_2026-09-29/review/math/g349_regression_replay.capture_provenance.json": "5a1ab057221026f71c11dc8fe9c84af4a35ae2ea6467f0319cf9e2e574ebce5f",
+    "development_reconstruction_2026-09-29/checks/premise_after.json": "38d753da8208cec338ab1ff20b0805a8ffdbff65da550d0505690201f2c7c58f",
+    "development_reconstruction_2026-09-29/checks/premise_after.stdout": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "development_reconstruction_2026-09-29/checks/premise_after.stderr": "639790b97e479f17e3049bd20a49c85913082a1c983b41f3a8214528c2d0ca7a",
+    "udt_g349_finite_null_wavefront_patch_area_2026-09-04/verify_package.py": "a394c2305013640c72a2359a5b80242d645c07c38d94b8f8b4fb8ba872bcad59",
+    "udt_g349_finite_null_wavefront_patch_area_2026-09-04/AUDIT_REPORT.md": "5daf07ed87fd96953d7f989e269aafe3654a6876230725fd7b3bcc1f3188467e",
+    "udt_g349_finite_null_wavefront_patch_area_2026-09-04/EXACT_DERIVATION.md": "0eb11cc9dcec98c89c99c890a75b3e290eda23faf44d620a9d578f609cedef72"
+  }
+}

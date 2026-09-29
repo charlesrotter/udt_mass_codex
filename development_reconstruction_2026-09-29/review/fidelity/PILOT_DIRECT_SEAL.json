@@ -1,0 +1,37 @@
+{
+  "stage": "PILOT_DIRECT",
+  "candidate": {
+    "scope": "Pilot R1-R4 and definitions; later chapters and all-row routing still in progress. Root manuscript will grow; frozen PILOT_CANDIDATE owns these reviewed bytes.",
+    "sha256": {
+      "UDT_DEVELOPMENT.md": "7e2fb808f6f3cda18978f991a3e98fefb96aafad9473459189aff7a500bdb33f",
+      "development_reconstruction_2026-09-29/PILOT_CANDIDATE.md": "7e2fb808f6f3cda18978f991a3e98fefb96aafad9473459189aff7a500bdb33f",
+      "development_reconstruction_2026-09-29/CLAIM_DISPOSITIONS.tsv": "fe833784c2e905a079c51932f2e1d270eaa2f582d04485eac2e50d4a29833285",
+      "development_reconstruction_2026-09-29/WORK_ORDER.md": "5ddadf60724d46375acd4e42ca91df37edda589bb5868e7a0d3df8b11dd3a64b",
+      "development_reconstruction_2026-09-29/checks/check_core.py": "0e44685464fa91540c018b081991edf66defdc323e22b01f0ea0a79bca0c3bff",
+      "development_reconstruction_2026-09-29/checks/core.stdout": "286d4e9d15b03bb891de819492f9bb093595c274ac28517b0febd0409968332b",
+      "development_reconstruction_2026-09-29/checks/core.stderr": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "development_reconstruction_2026-09-29/checks/core.json": "8f099e17f35fc283042e8fcfc15a1d4bce77181131f5476f118ee56840700e58"
+    }
+  },
+  "verdict": "VERIFIED_WITH_CAVEATS_SMALL_WORDING_AND_ROUTING_REPAIRS_REQUIRED",
+  "source_first_seal_unchanged": true,
+  "checks": 16,
+  "candidate_and_role_snapshot_pins": {
+    "UDT_DEVELOPMENT.md": "7e2fb808f6f3cda18978f991a3e98fefb96aafad9473459189aff7a500bdb33f",
+    "development_reconstruction_2026-09-29/PILOT_CANDIDATE.md": "7e2fb808f6f3cda18978f991a3e98fefb96aafad9473459189aff7a500bdb33f",
+    "development_reconstruction_2026-09-29/CLAIM_DISPOSITIONS.tsv": "fe833784c2e905a079c51932f2e1d270eaa2f582d04485eac2e50d4a29833285",
+    "development_reconstruction_2026-09-29/WORK_ORDER.md": "5ddadf60724d46375acd4e42ca91df37edda589bb5868e7a0d3df8b11dd3a64b",
+    "development_reconstruction_2026-09-29/checks/check_core.py": "0e44685464fa91540c018b081991edf66defdc323e22b01f0ea0a79bca0c3bff",
+    "development_reconstruction_2026-09-29/checks/core.stdout": "286d4e9d15b03bb891de819492f9bb093595c274ac28517b0febd0409968332b",
+    "development_reconstruction_2026-09-29/checks/core.stderr": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "development_reconstruction_2026-09-29/checks/core.json": "8f099e17f35fc283042e8fcfc15a1d4bce77181131f5476f118ee56840700e58"
+  },
+  "files": {
+    "PILOT_DIRECT_REVIEW.md": "5e669141eb83f976e9071d05711eb87c2a1f8a3fac7ed116872aede83609bce9",
+    "pilot_independent_checks.py": "444fafa9ea9009d6b358f53fc04a587b61826d99e1df3f7c7ede10506a9aea30",
+    "PILOT_INDEPENDENT_CHECKS.json": "d3221049fbaed7f7994256d2cb7e3c605f5231f19f12daf2d3a319634f408c3a",
+    "INITIAL_pilot_independent_checks.py": "13b781317d6afd8ae075d55dd431ace65c1fc606135f0ecda39837c2e3f508fa",
+    "INITIAL_PILOT_INDEPENDENT_CHECKS.json": "4f789f8a6e5352ab06dd549d8bdc59dd9e15943ddcf1964f8bb21afadfd1a30e",
+    "PILOT_ROLE_MAP_SNAPSHOT.tsv": "fe833784c2e905a079c51932f2e1d270eaa2f582d04485eac2e50d4a29833285"
+  }
+}

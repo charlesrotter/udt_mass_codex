@@ -1,0 +1,90 @@
+{
+  "checks": {
+    "actual_success_receipt": true,
+    "applied_exact_proposal:HANDOFF.md": true,
+    "applied_exact_proposal:LIVE.md": true,
+    "applied_exact_proposal:UDT_RESEARCH_ROADMAP.md": true,
+    "bounded_markdown_links": true,
+    "complete_pass_stdout": true,
+    "empty_stderr": true,
+    "final_byte:AGENTS.md": true,
+    "final_byte:CLAUDE.md": true,
+    "final_byte:CURRENT_RESEARCH_PROGRAM.md": true,
+    "final_byte:CURRENT_SCIENTIFIC_PREMISES.md": true,
+    "final_byte:HANDOFF.md": true,
+    "final_byte:INDEX.md": true,
+    "final_byte:LIVE.md": true,
+    "final_byte:MEMORY.md": true,
+    "final_byte:UDT_DEVELOPMENT.md": true,
+    "final_byte:UDT_RESEARCH_ROADMAP.md": true,
+    "final_byte:development_reconstruction_2026-09-29/CLAIM_DISPOSITIONS.tsv": true,
+    "final_byte:development_reconstruction_2026-09-29/DEVELOPMENT_GRAPH.json": true,
+    "final_byte:development_reconstruction_2026-09-29/FULL_REPAIR.md": true,
+    "final_byte:development_reconstruction_2026-09-29/HISTORICAL_EVIDENCE_INDEX.md": true,
+    "final_byte:development_reconstruction_2026-09-29/INTEGRATION_GUARD_CHANGE.md": true,
+    "final_byte:development_reconstruction_2026-09-29/INTEGRATION_REPAIR.md": true,
+    "final_byte:development_reconstruction_2026-09-29/MAINTENANCE.md": true,
+    "final_byte:development_reconstruction_2026-09-29/RECENT_DISPOSITIONS.tsv": true,
+    "final_byte:development_reconstruction_2026-09-29/SOURCE_CORRECTIONS.md": true,
+    "final_byte:development_reconstruction_2026-09-29/checks/test_maintenance.py": true,
+    "final_byte:verify_current_scientific_premises.py": true,
+    "final_byte:verify_udt_development.py": true,
+    "initial_failure_preserved": true,
+    "only_declared_three_changes": true
+  },
+  "links": [
+    {
+      "from": "LIVE.md",
+      "pass": true,
+      "target": "UDT_DEVELOPMENT.md"
+    },
+    {
+      "from": "UDT_RESEARCH_ROADMAP.md",
+      "pass": true,
+      "target": "UDT_DEVELOPMENT.md"
+    },
+    {
+      "from": "UDT_RESEARCH_ROADMAP.md",
+      "pass": true,
+      "target": "INDEX.md"
+    },
+    {
+      "from": "UDT_RESEARCH_ROADMAP.md",
+      "pass": true,
+      "target": "development_reconstruction_2026-09-29/WORK_ORDER.md"
+    },
+    {
+      "from": "UDT_RESEARCH_ROADMAP.md",
+      "pass": true,
+      "target": "development_reconstruction_2026-09-29/STAGES.tsv"
+    },
+    {
+      "from": "UDT_RESEARCH_ROADMAP.md",
+      "pass": true,
+      "target": "UDT_DEVELOPMENT.md"
+    },
+    {
+      "from": "UDT_RESEARCH_ROADMAP.md",
+      "pass": true,
+      "target": "udt_repository_cleanup_2026-09-27/local_clock_impact_2026-09-29/OWNER_CONCERN.md"
+    },
+    {
+      "from": "UDT_RESEARCH_ROADMAP.md",
+      "pass": true,
+      "target": "UDT_DEVELOPMENT.md#r18"
+    },
+    {
+      "from": "UDT_RESEARCH_ROADMAP.md",
+      "pass": true,
+      "target": "development_reconstruction_2026-09-29/RECENT_DISPOSITIONS.tsv"
+    },
+    {
+      "from": "UDT_RESEARCH_ROADMAP.md",
+      "pass": true,
+      "target": "archive/roadmap_history_2026-09-28/README.md"
+    }
+  ],
+  "passed": 31,
+  "scope": "Final packaging correspondence and observed prior full-audit receipt; publication and subsequent fast checks not claimed",
+  "total": 31
+}

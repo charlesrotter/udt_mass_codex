@@ -1,0 +1,60 @@
+{
+  "context": "/root/development_math_review",
+  "earlier_source_manifests": [
+    "development_reconstruction_2026-09-29/review/math/SOURCES.json",
+    "development_reconstruction_2026-09-29/review/math/FULL_SOURCE_PINS.json"
+  ],
+  "integration_freeze": "development_reconstruction_2026-09-29/INTEGRATION_REPAIR_FREEZE.json",
+  "integration_freeze_sha256": "4244dd0588c7065d1e0cbe014bf4a4841b05fc38e9a01ce7da1284d81ed9522a",
+  "additional_scientific_sources": {
+    "native_hopfion_topology_audit_2026-07-19/AUDIT_REPORT.md": {
+      "sha256": "df0171eb83d75ad175727a8db541df8500b7826edf6059ae63a52f1a1ba15bea",
+      "exposure": "full source-scope read"
+    },
+    "native_hopfion_topology_audit_2026-07-19/TOPOLOGY_STATUS_LEDGER.tsv": {
+      "sha256": "de154fbb7787759864786c04186a26a4605c447d362112bb482acee064d457e4",
+      "exposure": "full12-row scope read"
+    },
+    "udt_scientific_arc_recovery_checkpoint_2026-08-04/MASS_BRANCH_AUTHORITY_MAP.tsv": {
+      "sha256": "1483331ab0e00bc6f800589edaaf56fff7c670a75292e49a05adc9935a063bdf",
+      "exposure": "full seven-family source-scope read"
+    },
+    "udt_broader_evolving_signal_geometry_2026-09-13/REVIEWED_RESULT.md": {
+      "sha256": "9c8ba8a9e52ba15b8ebf49de3ab9a335c2bd8613bfd1983f75b744c9a29bffcd",
+      "exposure": "full reviewed-result read; no raw ray replay"
+    },
+    "udt_joint_signal_shape_discrimination_2026-09-13/REVIEWED_RESULT.md": {
+      "sha256": "0528fb57e86fca7033be554f86e11ac63103fddeb4b5e84a10285ccbd8798b5a",
+      "exposure": "full reviewed-result read; failed finite gate retained"
+    },
+    "udt_g374_g375_conditional_banking_2026-09-08/BANKING_RECORD.md": {
+      "sha256": "47554c199ec7b31907d3b6454e2956f4d2231213285e0245baa07bf65d84c0cd",
+      "exposure": "full banking scope argument read; no full VS campaign replay"
+    },
+    "udt_reviewed_backlog_banking_2026-09-10/BANKING_RECORD.md": {
+      "sha256": "654b0b2d734685c42d6a1b31740d545ab9299d17a5d5cc32c57e407b800191f1",
+      "exposure": "lines1-120 read including RF1 scope; later capture details omitted"
+    },
+    "udt_reviewed_backlog_banking_2026-09-10/BANKED_CLAIMS.json": {
+      "sha256": "4b98b1dea6ce9dc0d62f9fa6183c1379aed534989159b45a208dad93fce12c2e",
+      "exposure": "G401/RF1 record queried only; no all-row semantic review"
+    },
+    "udt_response_foundations_campaign_2026-09-10/CANDIDATE.md": {
+      "sha256": "bf3d4eac664ec9d08f5b68c88062025ee1070e558b9974e6c27dd9f341992be2",
+      "exposure": "full original argument read, lines1-245; no check suite replay"
+    }
+  },
+  "review_artifacts": {
+    "development_reconstruction_2026-09-29/review/math/INTEGRATION_CHECK_PLAN.md": "d3bc2d8e0c92e05eaf63b69c9d3fc2905b4398f7bd5f593ad82a8d44e9d499d6",
+    "development_reconstruction_2026-09-29/review/math/INTEGRATION_INITIAL_FINDINGS.md": "5a23f1f9dd40c587e5c313aea04df0e7cacfd5e854d40995fb30a8ae334108d1",
+    "development_reconstruction_2026-09-29/review/math/INTEGRATION_INITIAL_SEAL.json": "e342cf353011a4bdf16004e0503f52eb63c1a992bbe19275e6941fa2e8f93de5",
+    "development_reconstruction_2026-09-29/review/math/INTEGRATION_ROUTE_REHEARSAL.md": "1fc6323809428a11239ee35c83304969b99e00ae44655ad3b827d8552c234fab",
+    "development_reconstruction_2026-09-29/review/math/independent_integration_repair.py": "7bae1b9c5ef5987453486423b3282a2450024ca99ecdd39a3e2971c6f0b34c95",
+    "development_reconstruction_2026-09-29/review/math/integration_repair_results.json": "87d5eded872f0315300ac0feee78fdc2d928bf5347d06387ed45278c80ed6767",
+    "development_reconstruction_2026-09-29/review/math/integration_repair_run.json": "2d6bf592776c9531b7f7198dd11238fff17276a1caceb2e2fb0028dd06d81491",
+    "development_reconstruction_2026-09-29/review/math/integration_repair_run.stdout": "87d5eded872f0315300ac0feee78fdc2d928bf5347d06387ed45278c80ed6767",
+    "development_reconstruction_2026-09-29/review/math/integration_repair_run.stderr": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "development_reconstruction_2026-09-29/review/math/integration_repair_run.capture_provenance.json": "87b9334e64324efd81507584512e50efaa8cd199bccbf0aea26712e77c96b523",
+    "development_reconstruction_2026-09-29/review/math/FINAL_REVIEW.md": "4cea28a48cbc2169b89f8363db69dba9e5aee56004e50f2ad8c720ce54bdbb9d"
+  }
+}

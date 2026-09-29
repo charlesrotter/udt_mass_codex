@@ -1,0 +1,194 @@
+{
+  "G176_missing_R5": true,
+  "checks": [
+    {
+      "detail": "exact SHA256 correspondence",
+      "name": "freeze:AGENTS.md",
+      "passed": true
+    },
+    {
+      "detail": "exact SHA256 correspondence",
+      "name": "freeze:CLAUDE.md",
+      "passed": true
+    },
+    {
+      "detail": "exact SHA256 correspondence",
+      "name": "freeze:CURRENT_RESEARCH_PROGRAM.md",
+      "passed": true
+    },
+    {
+      "detail": "exact SHA256 correspondence",
+      "name": "freeze:CURRENT_SCIENTIFIC_PREMISES.md",
+      "passed": true
+    },
+    {
+      "detail": "exact SHA256 correspondence",
+      "name": "freeze:HANDOFF.md",
+      "passed": true
+    },
+    {
+      "detail": "exact SHA256 correspondence",
+      "name": "freeze:INDEX.md",
+      "passed": true
+    },
+    {
+      "detail": "exact SHA256 correspondence",
+      "name": "freeze:LIVE.md",
+      "passed": true
+    },
+    {
+      "detail": "exact SHA256 correspondence",
+      "name": "freeze:MEMORY.md",
+      "passed": true
+    },
+    {
+      "detail": "exact SHA256 correspondence",
+      "name": "freeze:UDT_DEVELOPMENT.md",
+      "passed": true
+    },
+    {
+      "detail": "exact SHA256 correspondence",
+      "name": "freeze:UDT_RESEARCH_ROADMAP.md",
+      "passed": true
+    },
+    {
+      "detail": "exact SHA256 correspondence",
+      "name": "freeze:development_reconstruction_2026-09-29/CLAIM_DISPOSITIONS.tsv",
+      "passed": true
+    },
+    {
+      "detail": "exact SHA256 correspondence",
+      "name": "freeze:development_reconstruction_2026-09-29/DEVELOPMENT_GRAPH.json",
+      "passed": true
+    },
+    {
+      "detail": "exact SHA256 correspondence",
+      "name": "freeze:development_reconstruction_2026-09-29/FULL_REPAIR.md",
+      "passed": true
+    },
+    {
+      "detail": "exact SHA256 correspondence",
+      "name": "freeze:development_reconstruction_2026-09-29/HISTORICAL_EVIDENCE_INDEX.md",
+      "passed": true
+    },
+    {
+      "detail": "exact SHA256 correspondence",
+      "name": "freeze:development_reconstruction_2026-09-29/INTEGRATION_GUARD_CHANGE.md",
+      "passed": true
+    },
+    {
+      "detail": "exact SHA256 correspondence",
+      "name": "freeze:development_reconstruction_2026-09-29/MAINTENANCE.md",
+      "passed": true
+    },
+    {
+      "detail": "exact SHA256 correspondence",
+      "name": "freeze:development_reconstruction_2026-09-29/RECENT_DISPOSITIONS.tsv",
+      "passed": true
+    },
+    {
+      "detail": "exact SHA256 correspondence",
+      "name": "freeze:development_reconstruction_2026-09-29/SOURCE_CORRECTIONS.md",
+      "passed": true
+    },
+    {
+      "detail": "exact SHA256 correspondence",
+      "name": "freeze:development_reconstruction_2026-09-29/checks/test_maintenance.py",
+      "passed": true
+    },
+    {
+      "detail": "exact SHA256 correspondence",
+      "name": "freeze:verify_current_scientific_premises.py",
+      "passed": true
+    },
+    {
+      "detail": "exact SHA256 correspondence",
+      "name": "freeze:verify_udt_development.py",
+      "passed": true
+    },
+    {
+      "detail": {
+        "central_arguments": 18,
+        "later_returns": 25,
+        "registry_rows": 406,
+        "scope": "Version, routing and bounded regression checks; not semantic completeness, canon or full-corpus reproof.",
+        "source_pins": 59,
+        "status": "PASS"
+      },
+      "name": "synthetic_strict_baseline",
+      "passed": true
+    },
+    {
+      "detail": "changed reviewed file; REVIEW_REQUIRED: MEMORY.md",
+      "name": "arbitrary_stale_adapter_sentence",
+      "passed": true
+    },
+    {
+      "detail": "REVIEW_REQUIRED; changed sources=['udt_g310_differential_dual_reciprocity_tracefree_ownership_2026-08-31/EXACT_DERIVATION.md']; changed rows=[]; affected=['R10', 'R11', 'R12', 'R15', 'R17', 'R18', 'R9']",
+      "name": "source_change_positive_negative_descendants",
+      "passed": true
+    },
+    {
+      "detail": "REVIEW_REQUIRED; changed sources=[]; changed rows=['G310']; affected=['R10', 'R11', 'R12', 'R15', 'R17', 'R18', 'R9']",
+      "name": "row_change_positive_negative_descendants",
+      "passed": true
+    },
+    {
+      "detail": "changed reviewed file; REVIEW_REQUIRED: development_reconstruction_2026-09-29/DEVELOPMENT_GRAPH.json",
+      "name": "vanished_class_even_with_deleted_required_list",
+      "passed": true
+    },
+    {
+      "detail": "changed reviewed file; REVIEW_REQUIRED: development_reconstruction_2026-09-29/DEVELOPMENT_GRAPH.json",
+      "name": "source_hash_refresh_cannot_hide_change",
+      "passed": true
+    },
+    {
+      "detail": "review version mismatch",
+      "name": "changed_graph_and_record_still_need_actual_attestation",
+      "passed": true
+    },
+    {
+      "detail": {
+        "central_arguments": 18,
+        "later_returns": 25,
+        "registry_rows": 406,
+        "scope": "Version, routing and bounded regression checks; not semantic completeness, canon or full-corpus reproof.",
+        "source_pins": 59,
+        "status": "PASS"
+      },
+      "name": "report_bytes_binding_gap",
+      "passed": true
+    },
+    {
+      "detail": {
+        "affected": [
+          "R16",
+          "R18",
+          "R4"
+        ],
+        "missing_expected": "R5",
+        "source": "udt_g176_completed_pair_dual_reciprocity_consolidation_2026-08-19/EXACT_DERIVATION.md"
+      },
+      "name": "G176_full_record_dependency_gap_observed",
+      "passed": true
+    },
+    {
+      "detail": {
+        "L": 3,
+        "T": 2,
+        "beta": "-1/2",
+        "chi": "-3/5",
+        "m": 6,
+        "normalized_determinant": -1
+      },
+      "name": "central_pair_example",
+      "passed": true
+    }
+  ],
+  "passed": 31,
+  "purpose": "Independent overlay and exact reading-route tests, not actual acceptance or full science replay",
+  "report_gap_detected": true,
+  "runtime": "3.10.12 (main, Aug 31 2026, 10:18:17) [GCC 11.4.0]",
+  "total": 31
+}

@@ -1,0 +1,32 @@
+{
+  "scope": "exact algebra examples and byte/coverage checks; not generic proof or semantic completeness",
+  "count": 16,
+  "checks": [
+    "independent_full_block_equals_direct_4D",
+    "regular_nonzero_shift_example",
+    "full_sector_square_completion",
+    "full_sector_determinant",
+    "ruler_normalization_determinant",
+    "ruler_normalization_reciprocity_squared",
+    "representation_trace_of_square",
+    "square_of_trace_is_wrong",
+    "frozen_pin:development_reconstruction_2026-09-29/PILOT_CANDIDATE.md",
+    "frozen_pin:development_reconstruction_2026-09-29/CLAIM_DISPOSITIONS.tsv",
+    "frozen_pin:development_reconstruction_2026-09-29/WORK_ORDER.md",
+    "frozen_pin:development_reconstruction_2026-09-29/checks/check_core.py",
+    "frozen_pin:development_reconstruction_2026-09-29/checks/core.stdout",
+    "frozen_pin:development_reconstruction_2026-09-29/checks/core.stderr",
+    "frozen_pin:development_reconstruction_2026-09-29/checks/core.json",
+    "all406_ids_once"
+  ],
+  "h": [
+    [
+      "-5613143/518400",
+      "-769781/907200"
+    ],
+    [
+      "-769781/907200",
+      "210505/63504"
+    ]
+  ]
+}

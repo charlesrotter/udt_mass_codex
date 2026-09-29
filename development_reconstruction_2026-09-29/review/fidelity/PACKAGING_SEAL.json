@@ -1,0 +1,19 @@
+{
+  "sha256": {
+    "development_reconstruction_2026-09-29/FINAL_PACKAGING_PROPOSAL.json": "08b14fd5094446f7ea83f5bfdee0dd7c81b2b0c0bc5d9d96b253acb32a4dfac2",
+    "development_reconstruction_2026-09-29/PACKAGING_APPLIED.json": "f8245caba8feedab1a19e14deee7005e58097ec86f737c0d435cfc11f88dd496",
+    "development_reconstruction_2026-09-29/STAGES.tsv": "8d33bed84f7ae816c2835c3ab523e946c1fc69e0bcaf784785053dd8f76826ec",
+    "development_reconstruction_2026-09-29/WORK_RECORD.md": "79ffe9dc077e152e82df0204d5d9a408a1a6c1dfa346579135b86b8bc4832b69",
+    "development_reconstruction_2026-09-29/checks/premise_after_repair.json": "0fc6f7d5e88db6f023582e5da684f02d94c201e3bbea8de2d0060af11d12ff17",
+    "development_reconstruction_2026-09-29/checks/premise_after_repair.stderr": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "development_reconstruction_2026-09-29/checks/premise_after_repair.stdout": "394e02c4ced55fc8f6480a3cc65b9ebd38f9c0cb553f897b10313b8ad2104b53",
+    "development_reconstruction_2026-09-29/review/fidelity/FINAL_ATTESTATION.json": "bd27c415636b5974accfb923c9736a2cf64b33173c6b1e44584118bd5de31f86",
+    "development_reconstruction_2026-09-29/review/fidelity/G349_REPAIR_ATTESTATION.json": "ddbfa839cbcbbdd7c8d79ea2b363edfb5b31a810397b5b77e14f167e3681e691",
+    "development_reconstruction_2026-09-29/review/fidelity/INTEGRATION_ATTESTATION.json": "86c8f52eb3b1e36cf46fb84fa17e1d05452657c6fd4949a14e4d1673ff403505",
+    "development_reconstruction_2026-09-29/review/fidelity/PACKAGING_ATTESTATION.json": "a53c4a29c78231b8800f2faf00b7ad60bb8600307f2114f80286c328d271b069",
+    "development_reconstruction_2026-09-29/review/fidelity/PACKAGING_CHECKS.json": "6c2755ad6d36f97892f530139db8cb36cd01a6973736834ff0a5de980e196c2b",
+    "development_reconstruction_2026-09-29/review/fidelity/PACKAGING_REVIEW.md": "143b7db1f5e74a9820a1742d8704bdacd9f33813e4834d9f6fe6b654ceba6abe"
+  },
+  "utc": "2026-09-29T19:24:38.268504+00:00",
+  "verdict": "ACCEPT_WITH_LIMITS"
+}

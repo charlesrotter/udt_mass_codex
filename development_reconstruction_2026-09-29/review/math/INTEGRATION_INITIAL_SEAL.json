@@ -1,0 +1,18 @@
+{
+  "context": "/root/development_math_review",
+  "verdict": "INTEGRATION_REPAIR_REQUIRED",
+  "initial_freeze_sha256": "1aaad253fe700683ef3e1c92bee1b0a0a95999cd88d74730564cafdab808ea8b",
+  "sha256": {
+    "development_reconstruction_2026-09-29/review/math/INTEGRATION_INITIAL_FINDINGS.md": "5a23f1f9dd40c587e5c313aea04df0e7cacfd5e854d40995fb30a8ae334108d1",
+    "development_reconstruction_2026-09-29/review/math/INTEGRATION_CHECK_PLAN.md": "d3bc2d8e0c92e05eaf63b69c9d3fc2905b4398f7bd5f593ad82a8d44e9d499d6",
+    "development_reconstruction_2026-09-29/review/math/independent_integration.py": "cbd46b040a2606819931695320ddbfd988f5593610a6199c92da5a2565971f8d",
+    "development_reconstruction_2026-09-29/review/math/independent_integration_initial_failed.py": "a5f57bea1277793707ce33a9d76d035948ca2e8382f48cc06f962f71c192eaa0",
+    "development_reconstruction_2026-09-29/review/math/integration_initial_results.json": "cf0ec5f490c6e236f1ee010b065324c355a377a39c4c586db415405012df66e7",
+    "development_reconstruction_2026-09-29/review/math/integration_initial_run.json": "712db9457ae5c3c774058b1a3f7eb014aa2ee0bbb4be6a02f1a60248c570bf0b",
+    "development_reconstruction_2026-09-29/review/math/integration_initial_run.stdout": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "development_reconstruction_2026-09-29/review/math/integration_initial_run.stderr": "65489b06901c54a86640ab9ec27696d13844fcc4ee2dc58b5cc29ea57ffca0c3",
+    "development_reconstruction_2026-09-29/review/math/integration_initial_retry_run.json": "188d71ebeeafd68a7600bc1d6cd626e2825c2de73f8391153f0f9080ebaf70b2",
+    "development_reconstruction_2026-09-29/review/math/integration_initial_retry_run.stdout": "cf0ec5f490c6e236f1ee010b065324c355a377a39c4c586db415405012df66e7",
+    "development_reconstruction_2026-09-29/review/math/integration_initial_retry_run.stderr": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  }
+}

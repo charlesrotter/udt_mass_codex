@@ -1,0 +1,18 @@
+{
+  "checks": {
+    "all22_frozen_bytes": true,
+    "exact_orientation_only": true,
+    "only_two_hashes_change": true,
+    "original_G349_wording_gate": true,
+    "program_generated_from_master": true,
+    "source_unchanged:udt_g349_finite_null_wavefront_patch_area_2026-09-04/AUDIT_REPORT.md": true,
+    "source_unchanged:udt_g349_finite_null_wavefront_patch_area_2026-09-04/EXACT_DERIVATION.md": true,
+    "source_unchanged:udt_g349_finite_null_wavefront_patch_area_2026-09-04/verify_package.py": true
+  },
+  "scope": "Source/wording/generation correspondence only; original G349 numerical replay not repeated",
+  "source_sha256": {
+    "udt_g349_finite_null_wavefront_patch_area_2026-09-04/AUDIT_REPORT.md": "5daf07ed87fd96953d7f989e269aafe3654a6876230725fd7b3bcc1f3188467e",
+    "udt_g349_finite_null_wavefront_patch_area_2026-09-04/EXACT_DERIVATION.md": "0eb11cc9dcec98c89c99c890a75b3e290eda23faf44d620a9d578f609cedef72",
+    "udt_g349_finite_null_wavefront_patch_area_2026-09-04/verify_package.py": "a394c2305013640c72a2359a5b80242d645c07c38d94b8f8b4fb8ba872bcad59"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "utc": "2026-09-29T18:38:27.593380+00:00",
+  "scope": "R1-R18 argument, repaired pilot and inventory; maintenance integration pending",
+  "files": {
+    "FULL_CANDIDATE_INITIAL.md": "cdcb27ccaaa1dd71d84b7e4ad95509356a6b7d7fa284bea9ed62d365e2b30975",
+    "CLAIM_DISPOSITIONS.tsv": "e6f069562b8d312eabeceed5a66ff0e1bd1b88cf485f09d89b14ea068832007e",
+    "SOURCE_CORRECTIONS.md": "18742d3ca750540ade8108ac87d31b7355b0e88d8b96bc4a90b7f8de438d6fb0",
+    "PILOT_REPAIR.md": "ecb5b1bb93b57aaa06a6ce97d2041d602d434bc86c5bbed2c62fe75f9cb27483",
+    "checks/check_connections.py": "a911f6e37f3c1d20b55128feef680f0b9b50da97a754eb0fb961a92e49d78fff",
+    "checks/connections.json": "6e2ee7ee5e43b1a72416ea6526ae0ec0850a5419bf0d96ab9637d5b3e04e18d0",
+    "checks/connections.stdout": "7a53e735c8f2aada33876dc1775221eb2109ee5bfb6fadef8d3df8e2679c6db5",
+    "checks/connections.stderr": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  }
+}

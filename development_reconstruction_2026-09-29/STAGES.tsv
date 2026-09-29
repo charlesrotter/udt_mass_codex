@@ -1,0 +1,10 @@
+stage	work	status	evidence
+1	Single development and authority	COMPLETE_WITH_DECLARED_SCOPE	WORK_ORDER.md; UDT_DEVELOPMENT.md
+2	Definitions and meanings	COMPLETE_WITH_DECLARED_SCOPE	UDT_DEVELOPMENT.md D1; FULL_REPAIR.md
+3	Claim disposition	COMPLETE_WITH_DECLARED_SCOPE	CLAIM_DISPOSITIONS.tsv 406; RECENT_DISPOSITIONS.tsv 25
+4	Dependency reconstruction	COMPLETE_WITH_DECLARED_SCOPE	DEVELOPMENT_GRAPH.json
+5	Foundational rederivation pilot	COMPLETE_WITH_DECLARED_SCOPE	PILOT_REPAIR.md; both FULL_DIRECT_REVIEW.md accept
+6	Remaining core reconstruction	COMPLETE_WITH_DECLARED_SCOPE	UDT_DEVELOPMENT.md R5-R18; FULL_REPAIR.md
+7	Chapter and seam review	COMPLETE_WITH_DECLARED_SCOPE	Both FINAL_REVIEW and G349_REPAIR_REVIEW records; no source-grade promotion
+8	Consolidation and historical routing	COMPLETE_WITH_DECLARED_SCOPE	Central manuscript; generated orientation; reduced adapters; historical catalog preserved
+9	Maintenance and fresh-reader checks	COMPLETE_WITH_DECLARED_SCOPE	24 maintenance tests; independent32/69 repair checks; informed central-only route rehearsals; full406 audit exit0

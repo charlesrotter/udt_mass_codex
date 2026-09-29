@@ -1,0 +1,167 @@
+{
+  "created_utc": "2026-09-29T18:48:01.134514+00:00",
+  "prior_source_first_scientific_pins_unchanged": {
+    "udt_gr_filter_reconciliation_2026-09-09/AUTHORITY_RECORD.md": "80daa0be6d3e1c0ac1b734fea089c4eb487f05bc1e1fbb2fabd69322ca89f28c",
+    "udt_g166_primary_metric_ordered_pair_kernel_descent_2026-08-18/EXACT_DERIVATION.md": "9e985bbd73a2ffe099a57257ea51778fff9ec75eb48721565faafaafd14edc62",
+    "udt_g176_completed_pair_dual_reciprocity_consolidation_2026-08-19/EXACT_DERIVATION.md": "df53a5b3c52d0bd24496d060637dc158a4f2c7cdd17226c9446ea0d338d27831",
+    "udt_g179_complete_coframe_pair_pullback_extension_2026-08-19/EXACT_DERIVATION.md": "4c059659785953822bcb4f902705ed7c0c7c4bd69243582a0663be6894cf3a51",
+    "udt_g180_completed_pair_smooth_family_descent_2026-08-19/EXACT_DERIVATION.md": "3e81642bacf30a9e94df3db4c041f6b6ae94af91b87d9f51c044116ed2afa7b6",
+    "udt_g301_scale_free_quiet_regular_causal_principal_classification_2026-08-30/EXACT_DERIVATION.md": "633b907b5384aa63d61d49db067dd4e608e6abd3bf3571e4267f91e5c74da8fb",
+    "udt_g310_differential_dual_reciprocity_tracefree_ownership_2026-08-31/EXACT_DERIVATION.md": "a417b3cfa1cc6136429a14d3b330c1b8c25c73c9e946d6b6454d6ffae72c25a0",
+    "udt_g311_universal_reciprocity_full_covariant_response_2026-09-01/EXACT_DERIVATION.md": "4fd4ca84d353018c02e32d49cf261de3472b3fafd74b0f268b0960653bdfd307",
+    "udt_g312_quiet_gr_response_constitution_discriminator_2026-09-01/EXACT_DERIVATION.md": "90ae2841153754087e64ba14d0a61c408d0b5767b5c8ed9f558da0b49ab30ea4",
+    "udt_g220_covariant_null_clock_arrow_timelive_lift_2026-08-22/EXACT_DERIVATION.md": "0e5b33a0c013def973bdca369944d99a84fe278614cae1794e7cb50b56db0f6f",
+    "udt_g269_null_transport_mutual_clock_screen_interlock_2026-08-26/EXACT_DERIVATION.md": "812023393d4e04b8f2b47cc5429002dc78912b85983117e5633faed30a2f876e",
+    "udt_g272_complete_relation_rapidity_distance_ownership_2026-08-26/EXACT_DERIVATION.md": "e0285d5cb0fce4caf2b46cb5a5e795696d1b3fa76c34dfc7cbce5aa70255d566",
+    "udt_g274_projective_pair_position_network_descent_2026-08-26/EXACT_DERIVATION.md": "8cee4fa46ea13c6101bbce8c94072a516d38ce0f863e3658a87bab4d77e7e18f"
+  },
+  "new_direct_read_sources": [
+    {
+      "path": "development_reconstruction_2026-09-29/FULL_CANDIDATE_INITIAL.md",
+      "sha256": "cdcb27ccaaa1dd71d84b7e4ad95509356a6b7d7fa284bea9ed62d365e2b30975",
+      "exposure": "full frozen candidate; missing display middle reread"
+    },
+    {
+      "path": "development_reconstruction_2026-09-29/FULL_CANDIDATE_FREEZE.json",
+      "sha256": "fb62748bc98a30962c3864f4d849f5ec78e231e3659d6961ae300b8572c09b88",
+      "exposure": "full freeze"
+    },
+    {
+      "path": "development_reconstruction_2026-09-29/PILOT_REPAIR.md",
+      "sha256": "ecb5b1bb93b57aaa06a6ce97d2041d602d434bc86c5bbed2c62fe75f9cb27483",
+      "exposure": "full repair"
+    },
+    {
+      "path": "development_reconstruction_2026-09-29/SOURCE_CORRECTIONS.md",
+      "sha256": "18742d3ca750540ade8108ac87d31b7355b0e88d8b96bc4a90b7f8de438d6fb0",
+      "exposure": "full correction and descendant prose"
+    },
+    {
+      "path": "development_reconstruction_2026-09-29/checks/check_connections.py",
+      "sha256": "a911f6e37f3c1d20b55128feef680f0b9b50da97a754eb0fb961a92e49d78fff",
+      "exposure": "full parent check implementation before new reviewer code"
+    },
+    {
+      "path": "udt_g134_full_metric_area_history_reframe_audit_2026-08-17/EXACT_DERIVATION.md",
+      "sha256": "fd5523d641438fe0ab84363c3f11f9871f4cab44c255717aee7dd9f8fcee37df",
+      "exposure": "full argument"
+    },
+    {
+      "path": "udt_g213_determinant_one_spatial_remainder_and_completed_rank_closure_2026-08-22/EXACT_DERIVATION.md",
+      "sha256": "caa10d3d87d7b1ea987cc5a9b48b1c3f76160de8fce0d042563c26c596fbc00a",
+      "exposure": "full argument"
+    },
+    {
+      "path": "udt_interframe_clock_network_2026-09-28/INITIAL_CANDIDATE.md",
+      "sha256": "7cc6ad40fbaa67c8d666fccc25cad3ceb3ec379df29f101be48e1697e0bed8ae",
+      "exposure": "full attempted read truncated; sections3/4 separately reread; other displayed portions as retained"
+    },
+    {
+      "path": "udt_interframe_clock_network_2026-09-28/REPAIR.md",
+      "sha256": "1a27568a7e082fee4198e954b9bd726a500b2eac705989a1ba824cd0fd395fe5",
+      "exposure": "full chronology repair"
+    },
+    {
+      "path": "udt_g348_generic_lorentzian_null_screen_area_theorem_2026-09-04/EXACT_DERIVATION.md",
+      "sha256": "04917cd0336f5c06ee76129f5a8005f5e483e8a6fcdacbb87c96a6e0ad89544c",
+      "exposure": "full argument"
+    },
+    {
+      "path": "udt_g349_finite_null_wavefront_patch_area_2026-09-04/AUDIT_REPORT.md",
+      "sha256": "5daf07ed87fd96953d7f989e269aafe3654a6876230725fd7b3bcc1f3188467e",
+      "exposure": "full summary; full finite-sheet proof not replayed"
+    },
+    {
+      "path": "udt_g350_frequency_area_carried_content_ownership_2026-09-05/EXACT_DERIVATION.md",
+      "sha256": "85e1073e9284ec9e8e543eea63c712d4015fdd4c2277ce0d8081a7d9002731ed",
+      "exposure": "full argument"
+    },
+    {
+      "path": "udt_g351_source_free_labelwise_carried_measure_conservation_2026-09-05/EXACT_DERIVATION.md",
+      "sha256": "37bd938dc488c305e43c3e1b414e1b40e489bf7fa23dd6453ce3118c953ea317",
+      "exposure": "full argument"
+    },
+    {
+      "path": "udt_g352_clock_rate_carried_measure_readout_2026-09-05/EXACT_DERIVATION.md",
+      "sha256": "70aac9b85acb797cba41caa8dad9d567174b8031e853de8189a074e929e51b0d",
+      "exposure": "full argument"
+    },
+    {
+      "path": "udt_g316_lawful_constraint_data_construction_2026-09-01/EXACT_DERIVATION.md",
+      "sha256": "a7ad81bcfa3a55b7f86107b175569064219235b4201465df9759a8d87c672390",
+      "exposure": "full argument"
+    },
+    {
+      "path": "udt_g317_exact_noncmc_coupled_data_family_2026-09-01/EXACT_DERIVATION.md",
+      "sha256": "ca38237b2a9d27551a42d0447600be7795d4766a354f4301777405290106a8ba",
+      "exposure": "full argument"
+    },
+    {
+      "path": "udt_g321_g320_local_cauchy_development_uniqueness_2026-09-01/AUDIT_REPORT.md",
+      "sha256": "975fb68b053c2a11c373677544374e448f2ce84b265d860bb2c1e723d2595d6c",
+      "exposure": "full summary; imported theorem proof not replayed"
+    },
+    {
+      "path": "udt_g322_g321_maximal_globally_hyperbolic_development_2026-09-01/AUDIT_REPORT.md",
+      "sha256": "d97eb46e3275501537ab961535ad6c867190eab6be528decb72a43211de80514",
+      "exposure": "full summary; imported theorem proof not replayed"
+    },
+    {
+      "path": "udt_g323_g320_unmarked_taub_quotient_classification_2026-09-01/AUDIT_REPORT.md",
+      "sha256": "ca444e8281942b6711eb3de2baced750d422c636df15dc00726276bea194627d",
+      "exposure": "full summary; quotient proof not replayed"
+    },
+    {
+      "path": "udt_g324_g323_taub_quotient_mghd_identification_2026-09-02/AUDIT_REPORT.md",
+      "sha256": "7e0c9988e4af291bfbda89bf662a3c10e0205e29620cc00a599bc59a110dc873",
+      "exposure": "full summary; continuation proof not replayed"
+    },
+    {
+      "path": "udt_nonlinear_ripple_geometry_2026-09-09/INITIAL_CANDIDATE.md",
+      "sha256": "49880008dcb5a646d6867e377f6dc84ded692b98250701aba4cab7119ca500de",
+      "exposure": "full original argument"
+    },
+    {
+      "path": "udt_optional_coupled_development_campaign_2026-09-08/step_02/REVIEWED_RESULT.md",
+      "sha256": "f0f69723a135c00bcef936a3f19dca15094796d5f954e4fba4368587ccca7010",
+      "exposure": "full summary/exclusions"
+    },
+    {
+      "path": "udt_optional_coupled_development_campaign_2026-09-08/step_02/CANDIDATE_INITIAL.md",
+      "sha256": "1a3ba9d3afcffab21853af131e5aa5aba6a61343c4b696d1943ddadc0a5eddfc",
+      "exposure": "full argument; no full normal-form executable replay"
+    },
+    {
+      "path": "udt_g372_g373_conditional_banking_2026-09-08/BANKING_RECORD.md",
+      "sha256": "45f774b2393f81c2d84754be57cd35db88301b9c281ea53be1a07e82a7bfacbe",
+      "exposure": "full scope/banking/exclusions"
+    },
+    {
+      "path": "udt_g275_projective_position_scale_attachment_xmax_separation_2026-08-26/AUDIT_REPORT.md",
+      "sha256": "553548452bb917d8e1e658598977fc6bf731fe54e5922e20b2c01a4e672c187e",
+      "exposure": "full summary"
+    },
+    {
+      "path": "udt_g276_proper_clock_ce_scale_anchor_reconciliation_2026-08-26/AUDIT_REPORT.md",
+      "sha256": "cc66be850523fac561b411b32d7532069d838a6d6e6800568afd72f5560b862d",
+      "exposure": "full summary"
+    },
+    {
+      "path": "udt_machian_global_clock_feasibility_2026-09-28/INITIAL_CANDIDATE.md",
+      "sha256": "431610fc8e8d7672447b879f327272c257de74635e902e76c120de2f041dbf79",
+      "exposure": "full argument"
+    },
+    {
+      "path": "udt_finite_clock_metric_variation_2026-09-28/INITIAL_CANDIDATE.md",
+      "sha256": "ed65323a439e1d509bc0241c6550a5485e3f1a496b06b6ab01eb34692443d1d4",
+      "exposure": "full argument"
+    },
+    {
+      "path": "udt_finite_clock_metric_variation_2026-09-28/REVIEWED_RESULT.md",
+      "sha256": "609f7889104aa3cc9804926738e888a83df7d593db7daab0763aef20809023f8",
+      "exposure": "full summary and zero-repair confirmation"
+    }
+  ],
+  "failed_read": "FCV1 REPAIR.md absent; original summary records zero repairs",
+  "verdict": "repairable four narrow domain/typing defects; positive core survives"
+}

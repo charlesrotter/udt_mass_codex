@@ -1,0 +1,28 @@
+{
+  "scope": "one independently lowered boost plus exact frozen bytes/ID coverage; not generic proof",
+  "count": 12,
+  "checks": [
+    "boost_lowered_covector_positive_coefficient",
+    "boost_coordinate_components_negative",
+    "old_covector_basis_sign_rejected",
+    "pin:FULL_CANDIDATE_INITIAL.md",
+    "pin:CLAIM_DISPOSITIONS.tsv",
+    "pin:SOURCE_CORRECTIONS.md",
+    "pin:PILOT_REPAIR.md",
+    "pin:checks/check_connections.py",
+    "pin:checks/connections.json",
+    "pin:checks/connections.stdout",
+    "pin:checks/connections.stderr",
+    "registry_ids_exactly_once"
+  ],
+  "boost_half_tangent_difference": [
+    [
+      "0",
+      "-15/8"
+    ],
+    [
+      "-15/8",
+      "0"
+    ]
+  ]
+}

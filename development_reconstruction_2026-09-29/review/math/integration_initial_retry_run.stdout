@@ -1,0 +1,29 @@
+{
+  "freeze_sha256": "1aaad253fe700683ef3e1c92bee1b0a0a95999cd88d74730564cafdab808ea8b",
+  "freeze_bindings_match": true,
+  "synthetic_not_actual_reviews": true,
+  "missing_reports_result": "PASS",
+  "changed_reports_result": "PASS",
+  "g310_original_affected": [
+    "R10",
+    "R11",
+    "R12",
+    "R15",
+    "R17",
+    "R18",
+    "R9"
+  ],
+  "g310_correction_affected": [],
+  "g176_pair_affected": [
+    "R16",
+    "R18",
+    "R4"
+  ],
+  "changed_verifier_functions": [
+    "main",
+    "validate_startup_surface"
+  ],
+  "main_ast_changes_recorded": true,
+  "guard_sha256": "42ef4ed9ee4ad7b95fe9139b0fe006ee704549ca3d01b911be9d79324342efc5",
+  "graph_sha256": "1e62b8b78617dbc7cb1b004cb1349629d113074c37157a85e30c1099fc346e3e"
+}

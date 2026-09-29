@@ -1,0 +1,21 @@
+{
+  "context": "/root/development_math_review",
+  "sha256": {
+    "development_reconstruction_2026-09-29/FINAL_PACKAGING_PROPOSAL.json": "08b14fd5094446f7ea83f5bfdee0dd7c81b2b0c0bc5d9d96b253acb32a4dfac2",
+    "development_reconstruction_2026-09-29/PACKAGING_APPLIED.json": "f8245caba8feedab1a19e14deee7005e58097ec86f737c0d435cfc11f88dd496",
+    "development_reconstruction_2026-09-29/STAGES.tsv": "8d33bed84f7ae816c2835c3ab523e946c1fc69e0bcaf784785053dd8f76826ec",
+    "development_reconstruction_2026-09-29/WORK_RECORD.md": "79ffe9dc077e152e82df0204d5d9a408a1a6c1dfa346579135b86b8bc4832b69",
+    "development_reconstruction_2026-09-29/checks/premise_after_repair.json": "0fc6f7d5e88db6f023582e5da684f02d94c201e3bbea8de2d0060af11d12ff17",
+    "development_reconstruction_2026-09-29/checks/premise_after_repair.stdout": "394e02c4ced55fc8f6480a3cc65b9ebd38f9c0cb553f897b10313b8ad2104b53",
+    "development_reconstruction_2026-09-29/checks/premise_after_repair.stderr": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "development_reconstruction_2026-09-29/review/math/PACKAGING_PREVIEW.md": "e3d1220042d47d33987fd6c1a23dc854d257ab0b4a835d459dab2b4bcbc27a4e",
+    "development_reconstruction_2026-09-29/review/math/check_final_packaging.py": "e374f2cd632b1fb05854320e819eaca9b71967757229c28412bad25f672e2b84",
+    "development_reconstruction_2026-09-29/review/math/packaging_check_result.json": "87cdd8b113c55dad7cb2df145fcd48c9c69218edb0c2bb62663ac66247c5c420",
+    "development_reconstruction_2026-09-29/review/math/packaging_check_run.json": "952d51b1255d50d71c7a25acfa65808f408b4d57e12352659d7013a55e98591d",
+    "development_reconstruction_2026-09-29/review/math/packaging_check_run.stdout": "87cdd8b113c55dad7cb2df145fcd48c9c69218edb0c2bb62663ac66247c5c420",
+    "development_reconstruction_2026-09-29/review/math/packaging_check_run.stderr": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "development_reconstruction_2026-09-29/review/math/packaging_check_run.capture_provenance.json": "599e6529b66de0c178bbff25e1efbb601206f1e8e7aadfc7c811363df1475e73",
+    "development_reconstruction_2026-09-29/review/math/PACKAGING_REVIEW.md": "d3a2d6dcd419dce001fb533b0c9077de1eb63f3fc557e1b5f9a1d78be7b35362",
+    "development_reconstruction_2026-09-29/review/math/PACKAGING_ATTESTATION.json": "262c7279f8cceb1f526d8eeae5eed79c3f4326ac05e2543b4a199d4b6edd54a2"
+  }
+}

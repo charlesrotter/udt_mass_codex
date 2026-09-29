@@ -1,0 +1,20 @@
+{
+  "sealed_utc": "2026-09-29T18:27:33.002390+00:00",
+  "source_first_seal_sha256": "62ce7924d5ca7b3a541910cd2ecdd41c6ca8678d0076bf7914c95fe70189a192",
+  "direct_exposure_sources": {
+    "development_reconstruction_2026-09-29/PILOT_CANDIDATE.md": "7e2fb808f6f3cda18978f991a3e98fefb96aafad9473459189aff7a500bdb33f",
+    "development_reconstruction_2026-09-29/PILOT_FREEZE.json": "518f5462fcd9db1ed7e7abc8c19a933881d867007d37aede878499299996b1ea",
+    "development_reconstruction_2026-09-29/checks/check_core.py": "0e44685464fa91540c018b081991edf66defdc323e22b01f0ea0a79bca0c3bff",
+    "udt_repository_cleanup_2026-09-27/local_clock_impact_2026-09-29/OWNER_CLARIFICATION.md": "bf31a0682bed7060a0eea38035bfd87a0ab2c6bee41406882ae5a4abfc11471b",
+    "udt_founding_phi_ownership_morphism_audit_2026-08-05/AUDIT_REPORT.md": "65905b6b2718fd9c1057143a7148104bb14d7e65eeee3bdc7a7010af8cbe90eb"
+  },
+  "artifacts": {
+    "pilot_direct_results.json": "07ab9761e25ee106bce02034de8d0c7683481dac2f9df95b66d287a3f80bb262",
+    "PILOT_DIRECT_REVIEW.md": "838633db5d4acc7334a23467e54a5727b1c61c2dee8384537e039351f727a750",
+    "pilot_direct_run.stderr": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "check_pilot_direct.py": "e8f80bf3685109d0d2d4a12a8b12ec42b54f01884a6e890222c7f160c1691419",
+    "pilot_direct_run.json": "957557e5494b0c69093c50a255274601b76f3e924d1d78f8655e9ee6f258e6aa",
+    "pilot_direct_run.capture_provenance.json": "02acc804b91b30860e1a2e635cdba74a5f2e682abbb2666747c3cff6de6036a6",
+    "pilot_direct_run.stdout": "c8051ca0a5ef10d215e2f54a626a3599d805687b69a676398e81a126ac7e1e95"
+  }
+}

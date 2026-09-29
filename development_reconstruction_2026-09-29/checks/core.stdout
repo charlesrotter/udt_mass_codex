@@ -1,0 +1,19 @@
+{
+  "result": "PASS",
+  "sympy": "1.13.1",
+  "regular_h": "Matrix([[-56, 0], [0, 18]])",
+  "det_h": "-1008",
+  "anchors": [
+    "dual pairing",
+    "continuous-character algebra",
+    "complete block pullback",
+    "shifted decomposition",
+    "completed determinant",
+    "reparameterization vs rescaling"
+  ],
+  "adverse_controls": [
+    "arclength-only normalization rejected",
+    "raw scalar substitution rejected"
+  ],
+  "scope": "Exact algebra controls; no selected geometry, dynamics, all-domain numerical certification or proof of semantic completeness."
+}

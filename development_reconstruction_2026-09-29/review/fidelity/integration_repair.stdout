@@ -1,0 +1,8 @@
+{
+  "passed": 69,
+  "resource_limits": "timeout60s,512MiB virtual memory,OMP/BLAS threads1",
+  "runtime": "3.10.12 (main, Aug 31 2026, 10:18:17) [GCC 11.4.0]",
+  "scope": "Independent overlay/version/routing repair audit; synthetic attestations are not actual reviews",
+  "total": 69
+}
+

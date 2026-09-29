@@ -1,0 +1,2485 @@
+{
+  "default_command": [
+    "git",
+    "diff",
+    "--cached",
+    "--check"
+  ],
+  "default_returncode": 2,
+  "default_stdout_sha256": "2c5713292761392d7c3f31daf95d81db6d0ed287ec8ca11cbde279e64be2ecaa",
+  "default_stderr": "",
+  "diagnostics": [
+    {
+      "path": "development_reconstruction_2026-09-29/checks/premise_after.stderr",
+      "line": 35,
+      "kind": "new blank line at EOF."
+    },
+    {
+      "path": "development_reconstruction_2026-09-29/review/fidelity/FULL_DIRECT_SOURCE_PINS.tsv",
+      "line": 1,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "development_reconstruction_2026-09-29/review/fidelity/FULL_DIRECT_SOURCE_PINS.tsv",
+      "line": 2,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "development_reconstruction_2026-09-29/review/fidelity/FULL_DIRECT_SOURCE_PINS.tsv",
+      "line": 3,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "development_reconstruction_2026-09-29/review/fidelity/FULL_DIRECT_SOURCE_PINS.tsv",
+      "line": 4,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "development_reconstruction_2026-09-29/review/fidelity/FULL_DIRECT_SOURCE_PINS.tsv",
+      "line": 5,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "development_reconstruction_2026-09-29/review/fidelity/FULL_DIRECT_SOURCE_PINS.tsv",
+      "line": 6,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "development_reconstruction_2026-09-29/review/fidelity/FULL_DIRECT_SOURCE_PINS.tsv",
+      "line": 7,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "development_reconstruction_2026-09-29/review/fidelity/FULL_DIRECT_SOURCE_PINS.tsv",
+      "line": 8,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "development_reconstruction_2026-09-29/review/fidelity/FULL_DIRECT_SOURCE_PINS.tsv",
+      "line": 9,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "development_reconstruction_2026-09-29/review/fidelity/FULL_DIRECT_SOURCE_PINS.tsv",
+      "line": 10,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "development_reconstruction_2026-09-29/review/fidelity/FULL_DIRECT_SOURCE_PINS.tsv",
+      "line": 11,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "development_reconstruction_2026-09-29/review/fidelity/FULL_DIRECT_SOURCE_PINS.tsv",
+      "line": 12,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "development_reconstruction_2026-09-29/review/fidelity/FULL_DIRECT_SOURCE_PINS.tsv",
+      "line": 13,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "development_reconstruction_2026-09-29/review/fidelity/FULL_DIRECT_SOURCE_PINS.tsv",
+      "line": 14,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "development_reconstruction_2026-09-29/review/fidelity/FULL_DIRECT_SOURCE_PINS.tsv",
+      "line": 15,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "development_reconstruction_2026-09-29/review/fidelity/FULL_DIRECT_SOURCE_PINS.tsv",
+      "line": 16,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "development_reconstruction_2026-09-29/review/fidelity/FULL_DIRECT_SOURCE_PINS.tsv",
+      "line": 17,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "development_reconstruction_2026-09-29/review/fidelity/FULL_DIRECT_SOURCE_PINS.tsv",
+      "line": 18,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "development_reconstruction_2026-09-29/review/fidelity/FULL_DIRECT_SOURCE_PINS.tsv",
+      "line": 19,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "development_reconstruction_2026-09-29/review/fidelity/FULL_DIRECT_SOURCE_PINS.tsv",
+      "line": 20,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "development_reconstruction_2026-09-29/review/fidelity/FULL_DIRECT_SOURCE_PINS.tsv",
+      "line": 21,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "development_reconstruction_2026-09-29/review/fidelity/FULL_DIRECT_SOURCE_PINS.tsv",
+      "line": 22,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "development_reconstruction_2026-09-29/review/fidelity/FULL_DIRECT_SOURCE_PINS.tsv",
+      "line": 23,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "development_reconstruction_2026-09-29/review/fidelity/FULL_DIRECT_SOURCE_PINS.tsv",
+      "line": 24,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "development_reconstruction_2026-09-29/review/fidelity/FULL_DIRECT_SOURCE_PINS.tsv",
+      "line": 25,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "development_reconstruction_2026-09-29/review/fidelity/FULL_DIRECT_SOURCE_PINS.tsv",
+      "line": 26,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "development_reconstruction_2026-09-29/review/fidelity/FULL_DIRECT_SOURCE_PINS.tsv",
+      "line": 27,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "development_reconstruction_2026-09-29/review/fidelity/FULL_DIRECT_SOURCE_PINS.tsv",
+      "line": 28,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "development_reconstruction_2026-09-29/review/fidelity/FULL_DIRECT_SOURCE_PINS.tsv",
+      "line": 29,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "development_reconstruction_2026-09-29/review/fidelity/FULL_DIRECT_SOURCE_PINS.tsv",
+      "line": 30,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "development_reconstruction_2026-09-29/review/fidelity/FULL_DIRECT_SOURCE_PINS.tsv",
+      "line": 31,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "development_reconstruction_2026-09-29/review/fidelity/FULL_DIRECT_SOURCE_PINS.tsv",
+      "line": 32,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "development_reconstruction_2026-09-29/review/fidelity/FULL_DIRECT_SOURCE_PINS.tsv",
+      "line": 33,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "development_reconstruction_2026-09-29/review/fidelity/FULL_DIRECT_SOURCE_PINS.tsv",
+      "line": 34,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "development_reconstruction_2026-09-29/review/fidelity/FULL_DIRECT_SOURCE_PINS.tsv",
+      "line": 35,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "development_reconstruction_2026-09-29/review/fidelity/REGISTRY_METADATA.tsv",
+      "line": 1,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "development_reconstruction_2026-09-29/review/fidelity/REGISTRY_METADATA.tsv",
+      "line": 2,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "development_reconstruction_2026-09-29/review/fidelity/REGISTRY_METADATA.tsv",
+      "line": 3,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "development_reconstruction_2026-09-29/review/fidelity/REGISTRY_METADATA.tsv",
+      "line": 4,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "development_reconstruction_2026-09-29/review/fidelity/REGISTRY_METADATA.tsv",
+      "line": 5,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "development_reconstruction_2026-09-29/review/fidelity/REGISTRY_METADATA.tsv",
+      "line": 6,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "development_reconstruction_2026-09-29/review/fidelity/REGISTRY_METADATA.tsv",
+      "line": 7,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "development_reconstruction_2026-09-29/review/fidelity/REGISTRY_METADATA.tsv",
+      "line": 8,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "development_reconstruction_2026-09-29/review/fidelity/REGISTRY_METADATA.tsv",
+      "line": 9,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "development_reconstruction_2026-09-29/review/fidelity/REGISTRY_METADATA.tsv",
+      "line": 10,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "development_reconstruction_2026-09-29/review/fidelity/REGISTRY_METADATA.tsv",
+      "line": 11,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "development_reconstruction_2026-09-29/review/fidelity/REGISTRY_METADATA.tsv",
+      "line": 12,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "development_reconstruction_2026-09-29/review/fidelity/REGISTRY_METADATA.tsv",
+      "line": 13,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "development_reconstruction_2026-09-29/review/fidelity/REGISTRY_METADATA.tsv",
+      "line": 14,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "development_reconstruction_2026-09-29/review/fidelity/REGISTRY_METADATA.tsv",
+      "line": 15,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "development_reconstruction_2026-09-29/review/fidelity/REGISTRY_METADATA.tsv",
+      "line": 16,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "development_reconstruction_2026-09-29/review/fidelity/REGISTRY_METADATA.tsv",
+      "line": 17,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "development_reconstruction_2026-09-29/review/fidelity/REGISTRY_METADATA.tsv",
+      "line": 18,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "development_reconstruction_2026-09-29/review/fidelity/REGISTRY_METADATA.tsv",
+      "line": 19,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "development_reconstruction_2026-09-29/review/fidelity/REGISTRY_METADATA.tsv",
+      "line": 20,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "development_reconstruction_2026-09-29/review/fidelity/REGISTRY_METADATA.tsv",
+      "line": 21,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "development_reconstruction_2026-09-29/review/fidelity/REGISTRY_METADATA.tsv",
+      "line": 22,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "development_reconstruction_2026-09-29/review/fidelity/REGISTRY_METADATA.tsv",
+      "line": 23,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "development_reconstruction_2026-09-29/review/fidelity/REGISTRY_METADATA.tsv",
+      "line": 24,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "development_reconstruction_2026-09-29/review/fidelity/REGISTRY_METADATA.tsv",
+      "line": 25,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "development_reconstruction_2026-09-29/review/fidelity/REGISTRY_METADATA.tsv",
+      "line": 26,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "development_reconstruction_2026-09-29/review/fidelity/REGISTRY_METADATA.tsv",
+      "line": 27,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "development_reconstruction_2026-09-29/review/fidelity/REGISTRY_METADATA.tsv",
+      "line": 28,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "development_reconstruction_2026-09-29/review/fidelity/REGISTRY_METADATA.tsv",
+      "line": 29,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "development_reconstruction_2026-09-29/review/fidelity/REGISTRY_METADATA.tsv",
+      "line": 30,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "development_reconstruction_2026-09-29/review/fidelity/REGISTRY_METADATA.tsv",
+      "line": 31,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "development_reconstruction_2026-09-29/review/fidelity/REGISTRY_METADATA.tsv",
+      "line": 32,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "development_reconstruction_2026-09-29/review/fidelity/REGISTRY_METADATA.tsv",
+      "line": 33,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "development_reconstruction_2026-09-29/review/fidelity/REGISTRY_METADATA.tsv",
+      "line": 34,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "development_reconstruction_2026-09-29/review/fidelity/REGISTRY_METADATA.tsv",
+      "line": 35,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "development_reconstruction_2026-09-29/review/fidelity/REGISTRY_METADATA.tsv",
+      "line": 36,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "development_reconstruction_2026-09-29/review/fidelity/REGISTRY_METADATA.tsv",
+      "line": 37,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "development_reconstruction_2026-09-29/review/fidelity/REGISTRY_METADATA.tsv",
+      "line": 38,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "development_reconstruction_2026-09-29/review/fidelity/REGISTRY_METADATA.tsv",
+      "line": 39,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "development_reconstruction_2026-09-29/review/fidelity/REGISTRY_METADATA.tsv",
+      "line": 40,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "development_reconstruction_2026-09-29/review/fidelity/REGISTRY_METADATA.tsv",
+      "line": 41,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "development_reconstruction_2026-09-29/review/fidelity/REGISTRY_METADATA.tsv",
+      "line": 42,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "development_reconstruction_2026-09-29/review/fidelity/REGISTRY_METADATA.tsv",
+      "line": 43,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "development_reconstruction_2026-09-29/review/fidelity/REGISTRY_METADATA.tsv",
+      "line": 44,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "development_reconstruction_2026-09-29/review/fidelity/REGISTRY_METADATA.tsv",
+      "line": 45,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "development_reconstruction_2026-09-29/review/fidelity/REGISTRY_METADATA.tsv",
+      "line": 46,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "development_reconstruction_2026-09-29/review/fidelity/REGISTRY_METADATA.tsv",
+      "line": 47,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "development_reconstruction_2026-09-29/review/fidelity/REGISTRY_METADATA.tsv",
+      "line": 48,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "development_reconstruction_2026-09-29/review/fidelity/REGISTRY_METADATA.tsv",
+      "line": 49,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "development_reconstruction_2026-09-29/review/fidelity/REGISTRY_METADATA.tsv",
+      "line": 50,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "development_reconstruction_2026-09-29/review/fidelity/REGISTRY_METADATA.tsv",
+      "line": 51,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "development_reconstruction_2026-09-29/review/fidelity/REGISTRY_METADATA.tsv",
+      "line": 52,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "development_reconstruction_2026-09-29/review/fidelity/REGISTRY_METADATA.tsv",
+      "line": 53,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "development_reconstruction_2026-09-29/review/fidelity/REGISTRY_METADATA.tsv",
+      "line": 54,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "development_reconstruction_2026-09-29/review/fidelity/REGISTRY_METADATA.tsv",
+      "line": 55,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "development_reconstruction_2026-09-29/review/fidelity/REGISTRY_METADATA.tsv",
+      "line": 56,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "development_reconstruction_2026-09-29/review/fidelity/REGISTRY_METADATA.tsv",
+      "line": 57,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "development_reconstruction_2026-09-29/review/fidelity/REGISTRY_METADATA.tsv",
+      "line": 58,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "development_reconstruction_2026-09-29/review/fidelity/REGISTRY_METADATA.tsv",
+      "line": 59,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "development_reconstruction_2026-09-29/review/fidelity/REGISTRY_METADATA.tsv",
+      "line": 60,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "development_reconstruction_2026-09-29/review/fidelity/REGISTRY_METADATA.tsv",
+      "line": 61,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "development_reconstruction_2026-09-29/review/fidelity/REGISTRY_METADATA.tsv",
+      "line": 62,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "development_reconstruction_2026-09-29/review/fidelity/REGISTRY_METADATA.tsv",
+      "line": 63,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "development_reconstruction_2026-09-29/review/fidelity/REGISTRY_METADATA.tsv",
+      "line": 64,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "development_reconstruction_2026-09-29/review/fidelity/REGISTRY_METADATA.tsv",
+      "line": 65,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "development_reconstruction_2026-09-29/review/fidelity/REGISTRY_METADATA.tsv",
+      "line": 66,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "development_reconstruction_2026-09-29/review/fidelity/REGISTRY_METADATA.tsv",
+      "line": 67,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "development_reconstruction_2026-09-29/review/fidelity/REGISTRY_METADATA.tsv",
+      "line": 68,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "development_reconstruction_2026-09-29/review/fidelity/REGISTRY_METADATA.tsv",
+      "line": 69,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "development_reconstruction_2026-09-29/review/fidelity/REGISTRY_METADATA.tsv",
+      "line": 70,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "development_reconstruction_2026-09-29/review/fidelity/REGISTRY_METADATA.tsv",
+      "line": 71,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "development_reconstruction_2026-09-29/review/fidelity/REGISTRY_METADATA.tsv",
+      "line": 72,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "development_reconstruction_2026-09-29/review/fidelity/REGISTRY_METADATA.tsv",
+      "line": 73,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "development_reconstruction_2026-09-29/review/fidelity/REGISTRY_METADATA.tsv",
+      "line": 74,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "development_reconstruction_2026-09-29/review/fidelity/REGISTRY_METADATA.tsv",
+      "line": 75,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "development_reconstruction_2026-09-29/review/fidelity/REGISTRY_METADATA.tsv",
+      "line": 76,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "development_reconstruction_2026-09-29/review/fidelity/REGISTRY_METADATA.tsv",
+      "line": 77,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "development_reconstruction_2026-09-29/review/fidelity/REGISTRY_METADATA.tsv",
+      "line": 78,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "development_reconstruction_2026-09-29/review/fidelity/REGISTRY_METADATA.tsv",
+      "line": 79,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "development_reconstruction_2026-09-29/review/fidelity/REGISTRY_METADATA.tsv",
+      "line": 80,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "development_reconstruction_2026-09-29/review/fidelity/REGISTRY_METADATA.tsv",
+      "line": 81,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "development_reconstruction_2026-09-29/review/fidelity/REGISTRY_METADATA.tsv",
+      "line": 82,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "development_reconstruction_2026-09-29/review/fidelity/REGISTRY_METADATA.tsv",
+      "line": 83,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "development_reconstruction_2026-09-29/review/fidelity/REGISTRY_METADATA.tsv",
+      "line": 84,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "development_reconstruction_2026-09-29/review/fidelity/REGISTRY_METADATA.tsv",
+      "line": 85,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "development_reconstruction_2026-09-29/review/fidelity/REGISTRY_METADATA.tsv",
+      "line": 86,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "development_reconstruction_2026-09-29/review/fidelity/REGISTRY_METADATA.tsv",
+      "line": 87,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "development_reconstruction_2026-09-29/review/fidelity/REGISTRY_METADATA.tsv",
+      "line": 88,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "development_reconstruction_2026-09-29/review/fidelity/REGISTRY_METADATA.tsv",
+      "line": 89,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "development_reconstruction_2026-09-29/review/fidelity/REGISTRY_METADATA.tsv",
+      "line": 90,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "development_reconstruction_2026-09-29/review/fidelity/REGISTRY_METADATA.tsv",
+      "line": 91,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "development_reconstruction_2026-09-29/review/fidelity/REGISTRY_METADATA.tsv",
+      "line": 92,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "development_reconstruction_2026-09-29/review/fidelity/REGISTRY_METADATA.tsv",
+      "line": 93,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "development_reconstruction_2026-09-29/review/fidelity/REGISTRY_METADATA.tsv",
+      "line": 94,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "development_reconstruction_2026-09-29/review/fidelity/REGISTRY_METADATA.tsv",
+      "line": 95,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "development_reconstruction_2026-09-29/review/fidelity/REGISTRY_METADATA.tsv",
+      "line": 96,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "development_reconstruction_2026-09-29/review/fidelity/REGISTRY_METADATA.tsv",
+      "line": 97,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "development_reconstruction_2026-09-29/review/fidelity/REGISTRY_METADATA.tsv",
+      "line": 98,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "development_reconstruction_2026-09-29/review/fidelity/REGISTRY_METADATA.tsv",
+      "line": 99,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "development_reconstruction_2026-09-29/review/fidelity/REGISTRY_METADATA.tsv",
+      "line": 100,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "development_reconstruction_2026-09-29/review/fidelity/REGISTRY_METADATA.tsv",
+      "line": 101,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "development_reconstruction_2026-09-29/review/fidelity/REGISTRY_METADATA.tsv",
+      "line": 102,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "development_reconstruction_2026-09-29/review/fidelity/REGISTRY_METADATA.tsv",
+      "line": 103,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "development_reconstruction_2026-09-29/review/fidelity/REGISTRY_METADATA.tsv",
+      "line": 104,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "development_reconstruction_2026-09-29/review/fidelity/REGISTRY_METADATA.tsv",
+      "line": 105,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "development_reconstruction_2026-09-29/review/fidelity/REGISTRY_METADATA.tsv",
+      "line": 106,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "development_reconstruction_2026-09-29/review/fidelity/REGISTRY_METADATA.tsv",
+      "line": 107,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "development_reconstruction_2026-09-29/review/fidelity/REGISTRY_METADATA.tsv",
+      "line": 108,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "development_reconstruction_2026-09-29/review/fidelity/REGISTRY_METADATA.tsv",
+      "line": 109,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "development_reconstruction_2026-09-29/review/fidelity/REGISTRY_METADATA.tsv",
+      "line": 110,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "development_reconstruction_2026-09-29/review/fidelity/REGISTRY_METADATA.tsv",
+      "line": 111,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "development_reconstruction_2026-09-29/review/fidelity/REGISTRY_METADATA.tsv",
+      "line": 112,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "development_reconstruction_2026-09-29/review/fidelity/REGISTRY_METADATA.tsv",
+      "line": 113,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "development_reconstruction_2026-09-29/review/fidelity/REGISTRY_METADATA.tsv",
+      "line": 114,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "development_reconstruction_2026-09-29/review/fidelity/REGISTRY_METADATA.tsv",
+      "line": 115,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "development_reconstruction_2026-09-29/review/fidelity/REGISTRY_METADATA.tsv",
+      "line": 116,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "development_reconstruction_2026-09-29/review/fidelity/REGISTRY_METADATA.tsv",
+      "line": 117,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "development_reconstruction_2026-09-29/review/fidelity/REGISTRY_METADATA.tsv",
+      "line": 118,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "development_reconstruction_2026-09-29/review/fidelity/REGISTRY_METADATA.tsv",
+      "line": 119,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "development_reconstruction_2026-09-29/review/fidelity/REGISTRY_METADATA.tsv",
+      "line": 120,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "development_reconstruction_2026-09-29/review/fidelity/REGISTRY_METADATA.tsv",
+      "line": 121,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "development_reconstruction_2026-09-29/review/fidelity/REGISTRY_METADATA.tsv",
+      "line": 122,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "development_reconstruction_2026-09-29/review/fidelity/REGISTRY_METADATA.tsv",
+      "line": 123,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "development_reconstruction_2026-09-29/review/fidelity/REGISTRY_METADATA.tsv",
+      "line": 124,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "development_reconstruction_2026-09-29/review/fidelity/REGISTRY_METADATA.tsv",
+      "line": 125,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "development_reconstruction_2026-09-29/review/fidelity/REGISTRY_METADATA.tsv",
+      "line": 126,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "development_reconstruction_2026-09-29/review/fidelity/REGISTRY_METADATA.tsv",
+      "line": 127,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "development_reconstruction_2026-09-29/review/fidelity/REGISTRY_METADATA.tsv",
+      "line": 128,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "development_reconstruction_2026-09-29/review/fidelity/REGISTRY_METADATA.tsv",
+      "line": 129,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "development_reconstruction_2026-09-29/review/fidelity/REGISTRY_METADATA.tsv",
+      "line": 130,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "development_reconstruction_2026-09-29/review/fidelity/REGISTRY_METADATA.tsv",
+      "line": 131,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "development_reconstruction_2026-09-29/review/fidelity/REGISTRY_METADATA.tsv",
+      "line": 132,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "development_reconstruction_2026-09-29/review/fidelity/REGISTRY_METADATA.tsv",
+      "line": 133,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "development_reconstruction_2026-09-29/review/fidelity/REGISTRY_METADATA.tsv",
+      "line": 134,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "development_reconstruction_2026-09-29/review/fidelity/REGISTRY_METADATA.tsv",
+      "line": 135,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "development_reconstruction_2026-09-29/review/fidelity/REGISTRY_METADATA.tsv",
+      "line": 136,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "development_reconstruction_2026-09-29/review/fidelity/REGISTRY_METADATA.tsv",
+      "line": 137,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "development_reconstruction_2026-09-29/review/fidelity/REGISTRY_METADATA.tsv",
+      "line": 138,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "development_reconstruction_2026-09-29/review/fidelity/REGISTRY_METADATA.tsv",
+      "line": 139,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "development_reconstruction_2026-09-29/review/fidelity/REGISTRY_METADATA.tsv",
+      "line": 140,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "development_reconstruction_2026-09-29/review/fidelity/REGISTRY_METADATA.tsv",
+      "line": 141,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "development_reconstruction_2026-09-29/review/fidelity/REGISTRY_METADATA.tsv",
+      "line": 142,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "development_reconstruction_2026-09-29/review/fidelity/REGISTRY_METADATA.tsv",
+      "line": 143,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "development_reconstruction_2026-09-29/review/fidelity/REGISTRY_METADATA.tsv",
+      "line": 144,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "development_reconstruction_2026-09-29/review/fidelity/REGISTRY_METADATA.tsv",
+      "line": 145,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "development_reconstruction_2026-09-29/review/fidelity/REGISTRY_METADATA.tsv",
+      "line": 146,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "development_reconstruction_2026-09-29/review/fidelity/REGISTRY_METADATA.tsv",
+      "line": 147,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "development_reconstruction_2026-09-29/review/fidelity/REGISTRY_METADATA.tsv",
+      "line": 148,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "development_reconstruction_2026-09-29/review/fidelity/REGISTRY_METADATA.tsv",
+      "line": 149,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "development_reconstruction_2026-09-29/review/fidelity/REGISTRY_METADATA.tsv",
+      "line": 150,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "development_reconstruction_2026-09-29/review/fidelity/REGISTRY_METADATA.tsv",
+      "line": 151,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "development_reconstruction_2026-09-29/review/fidelity/REGISTRY_METADATA.tsv",
+      "line": 152,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "development_reconstruction_2026-09-29/review/fidelity/REGISTRY_METADATA.tsv",
+      "line": 153,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "development_reconstruction_2026-09-29/review/fidelity/REGISTRY_METADATA.tsv",
+      "line": 154,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "development_reconstruction_2026-09-29/review/fidelity/REGISTRY_METADATA.tsv",
+      "line": 155,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "development_reconstruction_2026-09-29/review/fidelity/REGISTRY_METADATA.tsv",
+      "line": 156,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "development_reconstruction_2026-09-29/review/fidelity/REGISTRY_METADATA.tsv",
+      "line": 157,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "development_reconstruction_2026-09-29/review/fidelity/REGISTRY_METADATA.tsv",
+      "line": 158,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "development_reconstruction_2026-09-29/review/fidelity/REGISTRY_METADATA.tsv",
+      "line": 159,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "development_reconstruction_2026-09-29/review/fidelity/REGISTRY_METADATA.tsv",
+      "line": 160,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "development_reconstruction_2026-09-29/review/fidelity/REGISTRY_METADATA.tsv",
+      "line": 161,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "development_reconstruction_2026-09-29/review/fidelity/REGISTRY_METADATA.tsv",
+      "line": 162,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "development_reconstruction_2026-09-29/review/fidelity/REGISTRY_METADATA.tsv",
+      "line": 163,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "development_reconstruction_2026-09-29/review/fidelity/REGISTRY_METADATA.tsv",
+      "line": 164,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "development_reconstruction_2026-09-29/review/fidelity/REGISTRY_METADATA.tsv",
+      "line": 165,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "development_reconstruction_2026-09-29/review/fidelity/REGISTRY_METADATA.tsv",
+      "line": 166,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "development_reconstruction_2026-09-29/review/fidelity/REGISTRY_METADATA.tsv",
+      "line": 167,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "development_reconstruction_2026-09-29/review/fidelity/REGISTRY_METADATA.tsv",
+      "line": 168,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "development_reconstruction_2026-09-29/review/fidelity/REGISTRY_METADATA.tsv",
+      "line": 169,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "development_reconstruction_2026-09-29/review/fidelity/REGISTRY_METADATA.tsv",
+      "line": 170,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "development_reconstruction_2026-09-29/review/fidelity/REGISTRY_METADATA.tsv",
+      "line": 171,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "development_reconstruction_2026-09-29/review/fidelity/REGISTRY_METADATA.tsv",
+      "line": 172,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "development_reconstruction_2026-09-29/review/fidelity/REGISTRY_METADATA.tsv",
+      "line": 173,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "development_reconstruction_2026-09-29/review/fidelity/REGISTRY_METADATA.tsv",
+      "line": 174,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "development_reconstruction_2026-09-29/review/fidelity/REGISTRY_METADATA.tsv",
+      "line": 175,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "development_reconstruction_2026-09-29/review/fidelity/REGISTRY_METADATA.tsv",
+      "line": 176,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "development_reconstruction_2026-09-29/review/fidelity/REGISTRY_METADATA.tsv",
+      "line": 177,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "development_reconstruction_2026-09-29/review/fidelity/REGISTRY_METADATA.tsv",
+      "line": 178,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "development_reconstruction_2026-09-29/review/fidelity/REGISTRY_METADATA.tsv",
+      "line": 179,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "development_reconstruction_2026-09-29/review/fidelity/REGISTRY_METADATA.tsv",
+      "line": 180,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "development_reconstruction_2026-09-29/review/fidelity/REGISTRY_METADATA.tsv",
+      "line": 181,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "development_reconstruction_2026-09-29/review/fidelity/REGISTRY_METADATA.tsv",
+      "line": 182,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "development_reconstruction_2026-09-29/review/fidelity/REGISTRY_METADATA.tsv",
+      "line": 183,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "development_reconstruction_2026-09-29/review/fidelity/REGISTRY_METADATA.tsv",
+      "line": 184,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "development_reconstruction_2026-09-29/review/fidelity/REGISTRY_METADATA.tsv",
+      "line": 185,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "development_reconstruction_2026-09-29/review/fidelity/REGISTRY_METADATA.tsv",
+      "line": 186,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "development_reconstruction_2026-09-29/review/fidelity/REGISTRY_METADATA.tsv",
+      "line": 187,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "development_reconstruction_2026-09-29/review/fidelity/REGISTRY_METADATA.tsv",
+      "line": 188,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "development_reconstruction_2026-09-29/review/fidelity/REGISTRY_METADATA.tsv",
+      "line": 189,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "development_reconstruction_2026-09-29/review/fidelity/REGISTRY_METADATA.tsv",
+      "line": 190,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "development_reconstruction_2026-09-29/review/fidelity/REGISTRY_METADATA.tsv",
+      "line": 191,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "development_reconstruction_2026-09-29/review/fidelity/REGISTRY_METADATA.tsv",
+      "line": 192,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "development_reconstruction_2026-09-29/review/fidelity/REGISTRY_METADATA.tsv",
+      "line": 193,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "development_reconstruction_2026-09-29/review/fidelity/REGISTRY_METADATA.tsv",
+      "line": 194,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "development_reconstruction_2026-09-29/review/fidelity/REGISTRY_METADATA.tsv",
+      "line": 195,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "development_reconstruction_2026-09-29/review/fidelity/REGISTRY_METADATA.tsv",
+      "line": 196,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "development_reconstruction_2026-09-29/review/fidelity/REGISTRY_METADATA.tsv",
+      "line": 197,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "development_reconstruction_2026-09-29/review/fidelity/REGISTRY_METADATA.tsv",
+      "line": 198,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "development_reconstruction_2026-09-29/review/fidelity/REGISTRY_METADATA.tsv",
+      "line": 199,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "development_reconstruction_2026-09-29/review/fidelity/REGISTRY_METADATA.tsv",
+      "line": 200,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "development_reconstruction_2026-09-29/review/fidelity/REGISTRY_METADATA.tsv",
+      "line": 201,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "development_reconstruction_2026-09-29/review/fidelity/REGISTRY_METADATA.tsv",
+      "line": 202,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "development_reconstruction_2026-09-29/review/fidelity/REGISTRY_METADATA.tsv",
+      "line": 203,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "development_reconstruction_2026-09-29/review/fidelity/REGISTRY_METADATA.tsv",
+      "line": 204,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "development_reconstruction_2026-09-29/review/fidelity/REGISTRY_METADATA.tsv",
+      "line": 205,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "development_reconstruction_2026-09-29/review/fidelity/REGISTRY_METADATA.tsv",
+      "line": 206,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "development_reconstruction_2026-09-29/review/fidelity/REGISTRY_METADATA.tsv",
+      "line": 207,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "development_reconstruction_2026-09-29/review/fidelity/REGISTRY_METADATA.tsv",
+      "line": 208,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "development_reconstruction_2026-09-29/review/fidelity/REGISTRY_METADATA.tsv",
+      "line": 209,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "development_reconstruction_2026-09-29/review/fidelity/REGISTRY_METADATA.tsv",
+      "line": 210,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "development_reconstruction_2026-09-29/review/fidelity/REGISTRY_METADATA.tsv",
+      "line": 211,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "development_reconstruction_2026-09-29/review/fidelity/REGISTRY_METADATA.tsv",
+      "line": 212,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "development_reconstruction_2026-09-29/review/fidelity/REGISTRY_METADATA.tsv",
+      "line": 213,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "development_reconstruction_2026-09-29/review/fidelity/REGISTRY_METADATA.tsv",
+      "line": 214,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "development_reconstruction_2026-09-29/review/fidelity/REGISTRY_METADATA.tsv",
+      "line": 215,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "development_reconstruction_2026-09-29/review/fidelity/REGISTRY_METADATA.tsv",
+      "line": 216,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "development_reconstruction_2026-09-29/review/fidelity/REGISTRY_METADATA.tsv",
+      "line": 217,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "development_reconstruction_2026-09-29/review/fidelity/REGISTRY_METADATA.tsv",
+      "line": 218,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "development_reconstruction_2026-09-29/review/fidelity/REGISTRY_METADATA.tsv",
+      "line": 219,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "development_reconstruction_2026-09-29/review/fidelity/REGISTRY_METADATA.tsv",
+      "line": 220,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "development_reconstruction_2026-09-29/review/fidelity/REGISTRY_METADATA.tsv",
+      "line": 221,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "development_reconstruction_2026-09-29/review/fidelity/REGISTRY_METADATA.tsv",
+      "line": 222,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "development_reconstruction_2026-09-29/review/fidelity/REGISTRY_METADATA.tsv",
+      "line": 223,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "development_reconstruction_2026-09-29/review/fidelity/REGISTRY_METADATA.tsv",
+      "line": 224,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "development_reconstruction_2026-09-29/review/fidelity/REGISTRY_METADATA.tsv",
+      "line": 225,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "development_reconstruction_2026-09-29/review/fidelity/REGISTRY_METADATA.tsv",
+      "line": 226,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "development_reconstruction_2026-09-29/review/fidelity/REGISTRY_METADATA.tsv",
+      "line": 227,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "development_reconstruction_2026-09-29/review/fidelity/REGISTRY_METADATA.tsv",
+      "line": 228,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "development_reconstruction_2026-09-29/review/fidelity/REGISTRY_METADATA.tsv",
+      "line": 229,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "development_reconstruction_2026-09-29/review/fidelity/REGISTRY_METADATA.tsv",
+      "line": 230,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "development_reconstruction_2026-09-29/review/fidelity/REGISTRY_METADATA.tsv",
+      "line": 231,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "development_reconstruction_2026-09-29/review/fidelity/REGISTRY_METADATA.tsv",
+      "line": 232,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "development_reconstruction_2026-09-29/review/fidelity/REGISTRY_METADATA.tsv",
+      "line": 233,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "development_reconstruction_2026-09-29/review/fidelity/REGISTRY_METADATA.tsv",
+      "line": 234,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "development_reconstruction_2026-09-29/review/fidelity/REGISTRY_METADATA.tsv",
+      "line": 235,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "development_reconstruction_2026-09-29/review/fidelity/REGISTRY_METADATA.tsv",
+      "line": 236,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "development_reconstruction_2026-09-29/review/fidelity/REGISTRY_METADATA.tsv",
+      "line": 237,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "development_reconstruction_2026-09-29/review/fidelity/REGISTRY_METADATA.tsv",
+      "line": 238,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "development_reconstruction_2026-09-29/review/fidelity/REGISTRY_METADATA.tsv",
+      "line": 239,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "development_reconstruction_2026-09-29/review/fidelity/REGISTRY_METADATA.tsv",
+      "line": 240,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "development_reconstruction_2026-09-29/review/fidelity/REGISTRY_METADATA.tsv",
+      "line": 241,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "development_reconstruction_2026-09-29/review/fidelity/REGISTRY_METADATA.tsv",
+      "line": 242,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "development_reconstruction_2026-09-29/review/fidelity/REGISTRY_METADATA.tsv",
+      "line": 243,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "development_reconstruction_2026-09-29/review/fidelity/REGISTRY_METADATA.tsv",
+      "line": 244,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "development_reconstruction_2026-09-29/review/fidelity/REGISTRY_METADATA.tsv",
+      "line": 245,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "development_reconstruction_2026-09-29/review/fidelity/REGISTRY_METADATA.tsv",
+      "line": 246,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "development_reconstruction_2026-09-29/review/fidelity/REGISTRY_METADATA.tsv",
+      "line": 247,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "development_reconstruction_2026-09-29/review/fidelity/REGISTRY_METADATA.tsv",
+      "line": 248,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "development_reconstruction_2026-09-29/review/fidelity/REGISTRY_METADATA.tsv",
+      "line": 249,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "development_reconstruction_2026-09-29/review/fidelity/REGISTRY_METADATA.tsv",
+      "line": 250,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "development_reconstruction_2026-09-29/review/fidelity/REGISTRY_METADATA.tsv",
+      "line": 251,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "development_reconstruction_2026-09-29/review/fidelity/REGISTRY_METADATA.tsv",
+      "line": 252,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "development_reconstruction_2026-09-29/review/fidelity/REGISTRY_METADATA.tsv",
+      "line": 253,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "development_reconstruction_2026-09-29/review/fidelity/REGISTRY_METADATA.tsv",
+      "line": 254,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "development_reconstruction_2026-09-29/review/fidelity/REGISTRY_METADATA.tsv",
+      "line": 255,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "development_reconstruction_2026-09-29/review/fidelity/REGISTRY_METADATA.tsv",
+      "line": 256,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "development_reconstruction_2026-09-29/review/fidelity/REGISTRY_METADATA.tsv",
+      "line": 257,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "development_reconstruction_2026-09-29/review/fidelity/REGISTRY_METADATA.tsv",
+      "line": 258,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "development_reconstruction_2026-09-29/review/fidelity/REGISTRY_METADATA.tsv",
+      "line": 259,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "development_reconstruction_2026-09-29/review/fidelity/REGISTRY_METADATA.tsv",
+      "line": 260,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "development_reconstruction_2026-09-29/review/fidelity/REGISTRY_METADATA.tsv",
+      "line": 261,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "development_reconstruction_2026-09-29/review/fidelity/REGISTRY_METADATA.tsv",
+      "line": 262,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "development_reconstruction_2026-09-29/review/fidelity/REGISTRY_METADATA.tsv",
+      "line": 263,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "development_reconstruction_2026-09-29/review/fidelity/REGISTRY_METADATA.tsv",
+      "line": 264,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "development_reconstruction_2026-09-29/review/fidelity/REGISTRY_METADATA.tsv",
+      "line": 265,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "development_reconstruction_2026-09-29/review/fidelity/REGISTRY_METADATA.tsv",
+      "line": 266,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "development_reconstruction_2026-09-29/review/fidelity/REGISTRY_METADATA.tsv",
+      "line": 267,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "development_reconstruction_2026-09-29/review/fidelity/REGISTRY_METADATA.tsv",
+      "line": 268,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "development_reconstruction_2026-09-29/review/fidelity/REGISTRY_METADATA.tsv",
+      "line": 269,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "development_reconstruction_2026-09-29/review/fidelity/REGISTRY_METADATA.tsv",
+      "line": 270,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "development_reconstruction_2026-09-29/review/fidelity/REGISTRY_METADATA.tsv",
+      "line": 271,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "development_reconstruction_2026-09-29/review/fidelity/REGISTRY_METADATA.tsv",
+      "line": 272,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "development_reconstruction_2026-09-29/review/fidelity/REGISTRY_METADATA.tsv",
+      "line": 273,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "development_reconstruction_2026-09-29/review/fidelity/REGISTRY_METADATA.tsv",
+      "line": 274,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "development_reconstruction_2026-09-29/review/fidelity/REGISTRY_METADATA.tsv",
+      "line": 275,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "development_reconstruction_2026-09-29/review/fidelity/REGISTRY_METADATA.tsv",
+      "line": 276,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "development_reconstruction_2026-09-29/review/fidelity/REGISTRY_METADATA.tsv",
+      "line": 277,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "development_reconstruction_2026-09-29/review/fidelity/REGISTRY_METADATA.tsv",
+      "line": 278,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "development_reconstruction_2026-09-29/review/fidelity/REGISTRY_METADATA.tsv",
+      "line": 279,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "development_reconstruction_2026-09-29/review/fidelity/REGISTRY_METADATA.tsv",
+      "line": 280,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "development_reconstruction_2026-09-29/review/fidelity/REGISTRY_METADATA.tsv",
+      "line": 281,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "development_reconstruction_2026-09-29/review/fidelity/REGISTRY_METADATA.tsv",
+      "line": 282,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "development_reconstruction_2026-09-29/review/fidelity/REGISTRY_METADATA.tsv",
+      "line": 283,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "development_reconstruction_2026-09-29/review/fidelity/REGISTRY_METADATA.tsv",
+      "line": 284,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "development_reconstruction_2026-09-29/review/fidelity/REGISTRY_METADATA.tsv",
+      "line": 285,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "development_reconstruction_2026-09-29/review/fidelity/REGISTRY_METADATA.tsv",
+      "line": 286,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "development_reconstruction_2026-09-29/review/fidelity/REGISTRY_METADATA.tsv",
+      "line": 287,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "development_reconstruction_2026-09-29/review/fidelity/REGISTRY_METADATA.tsv",
+      "line": 288,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "development_reconstruction_2026-09-29/review/fidelity/REGISTRY_METADATA.tsv",
+      "line": 289,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "development_reconstruction_2026-09-29/review/fidelity/REGISTRY_METADATA.tsv",
+      "line": 290,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "development_reconstruction_2026-09-29/review/fidelity/REGISTRY_METADATA.tsv",
+      "line": 291,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "development_reconstruction_2026-09-29/review/fidelity/REGISTRY_METADATA.tsv",
+      "line": 292,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "development_reconstruction_2026-09-29/review/fidelity/REGISTRY_METADATA.tsv",
+      "line": 293,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "development_reconstruction_2026-09-29/review/fidelity/REGISTRY_METADATA.tsv",
+      "line": 294,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "development_reconstruction_2026-09-29/review/fidelity/REGISTRY_METADATA.tsv",
+      "line": 295,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "development_reconstruction_2026-09-29/review/fidelity/REGISTRY_METADATA.tsv",
+      "line": 296,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "development_reconstruction_2026-09-29/review/fidelity/REGISTRY_METADATA.tsv",
+      "line": 297,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "development_reconstruction_2026-09-29/review/fidelity/REGISTRY_METADATA.tsv",
+      "line": 298,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "development_reconstruction_2026-09-29/review/fidelity/REGISTRY_METADATA.tsv",
+      "line": 299,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "development_reconstruction_2026-09-29/review/fidelity/REGISTRY_METADATA.tsv",
+      "line": 300,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "development_reconstruction_2026-09-29/review/fidelity/REGISTRY_METADATA.tsv",
+      "line": 301,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "development_reconstruction_2026-09-29/review/fidelity/REGISTRY_METADATA.tsv",
+      "line": 302,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "development_reconstruction_2026-09-29/review/fidelity/REGISTRY_METADATA.tsv",
+      "line": 303,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "development_reconstruction_2026-09-29/review/fidelity/REGISTRY_METADATA.tsv",
+      "line": 304,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "development_reconstruction_2026-09-29/review/fidelity/REGISTRY_METADATA.tsv",
+      "line": 305,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "development_reconstruction_2026-09-29/review/fidelity/REGISTRY_METADATA.tsv",
+      "line": 306,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "development_reconstruction_2026-09-29/review/fidelity/REGISTRY_METADATA.tsv",
+      "line": 307,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "development_reconstruction_2026-09-29/review/fidelity/REGISTRY_METADATA.tsv",
+      "line": 308,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "development_reconstruction_2026-09-29/review/fidelity/REGISTRY_METADATA.tsv",
+      "line": 309,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "development_reconstruction_2026-09-29/review/fidelity/REGISTRY_METADATA.tsv",
+      "line": 310,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "development_reconstruction_2026-09-29/review/fidelity/REGISTRY_METADATA.tsv",
+      "line": 311,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "development_reconstruction_2026-09-29/review/fidelity/REGISTRY_METADATA.tsv",
+      "line": 312,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "development_reconstruction_2026-09-29/review/fidelity/REGISTRY_METADATA.tsv",
+      "line": 313,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "development_reconstruction_2026-09-29/review/fidelity/REGISTRY_METADATA.tsv",
+      "line": 314,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "development_reconstruction_2026-09-29/review/fidelity/REGISTRY_METADATA.tsv",
+      "line": 315,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "development_reconstruction_2026-09-29/review/fidelity/REGISTRY_METADATA.tsv",
+      "line": 316,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "development_reconstruction_2026-09-29/review/fidelity/REGISTRY_METADATA.tsv",
+      "line": 317,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "development_reconstruction_2026-09-29/review/fidelity/REGISTRY_METADATA.tsv",
+      "line": 318,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "development_reconstruction_2026-09-29/review/fidelity/REGISTRY_METADATA.tsv",
+      "line": 319,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "development_reconstruction_2026-09-29/review/fidelity/REGISTRY_METADATA.tsv",
+      "line": 320,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "development_reconstruction_2026-09-29/review/fidelity/REGISTRY_METADATA.tsv",
+      "line": 321,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "development_reconstruction_2026-09-29/review/fidelity/REGISTRY_METADATA.tsv",
+      "line": 322,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "development_reconstruction_2026-09-29/review/fidelity/REGISTRY_METADATA.tsv",
+      "line": 323,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "development_reconstruction_2026-09-29/review/fidelity/REGISTRY_METADATA.tsv",
+      "line": 324,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "development_reconstruction_2026-09-29/review/fidelity/REGISTRY_METADATA.tsv",
+      "line": 325,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "development_reconstruction_2026-09-29/review/fidelity/REGISTRY_METADATA.tsv",
+      "line": 326,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "development_reconstruction_2026-09-29/review/fidelity/REGISTRY_METADATA.tsv",
+      "line": 327,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "development_reconstruction_2026-09-29/review/fidelity/REGISTRY_METADATA.tsv",
+      "line": 328,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "development_reconstruction_2026-09-29/review/fidelity/REGISTRY_METADATA.tsv",
+      "line": 329,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "development_reconstruction_2026-09-29/review/fidelity/REGISTRY_METADATA.tsv",
+      "line": 330,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "development_reconstruction_2026-09-29/review/fidelity/REGISTRY_METADATA.tsv",
+      "line": 331,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "development_reconstruction_2026-09-29/review/fidelity/REGISTRY_METADATA.tsv",
+      "line": 332,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "development_reconstruction_2026-09-29/review/fidelity/REGISTRY_METADATA.tsv",
+      "line": 333,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "development_reconstruction_2026-09-29/review/fidelity/REGISTRY_METADATA.tsv",
+      "line": 334,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "development_reconstruction_2026-09-29/review/fidelity/REGISTRY_METADATA.tsv",
+      "line": 335,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "development_reconstruction_2026-09-29/review/fidelity/REGISTRY_METADATA.tsv",
+      "line": 336,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "development_reconstruction_2026-09-29/review/fidelity/REGISTRY_METADATA.tsv",
+      "line": 337,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "development_reconstruction_2026-09-29/review/fidelity/REGISTRY_METADATA.tsv",
+      "line": 338,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "development_reconstruction_2026-09-29/review/fidelity/REGISTRY_METADATA.tsv",
+      "line": 339,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "development_reconstruction_2026-09-29/review/fidelity/REGISTRY_METADATA.tsv",
+      "line": 340,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "development_reconstruction_2026-09-29/review/fidelity/REGISTRY_METADATA.tsv",
+      "line": 341,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "development_reconstruction_2026-09-29/review/fidelity/REGISTRY_METADATA.tsv",
+      "line": 342,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "development_reconstruction_2026-09-29/review/fidelity/REGISTRY_METADATA.tsv",
+      "line": 343,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "development_reconstruction_2026-09-29/review/fidelity/REGISTRY_METADATA.tsv",
+      "line": 344,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "development_reconstruction_2026-09-29/review/fidelity/REGISTRY_METADATA.tsv",
+      "line": 345,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "development_reconstruction_2026-09-29/review/fidelity/REGISTRY_METADATA.tsv",
+      "line": 346,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "development_reconstruction_2026-09-29/review/fidelity/REGISTRY_METADATA.tsv",
+      "line": 347,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "development_reconstruction_2026-09-29/review/fidelity/REGISTRY_METADATA.tsv",
+      "line": 348,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "development_reconstruction_2026-09-29/review/fidelity/REGISTRY_METADATA.tsv",
+      "line": 349,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "development_reconstruction_2026-09-29/review/fidelity/REGISTRY_METADATA.tsv",
+      "line": 350,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "development_reconstruction_2026-09-29/review/fidelity/REGISTRY_METADATA.tsv",
+      "line": 351,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "development_reconstruction_2026-09-29/review/fidelity/REGISTRY_METADATA.tsv",
+      "line": 352,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "development_reconstruction_2026-09-29/review/fidelity/REGISTRY_METADATA.tsv",
+      "line": 353,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "development_reconstruction_2026-09-29/review/fidelity/REGISTRY_METADATA.tsv",
+      "line": 354,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "development_reconstruction_2026-09-29/review/fidelity/REGISTRY_METADATA.tsv",
+      "line": 355,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "development_reconstruction_2026-09-29/review/fidelity/REGISTRY_METADATA.tsv",
+      "line": 356,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "development_reconstruction_2026-09-29/review/fidelity/REGISTRY_METADATA.tsv",
+      "line": 357,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "development_reconstruction_2026-09-29/review/fidelity/REGISTRY_METADATA.tsv",
+      "line": 358,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "development_reconstruction_2026-09-29/review/fidelity/REGISTRY_METADATA.tsv",
+      "line": 359,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "development_reconstruction_2026-09-29/review/fidelity/REGISTRY_METADATA.tsv",
+      "line": 360,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "development_reconstruction_2026-09-29/review/fidelity/REGISTRY_METADATA.tsv",
+      "line": 361,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "development_reconstruction_2026-09-29/review/fidelity/REGISTRY_METADATA.tsv",
+      "line": 362,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "development_reconstruction_2026-09-29/review/fidelity/REGISTRY_METADATA.tsv",
+      "line": 363,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "development_reconstruction_2026-09-29/review/fidelity/REGISTRY_METADATA.tsv",
+      "line": 364,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "development_reconstruction_2026-09-29/review/fidelity/REGISTRY_METADATA.tsv",
+      "line": 365,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "development_reconstruction_2026-09-29/review/fidelity/REGISTRY_METADATA.tsv",
+      "line": 366,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "development_reconstruction_2026-09-29/review/fidelity/REGISTRY_METADATA.tsv",
+      "line": 367,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "development_reconstruction_2026-09-29/review/fidelity/REGISTRY_METADATA.tsv",
+      "line": 368,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "development_reconstruction_2026-09-29/review/fidelity/REGISTRY_METADATA.tsv",
+      "line": 369,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "development_reconstruction_2026-09-29/review/fidelity/REGISTRY_METADATA.tsv",
+      "line": 370,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "development_reconstruction_2026-09-29/review/fidelity/REGISTRY_METADATA.tsv",
+      "line": 371,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "development_reconstruction_2026-09-29/review/fidelity/REGISTRY_METADATA.tsv",
+      "line": 372,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "development_reconstruction_2026-09-29/review/fidelity/REGISTRY_METADATA.tsv",
+      "line": 373,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "development_reconstruction_2026-09-29/review/fidelity/REGISTRY_METADATA.tsv",
+      "line": 374,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "development_reconstruction_2026-09-29/review/fidelity/REGISTRY_METADATA.tsv",
+      "line": 375,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "development_reconstruction_2026-09-29/review/fidelity/REGISTRY_METADATA.tsv",
+      "line": 376,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "development_reconstruction_2026-09-29/review/fidelity/REGISTRY_METADATA.tsv",
+      "line": 377,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "development_reconstruction_2026-09-29/review/fidelity/REGISTRY_METADATA.tsv",
+      "line": 378,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "development_reconstruction_2026-09-29/review/fidelity/REGISTRY_METADATA.tsv",
+      "line": 379,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "development_reconstruction_2026-09-29/review/fidelity/REGISTRY_METADATA.tsv",
+      "line": 380,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "development_reconstruction_2026-09-29/review/fidelity/REGISTRY_METADATA.tsv",
+      "line": 381,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "development_reconstruction_2026-09-29/review/fidelity/REGISTRY_METADATA.tsv",
+      "line": 382,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "development_reconstruction_2026-09-29/review/fidelity/REGISTRY_METADATA.tsv",
+      "line": 383,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "development_reconstruction_2026-09-29/review/fidelity/REGISTRY_METADATA.tsv",
+      "line": 384,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "development_reconstruction_2026-09-29/review/fidelity/REGISTRY_METADATA.tsv",
+      "line": 385,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "development_reconstruction_2026-09-29/review/fidelity/REGISTRY_METADATA.tsv",
+      "line": 386,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "development_reconstruction_2026-09-29/review/fidelity/REGISTRY_METADATA.tsv",
+      "line": 387,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "development_reconstruction_2026-09-29/review/fidelity/REGISTRY_METADATA.tsv",
+      "line": 388,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "development_reconstruction_2026-09-29/review/fidelity/REGISTRY_METADATA.tsv",
+      "line": 389,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "development_reconstruction_2026-09-29/review/fidelity/REGISTRY_METADATA.tsv",
+      "line": 390,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "development_reconstruction_2026-09-29/review/fidelity/REGISTRY_METADATA.tsv",
+      "line": 391,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "development_reconstruction_2026-09-29/review/fidelity/REGISTRY_METADATA.tsv",
+      "line": 392,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "development_reconstruction_2026-09-29/review/fidelity/REGISTRY_METADATA.tsv",
+      "line": 393,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "development_reconstruction_2026-09-29/review/fidelity/REGISTRY_METADATA.tsv",
+      "line": 394,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "development_reconstruction_2026-09-29/review/fidelity/REGISTRY_METADATA.tsv",
+      "line": 395,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "development_reconstruction_2026-09-29/review/fidelity/REGISTRY_METADATA.tsv",
+      "line": 396,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "development_reconstruction_2026-09-29/review/fidelity/REGISTRY_METADATA.tsv",
+      "line": 397,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "development_reconstruction_2026-09-29/review/fidelity/REGISTRY_METADATA.tsv",
+      "line": 398,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "development_reconstruction_2026-09-29/review/fidelity/REGISTRY_METADATA.tsv",
+      "line": 399,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "development_reconstruction_2026-09-29/review/fidelity/REGISTRY_METADATA.tsv",
+      "line": 400,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "development_reconstruction_2026-09-29/review/fidelity/REGISTRY_METADATA.tsv",
+      "line": 401,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "development_reconstruction_2026-09-29/review/fidelity/REGISTRY_METADATA.tsv",
+      "line": 402,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "development_reconstruction_2026-09-29/review/fidelity/REGISTRY_METADATA.tsv",
+      "line": 403,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "development_reconstruction_2026-09-29/review/fidelity/REGISTRY_METADATA.tsv",
+      "line": 404,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "development_reconstruction_2026-09-29/review/fidelity/REGISTRY_METADATA.tsv",
+      "line": 405,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "development_reconstruction_2026-09-29/review/fidelity/REGISTRY_METADATA.tsv",
+      "line": 406,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "development_reconstruction_2026-09-29/review/fidelity/REGISTRY_METADATA.tsv",
+      "line": 407,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "development_reconstruction_2026-09-29/review/fidelity/SOURCE_PINS.tsv",
+      "line": 1,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "development_reconstruction_2026-09-29/review/fidelity/SOURCE_PINS.tsv",
+      "line": 2,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "development_reconstruction_2026-09-29/review/fidelity/SOURCE_PINS.tsv",
+      "line": 3,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "development_reconstruction_2026-09-29/review/fidelity/SOURCE_PINS.tsv",
+      "line": 4,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "development_reconstruction_2026-09-29/review/fidelity/SOURCE_PINS.tsv",
+      "line": 5,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "development_reconstruction_2026-09-29/review/fidelity/SOURCE_PINS.tsv",
+      "line": 6,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "development_reconstruction_2026-09-29/review/fidelity/SOURCE_PINS.tsv",
+      "line": 7,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "development_reconstruction_2026-09-29/review/fidelity/SOURCE_PINS.tsv",
+      "line": 8,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "development_reconstruction_2026-09-29/review/fidelity/SOURCE_PINS.tsv",
+      "line": 9,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "development_reconstruction_2026-09-29/review/fidelity/SOURCE_PINS.tsv",
+      "line": 10,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "development_reconstruction_2026-09-29/review/fidelity/SOURCE_PINS.tsv",
+      "line": 11,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "development_reconstruction_2026-09-29/review/fidelity/SOURCE_PINS.tsv",
+      "line": 12,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "development_reconstruction_2026-09-29/review/fidelity/SOURCE_PINS.tsv",
+      "line": 13,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "development_reconstruction_2026-09-29/review/fidelity/SOURCE_PINS.tsv",
+      "line": 14,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "development_reconstruction_2026-09-29/review/fidelity/SOURCE_PINS.tsv",
+      "line": 15,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "development_reconstruction_2026-09-29/review/fidelity/SOURCE_PINS.tsv",
+      "line": 16,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "development_reconstruction_2026-09-29/review/fidelity/SOURCE_PINS.tsv",
+      "line": 17,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "development_reconstruction_2026-09-29/review/fidelity/SOURCE_PINS.tsv",
+      "line": 18,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "development_reconstruction_2026-09-29/review/fidelity/SOURCE_PINS.tsv",
+      "line": 19,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "development_reconstruction_2026-09-29/review/fidelity/SOURCE_PINS.tsv",
+      "line": 20,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "development_reconstruction_2026-09-29/review/fidelity/SOURCE_PINS.tsv",
+      "line": 21,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "development_reconstruction_2026-09-29/review/fidelity/SOURCE_PINS.tsv",
+      "line": 22,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "development_reconstruction_2026-09-29/review/fidelity/SOURCE_PINS.tsv",
+      "line": 23,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "development_reconstruction_2026-09-29/review/fidelity/SOURCE_PINS.tsv",
+      "line": 24,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "development_reconstruction_2026-09-29/review/fidelity/SOURCE_PINS.tsv",
+      "line": 25,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "development_reconstruction_2026-09-29/review/fidelity/SOURCE_PINS.tsv",
+      "line": 26,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "development_reconstruction_2026-09-29/review/fidelity/SOURCE_PINS.tsv",
+      "line": 27,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "development_reconstruction_2026-09-29/review/fidelity/SOURCE_PINS.tsv",
+      "line": 28,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "development_reconstruction_2026-09-29/review/fidelity/SOURCE_PINS.tsv",
+      "line": 29,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "development_reconstruction_2026-09-29/review/fidelity/SOURCE_PINS.tsv",
+      "line": 30,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "development_reconstruction_2026-09-29/review/fidelity/SOURCE_PINS.tsv",
+      "line": 31,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "development_reconstruction_2026-09-29/review/fidelity/SOURCE_PINS.tsv",
+      "line": 32,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "development_reconstruction_2026-09-29/review/fidelity/SOURCE_PINS.tsv",
+      "line": 33,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "development_reconstruction_2026-09-29/review/fidelity/SOURCE_PINS.tsv",
+      "line": 34,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "development_reconstruction_2026-09-29/review/fidelity/SOURCE_PINS.tsv",
+      "line": 35,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "development_reconstruction_2026-09-29/review/fidelity/SOURCE_PINS.tsv",
+      "line": 36,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "development_reconstruction_2026-09-29/review/fidelity/SOURCE_PINS.tsv",
+      "line": 37,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "development_reconstruction_2026-09-29/review/fidelity/SOURCE_PINS.tsv",
+      "line": 38,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "development_reconstruction_2026-09-29/review/fidelity/SOURCE_PINS.tsv",
+      "line": 39,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "development_reconstruction_2026-09-29/review/fidelity/SOURCE_PINS.tsv",
+      "line": 40,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "development_reconstruction_2026-09-29/review/fidelity/SOURCE_PINS.tsv",
+      "line": 41,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "development_reconstruction_2026-09-29/review/fidelity/SOURCE_PINS.tsv",
+      "line": 42,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "development_reconstruction_2026-09-29/review/fidelity/SOURCE_PINS.tsv",
+      "line": 43,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "development_reconstruction_2026-09-29/review/fidelity/SOURCE_PINS.tsv",
+      "line": 44,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "development_reconstruction_2026-09-29/review/fidelity/SOURCE_PINS.tsv",
+      "line": 45,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "development_reconstruction_2026-09-29/review/fidelity/SOURCE_PINS.tsv",
+      "line": 46,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "development_reconstruction_2026-09-29/review/fidelity/SOURCE_PINS.tsv",
+      "line": 47,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "development_reconstruction_2026-09-29/review/fidelity/SOURCE_PINS.tsv",
+      "line": 48,
+      "kind": "trailing whitespace."
+    },
+    {
+      "path": "development_reconstruction_2026-09-29/review/fidelity/integration_repair.stdout",
+      "line": 8,
+      "kind": "new blank line at EOF."
+    }
+  ],
+  "reason": "Preserve sealed standard-CSV CRLF TSV files and exact captured stream EOF bytes. Every diagnostic inspected; no source/code whitespace defect.",
+  "evidence_aware_command": [
+    "git",
+    "-c",
+    "core.whitespace=cr-at-eol,-blank-at-eof",
+    "diff",
+    "--cached",
+    "--check"
+  ],
+  "evidence_aware_returncode": 0,
+  "evidence_aware_stdout": "",
+  "evidence_aware_stderr": ""
+}

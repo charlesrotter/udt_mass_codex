@@ -1,0 +1,17 @@
+{
+  "scope": "exact algebra regression controls, no science promotion",
+  "count": 11,
+  "passed": [
+    "shifted_pair_reconstruction",
+    "completed_ruler_density",
+    "completed_determinant",
+    "retained_tuple_recovers_pullback",
+    "diagonal_only_wrong_with_shift",
+    "actual_echo_radar_derivative",
+    "actual_return_not_inverse",
+    "positive_radar_drift_not_both_redshift",
+    "constants_alone_no_intrinsic_length_monomial",
+    "matched_clock_ratio_homothety",
+    "conservation_does_not_select_frequency_weight"
+  ]
+}

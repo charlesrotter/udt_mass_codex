@@ -1,0 +1,32 @@
+{
+  "fixed_source_hashes_unchanged": [
+    "CANON.md",
+    "founding.md",
+    "CURRENT_SCIENTIFIC_PREMISES.tsv",
+    "UDT_METRIC_KERNEL_DEVELOPMENT.md",
+    "UDT_METRIC_KERNEL_COVERAGE.tsv",
+    "UDT_CONSOLIDATED_RESEARCH_ACCOUNT.md"
+  ],
+  "original_validator_functions_unchanged_except": [
+    "validate_startup_surface",
+    "main"
+  ],
+  "main_edit": "X_max surface only",
+  "prior_untracked_names_preserved": 52,
+  "protected_payload_hashing": false,
+  "broken_central_links": [],
+  "workspace_files": 94,
+  "workspace_bytes": 935120,
+  "tracked_changes": [
+    "AGENTS.md",
+    "CLAUDE.md",
+    "CURRENT_RESEARCH_PROGRAM.md",
+    "CURRENT_SCIENTIFIC_PREMISES.md",
+    "HANDOFF.md",
+    "INDEX.md",
+    "LIVE.md",
+    "MEMORY.md",
+    "UDT_RESEARCH_ROADMAP.md",
+    "verify_current_scientific_premises.py"
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "stage": "SOURCE_FIRST_PRE_CANDIDATE",
+  "date": "2026-09-29",
+  "head": "26da433f090a7c10717649a47c4f2383612f05cd",
+  "reviewer": "/root/development_fidelity_review",
+  "candidate_exposure": false,
+  "model": "same inherited; exact runtime identity unattested",
+  "python": "3.10.12",
+  "checks": 11,
+  "resources": "small CPU exact controls; threads1 timeout60s; no GPU or bulk replay",
+  "files": {
+    "REGISTRY_METADATA.tsv": "a6844530ae5fcbcb7157689bee41cff6d69e37040cab025399186fef7b2cb353",
+    "SOURCE_FIRST_CHECKS.json": "cdfbc2c9a56371704a4376f5b56bd2ad0643f31d95cd3ca95a667d8605139bd4",
+    "SOURCE_FIRST_REPORT.md": "af4df5c8a7664387dccb279ebc436526b22aad837cf225fec4385d2b724599e8",
+    "SOURCE_PINS.tsv": "ca48139e3b3dee1a87f661aa5129ffbab7c06e400eadb9f2b329c169e8a5e733",
+    "source_first_checks.py": "38b6293fd0119abf178e040a5dd35a085e629e6c746c69faaa0a8cc1b102d178"
+  }
+}

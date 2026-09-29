@@ -1,0 +1,15 @@
+# G349 orientation repair — fidelity review
+
+Verdict: **ACCEPT_WITH_LIMITS** for the22 exact versions in G349_ORIENTATION_REPAIR_FREEZE.json, frozen2026-09-29T19:12:11.263051+00:00. Context `/root/development_fidelity_review`. This is the bounded documentary continuation of FINAL_REVIEW, whose scientific, independence and coverage limits remain. Full after-audit and final completion/status packaging are still pending; this acceptance is not an after-audit pass claim.
+
+The actual failure receipt was read: checks/premise_after.json records exit1, no timeout,265.4502989780158 seconds; stderr identifies G349 geometric_not_physical_union_scope as the sole failed check among21. Its source hashes and mathematical/behavioral replay checks passed. The failure remains preserved. This was a missing generated-program scope statement, not an observed counterexample to the G349 mathematics.
+
+The exact delta adds only this central orientation text and its generated counterpart:
+
+> Finite null-patch results distinguish multiplicity-counted sheet area from geometric endpoint image-union; the latter requires global preimage identification. These geometric results do not identify physical light, brightness or carried content.
+
+I checked the statement against G349 EXACT_DERIVATION §§3–4,10 and AUDIT_REPORT. The local metric Jacobian integrates to spacelike sheet area counted with transverse preimage multiplicity. Geometric union area additionally uses the equivalence relation F(n)=F(n'); the complete supplied finite map contains that information. It is not a new physical input or missing light/matter/transfer law. Mixed ordinary-rank-two null strata retain zero metric two-area. The finite theorem does not select physical rays, population, light, brightness, content, distance, history or X_max. The added sentence accurately states that distinction and does not characterize every null-screen result as an image-union result.
+
+Independent correspondence checks verified all22 current hashes, that only master/PROGRAM hashes changed, that removing the exact three-line addition restores the previously reviewed master byte-for-byte, and that PROGRAM equals program_text(master). The original legacy wording gate is satisfied. G349 derivation, audit and validator remain byte-identical to baseline grok26da433f. G349_REPAIR_CHECKS.json pins those sources and records eight passing bounded checks. These are source/wording/generation checks, not a repeated mathematical proof or a claim of full repository success.
+
+The original validator is preserved. One maintained authoring source remains: the master orientation generates PROGRAM. No code, graph, registry, conditional hypothesis, central proof body, source package or scientific grade changed. The prior graph/support/attestation repairs remain accepted. Parent assigns the original no-write G349 replay to the separate math reviewer; I did not duplicate that unchanged numerical work or claim its result before inspecting evidence. Full original premise audit must rerun after actual accepted bindings. Final operational packaging must wait for actual success and retain earlier failure history.

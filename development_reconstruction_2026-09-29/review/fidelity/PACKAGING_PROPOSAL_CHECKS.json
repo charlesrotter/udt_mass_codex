@@ -1,0 +1,121 @@
+{
+  "changed_only_expected": true,
+  "checks": [
+    {
+      "pass": true,
+      "path": "AGENTS.md",
+      "type": "UNCHANGED_REVIEWED"
+    },
+    {
+      "pass": true,
+      "path": "CLAUDE.md",
+      "type": "UNCHANGED_REVIEWED"
+    },
+    {
+      "pass": true,
+      "path": "CURRENT_RESEARCH_PROGRAM.md",
+      "type": "UNCHANGED_REVIEWED"
+    },
+    {
+      "pass": true,
+      "path": "CURRENT_SCIENTIFIC_PREMISES.md",
+      "type": "UNCHANGED_REVIEWED"
+    },
+    {
+      "pass": true,
+      "path": "HANDOFF.md",
+      "type": "PROPOSED"
+    },
+    {
+      "pass": true,
+      "path": "INDEX.md",
+      "type": "UNCHANGED_REVIEWED"
+    },
+    {
+      "pass": true,
+      "path": "LIVE.md",
+      "type": "PROPOSED"
+    },
+    {
+      "pass": true,
+      "path": "MEMORY.md",
+      "type": "UNCHANGED_REVIEWED"
+    },
+    {
+      "pass": true,
+      "path": "UDT_DEVELOPMENT.md",
+      "type": "UNCHANGED_REVIEWED"
+    },
+    {
+      "pass": true,
+      "path": "UDT_RESEARCH_ROADMAP.md",
+      "type": "PROPOSED"
+    },
+    {
+      "pass": true,
+      "path": "development_reconstruction_2026-09-29/CLAIM_DISPOSITIONS.tsv",
+      "type": "UNCHANGED_REVIEWED"
+    },
+    {
+      "pass": true,
+      "path": "development_reconstruction_2026-09-29/DEVELOPMENT_GRAPH.json",
+      "type": "UNCHANGED_REVIEWED"
+    },
+    {
+      "pass": true,
+      "path": "development_reconstruction_2026-09-29/FULL_REPAIR.md",
+      "type": "UNCHANGED_REVIEWED"
+    },
+    {
+      "pass": true,
+      "path": "development_reconstruction_2026-09-29/HISTORICAL_EVIDENCE_INDEX.md",
+      "type": "UNCHANGED_REVIEWED"
+    },
+    {
+      "pass": true,
+      "path": "development_reconstruction_2026-09-29/INTEGRATION_GUARD_CHANGE.md",
+      "type": "UNCHANGED_REVIEWED"
+    },
+    {
+      "pass": true,
+      "path": "development_reconstruction_2026-09-29/INTEGRATION_REPAIR.md",
+      "type": "UNCHANGED_REVIEWED"
+    },
+    {
+      "pass": true,
+      "path": "development_reconstruction_2026-09-29/MAINTENANCE.md",
+      "type": "UNCHANGED_REVIEWED"
+    },
+    {
+      "pass": true,
+      "path": "development_reconstruction_2026-09-29/RECENT_DISPOSITIONS.tsv",
+      "type": "UNCHANGED_REVIEWED"
+    },
+    {
+      "pass": true,
+      "path": "development_reconstruction_2026-09-29/SOURCE_CORRECTIONS.md",
+      "type": "UNCHANGED_REVIEWED"
+    },
+    {
+      "pass": true,
+      "path": "development_reconstruction_2026-09-29/checks/test_maintenance.py",
+      "type": "UNCHANGED_REVIEWED"
+    },
+    {
+      "pass": true,
+      "path": "verify_current_scientific_premises.py",
+      "type": "UNCHANGED_REVIEWED"
+    },
+    {
+      "pass": true,
+      "path": "verify_udt_development.py",
+      "type": "UNCHANGED_REVIEWED"
+    }
+  ],
+  "limitations": [
+    "Full after-audit has not yet been observed.",
+    "Proposed completion wording accepted only after actual successful receipts and application of exact bytes."
+  ],
+  "proposal_sha256": "2870ae3dcfc705e8bd8f2dd22dabae3529bb06aed3089079e53e3cb1b1fb91d8",
+  "status": "PROPOSAL_ONLY_NOT_FINAL_AUDIT_ATTESTATION"
+}

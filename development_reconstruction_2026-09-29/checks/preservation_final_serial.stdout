@@ -1,0 +1,60 @@
+{
+  "status": "PASS",
+  "fixed_sources_unchanged": [
+    "CANON.md",
+    "founding.md",
+    "CURRENT_SCIENTIFIC_PREMISES.tsv",
+    "UDT_METRIC_KERNEL_DEVELOPMENT.md",
+    "UDT_METRIC_KERNEL_COVERAGE.tsv",
+    "UDT_CONSOLIDATED_RESEARCH_ACCOUNT.md"
+  ],
+  "tracked_changes": [
+    "AGENTS.md",
+    "CLAUDE.md",
+    "CURRENT_RESEARCH_PROGRAM.md",
+    "CURRENT_SCIENTIFIC_PREMISES.md",
+    "HANDOFF.md",
+    "INDEX.md",
+    "LIVE.md",
+    "MEMORY.md",
+    "UDT_RESEARCH_ROADMAP.md",
+    "verify_current_scientific_premises.py"
+  ],
+  "original_validator_changes": [
+    "main",
+    "validate_startup_surface"
+  ],
+  "prior_untracked_names_preserved": 52,
+  "protected_payloads_read_or_hashed": false,
+  "accepted_files_match": 22,
+  "actual_reviewers_bound": 2,
+  "local_links_checked": 67,
+  "startup_surface_lines": {
+    "LIVE.md": {
+      "before_lines": 151,
+      "after_lines": 49
+    },
+    "HANDOFF.md": {
+      "before_lines": 122,
+      "after_lines": 24
+    },
+    "CURRENT_RESEARCH_PROGRAM.md": {
+      "before_lines": 324,
+      "after_lines": 47
+    },
+    "CURRENT_SCIENTIFIC_PREMISES.md": {
+      "before_lines": 131,
+      "after_lines": 28
+    },
+    "INDEX.md": {
+      "before_lines": 190,
+      "after_lines": 42
+    },
+    "MEMORY.md": {
+      "before_lines": 83,
+      "after_lines": 11
+    }
+  },
+  "workspace_files_at_check": 219,
+  "workspace_bytes_at_check": 2577799
+}

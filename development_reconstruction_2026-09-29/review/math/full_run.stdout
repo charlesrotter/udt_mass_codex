@@ -1,0 +1,1 @@
+{"passed": 25, "values": {"area_control_metric": "Matrix([[-4, -2, 0, 0], [-2, 0, 1, 0], [0, 1, 5, 2], [0, 0, 2, 2]])", "clock_polynomial_control": {"B0": "32/35", "B1": "32/35", "response": "64/35", "scope": "algebra only; not an all-endpoint-jets compact-bump witness"}, "conjugate_rank_B": 0}}

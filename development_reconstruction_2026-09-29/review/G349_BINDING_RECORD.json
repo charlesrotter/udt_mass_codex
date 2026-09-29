@@ -1,0 +1,40 @@
+{
+  "status": "REVIEWED_WITH_LIMITS",
+  "accepted_sha256": {
+    "AGENTS.md": "8ae0d968a20f416ec628fcf9ad445d370822889a720168104a8e41aef2b1094c",
+    "CLAUDE.md": "4ad2e773defb89cc79541fd0ababd75af5a3344ab134ee83722dfd943966e6e4",
+    "CURRENT_RESEARCH_PROGRAM.md": "13af7b05b397940c6a94828390c4e5e3508d627be05c6192e68564ed6bb22942",
+    "CURRENT_SCIENTIFIC_PREMISES.md": "6b708f351b478dde0c6a93e8f29de08eae06533ba4fb789f79fd03bda1512718",
+    "HANDOFF.md": "b45f9f1082f1c9fc7db45c6bae9543850fb9754e20290d4ed02bbe50136ae827",
+    "INDEX.md": "80b0a1a553624516b223ced587a7a20dfaf86a90ef83a2b0c5478e64ba1a053b",
+    "LIVE.md": "21bac9c45ddaf19882cbc1911eff44040469b3fb719f16d23ed0afc9b302f718",
+    "MEMORY.md": "9cef036ad44244dd4dbb2951c08a544dddea5dc24bb33571906c7061e03c5761",
+    "UDT_DEVELOPMENT.md": "b63865b9e8eb183e34a4d1a29a8b3118fc4f4e1561c06114405eea215f81ecc3",
+    "UDT_RESEARCH_ROADMAP.md": "67cd1a5f7506c39a5ef7e70ee5272892b420b916d21a48d7569efd2f7256a444",
+    "development_reconstruction_2026-09-29/CLAIM_DISPOSITIONS.tsv": "5a6c438c94477b7aa81b1c1480b68e24319926772fe77dbfd9a28ba6b52c6c71",
+    "development_reconstruction_2026-09-29/DEVELOPMENT_GRAPH.json": "e6fcb87b94e9f3e5794ca9591823bbce49263bec0c3b6a5d7cc6d3e1b171bc18",
+    "development_reconstruction_2026-09-29/FULL_REPAIR.md": "820441708b9607181c2c84b2df31b88ebdd4084b4a56c371706ea1ae93959bf8",
+    "development_reconstruction_2026-09-29/HISTORICAL_EVIDENCE_INDEX.md": "7c1614619e94b35004ce0893e558ab7808d026aa012e00c69658bca70aa0e7a9",
+    "development_reconstruction_2026-09-29/INTEGRATION_GUARD_CHANGE.md": "bb4dbfe3c32cb5f2e38e378237003efa6ee286340cae4d56a96b84058e7b3adc",
+    "development_reconstruction_2026-09-29/INTEGRATION_REPAIR.md": "e614c73ef360e105ee9ddf94b5617d373150ed1f5213332da23d53ed93557175",
+    "development_reconstruction_2026-09-29/MAINTENANCE.md": "6aefb0450bf83d01620f8a94024df075508165ae1c9fd4185483d1db5a025b41",
+    "development_reconstruction_2026-09-29/RECENT_DISPOSITIONS.tsv": "b91d433d5be94c6afe4f509954e3a75f3f7f755fc8d36417a548262a60263bd5",
+    "development_reconstruction_2026-09-29/SOURCE_CORRECTIONS.md": "18742d3ca750540ade8108ac87d31b7355b0e88d8b96bc4a90b7f8de438d6fb0",
+    "development_reconstruction_2026-09-29/checks/test_maintenance.py": "8f9a0fd2b75b250bb5162afc6c7e0f93bea8ba02a549bcb4a34dd2378235bd72",
+    "verify_current_scientific_premises.py": "a983c2456ce3a122629a116c735b32b96e055829ed3012fb416fabfa9b0b8127",
+    "verify_udt_development.py": "2825e3c31351f2c81ae39cede427b5c50fc62c98cd02d7a4059692b08bb6c94c"
+  },
+  "reviewers": [
+    {
+      "context": "/root/development_math_review",
+      "attestation": "development_reconstruction_2026-09-29/review/math/G349_REPAIR_ATTESTATION.json",
+      "sha256": "4925d9ad7296e988408eba647fa924f2595929f72a0a6c61e31a98339dcba7fe"
+    },
+    {
+      "context": "/root/development_fidelity_review",
+      "attestation": "development_reconstruction_2026-09-29/review/fidelity/G349_REPAIR_ATTESTATION.json",
+      "sha256": "ddbfa839cbcbbdd7c8d79ea2b363edfb5b31a810397b5b77e14f167e3681e691"
+    }
+  ],
+  "scope": "Reviewed central reconstruction, integration and original G349 orientation-scope repair. Full normal rerun and final packaging pending."
+}

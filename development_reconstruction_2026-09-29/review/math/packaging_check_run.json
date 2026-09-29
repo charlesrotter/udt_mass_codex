@@ -1,0 +1,15 @@
+{
+  "command": [
+    "python3",
+    "-B",
+    "development_reconstruction_2026-09-29/review/math/check_final_packaging.py"
+  ],
+  "cwd": "/home/udt-admin/udt_mass_codex",
+  "started_utc": "2026-09-29T19:24:09.402632+00:00",
+  "duration_seconds": 0.0392286209971644,
+  "returncode": 0,
+  "timeout": false,
+  "address_space_bytes": 536870912,
+  "cpu_seconds": 60,
+  "maxrss_kib": 21276
+}

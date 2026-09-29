@@ -1,0 +1,4 @@
+Traceback (most recent call last):
+  File "/home/udt-admin/udt_mass_codex/development_reconstruction_2026-09-29/review/math/independent_integration.py", line 66, in <module>
+    assert observations['changed_verifier_functions']==['validate_startup_surface']
+AssertionError

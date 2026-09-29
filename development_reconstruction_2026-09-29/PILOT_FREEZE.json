@@ -1,0 +1,13 @@
+{
+  "scope": "Pilot R1-R4 and definitions; later chapters and all-row routing still in progress. Root manuscript will grow; frozen PILOT_CANDIDATE owns these reviewed bytes.",
+  "sha256": {
+    "UDT_DEVELOPMENT.md": "7e2fb808f6f3cda18978f991a3e98fefb96aafad9473459189aff7a500bdb33f",
+    "development_reconstruction_2026-09-29/PILOT_CANDIDATE.md": "7e2fb808f6f3cda18978f991a3e98fefb96aafad9473459189aff7a500bdb33f",
+    "development_reconstruction_2026-09-29/CLAIM_DISPOSITIONS.tsv": "fe833784c2e905a079c51932f2e1d270eaa2f582d04485eac2e50d4a29833285",
+    "development_reconstruction_2026-09-29/WORK_ORDER.md": "5ddadf60724d46375acd4e42ca91df37edda589bb5868e7a0d3df8b11dd3a64b",
+    "development_reconstruction_2026-09-29/checks/check_core.py": "0e44685464fa91540c018b081991edf66defdc323e22b01f0ea0a79bca0c3bff",
+    "development_reconstruction_2026-09-29/checks/core.stdout": "286d4e9d15b03bb891de819492f9bb093595c274ac28517b0febd0409968332b",
+    "development_reconstruction_2026-09-29/checks/core.stderr": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "development_reconstruction_2026-09-29/checks/core.json": "8f099e17f35fc283042e8fcfc15a1d4bce77181131f5476f118ee56840700e58"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "command": [
+    "python3",
+    "development_reconstruction_2026-09-29/checks/check_connections.py"
+  ],
+  "cwd": "/home/udt-admin/udt_mass_codex",
+  "started_utc": "2026-09-29T18:33:22.024382+00:00",
+  "duration_seconds": 0.8267480859940406,
+  "returncode": 0,
+  "timeout": false,
+  "address_space_bytes": 536870912,
+  "cpu_seconds": 60,
+  "maxrss_kib": 50052
+}
