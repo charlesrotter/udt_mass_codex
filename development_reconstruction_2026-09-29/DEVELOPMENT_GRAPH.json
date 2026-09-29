@@ -14,7 +14,8 @@
         "founding.md",
         "udt_gr_filter_reconciliation_2026-09-09/AUTHORITY_RECORD.md",
         "udt_positional_geometry_clock_connection_2026-09-28/OWNER_STATEMENT.md",
-        "udt_repository_cleanup_2026-09-27/local_clock_impact_2026-09-29/OWNER_CLARIFICATION.md"
+        "udt_repository_cleanup_2026-09-27/local_clock_impact_2026-09-29/OWNER_CLARIFICATION.md",
+        "udt_shared_geometry_extension_2026-09-29/OWNER_CLARIFICATION.md"
       ],
       "required_conditions": []
     },
@@ -168,12 +169,17 @@
       "anchor": "r8",
       "title": "R8. Actual two-way timing and constructive metric information",
       "registry_ids": [
-        "G220"
+        "G220",
+        "G403"
       ],
       "sources": [
         "udt_clock_curvature_derivation_2026-09-28/REVIEWED_RESULT.md",
+        "udt_directional_clock_curvature_whiteboard_2026-09-10/INITIAL_CANDIDATE.md",
         "udt_interframe_clock_network_2026-09-28/REVIEWED_RESULT.md",
-        "udt_response_measurement_scaling_2026-09-28/REVIEWED_RESULT.md"
+        "udt_response_measurement_scaling_2026-09-28/REVIEWED_RESULT.md",
+        "udt_shared_geometry_extension_2026-09-29/INITIAL_DERIVATION.md",
+        "udt_shared_geometry_extension_2026-09-29/REPAIR.md",
+        "udt_shared_geometry_extension_2026-09-29/REVIEWED_RESULT.md"
       ],
       "required_conditions": [
         "P_NULL",
@@ -397,14 +403,17 @@
         "udt_native_field_connection_audit_2026-09-13/REVIEWED_AUDIT.md",
         "udt_native_theory_research_plan_2026-09-13/execution/tc0/RESULT.md",
         "udt_observation_guided_function_search_2026-09-28/REVIEWED_RESULT.md",
-        "udt_scientific_arc_recovery_checkpoint_2026-08-04/MASS_BRANCH_AUTHORITY_MAP.tsv"
+        "udt_scientific_arc_recovery_checkpoint_2026-08-04/MASS_BRANCH_AUTHORITY_MAP.tsv",
+        "udt_shared_geometry_extension_2026-09-29/INITIAL_DERIVATION.md",
+        "udt_shared_geometry_extension_2026-09-29/REPAIR.md",
+        "udt_shared_geometry_extension_2026-09-29/REVIEWED_RESULT.md"
       ],
       "required_conditions": []
     },
     {
       "id": "P_FOUNDING",
       "kind": "declared_premises",
-      "statement": "F1–F4 as stated in R1/R2; composition, nontriviality and readout are distinct inputs"
+      "statement": "F1\u2013F4 as stated in R1/R2; composition, nontriviality and readout are distinct inputs"
     },
     {
       "id": "P_PAIR",
@@ -455,6 +464,34 @@
       "id": "O_ASSIGNMENT",
       "kind": "open_join",
       "statement": "Physical event/path-to-depth assignment and global physical X_max; no completion asserted"
+    },
+    {
+      "id": "C_STATIONARY_CLOCKS",
+      "kind": "method_hypotheses",
+      "title": "Additional restricted sector: common timelike Killing field, clocks on its orbits, regular future legs; not a physical UDT postulate",
+      "registry_ids": [],
+      "sources": [
+        "udt_shared_geometry_extension_2026-09-29/INITIAL_DERIVATION.md"
+      ]
+    },
+    {
+      "id": "R8S",
+      "kind": "argument",
+      "anchor": "r8s",
+      "title": "R8 subsidiary: stationary-clock mutual-net-redshift exclusion",
+      "registry_ids": [
+        "G220"
+      ],
+      "sources": [
+        "udt_shared_geometry_extension_2026-09-29/INITIAL_DERIVATION.md",
+        "udt_shared_geometry_extension_2026-09-29/REPAIR.md",
+        "udt_shared_geometry_extension_2026-09-29/REVIEWED_RESULT.md"
+      ],
+      "required_conditions": [
+        "C_STATIONARY_CLOCKS",
+        "M_GEOMETRY",
+        "P_NULL"
+      ]
     }
   ],
   "edges": [
@@ -822,6 +859,41 @@
       "from": "D1",
       "to": "R17",
       "kind": "context"
+    },
+    {
+      "from": "C_STATIONARY_CLOCKS",
+      "to": "R8S",
+      "kind": "hypothesis"
+    },
+    {
+      "from": "M_GEOMETRY",
+      "to": "R8S",
+      "kind": "hypothesis"
+    },
+    {
+      "from": "P_NULL",
+      "to": "R8S",
+      "kind": "hypothesis"
+    },
+    {
+      "from": "R6",
+      "to": "R8S",
+      "kind": "proof"
+    },
+    {
+      "from": "D1",
+      "to": "R8S",
+      "kind": "context"
+    },
+    {
+      "from": "R8S",
+      "to": "R18",
+      "kind": "interpretation"
+    },
+    {
+      "from": "R7",
+      "to": "R8",
+      "kind": "context"
     }
   ],
   "sources_sha256": {
@@ -884,7 +956,12 @@
     "udt_common_geometry_whiteboard_2026-09-28/REVIEWED_RESULT.md": "b4bdb53716762b6bac91dc95dd867920c18892e82c425d701e28d1981929e0b9",
     "udt_clock_curvature_derivation_2026-09-28/REVIEWED_RESULT.md": "0afd91a8305d0f3cb6de78b0c5a275b861b15bd02db00900b7f3648eed28d852",
     "udt_finite_separation_law_2026-09-28/REVIEWED_RESULT.md": "1a1770b84ba184e2411cf4dac30e694bffec46a762bba618c2edf0d1df8b8740",
-    "development_reconstruction_2026-09-29/SOURCE_CORRECTIONS.md": "18742d3ca750540ade8108ac87d31b7355b0e88d8b96bc4a90b7f8de438d6fb0"
+    "development_reconstruction_2026-09-29/SOURCE_CORRECTIONS.md": "18742d3ca750540ade8108ac87d31b7355b0e88d8b96bc4a90b7f8de438d6fb0",
+    "udt_shared_geometry_extension_2026-09-29/INITIAL_DERIVATION.md": "7fe9dd385437f927504d90ebe27e70b8751e889efe9140c240a3ee1913aa0484",
+    "udt_shared_geometry_extension_2026-09-29/REPAIR.md": "bb1118852acf2943128067568ddf7ca09cfd7cbe591bbdc8fa675a5b28fe1d60",
+    "udt_shared_geometry_extension_2026-09-29/REVIEWED_RESULT.md": "318760918a414727a889c924186512cb1b9e46524c029cced9214b6b26c82e48",
+    "udt_shared_geometry_extension_2026-09-29/OWNER_CLARIFICATION.md": "94480181e004a535e0dffd122545310c0aaedfb98d3734c5095c75bfe9ed3f50",
+    "udt_directional_clock_curvature_whiteboard_2026-09-10/INITIAL_CANDIDATE.md": "b11326b4f316f675a9c3ecc596d47e33c0e39215c591fddde1013c37c68d2375"
   },
   "impact_policy": "Any changed source or registry row flags its mapped positive and negative central arguments and every reachable central descendant for review; no automatic truth reversal or regrading.",
   "review_support": [
@@ -964,6 +1041,28 @@
         "R17"
       ],
       "role": "review_evidence"
+    },
+    {
+      "path": "udt_shared_geometry_extension_2026-09-29/review/math/DIRECT_REVIEW.md",
+      "sha256": "736a997ab2596eecda1965581986ebe4267208713c6663fefa2a1851c5651629",
+      "role": "review_evidence",
+      "targets": [
+        "R8",
+        "R8S",
+        "R18"
+      ],
+      "scope": "Initial substantive review requiring explicit tube-domain qualification; REPAIR and final version-bound attestations own repaired integration acceptance."
+    },
+    {
+      "path": "udt_shared_geometry_extension_2026-09-29/review/fidelity/DIRECT_REVIEW.md",
+      "sha256": "fa8a0ba3df2b1cabdf3e3e560482fba97ae3e689c7153ec57c516cdb281662b1",
+      "role": "review_evidence",
+      "targets": [
+        "R8",
+        "R8S",
+        "R18"
+      ],
+      "scope": "Initial substantive review requiring explicit tube-domain qualification; REPAIR and final version-bound attestations own repaired integration acceptance."
     }
   ]
 }

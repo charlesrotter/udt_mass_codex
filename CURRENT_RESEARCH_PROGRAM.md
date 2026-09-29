@@ -5,7 +5,7 @@ This bounded startup view is generated from its opening; edit that source.
 LIVE.md owns operational status; CURRENT_SCIENTIFIC_PREMISES.tsv owns exact grades.
 
 <!-- GENERATED_DEVELOPMENT_BEGIN -->
-**Continuous reconstruction — CDR1, 2026-09-29.** This is the maintained
+**Continuous development — CDR1 with SGE1, 2026-09-29.** This is the maintained
 scientific development. It is not canon or a new scientific-grade authority.
 The exact registry and reviewed sources own grades; LIVE owns operational status.
 Current review bindings and limits are recorded in section9; startup reads the
@@ -16,7 +16,9 @@ spacetime geometry behind observed c_E, light cones and causal timing. The
 reciprocal 1/c_E expresses time per separation. Ordinary local laws and proper
 clocks remain ordinary; geometric effects appear in observer comparisons, in
 the GR sense clarified by Charles. Velocity, gravitational and positional effects
-belong to one geometry. A second propagation-speed mechanism is not inserted.
+belong to one geometry. Positional dilation is an additional physical requirement
+alongside SR/GR phenomena; no arithmetic split is assumed. A second propagation-speed
+mechanism is not inserted.
 Slower received ticking is redshift by definition of the specified observable.
 There is no preferred observer or universal spherical center.
 

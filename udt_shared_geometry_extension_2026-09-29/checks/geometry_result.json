@@ -1,0 +1,110 @@
+{
+  "status": "PASS",
+  "checks": [
+    {
+      "name": "unit observer as a field",
+      "residual": "0"
+    },
+    {
+      "name": "direct Ricci vs complete kinematic identity",
+      "residual": "0"
+    },
+    {
+      "name": "null contraction direction 0",
+      "residual": "0"
+    },
+    {
+      "name": "null contraction direction 1",
+      "residual": "0"
+    },
+    {
+      "name": "null contraction direction 2",
+      "residual": "0"
+    },
+    {
+      "name": "null contraction direction 3",
+      "residual": "0"
+    },
+    {
+      "name": "null contraction direction 4",
+      "residual": "0"
+    },
+    {
+      "name": "null contraction direction 5",
+      "residual": "0"
+    },
+    {
+      "name": "mixed control activates shear twist and acceleration",
+      "values": [
+        "1381/5400",
+        "1/128",
+        "Matrix([[0], [1/30], [0], [0]])"
+      ]
+    },
+    {
+      "name": "boosted ray frequency",
+      "residual": "0"
+    },
+    {
+      "name": "auxiliary density exact derivative",
+      "residual": "0"
+    },
+    {
+      "name": "auxiliary endpoint cancellation",
+      "residual": "0"
+    },
+    {
+      "name": "nonzero interior density with unchanged endpoints",
+      "value": "1/2"
+    },
+    {
+      "name": "shifted null outgoing root",
+      "residual": "0"
+    },
+    {
+      "name": "shifted null return root",
+      "residual": "0"
+    },
+    {
+      "name": "stationary immediate return derivative",
+      "residual": "0"
+    },
+    {
+      "name": "stationary outgoing times return product",
+      "residual": "0"
+    },
+    {
+      "name": "stationary delay with equivalent log forms",
+      "residual": "0"
+    },
+    {
+      "name": "stationary shifted red/blue legs",
+      "p": "3/2",
+      "q": "2/3",
+      "delay": "log(9/4)"
+    },
+    {
+      "name": "reject omit_twist",
+      "nonzero_residual": "1/128"
+    },
+    {
+      "name": "reject wrong_Ricci_sign",
+      "nonzero_residual": "-17179/33600"
+    },
+    {
+      "name": "reject omit_acceleration_divergence",
+      "nonzero_residual": "1/900"
+    },
+    {
+      "name": "reject both_stationary_slopes_same",
+      "nonzero_residual": "5/4"
+    },
+    {
+      "name": "reject auxiliary_generator_invariant",
+      "nonzero_residual": "1/2"
+    }
+  ],
+  "count": 24,
+  "direct_Ric_UU": "-17179/67200",
+  "scope": "Exact supplied controls. Analytic arguments own quantifiers; no native geometry or empirical claim."
+}

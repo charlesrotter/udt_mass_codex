@@ -1,0 +1,13 @@
+{
+  "status": "PASS",
+  "accepted_files": 31,
+  "changed_files_since_initial_integration_freeze": [
+    "UDT_DEVELOPMENT.md"
+  ],
+  "registry_rows_unchanged": 406,
+  "recent_returns": 26,
+  "original_candidate_preserved": true,
+  "old_graph_source_versions_preserved": 60,
+  "full_premise_audit_run_here": false,
+  "publication_claimed": false
+}

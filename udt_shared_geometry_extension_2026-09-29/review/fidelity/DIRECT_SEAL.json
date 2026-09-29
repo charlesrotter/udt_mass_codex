@@ -1,0 +1,29 @@
+{
+  "utc": "2026-09-29T20:11:02.216655+00:00",
+  "verdict": "VERIFIED-WITH-CAVEATS",
+  "integration_review": "PENDING",
+  "required_integration_precision": "State compatible smooth U on selected regular tube; no arbitrary global extension theorem.",
+  "author_code_semantic_exposure": false,
+  "source_first_record_preserved": true,
+  "successful_check_returncode": 0,
+  "initial_check_returncode": 1,
+  "sha256": {
+    "udt_shared_geometry_extension_2026-09-29/INITIAL_DERIVATION.md": "7fe9dd385437f927504d90ebe27e70b8751e889efe9140c240a3ee1913aa0484",
+    "udt_shared_geometry_extension_2026-09-29/CANDIDATE_FREEZE.json": "658078bd426b40aacaffabbbde45876ec1060d40aaa92ddd172ebcd938f179dd",
+    "udt_shared_geometry_extension_2026-09-29/SOURCE_PINS.json": "be7fbdb72e438fd6f3aed6ddccf72daaee8ca0077a8362a9a0812844d38accc9",
+    "udt_shared_geometry_extension_2026-09-29/checks/premise_before.json": "c5110c9f7b06ce73d846a12031222ec47e10b234064966ed57dea15207205b91",
+    "udt_directional_clock_curvature_whiteboard_2026-09-10/INITIAL_CANDIDATE.md": "b11326b4f316f675a9c3ecc596d47e33c0e39215c591fddde1013c37c68d2375",
+    "udt_clock_curvature_derivation_2026-09-28/REVIEWED_RESULT.md": "0afd91a8305d0f3cb6de78b0c5a275b861b15bd02db00900b7f3648eed28d852",
+    "udt_common_geometry_whiteboard_2026-09-28/REVIEWED_RESULT.md": "b4bdb53716762b6bac91dc95dd867920c18892e82c425d701e28d1981929e0b9",
+    "udt_finite_clock_metric_variation_2026-09-28/REVIEWED_RESULT.md": "609f7889104aa3cc9804926738e888a83df7d593db7daab0763aef20809023f8",
+    "udt_shared_geometry_extension_2026-09-29/review/fidelity/DIRECT_REVIEW.md": "fa8a0ba3df2b1cabdf3e3e560482fba97ae3e689c7153ec57c516cdb281662b1",
+    "udt_shared_geometry_extension_2026-09-29/review/fidelity/direct_checks.py": "7bfb3f00fd911efdc61d465f3c6a3b8aa1fb9d7a5f54dd3c7dc1a8841c224ca7",
+    "udt_shared_geometry_extension_2026-09-29/review/fidelity/direct_checks.stdout.json": "b236a9746fc0f382445d56d8ab87ef9f922b3f1de7d916887798b2be74186585",
+    "udt_shared_geometry_extension_2026-09-29/review/fidelity/direct_checks.stderr": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "udt_shared_geometry_extension_2026-09-29/review/fidelity/INITIAL_FAILED_direct_checks.py": "eb91a12a79bff189354afb6513536e5769dac97ad7dec9d86f82afa7ceba38c6",
+    "udt_shared_geometry_extension_2026-09-29/review/fidelity/INITIAL_FAILED_direct_checks.stdout.json": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "udt_shared_geometry_extension_2026-09-29/review/fidelity/INITIAL_FAILED_direct_checks.stderr": "2c548063b080e406629f0b0075e6c98ae7652ba364239e9d3ad5dfac37e887f5",
+    "udt_shared_geometry_extension_2026-09-29/review/fidelity/CHECK_REPAIR.md": "acf6cacc0fe4629e8825b82a11ab4fc1583d7fc46c3131b5287bba25d3ae3b2a",
+    "udt_shared_geometry_extension_2026-09-29/review/fidelity/DIRECT_CORRESPONDENCE.json": "a5fddc98b4b2b35f589f9fdc7067eca45d999641f8e73518d54940012503751d"
+  }
+}

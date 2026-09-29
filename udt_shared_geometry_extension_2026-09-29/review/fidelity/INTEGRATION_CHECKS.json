@@ -1,0 +1,27 @@
+{
+  "utc": "2026-09-29T20:16:09.550796+00:00",
+  "results": [
+    {
+      "label": "draft",
+      "command": [
+        "python3",
+        "verify_udt_development.py",
+        "--draft"
+      ],
+      "returncode": 0
+    },
+    {
+      "label": "maintenance",
+      "command": [
+        "python3",
+        "development_reconstruction_2026-09-29/checks/test_maintenance.py"
+      ],
+      "returncode": 0
+    }
+  ],
+  "elapsed_seconds": 0.3706511530035641,
+  "maxrss_children_kib": 28124,
+  "bytecode_disabled": true,
+  "limits": "60s CPU/alarm,512MiB,threads1;45s per subprocess",
+  "full406_rerun": false
+}

@@ -1,0 +1,36 @@
+{
+  "status": "PASS",
+  "development": {
+    "status": "PASS",
+    "registry_rows": 406,
+    "later_returns": 26,
+    "central_arguments": 18,
+    "source_pins": 65,
+    "scope": "Version, routing and bounded regression checks; not semantic completeness, canon or full-corpus reproof."
+  },
+  "accepted_files": 31,
+  "preserved_initial_files": 12,
+  "prior_untracked_names": 52,
+  "protected_payloads_read_or_hashed": false,
+  "fixed_sources_and_validators": [
+    "CANON.md",
+    "founding.md",
+    "CURRENT_SCIENTIFIC_PREMISES.tsv",
+    "UDT_METRIC_KERNEL_DEVELOPMENT.md",
+    "UDT_METRIC_KERNEL_COVERAGE.tsv",
+    "UDT_CONSOLIDATED_RESEARCH_ACCOUNT.md",
+    "AGENTS.md",
+    "CLAUDE.md",
+    "verify_current_scientific_premises.py",
+    "verify_udt_development.py"
+  ],
+  "local_links": 68,
+  "successful_gate_receipts": [
+    "premise_before",
+    "premise_after",
+    "development_final",
+    "maintenance_final"
+  ],
+  "workspace_files_at_check": 92,
+  "workspace_bytes_at_check": 224903
+}

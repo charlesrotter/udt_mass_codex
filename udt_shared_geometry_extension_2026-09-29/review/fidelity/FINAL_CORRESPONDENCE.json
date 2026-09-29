@@ -1,0 +1,32 @@
+{
+  "utc": "2026-09-29T20:16:37.671842+00:00",
+  "integration_freeze_sha256": "04eec1ec5589127a5d13523a3711824198cb28bd710d9a4a79f7ded9c5a2fcf2",
+  "files": 31,
+  "all_frozen_correspondence": true,
+  "mismatches": [],
+  "prior_record_matches_baseline": true,
+  "prior_files": 22,
+  "tracked_changes": [
+    "CURRENT_RESEARCH_PROGRAM.md",
+    "HANDOFF.md",
+    "LIVE.md",
+    "UDT_DEVELOPMENT.md",
+    "UDT_RESEARCH_ROADMAP.md",
+    "development_reconstruction_2026-09-29/CLAIM_DISPOSITIONS.tsv",
+    "development_reconstruction_2026-09-29/DEVELOPMENT_GRAPH.json",
+    "development_reconstruction_2026-09-29/RECENT_DISPOSITIONS.tsv",
+    "development_reconstruction_2026-09-29/checks/test_maintenance.py"
+  ],
+  "tracked_changes_all_bound": true,
+  "registry_canon_validators_unchanged": true,
+  "central_insertion_exact_substring": true,
+  "recent_rows": 26,
+  "new_links_present_at_review": {
+    "udt_shared_geometry_extension_2026-09-29/OWNER_CLARIFICATION.md": true,
+    "udt_shared_geometry_extension_2026-09-29/REVIEWED_RESULT.md": true,
+    "udt_shared_geometry_extension_2026-09-29/WORK_RECORD.md": true,
+    "udt_shared_geometry_extension_2026-09-29/review/math/FINAL_REVIEW.md": false,
+    "udt_shared_geometry_extension_2026-09-29/review/fidelity/FINAL_REVIEW.md": false
+  },
+  "note": "Final review files and WORK_RECORD may be created by designated reviewers/parent after freeze; their completion is a parent closure gate, not science evidence."
+}

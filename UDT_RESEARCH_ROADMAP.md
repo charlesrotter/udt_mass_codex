@@ -1,6 +1,6 @@
 # UDT research roadmap — current direction
 
-Updated 2026-09-29: continuous development reconstruction CDR1. This is a direction document, not scientific
+Updated 2026-09-29: SGE1 shared-geometry return after CDR1 reconstruction. This is a direction document, not scientific
 premise authority or research authorization. LIVE controls operational status;
 the exact registry and original reviewed sources control grades and scope.
 AGENTS controls method. Charles canonizes; CANON is unchanged.
@@ -12,13 +12,14 @@ This roadmap does not duplicate their detailed derivations or premise inventory.
 
 ## Current return and next discussion
 
-Charles authorized CDR1's full nine-stage reconstruction and explicitly directed
-continuation after stages1–5. [Work order](development_reconstruction_2026-09-29/WORK_ORDER.md)
-and [actual progress](development_reconstruction_2026-09-29/STAGES.tsv) control its scope.
-The maintained scientific development is [UDT_DEVELOPMENT.md](UDT_DEVELOPMENT.md).
-CURRENT_RESEARCH_PROGRAM.md is a generated orientation from it. LIVE owns the
-operational return point; this roadmap preserves owner direction and historical
-meaning, not another evolving result summary. Original grades and CANON remain fixed.
+Charles completed the nine-stage CDR1 reconstruction, then clarified that UDT's
+founding interpretation is additional to SR/GR phenomena in the shared geometry.
+His subsequent “Proceed” authorized [SGE1's bounded deduction and review](udt_shared_geometry_extension_2026-09-29/WORK_ORDER.md).
+The maintained scientific return is integrated in [central R8](UDT_DEVELOPMENT.md#r8)
+and its R18 open connection. Current execution evidence is [SGE1 WORK_RECORD](udt_shared_geometry_extension_2026-09-29/WORK_RECORD.md).
+CDR1 and earlier work orders remain completed history. LIVE owns the operational
+return point; this roadmap does not duplicate the derivation or confer adoption.
+Original grades and CANON remain fixed.
 
 Every next research proposal must name the central connection it advances and
 update that argument, its sources and affected positive/negative descendants.
@@ -250,7 +251,7 @@ Full branch limits and protected local-work instructions remain in LIVE/AGENTS.
 
 The [central retained-results account](UDT_DEVELOPMENT.md#r18) explains gains
 and open connections. The [later-return ledger](development_reconstruction_2026-09-29/RECENT_DISPOSITIONS.tsv)
-maps25 reviewed returns, including OFS1 through MGC1, to exact sources and scopes.
+maps26 reviewed returns, including OFS1 through MGC1 and SGE1, to exact sources and scopes.
 Review those limits before proposing a successor. Earlier admitted mathematics
 remains available through its original banking records.
 

@@ -1,0 +1,14 @@
+{
+  "command": [
+    "python3",
+    "udt_shared_geometry_extension_2026-09-29/checks/check_geometry.py"
+  ],
+  "cwd": "/home/udt-admin/udt_mass_codex",
+  "started_utc": "2026-09-29T20:06:02.168952+00:00",
+  "duration_seconds": 0.4858420969976578,
+  "returncode": 0,
+  "timeout": false,
+  "address_space_bytes": 536870912,
+  "cpu_seconds": 60,
+  "maxrss_kib": 51364
+}

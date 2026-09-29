@@ -1,13 +1,15 @@
 # LIVE — operational status
 
 <!-- STARTUP_CURRENT_BEGIN -->
-## CURRENT STATE — CDR1, 2026-09-29
+## CURRENT STATE — SGE1 after CDR1, 2026-09-29
 
 Work on `grok`; independently verify HEAD, synchronization and dirt.
-CDR1's nine-stage reconstruction is COMPLETE at its reviewed, source-relative
-scope. Charles's instruction to continue beyond stages1–5 has been fulfilled.
-Work order and actual progress: `development_reconstruction_2026-09-29/WORK_ORDER.md`
-and `STAGES.tsv` there. No successor research campaign is authorized by this work.
+CDR1's nine-stage reconstruction remains complete at its reviewed scope.
+Charles then authorized SGE1's shared-geometry deduction, two fresh reviews and
+one bounded domain repair/re-review. The conditional return is integrated in
+UDT_DEVELOPMENT.md R8/R18; exact scope and execution evidence are in
+`udt_shared_geometry_extension_2026-09-29/WORK_ORDER.md` and `WORK_RECORD.md`.
+No successor research campaign is authorized by this return.
 
 ### Honest claim
 
@@ -40,10 +42,9 @@ Protected: do not inspect, hash, stage, modify, mine or cite payloads without di
 
 ### Next gate
 
-Stop for lay discussion. CDR1 construction, review/repair, centralization and
-maintenance checks are complete; actual audit/review and banking evidence are in
-its WORK_RECORD.md and git history. Native pair assignment and physical X_max
-remain open as explained in central R18. No new campaign is authorized.
-The next discussion should choose the explicit central connection to advance;
-no new physical law, premise or successor solve follows automatically.
+Stop for lay discussion. SGE1 returns reviewed conditional restrictions and an
+explicit unresolved physical assignment, with the domain repair integrated into
+the central argument. Its WORK_RECORD.md and git history own actual verification
+and banking evidence. No native law, new premise or successor solve follows
+from this mathematical return. Current scientific explanation: central R8/R18.
 <!-- STARTUP_CURRENT_END -->

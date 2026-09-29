@@ -1,0 +1,102 @@
+Traceback (most recent call last):
+  File "/home/udt-admin/udt_mass_codex/udt_shared_geometry_extension_2026-09-29/review/fidelity/direct_checks.py", line 44, in <module>
+    zero('generator_from_actual_acceleration_shear', K-direct)
+  File "/home/udt-admin/udt_mass_codex/udt_shared_geometry_extension_2026-09-29/review/fidelity/direct_checks.py", line 16, in zero
+    result = S.simplify(S.expand(expr))
+  File "/home/udt-admin/.local/lib/python3.10/site-packages/sympy/simplify/simplify.py", line 699, in simplify
+    expr = trigsimp(expr, deep=True)
+  File "/home/udt-admin/.local/lib/python3.10/site-packages/sympy/simplify/trigsimp.py", line 565, in trigsimp
+    expr_simplified = trigsimpfunc(expr)
+  File "/home/udt-admin/.local/lib/python3.10/site-packages/sympy/simplify/trigsimp.py", line 558, in <lambda>
+    'matching': (lambda x: futrig(x)),
+  File "/home/udt-admin/.local/lib/python3.10/site-packages/sympy/simplify/trigsimp.py", line 1163, in futrig
+    e = f(bottom_up(e, _futrig))
+  File "/home/udt-admin/.local/lib/python3.10/site-packages/sympy/core/traversal.py", line 230, in bottom_up
+    args = tuple([bottom_up(a, F, atoms, nonbasic) for a in args])
+  File "/home/udt-admin/.local/lib/python3.10/site-packages/sympy/core/traversal.py", line 230, in <listcomp>
+    args = tuple([bottom_up(a, F, atoms, nonbasic) for a in args])
+  File "/home/udt-admin/.local/lib/python3.10/site-packages/sympy/core/traversal.py", line 230, in bottom_up
+    args = tuple([bottom_up(a, F, atoms, nonbasic) for a in args])
+  File "/home/udt-admin/.local/lib/python3.10/site-packages/sympy/core/traversal.py", line 230, in <listcomp>
+    args = tuple([bottom_up(a, F, atoms, nonbasic) for a in args])
+  File "/home/udt-admin/.local/lib/python3.10/site-packages/sympy/core/traversal.py", line 230, in bottom_up
+    args = tuple([bottom_up(a, F, atoms, nonbasic) for a in args])
+  File "/home/udt-admin/.local/lib/python3.10/site-packages/sympy/core/traversal.py", line 230, in <listcomp>
+    args = tuple([bottom_up(a, F, atoms, nonbasic) for a in args])
+  File "/home/udt-admin/.local/lib/python3.10/site-packages/sympy/core/traversal.py", line 233, in bottom_up
+    rv = F(rv)
+  File "/home/udt-admin/.local/lib/python3.10/site-packages/sympy/simplify/trigsimp.py", line 1226, in _futrig
+    e = greedy(tree, objective=Lops)(e)
+  File "/home/udt-admin/.local/lib/python3.10/site-packages/sympy/strategies/core.py", line 150, in minrule
+    return min([rule(expr) for rule in rules], key=objective)
+  File "/home/udt-admin/.local/lib/python3.10/site-packages/sympy/strategies/core.py", line 150, in <listcomp>
+    return min([rule(expr) for rule in rules], key=objective)
+  File "/home/udt-admin/.local/lib/python3.10/site-packages/sympy/strategies/core.py", line 64, in chain_rl
+    expr = rule(expr)
+  File "/home/udt-admin/.local/lib/python3.10/site-packages/sympy/simplify/trigsimp.py", line 1194, in <lambda>
+    lambda x: _eapply(factor, x, trigs),
+  File "/home/udt-admin/.local/lib/python3.10/site-packages/sympy/simplify/trigsimp.py", line 1250, in _eapply
+    return func(e)
+  File "/home/udt-admin/.local/lib/python3.10/site-packages/sympy/polys/polytools.py", line 6577, in factor
+    return _generic_factor(f, gens, args, method='factor')
+  File "/home/udt-admin/.local/lib/python3.10/site-packages/sympy/polys/polytools.py", line 6258, in _generic_factor
+    return _symbolic_factor(sympify(expr), opt, method)
+  File "/home/udt-admin/.local/lib/python3.10/site-packages/sympy/polys/polytools.py", line 6198, in _symbolic_factor
+    coeff, factors = _symbolic_factor_list(together(expr, fraction=opt['fraction']), opt, method)
+  File "/home/udt-admin/.local/lib/python3.10/site-packages/sympy/polys/polytools.py", line 6163, in _symbolic_factor_list
+    _coeff, _factors = func()
+  File "/home/udt-admin/.local/lib/python3.10/site-packages/sympy/polys/polytools.py", line 3378, in factor_list
+    coeff, factors = f.rep.factor_list()
+  File "/home/udt-admin/.local/lib/python3.10/site-packages/sympy/polys/polyclasses.py", line 1637, in factor_list
+    coeff, factors = dmp_factor_list(f._rep, f.lev, f.dom)
+  File "/home/udt-admin/.local/lib/python3.10/site-packages/sympy/polys/factortools.py", line 1549, in dmp_factor_list
+    coeff, factors = dmp_zz_i_factor(f, u, K0)
+  File "/home/udt-admin/.local/lib/python3.10/site-packages/sympy/polys/factortools.py", line 1249, in dmp_zz_i_factor
+    coeff, factors = dmp_qq_i_factor(f, u, K1)
+  File "/home/udt-admin/.local/lib/python3.10/site-packages/sympy/polys/factortools.py", line 1238, in dmp_qq_i_factor
+    coeff, factors = dmp_factor_list(f, u, K1)
+  File "/home/udt-admin/.local/lib/python3.10/site-packages/sympy/polys/factortools.py", line 1547, in dmp_factor_list
+    coeff, factors = dmp_ext_factor(f, u, K0)
+  File "/home/udt-admin/.local/lib/python3.10/site-packages/sympy/polys/factortools.py", line 1430, in dmp_ext_factor
+    h, _, g = dmp_inner_gcd(h, g, u, K)
+  File "/home/udt-admin/.local/lib/python3.10/site-packages/sympy/polys/euclidtools.py", line 1598, in dmp_inner_gcd
+    h, cff, cfg = _dmp_inner_gcd(f, g, u, K)
+  File "/home/udt-admin/.local/lib/python3.10/site-packages/sympy/polys/euclidtools.py", line 1563, in _dmp_inner_gcd
+    return dmp_ff_prs_gcd(f, g, u, K)
+  File "/home/udt-admin/.local/lib/python3.10/site-packages/sympy/polys/euclidtools.py", line 1108, in dmp_ff_prs_gcd
+    result = _dmp_ff_trivial_gcd(f, g, u, K)
+  File "/home/udt-admin/.local/lib/python3.10/site-packages/sympy/polys/euclidtools.py", line 933, in _dmp_ff_trivial_gcd
+    return _dmp_simplify_gcd(f, g, u, K)
+  File "/home/udt-admin/.local/lib/python3.10/site-packages/sympy/polys/euclidtools.py", line 952, in _dmp_simplify_gcd
+    G = dmp_content(g, u, K)
+  File "/home/udt-admin/.local/lib/python3.10/site-packages/sympy/polys/euclidtools.py", line 1812, in dmp_content
+    cont = dmp_gcd(cont, c, v, K)
+  File "/home/udt-admin/.local/lib/python3.10/site-packages/sympy/polys/euclidtools.py", line 1639, in dmp_gcd
+    return dmp_inner_gcd(f, g, u, K)[0]
+  File "/home/udt-admin/.local/lib/python3.10/site-packages/sympy/polys/euclidtools.py", line 1598, in dmp_inner_gcd
+    h, cff, cfg = _dmp_inner_gcd(f, g, u, K)
+  File "/home/udt-admin/.local/lib/python3.10/site-packages/sympy/polys/euclidtools.py", line 1563, in _dmp_inner_gcd
+    return dmp_ff_prs_gcd(f, g, u, K)
+  File "/home/udt-admin/.local/lib/python3.10/site-packages/sympy/polys/euclidtools.py", line 1108, in dmp_ff_prs_gcd
+    result = _dmp_ff_trivial_gcd(f, g, u, K)
+  File "/home/udt-admin/.local/lib/python3.10/site-packages/sympy/polys/euclidtools.py", line 933, in _dmp_ff_trivial_gcd
+    return _dmp_simplify_gcd(f, g, u, K)
+  File "/home/udt-admin/.local/lib/python3.10/site-packages/sympy/polys/euclidtools.py", line 952, in _dmp_simplify_gcd
+    G = dmp_content(g, u, K)
+  File "/home/udt-admin/.local/lib/python3.10/site-packages/sympy/polys/euclidtools.py", line 1812, in dmp_content
+    cont = dmp_gcd(cont, c, v, K)
+  File "/home/udt-admin/.local/lib/python3.10/site-packages/sympy/polys/euclidtools.py", line 1639, in dmp_gcd
+    return dmp_inner_gcd(f, g, u, K)[0]
+  File "/home/udt-admin/.local/lib/python3.10/site-packages/sympy/polys/euclidtools.py", line 1598, in dmp_inner_gcd
+    h, cff, cfg = _dmp_inner_gcd(f, g, u, K)
+  File "/home/udt-admin/.local/lib/python3.10/site-packages/sympy/polys/euclidtools.py", line 1563, in _dmp_inner_gcd
+    return dmp_ff_prs_gcd(f, g, u, K)
+  File "/home/udt-admin/.local/lib/python3.10/site-packages/sympy/polys/euclidtools.py", line 1116, in dmp_ff_prs_gcd
+    h = dmp_subresultants(F, G, u, K)[-1]
+  File "/home/udt-admin/.local/lib/python3.10/site-packages/sympy/polys/euclidtools.py", line 549, in dmp_subresultants
+    return dmp_inner_subresultants(f, g, u, K)[0]
+  File "/home/udt-admin/.local/lib/python3.10/site-packages/sympy/polys/euclidtools.py", line 494, in dmp_inner_subresultants
+    h = dmp_prem(f, g, u, K)
+  File "/home/udt-admin/.local/lib/python3.10/site-packages/sympy/polys/densearith.py", line 1246, in dmp_prem
+    raise PolynomialDivisionFailed(f, g, K)
+sympy.polys.polyerrors.PolynomialDivisionFailed: couldn't reduce degree in a polynomial division algorithm when dividing [[ANP([MPQ(1,1), MPQ(0,1)], [MPQ(1,1), MPQ(0,1), MPQ(1,1)], QQ)], [ANP([MPQ(5,1)], [MPQ(1,1), MPQ(0,1), MPQ(1,1)], QQ)], [ANP([MPQ(2,1), MPQ(0,1)], [MPQ(1,1), MPQ(0,1), MPQ(1,1)], QQ), ANP([], [MPQ(1,1), MPQ(0,1), MPQ(1,1)], QQ), ANP([MPQ(-11,1), MPQ(0,1)], [MPQ(1,1), MPQ(0,1), MPQ(1,1)], QQ)], [ANP([MPQ(6,1)], [MPQ(1,1), MPQ(0,1), MPQ(1,1)], QQ), ANP([], [MPQ(1,1), MPQ(0,1), MPQ(1,1)], QQ), ANP([MPQ(-13,1)], [MPQ(1,1), MPQ(0,1), MPQ(1,1)], QQ)], [ANP([MPQ(1,1), MPQ(0,1)], [MPQ(1,1), MPQ(0,1), MPQ(1,1)], QQ), ANP([], [MPQ(1,1), MPQ(0,1), MPQ(1,1)], QQ), ANP([MPQ(-7,1), MPQ(0,1)], [MPQ(1,1), MPQ(0,1), MPQ(1,1)], QQ), ANP([], [MPQ(1,1), MPQ(0,1), MPQ(1,1)], QQ), ANP([MPQ(7,1), MPQ(0,1)], [MPQ(1,1), MPQ(0,1), MPQ(1,1)], QQ)], [ANP([MPQ(1,1)], [MPQ(1,1), MPQ(0,1), MPQ(1,1)], QQ), ANP([], [MPQ(1,1), MPQ(0,1), MPQ(1,1)], QQ), ANP([MPQ(-3,1)], [MPQ(1,1), MPQ(0,1), MPQ(1,1)], QQ), ANP([], [MPQ(1,1), MPQ(0,1), MPQ(1,1)], QQ), ANP([MPQ(1,1)], [MPQ(1,1), MPQ(0,1), MPQ(1,1)], QQ)]] by [[], [ANP([MPQ(-1,1)], [MPQ(1,1), MPQ(0,1), MPQ(1,1)], QQ)], [ANP([MPQ(4,1), MPQ(0,1)], [MPQ(1,1), MPQ(0,1), MPQ(1,1)], QQ)], [ANP([MPQ(-2,1)], [MPQ(1,1), MPQ(0,1), MPQ(1,1)], QQ), ANP([], [MPQ(1,1), MPQ(0,1), MPQ(1,1)], QQ), ANP([MPQ(7,1)], [MPQ(1,1), MPQ(0,1), MPQ(1,1)], QQ)], [ANP([MPQ(4,1), MPQ(0,1)], [MPQ(1,1), MPQ(0,1), MPQ(1,1)], QQ), ANP([], [MPQ(1,1), MPQ(0,1), MPQ(1,1)], QQ), ANP([MPQ(-6,1), MPQ(0,1)], [MPQ(1,1), MPQ(0,1), MPQ(1,1)], QQ)], [ANP([MPQ(-1,1)], [MPQ(1,1), MPQ(0,1), MPQ(1,1)], QQ), ANP([], [MPQ(1,1), MPQ(0,1), MPQ(1,1)], QQ), ANP([MPQ(3,1)], [MPQ(1,1), MPQ(0,1), MPQ(1,1)], QQ), ANP([], [MPQ(1,1), MPQ(0,1), MPQ(1,1)], QQ), ANP([MPQ(-1,1)], [MPQ(1,1), MPQ(0,1), MPQ(1,1)], QQ)]]. This can happen when it's not possible to detect zero in the coefficient domain. The domain of computation is QQ<I>. Zero detection is guaranteed in this coefficient domain. This may indicate a bug in SymPy or the domain is user defined and doesn't implement zero detection properly.

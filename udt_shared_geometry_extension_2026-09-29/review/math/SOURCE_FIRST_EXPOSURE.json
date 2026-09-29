@@ -1,0 +1,38 @@
+{
+  "sealed_utc": "2026-09-29T20:03:56.830513+00:00",
+  "reviewer": "/root/sge_math",
+  "source_first_relative_to": "SGE1 parent candidate, code and outputs",
+  "candidate_exposure": false,
+  "parent_message_exposure": [
+    "Work-order dispatch and source pointers",
+    "Parent reports same directional identity already owned by existing sources; stationary-Killing observation useful"
+  ],
+  "head": "2187825a5a9077d2078deeecb386632d7ab31018",
+  "model": "same inherited model; exact runtime identifier unavailable",
+  "independence": {
+    "context": "fresh separate",
+    "implementation": "reviewer-written SymPy control code",
+    "argument": "source-aware independent reconstruction; existing proofs and verdicts exposed",
+    "different_model": "UNTESTED",
+    "different_library": "UNTESTED",
+    "human": "UNTESTED",
+    "formal_proof": "UNTESTED"
+  },
+  "computation": {
+    "capture": "source_first_01.json",
+    "returncode": 0,
+    "exact_control_count": 17,
+    "threads": 1,
+    "gpu": false
+  },
+  "startup": "parent attributed; reviewer independently observed branch, hashes, status; full audit and remote sync parent-owned",
+  "failures": [
+    "Missing filename guesses documented in SOURCE_FIRST_ANALYSIS.md; no scientific check failures"
+  ],
+  "omissions": [
+    "No observational checks",
+    "No historical full-suite replay",
+    "No native-admission proof",
+    "No parent candidate review yet"
+  ]
+}

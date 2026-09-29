@@ -1,0 +1,20 @@
+{
+  "utc": "2026-09-29T20:09:26.015993+00:00",
+  "candidate_freeze_sha256": "658078bd426b40aacaffabbbde45876ec1060d40aaa92ddd172ebcd938f179dd",
+  "frozen_file_correspondence": {
+    "udt_shared_geometry_extension_2026-09-29/WORK_ORDER.md": true,
+    "udt_shared_geometry_extension_2026-09-29/INITIAL_DERIVATION.md": true,
+    "udt_shared_geometry_extension_2026-09-29/SOURCE_PINS.json": true,
+    "udt_shared_geometry_extension_2026-09-29/checks/check_geometry.py": true,
+    "udt_shared_geometry_extension_2026-09-29/checks/check_geometry_initial_failed.py": true,
+    "udt_shared_geometry_extension_2026-09-29/checks/geometry.json": true,
+    "udt_shared_geometry_extension_2026-09-29/checks/geometry.stderr": true,
+    "udt_shared_geometry_extension_2026-09-29/checks/geometry.stdout": true,
+    "udt_shared_geometry_extension_2026-09-29/checks/geometry_repair.json": true,
+    "udt_shared_geometry_extension_2026-09-29/checks/geometry_repair.stdout": true,
+    "udt_shared_geometry_extension_2026-09-29/checks/geometry_repair.stderr": true,
+    "udt_shared_geometry_extension_2026-09-29/checks/geometry_result.json": true
+  },
+  "all_pass": true,
+  "code_content_exposure": "Author code read only as bytes for hashing; no semantic code or output inspection."
+}

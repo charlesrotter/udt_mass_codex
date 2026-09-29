@@ -1,0 +1,19 @@
+{
+  "utc": "2026-09-29T20:06:40.139174+00:00",
+  "status": "INITIAL_CANDIDATE_UNPROMOTED",
+  "sha256": {
+    "udt_shared_geometry_extension_2026-09-29/WORK_ORDER.md": "079b47426d25be889de00fe5360bb8020a65a8cb981239296c55322abbc8a7d6",
+    "udt_shared_geometry_extension_2026-09-29/INITIAL_DERIVATION.md": "7fe9dd385437f927504d90ebe27e70b8751e889efe9140c240a3ee1913aa0484",
+    "udt_shared_geometry_extension_2026-09-29/SOURCE_PINS.json": "be7fbdb72e438fd6f3aed6ddccf72daaee8ca0077a8362a9a0812844d38accc9",
+    "udt_shared_geometry_extension_2026-09-29/checks/check_geometry.py": "3c70550df2db78cda3b36a42d398c2fdb11685de6d7b853dbad5ebe9584ef61c",
+    "udt_shared_geometry_extension_2026-09-29/checks/check_geometry_initial_failed.py": "d29911fab83f0a9fb64d6a02dc998e3c2ab4a62fe2644334c171edb704194465",
+    "udt_shared_geometry_extension_2026-09-29/checks/geometry.json": "a2684bbd09fad1bf0cfc082f3f5af71d6ccd2f46d68e949095ae5468be7a8b2a",
+    "udt_shared_geometry_extension_2026-09-29/checks/geometry.stderr": "6455aba90ead58914d4f534a4cd101de2915685d1a209789594a8af0da6632c6",
+    "udt_shared_geometry_extension_2026-09-29/checks/geometry.stdout": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "udt_shared_geometry_extension_2026-09-29/checks/geometry_repair.json": "83837ec0218e1969d97c3d093908e28b8f4060b9369978ed32797e6ef7bfb30c",
+    "udt_shared_geometry_extension_2026-09-29/checks/geometry_repair.stdout": "09c737b8828cb6a269cf7902bad010f5ae70b4ec9c56f98094398bca96f6eed3",
+    "udt_shared_geometry_extension_2026-09-29/checks/geometry_repair.stderr": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "udt_shared_geometry_extension_2026-09-29/checks/geometry_result.json": "09c737b8828cb6a269cf7902bad010f5ae70b4ec9c56f98094398bca96f6eed3"
+  },
+  "history": "Source-first contexts independently sealed before candidate dispatch. Parent small check first failed only Python structural equality between equivalent positive logarithms; original script/receipt preserved, normalized residual check passes. Candidate science unchanged."
+}

@@ -1,19 +1,21 @@
 # HANDOFF — current operational handoff
 
 <!-- STARTUP_CURRENT_BEGIN -->
-## Current handoff — CDR1, 2026-09-29
+## Current handoff — SGE1 after CDR1, 2026-09-29
 
-LIVE.md wins. Charles authorized all nine CDR1 stages, including after stages1–5.
-The maintained argument is UDT_DEVELOPMENT.md; the generated bounded startup view
-is CURRENT_RESEARCH_PROGRAM.md. Exact grades: CURRENT_SCIENTIFIC_PREMISES.tsv.
-Work order, progress, versions, reviews and checks are together in
-`development_reconstruction_2026-09-29/`.
+LIVE.md wins. CDR1's nine-stage reconstruction is complete. Charles subsequently
+authorized SGE1's bounded shared-geometry deduction and two-reviewer repair cycle.
+The maintained argument is UDT_DEVELOPMENT.md; its generated startup view is
+CURRENT_RESEARCH_PROGRAM.md. Exact existing grades: CURRENT_SCIENTIFIC_PREMISES.tsv.
+SGE1's scope, initial candidate, domain repair and verification are preserved in
+`udt_shared_geometry_extension_2026-09-29/`; maintained dependencies and review
+bindings remain under `development_reconstruction_2026-09-29/`.
 
-Next: Stop for lay discussion. All nine CDR1 stages are complete at their
-reviewed source-relative scope; WORK_RECORD.md there owns actual check evidence.
-No successor research campaign is authorized. Original evidence, fixed editions, registry
-and CANON remain preserved. Review of the central account does not regrade them.
-Use LIVE for campaign pauses, archive caveats and actual next action.
+Next: Stop for lay discussion of the reviewed conditional return in R8/R18.
+SGE1 WORK_RECORD.md and actual git history own verification/banking evidence.
+No successor campaign, physical premise, native field law or canon is adopted.
+Original evidence, fixed editions and the scientific registry retain their grades.
+Use LIVE for campaign pauses, archive caveats and preservation boundaries.
 
 Protected payloads require explicit dispatch; preserve without inspecting/hashing:
 

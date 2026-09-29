@@ -1,0 +1,7 @@
+{
+  "sealed_utc": "2026-09-29T20:03:02.585748+00:00",
+  "source_first_sha256": "d53e7161e7a53bc6eed3f0ff40b4ca21a68cd867b801397d000985ef5d0e3af3",
+  "source_pins_sha256": "1b628d24d29e8ec6a1fb1d16d96374222cf7a6ec4716520e9c807a58e7290a0e",
+  "scope": "analytic source-first reconstruction; no numerical execution; no candidate verdict",
+  "sge1_candidate_seen": false
+}

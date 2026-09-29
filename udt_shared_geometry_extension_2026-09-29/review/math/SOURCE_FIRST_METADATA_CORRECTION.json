@@ -1,0 +1,12 @@
+{
+  "created_utc": "2026-09-29T20:04:06.715951+00:00",
+  "scope": "metadata-only correction before parent candidate exposure",
+  "original_exposure_sha256": "9bf011f91406b91784b2caefbff6c65c740891bd9bda45254a3dffb09e42befc",
+  "incorrect_field": "computation.exact_control_count",
+  "original_value": 17,
+  "correct_value": 16,
+  "basis": "source_first_01.stdout parsed count and sixteen named checks",
+  "original_files_preserved": true,
+  "scientific_change": false,
+  "candidate_exposure": false
+}

@@ -1,0 +1,25 @@
+{
+  "status": "PASS",
+  "count": 16,
+  "checks": [
+    "directional_contraction",
+    "vorticity_cancels",
+    "even_rate",
+    "odd_rate",
+    "isotropic_rate_forces_zero_acceleration_and_shear",
+    "all_null_quadratic_zero_forces_metric_multiple",
+    "direct_static_incidence_out_slope",
+    "direct_static_incidence_return_slope",
+    "direct_static_incidence_echo_slope",
+    "direct_static_incidence_positive_delay",
+    "radar_slope",
+    "two_way_symmetric_log",
+    "positive_radar_drift_does_not_force_both_redshift",
+    "saturation_family_timelike",
+    "saturation_family_unit_redshift",
+    "saturation_family_norm_limit"
+  ],
+  "python": "3.10.12",
+  "sympy": "1.13.1",
+  "evidence": "exact symbolic controls, not physical selection or formal proof"
+}

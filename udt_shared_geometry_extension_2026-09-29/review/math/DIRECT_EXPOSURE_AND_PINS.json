@@ -1,0 +1,50 @@
+{
+  "utc": "2026-09-29T20:11:17.247949+00:00",
+  "candidate_pins": {
+    "/home/udt-admin/udt_mass_codex/udt_shared_geometry_extension_2026-09-29/INITIAL_DERIVATION.md": "7fe9dd385437f927504d90ebe27e70b8751e889efe9140c240a3ee1913aa0484",
+    "/home/udt-admin/udt_mass_codex/udt_shared_geometry_extension_2026-09-29/CANDIDATE_FREEZE.json": "658078bd426b40aacaffabbbde45876ec1060d40aaa92ddd172ebcd938f179dd",
+    "/home/udt-admin/udt_mass_codex/udt_shared_geometry_extension_2026-09-29/SOURCE_PINS.json": "be7fbdb72e438fd6f3aed6ddccf72daaee8ca0077a8362a9a0812844d38accc9",
+    "/home/udt-admin/udt_mass_codex/udt_shared_geometry_extension_2026-09-29/checks/check_geometry.py": "3c70550df2db78cda3b36a42d398c2fdb11685de6d7b853dbad5ebe9584ef61c",
+    "/home/udt-admin/udt_mass_codex/udt_shared_geometry_extension_2026-09-29/checks/geometry_repair.stdout": "09c737b8828cb6a269cf7902bad010f5ae70b4ec9c56f98094398bca96f6eed3",
+    "/home/udt-admin/udt_mass_codex/udt_shared_geometry_extension_2026-09-29/checks/geometry_repair.json": "83837ec0218e1969d97c3d093908e28b8f4060b9369978ed32797e6ef7bfb30c",
+    "/home/udt-admin/udt_mass_codex/udt_shared_geometry_extension_2026-09-29/checks/geometry.stderr": "6455aba90ead58914d4f534a4cd101de2915685d1a209789594a8af0da6632c6"
+  },
+  "candidate_freeze_checks": {
+    "udt_shared_geometry_extension_2026-09-29/WORK_ORDER.md": true,
+    "udt_shared_geometry_extension_2026-09-29/INITIAL_DERIVATION.md": true,
+    "udt_shared_geometry_extension_2026-09-29/SOURCE_PINS.json": true,
+    "udt_shared_geometry_extension_2026-09-29/checks/check_geometry.py": true,
+    "udt_shared_geometry_extension_2026-09-29/checks/check_geometry_initial_failed.py": true,
+    "udt_shared_geometry_extension_2026-09-29/checks/geometry.json": true,
+    "udt_shared_geometry_extension_2026-09-29/checks/geometry.stderr": true,
+    "udt_shared_geometry_extension_2026-09-29/checks/geometry.stdout": true,
+    "udt_shared_geometry_extension_2026-09-29/checks/geometry_repair.json": true,
+    "udt_shared_geometry_extension_2026-09-29/checks/geometry_repair.stdout": true,
+    "udt_shared_geometry_extension_2026-09-29/checks/geometry_repair.stderr": true,
+    "udt_shared_geometry_extension_2026-09-29/checks/geometry_result.json": true
+  },
+  "source_pin_checks": {
+    "founding.md": true,
+    "udt_positional_geometry_clock_connection_2026-09-28/OWNER_STATEMENT.md": true,
+    "udt_repository_cleanup_2026-09-27/local_clock_impact_2026-09-29/OWNER_CLARIFICATION.md": true,
+    "udt_gr_filter_reconciliation_2026-09-09/AUTHORITY_RECORD.md": true,
+    "udt_finite_separation_law_2026-09-28/INITIAL_CANDIDATE.md": true,
+    "udt_finite_separation_law_2026-09-28/REPAIR.md": true,
+    "udt_finite_separation_law_2026-09-28/REVIEWED_RESULT.md": true,
+    "udt_interframe_clock_network_2026-09-28/REVIEWED_RESULT.md": true,
+    "udt_directional_clock_curvature_whiteboard_2026-09-10/INITIAL_CANDIDATE.md": true,
+    "udt_directional_clock_curvature_whiteboard_2026-09-10/review/REVIEW.md": true,
+    "udt_null_clock_depth_integrability_assessment_2026-09-10/REPAIR.md": true,
+    "udt_clock_curvature_derivation_2026-09-28/INITIAL_DERIVATION.md": true,
+    "udt_clock_curvature_derivation_2026-09-28/REVIEWED_RESULT.md": true,
+    "udt_finite_clock_metric_variation_2026-09-28/REVIEWED_RESULT.md": true,
+    "udt_common_geometry_whiteboard_2026-09-28/REVIEWED_RESULT.md": true,
+    "udt_reviewed_backlog_banking_2026-09-10/BANKING_RECORD.md": true
+  },
+  "author_code_exposure": "after direct_01 completed and stdout inspected",
+  "source_first_controls": 16,
+  "direct_controls": 22,
+  "required_repair": "M1 matching smooth observer-extension scope",
+  "verdict": "VERIFIED-WITH-CAVEATS subject to M1 before integration",
+  "reviewer": "/root/sge_math"
+}

@@ -1,0 +1,4 @@
+Traceback (most recent call last):
+  File "/home/udt-admin/udt_mass_codex/udt_shared_geometry_extension_2026-09-29/checks/check_geometry.py", line 81, in <module>
+    assert p>1 and q<1 and s.simplify(F-source)==2*s.log(s.Rational(3,2))
+AssertionError

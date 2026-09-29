@@ -69,6 +69,15 @@ class Maintenance(unittest.TestCase):
         self.rejects(self.graph_change(lambda g:g['edges'].remove({'from':'C_RESPONSE','to':'R10','kind':'hypothesis'})),'missing required hypothesis')
     def test_missing_optional_source(self):
         self.rejects(self.graph_change(lambda g:g['edges'].remove({'from':'C_SOURCE','to':'R15','kind':'hypothesis'})),'missing required hypothesis')
+    def test_stationary_exclusion_requires_its_sector(self):
+        self.rejects(self.graph_change(lambda g:g['edges'].remove({'from':'C_STATIONARY_CLOCKS','to':'R8S','kind':'hypothesis'})),'missing required hypothesis')
+    def test_shared_geometry_source_flags_positive_and_negative(self):
+        p='udt_shared_geometry_extension_2026-09-29/INITIAL_DERIVATION.md'
+        self.assertTrue({'R8','R8S','R16','R18'}<=set(v.affected_nodes(self.graph,[p])))
+        self.rejects({p:(ROOT/p).read_text()+'\nTEST'},'REVIEW_REQUIRED.*affected=')
+    def test_additional_owner_meaning_routes_to_core_and_restriction(self):
+        p='udt_shared_geometry_extension_2026-09-29/OWNER_CLARIFICATION.md'
+        self.assertTrue({'R6','R8','R8S','R10','R17','R18'}<=set(v.affected_nodes(self.graph,[p])))
     def test_open_join_as_premise(self):
         self.rejects(self.graph_change(lambda g:g['edges'].append({'from':'O_ASSIGNMENT','to':'R1','kind':'proof'})),'open join promoted')
     def test_cycle(self):

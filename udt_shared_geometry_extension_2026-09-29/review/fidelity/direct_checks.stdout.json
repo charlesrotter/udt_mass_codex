@@ -1,0 +1,51 @@
+{
+  "status": "PASS",
+  "exact_identity_checks": 27,
+  "checks": [
+    "unit_future_boost",
+    "decomposition_0_0",
+    "decomposition_0_1",
+    "decomposition_0_2",
+    "decomposition_0_3",
+    "decomposition_1_0",
+    "decomposition_1_1",
+    "decomposition_1_2",
+    "decomposition_1_3",
+    "decomposition_2_0",
+    "decomposition_2_1",
+    "decomposition_2_2",
+    "decomposition_2_3",
+    "decomposition_3_0",
+    "decomposition_3_1",
+    "decomposition_3_2",
+    "decomposition_3_3",
+    "frequency_from_metric",
+    "generator_from_actual_acceleration_shear",
+    "auxiliary_density_is_exact_rapidity_derivative",
+    "same_endpoint_observers_zero_total",
+    "nonzero_interior_generator_anchor",
+    "flat_actual_congruence_commutator",
+    "flat_raychaudhuri_full_decomposition",
+    "norm_boundary_control_lorentz_norm",
+    "norm_boundary_control_received_ratio_one",
+    "local_remainder_sharp_linear_control"
+  ],
+  "wrong_rules_rejected": [
+    "auxiliary_generator_pointwise_invariant",
+    "auxiliary_density_transform_wrong_sign",
+    "positive_echo_drift_implies_both_redshift",
+    "stationary_pair_mutual_redshift",
+    "zero_initial_generator_means_finite_zero"
+  ],
+  "implementation": "independent actual Minkowski congruence derivatives and exact controls; no author import",
+  "python": "3.10.12",
+  "sympy": "1.13.1",
+  "elapsed_seconds": 1.1601116439851467,
+  "maxrss_kib": 50808,
+  "limits": {
+    "cpu_seconds": 60,
+    "wall_seconds": 60,
+    "address_space_mib": 512,
+    "threads": 1
+  }
+}
