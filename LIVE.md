@@ -1,14 +1,14 @@
 # LIVE — operational status
 
 <!-- STARTUP_CURRENT_BEGIN -->
-## CURRENT STATE — CES1 after PCW1/GCA1/LKT1/SGE1/CDR1, 2026-09-30
+## CURRENT STATE — CCR1 after CES1/PCW1/GCA1/LKT1/SGE1/CDR1, 2026-09-30
 
 Work on `grok`; independently verify HEAD, synchronization and dirt.
-Charles authorized the recommended bounded physical clock-ensemble test,
-including checks, separate-context review and central integration. CES1's return
-is integrated in UDT_DEVELOPMENT.md R18E; preceding CDR1/SGE1/LKT1/GCA1/PCW1
-scopes remain preserved. Scope and actual execution evidence are in
-`udt_clock_ensemble_stationarity_test_2026-09-30/WORK_ORDER.md` and `WORK_RECORD.md`.
+Charles authorized the next substantive curved-geometry clock-response test,
+including checks, separate-context review and central integration. CCR1's return
+is integrated in UDT_DEVELOPMENT.md R18T/R18C/R18U; preceding CES1 and
+CDR1/SGE1/LKT1/GCA1/PCW1 scopes remain preserved. Scope and execution evidence:
+`udt_curved_clock_response_test_2026-09-30/WORK_ORDER.md` and `WORK_RECORD.md`.
 The proposed physical response law remains UNADOPTED. No successor campaign
 is authorized by this completed work order.
 
@@ -43,10 +43,11 @@ Protected: do not inspect, hash, stage, modify, mine or cite payloads without di
 
 ### Next gate
 
-Stop for lay discussion of CES1's reviewed conditional return in central R18E.
+Stop for lay discussion of CCR1's reviewed conditional return in central R18T/R18C/R18U.
 The work record, actual reviewer attestations, check receipts and Git history
-own verification and banking. The exact-flat benchmark is not a newly adopted
-UDT or local-SR requirement. No response law, population, source or quantum
+own verification and banking. CCR1 does not impose CES1's exact-flat benchmark
+as a UDT or local-SR requirement. Its all-laboratory quantifier is explicitly
+additional and unadopted. No response law, population, source or quantum
 interface is adopted. Existing pauses and grades remain unchanged. A subsequent
 work order must specify its physical question, premises and decisive test.
 

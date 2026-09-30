@@ -1,0 +1,31 @@
+{
+  "status": "PASS",
+  "python": "3.10.12",
+  "sympy": "1.13.1",
+  "domain": "regular branches; Z>0; mean-sign proof needs M nonzero; conformal control a_e,a_o>0, |v|<1, H!=0; controls are not selected geometry",
+  "identities": {
+    "reciprocal_determinant": "0",
+    "trace_free": "0",
+    "normalized_null_contraction": "0",
+    "boost_lorentz": "0",
+    "carried_boost_contraction": "0",
+    "full_clock_drift": "0",
+    "nonconstant_arrival": "0",
+    "integration_by_parts": "0",
+    "integrating_factor_witness": "0",
+    "exponential_witness": "0",
+    "mixed_individual_sign_positive_mean": "0",
+    "zero_mean_subset_control": "0",
+    "curved_null_ode_arrival": "0",
+    "actual_nonzero_curvature_component": "0"
+  },
+  "wrong_nonidentities_rejected": {
+    "dropping_curved_clock_drift": "alpha(s)*Derivative(A(s), (s, 2))/Derivative(A(s), s)",
+    "nonconstant_arrival_wrong": "(s**2 + 1)/(s + 1)",
+    "dropping_J_in_stationarity": "J(s)*w(s)",
+    "omitted_receiver_motion": "-a_o*v*sqrt(-(v - 1)*(v + 1))*alpha(s)/(a_e*(v - 1))",
+    "omitted_receiver_proper_rate": "-(a_o*sqrt(1 - v**2) - 1)*alpha(s)/(a_e*(v - 1))",
+    "curved_control_not_flat": "H**2*exp(2*H*t)"
+  },
+  "scope": "exact algebra/original-null-ODE comparison; analytic support and recovery proof not replaced"
+}

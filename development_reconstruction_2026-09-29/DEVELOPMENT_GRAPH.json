@@ -719,6 +719,78 @@
       "required_conditions": [
         "C_CES_PROTOCOL"
       ]
+    },
+    {
+      "id": "C_CCR_TUBE",
+      "kind": "method_hypotheses",
+      "statement": "UNADOPTED L1 score and CES1 physical preparation with fixed product labels; smooth proper-clock/null branch, rank4 embedded emission coordinates with smooth inverse, once-only supported crossing and preparation/clock separation. No exact-flat benchmark.",
+      "sources": [
+        "udt_curved_clock_response_test_2026-09-30/INITIAL_CANDIDATE.md",
+        "udt_curved_clock_response_test_2026-09-30/REPAIR.md"
+      ]
+    },
+    {
+      "id": "C_CCR_SIGN",
+      "kind": "method_hypotheses",
+      "statement": "Mean log-clock contrast M stays away from zero with one sign on a buffered interval containing compact emission-weight support; not assumed for every physical population.",
+      "sources": [
+        "udt_curved_clock_response_test_2026-09-30/INITIAL_CANDIDATE.md",
+        "udt_curved_clock_response_test_2026-09-30/REPAIR.md"
+      ]
+    },
+    {
+      "id": "C_CCR_UNIVERSAL",
+      "kind": "unadopted_branch",
+      "statement": "EXTRA QUANTIFIER ONLY: require the same proposed stationarity principle for EVERY scaled CES1 small-laboratory preparation with fixed positive-rapidity template, in a fixed smooth metric. A single physical/cosmic population does not supply this demand.",
+      "sources": [
+        "udt_curved_clock_response_test_2026-09-30/INITIAL_CANDIDATE.md",
+        "udt_curved_clock_response_test_2026-09-30/REPAIR.md"
+      ]
+    },
+    {
+      "id": "R18T",
+      "kind": "argument",
+      "anchor": "r18t",
+      "title": "CCR1 curved-tube control and necessary moment condition",
+      "registry_ids": [],
+      "sources": [
+        "udt_curved_clock_response_test_2026-09-30/INITIAL_CANDIDATE.md",
+        "udt_curved_clock_response_test_2026-09-30/REPAIR.md",
+        "udt_curved_clock_response_test_2026-09-30/REVIEWED_RESULT.md"
+      ],
+      "required_conditions": [
+        "C_CCR_TUBE"
+      ]
+    },
+    {
+      "id": "R18C",
+      "kind": "argument",
+      "anchor": "r18c",
+      "title": "CCR1 strict-sign mean curved-sector obstruction",
+      "registry_ids": [],
+      "sources": [
+        "udt_curved_clock_response_test_2026-09-30/INITIAL_CANDIDATE.md",
+        "udt_curved_clock_response_test_2026-09-30/REPAIR.md",
+        "udt_curved_clock_response_test_2026-09-30/REVIEWED_RESULT.md"
+      ],
+      "required_conditions": [
+        "C_CCR_SIGN"
+      ]
+    },
+    {
+      "id": "R18U",
+      "kind": "argument",
+      "anchor": "r18u",
+      "title": "CCR1 small curved laboratories and conditional universal-implementation exclusion",
+      "registry_ids": [],
+      "sources": [
+        "udt_curved_clock_response_test_2026-09-30/INITIAL_CANDIDATE.md",
+        "udt_curved_clock_response_test_2026-09-30/REPAIR.md",
+        "udt_curved_clock_response_test_2026-09-30/REVIEWED_RESULT.md"
+      ],
+      "required_conditions": [
+        "C_CCR_UNIVERSAL"
+      ]
     }
   ],
   "edges": [
@@ -1321,6 +1393,71 @@
       "from": "R18E",
       "to": "R18",
       "kind": "interpretation"
+    },
+    {
+      "from": "C_CCR_TUBE",
+      "to": "R18T",
+      "kind": "hypothesis"
+    },
+    {
+      "from": "C_CCR_SIGN",
+      "to": "R18C",
+      "kind": "hypothesis"
+    },
+    {
+      "from": "C_CCR_UNIVERSAL",
+      "to": "R18U",
+      "kind": "hypothesis"
+    },
+    {
+      "from": "R18T",
+      "to": "R18C",
+      "kind": "proof"
+    },
+    {
+      "from": "R18C",
+      "to": "R18U",
+      "kind": "proof"
+    },
+    {
+      "from": "R6",
+      "to": "R18T",
+      "kind": "context"
+    },
+    {
+      "from": "R9",
+      "to": "R18T",
+      "kind": "context"
+    },
+    {
+      "from": "R17",
+      "to": "R18T",
+      "kind": "context"
+    },
+    {
+      "from": "R18E",
+      "to": "R18T",
+      "kind": "context"
+    },
+    {
+      "from": "O_PCW_PROPOSALS",
+      "to": "R18T",
+      "kind": "context"
+    },
+    {
+      "from": "R18T",
+      "to": "R18",
+      "kind": "interpretation"
+    },
+    {
+      "from": "R18C",
+      "to": "R18",
+      "kind": "interpretation"
+    },
+    {
+      "from": "R18U",
+      "to": "R18",
+      "kind": "interpretation"
     }
   ],
   "sources_sha256": {
@@ -1407,7 +1544,10 @@
     "udt_physical_connection_whiteboard_2026-09-30/proposals/cosmic/INITIAL_PROPOSAL.md": "e9b19bafd8fabac821f8521577003ee4ca397f4a7d712dc5e7d4e8fca4ef89ca",
     "udt_clock_ensemble_stationarity_test_2026-09-30/PREPARATION.md": "e5ce5c7300c7d67f7232c8f9c24b8b636d722ec2b1917506b47cb70f0c49bc01",
     "udt_clock_ensemble_stationarity_test_2026-09-30/INITIAL_CANDIDATE.md": "cf82d5a6f6b84862da1a5ebbcdfe6f65bf8e862b2e41a05a6d6366f8699229e3",
-    "udt_clock_ensemble_stationarity_test_2026-09-30/REVIEWED_RESULT.md": "4152b3223979c72fd8686124d7af484a399644920a669928462bc9f5f2bb6ea4"
+    "udt_clock_ensemble_stationarity_test_2026-09-30/REVIEWED_RESULT.md": "4152b3223979c72fd8686124d7af484a399644920a669928462bc9f5f2bb6ea4",
+    "udt_curved_clock_response_test_2026-09-30/INITIAL_CANDIDATE.md": "85dac5def7eae63e5682a2615a55d8d66705d44cefaeddd02082926248e59c9e",
+    "udt_curved_clock_response_test_2026-09-30/REPAIR.md": "fb588385fca7d16587c8f0b92a714fca6e7766fa9abdb29ea3309bff578287b4",
+    "udt_curved_clock_response_test_2026-09-30/REVIEWED_RESULT.md": "8c3218a80a42741262707da40d2559c992a923b669a7a2f2cdcaa74226de6c5f"
   },
   "impact_policy": "Any changed source or registry row flags its mapped positive and negative central arguments and every reachable central descendant for review; no automatic truth reversal or regrading.",
   "review_support": [
@@ -1627,6 +1767,30 @@
         "R18"
       ],
       "scope": "Conditional CES1 proof and scoped adverse benchmark; no premise/adoption/grade input. Final integration acceptance separate."
+    },
+    {
+      "path": "udt_curved_clock_response_test_2026-09-30/review/math/DIRECT_REVIEW.md",
+      "sha256": "4797a8197e489d294fbb44ce2de35358e8fa29e43f5e7db6c269dfec2330551d",
+      "role": "review_evidence",
+      "targets": [
+        "R18T",
+        "R18C",
+        "R18U",
+        "R18"
+      ],
+      "scope": "CCR1 conditional curved calculation and actual initial precision objections; review is not a physical premise; final repaired integration acceptance separate."
+    },
+    {
+      "path": "udt_curved_clock_response_test_2026-09-30/review/fidelity/DIRECT_REVIEW.md",
+      "sha256": "10f799496b9aea33ab5741ed5c890a2d627cc667386f66291641cec78c5ff933",
+      "role": "review_evidence",
+      "targets": [
+        "R18T",
+        "R18C",
+        "R18U",
+        "R18"
+      ],
+      "scope": "CCR1 conditional curved calculation and actual initial precision objections; review is not a physical premise; final repaired integration acceptance separate."
     }
   ]
 }

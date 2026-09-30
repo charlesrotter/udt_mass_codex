@@ -1,6 +1,6 @@
 # UDT research roadmap — current direction
 
-Updated 2026-09-30: CES1 clock-ensemble test after PCW1/GCA1/LKT1/SGE1/CDR1. This is a direction document, not scientific
+Updated 2026-09-30: CCR1 curved-response test after CES1/PCW1/GCA1/LKT1/SGE1/CDR1. This is a direction document, not scientific
 premise authority or research authorization. LIVE controls operational status;
 the exact registry and original reviewed sources control grades and scope.
 AGENTS controls method. Charles canonizes; CANON is unchanged.
@@ -12,13 +12,16 @@ This roadmap does not duplicate their detailed derivations or premise inventory.
 
 ## Current return and next discussion
 
-Charles authorized the recommended physical clock-ensemble test after PCW1's
-whiteboard. The [bounded work order](udt_clock_ensemble_stationarity_test_2026-09-30/WORK_ORDER.md)
-controls CES1's preparation, exact-stationarity benchmark, review and return.
-Its conditional result is integrated in [central R18E](UDT_DEVELOPMENT.md#r18e).
-The [work record](udt_clock_ensemble_stationarity_test_2026-09-30/WORK_RECORD.md)
+After clarifying that CES1's optional exact-flat diagnostic did not test UDT
+itself, Charles authorized: “Move on to the next substantive issue then.”
+The [bounded work order](udt_curved_clock_response_test_2026-09-30/WORK_ORDER.md)
+controls CCR1's curved-geometry test, reviews and return. Its conditional result
+is integrated in [central R18T/R18C/R18U](UDT_DEVELOPMENT.md#r18t).
+The [work record](udt_curved_clock_response_test_2026-09-30/WORK_RECORD.md)
 records actual review, checks and banking. The supplied response law is not
-adopted, and the exact-flat benchmark is not a new founding requirement.
+adopted. The all-laboratory quantifier remains additional and unadopted; exact
+flatness is not a UDT or local-SR requirement. The test restricts that proposal
+within its stated sector, without claiming to refute UDT or classify all populations.
 No successor campaign starts automatically. Previous audit, proposal and
 conditional returns keep their original scopes; exact grades and CANON do not change.
 
@@ -259,7 +262,7 @@ Full branch limits and protected local-work instructions remain in LIVE/AGENTS.
 
 The [central retained-results account](UDT_DEVELOPMENT.md#r18) explains gains
 and open connections. The [later-return ledger](development_reconstruction_2026-09-29/RECENT_DISPOSITIONS.tsv)
-maps29 later returns, including GCA1 and the unadopted PCW1 proposals, to exact sources and scopes.
+maps31 later returns, including GCA1, unadopted PCW1 proposals and CES1/CCR1 tests, to exact sources and scopes.
 Review those limits before proposing a successor. Earlier admitted mathematics
 remains available through its original banking records.
 

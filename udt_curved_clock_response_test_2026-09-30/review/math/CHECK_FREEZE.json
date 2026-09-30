@@ -1,0 +1,26 @@
+{
+  "created_utc": "2026-09-30T16:57:21.295298+00:00",
+  "question": "Source-normalized tube delay, full proper-clock derivative, weighted necessary condition and positive-sector obstruction",
+  "limits": {
+    "cpu_seconds": 60,
+    "wall_seconds": 60,
+    "address_space_mib": 512,
+    "threads": 1,
+    "gpu": false
+  },
+  "pins": {
+    "SOURCE_FIRST.md": "0094875791161daef76f141e7db7ef5d0097ccde5cfe65735cd7aba76e18cb08",
+    "SOURCE_PINS.json": "afc75f671309ea1ff04197a72d86283e293f98b51e6574d4e4f674a9e364ff31",
+    "independent_checks.py": "32da712d0e6956591007d599fe03b5340aa4cb8d14b19703962177ccc17f9ae5"
+  },
+  "command": [
+    "python3",
+    "udt_local_kernel_symmetry_release_2026-09-13/capture.py",
+    "60",
+    "512",
+    "udt_curved_clock_response_test_2026-09-30/review/math/source_first_check",
+    "python3",
+    "udt_curved_clock_response_test_2026-09-30/review/math/independent_checks.py"
+  ],
+  "stops": "single exact check; preserve any failure; no producer implementation reuse"
+}

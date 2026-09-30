@@ -1,0 +1,51 @@
+{
+  "identities": [
+    "null tangent",
+    "reciprocal trace",
+    "null reciprocal contraction",
+    "finite plane determinant",
+    "finite reciprocal tangent 0",
+    "finite reciprocal tangent 1",
+    "normalized integrand",
+    "affine action scaling",
+    "affine frequency cancellation",
+    "moving arrival slope",
+    "variable affine normalization",
+    "second contrast moment",
+    "integration by parts coefficient",
+    "flat physical rapidity clock ratio",
+    "same sign witness integrand"
+  ],
+  "python": "3.10.12",
+  "scope": "Exact algebra only; geometric tube/support and continuity are analytic hypotheses/arguments.",
+  "shapes": {
+    "null_tangent": [
+      2,
+      1
+    ],
+    "reciprocal_plane": [
+      2,
+      2
+    ]
+  },
+  "status": "PASS",
+  "sympy": "1.13.1",
+  "wrong_formulas_rejected": [
+    {
+      "name": "missing D_s drift",
+      "nonzero_difference": "1"
+    },
+    {
+      "name": "missing receiver frequency derivative",
+      "nonzero_difference": "-1"
+    },
+    {
+      "name": "half reciprocal tangent",
+      "nonzero_difference": "-2*E**2"
+    },
+    {
+      "name": "missing label weight derivative",
+      "nonzero_difference": "-4*s"
+    }
+  ]
+}

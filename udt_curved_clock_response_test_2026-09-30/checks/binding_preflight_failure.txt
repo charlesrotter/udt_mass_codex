@@ -1,0 +1,12 @@
+Parent binding preflight, before any file write or full audit:
+Traceback (most recent call last):
+  File "<stdin>", line 15, in <module>
+AssertionError: math
+
+The extra assertion required context == '/root/ccr_math'. The actual reviewer
+context is '/root/ccr_math: actual separate source-first/direct/final-review context; same inherited model'.
+All prior hash/verdict/map/report checks passed. The normal check/full audit did
+not start because the orchestration gated on this nonzero exit. The corrected
+assembler validates the exact agent identifier before the colon and preserves
+the entire authentic reviewer context in REVIEW_RECORD.json. No attestation,
+scientific file, freeze, review verdict or accepted map was changed.

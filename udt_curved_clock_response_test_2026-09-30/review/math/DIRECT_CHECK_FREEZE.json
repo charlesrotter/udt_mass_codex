@@ -1,0 +1,24 @@
+{
+  "created_utc": "2026-09-30T17:00:39.239936+00:00",
+  "stage": "direct-review independent controls after candidate/code exposure",
+  "question": "Recompute the curved optical-delay arrival and nonconstant clock drift from a supplied original reciprocal null metric; verify ordinary proper clock geodesics and nonzero curvature; anchor integrating-factor witness",
+  "limits": {
+    "seconds": 60,
+    "mib": 512,
+    "threads": 1
+  },
+  "pins": {
+    "direct_checks.py": "393cb3d52d661fe17e74c5102dc30ed10e07b1669b84ab293c8f07dfc60e647d",
+    "DIRECT_INPUT_PINS.json": "6057e1a7b98d4f4b799642f84d0f6273233049d7f6c79893d74b8ee566eb45d1"
+  },
+  "command": [
+    "python3",
+    "udt_local_kernel_symmetry_release_2026-09-13/capture.py",
+    "60",
+    "512",
+    "udt_curved_clock_response_test_2026-09-30/review/math/direct_check",
+    "python3",
+    "udt_curved_clock_response_test_2026-09-30/review/math/direct_checks.py"
+  ],
+  "stop": "one exact run; retain any failures; no shared-file mutation"
+}

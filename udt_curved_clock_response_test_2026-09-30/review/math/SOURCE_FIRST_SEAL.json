@@ -1,0 +1,35 @@
+{
+  "sealed_utc": "2026-09-30T16:57:35.412188+00:00",
+  "reviewer": "/root/ccr_math",
+  "stage": "source-first, before CCR1 producer candidate/code or other reviewer",
+  "verdict": "Conditional necessary ensemble condition and sign-definite curved-sector obstruction independently derived; unseen producer candidate unreviewed",
+  "checks": {
+    "exact_identity": 11,
+    "exact_sign": 1,
+    "wrong_formula_rejected": 5
+  },
+  "receipt": {
+    "command": [
+      "python3",
+      "udt_curved_clock_response_test_2026-09-30/review/math/independent_checks.py"
+    ],
+    "cwd": "/home/udt-admin/udt_mass_codex",
+    "started_utc": "2026-09-30T16:57:21.365950+00:00",
+    "duration_seconds": 0.35353724198648706,
+    "returncode": 0,
+    "timeout": false,
+    "address_space_bytes": 536870912,
+    "cpu_seconds": 60,
+    "maxrss_kib": 50444
+  },
+  "pins": {
+    "CHECK_FREEZE.json": "19c18672d6fb994f2074f0eed8d7a51b47dad93d8cb694b728af3374201176ad",
+    "SOURCE_FIRST.md": "0094875791161daef76f141e7db7ef5d0097ccde5cfe65735cd7aba76e18cb08",
+    "SOURCE_PINS.json": "afc75f671309ea1ff04197a72d86283e293f98b51e6574d4e4f674a9e364ff31",
+    "independent_checks.py": "32da712d0e6956591007d599fe03b5340aa4cb8d14b19703962177ccc17f9ae5",
+    "source_first_check.capture_provenance.json": "2ca1d3bbe2c20e289620776f5c1f15180da4cbfa9f0bcfbd7fb537c5ab228372",
+    "source_first_check.json": "c447e10f0735c35205fdf4b2b68a5f6abc8d3bc32874ccf55e40733680e35f28",
+    "source_first_check.stderr": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "source_first_check.stdout": "d47fdd85b04f0e24007412e7c301e66bd9da0692b6817d12af6b18d2a5a31371"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "status": "PASS",
+  "freeze_sha256": "b6ad3eda8873cf46f69b42d04b3963e8a326a2cdfd1d501914fb67ac4bfce4af",
+  "frozen_paths_verified": 191,
+  "prior_paths_retained": 128,
+  "unchanged_prior_paths": 120,
+  "changed_prior_paths": [
+    "CURRENT_RESEARCH_PROGRAM.md",
+    "HANDOFF.md",
+    "LIVE.md",
+    "UDT_DEVELOPMENT.md",
+    "UDT_RESEARCH_ROADMAP.md",
+    "development_reconstruction_2026-09-29/DEVELOPMENT_GRAPH.json",
+    "development_reconstruction_2026-09-29/RECENT_DISPOSITIONS.tsv",
+    "development_reconstruction_2026-09-29/checks/test_maintenance.py"
+  ],
+  "new_bound_paths": 63,
+  "branch": "grok",
+  "head": "252a717c380f1e7bb26266af2c8e8c962ccd4b2f",
+  "scope": "Actual byte correspondence and bounded prior-scope retention; no full-corpus scientific reproof."
+}

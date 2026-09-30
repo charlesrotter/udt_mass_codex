@@ -1,0 +1,10 @@
+{
+  "stage": "before producer exact checks",
+  "exposure": "Parent full candidate written after preliminary matching source-first reviewer messages; no blind-discovery claim. Candidate has own integrating-factor construction; exponential control credited to reviews.",
+  "sha256": {
+    "udt_curved_clock_response_test_2026-09-30/WORK_ORDER.md": "686fc3facc23f8f171deb4b80f31d990b3316438bcc561e50ba3f465e7ff008d",
+    "udt_curved_clock_response_test_2026-09-30/INITIAL_CANDIDATE.md": "85dac5def7eae63e5682a2615a55d8d66705d44cefaeddd02082926248e59c9e",
+    "udt_curved_clock_response_test_2026-09-30/checks/CHECK_PLAN.md": "34349ae7405c18547cb1c2398df866802cacbbdb9d80ad0c9c126e719f9029e9",
+    "udt_curved_clock_response_test_2026-09-30/checks/check_curved.py": "a10ac3f841ff46d8daf8aebc86f1b9aa1c71aec2823de5acaa03f9d70d997495"
+  }
+}

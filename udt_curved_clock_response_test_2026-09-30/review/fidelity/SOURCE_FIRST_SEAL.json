@@ -1,0 +1,15 @@
+{
+  "utc": "2026-09-30T16:56:52.619736+00:00",
+  "phase": "SOURCE_FIRST_SEALED",
+  "identity_count": 15,
+  "wrong_formula_rejections": 4,
+  "files": {
+    "udt_curved_clock_response_test_2026-09-30/review/fidelity/CHECK_PLAN.md": "df9ee47d1de69012ddacee0c80d520ea94f4ab75813bcbc93388e68d6545ceb8",
+    "udt_curved_clock_response_test_2026-09-30/review/fidelity/SOURCE_FIRST.md": "d64b3e13f18c07b83718836a84c87bafe213e25f40d56d570c2cb85d2de55b1c",
+    "udt_curved_clock_response_test_2026-09-30/review/fidelity/SOURCE_PINS.json": "c92e6ca7d4ec7dd2bacf324d55d8877be3ba9cdc692350b93ba73622ab4733cd",
+    "udt_curved_clock_response_test_2026-09-30/review/fidelity/source_first_check.json": "10914eceb8a8c38a8ad3790cd4d3e1923568a556dda0c782cb0dca20f843bc25",
+    "udt_curved_clock_response_test_2026-09-30/review/fidelity/source_first_check.stderr": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "udt_curved_clock_response_test_2026-09-30/review/fidelity/source_first_check.stdout": "aedf3608a6feaa4a9bba9b61ab2893ebdee326cbb9542ef53ad539399597098f",
+    "udt_curved_clock_response_test_2026-09-30/review/fidelity/source_first_checks.py": "318c43e6dad7fbd9f17dec0febcdc7ceb4c1c5af15356b47edbcece4a316a8f3"
+  }
+}

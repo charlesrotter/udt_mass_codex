@@ -1,0 +1,14 @@
+{
+  "utc": "2026-09-30T17:02:10.491556+00:00",
+  "phase": "DIRECT_REVIEW_INITIAL_BYTES",
+  "candidate_sha256": "85dac5def7eae63e5682a2615a55d8d66705d44cefaeddd02082926248e59c9e",
+  "sha256": {
+    "udt_curved_clock_response_test_2026-09-30/review/fidelity/DIRECT_REVIEW.md": "10f799496b9aea33ab5741ed5c890a2d627cc667386f66291641cec78c5ff933",
+    "udt_curved_clock_response_test_2026-09-30/review/fidelity/DIRECT_INPUT_PINS.json": "a6ec5689b1e54fbf54e5435a9988b79292025f5840b4bea1f86a22c8830b8c9f",
+    "udt_curved_clock_response_test_2026-09-30/review/fidelity/DIRECT_CHECK_PLAN.md": "55fb56f88536a0cd6d727578372a7a38bbfce73fc3b1a4282e668bf68d9e6f84",
+    "udt_curved_clock_response_test_2026-09-30/review/fidelity/direct_checks.py": "501cc6051b656e14db11391e85694e2485160036f0893e9f122b631016a1749b",
+    "udt_curved_clock_response_test_2026-09-30/review/fidelity/direct_check.stdout": "ca9f91c7b0e4367f61a003a2d5d9bde6a2696082e931901379f608e9df56a4be",
+    "udt_curved_clock_response_test_2026-09-30/review/fidelity/direct_check.stderr": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "udt_curved_clock_response_test_2026-09-30/review/fidelity/direct_check.json": "eb23987b44e04d8f8cdbe48eac0de212afb6a7cc696543302ae52fd173189239"
+  }
+}

@@ -1,0 +1,98 @@
+{
+  "status": "PASS",
+  "python": "3.10.12",
+  "sympy": "1.13.1",
+  "scope": "independent exact curved comparison and mean-sign algebra; no CES1 curved solution or tube existence certified",
+  "domain": "s,L>0; t>0 compact neighborhoods; smooth compact shell underlying normalized polynomial integral control",
+  "checks": [
+    {
+      "name": "original_null_condition",
+      "type": "exact_identity",
+      "residual": "0"
+    },
+    {
+      "name": "linearized_null_rhs",
+      "type": "exact_identity",
+      "residual": "0"
+    },
+    {
+      "name": "unit_integral_anchor",
+      "type": "exact_identity",
+      "residual": "0"
+    },
+    {
+      "name": "actual_exit_delay",
+      "type": "exact_identity",
+      "residual": "0"
+    },
+    {
+      "name": "curved_proper_arrival",
+      "type": "exact_identity",
+      "residual": "0"
+    },
+    {
+      "name": "curved_nonconstant_clock_response",
+      "type": "exact_identity",
+      "residual": "0"
+    },
+    {
+      "name": "explicit_positive_response",
+      "type": "exact_identity",
+      "residual": "0"
+    },
+    {
+      "name": "reject_frozen_clock_drift",
+      "type": "wrong_formula_rejected",
+      "residual": "-L/(2*L + 2*sqrt(2)*sqrt(s))"
+    },
+    {
+      "name": "reject_coordinate_as_proper_arrival",
+      "type": "wrong_formula_rejected",
+      "residual": "sqrt(2)*sqrt(s)*(L + sqrt(2)*sqrt(s) - 1)/2"
+    },
+    {
+      "name": "comoving_clock_geodesic_component_0",
+      "type": "exact_identity",
+      "residual": "0"
+    },
+    {
+      "name": "comoving_clock_geodesic_component_1",
+      "type": "exact_identity",
+      "residual": "0"
+    },
+    {
+      "name": "comoving_clock_geodesic_component_2",
+      "type": "exact_identity",
+      "residual": "0"
+    },
+    {
+      "name": "comoving_clock_geodesic_component_3",
+      "type": "exact_identity",
+      "residual": "0"
+    },
+    {
+      "name": "proper_clock_normalization",
+      "type": "exact_identity",
+      "residual": "0"
+    },
+    {
+      "name": "nonzero_computed_curvature",
+      "type": "exact_identity",
+      "residual": "0"
+    },
+    {
+      "name": "nonconstant_mean_integrating_factor",
+      "type": "exact_identity",
+      "residual": "0"
+    },
+    {
+      "name": "reject_missing_J_witness",
+      "type": "wrong_formula_rejected",
+      "residual": "(s - (s + 1)*exp(s) + 1)*exp(-s)"
+    }
+  ],
+  "counts": {
+    "exact_identity": 14,
+    "wrong_formula_rejected": 3
+  }
+}

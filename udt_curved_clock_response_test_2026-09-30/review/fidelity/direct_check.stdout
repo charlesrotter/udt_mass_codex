@@ -1,0 +1,140 @@
+{
+  "status": "PASS",
+  "python": "3.10.12",
+  "sympy": "1.13.1",
+  "identities": [
+    "integrating factor original ODE",
+    "strict mean sign derivative",
+    "conformal proper arrival baseline",
+    "conformal moving arrival",
+    "conformal curved clock contrast derivative",
+    "cosmic time curvature crosscheck"
+  ],
+  "wrong_formulas_rejected": [
+    {
+      "name": "wrong integrating factor sign",
+      "nonzero_difference": "-1 + exp(2) + 2*E*sqrt(pi)*erfi(1)"
+    },
+    {
+      "name": "freezing curved receiver event",
+      "nonzero_difference": "1"
+    },
+    {
+      "name": "curved diagnostic is flat",
+      "nonzero_difference": "H**2*exp(2*H*t)"
+    }
+  ],
+  "pin_checks": [
+    {
+      "freeze": "CHECK_FREEZE.json",
+      "path": "udt_curved_clock_response_test_2026-09-30/WORK_ORDER.md",
+      "sha256": "686fc3facc23f8f171deb4b80f31d990b3316438bcc561e50ba3f465e7ff008d"
+    },
+    {
+      "freeze": "CHECK_FREEZE.json",
+      "path": "udt_curved_clock_response_test_2026-09-30/INITIAL_CANDIDATE.md",
+      "sha256": "85dac5def7eae63e5682a2615a55d8d66705d44cefaeddd02082926248e59c9e"
+    },
+    {
+      "freeze": "CHECK_FREEZE.json",
+      "path": "udt_curved_clock_response_test_2026-09-30/checks/CHECK_PLAN.md",
+      "sha256": "34349ae7405c18547cb1c2398df866802cacbbdb9d80ad0c9c126e719f9029e9"
+    },
+    {
+      "freeze": "CHECK_FREEZE.json",
+      "path": "udt_curved_clock_response_test_2026-09-30/checks/check_curved.py",
+      "sha256": "a10ac3f841ff46d8daf8aebc86f1b9aa1c71aec2823de5acaa03f9d70d997495"
+    },
+    {
+      "freeze": "CANDIDATE_FREEZE.json",
+      "path": "udt_curved_clock_response_test_2026-09-30/WORK_ORDER.md",
+      "sha256": "686fc3facc23f8f171deb4b80f31d990b3316438bcc561e50ba3f465e7ff008d"
+    },
+    {
+      "freeze": "CANDIDATE_FREEZE.json",
+      "path": "udt_curved_clock_response_test_2026-09-30/INITIAL_CANDIDATE.md",
+      "sha256": "85dac5def7eae63e5682a2615a55d8d66705d44cefaeddd02082926248e59c9e"
+    },
+    {
+      "freeze": "CANDIDATE_FREEZE.json",
+      "path": "udt_curved_clock_response_test_2026-09-30/CHECK_FREEZE.json",
+      "sha256": "32d0fd4188f7e9fcb16606ff0882bd3ff6b5ecc8e25ba595f34f043191965136"
+    },
+    {
+      "freeze": "CANDIDATE_FREEZE.json",
+      "path": "udt_curved_clock_response_test_2026-09-30/checks/CHECK_PLAN.md",
+      "sha256": "34349ae7405c18547cb1c2398df866802cacbbdb9d80ad0c9c126e719f9029e9"
+    },
+    {
+      "freeze": "CANDIDATE_FREEZE.json",
+      "path": "udt_curved_clock_response_test_2026-09-30/checks/check_curved.py",
+      "sha256": "a10ac3f841ff46d8daf8aebc86f1b9aa1c71aec2823de5acaa03f9d70d997495"
+    },
+    {
+      "freeze": "CANDIDATE_FREEZE.json",
+      "path": "udt_curved_clock_response_test_2026-09-30/checks/curved_result.json",
+      "sha256": "e3ed09661553ef156b158ad27153a8602491835c5872dbd841d21522132f62d0"
+    },
+    {
+      "freeze": "CANDIDATE_FREEZE.json",
+      "path": "udt_curved_clock_response_test_2026-09-30/checks/curved.json",
+      "sha256": "5604a5ea8bf0a4e3fceefb4aff3e5c333546f8c2dffd916cd4aff50dee953a5f"
+    },
+    {
+      "freeze": "CANDIDATE_FREEZE.json",
+      "path": "udt_curved_clock_response_test_2026-09-30/checks/curved.stdout",
+      "sha256": "e3ed09661553ef156b158ad27153a8602491835c5872dbd841d21522132f62d0"
+    },
+    {
+      "freeze": "CANDIDATE_FREEZE.json",
+      "path": "udt_curved_clock_response_test_2026-09-30/checks/curved.stderr",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "freeze": "CANDIDATE_FREEZE.json",
+      "path": "udt_curved_clock_response_test_2026-09-30/checks/curved.capture_provenance.json",
+      "sha256": "c507d1f16739e5beb83fb5312924aaed884ce3504c95ee4be9f567f78dc90e60"
+    },
+    {
+      "freeze": "review/fidelity/SOURCE_FIRST_SEAL.json",
+      "path": "udt_curved_clock_response_test_2026-09-30/review/fidelity/CHECK_PLAN.md",
+      "sha256": "df9ee47d1de69012ddacee0c80d520ea94f4ab75813bcbc93388e68d6545ceb8"
+    },
+    {
+      "freeze": "review/fidelity/SOURCE_FIRST_SEAL.json",
+      "path": "udt_curved_clock_response_test_2026-09-30/review/fidelity/SOURCE_FIRST.md",
+      "sha256": "d64b3e13f18c07b83718836a84c87bafe213e25f40d56d570c2cb85d2de55b1c"
+    },
+    {
+      "freeze": "review/fidelity/SOURCE_FIRST_SEAL.json",
+      "path": "udt_curved_clock_response_test_2026-09-30/review/fidelity/SOURCE_PINS.json",
+      "sha256": "c92e6ca7d4ec7dd2bacf324d55d8877be3ba9cdc692350b93ba73622ab4733cd"
+    },
+    {
+      "freeze": "review/fidelity/SOURCE_FIRST_SEAL.json",
+      "path": "udt_curved_clock_response_test_2026-09-30/review/fidelity/source_first_check.json",
+      "sha256": "10914eceb8a8c38a8ad3790cd4d3e1923568a556dda0c782cb0dca20f843bc25"
+    },
+    {
+      "freeze": "review/fidelity/SOURCE_FIRST_SEAL.json",
+      "path": "udt_curved_clock_response_test_2026-09-30/review/fidelity/source_first_check.stderr",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "freeze": "review/fidelity/SOURCE_FIRST_SEAL.json",
+      "path": "udt_curved_clock_response_test_2026-09-30/review/fidelity/source_first_check.stdout",
+      "sha256": "aedf3608a6feaa4a9bba9b61ab2893ebdee326cbb9542ef53ad539399597098f"
+    },
+    {
+      "freeze": "review/fidelity/SOURCE_FIRST_SEAL.json",
+      "path": "udt_curved_clock_response_test_2026-09-30/review/fidelity/source_first_checks.py",
+      "sha256": "318c43e6dad7fbd9f17dec0febcdc7ceb4c1c5af15356b47edbcece4a316a8f3"
+    }
+  ],
+  "producer_saved_record_verified": {
+    "identities": 14,
+    "rejected_nonidentities": 6,
+    "returncode": 0
+  },
+  "scope": "Post-exposure independent algebra; source-first review is separately sealed. Curved auxiliary clocks are not CES1 or a selected UDT solution."
+}

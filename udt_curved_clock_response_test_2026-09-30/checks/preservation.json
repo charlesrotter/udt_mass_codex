@@ -1,0 +1,23 @@
+{
+  "utc": "2026-09-30T17:17:41.814827+00:00",
+  "status": "PASS",
+  "frozen_hashes": 191,
+  "changed_previous_paths": [
+    "CURRENT_RESEARCH_PROGRAM.md",
+    "HANDOFF.md",
+    "LIVE.md",
+    "UDT_DEVELOPMENT.md",
+    "UDT_RESEARCH_ROADMAP.md",
+    "development_reconstruction_2026-09-29/DEVELOPMENT_GRAPH.json",
+    "development_reconstruction_2026-09-29/RECENT_DISPOSITIONS.tsv",
+    "development_reconstruction_2026-09-29/checks/test_maintenance.py"
+  ],
+  "unchanged_source_controls": [
+    "CURRENT_SCIENTIFIC_PREMISES.tsv",
+    "CANON.md",
+    "founding.md"
+  ],
+  "unrelated_names_only_preserved": 52,
+  "protected_payloads_read_or_hashed": false,
+  "scope": "Post-binding byte/provenance preservation, not mathematical or scientific proof. Git remote refetch earlier this turn gave0/0 divergence."
+}

@@ -1,0 +1,20 @@
+{
+  "created_utc": "2026-09-30T16:58:33.135925+00:00",
+  "reviewer": "/root/ccr_math",
+  "stage": "direct candidate/code review after source-first seal",
+  "all_frozen_inputs_match": true,
+  "pins": {
+    "udt_curved_clock_response_test_2026-09-30/WORK_ORDER.md": "686fc3facc23f8f171deb4b80f31d990b3316438bcc561e50ba3f465e7ff008d",
+    "udt_curved_clock_response_test_2026-09-30/INITIAL_CANDIDATE.md": "85dac5def7eae63e5682a2615a55d8d66705d44cefaeddd02082926248e59c9e",
+    "udt_curved_clock_response_test_2026-09-30/CHECK_FREEZE.json": "32d0fd4188f7e9fcb16606ff0882bd3ff6b5ecc8e25ba595f34f043191965136",
+    "udt_curved_clock_response_test_2026-09-30/checks/CHECK_PLAN.md": "34349ae7405c18547cb1c2398df866802cacbbdb9d80ad0c9c126e719f9029e9",
+    "udt_curved_clock_response_test_2026-09-30/checks/check_curved.py": "a10ac3f841ff46d8daf8aebc86f1b9aa1c71aec2823de5acaa03f9d70d997495",
+    "udt_curved_clock_response_test_2026-09-30/checks/curved_result.json": "e3ed09661553ef156b158ad27153a8602491835c5872dbd841d21522132f62d0",
+    "udt_curved_clock_response_test_2026-09-30/checks/curved.json": "5604a5ea8bf0a4e3fceefb4aff3e5c333546f8c2dffd916cd4aff50dee953a5f",
+    "udt_curved_clock_response_test_2026-09-30/checks/curved.stdout": "e3ed09661553ef156b158ad27153a8602491835c5872dbd841d21522132f62d0",
+    "udt_curved_clock_response_test_2026-09-30/checks/curved.stderr": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "udt_curved_clock_response_test_2026-09-30/checks/curved.capture_provenance.json": "c507d1f16739e5beb83fb5312924aaed884ce3504c95ee4be9f567f78dc90e60",
+    "udt_curved_clock_response_test_2026-09-30/CANDIDATE_FREEZE.json": "b2a8d41820281e8368e46fce273541e596a857516f326e258a355933a038186f"
+  },
+  "other_reviewer": "not read"
+}

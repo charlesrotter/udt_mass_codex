@@ -1,0 +1,99 @@
+{
+  "scope": "source-first algebra anchors; analytic hypotheses and proof in SOURCE_FIRST.md",
+  "python": "3.10.12 (main, Aug 31 2026, 10:18:17) [GCC 11.4.0]",
+  "sympy": "1.13.1",
+  "platform": "Linux-6.8.0-138-generic-x86_64-with-glibc2.35",
+  "checks": [
+    {
+      "name": "reciprocal_trace",
+      "type": "exact_identity",
+      "residual": "0"
+    },
+    {
+      "name": "null_normalization",
+      "type": "exact_identity",
+      "residual": "0"
+    },
+    {
+      "name": "null_contraction",
+      "type": "exact_identity",
+      "residual": "0"
+    },
+    {
+      "name": "finite_determinant",
+      "type": "exact_identity",
+      "residual": "0"
+    },
+    {
+      "name": "finite_family_tangent",
+      "type": "exact_identity",
+      "residual": "0"
+    },
+    {
+      "name": "normalized_beta_control",
+      "type": "exact_identity",
+      "residual": "0"
+    },
+    {
+      "name": "realized_delay_control",
+      "type": "exact_identity",
+      "residual": "0"
+    },
+    {
+      "name": "affine_scaling_cancellation",
+      "type": "exact_identity",
+      "residual": "0"
+    },
+    {
+      "name": "reject_missing_affine_factor",
+      "type": "wrong_formula_rejected",
+      "difference": "Z*(c - 1)*F(s)/c"
+    },
+    {
+      "name": "full_arrival_derivative",
+      "type": "exact_identity",
+      "residual": "0"
+    },
+    {
+      "name": "reject_frozen_redshift",
+      "type": "wrong_formula_rejected",
+      "difference": "(s**2 + s + 1)/(s + 1)"
+    },
+    {
+      "name": "reject_frozen_arrival_event",
+      "type": "wrong_formula_rejected",
+      "difference": "(3*s**2 + 4*s + 2)/(s + 1)"
+    },
+    {
+      "name": "reject_omitted_direction_motion",
+      "type": "wrong_formula_rejected",
+      "difference": "4*s**4"
+    },
+    {
+      "name": "weighted_necessary_condition",
+      "type": "exact_identity",
+      "residual": "0"
+    },
+    {
+      "name": "reject_omitted_weight_derivative",
+      "type": "wrong_formula_rejected",
+      "difference": "3/7"
+    },
+    {
+      "name": "positive_delay_derivative",
+      "type": "exact_identity",
+      "residual": "0"
+    },
+    {
+      "name": "positive_readout_sign",
+      "type": "exact_sign",
+      "value": "6 - 3*exp(2)/4"
+    }
+  ],
+  "counts": {
+    "exact_identity": 11,
+    "exact_sign": 1,
+    "wrong_formula_rejected": 5
+  },
+  "all_passed": true
+}

@@ -112,6 +112,18 @@ class Maintenance(unittest.TestCase):
         self.rejects({p:(ROOT/p).read_text()+'\nTEST'},'REVIEW_REQUIRED.*affected=')
     def test_ces_proposal_context_cannot_replace_hypothesis(self):
         self.rejects(self.graph_change(lambda g:g['edges'].append({'from':'O_PCW_PROPOSALS','to':'R18E','kind':'hypothesis'})),'open join promoted')
+    def test_ccr_necessary_condition_requires_regular_tube_protocol(self):
+        self.rejects(self.graph_change(lambda g:g['edges'].remove({'from':'C_CCR_TUBE','to':'R18T','kind':'hypothesis'})),'missing required hypothesis')
+    def test_ccr_obstruction_requires_strict_mean_sign(self):
+        self.rejects(self.graph_change(lambda g:g['edges'].remove({'from':'C_CCR_SIGN','to':'R18C','kind':'hypothesis'})),'missing required hypothesis')
+    def test_ccr_universal_exclusion_requires_extra_quantifier(self):
+        self.rejects(self.graph_change(lambda g:g['edges'].remove({'from':'C_CCR_UNIVERSAL','to':'R18U','kind':'hypothesis'})),'missing required hypothesis')
+    def test_ccr_precision_source_routes_its_positive_and_negative_uses(self):
+        p='udt_curved_clock_response_test_2026-09-30/REPAIR.md'
+        impact=set(v.affected_nodes(self.graph,[p]))
+        self.assertTrue({'R18T','R18C','R18U','R18'}<=impact)
+        self.assertFalse({'R6','R9','R10'} & impact)
+        self.rejects({p:(ROOT/p).read_text()+'\nTEST'},'REVIEW_REQUIRED.*affected=')
     def test_gca_conservation_comparison_is_conditional(self):
         self.rejects(self.graph_change(lambda g:g['edges'].remove({'from':'C_GCA_COMPARISON','to':'R17C','kind':'hypothesis'})),'missing required hypothesis')
     def test_gca_lovelock_requires_its_full_domain(self):

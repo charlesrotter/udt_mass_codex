@@ -1,0 +1,48 @@
+{
+  "sealed_utc": "2026-09-30T17:02:59.909904+00:00",
+  "reviewer": "/root/ccr_math",
+  "stage": "actual direct review after source-first seal",
+  "verdict": "VERIFIED-WITH-CAVEATS conditional on explicit full-rank tube and precise reduced/supplemental-check descriptions before final integration",
+  "science_repair": "none required; no equations, preparations, measures or premises changed",
+  "required_precision_repairs": [
+    "full-rank smooth embedded tube with smooth inverse on neighborhood of buffered compact support",
+    "preserve and correctly label original reduced conformal interception check; attribute supplemental actual null/integral check with polynomial/diagnostic limits"
+  ],
+  "checks": {
+    "exact_identity": 14,
+    "wrong_formula_rejected": 3
+  },
+  "receipt": {
+    "command": [
+      "python3",
+      "udt_curved_clock_response_test_2026-09-30/review/math/direct_checks.py"
+    ],
+    "cwd": "/home/udt-admin/udt_mass_codex",
+    "started_utc": "2026-09-30T17:00:39.310015+00:00",
+    "duration_seconds": 0.37218846200266853,
+    "returncode": 0,
+    "timeout": false,
+    "address_space_bytes": 536870912,
+    "cpu_seconds": 60,
+    "maxrss_kib": 49216
+  },
+  "pins": {
+    "CHECK_FREEZE.json": "19c18672d6fb994f2074f0eed8d7a51b47dad93d8cb694b728af3374201176ad",
+    "DIRECT_CHECK_FREEZE.json": "339b8e6ddb321939d7ad5938aa1b8de5d74d1c7f90438a9e5126fe6654167edf",
+    "DIRECT_INPUT_PINS.json": "6057e1a7b98d4f4b799642f84d0f6273233049d7f6c79893d74b8ee566eb45d1",
+    "DIRECT_REVIEW.md": "4797a8197e489d294fbb44ce2de35358e8fa29e43f5e7db6c269dfec2330551d",
+    "SOURCE_FIRST.md": "0094875791161daef76f141e7db7ef5d0097ccde5cfe65735cd7aba76e18cb08",
+    "SOURCE_FIRST_SEAL.json": "2bb601cc652e98419a47369ce0018a0a3da60b297e27b65cfe2c50e273d635c0",
+    "SOURCE_PINS.json": "afc75f671309ea1ff04197a72d86283e293f98b51e6574d4e4f674a9e364ff31",
+    "direct_check.capture_provenance.json": "6ea0e67dd71e394f3f1c41c8bdaa00f05cbb4e665cf7e4888063b09649f31178",
+    "direct_check.json": "7f4a54dc7937a04be233702df9d889e58a9ec107eab26ed374f624e11e001b7b",
+    "direct_check.stderr": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "direct_check.stdout": "8106e625431a1025a494c672ce78871f94f8d7544aa12900a78db08e711bf9e4",
+    "direct_checks.py": "393cb3d52d661fe17e74c5102dc30ed10e07b1669b84ab293c8f07dfc60e647d",
+    "independent_checks.py": "32da712d0e6956591007d599fe03b5340aa4cb8d14b19703962177ccc17f9ae5",
+    "source_first_check.capture_provenance.json": "2ca1d3bbe2c20e289620776f5c1f15180da4cbfa9f0bcfbd7fb537c5ab228372",
+    "source_first_check.json": "c447e10f0735c35205fdf4b2b68a5f6abc8d3bc32874ccf55e40733680e35f28",
+    "source_first_check.stderr": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "source_first_check.stdout": "d47fdd85b04f0e24007412e7c301e66bd9da0692b6817d12af6b18d2a5a31371"
+  }
+}

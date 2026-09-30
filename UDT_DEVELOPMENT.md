@@ -1,7 +1,7 @@
 # UDT — continuous scientific development
 
 <!-- DEVELOPMENT_ORIENTATION_BEGIN -->
-**Continuous development — CDR1 with SGE1, LKT1, GCA1, PCW1 and CES1, 2026-09-30.** This is the maintained
+**Continuous development — CDR1 with SGE1, LKT1, GCA1, PCW1, CES1 and CCR1, 2026-09-30.** This is the maintained
 scientific development. It is not canon or a new scientific-grade authority.
 The exact registry and reviewed sources own grades; LIVE owns operational status.
 Current review bindings and limits are recorded in section9; startup reads the
@@ -41,11 +41,14 @@ PCW1 adds explicit unadopted physical connections in R18: clock-ensemble
 response, radiation-defined comparison clocks, and quantum vacuum response.
 Two stronger shortcuts fail their stated diagnostic tests. These proposals do
 not add accepted dependencies or supply the missing positional prediction.
-CES1 tests L1 with a covariantly prepared receding-clock ensemble. Its squared
-log-clock contrast has a nonzero first variation at Minkowski under a compact
-reciprocal strain. This fails that ensemble's exact flat-stationarity benchmark;
-it does not refute ordinary local SR, other ensembles or UDT. The response law
-remains UNADOPTED, and locality was not established or tested beyond that stop.
+CES1's exact-flat test was a diagnostic of the proposed clock score, not a UDT
+requirement. CCR1 now derives a curved-background obstruction: that unchanged
+score cannot be stationary for a regular common-emitter ensemble whose mean
+log-clock contrast stays strictly positive. Ordinary small receding-clock labs
+enter this sector even in curved spacetime. Applying the law to every such lab
+is an additional quantifier, not silently imposed on one fixed population.
+The score/response identification remains UNADOPTED; no native field equation,
+all-ensemble exclusion, empirical GR failure or UDT refutation follows.
 <!-- DEVELOPMENT_ORIENTATION_END -->
 
 ## 1. How this development is owned
@@ -1302,7 +1305,7 @@ UDT requirement. Physical justification and local dependence remain separate.
 
 <a id="r18e"></a>
 
-**CES1: the physical preparation still fails exact flat stationarity.** Fix a
+**CES1: exact-flat diagnostic for physically prepared clocks.** Fix a
 laboratory event p and unit frame, an emitter geodesic from p, and receivers
 prepared at exp_p(Ln). Parallel transport the frame along that initial spatial
 geodesic and launch each receiver with physical rapidity η>0 in direction n.
@@ -1347,10 +1350,82 @@ ordinary local SR. Other ensembles, controlled GR recovery and UDT viability
 are not decided. The full functional under variations changing the laboratory
 frame at p would require its continuation rule; this witness avoids that open
 completion by leaving the metric near p fixed. No smooth volume response or
-finite-jet locality theorem is inferred, and locality work stops here under the
-work order. The native physical measure and response identification remain open.
+finite-jet locality theorem is inferred. Locality work stopped at CES1's declared
+return; Charles subsequently authorized the curved-geometry investigation below.
+The native physical measure and response identification remain open.
 [Frozen preparation and proof](udt_clock_ensemble_stationarity_test_2026-09-30/INITIAL_CANDIDATE.md),
 [reviewed scope](udt_clock_ensemble_stationarity_test_2026-09-30/REVIEWED_RESULT.md).
+
+<a id="r18t"></a>
+
+**CCR1: a necessary condition on curved geometry.** Retain L1's score and CES1's
+physical preparation with fixed product labels dμ=w(s)ds dν(ξ), where ξ names
+the receiver, s is emitter proper time and w has compact support. Let the smooth
+proper arrival map be A(s,ξ), Z=A_s>0 and D=log Z. Require a common emission tube
+with smooth coordinates (s,r,θ): the map has rank4 and a smooth inverse onto its
+image, each query ray crosses the supported shell once, and its closure misses
+preparation and clock histories. These are explicit sector hypotheses, not a
+claim about all global or strongly lensed ensembles. No spherical metric is imposed.
+
+Normalize the outgoing affine tangent K at emission by −g(K,u_e)=1, parallel
+transport u_e to u along it, and put n=K−u. Then K=u+n and H(K,K)=4 for the
+existing reciprocal tangent H. For any compact smooth α(s), choose a normalized
+affine-radius bump ρ(r) and h=(αρ/2)H. It is a genuine compact metric strain,
+realized by the reciprocal exponential metric block. Support and geodesic
+uniqueness preserve physical preparation, worldlines and proper rates. With
+FCV1's endpoint-normalized k=cK, its integral is I=cα=ω_eα. Thus
+\[
+ \delta A=Z\alpha,\qquad \delta D=\alpha'+D_s\alpha.
+\]
+The clock-drift term remains even on a time-dependent curved background. Actual
+emission labels are fixed; this is not a passive relabelling. The tube's direction
+θ need not equal the receiver's initial direction, and no independent variation
+of every query is assumed. Fixed label weights carry their physical-image motion
+through Q_g; no spacetime-volume Jacobian is silently omitted. With
+M=∫D dν and J=∫D D_s dν, compact regularity gives
+\[
+ \delta C=\int w(M\alpha'+J\alpha)ds,
+ \qquad (wM)'=wJ
+\]
+as a necessary distributional condition for all-strain stationarity. The weight
+derivative matters. This subset of tests does not supply a sufficient field law.
+
+<a id="r18c"></a>
+
+**Strict-sign mean obstruction.** If M stays away from zero with one sign on a
+buffered interval containing the emission-weight support, solve
+α_0'+(J/M)α_0=1 there and smoothly cut it off outside the scored region. This
+admissible strain gives δC=∫wM ds≠0. Therefore no geometry in this regular sector
+with that mean-sign property is stationary for the proposed score. In particular,
+uniform positive received slowing D>0 cannot be repaired merely by allowing
+curvature. No exact-flat benchmark, fitted metric or Einstein equation enters
+this proof. Mixed-sign means that cross zero remain unclassified; passing the
+displayed necessary condition would still not prove full stationarity.
+
+<a id="r18u"></a>
+
+**Small curved laboratories and the extra universal quantifier.** In any fixed
+smooth metric, scale a fixed CES1 laboratory template by ℓ at an event, retaining
+its positive rapidities and normalized template weights. Normal coordinates give
+g_ℓ(y)=g(ℓy), with g_0 Minkowski and ∂_ℓg_ℓ|_0=0. Uniform regular geodesic and
+arrival dependence gives D_ℓ=η+O(ℓ²)>0 for sufficiently small ℓ; the constant and
+domain depend on the fixed metric/template bounds. Buffered regular tubes persist.
+This is a controlled local limit, not global flatness or a numerical solar-system
+precision claim. Such labs therefore violate the proposed score's stationarity
+even inside curved spacetime. **Only if** a law requires stationarity for every
+such lab does this exclude its universal implementation on smooth geometry.
+One fixed physical or cosmic population cannot be replaced by all these different
+experiments. It has not been selected, constructed or excluded in general here.
+
+CCR1 supplies a stronger objection to this particular score/response connection
+than CES1's optional flat diagnostic. It preserves ordinary local clocks and
+the founding positional interpretation. No appropriate stationary curved solution,
+native response, empirical recovery, scale or positional curve has been derived.
+Changing the score, population or permitted variations would be a new proposal,
+not an unlabeled repair. [Initial proof](udt_curved_clock_response_test_2026-09-30/INITIAL_CANDIDATE.md),
+[controlling precision repair](udt_curved_clock_response_test_2026-09-30/REPAIR.md)
+and [reviewed scope](udt_curved_clock_response_test_2026-09-30/REVIEWED_RESULT.md)
+preserve the source-relative claim and remaining limits.
 
 **Radiation-defined clocks (C1), secondary identification.** Add a conventional
 collisionless massless population f=F(ω/Θ), ω=−g(U,k), Θ>0, with a finite
@@ -1400,7 +1475,8 @@ leading QED tidal correction on a Ricci-flat screen. This is a theoretical
 comparison, not an empirical exclusion of UDT. Low-frequency phase propagation
 and the causal front are distinct; the calculation selects no native geometry.
 
-The recommended L1 protocol test has returned CES1's scoped adverse result.
+The L1 investigation has returned CES1's diagnostic and CCR1's curved-sector
+obstruction, with their physical assumptions and uncovered populations explicit.
 C1 remains an optional physical observer-assignment interface and M1 remains
 deferred pending an explicit state/locality question. No proposal is adopted, and no successor
 campaign begins automatically. The microscopic tests constrain these particular
@@ -1410,7 +1486,7 @@ founding premises are insufficient.
 Retained branches and omissions are explicit below. These results are useful;
 their original full proofs, repairs, qualifications and grades remain at source.
 CDR1 does not claim to rederive all of them. The [406-row disposition ledger](development_reconstruction_2026-09-29/CLAIM_DISPOSITIONS.tsv)
-and [30 later returns](development_reconstruction_2026-09-29/RECENT_DISPOSITIONS.tsv)
+and [31 later returns](development_reconstruction_2026-09-29/RECENT_DISPOSITIONS.tsv)
 identify exact sources and reconstruction depth.
 
 | Retained work | Gain and limit |
@@ -1443,7 +1519,7 @@ it does not merely add another disconnected report.
 
 This is an18-result central reconstruction with actual core calculations,
 standard-method applications and explicitly retained source branches. All406
-registered rows have an editorial disposition;30 relevant later returns
+registered rows have an editorial disposition;31 relevant later returns
 are separately mapped. It does not claim to re-prove every historical result.
 Existence/MGHD, full external invariant theory, detailed nonlinear asymptotics,
 the55-component optional analytic system, the eight signal packages, empirical
@@ -1511,6 +1587,17 @@ different-model/library and formal verification remain untested. The initial
 proof and preparation are preserved; the new adverse result is conditional,
 unpromoted and limited to its supplied preparation and diagnostic benchmark.
 
+CCR1 adds two fresh source-first/direct contexts and actual final integration
+review. Their [mathematical](udt_curved_clock_response_test_2026-09-30/review/math/DIRECT_REVIEW.md)
+and [fidelity](udt_curved_clock_response_test_2026-09-30/review/fidelity/DIRECT_REVIEW.md)
+reports audit the curved tube, clock drift, fixed measure, sign obstruction and
+separate universal-laboratory quantifier. One controlling precision repair makes
+the tube's full-rank coordinate requirement explicit and distinguishes the
+producer's reduced curved algebra check from the independent original-null-ODE
+and explicit-integral check. Initial artifacts remain unchanged. Contexts and
+implementations are separate; model and symbolic library are shared. No human,
+formal, different-model/library, empirical or full-corpus reproof is claimed.
+
 The preserved first candidates expose the repair history. The [source correction](development_reconstruction_2026-09-29/SOURCE_CORRECTIONS.md)
 fixes a real covector-basis sign in G310; the central nine-direction span and
 annihilator survive. The original file remains authentic. Further repairs make
@@ -1537,4 +1624,5 @@ stage completion, final source/check pins and all remaining omissions belong to
 [LKT1 work record](udt_lorentz_kernel_transport_2026-09-29/WORK_RECORD.md) and
 [GCA1 work record](udt_gr_commitment_audit_2026-09-29/WORK_RECORD.md) and
 [PCW1 work record](udt_physical_connection_whiteboard_2026-09-30/WORK_RECORD.md) and
-[CES1 work record](udt_clock_ensemble_stationarity_test_2026-09-30/WORK_RECORD.md).
+[CES1 work record](udt_clock_ensemble_stationarity_test_2026-09-30/WORK_RECORD.md) and
+[CCR1 work record](udt_curved_clock_response_test_2026-09-30/WORK_RECORD.md).

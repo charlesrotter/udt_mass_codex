@@ -1,0 +1,24 @@
+{
+  "created_utc": "2026-09-30T17:13:30.305401+00:00",
+  "scope": "Final integration bytes, retained128 binding comparison, typed routing and matching44 guard tests",
+  "freeze_sha256": "b6ad3eda8873cf46f69b42d04b3963e8a326a2cdfd1d501914fb67ac4bfce4af",
+  "script_sha256": "fe71ccfa15e22e035e56862d62f0f586a2c78c65473a4a073da5188a2632da35",
+  "limits": {
+    "seconds_each": 60,
+    "mib_each": 512,
+    "threads_each": 1
+  },
+  "commands": [
+    [
+      "python3",
+      "-B",
+      "udt_curved_clock_response_test_2026-09-30/review/math/final_validation.py"
+    ],
+    [
+      "python3",
+      "-B",
+      "development_reconstruction_2026-09-29/checks/test_maintenance.py"
+    ]
+  ],
+  "omission": "Full406 audit and final normal-bound guard are parent gates"
+}

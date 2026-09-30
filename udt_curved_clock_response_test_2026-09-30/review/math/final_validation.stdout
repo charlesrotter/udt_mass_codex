@@ -1,0 +1,37 @@
+{
+  "status": "PASS",
+  "freeze_sha256": "b6ad3eda8873cf46f69b42d04b3963e8a326a2cdfd1d501914fb67ac4bfce4af",
+  "all_hashes_matched": 191,
+  "prior_bindings_retained": 128,
+  "changed_previous_paths": [
+    "CURRENT_RESEARCH_PROGRAM.md",
+    "HANDOFF.md",
+    "LIVE.md",
+    "UDT_DEVELOPMENT.md",
+    "UDT_RESEARCH_ROADMAP.md",
+    "development_reconstruction_2026-09-29/DEVELOPMENT_GRAPH.json",
+    "development_reconstruction_2026-09-29/RECENT_DISPOSITIONS.tsv",
+    "development_reconstruction_2026-09-29/checks/test_maintenance.py"
+  ],
+  "unchanged_prior_paths": 120,
+  "new_bindings": 63,
+  "draft": {
+    "status": "DRAFT_COHERENCE_ONLY",
+    "registry_rows": 406,
+    "later_returns": 31,
+    "central_arguments": 18,
+    "source_pins": 87,
+    "scope": "Version, routing and bounded regression checks; not semantic completeness, canon or full-corpus reproof."
+  },
+  "normal_prebinding_expected": "changed reviewed file; REVIEW_REQUIRED: CURRENT_RESEARCH_PROGRAM.md",
+  "repair_affected": [
+    "C_CCR_SIGN",
+    "C_CCR_TUBE",
+    "C_CCR_UNIVERSAL",
+    "R18",
+    "R18C",
+    "R18T",
+    "R18U"
+  ],
+  "scope": "Byte identity, dependency routing and prebinding regression only; semantic conclusion in FINAL_REVIEW.md; no full406 banking audit"
+}
