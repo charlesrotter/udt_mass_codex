@@ -1,0 +1,13 @@
+{
+  "role": "source-exposed peer challenge, not independent final acceptance",
+  "cross_challenge_sha256": "9cffc76f59b2eace8688cd82fe75a74870efbb06ce4fabd69fc82b9fe6c30af9",
+  "inputs": {
+    "udt_physical_connection_whiteboard_2026-09-30/proposals/micro/INITIAL_PROPOSAL.md": "bf2dedcb7bd4c0e29db01b73cc860e509dc830b3835583366075b53e592d4576",
+    "udt_physical_connection_whiteboard_2026-09-30/proposals/micro/REFERENCES.md": "555d8b669eb686eea722dda834c36f017c1bd295924e43482555199cd33f4642"
+  },
+  "external_sources": [
+    "https://arxiv.org/pdf/0905.0771",
+    "https://arxiv.org/pdf/gr-qc/0604051"
+  ],
+  "external_scope": "HSS introduction/Eq2.18 directly opened; Eq7.31 pointer from author exchange, not independently replayed. MV Eq4.12-4.15 directly opened."
+}

@@ -1,0 +1,16 @@
+{
+  "status": "PASS",
+  "accepted_file_count": 100,
+  "candidate_file_count": 40,
+  "freeze_sha256": "584f145bcc9c3bdde8fc9ec4fa271eff85aff4bfb10142db709d3779b63de248",
+  "intermediate_central_sha256": "45556024bf38e9c2c21d1001fd71c9b831af22eddddf1600d88a79a0b1da96a2",
+  "checks": [
+    "all accepted bytes",
+    "unchanged original candidate",
+    "generated program equality",
+    "open-join-only edge",
+    "repair routes to proposal and R18 only",
+    "launch/intermediate reconstruction"
+  ],
+  "scope": "correspondence and shared-verifier regression, not full scientific reproof"
+}

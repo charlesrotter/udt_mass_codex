@@ -1,0 +1,18 @@
+{
+  "status": "PASS",
+  "accepted_count": 101,
+  "changed_old_files": [
+    "HANDOFF.md"
+  ],
+  "added_files": [
+    "udt_physical_connection_whiteboard_2026-09-30/PACKAGING_REPAIR.md"
+  ],
+  "exact_handoff_change": {
+    "old": "Exact406 grades are unchanged;",
+    "new": "Exact406 grades in CURRENT_SCIENTIFIC_PREMISES.tsv are unchanged;"
+  },
+  "pointer_controls": 12,
+  "failed_full_audit_seconds": 405.64135825200356,
+  "current_freeze_sha256": "222f02ea28e741df9062e0b580a13833fb6b98824a3d208c4cb49dbefce2b10b",
+  "scope": "hash/pointer packaging only; full audit rerun remains pending"
+}

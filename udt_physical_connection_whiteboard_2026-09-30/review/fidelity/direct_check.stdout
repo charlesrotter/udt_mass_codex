@@ -1,0 +1,9 @@
+{
+  "kind": "independent exact symbolic original-ray control",
+  "domain": "0<v<1, small e with exp(2e)*v<1, b>0 and regular outward branch",
+  "checks": 4,
+  "log_derivative": "-2*v/(v**2 - 1)",
+  "sympy": "1.13.1",
+  "python": "3.10.12 (main, Aug 31 2026, 10:18:17) [GCC 11.4.0]",
+  "limits": "No ensemble or stationarity/locality theorem; no QFT or empirical check"
+}

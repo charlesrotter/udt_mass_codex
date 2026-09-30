@@ -1,0 +1,7 @@
+test_pcw_proposal_cannot_supply_response_hypothesis (__main__.Maintenance) ... ok
+test_pcw_source_routes_proposal_and_adverse_conclusions_only (__main__.Maintenance) ... ok
+
+----------------------------------------------------------------------
+Ran 2 tests in 0.016s
+
+OK

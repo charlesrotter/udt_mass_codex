@@ -1,0 +1,18 @@
+--- a/UDT_DEVELOPMENT.md
++++ b/UDT_DEVELOPMENT.md
+@@ -1208,6 +1208,15 @@
+ the response meant by the provisional balance, while conditional clock geometry
+ and possible relational/global routes retain their independent scopes.
+ 
++The subsequent discussion corrects a methodological overstatement: conditional
++model building, explicit geometries, response assumptions, counterexamples and GR
++comparisons have already been used. Calling the next task “model building” does
++not make its technique new. A substantive next step must name the particular
++physical relationship it tests, the closest prior attempt, and a calculation
++that could distinguish or reject it. The audit gains above clarify what follows
++from which premises; they do not themselves predict the additional positional
++effect. [Discussion and new whiteboard authorization](udt_physical_connection_whiteboard_2026-09-30/OWNER_DIRECTION.md).
++
+ The current physical development still needs the quantitative relation linking
+ UDT's intended positional geometry to actual observer-pair comparisons. Existing
+ premises may constrain that relation further than the routes so far examined;

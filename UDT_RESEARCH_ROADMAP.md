@@ -1,6 +1,6 @@
 # UDT research roadmap — current direction
 
-Updated 2026-09-29: GCA1 commitment audit after LKT1/SGE1/CDR1. This is a direction document, not scientific
+Updated 2026-09-30: PCW1 physical-connection whiteboard after GCA1/LKT1/SGE1/CDR1. This is a direction document, not scientific
 premise authority or research authorization. LIVE controls operational status;
 the exact registry and original reviewed sources control grades and scope.
 AGENTS controls method. Charles canonizes; CANON is unchanged.
@@ -12,16 +12,23 @@ This roadmap does not duplicate their detailed derivations or premise inventory.
 
 ## Current return and next discussion
 
-Charles asked which GR commitments could be explored provisionally without
-contaminating UDT's native development and authorized the recommendation to audit
-conservation and response-class assumptions. [GCA1's scope](udt_gr_commitment_audit_2026-09-29/WORK_ORDER.md)
-is now integrated in [central R10](UDT_DEVELOPMENT.md#r10) and
-[R17](UDT_DEVELOPMENT.md#r17), with the return boundary in R18.
-[Actual execution evidence](udt_gr_commitment_audit_2026-09-29/WORK_RECORD.md)
-records reviews, checks and the final banking gate. This direction record grants
-no new premise or automatic successor research. CDR1/SGE1/LKT1 remain completed
-history, their original scopes preserved. LIVE owns the operational return point;
-exact grades and CANON remain unchanged.
+Charles requested central upkeep and a whiteboard proposing specific physical
+connections in any regime, including possible microscopic consistency constraints.
+[His exact direction](udt_physical_connection_whiteboard_2026-09-30/OWNER_DIRECTION.md)
+and [bounded work order](udt_physical_connection_whiteboard_2026-09-30/WORK_ORDER.md)
+control PCW1's proposal/review scope. The proposed connections and return boundary
+are integrated in [central R18](UDT_DEVELOPMENT.md#r18p), rather than maintained
+as another scientific narrative here. The [work record](udt_physical_connection_whiteboard_2026-09-30/WORK_RECORD.md)
+records actual review, checks and banking. No proposed physical connection is
+adopted, and no successor campaign starts automatically. Previous audit and
+conditional returns keep their original scopes; exact grades and CANON do not change.
+
+The preceding discussion corrected the suggestion that “model building” would
+be a new technique. Conditional construction and counterexamples have already
+been used. A new campaign must identify the actual additional relationship,
+its closest previous attempt and a discriminating calculation. Whiteboard
+ranking is a judgment of research usefulness, not a prediction of success or a
+finding that the existing UDT premises are insufficient.
 
 Every next research proposal must name the central connection it advances and
 update that argument, its sources and affected positive/negative descendants.
@@ -253,7 +260,7 @@ Full branch limits and protected local-work instructions remain in LIVE/AGENTS.
 
 The [central retained-results account](UDT_DEVELOPMENT.md#r18) explains gains
 and open connections. The [later-return ledger](development_reconstruction_2026-09-29/RECENT_DISPOSITIONS.tsv)
-maps27 reviewed returns, including OFS1 through MGC1, SGE1 and LKT1, to exact sources and scopes.
+maps29 later returns, including GCA1 and the unadopted PCW1 proposals, to exact sources and scopes.
 Review those limits before proposing a successor. Earlier admitted mathematics
 remains available through its original banking records.
 

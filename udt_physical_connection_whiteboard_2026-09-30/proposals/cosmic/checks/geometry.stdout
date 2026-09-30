@@ -1,0 +1,36 @@
+{
+  "status": "PASS",
+  "evidence_type": "author exact symbolic diagnostic",
+  "python": "3.10.12",
+  "sympy": "1.13.1",
+  "metric_shape": [
+    4,
+    4
+  ],
+  "coordinate_order": [
+    "t",
+    "x",
+    "y",
+    "z"
+  ],
+  "checks": [
+    "CKV beta=A*partial_t",
+    "U geodesic",
+    "expansion=3A_prime/A",
+    "zero shear",
+    "affine radial null ray",
+    "A*omega conserved",
+    "scalar curvature difference",
+    "null Ricci difference"
+  ],
+  "scalar_curvature": "2*(-kappa**2 + 3*A(t)*Derivative(A(t), (t, 2)) + 3*Derivative(A(t), t)**2)/A(t)**2",
+  "null_Ricci": "(-kappa**2 - 2*A(t)*Derivative(A(t), (t, 2)) + 2*Derivative(A(t), t)**2)/A(t)**4",
+  "not_checked": [
+    "native admission",
+    "observational fit",
+    "global completion",
+    "Einstein equation",
+    "physical radiation identification",
+    "independent review"
+  ]
+}

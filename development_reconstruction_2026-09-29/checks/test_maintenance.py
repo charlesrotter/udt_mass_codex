@@ -92,6 +92,14 @@ class Maintenance(unittest.TestCase):
         self.rejects({p:(ROOT/p).read_text()+'\nTEST'},'REVIEW_REQUIRED.*affected=')
     def test_open_join_as_premise(self):
         self.rejects(self.graph_change(lambda g:g['edges'].append({'from':'O_ASSIGNMENT','to':'R1','kind':'proof'})),'open join promoted')
+    def test_pcw_proposal_cannot_supply_response_hypothesis(self):
+        self.rejects(self.graph_change(lambda g:g['edges'].append({'from':'O_PCW_PROPOSALS','to':'R9','kind':'hypothesis'})),'open join promoted')
+    def test_pcw_source_routes_proposal_and_adverse_conclusions_only(self):
+        p='udt_physical_connection_whiteboard_2026-09-30/REPAIR.md'
+        impact=set(v.affected_nodes(self.graph,[p]))
+        self.assertTrue({'O_PCW_PROPOSALS','R18'}<=impact)
+        self.assertNotIn('R9',impact)  # Existing DDR proof does not depend on proposed identification.
+        self.rejects({p:(ROOT/p).read_text()+'\nTEST'},'REVIEW_REQUIRED.*affected=')
     def test_gca_homothety_route_requires_its_class(self):
         self.rejects(self.graph_change(lambda g:g['edges'].remove({'from':'C_HOMOTHETY','to':'R10H','kind':'hypothesis'})),'missing required hypothesis')
     def test_gca_conservation_comparison_is_conditional(self):

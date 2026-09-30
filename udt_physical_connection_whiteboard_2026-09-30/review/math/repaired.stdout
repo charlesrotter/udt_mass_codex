@@ -1,0 +1,42 @@
+{
+  "status": "PASS",
+  "python": "3.10.12",
+  "sympy": "1.13.1",
+  "kind": "distinct reviewer reconstruction, exact symbolic comparison; not QFT",
+  "shapes": {
+    "metric": [
+      4,
+      4
+    ],
+    "Riemann": [
+      4,
+      4,
+      4,
+      4
+    ],
+    "screen": [
+      2,
+      2
+    ]
+  },
+  "flat_protocol_dD": "-2*v/(v**2 - 1)",
+  "flat_protocol_Z_squared": "(-v - 1)/(v - 1)",
+  "W_right_slope": "4*sqrt(3)",
+  "W_left_slope": "-4*sqrt(3)",
+  "Schwarzschild_orbit": {
+    "M": 1,
+    "r": 3,
+    "theta": "pi/2",
+    "affine_E": 1,
+    "Ricci": "Matrix([[0, 0, 0, 0], [0, 0, 0, 0], [0, 0, 0, 0], [0, 0, 0, 0]])",
+    "screen": "Matrix([[-1/3, 0], [0, 1/3]])",
+    "optical_bracket": "Matrix([[4/3, 0], [0, -4/3]])"
+  },
+  "omissions": [
+    "QFT loop calculation",
+    "physical state/ensemble selection",
+    "empirical tests",
+    "native solution admission",
+    "full covariance/global causality proof"
+  ]
+}

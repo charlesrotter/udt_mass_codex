@@ -1,0 +1,11 @@
+{
+  "context": "/root/pcw_local",
+  "kind": "peer cross-challenge, not final independent review",
+  "utc": "2026-09-30T13:43:15.186238+00:00",
+  "files": {
+    "udt_physical_connection_whiteboard_2026-09-30/proposals/local/INITIAL_PROPOSAL.md": "cedffe7b0358f2f9abdd9fd0f66e199cb3d517ff24f71bd777c212032c090325",
+    "udt_physical_connection_whiteboard_2026-09-30/proposals/local/CROSS_CHALLENGE.md": "e818963e539eb49dd3f4771a9a35886f6ef835440dbe66633a7bb5825b0af1f7",
+    "udt_physical_connection_whiteboard_2026-09-30/proposals/cosmic/INITIAL_PROPOSAL.md": "e9b19bafd8fabac821f8521577003ee4ca397f4a7d712dc5e7d4e8fca4ef89ca"
+  },
+  "computations": "analytic inspections only; no extra execution"
+}

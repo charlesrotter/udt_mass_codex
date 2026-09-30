@@ -1,0 +1,15 @@
+{
+  "command": [
+    "python3",
+    "-c",
+    "from pathlib import Path; import verify_current_scientific_premises as v; missing=[p for p in v.PREMISE_REGISTRY_CONTROLS if \"CURRENT_SCIENTIFIC_PREMISES.tsv\" not in Path(p).read_text()]; assert not missing,missing; print(\"PASS: existing registry-pointer predicate on\",len(v.PREMISE_REGISTRY_CONTROLS),\"controls\")"
+  ],
+  "cwd": "/home/udt-admin/udt_mass_codex",
+  "started_utc": "2026-09-30T14:04:25.043057+00:00",
+  "duration_seconds": 0.027545649994863197,
+  "returncode": 0,
+  "timeout": false,
+  "address_space_bytes": 536870912,
+  "cpu_seconds": 60,
+  "maxrss_kib": 16864
+}

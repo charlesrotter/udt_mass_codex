@@ -1,0 +1,16 @@
+{
+  "command": [
+    "python3",
+    "development_reconstruction_2026-09-29/checks/test_maintenance.py",
+    "Maintenance.test_pcw_proposal_cannot_supply_response_hypothesis",
+    "Maintenance.test_pcw_source_routes_proposal_and_adverse_conclusions_only"
+  ],
+  "cwd": "/home/udt-admin/udt_mass_codex",
+  "started_utc": "2026-09-30T13:54:06.232506+00:00",
+  "duration_seconds": 0.04807764801080339,
+  "returncode": 0,
+  "timeout": false,
+  "address_space_bytes": 536870912,
+  "cpu_seconds": 60,
+  "maxrss_kib": 24476
+}

@@ -1,0 +1,23 @@
+{
+  "python": "3.10.12",
+  "sympy": "1.13.1",
+  "kind": "author exact algebra diagnostics; not independent review",
+  "network_inverse_pair_contrast": "D**2",
+  "flat_fixed_coordinate_protocol_D_derivative": "-2*v/((v - 1)*(v + 1))",
+  "flat_comoving_first_variation": "0",
+  "flat_comoving_second_variation": "Q**2",
+  "timelike_hyperboloid_radial_volume": "-r/2 + sinh(2*r)/4",
+  "hyperboloid_total_volume": "infinite",
+  "tidal_modulus_positive_side": "4*sqrt(3)*eps_positive",
+  "tidal_modulus_right_derivative": "4*sqrt(3)",
+  "tidal_modulus_left_derivative": "-4*sqrt(3)",
+  "omissions": [
+    "full ensemble existence or smoothing",
+    "physical query measure",
+    "full action variation",
+    "plane-wave reconstruction",
+    "empirical recovery",
+    "field solution",
+    "independent review"
+  ]
+}

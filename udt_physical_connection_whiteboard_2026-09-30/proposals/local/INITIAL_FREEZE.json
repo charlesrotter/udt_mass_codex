@@ -1,0 +1,28 @@
+{
+  "context": "/root/pcw_local",
+  "role": "fresh proposer, not reviewer/adopter",
+  "model": "same inherited model; exact runtime identity unavailable",
+  "parent_startup": "attributed parent grok ef00adf90d0389711289e4baed38bf00a047fd6d synced successfully; full406 prior pass; baseline central validation pass",
+  "independent_environment_check": "git rev-parse HEAD and git status --short --branch checked before writing; protected payloads not read",
+  "exposure": "User/work-order context, parent novelty hints FE1/CGW1/GCA1 and L1 critique before initial freeze; no other lane proposals read",
+  "source_read_scope": "Central D1,R7,R8,R9,R10,R17,R18 excerpts; source reviewed returns; controlling FCV1 sections1-5,7; GRS1 sections3-4; LKT1 section3. No full historical proof or observational replay. One batch output truncated; GRS/RMS and controlling load-bearing sections reread separately.",
+  "check_scope": "Exact author SymPy diagnostics only, not independent proof or review",
+  "limits": {
+    "seconds": 60,
+    "mib": 512,
+    "threads": 1,
+    "gpu": false
+  },
+  "check_repair": "Initial hyperbolic antiderivative had an unevaluated/unsimplified infinite-limit assertion failure. Preserved failed script/stdout/stderr/capture. Replaced antiderivative by sinh(2r)/4-r/2 and verified derivative and origin, then limit passed. No scientific formula change.",
+  "not_claimed": [
+    "empirical GR recovery",
+    "well-defined ensemble response",
+    "locality",
+    "native scale",
+    "full action derivative",
+    "full406 rerun by proposer",
+    "separate-model independence"
+  ],
+  "frozen_utc": "2026-09-30T13:41:59.570315+00:00",
+  "initial_proposal_sha256": "cedffe7b0358f2f9abdd9fd0f66e199cb3d517ff24f71bd777c212032c090325"
+}

@@ -5,7 +5,7 @@ This bounded startup view is generated from its opening; edit that source.
 LIVE.md owns operational status; CURRENT_SCIENTIFIC_PREMISES.tsv owns exact grades.
 
 <!-- GENERATED_DEVELOPMENT_BEGIN -->
-**Continuous development — CDR1 with SGE1, LKT1 and GCA1, 2026-09-29.** This is the maintained
+**Continuous development — CDR1 with SGE1, LKT1, GCA1 and PCW1, 2026-09-30.** This is the maintained
 scientific development. It is not canon or a new scientific-grade authority.
 The exact registry and reviewed sources own grades; LIVE owns operational status.
 Current review bindings and limits are recorded in section9; startup reads the
@@ -41,6 +41,10 @@ Angular-sector cancellation alone owns loud--quiet--loud.
 Finite null-patch results distinguish multiplicity-counted sheet area from
 geometric endpoint image-union; the latter requires global preimage identification.
 These geometric results do not identify physical light, brightness or carried content.
+PCW1 adds explicit unadopted physical connections in R18: clock-ensemble
+response, radiation-defined comparison clocks, and quantum vacuum response.
+Two stronger shortcuts fail their stated diagnostic tests. These proposals do
+not add accepted dependencies or supply the missing positional prediction.
 <!-- GENERATED_DEVELOPMENT_END -->
 
 ## Current next gate

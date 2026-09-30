@@ -1,7 +1,7 @@
 # UDT — continuous scientific development
 
 <!-- DEVELOPMENT_ORIENTATION_BEGIN -->
-**Continuous development — CDR1 with SGE1, LKT1 and GCA1, 2026-09-29.** This is the maintained
+**Continuous development — CDR1 with SGE1, LKT1, GCA1 and PCW1, 2026-09-30.** This is the maintained
 scientific development. It is not canon or a new scientific-grade authority.
 The exact registry and reviewed sources own grades; LIVE owns operational status.
 Current review bindings and limits are recorded in section9; startup reads the
@@ -37,6 +37,10 @@ Angular-sector cancellation alone owns loud--quiet--loud.
 Finite null-patch results distinguish multiplicity-counted sheet area from
 geometric endpoint image-union; the latter requires global preimage identification.
 These geometric results do not identify physical light, brightness or carried content.
+PCW1 adds explicit unadopted physical connections in R18: clock-ensemble
+response, radiation-defined comparison clocks, and quantum vacuum response.
+Two stronger shortcuts fail their stated diagnostic tests. These proposals do
+not add accepted dependencies or supply the missing positional prediction.
 <!-- DEVELOPMENT_ORIENTATION_END -->
 
 ## 1. How this development is owned
@@ -1208,6 +1212,15 @@ No field law or positional prediction is added. The next physical issue remains
 the response meant by the provisional balance, while conditional clock geometry
 and possible relational/global routes retain their independent scopes.
 
+The subsequent discussion corrects a methodological overstatement: conditional
+model building, explicit geometries, response assumptions, counterexamples and GR
+comparisons have already been used. Calling the next task “model building” does
+not make its technique new. A substantive next step must name the particular
+physical relationship it tests, the closest prior attempt, and a calculation
+that could distinguish or reject it. The audit gains above clarify what follows
+from which premises; they do not themselves predict the additional positional
+effect. [Discussion and new whiteboard authorization](udt_physical_connection_whiteboard_2026-09-30/OWNER_DIRECTION.md).
+
 The current physical development still needs the quantitative relation linking
 UDT's intended positional geometry to actual observer-pair comparisons. Existing
 premises may constrain that relation further than the routes so far examined;
@@ -1234,10 +1247,117 @@ Ricci-line/fibre counterexamples and source experiments retain their original
 limits; none supplies an automatic stable-particle mechanism. Paused routes stay
 paused. Protected local drafts are not mined or reconstructed here.
 
+<a id="r18p"></a>
+
+**PCW1: physical connections proposed for the open join.** Charles authorized a
+whiteboard across regimes. Three fresh proposing contexts constructed five
+relationships and challenged each other's assumptions. The following candidates
+are **UNADOPTED**, not derived UDT laws. Their novelty is relative to the inspected
+prior work; the methods and much of the mathematics are already known. The
+[fixed proposal record](udt_physical_connection_whiteboard_2026-09-30/INITIAL_SYNTHESIS.md)
+and [controlling precision repair](udt_physical_connection_whiteboard_2026-09-30/REPAIR.md)
+preserve equations, primary references, initial failures and qualifications.
+
+**Clock-ensemble response (L1), first candidate for a bounded test.** For a
+physically specified collection of regular queries Q_g(q), received ratios Z,
+and positive measure μ_g, consider
+\[
+ D_g(q)=\log Z[g,Q_g(q)],\quad
+ \mathcal C[g]=\tfrac12\int D_g(q)^2\,d\mu_g(q),\qquad
+ \delta\mathcal C[h]=\int E_{\mathcal C}^{ab}h_{ab}\,dV_g.
+\]
+The conjecture identifies this response with the one DDR constrains. It gives
+TF(E_C)=0 **if** the full first variation exists with the displayed smooth volume
+representation and is stationary against every compactly supported localized
+reciprocal strain for all admitted pairs. Lower both response indices with g
+when applying the covariant DDR statement. Query motion and measure variation must both be included. The
+physical stationarity principle, query preparation and measure are new choices.
+The squared contrast includes ordinary SR/gravitational shifts; no desired
+positional curve or GR subtraction is inserted. At moving matched events of inverse descriptions, with query and measure carried
+consistently, both D and its full variation
+reverse sign, so their product does not cancel. Fixed receiver labels retain
+FCV1's extra drift term; an actual future return is a different query.
+
+FCV1 excluded a nonzero single-ray derivative being a smooth volume response.
+A continuum of comparisons addresses that specific support question, but proves
+neither smoothing nor locality. Even a smooth E_C may depend on distant query
+history. Local Metric Sufficiency is not thereby satisfied. Integrability and
+interchange of derivative/integral need explicit hypotheses. No finite uniform
+Lorentz-invariant probability measure on all unit timelike observers supplies
+the missing weights; a physical rest distribution is added information.
+
+A flat diagnostic with fixed coordinate velocity v has
+D_ε=atanh(e^(2ε)v) under g_ε=diag(−e^(−2ε),e^(2ε),1,1), and
+∂_ε(D_ε²/2)|_0=2v atanh(v)/(1−v²)>0 for 0<v<1. Holding physical rapidity
+fixed gives zero instead. These are different physical preparations, not a
+coordinate-invariance failure. Comoving D=0 makes first variation trivially
+zero. The useful first calculation must therefore freeze a covariant nonzero-
+Doppler ensemble, integrable weights, fixed physical initial data and their
+variation, then carry all terms under compact interior metric perturbations.
+A nonzero result would reject that ensemble's exact flat-stationarity law;
+a zero result passes only that test. Physical justification and local dependence
+remain separate gates. This is a specific response proposal, not a ready equation
+or evidence that such a justified ensemble already exists.
+
+**Radiation-defined clocks (C1), secondary identification.** Add a conventional
+collisionless massless population f=F(ω/Θ), ω=−g(U,k), Θ>0, with a finite
+positive isotropic energy moment and nonconstant smooth F. Isotropy is in all
+directions for the selected timelike congruence U throughout the region, not for
+every boosted observer. Identify bulk comparison clocks with that population's
+rest flow. Null Liouville transport then gives
+\[
+ \nabla_{(a}(U_{b)}/\Theta)=\psi g_{ab},\qquad Z=\Theta_e/\Theta_o.
+\]
+This reuses G402/CGW1's conformal-Killing clock class. Its new physical commitment
+is population/observer identification; for supplied U it adds no new geometric
+restriction to that class. Θ is a spectral scale, not an assumed Planck spectrum
+or native matter source. A population rest frame is not a preferred center.
+The supplied control −dt²+A²(t)[dx²+dy²+e^(2κx)dz²] keeps radial timing
+Z=A_o/A_e while curvature changes with κ. Ordinary static gravity also satisfies
+the interface for a timelike Killing ξ=N U and Θ=c/N. Thus neither expansion
+nor an extra positional effect is selected. A later test needs independently
+specified population data and the original Liouville residual, not Θ inferred
+from the same tested redshift. No CMB spectrum, controlled near-isotropy result,
+response equation, physical X_max or new scale is derived.
+
+**Quantum vacuum response (M1), a higher-cost comparison.** Explicitly import
+quantum fields, a causal state prescription and renormalization, and propose
+\[
+ \mathrm{TF}\left(G_{ab}+U_{ab}[g]
+ -8\pi G_{\rm obs}\langle T_{ab}\rangle^{\rm ren}_{\omega,g}/c_E^4\right)=0,
+\]
+where U includes declared local counterterm responses. The Einstein-response term and the
+quantum/response identification are additional premises, not native matter.
+In an invariant de Sitter slice all these terms are pure trace, so the anomaly
+alone does not fix curvature. If the complete response is conserved, its trace
+coefficient is a connected constant; DDR does not choose that constant. Quantum
+state dependence also threatens a finite-local-jet identification. A meaningful
+test must use the same specified admissible state rule on two locally identical
+metric histories and inspect the trace-free response difference; arbitrary
+states do not refute a single-state rule. Added ℏ/mass scales are inputs, not
+selection of UDT's geometry. No such state-rule calculation was performed here.
+
+Two displayed alternatives were screened out at their stated scopes. L2's
+unadopted tidal functional R+β[(C²)²+(C* C)²]^(1/4) has a |ε| cusp on a
+realizable flat Weyl variation when β≠0, obstructing its universal smooth
+response; β=0 is the old Einstein comparison. Null-wave curvature can also
+escape those two invariants. Other tidal responses are not excluded. M2's
+strong proposal of exact quantum phase-cone equality conflicts with the imported
+leading QED tidal correction on a Ricci-flat screen. This is a theoretical
+comparison, not an empirical exclusion of UDT. Low-frequency phase propagation
+and the causal front are distinct; the calculation selects no native geometry.
+
+The recommendation is the bounded L1 protocol/response test above, with C1 as
+an optional physical observer-assignment interface and M1 deferred pending an
+explicit state/locality question. No proposal is adopted, and no successor
+campaign begins automatically. The microscopic tests constrain these particular
+connections; they do not show that mathematics alone selects UDT or that its
+founding premises are insufficient.
+
 Retained branches and omissions are explicit below. These results are useful;
 their original full proofs, repairs, qualifications and grades remain at source.
 CDR1 does not claim to rederive all of them. The [406-row disposition ledger](development_reconstruction_2026-09-29/CLAIM_DISPOSITIONS.tsv)
-and [28 later returns](development_reconstruction_2026-09-29/RECENT_DISPOSITIONS.tsv)
+and [29 later returns](development_reconstruction_2026-09-29/RECENT_DISPOSITIONS.tsv)
 identify exact sources and reconstruction depth.
 
 | Retained work | Gain and limit |
@@ -1270,7 +1390,7 @@ it does not merely add another disconnected report.
 
 This is an18-result central reconstruction with actual core calculations,
 standard-method applications and explicitly retained source branches. All406
-registered rows have an editorial disposition;28 relevant later reviewed returns
+registered rows have an editorial disposition;29 relevant later returns
 are separately mapped. It does not claim to re-prove every historical result.
 Existence/MGHD, full external invariant theory, detailed nonlinear asymptotics,
 the55-component optional analytic system, the eight signal packages, empirical
@@ -1313,6 +1433,21 @@ that action existence or second order alone selects no Einstein response. No
 scientific repair was required. Shared model/library and untested human/formal/
 different-model axes remain explicit; prior work keeps its original reviews.
 
+PCW1 adds three fresh proposing contexts, cyclic peer challenge and two further
+fresh direct-review contexts. The [mathematical review](udt_physical_connection_whiteboard_2026-09-30/review/math/DIRECT_REVIEW.md)
+and [fidelity review](udt_physical_connection_whiteboard_2026-09-30/review/fidelity/DIRECT_REVIEW.md)
+cover the unadopted proposals, novelty limits and adverse tests. One controlling
+precision repair states L1's localized all-pair stationarity and matched-event
+variation conventions. Independent arguments and small symbolic checks support
+only the stated controls; no physical ensemble, quantum loop, empirical fit or
+native law was derived. Separate contexts share the inherited model and numerical
+library; human, different-model and formal review are untested. Initial symbolic
+failures and repairs are retained. Mutable-source exposure is disclosed in the
+[source-version note](udt_physical_connection_whiteboard_2026-09-30/SOURCE_VERSION_NOTE.md).
+Final acceptance of integrated bytes belongs to the actual final attestations;
+review does not adopt physics. The [controlling return](udt_physical_connection_whiteboard_2026-09-30/REVIEWED_RESULT.md)
+preserves this scope.
+
 The preserved first candidates expose the repair history. The [source correction](development_reconstruction_2026-09-29/SOURCE_CORRECTIONS.md)
 fixes a real covector-basis sign in G310; the central nine-direction span and
 annihilator survive. The original file remains authentic. Further repairs make
@@ -1337,4 +1472,5 @@ stage completion, final source/check pins and all remaining omissions belong to
 [CDR1 work record](development_reconstruction_2026-09-29/WORK_RECORD.md) and
 [SGE1 work record](udt_shared_geometry_extension_2026-09-29/WORK_RECORD.md) and
 [LKT1 work record](udt_lorentz_kernel_transport_2026-09-29/WORK_RECORD.md) and
-[GCA1 work record](udt_gr_commitment_audit_2026-09-29/WORK_RECORD.md).
+[GCA1 work record](udt_gr_commitment_audit_2026-09-29/WORK_RECORD.md) and
+[PCW1 work record](udt_physical_connection_whiteboard_2026-09-30/WORK_RECORD.md).

@@ -1,0 +1,14 @@
+{
+  "command": [
+    "python3",
+    "udt_physical_connection_whiteboard_2026-09-30/proposals/local/checks/initial_diagnostics.py"
+  ],
+  "cwd": "/home/udt-admin/udt_mass_codex",
+  "started_utc": "2026-09-30T13:41:05.485824+00:00",
+  "duration_seconds": 0.32658785200328566,
+  "returncode": 0,
+  "timeout": false,
+  "address_space_bytes": 536870912,
+  "cpu_seconds": 60,
+  "maxrss_kib": 48384
+}

@@ -1,0 +1,4 @@
+Traceback (most recent call last):
+  File "/home/udt-admin/udt_mass_codex/udt_physical_connection_whiteboard_2026-09-30/proposals/local/checks/initial_diagnostics.py", line 16, in <module>
+    assert s.limit(rapidity_density, r, s.oo) == s.oo
+AssertionError

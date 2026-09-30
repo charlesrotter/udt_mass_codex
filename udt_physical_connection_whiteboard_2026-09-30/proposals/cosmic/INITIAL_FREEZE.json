@@ -1,0 +1,12 @@
+{
+  "role": "initial proposing author; no independent acceptance",
+  "files": {
+    "udt_physical_connection_whiteboard_2026-09-30/proposals/cosmic/CHECK_PLAN.md": "ac13250f2f542cd00149df859409d5f3d2c56d600652ff573ff80eec6fe91cc0",
+    "udt_physical_connection_whiteboard_2026-09-30/proposals/cosmic/INITIAL_PROPOSAL.md": "e9b19bafd8fabac821f8521577003ee4ca397f4a7d712dc5e7d4e8fca4ef89ca",
+    "udt_physical_connection_whiteboard_2026-09-30/proposals/cosmic/SOURCE_PINS.json": "7c470a5a3bcc1dc207a16faa78909ef55e2192328913f33a8805c637c5597425",
+    "udt_physical_connection_whiteboard_2026-09-30/proposals/cosmic/checks/check_geometry.py": "8f066746055bdb8a50c4425e44111b142b104c0481fa23b180914fb0fac8c7fc",
+    "udt_physical_connection_whiteboard_2026-09-30/proposals/cosmic/checks/geometry.json": "65fb3cfdf417f27094a3077c9660896418727b6e39aa17fb7242a35119acaaa3",
+    "udt_physical_connection_whiteboard_2026-09-30/proposals/cosmic/checks/geometry.stderr": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "udt_physical_connection_whiteboard_2026-09-30/proposals/cosmic/checks/geometry.stdout": "eac50f2668893a1a1e56f7ea370eafd30526e3641d7f0b7a7739d7b1357d7784"
+  }
+}

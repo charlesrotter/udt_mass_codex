@@ -1,0 +1,19 @@
+{
+  "scope": "exact algebra on imported/supplied formulas, not QFT or geometry selection",
+  "python": "3.10.12",
+  "sympy": "1.13.1",
+  "checks": {
+    "de_sitter_shape_response_vanishes_for_free_H": true,
+    "supplied_radiation_stress_changes_shape_response_at_fixed_metric": true,
+    "spinor_qed_screen_trace_coefficient": "22*R_kk",
+    "ricci_flat_tide_correction_bracket": "Matrix([[-4*q, 0], [0, 4*q]])"
+  },
+  "omitted": [
+    "state-prescription construction",
+    "QFT loop recomputation",
+    "all-metric classification",
+    "physical clock propagation",
+    "empirical validation",
+    "native premises or scale selection"
+  ]
+}

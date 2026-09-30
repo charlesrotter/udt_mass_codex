@@ -1,0 +1,9 @@
+{
+  "status": "PASS",
+  "scope": "Byte/route/preservation correspondence only",
+  "candidate_files": 40,
+  "accepted_files": 101,
+  "preserved_unrelated_names": 52,
+  "local_links": 99,
+  "package_bytes": 398082
+}

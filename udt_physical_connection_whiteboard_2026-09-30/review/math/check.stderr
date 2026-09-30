@@ -1,0 +1,4 @@
+Traceback (most recent call last):
+  File "/home/udt-admin/udt_mass_codex/udt_physical_connection_whiteboard_2026-09-30/review/math/independent_check.py", line 40, in <module>
+    assert Ric == s.zeros(4)
+AssertionError

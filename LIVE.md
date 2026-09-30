@@ -1,15 +1,15 @@
 # LIVE — operational status
 
 <!-- STARTUP_CURRENT_BEGIN -->
-## CURRENT STATE — GCA1 after LKT1/SGE1/CDR1, 2026-09-29
+## CURRENT STATE — PCW1 after GCA1/LKT1/SGE1/CDR1, 2026-09-30
 
 Work on `grok`; independently verify HEAD, synchronization and dirt.
-CDR1's nine-stage reconstruction and SGE1/LKT1 returns remain integrated at
-their reviewed scopes. Charles authorized GCA1's audit of GR commitments,
-conservation and response-class assumptions. Its conditional return is integrated
-in UDT_DEVELOPMENT.md R10/R17/R18; exact scope, reviews and execution evidence:
-`udt_gr_commitment_audit_2026-09-29/WORK_ORDER.md` and `WORK_RECORD.md`.
-No physical premise is adopted and no successor campaign is authorized.
+Charles authorized central documentation upkeep and a whiteboard proposing
+specific physical connections across regimes. PCW1's return is integrated in
+UDT_DEVELOPMENT.md R18; original CDR1/SGE1/LKT1/GCA1 scopes remain preserved.
+Scope and actual execution evidence are in
+`udt_physical_connection_whiteboard_2026-09-30/WORK_ORDER.md` and `WORK_RECORD.md`.
+The proposals are UNADOPTED. No successor derivation campaign is authorized.
 
 ### Honest claim
 
@@ -42,10 +42,10 @@ Protected: do not inspect, hash, stage, modify, mine or cite payloads without di
 
 ### Next gate
 
-Stop for lay discussion. GCA1 returns a reviewed conditional assumption audit
-and decision brief in the central argument, preserving current scientific grades.
-Its WORK_RECORD.md, actual receipts and Git history own verification and banking.
-A conserved-representative diagnostic is not a new mandatory UDT premise. No
-response law, action, exact scaling or derivative order is adopted. Current
-scientific explanation: central R10/R17/R18, with earlier sector limits retained.
+Stop for lay discussion of PCW1's physical-connection proposals in central R18.
+The work record, actual reviewer attestations, check receipts and Git history
+own verification and banking. Proposal review does not adopt a response law,
+query measure, radiation population, quantum interface or new physical premise.
+Existing pauses and scientific grades remain unchanged. A subsequent work order
+must specify its actual candidate protocol, premises and decisive test.
 <!-- STARTUP_CURRENT_END -->
