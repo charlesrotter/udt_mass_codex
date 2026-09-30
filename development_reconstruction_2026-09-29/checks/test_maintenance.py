@@ -102,6 +102,16 @@ class Maintenance(unittest.TestCase):
         self.rejects({p:(ROOT/p).read_text()+'\nTEST'},'REVIEW_REQUIRED.*affected=')
     def test_gca_homothety_route_requires_its_class(self):
         self.rejects(self.graph_change(lambda g:g['edges'].remove({'from':'C_HOMOTHETY','to':'R10H','kind':'hypothesis'})),'missing required hypothesis')
+    def test_ces_adverse_benchmark_requires_supplied_protocol(self):
+        self.rejects(self.graph_change(lambda g:g['edges'].remove({'from':'C_CES_PROTOCOL','to':'R18E','kind':'hypothesis'})),'missing required hypothesis')
+    def test_ces_sources_route_conditional_and_adverse_result(self):
+        p='udt_clock_ensemble_stationarity_test_2026-09-30/PREPARATION.md'
+        impact=set(v.affected_nodes(self.graph,[p]))
+        self.assertTrue({'C_CES_PROTOCOL','R18E','R18'}<=impact)
+        self.assertFalse({'R6','R9','R10'} & impact)  # Prior proofs do not depend on this experiment.
+        self.rejects({p:(ROOT/p).read_text()+'\nTEST'},'REVIEW_REQUIRED.*affected=')
+    def test_ces_proposal_context_cannot_replace_hypothesis(self):
+        self.rejects(self.graph_change(lambda g:g['edges'].append({'from':'O_PCW_PROPOSALS','to':'R18E','kind':'hypothesis'})),'open join promoted')
     def test_gca_conservation_comparison_is_conditional(self):
         self.rejects(self.graph_change(lambda g:g['edges'].remove({'from':'C_GCA_COMPARISON','to':'R17C','kind':'hypothesis'})),'missing required hypothesis')
     def test_gca_lovelock_requires_its_full_domain(self):

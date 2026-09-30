@@ -1,7 +1,7 @@
 # UDT — continuous scientific development
 
 <!-- DEVELOPMENT_ORIENTATION_BEGIN -->
-**Continuous development — CDR1 with SGE1, LKT1, GCA1 and PCW1, 2026-09-30.** This is the maintained
+**Continuous development — CDR1 with SGE1, LKT1, GCA1, PCW1 and CES1, 2026-09-30.** This is the maintained
 scientific development. It is not canon or a new scientific-grade authority.
 The exact registry and reviewed sources own grades; LIVE owns operational status.
 Current review bindings and limits are recorded in section9; startup reads the
@@ -41,6 +41,11 @@ PCW1 adds explicit unadopted physical connections in R18: clock-ensemble
 response, radiation-defined comparison clocks, and quantum vacuum response.
 Two stronger shortcuts fail their stated diagnostic tests. These proposals do
 not add accepted dependencies or supply the missing positional prediction.
+CES1 tests L1 with a covariantly prepared receding-clock ensemble. Its squared
+log-clock contrast has a nonzero first variation at Minkowski under a compact
+reciprocal strain. This fails that ensemble's exact flat-stationarity benchmark;
+it does not refute ordinary local SR, other ensembles or UDT. The response law
+remains UNADOPTED, and locality was not established or tested beyond that stop.
 <!-- DEVELOPMENT_ORIENTATION_END -->
 
 ## 1. How this development is owned
@@ -1258,7 +1263,7 @@ prior work; the methods and much of the mathematics are already known. The
 and [controlling precision repair](udt_physical_connection_whiteboard_2026-09-30/REPAIR.md)
 preserve equations, primary references, initial failures and qualifications.
 
-**Clock-ensemble response (L1), first candidate for a bounded test.** For a
+**Clock-ensemble response (L1), now tested in CES1's declared preparation.** For a
 physically specified collection of regular queries Q_g(q), received ratios Z,
 and positive measure μ_g, consider
 \[
@@ -1291,13 +1296,61 @@ D_ε=atanh(e^(2ε)v) under g_ε=diag(−e^(−2ε),e^(2ε),1,1), and
 ∂_ε(D_ε²/2)|_0=2v atanh(v)/(1−v²)>0 for 0<v<1. Holding physical rapidity
 fixed gives zero instead. These are different physical preparations, not a
 coordinate-invariance failure. Comoving D=0 makes first variation trivially
-zero. The useful first calculation must therefore freeze a covariant nonzero-
-Doppler ensemble, integrable weights, fixed physical initial data and their
-variation, then carry all terms under compact interior metric perturbations.
-A nonzero result would reject that ensemble's exact flat-stationarity law;
-a zero result passes only that test. Physical justification and local dependence
-remain separate gates. This is a specific response proposal, not a ready equation
-or evidence that such a justified ensemble already exists.
+zero. These controls motivated CES1's physical preparation below. They do not
+themselves decide that preparation or make exact flat stationarity a founded
+UDT requirement. Physical justification and local dependence remain separate.
+
+<a id="r18e"></a>
+
+**CES1: the physical preparation still fails exact flat stationarity.** Fix a
+laboratory event p and unit frame, an emitter geodesic from p, and receivers
+prepared at exp_p(Ln). Parallel transport the frame along that initial spatial
+geodesic and launch each receiver with physical rapidity η>0 in direction n.
+Use ordinary proper clocks, emitter times s>0 and regular future null arrivals.
+Choose any fixed normalized smooth nonnegative product weights on compact
+positive s/L/η intervals and uniform laboratory directions. These are repeated
+test-clock experiments, not a native population or gravitating clock medium.
+The label measure stays fixed; its metric-dependent physical image belongs to
+Q_g. The lab and weights are additional supplied arguments of C[g].
+
+At Minkowski, the receiver is r=L+vt with v=tanh η. Choose a smooth nonnegative
+nonzero bump b_0(r) supported in 0<a<r<b<L_-, and a compact time cutoff χ
+that vanishes near preparation but equals1 near all shell crossings. For
+f=χ(t)t b_0(r), the smooth compact test family is
+\[
+ g_\epsilon=-e^{-2\epsilon f}dt^2+e^{2\epsilon f}dr^2+r^2d\Omega^2,
+ \qquad h=2f(dt^2+dr^2)=fH,\quad \operatorname{tr}_g h=0.
+\]
+It is flat near preparation and both clocks. Geodesic uniqueness therefore
+keeps their physical initial data, worldlines and proper rates unchanged;
+the arrival event still moves. Radial null curves obey dt/dr=e^(2εf).
+Writing B_j=∫_a^b r^j b_0(r)dr, their exterior time shift has variation
+2(sB_0+B_1). Intersecting the moving receiver gives coordinate arrival
+δT=2(sB_0+B_1)/(1-v), and proper arrival
+δA=2e^η(sB_0+B_1). Hence
+\[
+ Z_0=e^\eta,\qquad \delta\log Z=2B_0,\qquad
+ \delta\mathcal C=2B_0\langle\eta\rangle>0.
+\]
+FCV1 independently reproduces this from I=2R_0(sB_0+B_1) and
+ω_o=R_0e^(-η), with both clocks parametrized by proper time; the ray-length
+dependence cancels before differentiating. Compact labels, 1-v bounded away
+from0 and smooth transverse arrivals justify differentiation under the integral.
+The laboratory-centered shell is an off-shell reciprocal test variation,
+not a preferred cosmic center, physical wall or asserted field solution.
+
+This exact adverse derivative holds for every density in the stated positive-
+rapidity class. No tuning of those weights rescues stationarity. It rejects
+the conjunction of this functional/preparation and exact Minkowski stationarity,
+which is a diagnostic benchmark, not a founding postulate or equivalent to
+ordinary local SR. Other ensembles, controlled GR recovery and UDT viability
+are not decided. The full functional under variations changing the laboratory
+frame at p would require its continuation rule; this witness avoids that open
+completion by leaving the metric near p fixed. No smooth volume response or
+finite-jet locality theorem is inferred, and locality work stops here under the
+work order. The native physical measure and response identification remain open.
+[Frozen preparation and proof](udt_clock_ensemble_stationarity_test_2026-09-30/INITIAL_CANDIDATE.md),
+[reviewed scope](udt_clock_ensemble_stationarity_test_2026-09-30/REVIEWED_RESULT.md).
 
 **Radiation-defined clocks (C1), secondary identification.** Add a conventional
 collisionless massless population f=F(ω/Θ), ω=−g(U,k), Θ>0, with a finite
@@ -1347,9 +1400,9 @@ leading QED tidal correction on a Ricci-flat screen. This is a theoretical
 comparison, not an empirical exclusion of UDT. Low-frequency phase propagation
 and the causal front are distinct; the calculation selects no native geometry.
 
-The recommendation is the bounded L1 protocol/response test above, with C1 as
-an optional physical observer-assignment interface and M1 deferred pending an
-explicit state/locality question. No proposal is adopted, and no successor
+The recommended L1 protocol test has returned CES1's scoped adverse result.
+C1 remains an optional physical observer-assignment interface and M1 remains
+deferred pending an explicit state/locality question. No proposal is adopted, and no successor
 campaign begins automatically. The microscopic tests constrain these particular
 connections; they do not show that mathematics alone selects UDT or that its
 founding premises are insufficient.
@@ -1357,7 +1410,7 @@ founding premises are insufficient.
 Retained branches and omissions are explicit below. These results are useful;
 their original full proofs, repairs, qualifications and grades remain at source.
 CDR1 does not claim to rederive all of them. The [406-row disposition ledger](development_reconstruction_2026-09-29/CLAIM_DISPOSITIONS.tsv)
-and [29 later returns](development_reconstruction_2026-09-29/RECENT_DISPOSITIONS.tsv)
+and [30 later returns](development_reconstruction_2026-09-29/RECENT_DISPOSITIONS.tsv)
 identify exact sources and reconstruction depth.
 
 | Retained work | Gain and limit |
@@ -1390,7 +1443,7 @@ it does not merely add another disconnected report.
 
 This is an18-result central reconstruction with actual core calculations,
 standard-method applications and explicitly retained source branches. All406
-registered rows have an editorial disposition;29 relevant later returns
+registered rows have an editorial disposition;30 relevant later returns
 are separately mapped. It does not claim to re-prove every historical result.
 Existence/MGHD, full external invariant theory, detailed nonlinear asymptotics,
 the55-component optional analytic system, the eight signal packages, empirical
@@ -1448,6 +1501,16 @@ Final acceptance of integrated bytes belongs to the actual final attestations;
 review does not adopt physics. The [controlling return](udt_physical_connection_whiteboard_2026-09-30/REVIEWED_RESULT.md)
 preserves this scope.
 
+CES1 adds two fresh source-first contexts, independent arrival/clock derivations
+and separate symbolic implementations, followed by direct candidate and final
+integration review. The [mathematical review](udt_clock_ensemble_stationarity_test_2026-09-30/review/math/DIRECT_REVIEW.md)
+and [fidelity review](udt_clock_ensemble_stationarity_test_2026-09-30/review/fidelity/DIRECT_REVIEW.md)
+own their actual limits; unchanged preceding sources retain their old reviews.
+Independent contexts share the inherited model and Python/SymPy. Human,
+different-model/library and formal verification remain untested. The initial
+proof and preparation are preserved; the new adverse result is conditional,
+unpromoted and limited to its supplied preparation and diagnostic benchmark.
+
 The preserved first candidates expose the repair history. The [source correction](development_reconstruction_2026-09-29/SOURCE_CORRECTIONS.md)
 fixes a real covector-basis sign in G310; the central nine-direction span and
 annihilator survive. The original file remains authentic. Further repairs make
@@ -1473,4 +1536,5 @@ stage completion, final source/check pins and all remaining omissions belong to
 [SGE1 work record](udt_shared_geometry_extension_2026-09-29/WORK_RECORD.md) and
 [LKT1 work record](udt_lorentz_kernel_transport_2026-09-29/WORK_RECORD.md) and
 [GCA1 work record](udt_gr_commitment_audit_2026-09-29/WORK_RECORD.md) and
-[PCW1 work record](udt_physical_connection_whiteboard_2026-09-30/WORK_RECORD.md).
+[PCW1 work record](udt_physical_connection_whiteboard_2026-09-30/WORK_RECORD.md) and
+[CES1 work record](udt_clock_ensemble_stationarity_test_2026-09-30/WORK_RECORD.md).

@@ -1,5 +1,7 @@
 {
-  "status": "REVIEWED_WITH_LIMITS",
+  "context": "/root/ces_math",
+  "verdict": "ACCEPT_WITH_LIMITS",
+  "utc": "2026-09-30T14:52:37.112815+00:00",
   "accepted_sha256": {
     "AGENTS.md": "8ae0d968a20f416ec628fcf9ad445d370822889a720168104a8e41aef2b1094c",
     "CLAUDE.md": "4ad2e773defb89cc79541fd0ababd75af5a3344ab134ee83722dfd943966e6e4",
@@ -130,17 +132,28 @@
     "verify_current_scientific_premises.py": "a983c2456ce3a122629a116c735b32b96e055829ed3012fb416fabfa9b0b8127",
     "verify_udt_development.py": "2825e3c31351f2c81ae39cede427b5c50fc62c98cd02d7a4059692b08bb6c94c"
   },
-  "reviewers": [
-    {
-      "context": "/root/ces_math",
-      "attestation": "udt_clock_ensemble_stationarity_test_2026-09-30/review/math/FINAL_ATTESTATION.json",
-      "sha256": "fa13aad5d02f9c96ad2988e144dcc4f048cd6064406933ad07803a827258a5e3"
-    },
-    {
-      "context": "/root/ces_fidelity",
-      "attestation": "udt_clock_ensemble_stationarity_test_2026-09-30/review/fidelity/FINAL_ATTESTATION.json",
-      "sha256": "6bb26b6dbc47018b5dea06bcb70ff52775f07b8748bdf2403e3f2979cec24463"
-    }
+  "report_path": "udt_clock_ensemble_stationarity_test_2026-09-30/review/math/FINAL_REVIEW.md",
+  "report_sha256": "f49e7a9f5dbe6efee4020a8783fb7094ab66c443a3a6bae16d953ad568946db8",
+  "freeze_path": "udt_clock_ensemble_stationarity_test_2026-09-30/INTEGRATION_FREEZE.json",
+  "freeze_sha256": "d12fc059a35bdf15f514b8fb3afedec7e3e407b90d28217746c1a86a72ada831",
+  "scope": "Actual CES1 conditional proof integration, source-preserving negative-result routing, generated/operational wording and 3 new maintenance guards; unchanged prior bindings inherit prior scope, not full reproof.",
+  "exposure": "Source-first sealed before CES1 producer candidate/code; actual direct review followed, then actual final integration review. Other reviewer reports not read for scientific judgment; frozen source/direct artifacts hashed only.",
+  "independence": "Separate inherited-model context, independently derived argument and distinct implementation; shared Python/SymPy and source mathematics; no different-model/library, human or formal-proof claim.",
+  "omissions": [
+    "Normal development acceptance awaits bound final attestations",
+    "Full406 audit and banking pending parent gates",
+    "No full historical scientific reproof",
+    "No smooth local response, all-ensemble, empirical SR/GR, nonlinear stability or native-law proof"
   ],
-  "scope": "CES1 conditional prepared-clock nonstationarity and actual central integration; two fresh source-first/direct/final contexts, no required scientific repair. Explicit supplied protocol and diagnostic benchmark, no local-SR/UDT refutation, no physical law or grades adopted. Prior record preserved in CES1/PREVIOUS_REVIEW_RECORD.json. Unchanged prior bytes inherit prior scope. Full audit and banking remain separate execution gates. Metadata-key setup failure and interrupted initial audit preserved in BANKING_SETUP_NOTE.md; actual reviews unchanged."
+  "check_receipts_sha256": {
+    "udt_clock_ensemble_stationarity_test_2026-09-30/review/math/final_draft.json": "23a43b80bab410821931331b60b7609897526338e270479929cc256c797e00f0",
+    "udt_clock_ensemble_stationarity_test_2026-09-30/review/math/final_draft.stdout": "544be0011632adce0dae4c5540f8326aa7dc7a0a8d588736f110e69bb350a89b",
+    "udt_clock_ensemble_stationarity_test_2026-09-30/review/math/final_draft.stderr": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "udt_clock_ensemble_stationarity_test_2026-09-30/review/math/final_draft.capture_provenance.json": "bab242bae9d0df036e95dd650309aac29b56241bb24073ad1bc12ab77232526d",
+    "udt_clock_ensemble_stationarity_test_2026-09-30/review/math/final_guards.json": "d38426996673fc84f695fdbbd9396a7862e685786350b5bd6c27810f56cc15a2",
+    "udt_clock_ensemble_stationarity_test_2026-09-30/review/math/final_guards.stdout": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "udt_clock_ensemble_stationarity_test_2026-09-30/review/math/final_guards.stderr": "53436daebc1fb73abb9aacdc09cd02a394e5d04978c4af34cc8a229977df60a8",
+    "udt_clock_ensemble_stationarity_test_2026-09-30/review/math/final_guards.capture_provenance.json": "badbdde80ab3792182a2c28d24e18af3d7c6b24787b5f7feabf2939ba7b6b3d4"
+  },
+  "required_repairs": 0
 }

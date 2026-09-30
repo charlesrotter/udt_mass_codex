@@ -1,0 +1,58 @@
+{
+  "sealed_utc": "2026-09-30T14:46:57.432789+00:00",
+  "reviewer": "/root/ces_fidelity",
+  "scope": "Direct physical/provenance review; candidate/code exposed; other CES1 reviewer unexposed",
+  "python": "3.10.12",
+  "frozen_hash_comparisons": {
+    "PREPARATION_FREEZE.json": {
+      "udt_clock_ensemble_stationarity_test_2026-09-30/WORK_ORDER.md": true,
+      "udt_clock_ensemble_stationarity_test_2026-09-30/PREPARATION.md": true,
+      "udt_clock_ensemble_stationarity_test_2026-09-30/LAUNCH.json": true,
+      "udt_clock_ensemble_stationarity_test_2026-09-30/SOURCE_PINS.json": true
+    },
+    "CHECK_FREEZE.json": {
+      "udt_clock_ensemble_stationarity_test_2026-09-30/INITIAL_CANDIDATE.md": true,
+      "udt_clock_ensemble_stationarity_test_2026-09-30/checks/CHECK_PLAN.md": true,
+      "udt_clock_ensemble_stationarity_test_2026-09-30/checks/check_ensemble.py": true
+    },
+    "CANDIDATE_FREEZE.json": {
+      "udt_clock_ensemble_stationarity_test_2026-09-30/WORK_ORDER.md": true,
+      "udt_clock_ensemble_stationarity_test_2026-09-30/PREPARATION.md": true,
+      "udt_clock_ensemble_stationarity_test_2026-09-30/PREPARATION_FREEZE.json": true,
+      "udt_clock_ensemble_stationarity_test_2026-09-30/INITIAL_CANDIDATE.md": true,
+      "udt_clock_ensemble_stationarity_test_2026-09-30/CHECK_FREEZE.json": true,
+      "udt_clock_ensemble_stationarity_test_2026-09-30/checks/CHECK_PLAN.md": true,
+      "udt_clock_ensemble_stationarity_test_2026-09-30/checks/check_ensemble.py": true,
+      "udt_clock_ensemble_stationarity_test_2026-09-30/checks/algebra_result.json": true,
+      "udt_clock_ensemble_stationarity_test_2026-09-30/checks/algebra.json": true,
+      "udt_clock_ensemble_stationarity_test_2026-09-30/checks/algebra.stdout": true,
+      "udt_clock_ensemble_stationarity_test_2026-09-30/checks/algebra.stderr": true,
+      "udt_clock_ensemble_stationarity_test_2026-09-30/checks/algebra.capture_provenance.json": true
+    }
+  },
+  "sha256": {
+    "udt_clock_ensemble_stationarity_test_2026-09-30/CANDIDATE_FREEZE.json": "31779c695ffbe0407825e91c4a5935904a576072d57ce848ef11a8b05248f813",
+    "udt_clock_ensemble_stationarity_test_2026-09-30/CHECK_FREEZE.json": "f10a70c649e0c87091099537d47b73bd01055602093334a0aae341ccb8f97f07",
+    "udt_clock_ensemble_stationarity_test_2026-09-30/INITIAL_CANDIDATE.md": "cf82d5a6f6b84862da1a5ebbcdfe6f65bf8e862b2e41a05a6d6366f8699229e3",
+    "udt_clock_ensemble_stationarity_test_2026-09-30/LAUNCH.json": "e4e7c934145f2e14f91066f1a2650b7e101ef7fad07306ef00c8610d7658c4d7",
+    "udt_clock_ensemble_stationarity_test_2026-09-30/PREPARATION.md": "e5ce5c7300c7d67f7232c8f9c24b8b636d722ec2b1917506b47cb70f0c49bc01",
+    "udt_clock_ensemble_stationarity_test_2026-09-30/PREPARATION_FREEZE.json": "9657d60f68225602f064f6adfe9b5f3dfa1afb886c93aa0a1eeea4fe7ae8caf0",
+    "udt_clock_ensemble_stationarity_test_2026-09-30/SOURCE_PINS.json": "3b7ae805f323af0b939d95ee5617b35626e481c45e0ef6ea262eef6a281feb94",
+    "udt_clock_ensemble_stationarity_test_2026-09-30/WORK_ORDER.md": "c96e57301bb469fcf524b8723add04e3391a493810525ac7e09474875068b062",
+    "udt_clock_ensemble_stationarity_test_2026-09-30/checks/CHECK_PLAN.md": "6df56a734b3b1f0347a5915f17ff048ac9e330970d2ad10890fec3bec106da15",
+    "udt_clock_ensemble_stationarity_test_2026-09-30/checks/algebra.capture_provenance.json": "0cc5a401938cb8c167cd3c51720b10ff14826c11053d0081ba83843f306f277f",
+    "udt_clock_ensemble_stationarity_test_2026-09-30/checks/algebra.json": "256db8188049c47203853e9a3263600e81f369aee56d75831ce420031bbca186",
+    "udt_clock_ensemble_stationarity_test_2026-09-30/checks/algebra.stderr": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "udt_clock_ensemble_stationarity_test_2026-09-30/checks/algebra.stdout": "93030f5d2227945c934b89d7620496a161083dabac250bf5e8b73bb1b4800e4a",
+    "udt_clock_ensemble_stationarity_test_2026-09-30/checks/algebra_result.json": "93030f5d2227945c934b89d7620496a161083dabac250bf5e8b73bb1b4800e4a",
+    "udt_clock_ensemble_stationarity_test_2026-09-30/checks/check_ensemble.py": "1b1cbe5130bed5a7d3a5c444acc28cf960e5b5e56582e6e5ccff2360b8a7aa81",
+    "udt_clock_ensemble_stationarity_test_2026-09-30/review/fidelity/DIRECT_REVIEW.md": "37b277e5492e1a3794eaa69e9f0ce304142c9384fdb3242717b1edfe1c1809cd",
+    "udt_clock_ensemble_stationarity_test_2026-09-30/review/fidelity/SOURCE_FIRST.md": "9a245a46ce7d2bac7a3164136a896dafe80c3f33ccaac1b5fdec43cee518c258",
+    "udt_clock_ensemble_stationarity_test_2026-09-30/review/fidelity/SOURCE_FIRST_PINS.json": "6e7cbed12dadd32464f9c87f2e3932fb548cc5d20b0773f8756b7716a8253c97",
+    "udt_clock_ensemble_stationarity_test_2026-09-30/review/fidelity/source_first_check.capture_provenance.json": "c22b6b7e98a4289119868e50e0f6457e4d57709db456d5185ad6532bc066e6dd",
+    "udt_clock_ensemble_stationarity_test_2026-09-30/review/fidelity/source_first_check.json": "4b65207d452dc322329f0af4d6cbb6e63e19081af6d568f83f67f3b0fba2768b",
+    "udt_clock_ensemble_stationarity_test_2026-09-30/review/fidelity/source_first_check.stderr": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "udt_clock_ensemble_stationarity_test_2026-09-30/review/fidelity/source_first_check.stdout": "1cab4cc5137c786a2b268e4f39592906a51c64c2aee0bcfdbbf7bf961657220a",
+    "udt_clock_ensemble_stationarity_test_2026-09-30/review/fidelity/source_first_checks.py": "e66b7d56112dbc843d51051f445ab440ef2cac9d95e9c6b82442abf75b603dd5"
+  }
+}

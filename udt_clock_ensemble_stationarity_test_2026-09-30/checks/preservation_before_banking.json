@@ -1,0 +1,15 @@
+{
+  "unrelated_untracked_names_unchanged": 52,
+  "scope": "Names only; protected payloads not opened or hashed. Immutable source pins preserved; central deliberately updated under review.",
+  "package_bytes": 154986,
+  "tracked_changed": [
+    "CURRENT_RESEARCH_PROGRAM.md",
+    "HANDOFF.md",
+    "LIVE.md",
+    "UDT_DEVELOPMENT.md",
+    "UDT_RESEARCH_ROADMAP.md",
+    "development_reconstruction_2026-09-29/DEVELOPMENT_GRAPH.json",
+    "development_reconstruction_2026-09-29/RECENT_DISPOSITIONS.tsv",
+    "development_reconstruction_2026-09-29/checks/test_maintenance.py"
+  ]
+}

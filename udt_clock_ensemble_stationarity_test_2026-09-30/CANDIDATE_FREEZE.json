@@ -1,0 +1,18 @@
+{
+  "status": "INITIAL_CONDITIONAL_CANDIDATE_FOR_DIRECT_REVIEW",
+  "exposure": "Root derived from frozen preparation before reviewer messages, wrote full candidate after both independently reported matching calculation; source-first reviewers sealed before direct exposure. Mathematical discovery, not blind confirmation.",
+  "sha256": {
+    "udt_clock_ensemble_stationarity_test_2026-09-30/WORK_ORDER.md": "c96e57301bb469fcf524b8723add04e3391a493810525ac7e09474875068b062",
+    "udt_clock_ensemble_stationarity_test_2026-09-30/PREPARATION.md": "e5ce5c7300c7d67f7232c8f9c24b8b636d722ec2b1917506b47cb70f0c49bc01",
+    "udt_clock_ensemble_stationarity_test_2026-09-30/PREPARATION_FREEZE.json": "9657d60f68225602f064f6adfe9b5f3dfa1afb886c93aa0a1eeea4fe7ae8caf0",
+    "udt_clock_ensemble_stationarity_test_2026-09-30/INITIAL_CANDIDATE.md": "cf82d5a6f6b84862da1a5ebbcdfe6f65bf8e862b2e41a05a6d6366f8699229e3",
+    "udt_clock_ensemble_stationarity_test_2026-09-30/CHECK_FREEZE.json": "f10a70c649e0c87091099537d47b73bd01055602093334a0aae341ccb8f97f07",
+    "udt_clock_ensemble_stationarity_test_2026-09-30/checks/CHECK_PLAN.md": "6df56a734b3b1f0347a5915f17ff048ac9e330970d2ad10890fec3bec106da15",
+    "udt_clock_ensemble_stationarity_test_2026-09-30/checks/check_ensemble.py": "1b1cbe5130bed5a7d3a5c444acc28cf960e5b5e56582e6e5ccff2360b8a7aa81",
+    "udt_clock_ensemble_stationarity_test_2026-09-30/checks/algebra_result.json": "93030f5d2227945c934b89d7620496a161083dabac250bf5e8b73bb1b4800e4a",
+    "udt_clock_ensemble_stationarity_test_2026-09-30/checks/algebra.json": "256db8188049c47203853e9a3263600e81f369aee56d75831ce420031bbca186",
+    "udt_clock_ensemble_stationarity_test_2026-09-30/checks/algebra.stdout": "93030f5d2227945c934b89d7620496a161083dabac250bf5e8b73bb1b4800e4a",
+    "udt_clock_ensemble_stationarity_test_2026-09-30/checks/algebra.stderr": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "udt_clock_ensemble_stationarity_test_2026-09-30/checks/algebra.capture_provenance.json": "0cc5a401938cb8c167cd3c51720b10ff14826c11053d0081ba83843f306f277f"
+  }
+}

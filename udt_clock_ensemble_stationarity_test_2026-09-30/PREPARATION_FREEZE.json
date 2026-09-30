@@ -1,0 +1,10 @@
+{
+  "utc": "2026-09-30T14:37:07.752563+00:00",
+  "scope": "Operational definition before explicit arrival/contrast calculation; FCV1 and PCW1 already exposed; no outcome-blind claim",
+  "sha256": {
+    "udt_clock_ensemble_stationarity_test_2026-09-30/WORK_ORDER.md": "c96e57301bb469fcf524b8723add04e3391a493810525ac7e09474875068b062",
+    "udt_clock_ensemble_stationarity_test_2026-09-30/PREPARATION.md": "e5ce5c7300c7d67f7232c8f9c24b8b636d722ec2b1917506b47cb70f0c49bc01",
+    "udt_clock_ensemble_stationarity_test_2026-09-30/LAUNCH.json": "e4e7c934145f2e14f91066f1a2650b7e101ef7fad07306ef00c8610d7658c4d7",
+    "udt_clock_ensemble_stationarity_test_2026-09-30/SOURCE_PINS.json": "3b7ae805f323af0b939d95ee5617b35626e481c45e0ef6ea262eef6a281feb94"
+  }
+}

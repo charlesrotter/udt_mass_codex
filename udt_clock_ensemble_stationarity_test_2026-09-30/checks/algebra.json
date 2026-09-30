@@ -1,0 +1,14 @@
+{
+  "command": [
+    "python3",
+    "udt_clock_ensemble_stationarity_test_2026-09-30/checks/check_ensemble.py"
+  ],
+  "cwd": "/home/udt-admin/udt_mass_codex",
+  "started_utc": "2026-09-30T14:44:30.487233+00:00",
+  "duration_seconds": 0.457600663008634,
+  "returncode": 0,
+  "timeout": false,
+  "address_space_bytes": 536870912,
+  "cpu_seconds": 60,
+  "maxrss_kib": 49356
+}

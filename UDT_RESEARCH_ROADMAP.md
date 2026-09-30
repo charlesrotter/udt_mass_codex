@@ -1,6 +1,6 @@
 # UDT research roadmap — current direction
 
-Updated 2026-09-30: PCW1 physical-connection whiteboard after GCA1/LKT1/SGE1/CDR1. This is a direction document, not scientific
+Updated 2026-09-30: CES1 clock-ensemble test after PCW1/GCA1/LKT1/SGE1/CDR1. This is a direction document, not scientific
 premise authority or research authorization. LIVE controls operational status;
 the exact registry and original reviewed sources control grades and scope.
 AGENTS controls method. Charles canonizes; CANON is unchanged.
@@ -12,15 +12,14 @@ This roadmap does not duplicate their detailed derivations or premise inventory.
 
 ## Current return and next discussion
 
-Charles requested central upkeep and a whiteboard proposing specific physical
-connections in any regime, including possible microscopic consistency constraints.
-[His exact direction](udt_physical_connection_whiteboard_2026-09-30/OWNER_DIRECTION.md)
-and [bounded work order](udt_physical_connection_whiteboard_2026-09-30/WORK_ORDER.md)
-control PCW1's proposal/review scope. The proposed connections and return boundary
-are integrated in [central R18](UDT_DEVELOPMENT.md#r18p), rather than maintained
-as another scientific narrative here. The [work record](udt_physical_connection_whiteboard_2026-09-30/WORK_RECORD.md)
-records actual review, checks and banking. No proposed physical connection is
-adopted, and no successor campaign starts automatically. Previous audit and
+Charles authorized the recommended physical clock-ensemble test after PCW1's
+whiteboard. The [bounded work order](udt_clock_ensemble_stationarity_test_2026-09-30/WORK_ORDER.md)
+controls CES1's preparation, exact-stationarity benchmark, review and return.
+Its conditional result is integrated in [central R18E](UDT_DEVELOPMENT.md#r18e).
+The [work record](udt_clock_ensemble_stationarity_test_2026-09-30/WORK_RECORD.md)
+records actual review, checks and banking. The supplied response law is not
+adopted, and the exact-flat benchmark is not a new founding requirement.
+No successor campaign starts automatically. Previous audit, proposal and
 conditional returns keep their original scopes; exact grades and CANON do not change.
 
 The preceding discussion corrected the suggestion that “model building” would

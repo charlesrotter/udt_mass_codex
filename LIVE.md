@@ -1,15 +1,16 @@
 # LIVE — operational status
 
 <!-- STARTUP_CURRENT_BEGIN -->
-## CURRENT STATE — PCW1 after GCA1/LKT1/SGE1/CDR1, 2026-09-30
+## CURRENT STATE — CES1 after PCW1/GCA1/LKT1/SGE1/CDR1, 2026-09-30
 
 Work on `grok`; independently verify HEAD, synchronization and dirt.
-Charles authorized central documentation upkeep and a whiteboard proposing
-specific physical connections across regimes. PCW1's return is integrated in
-UDT_DEVELOPMENT.md R18; original CDR1/SGE1/LKT1/GCA1 scopes remain preserved.
-Scope and actual execution evidence are in
-`udt_physical_connection_whiteboard_2026-09-30/WORK_ORDER.md` and `WORK_RECORD.md`.
-The proposals are UNADOPTED. No successor derivation campaign is authorized.
+Charles authorized the recommended bounded physical clock-ensemble test,
+including checks, separate-context review and central integration. CES1's return
+is integrated in UDT_DEVELOPMENT.md R18E; preceding CDR1/SGE1/LKT1/GCA1/PCW1
+scopes remain preserved. Scope and actual execution evidence are in
+`udt_clock_ensemble_stationarity_test_2026-09-30/WORK_ORDER.md` and `WORK_RECORD.md`.
+The proposed physical response law remains UNADOPTED. No successor campaign
+is authorized by this completed work order.
 
 ### Honest claim
 
@@ -42,10 +43,11 @@ Protected: do not inspect, hash, stage, modify, mine or cite payloads without di
 
 ### Next gate
 
-Stop for lay discussion of PCW1's physical-connection proposals in central R18.
+Stop for lay discussion of CES1's reviewed conditional return in central R18E.
 The work record, actual reviewer attestations, check receipts and Git history
-own verification and banking. Proposal review does not adopt a response law,
-query measure, radiation population, quantum interface or new physical premise.
-Existing pauses and scientific grades remain unchanged. A subsequent work order
-must specify its actual candidate protocol, premises and decisive test.
+own verification and banking. The exact-flat benchmark is not a newly adopted
+UDT or local-SR requirement. No response law, population, source or quantum
+interface is adopted. Existing pauses and grades remain unchanged. A subsequent
+work order must specify its physical question, premises and decisive test.
+
 <!-- STARTUP_CURRENT_END -->

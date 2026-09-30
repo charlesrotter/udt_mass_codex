@@ -696,6 +696,29 @@
         "udt_physical_connection_whiteboard_2026-09-30/proposals/cosmic/INITIAL_PROPOSAL.md"
       ],
       "registry_ids": []
+    },
+    {
+      "id": "C_CES_PROTOCOL",
+      "kind": "method_hypotheses",
+      "statement": "UNADOPTED supplied C=mean(log Z squared)/2; covariant physical lab/test-clock preparation, fixed positive-rapidity product label measure, regular null/proper-clock branches, and exact Minkowski stationarity as diagnostic only, not local SR or founding UDT.",
+      "sources": [
+        "udt_clock_ensemble_stationarity_test_2026-09-30/PREPARATION.md"
+      ]
+    },
+    {
+      "id": "R18E",
+      "kind": "argument",
+      "anchor": "r18e",
+      "title": "CES1 conditional adverse derivative for the prepared clock ensemble",
+      "registry_ids": [],
+      "sources": [
+        "udt_clock_ensemble_stationarity_test_2026-09-30/PREPARATION.md",
+        "udt_clock_ensemble_stationarity_test_2026-09-30/INITIAL_CANDIDATE.md",
+        "udt_clock_ensemble_stationarity_test_2026-09-30/REVIEWED_RESULT.md"
+      ],
+      "required_conditions": [
+        "C_CES_PROTOCOL"
+      ]
     }
   ],
   "edges": [
@@ -1268,6 +1291,36 @@
       "from": "O_PCW_PROPOSALS",
       "to": "R18",
       "kind": "open_boundary"
+    },
+    {
+      "from": "C_CES_PROTOCOL",
+      "to": "R18E",
+      "kind": "hypothesis"
+    },
+    {
+      "from": "O_PCW_PROPOSALS",
+      "to": "R18E",
+      "kind": "context"
+    },
+    {
+      "from": "R6",
+      "to": "R18E",
+      "kind": "context"
+    },
+    {
+      "from": "R9",
+      "to": "R18E",
+      "kind": "context"
+    },
+    {
+      "from": "R17",
+      "to": "R18E",
+      "kind": "context"
+    },
+    {
+      "from": "R18E",
+      "to": "R18",
+      "kind": "interpretation"
     }
   ],
   "sources_sha256": {
@@ -1351,7 +1404,10 @@
     "udt_physical_connection_whiteboard_2026-09-30/REVIEWED_RESULT.md": "b17509671833c7319b5bdd0553679a09982265c6df2b7db5aff76aced0c33646",
     "udt_physical_connection_whiteboard_2026-09-30/proposals/local/INITIAL_PROPOSAL.md": "cedffe7b0358f2f9abdd9fd0f66e199cb3d517ff24f71bd777c212032c090325",
     "udt_physical_connection_whiteboard_2026-09-30/proposals/micro/INITIAL_PROPOSAL.md": "bf2dedcb7bd4c0e29db01b73cc860e509dc830b3835583366075b53e592d4576",
-    "udt_physical_connection_whiteboard_2026-09-30/proposals/cosmic/INITIAL_PROPOSAL.md": "e9b19bafd8fabac821f8521577003ee4ca397f4a7d712dc5e7d4e8fca4ef89ca"
+    "udt_physical_connection_whiteboard_2026-09-30/proposals/cosmic/INITIAL_PROPOSAL.md": "e9b19bafd8fabac821f8521577003ee4ca397f4a7d712dc5e7d4e8fca4ef89ca",
+    "udt_clock_ensemble_stationarity_test_2026-09-30/PREPARATION.md": "e5ce5c7300c7d67f7232c8f9c24b8b636d722ec2b1917506b47cb70f0c49bc01",
+    "udt_clock_ensemble_stationarity_test_2026-09-30/INITIAL_CANDIDATE.md": "cf82d5a6f6b84862da1a5ebbcdfe6f65bf8e862b2e41a05a6d6366f8699229e3",
+    "udt_clock_ensemble_stationarity_test_2026-09-30/REVIEWED_RESULT.md": "4152b3223979c72fd8686124d7af484a399644920a669928462bc9f5f2bb6ea4"
   },
   "impact_policy": "Any changed source or registry row flags its mapped positive and negative central arguments and every reachable central descendant for review; no automatic truth reversal or regrading.",
   "review_support": [
@@ -1551,6 +1607,26 @@
         "R18"
       ],
       "scope": "PCW1 proposal/negative-scope review only; no adoption, proof input or grade promotion. Final integration acceptance is separate."
+    },
+    {
+      "path": "udt_clock_ensemble_stationarity_test_2026-09-30/review/math/DIRECT_REVIEW.md",
+      "sha256": "28f2f6e7bcabe5b86a7672af94544f7b864a778dce6f41ade73fcde996a764de",
+      "role": "review_evidence",
+      "targets": [
+        "R18E",
+        "R18"
+      ],
+      "scope": "Conditional CES1 proof and scoped adverse benchmark; no premise/adoption/grade input. Final integration acceptance separate."
+    },
+    {
+      "path": "udt_clock_ensemble_stationarity_test_2026-09-30/review/fidelity/DIRECT_REVIEW.md",
+      "sha256": "37b277e5492e1a3794eaa69e9f0ce304142c9384fdb3242717b1edfe1c1809cd",
+      "role": "review_evidence",
+      "targets": [
+        "R18E",
+        "R18"
+      ],
+      "scope": "Conditional CES1 proof and scoped adverse benchmark; no premise/adoption/grade input. Final integration acceptance separate."
     }
   ]
 }

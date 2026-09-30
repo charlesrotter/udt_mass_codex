@@ -1,0 +1,23 @@
+{
+  "utc": "2026-09-30T14:41:53.432797+00:00",
+  "stage": "source-first argument and diagnostic freeze; before CES1 candidate/code exposure and own check execution",
+  "context": "/root/ces_math",
+  "head": "c4bdbead3eb1f0387fe75cc2fcf41fcf49e9c2aa",
+  "independence": "separate inherited-model context, independently written argument and check script; FCV1 and frozen preparation exposed; no different-model claim",
+  "sha256": {
+    "AGENTS.md": "8ae0d968a20f416ec628fcf9ad445d370822889a720168104a8e41aef2b1094c",
+    "CLAUDE.md": "4ad2e773defb89cc79541fd0ababd75af5a3344ab134ee83722dfd943966e6e4",
+    "udt_clock_ensemble_stationarity_test_2026-09-30/WORK_ORDER.md": "c96e57301bb469fcf524b8723add04e3391a493810525ac7e09474875068b062",
+    "udt_clock_ensemble_stationarity_test_2026-09-30/PREPARATION.md": "e5ce5c7300c7d67f7232c8f9c24b8b636d722ec2b1917506b47cb70f0c49bc01",
+    "udt_clock_ensemble_stationarity_test_2026-09-30/PREPARATION_FREEZE.json": "9657d60f68225602f064f6adfe9b5f3dfa1afb886c93aa0a1eeea4fe7ae8caf0",
+    "udt_finite_clock_metric_variation_2026-09-28/INITIAL_CANDIDATE.md": "ed65323a439e1d509bc0241c6550a5485e3f1a496b06b6ab01eb34692443d1d4",
+    "udt_finite_clock_metric_variation_2026-09-28/REVIEWED_RESULT.md": "609f7889104aa3cc9804926738e888a83df7d593db7daab0763aef20809023f8",
+    "udt_g310_differential_dual_reciprocity_tracefree_ownership_2026-08-31/EXACT_DERIVATION.md": "a417b3cfa1cc6136429a14d3b330c1b8c25c73c9e946d6b6454d6ffae72c25a0",
+    "startup_surface_g310_universal_reciprocity_refresh_2026-08-31/ADOPTION_RECORD.md": "4eb7d0a1130dcff997bc5180f420b633e2dcbbb5072d098997ba3672b38d8ab5",
+    "CURRENT_SCIENTIFIC_PREMISES.tsv": "7a3d69d5a0bc3ac98e2ebe2bb0c6d029df30071bf403baffed2223a193dc720b",
+    "UDT_DEVELOPMENT.md": "9040da7064bb392d5ed9cfba968560b2188cec658b0089d59e612c51fbe3d4e3",
+    "udt_local_kernel_symmetry_release_2026-09-13/capture.py": "78f3d662e42e072e66e6a31469572cae72fc77e307a67237efa7be310623b127",
+    "udt_clock_ensemble_stationarity_test_2026-09-30/review/math/SOURCE_FIRST.md": "b2104da6d32919d23250c19402320581dddfd0f126e9fa384446ae4eea7aa0b7",
+    "udt_clock_ensemble_stationarity_test_2026-09-30/review/math/independent_checks.py": "41f9a9eb32fb2d4f8f27250ec417269d110302f470f6153461f983d8b1816765"
+  }
+}

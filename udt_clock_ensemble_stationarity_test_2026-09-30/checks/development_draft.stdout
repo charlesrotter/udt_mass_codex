@@ -1,0 +1,8 @@
+{
+  "status": "DRAFT_COHERENCE_ONLY",
+  "registry_rows": 406,
+  "later_returns": 30,
+  "central_arguments": 18,
+  "source_pins": 84,
+  "scope": "Version, routing and bounded regression checks; not semantic completeness, canon or full-corpus reproof."
+}

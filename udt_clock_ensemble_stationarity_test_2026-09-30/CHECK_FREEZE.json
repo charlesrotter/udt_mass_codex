@@ -1,0 +1,8 @@
+{
+  "stage": "before producer check execution",
+  "sha256": {
+    "udt_clock_ensemble_stationarity_test_2026-09-30/INITIAL_CANDIDATE.md": "cf82d5a6f6b84862da1a5ebbcdfe6f65bf8e862b2e41a05a6d6366f8699229e3",
+    "udt_clock_ensemble_stationarity_test_2026-09-30/checks/CHECK_PLAN.md": "6df56a734b3b1f0347a5915f17ff048ac9e330970d2ad10890fec3bec106da15",
+    "udt_clock_ensemble_stationarity_test_2026-09-30/checks/check_ensemble.py": "1b1cbe5130bed5a7d3a5c444acc28cf960e5b5e56582e6e5ccff2360b8a7aa81"
+  }
+}

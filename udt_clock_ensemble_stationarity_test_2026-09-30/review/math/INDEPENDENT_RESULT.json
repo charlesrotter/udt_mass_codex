@@ -1,0 +1,61 @@
+{
+  "status": "PASS",
+  "evidence_type": "exact symbolic algebra controls; analytic support proof in SOURCE_FIRST.md",
+  "python": "3.10.12",
+  "sympy": "1.13.1",
+  "identities_passed": 23,
+  "identities": [
+    "exact_radial_null_constraint",
+    "exact_radial_determinant",
+    "momentum_time_component",
+    "covariant_geodesic_momentum_equation",
+    "frequency_first_variation_density",
+    "covariant_strain_factor_two",
+    "reciprocal_radial_component",
+    "reciprocal_metric_trace",
+    "moving_receiver_exact_intersection",
+    "moving_receiver_first_variation",
+    "proper_receiver_normalization",
+    "fractional_clock_response",
+    "rapidity_to_unit_velocity",
+    "baseline_received_Doppler_ratio",
+    "FCV1_coordinate_arrival",
+    "FCV1_proper_arrival",
+    "FCV1_full_Q_coordinate_label",
+    "FCV1_full_Q_proper_label",
+    "squared_contrast_chain_rule",
+    "fixed_measure_mean_derivative",
+    "polynomial_B0_control",
+    "polynomial_B1_control",
+    "original_null_ODE_integral_control"
+  ],
+  "wrong_formulas_rejected": 6,
+  "rejections": [
+    {
+      "name": "omitted_receiver_intersection_motion",
+      "nonzero_difference": "-1/5"
+    },
+    {
+      "name": "omitted_proper_clock_normalization",
+      "nonzero_difference": "1/2"
+    },
+    {
+      "name": "wrong_null_momentum_sign",
+      "nonzero_difference": "-2/15"
+    },
+    {
+      "name": "missing_reciprocal_factor_two",
+      "nonzero_difference": "-1/30"
+    },
+    {
+      "name": "falsely_stationary_contrast",
+      "nonzero_difference": "-2/45"
+    },
+    {
+      "name": "inverse_Doppler_for_received_ratio",
+      "nonzero_difference": "-3/2"
+    }
+  ],
+  "derived_response": "delta log Z = 2 B0; delta C = 2 B0 mean_eta > 0 in frozen positive-rapidity class",
+  "omissions": "No numerical bump integration, PDE, locality analysis, full source reproof, empirical or adoption claim."
+}

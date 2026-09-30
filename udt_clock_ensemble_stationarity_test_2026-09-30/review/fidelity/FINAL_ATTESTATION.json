@@ -1,5 +1,11 @@
 {
-  "status": "REVIEWED_WITH_LIMITS",
+  "context": "/root/ces_fidelity",
+  "verdict": "ACCEPT_WITH_LIMITS",
+  "reviewed_utc": "2026-09-30T14:53:42.917048+00:00",
+  "report_path": "udt_clock_ensemble_stationarity_test_2026-09-30/review/fidelity/FINAL_REVIEW.md",
+  "report_sha256": "1f7d2a3fca01b632b034e74ab8ee10d40407f4d488fdb02fd73ac2c289a5faa2",
+  "integration_freeze_path": "udt_clock_ensemble_stationarity_test_2026-09-30/INTEGRATION_FREEZE.json",
+  "integration_freeze_sha256": "d12fc059a35bdf15f514b8fb3afedec7e3e407b90d28217746c1a86a72ada831",
   "accepted_sha256": {
     "AGENTS.md": "8ae0d968a20f416ec628fcf9ad445d370822889a720168104a8e41aef2b1094c",
     "CLAUDE.md": "4ad2e773defb89cc79541fd0ababd75af5a3344ab134ee83722dfd943966e6e4",
@@ -130,17 +136,31 @@
     "verify_current_scientific_premises.py": "a983c2456ce3a122629a116c735b32b96e055829ed3012fb416fabfa9b0b8127",
     "verify_udt_development.py": "2825e3c31351f2c81ae39cede427b5c50fc62c98cd02d7a4059692b08bb6c94c"
   },
-  "reviewers": [
-    {
-      "context": "/root/ces_math",
-      "attestation": "udt_clock_ensemble_stationarity_test_2026-09-30/review/math/FINAL_ATTESTATION.json",
-      "sha256": "fa13aad5d02f9c96ad2988e144dcc4f048cd6064406933ad07803a827258a5e3"
-    },
-    {
-      "context": "/root/ces_fidelity",
-      "attestation": "udt_clock_ensemble_stationarity_test_2026-09-30/review/fidelity/FINAL_ATTESTATION.json",
-      "sha256": "6bb26b6dbc47018b5dea06bcb70ff52775f07b8748bdf2403e3f2979cec24463"
-    }
-  ],
-  "scope": "CES1 conditional prepared-clock nonstationarity and actual central integration; two fresh source-first/direct/final contexts, no required scientific repair. Explicit supplied protocol and diagnostic benchmark, no local-SR/UDT refutation, no physical law or grades adopted. Prior record preserved in CES1/PREVIOUS_REVIEW_RECORD.json. Unchanged prior bytes inherit prior scope. Full audit and banking remain separate execution gates. Metadata-key setup failure and interrupted initial audit preserved in BANKING_SETUP_NOTE.md; actual reviews unchanged."
+  "check_evidence_sha256": {
+    "udt_clock_ensemble_stationarity_test_2026-09-30/review/fidelity/final_validation.stdout": "a01672c2fd975568ce5e8ae955f38e547d6428eb8b9c0bb45337cf66c57fe20f",
+    "udt_clock_ensemble_stationarity_test_2026-09-30/review/fidelity/final_validation.stderr": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "udt_clock_ensemble_stationarity_test_2026-09-30/review/fidelity/final_validation.json": "0f10908f7cb250e8f9eba3f9c93725e450a354bb922da8450372e5258716f9cf",
+    "udt_clock_ensemble_stationarity_test_2026-09-30/review/fidelity/final_validation.capture_provenance.json": "3a1f760bb9268a3e2596b1418f3a4953ab52b242db869bf3852a781bf6ad8553",
+    "udt_clock_ensemble_stationarity_test_2026-09-30/review/fidelity/final_guard_tests.stdout": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "udt_clock_ensemble_stationarity_test_2026-09-30/review/fidelity/final_guard_tests.stderr": "5d0c105593159eb9aa9121d8673928d2c628d00238e526d1a561d2f20a261b6f",
+    "udt_clock_ensemble_stationarity_test_2026-09-30/review/fidelity/final_guard_tests.json": "517249c926c68f9573f9f6f2ad804c45a31684562d1068b0bed1261721c1e81a",
+    "udt_clock_ensemble_stationarity_test_2026-09-30/review/fidelity/final_guard_tests.capture_provenance.json": "badbdde80ab3792182a2c28d24e18af3d7c6b24787b5f7feabf2939ba7b6b3d4",
+    "udt_clock_ensemble_stationarity_test_2026-09-30/review/fidelity/final_draft_guard.stdout": "544be0011632adce0dae4c5540f8326aa7dc7a0a8d588736f110e69bb350a89b",
+    "udt_clock_ensemble_stationarity_test_2026-09-30/review/fidelity/final_draft_guard.stderr": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "udt_clock_ensemble_stationarity_test_2026-09-30/review/fidelity/final_draft_guard.json": "8cabbaeda61332ea17163905ad5081294b495bbad10bf88b18b14e5d4a0bf840",
+    "udt_clock_ensemble_stationarity_test_2026-09-30/review/fidelity/final_draft_guard.capture_provenance.json": "bab242bae9d0df036e95dd650309aac29b56241bb24073ad1bc12ab77232526d"
+  },
+  "exposure": {
+    "source_first": "fresh separate context; frozen preparation, source formulas and prior source verdicts; no CES1 candidate/code/other reviewer before seal",
+    "direct_final": "candidate, producer code/outputs, changed integrated files and final parent summaries exposed; other CES1 reviewer content hashed, not read",
+    "model": "same inherited model; exact runtime unavailable",
+    "implementation": "independently written source-first algebra code; final shared guard replay is regression"
+  },
+  "limits": [
+    "Conditional prepared positive-rapidity ensemble benchmark only; no physical adoption or registry/canon grade change",
+    "93 unchanged inherited paths retain old review scopes; not all 128 files newly read or reproved",
+    "Local SR, UDT viability, GR empirical recovery and metric locality not refuted or established",
+    "Human, formal, different-model and different-library review untested",
+    "Normal final guard, full406 audit, staged inspection, commit and push remain parent gates"
+  ]
 }

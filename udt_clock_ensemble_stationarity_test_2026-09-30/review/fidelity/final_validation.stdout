@@ -1,0 +1,33 @@
+{
+  "status": "PASS",
+  "scope": "Integration byte correspondence and inherited-review routing",
+  "python": "3.10.12",
+  "integration_freeze_sha256": "d12fc059a35bdf15f514b8fb3afedec7e3e407b90d28217746c1a86a72ada831",
+  "accepted_paths_verified": 128,
+  "previous_paths": 101,
+  "unchanged_inherited_paths": 93,
+  "changed_preexisting_paths": [
+    "CURRENT_RESEARCH_PROGRAM.md",
+    "HANDOFF.md",
+    "LIVE.md",
+    "UDT_DEVELOPMENT.md",
+    "UDT_RESEARCH_ROADMAP.md",
+    "development_reconstruction_2026-09-29/DEVELOPMENT_GRAPH.json",
+    "development_reconstruction_2026-09-29/RECENT_DISPOSITIONS.tsv",
+    "development_reconstruction_2026-09-29/checks/test_maintenance.py"
+  ],
+  "added_paths": 27,
+  "candidate_freeze_entries_verified": 12,
+  "generated_orientation_matches": true,
+  "unchanged_against_launch": {
+    "CURRENT_SCIENTIFIC_PREMISES.tsv": true,
+    "CANON.md": true,
+    "founding.md": true
+  },
+  "limits": [
+    "Hashes are not scientific proof or semantic completeness",
+    "Other CES1 reviewer content hashed, not read",
+    "Prior source reviews inherited at their original scope only",
+    "Full premise audit, final normal guard, commit and push not performed here"
+  ]
+}

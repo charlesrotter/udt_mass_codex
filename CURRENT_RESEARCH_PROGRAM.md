@@ -5,7 +5,7 @@ This bounded startup view is generated from its opening; edit that source.
 LIVE.md owns operational status; CURRENT_SCIENTIFIC_PREMISES.tsv owns exact grades.
 
 <!-- GENERATED_DEVELOPMENT_BEGIN -->
-**Continuous development — CDR1 with SGE1, LKT1, GCA1 and PCW1, 2026-09-30.** This is the maintained
+**Continuous development — CDR1 with SGE1, LKT1, GCA1, PCW1 and CES1, 2026-09-30.** This is the maintained
 scientific development. It is not canon or a new scientific-grade authority.
 The exact registry and reviewed sources own grades; LIVE owns operational status.
 Current review bindings and limits are recorded in section9; startup reads the
@@ -45,6 +45,11 @@ PCW1 adds explicit unadopted physical connections in R18: clock-ensemble
 response, radiation-defined comparison clocks, and quantum vacuum response.
 Two stronger shortcuts fail their stated diagnostic tests. These proposals do
 not add accepted dependencies or supply the missing positional prediction.
+CES1 tests L1 with a covariantly prepared receding-clock ensemble. Its squared
+log-clock contrast has a nonzero first variation at Minkowski under a compact
+reciprocal strain. This fails that ensemble's exact flat-stationarity benchmark;
+it does not refute ordinary local SR, other ensembles or UDT. The response law
+remains UNADOPTED, and locality was not established or tested beyond that stop.
 <!-- GENERATED_DEVELOPMENT_END -->
 
 ## Current next gate

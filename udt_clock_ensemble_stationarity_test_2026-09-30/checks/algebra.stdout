@@ -1,0 +1,34 @@
+{
+  "status": "PASS",
+  "kind": "exact_symbolic_regression_not_physical_adoption",
+  "python": "3.10.12",
+  "sympy": "1.13.1",
+  "domain": "q=exp(eta)>1; B0>0; finite compact smooth controls in candidate",
+  "exact_identities": {
+    "proper_normalization": "0",
+    "rapidity_clock_factor": "0",
+    "baseline_interception": "0",
+    "moving_receiver": "0",
+    "proper_arrival": "0",
+    "proper_arrival_variation": "0",
+    "baseline_tick_ratio": "0",
+    "tick_ratio_variation": "0",
+    "contrast_variation": "0",
+    "contrast_density": "0",
+    "affine_endpoint_crosscheck": "0",
+    "full_denominator_derivative": "0",
+    "matched_inverse_product": "0",
+    "zero_rapidity_control": "0",
+    "finite_metric_determinant": "0",
+    "reciprocal_trace": "0",
+    "strain_tt_factor": "0",
+    "strain_rr_factor": "0"
+  },
+  "rejected_nonidentities": {
+    "dropped_receiver_motion": "(q - 1)*(q + 1)*(B0*s + B1)",
+    "dropped_clock_normalization": "-(q - 1)**2*(B0*s + B1)",
+    "dropped_frequency_denominator_derivative": "-2*(q - 1)*(q + 1)*(B0*s + B1)/(L*q**2 + L + q**2*s - s)",
+    "missing_reciprocal_factor_two": "B0"
+  },
+  "conclusion": "delta C = 2 B0 mean(eta) > 0 for frozen preparation class"
+}

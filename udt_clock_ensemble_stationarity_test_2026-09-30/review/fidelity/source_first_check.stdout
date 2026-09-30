@@ -1,0 +1,77 @@
+{
+  "python": "3.10.12",
+  "sympy": "1.13.1",
+  "scope": "Exact algebra anchors for independent analytic source-first argument",
+  "checks": [
+    {
+      "name": "baseline moving intersection",
+      "kind": "exact identity",
+      "pass": true
+    },
+    {
+      "name": "moving arrival perturbation",
+      "kind": "exact identity",
+      "pass": true
+    },
+    {
+      "name": "log tick perturbation",
+      "kind": "exact identity",
+      "pass": true
+    },
+    {
+      "name": "omit moving receiver intersection",
+      "kind": "wrong formula rejected",
+      "pass": true,
+      "nonzero_residual": "-2*v*(B0*s + B1)"
+    },
+    {
+      "name": "physical rapidity baseline Z=e^eta",
+      "kind": "exact identity",
+      "pass": true
+    },
+    {
+      "name": "coordinate arrival slope is proper tick ratio",
+      "kind": "wrong formula rejected",
+      "pass": true,
+      "nonzero_residual": "1/2"
+    },
+    {
+      "name": "FCV1 affine arrival cross-check",
+      "kind": "exact identity",
+      "pass": true
+    },
+    {
+      "name": "endpoint motion denominator cancellation",
+      "kind": "exact identity",
+      "pass": true
+    },
+    {
+      "name": "exact full determinant",
+      "kind": "exact identity",
+      "pass": true
+    },
+    {
+      "name": "factor-two reciprocal tangent",
+      "kind": "exact identity",
+      "pass": true
+    },
+    {
+      "name": "trace-free tangent",
+      "kind": "exact identity",
+      "pass": true
+    },
+    {
+      "name": "future radial null slope",
+      "kind": "exact identity",
+      "pass": true
+    }
+  ],
+  "passed": 12,
+  "not_claimed": [
+    "smooth bump support proved by this script",
+    "formal proof",
+    "different model/library",
+    "physical field solution",
+    "locality theorem"
+  ]
+}
