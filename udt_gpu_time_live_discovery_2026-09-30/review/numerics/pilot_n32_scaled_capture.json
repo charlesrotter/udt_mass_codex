@@ -1,0 +1,20 @@
+{
+  "command": [
+    "python3",
+    "udt_gpu_time_live_discovery_2026-09-30/review/numerics/independent_numerics.py",
+    "udt_gpu_time_live_discovery_2026-09-30/runs/pilot_n32/fields.npz",
+    "udt_gpu_time_live_discovery_2026-09-30/runs/pilot_n32/metadata.json",
+    "--output",
+    "udt_gpu_time_live_discovery_2026-09-30/review/numerics/PILOT_N32_SCALED.json",
+    "--centers",
+    "2,3"
+  ],
+  "cwd": "/home/udt-admin/udt_mass_codex",
+  "started_utc": "2026-09-30T22:38:56.871898+00:00",
+  "duration_seconds": 0.19243493303656578,
+  "returncode": 0,
+  "timeout": false,
+  "address_space_bytes": 2147483648,
+  "cpu_seconds": 180,
+  "maxrss_kib": 79788
+}

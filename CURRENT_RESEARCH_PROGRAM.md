@@ -5,7 +5,7 @@ This bounded startup view is generated from its opening; edit that source.
 LIVE.md owns operational status; CURRENT_SCIENTIFIC_PREMISES.tsv owns exact grades.
 
 <!-- GENERATED_DEVELOPMENT_BEGIN -->
-**Continuous development — CDR1 with SGE1, LKT1, GCA1, PCW1, CES1, CCR1, PRI1 and TRI1, 2026-09-30.** This is the maintained
+**Continuous development — CDR1 with SGE1, LKT1, GCA1, PCW1, CES1, CCR1, PRI1, TRI1 and NGD1, 2026-09-30.** This is the maintained
 scientific development. It is not canon or a new scientific-grade authority.
 The exact registry and reviewed sources own grades; LIVE owns operational status.
 Current review bindings and limits are recorded in section9; startup reads the
@@ -63,6 +63,12 @@ TRI1 clarifies that a population rest criterion is optional: supplied actual
 clocks and their regular null correspondence already determine received ticking.
 Ray normalization cancels from the ratio; absolute cadence and combined counts
 require their own supplied data. No population route becomes a universal gate.
+NGD1 adds an independently checked GPU time-evolution pilot in the conditional
+Ric=0 comparison sector (R12N): both polarizations and finite constrained data
+families evolve, and actual supplied-clock shifts are computed. A nonnegative
+contribution relative to its specified homogeneous control need not mean total
+redshift. This is a numerical method and conditional-geometry gain, not native
+law selection or complete solution-space coverage.
 <!-- GENERATED_DEVELOPMENT_END -->
 
 ## Current next gate

@@ -1,0 +1,1197 @@
+{
+  "spec": {
+    "stage": "preregistered_survey_or_challenge",
+    "n": 256,
+    "k": 0.75,
+    "dt": 0.005,
+    "end": 16.0,
+    "snapshot_dt": 0.25,
+    "stencil_centers": [
+      2.0,
+      8.0,
+      15.0
+    ],
+    "device": "cuda",
+    "constraint_stop": 0.05,
+    "cases": [
+      {
+        "id": "homogeneous"
+      },
+      {
+        "id": "ne1_e030",
+        "V": [
+          [
+            1,
+            0.45,
+            0
+          ]
+        ]
+      },
+      {
+        "id": "ne1_e060",
+        "V": [
+          [
+            1,
+            0.9,
+            0
+          ]
+        ]
+      },
+      {
+        "id": "homogeneous_unpolarized",
+        "W": [
+          [
+            0,
+            0.4,
+            0
+          ]
+        ]
+      },
+      {
+        "id": "a0_p0",
+        "amplitude": 0.15,
+        "phase": 0.0,
+        "V": [
+          [
+            1,
+            0.15,
+            0
+          ],
+          [
+            2,
+            0.045,
+            0.0
+          ],
+          [
+            3,
+            0.0225,
+            0.3
+          ]
+        ],
+        "W": [
+          [
+            1,
+            0.105,
+            0.2
+          ],
+          [
+            2,
+            0.0375,
+            0.8
+          ],
+          [
+            3,
+            0.018,
+            0.0
+          ]
+        ]
+      },
+      {
+        "id": "a0_p1",
+        "amplitude": 0.15,
+        "phase": 0.7,
+        "V": [
+          [
+            1,
+            0.15,
+            0
+          ],
+          [
+            2,
+            0.045,
+            0.7
+          ],
+          [
+            3,
+            0.0225,
+            1.0
+          ]
+        ],
+        "W": [
+          [
+            1,
+            0.105,
+            0.8999999999999999
+          ],
+          [
+            2,
+            0.0375,
+            0.8
+          ],
+          [
+            3,
+            0.018,
+            0.7
+          ]
+        ]
+      },
+      {
+        "id": "a0_p2",
+        "amplitude": 0.15,
+        "phase": 1.6,
+        "V": [
+          [
+            1,
+            0.15,
+            0
+          ],
+          [
+            2,
+            0.045,
+            1.6
+          ],
+          [
+            3,
+            0.0225,
+            1.9000000000000001
+          ]
+        ],
+        "W": [
+          [
+            1,
+            0.105,
+            1.8
+          ],
+          [
+            2,
+            0.0375,
+            0.8
+          ],
+          [
+            3,
+            0.018,
+            1.6
+          ]
+        ]
+      },
+      {
+        "id": "a0_p3",
+        "amplitude": 0.15,
+        "phase": 2.4,
+        "V": [
+          [
+            1,
+            0.15,
+            0
+          ],
+          [
+            2,
+            0.045,
+            2.4
+          ],
+          [
+            3,
+            0.0225,
+            2.6999999999999997
+          ]
+        ],
+        "W": [
+          [
+            1,
+            0.105,
+            2.6
+          ],
+          [
+            2,
+            0.0375,
+            0.8
+          ],
+          [
+            3,
+            0.018,
+            2.4
+          ]
+        ]
+      },
+      {
+        "id": "a1_p0",
+        "amplitude": 0.45,
+        "phase": 0.0,
+        "V": [
+          [
+            1,
+            0.45,
+            0
+          ],
+          [
+            2,
+            0.135,
+            0.0
+          ],
+          [
+            3,
+            0.0675,
+            0.3
+          ]
+        ],
+        "W": [
+          [
+            1,
+            0.315,
+            0.2
+          ],
+          [
+            2,
+            0.1125,
+            0.8
+          ],
+          [
+            3,
+            0.054,
+            0.0
+          ]
+        ]
+      },
+      {
+        "id": "a1_p1",
+        "amplitude": 0.45,
+        "phase": 0.7,
+        "V": [
+          [
+            1,
+            0.45,
+            0
+          ],
+          [
+            2,
+            0.135,
+            0.7
+          ],
+          [
+            3,
+            0.0675,
+            1.0
+          ]
+        ],
+        "W": [
+          [
+            1,
+            0.315,
+            0.8999999999999999
+          ],
+          [
+            2,
+            0.1125,
+            0.8
+          ],
+          [
+            3,
+            0.054,
+            0.7
+          ]
+        ]
+      },
+      {
+        "id": "a1_p2",
+        "amplitude": 0.45,
+        "phase": 1.6,
+        "V": [
+          [
+            1,
+            0.45,
+            0
+          ],
+          [
+            2,
+            0.135,
+            1.6
+          ],
+          [
+            3,
+            0.0675,
+            1.9000000000000001
+          ]
+        ],
+        "W": [
+          [
+            1,
+            0.315,
+            1.8
+          ],
+          [
+            2,
+            0.1125,
+            0.8
+          ],
+          [
+            3,
+            0.054,
+            1.6
+          ]
+        ]
+      },
+      {
+        "id": "a1_p3",
+        "amplitude": 0.45,
+        "phase": 2.4,
+        "V": [
+          [
+            1,
+            0.45,
+            0
+          ],
+          [
+            2,
+            0.135,
+            2.4
+          ],
+          [
+            3,
+            0.0675,
+            2.6999999999999997
+          ]
+        ],
+        "W": [
+          [
+            1,
+            0.315,
+            2.6
+          ],
+          [
+            2,
+            0.1125,
+            0.8
+          ],
+          [
+            3,
+            0.054,
+            2.4
+          ]
+        ]
+      },
+      {
+        "id": "a2_p0",
+        "amplitude": 0.9,
+        "phase": 0.0,
+        "V": [
+          [
+            1,
+            0.9,
+            0
+          ],
+          [
+            2,
+            0.27,
+            0.0
+          ],
+          [
+            3,
+            0.135,
+            0.3
+          ]
+        ],
+        "W": [
+          [
+            1,
+            0.63,
+            0.2
+          ],
+          [
+            2,
+            0.225,
+            0.8
+          ],
+          [
+            3,
+            0.108,
+            0.0
+          ]
+        ]
+      },
+      {
+        "id": "a2_p1",
+        "amplitude": 0.9,
+        "phase": 0.7,
+        "V": [
+          [
+            1,
+            0.9,
+            0
+          ],
+          [
+            2,
+            0.27,
+            0.7
+          ],
+          [
+            3,
+            0.135,
+            1.0
+          ]
+        ],
+        "W": [
+          [
+            1,
+            0.63,
+            0.8999999999999999
+          ],
+          [
+            2,
+            0.225,
+            0.8
+          ],
+          [
+            3,
+            0.108,
+            0.7
+          ]
+        ]
+      },
+      {
+        "id": "a2_p2",
+        "amplitude": 0.9,
+        "phase": 1.6,
+        "V": [
+          [
+            1,
+            0.9,
+            0
+          ],
+          [
+            2,
+            0.27,
+            1.6
+          ],
+          [
+            3,
+            0.135,
+            1.9000000000000001
+          ]
+        ],
+        "W": [
+          [
+            1,
+            0.63,
+            1.8
+          ],
+          [
+            2,
+            0.225,
+            0.8
+          ],
+          [
+            3,
+            0.108,
+            1.6
+          ]
+        ]
+      },
+      {
+        "id": "a2_p3",
+        "amplitude": 0.9,
+        "phase": 2.4,
+        "V": [
+          [
+            1,
+            0.9,
+            0
+          ],
+          [
+            2,
+            0.27,
+            2.4
+          ],
+          [
+            3,
+            0.135,
+            2.6999999999999997
+          ]
+        ],
+        "W": [
+          [
+            1,
+            0.63,
+            2.6
+          ],
+          [
+            2,
+            0.225,
+            0.8
+          ],
+          [
+            3,
+            0.108,
+            2.4
+          ]
+        ]
+      }
+    ]
+  },
+  "spec_sha256": "6d7d9bace027f4cad6eb47fe78ad8de7527398d0fdba9cb3a33a0bf6f3783377",
+  "code_sha256": "f67b50e94ae0ffcc6a5f0bc6eaa2cf16f2763fd7a77026e71e6c1159e7e40367",
+  "device": "Tesla V100-PCIE-32GB",
+  "torch": "2.5.1+cu121",
+  "numpy": "2.2.6",
+  "dtype": "float64",
+  "shape": [
+    97,
+    16,
+    5,
+    256
+  ],
+  "steps": 3018,
+  "elapsed_seconds": 2.1932769609848037,
+  "peak_gpu_allocated_bytes": 2198528,
+  "initial_projections": [
+    {
+      "id": "homogeneous",
+      "alpha": 0.0,
+      "initial_constraint_max": 0.0
+    },
+    {
+      "id": "ne1_e030",
+      "alpha": 0.0,
+      "initial_constraint_max": 0.0
+    },
+    {
+      "id": "ne1_e060",
+      "alpha": 0.0,
+      "initial_constraint_max": 0.0
+    },
+    {
+      "id": "homogeneous_unpolarized",
+      "alpha": 0.0,
+      "initial_constraint_max": 0.0
+    },
+    {
+      "id": "a0_p0",
+      "alpha": 0.0,
+      "initial_constraint_max": 0.0
+    },
+    {
+      "id": "a0_p1",
+      "alpha": 0.0,
+      "initial_constraint_max": 0.0
+    },
+    {
+      "id": "a0_p2",
+      "alpha": 0.0,
+      "initial_constraint_max": 0.0
+    },
+    {
+      "id": "a0_p3",
+      "alpha": 0.0,
+      "initial_constraint_max": 0.0
+    },
+    {
+      "id": "a1_p0",
+      "alpha": 0.0,
+      "initial_constraint_max": 0.0
+    },
+    {
+      "id": "a1_p1",
+      "alpha": 0.0,
+      "initial_constraint_max": 0.0
+    },
+    {
+      "id": "a1_p2",
+      "alpha": 0.0,
+      "initial_constraint_max": 0.0
+    },
+    {
+      "id": "a1_p3",
+      "alpha": 0.0,
+      "initial_constraint_max": 0.0
+    },
+    {
+      "id": "a2_p0",
+      "alpha": 0.0,
+      "initial_constraint_max": 0.0
+    },
+    {
+      "id": "a2_p1",
+      "alpha": 0.0,
+      "initial_constraint_max": 0.0
+    },
+    {
+      "id": "a2_p2",
+      "alpha": 0.0,
+      "initial_constraint_max": 0.0
+    },
+    {
+      "id": "a2_p3",
+      "alpha": 0.0,
+      "initial_constraint_max": 0.0
+    }
+  ],
+  "max_constraint": 2.7053259632481286e-10,
+  "max_tail": 1.7357818635167043e-14,
+  "diagnostics": [
+    {
+      "t": 1.25,
+      "constraint_max": 2.3077206812160966e-10,
+      "tail_max": 7.714240400316882e-16,
+      "finite": true
+    },
+    {
+      "t": 1.5,
+      "constraint_max": 2.5804935965823006e-10,
+      "tail_max": 2.356130009135824e-15,
+      "finite": true
+    },
+    {
+      "t": 1.75,
+      "constraint_max": 2.432323231715827e-10,
+      "tail_max": 3.0830831727096215e-15,
+      "finite": true
+    },
+    {
+      "t": 1.984,
+      "constraint_max": 2.2756330153583804e-10,
+      "tail_max": 4.539113724734331e-15,
+      "finite": true
+    },
+    {
+      "t": 1.988,
+      "constraint_max": 2.274829769000064e-10,
+      "tail_max": 5.3679098809615474e-15,
+      "finite": true
+    },
+    {
+      "t": 1.992,
+      "constraint_max": 2.274099797361373e-10,
+      "tail_max": 5.217278332147771e-15,
+      "finite": true
+    },
+    {
+      "t": 1.994,
+      "constraint_max": 2.2741186711527916e-10,
+      "tail_max": 5.0656757015716e-15,
+      "finite": true
+    },
+    {
+      "t": 1.996,
+      "constraint_max": 2.2740082039618414e-10,
+      "tail_max": 5.226059844927904e-15,
+      "finite": true
+    },
+    {
+      "t": 1.998,
+      "constraint_max": 2.2740526128828265e-10,
+      "tail_max": 4.742633116548441e-15,
+      "finite": true
+    },
+    {
+      "t": 2.0,
+      "constraint_max": 2.274151422732018e-10,
+      "tail_max": 4.592314242023865e-15,
+      "finite": true
+    },
+    {
+      "t": 2.002,
+      "constraint_max": 2.2739715666020288e-10,
+      "tail_max": 4.0057628831717274e-15,
+      "finite": true
+    },
+    {
+      "t": 2.004,
+      "constraint_max": 2.2740920258002006e-10,
+      "tail_max": 3.21807642749107e-15,
+      "finite": true
+    },
+    {
+      "t": 2.006,
+      "constraint_max": 2.274252453027259e-10,
+      "tail_max": 2.811119259009592e-15,
+      "finite": true
+    },
+    {
+      "t": 2.008,
+      "constraint_max": 2.2742252525631557e-10,
+      "tail_max": 2.8744446514789045e-15,
+      "finite": true
+    },
+    {
+      "t": 2.012,
+      "constraint_max": 2.2736013072233163e-10,
+      "tail_max": 3.025906756141036e-15,
+      "finite": true
+    },
+    {
+      "t": 2.016,
+      "constraint_max": 2.2727753012929952e-10,
+      "tail_max": 2.7332505132594193e-15,
+      "finite": true
+    },
+    {
+      "t": 2.25,
+      "constraint_max": 2.2304429136976722e-10,
+      "tail_max": 4.552517283222233e-15,
+      "finite": true
+    },
+    {
+      "t": 2.5,
+      "constraint_max": 2.3003540738919526e-10,
+      "tail_max": 5.1668916827690015e-15,
+      "finite": true
+    },
+    {
+      "t": 2.75,
+      "constraint_max": 2.3999791043394225e-10,
+      "tail_max": 6.706402845479177e-15,
+      "finite": true
+    },
+    {
+      "t": 3.0,
+      "constraint_max": 2.4432225687043285e-10,
+      "tail_max": 8.852685502307656e-15,
+      "finite": true
+    },
+    {
+      "t": 3.25,
+      "constraint_max": 2.4188623326537595e-10,
+      "tail_max": 1.238650655319306e-14,
+      "finite": true
+    },
+    {
+      "t": 3.5,
+      "constraint_max": 2.3648033531387114e-10,
+      "tail_max": 8.112101173743082e-15,
+      "finite": true
+    },
+    {
+      "t": 3.75,
+      "constraint_max": 2.3291518713719483e-10,
+      "tail_max": 1.6057800755230476e-14,
+      "finite": true
+    },
+    {
+      "t": 4.0,
+      "constraint_max": 2.3245777525104927e-10,
+      "tail_max": 9.598667520275674e-15,
+      "finite": true
+    },
+    {
+      "t": 4.25,
+      "constraint_max": 2.3268920124053238e-10,
+      "tail_max": 1.455822946746169e-14,
+      "finite": true
+    },
+    {
+      "t": 4.5,
+      "constraint_max": 2.3230201096069436e-10,
+      "tail_max": 1.3439834426419001e-14,
+      "finite": true
+    },
+    {
+      "t": 4.75,
+      "constraint_max": 2.3222673783962478e-10,
+      "tail_max": 1.1109169140155473e-14,
+      "finite": true
+    },
+    {
+      "t": 5.0,
+      "constraint_max": 2.3355663236745983e-10,
+      "tail_max": 1.694852044217148e-14,
+      "finite": true
+    },
+    {
+      "t": 5.25,
+      "constraint_max": 2.3562628237439043e-10,
+      "tail_max": 8.023096076392733e-15,
+      "finite": true
+    },
+    {
+      "t": 5.5,
+      "constraint_max": 2.3652585445788077e-10,
+      "tail_max": 1.6897043814115475e-14,
+      "finite": true
+    },
+    {
+      "t": 5.75,
+      "constraint_max": 2.358368500487984e-10,
+      "tail_max": 7.317537385717193e-15,
+      "finite": true
+    },
+    {
+      "t": 6.0,
+      "constraint_max": 2.349806460522075e-10,
+      "tail_max": 1.4289591555225788e-14,
+      "finite": true
+    },
+    {
+      "t": 6.25,
+      "constraint_max": 2.3520771441631894e-10,
+      "tail_max": 1.5175748935734522e-14,
+      "finite": true
+    },
+    {
+      "t": 6.5,
+      "constraint_max": 2.3529259096655153e-10,
+      "tail_max": 8.881490504045062e-15,
+      "finite": true
+    },
+    {
+      "t": 6.75,
+      "constraint_max": 2.328818804464561e-10,
+      "tail_max": 1.7357818635167043e-14,
+      "finite": true
+    },
+    {
+      "t": 7.0,
+      "constraint_max": 2.2832442880815762e-10,
+      "tail_max": 6.421429197199151e-15,
+      "finite": true
+    },
+    {
+      "t": 7.25,
+      "constraint_max": 2.2568703156311543e-10,
+      "tail_max": 1.600069403614751e-14,
+      "finite": true
+    },
+    {
+      "t": 7.5,
+      "constraint_max": 2.2911719049778512e-10,
+      "tail_max": 9.41457700415986e-15,
+      "finite": true
+    },
+    {
+      "t": 7.75,
+      "constraint_max": 2.363925444281989e-10,
+      "tail_max": 1.3099895268048231e-14,
+      "finite": true
+    },
+    {
+      "t": 7.984,
+      "constraint_max": 2.4029128686819945e-10,
+      "tail_max": 9.110197346760728e-15,
+      "finite": true
+    },
+    {
+      "t": 7.988,
+      "constraint_max": 2.403155452412875e-10,
+      "tail_max": 9.791553807672537e-15,
+      "finite": true
+    },
+    {
+      "t": 7.992,
+      "constraint_max": 2.40283737351632e-10,
+      "tail_max": 1.048623051244345e-14,
+      "finite": true
+    },
+    {
+      "t": 7.994,
+      "constraint_max": 2.402888443775453e-10,
+      "tail_max": 1.0254645242120085e-14,
+      "finite": true
+    },
+    {
+      "t": 7.996,
+      "constraint_max": 2.403224286240402e-10,
+      "tail_max": 9.708494736200409e-15,
+      "finite": true
+    },
+    {
+      "t": 7.998,
+      "constraint_max": 2.4032925649564163e-10,
+      "tail_max": 1.0219024402808053e-14,
+      "finite": true
+    },
+    {
+      "t": 8.0,
+      "constraint_max": 2.403107712822816e-10,
+      "tail_max": 1.1973034569589565e-14,
+      "finite": true
+    },
+    {
+      "t": 8.002,
+      "constraint_max": 2.403050536337048e-10,
+      "tail_max": 1.358642436581201e-14,
+      "finite": true
+    },
+    {
+      "t": 8.004,
+      "constraint_max": 2.402604781792661e-10,
+      "tail_max": 1.4639935234733076e-14,
+      "finite": true
+    },
+    {
+      "t": 8.006,
+      "constraint_max": 2.4033230960895935e-10,
+      "tail_max": 1.5114307876042363e-14,
+      "finite": true
+    },
+    {
+      "t": 8.008,
+      "constraint_max": 2.4030960554810576e-10,
+      "tail_max": 1.512975107748637e-14,
+      "finite": true
+    },
+    {
+      "t": 8.012,
+      "constraint_max": 2.4029250811352654e-10,
+      "tail_max": 1.3352175299760746e-14,
+      "finite": true
+    },
+    {
+      "t": 8.016,
+      "constraint_max": 2.4032664747153376e-10,
+      "tail_max": 9.576194029574322e-15,
+      "finite": true
+    },
+    {
+      "t": 8.25,
+      "constraint_max": 2.362569029301653e-10,
+      "tail_max": 9.381501477972884e-15,
+      "finite": true
+    },
+    {
+      "t": 8.5,
+      "constraint_max": 2.2710178182450136e-10,
+      "tail_max": 1.5275437152753344e-14,
+      "finite": true
+    },
+    {
+      "t": 8.75,
+      "constraint_max": 2.193194514887864e-10,
+      "tail_max": 1.033703364696857e-14,
+      "finite": true
+    },
+    {
+      "t": 9.0,
+      "constraint_max": 2.206789195824399e-10,
+      "tail_max": 1.4666210254927056e-14,
+      "finite": true
+    },
+    {
+      "t": 9.25,
+      "constraint_max": 2.357157524723874e-10,
+      "tail_max": 1.0209622725321605e-14,
+      "finite": true
+    },
+    {
+      "t": 9.5,
+      "constraint_max": 2.5753094101688134e-10,
+      "tail_max": 1.0828761195596167e-14,
+      "finite": true
+    },
+    {
+      "t": 9.75,
+      "constraint_max": 2.7053259632481286e-10,
+      "tail_max": 1.2774835124469169e-14,
+      "finite": true
+    },
+    {
+      "t": 10.0,
+      "constraint_max": 2.6589996870995947e-10,
+      "tail_max": 8.703102665322533e-15,
+      "finite": true
+    },
+    {
+      "t": 10.25,
+      "constraint_max": 2.496610695956747e-10,
+      "tail_max": 1.3884876273131493e-14,
+      "finite": true
+    },
+    {
+      "t": 10.5,
+      "constraint_max": 2.356349559917703e-10,
+      "tail_max": 9.711096984327385e-15,
+      "finite": true
+    },
+    {
+      "t": 10.75,
+      "constraint_max": 2.3307469843025785e-10,
+      "tail_max": 1.5968135538570683e-14,
+      "finite": true
+    },
+    {
+      "t": 11.0,
+      "constraint_max": 2.404517557286212e-10,
+      "tail_max": 9.554201721993777e-15,
+      "finite": true
+    },
+    {
+      "t": 11.25,
+      "constraint_max": 2.4860560832173917e-10,
+      "tail_max": 1.1833270642120422e-14,
+      "finite": true
+    },
+    {
+      "t": 11.5,
+      "constraint_max": 2.508898366837542e-10,
+      "tail_max": 1.1462664793906162e-14,
+      "finite": true
+    },
+    {
+      "t": 11.75,
+      "constraint_max": 2.4736401815772524e-10,
+      "tail_max": 6.675765001645007e-15,
+      "finite": true
+    },
+    {
+      "t": 12.0,
+      "constraint_max": 2.4259408371030133e-10,
+      "tail_max": 1.2752121517208749e-14,
+      "finite": true
+    },
+    {
+      "t": 12.25,
+      "constraint_max": 2.4010232690940825e-10,
+      "tail_max": 8.659219063826521e-15,
+      "finite": true
+    },
+    {
+      "t": 12.5,
+      "constraint_max": 2.3943333427034474e-10,
+      "tail_max": 1.0768285326198434e-14,
+      "finite": true
+    },
+    {
+      "t": 12.75,
+      "constraint_max": 2.3905755153208474e-10,
+      "tail_max": 7.822765087290215e-15,
+      "finite": true
+    },
+    {
+      "t": 13.0,
+      "constraint_max": 2.386488784367202e-10,
+      "tail_max": 7.753728093100265e-15,
+      "finite": true
+    },
+    {
+      "t": 13.25,
+      "constraint_max": 2.390995318402034e-10,
+      "tail_max": 9.812648056222884e-15,
+      "finite": true
+    },
+    {
+      "t": 13.5,
+      "constraint_max": 2.408289331845559e-10,
+      "tail_max": 7.18045864006998e-15,
+      "finite": true
+    },
+    {
+      "t": 13.75,
+      "constraint_max": 2.4275556564923306e-10,
+      "tail_max": 1.0656034954586297e-14,
+      "finite": true
+    },
+    {
+      "t": 14.0,
+      "constraint_max": 2.4289747990735577e-10,
+      "tail_max": 9.239065088337843e-15,
+      "finite": true
+    },
+    {
+      "t": 14.25,
+      "constraint_max": 2.4221263883461575e-10,
+      "tail_max": 9.800563272445885e-15,
+      "finite": true
+    },
+    {
+      "t": 14.5,
+      "constraint_max": 2.4177826407623115e-10,
+      "tail_max": 9.285849028576622e-15,
+      "finite": true
+    },
+    {
+      "t": 14.75,
+      "constraint_max": 2.419983935464387e-10,
+      "tail_max": 8.080376632460426e-15,
+      "finite": true
+    },
+    {
+      "t": 14.984,
+      "constraint_max": 2.4098636974834164e-10,
+      "tail_max": 6.442520630711182e-15,
+      "finite": true
+    },
+    {
+      "t": 14.988,
+      "constraint_max": 2.409182853213565e-10,
+      "tail_max": 7.9588109688225e-15,
+      "finite": true
+    },
+    {
+      "t": 14.992,
+      "constraint_max": 2.4098675832640026e-10,
+      "tail_max": 8.73313403217594e-15,
+      "finite": true
+    },
+    {
+      "t": 14.994,
+      "constraint_max": 2.4101867723835824e-10,
+      "tail_max": 8.640858930465636e-15,
+      "finite": true
+    },
+    {
+      "t": 14.996,
+      "constraint_max": 2.4096330486500506e-10,
+      "tail_max": 8.107152912159891e-15,
+      "finite": true
+    },
+    {
+      "t": 14.998,
+      "constraint_max": 2.4103097295835596e-10,
+      "tail_max": 9.023460098965162e-15,
+      "finite": true
+    },
+    {
+      "t": 15.0,
+      "constraint_max": 2.410523169960044e-10,
+      "tail_max": 1.0082310479794505e-14,
+      "finite": true
+    },
+    {
+      "t": 15.002,
+      "constraint_max": 2.4100843543095607e-10,
+      "tail_max": 1.08366477809562e-14,
+      "finite": true
+    },
+    {
+      "t": 15.004,
+      "constraint_max": 2.410518173956433e-10,
+      "tail_max": 1.1011080297523106e-14,
+      "finite": true
+    },
+    {
+      "t": 15.006,
+      "constraint_max": 2.410044386280674e-10,
+      "tail_max": 1.0862492259725771e-14,
+      "finite": true
+    },
+    {
+      "t": 15.008,
+      "constraint_max": 2.4102292384142743e-10,
+      "tail_max": 1.0239533419469366e-14,
+      "finite": true
+    },
+    {
+      "t": 15.012,
+      "constraint_max": 2.4097995821037443e-10,
+      "tail_max": 7.847535888736237e-15,
+      "finite": true
+    },
+    {
+      "t": 15.016,
+      "constraint_max": 2.40949371566046e-10,
+      "tail_max": 6.073220312807535e-15,
+      "finite": true
+    },
+    {
+      "t": 15.25,
+      "constraint_max": 2.371877971807379e-10,
+      "tail_max": 7.609495080358674e-15,
+      "finite": true
+    },
+    {
+      "t": 15.5,
+      "constraint_max": 2.330223652924346e-10,
+      "tail_max": 1.0244495701790958e-14,
+      "finite": true
+    },
+    {
+      "t": 15.75,
+      "constraint_max": 2.3307260288429887e-10,
+      "tail_max": 1.2924049409556493e-14,
+      "finite": true
+    },
+    {
+      "t": 16.0,
+      "constraint_max": 2.3892669787084486e-10,
+      "tail_max": 1.0219360100838671e-14,
+      "finite": true
+    }
+  ]
+}

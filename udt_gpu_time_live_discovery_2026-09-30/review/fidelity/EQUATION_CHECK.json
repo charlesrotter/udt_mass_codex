@@ -1,0 +1,136 @@
+{
+  "verdict": "VERIFIED-WITH-CAVEATS",
+  "scope": "Exact local Ricci reduction, constraints and longitudinal clock formula only",
+  "model": "Parent-inherited model; exact identifier not exposed in reviewer context",
+  "context": "Fresh scoped /root/ngd1_equations; expected equations and NE1 proof exposed",
+  "implementation": "Independent SymPy algebraic-jet Levi-Civita/Ricci implementation; no author code imported",
+  "python": "3.10.12 (main, Aug 31 2026, 10:18:17) [GCC 11.4.0]",
+  "sympy": "1.13.1",
+  "platform": "Linux-6.8.0-138-generic-x86_64-with-glibc2.35",
+  "symbols": {
+    "A": "exp(2a)=exp(lambda/2)t^(-1/2)",
+    "E": "exp(P)",
+    "a": "lambda/4-log(t)/4"
+  },
+  "metric_determinant": "-A**2*t**2",
+  "component_formula_matches": {
+    "R00": true,
+    "R01": true,
+    "R02": true,
+    "R03": true,
+    "R10": true,
+    "R11": true,
+    "R12": true,
+    "R13": true,
+    "R20": true,
+    "R21": true,
+    "R22": true,
+    "R23": true,
+    "R30": true,
+    "R31": true,
+    "R32": true,
+    "R33": true
+  },
+  "original_ricci_components": {
+    "R00": "-(E**2*Qt**2*t**2 + Pt**2*t**2 - 2*at*t + 2*att*t**2 - 2*axx*t**2 - 1)/(2*t**2)",
+    "R01": "-(E**2*Qt*Qx*t + Pt*Px*t - 2*ax)/(2*t)",
+    "R02": "0",
+    "R03": "0",
+    "R10": "-(E**2*Qt*Qx*t + Pt*Px*t - 2*ax)/(2*t)",
+    "R11": "-(E**2*Qx**2*t + Px**2*t - 2*at - 2*att*t + 2*axx*t)/(2*t)",
+    "R12": "0",
+    "R13": "0",
+    "R20": "0",
+    "R21": "0",
+    "R22": "-E*(E**2*Qt**2*t - E**2*Qx**2*t - Pt - Ptt*t + Pxx*t)/(2*A)",
+    "R23": "-E*(E**2*Q*Qt**2*t - E**2*Q*Qx**2*t - Pt*Q - 2*Pt*Qt*t - Ptt*Q*t + 2*Px*Qx*t + Pxx*Q*t - Qt - Qtt*t + Qxx*t)/(2*A)",
+    "R30": "0",
+    "R31": "0",
+    "R32": "-E*(E**2*Q*Qt**2*t - E**2*Q*Qx**2*t - Pt*Q - 2*Pt*Qt*t - Ptt*Q*t + 2*Px*Qx*t + Pxx*Q*t - Qt - Qtt*t + Qxx*t)/(2*A)",
+    "R33": "-(E**4*Q**2*Qt**2*t - E**4*Q**2*Qx**2*t - E**2*Pt*Q**2 - 4*E**2*Pt*Q*Qt*t - E**2*Ptt*Q**2*t + 4*E**2*Px*Q*Qx*t + E**2*Pxx*Q**2*t - 2*E**2*Q*Qt - 2*E**2*Q*Qtt*t + 2*E**2*Q*Qxx*t - E**2*Qt**2*t + E**2*Qx**2*t + Pt + Ptt*t - Pxx*t)/(2*A*E)"
+  },
+  "on_shell_original_ricci": {
+    "R00": "0",
+    "R01": "0",
+    "R02": "0",
+    "R03": "0",
+    "R10": "0",
+    "R11": "0",
+    "R12": "0",
+    "R13": "0",
+    "R20": "0",
+    "R21": "0",
+    "R22": "0",
+    "R23": "0",
+    "R30": "0",
+    "R31": "0",
+    "R32": "0",
+    "R33": "0"
+  },
+  "lambda_integrability": "0",
+  "lambda_wave_equation": "-E**2*Qt**2 + E**2*Qx**2 - Pt**2 + Px**2",
+  "exact_rational_mutation_residuals": {
+    "drop_P_nonlinearity": {
+      "R22": "-178125/1404928",
+      "R23": "-178125/4917248",
+      "R32": "-178125/4917248",
+      "R33": "1218375/17210368"
+    },
+    "reverse_Q_coupling": {
+      "R23": "255/392",
+      "R32": "255/392",
+      "R33": "255/686"
+    },
+    "drop_Q_momentum": {
+      "R01": "-75/896",
+      "R10": "-75/896"
+    },
+    "leave_lapse_at_background": {
+      "R00": "-2809/14112",
+      "R01": "-229/13440",
+      "R10": "-229/13440",
+      "R11": "-1649/12800"
+    }
+  },
+  "longitudinal_null": "0",
+  "longitudinal_affine_geodesic_residuals": [
+    "0",
+    "0",
+    "0",
+    "0"
+  ],
+  "longitudinal_frequency": "C/sqrt(A)",
+  "longitudinal_clock_ratio": "N(t_e+d,x_o)/N(t_e,x_e), x_o-x_e=d>0 on chosen lift/winding",
+  "homogeneous_anchor": {
+    "tau": "log(t/t0)",
+    "P": "p0+log(cosh(v*tau))",
+    "Q": "q0+exp(-p0)*tanh(v*tau)",
+    "lambda": "lambda0+v**2*tau",
+    "exact_residuals": [
+      "0",
+      "0",
+      "0"
+    ]
+  },
+  "source_pin_matches_at_run": {
+    "UDT_DEVELOPMENT.md": true,
+    "udt_gr_filter_reconciliation_2026-09-09/AUTHORITY_RECORD.md": true,
+    "udt_nonlinear_ripple_geometry_2026-09-09/INITIAL_CANDIDATE.md": true,
+    "udt_nonlinear_ripple_geometry_2026-09-09/REVIEWED_RESULT.md": true,
+    "udt_finite_separation_law_2026-09-28/INITIAL_CANDIDATE.md": true,
+    "udt_finite_separation_law_2026-09-28/REPAIR.md": true
+  },
+  "limits": {
+    "cpu_seconds": 180,
+    "address_space_bytes": 2147483648,
+    "gpu": "none"
+  },
+  "elapsed_seconds": 0.987174239999149,
+  "max_rss_kib": 51576,
+  "omissions": [
+    "No author solver or grid results checked at this equation gate",
+    "No different-model/library or interval certificate claimed",
+    "No transverse ray or generic spacetime coverage",
+    "No native UDT equation adoption or physical clock protocol selection"
+  ]
+}

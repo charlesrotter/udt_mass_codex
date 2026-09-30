@@ -1,0 +1,60 @@
+{
+  "stage": "development_pilot",
+  "n": 64,
+  "k": 0.75,
+  "dt": 0.0025,
+  "end": 4.0,
+  "snapshot_dt": 0.25,
+  "stencil_centers": [
+    2.0,
+    3.0
+  ],
+  "device": "cuda",
+  "constraint_stop": 0.05,
+  "cases": [
+    {
+      "id": "homogeneous",
+      "P": [],
+      "V": [],
+      "Q": [],
+      "W": []
+    },
+    {
+      "id": "ne1_e030",
+      "V": [
+        [
+          1,
+          0.45,
+          0
+        ]
+      ]
+    },
+    {
+      "id": "two_polarizations",
+      "V": [
+        [
+          1,
+          0.3,
+          0
+        ],
+        [
+          2,
+          0.08,
+          0.7
+        ]
+      ],
+      "W": [
+        [
+          1,
+          0.2,
+          0.4
+        ],
+        [
+          3,
+          0.06,
+          1.1
+        ]
+      ]
+    }
+  ]
+}

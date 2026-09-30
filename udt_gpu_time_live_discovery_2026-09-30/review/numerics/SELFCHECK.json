@@ -1,0 +1,64 @@
+{
+  "exact_homogeneous_vacuum_max": 6.938893903907228e-17,
+  "nonvacuum_control_max_error": 2.220446049250313e-16,
+  "spatial_control_max_error": 2.220446049250313e-16,
+  "homogeneous_DOP853_max_error": 1.7927326290134715e-13,
+  "homogeneous_DOP853_nfev": 329,
+  "saved_metric_stencil_h004": {
+    "coordinate_max_abs": 7.208061925112474e-11,
+    "orthonormal_max_abs": 2.682562877083995e-11,
+    "proper_time_scaled_max_abs": 4.65421219748596e-11,
+    "ricci_symmetry_max": 0.0,
+    "metric_determinant_max_error": 1.1102230246251565e-16,
+    "temporal_stencil": [
+      4,
+      5,
+      6,
+      8,
+      10,
+      12,
+      14,
+      15,
+      16
+    ]
+  },
+  "saved_metric_stencil_h002": {
+    "coordinate_max_abs": 2.882512561974693e-10,
+    "orthonormal_max_abs": 1.1043669205424358e-10,
+    "proper_time_scaled_max_abs": 1.916062447593348e-10,
+    "ricci_symmetry_max": 0.0,
+    "metric_determinant_max_error": 1.1102230246251565e-16,
+    "temporal_stencil": [
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14
+    ]
+  },
+  "off_shell_lambda_catch": {
+    "coordinate_max_abs": 0.0055868542336444844,
+    "orthonormal_max_abs": 0.01276386004086385,
+    "proper_time_scaled_max_abs": 0.02234741693457794,
+    "ricci_symmetry_max": 0.0,
+    "metric_determinant_max_error": 1.1102230246251565e-16,
+    "temporal_stencil": [
+      4,
+      5,
+      6,
+      8,
+      10,
+      12,
+      14,
+      15,
+      16
+    ]
+  },
+  "PASS": true,
+  "implementation_sha256": "7ea05e9fdb31a7138a8773a7750d84a3b3a0e304b2665e9a627736b6863f11a9",
+  "selfcheck_sha256": "3a2d10b0c350ce7f4ce3721913383d604abdfe23c4b2ac572648632742f68c3b"
+}

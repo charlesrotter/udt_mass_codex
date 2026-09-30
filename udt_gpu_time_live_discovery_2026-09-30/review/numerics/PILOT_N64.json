@@ -1,0 +1,334 @@
+{
+  "implementation": "fresh NumPy rFFT/SciPy DOP853 and generic coordinate Christoffel/Ricci",
+  "production_solver_imported": false,
+  "source_sha256": "3b472c2e47d24058c6f66905aaa37f1abdb17a1c8b354e917b4f81cee297affa",
+  "input_sha256": {
+    "udt_gpu_time_live_discovery_2026-09-30/runs/pilot_n64/fields.npz": "9395f084eea2ddec4e80863a5eb14bd85cafa7ffd60baa0c354c41065246eeb9",
+    "udt_gpu_time_live_discovery_2026-09-30/runs/pilot_n64/metadata.json": "acc9e640d155c353917dc857701c6cb3361892dfd7f9bb61727d4101550b0e7b"
+  },
+  "versions": {
+    "python": "3.10.12",
+    "numpy": "2.2.6",
+    "scipy": "1.15.3"
+  },
+  "shape": [
+    37,
+    3,
+    5,
+    64
+  ],
+  "k": 0.75,
+  "cases": [
+    {
+      "case_index": 0,
+      "initial_constraint": {
+        "momentum_constraint_max_abs": 0.0,
+        "integrability_current_mean": 0.0
+      },
+      "final_constraint": {
+        "momentum_constraint_max_abs": 0.0,
+        "integrability_current_mean": 0.0
+      },
+      "original_metric_ricci": [
+        {
+          "center": 2.0,
+          "h": 0.004,
+          "coordinate_max_abs": 2.8905766669140576e-12,
+          "orthonormal_max_abs": 7.267364845207247e-12,
+          "ricci_symmetry_max": 0.0,
+          "metric_determinant_max_error": 1.1102230246251565e-16,
+          "temporal_stencil": [
+            4,
+            5,
+            6,
+            8,
+            10,
+            12,
+            14,
+            15,
+            16
+          ]
+        },
+        {
+          "center": 2.0,
+          "h": 0.002,
+          "coordinate_max_abs": 1.679231198536968e-10,
+          "orthonormal_max_abs": 1.202301440422018e-10,
+          "ricci_symmetry_max": 0.0,
+          "metric_determinant_max_error": 1.1102230246251565e-16,
+          "temporal_stencil": [
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14
+          ]
+        },
+        {
+          "center": 3.0,
+          "h": 0.004,
+          "coordinate_max_abs": 4.182654222972815e-12,
+          "orthonormal_max_abs": 1.2879234888322558e-11,
+          "ricci_symmetry_max": 0.0,
+          "metric_determinant_max_error": 2.220446049250313e-16,
+          "temporal_stencil": [
+            20,
+            21,
+            22,
+            24,
+            26,
+            28,
+            30,
+            31,
+            32
+          ]
+        },
+        {
+          "center": 3.0,
+          "h": 0.002,
+          "coordinate_max_abs": 4.445821488729962e-11,
+          "orthonormal_max_abs": 7.295594371252024e-11,
+          "ricci_symmetry_max": 0.0,
+          "metric_determinant_max_error": 2.220446049250313e-16,
+          "temporal_stencil": [
+            22,
+            23,
+            24,
+            25,
+            26,
+            27,
+            28,
+            29,
+            30
+          ]
+        }
+      ],
+      "cpu_comparison": {
+        "method": "DOP853",
+        "rtol": 2e-12,
+        "atol": 2e-13,
+        "nfev": 107,
+        "max_abs_by_component": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "max_abs": 0.0
+      }
+    },
+    {
+      "case_index": 1,
+      "initial_constraint": {
+        "momentum_constraint_max_abs": 0.0,
+        "integrability_current_mean": 0.0
+      },
+      "final_constraint": {
+        "momentum_constraint_max_abs": 1.3693213229970524e-13,
+        "integrability_current_mean": 3.686287386450715e-18
+      },
+      "original_metric_ricci": [
+        {
+          "center": 2.0,
+          "h": 0.004,
+          "coordinate_max_abs": 1.231456256411967e-10,
+          "orthonormal_max_abs": 1.5596534573671551e-10,
+          "ricci_symmetry_max": 2.0816681711721685e-17,
+          "metric_determinant_max_error": 3.3306690738754696e-16,
+          "temporal_stencil": [
+            4,
+            5,
+            6,
+            8,
+            10,
+            12,
+            14,
+            15,
+            16
+          ]
+        },
+        {
+          "center": 2.0,
+          "h": 0.002,
+          "coordinate_max_abs": 5.711512790496087e-10,
+          "orthonormal_max_abs": 3.9812375219322785e-10,
+          "ricci_symmetry_max": 2.7755575615628914e-17,
+          "metric_determinant_max_error": 3.3306690738754696e-16,
+          "temporal_stencil": [
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14
+          ]
+        },
+        {
+          "center": 3.0,
+          "h": 0.004,
+          "coordinate_max_abs": 3.732547057891389e-10,
+          "orthonormal_max_abs": 1.3934638484384085e-10,
+          "ricci_symmetry_max": 1.3877787807814457e-17,
+          "metric_determinant_max_error": 6.661338147750939e-16,
+          "temporal_stencil": [
+            20,
+            21,
+            22,
+            24,
+            26,
+            28,
+            30,
+            31,
+            32
+          ]
+        },
+        {
+          "center": 3.0,
+          "h": 0.002,
+          "coordinate_max_abs": 1.261035219822515e-09,
+          "orthonormal_max_abs": 4.65014083275339e-10,
+          "ricci_symmetry_max": 2.0816681711721685e-17,
+          "metric_determinant_max_error": 6.661338147750939e-16,
+          "temporal_stencil": [
+            22,
+            23,
+            24,
+            25,
+            26,
+            27,
+            28,
+            29,
+            30
+          ]
+        }
+      ],
+      "cpu_comparison": {
+        "method": "DOP853",
+        "rtol": 2e-12,
+        "atol": 2e-13,
+        "nfev": 254,
+        "max_abs_by_component": [
+          3.4792169145703156e-12,
+          5.5141724519813806e-11,
+          0.0,
+          0.0,
+          7.913558697225653e-12
+        ],
+        "max_abs": 5.5141724519813806e-11
+      }
+    },
+    {
+      "case_index": 2,
+      "initial_constraint": {
+        "momentum_constraint_max_abs": 0.0,
+        "integrability_current_mean": 0.0
+      },
+      "final_constraint": {
+        "momentum_constraint_max_abs": 1.827617918115365e-13,
+        "integrability_current_mean": -1.7726705520137997e-15
+      },
+      "original_metric_ricci": [
+        {
+          "center": 2.0,
+          "h": 0.004,
+          "coordinate_max_abs": 1.426322311127992e-10,
+          "orthonormal_max_abs": 1.3399575545097772e-10,
+          "ricci_symmetry_max": 7.632783294297951e-17,
+          "metric_determinant_max_error": 3.3306690738754696e-16,
+          "temporal_stencil": [
+            4,
+            5,
+            6,
+            8,
+            10,
+            12,
+            14,
+            15,
+            16
+          ]
+        },
+        {
+          "center": 2.0,
+          "h": 0.002,
+          "coordinate_max_abs": 5.853096063379581e-10,
+          "orthonormal_max_abs": 4.040116773874178e-10,
+          "ricci_symmetry_max": 6.288372600415926e-17,
+          "metric_determinant_max_error": 3.3306690738754696e-16,
+          "temporal_stencil": [
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14
+          ]
+        },
+        {
+          "center": 3.0,
+          "h": 0.004,
+          "coordinate_max_abs": 2.891114188330324e-10,
+          "orthonormal_max_abs": 1.4264847872929992e-10,
+          "ricci_symmetry_max": 1.1796119636642288e-16,
+          "metric_determinant_max_error": 6.661338147750939e-16,
+          "temporal_stencil": [
+            20,
+            21,
+            22,
+            24,
+            26,
+            28,
+            30,
+            31,
+            32
+          ]
+        },
+        {
+          "center": 3.0,
+          "h": 0.002,
+          "coordinate_max_abs": 1.0242090925371983e-09,
+          "orthonormal_max_abs": 5.788830786983707e-10,
+          "ricci_symmetry_max": 1.249000902703301e-16,
+          "metric_determinant_max_error": 6.661338147750939e-16,
+          "temporal_stencil": [
+            22,
+            23,
+            24,
+            25,
+            26,
+            27,
+            28,
+            29,
+            30
+          ]
+        }
+      ],
+      "cpu_comparison": {
+        "method": "DOP853",
+        "rtol": 2e-12,
+        "atol": 2e-13,
+        "nfev": 380,
+        "max_abs_by_component": [
+          6.976641486744484e-13,
+          1.98507876802978e-12,
+          1.1751363770962087e-12,
+          3.0640212589361226e-12,
+          5.808686864838819e-13
+        ],
+        "max_abs": 3.0640212589361226e-12
+      }
+    }
+  ],
+  "elapsed_seconds": 0.056361994007602334,
+  "peak_rss_kib": 79372
+}

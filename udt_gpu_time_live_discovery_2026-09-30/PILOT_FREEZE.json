@@ -1,0 +1,17 @@
+{
+  "scope": "development tests exposed before survey freeze; no confirmation claim",
+  "gates": {
+    "NE1_absolute_field_error": 2e-06,
+    "independent_CPU_absolute_field_error": 2e-06,
+    "original_Ricci_scaled_residual": 2e-05,
+    "momentum_constraint_max": 2e-06,
+    "spatial_refinement_absolute_difference": 2e-06
+  },
+  "sha256": {
+    "udt_gpu_time_live_discovery_2026-09-30/evolve.py": "f67b50e94ae0ffcc6a5f0bc6eaa2cf16f2763fd7a77026e71e6c1159e7e40367",
+    "udt_gpu_time_live_discovery_2026-09-30/EQUATIONS.md": "1bf117d5f19f05398dfcbaf588b1aa4e4134abf1c01dcf69c935f2510498bb1b",
+    "udt_gpu_time_live_discovery_2026-09-30/capture_gpu.py": "6c1994de1822bd770be92829eed213181eab160693515cfd67ad6a4d5cdda0c4",
+    "udt_gpu_time_live_discovery_2026-09-30/specs/pilot_n32.json": "57111531b9c06926409646b15c302a51ea9be5ca9d3d05af6a0db5eff06eab99",
+    "udt_gpu_time_live_discovery_2026-09-30/specs/pilot_n64.json": "1c1eb9de0693228e88878188aa1b5e27f297414fbd12a8002a31293bb4a5c423"
+  }
+}

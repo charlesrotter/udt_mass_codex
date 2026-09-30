@@ -431,7 +431,7 @@
     {
       "id": "P_FOUNDING",
       "kind": "declared_premises",
-      "statement": "F1\u2013F4 as stated in R1/R2; composition, nontriviality and readout are distinct inputs"
+      "statement": "F1–F4 as stated in R1/R2; composition, nontriviality and readout are distinct inputs"
     },
     {
       "id": "P_PAIR",
@@ -910,6 +910,39 @@
         "M_GEOMETRY",
         "P_NULL",
         "C_TRI_COUNTS"
+      ]
+    },
+    {
+      "id": "C_NGD_ARENA",
+      "kind": "condition",
+      "title": "Supplied orthogonally transitive periodic two-Killing vacuum/areal sector and fixed-clock longitudinal query",
+      "registry_ids": [],
+      "sources": [
+        "udt_gpu_time_live_discovery_2026-09-30/INITIAL_CANDIDATE.md",
+        "udt_gpu_time_live_discovery_2026-09-30/REPAIR.md",
+        "udt_gpu_time_live_discovery_2026-09-30/REVIEWED_RESULT.md",
+        "udt_gpu_time_live_discovery_2026-09-30/EQUATIONS.md"
+      ]
+    },
+    {
+      "id": "R12N",
+      "kind": "argument",
+      "anchor": "r12n",
+      "title": "NGD1 finite unpolarized numerical histories and conditional actual-clock sign identity",
+      "registry_ids": [],
+      "sources": [
+        "udt_gpu_time_live_discovery_2026-09-30/INITIAL_CANDIDATE.md",
+        "udt_gpu_time_live_discovery_2026-09-30/REPAIR.md",
+        "udt_gpu_time_live_discovery_2026-09-30/REVIEWED_RESULT.md",
+        "udt_gpu_time_live_discovery_2026-09-30/EQUATIONS.md",
+        "udt_gpu_time_live_discovery_2026-09-30/CAMPAIGN_DIAGNOSTICS.json",
+        "udt_gpu_time_live_discovery_2026-09-30/SURVEY_FREEZE.json",
+        "udt_gpu_time_live_discovery_2026-09-30/PRE_SURVEY_SUPPLEMENT.json"
+      ],
+      "required_conditions": [
+        "C_EINSTEIN",
+        "C_NGD_ARENA",
+        "P_NULL"
       ]
     }
   ],
@@ -1718,6 +1751,36 @@
       "from": "R6T",
       "to": "R18",
       "kind": "interpretation"
+    },
+    {
+      "from": "C_EINSTEIN",
+      "to": "R12N",
+      "kind": "hypothesis"
+    },
+    {
+      "from": "C_NGD_ARENA",
+      "to": "R12N",
+      "kind": "hypothesis"
+    },
+    {
+      "from": "P_NULL",
+      "to": "R12N",
+      "kind": "hypothesis"
+    },
+    {
+      "from": "R12",
+      "to": "R12N",
+      "kind": "context"
+    },
+    {
+      "from": "R6N",
+      "to": "R12N",
+      "kind": "proof"
+    },
+    {
+      "from": "R12N",
+      "to": "R18",
+      "kind": "interpretation"
     }
   ],
   "sources_sha256": {
@@ -1813,7 +1876,14 @@
     "udt_population_response_identification_2026-09-30/REVIEWED_RESULT.md": "66bf2f1b52e2afa670113fe613f67485cb4cffa3f238341953f404c1fe1bb756",
     "udt_tick_readout_identification_2026-09-30/INITIAL_CANDIDATE.md": "b1c9ab5d349463f9c27f1b719f85948f3afe949583c8aceea75cded7b1ae206e",
     "udt_tick_readout_identification_2026-09-30/REPAIR.md": "43ecfa6fe282fd6f330c67362ff92020573ef1f596cac1d167a207b896da098e",
-    "udt_tick_readout_identification_2026-09-30/REVIEWED_RESULT.md": "b855b3aef1d3869d6c4cec8a49e62fc6ba8a15ccf01de782abec65bbafb945cc"
+    "udt_tick_readout_identification_2026-09-30/REVIEWED_RESULT.md": "b855b3aef1d3869d6c4cec8a49e62fc6ba8a15ccf01de782abec65bbafb945cc",
+    "udt_gpu_time_live_discovery_2026-09-30/INITIAL_CANDIDATE.md": "0efe785af286920d52f2a8426b65502768a3fcf037d69b4dbc32ee3a6f95f7a9",
+    "udt_gpu_time_live_discovery_2026-09-30/REPAIR.md": "cf397b818e1248af175cace817c81b0e4fc5216d5774a7561ef6015f25179187",
+    "udt_gpu_time_live_discovery_2026-09-30/REVIEWED_RESULT.md": "3c044c464096529d9fa636b98310f95a62d314f9da6c758caf9e225c692981d1",
+    "udt_gpu_time_live_discovery_2026-09-30/EQUATIONS.md": "1bf117d5f19f05398dfcbaf588b1aa4e4134abf1c01dcf69c935f2510498bb1b",
+    "udt_gpu_time_live_discovery_2026-09-30/CAMPAIGN_DIAGNOSTICS.json": "f77bc16c4d6567e8f3ae66ce9c7c67e21a633a8b0e6d9b735af4666a419fd7ad",
+    "udt_gpu_time_live_discovery_2026-09-30/SURVEY_FREEZE.json": "24a3241b628d284d85e3a0f4b5cb171bb437259c17771193868c4f17fa176973",
+    "udt_gpu_time_live_discovery_2026-09-30/PRE_SURVEY_SUPPLEMENT.json": "2e598847948af05d42e0d1e12bdde2a39fa9ebc2ca1c5c2b5c0a6809da411efb"
   },
   "impact_policy": "Any changed source or registry row flags its mapped positive and negative central arguments and every reachable central descendant for review; no automatic truth reversal or regrading.",
   "review_support": [
@@ -2109,6 +2179,33 @@
         "R18"
       ],
       "scope": "Actual TRI1 direct review of initial candidate, identifying measure/window precision repair; final repair/integration acceptance is separate. Review is evidence, not a physical premise."
+    },
+    {
+      "path": "udt_gpu_time_live_discovery_2026-09-30/review/numerics/REVIEW.md",
+      "sha256": "3e2cc27609135c97f60e1d05950a3e0db69f2120c325c2aa1fbde42c0c452d2d",
+      "role": "review_evidence",
+      "targets": [
+        "R12N",
+        "R18"
+      ]
+    },
+    {
+      "path": "udt_gpu_time_live_discovery_2026-09-30/review/fidelity/DIRECT_REVIEW.md",
+      "sha256": "092ac104e5197312d0f2e6f87453e078151047719f8321298c0b25f1efed2e3f",
+      "role": "review_evidence",
+      "targets": [
+        "R12N",
+        "R18"
+      ]
+    },
+    {
+      "path": "udt_gpu_time_live_discovery_2026-09-30/DESCENDANT_REVIEW.md",
+      "sha256": "d8b76bf4aa8fd6561441d9af3ac101fceaee2f6f2f9c3adfd29f84ed9dd40fe8",
+      "role": "repair_scope",
+      "targets": [
+        "R12N",
+        "R18"
+      ]
     }
   ]
 }

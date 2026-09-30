@@ -147,6 +147,8 @@ def validate(root=ROOT, *, draft=False, overrides=None):
             require(re.search(pattern,t,re.I) is None,'forbidden strengthening: '+p+':'+pattern)
     for p in ('LIVE.md','HANDOFF.md'):
         t=text(p)
+        require('CURRENT_SCIENTIFIC_PREMISES.tsv' in t,
+                'operational premise registry route missing: '+p)
         require(t.count('<!-- STARTUP_CURRENT_BEGIN -->')==t.count('<!-- STARTUP_CURRENT_END -->')==1,'current block markers: '+p)
         for protected in PROTECTED:require(protected in t,'protected path missing: '+p)
         require('CDR1' in t and 'UDT_DEVELOPMENT.md' in t and 'Stop for lay discussion' in t,'operational route missing: '+p)

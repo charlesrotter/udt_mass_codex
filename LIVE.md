@@ -1,16 +1,16 @@
 # LIVE — operational status
 
 <!-- STARTUP_CURRENT_BEGIN -->
-## CURRENT STATE — TRI1 after PRI1/CCR1/CES1/PCW1/GCA1/LKT1/SGE1/CDR1, 2026-09-30
+## CURRENT STATE — NGD1 after TRI1/PRI1/CCR1/CES1/PCW1/GCA1/LKT1/SGE1/CDR1, 2026-09-30
 
 Work on `grok`; independently verify HEAD, synchronization and dirt.
-Charles's “Proceed” authorized the next received-tick/comparison-rule inquiry,
-including checks, separate-context review and central integration. TRI1's return
-is integrated in UDT_DEVELOPMENT.md R6N/R6T and R18F; prior conditional returns
-retain their original scopes. Scope and execution evidence:
-`udt_tick_readout_identification_2026-09-30/WORK_ORDER.md` and `WORK_RECORD.md`.
-The optional population/response interfaces remain UNADOPTED. No successor
-campaign is authorized by this bounded work order.
+Charles authorized documenting and executing the staged numerical discovery
+plan, including independent checks, challenges, review and central integration.
+NGD1's first bounded campaign is integrated in UDT_DEVELOPMENT.md R12N/R18.
+Scope and exact execution evidence: `udt_gpu_time_live_discovery_2026-09-30/PLAN.md`
+and `WORK_RECORD.md` in that package. This is a conditional numerical return;
+no native field equation, source, scale or optional population interface is adopted.
+Larger production and different scientific premises need a new bounded work order.
 
 ### Honest claim
 
@@ -43,12 +43,12 @@ Protected: do not inspect, hash, stage, modify, mine or cite payloads without di
 
 ### Next gate
 
-Stop for lay discussion of TRI1's conditional return in central R6N/R6T/R18F.
+Stop for lay discussion of NGD1's conditional return in central R12N/R18.
 Its work record, actual reviewer attestations, check receipts and Git history
-own verification and banking. The population-defined-clock route remains
-optional; actual clock comparisons retain their stated regular query interface.
-No population, detector law, response law, selected metric or new physical
-premise is adopted. Existing pauses and grades remain unchanged. A subsequent
-work order must identify the physical connection and a decisive test.
+own verification and banking. For the proposed next native-selection question, discuss an evaluable native
+discriminant or explicitly unadopted connection. Other bounded conditional
+comparison questions remain available; larger production needs a new work order.
+A Ric=0 comparison remains conditional. Existing pauses, scientific grades, protected work and CANON
+remain unchanged. No full-solution-space or selected-geometry claim is banked.
 
 <!-- STARTUP_CURRENT_END -->

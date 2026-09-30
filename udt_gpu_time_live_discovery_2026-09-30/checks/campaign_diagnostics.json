@@ -1,0 +1,14 @@
+{
+  "command": [
+    "python3",
+    "udt_gpu_time_live_discovery_2026-09-30/assess_campaign.py"
+  ],
+  "cwd": "/home/udt-admin/udt_mass_codex",
+  "started_utc": "2026-09-30T22:43:56.714686+00:00",
+  "duration_seconds": 20.445137532020453,
+  "returncode": 0,
+  "timeout": false,
+  "address_space_bytes": 2147483648,
+  "cpu_seconds": 180,
+  "maxrss_kib": 192372
+}

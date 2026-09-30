@@ -1,0 +1,8 @@
+{
+  "frozen_survey_sha256": "24a3241b628d284d85e3a0f4b5cb171bb437259c17771193868c4f17fa176973",
+  "timing": "after independent pilot pass, before any survey execution",
+  "additional_diagnostic": "t^2*N^2*max absolute orthonormal Ricci; guards growing-lapse suppression",
+  "additional_gate": 2e-05,
+  "reason": "independent reviewer numerical criticism, not outcome fitting",
+  "pilot": "review/numerics/PILOT_N32.json and PILOT_N64.json PASS"
+}

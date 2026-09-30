@@ -1,0 +1,35 @@
+{
+  "status": "PREREGISTERED_BEFORE_SURVEY_OUTCOMES",
+  "exposure": "Exact NE1 pilot errors and refinement exposed; independent pilot numerical gate pending; equation check passed. No survey or challenge outcome exposed.",
+  "equations": "EQUATIONS.md; conditional Ric=0 comparison only",
+  "sampling": "deterministic listed amplitudes/phases/modes; no outcome selection",
+  "readouts": "all saved fields; lambda accumulation; momentum; spectral tail; actual longitudinal logZ for te=1,4,8,16 and d=1,2,4,8 where end permits; shifts by Fourier interpolation, no temporal interpolation",
+  "gates": {
+    "max_abs_state_refinement": 2e-05,
+    "max_abs_logZ_refinement": 2e-05,
+    "max_abs_constraint": 2e-05,
+    "max_spectral_tail": 1e-06,
+    "max_original_metric_frame_Ricci": 2e-05
+  },
+  "limits": "PLAN; existing frozen solver, no filter; all cases retained including failures; resource/per-run stops in spec. Higher spatial resolution prescribed diagnostic if lower grid fails. No tune-to-redshift or claim of asymptotics.",
+  "omissions": "3D spatial variation, twist, sources, nonperiodic topology, native response identity, observer selection, general ray directions. General rays optional after longitudinal gate, not a completeness requirement.",
+  "code_sha256": {
+    "udt_gpu_time_live_discovery_2026-09-30/evolve.py": "f67b50e94ae0ffcc6a5f0bc6eaa2cf16f2763fd7a77026e71e6c1159e7e40367",
+    "udt_gpu_time_live_discovery_2026-09-30/analyze.py": "610a0cb9380ea3cdb171acec2472b78a56300669bc95d23b8ccbf6371cdcd014",
+    "udt_gpu_time_live_discovery_2026-09-30/capture_gpu.py": "6c1994de1822bd770be92829eed213181eab160693515cfd67ad6a4d5cdda0c4",
+    "udt_gpu_time_live_discovery_2026-09-30/EQUATIONS.md": "1bf117d5f19f05398dfcbaf588b1aa4e4134abf1c01dcf69c935f2510498bb1b",
+    "udt_gpu_time_live_discovery_2026-09-30/PLAN.md": "52e702d6235da74479c843b6ee8c36a8830bae3218b616daec51c54fce39673a"
+  },
+  "spec_sha256": {
+    "udt_gpu_time_live_discovery_2026-09-30/specs/survey_n64.json": "90d166b3a91292f4d7c9c0ffbc7924b45d44a83c1a6b64b1e6857d1e79d24c53",
+    "udt_gpu_time_live_discovery_2026-09-30/specs/survey_n128.json": "fc76c91783b76add25f03c7102bd4f68a48cdca4ad49136b6dce6c3f23ee5592",
+    "udt_gpu_time_live_discovery_2026-09-30/specs/survey_n128_halfdt.json": "eb769af31c0e5ed549ea4928ed7ac4871b71f3a66d87ea4873d4db069798184c",
+    "udt_gpu_time_live_discovery_2026-09-30/specs/survey_n256.json": "6d7d9bace027f4cad6eb47fe78ad8de7527398d0fdba9cb3a33a0bf6f3783377",
+    "udt_gpu_time_live_discovery_2026-09-30/specs/challenge_n128.json": "bdfa451ce6f5b4e671ec794873acfc2820631503530d6bbf23d094dd46df7f0c",
+    "udt_gpu_time_live_discovery_2026-09-30/specs/challenge_n256.json": "ce635bf3870a1a8ee353f8fe1bcbb12139802119dd8e683e4a98efb2dead89b1",
+    "udt_gpu_time_live_discovery_2026-09-30/specs/period_k050_n128.json": "465f2d5b332e2bb0d899cb057d5fdffe54b1a019982be00bb91d44d9dbb7b9af",
+    "udt_gpu_time_live_discovery_2026-09-30/specs/period_k050_n256.json": "846d207f49ff4f46430ffb666a71c225d458da3767c0ca3cad1c88e748583077",
+    "udt_gpu_time_live_discovery_2026-09-30/specs/period_k100_n128.json": "82e07e613950bec422b282cf82d7039a5b53a2f536c9ff65de6fb4177170f938",
+    "udt_gpu_time_live_discovery_2026-09-30/specs/period_k100_n256.json": "b75a5206bd1e0af984bd9c8a7c4db76428efb23395d7a1fc4f27c1e26bb640fc"
+  }
+}

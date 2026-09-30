@@ -1,0 +1,17 @@
+[
+  {
+    "a": "survey_n64",
+    "b": "survey_n128",
+    "max_state_difference": 3.019806626980426e-14
+  },
+  {
+    "a": "survey_n128",
+    "b": "survey_n128_halfdt",
+    "max_state_difference": 3.446314700283892e-08
+  },
+  {
+    "a": "survey_n128_halfdt",
+    "b": "survey_n256",
+    "max_state_difference": 8.709699628184353e-14
+  }
+]

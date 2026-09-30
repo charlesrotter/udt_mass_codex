@@ -1,0 +1,29 @@
+{
+  "status": "CHECKED_READY_TO_BANK",
+  "head_before": "5b4aa5456b307f2be94ccdeadf9dfd7bc6677d28",
+  "remote_prebank_verified_same_hash": true,
+  "normal": "checks/normal_final_repaired.json PASS",
+  "maintenance": "55 tests PASS",
+  "full406": "checks/premise_final_repaired.json PASS405.893767s",
+  "preserved_failed_audit": "checks/premise_final.json exit1: missing HANDOFF registry pointer; fixed and reviewed",
+  "actual_review_contexts": [
+    "/root/ngd1_numerics",
+    "/root/ngd1_equations"
+  ],
+  "accepted_bindings": 643,
+  "unrelated_untracked_names_preserved": 52,
+  "tracked_owned_changes": [
+    "CURRENT_RESEARCH_PROGRAM.md",
+    "HANDOFF.md",
+    "INDEX.md",
+    "LIVE.md",
+    "UDT_DEVELOPMENT.md",
+    "UDT_RESEARCH_ROADMAP.md",
+    "development_reconstruction_2026-09-29/DEVELOPMENT_GRAPH.json",
+    "development_reconstruction_2026-09-29/RECENT_DISPOSITIONS.tsv",
+    "development_reconstruction_2026-09-29/REVIEW_RECORD.json",
+    "development_reconstruction_2026-09-29/checks/test_maintenance.py",
+    "verify_udt_development.py"
+  ],
+  "scope": "first bounded NGD1 campaign; conditional comparison; no canon/registry/premise adoption; Git history and remote check own actual banking outcome"
+}

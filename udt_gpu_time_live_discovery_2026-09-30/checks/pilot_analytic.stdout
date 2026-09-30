@@ -1,0 +1,12 @@
+{
+  "exact_ne1_max_absolute_error": {
+    "n32": 1.2450040998146505e-12,
+    "n64": 7.80486786311485e-14
+  },
+  "n32_n64_max_absolute_difference": 3.185003649708307e-11,
+  "max_constraint": [
+    6.067381319585508e-11,
+    2.2210705497016647e-13
+  ],
+  "scope": "same-author exact analytic and refinement checks, not independent CPU/Ricci gate"
+}

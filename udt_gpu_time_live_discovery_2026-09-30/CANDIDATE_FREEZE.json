@@ -1,0 +1,11 @@
+{
+  "scope": "first scientific candidate before direct/final review; outcome-informed identity disclosed",
+  "sha256": {
+    "udt_gpu_time_live_discovery_2026-09-30/INITIAL_CANDIDATE.md": "0efe785af286920d52f2a8426b65502768a3fcf037d69b4dbc32ee3a6f95f7a9",
+    "udt_gpu_time_live_discovery_2026-09-30/DESCENDANT_REVIEW.md": "d8b76bf4aa8fd6561441d9af3ac101fceaee2f6f2f9c3adfd29f84ed9dd40fe8",
+    "udt_gpu_time_live_discovery_2026-09-30/SURVEY_FREEZE.json": "24a3241b628d284d85e3a0f4b5cb171bb437259c17771193868c4f17fa176973",
+    "udt_gpu_time_live_discovery_2026-09-30/PRE_SURVEY_SUPPLEMENT.json": "2e598847948af05d42e0d1e12bdde2a39fa9ebc2ca1c5c2b5c0a6809da411efb",
+    "udt_gpu_time_live_discovery_2026-09-30/CAMPAIGN_DIAGNOSTICS.json": "f77bc16c4d6567e8f3ae66ce9c7c67e21a633a8b0e6d9b735af4666a419fd7ad",
+    "udt_gpu_time_live_discovery_2026-09-30/CLOCK_READOUTS.json": "80e7dcf4ee865dab4e602edb990cddfbdd39935fa1c4e244afc560327c602931"
+  }
+}

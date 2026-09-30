@@ -1,7 +1,7 @@
 # UDT — continuous scientific development
 
 <!-- DEVELOPMENT_ORIENTATION_BEGIN -->
-**Continuous development — CDR1 with SGE1, LKT1, GCA1, PCW1, CES1, CCR1, PRI1 and TRI1, 2026-09-30.** This is the maintained
+**Continuous development — CDR1 with SGE1, LKT1, GCA1, PCW1, CES1, CCR1, PRI1, TRI1 and NGD1, 2026-09-30.** This is the maintained
 scientific development. It is not canon or a new scientific-grade authority.
 The exact registry and reviewed sources own grades; LIVE owns operational status.
 Current review bindings and limits are recorded in section9; startup reads the
@@ -59,6 +59,12 @@ TRI1 clarifies that a population rest criterion is optional: supplied actual
 clocks and their regular null correspondence already determine received ticking.
 Ray normalization cancels from the ratio; absolute cadence and combined counts
 require their own supplied data. No population route becomes a universal gate.
+NGD1 adds an independently checked GPU time-evolution pilot in the conditional
+Ric=0 comparison sector (R12N): both polarizations and finite constrained data
+families evolve, and actual supplied-clock shifts are computed. A nonnegative
+contribution relative to its specified homogeneous control need not mean total
+redshift. This is a numerical method and conditional-geometry gain, not native
+law selection or complete solution-space coverage.
 <!-- DEVELOPMENT_ORIENTATION_END -->
 
 ## 1. How this development is owned
@@ -975,6 +981,88 @@ Its earlier UNPROMOTED/full-audit-failure wording is historical. Current G312 st
 qualifies class admission. Full nonlinear stability and physical interpretation
 are not supplied by banking or by this explicit example.
 
+<a id="r12n"></a>
+
+### R12N. NGD1 releases a polarization and calculates actual clock shifts
+
+The next numerical step extends R12's supplied metric to
+\[
+ g=N^2(-dt^2+dx^2)+t[e^P(dy+Qdz)^2+e^{-P}dz^2],\quad
+ N=e^{\lambda/4}t^{-1/4},\qquad t>0.
+\]
+The periodic, orthogonally transitive two-Killing sector, areal foliation,
+Lambda=0 and Ric=0 remain **conditional comparison assumptions** under G312;
+no native identification of R9's E is inserted. Independent metric-to-Ricci
+reconstruction gives the full equations within this restricted class:
+\[
+ P_{tt}+P_t/t-P_{xx}=e^{2P}(Q_t^2-Q_x^2),\quad
+ Q_{tt}+Q_t/t-Q_{xx}=-2(P_tQ_t-P_xQ_x),
+\]
+\[
+ \lambda_t=t[P_t^2+P_x^2+e^{2P}(Q_t^2+Q_x^2)],\qquad
+ \lambda_x=2t[P_tP_x+e^{2P}Q_tQ_x].
+\]
+A periodic lambda requires zero spatial mean of the momentum expression. The
+initial zero-P,Q family satisfies this directly. Nonzero-profile data project
+P_t to enforce it and reconstruct lambda by its periodic primitive with supplied
+mean. Such a projection can be large: these are additional admissible families,
+not automatically small perturbations of the original data.
+
+For supplied fixed-coordinate clocks, which need not be geodesic, longitudinal
+null branches have dx/dt=±1 and coordinate arrival map t_o=t_e+d. Areal t is
+generally not an affine ray parameter. R6N's metric proper-clock relation gives
+\[
+ \log Z={\lambda_o-\lambda_e\over4}-{1\over4}\log(t_o/t_e).
+\]
+Here d is the duration of a chosen lifted periodic null branch, potentially
+including winding; it is not shortest spatial distance or cosmic distance.
+The two constraints also imply exactly
+\[
+ \lambda_t\pm\lambda_x
+   =t[(P_t\pm P_x)^2+e^{2P}(Q_t\pm Q_x)^2]\ge0.
+\]
+Therefore Delta lambda is nonnegative on either future longitudinal branch.
+The added logZ relative to the constant-lambda, zero-velocity P=Q=0 Taub control
+on the same marked t_e,t_o query is nonnegative. **Total logZ can have either
+sign.** This neither orders every homogeneous control nor orders unpolarized
+versus polarized data. Equality on a ray segment does not force the entire
+geometry homogeneous. The identity was recognized during survey interpretation
+and independently checked; it was not a preregistered prediction or a native
+UDT law inferred from a curve's appearance.
+
+The frozen finite campaign contains12 GPU runs/158 history executions including
+refinements:16 initial histories, a30-case longer challenge through t=32,
+N32–256, timestep halving, constrained initial spatial profiles, two named0.1%
+velocity-mode perturbations and two changed periods. All trajectories were also
+integrated with independently implemented CPU DOP853; max absolute saved-field
+difference3.676e-8. Independent saved-metric Ricci checks passed at the declared
+stencil centers: max frame residual4.621e-9 and max t²N²-scaled residual9.647e-7,
+against2e-5 gates. Every initial state and all saved momentum constraints were
+independently checked. The largest matched-query logZ change under timestep
+halving was5.364e-9; sampled extrema are not continuum extrema. The k=.75 longer
+challenge's sampled logZ spans approximately[-.5493062,1.389315].
+
+These are finite floating-point results supported by refinement, exact controls,
+original-equation checks and independent time integration, not validated
+continuum existence or full nonlinear stability. Both codes use Fourier spatial
+discretization. Ricci checks sample time stencils; they are not uniform-in-time
+certificates. Period changes alter supplied data/marking, not a gauge-equivalence
+or infinite-volume test. General ray directions, twist,3D spatial variation,
+matter/source sectors, selected observers, physical scale and X_max are omitted.
+The small campaign consumed32.345seconds summed evolution/output time; it does
+not establish a GPU speed advantage or justify a larger production allocation.
+
+The retained gain is an executable broader conditional geometry with actual
+clock readouts and an exact sign identity separating contribution from total
+shift. It does not close R9/R18's native selection join. For the proposed next native-selection question, the work order should identify
+an evaluable native discriminant or explicitly unadopted connection, and
+distinguish evolution under an equation from constrained history search.
+Simply enlarging a Ric=0 simulation would continue exploring that supplied law.
+Sources: [fixed candidate](udt_gpu_time_live_discovery_2026-09-30/INITIAL_CANDIDATE.md),
+[clock-parameter clarification](udt_gpu_time_live_discovery_2026-09-30/REPAIR.md),
+[reviewed disposition and limits](udt_gpu_time_live_discovery_2026-09-30/REVIEWED_RESULT.md),
+and [saved campaign diagnostics](udt_gpu_time_live_discovery_2026-09-30/CAMPAIGN_DIAGNOSTICS.json).
+
 ## 7. Screen geometry, carried readouts and optional sources
 
 <a id="r13"></a>
@@ -1263,6 +1351,14 @@ are optional routes, not universal prerequisites for every clock consequence.
 <a id="r18"></a>
 
 ### R18. What can now be used, and what remains open
+
+NGD1's numerical return in R12N adds a validated comparison tool and finite
+nonlinear clock-shift histories. Its positive contribution relative to a specified
+control does not select the native geometry, and a blueshift in a supplied
+comparison metric does not refute UDT. Broader numerical work must retain that
+same distinction; the present return neither proves clarified premises insufficient
+nor establishes that additional physics must be adopted.
+
 
 The reconstructed chain supplies a reciprocal character; complete normalized
 pair data; faithful metric reconstruction from enough typed records; actual
@@ -1810,6 +1906,20 @@ and [fidelity](udt_tick_readout_identification_2026-09-30/review/fidelity/DIRECT
 reports and final attestations own review scope. Model/Python remain shared;
 human, different-model, formal and empirical verification remain unperformed.
 
+NGD1 adds two fresh separate contexts: independent SymPy metric-to-Ricci
+reconstruction, independent CPU NumPy/SciPy DOP853 evolution of all158 trajectories,
+original-metric derivatives from saved time histories, and a separate direct-DFT
+clock/constraint replay. Producer Torch/RK4 and reviewer DOP853 share Fourier
+spatial discretization; model and Python are shared. Equation/interpretation
+guidance preceded the frozen candidate, and output exposure is documented.
+One source-preserving clarification distinguishes affine coordinate arrival map
+from generally nonaffine areal ray time. The sign identity is outcome-informed;
+the finer figure-query sampling is post-outcome visualization. No human,
+different-model, formal, empirical or rigorous continuum verification is claimed.
+Actual [numerical review](udt_gpu_time_live_discovery_2026-09-30/review/numerics/REVIEW.md)
+and [fidelity review](udt_gpu_time_live_discovery_2026-09-30/review/fidelity/DIRECT_REVIEW.md)
+plus their final attestations own exposure, version and omissions.
+
 The preserved first candidates expose the repair history. The [source correction](development_reconstruction_2026-09-29/SOURCE_CORRECTIONS.md)
 fixes a real covector-basis sign in G310; the central nine-direction span and
 annihilator survive. The original file remains authentic. Further repairs make
@@ -1841,3 +1951,5 @@ stage completion, final source/check pins and all remaining omissions belong to
 [PRI1 work record](udt_population_response_identification_2026-09-30/WORK_RECORD.md).
 
 [TRI1 execution record](udt_tick_readout_identification_2026-09-30/WORK_RECORD.md).
+
+[NGD1 execution record](udt_gpu_time_live_discovery_2026-09-30/WORK_RECORD.md).

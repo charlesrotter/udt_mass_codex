@@ -1,0 +1,188 @@
+{
+  "source": "UDT_DEVELOPMENT.md R12; NE1 formula at parent startup HEAD",
+  "source_sha256": "4240243a17e5763325dca96b924a965b5c30730da5a945c409aabff98b867e2a",
+  "runs": [
+    {
+      "run": "pilot_n32",
+      "case": "ne1_e030",
+      "input_sha256": "efaef721a8108dfb94d16ea6abb75b71f06e6e11497a186213bb73353dd25557",
+      "max_abs_error_by_component": [
+        7.537581669936344e-13,
+        3.7332290037106475e-13,
+        0.0,
+        0.0,
+        1.2450040998146505e-12
+      ],
+      "max_abs_error": 1.2450040998146505e-12
+    },
+    {
+      "run": "pilot_n64",
+      "case": "ne1_e030",
+      "input_sha256": "9395f084eea2ddec4e80863a5eb14bd85cafa7ffd60baa0c354c41065246eeb9",
+      "max_abs_error_by_component": [
+        4.4325654258159375e-14,
+        2.3757038003502373e-14,
+        0.0,
+        0.0,
+        7.80486786311485e-14
+      ],
+      "max_abs_error": 7.80486786311485e-14
+    },
+    {
+      "run": "survey_n64",
+      "case": "ne1_e030",
+      "input_sha256": "1b3b42ac96a9f83b46062973fcf6147a5ef592475ffc420d6a2608ca29386818",
+      "max_abs_error_by_component": [
+        3.4147955296770505e-11,
+        2.8306461341554012e-11,
+        0.0,
+        0.0,
+        1.0950837459056117e-10
+      ],
+      "max_abs_error": 1.0950837459056117e-10
+    },
+    {
+      "run": "survey_n64",
+      "case": "ne1_e060",
+      "input_sha256": "1b3b42ac96a9f83b46062973fcf6147a5ef592475ffc420d6a2608ca29386818",
+      "max_abs_error_by_component": [
+        6.829591059354101e-11,
+        5.6612922683108025e-11,
+        0.0,
+        0.0,
+        4.3802739213560926e-10
+      ],
+      "max_abs_error": 4.3802739213560926e-10
+    },
+    {
+      "run": "survey_n128",
+      "case": "ne1_e030",
+      "input_sha256": "6390bf98d75c512adc38e856f22c351da99b0ff807c08da20aa5c56123c08cce",
+      "max_abs_error_by_component": [
+        3.414778876331681e-11,
+        2.8302846177830077e-11,
+        0.0,
+        0.0,
+        1.0950812479038063e-10
+      ],
+      "max_abs_error": 1.0950812479038063e-10
+    },
+    {
+      "run": "survey_n128",
+      "case": "ne1_e060",
+      "input_sha256": "6390bf98d75c512adc38e856f22c351da99b0ff807c08da20aa5c56123c08cce",
+      "max_abs_error_by_component": [
+        6.829557752663362e-11,
+        5.660569235566015e-11,
+        0.0,
+        0.0,
+        4.3803183302770776e-10
+      ],
+      "max_abs_error": 4.3803183302770776e-10
+    },
+    {
+      "run": "survey_n128_halfdt",
+      "case": "ne1_e030",
+      "input_sha256": "d10e4e1dddf843e361d280a740cd8f01fbeea9d4fba459b9076eb967fb6c91e2",
+      "max_abs_error_by_component": [
+        2.2213203498822054e-12,
+        1.856806375322151e-12,
+        0.0,
+        0.0,
+        6.958322806838169e-12
+      ],
+      "max_abs_error": 6.958322806838169e-12
+    },
+    {
+      "run": "survey_n128_halfdt",
+      "case": "ne1_e060",
+      "input_sha256": "d10e4e1dddf843e361d280a740cd8f01fbeea9d4fba459b9076eb967fb6c91e2",
+      "max_abs_error_by_component": [
+        4.442640699764411e-12,
+        3.713612750644302e-12,
+        0.0,
+        0.0,
+        2.7846169814438326e-11
+      ],
+      "max_abs_error": 2.7846169814438326e-11
+    },
+    {
+      "run": "survey_n256",
+      "case": "ne1_e030",
+      "input_sha256": "27ca27688e0e086ea7bedb36a5d638e626763e30ea643003e87ed37b7a1c2cb5",
+      "max_abs_error_by_component": [
+        2.2211052441711843e-12,
+        1.870704979811677e-12,
+        0.0,
+        0.0,
+        6.958461584716247e-12
+      ],
+      "max_abs_error": 6.958461584716247e-12
+    },
+    {
+      "run": "survey_n256",
+      "case": "ne1_e060",
+      "input_sha256": "27ca27688e0e086ea7bedb36a5d638e626763e30ea643003e87ed37b7a1c2cb5",
+      "max_abs_error_by_component": [
+        4.4422104883423685e-12,
+        3.741409959623354e-12,
+        0.0,
+        0.0,
+        2.7839952565500425e-11
+      ],
+      "max_abs_error": 2.7839952565500425e-11
+    },
+    {
+      "run": "challenge_n128",
+      "case": "ne1_e030",
+      "input_sha256": "d76ff4f29bc3459e976b2d3b8b9e94b66e704fb5f9b7791ce52fe093fc8e52c2",
+      "max_abs_error_by_component": [
+        3.639977208536038e-12,
+        2.831984646789465e-12,
+        0.0,
+        0.0,
+        2.90842905315003e-11
+      ],
+      "max_abs_error": 2.90842905315003e-11
+    },
+    {
+      "run": "challenge_n128",
+      "case": "ne1_e060",
+      "input_sha256": "d76ff4f29bc3459e976b2d3b8b9e94b66e704fb5f9b7791ce52fe093fc8e52c2",
+      "max_abs_error_by_component": [
+        7.279954417072076e-12,
+        5.66396929357893e-12,
+        0.0,
+        0.0,
+        1.163336094123224e-10
+      ],
+      "max_abs_error": 1.163336094123224e-10
+    },
+    {
+      "run": "challenge_n256",
+      "case": "ne1_e030",
+      "input_sha256": "79e70b07f37b7b548d2930f01a215603759eac1b2fdcc8e34bd608c287f995f9",
+      "max_abs_error_by_component": [
+        3.639831491764056e-12,
+        2.8397111051514656e-12,
+        0.0,
+        0.0,
+        2.9084956665315076e-11
+      ],
+      "max_abs_error": 2.9084956665315076e-11
+    },
+    {
+      "run": "challenge_n256",
+      "case": "ne1_e060",
+      "input_sha256": "79e70b07f37b7b548d2930f01a215603759eac1b2fdcc8e34bd608c287f995f9",
+      "max_abs_error_by_component": [
+        7.279662983528112e-12,
+        5.679422210302931e-12,
+        0.0,
+        0.0,
+        1.163478202670376e-10
+      ],
+      "max_abs_error": 1.163478202670376e-10
+    }
+  ]
+}

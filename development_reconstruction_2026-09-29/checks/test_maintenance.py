@@ -138,6 +138,16 @@ class Maintenance(unittest.TestCase):
         self.rejects({p:(ROOT/p).read_text()+'\nTEST'},'REVIEW_REQUIRED.*affected=')
     def test_tri_clock_ratio_requires_regular_query(self):
         self.rejects(self.graph_change(lambda g:g['edges'].remove({'from':'P_NULL','to':'R6N','kind':'hypothesis'})),'missing required hypothesis')
+    def test_ngd_evolution_requires_conditional_equation(self):
+        self.rejects(self.graph_change(lambda g:g['edges'].remove({'from':'C_EINSTEIN','to':'R12N','kind':'hypothesis'})),'missing required hypothesis')
+    def test_ngd_numerical_return_requires_supplied_arena(self):
+        self.rejects(self.graph_change(lambda g:g['edges'].remove({'from':'C_NGD_ARENA','to':'R12N','kind':'hypothesis'})),'missing required hypothesis')
+    def test_ngd_source_routes_positive_and_open_return(self):
+        p='udt_gpu_time_live_discovery_2026-09-30/REPAIR.md'
+        impact=set(v.affected_nodes(self.graph,[p]))
+        self.assertTrue({'R12N','R18'}<=impact)
+        self.assertFalse({'R9','R10','R18C','R18B'} & impact)
+        self.rejects({p:(ROOT/p).read_text()+'\nTEST'},'REVIEW_REQUIRED.*affected=')
     def test_tri_counts_require_supplied_record_protocol(self):
         self.rejects(self.graph_change(lambda g:g['edges'].remove({'from':'C_TRI_COUNTS','to':'R6T','kind':'hypothesis'})),'missing required hypothesis')
     def test_tri_source_routes_positive_and_negative_context(self):
@@ -160,6 +170,9 @@ class Maintenance(unittest.TestCase):
         self.rejects(self.graph_change(lambda g:g['sources_sha256'].update({v.PROTECTED[0]+'never_read.txt':'0'*64})),'unsafe/protected')
     def test_stale_generated_orientation(self):
         p='CURRENT_RESEARCH_PROGRAM.md';self.rejects({p:(ROOT/p).read_text()+'\nstale advice'},'orientation is stale')
+    def test_handoff_registry_route_loss_fails_before_long_audit(self):
+        p='HANDOFF.md';s=(ROOT/p).read_text().replace('CURRENT_SCIENTIFIC_PREMISES.tsv','unspecified registry')
+        self.rejects({p:s},'operational premise registry route missing: HANDOFF.md')
     def test_unreviewed_body_change(self):
         self.rejects(self.central_change(self.master+'\nNew unreviewed body.'),'changed reviewed file')
     def test_unreviewed_adapter_claim(self):

@@ -1,0 +1,22 @@
+{
+  "verdict": "VERIFIED-WITH-CAVEATS",
+  "scope": "Exact local Ricci reduction, constraints and longitudinal clock formula only",
+  "elapsed_seconds": 0.987174239999149,
+  "max_rss_kib": 51576,
+  "source_pin_matches_at_run": {
+    "UDT_DEVELOPMENT.md": true,
+    "udt_gr_filter_reconciliation_2026-09-09/AUTHORITY_RECORD.md": true,
+    "udt_nonlinear_ripple_geometry_2026-09-09/INITIAL_CANDIDATE.md": true,
+    "udt_nonlinear_ripple_geometry_2026-09-09/REVIEWED_RESULT.md": true,
+    "udt_finite_separation_law_2026-09-28/INITIAL_CANDIDATE.md": true,
+    "udt_finite_separation_law_2026-09-28/REPAIR.md": true
+  },
+  "lambda_integrability": "0",
+  "lambda_wave_equation": "-E**2*Qt**2 + E**2*Qx**2 - Pt**2 + Px**2",
+  "longitudinal_affine_geodesic_residuals": [
+    "0",
+    "0",
+    "0",
+    "0"
+  ]
+}

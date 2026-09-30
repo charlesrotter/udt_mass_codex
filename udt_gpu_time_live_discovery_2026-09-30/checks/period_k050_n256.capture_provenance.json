@@ -1,0 +1,14 @@
+{
+  "source": "/home/udt-admin/udt_mass_codex/udt_shared_readout_metric_constraint_campaign_2026-09-06/run_capture.py",
+  "source_sha256": "8ff5469ace76bdfc84188915242abbf3baff35516f9ee3f9ba4b1cbfeb2573ef",
+  "adapted_sha256": "ccf5e5239c760e2685148a7851d8361457d2bb90429f04c0599d3571f2c55274",
+  "cuda_virtual_address_limit_gib": 128,
+  "cpu_working_data_budget_gib": 2,
+  "gpu_allocated_budget_gib": 24,
+  "command": [
+    "python3",
+    "udt_gpu_time_live_discovery_2026-09-30/evolve.py",
+    "udt_gpu_time_live_discovery_2026-09-30/specs/period_k050_n256.json",
+    "udt_gpu_time_live_discovery_2026-09-30/runs/period_k050_n256"
+  ]
+}

@@ -1,0 +1,81 @@
+{
+  "method": "Dense direct DFT clock reconstruction and cotangent collocation derivative; no production/reviewer imports",
+  "numpy": "2.2.6",
+  "elapsed_seconds": 0.5910492970142514,
+  "peak_rss_kib": 187040,
+  "verdict": "PASS_SCOPED_NUMERICAL_RECOMPUTATION",
+  "runs": {
+    "survey_n256": {
+      "shape": [
+        97,
+        16,
+        5,
+        256
+      ],
+      "clock_query_case_count": 192,
+      "sampled_logZ_range": [
+        -0.5493061443340668,
+        1.1249531371009205
+      ],
+      "sampled_delta_vs_constant_lambda_Taub_min": -1.2656542480726785e-14,
+      "dense_momentum_constraint_max": 2.705442536665714e-10,
+      "integrability_current_mean_max": 2.2065613225485947e-11,
+      "parent_clock_summary_max_error": 4.3298697960381105e-14,
+      "sample_extrema": "Finite emitter spatial mesh and listed te,d only; not continuum extrema"
+    },
+    "challenge_n256": {
+      "shape": [
+        161,
+        30,
+        5,
+        256
+      ],
+      "clock_query_case_count": 480,
+      "sampled_logZ_range": [
+        -0.5493061443340668,
+        1.3893147211646724
+      ],
+      "sampled_delta_vs_constant_lambda_Taub_min": -1.2656542480726785e-14,
+      "dense_momentum_constraint_max": 4.897735550457583e-10,
+      "integrability_current_mean_max": 3.1763938701523386e-11,
+      "parent_clock_summary_max_error": null,
+      "sample_extrema": "Finite emitter spatial mesh and listed te,d only; not continuum extrema"
+    },
+    "period_k050_n256": {
+      "shape": [
+        161,
+        7,
+        5,
+        256
+      ],
+      "clock_query_case_count": 112,
+      "sampled_logZ_range": [
+        -0.5493061443340665,
+        1.6171893712635332
+      ],
+      "sampled_delta_vs_constant_lambda_Taub_min": -1.2823075934420558e-14,
+      "dense_momentum_constraint_max": 2.9795210743088774e-10,
+      "integrability_current_mean_max": 1.5373952111374933e-11,
+      "parent_clock_summary_max_error": null,
+      "sample_extrema": "Finite emitter spatial mesh and listed te,d only; not continuum extrema"
+    },
+    "period_k100_n256": {
+      "shape": [
+        161,
+        7,
+        5,
+        256
+      ],
+      "clock_query_case_count": 112,
+      "sampled_logZ_range": [
+        -0.5493061443340665,
+        1.5032307479849238
+      ],
+      "sampled_delta_vs_constant_lambda_Taub_min": -1.2823075934420558e-14,
+      "dense_momentum_constraint_max": 7.519568301361801e-10,
+      "integrability_current_mean_max": 4.443960477384934e-11,
+      "parent_clock_summary_max_error": null,
+      "sample_extrema": "Finite emitter spatial mesh and listed te,d only; not continuum extrema"
+    }
+  }
+}

@@ -1,0 +1,60 @@
+survey_n64 initial 4.440892098500626e-16 constraint 4.394637209692576e-09 logZ -0.5493061443340549 1.1249531407923437 delta_lambda_min 0.0
+survey_n128 initial 1.3322676295501878e-15 constraint 4.39487590764287e-09 logZ -0.5493061443340549 1.1249531407923405 delta_lambda_min 0.0
+survey_n128_halfdt initial 1.3322676295501878e-15 constraint 2.6899693583715134e-10 logZ -0.5493061443340549 1.1249531371009267 delta_lambda_min 0.0
+survey_n256 initial 1.3322676295501878e-15 constraint 2.705227153398937e-10 logZ -0.5493061443340549 1.124953137100929 delta_lambda_min 0.0
+challenge_n128 initial 1.3433698597964394e-14 constraint 4.873195180721268e-10 logZ -0.5493061443340549 1.3893147211647106 delta_lambda_min 0.0
+challenge_n256 initial 7.138734048339757e-14 constraint 4.896407723720131e-10 logZ -0.5493061443340549 1.3893147211647012 delta_lambda_min 0.0
+period_k050_n128 initial 9.159339953157541e-15 constraint 2.993327807843116e-10 logZ -0.5493061443340549 1.6170912087249962 delta_lambda_min 0.0
+period_k050_n256 initial 4.5630166312093934e-14 constraint 2.9802604828432777e-10 logZ -0.5493061443340549 1.6171893712635728 delta_lambda_min 0.0
+period_k100_n128 initial 9.159339953157541e-15 constraint 7.533254020586355e-10 logZ -0.5493061443340549 1.503124967351874 delta_lambda_min 0.0
+period_k100_n256 initial 4.5630166312093934e-14 constraint 7.516256506079344e-10 logZ -0.5493061443340549 1.5032307479849194 delta_lambda_min 0.0
+[
+  {
+    "runs": [
+      "survey_n64",
+      "survey_n128"
+    ],
+    "max_abs_state_difference": 3.019806626980426e-14,
+    "max_abs_logZ_difference": 7.771561172376096e-15
+  },
+  {
+    "runs": [
+      "survey_n128",
+      "survey_n128_halfdt"
+    ],
+    "max_abs_state_difference": 3.446314700283892e-08,
+    "max_abs_logZ_difference": 5.363890220877465e-09
+  },
+  {
+    "runs": [
+      "survey_n128_halfdt",
+      "survey_n256"
+    ],
+    "max_abs_state_difference": 8.709699628184353e-14,
+    "max_abs_logZ_difference": 1.3766765505351941e-14
+  },
+  {
+    "runs": [
+      "challenge_n128",
+      "challenge_n256"
+    ],
+    "max_abs_state_difference": 1.8474111129762605e-13,
+    "max_abs_logZ_difference": 3.064215547965432e-14
+  },
+  {
+    "runs": [
+      "period_k050_n128",
+      "period_k050_n256"
+    ],
+    "max_abs_state_difference": 1.6342482922482304e-13,
+    "max_abs_logZ_difference": 2.9753977059954195e-14
+  },
+  {
+    "runs": [
+      "period_k100_n128",
+      "period_k100_n256"
+    ],
+    "max_abs_state_difference": 1.5631940186722204e-13,
+    "max_abs_logZ_difference": 3.3306690738754696e-14
+  }
+]

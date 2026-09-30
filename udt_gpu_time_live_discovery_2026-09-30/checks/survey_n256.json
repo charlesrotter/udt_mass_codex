@@ -1,0 +1,16 @@
+{
+  "command": [
+    "python3",
+    "udt_gpu_time_live_discovery_2026-09-30/evolve.py",
+    "udt_gpu_time_live_discovery_2026-09-30/specs/survey_n256.json",
+    "udt_gpu_time_live_discovery_2026-09-30/runs/survey_n256"
+  ],
+  "cwd": "/home/udt-admin/udt_mass_codex",
+  "started_utc": "2026-09-30T22:40:15.572780+00:00",
+  "duration_seconds": 3.0162810269976035,
+  "returncode": 0,
+  "timeout": false,
+  "address_space_bytes": 137438953472,
+  "cpu_seconds": 600,
+  "maxrss_kib": 848780
+}

@@ -1,0 +1,1054 @@
+{
+  "implementation": "fresh NumPy rFFT/SciPy DOP853 and generic coordinate Christoffel/Ricci",
+  "production_solver_imported": false,
+  "source_sha256": "7ea05e9fdb31a7138a8773a7750d84a3b3a0e304b2665e9a627736b6863f11a9",
+  "input_sha256": {
+    "udt_gpu_time_live_discovery_2026-09-30/runs/period_k050_n256/fields.npz": "8aada3306c75f8403940703fa640e8d2582bfc2fd6590c0b6f8aaa3d0f7bda4b",
+    "udt_gpu_time_live_discovery_2026-09-30/runs/period_k050_n256/metadata.json": "032fe45d998d1624544beefc4081ba725fe2e8eb88bddbc9a7aa5a27abab22c9"
+  },
+  "versions": {
+    "python": "3.10.12",
+    "numpy": "2.2.6",
+    "scipy": "1.15.3"
+  },
+  "shape": [
+    161,
+    7,
+    5,
+    256
+  ],
+  "k": 0.5,
+  "cases": [
+    {
+      "case_index": 0,
+      "initial_constraint": {
+        "momentum_constraint_max_abs": 0.0,
+        "integrability_current_mean": 0.0
+      },
+      "final_constraint": {
+        "momentum_constraint_max_abs": 0.0,
+        "integrability_current_mean": 0.0
+      },
+      "original_metric_ricci": [
+        {
+          "center": 2.0,
+          "h": 0.004,
+          "coordinate_max_abs": 2.8905766669140576e-12,
+          "orthonormal_max_abs": 7.267364845207247e-12,
+          "proper_time_scaled_max_abs": 1.156230666765623e-11,
+          "ricci_symmetry_max": 0.0,
+          "metric_determinant_max_error": 1.1102230246251565e-16,
+          "temporal_stencil": [
+            4,
+            5,
+            6,
+            8,
+            10,
+            12,
+            14,
+            15,
+            16
+          ]
+        },
+        {
+          "center": 2.0,
+          "h": 0.002,
+          "coordinate_max_abs": 1.679231198536968e-10,
+          "orthonormal_max_abs": 1.202301440422018e-10,
+          "proper_time_scaled_max_abs": 1.9128498784937167e-10,
+          "ricci_symmetry_max": 0.0,
+          "metric_determinant_max_error": 1.1102230246251565e-16,
+          "temporal_stencil": [
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14
+          ]
+        },
+        {
+          "center": 8.0,
+          "h": 0.004,
+          "coordinate_max_abs": 2.643896213072594e-10,
+          "orthonormal_max_abs": 4.90984812131187e-11,
+          "proper_time_scaled_max_abs": 6.249216422116178e-10,
+          "ricci_symmetry_max": 0.0,
+          "metric_determinant_max_error": 1.7763568394002505e-15,
+          "temporal_stencil": [
+            40,
+            41,
+            42,
+            44,
+            46,
+            48,
+            50,
+            51,
+            52
+          ]
+        },
+        {
+          "center": 8.0,
+          "h": 0.002,
+          "coordinate_max_abs": 2.0133626432716767e-09,
+          "orthonormal_max_abs": 4.902450608885942e-10,
+          "proper_time_scaled_max_abs": 6.239800925955664e-09,
+          "ricci_symmetry_max": 0.0,
+          "metric_determinant_max_error": 1.7763568394002505e-15,
+          "temporal_stencil": [
+            42,
+            43,
+            44,
+            45,
+            46,
+            47,
+            48,
+            49,
+            50
+          ]
+        },
+        {
+          "center": 31.0,
+          "h": 0.004,
+          "coordinate_max_abs": 1.8634976201026276e-09,
+          "orthonormal_max_abs": 1.650349776495497e-10,
+          "proper_time_scaled_max_abs": 1.602289793390961e-08,
+          "ricci_symmetry_max": 0.0,
+          "metric_determinant_max_error": 3.552713678800501e-15,
+          "temporal_stencil": [
+            144,
+            145,
+            146,
+            148,
+            150,
+            152,
+            154,
+            155,
+            156
+          ]
+        },
+        {
+          "center": 31.0,
+          "h": 0.002,
+          "coordinate_max_abs": 5.257403873359934e-09,
+          "orthonormal_max_abs": 6.412989245692041e-10,
+          "proper_time_scaled_max_abs": 6.226236013627498e-08,
+          "ricci_symmetry_max": 0.0,
+          "metric_determinant_max_error": 3.552713678800501e-15,
+          "temporal_stencil": [
+            146,
+            147,
+            148,
+            149,
+            150,
+            151,
+            152,
+            153,
+            154
+          ]
+        }
+      ],
+      "cpu_comparison": {
+        "method": "DOP853",
+        "rtol": 2e-12,
+        "atol": 2e-13,
+        "nfev": 122,
+        "max_abs_by_component": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "max_abs": 0.0
+      }
+    },
+    {
+      "case_index": 1,
+      "initial_constraint": {
+        "momentum_constraint_max_abs": 0.0,
+        "integrability_current_mean": 0.0
+      },
+      "final_constraint": {
+        "momentum_constraint_max_abs": 6.328626858675968e-13,
+        "integrability_current_mean": 3.0509449133742095e-16
+      },
+      "original_metric_ricci": [
+        {
+          "center": 2.0,
+          "h": 0.004,
+          "coordinate_max_abs": 1.6453508217342816e-10,
+          "orthonormal_max_abs": 1.6590135207779525e-10,
+          "proper_time_scaled_max_abs": 2.653404718166997e-10,
+          "ricci_symmetry_max": 2.7742023088472845e-17,
+          "metric_determinant_max_error": 4.440892098500626e-16,
+          "temporal_stencil": [
+            4,
+            5,
+            6,
+            8,
+            10,
+            12,
+            14,
+            15,
+            16
+          ]
+        },
+        {
+          "center": 2.0,
+          "h": 0.002,
+          "coordinate_max_abs": 8.314618034875598e-10,
+          "orthonormal_max_abs": 6.828559544345761e-10,
+          "proper_time_scaled_max_abs": 1.0877479750259769e-09,
+          "ricci_symmetry_max": 2.778268066994105e-17,
+          "metric_determinant_max_error": 4.440892098500626e-16,
+          "temporal_stencil": [
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14
+          ]
+        },
+        {
+          "center": 8.0,
+          "h": 0.004,
+          "coordinate_max_abs": 1.4725928328303273e-09,
+          "orthonormal_max_abs": 2.683467463894108e-10,
+          "proper_time_scaled_max_abs": 3.610231225081862e-09,
+          "ricci_symmetry_max": 6.591949208711867e-17,
+          "metric_determinant_max_error": 2.6645352591003757e-15,
+          "temporal_stencil": [
+            40,
+            41,
+            42,
+            44,
+            46,
+            48,
+            50,
+            51,
+            52
+          ]
+        },
+        {
+          "center": 8.0,
+          "h": 0.002,
+          "coordinate_max_abs": 6.0203104567529975e-09,
+          "orthonormal_max_abs": 1.2408218864976641e-09,
+          "proper_time_scaled_max_abs": 1.6816544545772416e-08,
+          "ricci_symmetry_max": 6.245004513516506e-17,
+          "metric_determinant_max_error": 2.6645352591003757e-15,
+          "temporal_stencil": [
+            42,
+            43,
+            44,
+            45,
+            46,
+            47,
+            48,
+            49,
+            50
+          ]
+        },
+        {
+          "center": 31.0,
+          "h": 0.004,
+          "coordinate_max_abs": 7.99127348322104e-09,
+          "orthonormal_max_abs": 3.7668780781613786e-10,
+          "proper_time_scaled_max_abs": 4.668462034514857e-08,
+          "ricci_symmetry_max": 2.340792490396204e-16,
+          "metric_determinant_max_error": 1.7763568394002505e-14,
+          "temporal_stencil": [
+            144,
+            145,
+            146,
+            148,
+            150,
+            152,
+            154,
+            155,
+            156
+          ]
+        },
+        {
+          "center": 31.0,
+          "h": 0.002,
+          "coordinate_max_abs": 3.1637498558445554e-08,
+          "orthonormal_max_abs": 1.6579952039481217e-09,
+          "proper_time_scaled_max_abs": 2.0442476555657013e-07,
+          "ricci_symmetry_max": 2.2898349882893854e-16,
+          "metric_determinant_max_error": 1.7763568394002505e-14,
+          "temporal_stencil": [
+            146,
+            147,
+            148,
+            149,
+            150,
+            151,
+            152,
+            153,
+            154
+          ]
+        }
+      ],
+      "cpu_comparison": {
+        "method": "DOP853",
+        "rtol": 2e-12,
+        "atol": 2e-13,
+        "nfev": 6437,
+        "max_abs_by_component": [
+          4.65867969201561e-12,
+          2.579987092021785e-10,
+          3.476724984297075e-12,
+          1.6159908827750868e-10,
+          1.2203904553587108e-11
+        ],
+        "max_abs": 2.579987092021785e-10
+      }
+    },
+    {
+      "case_index": 2,
+      "initial_constraint": {
+        "momentum_constraint_max_abs": 0.0,
+        "integrability_current_mean": 0.0
+      },
+      "final_constraint": {
+        "momentum_constraint_max_abs": 1.970404395201797e-10,
+        "integrability_current_mean": -9.298936620716347e-12
+      },
+      "original_metric_ricci": [
+        {
+          "center": 2.0,
+          "h": 0.004,
+          "coordinate_max_abs": 1.8301337875725743e-10,
+          "orthonormal_max_abs": 1.9620176859887198e-10,
+          "proper_time_scaled_max_abs": 6.409889294692331e-10,
+          "ricci_symmetry_max": 1.3183898417423734e-16,
+          "metric_determinant_max_error": 1.3322676295501878e-15,
+          "temporal_stencil": [
+            4,
+            5,
+            6,
+            8,
+            10,
+            12,
+            14,
+            15,
+            16
+          ]
+        },
+        {
+          "center": 2.0,
+          "h": 0.002,
+          "coordinate_max_abs": 9.39713443344481e-10,
+          "orthonormal_max_abs": 4.3019221807300656e-10,
+          "proper_time_scaled_max_abs": 1.1414758244523986e-09,
+          "ricci_symmetry_max": 1.6653345369377348e-16,
+          "metric_determinant_max_error": 1.3322676295501878e-15,
+          "temporal_stencil": [
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14
+          ]
+        },
+        {
+          "center": 8.0,
+          "h": 0.004,
+          "coordinate_max_abs": 2.1443986170099905e-10,
+          "orthonormal_max_abs": 8.927459013851413e-11,
+          "proper_time_scaled_max_abs": 9.030966197087766e-09,
+          "ricci_symmetry_max": 7.719519468096792e-17,
+          "metric_determinant_max_error": 3.979039320256561e-13,
+          "temporal_stencil": [
+            40,
+            41,
+            42,
+            44,
+            46,
+            48,
+            50,
+            51,
+            52
+          ]
+        },
+        {
+          "center": 8.0,
+          "h": 0.002,
+          "coordinate_max_abs": 1.1989679600706016e-09,
+          "orthonormal_max_abs": 2.4145031262781453e-10,
+          "proper_time_scaled_max_abs": 2.4339045223698018e-08,
+          "ricci_symmetry_max": 7.632783294297951e-17,
+          "metric_determinant_max_error": 3.979039320256561e-13,
+          "temporal_stencil": [
+            42,
+            43,
+            44,
+            45,
+            46,
+            47,
+            48,
+            49,
+            50
+          ]
+        },
+        {
+          "center": 31.0,
+          "h": 0.004,
+          "coordinate_max_abs": 2.2861095221732297e-10,
+          "orthonormal_max_abs": 3.8291805551382176e-13,
+          "proper_time_scaled_max_abs": 2.196951250808473e-07,
+          "ricci_symmetry_max": 1.0863705768304754e-16,
+          "metric_determinant_max_error": 1.6689300537109375e-06,
+          "temporal_stencil": [
+            144,
+            145,
+            146,
+            148,
+            150,
+            152,
+            154,
+            155,
+            156
+          ]
+        },
+        {
+          "center": 31.0,
+          "h": 0.002,
+          "coordinate_max_abs": 4.540023496035772e-10,
+          "orthonormal_max_abs": 6.886449429542792e-13,
+          "proper_time_scaled_max_abs": 4.362962579690376e-07,
+          "ricci_symmetry_max": 1.0538445116559103e-16,
+          "metric_determinant_max_error": 1.6689300537109375e-06,
+          "temporal_stencil": [
+            146,
+            147,
+            148,
+            149,
+            150,
+            151,
+            152,
+            153,
+            154
+          ]
+        }
+      ],
+      "cpu_comparison": {
+        "method": "DOP853",
+        "rtol": 2e-12,
+        "atol": 2e-13,
+        "nfev": 6467,
+        "max_abs_by_component": [
+          1.0591016952332666e-10,
+          7.075164343284257e-10,
+          1.8574330962195518e-10,
+          1.8541333884902755e-09,
+          2.28451924044748e-09
+        ],
+        "max_abs": 2.28451924044748e-09
+      }
+    },
+    {
+      "case_index": 3,
+      "initial_constraint": {
+        "momentum_constraint_max_abs": 0.0,
+        "integrability_current_mean": 0.0
+      },
+      "final_constraint": {
+        "momentum_constraint_max_abs": 3.1647295894998706e-11,
+        "integrability_current_mean": 1.4000710313322173e-12
+      },
+      "original_metric_ricci": [
+        {
+          "center": 2.0,
+          "h": 0.004,
+          "coordinate_max_abs": 1.725264930918513e-10,
+          "orthonormal_max_abs": 1.174656165225377e-10,
+          "proper_time_scaled_max_abs": 2.9950941726752944e-10,
+          "ricci_symmetry_max": 9.71445146547012e-17,
+          "metric_determinant_max_error": 8.881784197001252e-16,
+          "temporal_stencil": [
+            4,
+            5,
+            6,
+            8,
+            10,
+            12,
+            14,
+            15,
+            16
+          ]
+        },
+        {
+          "center": 2.0,
+          "h": 0.002,
+          "coordinate_max_abs": 8.573279907178599e-10,
+          "orthonormal_max_abs": 3.522951635397687e-10,
+          "proper_time_scaled_max_abs": 6.95613899814873e-10,
+          "ricci_symmetry_max": 8.326672684688674e-17,
+          "metric_determinant_max_error": 8.881784197001252e-16,
+          "temporal_stencil": [
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14
+          ]
+        },
+        {
+          "center": 8.0,
+          "h": 0.004,
+          "coordinate_max_abs": 2.219366218580987e-10,
+          "orthonormal_max_abs": 5.645487144080412e-11,
+          "proper_time_scaled_max_abs": 5.709937633824326e-09,
+          "ricci_symmetry_max": 6.917209860457518e-17,
+          "metric_determinant_max_error": 2.5579538487363607e-13,
+          "temporal_stencil": [
+            40,
+            41,
+            42,
+            44,
+            46,
+            48,
+            50,
+            51,
+            52
+          ]
+        },
+        {
+          "center": 8.0,
+          "h": 0.002,
+          "coordinate_max_abs": 1.2612218908136796e-09,
+          "orthonormal_max_abs": 2.4626791487121737e-10,
+          "proper_time_scaled_max_abs": 2.5265143088759607e-08,
+          "ricci_symmetry_max": 6.938893903907228e-17,
+          "metric_determinant_max_error": 2.5579538487363607e-13,
+          "temporal_stencil": [
+            42,
+            43,
+            44,
+            45,
+            46,
+            47,
+            48,
+            49,
+            50
+          ]
+        },
+        {
+          "center": 31.0,
+          "h": 0.004,
+          "coordinate_max_abs": 1.4357241654230912e-10,
+          "orthonormal_max_abs": 2.5221550338573743e-13,
+          "proper_time_scaled_max_abs": 1.3797309229715901e-07,
+          "ricci_symmetry_max": 3.252606517456513e-17,
+          "metric_determinant_max_error": 1.3709068298339844e-06,
+          "temporal_stencil": [
+            144,
+            145,
+            146,
+            148,
+            150,
+            152,
+            154,
+            155,
+            156
+          ]
+        },
+        {
+          "center": 31.0,
+          "h": 0.002,
+          "coordinate_max_abs": 3.6640829433054467e-10,
+          "orthonormal_max_abs": 6.698183601653559e-13,
+          "proper_time_scaled_max_abs": 3.5211837085165343e-07,
+          "ricci_symmetry_max": 3.859759734048396e-17,
+          "metric_determinant_max_error": 1.3709068298339844e-06,
+          "temporal_stencil": [
+            146,
+            147,
+            148,
+            149,
+            150,
+            151,
+            152,
+            153,
+            154
+          ]
+        }
+      ],
+      "cpu_comparison": {
+        "method": "DOP853",
+        "rtol": 2e-12,
+        "atol": 2e-13,
+        "nfev": 6224,
+        "max_abs_by_component": [
+          3.6749381315814844e-11,
+          2.7896259191528827e-09,
+          6.024380994062994e-11,
+          3.0685009810849095e-09,
+          1.9752732782762905e-10
+        ],
+        "max_abs": 3.0685009810849095e-09
+      }
+    },
+    {
+      "case_index": 4,
+      "initial_constraint": {
+        "momentum_constraint_max_abs": 1.4073811560599836e-14,
+        "integrability_current_mean": 0.0
+      },
+      "final_constraint": {
+        "momentum_constraint_max_abs": 7.207236110001736e-13,
+        "integrability_current_mean": 7.20723394159739e-15
+      },
+      "original_metric_ricci": [
+        {
+          "center": 2.0,
+          "h": 0.004,
+          "coordinate_max_abs": 2.0377123426118526e-10,
+          "orthonormal_max_abs": 1.4455595395798945e-10,
+          "proper_time_scaled_max_abs": 2.3039437024863224e-10,
+          "ricci_symmetry_max": 2.8189256484623115e-17,
+          "metric_determinant_max_error": 4.440892098500626e-16,
+          "temporal_stencil": [
+            4,
+            5,
+            6,
+            8,
+            10,
+            12,
+            14,
+            15,
+            16
+          ]
+        },
+        {
+          "center": 2.0,
+          "h": 0.002,
+          "coordinate_max_abs": 7.318239829239015e-10,
+          "orthonormal_max_abs": 5.826822408559203e-10,
+          "proper_time_scaled_max_abs": 9.286833524413399e-10,
+          "ricci_symmetry_max": 3.5019730171281793e-17,
+          "metric_determinant_max_error": 4.440892098500626e-16,
+          "temporal_stencil": [
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14
+          ]
+        },
+        {
+          "center": 8.0,
+          "h": 0.004,
+          "coordinate_max_abs": 1.2972169866065641e-09,
+          "orthonormal_max_abs": 3.240308656951729e-10,
+          "proper_time_scaled_max_abs": 4.354079374824239e-09,
+          "ricci_symmetry_max": 1.222980050563649e-16,
+          "metric_determinant_max_error": 2.6645352591003757e-15,
+          "temporal_stencil": [
+            40,
+            41,
+            42,
+            44,
+            46,
+            48,
+            50,
+            51,
+            52
+          ]
+        },
+        {
+          "center": 8.0,
+          "h": 0.002,
+          "coordinate_max_abs": 7.14073364674328e-09,
+          "orthonormal_max_abs": 1.5915924283846742e-09,
+          "proper_time_scaled_max_abs": 2.1400863081666447e-08,
+          "ricci_symmetry_max": 1.2923689896027213e-16,
+          "metric_determinant_max_error": 2.6645352591003757e-15,
+          "temporal_stencil": [
+            42,
+            43,
+            44,
+            45,
+            46,
+            47,
+            48,
+            49,
+            50
+          ]
+        },
+        {
+          "center": 31.0,
+          "h": 0.004,
+          "coordinate_max_abs": 7.912999188189329e-09,
+          "orthonormal_max_abs": 3.652122684521051e-10,
+          "proper_time_scaled_max_abs": 4.535245394549864e-08,
+          "ricci_symmetry_max": 2.3071822230491534e-16,
+          "metric_determinant_max_error": 2.1316282072803006e-14,
+          "temporal_stencil": [
+            144,
+            145,
+            146,
+            148,
+            150,
+            152,
+            154,
+            155,
+            156
+          ]
+        },
+        {
+          "center": 31.0,
+          "h": 0.002,
+          "coordinate_max_abs": 2.849144973768314e-08,
+          "orthonormal_max_abs": 1.7439709030751436e-09,
+          "proper_time_scaled_max_abs": 2.212483626844869e-07,
+          "ricci_symmetry_max": 2.2768245622195593e-16,
+          "metric_determinant_max_error": 2.1316282072803006e-14,
+          "temporal_stencil": [
+            146,
+            147,
+            148,
+            149,
+            150,
+            151,
+            152,
+            153,
+            154
+          ]
+        }
+      ],
+      "cpu_comparison": {
+        "method": "DOP853",
+        "rtol": 2e-12,
+        "atol": 2e-13,
+        "nfev": 7223,
+        "max_abs_by_component": [
+          1.43301898125614e-11,
+          1.743600958059588e-10,
+          1.087731987814422e-11,
+          4.303638279079536e-10,
+          1.3854584146599791e-11
+        ],
+        "max_abs": 4.303638279079536e-10
+      }
+    },
+    {
+      "case_index": 5,
+      "initial_constraint": {
+        "momentum_constraint_max_abs": 1.2961853812498703e-14,
+        "integrability_current_mean": 0.0
+      },
+      "final_constraint": {
+        "momentum_constraint_max_abs": 2.920809150097625e-10,
+        "integrability_current_mean": -1.529355114771036e-11
+      },
+      "original_metric_ricci": [
+        {
+          "center": 2.0,
+          "h": 0.004,
+          "coordinate_max_abs": 1.9925736061132682e-10,
+          "orthonormal_max_abs": 2.0452255261730755e-10,
+          "proper_time_scaled_max_abs": 7.852789278214866e-10,
+          "ricci_symmetry_max": 1.8041124150158794e-16,
+          "metric_determinant_max_error": 1.7763568394002505e-15,
+          "temporal_stencil": [
+            4,
+            5,
+            6,
+            8,
+            10,
+            12,
+            14,
+            15,
+            16
+          ]
+        },
+        {
+          "center": 2.0,
+          "h": 0.002,
+          "coordinate_max_abs": 7.600501460841569e-10,
+          "orthonormal_max_abs": 5.441349806298039e-10,
+          "proper_time_scaled_max_abs": 1.471214934600784e-09,
+          "ricci_symmetry_max": 2.220446049250313e-16,
+          "metric_determinant_max_error": 1.7763568394002505e-15,
+          "temporal_stencil": [
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14
+          ]
+        },
+        {
+          "center": 8.0,
+          "h": 0.004,
+          "coordinate_max_abs": 1.8698512616738272e-10,
+          "orthonormal_max_abs": 8.324620707132314e-11,
+          "proper_time_scaled_max_abs": 1.0283471489277995e-08,
+          "ricci_symmetry_max": 1.1709383462843448e-16,
+          "metric_determinant_max_error": 5.684341886080801e-13,
+          "temporal_stencil": [
+            40,
+            41,
+            42,
+            44,
+            46,
+            48,
+            50,
+            51,
+            52
+          ]
+        },
+        {
+          "center": 8.0,
+          "h": 0.002,
+          "coordinate_max_abs": 9.450163668094091e-10,
+          "orthonormal_max_abs": 1.909158959936148e-10,
+          "proper_time_scaled_max_abs": 2.3822819272822926e-08,
+          "ricci_symmetry_max": 7.632783294297951e-17,
+          "metric_determinant_max_error": 5.684341886080801e-13,
+          "temporal_stencil": [
+            42,
+            43,
+            44,
+            45,
+            46,
+            47,
+            48,
+            49,
+            50
+          ]
+        },
+        {
+          "center": 31.0,
+          "h": 0.004,
+          "coordinate_max_abs": 2.3370700860669835e-10,
+          "orthonormal_max_abs": 1.3838616871616407e-13,
+          "proper_time_scaled_max_abs": 2.2459243527103704e-07,
+          "ricci_symmetry_max": 1.2750217548429532e-16,
+          "metric_determinant_max_error": 2.47955322265625e-05,
+          "temporal_stencil": [
+            144,
+            145,
+            146,
+            148,
+            150,
+            152,
+            154,
+            155,
+            156
+          ]
+        },
+        {
+          "center": 31.0,
+          "h": 0.002,
+          "coordinate_max_abs": 4.385121172428841e-10,
+          "orthonormal_max_abs": 3.5106767810040774e-13,
+          "proper_time_scaled_max_abs": 4.214101446704115e-07,
+          "ricci_symmetry_max": 1.201296007113939e-16,
+          "metric_determinant_max_error": 2.47955322265625e-05,
+          "temporal_stencil": [
+            146,
+            147,
+            148,
+            149,
+            150,
+            151,
+            152,
+            153,
+            154
+          ]
+        }
+      ],
+      "cpu_comparison": {
+        "method": "DOP853",
+        "rtol": 2e-12,
+        "atol": 2e-13,
+        "nfev": 6695,
+        "max_abs_by_component": [
+          1.5811663089948524e-10,
+          2.173797281068701e-09,
+          2.746180227664041e-10,
+          4.040791243276054e-09,
+          3.835619821757064e-09
+        ],
+        "max_abs": 4.040791243276054e-09
+      }
+    },
+    {
+      "case_index": 6,
+      "initial_constraint": {
+        "momentum_constraint_max_abs": 1.2538581284360362e-14,
+        "integrability_current_mean": -1.0408340855860843e-17
+      },
+      "final_constraint": {
+        "momentum_constraint_max_abs": 2.9123703448874494e-11,
+        "integrability_current_mean": -4.530181785256104e-12
+      },
+      "original_metric_ricci": [
+        {
+          "center": 2.0,
+          "h": 0.004,
+          "coordinate_max_abs": 1.941018734630262e-10,
+          "orthonormal_max_abs": 1.253543405229623e-10,
+          "proper_time_scaled_max_abs": 2.3755641898048907e-10,
+          "ricci_symmetry_max": 1.5265566588595902e-16,
+          "metric_determinant_max_error": 8.881784197001252e-16,
+          "temporal_stencil": [
+            4,
+            5,
+            6,
+            8,
+            10,
+            12,
+            14,
+            15,
+            16
+          ]
+        },
+        {
+          "center": 2.0,
+          "h": 0.002,
+          "coordinate_max_abs": 7.022226966579836e-10,
+          "orthonormal_max_abs": 4.0743945669849425e-10,
+          "proper_time_scaled_max_abs": 8.850358224066212e-10,
+          "ricci_symmetry_max": 1.1796119636642288e-16,
+          "metric_determinant_max_error": 8.881784197001252e-16,
+          "temporal_stencil": [
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14
+          ]
+        },
+        {
+          "center": 8.0,
+          "h": 0.004,
+          "coordinate_max_abs": 2.42838322367378e-10,
+          "orthonormal_max_abs": 5.6886111671692255e-11,
+          "proper_time_scaled_max_abs": 4.0265214981682895e-09,
+          "ricci_symmetry_max": 1.0408340855860843e-16,
+          "metric_determinant_max_error": 1.1368683772161603e-13,
+          "temporal_stencil": [
+            40,
+            41,
+            42,
+            44,
+            46,
+            48,
+            50,
+            51,
+            52
+          ]
+        },
+        {
+          "center": 8.0,
+          "h": 0.002,
+          "coordinate_max_abs": 1.3123689912575287e-09,
+          "orthonormal_max_abs": 3.150235919194734e-10,
+          "proper_time_scaled_max_abs": 2.2951828770878542e-08,
+          "ricci_symmetry_max": 9.454242944073599e-17,
+          "metric_determinant_max_error": 1.1368683772161603e-13,
+          "temporal_stencil": [
+            42,
+            43,
+            44,
+            45,
+            46,
+            47,
+            48,
+            49,
+            50
+          ]
+        },
+        {
+          "center": 31.0,
+          "h": 0.004,
+          "coordinate_max_abs": 1.0566596989752819e-10,
+          "orthonormal_max_abs": 5.520711141306841e-13,
+          "proper_time_scaled_max_abs": 1.0154499707152458e-07,
+          "ricci_symmetry_max": 3.686287386450715e-17,
+          "metric_determinant_max_error": 1.9371509552001953e-07,
+          "temporal_stencil": [
+            144,
+            145,
+            146,
+            148,
+            150,
+            152,
+            154,
+            155,
+            156
+          ]
+        },
+        {
+          "center": 31.0,
+          "h": 0.002,
+          "coordinate_max_abs": 2.8499962803356003e-10,
+          "orthonormal_max_abs": 1.4501502004806462e-12,
+          "proper_time_scaled_max_abs": 2.7388464254025124e-07,
+          "ricci_symmetry_max": 3.209238430557093e-17,
+          "metric_determinant_max_error": 1.9371509552001953e-07,
+          "temporal_stencil": [
+            146,
+            147,
+            148,
+            149,
+            150,
+            151,
+            152,
+            153,
+            154
+          ]
+        }
+      ],
+      "cpu_comparison": {
+        "method": "DOP853",
+        "rtol": 2e-12,
+        "atol": 2e-13,
+        "nfev": 6572,
+        "max_abs_by_component": [
+          8.718411409480709e-11,
+          1.661825749926793e-09,
+          1.060903170868599e-10,
+          4.239531697924903e-09,
+          4.750315696355756e-10
+        ],
+        "max_abs": 4.239531697924903e-09
+      }
+    }
+  ],
+  "elapsed_seconds": 2.5218642160180025,
+  "peak_rss_kib": 97960
+}

@@ -1,0 +1,18 @@
+{
+  "status": "PASS",
+  "scope": "exact existing full406 premise-registry route condition only, extracted tuple via AST, no science audit substitute",
+  "controls": [
+    "AGENTS.md",
+    "LIVE.md",
+    "HANDOFF.md",
+    "INDEX.md",
+    "MEMORY.md",
+    "README.md",
+    "research/README.md",
+    "research/_registry/README.md",
+    "CURRENT_RESEARCH_PROGRAM.md",
+    "CURRENT_SCIENTIFIC_PREMISES.md",
+    "CLAUDE.md",
+    "INFLIGHT_STATE.md"
+  ]
+}

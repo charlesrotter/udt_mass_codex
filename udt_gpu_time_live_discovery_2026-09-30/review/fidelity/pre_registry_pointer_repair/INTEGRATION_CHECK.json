@@ -1,0 +1,52 @@
+{
+  "verdict": "PASS_FILE_CORRESPONDENCE_AND_ROUTING_ONLY",
+  "freeze_sha256": "0becfef99cdc0e48f9c169af1d4ef2b5cfe8115bc874eff4963959eb6e523b38",
+  "checked_count": 570,
+  "old_count": 332,
+  "new_count": 238,
+  "changed_inherited_files": {
+    "CURRENT_RESEARCH_PROGRAM.md": {
+      "before": "7bd3f881c68dfa07c4e16b0f1d554f9d16616b32f50cfa3f2506978f0441774a",
+      "after": "39b6919a9cd9649839e2807f9d93f065c0f4e38964640e5e96263ccda6c886c5"
+    },
+    "HANDOFF.md": {
+      "before": "6f09e04a0502bff3e844ed559740fc97fb671c09a71e3880229329f2cc17a520",
+      "after": "9c9aa6c157cdd624ab2ef674b49e9e8d141e80264f41f898039398d7c1b90986"
+    },
+    "INDEX.md": {
+      "before": "80b0a1a553624516b223ced587a7a20dfaf86a90ef83a2b0c5478e64ba1a053b",
+      "after": "79be0981180b3a241fb0be15697d731884218796dc36fde4cd6fce08ab55e8a1"
+    },
+    "LIVE.md": {
+      "before": "089e9ce29d9285b6b8824362a12f4c4697c4824df764b84a06646d348aa6ff11",
+      "after": "e0a03ed212ec0f476872d9225b71731b7f0c813531acd7d1b9d7fae7b3591a9e"
+    },
+    "UDT_DEVELOPMENT.md": {
+      "before": "4919bb7b2d42fd17a7c87f44fcfb4a02eae9b3d34e1da7d4892047d5d35c2541",
+      "after": "5ef3bf67ced86b513ba476bd74f0203e43eea109aa2ce3391f7ae1a484472904"
+    },
+    "UDT_RESEARCH_ROADMAP.md": {
+      "before": "ed6f99880277500fb2b60e037203526f03563815a339d8a922f334c62273781a",
+      "after": "7511d5d68216399a2912c9339bb83b6453092104981ec472bf4e7582f8b469f0"
+    },
+    "development_reconstruction_2026-09-29/DEVELOPMENT_GRAPH.json": {
+      "before": "e6b8cdb2b5802daefd621424c80ae208aea6b23f715d610ee9a3db3f4ed77531",
+      "after": "3341fa14eb80f3fc56a45f29ab5fb51b84dd98ba81f4d657c663be9454aab5b9"
+    },
+    "development_reconstruction_2026-09-29/RECENT_DISPOSITIONS.tsv": {
+      "before": "622a89f877a502f5579f35cd3f8ec18f99ec3d11bf4b1ed4ce129a719bb28d52",
+      "after": "bbf3f21aa4f781cba38dc94688c8b8f43adb10c28cd3bd41c7171bc8235daf18"
+    },
+    "development_reconstruction_2026-09-29/checks/test_maintenance.py": {
+      "before": "df1daf259cf023f9caf6e2a68802fd6f65b13664bd95f3e852015f575e8e9214",
+      "after": "83d891d8679e467839b2f15842b5c07a60d277ebb64aca3deda7b97505eade98"
+    }
+  },
+  "protected_files_opened": false,
+  "mismatches": {},
+  "HEAD": "5b4aa5456b307f2be94ccdeadf9dfd7bc6677d28",
+  "branch": "grok",
+  "elapsed_seconds": 0.0943244019872509,
+  "peak_rss_kib": 56080,
+  "warning": "Semantic acceptance requires the actual separate final integration review."
+}

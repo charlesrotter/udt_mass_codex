@@ -1,0 +1,7 @@
+{
+  "reason": "Preserve actual 570-file review before HANDOFF registry-pointer guard repair",
+  "sha256": {
+    "FINAL_INTEGRATION_REVIEW.md": "8ca2d47e9b542283acc4334995aa6a25c099a521fb5bbb7c893cbb7628ef2a39",
+    "FINAL_ATTESTATION.json": "c4e0be734780232170e80eaa3ccaf9bff2ab6ff8fc5b3d4e711056d36f33ee5b"
+  }
+}

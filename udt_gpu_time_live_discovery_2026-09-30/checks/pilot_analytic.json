@@ -1,0 +1,14 @@
+{
+  "command": [
+    "python3",
+    "udt_gpu_time_live_discovery_2026-09-30/analyze.py"
+  ],
+  "cwd": "/home/udt-admin/udt_mass_codex",
+  "started_utc": "2026-09-30T22:37:36.871474+00:00",
+  "duration_seconds": 0.1402598959975876,
+  "returncode": 0,
+  "timeout": false,
+  "address_space_bytes": 1073741824,
+  "cpu_seconds": 60,
+  "maxrss_kib": 63688
+}

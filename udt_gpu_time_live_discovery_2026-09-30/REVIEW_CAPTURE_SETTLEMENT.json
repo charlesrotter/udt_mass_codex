@@ -1,0 +1,12 @@
+{
+  "scope": "operational capture settlement; no science or test changes",
+  "cause": "parent froze new review-output paths while fidelity55-test receipt was still being completed; detected before any640-path acceptance",
+  "path": "udt_gpu_time_live_discovery_2026-09-30/review/fidelity/final_maintenance.stderr",
+  "unsettled_manifest_expected_sha256": "bd7937f7ec50f64e98df7d713d572eeb7f191f2a75ba8beb80c47f135fb4ad2b",
+  "settled_complete_sha256": "a8a57c12e1997dd0990a877ba34a641673b0e9c6a204832dc093b6351577241b",
+  "preserved_prior_54_test_receipt": "review/fidelity/pre_registry_pointer_repair/final_maintenance.stderr",
+  "preserved_complete_55_test_receipt": "udt_gpu_time_live_discovery_2026-09-30/checks/fidelity_55_guards_settled.stderr",
+  "prior_unaccepted_freeze": "udt_gpu_time_live_discovery_2026-09-30/integration_registry_pointer_initial/UNSETTLED_640_FREEZE.json",
+  "reviewer_statement": "No accepted-path writes since640-freeze-ready dispatch; previous54 receipt preserved;55-test rerun completed before reviewer reported readiness",
+  "resolution": "freeze completed55-test receipt after actual observation; both reviewers check revised map; no test or scientific rerun"
+}

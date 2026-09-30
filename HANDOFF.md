@@ -1,22 +1,24 @@
 # HANDOFF — current operational handoff
 
 <!-- STARTUP_CURRENT_BEGIN -->
-## Current handoff — TRI1 after PRI1/CCR1/CES1/PCW1/GCA1/LKT1/SGE1/CDR1, 2026-09-30
+## Current handoff — NGD1 after TRI1/PRI1/CCR1/CES1/PCW1/GCA1/LKT1/SGE1/CDR1, 2026-09-30
 
-LIVE.md wins. Charles authorized the received-tick/comparison-rule inquiry,
-including normal review and central integration. TRI1's fixed evidence is under
-`udt_tick_readout_identification_2026-09-30/`; its argument is central R6N/R6T
-and R18F. UDT_DEVELOPMENT.md remains the sole maintained argument, with generated
-startup view CURRENT_RESEARCH_PROGRAM.md. Exact406 grades in
-CURRENT_SCIENTIFIC_PREMISES.tsv are unchanged; original evidence keeps its scope.
+LIVE.md wins. Charles authorized the staged numerical discovery plan including
+checks, challenges, separate-context review and central integration. NGD1's
+fixed evidence is under `udt_gpu_time_live_discovery_2026-09-30/`; PLAN.md and
+WORK_RECORD.md identify its bounded return. Its argument is central R12N/R18.
+UDT_DEVELOPMENT.md remains the sole maintained argument, with generated startup
+view CURRENT_RESEARCH_PROGRAM.md. The exact406 grades in
+CURRENT_SCIENTIFIC_PREMISES.tsv are unchanged.
 
-Next: Stop for lay discussion. TRI1's WORK_RECORD.md, actual reviews/checks and
-Git history own completion and banking. Its correction separates actual-clock
-readout from optional population-clock selection; all interfaces and supplied
-counting data remain explicit. No successor solve, scientific promotion or
-CANON change is authorized. Use LIVE for pauses, archive caveats and preservation.
-Central dependencies and actual review bindings remain in
-development_reconstruction_2026-09-29/.
+Next: Stop for lay discussion. Actual review/check receipts and Git history
+own completion and banking. For the proposed next native-selection question, discuss an evaluable native
+discriminant or explicitly unadopted connection. Other bounded conditional
+comparison questions remain available; larger production needs a new work order.
+Larger conditional Ric=0 production alone does not select UDT dynamics. No new source, physical
+scale, selected metric, scientific promotion or CANON change is authorized.
+Use LIVE for pauses, archive caveats and preservation. Central dependencies and
+actual review bindings remain in development_reconstruction_2026-09-29/.
 
 Protected payloads require explicit dispatch; preserve without inspecting/hashing:
 

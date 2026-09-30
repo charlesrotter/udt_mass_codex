@@ -1,0 +1,314 @@
+{
+  "spec": {
+    "stage": "development_pilot",
+    "n": 32,
+    "k": 0.75,
+    "dt": 0.005,
+    "end": 4.0,
+    "snapshot_dt": 0.25,
+    "stencil_centers": [
+      2.0,
+      3.0
+    ],
+    "device": "cuda",
+    "constraint_stop": 0.05,
+    "cases": [
+      {
+        "id": "homogeneous",
+        "P": [],
+        "V": [],
+        "Q": [],
+        "W": []
+      },
+      {
+        "id": "ne1_e030",
+        "V": [
+          [
+            1,
+            0.45,
+            0
+          ]
+        ]
+      },
+      {
+        "id": "two_polarizations",
+        "V": [
+          [
+            1,
+            0.3,
+            0
+          ],
+          [
+            2,
+            0.08,
+            0.7
+          ]
+        ],
+        "W": [
+          [
+            1,
+            0.2,
+            0.4
+          ],
+          [
+            3,
+            0.06,
+            1.1
+          ]
+        ]
+      }
+    ]
+  },
+  "spec_sha256": "57111531b9c06926409646b15c302a51ea9be5ca9d3d05af6a0db5eff06eab99",
+  "code_sha256": "f67b50e94ae0ffcc6a5f0bc6eaa2cf16f2763fd7a77026e71e6c1159e7e40367",
+  "device": "Tesla V100-PCIE-32GB",
+  "torch": "2.5.1+cu121",
+  "numpy": "2.2.6",
+  "dtype": "float64",
+  "shape": [
+    37,
+    3,
+    5,
+    32
+  ],
+  "steps": 612,
+  "elapsed_seconds": 0.6251617950038053,
+  "peak_gpu_allocated_bytes": 55808,
+  "initial_projections": [
+    {
+      "id": "homogeneous",
+      "alpha": 0.0,
+      "initial_constraint_max": 0.0
+    },
+    {
+      "id": "ne1_e030",
+      "alpha": 0.0,
+      "initial_constraint_max": 0.0
+    },
+    {
+      "id": "two_polarizations",
+      "alpha": 0.0,
+      "initial_constraint_max": 0.0
+    }
+  ],
+  "max_constraint": 6.067381319585508e-11,
+  "max_tail": 2.7121745669270812e-08,
+  "diagnostics": [
+    {
+      "t": 1.25,
+      "constraint_max": 1.301958540977921e-12,
+      "tail_max": 1.775819958807559e-08,
+      "finite": true
+    },
+    {
+      "t": 1.5,
+      "constraint_max": 5.908749184380113e-12,
+      "tail_max": 2.6805712455809565e-08,
+      "finite": true
+    },
+    {
+      "t": 1.75,
+      "constraint_max": 1.631488000253256e-11,
+      "tail_max": 1.6655564559640386e-08,
+      "finite": true
+    },
+    {
+      "t": 1.984,
+      "constraint_max": 2.191443207455457e-11,
+      "tail_max": 2.7121745669270812e-08,
+      "finite": true
+    },
+    {
+      "t": 1.988,
+      "constraint_max": 2.2166907198695185e-11,
+      "tail_max": 2.6849253635344878e-08,
+      "finite": true
+    },
+    {
+      "t": 1.992,
+      "constraint_max": 2.240702068334599e-11,
+      "tail_max": 2.656608431299895e-08,
+      "finite": true
+    },
+    {
+      "t": 1.994,
+      "constraint_max": 2.252394451507378e-11,
+      "tail_max": 2.6420614327030496e-08,
+      "finite": true
+    },
+    {
+      "t": 1.996,
+      "constraint_max": 2.2636410107468308e-11,
+      "tail_max": 2.627261821557491e-08,
+      "finite": true
+    },
+    {
+      "t": 1.998,
+      "constraint_max": 2.2748591205212776e-11,
+      "tail_max": 2.612214452609944e-08,
+      "finite": true
+    },
+    {
+      "t": 2.0,
+      "constraint_max": 2.2859047987822123e-11,
+      "tail_max": 2.5969242179796865e-08,
+      "finite": true
+    },
+    {
+      "t": 2.002,
+      "constraint_max": 2.2967648616312175e-11,
+      "tail_max": 2.5813960455623114e-08,
+      "finite": true
+    },
+    {
+      "t": 2.004,
+      "constraint_max": 2.3073532667838847e-11,
+      "tail_max": 2.5656348981073833e-08,
+      "finite": true
+    },
+    {
+      "t": 2.006,
+      "constraint_max": 2.317790750994142e-11,
+      "tail_max": 2.5496457720072276e-08,
+      "finite": true
+    },
+    {
+      "t": 2.008,
+      "constraint_max": 2.3278819843985943e-11,
+      "tail_max": 2.533433696626292e-08,
+      "finite": true
+    },
+    {
+      "t": 2.012,
+      "constraint_max": 2.3476054433757554e-11,
+      "tail_max": 2.5003609691613722e-08,
+      "finite": true
+    },
+    {
+      "t": 2.016,
+      "constraint_max": 2.3665062964806083e-11,
+      "tail_max": 2.4664575530851506e-08,
+      "finite": true
+    },
+    {
+      "t": 2.25,
+      "constraint_max": 2.498685286456137e-11,
+      "tail_max": 4.8749018523029485e-09,
+      "finite": true
+    },
+    {
+      "t": 2.5,
+      "constraint_max": 2.5441069390064186e-11,
+      "tail_max": 4.574265160324425e-09,
+      "finite": true
+    },
+    {
+      "t": 2.75,
+      "constraint_max": 2.831746642728561e-11,
+      "tail_max": 8.963529209898439e-09,
+      "finite": true
+    },
+    {
+      "t": 2.984,
+      "constraint_max": 4.8207937641819854e-11,
+      "tail_max": 3.6206447731537216e-09,
+      "finite": true
+    },
+    {
+      "t": 2.988,
+      "constraint_max": 4.8564152699270835e-11,
+      "tail_max": 3.775857231230814e-09,
+      "finite": true
+    },
+    {
+      "t": 2.992,
+      "constraint_max": 4.8917776947210445e-11,
+      "tail_max": 3.932429725146886e-09,
+      "finite": true
+    },
+    {
+      "t": 2.994,
+      "constraint_max": 4.9089309873961984e-11,
+      "tail_max": 4.011028172149254e-09,
+      "finite": true
+    },
+    {
+      "t": 2.996,
+      "constraint_max": 4.9262812579220494e-11,
+      "tail_max": 4.089740021041895e-09,
+      "finite": true
+    },
+    {
+      "t": 2.998,
+      "constraint_max": 4.94350411300859e-11,
+      "tail_max": 4.168500200149697e-09,
+      "finite": true
+    },
+    {
+      "t": 3.0,
+      "constraint_max": 4.9605238319760936e-11,
+      "tail_max": 4.247247956104726e-09,
+      "finite": true
+    },
+    {
+      "t": 3.002,
+      "constraint_max": 4.977425936691926e-11,
+      "tail_max": 4.325926503567481e-09,
+      "finite": true
+    },
+    {
+      "t": 3.004,
+      "constraint_max": 4.9940990579089295e-11,
+      "tail_max": 4.404482708059408e-09,
+      "finite": true
+    },
+    {
+      "t": 3.006,
+      "constraint_max": 5.010717708808787e-11,
+      "tail_max": 4.482866792039782e-09,
+      "finite": true
+    },
+    {
+      "t": 3.008,
+      "constraint_max": 5.027264802365261e-11,
+      "tail_max": 4.561032068368202e-09,
+      "finite": true
+    },
+    {
+      "t": 3.012,
+      "constraint_max": 5.060191935607472e-11,
+      "tail_max": 4.716533471036306e-09,
+      "finite": true
+    },
+    {
+      "t": 3.016,
+      "constraint_max": 5.092690939095812e-11,
+      "tail_max": 4.870666537009597e-09,
+      "finite": true
+    },
+    {
+      "t": 3.25,
+      "constraint_max": 6.006017037873956e-11,
+      "tail_max": 7.878104031152636e-09,
+      "finite": true
+    },
+    {
+      "t": 3.5,
+      "constraint_max": 6.060713042543853e-11,
+      "tail_max": 1.5155261189926807e-09,
+      "finite": true
+    },
+    {
+      "t": 3.75,
+      "constraint_max": 6.067381319585508e-11,
+      "tail_max": 1.9002039102912895e-09,
+      "finite": true
+    },
+    {
+      "t": 4.0,
+      "constraint_max": 5.982617179434158e-11,
+      "tail_max": 5.701259331840622e-09,
+      "finite": true
+    }
+  ]
+}

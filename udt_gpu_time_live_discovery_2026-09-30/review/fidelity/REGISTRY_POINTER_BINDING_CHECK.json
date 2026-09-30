@@ -1,0 +1,32 @@
+{
+  "verdict": "PASS_ALL_FROZEN_HASHES_AND_12_EXISTING_REGISTRY_ROUTES",
+  "freeze_sha256": "8afe3b32946b0fbbae504d45f5987c92c608c545ca19011c3f23e657c42bc443",
+  "accepted_count": 643,
+  "prior_count": 570,
+  "changed_prior_files": [
+    "HANDOFF.md",
+    "development_reconstruction_2026-09-29/checks/test_maintenance.py",
+    "verify_udt_development.py"
+  ],
+  "new_count": 73,
+  "mismatches": {},
+  "registry_routes": {
+    "AGENTS.md": true,
+    "LIVE.md": true,
+    "HANDOFF.md": true,
+    "INDEX.md": true,
+    "MEMORY.md": true,
+    "README.md": true,
+    "research/README.md": true,
+    "research/_registry/README.md": true,
+    "CURRENT_RESEARCH_PROGRAM.md": true,
+    "CURRENT_SCIENTIFIC_PREMISES.md": true,
+    "CLAUDE.md": true,
+    "INFLIGHT_STATE.md": true
+  },
+  "full406_rerun": false,
+  "protected_files_opened": false,
+  "HEAD": "5b4aa5456b307f2be94ccdeadf9dfd7bc6677d28",
+  "elapsed_seconds": 0.16860711196204647,
+  "peak_rss_kib": 77952
+}
