@@ -1,0 +1,1 @@
+{"status": "REJECTED_OR_FAILED", "type": "CheckpointError", "reason": "NONFINITE_OR_WRONG_DTYPE"}

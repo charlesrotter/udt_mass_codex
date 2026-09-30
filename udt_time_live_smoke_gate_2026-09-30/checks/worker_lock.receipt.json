@@ -1,0 +1,17 @@
+{
+  "command": [
+    "/usr/bin/python3",
+    "/home/udt-admin/udt_mass_codex/udt_time_live_smoke_gate_2026-09-30/smoke_runner.py",
+    "/home/udt-admin/udt_mass_codex/udt_time_live_smoke_gate_2026-09-30/checks/worker_lock.spec.json",
+    "/home/udt-admin/udt_mass_codex/udt_time_live_smoke_gate_2026-09-30/runs/worker_lock",
+    "--lock",
+    "/home/udt-admin/udt_mass_codex/udt_time_live_smoke_gate_2026-09-30/checks/gpu_smoke.lock"
+  ],
+  "expected": 2,
+  "label": "worker_lock",
+  "returncode": 2,
+  "seconds": 0.06378471700008959,
+  "signal_sent": null,
+  "stderr_sha256": "7d0e3a4a4ecac985989e4ca7b384b31e95df7f5f35f1079b2d6a959244c6cd03",
+  "stdout_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+}

@@ -1,0 +1,9 @@
+{
+  "scope": "repair candidate before rerun; same numerical equations and tolerances; initial implementation and failed independent review preserved",
+  "sha256": {
+    "udt_time_live_smoke_gate_2026-09-30/WORK_ORDER.md": "9c0323759472077e7bef85078eca9c91bb38ea437700a149c2738ed81a73d63a",
+    "udt_time_live_smoke_gate_2026-09-30/checkpoint_io.py": "d689de8dd525df67289862b701226dc857ec50de4a34477c32db7fdc8c2008e4",
+    "udt_time_live_smoke_gate_2026-09-30/smoke_runner.py": "724bf5405dd9596bff343a0a6967393d26a0a0c7529124e9a0bfdd70e569d52f",
+    "udt_time_live_smoke_gate_2026-09-30/smoke_checks.py": "99939703024a37fc34f632442e4420cbd9247e16f0ea0d1793800abbdd3e2145"
+  }
+}

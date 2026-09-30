@@ -1,0 +1,16 @@
+{
+  "diagnostic": "TEST_FAILURE",
+  "dtype": "float64",
+  "eligible_for_resume": false,
+  "payload_sha256": "c7d040f48a3fd2813579a58c9cfc5dab4f2f5563eedc41889e17f048c7a3e696",
+  "shape": [
+    1,
+    5,
+    32
+  ],
+  "signature": {
+    "test": "synthetic filesystem fixture"
+  },
+  "step": 1,
+  "t": 1.1
+}

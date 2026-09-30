@@ -1,0 +1,18 @@
+{
+  "command": [
+    "/usr/bin/python3",
+    "/home/udt-admin/udt_mass_codex/udt_time_live_smoke_gate_2026-09-30/smoke_runner.py",
+    "/home/udt-admin/udt_mass_codex/udt_time_live_smoke_gate_2026-09-30/execution_repaired/checks/resume.spec.json",
+    "/home/udt-admin/udt_mass_codex/udt_time_live_smoke_gate_2026-09-30/execution_repaired/runs/resumed",
+    "--lock",
+    "/home/udt-admin/udt_mass_codex/udt_time_live_smoke_gate_2026-09-30/execution_repaired/checks/gpu_smoke.lock",
+    "--resume"
+  ],
+  "expected": 0,
+  "label": "resume",
+  "returncode": 0,
+  "seconds": 1.4168349370011128,
+  "signal_sent": null,
+  "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "stdout_sha256": "a206a39d98cfa2a0668587f49fb095e1cb8b92ebc8e6fd6d406aee8b0a28505e"
+}

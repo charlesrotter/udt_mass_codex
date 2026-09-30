@@ -1,0 +1,10 @@
+{"name": "during_pending_create", "status": "PASS", "selected_step": 0}
+{"name": "before_publication", "status": "PASS", "selected_step": 0}
+{"name": "after_publication", "status": "PASS", "selected_step": 1}
+{"name": "diagnostic_exclusion", "status": "PASS", "nonfinite_diagnostic_preserved": true}
+{"name": "committed_corruption_still_rejected", "status": "PASS"}
+{"name": "marker_no_overwrite", "status": "PASS"}
+{"name": "large_constraint", "status": "PASS", "expected": "CONSTRAINT_LIMIT", "mock": "CUDA calls mapped to CPU; no GPU used"}
+{"name": "nonfinite_derived_constraint", "status": "PASS", "expected": "CONSTRAINT_LIMIT", "mock": "CUDA calls mapped to CPU; no GPU used"}
+{"name": "valid_endpoint", "status": "PASS", "expected": "COMPLETE", "mock": "CUDA calls mapped to CPU; no GPU used"}
+{"status": "REPAIRED_RUNTIME_CHECKS_PASS", "elapsed_seconds": 0.9284011169802397, "max_rss_kib": 377476, "versions": {"python": "3.10.12 (main, Aug 31 2026, 10:18:17) [GCC 11.4.0]", "numpy": "2.2.6", "torch": "2.5.1+cu121"}, "source_hashes": {"REPAIR_FREEZE.json": "7e87812fdee7ad7025f9b16d49cde2ee8af079dc4764132a34e4ecfa9e1dcf2b", "smoke_runner.py": "724bf5405dd9596bff343a0a6967393d26a0a0c7529124e9a0bfdd70e569d52f", "checkpoint_io.py": "d689de8dd525df67289862b701226dc857ec50de4a34477c32db7fdc8c2008e4"}}

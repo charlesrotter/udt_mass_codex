@@ -1,0 +1,15 @@
+{
+  "dtype": "float64",
+  "payload_sha256": "d0bbdecd285a5be537d0162523e9d4626fa1da03f3cb19842cfeb645593c2085",
+  "shape": [
+    1,
+    5,
+    32
+  ],
+  "signature": {
+    "rhs": "scope-rhs",
+    "spec": "scope-spec"
+  },
+  "step": 10,
+  "t": 1.1
+}

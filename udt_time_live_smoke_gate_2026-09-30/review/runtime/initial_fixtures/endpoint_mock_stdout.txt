@@ -1,0 +1,1 @@
+{"status": "SMOKE_CONTROL_COMPLETE", "t": 4.0, "step": 3, "torch": "2.5.1+cu121", "device": "CPU_MOCK_NO_CUDA", "dtype": "torch.float64"}

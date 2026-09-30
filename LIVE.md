@@ -1,7 +1,7 @@
 # LIVE — operational status
 
 <!-- STARTUP_CURRENT_BEGIN -->
-## CURRENT STATE — NGD1 after TRI1/PRI1/CCR1/CES1/PCW1/GCA1/LKT1/SGE1/CDR1, 2026-09-30
+## CURRENT STATE — SMK1 smoke gate after NGD1/TRI1/PRI1/CCR1/CES1/PCW1/GCA1/LKT1/SGE1/CDR1, 2026-09-30
 
 Work on `grok`; independently verify HEAD, synchronization and dirt.
 Charles authorized documenting and executing the staged numerical discovery
@@ -10,6 +10,11 @@ NGD1's first bounded campaign is integrated in UDT_DEVELOPMENT.md R12N/R18.
 Scope and exact execution evidence: `udt_gpu_time_live_discovery_2026-09-30/PLAN.md`
 and `WORK_RECORD.md` in that package. This is a conditional numerical return;
 no native field equation, source, scale or optional population interface is adopted.
+Charles clarified the goal is broader hours-to-days time-live exploration and
+requires smoke checks before multi-hour runs. SMK1's fixed engineering record is
+`udt_time_live_smoke_gate_2026-09-30/WORK_RECORD.md`; its WORK_ORDER.md owns the
+short-check budget and the later production gate. The tested checkpoint wrapper
+uses the unchanged NGD1 conditional control. It does not certify a broader solver.
 Larger production and different scientific premises need a new bounded work order.
 
 ### Honest claim
@@ -43,12 +48,16 @@ Protected: do not inspect, hash, stage, modify, mine or cite payloads without di
 
 ### Next gate
 
-Stop for lay discussion of NGD1's conditional return in central R12N/R18.
-Its work record, actual reviewer attestations, check receipts and Git history
-own verification and banking. For the proposed next native-selection question, discuss an evaluable native
-discriminant or explicitly unadopted connection. Other bounded conditional
-comparison questions remain available; larger production needs a new work order.
-A Ric=0 comparison remains conditional. Existing pauses, scientific grades, protected work and CANON
-remain unchanged. No full-solution-space or selected-geometry claim is banked.
+Stop for lay discussion after the bounded SMK1 return. The larger exploration
+remains the objective: release restrictions through a specified validated solver,
+smoke-test each new scope, then measure a representative short workload before
+the proposed six-hour tranche and checkpointed extensions toward 24–48h. No
+multi-hour production has started. A written production dispatch must specify
+equations, freedoms, coverage, resources, stops and review; a native-selection
+claim additionally needs an evaluable native discriminant or explicit unadopted
+connection. Actual work records, reviewer attestations, check receipts and Git
+history own verification/banking. A Ric=0 comparison remains conditional.
+Existing pauses, scientific grades, protected work and CANON remain unchanged.
+No full-solution-space or selected-geometry claim is banked.
 
 <!-- STARTUP_CURRENT_END -->

@@ -1,0 +1,64 @@
+{
+  "cases": [
+    {
+      "P": [],
+      "Q": [],
+      "V": [],
+      "W": [],
+      "id": "homogeneous"
+    },
+    {
+      "V": [
+        [
+          1,
+          0.45,
+          0
+        ]
+      ],
+      "id": "ne1_e030"
+    },
+    {
+      "V": [
+        [
+          1,
+          0.3,
+          0
+        ],
+        [
+          2,
+          0.08,
+          0.7
+        ]
+      ],
+      "W": [
+        [
+          1,
+          0.2,
+          0.4
+        ],
+        [
+          3,
+          0.06,
+          1.1
+        ]
+      ],
+      "id": "two_polarizations"
+    }
+  ],
+  "checkpoint_steps": 50,
+  "constraint_stop": 0.05,
+  "device": "cuda",
+  "dt": 0.005,
+  "end": 4.0,
+  "gpu_bytes": 2147483648,
+  "k": 0.75,
+  "n": 32,
+  "output_bytes": 67108864,
+  "snapshot_dt": 0.25,
+  "stage": "development_pilot",
+  "stencil_centers": [
+    2.0,
+    3.0
+  ],
+  "wall_seconds": 1e-08
+}

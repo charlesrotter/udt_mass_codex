@@ -1,0 +1,16 @@
+{
+  "diagnostic": null,
+  "dtype": "float64",
+  "eligible_for_resume": true,
+  "payload_sha256": "7e45e72f07b1911dbf10e5b4023712c88f007d7607a7692babd097d0fe4deefb",
+  "shape": [
+    1,
+    5,
+    32
+  ],
+  "signature": {
+    "engineering": "atomic-control"
+  },
+  "step": 0,
+  "t": 1
+}

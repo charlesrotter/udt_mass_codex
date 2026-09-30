@@ -1,0 +1,34 @@
+{
+  "status": "PASS",
+  "prior_accepted_map_count": 643,
+  "changed": [
+    "AGENTS.md",
+    "HANDOFF.md",
+    "LIVE.md"
+  ],
+  "missing": [],
+  "max_logZ_error": 2.4980018054066022e-15,
+  "max_Z_error": 1.7763568394002505e-15,
+  "tolerance": 2e-12,
+  "case_ids_match": true,
+  "python": "3.10.12 (main, Aug 31 2026, 10:18:17) [GCC 11.4.0]",
+  "numpy": "2.2.6",
+  "elapsed_seconds": 0.08676522300811484,
+  "gpu_used": false,
+  "reviewed_sha256": {
+    "AGENTS.md": "bcab9b67305e0314af9eaf25162d203660eae8f2ff4fd87d17e83588970ef38d",
+    "HANDOFF.md": "9794d51a720836b858dbb9fc29bb2d16a883a4a8e41201cb3e49d0de8df1487b",
+    "LIVE.md": "e2b43abf3bff48e2189b3a836291c9f8f554c9f4badcb1f03f9ae3396004e50d",
+    "UDT_DEVELOPMENT.md": "5ef3bf67ced86b513ba476bd74f0203e43eea109aa2ce3391f7ae1a484472904",
+    "udt_time_live_smoke_gate_2026-09-30/WORK_ORDER.md": "9c0323759472077e7bef85078eca9c91bb38ea437700a149c2738ed81a73d63a",
+    "udt_time_live_smoke_gate_2026-09-30/WORK_RECORD.md": "688c8a52a4d43ada233a2a0080152937edb90357b582003be0d59066e912c436",
+    "udt_time_live_smoke_gate_2026-09-30/checkpoint_io.py": "d689de8dd525df67289862b701226dc857ec50de4a34477c32db7fdc8c2008e4",
+    "udt_time_live_smoke_gate_2026-09-30/smoke_runner.py": "724bf5405dd9596bff343a0a6967393d26a0a0c7529124e9a0bfdd70e569d52f",
+    "udt_time_live_smoke_gate_2026-09-30/smoke_checks.py": "99939703024a37fc34f632442e4420cbd9247e16f0ea0d1793800abbdd3e2145",
+    "udt_time_live_smoke_gate_2026-09-30/LAUNCH.json": "2fccda226843a4a2e50fc940aac6f2deb38f9a7a06fa6934a5412868162cf897",
+    "udt_time_live_smoke_gate_2026-09-30/REPAIR_FREEZE.json": "7e87812fdee7ad7025f9b16d49cde2ee8af079dc4764132a34e4ecfa9e1dcf2b",
+    "udt_time_live_smoke_gate_2026-09-30/execution_repaired/CLOCK_READOUT.json": "708d5d6a6b56148b19922e4be84f17d641e862373e2f93bb1392340c6d0968e6",
+    "udt_time_live_smoke_gate_2026-09-30/execution_repaired/SMOKE_RESULT.json": "5696d5da3cda0d29e468a89a084142c5c9960be4d3839764bc9848e453838597"
+  },
+  "limitation": "source correspondence and operational scope; prior scientific reviews retained, not re-proved"
+}

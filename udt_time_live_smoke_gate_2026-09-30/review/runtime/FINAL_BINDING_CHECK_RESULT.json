@@ -1,0 +1,23 @@
+{
+  "status": "FINAL_1351_BYTE_BINDINGS_PASS",
+  "checked_paths": 1351,
+  "retained_prior_paths": 643,
+  "changed_prior_paths": [
+    "AGENTS.md",
+    "HANDOFF.md",
+    "LIVE.md"
+  ],
+  "new_package_input_paths": 708,
+  "bytes_hashed": 126086067,
+  "tracked_delta": [
+    "AGENTS.md",
+    "HANDOFF.md",
+    "LIVE.md"
+  ],
+  "head": "622d1700d91705320ee17e79ed5fd92bc174d752",
+  "branch": "grok",
+  "freeze_sha256": "64349bc75e15559b2e66b2775046b3169d142fa89a71e4bdd33a589948131a6b",
+  "elapsed_seconds": 0.08511212700977921,
+  "max_rss_kib": 17232,
+  "scope": "Byte correspondence plus exact three-file operational delta review; retained historical science not re-proved"
+}

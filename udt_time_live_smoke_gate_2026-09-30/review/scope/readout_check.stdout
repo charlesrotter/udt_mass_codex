@@ -1,0 +1,40 @@
+{
+  "status": "COMPUTED_FOR_COMPARISON",
+  "marking": {
+    "te": 1,
+    "to": 4,
+    "d": 3,
+    "branch": "positive longitudinal null branch",
+    "clocks": "supplied fixed coordinate",
+    "sample_count_per_case": 32
+  },
+  "python": "3.10.12 (main, Aug 31 2026, 10:18:17) [GCC 11.4.0]",
+  "numpy": "2.2.6",
+  "platform": "Linux-6.8.0-138-generic-x86_64-with-glibc2.35",
+  "elapsed_seconds": 0.0027455580420792103,
+  "gpu_used": false,
+  "limit": "saved-array readout correspondence; not independent evolution or continuum extrema"
+}
+[
+  {
+    "id": "homogeneous",
+    "sampled_logZ_min": -0.34657359027997386,
+    "sampled_logZ_max": -0.34657359027997015,
+    "sampled_Z_min": 0.7071067811865467,
+    "sampled_Z_max": 0.7071067811865493
+  },
+  {
+    "id": "ne1_e030",
+    "sampled_logZ_min": -0.29972455759680044,
+    "sampled_logZ_max": -0.2647508289762722,
+    "sampled_Z_min": 0.7410223015377269,
+    "sampled_Z_max": 0.7673971392862501
+  },
+  {
+    "id": "two_polarizations",
+    "sampled_logZ_min": -0.32089586072167675,
+    "sampled_logZ_max": -0.28640799661452165,
+    "sampled_Z_min": 0.7254987999777185,
+    "sampled_Z_max": 0.7509561658625125
+  }
+]

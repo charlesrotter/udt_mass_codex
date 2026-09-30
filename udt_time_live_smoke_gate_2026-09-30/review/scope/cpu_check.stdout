@@ -1,0 +1,46 @@
+{
+  "status": "PASS",
+  "python": "3.10.12 (main, Aug 31 2026, 10:18:17) [GCC 11.4.0]",
+  "numpy": "2.2.6",
+  "platform": "Linux-6.8.0-138-generic-x86_64-with-glibc2.35",
+  "elapsed_seconds": 0.04194887698395178,
+  "gpu_used": false,
+  "checks": {
+    "committed_roundtrip": {
+      "passed": true
+    },
+    "later_uncommitted_ignored": {
+      "passed": true
+    },
+    "changed_signature": {
+      "passed": true,
+      "actual": "SPEC_OR_CODE_MISMATCH",
+      "expected": "SPEC_OR_CODE_MISMATCH"
+    },
+    "committed_corruption": {
+      "passed": true,
+      "actual": "PAYLOAD_HASH_MISMATCH",
+      "expected": "PAYLOAD_HASH_MISMATCH"
+    },
+    "nonfinite_state": {
+      "passed": true,
+      "actual": "NONFINITE_OR_WRONG_DTYPE",
+      "expected": "NONFINITE_OR_WRONG_DTYPE"
+    },
+    "tiny_output_limit": {
+      "passed": true,
+      "actual": "OUTPUT_BUDGET",
+      "expected": "OUTPUT_BUDGET"
+    },
+    "NGD1_source_matches_launch": {
+      "passed": true
+    }
+  },
+  "source_sha256": {
+    "udt_time_live_smoke_gate_2026-09-30/WORK_ORDER.md": "9c0323759472077e7bef85078eca9c91bb38ea437700a149c2738ed81a73d63a",
+    "udt_time_live_smoke_gate_2026-09-30/checkpoint_io.py": "4c835e815b9bd6d25e54b1fdbb94e6efd7474a696a89d1851931b9b4100fb4c1",
+    "udt_time_live_smoke_gate_2026-09-30/smoke_runner.py": "a09bdcea56f42f115910757a8bbd265f658f5791365e637669448b2ed2fb9541",
+    "udt_gpu_time_live_discovery_2026-09-30/evolve.py": "f67b50e94ae0ffcc6a5f0bc6eaa2cf16f2763fd7a77026e71e6c1159e7e40367"
+  },
+  "limits": "CPU regression of checkpoint library; not independent dynamics or general 3D certification"
+}

@@ -1,0 +1,13 @@
+{
+  "head": "622d1700d91705320ee17e79ed5fd92bc174d752",
+  "scope": "CPU-only checkpoint/runtime review; no scientific promotion",
+  "startup": "Parent reports normal startup guard PASS and full 406-row premises PASS at unchanged scientific bytes; not replayed by scoped reviewer",
+  "reviewer": "/root/smk_runtime, actual separate context; inherited model, not independently known different model; no subagents",
+  "sources": {
+    "checkpoint_io.py": "4c835e815b9bd6d25e54b1fdbb94e6efd7474a696a89d1851931b9b4100fb4c1",
+    "smoke_runner.py": "9acbf56c4eae7e348aca6b9963644285583984e197f1cd54ca33e9a617f3e92e",
+    "WORK_ORDER.md": "9c0323759472077e7bef85078eca9c91bb38ea437700a149c2738ed81a73d63a",
+    "LAUNCH.json": "2fccda226843a4a2e50fc940aac6f2deb38f9a7a06fa6934a5412868162cf897"
+  },
+  "python": "3.10.12 (main, Aug 31 2026, 10:18:17) [GCC 11.4.0]"
+}

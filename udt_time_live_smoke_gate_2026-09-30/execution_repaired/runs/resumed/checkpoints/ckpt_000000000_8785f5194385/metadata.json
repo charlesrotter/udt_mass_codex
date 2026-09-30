@@ -1,0 +1,19 @@
+{
+  "diagnostic": null,
+  "dtype": "float64",
+  "eligible_for_resume": true,
+  "payload_sha256": "78e0eca59d32d5467798381282b998d97ce539e9da442ce639ccae0c54adc600",
+  "shape": [
+    3,
+    5,
+    32
+  ],
+  "signature": {
+    "checkpoint_io": "d689de8dd525df67289862b701226dc857ec50de4a34477c32db7fdc8c2008e4",
+    "rhs": "f67b50e94ae0ffcc6a5f0bc6eaa2cf16f2763fd7a77026e71e6c1159e7e40367",
+    "runner": "724bf5405dd9596bff343a0a6967393d26a0a0c7529124e9a0bfdd70e569d52f",
+    "spec": "6722ced8e4c5601d077845f25c28dcd60f1bf9af1d5496144aa6430b8a44d296"
+  },
+  "step": 0,
+  "t": 1.0
+}

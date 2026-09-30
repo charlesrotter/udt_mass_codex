@@ -1,0 +1,5 @@
+{"boundary": "initial", "step": 0, "t": 1.0, "constraint": 0.0}
+{"step": 50, "t": 1.25, "checkpoint": "/home/udt-admin/udt_mass_codex/udt_time_live_smoke_gate_2026-09-30/execution_repaired/runs/resumed/checkpoints/ckpt_000000050_2bc2a9932bdb", "constraint": 1.3006609678178904e-12, "gpu_allocated_peak": 42496, "elapsed_seconds": 0.14049825398251414, "signal": null}
+{"step": 100, "t": 1.5, "checkpoint": "/home/udt-admin/udt_mass_codex/udt_time_live_smoke_gate_2026-09-30/execution_repaired/runs/resumed/checkpoints/ckpt_000000100_0a61345f67b4", "constraint": 5.908492445305669e-12, "gpu_allocated_peak": 42496, "elapsed_seconds": 0.19699836598010734, "signal": null}
+{"step": 150, "t": 1.75, "checkpoint": "/home/udt-admin/udt_mass_codex/udt_time_live_smoke_gate_2026-09-30/execution_repaired/runs/resumed/checkpoints/ckpt_000000150_588bcaad70bd", "constraint": 1.6315296336166796e-11, "gpu_allocated_peak": 42496, "elapsed_seconds": 0.2540556479943916, "signal": null}
+{"status": "CHECKPOINTED_STOP", "t": 1.75, "step": 150}

@@ -1,0 +1,15 @@
+{
+  "cases": [
+    {
+      "id": "synthetic_empty_modes"
+    }
+  ],
+  "checkpoint_steps": 1,
+  "dt": 1.0,
+  "end": 4.0,
+  "gpu_bytes": 1048576,
+  "k": 1.0,
+  "n": 32,
+  "output_bytes": 1048576,
+  "wall_seconds": 5
+}

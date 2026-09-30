@@ -1,0 +1,43 @@
+{
+  "status": "REVIEWED_CONTROL_SMOKE_PASS",
+  "scientific_promotion": false,
+  "multi_hour_run_started": false,
+  "broader_solver_certified": false,
+  "checks": {
+    "smoke_initial": {
+      "receipt": "udt_time_live_smoke_gate_2026-09-30/checks/smoke_initial.json",
+      "sha256": "4db5d57d6c22da6301b357f3697e5a24e2d0b82411add61ef5ba782a1972a5b9",
+      "duration_seconds": 11.16022940800758
+    },
+    "smoke_repaired": {
+      "receipt": "udt_time_live_smoke_gate_2026-09-30/checks/smoke_repaired.json",
+      "sha256": "df76041194f74ee3d2fcc2b229a75ac3f69bf09f02bc1cb200816c6439987301",
+      "duration_seconds": 13.5062581889797
+    },
+    "draft_final": {
+      "receipt": "udt_time_live_smoke_gate_2026-09-30/checks/draft_final.json",
+      "sha256": "0cdb600399c8a2d924a10c148a360c499633d02b3d9ed10d88a2469bebc4d3ab",
+      "duration_seconds": 0.05021511798258871
+    },
+    "normal_final": {
+      "receipt": "udt_time_live_smoke_gate_2026-09-30/checks/normal_final.json",
+      "sha256": "e7d736db68b57fc4ed4bf296ae3d5a779b9921b2c713bbec333061a35857fb07",
+      "duration_seconds": 0.16959747998043895
+    },
+    "maintenance_final": {
+      "receipt": "udt_time_live_smoke_gate_2026-09-30/checks/maintenance_final.json",
+      "sha256": "518bdee87a07dde2dd822da3cbc7cad6cfe14dadb82073043cc56216f5a7269d",
+      "duration_seconds": 0.6090337139903568
+    },
+    "premise_final": {
+      "receipt": "udt_time_live_smoke_gate_2026-09-30/checks/premise_final.json",
+      "sha256": "9c546be0949efb130eeed42ba13f8dac92bcf987208610b4eb6a25b61f55e453",
+      "duration_seconds": 407.54727811698103
+    }
+  },
+  "accepted_input_hashes_verified": 1351,
+  "unchanged_unrelated_untracked_names": 52,
+  "review_record_sha256": "0d18f5194b8e4edf75916b15e626507a133bce49cc3cab629fda8494588660c1",
+  "audit_resource_note": "Required repository banking audit reused existing900-second/2GiB capture, completed407.55s; distinct from brief engineering/GPU-check budget.",
+  "banking": "Commit/push success belongs to Git history and independently verified remote, not this precommit record."
+}

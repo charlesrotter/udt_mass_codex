@@ -1,0 +1,16 @@
+{
+  "diagnostic": null,
+  "dtype": "float64",
+  "eligible_for_resume": true,
+  "payload_sha256": "e9e28a2196947464c3631fe4751f8e41c12bbbba91e403df49412611ede145b2",
+  "shape": [
+    1,
+    5,
+    32
+  ],
+  "signature": {
+    "test": "synthetic filesystem fixture"
+  },
+  "step": 1,
+  "t": 1.1
+}

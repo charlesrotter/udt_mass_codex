@@ -1,0 +1,61 @@
+{
+  "status": "SAVED_RUNTIME_EVIDENCE_PASS",
+  "result_sha256": "5696d5da3cda0d29e468a89a084142c5c9960be4d3839764bc9848e453838597",
+  "log_hash_pairs_verified": 18,
+  "final_states": {
+    "uninterrupted": {
+      "state_sha256": "ac31b18262fe9a8515c5f7e8e31ab79c1e1fdedcfc5d804c0e5daea45463c61a",
+      "checkpoint": "execution_repaired/runs/uninterrupted/checkpoints/ckpt_000000600_7dcee4a83fee",
+      "shape": [
+        3,
+        5,
+        32
+      ],
+      "dtype": "float64"
+    },
+    "resumed": {
+      "state_sha256": "ac31b18262fe9a8515c5f7e8e31ab79c1e1fdedcfc5d804c0e5daea45463c61a",
+      "checkpoint": "execution_repaired/runs/resumed/checkpoints/ckpt_000000600_69a44ba555e2",
+      "shape": [
+        3,
+        5,
+        32
+      ],
+      "dtype": "float64"
+    },
+    "sigterm": {
+      "state_sha256": "ac31b18262fe9a8515c5f7e8e31ab79c1e1fdedcfc5d804c0e5daea45463c61a",
+      "checkpoint": "execution_repaired/runs/sigterm/checkpoints/ckpt_000000600_1c23befd46c7",
+      "shape": [
+        3,
+        5,
+        32
+      ],
+      "dtype": "float64"
+    },
+    "sigkill": {
+      "state_sha256": "ac31b18262fe9a8515c5f7e8e31ab79c1e1fdedcfc5d804c0e5daea45463c61a",
+      "checkpoint": "execution_repaired/runs/sigkill/checkpoints/ckpt_000000600_497a76d879f3",
+      "shape": [
+        3,
+        5,
+        32
+      ],
+      "dtype": "float64"
+    }
+  },
+  "bitwise_state_identity": true,
+  "independent_numpy_max_constraint": 6.074456215809931e-11,
+  "peak_torch_allocated_bytes_from_log": 42496,
+  "final_runtime_event": {
+    "status": "SMOKE_CONTROL_COMPLETE",
+    "t": 4.0,
+    "step": 600,
+    "torch": "2.5.1+cu121",
+    "device": "Tesla V100-PCIE-32GB",
+    "dtype": "torch.float64"
+  },
+  "elapsed_seconds": 0.015519625972956419,
+  "max_rss_kib": 30336,
+  "scope": "Direct saved-byte/log integrity and NumPy momentum residual check; no GPU rerun, no broader solver certification"
+}

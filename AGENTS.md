@@ -224,6 +224,12 @@ audit. Missing gates leave a draft, `LEAD`, `OPEN`, or `VERIFIED-WITH-CAVEATS`, 
 Use one GPU process. State device/dtype/grid/memory/output/timeout/checkpoints/stops from the current
 work order and measured environment, not stale filename lists, caps, or pass counts. Prefer saved
 fields and independent CPU/symbolic anchors. Long production needs written dispatch.
+Before any multi-hour run, require short end-to-end smoke checks of the actual solver/workload,
+including original-equation/constraint checks, readable outputs, resource limits,
+checkpoint/restart and interruption/stop controls. Changed solvers or dimensional scope need
+their own smoke checks; an earlier control pass is not transferable certification. Use a short
+representative load test to size production. SMK1's fixed engineering work order records the gate:
+`udt_time_live_smoke_gate_2026-09-30/WORK_ORDER.md`.
 
 For corrected-carrier work, use the audited no-null `L2+L4` functional and exact-HVP path; older
 centered-derivative tools remain provenance unless explicitly audited. Relaxation is not physical

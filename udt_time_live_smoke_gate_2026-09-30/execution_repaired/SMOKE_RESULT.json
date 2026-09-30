@@ -1,0 +1,336 @@
+{
+  "atomic_marker_interruption_recovery": true,
+  "bytes_at_end": 213712,
+  "checks": [
+    {
+      "command": [
+        "/usr/bin/python3",
+        "/home/udt-admin/udt_mass_codex/udt_time_live_smoke_gate_2026-09-30/smoke_runner.py",
+        "/home/udt-admin/udt_mass_codex/udt_time_live_smoke_gate_2026-09-30/execution_repaired/checks/uninterrupted.spec.json",
+        "/home/udt-admin/udt_mass_codex/udt_time_live_smoke_gate_2026-09-30/execution_repaired/runs/uninterrupted",
+        "--lock",
+        "/home/udt-admin/udt_mass_codex/udt_time_live_smoke_gate_2026-09-30/execution_repaired/checks/gpu_smoke.lock"
+      ],
+      "expected": 0,
+      "label": "uninterrupted",
+      "returncode": 0,
+      "seconds": 1.6181252039968967,
+      "signal_sent": null,
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stdout_sha256": "b266a8a5ac50cc6dad5f3b2a1113b45597039063249b1c5a6d0cd491db5835be"
+    },
+    {
+      "command": [
+        "/usr/bin/python3",
+        "/home/udt-admin/udt_mass_codex/udt_time_live_smoke_gate_2026-09-30/smoke_runner.py",
+        "/home/udt-admin/udt_mass_codex/udt_time_live_smoke_gate_2026-09-30/execution_repaired/checks/pause.spec.json",
+        "/home/udt-admin/udt_mass_codex/udt_time_live_smoke_gate_2026-09-30/execution_repaired/runs/resumed",
+        "--lock",
+        "/home/udt-admin/udt_mass_codex/udt_time_live_smoke_gate_2026-09-30/execution_repaired/checks/gpu_smoke.lock",
+        "--pause-after",
+        "3"
+      ],
+      "expected": 75,
+      "label": "pause",
+      "returncode": 75,
+      "seconds": 1.116896799998358,
+      "signal_sent": null,
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stdout_sha256": "1a65e933d4e66788707225ea3ef0069a995b0cd669066530da2cc153204668f4"
+    },
+    {
+      "command": [
+        "/usr/bin/python3",
+        "/home/udt-admin/udt_mass_codex/udt_time_live_smoke_gate_2026-09-30/smoke_runner.py",
+        "/home/udt-admin/udt_mass_codex/udt_time_live_smoke_gate_2026-09-30/execution_repaired/checks/resume.spec.json",
+        "/home/udt-admin/udt_mass_codex/udt_time_live_smoke_gate_2026-09-30/execution_repaired/runs/resumed",
+        "--lock",
+        "/home/udt-admin/udt_mass_codex/udt_time_live_smoke_gate_2026-09-30/execution_repaired/checks/gpu_smoke.lock",
+        "--resume"
+      ],
+      "expected": 0,
+      "label": "resume",
+      "returncode": 0,
+      "seconds": 1.4168349370011128,
+      "signal_sent": null,
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stdout_sha256": "a206a39d98cfa2a0668587f49fb095e1cb8b92ebc8e6fd6d406aee8b0a28505e"
+    },
+    {
+      "command": [
+        "/usr/bin/python3",
+        "/home/udt-admin/udt_mass_codex/udt_time_live_smoke_gate_2026-09-30/smoke_runner.py",
+        "/home/udt-admin/udt_mass_codex/udt_time_live_smoke_gate_2026-09-30/execution_repaired/checks/sigterm.spec.json",
+        "/home/udt-admin/udt_mass_codex/udt_time_live_smoke_gate_2026-09-30/execution_repaired/runs/sigterm",
+        "--lock",
+        "/home/udt-admin/udt_mass_codex/udt_time_live_smoke_gate_2026-09-30/execution_repaired/checks/gpu_smoke.lock"
+      ],
+      "expected": 75,
+      "label": "sigterm",
+      "returncode": 75,
+      "seconds": 0.9900890960125253,
+      "signal_sent": 15,
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stdout_sha256": "3020453a4e657939666841f0af2988c2eda6da9fdab0bb5fcb8ab567e750d760"
+    },
+    {
+      "command": [
+        "/usr/bin/python3",
+        "/home/udt-admin/udt_mass_codex/udt_time_live_smoke_gate_2026-09-30/smoke_runner.py",
+        "/home/udt-admin/udt_mass_codex/udt_time_live_smoke_gate_2026-09-30/execution_repaired/checks/sigterm_resume.spec.json",
+        "/home/udt-admin/udt_mass_codex/udt_time_live_smoke_gate_2026-09-30/execution_repaired/runs/sigterm",
+        "--lock",
+        "/home/udt-admin/udt_mass_codex/udt_time_live_smoke_gate_2026-09-30/execution_repaired/checks/gpu_smoke.lock",
+        "--resume"
+      ],
+      "expected": 0,
+      "label": "sigterm_resume",
+      "returncode": 0,
+      "seconds": 1.566675079986453,
+      "signal_sent": null,
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stdout_sha256": "83cfadb1cc665dbf2d90798c744121b507ac0784c027bf1b5d54b2bd726ec16d"
+    },
+    {
+      "command": [
+        "/usr/bin/python3",
+        "/home/udt-admin/udt_mass_codex/udt_time_live_smoke_gate_2026-09-30/smoke_runner.py",
+        "/home/udt-admin/udt_mass_codex/udt_time_live_smoke_gate_2026-09-30/execution_repaired/checks/sigkill.spec.json",
+        "/home/udt-admin/udt_mass_codex/udt_time_live_smoke_gate_2026-09-30/execution_repaired/runs/sigkill",
+        "--lock",
+        "/home/udt-admin/udt_mass_codex/udt_time_live_smoke_gate_2026-09-30/execution_repaired/checks/gpu_smoke.lock"
+      ],
+      "expected": -9,
+      "label": "sigkill",
+      "returncode": -9,
+      "seconds": 0.8488865739782341,
+      "signal_sent": 9,
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stdout_sha256": "42327e06c9d2b43896f6473a7525c7fff42763aa9d35d59ce4f2b49f539034ec"
+    },
+    {
+      "command": [
+        "/usr/bin/python3",
+        "/home/udt-admin/udt_mass_codex/udt_time_live_smoke_gate_2026-09-30/smoke_runner.py",
+        "/home/udt-admin/udt_mass_codex/udt_time_live_smoke_gate_2026-09-30/execution_repaired/checks/sigkill_resume.spec.json",
+        "/home/udt-admin/udt_mass_codex/udt_time_live_smoke_gate_2026-09-30/execution_repaired/runs/sigkill",
+        "--lock",
+        "/home/udt-admin/udt_mass_codex/udt_time_live_smoke_gate_2026-09-30/execution_repaired/checks/gpu_smoke.lock",
+        "--resume"
+      ],
+      "expected": 0,
+      "label": "sigkill_resume",
+      "returncode": 0,
+      "seconds": 1.5171487900079228,
+      "signal_sent": null,
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stdout_sha256": "fb26900ac3859ea055b973f9169c7f3b552cfa7cc5608624e065e061cb208b2c"
+    },
+    {
+      "command": [
+        "/usr/bin/python3",
+        "/home/udt-admin/udt_mass_codex/udt_time_live_smoke_gate_2026-09-30/smoke_runner.py",
+        "/home/udt-admin/udt_mass_codex/udt_time_live_smoke_gate_2026-09-30/execution_repaired/checks/corrupt.spec.json",
+        "/home/udt-admin/udt_mass_codex/udt_time_live_smoke_gate_2026-09-30/execution_repaired/runs/corrupt",
+        "--lock",
+        "/home/udt-admin/udt_mass_codex/udt_time_live_smoke_gate_2026-09-30/execution_repaired/checks/gpu_smoke.lock",
+        "--resume"
+      ],
+      "expected": 2,
+      "label": "corrupt",
+      "returncode": 2,
+      "seconds": 0.06377799797337502,
+      "signal_sent": null,
+      "stderr_sha256": "a41f3aa2633578f1b92276d395b8b8ee2b795b28532d6d693ba35bc5bdfbf8a5",
+      "stdout_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "command": [
+        "/usr/bin/python3",
+        "/home/udt-admin/udt_mass_codex/udt_time_live_smoke_gate_2026-09-30/smoke_runner.py",
+        "/home/udt-admin/udt_mass_codex/udt_time_live_smoke_gate_2026-09-30/execution_repaired/checks/nonfinite.spec.json",
+        "/home/udt-admin/udt_mass_codex/udt_time_live_smoke_gate_2026-09-30/execution_repaired/runs/nonfinite",
+        "--lock",
+        "/home/udt-admin/udt_mass_codex/udt_time_live_smoke_gate_2026-09-30/execution_repaired/checks/gpu_smoke.lock",
+        "--resume"
+      ],
+      "expected": 2,
+      "label": "nonfinite",
+      "returncode": 2,
+      "seconds": 0.06372220400953665,
+      "signal_sent": null,
+      "stderr_sha256": "bd2e72f0dd9168ec8c3d0aa46bd9f6bae42e693c91250668e8565c75788c96d0",
+      "stdout_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "command": [
+        "/usr/bin/python3",
+        "/home/udt-admin/udt_mass_codex/udt_time_live_smoke_gate_2026-09-30/smoke_runner.py",
+        "/home/udt-admin/udt_mass_codex/udt_time_live_smoke_gate_2026-09-30/execution_repaired/checks/constraint.spec.json",
+        "/home/udt-admin/udt_mass_codex/udt_time_live_smoke_gate_2026-09-30/execution_repaired/runs/constraint",
+        "--lock",
+        "/home/udt-admin/udt_mass_codex/udt_time_live_smoke_gate_2026-09-30/execution_repaired/checks/gpu_smoke.lock",
+        "--resume"
+      ],
+      "expected": 2,
+      "label": "constraint",
+      "returncode": 2,
+      "seconds": 0.9156406479887664,
+      "signal_sent": null,
+      "stderr_sha256": "b3ff84991921ed0ecbcf5c7960555bf136bef7546b56f9090f1c7c77aa3fc2ac",
+      "stdout_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "command": [
+        "/usr/bin/python3",
+        "/home/udt-admin/udt_mass_codex/udt_time_live_smoke_gate_2026-09-30/smoke_runner.py",
+        "/home/udt-admin/udt_mass_codex/udt_time_live_smoke_gate_2026-09-30/execution_repaired/checks/overflow.spec.json",
+        "/home/udt-admin/udt_mass_codex/udt_time_live_smoke_gate_2026-09-30/execution_repaired/runs/overflow",
+        "--lock",
+        "/home/udt-admin/udt_mass_codex/udt_time_live_smoke_gate_2026-09-30/execution_repaired/checks/gpu_smoke.lock",
+        "--resume"
+      ],
+      "expected": 2,
+      "label": "overflow",
+      "returncode": 2,
+      "seconds": 0.9152678269892931,
+      "signal_sent": null,
+      "stderr_sha256": "b3ff84991921ed0ecbcf5c7960555bf136bef7546b56f9090f1c7c77aa3fc2ac",
+      "stdout_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "command": [
+        "/usr/bin/python3",
+        "/home/udt-admin/udt_mass_codex/udt_time_live_smoke_gate_2026-09-30/smoke_runner.py",
+        "/home/udt-admin/udt_mass_codex/udt_time_live_smoke_gate_2026-09-30/execution_repaired/checks/changed_spec.spec.json",
+        "/home/udt-admin/udt_mass_codex/udt_time_live_smoke_gate_2026-09-30/execution_repaired/runs/resumed",
+        "--lock",
+        "/home/udt-admin/udt_mass_codex/udt_time_live_smoke_gate_2026-09-30/execution_repaired/checks/gpu_smoke.lock",
+        "--resume"
+      ],
+      "expected": 2,
+      "label": "changed_spec",
+      "returncode": 2,
+      "seconds": 0.06377177301328629,
+      "signal_sent": null,
+      "stderr_sha256": "56610f82d7d287304038bd7939a1d2dd263143ecaf19e1077c0ffe0e2be2a58b",
+      "stdout_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "command": [
+        "/usr/bin/python3",
+        "/home/udt-admin/udt_mass_codex/udt_time_live_smoke_gate_2026-09-30/smoke_runner.py",
+        "/home/udt-admin/udt_mass_codex/udt_time_live_smoke_gate_2026-09-30/execution_repaired/checks/overwrite.spec.json",
+        "/home/udt-admin/udt_mass_codex/udt_time_live_smoke_gate_2026-09-30/execution_repaired/runs/uninterrupted",
+        "--lock",
+        "/home/udt-admin/udt_mass_codex/udt_time_live_smoke_gate_2026-09-30/execution_repaired/checks/gpu_smoke.lock"
+      ],
+      "expected": 2,
+      "label": "overwrite",
+      "returncode": 2,
+      "seconds": 0.06380898901261389,
+      "signal_sent": null,
+      "stderr_sha256": "4d7eef556a745db489d1d37b16ab71b4191abacd59b00e9a10e7ed7019eb8c3a",
+      "stdout_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "command": [
+        "/usr/bin/python3",
+        "/home/udt-admin/udt_mass_codex/udt_time_live_smoke_gate_2026-09-30/smoke_runner.py",
+        "/home/udt-admin/udt_mass_codex/udt_time_live_smoke_gate_2026-09-30/execution_repaired/checks/invalid_dt.spec.json",
+        "/home/udt-admin/udt_mass_codex/udt_time_live_smoke_gate_2026-09-30/execution_repaired/runs/invalid_dt",
+        "--lock",
+        "/home/udt-admin/udt_mass_codex/udt_time_live_smoke_gate_2026-09-30/execution_repaired/checks/gpu_smoke.lock"
+      ],
+      "expected": 2,
+      "label": "invalid_dt",
+      "returncode": 2,
+      "seconds": 0.06375804799608886,
+      "signal_sent": null,
+      "stderr_sha256": "29a961b2df47d9236ba5a3cfb9ef2039e1e8bccdf51e7f112b06860f4cda49c5",
+      "stdout_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "command": [
+        "/usr/bin/python3",
+        "/home/udt-admin/udt_mass_codex/udt_time_live_smoke_gate_2026-09-30/smoke_runner.py",
+        "/home/udt-admin/udt_mass_codex/udt_time_live_smoke_gate_2026-09-30/execution_repaired/checks/memory_limit.spec.json",
+        "/home/udt-admin/udt_mass_codex/udt_time_live_smoke_gate_2026-09-30/execution_repaired/runs/memory_limit",
+        "--lock",
+        "/home/udt-admin/udt_mass_codex/udt_time_live_smoke_gate_2026-09-30/execution_repaired/checks/gpu_smoke.lock"
+      ],
+      "expected": 2,
+      "label": "memory_limit",
+      "returncode": 2,
+      "seconds": 0.7652105109882541,
+      "signal_sent": null,
+      "stderr_sha256": "91c38964f7abe4dda280ed1b7d44125bcfeabd002a9c40f49c9962288b478bcb",
+      "stdout_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "command": [
+        "/usr/bin/python3",
+        "/home/udt-admin/udt_mass_codex/udt_time_live_smoke_gate_2026-09-30/smoke_runner.py",
+        "/home/udt-admin/udt_mass_codex/udt_time_live_smoke_gate_2026-09-30/execution_repaired/checks/output_limit.spec.json",
+        "/home/udt-admin/udt_mass_codex/udt_time_live_smoke_gate_2026-09-30/execution_repaired/runs/output_limit",
+        "--lock",
+        "/home/udt-admin/udt_mass_codex/udt_time_live_smoke_gate_2026-09-30/execution_repaired/checks/gpu_smoke.lock"
+      ],
+      "expected": 2,
+      "label": "output_limit",
+      "returncode": 2,
+      "seconds": 0.06370456499280408,
+      "signal_sent": null,
+      "stderr_sha256": "3c8facb6f7aacb87d6c9794cf855d8a189a7761fcf5a28a2430f89556c10f83a",
+      "stdout_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "command": [
+        "/usr/bin/python3",
+        "/home/udt-admin/udt_mass_codex/udt_time_live_smoke_gate_2026-09-30/smoke_runner.py",
+        "/home/udt-admin/udt_mass_codex/udt_time_live_smoke_gate_2026-09-30/execution_repaired/checks/wall_stop.spec.json",
+        "/home/udt-admin/udt_mass_codex/udt_time_live_smoke_gate_2026-09-30/execution_repaired/runs/wall_stop",
+        "--lock",
+        "/home/udt-admin/udt_mass_codex/udt_time_live_smoke_gate_2026-09-30/execution_repaired/checks/gpu_smoke.lock"
+      ],
+      "expected": 75,
+      "label": "wall_stop",
+      "returncode": 75,
+      "seconds": 0.9653759460197762,
+      "signal_sent": null,
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stdout_sha256": "d2c5d0f3708f4dc3d9864ab9b641a8458c91ee72d8adf4ae7e5be3f9e99c0f96"
+    },
+    {
+      "command": [
+        "/usr/bin/python3",
+        "/home/udt-admin/udt_mass_codex/udt_time_live_smoke_gate_2026-09-30/smoke_runner.py",
+        "/home/udt-admin/udt_mass_codex/udt_time_live_smoke_gate_2026-09-30/execution_repaired/checks/worker_lock.spec.json",
+        "/home/udt-admin/udt_mass_codex/udt_time_live_smoke_gate_2026-09-30/execution_repaired/runs/worker_lock",
+        "--lock",
+        "/home/udt-admin/udt_mass_codex/udt_time_live_smoke_gate_2026-09-30/execution_repaired/checks/gpu_smoke.lock"
+      ],
+      "expected": 2,
+      "label": "worker_lock",
+      "returncode": 2,
+      "seconds": 0.06385603896342218,
+      "signal_sent": null,
+      "stderr_sha256": "7d0e3a4a4ecac985989e4ca7b384b31e95df7f5f35f1079b2d6a959244c6cd03",
+      "stdout_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    }
+  ],
+  "clock_log_ratio_error": 4.835021272242557e-14,
+  "failed_state_diagnostic_only": true,
+  "invalid_endpoint_rejected": true,
+  "max_constraint": 6.074456909699322e-11,
+  "multi_hour_production_started": false,
+  "nonfinite_derived_constraint_rejected": true,
+  "partial_checkpoint_preserved": true,
+  "prior_validated_control_max_field_error": 6.537825836261391e-13,
+  "restart_bitwise_equal": true,
+  "scientific_equations_changed": false,
+  "scope": "operational control runner only; broader solver NOT certified",
+  "sigkill_restart_bitwise_equal": true,
+  "sigterm_restart_bitwise_equal": true,
+  "status": "SMOKE_CONTROL_PASS"
+}

@@ -1,0 +1,17 @@
+{
+  "dtype": "float64",
+  "payload_sha256": "24ef6ffed331896ef5ce0dfd1a15e1c1310bad6a1bad962952e033e731057658",
+  "shape": [
+    1,
+    5,
+    32
+  ],
+  "signature": {
+    "checkpoint_io": "4c835e815b9bd6d25e54b1fdbb94e6efd7474a696a89d1851931b9b4100fb4c1",
+    "rhs": "f67b50e94ae0ffcc6a5f0bc6eaa2cf16f2763fd7a77026e71e6c1159e7e40367",
+    "runner": "9acbf56c4eae7e348aca6b9963644285583984e197f1cd54ca33e9a617f3e92e",
+    "spec": "dc722afd6434acae76b4dc1eea786511b9f4129749bd13f3cef09a97e48d1eee"
+  },
+  "step": 3,
+  "t": 4.0
+}

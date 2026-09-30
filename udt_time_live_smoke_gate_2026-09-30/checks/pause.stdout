@@ -1,0 +1,4 @@
+{"step": 50, "t": 1.25, "checkpoint": "/home/udt-admin/udt_mass_codex/udt_time_live_smoke_gate_2026-09-30/runs/resumed/checkpoints/ckpt_000000050_406d7a4bc281", "constraint": 1.3006609678178904e-12, "gpu_allocated_peak": 42496, "elapsed_seconds": 0.11808562796795741, "signal": null}
+{"step": 100, "t": 1.5, "checkpoint": "/home/udt-admin/udt_mass_codex/udt_time_live_smoke_gate_2026-09-30/runs/resumed/checkpoints/ckpt_000000100_bb2a9518bd5e", "constraint": 5.908492445305669e-12, "gpu_allocated_peak": 46592, "elapsed_seconds": 0.16790833097184077, "signal": null}
+{"step": 150, "t": 1.75, "checkpoint": "/home/udt-admin/udt_mass_codex/udt_time_live_smoke_gate_2026-09-30/runs/resumed/checkpoints/ckpt_000000150_cbcf6c69bd82", "constraint": 1.6315296336166796e-11, "gpu_allocated_peak": 46592, "elapsed_seconds": 0.21430468396283686, "signal": null}
+{"status": "CHECKPOINTED_STOP", "t": 1.75, "step": 150}

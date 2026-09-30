@@ -1,0 +1,10 @@
+{
+  "status": "PASS",
+  "max_logZ_error": 2.4980018054066022e-15,
+  "max_Z_error": 1.7763568394002505e-15,
+  "tolerance": 2e-12,
+  "case_ids_match": true,
+  "saved_readout_sha256": "708d5d6a6b56148b19922e4be84f17d641e862373e2f93bb1392340c6d0968e6",
+  "method": "direct real trigonometric interpolation of committed initial/final raw fields; no runner/checkpoint imports, no FFT, same declared Fourier representation",
+  "scientific_scope": "conditional marked control; not independent dynamics or continuum extrema"
+}

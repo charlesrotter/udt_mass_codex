@@ -1,0 +1,2 @@
+{"step": 1, "t": 1.005, "checkpoint": "/home/udt-admin/udt_mass_codex/udt_time_live_smoke_gate_2026-09-30/runs/wall_stop/checkpoints/ckpt_000000001_415ab4d061be", "constraint": 2.6587998296079274e-14, "gpu_allocated_peak": 38400, "elapsed_seconds": 0.08757685800082982, "signal": null}
+{"status": "CHECKPOINTED_STOP", "t": 1.005, "step": 1}
