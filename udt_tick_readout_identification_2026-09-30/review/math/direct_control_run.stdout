@@ -1,0 +1,55 @@
+{
+  "status": "PASS",
+  "checks": [
+    "candidate frozen bytes udt_tick_readout_identification_2026-09-30/INITIAL_CANDIDATE.md",
+    "candidate frozen bytes udt_tick_readout_identification_2026-09-30/WORK_ORDER.md",
+    "candidate frozen bytes udt_tick_readout_identification_2026-09-30/SOURCE_PINS.json",
+    "candidate frozen bytes udt_tick_readout_identification_2026-09-30/CHECK_FREEZE.json",
+    "candidate frozen bytes udt_tick_readout_identification_2026-09-30/CHECK_REPAIR_FREEZE.json",
+    "candidate frozen bytes udt_tick_readout_identification_2026-09-30/checks/CHECK_PLAN.md",
+    "candidate frozen bytes udt_tick_readout_identification_2026-09-30/checks/CHECK_REPAIR.md",
+    "candidate frozen bytes udt_tick_readout_identification_2026-09-30/checks/check_ticks.py",
+    "candidate frozen bytes udt_tick_readout_identification_2026-09-30/checks/check_ticks_repaired.py",
+    "candidate frozen bytes udt_tick_readout_identification_2026-09-30/checks/ticks.capture_provenance.json",
+    "candidate frozen bytes udt_tick_readout_identification_2026-09-30/checks/ticks.json",
+    "candidate frozen bytes udt_tick_readout_identification_2026-09-30/checks/ticks.stderr",
+    "candidate frozen bytes udt_tick_readout_identification_2026-09-30/checks/ticks.stdout",
+    "candidate frozen bytes udt_tick_readout_identification_2026-09-30/checks/ticks_repaired.capture_provenance.json",
+    "candidate frozen bytes udt_tick_readout_identification_2026-09-30/checks/ticks_repaired.json",
+    "candidate frozen bytes udt_tick_readout_identification_2026-09-30/checks/ticks_repaired.stderr",
+    "candidate frozen bytes udt_tick_readout_identification_2026-09-30/checks/ticks_repaired.stdout",
+    "source-first frozen bytes SOURCE_FIRST_REPORT.md",
+    "source-first frozen bytes CONTROL_PLAN.md",
+    "source-first frozen bytes SOURCE_PINS.json",
+    "source-first frozen bytes independent_checks.py",
+    "old unit-normalizer squared",
+    "old eigenpair without radical",
+    "new eigenpair",
+    "current velocities",
+    "old and new moment velocities",
+    "aggregate constants",
+    "normalized aggregates",
+    "active support set",
+    "second inverse outside emission domain",
+    "correct aggregate density on first window",
+    "unrestricted algebraic inverse extension gives wrong sum"
+  ],
+  "check_count": 32,
+  "support_defect": {
+    "emission_intervals": [
+      "[0,1]",
+      "[0,1]"
+    ],
+    "arrival_windows": [
+      "[0,1]",
+      "[2,3]"
+    ],
+    "receiving_time": "1/2",
+    "active_streams": [
+      1
+    ],
+    "correct_rate": "1",
+    "invalid_formal_second_inverse": "-3/2"
+  },
+  "arithmetic": "fractions.Fraction exact"
+}

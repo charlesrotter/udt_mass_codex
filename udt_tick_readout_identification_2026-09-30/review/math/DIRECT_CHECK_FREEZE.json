@@ -1,0 +1,8 @@
+{
+  "sealed_utc": "2026-09-30T21:44:43.889349+00:00",
+  "candidate_exposure": true,
+  "files": {
+    "DIRECT_CHECK_PLAN.md": "dccac0c39705ddc0ed57730b603bc6dc2ed739f96334e905bc9307822b48d064",
+    "direct_checks.py": "bd90a0e8c9bd3c73e5bbe6838fb246723ef22e5860dc7a5f822403258a223900"
+  }
+}

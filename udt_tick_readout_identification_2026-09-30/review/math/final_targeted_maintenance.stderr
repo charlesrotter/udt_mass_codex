@@ -1,0 +1,8 @@
+test_tri_clock_ratio_requires_regular_query (__main__.Maintenance) ... ok
+test_tri_counts_require_supplied_record_protocol (__main__.Maintenance) ... ok
+test_tri_source_routes_positive_and_negative_context (__main__.Maintenance) ... ok
+
+----------------------------------------------------------------------
+Ran 3 tests in 0.021s
+
+OK

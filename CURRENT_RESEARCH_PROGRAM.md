@@ -5,7 +5,7 @@ This bounded startup view is generated from its opening; edit that source.
 LIVE.md owns operational status; CURRENT_SCIENTIFIC_PREMISES.tsv owns exact grades.
 
 <!-- GENERATED_DEVELOPMENT_BEGIN -->
-**Continuous development — CDR1 with SGE1, LKT1, GCA1, PCW1, CES1, CCR1 and PRI1, 2026-09-30.** This is the maintained
+**Continuous development — CDR1 with SGE1, LKT1, GCA1, PCW1, CES1, CCR1, PRI1 and TRI1, 2026-09-30.** This is the maintained
 scientific development. It is not canon or a new scientific-grade authority.
 The exact registry and reviewed sources own grades; LIVE owns operational status.
 Current review bindings and limits are recorded in section9; startup reads the
@@ -59,6 +59,10 @@ the single-ray/zero degeneracies. Different moment criteria can give different
 clock frames. The raw positive moment cannot itself be DDR's balanced response.
 Population state, physical clock identification and geometric response remain
 distinct open joins; the conventional kinetic interface is still UNADOPTED.
+TRI1 clarifies that a population rest criterion is optional: supplied actual
+clocks and their regular null correspondence already determine received ticking.
+Ray normalization cancels from the ratio; absolute cadence and combined counts
+require their own supplied data. No population route becomes a universal gate.
 <!-- GENERATED_DEVELOPMENT_END -->
 
 ## Current next gate

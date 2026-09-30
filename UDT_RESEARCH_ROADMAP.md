@@ -1,6 +1,6 @@
 # UDT research roadmap — current direction
 
-Updated 2026-09-30: PRI1 population/response study after CCR1/CES1/PCW1/GCA1/LKT1/SGE1/CDR1. This is a direction document, not scientific
+Updated 2026-09-30: TRI1 tick-readout inquiry after PRI1/ CCR1/CES1/PCW1/GCA1/LKT1/SGE1/CDR1. This is a direction document, not scientific
 premise authority or research authorization. LIVE controls operational status;
 the exact registry and original reviewed sources control grades and scope.
 AGENTS controls method. Charles canonizes; CANON is unchanged.
@@ -12,21 +12,18 @@ This roadmap does not duplicate their detailed derivations or premise inventory.
 
 ## Current return and next discussion
 
-After CCR1, Charles's “Proceed” authorized investigation of what physical
-quantity or population reciprocity should constrain. The
-[bounded work order](udt_population_response_identification_2026-09-30/WORK_ORDER.md)
-controls PRI1's population-to-observer construction, response-identification
-test, reviews and return. Its conditional argument is integrated in
-[central R18O/R18F/R18B](UDT_DEVELOPMENT.md#r18o). The
-[work record](udt_population_response_identification_2026-09-30/WORK_RECORD.md)
-records actual review, checks and banking. The construction is retained as a
-conditional tool; actual population, physical clock identification and response
-law remain unadopted. The prior CCR1 tube/sign/fixed-protocol limits and separate
-all-laboratory quantifier survive. No selected metric or extra positional effect
-is claimed. The next discussion must distinguish a physical state from its
-observer criterion and from a metric-response law.
-No successor campaign starts automatically. Previous audit, proposal and
-conditional returns keep their original scopes; exact grades and CANON do not change.
+After PRI1, Charles's “Proceed” authorized the next bounded examination of the
+physical comparison rule. The [work order](udt_tick_readout_identification_2026-09-30/WORK_ORDER.md)
+asks whether received-tick readout actually needs a population rest criterion.
+Its conditional argument and counting qualifications are integrated in
+[central R6N/R6T](UDT_DEVELOPMENT.md#r6n) and [R18F](UDT_DEVELOPMENT.md#r18f).
+The [work record](udt_tick_readout_identification_2026-09-30/WORK_RECORD.md)
+records actual review, checks and banking. This corrects the methodological role
+of the population route while preserving PRI1's construction and negative tests.
+The next discussion should focus on quantitative geometry/actual-query assignment,
+without making a population or local response route a universal prerequisite.
+No selected metric or extra positional effect is claimed. No successor campaign
+starts automatically; original scopes, exact grades and CANON remain unchanged.
 
 The preceding discussion corrected the suggestion that “model building” would
 be a new technique. Conditional construction and counterexamples have already
@@ -265,7 +262,7 @@ Full branch limits and protected local-work instructions remain in LIVE/AGENTS.
 
 The [central retained-results account](UDT_DEVELOPMENT.md#r18) explains gains
 and open connections. The [later-return ledger](development_reconstruction_2026-09-29/RECENT_DISPOSITIONS.tsv)
-maps32 later returns, including GCA1, unadopted PCW1 proposals and CES1/CCR1/PRI1 tests, to exact sources and scopes.
+maps33 later returns, including GCA1, unadopted PCW1 proposals and CES1/CCR1/PRI1/TRI1 investigations, to exact sources and scopes.
 Review those limits before proposing a successor. Earlier admitted mathematics
 remains available through its original banking records.
 

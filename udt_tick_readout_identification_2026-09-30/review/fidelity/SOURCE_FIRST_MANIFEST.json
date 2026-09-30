@@ -1,0 +1,10 @@
+{
+  "udt_tick_readout_identification_2026-09-30/review/fidelity/SOURCE_FIRST.md": "9925e7f62823b713f794bc97dfaede515e93677088d594873d503d93563c2251",
+  "udt_tick_readout_identification_2026-09-30/review/fidelity/SOURCE_FIRST_RESULT.md": "2dbf66a27a40c056c2bfc81cc83575568afbe43a53083b70e01f3d28e70a6721",
+  "udt_tick_readout_identification_2026-09-30/review/fidelity/SOURCE_FIRST_SEAL.json": "71d6170888862e381d9a0ea4a388e29d7670790da9d779871546740758c9875c",
+  "udt_tick_readout_identification_2026-09-30/review/fidelity/source_first_check.py": "933db7716ed03d9fb2c0783f68f0adb78d28916660f4c4b410c338b24bf4478b",
+  "udt_tick_readout_identification_2026-09-30/review/fidelity/source_first_run.capture_provenance.json": "8f6870fd15026405ffca84a0fe99e5d87ccd8e0ae568a2465bf6d1df80504204",
+  "udt_tick_readout_identification_2026-09-30/review/fidelity/source_first_run.json": "ffa2d3b8170a49daee18dee7a1c93c9dedc158f8d3ab264cfbc69f184514b701",
+  "udt_tick_readout_identification_2026-09-30/review/fidelity/source_first_run.stderr": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "udt_tick_readout_identification_2026-09-30/review/fidelity/source_first_run.stdout": "3b92b7ca23f456e058f37eac99bd48201a4c2097a75cc9819704be1c574221b9"
+}

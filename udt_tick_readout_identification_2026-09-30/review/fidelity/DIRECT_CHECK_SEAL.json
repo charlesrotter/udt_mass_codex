@@ -1,0 +1,35 @@
+{
+  "utc": "2026-09-30T21:42:17.582648+00:00",
+  "phase": "direct controls frozen before execution",
+  "candidate_and_check_pins": {
+    "udt_tick_readout_identification_2026-09-30/INITIAL_CANDIDATE.md": "b1c9ab5d349463f9c27f1b719f85948f3afe949583c8aceea75cded7b1ae206e",
+    "udt_tick_readout_identification_2026-09-30/WORK_ORDER.md": "042f8ff214ddf14e97f3845dfdd0bb0c21a8afee8e4a58630c11190102ac8fd6",
+    "udt_tick_readout_identification_2026-09-30/SOURCE_PINS.json": "3dd4e371aac8373c16ac950770b8e3fb986b57169eb9df870c46349e618903f0",
+    "udt_tick_readout_identification_2026-09-30/CHECK_FREEZE.json": "73a35fc58d29cdc4d44ceb55b6e48306ce098207ca0a12c8a2382e07a465f4c1",
+    "udt_tick_readout_identification_2026-09-30/CHECK_REPAIR_FREEZE.json": "b5a9f3b250c394d7dcb0c83d190e8ca85a09684d7bedb0d52448c5c051fe7229",
+    "udt_tick_readout_identification_2026-09-30/checks/CHECK_PLAN.md": "9e156ff495a0d0c651d3eb2578828e0b43a0b024f51d8e52851ebd877bfdbfd8",
+    "udt_tick_readout_identification_2026-09-30/checks/CHECK_REPAIR.md": "3b4ca36e264765341a54ed74f4f990d414fb58320eabbef1aa1f4a51894ebf35",
+    "udt_tick_readout_identification_2026-09-30/checks/check_ticks.py": "36a3dcfd097feb21c171a357cc284bf7a2eaa71ff0428ab0ceac7ff64d195b5e",
+    "udt_tick_readout_identification_2026-09-30/checks/check_ticks_repaired.py": "b4d0960af9adc0a6b6256d844f8b4284cb2719006e86fcfa1d3cb11bda107471",
+    "udt_tick_readout_identification_2026-09-30/checks/ticks.capture_provenance.json": "646c8856be5723163c19a533bf63b81f7c70fe738f2cf6174172963e25ae8134",
+    "udt_tick_readout_identification_2026-09-30/checks/ticks.json": "d4959b728401cabb311508fccdbfcb6c997be56ffe771248d2ed80f1901e8abe",
+    "udt_tick_readout_identification_2026-09-30/checks/ticks.stderr": "b0f0da8769794b7aa24f8ac01172e04db082fb4cefccc8a52b24752a916aad29",
+    "udt_tick_readout_identification_2026-09-30/checks/ticks.stdout": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "udt_tick_readout_identification_2026-09-30/checks/ticks_repaired.capture_provenance.json": "a2e12db059aabfc3ba9234e93f1b60b2723c804903764868748514f3b79496f0",
+    "udt_tick_readout_identification_2026-09-30/checks/ticks_repaired.json": "33b8e2c892073e8aacc63dba74057e3e5a94d393346b40a1b7bb254bdd6c6023",
+    "udt_tick_readout_identification_2026-09-30/checks/ticks_repaired.stderr": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "udt_tick_readout_identification_2026-09-30/checks/ticks_repaired.stdout": "71d9a1d90c30edcd6c828d1dca1d06d43faf558c81e8c26d2fdef79093735486",
+    "udt_tick_readout_identification_2026-09-30/review/fidelity/direct_check.py": "283b432795e110f5e2a94e7bb71747e9ebc19bdd6f7ab3a764840ff817f50827",
+    "udt_tick_readout_identification_2026-09-30/review/fidelity/DIRECT_PLAN.md": "78958bd5a2a84b59cb0c1be05d9f9d7d6bef272b5370f49bcc6da7d255b2bca6",
+    "udt_tick_readout_identification_2026-09-30/CANDIDATE_FREEZE.json": "bf8de9c42eef384c023c93efadb63f8d25564b1efc438a0c1642cb82b52815c1"
+  },
+  "original_source_pins_verified": {
+    "UDT_DEVELOPMENT.md": "229cdb8c5626d711b84d6e8072c98c884f2d95253daa4a5c3d0ab71402f3a21c",
+    "udt_finite_separation_law_2026-09-28/INITIAL_CANDIDATE.md": "7dd39a4840390f15fcedc2ae0e588f51e441b4348eaf0f0f8d9b81968b60d8e4",
+    "udt_finite_separation_law_2026-09-28/REPAIR.md": "be0927544e72bebd38a364cac33e0979aa8b4c4a1bdcdeba5dedf3e16e41e368",
+    "udt_population_response_identification_2026-09-30/INITIAL_CANDIDATE.md": "597d5b7104d3a30f95af811e6fb7713834a196b0dfeb4af989a92b9f2e6fe208",
+    "udt_population_response_identification_2026-09-30/REPAIR.md": "404c9885daf14ed39ab733f47e235e0da272268a06a5594f7b7bb2a006f433d7",
+    "udt_population_response_identification_2026-09-30/REVIEWED_RESULT.md": "66bf2f1b52e2afa670113fe613f67485cb4cffa3f238341953f404c1fe1bb756"
+  },
+  "central_version": "git39126a762222136f917bda5fbf6573faf02370d7; parent central work may proceed"
+}

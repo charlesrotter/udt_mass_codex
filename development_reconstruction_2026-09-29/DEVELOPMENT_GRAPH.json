@@ -431,7 +431,7 @@
     {
       "id": "P_FOUNDING",
       "kind": "declared_premises",
-      "statement": "F1–F4 as stated in R1/R2; composition, nontriviality and readout are distinct inputs"
+      "statement": "F1\u2013F4 as stated in R1/R2; composition, nontriviality and readout are distinct inputs"
     },
     {
       "id": "P_PAIR",
@@ -867,6 +867,49 @@
       "required_conditions": [
         "C_PRI_POPULATION",
         "C_PRI_RAW"
+      ]
+    },
+    {
+      "id": "C_TRI_COUNTS",
+      "kind": "conditional_protocol",
+      "statement": "Supplied locally finite labelled source records and increasing regular correspondence; exact discrete pushforward. Separately supplied continuous densities give a.e. formulas (pointwise with continuous representatives). Finite sums use one receiver clock and common image window or active-channel/zero extension; source rates and recording weights are not selected by Z. No photon/energy/detector law.",
+      "sources": [
+        "udt_tick_readout_identification_2026-09-30/INITIAL_CANDIDATE.md",
+        "udt_tick_readout_identification_2026-09-30/REPAIR.md",
+        "udt_tick_readout_identification_2026-09-30/REVIEWED_RESULT.md"
+      ]
+    },
+    {
+      "id": "R6N",
+      "kind": "argument",
+      "anchor": "r6n",
+      "title": "TRI1 actual-clock ratio, normalization and optional population frame",
+      "registry_ids": [],
+      "sources": [
+        "udt_tick_readout_identification_2026-09-30/INITIAL_CANDIDATE.md",
+        "udt_tick_readout_identification_2026-09-30/REPAIR.md",
+        "udt_tick_readout_identification_2026-09-30/REVIEWED_RESULT.md"
+      ],
+      "required_conditions": [
+        "M_GEOMETRY",
+        "P_NULL"
+      ]
+    },
+    {
+      "id": "R6T",
+      "kind": "argument",
+      "anchor": "r6t",
+      "title": "TRI1 supplied tick-record pushforward and aggregate scope",
+      "registry_ids": [],
+      "sources": [
+        "udt_tick_readout_identification_2026-09-30/INITIAL_CANDIDATE.md",
+        "udt_tick_readout_identification_2026-09-30/REPAIR.md",
+        "udt_tick_readout_identification_2026-09-30/REVIEWED_RESULT.md"
+      ],
+      "required_conditions": [
+        "M_GEOMETRY",
+        "P_NULL",
+        "C_TRI_COUNTS"
       ]
     }
   ],
@@ -1615,6 +1658,66 @@
       "from": "R18B",
       "to": "R18",
       "kind": "interpretation"
+    },
+    {
+      "from": "M_GEOMETRY",
+      "to": "R6N",
+      "kind": "hypothesis"
+    },
+    {
+      "from": "P_NULL",
+      "to": "R6N",
+      "kind": "hypothesis"
+    },
+    {
+      "from": "M_GEOMETRY",
+      "to": "R6T",
+      "kind": "hypothesis"
+    },
+    {
+      "from": "P_NULL",
+      "to": "R6T",
+      "kind": "hypothesis"
+    },
+    {
+      "from": "C_TRI_COUNTS",
+      "to": "R6T",
+      "kind": "hypothesis"
+    },
+    {
+      "from": "R6",
+      "to": "R6N",
+      "kind": "proof"
+    },
+    {
+      "from": "R7",
+      "to": "R6N",
+      "kind": "proof"
+    },
+    {
+      "from": "R6N",
+      "to": "R6T",
+      "kind": "proof"
+    },
+    {
+      "from": "R6N",
+      "to": "R18O",
+      "kind": "interpretation"
+    },
+    {
+      "from": "R6N",
+      "to": "R18F",
+      "kind": "interpretation"
+    },
+    {
+      "from": "R6N",
+      "to": "R18B",
+      "kind": "interpretation"
+    },
+    {
+      "from": "R6T",
+      "to": "R18",
+      "kind": "interpretation"
     }
   ],
   "sources_sha256": {
@@ -1707,7 +1810,10 @@
     "udt_curved_clock_response_test_2026-09-30/REVIEWED_RESULT.md": "8c3218a80a42741262707da40d2559c992a923b669a7a2f2cdcaa74226de6c5f",
     "udt_population_response_identification_2026-09-30/INITIAL_CANDIDATE.md": "597d5b7104d3a30f95af811e6fb7713834a196b0dfeb4af989a92b9f2e6fe208",
     "udt_population_response_identification_2026-09-30/REPAIR.md": "404c9885daf14ed39ab733f47e235e0da272268a06a5594f7b7bb2a006f433d7",
-    "udt_population_response_identification_2026-09-30/REVIEWED_RESULT.md": "66bf2f1b52e2afa670113fe613f67485cb4cffa3f238341953f404c1fe1bb756"
+    "udt_population_response_identification_2026-09-30/REVIEWED_RESULT.md": "66bf2f1b52e2afa670113fe613f67485cb4cffa3f238341953f404c1fe1bb756",
+    "udt_tick_readout_identification_2026-09-30/INITIAL_CANDIDATE.md": "b1c9ab5d349463f9c27f1b719f85948f3afe949583c8aceea75cded7b1ae206e",
+    "udt_tick_readout_identification_2026-09-30/REPAIR.md": "43ecfa6fe282fd6f330c67362ff92020573ef1f596cac1d167a207b896da098e",
+    "udt_tick_readout_identification_2026-09-30/REVIEWED_RESULT.md": "b855b3aef1d3869d6c4cec8a49e62fc6ba8a15ccf01de782abec65bbafb945cc"
   },
   "impact_policy": "Any changed source or registry row flags its mapped positive and negative central arguments and every reachable central descendant for review; no automatic truth reversal or regrading.",
   "review_support": [
@@ -1975,6 +2081,34 @@
         "R18"
       ],
       "scope": "Actual pre-repair PRI1 direct review, conditional mathematics and physical labels; parent-origin later scope correction/final acceptance recorded separately. Review is not a premise."
+    },
+    {
+      "path": "udt_tick_readout_identification_2026-09-30/review/math/DIRECT_REVIEW.md",
+      "sha256": "4afdf16dc2741748e6959d30750ce7579cc0f131d681945f5a66758d90223696",
+      "role": "review_evidence",
+      "targets": [
+        "R6N",
+        "R6T",
+        "R18O",
+        "R18F",
+        "R18B",
+        "R18"
+      ],
+      "scope": "Actual TRI1 direct review of initial candidate, identifying measure/window precision repair; final repair/integration acceptance is separate. Review is evidence, not a physical premise."
+    },
+    {
+      "path": "udt_tick_readout_identification_2026-09-30/review/fidelity/DIRECT_REVIEW.md",
+      "sha256": "3b5be0367b9c4a134ca7779b2f079747f4c868220f0764165da8a4fafd14390e",
+      "role": "review_evidence",
+      "targets": [
+        "R6N",
+        "R6T",
+        "R18O",
+        "R18F",
+        "R18B",
+        "R18"
+      ],
+      "scope": "Actual TRI1 direct review of initial candidate, identifying measure/window precision repair; final repair/integration acceptance is separate. Review is evidence, not a physical premise."
     }
   ]
 }

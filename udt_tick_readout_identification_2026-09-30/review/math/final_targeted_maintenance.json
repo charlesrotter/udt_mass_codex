@@ -1,0 +1,18 @@
+{
+  "command": [
+    "python3",
+    "-B",
+    "development_reconstruction_2026-09-29/checks/test_maintenance.py",
+    "Maintenance.test_tri_clock_ratio_requires_regular_query",
+    "Maintenance.test_tri_counts_require_supplied_record_protocol",
+    "Maintenance.test_tri_source_routes_positive_and_negative_context"
+  ],
+  "cwd": "/home/udt-admin/udt_mass_codex",
+  "started_utc": "2026-09-30T21:50:31.506287+00:00",
+  "duration_seconds": 0.048144453030545264,
+  "returncode": 0,
+  "timeout": false,
+  "address_space_bytes": 536870912,
+  "cpu_seconds": 60,
+  "maxrss_kib": 25420
+}

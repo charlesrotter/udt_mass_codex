@@ -1,0 +1,22 @@
+{
+  "source": "/home/udt-admin/udt_mass_codex/udt_shared_readout_metric_constraint_campaign_2026-09-06/run_capture.py",
+  "source_sha256": "8ff5469ace76bdfc84188915242abbf3baff35516f9ee3f9ba4b1cbfeb2573ef",
+  "adapted_capture_sha256": "8ff5469ace76bdfc84188915242abbf3baff35516f9ee3f9ba4b1cbfeb2573ef",
+  "limits": {
+    "seconds": 60,
+    "mib": 512
+  },
+  "thread_environment": {
+    "OMP_NUM_THREADS": "1",
+    "OPENBLAS_NUM_THREADS": "1",
+    "MKL_NUM_THREADS": "1"
+  },
+  "command": [
+    "python3",
+    "-B",
+    "development_reconstruction_2026-09-29/checks/test_maintenance.py",
+    "Maintenance.test_tri_clock_ratio_requires_regular_query",
+    "Maintenance.test_tri_counts_require_supplied_record_protocol",
+    "Maintenance.test_tri_source_routes_positive_and_negative_context"
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "sealed_utc": "2026-09-30T21:45:58.328947+00:00",
+  "files": {
+    "DIRECT_REVIEW.md": "4afdf16dc2741748e6959d30750ce7579cc0f131d681945f5a66758d90223696",
+    "DIRECT_CHECK_PLAN.md": "dccac0c39705ddc0ed57730b603bc6dc2ed739f96334e905bc9307822b48d064",
+    "DIRECT_CHECK_FREEZE.json": "f71f0df5768b5310ce86cf5298eadd1b83a65b389d09f1cce38736326d6b38ae",
+    "direct_checks.py": "bd90a0e8c9bd3c73e5bbe6838fb246723ef22e5860dc7a5f822403258a223900",
+    "direct_control_run.stdout": "d7504acdddf7cc83be7f7e755ed99b26bb3b5fe62ee5469d1d3e21268443f5ba",
+    "direct_control_run.stderr": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "direct_control_run.json": "a4dc054b3d6109410e4ee5485587bf2b8d16b63272d776ac613ab289574c4ba1",
+    "direct_control_run.capture_provenance.json": "482b7c838a2cb57edb5f35b3bc1751b802c115d3ba0baeb56566327f06c56f2b",
+    "SOURCE_FIRST_FREEZE.json": "a2020f492bd2db277a30cbaa962d0ad6ca93b783fd2bc01b762df4c6c3eba88c",
+    "exact_control_run.stdout": "51067c29e80228928dacfe39ed7c65666b2097036e0cd2f464a15626190dcd24",
+    "exact_control_run.stderr": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "exact_control_run.json": "4bca90d222ccb7ba4633f84d9be0a6a7498536ddc5abe04e95fd701863d7721d",
+    "exact_control_run.capture_provenance.json": "b2b465e1f52caedd620ac598e3d08a3f38854cd797bb5d67cb8ffefd79c194a3"
+  },
+  "verdict": "VERIFIED-WITH-CAVEATS; aggregate support/domain repair required",
+  "peer_report_read": false
+}

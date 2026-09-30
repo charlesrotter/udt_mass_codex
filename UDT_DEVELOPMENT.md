@@ -1,7 +1,7 @@
 # UDT — continuous scientific development
 
 <!-- DEVELOPMENT_ORIENTATION_BEGIN -->
-**Continuous development — CDR1 with SGE1, LKT1, GCA1, PCW1, CES1, CCR1 and PRI1, 2026-09-30.** This is the maintained
+**Continuous development — CDR1 with SGE1, LKT1, GCA1, PCW1, CES1, CCR1, PRI1 and TRI1, 2026-09-30.** This is the maintained
 scientific development. It is not canon or a new scientific-grade authority.
 The exact registry and reviewed sources own grades; LIVE owns operational status.
 Current review bindings and limits are recorded in section9; startup reads the
@@ -55,6 +55,10 @@ the single-ray/zero degeneracies. Different moment criteria can give different
 clock frames. The raw positive moment cannot itself be DDR's balanced response.
 Population state, physical clock identification and geometric response remain
 distinct open joins; the conventional kinetic interface is still UNADOPTED.
+TRI1 clarifies that a population rest criterion is optional: supplied actual
+clocks and their regular null correspondence already determine received ticking.
+Ray normalization cancels from the ratio; absolute cadence and combined counts
+require their own supplied data. No population route becomes a universal gate.
 <!-- DEVELOPMENT_ORIENTATION_END -->
 
 ## 1. How this development is owned
@@ -372,6 +376,67 @@ with its [orientation repair](udt_finite_separation_law_2026-09-28/REPAIR.md);
 finite interval/instrument distinctions also belong to the source-bounded
 [G416–G423 signal-chain results](udt_signal_chain_banking_2026-09-13/BANKING_RECORD.md).
 That entire instrumental chain is retained at source scope, not all rederived here.
+
+<a id="r6n"></a>
+
+**TRI1: actual clocks do not require a population rest criterion.** R6's proof
+uses the supplied emitter, receiver and regular null correspondence; no population
+moment or rest minimization enters. Its ratio is unchanged by k→a(s)k for a(s)>0
+constant along each ray and the same at both endpoints. This follows from the
+endpoint contractions; a reparameterized affine family need not retain the old
+fixed parameter interval. Absolute frequency is not fixed by that convention.
+If an emission cadence ν_e(s)>0 is supplied, choosing a=ν_e/ω_e gives received
+cadence ν_o=ν_e/Z on that branch. This specifies a clock-label/emission protocol,
+not quantum energy or a change in ordinary local proper-clock rates.
+
+An arbitrary auxiliary future unit observer v on the same ray cancels in
+(ω_e/ω_v)(ω_v/ω_o)=Z, retaining its actual direction in R7 transport. A population
+frame may be used as that auxiliary frame. Replacing an actual endpoint clock
+is a different experiment and need not preserve Z. The geometry does not by
+itself select endpoint worldlines, initial motion, events or a branch. The
+conditional null-clock interface remains explicit, without selecting light physics.
+
+<a id="r6t"></a>
+
+**Tick measures and combined records.** Let t=A(s) be the stipulated increasing
+proper-time correspondence, A'=Z>0, and supply a locally finite nonnegative
+measure μ_e of labelled emission ticks. Counting each matched label once gives
+\[
+ \mu_o(B)=\mu_e(A^{-1}(B)).
+\]
+This pushforward counts discrete atoms exactly; a nonzero atomic record has no
+ordinary density. For a separately supplied continuous measure μ_e=r_e(s)ds,
+change of variables gives r_o(A(s))=r_e(s)/Z(s) almost everywhere;
+continuous density representatives give a pointwise formula. A differentiable
+phase obeys the same chain rule; an atomic step count need not have an ordinary
+derivative. For finite clock intervals the earlier ∫Z ds rule still applies.
+These are conditional label-accounting statements, not a lossless-detector,
+photon, energy, intensity, luminosity or area-flux law.
+
+For finitely many supplied streams received on one proper clock, addition of
+their matched counting measures gives almost everywhere, when the densities
+exist and t lies in a common reception window where all displayed inverses exist,
+\[
+ r_{\mathrm{tot}}(t)=\sum_j
+ \frac{r_{e,j}(A_j^{-1}(t))}{Z_j(A_j^{-1}(t))}.
+\]
+Alternatively extend each channel measure by zero outside its reception image
+and sum active channels. Source rates and the counting protocol are additional
+data. Where the sum of those source rates is positive, dividing by it defines a rate-weighted mean of 1/Z_j at the matched
+events; it is not a universal effective redshift. Independent reception clocks
+would need an additional alignment protocol. Knowledge of Z alone also leaves
+the arrival-time integration constant; the actual event correspondence supplies it.
+Loss, branch changes and re-emission require their own accounting.
+
+For supplied maps A1=2s,A2=4s, constant source rates(1,1) give total3/4 and
+normalized ratio3/8; rates(3,1) give7/4 and7/16, with unchanged individual shifts.
+For A=s+s² on[0,1], reception duration2 differs from the initial Z times the
+source duration1; exact pushforward preserves the matched count. These finite
+controls choose no UDT geometry or physical population. R6's geometric ratio is
+established prior work; TRI1 makes its data requirements and counting extension
+explicit. [Fixed derivation](udt_tick_readout_identification_2026-09-30/INITIAL_CANDIDATE.md)
+with its [measure/window repair](udt_tick_readout_identification_2026-09-30/REPAIR.md)
+and [reviewed scope](udt_tick_readout_identification_2026-09-30/REVIEWED_RESULT.md).
 
 The later signal results retain distinct query/protocol scopes. This table is
 source-preserving documentation, not eight new derivations or one required
@@ -1500,6 +1565,24 @@ second moment alone need not give finite first moment, and this finite example
 does not remove that extra requirement. Covariance therefore does not choose
 which moment criterion defines actual comparison clocks.
 
+TRI1 separates this optional population-clock question from comparisons of
+already specified actual clocks in R6N. Scaling each ray consistently preserves
+its endpoint Z, but not generally a moment built from full null-vector data.
+For the same atomic weights4:1, replacing k+=(1,1,0,0) by k+/2 gives
+J=(3,1,0,0), v_J=1/3 and v_M=0, instead of3/5 and1/3. If these vectors carry
+physical frequency, that is a changed spectral population, not a gauge change
+of a fixed physical state. If only unparametrized rays were given, their arbitrary
+scales cannot silently become physical weights. Supplied calibrated cadences or
+richer population measurements can add that information. This scoped example
+does not defeat PRI1 covariance or reconstruction from richer data.
+
+A population rest criterion is therefore required only by a proposal that defines
+its comparison clocks that way. It is not a prerequisite for the founding received-
+tick observable on the regular supplied interface. The preceding lay framing of
+“which population rule must UDT choose” was too broad if applied to every clock
+comparison. Original PRI1 existence/criterion/response results remain unchanged;
+this correction narrows their methodological role, without selecting a metric.
+
 C1's exactly isotropic population gives M=ρU_flat²+(ρ/3)(g+U_flat²), whose
 unique second-moment observer is U. This recovers that direction from the
 supplied state. The converse fails even for smooth populations: multiply an
@@ -1578,7 +1661,8 @@ and the causal front are distinct; the calculation selects no native geometry.
 The L1 investigation has returned CES1's diagnostic and CCR1's curved-sector
 obstruction, with their physical assumptions and uncovered populations explicit.
 C1 now has PRI1's conditional moment-based observer construction, with physical
-identification and response still open. M1 remains
+identification and response still open. TRI1 keeps that route optional: actual
+clock readouts can proceed on their supplied geometry and correspondence. M1 remains
 deferred pending an explicit state/locality question. No proposal is adopted, and no successor
 campaign begins automatically. The microscopic tests constrain these particular
 connections; they do not show that mathematics alone selects UDT or that its
@@ -1587,7 +1671,7 @@ founding premises are insufficient.
 Retained branches and omissions are explicit below. These results are useful;
 their original full proofs, repairs, qualifications and grades remain at source.
 CDR1 does not claim to rederive all of them. The [406-row disposition ledger](development_reconstruction_2026-09-29/CLAIM_DISPOSITIONS.tsv)
-and [32 later returns](development_reconstruction_2026-09-29/RECENT_DISPOSITIONS.tsv)
+and [33 later returns](development_reconstruction_2026-09-29/RECENT_DISPOSITIONS.tsv)
 identify exact sources and reconstruction depth.
 
 | Retained work | Gain and limit |
@@ -1620,7 +1704,7 @@ it does not merely add another disconnected report.
 
 This is an18-result central reconstruction with actual core calculations,
 standard-method applications and explicitly retained source branches. All406
-registered rows have an editorial disposition;32 relevant later returns
+registered rows have an editorial disposition;33 relevant later returns
 are separately mapped. It does not claim to re-prove every historical result.
 Existence/MGHD, full external invariant theory, detailed nonlinear asymptotics,
 the55-component optional analytic system, the eight signal packages, empirical
@@ -1711,6 +1795,21 @@ geometry comparisons from the extra variation rules required for a response.
 Initial candidate and direct reviews are preserved; final reviews inspect the repair.
 Actual scope and check exposure belong to its fixed review reports and work record.
 
+TRI1 adds two separate source-first/direct contexts for the actual-clock versus
+population-clock distinction and supplied counting records. Their independent
+Fraction controls differ from the producer's SymPy implementation. The mathematical
+reviewer received the producer's repaired-check status summary before its source-
+first seal, but read no candidate or producer code then; the exposure is explicit
+in its direct report. Both direct reviewers independently found the reception-
+window qualification and recorded density/discrete precision limits. One controlling
+repair preserves the original candidate and narrows the counting formulas to
+those hypotheses. The retained producer assertion failure was a symbolic
+simplification issue, repaired by an exact factorization with its sign domain.
+Actual [mathematical](udt_tick_readout_identification_2026-09-30/review/math/DIRECT_REVIEW.md)
+and [fidelity](udt_tick_readout_identification_2026-09-30/review/fidelity/DIRECT_REVIEW.md)
+reports and final attestations own review scope. Model/Python remain shared;
+human, different-model, formal and empirical verification remain unperformed.
+
 The preserved first candidates expose the repair history. The [source correction](development_reconstruction_2026-09-29/SOURCE_CORRECTIONS.md)
 fixes a real covector-basis sign in G310; the central nine-direction span and
 annihilator survive. The original file remains authentic. Further repairs make
@@ -1740,3 +1839,5 @@ stage completion, final source/check pins and all remaining omissions belong to
 [CES1 work record](udt_clock_ensemble_stationarity_test_2026-09-30/WORK_RECORD.md) and
 [CCR1 work record](udt_curved_clock_response_test_2026-09-30/WORK_RECORD.md) and
 [PRI1 work record](udt_population_response_identification_2026-09-30/WORK_RECORD.md).
+
+[TRI1 execution record](udt_tick_readout_identification_2026-09-30/WORK_RECORD.md).

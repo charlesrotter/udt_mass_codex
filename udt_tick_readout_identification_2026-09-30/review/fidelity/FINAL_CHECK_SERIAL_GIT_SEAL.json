@@ -1,0 +1,12 @@
+{
+  "utc": "2026-09-30T21:51:43.050835+00:00",
+  "phase": "bounded implementation repair sealed before successful-file execution",
+  "original_sha256": "1174f5369a43ebce7df1ad20fd769ffee34f3d19d97cf7276cf3838e106af02c",
+  "repaired_sha256": "a239ed3c4dc9dbdae9d56983e13cfc4586e534722d27609cf65094480e045e4f",
+  "change": "Force Git preload off and index threads1 for all four subprocess calls; scientific and checksum assertions unchanged.",
+  "failure_history": [
+    "Original git diff attempted threaded lstat and exited128 under512MiB cap after all332 hashes passed.",
+    "First file-preparation assertion wrongly expected five Git calls instead of four and created no copy; orchestration nonetheless attempted the absent file, whose exit2/stdout/stderr receipt is retained as final_serial_git_run. No scientific test ran in that attempt."
+  ],
+  "limits": "one-threadCPU;60seconds/512MiB"
+}

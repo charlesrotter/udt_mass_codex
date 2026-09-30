@@ -1,16 +1,16 @@
 # LIVE — operational status
 
 <!-- STARTUP_CURRENT_BEGIN -->
-## CURRENT STATE — PRI1 after CCR1/CES1/PCW1/GCA1/LKT1/SGE1/CDR1, 2026-09-30
+## CURRENT STATE — TRI1 after PRI1/CCR1/CES1/PCW1/GCA1/LKT1/SGE1/CDR1, 2026-09-30
 
 Work on `grok`; independently verify HEAD, synchronization and dirt.
-Charles authorized the next physical-population/response-identification study,
-including checks, separate-context review and central integration. PRI1's return
-is integrated in UDT_DEVELOPMENT.md R18O/R18F/R18B; preceding CCR1/CES1 and
-CDR1/SGE1/LKT1/GCA1/PCW1 scopes remain preserved. Scope and execution evidence:
-`udt_population_response_identification_2026-09-30/WORK_ORDER.md` and `WORK_RECORD.md`.
-The proposed physical response law remains UNADOPTED. No successor campaign
-is authorized by this completed work order.
+Charles's “Proceed” authorized the next received-tick/comparison-rule inquiry,
+including checks, separate-context review and central integration. TRI1's return
+is integrated in UDT_DEVELOPMENT.md R6N/R6T and R18F; prior conditional returns
+retain their original scopes. Scope and execution evidence:
+`udt_tick_readout_identification_2026-09-30/WORK_ORDER.md` and `WORK_RECORD.md`.
+The optional population/response interfaces remain UNADOPTED. No successor
+campaign is authorized by this bounded work order.
 
 ### Honest claim
 
@@ -43,13 +43,12 @@ Protected: do not inspect, hash, stage, modify, mine or cite payloads without di
 
 ### Next gate
 
-Stop for lay discussion of PRI1's reviewed conditional return in central R18O/R18F/R18B.
-The work record, actual reviewer attestations, check receipts and Git history
-own verification and banking. Population-to-observer assignment remains a
-conditional tool, not an adopted physical clock or response identification.
-CCR1's original scope and additional all-laboratory quantifier remain explicit.
-No response law, population, source or quantum interface is adopted.
-Existing pauses and grades remain unchanged. A subsequent
-work order must specify its physical question, premises and decisive test.
+Stop for lay discussion of TRI1's conditional return in central R6N/R6T/R18F.
+Its work record, actual reviewer attestations, check receipts and Git history
+own verification and banking. The population-defined-clock route remains
+optional; actual clock comparisons retain their stated regular query interface.
+No population, detector law, response law, selected metric or new physical
+premise is adopted. Existing pauses and grades remain unchanged. A subsequent
+work order must identify the physical connection and a decisive test.
 
 <!-- STARTUP_CURRENT_END -->

@@ -1,0 +1,14 @@
+{
+  "verdict": "PASS",
+  "freeze_sha256": "f535c993d4e27dc0cd13aa01ee3c3fc287beba972d416e3b02f553c7c0e414ca",
+  "accepted_paths": 332,
+  "unchanged_inherited_paths": 253,
+  "changed_prior_paths": 8,
+  "new_paths": 71,
+  "hashed_bytes": 2386245,
+  "graph_existing_nodes_edges_sources_support_preserved": true,
+  "generated_program_exact": true,
+  "parent_receipts_verified": "draft406/33/93; maintenance51; expected prebinding REVIEW_REQUIRED",
+  "omissions": "Inherited scientific content not re-proved; no protected paths; full406 remains parent gate",
+  "python": "3.10.12 (main, Aug 31 2026, 10:18:17) [GCC 11.4.0]"
+}

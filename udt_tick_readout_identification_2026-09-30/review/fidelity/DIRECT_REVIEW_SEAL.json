@@ -1,0 +1,14 @@
+{
+  "utc": "2026-09-30T21:43:47.145330+00:00",
+  "verdict": "VERIFIED-WITH-CAVEATS; two controlling precision repairs and final integration review pending",
+  "pins": {
+    "udt_tick_readout_identification_2026-09-30/review/fidelity/DIRECT_REVIEW.md": "3b5be0367b9c4a134ca7779b2f079747f4c868220f0764165da8a4fafd14390e",
+    "udt_tick_readout_identification_2026-09-30/review/fidelity/DIRECT_PLAN.md": "78958bd5a2a84b59cb0c1be05d9f9d7d6bef272b5370f49bcc6da7d255b2bca6",
+    "udt_tick_readout_identification_2026-09-30/review/fidelity/DIRECT_CHECK_SEAL.json": "002f963456bf03d9ffaa1c8cf968ee91fa7f94e1620b1ed34a6cff184617ef35",
+    "udt_tick_readout_identification_2026-09-30/review/fidelity/direct_check.py": "283b432795e110f5e2a94e7bb71747e9ebc19bdd6f7ab3a764840ff817f50827",
+    "udt_tick_readout_identification_2026-09-30/review/fidelity/direct_run.stdout": "4f51f8115abcd4c85a703d062ba5a23d44e3e1bcfa37ebfd4fb5df299288a0cb",
+    "udt_tick_readout_identification_2026-09-30/review/fidelity/direct_run.stderr": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "udt_tick_readout_identification_2026-09-30/review/fidelity/direct_run.json": "771298ee2dbb71f49e2aca3b30eff9fd794337c74bbe590dbf7d1c8b4e716203",
+    "udt_tick_readout_identification_2026-09-30/review/fidelity/direct_run.capture_provenance.json": "5ba7a3c19d96df6ea974b742fcbda1613c3bb285f65bf18176679f0e18e758ee"
+  }
+}

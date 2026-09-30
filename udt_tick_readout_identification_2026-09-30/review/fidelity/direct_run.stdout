@@ -1,0 +1,39 @@
+{
+  "verdict": "PASS",
+  "exact_checks": 23,
+  "rejected_wrong_identities": 5,
+  "checks": [
+    "candidate aggregate1",
+    "candidate aggregate2",
+    "candidate normalized aggregate1",
+    "candidate normalized aggregate2",
+    "candidate finite duration",
+    "candidate first atom",
+    "candidate second atom",
+    "candidate interval count",
+    "positive square root control 0",
+    "density pullback control 0",
+    "positive square root control 1/4",
+    "density pullback control 1/4",
+    "positive square root control 3/4",
+    "density pullback control 3/4",
+    "positive square root control 1",
+    "density pullback control 1",
+    "candidate first moment old",
+    "candidate first moment new",
+    "candidate old M eigendirection",
+    "candidate new M eigendirection",
+    "candidate old rest velocity",
+    "candidate new rest velocity",
+    "inactive channel excluded from aggregate"
+  ],
+  "wrong_identities": [
+    "universal normalized aggregate",
+    "point value gives finite duration",
+    "spectral rescaling preserves M",
+    "all representatives obey pointwise density equality",
+    "inverse formula valid outside channel domain"
+  ],
+  "python": "3.10.12 (main, Aug 31 2026, 10:18:17) [GCC 11.4.0]",
+  "method": "independently written stdlib Fraction; candidate-exposed exact witnesses"
+}

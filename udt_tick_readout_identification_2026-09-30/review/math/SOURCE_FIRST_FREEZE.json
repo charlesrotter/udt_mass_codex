@@ -1,0 +1,10 @@
+{
+  "sealed_utc": "2026-09-30T21:42:56.244860+00:00",
+  "candidate_exposure": false,
+  "files": {
+    "SOURCE_FIRST_REPORT.md": "1085892daa74955c6b2bfe69b9ef690112e42802ecb1c0591c8bd9f5bc024c8d",
+    "CONTROL_PLAN.md": "568162177554944172654fb7d290ca5798159795c9277b838cbbf868ced8a65a",
+    "SOURCE_PINS.json": "5f7ed4da64983393d7a6584578e4e4cbd7f18575238ec0c1614e16cbca857bcd",
+    "independent_checks.py": "00056bb233b0521985f9ea9397f210bddadd72e63762ef2b6a204bc13a675189"
+  }
+}

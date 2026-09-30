@@ -136,6 +136,16 @@ class Maintenance(unittest.TestCase):
         self.assertTrue({'R18O','R18F','R18B','R18'}<=impact)
         self.assertFalse({'R9','R18T','R18C','R18U'} & impact)
         self.rejects({p:(ROOT/p).read_text()+'\nTEST'},'REVIEW_REQUIRED.*affected=')
+    def test_tri_clock_ratio_requires_regular_query(self):
+        self.rejects(self.graph_change(lambda g:g['edges'].remove({'from':'P_NULL','to':'R6N','kind':'hypothesis'})),'missing required hypothesis')
+    def test_tri_counts_require_supplied_record_protocol(self):
+        self.rejects(self.graph_change(lambda g:g['edges'].remove({'from':'C_TRI_COUNTS','to':'R6T','kind':'hypothesis'})),'missing required hypothesis')
+    def test_tri_source_routes_positive_and_negative_context(self):
+        p='udt_tick_readout_identification_2026-09-30/REPAIR.md'
+        impact=set(v.affected_nodes(self.graph,[p]))
+        self.assertTrue({'R6N','R6T','R18O','R18F','R18B','R18'}<=impact)
+        self.assertFalse({'R6','R7','R9','R18T','R18C','R18U'} & impact)
+        self.rejects({p:(ROOT/p).read_text()+'\nTEST'},'REVIEW_REQUIRED.*affected=')
     def test_gca_conservation_comparison_is_conditional(self):
         self.rejects(self.graph_change(lambda g:g['edges'].remove({'from':'C_GCA_COMPARISON','to':'R17C','kind':'hypothesis'})),'missing required hypothesis')
     def test_gca_lovelock_requires_its_full_domain(self):
