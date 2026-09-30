@@ -1,0 +1,35 @@
+{
+  "status": "PASS",
+  "python": "3.10.12",
+  "arithmetic": "stdlib Fraction exact",
+  "checks": {
+    "original_first_moment": true,
+    "current_frame_unit": true,
+    "original_covariant_second_moment": true,
+    "second_frame_unscaled_norm": true,
+    "second_frame_unscaled_eigenvector": true,
+    "second_frame_rest_value": true,
+    "current_frame_flux_nonzero": true,
+    "distinct_covariant_velocities": true,
+    "P4_lower_bound_square_identity": true,
+    "P4_upper_bound_factor_identity": true,
+    "P4_low_moment_0": true,
+    "P4_low_moment_1": true,
+    "P4_low_moment_2": true,
+    "P4_azimuthal_transverse_moment": true,
+    "P4_fourth_moment": true,
+    "P4_square_integral": true
+  },
+  "false_claim_rejections": {
+    "covariance_alone_identifies_clock_frame": true,
+    "isotropic_low_moments_force_isotropic_distribution": true
+  },
+  "outputs": {
+    "v_J": "3/5",
+    "v_M": "1/3",
+    "current_frame_second_moment_flux": "3",
+    "P4_fourth_moment": "16/315",
+    "P4_square_integral": "2/9"
+  },
+  "scope": "Direct-review independent finite anchors, not blind producer review or a physical adoption."
+}

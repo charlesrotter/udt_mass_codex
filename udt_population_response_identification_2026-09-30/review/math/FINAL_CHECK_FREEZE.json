@@ -1,0 +1,9 @@
+{
+  "utc": "2026-09-30T18:07:07.989730+00:00",
+  "sha256": {
+    "FINAL_CHECK_PLAN.md": "dbfd42f0fb0068f2585548b973a638af9e6b13eecbbba3d048a26654805d3e03",
+    "final_validation.py": "bc5c682473d7547447f23b37bf419e703d22df5a215dc9bf71f2634023d0a94e"
+  },
+  "limits": "one thread,60seconds,512MiB",
+  "command": "PYTHONDONTWRITEBYTECODE=1 OMP_NUM_THREADS=1 OPENBLAS_NUM_THREADS=1 MKL_NUM_THREADS=1 python3 udt_shared_readout_metric_constraint_campaign_2026-09-06/run_capture.py /home/udt-admin/udt_mass_codex/udt_population_response_identification_2026-09-30/review/math/final_validation /home/udt-admin/udt_mass_codex python3 udt_population_response_identification_2026-09-30/review/math/final_validation.py"
+}

@@ -1,0 +1,16 @@
+{
+  "utc": "2026-09-30T17:58:18.856993+00:00",
+  "stage": "before direct checker first execution",
+  "files": [
+    {
+      "path": "udt_population_response_identification_2026-09-30/review/fidelity/DIRECT_CHECK_PLAN.md",
+      "sha256": "1255a55beb7a8ca5b1de02ee8b97c73044e94db1575f848f1f0ccef89463ee6f",
+      "bytes": 1484
+    },
+    {
+      "path": "udt_population_response_identification_2026-09-30/review/fidelity/direct_checks.py",
+      "sha256": "f780d015c63945fc76f7066bfc783b933b59b349260010b8a76d48a2809ff27a",
+      "bytes": 2944
+    }
+  ]
+}

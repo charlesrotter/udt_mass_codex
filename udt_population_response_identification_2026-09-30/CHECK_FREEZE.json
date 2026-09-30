@@ -1,0 +1,11 @@
+{
+  "utc": "2026-09-30T17:55:54.951294+00:00",
+  "scope": "Initial mathematical candidate and exact check plan/code frozen before producer execution. Source-first reports now read; independent roots and exposure recorded in REFERENCES.",
+  "sha256": {
+    "udt_population_response_identification_2026-09-30/WORK_ORDER.md": "994cacce75e3565f408608c3ddd5bffc54453e2e08326ec8f38dea4b28a3ed40",
+    "udt_population_response_identification_2026-09-30/INITIAL_CANDIDATE.md": "597d5b7104d3a30f95af811e6fb7713834a196b0dfeb4af989a92b9f2e6fe208",
+    "udt_population_response_identification_2026-09-30/REFERENCES.md": "7610af2fcc32a8a28a764dacd47ed8feff4475de847988709d9215b12ba923ea",
+    "udt_population_response_identification_2026-09-30/checks/CHECK_PLAN.md": "08fcb0633920cb179a9834f65a754b388f1036d33c60dfc80c8c2b311f1dae8a",
+    "udt_population_response_identification_2026-09-30/checks/check_population.py": "038c125166af61b39c1f840f758981be0eddec30ebe14f97af6253da1e7e98b5"
+  }
+}

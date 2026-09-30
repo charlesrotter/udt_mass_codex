@@ -1,0 +1,13 @@
+{
+  "utc": "2026-09-30T17:53:31.549336+00:00",
+  "command": [
+    "/usr/bin/python3",
+    "udt_population_response_identification_2026-09-30/review/fidelity/source_first_checks.py"
+  ],
+  "cwd": "/home/udt-admin/udt_mass_codex",
+  "returncode": 0,
+  "elapsed_seconds": 0.03234148901537992,
+  "timeout_seconds": 60,
+  "address_space_limit_bytes": 536870912,
+  "threads": 1
+}

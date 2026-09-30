@@ -1,0 +1,20 @@
+{
+  "utc": "2026-09-30T18:19:36.779608+00:00",
+  "parent_head": "da27f0b3c64d4eb5eed81732da1ab8964d4a7bac",
+  "frozen_paths_unchanged": 261,
+  "owned_tracked_paths": [
+    "CURRENT_RESEARCH_PROGRAM.md",
+    "HANDOFF.md",
+    "LIVE.md",
+    "UDT_DEVELOPMENT.md",
+    "UDT_RESEARCH_ROADMAP.md",
+    "development_reconstruction_2026-09-29/DEVELOPMENT_GRAPH.json",
+    "development_reconstruction_2026-09-29/RECENT_DISPOSITIONS.tsv",
+    "development_reconstruction_2026-09-29/REVIEW_RECORD.json",
+    "development_reconstruction_2026-09-29/checks/test_maintenance.py"
+  ],
+  "unrelated_untracked_names_unchanged": 52,
+  "full406": "PASS; actual receipt premise_final.json",
+  "normal": "PASS; actual receipt normal_final.json",
+  "scope": "Pre-staging preservation; no protected or unrelated payload read/hash. Commit and push remain subsequent operations."
+}

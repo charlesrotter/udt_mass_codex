@@ -791,6 +791,83 @@
       "required_conditions": [
         "C_CCR_UNIVERSAL"
       ]
+    },
+    {
+      "id": "C_PRI_POPULATION",
+      "kind": "unadopted_branch",
+      "statement": "Supplied time-oriented Lorentz4 g and nonzero nonnegative Borel measure on future nonzero null vectors with finite second moment. Conventional kinetic interpretation remains UNADOPTED; no native light/matter/source identification.",
+      "sources": [
+        "udt_population_response_identification_2026-09-30/INITIAL_CANDIDATE.md",
+        "udt_population_response_identification_2026-09-30/REPAIR.md",
+        "udt_population_response_identification_2026-09-30/REVIEWED_RESULT.md"
+      ]
+    },
+    {
+      "id": "C_PRI_NONBEAM",
+      "kind": "method_hypotheses",
+      "statement": "For the second-moment observer theorem, angular energy measure is not concentrated on one null ray. Smooth observer assignment additionally requires smooth g,M on a nondegenerate region; no uniform bound through beam/zero limits.",
+      "sources": [
+        "udt_population_response_identification_2026-09-30/INITIAL_CANDIDATE.md",
+        "udt_population_response_identification_2026-09-30/REPAIR.md",
+        "udt_population_response_identification_2026-09-30/REVIEWED_RESULT.md"
+      ]
+    },
+    {
+      "id": "C_PRI_RAW",
+      "kind": "unadopted_branch",
+      "statement": "DIAGNOSTIC ONLY: identify DDR response with the raw null second moment, or its nonzero scalar multiple plus pure trace. Not a C1 or owner-adopted premise; rejection does not reject physical populations.",
+      "sources": [
+        "udt_population_response_identification_2026-09-30/INITIAL_CANDIDATE.md",
+        "udt_population_response_identification_2026-09-30/REPAIR.md",
+        "udt_population_response_identification_2026-09-30/REVIEWED_RESULT.md"
+      ]
+    },
+    {
+      "id": "R18O",
+      "kind": "argument",
+      "anchor": "r18o",
+      "title": "PRI1 conditional population-to-observer construction",
+      "registry_ids": [],
+      "sources": [
+        "udt_population_response_identification_2026-09-30/INITIAL_CANDIDATE.md",
+        "udt_population_response_identification_2026-09-30/REPAIR.md",
+        "udt_population_response_identification_2026-09-30/REVIEWED_RESULT.md"
+      ],
+      "required_conditions": [
+        "C_PRI_POPULATION",
+        "C_PRI_NONBEAM"
+      ]
+    },
+    {
+      "id": "R18F",
+      "kind": "argument",
+      "anchor": "r18f",
+      "title": "PRI1 observer-criterion and full-isotropy limits",
+      "registry_ids": [],
+      "sources": [
+        "udt_population_response_identification_2026-09-30/INITIAL_CANDIDATE.md",
+        "udt_population_response_identification_2026-09-30/REPAIR.md",
+        "udt_population_response_identification_2026-09-30/REVIEWED_RESULT.md"
+      ],
+      "required_conditions": [
+        "C_PRI_POPULATION"
+      ]
+    },
+    {
+      "id": "R18B",
+      "kind": "argument",
+      "anchor": "r18b",
+      "title": "PRI1 raw-moment DDR obstruction and separate response-variation gate",
+      "registry_ids": [],
+      "sources": [
+        "udt_population_response_identification_2026-09-30/INITIAL_CANDIDATE.md",
+        "udt_population_response_identification_2026-09-30/REPAIR.md",
+        "udt_population_response_identification_2026-09-30/REVIEWED_RESULT.md"
+      ],
+      "required_conditions": [
+        "C_PRI_POPULATION",
+        "C_PRI_RAW"
+      ]
     }
   ],
   "edges": [
@@ -1458,6 +1535,86 @@
       "from": "R18U",
       "to": "R18",
       "kind": "interpretation"
+    },
+    {
+      "from": "C_PRI_POPULATION",
+      "to": "R18O",
+      "kind": "hypothesis"
+    },
+    {
+      "from": "C_PRI_NONBEAM",
+      "to": "R18O",
+      "kind": "hypothesis"
+    },
+    {
+      "from": "C_PRI_POPULATION",
+      "to": "R18F",
+      "kind": "hypothesis"
+    },
+    {
+      "from": "C_PRI_POPULATION",
+      "to": "R18B",
+      "kind": "hypothesis"
+    },
+    {
+      "from": "C_PRI_RAW",
+      "to": "R18B",
+      "kind": "hypothesis"
+    },
+    {
+      "from": "R9",
+      "to": "R18B",
+      "kind": "proof"
+    },
+    {
+      "from": "R18O",
+      "to": "R18F",
+      "kind": "interpretation"
+    },
+    {
+      "from": "R17",
+      "to": "R18B",
+      "kind": "context"
+    },
+    {
+      "from": "R18T",
+      "to": "R18B",
+      "kind": "context"
+    },
+    {
+      "from": "R18C",
+      "to": "R18B",
+      "kind": "context"
+    },
+    {
+      "from": "R18U",
+      "to": "R18B",
+      "kind": "context"
+    },
+    {
+      "from": "O_PCW_PROPOSALS",
+      "to": "R18O",
+      "kind": "context"
+    },
+    {
+      "from": "O_PCW_PROPOSALS",
+      "to": "R18B",
+      "kind": "context"
+    },
+    {
+      "from": "R18O",
+      "to": "R18",
+      "kind": "interpretation"
+    },
+    {
+      "from": "R18F",
+      "to": "R18",
+      "kind": "interpretation"
+    },
+    {
+      "from": "R18B",
+      "to": "R18",
+      "kind": "interpretation"
     }
   ],
   "sources_sha256": {
@@ -1547,7 +1704,10 @@
     "udt_clock_ensemble_stationarity_test_2026-09-30/REVIEWED_RESULT.md": "4152b3223979c72fd8686124d7af484a399644920a669928462bc9f5f2bb6ea4",
     "udt_curved_clock_response_test_2026-09-30/INITIAL_CANDIDATE.md": "85dac5def7eae63e5682a2615a55d8d66705d44cefaeddd02082926248e59c9e",
     "udt_curved_clock_response_test_2026-09-30/REPAIR.md": "fb588385fca7d16587c8f0b92a714fca6e7766fa9abdb29ea3309bff578287b4",
-    "udt_curved_clock_response_test_2026-09-30/REVIEWED_RESULT.md": "8c3218a80a42741262707da40d2559c992a923b669a7a2f2cdcaa74226de6c5f"
+    "udt_curved_clock_response_test_2026-09-30/REVIEWED_RESULT.md": "8c3218a80a42741262707da40d2559c992a923b669a7a2f2cdcaa74226de6c5f",
+    "udt_population_response_identification_2026-09-30/INITIAL_CANDIDATE.md": "597d5b7104d3a30f95af811e6fb7713834a196b0dfeb4af989a92b9f2e6fe208",
+    "udt_population_response_identification_2026-09-30/REPAIR.md": "404c9885daf14ed39ab733f47e235e0da272268a06a5594f7b7bb2a006f433d7",
+    "udt_population_response_identification_2026-09-30/REVIEWED_RESULT.md": "66bf2f1b52e2afa670113fe613f67485cb4cffa3f238341953f404c1fe1bb756"
   },
   "impact_policy": "Any changed source or registry row flags its mapped positive and negative central arguments and every reachable central descendant for review; no automatic truth reversal or regrading.",
   "review_support": [
@@ -1791,6 +1951,30 @@
         "R18"
       ],
       "scope": "CCR1 conditional curved calculation and actual initial precision objections; review is not a physical premise; final repaired integration acceptance separate."
+    },
+    {
+      "path": "udt_population_response_identification_2026-09-30/review/math/DIRECT_REVIEW.md",
+      "sha256": "0cffeece299f172dcc2a5a72eb79a3379b11b883f4fbadf551a2713b55988a5b",
+      "role": "review_evidence",
+      "targets": [
+        "R18O",
+        "R18F",
+        "R18B",
+        "R18"
+      ],
+      "scope": "Actual pre-repair PRI1 direct review, conditional mathematics and physical labels; parent-origin later scope correction/final acceptance recorded separately. Review is not a premise."
+    },
+    {
+      "path": "udt_population_response_identification_2026-09-30/review/fidelity/DIRECT_REVIEW.md",
+      "sha256": "7eee4d952351da3fe5cf76dea6f29fb2dd2d5073470103fb91192ebdd415947d",
+      "role": "review_evidence",
+      "targets": [
+        "R18O",
+        "R18F",
+        "R18B",
+        "R18"
+      ],
+      "scope": "Actual pre-repair PRI1 direct review, conditional mathematics and physical labels; parent-origin later scope correction/final acceptance recorded separately. Review is not a premise."
     }
   ]
 }

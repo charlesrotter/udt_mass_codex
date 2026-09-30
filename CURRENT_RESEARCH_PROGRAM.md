@@ -5,7 +5,7 @@ This bounded startup view is generated from its opening; edit that source.
 LIVE.md owns operational status; CURRENT_SCIENTIFIC_PREMISES.tsv owns exact grades.
 
 <!-- GENERATED_DEVELOPMENT_BEGIN -->
-**Continuous development — CDR1 with SGE1, LKT1, GCA1, PCW1, CES1 and CCR1, 2026-09-30.** This is the maintained
+**Continuous development — CDR1 with SGE1, LKT1, GCA1, PCW1, CES1, CCR1 and PRI1, 2026-09-30.** This is the maintained
 scientific development. It is not canon or a new scientific-grade authority.
 The exact registry and reviewed sources own grades; LIVE owns operational status.
 Current review bindings and limits are recorded in section9; startup reads the
@@ -53,6 +53,12 @@ enter this sector even in curved spacetime. Applying the law to every such lab
 is an additional quantifier, not silently imposed on one fixed population.
 The score/response identification remains UNADOPTED; no native field equation,
 all-ensemble exclusion, empirical GR failure or UDT refutation follows.
+PRI1 makes a conditional population-to-observer construction explicit: a supplied
+positive finite null second moment has a unique timelike rest minimizer outside
+the single-ray/zero degeneracies. Different moment criteria can give different
+clock frames. The raw positive moment cannot itself be DDR's balanced response.
+Population state, physical clock identification and geometric response remain
+distinct open joins; the conventional kinetic interface is still UNADOPTED.
 <!-- GENERATED_DEVELOPMENT_END -->
 
 ## Current next gate

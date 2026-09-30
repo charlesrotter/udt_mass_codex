@@ -1,0 +1,64 @@
+{
+  "status": "PASS",
+  "python": "3.10.12",
+  "sympy": "1.13.1",
+  "identity_count": 31,
+  "identities": [
+    "hyperbolic-geodesic-Hessian",
+    "null-support-1",
+    "null-support-2",
+    "unit-future-observer",
+    "unequal-beam-eigenobserver",
+    "unequal-beam-density-eight",
+    "null-moment-trace",
+    "rational-boost-Lorentz",
+    "null-support-8",
+    "null-support-9",
+    "pushforward-vs-direct-moment",
+    "boosted-eigenobserver",
+    "boosted-observer-unit",
+    "reciprocal-pairing-covariance",
+    "direct-positive-pairing-68",
+    "trace-term-invisible",
+    "null-support-16",
+    "single-beam-decay",
+    "single-beam-no-critical-along-aligned-boost",
+    "single-beam-positive-DDR",
+    "null-support-20",
+    "null-support-21",
+    "null-support-22",
+    "null-support-23",
+    "null-support-24",
+    "null-support-25",
+    "six-beam-isotropic-second-moment",
+    "six-beam-e0-eigenobserver",
+    "six-beam-DDR-pairing-sixteen",
+    "infinite-count-first-partial-moment",
+    "infinite-count-second-partial-moment"
+  ],
+  "nonidentity_count": 6,
+  "nonidentities": [
+    "first-moment-direction-not-minimizer",
+    "wrong-eigenvalue-sign",
+    "omit-index-lowering",
+    "raw-moment-DDR",
+    "second-moment-isotropy-does-not-pass-DDR",
+    "second-moment-isotropy-not-angular-isotropy"
+  ],
+  "values": {
+    "unequal_beams": {
+      "T_cov": "Matrix([[17, -15, 0, 0], [-15, 17, 0, 0], [0, 0, 0, 0], [0, 0, 0, 0]])",
+      "U": "Matrix([[5/4], [3/4], [0], [0]])",
+      "rho": "8",
+      "J": "Matrix([[17], [15], [0], [0]])"
+    },
+    "fourth_directional_moments": {
+      "axis": "2",
+      "diagonal": "1"
+    },
+    "low_frequency_partial_moments": {
+      "first": "N",
+      "second": "1 - 2*2**(-N - 1)"
+    }
+  }
+}

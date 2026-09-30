@@ -1,0 +1,8 @@
+{
+  "utc": "2026-09-30T18:00:29.461183+00:00",
+  "exposure": "parent-found after direct review seal; not independent discovery",
+  "sha256": {
+    "PARENT_SCOPE_REVIEW.md": "960c0509f1c7329e5c120becffa86682ba802c5378487ba76e3a9001741f4ab9",
+    "DIRECT_REVIEW_SEAL.json": "1adca5258840b89585d647c1368940b50ddfca141911e539788264fb4b753b26"
+  }
+}

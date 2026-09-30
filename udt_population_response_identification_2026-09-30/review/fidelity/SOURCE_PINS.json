@@ -1,0 +1,91 @@
+{
+  "utc": "2026-09-30T17:53:31.445991+00:00",
+  "source_exposure": "Original sources only; no PRI1 candidate or other reviewer. Central sections R9/R17/R18 were read; full central file is version-pinned.",
+  "files": [
+    {
+      "path": "AGENTS.md",
+      "sha256": "8ae0d968a20f416ec628fcf9ad445d370822889a720168104a8e41aef2b1094c",
+      "bytes": 16259
+    },
+    {
+      "path": "CLAUDE.md",
+      "sha256": "4ad2e773defb89cc79541fd0ababd75af5a3344ab134ee83722dfd943966e6e4",
+      "bytes": 10370
+    },
+    {
+      "path": ".claude/skills/no-shortcuts/SKILL.md",
+      "sha256": "fd3a1f3218481134f2af829d3ae4175ac53518f75bf9673287efbfb7d7708fc1",
+      "bytes": 2966
+    },
+    {
+      "path": ".claude/skills/completeness-map/SKILL.md",
+      "sha256": "a8cf9e5f4a6d35a0d0ebfe4bc48dbf328ca74e318f020a6a22cb683666a611c0",
+      "bytes": 2490
+    },
+    {
+      "path": ".claude/skills/verifier-before-record/SKILL.md",
+      "sha256": "9b3a4aacd4b4006b2b7f01edada73b7c87b99bea6e754583558713bfc145e5ac",
+      "bytes": 3545
+    },
+    {
+      "path": "udt_population_response_identification_2026-09-30/WORK_ORDER.md",
+      "sha256": "994cacce75e3565f408608c3ddd5bffc54453e2e08326ec8f38dea4b28a3ed40",
+      "bytes": 5276
+    },
+    {
+      "path": "UDT_DEVELOPMENT.md",
+      "sha256": "cb0dc3ae6db8d5d9c03515d57917b20bb15f564f711fdb1c4a7fe269068062f7",
+      "bytes": 98021
+    },
+    {
+      "path": "udt_physical_connection_whiteboard_2026-09-30/proposals/cosmic/INITIAL_PROPOSAL.md",
+      "sha256": "e9b19bafd8fabac821f8521577003ee4ca397f4a7d712dc5e7d4e8fca4ef89ca",
+      "bytes": 7720
+    },
+    {
+      "path": "udt_physical_connection_whiteboard_2026-09-30/proposals/local/INITIAL_PROPOSAL.md",
+      "sha256": "cedffe7b0358f2f9abdd9fd0f66e199cb3d517ff24f71bd777c212032c090325",
+      "bytes": 7653
+    },
+    {
+      "path": "udt_physical_connection_whiteboard_2026-09-30/INITIAL_SYNTHESIS.md",
+      "sha256": "ef7c452036516e30f9b08ec1df6a042b419e9f0aea527314445cbf1d738d0939",
+      "bytes": 11058
+    },
+    {
+      "path": "udt_physical_connection_whiteboard_2026-09-30/REPAIR.md",
+      "sha256": "2a08ea369f226d739af46148f196dc1d577615f613a52f0eb1d9c9223f8954ee",
+      "bytes": 3359
+    },
+    {
+      "path": "udt_physical_connection_whiteboard_2026-09-30/REVIEWED_RESULT.md",
+      "sha256": "b17509671833c7319b5bdd0553679a09982265c6df2b7db5aff76aced0c33646",
+      "bytes": 2440
+    },
+    {
+      "path": "udt_clock_ensemble_stationarity_test_2026-09-30/PREPARATION.md",
+      "sha256": "e5ce5c7300c7d67f7232c8f9c24b8b636d722ec2b1917506b47cb70f0c49bc01",
+      "bytes": 5781
+    },
+    {
+      "path": "udt_clock_ensemble_stationarity_test_2026-09-30/REVIEWED_RESULT.md",
+      "sha256": "4152b3223979c72fd8686124d7af484a399644920a669928462bc9f5f2bb6ea4",
+      "bytes": 3097
+    },
+    {
+      "path": "udt_curved_clock_response_test_2026-09-30/INITIAL_CANDIDATE.md",
+      "sha256": "85dac5def7eae63e5682a2615a55d8d66705d44cefaeddd02082926248e59c9e",
+      "bytes": 12351
+    },
+    {
+      "path": "udt_curved_clock_response_test_2026-09-30/REPAIR.md",
+      "sha256": "fb588385fca7d16587c8f0b92a714fca6e7766fa9abdb29ea3309bff578287b4",
+      "bytes": 2838
+    },
+    {
+      "path": "udt_curved_clock_response_test_2026-09-30/REVIEWED_RESULT.md",
+      "sha256": "8c3218a80a42741262707da40d2559c992a923b669a7a2f2cdcaa74226de6c5f",
+      "bytes": 3176
+    }
+  ]
+}

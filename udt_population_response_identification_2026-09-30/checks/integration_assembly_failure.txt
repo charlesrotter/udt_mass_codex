@@ -1,0 +1,10 @@
+Parent graph/ledger assembly first attempt, before any script execution:
+  File "<stdin>", line 19
+SyntaxError: '(' was never closed
+
+The rows.append(dict(zip(...))) statement lacked its final parenthesis.
+Python rejected the complete script during parsing, so no graph, ledger or
+generated program write occurred. The corrected assembly used an explicit
+entry dictionary; it verified PRI1 was absent before inserting it. Subsequent
+draft and48 maintenance checks passed. This was packaging instrumentation,
+not a scientific failure or a change to any frozen proof/check/response.

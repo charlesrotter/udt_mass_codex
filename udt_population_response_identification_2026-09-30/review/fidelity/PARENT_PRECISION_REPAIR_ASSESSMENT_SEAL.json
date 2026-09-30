@@ -1,0 +1,14 @@
+{
+  "utc": "2026-09-30T18:00:45.998378+00:00",
+  "stage": "parent-origin issue assessed after direct seal; actual repair/final integration pending",
+  "files": [
+    {
+      "path": "udt_population_response_identification_2026-09-30/review/fidelity/DIRECT_REVIEW_SEAL.json",
+      "sha256": "61696af32f6aaef824181c60ede17fbef638d335dd44982b2b4ab34bd40db17a"
+    },
+    {
+      "path": "udt_population_response_identification_2026-09-30/review/fidelity/PARENT_PRECISION_REPAIR_ASSESSMENT.md",
+      "sha256": "2b96b1c947bb07d71eb78aaed7d825dce7fdcd2ee1e11e7df71bfe32e25b8f02"
+    }
+  ]
+}

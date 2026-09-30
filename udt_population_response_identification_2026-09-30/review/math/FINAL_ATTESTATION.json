@@ -1,5 +1,11 @@
 {
-  "status": "REVIEWED_WITH_LIMITS",
+  "context": "/root/pri_math",
+  "verdict": "ACCEPT_WITH_LIMITS",
+  "utc": "2026-09-30T18:08:51.378106+00:00",
+  "report_path": "udt_population_response_identification_2026-09-30/review/math/FINAL_REVIEW.md",
+  "report_sha256": "a1078c697bdc80ccba2e459996b120ba02b74685f8c0f8e626bd9613c8678baf",
+  "freeze_path": "udt_population_response_identification_2026-09-30/INTEGRATION_FREEZE.json",
+  "freeze_sha256": "9cec6caf5c06efd4b53e2924c1713cf18d9ea804b7c9eec60c184ac6572d88d0",
   "accepted_sha256": {
     "AGENTS.md": "8ae0d968a20f416ec628fcf9ad445d370822889a720168104a8e41aef2b1094c",
     "CLAUDE.md": "4ad2e773defb89cc79541fd0ababd75af5a3344ab134ee83722dfd943966e6e4",
@@ -263,17 +269,14 @@
     "verify_current_scientific_premises.py": "a983c2456ce3a122629a116c735b32b96e055829ed3012fb416fabfa9b0b8127",
     "verify_udt_development.py": "2825e3c31351f2c81ae39cede427b5c50fc62c98cd02d7a4059692b08bb6c94c"
   },
-  "reviewers": [
-    {
-      "context": "/root/pri_math",
-      "attestation": "udt_population_response_identification_2026-09-30/review/math/FINAL_ATTESTATION.json",
-      "sha256": "b150869c19e570117a7651902f80d702ab38dbcaadbff908ad813801319e835e"
-    },
-    {
-      "context": "/root/pri_fidelity",
-      "attestation": "udt_population_response_identification_2026-09-30/review/fidelity/FINAL_ATTESTATION.json",
-      "sha256": "a81a5304310fc44dd61e0dc45e9dc28449774b712a79c701f21cc059d7672bc5"
-    }
-  ],
-  "scope": "PRI1 actual controlling parent-origin scope repair and central integration accepted by two source-first/direct/final separate contexts. The fixed-geometry comparison versus metric-response distinction is repaired; initial candidate and missed direct-review scope issue remain preserved. Prior unchanged bindings retain inherited scopes only; conditional mathematics and review do not adopt a population, response law or promote science. Full premise audit and banking separate."
+  "scope": "Actual PRI1 repaired mathematical/physical scope and central integration;183 unchanged prior bindings inherit old scopes only. Parent-origin precision repair acknowledged. Normal final and fresh full406 remain later parent gates.",
+  "context_limits": "Fresh source-first context, same inherited model; no different-model/human/formal review. Scientific anchors independent; shared Python/SymPy. Peer Fraction import metadata checked, no peer proof used.",
+  "final_check_artifacts": {
+    "FINAL_CHECK_PLAN.md": "dbfd42f0fb0068f2585548b973a638af9e6b13eecbbba3d048a26654805d3e03",
+    "FINAL_CHECK_FREEZE.json": "aa0684f0f1882369bf9a0315512eaa9f0dd4bc5313ae74aaaf34d9e208bee150",
+    "final_validation.py": "bc5c682473d7547447f23b37bf419e703d22df5a215dc9bf71f2634023d0a94e",
+    "final_validation.stdout": "6c33430364f0974e581fe163dd3a2ae27639d46665b10b9b486ae9107d8859e9",
+    "final_validation.stderr": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "final_validation.json": "4c2377a84d570c7f423f34af7fb9e6ca5ecdd91bd6ba8f9600834cfc5c246b05"
+  }
 }

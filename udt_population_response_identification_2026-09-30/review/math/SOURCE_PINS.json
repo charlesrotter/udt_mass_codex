@@ -1,0 +1,16 @@
+{
+  "utc": "2026-09-30T17:54:02.848970+00:00",
+  "paths": {
+    "AGENTS.md": "8ae0d968a20f416ec628fcf9ad445d370822889a720168104a8e41aef2b1094c",
+    "CLAUDE.md": "4ad2e773defb89cc79541fd0ababd75af5a3344ab134ee83722dfd943966e6e4",
+    "UDT_DEVELOPMENT.md": "cb0dc3ae6db8d5d9c03515d57917b20bb15f564f711fdb1c4a7fe269068062f7",
+    "udt_population_response_identification_2026-09-30/WORK_ORDER.md": "994cacce75e3565f408608c3ddd5bffc54453e2e08326ec8f38dea4b28a3ed40",
+    "udt_physical_connection_whiteboard_2026-09-30/INITIAL_SYNTHESIS.md": "ef7c452036516e30f9b08ec1df6a042b419e9f0aea527314445cbf1d738d0939",
+    "udt_physical_connection_whiteboard_2026-09-30/REPAIR.md": "2a08ea369f226d739af46148f196dc1d577615f613a52f0eb1d9c9223f8954ee",
+    "udt_physical_connection_whiteboard_2026-09-30/REVIEWED_RESULT.md": "b17509671833c7319b5bdd0553679a09982265c6df2b7db5aff76aced0c33646",
+    "udt_curved_clock_response_test_2026-09-30/INITIAL_CANDIDATE.md": "85dac5def7eae63e5682a2615a55d8d66705d44cefaeddd02082926248e59c9e",
+    "udt_curved_clock_response_test_2026-09-30/REPAIR.md": "fb588385fca7d16587c8f0b92a714fca6e7766fa9abdb29ea3309bff578287b4",
+    "udt_curved_clock_response_test_2026-09-30/REVIEWED_RESULT.md": "8c3218a80a42741262707da40d2559c992a923b669a7a2f2cdcaa74226de6c5f",
+    "udt_shared_readout_metric_constraint_campaign_2026-09-06/run_capture.py": "8ff5469ace76bdfc84188915242abbf3baff35516f9ee3f9ba4b1cbfeb2573ef"
+  }
+}

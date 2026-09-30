@@ -1,5 +1,18 @@
 {
-  "status": "REVIEWED_WITH_LIMITS",
+  "utc": "2026-09-30T18:04:06.748766+00:00",
+  "parent_head": "da27f0b3c64d4eb5eed81732da1ab8964d4a7bac",
+  "scope": "PRI1 actual controlling scope repair and central integration. Prior unchanged bindings retain only prior review scopes; no fresh full-corpus reproof.",
+  "prior_binding_count": 191,
+  "changed_previous_paths": [
+    "CURRENT_RESEARCH_PROGRAM.md",
+    "HANDOFF.md",
+    "LIVE.md",
+    "UDT_DEVELOPMENT.md",
+    "UDT_RESEARCH_ROADMAP.md",
+    "development_reconstruction_2026-09-29/DEVELOPMENT_GRAPH.json",
+    "development_reconstruction_2026-09-29/RECENT_DISPOSITIONS.tsv",
+    "development_reconstruction_2026-09-29/checks/test_maintenance.py"
+  ],
   "accepted_sha256": {
     "AGENTS.md": "8ae0d968a20f416ec628fcf9ad445d370822889a720168104a8e41aef2b1094c",
     "CLAUDE.md": "4ad2e773defb89cc79541fd0ababd75af5a3344ab134ee83722dfd943966e6e4",
@@ -262,18 +275,5 @@
     "udt_shared_geometry_extension_2026-09-29/checks/check_geometry.py": "3c70550df2db78cda3b36a42d398c2fdb11685de6d7b853dbad5ebe9584ef61c",
     "verify_current_scientific_premises.py": "a983c2456ce3a122629a116c735b32b96e055829ed3012fb416fabfa9b0b8127",
     "verify_udt_development.py": "2825e3c31351f2c81ae39cede427b5c50fc62c98cd02d7a4059692b08bb6c94c"
-  },
-  "reviewers": [
-    {
-      "context": "/root/pri_math",
-      "attestation": "udt_population_response_identification_2026-09-30/review/math/FINAL_ATTESTATION.json",
-      "sha256": "b150869c19e570117a7651902f80d702ab38dbcaadbff908ad813801319e835e"
-    },
-    {
-      "context": "/root/pri_fidelity",
-      "attestation": "udt_population_response_identification_2026-09-30/review/fidelity/FINAL_ATTESTATION.json",
-      "sha256": "a81a5304310fc44dd61e0dc45e9dc28449774b712a79c701f21cc059d7672bc5"
-    }
-  ],
-  "scope": "PRI1 actual controlling parent-origin scope repair and central integration accepted by two source-first/direct/final separate contexts. The fixed-geometry comparison versus metric-response distinction is repaired; initial candidate and missed direct-review scope issue remain preserved. Prior unchanged bindings retain inherited scopes only; conditional mathematics and review do not adopt a population, response law or promote science. Full premise audit and banking separate."
+  }
 }

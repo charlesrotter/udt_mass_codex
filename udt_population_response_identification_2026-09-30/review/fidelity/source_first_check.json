@@ -1,0 +1,43 @@
+{
+  "status": "PASS",
+  "python": "3.10.12",
+  "arithmetic": "stdlib fractions.Fraction, exact",
+  "checks": {
+    "two_beams_future_null": true,
+    "rest_frame_unit_pair": true,
+    "moment_trace_zero": true,
+    "two_beam_rest_energy": true,
+    "two_beam_rest_eigenvector": true,
+    "two_beam_zero_spatial_flux": true,
+    "longitudinal_hessian": true,
+    "transverse_hessian": true,
+    "positive_reciprocal_pairing": true,
+    "rational_boost_covariant_energy": true,
+    "rational_boost_covariant_eigenvector": true,
+    "single_beam_exact_decreasing_controls": true,
+    "distinct_populations_null": true,
+    "identical_isotropic_second_moments": true,
+    "different_fourth_angular_moments": true,
+    "full_measure_product_rule": true,
+    "finite_second_infinite_first_partial_control": true
+  },
+  "false_claim_rejections": {
+    "raw_positive_moment_satisfies_DDR": true,
+    "second_moment_identifies_population": true,
+    "isotropic_second_moment_is_pure_metric": true,
+    "positive_baseline_measure_may_be_frozen_without_rule": true
+  },
+  "outputs": {
+    "two_beam_rest_energy": "8",
+    "DDR_pairing": "32",
+    "beam_energy_controls": [
+      "1",
+      "1/4",
+      "1/16",
+      "1/64"
+    ],
+    "different_fourth_moment": "96/625",
+    "full_score_derivative": "44"
+  },
+  "limits": "Finite exact anchors; analytic general proofs are in SOURCE_FIRST.md. No physical law adopted."
+}

@@ -1,0 +1,13 @@
+{
+  "utc": "2026-09-30T18:06:36.804188+00:00",
+  "command": [
+    "/usr/bin/python3",
+    "development_reconstruction_2026-09-29/checks/test_maintenance.py"
+  ],
+  "cwd": "/home/udt-admin/udt_mass_codex",
+  "returncode": 0,
+  "elapsed_seconds": 0.5160237920063082,
+  "timeout_seconds": 60,
+  "address_space_limit_bytes": 536870912,
+  "threads": 1
+}

@@ -1,0 +1,30 @@
+{
+  "status": "PASS",
+  "checks": {
+    "integration_freeze_exact": true,
+    "no_protected_binding": true,
+    "all261_accepted_bytes_match": true,
+    "old191_bindings_retained": true,
+    "exact_eight_changed_previous": true,
+    "183_unchanged70_new": true,
+    "tracked_diff_exact_eight": true,
+    "unchanged_CURRENT_SCIENTIFIC_PREMISES.tsv": true,
+    "unchanged_CANON.md": true,
+    "generated_program_exact": true,
+    "prior_graph_nodes_unchanged": true,
+    "prior_graph_edges_unchanged": true,
+    "prior_graph_source_pins_unchanged": true,
+    "observer_requires_positive_population_nonbeam": true,
+    "raw_requires_population_and_diagnostic_only": true,
+    "negative_has_no_nonbeam_requirement": true,
+    "positive_negative_descendants": true,
+    "unchanged_SOURCE_FIRST_SEAL.json": true,
+    "unchanged_DIRECT_REVIEW_SEAL.json": true
+  },
+  "accepted_paths": 261,
+  "prior_paths": 191,
+  "prior_unchanged": 183,
+  "prior_changed": 8,
+  "new_paths": 70,
+  "scope": "Byte/routing regression; actual scientific and repair fidelity independently read. Parent normal/full406 gates separate."
+}

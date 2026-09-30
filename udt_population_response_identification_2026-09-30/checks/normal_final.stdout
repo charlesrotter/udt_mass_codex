@@ -1,0 +1,8 @@
+{
+  "status": "PASS",
+  "registry_rows": 406,
+  "later_returns": 32,
+  "central_arguments": 18,
+  "source_pins": 90,
+  "scope": "Version, routing and bounded regression checks; not semantic completeness, canon or full-corpus reproof."
+}

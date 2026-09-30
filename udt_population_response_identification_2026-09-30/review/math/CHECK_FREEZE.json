@@ -1,0 +1,11 @@
+{
+  "utc": "2026-09-30T17:54:02.849027+00:00",
+  "exposure": "no PRI1 candidate, producer code or peer argument",
+  "sha256": {
+    "SOURCE_FIRST.md": "af6691874b2b5f7ddb1c465dd5ee58e0bf5d87a2089107ad734b9c6d3c20a848",
+    "CHECK_PLAN.md": "9cd5b820431d0dad9dacf1439c2a1215214e0a35fb0c0c6d782430f275109ed1",
+    "independent_checks.py": "e5d008e6640d95c6ebc9a416395e6b3ddcdaf43b63bfa342ffd7113a89fca8b0",
+    "SOURCE_PINS.json": "f8e56170f1ae59ab526a008e42e823b81d1bb20fca84132c1b12e5a6f6f09a56"
+  },
+  "run": "OMP_NUM_THREADS=1 OPENBLAS_NUM_THREADS=1 MKL_NUM_THREADS=1 python3 udt_shared_readout_metric_constraint_campaign_2026-09-06/run_capture.py /home/udt-admin/udt_mass_codex/udt_population_response_identification_2026-09-30/review/math/source_first_check /home/udt-admin/udt_mass_codex python3 udt_population_response_identification_2026-09-30/review/math/independent_checks.py"
+}

@@ -1,0 +1,47 @@
+{
+  "utc": "2026-09-30T17:55:21.479614+00:00",
+  "stage": "sealed before PRI1 candidate/code/check or other reviewer exposure",
+  "reviewer": "/root/pri_fidelity",
+  "files": [
+    {
+      "path": "udt_population_response_identification_2026-09-30/review/fidelity/CHECK_PLAN.md",
+      "sha256": "9f12de6ee3edd05d341b399806bcd74faca02fba04072dfeab49d18abfabdcdd",
+      "bytes": 2673
+    },
+    {
+      "path": "udt_population_response_identification_2026-09-30/review/fidelity/SOURCE_PINS.json",
+      "sha256": "232b964a91dc7458155cc096f09fb6a19a71823c3760dc8c7e8e060feac3083b",
+      "bytes": 3395
+    },
+    {
+      "path": "udt_population_response_identification_2026-09-30/review/fidelity/CHECK_FREEZE.json",
+      "sha256": "695c8c9c72955910d2492f7daff8b58bc3b87f997206f078ece5332af5eb3e7d",
+      "bytes": 539
+    },
+    {
+      "path": "udt_population_response_identification_2026-09-30/review/fidelity/source_first_checks.py",
+      "sha256": "42d95cbee33e2835edb6d07a0fc9282ffc2e0778d782819fa2951da8942dea07",
+      "bytes": 4596
+    },
+    {
+      "path": "udt_population_response_identification_2026-09-30/review/fidelity/source_first_check.json",
+      "sha256": "13396e67dd164ba66fd7065a0e6431cce20b30a5b042d4f4178fde2a888d3eb1",
+      "bytes": 1411
+    },
+    {
+      "path": "udt_population_response_identification_2026-09-30/review/fidelity/source_first_check.stderr",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "udt_population_response_identification_2026-09-30/review/fidelity/source_first_check.capture_provenance.json",
+      "sha256": "458d51aaed0959f786ea6b59adce58faad4e9029d1f99780ef31a2f7b8a21ce9",
+      "bytes": 374
+    },
+    {
+      "path": "udt_population_response_identification_2026-09-30/review/fidelity/SOURCE_FIRST.md",
+      "sha256": "64d9a2cb40f2a86daf5476c0e87a939eb9bd038758f084e84a5e6271d3435809",
+      "bytes": 11691
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "utc": "2026-09-30T17:53:31.446390+00:00",
+  "stage": "before first execution",
+  "files": [
+    {
+      "path": "udt_population_response_identification_2026-09-30/review/fidelity/CHECK_PLAN.md",
+      "sha256": "9f12de6ee3edd05d341b399806bcd74faca02fba04072dfeab49d18abfabdcdd",
+      "bytes": 2673
+    },
+    {
+      "path": "udt_population_response_identification_2026-09-30/review/fidelity/source_first_checks.py",
+      "sha256": "42d95cbee33e2835edb6d07a0fc9282ffc2e0778d782819fa2951da8942dea07",
+      "bytes": 4596
+    }
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "status": "PASS",
+  "freeze_sha256": "9cec6caf5c06efd4b53e2924c1713cf18d9ea804b7c9eec60c184ac6572d88d0",
+  "accepted_files": 261,
+  "prior_files": 191,
+  "changed_prior_files": 8,
+  "inherited_unchanged": 183,
+  "new_files": 70,
+  "tracked_diff_paths": [
+    "CURRENT_RESEARCH_PROGRAM.md",
+    "HANDOFF.md",
+    "LIVE.md",
+    "UDT_DEVELOPMENT.md",
+    "UDT_RESEARCH_ROADMAP.md",
+    "development_reconstruction_2026-09-29/DEVELOPMENT_GRAPH.json",
+    "development_reconstruction_2026-09-29/RECENT_DISPOSITIONS.tsv",
+    "development_reconstruction_2026-09-29/checks/test_maintenance.py"
+  ],
+  "graph_impact_from_PRI1": [
+    "C_PRI_NONBEAM",
+    "C_PRI_POPULATION",
+    "C_PRI_RAW",
+    "R18",
+    "R18B",
+    "R18F",
+    "R18O"
+  ],
+  "new_graph_nodes": 6,
+  "new_graph_edges": 16,
+  "draft_coherence": {
+    "status": "DRAFT_COHERENCE_ONLY",
+    "registry_rows": 406,
+    "later_returns": 32,
+    "central_arguments": 18,
+    "source_pins": 90,
+    "scope": "Version, routing and bounded regression checks; not semantic completeness, canon or full-corpus reproof."
+  },
+  "new_guard_command": [
+    "python3",
+    "development_reconstruction_2026-09-29/checks/test_maintenance.py",
+    "Maintenance.test_pri_observer_requires_nonbeam_hypothesis",
+    "Maintenance.test_pri_raw_obstruction_requires_population_domain",
+    "Maintenance.test_pri_negative_conclusion_requires_tested_identification",
+    "Maintenance.test_pri_source_routes_construction_and_adverse_use"
+  ],
+  "new_guard_stdout": "",
+  "new_guard_stderr": "test_pri_observer_requires_nonbeam_hypothesis (__main__.Maintenance) ... ok\ntest_pri_raw_obstruction_requires_population_domain (__main__.Maintenance) ... ok\ntest_pri_negative_conclusion_requires_tested_identification (__main__.Maintenance) ... ok\ntest_pri_source_routes_construction_and_adverse_use (__main__.Maintenance) ... ok\n\n----------------------------------------------------------------------\nRan 4 tests in 0.023s\n\nOK\n",
+  "fidelity_import_metadata": {
+    "source_first_checks.py": [
+      "fractions",
+      "json",
+      "platform"
+    ],
+    "direct_checks.py": [
+      "fractions",
+      "json",
+      "platform"
+    ]
+  },
+  "parent_gates": "final normal binding and fresh full406 remain pending; no scientific replay"
+}

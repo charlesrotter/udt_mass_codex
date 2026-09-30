@@ -1,0 +1,15 @@
+{
+  "utc": "2026-09-30T17:59:35.227959+00:00",
+  "verdict": "VERIFIED-WITH-CAVEATS conditional mathematics; no required scientific repair; final integration pending",
+  "sha256": {
+    "SOURCE_FIRST_SEAL.json": "553a6c5050228ebf8bf7e222b89415f3cddc6bee2dc8bd6c364eb2a03df72f4f",
+    "DIRECT_REVIEW.md": "0cffeece299f172dcc2a5a72eb79a3379b11b883f4fbadf551a2713b55988a5b",
+    "DIRECT_INPUT_PINS.json": "8231dbcd9bac9d5d2b745043b936b579190412a6d92f33a5b34878202aa048b0",
+    "DIRECT_CHECK_PLAN.md": "e250619eda657d5aea89eca183e7a69c9381312d8071831c5df0a09ec56afbd3",
+    "DIRECT_CHECK_FREEZE.json": "53ddc4014fea2816c6532455c8bd10908bf3b42383b39660617632f6bd570c5e",
+    "direct_checks.py": "5840eb52dc9515b1f8cabf4e3f37d9586e21fe319adfaaf821723aedce7fe37c",
+    "direct_check.stdout": "3fa17e668d9c15aa3ce5a120d6b9568bbda10ff8d49d2b0a706ffb734dcb9216",
+    "direct_check.stderr": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "direct_check.json": "f0a44588cb70509a4013eb116f5cf3e485827e7936852daff4cf6dcc787f9a1f"
+  }
+}

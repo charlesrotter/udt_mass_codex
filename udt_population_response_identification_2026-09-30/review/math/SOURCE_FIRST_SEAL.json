@@ -1,0 +1,16 @@
+{
+  "utc": "2026-09-30T17:54:22.337901+00:00",
+  "reviewer": "fresh delegated math context; same inherited model; exact backend variant unexposed",
+  "exposure": "source-first; no PRI1 candidate/producer code/other reviewer arguments read",
+  "result": "analytic conditional theorem plus exact anchors PASS;31 identities including null-support controls and6 nonidentities,0.239s,47536KiB; code anchors do not prove universal hypotheses",
+  "sha256": {
+    "SOURCE_FIRST.md": "af6691874b2b5f7ddb1c465dd5ee58e0bf5d87a2089107ad734b9c6d3c20a848",
+    "CHECK_PLAN.md": "9cd5b820431d0dad9dacf1439c2a1215214e0a35fb0c0c6d782430f275109ed1",
+    "independent_checks.py": "e5d008e6640d95c6ebc9a416395e6b3ddcdaf43b63bfa342ffd7113a89fca8b0",
+    "SOURCE_PINS.json": "f8e56170f1ae59ab526a008e42e823b81d1bb20fca84132c1b12e5a6f6f09a56",
+    "CHECK_FREEZE.json": "32253891bfcc4be0a4425c85acaafa8fc8774785f59d125515b16dacead4447a",
+    "source_first_check.stdout": "f9ac1f120ae405a98944fc45376eec5f98f08c77def1b79dfbe0ab9fbf2abea0",
+    "source_first_check.stderr": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "source_first_check.json": "3dbbd5c44a1b18ce9a3bf1fa2bbab6648847c2fd8157fcc94c887df2cc00199d"
+  }
+}

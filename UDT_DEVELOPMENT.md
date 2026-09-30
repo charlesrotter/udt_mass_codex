@@ -1,7 +1,7 @@
 # UDT — continuous scientific development
 
 <!-- DEVELOPMENT_ORIENTATION_BEGIN -->
-**Continuous development — CDR1 with SGE1, LKT1, GCA1, PCW1, CES1 and CCR1, 2026-09-30.** This is the maintained
+**Continuous development — CDR1 with SGE1, LKT1, GCA1, PCW1, CES1, CCR1 and PRI1, 2026-09-30.** This is the maintained
 scientific development. It is not canon or a new scientific-grade authority.
 The exact registry and reviewed sources own grades; LIVE owns operational status.
 Current review bindings and limits are recorded in section9; startup reads the
@@ -49,6 +49,12 @@ enter this sector even in curved spacetime. Applying the law to every such lab
 is an additional quantifier, not silently imposed on one fixed population.
 The score/response identification remains UNADOPTED; no native field equation,
 all-ensemble exclusion, empirical GR failure or UDT refutation follows.
+PRI1 makes a conditional population-to-observer construction explicit: a supplied
+positive finite null second moment has a unique timelike rest minimizer outside
+the single-ray/zero degeneracies. Different moment criteria can give different
+clock frames. The raw positive moment cannot itself be DDR's balanced response.
+Population state, physical clock identification and geometric response remain
+distinct open joins; the conventional kinetic interface is still UNADOPTED.
 <!-- DEVELOPMENT_ORIENTATION_END -->
 
 ## 1. How this development is owned
@@ -1448,6 +1454,100 @@ specified population data and the original Liouville residual, not Θ inferred
 from the same tested redshift. No CMB spectrum, controlled near-isotropy result,
 response equation, physical X_max or new scale is derived.
 
+<a id="r18o"></a>
+
+**PRI1: constructing a comparison observer from supplied population data.** On a
+time-oriented Lorentz4 tangent space, supply a nonzero nonnegative measure ν on
+future nonzero null vectors with finite second moment
+M_ab=∫k_a k_b dν. This is conditional population information, not native light,
+matter or a selected UDT source. For each future unit timelike u put Q(u)=M(u,u).
+In a proof frame write k=ω(1,m), |m|=1, and let σ be the finite angular measure
+obtained from ω²dν. If σ is not concentrated on one direction, continuity and
+compactness give a=min_n∫(1−n·m)²dσ>0. For u=(cosh r,sinh r n), r≥0,
+\[
+ Q(u)\geq\tfrac14a e^{2r}.
+\]
+Thus Q attains a minimum. Along every unit-speed hyperbolic geodesic u''=u,
+Q''=2[M(u',u')+M(u,u)]>0, so that minimum is unique. Stationarity on the unit
+hyperboloid gives the covariant assignment
+\[
+ M^a{}_b u_M^b=-\rho u_M^a,\qquad \rho=M(u_M,u_M)>0.
+\]
+The positive spatial Hessian 2[M(v,v)+ρg(v,v)] gives smooth u_M where g,M are
+smooth and the non-single-ray condition persists. Uniqueness makes it covariant
+under simultaneous transformation of metric and population; overall positive
+population normalization changes ρ but not u_M. It is a state-dependent frame,
+not a preferred cosmic observer or center and not a metric-only field equation.
+
+A single null ray has inf Q=0 approached only at infinite rapidity; no timelike
+minimizer exists. Zero population selects no unique observer. For opposing
+unit-frequency beams of weights A,B>0, Q(r)=Ae^(−2r)+Be^(2r), so
+r_M=¼log(A/B) and ρ=2sqrt(AB). The observer escapes to infinite rapidity as
+B→0 at fixed A. No uniform conditioning bound across that limit is claimed.
+This is familiar positive-tensor/kinetic mathematics applied with explicit
+null-measure hypotheses, not new physical law; see
+[Sarbach–Zannias, Lemma7 and Eq.(60)](https://arxiv.org/pdf/1303.2899v1).
+Their massive-gas/source assumptions are not adopted; the null-sector proof is
+given above and in the fixed PRI1 candidate.
+
+<a id="r18f"></a>
+
+**The criterion and physical clocks are distinct.** When J=∫k dν is finite and
+timelike, its normalization is another covariant observer. For opposing unit
+rays with weights4:1, the current observer has velocity3/5, while the second-
+moment minimizer has velocity1/3. They arise from the same population. Finite
+second moment alone need not give finite first moment, and this finite example
+does not remove that extra requirement. Covariance therefore does not choose
+which moment criterion defines actual comparison clocks.
+
+C1's exactly isotropic population gives M=ρU_flat²+(ρ/3)(g+U_flat²), whose
+unique second-moment observer is U. This recovers that direction from the
+supplied state. The converse fails even for smooth populations: multiply an
+independent positive finite-moment radial spectrum by 1+εP4(z), 0<|ε|<1, with
+P4=(35z⁴−30z²+3)/8. Its range is[−3/7,1]; its angular moments of degrees0,1,2
+vanish, but ∫_{−1}¹z⁴P4 dz=16/315. First/second population moments remain
+isotropic while the full population is anisotropic. This is a supplied control,
+not a spectrum inferred from observed redshift. C1's full isotropy, transport
+and clock-identification assumptions remain necessary to its original argument;
+a rest moment alone supplies no conformal-Killing or clock-ratio theorem.
+
+<a id="r18b"></a>
+
+**A population moment is not the balanced response by itself.** For every
+orthonormal reciprocal pair,
+\[
+ \langle M,H(u,n)\rangle_g
+ =2\int[(g(k,u))^2+(g(k,n))^2]d\nu>0.
+\]
+Null support also gives tr_g M=0 and TF(M)=M≠0. Therefore the diagnostic direct
+identification E=M cannot satisfy DDR for any nonzero positive population of
+this kind, whether or not it has a rest observer. Adding qg or taking a nonzero
+scalar multiple does not remove the obstruction. An isotropic rest moment
+gives 8ρ/3, not zero. C1 did not propose E=M: this excludes that possible join,
+not C1, populated geometries or UDT. A geometric/population balance would be a
+different proposal with its own response identity and coupling to justify.
+
+The L1 metric derivative still requires both ∫D δD dμ_g and ½∫D²δ(dμ_g),
+including population-defined clock/query motion and the state's variation on
+the changing null shell. A supplied u_M at one metric does not determine them.
+CCR1 survives for its unchanged fixed-label preparation/tube/sign sector; it
+neither automatically applies to nor is repaired by a different physical
+population. Its every-laboratory quantifier remains additional. No weights,
+GR subtraction or response term have been chosen to force cancellation.
+
+The concrete survivor is a conditional observer-assignment tool. Identifying an
+actual population independently of the tested shifts and connecting physical clocks
+to its chosen frame remain unclosed. At fixed supplied geometry and population,
+a justified clock/query protocol permits conditional comparisons without a
+local response equation or an off-shell population rule. State/query/measure
+continuation is additionally required when claiming the metric derivative or DDR
+response; it is not imposed on every fixed-geometry clock readout.
+No response law, geometry, scale or extra positional effect has been selected.
+[PRI1 initial proof](udt_population_response_identification_2026-09-30/INITIAL_CANDIDATE.md)
+with its [controlling scope repair](udt_population_response_identification_2026-09-30/REPAIR.md)
+and [reviewed scope](udt_population_response_identification_2026-09-30/REVIEWED_RESULT.md)
+keep the construction and negative identification separate.
+
 **Quantum vacuum response (M1), a higher-cost comparison.** Explicitly import
 quantum fields, a causal state prescription and renormalization, and propose
 \[
@@ -1477,7 +1577,8 @@ and the causal front are distinct; the calculation selects no native geometry.
 
 The L1 investigation has returned CES1's diagnostic and CCR1's curved-sector
 obstruction, with their physical assumptions and uncovered populations explicit.
-C1 remains an optional physical observer-assignment interface and M1 remains
+C1 now has PRI1's conditional moment-based observer construction, with physical
+identification and response still open. M1 remains
 deferred pending an explicit state/locality question. No proposal is adopted, and no successor
 campaign begins automatically. The microscopic tests constrain these particular
 connections; they do not show that mathematics alone selects UDT or that its
@@ -1486,7 +1587,7 @@ founding premises are insufficient.
 Retained branches and omissions are explicit below. These results are useful;
 their original full proofs, repairs, qualifications and grades remain at source.
 CDR1 does not claim to rederive all of them. The [406-row disposition ledger](development_reconstruction_2026-09-29/CLAIM_DISPOSITIONS.tsv)
-and [31 later returns](development_reconstruction_2026-09-29/RECENT_DISPOSITIONS.tsv)
+and [32 later returns](development_reconstruction_2026-09-29/RECENT_DISPOSITIONS.tsv)
 identify exact sources and reconstruction depth.
 
 | Retained work | Gain and limit |
@@ -1519,7 +1620,7 @@ it does not merely add another disconnected report.
 
 This is an18-result central reconstruction with actual core calculations,
 standard-method applications and explicitly retained source branches. All406
-registered rows have an editorial disposition;31 relevant later returns
+registered rows have an editorial disposition;32 relevant later returns
 are separately mapped. It does not claim to re-prove every historical result.
 Existence/MGHD, full external invariant theory, detailed nonlinear asymptotics,
 the55-component optional analytic system, the eight signal packages, empirical
@@ -1598,6 +1699,18 @@ and explicit-integral check. Initial artifacts remain unchanged. Contexts and
 implementations are separate; model and symbolic library are shared. No human,
 formal, different-model/library, empirical or full-corpus reproof is claimed.
 
+PRI1 adds two fresh source-first/direct contexts and final integration review
+for population-to-observer construction, its degeneracies, criterion ambiguity
+and the raw-moment DDR obstruction. Independent arguments and implementations
+include a standard-library exact Fraction review distinct from the parent's and
+mathematical reviewer's SymPy algebra. The model and Python runtime are shared;
+human, different-model and formal-proof verification remain untested. Full
+physical state/transport, clock coupling and response selection are not claimed.
+One parent-origin scope repair, found after direct review, separates fixed-
+geometry comparisons from the extra variation rules required for a response.
+Initial candidate and direct reviews are preserved; final reviews inspect the repair.
+Actual scope and check exposure belong to its fixed review reports and work record.
+
 The preserved first candidates expose the repair history. The [source correction](development_reconstruction_2026-09-29/SOURCE_CORRECTIONS.md)
 fixes a real covector-basis sign in G310; the central nine-direction span and
 annihilator survive. The original file remains authentic. Further repairs make
@@ -1625,4 +1738,5 @@ stage completion, final source/check pins and all remaining omissions belong to
 [GCA1 work record](udt_gr_commitment_audit_2026-09-29/WORK_RECORD.md) and
 [PCW1 work record](udt_physical_connection_whiteboard_2026-09-30/WORK_RECORD.md) and
 [CES1 work record](udt_clock_ensemble_stationarity_test_2026-09-30/WORK_RECORD.md) and
-[CCR1 work record](udt_curved_clock_response_test_2026-09-30/WORK_RECORD.md).
+[CCR1 work record](udt_curved_clock_response_test_2026-09-30/WORK_RECORD.md) and
+[PRI1 work record](udt_population_response_identification_2026-09-30/WORK_RECORD.md).

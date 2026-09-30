@@ -1,5 +1,11 @@
 {
-  "status": "REVIEWED_WITH_LIMITS",
+  "context": "/root/pri_fidelity",
+  "utc": "2026-09-30T18:08:01.298519+00:00",
+  "verdict": "ACCEPT_WITH_LIMITS",
+  "report_path": "udt_population_response_identification_2026-09-30/review/fidelity/FINAL_REVIEW.md",
+  "report_sha256": "abaebe3e4909e3e17be2b4e875759a0fa72e0e00491e32cacd801d77f24b63ea",
+  "freeze_path": "udt_population_response_identification_2026-09-30/INTEGRATION_FREEZE.json",
+  "freeze_sha256": "9cec6caf5c06efd4b53e2924c1713cf18d9ea804b7c9eec60c184ac6572d88d0",
   "accepted_sha256": {
     "AGENTS.md": "8ae0d968a20f416ec628fcf9ad445d370822889a720168104a8e41aef2b1094c",
     "CLAUDE.md": "4ad2e773defb89cc79541fd0ababd75af5a3344ab134ee83722dfd943966e6e4",
@@ -263,17 +269,7 @@
     "verify_current_scientific_premises.py": "a983c2456ce3a122629a116c735b32b96e055829ed3012fb416fabfa9b0b8127",
     "verify_udt_development.py": "2825e3c31351f2c81ae39cede427b5c50fc62c98cd02d7a4059692b08bb6c94c"
   },
-  "reviewers": [
-    {
-      "context": "/root/pri_math",
-      "attestation": "udt_population_response_identification_2026-09-30/review/math/FINAL_ATTESTATION.json",
-      "sha256": "b150869c19e570117a7651902f80d702ab38dbcaadbff908ad813801319e835e"
-    },
-    {
-      "context": "/root/pri_fidelity",
-      "attestation": "udt_population_response_identification_2026-09-30/review/fidelity/FINAL_ATTESTATION.json",
-      "sha256": "a81a5304310fc44dd61e0dc45e9dc28449774b712a79c701f21cc059d7672bc5"
-    }
-  ],
-  "scope": "PRI1 actual controlling parent-origin scope repair and central integration accepted by two source-first/direct/final separate contexts. The fixed-geometry comparison versus metric-response distinction is repaired; initial candidate and missed direct-review scope issue remain preserved. Prior unchanged bindings retain inherited scopes only; conditional mathematics and review do not adopt a population, response law or promote science. Full premise audit and banking separate."
+  "scope": "Actual PRI1 controlling repair and eight tracked integration diffs; source-first/direct independent argument and Fraction checks; prior183 unchanged bindings retain prior scopes only. No corpus reproof, physical adoption, scientific regrading or parent final full406/normal gate claim.",
+  "exposure": "Source-first sealed before candidate; direct candidate and code exposed thereafter; parent-origin prerequisite correction after direct seal was missed initially and explicitly acknowledged. Final actual repair/integration inspected.",
+  "independence": "Separate context and independent argument/code; stdlib Fraction distinct from producer SymPy; same inherited model and Python. No human/different-model/formal review."
 }

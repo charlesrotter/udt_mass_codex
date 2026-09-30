@@ -1,0 +1,14 @@
+{
+  "utc": "2026-09-30T18:06:36.288027+00:00",
+  "command": [
+    "/usr/bin/python3",
+    "verify_udt_development.py",
+    "--draft"
+  ],
+  "cwd": "/home/udt-admin/udt_mass_codex",
+  "returncode": 0,
+  "elapsed_seconds": 0.06461768801091239,
+  "timeout_seconds": 60,
+  "address_space_limit_bytes": 536870912,
+  "threads": 1
+}

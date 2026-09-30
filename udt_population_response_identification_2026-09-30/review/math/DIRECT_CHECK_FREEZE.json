@@ -1,0 +1,9 @@
+{
+  "utc": "2026-09-30T17:58:03.627159+00:00",
+  "sha256": {
+    "DIRECT_CHECK_PLAN.md": "e250619eda657d5aea89eca183e7a69c9381312d8071831c5df0a09ec56afbd3",
+    "direct_checks.py": "5840eb52dc9515b1f8cabf4e3f37d9586e21fe319adfaaf821723aedce7fe37c",
+    "DIRECT_INPUT_PINS.json": "8231dbcd9bac9d5d2b745043b936b579190412a6d92f33a5b34878202aa048b0"
+  },
+  "run": "OMP_NUM_THREADS=1 OPENBLAS_NUM_THREADS=1 MKL_NUM_THREADS=1 python3 udt_shared_readout_metric_constraint_campaign_2026-09-06/run_capture.py /home/udt-admin/udt_mass_codex/udt_population_response_identification_2026-09-30/review/math/direct_check /home/udt-admin/udt_mass_codex python3 udt_population_response_identification_2026-09-30/review/math/direct_checks.py"
+}

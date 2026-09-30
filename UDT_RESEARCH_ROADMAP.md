@@ -1,6 +1,6 @@
 # UDT research roadmap — current direction
 
-Updated 2026-09-30: CCR1 curved-response test after CES1/PCW1/GCA1/LKT1/SGE1/CDR1. This is a direction document, not scientific
+Updated 2026-09-30: PRI1 population/response study after CCR1/CES1/PCW1/GCA1/LKT1/SGE1/CDR1. This is a direction document, not scientific
 premise authority or research authorization. LIVE controls operational status;
 the exact registry and original reviewed sources control grades and scope.
 AGENTS controls method. Charles canonizes; CANON is unchanged.
@@ -12,16 +12,19 @@ This roadmap does not duplicate their detailed derivations or premise inventory.
 
 ## Current return and next discussion
 
-After clarifying that CES1's optional exact-flat diagnostic did not test UDT
-itself, Charles authorized: “Move on to the next substantive issue then.”
-The [bounded work order](udt_curved_clock_response_test_2026-09-30/WORK_ORDER.md)
-controls CCR1's curved-geometry test, reviews and return. Its conditional result
-is integrated in [central R18T/R18C/R18U](UDT_DEVELOPMENT.md#r18t).
-The [work record](udt_curved_clock_response_test_2026-09-30/WORK_RECORD.md)
-records actual review, checks and banking. The supplied response law is not
-adopted. The all-laboratory quantifier remains additional and unadopted; exact
-flatness is not a UDT or local-SR requirement. The test restricts that proposal
-within its stated sector, without claiming to refute UDT or classify all populations.
+After CCR1, Charles's “Proceed” authorized investigation of what physical
+quantity or population reciprocity should constrain. The
+[bounded work order](udt_population_response_identification_2026-09-30/WORK_ORDER.md)
+controls PRI1's population-to-observer construction, response-identification
+test, reviews and return. Its conditional argument is integrated in
+[central R18O/R18F/R18B](UDT_DEVELOPMENT.md#r18o). The
+[work record](udt_population_response_identification_2026-09-30/WORK_RECORD.md)
+records actual review, checks and banking. The construction is retained as a
+conditional tool; actual population, physical clock identification and response
+law remain unadopted. The prior CCR1 tube/sign/fixed-protocol limits and separate
+all-laboratory quantifier survive. No selected metric or extra positional effect
+is claimed. The next discussion must distinguish a physical state from its
+observer criterion and from a metric-response law.
 No successor campaign starts automatically. Previous audit, proposal and
 conditional returns keep their original scopes; exact grades and CANON do not change.
 
@@ -262,7 +265,7 @@ Full branch limits and protected local-work instructions remain in LIVE/AGENTS.
 
 The [central retained-results account](UDT_DEVELOPMENT.md#r18) explains gains
 and open connections. The [later-return ledger](development_reconstruction_2026-09-29/RECENT_DISPOSITIONS.tsv)
-maps31 later returns, including GCA1, unadopted PCW1 proposals and CES1/CCR1 tests, to exact sources and scopes.
+maps32 later returns, including GCA1, unadopted PCW1 proposals and CES1/CCR1/PRI1 tests, to exact sources and scopes.
 Review those limits before proposing a successor. Earlier admitted mathematics
 remains available through its original banking records.
 

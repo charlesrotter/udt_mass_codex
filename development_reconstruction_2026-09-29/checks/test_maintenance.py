@@ -124,6 +124,18 @@ class Maintenance(unittest.TestCase):
         self.assertTrue({'R18T','R18C','R18U','R18'}<=impact)
         self.assertFalse({'R6','R9','R10'} & impact)
         self.rejects({p:(ROOT/p).read_text()+'\nTEST'},'REVIEW_REQUIRED.*affected=')
+    def test_pri_observer_requires_nonbeam_hypothesis(self):
+        self.rejects(self.graph_change(lambda g:g['edges'].remove({'from':'C_PRI_NONBEAM','to':'R18O','kind':'hypothesis'})),'missing required hypothesis')
+    def test_pri_raw_obstruction_requires_population_domain(self):
+        self.rejects(self.graph_change(lambda g:g['edges'].remove({'from':'C_PRI_POPULATION','to':'R18B','kind':'hypothesis'})),'missing required hypothesis')
+    def test_pri_negative_conclusion_requires_tested_identification(self):
+        self.rejects(self.graph_change(lambda g:g['edges'].remove({'from':'C_PRI_RAW','to':'R18B','kind':'hypothesis'})),'missing required hypothesis')
+    def test_pri_source_routes_construction_and_adverse_use(self):
+        p='udt_population_response_identification_2026-09-30/INITIAL_CANDIDATE.md'
+        impact=set(v.affected_nodes(self.graph,[p]))
+        self.assertTrue({'R18O','R18F','R18B','R18'}<=impact)
+        self.assertFalse({'R9','R18T','R18C','R18U'} & impact)
+        self.rejects({p:(ROOT/p).read_text()+'\nTEST'},'REVIEW_REQUIRED.*affected=')
     def test_gca_conservation_comparison_is_conditional(self):
         self.rejects(self.graph_change(lambda g:g['edges'].remove({'from':'C_GCA_COMPARISON','to':'R17C','kind':'hypothesis'})),'missing required hypothesis')
     def test_gca_lovelock_requires_its_full_domain(self):

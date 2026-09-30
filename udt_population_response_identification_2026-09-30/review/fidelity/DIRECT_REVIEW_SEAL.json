@@ -1,0 +1,52 @@
+{
+  "utc": "2026-09-30T17:59:30.105114+00:00",
+  "stage": "direct review complete, no required repair; final actual integration still pending",
+  "reviewer": "/root/pri_fidelity",
+  "files": [
+    {
+      "path": "udt_population_response_identification_2026-09-30/review/fidelity/SOURCE_FIRST_SEAL.json",
+      "sha256": "0ee1ab5686b4810a9eb7a2018cd13057aaea5955338a00d1ccc3cbbd3a15e705",
+      "bytes": 1959
+    },
+    {
+      "path": "udt_population_response_identification_2026-09-30/review/fidelity/DIRECT_INPUT_PINS.json",
+      "sha256": "415fdf68b7945aa79493d78c3a9f42221d08945420ab8449a83b97da6e6d7323",
+      "bytes": 3024
+    },
+    {
+      "path": "udt_population_response_identification_2026-09-30/review/fidelity/DIRECT_CHECK_PLAN.md",
+      "sha256": "1255a55beb7a8ca5b1de02ee8b97c73044e94db1575f848f1f0ccef89463ee6f",
+      "bytes": 1484
+    },
+    {
+      "path": "udt_population_response_identification_2026-09-30/review/fidelity/DIRECT_CHECK_FREEZE.json",
+      "sha256": "20cff38c0b8338c4841f2dbd50d9485b700857b06edd32e077a990a29ec5d0b3",
+      "bytes": 555
+    },
+    {
+      "path": "udt_population_response_identification_2026-09-30/review/fidelity/direct_checks.py",
+      "sha256": "f780d015c63945fc76f7066bfc783b933b59b349260010b8a76d48a2809ff27a",
+      "bytes": 2944
+    },
+    {
+      "path": "udt_population_response_identification_2026-09-30/review/fidelity/direct_check.json",
+      "sha256": "318afd67335e4f846ac56d7bb6d736853904eff547eb80c6396677179a3ed9eb",
+      "bytes": 1130
+    },
+    {
+      "path": "udt_population_response_identification_2026-09-30/review/fidelity/direct_check.stderr",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "udt_population_response_identification_2026-09-30/review/fidelity/direct_check.capture_provenance.json",
+      "sha256": "fede917c2b951c9ad24c05c9823937aa7c942c13abd1465e03a7e8659168cb64",
+      "bytes": 369
+    },
+    {
+      "path": "udt_population_response_identification_2026-09-30/review/fidelity/DIRECT_REVIEW.md",
+      "sha256": "7eee4d952351da3fe5cf76dea6f29fb2dd2d5073470103fb91192ebdd415947d",
+      "bytes": 6380
+    }
+  ]
+}
