@@ -1,0 +1,18 @@
+{
+  "command": [
+    "git",
+    "-c",
+    "core.packedGitWindowSize=32m",
+    "-c",
+    "core.packedGitLimit=128m",
+    "log",
+    "--format=%H",
+    "--",
+    "AGENTS.md"
+  ],
+  "returncode": 0,
+  "stdout_lines": 307,
+  "stderr": "",
+  "address_space_bytes": 2147483648,
+  "scope": "Git read-window control only; source bytes, history and checker unchanged."
+}

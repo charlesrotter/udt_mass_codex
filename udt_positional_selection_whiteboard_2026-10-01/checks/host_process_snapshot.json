@@ -1,0 +1,15 @@
+{
+  "utc": "2026-10-01T16:18:52.266012+00:00",
+  "scope": "Host read-only process snapshot; later states require new inspection",
+  "python_processes": [
+    {
+      "pid": 3012295,
+      "ppid": 3012294,
+      "command": "python3",
+      "udt_workload": false
+    }
+  ],
+  "gpu_query_returncode": 0,
+  "gpu_compute_apps": "",
+  "gpu_query_stderr": ""
+}

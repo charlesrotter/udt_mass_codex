@@ -5,7 +5,7 @@ This bounded startup view is generated from its opening; edit that source.
 LIVE.md owns operational status; CURRENT_SCIENTIFIC_PREMISES.tsv owns exact grades.
 
 <!-- GENERATED_DEVELOPMENT_BEGIN -->
-**Continuous development — CDR1 with SGE1, LKT1, GCA1, PCW1, CES1, CCR1, PRI1, TRI1, NGD1, TDS1, TPP1 and TPS1, 2026-10-01.** This is the maintained
+**Continuous development — CDR1 with SGE1, LKT1, GCA1, PCW1, CES1, CCR1, PRI1, TRI1, NGD1, TDS1, TPP1, TPS1 and PSW1, 2026-10-01.** This is the maintained
 scientific development. It is not canon or a new scientific-grade authority.
 The exact registry and reviewed sources own grades; LIVE owns operational status.
 Current review bindings and limits are recorded in section9; startup reads the
@@ -84,6 +84,14 @@ for all13 flagged datasets under unchanged thresholds. The original65/13 result
 remains fixed. Original and refined supplied clocks pass their fixed comparisons;
 the reviewed descriptive atlas retains both editions and their qualifications.
 This remains a finite conditional comparison, not native UDT selection.
+PSW1 adds a reviewed prepared-clock curvature test (R8): initially parallel,
+freely falling clocks have leading outgoing/return log-shifts in the ratio1:3;
+their three-direction mean measures Ric(U,U). Thus Ric=0 fixes that leading
+mean, not every finite or directional shift. Identifying this ideal clock-measured
+tensor with DDR's complete trace-free response is an explicit UNADOPTED proposal
+that repeats the known conditional Einstein branch; it selects neither Lambda
+nor an additional positional effect. The physical attribution of the prepared
+coefficient remains OPEN. The return recommends discussion before another run.
 <!-- GENERATED_DEVELOPMENT_END -->
 
 ## Current next gate

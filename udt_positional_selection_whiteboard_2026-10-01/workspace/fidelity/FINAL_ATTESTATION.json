@@ -1,6 +1,20 @@
 {
-  "status": "REVIEWED_WITH_LIMITS",
-  "scope": "PSW1 conditional prepared-clock curvature discriminator and reviewed source-preserving precision repair; J1 physical attribution OPEN, complete response identification UNADOPTED; repeated conditional Einstein comparison only. Inherited sources keep original scientific scope; no registry/CANON promotion.",
+  "context": "/root/psw_fidelity",
+  "verdict": "ACCEPT_WITH_LIMITS",
+  "status": "FINAL_IMMUTABLE",
+  "utc": "2026-10-01T16:22:10.437129+00:00",
+  "model": {
+    "relation": "same inherited parent model",
+    "exact_runtime_identifier": "not exposed",
+    "different_model": "UNTESTED"
+  },
+  "exposure": "Same context as source-first, cross-review and comparison review; exposed to all specialist notes, candidate, reviews, controlling repair and integration; not blind to own prior proposal. Separate from parent and geometry final reviewer.",
+  "report_path": "udt_positional_selection_whiteboard_2026-10-01/workspace/fidelity/FINAL_REVIEW.md",
+  "report_sha256": "6dffee35e72cc5de08b0e73a053636c6127a74cc2a5bd5c6e6b24108323af868",
+  "integration_freeze_path": "udt_positional_selection_whiteboard_2026-10-01/INTEGRATION_FREEZE.json",
+  "integration_freeze_sha256": "43d8213116c50c3456e73374ac80349b965c3a6e23fc71de0c7d016b0536f253",
+  "hash_check_path": "udt_positional_selection_whiteboard_2026-10-01/workspace/fidelity/FINAL_HASH_CHECK.json",
+  "hash_check_sha256": "cc80ad5d258918b996487d95a2dc6a8972d13ed1d0ea4ba46262be24030216d4",
   "accepted_sha256": {
     ".gitignore": "8a2710f5923ba86b41a461e040282ecd520ce155cb17b09458e1d1d613ddeb7a",
     "AGENTS.md": "bcab9b67305e0314af9eaf25162d203660eae8f2ff4fd87d17e83588970ef38d",
@@ -12152,16 +12166,12 @@
     "verify_current_scientific_premises.py": "a983c2456ce3a122629a116c735b32b96e055829ed3012fb416fabfa9b0b8127",
     "verify_udt_development.py": "555e2733fa04c609874802369983f73b4a1d8a79610488d9dc732b1acfb0c2fa"
   },
-  "reviewers": [
-    {
-      "context": "/root/psw_geometry",
-      "attestation": "udt_positional_selection_whiteboard_2026-10-01/geometry/FINAL_ATTESTATION.json",
-      "sha256": "525574878a27ea564cb54c73a66e26c726fdd43c56cd81be90c332198af16ffb"
-    },
-    {
-      "context": "/root/psw_fidelity",
-      "attestation": "udt_positional_selection_whiteboard_2026-10-01/workspace/fidelity/FINAL_ATTESTATION.json",
-      "sha256": "9aa5ff5f2ff729703e2e9773cd8143a14d1aa3ae844dc29784a4a8ecda2480c2"
-    }
+  "scope": "Conditional PSW1 prepared-clock mathematics and source-faithful central integration; physical attribution OPEN and complete-response identification UNADOPTED; inherited sources hashed and retained, not re-proved.",
+  "omissions": [
+    "No new scientific CPU or symbolic rerun in final review",
+    "No inherited corpus reproof or raw TPS1 interpretation/replay",
+    "No empirical, finite-instrument, global or physical-adoption certification",
+    "No different-model, human-specialist or formal proof",
+    "Postbinding normal/maintenance/full406 and git banking are parent gates not claimed complete here"
   ]
 }

@@ -1,0 +1,8 @@
+{
+  "utc": "2026-10-01T16:31:41.743278+00:00",
+  "scope": "Host snapshot after full audit; current inspector excluded; not a future liveness guarantee",
+  "python_processes": [],
+  "gpu_query_returncode": 0,
+  "gpu_compute_apps": "",
+  "gpu_query_stderr": ""
+}

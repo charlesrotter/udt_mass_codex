@@ -1,0 +1,7 @@
+{
+  "CURRENT_SCIENTIFIC_PREMISES.tsv": "7a3d69d5a0bc3ac98e2ebe2bb0c6d029df30071bf403baffed2223a193dc720b",
+  "CANON.md": "047b7fbbc1acacf01d2716e3c98cdefd0b9b20136ac4a3306f55dd6775465250",
+  "initial_untracked_names_preserved": 76,
+  "method": "Compare explicit registry/CANON bytes to HEAD; inspect unrelated names only, no protected payload hashing.",
+  "earlier_metadata_lookup": "Initial attempt looked for registry in inherited accepted map and raised KeyError after all82 check-output assertions passed; explicit HEAD comparison supplies the intended preservation check."
+}

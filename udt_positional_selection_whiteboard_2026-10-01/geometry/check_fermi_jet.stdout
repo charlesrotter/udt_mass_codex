@@ -1,0 +1,78 @@
+{
+  "status": "PASS",
+  "python": "3.10.12",
+  "sympy": "1.13.1",
+  "scope": "Exact polynomial jets in a supplied local static product metric; no native or finite-distance claim",
+  "checks": [
+    {
+      "name": "electric_curvature_at_origin",
+      "value": "q",
+      "expected": "q"
+    },
+    {
+      "name": "receiver_coordinate_geodesic_residual_below_degree_three",
+      "value": "0",
+      "expected": "0"
+    },
+    {
+      "name": "receiver_initial_position",
+      "value": "L",
+      "expected": "L"
+    },
+    {
+      "name": "receiver_initial_radial_velocity",
+      "value": "0",
+      "expected": "0"
+    },
+    {
+      "name": "null_travel_derivative_through_quadratic",
+      "value": "0",
+      "expected": "0"
+    },
+    {
+      "name": "moving_receiver_null_arrival_through_cubic",
+      "value": "0",
+      "expected": "0"
+    },
+    {
+      "name": "proper_clock_rate_through_quadratic",
+      "value": "0",
+      "expected": "0"
+    },
+    {
+      "name": "actual_arrival_derivative",
+      "value": "-L**2*q/2 + 1",
+      "expected": "-L**2*q/2 + 1"
+    },
+    {
+      "name": "log_shift_quadratic",
+      "value": "-L**2*q/2",
+      "expected": "-L**2*q/2"
+    },
+    {
+      "name": "single_proper_flight_time_is_different",
+      "value": "-L**3*q/6 + L",
+      "expected": "-L**3*q/6 + L"
+    },
+    {
+      "name": "endpoint_frequency_ratio",
+      "value": "-L**2*q/2 + 1",
+      "expected": "-L**2*q/2 + 1"
+    },
+    {
+      "name": "fixed_receiver_wrong_sign_gap",
+      "value": "L**2*q",
+      "expected": "L**2*q"
+    },
+    {
+      "name": "six_axis_quadratic_average",
+      "value": "-L**2*e1/6 - L**2*e2/6 - L**2*e3/6",
+      "expected": "L**2*(-e1 - e2 - e3)/6"
+    },
+    {
+      "name": "tracefree_directional_example_average",
+      "value": "0",
+      "expected": "0"
+    }
+  ]
+}

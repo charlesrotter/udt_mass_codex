@@ -1,6 +1,13 @@
 {
-  "status": "REVIEWED_WITH_LIMITS",
-  "scope": "PSW1 conditional prepared-clock curvature discriminator and reviewed source-preserving precision repair; J1 physical attribution OPEN, complete response identification UNADOPTED; repeated conditional Einstein comparison only. Inherited sources keep original scientific scope; no registry/CANON promotion.",
+  "status": "FINAL_IMMUTABLE",
+  "context": "/root/psw_geometry",
+  "verdict": "ACCEPT_WITH_LIMITS",
+  "reviewed_utc": "2026-10-01T16:21:34.863565+00:00",
+  "head_at_review": "4953c9ae806d42f0042d4fac14682db12c93143c",
+  "freeze_path": "udt_positional_selection_whiteboard_2026-10-01/INTEGRATION_FREEZE.json",
+  "freeze_sha256": "43d8213116c50c3456e73374ac80349b965c3a6e23fc71de0c7d016b0536f253",
+  "report_path": "udt_positional_selection_whiteboard_2026-10-01/geometry/FINAL_REVIEW.md",
+  "report_sha256": "1b4accc8ee64c8170d8f3442d54db84ab8cfd7c5f75b79f7e47a0fc585c85e4f",
   "accepted_sha256": {
     ".gitignore": "8a2710f5923ba86b41a461e040282ecd520ce155cb17b09458e1d1d613ddeb7a",
     "AGENTS.md": "bcab9b67305e0314af9eaf25162d203660eae8f2ff4fd87d17e83588970ef38d",
@@ -12152,16 +12159,31 @@
     "verify_current_scientific_premises.py": "a983c2456ce3a122629a116c735b32b96e055829ed3012fb416fabfa9b0b8127",
     "verify_udt_development.py": "555e2733fa04c609874802369983f73b4a1d8a79610488d9dc732b1acfb0c2fa"
   },
-  "reviewers": [
-    {
-      "context": "/root/psw_geometry",
-      "attestation": "udt_positional_selection_whiteboard_2026-10-01/geometry/FINAL_ATTESTATION.json",
-      "sha256": "525574878a27ea564cb54c73a66e26c726fdd43c56cd81be90c332198af16ffb"
-    },
-    {
-      "context": "/root/psw_fidelity",
-      "attestation": "udt_positional_selection_whiteboard_2026-10-01/workspace/fidelity/FINAL_ATTESTATION.json",
-      "sha256": "9aa5ff5f2ff729703e2e9773cd8143a14d1aa3ae844dc29784a4a8ecda2480c2"
-    }
-  ]
+  "model": "Same inherited parent model; actual separate context. Exact backend version unavailable; no different-model claim.",
+  "exposure": "Authored initial geometry Route A and14 checks; source-first before peer notes. Cross/final review exposed to peer notes, candidate, check outputs and parent integration. Additional holonomy method, not independence from own discovery.",
+  "review_scope": "Actual controlling repair, central R8/R18/orientation/section9, decision/result/work/descendant records, operational adapters, graph/open join and39-row dispositions; full accepted-map byte verification.",
+  "binding_checks": {
+    "accepted_files_hashed": 12149,
+    "prior_files": 12102,
+    "unchanged_prior_files": 12096,
+    "changed_prior_files": [
+      "CURRENT_RESEARCH_PROGRAM.md",
+      "HANDOFF.md",
+      "LIVE.md",
+      "UDT_DEVELOPMENT.md",
+      "development_reconstruction_2026-09-29/DEVELOPMENT_GRAPH.json",
+      "development_reconstruction_2026-09-29/RECENT_DISPOSITIONS.tsv"
+    ],
+    "new_files": 47,
+    "all_accepted_hashes_match": true,
+    "old_graph_sources_and_edges_preserved": true,
+    "old_disposition_rows_preserved": 38,
+    "new_disposition_count": 39,
+    "generated_orientation_matches": true,
+    "registry_canon_unchanged": true,
+    "protected_payloads_accessed": 0
+  },
+  "limits": "Conditional local prepared-clock theorem only. J1 OPEN; complete trace-free response identification and endpoint factorization UNADOPTED. Same known conditional Einstein consequence; Lambda unselected. No finite/global/empirical or native-law claim.",
+  "omissions": "No inherited-corpus reproof, no new scientific CPU check/full406/final normal guard, no TPS1 raw-field/ray replay, external-paper reinspection, host completion authentication, different-model/human/formal review or protected payload access.",
+  "remaining_parent_gates": "Bind actual final reports; run normal development/maintenance/full406 checks; verify process state, scope/staged bytes and synchronization; commit and push as authorized. Not pre-certified here."
 }

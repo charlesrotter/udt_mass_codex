@@ -1,0 +1,14 @@
+{
+  "utc": "2026-10-01T16:04:21.514709+00:00",
+  "status": "INITIAL_CANDIDATE_FOR_CROSS_REVIEW",
+  "sha256": {
+    "INITIAL_CANDIDATE.md": "95ed91cca818cd6f1b7de819396f61ad2a24dc741f763334ed52e7bf769ad1b1",
+    "WORK_ORDER.md": "85df7955df7109090fcf31412afdee6fe1afa54e0387a94e3a52a0b6f90b5b12",
+    "SNAPSHOT.json": "3e2dcea174608ef926d185ffc8f7f0c774d1be1d1c2f0e0753db2b25dc50fe87",
+    "PRIMARY_METHOD_REFERENCES.md": "e7cc54b1e39305d0ad8240bcd1a453a5a6a6366b126c1d7f5a6e4454fed0a43f",
+    "geometry/SOURCE_FIRST.md": "08d7e12be225f71d02cb2b68766c92b05b26d3af8bca23af5cfb507f44e3be98",
+    "tests/SOURCE_FIRST.md": "d26c04d1bbae469a32835702b75ebea0a25c154a07f84e268b855c37985880c8",
+    "workspace/fidelity/SOURCE_FIRST.md": "7bd0823e27cf9d8210b07e04466cab822978981a7410cb797f58108e1eb0466b"
+  },
+  "exposure": "Parent read all three fixed source-first proposals and primary method context; original TPS1 results already exposed. No new physical premise adopted."
+}

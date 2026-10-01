@@ -1,0 +1,30 @@
+{
+  "utc": "2026-10-01T16:01:51.339807+00:00",
+  "head": "4953c9ae806d42f0042d4fac14682db12c93143c",
+  "sources_sha256": {
+    "AGENTS.md": "bcab9b67305e0314af9eaf25162d203660eae8f2ff4fd87d17e83588970ef38d",
+    "CLAUDE.md": "4ad2e773defb89cc79541fd0ababd75af5a3344ab134ee83722dfd943966e6e4",
+    ".claude/skills/no-shortcuts/SKILL.md": "fd3a1f3218481134f2af829d3ae4175ac53518f75bf9673287efbfb7d7708fc1",
+    ".claude/skills/completeness-map/SKILL.md": "a8cf9e5f4a6d35a0d0ebfe4bc48dbf328ca74e318f020a6a22cb683666a611c0",
+    ".claude/skills/solution-space-not-imposition/SKILL.md": "095561e8f307928b286f7935d1d6f161b33ac56fe227d702c708f81a329bd47c",
+    "UDT_DEVELOPMENT.md": "a2d4484a4a7125f80946e79db01937fc55bebcb9ffc861eeb8a8f6f000296729",
+    "founding.md": "b4b0d9a9fdd093c992647195aca7579566a9e77a396071a699c1938888a49e75",
+    "CURRENT_SCIENTIFIC_PREMISES.tsv": "7a3d69d5a0bc3ac98e2ebe2bb0c6d029df30071bf403baffed2223a193dc720b",
+    "udt_finite_separation_law_2026-09-28/INITIAL_CANDIDATE.md": "7dd39a4840390f15fcedc2ae0e588f51e441b4348eaf0f0f8d9b81968b60d8e4",
+    "udt_finite_separation_law_2026-09-28/REPAIR.md": "be0927544e72bebd38a364cac33e0979aa8b4c4a1bdcdeba5dedf3e16e41e368",
+    "udt_shared_geometry_extension_2026-09-29/INITIAL_DERIVATION.md": "7fe9dd385437f927504d90ebe27e70b8751e889efe9140c240a3ee1913aa0484",
+    "udt_shared_geometry_extension_2026-09-29/REPAIR.md": "bb1118852acf2943128067568ddf7ca09cfd7cbe591bbdc8fa675a5b28fe1d60",
+    "udt_shared_geometry_extension_2026-09-29/REVIEWED_RESULT.md": "318760918a414727a889c924186512cb1b9e46524c029cced9214b6b26c82e48",
+    "udt_interframe_clock_network_2026-09-28/REVIEWED_RESULT.md": "28c8e36dd78e8007cba1ec7846350793e9142029fbb2e4e6891ed4cb9c21ab54",
+    "udt_clock_ensemble_stationarity_test_2026-09-30/PREPARATION.md": "e5ce5c7300c7d67f7232c8f9c24b8b636d722ec2b1917506b47cb70f0c49bc01",
+    "udt_clock_ensemble_stationarity_test_2026-09-30/INITIAL_CANDIDATE.md": "cf82d5a6f6b84862da1a5ebbcdfe6f65bf8e862b2e41a05a6d6366f8699229e3",
+    "udt_null_clock_depth_integrability_assessment_2026-09-10/INITIAL_CANDIDATE.md": "a2769dd02500970475225939f0606ba212bdde6b6a54a3bebdd5023ced1385e1",
+    "udt_null_clock_depth_integrability_assessment_2026-09-10/REPAIR.md": "38f0bf9512a426e23e76acba8bca71dcef36b0d1e126ce5f45eabbe269b98dc4",
+    "udt_reviewed_backlog_banking_2026-09-10/BANKING_RECORD.md": "654b0b2d734685c42d6a1b31740d545ab9299d17a5d5cc32c57e407b800191f1",
+    "udt_time_live_production_survey_2026-10-01/diagnosis/REVIEWED_RETURN.md": "a9be8ff4842230b1cededaa4c08e3f061f7cdc085adada7306facd10af8685be",
+    "udt_time_live_production_survey_2026-10-01/diagnosis/checks/final_premises.json": "f96baff0b60da05eaa52225657085d95c32893474d8a56c0d1f661fac7879506",
+    "udt_time_live_production_survey_2026-10-01/capture.py": "217cdbac5486e8a531552f4d74a15ce641299b65dafb5d58f7b60f4ba51781bc",
+    "udt_positional_selection_whiteboard_2026-10-01/WORK_ORDER.md": "85df7955df7109090fcf31412afdee6fe1afa54e0387a94e3a52a0b6f90b5b12",
+    "udt_positional_selection_whiteboard_2026-10-01/SNAPSHOT.json": "3e2dcea174608ef926d185ffc8f7f0c774d1be1d1c2f0e0753db2b25dc50fe87"
+  }
+}

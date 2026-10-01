@@ -1,6 +1,66 @@
 {
-  "status": "REVIEWED_WITH_LIMITS",
-  "scope": "PSW1 conditional prepared-clock curvature discriminator and reviewed source-preserving precision repair; J1 physical attribution OPEN, complete response identification UNADOPTED; repeated conditional Einstein comparison only. Inherited sources keep original scientific scope; no registry/CANON promotion.",
+  "utc": "2026-10-01T16:17:59.105528+00:00",
+  "status": "FROZEN_FOR_ACTUAL_FINAL_REVIEW",
+  "base_head": "4953c9ae806d42f0042d4fac14682db12c93143c",
+  "scope": "PSW1 one correction/re-review and central integration; mathematical diagnostic only; J1 OPEN and physical response identification UNADOPTED.",
+  "prior_record_sha256": "88b116dd22c8cd38e412fd40587f4db6bc4440775ae6d12ca159ba73ad2cbb16",
+  "changed_from_prior": [
+    "CURRENT_RESEARCH_PROGRAM.md",
+    "HANDOFF.md",
+    "LIVE.md",
+    "UDT_DEVELOPMENT.md",
+    "development_reconstruction_2026-09-29/DEVELOPMENT_GRAPH.json",
+    "development_reconstruction_2026-09-29/RECENT_DISPOSITIONS.tsv"
+  ],
+  "new_files": [
+    "udt_positional_selection_whiteboard_2026-10-01/BANKING_PLAN.md",
+    "udt_positional_selection_whiteboard_2026-10-01/CANDIDATE_FREEZE.json",
+    "udt_positional_selection_whiteboard_2026-10-01/DECISION_BRIEF.md",
+    "udt_positional_selection_whiteboard_2026-10-01/DESCENDANT_REVIEW.md",
+    "udt_positional_selection_whiteboard_2026-10-01/INITIAL_CANDIDATE.md",
+    "udt_positional_selection_whiteboard_2026-10-01/PRIMARY_METHOD_REFERENCES.md",
+    "udt_positional_selection_whiteboard_2026-10-01/PRIOR_REVIEW_RECORD.json",
+    "udt_positional_selection_whiteboard_2026-10-01/REPAIR.md",
+    "udt_positional_selection_whiteboard_2026-10-01/REVIEWED_RESULT.md",
+    "udt_positional_selection_whiteboard_2026-10-01/SNAPSHOT.json",
+    "udt_positional_selection_whiteboard_2026-10-01/WORK_ORDER.md",
+    "udt_positional_selection_whiteboard_2026-10-01/WORK_RECORD.md",
+    "udt_positional_selection_whiteboard_2026-10-01/checks/draft_coherence.json",
+    "udt_positional_selection_whiteboard_2026-10-01/checks/draft_coherence.stderr",
+    "udt_positional_selection_whiteboard_2026-10-01/checks/draft_coherence.stdout",
+    "udt_positional_selection_whiteboard_2026-10-01/checks/prebinding_normal.json",
+    "udt_positional_selection_whiteboard_2026-10-01/checks/prebinding_normal.stderr",
+    "udt_positional_selection_whiteboard_2026-10-01/checks/prebinding_normal.stdout",
+    "udt_positional_selection_whiteboard_2026-10-01/geometry/COMPARISON_REVIEW.md",
+    "udt_positional_selection_whiteboard_2026-10-01/geometry/CROSS_REVIEW.md",
+    "udt_positional_selection_whiteboard_2026-10-01/geometry/CROSS_REVIEW_HASHES.json",
+    "udt_positional_selection_whiteboard_2026-10-01/geometry/SOURCE_FIRST.md",
+    "udt_positional_selection_whiteboard_2026-10-01/geometry/SOURCE_HASHES.json",
+    "udt_positional_selection_whiteboard_2026-10-01/geometry/check_fermi_jet.json",
+    "udt_positional_selection_whiteboard_2026-10-01/geometry/check_fermi_jet.py",
+    "udt_positional_selection_whiteboard_2026-10-01/geometry/check_fermi_jet.stderr",
+    "udt_positional_selection_whiteboard_2026-10-01/geometry/check_fermi_jet.stdout",
+    "udt_positional_selection_whiteboard_2026-10-01/tests/CHECK_RECORD.md",
+    "udt_positional_selection_whiteboard_2026-10-01/tests/CROSS_PRECHECK_FREEZE.json",
+    "udt_positional_selection_whiteboard_2026-10-01/tests/CROSS_REVIEW.md",
+    "udt_positional_selection_whiteboard_2026-10-01/tests/CROSS_REVIEW_FREEZE.json",
+    "udt_positional_selection_whiteboard_2026-10-01/tests/PRECHECK_FREEZE.json",
+    "udt_positional_selection_whiteboard_2026-10-01/tests/SOURCE_FIRST.md",
+    "udt_positional_selection_whiteboard_2026-10-01/tests/SOURCE_HASHES.json",
+    "udt_positional_selection_whiteboard_2026-10-01/tests/anchor.json",
+    "udt_positional_selection_whiteboard_2026-10-01/tests/anchor.stderr",
+    "udt_positional_selection_whiteboard_2026-10-01/tests/anchor.stdout",
+    "udt_positional_selection_whiteboard_2026-10-01/tests/check_anchor.py",
+    "udt_positional_selection_whiteboard_2026-10-01/tests/check_kasner_cross.py",
+    "udt_positional_selection_whiteboard_2026-10-01/tests/kasner_cross.json",
+    "udt_positional_selection_whiteboard_2026-10-01/tests/kasner_cross.stderr",
+    "udt_positional_selection_whiteboard_2026-10-01/tests/kasner_cross.stdout",
+    "udt_positional_selection_whiteboard_2026-10-01/workspace/fidelity/COMPARISON_REVIEW.md",
+    "udt_positional_selection_whiteboard_2026-10-01/workspace/fidelity/CROSS_REVIEW.md",
+    "udt_positional_selection_whiteboard_2026-10-01/workspace/fidelity/SOURCE_FIRST.md",
+    "udt_positional_selection_whiteboard_2026-10-01/workspace/fidelity/SOURCE_FIRST_FREEZE.json",
+    "udt_positional_selection_whiteboard_2026-10-01/workspace/fidelity/SOURCE_VERSIONS.tsv"
+  ],
   "accepted_sha256": {
     ".gitignore": "8a2710f5923ba86b41a461e040282ecd520ce155cb17b09458e1d1d613ddeb7a",
     "AGENTS.md": "bcab9b67305e0314af9eaf25162d203660eae8f2ff4fd87d17e83588970ef38d",
@@ -12152,16 +12212,11 @@
     "verify_current_scientific_premises.py": "a983c2456ce3a122629a116c735b32b96e055829ed3012fb416fabfa9b0b8127",
     "verify_udt_development.py": "555e2733fa04c609874802369983f73b4a1d8a79610488d9dc732b1acfb0c2fa"
   },
-  "reviewers": [
-    {
-      "context": "/root/psw_geometry",
-      "attestation": "udt_positional_selection_whiteboard_2026-10-01/geometry/FINAL_ATTESTATION.json",
-      "sha256": "525574878a27ea564cb54c73a66e26c726fdd43c56cd81be90c332198af16ffb"
-    },
-    {
-      "context": "/root/psw_fidelity",
-      "attestation": "udt_positional_selection_whiteboard_2026-10-01/workspace/fidelity/FINAL_ATTESTATION.json",
-      "sha256": "9aa5ff5f2ff729703e2e9773cd8143a14d1aa3ae844dc29784a4a8ecda2480c2"
-    }
-  ]
+  "exclusions": [
+    "This freeze",
+    "Final reviewer reports and attestations bound through REVIEW_RECORD",
+    "Subsequent final repository check receipts",
+    "Banking manifest and completion receipt"
+  ],
+  "inherited_limits": "Unchanged old scientific sources retain prior actual reviews; version hashing is not a full-corpus reproof."
 }

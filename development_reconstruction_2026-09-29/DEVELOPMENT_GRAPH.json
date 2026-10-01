@@ -183,7 +183,10 @@
         "udt_response_measurement_scaling_2026-09-28/REVIEWED_RESULT.md",
         "udt_shared_geometry_extension_2026-09-29/INITIAL_DERIVATION.md",
         "udt_shared_geometry_extension_2026-09-29/REPAIR.md",
-        "udt_shared_geometry_extension_2026-09-29/REVIEWED_RESULT.md"
+        "udt_shared_geometry_extension_2026-09-29/REVIEWED_RESULT.md",
+        "udt_positional_selection_whiteboard_2026-10-01/INITIAL_CANDIDATE.md",
+        "udt_positional_selection_whiteboard_2026-10-01/REPAIR.md",
+        "udt_positional_selection_whiteboard_2026-10-01/REVIEWED_RESULT.md"
       ],
       "required_conditions": [
         "P_NULL",
@@ -425,14 +428,20 @@
         "udt_gr_commitment_audit_2026-09-29/CENTRAL_INSERTION.md",
         "udt_gr_commitment_audit_2026-09-29/DECISION_BRIEF.md",
         "udt_gr_commitment_audit_2026-09-29/REVIEWED_RESULT.md",
-        "udt_time_live_production_survey_2026-10-01/diagnosis/REVIEWED_RETURN.md"
+        "udt_time_live_production_survey_2026-10-01/diagnosis/REVIEWED_RETURN.md",
+        "udt_positional_selection_whiteboard_2026-10-01/INITIAL_CANDIDATE.md",
+        "udt_positional_selection_whiteboard_2026-10-01/REPAIR.md",
+        "udt_positional_selection_whiteboard_2026-10-01/REVIEWED_RESULT.md",
+        "udt_positional_selection_whiteboard_2026-10-01/DECISION_BRIEF.md",
+        "udt_null_clock_depth_integrability_assessment_2026-09-10/INITIAL_CANDIDATE.md",
+        "udt_null_clock_depth_integrability_assessment_2026-09-10/REPAIR.md"
       ],
       "required_conditions": []
     },
     {
       "id": "P_FOUNDING",
       "kind": "declared_premises",
-      "statement": "F1–F4 as stated in R1/R2; composition, nontriviality and readout are distinct inputs"
+      "statement": "F1\u2013F4 as stated in R1/R2; composition, nontriviality and readout are distinct inputs"
     },
     {
       "id": "P_PAIR",
@@ -1007,6 +1016,17 @@
         "C_TDS_ARENA",
         "P_NULL"
       ]
+    },
+    {
+      "id": "O_PSW_ATTRIBUTION",
+      "kind": "open_join",
+      "statement": "PSW1 prepared-clock positional attribution J1 and complete trace-free response identification remain OPEN/UNADOPTED. Ideal C=Ric reconstruction is not physical response completeness or adoption.",
+      "sources": [
+        "udt_positional_selection_whiteboard_2026-10-01/INITIAL_CANDIDATE.md",
+        "udt_positional_selection_whiteboard_2026-10-01/REPAIR.md",
+        "udt_positional_selection_whiteboard_2026-10-01/REVIEWED_RESULT.md"
+      ],
+      "registry_ids": []
     }
   ],
   "edges": [
@@ -1879,6 +1899,21 @@
       "from": "R12T",
       "to": "R18",
       "kind": "interpretation"
+    },
+    {
+      "from": "R8",
+      "to": "O_PSW_ATTRIBUTION",
+      "kind": "context"
+    },
+    {
+      "from": "R9",
+      "to": "O_PSW_ATTRIBUTION",
+      "kind": "context"
+    },
+    {
+      "from": "O_PSW_ATTRIBUTION",
+      "to": "R18",
+      "kind": "open_boundary"
     }
   ],
   "sources_sha256": {
@@ -2015,7 +2050,13 @@
     "udt_time_live_production_survey_2026-10-01/diagnosis/review_math/REPAIR_MATH.json": "b09082462a464d9ed365e003b6ba19b6ed8c61fcebf59818c5b344a313c22462",
     "udt_time_live_production_survey_2026-10-01/diagnosis/clock_completion/CLOCK_CANDIDATE.json": "f39e06716661cd997dcc542132300c69f77691a3bc59db775fd72801e4992aa0",
     "udt_time_live_production_survey_2026-10-01/diagnosis/refined_clock_completion/REFINED_CLOCK_CANDIDATE.json": "5254886d0883d540a035371c8ece51b4841d23c5cba53910086d2423f49f129b",
-    "udt_time_live_production_survey_2026-10-01/diagnosis/atlas/ATLAS.json": "1d8b680854283af21f051635b9fa27b297ad86cda4714943b3f92e5a2bb3668d"
+    "udt_time_live_production_survey_2026-10-01/diagnosis/atlas/ATLAS.json": "1d8b680854283af21f051635b9fa27b297ad86cda4714943b3f92e5a2bb3668d",
+    "udt_positional_selection_whiteboard_2026-10-01/INITIAL_CANDIDATE.md": "95ed91cca818cd6f1b7de819396f61ad2a24dc741f763334ed52e7bf769ad1b1",
+    "udt_positional_selection_whiteboard_2026-10-01/REPAIR.md": "696a97a3b59c37a88a1044dae940df9a18414aabada55335f495217e4f226a97",
+    "udt_positional_selection_whiteboard_2026-10-01/REVIEWED_RESULT.md": "1b217aa30932d3986557abb7e95f7d1e8a8196946e75091794b1ef06058e2911",
+    "udt_positional_selection_whiteboard_2026-10-01/DECISION_BRIEF.md": "1873ca29528425bd540913f80c7f36c31bcddc228ff7563632eac48d2b37f6c9",
+    "udt_null_clock_depth_integrability_assessment_2026-09-10/INITIAL_CANDIDATE.md": "a2769dd02500970475225939f0606ba212bdde6b6a54a3bebdd5023ced1385e1",
+    "udt_null_clock_depth_integrability_assessment_2026-09-10/REPAIR.md": "38f0bf9512a426e23e76acba8bca71dcef36b0d1e126ce5f45eabbe269b98dc4"
   },
   "impact_policy": "Any changed source or registry row flags its mapped positive and negative central arguments and every reachable central descendant for review; no automatic truth reversal or regrading.",
   "review_support": [
@@ -2570,6 +2611,150 @@
       "role": "review_evidence",
       "targets": [
         "R12T",
+        "R18"
+      ]
+    },
+    {
+      "path": "udt_positional_selection_whiteboard_2026-10-01/geometry/SOURCE_FIRST.md",
+      "sha256": "08d7e12be225f71d02cb2b68766c92b05b26d3af8bca23af5cfb507f44e3be98",
+      "role": "review_evidence",
+      "targets": [
+        "R8",
+        "R18"
+      ]
+    },
+    {
+      "path": "udt_positional_selection_whiteboard_2026-10-01/geometry/CROSS_REVIEW.md",
+      "sha256": "e7023ff2bd973faff33073a815748633b22ab2c109967a31c53df7cf6445592e",
+      "role": "review_evidence",
+      "targets": [
+        "R8",
+        "R18"
+      ]
+    },
+    {
+      "path": "udt_positional_selection_whiteboard_2026-10-01/geometry/COMPARISON_REVIEW.md",
+      "sha256": "d18358e66e18051ef5c414a6f5e119984ddb50a64102b692f1665a2c70901a7f",
+      "role": "review_evidence",
+      "targets": [
+        "R8",
+        "R18"
+      ]
+    },
+    {
+      "path": "udt_positional_selection_whiteboard_2026-10-01/workspace/fidelity/SOURCE_FIRST.md",
+      "sha256": "7bd0823e27cf9d8210b07e04466cab822978981a7410cb797f58108e1eb0466b",
+      "role": "review_evidence",
+      "targets": [
+        "R8",
+        "R18"
+      ]
+    },
+    {
+      "path": "udt_positional_selection_whiteboard_2026-10-01/workspace/fidelity/CROSS_REVIEW.md",
+      "sha256": "575c308034a81e2b63b583af83ed78cf289dbf3bbdfe19c13db93dde66e266ee",
+      "role": "review_evidence",
+      "targets": [
+        "R8",
+        "R18"
+      ]
+    },
+    {
+      "path": "udt_positional_selection_whiteboard_2026-10-01/workspace/fidelity/COMPARISON_REVIEW.md",
+      "sha256": "dae5f1a52e59aac21886bfb9258c3243c85b0f8ed8df1134d4afa8b703eece01",
+      "role": "review_evidence",
+      "targets": [
+        "R8",
+        "R18"
+      ]
+    },
+    {
+      "path": "udt_positional_selection_whiteboard_2026-10-01/tests/SOURCE_FIRST.md",
+      "sha256": "d26c04d1bbae469a32835702b75ebea0a25c154a07f84e268b855c37985880c8",
+      "role": "review_evidence",
+      "targets": [
+        "R8",
+        "R18"
+      ]
+    },
+    {
+      "path": "udt_positional_selection_whiteboard_2026-10-01/tests/CROSS_REVIEW.md",
+      "sha256": "80106b30b0b55a68654426e2a6fa793d842f16a66075ca493056c182f8a8d54c",
+      "role": "review_evidence",
+      "targets": [
+        "R8",
+        "R18"
+      ]
+    },
+    {
+      "path": "udt_positional_selection_whiteboard_2026-10-01/geometry/check_fermi_jet.py",
+      "sha256": "c48784a0e26b7057a218843de657b502b6e51813e80a60b8f14b25617ce89e81",
+      "role": "review_evidence",
+      "targets": [
+        "R8",
+        "R18"
+      ]
+    },
+    {
+      "path": "udt_positional_selection_whiteboard_2026-10-01/geometry/check_fermi_jet.stdout",
+      "sha256": "bec054285411da92faf5d479fa6fde7195ecce7eb35f2524e827adee56fed25d",
+      "role": "review_evidence",
+      "targets": [
+        "R8",
+        "R18"
+      ]
+    },
+    {
+      "path": "udt_positional_selection_whiteboard_2026-10-01/tests/check_anchor.py",
+      "sha256": "43900f84f4294efa53a305f5e2d9193b6ac7c3d54c3afcebe28c6747120cc07f",
+      "role": "review_evidence",
+      "targets": [
+        "R8",
+        "R18"
+      ]
+    },
+    {
+      "path": "udt_positional_selection_whiteboard_2026-10-01/tests/anchor.stdout",
+      "sha256": "23078c51ec47c2bf395fab9c9afd5a1cba2a4f065f6a81e894f7560967abf07f",
+      "role": "review_evidence",
+      "targets": [
+        "R8",
+        "R18"
+      ]
+    },
+    {
+      "path": "udt_positional_selection_whiteboard_2026-10-01/tests/check_kasner_cross.py",
+      "sha256": "0059c083843c8fed0358ec0b91c165dd33f9acd3182008b752ce8f7ab5524cc6",
+      "role": "review_evidence",
+      "targets": [
+        "R8",
+        "R18"
+      ]
+    },
+    {
+      "path": "udt_positional_selection_whiteboard_2026-10-01/tests/kasner_cross.stdout",
+      "sha256": "a1b26c4992200da3753273efb9318097de7aa0976f041b33e24db8a88c8a58a1",
+      "role": "review_evidence",
+      "targets": [
+        "R8",
+        "R18"
+      ]
+    },
+    {
+      "path": "udt_positional_selection_whiteboard_2026-10-01/PRIMARY_METHOD_REFERENCES.md",
+      "sha256": "e7cc54b1e39305d0ad8240bcd1a453a5a6a6366b126c1d7f5a6e4454fed0a43f",
+      "role": "review_evidence",
+      "targets": [
+        "R8",
+        "R18"
+      ]
+    },
+    {
+      "path": "udt_positional_selection_whiteboard_2026-10-01/DESCENDANT_REVIEW.md",
+      "sha256": "848a99e8aaf10c070217c3a8d6f314eb833dd65baf79d38d568cdea7ec06e237",
+      "role": "review_evidence",
+      "targets": [
+        "R8",
         "R18"
       ]
     }

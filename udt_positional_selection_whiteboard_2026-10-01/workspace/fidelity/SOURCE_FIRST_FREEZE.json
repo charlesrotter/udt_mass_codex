@@ -1,0 +1,12 @@
+{
+  "utc": "2026-10-01T16:02:08.137698+00:00",
+  "head": "4953c9ae806d42f0042d4fac14682db12c93143c",
+  "context": "/root/psw_fidelity",
+  "status": "INITIAL_CONDITIONAL_CANDIDATE_UNREVIEWED",
+  "peer_proposals_seen": false,
+  "scientific_cpu_experiment_run": false,
+  "files": {
+    "udt_positional_selection_whiteboard_2026-10-01/workspace/fidelity/SOURCE_FIRST.md": "7bd0823e27cf9d8210b07e04466cab822978981a7410cb797f58108e1eb0466b",
+    "udt_positional_selection_whiteboard_2026-10-01/workspace/fidelity/SOURCE_VERSIONS.tsv": "0453387945efae15c2609f3b5acd67d77eb4cd87ac9bd893961935355c6688e5"
+  }
+}

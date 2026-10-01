@@ -1,0 +1,30 @@
+{
+  "utc": "2026-10-01T16:19:46.100889+00:00",
+  "head": "4953c9ae806d42f0042d4fac14682db12c93143c",
+  "freeze_sha256": "43d8213116c50c3456e73374ac80349b965c3a6e23fc71de0c7d016b0536f253",
+  "accepted_count": 12149,
+  "prior_count": 12102,
+  "new_count": 47,
+  "hashed_bytes": 2171259386,
+  "missing": [],
+  "hash_mismatch": [],
+  "old_paths_removed": [],
+  "changed_old_paths": [
+    "CURRENT_RESEARCH_PROGRAM.md",
+    "HANDOFF.md",
+    "LIVE.md",
+    "UDT_DEVELOPMENT.md",
+    "development_reconstruction_2026-09-29/DEVELOPMENT_GRAPH.json",
+    "development_reconstruction_2026-09-29/RECENT_DISPOSITIONS.tsv"
+  ],
+  "changed_list_exact": true,
+  "new_list_exact": true,
+  "prior_record_bytes_match_head": true,
+  "prior_record_sha_match": true,
+  "prior_disposition_rows": 38,
+  "current_disposition_rows": 39,
+  "prior_dispositions_unchanged": true,
+  "preexisting_untracked_names": 76,
+  "absent_preexisting_names": [],
+  "protected_accepted_paths": []
+}

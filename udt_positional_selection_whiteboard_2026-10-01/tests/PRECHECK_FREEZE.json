@@ -1,0 +1,9 @@
+{
+  "utc": "2026-10-01T16:01:51.339942+00:00",
+  "scope": "Source-first discovery frozen before finite CPU check; no other PSW1 proposal exposure.",
+  "sha256": {
+    "SOURCE_FIRST.md": "d26c04d1bbae469a32835702b75ebea0a25c154a07f84e268b855c37985880c8",
+    "check_anchor.py": "43900f84f4294efa53a305f5e2d9193b6ac7c3d54c3afcebe28c6747120cc07f",
+    "SOURCE_HASHES.json": "b577ae17a52b616c05b7682fea746fd29af22d7197966d0149549fe88f46e016"
+  }
+}
