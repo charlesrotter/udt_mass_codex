@@ -1,0 +1,7 @@
+{
+  "utc": "2026-10-01T16:43:05.928698+00:00",
+  "script_sha256": "82fc4124fb2c78fe75e43322bcb577c6af4666185999fcd5d38fb6e9f1fbb317",
+  "source_first_sha256": "cb29829dc2f89504fc4050795d75ff7b4f7e654f9ccc0b86287369d9023187dc",
+  "output": "kasner_higher.{stdout,stderr,json}",
+  "resource": "parent slot;2GiB;no time cutoff;64MiB output ceiling;manual stop;no GPU"
+}

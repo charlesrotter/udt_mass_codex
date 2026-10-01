@@ -1,0 +1,8 @@
+{
+  "utc": "2026-10-01T16:43:37.322579+00:00",
+  "report_sha256": "b9f5fcd443ada91724e605efb0d457fe1420245b3083162e8990fc59f31ba5cd",
+  "source_first_sha256": "92ee9a9ad07d53fc4cbb68b32df0bee5ab85aa77c33bf51f533178b91bbadc8e",
+  "verdict": "VERIFIED-WITH-CAVEATS",
+  "independence": "Separate context, same inherited model; parent proposed implication before this followup; analytic checking without scientific CPU.",
+  "owner_status": "Stronger conditional net interpretation; UNADOPTED and not asserted to follow from founder words."
+}

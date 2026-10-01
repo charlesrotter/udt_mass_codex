@@ -1,0 +1,29 @@
+{
+  "recorded_utc": "2026-10-01T17:01:25.580990+00:00",
+  "scope": "Parent inspected host tools immediately before this record; no blanket all-language process census. Own finite scientific checks completed. Final repository audit still pending.",
+  "sandbox_limits": "Sandbox ps exposed only its namespace; sandbox nvidia-smi exit9 could not access driver. Host read-only escalation succeeded.",
+  "host_python_query": {
+    "command": [
+      "ps",
+      "-C",
+      "python,python3,torchrun",
+      "-o",
+      "pid,ppid,stat,etime,comm"
+    ],
+    "exit_code": 1,
+    "stdout": "    PID    PPID STAT     ELAPSED COMMAND\n",
+    "interpretation": "No matching Python/torchrun host processes at query."
+  },
+  "host_gpu_query": {
+    "command": [
+      "nvidia-smi",
+      "--query-compute-apps=pid,process_name,used_gpu_memory",
+      "--format=csv,noheader"
+    ],
+    "exit_code": 0,
+    "stdout": "",
+    "interpretation": "No GPU compute applications reported at query."
+  },
+  "origin_fetch_exit": 0,
+  "head_and_origin_grok": "a0f2628f764c1921289bc07f3858c3232f4879c7"
+}

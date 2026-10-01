@@ -1,19 +1,18 @@
 # LIVE — operational status
 
 <!-- STARTUP_CURRENT_BEGIN -->
-## CURRENT STATE — PSW1 reviewed whiteboard return after TPS1 and CDR1, 2026-10-01
+## CURRENT STATE — FPC1 reviewed finite clock return after PSW1/TPS1 and CDR1, 2026-10-01
 
 Work on `grok`; independently verify HEAD, synchronization and dirt.
-Charles's latest “Proceed” authorized a focused three-perspective whiteboard,
-separate-context challenge, one bounded correction/re-review and central integration.
-Its fixed scope is `udt_positional_selection_whiteboard_2026-10-01/WORK_ORDER.md`;
-WORK_RECORD.md, REPAIR.md and DECISION_BRIEF.md there identify the finite return.
+Charles's latest “Proceed” authorized the bounded finite-comparison investigation,
+two source-first contexts, actual challenge and central integration. Its fixed
+scope is `udt_finite_positional_clock_test_2026-10-01/WORK_ORDER.md`; WORK_RECORD.md,
+REVIEWED_RESULT.md and DECISION_BRIEF.md there identify the finite return.
 The scientific argument is integrated in UDT_DEVELOPMENT.md R8/R18. No physical
 premise, response identification, registry grade or CANON change is adopted.
 
-The prior TPS1 finite survey and one numerical repair are complete; their
-execution, failures, clocks, atlas and actual reviews remain fixed under
-`udt_time_live_production_survey_2026-10-01/diagnosis/`. PSW1 did not launch a new
+The prior TPS1 finite survey/repair and PSW1 whiteboard remain fixed evidence.
+FPC1 used serial short symbolic checks and analytic reviews; it launched no new
 GPU, field-evolution or ray campaign. The broader numerical goal does not itself
 authorize a successor. Charles's no-timeout instruction remains in effect for
 any authorized computation; finite scope and resource/manual stops still apply.
@@ -49,11 +48,12 @@ Protected: do not inspect, hash, stage, modify, mine or cite payloads without di
 
 ### Next gate
 
-The bounded whiteboard return is complete. Stop for lay discussion.
-Use the PSW1 decision brief, actual final attestations and captured repository
+The bounded finite-clock return is complete. Stop for lay discussion.
+Use the FPC1 decision brief, actual final attestations and captured repository
 checks for its exact scope. No larger survey, new premise or scientific promotion
 starts automatically. A future work order must name its physical implication
-and discriminating calculation. Existing pauses and protected work remain.
+and discriminating calculation. The recommended native-compatibility audit
+is not automatically authorized. Existing pauses and protected work remain.
 No scientific worker was left running at this return; a later session must
 verify actual host state before making process claims. Prior TPS1 raw fields,
 checkpoints and large streams remain local-only and ignored; compact records

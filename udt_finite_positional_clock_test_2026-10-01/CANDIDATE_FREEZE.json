@@ -1,0 +1,19 @@
+{
+  "status": "FROZEN_INITIAL_CANDIDATE_FOR_ADVERSARIAL_REVIEW",
+  "utc": "2026-10-01T16:52:23.305730+00:00",
+  "sha256": {
+    "udt_finite_positional_clock_test_2026-10-01/INITIAL_CANDIDATE.md": "f6421c2aa59a2619027cdff706b472ee36eaa350ae43b91c2137dc0c93a54499",
+    "udt_finite_positional_clock_test_2026-10-01/SPACEFORM_DERIVATION.md": "f5a8d91b349794862550453224459edfe0ec629b856b42e4a7dd4b7ac3ce1170",
+    "udt_finite_positional_clock_test_2026-10-01/SPACEFORM_FREEZE.json": "45281763f0be34a7dc653436316eee5735a50535c731649f1dc3091d0e569d48",
+    "udt_finite_positional_clock_test_2026-10-01/check_spaceform.py": "f3c9be585d4f5a17c9655a159c25703f6b73ba3cfa2b402af0169b0ac7a6f5ca",
+    "udt_finite_positional_clock_test_2026-10-01/PRIMARY_METHOD_REFERENCES.md": "8b6cd44ae553eb4c5db3ffc75b86c0752f771e2960007431b4adfdfc67357ee1",
+    "udt_finite_positional_clock_test_2026-10-01/math/DERIVATION.md": "e5db76addbff2cd121579c20a3aa6eb0404d429abd86c9248d8e32fe3f7b3c2b",
+    "udt_finite_positional_clock_test_2026-10-01/math/DERIVATION_FREEZE.json": "2d29eedf4ec749e1f6b80c8fce490f59ce46366ac4f9a7277a01c942f1fc511d",
+    "udt_finite_positional_clock_test_2026-10-01/math/check_kasner_higher.py": "82fc4124fb2c78fe75e43322bcb577c6af4666185999fcd5d38fb6e9f1fbb317",
+    "udt_finite_positional_clock_test_2026-10-01/math/kasner_higher.stdout": "4748e6779990d976a0683bfe6a0f2f9a21605ad820c517d5e683c5dfb5062f1b",
+    "udt_finite_positional_clock_test_2026-10-01/fidelity/SOURCE_FIRST.md": "92ee9a9ad07d53fc4cbb68b32df0bee5ab85aa77c33bf51f533178b91bbadc8e",
+    "udt_finite_positional_clock_test_2026-10-01/fidelity/CONDITIONAL_NET_REQUIREMENT_REVIEW.md": "b9f5fcd443ada91724e605efb0d457fe1420245b3083162e8990fc59f31ba5cd",
+    "udt_finite_positional_clock_test_2026-10-01/checks/spaceform.stdout": "9949888f98276bdfae9c45b1814b97604dca846e012b1873bf277e78b15477b6",
+    "udt_finite_positional_clock_test_2026-10-01/checks/spaceform.json": "aa82145b72c7d55bd83297e2d5caa04d4cf14308599993dfd8ac2db94622d2dd"
+  }
+}

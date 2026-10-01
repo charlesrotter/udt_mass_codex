@@ -1,6 +1,29 @@
 {
-  "status": "REVIEWED_WITH_LIMITS",
-  "scope": "FPC1 conditional finite prepared-clock comparisons, higher-order Kasner control and exact unadopted universal-net implication; received observable defined, native geometry/scale/additional-effect assignment OPEN. Same-model separate-context review; inherited files preserve original scientific scopes. No registry/CANON promotion.",
+  "context": "/root/fpc_fidelity",
+  "verdict": "ACCEPT_WITH_LIMITS",
+  "status": "FINAL_IMMUTABLE",
+  "utc": "2026-10-01T17:01:55.993300+00:00",
+  "model": {
+    "relation": "same inherited parent model",
+    "exact_runtime_identifier": "not exposed",
+    "different_model": "UNTESTED"
+  },
+  "exposure": "Same separate context as FPC1 source-first, exposed conditional-net followup and candidate review. Final pass exposed to frozen parent candidate/math derivation, mathematical candidate review, final central changes, graph/dispositions, status adapters, fixed result/decision/execution/descendant records and completed saved-Kasner reconstruction source/outputs. Not blind to earlier own review.",
+  "report_path": "udt_finite_positional_clock_test_2026-10-01/fidelity/FINAL_REVIEW.md",
+  "report_sha256": "17c767ff7a8d9f90323db1f315892b4b2b02e9cd7a519bfa8ef42f53852d7323",
+  "integration_freeze_path": "udt_finite_positional_clock_test_2026-10-01/INTEGRATION_FREEZE.json",
+  "integration_freeze_sha256": "86cf0e7fd790a811960cc9f73c16bdfd574eb3a42598a449271c795f2e30e02d",
+  "hash_check_path": "udt_finite_positional_clock_test_2026-10-01/fidelity/FINAL_HASH_CHECK.json",
+  "hash_check_sha256": "e29695a04e07c7aa4833965a99c34e085955972b67f4dee5879101b93d697e9e",
+  "scope": "Source-faithful conditional FPC1 finite-clock integration; exact supplied-space-form maps and principal-axis Kasner means; stronger universal-net condition UNADOPTED; native assignment/sign/scale/X_max OPEN. All accepted bytes checked; inherited history not freshly re-proved.",
+  "omissions": [
+    "No scientific CPU/GPU replay during final review",
+    "No inherited-corpus reproof or raw TPS1/protected-payload inspection",
+    "No independent fourth-order geodesic integration or spherical-mean calculation",
+    "No empirical, global, native-admission or physical-adoption certification",
+    "No different-model, human or formal-proof review",
+    "Postbinding normal/maintenance/full406 and process/git banking are parent gates not claimed complete here"
+  ],
   "accepted_sha256": {
     ".gitignore": "8a2710f5923ba86b41a461e040282ecd520ce155cb17b09458e1d1d613ddeb7a",
     "AGENTS.md": "bcab9b67305e0314af9eaf25162d203660eae8f2ff4fd87d17e83588970ef38d",
@@ -12195,17 +12218,5 @@
     "udt_time_live_smoke_gate_2026-09-30/smoke_runner.py": "724bf5405dd9596bff343a0a6967393d26a0a0c7529124e9a0bfdd70e569d52f",
     "verify_current_scientific_premises.py": "a983c2456ce3a122629a116c735b32b96e055829ed3012fb416fabfa9b0b8127",
     "verify_udt_development.py": "555e2733fa04c609874802369983f73b4a1d8a79610488d9dc732b1acfb0c2fa"
-  },
-  "reviewers": [
-    {
-      "context": "/root/fpc_math",
-      "attestation": "udt_finite_positional_clock_test_2026-10-01/math/FINAL_ATTESTATION.json",
-      "sha256": "31948aa11b213b8e6b477bce4cf1d70f501f0c10c14e9dd7d60b2ab8f660acbd"
-    },
-    {
-      "context": "/root/fpc_fidelity",
-      "attestation": "udt_finite_positional_clock_test_2026-10-01/fidelity/FINAL_ATTESTATION.json",
-      "sha256": "f10f00e56a05e586f15c14c4352590cbfc020a8fe3ff2fcd5fd898c90d56d912"
-    }
-  ]
+  }
 }

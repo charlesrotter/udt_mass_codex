@@ -136,7 +136,8 @@
         "udt_finite_separation_law_2026-09-28/REPAIR.md",
         "udt_finite_separation_law_2026-09-28/REVIEWED_RESULT.md",
         "udt_joint_signal_shape_discrimination_2026-09-13/REVIEWED_RESULT.md",
-        "udt_signal_chain_banking_2026-09-13/BANKING_RECORD.md"
+        "udt_signal_chain_banking_2026-09-13/BANKING_RECORD.md",
+        "udt_finite_positional_clock_test_2026-10-01/REVIEWED_RESULT.md"
       ],
       "required_conditions": [
         "M_GEOMETRY",
@@ -186,7 +187,18 @@
         "udt_shared_geometry_extension_2026-09-29/REVIEWED_RESULT.md",
         "udt_positional_selection_whiteboard_2026-10-01/INITIAL_CANDIDATE.md",
         "udt_positional_selection_whiteboard_2026-10-01/REPAIR.md",
-        "udt_positional_selection_whiteboard_2026-10-01/REVIEWED_RESULT.md"
+        "udt_positional_selection_whiteboard_2026-10-01/REVIEWED_RESULT.md",
+        "udt_finite_positional_clock_test_2026-10-01/INITIAL_CANDIDATE.md",
+        "udt_finite_positional_clock_test_2026-10-01/SPACEFORM_DERIVATION.md",
+        "udt_finite_positional_clock_test_2026-10-01/math/DERIVATION.md",
+        "udt_finite_positional_clock_test_2026-10-01/fidelity/SOURCE_FIRST.md",
+        "udt_finite_positional_clock_test_2026-10-01/fidelity/CONDITIONAL_NET_REQUIREMENT_REVIEW.md",
+        "udt_finite_positional_clock_test_2026-10-01/REVIEWED_RESULT.md",
+        "udt_finite_positional_clock_test_2026-10-01/DECISION_BRIEF.md",
+        "udt_g212_observer_equivalence_history_bridge_whiteboard_2026-08-22/AUDIT_REPORT.md",
+        "udt_positional_geometry_clock_connection_2026-09-28/OWNER_STATEMENT.md",
+        "udt_shared_geometry_extension_2026-09-29/OWNER_CLARIFICATION.md",
+        "udt_repository_cleanup_2026-09-27/local_clock_impact_2026-09-29/OWNER_CLARIFICATION.md"
       ],
       "required_conditions": [
         "P_NULL",
@@ -353,7 +365,8 @@
       ],
       "sources": [
         "udt_interframe_clock_network_2026-09-28/REVIEWED_RESULT.md",
-        "udt_machian_global_clock_feasibility_2026-09-28/REVIEWED_RESULT.md"
+        "udt_machian_global_clock_feasibility_2026-09-28/REVIEWED_RESULT.md",
+        "udt_finite_positional_clock_test_2026-10-01/REVIEWED_RESULT.md"
       ],
       "required_conditions": [
         "P_SCALE"
@@ -434,14 +447,25 @@
         "udt_positional_selection_whiteboard_2026-10-01/REVIEWED_RESULT.md",
         "udt_positional_selection_whiteboard_2026-10-01/DECISION_BRIEF.md",
         "udt_null_clock_depth_integrability_assessment_2026-09-10/INITIAL_CANDIDATE.md",
-        "udt_null_clock_depth_integrability_assessment_2026-09-10/REPAIR.md"
+        "udt_null_clock_depth_integrability_assessment_2026-09-10/REPAIR.md",
+        "udt_finite_positional_clock_test_2026-10-01/INITIAL_CANDIDATE.md",
+        "udt_finite_positional_clock_test_2026-10-01/SPACEFORM_DERIVATION.md",
+        "udt_finite_positional_clock_test_2026-10-01/math/DERIVATION.md",
+        "udt_finite_positional_clock_test_2026-10-01/fidelity/SOURCE_FIRST.md",
+        "udt_finite_positional_clock_test_2026-10-01/fidelity/CONDITIONAL_NET_REQUIREMENT_REVIEW.md",
+        "udt_finite_positional_clock_test_2026-10-01/REVIEWED_RESULT.md",
+        "udt_finite_positional_clock_test_2026-10-01/DECISION_BRIEF.md",
+        "udt_g212_observer_equivalence_history_bridge_whiteboard_2026-08-22/AUDIT_REPORT.md",
+        "udt_positional_geometry_clock_connection_2026-09-28/OWNER_STATEMENT.md",
+        "udt_shared_geometry_extension_2026-09-29/OWNER_CLARIFICATION.md",
+        "udt_repository_cleanup_2026-09-27/local_clock_impact_2026-09-29/OWNER_CLARIFICATION.md"
       ],
       "required_conditions": []
     },
     {
       "id": "P_FOUNDING",
       "kind": "declared_premises",
-      "statement": "F1\u2013F4 as stated in R1/R2; composition, nontriviality and readout are distinct inputs"
+      "statement": "F1–F4 as stated in R1/R2; composition, nontriviality and readout are distinct inputs"
     },
     {
       "id": "P_PAIR",
@@ -1020,11 +1044,12 @@
     {
       "id": "O_PSW_ATTRIBUTION",
       "kind": "open_join",
-      "statement": "PSW1 prepared-clock positional attribution J1 and complete trace-free response identification remain OPEN/UNADOPTED. Ideal C=Ric reconstruction is not physical response completeness or adoption.",
+      "statement": "PSW1/FPC1 received ticking is defined; physical prepared net/matched positional attribution and complete trace-free response identification remain OPEN/UNADOPTED. Exact supplied finite controls and the conditional all-labs net test do not select native geometry, scale or X_max.",
       "sources": [
         "udt_positional_selection_whiteboard_2026-10-01/INITIAL_CANDIDATE.md",
         "udt_positional_selection_whiteboard_2026-10-01/REPAIR.md",
-        "udt_positional_selection_whiteboard_2026-10-01/REVIEWED_RESULT.md"
+        "udt_positional_selection_whiteboard_2026-10-01/REVIEWED_RESULT.md",
+        "udt_finite_positional_clock_test_2026-10-01/REVIEWED_RESULT.md"
       ],
       "registry_ids": []
     }
@@ -2056,7 +2081,15 @@
     "udt_positional_selection_whiteboard_2026-10-01/REVIEWED_RESULT.md": "1b217aa30932d3986557abb7e95f7d1e8a8196946e75091794b1ef06058e2911",
     "udt_positional_selection_whiteboard_2026-10-01/DECISION_BRIEF.md": "1873ca29528425bd540913f80c7f36c31bcddc228ff7563632eac48d2b37f6c9",
     "udt_null_clock_depth_integrability_assessment_2026-09-10/INITIAL_CANDIDATE.md": "a2769dd02500970475225939f0606ba212bdde6b6a54a3bebdd5023ced1385e1",
-    "udt_null_clock_depth_integrability_assessment_2026-09-10/REPAIR.md": "38f0bf9512a426e23e76acba8bca71dcef36b0d1e126ce5f45eabbe269b98dc4"
+    "udt_null_clock_depth_integrability_assessment_2026-09-10/REPAIR.md": "38f0bf9512a426e23e76acba8bca71dcef36b0d1e126ce5f45eabbe269b98dc4",
+    "udt_finite_positional_clock_test_2026-10-01/INITIAL_CANDIDATE.md": "f6421c2aa59a2619027cdff706b472ee36eaa350ae43b91c2137dc0c93a54499",
+    "udt_finite_positional_clock_test_2026-10-01/SPACEFORM_DERIVATION.md": "f5a8d91b349794862550453224459edfe0ec629b856b42e4a7dd4b7ac3ce1170",
+    "udt_finite_positional_clock_test_2026-10-01/math/DERIVATION.md": "e5db76addbff2cd121579c20a3aa6eb0404d429abd86c9248d8e32fe3f7b3c2b",
+    "udt_finite_positional_clock_test_2026-10-01/fidelity/SOURCE_FIRST.md": "92ee9a9ad07d53fc4cbb68b32df0bee5ab85aa77c33bf51f533178b91bbadc8e",
+    "udt_finite_positional_clock_test_2026-10-01/fidelity/CONDITIONAL_NET_REQUIREMENT_REVIEW.md": "b9f5fcd443ada91724e605efb0d457fe1420245b3083162e8990fc59f31ba5cd",
+    "udt_finite_positional_clock_test_2026-10-01/REVIEWED_RESULT.md": "2b0f71487c0f0de7a9b478b84ce2f570508ade27b95183c1e1cdf2ae547f15b5",
+    "udt_finite_positional_clock_test_2026-10-01/DECISION_BRIEF.md": "fc0433a2b9a876d9e6d4b1236529837c03e153057b9cfb381a6ad395d075f301",
+    "udt_g212_observer_equivalence_history_bridge_whiteboard_2026-08-22/AUDIT_REPORT.md": "4d2176828922f0036bb65c106f6de3207f187e66e60d26669cdc1acaf24f93b1"
   },
   "impact_policy": "Any changed source or registry row flags its mapped positive and negative central arguments and every reachable central descendant for review; no automatic truth reversal or regrading.",
   "review_support": [
@@ -2755,6 +2788,116 @@
       "role": "review_evidence",
       "targets": [
         "R8",
+        "R18"
+      ]
+    },
+    {
+      "path": "udt_finite_positional_clock_test_2026-10-01/check_spaceform.py",
+      "sha256": "f3c9be585d4f5a17c9655a159c25703f6b73ba3cfa2b402af0169b0ac7a6f5ca",
+      "role": "review_evidence",
+      "targets": [
+        "R6",
+        "R8",
+        "R16",
+        "R18"
+      ]
+    },
+    {
+      "path": "udt_finite_positional_clock_test_2026-10-01/checks/spaceform.stdout",
+      "sha256": "9949888f98276bdfae9c45b1814b97604dca846e012b1873bf277e78b15477b6",
+      "role": "review_evidence",
+      "targets": [
+        "R6",
+        "R8",
+        "R16",
+        "R18"
+      ]
+    },
+    {
+      "path": "udt_finite_positional_clock_test_2026-10-01/math/check_kasner_higher.py",
+      "sha256": "82fc4124fb2c78fe75e43322bcb577c6af4666185999fcd5d38fb6e9f1fbb317",
+      "role": "review_evidence",
+      "targets": [
+        "R6",
+        "R8",
+        "R16",
+        "R18"
+      ]
+    },
+    {
+      "path": "udt_finite_positional_clock_test_2026-10-01/math/kasner_higher.stdout",
+      "sha256": "4748e6779990d976a0683bfe6a0f2f9a21605ad820c517d5e683c5dfb5062f1b",
+      "role": "review_evidence",
+      "targets": [
+        "R6",
+        "R8",
+        "R16",
+        "R18"
+      ]
+    },
+    {
+      "path": "udt_finite_positional_clock_test_2026-10-01/check_saved_kasner_readouts.py",
+      "sha256": "aa59407b696c11ce45300169c89082731bf939308119584cc8dca7a7a39b03dc",
+      "role": "review_evidence",
+      "targets": [
+        "R6",
+        "R8",
+        "R16",
+        "R18"
+      ]
+    },
+    {
+      "path": "udt_finite_positional_clock_test_2026-10-01/checks/saved_kasner.stdout",
+      "sha256": "95ce08082b46086f2d0307e7a773419e814c9dd098c337d49ff80377d1e5ad24",
+      "role": "review_evidence",
+      "targets": [
+        "R6",
+        "R8",
+        "R16",
+        "R18"
+      ]
+    },
+    {
+      "path": "udt_finite_positional_clock_test_2026-10-01/math/CANDIDATE_REVIEW.md",
+      "sha256": "8d47aab70d73546f5a604c649c61665a8bc6f11e8d59b71a98d80a44dab74607",
+      "role": "review_evidence",
+      "targets": [
+        "R6",
+        "R8",
+        "R16",
+        "R18"
+      ]
+    },
+    {
+      "path": "udt_finite_positional_clock_test_2026-10-01/fidelity/CANDIDATE_REVIEW.md",
+      "sha256": "c402037a39c6231a93e8c5253463b04559fd45ae6a50da5b8ce5e70620b0bbe3",
+      "role": "review_evidence",
+      "targets": [
+        "R6",
+        "R8",
+        "R16",
+        "R18"
+      ]
+    },
+    {
+      "path": "udt_finite_positional_clock_test_2026-10-01/PRIMARY_METHOD_REFERENCES.md",
+      "sha256": "8b6cd44ae553eb4c5db3ffc75b86c0752f771e2960007431b4adfdfc67357ee1",
+      "role": "review_evidence",
+      "targets": [
+        "R6",
+        "R8",
+        "R16",
+        "R18"
+      ]
+    },
+    {
+      "path": "udt_finite_positional_clock_test_2026-10-01/DESCENDANT_REVIEW.md",
+      "sha256": "76fa62ffd414c578e106bd99912e4ce67798c1ee30e37b34807ce5522e6e159e",
+      "role": "review_evidence",
+      "targets": [
+        "R6",
+        "R8",
+        "R16",
         "R18"
       ]
     }

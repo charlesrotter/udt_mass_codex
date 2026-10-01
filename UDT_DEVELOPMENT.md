@@ -1,7 +1,7 @@
 # UDT — continuous scientific development
 
 <!-- DEVELOPMENT_ORIENTATION_BEGIN -->
-**Continuous development — CDR1 with SGE1, LKT1, GCA1, PCW1, CES1, CCR1, PRI1, TRI1, NGD1, TDS1, TPP1, TPS1 and PSW1, 2026-10-01.** This is the maintained
+**Continuous development — CDR1 with SGE1, LKT1, GCA1, PCW1, CES1, CCR1, PRI1, TRI1, NGD1, TDS1, TPP1, TPS1, PSW1 and FPC1, 2026-10-01.** This is the maintained
 scientific development. It is not canon or a new scientific-grade authority.
 The exact registry and reviewed sources own grades; LIVE owns operational status.
 Current review bindings and limits are recorded in section9; startup reads the
@@ -87,7 +87,17 @@ mean, not every finite or directional shift. Identifying this ideal clock-measur
 tensor with DDR's complete trace-free response is an explicit UNADOPTED proposal
 that repeats the known conditional Einstein branch; it selects neither Lambda
 nor an additional positional effect. The physical attribution of the prepared
-coefficient remains OPEN. The return recommends discussion before another run.
+coefficient remains OPEN.
+FPC1 extends that test to finite comparisons. Supplied positive constant curvature
+produces equal redshifts for independently emitted first signals between prepared
+free clocks, with a nonlinear divergence at a causal comparison limit. An immediate
+echo loses its finite future return earlier. Flat and opposite-curvature controls
+retain different results. A nonflat Ricci-flat Kasner control has nonzero fourth-order
+principal-axis means despite its quadratic cancellation. Received ticking is already
+defined by the owner clarification; native geometry, positional attribution and
+scale remain open. Known GR geometry realizes this shape, so compatibility alone
+is not an additional UDT prediction. The return recommends discussion before a
+native compatibility audit or another run; no new physical premise is adopted.
 <!-- DEVELOPMENT_ORIENTATION_END -->
 
 ## 1. How this development is owned
@@ -870,7 +880,7 @@ At quadratic order these are also spherical means; higher-order or finite-angle
 records need not agree. A triad determines a trace, not all six components or
 all-direction signs of T. Ric=0 gives zero leading mean. Nonzero trace-free T
 has both signs; T=0 leaves higher orders open. Positive leading mean requires
-Ric(U,U)<0; positivity in every direction requires negative-definite T, a stronger
+Ric(U,U)<0; a positive quadratic coefficient in every direction requires negative-definite T, a stronger
 condition. Ric=Lambda g gives outgoing mean coefficient Lambda/6, without
 selecting Lambda. A physically matched reference experiment gives the same
 formulas for Delta T and Delta Ric; matching coordinates alone is insufficient.
@@ -894,8 +904,8 @@ experiment. These finite symbolic checks support the derivation, not a general
 numerical/continuum certificate or a native-admitted UDT countermodel.
 
 All remainders are local to a fixed smooth geometry with bounded jets and regular
-branches. There is no finite-size error constant, solar threshold, cosmic distance
-law or asymptote. A finite sample needs error control and L→0 extrapolation before
+branches. This local theorem supplies no finite-size error constant, solar threshold,
+cosmic distance law or asymptote; the finite controls below have their own scope. A finite sample needs error control and L→0 extrapolation before
 its sign represents the leading coefficient: an absolute log-ratio error
 epsilon(L) contributes epsilon(L)/L² besides the O(L) remainder. **Physical join J1 remains OPEN:**
 no inspected implication assigns this net coefficient or matched contrast to
@@ -908,6 +918,122 @@ evaluates a supplied clock leg; it does not select this curvature or preparation
 Sources: [fixed initial synthesis](udt_positional_selection_whiteboard_2026-10-01/INITIAL_CANDIDATE.md),
 [controlling precision/response comparison](udt_positional_selection_whiteboard_2026-10-01/REPAIR.md)
 and [reviewed scope](udt_positional_selection_whiteboard_2026-10-01/REVIEWED_RESULT.md).
+
+
+#### Finite mutual ticking and its causal limits — FPC1
+
+The owner has already identified the observable as the rate of ticks received
+through signals. R6 therefore defines Z for supplied actual clocks and regular
+null branches; a microscopic theory of light or population selector is not a
+prerequisite. G218/G219's older generic missing-protocol language cannot erase
+this clarification. Their inverse-versus-future-return distinction survives.
+J1 concerns the physical geometry/preparation and positional attribution, rather
+than absence of a received observable. A strictly positive finite effect need
+not have a nonzero quadratic coefficient. The tentative combined-redshift
+expectation is not silently strengthened to a universal net sign condition.
+
+Use exactly PSW1's initial parallel preparation, retaining L as proper spacelike
+geodesic length and c_E=1. In a supplied space form of sectional curvature+k²,
+k>0, embed g in Minkowski5 with <X,X>=1/k². For the preparation event X0,
+future unit U and spatial unit n, the two free clocks are
+
+    B0=cos(kL)X0+sin(kL)n/k,
+    A(s)=cosh(ks)X0+sinh(ks)U/k,
+    B(b)=cosh(kb)B0+sinh(kb)U/k.
+
+U is ambient constant and tangent along preparation, hence parallel. Both clocks
+have proper unit tangents and normal ambient acceleration, hence intrinsic
+geodesicity. The full4D quadric has Ric=3k²g; no field equation was used to obtain
+the clock map. The constructed radial plane is totally geodesic. Null straight
+chords stay on the quadric, giving the exact incidence equation
+
+\[
+ \cos(kL)\cosh(ks)\cosh(kb)-\sinh(ks)\sinh(kb)=1.
+\]
+
+At s=0 its direct future root gives b=atanh(sin(kL))/k and p=sec(kL),
+for0<kL<pi/2. Differentiation is at fixed worldlines, not by varying L.
+An isometry exchanges the two prepared clocks while preserving their initial
+velocities. Thus a separately emitted first signal from B0 to A has p_rev=p.
+These are two actual future comparisons. The immediate echo from the later B
+relay instead has a=2atanh(tan(kL))/k and q=cos(kL)/cos(2kL), only for0<kL<pi/4.
+The prior root a=0 is not a return. The echo's derivative pq=sec(2kL) and arrival
+time diverge at pi/4 while p tends to sqrt(2); for pi/4<=kL<pi/2 both independent
+first signals still arrive, but that echo has no finite future reception.
+
+As kL approaches pi/2 from below, p=p_rev and both first reception times diverge.
+At the limit there is no finite future incidence. The spacetime curvature remains
+regular: a causal/comparison boundary is not a material wall or singular metric.
+No boundary here is identified with physical X_max. Isometries relate every such
+laboratory; using one observer's coordinates does not give a universal center.
+This standard de Sitter comparison is compatible with the tested behavior; it
+has not been selected by UDT or shown to add an effect beyond GR.
+
+The flat prepared experiment gives b=s+L, a=b+L, p=p_rev=q=1, with ordinary finite
+causal timing. It does not represent a counterfactual removal of UDT geometry.
+The supplied opposite curvature-k² on the AdS cover gives, on its first direct
+future branches for every finite L>0,
+
+\[
+ b=\arctan(\sinh(kL))/k,\quad p=p_{rev}=\operatorname{sech}(kL),\qquad
+ a=2\arctan(\tanh(kL))/k,\quad q=\cosh(kL)/\cosh(2kL).
+\]
+
+Both ratios are positive and below one. There is no periodic time identification,
+reflected boundary ray or global AdS evolution claim. These controls preserve the
+sign choice; ordinary clocks alone do not select positive curvature. G212's
+extra all-germ isotropy condition is not adopted by no-preferred-observer wording.
+The curvature scale remains supplied. For positive curvature,
+log p=k²L²/2+k⁴L⁴/12+O((kL)^6) and
+log q=3k²L²/2+5k⁴L⁴/4+O((kL)^6), agreeing with T=-k²I in PSW1.
+Exact formulas own the finite boundaries; the series supplies no observed solar
+threshold. Writing p=(1-y²)^(-1/2), y=sin(kL), gives a familiar algebraic shape
+without identifying y as velocity or native chi. The actual leg has
+Phi_clock=-log p=log cos(kL) and chi_clock=-sin²(kL)/(1+cos²(kL)).
+
+A separate higher-order check extends the same Kasner control, at t0=1 and
+exponents(-1/3,2/3,2/3). For axis exponent r, its preparation obeys
+ t''=-r t^(-2r-1), t^(2r)x'=1. At proper length L the transported initial velocity
+is (t^(-r),t't^(-r)), and the released receiver's conserved momentum is C=t^r t'.
+With gamma=sqrt(1+C²/t^(2r)), its path obeys dx/dt=C/(t^(2r)gamma).
+The outgoing null integral and immediate return give eta(ta)=2eta(tb)-eta(1),
+where eta'=t^(-r). Endpoint frequencies then give
+log p=r log(tb)+asinh(C/tb^r) and
+log q=r log(ta/tb)+asinh(C/tb^r), for the same fixed prepared worldlines.
+Solving these analytic equations through fourth order yields
+
+\[
+ \overline{\log p}^{\,axes}=-7L^4/243+O(L^5),\qquad
+ \overline{\log q}^{\,axes}=5L^4/81+O(L^5).
+\]
+
+The quadratic and cubic means cancel. Spatial reflection equates opposite axes;
+these are principal-axis (also six-axis) means, not proved spherical means at
+fourth order. Analytic ODE and implicit-function dependence on the local branch
+justify the remainder; no explicit finite-L threshold is certified. Thus zero
+leading Ricci mean does not force every finite mean to vanish. The two means
+have opposite signs and individual directions already have both signs; this is
+no universal-positive or native-admitted vacuum model.
+
+There is also a sharper **conditional, UNADOPTED net requirement**. Suppose every
+event of an open Ricci-flat region, every future unit U and every spatial unit n
+has p_L>1 for all sufficiently small positive L, on the regular local prepared
+branch. The small-L threshold may depend on the query. PSW1 forces T_U<=0,
+not strictly negative. Its zero trace then gives T_U=0. For all timelike U,
+R(X,U,U,X)=0; projection removes the restriction X perpendicular to U, and
+polynomial identity on the open timelike cone plus curvature polarization gives
+Riemann=0. Throughout the open region this implies local Minkowski geometry,
+whose same prepared clocks have p_L=1 exactly: a contradiction. One U, one point,
+selected finite L, mean positivity or a matched positional contrast does not
+inherit this exclusion. It does not exclude Ric=0 from UDT's current premises.
+
+Sources: [fixed exact space-form proof](udt_finite_positional_clock_test_2026-10-01/SPACEFORM_DERIVATION.md),
+[independent Kasner/space-form derivation](udt_finite_positional_clock_test_2026-10-01/math/DERIVATION.md),
+[source and quantifier review](udt_finite_positional_clock_test_2026-10-01/fidelity/SOURCE_FIRST.md),
+and [reviewed limits](udt_finite_positional_clock_test_2026-10-01/REVIEWED_RESULT.md).
+The [primary method record](udt_finite_positional_clock_test_2026-10-01/PRIMARY_METHOD_REFERENCES.md)
+credits standard exact Fermi geometry; it does not claim discovery of de Sitter
+space or import an Einstein equation as UDT dynamics.
 
 
 ## 6. Response restrictions and an optional conditional dynamics branch
@@ -1749,13 +1875,25 @@ it. It does not select the intended sign or asymptote. Likewise opposite-directi
 net positivity B(n,n)>|a·n| retains a supplied congruence and can hold for flat
 Milne clocks. Net mutual redshift alone is not positional attribution.
 
-Recommendation at this return: retain the prepared diagnostic, keep the response
-identification and endpoint-only restriction unadopted, and settle which actual
-prepared or finite comparison the intended positional requirement constrains
-before another large search. A positive L² rule must not be imposed to force
-closure. This is a narrowed calculational test and explicit physical comparison,
-not a native response law, a selected scale, or proof that more premises are
-necessary. [PSW1 decision brief](udt_positional_selection_whiteboard_2026-10-01/DECISION_BRIEF.md)
+FPC1 now makes the finite possibility concrete in R8: a supplied positive space
+form gives mutual first-signal redshift with nonlinear divergence, with a different
+echo limit; a Ricci-flat example retains higher-order principal-axis means. The
+stronger universal prepared-net condition would exclude an open Ricci-flat region,
+but that condition is not silently assigned to the founder's positional effect.
+Received ticking is already defined; the remaining question concerns physical
+geometry and which net or matched comparison realizes the additional requirement.
+The exact standard-GR example shows compatibility of the shape, not additional
+predictive content, full tested-regime recovery or selection of sign and scale.
+
+Recommendation at this return: audit this concrete finite example against the
+full typed native pair/metric restrictions before proposing it as a UDT branch.
+Keep actual clock depth separate from presentation potential, observer equivalence
+separate from all-germ isotropy, and a comparison horizon separate from physical
+X_max. Such an audit must distinguish a compatible representation from a selected
+geometry and an additional UDT prediction. Retain flat/opposite-sign controls and
+all prior open joins; no new premise, Einstein response identification, positive
+L² rule or larger run is authorized by this recommendation. The
+[FPC1 decision brief](udt_finite_positional_clock_test_2026-10-01/DECISION_BRIEF.md)
 records the discussion boundary and no automatic successor.
 
 NGD1's numerical return in R12N adds a validated comparison tool and finite
@@ -2173,7 +2311,7 @@ founding premises are insufficient.
 Retained branches and omissions are explicit below. These results are useful;
 their original full proofs, repairs, qualifications and grades remain at source.
 CDR1 does not claim to rederive all of them. The [406-row disposition ledger](development_reconstruction_2026-09-29/CLAIM_DISPOSITIONS.tsv)
-and [39 later returns](development_reconstruction_2026-09-29/RECENT_DISPOSITIONS.tsv)
+and [40 later returns](development_reconstruction_2026-09-29/RECENT_DISPOSITIONS.tsv)
 identify exact sources and reconstruction depth.
 
 | Retained work | Gain and limit |
@@ -2402,6 +2540,22 @@ records implications for both positive results and scoped exclusions. No new GPU
 field/ray campaign, empirical test or global/finite-distance error bound was made.
 The [execution record](udt_positional_selection_whiteboard_2026-10-01/WORK_RECORD.md)
 and final attestations own the actual completed scope and omissions.
+
+FPC1 used two actual source-first contexts, then exposed the fixed parent
+candidate to mathematical and premise/meaning challenges. They share the inherited
+model and installed SymPy; no human, different-model or formal proof is claimed.
+The parent126 exact assertions check supplied space-form embedding, preparation,
+incidence, frequencies and small-L limits; the math context's48 assertions derive
+the Kasner series from its original coordinate equations. The parent separately
+reconstructs endpoint contractions from saved arrival/momentum series; this is
+separate code with shared inputs, not independent ray integration. Analytic review
+owns chronology, admissible branch domains, remainders and conditional quantifiers.
+Two final contexts inspect the same frozen central integration and descendant
+record. No GPU solve, raw TPS1 replay, spherical fourth-order average, observational
+comparison, native admission or scale selection was performed. The
+[FPC1 descendant review](udt_finite_positional_clock_test_2026-10-01/DESCENDANT_REVIEW.md)
+and [execution record](udt_finite_positional_clock_test_2026-10-01/WORK_RECORD.md)
+record both positive and negative implications and actual review exposure.
 
 The preserved first candidates expose the repair history. The [source correction](development_reconstruction_2026-09-29/SOURCE_CORRECTIONS.md)
 fixes a real covector-basis sign in G310; the central nine-direction span and

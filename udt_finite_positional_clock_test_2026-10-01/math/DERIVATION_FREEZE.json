@@ -1,0 +1,14 @@
+{
+  "utc": "2026-10-01T16:45:47.707085+00:00",
+  "exposure": "No parent or peer FPC1 candidate read; PSW1 quadratic sources read and attributed.",
+  "sha256": {
+    "SOURCE_FIRST.md": "cb29829dc2f89504fc4050795d75ff7b4f7e654f9ccc0b86287369d9023187dc",
+    "SOURCE_HASHES.json": "0de2dc8bf5a9c96a4feff49a52d7b6906600f27e81691b98acc66192797af801",
+    "DERIVATION.md": "e5db76addbff2cd121579c20a3aa6eb0404d429abd86c9248d8e32fe3f7b3c2b",
+    "check_kasner_higher.py": "82fc4124fb2c78fe75e43322bcb577c6af4666185999fcd5d38fb6e9f1fbb317",
+    "PRECHECK_FREEZE.json": "0c540ca908f40ae86bddf6c05a177d71de4bd1f1756e882890723567444b2a7f",
+    "kasner_higher.stdout": "4748e6779990d976a0683bfe6a0f2f9a21605ad820c517d5e683c5dfb5062f1b",
+    "kasner_higher.stderr": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "kasner_higher.json": "b909b8f8e330a71c06747b72db281ba9ef83e754e9b6eaee1c9fb85395e902dd"
+  }
+}

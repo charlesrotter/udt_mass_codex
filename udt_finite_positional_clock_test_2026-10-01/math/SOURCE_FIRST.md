@@ -1,0 +1,23 @@
+# FPC1 mathematics: source-first reconstruction
+
+Frozen before parent or peer FPC1 candidate exposure. Context /root/fpc_math is a fresh separate inherited-model context, not a human specialist or different-model review. Parent mandatory startup/full406 is attributed to WORK_ORDER.md and SNAPSHOT.json; independently read scoped current status, work order, CLAUDE work/triggers/repo discipline and no-shortcuts/completeness-map/verifier-before-record skills. Independently verified grok HEAD a0f2628f764c1921289bc07f3858c3232f4879c7 and visible untracked state. Protected payload contents were not read or hashed. Source versions are in SOURCE_HASHES.json. Only math/ is owned.
+
+## Source reconstruction and question
+
+PSW1 prepares B at exp_o(L n), parallel transports U along that spacetime spacelike geodesic, then releases both clocks on their geodesics. The same worldlines persist across neighboring emissions. Actual outgoing and immediate future-return arrival derivatives have log p=-T(n,n)L^2/2+O(L^3) and log q=-3T(n,n)L^2/2+O(L^3), where tr T=Ric(U,U). A triad agrees with a sphere at quadratic order only. The actual future return is not the inverse outgoing comparison.
+
+The supplied nonflat Kasner exponents (-1/3,2/3,2/3) at t=1 give zero Ricci tensor and outgoing quadratic coefficients (2/9,-1/9,-1/9). I inspected PSW1's original-coordinate quadratic implementation, so new algebra is source-first relative to FPC1 candidates but not blind to that earlier code. New code will derive higher coefficients from conserved original-coordinate geodesic data and null incidence, not insert the claimed clock series.
+
+G212 already gives a conditional constant-curvature sector under additional all-germ two-jet isotropy, explicitly not UDT-owned. Its spherical control is f=1-k r^2. Constant-curvature formulas here are standard supplied geometry, never a selected law, novel curvature theorem, physical scale, or X_max assignment.
+
+## Planned bounded calculation
+
+Metric-led free-and-explored controls: the one Kasner geometry above, and sectional curvature k with either sign or zero. Units c_E=1 and t0=1 in Kasner are normalization choices. Only principal-axis Kasner experiments are covered; +/- axes must agree by the coordinate reflections, while no full angular mean is claimed beyond quadratic. Target expansion parameter is initial invariant proper L, not coordinate distance. Smoothness for t near1, nondegenerate geodesic flow and transverse outgoing/return incidence give analytic Taylor remainders.
+
+In an axis plane g=-dt^2+t^(2p)dx^2 the spacelike preparation satisfies t''=-p t^(-2p-1), x'=t^(-2p), with t(0)=1,t'(0)=0,x(0)=0. Orthogonal parallel unit velocity is V=(t^(-p),t' t^(-p)); its conserved receiver momentum is C=t^p t'. The receiver satisfies dx/dt=C/[t^(2p)sqrt(1+C^2/t^(2p))]. Set eta'(t)=t^(-p). Outgoing incidence is eta(tb)-eta(1)=X+integral_T^tb dx/dt dt; return is eta(ta)=2eta(tb)-eta(1). Endpoint contractions give log p_arr=p log(tb)+asinh(C/tb^p), log q_arr=p log(ta/tb)+asinh(C/tb^p). These formulas hold for fixed prepared receiver, not re-preparation as emission varies. Derive through L^4, stopping at first nonzero triad mean beyond quadratic or a bounded obstruction. Check preparation, incidence, endpoints and flat controls.
+
+For k>0 a radial de Sitter embedding offers a separate finite check: with l=sqrt(k)L, A(s)=(sinh(sqrt(k)s),0,cosh(sqrt(k)s))/sqrt(k), and B(b)=(sinh(sqrt(k)b),sin(l)cosh(sqrt(k)b),cos(l)cosh(sqrt(k)b))/sqrt(k), using ambient signature(-++). Parallel preparation follows because the initial U is constant along the initial spatial embedding geodesic. Null incidence is -sinh(sqrt(k)s)sinh(sqrt(k)b)+cos(l)cosh(sqrt(k)s)cosh(sqrt(k)b)=1, with chronology selecting the future root. Actual return needs the future second A root at the matched b. Opposite sign uses the corresponding trigonometric ambient construction and has its own first-branch restrictions. I have not yet frozen completed finite formulas.
+
+## Resources, limits, and seam
+
+Parent granted the scientific CPU slot for one bounded formal-series check,2GiB, no CPU/wall cutoff, existing TPS1 capture,64MiB output ceiling, no GPU or installation. No raw fields or protected payloads. Formal exact algebra is distinct from a numerical ray integration or a general proof; argument and branches require review. Closest prior is PSW1 quadratic Kasner control and G212 conditional space-form sector. The exact physical seam is whether any admitted owner implication assigns this prepared net/matched observable to positional dilation; mathematics does not supply that identification. No native field law, physical admission, nonexistence/completeness theorem, or CANON/registry change follows.

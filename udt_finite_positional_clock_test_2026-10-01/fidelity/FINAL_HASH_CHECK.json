@@ -1,0 +1,22 @@
+{
+  "utc": "2026-10-01T17:00:32.509456+00:00",
+  "status": "PASS",
+  "integration_freeze_sha256": "86cf0e7fd790a811960cc9f73c16bdfd574eb3a42598a449271c795f2e30e02d",
+  "accepted_count": 12193,
+  "inherited_count": 12149,
+  "changed_from_prior": [
+    "CURRENT_RESEARCH_PROGRAM.md",
+    "HANDOFF.md",
+    "LIVE.md",
+    "UDT_DEVELOPMENT.md",
+    "development_reconstruction_2026-09-29/DEVELOPMENT_GRAPH.json",
+    "development_reconstruction_2026-09-29/RECENT_DISPOSITIONS.tsv"
+  ],
+  "new_file_count": 44,
+  "removed_count": 0,
+  "mismatches": [],
+  "prior_record_hash_matches": true,
+  "protected_prefix_entries": 0,
+  "generated_orientation_exact_match": true,
+  "scope": "Byte correspondence of all accepted files plus declared-delta and generated-view checks. No historical semantic reproof or scientific CPU calculation."
+}

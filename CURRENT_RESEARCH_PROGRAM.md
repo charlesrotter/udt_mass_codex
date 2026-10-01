@@ -5,7 +5,7 @@ This bounded startup view is generated from its opening; edit that source.
 LIVE.md owns operational status; CURRENT_SCIENTIFIC_PREMISES.tsv owns exact grades.
 
 <!-- GENERATED_DEVELOPMENT_BEGIN -->
-**Continuous development — CDR1 with SGE1, LKT1, GCA1, PCW1, CES1, CCR1, PRI1, TRI1, NGD1, TDS1, TPP1, TPS1 and PSW1, 2026-10-01.** This is the maintained
+**Continuous development — CDR1 with SGE1, LKT1, GCA1, PCW1, CES1, CCR1, PRI1, TRI1, NGD1, TDS1, TPP1, TPS1, PSW1 and FPC1, 2026-10-01.** This is the maintained
 scientific development. It is not canon or a new scientific-grade authority.
 The exact registry and reviewed sources own grades; LIVE owns operational status.
 Current review bindings and limits are recorded in section9; startup reads the
@@ -91,7 +91,17 @@ mean, not every finite or directional shift. Identifying this ideal clock-measur
 tensor with DDR's complete trace-free response is an explicit UNADOPTED proposal
 that repeats the known conditional Einstein branch; it selects neither Lambda
 nor an additional positional effect. The physical attribution of the prepared
-coefficient remains OPEN. The return recommends discussion before another run.
+coefficient remains OPEN.
+FPC1 extends that test to finite comparisons. Supplied positive constant curvature
+produces equal redshifts for independently emitted first signals between prepared
+free clocks, with a nonlinear divergence at a causal comparison limit. An immediate
+echo loses its finite future return earlier. Flat and opposite-curvature controls
+retain different results. A nonflat Ricci-flat Kasner control has nonzero fourth-order
+principal-axis means despite its quadratic cancellation. Received ticking is already
+defined by the owner clarification; native geometry, positional attribution and
+scale remain open. Known GR geometry realizes this shape, so compatibility alone
+is not an additional UDT prediction. The return recommends discussion before a
+native compatibility audit or another run; no new physical premise is adopted.
 <!-- GENERATED_DEVELOPMENT_END -->
 
 ## Current next gate

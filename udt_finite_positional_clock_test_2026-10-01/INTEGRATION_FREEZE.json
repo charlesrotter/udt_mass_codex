@@ -1,6 +1,63 @@
 {
-  "status": "REVIEWED_WITH_LIMITS",
-  "scope": "FPC1 conditional finite prepared-clock comparisons, higher-order Kasner control and exact unadopted universal-net implication; received observable defined, native geometry/scale/additional-effect assignment OPEN. Same-model separate-context review; inherited files preserve original scientific scopes. No registry/CANON promotion.",
+  "utc": "2026-10-01T16:58:51.400248+00:00",
+  "status": "FROZEN_FOR_ACTUAL_FINAL_REVIEW",
+  "base_head": "a0f2628f764c1921289bc07f3858c3232f4879c7",
+  "scope": "FPC1 finite supplied-clock controls and higher-order vacuum example; stronger all-labs net condition UNADOPTED; native geometry/scale/positional assignment OPEN. No scientific promotion.",
+  "prior_record_sha256": "92aea15524805d49469fc99fee1940e903946c4df31062f515a7380f3a23df9f",
+  "changed_from_prior": [
+    "CURRENT_RESEARCH_PROGRAM.md",
+    "HANDOFF.md",
+    "LIVE.md",
+    "UDT_DEVELOPMENT.md",
+    "development_reconstruction_2026-09-29/DEVELOPMENT_GRAPH.json",
+    "development_reconstruction_2026-09-29/RECENT_DISPOSITIONS.tsv"
+  ],
+  "new_files": [
+    "udt_finite_positional_clock_test_2026-10-01/BANKING_PLAN.md",
+    "udt_finite_positional_clock_test_2026-10-01/CANDIDATE_FREEZE.json",
+    "udt_finite_positional_clock_test_2026-10-01/DECISION_BRIEF.md",
+    "udt_finite_positional_clock_test_2026-10-01/DESCENDANT_REVIEW.md",
+    "udt_finite_positional_clock_test_2026-10-01/INITIAL_CANDIDATE.md",
+    "udt_finite_positional_clock_test_2026-10-01/PRIMARY_METHOD_REFERENCES.md",
+    "udt_finite_positional_clock_test_2026-10-01/PRIOR_REVIEW_RECORD.json",
+    "udt_finite_positional_clock_test_2026-10-01/REVIEWED_RESULT.md",
+    "udt_finite_positional_clock_test_2026-10-01/SNAPSHOT.json",
+    "udt_finite_positional_clock_test_2026-10-01/SPACEFORM_DERIVATION.md",
+    "udt_finite_positional_clock_test_2026-10-01/SPACEFORM_FREEZE.json",
+    "udt_finite_positional_clock_test_2026-10-01/WORK_ORDER.md",
+    "udt_finite_positional_clock_test_2026-10-01/WORK_RECORD.md",
+    "udt_finite_positional_clock_test_2026-10-01/check_saved_kasner_readouts.py",
+    "udt_finite_positional_clock_test_2026-10-01/check_spaceform.py",
+    "udt_finite_positional_clock_test_2026-10-01/checks/draft_coherence.json",
+    "udt_finite_positional_clock_test_2026-10-01/checks/draft_coherence.stderr",
+    "udt_finite_positional_clock_test_2026-10-01/checks/draft_coherence.stdout",
+    "udt_finite_positional_clock_test_2026-10-01/checks/prebinding_normal.json",
+    "udt_finite_positional_clock_test_2026-10-01/checks/prebinding_normal.stderr",
+    "udt_finite_positional_clock_test_2026-10-01/checks/prebinding_normal.stdout",
+    "udt_finite_positional_clock_test_2026-10-01/checks/saved_kasner.json",
+    "udt_finite_positional_clock_test_2026-10-01/checks/saved_kasner.stderr",
+    "udt_finite_positional_clock_test_2026-10-01/checks/saved_kasner.stdout",
+    "udt_finite_positional_clock_test_2026-10-01/checks/spaceform.json",
+    "udt_finite_positional_clock_test_2026-10-01/checks/spaceform.stderr",
+    "udt_finite_positional_clock_test_2026-10-01/checks/spaceform.stdout",
+    "udt_finite_positional_clock_test_2026-10-01/fidelity/CANDIDATE_REVIEW.json",
+    "udt_finite_positional_clock_test_2026-10-01/fidelity/CANDIDATE_REVIEW.md",
+    "udt_finite_positional_clock_test_2026-10-01/fidelity/CONDITIONAL_NET_REQUIREMENT_REVIEW.json",
+    "udt_finite_positional_clock_test_2026-10-01/fidelity/CONDITIONAL_NET_REQUIREMENT_REVIEW.md",
+    "udt_finite_positional_clock_test_2026-10-01/fidelity/SOURCE_FIRST.md",
+    "udt_finite_positional_clock_test_2026-10-01/fidelity/SOURCE_SNAPSHOT.json",
+    "udt_finite_positional_clock_test_2026-10-01/math/CANDIDATE_REVIEW.md",
+    "udt_finite_positional_clock_test_2026-10-01/math/CANDIDATE_REVIEW_RECEIPT.json",
+    "udt_finite_positional_clock_test_2026-10-01/math/DERIVATION.md",
+    "udt_finite_positional_clock_test_2026-10-01/math/DERIVATION_FREEZE.json",
+    "udt_finite_positional_clock_test_2026-10-01/math/PRECHECK_FREEZE.json",
+    "udt_finite_positional_clock_test_2026-10-01/math/SOURCE_FIRST.md",
+    "udt_finite_positional_clock_test_2026-10-01/math/SOURCE_HASHES.json",
+    "udt_finite_positional_clock_test_2026-10-01/math/check_kasner_higher.py",
+    "udt_finite_positional_clock_test_2026-10-01/math/kasner_higher.json",
+    "udt_finite_positional_clock_test_2026-10-01/math/kasner_higher.stderr",
+    "udt_finite_positional_clock_test_2026-10-01/math/kasner_higher.stdout"
+  ],
   "accepted_sha256": {
     ".gitignore": "8a2710f5923ba86b41a461e040282ecd520ce155cb17b09458e1d1d613ddeb7a",
     "AGENTS.md": "bcab9b67305e0314af9eaf25162d203660eae8f2ff4fd87d17e83588970ef38d",
@@ -12195,17 +12252,5 @@
     "udt_time_live_smoke_gate_2026-09-30/smoke_runner.py": "724bf5405dd9596bff343a0a6967393d26a0a0c7529124e9a0bfdd70e569d52f",
     "verify_current_scientific_premises.py": "a983c2456ce3a122629a116c735b32b96e055829ed3012fb416fabfa9b0b8127",
     "verify_udt_development.py": "555e2733fa04c609874802369983f73b4a1d8a79610488d9dc732b1acfb0c2fa"
-  },
-  "reviewers": [
-    {
-      "context": "/root/fpc_math",
-      "attestation": "udt_finite_positional_clock_test_2026-10-01/math/FINAL_ATTESTATION.json",
-      "sha256": "31948aa11b213b8e6b477bce4cf1d70f501f0c10c14e9dd7d60b2ab8f660acbd"
-    },
-    {
-      "context": "/root/fpc_fidelity",
-      "attestation": "udt_finite_positional_clock_test_2026-10-01/fidelity/FINAL_ATTESTATION.json",
-      "sha256": "f10f00e56a05e586f15c14c4352590cbfc020a8fe3ff2fcd5fd898c90d56d912"
-    }
-  ]
+  }
 }

@@ -1,0 +1,25 @@
+{
+  "accepted_files_hashed": 12193,
+  "prior_files": 12149,
+  "unchanged_prior_hash_bindings": 12143,
+  "changed_prior_files": [
+    "CURRENT_RESEARCH_PROGRAM.md",
+    "HANDOFF.md",
+    "LIVE.md",
+    "UDT_DEVELOPMENT.md",
+    "development_reconstruction_2026-09-29/DEVELOPMENT_GRAPH.json",
+    "development_reconstruction_2026-09-29/RECENT_DISPOSITIONS.tsv"
+  ],
+  "new_files": 44,
+  "all_accepted_hashes_match": true,
+  "prior_map_missing_paths": 0,
+  "old_graph_sources_edges_and_review_support_preserved": true,
+  "old_disposition_rows_preserved": 39,
+  "current_disposition_rows": 40,
+  "generated_orientation_matches": true,
+  "registry_canon_unchanged_against_HEAD": true,
+  "registry_canon_in_accepted_map": false,
+  "protected_payloads_accessed": 0,
+  "initial_bookkeeping_check_failure": "Initial check assumed registry/CANON were accepted-map keys; KeyError at registry after preceding map/graph checks. Corrected by explicit HEAD-byte comparison; no source or scientific data changed.",
+  "scope": "Byte correspondence for inherited files, not fresh scientific audit. Scientific review limited to FPC1 changed argument and exact load-bearing sources."
+}

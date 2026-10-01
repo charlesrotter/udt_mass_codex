@@ -1,0 +1,12 @@
+{
+  "utc": "2026-10-01T16:47:36.594677+00:00",
+  "stage": "AUTHOR_EXACT_CANDIDATE_BEFORE_EXECUTED_ANCHOR",
+  "files_sha256": {
+    "udt_finite_positional_clock_test_2026-10-01/SPACEFORM_DERIVATION.md": "f5a8d91b349794862550453224459edfe0ec629b856b42e4a7dd4b7ac3ce1170",
+    "udt_finite_positional_clock_test_2026-10-01/PRIMARY_METHOD_REFERENCES.md": "8b6cd44ae553eb4c5db3ffc75b86c0752f771e2960007431b4adfdfc67357ee1",
+    "udt_finite_positional_clock_test_2026-10-01/check_spaceform.py": "f3c9be585d4f5a17c9655a159c25703f6b73ba3cfa2b402af0169b0ac7a6f5ca",
+    "udt_finite_positional_clock_test_2026-10-01/WORK_ORDER.md": "e83e8523fb2abe72f9e482e1935c4e5a293c0dec0b5e7286b79fe12a0239618f",
+    "udt_finite_positional_clock_test_2026-10-01/SNAPSHOT.json": "dbf12732ae56196d11074a7baff2256c3126309c586de906bdfd8ea20df85847"
+  },
+  "exposure": "Parent own analytic derivation preceded math reviewer brief concordance; code/proof frozen before reading reviewer full derivation. Same model/SymPy expected."
+}

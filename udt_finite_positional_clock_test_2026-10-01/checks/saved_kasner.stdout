@@ -1,0 +1,25 @@
+{
+  "status": "PASS",
+  "saved_series_sha256": "4748e6779990d976a0683bfe6a0f2f9a21605ad820c517d5e683c5dfb5062f1b",
+  "readouts": [
+    [
+      "22*L**4/243 - 4*L**3/27 + 2*L**2/9",
+      "50*L**4/27 - 28*L**3/27 + 2*L**2/3"
+    ],
+    [
+      "-43*L**4/486 + 2*L**3/27 - L**2/9",
+      "-5*L**4/6 + 14*L**3/27 - L**2/3"
+    ],
+    [
+      "0",
+      "0"
+    ],
+    [
+      "0",
+      "0"
+    ]
+  ],
+  "principal_axis_mean_log_outgoing": "-7*L**4/243",
+  "principal_axis_mean_log_return": "5*L**4/81",
+  "scope": "Parent endpoint-frequency recomputation using saved arrival/momentum series. Separate code, shared saved inputs and SymPy; not independent geodesic integration or independent confirmation of truncation/remainder."
+}

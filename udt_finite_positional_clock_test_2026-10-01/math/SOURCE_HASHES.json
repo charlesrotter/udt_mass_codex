@@ -1,0 +1,19 @@
+{
+  "utc": "2026-10-01T16:41:59.731366+00:00",
+  "source_hashes": {
+    "AGENTS.md": "bcab9b67305e0314af9eaf25162d203660eae8f2ff4fd87d17e83588970ef38d",
+    "CLAUDE.md": "4ad2e773defb89cc79541fd0ababd75af5a3344ab134ee83722dfd943966e6e4",
+    "LIVE.md": "87dc19e2eb1a6bd8058d65c8b7b1f94da6a871b99fdbaab1d96f5ee0f3d7ce4d",
+    "HANDOFF.md": "998e3e46c78f06973d31e8c58d24ce347c4b878284bd749c2d997951f30d2ce2",
+    "CURRENT_RESEARCH_PROGRAM.md": "2f7761185f847cff41ce518106ddd3e6f80fb9b99d3bd12e87d1618c04576605",
+    "CURRENT_SCIENTIFIC_PREMISES.md": "6b708f351b478dde0c6a93e8f29de08eae06533ba4fb789f79fd03bda1512718",
+    "CURRENT_SCIENTIFIC_PREMISES.tsv": "7a3d69d5a0bc3ac98e2ebe2bb0c6d029df30071bf403baffed2223a193dc720b",
+    "UDT_DEVELOPMENT.md": "d6707b1215930ee34269d1758f2608c6ac198ec1547e5b373c8ee97586b6638a",
+    "udt_finite_positional_clock_test_2026-10-01/WORK_ORDER.md": "e83e8523fb2abe72f9e482e1935c4e5a293c0dec0b5e7286b79fe12a0239618f",
+    "udt_finite_positional_clock_test_2026-10-01/SNAPSHOT.json": "dbf12732ae56196d11074a7baff2256c3126309c586de906bdfd8ea20df85847",
+    "udt_positional_selection_whiteboard_2026-10-01/REVIEWED_RESULT.md": "1b217aa30932d3986557abb7e95f7d1e8a8196946e75091794b1ef06058e2911",
+    "udt_positional_selection_whiteboard_2026-10-01/tests/check_kasner_cross.py": "0059c083843c8fed0358ec0b91c165dd33f9acd3182008b752ce8f7ab5524cc6",
+    "udt_positional_selection_whiteboard_2026-10-01/geometry/SOURCE_FIRST.md": "08d7e12be225f71d02cb2b68766c92b05b26d3af8bca23af5cfb507f44e3be98",
+    "udt_g212_observer_equivalence_history_bridge_whiteboard_2026-08-22/AUDIT_REPORT.md": "4d2176828922f0036bb65c106f6de3207f187e66e60d26669cdc1acaf24f93b1"
+  }
+}
