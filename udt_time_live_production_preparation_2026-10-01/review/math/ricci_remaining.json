@@ -1,0 +1,30 @@
+{
+  "command": [
+    "python3",
+    "udt_three_spatial_smoke_2026-10-01/review/equations_recovery/history_ricci.py",
+    "udt_time_live_production_preparation_2026-10-01/review/math/RICCI_REMAINING.json",
+    "udt_time_live_production_preparation_2026-10-01/histories/axial3_n24_window0.npz",
+    "udt_time_live_production_preparation_2026-10-01/histories/axial3_n24_window1.npz",
+    "udt_time_live_production_preparation_2026-10-01/histories/axial3_n24_window2.npz",
+    "udt_time_live_production_preparation_2026-10-01/histories/oblique1_n24_half_window0.npz",
+    "udt_time_live_production_preparation_2026-10-01/histories/oblique1_n24_half_window1.npz",
+    "udt_time_live_production_preparation_2026-10-01/histories/oblique1_n24_half_window2.npz",
+    "udt_time_live_production_preparation_2026-10-01/histories/oblique1_n32_window0.npz",
+    "udt_time_live_production_preparation_2026-10-01/histories/oblique1_n32_window1.npz",
+    "udt_time_live_production_preparation_2026-10-01/histories/oblique1_n32_window2.npz",
+    "udt_time_live_production_preparation_2026-10-01/histories/oblique3_n24_window0.npz",
+    "udt_time_live_production_preparation_2026-10-01/histories/oblique3_n24_window1.npz",
+    "udt_time_live_production_preparation_2026-10-01/histories/oblique3_n24_window2.npz",
+    "udt_time_live_production_preparation_2026-10-01/histories/phase1_n24_window0.npz",
+    "udt_time_live_production_preparation_2026-10-01/histories/phase1_n24_window1.npz",
+    "udt_time_live_production_preparation_2026-10-01/histories/phase1_n24_window2.npz"
+  ],
+  "cwd": "/home/udt-admin/udt_mass_codex",
+  "started_utc": "2026-10-01T01:33:07.265675+00:00",
+  "duration_seconds": 32.37275276600849,
+  "returncode": 0,
+  "timeout": false,
+  "address_space_bytes": 2147483648,
+  "cpu_seconds": 180,
+  "maxrss_kib": 422396
+}

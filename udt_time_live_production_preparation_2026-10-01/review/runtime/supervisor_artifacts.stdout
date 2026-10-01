@@ -1,0 +1,64 @@
+{
+  "status": "ACTUAL_SUPERVISOR_SMOKE_REVIEW_PASS",
+  "states": [
+    {
+      "case": "case_a",
+      "bitwise_equal_to_uninterrupted_engineering": true,
+      "payload_sha256": "e0c0fc777d13f36dea4af8861e8299906ddf5a6bbc9a19e0b7312b2b7c52eccb"
+    },
+    {
+      "case": "case_b",
+      "bitwise_equal_to_uninterrupted_engineering": true,
+      "payload_sha256": "e0c0fc777d13f36dea4af8861e8299906ddf5a6bbc9a19e0b7312b2b7c52eccb"
+    },
+    {
+      "case": "case_c",
+      "bitwise_equal_to_uninterrupted_engineering": true,
+      "payload_sha256": "e0c0fc777d13f36dea4af8861e8299906ddf5a6bbc9a19e0b7312b2b7c52eccb"
+    }
+  ],
+  "attempts": [
+    {
+      "path": "udt_time_live_production_preparation_2026-10-01/supervisor_smoke/runtime_pause/attempts/00000_case_a",
+      "receipt_sha256": "607824016eca94ec0622fad61501c79ec0afdbb8ab6b033809bfa693d47e15ed",
+      "returncode": 0,
+      "resume": false,
+      "worker_status": "TPP1_RUN_COMPLETE",
+      "stop_reason": null,
+      "wall_seconds": 1.653388144040946
+    },
+    {
+      "path": "udt_time_live_production_preparation_2026-10-01/supervisor_smoke/runtime_pause/attempts/00001_case_b",
+      "receipt_sha256": "a3f7279a3c0eec878bbffe2e096a3b5218b63906b56e7b5523102d5766133cfb",
+      "returncode": 0,
+      "resume": false,
+      "worker_status": "TPP1_RUN_COMPLETE",
+      "stop_reason": null,
+      "wall_seconds": 1.6039475669967942
+    },
+    {
+      "path": "udt_time_live_production_preparation_2026-10-01/supervisor_smoke/runtime_signal/attempts/00000_case_c",
+      "receipt_sha256": "f03bc4129b178f115d1c86f637dd8a921c7df2ab0828805804ad7f28fcb77e5c",
+      "returncode": 75,
+      "resume": false,
+      "worker_status": "CHECKPOINTED_STOP",
+      "stop_reason": "SIGNAL",
+      "wall_seconds": 1.1031170850037597
+    },
+    {
+      "path": "udt_time_live_production_preparation_2026-10-01/supervisor_smoke/runtime_signal/attempts/00001_case_c",
+      "receipt_sha256": "43d86efafe1121ec33af30b86331aa044f6a5a80da170b92293263e0736aa6da",
+      "returncode": 0,
+      "resume": true,
+      "worker_status": "TPP1_RUN_COMPLETE",
+      "stop_reason": null,
+      "wall_seconds": 1.5540797029971145
+    }
+  ],
+  "supervisor_worker_attempts": 4,
+  "supervisor_worker_wall_seconds": 5.914532499038614,
+  "total_worker_attempts": 26,
+  "total_worker_wall_seconds": 301.45759805006674,
+  "smoke_summary_sha256": "70dd071c6c03d2bfadcbac4422ce7b3f2331036a4120a96839346df7843b00d0",
+  "scope": "Actual queue pause/resume/idempotence and forwarded SIGTERM with direct saved final arrays; no universal crash or multi-hour guarantee."
+}

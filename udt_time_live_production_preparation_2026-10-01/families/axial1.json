@@ -1,0 +1,83 @@
+{
+  "modes": [
+    {
+      "k": [
+        1,
+        0,
+        0
+      ],
+      "matrix": [
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          0,
+          0,
+          -1
+        ]
+      ],
+      "phase": 0.17,
+      "amplitude": 0.06
+    },
+    {
+      "k": [
+        0,
+        1,
+        0
+      ],
+      "matrix": [
+        [
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          -1
+        ]
+      ],
+      "phase": 0.43,
+      "amplitude": 0.045
+    },
+    {
+      "k": [
+        0,
+        0,
+        1
+      ],
+      "matrix": [
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0
+        ]
+      ],
+      "phase": -0.29,
+      "amplitude": 0.03
+    }
+  ],
+  "scope": "supplied free-and-explored TT modes; no isometry-inequivalence claim"
+}

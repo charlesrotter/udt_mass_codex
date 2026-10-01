@@ -1,0 +1,22 @@
+{
+  "status": "PASS",
+  "cases": [
+    {
+      "case": "output_reserve",
+      "reason": "ANALYSIS_OUTPUT_RESERVE",
+      "no_output_created": true
+    },
+    {
+      "case": "changed_receipt",
+      "reason": "ASSEMBLY_ATTEMPT_HASH",
+      "no_output_created": true
+    },
+    {
+      "case": "missing_initial",
+      "reason": "ASSEMBLY_INITIAL_UNBOUND",
+      "no_output_created": true
+    }
+  ],
+  "adapter_sha256": "3fc3b762dbdba2491309abbfcb72b3cfd9b8ac3ed00b2295ae64847ba89b18e4",
+  "scope": "Separate parent source and negative-path checks, not an independent scientific integrator"
+}

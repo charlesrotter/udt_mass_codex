@@ -1,0 +1,855 @@
+{
+  "attribution": "Reuses fixed TDS1 independent NumPy original ADM and harmonic implementations; new adapter independently reconstructs K through Lie_beta gamma. No producer code imports. Same Fourier mathematics, no independent time integrator.",
+  "kind": "initial",
+  "limit": 2e-05,
+  "numpy": "2.2.6",
+  "reused_independent_sources": {
+    "udt_three_spatial_smoke_2026-10-01/review/data/check_constraints.py": "f10e6e0b512a6f2078e71cb32b8972005356c2555fa25ef36832bdb20bc947fc",
+    "udt_three_spatial_smoke_2026-10-01/review/data/check_harmonic.py": "2be7d388f44bd7de631b45d4699a4b9dabf1c96b3fb650342cf200d0c019c7c9"
+  },
+  "rows": [
+    {
+      "dtype": "float64",
+      "gram_rank_scope": "excludes constant-coordinate translation symmetry only; not arbitrary Killing fields",
+      "hamiltonian_abs_max": 2.184918912462308e-13,
+      "harmonic_covector_abs_max": 4.135553661674396e-15,
+      "harmonic_vector_abs_max": 4.22165574628416e-15,
+      "independent_mode_checks": [
+        {
+          "frobenius_norm": 1.4142135623730951,
+          "k": [
+            1.0,
+            0.0,
+            0.0
+          ],
+          "trace": 0.0,
+          "transversality": 0.0
+        },
+        {
+          "frobenius_norm": 1.4142135623730951,
+          "k": [
+            0.0,
+            1.0,
+            0.0
+          ],
+          "trace": 0.0,
+          "transversality": 0.0
+        },
+        {
+          "frobenius_norm": 1.4142135623730951,
+          "k": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "trace": 0.0,
+          "transversality": 0.0
+        }
+      ],
+      "independent_svd_mode_reconstruction_max": 2.7755575615628914e-17,
+      "index": null,
+      "input": "udt_time_live_production_preparation_2026-10-01/initial/axial1_n16.npz",
+      "input_sha256": "bf6feaa061a6fec8c64c5ff8e1cdb5cc28765d80aa5979d31cbdce563e4a98a4",
+      "invalid_harmonic_velocity_caught": 0.010000000000000342,
+      "lapse_minmax": [
+        1.0,
+        1.0
+      ],
+      "momentum_abs_max_by_component": [
+        4.278435244975398e-14,
+        4.16463738495132e-15,
+        1.2833294539896234e-15
+      ],
+      "scalar_curvature_abs_max": 0.0499200359128506,
+      "seed_divergence_abs_max": 0.0,
+      "seed_trace_abs_max": 5.551115123125783e-17,
+      "shape": [
+        16,
+        16,
+        16,
+        3,
+        3
+      ],
+      "shift_abs_max": 0.0,
+      "spatial_derivative_gram_eigenvalues": [
+        4.9885519588463056e-05,
+        0.00013319297934796622,
+        0.00019955853641815267
+      ],
+      "spatial_derivative_gram_rank": 3,
+      "spatial_metric_eigenvalue_minmax": [
+        0.9795610439317287,
+        1.0263514423427424
+      ],
+      "time": null,
+      "trace_K_minmax": [
+        -1.0000000000000004,
+        -0.9999999999999996
+      ]
+    },
+    {
+      "dtype": "float64",
+      "gram_rank_scope": "excludes constant-coordinate translation symmetry only; not arbitrary Killing fields",
+      "hamiltonian_abs_max": 6.228351168147128e-13,
+      "harmonic_covector_abs_max": 1.569057384021022e-15,
+      "harmonic_vector_abs_max": 1.553450028327257e-15,
+      "independent_mode_checks": [
+        {
+          "frobenius_norm": 1.4142135623730951,
+          "k": [
+            1.0,
+            0.0,
+            0.0
+          ],
+          "trace": 0.0,
+          "transversality": 0.0
+        },
+        {
+          "frobenius_norm": 1.4142135623730951,
+          "k": [
+            0.0,
+            1.0,
+            0.0
+          ],
+          "trace": 0.0,
+          "transversality": 0.0
+        },
+        {
+          "frobenius_norm": 1.4142135623730951,
+          "k": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "trace": 0.0,
+          "transversality": 0.0
+        }
+      ],
+      "independent_svd_mode_reconstruction_max": 1.1102230246251565e-16,
+      "index": null,
+      "input": "udt_time_live_production_preparation_2026-10-01/initial/axial1_n24.npz",
+      "input_sha256": "8d3ff71f81c38c06b8c5c64cebd8a53cf89c1648664e11f1c9f2cb623b90c695",
+      "invalid_harmonic_velocity_caught": 0.010000000000000453,
+      "lapse_minmax": [
+        1.0,
+        1.0
+      ],
+      "momentum_abs_max_by_component": [
+        4.145934897475945e-15,
+        3.481590016285452e-15,
+        2.952390935895277e-15
+      ],
+      "scalar_curvature_abs_max": 0.0499016193552129,
+      "seed_divergence_abs_max": 0.0,
+      "seed_trace_abs_max": 5.551115123125783e-17,
+      "shape": [
+        24,
+        24,
+        24,
+        3,
+        3
+      ],
+      "shift_abs_max": 0.0,
+      "spatial_derivative_gram_eigenvalues": [
+        4.988551958846296e-05,
+        0.0001331929793479664,
+        0.0001995585364181524
+      ],
+      "spatial_derivative_gram_rank": 3,
+      "spatial_metric_eigenvalue_minmax": [
+        0.9796394508077616,
+        1.0262883602681427
+      ],
+      "time": null,
+      "trace_K_minmax": [
+        -1.0000000000000004,
+        -0.9999999999999994
+      ]
+    },
+    {
+      "dtype": "float64",
+      "gram_rank_scope": "excludes constant-coordinate translation symmetry only; not arbitrary Killing fields",
+      "hamiltonian_abs_max": 1.2356782264077992e-12,
+      "harmonic_covector_abs_max": 1.9792652759809126e-15,
+      "harmonic_vector_abs_max": 1.9732654519134187e-15,
+      "independent_mode_checks": [
+        {
+          "frobenius_norm": 1.4142135623730951,
+          "k": [
+            1.0,
+            0.0,
+            0.0
+          ],
+          "trace": 0.0,
+          "transversality": 0.0
+        },
+        {
+          "frobenius_norm": 1.4142135623730951,
+          "k": [
+            0.0,
+            1.0,
+            0.0
+          ],
+          "trace": 0.0,
+          "transversality": 0.0
+        },
+        {
+          "frobenius_norm": 1.4142135623730951,
+          "k": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "trace": 0.0,
+          "transversality": 0.0
+        }
+      ],
+      "independent_svd_mode_reconstruction_max": 2.7755575615628914e-17,
+      "index": null,
+      "input": "udt_time_live_production_preparation_2026-10-01/initial/axial1_n32.npz",
+      "input_sha256": "78b2198ac5704d5e542000aec31f966c387c742c4f1d696436dd11ae49fbc521",
+      "invalid_harmonic_velocity_caught": 0.010000000000000453,
+      "lapse_minmax": [
+        1.0,
+        1.0
+      ],
+      "momentum_abs_max_by_component": [
+        5.307142529262232e-15,
+        4.749672877224498e-15,
+        3.418557212482576e-15
+      ],
+      "scalar_curvature_abs_max": 0.05011235347465015,
+      "seed_divergence_abs_max": 0.0,
+      "seed_trace_abs_max": 5.551115123125783e-17,
+      "shape": [
+        32,
+        32,
+        32,
+        3,
+        3
+      ],
+      "shift_abs_max": 0.0,
+      "spatial_derivative_gram_eigenvalues": [
+        4.988551958846305e-05,
+        0.00013319297934796614,
+        0.00019955853641815267
+      ],
+      "spatial_derivative_gram_rank": 3,
+      "spatial_metric_eigenvalue_minmax": [
+        0.9795604244259792,
+        1.026383338700787
+      ],
+      "time": null,
+      "trace_K_minmax": [
+        -1.0000000000000004,
+        -0.9999999999999996
+      ]
+    },
+    {
+      "dtype": "float64",
+      "gram_rank_scope": "excludes constant-coordinate translation symmetry only; not arbitrary Killing fields",
+      "hamiltonian_abs_max": 1.2033528873356403e-06,
+      "harmonic_covector_abs_max": 4.416600306234158e-08,
+      "harmonic_vector_abs_max": 4.502332934547881e-08,
+      "independent_mode_checks": [
+        {
+          "frobenius_norm": 1.4142135623730951,
+          "k": [
+            1.0,
+            0.0,
+            0.0
+          ],
+          "trace": 0.0,
+          "transversality": 0.0
+        },
+        {
+          "frobenius_norm": 1.4142135623730951,
+          "k": [
+            0.0,
+            1.0,
+            0.0
+          ],
+          "trace": 0.0,
+          "transversality": 0.0
+        },
+        {
+          "frobenius_norm": 1.4142135623730951,
+          "k": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "trace": 0.0,
+          "transversality": 0.0
+        }
+      ],
+      "independent_svd_mode_reconstruction_max": 6.938893903907228e-18,
+      "index": null,
+      "input": "udt_time_live_production_preparation_2026-10-01/initial/axial1_n8.npz",
+      "input_sha256": "527b2da7c4de6de31fe2bdb25263b95c7ccd42f09c5d805982c0bfc22aefaf41",
+      "invalid_harmonic_velocity_caught": 0.010000000000000342,
+      "lapse_minmax": [
+        1.0,
+        1.0
+      ],
+      "momentum_abs_max_by_component": [
+        2.1815755598102865e-07,
+        9.285217690601158e-08,
+        1.09018053168249e-08
+      ],
+      "scalar_curvature_abs_max": 0.046993504422527324,
+      "seed_divergence_abs_max": 0.0,
+      "seed_trace_abs_max": 5.551115123125783e-17,
+      "shape": [
+        8,
+        8,
+        8,
+        3,
+        3
+      ],
+      "shift_abs_max": 0.0,
+      "spatial_derivative_gram_eigenvalues": [
+        4.988551958846429e-05,
+        0.00013319297934793033,
+        0.0001995585364176444
+      ],
+      "spatial_derivative_gram_rank": 3,
+      "spatial_metric_eigenvalue_minmax": [
+        0.9809581766697286,
+        1.0248689545534926
+      ],
+      "time": null,
+      "trace_K_minmax": [
+        -1.0000000000000002,
+        -0.9999999999999997
+      ]
+    },
+    {
+      "dtype": "float64",
+      "gram_rank_scope": "excludes constant-coordinate translation symmetry only; not arbitrary Killing fields",
+      "hamiltonian_abs_max": 6.403766406037903e-13,
+      "harmonic_covector_abs_max": 1.700029006457271e-15,
+      "harmonic_vector_abs_max": 1.6589635058907884e-15,
+      "independent_mode_checks": [
+        {
+          "frobenius_norm": 1.4142135623730951,
+          "k": [
+            1.0,
+            0.0,
+            0.0
+          ],
+          "trace": 0.0,
+          "transversality": 0.0
+        },
+        {
+          "frobenius_norm": 1.4142135623730951,
+          "k": [
+            0.0,
+            1.0,
+            0.0
+          ],
+          "trace": 0.0,
+          "transversality": 0.0
+        },
+        {
+          "frobenius_norm": 1.4142135623730951,
+          "k": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "trace": 0.0,
+          "transversality": 0.0
+        }
+      ],
+      "independent_svd_mode_reconstruction_max": 1.1102230246251565e-16,
+      "index": null,
+      "input": "udt_time_live_production_preparation_2026-10-01/initial/axial3_n24.npz",
+      "input_sha256": "5386bead1d2edf9688cadf3804d76626c6973d7bda317f1ce28cad37951a4064",
+      "invalid_harmonic_velocity_caught": 0.010000000000000342,
+      "lapse_minmax": [
+        1.0,
+        1.0
+      ],
+      "momentum_abs_max_by_component": [
+        6.165857754925064e-15,
+        3.982925100842749e-15,
+        3.142451576731986e-15
+      ],
+      "scalar_curvature_abs_max": 0.17542152721451965,
+      "seed_divergence_abs_max": 0.0,
+      "seed_trace_abs_max": 1.1102230246251565e-16,
+      "shape": [
+        24,
+        24,
+        24,
+        3,
+        3
+      ],
+      "shift_abs_max": 0.0,
+      "spatial_derivative_gram_eigenvalues": [
+        0.00044091821450161856,
+        0.0011709479742028199,
+        0.0017650205954571018
+      ],
+      "spatial_derivative_gram_rank": 3,
+      "spatial_metric_eigenvalue_minmax": [
+        0.9522508632485656,
+        1.0992642945280742
+      ],
+      "time": null,
+      "trace_K_minmax": [
+        -1.0000000000000004,
+        -0.9999999999999996
+      ]
+    },
+    {
+      "dtype": "float64",
+      "gram_rank_scope": "excludes constant-coordinate translation symmetry only; not arbitrary Killing fields",
+      "hamiltonian_abs_max": 4.974909373345326e-13,
+      "harmonic_covector_abs_max": 9.674552825522653e-15,
+      "harmonic_vector_abs_max": 9.640179176737421e-15,
+      "independent_mode_checks": [
+        {
+          "frobenius_norm": 1.4142135623730956,
+          "k": [
+            1.0,
+            1.0,
+            0.0
+          ],
+          "trace": 2.220446049250313e-16,
+          "transversality": 0.0
+        },
+        {
+          "frobenius_norm": 1.4142135623730951,
+          "k": [
+            0.0,
+            1.0,
+            1.0
+          ],
+          "trace": 0.0,
+          "transversality": 2.220446049250314e-16
+        },
+        {
+          "frobenius_norm": 1.4142135623730951,
+          "k": [
+            1.0,
+            0.0,
+            1.0
+          ],
+          "trace": 0.0,
+          "transversality": 0.0
+        },
+        {
+          "frobenius_norm": 1.4142135623730951,
+          "k": [
+            1.0,
+            -1.0,
+            1.0
+          ],
+          "trace": 0.0,
+          "transversality": 2.220446049250313e-16
+        }
+      ],
+      "independent_svd_mode_reconstruction_max": 1.1102230246251565e-16,
+      "index": null,
+      "input": "udt_time_live_production_preparation_2026-10-01/initial/oblique1_n16.npz",
+      "input_sha256": "4bb4644749698bf7828657171333b8a5cd351bbcd19aa13d720254d56b8cb16e",
+      "invalid_harmonic_velocity_caught": 0.010000000000000342,
+      "lapse_minmax": [
+        1.0,
+        1.0
+      ],
+      "momentum_abs_max_by_component": [
+        2.3110072883136823e-13,
+        2.985441754921325e-13,
+        1.4228407948374544e-13
+      ],
+      "scalar_curvature_abs_max": 0.1213201280893616,
+      "seed_divergence_abs_max": 9.296992195330752e-16,
+      "seed_trace_abs_max": 1.6653345369377348e-16,
+      "shape": [
+        16,
+        16,
+        16,
+        3,
+        3
+      ],
+      "shift_abs_max": 0.0,
+      "spatial_derivative_gram_eigenvalues": [
+        0.00013951230053874258,
+        0.00016745048289715827,
+        0.0005284951835902167
+      ],
+      "spatial_derivative_gram_rank": 3,
+      "spatial_metric_eigenvalue_minmax": [
+        0.9749751620013916,
+        1.031832233344242
+      ],
+      "time": null,
+      "trace_K_minmax": [
+        -1.0000000000000004,
+        -0.9999999999999996
+      ]
+    },
+    {
+      "dtype": "float64",
+      "gram_rank_scope": "excludes constant-coordinate translation symmetry only; not arbitrary Killing fields",
+      "hamiltonian_abs_max": 7.377431998634165e-13,
+      "harmonic_covector_abs_max": 1.7512033489985868e-15,
+      "harmonic_vector_abs_max": 1.730851208719005e-15,
+      "independent_mode_checks": [
+        {
+          "frobenius_norm": 1.4142135623730956,
+          "k": [
+            1.0,
+            1.0,
+            0.0
+          ],
+          "trace": 2.220446049250313e-16,
+          "transversality": 0.0
+        },
+        {
+          "frobenius_norm": 1.4142135623730951,
+          "k": [
+            0.0,
+            1.0,
+            1.0
+          ],
+          "trace": 0.0,
+          "transversality": 2.220446049250314e-16
+        },
+        {
+          "frobenius_norm": 1.4142135623730951,
+          "k": [
+            1.0,
+            0.0,
+            1.0
+          ],
+          "trace": 0.0,
+          "transversality": 0.0
+        },
+        {
+          "frobenius_norm": 1.4142135623730951,
+          "k": [
+            1.0,
+            -1.0,
+            1.0
+          ],
+          "trace": 0.0,
+          "transversality": 2.220446049250313e-16
+        }
+      ],
+      "independent_svd_mode_reconstruction_max": 2.220446049250313e-16,
+      "index": null,
+      "input": "udt_time_live_production_preparation_2026-10-01/initial/oblique1_n24.npz",
+      "input_sha256": "d9723454dd54250aca09da91d2ad363072ab502f27ef84ceb329777357f2073f",
+      "invalid_harmonic_velocity_caught": 0.010000000000000453,
+      "lapse_minmax": [
+        1.0,
+        1.0
+      ],
+      "momentum_abs_max_by_component": [
+        4.956348916354547e-15,
+        4.032906820994331e-15,
+        3.9739533278654315e-15
+      ],
+      "scalar_curvature_abs_max": 0.12163591562076742,
+      "seed_divergence_abs_max": 2.2552499738083413e-15,
+      "seed_trace_abs_max": 1.6653345369377348e-16,
+      "shape": [
+        24,
+        24,
+        24,
+        3,
+        3
+      ],
+      "shift_abs_max": 0.0,
+      "spatial_derivative_gram_eigenvalues": [
+        0.0001395123005387424,
+        0.00016745048289715838,
+        0.000528495183590217
+      ],
+      "spatial_derivative_gram_rank": 3,
+      "spatial_metric_eigenvalue_minmax": [
+        0.9749426311264039,
+        1.0318834044965024
+      ],
+      "time": null,
+      "trace_K_minmax": [
+        -1.0000000000000004,
+        -0.9999999999999996
+      ]
+    },
+    {
+      "dtype": "float64",
+      "gram_rank_scope": "excludes constant-coordinate translation symmetry only; not arbitrary Killing fields",
+      "hamiltonian_abs_max": 1.7421619702417956e-12,
+      "harmonic_covector_abs_max": 2.2090619264392153e-15,
+      "harmonic_vector_abs_max": 2.205433187965233e-15,
+      "independent_mode_checks": [
+        {
+          "frobenius_norm": 1.4142135623730956,
+          "k": [
+            1.0,
+            1.0,
+            0.0
+          ],
+          "trace": 2.220446049250313e-16,
+          "transversality": 0.0
+        },
+        {
+          "frobenius_norm": 1.4142135623730951,
+          "k": [
+            0.0,
+            1.0,
+            1.0
+          ],
+          "trace": 0.0,
+          "transversality": 2.220446049250314e-16
+        },
+        {
+          "frobenius_norm": 1.4142135623730951,
+          "k": [
+            1.0,
+            0.0,
+            1.0
+          ],
+          "trace": 0.0,
+          "transversality": 0.0
+        },
+        {
+          "frobenius_norm": 1.4142135623730951,
+          "k": [
+            1.0,
+            -1.0,
+            1.0
+          ],
+          "trace": 0.0,
+          "transversality": 2.220446049250313e-16
+        }
+      ],
+      "independent_svd_mode_reconstruction_max": 1.1102230246251565e-16,
+      "index": null,
+      "input": "udt_time_live_production_preparation_2026-10-01/initial/oblique1_n32.npz",
+      "input_sha256": "fb5f2c3fe18912a3d63bae6df0228dd9248ece64ea75b07a8004f71338df1152",
+      "invalid_harmonic_velocity_caught": 0.010000000000000453,
+      "lapse_minmax": [
+        1.0,
+        1.0
+      ],
+      "momentum_abs_max_by_component": [
+        6.078904740691726e-15,
+        5.4903998014665945e-15,
+        4.550992829116529e-15
+      ],
+      "scalar_curvature_abs_max": 0.12172379609357281,
+      "seed_divergence_abs_max": 2.4079265832812597e-15,
+      "seed_trace_abs_max": 1.6653345369377348e-16,
+      "shape": [
+        32,
+        32,
+        32,
+        3,
+        3
+      ],
+      "shift_abs_max": 0.0,
+      "spatial_derivative_gram_eigenvalues": [
+        0.00013951230053874258,
+        0.00016745048289715846,
+        0.0005284951835902165
+      ],
+      "spatial_derivative_gram_rank": 3,
+      "spatial_metric_eigenvalue_minmax": [
+        0.9748927476472982,
+        1.0319274858052352
+      ],
+      "time": null,
+      "trace_K_minmax": [
+        -1.0000000000000004,
+        -0.9999999999999996
+      ]
+    },
+    {
+      "dtype": "float64",
+      "gram_rank_scope": "excludes constant-coordinate translation symmetry only; not arbitrary Killing fields",
+      "hamiltonian_abs_max": 6.7390537594747e-13,
+      "harmonic_covector_abs_max": 2.185751579730777e-15,
+      "harmonic_vector_abs_max": 2.1536140225106105e-15,
+      "independent_mode_checks": [
+        {
+          "frobenius_norm": 1.4142135623730956,
+          "k": [
+            1.0,
+            1.0,
+            0.0
+          ],
+          "trace": 2.220446049250313e-16,
+          "transversality": 0.0
+        },
+        {
+          "frobenius_norm": 1.4142135623730951,
+          "k": [
+            0.0,
+            1.0,
+            1.0
+          ],
+          "trace": 0.0,
+          "transversality": 2.220446049250314e-16
+        },
+        {
+          "frobenius_norm": 1.4142135623730951,
+          "k": [
+            1.0,
+            0.0,
+            1.0
+          ],
+          "trace": 0.0,
+          "transversality": 0.0
+        },
+        {
+          "frobenius_norm": 1.4142135623730951,
+          "k": [
+            1.0,
+            -1.0,
+            1.0
+          ],
+          "trace": 0.0,
+          "transversality": 2.220446049250313e-16
+        }
+      ],
+      "independent_svd_mode_reconstruction_max": 4.996003610813204e-16,
+      "index": null,
+      "input": "udt_time_live_production_preparation_2026-10-01/initial/oblique3_n24.npz",
+      "input_sha256": "e67cf842d66dd3e23ebe4a55993cdec689961dca86a539750c33947d6589b5a9",
+      "invalid_harmonic_velocity_caught": 0.010000000000000453,
+      "lapse_minmax": [
+        1.0,
+        1.0
+      ],
+      "momentum_abs_max_by_component": [
+        1.8011633851067188e-14,
+        1.9539925233402755e-14,
+        1.1837753000065732e-14
+      ],
+      "scalar_curvature_abs_max": 0.3434856037262305,
+      "seed_divergence_abs_max": 3.3303061379913998e-15,
+      "seed_trace_abs_max": 2.220446049250313e-16,
+      "shape": [
+        24,
+        24,
+        24,
+        3,
+        3
+      ],
+      "shift_abs_max": 0.0,
+      "spatial_derivative_gram_eigenvalues": [
+        0.0012306910019847532,
+        0.0014757481377605877,
+        0.004658578186671819
+      ],
+      "spatial_derivative_gram_rank": 3,
+      "spatial_metric_eigenvalue_minmax": [
+        0.9473481547570327,
+        1.1136529492587843
+      ],
+      "time": null,
+      "trace_K_minmax": [
+        -1.0000000000000004,
+        -0.9999999999999996
+      ]
+    },
+    {
+      "dtype": "float64",
+      "gram_rank_scope": "excludes constant-coordinate translation symmetry only; not arbitrary Killing fields",
+      "hamiltonian_abs_max": 6.643574579356937e-13,
+      "harmonic_covector_abs_max": 1.813653394133752e-15,
+      "harmonic_vector_abs_max": 1.793745931489403e-15,
+      "independent_mode_checks": [
+        {
+          "frobenius_norm": 1.4142135623730956,
+          "k": [
+            1.0,
+            1.0,
+            0.0
+          ],
+          "trace": 2.220446049250313e-16,
+          "transversality": 0.0
+        },
+        {
+          "frobenius_norm": 1.4142135623730951,
+          "k": [
+            0.0,
+            1.0,
+            1.0
+          ],
+          "trace": 0.0,
+          "transversality": 2.220446049250314e-16
+        },
+        {
+          "frobenius_norm": 1.4142135623730951,
+          "k": [
+            1.0,
+            0.0,
+            1.0
+          ],
+          "trace": 0.0,
+          "transversality": 0.0
+        },
+        {
+          "frobenius_norm": 1.4142135623730951,
+          "k": [
+            1.0,
+            -1.0,
+            1.0
+          ],
+          "trace": 0.0,
+          "transversality": 2.220446049250313e-16
+        }
+      ],
+      "independent_svd_mode_reconstruction_max": 2.220446049250313e-16,
+      "index": null,
+      "input": "udt_time_live_production_preparation_2026-10-01/initial/phase1_n24.npz",
+      "input_sha256": "06ecc4d884662a08ad2fa8b0b620a8f76a6aba1c8b16e811516ca3185cda6093",
+      "invalid_harmonic_velocity_caught": 0.010000000000000453,
+      "lapse_minmax": [
+        1.0,
+        1.0
+      ],
+      "momentum_abs_max_by_component": [
+        4.379200994886201e-15,
+        4.386248309007357e-15,
+        3.6619470476784155e-15
+      ],
+      "scalar_curvature_abs_max": 0.12101302287841045,
+      "seed_divergence_abs_max": 1.9464925769294924e-15,
+      "seed_trace_abs_max": 1.6653345369377348e-16,
+      "shape": [
+        24,
+        24,
+        24,
+        3,
+        3
+      ],
+      "shift_abs_max": 0.0,
+      "spatial_derivative_gram_eigenvalues": [
+        0.00013951230052490593,
+        0.00016745048374582492,
+        0.0005284951837625103
+      ],
+      "spatial_derivative_gram_rank": 3,
+      "spatial_metric_eigenvalue_minmax": [
+        0.9748992859340376,
+        1.0318732891293445
+      ],
+      "time": null,
+      "trace_K_minmax": [
+        -1.0000000000000004,
+        -0.9999999999999996
+      ]
+    }
+  ],
+  "scope": "Finite saved points only, with supplied periodic marking; no continuum or generic-stability claim.",
+  "source_sha256": "f70a57f419a908f62bff0d02243f9d2f9b2c5f4a55a695dc9a2493a524a33cfc",
+  "status": "PASS"
+}

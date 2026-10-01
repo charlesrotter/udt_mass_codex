@@ -1,0 +1,918 @@
+{
+  "diagnostic_sha256": "5bcd19b27abb09b45acda4c55cdd846b2d9daed149a9bd8c44539e778f97a8c2",
+  "exact_saved_kasner": [
+    {
+      "all_saved_errors": {
+        "g": 3.894662370385049e-13,
+        "v": 7.789324740770098e-13
+      },
+      "name": "kasner_n16_half_window0"
+    },
+    {
+      "all_saved_errors": {
+        "g": 3.603606302249318e-11,
+        "v": 7.201883533980435e-11
+      },
+      "name": "kasner_n16_half_window1"
+    },
+    {
+      "all_saved_errors": {
+        "g": 2.0628476704587229e-10,
+        "v": 4.1110581605607877e-10
+      },
+      "name": "kasner_n16_half_window2"
+    },
+    {
+      "all_saved_errors": {
+        "g": 2.8814728381121313e-12,
+        "v": 5.7629456762242626e-12
+      },
+      "name": "kasner_n16_window0"
+    },
+    {
+      "all_saved_errors": {
+        "g": 5.460094598674914e-10,
+        "v": 1.0920224724486616e-09
+      },
+      "name": "kasner_n16_window1"
+    },
+    {
+      "all_saved_errors": {
+        "g": 3.171187756834115e-09,
+        "v": 6.3424607787965215e-09
+      },
+      "name": "kasner_n16_window2"
+    }
+  ],
+  "freeze_sha256": "0a0be123e517141d938a5fcd6023ce7778b9272600fde742a76704c7feaf7056",
+  "inputs_sha256": {
+    "/home/udt-admin/udt_mass_codex/udt_time_live_production_preparation_2026-10-01/histories/axial1_n16_window0.npz": "28c3922a9516efdd3b62a3901d038a67fe503a8f4e5a49932c8322833c1f5110",
+    "/home/udt-admin/udt_mass_codex/udt_time_live_production_preparation_2026-10-01/histories/axial1_n16_window1.npz": "2f657d8d6403b17483fd46c06264ed101242e1067529c88f6cc4f188f777030d",
+    "/home/udt-admin/udt_mass_codex/udt_time_live_production_preparation_2026-10-01/histories/axial1_n16_window2.npz": "2631016db6aabf4ff8dca68c289a13f9ca5363f65e611d854b1ffedb6c3cd16b",
+    "/home/udt-admin/udt_mass_codex/udt_time_live_production_preparation_2026-10-01/histories/axial1_n24_half_window0.npz": "0225428888fa49375c109803e6356195dcf36c0b031faa12f2fb3d37444be6f7",
+    "/home/udt-admin/udt_mass_codex/udt_time_live_production_preparation_2026-10-01/histories/axial1_n24_half_window1.npz": "b1c463e3b8e57a3b8179e09001ac528bd4cd0e86b249482a19d86a86e011c38e",
+    "/home/udt-admin/udt_mass_codex/udt_time_live_production_preparation_2026-10-01/histories/axial1_n24_half_window2.npz": "0fa7d55165672a3b8716746668c2d10a6ac491ddf14a6de86835ffc6bf6a33f9",
+    "/home/udt-admin/udt_mass_codex/udt_time_live_production_preparation_2026-10-01/histories/axial1_n24_window0.npz": "1e7b56a5fb09a89576aef7cac821405afea1b39fe68c0e87b45932e18be14d93",
+    "/home/udt-admin/udt_mass_codex/udt_time_live_production_preparation_2026-10-01/histories/axial1_n24_window1.npz": "33c4e9e44bc86d553b1f3fc7058aeb50f5840adceec59669ae7e88ef3b13abc3",
+    "/home/udt-admin/udt_mass_codex/udt_time_live_production_preparation_2026-10-01/histories/axial1_n24_window2.npz": "5ce1f7f9c75cc8fb57e72184b58385ff70d9434022894bc5f73acdb7f43282c5",
+    "/home/udt-admin/udt_mass_codex/udt_time_live_production_preparation_2026-10-01/histories/axial1_n32_window0.npz": "0140ecc720253dcd8718bc584dcff73d4c0d22f774b7d503fc03453ff8ae5d80",
+    "/home/udt-admin/udt_mass_codex/udt_time_live_production_preparation_2026-10-01/histories/axial1_n32_window1.npz": "5ed2df5f9990ee7ce5ccc9b11dc77c71c2b8915f94c9f6c13faecd919c090b97",
+    "/home/udt-admin/udt_mass_codex/udt_time_live_production_preparation_2026-10-01/histories/axial1_n32_window2.npz": "40684810f600a8ea8122d61ec9bb676d5ae8acca875e3bdc0dbb32b7b72a7ed1",
+    "/home/udt-admin/udt_mass_codex/udt_time_live_production_preparation_2026-10-01/histories/axial3_n24_window0.npz": "68465ee7181739b36a77728cdaae8810e4c60d48320360e2a6e037000538e362",
+    "/home/udt-admin/udt_mass_codex/udt_time_live_production_preparation_2026-10-01/histories/axial3_n24_window1.npz": "e0bd24446661ee88e25a5e2bfaf8b14982bd7be9da109277c5c00d77be0acde6",
+    "/home/udt-admin/udt_mass_codex/udt_time_live_production_preparation_2026-10-01/histories/axial3_n24_window2.npz": "d85d0a7b9991d7bdfc042118816e901a0d2d5c11db0743153636996cc1cb8c20",
+    "/home/udt-admin/udt_mass_codex/udt_time_live_production_preparation_2026-10-01/histories/kasner_n16_half_window0.npz": "28af5c8069774f5e3613eed4a1518ab52ed1f1cb850019b2ae6199650300276f",
+    "/home/udt-admin/udt_mass_codex/udt_time_live_production_preparation_2026-10-01/histories/kasner_n16_half_window1.npz": "97bfcbdf1df0ab0d640e219ebc6cd4385bb6af2d79f4be7b2d43e7eda54a5d36",
+    "/home/udt-admin/udt_mass_codex/udt_time_live_production_preparation_2026-10-01/histories/kasner_n16_half_window2.npz": "16a40cd100bbb93196748a1c645b19584903536278e388b2c2e6a832c551f632",
+    "/home/udt-admin/udt_mass_codex/udt_time_live_production_preparation_2026-10-01/histories/kasner_n16_window0.npz": "f4f2868fb39a116b2acc5280688d105fa9ddfe4e22c877b8143287229eaa6a88",
+    "/home/udt-admin/udt_mass_codex/udt_time_live_production_preparation_2026-10-01/histories/kasner_n16_window1.npz": "b7ecce6a98ba5398ad7879683a20ace92f3292c908a9150ef7c5c01dde63a8d7",
+    "/home/udt-admin/udt_mass_codex/udt_time_live_production_preparation_2026-10-01/histories/kasner_n16_window2.npz": "0c571c5764e5c5d941ac8890cba71671f78e435f048ac0f032654c63f8c4c9cf",
+    "/home/udt-admin/udt_mass_codex/udt_time_live_production_preparation_2026-10-01/histories/oblique1_n16_window0.npz": "0b6017ad84e56ef97c09346c4b4701717cd12b25b91b13624e2a82c14b3ab694",
+    "/home/udt-admin/udt_mass_codex/udt_time_live_production_preparation_2026-10-01/histories/oblique1_n16_window1.npz": "f137e52383aaac1b155eb392c645c1e73834abffddbc375a09be1285a47bff0a",
+    "/home/udt-admin/udt_mass_codex/udt_time_live_production_preparation_2026-10-01/histories/oblique1_n16_window2.npz": "d719fcd5d912cb01f44daae8fe577742794ea44a217174051a6c1a4c5fffc7c3",
+    "/home/udt-admin/udt_mass_codex/udt_time_live_production_preparation_2026-10-01/histories/oblique1_n24_half_window0.npz": "1046bf12743df4c8e72fe685bdd38b0e3fda05d1829cbd55380789ce80455db7",
+    "/home/udt-admin/udt_mass_codex/udt_time_live_production_preparation_2026-10-01/histories/oblique1_n24_half_window1.npz": "ba8ef1d8f2fec8b65393d8c9289f93010b9b24b59ca65e31496d08e78220752a",
+    "/home/udt-admin/udt_mass_codex/udt_time_live_production_preparation_2026-10-01/histories/oblique1_n24_half_window2.npz": "cc0fe3676aa015a7c8af72a72fd00d79aaaac4ed361ef0b16eacb5c845a1500b",
+    "/home/udt-admin/udt_mass_codex/udt_time_live_production_preparation_2026-10-01/histories/oblique1_n24_window0.npz": "84b93497987350ad4ef8484768998cec2d40840745e81e20ca661696bd872e9f",
+    "/home/udt-admin/udt_mass_codex/udt_time_live_production_preparation_2026-10-01/histories/oblique1_n24_window1.npz": "6355c8b68796a75d8ffa212c0f629946ae92d6902357d597456fb418bccf1a9e",
+    "/home/udt-admin/udt_mass_codex/udt_time_live_production_preparation_2026-10-01/histories/oblique1_n24_window2.npz": "3234623594870b322a5120fb98552b993bcefa1d0e032501b0cb030520d9acad",
+    "/home/udt-admin/udt_mass_codex/udt_time_live_production_preparation_2026-10-01/histories/oblique1_n32_window0.npz": "524472462bc7455f2623b37f1f2d899b207c2ac160314acf1d3fceeb49aaf5a6",
+    "/home/udt-admin/udt_mass_codex/udt_time_live_production_preparation_2026-10-01/histories/oblique1_n32_window1.npz": "83112f953fc59bffef6924b6842a5403c5ac04d166eb3d35c2ce82318d3a7e9c",
+    "/home/udt-admin/udt_mass_codex/udt_time_live_production_preparation_2026-10-01/histories/oblique1_n32_window2.npz": "c779c56738f8e9901815bcb1573ce85428a9c169c7d53104f288a2afaaebcbea",
+    "/home/udt-admin/udt_mass_codex/udt_time_live_production_preparation_2026-10-01/histories/oblique3_n24_window0.npz": "de04c6968db5b7ebf272f6c16878e55d533bcbd3f86849a722e2b55fbfd0e50a",
+    "/home/udt-admin/udt_mass_codex/udt_time_live_production_preparation_2026-10-01/histories/oblique3_n24_window1.npz": "ed8d52647fc1b48b246594e357bd4fa02bfb847d2cae971335f1adf1977a4aae",
+    "/home/udt-admin/udt_mass_codex/udt_time_live_production_preparation_2026-10-01/histories/oblique3_n24_window2.npz": "e3ce69d4cf4129db7249d30f6129d7946f5261c6b960cbfa088cc8398e0a480f",
+    "/home/udt-admin/udt_mass_codex/udt_time_live_production_preparation_2026-10-01/histories/phase1_n24_window0.npz": "d8277a87aa8f1576f70a978b0633c202f2712bd13e7a4ef0db3dc23e52e6ecdd",
+    "/home/udt-admin/udt_mass_codex/udt_time_live_production_preparation_2026-10-01/histories/phase1_n24_window1.npz": "67ce88b78c9357f66618324f85d021678e673c0fd7ae58aa44a86a18e71baeca",
+    "/home/udt-admin/udt_mass_codex/udt_time_live_production_preparation_2026-10-01/histories/phase1_n24_window2.npz": "73a138814bb131898a69d240fedf46b1fd1ca734197c99de3b9aaab10ae05c85",
+    "/home/udt-admin/udt_mass_codex/udt_time_live_production_preparation_2026-10-01/invocations/axial1_n24.stdout": "daccba487a3187be3d2994d7815b6e907acbbfe5152e72127c927c6f440e1db3",
+    "/home/udt-admin/udt_mass_codex/udt_time_live_production_preparation_2026-10-01/invocations/axial1_n24_half.stdout": "a56f3267c84b5bb55e7ba80fdcf48a541976034a46cf8d44f0691caf6df92664",
+    "/home/udt-admin/udt_mass_codex/udt_time_live_production_preparation_2026-10-01/invocations/kasner_n16.stdout": "d53f21befee063c337f4bf49c464de87553be7839d93643553976c52857c64db",
+    "/home/udt-admin/udt_mass_codex/udt_time_live_production_preparation_2026-10-01/invocations/kasner_n16_half.stdout": "f24ccaf44cbb9a2a859a025b6d4b8cc750dd207cb21dd89a46cfad8f00f79255",
+    "/home/udt-admin/udt_mass_codex/udt_time_live_production_preparation_2026-10-01/invocations/oblique1_n24.stdout": "cedcdf6ae253791edf5c9843c27ad8287c8c4eb9ed0d56298145f8fabf26e550",
+    "/home/udt-admin/udt_mass_codex/udt_time_live_production_preparation_2026-10-01/invocations/oblique1_n24_half.stdout": "06674efe3080113c2c19e907eeff1793ceeb83664f0090989480ff68a8e5ea9e",
+    "/home/udt-admin/udt_mass_codex/udt_time_live_production_preparation_2026-10-01/review/math/RICCI_FIRST.json": "0b5bcdc2d7208e5261576f1b34cf6854285311265de1a36a0ef4d33bd90da6d1",
+    "/home/udt-admin/udt_mass_codex/udt_time_live_production_preparation_2026-10-01/review/math/RICCI_REMAINING.json": "b32565ade651ec9373c34b6896b54d839926cd58754499bdf0840160c85e2b44"
+  },
+  "original_five_point_max": 6.062690340868926e-07,
+  "original_five_point_spatial_gate": "FAILED_AND_RETAINED",
+  "records": [
+    {
+      "case": "axial1_n16",
+      "center_time": 1.025,
+      "n": 16,
+      "name": "axial1_n16_window0",
+      "orders": {
+        "6": {
+          "ricci_max": 5.1005533130421554e-11,
+          "ricci_rms": 5.552446352214122e-12
+        },
+        "8": {
+          "ricci_max": 5.345657250188651e-11,
+          "ricci_rms": 5.794861024893933e-12
+        }
+      },
+      "sixth_eighth_tensor_max_difference": 2.896738404700727e-12
+    },
+    {
+      "case": "axial1_n16",
+      "center_time": 1.75,
+      "n": 16,
+      "name": "axial1_n16_window1",
+      "orders": {
+        "6": {
+          "ricci_max": 1.5306877987342205e-10,
+          "ricci_rms": 1.7669184322474226e-11
+        },
+        "8": {
+          "ricci_max": 1.5420975607582932e-10,
+          "ricci_rms": 1.7709356921117032e-11
+        }
+      },
+      "sixth_eighth_tensor_max_difference": 2.3742674493121285e-12
+    },
+    {
+      "case": "axial1_n16",
+      "center_time": 2.49,
+      "n": 16,
+      "name": "axial1_n16_window2",
+      "orders": {
+        "6": {
+          "ricci_max": 5.125244784132121e-09,
+          "ricci_rms": 6.937108933008496e-10
+        },
+        "8": {
+          "ricci_max": 5.136283620643667e-09,
+          "ricci_rms": 6.953870121577336e-10
+        }
+      },
+      "sixth_eighth_tensor_max_difference": 1.56837876019722e-11
+    },
+    {
+      "case": "axial1_n24_half",
+      "center_time": 1.025,
+      "n": 24,
+      "name": "axial1_n24_half_window0",
+      "orders": {
+        "6": {
+          "ricci_max": 5.4666327020669314e-11,
+          "ricci_rms": 5.563037056179018e-12
+        },
+        "8": {
+          "ricci_max": 5.729833274514817e-11,
+          "ricci_rms": 5.807556507828524e-12
+        }
+      },
+      "sixth_eighth_tensor_max_difference": 3.055999897583206e-12
+    },
+    {
+      "case": "axial1_n24_half",
+      "center_time": 1.75,
+      "n": 24,
+      "name": "axial1_n24_half_window1",
+      "orders": {
+        "6": {
+          "ricci_max": 7.375022814670729e-11,
+          "ricci_rms": 5.2674443908172965e-12
+        },
+        "8": {
+          "ricci_max": 7.692102510503673e-11,
+          "ricci_rms": 5.5151910398848924e-12
+        }
+      },
+      "sixth_eighth_tensor_max_difference": 4.021727395553398e-12
+    },
+    {
+      "case": "axial1_n24_half",
+      "center_time": 2.49,
+      "n": 24,
+      "name": "axial1_n24_half_window2",
+      "orders": {
+        "6": {
+          "ricci_max": 1.0759287905059978e-10,
+          "ricci_rms": 7.554549291092426e-12
+        },
+        "8": {
+          "ricci_max": 1.1473572092413065e-10,
+          "ricci_rms": 8.294237999148521e-12
+        }
+      },
+      "sixth_eighth_tensor_max_difference": 1.743727384706517e-11
+    },
+    {
+      "case": "axial1_n24",
+      "center_time": 1.025,
+      "n": 24,
+      "name": "axial1_n24_window0",
+      "orders": {
+        "6": {
+          "ricci_max": 6.36630748118705e-11,
+          "ricci_rms": 5.5535672738352414e-12
+        },
+        "8": {
+          "ricci_max": 6.605371805079585e-11,
+          "ricci_rms": 5.797222665782386e-12
+        }
+      },
+      "sixth_eighth_tensor_max_difference": 3.392952585556941e-12
+    },
+    {
+      "case": "axial1_n24",
+      "center_time": 1.75,
+      "n": 24,
+      "name": "axial1_n24_window1",
+      "orders": {
+        "6": {
+          "ricci_max": 1.2307144192647002e-10,
+          "ricci_rms": 1.5393972501016987e-11
+        },
+        "8": {
+          "ricci_max": 1.2534029369959399e-10,
+          "ricci_rms": 1.543769784303992e-11
+        }
+      },
+      "sixth_eighth_tensor_max_difference": 2.762789996779702e-12
+    },
+    {
+      "case": "axial1_n24",
+      "center_time": 2.49,
+      "n": 24,
+      "name": "axial1_n24_window2",
+      "orders": {
+        "6": {
+          "ricci_max": 8.395139028394283e-10,
+          "ricci_rms": 9.330989305859598e-11
+        },
+        "8": {
+          "ricci_max": 8.472142432047747e-10,
+          "ricci_rms": 9.431296743358967e-11
+        }
+      },
+      "sixth_eighth_tensor_max_difference": 1.6439627437137005e-11
+    },
+    {
+      "case": "axial1_n32",
+      "center_time": 1.025,
+      "n": 32,
+      "name": "axial1_n32_window0",
+      "orders": {
+        "6": {
+          "common_n16_points_max": 5.143618864167365e-11,
+          "ricci_max": 5.7497395733463463e-11,
+          "ricci_rms": 5.5327759889841295e-12
+        },
+        "8": {
+          "common_n16_points_max": 5.3769599883679575e-11,
+          "ricci_max": 6.034223121176296e-11,
+          "ricci_rms": 5.7756424765968165e-12
+        }
+      },
+      "sixth_eighth_tensor_max_difference": 3.193778574939188e-12
+    },
+    {
+      "case": "axial1_n32",
+      "center_time": 1.75,
+      "n": 32,
+      "name": "axial1_n32_window1",
+      "orders": {
+        "6": {
+          "common_n16_points_max": 9.689621327524378e-11,
+          "ricci_max": 1.0965650609762179e-10,
+          "ricci_rms": 1.2120678882858071e-11
+        },
+        "8": {
+          "common_n16_points_max": 9.853667881642991e-11,
+          "ricci_max": 1.1178480363582821e-10,
+          "ricci_rms": 1.2176747877745787e-11
+        }
+      },
+      "sixth_eighth_tensor_max_difference": 2.7481905640058812e-12
+    },
+    {
+      "case": "axial1_n32",
+      "center_time": 2.49,
+      "n": 32,
+      "name": "axial1_n32_window2",
+      "orders": {
+        "6": {
+          "common_n16_points_max": 5.599711805359675e-10,
+          "ricci_max": 5.772182731789144e-10,
+          "ricci_rms": 6.972289246903158e-11
+        },
+        "8": {
+          "common_n16_points_max": 5.675214742595358e-10,
+          "ricci_max": 5.88227133668795e-10,
+          "ricci_rms": 7.068408476893729e-11
+        }
+      },
+      "sixth_eighth_tensor_max_difference": 1.7945478436587337e-11
+    },
+    {
+      "case": "axial3_n24",
+      "center_time": 1.025,
+      "n": 24,
+      "name": "axial3_n24_window0",
+      "orders": {
+        "6": {
+          "ricci_max": 6.415240560997404e-11,
+          "ricci_rms": 6.003203624721468e-12
+        },
+        "8": {
+          "ricci_max": 6.74938993583396e-11,
+          "ricci_rms": 6.215757708775507e-12
+        }
+      },
+      "sixth_eighth_tensor_max_difference": 3.703481965544597e-12
+    },
+    {
+      "case": "axial3_n24",
+      "center_time": 1.75,
+      "n": 24,
+      "name": "axial3_n24_window1",
+      "orders": {
+        "6": {
+          "ricci_max": 6.7373134848836e-10,
+          "ricci_rms": 8.747001282045445e-11
+        },
+        "8": {
+          "ricci_max": 6.748052117089287e-10,
+          "ricci_rms": 8.748600753246714e-11
+        }
+      },
+      "sixth_eighth_tensor_max_difference": 2.7536306568265445e-12
+    },
+    {
+      "case": "axial3_n24",
+      "center_time": 2.49,
+      "n": 24,
+      "name": "axial3_n24_window2",
+      "orders": {
+        "6": {
+          "ricci_max": 4.5245449609154775e-09,
+          "ricci_rms": 4.926141266201707e-10
+        },
+        "8": {
+          "ricci_max": 4.800274067129351e-09,
+          "ricci_rms": 5.036024245175505e-10
+        }
+      },
+      "sixth_eighth_tensor_max_difference": 2.8289343090293073e-10
+    },
+    {
+      "case": "kasner_n16_half",
+      "center_time": 1.025,
+      "n": 16,
+      "name": "kasner_n16_half_window0",
+      "orders": {
+        "6": {
+          "ricci_max": 1.7570611632322652e-11,
+          "ricci_rms": 5.124332130396986e-12
+        },
+        "8": {
+          "ricci_max": 1.906574897958535e-11,
+          "ricci_rms": 5.542237650760267e-12
+        }
+      },
+      "sixth_eighth_tensor_max_difference": 1.4951373472626983e-12
+    },
+    {
+      "case": "kasner_n16_half",
+      "center_time": 1.75,
+      "n": 16,
+      "name": "kasner_n16_half_window1",
+      "orders": {
+        "6": {
+          "ricci_max": 2.115752018028161e-12,
+          "ricci_rms": 5.756257018453823e-13
+        },
+        "8": {
+          "ricci_max": 2.3266943927069406e-12,
+          "ricci_rms": 6.18839858091032e-13
+        }
+      },
+      "sixth_eighth_tensor_max_difference": 2.1094237467877974e-13
+    },
+    {
+      "case": "kasner_n16_half",
+      "center_time": 2.49,
+      "n": 16,
+      "name": "kasner_n16_half_window2",
+      "orders": {
+        "6": {
+          "ricci_max": 5.47666356709442e-11,
+          "ricci_rms": 1.3792836469212862e-11
+        },
+        "8": {
+          "ricci_max": 5.74402747588465e-11,
+          "ricci_rms": 1.4466212178321808e-11
+        }
+      },
+      "sixth_eighth_tensor_max_difference": 2.673639087902302e-12
+    },
+    {
+      "case": "kasner_n16",
+      "center_time": 1.025,
+      "n": 16,
+      "name": "kasner_n16_window0",
+      "orders": {
+        "6": {
+          "ricci_max": 2.972999624262229e-11,
+          "ricci_rms": 1.0083140908385273e-11
+        },
+        "8": {
+          "ricci_max": 3.02530223095232e-11,
+          "ricci_rms": 1.028050391304597e-11
+        }
+      },
+      "sixth_eighth_tensor_max_difference": 5.230260669009112e-13
+    },
+    {
+      "case": "kasner_n16",
+      "center_time": 1.75,
+      "n": 16,
+      "name": "kasner_n16_window1",
+      "orders": {
+        "6": {
+          "ricci_max": 1.98641103565933e-12,
+          "ricci_rms": 5.480031891606452e-13
+        },
+        "8": {
+          "ricci_max": 2.1389556792428266e-12,
+          "ricci_rms": 5.732161094992329e-13
+        }
+      },
+      "sixth_eighth_tensor_max_difference": 1.525446435834965e-13
+    },
+    {
+      "case": "kasner_n16",
+      "center_time": 2.49,
+      "n": 16,
+      "name": "kasner_n16_window2",
+      "orders": {
+        "6": {
+          "ricci_max": 2.6729951585480194e-11,
+          "ricci_rms": 6.990725484918592e-12
+        },
+        "8": {
+          "ricci_max": 2.795530473775898e-11,
+          "ricci_rms": 7.31491011232637e-12
+        }
+      },
+      "sixth_eighth_tensor_max_difference": 1.2253531522787853e-12
+    },
+    {
+      "case": "oblique1_n16",
+      "center_time": 1.025,
+      "n": 16,
+      "name": "oblique1_n16_window0",
+      "orders": {
+        "6": {
+          "ricci_max": 5.0487947156341306e-11,
+          "ricci_rms": 5.550863529052066e-12
+        },
+        "8": {
+          "ricci_max": 5.316164175539484e-11,
+          "ricci_rms": 5.7906714907361e-12
+        }
+      },
+      "sixth_eighth_tensor_max_difference": 2.9321545191862697e-12
+    },
+    {
+      "case": "oblique1_n16",
+      "center_time": 1.75,
+      "n": 16,
+      "name": "oblique1_n16_window1",
+      "orders": {
+        "6": {
+          "ricci_max": 6.48501696787207e-10,
+          "ricci_rms": 5.6825286494467075e-11
+        },
+        "8": {
+          "ricci_max": 6.487528847465285e-10,
+          "ricci_rms": 5.683356994981352e-11
+        }
+      },
+      "sixth_eighth_tensor_max_difference": 2.2534196730816802e-12
+    },
+    {
+      "case": "oblique1_n16",
+      "center_time": 2.49,
+      "n": 16,
+      "name": "oblique1_n16_window2",
+      "orders": {
+        "6": {
+          "ricci_max": 1.6803044622371033e-08,
+          "ricci_rms": 1.3720291891847219e-09
+        },
+        "8": {
+          "ricci_max": 1.681082517634991e-08,
+          "ricci_rms": 1.3726334577022039e-09
+        }
+      },
+      "sixth_eighth_tensor_max_difference": 1.958339046481683e-11
+    },
+    {
+      "case": "oblique1_n24_half",
+      "center_time": 1.025,
+      "n": 24,
+      "name": "oblique1_n24_half_window0",
+      "orders": {
+        "6": {
+          "ricci_max": 5.51935719350638e-11,
+          "ricci_rms": 5.530662816476723e-12
+        },
+        "8": {
+          "ricci_max": 5.7148397125672545e-11,
+          "ricci_rms": 5.7658733220726965e-12
+        }
+      },
+      "sixth_eighth_tensor_max_difference": 3.0123681327154372e-12
+    },
+    {
+      "case": "oblique1_n24_half",
+      "center_time": 1.75,
+      "n": 24,
+      "name": "oblique1_n24_half_window1",
+      "orders": {
+        "6": {
+          "ricci_max": 8.586115152198204e-11,
+          "ricci_rms": 5.9079683463354766e-12
+        },
+        "8": {
+          "ricci_max": 8.851680499688541e-11,
+          "ricci_rms": 6.130642555422063e-12
+        }
+      },
+      "sixth_eighth_tensor_max_difference": 4.216904603282501e-12
+    },
+    {
+      "case": "oblique1_n24_half",
+      "center_time": 2.49,
+      "n": 24,
+      "name": "oblique1_n24_half_window2",
+      "orders": {
+        "6": {
+          "ricci_max": 1.4110573820502736e-10,
+          "ricci_rms": 1.054392885400905e-11
+        },
+        "8": {
+          "ricci_max": 1.530770510349555e-10,
+          "ricci_rms": 1.1097890864179843e-11
+        }
+      },
+      "sixth_eighth_tensor_max_difference": 2.0988655258236122e-11
+    },
+    {
+      "case": "oblique1_n24",
+      "center_time": 1.025,
+      "n": 24,
+      "name": "oblique1_n24_window0",
+      "orders": {
+        "6": {
+          "ricci_max": 5.94418958499432e-11,
+          "ricci_rms": 5.552690342695309e-12
+        },
+        "8": {
+          "ricci_max": 6.264033736158581e-11,
+          "ricci_rms": 5.789021569529472e-12
+        }
+      },
+      "sixth_eighth_tensor_max_difference": 3.1984415116426135e-12
+    },
+    {
+      "case": "oblique1_n24",
+      "center_time": 1.75,
+      "n": 24,
+      "name": "oblique1_n24_window1",
+      "orders": {
+        "6": {
+          "ricci_max": 4.761614436077366e-10,
+          "ricci_rms": 4.353954375643298e-11
+        },
+        "8": {
+          "ricci_max": 4.768328509818787e-10,
+          "ricci_rms": 4.3555908580304487e-11
+        }
+      },
+      "sixth_eighth_tensor_max_difference": 2.601086013243048e-12
+    },
+    {
+      "case": "oblique1_n24",
+      "center_time": 2.49,
+      "n": 24,
+      "name": "oblique1_n24_window2",
+      "orders": {
+        "6": {
+          "ricci_max": 1.7598800194917885e-09,
+          "ricci_rms": 1.4812427135788317e-10
+        },
+        "8": {
+          "ricci_max": 1.7655306105979207e-09,
+          "ricci_rms": 1.4875852886706262e-10
+        }
+      },
+      "sixth_eighth_tensor_max_difference": 1.9968915410117916e-11
+    },
+    {
+      "case": "oblique1_n32",
+      "center_time": 1.025,
+      "n": 32,
+      "name": "oblique1_n32_window0",
+      "orders": {
+        "6": {
+          "common_n16_points_max": 5.024225480099176e-11,
+          "ricci_max": 5.930095303696703e-11,
+          "ricci_rms": 5.565767326516017e-12
+        },
+        "8": {
+          "common_n16_points_max": 5.296646454766574e-11,
+          "ricci_max": 6.176242850486346e-11,
+          "ricci_rms": 5.802374828840287e-12
+        }
+      },
+      "sixth_eighth_tensor_max_difference": 3.1630809083083022e-12
+    },
+    {
+      "case": "oblique1_n32",
+      "center_time": 1.75,
+      "n": 32,
+      "name": "oblique1_n32_window1",
+      "orders": {
+        "6": {
+          "common_n16_points_max": 3.328067821328773e-10,
+          "ricci_max": 3.6151626137126414e-10,
+          "ricci_rms": 3.7910792018371694e-11
+        },
+        "8": {
+          "common_n16_points_max": 3.3286762235462675e-10,
+          "ricci_max": 3.6316449847362264e-10,
+          "ricci_rms": 3.79305478914606e-11
+        }
+      },
+      "sixth_eighth_tensor_max_difference": 2.6573743205915434e-12
+    },
+    {
+      "case": "oblique1_n32",
+      "center_time": 2.49,
+      "n": 32,
+      "name": "oblique1_n32_window2",
+      "orders": {
+        "6": {
+          "common_n16_points_max": 1.381440351000407e-09,
+          "ricci_max": 1.381440351000407e-09,
+          "ricci_rms": 1.297794465177128e-10
+        },
+        "8": {
+          "common_n16_points_max": 1.385403181064504e-09,
+          "ricci_max": 1.385403181064504e-09,
+          "ricci_rms": 1.302319185233036e-10
+        }
+      },
+      "sixth_eighth_tensor_max_difference": 2.2263690890866883e-11
+    },
+    {
+      "case": "oblique3_n24",
+      "center_time": 1.025,
+      "n": 24,
+      "name": "oblique3_n24_window0",
+      "orders": {
+        "6": {
+          "ricci_max": 7.158706960552763e-11,
+          "ricci_rms": 6.964319547240722e-12
+        },
+        "8": {
+          "ricci_max": 7.397565893185742e-11,
+          "ricci_rms": 7.16451025668343e-12
+        }
+      },
+      "sixth_eighth_tensor_max_difference": 3.1907809727727e-12
+    },
+    {
+      "case": "oblique3_n24",
+      "center_time": 1.75,
+      "n": 24,
+      "name": "oblique3_n24_window1",
+      "orders": {
+        "6": {
+          "ricci_max": 1.910140157157514e-09,
+          "ricci_rms": 1.843566350645574e-10
+        },
+        "8": {
+          "ricci_max": 1.9102622816902226e-09,
+          "ricci_rms": 1.8436501221682582e-10
+        }
+      },
+      "sixth_eighth_tensor_max_difference": 2.7344793096517606e-12
+    },
+    {
+      "case": "oblique3_n24",
+      "center_time": 2.49,
+      "n": 24,
+      "name": "oblique3_n24_window2",
+      "orders": {
+        "6": {
+          "ricci_max": 1.2666904469771367e-07,
+          "ricci_rms": 5.254127931628135e-09
+        },
+        "8": {
+          "ricci_max": 1.2662434989429983e-07,
+          "ricci_rms": 5.2552464125670305e-09
+        }
+      },
+      "sixth_eighth_tensor_max_difference": 4.170974676753758e-10
+    },
+    {
+      "case": "phase1_n24",
+      "center_time": 1.025,
+      "n": 24,
+      "name": "phase1_n24_window0",
+      "orders": {
+        "6": {
+          "ricci_max": 5.5691562472759415e-11,
+          "ricci_rms": 5.535485252482733e-12
+        },
+        "8": {
+          "ricci_max": 5.849337680885469e-11,
+          "ricci_rms": 5.7705491861165435e-12
+        }
+      },
+      "sixth_eighth_tensor_max_difference": 3.3616442962625115e-12
+    },
+    {
+      "case": "phase1_n24",
+      "center_time": 1.75,
+      "n": 24,
+      "name": "phase1_n24_window1",
+      "orders": {
+        "6": {
+          "ricci_max": 4.852780954855973e-10,
+          "ricci_rms": 4.350505528969175e-11
+        },
+        "8": {
+          "ricci_max": 4.868065395235988e-10,
+          "ricci_rms": 4.35188212744588e-11
+        }
+      },
+      "sixth_eighth_tensor_max_difference": 2.7338686869882167e-12
+    },
+    {
+      "case": "phase1_n24",
+      "center_time": 2.49,
+      "n": 24,
+      "name": "phase1_n24_window2",
+      "orders": {
+        "6": {
+          "ricci_max": 1.8342984908770177e-09,
+          "ricci_rms": 1.481226291960813e-10
+        },
+        "8": {
+          "ricci_max": 1.8390466371975833e-09,
+          "ricci_rms": 1.487566514294726e-10
+        }
+      },
+      "sixth_eighth_tensor_max_difference": 2.3758661704675887e-11
+    }
+  ],
+  "scope": "Outcome-informed center-only sixth/eighth order saved-time diagnostic; original five-point all-interior residuals retained. Same equations/data/thresholds, no uniform time or continuum certification.",
+  "source_sha256": "c5d88d612829b2961bf34efa8cf0ceea9504417780809d4b3868e95a678d7e1f",
+  "spatial_refinement": [
+    {
+      "all_three_mesh_max": 5.125244784132121e-09,
+      "coarse_max": 5.125244784132121e-09,
+      "family": "axial1",
+      "fine_common_points_max": 5.599711805359675e-10,
+      "order": 6,
+      "ratio": 9.152693856899162,
+      "status": "PASS"
+    },
+    {
+      "all_three_mesh_max": 5.136283620643667e-09,
+      "coarse_max": 5.136283620643667e-09,
+      "family": "axial1",
+      "fine_common_points_max": 5.675214742595358e-10,
+      "order": 8,
+      "ratio": 9.050377569139824,
+      "status": "PASS"
+    },
+    {
+      "all_three_mesh_max": 1.6803044622371033e-08,
+      "coarse_max": 1.6803044622371033e-08,
+      "family": "oblique1",
+      "fine_common_points_max": 1.381440351000407e-09,
+      "order": 6,
+      "ratio": 12.16342392938114,
+      "status": "PASS"
+    },
+    {
+      "all_three_mesh_max": 1.681082517634991e-08,
+      "coarse_max": 1.681082517634991e-08,
+      "family": "oblique1",
+      "fine_common_points_max": 1.385403181064504e-09,
+      "order": 8,
+      "ratio": 12.134247564981736,
+      "status": "PASS"
+    }
+  ],
+  "status": "REPAIRED_SCOPED_GATES_PASS",
+  "time_refinement": [
+    {
+      "case": "axial1_n24",
+      "final_difference": {
+        "g": 7.66219798720158e-09,
+        "v": 2.000210486130527e-08
+      },
+      "schedules": {
+        "axial1_n24": {
+          "jump_counts": {
+            "16": 126,
+            "4": 268,
+            "8": 214
+          },
+          "max_stage_cfl": 0.24991313359472575,
+          "max_ticks": 16,
+          "min_ticks": 4,
+          "steps": 608,
+          "time_weighted_mean_jump": 10.466666666666667
+        },
+        "axial1_n24_half": {
+          "jump_counts": {
+            "2": 536,
+            "4": 410,
+            "8": 261
+          },
+          "max_stage_cfl": 0.12495656619593913,
+          "max_ticks": 8,
+          "min_ticks": 2,
+          "steps": 1207,
+          "time_weighted_mean_jump": 5.293333333333333
+        }
+      }
+    },
+    {
+      "case": "oblique1_n24",
+      "final_difference": {
+        "g": 5.95271743009107e-09,
+        "v": 2.8833675003170356e-08
+      },
+      "schedules": {
+        "oblique1_n24": {
+          "jump_counts": {
+            "16": 127,
+            "4": 274,
+            "8": 209
+          },
+          "max_stage_cfl": 0.24995688142745898,
+          "max_ticks": 16,
+          "min_ticks": 4,
+          "steps": 610,
+          "time_weighted_mean_jump": 10.473333333333333
+        },
+        "oblique1_n24_half": {
+          "jump_counts": {
+            "2": 546,
+            "4": 403,
+            "8": 262
+          },
+          "max_stage_cfl": 0.12497843595195014,
+          "max_ticks": 8,
+          "min_ticks": 2,
+          "steps": 1211,
+          "time_weighted_mean_jump": 5.291666666666667
+        }
+      }
+    },
+    {
+      "case": "kasner_n16",
+      "final_difference": {
+        "g": 2.964902989788243e-09,
+        "v": 5.931354962740443e-09
+      },
+      "schedules": {
+        "kasner_n16": {
+          "jump_counts": {
+            "16": 184,
+            "4": 16,
+            "8": 224
+          },
+          "max_stage_cfl": 0.2492289012980304,
+          "max_ticks": 16,
+          "min_ticks": 4,
+          "steps": 424,
+          "time_weighted_mean_jump": 12.853333333333333
+        },
+        "kasner_n16_half": {
+          "jump_counts": {
+            "2": 30,
+            "4": 417,
+            "8": 384
+          },
+          "max_stage_cfl": 0.12482231399574512,
+          "max_ticks": 8,
+          "min_ticks": 2,
+          "steps": 831,
+          "time_weighted_mean_jump": 6.535
+        }
+      }
+    }
+  ]
+}

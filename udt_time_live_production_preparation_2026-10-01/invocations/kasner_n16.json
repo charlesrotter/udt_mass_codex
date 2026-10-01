@@ -1,0 +1,18 @@
+{
+  "aggregate_worker_wall_seconds": 17.003771069052164,
+  "command": [
+    "/usr/bin/python3",
+    "/home/udt-admin/udt_mass_codex/udt_time_live_production_preparation_2026-10-01/production_worker.py",
+    "/home/udt-admin/udt_mass_codex/udt_time_live_production_preparation_2026-10-01/specs/kasner_n16.json",
+    "/home/udt-admin/udt_mass_codex/udt_time_live_production_preparation_2026-10-01/runs/kasner_n16"
+  ],
+  "expected": 0,
+  "returncode": 0,
+  "sigterm_sent": false,
+  "spec_sha256": "6baa3198ab2f8e4ddf6964a87bceb216ee1ba76726e07ca8eb536192c7d31a22",
+  "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "stdout_sha256": "d53f21befee063c337f4bf49c464de87553be7839d93643553976c52857c64db",
+  "timeout": false,
+  "wall_seconds": 6.528430730977561,
+  "worker_sha256": "f7526ac85ab873fd12cf38ef6a9b69bec7d18a6cc4b4636528784c4a312fafbf"
+}

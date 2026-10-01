@@ -1,0 +1,28 @@
+{
+  "diagnostic": null,
+  "dtype": "float64",
+  "eligible_for_resume": true,
+  "payload_sha256": "179f7a7a1b72a4a7ac9591d879bb4bcea28966586799f7e8cb8027d52a2931c6",
+  "shape": [
+    2,
+    24,
+    24,
+    24,
+    4,
+    4
+  ],
+  "signature": {
+    "CUBLAS_WORKSPACE_CONFIG": ":4096:8",
+    "code": {
+      "udt_three_spatial_smoke_2026-10-01/constraints.py": "364cbb0c84d8b69cdcba40e45e5d3b4b8b748fcc83f2b1cf22d9148e528c1abe",
+      "udt_three_spatial_smoke_2026-10-01/evolution.py": "cc36f7006d80b9942ba521656b43bee7761ba12572e28cdf24e4e87d86fb909c",
+      "udt_time_live_production_preparation_2026-10-01/production_worker.py": "f7526ac85ab873fd12cf38ef6a9b69bec7d18a6cc4b4636528784c4a312fafbf",
+      "udt_time_live_smoke_gate_2026-09-30/checkpoint_io.py": "d689de8dd525df67289862b701226dc857ec50de4a34477c32db7fdc8c2008e4"
+    },
+    "initial": "8d3ff71f81c38c06b8c5c64cebd8a53cf89c1648664e11f1c9f2cb623b90c695",
+    "spec": "65ffa10d1dcf9df34704d9a26960ab21e1e1ca774f63bba93e221491409f90d4",
+    "step_semantics": "integer_time_tick"
+  },
+  "step": 72,
+  "t": 1.0225
+}

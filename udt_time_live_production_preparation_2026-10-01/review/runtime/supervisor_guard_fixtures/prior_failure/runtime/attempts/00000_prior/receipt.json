@@ -1,0 +1,6 @@
+{
+  "case": "one",
+  "returncode": 2,
+  "worker_stop_reason": "TIMESTEP_FLOOR",
+  "wall_seconds": 0.1
+}

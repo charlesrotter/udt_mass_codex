@@ -1,0 +1,36 @@
+{
+  "shape": [
+    16,
+    16,
+    16,
+    3,
+    3
+  ],
+  "dtype": "float64",
+  "hamiltonian_abs_max": 0.0,
+  "momentum_abs_max_by_component": [
+    0.0,
+    0.0,
+    0.0
+  ],
+  "scalar_curvature_abs_max": 0.0,
+  "trace_K_minmax": [
+    -1.0,
+    -1.0
+  ],
+  "spatial_metric_eigenvalue_minmax": [
+    1.0,
+    1.0
+  ],
+  "spatial_derivative_gram_eigenvalues": [
+    0.0,
+    0.0,
+    0.0
+  ],
+  "spatial_derivative_gram_rank": 0,
+  "gram_rank_scope": "excludes constant-coordinate translation symmetry only; not arbitrary Killing fields",
+  "harmonic": 0.0,
+  "metric_error": 0.0,
+  "velocity_error": 0.0,
+  "input_sha256": "de03dd54bd075546caaf0c673dce8110a73e0cd67d0a4b5b5f2f2af57b0a9ef1"
+}

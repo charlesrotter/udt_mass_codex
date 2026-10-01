@@ -1,0 +1,11 @@
+{
+  "utc": "2026-10-01T01:44:20.086385+00:00",
+  "scope": "Before actual supervisor smoke, after source review repairs; no production emission or launch",
+  "sha256": {
+    "udt_time_live_production_preparation_2026-10-01/supervise.py": "06256cfb3ce770e8274c1653fb42eb7c032bedd6598a1dd3606e69b55b68197f",
+    "udt_time_live_production_preparation_2026-10-01/supervisor_smoke.py": "5c43397a41a653fbe35b6be9e8975fdba9e6245d32682ae5be6f37b7c6dbc864",
+    "udt_time_live_production_preparation_2026-10-01/prepare_campaign.py": "5cea0445d9b609171cd33fbb75ecabb8500e9a6b764395a13df959704ff64727",
+    "udt_time_live_production_preparation_2026-10-01/production_worker.py": "f7526ac85ab873fd12cf38ef6a9b69bec7d18a6cc4b4636528784c4a312fafbf",
+    "udt_time_live_production_preparation_2026-10-01/specs/engineering.json": "1a36f4b1bc0169d6d334d5857aec405a595afd9805f69f93de348bb13f143daf"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "command": [
+    "/usr/bin/python3",
+    "/home/udt-admin/udt_mass_codex/udt_time_live_production_preparation_2026-10-01/clock_checks.py",
+    "/home/udt-admin/udt_mass_codex/udt_time_live_production_preparation_2026-10-01/histories/oblique3_n24_window2.npz",
+    "/home/udt-admin/udt_mass_codex/udt_time_live_production_preparation_2026-10-01/clocks/oblique3_n24.json"
+  ],
+  "returncode": 0,
+  "seconds": 4.5773077590274625
+}

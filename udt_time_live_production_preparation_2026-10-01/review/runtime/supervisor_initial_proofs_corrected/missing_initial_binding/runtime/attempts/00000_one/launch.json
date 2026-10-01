@@ -1,0 +1,11 @@
+{
+  "case": "one",
+  "command": [
+    "/usr/bin/python3",
+    "/home/udt-admin/udt_mass_codex/udt_time_live_production_preparation_2026-10-01/production_worker.py",
+    "/home/udt-admin/udt_mass_codex/udt_time_live_production_preparation_2026-10-01/review/runtime/supervisor_initial_proofs_corrected/missing_initial_binding/one.json",
+    "/home/udt-admin/udt_mass_codex/udt_time_live_production_preparation_2026-10-01/runs/reviewer_virtual_missing_initial_binding_one"
+  ],
+  "manifest_sha256": "bb9b05fa7604cd6692f5676fd04c2cc533d02919191b7f4d93c3a5eebee807d7",
+  "remaining_seconds": 9.999839067459106
+}

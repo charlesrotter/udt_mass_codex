@@ -1,0 +1,2369 @@
+{
+  "scope": "Central argument only. Missing edges do not assert independence. All406 rows receive dispositions; their full historical proof graphs are not reconstructed. Context edges conservatively flag review impact, not theorem premises. Reviews and controls never act as proof inputs.",
+  "nodes": [
+    {
+      "id": "D1",
+      "kind": "definition",
+      "anchor": "d1",
+      "title": "2. Definitions before equations",
+      "registry_ids": [
+        "W5",
+        "W6"
+      ],
+      "sources": [
+        "founding.md",
+        "udt_gr_filter_reconciliation_2026-09-09/AUTHORITY_RECORD.md",
+        "udt_positional_geometry_clock_connection_2026-09-28/OWNER_STATEMENT.md",
+        "udt_repository_cleanup_2026-09-27/local_clock_impact_2026-09-29/OWNER_CLARIFICATION.md",
+        "udt_shared_geometry_extension_2026-09-29/OWNER_CLARIFICATION.md"
+      ],
+      "required_conditions": []
+    },
+    {
+      "id": "R1",
+      "kind": "argument",
+      "anchor": "r1",
+      "title": "R1. Reciprocal character on supplied ordered depth",
+      "registry_ids": [
+        "G01"
+      ],
+      "sources": [
+        "UDT_RECIPROCAL_C_FOUNDING_POSTULATE_DERIVATION_RESULTS.md",
+        "udt_finite_separation_reciprocity_2026-09-14/CANDIDATE.md"
+      ],
+      "required_conditions": [
+        "P_FOUNDING"
+      ]
+    },
+    {
+      "id": "R2",
+      "kind": "argument",
+      "anchor": "r2",
+      "title": "R2. The quadratic readout and its domain",
+      "registry_ids": [
+        "G02",
+        "G05",
+        "G06"
+      ],
+      "sources": [
+        "UDT_RECIPROCAL_C_FOUNDING_POSTULATE_DERIVATION_RESULTS.md",
+        "udt_founding_phi_ownership_morphism_audit_2026-08-05/AUDIT_REPORT.md",
+        "udt_positional_joint_compatibility_2026-09-14/CANDIDATE.md"
+      ],
+      "required_conditions": [
+        "P_FOUNDING"
+      ]
+    },
+    {
+      "id": "R3",
+      "kind": "argument",
+      "anchor": "r3",
+      "title": "R3. Pullback, regularity and shifted decomposition",
+      "registry_ids": [
+        "G167",
+        "G179",
+        "G180"
+      ],
+      "sources": [
+        "udt_g179_complete_coframe_pair_pullback_extension_2026-08-19/EXACT_DERIVATION.md",
+        "udt_joint_observer_relation_scope_correction_2026-09-13/CORRECTION.md"
+      ],
+      "required_conditions": [
+        "M_GEOMETRY"
+      ]
+    },
+    {
+      "id": "R4",
+      "kind": "argument",
+      "anchor": "r4",
+      "title": "R4. What completed-pair reciprocity fixes",
+      "registry_ids": [
+        "G05",
+        "G166",
+        "G176",
+        "G179",
+        "G180"
+      ],
+      "sources": [
+        "udt_g176_completed_pair_dual_reciprocity_consolidation_2026-08-19/EXACT_DERIVATION.md",
+        "udt_g179_complete_coframe_pair_pullback_extension_2026-08-19/EXACT_DERIVATION.md",
+        "udt_g180_completed_pair_smooth_family_descent_2026-08-19/EXACT_DERIVATION.md"
+      ],
+      "required_conditions": [
+        "P_PAIR"
+      ]
+    },
+    {
+      "id": "R5",
+      "kind": "argument",
+      "anchor": "r5",
+      "title": "R5. What is lost by scalar compression and what full records recover",
+      "registry_ids": [
+        "G129",
+        "G134",
+        "G135",
+        "G213"
+      ],
+      "sources": [
+        "udt_directional_clock_release_2026-09-14/CANDIDATE.md",
+        "udt_g134_full_metric_area_history_reframe_audit_2026-08-17/AUDIT_REPORT.md",
+        "udt_g213_determinant_one_spatial_remainder_and_completed_rank_closure_2026-08-22/AUDIT_REPORT.md",
+        "udt_geometric_field_choice_discrimination_2026-09-13/REVIEWED_RESULT.md",
+        "udt_geometric_response_field_connection_2026-09-13/REVIEWED_RESULT.md",
+        "udt_joint_observer_relation_scope_correction_2026-09-13/CORRECTION.md",
+        "udt_local_kernel_symmetry_release_2026-09-13/REVIEWED_RESULT.md",
+        "udt_native_angular_premise_audit_2026-09-13/REVIEWED_RESULT.md",
+        "udt_native_field_connection_audit_2026-09-13/REVIEWED_AUDIT.md",
+        "udt_positional_joint_compatibility_2026-09-14/CANDIDATE.md"
+      ],
+      "required_conditions": [
+        "M_GEOMETRY"
+      ]
+    },
+    {
+      "id": "R6",
+      "kind": "argument",
+      "anchor": "r6",
+      "title": "R6. Finite received ticking",
+      "registry_ids": [
+        "G220",
+        "W6"
+      ],
+      "sources": [
+        "udt_broader_evolving_signal_geometry_2026-09-13/REVIEWED_RESULT.md",
+        "udt_common_geometry_whiteboard_2026-09-28/REVIEWED_RESULT.md",
+        "udt_finite_separation_law_2026-09-28/INITIAL_CANDIDATE.md",
+        "udt_finite_separation_law_2026-09-28/REPAIR.md",
+        "udt_finite_separation_law_2026-09-28/REVIEWED_RESULT.md",
+        "udt_joint_signal_shape_discrimination_2026-09-13/REVIEWED_RESULT.md",
+        "udt_signal_chain_banking_2026-09-13/BANKING_RECORD.md"
+      ],
+      "required_conditions": [
+        "M_GEOMETRY",
+        "P_NULL"
+      ]
+    },
+    {
+      "id": "R7",
+      "kind": "argument",
+      "anchor": "r7",
+      "title": "R7. Direction, composition and an asymptotic test",
+      "registry_ids": [
+        "W5",
+        "G269",
+        "G272",
+        "G274"
+      ],
+      "sources": [
+        "udt_finite_separation_law_2026-09-28/INITIAL_CANDIDATE.md",
+        "udt_finite_separation_law_2026-09-28/REVIEWED_RESULT.md",
+        "udt_finite_separation_reciprocity_2026-09-14/CANDIDATE.md",
+        "udt_lorentz_kernel_transport_2026-09-29/INITIAL_CANDIDATE.md",
+        "udt_lorentz_kernel_transport_2026-09-29/REVIEWED_RESULT.md",
+        "udt_founding_phi_ownership_morphism_audit_2026-08-05/EXACT_DERIVATION.md",
+        "udt_g274_projective_pair_position_network_descent_2026-08-26/EXACT_DERIVATION.md"
+      ],
+      "required_conditions": [
+        "P_NULL"
+      ]
+    },
+    {
+      "id": "R8",
+      "kind": "argument",
+      "anchor": "r8",
+      "title": "R8. Actual two-way timing and constructive metric information",
+      "registry_ids": [
+        "G220",
+        "G403"
+      ],
+      "sources": [
+        "udt_clock_curvature_derivation_2026-09-28/REVIEWED_RESULT.md",
+        "udt_directional_clock_curvature_whiteboard_2026-09-10/INITIAL_CANDIDATE.md",
+        "udt_interframe_clock_network_2026-09-28/REVIEWED_RESULT.md",
+        "udt_response_measurement_scaling_2026-09-28/REVIEWED_RESULT.md",
+        "udt_shared_geometry_extension_2026-09-29/INITIAL_DERIVATION.md",
+        "udt_shared_geometry_extension_2026-09-29/REPAIR.md",
+        "udt_shared_geometry_extension_2026-09-29/REVIEWED_RESULT.md"
+      ],
+      "required_conditions": [
+        "P_NULL",
+        "M_GEOMETRY"
+      ]
+    },
+    {
+      "id": "R9",
+      "kind": "argument",
+      "anchor": "r9",
+      "title": "R9. What DDR actually constrains",
+      "registry_ids": [
+        "G310",
+        "G311"
+      ],
+      "sources": [
+        "startup_surface_g310_universal_reciprocity_refresh_2026-08-31/ADOPTION_RECORD.md",
+        "udt_g310_differential_dual_reciprocity_tracefree_ownership_2026-08-31/EXACT_DERIVATION.md",
+        "udt_native_field_connection_audit_2026-09-13/REVIEWED_AUDIT.md",
+        "development_reconstruction_2026-09-29/SOURCE_CORRECTIONS.md"
+      ],
+      "required_conditions": [
+        "P_DDR"
+      ]
+    },
+    {
+      "id": "R10",
+      "kind": "argument",
+      "anchor": "r10",
+      "title": "R10. The conditional curvature-class implication",
+      "registry_ids": [
+        "G301",
+        "G310",
+        "G312",
+        "G313"
+      ],
+      "sources": [
+        "udt_directional_clock_release_2026-09-14/CANDIDATE.md",
+        "udt_field_equation_principle_design_2026-09-13/DECISION_PACKET.md",
+        "udt_g301_scale_free_quiet_regular_causal_principal_classification_2026-08-30/EXACT_DERIVATION.md",
+        "udt_gr_filter_reconciliation_2026-09-09/AUTHORITY_RECORD.md",
+        "udt_gr_response_selection_2026-09-28/REVIEWED_RESULT.md",
+        "udt_native_angular_premise_audit_2026-09-13/REVIEWED_RESULT.md",
+        "udt_response_measurement_scaling_2026-09-28/REVIEWED_RESULT.md",
+        "udt_gr_commitment_audit_2026-09-29/INITIAL_CANDIDATE.md",
+        "udt_gr_commitment_audit_2026-09-29/CENTRAL_INSERTION.md",
+        "udt_gr_commitment_audit_2026-09-29/DECISION_BRIEF.md",
+        "udt_gr_commitment_audit_2026-09-29/REVIEWED_RESULT.md"
+      ],
+      "required_conditions": [
+        "C_RESPONSE"
+      ]
+    },
+    {
+      "id": "R11",
+      "kind": "argument",
+      "anchor": "r11",
+      "title": "R11. Actual conditional initial data and development",
+      "registry_ids": [
+        "G313",
+        "G316",
+        "G317",
+        "G319"
+      ],
+      "sources": [
+        "udt_g316_lawful_constraint_data_construction_2026-09-01/EXACT_DERIVATION.md",
+        "udt_g317_exact_noncmc_coupled_data_family_2026-09-01/EXACT_DERIVATION.md",
+        "udt_g321_g320_local_cauchy_development_uniqueness_2026-09-01/AUDIT_REPORT.md",
+        "udt_g322_g321_maximal_globally_hyperbolic_development_2026-09-01/AUDIT_REPORT.md"
+      ],
+      "required_conditions": [
+        "C_EINSTEIN"
+      ]
+    },
+    {
+      "id": "R12",
+      "kind": "argument",
+      "anchor": "r12",
+      "title": "R12. Exact nonlinear geometry is a retained gain",
+      "registry_ids": [
+        "G394"
+      ],
+      "sources": [
+        "udt_broader_evolving_signal_geometry_2026-09-13/REVIEWED_RESULT.md",
+        "udt_joint_signal_shape_discrimination_2026-09-13/REVIEWED_RESULT.md",
+        "udt_nonlinear_ripple_geometry_2026-09-09/INITIAL_CANDIDATE.md",
+        "udt_nonlinear_ripple_geometry_2026-09-09/REVIEWED_RESULT.md",
+        "udt_reviewed_backlog_banking_2026-09-10/BANKING_RECORD.md"
+      ],
+      "required_conditions": [
+        "C_EINSTEIN"
+      ]
+    },
+    {
+      "id": "R13",
+      "kind": "argument",
+      "anchor": "r13",
+      "title": "R13. A metric screen provides area geometry",
+      "registry_ids": [
+        "G348",
+        "G349"
+      ],
+      "sources": [
+        "udt_common_geometry_whiteboard_2026-09-28/REVIEWED_RESULT.md",
+        "udt_current_native_radiation_feasibility_2026-09-13/REVIEWED_RESULT.md",
+        "udt_g348_generic_lorentzian_null_screen_area_theorem_2026-09-04/EXACT_DERIVATION.md",
+        "udt_g349_finite_null_wavefront_patch_area_2026-09-04/AUDIT_REPORT.md",
+        "udt_geometric_field_choice_discrimination_2026-09-13/REVIEWED_RESULT.md",
+        "udt_geometric_response_field_connection_2026-09-13/REVIEWED_RESULT.md",
+        "udt_native_field_connection_audit_2026-09-13/REVIEWED_AUDIT.md"
+      ],
+      "required_conditions": [
+        "M_GEOMETRY",
+        "P_NULL"
+      ]
+    },
+    {
+      "id": "R14",
+      "kind": "argument",
+      "anchor": "r14",
+      "title": "R14. What each carried-content premise adds",
+      "registry_ids": [
+        "G350",
+        "G351",
+        "G352"
+      ],
+      "sources": [
+        "udt_g350_frequency_area_carried_content_ownership_2026-09-05/EXACT_DERIVATION.md",
+        "udt_g351_source_free_labelwise_carried_measure_conservation_2026-09-05/EXACT_DERIVATION.md",
+        "udt_g352_clock_rate_carried_measure_readout_2026-09-05/EXACT_DERIVATION.md"
+      ],
+      "required_conditions": [
+        "C_CONTENT"
+      ]
+    },
+    {
+      "id": "R15",
+      "kind": "argument",
+      "anchor": "r15",
+      "title": "R15. Optional source mathematics is retained separately",
+      "registry_ids": [
+        "G368",
+        "G372",
+        "G373"
+      ],
+      "sources": [
+        "udt_g372_g373_conditional_banking_2026-09-08/BANKING_RECORD.md",
+        "udt_optional_coupled_development_campaign_2026-09-08/step_02/REVIEWED_RESULT.md"
+      ],
+      "required_conditions": [
+        "C_SOURCE"
+      ]
+    },
+    {
+      "id": "R16",
+      "kind": "argument",
+      "anchor": "r16",
+      "title": "R16. Calibration can attach scale without selecting shape",
+      "registry_ids": [
+        "G275",
+        "G276",
+        "G374",
+        "G375"
+      ],
+      "sources": [
+        "udt_interframe_clock_network_2026-09-28/REVIEWED_RESULT.md",
+        "udt_machian_global_clock_feasibility_2026-09-28/REVIEWED_RESULT.md"
+      ],
+      "required_conditions": [
+        "P_SCALE"
+      ]
+    },
+    {
+      "id": "R17",
+      "kind": "argument",
+      "anchor": "r17",
+      "title": "R17. Useful failed joins have precise limits",
+      "registry_ids": [
+        "G301",
+        "G310"
+      ],
+      "sources": [
+        "udt_clock_curvature_derivation_2026-09-28/REVIEWED_RESULT.md",
+        "udt_common_geometry_whiteboard_2026-09-28/REVIEWED_RESULT.md",
+        "udt_conservation_variational_response_2026-09-28/REVIEWED_RESULT.md",
+        "udt_field_equation_principle_design_2026-09-13/DECISION_PACKET.md",
+        "udt_field_equation_provenance_and_process_2026-09-13/DECISION_BRIEF.md",
+        "udt_finite_clock_metric_variation_2026-09-28/REVIEWED_RESULT.md",
+        "udt_finite_separation_reciprocity_2026-09-14/CANDIDATE.md",
+        "udt_gr_response_selection_2026-09-28/REVIEWED_RESULT.md",
+        "udt_native_theory_research_plan_2026-09-13/execution/tc0/RESULT.md",
+        "udt_positional_joint_compatibility_2026-09-14/CANDIDATE.md",
+        "udt_response_measurement_scaling_2026-09-28/REVIEWED_RESULT.md",
+        "udt_gr_commitment_audit_2026-09-29/INITIAL_CANDIDATE.md",
+        "udt_gr_commitment_audit_2026-09-29/CENTRAL_INSERTION.md",
+        "udt_gr_commitment_audit_2026-09-29/DECISION_BRIEF.md",
+        "udt_gr_commitment_audit_2026-09-29/REVIEWED_RESULT.md"
+      ],
+      "required_conditions": [
+        "M_GEOMETRY"
+      ]
+    },
+    {
+      "id": "R18",
+      "kind": "argument",
+      "anchor": "r18",
+      "title": "R18. What can now be used, and what remains open",
+      "registry_ids": [
+        "G94",
+        "G95",
+        "G277",
+        "G279",
+        "G281"
+      ],
+      "sources": [
+        "native_hopfion_topology_audit_2026-07-19/AUDIT_REPORT.md",
+        "native_hopfion_topology_audit_2026-07-19/TOPOLOGY_STATUS_LEDGER.tsv",
+        "udt_broader_evolving_signal_geometry_2026-09-13/REVIEWED_RESULT.md",
+        "udt_current_native_radiation_feasibility_2026-09-13/REVIEWED_RESULT.md",
+        "udt_directional_clock_release_2026-09-14/CANDIDATE.md",
+        "udt_field_equation_principle_design_2026-09-13/DECISION_PACKET.md",
+        "udt_field_equation_provenance_and_process_2026-09-13/DECISION_BRIEF.md",
+        "udt_geometric_field_choice_discrimination_2026-09-13/REVIEWED_RESULT.md",
+        "udt_geometric_response_field_connection_2026-09-13/REVIEWED_RESULT.md",
+        "udt_joint_observer_relation_scope_correction_2026-09-13/CORRECTION.md",
+        "udt_joint_signal_shape_discrimination_2026-09-13/REVIEWED_RESULT.md",
+        "udt_local_kernel_symmetry_release_2026-09-13/REVIEWED_RESULT.md",
+        "udt_native_angular_premise_audit_2026-09-13/REVIEWED_RESULT.md",
+        "udt_native_field_connection_audit_2026-09-13/REVIEWED_AUDIT.md",
+        "udt_native_theory_research_plan_2026-09-13/execution/tc0/RESULT.md",
+        "udt_observation_guided_function_search_2026-09-28/REVIEWED_RESULT.md",
+        "udt_scientific_arc_recovery_checkpoint_2026-08-04/MASS_BRANCH_AUTHORITY_MAP.tsv",
+        "udt_shared_geometry_extension_2026-09-29/INITIAL_DERIVATION.md",
+        "udt_shared_geometry_extension_2026-09-29/REPAIR.md",
+        "udt_shared_geometry_extension_2026-09-29/REVIEWED_RESULT.md",
+        "udt_lorentz_kernel_transport_2026-09-29/INITIAL_CANDIDATE.md",
+        "udt_lorentz_kernel_transport_2026-09-29/REVIEWED_RESULT.md",
+        "udt_gr_commitment_audit_2026-09-29/INITIAL_CANDIDATE.md",
+        "udt_gr_commitment_audit_2026-09-29/CENTRAL_INSERTION.md",
+        "udt_gr_commitment_audit_2026-09-29/DECISION_BRIEF.md",
+        "udt_gr_commitment_audit_2026-09-29/REVIEWED_RESULT.md"
+      ],
+      "required_conditions": []
+    },
+    {
+      "id": "P_FOUNDING",
+      "kind": "declared_premises",
+      "statement": "F1\u2013F4 as stated in R1/R2; composition, nontriviality and readout are distinct inputs"
+    },
+    {
+      "id": "P_PAIR",
+      "kind": "working_premise",
+      "statement": "G176 completed pair; supplied regular Lorentz pullback and calibrated clock leg"
+    },
+    {
+      "id": "M_GEOMETRY",
+      "kind": "method_hypotheses",
+      "statement": "Supplied regular Lorentz metric/observers; differential geometry as mathematics, not selected UDT history"
+    },
+    {
+      "id": "P_NULL",
+      "kind": "conditional_protocol",
+      "statement": "Specified smooth future-null event correspondence, timelike clocks, nonzero frequencies; not automatic detector physics"
+    },
+    {
+      "id": "P_DDR",
+      "kind": "owner_provisional",
+      "statement": "G310 DDR of specified symmetric response, not a definition of that response"
+    },
+    {
+      "id": "C_RESPONSE",
+      "kind": "conditional_class",
+      "statement": "Entire G301 class including naturality, differentiability at quiet zero, homogeneity and nondegenerate principal coefficient"
+    },
+    {
+      "id": "C_EINSTEIN",
+      "kind": "conditional_branch",
+      "statement": "Ric=Lambda g and compatible constraints as conditional mathematical problem; native membership open"
+    },
+    {
+      "id": "C_CONTENT",
+      "kind": "owner_provisional_readout",
+      "statement": "G351 measure and G352 chosen continuous clock-rate/product; no physical light identification"
+    },
+    {
+      "id": "C_SOURCE",
+      "kind": "unadopted_branch",
+      "statement": "Specified null dust/phase coupling and local real-analytic hypotheses; optional source branch paused"
+    },
+    {
+      "id": "P_SCALE",
+      "kind": "observed_or_supplied",
+      "statement": "Observed c_E,G_obs; any extra nonzero-weight scale datum must be separately justified"
+    },
+    {
+      "id": "O_ASSIGNMENT",
+      "kind": "open_join",
+      "statement": "Physical event/path-to-depth assignment and global physical X_max; no completion asserted"
+    },
+    {
+      "id": "C_STATIONARY_CLOCKS",
+      "kind": "method_hypotheses",
+      "title": "Additional restricted sector: common timelike Killing field, clocks on its orbits, regular future legs; not a physical UDT postulate",
+      "registry_ids": [],
+      "sources": [
+        "udt_shared_geometry_extension_2026-09-29/INITIAL_DERIVATION.md"
+      ]
+    },
+    {
+      "id": "R8S",
+      "kind": "argument",
+      "anchor": "r8s",
+      "title": "R8 subsidiary: stationary-clock mutual-net-redshift exclusion",
+      "registry_ids": [
+        "G220"
+      ],
+      "sources": [
+        "udt_shared_geometry_extension_2026-09-29/INITIAL_DERIVATION.md",
+        "udt_shared_geometry_extension_2026-09-29/REPAIR.md",
+        "udt_shared_geometry_extension_2026-09-29/REVIEWED_RESULT.md"
+      ],
+      "required_conditions": [
+        "C_STATIONARY_CLOCKS",
+        "M_GEOMETRY",
+        "P_NULL"
+      ]
+    },
+    {
+      "id": "C_LKT_CHARACTER",
+      "kind": "method_hypotheses",
+      "statement": "Additional mathematical question: smooth real additive homomorphism on the ENTIRE SO+(1,3), with no null direction; not the physical clock cocycle.",
+      "sources": [
+        "udt_lorentz_kernel_transport_2026-09-29/INITIAL_CANDIDATE.md"
+      ]
+    },
+    {
+      "id": "C_LKT2D",
+      "kind": "method_hypotheses",
+      "statement": "Supplied actual smooth Lorentz2 metric or totally geodesic Lorentz2 surface carrying clocks/rays; T,L>0, x-fixed proper clocks and compatible orientation. Pointwise pullback alone is insufficient.",
+      "sources": [
+        "udt_lorentz_kernel_transport_2026-09-29/INITIAL_CANDIDATE.md"
+      ]
+    },
+    {
+      "id": "C_LKT_RECIPROCAL",
+      "kind": "method_hypotheses",
+      "statement": "Additional actual zero-shift reciprocal coordinate presentation T=e^-phi(t,x), L=e^phi(t,x); no physical chart/observer selection.",
+      "sources": [
+        "udt_lorentz_kernel_transport_2026-09-29/INITIAL_CANDIDATE.md"
+      ]
+    },
+    {
+      "id": "C_LKT_SAME_PHI",
+      "kind": "method_hypotheses",
+      "statement": "Extra tested identification: actual clock depth equals the SAME presentation-potential difference on EVERY sufficiently short null segment throughout a patch. Not a UDT postulate.",
+      "sources": [
+        "udt_lorentz_kernel_transport_2026-09-29/INITIAL_CANDIDATE.md"
+      ]
+    },
+    {
+      "id": "R7C",
+      "kind": "argument",
+      "anchor": "r7c",
+      "title": "R7 subsidiary: no nonzero smooth real character on full Lorentz group",
+      "registry_ids": [
+        "G274"
+      ],
+      "sources": [
+        "udt_lorentz_kernel_transport_2026-09-29/INITIAL_CANDIDATE.md",
+        "udt_lorentz_kernel_transport_2026-09-29/REVIEWED_RESULT.md",
+        "udt_g274_projective_pair_position_network_descent_2026-08-26/EXACT_DERIVATION.md"
+      ],
+      "required_conditions": [
+        "C_LKT_CHARACTER"
+      ]
+    },
+    {
+      "id": "R7L",
+      "kind": "argument",
+      "anchor": "r7l",
+      "title": "R7 subsidiary: full Lorentz2 metric derivatives to clock transport",
+      "registry_ids": [
+        "G176",
+        "G180",
+        "G220"
+      ],
+      "sources": [
+        "udt_lorentz_kernel_transport_2026-09-29/INITIAL_CANDIDATE.md",
+        "udt_lorentz_kernel_transport_2026-09-29/REVIEWED_RESULT.md",
+        "udt_g220_covariant_null_clock_arrow_timelive_lift_2026-08-22/EXACT_DERIVATION.md"
+      ],
+      "required_conditions": [
+        "C_LKT2D",
+        "M_GEOMETRY",
+        "P_NULL",
+        "P_PAIR"
+      ]
+    },
+    {
+      "id": "R7E",
+      "kind": "argument",
+      "anchor": "r7e",
+      "title": "R7 subsidiary: SAME-presentation endpoint-depth test",
+      "registry_ids": [
+        "G220"
+      ],
+      "sources": [
+        "udt_lorentz_kernel_transport_2026-09-29/INITIAL_CANDIDATE.md",
+        "udt_lorentz_kernel_transport_2026-09-29/REVIEWED_RESULT.md",
+        "udt_g220_covariant_null_clock_arrow_timelive_lift_2026-08-22/EXACT_DERIVATION.md"
+      ],
+      "required_conditions": [
+        "C_LKT2D",
+        "C_LKT_RECIPROCAL",
+        "C_LKT_SAME_PHI",
+        "P_NULL"
+      ]
+    },
+    {
+      "id": "C_HOMOTHETY",
+      "kind": "conditional_class",
+      "statement": "UNADOPTED route: trace-free symmetric covariant metric-natural finite-jet operator, unoriented equivariance, flat differentiability and flattening rays, exact weight zero; nonzero a required for shape selection."
+    },
+    {
+      "id": "C_GCA_COMPARISON",
+      "kind": "conditional_class",
+      "statement": "UNADOPTED metric-only f(R) Euler-response comparison, compact-support variation, smooth Lorentz4 Levi-Civita geometry; hypothetical scalar identity is a separate comparison, no physical action/field/source admission."
+    },
+    {
+      "id": "C_LOVELOCK",
+      "kind": "conditional_class",
+      "statement": "Published conditional theorem: smooth natural symmetric metric-only second-jet two-tensor operators over prescribed Lorentz signature in four dimensions, identically divergence-free on all metrics; no action/response identity/adoption supplied."
+    },
+    {
+      "id": "R10H",
+      "kind": "argument",
+      "anchor": "r10h",
+      "title": "Distinct finite-order exact-homothety sufficient route",
+      "registry_ids": [
+        "G301",
+        "G310",
+        "G312"
+      ],
+      "sources": [
+        "udt_gr_commitment_audit_2026-09-29/INITIAL_CANDIDATE.md",
+        "udt_gr_commitment_audit_2026-09-29/CENTRAL_INSERTION.md",
+        "udt_gr_commitment_audit_2026-09-29/DECISION_BRIEF.md",
+        "udt_gr_response_selection_2026-09-28/REVIEWED_RESULT.md",
+        "udt_response_measurement_scaling_2026-09-28/REVIEWED_RESULT.md",
+        "udt_gr_commitment_audit_2026-09-29/REVIEWED_RESULT.md"
+      ],
+      "required_conditions": [
+        "C_HOMOTHETY"
+      ]
+    },
+    {
+      "id": "R17C",
+      "kind": "argument",
+      "anchor": "r17c",
+      "title": "Conservation identities, representatives and restricted nonselection comparison",
+      "registry_ids": [
+        "G11",
+        "G310",
+        "G312"
+      ],
+      "sources": [
+        "udt_gr_commitment_audit_2026-09-29/INITIAL_CANDIDATE.md",
+        "udt_gr_commitment_audit_2026-09-29/CENTRAL_INSERTION.md",
+        "udt_gr_commitment_audit_2026-09-29/DECISION_BRIEF.md",
+        "udt_conservation_variational_response_2026-09-28/REVIEWED_RESULT.md",
+        "udt_gr_response_selection_2026-09-28/REVIEWED_RESULT.md",
+        "udt_gr_commitment_audit_2026-09-29/REVIEWED_RESULT.md"
+      ],
+      "required_conditions": [
+        "C_GCA_COMPARISON"
+      ]
+    },
+    {
+      "id": "R17L",
+      "kind": "argument",
+      "anchor": "r17l",
+      "title": "Separate second-order conservation classification and its ownership limit",
+      "registry_ids": [
+        "G301",
+        "G312"
+      ],
+      "sources": [
+        "udt_gr_commitment_audit_2026-09-29/INITIAL_CANDIDATE.md",
+        "udt_gr_commitment_audit_2026-09-29/CENTRAL_INSERTION.md",
+        "udt_gr_commitment_audit_2026-09-29/DECISION_BRIEF.md",
+        "udt_conservation_variational_response_2026-09-28/REVIEWED_RESULT.md",
+        "udt_gr_commitment_audit_2026-09-29/REVIEWED_RESULT.md"
+      ],
+      "required_conditions": [
+        "C_LOVELOCK"
+      ]
+    },
+    {
+      "id": "O_PCW_PROPOSALS",
+      "kind": "open_join",
+      "anchor": "r18p",
+      "statement": "PCW1 explicit unadopted physical connections and scoped adverse tests; no response identity, ensemble, population or quantum interface accepted.",
+      "sources": [
+        "udt_physical_connection_whiteboard_2026-09-30/OWNER_DIRECTION.md",
+        "udt_physical_connection_whiteboard_2026-09-30/INITIAL_SYNTHESIS.md",
+        "udt_physical_connection_whiteboard_2026-09-30/REPAIR.md",
+        "udt_physical_connection_whiteboard_2026-09-30/REVIEWED_RESULT.md",
+        "udt_physical_connection_whiteboard_2026-09-30/proposals/local/INITIAL_PROPOSAL.md",
+        "udt_physical_connection_whiteboard_2026-09-30/proposals/micro/INITIAL_PROPOSAL.md",
+        "udt_physical_connection_whiteboard_2026-09-30/proposals/cosmic/INITIAL_PROPOSAL.md"
+      ],
+      "registry_ids": []
+    },
+    {
+      "id": "C_CES_PROTOCOL",
+      "kind": "method_hypotheses",
+      "statement": "UNADOPTED supplied C=mean(log Z squared)/2; covariant physical lab/test-clock preparation, fixed positive-rapidity product label measure, regular null/proper-clock branches, and exact Minkowski stationarity as diagnostic only, not local SR or founding UDT.",
+      "sources": [
+        "udt_clock_ensemble_stationarity_test_2026-09-30/PREPARATION.md"
+      ]
+    },
+    {
+      "id": "R18E",
+      "kind": "argument",
+      "anchor": "r18e",
+      "title": "CES1 conditional adverse derivative for the prepared clock ensemble",
+      "registry_ids": [],
+      "sources": [
+        "udt_clock_ensemble_stationarity_test_2026-09-30/PREPARATION.md",
+        "udt_clock_ensemble_stationarity_test_2026-09-30/INITIAL_CANDIDATE.md",
+        "udt_clock_ensemble_stationarity_test_2026-09-30/REVIEWED_RESULT.md"
+      ],
+      "required_conditions": [
+        "C_CES_PROTOCOL"
+      ]
+    },
+    {
+      "id": "C_CCR_TUBE",
+      "kind": "method_hypotheses",
+      "statement": "UNADOPTED L1 score and CES1 physical preparation with fixed product labels; smooth proper-clock/null branch, rank4 embedded emission coordinates with smooth inverse, once-only supported crossing and preparation/clock separation. No exact-flat benchmark.",
+      "sources": [
+        "udt_curved_clock_response_test_2026-09-30/INITIAL_CANDIDATE.md",
+        "udt_curved_clock_response_test_2026-09-30/REPAIR.md"
+      ]
+    },
+    {
+      "id": "C_CCR_SIGN",
+      "kind": "method_hypotheses",
+      "statement": "Mean log-clock contrast M stays away from zero with one sign on a buffered interval containing compact emission-weight support; not assumed for every physical population.",
+      "sources": [
+        "udt_curved_clock_response_test_2026-09-30/INITIAL_CANDIDATE.md",
+        "udt_curved_clock_response_test_2026-09-30/REPAIR.md"
+      ]
+    },
+    {
+      "id": "C_CCR_UNIVERSAL",
+      "kind": "unadopted_branch",
+      "statement": "EXTRA QUANTIFIER ONLY: require the same proposed stationarity principle for EVERY scaled CES1 small-laboratory preparation with fixed positive-rapidity template, in a fixed smooth metric. A single physical/cosmic population does not supply this demand.",
+      "sources": [
+        "udt_curved_clock_response_test_2026-09-30/INITIAL_CANDIDATE.md",
+        "udt_curved_clock_response_test_2026-09-30/REPAIR.md"
+      ]
+    },
+    {
+      "id": "R18T",
+      "kind": "argument",
+      "anchor": "r18t",
+      "title": "CCR1 curved-tube control and necessary moment condition",
+      "registry_ids": [],
+      "sources": [
+        "udt_curved_clock_response_test_2026-09-30/INITIAL_CANDIDATE.md",
+        "udt_curved_clock_response_test_2026-09-30/REPAIR.md",
+        "udt_curved_clock_response_test_2026-09-30/REVIEWED_RESULT.md"
+      ],
+      "required_conditions": [
+        "C_CCR_TUBE"
+      ]
+    },
+    {
+      "id": "R18C",
+      "kind": "argument",
+      "anchor": "r18c",
+      "title": "CCR1 strict-sign mean curved-sector obstruction",
+      "registry_ids": [],
+      "sources": [
+        "udt_curved_clock_response_test_2026-09-30/INITIAL_CANDIDATE.md",
+        "udt_curved_clock_response_test_2026-09-30/REPAIR.md",
+        "udt_curved_clock_response_test_2026-09-30/REVIEWED_RESULT.md"
+      ],
+      "required_conditions": [
+        "C_CCR_SIGN"
+      ]
+    },
+    {
+      "id": "R18U",
+      "kind": "argument",
+      "anchor": "r18u",
+      "title": "CCR1 small curved laboratories and conditional universal-implementation exclusion",
+      "registry_ids": [],
+      "sources": [
+        "udt_curved_clock_response_test_2026-09-30/INITIAL_CANDIDATE.md",
+        "udt_curved_clock_response_test_2026-09-30/REPAIR.md",
+        "udt_curved_clock_response_test_2026-09-30/REVIEWED_RESULT.md"
+      ],
+      "required_conditions": [
+        "C_CCR_UNIVERSAL"
+      ]
+    },
+    {
+      "id": "C_PRI_POPULATION",
+      "kind": "unadopted_branch",
+      "statement": "Supplied time-oriented Lorentz4 g and nonzero nonnegative Borel measure on future nonzero null vectors with finite second moment. Conventional kinetic interpretation remains UNADOPTED; no native light/matter/source identification.",
+      "sources": [
+        "udt_population_response_identification_2026-09-30/INITIAL_CANDIDATE.md",
+        "udt_population_response_identification_2026-09-30/REPAIR.md",
+        "udt_population_response_identification_2026-09-30/REVIEWED_RESULT.md"
+      ]
+    },
+    {
+      "id": "C_PRI_NONBEAM",
+      "kind": "method_hypotheses",
+      "statement": "For the second-moment observer theorem, angular energy measure is not concentrated on one null ray. Smooth observer assignment additionally requires smooth g,M on a nondegenerate region; no uniform bound through beam/zero limits.",
+      "sources": [
+        "udt_population_response_identification_2026-09-30/INITIAL_CANDIDATE.md",
+        "udt_population_response_identification_2026-09-30/REPAIR.md",
+        "udt_population_response_identification_2026-09-30/REVIEWED_RESULT.md"
+      ]
+    },
+    {
+      "id": "C_PRI_RAW",
+      "kind": "unadopted_branch",
+      "statement": "DIAGNOSTIC ONLY: identify DDR response with the raw null second moment, or its nonzero scalar multiple plus pure trace. Not a C1 or owner-adopted premise; rejection does not reject physical populations.",
+      "sources": [
+        "udt_population_response_identification_2026-09-30/INITIAL_CANDIDATE.md",
+        "udt_population_response_identification_2026-09-30/REPAIR.md",
+        "udt_population_response_identification_2026-09-30/REVIEWED_RESULT.md"
+      ]
+    },
+    {
+      "id": "R18O",
+      "kind": "argument",
+      "anchor": "r18o",
+      "title": "PRI1 conditional population-to-observer construction",
+      "registry_ids": [],
+      "sources": [
+        "udt_population_response_identification_2026-09-30/INITIAL_CANDIDATE.md",
+        "udt_population_response_identification_2026-09-30/REPAIR.md",
+        "udt_population_response_identification_2026-09-30/REVIEWED_RESULT.md"
+      ],
+      "required_conditions": [
+        "C_PRI_POPULATION",
+        "C_PRI_NONBEAM"
+      ]
+    },
+    {
+      "id": "R18F",
+      "kind": "argument",
+      "anchor": "r18f",
+      "title": "PRI1 observer-criterion and full-isotropy limits",
+      "registry_ids": [],
+      "sources": [
+        "udt_population_response_identification_2026-09-30/INITIAL_CANDIDATE.md",
+        "udt_population_response_identification_2026-09-30/REPAIR.md",
+        "udt_population_response_identification_2026-09-30/REVIEWED_RESULT.md"
+      ],
+      "required_conditions": [
+        "C_PRI_POPULATION"
+      ]
+    },
+    {
+      "id": "R18B",
+      "kind": "argument",
+      "anchor": "r18b",
+      "title": "PRI1 raw-moment DDR obstruction and separate response-variation gate",
+      "registry_ids": [],
+      "sources": [
+        "udt_population_response_identification_2026-09-30/INITIAL_CANDIDATE.md",
+        "udt_population_response_identification_2026-09-30/REPAIR.md",
+        "udt_population_response_identification_2026-09-30/REVIEWED_RESULT.md"
+      ],
+      "required_conditions": [
+        "C_PRI_POPULATION",
+        "C_PRI_RAW"
+      ]
+    },
+    {
+      "id": "C_TRI_COUNTS",
+      "kind": "conditional_protocol",
+      "statement": "Supplied locally finite labelled source records and increasing regular correspondence; exact discrete pushforward. Separately supplied continuous densities give a.e. formulas (pointwise with continuous representatives). Finite sums use one receiver clock and common image window or active-channel/zero extension; source rates and recording weights are not selected by Z. No photon/energy/detector law.",
+      "sources": [
+        "udt_tick_readout_identification_2026-09-30/INITIAL_CANDIDATE.md",
+        "udt_tick_readout_identification_2026-09-30/REPAIR.md",
+        "udt_tick_readout_identification_2026-09-30/REVIEWED_RESULT.md"
+      ]
+    },
+    {
+      "id": "R6N",
+      "kind": "argument",
+      "anchor": "r6n",
+      "title": "TRI1 actual-clock ratio, normalization and optional population frame",
+      "registry_ids": [],
+      "sources": [
+        "udt_tick_readout_identification_2026-09-30/INITIAL_CANDIDATE.md",
+        "udt_tick_readout_identification_2026-09-30/REPAIR.md",
+        "udt_tick_readout_identification_2026-09-30/REVIEWED_RESULT.md"
+      ],
+      "required_conditions": [
+        "M_GEOMETRY",
+        "P_NULL"
+      ]
+    },
+    {
+      "id": "R6T",
+      "kind": "argument",
+      "anchor": "r6t",
+      "title": "TRI1 supplied tick-record pushforward and aggregate scope",
+      "registry_ids": [],
+      "sources": [
+        "udt_tick_readout_identification_2026-09-30/INITIAL_CANDIDATE.md",
+        "udt_tick_readout_identification_2026-09-30/REPAIR.md",
+        "udt_tick_readout_identification_2026-09-30/REVIEWED_RESULT.md"
+      ],
+      "required_conditions": [
+        "M_GEOMETRY",
+        "P_NULL",
+        "C_TRI_COUNTS"
+      ]
+    },
+    {
+      "id": "C_NGD_ARENA",
+      "kind": "condition",
+      "title": "Supplied orthogonally transitive periodic two-Killing vacuum/areal sector and fixed-clock longitudinal query",
+      "registry_ids": [],
+      "sources": [
+        "udt_gpu_time_live_discovery_2026-09-30/INITIAL_CANDIDATE.md",
+        "udt_gpu_time_live_discovery_2026-09-30/REPAIR.md",
+        "udt_gpu_time_live_discovery_2026-09-30/REVIEWED_RESULT.md",
+        "udt_gpu_time_live_discovery_2026-09-30/EQUATIONS.md"
+      ]
+    },
+    {
+      "id": "R12N",
+      "kind": "argument",
+      "anchor": "r12n",
+      "title": "NGD1 finite unpolarized numerical histories and conditional actual-clock sign identity",
+      "registry_ids": [],
+      "sources": [
+        "udt_gpu_time_live_discovery_2026-09-30/INITIAL_CANDIDATE.md",
+        "udt_gpu_time_live_discovery_2026-09-30/REPAIR.md",
+        "udt_gpu_time_live_discovery_2026-09-30/REVIEWED_RESULT.md",
+        "udt_gpu_time_live_discovery_2026-09-30/EQUATIONS.md",
+        "udt_gpu_time_live_discovery_2026-09-30/CAMPAIGN_DIAGNOSTICS.json",
+        "udt_gpu_time_live_discovery_2026-09-30/SURVEY_FREEZE.json",
+        "udt_gpu_time_live_discovery_2026-09-30/PRE_SURVEY_SUPPLEMENT.json"
+      ],
+      "required_conditions": [
+        "C_EINSTEIN",
+        "C_NGD_ARENA",
+        "P_NULL"
+      ]
+    },
+    {
+      "id": "C_TDS_ARENA",
+      "kind": "condition",
+      "title": "Supplied periodic harmonic Ric=0 arena, CMC conformal seed and fixed-clock null queries",
+      "registry_ids": [],
+      "sources": [
+        "udt_three_spatial_smoke_2026-10-01/EQUATIONS.md",
+        "udt_three_spatial_smoke_2026-10-01/REVIEWED_RESULT.md",
+        "udt_three_spatial_smoke_2026-10-01/SMOKE_PLAN.md",
+        "udt_time_live_production_preparation_2026-10-01/METHOD.md",
+        "udt_time_live_production_preparation_2026-10-01/WORK_ORDER.md"
+      ]
+    },
+    {
+      "id": "R12T",
+      "kind": "argument",
+      "anchor": "r12t",
+      "title": "Three-coordinate conditional evolution: TDS1 short tests and TPP1 longer histories/production preparation",
+      "registry_ids": [],
+      "sources": [
+        "udt_three_spatial_smoke_2026-10-01/EQUATIONS.md",
+        "udt_three_spatial_smoke_2026-10-01/REVIEWED_RESULT.md",
+        "udt_three_spatial_smoke_2026-10-01/SMOKE_PLAN.md",
+        "udt_three_spatial_smoke_2026-10-01/SHORT_RUN_RESULT.json",
+        "udt_three_spatial_smoke_2026-10-01/CLOCK_READOUT.json",
+        "udt_three_spatial_smoke_2026-10-01/RESOURCE_STOP_RESULT.json",
+        "udt_three_spatial_smoke_2026-10-01/SMOKE_FREEZE.json",
+        "udt_three_spatial_smoke_2026-10-01/REPAIR_FREEZE.json",
+        "udt_three_spatial_smoke_2026-10-01/CLOCK_REPAIR_FREEZE.json",
+        "udt_time_live_production_preparation_2026-10-01/METHOD.md",
+        "udt_time_live_production_preparation_2026-10-01/REVIEWED_RESULT.md",
+        "udt_time_live_production_preparation_2026-10-01/WORK_ORDER.md",
+        "udt_time_live_production_preparation_2026-10-01/CHECK_PLAN.md",
+        "udt_time_live_production_preparation_2026-10-01/GPU_FREEZE.json",
+        "udt_time_live_production_preparation_2026-10-01/CLOCK_FREEZE.json",
+        "udt_time_live_production_preparation_2026-10-01/REFINEMENT_REPAIR.md",
+        "udt_time_live_production_preparation_2026-10-01/REFINEMENT_REPAIR_FREEZE.json",
+        "udt_time_live_production_preparation_2026-10-01/PRODUCTION_DISPATCH.md",
+        "udt_time_live_production_preparation_2026-10-01/CLOCK_RESULT.json",
+        "udt_time_live_production_preparation_2026-10-01/RESOURCE_RESULT.json",
+        "udt_time_live_production_preparation_2026-10-01/SUPERVISOR_SMOKE.json"
+      ],
+      "required_conditions": [
+        "C_EINSTEIN",
+        "C_TDS_ARENA",
+        "P_NULL"
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "from": "P_FOUNDING",
+      "to": "R1",
+      "kind": "hypothesis"
+    },
+    {
+      "from": "P_FOUNDING",
+      "to": "R2",
+      "kind": "hypothesis"
+    },
+    {
+      "from": "M_GEOMETRY",
+      "to": "R3",
+      "kind": "hypothesis"
+    },
+    {
+      "from": "P_PAIR",
+      "to": "R4",
+      "kind": "hypothesis"
+    },
+    {
+      "from": "M_GEOMETRY",
+      "to": "R5",
+      "kind": "hypothesis"
+    },
+    {
+      "from": "M_GEOMETRY",
+      "to": "R6",
+      "kind": "hypothesis"
+    },
+    {
+      "from": "P_NULL",
+      "to": "R6",
+      "kind": "hypothesis"
+    },
+    {
+      "from": "P_NULL",
+      "to": "R7",
+      "kind": "hypothesis"
+    },
+    {
+      "from": "P_NULL",
+      "to": "R8",
+      "kind": "hypothesis"
+    },
+    {
+      "from": "M_GEOMETRY",
+      "to": "R8",
+      "kind": "hypothesis"
+    },
+    {
+      "from": "P_DDR",
+      "to": "R9",
+      "kind": "hypothesis"
+    },
+    {
+      "from": "C_RESPONSE",
+      "to": "R10",
+      "kind": "hypothesis"
+    },
+    {
+      "from": "C_EINSTEIN",
+      "to": "R11",
+      "kind": "hypothesis"
+    },
+    {
+      "from": "C_EINSTEIN",
+      "to": "R12",
+      "kind": "hypothesis"
+    },
+    {
+      "from": "M_GEOMETRY",
+      "to": "R13",
+      "kind": "hypothesis"
+    },
+    {
+      "from": "P_NULL",
+      "to": "R13",
+      "kind": "hypothesis"
+    },
+    {
+      "from": "C_CONTENT",
+      "to": "R14",
+      "kind": "hypothesis"
+    },
+    {
+      "from": "C_SOURCE",
+      "to": "R15",
+      "kind": "hypothesis"
+    },
+    {
+      "from": "P_SCALE",
+      "to": "R16",
+      "kind": "hypothesis"
+    },
+    {
+      "from": "M_GEOMETRY",
+      "to": "R17",
+      "kind": "hypothesis"
+    },
+    {
+      "from": "R1",
+      "to": "R2",
+      "kind": "proof"
+    },
+    {
+      "from": "R3",
+      "to": "R4",
+      "kind": "proof"
+    },
+    {
+      "from": "R3",
+      "to": "R5",
+      "kind": "proof"
+    },
+    {
+      "from": "R6",
+      "to": "R7",
+      "kind": "proof"
+    },
+    {
+      "from": "R6",
+      "to": "R8",
+      "kind": "proof"
+    },
+    {
+      "from": "R9",
+      "to": "R10",
+      "kind": "proof"
+    },
+    {
+      "from": "R13",
+      "to": "R14",
+      "kind": "proof"
+    },
+    {
+      "from": "R10",
+      "to": "R11",
+      "kind": "context"
+    },
+    {
+      "from": "R11",
+      "to": "R12",
+      "kind": "context"
+    },
+    {
+      "from": "R6",
+      "to": "R13",
+      "kind": "context"
+    },
+    {
+      "from": "R11",
+      "to": "R15",
+      "kind": "context"
+    },
+    {
+      "from": "R14",
+      "to": "R15",
+      "kind": "context"
+    },
+    {
+      "from": "R4",
+      "to": "R16",
+      "kind": "context"
+    },
+    {
+      "from": "R8",
+      "to": "R16",
+      "kind": "context"
+    },
+    {
+      "from": "R10",
+      "to": "R17",
+      "kind": "context"
+    },
+    {
+      "from": "D1",
+      "to": "R18",
+      "kind": "interpretation"
+    },
+    {
+      "from": "R1",
+      "to": "R18",
+      "kind": "interpretation"
+    },
+    {
+      "from": "R2",
+      "to": "R18",
+      "kind": "interpretation"
+    },
+    {
+      "from": "R3",
+      "to": "R18",
+      "kind": "interpretation"
+    },
+    {
+      "from": "R4",
+      "to": "R18",
+      "kind": "interpretation"
+    },
+    {
+      "from": "R5",
+      "to": "R18",
+      "kind": "interpretation"
+    },
+    {
+      "from": "R6",
+      "to": "R18",
+      "kind": "interpretation"
+    },
+    {
+      "from": "R7",
+      "to": "R18",
+      "kind": "interpretation"
+    },
+    {
+      "from": "R8",
+      "to": "R18",
+      "kind": "interpretation"
+    },
+    {
+      "from": "R9",
+      "to": "R18",
+      "kind": "interpretation"
+    },
+    {
+      "from": "R10",
+      "to": "R18",
+      "kind": "interpretation"
+    },
+    {
+      "from": "R11",
+      "to": "R18",
+      "kind": "interpretation"
+    },
+    {
+      "from": "R12",
+      "to": "R18",
+      "kind": "interpretation"
+    },
+    {
+      "from": "R13",
+      "to": "R18",
+      "kind": "interpretation"
+    },
+    {
+      "from": "R14",
+      "to": "R18",
+      "kind": "interpretation"
+    },
+    {
+      "from": "R15",
+      "to": "R18",
+      "kind": "interpretation"
+    },
+    {
+      "from": "R16",
+      "to": "R18",
+      "kind": "interpretation"
+    },
+    {
+      "from": "R17",
+      "to": "R18",
+      "kind": "interpretation"
+    },
+    {
+      "from": "O_ASSIGNMENT",
+      "to": "R18",
+      "kind": "open_boundary"
+    },
+    {
+      "from": "R4",
+      "to": "R5",
+      "kind": "proof"
+    },
+    {
+      "from": "R4",
+      "to": "R6",
+      "kind": "context"
+    },
+    {
+      "from": "D1",
+      "to": "R1",
+      "kind": "context"
+    },
+    {
+      "from": "D1",
+      "to": "R2",
+      "kind": "context"
+    },
+    {
+      "from": "D1",
+      "to": "R3",
+      "kind": "context"
+    },
+    {
+      "from": "D1",
+      "to": "R4",
+      "kind": "context"
+    },
+    {
+      "from": "D1",
+      "to": "R5",
+      "kind": "context"
+    },
+    {
+      "from": "D1",
+      "to": "R6",
+      "kind": "context"
+    },
+    {
+      "from": "D1",
+      "to": "R7",
+      "kind": "context"
+    },
+    {
+      "from": "D1",
+      "to": "R8",
+      "kind": "context"
+    },
+    {
+      "from": "D1",
+      "to": "R9",
+      "kind": "context"
+    },
+    {
+      "from": "D1",
+      "to": "R10",
+      "kind": "context"
+    },
+    {
+      "from": "D1",
+      "to": "R11",
+      "kind": "context"
+    },
+    {
+      "from": "D1",
+      "to": "R12",
+      "kind": "context"
+    },
+    {
+      "from": "D1",
+      "to": "R13",
+      "kind": "context"
+    },
+    {
+      "from": "D1",
+      "to": "R14",
+      "kind": "context"
+    },
+    {
+      "from": "D1",
+      "to": "R15",
+      "kind": "context"
+    },
+    {
+      "from": "D1",
+      "to": "R16",
+      "kind": "context"
+    },
+    {
+      "from": "D1",
+      "to": "R17",
+      "kind": "context"
+    },
+    {
+      "from": "C_STATIONARY_CLOCKS",
+      "to": "R8S",
+      "kind": "hypothesis"
+    },
+    {
+      "from": "M_GEOMETRY",
+      "to": "R8S",
+      "kind": "hypothesis"
+    },
+    {
+      "from": "P_NULL",
+      "to": "R8S",
+      "kind": "hypothesis"
+    },
+    {
+      "from": "R6",
+      "to": "R8S",
+      "kind": "proof"
+    },
+    {
+      "from": "D1",
+      "to": "R8S",
+      "kind": "context"
+    },
+    {
+      "from": "R8S",
+      "to": "R18",
+      "kind": "interpretation"
+    },
+    {
+      "from": "R7",
+      "to": "R8",
+      "kind": "context"
+    },
+    {
+      "from": "C_LKT_CHARACTER",
+      "to": "R7C",
+      "kind": "hypothesis"
+    },
+    {
+      "from": "C_LKT2D",
+      "to": "R7L",
+      "kind": "hypothesis"
+    },
+    {
+      "from": "M_GEOMETRY",
+      "to": "R7L",
+      "kind": "hypothesis"
+    },
+    {
+      "from": "P_NULL",
+      "to": "R7L",
+      "kind": "hypothesis"
+    },
+    {
+      "from": "P_PAIR",
+      "to": "R7L",
+      "kind": "hypothesis"
+    },
+    {
+      "from": "C_LKT2D",
+      "to": "R7E",
+      "kind": "hypothesis"
+    },
+    {
+      "from": "C_LKT_RECIPROCAL",
+      "to": "R7E",
+      "kind": "hypothesis"
+    },
+    {
+      "from": "C_LKT_SAME_PHI",
+      "to": "R7E",
+      "kind": "hypothesis"
+    },
+    {
+      "from": "P_NULL",
+      "to": "R7E",
+      "kind": "hypothesis"
+    },
+    {
+      "from": "R1",
+      "to": "R7",
+      "kind": "context"
+    },
+    {
+      "from": "R2",
+      "to": "R7",
+      "kind": "context"
+    },
+    {
+      "from": "R7",
+      "to": "R7C",
+      "kind": "context"
+    },
+    {
+      "from": "R4",
+      "to": "R7L",
+      "kind": "proof"
+    },
+    {
+      "from": "R6",
+      "to": "R7L",
+      "kind": "proof"
+    },
+    {
+      "from": "R7",
+      "to": "R7L",
+      "kind": "context"
+    },
+    {
+      "from": "R7L",
+      "to": "R7E",
+      "kind": "proof"
+    },
+    {
+      "from": "R7L",
+      "to": "R8",
+      "kind": "context"
+    },
+    {
+      "from": "R7E",
+      "to": "R8S",
+      "kind": "context"
+    },
+    {
+      "from": "R7C",
+      "to": "R18",
+      "kind": "interpretation"
+    },
+    {
+      "from": "R7L",
+      "to": "R18",
+      "kind": "interpretation"
+    },
+    {
+      "from": "R7E",
+      "to": "R18",
+      "kind": "interpretation"
+    },
+    {
+      "from": "C_HOMOTHETY",
+      "to": "R10H",
+      "kind": "hypothesis"
+    },
+    {
+      "from": "R9",
+      "to": "R10H",
+      "kind": "proof"
+    },
+    {
+      "from": "R10H",
+      "to": "R10",
+      "kind": "context"
+    },
+    {
+      "from": "C_GCA_COMPARISON",
+      "to": "R17C",
+      "kind": "hypothesis"
+    },
+    {
+      "from": "R9",
+      "to": "R17C",
+      "kind": "context"
+    },
+    {
+      "from": "R17",
+      "to": "R17C",
+      "kind": "context"
+    },
+    {
+      "from": "C_LOVELOCK",
+      "to": "R17L",
+      "kind": "hypothesis"
+    },
+    {
+      "from": "R9",
+      "to": "R17L",
+      "kind": "context"
+    },
+    {
+      "from": "R17",
+      "to": "R17L",
+      "kind": "context"
+    },
+    {
+      "from": "R10H",
+      "to": "R18",
+      "kind": "interpretation"
+    },
+    {
+      "from": "R17C",
+      "to": "R18",
+      "kind": "interpretation"
+    },
+    {
+      "from": "R17L",
+      "to": "R18",
+      "kind": "interpretation"
+    },
+    {
+      "from": "O_PCW_PROPOSALS",
+      "to": "R18",
+      "kind": "open_boundary"
+    },
+    {
+      "from": "C_CES_PROTOCOL",
+      "to": "R18E",
+      "kind": "hypothesis"
+    },
+    {
+      "from": "O_PCW_PROPOSALS",
+      "to": "R18E",
+      "kind": "context"
+    },
+    {
+      "from": "R6",
+      "to": "R18E",
+      "kind": "context"
+    },
+    {
+      "from": "R9",
+      "to": "R18E",
+      "kind": "context"
+    },
+    {
+      "from": "R17",
+      "to": "R18E",
+      "kind": "context"
+    },
+    {
+      "from": "R18E",
+      "to": "R18",
+      "kind": "interpretation"
+    },
+    {
+      "from": "C_CCR_TUBE",
+      "to": "R18T",
+      "kind": "hypothesis"
+    },
+    {
+      "from": "C_CCR_SIGN",
+      "to": "R18C",
+      "kind": "hypothesis"
+    },
+    {
+      "from": "C_CCR_UNIVERSAL",
+      "to": "R18U",
+      "kind": "hypothesis"
+    },
+    {
+      "from": "R18T",
+      "to": "R18C",
+      "kind": "proof"
+    },
+    {
+      "from": "R18C",
+      "to": "R18U",
+      "kind": "proof"
+    },
+    {
+      "from": "R6",
+      "to": "R18T",
+      "kind": "context"
+    },
+    {
+      "from": "R9",
+      "to": "R18T",
+      "kind": "context"
+    },
+    {
+      "from": "R17",
+      "to": "R18T",
+      "kind": "context"
+    },
+    {
+      "from": "R18E",
+      "to": "R18T",
+      "kind": "context"
+    },
+    {
+      "from": "O_PCW_PROPOSALS",
+      "to": "R18T",
+      "kind": "context"
+    },
+    {
+      "from": "R18T",
+      "to": "R18",
+      "kind": "interpretation"
+    },
+    {
+      "from": "R18C",
+      "to": "R18",
+      "kind": "interpretation"
+    },
+    {
+      "from": "R18U",
+      "to": "R18",
+      "kind": "interpretation"
+    },
+    {
+      "from": "C_PRI_POPULATION",
+      "to": "R18O",
+      "kind": "hypothesis"
+    },
+    {
+      "from": "C_PRI_NONBEAM",
+      "to": "R18O",
+      "kind": "hypothesis"
+    },
+    {
+      "from": "C_PRI_POPULATION",
+      "to": "R18F",
+      "kind": "hypothesis"
+    },
+    {
+      "from": "C_PRI_POPULATION",
+      "to": "R18B",
+      "kind": "hypothesis"
+    },
+    {
+      "from": "C_PRI_RAW",
+      "to": "R18B",
+      "kind": "hypothesis"
+    },
+    {
+      "from": "R9",
+      "to": "R18B",
+      "kind": "proof"
+    },
+    {
+      "from": "R18O",
+      "to": "R18F",
+      "kind": "interpretation"
+    },
+    {
+      "from": "R17",
+      "to": "R18B",
+      "kind": "context"
+    },
+    {
+      "from": "R18T",
+      "to": "R18B",
+      "kind": "context"
+    },
+    {
+      "from": "R18C",
+      "to": "R18B",
+      "kind": "context"
+    },
+    {
+      "from": "R18U",
+      "to": "R18B",
+      "kind": "context"
+    },
+    {
+      "from": "O_PCW_PROPOSALS",
+      "to": "R18O",
+      "kind": "context"
+    },
+    {
+      "from": "O_PCW_PROPOSALS",
+      "to": "R18B",
+      "kind": "context"
+    },
+    {
+      "from": "R18O",
+      "to": "R18",
+      "kind": "interpretation"
+    },
+    {
+      "from": "R18F",
+      "to": "R18",
+      "kind": "interpretation"
+    },
+    {
+      "from": "R18B",
+      "to": "R18",
+      "kind": "interpretation"
+    },
+    {
+      "from": "M_GEOMETRY",
+      "to": "R6N",
+      "kind": "hypothesis"
+    },
+    {
+      "from": "P_NULL",
+      "to": "R6N",
+      "kind": "hypothesis"
+    },
+    {
+      "from": "M_GEOMETRY",
+      "to": "R6T",
+      "kind": "hypothesis"
+    },
+    {
+      "from": "P_NULL",
+      "to": "R6T",
+      "kind": "hypothesis"
+    },
+    {
+      "from": "C_TRI_COUNTS",
+      "to": "R6T",
+      "kind": "hypothesis"
+    },
+    {
+      "from": "R6",
+      "to": "R6N",
+      "kind": "proof"
+    },
+    {
+      "from": "R7",
+      "to": "R6N",
+      "kind": "proof"
+    },
+    {
+      "from": "R6N",
+      "to": "R6T",
+      "kind": "proof"
+    },
+    {
+      "from": "R6N",
+      "to": "R18O",
+      "kind": "interpretation"
+    },
+    {
+      "from": "R6N",
+      "to": "R18F",
+      "kind": "interpretation"
+    },
+    {
+      "from": "R6N",
+      "to": "R18B",
+      "kind": "interpretation"
+    },
+    {
+      "from": "R6T",
+      "to": "R18",
+      "kind": "interpretation"
+    },
+    {
+      "from": "C_EINSTEIN",
+      "to": "R12N",
+      "kind": "hypothesis"
+    },
+    {
+      "from": "C_NGD_ARENA",
+      "to": "R12N",
+      "kind": "hypothesis"
+    },
+    {
+      "from": "P_NULL",
+      "to": "R12N",
+      "kind": "hypothesis"
+    },
+    {
+      "from": "R12",
+      "to": "R12N",
+      "kind": "context"
+    },
+    {
+      "from": "R6N",
+      "to": "R12N",
+      "kind": "proof"
+    },
+    {
+      "from": "R12N",
+      "to": "R18",
+      "kind": "interpretation"
+    },
+    {
+      "from": "C_EINSTEIN",
+      "to": "R12T",
+      "kind": "hypothesis"
+    },
+    {
+      "from": "C_TDS_ARENA",
+      "to": "R12T",
+      "kind": "hypothesis"
+    },
+    {
+      "from": "P_NULL",
+      "to": "R12T",
+      "kind": "hypothesis"
+    },
+    {
+      "from": "R11",
+      "to": "R12T",
+      "kind": "context"
+    },
+    {
+      "from": "R12N",
+      "to": "R12T",
+      "kind": "context"
+    },
+    {
+      "from": "R6N",
+      "to": "R12T",
+      "kind": "proof"
+    },
+    {
+      "from": "R12T",
+      "to": "R18",
+      "kind": "interpretation"
+    }
+  ],
+  "sources_sha256": {
+    "udt_repository_cleanup_2026-09-27/local_clock_impact_2026-09-29/OWNER_CLARIFICATION.md": "bf31a0682bed7060a0eea38035bfd87a0ab2c6bee41406882ae5a4abfc11471b",
+    "udt_positional_geometry_clock_connection_2026-09-28/OWNER_STATEMENT.md": "6d51ac6e4525dec57f7a9d3f795568410052e20102d9971bca0a4275eef4bee7",
+    "founding.md": "b4b0d9a9fdd093c992647195aca7579566a9e77a396071a699c1938888a49e75",
+    "udt_gr_filter_reconciliation_2026-09-09/AUTHORITY_RECORD.md": "80daa0be6d3e1c0ac1b734fea089c4eb487f05bc1e1fbb2fabd69322ca89f28c",
+    "UDT_RECIPROCAL_C_FOUNDING_POSTULATE_DERIVATION_RESULTS.md": "b2bdf9dd427871c6e951c6b47748b7663aa4a6264fcfcbff59b51f1ea2272003",
+    "udt_founding_phi_ownership_morphism_audit_2026-08-05/AUDIT_REPORT.md": "65905b6b2718fd9c1057143a7148104bb14d7e65eeee3bdc7a7010af8cbe90eb",
+    "udt_g179_complete_coframe_pair_pullback_extension_2026-08-19/EXACT_DERIVATION.md": "4c059659785953822bcb4f902705ed7c0c7c4bd69243582a0663be6894cf3a51",
+    "udt_g180_completed_pair_smooth_family_descent_2026-08-19/EXACT_DERIVATION.md": "3e81642bacf30a9e94df3db4c041f6b6ae94af91b87d9f51c044116ed2afa7b6",
+    "udt_g176_completed_pair_dual_reciprocity_consolidation_2026-08-19/EXACT_DERIVATION.md": "df53a5b3c52d0bd24496d060637dc158a4f2c7cdd17226c9446ea0d338d27831",
+    "udt_g213_determinant_one_spatial_remainder_and_completed_rank_closure_2026-08-22/AUDIT_REPORT.md": "b46d70a9b915d9d477b872cd8ba0d8fd8f96dc81c5b5dcd8bf4cc9d72c6ffc53",
+    "udt_g134_full_metric_area_history_reframe_audit_2026-08-17/AUDIT_REPORT.md": "1e78843aaf45eeaaf7702e7b0e60cf012b72febe6a21f52b615a16ebe1062687",
+    "udt_signal_chain_banking_2026-09-13/BANKING_RECORD.md": "5e7070af6dcc549ecad8962dd0056ea7a08bb747140aa4484da26f4ba9dc2397",
+    "udt_finite_separation_law_2026-09-28/INITIAL_CANDIDATE.md": "7dd39a4840390f15fcedc2ae0e588f51e441b4348eaf0f0f8d9b81968b60d8e4",
+    "udt_finite_separation_law_2026-09-28/REPAIR.md": "be0927544e72bebd38a364cac33e0979aa8b4c4a1bdcdeba5dedf3e16e41e368",
+    "udt_interframe_clock_network_2026-09-28/REVIEWED_RESULT.md": "28c8e36dd78e8007cba1ec7846350793e9142029fbb2e4e6891ed4cb9c21ab54",
+    "udt_g310_differential_dual_reciprocity_tracefree_ownership_2026-08-31/EXACT_DERIVATION.md": "a417b3cfa1cc6136429a14d3b330c1b8c25c73c9e946d6b6454d6ffae72c25a0",
+    "startup_surface_g310_universal_reciprocity_refresh_2026-08-31/ADOPTION_RECORD.md": "4eb7d0a1130dcff997bc5180f420b633e2dcbbb5072d098997ba3672b38d8ab5",
+    "udt_response_measurement_scaling_2026-09-28/REVIEWED_RESULT.md": "462cad1bb96a2ed121edede7e93d4f0fcf9d7f61c1a35f438d42ae47b7dfec3c",
+    "udt_gr_response_selection_2026-09-28/REVIEWED_RESULT.md": "4c0cbaf8dac98010556136d4189f1abe724f089ca91e353b520401ff05725795",
+    "udt_g301_scale_free_quiet_regular_causal_principal_classification_2026-08-30/EXACT_DERIVATION.md": "633b907b5384aa63d61d49db067dd4e608e6abd3bf3571e4267f91e5c74da8fb",
+    "udt_g317_exact_noncmc_coupled_data_family_2026-09-01/EXACT_DERIVATION.md": "ca38237b2a9d27551a42d0447600be7795d4766a354f4301777405290106a8ba",
+    "udt_g321_g320_local_cauchy_development_uniqueness_2026-09-01/AUDIT_REPORT.md": "975fb68b053c2a11c373677544374e448f2ce84b265d860bb2c1e723d2595d6c",
+    "udt_g316_lawful_constraint_data_construction_2026-09-01/EXACT_DERIVATION.md": "a7ad81bcfa3a55b7f86107b175569064219235b4201465df9759a8d87c672390",
+    "udt_g322_g321_maximal_globally_hyperbolic_development_2026-09-01/AUDIT_REPORT.md": "d97eb46e3275501537ab961535ad6c867190eab6be528decb72a43211de80514",
+    "udt_nonlinear_ripple_geometry_2026-09-09/REVIEWED_RESULT.md": "45cc3bc950b76ceed6a1fd49c248688242bc3c008864256de9bb494c1b8bbfaa",
+    "udt_reviewed_backlog_banking_2026-09-10/BANKING_RECORD.md": "654b0b2d734685c42d6a1b31740d545ab9299d17a5d5cc32c57e407b800191f1",
+    "udt_nonlinear_ripple_geometry_2026-09-09/INITIAL_CANDIDATE.md": "49880008dcb5a646d6867e377f6dc84ded692b98250701aba4cab7119ca500de",
+    "udt_g349_finite_null_wavefront_patch_area_2026-09-04/AUDIT_REPORT.md": "5daf07ed87fd96953d7f989e269aafe3654a6876230725fd7b3bcc1f3188467e",
+    "udt_g348_generic_lorentzian_null_screen_area_theorem_2026-09-04/EXACT_DERIVATION.md": "04917cd0336f5c06ee76129f5a8005f5e483e8a6fcdacbb87c96a6e0ad89544c",
+    "udt_g351_source_free_labelwise_carried_measure_conservation_2026-09-05/EXACT_DERIVATION.md": "37bd938dc488c305e43c3e1b414e1b40e489bf7fa23dd6453ce3118c953ea317",
+    "udt_g350_frequency_area_carried_content_ownership_2026-09-05/EXACT_DERIVATION.md": "85e1073e9284ec9e8e543eea63c712d4015fdd4c2277ce0d8081a7d9002731ed",
+    "udt_g352_clock_rate_carried_measure_readout_2026-09-05/EXACT_DERIVATION.md": "70aac9b85acb797cba41caa8dad9d567174b8031e853de8189a074e929e51b0d",
+    "udt_g372_g373_conditional_banking_2026-09-08/BANKING_RECORD.md": "45f774b2393f81c2d84754be57cd35db88301b9c281ea53be1a07e82a7bfacbe",
+    "udt_optional_coupled_development_campaign_2026-09-08/step_02/REVIEWED_RESULT.md": "f0f69723a135c00bcef936a3f19dca15094796d5f954e4fba4368587ccca7010",
+    "udt_machian_global_clock_feasibility_2026-09-28/REVIEWED_RESULT.md": "9102fcf8b97e0b168ca23cf98e9ad6ebf45c04073e02dd8120c8cb7934f6a7e3",
+    "udt_conservation_variational_response_2026-09-28/REVIEWED_RESULT.md": "fa6c2d6d511a01e20a3db043d824a7838b4ae7aadf57c3bd4edf1b7e820bc4ae",
+    "udt_finite_clock_metric_variation_2026-09-28/REVIEWED_RESULT.md": "609f7889104aa3cc9804926738e888a83df7d593db7daab0763aef20809023f8",
+    "native_hopfion_topology_audit_2026-07-19/AUDIT_REPORT.md": "df0171eb83d75ad175727a8db541df8500b7826edf6059ae63a52f1a1ba15bea",
+    "udt_scientific_arc_recovery_checkpoint_2026-08-04/MASS_BRANCH_AUTHORITY_MAP.tsv": "1483331ab0e00bc6f800589edaaf56fff7c670a75292e49a05adc9935a063bdf",
+    "native_hopfion_topology_audit_2026-07-19/TOPOLOGY_STATUS_LEDGER.tsv": "de154fbb7787759864786c04186a26a4605c447d362112bb482acee064d457e4",
+    "udt_directional_clock_release_2026-09-14/CANDIDATE.md": "dfd1327216f6014180d037522fd53dfee73c110ced2dce288ff5695ce846b967",
+    "udt_finite_separation_reciprocity_2026-09-14/CANDIDATE.md": "195772489fe683f2a863e9d3af10143dc44b3a0555592d8c44f0f4262f7e87e7",
+    "udt_positional_joint_compatibility_2026-09-14/CANDIDATE.md": "5a5e422c4fff56399ec34d4db7841d744dd6c0e2802e6da7dcded0b82f688d61",
+    "udt_joint_observer_relation_scope_correction_2026-09-13/CORRECTION.md": "62b5fd42eac330c57b761593c8e3ecb2ccca1c6c3c12ef2aea90ef2964058aa2",
+    "udt_field_equation_principle_design_2026-09-13/DECISION_PACKET.md": "f7e915dd01b4ffc803c6a55ab76310f5efc802971b060fbf9c4897c01c4118c5",
+    "udt_field_equation_provenance_and_process_2026-09-13/DECISION_BRIEF.md": "7a64556a26864650f95c44aac6137c92e698f9da3533dd2bfbe14a8d003caff6",
+    "udt_native_theory_research_plan_2026-09-13/execution/tc0/RESULT.md": "fd556f5b8ba2dbe3b41b2077d82b9ecb9e09963030937e0b4ba352c0b60018c3",
+    "udt_native_angular_premise_audit_2026-09-13/REVIEWED_RESULT.md": "b610be2000969776ca75b9b126a5c9c3d92e0d139b347100bd7cd362c2add59a",
+    "udt_local_kernel_symmetry_release_2026-09-13/REVIEWED_RESULT.md": "7e8b9444a087d797eeb42931c14c48f93e718c88ab1870a79dbe61e609be1dc6",
+    "udt_geometric_response_field_connection_2026-09-13/REVIEWED_RESULT.md": "593c3de470fb009ceaab5a2b012ba05b537231a8ca92c078f26d25e1dac59bde",
+    "udt_native_field_connection_audit_2026-09-13/REVIEWED_AUDIT.md": "c0cf9a2221f929fbb2a0c3c5ca93985bfeb0de814e0166883b9837dc620b10cd",
+    "udt_current_native_radiation_feasibility_2026-09-13/REVIEWED_RESULT.md": "35ff6515d1f35cf127daf25abaa62a41a56981e978afcb158f5f52e07333168f",
+    "udt_geometric_field_choice_discrimination_2026-09-13/REVIEWED_RESULT.md": "c1075680e3052faeddc8ec7edad39a4db5d9128ce23dba33bc9cc029e74995df",
+    "udt_broader_evolving_signal_geometry_2026-09-13/REVIEWED_RESULT.md": "9c8ba8a9e52ba15b8ebf49de3ab9a335c2bd8613bfd1983f75b744c9a29bffcd",
+    "udt_joint_signal_shape_discrimination_2026-09-13/REVIEWED_RESULT.md": "0528fb57e86fca7033be554f86e11ac63103fddeb4b5e84a10285ccbd8798b5a",
+    "udt_observation_guided_function_search_2026-09-28/REVIEWED_RESULT.md": "f1dffa344c81154e533274495b70c6d884c65e6628b85a076c20400d7833b79c",
+    "udt_common_geometry_whiteboard_2026-09-28/REVIEWED_RESULT.md": "b4bdb53716762b6bac91dc95dd867920c18892e82c425d701e28d1981929e0b9",
+    "udt_clock_curvature_derivation_2026-09-28/REVIEWED_RESULT.md": "0afd91a8305d0f3cb6de78b0c5a275b861b15bd02db00900b7f3648eed28d852",
+    "udt_finite_separation_law_2026-09-28/REVIEWED_RESULT.md": "1a1770b84ba184e2411cf4dac30e694bffec46a762bba618c2edf0d1df8b8740",
+    "development_reconstruction_2026-09-29/SOURCE_CORRECTIONS.md": "18742d3ca750540ade8108ac87d31b7355b0e88d8b96bc4a90b7f8de438d6fb0",
+    "udt_shared_geometry_extension_2026-09-29/INITIAL_DERIVATION.md": "7fe9dd385437f927504d90ebe27e70b8751e889efe9140c240a3ee1913aa0484",
+    "udt_shared_geometry_extension_2026-09-29/REPAIR.md": "bb1118852acf2943128067568ddf7ca09cfd7cbe591bbdc8fa675a5b28fe1d60",
+    "udt_shared_geometry_extension_2026-09-29/REVIEWED_RESULT.md": "318760918a414727a889c924186512cb1b9e46524c029cced9214b6b26c82e48",
+    "udt_shared_geometry_extension_2026-09-29/OWNER_CLARIFICATION.md": "94480181e004a535e0dffd122545310c0aaedfb98d3734c5095c75bfe9ed3f50",
+    "udt_directional_clock_curvature_whiteboard_2026-09-10/INITIAL_CANDIDATE.md": "b11326b4f316f675a9c3ecc596d47e33c0e39215c591fddde1013c37c68d2375",
+    "udt_lorentz_kernel_transport_2026-09-29/INITIAL_CANDIDATE.md": "600c261ec1662d8a8315034ef362f78563e7c8a193a2ca8fecad2d119ea46d52",
+    "udt_lorentz_kernel_transport_2026-09-29/REVIEWED_RESULT.md": "a0472a66148a6e46857161488b09b11131bdd39fbf708256a43cea1bb1f60281",
+    "udt_founding_phi_ownership_morphism_audit_2026-08-05/EXACT_DERIVATION.md": "0d83baaaa9f0586cb3f3b0cd7af16b201996a124dba6a050c71624a2e638a4fd",
+    "udt_g220_covariant_null_clock_arrow_timelive_lift_2026-08-22/EXACT_DERIVATION.md": "0e5b33a0c013def973bdca369944d99a84fe278614cae1794e7cb50b56db0f6f",
+    "udt_g274_projective_pair_position_network_descent_2026-08-26/EXACT_DERIVATION.md": "8cee4fa46ea13c6101bbce8c94072a516d38ce0f863e3658a87bab4d77e7e18f",
+    "udt_gr_commitment_audit_2026-09-29/INITIAL_CANDIDATE.md": "30c9bef57625a8e65cee24951a55a6db173ac1d91e0f1e88c6e0052fea781a47",
+    "udt_gr_commitment_audit_2026-09-29/CENTRAL_INSERTION.md": "3e3cbcd80c8e426c34462a311a88786eef73c38abb738f7284bdefacd7337870",
+    "udt_gr_commitment_audit_2026-09-29/DECISION_BRIEF.md": "9d8fddc6b639cfbdf0de2ef04d1174910f7f69f24537f933f29b80a028738e1f",
+    "udt_gr_commitment_audit_2026-09-29/REVIEWED_RESULT.md": "3418a96c5de81dce9062871a1395801d887cdd7ab02159d392dd139b573ae368",
+    "udt_physical_connection_whiteboard_2026-09-30/OWNER_DIRECTION.md": "5a5c9ce0ab79ed38109b697234b002d89b0313a14a03511a169298a525aa083b",
+    "udt_physical_connection_whiteboard_2026-09-30/INITIAL_SYNTHESIS.md": "ef7c452036516e30f9b08ec1df6a042b419e9f0aea527314445cbf1d738d0939",
+    "udt_physical_connection_whiteboard_2026-09-30/REPAIR.md": "2a08ea369f226d739af46148f196dc1d577615f613a52f0eb1d9c9223f8954ee",
+    "udt_physical_connection_whiteboard_2026-09-30/REVIEWED_RESULT.md": "b17509671833c7319b5bdd0553679a09982265c6df2b7db5aff76aced0c33646",
+    "udt_physical_connection_whiteboard_2026-09-30/proposals/local/INITIAL_PROPOSAL.md": "cedffe7b0358f2f9abdd9fd0f66e199cb3d517ff24f71bd777c212032c090325",
+    "udt_physical_connection_whiteboard_2026-09-30/proposals/micro/INITIAL_PROPOSAL.md": "bf2dedcb7bd4c0e29db01b73cc860e509dc830b3835583366075b53e592d4576",
+    "udt_physical_connection_whiteboard_2026-09-30/proposals/cosmic/INITIAL_PROPOSAL.md": "e9b19bafd8fabac821f8521577003ee4ca397f4a7d712dc5e7d4e8fca4ef89ca",
+    "udt_clock_ensemble_stationarity_test_2026-09-30/PREPARATION.md": "e5ce5c7300c7d67f7232c8f9c24b8b636d722ec2b1917506b47cb70f0c49bc01",
+    "udt_clock_ensemble_stationarity_test_2026-09-30/INITIAL_CANDIDATE.md": "cf82d5a6f6b84862da1a5ebbcdfe6f65bf8e862b2e41a05a6d6366f8699229e3",
+    "udt_clock_ensemble_stationarity_test_2026-09-30/REVIEWED_RESULT.md": "4152b3223979c72fd8686124d7af484a399644920a669928462bc9f5f2bb6ea4",
+    "udt_curved_clock_response_test_2026-09-30/INITIAL_CANDIDATE.md": "85dac5def7eae63e5682a2615a55d8d66705d44cefaeddd02082926248e59c9e",
+    "udt_curved_clock_response_test_2026-09-30/REPAIR.md": "fb588385fca7d16587c8f0b92a714fca6e7766fa9abdb29ea3309bff578287b4",
+    "udt_curved_clock_response_test_2026-09-30/REVIEWED_RESULT.md": "8c3218a80a42741262707da40d2559c992a923b669a7a2f2cdcaa74226de6c5f",
+    "udt_population_response_identification_2026-09-30/INITIAL_CANDIDATE.md": "597d5b7104d3a30f95af811e6fb7713834a196b0dfeb4af989a92b9f2e6fe208",
+    "udt_population_response_identification_2026-09-30/REPAIR.md": "404c9885daf14ed39ab733f47e235e0da272268a06a5594f7b7bb2a006f433d7",
+    "udt_population_response_identification_2026-09-30/REVIEWED_RESULT.md": "66bf2f1b52e2afa670113fe613f67485cb4cffa3f238341953f404c1fe1bb756",
+    "udt_tick_readout_identification_2026-09-30/INITIAL_CANDIDATE.md": "b1c9ab5d349463f9c27f1b719f85948f3afe949583c8aceea75cded7b1ae206e",
+    "udt_tick_readout_identification_2026-09-30/REPAIR.md": "43ecfa6fe282fd6f330c67362ff92020573ef1f596cac1d167a207b896da098e",
+    "udt_tick_readout_identification_2026-09-30/REVIEWED_RESULT.md": "b855b3aef1d3869d6c4cec8a49e62fc6ba8a15ccf01de782abec65bbafb945cc",
+    "udt_gpu_time_live_discovery_2026-09-30/INITIAL_CANDIDATE.md": "0efe785af286920d52f2a8426b65502768a3fcf037d69b4dbc32ee3a6f95f7a9",
+    "udt_gpu_time_live_discovery_2026-09-30/REPAIR.md": "cf397b818e1248af175cace817c81b0e4fc5216d5774a7561ef6015f25179187",
+    "udt_gpu_time_live_discovery_2026-09-30/REVIEWED_RESULT.md": "3c044c464096529d9fa636b98310f95a62d314f9da6c758caf9e225c692981d1",
+    "udt_gpu_time_live_discovery_2026-09-30/EQUATIONS.md": "1bf117d5f19f05398dfcbaf588b1aa4e4134abf1c01dcf69c935f2510498bb1b",
+    "udt_gpu_time_live_discovery_2026-09-30/CAMPAIGN_DIAGNOSTICS.json": "f77bc16c4d6567e8f3ae66ce9c7c67e21a633a8b0e6d9b735af4666a419fd7ad",
+    "udt_gpu_time_live_discovery_2026-09-30/SURVEY_FREEZE.json": "24a3241b628d284d85e3a0f4b5cb171bb437259c17771193868c4f17fa176973",
+    "udt_gpu_time_live_discovery_2026-09-30/PRE_SURVEY_SUPPLEMENT.json": "2e598847948af05d42e0d1e12bdde2a39fa9ebc2ca1c5c2b5c0a6809da411efb",
+    "udt_three_spatial_smoke_2026-10-01/EQUATIONS.md": "2c149841840d89f867914cbbfd127a1340005f99d0945c192d127957a3597bf1",
+    "udt_three_spatial_smoke_2026-10-01/REVIEWED_RESULT.md": "c178492a66f27031ee1e0b8a9954786b9a9be0ef97d304f10ebd1b282cfb5f79",
+    "udt_three_spatial_smoke_2026-10-01/SMOKE_PLAN.md": "84203a19eea1fb8a1ed8fd0329a5c1c53ddaa5cbe1621ce41da1049485667053",
+    "udt_three_spatial_smoke_2026-10-01/SHORT_RUN_RESULT.json": "0867af3ed8a04ab3d21b09feaf02dc93631c64967a064e033efa3267f73d4fda",
+    "udt_three_spatial_smoke_2026-10-01/CLOCK_READOUT.json": "8fd5c01ba7673e848faad143c9827b6b9377ad01c4265158b72592fe63af205a",
+    "udt_three_spatial_smoke_2026-10-01/RESOURCE_STOP_RESULT.json": "6f67e7ed9d71c7ce50515cd1b0a18e16dfd246a2b294ff37a32c64d5d2a621a2",
+    "udt_three_spatial_smoke_2026-10-01/SMOKE_FREEZE.json": "374b5c3b9a4c738cc70866e33ba026410bcd1dab5e274a4cabc7960c9b345526",
+    "udt_three_spatial_smoke_2026-10-01/REPAIR_FREEZE.json": "d0a3dfa82361d9a8cf40d18a55556fe6ee1bd1f5470eaceab697e82f1d0fca37",
+    "udt_three_spatial_smoke_2026-10-01/CLOCK_REPAIR_FREEZE.json": "75ee8cf9c9855f13c31d49a6c0aff3a6af05f11a842ecb5e4fb73d3076c9f99b",
+    "udt_time_live_production_preparation_2026-10-01/METHOD.md": "82cf6cece69684d2b1d3db2c1523d038b1a73fb3429ec4f74c4d3e23936888f0",
+    "udt_time_live_production_preparation_2026-10-01/REVIEWED_RESULT.md": "0ab276c221b00ec944b66504df0bf66470cd5d3ebd7af4316962c758c314018c",
+    "udt_time_live_production_preparation_2026-10-01/WORK_ORDER.md": "c74525937619e5902c679e93aef478fea7951b3b042361058169c44a74c656ea",
+    "udt_time_live_production_preparation_2026-10-01/CHECK_PLAN.md": "73660b34a0129470bfd614d4b3899cd106ca8f0d1cfa5328f9d0b2c024c36814",
+    "udt_time_live_production_preparation_2026-10-01/GPU_FREEZE.json": "cbb249f04327946fac9cdbe8dcf68c28639330b3a42f4107e127ca15f825e9b7",
+    "udt_time_live_production_preparation_2026-10-01/CLOCK_FREEZE.json": "c4593fb0002712b22f9e15e082ad7929b904a672fb6b9960e7702645cee79333",
+    "udt_time_live_production_preparation_2026-10-01/REFINEMENT_REPAIR.md": "3e0853aee3d51296c9c2dc82af22eaef58821c547672d397a15fb62519d5b710",
+    "udt_time_live_production_preparation_2026-10-01/REFINEMENT_REPAIR_FREEZE.json": "0a0be123e517141d938a5fcd6023ce7778b9272600fde742a76704c7feaf7056",
+    "udt_time_live_production_preparation_2026-10-01/PRODUCTION_DISPATCH.md": "e956b635b7f3f7962827f8e9bc86f41a2ba376ce01e0bd827ad585dabe032f0b",
+    "udt_time_live_production_preparation_2026-10-01/CLOCK_RESULT.json": "274c3e46186c650940d52cac651cfb9a76e7715b366d4ad77831e40f28195487",
+    "udt_time_live_production_preparation_2026-10-01/RESOURCE_RESULT.json": "877c8edfbbc827db456bc000c6a6e1f5d5e01da8471ebc60fde85901276073da",
+    "udt_time_live_production_preparation_2026-10-01/SUPERVISOR_SMOKE.json": "70dd071c6c03d2bfadcbac4422ce7b3f2331036a4120a96839346df7843b00d0"
+  },
+  "impact_policy": "Any changed source or registry row flags its mapped positive and negative central arguments and every reachable central descendant for review; no automatic truth reversal or regrading.",
+  "review_support": [
+    {
+      "id": "DCR1",
+      "path": "udt_directional_clock_release_2026-09-14/review/REVIEW_RECORD.json",
+      "sha256": "1b29598c9f3841b2d0257809b737769a72367ef04ff13ba783c618d6a70e9fea",
+      "targets": [
+        "R5",
+        "R10",
+        "R18"
+      ],
+      "role": "review_evidence"
+    },
+    {
+      "id": "DCR1",
+      "path": "udt_directional_clock_release_2026-09-14/review/REVIEW.md",
+      "sha256": "3104620ed79caed471e7752791e9e57ac516d06801c140d76e05b8b5975acb50",
+      "targets": [
+        "R5",
+        "R10",
+        "R18"
+      ],
+      "role": "review_evidence"
+    },
+    {
+      "id": "DCR1",
+      "path": "udt_directional_clock_release_2026-09-14/REPAIR.md",
+      "sha256": "2a9ab4a1545725e6f71dfb91114e3ddbf97e89471fc8c9bb18a5485197f0fda2",
+      "targets": [
+        "R5",
+        "R10",
+        "R18"
+      ],
+      "role": "repair_scope"
+    },
+    {
+      "id": "FSR1",
+      "path": "udt_finite_separation_reciprocity_2026-09-14/review/FINAL_REVIEW.md",
+      "sha256": "4b8f1980143def005c2f8268c7168ca024f2e3796f62c32058eb728ae425c252",
+      "targets": [
+        "R1",
+        "R7",
+        "R17"
+      ],
+      "role": "review_evidence"
+    },
+    {
+      "id": "FSR1",
+      "path": "udt_finite_separation_reciprocity_2026-09-14/review/MAINTAINED_REVIEW.md",
+      "sha256": "12f938a15b5af5a7ec25df374cf382faf6dd6140d2145238c5c1b3010e1118c9",
+      "targets": [
+        "R1",
+        "R7",
+        "R17"
+      ],
+      "role": "review_evidence"
+    },
+    {
+      "id": "PJC1",
+      "path": "udt_positional_joint_compatibility_2026-09-14/review/FINAL_REVIEW.md",
+      "sha256": "f5b7b5686011430996187c0c578b56bcc2c447640c64ee78790b514b67f6d2c4",
+      "targets": [
+        "R2",
+        "R5",
+        "R17"
+      ],
+      "role": "review_evidence"
+    },
+    {
+      "id": "PJC1",
+      "path": "udt_positional_joint_compatibility_2026-09-14/review/MAINTAINED_REVIEW.md",
+      "sha256": "9f339becc860b240d9704d1fb143eb23071df43fa531e6d245c82243c1ee9c40",
+      "targets": [
+        "R2",
+        "R5",
+        "R17"
+      ],
+      "role": "review_evidence"
+    },
+    {
+      "path": "udt_shared_geometry_extension_2026-09-29/review/math/DIRECT_REVIEW.md",
+      "sha256": "736a997ab2596eecda1965581986ebe4267208713c6663fefa2a1851c5651629",
+      "role": "review_evidence",
+      "targets": [
+        "R8",
+        "R8S",
+        "R18"
+      ],
+      "scope": "Initial substantive review requiring explicit tube-domain qualification; REPAIR and final version-bound attestations own repaired integration acceptance."
+    },
+    {
+      "path": "udt_shared_geometry_extension_2026-09-29/review/fidelity/DIRECT_REVIEW.md",
+      "sha256": "fa8a0ba3df2b1cabdf3e3e560482fba97ae3e689c7153ec57c516cdb281662b1",
+      "role": "review_evidence",
+      "targets": [
+        "R8",
+        "R8S",
+        "R18"
+      ],
+      "scope": "Initial substantive review requiring explicit tube-domain qualification; REPAIR and final version-bound attestations own repaired integration acceptance."
+    },
+    {
+      "path": "udt_lorentz_kernel_transport_2026-09-29/review/math/DIRECT_REVIEW.md",
+      "sha256": "8b35e0265512ddd75ce54766080b0744d285ea375eff6e8974fb9736f2a2caab",
+      "role": "review_evidence",
+      "targets": [
+        "R7",
+        "R7C",
+        "R7L",
+        "R7E",
+        "R18"
+      ],
+      "scope": "LKT1 frozen-candidate direct review; conditional scope, no required scientific repair. Actual final integration acceptance belongs to final attestations, not this support edge."
+    },
+    {
+      "path": "udt_lorentz_kernel_transport_2026-09-29/review/fidelity/DIRECT_REVIEW.md",
+      "sha256": "7396c0b926e7fb4c436b0924c5135a35d0b0a693039e6e816128c162ebc18c4a",
+      "role": "review_evidence",
+      "targets": [
+        "R7",
+        "R7C",
+        "R7L",
+        "R7E",
+        "R18"
+      ],
+      "scope": "LKT1 frozen-candidate direct review; conditional scope, no required scientific repair. Actual final integration acceptance belongs to final attestations, not this support edge."
+    },
+    {
+      "path": "udt_gr_commitment_audit_2026-09-29/review/math/DIRECT_REVIEW.md",
+      "sha256": "40bb1e4a27ffed28eac32cf05e964ed6f41f93ef62bfb67e6be05f668b66014a",
+      "role": "review_evidence",
+      "targets": [
+        "R10H",
+        "R17C",
+        "R17L",
+        "R18"
+      ]
+    },
+    {
+      "path": "udt_gr_commitment_audit_2026-09-29/review/fidelity/DIRECT_REVIEW.md",
+      "sha256": "4a2a85c4acc600b157b3be3d7ffc24d407e07159d24c700e3b8bfc24ee71f64a",
+      "role": "review_evidence",
+      "targets": [
+        "R10H",
+        "R17C",
+        "R17L",
+        "R18"
+      ]
+    },
+    {
+      "path": "udt_physical_connection_whiteboard_2026-09-30/review/math/DIRECT_REVIEW.md",
+      "sha256": "4a3df2033a3a165d04fbe6ad75b1828239ed300fcd4f72ca51093892578eba6c",
+      "role": "review_evidence",
+      "targets": [
+        "O_PCW_PROPOSALS",
+        "R18"
+      ],
+      "scope": "PCW1 proposal/negative-scope review only; no adoption, proof input or grade promotion. Final integration acceptance is separate."
+    },
+    {
+      "path": "udt_physical_connection_whiteboard_2026-09-30/review/fidelity/DIRECT_REVIEW.md",
+      "sha256": "b11124a8749e4c70926e75e502378ce2b880839b92818c533ee3a859c3e7023f",
+      "role": "review_evidence",
+      "targets": [
+        "O_PCW_PROPOSALS",
+        "R18"
+      ],
+      "scope": "PCW1 proposal/negative-scope review only; no adoption, proof input or grade promotion. Final integration acceptance is separate."
+    },
+    {
+      "path": "udt_physical_connection_whiteboard_2026-09-30/proposals/local/CROSS_CHALLENGE.md",
+      "sha256": "e818963e539eb49dd3f4771a9a35886f6ef835440dbe66633a7bb5825b0af1f7",
+      "role": "review_evidence",
+      "targets": [
+        "O_PCW_PROPOSALS",
+        "R18"
+      ],
+      "scope": "PCW1 proposal/negative-scope review only; no adoption, proof input or grade promotion. Final integration acceptance is separate."
+    },
+    {
+      "path": "udt_physical_connection_whiteboard_2026-09-30/proposals/micro/CROSS_CHALLENGE.md",
+      "sha256": "185fb665626c3c040a1d20071b6e60b9b9f7dc05218e6cd62a24092812316476",
+      "role": "review_evidence",
+      "targets": [
+        "O_PCW_PROPOSALS",
+        "R18"
+      ],
+      "scope": "PCW1 proposal/negative-scope review only; no adoption, proof input or grade promotion. Final integration acceptance is separate."
+    },
+    {
+      "path": "udt_physical_connection_whiteboard_2026-09-30/proposals/cosmic/CROSS_CHALLENGE.md",
+      "sha256": "9cffc76f59b2eace8688cd82fe75a74870efbb06ce4fabd69fc82b9fe6c30af9",
+      "role": "review_evidence",
+      "targets": [
+        "O_PCW_PROPOSALS",
+        "R18"
+      ],
+      "scope": "PCW1 proposal/negative-scope review only; no adoption, proof input or grade promotion. Final integration acceptance is separate."
+    },
+    {
+      "path": "udt_clock_ensemble_stationarity_test_2026-09-30/review/math/DIRECT_REVIEW.md",
+      "sha256": "28f2f6e7bcabe5b86a7672af94544f7b864a778dce6f41ade73fcde996a764de",
+      "role": "review_evidence",
+      "targets": [
+        "R18E",
+        "R18"
+      ],
+      "scope": "Conditional CES1 proof and scoped adverse benchmark; no premise/adoption/grade input. Final integration acceptance separate."
+    },
+    {
+      "path": "udt_clock_ensemble_stationarity_test_2026-09-30/review/fidelity/DIRECT_REVIEW.md",
+      "sha256": "37b277e5492e1a3794eaa69e9f0ce304142c9384fdb3242717b1edfe1c1809cd",
+      "role": "review_evidence",
+      "targets": [
+        "R18E",
+        "R18"
+      ],
+      "scope": "Conditional CES1 proof and scoped adverse benchmark; no premise/adoption/grade input. Final integration acceptance separate."
+    },
+    {
+      "path": "udt_curved_clock_response_test_2026-09-30/review/math/DIRECT_REVIEW.md",
+      "sha256": "4797a8197e489d294fbb44ce2de35358e8fa29e43f5e7db6c269dfec2330551d",
+      "role": "review_evidence",
+      "targets": [
+        "R18T",
+        "R18C",
+        "R18U",
+        "R18"
+      ],
+      "scope": "CCR1 conditional curved calculation and actual initial precision objections; review is not a physical premise; final repaired integration acceptance separate."
+    },
+    {
+      "path": "udt_curved_clock_response_test_2026-09-30/review/fidelity/DIRECT_REVIEW.md",
+      "sha256": "10f799496b9aea33ab5741ed5c890a2d627cc667386f66291641cec78c5ff933",
+      "role": "review_evidence",
+      "targets": [
+        "R18T",
+        "R18C",
+        "R18U",
+        "R18"
+      ],
+      "scope": "CCR1 conditional curved calculation and actual initial precision objections; review is not a physical premise; final repaired integration acceptance separate."
+    },
+    {
+      "path": "udt_population_response_identification_2026-09-30/review/math/DIRECT_REVIEW.md",
+      "sha256": "0cffeece299f172dcc2a5a72eb79a3379b11b883f4fbadf551a2713b55988a5b",
+      "role": "review_evidence",
+      "targets": [
+        "R18O",
+        "R18F",
+        "R18B",
+        "R18"
+      ],
+      "scope": "Actual pre-repair PRI1 direct review, conditional mathematics and physical labels; parent-origin later scope correction/final acceptance recorded separately. Review is not a premise."
+    },
+    {
+      "path": "udt_population_response_identification_2026-09-30/review/fidelity/DIRECT_REVIEW.md",
+      "sha256": "7eee4d952351da3fe5cf76dea6f29fb2dd2d5073470103fb91192ebdd415947d",
+      "role": "review_evidence",
+      "targets": [
+        "R18O",
+        "R18F",
+        "R18B",
+        "R18"
+      ],
+      "scope": "Actual pre-repair PRI1 direct review, conditional mathematics and physical labels; parent-origin later scope correction/final acceptance recorded separately. Review is not a premise."
+    },
+    {
+      "path": "udt_tick_readout_identification_2026-09-30/review/math/DIRECT_REVIEW.md",
+      "sha256": "4afdf16dc2741748e6959d30750ce7579cc0f131d681945f5a66758d90223696",
+      "role": "review_evidence",
+      "targets": [
+        "R6N",
+        "R6T",
+        "R18O",
+        "R18F",
+        "R18B",
+        "R18"
+      ],
+      "scope": "Actual TRI1 direct review of initial candidate, identifying measure/window precision repair; final repair/integration acceptance is separate. Review is evidence, not a physical premise."
+    },
+    {
+      "path": "udt_tick_readout_identification_2026-09-30/review/fidelity/DIRECT_REVIEW.md",
+      "sha256": "3b5be0367b9c4a134ca7779b2f079747f4c868220f0764165da8a4fafd14390e",
+      "role": "review_evidence",
+      "targets": [
+        "R6N",
+        "R6T",
+        "R18O",
+        "R18F",
+        "R18B",
+        "R18"
+      ],
+      "scope": "Actual TRI1 direct review of initial candidate, identifying measure/window precision repair; final repair/integration acceptance is separate. Review is evidence, not a physical premise."
+    },
+    {
+      "path": "udt_gpu_time_live_discovery_2026-09-30/review/numerics/REVIEW.md",
+      "sha256": "3e2cc27609135c97f60e1d05950a3e0db69f2120c325c2aa1fbde42c0c452d2d",
+      "role": "review_evidence",
+      "targets": [
+        "R12N",
+        "R18"
+      ]
+    },
+    {
+      "path": "udt_gpu_time_live_discovery_2026-09-30/review/fidelity/DIRECT_REVIEW.md",
+      "sha256": "092ac104e5197312d0f2e6f87453e078151047719f8321298c0b25f1efed2e3f",
+      "role": "review_evidence",
+      "targets": [
+        "R12N",
+        "R18"
+      ]
+    },
+    {
+      "path": "udt_gpu_time_live_discovery_2026-09-30/DESCENDANT_REVIEW.md",
+      "sha256": "d8b76bf4aa8fd6561441d9af3ac101fceaee2f6f2f9c3adfd29f84ed9dd40fe8",
+      "role": "repair_scope",
+      "targets": [
+        "R12N",
+        "R18"
+      ]
+    },
+    {
+      "path": "udt_three_spatial_smoke_2026-10-01/review/equations_recovery/NUMERICAL_REVIEW.md",
+      "sha256": "9697d2d75f7f7f32b02ef44135e9cda3665144340aec4468a5fd10bbdc080646",
+      "role": "review_evidence",
+      "targets": [
+        "R12T",
+        "R18"
+      ]
+    },
+    {
+      "path": "udt_three_spatial_smoke_2026-10-01/review/data_recovery/SUBSTANTIVE_REVIEW.md",
+      "sha256": "f4a9c91cbfad0b02c5ddadcfeff09231420fc4257bb860ef06e28566900917d8",
+      "role": "review_evidence",
+      "targets": [
+        "R12T",
+        "R18"
+      ]
+    },
+    {
+      "path": "udt_three_spatial_smoke_2026-10-01/DESCENDANT_REVIEW.md",
+      "sha256": "e9445fc07d30227b61877938a1ea81ac2cd1f8923fdd8d2474b7c95be04de885",
+      "role": "repair_scope",
+      "targets": [
+        "R12T",
+        "R18"
+      ]
+    },
+    {
+      "path": "udt_time_live_production_preparation_2026-10-01/review/math/SUBSTANTIVE_REVIEW.md",
+      "sha256": "fd18664c46b38428f6be4d80e2a7f5aa6a492170d89e9d086e3d720933bb6802",
+      "role": "review_evidence",
+      "targets": [
+        "R12T",
+        "R18"
+      ]
+    },
+    {
+      "path": "udt_time_live_production_preparation_2026-10-01/review/runtime/RUNTIME_REVIEW.md",
+      "sha256": "c1f4b559ee4588c249f21e851fbefd8ac12339a5c7456f8b19b2a5cf50f81887",
+      "role": "review_evidence",
+      "targets": [
+        "R12T",
+        "R18"
+      ]
+    },
+    {
+      "path": "udt_time_live_production_preparation_2026-10-01/DESCENDANT_REVIEW.md",
+      "sha256": "8e9efe1f6b525ab0273198d595c58e92b634b7c3494fec74eb1f87ad92983aea",
+      "role": "repair_scope",
+      "targets": [
+        "R12T",
+        "R18"
+      ]
+    }
+  ]
+}

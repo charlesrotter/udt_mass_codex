@@ -1,0 +1,18 @@
+{
+  "aggregate_worker_wall_seconds": 50.88170500402339,
+  "command": [
+    "/usr/bin/python3",
+    "/home/udt-admin/udt_mass_codex/udt_time_live_production_preparation_2026-10-01/production_worker.py",
+    "/home/udt-admin/udt_mass_codex/udt_time_live_production_preparation_2026-10-01/specs/axial1_n24.json",
+    "/home/udt-admin/udt_mass_codex/udt_time_live_production_preparation_2026-10-01/runs/axial1_n24"
+  ],
+  "expected": 0,
+  "returncode": 0,
+  "sigterm_sent": false,
+  "spec_sha256": "174f036fe6325ad297b272dbb93d245cf11559d0058f6c2e57f2fea411ec42ee",
+  "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "stdout_sha256": "daccba487a3187be3d2994d7815b6e907acbbfe5152e72127c927c6f440e1db3",
+  "timeout": false,
+  "wall_seconds": 16.509710313985124,
+  "worker_sha256": "f7526ac85ab873fd12cf38ef6a9b69bec7d18a6cc4b4636528784c4a312fafbf"
+}

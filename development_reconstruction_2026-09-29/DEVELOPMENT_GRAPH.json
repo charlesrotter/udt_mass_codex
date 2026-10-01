@@ -953,14 +953,16 @@
       "sources": [
         "udt_three_spatial_smoke_2026-10-01/EQUATIONS.md",
         "udt_three_spatial_smoke_2026-10-01/REVIEWED_RESULT.md",
-        "udt_three_spatial_smoke_2026-10-01/SMOKE_PLAN.md"
+        "udt_three_spatial_smoke_2026-10-01/SMOKE_PLAN.md",
+        "udt_time_live_production_preparation_2026-10-01/METHOD.md",
+        "udt_time_live_production_preparation_2026-10-01/WORK_ORDER.md"
       ]
     },
     {
       "id": "R12T",
       "kind": "argument",
       "anchor": "r12t",
-      "title": "TDS1 short three-coordinate conditional evolution and independent original-equation/null-clock checks",
+      "title": "Three-coordinate conditional evolution: TDS1 short tests and TPP1 longer histories/production preparation",
       "registry_ids": [],
       "sources": [
         "udt_three_spatial_smoke_2026-10-01/EQUATIONS.md",
@@ -971,7 +973,19 @@
         "udt_three_spatial_smoke_2026-10-01/RESOURCE_STOP_RESULT.json",
         "udt_three_spatial_smoke_2026-10-01/SMOKE_FREEZE.json",
         "udt_three_spatial_smoke_2026-10-01/REPAIR_FREEZE.json",
-        "udt_three_spatial_smoke_2026-10-01/CLOCK_REPAIR_FREEZE.json"
+        "udt_three_spatial_smoke_2026-10-01/CLOCK_REPAIR_FREEZE.json",
+        "udt_time_live_production_preparation_2026-10-01/METHOD.md",
+        "udt_time_live_production_preparation_2026-10-01/REVIEWED_RESULT.md",
+        "udt_time_live_production_preparation_2026-10-01/WORK_ORDER.md",
+        "udt_time_live_production_preparation_2026-10-01/CHECK_PLAN.md",
+        "udt_time_live_production_preparation_2026-10-01/GPU_FREEZE.json",
+        "udt_time_live_production_preparation_2026-10-01/CLOCK_FREEZE.json",
+        "udt_time_live_production_preparation_2026-10-01/REFINEMENT_REPAIR.md",
+        "udt_time_live_production_preparation_2026-10-01/REFINEMENT_REPAIR_FREEZE.json",
+        "udt_time_live_production_preparation_2026-10-01/PRODUCTION_DISPATCH.md",
+        "udt_time_live_production_preparation_2026-10-01/CLOCK_RESULT.json",
+        "udt_time_live_production_preparation_2026-10-01/RESOURCE_RESULT.json",
+        "udt_time_live_production_preparation_2026-10-01/SUPERVISOR_SMOKE.json"
       ],
       "required_conditions": [
         "C_EINSTEIN",
@@ -1961,7 +1975,19 @@
     "udt_three_spatial_smoke_2026-10-01/RESOURCE_STOP_RESULT.json": "6f67e7ed9d71c7ce50515cd1b0a18e16dfd246a2b294ff37a32c64d5d2a621a2",
     "udt_three_spatial_smoke_2026-10-01/SMOKE_FREEZE.json": "374b5c3b9a4c738cc70866e33ba026410bcd1dab5e274a4cabc7960c9b345526",
     "udt_three_spatial_smoke_2026-10-01/REPAIR_FREEZE.json": "d0a3dfa82361d9a8cf40d18a55556fe6ee1bd1f5470eaceab697e82f1d0fca37",
-    "udt_three_spatial_smoke_2026-10-01/CLOCK_REPAIR_FREEZE.json": "75ee8cf9c9855f13c31d49a6c0aff3a6af05f11a842ecb5e4fb73d3076c9f99b"
+    "udt_three_spatial_smoke_2026-10-01/CLOCK_REPAIR_FREEZE.json": "75ee8cf9c9855f13c31d49a6c0aff3a6af05f11a842ecb5e4fb73d3076c9f99b",
+    "udt_time_live_production_preparation_2026-10-01/METHOD.md": "eda6a40b6396461fe7538ee4cc7cd27a18b8c30afa90413865b9c549a7cfcb42",
+    "udt_time_live_production_preparation_2026-10-01/REVIEWED_RESULT.md": "0ab276c221b00ec944b66504df0bf66470cd5d3ebd7af4316962c758c314018c",
+    "udt_time_live_production_preparation_2026-10-01/WORK_ORDER.md": "c74525937619e5902c679e93aef478fea7951b3b042361058169c44a74c656ea",
+    "udt_time_live_production_preparation_2026-10-01/CHECK_PLAN.md": "73660b34a0129470bfd614d4b3899cd106ca8f0d1cfa5328f9d0b2c024c36814",
+    "udt_time_live_production_preparation_2026-10-01/GPU_FREEZE.json": "cbb249f04327946fac9cdbe8dcf68c28639330b3a42f4107e127ca15f825e9b7",
+    "udt_time_live_production_preparation_2026-10-01/CLOCK_FREEZE.json": "c4593fb0002712b22f9e15e082ad7929b904a672fb6b9960e7702645cee79333",
+    "udt_time_live_production_preparation_2026-10-01/REFINEMENT_REPAIR.md": "3e0853aee3d51296c9c2dc82af22eaef58821c547672d397a15fb62519d5b710",
+    "udt_time_live_production_preparation_2026-10-01/REFINEMENT_REPAIR_FREEZE.json": "0a0be123e517141d938a5fcd6023ce7778b9272600fde742a76704c7feaf7056",
+    "udt_time_live_production_preparation_2026-10-01/PRODUCTION_DISPATCH.md": "e5d9abf7d3f2d8d8dfcf6db47a68a54156be57f59ff3d8703262447123a52691",
+    "udt_time_live_production_preparation_2026-10-01/CLOCK_RESULT.json": "274c3e46186c650940d52cac651cfb9a76e7715b366d4ad77831e40f28195487",
+    "udt_time_live_production_preparation_2026-10-01/RESOURCE_RESULT.json": "877c8edfbbc827db456bc000c6a6e1f5d5e01da8471ebc60fde85901276073da",
+    "udt_time_live_production_preparation_2026-10-01/SUPERVISOR_SMOKE.json": "70dd071c6c03d2bfadcbac4422ce7b3f2331036a4120a96839346df7843b00d0"
   },
   "impact_policy": "Any changed source or registry row flags its mapped positive and negative central arguments and every reachable central descendant for review; no automatic truth reversal or regrading.",
   "review_support": [
@@ -2307,6 +2333,51 @@
       "path": "udt_three_spatial_smoke_2026-10-01/DESCENDANT_REVIEW.md",
       "sha256": "e9445fc07d30227b61877938a1ea81ac2cd1f8923fdd8d2474b7c95be04de885",
       "role": "repair_scope",
+      "targets": [
+        "R12T",
+        "R18"
+      ]
+    },
+    {
+      "path": "udt_time_live_production_preparation_2026-10-01/review/math/SUBSTANTIVE_REVIEW.md",
+      "sha256": "fd18664c46b38428f6be4d80e2a7f5aa6a492170d89e9d086e3d720933bb6802",
+      "role": "review_evidence",
+      "targets": [
+        "R12T",
+        "R18"
+      ]
+    },
+    {
+      "path": "udt_time_live_production_preparation_2026-10-01/review/runtime/RUNTIME_REVIEW.md",
+      "sha256": "c1f4b559ee4588c249f21e851fbefd8ac12339a5c7456f8b19b2a5cf50f81887",
+      "role": "review_evidence",
+      "targets": [
+        "R12T",
+        "R18"
+      ]
+    },
+    {
+      "path": "udt_time_live_production_preparation_2026-10-01/DESCENDANT_REVIEW.md",
+      "sha256": "8e9efe1f6b525ab0273198d595c58e92b634b7c3494fec74eb1f87ad92983aea",
+      "role": "repair_scope",
+      "targets": [
+        "R12T",
+        "R18"
+      ]
+    },
+    {
+      "path": "udt_time_live_production_preparation_2026-10-01/review/runtime/SUPERVISOR_AND_ADAPTER_REVIEW.md",
+      "sha256": "b0f16809a825a49f7cff6d8d5ed84624ba50bd686b8f071ac7c92fdf73377b0e",
+      "role": "review_evidence",
+      "targets": [
+        "R12T",
+        "R18"
+      ]
+    },
+    {
+      "path": "udt_time_live_production_preparation_2026-10-01/PARENT_ADAPTER_REVIEW.md",
+      "sha256": "a919e7a6ee3be5f8fd0ccea40e6cc131d6f14a5ec3cc894d5c75915ea905297a",
+      "role": "review_evidence",
       "targets": [
         "R12T",
         "R18"

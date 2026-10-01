@@ -1,0 +1,28 @@
+{
+  "adapter_sha256": "3fc3b762dbdba2491309abbfcb72b3cfd9b8ac3ed00b2295ae64847ba89b18e4",
+  "assembler_sha256": "8333bc2a4de50300d44f2d32d316e1a9e56874418bbcb69f74e855e4099f1f0b",
+  "case": "case_a",
+  "input_sha256": {
+    "/home/udt-admin/udt_mass_codex/udt_time_live_production_preparation_2026-10-01/initial/axial1_n8.npz": "527b2da7c4de6de31fe2bdb25263b95c7ccd42f09c5d805982c0bfc22aefaf41",
+    "/home/udt-admin/udt_mass_codex/udt_time_live_production_preparation_2026-10-01/specs/engineering.json": "1a36f4b1bc0169d6d334d5857aec405a595afd9805f69f93de348bb13f143daf",
+    "/home/udt-admin/udt_mass_codex/udt_time_live_production_preparation_2026-10-01/supervisor_smoke/pause.json": "4b9ecada3a75fe4e61e67f4f1b1da1b9ce6b306115e4719d36feeca97ed26e78",
+    "/home/udt-admin/udt_mass_codex/udt_time_live_production_preparation_2026-10-01/supervisor_smoke/runtime_pause/attempts/00000_case_a/launch.json": "9512686604473adc137ed1a269e0284e54e65f02db0023f0f9817ec6552af4e6",
+    "/home/udt-admin/udt_mass_codex/udt_time_live_production_preparation_2026-10-01/supervisor_smoke/runtime_pause/attempts/00000_case_a/receipt.json": "607824016eca94ec0622fad61501c79ec0afdbb8ab6b033809bfa693d47e15ed"
+  },
+  "output_sha256": {
+    "/home/udt-admin/udt_mass_codex/udt_time_live_production_preparation_2026-10-01/supervisor_smoke/analysis_launch_bound/case_a/histories/case_a_window0.npz": "e6812a011cfa827ebfb2eb0e73c0cf463cbf0605cf99d8e30538a962b9c7fd01",
+    "/home/udt-admin/udt_mass_codex/udt_time_live_production_preparation_2026-10-01/supervisor_smoke/analysis_launch_bound/case_a/histories/case_a_window0.sources.json": "c69cab416617bf130152367f14dbe20617b4a3e5c37c46ece5bd8bcacadcdec2",
+    "/home/udt-admin/udt_mass_codex/udt_time_live_production_preparation_2026-10-01/supervisor_smoke/analysis_launch_bound/case_a/receipt_bridge.json": "2e7a91ef8d13ba13c36493edf881304a0c03c6f859cd4afa522aabc781d71255"
+  },
+  "scope": "Authenticated byte/array correspondence only; original equations, convergence and readouts remain separate checks",
+  "windows": [
+    {
+      "bytes": 743466,
+      "path": "udt_time_live_production_preparation_2026-10-01/supervisor_smoke/analysis_launch_bound/case_a/histories/case_a_window0.npz",
+      "times": [
+        1.04,
+        1.06
+      ]
+    }
+  ]
+}

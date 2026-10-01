@@ -1,0 +1,133 @@
+{
+  "checker_sha256": "99f1752ae0ec577450b9c777b3af98800f184be39099c2099ef85ed0c817f522",
+  "history_sha256": {
+    "udt_time_live_production_preparation_2026-10-01/histories/axial1_n24_half_window2.npz": "0fa7d55165672a3b8716746668c2d10a6ac491ddf14a6de86835ffc6bf6a33f9",
+    "udt_time_live_production_preparation_2026-10-01/histories/kasner_n16_half_window2.npz": "16a40cd100bbb93196748a1c645b19584903536278e388b2c2e6a832c551f632"
+  },
+  "queries_sha256": "fb97c0eaa9995620f89459aa9036fe8d71e244399528aeaef60dbbf0b4a467ee",
+  "readouts": {
+    "axial1_n24_half": [
+      {
+        "Z": 0.9961621211750936,
+        "emission": 2.484,
+        "initial_coordinate_direction": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "logZ": -0.0038452623793562395,
+        "max_internal_trial_abs_null_norm": 9.826848477532144e-07,
+        "max_sampled_abs_null_norm": 3.795583600042211e-14,
+        "nfev": 128,
+        "receiver_position": [
+          0.3955173446594099,
+          0.47001136218014616,
+          0.18999997497399918
+        ],
+        "reception": 2.496
+      },
+      {
+        "Z": 1.0079057726389171,
+        "emission": 2.484,
+        "initial_coordinate_direction": [
+          0.0,
+          1.0,
+          0.0
+        ],
+        "logZ": 0.007874685754809993,
+        "max_internal_trial_abs_null_norm": 7.35712785649473e-05,
+        "max_sampled_abs_null_norm": 7.193073031905093e-14,
+        "nfev": 128,
+        "receiver_position": [
+          0.3099273645866317,
+          0.4890578898813918,
+          0.1900001888893416
+        ],
+        "reception": 2.496
+      },
+      {
+        "Z": 1.0080143052905584,
+        "emission": 2.484,
+        "initial_coordinate_direction": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "logZ": 0.00798236130498126,
+        "max_internal_trial_abs_null_norm": 7.16130906464052e-06,
+        "max_sampled_abs_null_norm": 2.2315482794965646e-14,
+        "nfev": 128,
+        "receiver_position": [
+          0.3100334800242349,
+          0.46999586721516584,
+          0.2093482915219949
+        ],
+        "reception": 2.496
+      },
+      {
+        "Z": 1.0077705667155386,
+        "emission": 2.484,
+        "initial_coordinate_direction": [
+          0.5773502691896258,
+          0.5773502691896258,
+          0.5773502691896258
+        ],
+        "logZ": 0.007740531356168033,
+        "max_internal_trial_abs_null_norm": 7.325945061253947e-06,
+        "max_sampled_abs_null_norm": 2.7478019859472624e-14,
+        "nfev": 128,
+        "receiver_position": [
+          0.3236585025054299,
+          0.48352528653490184,
+          0.2035247154182287
+        ],
+        "reception": 2.496
+      }
+    ],
+    "kasner_n16_half": [
+      {
+        "Z": 0.9960079893439919,
+        "emission": 2.484,
+        "exact_error": 4.440892098500626e-16,
+        "initial_coordinate_direction": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "logZ": -0.003999999999999596,
+        "max_internal_trial_abs_null_norm": 1.916957428571564e-06,
+        "max_sampled_abs_null_norm": 1.1324274851176597e-14,
+        "nfev": 128,
+        "receiver_position": [
+          0.3974952042327562,
+          0.47,
+          0.19
+        ],
+        "reception": 2.496
+      },
+      {
+        "Z": 1.0080320855042737,
+        "emission": 2.484,
+        "exact_error": 2.220446049250313e-16,
+        "initial_coordinate_direction": [
+          0.0,
+          1.0,
+          0.0
+        ],
+        "logZ": 0.008000000000000309,
+        "max_internal_trial_abs_null_norm": 4.67897585931798e-06,
+        "max_sampled_abs_null_norm": 9.103828801926284e-15,
+        "nfev": 128,
+        "receiver_position": [
+          0.31,
+          0.4897188293360847,
+          0.19
+        ],
+        "reception": 2.496
+      }
+    ]
+  },
+  "reused_prior_checker_sha256": "b0b1a2a9b3ffe84bff626f6d8fb3cbfb64cd3794d5ef3624d73611e090828ec4",
+  "scope": "Separate covariant-momentum/RK45 implementation from producer; explicitly adapted prior reviewer code. Shared saved fields, Fourier/Hermite mathematics and conditional geometry.",
+  "status": "HAMILTON_CLOCK_REVIEW_PASS"
+}

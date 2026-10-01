@@ -1,0 +1,11 @@
+{
+  "command": [
+    "/usr/bin/python3",
+    "/home/udt-admin/udt_mass_codex/udt_time_live_production_preparation_2026-10-01/clock_checks.py",
+    "/home/udt-admin/udt_mass_codex/udt_time_live_production_preparation_2026-10-01/histories/kasner_n16_window2.npz",
+    "/home/udt-admin/udt_mass_codex/udt_time_live_production_preparation_2026-10-01/clocks/kasner_n16.json",
+    "--kasner"
+  ],
+  "returncode": 0,
+  "seconds": 0.666741719993297
+}

@@ -1,0 +1,11 @@
+{
+  "case": "two",
+  "command": [
+    "/usr/bin/python3",
+    "/home/udt-admin/udt_mass_codex/udt_time_live_production_preparation_2026-10-01/production_worker.py",
+    "/home/udt-admin/udt_mass_codex/udt_time_live_production_preparation_2026-10-01/review/runtime/supervisor_initial_proofs_corrected/duplicate_run/two.json",
+    "/home/udt-admin/udt_mass_codex/udt_time_live_production_preparation_2026-10-01/runs/reviewer_virtual_duplicate_run_one"
+  ],
+  "manifest_sha256": "68fb4b934047c44764940a10c3bc0623e7b494d49f1ec2d9777aeb2837e65cf5",
+  "remaining_seconds": 9.999453067779541
+}

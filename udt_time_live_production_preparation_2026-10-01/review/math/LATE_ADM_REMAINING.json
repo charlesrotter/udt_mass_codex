@@ -1,0 +1,660 @@
+{
+  "attribution": "Reuses fixed TDS1 independent NumPy original ADM and harmonic implementations; new adapter independently reconstructs K through Lie_beta gamma. No producer code imports. Same Fourier mathematics, no independent time integrator.",
+  "kind": "window",
+  "limit": 2e-05,
+  "numpy": "2.2.6",
+  "reused_independent_sources": {
+    "udt_three_spatial_smoke_2026-10-01/review/data/check_constraints.py": "f10e6e0b512a6f2078e71cb32b8972005356c2555fa25ef36832bdb20bc947fc",
+    "udt_three_spatial_smoke_2026-10-01/review/data/check_harmonic.py": "2be7d388f44bd7de631b45d4699a4b9dabf1c96b3fb650342cf200d0c019c7c9"
+  },
+  "rows": [
+    {
+      "dtype": "float64",
+      "gram_rank_scope": "excludes constant-coordinate translation symmetry only; not arbitrary Killing fields",
+      "hamiltonian_abs_max": 1.0017117690885868e-10,
+      "harmonic_covector_abs_max": 1.1504737162937317e-09,
+      "harmonic_vector_abs_max": 1.171033184961688e-10,
+      "index": 0,
+      "input": "udt_time_live_production_preparation_2026-10-01/histories/axial3_n24_window2.npz",
+      "input_sha256": "d85d0a7b9991d7bdfc042118816e901a0d2d5c11db0743153636996cc1cb8c20",
+      "lapse_minmax": [
+        3.900327193642178,
+        5.349752696773466
+      ],
+      "momentum_abs_max_by_component": [
+        2.625232626771168e-11,
+        4.8967151514145435e-11,
+        1.3776011147798028e-11
+      ],
+      "scalar_curvature_abs_max": 0.036110221100921214,
+      "shape": [
+        24,
+        24,
+        24,
+        3,
+        3
+      ],
+      "shift_abs_max": 0.20089777098710673,
+      "spatial_derivative_gram_eigenvalues": [
+        0.007100789436899688,
+        0.030821977161297975,
+        0.04573212081487392
+      ],
+      "spatial_derivative_gram_rank": 3,
+      "spatial_metric_eigenvalue_minmax": [
+        0.3814609979238266,
+        9.212664560038359
+      ],
+      "time": 2.48,
+      "trace_K_minmax": [
+        -0.27586665545355676,
+        -0.1903345173357482
+      ]
+    },
+    {
+      "dtype": "float64",
+      "gram_rank_scope": "excludes constant-coordinate translation symmetry only; not arbitrary Killing fields",
+      "hamiltonian_abs_max": 9.082847668429039e-11,
+      "harmonic_covector_abs_max": 1.2251405445695696e-09,
+      "harmonic_vector_abs_max": 1.211588875952751e-10,
+      "index": 4,
+      "input": "udt_time_live_production_preparation_2026-10-01/histories/axial3_n24_window2.npz",
+      "input_sha256": "d85d0a7b9991d7bdfc042118816e901a0d2d5c11db0743153636996cc1cb8c20",
+      "lapse_minmax": [
+        3.942744491850929,
+        5.413340989132317
+      ],
+      "momentum_abs_max_by_component": [
+        2.937236651817665e-11,
+        6.489991356828373e-11,
+        1.2956115347240171e-11
+      ],
+      "scalar_curvature_abs_max": 0.035583546429184425,
+      "shape": [
+        24,
+        24,
+        24,
+        3,
+        3
+      ],
+      "shift_abs_max": 0.20759907958808285,
+      "spatial_derivative_gram_eigenvalues": [
+        0.007217574674236873,
+        0.030946916448455843,
+        0.046207741953921466
+      ],
+      "spatial_derivative_gram_rank": 3,
+      "spatial_metric_eigenvalue_minmax": [
+        0.37921894351132224,
+        9.329261158647421
+      ],
+      "time": 2.49,
+      "trace_K_minmax": [
+        -0.2774070034183286,
+        -0.1876864276616209
+      ]
+    },
+    {
+      "dtype": "float64",
+      "gram_rank_scope": "excludes constant-coordinate translation symmetry only; not arbitrary Killing fields",
+      "hamiltonian_abs_max": 7.289734094140243e-11,
+      "harmonic_covector_abs_max": 1.2915524205681095e-09,
+      "harmonic_vector_abs_max": 1.1977289469623667e-10,
+      "index": 8,
+      "input": "udt_time_live_production_preparation_2026-10-01/histories/axial3_n24_window2.npz",
+      "input_sha256": "d85d0a7b9991d7bdfc042118816e901a0d2d5c11db0743153636996cc1cb8c20",
+      "lapse_minmax": [
+        3.986428636237741,
+        5.4768642218025265
+      ],
+      "momentum_abs_max_by_component": [
+        3.039543877009221e-11,
+        7.853938940177718e-11,
+        1.5489744036034647e-11
+      ],
+      "scalar_curvature_abs_max": 0.03442619070940642,
+      "shape": [
+        24,
+        24,
+        24,
+        3,
+        3
+      ],
+      "shift_abs_max": 0.2117558602787836,
+      "spatial_derivative_gram_eigenvalues": [
+        0.007340847292586522,
+        0.031063697694275853,
+        0.046503930954364704
+      ],
+      "spatial_derivative_gram_rank": 3,
+      "spatial_metric_eigenvalue_minmax": [
+        0.37700496904283093,
+        9.44276949340765
+      ],
+      "time": 2.5,
+      "trace_K_minmax": [
+        -0.27907846990389684,
+        -0.18564071127200035
+      ]
+    },
+    {
+      "dtype": "float64",
+      "gram_rank_scope": "excludes constant-coordinate translation symmetry only; not arbitrary Killing fields",
+      "hamiltonian_abs_max": 4.5317360974905796e-12,
+      "harmonic_covector_abs_max": 2.65175659208694e-11,
+      "harmonic_vector_abs_max": 1.4118505870886275e-12,
+      "index": 0,
+      "input": "udt_time_live_production_preparation_2026-10-01/histories/oblique1_n24_half_window2.npz",
+      "input_sha256": "cc0fe3676aa015a7c8af72a72fd00d79aaaac4ed361ef0b16eacb5c845a1500b",
+      "lapse_minmax": [
+        4.177593741898292,
+        4.65262164693459
+      ],
+      "momentum_abs_max_by_component": [
+        1.3539885358737624e-12,
+        4.8677260139351475e-12,
+        3.4764171793003062e-12
+      ],
+      "scalar_curvature_abs_max": 0.01595645440437466,
+      "shape": [
+        24,
+        24,
+        24,
+        3,
+        3
+      ],
+      "shift_abs_max": 0.10134411356143529,
+      "spatial_derivative_gram_eigenvalues": [
+        0.0011246583276921024,
+        0.0016901606768799627,
+        0.005839508170965638
+      ],
+      "spatial_derivative_gram_rank": 3,
+      "spatial_metric_eigenvalue_minmax": [
+        0.36309611858477736,
+        7.548657818769553
+      ],
+      "time": 2.48,
+      "trace_K_minmax": [
+        -0.2612239067360194,
+        -0.18968698181617788
+      ]
+    },
+    {
+      "dtype": "float64",
+      "gram_rank_scope": "excludes constant-coordinate translation symmetry only; not arbitrary Killing fields",
+      "hamiltonian_abs_max": 4.14023676453823e-12,
+      "harmonic_covector_abs_max": 2.7308155736704975e-11,
+      "harmonic_vector_abs_max": 1.4247766378731693e-12,
+      "index": 4,
+      "input": "udt_time_live_production_preparation_2026-10-01/histories/oblique1_n24_half_window2.npz",
+      "input_sha256": "cc0fe3676aa015a7c8af72a72fd00d79aaaac4ed361ef0b16eacb5c845a1500b",
+      "lapse_minmax": [
+        4.223793691038914,
+        4.693380008207528
+      ],
+      "momentum_abs_max_by_component": [
+        1.4452336896675355e-12,
+        4.650685218876571e-12,
+        3.3621512285407842e-12
+      ],
+      "scalar_curvature_abs_max": 0.01799977866727355,
+      "shape": [
+        24,
+        24,
+        24,
+        3,
+        3
+      ],
+      "shift_abs_max": 0.10845238866798883,
+      "spatial_derivative_gram_eigenvalues": [
+        0.0011459978361884344,
+        0.0017344645550958911,
+        0.005891983840449282
+      ],
+      "spatial_derivative_gram_rank": 3,
+      "spatial_metric_eigenvalue_minmax": [
+        0.361003706373776,
+        7.63193220088958
+      ],
+      "time": 2.49,
+      "trace_K_minmax": [
+        -0.2624470798633358,
+        -0.183629432395695
+      ]
+    },
+    {
+      "dtype": "float64",
+      "gram_rank_scope": "excludes constant-coordinate translation symmetry only; not arbitrary Killing fields",
+      "hamiltonian_abs_max": 3.669044235099506e-12,
+      "harmonic_covector_abs_max": 2.8136049046167955e-11,
+      "harmonic_vector_abs_max": 1.5331119486821997e-12,
+      "index": 8,
+      "input": "udt_time_live_production_preparation_2026-10-01/histories/oblique1_n24_half_window2.npz",
+      "input_sha256": "cc0fe3676aa015a7c8af72a72fd00d79aaaac4ed361ef0b16eacb5c845a1500b",
+      "lapse_minmax": [
+        4.271247821550087,
+        4.733504058877596
+      ],
+      "momentum_abs_max_by_component": [
+        1.5967563642832472e-12,
+        4.48243482262245e-12,
+        3.3806660812776834e-12
+      ],
+      "scalar_curvature_abs_max": 0.02002322009570295,
+      "shape": [
+        24,
+        24,
+        24,
+        3,
+        3
+      ],
+      "shift_abs_max": 0.11531828969322175,
+      "spatial_derivative_gram_eigenvalues": [
+        0.0011707322853820989,
+        0.0017839486925255292,
+        0.005957563611719884
+      ],
+      "spatial_derivative_gram_rank": 3,
+      "spatial_metric_eigenvalue_minmax": [
+        0.3589679965685943,
+        7.714538093204268
+      ],
+      "time": 2.5,
+      "trace_K_minmax": [
+        -0.2636436613187448,
+        -0.17762241907985796
+      ]
+    },
+    {
+      "dtype": "float64",
+      "gram_rank_scope": "excludes constant-coordinate translation symmetry only; not arbitrary Killing fields",
+      "hamiltonian_abs_max": 6.724823475856567e-11,
+      "harmonic_covector_abs_max": 3.438334061911519e-10,
+      "harmonic_vector_abs_max": 1.82518165897478e-11,
+      "index": 0,
+      "input": "udt_time_live_production_preparation_2026-10-01/histories/oblique1_n32_window2.npz",
+      "input_sha256": "c779c56738f8e9901815bcb1573ce85428a9c169c7d53104f288a2afaaebcbea",
+      "lapse_minmax": [
+        4.177281500315764,
+        4.652866683106038
+      ],
+      "momentum_abs_max_by_component": [
+        1.1552663990374579e-11,
+        3.4198968743709424e-11,
+        2.7406715026774553e-11
+      ],
+      "scalar_curvature_abs_max": 0.015955952523633035,
+      "shape": [
+        32,
+        32,
+        32,
+        3,
+        3
+      ],
+      "shift_abs_max": 0.10179895105623536,
+      "spatial_derivative_gram_eigenvalues": [
+        0.0011246583285666892,
+        0.0016901606770158579,
+        0.005839508171833279
+      ],
+      "spatial_derivative_gram_rank": 3,
+      "spatial_metric_eigenvalue_minmax": [
+        0.3630609073621956,
+        7.5493507198799845
+      ],
+      "time": 2.48,
+      "trace_K_minmax": [
+        -0.2612453574549503,
+        -0.1896479288724162
+      ]
+    },
+    {
+      "dtype": "float64",
+      "gram_rank_scope": "excludes constant-coordinate translation symmetry only; not arbitrary Killing fields",
+      "hamiltonian_abs_max": 6.673933627965312e-11,
+      "harmonic_covector_abs_max": 3.501515744019912e-10,
+      "harmonic_vector_abs_max": 1.8267648444060607e-11,
+      "index": 4,
+      "input": "udt_time_live_production_preparation_2026-10-01/histories/oblique1_n32_window2.npz",
+      "input_sha256": "c779c56738f8e9901815bcb1573ce85428a9c169c7d53104f288a2afaaebcbea",
+      "lapse_minmax": [
+        4.223469180623072,
+        4.693619447134344
+      ],
+      "momentum_abs_max_by_component": [
+        1.0470827547029438e-11,
+        3.33851470774027e-11,
+        2.6653255991160307e-11
+      ],
+      "scalar_curvature_abs_max": 0.018037360987704094,
+      "shape": [
+        32,
+        32,
+        32,
+        3,
+        3
+      ],
+      "shift_abs_max": 0.10899511034863449,
+      "spatial_derivative_gram_eigenvalues": [
+        0.0011459978370996966,
+        0.0017344645552459172,
+        0.005891983841371235
+      ],
+      "spatial_derivative_gram_rank": 3,
+      "spatial_metric_eigenvalue_minmax": [
+        0.36096878363821744,
+        7.63252851125777
+      ],
+      "time": 2.49,
+      "trace_K_minmax": [
+        -0.2624854589764622,
+        -0.18358630932292916
+      ]
+    },
+    {
+      "dtype": "float64",
+      "gram_rank_scope": "excludes constant-coordinate translation symmetry only; not arbitrary Killing fields",
+      "hamiltonian_abs_max": 6.549281256207351e-11,
+      "harmonic_covector_abs_max": 3.593744191121573e-10,
+      "harmonic_vector_abs_max": 1.835117143784513e-11,
+      "index": 8,
+      "input": "udt_time_live_production_preparation_2026-10-01/histories/oblique1_n32_window2.npz",
+      "input_sha256": "c779c56738f8e9901815bcb1573ce85428a9c169c7d53104f288a2afaaebcbea",
+      "lapse_minmax": [
+        4.270910569431233,
+        4.733740984542848
+      ],
+      "momentum_abs_max_by_component": [
+        9.467198834774149e-12,
+        3.293878928292693e-11,
+        2.533926584183388e-11
+      ],
+      "scalar_curvature_abs_max": 0.02007598127172452,
+      "shape": [
+        32,
+        32,
+        32,
+        3,
+        3
+      ],
+      "shift_abs_max": 0.11594385670840587,
+      "spatial_derivative_gram_eigenvalues": [
+        0.0011707322863299366,
+        0.0017839486926906727,
+        0.005957563612701028
+      ],
+      "spatial_derivative_gram_rank": 3,
+      "spatial_metric_eigenvalue_minmax": [
+        0.358933418167441,
+        7.715027457357582
+      ],
+      "time": 2.5,
+      "trace_K_minmax": [
+        -0.2636985181640662,
+        -0.1775500470611926
+      ]
+    },
+    {
+      "dtype": "float64",
+      "gram_rank_scope": "excludes constant-coordinate translation symmetry only; not arbitrary Killing fields",
+      "hamiltonian_abs_max": 4.07493663118208e-09,
+      "harmonic_covector_abs_max": 3.400288717259059e-09,
+      "harmonic_vector_abs_max": 3.4521546956469657e-10,
+      "index": 0,
+      "input": "udt_time_live_production_preparation_2026-10-01/histories/oblique3_n24_window2.npz",
+      "input_sha256": "e3ce69d4cf4129db7249d30f6129d7946f5261c6b960cbfa088cc8398e0a480f",
+      "lapse_minmax": [
+        3.884027519335972,
+        5.277268521669744
+      ],
+      "momentum_abs_max_by_component": [
+        5.924311984343775e-09,
+        6.501607272522969e-09,
+        4.6391351424431015e-09
+      ],
+      "scalar_curvature_abs_max": 0.04826273821269822,
+      "shape": [
+        24,
+        24,
+        24,
+        3,
+        3
+      ],
+      "shift_abs_max": 0.2667717725662043,
+      "spatial_derivative_gram_eigenvalues": [
+        0.010256134787914822,
+        0.014705704082900777,
+        0.0537381940961458
+      ],
+      "spatial_derivative_gram_rank": 3,
+      "spatial_metric_eigenvalue_minmax": [
+        0.3747405837925598,
+        8.30087352647687
+      ],
+      "time": 2.48,
+      "trace_K_minmax": [
+        -0.32064694499057733,
+        -0.1267826537088072
+      ]
+    },
+    {
+      "dtype": "float64",
+      "gram_rank_scope": "excludes constant-coordinate translation symmetry only; not arbitrary Killing fields",
+      "hamiltonian_abs_max": 4.370342712722852e-09,
+      "harmonic_covector_abs_max": 3.3522404851993315e-09,
+      "harmonic_vector_abs_max": 3.763859948279845e-10,
+      "index": 4,
+      "input": "udt_time_live_production_preparation_2026-10-01/histories/oblique3_n24_window2.npz",
+      "input_sha256": "e3ce69d4cf4129db7249d30f6129d7946f5261c6b960cbfa088cc8398e0a480f",
+      "lapse_minmax": [
+        3.930753592033638,
+        5.310884961948913
+      ],
+      "momentum_abs_max_by_component": [
+        6.693701650687528e-09,
+        5.894502653341904e-09,
+        5.076465080494207e-09
+      ],
+      "scalar_curvature_abs_max": 0.04559477250161992,
+      "shape": [
+        24,
+        24,
+        24,
+        3,
+        3
+      ],
+      "shift_abs_max": 0.28644417145158735,
+      "spatial_derivative_gram_eigenvalues": [
+        0.0104304976470588,
+        0.014891329980201342,
+        0.05395187095195046
+      ],
+      "spatial_derivative_gram_rank": 3,
+      "spatial_metric_eigenvalue_minmax": [
+        0.372864350650096,
+        8.3591631462052
+      ],
+      "time": 2.49,
+      "trace_K_minmax": [
+        -0.3158274763706156,
+        -0.11302703430174083
+      ]
+    },
+    {
+      "dtype": "float64",
+      "gram_rank_scope": "excludes constant-coordinate translation symmetry only; not arbitrary Killing fields",
+      "hamiltonian_abs_max": 4.516474548521554e-09,
+      "harmonic_covector_abs_max": 3.6573766237779637e-09,
+      "harmonic_vector_abs_max": 3.6918073097757705e-10,
+      "index": 8,
+      "input": "udt_time_live_production_preparation_2026-10-01/histories/oblique3_n24_window2.npz",
+      "input_sha256": "e3ce69d4cf4129db7249d30f6129d7946f5261c6b960cbfa088cc8398e0a480f",
+      "lapse_minmax": [
+        3.979813561557772,
+        5.340945872626073
+      ],
+      "momentum_abs_max_by_component": [
+        7.503016206597546e-09,
+        5.633394569402872e-09,
+        5.571447045577861e-09
+      ],
+      "scalar_curvature_abs_max": 0.04643308224373746,
+      "shape": [
+        24,
+        24,
+        24,
+        3,
+        3
+      ],
+      "shift_abs_max": 0.3055120994668834,
+      "spatial_derivative_gram_eigenvalues": [
+        0.010632289747065022,
+        0.015098657063105998,
+        0.054171861226661136
+      ],
+      "spatial_derivative_gram_rank": 3,
+      "spatial_metric_eigenvalue_minmax": [
+        0.3711365161200168,
+        8.412821265627471
+      ],
+      "time": 2.5,
+      "trace_K_minmax": [
+        -0.3174373419224652,
+        -0.09910078175390998
+      ]
+    },
+    {
+      "dtype": "float64",
+      "gram_rank_scope": "excludes constant-coordinate translation symmetry only; not arbitrary Killing fields",
+      "hamiltonian_abs_max": 6.761204790484143e-11,
+      "harmonic_covector_abs_max": 4.013370746847045e-10,
+      "harmonic_vector_abs_max": 2.1830596049493087e-11,
+      "index": 0,
+      "input": "udt_time_live_production_preparation_2026-10-01/histories/phase1_n24_window2.npz",
+      "input_sha256": "73a138814bb131898a69d240fedf46b1fd1ca734197c99de3b9aaab10ae05c85",
+      "lapse_minmax": [
+        4.177388517252028,
+        4.652569632830696
+      ],
+      "momentum_abs_max_by_component": [
+        2.0111033498249054e-11,
+        7.424759808707937e-11,
+        5.476743166507418e-11
+      ],
+      "scalar_curvature_abs_max": 0.015956821286240475,
+      "shape": [
+        24,
+        24,
+        24,
+        3,
+        3
+      ],
+      "shift_abs_max": 0.10317713578113373,
+      "spatial_derivative_gram_eigenvalues": [
+        0.001124658226698454,
+        0.0016901609120507232,
+        0.005839508272797579
+      ],
+      "spatial_derivative_gram_rank": 3,
+      "spatial_metric_eigenvalue_minmax": [
+        0.3632523712906622,
+        7.541550076915592
+      ],
+      "time": 2.48,
+      "trace_K_minmax": [
+        -0.2607676326420314,
+        -0.18965353846669442
+      ]
+    },
+    {
+      "dtype": "float64",
+      "gram_rank_scope": "excludes constant-coordinate translation symmetry only; not arbitrary Killing fields",
+      "hamiltonian_abs_max": 6.104228233994036e-11,
+      "harmonic_covector_abs_max": 4.13221346029502e-10,
+      "harmonic_vector_abs_max": 2.3381107241790806e-11,
+      "index": 4,
+      "input": "udt_time_live_production_preparation_2026-10-01/histories/phase1_n24_window2.npz",
+      "input_sha256": "73a138814bb131898a69d240fedf46b1fd1ca734197c99de3b9aaab10ae05c85",
+      "lapse_minmax": [
+        4.223501231192357,
+        4.6933213196244985
+      ],
+      "momentum_abs_max_by_component": [
+        2.1675525740602608e-11,
+        7.095042825824849e-11,
+        5.5432295824895186e-11
+      ],
+      "scalar_curvature_abs_max": 0.01798585807143032,
+      "shape": [
+        24,
+        24,
+        24,
+        3,
+        3
+      ],
+      "shift_abs_max": 0.11034250401610456,
+      "spatial_derivative_gram_eigenvalues": [
+        0.0011459977204326603,
+        0.0017344646801937219,
+        0.005891983834908793
+      ],
+      "spatial_derivative_gram_rank": 3,
+      "spatial_metric_eigenvalue_minmax": [
+        0.3611608579827054,
+        7.625284045524674
+      ],
+      "time": 2.49,
+      "trace_K_minmax": [
+        -0.2620079380997057,
+        -0.18360620295466556
+      ]
+    },
+    {
+      "dtype": "float64",
+      "gram_rank_scope": "excludes constant-coordinate translation symmetry only; not arbitrary Killing fields",
+      "hamiltonian_abs_max": 5.363410410241798e-11,
+      "harmonic_covector_abs_max": 4.247340257279575e-10,
+      "harmonic_vector_abs_max": 2.527029801314497e-11,
+      "index": 8,
+      "input": "udt_time_live_production_preparation_2026-10-01/histories/phase1_n24_window2.npz",
+      "input_sha256": "73a138814bb131898a69d240fedf46b1fd1ca734197c99de3b9aaab10ae05c85",
+      "lapse_minmax": [
+        4.270868155999413,
+        4.733445254170468
+      ],
+      "momentum_abs_max_by_component": [
+        2.312371604959451e-11,
+        6.895316696092779e-11,
+        5.482018430782304e-11
+      ],
+      "scalar_curvature_abs_max": 0.019978855355571968,
+      "shape": [
+        24,
+        24,
+        24,
+        3,
+        3
+      ],
+      "shift_abs_max": 0.11738827400091309,
+      "spatial_derivative_gram_eigenvalues": [
+        0.0011707321545581198,
+        0.0017839486857147563,
+        0.005957563486396475
+      ],
+      "spatial_derivative_gram_rank": 3,
+      "spatial_metric_eigenvalue_minmax": [
+        0.3591256612301421,
+        7.708393417964001
+      ],
+      "time": 2.5,
+      "trace_K_minmax": [
+        -0.2632309850886606,
+        -0.17763022417431082
+      ]
+    }
+  ],
+  "scope": "Finite saved points only, with supplied periodic marking; no continuum or generic-stability claim.",
+  "source_sha256": "f70a57f419a908f62bff0d02243f9d2f9b2c5f4a55a695dc9a2493a524a33cfc",
+  "status": "PASS"
+}

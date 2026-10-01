@@ -5,7 +5,7 @@ This bounded startup view is generated from its opening; edit that source.
 LIVE.md owns operational status; CURRENT_SCIENTIFIC_PREMISES.tsv owns exact grades.
 
 <!-- GENERATED_DEVELOPMENT_BEGIN -->
-**Continuous development — CDR1 with SGE1, LKT1, GCA1, PCW1, CES1, CCR1, PRI1, TRI1, NGD1 and TDS1, 2026-10-01.** This is the maintained
+**Continuous development — CDR1 with SGE1, LKT1, GCA1, PCW1, CES1, CCR1, PRI1, TRI1, NGD1, TDS1 and TPP1, 2026-10-01.** This is the maintained
 scientific development. It is not canon or a new scientific-grade authority.
 The exact registry and reviewed sources own grades; LIVE owns operational status.
 Current review bindings and limits are recorded in section9; startup reads the
@@ -73,8 +73,11 @@ TDS1 releases the evolution code's spatial Killing restriction (R12T): all ten
 metric components evolve with variation in three spatial coordinates. Short
 histories pass independent original-curvature, constraint and actual-clock
 checks. The supplied Ric=0 equation, periodic domain, harmonic gauge and initial
-CMC/conformal construction remain conditional. Longer slabs, broader seeds and
-production load/output checks remain before the intended hours-to-days survey.
+CMC/conformal construction remain conditional. TPP1 now extends13 supplied
+histories to t=2.5, broadens the initial modes and tests production controls. Its
+original five-point refinement gate failed; a preserved, narrower saved-time
+diagnostic repair passes. A measured234-run, up-to-six-hour dispatch is ready
+with a first-three-case verification gate. No multi-hour campaign has started.
 <!-- GENERATED_DEVELOPMENT_END -->
 
 ## Current next gate

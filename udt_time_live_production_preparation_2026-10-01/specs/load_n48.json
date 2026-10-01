@@ -1,0 +1,22 @@
+{
+  "n": 48,
+  "initial": "udt_time_live_production_preparation_2026-10-01/initial/axial1_n48.npz",
+  "period": 6.283185307179586,
+  "dt_min": 0.0003125,
+  "end_tick": 1600,
+  "max_step_ticks": 16,
+  "cfl": 0.25,
+  "check_ticks": 64,
+  "checkpoint_ticks": 800,
+  "windows": [
+    {
+      "center": 800,
+      "stride": 8,
+      "count": 9
+    }
+  ],
+  "wall_seconds": 60,
+  "gpu_bytes": 8589934592,
+  "output_bytes": 402653184,
+  "constraint_limit": 2e-05
+}

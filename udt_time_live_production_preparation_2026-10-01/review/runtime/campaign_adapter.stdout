@@ -1,0 +1,69 @@
+{
+  "status": "CAMPAIGN_ADAPTER_REGRESSION_PASS",
+  "kasner_windows": 3,
+  "all_kasner_arrays_bitwise_equal": true,
+  "supervised_window_frames_equal_to_original": true,
+  "first_assembly": {
+    "status": "CAMPAIGN_WINDOW_ASSEMBLY_COMPLETE",
+    "results": [
+      {
+        "case": "case_a",
+        "reused": false,
+        "record": "/home/udt-admin/udt_mass_codex/udt_time_live_production_preparation_2026-10-01/supervisor_smoke/analysis/case_a/ASSEMBLY.json"
+      },
+      {
+        "case": "case_b",
+        "reused": false,
+        "record": "/home/udt-admin/udt_mass_codex/udt_time_live_production_preparation_2026-10-01/supervisor_smoke/analysis/case_b/ASSEMBLY.json"
+      }
+    ],
+    "attempts": [
+      {
+        "case": "case_a",
+        "returncode": 0
+      },
+      {
+        "case": "case_b",
+        "returncode": 0
+      }
+    ],
+    "manifest_sha256": "4b9ecada3a75fe4e61e67f4f1b1da1b9ce6b306115e4719d36feeca97ed26e78",
+    "used_bytes": 4750409,
+    "scope": "Completed cases only; failures retained, assembly is not numerical qualification"
+  },
+  "idempotent_reuse": {
+    "status": "CAMPAIGN_WINDOW_ASSEMBLY_COMPLETE",
+    "results": [
+      {
+        "case": "case_a",
+        "reused": true,
+        "record": "/home/udt-admin/udt_mass_codex/udt_time_live_production_preparation_2026-10-01/supervisor_smoke/analysis/case_a/ASSEMBLY.json"
+      },
+      {
+        "case": "case_b",
+        "reused": true,
+        "record": "/home/udt-admin/udt_mass_codex/udt_time_live_production_preparation_2026-10-01/supervisor_smoke/analysis/case_b/ASSEMBLY.json"
+      }
+    ],
+    "attempts": [
+      {
+        "case": "case_a",
+        "returncode": 0
+      },
+      {
+        "case": "case_b",
+        "returncode": 0
+      }
+    ],
+    "manifest_sha256": "4b9ecada3a75fe4e61e67f4f1b1da1b9ce6b306115e4719d36feeca97ed26e78",
+    "used_bytes": 4750409,
+    "scope": "Completed cases only; failures retained, assembly is not numerical qualification"
+  },
+  "temporary_output": "/tmp/tpp1_assembler_regression_uls50ku8",
+  "sources": {
+    "udt_time_live_production_preparation_2026-10-01/assemble_windows.py": "8333bc2a4de50300d44f2d32d316e1a9e56874418bbcb69f74e855e4099f1f0b",
+    "udt_time_live_production_preparation_2026-10-01/assemble_campaign.py": "13ce8ba05d33c903a9dda1919f40d52fea7e2822836e9107ff2866605636cf82",
+    "udt_time_live_production_preparation_2026-10-01/prepare_campaign.py": "d5b96d081ef16142b8ef3c94bcf409d14b28db04599fb7c9df33fc06acfed60c"
+  },
+  "scope": "Author regression with actual supervisor receipts; separate parent review required. No new production data orGPU launched."
+}

@@ -1,0 +1,13 @@
+{
+  "command": [
+    "/usr/bin/python3",
+    "/home/udt-admin/udt_mass_codex/udt_time_live_production_preparation_2026-10-01/supervise.py",
+    "/home/udt-admin/udt_mass_codex/udt_time_live_production_preparation_2026-10-01/supervisor_smoke/signal.json",
+    "/home/udt-admin/udt_mass_codex/udt_time_live_production_preparation_2026-10-01/supervisor_smoke/runtime_signal"
+  ],
+  "expected": 75,
+  "name": "signal",
+  "returncode": 75,
+  "seconds": 1.1461603080388159,
+  "sigterm_sent": true
+}

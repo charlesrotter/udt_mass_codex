@@ -1,0 +1,132 @@
+{
+  "oblique1_n24_half": [
+    {
+      "path": "udt_time_live_production_preparation_2026-10-01/histories/oblique1_n24_half_window0.npz",
+      "bytes": 21126102,
+      "times": [
+        1.015,
+        1.035
+      ]
+    },
+    {
+      "path": "udt_time_live_production_preparation_2026-10-01/histories/oblique1_n24_half_window1.npz",
+      "bytes": 21265166,
+      "times": [
+        1.74,
+        1.76
+      ]
+    },
+    {
+      "path": "udt_time_live_production_preparation_2026-10-01/histories/oblique1_n24_half_window2.npz",
+      "bytes": 21275003,
+      "times": [
+        2.48,
+        2.5
+      ]
+    }
+  ],
+  "oblique1_n32": [
+    {
+      "path": "udt_time_live_production_preparation_2026-10-01/histories/oblique1_n32_window0.npz",
+      "bytes": 50038218,
+      "times": [
+        1.015,
+        1.035
+      ]
+    },
+    {
+      "path": "udt_time_live_production_preparation_2026-10-01/histories/oblique1_n32_window1.npz",
+      "bytes": 50391198,
+      "times": [
+        1.74,
+        1.76
+      ]
+    },
+    {
+      "path": "udt_time_live_production_preparation_2026-10-01/histories/oblique1_n32_window2.npz",
+      "bytes": 50410761,
+      "times": [
+        2.48,
+        2.5
+      ]
+    }
+  ],
+  "axial3_n24": [
+    {
+      "path": "udt_time_live_production_preparation_2026-10-01/histories/axial3_n24_window0.npz",
+      "bytes": 20419171,
+      "times": [
+        1.015,
+        1.035
+      ]
+    },
+    {
+      "path": "udt_time_live_production_preparation_2026-10-01/histories/axial3_n24_window1.npz",
+      "bytes": 21237081,
+      "times": [
+        1.74,
+        1.76
+      ]
+    },
+    {
+      "path": "udt_time_live_production_preparation_2026-10-01/histories/axial3_n24_window2.npz",
+      "bytes": 21277981,
+      "times": [
+        2.48,
+        2.5
+      ]
+    }
+  ],
+  "oblique3_n24": [
+    {
+      "path": "udt_time_live_production_preparation_2026-10-01/histories/oblique3_n24_window0.npz",
+      "bytes": 21135345,
+      "times": [
+        1.015,
+        1.035
+      ]
+    },
+    {
+      "path": "udt_time_live_production_preparation_2026-10-01/histories/oblique3_n24_window1.npz",
+      "bytes": 21290416,
+      "times": [
+        1.74,
+        1.76
+      ]
+    },
+    {
+      "path": "udt_time_live_production_preparation_2026-10-01/histories/oblique3_n24_window2.npz",
+      "bytes": 21299614,
+      "times": [
+        2.48,
+        2.5
+      ]
+    }
+  ],
+  "phase1_n24": [
+    {
+      "path": "udt_time_live_production_preparation_2026-10-01/histories/phase1_n24_window0.npz",
+      "bytes": 21126678,
+      "times": [
+        1.015,
+        1.035
+      ]
+    },
+    {
+      "path": "udt_time_live_production_preparation_2026-10-01/histories/phase1_n24_window1.npz",
+      "bytes": 21264577,
+      "times": [
+        1.74,
+        1.76
+      ]
+    },
+    {
+      "path": "udt_time_live_production_preparation_2026-10-01/histories/phase1_n24_window2.npz",
+      "bytes": 21275271,
+      "times": [
+        2.48,
+        2.5
+      ]
+    }
+  ]
+}

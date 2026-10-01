@@ -1,0 +1,1529 @@
+{
+  "histories": [
+    {
+      "dt": 0.0025000000000001688,
+      "einstein_normal_projection_max": 3.2551062093222517e-12,
+      "endpoint_omissions": 2,
+      "harmonic_max": 2.748040683897557e-11,
+      "path": "/home/udt-admin/udt_mass_codex/udt_time_live_production_preparation_2026-10-01/histories/axial1_n16_window0.npz",
+      "period": 6.283185307179586,
+      "points_per_slice": 4096,
+      "ricci_max": 1.113472092306722e-10,
+      "ricci_rms": 1.355104050498411e-11,
+      "rows": [
+        {
+          "einstein_normal_projection_max": 3.2414535981614244e-12,
+          "harmonic_max": 2.748040683897557e-11,
+          "index": 2,
+          "ricci_max": 1.113472092306722e-10,
+          "ricci_rms": 1.3470572007176369e-11,
+          "time": 1.02
+        },
+        {
+          "einstein_normal_projection_max": 3.2551062093222517e-12,
+          "harmonic_max": 2.739264370887895e-11,
+          "index": 3,
+          "ricci_max": 1.0215750467779117e-10,
+          "ricci_rms": 1.3387981808413794e-11,
+          "time": 1.0225
+        },
+        {
+          "einstein_normal_projection_max": 3.2491863338148414e-12,
+          "harmonic_max": 2.7285063097792772e-11,
+          "index": 4,
+          "ricci_max": 1.050595721530101e-10,
+          "ricci_rms": 1.3481974926888647e-11,
+          "time": 1.025
+        },
+        {
+          "einstein_normal_projection_max": 3.2440246114901546e-12,
+          "harmonic_max": 2.720373926123898e-11,
+          "index": 5,
+          "ricci_max": 1.0813361317474346e-10,
+          "ricci_rms": 1.3441229633598643e-11,
+          "time": 1.0275
+        },
+        {
+          "einstein_normal_projection_max": 3.24575276408223e-12,
+          "harmonic_max": 2.7100655053402534e-11,
+          "index": 6,
+          "ricci_max": 1.1118350684569123e-10,
+          "ricci_rms": 1.355104050498411e-11,
+          "time": 1.03
+        }
+      ],
+      "sha256": "28c3922a9516efdd3b62a3901d038a67fe503a8f4e5a49932c8322833c1f5110",
+      "shape": [
+        9,
+        16,
+        16,
+        16,
+        4,
+        4
+      ],
+      "tested_time_slices": 5
+    },
+    {
+      "dt": 0.0025000000000001688,
+      "einstein_normal_projection_max": 1.8719757959730654e-11,
+      "endpoint_omissions": 2,
+      "harmonic_max": 2.9861488282101334e-11,
+      "path": "/home/udt-admin/udt_mass_codex/udt_time_live_production_preparation_2026-10-01/histories/axial1_n16_window1.npz",
+      "period": 6.283185307179586,
+      "points_per_slice": 4096,
+      "ricci_max": 1.7663670526246733e-10,
+      "ricci_rms": 2.780164760164864e-11,
+      "rows": [
+        {
+          "einstein_normal_projection_max": 1.8612349395090124e-11,
+          "harmonic_max": 2.9861488282101334e-11,
+          "index": 2,
+          "ricci_max": 1.6192874818798941e-10,
+          "ricci_rms": 2.7437162978076187e-11,
+          "time": 1.745
+        },
+        {
+          "einstein_normal_projection_max": 1.8607088769068202e-11,
+          "harmonic_max": 2.9776639487444356e-11,
+          "index": 3,
+          "ricci_max": 1.652115111383523e-10,
+          "ricci_rms": 2.754477654803104e-11,
+          "time": 1.7475
+        },
+        {
+          "einstein_normal_projection_max": 1.8631841874482213e-11,
+          "harmonic_max": 2.9679869673060466e-11,
+          "index": 4,
+          "ricci_max": 1.5725937219102093e-10,
+          "ricci_rms": 2.753686630460314e-11,
+          "time": 1.75
+        },
+        {
+          "einstein_normal_projection_max": 1.8676635658736906e-11,
+          "harmonic_max": 2.9588817507253395e-11,
+          "index": 5,
+          "ricci_max": 1.7663670526246733e-10,
+          "ricci_rms": 2.754990913501973e-11,
+          "time": 1.7525
+        },
+        {
+          "einstein_normal_projection_max": 1.8719757959730654e-11,
+          "harmonic_max": 2.950407973489888e-11,
+          "index": 6,
+          "ricci_max": 1.6351298093297828e-10,
+          "ricci_rms": 2.780164760164864e-11,
+          "time": 1.755
+        }
+      ],
+      "sha256": "2f657d8d6403b17483fd46c06264ed101242e1067529c88f6cc4f188f777030d",
+      "shape": [
+        9,
+        16,
+        16,
+        16,
+        4,
+        4
+      ],
+      "tested_time_slices": 5
+    },
+    {
+      "dt": 0.0024999999999999467,
+      "einstein_normal_projection_max": 1.257647067744815e-10,
+      "endpoint_omissions": 2,
+      "harmonic_max": 4.745267442873846e-10,
+      "path": "/home/udt-admin/udt_mass_codex/udt_time_live_production_preparation_2026-10-01/histories/axial1_n16_window2.npz",
+      "period": 6.283185307179586,
+      "points_per_slice": 4096,
+      "ricci_max": 1.758759415881883e-08,
+      "ricci_rms": 2.447109297345649e-09,
+      "rows": [
+        {
+          "einstein_normal_projection_max": 1.257647067744815e-10,
+          "harmonic_max": 4.745267442873846e-10,
+          "index": 2,
+          "ricci_max": 1.758759415881883e-08,
+          "ricci_rms": 2.447109297345649e-09,
+          "time": 2.4850000000000003
+        },
+        {
+          "einstein_normal_projection_max": 1.186435370783356e-10,
+          "harmonic_max": 4.682748598605624e-10,
+          "index": 3,
+          "ricci_max": 1.7446851297009403e-08,
+          "ricci_rms": 2.4333675300770905e-09,
+          "time": 2.4875
+        },
+        {
+          "einstein_normal_projection_max": 1.134418587195902e-10,
+          "harmonic_max": 4.6065247449877944e-10,
+          "index": 4,
+          "ricci_max": 1.726038945104591e-08,
+          "ricci_rms": 2.414089898731007e-09,
+          "time": 2.49
+        },
+        {
+          "einstein_normal_projection_max": 1.0813000172224153e-10,
+          "harmonic_max": 4.516310068980456e-10,
+          "index": 5,
+          "ricci_max": 1.700056784237347e-08,
+          "ricci_rms": 2.3884451502699724e-09,
+          "time": 2.4924999999999997
+        },
+        {
+          "einstein_normal_projection_max": 1.026748038243928e-10,
+          "harmonic_max": 4.4116658590165336e-10,
+          "index": 6,
+          "ricci_max": 1.6713249229027838e-08,
+          "ricci_rms": 2.3559635915808264e-09,
+          "time": 2.495
+        }
+      ],
+      "sha256": "2631016db6aabf4ff8dca68c289a13f9ca5363f65e611d854b1ffedb6c3cd16b",
+      "shape": [
+        9,
+        16,
+        16,
+        16,
+        4,
+        4
+      ],
+      "tested_time_slices": 5
+    },
+    {
+      "dt": 0.0025000000000001688,
+      "einstein_normal_projection_max": 3.3474381656321225e-12,
+      "endpoint_omissions": 2,
+      "harmonic_max": 2.6734892077939776e-11,
+      "path": "/home/udt-admin/udt_mass_codex/udt_time_live_production_preparation_2026-10-01/histories/axial1_n24_half_window0.npz",
+      "period": 6.283185307179586,
+      "points_per_slice": 13824,
+      "ricci_max": 1.2205492172512322e-10,
+      "ricci_rms": 1.3548095813291342e-11,
+      "rows": [
+        {
+          "einstein_normal_projection_max": 3.3198649552439474e-12,
+          "harmonic_max": 2.6734892077939776e-11,
+          "index": 2,
+          "ricci_max": 1.2205492172512322e-10,
+          "ricci_rms": 1.3455563166013296e-11,
+          "time": 1.02
+        },
+        {
+          "einstein_normal_projection_max": 3.317441171178193e-12,
+          "harmonic_max": 2.661904030532014e-11,
+          "index": 3,
+          "ricci_max": 1.1201523042458916e-10,
+          "ricci_rms": 1.3437023942848001e-11,
+          "time": 1.0225
+        },
+        {
+          "einstein_normal_projection_max": 3.337501864775858e-12,
+          "harmonic_max": 2.653244290939938e-11,
+          "index": 4,
+          "ricci_max": 1.0608652845078836e-10,
+          "ricci_rms": 1.3444606686462016e-11,
+          "time": 1.025
+        },
+        {
+          "einstein_normal_projection_max": 3.3474381656321225e-12,
+          "harmonic_max": 2.642708274436245e-11,
+          "index": 5,
+          "ricci_max": 1.220168965865298e-10,
+          "ricci_rms": 1.3409178632584053e-11,
+          "time": 1.0275
+        },
+        {
+          "einstein_normal_projection_max": 3.3182383308453215e-12,
+          "harmonic_max": 2.634187312722247e-11,
+          "index": 6,
+          "ricci_max": 1.1562467649994801e-10,
+          "ricci_rms": 1.3548095813291342e-11,
+          "time": 1.03
+        }
+      ],
+      "sha256": "0225428888fa49375c109803e6356195dcf36c0b031faa12f2fb3d37444be6f7",
+      "shape": [
+        9,
+        24,
+        24,
+        24,
+        4,
+        4
+      ],
+      "tested_time_slices": 5
+    },
+    {
+      "dt": 0.0025000000000001688,
+      "einstein_normal_projection_max": 5.974926313461855e-12,
+      "endpoint_omissions": 2,
+      "harmonic_max": 8.254355532422153e-12,
+      "path": "/home/udt-admin/udt_mass_codex/udt_time_live_production_preparation_2026-10-01/histories/axial1_n24_half_window1.npz",
+      "period": 6.283185307179586,
+      "points_per_slice": 13824,
+      "ricci_max": 1.7079754277560255e-10,
+      "ricci_rms": 1.9878353852241263e-11,
+      "rows": [
+        {
+          "einstein_normal_projection_max": 5.771163334506682e-12,
+          "harmonic_max": 8.254355532422153e-12,
+          "index": 2,
+          "ricci_max": 1.5307893841409737e-10,
+          "ricci_rms": 1.925306867095175e-11,
+          "time": 1.745
+        },
+        {
+          "einstein_normal_projection_max": 5.845384773571572e-12,
+          "harmonic_max": 8.244224747322448e-12,
+          "index": 3,
+          "ricci_max": 1.4961870631324814e-10,
+          "ricci_rms": 1.9511955054239855e-11,
+          "time": 1.7475
+        },
+        {
+          "einstein_normal_projection_max": 5.89285771215209e-12,
+          "harmonic_max": 8.248193794635483e-12,
+          "index": 4,
+          "ricci_max": 1.6644602363058425e-10,
+          "ricci_rms": 1.948571779921671e-11,
+          "time": 1.75
+        },
+        {
+          "einstein_normal_projection_max": 5.9166943702585026e-12,
+          "harmonic_max": 8.25342572063903e-12,
+          "index": 5,
+          "ricci_max": 1.6620882448137309e-10,
+          "ricci_rms": 1.9720488712339233e-11,
+          "time": 1.7525
+        },
+        {
+          "einstein_normal_projection_max": 5.974926313461855e-12,
+          "harmonic_max": 8.24408596944437e-12,
+          "index": 6,
+          "ricci_max": 1.7079754277560255e-10,
+          "ricci_rms": 1.9878353852241263e-11,
+          "time": 1.755
+        }
+      ],
+      "sha256": "b1c463e3b8e57a3b8179e09001ac528bd4cd0e86b249482a19d86a86e011c38e",
+      "shape": [
+        9,
+        24,
+        24,
+        24,
+        4,
+        4
+      ],
+      "tested_time_slices": 5
+    },
+    {
+      "dt": 0.0024999999999999467,
+      "einstein_normal_projection_max": 1.6145910451532605e-10,
+      "endpoint_omissions": 2,
+      "harmonic_max": 5.485542783900677e-10,
+      "path": "/home/udt-admin/udt_mass_codex/udt_time_live_production_preparation_2026-10-01/histories/axial1_n24_half_window2.npz",
+      "period": 6.283185307179586,
+      "points_per_slice": 13824,
+      "ricci_max": 2.238849250435493e-08,
+      "ricci_rms": 3.1303702987154025e-09,
+      "rows": [
+        {
+          "einstein_normal_projection_max": 1.4925400496326476e-10,
+          "harmonic_max": 5.485542783900677e-10,
+          "index": 2,
+          "ricci_max": 2.238849250435493e-08,
+          "ricci_rms": 3.1303702987154025e-09,
+          "time": 2.4850000000000003
+        },
+        {
+          "einstein_normal_projection_max": 1.52365360280171e-10,
+          "harmonic_max": 5.418121368228057e-10,
+          "index": 3,
+          "ricci_max": 2.225140283140803e-08,
+          "ricci_rms": 3.113517811472818e-09,
+          "time": 2.4875
+        },
+        {
+          "einstein_normal_projection_max": 1.5553992095123836e-10,
+          "harmonic_max": 5.337484065837117e-10,
+          "index": 4,
+          "ricci_max": 2.197976756157516e-08,
+          "ricci_rms": 3.0896641871224054e-09,
+          "time": 2.49
+        },
+        {
+          "einstein_normal_projection_max": 1.5851336913995263e-10,
+          "harmonic_max": 5.243354639361542e-10,
+          "index": 5,
+          "ricci_max": 2.1667135974290375e-08,
+          "ricci_rms": 3.0585353254502495e-09,
+          "time": 2.4924999999999997
+        },
+        {
+          "einstein_normal_projection_max": 1.6145910451532605e-10,
+          "harmonic_max": 5.135465386274518e-10,
+          "index": 6,
+          "ricci_max": 2.129685561236272e-08,
+          "ricci_rms": 3.0199540661432603e-09,
+          "time": 2.495
+        }
+      ],
+      "sha256": "0fa7d55165672a3b8716746668c2d10a6ac491ddf14a6de86835ffc6bf6a33f9",
+      "shape": [
+        9,
+        24,
+        24,
+        24,
+        4,
+        4
+      ],
+      "tested_time_slices": 5
+    },
+    {
+      "dt": 0.0025000000000001688,
+      "einstein_normal_projection_max": 3.3869959181471415e-12,
+      "endpoint_omissions": 2,
+      "harmonic_max": 2.7496671606286327e-11,
+      "path": "/home/udt-admin/udt_mass_codex/udt_time_live_production_preparation_2026-10-01/histories/axial1_n24_window0.npz",
+      "period": 6.283185307179586,
+      "points_per_slice": 13824,
+      "ricci_max": 1.1719841763735417e-10,
+      "ricci_rms": 1.3614267176139857e-11,
+      "rows": [
+        {
+          "einstein_normal_projection_max": 3.3869959181471415e-12,
+          "harmonic_max": 2.7496671606286327e-11,
+          "index": 2,
+          "ricci_max": 1.0650119675048586e-10,
+          "ricci_rms": 1.3474329302077196e-11,
+          "time": 1.02
+        },
+        {
+          "einstein_normal_projection_max": 3.347843876968243e-12,
+          "harmonic_max": 2.7363888932541158e-11,
+          "index": 3,
+          "ricci_max": 1.1023221224704116e-10,
+          "ricci_rms": 1.3422683449539411e-11,
+          "time": 1.0225
+        },
+        {
+          "einstein_normal_projection_max": 3.3657741192237837e-12,
+          "harmonic_max": 2.7273405756034208e-11,
+          "index": 4,
+          "ricci_max": 1.1503720198646761e-10,
+          "ricci_rms": 1.3469634805052583e-11,
+          "time": 1.025
+        },
+        {
+          "einstein_normal_projection_max": 3.350899061860383e-12,
+          "harmonic_max": 2.719935388029171e-11,
+          "index": 5,
+          "ricci_max": 1.1719841763735417e-10,
+          "ricci_rms": 1.339776137438714e-11,
+          "time": 1.0275
+        },
+        {
+          "einstein_normal_projection_max": 3.3713951612337e-12,
+          "harmonic_max": 2.70855005091164e-11,
+          "index": 6,
+          "ricci_max": 1.1331569016448384e-10,
+          "ricci_rms": 1.3614267176139857e-11,
+          "time": 1.03
+        }
+      ],
+      "sha256": "1e7b56a5fb09a89576aef7cac821405afea1b39fe68c0e87b45932e18be14d93",
+      "shape": [
+        9,
+        24,
+        24,
+        24,
+        4,
+        4
+      ],
+      "tested_time_slices": 5
+    },
+    {
+      "dt": 0.0025000000000001688,
+      "einstein_normal_projection_max": 1.8724132754896095e-11,
+      "endpoint_omissions": 2,
+      "harmonic_max": 2.6584109913407872e-11,
+      "path": "/home/udt-admin/udt_mass_codex/udt_time_live_production_preparation_2026-10-01/histories/axial1_n24_window1.npz",
+      "period": 6.283185307179586,
+      "points_per_slice": 13824,
+      "ricci_max": 2.051265268754321e-10,
+      "ricci_rms": 2.8820374781886037e-11,
+      "rows": [
+        {
+          "einstein_normal_projection_max": 1.8724132754896095e-11,
+          "harmonic_max": 2.6584109913407872e-11,
+          "index": 2,
+          "ricci_max": 2.0420659607722769e-10,
+          "ricci_rms": 2.7973726385576843e-11,
+          "time": 1.745
+        },
+        {
+          "einstein_normal_projection_max": 1.868753730135777e-11,
+          "harmonic_max": 2.6534704988812052e-11,
+          "index": 3,
+          "ricci_max": 1.937860982792472e-10,
+          "ricci_rms": 2.8086273193661038e-11,
+          "time": 1.7475
+        },
+        {
+          "einstein_normal_projection_max": 1.8623330425449516e-11,
+          "harmonic_max": 2.6487270710084942e-11,
+          "index": 4,
+          "ricci_max": 2.051265268754321e-10,
+          "ricci_rms": 2.828445240719475e-11,
+          "time": 1.75
+        },
+        {
+          "einstein_normal_projection_max": 1.8654771090350275e-11,
+          "harmonic_max": 2.6441460132531347e-11,
+          "index": 5,
+          "ricci_max": 1.9767876224818792e-10,
+          "ricci_rms": 2.8625156881311723e-11,
+          "time": 1.7525
+        },
+        {
+          "einstein_normal_projection_max": 1.8664131525417542e-11,
+          "harmonic_max": 2.6402560693306043e-11,
+          "index": 6,
+          "ricci_max": 2.0087970176163594e-10,
+          "ricci_rms": 2.8820374781886037e-11,
+          "time": 1.755
+        }
+      ],
+      "sha256": "33c4e9e44bc86d553b1f3fc7058aeb50f5840adceec59669ae7e88ef3b13abc3",
+      "shape": [
+        9,
+        24,
+        24,
+        24,
+        4,
+        4
+      ],
+      "tested_time_slices": 5
+    },
+    {
+      "dt": 0.0024999999999999467,
+      "einstein_normal_projection_max": 1.6494052033762792e-10,
+      "endpoint_omissions": 2,
+      "harmonic_max": 5.392959065431135e-10,
+      "path": "/home/udt-admin/udt_mass_codex/udt_time_live_production_preparation_2026-10-01/histories/axial1_n24_window2.npz",
+      "period": 6.283185307179586,
+      "points_per_slice": 13824,
+      "ricci_max": 2.24041131202668e-08,
+      "ricci_rms": 3.0796602557683156e-09,
+      "rows": [
+        {
+          "einstein_normal_projection_max": 1.4998881814170617e-10,
+          "harmonic_max": 5.392959065431135e-10,
+          "index": 2,
+          "ricci_max": 2.24041131202668e-08,
+          "ricci_rms": 3.0796602557683156e-09,
+          "time": 2.4850000000000003
+        },
+        {
+          "einstein_normal_projection_max": 1.5408845327674784e-10,
+          "harmonic_max": 5.324230570313837e-10,
+          "index": 3,
+          "ricci_max": 2.221894801479607e-08,
+          "ricci_rms": 3.0635254083905837e-09,
+          "time": 2.4875
+        },
+        {
+          "einstein_normal_projection_max": 1.5784191163270005e-10,
+          "harmonic_max": 5.242508857583594e-10,
+          "index": 4,
+          "ricci_max": 2.1990232079716066e-08,
+          "ricci_rms": 3.0405494756270224e-09,
+          "time": 2.49
+        },
+        {
+          "einstein_normal_projection_max": 1.6153884181414873e-10,
+          "harmonic_max": 5.147328743793089e-10,
+          "index": 5,
+          "ricci_max": 2.1721664356100234e-08,
+          "ricci_rms": 3.01030337314035e-09,
+          "time": 2.4924999999999997
+        },
+        {
+          "einstein_normal_projection_max": 1.6494052033762792e-10,
+          "harmonic_max": 5.038318096062255e-10,
+          "index": 6,
+          "ricci_max": 2.133363730116855e-08,
+          "ricci_rms": 2.9725313135179753e-09,
+          "time": 2.495
+        }
+      ],
+      "sha256": "5ce1f7f9c75cc8fb57e72184b58385ff70d9434022894bc5f73acdb7f43282c5",
+      "shape": [
+        9,
+        24,
+        24,
+        24,
+        4,
+        4
+      ],
+      "tested_time_slices": 5
+    },
+    {
+      "dt": 0.0025000000000001688,
+      "einstein_normal_projection_max": 3.575025072049701e-12,
+      "endpoint_omissions": 2,
+      "harmonic_max": 2.7511604105967535e-11,
+      "path": "/home/udt-admin/udt_mass_codex/udt_time_live_production_preparation_2026-10-01/histories/axial1_n32_window0.npz",
+      "period": 6.283185307179586,
+      "points_per_slice": 32768,
+      "ricci_max": 1.2424078432715646e-10,
+      "ricci_rms": 1.3525580252476296e-11,
+      "rows": [
+        {
+          "einstein_normal_projection_max": 3.575025072049701e-12,
+          "harmonic_max": 2.7511604105967535e-11,
+          "index": 2,
+          "ricci_max": 1.1193712623480678e-10,
+          "ricci_rms": 1.346441104971128e-11,
+          "time": 1.02
+        },
+        {
+          "einstein_normal_projection_max": 3.561346964691829e-12,
+          "harmonic_max": 2.741468163591776e-11,
+          "index": 3,
+          "ricci_max": 1.191649556808727e-10,
+          "ricci_rms": 1.348131918383608e-11,
+          "time": 1.0225
+        },
+        {
+          "einstein_normal_projection_max": 3.5463690712682836e-12,
+          "harmonic_max": 2.7317259565506902e-11,
+          "index": 4,
+          "ricci_max": 1.1385919984618909e-10,
+          "ricci_rms": 1.3427070539272512e-11,
+          "time": 1.025
+        },
+        {
+          "einstein_normal_projection_max": 3.550986295971585e-12,
+          "harmonic_max": 2.721473046918277e-11,
+          "index": 5,
+          "ricci_max": 1.1718953585315717e-10,
+          "ricci_rms": 1.3494182459985662e-11,
+          "time": 1.0275
+        },
+        {
+          "einstein_normal_projection_max": 3.551514433467193e-12,
+          "harmonic_max": 2.7136126679039307e-11,
+          "index": 6,
+          "ricci_max": 1.2424078432715646e-10,
+          "ricci_rms": 1.3525580252476296e-11,
+          "time": 1.03
+        }
+      ],
+      "sha256": "0140ecc720253dcd8718bc584dcff73d4c0d22f774b7d503fc03453ff8ae5d80",
+      "shape": [
+        9,
+        32,
+        32,
+        32,
+        4,
+        4
+      ],
+      "tested_time_slices": 5
+    },
+    {
+      "dt": 0.0025000000000001688,
+      "einstein_normal_projection_max": 9.007619264665788e-12,
+      "endpoint_omissions": 2,
+      "harmonic_max": 2.028187340297194e-11,
+      "path": "/home/udt-admin/udt_mass_codex/udt_time_live_production_preparation_2026-10-01/histories/axial1_n32_window1.npz",
+      "period": 6.283185307179586,
+      "points_per_slice": 32768,
+      "ricci_max": 1.9636797743416423e-10,
+      "ricci_rms": 2.6265132680963813e-11,
+      "rows": [
+        {
+          "einstein_normal_projection_max": 9.007619264665788e-12,
+          "harmonic_max": 2.028187340297194e-11,
+          "index": 2,
+          "ricci_max": 1.8973250748288706e-10,
+          "ricci_rms": 2.5497927927750367e-11,
+          "time": 1.745
+        },
+        {
+          "einstein_normal_projection_max": 8.849311299772049e-12,
+          "harmonic_max": 2.0254520283202737e-11,
+          "index": 3,
+          "ricci_max": 1.9636797743416423e-10,
+          "ricci_rms": 2.5648909448331925e-11,
+          "time": 1.7475
+        },
+        {
+          "einstein_normal_projection_max": 8.933332148818805e-12,
+          "harmonic_max": 2.022008949165155e-11,
+          "index": 4,
+          "ricci_max": 1.9457990774185419e-10,
+          "ricci_rms": 2.5860657868684348e-11,
+          "time": 1.75
+        },
+        {
+          "einstein_normal_projection_max": 8.87610898146076e-12,
+          "harmonic_max": 2.0189835914230514e-11,
+          "index": 5,
+          "ricci_max": 1.9427842667951722e-10,
+          "ricci_rms": 2.605712803349811e-11,
+          "time": 1.7525
+        },
+        {
+          "einstein_normal_projection_max": 8.789143030088224e-12,
+          "harmonic_max": 2.0159332536628938e-11,
+          "index": 6,
+          "ricci_max": 1.9577750531851734e-10,
+          "ricci_rms": 2.6265132680963813e-11,
+          "time": 1.755
+        }
+      ],
+      "sha256": "5ed2df5f9990ee7ce5ccc9b11dc77c71c2b8915f94c9f6c13faecd919c090b97",
+      "shape": [
+        9,
+        32,
+        32,
+        32,
+        4,
+        4
+      ],
+      "tested_time_slices": 5
+    },
+    {
+      "dt": 0.0024999999999999467,
+      "einstein_normal_projection_max": 1.5826124322504245e-10,
+      "endpoint_omissions": 2,
+      "harmonic_max": 5.505371575287299e-10,
+      "path": "/home/udt-admin/udt_mass_codex/udt_time_live_production_preparation_2026-10-01/histories/axial1_n32_window2.npz",
+      "period": 6.283185307179586,
+      "points_per_slice": 32768,
+      "ricci_max": 2.2826512124929366e-08,
+      "ricci_rms": 3.096552161118525e-09,
+      "rows": [
+        {
+          "einstein_normal_projection_max": 1.466877369929468e-10,
+          "harmonic_max": 5.505371575287299e-10,
+          "index": 2,
+          "ricci_max": 2.2826512124929366e-08,
+          "ricci_rms": 3.096552161118525e-09,
+          "time": 2.4850000000000003
+        },
+        {
+          "einstein_normal_projection_max": 1.4979814340614316e-10,
+          "harmonic_max": 5.43728936874821e-10,
+          "index": 3,
+          "ricci_max": 2.2607192562418277e-08,
+          "ricci_rms": 3.0792463377476008e-09,
+          "time": 2.4875
+        },
+        {
+          "einstein_normal_projection_max": 1.5265317825104603e-10,
+          "harmonic_max": 5.356049978533228e-10,
+          "index": 4,
+          "ricci_max": 2.235693674634831e-08,
+          "ricci_rms": 3.0549465636328206e-09,
+          "time": 2.49
+        },
+        {
+          "einstein_normal_projection_max": 1.5557813477954916e-10,
+          "harmonic_max": 5.261380914278746e-10,
+          "index": 5,
+          "ricci_max": 2.204057225618783e-08,
+          "ricci_rms": 3.0233433039688166e-09,
+          "time": 2.4924999999999997
+        },
+        {
+          "einstein_normal_projection_max": 1.5826124322504245e-10,
+          "harmonic_max": 5.152920798390248e-10,
+          "index": 6,
+          "ricci_max": 2.1670448879795856e-08,
+          "ricci_rms": 2.984356022821135e-09,
+          "time": 2.495
+        }
+      ],
+      "sha256": "40684810f600a8ea8122d61ec9bb676d5ae8acca875e3bdc0dbb32b7b72a7ed1",
+      "shape": [
+        9,
+        32,
+        32,
+        32,
+        4,
+        4
+      ],
+      "tested_time_slices": 5
+    },
+    {
+      "dt": 0.0025000000000001688,
+      "einstein_normal_projection_max": 2.0961915630496634e-12,
+      "endpoint_omissions": 2,
+      "harmonic_max": 1.852729081264215e-11,
+      "own_analytic_kasner_metric_error": 3.894662370385049e-13,
+      "path": "/home/udt-admin/udt_mass_codex/udt_time_live_production_preparation_2026-10-01/histories/kasner_n16_half_window0.npz",
+      "period": 6.283185307179586,
+      "points_per_slice": 4096,
+      "ricci_max": 7.024925086085432e-11,
+      "ricci_rms": 2.1066148947011506e-11,
+      "rows": [
+        {
+          "einstein_normal_projection_max": 2.0884975109122066e-12,
+          "harmonic_max": 1.852729081264215e-11,
+          "index": 2,
+          "ricci_max": 1.210909150728412e-11,
+          "ricci_rms": 5.305337714996103e-12,
+          "time": 1.02
+        },
+        {
+          "einstein_normal_projection_max": 2.0808041058531108e-12,
+          "harmonic_max": 1.84288140303579e-11,
+          "index": 3,
+          "ricci_max": 3.923839031472198e-11,
+          "ricci_rms": 1.2481996678382511e-11,
+          "time": 1.0225
+        },
+        {
+          "einstein_normal_projection_max": 2.0961915630496634e-12,
+          "harmonic_max": 1.8319512573583552e-11,
+          "index": 4,
+          "ricci_max": 3.7757019732964636e-11,
+          "ricci_rms": 1.2559140793674496e-11,
+          "time": 1.025
+        },
+        {
+          "einstein_normal_projection_max": 2.0930593696211333e-12,
+          "harmonic_max": 1.8221535391660382e-11,
+          "index": 5,
+          "ricci_max": 7.024925086085432e-11,
+          "ricci_rms": 2.1066148947011506e-11,
+          "time": 1.0275
+        },
+        {
+          "einstein_normal_projection_max": 2.0698245150281272e-12,
+          "harmonic_max": 1.8179735494783245e-11,
+          "index": 6,
+          "ricci_max": 2.1272872352540162e-11,
+          "ricci_rms": 8.275882343857248e-12,
+          "time": 1.03
+        }
+      ],
+      "sha256": "28af5c8069774f5e3613eed4a1518ab52ed1f1cb850019b2ae6199650300276f",
+      "shape": [
+        9,
+        16,
+        16,
+        16,
+        4,
+        4
+      ],
+      "tested_time_slices": 5
+    },
+    {
+      "dt": 0.0025000000000001688,
+      "einstein_normal_projection_max": 1.0288531170457226e-12,
+      "endpoint_omissions": 2,
+      "harmonic_max": 4.345843129804905e-12,
+      "own_analytic_kasner_metric_error": 3.603606302249318e-11,
+      "path": "/home/udt-admin/udt_mass_codex/udt_time_live_production_preparation_2026-10-01/histories/kasner_n16_half_window1.npz",
+      "period": 6.283185307179586,
+      "points_per_slice": 4096,
+      "ricci_max": 5.702593952605639e-11,
+      "ricci_rms": 1.6022958346329525e-11,
+      "rows": [
+        {
+          "einstein_normal_projection_max": 1.0132532206488139e-12,
+          "harmonic_max": 4.345843129804905e-12,
+          "index": 2,
+          "ricci_max": 5.285705206858893e-11,
+          "ricci_rms": 1.463096947703303e-11,
+          "time": 1.745
+        },
+        {
+          "einstein_normal_projection_max": 1.015250038923444e-12,
+          "harmonic_max": 4.3202247335116795e-12,
+          "index": 3,
+          "ricci_max": 2.982047941912924e-11,
+          "ricci_rms": 8.541129936882663e-12,
+          "time": 1.7475
+        },
+        {
+          "einstein_normal_projection_max": 1.0288531170457226e-12,
+          "harmonic_max": 4.283115528913584e-12,
+          "index": 4,
+          "ricci_max": 2.6200708269641382e-11,
+          "ricci_rms": 6.950092529260243e-12,
+          "time": 1.75
+        },
+        {
+          "einstein_normal_projection_max": 1.0266173117363875e-12,
+          "harmonic_max": 4.2692793744691926e-12,
+          "index": 5,
+          "ricci_max": 5.702593952605639e-11,
+          "ricci_rms": 1.6022958346329525e-11,
+          "time": 1.7525
+        },
+        {
+          "einstein_normal_projection_max": 1.0189280677055147e-12,
+          "harmonic_max": 4.257552643771589e-12,
+          "index": 6,
+          "ricci_max": 9.915956944439586e-12,
+          "ricci_rms": 2.7680259310598904e-12,
+          "time": 1.755
+        }
+      ],
+      "sha256": "97bfcbdf1df0ab0d640e219ebc6cd4385bb6af2d79f4be7b2d43e7eda54a5d36",
+      "shape": [
+        9,
+        16,
+        16,
+        16,
+        4,
+        4
+      ],
+      "tested_time_slices": 5
+    },
+    {
+      "dt": 0.0024999999999999467,
+      "einstein_normal_projection_max": 3.8925475213638326e-13,
+      "endpoint_omissions": 2,
+      "harmonic_max": 7.921718836456648e-13,
+      "own_analytic_kasner_metric_error": 2.0628476704587229e-10,
+      "path": "/home/udt-admin/udt_mass_codex/udt_time_live_production_preparation_2026-10-01/histories/kasner_n16_half_window2.npz",
+      "period": 6.283185307179586,
+      "points_per_slice": 4096,
+      "ricci_max": 8.752765179309563e-11,
+      "ricci_rms": 2.252258731557705e-11,
+      "rows": [
+        {
+          "einstein_normal_projection_max": 3.874473172559629e-13,
+          "harmonic_max": 7.921718836456648e-13,
+          "index": 2,
+          "ricci_max": 5.2445603415662845e-11,
+          "ricci_rms": 1.3542631090895032e-11,
+          "time": 2.4850000000000003
+        },
+        {
+          "einstein_normal_projection_max": 3.8267811881519815e-13,
+          "harmonic_max": 7.880848751362635e-13,
+          "index": 3,
+          "ricci_max": 6.41580122362484e-11,
+          "ricci_rms": 1.6173760262306995e-11,
+          "time": 2.4875
+        },
+        {
+          "einstein_normal_projection_max": 3.872120838808568e-13,
+          "harmonic_max": 7.8056658359138e-13,
+          "index": 4,
+          "ricci_max": 8.20865597717102e-12,
+          "ricci_rms": 2.182756159834059e-12,
+          "time": 2.49
+        },
+        {
+          "einstein_normal_projection_max": 3.8925475213638326e-13,
+          "harmonic_max": 7.783114430726101e-13,
+          "index": 5,
+          "ricci_max": 8.752765179309563e-11,
+          "ricci_rms": 2.252258731557705e-11,
+          "time": 2.4924999999999997
+        },
+        {
+          "einstein_normal_projection_max": 3.7831324887608287e-13,
+          "harmonic_max": 7.758238496080594e-13,
+          "index": 6,
+          "ricci_max": 8.188894007332692e-12,
+          "ricci_rms": 2.0787873915534746e-12,
+          "time": 2.495
+        }
+      ],
+      "sha256": "16a40cd100bbb93196748a1c645b19584903536278e388b2c2e6a832c551f632",
+      "shape": [
+        9,
+        16,
+        16,
+        16,
+        4,
+        4
+      ],
+      "tested_time_slices": 5
+    },
+    {
+      "dt": 0.0025000000000001688,
+      "einstein_normal_projection_max": 2.1085014809386957e-12,
+      "endpoint_omissions": 2,
+      "harmonic_max": 1.849065345282952e-11,
+      "own_analytic_kasner_metric_error": 2.8814728381121313e-12,
+      "path": "/home/udt-admin/udt_mass_codex/udt_time_live_production_preparation_2026-10-01/histories/kasner_n16_window0.npz",
+      "period": 6.283185307179586,
+      "points_per_slice": 4096,
+      "ricci_max": 6.655453965720426e-11,
+      "ricci_rms": 2.018717052516115e-11,
+      "rows": [
+        {
+          "einstein_normal_projection_max": 2.1085014809386957e-12,
+          "harmonic_max": 1.849065345282952e-11,
+          "index": 2,
+          "ricci_max": 3.829481176609306e-11,
+          "ricci_rms": 1.1602464821738324e-11,
+          "time": 1.02
+        },
+        {
+          "einstein_normal_projection_max": 2.1006225831095986e-12,
+          "harmonic_max": 1.8413159885710684e-11,
+          "index": 3,
+          "ricci_max": 1.8897883258262027e-11,
+          "ricci_rms": 7.1458625408813704e-12,
+          "time": 1.0225
+        },
+        {
+          "einstein_normal_projection_max": 2.074822647067769e-12,
+          "harmonic_max": 1.8359425091318826e-11,
+          "index": 4,
+          "ricci_max": 6.655453965720426e-11,
+          "ricci_rms": 2.018717052516115e-11,
+          "time": 1.025
+        },
+        {
+          "einstein_normal_projection_max": 2.0693629514160626e-12,
+          "harmonic_max": 1.825806172917055e-11,
+          "index": 5,
+          "ricci_max": 3.267530690465037e-11,
+          "ricci_rms": 1.0065819707487402e-11,
+          "time": 1.0275
+        },
+        {
+          "einstein_normal_projection_max": 2.073347231710054e-12,
+          "harmonic_max": 1.8152812586436085e-11,
+          "index": 6,
+          "ricci_max": 4.2316372628192767e-11,
+          "ricci_rms": 1.2020183056808414e-11,
+          "time": 1.03
+        }
+      ],
+      "sha256": "f4f2868fb39a116b2acc5280688d105fa9ddfe4e22c877b8143287229eaa6a88",
+      "shape": [
+        9,
+        16,
+        16,
+        16,
+        4,
+        4
+      ],
+      "tested_time_slices": 5
+    },
+    {
+      "dt": 0.0025000000000001688,
+      "einstein_normal_projection_max": 1.0185900969462572e-12,
+      "endpoint_omissions": 2,
+      "harmonic_max": 4.345218629353553e-12,
+      "own_analytic_kasner_metric_error": 5.460094598674914e-10,
+      "path": "/home/udt-admin/udt_mass_codex/udt_time_live_production_preparation_2026-10-01/histories/kasner_n16_window1.npz",
+      "period": 6.283185307179586,
+      "points_per_slice": 4096,
+      "ricci_max": 9.46527300982325e-11,
+      "ricci_rms": 2.555058346200967e-11,
+      "rows": [
+        {
+          "einstein_normal_projection_max": 1.0185900969462572e-12,
+          "harmonic_max": 4.345218629353553e-12,
+          "index": 2,
+          "ricci_max": 5.38081801337853e-11,
+          "ricci_rms": 1.4837604099235404e-11,
+          "time": 1.745
+        },
+        {
+          "einstein_normal_projection_max": 1.0037183129209201e-12,
+          "harmonic_max": 4.320876989538647e-12,
+          "index": 3,
+          "ricci_max": 2.5197621766892553e-11,
+          "ricci_rms": 6.371538492754423e-12,
+          "time": 1.7475
+        },
+        {
+          "einstein_normal_projection_max": 1.0165733031248804e-12,
+          "harmonic_max": 4.2965075941481246e-12,
+          "index": 4,
+          "ricci_max": 6.103162419890396e-11,
+          "ricci_rms": 1.6029066458366962e-11,
+          "time": 1.75
+        },
+        {
+          "einstein_normal_projection_max": 1.0111791570723446e-12,
+          "harmonic_max": 4.277619924941689e-12,
+          "index": 5,
+          "ricci_max": 9.46527300982325e-11,
+          "ricci_rms": 2.555058346200967e-11,
+          "time": 1.7525
+        },
+        {
+          "einstein_normal_projection_max": 1.0078742136353196e-12,
+          "harmonic_max": 4.26066126824054e-12,
+          "index": 6,
+          "ricci_max": 2.140077004497698e-11,
+          "ricci_rms": 5.413305511496475e-12,
+          "time": 1.755
+        }
+      ],
+      "sha256": "b7ecce6a98ba5398ad7879683a20ace92f3292c908a9150ef7c5c01dde63a8d7",
+      "shape": [
+        9,
+        16,
+        16,
+        16,
+        4,
+        4
+      ],
+      "tested_time_slices": 5
+    },
+    {
+      "dt": 0.0024999999999999467,
+      "einstein_normal_projection_max": 3.969152876143121e-13,
+      "endpoint_omissions": 2,
+      "harmonic_max": 8.029583942192886e-13,
+      "own_analytic_kasner_metric_error": 3.171187756834115e-09,
+      "path": "/home/udt-admin/udt_mass_codex/udt_time_live_production_preparation_2026-10-01/histories/kasner_n16_window2.npz",
+      "period": 6.283185307179586,
+      "points_per_slice": 4096,
+      "ricci_max": 7.960032633036462e-11,
+      "ricci_rms": 2.0424906912969653e-11,
+      "rows": [
+        {
+          "einstein_normal_projection_max": 3.934867004211574e-13,
+          "harmonic_max": 8.029583942192886e-13,
+          "index": 2,
+          "ricci_max": 5.4616866584922263e-11,
+          "ricci_rms": 1.4058092481652154e-11,
+          "time": 2.4850000000000003
+        },
+        {
+          "einstein_normal_projection_max": 3.946136364531479e-13,
+          "harmonic_max": 7.99485477820383e-13,
+          "index": 3,
+          "ricci_max": 7.960032633036462e-11,
+          "ricci_rms": 2.0424906912969653e-11,
+          "time": 2.4875
+        },
+        {
+          "einstein_normal_projection_max": 3.969152876143121e-13,
+          "harmonic_max": 7.944998825504257e-13,
+          "index": 4,
+          "ricci_max": 3.060185438386043e-11,
+          "ricci_rms": 7.691365654170904e-12,
+          "time": 2.49
+        },
+        {
+          "einstein_normal_projection_max": 3.953338751850001e-13,
+          "harmonic_max": 7.906904297971806e-13,
+          "index": 5,
+          "ricci_max": 4.314670842830992e-11,
+          "ricci_rms": 1.1888090853977955e-11,
+          "time": 2.4924999999999997
+        },
+        {
+          "einstein_normal_projection_max": 3.95446415816216e-13,
+          "harmonic_max": 7.872348606330348e-13,
+          "index": 6,
+          "ricci_max": 2.622135841789941e-11,
+          "ricci_rms": 6.722990442195518e-12,
+          "time": 2.495
+        }
+      ],
+      "sha256": "0c571c5764e5c5d941ac8890cba71671f78e435f048ac0f032654c63f8c4c9cf",
+      "shape": [
+        9,
+        16,
+        16,
+        16,
+        4,
+        4
+      ],
+      "tested_time_slices": 5
+    },
+    {
+      "dt": 0.0025000000000001688,
+      "einstein_normal_projection_max": 1.3220574984365228e-11,
+      "endpoint_omissions": 2,
+      "harmonic_max": 3.3058999981960824e-11,
+      "path": "/home/udt-admin/udt_mass_codex/udt_time_live_production_preparation_2026-10-01/histories/oblique1_n16_window0.npz",
+      "period": 6.283185307179586,
+      "points_per_slice": 4096,
+      "ricci_max": 1.4837464590300442e-10,
+      "ricci_rms": 1.5293067733989152e-11,
+      "rows": [
+        {
+          "einstein_normal_projection_max": 1.307811281413479e-11,
+          "harmonic_max": 3.3058999981960824e-11,
+          "index": 2,
+          "ricci_max": 1.4837464590300442e-10,
+          "ricci_rms": 1.523342392343739e-11,
+          "time": 1.02
+        },
+        {
+          "einstein_normal_projection_max": 1.3126989028712917e-11,
+          "harmonic_max": 3.282851768204864e-11,
+          "index": 3,
+          "ricci_max": 1.2777534585950434e-10,
+          "ricci_rms": 1.514072986949348e-11,
+          "time": 1.0225
+        },
+        {
+          "einstein_normal_projection_max": 1.3190081547056761e-11,
+          "harmonic_max": 3.269778892089903e-11,
+          "index": 4,
+          "ricci_max": 1.3117718022925828e-10,
+          "ricci_rms": 1.5170257129678802e-11,
+          "time": 1.025
+        },
+        {
+          "einstein_normal_projection_max": 1.3159889665669921e-11,
+          "harmonic_max": 3.250888447325906e-11,
+          "index": 5,
+          "ricci_max": 1.24029675419024e-10,
+          "ricci_rms": 1.5095500831374103e-11,
+          "time": 1.0275
+        },
+        {
+          "einstein_normal_projection_max": 1.3220574984365228e-11,
+          "harmonic_max": 3.228473044458724e-11,
+          "index": 6,
+          "ricci_max": 1.258461113096132e-10,
+          "ricci_rms": 1.5293067733989152e-11,
+          "time": 1.03
+        }
+      ],
+      "sha256": "0b6017ad84e56ef97c09346c4b4701717cd12b25b91b13624e2a82c14b3ab694",
+      "shape": [
+        9,
+        16,
+        16,
+        16,
+        4,
+        4
+      ],
+      "tested_time_slices": 5
+    },
+    {
+      "dt": 0.0025000000000001688,
+      "einstein_normal_projection_max": 1.372738364049225e-10,
+      "endpoint_omissions": 2,
+      "harmonic_max": 7.946435870431756e-11,
+      "path": "/home/udt-admin/udt_mass_codex/udt_time_live_production_preparation_2026-10-01/histories/oblique1_n16_window1.npz",
+      "period": 6.283185307179586,
+      "points_per_slice": 4096,
+      "ricci_max": 9.379610976800734e-10,
+      "ricci_rms": 9.606654851463278e-11,
+      "rows": [
+        {
+          "einstein_normal_projection_max": 1.3253493836891077e-10,
+          "harmonic_max": 7.850751645999132e-11,
+          "index": 2,
+          "ricci_max": 9.379610976800734e-10,
+          "ricci_rms": 9.286570444173405e-11,
+          "time": 1.745
+        },
+        {
+          "einstein_normal_projection_max": 1.3370692843183086e-10,
+          "harmonic_max": 7.87514879696527e-11,
+          "index": 3,
+          "ricci_max": 8.974029852559795e-10,
+          "ricci_rms": 9.357138183446096e-11,
+          "time": 1.7475
+        },
+        {
+          "einstein_normal_projection_max": 1.3490171689082412e-10,
+          "harmonic_max": 7.899251738829882e-11,
+          "index": 4,
+          "ricci_max": 9.047217974789135e-10,
+          "ricci_rms": 9.442867506474359e-11,
+          "time": 1.75
+        },
+        {
+          "einstein_normal_projection_max": 1.3609689384959396e-10,
+          "harmonic_max": 7.922993164322101e-11,
+          "index": 5,
+          "ricci_max": 9.328407490905022e-10,
+          "ricci_rms": 9.549161294263749e-11,
+          "time": 1.7525
+        },
+        {
+          "einstein_normal_projection_max": 1.372738364049225e-10,
+          "harmonic_max": 7.946435870431756e-11,
+          "index": 6,
+          "ricci_max": 9.115762034106467e-10,
+          "ricci_rms": 9.606654851463278e-11,
+          "time": 1.755
+        }
+      ],
+      "sha256": "f137e52383aaac1b155eb392c645c1e73834abffddbc375a09be1285a47bff0a",
+      "shape": [
+        9,
+        16,
+        16,
+        16,
+        4,
+        4
+      ],
+      "tested_time_slices": 5
+    },
+    {
+      "dt": 0.0024999999999999467,
+      "einstein_normal_projection_max": 1.4795408163282635e-09,
+      "endpoint_omissions": 2,
+      "harmonic_max": 7.421436104548818e-10,
+      "path": "/home/udt-admin/udt_mass_codex/udt_time_live_production_preparation_2026-10-01/histories/oblique1_n16_window2.npz",
+      "period": 6.283185307179586,
+      "points_per_slice": 4096,
+      "ricci_max": 4.160718625190185e-08,
+      "ricci_rms": 2.753663894871388e-09,
+      "rows": [
+        {
+          "einstein_normal_projection_max": 1.3103996194701028e-09,
+          "harmonic_max": 7.421436104548818e-10,
+          "index": 2,
+          "ricci_max": 3.5800732156587856e-08,
+          "ricci_rms": 2.5809672052339646e-09,
+          "time": 2.4850000000000003
+        },
+        {
+          "einstein_normal_projection_max": 1.3576590600440412e-09,
+          "harmonic_max": 7.390093328951686e-10,
+          "index": 3,
+          "ricci_max": 3.5613851090410265e-08,
+          "ricci_rms": 2.61706880525172e-09,
+          "time": 2.4875
+        },
+        {
+          "einstein_normal_projection_max": 1.4017756868143282e-09,
+          "harmonic_max": 7.34451527373281e-10,
+          "index": 4,
+          "ricci_max": 3.7510032302456864e-08,
+          "ricci_rms": 2.657374019256755e-09,
+          "time": 2.49
+        },
+        {
+          "einstein_normal_projection_max": 1.4425116071268704e-09,
+          "harmonic_max": 7.284362696369229e-10,
+          "index": 5,
+          "ricci_max": 3.9574436172529204e-08,
+          "ricci_rms": 2.7030272266697665e-09,
+          "time": 2.4924999999999997
+        },
+        {
+          "einstein_normal_projection_max": 1.4795408163282635e-09,
+          "harmonic_max": 7.209250973971848e-10,
+          "index": 6,
+          "ricci_max": 4.160718625190185e-08,
+          "ricci_rms": 2.753663894871388e-09,
+          "time": 2.495
+        }
+      ],
+      "sha256": "d719fcd5d912cb01f44daae8fe577742794ea44a217174051a6c1a4c5fffc7c3",
+      "shape": [
+        9,
+        16,
+        16,
+        16,
+        4,
+        4
+      ],
+      "tested_time_slices": 5
+    },
+    {
+      "dt": 0.0025000000000001688,
+      "einstein_normal_projection_max": 1.327880261965647e-11,
+      "endpoint_omissions": 2,
+      "harmonic_max": 3.310862695116157e-11,
+      "path": "/home/udt-admin/udt_mass_codex/udt_time_live_production_preparation_2026-10-01/histories/oblique1_n24_window0.npz",
+      "period": 6.283185307179586,
+      "points_per_slice": 13824,
+      "ricci_max": 1.4806444958992415e-10,
+      "ricci_rms": 1.522515600944426e-11,
+      "rows": [
+        {
+          "einstein_normal_projection_max": 1.3227406226833436e-11,
+          "harmonic_max": 3.310862695116157e-11,
+          "index": 2,
+          "ricci_max": 1.433398955086318e-10,
+          "ricci_rms": 1.5199113671880514e-11,
+          "time": 1.02
+        },
+        {
+          "einstein_normal_projection_max": 1.327880261965647e-11,
+          "harmonic_max": 3.2941205319048095e-11,
+          "index": 3,
+          "ricci_max": 1.3011636212922895e-10,
+          "ricci_rms": 1.5126031320256668e-11,
+          "time": 1.0225
+        },
+        {
+          "einstein_normal_projection_max": 1.3221481656947452e-11,
+          "harmonic_max": 3.2727209831051596e-11,
+          "index": 4,
+          "ricci_max": 1.4806444958992415e-10,
+          "ricci_rms": 1.5097524636331295e-11,
+          "time": 1.025
+        },
+        {
+          "einstein_normal_projection_max": 1.3221113524124106e-11,
+          "harmonic_max": 3.252620395244321e-11,
+          "index": 5,
+          "ricci_max": 1.375452529650545e-10,
+          "ricci_rms": 1.5160137026265273e-11,
+          "time": 1.0275
+        },
+        {
+          "einstein_normal_projection_max": 1.3227466543504713e-11,
+          "harmonic_max": 3.2349900536132736e-11,
+          "index": 6,
+          "ricci_max": 1.353309131424396e-10,
+          "ricci_rms": 1.522515600944426e-11,
+          "time": 1.03
+        }
+      ],
+      "sha256": "84b93497987350ad4ef8484768998cec2d40840745e81e20ca661696bd872e9f",
+      "shape": [
+        9,
+        24,
+        24,
+        24,
+        4,
+        4
+      ],
+      "tested_time_slices": 5
+    },
+    {
+      "dt": 0.0025000000000001688,
+      "einstein_normal_projection_max": 8.42871660242988e-11,
+      "endpoint_omissions": 2,
+      "harmonic_max": 8.189260727875514e-11,
+      "path": "/home/udt-admin/udt_mass_codex/udt_time_live_production_preparation_2026-10-01/histories/oblique1_n24_window1.npz",
+      "period": 6.283185307179586,
+      "points_per_slice": 13824,
+      "ricci_max": 8.335020451610831e-10,
+      "ricci_rms": 9.212965100514485e-11,
+      "rows": [
+        {
+          "einstein_normal_projection_max": 8.217290830581531e-11,
+          "harmonic_max": 8.047056770932315e-11,
+          "index": 2,
+          "ricci_max": 8.059988232389514e-10,
+          "ricci_rms": 8.858809124590573e-11,
+          "time": 1.745
+        },
+        {
+          "einstein_normal_projection_max": 8.276564134338806e-11,
+          "harmonic_max": 8.082048919000329e-11,
+          "index": 3,
+          "ricci_max": 7.782996469529735e-10,
+          "ricci_rms": 8.950864180222654e-11,
+          "time": 1.7475
+        },
+        {
+          "einstein_normal_projection_max": 8.321110943685745e-11,
+          "harmonic_max": 8.116685101811072e-11,
+          "index": 4,
+          "ricci_max": 7.72026331752329e-10,
+          "ricci_rms": 9.034319429658115e-11,
+          "time": 1.75
+        },
+        {
+          "einstein_normal_projection_max": 8.376375434188489e-11,
+          "harmonic_max": 8.153235031560513e-11,
+          "index": 5,
+          "ricci_max": 7.992259076772257e-10,
+          "ricci_rms": 9.120048470155005e-11,
+          "time": 1.7525
+        },
+        {
+          "einstein_normal_projection_max": 8.42871660242988e-11,
+          "harmonic_max": 8.189260727875514e-11,
+          "index": 6,
+          "ricci_max": 8.335020451610831e-10,
+          "ricci_rms": 9.212965100514485e-11,
+          "time": 1.755
+        }
+      ],
+      "sha256": "6355c8b68796a75d8ffa212c0f629946ae92d6902357d597456fb418bccf1a9e",
+      "shape": [
+        9,
+        24,
+        24,
+        24,
+        4,
+        4
+      ],
+      "tested_time_slices": 5
+    },
+    {
+      "dt": 0.0024999999999999467,
+      "einstein_normal_projection_max": 1.4115970244916634e-09,
+      "endpoint_omissions": 2,
+      "harmonic_max": 7.800401782831479e-10,
+      "path": "/home/udt-admin/udt_mass_codex/udt_time_live_production_preparation_2026-10-01/histories/oblique1_n24_window2.npz",
+      "period": 6.283185307179586,
+      "points_per_slice": 13824,
+      "ricci_max": 4.2719353721132336e-08,
+      "ricci_rms": 2.7642102641237404e-09,
+      "rows": [
+        {
+          "einstein_normal_projection_max": 1.3258040721264198e-09,
+          "harmonic_max": 7.800401782831479e-10,
+          "index": 2,
+          "ricci_max": 3.347360122418763e-08,
+          "ricci_rms": 2.674023758475592e-09,
+          "time": 2.4850000000000003
+        },
+        {
+          "einstein_normal_projection_max": 1.3474849593373048e-09,
+          "harmonic_max": 7.643074992347287e-10,
+          "index": 3,
+          "ricci_max": 3.588372365914694e-08,
+          "ricci_rms": 2.690959341366915e-09,
+          "time": 2.4875
+        },
+        {
+          "einstein_normal_projection_max": 1.369019265014669e-09,
+          "harmonic_max": 7.468657636788834e-10,
+          "index": 4,
+          "ricci_max": 3.8168143645656016e-08,
+          "ricci_rms": 2.711249199714341e-09,
+          "time": 2.49
+        },
+        {
+          "einstein_normal_projection_max": 1.3904209221431239e-09,
+          "harmonic_max": 7.305354793318841e-10,
+          "index": 5,
+          "ricci_max": 4.044126367119816e-08,
+          "ricci_rms": 2.7355542701121557e-09,
+          "time": 2.4924999999999997
+        },
+        {
+          "einstein_normal_projection_max": 1.4115970244916634e-09,
+          "harmonic_max": 7.153127049019936e-10,
+          "index": 6,
+          "ricci_max": 4.2719353721132336e-08,
+          "ricci_rms": 2.7642102641237404e-09,
+          "time": 2.495
+        }
+      ],
+      "sha256": "3234623594870b322a5120fb98552b993bcefa1d0e032501b0cb030520d9acad",
+      "shape": [
+        9,
+        24,
+        24,
+        24,
+        4,
+        4
+      ],
+      "tested_time_slices": 5
+    }
+  ],
+  "numpy": "2.2.6",
+  "producer_imports": false,
+  "producer_velocities_or_accelerations_used": false,
+  "scope": "Original coordinate Ricci and normal Einstein projections from all interior metric-only saved slices; finite-difference/Fourier floating-point diagnostics, not continuum certification.",
+  "seconds": 32.632039749005344,
+  "source_sha256": "1da366b12489be81d9b2a333f1abf0793ecf7d2e6f4e3fe783390e3098e5aff4",
+  "status": "MEASURED_ORIGINAL_RICCI"
+}

@@ -1,0 +1,6 @@
+{
+  "status": "PRE_REPAIR_ASYMMETRIC_INITIAL_ACCEPTED",
+  "exact_source_sha256": "9d024b6fb1c30f8e46818fea51cba8a6ebd79b85fdd4627cfd2148d82f47f131",
+  "asymmetry": 0.001,
+  "scope": "Only pre-Torch validation counterexample, not a claim of successful malformed evolution."
+}

@@ -1,0 +1,16 @@
+{
+  "command": [
+    "python3",
+    "udt_time_live_production_preparation_2026-10-01/clock_checks.py",
+    "udt_time_live_production_preparation_2026-10-01/histories/axial1_n24_half_window2.npz",
+    "udt_time_live_production_preparation_2026-10-01/CLOCK_AXIAL_HALF.json"
+  ],
+  "cwd": "/home/udt-admin/udt_mass_codex",
+  "started_utc": "2026-10-01T01:29:04.000367+00:00",
+  "duration_seconds": 3.8878738980274647,
+  "returncode": 0,
+  "timeout": false,
+  "address_space_bytes": 2147483648,
+  "cpu_seconds": 180,
+  "maxrss_kib": 187236
+}

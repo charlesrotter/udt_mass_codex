@@ -1,0 +1,18 @@
+{
+  "case": "case_b",
+  "command": [
+    "/usr/bin/python3",
+    "/home/udt-admin/udt_mass_codex/udt_time_live_production_preparation_2026-10-01/production_worker.py",
+    "/home/udt-admin/udt_mass_codex/udt_time_live_production_preparation_2026-10-01/specs/engineering.json",
+    "/home/udt-admin/udt_mass_codex/udt_time_live_production_preparation_2026-10-01/runs/supervisor_smoke/case_b"
+  ],
+  "resume": false,
+  "returncode": 0,
+  "sigkill_sent": false,
+  "sigterm_sent": false,
+  "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "stdout_sha256": "72e96e9a46e86e93fc855956e3479b09cc430709c2369f03e72696345f8d2d20",
+  "wall_seconds": 1.6039475669967942,
+  "worker_status": "TPP1_RUN_COMPLETE",
+  "worker_stop_reason": null
+}

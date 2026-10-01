@@ -1,0 +1,152 @@
+{
+  "scope": "Actual worker process wall; no overlap or wrapper double counting",
+  "prior_invocations": [
+    {
+      "path": "udt_time_live_production_preparation_2026-10-01/invocations/axial1_n16.json",
+      "seconds": 7.130169673007913,
+      "returncode": 0
+    },
+    {
+      "path": "udt_time_live_production_preparation_2026-10-01/invocations/axial1_n24.json",
+      "seconds": 16.509710313985124,
+      "returncode": 0
+    },
+    {
+      "path": "udt_time_live_production_preparation_2026-10-01/invocations/axial1_n24_half.json",
+      "seconds": 28.06926282198401,
+      "returncode": 0
+    },
+    {
+      "path": "udt_time_live_production_preparation_2026-10-01/invocations/axial1_n32.json",
+      "seconds": 41.02710080402903,
+      "returncode": 0
+    },
+    {
+      "path": "udt_time_live_production_preparation_2026-10-01/invocations/axial3_n24.json",
+      "seconds": 16.600141456001438,
+      "returncode": 0
+    },
+    {
+      "path": "udt_time_live_production_preparation_2026-10-01/invocations/engineering_full.json",
+      "seconds": 1.7179964699898846,
+      "returncode": 0
+    },
+    {
+      "path": "udt_time_live_production_preparation_2026-10-01/invocations/engineering_pause.json",
+      "seconds": 1.165824057010468,
+      "returncode": 75
+    },
+    {
+      "path": "udt_time_live_production_preparation_2026-10-01/invocations/engineering_resume.json",
+      "seconds": 1.5159796070074663,
+      "returncode": 0
+    },
+    {
+      "path": "udt_time_live_production_preparation_2026-10-01/invocations/engineering_signal.json",
+      "seconds": 1.0597007549949922,
+      "returncode": 75
+    },
+    {
+      "path": "udt_time_live_production_preparation_2026-10-01/invocations/engineering_signal_resume.json",
+      "seconds": 1.667207231046632,
+      "returncode": 0
+    },
+    {
+      "path": "udt_time_live_production_preparation_2026-10-01/invocations/floor_stop.json",
+      "seconds": 1.065963863977231,
+      "returncode": 75
+    },
+    {
+      "path": "udt_time_live_production_preparation_2026-10-01/invocations/kasner_n16.json",
+      "seconds": 6.528430730977561,
+      "returncode": 0
+    },
+    {
+      "path": "udt_time_live_production_preparation_2026-10-01/invocations/kasner_n16_half.json",
+      "seconds": 10.238053947978187,
+      "returncode": 0
+    },
+    {
+      "path": "udt_time_live_production_preparation_2026-10-01/invocations/load_n48.json",
+      "seconds": 31.389854893030133,
+      "returncode": 0
+    },
+    {
+      "path": "udt_time_live_production_preparation_2026-10-01/invocations/oblique1_n16.json",
+      "seconds": 7.230425714049488,
+      "returncode": 0
+    },
+    {
+      "path": "udt_time_live_production_preparation_2026-10-01/invocations/oblique1_n24.json",
+      "seconds": 16.698184867971577,
+      "returncode": 0
+    },
+    {
+      "path": "udt_time_live_production_preparation_2026-10-01/invocations/oblique1_n24_half.json",
+      "seconds": 28.37359827797627,
+      "returncode": 0
+    },
+    {
+      "path": "udt_time_live_production_preparation_2026-10-01/invocations/oblique1_n32.json",
+      "seconds": 41.45568394899601,
+      "returncode": 0
+    },
+    {
+      "path": "udt_time_live_production_preparation_2026-10-01/invocations/oblique3_n24.json",
+      "seconds": 16.9579516039812,
+      "returncode": 0
+    },
+    {
+      "path": "udt_time_live_production_preparation_2026-10-01/invocations/output_stop.json",
+      "seconds": 1.1663273110170849,
+      "returncode": 2
+    },
+    {
+      "path": "udt_time_live_production_preparation_2026-10-01/invocations/phase1_n24.json",
+      "seconds": 16.85915615898557,
+      "returncode": 0
+    },
+    {
+      "path": "udt_time_live_production_preparation_2026-10-01/invocations/wall_stop.json",
+      "seconds": 1.1163410430308431,
+      "returncode": 75
+    }
+  ],
+  "supervised_invocations": [
+    {
+      "path": "udt_time_live_production_preparation_2026-10-01/supervisor_smoke/runtime_pause/attempts/00000_case_a/receipt.json",
+      "seconds": 1.653388144040946,
+      "returncode": 0
+    },
+    {
+      "path": "udt_time_live_production_preparation_2026-10-01/supervisor_smoke/runtime_pause/attempts/00001_case_b/receipt.json",
+      "seconds": 1.6039475669967942,
+      "returncode": 0
+    },
+    {
+      "path": "udt_time_live_production_preparation_2026-10-01/supervisor_smoke/runtime_signal/attempts/00000_case_c/receipt.json",
+      "seconds": 1.1031170850037597,
+      "returncode": 75
+    },
+    {
+      "path": "udt_time_live_production_preparation_2026-10-01/supervisor_smoke/runtime_signal/attempts/00001_case_c/receipt.json",
+      "seconds": 1.5540797029971145,
+      "returncode": 0
+    }
+  ],
+  "worker_invocations": 26,
+  "total_worker_wall_seconds": 301.45759805006674,
+  "maximum_child_wall_seconds": 41.45568394899601,
+  "budget_seconds": 600,
+  "maximum_child_budget_seconds": 180,
+  "artifact_bytes_at_measurement": 1904070655,
+  "artifact_budget_bytes": 2147483648,
+  "load_n48": {
+    "peak_torch_allocated_bytes": 1122550272,
+    "queried_device_used_bytes": 2473394176,
+    "output_bytes": 187259797,
+    "steps": 174,
+    "process_wall_seconds": 31.389854893,
+    "scope": "Resource-only, not original-Ricci scientific qualification"
+  }
+}

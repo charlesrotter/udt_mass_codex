@@ -1,0 +1,6 @@
+{
+  "utc": "2026-10-01T01:31:03.167256+00:00",
+  "scope": "After complete science batch, before load: outer child timeout195\u2192180s; worker/spec/equations unchanged. All prior child durations<180s; no actual cap exceedance. Original driver preserved.",
+  "driver_sha256": "107cadcd5d2ae4909acaa5b1b0f8bd317bad6c1157febb847ef61bccef3966eb",
+  "initial_driver_sha256": "da37149356eebf5cffcdce9a990ace24a27518c8ce844e171ab7ccd79ee5392b"
+}

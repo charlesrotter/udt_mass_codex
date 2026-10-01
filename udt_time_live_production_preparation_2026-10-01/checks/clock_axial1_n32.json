@@ -1,0 +1,10 @@
+{
+  "command": [
+    "/usr/bin/python3",
+    "/home/udt-admin/udt_mass_codex/udt_time_live_production_preparation_2026-10-01/clock_checks.py",
+    "/home/udt-admin/udt_mass_codex/udt_time_live_production_preparation_2026-10-01/histories/axial1_n32_window2.npz",
+    "/home/udt-admin/udt_mass_codex/udt_time_live_production_preparation_2026-10-01/clocks/axial1_n32.json"
+  ],
+  "returncode": 0,
+  "seconds": 12.796435497992206
+}

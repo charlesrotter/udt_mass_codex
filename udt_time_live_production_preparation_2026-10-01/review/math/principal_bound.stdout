@@ -1,0 +1,280 @@
+{
+  "analytic_tt_checks": [
+    {
+      "kind": "plus",
+      "n": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "norm2": 2.0,
+      "symmetry": 0.0,
+      "trace": 0.0,
+      "transversality": 0.0
+    },
+    {
+      "kind": "cross",
+      "n": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "norm2": 2.0,
+      "symmetry": 0.0,
+      "trace": 0.0,
+      "transversality": 0.0
+    },
+    {
+      "kind": "plus",
+      "n": [
+        1.0,
+        1.0,
+        0.0
+      ],
+      "norm2": 1.9999999999999996,
+      "symmetry": 0.0,
+      "trace": 2.220446049250313e-16,
+      "transversality": 0.0
+    },
+    {
+      "kind": "cross",
+      "n": [
+        1.0,
+        1.0,
+        0.0
+      ],
+      "norm2": 1.9999999999999996,
+      "symmetry": 0.0,
+      "trace": 0.0,
+      "transversality": 0.0
+    },
+    {
+      "kind": "plus",
+      "n": [
+        1.0,
+        2.0,
+        3.0
+      ],
+      "norm2": 2.0,
+      "symmetry": 0.0,
+      "trace": 5.551115123125783e-17,
+      "transversality": 4.440892098500626e-16
+    },
+    {
+      "kind": "cross",
+      "n": [
+        1.0,
+        2.0,
+        3.0
+      ],
+      "norm2": 2.0,
+      "symmetry": 0.0,
+      "trace": 0.0,
+      "transversality": 2.7755575615628914e-16
+    },
+    {
+      "kind": "plus",
+      "n": [
+        -2.0,
+        1.0,
+        2.0
+      ],
+      "norm2": 2.0000000000000004,
+      "symmetry": 0.0,
+      "trace": 1.1102230246251565e-16,
+      "transversality": 4.440892098500626e-16
+    },
+    {
+      "kind": "cross",
+      "n": [
+        -2.0,
+        1.0,
+        2.0
+      ],
+      "norm2": 2.0,
+      "symmetry": 0.0,
+      "trace": 0.0,
+      "transversality": 2.220446049250313e-16
+    },
+    {
+      "kind": "plus",
+      "n": [
+        0.0,
+        0.0,
+        -3.0
+      ],
+      "norm2": 2.0,
+      "symmetry": 0.0,
+      "trace": 0.0,
+      "transversality": 0.0
+    },
+    {
+      "kind": "cross",
+      "n": [
+        0.0,
+        0.0,
+        -3.0
+      ],
+      "norm2": 2.0,
+      "symmetry": 0.0,
+      "trace": 0.0,
+      "transversality": 0.0
+    }
+  ],
+  "coordinate_bound_trials": [
+    {
+      "bound": 5.281520280544304,
+      "index": 0,
+      "principal_max": 4.56832469686742,
+      "ratio": 0.8649639600355027
+    },
+    {
+      "bound": 38.19431251916484,
+      "index": 1,
+      "principal_max": 35.73030508548106,
+      "ratio": 0.9354875825439349
+    },
+    {
+      "bound": 37.49518021487728,
+      "index": 2,
+      "principal_max": 30.92386101389877,
+      "ratio": 0.8247422958545708
+    },
+    {
+      "bound": 30.165256635625447,
+      "index": 3,
+      "principal_max": 26.886943124163444,
+      "ratio": 0.8913215441505549
+    },
+    {
+      "bound": 22.01911127383034,
+      "index": 4,
+      "principal_max": 18.622456559911257,
+      "ratio": 0.8457406081617835
+    },
+    {
+      "bound": 25.37433607978881,
+      "index": 5,
+      "principal_max": 19.642315170279243,
+      "ratio": 0.7741016398819104
+    },
+    {
+      "bound": 43.70542415339222,
+      "index": 6,
+      "principal_max": 42.579768850885664,
+      "ratio": 0.9742444942633238
+    },
+    {
+      "bound": 29.978947474677657,
+      "index": 7,
+      "principal_max": 23.56551955027382,
+      "ratio": 0.786068942886635
+    },
+    {
+      "bound": 25.3769657551847,
+      "index": 8,
+      "principal_max": 21.04358677066144,
+      "ratio": 0.8292396724522546
+    },
+    {
+      "bound": 20.29854254888616,
+      "index": 9,
+      "principal_max": 16.566444792828175,
+      "ratio": 0.8161396195283599
+    },
+    {
+      "bound": 7.871001337486213,
+      "index": 10,
+      "principal_max": 6.759156616435525,
+      "ratio": 0.8587416424698789
+    },
+    {
+      "bound": 8.717281821656652,
+      "index": 11,
+      "principal_max": 6.8084074482927885,
+      "ratio": 0.7810241297210813
+    },
+    {
+      "bound": 13.025832967255834,
+      "index": 12,
+      "principal_max": 12.536842857529237,
+      "ratio": 0.962459973887596
+    },
+    {
+      "bound": 20.237124726163447,
+      "index": 13,
+      "principal_max": 18.337967696878692,
+      "ratio": 0.906154799410341
+    },
+    {
+      "bound": 11.807048891548328,
+      "index": 14,
+      "principal_max": 11.638157367923338,
+      "ratio": 0.9856957038819509
+    },
+    {
+      "bound": 26.763196830892014,
+      "index": 15,
+      "principal_max": 25.631819356090613,
+      "ratio": 0.9577263702109203
+    },
+    {
+      "bound": 23.47940688745102,
+      "index": 16,
+      "principal_max": 21.70733761006311,
+      "ratio": 0.9245266592174854
+    },
+    {
+      "bound": 5.346605841135592,
+      "index": 17,
+      "principal_max": 4.0606100799448575,
+      "ratio": 0.7594743657187949
+    },
+    {
+      "bound": 15.968519512138563,
+      "index": 18,
+      "principal_max": 14.179530522368776,
+      "ratio": 0.8879677612937206
+    },
+    {
+      "bound": 12.039593987771301,
+      "index": 19,
+      "principal_max": 11.86427505313932,
+      "ratio": 0.9854381356372935
+    },
+    {
+      "bound": 16.95090840935054,
+      "index": 20,
+      "principal_max": 13.673094491809483,
+      "ratio": 0.8066290113553481
+    },
+    {
+      "bound": 20.40987767718835,
+      "index": 21,
+      "principal_max": 20.161489337992876,
+      "ratio": 0.9878299937351858
+    },
+    {
+      "bound": 18.875777506779496,
+      "index": 22,
+      "principal_max": 17.33602797059312,
+      "ratio": 0.9184272258118451
+    },
+    {
+      "bound": 18.033089822852226,
+      "index": 23,
+      "principal_max": 17.310981636252997,
+      "ratio": 0.9599564914447359
+    }
+  ],
+  "invalid_hypotheses_caught": 4,
+  "numpy": "2.2.6",
+  "omitted_shift_caught": {
+    "exact": 20,
+    "incorrect_bound": 6.928203230275509
+  },
+  "producer_imports": false,
+  "scope": "Finite controls for analytic TT and frozen-coefficient principal bound; no variable-coefficient or nonlinear stability assertion.",
+  "source_sha256": "ff296863deb5fbb21e86a46f33a8a01ffd6b1444e12208750cf626ca3403cab9",
+  "status": "PASS"
+}

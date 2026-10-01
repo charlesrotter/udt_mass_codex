@@ -1,0 +1,13 @@
+{
+  "command": [
+    "/usr/bin/python3",
+    "/home/udt-admin/udt_mass_codex/udt_time_live_production_preparation_2026-10-01/supervise.py",
+    "/home/udt-admin/udt_mass_codex/udt_time_live_production_preparation_2026-10-01/supervisor_smoke/pause.json",
+    "/home/udt-admin/udt_mass_codex/udt_time_live_production_preparation_2026-10-01/supervisor_smoke/runtime_pause"
+  ],
+  "expected": 0,
+  "name": "complete_again",
+  "returncode": 0,
+  "seconds": 0.031560574017930776,
+  "sigterm_sent": false
+}

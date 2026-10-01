@@ -1,7 +1,7 @@
 # LIVE — operational status
 
 <!-- STARTUP_CURRENT_BEGIN -->
-## CURRENT STATE — TDS1 three-coordinate smoke return after SMK1/NGD1/TRI1/PRI1/CCR1/CES1/PCW1/GCA1/LKT1/SGE1/CDR1, 2026-10-01
+## CURRENT STATE — TPP1 production-preparation return after TDS1/ SMK1/NGD1/TRI1/PRI1/CCR1/CES1/PCW1/GCA1/LKT1/SGE1/CDR1, 2026-10-01
 
 Work on `grok`; independently verify HEAD, synchronization and dirt.
 Charles authorized documenting and executing the staged numerical discovery
@@ -14,9 +14,12 @@ Charles clarified the goal is broader hours-to-days time-live exploration and
 requires smoke checks before multi-hour runs. After SMK1, his “continue” authorized
 TDS1's bounded implementation/validation stage. Its WORK_ORDER.md and WORK_RECORD.md
 are under `udt_three_spatial_smoke_2026-10-01/`; the central argument is R12T/R18.
-The tested broader solver has its own short-run evidence. No multi-hour run has
-started; production preparation remains before the proposed six-hour tranche.
-Larger production and different scientific premises need a bounded work order.
+Charles's next “proceed” authorized TPP1 production preparation. Its fixed
+WORK_ORDER.md, WORK_RECORD.md and PRODUCTION_DISPATCH.md are under
+`udt_time_live_production_preparation_2026-10-01/`; central argument remains R12T/R18.
+Longer histories, broader seeds, measured load and actual queue controls have
+been tested with explicit review limits. No multi-hour run has started. The
+preparation work order returns here before launching the concrete next tranche.
 
 ### Honest claim
 
@@ -49,16 +52,15 @@ Protected: do not inspect, hash, stage, modify, mine or cite payloads without di
 
 ### Next gate
 
-Stop for lay discussion after the bounded TDS1 return. The larger exploration
-remains the objective. Prepare production output cadence/diagnostic windows,
-longer slabs, broader seed families, characteristic-speed step controls and
-representative larger-mesh loads. Pass the actual production workload's smoke
-and load gates before the proposed six-hour tranche and checkpointed24–48h
-extensions. No multi-hour production has started. A written dispatch must specify
-equations, freedoms, coverage, resources, stops and review; a native-selection
-claim additionally needs an evaluable native discriminant or explicit unadopted
-connection. Actual work records, reviewer attestations, check receipts and Git
-history own verification/banking. A Ric=0 comparison remains conditional.
+Stop for lay discussion after the bounded TPP1 return. The concrete next scope
+is PRODUCTION_DISPATCH.md:78datasets/234runs, up to6hours/64GiB, one GPU,
+first-three-case original-equation/output verification before continuation,
+independent review and bounded same-premise repair. No multi-hour run has started.
+The larger exploration remains the objective;24–48hour extensions require their
+own reviewed dispatch after this tranche. The current preparation explicitly
+returns before launch. Its actual reviews/check receipts and Git history own
+completion/banking. A Ric=0 comparison remains conditional and a native-selection
+claim still needs an evaluable native discriminant or explicit unadopted connection.
 Existing pauses, scientific grades, protected work and CANON remain unchanged.
 No full-solution-space or selected-geometry claim is banked.
 

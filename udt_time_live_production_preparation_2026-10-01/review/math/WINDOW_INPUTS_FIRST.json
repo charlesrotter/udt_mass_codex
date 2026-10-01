@@ -1,0 +1,170 @@
+[
+  {
+    "history": "udt_time_live_production_preparation_2026-10-01/histories/axial1_n16_window0.npz",
+    "manifest": "udt_time_live_production_preparation_2026-10-01/histories/axial1_n16_window0.sources.json",
+    "manifest_sha256": "7a779c9495afbf497f9e74e9b8eaa02156b91dc0baba6b43d89ca5d22e09b4c7",
+    "history_sha256": "28c3922a9516efdd3b62a3901d038a67fe503a8f4e5a49932c8322833c1f5110",
+    "checked_source_count": 27
+  },
+  {
+    "history": "udt_time_live_production_preparation_2026-10-01/histories/axial1_n16_window1.npz",
+    "manifest": "udt_time_live_production_preparation_2026-10-01/histories/axial1_n16_window1.sources.json",
+    "manifest_sha256": "1f88b90e3ab28997effa461f0045b5b1ca13a99ba03ad65859b14aea2a4aa666",
+    "history_sha256": "2f657d8d6403b17483fd46c06264ed101242e1067529c88f6cc4f188f777030d",
+    "checked_source_count": 27
+  },
+  {
+    "history": "udt_time_live_production_preparation_2026-10-01/histories/axial1_n16_window2.npz",
+    "manifest": "udt_time_live_production_preparation_2026-10-01/histories/axial1_n16_window2.sources.json",
+    "manifest_sha256": "6aa4fd14b5aa2fbacd9af61ed876dec3beba14fe52faad0459f4e7574f205dfc",
+    "history_sha256": "2631016db6aabf4ff8dca68c289a13f9ca5363f65e611d854b1ffedb6c3cd16b",
+    "checked_source_count": 27
+  },
+  {
+    "history": "udt_time_live_production_preparation_2026-10-01/histories/axial1_n24_half_window0.npz",
+    "manifest": "udt_time_live_production_preparation_2026-10-01/histories/axial1_n24_half_window0.sources.json",
+    "manifest_sha256": "41436351b223371d43ebef6c6b21f962e390581c6f37118f710488c3501d234d",
+    "history_sha256": "0225428888fa49375c109803e6356195dcf36c0b031faa12f2fb3d37444be6f7",
+    "checked_source_count": 27
+  },
+  {
+    "history": "udt_time_live_production_preparation_2026-10-01/histories/axial1_n24_half_window1.npz",
+    "manifest": "udt_time_live_production_preparation_2026-10-01/histories/axial1_n24_half_window1.sources.json",
+    "manifest_sha256": "42feddb44379d981e241f167ae91a4d9c9c9f807668434dda3e43084fbe9ff67",
+    "history_sha256": "b1c463e3b8e57a3b8179e09001ac528bd4cd0e86b249482a19d86a86e011c38e",
+    "checked_source_count": 27
+  },
+  {
+    "history": "udt_time_live_production_preparation_2026-10-01/histories/axial1_n24_half_window2.npz",
+    "manifest": "udt_time_live_production_preparation_2026-10-01/histories/axial1_n24_half_window2.sources.json",
+    "manifest_sha256": "6a69a90d9c5058c645fb9d473f465cdd1c62b75903b6b82e8a0b3703e5641fa2",
+    "history_sha256": "0fa7d55165672a3b8716746668c2d10a6ac491ddf14a6de86835ffc6bf6a33f9",
+    "checked_source_count": 27
+  },
+  {
+    "history": "udt_time_live_production_preparation_2026-10-01/histories/axial1_n24_window0.npz",
+    "manifest": "udt_time_live_production_preparation_2026-10-01/histories/axial1_n24_window0.sources.json",
+    "manifest_sha256": "d6ad68a0a300ef3da14d4f807f490f4f8f30fc929e8f03694efe6b863ef4ff96",
+    "history_sha256": "1e7b56a5fb09a89576aef7cac821405afea1b39fe68c0e87b45932e18be14d93",
+    "checked_source_count": 27
+  },
+  {
+    "history": "udt_time_live_production_preparation_2026-10-01/histories/axial1_n24_window1.npz",
+    "manifest": "udt_time_live_production_preparation_2026-10-01/histories/axial1_n24_window1.sources.json",
+    "manifest_sha256": "396d53e41b1d6bb3370f27480cec992964b9dacaf6ee9e80852efdd477054d20",
+    "history_sha256": "33c4e9e44bc86d553b1f3fc7058aeb50f5840adceec59669ae7e88ef3b13abc3",
+    "checked_source_count": 27
+  },
+  {
+    "history": "udt_time_live_production_preparation_2026-10-01/histories/axial1_n24_window2.npz",
+    "manifest": "udt_time_live_production_preparation_2026-10-01/histories/axial1_n24_window2.sources.json",
+    "manifest_sha256": "3451b74f9929fdd8bf4457285837ac5261f2dea7f5fbf8e644d0d4151d75ef32",
+    "history_sha256": "5ce1f7f9c75cc8fb57e72184b58385ff70d9434022894bc5f73acdb7f43282c5",
+    "checked_source_count": 27
+  },
+  {
+    "history": "udt_time_live_production_preparation_2026-10-01/histories/axial1_n32_window0.npz",
+    "manifest": "udt_time_live_production_preparation_2026-10-01/histories/axial1_n32_window0.sources.json",
+    "manifest_sha256": "95057e8dee0ca2da5f79103b4b6342e99724d75eb550474c85c689810b589c92",
+    "history_sha256": "0140ecc720253dcd8718bc584dcff73d4c0d22f774b7d503fc03453ff8ae5d80",
+    "checked_source_count": 27
+  },
+  {
+    "history": "udt_time_live_production_preparation_2026-10-01/histories/axial1_n32_window1.npz",
+    "manifest": "udt_time_live_production_preparation_2026-10-01/histories/axial1_n32_window1.sources.json",
+    "manifest_sha256": "c9617e7292687948a847aadebcaa309868e2275eebcf40c23ea7405d3e6c2bc3",
+    "history_sha256": "5ed2df5f9990ee7ce5ccc9b11dc77c71c2b8915f94c9f6c13faecd919c090b97",
+    "checked_source_count": 27
+  },
+  {
+    "history": "udt_time_live_production_preparation_2026-10-01/histories/axial1_n32_window2.npz",
+    "manifest": "udt_time_live_production_preparation_2026-10-01/histories/axial1_n32_window2.sources.json",
+    "manifest_sha256": "a62bf643bb46e987df4c0522c349895c9c2eac50ac1ada2cd8ac00d7ff98d0e2",
+    "history_sha256": "40684810f600a8ea8122d61ec9bb676d5ae8acca875e3bdc0dbb32b7b72a7ed1",
+    "checked_source_count": 27
+  },
+  {
+    "history": "udt_time_live_production_preparation_2026-10-01/histories/kasner_n16_half_window0.npz",
+    "manifest": "udt_time_live_production_preparation_2026-10-01/histories/kasner_n16_half_window0.sources.json",
+    "manifest_sha256": "26e4ae9879fc28f78caab3b5390547beda0599c54e671e5f848c147f39700aa0",
+    "history_sha256": "28af5c8069774f5e3613eed4a1518ab52ed1f1cb850019b2ae6199650300276f",
+    "checked_source_count": 27
+  },
+  {
+    "history": "udt_time_live_production_preparation_2026-10-01/histories/kasner_n16_half_window1.npz",
+    "manifest": "udt_time_live_production_preparation_2026-10-01/histories/kasner_n16_half_window1.sources.json",
+    "manifest_sha256": "02b6a4aed8a6daf3d96bae31cc9a515901cbaf08787d96159c72f7d8802ace03",
+    "history_sha256": "97bfcbdf1df0ab0d640e219ebc6cd4385bb6af2d79f4be7b2d43e7eda54a5d36",
+    "checked_source_count": 27
+  },
+  {
+    "history": "udt_time_live_production_preparation_2026-10-01/histories/kasner_n16_half_window2.npz",
+    "manifest": "udt_time_live_production_preparation_2026-10-01/histories/kasner_n16_half_window2.sources.json",
+    "manifest_sha256": "c491820515cdaeda5028bc33771dde20fd7b530aafe095aa33004a2b7541da7f",
+    "history_sha256": "16a40cd100bbb93196748a1c645b19584903536278e388b2c2e6a832c551f632",
+    "checked_source_count": 27
+  },
+  {
+    "history": "udt_time_live_production_preparation_2026-10-01/histories/kasner_n16_window0.npz",
+    "manifest": "udt_time_live_production_preparation_2026-10-01/histories/kasner_n16_window0.sources.json",
+    "manifest_sha256": "12d205e7df3ba62cd0f15fc7ad33e49df5abd7e440371c80bc8d597396252c5f",
+    "history_sha256": "f4f2868fb39a116b2acc5280688d105fa9ddfe4e22c877b8143287229eaa6a88",
+    "checked_source_count": 27
+  },
+  {
+    "history": "udt_time_live_production_preparation_2026-10-01/histories/kasner_n16_window1.npz",
+    "manifest": "udt_time_live_production_preparation_2026-10-01/histories/kasner_n16_window1.sources.json",
+    "manifest_sha256": "f2e44e7c55f678904f544204b597a4d4c481ac334aaad9399aced9935c6067f1",
+    "history_sha256": "b7ecce6a98ba5398ad7879683a20ace92f3292c908a9150ef7c5c01dde63a8d7",
+    "checked_source_count": 27
+  },
+  {
+    "history": "udt_time_live_production_preparation_2026-10-01/histories/kasner_n16_window2.npz",
+    "manifest": "udt_time_live_production_preparation_2026-10-01/histories/kasner_n16_window2.sources.json",
+    "manifest_sha256": "4014046d3b136c1ebd048f603b522500516a8e4cfac649807660dccfc9511722",
+    "history_sha256": "0c571c5764e5c5d941ac8890cba71671f78e435f048ac0f032654c63f8c4c9cf",
+    "checked_source_count": 27
+  },
+  {
+    "history": "udt_time_live_production_preparation_2026-10-01/histories/oblique1_n16_window0.npz",
+    "manifest": "udt_time_live_production_preparation_2026-10-01/histories/oblique1_n16_window0.sources.json",
+    "manifest_sha256": "db60dabd919ce8e7a17a738deb2a6ccb60e2fc6b01efda12efaca046efb4442e",
+    "history_sha256": "0b6017ad84e56ef97c09346c4b4701717cd12b25b91b13624e2a82c14b3ab694",
+    "checked_source_count": 27
+  },
+  {
+    "history": "udt_time_live_production_preparation_2026-10-01/histories/oblique1_n16_window1.npz",
+    "manifest": "udt_time_live_production_preparation_2026-10-01/histories/oblique1_n16_window1.sources.json",
+    "manifest_sha256": "a3ccac65c413bd9f10b0c70d0987a97541d1547b3953c9f82b175beafb56e0b0",
+    "history_sha256": "f137e52383aaac1b155eb392c645c1e73834abffddbc375a09be1285a47bff0a",
+    "checked_source_count": 27
+  },
+  {
+    "history": "udt_time_live_production_preparation_2026-10-01/histories/oblique1_n16_window2.npz",
+    "manifest": "udt_time_live_production_preparation_2026-10-01/histories/oblique1_n16_window2.sources.json",
+    "manifest_sha256": "cb6fb9fade8d82cf5b81c4cdd79abd00de6a6279352077f7e7fac52174c890c6",
+    "history_sha256": "d719fcd5d912cb01f44daae8fe577742794ea44a217174051a6c1a4c5fffc7c3",
+    "checked_source_count": 27
+  },
+  {
+    "history": "udt_time_live_production_preparation_2026-10-01/histories/oblique1_n24_window0.npz",
+    "manifest": "udt_time_live_production_preparation_2026-10-01/histories/oblique1_n24_window0.sources.json",
+    "manifest_sha256": "99bb973a3770388418592a724461619feda6a1c2e3c033a80d4924cd52ad2c51",
+    "history_sha256": "84b93497987350ad4ef8484768998cec2d40840745e81e20ca661696bd872e9f",
+    "checked_source_count": 27
+  },
+  {
+    "history": "udt_time_live_production_preparation_2026-10-01/histories/oblique1_n24_window1.npz",
+    "manifest": "udt_time_live_production_preparation_2026-10-01/histories/oblique1_n24_window1.sources.json",
+    "manifest_sha256": "04297e0fe23de9e1b7a9785c139e8996180e8eef90fe8db04cf9249fefe61a53",
+    "history_sha256": "6355c8b68796a75d8ffa212c0f629946ae92d6902357d597456fb418bccf1a9e",
+    "checked_source_count": 27
+  },
+  {
+    "history": "udt_time_live_production_preparation_2026-10-01/histories/oblique1_n24_window2.npz",
+    "manifest": "udt_time_live_production_preparation_2026-10-01/histories/oblique1_n24_window2.sources.json",
+    "manifest_sha256": "2c2d5c3dfdfea6bf3aa99cadfba440c6124b0bf788219b70a8a670e38bfb02f0",
+    "history_sha256": "3234623594870b322a5120fb98552b993bcefa1d0e032501b0cb030520d9acad",
+    "checked_source_count": 27
+  }
+]

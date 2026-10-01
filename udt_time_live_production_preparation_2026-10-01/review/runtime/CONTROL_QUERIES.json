@@ -1,0 +1,9 @@
+{
+  "cases": [
+    {
+      "name": "kasner_half",
+      "history": "udt_three_spatial_smoke_2026-10-01/histories/kasner_half.npz",
+      "kasner": true
+    }
+  ]
+}

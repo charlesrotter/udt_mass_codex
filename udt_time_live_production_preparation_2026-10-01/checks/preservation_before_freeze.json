@@ -1,0 +1,16 @@
+{
+  "status": "PASS",
+  "previous_accepted_paths": 2567,
+  "changed_reviewed_paths": [
+    "CURRENT_RESEARCH_PROGRAM.md",
+    "HANDOFF.md",
+    "LIVE.md",
+    "UDT_DEVELOPMENT.md",
+    "development_reconstruction_2026-09-29/DEVELOPMENT_GRAPH.json",
+    "development_reconstruction_2026-09-29/RECENT_DISPOSITIONS.tsv"
+  ],
+  "unrelated_untracked_count": 52,
+  "remote_relation": "0 ahead / 0 behind after fetch",
+  "old_fixed_scientific_sources": "unchanged",
+  "no_protected_payload_read": true
+}

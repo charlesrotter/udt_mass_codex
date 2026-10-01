@@ -1,0 +1,73 @@
+{
+  "invocations": [
+    {
+      "command": [
+        "/usr/bin/python3",
+        "/home/udt-admin/udt_mass_codex/udt_time_live_production_preparation_2026-10-01/supervise.py",
+        "/home/udt-admin/udt_mass_codex/udt_time_live_production_preparation_2026-10-01/supervisor_smoke/pause.json",
+        "/home/udt-admin/udt_mass_codex/udt_time_live_production_preparation_2026-10-01/supervisor_smoke/runtime_pause",
+        "--stop-after",
+        "1"
+      ],
+      "expected": 75,
+      "name": "pause",
+      "returncode": 75,
+      "seconds": 1.7168200880405493,
+      "sigterm_sent": false
+    },
+    {
+      "command": [
+        "/usr/bin/python3",
+        "/home/udt-admin/udt_mass_codex/udt_time_live_production_preparation_2026-10-01/supervise.py",
+        "/home/udt-admin/udt_mass_codex/udt_time_live_production_preparation_2026-10-01/supervisor_smoke/pause.json",
+        "/home/udt-admin/udt_mass_codex/udt_time_live_production_preparation_2026-10-01/supervisor_smoke/runtime_pause"
+      ],
+      "expected": 0,
+      "name": "resume",
+      "returncode": 0,
+      "seconds": 1.6677039719652385,
+      "sigterm_sent": false
+    },
+    {
+      "command": [
+        "/usr/bin/python3",
+        "/home/udt-admin/udt_mass_codex/udt_time_live_production_preparation_2026-10-01/supervise.py",
+        "/home/udt-admin/udt_mass_codex/udt_time_live_production_preparation_2026-10-01/supervisor_smoke/pause.json",
+        "/home/udt-admin/udt_mass_codex/udt_time_live_production_preparation_2026-10-01/supervisor_smoke/runtime_pause"
+      ],
+      "expected": 0,
+      "name": "complete_again",
+      "returncode": 0,
+      "seconds": 0.031560574017930776,
+      "sigterm_sent": false
+    },
+    {
+      "command": [
+        "/usr/bin/python3",
+        "/home/udt-admin/udt_mass_codex/udt_time_live_production_preparation_2026-10-01/supervise.py",
+        "/home/udt-admin/udt_mass_codex/udt_time_live_production_preparation_2026-10-01/supervisor_smoke/signal.json",
+        "/home/udt-admin/udt_mass_codex/udt_time_live_production_preparation_2026-10-01/supervisor_smoke/runtime_signal"
+      ],
+      "expected": 75,
+      "name": "signal",
+      "returncode": 75,
+      "seconds": 1.1461603080388159,
+      "sigterm_sent": true
+    },
+    {
+      "command": [
+        "/usr/bin/python3",
+        "/home/udt-admin/udt_mass_codex/udt_time_live_production_preparation_2026-10-01/supervise.py",
+        "/home/udt-admin/udt_mass_codex/udt_time_live_production_preparation_2026-10-01/supervisor_smoke/signal.json",
+        "/home/udt-admin/udt_mass_codex/udt_time_live_production_preparation_2026-10-01/supervisor_smoke/runtime_signal"
+      ],
+      "expected": 0,
+      "name": "signal_resume",
+      "returncode": 0,
+      "seconds": 1.6177639889647253,
+      "sigterm_sent": false
+    }
+  ],
+  "scope": "Finite same-worker queue/interruption checks; no exhaustive crash or long-run certification",
+  "status": "EXPECTED_RETURNS_PASS_PENDING_INDEPENDENT_ARTIFACT_REVIEW"
+}

@@ -1,0 +1,27 @@
+{
+  "command": [
+    "python3",
+    "udt_time_live_production_preparation_2026-10-01/review/math/check_saved_data.py",
+    "udt_time_live_production_preparation_2026-10-01/review/math/INITIAL_CONSTRAINTS.json",
+    "--kind",
+    "initial",
+    "udt_time_live_production_preparation_2026-10-01/initial/axial1_n16.npz",
+    "udt_time_live_production_preparation_2026-10-01/initial/axial1_n24.npz",
+    "udt_time_live_production_preparation_2026-10-01/initial/axial1_n32.npz",
+    "udt_time_live_production_preparation_2026-10-01/initial/axial1_n8.npz",
+    "udt_time_live_production_preparation_2026-10-01/initial/axial3_n24.npz",
+    "udt_time_live_production_preparation_2026-10-01/initial/oblique1_n16.npz",
+    "udt_time_live_production_preparation_2026-10-01/initial/oblique1_n24.npz",
+    "udt_time_live_production_preparation_2026-10-01/initial/oblique1_n32.npz",
+    "udt_time_live_production_preparation_2026-10-01/initial/oblique3_n24.npz",
+    "udt_time_live_production_preparation_2026-10-01/initial/phase1_n24.npz"
+  ],
+  "cwd": "/home/udt-admin/udt_mass_codex",
+  "started_utc": "2026-10-01T01:22:33.754805+00:00",
+  "duration_seconds": 1.2268455509911291,
+  "returncode": 0,
+  "timeout": false,
+  "address_space_bytes": 2147483648,
+  "cpu_seconds": 180,
+  "maxrss_kib": 159500
+}

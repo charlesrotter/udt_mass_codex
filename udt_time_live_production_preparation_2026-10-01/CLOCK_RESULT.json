@@ -1,0 +1,44 @@
+{
+  "status": "FINITE_CLOCK_BATCH_PASS",
+  "readout_paths": {
+    "kasner_n16": "/home/udt-admin/udt_mass_codex/udt_time_live_production_preparation_2026-10-01/clocks/kasner_n16.json",
+    "kasner_n16_half": "/home/udt-admin/udt_mass_codex/udt_time_live_production_preparation_2026-10-01/CLOCK_KASNER.json",
+    "axial1_n16": "/home/udt-admin/udt_mass_codex/udt_time_live_production_preparation_2026-10-01/clocks/axial1_n16.json",
+    "axial1_n24": "/home/udt-admin/udt_mass_codex/udt_time_live_production_preparation_2026-10-01/clocks/axial1_n24.json",
+    "axial1_n24_half": "/home/udt-admin/udt_mass_codex/udt_time_live_production_preparation_2026-10-01/CLOCK_AXIAL_HALF.json",
+    "axial1_n32": "/home/udt-admin/udt_mass_codex/udt_time_live_production_preparation_2026-10-01/clocks/axial1_n32.json",
+    "oblique1_n16": "/home/udt-admin/udt_mass_codex/udt_time_live_production_preparation_2026-10-01/clocks/oblique1_n16.json",
+    "oblique1_n24": "/home/udt-admin/udt_mass_codex/udt_time_live_production_preparation_2026-10-01/clocks/oblique1_n24.json",
+    "oblique1_n24_half": "/home/udt-admin/udt_mass_codex/udt_time_live_production_preparation_2026-10-01/clocks/oblique1_n24_half.json",
+    "oblique1_n32": "/home/udt-admin/udt_mass_codex/udt_time_live_production_preparation_2026-10-01/clocks/oblique1_n32.json",
+    "axial3_n24": "/home/udt-admin/udt_mass_codex/udt_time_live_production_preparation_2026-10-01/clocks/axial3_n24.json",
+    "oblique3_n24": "/home/udt-admin/udt_mass_codex/udt_time_live_production_preparation_2026-10-01/clocks/oblique3_n24.json",
+    "phase1_n24": "/home/udt-admin/udt_mass_codex/udt_time_live_production_preparation_2026-10-01/clocks/phase1_n24.json"
+  },
+  "readout_sha256": {
+    "kasner_n16": "6f757cc29ee2ecfecb046cc3d762315241b168917e7384e2803f83a49a8446b9",
+    "kasner_n16_half": "9713b9935c2623665418756cd74ac620c52b7d9d7f8e015140734be0d2e0a028",
+    "axial1_n16": "a7b0d8c7fa2cd67afe9f274958581e674a5381b8d91023c4996a7f22323d9a37",
+    "axial1_n24": "2c0708d2316b8bde8d256d1dd9d3f4e962479ab9aa7a141bc0cdecc93171ca35",
+    "axial1_n24_half": "bde87a92f41666108bc1a3758b0b0b8f86763c0b485f56c69a544d29e1794381",
+    "axial1_n32": "a62fc093cfaf780aaac90e75a0c8ac532adcb755cb9769edcfeb2a5d196eed9a",
+    "oblique1_n16": "c3471549cd469f8b6d2598db104ffc60f89d23066323df3831de748496b1d6b6",
+    "oblique1_n24": "270005bcec6cefd49ffd165884f456d450b4de1cbe25f03969cacade09187787",
+    "oblique1_n24_half": "5a9d97a438ade47b81e5baf9b674e119cad6b69351cf5ae3ec05b68ab808d968",
+    "oblique1_n32": "e8f8c7bbf52827956c362736facb620a5f6aa53aeeff960c216e8858f2d2faea",
+    "axial3_n24": "49fd268a90d1fc594a782136602442c47b99e503820503f24b29af3f08a412fe",
+    "oblique3_n24": "b15648555ca58e3ca94207ca2708b709cda3fbd88774d531fc506bd4c63cca95",
+    "phase1_n24": "57504d90548cfc649d2112aadda631c692178b42a3218c03ffcb88561eca7a85"
+  },
+  "max_logZ_changes": {
+    "axial1_n16_against_n32": 3.3407148575248513e-12,
+    "axial1_n24_against_n32": 6.426248422286562e-13,
+    "axial1_n24_half_against_n32": 1.2729105963726894e-12,
+    "axial1_temporal": 1.9155354386013457e-12,
+    "oblique1_n16_against_n32": 2.145731509139992e-12,
+    "oblique1_n24_against_n32": 3.4599406673052613e-13,
+    "oblique1_n24_half_against_n32": 1.208699806909408e-12,
+    "oblique1_temporal": 1.2773792440468057e-12
+  },
+  "scope": "Fixed supplied late-window queries; no sign filtering, long-path or observer-selection claim"
+}

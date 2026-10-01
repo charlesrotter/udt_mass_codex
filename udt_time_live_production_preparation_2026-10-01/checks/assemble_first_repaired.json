@@ -1,0 +1,22 @@
+{
+  "command": [
+    "python3",
+    "udt_time_live_production_preparation_2026-10-01/assemble_windows.py",
+    "kasner_n16",
+    "kasner_n16_half",
+    "axial1_n16",
+    "axial1_n24",
+    "axial1_n24_half",
+    "axial1_n32",
+    "oblique1_n16",
+    "oblique1_n24"
+  ],
+  "cwd": "/home/udt-admin/udt_mass_codex",
+  "started_utc": "2026-10-01T01:27:51.281311+00:00",
+  "duration_seconds": 13.839533797989134,
+  "returncode": 0,
+  "timeout": false,
+  "address_space_bytes": 2147483648,
+  "cpu_seconds": 180,
+  "maxrss_kib": 252524
+}

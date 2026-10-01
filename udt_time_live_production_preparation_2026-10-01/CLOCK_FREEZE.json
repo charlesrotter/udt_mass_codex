@@ -1,0 +1,9 @@
+{
+  "scope": "Before producer clock readouts; same predeclared late-window20/80% queries, supplied clocks, no sign criterion; GPU worker outcomes partly exposed",
+  "source_sha256": {
+    "udt_three_spatial_smoke_2026-10-01/clock_readout.py": "8a52d75a54d06a0165d9d517949d709c3ea7575f22ab011ccf7e6230e625c2be",
+    "udt_time_live_production_preparation_2026-10-01/CHECK_PLAN.md": "73660b34a0129470bfd614d4b3899cd106ca8f0d1cfa5328f9d0b2c024c36814",
+    "udt_time_live_production_preparation_2026-10-01/clock_checks.py": "31a5e6e0e3547a94b5e9f934abccbd96a802ddfd7ac7ad449dacceb928b77ba3"
+  },
+  "utc": "2026-10-01T01:29:03.926862+00:00"
+}

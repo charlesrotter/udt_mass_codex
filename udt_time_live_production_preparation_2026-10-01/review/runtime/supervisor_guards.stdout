@@ -1,0 +1,154 @@
+{
+  "status": "REPAIRED_SUPERVISOR_GUARDS_PASS",
+  "source_sha256": "06256cfb3ce770e8274c1653fb42eb7c032bedd6598a1dd3606e69b55b68197f",
+  "records": [
+    {
+      "case": "valid",
+      "result": 0,
+      "error": null,
+      "fake_child_count": 2,
+      "no_real_subprocess": true
+    },
+    {
+      "case": "missing_initial_binding",
+      "result": null,
+      "error": "INITIAL_SOURCE_BINDINGS",
+      "fake_child_count": 0,
+      "no_real_subprocess": true
+    },
+    {
+      "case": "duplicate_run",
+      "result": null,
+      "error": "DUPLICATE_RUN_PATH",
+      "fake_child_count": 0,
+      "no_real_subprocess": true
+    },
+    {
+      "case": "nan_deadline",
+      "result": null,
+      "error": "INVALID_SAVED_DEADLINE",
+      "fake_child_count": 0,
+      "no_real_subprocess": true
+    },
+    {
+      "case": "midqueue_spec_edit",
+      "result": null,
+      "error": "QUEUE_SPEC_CHANGED",
+      "fake_child_count": 1,
+      "no_real_subprocess": true
+    },
+    {
+      "case": "nan_wall",
+      "result": null,
+      "error": "QUEUE_WALL_LIMIT",
+      "fake_child_count": 0,
+      "no_real_subprocess": true
+    },
+    {
+      "case": "zero_wall",
+      "result": null,
+      "error": "QUEUE_WALL_LIMIT",
+      "fake_child_count": 0,
+      "no_real_subprocess": true
+    },
+    {
+      "case": "zero_output",
+      "result": null,
+      "error": "QUEUE_OUTPUT_LIMIT",
+      "fake_child_count": 0,
+      "no_real_subprocess": true
+    },
+    {
+      "case": "bool_output",
+      "result": null,
+      "error": "QUEUE_OUTPUT_LIMIT",
+      "fake_child_count": 0,
+      "no_real_subprocess": true
+    },
+    {
+      "case": "empty_cases",
+      "result": null,
+      "error": "QUEUE_CASE_COUNT",
+      "fake_child_count": 0,
+      "no_real_subprocess": true
+    },
+    {
+      "case": "duplicate_id",
+      "result": null,
+      "error": "QUEUE_CASE_SCHEMA",
+      "fake_child_count": 0,
+      "no_real_subprocess": true
+    },
+    {
+      "case": "spec_changed",
+      "result": null,
+      "error": "QUEUE_SPEC_CHANGED",
+      "fake_child_count": 0,
+      "no_real_subprocess": true
+    },
+    {
+      "case": "source_changed",
+      "result": null,
+      "error": "QUEUE_SOURCE_CHANGED",
+      "fake_child_count": 0,
+      "no_real_subprocess": true
+    },
+    {
+      "case": "missing_code",
+      "result": null,
+      "error": "QUEUE_SOURCE_BINDINGS",
+      "fake_child_count": 0,
+      "no_real_subprocess": true
+    },
+    {
+      "case": "runtime_unbudgeted",
+      "result": null,
+      "error": "RUNTIME_NOT_BUDGETED",
+      "fake_child_count": 0,
+      "no_real_subprocess": true
+    },
+    {
+      "case": "missing_receipt",
+      "result": null,
+      "error": "INCOMPLETE_ATTEMPT_REQUIRES_REVIEW",
+      "fake_child_count": 0,
+      "no_real_subprocess": true
+    },
+    {
+      "case": "prior_failure",
+      "result": null,
+      "error": "DIAGNOSTIC_ATTEMPT_REQUIRES_REVIEW",
+      "fake_child_count": 0,
+      "no_real_subprocess": true
+    },
+    {
+      "case": "prior_floor",
+      "result": null,
+      "error": "DIAGNOSTIC_ATTEMPT_REQUIRES_REVIEW",
+      "fake_child_count": 0,
+      "no_real_subprocess": true
+    },
+    {
+      "case": "resume_manifest",
+      "result": null,
+      "error": "QUEUE_RESUME_MISMATCH",
+      "fake_child_count": 0,
+      "no_real_subprocess": true
+    },
+    {
+      "case": "expired_deadline",
+      "result": 75,
+      "error": null,
+      "fake_child_count": 0,
+      "no_real_subprocess": true
+    },
+    {
+      "case": "output_reserve",
+      "result": 75,
+      "error": null,
+      "fake_child_count": 0,
+      "no_real_subprocess": true
+    }
+  ],
+  "scope": "Actual supervisor main with review-owned fixtures and replaced Popen; not GPU or full-process signal evidence."
+}

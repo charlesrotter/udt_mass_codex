@@ -1,0 +1,22 @@
+{
+  "n": 8,
+  "initial": "udt_time_live_production_preparation_2026-10-01/initial/reviewer_fixture.npz",
+  "period": 6.283185307179586,
+  "dt_min": 0.001,
+  "end_tick": 100,
+  "max_step_ticks": 4,
+  "cfl": 0.1,
+  "check_ticks": 4,
+  "checkpoint_ticks": 20,
+  "windows": [
+    {
+      "center": 50,
+      "stride": 2,
+      "count": 5
+    }
+  ],
+  "wall_seconds": 10,
+  "gpu_bytes": 0,
+  "output_bytes": 1048576,
+  "constraint_limit": 2e-05
+}

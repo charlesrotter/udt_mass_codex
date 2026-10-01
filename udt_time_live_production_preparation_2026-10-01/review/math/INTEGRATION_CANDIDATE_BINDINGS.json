@@ -1,0 +1,19 @@
+{
+  "graph_and_final_map_pending": true,
+  "reviewer": "/root/tpp_math",
+  "sha256": {
+    "CURRENT_RESEARCH_PROGRAM.md": "f338bff1b6adf104a4d8e00bac5c024e1f96571fd778141e5d62769856d50752",
+    "HANDOFF.md": "0a96a52d1112e88dd5da4397b430ae71c7b6b4df8a66dc102a13233ae3a96369",
+    "LIVE.md": "00e77423e4201637dcdd2b1dfd8648e8c0242ff81f9ce6d0ba75a5824aae1d4d",
+    "UDT_DEVELOPMENT.md": "0f7e1b0ec3dc6fab0d9baf7a26db49bd240f8a3221482d284b022946d167a158",
+    "udt_time_live_production_preparation_2026-10-01/CLOCK_RESULT.json": "274c3e46186c650940d52cac651cfb9a76e7715b366d4ad77831e40f28195487",
+    "udt_time_live_production_preparation_2026-10-01/DESCENDANT_REVIEW.md": "8e9efe1f6b525ab0273198d595c58e92b634b7c3494fec74eb1f87ad92983aea",
+    "udt_time_live_production_preparation_2026-10-01/METHOD.md": "82cf6cece69684d2b1d3db2c1523d038b1a73fb3429ec4f74c4d3e23936888f0",
+    "udt_time_live_production_preparation_2026-10-01/PRODUCTION_DISPATCH.md": "e956b635b7f3f7962827f8e9bc86f41a2ba376ce01e0bd827ad585dabe032f0b",
+    "udt_time_live_production_preparation_2026-10-01/RESOURCE_RESULT.json": "877c8edfbbc827db456bc000c6a6e1f5d5e01da8471ebc60fde85901276073da",
+    "udt_time_live_production_preparation_2026-10-01/REVIEWED_RESULT.md": "0ab276c221b00ec944b66504df0bf66470cd5d3ebd7af4316962c758c314018c",
+    "udt_time_live_production_preparation_2026-10-01/WORK_RECORD.md": "3ceb62f70a684bc378945ebce71cf54345dd690dcd5e8945e469a9102d443346",
+    "udt_time_live_production_preparation_2026-10-01/prepare_campaign.py": "d5b96d081ef16142b8ef3c94bcf409d14b28db04599fb7c9df33fc06acfed60c"
+  },
+  "status": "DIRECT_SCIENTIFIC_INTEGRATION_ACCEPT_WITH_LIMITS"
+}

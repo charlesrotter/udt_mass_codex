@@ -1,0 +1,8 @@
+{
+  "status": "PASS",
+  "staged_files": 3060,
+  "staged_blob_bytes": 1911723757,
+  "all_staged_blob_sha256_match_reviewed_worktree": true,
+  "path_scope_exact": true,
+  "whitespace_check": "PASS"
+}

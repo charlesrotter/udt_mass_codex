@@ -1,0 +1,16 @@
+{
+  "command": [
+    "timeout",
+    "90s",
+    "python3",
+    "udt_time_live_production_preparation_2026-10-01/supervisor_smoke.py"
+  ],
+  "cwd": "/home/udt-admin/udt_mass_codex",
+  "started_utc": "2026-10-01T01:48:56.678924+00:00",
+  "duration_seconds": 6.1999059219961055,
+  "returncode": 0,
+  "timeout": false,
+  "address_space_bytes": 137438953472,
+  "cpu_seconds": 600,
+  "maxrss_kib": 840204
+}

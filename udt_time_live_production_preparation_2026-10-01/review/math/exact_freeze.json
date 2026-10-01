@@ -1,0 +1,15 @@
+{
+  "command": [
+    "python3",
+    "-c",
+    "from pathlib import Path\nimport hashlib,json,subprocess\nbase=Path(\"udt_time_live_production_preparation_2026-10-01\");p=base/\"FINAL_INTEGRATION_FREEZE.json\";d=json.loads(p.read_text())\ndef sha(q):\n h=hashlib.sha256()\n with Path(q).open(\"rb\") as f:\n  for block in iter(lambda:f.read(1024*1024),b\"\"):h.update(block)\n return h.hexdigest()\nassert sha(p)==\"367b423b877cee3a1269059d1ba560976ac5a2ca6017d70faa6200f81e63af1c\"\nassert len(d[\"accepted_sha256\"])==5591\nprotected=[\"udt_kernel_plane_global_curvature_holonomy_atlas_2026-08-02/\",\"udt_native_onshell_timelive_reset_owner_audit_2026-08-10/\",\"udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/\",\"udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/\"]\nfor q,h in d[\"accepted_sha256\"].items():\n assert not Path(q).is_absolute() and \"..\" not in Path(q).parts\n assert not any(q.startswith(z) for z in protected)\n assert sha(q)==h,q\nold=json.loads((base/\"PREVIOUS_REVIEW_RECORD.json\").read_text())[\"accepted_sha256\"]\nassert len(old)==2567 and set(old).issubset(d[\"accepted_sha256\"])\nchanged=[q for q,h in old.items() if d[\"accepted_sha256\"][q]!=h]\nassert sorted(changed)==sorted(d[\"changed_previous_paths\"])\nsubstantive=json.loads((base/\"review/math/SUBSTANTIVE_BINDINGS.json\").read_text())\nassert all(sha(q)==h for q,h in substantive[\"sha256\"].items())\nprint(json.dumps({\"status\":\"PASS\",\"accepted_paths\":5591,\"retained_prior_paths\":2567,\"changed_prior_paths\":changed,\"freeze_sha256\":sha(p),\"substantive_inputs_unchanged\":True,\"head\":subprocess.check_output([\"git\",\"rev-parse\",\"HEAD\"],text=True).strip(),\"scope\":\"Exact correspondence and prior-map preservation, not reproof or full406 closure.\"},indent=2))"
+  ],
+  "cwd": "/home/udt-admin/udt_mass_codex",
+  "started_utc": "2026-10-01T02:00:49.321221+00:00",
+  "duration_seconds": 1.2308116600033827,
+  "returncode": 0,
+  "timeout": false,
+  "address_space_bytes": 2147483648,
+  "cpu_seconds": 180,
+  "maxrss_kib": 18876
+}

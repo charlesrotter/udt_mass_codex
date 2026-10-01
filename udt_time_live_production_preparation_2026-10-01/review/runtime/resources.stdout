@@ -1,0 +1,261 @@
+{
+  "package_bytes_at_review": 1900453515,
+  "records": [
+    {
+      "max_device_used": 667746304,
+      "max_torch_allocated": 73819136,
+      "max_torch_reserved": 106954752,
+      "name": "axial1_n16",
+      "receipt_sha256": "964a6a8cf8657326c2ba05afd69a35cc0252a6e11cf3d7556ec4940087288833",
+      "returncode": 0,
+      "run_bytes": 21286023,
+      "wall_seconds": 7.130169673007913
+    },
+    {
+      "max_device_used": 820838400,
+      "max_torch_allocated": 170138112,
+      "max_torch_reserved": 260046848,
+      "name": "axial1_n24",
+      "receipt_sha256": "d1fbd8874ca413809e89598598656f9309408a5a92cce690a5c94afb225d8597",
+      "returncode": 0,
+      "run_bytes": 71596525,
+      "wall_seconds": 16.509710313985124
+    },
+    {
+      "max_device_used": 820838400,
+      "max_torch_allocated": 170138112,
+      "max_torch_reserved": 260046848,
+      "name": "axial1_n24_half",
+      "receipt_sha256": "a396dbefd1e4379918623266e9abbf2ebd2eb0ee158c58345a90dc0d8348665b",
+      "returncode": 0,
+      "run_bytes": 71595947,
+      "wall_seconds": 28.06926282198401
+    },
+    {
+      "max_device_used": 1139605504,
+      "max_torch_allocated": 355607552,
+      "max_torch_reserved": 576716800,
+      "name": "axial1_n32",
+      "receipt_sha256": "39f67a07944439d14e51b46c7528460f8e83398797553b1dc6c651885ff52f8b",
+      "returncode": 0,
+      "run_bytes": 168642634,
+      "wall_seconds": 41.02710080402903
+    },
+    {
+      "max_device_used": 820838400,
+      "max_torch_allocated": 170138112,
+      "max_torch_reserved": 260046848,
+      "name": "axial3_n24",
+      "receipt_sha256": "5b2cf702b0d71fdacab3280772098ef15f58fb43fdec3f795c1efde1922c873d",
+      "returncode": 0,
+      "run_bytes": 73049041,
+      "wall_seconds": 16.600141456001438
+    },
+    {
+      "max_device_used": 619511808,
+      "max_torch_allocated": 38595584,
+      "max_torch_reserved": 58720256,
+      "name": "engineering_full",
+      "receipt_sha256": "a1c8a9fe0dba82a8944e0c0dc3f49529b37e757d300acb02557de3ff478cab2c",
+      "returncode": 0,
+      "run_bytes": 1031893,
+      "wall_seconds": 1.7179964699898846
+    },
+    {
+      "max_device_used": 619511808,
+      "max_torch_allocated": 38595584,
+      "max_torch_reserved": 58720256,
+      "name": "engineering_pause",
+      "receipt_sha256": "0e2f8937875a7d18295d1e6fe694c75aaad133195addbe00fcdbd88cacb82963",
+      "returncode": 75,
+      "run_bytes": 1031893,
+      "wall_seconds": 1.165824057010468
+    },
+    {
+      "max_device_used": 619511808,
+      "max_torch_allocated": 38595584,
+      "max_torch_reserved": 58720256,
+      "name": "engineering_resume",
+      "receipt_sha256": "a834939c2be99978d4da19d280f28f3ca2ff3d53bc2d35044ae8f17d0ac64f15",
+      "returncode": 0,
+      "run_bytes": 1031893,
+      "wall_seconds": 1.5159796070074663
+    },
+    {
+      "max_device_used": 619511808,
+      "max_torch_allocated": 38595584,
+      "max_torch_reserved": 58720256,
+      "name": "engineering_signal",
+      "receipt_sha256": "9eb65dce9693416f0b5c3bd105b73c331f5ece3760fd8497ecb0d87ea2fe2a8e",
+      "returncode": 75,
+      "run_bytes": 1112717,
+      "wall_seconds": 1.0597007549949922
+    },
+    {
+      "max_device_used": 619511808,
+      "max_torch_allocated": 38595584,
+      "max_torch_reserved": 58720256,
+      "name": "engineering_signal_resume",
+      "receipt_sha256": "eaebf38e93f6e50a4840a43067871daf2508083ddb3e1ff92873fd57ba80262f",
+      "returncode": 0,
+      "run_bytes": 1112717,
+      "wall_seconds": 1.667207231046632
+    },
+    {
+      "max_device_used": 617414656,
+      "max_torch_allocated": 38005760,
+      "max_torch_reserved": 56623104,
+      "name": "floor_stop",
+      "receipt_sha256": "2d3d831a99caf9503ddd7f679ce304049271667c77274c25cce8ed67819319fa",
+      "returncode": 75,
+      "run_bytes": 45709,
+      "wall_seconds": 1.065963863977231
+    },
+    {
+      "max_device_used": 667746304,
+      "max_torch_allocated": 73819136,
+      "max_torch_reserved": 106954752,
+      "name": "kasner_n16",
+      "receipt_sha256": "6248916b463f3d6293c3deaabe76e6ab1976da998bcaabc28e935286ca72d75a",
+      "returncode": 0,
+      "run_bytes": 163349,
+      "wall_seconds": 6.528430730977561
+    },
+    {
+      "max_device_used": 667746304,
+      "max_torch_allocated": 73819136,
+      "max_torch_reserved": 106954752,
+      "name": "kasner_n16_half",
+      "receipt_sha256": "dbee8a1ffe56549a958f9db5b7ffef8d21b3133a3dea71d21e8010e6629774e4",
+      "returncode": 0,
+      "run_bytes": 163363,
+      "wall_seconds": 10.238053947978187
+    },
+    {
+      "max_device_used": 2473394176,
+      "max_torch_allocated": 1122550272,
+      "max_torch_reserved": 1912602624,
+      "name": "load_n48",
+      "receipt_sha256": "b6b760bf81356c81029da38b42d3ad5a842bcc9fb5e272b836a1aed0f879bbef",
+      "returncode": 0,
+      "run_bytes": 187259797,
+      "wall_seconds": 31.389854893030133
+    },
+    {
+      "max_device_used": 667746304,
+      "max_torch_allocated": 73819136,
+      "max_torch_reserved": 106954752,
+      "name": "oblique1_n16",
+      "receipt_sha256": "486246ecddd06797c71a8c7889a3bb18a5fca740af1dfb5dba6c8dd83e68ab29",
+      "returncode": 0,
+      "run_bytes": 22085615,
+      "wall_seconds": 7.230425714049488
+    },
+    {
+      "max_device_used": 820838400,
+      "max_torch_allocated": 170138112,
+      "max_torch_reserved": 260046848,
+      "name": "oblique1_n24",
+      "receipt_sha256": "2195b1a7216d1f175c03efd4d98eeeea10941c607f764ddfcb6142d9d7e994af",
+      "returncode": 0,
+      "run_bytes": 74389838,
+      "wall_seconds": 16.698184867971577
+    },
+    {
+      "max_device_used": 820838400,
+      "max_torch_allocated": 170138112,
+      "max_torch_reserved": 260046848,
+      "name": "oblique1_n24_half",
+      "receipt_sha256": "eb702c5223b8fc3bad4f2c96c21155f4af08fe6856d77a61d531369cb2b5b4e8",
+      "returncode": 0,
+      "run_bytes": 74390254,
+      "wall_seconds": 28.37359827797627
+    },
+    {
+      "max_device_used": 1139605504,
+      "max_torch_allocated": 355607552,
+      "max_torch_reserved": 576716800,
+      "name": "oblique1_n32",
+      "receipt_sha256": "2209446795f2593bafcad7e210050d2c6ad353064e2e6992d9c1984a82ffb5f5",
+      "returncode": 0,
+      "run_bytes": 176190566,
+      "wall_seconds": 41.45568394899601
+    },
+    {
+      "max_device_used": 820838400,
+      "max_torch_allocated": 170138112,
+      "max_torch_reserved": 260046848,
+      "name": "oblique3_n24",
+      "receipt_sha256": "027b1c0f3741ee91660eea4f4576b654b7f77efb83392cb284823144609e4991",
+      "returncode": 0,
+      "run_bytes": 74458868,
+      "wall_seconds": 16.9579516039812
+    },
+    {
+      "max_device_used": 619511808,
+      "max_torch_allocated": 38595584,
+      "max_torch_reserved": 58720256,
+      "name": "output_stop",
+      "receipt_sha256": "c016430da0975bc6e9c0c3821f064e5251112fea0af82e58057ac8fd24e50a1d",
+      "returncode": 2,
+      "run_bytes": 106314,
+      "wall_seconds": 1.1663273110170849
+    },
+    {
+      "max_device_used": 820838400,
+      "max_torch_allocated": 170138112,
+      "max_torch_reserved": 260046848,
+      "name": "phase1_n24",
+      "receipt_sha256": "eba3c8c86b4d0b5c4b09441f8775d5aa153cbfe06a9c4d2bbf598ccd383166a9",
+      "returncode": 0,
+      "run_bytes": 74391654,
+      "wall_seconds": 16.85915615898557
+    },
+    {
+      "max_device_used": 619511808,
+      "max_torch_allocated": 38595584,
+      "max_torch_reserved": 58720256,
+      "name": "wall_stop",
+      "receipt_sha256": "4dde9161e4df562d7e328f85fece52f8a1f9796e74ad4fb1810ca1b1d31f2d51",
+      "returncode": 75,
+      "run_bytes": 103907,
+      "wall_seconds": 1.1163410430308431
+    }
+  ],
+  "scope": "Aggregation of captured process wall and CUDA telemetry; no total-device profiler or extrapolated long-run stability.48cubed is load-only.",
+  "status": "MEASURED_RESOURCE_REVIEW_PASS",
+  "summed_worker_wall_seconds": 295.5430655510281,
+  "sustained_load": {
+    "accepted_steps": 174,
+    "max_device_used": 2473394176,
+    "max_stage_cfl": 0.2490253320732374,
+    "max_torch_allocated": 1122550272,
+    "max_torch_reserved": 1912602624,
+    "maximum_step_ticks": 16,
+    "minimum_step_ticks": 8,
+    "name": "load_n48",
+    "receipt_sha256": "b6b760bf81356c81029da38b42d3ad5a842bcc9fb5e272b836a1aed0f879bbef",
+    "rejected_trials": [
+      {
+        "attempted_ticks": 16,
+        "elapsed_seconds": 4.03770613000961,
+        "reason": "STAGE_CFL",
+        "status": "REJECTED_TRIAL_STEP",
+        "t": 1.13,
+        "tick": 416
+      },
+      {
+        "attempted_ticks": 16,
+        "elapsed_seconds": 4.200716265011579,
+        "reason": "STAGE_CFL",
+        "status": "REJECTED_TRIAL_STEP",
+        "t": 1.1325,
+        "tick": 424
+      }
+    ],
+    "returncode": 0,
+    "run_bytes": 187259797,
+    "wall_seconds": 31.389854893030133
+  },
+  "worker_count": 22
+}

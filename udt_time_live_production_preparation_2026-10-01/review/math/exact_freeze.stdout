@@ -1,0 +1,17 @@
+{
+  "status": "PASS",
+  "accepted_paths": 5591,
+  "retained_prior_paths": 2567,
+  "changed_prior_paths": [
+    "CURRENT_RESEARCH_PROGRAM.md",
+    "HANDOFF.md",
+    "LIVE.md",
+    "UDT_DEVELOPMENT.md",
+    "development_reconstruction_2026-09-29/DEVELOPMENT_GRAPH.json",
+    "development_reconstruction_2026-09-29/RECENT_DISPOSITIONS.tsv"
+  ],
+  "freeze_sha256": "367b423b877cee3a1269059d1ba560976ac5a2ca6017d70faa6200f81e63af1c",
+  "substantive_inputs_unchanged": true,
+  "head": "90d9bc49e2fed787d9068b0a50e13a62ac58021b",
+  "scope": "Exact correspondence and prior-map preservation, not reproof or full406 closure."
+}

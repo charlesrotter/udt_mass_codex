@@ -1,0 +1,61 @@
+{
+  "attribution": "Reuses fixed TDS1 independent NumPy original ADM and harmonic implementations; new adapter independently reconstructs K through Lie_beta gamma. No producer code imports. Same Fourier mathematics, no independent time integrator.",
+  "kind": "initial",
+  "limit": 2e-05,
+  "numpy": "2.2.6",
+  "reused_independent_sources": {
+    "udt_three_spatial_smoke_2026-10-01/review/data/check_constraints.py": "f10e6e0b512a6f2078e71cb32b8972005356c2555fa25ef36832bdb20bc947fc",
+    "udt_three_spatial_smoke_2026-10-01/review/data/check_harmonic.py": "2be7d388f44bd7de631b45d4699a4b9dabf1c96b3fb650342cf200d0c019c7c9"
+  },
+  "rows": [
+    {
+      "dtype": "float64",
+      "gram_rank_scope": "excludes constant-coordinate translation symmetry only; not arbitrary Killing fields",
+      "hamiltonian_abs_max": 2.184918912462308e-13,
+      "harmonic_covector_abs_max": 4.135553661674396e-15,
+      "harmonic_vector_abs_max": 4.22165574628416e-15,
+      "index": null,
+      "input": "udt_three_spatial_smoke_2026-10-01/initial_n16.npz",
+      "input_sha256": "d5d2bb25ca4626ee763cde3657ba4ad8a4fe1477ba5b7990eb568a56c2646b6d",
+      "invalid_harmonic_velocity_caught": 0.010000000000000342,
+      "lapse_minmax": [
+        1.0,
+        1.0
+      ],
+      "momentum_abs_max_by_component": [
+        4.278435244975398e-14,
+        4.16463738495132e-15,
+        1.2833294539896234e-15
+      ],
+      "scalar_curvature_abs_max": 0.0499200359128506,
+      "seed_divergence_abs_max": 0.0,
+      "seed_trace_abs_max": 5.551115123125783e-17,
+      "shape": [
+        16,
+        16,
+        16,
+        3,
+        3
+      ],
+      "shift_abs_max": 0.0,
+      "spatial_derivative_gram_eigenvalues": [
+        4.9885519588463056e-05,
+        0.00013319297934796622,
+        0.00019955853641815267
+      ],
+      "spatial_derivative_gram_rank": 3,
+      "spatial_metric_eigenvalue_minmax": [
+        0.9795610439317287,
+        1.0263514423427424
+      ],
+      "time": null,
+      "trace_K_minmax": [
+        -1.0000000000000004,
+        -0.9999999999999996
+      ]
+    }
+  ],
+  "scope": "Finite saved points only, with supplied periodic marking; no continuum or generic-stability claim.",
+  "source_sha256": "48bcc79ec095241179f74def9dd04462c02df6feb67d31767acc20fc891031c2",
+  "status": "PASS"
+}

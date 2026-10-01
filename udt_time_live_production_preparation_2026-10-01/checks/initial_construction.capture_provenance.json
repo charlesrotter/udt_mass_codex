@@ -1,0 +1,19 @@
+{
+  "source": "/home/udt-admin/udt_mass_codex/udt_shared_readout_metric_constraint_campaign_2026-09-06/run_capture.py",
+  "source_sha256": "8ff5469ace76bdfc84188915242abbf3baff35516f9ee3f9ba4b1cbfeb2573ef",
+  "adapted_capture_sha256": "2bd8a256fe1080b66450f706cfb35ecc667731a70e7908cd510856cf968af0ba",
+  "limits": {
+    "seconds": 180,
+    "mib": 2048
+  },
+  "thread_environment": {
+    "OMP_NUM_THREADS": "1",
+    "OPENBLAS_NUM_THREADS": "1",
+    "MKL_NUM_THREADS": "1"
+  },
+  "command": [
+    "python3",
+    "-c",
+    "import json,sys,io;from pathlib import Path;import numpy as np;p=Path(\"udt_time_live_production_preparation_2026-10-01\");sys.path.insert(0,str(p));from initial_family import construct,exact_control; specs=[json.loads(q.read_text()) for q in sorted((p/\"specs\").glob(\"*.json\"))];done=set();rows=[]\nfor s in specs:\n q=Path(s[\"initial\"])\n if q in done:continue\n done.add(q);fam=q.stem.rsplit(\"_n\",1)[0];f=json.loads((p/\"families\"/(fam+\".json\")).read_text())\n if fam==\"kasner\":g,v,_=exact_control(\"kasner\",s[\"n\"],0);d=dict(g=g,v=v,period=np.array(s[\"period\"]),control=np.array(\"kasner\"))\n else:d=construct(s[\"n\"],f[\"modes\"],s[\"period\"])\n b=io.BytesIO();np.savez_compressed(b,**d)\n with q.open(\"xb\") as out:out.write(b.getvalue())\n rows.append(dict(path=str(q),n=s[\"n\"],family=fam,residual=d.get(\"constraint_history\",np.array([])).tolist()))\nprint(json.dumps(rows,indent=2))"
+  ]
+}

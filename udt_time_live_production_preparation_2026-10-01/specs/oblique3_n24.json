@@ -1,0 +1,32 @@
+{
+  "n": 24,
+  "initial": "udt_time_live_production_preparation_2026-10-01/initial/oblique3_n24.npz",
+  "period": 6.283185307179586,
+  "dt_min": 0.0003125,
+  "end_tick": 4800,
+  "max_step_ticks": 16,
+  "cfl": 0.25,
+  "check_ticks": 64,
+  "checkpoint_ticks": 800,
+  "windows": [
+    {
+      "center": 80,
+      "stride": 8,
+      "count": 9
+    },
+    {
+      "center": 2400,
+      "stride": 8,
+      "count": 9
+    },
+    {
+      "center": 4768,
+      "stride": 8,
+      "count": 9
+    }
+  ],
+  "wall_seconds": 150,
+  "gpu_bytes": 8589934592,
+  "output_bytes": 268435456,
+  "constraint_limit": 2e-05
+}

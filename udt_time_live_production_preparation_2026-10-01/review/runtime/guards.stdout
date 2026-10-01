@@ -1,0 +1,306 @@
+{
+  "cases": [
+    {
+      "case": "bad_n_0",
+      "reason": "INVALID_GRID",
+      "returncode": 2,
+      "run_created": false
+    },
+    {
+      "case": "bad_n_1",
+      "reason": "INVALID_GRID",
+      "returncode": 2,
+      "run_created": false
+    },
+    {
+      "case": "bad_n_2",
+      "reason": "INVALID_GRID",
+      "returncode": 2,
+      "run_created": false
+    },
+    {
+      "case": "bad_dt_min_3",
+      "reason": "INVALID_DT_MIN",
+      "returncode": 2,
+      "run_created": false
+    },
+    {
+      "case": "bad_dt_min_4",
+      "reason": "INVALID_DT_MIN",
+      "returncode": 2,
+      "run_created": false
+    },
+    {
+      "case": "bad_cfl_5",
+      "reason": "INVALID_CFL",
+      "returncode": 2,
+      "run_created": false
+    },
+    {
+      "case": "bad_cfl_6",
+      "reason": "INVALID_CFL",
+      "returncode": 2,
+      "run_created": false
+    },
+    {
+      "case": "bad_period_7",
+      "reason": "INVALID_PERIOD",
+      "returncode": 2,
+      "run_created": false
+    },
+    {
+      "case": "bad_constraint_limit_8",
+      "reason": "INVALID_CONSTRAINT_LIMIT",
+      "returncode": 2,
+      "run_created": false
+    },
+    {
+      "case": "bad_constraint_limit_9",
+      "reason": "INVALID_CONSTRAINT_LIMIT",
+      "returncode": 2,
+      "run_created": false
+    },
+    {
+      "case": "bad_constraint_limit_10",
+      "reason": "INVALID_CONSTRAINT_LIMIT",
+      "returncode": 2,
+      "run_created": false
+    },
+    {
+      "case": "bad_wall_seconds_11",
+      "reason": "INVALID_WALL_SECONDS",
+      "returncode": 2,
+      "run_created": false
+    },
+    {
+      "case": "bad_wall_seconds_12",
+      "reason": "INVALID_WALL_SECONDS",
+      "returncode": 2,
+      "run_created": false
+    },
+    {
+      "case": "bad_wall_seconds_13",
+      "reason": "INVALID_WALL_SECONDS",
+      "returncode": 2,
+      "run_created": false
+    },
+    {
+      "case": "bad_gpu_bytes_14",
+      "reason": "INVALID_GPU_BUDGET",
+      "returncode": 2,
+      "run_created": false
+    },
+    {
+      "case": "bad_gpu_bytes_15",
+      "reason": "INVALID_GPU_BUDGET",
+      "returncode": 2,
+      "run_created": false
+    },
+    {
+      "case": "bad_output_bytes_16",
+      "reason": "INVALID_OUTPUT_BUDGET",
+      "returncode": 2,
+      "run_created": false
+    },
+    {
+      "case": "bad_output_bytes_17",
+      "reason": "INVALID_OUTPUT_BUDGET",
+      "returncode": 2,
+      "run_created": false
+    },
+    {
+      "case": "bad_max_step_ticks_18",
+      "reason": "INVALID_DYADIC_STEP",
+      "returncode": 2,
+      "run_created": false
+    },
+    {
+      "case": "bad_check_ticks_19",
+      "reason": "INVALID_CHECK_CADENCE",
+      "returncode": 2,
+      "run_created": false
+    },
+    {
+      "case": "bad_checkpoint_ticks_20",
+      "reason": "INVALID_CHECKPOINT_CADENCE",
+      "returncode": 2,
+      "run_created": false
+    },
+    {
+      "case": "bad_end_tick_21",
+      "reason": "INVALID_END_TICK",
+      "returncode": 2,
+      "run_created": false
+    },
+    {
+      "case": "bad_windows_22",
+      "reason": "INVALID_WINDOWS",
+      "returncode": 2,
+      "run_created": false
+    },
+    {
+      "case": "count4",
+      "reason": "INVALID_WINDOW_COUNT",
+      "returncode": 2,
+      "run_created": false
+    },
+    {
+      "case": "count6",
+      "reason": "INVALID_WINDOW_COUNT",
+      "returncode": 2,
+      "run_created": false
+    },
+    {
+      "case": "negative",
+      "reason": "WINDOW_RANGE",
+      "returncode": 2,
+      "run_created": false
+    },
+    {
+      "case": "beyond",
+      "reason": "WINDOW_RANGE",
+      "returncode": 2,
+      "run_created": false
+    },
+    {
+      "case": "stride0",
+      "reason": "INVALID_WINDOW_STRIDE",
+      "returncode": 2,
+      "run_created": false
+    },
+    {
+      "case": "floatcenter",
+      "reason": "WINDOW_SCHEMA",
+      "returncode": 2,
+      "run_created": false
+    },
+    {
+      "case": "asymmetric_g",
+      "reason": "INITIAL_NONSYMMETRIC",
+      "returncode": 2,
+      "run_created": false
+    },
+    {
+      "case": "asymmetric_v",
+      "reason": "INITIAL_NONSYMMETRIC",
+      "returncode": 2,
+      "run_created": false
+    },
+    {
+      "case": "nonfinite",
+      "reason": "INITIAL_NONFINITE",
+      "returncode": 2,
+      "run_created": false
+    },
+    {
+      "case": "wrong_dtype",
+      "reason": "INITIAL_SHAPE_DTYPE",
+      "returncode": 2,
+      "run_created": false
+    },
+    {
+      "case": "wrong_shape",
+      "reason": "INITIAL_SHAPE_DTYPE",
+      "returncode": 2,
+      "run_created": false
+    },
+    {
+      "case": "wrong_period",
+      "reason": "INITIAL_PERIOD_MISMATCH",
+      "returncode": 2,
+      "run_created": false
+    },
+    {
+      "case": "extra_schema",
+      "reason": "SPEC_SCHEMA",
+      "returncode": 2,
+      "run_created": false
+    },
+    {
+      "case": "path_absolute",
+      "reason": "INITIAL_PATH_SCOPE",
+      "returncode": 2,
+      "run_created": false
+    },
+    {
+      "case": "path_escape",
+      "reason": "INITIAL_PATH_SCOPE",
+      "returncode": 2,
+      "run_created": false
+    },
+    {
+      "case": "path_outside",
+      "reason": "INITIAL_PATH_SCOPE",
+      "returncode": 2,
+      "run_created": false
+    },
+    {
+      "case": "negative_pause",
+      "reason": "INVALID_PAUSE",
+      "returncode": 2,
+      "run_created": false
+    },
+    {
+      "case": "missing_cublas",
+      "reason": "DETERMINISTIC_CUBLAS_REQUIRED",
+      "returncode": 2,
+      "run_created": false
+    },
+    {
+      "case": "run_path",
+      "reason": "RUN_PATH_SCOPE",
+      "returncode": 2,
+      "run_created": false
+    }
+  ],
+  "checker_sha256": "be0cd572a84fd2639730b47ad8e3df6c7bcbd0f4ded0a8ca033aed59f514ebc6",
+  "scope": "Actual pre-Torch CLI rejects; fixture-only np.load redirection, blocked Torch import. Not GPU runtime coverage.",
+  "status": "TPP1_WORKER_GUARDS_PASS",
+  "valid_control_schedule": {
+    "checks": [
+      0,
+      4,
+      8,
+      12,
+      16,
+      20,
+      24,
+      28,
+      32,
+      36,
+      40,
+      44,
+      46,
+      48,
+      50,
+      52,
+      54,
+      56,
+      60,
+      64,
+      68,
+      72,
+      76,
+      80,
+      84,
+      88,
+      92,
+      96,
+      100
+    ],
+    "saves": [
+      0,
+      20,
+      40,
+      46,
+      48,
+      50,
+      52,
+      54,
+      60,
+      80,
+      100
+    ]
+  },
+  "worker_sha256": "f5863fd11670b85d3ccabb07818c5a7f8c1e25da8cc0a0173e34bfd7449326e5"
+}

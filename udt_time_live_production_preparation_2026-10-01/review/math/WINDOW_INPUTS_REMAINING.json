@@ -1,0 +1,107 @@
+[
+  {
+    "history": "udt_time_live_production_preparation_2026-10-01/histories/axial3_n24_window0.npz",
+    "manifest": "udt_time_live_production_preparation_2026-10-01/histories/axial3_n24_window0.sources.json",
+    "manifest_sha256": "05e35d5130d6cb534f933dec003178960cca632809e1cf6f139f5b6abb599717",
+    "history_sha256": "68465ee7181739b36a77728cdaae8810e4c60d48320360e2a6e037000538e362",
+    "checked_source_count": 27
+  },
+  {
+    "history": "udt_time_live_production_preparation_2026-10-01/histories/axial3_n24_window1.npz",
+    "manifest": "udt_time_live_production_preparation_2026-10-01/histories/axial3_n24_window1.sources.json",
+    "manifest_sha256": "d1ecea177bc594660ccff455025048016c10dc63a6198556cc5b79002bd79964",
+    "history_sha256": "e0bd24446661ee88e25a5e2bfaf8b14982bd7be9da109277c5c00d77be0acde6",
+    "checked_source_count": 27
+  },
+  {
+    "history": "udt_time_live_production_preparation_2026-10-01/histories/axial3_n24_window2.npz",
+    "manifest": "udt_time_live_production_preparation_2026-10-01/histories/axial3_n24_window2.sources.json",
+    "manifest_sha256": "ac07f484c31e707c96ea042054e5cf2160bfbc7159f4f48638ccc3357f31304e",
+    "history_sha256": "d85d0a7b9991d7bdfc042118816e901a0d2d5c11db0743153636996cc1cb8c20",
+    "checked_source_count": 27
+  },
+  {
+    "history": "udt_time_live_production_preparation_2026-10-01/histories/oblique1_n24_half_window0.npz",
+    "manifest": "udt_time_live_production_preparation_2026-10-01/histories/oblique1_n24_half_window0.sources.json",
+    "manifest_sha256": "75752e97d9eea5011eb05c014a3c161bae54db2359e2ced859a3089034f7fce6",
+    "history_sha256": "1046bf12743df4c8e72fe685bdd38b0e3fda05d1829cbd55380789ce80455db7",
+    "checked_source_count": 27
+  },
+  {
+    "history": "udt_time_live_production_preparation_2026-10-01/histories/oblique1_n24_half_window1.npz",
+    "manifest": "udt_time_live_production_preparation_2026-10-01/histories/oblique1_n24_half_window1.sources.json",
+    "manifest_sha256": "91a301d00a2d77d0fe0487fdf143c001dca453fc3bb630074ddfbab289c9af5d",
+    "history_sha256": "ba8ef1d8f2fec8b65393d8c9289f93010b9b24b59ca65e31496d08e78220752a",
+    "checked_source_count": 27
+  },
+  {
+    "history": "udt_time_live_production_preparation_2026-10-01/histories/oblique1_n24_half_window2.npz",
+    "manifest": "udt_time_live_production_preparation_2026-10-01/histories/oblique1_n24_half_window2.sources.json",
+    "manifest_sha256": "7385407384af4b931472da4f1be3f45f4afc1ff496e7e79361bc5e4d5392ed01",
+    "history_sha256": "cc0fe3676aa015a7c8af72a72fd00d79aaaac4ed361ef0b16eacb5c845a1500b",
+    "checked_source_count": 27
+  },
+  {
+    "history": "udt_time_live_production_preparation_2026-10-01/histories/oblique1_n32_window0.npz",
+    "manifest": "udt_time_live_production_preparation_2026-10-01/histories/oblique1_n32_window0.sources.json",
+    "manifest_sha256": "abbc708ef78d8762a25250c093959e6ca7a180562ea5768be94d81afbe48c4c0",
+    "history_sha256": "524472462bc7455f2623b37f1f2d899b207c2ac160314acf1d3fceeb49aaf5a6",
+    "checked_source_count": 27
+  },
+  {
+    "history": "udt_time_live_production_preparation_2026-10-01/histories/oblique1_n32_window1.npz",
+    "manifest": "udt_time_live_production_preparation_2026-10-01/histories/oblique1_n32_window1.sources.json",
+    "manifest_sha256": "dadcb2df65e3765c9cb636b9e589dccf8fe31e438e96bea7b7558b19088f8b34",
+    "history_sha256": "83112f953fc59bffef6924b6842a5403c5ac04d166eb3d35c2ce82318d3a7e9c",
+    "checked_source_count": 27
+  },
+  {
+    "history": "udt_time_live_production_preparation_2026-10-01/histories/oblique1_n32_window2.npz",
+    "manifest": "udt_time_live_production_preparation_2026-10-01/histories/oblique1_n32_window2.sources.json",
+    "manifest_sha256": "2e8b35172c40908de1485e1b1ac7962108c8a1b67743ace10ab6cd1608c65496",
+    "history_sha256": "c779c56738f8e9901815bcb1573ce85428a9c169c7d53104f288a2afaaebcbea",
+    "checked_source_count": 27
+  },
+  {
+    "history": "udt_time_live_production_preparation_2026-10-01/histories/oblique3_n24_window0.npz",
+    "manifest": "udt_time_live_production_preparation_2026-10-01/histories/oblique3_n24_window0.sources.json",
+    "manifest_sha256": "28a89782ea93c12b79947f25a82d75052a71b0221aed1aa27d6d79e0e4b801c6",
+    "history_sha256": "de04c6968db5b7ebf272f6c16878e55d533bcbd3f86849a722e2b55fbfd0e50a",
+    "checked_source_count": 27
+  },
+  {
+    "history": "udt_time_live_production_preparation_2026-10-01/histories/oblique3_n24_window1.npz",
+    "manifest": "udt_time_live_production_preparation_2026-10-01/histories/oblique3_n24_window1.sources.json",
+    "manifest_sha256": "fc25ede407a16ba6a10874fdc7bad1fd950b1f92c7421c0606881c14796cf696",
+    "history_sha256": "ed8d52647fc1b48b246594e357bd4fa02bfb847d2cae971335f1adf1977a4aae",
+    "checked_source_count": 27
+  },
+  {
+    "history": "udt_time_live_production_preparation_2026-10-01/histories/oblique3_n24_window2.npz",
+    "manifest": "udt_time_live_production_preparation_2026-10-01/histories/oblique3_n24_window2.sources.json",
+    "manifest_sha256": "26d8c4023c5b550d57f66f32c564a01b33a40001f38730386281c54634e4c5d3",
+    "history_sha256": "e3ce69d4cf4129db7249d30f6129d7946f5261c6b960cbfa088cc8398e0a480f",
+    "checked_source_count": 27
+  },
+  {
+    "history": "udt_time_live_production_preparation_2026-10-01/histories/phase1_n24_window0.npz",
+    "manifest": "udt_time_live_production_preparation_2026-10-01/histories/phase1_n24_window0.sources.json",
+    "manifest_sha256": "509ecf6a4b3b471139a6ce50359cd5ab2186e657f56c4898a395bd50be68ea40",
+    "history_sha256": "d8277a87aa8f1576f70a978b0633c202f2712bd13e7a4ef0db3dc23e52e6ecdd",
+    "checked_source_count": 27
+  },
+  {
+    "history": "udt_time_live_production_preparation_2026-10-01/histories/phase1_n24_window1.npz",
+    "manifest": "udt_time_live_production_preparation_2026-10-01/histories/phase1_n24_window1.sources.json",
+    "manifest_sha256": "0437cf9af789634c7a86169ea05c8985aabb71e75791ad34e5d14a5325bfc6cf",
+    "history_sha256": "67ce88b78c9357f66618324f85d021678e673c0fd7ae58aa44a86a18e71baeca",
+    "checked_source_count": 27
+  },
+  {
+    "history": "udt_time_live_production_preparation_2026-10-01/histories/phase1_n24_window2.npz",
+    "manifest": "udt_time_live_production_preparation_2026-10-01/histories/phase1_n24_window2.sources.json",
+    "manifest_sha256": "f55ec2024d40e55ed09fe92e2f16362974aad36c106d60a76869c6128a285326",
+    "history_sha256": "73a138814bb131898a69d240fedf46b1fd1ca734197c99de3b9aaab10ae05c85",
+    "checked_source_count": 27
+  }
+]

@@ -1,0 +1,19 @@
+{
+  "source": "/home/udt-admin/udt_mass_codex/udt_shared_readout_metric_constraint_campaign_2026-09-06/run_capture.py",
+  "source_sha256": "8ff5469ace76bdfc84188915242abbf3baff35516f9ee3f9ba4b1cbfeb2573ef",
+  "adapted_capture_sha256": "2bd8a256fe1080b66450f706cfb35ecc667731a70e7908cd510856cf968af0ba",
+  "limits": {
+    "seconds": 180,
+    "mib": 2048
+  },
+  "thread_environment": {
+    "OMP_NUM_THREADS": "1",
+    "OPENBLAS_NUM_THREADS": "1",
+    "MKL_NUM_THREADS": "1"
+  },
+  "command": [
+    "python3",
+    "-c",
+    "import sys,json,hashlib;from pathlib import Path;import numpy as np;sys.path.insert(0,\"udt_time_live_production_preparation_2026-10-01/review/math\");from check_saved_data import extrinsic,constraints,contracted;p=Path(\"udt_time_live_production_preparation_2026-10-01/initial/kasner_n16.npz\");d=np.load(p,allow_pickle=False);g=d[\"g\"];v=d[\"v\"];periods=np.full(3,float(d[\"period\"]));gamma,K,alpha,beta=extrinsic(g,v,periods);r,_=constraints(gamma,K,periods);r.update(harmonic=float(abs(contracted(g,v,periods)).max()),metric_error=float(abs(g-np.diag([-1.,1.,1.,1.])).max()),velocity_error=float(abs(v-np.diag([-2.,-2/3,4/3,4/3])).max()),input_sha256=hashlib.sha256(p.read_bytes()).hexdigest());assert max(r[\"hamiltonian_abs_max\"],*r[\"momentum_abs_max_by_component\"],r[\"harmonic\"],r[\"metric_error\"],r[\"velocity_error\"])<1e-14;print(json.dumps(r,indent=2))"
+  ]
+}

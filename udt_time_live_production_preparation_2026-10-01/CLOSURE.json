@@ -1,0 +1,47 @@
+{
+  "accepted_frozen_paths": 5591,
+  "artifact_budget_bytes": 2147483648,
+  "artifact_bytes_before_closure": 1910483197,
+  "attestations": {
+    "udt_time_live_production_preparation_2026-10-01/review/math/FINAL_ATTESTATION.json": "08cfdec195a13cf47864f3d965a072c783f2f972b1acdbd4d5c119f637c2b0e7",
+    "udt_time_live_production_preparation_2026-10-01/review/runtime/FINAL_ATTESTATION.json": "e861b3c00511fcc4bbb8531d548a6b05cb334094627a68ec7466ff32f1bb01f4"
+  },
+  "checks": {
+    "development_final": {
+      "maxrss_kib": 95456,
+      "receipt": "udt_time_live_production_preparation_2026-10-01/checks/development_final.json",
+      "receipt_sha256": "0e17156adde976451141b7ca574ef6cb6f1ce433d2fb750226f34e8c96213cb5",
+      "seconds": 1.4759742540190928,
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stdout_sha256": "e86ab9a93e4f411bc6af1dfc8d86e8bb8c2f9b1d1786165ea5bb13e94fe71414"
+    },
+    "maintenance_final": {
+      "maxrss_kib": 29856,
+      "receipt": "udt_time_live_production_preparation_2026-10-01/checks/maintenance_final.json",
+      "receipt_sha256": "512acc96447f6848fb9c8faed33c1cc0bcccecb3824006c51c7e653e5853c46f",
+      "seconds": 0.7153898589895107,
+      "stderr_sha256": "cf2114d59a8f5bc8d440cca54e28375f3bd230a922f325b4a949c561ff3aae78",
+      "stdout_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "premise_final": {
+      "maxrss_kib": 168256,
+      "receipt": "udt_time_live_production_preparation_2026-10-01/checks/premise_final.json",
+      "receipt_sha256": "d420ba3a0c2b4d4c3b2ba18d93ef2ad7728cf4883e7714f40e2e2a90e03baa4b",
+      "seconds": 406.12252830696525,
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stdout_sha256": "394e02c4ced55fc8f6480a3cc65b9ebd38f9c0cb553f897b10313b8ad2104b53"
+    }
+  },
+  "freeze_sha256": "367b423b877cee3a1269059d1ba560976ac5a2ca6017d70faa6200f81e63af1c",
+  "gpu_budget_seconds": 600,
+  "maintenance_tests": 57,
+  "parent_review_record_sha256": "25a477ab9a21eb6faeb6d1d77e0e296e55fa02da66ce752f4c123c2e1a803cc0",
+  "premise_rows": 406,
+  "production_areas_created": false,
+  "remaining": "Commit exact staged bytes, push grok, verify remote and dirt. Future production dispatch returns separately after its first-case gate and review.",
+  "scope": "Conditional finite Ric=0 evidence and bounded production preparation; no scientific promotion or multi-hour launch",
+  "status": "REVIEWED_PREPARATION_CHECKS_PASS_PENDING_COMMIT_AND_REMOTE_VERIFICATION",
+  "total_worker_wall_seconds": 301.45759805006674,
+  "unrelated_untracked_paths_preserved": 52,
+  "worker_invocations": 26
+}

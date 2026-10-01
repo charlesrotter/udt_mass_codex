@@ -1,0 +1,54 @@
+{
+  "checker_sha256": "99f1752ae0ec577450b9c777b3af98800f184be39099c2099ef85ed0c817f522",
+  "history_sha256": {
+    "udt_three_spatial_smoke_2026-10-01/histories/kasner_half.npz": "d04fe85ee95100aa53aa9cb68e44251b666bb7a29b4328956b0919220aedf6b4"
+  },
+  "queries_sha256": "08c4d5843dc644396b40be4ba0562eb1fe8d038b93a30225689d455dc69ab0c8",
+  "readouts": {
+    "kasner_half": [
+      {
+        "Z": 0.9801986733064618,
+        "emission": 1.02,
+        "exact_error": 2.9343194540842887e-13,
+        "initial_coordinate_direction": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "logZ": -0.020000000000299452,
+        "max_internal_trial_abs_null_norm": 7.641248972523051e-05,
+        "max_sampled_abs_null_norm": 8.43769498715119e-13,
+        "nfev": 128,
+        "receiver_position": [
+          0.3741534507387761,
+          0.47,
+          0.19
+        ],
+        "reception": 1.08
+      },
+      {
+        "Z": 1.0408107741928656,
+        "emission": 1.02,
+        "exact_error": 4.773959005888173e-13,
+        "initial_coordinate_direction": [
+          0.0,
+          1.0,
+          0.0
+        ],
+        "logZ": 0.04000000000045866,
+        "max_internal_trial_abs_null_norm": 1.1369977192421388e-05,
+        "max_sampled_abs_null_norm": 1.6521228829446954e-12,
+        "nfev": 128,
+        "receiver_position": [
+          0.31,
+          0.5310093966345745,
+          0.19
+        ],
+        "reception": 1.08
+      }
+    ]
+  },
+  "reused_prior_checker_sha256": "b0b1a2a9b3ffe84bff626f6d8fb3cbfb64cd3794d5ef3624d73611e090828ec4",
+  "scope": "Separate covariant-momentum/RK45 implementation from producer; explicitly adapted prior reviewer code. Shared saved fields, Fourier/Hermite mathematics and conditional geometry.",
+  "status": "HAMILTON_CLOCK_REVIEW_PASS"
+}

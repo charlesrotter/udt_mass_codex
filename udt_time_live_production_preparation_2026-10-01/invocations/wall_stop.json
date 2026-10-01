@@ -1,0 +1,18 @@
+{
+  "aggregate_worker_wall_seconds": 8.243049163080286,
+  "command": [
+    "/usr/bin/python3",
+    "/home/udt-admin/udt_mass_codex/udt_time_live_production_preparation_2026-10-01/production_worker.py",
+    "/home/udt-admin/udt_mass_codex/udt_time_live_production_preparation_2026-10-01/specs/wall_stop.json",
+    "/home/udt-admin/udt_mass_codex/udt_time_live_production_preparation_2026-10-01/runs/wall_stop"
+  ],
+  "expected": 75,
+  "returncode": 75,
+  "sigterm_sent": false,
+  "spec_sha256": "79b4ab102bae5ae9b66d26d4d549442e1f21df2c0734bba2d5c1845b6e8e9705",
+  "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "stdout_sha256": "1f480881a295899c9ae5cf9f3feaac2fd816c4854c59c39dc54c0ef8f52a9eb5",
+  "timeout": false,
+  "wall_seconds": 1.1163410430308431,
+  "worker_sha256": "f7526ac85ab873fd12cf38ef6a9b69bec7d18a6cc4b4636528784c4a312fafbf"
+}

@@ -1,0 +1,21 @@
+{
+  "status": "INDEPENDENT_CLOCK_AGREEMENT_PASS",
+  "rows": [
+    {
+      "name": "kasner_n16_half",
+      "max_logZ_difference": 2.4895363548438354e-13,
+      "max_endpoint_position_difference": 7.382983113757291e-15,
+      "producer_output_sha256": "9713b9935c2623665418756cd74ac620c52b7d9d7f8e015140734be0d2e0a028",
+      "history_sha256": "16a40cd100bbb93196748a1c645b19584903536278e388b2c2e6a832c551f632"
+    },
+    {
+      "name": "axial1_n24_half",
+      "max_logZ_difference": 9.32996735425462e-13,
+      "max_endpoint_position_difference": 3.2307490016592055e-14,
+      "producer_output_sha256": "bde87a92f41666108bc1a3758b0b0b8f86763c0b485f56c69a544d29e1794381",
+      "history_sha256": "0fa7d55165672a3b8716746668c2d10a6ac491ddf14a6de86835ffc6bf6a33f9"
+    }
+  ],
+  "independent_output_sha256": "0973ce519a35fae65a05997c444ed54db41f69a8fa3da557484767ac88ecdfd0",
+  "scope": "Separate ray equations and integrators, same supplied saved geometry and Fourier/Hermite methods. Not an independent metric evolution."
+}

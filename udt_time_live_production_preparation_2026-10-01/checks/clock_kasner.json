@@ -1,0 +1,17 @@
+{
+  "command": [
+    "python3",
+    "udt_time_live_production_preparation_2026-10-01/clock_checks.py",
+    "udt_time_live_production_preparation_2026-10-01/histories/kasner_n16_half_window2.npz",
+    "udt_time_live_production_preparation_2026-10-01/CLOCK_KASNER.json",
+    "--kasner"
+  ],
+  "cwd": "/home/udt-admin/udt_mass_codex",
+  "started_utc": "2026-10-01T01:29:03.999483+00:00",
+  "duration_seconds": 0.6694043000461534,
+  "returncode": 0,
+  "timeout": false,
+  "address_space_bytes": 2147483648,
+  "cpu_seconds": 180,
+  "maxrss_kib": 110940
+}

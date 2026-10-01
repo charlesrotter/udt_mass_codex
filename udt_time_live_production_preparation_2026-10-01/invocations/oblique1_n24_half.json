@@ -1,0 +1,18 @@
+{
+  "aggregate_worker_wall_seconds": 172.28027749003377,
+  "command": [
+    "/usr/bin/python3",
+    "/home/udt-admin/udt_mass_codex/udt_time_live_production_preparation_2026-10-01/production_worker.py",
+    "/home/udt-admin/udt_mass_codex/udt_time_live_production_preparation_2026-10-01/specs/oblique1_n24_half.json",
+    "/home/udt-admin/udt_mass_codex/udt_time_live_production_preparation_2026-10-01/runs/oblique1_n24_half"
+  ],
+  "expected": 0,
+  "returncode": 0,
+  "sigterm_sent": false,
+  "spec_sha256": "6e64dcad833261f4c546afb5a4a7fe7ced6d6a61682963c89e3a13a916ceee58",
+  "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "stdout_sha256": "06674efe3080113c2c19e907eeff1793ceeb83664f0090989480ff68a8e5ea9e",
+  "timeout": false,
+  "wall_seconds": 28.37359827797627,
+  "worker_sha256": "f7526ac85ab873fd12cf38ef6a9b69bec7d18a6cc4b4636528784c4a312fafbf"
+}

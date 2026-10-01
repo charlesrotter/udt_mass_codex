@@ -1,0 +1,14 @@
+{
+  "checked_oblique_modes": 288,
+  "datasets": 78,
+  "independent_method": "SVD baseline plus Rodrigues rotation; no producer TT projector imported directly",
+  "maximum_norm2_error": 8.881784197001252e-16,
+  "maximum_rotation_error": 3.3306690738754696e-16,
+  "maximum_tt_defect": 2.220446049250313e-16,
+  "planned_runs": 234,
+  "producer_code_imported_for_recipe": true,
+  "recipe_sha256": "8746c8e0f79da0158791401ec7475717427657d0e62764d54a5fd86995badc7a",
+  "scope": "Pure-data preview only. No initial conformal solve or evolution for the78 proposed data sets; future original constraints and history checks remain mandatory. No inequivalence, genericity or native-law claim.",
+  "source_sha256": "199cbd369e21dc6da18a30ec936ab6d12a7b682e4db4c631b63ec62130e0c6cd",
+  "status": "PASS"
+}

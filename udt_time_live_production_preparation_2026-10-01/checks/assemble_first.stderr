@@ -1,0 +1,8 @@
+Traceback (most recent call last):
+  File "/home/udt-admin/udt_mass_codex/udt_time_live_production_preparation_2026-10-01/assemble_windows.py", line 43, in <module>
+    ap=argparse.ArgumentParser();ap.add_argument('cases',nargs='+');args=ap.parse_args();print(json.dumps({name:assemble(name) for name in args.cases},indent=2))
+  File "/home/udt-admin/udt_mass_codex/udt_time_live_production_preparation_2026-10-01/assemble_windows.py", line 43, in <dictcomp>
+    ap=argparse.ArgumentParser();ap.add_argument('cases',nargs='+');args=ap.parse_args();print(json.dumps({name:assemble(name) for name in args.cases},indent=2))
+  File "/home/udt-admin/udt_mass_codex/udt_time_live_production_preparation_2026-10-01/assemble_windows.py", line 19, in assemble
+    if m['signature']['spec']!=receipt['spec_sha256']:raise ValueError('SPEC_SIGNATURE')
+ValueError: SPEC_SIGNATURE

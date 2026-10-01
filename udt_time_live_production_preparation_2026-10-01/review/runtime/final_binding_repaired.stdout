@@ -1,0 +1,17 @@
+{
+  "status": "EXACT_BINDING_AND_SCOPED_GRAPH_PASS",
+  "accepted_paths": 5591,
+  "retained_previous_paths": 2561,
+  "changed_previous_paths": [
+    "CURRENT_RESEARCH_PROGRAM.md",
+    "HANDOFF.md",
+    "LIVE.md",
+    "UDT_DEVELOPMENT.md",
+    "development_reconstruction_2026-09-29/DEVELOPMENT_GRAPH.json",
+    "development_reconstruction_2026-09-29/RECENT_DISPOSITIONS.tsv"
+  ],
+  "source_pins": 121,
+  "review_support": 37,
+  "freeze_sha256": "367b423b877cee3a1269059d1ba560976ac5a2ca6017d70faa6200f81e63af1c",
+  "scope": "Actual bytes, retained prior bindings and reviewed conditional graph edges; no historical full reproof or406 rerun."
+}

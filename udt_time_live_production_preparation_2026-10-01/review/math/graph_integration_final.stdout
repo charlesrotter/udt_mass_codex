@@ -1,0 +1,12 @@
+{
+  "graph_sha256": "68795f550ced1cf63b2aa9754841759dfd6dae28b14fde827ab62512d323cd6d",
+  "new_source_pins": 12,
+  "prior_source_pins_preserved": 109,
+  "recent_sha256": "939c42c917205f365b12893187cea62170e291a92285c87140710f760920c20b",
+  "scope": "Current typed dependency and newsource hash correspondence; no reproof of historical sources or full audit.",
+  "source_sha256": "d0de438dc6ec26290294d42aba36d257d62dbb75f9a869576aac71a206d43288",
+  "status": "PASS",
+  "typed_new_reviews": 5,
+  "unchanged_edges": 174,
+  "unchanged_node_kinds_and_hypotheses": true
+}

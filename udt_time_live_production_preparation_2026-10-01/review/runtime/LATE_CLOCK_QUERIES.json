@@ -1,0 +1,14 @@
+{
+  "cases": [
+    {
+      "name": "kasner_n16_half",
+      "history": "udt_time_live_production_preparation_2026-10-01/histories/kasner_n16_half_window2.npz",
+      "kasner": true
+    },
+    {
+      "name": "axial1_n24_half",
+      "history": "udt_time_live_production_preparation_2026-10-01/histories/axial1_n24_half_window2.npz"
+    }
+  ],
+  "query_rule": "emission at20% and reception at80% of saved span; origin(.31,.47,.19), x/y Kasner andx/y/z/diag general; fixed before new readout exposure"
+}

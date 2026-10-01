@@ -1,0 +1,11 @@
+{
+  "stage": "before construction",
+  "command_prefix": [
+    "python3",
+    "udt_local_kernel_symmetry_release_2026-09-13/capture.py",
+    "180",
+    "4096"
+  ],
+  "failure": "AssertionError: capture.py requires mib<=2048; no child or initial-data computation started",
+  "repair": "use existing capture at2048MiB, within the4GiB work-order maximum; no capture code change"
+}

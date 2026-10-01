@@ -1,0 +1,396 @@
+{
+  "accepted_schedules_bitwise_equal": true,
+  "output_failure": {
+    "reason": "OUTPUT_BUDGET",
+    "status": "REJECTED_OR_FAILED",
+    "type": "CheckpointError"
+  },
+  "receipt_sha256": {
+    "udt_time_live_production_preparation_2026-10-01/invocations/engineering_full.json": "a1c8a9fe0dba82a8944e0c0dc3f49529b37e757d300acb02557de3ff478cab2c",
+    "udt_time_live_production_preparation_2026-10-01/invocations/engineering_full.stderr": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "udt_time_live_production_preparation_2026-10-01/invocations/engineering_full.stdout": "2dbc9a3bfdbfb90a404af5636760de76117047bdceca1073a07699f5f098814a",
+    "udt_time_live_production_preparation_2026-10-01/invocations/engineering_pause.json": "0e2f8937875a7d18295d1e6fe694c75aaad133195addbe00fcdbd88cacb82963",
+    "udt_time_live_production_preparation_2026-10-01/invocations/engineering_pause.stderr": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "udt_time_live_production_preparation_2026-10-01/invocations/engineering_pause.stdout": "fc11c54f8c582852c056b32011a83efa54a97a6cbe57c7ff85d24a53e3bb3905",
+    "udt_time_live_production_preparation_2026-10-01/invocations/engineering_resume.json": "a834939c2be99978d4da19d280f28f3ca2ff3d53bc2d35044ae8f17d0ac64f15",
+    "udt_time_live_production_preparation_2026-10-01/invocations/engineering_resume.stderr": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "udt_time_live_production_preparation_2026-10-01/invocations/engineering_resume.stdout": "4b1f0b44706e1af4dd9ef448ded6a0e7869674cab36b07fa13b5390ee6d28425",
+    "udt_time_live_production_preparation_2026-10-01/invocations/engineering_signal.json": "9eb65dce9693416f0b5c3bd105b73c331f5ece3760fd8497ecb0d87ea2fe2a8e",
+    "udt_time_live_production_preparation_2026-10-01/invocations/engineering_signal.stderr": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "udt_time_live_production_preparation_2026-10-01/invocations/engineering_signal.stdout": "36bddaa2bc1316cc9a6dc158028c38c6ebe3dc687162fe563ee38ebbb8e1b0dc",
+    "udt_time_live_production_preparation_2026-10-01/invocations/engineering_signal_resume.json": "eaebf38e93f6e50a4840a43067871daf2508083ddb3e1ff92873fd57ba80262f",
+    "udt_time_live_production_preparation_2026-10-01/invocations/engineering_signal_resume.stderr": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "udt_time_live_production_preparation_2026-10-01/invocations/engineering_signal_resume.stdout": "af59513ab57cf7f04291f7d495a504016f6c8637616dbda88d9fd05e2b30b140",
+    "udt_time_live_production_preparation_2026-10-01/invocations/floor_stop.json": "2d3d831a99caf9503ddd7f679ce304049271667c77274c25cce8ed67819319fa",
+    "udt_time_live_production_preparation_2026-10-01/invocations/floor_stop.stderr": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "udt_time_live_production_preparation_2026-10-01/invocations/floor_stop.stdout": "71c0bccc718da1fdbd89bf6197874a2047f7fdf04da16fbe02f4d7df3dd91165",
+    "udt_time_live_production_preparation_2026-10-01/invocations/output_stop.json": "c016430da0975bc6e9c0c3821f064e5251112fea0af82e58057ac8fd24e50a1d",
+    "udt_time_live_production_preparation_2026-10-01/invocations/output_stop.stderr": "1df36723abccc825b87da55226fab384a044c71714439750757faa9486437544",
+    "udt_time_live_production_preparation_2026-10-01/invocations/output_stop.stdout": "c2055fbf34f55c5e535dc3afb2a56463b4ee1fa605fe80383fb5a7677342e540",
+    "udt_time_live_production_preparation_2026-10-01/invocations/wall_stop.json": "4dde9161e4df562d7e328f85fece52f8a1f9796e74ad4fb1810ca1b1d31f2d51",
+    "udt_time_live_production_preparation_2026-10-01/invocations/wall_stop.stderr": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "udt_time_live_production_preparation_2026-10-01/invocations/wall_stop.stdout": "1f480881a295899c9ae5cf9f3feaac2fd816c4854c59c39dc54c0ef8f52a9eb5"
+  },
+  "restart_final_bitwise_equal": {
+    "engineering_paused": true,
+    "engineering_signal": true
+  },
+  "runs": {
+    "udt_time_live_production_preparation_2026-10-01/runs/engineering_full": {
+      "bytes": 1031893,
+      "records": [
+        {
+          "metadata_sha256": "256f235521919a80d3b96cb8db78b8d8d5e08db7f3329d7555dd35af709266d7",
+          "path": "udt_time_live_production_preparation_2026-10-01/runs/engineering_full/checkpoints/ckpt_000000000_9d186a275590",
+          "payload_sha256": "6e3f62653bc11227d12e5864d754bf8c6d543996c040de9f958c31ea2d271888",
+          "tick": 0
+        },
+        {
+          "metadata_sha256": "dd26cb0256a0014cab1f88eb3652b5a292b35935f42c63e52353875150b961bb",
+          "path": "udt_time_live_production_preparation_2026-10-01/runs/engineering_full/checkpoints/ckpt_000000080_85ac407a3243",
+          "payload_sha256": "b1124937ca4c55c995255d9ca5a7391b0271f690e1661b647767a7c380bbf4ab",
+          "tick": 80
+        },
+        {
+          "metadata_sha256": "97f72e37578c201c4d239389e87c1057a35b8552535a2bcb88c164d2ce4aa0bb",
+          "path": "udt_time_live_production_preparation_2026-10-01/runs/engineering_full/checkpoints/ckpt_000000128_2c5f64f9c597",
+          "payload_sha256": "48a90ea2f492da9006b69ed900c51e77b5535a14c955dcde0921d02f35fc2dbe",
+          "tick": 128
+        },
+        {
+          "metadata_sha256": "32ca831f417ad0ecc1b0e43a7ab43df0b9c478d71cf98f934e0d602a7b8c9d30",
+          "path": "udt_time_live_production_preparation_2026-10-01/runs/engineering_full/checkpoints/ckpt_000000136_9e756753d5a1",
+          "payload_sha256": "76367c2d3f085e86f8a2904e0284cd4792d90dbd803c4b9ce5c0ba54a4cb2047",
+          "tick": 136
+        },
+        {
+          "metadata_sha256": "dd89dcc44442cde516a2047e569abd54875972be1d32d86d9568c4fd6812873f",
+          "path": "udt_time_live_production_preparation_2026-10-01/runs/engineering_full/checkpoints/ckpt_000000144_07f950bb06ee",
+          "payload_sha256": "100d9bbc485943aa8b1db216680a3c2a91a0055d9bcc95d7d8e48076a7c6e0d5",
+          "tick": 144
+        },
+        {
+          "metadata_sha256": "b2411aaa68d47ba4160c848070e907ca30923c7bd2e3fc551b3a9ac15910bfd9",
+          "path": "udt_time_live_production_preparation_2026-10-01/runs/engineering_full/checkpoints/ckpt_000000152_0edb67586f9f",
+          "payload_sha256": "e8ffbb1ee7d790820090be776456b5bb045a1b8bf06e735e7100424a3f035912",
+          "tick": 152
+        },
+        {
+          "metadata_sha256": "359fcaa40d4b178a478a845f63d20439a31ccc60a2130ff75967d19f0817d670",
+          "path": "udt_time_live_production_preparation_2026-10-01/runs/engineering_full/checkpoints/ckpt_000000160_267fa0800fb2",
+          "payload_sha256": "d0bb9e6df46ed29591e8c50aef860aa0e21a10c42373a66d5fd6ed64ea0990f6",
+          "tick": 160
+        },
+        {
+          "metadata_sha256": "9bbacf5f603275b8762b270d10efc31fdcf8a1f646e35d4ba53ad2eb09d987a1",
+          "path": "udt_time_live_production_preparation_2026-10-01/runs/engineering_full/checkpoints/ckpt_000000168_17bd8064d6bb",
+          "payload_sha256": "ba278bad09ea6cb5f4e3fb33c87d0564863c775db79d5b7d9428b3d073ab374e",
+          "tick": 168
+        },
+        {
+          "metadata_sha256": "ef532c75447d30efd0435a1fa47283cb6dd19bf093a70895f8fb872a22c1aeae",
+          "path": "udt_time_live_production_preparation_2026-10-01/runs/engineering_full/checkpoints/ckpt_000000176_55faff410d4f",
+          "payload_sha256": "1fcf0e247755083dc5f716d717a1198c7c5b088aadefdfbc864f6f6364dd6757",
+          "tick": 176
+        },
+        {
+          "metadata_sha256": "5acbad7b5d8b79a3b03b3b0241589cb0c9341ab56e331ecc82f7a71683a5fbac",
+          "path": "udt_time_live_production_preparation_2026-10-01/runs/engineering_full/checkpoints/ckpt_000000184_8e860ea347cb",
+          "payload_sha256": "16ba4cab6a642cf52f98a3e659bb62bb064dff50e57a5718ab03037c4cb50e7a",
+          "tick": 184
+        },
+        {
+          "metadata_sha256": "8968db8eef064e97fe23a2c6cd28155733cd434070d6395ca708450de82525e2",
+          "path": "udt_time_live_production_preparation_2026-10-01/runs/engineering_full/checkpoints/ckpt_000000192_57b1272a324a",
+          "payload_sha256": "2e56525e557ad7cbffd2d3fc984d7af666ad8eac62d908cb1d3fe3a3a468babd",
+          "tick": 192
+        },
+        {
+          "metadata_sha256": "fe562d880be8f350217bcaf26d1cb4bd5364e21325ccdbc2793a697096027bbf",
+          "path": "udt_time_live_production_preparation_2026-10-01/runs/engineering_full/checkpoints/ckpt_000000240_468859bbd8dc",
+          "payload_sha256": "6f1a4bd369971c63afd97af802d138bb2f954cae3365f0114d24508ffc563110",
+          "tick": 240
+        },
+        {
+          "metadata_sha256": "dafaa8014f54b996f76f0fe36a197b4c11a541f980a90d42524983892ade57cc",
+          "path": "udt_time_live_production_preparation_2026-10-01/runs/engineering_full/checkpoints/ckpt_000000320_2306615535ab",
+          "payload_sha256": "e0c0fc777d13f36dea4af8861e8299906ddf5a6bbc9a19e0b7312b2b7c52eccb",
+          "tick": 320
+        }
+      ]
+    },
+    "udt_time_live_production_preparation_2026-10-01/runs/engineering_paused": {
+      "bytes": 1031893,
+      "records": [
+        {
+          "metadata_sha256": "256f235521919a80d3b96cb8db78b8d8d5e08db7f3329d7555dd35af709266d7",
+          "path": "udt_time_live_production_preparation_2026-10-01/runs/engineering_paused/checkpoints/ckpt_000000000_50999ea05b78",
+          "payload_sha256": "6e3f62653bc11227d12e5864d754bf8c6d543996c040de9f958c31ea2d271888",
+          "tick": 0
+        },
+        {
+          "metadata_sha256": "dd26cb0256a0014cab1f88eb3652b5a292b35935f42c63e52353875150b961bb",
+          "path": "udt_time_live_production_preparation_2026-10-01/runs/engineering_paused/checkpoints/ckpt_000000080_c94bceff1fe1",
+          "payload_sha256": "b1124937ca4c55c995255d9ca5a7391b0271f690e1661b647767a7c380bbf4ab",
+          "tick": 80
+        },
+        {
+          "metadata_sha256": "97f72e37578c201c4d239389e87c1057a35b8552535a2bcb88c164d2ce4aa0bb",
+          "path": "udt_time_live_production_preparation_2026-10-01/runs/engineering_paused/checkpoints/ckpt_000000128_7e92ed9d5a60",
+          "payload_sha256": "48a90ea2f492da9006b69ed900c51e77b5535a14c955dcde0921d02f35fc2dbe",
+          "tick": 128
+        },
+        {
+          "metadata_sha256": "32ca831f417ad0ecc1b0e43a7ab43df0b9c478d71cf98f934e0d602a7b8c9d30",
+          "path": "udt_time_live_production_preparation_2026-10-01/runs/engineering_paused/checkpoints/ckpt_000000136_e061a609fa4e",
+          "payload_sha256": "76367c2d3f085e86f8a2904e0284cd4792d90dbd803c4b9ce5c0ba54a4cb2047",
+          "tick": 136
+        },
+        {
+          "metadata_sha256": "dd89dcc44442cde516a2047e569abd54875972be1d32d86d9568c4fd6812873f",
+          "path": "udt_time_live_production_preparation_2026-10-01/runs/engineering_paused/checkpoints/ckpt_000000144_8334b7cf2d49",
+          "payload_sha256": "100d9bbc485943aa8b1db216680a3c2a91a0055d9bcc95d7d8e48076a7c6e0d5",
+          "tick": 144
+        },
+        {
+          "metadata_sha256": "b2411aaa68d47ba4160c848070e907ca30923c7bd2e3fc551b3a9ac15910bfd9",
+          "path": "udt_time_live_production_preparation_2026-10-01/runs/engineering_paused/checkpoints/ckpt_000000152_5fef949aa5c4",
+          "payload_sha256": "e8ffbb1ee7d790820090be776456b5bb045a1b8bf06e735e7100424a3f035912",
+          "tick": 152
+        },
+        {
+          "metadata_sha256": "359fcaa40d4b178a478a845f63d20439a31ccc60a2130ff75967d19f0817d670",
+          "path": "udt_time_live_production_preparation_2026-10-01/runs/engineering_paused/checkpoints/ckpt_000000160_a0ac76ef0cc9",
+          "payload_sha256": "d0bb9e6df46ed29591e8c50aef860aa0e21a10c42373a66d5fd6ed64ea0990f6",
+          "tick": 160
+        },
+        {
+          "metadata_sha256": "9bbacf5f603275b8762b270d10efc31fdcf8a1f646e35d4ba53ad2eb09d987a1",
+          "path": "udt_time_live_production_preparation_2026-10-01/runs/engineering_paused/checkpoints/ckpt_000000168_9496ee73ac0c",
+          "payload_sha256": "ba278bad09ea6cb5f4e3fb33c87d0564863c775db79d5b7d9428b3d073ab374e",
+          "tick": 168
+        },
+        {
+          "metadata_sha256": "ef532c75447d30efd0435a1fa47283cb6dd19bf093a70895f8fb872a22c1aeae",
+          "path": "udt_time_live_production_preparation_2026-10-01/runs/engineering_paused/checkpoints/ckpt_000000176_08dc488d7fbe",
+          "payload_sha256": "1fcf0e247755083dc5f716d717a1198c7c5b088aadefdfbc864f6f6364dd6757",
+          "tick": 176
+        },
+        {
+          "metadata_sha256": "5acbad7b5d8b79a3b03b3b0241589cb0c9341ab56e331ecc82f7a71683a5fbac",
+          "path": "udt_time_live_production_preparation_2026-10-01/runs/engineering_paused/checkpoints/ckpt_000000184_c4ba34628934",
+          "payload_sha256": "16ba4cab6a642cf52f98a3e659bb62bb064dff50e57a5718ab03037c4cb50e7a",
+          "tick": 184
+        },
+        {
+          "metadata_sha256": "8968db8eef064e97fe23a2c6cd28155733cd434070d6395ca708450de82525e2",
+          "path": "udt_time_live_production_preparation_2026-10-01/runs/engineering_paused/checkpoints/ckpt_000000192_7743fca56002",
+          "payload_sha256": "2e56525e557ad7cbffd2d3fc984d7af666ad8eac62d908cb1d3fe3a3a468babd",
+          "tick": 192
+        },
+        {
+          "metadata_sha256": "fe562d880be8f350217bcaf26d1cb4bd5364e21325ccdbc2793a697096027bbf",
+          "path": "udt_time_live_production_preparation_2026-10-01/runs/engineering_paused/checkpoints/ckpt_000000240_ff8f3eee54be",
+          "payload_sha256": "6f1a4bd369971c63afd97af802d138bb2f954cae3365f0114d24508ffc563110",
+          "tick": 240
+        },
+        {
+          "metadata_sha256": "dafaa8014f54b996f76f0fe36a197b4c11a541f980a90d42524983892ade57cc",
+          "path": "udt_time_live_production_preparation_2026-10-01/runs/engineering_paused/checkpoints/ckpt_000000320_76765cc1e498",
+          "payload_sha256": "e0c0fc777d13f36dea4af8861e8299906ddf5a6bbc9a19e0b7312b2b7c52eccb",
+          "tick": 320
+        }
+      ]
+    },
+    "udt_time_live_production_preparation_2026-10-01/runs/engineering_signal": {
+      "bytes": 1112717,
+      "records": [
+        {
+          "metadata_sha256": "256f235521919a80d3b96cb8db78b8d8d5e08db7f3329d7555dd35af709266d7",
+          "path": "udt_time_live_production_preparation_2026-10-01/runs/engineering_signal/checkpoints/ckpt_000000000_48d20deb6374",
+          "payload_sha256": "6e3f62653bc11227d12e5864d754bf8c6d543996c040de9f958c31ea2d271888",
+          "tick": 0
+        },
+        {
+          "metadata_sha256": "542f23b33c9fae93b6368782152b3c1b93a3db3f159e38ad66d6fa4162c59eeb",
+          "path": "udt_time_live_production_preparation_2026-10-01/runs/engineering_signal/checkpoints/ckpt_000000016_d1b3a1ce298e",
+          "payload_sha256": "039d744a18d2fe93728a77605c1dcf4ff3675d7d257de68596a34d2e93fcb671",
+          "tick": 16
+        },
+        {
+          "metadata_sha256": "dd26cb0256a0014cab1f88eb3652b5a292b35935f42c63e52353875150b961bb",
+          "path": "udt_time_live_production_preparation_2026-10-01/runs/engineering_signal/checkpoints/ckpt_000000080_c04505f99302",
+          "payload_sha256": "b1124937ca4c55c995255d9ca5a7391b0271f690e1661b647767a7c380bbf4ab",
+          "tick": 80
+        },
+        {
+          "metadata_sha256": "97f72e37578c201c4d239389e87c1057a35b8552535a2bcb88c164d2ce4aa0bb",
+          "path": "udt_time_live_production_preparation_2026-10-01/runs/engineering_signal/checkpoints/ckpt_000000128_c5eb4c814814",
+          "payload_sha256": "48a90ea2f492da9006b69ed900c51e77b5535a14c955dcde0921d02f35fc2dbe",
+          "tick": 128
+        },
+        {
+          "metadata_sha256": "32ca831f417ad0ecc1b0e43a7ab43df0b9c478d71cf98f934e0d602a7b8c9d30",
+          "path": "udt_time_live_production_preparation_2026-10-01/runs/engineering_signal/checkpoints/ckpt_000000136_36ee9d232aa9",
+          "payload_sha256": "76367c2d3f085e86f8a2904e0284cd4792d90dbd803c4b9ce5c0ba54a4cb2047",
+          "tick": 136
+        },
+        {
+          "metadata_sha256": "dd89dcc44442cde516a2047e569abd54875972be1d32d86d9568c4fd6812873f",
+          "path": "udt_time_live_production_preparation_2026-10-01/runs/engineering_signal/checkpoints/ckpt_000000144_6628e9460f6d",
+          "payload_sha256": "100d9bbc485943aa8b1db216680a3c2a91a0055d9bcc95d7d8e48076a7c6e0d5",
+          "tick": 144
+        },
+        {
+          "metadata_sha256": "b2411aaa68d47ba4160c848070e907ca30923c7bd2e3fc551b3a9ac15910bfd9",
+          "path": "udt_time_live_production_preparation_2026-10-01/runs/engineering_signal/checkpoints/ckpt_000000152_951bdbc38a5d",
+          "payload_sha256": "e8ffbb1ee7d790820090be776456b5bb045a1b8bf06e735e7100424a3f035912",
+          "tick": 152
+        },
+        {
+          "metadata_sha256": "359fcaa40d4b178a478a845f63d20439a31ccc60a2130ff75967d19f0817d670",
+          "path": "udt_time_live_production_preparation_2026-10-01/runs/engineering_signal/checkpoints/ckpt_000000160_95023d93c259",
+          "payload_sha256": "d0bb9e6df46ed29591e8c50aef860aa0e21a10c42373a66d5fd6ed64ea0990f6",
+          "tick": 160
+        },
+        {
+          "metadata_sha256": "9bbacf5f603275b8762b270d10efc31fdcf8a1f646e35d4ba53ad2eb09d987a1",
+          "path": "udt_time_live_production_preparation_2026-10-01/runs/engineering_signal/checkpoints/ckpt_000000168_70b668ec0cbc",
+          "payload_sha256": "ba278bad09ea6cb5f4e3fb33c87d0564863c775db79d5b7d9428b3d073ab374e",
+          "tick": 168
+        },
+        {
+          "metadata_sha256": "ef532c75447d30efd0435a1fa47283cb6dd19bf093a70895f8fb872a22c1aeae",
+          "path": "udt_time_live_production_preparation_2026-10-01/runs/engineering_signal/checkpoints/ckpt_000000176_961571a97304",
+          "payload_sha256": "1fcf0e247755083dc5f716d717a1198c7c5b088aadefdfbc864f6f6364dd6757",
+          "tick": 176
+        },
+        {
+          "metadata_sha256": "5acbad7b5d8b79a3b03b3b0241589cb0c9341ab56e331ecc82f7a71683a5fbac",
+          "path": "udt_time_live_production_preparation_2026-10-01/runs/engineering_signal/checkpoints/ckpt_000000184_7dbe23e110ad",
+          "payload_sha256": "16ba4cab6a642cf52f98a3e659bb62bb064dff50e57a5718ab03037c4cb50e7a",
+          "tick": 184
+        },
+        {
+          "metadata_sha256": "8968db8eef064e97fe23a2c6cd28155733cd434070d6395ca708450de82525e2",
+          "path": "udt_time_live_production_preparation_2026-10-01/runs/engineering_signal/checkpoints/ckpt_000000192_fac6792aaba0",
+          "payload_sha256": "2e56525e557ad7cbffd2d3fc984d7af666ad8eac62d908cb1d3fe3a3a468babd",
+          "tick": 192
+        },
+        {
+          "metadata_sha256": "fe562d880be8f350217bcaf26d1cb4bd5364e21325ccdbc2793a697096027bbf",
+          "path": "udt_time_live_production_preparation_2026-10-01/runs/engineering_signal/checkpoints/ckpt_000000240_03f8f6bd8c8f",
+          "payload_sha256": "6f1a4bd369971c63afd97af802d138bb2f954cae3365f0114d24508ffc563110",
+          "tick": 240
+        },
+        {
+          "metadata_sha256": "dafaa8014f54b996f76f0fe36a197b4c11a541f980a90d42524983892ade57cc",
+          "path": "udt_time_live_production_preparation_2026-10-01/runs/engineering_signal/checkpoints/ckpt_000000320_328eef433947",
+          "payload_sha256": "e0c0fc777d13f36dea4af8861e8299906ddf5a6bbc9a19e0b7312b2b7c52eccb",
+          "tick": 320
+        }
+      ]
+    },
+    "udt_time_live_production_preparation_2026-10-01/runs/floor_stop": {
+      "bytes": 45709,
+      "records": [
+        {
+          "metadata_sha256": "8c77f8eb3c5fd6aaaefda816795afd2842d5c050361611639cd0f70d750f55bb",
+          "path": "udt_time_live_production_preparation_2026-10-01/runs/floor_stop/checkpoints/ckpt_000000000_2c19e7848ec2",
+          "payload_sha256": "6e3f62653bc11227d12e5864d754bf8c6d543996c040de9f958c31ea2d271888",
+          "tick": 0
+        },
+        {
+          "metadata_sha256": "8c77f8eb3c5fd6aaaefda816795afd2842d5c050361611639cd0f70d750f55bb",
+          "path": "udt_time_live_production_preparation_2026-10-01/runs/floor_stop/checkpoints/ckpt_000000000_3e0505cd5010",
+          "payload_sha256": "6e3f62653bc11227d12e5864d754bf8c6d543996c040de9f958c31ea2d271888",
+          "tick": 0
+        }
+      ]
+    },
+    "udt_time_live_production_preparation_2026-10-01/runs/output_stop": {
+      "bytes": 106314,
+      "records": [
+        {
+          "metadata_sha256": "efbff2b75341b37c1a8b55ad81fa40f5760bd9a22300e09dec30a8bbd4b7cdb2",
+          "path": "udt_time_live_production_preparation_2026-10-01/runs/output_stop/checkpoints/ckpt_000000000_6d913faef58b",
+          "payload_sha256": "6e3f62653bc11227d12e5864d754bf8c6d543996c040de9f958c31ea2d271888",
+          "tick": 0
+        },
+        {
+          "metadata_sha256": "79e950cf81eafde218453dcec08d08e43d3e21e402299aaca035e6c51d3a9f10",
+          "path": "udt_time_live_production_preparation_2026-10-01/runs/output_stop/checkpoints/ckpt_000000080_6d8fb4caba98",
+          "payload_sha256": "b1124937ca4c55c995255d9ca5a7391b0271f690e1661b647767a7c380bbf4ab",
+          "tick": 80
+        }
+      ]
+    },
+    "udt_time_live_production_preparation_2026-10-01/runs/wall_stop": {
+      "bytes": 103907,
+      "records": [
+        {
+          "metadata_sha256": "47626f93e928593806fb55c2e30642f5ed67451a2a0e7a32c8d446323fc8f94b",
+          "path": "udt_time_live_production_preparation_2026-10-01/runs/wall_stop/checkpoints/ckpt_000000000_6b107555eaad",
+          "payload_sha256": "6e3f62653bc11227d12e5864d754bf8c6d543996c040de9f958c31ea2d271888",
+          "tick": 0
+        },
+        {
+          "metadata_sha256": "63cca6455d599933f12ce652ebd0bb78e0d7110c79b8b478db17b12ce5a8f508",
+          "path": "udt_time_live_production_preparation_2026-10-01/runs/wall_stop/checkpoints/ckpt_000000016_cd4d0543184e",
+          "payload_sha256": "039d744a18d2fe93728a77605c1dcf4ff3675d7d257de68596a34d2e93fcb671",
+          "tick": 16
+        }
+      ]
+    }
+  },
+  "scope": "Direct immutable payload, full accepted schedule, final-array and explicit stop-record checks. No independent time evolution or universal crash guarantee.",
+  "status": "TPP1_RUNTIME_ARTIFACTS_PASS",
+  "stops": {
+    "engineering_pause": {
+      "elapsed_seconds": 0.297581083024852,
+      "max_stage_cfl": 0.03686098513759138,
+      "max_step_ticks": 16,
+      "min_step_ticks": 16,
+      "reason": "REQUESTED_PAUSE",
+      "retries": 0,
+      "signal": null,
+      "status": "CHECKPOINTED_STOP",
+      "steps": 8,
+      "t": 1.04,
+      "tick": 128
+    },
+    "engineering_signal": {
+      "elapsed_seconds": 0.19667001202469692,
+      "max_stage_cfl": 0.035205801724568525,
+      "max_step_ticks": 16,
+      "min_step_ticks": 16,
+      "reason": "SIGNAL",
+      "retries": 0,
+      "signal": 15,
+      "status": "CHECKPOINTED_STOP",
+      "steps": 1,
+      "t": 1.005,
+      "tick": 16
+    },
+    "floor_stop": {
+      "elapsed_seconds": 0.17927661299472675,
+      "reason": "TIMESTEP_FLOOR",
+      "status": "CHECKPOINTED_STOP",
+      "t": 1.0,
+      "tick": 0
+    },
+    "wall_stop": {
+      "elapsed_seconds": 0.1911167300422676,
+      "max_stage_cfl": 0.035205801724568525,
+      "max_step_ticks": 16,
+      "min_step_ticks": 16,
+      "reason": "WALL_LIMIT",
+      "retries": 0,
+      "signal": null,
+      "status": "CHECKPOINTED_STOP",
+      "steps": 1,
+      "t": 1.005,
+      "tick": 16
+    }
+  }
+}

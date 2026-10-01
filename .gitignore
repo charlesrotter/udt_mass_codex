@@ -36,3 +36,11 @@ scratchpad/
 .claude/worktrees/
 *.zip
 *.stdout
+
+# TPP1 future production data: retained local evidence, indexed explicitly.
+# Current preparation evidence remains banked; no multi-hour data exists yet.
+udt_time_live_production_preparation_2026-10-01/initial/production/
+udt_time_live_production_preparation_2026-10-01/specs/production/
+udt_time_live_production_preparation_2026-10-01/runs/production/
+udt_time_live_production_preparation_2026-10-01/production_runtime/
+udt_time_live_production_preparation_2026-10-01/production_analysis/

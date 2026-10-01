@@ -1,7 +1,7 @@
 # HANDOFF — current operational handoff
 
 <!-- STARTUP_CURRENT_BEGIN -->
-## Current handoff — TDS1 three-coordinate smoke return after SMK1/NGD1/TRI1/PRI1/CCR1/CES1/PCW1/GCA1/LKT1/SGE1/CDR1, 2026-10-01
+## Current handoff — TPP1 production-preparation return after TDS1/ SMK1/NGD1/TRI1/PRI1/CCR1/CES1/PCW1/GCA1/LKT1/SGE1/CDR1, 2026-10-01
 
 LIVE.md wins. Charles authorized the staged numerical discovery plan including
 checks, challenges, separate-context review and central integration. NGD1's
@@ -16,14 +16,19 @@ smoke checks before multi-hour runs. His “continue” authorized TDS1's new so
 stage after SMK1. Fixed WORK_ORDER.md, WORK_RECORD.md, evidence and actual reviews
 are under `udt_three_spatial_smoke_2026-10-01/`; the integrated argument is R12T/R18.
 
-Next: Stop for lay discussion of the bounded TDS1 return. Production preparation
-now needs output cadence/diagnostic windows, longer slabs, broader seeds,
-characteristic-speed step controls and representative larger-mesh loads. Pass
-that workload's smoke/load gates and write the dispatch before the proposed
-six-hour tranche or24–48h extensions. No multi-hour run has started. Actual
-review/check receipts and Git history own completion/banking. Larger conditional
-Ric=0 production alone does not select UDT dynamics. No new source, physical
-scale, selected metric, scientific promotion or CANON change is authorized.
+His next “proceed” authorized TPP1 preparation under
+`udt_time_live_production_preparation_2026-10-01/WORK_ORDER.md`. Longer histories,
+broader seeds, output/step controls and representative load/queue checks are
+recorded there with their failed diagnostic and narrower repair preserved.
+
+Next: Stop for lay discussion of the bounded TPP1 return. The prepared
+PRODUCTION_DISPATCH.md specifies78datasets/234runs, up to6hours/64GiB and the
+first-three-case verification gate before continuation, including review and
+bounded repair. No multi-hour run has started; preparation returns before launch.
+Review the first tranche before any24–48hour extension. Actual review/check
+receipts and Git history own completion/banking. Conditional Ric=0 production
+alone does not select UDT dynamics. No new physical premise, source, scale,
+selected metric, scientific promotion or CANON change is authorized.
 Use LIVE for pauses, archive caveats and preservation. Central dependencies and
 actual review bindings remain in development_reconstruction_2026-09-29/.
 

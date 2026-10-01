@@ -1,0 +1,15 @@
+{
+  "command": [
+    "python3",
+    "udt_time_live_production_preparation_2026-10-01/review/runtime/check_guards.py",
+    "guard_fixtures"
+  ],
+  "cwd": "/home/udt-admin/udt_mass_codex",
+  "started_utc": "2026-10-01T01:21:16.954201+00:00",
+  "duration_seconds": 2.3167325030080974,
+  "returncode": 0,
+  "timeout": false,
+  "address_space_bytes": 2147483648,
+  "cpu_seconds": 180,
+  "maxrss_kib": 35700
+}

@@ -1,7 +1,7 @@
 # UDT — continuous scientific development
 
 <!-- DEVELOPMENT_ORIENTATION_BEGIN -->
-**Continuous development — CDR1 with SGE1, LKT1, GCA1, PCW1, CES1, CCR1, PRI1, TRI1, NGD1 and TDS1, 2026-10-01.** This is the maintained
+**Continuous development — CDR1 with SGE1, LKT1, GCA1, PCW1, CES1, CCR1, PRI1, TRI1, NGD1, TDS1 and TPP1, 2026-10-01.** This is the maintained
 scientific development. It is not canon or a new scientific-grade authority.
 The exact registry and reviewed sources own grades; LIVE owns operational status.
 Current review bindings and limits are recorded in section9; startup reads the
@@ -69,8 +69,11 @@ TDS1 releases the evolution code's spatial Killing restriction (R12T): all ten
 metric components evolve with variation in three spatial coordinates. Short
 histories pass independent original-curvature, constraint and actual-clock
 checks. The supplied Ric=0 equation, periodic domain, harmonic gauge and initial
-CMC/conformal construction remain conditional. Longer slabs, broader seeds and
-production load/output checks remain before the intended hours-to-days survey.
+CMC/conformal construction remain conditional. TPP1 now extends13 supplied
+histories to t=2.5, broadens the initial modes and tests production controls. Its
+original five-point refinement gate failed; a preserved, narrower saved-time
+diagnostic repair passes. A measured234-run, up-to-six-hour dispatch is ready
+with a first-three-case verification gate. No multi-hour campaign has started.
 <!-- DEVELOPMENT_ORIENTATION_END -->
 
 ## 1. How this development is owned
@@ -1141,12 +1144,78 @@ Resource stops and invalid-constraint diagnostics preserve readable evidence.
 This certifies only the tested short workload: periodic topology/period,
 harmonic gauge, initial CMC/conformal choices and one small seed remain supplied.
 No matter, native selection, physical scale, X_max, genericity, long-time stability
-or full solution-space claim follows. The next production-preparation stage must
-test longer slabs, broader seeds, output cadence, characteristic-speed step
-control and representative larger-mesh loads before the intended six-hour tranche.
+or full solution-space claim follows. These are TDS1's original short-run limits;
+the following preparation adds its own bounded evidence.
 Sources: [fixed equations](udt_three_spatial_smoke_2026-10-01/EQUATIONS.md),
 [reviewed finite result](udt_three_spatial_smoke_2026-10-01/REVIEWED_RESULT.md),
 and [execution and continuation record](udt_three_spatial_smoke_2026-10-01/WORK_RECORD.md).
+
+
+#### Longer histories and production preparation (TPP1)
+
+Retain the same conditional equation and conformal CMC construction. For a
+nonzero integer wavevector k and symmetric S with nonzero projected TT part,
+define P=I−kkᵀ/|k|² and
+T=P S P−tr(P S P)P/2, normalized to Frobenius norm sqrt(2). Then kᵀT=0 and
+tr(T)=0, so finite sums a cos(k·x+phase)T supply transverse trace-free data.
+TPP1 explores non-collinear oblique modes, threefold amplitudes and a relative
+phase change as well as the axial controls. The periodic topology/period,
+conformal flatness, tau=−1 and marked harmonic chart remain supplied restrictions.
+
+The adaptive worker uses lapse alpha, shift beta and spatial metric gamma.
+The frozen principal characteristics obey
+\[
+ |\omega|\leq|\beta\cdot k|+\alpha\sqrt{k^T\gamma^{-1}k},\qquad
+ \Omega={\pi N\over L}\max_x\left(\|\beta\|_1+
+             \alpha\sqrt{3/\lambda_{\min}(\gamma)}\right).
+\]
+The cubical Fourier band has |k|<=sqrt(3)piN/L, giving the displayed conservative
+bound. The implemented maximum samples collocation points; it is not a uniform
+continuum maximum. Every RK stage and endpoint tests dt Omega; rejected numerical trials
+halve a dyadic step. This is not a nonlinear stability theorem. Fine comparisons
+halve both the step ceiling and CFL ceiling. Immutable checkpoints use integer
+time ticks t=1+tick/3200, a.25 cadence and three nine-sample diagnostic windows.
+
+Thirteen histories reach t=2.5,15times TDS1's elapsed coordinate interval.
+Independent saved-g Ricci over39windows/195interior slices has maximum6.063e−7
+against2e−5. Independent evolved late H/M/harmonic maxima are
+4.517e−9/7.504e−9/3.764e−10. Final matched time-refinement differences are at
+most7.663e−9 in g and2.884e−8 in v; exact Kasner saved-state error is6.343e−9.
+These are finite floating-point checks, not uniform or continuum certification.
+
+The original five-point spatial-refinement gate **failed**: saved-time
+truncation obscured fine-grid improvement. The preserved diagnostic and frozen
+same-premise repair retain every original residual check but compare sixth/
+eighth-order saved-time derivatives only at the three window centers. Exact
+rational stencil moments and vacuum/nonvacuum controls test the replacement.
+Oblique16→32 improvement is12.134-fold at eighth order. Axial improvement is
+9.05-fold; it passes only the unchanged small-error alternative, all meshes
+below5.137e−9. Largest sixth/eighth tensor disagreement is4.171e−10. This
+narrower repaired gate does not erase the original failure or fill time gaps.
+Stronger/phase examples lack their own complete mesh/time refinement families.
+
+Supplied late-window clock queries, t2.484 to2.496, show matched mesh/time
+logZ changes below3.341e−12. Separate Hamilton/RK45 and producer Christoffel/
+DOP853 calculations agree within9.33e−13 in logZ on the fine axial history;
+Fourier/Hermite interpolation and fields remain shared. No ray across unsaved
+gaps, population selection or cosmological distance interpretation follows.
+
+Actual worker and supervisor pause/resume/interruption checks retain valid
+checkpoints; worker final fields and accepted-step sequences agree bit for bit.
+A48³ load took31.390s and allocated1.123GB peak Torch memory, while queried
+device usage reached2.474GB. That load is resource evidence, outside the
+independent Ricci scientific qualification. N32 histories took about41s each.
+The finite preparation used about301.458s of actual GPU worker wall.
+
+The measured next workflow has78supplied initial datasets and234runs, up to
+six hours and64GiB, with the first three cases checked before continuation.
+No multi-hour run has started, no234outcomes are pre-certified, and no24–48hour
+extension is authorized by this preparation. Longer Ric=0 histories remain a
+conditional comparison tool; R9's physical response and native UDT selection
+remain open. Sources: [method](udt_time_live_production_preparation_2026-10-01/METHOD.md),
+[finite return](udt_time_live_production_preparation_2026-10-01/REVIEWED_RESULT.md),
+[failed gate and scoped repair](udt_time_live_production_preparation_2026-10-01/REFINEMENT_REPAIR.md),
+and [production dispatch](udt_time_live_production_preparation_2026-10-01/PRODUCTION_DISPATCH.md).
 
 ## 7. Screen geometry, carried readouts and optional sources
 
@@ -1437,11 +1506,13 @@ are optional routes, not universal prerequisites for every clock consequence.
 
 ### R18. What can now be used, and what remains open
 
-TDS1's R12T now supplies a short-tested three-coordinate metric engine and
-independently checked actual null-clock queries. This releases a major symmetry
-restriction in the numerical method. Its conditional equation and supplied
-initial family remain explicit; production preparation is the next operational
-step toward the broader survey, while native selection remains scientifically open.
+R12T now supplies a three-coordinate metric engine, longer finite conditional
+histories and independently checked actual null-clock queries. TPP1 broadens
+initial data and adds tested production controls, with its failed original
+refinement gate and narrower repair preserved. The next operational step is the
+explicit78-dataset/234-run dispatch and its first-three-case gate. No multi-hour
+run has started. These numerical gains do not identify R9's physical response
+or select a native UDT geometry.
 
 NGD1's numerical return in R12N adds a validated comparison tool and finite
 nonlinear clock-shift histories. Its positive contribution relative to a specified
@@ -1858,7 +1929,7 @@ founding premises are insufficient.
 Retained branches and omissions are explicit below. These results are useful;
 their original full proofs, repairs, qualifications and grades remain at source.
 CDR1 does not claim to rederive all of them. The [406-row disposition ledger](development_reconstruction_2026-09-29/CLAIM_DISPOSITIONS.tsv)
-and [35 later returns](development_reconstruction_2026-09-29/RECENT_DISPOSITIONS.tsv)
+and [36 later returns](development_reconstruction_2026-09-29/RECENT_DISPOSITIONS.tsv)
 identify exact sources and reconstruction depth.
 
 | Retained work | Gain and limit |
@@ -1891,7 +1962,7 @@ it does not merely add another disconnected report.
 
 This is an18-result central reconstruction with actual core calculations,
 standard-method applications and explicitly retained source branches. All406
-registered rows have an editorial disposition;35 relevant later returns
+registered rows have an editorial disposition;36 relevant later returns
 are separately mapped. It does not claim to re-prove every historical result.
 Existence/MGHD, full external invariant theory, detailed nonlinear asymptotics,
 the55-component optional analytic system, the eight signal packages, empirical
@@ -2025,6 +2096,18 @@ and [data/runtime/readout review](udt_three_spatial_smoke_2026-10-01/review/data
 own tested coverage; final attestations bind the integrated edition. Earlier
 scientific sources and positive/negative conclusions retain their original scopes.
 
+
+TPP1 adds two actual fresh contexts for original saved-metric/constraint and
+runtime/clock review, followed by exact integration review. The [mathematical
+report](udt_time_live_production_preparation_2026-10-01/review/math/SUBSTANTIVE_REVIEW.md)
+and [runtime report](udt_time_live_production_preparation_2026-10-01/review/runtime/RUNTIME_REVIEW.md)
+record source-first exposure, independent calculations, shared methods and
+omissions. The original five-point failure and outcome-informed center-only
+repair remain visible. Worker, assembler and queue defects retain their original
+editions/proofs. The runtime reviewer authored the final production extraction
+adapter; the parent separately inspected it. Same inherited model/Fourier
+methods and lack of an independent general-data time integrator remain limits.
+
 The preserved first candidates expose the repair history. The [source correction](development_reconstruction_2026-09-29/SOURCE_CORRECTIONS.md)
 fixes a real covector-basis sign in G310; the central nine-direction span and
 annihilator survive. The original file remains authentic. Further repairs make
@@ -2058,4 +2141,5 @@ stage completion, final source/check pins and all remaining omissions belong to
 [TRI1 execution record](udt_tick_readout_identification_2026-09-30/WORK_RECORD.md).
 
 [NGD1 execution record](udt_gpu_time_live_discovery_2026-09-30/WORK_RECORD.md),
-and [TDS1 execution record](udt_three_spatial_smoke_2026-10-01/WORK_RECORD.md).
+[TDS1 execution record](udt_three_spatial_smoke_2026-10-01/WORK_RECORD.md),
+and [TPP1 execution record](udt_time_live_production_preparation_2026-10-01/WORK_RECORD.md).

@@ -1,0 +1,81 @@
+{
+  "records": [
+    {
+      "case": "unexpected",
+      "dt_calls": [
+        0.004
+      ],
+      "emits": [],
+      "error": "INJECTED_IMPLEMENTATION_ERROR",
+      "result": null,
+      "saves": []
+    },
+    {
+      "case": "stage_retry",
+      "dt_calls": [
+        0.004,
+        0.002
+      ],
+      "emits": [
+        [
+          [
+            "REJECTED_TRIAL_STEP"
+          ],
+          {
+            "attempted_ticks": 4,
+            "reason": "STAGE_CFL"
+          }
+        ]
+      ],
+      "error": null,
+      "result": {
+        "jump": 2,
+        "retries": 1,
+        "state": [
+          1,
+          2,
+          3
+        ]
+      },
+      "saves": []
+    },
+    {
+      "case": "floor",
+      "dt_calls": [
+        0.001
+      ],
+      "emits": [
+        [
+          [
+            "REJECTED_TRIAL_STEP"
+          ],
+          {
+            "attempted_ticks": 1,
+            "reason": "STAGE_CFL"
+          }
+        ],
+        [
+          [
+            "CHECKPOINTED_STOP"
+          ],
+          {
+            "reason": "TIMESTEP_FLOOR",
+            "trial_reason": "STAGE_CFL"
+          }
+        ]
+      ],
+      "error": null,
+      "result": 75,
+      "saves": [
+        [
+          true,
+          "TIMESTEP_FLOOR"
+        ]
+      ]
+    }
+  ],
+  "scope": "Actual retry-loop AST with injected CPU outcomes; no GPU error was manufactured.",
+  "status": "RETRY_CLASSIFICATION_PASS",
+  "tested_ast_sha256": "eb1f9fa2477c8d358f4614491371504f461edb1eb4ec78f6f5183c4c26bfc101",
+  "worker_sha256": "f7526ac85ab873fd12cf38ef6a9b69bec7d18a6cc4b4636528784c4a312fafbf"
+}

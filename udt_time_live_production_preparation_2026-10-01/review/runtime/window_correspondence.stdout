@@ -1,0 +1,24 @@
+{
+  "status": "SELECTED_WINDOW_CORRESPONDENCE_PASS",
+  "rows": [
+    {
+      "name": "kasner_n16_half",
+      "history_sha256": "16a40cd100bbb93196748a1c645b19584903536278e388b2c2e6a832c551f632",
+      "manifest_sha256": "c491820515cdaeda5028bc33771dde20fd7b530aafe095aa33004a2b7541da7f",
+      "frames": 9,
+      "first": 2.48,
+      "last": 2.5,
+      "all_g_v_bitwise_equal_to_committed_payloads": true
+    },
+    {
+      "name": "axial1_n24_half",
+      "history_sha256": "0fa7d55165672a3b8716746668c2d10a6ac491ddf14a6de86835ffc6bf6a33f9",
+      "manifest_sha256": "6a69a90d9c5058c645fb9d473f465cdd1c62b75903b6b82e8a0b3703e5641fa2",
+      "frames": 9,
+      "first": 2.48,
+      "last": 2.5,
+      "all_g_v_bitwise_equal_to_committed_payloads": true
+    }
+  ],
+  "scope": "Independent exact correspondence and marker/payload hashes; numerical equations checked separately."
+}

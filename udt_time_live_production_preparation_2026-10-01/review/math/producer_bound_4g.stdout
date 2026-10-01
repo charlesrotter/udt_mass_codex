@@ -1,0 +1,165 @@
+{
+  "device": "cpu",
+  "invalid_geometry_caught": [
+    {
+      "error": "NONSPACELIKE_SLICE",
+      "label": "spatial_indefinite"
+    },
+    {
+      "error": "LORENTZ_SIGNATURE",
+      "label": "euclidean"
+    },
+    {
+      "error": "NONFINITE_METRIC",
+      "label": "nan"
+    }
+  ],
+  "numpy": "2.2.6",
+  "producer_sha256": "f5863fd11670b85d3ccabb07818c5a7f8c1e25da8cc0a0173e34bfd7449326e5",
+  "rows": [
+    {
+      "bound": 26.661346309810376,
+      "independent_bound": 26.661346309810348,
+      "largest_principal_frequency": 22.61606836614887,
+      "relative_error": 1.0660267902504952e-15,
+      "trial": 0
+    },
+    {
+      "bound": 29.328367897724213,
+      "independent_bound": 29.32836789772422,
+      "largest_principal_frequency": 28.104443897940097,
+      "relative_error": 2.4227148890042253e-16,
+      "trial": 1
+    },
+    {
+      "bound": 83.30045459956865,
+      "independent_bound": 83.30045459956877,
+      "largest_principal_frequency": 74.22021868967103,
+      "relative_error": 1.3647805197236531e-15,
+      "trial": 2
+    },
+    {
+      "bound": 84.7095817586439,
+      "independent_bound": 84.70958175864394,
+      "largest_principal_frequency": 71.06048818257415,
+      "relative_error": 3.3551941634399345e-16,
+      "trial": 3
+    },
+    {
+      "bound": 24.53589470871307,
+      "independent_bound": 24.535894708713073,
+      "largest_principal_frequency": 23.55067385289665,
+      "relative_error": 1.4479658153810374e-16,
+      "trial": 4
+    },
+    {
+      "bound": 146.99075094116546,
+      "independent_bound": 146.99075094116552,
+      "largest_principal_frequency": 96.183063859782,
+      "relative_error": 3.867142558075654e-16,
+      "trial": 5
+    },
+    {
+      "bound": 22.0835349250409,
+      "independent_bound": 22.08353492504086,
+      "largest_principal_frequency": 19.93229433998588,
+      "relative_error": 1.930513583550625e-15,
+      "trial": 6
+    },
+    {
+      "bound": 62.48155097865269,
+      "independent_bound": 62.481550978652734,
+      "largest_principal_frequency": 49.49258892684742,
+      "relative_error": 6.823224372290587e-16,
+      "trial": 7
+    },
+    {
+      "bound": 21.885708987495363,
+      "independent_bound": 21.88570898749533,
+      "largest_principal_frequency": 21.780187686595717,
+      "relative_error": 1.4609726889575973e-15,
+      "trial": 8
+    },
+    {
+      "bound": 24.544209475740782,
+      "independent_bound": 24.54420947574077,
+      "largest_principal_frequency": 16.80374754089173,
+      "relative_error": 4.3424258772464817e-16,
+      "trial": 9
+    },
+    {
+      "bound": 130.37252169563456,
+      "independent_bound": 130.37252169563453,
+      "largest_principal_frequency": 97.59405426215935,
+      "relative_error": 2.1800383286868415e-16,
+      "trial": 10
+    },
+    {
+      "bound": 155.0716721837342,
+      "independent_bound": 155.07167218373417,
+      "largest_principal_frequency": 116.03793176758182,
+      "relative_error": 1.8328111788676015e-16,
+      "trial": 11
+    },
+    {
+      "bound": 103.51459996455617,
+      "independent_bound": 103.51459996455624,
+      "largest_principal_frequency": 91.68383481237227,
+      "relative_error": 6.864178927449775e-16,
+      "trial": 12
+    },
+    {
+      "bound": 42.84075640812738,
+      "independent_bound": 42.840756408127405,
+      "largest_principal_frequency": 37.1494095355228,
+      "relative_error": 4.975701612205673e-16,
+      "trial": 13
+    },
+    {
+      "bound": 28.282051813410433,
+      "independent_bound": 28.28205181341013,
+      "largest_principal_frequency": 22.52067671995089,
+      "relative_error": 1.067746656750188e-14,
+      "trial": 14
+    },
+    {
+      "bound": 89.18997362991061,
+      "independent_bound": 89.18997362991051,
+      "largest_principal_frequency": 75.60119138327919,
+      "relative_error": 1.1153269695894834e-15,
+      "trial": 15
+    },
+    {
+      "bound": 44.82513139292897,
+      "independent_bound": 44.82513139292892,
+      "largest_principal_frequency": 37.96337948945957,
+      "relative_error": 1.1096005735535466e-15,
+      "trial": 16
+    },
+    {
+      "bound": 31.977699362848895,
+      "independent_bound": 31.97769936284894,
+      "largest_principal_frequency": 24.68245887700667,
+      "relative_error": 1.4442964548620297e-15,
+      "trial": 17
+    },
+    {
+      "bound": 109.65625171493137,
+      "independent_bound": 109.65625171493141,
+      "largest_principal_frequency": 91.71705184413513,
+      "relative_error": 3.887837079862627e-16,
+      "trial": 18
+    },
+    {
+      "bound": 31.929670285324057,
+      "independent_bound": 31.929670285324057,
+      "largest_principal_frequency": 22.32520564687056,
+      "relative_error": 0.0,
+      "trial": 19
+    }
+  ],
+  "scope": "Tests producer bound only; independent frequency reconstruction, no numerical-stability or native-law conclusion.",
+  "source_sha256": "754080ba4fc8b4db3ba99ad06e9903c7c3ccdbfd0ee66051a674043b5593e5d6",
+  "status": "PASS",
+  "torch": "2.5.1+cu121"
+}

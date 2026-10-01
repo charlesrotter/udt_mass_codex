@@ -1,0 +1,33 @@
+{
+  "status": "PRE_REPAIR_SUPERVISOR_COUNTEREXAMPLES",
+  "records": [
+    {
+      "case": "missing_initial_binding",
+      "status": "PRE_REPAIR_GUARD_ACCEPTED",
+      "fake_child_count": 1,
+      "source_sha256": "d8a4ea21289ea752e25937109de035d377da0ba5ca79125ab08515408f8e2977",
+      "no_real_subprocess": true
+    },
+    {
+      "case": "duplicate_run",
+      "status": "PRE_REPAIR_GUARD_ACCEPTED",
+      "fake_child_count": 2,
+      "source_sha256": "d8a4ea21289ea752e25937109de035d377da0ba5ca79125ab08515408f8e2977",
+      "no_real_subprocess": true
+    },
+    {
+      "case": "nan_deadline",
+      "status": "PRE_REPAIR_GUARD_ACCEPTED",
+      "fake_child_count": 1,
+      "source_sha256": "d8a4ea21289ea752e25937109de035d377da0ba5ca79125ab08515408f8e2977",
+      "no_real_subprocess": true
+    },
+    {
+      "case": "midqueue_spec_edit",
+      "status": "PRE_REPAIR_GUARD_ACCEPTED",
+      "fake_child_count": 2,
+      "source_sha256": "d8a4ea21289ea752e25937109de035d377da0ba5ca79125ab08515408f8e2977",
+      "no_real_subprocess": true
+    }
+  ]
+}
