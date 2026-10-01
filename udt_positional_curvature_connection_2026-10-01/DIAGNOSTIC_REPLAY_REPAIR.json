@@ -1,0 +1,11 @@
+{
+  "utc": "2026-10-01T22:42:00.106703+00:00",
+  "kind": "diagnostic replay pointer only",
+  "source_objection": "/root/pcc_fidelity exposed review: original diagnostic command now resolves repaired live script",
+  "repair": "Preserve original diagnosis; provide fixed replay against byte-preserved initial implementation. No scientific candidate or check formula changed.",
+  "sha256": {
+    "udt_positional_curvature_connection_2026-10-01/replay_initial_diagnostic.py": "1e0928470b1034d02c61e3cc1e7c81df3a8c36cd25212914ac65fa688c60dc34",
+    "udt_positional_curvature_connection_2026-10-01/check_curvature_initial.py": "8fefb37e8ff69aaf67b8ddf77fa2b45828ee0dbb23da4e23a15504470f26b2fa",
+    "udt_positional_curvature_connection_2026-10-01/diagnose_curvature.py": "d9674b52901f1246d1fe657af4e96763d33a5efc5cdcc75296fe62695bdb0b0c"
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "reviewer": "/root/pcc_fidelity",
+  "model": "inherited Codex GPT-6-family configuration; exact server revision not exposed",
+  "utc": "2026-10-01T22:44:11.878023+00:00",
+  "verdict": "VERIFIED-WITH-CAVEATS",
+  "scope": "frozen conditional candidate and exact compatibility witness",
+  "fresh_context": true,
+  "different_model": false,
+  "source_first_frozen_before_candidate_exposure": true,
+  "peer_proof_code_verdict_exposure": false,
+  "substantive_unresolved_objections": [],
+  "defects": [
+    {
+      "id": "FID-REPLAY-1",
+      "kind": "reproducibility pointer",
+      "status": "CLOSED",
+      "repair": "separate replay against preserved initial implementation",
+      "rereview": "actual replay source, hashes and capture inspected; stdout identical"
+    }
+  ],
+  "checks": {
+    "source_first_exact_assertions": 294,
+    "saved_artifact_exact_assertions": 270,
+    "scientific_slot": "released"
+  },
+  "sha256": {
+    "udt_positional_curvature_connection_2026-10-01/WORK_ORDER.md": "aa618e3337dc450386672cfcf50491a405ad665a5ba2d5bcc462bdb2f0fd687f",
+    "udt_positional_curvature_connection_2026-10-01/SNAPSHOT.json": "a5351d880f4bc2cab23d38e32f8ac0efd05a72ffaac00bc3c44a55df7df8fb82",
+    "udt_positional_curvature_connection_2026-10-01/INITIAL_DERIVATION.md": "48b933b3f4473d8fbf236e658c567fe70e5296cc0e7f7e69f9d9042c3abcfd10",
+    "udt_positional_curvature_connection_2026-10-01/PARENT_FREEZE.json": "bb707fb80397f11d7864df42db9df3035f4746d5e95c0e5fd10c2eb52047992a",
+    "udt_positional_curvature_connection_2026-10-01/check_curvature.py": "9392fc6f4ee7eafc25b1c6017d13bdd96e643739aa7db52a62827b72729f1ebb",
+    "udt_positional_curvature_connection_2026-10-01/check_curvature_initial.py": "8fefb37e8ff69aaf67b8ddf77fa2b45828ee0dbb23da4e23a15504470f26b2fa",
+    "udt_positional_curvature_connection_2026-10-01/IMPLEMENTATION_REPAIR.json": "4f4d9f7b0e0116964f07cd00805b13fd64d4ba0e4903cb919a0e6187b82f542e",
+    "udt_positional_curvature_connection_2026-10-01/PRIMARY_REFERENCE.md": "640184cdb2c4d42139c530660fb30d0162a86e269e73b33b633e28b995776f80",
+    "udt_positional_curvature_connection_2026-10-01/diagnose_curvature.py": "d9674b52901f1246d1fe657af4e96763d33a5efc5cdcc75296fe62695bdb0b0c",
+    "udt_positional_curvature_connection_2026-10-01/DIAGNOSTIC_REPLAY_REPAIR.json": "d109170e2539131b101d46541c5a72812814a6a85285274fde17c28fc7142b3e",
+    "udt_positional_curvature_connection_2026-10-01/replay_initial_diagnostic.py": "1e0928470b1034d02c61e3cc1e7c81df3a8c36cd25212914ac65fa688c60dc34",
+    "udt_positional_curvature_connection_2026-10-01/checks/curvature.json": "8ce5dc9a39157bb0f2591a6035a3213acf9f2ee96673a68f725762a266223d17",
+    "udt_positional_curvature_connection_2026-10-01/checks/curvature.stdout": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "udt_positional_curvature_connection_2026-10-01/checks/curvature.stderr": "e0770a8b19f03da02bd89c814d4ef305aeeb7f785b62fce524c423708fb445f4",
+    "udt_positional_curvature_connection_2026-10-01/checks/curvature_diagnostic.json": "8210a71cc9f842c22ab8bb2d8bf698456943f306fd68980d1b3a01dd1cca904c",
+    "udt_positional_curvature_connection_2026-10-01/checks/curvature_diagnostic.stdout": "0e149903ff9a06ae8d329a741104ccc95469d4b4855472d96c425ced296332c1",
+    "udt_positional_curvature_connection_2026-10-01/checks/curvature_diagnostic.stderr": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "udt_positional_curvature_connection_2026-10-01/checks/curvature_repaired.json": "1e1192ebb592633f658de6ed353011abbd62bce47847f23fe9ab8f5f16e25380",
+    "udt_positional_curvature_connection_2026-10-01/checks/curvature_repaired.stdout": "0366a4c60d653fd47df62b2975f3b80d4dfc3c6b7ebef707629827b51985ea46",
+    "udt_positional_curvature_connection_2026-10-01/checks/curvature_repaired.stderr": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "udt_positional_curvature_connection_2026-10-01/checks/initial_diagnostic_replay.json": "2ca65b3dc39dd512f69a7a05969a74895ac66c445659fe7fe97a44301eae91a6",
+    "udt_positional_curvature_connection_2026-10-01/checks/initial_diagnostic_replay.stdout": "0e149903ff9a06ae8d329a741104ccc95469d4b4855472d96c425ced296332c1",
+    "udt_positional_curvature_connection_2026-10-01/checks/initial_diagnostic_replay.stderr": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "udt_positional_curvature_connection_2026-10-01/fidelity/SOURCE_FIRST.md": "3efa570de7636afdb3d5ebb14ff922beddfee26c83f30db83230f48f395c25d0",
+    "udt_positional_curvature_connection_2026-10-01/fidelity/check_fidelity.py": "52a888e4b22e976064f2641c2be6d8c65e43fc7aa685a0efbbe686695f4dc509",
+    "udt_positional_curvature_connection_2026-10-01/fidelity/EXACT_CONTROLS.json": "a6360e25a3c5710caa4728dcf84b85e48b4e121cf426a14656913b8fcabdcfa5",
+    "udt_positional_curvature_connection_2026-10-01/fidelity/source_first_run.json": "f14463c3312b0b3433322809256325bf4b2f1a0b2f2fe8f579a8f88b9cfb108e",
+    "udt_positional_curvature_connection_2026-10-01/fidelity/recover_saved.py": "7e5d4f96bb54d16f5e1738b1eed4e02f4a06442dc414ec6556eb49a0d35fe9f8",
+    "udt_positional_curvature_connection_2026-10-01/fidelity/SAVED_RECOVERY.json": "4ea388700f4f73933c3ffc2c58e609847ecf751e66ae3f1d7293dc388057d8c7",
+    "udt_positional_curvature_connection_2026-10-01/fidelity/saved_recovery_run.json": "ae881f15d17fdef35f399e01e57633963ca90b286329da6cec90086995be0dc4",
+    "udt_positional_curvature_connection_2026-10-01/fidelity/CANDIDATE_REVIEW.md": "fce89c22a82545bb4cd7bc408b0ce54b7d17a974590ad04c7d48734581fdcfb6"
+  }
+}

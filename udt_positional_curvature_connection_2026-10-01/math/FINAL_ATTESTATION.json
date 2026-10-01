@@ -1,4 +1,13 @@
 {
+  "context": "/root/pcc_math",
+  "reviewer_context": "/root/pcc_math",
+  "status": "FINAL_IMMUTABLE",
+  "verdict": "ACCEPT_WITH_LIMITS",
+  "utc": "2026-10-01T22:55:16.289559+00:00",
+  "report_path": "udt_positional_curvature_connection_2026-10-01/math/FINAL_REVIEW.md",
+  "report_sha256": "ac2070c78d8473c6fc5b04f1bab9fee2f68c70216cabb9d3d4526e0049139f29",
+  "freeze_path": "udt_positional_curvature_connection_2026-10-01/INTEGRATION_FREEZE.json",
+  "freeze_sha256": "1979f71a981fecccaffac24750d4f443d4e8d5e60dd69211fcda4a627a897ffc",
   "accepted_sha256": {
     ".gitignore": "8a2710f5923ba86b41a461e040282ecd520ce155cb17b09458e1d1d613ddeb7a",
     "AGENTS.md": "bcab9b67305e0314af9eaf25162d203660eae8f2ff4fd87d17e83588970ef38d",
@@ -12453,26 +12462,51 @@
     "verify_current_scientific_premises.py": "a983c2456ce3a122629a116c735b32b96e055829ed3012fb416fabfa9b0b8127",
     "verify_udt_development.py": "555e2733fa04c609874802369983f73b4a1d8a79610488d9dc732b1acfb0c2fa"
   },
-  "exposure_addenda": [
-    {
-      "context": "/root/pcc_math",
-      "meaning": "Peer preliminary final no-defect status arrived after final report/attestation were written but before immutable announcement; original records preserved and final stage not called blind.",
-      "path": "udt_positional_curvature_connection_2026-10-01/math/FINAL_EXPOSURE_ADDENDUM.md",
-      "sha256": "6790da957fb2903f27503ab1a6746c462192682c5636fa40becb60354dde8ea5"
-    }
+  "model": "Inherited parent configuration; exact serving-model identifier not independently exposed",
+  "exposure": {
+    "source_first_before_parent_candidate": true,
+    "shared_sources_and_target": true,
+    "candidate_and_supplement_later_exposed": true,
+    "peer_source_first_cubic_proof_code_authorized": true,
+    "current_peer_verdict_used_as_math_evidence": false,
+    "incidental_after_frozen_reviews": "collaboration.list_agents returned completed earlier connection_prior discussion; no code or argument changes followed",
+    "final_package_disposition_summaries_read": true,
+    "different_model": false,
+    "human": false,
+    "formal_proof": false
+  },
+  "checks": {
+    "six_central_diffs_semantically_reviewed": true,
+    "fixed_source_documents_semantically_reviewed": true,
+    "prior_record_sha256": "20842bbab6f5059f4b376a62d11a2c457370e85a16d520b073f1456b9c19902d",
+    "prior_map_entries": 12363,
+    "frozen_map_entries": 12452,
+    "changed_prior_entries": 6,
+    "new_entries": 89,
+    "removed_entries": 0,
+    "changed_new_actual_hashes_verified": 95,
+    "old_map_entries_otherwise_unchanged": true,
+    "old_graph_pins_preserved": 168,
+    "new_graph_pins": 174,
+    "old_edges_and_review_support_preserved": true,
+    "disposition_rows": 44,
+    "prior_43_disposition_rows_preserved": true,
+    "generated_orientation_exact_match": true,
+    "scientific_process_run_for_final_review": false,
+    "initial_replay_original_stdout_hash_equal": true
+  },
+  "substantive_objections": [],
+  "required_scientific_repair": null,
+  "omissions": [
+    "Full historical reproof",
+    "Exhaustive prior-payload hashing",
+    "Full PSW1 proof replay",
+    "General regional PDE or global existence",
+    "Finite clock integration or empirical error control",
+    "Native admission or physical adoption",
+    "Different-model, human or formal review",
+    "Parent subsequent normal/57/full406 closure checks",
+    "Parent staging, commit, push and remote verification"
   ],
-  "reviewers": [
-    {
-      "attestation": "udt_positional_curvature_connection_2026-10-01/math/FINAL_ATTESTATION.json",
-      "context": "/root/pcc_math",
-      "sha256": "dc391685b1bc9486db90431a0ef4ef3d1a94cb7c3b292d667393b9377fb392c2"
-    },
-    {
-      "attestation": "udt_positional_curvature_connection_2026-10-01/fidelity/FINAL_ATTESTATION.json",
-      "context": "/root/pcc_fidelity",
-      "sha256": "f2e13a9991fc8d7d786bef8a2817f5fbc1d74f3baade738693df35d3a1586e81"
-    }
-  ],
-  "scope": "PCC1 UNADOPTED all-frame leading additional clock-curvature trial with supplied physical comparison: pointwise equivalence, necessary regional relation, scoped variable-reference/cubic controls and nonuniform Einstein-reference witness. No native admission, response identification, selected scale or finite law. Prior accepted versions inherited, not historical reproof.",
-  "status": "REVIEWED_WITH_LIMITS"
+  "scope": "PCC1 frozen conditional mathematical integration; no grade, empirical, adoption or canon upgrade."
 }

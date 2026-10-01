@@ -1,0 +1,19 @@
+{
+  "command": [
+    "python3",
+    "udt_positional_curvature_connection_2026-10-01/math/check_geometry.py"
+  ],
+  "cwd": "/home/udt-admin/udt_mass_codex",
+  "started_utc": "2026-10-01T22:40:15.513868+00:00",
+  "duration_seconds": 0.782870608032681,
+  "returncode": 1,
+  "wall_timeout_seconds": null,
+  "cpu_timeout_seconds": null,
+  "address_space_bytes": 2147483648,
+  "memory_scope": "Process virtual address limit",
+  "maxrss_kib": 61224,
+  "forwarded_signals": [],
+  "stdout_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "stderr_sha256": "0e25b3d9e2943cb2d6cca505b9734b45a2cc2dc0c8c448f8c1b379f2099fcab9",
+  "capture_sha256": "217cdbac5486e8a531552f4d74a15ce641299b65dafb5d58f7b60f4ba51781bc"
+}

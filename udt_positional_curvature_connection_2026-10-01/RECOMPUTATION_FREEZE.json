@@ -1,0 +1,8 @@
+{
+  "utc": "2026-10-01T22:41:40.897711+00:00",
+  "exposure": "Parent frozen derivation/code and own saved original curvature; neither peer code nor full argument read.",
+  "sha256": {
+    "udt_positional_curvature_connection_2026-10-01/recompute_saved.py": "64d9cf5f5c4d58aadf9a90c5f393b90b544a6a29bda9d132a16f2a832ea560bb",
+    "udt_positional_curvature_connection_2026-10-01/checks/curvature_repaired.stdout": "0366a4c60d653fd47df62b2975f3b80d4dfc3c6b7ebef707629827b51985ea46"
+  }
+}

@@ -12453,26 +12453,33 @@
     "verify_current_scientific_premises.py": "a983c2456ce3a122629a116c735b32b96e055829ed3012fb416fabfa9b0b8127",
     "verify_udt_development.py": "555e2733fa04c609874802369983f73b4a1d8a79610488d9dc732b1acfb0c2fa"
   },
-  "exposure_addenda": [
-    {
-      "context": "/root/pcc_math",
-      "meaning": "Peer preliminary final no-defect status arrived after final report/attestation were written but before immutable announcement; original records preserved and final stage not called blind.",
-      "path": "udt_positional_curvature_connection_2026-10-01/math/FINAL_EXPOSURE_ADDENDUM.md",
-      "sha256": "6790da957fb2903f27503ab1a6746c462192682c5636fa40becb60354dde8ea5"
-    }
+  "actual_checks": [
+    "Independent source-first294 exact assertions",
+    "Independent exposed saved-Christoffel270 exact assertions",
+    "Analytic physical-connection variable-kappa divergence recomputation",
+    "All95 changed/new hashes, exact map retention,168 retained old source pins, prior edges/support retained,44th disposition, generated orientation match, unchanged tracked CANON/registry"
   ],
-  "reviewers": [
-    {
-      "attestation": "udt_positional_curvature_connection_2026-10-01/math/FINAL_ATTESTATION.json",
-      "context": "/root/pcc_math",
-      "sha256": "dc391685b1bc9486db90431a0ef4ef3d1a94cb7c3b292d667393b9377fb392c2"
-    },
-    {
-      "attestation": "udt_positional_curvature_connection_2026-10-01/fidelity/FINAL_ATTESTATION.json",
-      "context": "/root/pcc_fidelity",
-      "sha256": "f2e13a9991fc8d7d786bef8a2817f5fbc1d74f3baade738693df35d3a1586e81"
-    }
+  "actual_exposure": "Source-first freeze before candidate/peer; later exposed parent implementation/output, peer scientific argument/code/output, final integrated review summaries; historical prior-discussion summary appeared via agent status after supplement freeze",
+  "actual_review_scope": "All six changed central/current files, graph/disposition, fixed result/descendant/decision/execution/banking documents and bound scientific candidate/supplement controls",
+  "context": "/root/pcc_fidelity",
+  "freeze_path": "udt_positional_curvature_connection_2026-10-01/INTEGRATION_FREEZE.json",
+  "freeze_sha256": "1979f71a981fecccaffac24750d4f443d4e8d5e60dd69211fcda4a627a897ffc",
+  "integration_checks_path": "udt_positional_curvature_connection_2026-10-01/fidelity/INTEGRATION_CHECKS.json",
+  "integration_checks_sha256": "d76687541e3ea6d98a986b2ac16ce77ed2051ba78f0ab38a781072b21e98654b",
+  "model": "Inherited Codex GPT-6-family configuration; exact serving revision independently unavailable",
+  "omissions": [
+    "No whole historical corpus scientific reproof or fresh unchanged-payload rehash",
+    "No general regional/global existence/classification or finite-clock numerical certification",
+    "No empirical/source/stability/horizon analysis",
+    "No human/different-model/formal proof review",
+    "Pending normal/57/full406 closure, manifest, staging, commit, push and remote verification not preclaimed"
   ],
-  "scope": "PCC1 UNADOPTED all-frame leading additional clock-curvature trial with supplied physical comparison: pointwise equivalence, necessary regional relation, scoped variable-reference/cubic controls and nonuniform Einstein-reference witness. No native admission, response identification, selected scale or finite law. Prior accepted versions inherited, not historical reproof.",
-  "status": "REVIEWED_WITH_LIMITS"
+  "physical_trial": "UNADOPTED",
+  "report_path": "udt_positional_curvature_connection_2026-10-01/fidelity/FINAL_REVIEW.md",
+  "report_sha256": "5c30c94e5fec3ae51f8f47abbd916d4a174a459e38923e572690cb511336e443",
+  "scientific_execution_in_final_stage": false,
+  "status": "FINAL_IMMUTABLE",
+  "unresolved_substantive_objections": [],
+  "utc": "2026-10-01T22:55:46.208878+00:00",
+  "verdict": "ACCEPT_WITH_LIMITS"
 }

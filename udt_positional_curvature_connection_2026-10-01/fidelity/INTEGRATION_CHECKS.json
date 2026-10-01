@@ -1,0 +1,28 @@
+{
+  "kind": "non-scientific byte correspondence and graph retention checks",
+  "freeze_sha256": "1979f71a981fecccaffac24750d4f443d4e8d5e60dd69211fcda4a627a897ffc",
+  "prior_record_sha256": "20842bbab6f5059f4b376a62d11a2c457370e85a16d520b073f1456b9c19902d",
+  "prior_map_count": 12363,
+  "accepted_map_count": 12452,
+  "new_file_count": 89,
+  "changed_old_files": [
+    "CURRENT_RESEARCH_PROGRAM.md",
+    "HANDOFF.md",
+    "LIVE.md",
+    "UDT_DEVELOPMENT.md",
+    "development_reconstruction_2026-09-29/DEVELOPMENT_GRAPH.json",
+    "development_reconstruction_2026-09-29/RECENT_DISPOSITIONS.tsv"
+  ],
+  "removed_files": [],
+  "changed_new_file_hash_mismatches": [],
+  "old_source_pins_retained_unchanged": 168,
+  "new_source_pins": 6,
+  "old_edges_retained": 202,
+  "added_edges": 22,
+  "old_review_support_retained": 92,
+  "new_review_support": 7,
+  "recent_dispositions": 44,
+  "generated_orientation_exact_match": true,
+  "CANON_registry_tracked_diff": "unchanged",
+  "not_claimed": "All historical map payloads freshly hashed or scientifically re-proved; closure check pass; commit or remote completion"
+}

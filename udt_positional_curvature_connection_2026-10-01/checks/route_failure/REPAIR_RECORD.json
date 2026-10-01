@@ -1,0 +1,6 @@
+{
+  "utc": "2026-10-01T22:51:25.159422+00:00",
+  "cause": "Operational route guard requires explicit Stop for lay discussion phrase; new HANDOFF had a lowercase shorter paraphrase.",
+  "repair": "Restore exact route label; unchanged science.",
+  "preserved": "Original candidate HANDOFF and failed capture are in this directory."
+}

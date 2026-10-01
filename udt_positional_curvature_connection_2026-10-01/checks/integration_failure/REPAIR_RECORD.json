@@ -1,0 +1,11 @@
+{
+  "utc": "2026-10-01T22:51:00.683322+00:00",
+  "cause": "Integration helper launched from /tmp could not import the repository module, before any helper mutations. Subsequent draft guard correctly failed on stale generated orientation.",
+  "failed_command": [
+    "python3",
+    "/tmp/udt_pcc_integrate.py"
+  ],
+  "failed_stderr": "ModuleNotFoundError: No module named 'verify_udt_development'",
+  "repair": "Run unchanged helper with explicit repository PYTHONPATH; all scientific sources stay unchanged.",
+  "candidate_or_premise_change": false
+}

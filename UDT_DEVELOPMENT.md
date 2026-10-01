@@ -1,7 +1,7 @@
 # UDT — continuous scientific development
 
 <!-- DEVELOPMENT_ORIENTATION_BEGIN -->
-**Continuous development — CDR1 with SGE1, LKT1, GCA1, PCW1, CES1, CCR1, PRI1, TRI1, NGD1, TDS1, TPP1, TPS1, PSW1, FPC1, FNA1, FST1 and ECS1, 2026-10-01.** This is the maintained
+**Continuous development — CDR1 with SGE1, LKT1, GCA1, PCW1, CES1, CCR1, PRI1, TRI1, NGD1, TDS1, TPP1, TPS1, PSW1, FPC1, FNA1, FST1, ECS1 and PCC1, 2026-10-01.** This is the maintained
 scientific development. It is not canon or a new scientific-grade authority.
 The exact registry and reviewed sources own grades; LIVE owns operational status.
 Current review bindings and limits are recorded in section9; startup reads the
@@ -122,8 +122,16 @@ beyond leading order. An exact transverse-metric construction nevertheless
 preserves the entire measured clock sheet while changing4D curvature. Thus the
 relation is a conditional discriminator, not unique metric reconstruction or
 native physical selection. Neither all-observer nor field-sector nonuniqueness
-is proved. Stop for discussion at the reviewed echo-test return; no new physical
-premise is adopted.
+is proved.
+PCC1 now tests an explicitly UNADOPTED all-frame isotropic additional leading
+clock-curvature contribution in physically matched comparisons. It forces a
+space-form curvature DIFFERENCE and preserves matched Weyl anisotropy, not total
+isotropy. An exact nonuniform Kottler comparison realizes it. An Einstein reference
+forces a constant added coefficient; a supplied evolving-reference counterexample
+shows general constancy is false. Reference/matching, positional identification
+and native selection remain open; this adds no distinct UDT prediction or finite
+distance law. Stop for discussion at the reviewed conditional trial return; no
+physical premise is adopted.
 <!-- DEVELOPMENT_ORIENTATION_END -->
 
 ## 1. How this development is owned
@@ -1331,6 +1339,119 @@ Sources: [static reconstruction and general transverse witness](udt_echo_consist
 and [reviewed scope](udt_echo_consistency_2026-10-01/REVIEWED_RESULT.md).
 
 
+<a id="r8pcc"></a>
+
+#### An isotropic additional clock-curvature contribution — PCC1
+
+Charles authorized a test, not adoption, of a stronger physical connection:
+the additional positional contribution might have the same infinitesimal clock
+curvature in every freely falling frame while ordinary tidal anisotropy remains.
+This is **UNADOPTED**. Its all-frame isotropy and identification with the leading
+L² contrast do not follow from no preferred observer, ordinary clocks or DDR.
+
+Supply two smooth time-oriented Lorentz4 geometries g,g0, matched events and a
+time-oriented tangent isometry I. Match orthonormal initial laboratory frames,
+proper L, parallel preparation, units and regular direct PSW1 clock protocols;
+boost both initial frames together through I. Each laboratory then uses its own
+free clocks and null paths. Reference and matching are supplied physical choices,
+not coordinate equality, a second physical spacetime or an addition of metrics.
+With A_g(X,Y,Z,W)=g(R_g(X,Y)Z,W), define D=A_g-I* A_g0. PSW1 gives
+
+    C(U,n)=lim_(L->0) 2 log(p_L/p0_L)/L²=-D(n,U,U,n).
+
+The trial condition C(U,n)=kappa for EVERY future unit timelike U and every
+unit n perpendicular to U is pointwise equivalent to
+
+    D=kappa B_g,
+    B_g(X,Y,Z,W)=g(Y,Z)g(X,W)-g(X,Z)g(Y,W).
+
+Indeed F=D-kappa B has F(X,U,U,X)=0 for all X and timelike U by projection
+and homogeneity. Polynomial identity on the open timelike cone extends this
+to all U. Polarizing X, then U, makes F alternating in its first three slots;
+algebraic Bianchi gives3F=0. Conversely B(n,U,U,n)=-1. Thus the entire curvature
+DIFFERENCE is fixed, not the entire curvature of either geometry. Contraction
+and algebraic trace decomposition give Delta Ric=3kappa g, Delta R=12kappa
+and matched Delta Weyl=0. Nonzero ordinary anisotropic tides may remain.
+The leading outgoing and actual return contrasts are kappa L²/2 and3kappa L²/2.
+These are local fixed-comparison asymptotics, without a uniform finite-distance
+or empirical error bound. Positive added contrast does not force total redshift.
+
+One frame or one triad is weaker: pure spatial constant-curvature data have
+zero electric tide for U=e0, but the boost U=(5e0+3e1)/4 has transverse tide9K/16.
+A common Lorentz change of matched frames preserves the condition; rotating only
+the reference relative to a nonuniform tidal frame may change it. The comparison
+is covariant but reference/matching-dependent. No response E=Ric is inferred.
+
+<a id="r8pccr"></a>
+
+**Regional compatibility.** To extend the statement, supply a smooth event map
+and tangent matching across a region and impose D=kappa B there. With
+S=I*Ric[g0], contracted Bianchi for the physical metric gives the necessary condition
+
+    3 d kappa=div_g S-(1/2)d tr_g S.
+
+The transferred reference tensor need not satisfy its reference Bianchi identity
+with the physical connection. Subtracting the two connections' identities as
+though they were the same would be invalid. This condition is not sufficient
+for full curvature integrability or a general construction of g and its matching.
+
+An exact supplied control makes the distinction concrete. In a chosen time unit,
+g0=-dt²+exp(t²)sum dx_i² and g=-dt²+exp(t²+2ct)sum dx_i², matched at equal t
+by comoving orthonormal frames, have H0=t and H=t+c. Their temporal sectional
+curvatures H'+H² and spatial curvatures H² differ by kappa(t)=2ct+c²; mixed
+components vanish. Thus the all-frame difference holds across a region with
+nonconstant kappa. Direct physical-connection differentiation gives the displayed
+identity's right side(6c,0,0,0)=3d kappa. This is a supplied geometric counterexample
+to GENERAL constancy, not an adopted expanding-cosmos explanation for UDT.
+
+<a id="r8pcce"></a>
+
+**Einstein-reference special case and a nonuniform witness.** If the supplied
+reference additionally satisfies Ric[g0]=Lambda0 g0 with constant Lambda0,
+then S=Lambda0 g. Hence Ric[g]=(Lambda0+3kappa)g and the physical metric's own
+Bianchi identity forces d kappa=0 on a connected regular region. This special
+case requires no connection-preserving matching. It retains equality of matched
+Weyl tensors as a further condition beyond the Ricci equation.
+
+The familiar supplied comparison
+
+    g_k=-f_k dt²+dr²/f_k+r²dOmega²,
+    f_k=1-2mu/r-kappa r²,
+
+versus f0=1-2mu/r satisfies the full difference for corresponding radial/angular
+orthonormal frames at equal areal radius and the same mu. Both f values must be
+positive on the common regular patch r>0,0<theta<pi. mu is a free geometric
+length parameter, not a derived material mass. Static frames specify initial
+velocities; the prepared clocks are released and fall freely, including their
+simultaneous boosts. Direct original-connection calculation gives electric tides
+(-2mu/r³-kappa,mu/r³-kappa,mu/r³-kappa), Ric=3kappa g and retained Weyl square
+48mu²/r⁶. The full256-component difference, not just these tides, was checked.
+This is a regional compatibility witness with anisotropy, not total isotropy,
+an arbitrary-source theorem, an empirical GR pass or a native UDT metric.
+[Comparison credit](udt_positional_curvature_connection_2026-10-01/PRIMARY_REFERENCE.md)
+identifies the known Kottler family; no GR equation is adopted as a construction law.
+
+Pointwise zero contrast also leaves finite information open: for the supplied
+scale factor a(t)=1+beta t³ versus Minkowski, with beta of dimension T^-3,
+all curvature vanishes at t=0 but parallel-prepared comoving clocks give
+log p=beta L³+O(L⁶), log q=7beta L³+O(L⁶).
+This is a one-event control, not D=0 imposed throughout a region. It defeats
+extending the leading quadratic relation to complete finite clock records.
+
+The result makes the trial connection well-defined once comparison data are
+supplied and proves compatibility in a nonuniform example. In the vacuum-reference
+sector its Ricci consequence is already a GR cosmological-term possibility.
+Reference selection, positional attribution, scalar sign/value, native admission,
+finite-distance/asymptotic behavior and physical X_max remain open. The test neither
+adopts its hypothesis nor proves the founding postulates require another premise.
+
+Sources: [frozen parent argument](udt_positional_curvature_connection_2026-10-01/INITIAL_DERIVATION.md),
+[independent mathematical reconstruction](udt_positional_curvature_connection_2026-10-01/math/SOURCE_FIRST_ARGUMENT.md),
+[fidelity reconstruction](udt_positional_curvature_connection_2026-10-01/fidelity/SOURCE_FIRST.md),
+[scoped extra controls](udt_positional_curvature_connection_2026-10-01/SUPPLEMENT.md)
+and [reviewed result](udt_positional_curvature_connection_2026-10-01/REVIEWED_RESULT.md).
+
+
 ## 6. Response restrictions and an optional conditional dynamics branch
 
 <a id="r9"></a>
@@ -2278,6 +2399,18 @@ the explicit mimic but do not by themselves supply a field law or complete
 reconstruction theorem. The [ECS1 decision brief](udt_echo_consistency_2026-10-01/DECISION_BRIEF.md)
 marks this bounded return; no universal echo law or successor is adopted.
 
+PCC1 now gives the proposed additional isotropic curvature a precise, conditional
+meaning in R8. All-frame prepared-clock contrast fixes the curvature difference,
+including its Weyl equality; it does not make total gravity isotropic. The nonuniform
+witness and variable-reference counterexample establish different regional scopes.
+For a vacuum reference the surviving Ricci equation is a familiar cosmological-term
+possibility, not a new consequence of DDR or a distinct UDT law. The required reference
+and physical positional attribution are still supplied. Choosing another compatible
+metric or simply enlarging the same numerical survey will not justify that supplied
+connection. This does not prove native closure impossible: the tested leading-L²
+assignment is only one unadopted possibility. The [PCC1 decision brief](udt_positional_curvature_connection_2026-10-01/DECISION_BRIEF.md)
+returns for discussion without adopting the trial or launching a successor.
+
 NGD1's numerical return in R12N adds a validated comparison tool and finite
 nonlinear clock-shift histories. Its positive contribution relative to a specified
 control does not select the native geometry, and a blueshift in a supplied
@@ -2693,7 +2826,7 @@ founding premises are insufficient.
 Retained branches and omissions are explicit below. These results are useful;
 their original full proofs, repairs, qualifications and grades remain at source.
 CDR1 does not claim to rederive all of them. The [406-row disposition ledger](development_reconstruction_2026-09-29/CLAIM_DISPOSITIONS.tsv)
-and [43 later returns](development_reconstruction_2026-09-29/RECENT_DISPOSITIONS.tsv)
+and [44 later returns](development_reconstruction_2026-09-29/RECENT_DISPOSITIONS.tsv)
 identify exact sources and reconstruction depth.
 
 | Retained work | Gain and limit |
@@ -2726,7 +2859,7 @@ it does not merely add another disconnected report.
 
 This is an18-result central reconstruction with actual core calculations,
 standard-method applications and explicitly retained source branches. All406
-registered rows have an editorial disposition;39 relevant later returns
+registered rows have an editorial disposition;44 relevant later returns
 are separately mapped. It does not claim to re-prove every historical result.
 Existence/MGHD, full external invariant theory, detailed nonlinear asymptotics,
 the55-component optional analytic system, the eight signal packages, empirical
@@ -2984,6 +3117,24 @@ The [descendant review](udt_echo_consistency_2026-10-01/DESCENDANT_REVIEW.md) co
 positive discrimination, negative uniqueness, rank/field-sector qualifications
 and untouched prior conclusions. [Execution record](udt_echo_consistency_2026-10-01/WORK_RECORD.md)
 and final attestations bind actual versions, exposures and omitted work.
+
+PCC1 used two fresh source-first contexts followed by actual exposed candidate
+and supplement reviews. Their arguments and independently authored implementations
+share the inherited model, sources and SymPy. Parent291, math1014 and fidelity294
+finite exact controls include many component/zero assertions; they are not that
+many independent proofs. Parent792 Fraction checks reconstruct matched tensors
+from saved coordinate curvature without CAS. Math262 and fidelity270 exposed
+saved-artifact checks independently recover the regional identity and original
+connection quantities. Parent and math each preserve an initial trig-normalization
+false negative and unchanged-science repair. A separate fixed-file diagnostic
+replay closes the fidelity review's reproducibility objection. The initial
+scientific candidate is unchanged. The [descendant review](udt_positional_curvature_connection_2026-10-01/DESCENDANT_REVIEW.md)
+retains both positive compatibility and negative inference limits; the [execution
+record](udt_positional_curvature_connection_2026-10-01/WORK_RECORD.md) and actual final
+attestations bind versions and omitted work. Different-model/human/formal review,
+general regional classification, finite-clock integration and empirical testing
+remain unperformed. The maintained coverage count is reconciled to44 later returns;
+fixed historical coverage snapshots are unchanged.
 
 The preserved first candidates expose the repair history. The [source correction](development_reconstruction_2026-09-29/SOURCE_CORRECTIONS.md)
 fixes a real covector-basis sign in G310; the central nine-direction span and

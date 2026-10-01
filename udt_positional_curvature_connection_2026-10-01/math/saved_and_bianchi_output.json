@@ -1,0 +1,1337 @@
+{
+  "status": "PASS",
+  "python": "3.10.12",
+  "sympy": "1.13.1",
+  "script_sha256": "6a4991e828fbef55fa836ca22e36b55da33badf9130db7da6983d11aabc1b62f",
+  "source_hashes": {
+    "math/geometry_output.json": "f715798798ec1091d8c31aa883815771a967669f10203bf3dd54c10c34ba08cf",
+    "checks/curvature_repaired.stdout": "0366a4c60d653fd47df62b2975f3b80d4dfc3c6b7ebef707629827b51985ea46"
+  },
+  "check_count": 262,
+  "checks": [
+    {
+      "label": "saved independent full tensor (0, 0, 0, 0)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "saved independent full tensor (0, 0, 0, 1)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "saved independent full tensor (0, 0, 0, 2)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "saved independent full tensor (0, 0, 0, 3)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "saved independent full tensor (0, 0, 1, 0)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "saved independent full tensor (0, 0, 1, 1)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "saved independent full tensor (0, 0, 1, 2)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "saved independent full tensor (0, 0, 1, 3)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "saved independent full tensor (0, 0, 2, 0)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "saved independent full tensor (0, 0, 2, 1)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "saved independent full tensor (0, 0, 2, 2)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "saved independent full tensor (0, 0, 2, 3)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "saved independent full tensor (0, 0, 3, 0)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "saved independent full tensor (0, 0, 3, 1)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "saved independent full tensor (0, 0, 3, 2)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "saved independent full tensor (0, 0, 3, 3)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "saved independent full tensor (0, 1, 0, 0)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "saved independent full tensor (0, 1, 0, 1)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "saved independent full tensor (0, 1, 0, 2)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "saved independent full tensor (0, 1, 0, 3)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "saved independent full tensor (0, 1, 1, 0)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "saved independent full tensor (0, 1, 1, 1)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "saved independent full tensor (0, 1, 1, 2)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "saved independent full tensor (0, 1, 1, 3)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "saved independent full tensor (0, 1, 2, 0)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "saved independent full tensor (0, 1, 2, 1)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "saved independent full tensor (0, 1, 2, 2)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "saved independent full tensor (0, 1, 2, 3)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "saved independent full tensor (0, 1, 3, 0)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "saved independent full tensor (0, 1, 3, 1)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "saved independent full tensor (0, 1, 3, 2)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "saved independent full tensor (0, 1, 3, 3)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "saved independent full tensor (0, 2, 0, 0)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "saved independent full tensor (0, 2, 0, 1)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "saved independent full tensor (0, 2, 0, 2)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "saved independent full tensor (0, 2, 0, 3)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "saved independent full tensor (0, 2, 1, 0)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "saved independent full tensor (0, 2, 1, 1)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "saved independent full tensor (0, 2, 1, 2)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "saved independent full tensor (0, 2, 1, 3)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "saved independent full tensor (0, 2, 2, 0)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "saved independent full tensor (0, 2, 2, 1)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "saved independent full tensor (0, 2, 2, 2)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "saved independent full tensor (0, 2, 2, 3)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "saved independent full tensor (0, 2, 3, 0)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "saved independent full tensor (0, 2, 3, 1)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "saved independent full tensor (0, 2, 3, 2)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "saved independent full tensor (0, 2, 3, 3)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "saved independent full tensor (0, 3, 0, 0)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "saved independent full tensor (0, 3, 0, 1)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "saved independent full tensor (0, 3, 0, 2)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "saved independent full tensor (0, 3, 0, 3)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "saved independent full tensor (0, 3, 1, 0)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "saved independent full tensor (0, 3, 1, 1)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "saved independent full tensor (0, 3, 1, 2)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "saved independent full tensor (0, 3, 1, 3)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "saved independent full tensor (0, 3, 2, 0)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "saved independent full tensor (0, 3, 2, 1)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "saved independent full tensor (0, 3, 2, 2)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "saved independent full tensor (0, 3, 2, 3)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "saved independent full tensor (0, 3, 3, 0)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "saved independent full tensor (0, 3, 3, 1)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "saved independent full tensor (0, 3, 3, 2)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "saved independent full tensor (0, 3, 3, 3)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "saved independent full tensor (1, 0, 0, 0)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "saved independent full tensor (1, 0, 0, 1)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "saved independent full tensor (1, 0, 0, 2)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "saved independent full tensor (1, 0, 0, 3)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "saved independent full tensor (1, 0, 1, 0)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "saved independent full tensor (1, 0, 1, 1)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "saved independent full tensor (1, 0, 1, 2)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "saved independent full tensor (1, 0, 1, 3)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "saved independent full tensor (1, 0, 2, 0)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "saved independent full tensor (1, 0, 2, 1)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "saved independent full tensor (1, 0, 2, 2)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "saved independent full tensor (1, 0, 2, 3)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "saved independent full tensor (1, 0, 3, 0)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "saved independent full tensor (1, 0, 3, 1)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "saved independent full tensor (1, 0, 3, 2)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "saved independent full tensor (1, 0, 3, 3)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "saved independent full tensor (1, 1, 0, 0)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "saved independent full tensor (1, 1, 0, 1)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "saved independent full tensor (1, 1, 0, 2)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "saved independent full tensor (1, 1, 0, 3)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "saved independent full tensor (1, 1, 1, 0)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "saved independent full tensor (1, 1, 1, 1)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "saved independent full tensor (1, 1, 1, 2)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "saved independent full tensor (1, 1, 1, 3)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "saved independent full tensor (1, 1, 2, 0)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "saved independent full tensor (1, 1, 2, 1)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "saved independent full tensor (1, 1, 2, 2)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "saved independent full tensor (1, 1, 2, 3)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "saved independent full tensor (1, 1, 3, 0)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "saved independent full tensor (1, 1, 3, 1)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "saved independent full tensor (1, 1, 3, 2)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "saved independent full tensor (1, 1, 3, 3)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "saved independent full tensor (1, 2, 0, 0)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "saved independent full tensor (1, 2, 0, 1)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "saved independent full tensor (1, 2, 0, 2)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "saved independent full tensor (1, 2, 0, 3)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "saved independent full tensor (1, 2, 1, 0)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "saved independent full tensor (1, 2, 1, 1)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "saved independent full tensor (1, 2, 1, 2)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "saved independent full tensor (1, 2, 1, 3)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "saved independent full tensor (1, 2, 2, 0)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "saved independent full tensor (1, 2, 2, 1)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "saved independent full tensor (1, 2, 2, 2)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "saved independent full tensor (1, 2, 2, 3)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "saved independent full tensor (1, 2, 3, 0)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "saved independent full tensor (1, 2, 3, 1)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "saved independent full tensor (1, 2, 3, 2)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "saved independent full tensor (1, 2, 3, 3)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "saved independent full tensor (1, 3, 0, 0)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "saved independent full tensor (1, 3, 0, 1)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "saved independent full tensor (1, 3, 0, 2)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "saved independent full tensor (1, 3, 0, 3)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "saved independent full tensor (1, 3, 1, 0)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "saved independent full tensor (1, 3, 1, 1)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "saved independent full tensor (1, 3, 1, 2)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "saved independent full tensor (1, 3, 1, 3)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "saved independent full tensor (1, 3, 2, 0)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "saved independent full tensor (1, 3, 2, 1)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "saved independent full tensor (1, 3, 2, 2)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "saved independent full tensor (1, 3, 2, 3)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "saved independent full tensor (1, 3, 3, 0)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "saved independent full tensor (1, 3, 3, 1)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "saved independent full tensor (1, 3, 3, 2)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "saved independent full tensor (1, 3, 3, 3)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "saved independent full tensor (2, 0, 0, 0)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "saved independent full tensor (2, 0, 0, 1)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "saved independent full tensor (2, 0, 0, 2)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "saved independent full tensor (2, 0, 0, 3)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "saved independent full tensor (2, 0, 1, 0)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "saved independent full tensor (2, 0, 1, 1)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "saved independent full tensor (2, 0, 1, 2)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "saved independent full tensor (2, 0, 1, 3)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "saved independent full tensor (2, 0, 2, 0)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "saved independent full tensor (2, 0, 2, 1)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "saved independent full tensor (2, 0, 2, 2)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "saved independent full tensor (2, 0, 2, 3)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "saved independent full tensor (2, 0, 3, 0)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "saved independent full tensor (2, 0, 3, 1)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "saved independent full tensor (2, 0, 3, 2)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "saved independent full tensor (2, 0, 3, 3)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "saved independent full tensor (2, 1, 0, 0)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "saved independent full tensor (2, 1, 0, 1)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "saved independent full tensor (2, 1, 0, 2)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "saved independent full tensor (2, 1, 0, 3)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "saved independent full tensor (2, 1, 1, 0)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "saved independent full tensor (2, 1, 1, 1)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "saved independent full tensor (2, 1, 1, 2)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "saved independent full tensor (2, 1, 1, 3)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "saved independent full tensor (2, 1, 2, 0)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "saved independent full tensor (2, 1, 2, 1)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "saved independent full tensor (2, 1, 2, 2)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "saved independent full tensor (2, 1, 2, 3)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "saved independent full tensor (2, 1, 3, 0)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "saved independent full tensor (2, 1, 3, 1)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "saved independent full tensor (2, 1, 3, 2)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "saved independent full tensor (2, 1, 3, 3)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "saved independent full tensor (2, 2, 0, 0)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "saved independent full tensor (2, 2, 0, 1)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "saved independent full tensor (2, 2, 0, 2)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "saved independent full tensor (2, 2, 0, 3)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "saved independent full tensor (2, 2, 1, 0)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "saved independent full tensor (2, 2, 1, 1)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "saved independent full tensor (2, 2, 1, 2)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "saved independent full tensor (2, 2, 1, 3)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "saved independent full tensor (2, 2, 2, 0)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "saved independent full tensor (2, 2, 2, 1)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "saved independent full tensor (2, 2, 2, 2)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "saved independent full tensor (2, 2, 2, 3)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "saved independent full tensor (2, 2, 3, 0)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "saved independent full tensor (2, 2, 3, 1)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "saved independent full tensor (2, 2, 3, 2)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "saved independent full tensor (2, 2, 3, 3)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "saved independent full tensor (2, 3, 0, 0)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "saved independent full tensor (2, 3, 0, 1)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "saved independent full tensor (2, 3, 0, 2)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "saved independent full tensor (2, 3, 0, 3)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "saved independent full tensor (2, 3, 1, 0)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "saved independent full tensor (2, 3, 1, 1)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "saved independent full tensor (2, 3, 1, 2)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "saved independent full tensor (2, 3, 1, 3)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "saved independent full tensor (2, 3, 2, 0)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "saved independent full tensor (2, 3, 2, 1)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "saved independent full tensor (2, 3, 2, 2)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "saved independent full tensor (2, 3, 2, 3)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "saved independent full tensor (2, 3, 3, 0)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "saved independent full tensor (2, 3, 3, 1)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "saved independent full tensor (2, 3, 3, 2)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "saved independent full tensor (2, 3, 3, 3)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "saved independent full tensor (3, 0, 0, 0)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "saved independent full tensor (3, 0, 0, 1)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "saved independent full tensor (3, 0, 0, 2)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "saved independent full tensor (3, 0, 0, 3)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "saved independent full tensor (3, 0, 1, 0)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "saved independent full tensor (3, 0, 1, 1)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "saved independent full tensor (3, 0, 1, 2)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "saved independent full tensor (3, 0, 1, 3)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "saved independent full tensor (3, 0, 2, 0)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "saved independent full tensor (3, 0, 2, 1)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "saved independent full tensor (3, 0, 2, 2)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "saved independent full tensor (3, 0, 2, 3)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "saved independent full tensor (3, 0, 3, 0)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "saved independent full tensor (3, 0, 3, 1)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "saved independent full tensor (3, 0, 3, 2)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "saved independent full tensor (3, 0, 3, 3)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "saved independent full tensor (3, 1, 0, 0)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "saved independent full tensor (3, 1, 0, 1)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "saved independent full tensor (3, 1, 0, 2)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "saved independent full tensor (3, 1, 0, 3)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "saved independent full tensor (3, 1, 1, 0)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "saved independent full tensor (3, 1, 1, 1)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "saved independent full tensor (3, 1, 1, 2)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "saved independent full tensor (3, 1, 1, 3)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "saved independent full tensor (3, 1, 2, 0)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "saved independent full tensor (3, 1, 2, 1)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "saved independent full tensor (3, 1, 2, 2)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "saved independent full tensor (3, 1, 2, 3)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "saved independent full tensor (3, 1, 3, 0)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "saved independent full tensor (3, 1, 3, 1)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "saved independent full tensor (3, 1, 3, 2)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "saved independent full tensor (3, 1, 3, 3)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "saved independent full tensor (3, 2, 0, 0)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "saved independent full tensor (3, 2, 0, 1)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "saved independent full tensor (3, 2, 0, 2)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "saved independent full tensor (3, 2, 0, 3)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "saved independent full tensor (3, 2, 1, 0)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "saved independent full tensor (3, 2, 1, 1)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "saved independent full tensor (3, 2, 1, 2)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "saved independent full tensor (3, 2, 1, 3)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "saved independent full tensor (3, 2, 2, 0)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "saved independent full tensor (3, 2, 2, 1)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "saved independent full tensor (3, 2, 2, 2)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "saved independent full tensor (3, 2, 2, 3)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "saved independent full tensor (3, 2, 3, 0)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "saved independent full tensor (3, 2, 3, 1)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "saved independent full tensor (3, 2, 3, 2)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "saved independent full tensor (3, 2, 3, 3)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "saved independent full tensor (3, 3, 0, 0)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "saved independent full tensor (3, 3, 0, 1)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "saved independent full tensor (3, 3, 0, 2)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "saved independent full tensor (3, 3, 0, 3)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "saved independent full tensor (3, 3, 1, 0)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "saved independent full tensor (3, 3, 1, 1)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "saved independent full tensor (3, 3, 1, 2)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "saved independent full tensor (3, 3, 1, 3)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "saved independent full tensor (3, 3, 2, 0)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "saved independent full tensor (3, 3, 2, 1)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "saved independent full tensor (3, 3, 2, 2)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "saved independent full tensor (3, 3, 2, 3)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "saved independent full tensor (3, 3, 3, 0)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "saved independent full tensor (3, 3, 3, 1)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "saved independent full tensor (3, 3, 3, 2)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "saved independent full tensor (3, 3, 3, 3)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "PCC-c direct covariant component 0",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "PCC-c direct covariant component 1",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "PCC-c direct covariant component 2",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "PCC-c direct covariant component 3",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "nonzero generic time residual",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "reference pulled trace",
+      "residual": "0",
+      "pass": true
+    }
+  ],
+  "reference_tensor_divergence_under_physical_connection": [
+    "6*c + 12*t",
+    "0",
+    "0",
+    "0"
+  ],
+  "half_trace_corrected_divergence": [
+    "6*c",
+    "0",
+    "0",
+    "0"
+  ],
+  "kappa": "c**2 + 2*c*t",
+  "limits": "Saved independent symbolic tensor comparison and one direct covariant example; not a general regional existence theorem."
+}

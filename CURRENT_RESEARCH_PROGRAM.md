@@ -5,7 +5,7 @@ This bounded startup view is generated from its opening; edit that source.
 LIVE.md owns operational status; CURRENT_SCIENTIFIC_PREMISES.tsv owns exact grades.
 
 <!-- GENERATED_DEVELOPMENT_BEGIN -->
-**Continuous development — CDR1 with SGE1, LKT1, GCA1, PCW1, CES1, CCR1, PRI1, TRI1, NGD1, TDS1, TPP1, TPS1, PSW1, FPC1, FNA1, FST1 and ECS1, 2026-10-01.** This is the maintained
+**Continuous development — CDR1 with SGE1, LKT1, GCA1, PCW1, CES1, CCR1, PRI1, TRI1, NGD1, TDS1, TPP1, TPS1, PSW1, FPC1, FNA1, FST1, ECS1 and PCC1, 2026-10-01.** This is the maintained
 scientific development. It is not canon or a new scientific-grade authority.
 The exact registry and reviewed sources own grades; LIVE owns operational status.
 Current review bindings and limits are recorded in section9; startup reads the
@@ -126,8 +126,16 @@ beyond leading order. An exact transverse-metric construction nevertheless
 preserves the entire measured clock sheet while changing4D curvature. Thus the
 relation is a conditional discriminator, not unique metric reconstruction or
 native physical selection. Neither all-observer nor field-sector nonuniqueness
-is proved. Stop for discussion at the reviewed echo-test return; no new physical
-premise is adopted.
+is proved.
+PCC1 now tests an explicitly UNADOPTED all-frame isotropic additional leading
+clock-curvature contribution in physically matched comparisons. It forces a
+space-form curvature DIFFERENCE and preserves matched Weyl anisotropy, not total
+isotropy. An exact nonuniform Kottler comparison realizes it. An Einstein reference
+forces a constant added coefficient; a supplied evolving-reference counterexample
+shows general constancy is false. Reference/matching, positional identification
+and native selection remain open; this adds no distinct UDT prediction or finite
+distance law. Stop for discussion at the reviewed conditional trial return; no
+physical premise is adopted.
 <!-- GENERATED_DEVELOPMENT_END -->
 
 ## Current next gate

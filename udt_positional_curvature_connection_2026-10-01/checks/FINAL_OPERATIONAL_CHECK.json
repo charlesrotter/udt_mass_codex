@@ -1,0 +1,35 @@
+{
+  "utc": "2026-10-01 23:04:15 UTC",
+  "scope": "Final operational observations before banking; host process check limited to named commands.",
+  "checks": [
+    {
+      "command": [
+        "ps",
+        "-C",
+        "python,python3,torchrun",
+        "-o",
+        "pid,etime,pcpu,pmem,args"
+      ],
+      "host_namespace": true,
+      "chunk_id": "1b98b3",
+      "wall_time_seconds": 0.000010998,
+      "exit_code": 1,
+      "original_token_count": 10,
+      "output": "    PID     ELAPSED %CPU %MEM COMMAND\n"
+    },
+    {
+      "command": [
+        "git",
+        "ls-remote",
+        "origin",
+        "refs/heads/grok"
+      ],
+      "chunk_id": "5096a5",
+      "wall_time_seconds": 0.26627974,
+      "exit_code": 0,
+      "original_token_count": 15,
+      "output": "ab1e0671feccc58ccb8ef735c9dc7dbc04a623e5\trefs/heads/grok\n"
+    }
+  ],
+  "interpretation": "No matching Python or torchrun process was listed. Remote grok still equals the authorized base HEAD. Original untracked-name preservation is checked by BANKING_READINESS and again after commit."
+}

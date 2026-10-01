@@ -1,0 +1,19 @@
+{
+  "utc": "2026-10-01T22:39:10.120917+00:00",
+  "kind": "IMPLEMENTATION_ONLY_TRIG_NORMALIZATION",
+  "initial_code_sha256": "8fefb37e8ff69aaf67b8ddf77fa2b45828ee0dbb23da4e23a15504470f26b2fa",
+  "repaired_code_sha256": "9392fc6f4ee7eafc25b1c6017d13bdd96e643739aa7db52a62827b72729f1ebb",
+  "reason": "Original nonzero test left a zero off-pattern curvature trigonometric expression unreduced. Diagnostic expanded trig simplification is exactly zero. Expand trig before trig simplification; no metric, connection, curvature equation, candidate or threshold changed.",
+  "preserved": [
+    "check_curvature_initial.py",
+    "PARENT_FREEZE.json",
+    "checks/curvature.json",
+    "checks/curvature.stdout",
+    "checks/curvature.stderr",
+    "diagnose_curvature.py",
+    "checks/curvature_diagnostic.json",
+    "checks/curvature_diagnostic.stdout",
+    "checks/curvature_diagnostic.stderr"
+  ],
+  "scientific_candidate_repair_used": false
+}

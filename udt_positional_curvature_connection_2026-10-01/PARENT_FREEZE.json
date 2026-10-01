@@ -1,0 +1,10 @@
+{
+  "utc": "2026-10-01T22:38:28.300648+00:00",
+  "stage": "parent candidate and code before execution and exposed reviews",
+  "sha256": {
+    "udt_positional_curvature_connection_2026-10-01/WORK_ORDER.md": "aa618e3337dc450386672cfcf50491a405ad665a5ba2d5bcc462bdb2f0fd687f",
+    "udt_positional_curvature_connection_2026-10-01/INITIAL_DERIVATION.md": "48b933b3f4473d8fbf236e658c567fe70e5296cc0e7f7e69f9d9042c3abcfd10",
+    "udt_positional_curvature_connection_2026-10-01/check_curvature.py": "8fefb37e8ff69aaf67b8ddf77fa2b45828ee0dbb23da4e23a15504470f26b2fa"
+  },
+  "prior_exposure": "PSW1/SGE1/FST1/ECS1 and primary Kottler reference; short source-first concordances from both fresh reviewers, no peer proof or code read."
+}

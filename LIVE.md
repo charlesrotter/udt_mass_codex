@@ -1,22 +1,23 @@
 # LIVE — operational status
 
 <!-- STARTUP_CURRENT_BEGIN -->
-## CURRENT STATE — ECS1 reviewed signal/echo discriminator after FST1/FPC1 and CDR1, 2026-10-01
+## CURRENT STATE — PCC1 reviewed isotropic-addition trial after ECS1 and CDR1, 2026-10-01
 
 Work on `grok`; independently verify HEAD, synchronization and dirt.
-Charles's latest “proceed” authorized the bounded independent echo reconstruction,
-alternative-geometry test, two fresh reviews and one bounded repair cycle.
-Fixed scope: `udt_echo_consistency_2026-10-01/WORK_ORDER.md`; WORK_RECORD.md,
-REVIEWED_RESULT.md and DECISION_BRIEF.md there identify the return. The maintained
-argument is in UDT_DEVELOPMENT R8/R18. No physical premise, geometry/scale choice,
-registry grade or CANON change is adopted.
+Charles's “test authorized” accepted the explicit bounded isotropic additional
+clock-curvature test, two fresh reviews and one bounded repair/re-review cycle.
+Fixed scope and execution are in `udt_positional_curvature_connection_2026-10-01/`:
+WORK_ORDER.md, WORK_RECORD.md, REVIEWED_RESULT.md and DECISION_BRIEF.md.
+UDT_DEVELOPMENT.md R8/R18 owns the maintained argument. The trial physical
+hypothesis remains UNADOPTED; no response, reference, native geometry, scalar
+scale/sign, exact registry grade or CANON change is adopted.
 
-Prior TPS1/PSW1/FPC1/FNA1/FST1 remain fixed evidence. ECS1 used short serial
-exact checks and two source-first/candidate reviews. A fidelity check's initial
-trig-normalization false negative and unchanged-science repair are preserved;
-no mathematical candidate repair was required. No new GPU or production run
-occurred. Charles's no-timeout direction persists with resource/finite/manual
-stops. The broader numerical goal does not authorize a successor.
+PCC1 used short serial exact checks and two source-first/candidate/supplement
+reviews. Parent and math initial trig-normalization failures and unchanged-science
+repairs are preserved, as is the fixed-file diagnostic replay resolving a review
+objection. The initial scientific candidate is unchanged. No GPU or production
+evolution ran. Prior packages remain fixed at their original scopes. Charles's
+no-timeout direction persists with finite/resource/manual stops.
 
 ### Honest claim
 
@@ -49,16 +50,15 @@ Protected: do not inspect, hash, stage, modify, mine or cite payloads without di
 
 ### Next gate
 
-The bounded signal/echo investigation is complete. Stop for lay discussion.
-Use the ECS1 decision brief, actual final attestations and captured checks for
-exact scope. Native branch admission remains open; the restricted record's
-transverse ambiguity is not an all-observer or field-sector theorem. A successor
-needs a concrete physical relation or discriminating question and its own bounded
-work order. No universal echo law, new premise, empirical campaign or scientific
-promotion begins automatically. Existing pauses and protected work remain.
-No scientific worker was left running at this return; a later session must
-verify actual host state before making process claims. Prior TPS1 raw fields,
-checkpoints and large streams remain local-only and ignored; compact records
-are banked. A remote clone cannot replay those raw-dependent numerical checks.
+The authorized conditional test is complete. Stop for lay discussion using the
+PCC1 decision brief, actual final attestations and captured checks. The tested
+comparison still needs physical reference/matching and positional attribution;
+no distinct UDT prediction, native admission or finite-distance law is established.
+A successor needs its own discriminating question and bounded work order. The
+trial is not adopted by testing or saving it. Existing pauses/protected work remain.
+No scientific worker was left running at this return; a later session must verify
+actual host state before process claims. Prior TPS1 raw fields/checkpoints and
+large streams remain local-only and ignored; a remote clone cannot replay those
+raw-dependent checks from compact banked records alone.
 
 <!-- STARTUP_CURRENT_END -->

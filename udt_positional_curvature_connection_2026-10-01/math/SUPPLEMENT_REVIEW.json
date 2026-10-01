@@ -1,0 +1,41 @@
+{
+  "reviewer_context": "/root/pcc_math",
+  "date_utc": "2026-10-01T22:46:13.263726+00:00",
+  "model": "inherited parent configuration; exact serving-model identifier not independently exposed",
+  "fresh_context": true,
+  "different_model": false,
+  "human_review": false,
+  "formal_proof": false,
+  "verdict": "VERIFIED-WITH-CAVEATS",
+  "substantive_objections": [],
+  "required_scientific_repair": null,
+  "peer_verdict_exposure": false,
+  "physical_adoption": false,
+  "review_kind": "exposed supplement review; own-origin variable-k transcription plus independent analytic cubic-clock argument",
+  "source_hashes": {
+    "udt_positional_curvature_connection_2026-10-01/SUPPLEMENT.md": "6fd58301461585fabd0ec7adf4db9adfa24f00a3b5a4659bef099af5e62c1ee4",
+    "udt_positional_curvature_connection_2026-10-01/fidelity/SOURCE_FIRST.md": "3efa570de7636afdb3d5ebb14ff922beddfee26c83f30db83230f48f395c25d0",
+    "udt_positional_curvature_connection_2026-10-01/fidelity/check_fidelity.py": "52a888e4b22e976064f2641c2be6d8c65e43fc7aa685a0efbbe686695f4dc509",
+    "udt_positional_curvature_connection_2026-10-01/fidelity/EXACT_CONTROLS.json": "a6360e25a3c5710caa4728dcf84b85e48b4e121cf426a14656913b8fcabdcfa5",
+    "udt_positional_curvature_connection_2026-10-01/math/SOURCE_FIRST_ARGUMENT.md": "1fc5bb25db42292b850936ca5267cc99cc97f97bb1d728094aea15dbfcea6959",
+    "udt_positional_curvature_connection_2026-10-01/math/geometry_output.json": "f715798798ec1091d8c31aa883815771a967669f10203bf3dd54c10c34ba08cf",
+    "udt_positional_curvature_connection_2026-10-01/math/saved_and_bianchi_output.json": "eb25784465c416a34db5c8cf940d68073a1dc8fd58be24ef71f50f78c180d6b2",
+    "udt_positional_curvature_connection_2026-10-01/math/SUPPLEMENT_REVIEW.md": "8cd545ceae585746506c4f39dd94bfd1b32685a757f17609c3bc8987928a5e17"
+  },
+  "checked": [
+    "variable-k regional full curvature contrast",
+    "target-connection Bianchi residual",
+    "dimensional b variant",
+    "cubic a>0 preparation and parallel transport",
+    "fixed-worldline exact conformal arrival derivatives",
+    "local analytic inversion and O(L^6) logarithmic remainders",
+    "point-only limitation"
+  ],
+  "omissions": [
+    "No new cubic scientific process",
+    "No rerun of fidelity code",
+    "No finite-L error constant",
+    "No general regional construction",
+    "No empirical or native admission"
+  ]
+}

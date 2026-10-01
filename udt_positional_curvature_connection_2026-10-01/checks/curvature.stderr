@@ -1,0 +1,4 @@
+Traceback (most recent call last):
+  File "/home/udt-admin/udt_mass_codex/udt_positional_curvature_connection_2026-10-01/check_curvature.py", line 25, in <module>
+    counts=[idx.count(i) for i in inds];assert all(c%2==0 for c in counts),(idx,counts)
+AssertionError: ((2, 3, 3, 1), [0, 1, 1, 2])

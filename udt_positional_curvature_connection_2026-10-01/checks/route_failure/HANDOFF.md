@@ -18,7 +18,7 @@ and supplement reviews. Initial trig-normalization failures, code repairs and
 diagnostic replay are preserved. No scientific-candidate repair was required.
 Prior packages keep their scopes; no new GPU or production campaign ran.
 
-Next: Stop for lay discussion at this conditional trial return. No physical adoption,
+Next: stop for discussion at this conditional trial return. No physical adoption,
 new premise or successor computation begins automatically. Two actual final
 attestations bind the integrated edition; captured normal,57-maintenance and
 full406 checks own pass status. Later sessions must verify host state; no scientific

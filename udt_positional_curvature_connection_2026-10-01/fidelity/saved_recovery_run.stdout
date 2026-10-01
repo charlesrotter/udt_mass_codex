@@ -1,0 +1,1 @@
+{"status": "PASS", "assertion_count": 270, "event_actual_tides": ["-2/25", "-1/50", "-1/50"], "event_reference_tides": ["-1/25", "1/50", "1/50"], "event_delta_tides": ["-1/25", "-1/25", "-1/25"], "event_outgoing_delta_coefficient": "1/50", "event_return_delta_coefficient": "3/50"}

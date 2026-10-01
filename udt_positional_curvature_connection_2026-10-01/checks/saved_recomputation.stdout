@@ -1,0 +1,48 @@
+{
+  "status": "PASS",
+  "checks": 792,
+  "python": "3.10.12",
+  "method": "stdlib AST/Fraction; original saved coordinate tensor independently transformed with exact rational matched tetrads; no CAS or candidate curvature formulas used to create input",
+  "source": "udt_positional_curvature_connection_2026-10-01/checks/curvature_repaired.stdout",
+  "source_sha256": "0366a4c60d653fd47df62b2975f3b80d4dfc3c6b7ebef707629827b51985ea46",
+  "parameters": {
+    "mu": "9/50",
+    "r": "1",
+    "kappa": "7/25",
+    "sin_theta": "3/5",
+    "sqrt_f": "3/5",
+    "sqrt_f0": "4/5"
+  },
+  "Ricci": [
+    [
+      "-21/25",
+      "0",
+      "0",
+      "0"
+    ],
+    [
+      "0",
+      "21/25",
+      "0",
+      "0"
+    ],
+    [
+      "0",
+      "0",
+      "21/25",
+      "0"
+    ],
+    [
+      "0",
+      "0",
+      "0",
+      "21/25"
+    ]
+  ],
+  "scalar": "84/25",
+  "retained_Weyl_square": "972/625",
+  "boosted_delta_tide": "-7/25",
+  "outgoing_L2_coefficient": "7/50",
+  "return_L2_coefficient": "21/50",
+  "limits": "Saved-artifact finite exact check, exposed to parent proof and source; not an independent derivation of coordinate curvature or continuum proof."
+}

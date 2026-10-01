@@ -1,0 +1,1504 @@
+{
+  "kind": "independent exact finite controls, not general proof",
+  "python": "3.10.12",
+  "sympy": "1.13.1",
+  "checks": [
+    {
+      "name": "original_connection_delta_0000",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "name": "original_connection_delta_0001",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "name": "original_connection_delta_0002",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "name": "original_connection_delta_0003",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "name": "original_connection_delta_0010",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "name": "original_connection_delta_0011",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "name": "original_connection_delta_0012",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "name": "original_connection_delta_0013",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "name": "original_connection_delta_0020",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "name": "original_connection_delta_0021",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "name": "original_connection_delta_0022",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "name": "original_connection_delta_0023",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "name": "original_connection_delta_0030",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "name": "original_connection_delta_0031",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "name": "original_connection_delta_0032",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "name": "original_connection_delta_0033",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "name": "original_connection_delta_0100",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "name": "original_connection_delta_0101",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "name": "original_connection_delta_0102",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "name": "original_connection_delta_0103",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "name": "original_connection_delta_0110",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "name": "original_connection_delta_0111",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "name": "original_connection_delta_0112",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "name": "original_connection_delta_0113",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "name": "original_connection_delta_0120",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "name": "original_connection_delta_0121",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "name": "original_connection_delta_0122",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "name": "original_connection_delta_0123",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "name": "original_connection_delta_0130",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "name": "original_connection_delta_0131",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "name": "original_connection_delta_0132",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "name": "original_connection_delta_0133",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "name": "original_connection_delta_0200",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "name": "original_connection_delta_0201",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "name": "original_connection_delta_0202",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "name": "original_connection_delta_0203",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "name": "original_connection_delta_0210",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "name": "original_connection_delta_0211",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "name": "original_connection_delta_0212",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "name": "original_connection_delta_0213",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "name": "original_connection_delta_0220",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "name": "original_connection_delta_0221",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "name": "original_connection_delta_0222",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "name": "original_connection_delta_0223",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "name": "original_connection_delta_0230",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "name": "original_connection_delta_0231",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "name": "original_connection_delta_0232",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "name": "original_connection_delta_0233",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "name": "original_connection_delta_0300",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "name": "original_connection_delta_0301",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "name": "original_connection_delta_0302",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "name": "original_connection_delta_0303",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "name": "original_connection_delta_0310",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "name": "original_connection_delta_0311",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "name": "original_connection_delta_0312",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "name": "original_connection_delta_0313",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "name": "original_connection_delta_0320",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "name": "original_connection_delta_0321",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "name": "original_connection_delta_0322",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "name": "original_connection_delta_0323",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "name": "original_connection_delta_0330",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "name": "original_connection_delta_0331",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "name": "original_connection_delta_0332",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "name": "original_connection_delta_0333",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "name": "original_connection_delta_1000",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "name": "original_connection_delta_1001",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "name": "original_connection_delta_1002",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "name": "original_connection_delta_1003",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "name": "original_connection_delta_1010",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "name": "original_connection_delta_1011",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "name": "original_connection_delta_1012",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "name": "original_connection_delta_1013",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "name": "original_connection_delta_1020",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "name": "original_connection_delta_1021",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "name": "original_connection_delta_1022",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "name": "original_connection_delta_1023",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "name": "original_connection_delta_1030",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "name": "original_connection_delta_1031",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "name": "original_connection_delta_1032",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "name": "original_connection_delta_1033",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "name": "original_connection_delta_1100",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "name": "original_connection_delta_1101",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "name": "original_connection_delta_1102",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "name": "original_connection_delta_1103",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "name": "original_connection_delta_1110",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "name": "original_connection_delta_1111",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "name": "original_connection_delta_1112",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "name": "original_connection_delta_1113",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "name": "original_connection_delta_1120",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "name": "original_connection_delta_1121",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "name": "original_connection_delta_1122",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "name": "original_connection_delta_1123",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "name": "original_connection_delta_1130",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "name": "original_connection_delta_1131",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "name": "original_connection_delta_1132",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "name": "original_connection_delta_1133",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "name": "original_connection_delta_1200",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "name": "original_connection_delta_1201",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "name": "original_connection_delta_1202",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "name": "original_connection_delta_1203",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "name": "original_connection_delta_1210",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "name": "original_connection_delta_1211",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "name": "original_connection_delta_1212",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "name": "original_connection_delta_1213",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "name": "original_connection_delta_1220",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "name": "original_connection_delta_1221",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "name": "original_connection_delta_1222",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "name": "original_connection_delta_1223",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "name": "original_connection_delta_1230",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "name": "original_connection_delta_1231",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "name": "original_connection_delta_1232",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "name": "original_connection_delta_1233",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "name": "original_connection_delta_1300",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "name": "original_connection_delta_1301",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "name": "original_connection_delta_1302",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "name": "original_connection_delta_1303",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "name": "original_connection_delta_1310",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "name": "original_connection_delta_1311",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "name": "original_connection_delta_1312",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "name": "original_connection_delta_1313",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "name": "original_connection_delta_1320",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "name": "original_connection_delta_1321",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "name": "original_connection_delta_1322",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "name": "original_connection_delta_1323",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "name": "original_connection_delta_1330",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "name": "original_connection_delta_1331",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "name": "original_connection_delta_1332",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "name": "original_connection_delta_1333",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "name": "original_connection_delta_2000",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "name": "original_connection_delta_2001",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "name": "original_connection_delta_2002",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "name": "original_connection_delta_2003",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "name": "original_connection_delta_2010",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "name": "original_connection_delta_2011",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "name": "original_connection_delta_2012",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "name": "original_connection_delta_2013",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "name": "original_connection_delta_2020",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "name": "original_connection_delta_2021",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "name": "original_connection_delta_2022",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "name": "original_connection_delta_2023",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "name": "original_connection_delta_2030",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "name": "original_connection_delta_2031",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "name": "original_connection_delta_2032",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "name": "original_connection_delta_2033",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "name": "original_connection_delta_2100",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "name": "original_connection_delta_2101",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "name": "original_connection_delta_2102",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "name": "original_connection_delta_2103",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "name": "original_connection_delta_2110",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "name": "original_connection_delta_2111",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "name": "original_connection_delta_2112",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "name": "original_connection_delta_2113",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "name": "original_connection_delta_2120",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "name": "original_connection_delta_2121",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "name": "original_connection_delta_2122",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "name": "original_connection_delta_2123",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "name": "original_connection_delta_2130",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "name": "original_connection_delta_2131",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "name": "original_connection_delta_2132",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "name": "original_connection_delta_2133",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "name": "original_connection_delta_2200",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "name": "original_connection_delta_2201",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "name": "original_connection_delta_2202",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "name": "original_connection_delta_2203",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "name": "original_connection_delta_2210",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "name": "original_connection_delta_2211",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "name": "original_connection_delta_2212",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "name": "original_connection_delta_2213",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "name": "original_connection_delta_2220",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "name": "original_connection_delta_2221",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "name": "original_connection_delta_2222",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "name": "original_connection_delta_2223",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "name": "original_connection_delta_2230",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "name": "original_connection_delta_2231",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "name": "original_connection_delta_2232",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "name": "original_connection_delta_2233",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "name": "original_connection_delta_2300",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "name": "original_connection_delta_2301",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "name": "original_connection_delta_2302",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "name": "original_connection_delta_2303",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "name": "original_connection_delta_2310",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "name": "original_connection_delta_2311",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "name": "original_connection_delta_2312",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "name": "original_connection_delta_2313",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "name": "original_connection_delta_2320",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "name": "original_connection_delta_2321",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "name": "original_connection_delta_2322",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "name": "original_connection_delta_2323",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "name": "original_connection_delta_2330",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "name": "original_connection_delta_2331",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "name": "original_connection_delta_2332",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "name": "original_connection_delta_2333",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "name": "original_connection_delta_3000",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "name": "original_connection_delta_3001",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "name": "original_connection_delta_3002",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "name": "original_connection_delta_3003",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "name": "original_connection_delta_3010",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "name": "original_connection_delta_3011",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "name": "original_connection_delta_3012",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "name": "original_connection_delta_3013",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "name": "original_connection_delta_3020",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "name": "original_connection_delta_3021",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "name": "original_connection_delta_3022",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "name": "original_connection_delta_3023",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "name": "original_connection_delta_3030",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "name": "original_connection_delta_3031",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "name": "original_connection_delta_3032",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "name": "original_connection_delta_3033",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "name": "original_connection_delta_3100",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "name": "original_connection_delta_3101",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "name": "original_connection_delta_3102",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "name": "original_connection_delta_3103",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "name": "original_connection_delta_3110",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "name": "original_connection_delta_3111",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "name": "original_connection_delta_3112",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "name": "original_connection_delta_3113",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "name": "original_connection_delta_3120",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "name": "original_connection_delta_3121",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "name": "original_connection_delta_3122",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "name": "original_connection_delta_3123",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "name": "original_connection_delta_3130",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "name": "original_connection_delta_3131",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "name": "original_connection_delta_3132",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "name": "original_connection_delta_3133",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "name": "original_connection_delta_3200",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "name": "original_connection_delta_3201",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "name": "original_connection_delta_3202",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "name": "original_connection_delta_3203",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "name": "original_connection_delta_3210",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "name": "original_connection_delta_3211",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "name": "original_connection_delta_3212",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "name": "original_connection_delta_3213",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "name": "original_connection_delta_3220",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "name": "original_connection_delta_3221",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "name": "original_connection_delta_3222",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "name": "original_connection_delta_3223",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "name": "original_connection_delta_3230",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "name": "original_connection_delta_3231",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "name": "original_connection_delta_3232",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "name": "original_connection_delta_3233",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "name": "original_connection_delta_3300",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "name": "original_connection_delta_3301",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "name": "original_connection_delta_3302",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "name": "original_connection_delta_3303",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "name": "original_connection_delta_3310",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "name": "original_connection_delta_3311",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "name": "original_connection_delta_3312",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "name": "original_connection_delta_3313",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "name": "original_connection_delta_3320",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "name": "original_connection_delta_3321",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "name": "original_connection_delta_3322",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "name": "original_connection_delta_3323",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "name": "original_connection_delta_3330",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "name": "original_connection_delta_3331",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "name": "original_connection_delta_3332",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "name": "original_connection_delta_3333",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "name": "section_01",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "name": "section_02",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "name": "section_03",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "name": "section_12",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "name": "section_13",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "name": "section_23",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "name": "nonzero_anisotropy",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "name": "ricci_00",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "name": "ricci_01",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "name": "ricci_02",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "name": "ricci_03",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "name": "ricci_10",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "name": "ricci_11",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "name": "ricci_12",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "name": "ricci_13",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "name": "ricci_20",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "name": "ricci_21",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "name": "ricci_22",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "name": "ricci_23",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "name": "ricci_30",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "name": "ricci_31",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "name": "ricci_32",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "name": "ricci_33",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "name": "scalar",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "name": "rest_invisible",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "name": "boosted_e2",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "name": "boosted_e3",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "name": "rotation_match_changes_radial_tide",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "name": "outgoing_incidence_to_order6",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "name": "return_incidence_to_order6",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "name": "curvature_at_origin_time",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "name": "curvature_at_origin_space",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "name": "cubic_log_p",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "name": "cubic_log_q",
+      "residual": "0",
+      "pass": true
+    }
+  ],
+  "assertion_count": 294,
+  "sections": {
+    "01": "-(k*r**3 + 2*m)/r**3",
+    "02": "-(k*r**3 - m)/r**3",
+    "03": "-(k*r**3 - m)/r**3",
+    "12": "(k*r**3 - m)/r**3",
+    "13": "(k*r**3 - m)/r**3",
+    "23": "(k*r**3 + 2*m)/r**3"
+  },
+  "ricci": [
+    [
+      "-3*k",
+      "0",
+      "0",
+      "0"
+    ],
+    [
+      "0",
+      "3*k",
+      "0",
+      "0"
+    ],
+    [
+      "0",
+      "0",
+      "3*k",
+      "0"
+    ],
+    [
+      "0",
+      "0",
+      "0",
+      "3*k"
+    ]
+  ],
+  "regular_point": {
+    "r": "10",
+    "m": "1",
+    "k": "1/10000",
+    "f": "79/100",
+    "f0": "4/5"
+  },
+  "cubic_coefficients": {
+    "outgoing": "b",
+    "return": "7*b"
+  },
+  "status": "PASS"
+}

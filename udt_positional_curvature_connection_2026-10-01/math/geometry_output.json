@@ -1,0 +1,5123 @@
+{
+  "status": "PASS",
+  "kind": "exact symbolic controls, not all-frame proof or physical adoption",
+  "python": "3.10.12",
+  "sympy": "1.13.1",
+  "script_sha256": "2679d43ac16d627e17ddf0790ea51748f47eb5d5e12645eb7fc6242307ceb515",
+  "convention": "R(X,Y)Z=[nabla_X,nabla_Y]Z-nabla_[X,Y]Z; (-+++)",
+  "static_sectionals": {
+    "(0, 1)": "k + 2*m/r**3",
+    "(0, 2)": "k - m/r**3",
+    "(0, 3)": "k - m/r**3",
+    "(1, 2)": "k - m/r**3",
+    "(1, 3)": "k - m/r**3",
+    "(2, 3)": "k + 2*m/r**3"
+  },
+  "static_reference_sectionals": {
+    "(0, 1)": "2*m/r**3",
+    "(0, 2)": "-m/r**3",
+    "(0, 3)": "-m/r**3",
+    "(1, 2)": "-m/r**3",
+    "(1, 3)": "-m/r**3",
+    "(2, 3)": "2*m/r**3"
+  },
+  "static_scalar": "12*k",
+  "static_sample_tides": [
+    "-33/800",
+    "9/1600",
+    "9/1600"
+  ],
+  "static_mixed_components_checked": 228,
+  "time_family_sectionals": {
+    "(0, 1)": "(c + t)**2 + 1",
+    "(0, 2)": "(c + t)**2 + 1",
+    "(0, 3)": "(c + t)**2 + 1",
+    "(1, 2)": "(c + t)**2",
+    "(1, 3)": "(c + t)**2",
+    "(2, 3)": "(c + t)**2"
+  },
+  "time_reference_sectionals": {
+    "(0, 1)": "t**2 + 1",
+    "(0, 2)": "t**2 + 1",
+    "(0, 3)": "t**2 + 1",
+    "(1, 2)": "t**2",
+    "(1, 3)": "t**2",
+    "(2, 3)": "t**2"
+  },
+  "time_contrast": "2*c*t+c**2",
+  "time_mixed_components_checked": 228,
+  "one_frame_boosted_transverse": "9*c/16",
+  "checks": [
+    {
+      "label": "static mixed (0, 0, 0, 1)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "static mixed (0, 0, 0, 2)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "static mixed (0, 0, 0, 3)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "static mixed (0, 0, 1, 0)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "static mixed (0, 0, 1, 1)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "static mixed (0, 0, 1, 2)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "static mixed (0, 0, 1, 3)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "static mixed (0, 0, 2, 0)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "static mixed (0, 0, 2, 1)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "static mixed (0, 0, 2, 2)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "static mixed (0, 0, 2, 3)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "static mixed (0, 0, 3, 0)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "static mixed (0, 0, 3, 1)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "static mixed (0, 0, 3, 2)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "static mixed (0, 0, 3, 3)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "static mixed (0, 1, 0, 0)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "static mixed (0, 1, 0, 2)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "static mixed (0, 1, 0, 3)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "static mixed (0, 1, 1, 1)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "static mixed (0, 1, 1, 2)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "static mixed (0, 1, 1, 3)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "static mixed (0, 1, 2, 0)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "static mixed (0, 1, 2, 1)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "static mixed (0, 1, 2, 2)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "static mixed (0, 1, 2, 3)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "static mixed (0, 1, 3, 0)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "static mixed (0, 1, 3, 1)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "static mixed (0, 1, 3, 2)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "static mixed (0, 1, 3, 3)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "static mixed (0, 2, 0, 0)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "static mixed (0, 2, 0, 1)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "static mixed (0, 2, 0, 3)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "static mixed (0, 2, 1, 0)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "static mixed (0, 2, 1, 1)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "static mixed (0, 2, 1, 2)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "static mixed (0, 2, 1, 3)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "static mixed (0, 2, 2, 1)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "static mixed (0, 2, 2, 2)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "static mixed (0, 2, 2, 3)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "static mixed (0, 2, 3, 0)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "static mixed (0, 2, 3, 1)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "static mixed (0, 2, 3, 2)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "static mixed (0, 2, 3, 3)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "static mixed (0, 3, 0, 0)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "static mixed (0, 3, 0, 1)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "static mixed (0, 3, 0, 2)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "static mixed (0, 3, 1, 0)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "static mixed (0, 3, 1, 1)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "static mixed (0, 3, 1, 2)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "static mixed (0, 3, 1, 3)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "static mixed (0, 3, 2, 0)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "static mixed (0, 3, 2, 1)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "static mixed (0, 3, 2, 2)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "static mixed (0, 3, 2, 3)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "static mixed (0, 3, 3, 1)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "static mixed (0, 3, 3, 2)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "static mixed (0, 3, 3, 3)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "static mixed (1, 0, 0, 0)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "static mixed (1, 0, 0, 2)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "static mixed (1, 0, 0, 3)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "static mixed (1, 0, 1, 1)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "static mixed (1, 0, 1, 2)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "static mixed (1, 0, 1, 3)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "static mixed (1, 0, 2, 0)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "static mixed (1, 0, 2, 1)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "static mixed (1, 0, 2, 2)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "static mixed (1, 0, 2, 3)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "static mixed (1, 0, 3, 0)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "static mixed (1, 0, 3, 1)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "static mixed (1, 0, 3, 2)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "static mixed (1, 0, 3, 3)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "static mixed (1, 1, 0, 0)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "static mixed (1, 1, 0, 1)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "static mixed (1, 1, 0, 2)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "static mixed (1, 1, 0, 3)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "static mixed (1, 1, 1, 0)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "static mixed (1, 1, 1, 2)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "static mixed (1, 1, 1, 3)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "static mixed (1, 1, 2, 0)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "static mixed (1, 1, 2, 1)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "static mixed (1, 1, 2, 2)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "static mixed (1, 1, 2, 3)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "static mixed (1, 1, 3, 0)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "static mixed (1, 1, 3, 1)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "static mixed (1, 1, 3, 2)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "static mixed (1, 1, 3, 3)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "static mixed (1, 2, 0, 0)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "static mixed (1, 2, 0, 1)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "static mixed (1, 2, 0, 2)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "static mixed (1, 2, 0, 3)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "static mixed (1, 2, 1, 0)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "static mixed (1, 2, 1, 1)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "static mixed (1, 2, 1, 3)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "static mixed (1, 2, 2, 0)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "static mixed (1, 2, 2, 2)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "static mixed (1, 2, 2, 3)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "static mixed (1, 2, 3, 0)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "static mixed (1, 2, 3, 1)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "static mixed (1, 2, 3, 2)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "static mixed (1, 2, 3, 3)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "static mixed (1, 3, 0, 0)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "static mixed (1, 3, 0, 1)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "static mixed (1, 3, 0, 2)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "static mixed (1, 3, 0, 3)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "static mixed (1, 3, 1, 0)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "static mixed (1, 3, 1, 1)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "static mixed (1, 3, 1, 2)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "static mixed (1, 3, 2, 0)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "static mixed (1, 3, 2, 1)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "static mixed (1, 3, 2, 2)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "static mixed (1, 3, 2, 3)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "static mixed (1, 3, 3, 0)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "static mixed (1, 3, 3, 2)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "static mixed (1, 3, 3, 3)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "static mixed (2, 0, 0, 0)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "static mixed (2, 0, 0, 1)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "static mixed (2, 0, 0, 3)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "static mixed (2, 0, 1, 0)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "static mixed (2, 0, 1, 1)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "static mixed (2, 0, 1, 2)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "static mixed (2, 0, 1, 3)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "static mixed (2, 0, 2, 1)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "static mixed (2, 0, 2, 2)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "static mixed (2, 0, 2, 3)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "static mixed (2, 0, 3, 0)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "static mixed (2, 0, 3, 1)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "static mixed (2, 0, 3, 2)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "static mixed (2, 0, 3, 3)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "static mixed (2, 1, 0, 0)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "static mixed (2, 1, 0, 1)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "static mixed (2, 1, 0, 2)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "static mixed (2, 1, 0, 3)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "static mixed (2, 1, 1, 0)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "static mixed (2, 1, 1, 1)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "static mixed (2, 1, 1, 3)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "static mixed (2, 1, 2, 0)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "static mixed (2, 1, 2, 2)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "static mixed (2, 1, 2, 3)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "static mixed (2, 1, 3, 0)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "static mixed (2, 1, 3, 1)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "static mixed (2, 1, 3, 2)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "static mixed (2, 1, 3, 3)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "static mixed (2, 2, 0, 0)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "static mixed (2, 2, 0, 1)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "static mixed (2, 2, 0, 2)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "static mixed (2, 2, 0, 3)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "static mixed (2, 2, 1, 0)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "static mixed (2, 2, 1, 1)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "static mixed (2, 2, 1, 2)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "static mixed (2, 2, 1, 3)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "static mixed (2, 2, 2, 0)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "static mixed (2, 2, 2, 1)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "static mixed (2, 2, 2, 3)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "static mixed (2, 2, 3, 0)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "static mixed (2, 2, 3, 1)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "static mixed (2, 2, 3, 2)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "static mixed (2, 2, 3, 3)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "static mixed (2, 3, 0, 0)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "static mixed (2, 3, 0, 1)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "static mixed (2, 3, 0, 2)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "static mixed (2, 3, 0, 3)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "static mixed (2, 3, 1, 0)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "static mixed (2, 3, 1, 1)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "static mixed (2, 3, 1, 2)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "static mixed (2, 3, 1, 3)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "static mixed (2, 3, 2, 0)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "static mixed (2, 3, 2, 1)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "static mixed (2, 3, 2, 2)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "static mixed (2, 3, 3, 0)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "static mixed (2, 3, 3, 1)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "static mixed (2, 3, 3, 3)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "static mixed (3, 0, 0, 0)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "static mixed (3, 0, 0, 1)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "static mixed (3, 0, 0, 2)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "static mixed (3, 0, 1, 0)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "static mixed (3, 0, 1, 1)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "static mixed (3, 0, 1, 2)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "static mixed (3, 0, 1, 3)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "static mixed (3, 0, 2, 0)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "static mixed (3, 0, 2, 1)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "static mixed (3, 0, 2, 2)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "static mixed (3, 0, 2, 3)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "static mixed (3, 0, 3, 1)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "static mixed (3, 0, 3, 2)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "static mixed (3, 0, 3, 3)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "static mixed (3, 1, 0, 0)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "static mixed (3, 1, 0, 1)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "static mixed (3, 1, 0, 2)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "static mixed (3, 1, 0, 3)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "static mixed (3, 1, 1, 0)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "static mixed (3, 1, 1, 1)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "static mixed (3, 1, 1, 2)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "static mixed (3, 1, 2, 0)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "static mixed (3, 1, 2, 1)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "static mixed (3, 1, 2, 2)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "static mixed (3, 1, 2, 3)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "static mixed (3, 1, 3, 0)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "static mixed (3, 1, 3, 2)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "static mixed (3, 1, 3, 3)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "static mixed (3, 2, 0, 0)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "static mixed (3, 2, 0, 1)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "static mixed (3, 2, 0, 2)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "static mixed (3, 2, 0, 3)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "static mixed (3, 2, 1, 0)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "static mixed (3, 2, 1, 1)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "static mixed (3, 2, 1, 2)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "static mixed (3, 2, 1, 3)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "static mixed (3, 2, 2, 0)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "static mixed (3, 2, 2, 1)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "static mixed (3, 2, 2, 2)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "static mixed (3, 2, 3, 0)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "static mixed (3, 2, 3, 1)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "static mixed (3, 2, 3, 3)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "static mixed (3, 3, 0, 0)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "static mixed (3, 3, 0, 1)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "static mixed (3, 3, 0, 2)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "static mixed (3, 3, 0, 3)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "static mixed (3, 3, 1, 0)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "static mixed (3, 3, 1, 1)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "static mixed (3, 3, 1, 2)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "static mixed (3, 3, 1, 3)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "static mixed (3, 3, 2, 0)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "static mixed (3, 3, 2, 1)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "static mixed (3, 3, 2, 2)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "static mixed (3, 3, 2, 3)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "static mixed (3, 3, 3, 0)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "static mixed (3, 3, 3, 1)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "static mixed (3, 3, 3, 2)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "static sectional (0, 1)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "static contrast (0, 1)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "static sectional (0, 2)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "static contrast (0, 2)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "static sectional (0, 3)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "static contrast (0, 3)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "static sectional (1, 2)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "static contrast (1, 2)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "static sectional (1, 3)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "static contrast (1, 3)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "static sectional (2, 3)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "static contrast (2, 3)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "static scalar",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "static Ricci diagonal 0",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "static Ricci offdiagonal 0,1",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "static Ricci offdiagonal 0,2",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "static Ricci offdiagonal 0,3",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "static Ricci diagonal 1",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "static Ricci offdiagonal 1,0",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "static Ricci offdiagonal 1,2",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "static Ricci offdiagonal 1,3",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "static Ricci diagonal 2",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "static Ricci offdiagonal 2,0",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "static Ricci offdiagonal 2,1",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "static Ricci offdiagonal 2,3",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "static Ricci diagonal 3",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "static Ricci offdiagonal 3,0",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "static Ricci offdiagonal 3,1",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "static Ricci offdiagonal 3,2",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "static full tensor contrast (0, 0, 0, 0)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "static full tensor contrast (0, 0, 0, 1)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "static full tensor contrast (0, 0, 0, 2)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "static full tensor contrast (0, 0, 0, 3)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "static full tensor contrast (0, 0, 1, 0)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "static full tensor contrast (0, 0, 1, 1)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "static full tensor contrast (0, 0, 1, 2)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "static full tensor contrast (0, 0, 1, 3)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "static full tensor contrast (0, 0, 2, 0)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "static full tensor contrast (0, 0, 2, 1)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "static full tensor contrast (0, 0, 2, 2)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "static full tensor contrast (0, 0, 2, 3)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "static full tensor contrast (0, 0, 3, 0)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "static full tensor contrast (0, 0, 3, 1)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "static full tensor contrast (0, 0, 3, 2)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "static full tensor contrast (0, 0, 3, 3)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "static full tensor contrast (0, 1, 0, 0)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "static full tensor contrast (0, 1, 0, 1)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "static full tensor contrast (0, 1, 0, 2)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "static full tensor contrast (0, 1, 0, 3)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "static full tensor contrast (0, 1, 1, 0)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "static full tensor contrast (0, 1, 1, 1)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "static full tensor contrast (0, 1, 1, 2)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "static full tensor contrast (0, 1, 1, 3)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "static full tensor contrast (0, 1, 2, 0)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "static full tensor contrast (0, 1, 2, 1)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "static full tensor contrast (0, 1, 2, 2)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "static full tensor contrast (0, 1, 2, 3)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "static full tensor contrast (0, 1, 3, 0)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "static full tensor contrast (0, 1, 3, 1)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "static full tensor contrast (0, 1, 3, 2)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "static full tensor contrast (0, 1, 3, 3)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "static full tensor contrast (0, 2, 0, 0)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "static full tensor contrast (0, 2, 0, 1)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "static full tensor contrast (0, 2, 0, 2)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "static full tensor contrast (0, 2, 0, 3)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "static full tensor contrast (0, 2, 1, 0)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "static full tensor contrast (0, 2, 1, 1)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "static full tensor contrast (0, 2, 1, 2)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "static full tensor contrast (0, 2, 1, 3)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "static full tensor contrast (0, 2, 2, 0)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "static full tensor contrast (0, 2, 2, 1)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "static full tensor contrast (0, 2, 2, 2)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "static full tensor contrast (0, 2, 2, 3)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "static full tensor contrast (0, 2, 3, 0)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "static full tensor contrast (0, 2, 3, 1)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "static full tensor contrast (0, 2, 3, 2)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "static full tensor contrast (0, 2, 3, 3)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "static full tensor contrast (0, 3, 0, 0)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "static full tensor contrast (0, 3, 0, 1)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "static full tensor contrast (0, 3, 0, 2)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "static full tensor contrast (0, 3, 0, 3)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "static full tensor contrast (0, 3, 1, 0)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "static full tensor contrast (0, 3, 1, 1)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "static full tensor contrast (0, 3, 1, 2)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "static full tensor contrast (0, 3, 1, 3)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "static full tensor contrast (0, 3, 2, 0)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "static full tensor contrast (0, 3, 2, 1)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "static full tensor contrast (0, 3, 2, 2)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "static full tensor contrast (0, 3, 2, 3)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "static full tensor contrast (0, 3, 3, 0)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "static full tensor contrast (0, 3, 3, 1)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "static full tensor contrast (0, 3, 3, 2)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "static full tensor contrast (0, 3, 3, 3)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "static full tensor contrast (1, 0, 0, 0)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "static full tensor contrast (1, 0, 0, 1)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "static full tensor contrast (1, 0, 0, 2)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "static full tensor contrast (1, 0, 0, 3)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "static full tensor contrast (1, 0, 1, 0)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "static full tensor contrast (1, 0, 1, 1)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "static full tensor contrast (1, 0, 1, 2)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "static full tensor contrast (1, 0, 1, 3)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "static full tensor contrast (1, 0, 2, 0)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "static full tensor contrast (1, 0, 2, 1)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "static full tensor contrast (1, 0, 2, 2)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "static full tensor contrast (1, 0, 2, 3)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "static full tensor contrast (1, 0, 3, 0)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "static full tensor contrast (1, 0, 3, 1)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "static full tensor contrast (1, 0, 3, 2)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "static full tensor contrast (1, 0, 3, 3)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "static full tensor contrast (1, 1, 0, 0)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "static full tensor contrast (1, 1, 0, 1)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "static full tensor contrast (1, 1, 0, 2)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "static full tensor contrast (1, 1, 0, 3)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "static full tensor contrast (1, 1, 1, 0)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "static full tensor contrast (1, 1, 1, 1)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "static full tensor contrast (1, 1, 1, 2)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "static full tensor contrast (1, 1, 1, 3)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "static full tensor contrast (1, 1, 2, 0)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "static full tensor contrast (1, 1, 2, 1)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "static full tensor contrast (1, 1, 2, 2)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "static full tensor contrast (1, 1, 2, 3)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "static full tensor contrast (1, 1, 3, 0)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "static full tensor contrast (1, 1, 3, 1)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "static full tensor contrast (1, 1, 3, 2)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "static full tensor contrast (1, 1, 3, 3)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "static full tensor contrast (1, 2, 0, 0)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "static full tensor contrast (1, 2, 0, 1)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "static full tensor contrast (1, 2, 0, 2)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "static full tensor contrast (1, 2, 0, 3)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "static full tensor contrast (1, 2, 1, 0)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "static full tensor contrast (1, 2, 1, 1)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "static full tensor contrast (1, 2, 1, 2)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "static full tensor contrast (1, 2, 1, 3)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "static full tensor contrast (1, 2, 2, 0)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "static full tensor contrast (1, 2, 2, 1)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "static full tensor contrast (1, 2, 2, 2)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "static full tensor contrast (1, 2, 2, 3)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "static full tensor contrast (1, 2, 3, 0)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "static full tensor contrast (1, 2, 3, 1)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "static full tensor contrast (1, 2, 3, 2)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "static full tensor contrast (1, 2, 3, 3)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "static full tensor contrast (1, 3, 0, 0)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "static full tensor contrast (1, 3, 0, 1)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "static full tensor contrast (1, 3, 0, 2)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "static full tensor contrast (1, 3, 0, 3)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "static full tensor contrast (1, 3, 1, 0)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "static full tensor contrast (1, 3, 1, 1)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "static full tensor contrast (1, 3, 1, 2)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "static full tensor contrast (1, 3, 1, 3)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "static full tensor contrast (1, 3, 2, 0)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "static full tensor contrast (1, 3, 2, 1)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "static full tensor contrast (1, 3, 2, 2)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "static full tensor contrast (1, 3, 2, 3)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "static full tensor contrast (1, 3, 3, 0)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "static full tensor contrast (1, 3, 3, 1)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "static full tensor contrast (1, 3, 3, 2)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "static full tensor contrast (1, 3, 3, 3)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "static full tensor contrast (2, 0, 0, 0)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "static full tensor contrast (2, 0, 0, 1)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "static full tensor contrast (2, 0, 0, 2)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "static full tensor contrast (2, 0, 0, 3)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "static full tensor contrast (2, 0, 1, 0)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "static full tensor contrast (2, 0, 1, 1)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "static full tensor contrast (2, 0, 1, 2)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "static full tensor contrast (2, 0, 1, 3)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "static full tensor contrast (2, 0, 2, 0)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "static full tensor contrast (2, 0, 2, 1)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "static full tensor contrast (2, 0, 2, 2)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "static full tensor contrast (2, 0, 2, 3)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "static full tensor contrast (2, 0, 3, 0)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "static full tensor contrast (2, 0, 3, 1)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "static full tensor contrast (2, 0, 3, 2)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "static full tensor contrast (2, 0, 3, 3)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "static full tensor contrast (2, 1, 0, 0)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "static full tensor contrast (2, 1, 0, 1)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "static full tensor contrast (2, 1, 0, 2)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "static full tensor contrast (2, 1, 0, 3)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "static full tensor contrast (2, 1, 1, 0)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "static full tensor contrast (2, 1, 1, 1)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "static full tensor contrast (2, 1, 1, 2)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "static full tensor contrast (2, 1, 1, 3)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "static full tensor contrast (2, 1, 2, 0)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "static full tensor contrast (2, 1, 2, 1)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "static full tensor contrast (2, 1, 2, 2)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "static full tensor contrast (2, 1, 2, 3)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "static full tensor contrast (2, 1, 3, 0)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "static full tensor contrast (2, 1, 3, 1)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "static full tensor contrast (2, 1, 3, 2)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "static full tensor contrast (2, 1, 3, 3)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "static full tensor contrast (2, 2, 0, 0)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "static full tensor contrast (2, 2, 0, 1)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "static full tensor contrast (2, 2, 0, 2)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "static full tensor contrast (2, 2, 0, 3)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "static full tensor contrast (2, 2, 1, 0)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "static full tensor contrast (2, 2, 1, 1)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "static full tensor contrast (2, 2, 1, 2)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "static full tensor contrast (2, 2, 1, 3)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "static full tensor contrast (2, 2, 2, 0)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "static full tensor contrast (2, 2, 2, 1)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "static full tensor contrast (2, 2, 2, 2)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "static full tensor contrast (2, 2, 2, 3)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "static full tensor contrast (2, 2, 3, 0)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "static full tensor contrast (2, 2, 3, 1)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "static full tensor contrast (2, 2, 3, 2)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "static full tensor contrast (2, 2, 3, 3)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "static full tensor contrast (2, 3, 0, 0)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "static full tensor contrast (2, 3, 0, 1)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "static full tensor contrast (2, 3, 0, 2)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "static full tensor contrast (2, 3, 0, 3)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "static full tensor contrast (2, 3, 1, 0)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "static full tensor contrast (2, 3, 1, 1)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "static full tensor contrast (2, 3, 1, 2)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "static full tensor contrast (2, 3, 1, 3)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "static full tensor contrast (2, 3, 2, 0)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "static full tensor contrast (2, 3, 2, 1)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "static full tensor contrast (2, 3, 2, 2)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "static full tensor contrast (2, 3, 2, 3)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "static full tensor contrast (2, 3, 3, 0)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "static full tensor contrast (2, 3, 3, 1)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "static full tensor contrast (2, 3, 3, 2)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "static full tensor contrast (2, 3, 3, 3)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "static full tensor contrast (3, 0, 0, 0)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "static full tensor contrast (3, 0, 0, 1)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "static full tensor contrast (3, 0, 0, 2)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "static full tensor contrast (3, 0, 0, 3)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "static full tensor contrast (3, 0, 1, 0)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "static full tensor contrast (3, 0, 1, 1)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "static full tensor contrast (3, 0, 1, 2)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "static full tensor contrast (3, 0, 1, 3)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "static full tensor contrast (3, 0, 2, 0)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "static full tensor contrast (3, 0, 2, 1)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "static full tensor contrast (3, 0, 2, 2)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "static full tensor contrast (3, 0, 2, 3)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "static full tensor contrast (3, 0, 3, 0)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "static full tensor contrast (3, 0, 3, 1)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "static full tensor contrast (3, 0, 3, 2)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "static full tensor contrast (3, 0, 3, 3)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "static full tensor contrast (3, 1, 0, 0)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "static full tensor contrast (3, 1, 0, 1)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "static full tensor contrast (3, 1, 0, 2)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "static full tensor contrast (3, 1, 0, 3)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "static full tensor contrast (3, 1, 1, 0)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "static full tensor contrast (3, 1, 1, 1)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "static full tensor contrast (3, 1, 1, 2)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "static full tensor contrast (3, 1, 1, 3)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "static full tensor contrast (3, 1, 2, 0)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "static full tensor contrast (3, 1, 2, 1)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "static full tensor contrast (3, 1, 2, 2)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "static full tensor contrast (3, 1, 2, 3)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "static full tensor contrast (3, 1, 3, 0)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "static full tensor contrast (3, 1, 3, 1)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "static full tensor contrast (3, 1, 3, 2)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "static full tensor contrast (3, 1, 3, 3)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "static full tensor contrast (3, 2, 0, 0)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "static full tensor contrast (3, 2, 0, 1)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "static full tensor contrast (3, 2, 0, 2)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "static full tensor contrast (3, 2, 0, 3)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "static full tensor contrast (3, 2, 1, 0)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "static full tensor contrast (3, 2, 1, 1)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "static full tensor contrast (3, 2, 1, 2)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "static full tensor contrast (3, 2, 1, 3)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "static full tensor contrast (3, 2, 2, 0)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "static full tensor contrast (3, 2, 2, 1)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "static full tensor contrast (3, 2, 2, 2)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "static full tensor contrast (3, 2, 2, 3)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "static full tensor contrast (3, 2, 3, 0)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "static full tensor contrast (3, 2, 3, 1)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "static full tensor contrast (3, 2, 3, 2)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "static full tensor contrast (3, 2, 3, 3)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "static full tensor contrast (3, 3, 0, 0)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "static full tensor contrast (3, 3, 0, 1)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "static full tensor contrast (3, 3, 0, 2)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "static full tensor contrast (3, 3, 0, 3)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "static full tensor contrast (3, 3, 1, 0)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "static full tensor contrast (3, 3, 1, 1)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "static full tensor contrast (3, 3, 1, 2)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "static full tensor contrast (3, 3, 1, 3)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "static full tensor contrast (3, 3, 2, 0)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "static full tensor contrast (3, 3, 2, 1)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "static full tensor contrast (3, 3, 2, 2)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "static full tensor contrast (3, 3, 2, 3)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "static full tensor contrast (3, 3, 3, 0)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "static full tensor contrast (3, 3, 3, 1)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "static full tensor contrast (3, 3, 3, 2)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "static full tensor contrast (3, 3, 3, 3)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "isotropic-time mixed (0, 0, 0, 1)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "isotropic-time mixed (0, 0, 0, 2)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "isotropic-time mixed (0, 0, 0, 3)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "isotropic-time mixed (0, 0, 1, 0)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "isotropic-time mixed (0, 0, 1, 1)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "isotropic-time mixed (0, 0, 1, 2)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "isotropic-time mixed (0, 0, 1, 3)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "isotropic-time mixed (0, 0, 2, 0)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "isotropic-time mixed (0, 0, 2, 1)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "isotropic-time mixed (0, 0, 2, 2)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "isotropic-time mixed (0, 0, 2, 3)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "isotropic-time mixed (0, 0, 3, 0)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "isotropic-time mixed (0, 0, 3, 1)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "isotropic-time mixed (0, 0, 3, 2)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "isotropic-time mixed (0, 0, 3, 3)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "isotropic-time mixed (0, 1, 0, 0)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "isotropic-time mixed (0, 1, 0, 2)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "isotropic-time mixed (0, 1, 0, 3)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "isotropic-time mixed (0, 1, 1, 1)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "isotropic-time mixed (0, 1, 1, 2)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "isotropic-time mixed (0, 1, 1, 3)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "isotropic-time mixed (0, 1, 2, 0)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "isotropic-time mixed (0, 1, 2, 1)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "isotropic-time mixed (0, 1, 2, 2)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "isotropic-time mixed (0, 1, 2, 3)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "isotropic-time mixed (0, 1, 3, 0)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "isotropic-time mixed (0, 1, 3, 1)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "isotropic-time mixed (0, 1, 3, 2)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "isotropic-time mixed (0, 1, 3, 3)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "isotropic-time mixed (0, 2, 0, 0)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "isotropic-time mixed (0, 2, 0, 1)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "isotropic-time mixed (0, 2, 0, 3)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "isotropic-time mixed (0, 2, 1, 0)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "isotropic-time mixed (0, 2, 1, 1)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "isotropic-time mixed (0, 2, 1, 2)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "isotropic-time mixed (0, 2, 1, 3)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "isotropic-time mixed (0, 2, 2, 1)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "isotropic-time mixed (0, 2, 2, 2)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "isotropic-time mixed (0, 2, 2, 3)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "isotropic-time mixed (0, 2, 3, 0)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "isotropic-time mixed (0, 2, 3, 1)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "isotropic-time mixed (0, 2, 3, 2)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "isotropic-time mixed (0, 2, 3, 3)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "isotropic-time mixed (0, 3, 0, 0)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "isotropic-time mixed (0, 3, 0, 1)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "isotropic-time mixed (0, 3, 0, 2)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "isotropic-time mixed (0, 3, 1, 0)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "isotropic-time mixed (0, 3, 1, 1)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "isotropic-time mixed (0, 3, 1, 2)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "isotropic-time mixed (0, 3, 1, 3)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "isotropic-time mixed (0, 3, 2, 0)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "isotropic-time mixed (0, 3, 2, 1)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "isotropic-time mixed (0, 3, 2, 2)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "isotropic-time mixed (0, 3, 2, 3)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "isotropic-time mixed (0, 3, 3, 1)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "isotropic-time mixed (0, 3, 3, 2)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "isotropic-time mixed (0, 3, 3, 3)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "isotropic-time mixed (1, 0, 0, 0)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "isotropic-time mixed (1, 0, 0, 2)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "isotropic-time mixed (1, 0, 0, 3)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "isotropic-time mixed (1, 0, 1, 1)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "isotropic-time mixed (1, 0, 1, 2)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "isotropic-time mixed (1, 0, 1, 3)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "isotropic-time mixed (1, 0, 2, 0)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "isotropic-time mixed (1, 0, 2, 1)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "isotropic-time mixed (1, 0, 2, 2)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "isotropic-time mixed (1, 0, 2, 3)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "isotropic-time mixed (1, 0, 3, 0)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "isotropic-time mixed (1, 0, 3, 1)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "isotropic-time mixed (1, 0, 3, 2)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "isotropic-time mixed (1, 0, 3, 3)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "isotropic-time mixed (1, 1, 0, 0)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "isotropic-time mixed (1, 1, 0, 1)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "isotropic-time mixed (1, 1, 0, 2)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "isotropic-time mixed (1, 1, 0, 3)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "isotropic-time mixed (1, 1, 1, 0)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "isotropic-time mixed (1, 1, 1, 2)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "isotropic-time mixed (1, 1, 1, 3)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "isotropic-time mixed (1, 1, 2, 0)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "isotropic-time mixed (1, 1, 2, 1)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "isotropic-time mixed (1, 1, 2, 2)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "isotropic-time mixed (1, 1, 2, 3)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "isotropic-time mixed (1, 1, 3, 0)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "isotropic-time mixed (1, 1, 3, 1)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "isotropic-time mixed (1, 1, 3, 2)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "isotropic-time mixed (1, 1, 3, 3)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "isotropic-time mixed (1, 2, 0, 0)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "isotropic-time mixed (1, 2, 0, 1)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "isotropic-time mixed (1, 2, 0, 2)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "isotropic-time mixed (1, 2, 0, 3)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "isotropic-time mixed (1, 2, 1, 0)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "isotropic-time mixed (1, 2, 1, 1)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "isotropic-time mixed (1, 2, 1, 3)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "isotropic-time mixed (1, 2, 2, 0)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "isotropic-time mixed (1, 2, 2, 2)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "isotropic-time mixed (1, 2, 2, 3)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "isotropic-time mixed (1, 2, 3, 0)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "isotropic-time mixed (1, 2, 3, 1)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "isotropic-time mixed (1, 2, 3, 2)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "isotropic-time mixed (1, 2, 3, 3)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "isotropic-time mixed (1, 3, 0, 0)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "isotropic-time mixed (1, 3, 0, 1)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "isotropic-time mixed (1, 3, 0, 2)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "isotropic-time mixed (1, 3, 0, 3)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "isotropic-time mixed (1, 3, 1, 0)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "isotropic-time mixed (1, 3, 1, 1)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "isotropic-time mixed (1, 3, 1, 2)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "isotropic-time mixed (1, 3, 2, 0)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "isotropic-time mixed (1, 3, 2, 1)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "isotropic-time mixed (1, 3, 2, 2)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "isotropic-time mixed (1, 3, 2, 3)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "isotropic-time mixed (1, 3, 3, 0)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "isotropic-time mixed (1, 3, 3, 2)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "isotropic-time mixed (1, 3, 3, 3)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "isotropic-time mixed (2, 0, 0, 0)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "isotropic-time mixed (2, 0, 0, 1)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "isotropic-time mixed (2, 0, 0, 3)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "isotropic-time mixed (2, 0, 1, 0)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "isotropic-time mixed (2, 0, 1, 1)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "isotropic-time mixed (2, 0, 1, 2)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "isotropic-time mixed (2, 0, 1, 3)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "isotropic-time mixed (2, 0, 2, 1)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "isotropic-time mixed (2, 0, 2, 2)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "isotropic-time mixed (2, 0, 2, 3)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "isotropic-time mixed (2, 0, 3, 0)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "isotropic-time mixed (2, 0, 3, 1)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "isotropic-time mixed (2, 0, 3, 2)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "isotropic-time mixed (2, 0, 3, 3)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "isotropic-time mixed (2, 1, 0, 0)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "isotropic-time mixed (2, 1, 0, 1)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "isotropic-time mixed (2, 1, 0, 2)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "isotropic-time mixed (2, 1, 0, 3)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "isotropic-time mixed (2, 1, 1, 0)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "isotropic-time mixed (2, 1, 1, 1)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "isotropic-time mixed (2, 1, 1, 3)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "isotropic-time mixed (2, 1, 2, 0)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "isotropic-time mixed (2, 1, 2, 2)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "isotropic-time mixed (2, 1, 2, 3)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "isotropic-time mixed (2, 1, 3, 0)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "isotropic-time mixed (2, 1, 3, 1)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "isotropic-time mixed (2, 1, 3, 2)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "isotropic-time mixed (2, 1, 3, 3)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "isotropic-time mixed (2, 2, 0, 0)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "isotropic-time mixed (2, 2, 0, 1)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "isotropic-time mixed (2, 2, 0, 2)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "isotropic-time mixed (2, 2, 0, 3)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "isotropic-time mixed (2, 2, 1, 0)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "isotropic-time mixed (2, 2, 1, 1)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "isotropic-time mixed (2, 2, 1, 2)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "isotropic-time mixed (2, 2, 1, 3)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "isotropic-time mixed (2, 2, 2, 0)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "isotropic-time mixed (2, 2, 2, 1)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "isotropic-time mixed (2, 2, 2, 3)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "isotropic-time mixed (2, 2, 3, 0)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "isotropic-time mixed (2, 2, 3, 1)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "isotropic-time mixed (2, 2, 3, 2)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "isotropic-time mixed (2, 2, 3, 3)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "isotropic-time mixed (2, 3, 0, 0)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "isotropic-time mixed (2, 3, 0, 1)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "isotropic-time mixed (2, 3, 0, 2)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "isotropic-time mixed (2, 3, 0, 3)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "isotropic-time mixed (2, 3, 1, 0)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "isotropic-time mixed (2, 3, 1, 1)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "isotropic-time mixed (2, 3, 1, 2)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "isotropic-time mixed (2, 3, 1, 3)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "isotropic-time mixed (2, 3, 2, 0)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "isotropic-time mixed (2, 3, 2, 1)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "isotropic-time mixed (2, 3, 2, 2)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "isotropic-time mixed (2, 3, 3, 0)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "isotropic-time mixed (2, 3, 3, 1)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "isotropic-time mixed (2, 3, 3, 3)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "isotropic-time mixed (3, 0, 0, 0)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "isotropic-time mixed (3, 0, 0, 1)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "isotropic-time mixed (3, 0, 0, 2)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "isotropic-time mixed (3, 0, 1, 0)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "isotropic-time mixed (3, 0, 1, 1)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "isotropic-time mixed (3, 0, 1, 2)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "isotropic-time mixed (3, 0, 1, 3)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "isotropic-time mixed (3, 0, 2, 0)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "isotropic-time mixed (3, 0, 2, 1)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "isotropic-time mixed (3, 0, 2, 2)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "isotropic-time mixed (3, 0, 2, 3)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "isotropic-time mixed (3, 0, 3, 1)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "isotropic-time mixed (3, 0, 3, 2)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "isotropic-time mixed (3, 0, 3, 3)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "isotropic-time mixed (3, 1, 0, 0)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "isotropic-time mixed (3, 1, 0, 1)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "isotropic-time mixed (3, 1, 0, 2)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "isotropic-time mixed (3, 1, 0, 3)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "isotropic-time mixed (3, 1, 1, 0)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "isotropic-time mixed (3, 1, 1, 1)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "isotropic-time mixed (3, 1, 1, 2)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "isotropic-time mixed (3, 1, 2, 0)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "isotropic-time mixed (3, 1, 2, 1)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "isotropic-time mixed (3, 1, 2, 2)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "isotropic-time mixed (3, 1, 2, 3)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "isotropic-time mixed (3, 1, 3, 0)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "isotropic-time mixed (3, 1, 3, 2)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "isotropic-time mixed (3, 1, 3, 3)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "isotropic-time mixed (3, 2, 0, 0)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "isotropic-time mixed (3, 2, 0, 1)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "isotropic-time mixed (3, 2, 0, 2)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "isotropic-time mixed (3, 2, 0, 3)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "isotropic-time mixed (3, 2, 1, 0)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "isotropic-time mixed (3, 2, 1, 1)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "isotropic-time mixed (3, 2, 1, 2)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "isotropic-time mixed (3, 2, 1, 3)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "isotropic-time mixed (3, 2, 2, 0)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "isotropic-time mixed (3, 2, 2, 1)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "isotropic-time mixed (3, 2, 2, 2)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "isotropic-time mixed (3, 2, 3, 0)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "isotropic-time mixed (3, 2, 3, 1)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "isotropic-time mixed (3, 2, 3, 3)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "isotropic-time mixed (3, 3, 0, 0)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "isotropic-time mixed (3, 3, 0, 1)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "isotropic-time mixed (3, 3, 0, 2)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "isotropic-time mixed (3, 3, 0, 3)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "isotropic-time mixed (3, 3, 1, 0)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "isotropic-time mixed (3, 3, 1, 1)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "isotropic-time mixed (3, 3, 1, 2)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "isotropic-time mixed (3, 3, 1, 3)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "isotropic-time mixed (3, 3, 2, 0)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "isotropic-time mixed (3, 3, 2, 1)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "isotropic-time mixed (3, 3, 2, 2)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "isotropic-time mixed (3, 3, 2, 3)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "isotropic-time mixed (3, 3, 3, 0)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "isotropic-time mixed (3, 3, 3, 1)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "isotropic-time mixed (3, 3, 3, 2)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "variable contrast (0, 1)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "variable contrast (0, 2)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "variable contrast (0, 3)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "variable contrast (1, 2)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "variable contrast (1, 3)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "variable contrast (2, 3)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "variable contrast derivative",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "variable full tensor contrast (0, 0, 0, 0)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "variable full tensor contrast (0, 0, 0, 1)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "variable full tensor contrast (0, 0, 0, 2)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "variable full tensor contrast (0, 0, 0, 3)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "variable full tensor contrast (0, 0, 1, 0)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "variable full tensor contrast (0, 0, 1, 1)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "variable full tensor contrast (0, 0, 1, 2)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "variable full tensor contrast (0, 0, 1, 3)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "variable full tensor contrast (0, 0, 2, 0)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "variable full tensor contrast (0, 0, 2, 1)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "variable full tensor contrast (0, 0, 2, 2)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "variable full tensor contrast (0, 0, 2, 3)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "variable full tensor contrast (0, 0, 3, 0)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "variable full tensor contrast (0, 0, 3, 1)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "variable full tensor contrast (0, 0, 3, 2)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "variable full tensor contrast (0, 0, 3, 3)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "variable full tensor contrast (0, 1, 0, 0)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "variable full tensor contrast (0, 1, 0, 1)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "variable full tensor contrast (0, 1, 0, 2)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "variable full tensor contrast (0, 1, 0, 3)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "variable full tensor contrast (0, 1, 1, 0)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "variable full tensor contrast (0, 1, 1, 1)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "variable full tensor contrast (0, 1, 1, 2)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "variable full tensor contrast (0, 1, 1, 3)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "variable full tensor contrast (0, 1, 2, 0)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "variable full tensor contrast (0, 1, 2, 1)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "variable full tensor contrast (0, 1, 2, 2)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "variable full tensor contrast (0, 1, 2, 3)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "variable full tensor contrast (0, 1, 3, 0)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "variable full tensor contrast (0, 1, 3, 1)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "variable full tensor contrast (0, 1, 3, 2)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "variable full tensor contrast (0, 1, 3, 3)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "variable full tensor contrast (0, 2, 0, 0)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "variable full tensor contrast (0, 2, 0, 1)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "variable full tensor contrast (0, 2, 0, 2)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "variable full tensor contrast (0, 2, 0, 3)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "variable full tensor contrast (0, 2, 1, 0)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "variable full tensor contrast (0, 2, 1, 1)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "variable full tensor contrast (0, 2, 1, 2)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "variable full tensor contrast (0, 2, 1, 3)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "variable full tensor contrast (0, 2, 2, 0)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "variable full tensor contrast (0, 2, 2, 1)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "variable full tensor contrast (0, 2, 2, 2)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "variable full tensor contrast (0, 2, 2, 3)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "variable full tensor contrast (0, 2, 3, 0)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "variable full tensor contrast (0, 2, 3, 1)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "variable full tensor contrast (0, 2, 3, 2)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "variable full tensor contrast (0, 2, 3, 3)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "variable full tensor contrast (0, 3, 0, 0)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "variable full tensor contrast (0, 3, 0, 1)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "variable full tensor contrast (0, 3, 0, 2)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "variable full tensor contrast (0, 3, 0, 3)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "variable full tensor contrast (0, 3, 1, 0)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "variable full tensor contrast (0, 3, 1, 1)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "variable full tensor contrast (0, 3, 1, 2)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "variable full tensor contrast (0, 3, 1, 3)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "variable full tensor contrast (0, 3, 2, 0)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "variable full tensor contrast (0, 3, 2, 1)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "variable full tensor contrast (0, 3, 2, 2)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "variable full tensor contrast (0, 3, 2, 3)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "variable full tensor contrast (0, 3, 3, 0)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "variable full tensor contrast (0, 3, 3, 1)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "variable full tensor contrast (0, 3, 3, 2)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "variable full tensor contrast (0, 3, 3, 3)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "variable full tensor contrast (1, 0, 0, 0)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "variable full tensor contrast (1, 0, 0, 1)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "variable full tensor contrast (1, 0, 0, 2)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "variable full tensor contrast (1, 0, 0, 3)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "variable full tensor contrast (1, 0, 1, 0)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "variable full tensor contrast (1, 0, 1, 1)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "variable full tensor contrast (1, 0, 1, 2)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "variable full tensor contrast (1, 0, 1, 3)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "variable full tensor contrast (1, 0, 2, 0)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "variable full tensor contrast (1, 0, 2, 1)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "variable full tensor contrast (1, 0, 2, 2)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "variable full tensor contrast (1, 0, 2, 3)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "variable full tensor contrast (1, 0, 3, 0)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "variable full tensor contrast (1, 0, 3, 1)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "variable full tensor contrast (1, 0, 3, 2)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "variable full tensor contrast (1, 0, 3, 3)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "variable full tensor contrast (1, 1, 0, 0)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "variable full tensor contrast (1, 1, 0, 1)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "variable full tensor contrast (1, 1, 0, 2)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "variable full tensor contrast (1, 1, 0, 3)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "variable full tensor contrast (1, 1, 1, 0)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "variable full tensor contrast (1, 1, 1, 1)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "variable full tensor contrast (1, 1, 1, 2)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "variable full tensor contrast (1, 1, 1, 3)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "variable full tensor contrast (1, 1, 2, 0)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "variable full tensor contrast (1, 1, 2, 1)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "variable full tensor contrast (1, 1, 2, 2)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "variable full tensor contrast (1, 1, 2, 3)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "variable full tensor contrast (1, 1, 3, 0)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "variable full tensor contrast (1, 1, 3, 1)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "variable full tensor contrast (1, 1, 3, 2)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "variable full tensor contrast (1, 1, 3, 3)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "variable full tensor contrast (1, 2, 0, 0)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "variable full tensor contrast (1, 2, 0, 1)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "variable full tensor contrast (1, 2, 0, 2)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "variable full tensor contrast (1, 2, 0, 3)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "variable full tensor contrast (1, 2, 1, 0)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "variable full tensor contrast (1, 2, 1, 1)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "variable full tensor contrast (1, 2, 1, 2)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "variable full tensor contrast (1, 2, 1, 3)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "variable full tensor contrast (1, 2, 2, 0)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "variable full tensor contrast (1, 2, 2, 1)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "variable full tensor contrast (1, 2, 2, 2)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "variable full tensor contrast (1, 2, 2, 3)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "variable full tensor contrast (1, 2, 3, 0)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "variable full tensor contrast (1, 2, 3, 1)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "variable full tensor contrast (1, 2, 3, 2)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "variable full tensor contrast (1, 2, 3, 3)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "variable full tensor contrast (1, 3, 0, 0)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "variable full tensor contrast (1, 3, 0, 1)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "variable full tensor contrast (1, 3, 0, 2)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "variable full tensor contrast (1, 3, 0, 3)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "variable full tensor contrast (1, 3, 1, 0)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "variable full tensor contrast (1, 3, 1, 1)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "variable full tensor contrast (1, 3, 1, 2)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "variable full tensor contrast (1, 3, 1, 3)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "variable full tensor contrast (1, 3, 2, 0)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "variable full tensor contrast (1, 3, 2, 1)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "variable full tensor contrast (1, 3, 2, 2)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "variable full tensor contrast (1, 3, 2, 3)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "variable full tensor contrast (1, 3, 3, 0)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "variable full tensor contrast (1, 3, 3, 1)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "variable full tensor contrast (1, 3, 3, 2)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "variable full tensor contrast (1, 3, 3, 3)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "variable full tensor contrast (2, 0, 0, 0)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "variable full tensor contrast (2, 0, 0, 1)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "variable full tensor contrast (2, 0, 0, 2)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "variable full tensor contrast (2, 0, 0, 3)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "variable full tensor contrast (2, 0, 1, 0)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "variable full tensor contrast (2, 0, 1, 1)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "variable full tensor contrast (2, 0, 1, 2)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "variable full tensor contrast (2, 0, 1, 3)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "variable full tensor contrast (2, 0, 2, 0)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "variable full tensor contrast (2, 0, 2, 1)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "variable full tensor contrast (2, 0, 2, 2)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "variable full tensor contrast (2, 0, 2, 3)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "variable full tensor contrast (2, 0, 3, 0)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "variable full tensor contrast (2, 0, 3, 1)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "variable full tensor contrast (2, 0, 3, 2)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "variable full tensor contrast (2, 0, 3, 3)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "variable full tensor contrast (2, 1, 0, 0)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "variable full tensor contrast (2, 1, 0, 1)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "variable full tensor contrast (2, 1, 0, 2)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "variable full tensor contrast (2, 1, 0, 3)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "variable full tensor contrast (2, 1, 1, 0)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "variable full tensor contrast (2, 1, 1, 1)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "variable full tensor contrast (2, 1, 1, 2)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "variable full tensor contrast (2, 1, 1, 3)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "variable full tensor contrast (2, 1, 2, 0)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "variable full tensor contrast (2, 1, 2, 1)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "variable full tensor contrast (2, 1, 2, 2)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "variable full tensor contrast (2, 1, 2, 3)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "variable full tensor contrast (2, 1, 3, 0)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "variable full tensor contrast (2, 1, 3, 1)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "variable full tensor contrast (2, 1, 3, 2)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "variable full tensor contrast (2, 1, 3, 3)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "variable full tensor contrast (2, 2, 0, 0)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "variable full tensor contrast (2, 2, 0, 1)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "variable full tensor contrast (2, 2, 0, 2)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "variable full tensor contrast (2, 2, 0, 3)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "variable full tensor contrast (2, 2, 1, 0)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "variable full tensor contrast (2, 2, 1, 1)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "variable full tensor contrast (2, 2, 1, 2)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "variable full tensor contrast (2, 2, 1, 3)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "variable full tensor contrast (2, 2, 2, 0)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "variable full tensor contrast (2, 2, 2, 1)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "variable full tensor contrast (2, 2, 2, 2)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "variable full tensor contrast (2, 2, 2, 3)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "variable full tensor contrast (2, 2, 3, 0)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "variable full tensor contrast (2, 2, 3, 1)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "variable full tensor contrast (2, 2, 3, 2)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "variable full tensor contrast (2, 2, 3, 3)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "variable full tensor contrast (2, 3, 0, 0)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "variable full tensor contrast (2, 3, 0, 1)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "variable full tensor contrast (2, 3, 0, 2)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "variable full tensor contrast (2, 3, 0, 3)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "variable full tensor contrast (2, 3, 1, 0)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "variable full tensor contrast (2, 3, 1, 1)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "variable full tensor contrast (2, 3, 1, 2)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "variable full tensor contrast (2, 3, 1, 3)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "variable full tensor contrast (2, 3, 2, 0)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "variable full tensor contrast (2, 3, 2, 1)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "variable full tensor contrast (2, 3, 2, 2)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "variable full tensor contrast (2, 3, 2, 3)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "variable full tensor contrast (2, 3, 3, 0)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "variable full tensor contrast (2, 3, 3, 1)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "variable full tensor contrast (2, 3, 3, 2)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "variable full tensor contrast (2, 3, 3, 3)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "variable full tensor contrast (3, 0, 0, 0)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "variable full tensor contrast (3, 0, 0, 1)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "variable full tensor contrast (3, 0, 0, 2)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "variable full tensor contrast (3, 0, 0, 3)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "variable full tensor contrast (3, 0, 1, 0)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "variable full tensor contrast (3, 0, 1, 1)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "variable full tensor contrast (3, 0, 1, 2)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "variable full tensor contrast (3, 0, 1, 3)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "variable full tensor contrast (3, 0, 2, 0)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "variable full tensor contrast (3, 0, 2, 1)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "variable full tensor contrast (3, 0, 2, 2)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "variable full tensor contrast (3, 0, 2, 3)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "variable full tensor contrast (3, 0, 3, 0)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "variable full tensor contrast (3, 0, 3, 1)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "variable full tensor contrast (3, 0, 3, 2)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "variable full tensor contrast (3, 0, 3, 3)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "variable full tensor contrast (3, 1, 0, 0)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "variable full tensor contrast (3, 1, 0, 1)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "variable full tensor contrast (3, 1, 0, 2)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "variable full tensor contrast (3, 1, 0, 3)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "variable full tensor contrast (3, 1, 1, 0)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "variable full tensor contrast (3, 1, 1, 1)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "variable full tensor contrast (3, 1, 1, 2)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "variable full tensor contrast (3, 1, 1, 3)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "variable full tensor contrast (3, 1, 2, 0)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "variable full tensor contrast (3, 1, 2, 1)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "variable full tensor contrast (3, 1, 2, 2)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "variable full tensor contrast (3, 1, 2, 3)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "variable full tensor contrast (3, 1, 3, 0)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "variable full tensor contrast (3, 1, 3, 1)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "variable full tensor contrast (3, 1, 3, 2)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "variable full tensor contrast (3, 1, 3, 3)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "variable full tensor contrast (3, 2, 0, 0)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "variable full tensor contrast (3, 2, 0, 1)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "variable full tensor contrast (3, 2, 0, 2)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "variable full tensor contrast (3, 2, 0, 3)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "variable full tensor contrast (3, 2, 1, 0)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "variable full tensor contrast (3, 2, 1, 1)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "variable full tensor contrast (3, 2, 1, 2)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "variable full tensor contrast (3, 2, 1, 3)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "variable full tensor contrast (3, 2, 2, 0)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "variable full tensor contrast (3, 2, 2, 1)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "variable full tensor contrast (3, 2, 2, 2)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "variable full tensor contrast (3, 2, 2, 3)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "variable full tensor contrast (3, 2, 3, 0)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "variable full tensor contrast (3, 2, 3, 1)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "variable full tensor contrast (3, 2, 3, 2)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "variable full tensor contrast (3, 2, 3, 3)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "variable full tensor contrast (3, 3, 0, 0)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "variable full tensor contrast (3, 3, 0, 1)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "variable full tensor contrast (3, 3, 0, 2)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "variable full tensor contrast (3, 3, 0, 3)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "variable full tensor contrast (3, 3, 1, 0)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "variable full tensor contrast (3, 3, 1, 1)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "variable full tensor contrast (3, 3, 1, 2)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "variable full tensor contrast (3, 3, 1, 3)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "variable full tensor contrast (3, 3, 2, 0)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "variable full tensor contrast (3, 3, 2, 1)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "variable full tensor contrast (3, 3, 2, 2)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "variable full tensor contrast (3, 3, 2, 3)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "variable full tensor contrast (3, 3, 3, 0)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "variable full tensor contrast (3, 3, 3, 1)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "variable full tensor contrast (3, 3, 3, 2)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "variable full tensor contrast (3, 3, 3, 3)",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "one-frame longitudinal",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "one-frame boosted transverse",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "unboosted product electric 1",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "unboosted product electric 2",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "unboosted product electric 3",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "regular sample tide 0",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "regular sample tide 1",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "regular sample tide 2",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "sample physical lapse",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "label": "sample reference lapse",
+      "residual": "0",
+      "pass": true
+    }
+  ],
+  "check_count": 1014
+}

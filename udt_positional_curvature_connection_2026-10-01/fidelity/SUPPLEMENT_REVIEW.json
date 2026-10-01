@@ -1,0 +1,32 @@
+{
+  "reviewer": "/root/pcc_fidelity",
+  "model": "inherited Codex GPT-6-family configuration; exact serving revision unavailable",
+  "utc": "2026-10-01T22:46:04.966262+00:00",
+  "verdict": "VERIFIED-WITH-CAVEATS",
+  "scope": "exposed supplement; variable-k regional witness and point-only cubic clock control",
+  "peer_argument_code_output_exposed": true,
+  "peer_verdict_exposed": false,
+  "new_scientific_execution": false,
+  "independent_analytic_check": "Physical divergence 12t+6c; trace derivative half12t; PCC-c RHS6c=3kappa_prime",
+  "unresolved_substantive_objections": [],
+  "unit_precision": "Exponential beta T^-2, c T^-1, kappa T^-2; separate cubic coefficient T^-3",
+  "sha256": {
+    "udt_positional_curvature_connection_2026-10-01/SUPPLEMENT.md": "6fd58301461585fabd0ec7adf4db9adfa24f00a3b5a4659bef099af5e62c1ee4",
+    "udt_positional_curvature_connection_2026-10-01/math/SOURCE_FIRST_ARGUMENT.md": "1fc5bb25db42292b850936ca5267cc99cc97f97bb1d728094aea15dbfcea6959",
+    "udt_positional_curvature_connection_2026-10-01/math/check_geometry.py": "ccb3bbcb920492d020130e1c4f653ca646ff6c4179c516df2deaa7cccf0a06a6",
+    "udt_positional_curvature_connection_2026-10-01/math/check_geometry_repaired.py": "2679d43ac16d627e17ddf0790ea51748f47eb5d5e12645eb7fc6242307ceb515",
+    "udt_positional_curvature_connection_2026-10-01/math/geometry_output.json": "f715798798ec1091d8c31aa883815771a967669f10203bf3dd54c10c34ba08cf",
+    "udt_positional_curvature_connection_2026-10-01/math/EXECUTION_RECORD.md": "8570e7ac3cef93f2ad93fc562bda591003d92f38beb77fb77a8b10fce0611b2c",
+    "udt_positional_curvature_connection_2026-10-01/math/geometry_check_capture.json": "7da0c3314f8c164cf9753b96d5702e17c9ad71d478d41cf08facc59b8d19db26",
+    "udt_positional_curvature_connection_2026-10-01/math/geometry_check_capture.stderr": "0e25b3d9e2943cb2d6cca505b9734b45a2cc2dc0c8c448f8c1b379f2099fcab9",
+    "udt_positional_curvature_connection_2026-10-01/math/geometry_repaired_capture.json": "b1ed4f427560e968f5b88a5b3df5172afe814d5d12302d7ca65833226f5d7714",
+    "udt_positional_curvature_connection_2026-10-01/math/check_saved_and_bianchi.py": "6a4991e828fbef55fa836ca22e36b55da33badf9130db7da6983d11aabc1b62f",
+    "udt_positional_curvature_connection_2026-10-01/math/saved_and_bianchi_output.json": "eb25784465c416a34db5c8cf940d68073a1dc8fd58be24ef71f50f78c180d6b2",
+    "udt_positional_curvature_connection_2026-10-01/math/saved_and_bianchi_capture.json": "547f897ddd9b37693fa8e40d6e336c90c1b434d19a2228601828374a775039c6",
+    "udt_positional_curvature_connection_2026-10-01/math/saved_and_bianchi_capture.stderr": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "udt_positional_curvature_connection_2026-10-01/fidelity/SOURCE_FIRST.md": "3efa570de7636afdb3d5ebb14ff922beddfee26c83f30db83230f48f395c25d0",
+    "udt_positional_curvature_connection_2026-10-01/fidelity/EXACT_CONTROLS.json": "a6360e25a3c5710caa4728dcf84b85e48b4e121cf426a14656913b8fcabdcfa5",
+    "udt_positional_curvature_connection_2026-10-01/fidelity/CANDIDATE_REVIEW.md": "fce89c22a82545bb4cd7bc408b0ce54b7d17a974590ad04c7d48734581fdcfb6",
+    "udt_positional_curvature_connection_2026-10-01/fidelity/SUPPLEMENT_REVIEW.md": "0641de9bf97faac1deafe2aa4113dce328c4e94f6315c83f59a72fc591d6591b"
+  }
+}

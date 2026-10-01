@@ -1,0 +1,8 @@
+Traceback (most recent call last):
+  File "/home/udt-admin/udt_mass_codex/udt_positional_curvature_connection_2026-10-01/math/check_geometry.py", line 83, in <module>
+    static_mixed = mixed_check("static",curv)
+  File "/home/udt-admin/udt_mass_codex/udt_positional_curvature_connection_2026-10-01/math/check_geometry.py", line 55, in mixed_check
+    eq(f"{tag} mixed {idx}",value)
+  File "/home/udt-admin/udt_mass_codex/udt_positional_curvature_connection_2026-10-01/math/check_geometry.py", line 23, in eq
+    raise AssertionError((label, residual))
+AssertionError: ('static mixed (3, 2, 3, 1)', r*(sin(2*theta)*tan(theta) + cos(2*theta) - 1)/(2*tan(theta)))

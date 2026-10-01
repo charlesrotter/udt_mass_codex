@@ -1,0 +1,57 @@
+{
+  "reviewer_context": "/root/pcc_math",
+  "date_utc": "2026-10-01T22:46:13.263726+00:00",
+  "model": "inherited parent configuration; exact serving-model identifier not independently exposed",
+  "fresh_context": true,
+  "different_model": false,
+  "human_review": false,
+  "formal_proof": false,
+  "verdict": "VERIFIED-WITH-CAVEATS",
+  "substantive_objections": [],
+  "required_scientific_repair": null,
+  "peer_verdict_exposure": false,
+  "physical_adoption": false,
+  "review_kind": "source-first independent argument followed by exposed adversarial candidate review",
+  "source_hashes": {
+    "udt_positional_curvature_connection_2026-10-01/INITIAL_DERIVATION.md": "48b933b3f4473d8fbf236e658c567fe70e5296cc0e7f7e69f9d9042c3abcfd10",
+    "udt_positional_curvature_connection_2026-10-01/PARENT_FREEZE.json": "bb707fb80397f11d7864df42db9df3035f4746d5e95c0e5fd10c2eb52047992a",
+    "udt_positional_curvature_connection_2026-10-01/check_curvature.py": "9392fc6f4ee7eafc25b1c6017d13bdd96e643739aa7db52a62827b72729f1ebb",
+    "udt_positional_curvature_connection_2026-10-01/IMPLEMENTATION_REPAIR.json": "4f4d9f7b0e0116964f07cd00805b13fd64d4ba0e4903cb919a0e6187b82f542e",
+    "udt_positional_curvature_connection_2026-10-01/PRIMARY_REFERENCE.md": "640184cdb2c4d42139c530660fb30d0162a86e269e73b33b633e28b995776f80",
+    "udt_positional_curvature_connection_2026-10-01/recompute_saved.py": "64d9cf5f5c4d58aadf9a90c5f393b90b544a6a29bda9d132a16f2a832ea560bb",
+    "udt_positional_curvature_connection_2026-10-01/checks/curvature_repaired.stdout": "0366a4c60d653fd47df62b2975f3b80d4dfc3c6b7ebef707629827b51985ea46",
+    "udt_positional_curvature_connection_2026-10-01/checks/curvature_repaired.json": "1e1192ebb592633f658de6ed353011abbd62bce47847f23fe9ab8f5f16e25380",
+    "udt_positional_curvature_connection_2026-10-01/checks/saved_recomputation.stdout": "42bc6ae22d5908a6d40b3caa3881dda2ebbff83f01da15ad28e6d5ea3a24389e",
+    "udt_positional_curvature_connection_2026-10-01/checks/saved_recomputation.json": "4f5547d855b6e313a2e5526356afaff878272581dc8b7aa8d9075016b1da8888",
+    "udt_positional_curvature_connection_2026-10-01/math/SOURCE_FIRST_ARGUMENT.md": "1fc5bb25db42292b850936ca5267cc99cc97f97bb1d728094aea15dbfcea6959",
+    "udt_positional_curvature_connection_2026-10-01/math/check_geometry.py": "ccb3bbcb920492d020130e1c4f653ca646ff6c4179c516df2deaa7cccf0a06a6",
+    "udt_positional_curvature_connection_2026-10-01/math/check_geometry_repaired.py": "2679d43ac16d627e17ddf0790ea51748f47eb5d5e12645eb7fc6242307ceb515",
+    "udt_positional_curvature_connection_2026-10-01/math/geometry_output.json": "f715798798ec1091d8c31aa883815771a967669f10203bf3dd54c10c34ba08cf",
+    "udt_positional_curvature_connection_2026-10-01/math/geometry_repaired_capture.json": "b1ed4f427560e968f5b88a5b3df5172afe814d5d12302d7ca65833226f5d7714",
+    "udt_positional_curvature_connection_2026-10-01/math/check_saved_and_bianchi.py": "6a4991e828fbef55fa836ca22e36b55da33badf9130db7da6983d11aabc1b62f",
+    "udt_positional_curvature_connection_2026-10-01/math/saved_and_bianchi_output.json": "eb25784465c416a34db5c8cf940d68073a1dc8fd58be24ef71f50f78c180d6b2",
+    "udt_positional_curvature_connection_2026-10-01/math/saved_and_bianchi_capture.json": "547f897ddd9b37693fa8e40d6e336c90c1b434d19a2228601828374a775039c6",
+    "udt_positional_curvature_connection_2026-10-01/math/CANDIDATE_REVIEW.md": "dda314a817793fb5c1d4ed026e7f40757efb80a85527565c05741c3a8d0b72af"
+  },
+  "checks": {
+    "independent_source_first_exact_assertions": 1014,
+    "saved_tensor_and_regional_checks": 262,
+    "regional_rhs": [
+      "6*c",
+      "0",
+      "0",
+      "0"
+    ],
+    "source_first_failure_preserved": true
+  },
+  "omissions": [
+    "Full PSW1 proof replay",
+    "finite-L numerical integration or accuracy",
+    "general PDE or regional realization theorem",
+    "full differential Bianchi component census",
+    "external paper re-fetch",
+    "human or different-model review",
+    "formal proof",
+    "empirical or native admission"
+  ]
+}

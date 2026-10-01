@@ -215,7 +215,8 @@
         "udt_finite_selection_test_2026-10-01/REVIEWED_RESULT.md",
         "udt_g311_universal_reciprocity_full_covariant_response_2026-09-01/EXACT_DERIVATION.md",
         "udt_gr_filter_reconciliation_2026-09-09/AUTHORITY_RECORD.md",
-        "udt_echo_consistency_2026-10-01/REVIEWED_RESULT.md"
+        "udt_echo_consistency_2026-10-01/REVIEWED_RESULT.md",
+        "udt_positional_curvature_connection_2026-10-01/REVIEWED_RESULT.md"
       ],
       "required_conditions": [
         "P_NULL",
@@ -485,7 +486,8 @@
         "udt_repository_cleanup_2026-09-27/local_clock_impact_2026-09-29/OWNER_CLARIFICATION.md",
         "udt_finite_native_pair_audit_2026-10-01/REVIEWED_RESULT.md",
         "udt_finite_selection_test_2026-10-01/REVIEWED_RESULT.md",
-        "udt_echo_consistency_2026-10-01/REVIEWED_RESULT.md"
+        "udt_echo_consistency_2026-10-01/REVIEWED_RESULT.md",
+        "udt_positional_curvature_connection_2026-10-01/REVIEWED_RESULT.md"
       ],
       "required_conditions": []
     },
@@ -1071,7 +1073,7 @@
     {
       "id": "O_PSW_ATTRIBUTION",
       "kind": "open_join",
-      "statement": "Received ticking and FNA1 supplied full-pair assembly are defined. FST1 proves a conditional symmetric-response degeneracy and relative-curvature clock discriminator. Native physical branch/comparison admission, actual response and empirical filter attachment remain OPEN; legitimate scalar state/calibration data are distinct from law selection. No physical scale or X_max selected. ECS1 adds a necessary internal echo relation and exact restricted-sheet transverse ambiguity; neither selects native geometry nor establishes all-observer/field-sector nonuniqueness.",
+      "statement": "Received ticking and FNA1 supplied full-pair assembly are defined. FST1 proves a conditional symmetric-response degeneracy and relative-curvature clock discriminator. Native physical branch/comparison admission, actual response and empirical filter attachment remain OPEN; legitimate scalar state/calibration data are distinct from law selection. No physical scale or X_max selected. ECS1 adds a necessary internal echo relation and exact restricted-sheet transverse ambiguity; neither selects native geometry nor establishes all-observer/field-sector nonuniqueness. PCC1 tests an UNADOPTED all-frame leading additional-curvature assignment with supplied reference/matching; conditional compatibility and scoped Einstein-reference consequence do not close native positional attribution or select a finite law.",
       "sources": [
         "udt_positional_selection_whiteboard_2026-10-01/INITIAL_CANDIDATE.md",
         "udt_positional_selection_whiteboard_2026-10-01/REPAIR.md",
@@ -1079,7 +1081,8 @@
         "udt_finite_positional_clock_test_2026-10-01/REVIEWED_RESULT.md",
         "udt_finite_native_pair_audit_2026-10-01/REVIEWED_RESULT.md",
         "udt_finite_selection_test_2026-10-01/REVIEWED_RESULT.md",
-        "udt_echo_consistency_2026-10-01/REVIEWED_RESULT.md"
+        "udt_echo_consistency_2026-10-01/REVIEWED_RESULT.md",
+        "udt_positional_curvature_connection_2026-10-01/REVIEWED_RESULT.md"
       ],
       "registry_ids": []
     },
@@ -1199,6 +1202,106 @@
         "C_ECS_TRANSVERSE",
         "P_ECS_CLOCK",
         "P_NULL",
+        "M_GEOMETRY"
+      ]
+    },
+    {
+      "id": "P_PCC_MATCH",
+      "kind": "conditional_protocol",
+      "statement": "Two supplied smooth time-oriented Lorentz4 metrics, matched events and time-oriented tangent isometry; PSW1 equal proper L, parallel-prepared free clocks, same units and regular direct null branches, fixed worldlines across nearby emissions. Reference and matching are not selected.",
+      "sources": [
+        "udt_positional_curvature_connection_2026-10-01/INITIAL_DERIVATION.md"
+      ],
+      "registry_ids": []
+    },
+    {
+      "id": "C_PCC_ALLFRAME",
+      "kind": "conditional_class",
+      "statement": "UNADOPTED trial: the leading L^2 additional log-clock coefficient is one scalar for every future unit timelike U and every orthogonal unit n, with simultaneous matched frames. Applies to curvature DIFFERENCE, not total isotropy; does not identify DDR response.",
+      "sources": [
+        "udt_positional_curvature_connection_2026-10-01/INITIAL_DERIVATION.md"
+      ],
+      "registry_ids": []
+    },
+    {
+      "id": "P_PCC_REGION",
+      "kind": "conditional_protocol",
+      "statement": "Smooth supplied event/frame matching across a region with the all-frame curvature-difference condition imposed there; use physical connection for derivatives. General Bianchi condition is necessary only, with full integrability still required.",
+      "sources": [
+        "udt_positional_curvature_connection_2026-10-01/INITIAL_DERIVATION.md"
+      ],
+      "registry_ids": []
+    },
+    {
+      "id": "C_PCC_EINSTEIN_REFERENCE",
+      "kind": "conditional_class",
+      "statement": "Additional supplied reference assumption Ric[g0]=Lambda0 g0 with constant Lambda0 on the connected regular domain; explicitly conditional under GR FILTER ONLY, not adopted UDT dynamics.",
+      "sources": [
+        "udt_positional_curvature_connection_2026-10-01/INITIAL_DERIVATION.md"
+      ],
+      "registry_ids": []
+    },
+    {
+      "id": "R8PCC",
+      "kind": "argument",
+      "anchor": "r8pcc",
+      "title": "All-frame additional leading clock-curvature equivalence",
+      "sources": [
+        "udt_positional_curvature_connection_2026-10-01/INITIAL_DERIVATION.md",
+        "udt_positional_curvature_connection_2026-10-01/SUPPLEMENT.md",
+        "udt_positional_curvature_connection_2026-10-01/REVIEWED_RESULT.md",
+        "udt_positional_curvature_connection_2026-10-01/math/SOURCE_FIRST_ARGUMENT.md",
+        "udt_positional_curvature_connection_2026-10-01/fidelity/SOURCE_FIRST.md",
+        "udt_positional_curvature_connection_2026-10-01/PRIMARY_REFERENCE.md"
+      ],
+      "registry_ids": [],
+      "required_conditions": [
+        "P_PCC_MATCH",
+        "C_PCC_ALLFRAME",
+        "P_NULL",
+        "M_GEOMETRY"
+      ]
+    },
+    {
+      "id": "R8PCCR",
+      "kind": "argument",
+      "anchor": "r8pccr",
+      "title": "Regional necessary compatibility and variable-reference witness",
+      "sources": [
+        "udt_positional_curvature_connection_2026-10-01/INITIAL_DERIVATION.md",
+        "udt_positional_curvature_connection_2026-10-01/SUPPLEMENT.md",
+        "udt_positional_curvature_connection_2026-10-01/REVIEWED_RESULT.md",
+        "udt_positional_curvature_connection_2026-10-01/math/SOURCE_FIRST_ARGUMENT.md",
+        "udt_positional_curvature_connection_2026-10-01/fidelity/SOURCE_FIRST.md",
+        "udt_positional_curvature_connection_2026-10-01/PRIMARY_REFERENCE.md"
+      ],
+      "registry_ids": [],
+      "required_conditions": [
+        "P_PCC_MATCH",
+        "C_PCC_ALLFRAME",
+        "P_PCC_REGION",
+        "M_GEOMETRY"
+      ]
+    },
+    {
+      "id": "R8PCCE",
+      "kind": "argument",
+      "anchor": "r8pcce",
+      "title": "Einstein-reference constancy and nonuniform compatibility witness",
+      "sources": [
+        "udt_positional_curvature_connection_2026-10-01/INITIAL_DERIVATION.md",
+        "udt_positional_curvature_connection_2026-10-01/SUPPLEMENT.md",
+        "udt_positional_curvature_connection_2026-10-01/REVIEWED_RESULT.md",
+        "udt_positional_curvature_connection_2026-10-01/math/SOURCE_FIRST_ARGUMENT.md",
+        "udt_positional_curvature_connection_2026-10-01/fidelity/SOURCE_FIRST.md",
+        "udt_positional_curvature_connection_2026-10-01/PRIMARY_REFERENCE.md"
+      ],
+      "registry_ids": [],
+      "required_conditions": [
+        "P_PCC_MATCH",
+        "C_PCC_ALLFRAME",
+        "P_PCC_REGION",
+        "C_PCC_EINSTEIN_REFERENCE",
         "M_GEOMETRY"
       ]
     }
@@ -2213,6 +2316,116 @@
       "from": "R8ECSM",
       "to": "R18",
       "kind": "context"
+    },
+    {
+      "from": "P_PCC_MATCH",
+      "to": "R8PCC",
+      "kind": "hypothesis"
+    },
+    {
+      "from": "C_PCC_ALLFRAME",
+      "to": "R8PCC",
+      "kind": "hypothesis"
+    },
+    {
+      "from": "P_NULL",
+      "to": "R8PCC",
+      "kind": "hypothesis"
+    },
+    {
+      "from": "M_GEOMETRY",
+      "to": "R8PCC",
+      "kind": "hypothesis"
+    },
+    {
+      "from": "P_PCC_MATCH",
+      "to": "R8PCCR",
+      "kind": "hypothesis"
+    },
+    {
+      "from": "C_PCC_ALLFRAME",
+      "to": "R8PCCR",
+      "kind": "hypothesis"
+    },
+    {
+      "from": "P_PCC_REGION",
+      "to": "R8PCCR",
+      "kind": "hypothesis"
+    },
+    {
+      "from": "M_GEOMETRY",
+      "to": "R8PCCR",
+      "kind": "hypothesis"
+    },
+    {
+      "from": "P_PCC_MATCH",
+      "to": "R8PCCE",
+      "kind": "hypothesis"
+    },
+    {
+      "from": "C_PCC_ALLFRAME",
+      "to": "R8PCCE",
+      "kind": "hypothesis"
+    },
+    {
+      "from": "P_PCC_REGION",
+      "to": "R8PCCE",
+      "kind": "hypothesis"
+    },
+    {
+      "from": "C_PCC_EINSTEIN_REFERENCE",
+      "to": "R8PCCE",
+      "kind": "hypothesis"
+    },
+    {
+      "from": "M_GEOMETRY",
+      "to": "R8PCCE",
+      "kind": "hypothesis"
+    },
+    {
+      "from": "R8",
+      "to": "R8PCC",
+      "kind": "proof"
+    },
+    {
+      "from": "R8PCC",
+      "to": "R8PCCR",
+      "kind": "proof"
+    },
+    {
+      "from": "R8PCCR",
+      "to": "R8PCCE",
+      "kind": "proof"
+    },
+    {
+      "from": "R5",
+      "to": "R8PCC",
+      "kind": "context"
+    },
+    {
+      "from": "R9",
+      "to": "R8PCCE",
+      "kind": "context"
+    },
+    {
+      "from": "R10",
+      "to": "R8PCCE",
+      "kind": "context"
+    },
+    {
+      "from": "R8PCC",
+      "to": "R18",
+      "kind": "context"
+    },
+    {
+      "from": "R8PCCR",
+      "to": "R18",
+      "kind": "context"
+    },
+    {
+      "from": "R8PCCE",
+      "to": "R18",
+      "kind": "context"
     }
   ],
   "sources_sha256": {
@@ -2383,7 +2596,13 @@
     "udt_echo_consistency_2026-10-01/REVIEWED_RESULT.md": "448a5544104d534657c24dfc74481128c2c9deb1d0f87d3e5bbd71a2b2ed1594",
     "udt_echo_consistency_2026-10-01/math/SOURCE_FIRST.md": "ce25b78179daaea01c28a692e2c642b7764f5023a65672fb9b4ebb13b3c2157f",
     "udt_echo_consistency_2026-10-01/fidelity/SOURCE_FIRST.md": "f738667198c938133ae5866a9fa3221d517a9bad69b24da92af39ed28be38551",
-    "udt_finite_positional_clock_test_2026-10-01/math/kasner_higher.stdout": "4748e6779990d976a0683bfe6a0f2f9a21605ad820c517d5e683c5dfb5062f1b"
+    "udt_finite_positional_clock_test_2026-10-01/math/kasner_higher.stdout": "4748e6779990d976a0683bfe6a0f2f9a21605ad820c517d5e683c5dfb5062f1b",
+    "udt_positional_curvature_connection_2026-10-01/INITIAL_DERIVATION.md": "48b933b3f4473d8fbf236e658c567fe70e5296cc0e7f7e69f9d9042c3abcfd10",
+    "udt_positional_curvature_connection_2026-10-01/SUPPLEMENT.md": "6fd58301461585fabd0ec7adf4db9adfa24f00a3b5a4659bef099af5e62c1ee4",
+    "udt_positional_curvature_connection_2026-10-01/REVIEWED_RESULT.md": "527f892953017c4fd49807dcac2d0cf865b3e4705b2c71a1e9e2ad616dd5caa2",
+    "udt_positional_curvature_connection_2026-10-01/math/SOURCE_FIRST_ARGUMENT.md": "1fc5bb25db42292b850936ca5267cc99cc97f97bb1d728094aea15dbfcea6959",
+    "udt_positional_curvature_connection_2026-10-01/fidelity/SOURCE_FIRST.md": "3efa570de7636afdb3d5ebb14ff922beddfee26c83f30db83230f48f395c25d0",
+    "udt_positional_curvature_connection_2026-10-01/PRIMARY_REFERENCE.md": "640184cdb2c4d42139c530660fb30d0162a86e269e73b33b633e28b995776f80"
   },
   "impact_policy": "Any changed source or registry row flags its mapped positive and negative central arguments and every reachable central descendant for review; no automatic truth reversal or regrading.",
   "review_support": [
@@ -3347,6 +3566,132 @@
         "R18",
         "R8ECS",
         "R8ECSM"
+      ]
+    },
+    {
+      "path": "udt_positional_curvature_connection_2026-10-01/math/CANDIDATE_REVIEW.md",
+      "sha256": "dda314a817793fb5c1d4ed026e7f40757efb80a85527565c05741c3a8d0b72af",
+      "role": "review_evidence",
+      "targets": [
+        "R5",
+        "R6",
+        "R8",
+        "R9",
+        "R10",
+        "R16",
+        "R17",
+        "R18",
+        "R8PCC",
+        "R8PCCR",
+        "R8PCCE"
+      ]
+    },
+    {
+      "path": "udt_positional_curvature_connection_2026-10-01/math/SUPPLEMENT_REVIEW.md",
+      "sha256": "8cd545ceae585746506c4f39dd94bfd1b32685a757f17609c3bc8987928a5e17",
+      "role": "review_evidence",
+      "targets": [
+        "R5",
+        "R6",
+        "R8",
+        "R9",
+        "R10",
+        "R16",
+        "R17",
+        "R18",
+        "R8PCC",
+        "R8PCCR",
+        "R8PCCE"
+      ]
+    },
+    {
+      "path": "udt_positional_curvature_connection_2026-10-01/fidelity/CANDIDATE_REVIEW.md",
+      "sha256": "fce89c22a82545bb4cd7bc408b0ce54b7d17a974590ad04c7d48734581fdcfb6",
+      "role": "review_evidence",
+      "targets": [
+        "R5",
+        "R6",
+        "R8",
+        "R9",
+        "R10",
+        "R16",
+        "R17",
+        "R18",
+        "R8PCC",
+        "R8PCCR",
+        "R8PCCE"
+      ]
+    },
+    {
+      "path": "udt_positional_curvature_connection_2026-10-01/fidelity/SUPPLEMENT_REVIEW.md",
+      "sha256": "0641de9bf97faac1deafe2aa4113dce328c4e94f6315c83f59a72fc591d6591b",
+      "role": "review_evidence",
+      "targets": [
+        "R5",
+        "R6",
+        "R8",
+        "R9",
+        "R10",
+        "R16",
+        "R17",
+        "R18",
+        "R8PCC",
+        "R8PCCR",
+        "R8PCCE"
+      ]
+    },
+    {
+      "path": "udt_positional_curvature_connection_2026-10-01/IMPLEMENTATION_REPAIR.json",
+      "sha256": "4f4d9f7b0e0116964f07cd00805b13fd64d4ba0e4903cb919a0e6187b82f542e",
+      "role": "review_evidence",
+      "targets": [
+        "R5",
+        "R6",
+        "R8",
+        "R9",
+        "R10",
+        "R16",
+        "R17",
+        "R18",
+        "R8PCC",
+        "R8PCCR",
+        "R8PCCE"
+      ]
+    },
+    {
+      "path": "udt_positional_curvature_connection_2026-10-01/DIAGNOSTIC_REPLAY_REPAIR.json",
+      "sha256": "d109170e2539131b101d46541c5a72812814a6a85285274fde17c28fc7142b3e",
+      "role": "review_evidence",
+      "targets": [
+        "R5",
+        "R6",
+        "R8",
+        "R9",
+        "R10",
+        "R16",
+        "R17",
+        "R18",
+        "R8PCC",
+        "R8PCCR",
+        "R8PCCE"
+      ]
+    },
+    {
+      "path": "udt_positional_curvature_connection_2026-10-01/DESCENDANT_REVIEW.md",
+      "sha256": "cc5bd9e6acc70dc202c9700a61a4ff1975beece82fb475e997bd9f1ad9070589",
+      "role": "review_evidence",
+      "targets": [
+        "R5",
+        "R6",
+        "R8",
+        "R9",
+        "R10",
+        "R16",
+        "R17",
+        "R18",
+        "R8PCC",
+        "R8PCCR",
+        "R8PCCE"
       ]
     }
   ]
