@@ -1,0 +1,8 @@
+{
+  "utc": "2026-10-01T20:50:14.505055+00:00",
+  "sha256": {
+    "udt_finite_selection_test_2026-10-01/INITIAL_DERIVATION.md": "45c92396691b9278bea5b8cf0583cb77709292473d8a50b76280be3fa1b029cd",
+    "udt_finite_selection_test_2026-10-01/check_selection.py": "206acbfb23ba7814c5f28f16806504c13673e0f3ec0b613256ba4d0ef6fbbcc6"
+  },
+  "resources": "serial science CPU;2GiB virtual address;no elapsed/CPU timeout; await slot"
+}

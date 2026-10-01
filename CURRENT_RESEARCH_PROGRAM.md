@@ -5,7 +5,7 @@ This bounded startup view is generated from its opening; edit that source.
 LIVE.md owns operational status; CURRENT_SCIENTIFIC_PREMISES.tsv owns exact grades.
 
 <!-- GENERATED_DEVELOPMENT_BEGIN -->
-**Continuous development — CDR1 with SGE1, LKT1, GCA1, PCW1, CES1, CCR1, PRI1, TRI1, NGD1, TDS1, TPP1, TPS1, PSW1, FPC1 and FNA1, 2026-10-01.** This is the maintained
+**Continuous development — CDR1 with SGE1, LKT1, GCA1, PCW1, CES1, CCR1, PRI1, TRI1, NGD1, TDS1, TPP1, TPS1, PSW1, FPC1, FNA1 and FST1, 2026-10-01.** This is the maintained
 scientific development. It is not canon or a new scientific-grade authority.
 The exact registry and reviewed sources own grades; LIVE owns operational status.
 Current review bindings and limits are recorded in section9; startup reads the
@@ -109,8 +109,17 @@ angular null-screen amplitudes vanish while timelike tides and clock shifts need
 not; exact Ric=0 recovery does not follow. Flat and opposite-curvature controls
 also pass the scoped representation test. Physical admission, additional-effect
 selection, sign and scale remain OPEN. This is a concrete conditional connection,
-not a completeness theorem or adopted physical geometry. Stop for discussion
-before a new selection experiment; no new physical premise is adopted.
+not a completeness theorem or adopted physical geometry.
+FST1 now identifies why DDR cannot select curvature on these highly symmetric
+examples within the explicitly conditional local metric-natural symmetric-response
+sector: every such response is already pure trace. A physically matched clock
+contrast instead orders curvature relative to its supplied reference. Exact
+near/far tolerance bounds are available once an experiment and thresholds are
+given. No reference, observed filter pass or scale is selected. Historical W3
+law-reduction language is explicitly subordinated to current GR FILTER ONLY.
+Native branch admission and scalar state/calibration remain distinct questions;
+a field law need not choose a unique universe. Stop for discussion at this
+bounded selection-test return; no new physical premise is adopted.
 <!-- GENERATED_DEVELOPMENT_END -->
 
 ## Current next gate

@@ -1,0 +1,41 @@
+{
+  "utc": "2026-10-01T20:54:56.328511+00:00",
+  "reviewer": "/root/fst_math",
+  "context": "Fresh separate context, source-first then exposed direct challenge",
+  "model": "Inherited same model; exact runtime identifier unexposed; different model UNTESTED",
+  "head": "f4091829e7585049313201eb501acee2d57f6a4b",
+  "verdict": "VERIFIED-WITH-CAVEATS",
+  "scope": "Conditional local-natural symmetric-response degeneracy and supplied matched first-clock/near-far feasibility diagnostics; no physical adoption",
+  "candidate": "udt_finite_selection_test_2026-10-01/INITIAL_DERIVATION.md",
+  "candidate_sha256": "45c92396691b9278bea5b8cf0583cb77709292473d8a50b76280be3fa1b029cd",
+  "candidate_freeze_sha256": "44f31c61d18ee08f753a6d60e8165951e6540c3ea24c2288ecb2c5f813b4deb4",
+  "freeze_files_checked": 32,
+  "freeze_mismatches": [],
+  "report": "udt_finite_selection_test_2026-10-01/math/CANDIDATE_REVIEW.md",
+  "report_sha256": "239401ebef92972a720e98faa1180d20ffd35f787088c4750bc4c388dc9d1e05",
+  "source_first_sha256": "a49b4902781932743177a772c738f3c6b56a2eee4d1c8236d056163ce45464b1",
+  "source_pins_sha256": "5d8918f8a50a52b2362b93c1633bb81d9967656cac215923d7eb0a9c338114ef",
+  "independent_exact_receipt_sha256": "8d04234854239c0571445af0b4c3d40a9ee579ab4f3935c39494b28fd1feca3c",
+  "independent_exact_assertions": 101,
+  "new_scientific_execution": "None in candidate stage; analytical challenge plus documentary hash validation",
+  "exposure": [
+    "FST1 work order and question",
+    "Prior FPC1/FNA1 sources and central argument",
+    "Brief concordance exchanged before parent freeze",
+    "Parent INITIAL_DERIVATION after own source-first freeze",
+    "Parent check_selection.py and recompute_saved.py plus saved outputs/receipts"
+  ],
+  "unexposed": [
+    "Other FST1 reviewer direct verdict"
+  ],
+  "unresolved_substantive_objections": [],
+  "required_repairs": [],
+  "banking_or_final_integration_attestation": false,
+  "omissions": [
+    "No parent-code scientific rerun",
+    "No historical worldline or transport rerun",
+    "No empirical test",
+    "No full406 or repository checks",
+    "No physical response or native curvature selection"
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "utc": "2026-10-01T20:50:35.780440+00:00",
+  "context": "/root/fst_math",
+  "head": "f4091829e7585049313201eb501acee2d57f6a4b",
+  "branch": "grok",
+  "stage": "SOURCE_FIRST_BEFORE_PARENT_FST1_CANDIDATE_AND_BEFORE_SCIENTIFIC_EXECUTION",
+  "startup": "Parent attribution; not independently replayed",
+  "model": "Inherited same model; exact runtime identifier unexposed; no different-model claim",
+  "exposure": "FST1 scope, prior-source proofs, central results; parent brief concordance after reviewer own argument; no parent FST1 proof/code/output/verdict",
+  "source_sha256": {
+    "AGENTS.md": "bcab9b67305e0314af9eaf25162d203660eae8f2ff4fd87d17e83588970ef38d",
+    "CLAUDE.md": "4ad2e773defb89cc79541fd0ababd75af5a3344ab134ee83722dfd943966e6e4",
+    "CROSS_MODEL_VERIFY.md": "2b0509d933d731fbf3f72aa88777a54d3e48a94d4bae3d324087871777f9a007",
+    ".claude/skills/no-shortcuts/SKILL.md": "fd3a1f3218481134f2af829d3ae4175ac53518f75bf9673287efbfb7d7708fc1",
+    ".claude/skills/completeness-map/SKILL.md": "a8cf9e5f4a6d35a0d0ebfe4bc48dbf328ca74e318f020a6a22cb683666a611c0",
+    ".claude/skills/verifier-before-record/SKILL.md": "9b3a4aacd4b4006b2b7f01edada73b7c87b99bea6e754583558713bfc145e5ac",
+    "UDT_DEVELOPMENT.md": "358d959e3425d2010e579260f5b9f70fca7b8875740402b4fb0b388462f4193b",
+    "CURRENT_SCIENTIFIC_PREMISES.tsv": "7a3d69d5a0bc3ac98e2ebe2bb0c6d029df30071bf403baffed2223a193dc720b",
+    "founding.md": "b4b0d9a9fdd093c992647195aca7579566a9e77a396071a699c1938888a49e75",
+    "development_reconstruction_2026-09-29/MAINTENANCE.md": "6aefb0450bf83d01620f8a94024df075508165ae1c9fd4185483d1db5a025b41",
+    "udt_finite_selection_test_2026-10-01/WORK_ORDER.md": "69f8f6be85cfe62cd6ce0149c1bb1d020b36435a041554d6579f402b65921637",
+    "udt_finite_selection_test_2026-10-01/SNAPSHOT.json": "ea0620bf527ac2397fd69c0ff716eb223a2a9dad51e71d6e2a6638199b99f5d2",
+    "udt_causal_geometry_fidelity_audit_2026-09-28/OWNER_STATEMENT.md": "cc869d1283a314b626a4ebede8ad561bb96b95fd5c815215a08202d5701c1c69",
+    "udt_positional_geometry_clock_connection_2026-09-28/OWNER_STATEMENT.md": "6d51ac6e4525dec57f7a9d3f795568410052e20102d9971bca0a4275eef4bee7",
+    "udt_repository_cleanup_2026-09-27/local_clock_impact_2026-09-29/OWNER_CLARIFICATION.md": "bf31a0682bed7060a0eea38035bfd87a0ab2c6bee41406882ae5a4abfc11471b",
+    "udt_shared_geometry_extension_2026-09-29/OWNER_CLARIFICATION.md": "94480181e004a535e0dffd122545310c0aaedfb98d3734c5095c75bfe9ed3f50",
+    "udt_shared_geometry_extension_2026-09-29/REVIEWED_RESULT.md": "318760918a414727a889c924186512cb1b9e46524c029cced9214b6b26c82e48",
+    "udt_gr_filter_reconciliation_2026-09-09/AUTHORITY_RECORD.md": "80daa0be6d3e1c0ac1b734fea089c4eb487f05bc1e1fbb2fabd69322ca89f28c",
+    "udt_g310_differential_dual_reciprocity_tracefree_ownership_2026-08-31/EXACT_DERIVATION.md": "a417b3cfa1cc6136429a14d3b330c1b8c25c73c9e946d6b6454d6ffae72c25a0",
+    "startup_surface_g310_universal_reciprocity_refresh_2026-08-31/ADOPTION_RECORD.md": "4eb7d0a1130dcff997bc5180f420b633e2dcbbb5072d098997ba3672b38d8ab5",
+    "udt_g311_universal_reciprocity_full_covariant_response_2026-09-01/EXACT_DERIVATION.md": "4fd4ca84d353018c02e32d49cf261de3472b3fafd74b0f268b0960653bdfd307",
+    "udt_g301_scale_free_quiet_regular_causal_principal_classification_2026-08-30/EXACT_DERIVATION.md": "633b907b5384aa63d61d49db067dd4e608e6abd3bf3571e4267f91e5c74da8fb",
+    "udt_finite_positional_clock_test_2026-10-01/SPACEFORM_DERIVATION.md": "f5a8d91b349794862550453224459edfe0ec629b856b42e4a7dd4b7ac3ce1170",
+    "udt_finite_positional_clock_test_2026-10-01/fidelity/SOURCE_FIRST.md": "92ee9a9ad07d53fc4cbb68b32df0bee5ab85aa77c33bf51f533178b91bbadc8e",
+    "udt_finite_positional_clock_test_2026-10-01/fidelity/SOURCE_SNAPSHOT.json": "f5aa7c93718aef8e82c8ebe7c712657e4f7efd2be6f2a3f4ef247761cb218886",
+    "udt_finite_positional_clock_test_2026-10-01/PRIMARY_METHOD_REFERENCES.md": "8b6cd44ae553eb4c5db3ffc75b86c0752f771e2960007431b4adfdfc67357ee1",
+    "udt_finite_native_pair_audit_2026-10-01/REVIEWED_RESULT.md": "8ea3cfb5ed5f8026b71ac68d4e4d434a674f3fde2e723ed6d45247f33995c0da",
+    "udt_finite_native_pair_audit_2026-10-01/fidelity/SOURCE_FIRST.md": "13d589477ba32c7ed87103d2ec48e443132a29e100bd177f9df0f3db0e1ada9c",
+    "udt_finite_native_pair_audit_2026-10-01/fidelity/SOURCE_PINS.json": "3561c31cecc260babc892dd42acc40965c0bb9bfb5105622439420a6b752f79d",
+    "udt_time_live_production_survey_2026-10-01/capture.py": "217cdbac5486e8a531552f4d74a15ce641299b65dafb5d58f7b60f4ba51781bc"
+  },
+  "own_sha256": {
+    "udt_finite_selection_test_2026-10-01/math/SOURCE_FIRST.md": "a49b4902781932743177a772c738f3c6b56a2eee4d1c8236d056163ce45464b1",
+    "udt_finite_selection_test_2026-10-01/math/check_exact.py": "628fa257c05ceedb505de9b8d00392526fce0862eca2853e7436e61a5a8870c6"
+  },
+  "hash_meaning": "File correspondence, not truth or full-file reading; inspected sections in report",
+  "planned_command": [
+    "python3",
+    "udt_time_live_production_survey_2026-10-01/capture.py",
+    "udt_finite_selection_test_2026-10-01/math/exact",
+    "python3",
+    "udt_finite_selection_test_2026-10-01/math/check_exact.py"
+  ],
+  "limits": {
+    "scientific_cpu_processes": 1,
+    "address_space_bytes": 2147483648,
+    "elapsed_timeout": null,
+    "cpu_timeout": null,
+    "gpu": false
+  }
+}

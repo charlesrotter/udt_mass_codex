@@ -1,18 +1,23 @@
 {
-  "status": "REVIEWED_WITH_LIMITS",
-  "scope": "FST1 conditional local-natural symmetric response limitation on supplied constant curvature and matched finite-clock discriminator; current GR-filter authority clarified. Native physical branch/reference admission OPEN; scalar state/calibration distinct from field-law selection. Actual same-model separate-context source-first, candidate and final integration reviews; unchanged candidate with disclosed check limits. Prior evidence retains original scope; no registry/CANON promotion.",
-  "reviewers": [
-    {
-      "context": "/root/fst_math",
-      "attestation": "udt_finite_selection_test_2026-10-01/math/binding_repair/FINAL_ATTESTATION.json",
-      "sha256": "600fbc2534481cf20854092ad46f5142ecdda54891acee1150a550f5d75f42fa"
-    },
-    {
-      "context": "/root/fst_fidelity",
-      "attestation": "udt_finite_selection_test_2026-10-01/fidelity/FINAL_ATTESTATION.json",
-      "sha256": "1ce8f97f43cfef1ca002cc8a9376628fe01023defe5eee358cbdc60bebd633e2"
-    }
-  ],
+  "status": "FINAL_IMMUTABLE",
+  "verdict": "ACCEPT_WITH_LIMITS",
+  "utc": "2026-10-01T21:03:20.535308+00:00",
+  "context": "/root/fst_fidelity",
+  "model": "same inherited model; exact runtime identifier unavailable; no different-model claim",
+  "scope": "Actual FST1 frozen central/source/descendant integration; conditional on-family local-natural response result and stipulated matched finite-clock discriminator, not native physical admission or corpus reproof",
+  "exposure": "Independent source-first audit/code/run; then exposed parent candidate/code/output review; final six central diffs, graph/disposition/adapters, fixed result/descendant/work/decision/banking records and math peer candidate report read; parent short concordance and aggregate-check criticism disclosed.",
+  "independence": {
+    "fresh_source_first_context": true,
+    "different_model": false,
+    "different_library": false,
+    "independent_source_first_argument_and_code": true,
+    "candidate_and_final_review_exposed": true,
+    "human_or_formal_review": false
+  },
+  "report_path": "udt_finite_selection_test_2026-10-01/fidelity/FINAL_REVIEW.md",
+  "report_sha256": "5d06a1fc93dcefaac057138a8477713bf653fcc3c54ac704a6c153b609de005e",
+  "freeze_path": "udt_finite_selection_test_2026-10-01/INTEGRATION_FREEZE.json",
+  "freeze_sha256": "7fc2becef31e09db3df4f2aabafc3e2be3920bba2d6e6a5d088bf037082a6f2d",
   "accepted_sha256": {
     ".gitignore": "8a2710f5923ba86b41a461e040282ecd520ce155cb17b09458e1d1d613ddeb7a",
     "AGENTS.md": "bcab9b67305e0314af9eaf25162d203660eae8f2ff4fd87d17e83588970ef38d",
@@ -12313,5 +12318,23 @@
     "udt_finite_selection_test_2026-10-01/fidelity/CANDIDATE_REVIEW.json": "cd915aa094774e79911fc0d8f84f0a7bf0d50c67fcd161b2599a76972917001a",
     "udt_finite_selection_test_2026-10-01/fidelity/SOURCE_FIRST_FREEZE.sha256": "4598c276916e39ae0f4191b2d92350c57ee4def0094f8fc53d661bb2f14e3426",
     "udt_finite_selection_test_2026-10-01/fidelity/SOURCE_CHECK_FREEZE.sha256": "4a5e88f913a8d271cbc19ee0c0eff05635c33737a061dc83cb2e4da411e75297"
-  }
+  },
+  "checks": {
+    "actual_semantic_review": true,
+    "verified_changed_and_new_files": 55,
+    "prior_map_entries_carried": 12244,
+    "same_accepted_map_entries": 12299,
+    "prior_map_delta_exact": true,
+    "generated_orientation_exact": true,
+    "historical_protected_payloads_not_rehashed": true,
+    "source_first_science": "31 reported identities include2 weak aggregate regressions;2 controls; sixteen separate boost components and analytic argument retained",
+    "direct_final_science_rerun": false,
+    "draft_coherence": "Inspected exit0;406 rows42 returns163 pins",
+    "prebinding_normal": "Inspected expected exit1 REVIEW_REQUIRED; not a pass",
+    "binding_check_path": "udt_finite_selection_test_2026-10-01/fidelity/FINAL_BINDING_CHECK.json",
+    "binding_check_sha256": "06984215a42e1890763b554d1705d1d7878f19b6a762817c2b4645804eb7d03f"
+  },
+  "resolved_objection": "Maintained W3 law-level wording corrected to current GR FILTER ONLY; Local Metric Sufficiency distinct from conditional local natural tensor class; aggregate check weakness explicitly disclosed without altering original code/output.",
+  "unresolved_defects": [],
+  "parent_closure_gates": "Actual second final attestation, REVIEW_RECORD binding, normal development,57 maintenance,full406,process/preservation/exact-staging checks,commit/push verification remain parent-owned and are not claimed passed here."
 }

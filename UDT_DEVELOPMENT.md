@@ -1,7 +1,7 @@
 # UDT — continuous scientific development
 
 <!-- DEVELOPMENT_ORIENTATION_BEGIN -->
-**Continuous development — CDR1 with SGE1, LKT1, GCA1, PCW1, CES1, CCR1, PRI1, TRI1, NGD1, TDS1, TPP1, TPS1, PSW1, FPC1 and FNA1, 2026-10-01.** This is the maintained
+**Continuous development — CDR1 with SGE1, LKT1, GCA1, PCW1, CES1, CCR1, PRI1, TRI1, NGD1, TDS1, TPP1, TPS1, PSW1, FPC1, FNA1 and FST1, 2026-10-01.** This is the maintained
 scientific development. It is not canon or a new scientific-grade authority.
 The exact registry and reviewed sources own grades; LIVE owns operational status.
 Current review bindings and limits are recorded in section9; startup reads the
@@ -105,8 +105,17 @@ angular null-screen amplitudes vanish while timelike tides and clock shifts need
 not; exact Ric=0 recovery does not follow. Flat and opposite-curvature controls
 also pass the scoped representation test. Physical admission, additional-effect
 selection, sign and scale remain OPEN. This is a concrete conditional connection,
-not a completeness theorem or adopted physical geometry. Stop for discussion
-before a new selection experiment; no new physical premise is adopted.
+not a completeness theorem or adopted physical geometry.
+FST1 now identifies why DDR cannot select curvature on these highly symmetric
+examples within the explicitly conditional local metric-natural symmetric-response
+sector: every such response is already pure trace. A physically matched clock
+contrast instead orders curvature relative to its supplied reference. Exact
+near/far tolerance bounds are available once an experiment and thresholds are
+given. No reference, observed filter pass or scale is selected. Historical W3
+law-reduction language is explicitly subordinated to current GR FILTER ONLY.
+Native branch admission and scalar state/calibration remain distinct questions;
+a field law need not choose a unique universe. Stop for discussion at this
+bounded selection-test return; no new physical premise is adopted.
 <!-- DEVELOPMENT_ORIENTATION_END -->
 
 ## 1. How this development is owned
@@ -1141,8 +1150,10 @@ Ric=0 comparator instead requires E0=rf'+f-1 and E1=rf'+r²f''/2 to vanish;
 both equal -3kappa r² here. At r=0 that reduced expression's coordinate zero
 does not imply vacuum: Ric=3kappa g remains nonzero. No full quiet-vacuum
 recovery or angular loud--quiet--loud history has thereby been established.
-W3's law-level recovery is stronger than the supplied family's local flat limit.
-GR remains a filter, not a new imposed field equation.
+A finite empirical GR recovery test is not established by the supplied family's
+local flat limit. Current G312 authority makes GR FILTER ONLY; the stronger
+historical W3/full quiet principal-response overlap is not reinstated as a
+response-law input.
 
 All three curvature signs pass the scoped representation test and give different
 clock shifts. The flat p=1 experiment does not exhibit the founding nonidentity
@@ -1160,6 +1171,70 @@ Sources: [fixed construction](udt_finite_native_pair_audit_2026-10-01/INITIAL_DE
 and [reviewed scope](udt_finite_native_pair_audit_2026-10-01/REVIEWED_RESULT.md),
 with G176/G179/G180/G213/G220/G274 and the exact G201/G260/G298/G300 sources
 bound in the dependency graph. No Einstein response, source or action is adopted.
+
+
+<a id="r8fst"></a>
+
+#### A discriminating matched comparison — FST1
+
+The additional-positional requirement is real, but the owner has not identified
+every net shift with that contribution or specified a unique physical GR reference.
+For this supplied prepared-clock family, write C_kappa(L)=cos(sqrt(kappa)L),1,
+cosh(sqrt(-kappa)L) for positive, zero and negative curvature, respectively.
+Its original comparison equation is C''+kappa C=0 with C(0)=1,C'(0)=0;
+p_kappa=1/C_kappa. Keep L as initial proper spacelike separation and the first
+direct future branch. Positive curvature requires sqrt(kappa)L<pi/2.
+
+Supply two physically matched preparations in g_kappa and a GR comparison
+in g_kappa0: same proper L, initial parallel frames, released free clocks,
+calibration and direct-first-signal protocol. SGE1's diagnostic becomes
+
+    D(L)=log(p_kappa/p_kappa0)=log C_kappa0-log C_kappa.
+
+It is not automatically an isolated positional component or a selected reference.
+Let W=C_kappa' C_kappa0-C_kappa C_kappa0'. The original ODEs give
+W'=(kappa0-kappa)C_kappa C_kappa0, W(0)=0, and
+D'=-W/(C_kappa C_kappa0). Both C are positive on the common branch. Therefore
+
+    sign D(L)=sign(kappa-kappa0), L>0,
+
+and |D| increases with L when kappa!=kappa0. The fixed-L sensitivity is
+L tan(sqrt(kappa)L)/(2sqrt(kappa)) for kappa>0,
+L tanh(sqrt(-kappa)L)/(2sqrt(-kappa)) for kappa<0, and L²/2 at zero;
+each is strictly positive on its branch. Identical physical geometry and
+experiment give D=0, even with a nonlinear net redshift curve.
+
+The distinction is concrete: in supplied common length units kappa=-1,
+kappa0=-4,L=log2 give p=4/5,p0=8/17, hence p/p0=17/10>1 while both net
+signals blueshift. These are comparison controls, not native-admitted countermodels.
+Assigning net p>1 to this experiment would instead require kappa>0. A finite-L
+net-first-signal divergence also requires kappa>0 within this family, at
+L_first=pi/(2sqrt(kappa)). Neither assignment follows from inverse reciprocity
+or identifies that initial proper length with physical X_max.
+
+A current empirical GR filter needs its experiment, reference, domain and errors.
+It can yield a precise clock test once supplied. For the declared diagnostic
+kappa0=0,kappa>=0, choose0<ell<L_d, near log-tolerance epsilon>0 and far
+contrast Delta>0. Require D(L)<=epsilon for every0<L<=ell and D(L_d)>=Delta,
+with first reception still finite. Exact monotonicity gives
+
+    [arccos(exp(-Delta))/L_d]^2 <= kappa
+       <= [arccos(exp(-epsilon))/ell]^2,
+    kappa < pi²/(4 L_d²).
+
+Because the lower endpoint is below the open causal cap, this stipulated
+interval is nonempty iff L_d/ell >= arccos(exp(-Delta))/arccos(exp(-epsilon)).
+This iff belongs only to this declared diagnostic, not to physical UDT admission
+or completeness of GR recovery. No observed epsilon, distance, target or curvature
+has been fitted. Tides, trajectories, lensing and source behavior remain separate
+tests. Neither the current GR filter nor the local flat limit imposes the stronger
+historical full quiet principal-response overlap; G312 controls that distinction.
+
+Sources: [FST1 exact argument](udt_finite_selection_test_2026-10-01/INITIAL_DERIVATION.md),
+[independent reconstruction](udt_finite_selection_test_2026-10-01/math/SOURCE_FIRST.md),
+[current-authority review](udt_finite_selection_test_2026-10-01/fidelity/SOURCE_FIRST.md),
+and [reviewed limits](udt_finite_selection_test_2026-10-01/REVIEWED_RESULT.md),
+with the existing FPC1/FNA1 clock experiment and SGE1 owner/source boundaries.
 
 
 ## 6. Response restrictions and an optional conditional dynamics branch
@@ -1199,6 +1274,45 @@ or globally recertifying the historical package.
 Source: [G310 original argument](udt_g310_differential_dual_reciprocity_tracefree_ownership_2026-08-31/EXACT_DERIVATION.md),
 read with its [provisional adoption](startup_surface_g310_universal_reciprocity_refresh_2026-08-31/ADOPTION_RECORD.md)
 and the CDR1 correction/review record. No E=Ric identification is made here.
+
+<a id="r9fst"></a>
+
+#### Why this symmetric family cannot select curvature through DDR alone — FST1
+
+There is a precise conditional limitation of this test family. Suppose the
+specified E is a well-defined symmetric covariant rank-two, local metric-only
+response, equivariant under local isometries on its admitted domain. A natural
+finite-jet metric operator is sufficient. Any further arguments must be invariant
+scalar constants, not extra physical vectors, tensors, queries or state labels.
+These tensor/naturality hypotheses do not all follow from Local Metric Sufficiency.
+No derivative-order bound, homothety weight, action or conservation law is assumed.
+
+A space form's tangent stabilizer contains the proper time-oriented Lorentz group:
+in its signed quadric, fix the position vector and apply a Lorentz map to its
+orthogonal tangent space. Naturality requires Lambda^T E Lambda=E. Spatial
+rotations force E=diag(a,b,b,b); a nonzero01 boost has off-diagonal entry
+C S(a+b), so a=-b. Hence on every such supplied germ
+
+    E[g_kappa]=F(kappa)g_kappa, TF(E)=0.
+
+Local homogeneity makes F constant on the connected homogeneous patch, for this
+local metric-only rule. This does not strengthen response-agnostic DDR's lambda(x)
+to a constant: the additional invariance hypotheses do that work here. A response
+undefined at some kappa has a separate domain restriction. Global/nonlocal or
+additional-state responses need their own premises; global covariance alone does
+not guarantee equivariance under every local isometry.
+
+Thus DDR cannot distinguish the curvature values within this family and response
+sector. In R10's separately conditional G301 class the same fact reads
+E=(3a+12b)kappa g, including a!=0. Imposing E=0 or a specified trace would add
+information absent from DDR. The result says neither that DDR is vacuous on other
+metrics nor that the complete UDT postulates cannot restrict kappa. Values on
+these symmetric backgrounds also do not certify principal behavior, perturbative
+stability or a physical response constitution. Its constructive use is to avoid
+expecting this particular balance test to select a parameter to which it is blind.
+The [FST1 argument and review](udt_finite_selection_test_2026-10-01/REVIEWED_RESULT.md)
+retain the full hypothesis and source boundaries.
+
 
 <a id="r10"></a>
 
@@ -1795,6 +1909,16 @@ physical UDT scale symmetry. A known datum Q of nonzero homothety weight w
 fixes one positive λ through Q_obs=λ^w Q_base, when the attachment is justified.
 That fixes one scale parameter, not every shape or field value.
 
+FST1 makes calibration explicit on its supplied prepared-clock family. Independent
+proper L and first-clock ratio p>0 determine kappa uniquely on the direct branch:
+kappa=[arccos(1/p)/L]² for p>1, zero for p=1, and
+kappa=-[arcosh(1/p)/L]² for0<p<1. This is conditional state-parameter recovery,
+not a native field-law selection or evidence from redshift-inferred distances.
+c_E/G_obs alone still cannot supply a nonzero curvature scale. A lawful branch
+may legitimately retain initial/global or calibrated scalar data; its physical
+admission and the value of that datum are separate questions. No actual datum or
+fit is used. [FST1 scope](udt_finite_selection_test_2026-10-01/REVIEWED_RESULT.md).
+
 A Machian possibility uses Q=G_obs M/(c_E²L). If a physical argument supplies
 Q=q_*>0 and an independent mass M, then L=G_obs M/(q_*c_E²). With an
 independent uniform density and specified volume C_VL³ instead,
@@ -2022,15 +2146,31 @@ The same representation admits both curvature signs and flat space. Zero angular
 null-screen amplitudes do not mean zero timelike curvature or exact quiet-vacuum
 recovery. No geometry, curvature scale, Einstein response or X_max is adopted.
 
-Recommendation at this return: use the explicit example as a controlled input
-to a focused selection test, not another shape search. First identify an existing
-UDT commitment with operational content beyond this representation, and determine
-its constraint on the supplied family and on a physically matched GR comparison.
-If no such implication can yet be derived, return that precise missing physical
-relationship and alternatives for discussion; do not tune k or silently identify
-DDR's response. This is a proposed successor, not authorization or proof that
-new premises are necessary. The [FNA1 decision brief](udt_finite_native_pair_audit_2026-10-01/DECISION_BRIEF.md)
-sets out the bounded question, review budget and discussion return.
+FST1 now tests those commitments on the explicit family. The all-pair DDR condition
+is automatically satisfied by every local metric-natural symmetric rank-two
+response on a space form, wherever that response is defined. This conditional
+symmetry limitation is stronger than merely saying E has not yet been identified:
+choosing another member of that response sector does not make this on-family
+balance select kappa. Other metrics, response types, domains, global physical
+restrictions and independent scalar conditions are not excluded by the lemma.
+
+A specified matched prepared-clock comparison does discriminate kappa relative
+to kappa0, and declared finite tolerances yield exact bounds in R8. The reference,
+physical positional attribution and empirical filter inputs remain independently
+required. FNA1's present-tense W3 law-level sentence is corrected here: current
+GR FILTER ONLY does not adopt stronger historical quiet principal-response overlap.
+The original imported Ric=0 comparison survives at its original conditional scope;
+zero angular amplitudes do not make it mandatory or constitute its satisfaction.
+
+The return separates native physical branch admission from selection/calibration
+of its scalar state. A free scalar is not itself proof of a missing law; a field
+law need not choose one universe. Before more searches, the productive decision
+is which already justified physical relation or operational comparison can supply
+a test beyond these representation and symmetric-balance identities. No new
+postulate is proved necessary and no physical connection is invented to force
+closure. The [FST1 decision brief](udt_finite_selection_test_2026-10-01/DECISION_BRIEF.md)
+records the bounded survivors, alternatives and discussion return. No successor
+computation or physical adoption begins automatically.
 
 NGD1's numerical return in R12N adds a validated comparison tool and finite
 nonlinear clock-shift histories. Its positive contribution relative to a specified
@@ -2447,7 +2587,7 @@ founding premises are insufficient.
 Retained branches and omissions are explicit below. These results are useful;
 their original full proofs, repairs, qualifications and grades remain at source.
 CDR1 does not claim to rederive all of them. The [406-row disposition ledger](development_reconstruction_2026-09-29/CLAIM_DISPOSITIONS.tsv)
-and [41 later returns](development_reconstruction_2026-09-29/RECENT_DISPOSITIONS.tsv)
+and [42 later returns](development_reconstruction_2026-09-29/RECENT_DISPOSITIONS.tsv)
 identify exact sources and reconstruction depth.
 
 | Retained work | Gain and limit |
@@ -2709,6 +2849,21 @@ GPU, field/ray campaign, observational fit, physical selection or full GR-recove
 test was performed. The [FNA1 descendant review](udt_finite_native_pair_audit_2026-10-01/DESCENDANT_REVIEW.md)
 and [execution record](udt_finite_native_pair_audit_2026-10-01/WORK_RECORD.md)
 preserve both positive and negative implications and actual exposure.
+
+FST1 used two fresh source-first contexts for mathematical and authority/meaning
+review, then actual exposed candidate and final integration review. Shared model
+and source geometry remain explicit. Parent33 symbolic checks, mathematical
+context101 dependency-free exact checks, and fidelity31 symbolic identities plus
+two wrong-shortcut controls support the analytic arguments; they are not hundreds
+of independent proofs. Two fidelity matrix-sum checks are weak redundant
+regressions; its16 componentwise boost checks and the other full-matrix checks
+own that anchor. Parent61 saved-artifact checks recompute tensor/contraction/ratio
+identities, not a new rank or worldline solution. No empirical thresholds, new
+GPU campaign, response adoption or complete natural-tensor classification is
+claimed. The [FST1 descendant review](udt_finite_selection_test_2026-10-01/DESCENDANT_REVIEW.md)
+records the W3 authority precision correction and both positive and negative
+implications; [execution record](udt_finite_selection_test_2026-10-01/WORK_RECORD.md)
+and final attestations own actual exposure, omissions and frozen-edition scope.
 
 The preserved first candidates expose the repair history. The [source correction](development_reconstruction_2026-09-29/SOURCE_CORRECTIONS.md)
 fixes a real covector-basis sign in G310; the central nine-direction span and

@@ -1,18 +1,15 @@
 {
-  "status": "REVIEWED_WITH_LIMITS",
-  "scope": "FST1 conditional local-natural symmetric response limitation on supplied constant curvature and matched finite-clock discriminator; current GR-filter authority clarified. Native physical branch/reference admission OPEN; scalar state/calibration distinct from field-law selection. Actual same-model separate-context source-first, candidate and final integration reviews; unchanged candidate with disclosed check limits. Prior evidence retains original scope; no registry/CANON promotion.",
-  "reviewers": [
-    {
-      "context": "/root/fst_math",
-      "attestation": "udt_finite_selection_test_2026-10-01/math/binding_repair/FINAL_ATTESTATION.json",
-      "sha256": "600fbc2534481cf20854092ad46f5142ecdda54891acee1150a550f5d75f42fa"
-    },
-    {
-      "context": "/root/fst_fidelity",
-      "attestation": "udt_finite_selection_test_2026-10-01/fidelity/FINAL_ATTESTATION.json",
-      "sha256": "1ce8f97f43cfef1ca002cc8a9376628fe01023defe5eee358cbdc60bebd633e2"
-    }
-  ],
+  "status": "FINAL_IMMUTABLE",
+  "verdict": "ACCEPT_WITH_LIMITS",
+  "utc": "2026-10-01T21:03:00.426077+00:00",
+  "reviewer": "/root/fst_math",
+  "context": "Fresh separate inherited-model context; source-first independent reconstruction then exposed direct candidate and actual final integration review",
+  "model": "Inherited same model; exact runtime identifier unexposed; different-model/human/formal axes UNTESTED",
+  "head": "f4091829e7585049313201eb501acee2d57f6a4b",
+  "report_path": "udt_finite_selection_test_2026-10-01/math/FINAL_REVIEW.md",
+  "report_sha256": "a16ef336f6693c43a77e1f0280655783198b85cdc6d03fa02bbd164a8bf61edc",
+  "freeze_path": "udt_finite_selection_test_2026-10-01/INTEGRATION_FREEZE.json",
+  "freeze_sha256": "7fc2becef31e09db3df4f2aabafc3e2be3920bba2d6e6a5d088bf037082a6f2d",
   "accepted_sha256": {
     ".gitignore": "8a2710f5923ba86b41a461e040282ecd520ce155cb17b09458e1d1d613ddeb7a",
     "AGENTS.md": "bcab9b67305e0314af9eaf25162d203660eae8f2ff4fd87d17e83588970ef38d",
@@ -12313,5 +12310,34 @@
     "udt_finite_selection_test_2026-10-01/fidelity/CANDIDATE_REVIEW.json": "cd915aa094774e79911fc0d8f84f0a7bf0d50c67fcd161b2599a76972917001a",
     "udt_finite_selection_test_2026-10-01/fidelity/SOURCE_FIRST_FREEZE.sha256": "4598c276916e39ae0f4191b2d92350c57ee4def0094f8fc53d661bb2f14e3426",
     "udt_finite_selection_test_2026-10-01/fidelity/SOURCE_CHECK_FREEZE.sha256": "4a5e88f913a8d271cbc19ee0c0eff05635c33737a061dc83cb2e4da411e75297"
-  }
+  },
+  "scope": "Actual conditional mathematics and maintained argument integration, exact changed/new bytes and inherited prior map; no source regrade, scientific promotion or parent closure-gate claim",
+  "exposure": [
+    "Parent candidate, code and outputs after source-first own argument/code/exact checks freeze",
+    "Both source-first brief concordances shared before parent freeze",
+    "Actual central diff, graph/disposition, operational adapters and package return documents",
+    "Other reviewer frozen candidate review and local-naturality precision at final stage"
+  ],
+  "not_exposed": [
+    "Other reviewer final verdict"
+  ],
+  "checks": {
+    "changed_new_actual_hashes": 55,
+    "inherited_prior_map_entries": 12250,
+    "accepted_map_entries": 12299,
+    "assigned_source_pins_rechecked": 30,
+    "unexpected_assigned_source_changes": 0,
+    "retained_prior_entries_scientifically_reproved": false,
+    "new_final_scientific_computation": false
+  },
+  "limits": [
+    "All inherited historical entries retained by exact map comparison, not full source rereading/rehashing/reproof",
+    "No empirical GR filter or native geometry/response/scale selection",
+    "Conditional response typing and common first-signal branch essential",
+    "Near/far iff only for stated flat-reference nonnegative-curvature diagnostic",
+    "No different-model, human-specialist or formal proof review",
+    "Final normal/maintenance/full406, process/preservation, staging, commit and push remain parent gates"
+  ],
+  "required_repairs": [],
+  "unresolved_substantive_objections": []
 }

@@ -1,0 +1,20 @@
+{
+  "status": "INTERRUPTED_NO_COMPLETION_CLAIM",
+  "observed_utc": "2026-10-01T21:14:08.365415+00:00",
+  "reason": "Server restart interrupted active tool session. No final capture JSON or stdout result; escalated host ps -C python,python3,torchrun returned header only and exit1. Audit outcome is unknown, not a scientific failure or pass.",
+  "preserved": [
+    {
+      "original_path": "udt_finite_selection_test_2026-10-01/checks/final_premises_windowed.stdout",
+      "preserved_path": "udt_finite_selection_test_2026-10-01/checks/daemon_interruption/final_premises_windowed.stdout",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "original_path": "udt_finite_selection_test_2026-10-01/checks/final_premises_windowed.stderr",
+      "preserved_path": "udt_finite_selection_test_2026-10-01/checks/daemon_interruption/final_premises_windowed.stderr",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    }
+  ],
+  "restart": "Repeat same final_premises_windowed command, resource limits and no timeout; original incomplete streams preserved here. Scientific sources and existing reviews/checks unchanged."
+}

@@ -1,0 +1,21 @@
+{
+  "utc": "2026-10-01T21:06:17.814690+00:00",
+  "cause": "Math immutable attestation context contained descriptive text rather than canonical reviewer identity. Final normal validation correctly failed. Original scientific map/report are unchanged; actual reviewer owns append-only binding repair.",
+  "preserved": [
+    {
+      "original_path": "udt_finite_selection_test_2026-10-01/checks/final_normal_bound.json",
+      "preserved_path": "udt_finite_selection_test_2026-10-01/checks/binding_failure/final_normal_bound.json",
+      "sha256": "f588545f3f07fee94b3561337259242d180f16315d83548d9bd61b2bd548539f"
+    },
+    {
+      "original_path": "udt_finite_selection_test_2026-10-01/checks/final_normal_bound.stdout",
+      "preserved_path": "udt_finite_selection_test_2026-10-01/checks/binding_failure/final_normal_bound.stdout",
+      "sha256": "49b383f3cc5f2b695b11a3523e1a10432ce9bc27091cbce5e86a18b6dd4f6a8b"
+    },
+    {
+      "original_path": "udt_finite_selection_test_2026-10-01/checks/final_normal_bound.stderr",
+      "preserved_path": "udt_finite_selection_test_2026-10-01/checks/binding_failure/final_normal_bound.stderr",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    }
+  ]
+}

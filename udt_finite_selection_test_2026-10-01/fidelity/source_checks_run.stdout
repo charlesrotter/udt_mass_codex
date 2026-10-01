@@ -1,0 +1,136 @@
+{
+  "status": "PASS",
+  "checks": [
+    {
+      "name": "positive_curvature_sensitivity",
+      "residual": "0"
+    },
+    {
+      "name": "negative_curvature_sensitivity",
+      "residual": "0"
+    },
+    {
+      "name": "positive_flat_sensitivity",
+      "residual": "0"
+    },
+    {
+      "name": "negative_flat_sensitivity",
+      "residual": "0"
+    },
+    {
+      "name": "positive_fourth_order",
+      "residual": "0"
+    },
+    {
+      "name": "negative_fourth_order",
+      "residual": "0"
+    },
+    {
+      "name": "full_primary_angular_parallel",
+      "residual": "0"
+    },
+    {
+      "name": "full_primary_angular_perp",
+      "residual": "0"
+    },
+    {
+      "name": "full_primary_vacuum_time",
+      "residual": "0"
+    },
+    {
+      "name": "full_primary_vacuum_angle",
+      "residual": "0"
+    },
+    {
+      "name": "angular_identity",
+      "residual": "0"
+    },
+    {
+      "name": "boost_is_lorentz",
+      "residual": "0"
+    },
+    {
+      "name": "boost_tensor_cross",
+      "residual": "0"
+    },
+    {
+      "name": "isotropic_tensor_metric",
+      "residual": "0"
+    },
+    {
+      "name": "pure_trace_boost_00",
+      "residual": "0"
+    },
+    {
+      "name": "pure_trace_boost_01",
+      "residual": "0"
+    },
+    {
+      "name": "pure_trace_boost_02",
+      "residual": "0"
+    },
+    {
+      "name": "pure_trace_boost_03",
+      "residual": "0"
+    },
+    {
+      "name": "pure_trace_boost_10",
+      "residual": "0"
+    },
+    {
+      "name": "pure_trace_boost_11",
+      "residual": "0"
+    },
+    {
+      "name": "pure_trace_boost_12",
+      "residual": "0"
+    },
+    {
+      "name": "pure_trace_boost_13",
+      "residual": "0"
+    },
+    {
+      "name": "pure_trace_boost_20",
+      "residual": "0"
+    },
+    {
+      "name": "pure_trace_boost_21",
+      "residual": "0"
+    },
+    {
+      "name": "pure_trace_boost_22",
+      "residual": "0"
+    },
+    {
+      "name": "pure_trace_boost_23",
+      "residual": "0"
+    },
+    {
+      "name": "pure_trace_boost_30",
+      "residual": "0"
+    },
+    {
+      "name": "pure_trace_boost_31",
+      "residual": "0"
+    },
+    {
+      "name": "pure_trace_boost_32",
+      "residual": "0"
+    },
+    {
+      "name": "pure_trace_boost_33",
+      "residual": "0"
+    },
+    {
+      "name": "signed_dimensionless_scale",
+      "residual": "0"
+    }
+  ],
+  "negative_controls": {
+    "angular_zero_not_vacuum": "-3/4",
+    "rotation_only_not_lorentz_invariant": "15/8"
+  },
+  "python": "3.10.12",
+  "sympy": "1.13.1",
+  "scope": "Exact bounded identities; analytic domain/monotonicity proof in SOURCE_FIRST.md. No physical selector."
+}

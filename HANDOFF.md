@@ -1,30 +1,33 @@
 # HANDOFF — current operational handoff
 
 <!-- STARTUP_CURRENT_BEGIN -->
-## Current handoff — FNA1 reviewed finite pair audit after FPC1/PSW1/TPS1 and CDR1, 2026-10-01
+## Current handoff — FST1 reviewed existing-commitment test after FNA1/FPC1 and CDR1, 2026-10-01
 
-LIVE.md wins. Charles's latest “proceed with the next step” authorized FPC1's
-recommended bounded native-pair audit, two source-first contexts, actual challenge
+LIVE.md wins. Charles's latest “proceeed” authorized FNA1's proposed bounded
+existing-commitment selection test, two source-first contexts, actual challenge
 and central integration. Fixed WORK_ORDER.md, WORK_RECORD.md, REVIEWED_RESULT.md
-and DECISION_BRIEF.md are under `udt_finite_native_pair_audit_2026-10-01/`.
-UDT_DEVELOPMENT.md R6/R8/R18 is the maintained argument; CURRENT_RESEARCH_PROGRAM.md
-is its generated orientation. Exact406 grades in CURRENT_SCIENTIFIC_PREMISES.tsv and CANON remain unchanged.
-No physical response, geometry, sign or scale is adopted by the representation.
+and DECISION_BRIEF.md are in `udt_finite_selection_test_2026-10-01/`.
+UDT_DEVELOPMENT.md R8/R9/R16/R18 owns the maintained argument; the generated
+CURRENT_RESEARCH_PROGRAM.md supplies orientation. Exact406 grades in
+CURRENT_SCIENTIFIC_PREMISES.tsv and CANON remain unchanged. No physical response,
+geometry, sign or scale is adopted. Historical W3 text remains preserved; current
+central wording now explicitly follows GR-filter authority.
 
-TPS1/PSW1/FPC1 retain their historical scope and failures. FNA1 used finite exact
-and analytic checks only; its original failed chart assertion and one-line code
-repair remain preserved. No new GPU, evolved-field or ray campaign ran.
-Charles's no-timeout direction persists, with resource/finite/manual stops.
+Prior TPS1/PSW1/FPC1/FNA1 retain their scope and failures. FST1's finite exact
+checks and argument reviews passed at their conditional scope; no new GPU,
+evolved-field or ray campaign ran. The original weak aggregate checks are retained
+and explicitly limited alongside full-component evidence. Charles's no-timeout
+instruction persists, with resource/finite/manual stops.
 
-Next: Stop for lay discussion at the reviewed finite-pair return.
-The proposed physical-selection test needs its own bounded dispatch; no successor,
-new premise or expanded computation begins automatically. Two actual FNA1 final
-attestations bind the same central edition and source/descendant record. Captured
-normal, maintenance and full406 checks own actual pass status. A later session
-must inspect host processes; none was left running at this return. TPS1 raw fields/
-checkpoints and large streams remain local-only; full raw-dependent replay is
-unavailable from a remote clone alone. LIVE retains pauses/archive caveats;
-current review bindings remain in development_reconstruction_2026-09-29/.
+Next: Stop for lay discussion at the reviewed existing-commitment return.
+The decision brief separates native branch admission from scalar state/calibration.
+No successor, new physical premise or expanded computation begins automatically.
+Two actual FST1 final attestations bind the same integrated edition; captured
+normal, maintenance and full406 audits own actual pass status. A later session
+must verify host processes; none was left running at this return. Prior TPS1 raw
+fields/checkpoints and large streams remain local-only and unavailable from a
+remote clone alone. LIVE retains all pauses/archive caveats. Current source and
+review bindings remain in development_reconstruction_2026-09-29/.
 
 Protected payloads require explicit dispatch; preserve without inspecting/hashing:
 

@@ -1,0 +1,6 @@
+{
+  "status": "PASS",
+  "assertions": 61,
+  "input_sha256": "626581152a95839073342cd264812b3d2fd61f303db446f3800391dcddb916b0",
+  "scope": "Saved invariant tensor, curvature contractions and clock ratio/duplication; no independent worldline or rank reconstruction."
+}

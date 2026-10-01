@@ -211,7 +211,10 @@
         "udt_g201_primary_metric_phi_jet_regime_amplitude_2026-08-21/EXACT_DERIVATION.md",
         "udt_g260_gr_quiet_angular_nondiscard_audit_2026-08-25/EXACT_DERIVATION.md",
         "udt_g298_causal_diamond_to_pair_germ_transfer_2026-08-29/AUDIT_REPORT.md",
-        "udt_g300_metric_celestial_query_bundle_descent_2026-08-29/AUDIT_REPORT.md"
+        "udt_g300_metric_celestial_query_bundle_descent_2026-08-29/AUDIT_REPORT.md",
+        "udt_finite_selection_test_2026-10-01/REVIEWED_RESULT.md",
+        "udt_g311_universal_reciprocity_full_covariant_response_2026-09-01/EXACT_DERIVATION.md",
+        "udt_gr_filter_reconciliation_2026-09-09/AUTHORITY_RECORD.md"
       ],
       "required_conditions": [
         "P_NULL",
@@ -231,7 +234,10 @@
         "startup_surface_g310_universal_reciprocity_refresh_2026-08-31/ADOPTION_RECORD.md",
         "udt_g310_differential_dual_reciprocity_tracefree_ownership_2026-08-31/EXACT_DERIVATION.md",
         "udt_native_field_connection_audit_2026-09-13/REVIEWED_AUDIT.md",
-        "development_reconstruction_2026-09-29/SOURCE_CORRECTIONS.md"
+        "development_reconstruction_2026-09-29/SOURCE_CORRECTIONS.md",
+        "udt_finite_selection_test_2026-10-01/REVIEWED_RESULT.md",
+        "udt_g311_universal_reciprocity_full_covariant_response_2026-09-01/EXACT_DERIVATION.md",
+        "udt_gr_filter_reconciliation_2026-09-09/AUTHORITY_RECORD.md"
       ],
       "required_conditions": [
         "P_DDR"
@@ -259,7 +265,9 @@
         "udt_gr_commitment_audit_2026-09-29/INITIAL_CANDIDATE.md",
         "udt_gr_commitment_audit_2026-09-29/CENTRAL_INSERTION.md",
         "udt_gr_commitment_audit_2026-09-29/DECISION_BRIEF.md",
-        "udt_gr_commitment_audit_2026-09-29/REVIEWED_RESULT.md"
+        "udt_gr_commitment_audit_2026-09-29/REVIEWED_RESULT.md",
+        "udt_finite_selection_test_2026-10-01/REVIEWED_RESULT.md",
+        "udt_g311_universal_reciprocity_full_covariant_response_2026-09-01/EXACT_DERIVATION.md"
       ],
       "required_conditions": [
         "C_RESPONSE"
@@ -379,7 +387,9 @@
       "sources": [
         "udt_interframe_clock_network_2026-09-28/REVIEWED_RESULT.md",
         "udt_machian_global_clock_feasibility_2026-09-28/REVIEWED_RESULT.md",
-        "udt_finite_positional_clock_test_2026-10-01/REVIEWED_RESULT.md"
+        "udt_finite_positional_clock_test_2026-10-01/REVIEWED_RESULT.md",
+        "udt_finite_selection_test_2026-10-01/REVIEWED_RESULT.md",
+        "udt_g163_xmax_dependency_reversal_audit_2026-08-18/AUDIT_REPORT.md"
       ],
       "required_conditions": [
         "P_SCALE"
@@ -472,7 +482,8 @@
         "udt_positional_geometry_clock_connection_2026-09-28/OWNER_STATEMENT.md",
         "udt_shared_geometry_extension_2026-09-29/OWNER_CLARIFICATION.md",
         "udt_repository_cleanup_2026-09-27/local_clock_impact_2026-09-29/OWNER_CLARIFICATION.md",
-        "udt_finite_native_pair_audit_2026-10-01/REVIEWED_RESULT.md"
+        "udt_finite_native_pair_audit_2026-10-01/REVIEWED_RESULT.md",
+        "udt_finite_selection_test_2026-10-01/REVIEWED_RESULT.md"
       ],
       "required_conditions": []
     },
@@ -1058,15 +1069,79 @@
     {
       "id": "O_PSW_ATTRIBUTION",
       "kind": "open_join",
-      "statement": "PSW1/FPC1 received ticking is defined; FNA1 explicitly constructs its supplied finite full pair and aligned transport. Native physical geometry/sign/scale, net/matched positional attribution, full recovery and complete response identification remain OPEN/UNADOPTED. Representation alone does not select an additional prediction or X_max.",
+      "statement": "Received ticking and FNA1 supplied full-pair assembly are defined. FST1 proves a conditional symmetric-response degeneracy and relative-curvature clock discriminator. Native physical branch/comparison admission, actual response and empirical filter attachment remain OPEN; legitimate scalar state/calibration data are distinct from law selection. No physical scale or X_max selected.",
       "sources": [
         "udt_positional_selection_whiteboard_2026-10-01/INITIAL_CANDIDATE.md",
         "udt_positional_selection_whiteboard_2026-10-01/REPAIR.md",
         "udt_positional_selection_whiteboard_2026-10-01/REVIEWED_RESULT.md",
         "udt_finite_positional_clock_test_2026-10-01/REVIEWED_RESULT.md",
-        "udt_finite_native_pair_audit_2026-10-01/REVIEWED_RESULT.md"
+        "udt_finite_native_pair_audit_2026-10-01/REVIEWED_RESULT.md",
+        "udt_finite_selection_test_2026-10-01/REVIEWED_RESULT.md"
       ],
       "registry_ids": []
+    },
+    {
+      "id": "C_FST_LOCAL_RESPONSE",
+      "kind": "conditional_class",
+      "statement": "For FST1 symmetry lemma only: defined symmetric covariant rank-two local metric-only response equivariant under local isometries on the supplied space-form domain; any other arguments invariant scalar constants, no extra state/vector/query/boundary label. Not derived solely from Local Metric Sufficiency.",
+      "sources": [
+        "udt_finite_selection_test_2026-10-01/INITIAL_DERIVATION.md",
+        "udt_finite_selection_test_2026-10-01/fidelity/SOURCE_FIRST_PRECISION.md"
+      ],
+      "registry_ids": []
+    },
+    {
+      "id": "P_FST_MATCHED_CLOCK",
+      "kind": "conditional_protocol",
+      "statement": "FST1 supplied signed space forms with same independent proper L, parallel preparation, ordinary free clocks/units/direct first-signal branch; physical reference and tolerance inputs not selected. The exact near/far iff additionally uses flat reference, nonnegative curvature and stated positive symbolic thresholds.",
+      "sources": [
+        "udt_finite_selection_test_2026-10-01/INITIAL_DERIVATION.md"
+      ],
+      "registry_ids": []
+    },
+    {
+      "id": "R8FST",
+      "kind": "argument",
+      "anchor": "r8fst",
+      "title": "A discriminating matched comparison \u2014 FST1",
+      "sources": [
+        "udt_finite_selection_test_2026-10-01/INITIAL_DERIVATION.md",
+        "udt_finite_selection_test_2026-10-01/REVIEWED_RESULT.md",
+        "udt_finite_selection_test_2026-10-01/math/SOURCE_FIRST.md",
+        "udt_finite_selection_test_2026-10-01/fidelity/SOURCE_FIRST.md",
+        "udt_finite_selection_test_2026-10-01/fidelity/SOURCE_FIRST_PRECISION.md"
+      ],
+      "registry_ids": [],
+      "required_conditions": [
+        "P_FST_MATCHED_CLOCK",
+        "P_NULL",
+        "M_GEOMETRY"
+      ]
+    },
+    {
+      "id": "R9FST",
+      "kind": "argument",
+      "anchor": "r9fst",
+      "title": "Conditional space-form response isotropy \u2014 FST1",
+      "sources": [
+        "udt_finite_selection_test_2026-10-01/INITIAL_DERIVATION.md",
+        "udt_finite_selection_test_2026-10-01/REVIEWED_RESULT.md",
+        "udt_finite_selection_test_2026-10-01/math/SOURCE_FIRST.md",
+        "udt_finite_selection_test_2026-10-01/fidelity/SOURCE_FIRST.md",
+        "udt_finite_selection_test_2026-10-01/fidelity/SOURCE_FIRST_PRECISION.md",
+        "udt_g311_universal_reciprocity_full_covariant_response_2026-09-01/EXACT_DERIVATION.md",
+        "udt_gr_filter_reconciliation_2026-09-09/AUTHORITY_RECORD.md"
+      ],
+      "registry_ids": [
+        "G310",
+        "G311",
+        "G312"
+      ],
+      "required_conditions": [
+        "C_FST_LOCAL_RESPONSE",
+        "P_DDR",
+        "M_GEOMETRY"
+      ]
     }
   ],
   "edges": [
@@ -1964,6 +2039,56 @@
       "from": "R5",
       "to": "R8",
       "kind": "context"
+    },
+    {
+      "from": "P_FST_MATCHED_CLOCK",
+      "to": "R8FST",
+      "kind": "hypothesis"
+    },
+    {
+      "from": "P_NULL",
+      "to": "R8FST",
+      "kind": "hypothesis"
+    },
+    {
+      "from": "M_GEOMETRY",
+      "to": "R8FST",
+      "kind": "hypothesis"
+    },
+    {
+      "from": "R8",
+      "to": "R8FST",
+      "kind": "proof"
+    },
+    {
+      "from": "C_FST_LOCAL_RESPONSE",
+      "to": "R9FST",
+      "kind": "hypothesis"
+    },
+    {
+      "from": "P_DDR",
+      "to": "R9FST",
+      "kind": "hypothesis"
+    },
+    {
+      "from": "M_GEOMETRY",
+      "to": "R9FST",
+      "kind": "hypothesis"
+    },
+    {
+      "from": "R9",
+      "to": "R9FST",
+      "kind": "proof"
+    },
+    {
+      "from": "R8FST",
+      "to": "R18",
+      "kind": "context"
+    },
+    {
+      "from": "R9FST",
+      "to": "R18",
+      "kind": "context"
     }
   ],
   "sources_sha256": {
@@ -2122,7 +2247,14 @@
     "udt_g201_primary_metric_phi_jet_regime_amplitude_2026-08-21/EXACT_DERIVATION.md": "8c4361c3e11c7eaece17b7da9b7c47ee372989b99f495a68a1ec87d4a8b31951",
     "udt_g260_gr_quiet_angular_nondiscard_audit_2026-08-25/EXACT_DERIVATION.md": "de32fc105dfe9cdbc964959a67c46a0eee58f95566b2df4f2ce115c48b6776da",
     "udt_g298_causal_diamond_to_pair_germ_transfer_2026-08-29/AUDIT_REPORT.md": "56f871522dd099bf6d45984045cff2aeb05e42176eea118e8b72303542f53872",
-    "udt_g300_metric_celestial_query_bundle_descent_2026-08-29/AUDIT_REPORT.md": "3ad7382bc3e005dac91199bf724f941a130ac8730935af1932c2b5f417413fa5"
+    "udt_g300_metric_celestial_query_bundle_descent_2026-08-29/AUDIT_REPORT.md": "3ad7382bc3e005dac91199bf724f941a130ac8730935af1932c2b5f417413fa5",
+    "udt_finite_selection_test_2026-10-01/INITIAL_DERIVATION.md": "45c92396691b9278bea5b8cf0583cb77709292473d8a50b76280be3fa1b029cd",
+    "udt_finite_selection_test_2026-10-01/REVIEWED_RESULT.md": "08014779c1e076e48e3a3da35ae0e39418071803a8baac1a1476eef1ee39dacc",
+    "udt_finite_selection_test_2026-10-01/math/SOURCE_FIRST.md": "a49b4902781932743177a772c738f3c6b56a2eee4d1c8236d056163ce45464b1",
+    "udt_finite_selection_test_2026-10-01/fidelity/SOURCE_FIRST.md": "58148093c2c7ce21cc4115bf7f158ff9f6d81f4a682a9d3d8acaf3212586d639",
+    "udt_finite_selection_test_2026-10-01/fidelity/SOURCE_FIRST_PRECISION.md": "34b3854fdfcae124daec3c842d77d2878ef24957dfcd396fca71b5fefd4ef744",
+    "udt_g311_universal_reciprocity_full_covariant_response_2026-09-01/EXACT_DERIVATION.md": "4fd4ca84d353018c02e32d49cf261de3472b3fafd74b0f268b0960653bdfd307",
+    "udt_g163_xmax_dependency_reversal_audit_2026-08-18/AUDIT_REPORT.md": "e7eda779c8496f269a0e94060a5824dd79b2b147af8186277236982ec2708670"
   },
   "impact_policy": "Any changed source or registry row flags its mapped positive and negative central arguments and every reachable central descendant for review; no automatic truth reversal or regrading.",
   "review_support": [
@@ -2988,6 +3120,48 @@
         "R7",
         "R8",
         "R18"
+      ]
+    },
+    {
+      "path": "udt_finite_selection_test_2026-10-01/math/CANDIDATE_REVIEW.md",
+      "sha256": "239401ebef92972a720e98faa1180d20ffd35f787088c4750bc4c388dc9d1e05",
+      "role": "review_evidence",
+      "targets": [
+        "R8",
+        "R9",
+        "R10",
+        "R16",
+        "R18",
+        "R8FST",
+        "R9FST"
+      ]
+    },
+    {
+      "path": "udt_finite_selection_test_2026-10-01/fidelity/CANDIDATE_REVIEW.md",
+      "sha256": "929c6dfb474b45bc3923fce8f5b90ec7333f485737516b7062ef7bc3077638e6",
+      "role": "review_evidence",
+      "targets": [
+        "R8",
+        "R9",
+        "R10",
+        "R16",
+        "R18",
+        "R8FST",
+        "R9FST"
+      ]
+    },
+    {
+      "path": "udt_finite_selection_test_2026-10-01/DESCENDANT_REVIEW.md",
+      "sha256": "6ec07de51f4d879e03f9e4f779d840d0c7fa1075325fcb9ef7abcea1557ad84c",
+      "role": "review_evidence",
+      "targets": [
+        "R8",
+        "R9",
+        "R10",
+        "R16",
+        "R18",
+        "R8FST",
+        "R9FST"
       ]
     }
   ]
