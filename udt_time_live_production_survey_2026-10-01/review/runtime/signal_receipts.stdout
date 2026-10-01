@@ -1,0 +1,79 @@
+{
+  "status": "SIGNAL_TELEMETRY_REPAIR_PASS",
+  "source_sha256": "75081fbabb7eec3fd0c765884e941c88bf303302b5fc9f544ae97b4172ec1c0d",
+  "records": [
+    {
+      "signal": null,
+      "returncode": 0,
+      "receipt": {
+        "case": "case",
+        "command": [
+          "/usr/bin/python3",
+          "/home/udt-admin/udt_mass_codex/udt_time_live_production_survey_2026-10-01/production_worker.py",
+          "/home/udt-admin/udt_mass_codex/udt_time_live_production_survey_2026-10-01/review/runtime/signal_fixtures/none/spec.json",
+          "/home/udt-admin/udt_mass_codex/udt_time_live_production_survey_2026-10-01/runs/review_signal_none"
+        ],
+        "forwarded_signal": null,
+        "resume": false,
+        "returncode": 0,
+        "sigint_sent": false,
+        "sigkill_sent": false,
+        "sigterm_sent": false,
+        "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "stdout_sha256": "f052dccbb4509b297b6af66e05c7634e1c855150b3416e1524304b1334e29170",
+        "wall_seconds": 86400.0,
+        "worker_status": "TPS1_RUN_COMPLETE",
+        "worker_stop_reason": null
+      }
+    },
+    {
+      "signal": 15,
+      "returncode": 75,
+      "receipt": {
+        "case": "case",
+        "command": [
+          "/usr/bin/python3",
+          "/home/udt-admin/udt_mass_codex/udt_time_live_production_survey_2026-10-01/production_worker.py",
+          "/home/udt-admin/udt_mass_codex/udt_time_live_production_survey_2026-10-01/review/runtime/signal_fixtures/15/spec.json",
+          "/home/udt-admin/udt_mass_codex/udt_time_live_production_survey_2026-10-01/runs/review_signal_15"
+        ],
+        "forwarded_signal": 15,
+        "resume": false,
+        "returncode": 75,
+        "sigint_sent": false,
+        "sigkill_sent": false,
+        "sigterm_sent": true,
+        "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "stdout_sha256": "4dd59e2e949c0b26abf2608e8ae465a27a60a826b3e1f6092ae4640e730d3c23",
+        "wall_seconds": 86400.0,
+        "worker_status": "CHECKPOINTED_STOP",
+        "worker_stop_reason": "SIGNAL"
+      }
+    },
+    {
+      "signal": 2,
+      "returncode": 75,
+      "receipt": {
+        "case": "case",
+        "command": [
+          "/usr/bin/python3",
+          "/home/udt-admin/udt_mass_codex/udt_time_live_production_survey_2026-10-01/production_worker.py",
+          "/home/udt-admin/udt_mass_codex/udt_time_live_production_survey_2026-10-01/review/runtime/signal_fixtures/2/spec.json",
+          "/home/udt-admin/udt_mass_codex/udt_time_live_production_survey_2026-10-01/runs/review_signal_2"
+        ],
+        "forwarded_signal": 2,
+        "resume": false,
+        "returncode": 75,
+        "sigint_sent": true,
+        "sigkill_sent": false,
+        "sigterm_sent": false,
+        "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "stdout_sha256": "4dd59e2e949c0b26abf2608e8ae465a27a60a826b3e1f6092ae4640e730d3c23",
+        "wall_seconds": 86400.0,
+        "worker_status": "CHECKPOINTED_STOP",
+        "worker_stop_reason": "SIGNAL"
+      }
+    }
+  ],
+  "scope": "Actual supervisor main with fake child, including no signal and SIGTERM/SIGINT; author regression, parent independently reviews source. No real child in this test."
+}

@@ -1,0 +1,79 @@
+{
+  "status": "FIRST_CLOCK_INDEPENDENT_AGREEMENT_PASS",
+  "rows": [
+    {
+      "direction": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "hamilton_Z": 0.996016682452872,
+      "hamilton_logZ": -0.003991272087134548,
+      "producer_logZ": -0.003991272087321415,
+      "absolute_logZ_difference": 1.8686701491743563e-13,
+      "endpoint_position_difference": 9.547918011776346e-15,
+      "independent_sampled_null": 1.9562362610758717e-14
+    },
+    {
+      "direction": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "hamilton_Z": 1.007997673448541,
+      "hamilton_logZ": 0.007965861559748235,
+      "producer_logZ": 0.007965861559317668,
+      "absolute_logZ_difference": 4.305670403548234e-13,
+      "endpoint_position_difference": 2.220446049250313e-15,
+      "independent_sampled_null": 4.9395418591030204e-15
+    },
+    {
+      "direction": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "hamilton_Z": 1.008044836239064,
+      "hamilton_logZ": 0.00801264905585019,
+      "producer_logZ": 0.008012649055818,
+      "absolute_logZ_difference": 3.218952882022563e-14,
+      "endpoint_position_difference": 2.7755575615628914e-15,
+      "independent_sampled_null": 2.4980018054066022e-14
+    },
+    {
+      "direction": [
+        0.5773502691896258,
+        0.5773502691896258,
+        0.5773502691896258
+      ],
+      "hamilton_Z": 1.0077492309616312,
+      "hamilton_logZ": 0.007719359890690359,
+      "producer_logZ": 0.00771935989045675,
+      "absolute_logZ_difference": 2.336091389776307e-13,
+      "endpoint_position_difference": 3.774758283725532e-15,
+      "independent_sampled_null": 1.404432126150823e-14
+    }
+  ],
+  "matched_refinement": [
+    {
+      "reference": "axial_a0_n24",
+      "other": "axial_a0_n24_half",
+      "maximum_logZ_difference": 4.187570429303733e-13
+    },
+    {
+      "reference": "axial_a0_n24",
+      "other": "axial_a0_n32",
+      "maximum_logZ_difference": 1.2908597801786215e-13
+    }
+  ],
+  "maximum_independent_logZ_difference": 4.305670403548234e-13,
+  "maximum_endpoint_position_difference": 9.547918011776346e-15,
+  "source_sha256": {
+    "udt_time_live_production_survey_2026-10-01/review/runtime/first_clock_hamilton.stdout": "770730e8c41e093ecd9989009439c8d367b6fe240d9e627c4ba47b86c42a226a",
+    "udt_time_live_production_survey_2026-10-01/production_analysis/axial_a0_n24_half/clock.json": "036e73819bf1a8377976debf65603a7275cc30a95a7d6526eb6ef988efa72910",
+    "udt_time_live_production_survey_2026-10-01/production_analysis/axial_a0_n24_half/histories/axial_a0_n24_half_window2.npz": "5bd0d573905c14bcecd66b5b4be3e3ca995bf8fdb485a85390997c70404c3275",
+    "udt_time_live_production_survey_2026-10-01/review/runtime/CLOCK_SUBSET_FREEZE.json": "ac89640409e6865c8bafd2393983daf9fccbdf4cd2e999db65eac92028abfb7e",
+    "udt_time_live_production_survey_2026-10-01/review/runtime/compare_first_clocks.py": "bdaea76f721dd8d5c4d6032cc2e58eadb1c9d24b9e84e494b9d3549d6809ac88"
+  },
+  "scope": "Separate ray equations/integrators, same supplied geometry and Fourier/Hermite methods. First dataset late local windows only; no independent metric evolution, physical observer population or cosmological-distance claim."
+}

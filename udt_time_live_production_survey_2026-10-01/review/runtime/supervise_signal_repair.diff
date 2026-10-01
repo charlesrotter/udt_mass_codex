@@ -1,0 +1,27 @@
+--- supervise_before_signal_telemetry.py
++++ supervise.py
+@@ -72,13 +72,13 @@
+             command=[sys.executable,str(B/'production_worker.py'),str(owned(row['spec'])),str(run)]
+             resume=run.exists()
+             if resume:command.append('--resume')
+-            env=os.environ.copy();env['CUBLAS_WORKSPACE_CONFIG']=':4096:8';began=time.monotonic();sent=False
++            env=os.environ.copy();env['CUBLAS_WORKSPACE_CONFIG']=':4096:8';began=time.monotonic();sent=False;sent_signal=None
+             write(folder/'launch.json',dict(case=row['id'],command=command,wall_seconds_limit=None,manifest_sha256=sha(manifest)))
+             with (folder/'stdout').open('x') as out,(folder/'stderr').open('x') as err:
+                 proc=subprocess.Popen(command,stdout=out,stderr=err,env=env,start_new_session=True)
+                 while proc.poll() is None:
+                     if requested['signal'] and not sent:
+-                        os.killpg(proc.pid,requested['signal']);sent=True
++                        os.killpg(proc.pid,requested['signal']);sent=True;sent_signal=requested['signal']
+                     # Manual signals request a checkpoint. No timer escalates them.
+                     time.sleep(.05)
+                 rc=proc.wait()
+@@ -88,7 +88,7 @@
+                 try:worker_rows.append(json.loads(line))
+                 except json.JSONDecodeError:pass
+             last=worker_rows[-1] if worker_rows else {}
+-            write(folder/'receipt.json',dict(case=row['id'],command=command,returncode=rc,wall_seconds=elapsed,resume=resume,sigterm_sent=sent,sigkill_sent=False,worker_status=last.get('status'),worker_stop_reason=last.get('reason'),stdout_sha256=sha(folder/'stdout'),stderr_sha256=sha(folder/'stderr')))
++            write(folder/'receipt.json',dict(case=row['id'],command=command,returncode=rc,wall_seconds=elapsed,resume=resume,forwarded_signal=sent_signal,sigterm_sent=sent_signal==signal.SIGTERM,sigint_sent=sent_signal==signal.SIGINT,sigkill_sent=False,worker_status=last.get('status'),worker_stop_reason=last.get('reason'),stdout_sha256=sha(folder/'stdout'),stderr_sha256=sha(folder/'stderr')))
+             print(json.dumps(dict(case=row['id'],returncode=rc,seconds=elapsed,used_bytes=used())),flush=True)
+             if rc!=0:return 75 if rc==75 else 2
+             newly_completed+=1

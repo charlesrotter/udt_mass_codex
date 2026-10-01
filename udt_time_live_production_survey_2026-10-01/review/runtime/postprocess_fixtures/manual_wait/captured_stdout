@@ -1,0 +1,2 @@
+{"status": "WAITING_FOR_CONTROLLER", "pid": 987654, "wall_timeout_seconds": null}
+{"status": "CANDIDATE_PENDING_ADVERSARIAL_REVIEW", "phase": "MANUAL_PAUSE", "manifest_sha256": "216953bf31b8734e68e706087ce76abaf45681208b869ce04556573e7845326a", "controller_launch_sha256": "d0e0ea5b4901e7103d6908a021af0779d039d758bd632887a0859d4ccdaf130b", "manual_signal": 15, "stages": [], "used_bytes": 96179, "utc": "2026-10-01T02:49:47.451445+00:00"}

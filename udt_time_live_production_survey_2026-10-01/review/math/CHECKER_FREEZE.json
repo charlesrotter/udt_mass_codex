@@ -1,0 +1,16 @@
+{
+  "status": "PRE_OUTCOME_CHECKER_FREEZE",
+  "utc": "2026-10-01T02:31:07.516858+00:00",
+  "reviewer_context": "/root/survey_math",
+  "prior_exposure": "TPP results and reviews; no TPS initial or production outcome",
+  "source_sha256": {
+    "udt_time_live_production_survey_2026-10-01/review/math/SOURCE_FIRST_PLAN.md": "a5d9f4e06d67dd671ca6dd8beb05f076fd3904e8963a78b1ff0aea5efa977dfc",
+    "udt_time_live_production_survey_2026-10-01/review/math/check_survey.py": "3f98e82cc46600b25b54ff4b38956280aa6683d852c9251bbfef242d52faf5f2",
+    "udt_time_live_production_survey_2026-10-01/review/math/check_adapter_controls.py": "8b47dc44376aea715431e6292feea7f8577ad5dc0d27fc0132e0ce4c7cc7a007",
+    "udt_time_live_production_survey_2026-10-01/review/math/run_case_checks.py": "c5b4f29b88c4089c9c440fa156e092ea1ac97679ca70e64f61d34a4f71abe65d",
+    "udt_time_live_production_survey_2026-10-01/review/math/PREPRODUCTION_CONTROLS.json": "71344f73ef9b3005417461f0b8a17d329ba8bf4845e43f91afe11764f6c94936",
+    "udt_time_live_production_survey_2026-10-01/review/math/preproduction_adapter_controls.stdout": "df9bd664585bee475c0c9b7d0074df4384363908711050f611859173a666baf8"
+  },
+  "work_order_sha256": "c1fcf625b4703081a1eb723c89f08e40515c1c8cab1590ea4e6e7be8dd56ed44",
+  "limits": "Original residual2e-5; final time g/v2e-7; common8 spatial10-fold or all points both meshes below1e-8; no timeout,2GiB process cap."
+}

@@ -1,0 +1,21 @@
+{
+  "command": [
+    "python3",
+    "udt_time_live_production_survey_2026-10-01/review/math/run_case_checks.py",
+    "--limit",
+    "3"
+  ],
+  "cwd": "/home/udt-admin/udt_mass_codex",
+  "started_utc": "2026-10-01T02:37:27.337799+00:00",
+  "duration_seconds": 36.22558126295917,
+  "returncode": 0,
+  "wall_timeout_seconds": null,
+  "cpu_timeout_seconds": null,
+  "address_space_bytes": 2147483648,
+  "memory_scope": "Process virtual address limit",
+  "maxrss_kib": 512700,
+  "forwarded_signals": [],
+  "stdout_sha256": "b5e2032b442ef5ec515f4f0b3d0aa6cc44d11b56be13ed7d462659e3f3a5b0e4",
+  "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "capture_sha256": "217cdbac5486e8a531552f4d74a15ce641299b65dafb5d58f7b60f4ba51781bc"
+}

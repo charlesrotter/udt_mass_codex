@@ -1,0 +1,24 @@
+{
+  "status": "SMOKE_EXTRACTION_DIRECT_ARRAY_PASS",
+  "records": [
+    {
+      "case": "case_a",
+      "history_sha256": "e6812a011cfa827ebfb2eb0e73c0cf463cbf0605cf99d8e30538a962b9c7fd01",
+      "matched_saved_times": 9,
+      "total_budgeted_smoke_bytes": 5502199
+    },
+    {
+      "case": "case_b",
+      "history_sha256": "e6812a011cfa827ebfb2eb0e73c0cf463cbf0605cf99d8e30538a962b9c7fd01",
+      "matched_saved_times": 9,
+      "total_budgeted_smoke_bytes": 5502199
+    },
+    {
+      "case": "case_c",
+      "history_sha256": "e6812a011cfa827ebfb2eb0e73c0cf463cbf0605cf99d8e30538a962b9c7fd01",
+      "matched_saved_times": 9,
+      "total_budgeted_smoke_bytes": 5502199
+    }
+  ],
+  "scope": "Authenticated history and all nine g/v slices compared directly with checkpoints. This is correspondence, not independent Ricci qualification."
+}

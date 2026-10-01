@@ -1,0 +1,2139 @@
+{
+  "status": "HAMILTON_CLOCK_REVIEW_PASS",
+  "queries_sha256": "wrong",
+  "checker_sha256": "99f1752ae0ec577450b9c777b3af98800f184be39099c2099ef85ed0c817f522",
+  "readouts": {
+    "axial_a0_n24_half": [
+      {
+        "emission": 2.484,
+        "reception": 2.496,
+        "Z": 1.0,
+        "logZ": -0.01,
+        "max_sampled_abs_null_norm": 0.0,
+        "initial_coordinate_direction": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "receiver_position": [
+          1.0,
+          2.0,
+          3.0
+        ]
+      },
+      {
+        "emission": 2.484,
+        "reception": 2.496,
+        "Z": 1.0,
+        "logZ": 0.02,
+        "max_sampled_abs_null_norm": 0.0,
+        "initial_coordinate_direction": [
+          0.0,
+          1.0,
+          0.0
+        ],
+        "receiver_position": [
+          1.0,
+          2.0,
+          3.0
+        ]
+      },
+      {
+        "emission": 2.484,
+        "reception": 2.496,
+        "Z": 1.0,
+        "logZ": 0.0,
+        "max_sampled_abs_null_norm": 0.0,
+        "initial_coordinate_direction": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "receiver_position": [
+          1.0,
+          2.0,
+          3.0
+        ]
+      },
+      {
+        "emission": 2.484,
+        "reception": 2.496,
+        "Z": 1.0,
+        "logZ": 0.003,
+        "max_sampled_abs_null_norm": 0.0,
+        "initial_coordinate_direction": [
+          0.5773502691896257,
+          0.5773502691896257,
+          0.5773502691896257
+        ],
+        "receiver_position": [
+          1.0,
+          2.0,
+          3.0
+        ]
+      }
+    ],
+    "oblique_a0_p0_r0_n24_half": [
+      {
+        "emission": 2.484,
+        "reception": 2.496,
+        "Z": 1.0,
+        "logZ": -0.01,
+        "max_sampled_abs_null_norm": 0.0,
+        "initial_coordinate_direction": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "receiver_position": [
+          1.0,
+          2.0,
+          3.0
+        ]
+      },
+      {
+        "emission": 2.484,
+        "reception": 2.496,
+        "Z": 1.0,
+        "logZ": 0.02,
+        "max_sampled_abs_null_norm": 0.0,
+        "initial_coordinate_direction": [
+          0.0,
+          1.0,
+          0.0
+        ],
+        "receiver_position": [
+          1.0,
+          2.0,
+          3.0
+        ]
+      },
+      {
+        "emission": 2.484,
+        "reception": 2.496,
+        "Z": 1.0,
+        "logZ": 0.0,
+        "max_sampled_abs_null_norm": 0.0,
+        "initial_coordinate_direction": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "receiver_position": [
+          1.0,
+          2.0,
+          3.0
+        ]
+      },
+      {
+        "emission": 2.484,
+        "reception": 2.496,
+        "Z": 1.0,
+        "logZ": 0.003,
+        "max_sampled_abs_null_norm": 0.0,
+        "initial_coordinate_direction": [
+          0.5773502691896257,
+          0.5773502691896257,
+          0.5773502691896257
+        ],
+        "receiver_position": [
+          1.0,
+          2.0,
+          3.0
+        ]
+      }
+    ],
+    "oblique_a0_p0_r1_n24_half": [
+      {
+        "emission": 2.484,
+        "reception": 2.496,
+        "Z": 1.0,
+        "logZ": -0.01,
+        "max_sampled_abs_null_norm": 0.0,
+        "initial_coordinate_direction": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "receiver_position": [
+          1.0,
+          2.0,
+          3.0
+        ]
+      },
+      {
+        "emission": 2.484,
+        "reception": 2.496,
+        "Z": 1.0,
+        "logZ": 0.02,
+        "max_sampled_abs_null_norm": 0.0,
+        "initial_coordinate_direction": [
+          0.0,
+          1.0,
+          0.0
+        ],
+        "receiver_position": [
+          1.0,
+          2.0,
+          3.0
+        ]
+      },
+      {
+        "emission": 2.484,
+        "reception": 2.496,
+        "Z": 1.0,
+        "logZ": 0.0,
+        "max_sampled_abs_null_norm": 0.0,
+        "initial_coordinate_direction": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "receiver_position": [
+          1.0,
+          2.0,
+          3.0
+        ]
+      },
+      {
+        "emission": 2.484,
+        "reception": 2.496,
+        "Z": 1.0,
+        "logZ": 0.003,
+        "max_sampled_abs_null_norm": 0.0,
+        "initial_coordinate_direction": [
+          0.5773502691896257,
+          0.5773502691896257,
+          0.5773502691896257
+        ],
+        "receiver_position": [
+          1.0,
+          2.0,
+          3.0
+        ]
+      }
+    ],
+    "oblique_a0_p0_r2_n24_half": [
+      {
+        "emission": 2.484,
+        "reception": 2.496,
+        "Z": 1.0,
+        "logZ": -0.01,
+        "max_sampled_abs_null_norm": 0.0,
+        "initial_coordinate_direction": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "receiver_position": [
+          1.0,
+          2.0,
+          3.0
+        ]
+      },
+      {
+        "emission": 2.484,
+        "reception": 2.496,
+        "Z": 1.0,
+        "logZ": 0.02,
+        "max_sampled_abs_null_norm": 0.0,
+        "initial_coordinate_direction": [
+          0.0,
+          1.0,
+          0.0
+        ],
+        "receiver_position": [
+          1.0,
+          2.0,
+          3.0
+        ]
+      },
+      {
+        "emission": 2.484,
+        "reception": 2.496,
+        "Z": 1.0,
+        "logZ": 0.0,
+        "max_sampled_abs_null_norm": 0.0,
+        "initial_coordinate_direction": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "receiver_position": [
+          1.0,
+          2.0,
+          3.0
+        ]
+      },
+      {
+        "emission": 2.484,
+        "reception": 2.496,
+        "Z": 1.0,
+        "logZ": 0.003,
+        "max_sampled_abs_null_norm": 0.0,
+        "initial_coordinate_direction": [
+          0.5773502691896257,
+          0.5773502691896257,
+          0.5773502691896257
+        ],
+        "receiver_position": [
+          1.0,
+          2.0,
+          3.0
+        ]
+      }
+    ],
+    "oblique_a0_p1_r0_n24_half": [
+      {
+        "emission": 2.484,
+        "reception": 2.496,
+        "Z": 1.0,
+        "logZ": -0.01,
+        "max_sampled_abs_null_norm": 0.0,
+        "initial_coordinate_direction": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "receiver_position": [
+          1.0,
+          2.0,
+          3.0
+        ]
+      },
+      {
+        "emission": 2.484,
+        "reception": 2.496,
+        "Z": 1.0,
+        "logZ": 0.02,
+        "max_sampled_abs_null_norm": 0.0,
+        "initial_coordinate_direction": [
+          0.0,
+          1.0,
+          0.0
+        ],
+        "receiver_position": [
+          1.0,
+          2.0,
+          3.0
+        ]
+      },
+      {
+        "emission": 2.484,
+        "reception": 2.496,
+        "Z": 1.0,
+        "logZ": 0.0,
+        "max_sampled_abs_null_norm": 0.0,
+        "initial_coordinate_direction": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "receiver_position": [
+          1.0,
+          2.0,
+          3.0
+        ]
+      },
+      {
+        "emission": 2.484,
+        "reception": 2.496,
+        "Z": 1.0,
+        "logZ": 0.003,
+        "max_sampled_abs_null_norm": 0.0,
+        "initial_coordinate_direction": [
+          0.5773502691896257,
+          0.5773502691896257,
+          0.5773502691896257
+        ],
+        "receiver_position": [
+          1.0,
+          2.0,
+          3.0
+        ]
+      }
+    ],
+    "oblique_a0_p1_r1_n24_half": [
+      {
+        "emission": 2.484,
+        "reception": 2.496,
+        "Z": 1.0,
+        "logZ": -0.01,
+        "max_sampled_abs_null_norm": 0.0,
+        "initial_coordinate_direction": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "receiver_position": [
+          1.0,
+          2.0,
+          3.0
+        ]
+      },
+      {
+        "emission": 2.484,
+        "reception": 2.496,
+        "Z": 1.0,
+        "logZ": 0.02,
+        "max_sampled_abs_null_norm": 0.0,
+        "initial_coordinate_direction": [
+          0.0,
+          1.0,
+          0.0
+        ],
+        "receiver_position": [
+          1.0,
+          2.0,
+          3.0
+        ]
+      },
+      {
+        "emission": 2.484,
+        "reception": 2.496,
+        "Z": 1.0,
+        "logZ": 0.0,
+        "max_sampled_abs_null_norm": 0.0,
+        "initial_coordinate_direction": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "receiver_position": [
+          1.0,
+          2.0,
+          3.0
+        ]
+      },
+      {
+        "emission": 2.484,
+        "reception": 2.496,
+        "Z": 1.0,
+        "logZ": 0.003,
+        "max_sampled_abs_null_norm": 0.0,
+        "initial_coordinate_direction": [
+          0.5773502691896257,
+          0.5773502691896257,
+          0.5773502691896257
+        ],
+        "receiver_position": [
+          1.0,
+          2.0,
+          3.0
+        ]
+      }
+    ],
+    "oblique_a0_p1_r2_n24_half": [
+      {
+        "emission": 2.484,
+        "reception": 2.496,
+        "Z": 1.0,
+        "logZ": -0.01,
+        "max_sampled_abs_null_norm": 0.0,
+        "initial_coordinate_direction": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "receiver_position": [
+          1.0,
+          2.0,
+          3.0
+        ]
+      },
+      {
+        "emission": 2.484,
+        "reception": 2.496,
+        "Z": 1.0,
+        "logZ": 0.02,
+        "max_sampled_abs_null_norm": 0.0,
+        "initial_coordinate_direction": [
+          0.0,
+          1.0,
+          0.0
+        ],
+        "receiver_position": [
+          1.0,
+          2.0,
+          3.0
+        ]
+      },
+      {
+        "emission": 2.484,
+        "reception": 2.496,
+        "Z": 1.0,
+        "logZ": 0.0,
+        "max_sampled_abs_null_norm": 0.0,
+        "initial_coordinate_direction": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "receiver_position": [
+          1.0,
+          2.0,
+          3.0
+        ]
+      },
+      {
+        "emission": 2.484,
+        "reception": 2.496,
+        "Z": 1.0,
+        "logZ": 0.003,
+        "max_sampled_abs_null_norm": 0.0,
+        "initial_coordinate_direction": [
+          0.5773502691896257,
+          0.5773502691896257,
+          0.5773502691896257
+        ],
+        "receiver_position": [
+          1.0,
+          2.0,
+          3.0
+        ]
+      }
+    ],
+    "oblique_a0_p2_r0_n24_half": [
+      {
+        "emission": 2.484,
+        "reception": 2.496,
+        "Z": 1.0,
+        "logZ": -0.01,
+        "max_sampled_abs_null_norm": 0.0,
+        "initial_coordinate_direction": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "receiver_position": [
+          1.0,
+          2.0,
+          3.0
+        ]
+      },
+      {
+        "emission": 2.484,
+        "reception": 2.496,
+        "Z": 1.0,
+        "logZ": 0.02,
+        "max_sampled_abs_null_norm": 0.0,
+        "initial_coordinate_direction": [
+          0.0,
+          1.0,
+          0.0
+        ],
+        "receiver_position": [
+          1.0,
+          2.0,
+          3.0
+        ]
+      },
+      {
+        "emission": 2.484,
+        "reception": 2.496,
+        "Z": 1.0,
+        "logZ": 0.0,
+        "max_sampled_abs_null_norm": 0.0,
+        "initial_coordinate_direction": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "receiver_position": [
+          1.0,
+          2.0,
+          3.0
+        ]
+      },
+      {
+        "emission": 2.484,
+        "reception": 2.496,
+        "Z": 1.0,
+        "logZ": 0.003,
+        "max_sampled_abs_null_norm": 0.0,
+        "initial_coordinate_direction": [
+          0.5773502691896257,
+          0.5773502691896257,
+          0.5773502691896257
+        ],
+        "receiver_position": [
+          1.0,
+          2.0,
+          3.0
+        ]
+      }
+    ],
+    "oblique_a0_p2_r1_n24_half": [
+      {
+        "emission": 2.484,
+        "reception": 2.496,
+        "Z": 1.0,
+        "logZ": -0.01,
+        "max_sampled_abs_null_norm": 0.0,
+        "initial_coordinate_direction": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "receiver_position": [
+          1.0,
+          2.0,
+          3.0
+        ]
+      },
+      {
+        "emission": 2.484,
+        "reception": 2.496,
+        "Z": 1.0,
+        "logZ": 0.02,
+        "max_sampled_abs_null_norm": 0.0,
+        "initial_coordinate_direction": [
+          0.0,
+          1.0,
+          0.0
+        ],
+        "receiver_position": [
+          1.0,
+          2.0,
+          3.0
+        ]
+      },
+      {
+        "emission": 2.484,
+        "reception": 2.496,
+        "Z": 1.0,
+        "logZ": 0.0,
+        "max_sampled_abs_null_norm": 0.0,
+        "initial_coordinate_direction": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "receiver_position": [
+          1.0,
+          2.0,
+          3.0
+        ]
+      },
+      {
+        "emission": 2.484,
+        "reception": 2.496,
+        "Z": 1.0,
+        "logZ": 0.003,
+        "max_sampled_abs_null_norm": 0.0,
+        "initial_coordinate_direction": [
+          0.5773502691896257,
+          0.5773502691896257,
+          0.5773502691896257
+        ],
+        "receiver_position": [
+          1.0,
+          2.0,
+          3.0
+        ]
+      }
+    ],
+    "oblique_a0_p2_r2_n24_half": [
+      {
+        "emission": 2.484,
+        "reception": 2.496,
+        "Z": 1.0,
+        "logZ": -0.01,
+        "max_sampled_abs_null_norm": 0.0,
+        "initial_coordinate_direction": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "receiver_position": [
+          1.0,
+          2.0,
+          3.0
+        ]
+      },
+      {
+        "emission": 2.484,
+        "reception": 2.496,
+        "Z": 1.0,
+        "logZ": 0.02,
+        "max_sampled_abs_null_norm": 0.0,
+        "initial_coordinate_direction": [
+          0.0,
+          1.0,
+          0.0
+        ],
+        "receiver_position": [
+          1.0,
+          2.0,
+          3.0
+        ]
+      },
+      {
+        "emission": 2.484,
+        "reception": 2.496,
+        "Z": 1.0,
+        "logZ": 0.0,
+        "max_sampled_abs_null_norm": 0.0,
+        "initial_coordinate_direction": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "receiver_position": [
+          1.0,
+          2.0,
+          3.0
+        ]
+      },
+      {
+        "emission": 2.484,
+        "reception": 2.496,
+        "Z": 1.0,
+        "logZ": 0.003,
+        "max_sampled_abs_null_norm": 0.0,
+        "initial_coordinate_direction": [
+          0.5773502691896257,
+          0.5773502691896257,
+          0.5773502691896257
+        ],
+        "receiver_position": [
+          1.0,
+          2.0,
+          3.0
+        ]
+      }
+    ],
+    "oblique_a0_p3_r0_n24_half": [
+      {
+        "emission": 2.484,
+        "reception": 2.496,
+        "Z": 1.0,
+        "logZ": -0.01,
+        "max_sampled_abs_null_norm": 0.0,
+        "initial_coordinate_direction": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "receiver_position": [
+          1.0,
+          2.0,
+          3.0
+        ]
+      },
+      {
+        "emission": 2.484,
+        "reception": 2.496,
+        "Z": 1.0,
+        "logZ": 0.02,
+        "max_sampled_abs_null_norm": 0.0,
+        "initial_coordinate_direction": [
+          0.0,
+          1.0,
+          0.0
+        ],
+        "receiver_position": [
+          1.0,
+          2.0,
+          3.0
+        ]
+      },
+      {
+        "emission": 2.484,
+        "reception": 2.496,
+        "Z": 1.0,
+        "logZ": 0.0,
+        "max_sampled_abs_null_norm": 0.0,
+        "initial_coordinate_direction": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "receiver_position": [
+          1.0,
+          2.0,
+          3.0
+        ]
+      },
+      {
+        "emission": 2.484,
+        "reception": 2.496,
+        "Z": 1.0,
+        "logZ": 0.003,
+        "max_sampled_abs_null_norm": 0.0,
+        "initial_coordinate_direction": [
+          0.5773502691896257,
+          0.5773502691896257,
+          0.5773502691896257
+        ],
+        "receiver_position": [
+          1.0,
+          2.0,
+          3.0
+        ]
+      }
+    ],
+    "oblique_a0_p3_r1_n24_half": [
+      {
+        "emission": 2.484,
+        "reception": 2.496,
+        "Z": 1.0,
+        "logZ": -0.01,
+        "max_sampled_abs_null_norm": 0.0,
+        "initial_coordinate_direction": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "receiver_position": [
+          1.0,
+          2.0,
+          3.0
+        ]
+      },
+      {
+        "emission": 2.484,
+        "reception": 2.496,
+        "Z": 1.0,
+        "logZ": 0.02,
+        "max_sampled_abs_null_norm": 0.0,
+        "initial_coordinate_direction": [
+          0.0,
+          1.0,
+          0.0
+        ],
+        "receiver_position": [
+          1.0,
+          2.0,
+          3.0
+        ]
+      },
+      {
+        "emission": 2.484,
+        "reception": 2.496,
+        "Z": 1.0,
+        "logZ": 0.0,
+        "max_sampled_abs_null_norm": 0.0,
+        "initial_coordinate_direction": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "receiver_position": [
+          1.0,
+          2.0,
+          3.0
+        ]
+      },
+      {
+        "emission": 2.484,
+        "reception": 2.496,
+        "Z": 1.0,
+        "logZ": 0.003,
+        "max_sampled_abs_null_norm": 0.0,
+        "initial_coordinate_direction": [
+          0.5773502691896257,
+          0.5773502691896257,
+          0.5773502691896257
+        ],
+        "receiver_position": [
+          1.0,
+          2.0,
+          3.0
+        ]
+      }
+    ],
+    "oblique_a0_p3_r2_n24_half": [
+      {
+        "emission": 2.484,
+        "reception": 2.496,
+        "Z": 1.0,
+        "logZ": -0.01,
+        "max_sampled_abs_null_norm": 0.0,
+        "initial_coordinate_direction": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "receiver_position": [
+          1.0,
+          2.0,
+          3.0
+        ]
+      },
+      {
+        "emission": 2.484,
+        "reception": 2.496,
+        "Z": 1.0,
+        "logZ": 0.02,
+        "max_sampled_abs_null_norm": 0.0,
+        "initial_coordinate_direction": [
+          0.0,
+          1.0,
+          0.0
+        ],
+        "receiver_position": [
+          1.0,
+          2.0,
+          3.0
+        ]
+      },
+      {
+        "emission": 2.484,
+        "reception": 2.496,
+        "Z": 1.0,
+        "logZ": 0.0,
+        "max_sampled_abs_null_norm": 0.0,
+        "initial_coordinate_direction": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "receiver_position": [
+          1.0,
+          2.0,
+          3.0
+        ]
+      },
+      {
+        "emission": 2.484,
+        "reception": 2.496,
+        "Z": 1.0,
+        "logZ": 0.003,
+        "max_sampled_abs_null_norm": 0.0,
+        "initial_coordinate_direction": [
+          0.5773502691896257,
+          0.5773502691896257,
+          0.5773502691896257
+        ],
+        "receiver_position": [
+          1.0,
+          2.0,
+          3.0
+        ]
+      }
+    ],
+    "oblique_a1_p3_r1_n24_half": [
+      {
+        "emission": 2.484,
+        "reception": 2.496,
+        "Z": 1.0,
+        "logZ": -0.01,
+        "max_sampled_abs_null_norm": 0.0,
+        "initial_coordinate_direction": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "receiver_position": [
+          1.0,
+          2.0,
+          3.0
+        ]
+      },
+      {
+        "emission": 2.484,
+        "reception": 2.496,
+        "Z": 1.0,
+        "logZ": 0.02,
+        "max_sampled_abs_null_norm": 0.0,
+        "initial_coordinate_direction": [
+          0.0,
+          1.0,
+          0.0
+        ],
+        "receiver_position": [
+          1.0,
+          2.0,
+          3.0
+        ]
+      },
+      {
+        "emission": 2.484,
+        "reception": 2.496,
+        "Z": 1.0,
+        "logZ": 0.0,
+        "max_sampled_abs_null_norm": 0.0,
+        "initial_coordinate_direction": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "receiver_position": [
+          1.0,
+          2.0,
+          3.0
+        ]
+      },
+      {
+        "emission": 2.484,
+        "reception": 2.496,
+        "Z": 1.0,
+        "logZ": 0.003,
+        "max_sampled_abs_null_norm": 0.0,
+        "initial_coordinate_direction": [
+          0.5773502691896257,
+          0.5773502691896257,
+          0.5773502691896257
+        ],
+        "receiver_position": [
+          1.0,
+          2.0,
+          3.0
+        ]
+      }
+    ],
+    "oblique_a2_p3_r0_n24_half": [
+      {
+        "emission": 2.484,
+        "reception": 2.496,
+        "Z": 1.0,
+        "logZ": -0.01,
+        "max_sampled_abs_null_norm": 0.0,
+        "initial_coordinate_direction": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "receiver_position": [
+          1.0,
+          2.0,
+          3.0
+        ]
+      },
+      {
+        "emission": 2.484,
+        "reception": 2.496,
+        "Z": 1.0,
+        "logZ": 0.02,
+        "max_sampled_abs_null_norm": 0.0,
+        "initial_coordinate_direction": [
+          0.0,
+          1.0,
+          0.0
+        ],
+        "receiver_position": [
+          1.0,
+          2.0,
+          3.0
+        ]
+      },
+      {
+        "emission": 2.484,
+        "reception": 2.496,
+        "Z": 1.0,
+        "logZ": 0.0,
+        "max_sampled_abs_null_norm": 0.0,
+        "initial_coordinate_direction": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "receiver_position": [
+          1.0,
+          2.0,
+          3.0
+        ]
+      },
+      {
+        "emission": 2.484,
+        "reception": 2.496,
+        "Z": 1.0,
+        "logZ": 0.003,
+        "max_sampled_abs_null_norm": 0.0,
+        "initial_coordinate_direction": [
+          0.5773502691896257,
+          0.5773502691896257,
+          0.5773502691896257
+        ],
+        "receiver_position": [
+          1.0,
+          2.0,
+          3.0
+        ]
+      }
+    ],
+    "oblique_a3_p2_r2_n24_half": [
+      {
+        "emission": 2.484,
+        "reception": 2.496,
+        "Z": 1.0,
+        "logZ": -0.01,
+        "max_sampled_abs_null_norm": 0.0,
+        "initial_coordinate_direction": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "receiver_position": [
+          1.0,
+          2.0,
+          3.0
+        ]
+      },
+      {
+        "emission": 2.484,
+        "reception": 2.496,
+        "Z": 1.0,
+        "logZ": 0.02,
+        "max_sampled_abs_null_norm": 0.0,
+        "initial_coordinate_direction": [
+          0.0,
+          1.0,
+          0.0
+        ],
+        "receiver_position": [
+          1.0,
+          2.0,
+          3.0
+        ]
+      },
+      {
+        "emission": 2.484,
+        "reception": 2.496,
+        "Z": 1.0,
+        "logZ": 0.0,
+        "max_sampled_abs_null_norm": 0.0,
+        "initial_coordinate_direction": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "receiver_position": [
+          1.0,
+          2.0,
+          3.0
+        ]
+      },
+      {
+        "emission": 2.484,
+        "reception": 2.496,
+        "Z": 1.0,
+        "logZ": 0.003,
+        "max_sampled_abs_null_norm": 0.0,
+        "initial_coordinate_direction": [
+          0.5773502691896257,
+          0.5773502691896257,
+          0.5773502691896257
+        ],
+        "receiver_position": [
+          1.0,
+          2.0,
+          3.0
+        ]
+      }
+    ],
+    "oblique_a4_p2_r1_n24_half": [
+      {
+        "emission": 2.484,
+        "reception": 2.496,
+        "Z": 1.0,
+        "logZ": -0.01,
+        "max_sampled_abs_null_norm": 0.0,
+        "initial_coordinate_direction": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "receiver_position": [
+          1.0,
+          2.0,
+          3.0
+        ]
+      },
+      {
+        "emission": 2.484,
+        "reception": 2.496,
+        "Z": 1.0,
+        "logZ": 0.02,
+        "max_sampled_abs_null_norm": 0.0,
+        "initial_coordinate_direction": [
+          0.0,
+          1.0,
+          0.0
+        ],
+        "receiver_position": [
+          1.0,
+          2.0,
+          3.0
+        ]
+      },
+      {
+        "emission": 2.484,
+        "reception": 2.496,
+        "Z": 1.0,
+        "logZ": 0.0,
+        "max_sampled_abs_null_norm": 0.0,
+        "initial_coordinate_direction": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "receiver_position": [
+          1.0,
+          2.0,
+          3.0
+        ]
+      },
+      {
+        "emission": 2.484,
+        "reception": 2.496,
+        "Z": 1.0,
+        "logZ": 0.003,
+        "max_sampled_abs_null_norm": 0.0,
+        "initial_coordinate_direction": [
+          0.5773502691896257,
+          0.5773502691896257,
+          0.5773502691896257
+        ],
+        "receiver_position": [
+          1.0,
+          2.0,
+          3.0
+        ]
+      }
+    ],
+    "axial_a5_n24_half": [
+      {
+        "emission": 2.484,
+        "reception": 2.496,
+        "Z": 1.0,
+        "logZ": -0.01,
+        "max_sampled_abs_null_norm": 0.0,
+        "initial_coordinate_direction": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "receiver_position": [
+          1.0,
+          2.0,
+          3.0
+        ]
+      },
+      {
+        "emission": 2.484,
+        "reception": 2.496,
+        "Z": 1.0,
+        "logZ": 0.02,
+        "max_sampled_abs_null_norm": 0.0,
+        "initial_coordinate_direction": [
+          0.0,
+          1.0,
+          0.0
+        ],
+        "receiver_position": [
+          1.0,
+          2.0,
+          3.0
+        ]
+      },
+      {
+        "emission": 2.484,
+        "reception": 2.496,
+        "Z": 1.0,
+        "logZ": 0.0,
+        "max_sampled_abs_null_norm": 0.0,
+        "initial_coordinate_direction": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "receiver_position": [
+          1.0,
+          2.0,
+          3.0
+        ]
+      },
+      {
+        "emission": 2.484,
+        "reception": 2.496,
+        "Z": 1.0,
+        "logZ": 0.003,
+        "max_sampled_abs_null_norm": 0.0,
+        "initial_coordinate_direction": [
+          0.5773502691896257,
+          0.5773502691896257,
+          0.5773502691896257
+        ],
+        "receiver_position": [
+          1.0,
+          2.0,
+          3.0
+        ]
+      }
+    ],
+    "oblique_a5_p0_r0_n24_half": [
+      {
+        "emission": 2.484,
+        "reception": 2.496,
+        "Z": 1.0,
+        "logZ": -0.01,
+        "max_sampled_abs_null_norm": 0.0,
+        "initial_coordinate_direction": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "receiver_position": [
+          1.0,
+          2.0,
+          3.0
+        ]
+      },
+      {
+        "emission": 2.484,
+        "reception": 2.496,
+        "Z": 1.0,
+        "logZ": 0.02,
+        "max_sampled_abs_null_norm": 0.0,
+        "initial_coordinate_direction": [
+          0.0,
+          1.0,
+          0.0
+        ],
+        "receiver_position": [
+          1.0,
+          2.0,
+          3.0
+        ]
+      },
+      {
+        "emission": 2.484,
+        "reception": 2.496,
+        "Z": 1.0,
+        "logZ": 0.0,
+        "max_sampled_abs_null_norm": 0.0,
+        "initial_coordinate_direction": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "receiver_position": [
+          1.0,
+          2.0,
+          3.0
+        ]
+      },
+      {
+        "emission": 2.484,
+        "reception": 2.496,
+        "Z": 1.0,
+        "logZ": 0.003,
+        "max_sampled_abs_null_norm": 0.0,
+        "initial_coordinate_direction": [
+          0.5773502691896257,
+          0.5773502691896257,
+          0.5773502691896257
+        ],
+        "receiver_position": [
+          1.0,
+          2.0,
+          3.0
+        ]
+      }
+    ],
+    "oblique_a5_p0_r1_n24_half": [
+      {
+        "emission": 2.484,
+        "reception": 2.496,
+        "Z": 1.0,
+        "logZ": -0.01,
+        "max_sampled_abs_null_norm": 0.0,
+        "initial_coordinate_direction": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "receiver_position": [
+          1.0,
+          2.0,
+          3.0
+        ]
+      },
+      {
+        "emission": 2.484,
+        "reception": 2.496,
+        "Z": 1.0,
+        "logZ": 0.02,
+        "max_sampled_abs_null_norm": 0.0,
+        "initial_coordinate_direction": [
+          0.0,
+          1.0,
+          0.0
+        ],
+        "receiver_position": [
+          1.0,
+          2.0,
+          3.0
+        ]
+      },
+      {
+        "emission": 2.484,
+        "reception": 2.496,
+        "Z": 1.0,
+        "logZ": 0.0,
+        "max_sampled_abs_null_norm": 0.0,
+        "initial_coordinate_direction": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "receiver_position": [
+          1.0,
+          2.0,
+          3.0
+        ]
+      },
+      {
+        "emission": 2.484,
+        "reception": 2.496,
+        "Z": 1.0,
+        "logZ": 0.003,
+        "max_sampled_abs_null_norm": 0.0,
+        "initial_coordinate_direction": [
+          0.5773502691896257,
+          0.5773502691896257,
+          0.5773502691896257
+        ],
+        "receiver_position": [
+          1.0,
+          2.0,
+          3.0
+        ]
+      }
+    ],
+    "oblique_a5_p0_r2_n24_half": [
+      {
+        "emission": 2.484,
+        "reception": 2.496,
+        "Z": 1.0,
+        "logZ": -0.01,
+        "max_sampled_abs_null_norm": 0.0,
+        "initial_coordinate_direction": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "receiver_position": [
+          1.0,
+          2.0,
+          3.0
+        ]
+      },
+      {
+        "emission": 2.484,
+        "reception": 2.496,
+        "Z": 1.0,
+        "logZ": 0.02,
+        "max_sampled_abs_null_norm": 0.0,
+        "initial_coordinate_direction": [
+          0.0,
+          1.0,
+          0.0
+        ],
+        "receiver_position": [
+          1.0,
+          2.0,
+          3.0
+        ]
+      },
+      {
+        "emission": 2.484,
+        "reception": 2.496,
+        "Z": 1.0,
+        "logZ": 0.0,
+        "max_sampled_abs_null_norm": 0.0,
+        "initial_coordinate_direction": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "receiver_position": [
+          1.0,
+          2.0,
+          3.0
+        ]
+      },
+      {
+        "emission": 2.484,
+        "reception": 2.496,
+        "Z": 1.0,
+        "logZ": 0.003,
+        "max_sampled_abs_null_norm": 0.0,
+        "initial_coordinate_direction": [
+          0.5773502691896257,
+          0.5773502691896257,
+          0.5773502691896257
+        ],
+        "receiver_position": [
+          1.0,
+          2.0,
+          3.0
+        ]
+      }
+    ],
+    "oblique_a5_p1_r0_n24_half": [
+      {
+        "emission": 2.484,
+        "reception": 2.496,
+        "Z": 1.0,
+        "logZ": -0.01,
+        "max_sampled_abs_null_norm": 0.0,
+        "initial_coordinate_direction": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "receiver_position": [
+          1.0,
+          2.0,
+          3.0
+        ]
+      },
+      {
+        "emission": 2.484,
+        "reception": 2.496,
+        "Z": 1.0,
+        "logZ": 0.02,
+        "max_sampled_abs_null_norm": 0.0,
+        "initial_coordinate_direction": [
+          0.0,
+          1.0,
+          0.0
+        ],
+        "receiver_position": [
+          1.0,
+          2.0,
+          3.0
+        ]
+      },
+      {
+        "emission": 2.484,
+        "reception": 2.496,
+        "Z": 1.0,
+        "logZ": 0.0,
+        "max_sampled_abs_null_norm": 0.0,
+        "initial_coordinate_direction": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "receiver_position": [
+          1.0,
+          2.0,
+          3.0
+        ]
+      },
+      {
+        "emission": 2.484,
+        "reception": 2.496,
+        "Z": 1.0,
+        "logZ": 0.003,
+        "max_sampled_abs_null_norm": 0.0,
+        "initial_coordinate_direction": [
+          0.5773502691896257,
+          0.5773502691896257,
+          0.5773502691896257
+        ],
+        "receiver_position": [
+          1.0,
+          2.0,
+          3.0
+        ]
+      }
+    ],
+    "oblique_a5_p1_r1_n24_half": [
+      {
+        "emission": 2.484,
+        "reception": 2.496,
+        "Z": 1.0,
+        "logZ": -0.01,
+        "max_sampled_abs_null_norm": 0.0,
+        "initial_coordinate_direction": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "receiver_position": [
+          1.0,
+          2.0,
+          3.0
+        ]
+      },
+      {
+        "emission": 2.484,
+        "reception": 2.496,
+        "Z": 1.0,
+        "logZ": 0.02,
+        "max_sampled_abs_null_norm": 0.0,
+        "initial_coordinate_direction": [
+          0.0,
+          1.0,
+          0.0
+        ],
+        "receiver_position": [
+          1.0,
+          2.0,
+          3.0
+        ]
+      },
+      {
+        "emission": 2.484,
+        "reception": 2.496,
+        "Z": 1.0,
+        "logZ": 0.0,
+        "max_sampled_abs_null_norm": 0.0,
+        "initial_coordinate_direction": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "receiver_position": [
+          1.0,
+          2.0,
+          3.0
+        ]
+      },
+      {
+        "emission": 2.484,
+        "reception": 2.496,
+        "Z": 1.0,
+        "logZ": 0.003,
+        "max_sampled_abs_null_norm": 0.0,
+        "initial_coordinate_direction": [
+          0.5773502691896257,
+          0.5773502691896257,
+          0.5773502691896257
+        ],
+        "receiver_position": [
+          1.0,
+          2.0,
+          3.0
+        ]
+      }
+    ],
+    "oblique_a5_p1_r2_n24_half": [
+      {
+        "emission": 2.484,
+        "reception": 2.496,
+        "Z": 1.0,
+        "logZ": -0.01,
+        "max_sampled_abs_null_norm": 0.0,
+        "initial_coordinate_direction": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "receiver_position": [
+          1.0,
+          2.0,
+          3.0
+        ]
+      },
+      {
+        "emission": 2.484,
+        "reception": 2.496,
+        "Z": 1.0,
+        "logZ": 0.02,
+        "max_sampled_abs_null_norm": 0.0,
+        "initial_coordinate_direction": [
+          0.0,
+          1.0,
+          0.0
+        ],
+        "receiver_position": [
+          1.0,
+          2.0,
+          3.0
+        ]
+      },
+      {
+        "emission": 2.484,
+        "reception": 2.496,
+        "Z": 1.0,
+        "logZ": 0.0,
+        "max_sampled_abs_null_norm": 0.0,
+        "initial_coordinate_direction": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "receiver_position": [
+          1.0,
+          2.0,
+          3.0
+        ]
+      },
+      {
+        "emission": 2.484,
+        "reception": 2.496,
+        "Z": 1.0,
+        "logZ": 0.003,
+        "max_sampled_abs_null_norm": 0.0,
+        "initial_coordinate_direction": [
+          0.5773502691896257,
+          0.5773502691896257,
+          0.5773502691896257
+        ],
+        "receiver_position": [
+          1.0,
+          2.0,
+          3.0
+        ]
+      }
+    ],
+    "oblique_a5_p2_r0_n24_half": [
+      {
+        "emission": 2.484,
+        "reception": 2.496,
+        "Z": 1.0,
+        "logZ": -0.01,
+        "max_sampled_abs_null_norm": 0.0,
+        "initial_coordinate_direction": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "receiver_position": [
+          1.0,
+          2.0,
+          3.0
+        ]
+      },
+      {
+        "emission": 2.484,
+        "reception": 2.496,
+        "Z": 1.0,
+        "logZ": 0.02,
+        "max_sampled_abs_null_norm": 0.0,
+        "initial_coordinate_direction": [
+          0.0,
+          1.0,
+          0.0
+        ],
+        "receiver_position": [
+          1.0,
+          2.0,
+          3.0
+        ]
+      },
+      {
+        "emission": 2.484,
+        "reception": 2.496,
+        "Z": 1.0,
+        "logZ": 0.0,
+        "max_sampled_abs_null_norm": 0.0,
+        "initial_coordinate_direction": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "receiver_position": [
+          1.0,
+          2.0,
+          3.0
+        ]
+      },
+      {
+        "emission": 2.484,
+        "reception": 2.496,
+        "Z": 1.0,
+        "logZ": 0.003,
+        "max_sampled_abs_null_norm": 0.0,
+        "initial_coordinate_direction": [
+          0.5773502691896257,
+          0.5773502691896257,
+          0.5773502691896257
+        ],
+        "receiver_position": [
+          1.0,
+          2.0,
+          3.0
+        ]
+      }
+    ],
+    "oblique_a5_p2_r1_n24_half": [
+      {
+        "emission": 2.484,
+        "reception": 2.496,
+        "Z": 1.0,
+        "logZ": -0.01,
+        "max_sampled_abs_null_norm": 0.0,
+        "initial_coordinate_direction": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "receiver_position": [
+          1.0,
+          2.0,
+          3.0
+        ]
+      },
+      {
+        "emission": 2.484,
+        "reception": 2.496,
+        "Z": 1.0,
+        "logZ": 0.02,
+        "max_sampled_abs_null_norm": 0.0,
+        "initial_coordinate_direction": [
+          0.0,
+          1.0,
+          0.0
+        ],
+        "receiver_position": [
+          1.0,
+          2.0,
+          3.0
+        ]
+      },
+      {
+        "emission": 2.484,
+        "reception": 2.496,
+        "Z": 1.0,
+        "logZ": 0.0,
+        "max_sampled_abs_null_norm": 0.0,
+        "initial_coordinate_direction": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "receiver_position": [
+          1.0,
+          2.0,
+          3.0
+        ]
+      },
+      {
+        "emission": 2.484,
+        "reception": 2.496,
+        "Z": 1.0,
+        "logZ": 0.003,
+        "max_sampled_abs_null_norm": 0.0,
+        "initial_coordinate_direction": [
+          0.5773502691896257,
+          0.5773502691896257,
+          0.5773502691896257
+        ],
+        "receiver_position": [
+          1.0,
+          2.0,
+          3.0
+        ]
+      }
+    ],
+    "oblique_a5_p2_r2_n24_half": [
+      {
+        "emission": 2.484,
+        "reception": 2.496,
+        "Z": 1.0,
+        "logZ": -0.01,
+        "max_sampled_abs_null_norm": 0.0,
+        "initial_coordinate_direction": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "receiver_position": [
+          1.0,
+          2.0,
+          3.0
+        ]
+      },
+      {
+        "emission": 2.484,
+        "reception": 2.496,
+        "Z": 1.0,
+        "logZ": 0.02,
+        "max_sampled_abs_null_norm": 0.0,
+        "initial_coordinate_direction": [
+          0.0,
+          1.0,
+          0.0
+        ],
+        "receiver_position": [
+          1.0,
+          2.0,
+          3.0
+        ]
+      },
+      {
+        "emission": 2.484,
+        "reception": 2.496,
+        "Z": 1.0,
+        "logZ": 0.0,
+        "max_sampled_abs_null_norm": 0.0,
+        "initial_coordinate_direction": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "receiver_position": [
+          1.0,
+          2.0,
+          3.0
+        ]
+      },
+      {
+        "emission": 2.484,
+        "reception": 2.496,
+        "Z": 1.0,
+        "logZ": 0.003,
+        "max_sampled_abs_null_norm": 0.0,
+        "initial_coordinate_direction": [
+          0.5773502691896257,
+          0.5773502691896257,
+          0.5773502691896257
+        ],
+        "receiver_position": [
+          1.0,
+          2.0,
+          3.0
+        ]
+      }
+    ],
+    "oblique_a5_p3_r0_n24_half": [
+      {
+        "emission": 2.484,
+        "reception": 2.496,
+        "Z": 1.0,
+        "logZ": -0.01,
+        "max_sampled_abs_null_norm": 0.0,
+        "initial_coordinate_direction": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "receiver_position": [
+          1.0,
+          2.0,
+          3.0
+        ]
+      },
+      {
+        "emission": 2.484,
+        "reception": 2.496,
+        "Z": 1.0,
+        "logZ": 0.02,
+        "max_sampled_abs_null_norm": 0.0,
+        "initial_coordinate_direction": [
+          0.0,
+          1.0,
+          0.0
+        ],
+        "receiver_position": [
+          1.0,
+          2.0,
+          3.0
+        ]
+      },
+      {
+        "emission": 2.484,
+        "reception": 2.496,
+        "Z": 1.0,
+        "logZ": 0.0,
+        "max_sampled_abs_null_norm": 0.0,
+        "initial_coordinate_direction": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "receiver_position": [
+          1.0,
+          2.0,
+          3.0
+        ]
+      },
+      {
+        "emission": 2.484,
+        "reception": 2.496,
+        "Z": 1.0,
+        "logZ": 0.003,
+        "max_sampled_abs_null_norm": 0.0,
+        "initial_coordinate_direction": [
+          0.5773502691896257,
+          0.5773502691896257,
+          0.5773502691896257
+        ],
+        "receiver_position": [
+          1.0,
+          2.0,
+          3.0
+        ]
+      }
+    ],
+    "oblique_a5_p3_r1_n24_half": [
+      {
+        "emission": 2.484,
+        "reception": 2.496,
+        "Z": 1.0,
+        "logZ": -0.01,
+        "max_sampled_abs_null_norm": 0.0,
+        "initial_coordinate_direction": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "receiver_position": [
+          1.0,
+          2.0,
+          3.0
+        ]
+      },
+      {
+        "emission": 2.484,
+        "reception": 2.496,
+        "Z": 1.0,
+        "logZ": 0.02,
+        "max_sampled_abs_null_norm": 0.0,
+        "initial_coordinate_direction": [
+          0.0,
+          1.0,
+          0.0
+        ],
+        "receiver_position": [
+          1.0,
+          2.0,
+          3.0
+        ]
+      },
+      {
+        "emission": 2.484,
+        "reception": 2.496,
+        "Z": 1.0,
+        "logZ": 0.0,
+        "max_sampled_abs_null_norm": 0.0,
+        "initial_coordinate_direction": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "receiver_position": [
+          1.0,
+          2.0,
+          3.0
+        ]
+      },
+      {
+        "emission": 2.484,
+        "reception": 2.496,
+        "Z": 1.0,
+        "logZ": 0.003,
+        "max_sampled_abs_null_norm": 0.0,
+        "initial_coordinate_direction": [
+          0.5773502691896257,
+          0.5773502691896257,
+          0.5773502691896257
+        ],
+        "receiver_position": [
+          1.0,
+          2.0,
+          3.0
+        ]
+      }
+    ],
+    "oblique_a5_p3_r2_n24_half": [
+      {
+        "emission": 2.484,
+        "reception": 2.496,
+        "Z": 1.0,
+        "logZ": -0.01,
+        "max_sampled_abs_null_norm": 0.0,
+        "initial_coordinate_direction": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "receiver_position": [
+          1.0,
+          2.0,
+          3.0
+        ]
+      },
+      {
+        "emission": 2.484,
+        "reception": 2.496,
+        "Z": 1.0,
+        "logZ": 0.02,
+        "max_sampled_abs_null_norm": 0.0,
+        "initial_coordinate_direction": [
+          0.0,
+          1.0,
+          0.0
+        ],
+        "receiver_position": [
+          1.0,
+          2.0,
+          3.0
+        ]
+      },
+      {
+        "emission": 2.484,
+        "reception": 2.496,
+        "Z": 1.0,
+        "logZ": 0.0,
+        "max_sampled_abs_null_norm": 0.0,
+        "initial_coordinate_direction": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "receiver_position": [
+          1.0,
+          2.0,
+          3.0
+        ]
+      },
+      {
+        "emission": 2.484,
+        "reception": 2.496,
+        "Z": 1.0,
+        "logZ": 0.003,
+        "max_sampled_abs_null_norm": 0.0,
+        "initial_coordinate_direction": [
+          0.5773502691896257,
+          0.5773502691896257,
+          0.5773502691896257
+        ],
+        "receiver_position": [
+          1.0,
+          2.0,
+          3.0
+        ]
+      }
+    ]
+  },
+  "history_sha256": {
+    "udt_time_live_production_survey_2026-10-01/production_analysis/axial_a0_n24_half/histories/axial_a0_n24_half_window2.npz": "a592e5461193a3dbc9c7fcf1c65f86c1da18ab633133a878570cb681142585bc",
+    "udt_time_live_production_survey_2026-10-01/production_analysis/oblique_a0_p0_r0_n24_half/histories/oblique_a0_p0_r0_n24_half_window2.npz": "6525a8f62e25a8b998108dbbaf860e4d4d918f119f70e0e5020f51ffb3e822b4",
+    "udt_time_live_production_survey_2026-10-01/production_analysis/oblique_a0_p0_r1_n24_half/histories/oblique_a0_p0_r1_n24_half_window2.npz": "85e0c9a071bdb6aaef05c86d35e6ff5ad14d07463f2e8613233475f76afee155",
+    "udt_time_live_production_survey_2026-10-01/production_analysis/oblique_a0_p0_r2_n24_half/histories/oblique_a0_p0_r2_n24_half_window2.npz": "fb27b9d4a6a6d47bb554d9d6866b9a3402a494e8fd2da004386e001b3f810e8f",
+    "udt_time_live_production_survey_2026-10-01/production_analysis/oblique_a0_p1_r0_n24_half/histories/oblique_a0_p1_r0_n24_half_window2.npz": "9e7dbacc5d910271fe97b4cac9f2e5cc8648a936ba09e5371d3d609839f6b6f3",
+    "udt_time_live_production_survey_2026-10-01/production_analysis/oblique_a0_p1_r1_n24_half/histories/oblique_a0_p1_r1_n24_half_window2.npz": "a76e6b5d50c1e65c6ffdb606a0b3e4905602f7ba19916a222e7f1c7f8f4d6312",
+    "udt_time_live_production_survey_2026-10-01/production_analysis/oblique_a0_p1_r2_n24_half/histories/oblique_a0_p1_r2_n24_half_window2.npz": "41691016d9e480624370439b4faae6d233f9a734f49d8cf2d3e7b2f3576f1781",
+    "udt_time_live_production_survey_2026-10-01/production_analysis/oblique_a0_p2_r0_n24_half/histories/oblique_a0_p2_r0_n24_half_window2.npz": "a331f2e48615a3e2f856a24361cba073665d11d77c9d749a90f2e6bc55a1a806",
+    "udt_time_live_production_survey_2026-10-01/production_analysis/oblique_a0_p2_r1_n24_half/histories/oblique_a0_p2_r1_n24_half_window2.npz": "14ee4ce3ee6a58b61334ca852f91287897c9105ba523cae1cf9ad8509b827a09",
+    "udt_time_live_production_survey_2026-10-01/production_analysis/oblique_a0_p2_r2_n24_half/histories/oblique_a0_p2_r2_n24_half_window2.npz": "412254fc724bf0e50ccd26849b400814aa3fc797413a9d01ae5a8fa61eaf109d",
+    "udt_time_live_production_survey_2026-10-01/production_analysis/oblique_a0_p3_r0_n24_half/histories/oblique_a0_p3_r0_n24_half_window2.npz": "521ae1097a9cf2d9d39d6fb3a8829192ce4ef60b3bb4d7ebec26384dd54401b3",
+    "udt_time_live_production_survey_2026-10-01/production_analysis/oblique_a0_p3_r1_n24_half/histories/oblique_a0_p3_r1_n24_half_window2.npz": "1cbc3366fcca69f821ec6d8824fb8e1fed3bff770593a8d0b62cdda24573fdd9",
+    "udt_time_live_production_survey_2026-10-01/production_analysis/oblique_a0_p3_r2_n24_half/histories/oblique_a0_p3_r2_n24_half_window2.npz": "ae0f18bd1e684ec7b7f645fb16fb22b49119944424c0147c95a7963daa788ce6",
+    "udt_time_live_production_survey_2026-10-01/production_analysis/oblique_a1_p3_r1_n24_half/histories/oblique_a1_p3_r1_n24_half_window2.npz": "b7f2e162d32d4a5e3d74637e9b991ccd3ba077e2e131b765f566d7e1bac133a3",
+    "udt_time_live_production_survey_2026-10-01/production_analysis/oblique_a2_p3_r0_n24_half/histories/oblique_a2_p3_r0_n24_half_window2.npz": "e333b936c9687b3eb0020d58804ee9f6d5afc15fb5d38c0133719a2cbdd207bb",
+    "udt_time_live_production_survey_2026-10-01/production_analysis/oblique_a3_p2_r2_n24_half/histories/oblique_a3_p2_r2_n24_half_window2.npz": "a80aa429b26adc3f956cc9c26bb82b1500430ae66da6eda4f974b4d585440144",
+    "udt_time_live_production_survey_2026-10-01/production_analysis/oblique_a4_p2_r1_n24_half/histories/oblique_a4_p2_r1_n24_half_window2.npz": "7318de624ae8120aade5f349c14a1c8000cb624b3efb792cc473750e2174d15c",
+    "udt_time_live_production_survey_2026-10-01/production_analysis/axial_a5_n24_half/histories/axial_a5_n24_half_window2.npz": "1f3abfcb55bfdd772ddc591503fe5ac206787f0af534d2d5eb92eace03963fcd",
+    "udt_time_live_production_survey_2026-10-01/production_analysis/oblique_a5_p0_r0_n24_half/histories/oblique_a5_p0_r0_n24_half_window2.npz": "5bbcc1ae43cda39c3b87bbd90d3ae0a4a93db183553405b14e9edf603081c444",
+    "udt_time_live_production_survey_2026-10-01/production_analysis/oblique_a5_p0_r1_n24_half/histories/oblique_a5_p0_r1_n24_half_window2.npz": "fb838c641db058e4f7d66dc4e3bc2b74b13546a7161c95d5ded1c28f9437f56e",
+    "udt_time_live_production_survey_2026-10-01/production_analysis/oblique_a5_p0_r2_n24_half/histories/oblique_a5_p0_r2_n24_half_window2.npz": "2af4934f3532651e542c6be5683a3c33ede9dae2f7c39f65f4702fcb551a69a6",
+    "udt_time_live_production_survey_2026-10-01/production_analysis/oblique_a5_p1_r0_n24_half/histories/oblique_a5_p1_r0_n24_half_window2.npz": "3057f6a414feaa05612f09567602125990bad7e6fd92fd32e981a2f72368a17e",
+    "udt_time_live_production_survey_2026-10-01/production_analysis/oblique_a5_p1_r1_n24_half/histories/oblique_a5_p1_r1_n24_half_window2.npz": "fefbe29cdc70ba04e3e798812cefb1d5e39717584f767944cb96da0c1fc5d933",
+    "udt_time_live_production_survey_2026-10-01/production_analysis/oblique_a5_p1_r2_n24_half/histories/oblique_a5_p1_r2_n24_half_window2.npz": "4fe7ede86228f7f45f39154731f56f045e3f7e52e73df14f17c359cc0c247da7",
+    "udt_time_live_production_survey_2026-10-01/production_analysis/oblique_a5_p2_r0_n24_half/histories/oblique_a5_p2_r0_n24_half_window2.npz": "4aa323dba7b879c98ced01f7fbfdb65661fe223513bd77ce4e5b5d19277d26a9",
+    "udt_time_live_production_survey_2026-10-01/production_analysis/oblique_a5_p2_r1_n24_half/histories/oblique_a5_p2_r1_n24_half_window2.npz": "c017f228ac6a28662809d5f97b942a2f7424b0911314de236eabe26b2854f438",
+    "udt_time_live_production_survey_2026-10-01/production_analysis/oblique_a5_p2_r2_n24_half/histories/oblique_a5_p2_r2_n24_half_window2.npz": "65dcb8f03bd1e54a34c928bf7930f3cc8b06d5cd7792313852bc63d43ed1b6e9",
+    "udt_time_live_production_survey_2026-10-01/production_analysis/oblique_a5_p3_r0_n24_half/histories/oblique_a5_p3_r0_n24_half_window2.npz": "ab837918d2ced2c55cd8c7dd5ab9ca3764a99a1af2168169345909a0199353df",
+    "udt_time_live_production_survey_2026-10-01/production_analysis/oblique_a5_p3_r1_n24_half/histories/oblique_a5_p3_r1_n24_half_window2.npz": "24deda33e80764725a5833976f596aface47434d91a1c96348ac3d0273280e71",
+    "udt_time_live_production_survey_2026-10-01/production_analysis/oblique_a5_p3_r2_n24_half/histories/oblique_a5_p3_r2_n24_half_window2.npz": "0c51fdef66fc63388122feaee76ec9b8dd03e60c6178cbd244bed5b6673cb7b2"
+  }
+}

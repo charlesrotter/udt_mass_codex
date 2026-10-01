@@ -1,0 +1,28 @@
+{
+  "wall_seconds": null,
+  "output_bytes": true,
+  "storage_roots": [
+    "/home/udt-admin/udt_mass_codex/udt_time_live_production_survey_2026-10-01/review/runtime/guard_fixtures/bool_output/runtime",
+    "/home/udt-admin/udt_mass_codex/udt_time_live_production_survey_2026-10-01/runs/reviewer_virtual_bool_output_one",
+    "/home/udt-admin/udt_mass_codex/udt_time_live_production_survey_2026-10-01/runs/reviewer_virtual_bool_output_two"
+  ],
+  "source_sha256": {
+    "/home/udt-admin/udt_mass_codex/udt_time_live_production_survey_2026-10-01/supervise.py": "bbe53926f4f6bd876e3a8df8c3b590659846069569941c5b2f80da7f0f43d88d",
+    "/home/udt-admin/udt_mass_codex/udt_time_live_production_survey_2026-10-01/production_worker.py": "ad06a64a7aa6ccaac4956d0f6295fef3011636c05f7cf9b610d65960a15b1cd0",
+    "/home/udt-admin/udt_mass_codex/udt_time_live_production_survey_2026-10-01/initial_family.py": "e2df4385dfd823071d126d81f635807aee18962f7149cbba554db1787d0485c7",
+    "/home/udt-admin/udt_mass_codex/udt_time_live_production_preparation_2026-10-01/initial_family.py": "8b4da8fa6655b5576a8fba019f45ba83af5457bf6e8a1b429a7eaf0fc5f43fe9",
+    "/home/udt-admin/udt_mass_codex/udt_three_spatial_smoke_2026-10-01/initial_data.py": "06585ca811f8c402b02144f1ca60c5e1fc7d661ce0da93524c0645b9919c4c3f",
+    "/home/udt-admin/udt_mass_codex/udt_three_spatial_smoke_2026-10-01/evolution.py": "cc36f7006d80b9942ba521656b43bee7761ba12572e28cdf24e4e87d86fb909c",
+    "/home/udt-admin/udt_mass_codex/udt_three_spatial_smoke_2026-10-01/constraints.py": "364cbb0c84d8b69cdcba40e45e5d3b4b8b748fcc83f2b1cf22d9148e528c1abe",
+    "/home/udt-admin/udt_mass_codex/udt_time_live_smoke_gate_2026-09-30/checkpoint_io.py": "d689de8dd525df67289862b701226dc857ec50de4a34477c32db7fdc8c2008e4",
+    "/home/udt-admin/udt_mass_codex/udt_time_live_production_survey_2026-10-01/initial/runtime_review/bool_output.npz": "527b2da7c4de6de31fe2bdb25263b95c7ccd42f09c5d805982c0bfc22aefaf41"
+  },
+  "cases": [
+    {
+      "id": "one",
+      "spec": "/home/udt-admin/udt_mass_codex/udt_time_live_production_survey_2026-10-01/review/runtime/guard_fixtures/bool_output/one.json",
+      "spec_sha256": "fc627fccd249356add0c4b8457d88ad94fe775fa5bf63ee817f93c39504e9d7b",
+      "run": "/home/udt-admin/udt_mass_codex/udt_time_live_production_survey_2026-10-01/runs/reviewer_virtual_bool_output_one"
+    }
+  ]
+}

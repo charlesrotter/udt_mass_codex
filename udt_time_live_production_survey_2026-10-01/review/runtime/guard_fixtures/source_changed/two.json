@@ -1,0 +1,22 @@
+{
+  "n": 8,
+  "initial": "udt_time_live_production_survey_2026-10-01/initial/runtime_review/source_changed.npz",
+  "period": 6.283185307179586,
+  "dt_min": 0.0003125,
+  "end_tick": 320,
+  "max_step_ticks": 16,
+  "cfl": 0.25,
+  "check_ticks": 16,
+  "checkpoint_ticks": 80,
+  "windows": [
+    {
+      "center": 160,
+      "stride": 8,
+      "count": 9
+    }
+  ],
+  "wall_seconds": null,
+  "gpu_bytes": 8589934592,
+  "output_bytes": 16777216,
+  "constraint_limit": 2e-05
+}

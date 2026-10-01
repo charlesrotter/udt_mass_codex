@@ -1,7 +1,7 @@
 # LIVE — operational status
 
 <!-- STARTUP_CURRENT_BEGIN -->
-## CURRENT STATE — TPP1 production-preparation return after TDS1/ SMK1/NGD1/TRI1/PRI1/CCR1/CES1/PCW1/GCA1/LKT1/SGE1/CDR1, 2026-10-01
+## CURRENT STATE — TPS1 authorized survey launched after TDS1/ SMK1/NGD1/TRI1/PRI1/CCR1/CES1/PCW1/GCA1/LKT1/SGE1/CDR1, 2026-10-01
 
 Work on `grok`; independently verify HEAD, synchronization and dirt.
 Charles authorized documenting and executing the staged numerical discovery
@@ -17,9 +17,15 @@ are under `udt_three_spatial_smoke_2026-10-01/`; the central argument is R12T/R1
 Charles's next “proceed” authorized TPP1 production preparation. Its fixed
 WORK_ORDER.md, WORK_RECORD.md and PRODUCTION_DISPATCH.md are under
 `udt_time_live_production_preparation_2026-10-01/`; central argument remains R12T/R18.
-Longer histories, broader seeds, measured load and actual queue controls have
-been tested with explicit review limits. No multi-hour run has started. The
-preparation work order returns here before launching the concrete next tranche.
+Longer histories, broader seeds, measured load and actual queue controls were
+tested with explicit review limits. Charles then said: “Proceed, and don't put
+a timeout on it in case it runs long.” TPS1 implements that authority in
+`udt_time_live_production_survey_2026-10-01/WORK_ORDER.md`: the finite234-run
+scope continues without queue, worker, wrapper or CPU elapsed-time cutoffs.
+All156 initial states and the first-three-case gate passed. Continuation was
+launched; its fixed launch record is under that package's `launch_evidence/`.
+Use its `status.py`, host PID/start identity and actual receipts for current
+progress. A saved launch record alone is not a current liveness claim.
 
 ### Honest claim
 
@@ -52,16 +58,19 @@ Protected: do not inspect, hash, stage, modify, mine or cite payloads without di
 
 ### Next gate
 
-Stop for lay discussion after the bounded TPP1 return. The concrete next scope
-is PRODUCTION_DISPATCH.md:78datasets/234runs, up to6hours/64GiB, one GPU,
-first-three-case original-equation/output verification before continuation,
-independent review and bounded same-premise repair. No multi-hour run has started.
-The larger exploration remains the objective;24–48hour extensions require their
-own reviewed dispatch after this tranche. The current preparation explicitly
-returns before launch. Its actual reviews/check receipts and Git history own
-completion/banking. A Ric=0 comparison remains conditional and a native-selection
-claim still needs an evaluable native discriminant or explicit unadopted connection.
-Existing pauses, scientific grades, protected work and CANON remain unchanged.
-No full-solution-space or selected-geometry claim is banked.
+Continue the already authorized finite234-run survey and its checks; do not
+launch a duplicate GPU worker. Follow TPS1 RUN_INSTRUCTIONS.md for status,
+manual stop, receipt-based resume and the automatic candidate-check companion.
+There is no elapsed-time cutoff. One GPU, float64,8GiB allocated GPU memory,
+64GiB output and numerical/source/manual-stop controls remain. A companion's
+machine PASS is not actual adversarial review or scientific acceptance.
+Next return is a checked and separately reviewed conditional atlas, a narrowed
+result, or an unresolved diagnostic within the existing work order. Stop for lay discussion
+at that bounded return or a real scope/premise/resource blocker. No extension
+of the finite parameter grid is authorized by removing its time cutoff.
+Raw production fields remain local and ignored; compact launch/gate evidence
+and sources are banked. Full-survey outcomes remain unreviewed at this launch
+checkpoint. Existing pauses, scientific grades, protected work and CANON remain
+unchanged. A Ric=0 comparison still does not select UDT's native geometry.
 
 <!-- STARTUP_CURRENT_END -->

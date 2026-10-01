@@ -1,0 +1,12 @@
+{
+  "case": "case_c",
+  "command": [
+    "/usr/bin/python3",
+    "/home/udt-admin/udt_mass_codex/udt_time_live_production_survey_2026-10-01/production_worker.py",
+    "/home/udt-admin/udt_mass_codex/udt_time_live_production_survey_2026-10-01/specs/engineering.json",
+    "/home/udt-admin/udt_mass_codex/udt_time_live_production_survey_2026-10-01/runs/supervisor_smoke/case_c",
+    "--resume"
+  ],
+  "manifest_sha256": "8731b9feda4e4c491f1c3aa53188c3a03b91f23db8a251115dd14f3f181aa768",
+  "wall_seconds_limit": null
+}

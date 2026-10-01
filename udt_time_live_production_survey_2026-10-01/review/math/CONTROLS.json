@@ -1,0 +1,158 @@
+{
+  "adm": {
+    "analytic_conformal_R_error": 2.892130979148533e-14,
+    "analytic_isotropic_K_momentum_error": 5.967448757360216e-16,
+    "constant_seed": {
+      "dtype": "float64",
+      "gram_rank_scope": "excludes constant-coordinate translation symmetry only; not arbitrary Killing fields",
+      "hamiltonian_abs_max": 0.0,
+      "momentum_abs_max_by_component": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scalar_curvature_abs_max": 0.0,
+      "shape": [
+        16,
+        16,
+        16,
+        3,
+        3
+      ],
+      "spatial_derivative_gram_eigenvalues": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "spatial_derivative_gram_rank": 0,
+      "spatial_metric_eigenvalue_minmax": [
+        1.0,
+        1.0
+      ],
+      "trace_K_minmax": [
+        -1.0,
+        -1.0
+      ]
+    },
+    "deliberate_invalid_K_caught": {
+      "dtype": "float64",
+      "gram_rank_scope": "excludes constant-coordinate translation symmetry only; not arbitrary Killing fields",
+      "hamiltonian_abs_max": 0.026666666666666727,
+      "momentum_abs_max_by_component": [
+        0.0,
+        0.009999999999999815,
+        0.0
+      ],
+      "scalar_curvature_abs_max": 0.0,
+      "shape": [
+        16,
+        16,
+        16,
+        3,
+        3
+      ],
+      "spatial_derivative_gram_eigenvalues": [
+        0.0,
+        0.0,
+        2.777777777777766e-06
+      ],
+      "spatial_derivative_gram_rank": 1,
+      "spatial_metric_eigenvalue_minmax": [
+        1.0,
+        1.0
+      ],
+      "trace_K_minmax": [
+        -1.01,
+        -0.99
+      ]
+    },
+    "numpy_version": "2.2.6",
+    "scope": "checker self-controls, not producer validation",
+    "status": "PASS"
+  },
+  "attribution": "Reuses fixed independently authored TDS1 NumPy Ricci/ADM and TPP1 center-stencil/Lie-shift methods. Shared fields and Fourier mathematics, no independent general-data time integrator.",
+  "method_sources": {
+    "udt_three_spatial_smoke_2026-10-01/review/data/check_constraints.py": "f10e6e0b512a6f2078e71cb32b8972005356c2555fa25ef36832bdb20bc947fc",
+    "udt_three_spatial_smoke_2026-10-01/review/data/check_harmonic.py": "2be7d388f44bd7de631b45d4699a4b9dabf1c96b3fb650342cf200d0c019c7c9",
+    "udt_three_spatial_smoke_2026-10-01/review/equations_recovery/history_ricci.py": "1da366b12489be81d9b2a333f1abf0793ecf7d2e6f4e3fe783390e3098e5aff4",
+    "udt_time_live_production_preparation_2026-10-01/review/math/check_saved_data.py": "f70a57f419a908f62bff0d02243f9d2f9b2c5f4a55a695dc9a2493a524a33cfc",
+    "udt_time_live_production_preparation_2026-10-01/review/math/diagnose_window_truncation.py": "5bcd19b27abb09b45acda4c55cdd846b2d9daed149a9bd8c44539e778f97a8c2",
+    "udt_time_live_production_survey_2026-10-01/review/math/check_survey.py": "ce2c85a6cf7a7cc8c298566500fe9419bbaf11e1f9aea7c84b0ec83dc754d946"
+  },
+  "numpy": "2.2.6",
+  "original_ricci": {
+    "analytic_flrw_ricci_error": 0.0,
+    "kasner_fd_checks": [
+      {
+        "bad_max": 0.6199999996642394,
+        "dt": 0.005,
+        "good_max": 5.209471742873006e-10
+      },
+      {
+        "bad_max": 0.6200000000699877,
+        "dt": 0.0025,
+        "good_max": 1.390754178487441e-10
+      }
+    ],
+    "status": "SELFTEST_PASS"
+  },
+  "producer_imports": false,
+  "rational_stencil_moments": true,
+  "reviewer_context": "/root/survey_math",
+  "seconds": 0.37815168901579455,
+  "status": "PASS",
+  "stencil_controls": [
+    {
+      "error": 9.148570789818677e-12,
+      "label": "kasner",
+      "order": 6,
+      "ricci_max": 9.148570789818677e-12
+    },
+    {
+      "error": 8.125611294929058e-12,
+      "label": "kasner",
+      "order": 8,
+      "ricci_max": 8.125611294929058e-12
+    },
+    {
+      "error": 5.340720921065412e-12,
+      "label": "nonvacuum_kasner",
+      "order": 6,
+      "ricci_max": 0.6200000000004651
+    },
+    {
+      "error": 5.720715567925083e-12,
+      "label": "nonvacuum_kasner",
+      "order": 8,
+      "ricci_max": 0.6200000000002919
+    },
+    {
+      "error": 2.4208010596105112e-11,
+      "h": 0.2,
+      "label": "exponential_flrw",
+      "order": 6,
+      "ricci_max": 0.12000000002420803
+    },
+    {
+      "error": 2.4952456767479703e-11,
+      "h": 0.2,
+      "label": "exponential_flrw",
+      "order": 8,
+      "ricci_max": 0.12000000002495248
+    },
+    {
+      "error": 2.4222401862061815e-10,
+      "h": 5.0,
+      "label": "exponential_flrw",
+      "order": 6,
+      "ricci_max": 75.00000000009338
+    },
+    {
+      "error": 5.007905201637186e-11,
+      "h": 5.0,
+      "label": "exponential_flrw",
+      "order": 8,
+      "ricci_max": 74.99999999998292
+    }
+  ]
+}

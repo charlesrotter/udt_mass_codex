@@ -1,0 +1,94 @@
+{
+  "status": "FINITE_CLOCK_CHECK_PASS",
+  "history_sha256": "2e61ee2dafdd9b455371555ecfc20a3cdeb5cf06d1f3ed4e2468541e9c5d9199",
+  "readouts": [
+    {
+      "te": 2.484,
+      "to": 2.496,
+      "Z": 1.0,
+      "logZ": -0.01,
+      "max_sampled_abs_null_norm": 0.0,
+      "initial_coordinate_direction": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "emitter_position": [
+        0.31,
+        0.47,
+        0.19
+      ],
+      "receiver_position": [
+        1.0,
+        2.0,
+        3.0
+      ]
+    },
+    {
+      "te": 2.484,
+      "to": 2.496,
+      "Z": 1.0,
+      "logZ": 0.02,
+      "max_sampled_abs_null_norm": 0.0,
+      "initial_coordinate_direction": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "emitter_position": [
+        0.31,
+        0.47,
+        0.19
+      ],
+      "receiver_position": [
+        1.0,
+        2.0,
+        3.0
+      ]
+    },
+    {
+      "te": 2.484,
+      "to": 2.496,
+      "Z": 1.0,
+      "logZ": 0.0,
+      "max_sampled_abs_null_norm": 0.0,
+      "initial_coordinate_direction": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "emitter_position": [
+        0.31,
+        0.47,
+        0.19
+      ],
+      "receiver_position": [
+        1.0,
+        2.0,
+        3.0
+      ]
+    },
+    {
+      "te": 2.484,
+      "to": 2.496,
+      "Z": 1.0,
+      "logZ": 0.003,
+      "max_sampled_abs_null_norm": 0.0,
+      "initial_coordinate_direction": [
+        0.5773502691896257,
+        0.5773502691896257,
+        0.5773502691896257
+      ],
+      "emitter_position": [
+        0.31,
+        0.47,
+        0.19
+      ],
+      "receiver_position": [
+        1.0,
+        2.0,
+        3.0
+      ]
+    }
+  ]
+}

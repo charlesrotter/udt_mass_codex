@@ -1,0 +1,6 @@
+{
+  "case": "one",
+  "returncode": 75,
+  "worker_stop_reason": "WALL_LIMIT",
+  "wall_seconds": 0.1
+}

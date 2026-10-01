@@ -1,0 +1,28 @@
+--- udt_time_live_production_preparation_2026-10-01/assemble_campaign.py
++++ udt_time_live_production_survey_2026-10-01/assemble_campaign.py
+@@ -29,6 +29,7 @@
+     bindings={Path(p).resolve():h for p,h in m['source_sha256'].items()}
+     external={ROOT/'udt_three_spatial_smoke_2026-10-01'/name for name in ['initial_data.py','evolution.py','constraints.py']}
+     external.add(ROOT/'udt_time_live_smoke_gate_2026-09-30/checkpoint_io.py')
++    external.update(ROOT/'udt_time_live_production_preparation_2026-10-01'/p for p in ['initial_family.py','families/axial1.json','families/oblique1.json','specs/axial1_n24.json','specs/axial1_n24_half.json','specs/axial1_n32.json'])
+     for path,value in bindings.items():
+         if not (path.is_relative_to(B) or path in external):raise ValueError('ASSEMBLY_SOURCE_SCOPE')
+         if sha(path)!=value:raise ValueError('ASSEMBLY_SOURCE_CHANGED')
+@@ -46,7 +47,7 @@
+         for key in ['stdout','stderr']:
+             if sha(folder/key)!=receipt[key+'_sha256']:raise ValueError('ASSEMBLY_ATTEMPT_HASH')
+         if receipt['returncode']!=0:continue
+-        if receipt.get('worker_status')!='TPP1_RUN_COMPLETE':raise ValueError('ASSEMBLY_COMPLETION_STATUS')
++        if receipt.get('worker_status')!='TPS1_RUN_COMPLETE':raise ValueError('ASSEMBLY_COMPLETION_STATUS')
+         if receipt['case'] in completed:raise ValueError('DUPLICATE_COMPLETION_REQUIRES_REVIEW')
+         completed[receipt['case']]=(rp,receipt)
+     known={row['id'] for row in m['cases']}
+@@ -72,7 +73,7 @@
+             for source,value in signature['code'].items():
+                 if bindings.get((ROOT/source).resolve())!=value:raise ValueError('ASSEMBLY_CHECKPOINT_CODE')
+         final=json.loads((rp.parent/'stdout').read_text().splitlines()[-1])
+-        if final.get('status')!='TPP1_RUN_COMPLETE' or final.get('tick')!=spec['end_tick']:raise ValueError('ASSEMBLY_INCOMPLETE_ENDPOINT')
++        if final.get('status')!='TPS1_RUN_COMPLETE' or final.get('tick')!=spec['end_tick']:raise ValueError('ASSEMBLY_INCOMPLETE_ENDPOINT')
+         directory=analysis/row['id'];record_path=directory/'ASSEMBLY.json'
+         inputs={str(manifest):mh,str(rp):sha(rp),str(rp.parent/'launch.json'):sha(rp.parent/'launch.json'),str(specpath):sha(specpath),str(initial):bindings[initial]}
+         if record_path.exists():

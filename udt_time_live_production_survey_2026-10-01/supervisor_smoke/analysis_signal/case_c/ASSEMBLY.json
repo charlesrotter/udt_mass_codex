@@ -1,0 +1,28 @@
+{
+  "adapter_sha256": "031eb62247d29bdd43ff734486aa6c82be9824c3f0bb64ae04c282c15a0d212a",
+  "assembler_sha256": "8333bc2a4de50300d44f2d32d316e1a9e56874418bbcb69f74e855e4099f1f0b",
+  "case": "case_c",
+  "input_sha256": {
+    "/home/udt-admin/udt_mass_codex/udt_time_live_production_survey_2026-10-01/initial/axial1_n8.npz": "527b2da7c4de6de31fe2bdb25263b95c7ccd42f09c5d805982c0bfc22aefaf41",
+    "/home/udt-admin/udt_mass_codex/udt_time_live_production_survey_2026-10-01/specs/engineering.json": "a55e68d1ff079aa49a09ad2ca4f05696cd7ed25c67529e1008426fdaf9402bdd",
+    "/home/udt-admin/udt_mass_codex/udt_time_live_production_survey_2026-10-01/supervisor_smoke/runtime_signal/attempts/00001_case_c/launch.json": "c3686d37ca60cf1170784c2a4cb59ef33fde49aa64859554384051bdc34314f5",
+    "/home/udt-admin/udt_mass_codex/udt_time_live_production_survey_2026-10-01/supervisor_smoke/runtime_signal/attempts/00001_case_c/receipt.json": "58e6ac3f438a29e2f0b7657c00a711a5baf8548a36072aca1a3bf6d4c435117e",
+    "/home/udt-admin/udt_mass_codex/udt_time_live_production_survey_2026-10-01/supervisor_smoke/signal.json": "8731b9feda4e4c491f1c3aa53188c3a03b91f23db8a251115dd14f3f181aa768"
+  },
+  "output_sha256": {
+    "/home/udt-admin/udt_mass_codex/udt_time_live_production_survey_2026-10-01/supervisor_smoke/analysis_signal/case_c/histories/case_c_window0.npz": "e6812a011cfa827ebfb2eb0e73c0cf463cbf0605cf99d8e30538a962b9c7fd01",
+    "/home/udt-admin/udt_mass_codex/udt_time_live_production_survey_2026-10-01/supervisor_smoke/analysis_signal/case_c/histories/case_c_window0.sources.json": "a69f342c619718d882c3b805d95a63e2806685220a938dc1c21d7f8b0e9669ae",
+    "/home/udt-admin/udt_mass_codex/udt_time_live_production_survey_2026-10-01/supervisor_smoke/analysis_signal/case_c/receipt_bridge.json": "10fc129a0b823993465ff049c18b94d5151c351465e9706fd62bbc73350c3a66"
+  },
+  "scope": "Authenticated byte/array correspondence only; original equations, convergence and readouts remain separate checks",
+  "windows": [
+    {
+      "bytes": 743466,
+      "path": "udt_time_live_production_survey_2026-10-01/supervisor_smoke/analysis_signal/case_c/histories/case_c_window0.npz",
+      "times": [
+        1.04,
+        1.06
+      ]
+    }
+  ]
+}

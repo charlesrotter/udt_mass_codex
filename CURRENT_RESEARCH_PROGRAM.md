@@ -5,7 +5,7 @@ This bounded startup view is generated from its opening; edit that source.
 LIVE.md owns operational status; CURRENT_SCIENTIFIC_PREMISES.tsv owns exact grades.
 
 <!-- GENERATED_DEVELOPMENT_BEGIN -->
-**Continuous development — CDR1 with SGE1, LKT1, GCA1, PCW1, CES1, CCR1, PRI1, TRI1, NGD1, TDS1 and TPP1, 2026-10-01.** This is the maintained
+**Continuous development — CDR1 with SGE1, LKT1, GCA1, PCW1, CES1, CCR1, PRI1, TRI1, NGD1, TDS1, TPP1 and TPS1, 2026-10-01.** This is the maintained
 scientific development. It is not canon or a new scientific-grade authority.
 The exact registry and reviewed sources own grades; LIVE owns operational status.
 Current review bindings and limits are recorded in section9; startup reads the
@@ -76,8 +76,11 @@ checks. The supplied Ric=0 equation, periodic domain, harmonic gauge and initial
 CMC/conformal construction remain conditional. TPP1 now extends13 supplied
 histories to t=2.5, broadens the initial modes and tests production controls. Its
 original five-point refinement gate failed; a preserved, narrower saved-time
-diagnostic repair passes. A measured234-run, up-to-six-hour dispatch is ready
-with a first-three-case verification gate. No multi-hour campaign has started.
+diagnostic repair passes. TPS1 now launches the authorized78-dataset/234-run
+survey with no elapsed-time cutoff. All156 initial mesh states and the first
+three evolved histories passed their checks; the spatial gate passes only its
+small-error alternative. The remaining survey and full atlas await checks and
+actual review. This remains a conditional comparison, not native UDT selection.
 <!-- GENERATED_DEVELOPMENT_END -->
 
 ## Current next gate

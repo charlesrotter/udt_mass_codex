@@ -1,0 +1,23 @@
+{
+  "status": "SOURCE_CONSTRUCTION_NOT_YET_TESTED",
+  "parent_startup": "Attributed grok68cf144b, synchronized and orientation performed by parent; independently verified HEAD/status and scoped AGENTS/CLAUDE/protocol reads.",
+  "context": "/root/survey_runtime, fresh scoped same-model context; author of new operational editions, not independent reviewer of own code",
+  "work_order_sha256": "c1fcf625b4703081a1eb723c89f08e40515c1c8cab1590ea4e6e7be8dd56ed44",
+  "old_sha256": {
+    "udt_time_live_production_preparation_2026-10-01/production_worker.py": "f7526ac85ab873fd12cf38ef6a9b69bec7d18a6cc4b4636528784c4a312fafbf",
+    "udt_time_live_production_preparation_2026-10-01/supervise.py": "06256cfb3ce770e8274c1653fb42eb7c032bedd6598a1dd3606e69b55b68197f",
+    "udt_time_live_production_preparation_2026-10-01/prepare_campaign.py": "d5b96d081ef16142b8ef3c94bcf409d14b28db04599fb7c9df33fc06acfed60c",
+    "udt_time_live_production_preparation_2026-10-01/assemble_windows.py": "8333bc2a4de50300d44f2d32d316e1a9e56874418bbcb69f74e855e4099f1f0b",
+    "udt_time_live_production_preparation_2026-10-01/assemble_campaign.py": "3fc3b762dbdba2491309abbfcb72b3cfd9b8ac3ed00b2295ae64847ba89b18e4",
+    "udt_time_live_production_preparation_2026-10-01/initial_family.py": "8b4da8fa6655b5576a8fba019f45ba83af5457bf6e8a1b429a7eaf0fc5f43fe9"
+  },
+  "new_sha256": {
+    "udt_time_live_production_survey_2026-10-01/production_worker.py": "ad06a64a7aa6ccaac4956d0f6295fef3011636c05f7cf9b610d65960a15b1cd0",
+    "udt_time_live_production_survey_2026-10-01/supervise.py": "bbe53926f4f6bd876e3a8df8c3b590659846069569941c5b2f80da7f0f43d88d",
+    "udt_time_live_production_survey_2026-10-01/prepare_campaign.py": "edc6d60bbc5111697789deff942cacadf59e4fb9879845bbf4b003ba1f9ea8ae",
+    "udt_time_live_production_survey_2026-10-01/assemble_windows.py": "8333bc2a4de50300d44f2d32d316e1a9e56874418bbcb69f74e855e4099f1f0b",
+    "udt_time_live_production_survey_2026-10-01/assemble_campaign.py": "031eb62247d29bdd43ff734486aa6c82be9824c3f0bb64ae04c282c15a0d212a",
+    "udt_time_live_production_survey_2026-10-01/initial_family.py": "e2df4385dfd823071d126d81f635807aee18962f7149cbba554db1787d0485c7"
+  },
+  "limits": "No GPU, production emission, physics or numerical method change in construction; parent separate-context source review required."
+}

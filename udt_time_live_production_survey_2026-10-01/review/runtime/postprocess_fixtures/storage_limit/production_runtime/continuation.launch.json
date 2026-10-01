@@ -1,0 +1,16 @@
+{
+  "pid": 987654,
+  "proc_start_ticks": "12345",
+  "result_receipt": "/home/udt-admin/udt_mass_codex/udt_time_live_production_survey_2026-10-01/review/runtime/postprocess_fixtures/storage_limit/production_runtime/continuation.json",
+  "manifest_sha256": "7722d1e2d49809dbe9001b42684873f05293282ad0304ed185281d0986da2474",
+  "command": [
+    "/usr/bin/python3",
+    "/home/udt-admin/udt_mass_codex/udt_time_live_production_survey_2026-10-01/review/runtime/postprocess_fixtures/storage_limit/capture.py",
+    "--gpu",
+    "/home/udt-admin/udt_mass_codex/udt_time_live_production_survey_2026-10-01/review/runtime/postprocess_fixtures/storage_limit/production_runtime/continuation",
+    "/usr/bin/python3",
+    "/home/udt-admin/udt_mass_codex/udt_time_live_production_survey_2026-10-01/review/runtime/postprocess_fixtures/storage_limit/supervise.py",
+    "/home/udt-admin/udt_mass_codex/udt_time_live_production_survey_2026-10-01/review/runtime/postprocess_fixtures/storage_limit/production_runtime/campaign.json",
+    "/home/udt-admin/udt_mass_codex/udt_time_live_production_survey_2026-10-01/review/runtime/postprocess_fixtures/storage_limit/production_runtime"
+  ]
+}

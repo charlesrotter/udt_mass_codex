@@ -1,0 +1,15 @@
+{
+  "command": [
+    "/usr/bin/python3",
+    "/home/udt-admin/udt_mass_codex/udt_time_live_production_survey_2026-10-01/supervise.py",
+    "/home/udt-admin/udt_mass_codex/udt_time_live_production_survey_2026-10-01/supervisor_smoke/pause.json",
+    "/home/udt-admin/udt_mass_codex/udt_time_live_production_survey_2026-10-01/supervisor_smoke/runtime_pause",
+    "--stop-after",
+    "1"
+  ],
+  "expected": 75,
+  "name": "pause",
+  "returncode": 75,
+  "seconds": 1.6804554570117034,
+  "sigterm_sent": false
+}

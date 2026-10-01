@@ -1,0 +1,11 @@
+{
+  "case": "one",
+  "command": [
+    "/usr/bin/python3",
+    "/home/udt-admin/udt_mass_codex/udt_time_live_production_survey_2026-10-01/production_worker.py",
+    "/home/udt-admin/udt_mass_codex/udt_time_live_production_survey_2026-10-01/review/runtime/guard_fixtures/long_elapsed/one.json",
+    "/home/udt-admin/udt_mass_codex/udt_time_live_production_survey_2026-10-01/runs/reviewer_virtual_long_elapsed_one"
+  ],
+  "manifest_sha256": "df1df42a662c23fc0f0061496fd2107238268e52cab470138b86db03b70d5450",
+  "wall_seconds_limit": null
+}

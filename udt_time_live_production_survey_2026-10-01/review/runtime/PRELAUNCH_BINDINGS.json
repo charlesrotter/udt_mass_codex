@@ -1,0 +1,22 @@
+{
+  "status": "ACCEPT_FOR_ACTUAL_FINITE_SMOKE",
+  "context": "/root/survey_runtime",
+  "authorship_limits": "Authored operational adapters; parent reviewed those. Independently reviewed parent capture and smoke source.",
+  "python": "3.10.12 (main, Aug 31 2026, 10:18:17) [GCC 11.4.0]",
+  "platform": "Linux-6.8.0-138-generic-x86_64-with-glibc2.35",
+  "sha256": {
+    "udt_time_live_production_survey_2026-10-01/production_worker.py": "ad06a64a7aa6ccaac4956d0f6295fef3011636c05f7cf9b610d65960a15b1cd0",
+    "udt_time_live_production_survey_2026-10-01/initial_family.py": "e2df4385dfd823071d126d81f635807aee18962f7149cbba554db1787d0485c7",
+    "udt_time_live_production_survey_2026-10-01/supervise.py": "75081fbabb7eec3fd0c765884e941c88bf303302b5fc9f544ae97b4172ec1c0d",
+    "udt_time_live_production_survey_2026-10-01/prepare_campaign.py": "edc6d60bbc5111697789deff942cacadf59e4fb9879845bbf4b003ba1f9ea8ae",
+    "udt_time_live_production_survey_2026-10-01/assemble_windows.py": "8333bc2a4de50300d44f2d32d316e1a9e56874418bbcb69f74e855e4099f1f0b",
+    "udt_time_live_production_survey_2026-10-01/assemble_campaign.py": "031eb62247d29bdd43ff734486aa6c82be9824c3f0bb64ae04c282c15a0d212a",
+    "udt_time_live_production_survey_2026-10-01/capture.py": "217cdbac5486e8a531552f4d74a15ce641299b65dafb5d58f7b60f4ba51781bc",
+    "udt_time_live_production_survey_2026-10-01/supervisor_smoke.py": "3ca6edf7f8e07f4eccdcaafd1756367b770937ab57b32f992f6681357ef8a25f",
+    "udt_time_live_production_survey_2026-10-01/review/runtime/NO_TIMEOUT_CONTROLS.json": "e35a2a0d2cb42202d5b242ab04e7365535c5802b994a3bc610c45223fdf999de",
+    "udt_time_live_production_survey_2026-10-01/review/runtime/CAPTURE_REVIEW.json": "a4e72c207fdd5a7203c6826e55b63423f6afd2a4d0df0f217bf4e23019c5cf9a",
+    "udt_time_live_production_survey_2026-10-01/review/runtime/SIGNAL_RECEIPT_CONTROLS.json": "38f90f94cd30e38d97288033715cc43775469d61e6d5a636cf26693488dd6042",
+    "udt_time_live_production_survey_2026-10-01/review/runtime/PRELAUNCH_REVIEW.md": "541f00a3047e6f70ff0fd844e87dd0a6aa9a58d023de32620c96641eb876f739"
+  },
+  "old_six_sources_preserved": true
+}

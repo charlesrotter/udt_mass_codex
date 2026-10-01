@@ -1,0 +1,85 @@
+{
+  "status": "REVIEWED_LAUNCH_CHECKPOINT_CHECKS_PASS_FULL_SURVEY_PENDING",
+  "utc": "2026-10-01T03:12:52.686152+00:00",
+  "base_head": "68cf144b49829bc5a3b8ad924afad243d62f5bef",
+  "accepted_paths": 7707,
+  "previous_paths_preserved": 5591,
+  "changed_previous_paths": [
+    ".gitignore",
+    "CURRENT_RESEARCH_PROGRAM.md",
+    "HANDOFF.md",
+    "LIVE.md",
+    "UDT_DEVELOPMENT.md",
+    "development_reconstruction_2026-09-29/DEVELOPMENT_GRAPH.json",
+    "development_reconstruction_2026-09-29/RECENT_DISPOSITIONS.tsv"
+  ],
+  "freeze_sha256": "fe464c0e19c5c308b24bf2878cf1c825ab02818984f7f698302bac3d6bfb4ec8",
+  "review_record_sha256": "18cbb16d443882b2f3057f49ed759b6ecd66c1442b9dea194f87e178ef21928d",
+  "checks": {
+    "development_rebound": {
+      "receipt": "udt_time_live_production_survey_2026-10-01/checks/development_rebound.json",
+      "sha256": "73bfd9ced08c5f6dbe062bdd37664b117ea188441d75f24e581fcce7ba39f8dd",
+      "duration_seconds": 1.5232887389720418,
+      "returncode": 0
+    },
+    "maintenance_final": {
+      "receipt": "udt_time_live_production_survey_2026-10-01/checks/maintenance_final.json",
+      "sha256": "e84bccc94b238ae390978e10c58d78d7d57ac90594d3eb430b417f7e7a62a4ca",
+      "duration_seconds": 0.6887376900413074,
+      "returncode": 0
+    },
+    "premise_rebound": {
+      "receipt": "udt_time_live_production_survey_2026-10-01/checks/premise_rebound.json",
+      "sha256": "9674bf74f6508060ced4bbceaca73a4ccd8ab36b1da831df682cb3f7ccde4af0",
+      "duration_seconds": 409.6252287889947,
+      "returncode": 0
+    }
+  },
+  "closeout_review_sha256": {
+    "udt_time_live_production_survey_2026-10-01/review/math/CLOSEOUT_BINDING_REVIEW.md": "67d2297385d1bdc45883a035b4d02e38471d87ed3f402b0f1054c8ed13e832ce",
+    "udt_time_live_production_survey_2026-10-01/review/runtime/CLOSEOUT_BINDING_REVIEW.md": "da96a2a43fb0af94e01d8b5f7e86075c74b528fade3c934b4f4d56c6c006d3b9"
+  },
+  "closeout_repair": "Initial fullaudit checks/premise_final failed because parent bound the runtime attestation before three prose-spacing edits were finalized. Initial parent record and failed audit preserved. Final accepted maps/verdict/evidence unchanged; actual separate closeout reviews and rebound captures own the correction.",
+  "unrelated_untracked_name_count": 52,
+  "unrelated_names_unchanged": true,
+  "untouched_local_empty_engineering_locks": [
+    "udt_time_live_production_survey_2026-10-01/review/runtime/guard_fixtures/long_elapsed/runtime/supervisor.lock",
+    "udt_time_live_production_survey_2026-10-01/review/runtime/guard_fixtures/manual_signal/runtime/supervisor.lock",
+    "udt_time_live_production_survey_2026-10-01/review/runtime/guard_fixtures/midqueue_spec_edit/runtime/supervisor.lock",
+    "udt_time_live_production_survey_2026-10-01/review/runtime/guard_fixtures/missing_receipt/runtime/supervisor.lock",
+    "udt_time_live_production_survey_2026-10-01/review/runtime/guard_fixtures/output_reserve/runtime/supervisor.lock",
+    "udt_time_live_production_survey_2026-10-01/review/runtime/guard_fixtures/prior_failure/runtime/supervisor.lock",
+    "udt_time_live_production_survey_2026-10-01/review/runtime/guard_fixtures/prior_floor/runtime/supervisor.lock",
+    "udt_time_live_production_survey_2026-10-01/review/runtime/guard_fixtures/prior_wall/runtime/supervisor.lock",
+    "udt_time_live_production_survey_2026-10-01/review/runtime/guard_fixtures/resume_manifest/runtime/supervisor.lock",
+    "udt_time_live_production_survey_2026-10-01/review/runtime/postprocess_fixtures/bad_controller_command/production_analysis/postprocess/companion.lock",
+    "udt_time_live_production_survey_2026-10-01/review/runtime/postprocess_fixtures/complete/production_analysis/postprocess/companion.lock",
+    "udt_time_live_production_survey_2026-10-01/review/runtime/postprocess_fixtures/controller_failure/production_analysis/postprocess/companion.lock",
+    "udt_time_live_production_survey_2026-10-01/review/runtime/postprocess_fixtures/controller_pause/production_analysis/postprocess/companion.lock",
+    "udt_time_live_production_survey_2026-10-01/review/runtime/postprocess_fixtures/manual_launch_race/production_analysis/postprocess/companion.lock",
+    "udt_time_live_production_survey_2026-10-01/review/runtime/postprocess_fixtures/manual_wait/production_analysis/postprocess/companion.lock",
+    "udt_time_live_production_survey_2026-10-01/review/runtime/postprocess_fixtures/missing_receipt/production_analysis/postprocess/companion.lock",
+    "udt_time_live_production_survey_2026-10-01/review/runtime/postprocess_fixtures/stage_hash_bad/production_analysis/postprocess/companion.lock",
+    "udt_time_live_production_survey_2026-10-01/review/runtime/postprocess_fixtures/stage_nonzero/production_analysis/postprocess/companion.lock",
+    "udt_time_live_production_survey_2026-10-01/review/runtime/postprocess_fixtures/storage_limit/production_analysis/postprocess/companion.lock",
+    "udt_time_live_production_survey_2026-10-01/review/runtime/signal_fixtures/15/runtime/supervisor.lock",
+    "udt_time_live_production_survey_2026-10-01/review/runtime/signal_fixtures/2/runtime/supervisor.lock",
+    "udt_time_live_production_survey_2026-10-01/review/runtime/signal_fixtures/none/runtime/supervisor.lock",
+    "udt_time_live_production_survey_2026-10-01/supervisor_smoke/runtime_pause/supervisor.lock",
+    "udt_time_live_production_survey_2026-10-01/supervisor_smoke/runtime_signal/supervisor.lock"
+  ],
+  "raw_production": "Local retained ignored evidence. Growing outputs and future candidate checks are not accepted or staged by this checkpoint.",
+  "launches": {
+    "continuation.launch.json": "dad6ec7d9605378624d52de39a081319e761c2af4293a6843736d0dda16c7cba",
+    "postprocess.launch.json": "df8817886ef47e659a3c75902337ebc3d232f49994d6f5bbfe7c75b90607137d",
+    "HOST_OBSERVATION.json": "fd71856a92dc83eaa107d535cc0ca824790ad006d1cd8db535900babf9e45580"
+  },
+  "whitespace_check": {
+    "finding": "Three context-only blank lines in the two preserved .diff evidence files have their required leading diff marker space. Original evidence retained. Other staged files pass git diff --cached --check.",
+    "files": [
+      "review/runtime/production_worker.py.diff",
+      "review/runtime/supervise.py.diff"
+    ]
+  },
+  "limits": "Launch/firstdataset gate only; no wholeatlas scientific review, full-space claim, new premise or UDT geometry selection. Checksums certify correspondence only; commit/push requires subsequent Git verification."
+}

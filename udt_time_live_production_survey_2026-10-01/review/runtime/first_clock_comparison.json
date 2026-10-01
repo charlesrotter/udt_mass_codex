@@ -1,0 +1,19 @@
+{
+  "command": [
+    "python3",
+    "udt_time_live_production_survey_2026-10-01/review/runtime/compare_first_clocks.py"
+  ],
+  "cwd": "/home/udt-admin/udt_mass_codex",
+  "started_utc": "2026-10-01T02:39:42.115299+00:00",
+  "duration_seconds": 0.07436653797049075,
+  "returncode": 0,
+  "wall_timeout_seconds": null,
+  "cpu_timeout_seconds": null,
+  "address_space_bytes": 2147483648,
+  "memory_scope": "Process virtual address limit",
+  "maxrss_kib": 48836,
+  "forwarded_signals": [],
+  "stdout_sha256": "53ac9bc2259d3bfd63b6af656d7575492d1df5e4e8cdf76a7244a4edd02e39fe",
+  "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "capture_sha256": "217cdbac5486e8a531552f4d74a15ce641299b65dafb5d58f7b60f4ba51781bc"
+}

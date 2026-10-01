@@ -1,0 +1,9 @@
+{
+  "status": "PASS_EXACT_REVIEWED_ALLOWLIST_AND_STAGED_BYTES",
+  "utc": "2026-10-01T03:12:56.411813+00:00",
+  "paths": 2150,
+  "bytes": 20608335,
+  "path_list_sha256": "88d8a7aad433672bb07db93c230e4a34e6bc8ed9b7a34eb1c2d360804dcf161b",
+  "staged_index_digest": "df59ae82415915250c7c2368519f34f9f58d594520ab37e5f0990781a80a9c45",
+  "scope": "Launch/firstdataset and closure evidence only. Every staged object matches current approved disk bytes; initial2133were additionally read with gitshow. Live raw data and future candidate outputs excluded. This receipt is subsequently staged and checked separately; correspondence is not scientific proof."
+}

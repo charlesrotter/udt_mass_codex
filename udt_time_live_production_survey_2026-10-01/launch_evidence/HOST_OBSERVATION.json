@@ -1,0 +1,19 @@
+{
+  "utc": "2026-10-01T02:53:53.998122+00:00",
+  "processes": [
+    {
+      "label": "continuation",
+      "pid": 2580620,
+      "same_process_alive": true,
+      "state": "S"
+    },
+    {
+      "label": "postprocess",
+      "pid": 2587638,
+      "same_process_alive": true,
+      "state": "S"
+    }
+  ],
+  "postprocess_log": "{\"status\": \"WAITING_FOR_CONTROLLER\", \"pid\": 2580620, \"wall_timeout_seconds\": null}\n",
+  "scope": "Host process identity observed once; not a permanent live claim"
+}

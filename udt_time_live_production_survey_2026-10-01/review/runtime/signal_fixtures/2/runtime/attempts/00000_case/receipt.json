@@ -1,0 +1,20 @@
+{
+  "case": "case",
+  "command": [
+    "/usr/bin/python3",
+    "/home/udt-admin/udt_mass_codex/udt_time_live_production_survey_2026-10-01/production_worker.py",
+    "/home/udt-admin/udt_mass_codex/udt_time_live_production_survey_2026-10-01/review/runtime/signal_fixtures/2/spec.json",
+    "/home/udt-admin/udt_mass_codex/udt_time_live_production_survey_2026-10-01/runs/review_signal_2"
+  ],
+  "forwarded_signal": 2,
+  "resume": false,
+  "returncode": 75,
+  "sigint_sent": true,
+  "sigkill_sent": false,
+  "sigterm_sent": false,
+  "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "stdout_sha256": "4dd59e2e949c0b26abf2608e8ae465a27a60a826b3e1f6092ae4640e730d3c23",
+  "wall_seconds": 86400.0,
+  "worker_status": "CHECKPOINTED_STOP",
+  "worker_stop_reason": "SIGNAL"
+}

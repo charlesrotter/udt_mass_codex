@@ -1,0 +1,12 @@
+{
+  "before_sha256": "681a1e5f430f06c9a8d06df11d4422e2926456516f5682293f31eb725632f641",
+  "after_sha256": "2b2fc7985d2b171c0b1cb519d8583a3093484f75f215272d57ad51390b0a3a0b",
+  "preserved": "udt_time_live_production_survey_2026-10-01/initial_implementation/postprocess_before_reviews.py",
+  "repairs": [
+    "Math reviewer: bind independent checker/query hashes and all finite rayvalues; match receipt/launchcommands.",
+    "Author source review: validate controllerPID/startschema and actualsuccessfulstagecapturereceipt/stream hashes beforecontinuing.",
+    "Parent separate review: bind real capture-wrapper versus child command, immediate post-Popen manual signal forwarding, before-analysis storage check, and explicit finite stage reserve scope."
+  ],
+  "scientific_change": false,
+  "final_sha256": "4e2397777dec22d40a29ae4d529de123ee2ec0f2b4257a3cc9f7709463b335fc"
+}

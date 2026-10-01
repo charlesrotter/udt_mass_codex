@@ -1,0 +1,12 @@
+{
+  "controller_launch_sha256": "a82172e4ae0ac1035ec572c373020fd224b413bb398a5a8931d99b1c6c89f162",
+  "error": "CONTROLLER_COMMAND_BINDING",
+  "error_type": "ValueError",
+  "manifest_sha256": "46ba16de4198da2cac4ec7dfd5074a15683d7448e3765fa81afd9df108ef8f74",
+  "manual_signal": null,
+  "phase": "UNRESOLVED_ERROR",
+  "stages": [],
+  "status": "CANDIDATE_PENDING_ADVERSARIAL_REVIEW",
+  "used_bytes": 95804,
+  "utc": "2026-10-01T02:49:47.458734+00:00"
+}

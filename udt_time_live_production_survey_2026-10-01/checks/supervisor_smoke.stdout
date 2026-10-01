@@ -1,0 +1,69 @@
+[
+  {
+    "name": "pause",
+    "command": [
+      "/usr/bin/python3",
+      "/home/udt-admin/udt_mass_codex/udt_time_live_production_survey_2026-10-01/supervise.py",
+      "/home/udt-admin/udt_mass_codex/udt_time_live_production_survey_2026-10-01/supervisor_smoke/pause.json",
+      "/home/udt-admin/udt_mass_codex/udt_time_live_production_survey_2026-10-01/supervisor_smoke/runtime_pause",
+      "--stop-after",
+      "1"
+    ],
+    "returncode": 75,
+    "expected": 75,
+    "seconds": 1.6804554570117034,
+    "sigterm_sent": false
+  },
+  {
+    "name": "resume",
+    "command": [
+      "/usr/bin/python3",
+      "/home/udt-admin/udt_mass_codex/udt_time_live_production_survey_2026-10-01/supervise.py",
+      "/home/udt-admin/udt_mass_codex/udt_time_live_production_survey_2026-10-01/supervisor_smoke/pause.json",
+      "/home/udt-admin/udt_mass_codex/udt_time_live_production_survey_2026-10-01/supervisor_smoke/runtime_pause"
+    ],
+    "returncode": 0,
+    "expected": 0,
+    "seconds": 1.6919099109945819,
+    "sigterm_sent": false
+  },
+  {
+    "name": "complete_again",
+    "command": [
+      "/usr/bin/python3",
+      "/home/udt-admin/udt_mass_codex/udt_time_live_production_survey_2026-10-01/supervise.py",
+      "/home/udt-admin/udt_mass_codex/udt_time_live_production_survey_2026-10-01/supervisor_smoke/pause.json",
+      "/home/udt-admin/udt_mass_codex/udt_time_live_production_survey_2026-10-01/supervisor_smoke/runtime_pause"
+    ],
+    "returncode": 0,
+    "expected": 0,
+    "seconds": 0.023073391988873482,
+    "sigterm_sent": false
+  },
+  {
+    "name": "signal",
+    "command": [
+      "/usr/bin/python3",
+      "/home/udt-admin/udt_mass_codex/udt_time_live_production_survey_2026-10-01/supervise.py",
+      "/home/udt-admin/udt_mass_codex/udt_time_live_production_survey_2026-10-01/supervisor_smoke/signal.json",
+      "/home/udt-admin/udt_mass_codex/udt_time_live_production_survey_2026-10-01/supervisor_smoke/runtime_signal"
+    ],
+    "returncode": 75,
+    "expected": 75,
+    "seconds": 1.1270701749599539,
+    "sigterm_sent": true
+  },
+  {
+    "name": "signal_resume",
+    "command": [
+      "/usr/bin/python3",
+      "/home/udt-admin/udt_mass_codex/udt_time_live_production_survey_2026-10-01/supervise.py",
+      "/home/udt-admin/udt_mass_codex/udt_time_live_production_survey_2026-10-01/supervisor_smoke/signal.json",
+      "/home/udt-admin/udt_mass_codex/udt_time_live_production_survey_2026-10-01/supervisor_smoke/runtime_signal"
+    ],
+    "returncode": 0,
+    "expected": 0,
+    "seconds": 1.582222476019524,
+    "sigterm_sent": false
+  }
+]

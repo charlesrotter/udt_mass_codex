@@ -1,0 +1,23 @@
+{
+  "command": [
+    "python3",
+    "udt_time_live_production_survey_2026-10-01/assemble_campaign.py",
+    "udt_time_live_production_survey_2026-10-01/supervisor_smoke/pause.json",
+    "udt_time_live_production_survey_2026-10-01/supervisor_smoke/runtime_pause",
+    "--analysis",
+    "udt_time_live_production_survey_2026-10-01/supervisor_smoke/analysis_pause"
+  ],
+  "cwd": "/home/udt-admin/udt_mass_codex",
+  "started_utc": "2026-10-01T02:33:23.318813+00:00",
+  "duration_seconds": 0.15923229296458885,
+  "returncode": 0,
+  "wall_timeout_seconds": null,
+  "cpu_timeout_seconds": null,
+  "address_space_bytes": 2147483648,
+  "memory_scope": "Process virtual address limit",
+  "maxrss_kib": 34884,
+  "forwarded_signals": [],
+  "stdout_sha256": "a95f2342b1cfc73ce38de9e461f81dcbca5a4e20aa6a793b114fdc6ae9ecb80a",
+  "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "capture_sha256": "217cdbac5486e8a531552f4d74a15ce641299b65dafb5d58f7b60f4ba51781bc"
+}

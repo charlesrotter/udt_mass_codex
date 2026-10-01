@@ -1,0 +1,51 @@
+{
+  "utc": "2026-10-01T02:35:07.289141+00:00",
+  "status": "PRE_PRODUCTION_CLOCK_OUTCOME_FREEZE",
+  "manifest_sha256": "237d0033935e8708a50429df77aea10adea43ced339a2aa0ed971a71d027bac7",
+  "selected_dataset_count": 30,
+  "selected_dataset_indices": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    24,
+    36,
+    48,
+    60,
+    65,
+    66,
+    67,
+    68,
+    69,
+    70,
+    71,
+    72,
+    73,
+    74,
+    75,
+    76,
+    77
+  ],
+  "selection": "Zero-based dataset index divisible by12 OR amplitude endpoint a0/a5; each n24_half. Firstcase is dataset0. Four x/y/z/diagonal directions, origin(.31,.47,.19),20%..80% ofsavedlatewindow.",
+  "history_domain": "No unsaved gap interpolation",
+  "thresholds": {
+    "sampled_null": 2e-07,
+    "producer_logZ_agreement": 2e-07
+  },
+  "source_sha256": {
+    "udt_time_live_production_survey_2026-10-01/review/runtime/FIRST_CLOCK_QUERIES.json": "4ed83cecb957c8f939e0ab39bd08d2815d9ebd0d07cd0c18f6e5638f9e83a3cd",
+    "udt_time_live_production_survey_2026-10-01/review/runtime/SUBSET_CLOCK_QUERIES.json": "725311553f57e484f78e4d49a05868bee10429f6ac75db8247aa9adb754565d6",
+    "udt_time_live_production_preparation_2026-10-01/review/runtime/check_clock_hamilton.py": "99f1752ae0ec577450b9c777b3af98800f184be39099c2099ef85ed0c817f522",
+    "udt_time_live_production_preparation_2026-10-01/review/runtime/compare_clocks.py": "34f7a556efbbad678a01e886ecc3e52f6033a8f34be9a55bd292c028ca18a712"
+  },
+  "exposure": "Saw originalTPP clock/science values and newN8 engineering outcomes; no TPS1 production clocks exposed. Reuses prior separate HamiltonRK45 method unchanged; same saved fields/FourierHermite maths, not independent geometry evolution."
+}

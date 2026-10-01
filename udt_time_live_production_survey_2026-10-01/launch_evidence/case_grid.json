@@ -1,0 +1,35 @@
+{
+  "amplitudes": [
+    0.25,
+    0.5,
+    1.0,
+    1.5,
+    2.0,
+    3.0
+  ],
+  "datasets": 78,
+  "fourth_oblique_phase_offsets": [
+    0.0,
+    0.5,
+    1.0,
+    1.5
+  ],
+  "meshes_and_controls": [
+    "24 coarse",
+    "24 half ceiling/CFL",
+    "32 coarse"
+  ],
+  "output_limit_bytes": 68719476736,
+  "polarization_angles_degrees": [
+    0,
+    15,
+    30
+  ],
+  "runs": 234,
+  "scope": "Supplied finite initial-data grid, no physical inequivalence/typicality/completeness or native law claim",
+  "time_slab": [
+    1,
+    2.5
+  ],
+  "wall_limit_seconds": null
+}

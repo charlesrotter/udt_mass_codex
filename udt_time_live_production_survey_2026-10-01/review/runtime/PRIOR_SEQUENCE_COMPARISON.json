@@ -1,0 +1,7 @@
+{
+  "status": "PASS",
+  "prior_sha256": "2dbc9a3bfdbfb90a404af5636760de76117047bdceca1073a07699f5f098814a",
+  "new_sha256": "699262e5adf3df3f2927957c6615e9109a26dd9c8b6c95b6a3c59eb7b786d282",
+  "steps": 24,
+  "sequence_equal": true
+}

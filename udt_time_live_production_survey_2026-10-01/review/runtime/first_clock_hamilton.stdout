@@ -1,0 +1,90 @@
+{
+  "checker_sha256": "99f1752ae0ec577450b9c777b3af98800f184be39099c2099ef85ed0c817f522",
+  "history_sha256": {
+    "udt_time_live_production_survey_2026-10-01/production_analysis/axial_a0_n24_half/histories/axial_a0_n24_half_window2.npz": "5bd0d573905c14bcecd66b5b4be3e3ca995bf8fdb485a85390997c70404c3275"
+  },
+  "queries_sha256": "4ed83cecb957c8f939e0ab39bd08d2815d9ebd0d07cd0c18f6e5638f9e83a3cd",
+  "readouts": {
+    "axial_a0_n24_half": [
+      {
+        "Z": 0.996016682452872,
+        "emission": 2.484,
+        "initial_coordinate_direction": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "logZ": -0.003991272087134548,
+        "max_internal_trial_abs_null_norm": 1.9158358235288026e-06,
+        "max_sampled_abs_null_norm": 1.9562362610758717e-14,
+        "nfev": 128,
+        "receiver_position": [
+          0.39704537850095584,
+          0.4700024616186219,
+          0.18999999804337142
+        ],
+        "reception": 2.496
+      },
+      {
+        "Z": 1.007997673448541,
+        "emission": 2.484,
+        "initial_coordinate_direction": [
+          0.0,
+          1.0,
+          0.0
+        ],
+        "logZ": 0.007965861559748235,
+        "max_internal_trial_abs_null_norm": 1.990379393732392e-05,
+        "max_sampled_abs_null_norm": 4.9395418591030204e-15,
+        "nfev": 128,
+        "receiver_position": [
+          0.30998192213313663,
+          0.48953593069827567,
+          0.19000001135197558
+        ],
+        "reception": 2.496
+      },
+      {
+        "Z": 1.008044836239064,
+        "emission": 2.484,
+        "initial_coordinate_direction": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "logZ": 0.00801264905585019,
+        "max_internal_trial_abs_null_norm": 1.2097751376227706e-06,
+        "max_sampled_abs_null_norm": 2.4980018054066022e-14,
+        "nfev": 128,
+        "receiver_position": [
+          0.3100090676775433,
+          0.4699986637444041,
+          0.20959809808010843
+        ],
+        "reception": 2.496
+      },
+      {
+        "Z": 1.0077492309616312,
+        "emission": 2.484,
+        "initial_coordinate_direction": [
+          0.5773502691896258,
+          0.5773502691896258,
+          0.5773502691896258
+        ],
+        "logZ": 0.007719359890690359,
+        "max_internal_trial_abs_null_norm": 3.959538560360798e-06,
+        "max_sampled_abs_null_norm": 1.404432126150823e-14,
+        "nfev": 128,
+        "receiver_position": [
+          0.32384922910847125,
+          0.4836906395681609,
+          0.2036900573873258
+        ],
+        "reception": 2.496
+      }
+    ]
+  },
+  "reused_prior_checker_sha256": "b0b1a2a9b3ffe84bff626f6d8fb3cbfb64cd3794d5ef3624d73611e090828ec4",
+  "scope": "Separate covariant-momentum/RK45 implementation from producer; explicitly adapted prior reviewer code. Shared saved fields, Fourier/Hermite mathematics and conditional geometry.",
+  "status": "HAMILTON_CLOCK_REVIEW_PASS"
+}

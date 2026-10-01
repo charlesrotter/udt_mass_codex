@@ -1,0 +1,37 @@
+{
+  "status": "CAMPAIGN_WINDOW_ASSEMBLY_COMPLETE",
+  "results": [
+    {
+      "case": "axial_a0_n24",
+      "reused": false,
+      "record": "/home/udt-admin/udt_mass_codex/udt_time_live_production_survey_2026-10-01/production_analysis/axial_a0_n24/ASSEMBLY.json"
+    },
+    {
+      "case": "axial_a0_n24_half",
+      "reused": false,
+      "record": "/home/udt-admin/udt_mass_codex/udt_time_live_production_survey_2026-10-01/production_analysis/axial_a0_n24_half/ASSEMBLY.json"
+    },
+    {
+      "case": "axial_a0_n32",
+      "reused": false,
+      "record": "/home/udt-admin/udt_mass_codex/udt_time_live_production_survey_2026-10-01/production_analysis/axial_a0_n32/ASSEMBLY.json"
+    }
+  ],
+  "attempts": [
+    {
+      "case": "axial_a0_n24",
+      "returncode": 0
+    },
+    {
+      "case": "axial_a0_n24_half",
+      "returncode": 0
+    },
+    {
+      "case": "axial_a0_n32",
+      "returncode": 0
+    }
+  ],
+  "manifest_sha256": "237d0033935e8708a50429df77aea10adea43ced339a2aa0ed971a71d027bac7",
+  "used_bytes": 1284193824,
+  "scope": "Completed cases only; failures retained, assembly is not numerical qualification"
+}

@@ -1,0 +1,60 @@
+{
+  "attribution": "Reuses fixed independently authored TDS1 NumPy Ricci/ADM and TPP1 center-stencil/Lie-shift methods. Shared fields and Fourier mathematics, no independent general-data time integrator.",
+  "checked_cases": 3,
+  "datasets": [
+    {
+      "dataset": "axial_a0",
+      "final_time_refinement": {
+        "g": 2.857373004871988e-09,
+        "v": 5.738002073485404e-09
+      },
+      "original_equations": {
+        "axial_a0_n24": "PASS",
+        "axial_a0_n24_half": "PASS",
+        "axial_a0_n32": "PASS"
+      },
+      "spatial": [
+        {
+          "all_points_both_meshes_max": 1.9047058374965786e-10,
+          "coarse_common8_max": 1.4526119196389686e-10,
+          "fine_common8_max": 1.3545653487767595e-10,
+          "order": 6,
+          "ratio": 1.0723823113818394,
+          "status": "PASS"
+        },
+        {
+          "all_points_both_meshes_max": 1.9476181778443902e-10,
+          "coarse_common8_max": 1.4687762117659986e-10,
+          "fine_common8_max": 1.3834594581041415e-10,
+          "order": 8,
+          "ratio": 1.0616691390283117,
+          "status": "PASS"
+        }
+      ],
+      "status": "PASS",
+      "temporal_status": "PASS"
+    }
+  ],
+  "manifest_sha256": "237d0033935e8708a50429df77aea10adea43ced339a2aa0ed971a71d027bac7",
+  "method_sources": {
+    "udt_three_spatial_smoke_2026-10-01/review/data/check_constraints.py": "f10e6e0b512a6f2078e71cb32b8972005356c2555fa25ef36832bdb20bc947fc",
+    "udt_three_spatial_smoke_2026-10-01/review/data/check_harmonic.py": "2be7d388f44bd7de631b45d4699a4b9dabf1c96b3fb650342cf200d0c019c7c9",
+    "udt_three_spatial_smoke_2026-10-01/review/equations_recovery/history_ricci.py": "1da366b12489be81d9b2a333f1abf0793ecf7d2e6f4e3fe783390e3098e5aff4",
+    "udt_time_live_production_preparation_2026-10-01/review/math/check_saved_data.py": "f70a57f419a908f62bff0d02243f9d2f9b2c5f4a55a695dc9a2493a524a33cfc",
+    "udt_time_live_production_preparation_2026-10-01/review/math/diagnose_window_truncation.py": "5bcd19b27abb09b45acda4c55cdd846b2d9daed149a9bd8c44539e778f97a8c2",
+    "udt_time_live_production_survey_2026-10-01/review/math/check_survey.py": "3f98e82cc46600b25b54ff4b38956280aa6683d852c9251bbfef242d52faf5f2"
+  },
+  "missing_cases": [],
+  "numpy": "2.2.6",
+  "producer_imports": false,
+  "result_sha256": {
+    "/home/udt-admin/udt_mass_codex/udt_time_live_production_survey_2026-10-01/review/math/cases/axial_a0_n24.json": "b03955613e9f1cb970c154b8d0af869d1b506493b3119ff30cb64219756076e9",
+    "/home/udt-admin/udt_mass_codex/udt_time_live_production_survey_2026-10-01/review/math/cases/axial_a0_n24_half.json": "fc1ea7b9880dcc45e46ca9736efcfc5938251c5d00095fbe2493f7644c97c559",
+    "/home/udt-admin/udt_mass_codex/udt_time_live_production_survey_2026-10-01/review/math/cases/axial_a0_n32.json": "8d9eb3d6cc9715bd62b1a91d022cde977ad73a5a59c06d3f42a690229256810a"
+  },
+  "reviewer_context": "/root/survey_math",
+  "scope": "Finite dataset-level diagnostics. Inconclusive refinement is not physical exclusion, nonexistence or an equation-selection result.",
+  "seconds": 0.5453314449987374,
+  "selected_cases": 3,
+  "status": "PASS"
+}

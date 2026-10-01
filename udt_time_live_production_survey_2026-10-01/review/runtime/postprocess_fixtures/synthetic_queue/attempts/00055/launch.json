@@ -1,0 +1,8 @@
+{
+  "case": "case_55",
+  "command": [
+    "synthetic-worker",
+    "55"
+  ],
+  "manifest_sha256": "manifest"
+}

@@ -1,0 +1,20 @@
+{
+  "status": "INITIAL_BYTES_RECONSTRUCTED_WITH_EXACT_KNOWN_HASH",
+  "final_sha256": "eff2caed73a2d3e849f30c2427b65ee2597a4fe34347397359241de10aa4235d",
+  "reconstructed_initial_sha256": "182d3798cef7537acc36ba7e393e2a27991c062f2d04b3806b36ecb6660d9724",
+  "reconstructed_path": "udt_time_live_production_survey_2026-10-01/review/runtime/closeout_binding/INITIAL_ATTESTATION_RECONSTRUCTED.json",
+  "changed_fields": [
+    "exposure",
+    "limits",
+    "verification.final_additional_text_review"
+  ],
+  "unchanged": [
+    "accepted_sha256",
+    "verdict",
+    "freeze_sha256",
+    "report_sha256",
+    "review_output_sha256",
+    "all numerical verification fields"
+  ],
+  "provenance": "Original first-write file was overwritten before final announcement; no separate initial copy was made then. Reconstruction uses exact replaced strings from the recorded tool call and unchanged final fields. Matching previously observed SHA-256 establishes exact byte correspondence; it is not a claim of original preservation or reconstruction chronology."
+}

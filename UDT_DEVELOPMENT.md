@@ -1,7 +1,7 @@
 # UDT — continuous scientific development
 
 <!-- DEVELOPMENT_ORIENTATION_BEGIN -->
-**Continuous development — CDR1 with SGE1, LKT1, GCA1, PCW1, CES1, CCR1, PRI1, TRI1, NGD1, TDS1 and TPP1, 2026-10-01.** This is the maintained
+**Continuous development — CDR1 with SGE1, LKT1, GCA1, PCW1, CES1, CCR1, PRI1, TRI1, NGD1, TDS1, TPP1 and TPS1, 2026-10-01.** This is the maintained
 scientific development. It is not canon or a new scientific-grade authority.
 The exact registry and reviewed sources own grades; LIVE owns operational status.
 Current review bindings and limits are recorded in section9; startup reads the
@@ -72,8 +72,11 @@ checks. The supplied Ric=0 equation, periodic domain, harmonic gauge and initial
 CMC/conformal construction remain conditional. TPP1 now extends13 supplied
 histories to t=2.5, broadens the initial modes and tests production controls. Its
 original five-point refinement gate failed; a preserved, narrower saved-time
-diagnostic repair passes. A measured234-run, up-to-six-hour dispatch is ready
-with a first-three-case verification gate. No multi-hour campaign has started.
+diagnostic repair passes. TPS1 now launches the authorized78-dataset/234-run
+survey with no elapsed-time cutoff. All156 initial mesh states and the first
+three evolved histories passed their checks; the spatial gate passes only its
+small-error alternative. The remaining survey and full atlas await checks and
+actual review. This remains a conditional comparison, not native UDT selection.
 <!-- DEVELOPMENT_ORIENTATION_END -->
 
 ## 1. How this development is owned
@@ -1207,15 +1210,46 @@ device usage reached2.474GB. That load is resource evidence, outside the
 independent Ricci scientific qualification. N32 histories took about41s each.
 The finite preparation used about301.458s of actual GPU worker wall.
 
-The measured next workflow has78supplied initial datasets and234runs, up to
-six hours and64GiB, with the first three cases checked before continuation.
-No multi-hour run has started, no234outcomes are pre-certified, and no24–48hour
-extension is authorized by this preparation. Longer Ric=0 histories remain a
-conditional comparison tool; R9's physical response and native UDT selection
-remain open. Sources: [method](udt_time_live_production_preparation_2026-10-01/METHOD.md),
+TPP1 proposed78supplied initial datasets and234runs, up to six hours and64GiB,
+with the first three cases checked before continuation. No multi-hour run
+started during that preparation; its authentic time-limited proposal is retained.
+Longer Ric=0 histories remain a conditional comparison tool; R9's physical
+response and native UDT selection remain open. Sources: [method](udt_time_live_production_preparation_2026-10-01/METHOD.md),
 [finite return](udt_time_live_production_preparation_2026-10-01/REVIEWED_RESULT.md),
 [failed gate and scoped repair](udt_time_live_production_preparation_2026-10-01/REFINEMENT_REPAIR.md),
 and [production dispatch](udt_time_live_production_preparation_2026-10-01/PRODUCTION_DISPATCH.md).
+
+#### Authorized finite survey and first-dataset gate (TPS1)
+
+Charles subsequently authorized the same finite78-dataset/234-run survey and
+explicitly removed elapsed-time limits. A new executable edition preserves
+TPP1's equations, initial construction, three-coordinate grids and thresholds.
+No queue deadline, worker wall stop, wrapper timeout or CPU-time kill applies.
+One GPU, memory/output limits, immutable checkpoints, source checks and manual
+interruption remain. This operational change is not a new physical premise.
+
+Independent checks pass on all156 initial mesh states. The actual first three
+histories cover one dataset at24³ with coarse/fine steps and32³ coarse steps.
+Nine saved windows yield maximum original Ricci1.280e−9 and late
+H/M/harmonic maxima1.989e−12/1.440e−12/4.411e−12. Final coarse/fine g/v
+changes are below2.858e−9/5.739e−9. The spatial sixth/eighth-order center
+check passes only its small-error alternative: both meshes' all-point maxima
+are below1.948e−10; the ratios1.072/1.062 do not demonstrate10-fold improvement.
+Matched late-clock logZ changes are below4.188e−13; the separate Hamiltonian
+calculation agrees within4.306e−13. Original-equation, actual-step, resource
+and clock reviews passed before continuation was launched.
+
+This checkpoint establishes only that first-dataset gate in the conditional
+Ric=0 arena. The remaining231 cases and whole atlas await their own checks
+and actual review. Automatic postprocessing can produce a conditional candidate;
+it cannot accept the survey, select a UDT law or change R9's open response E.
+Raw production fields are retained locally in ignored directories. Banked
+source, hashes and compact reports do not give a remote clone the raw data.
+Current process/receipt evidence, rather than this fixed launch snapshot,
+determines whether the job is running or complete. Sources: [work order](udt_time_live_production_survey_2026-10-01/WORK_ORDER.md),
+[first gate](udt_time_live_production_survey_2026-10-01/FIRST_GATE.json),
+and [reviewed launch checkpoint](udt_time_live_production_survey_2026-10-01/LAUNCH_CHECKPOINT.md).
+
 
 ## 7. Screen geometry, carried readouts and optional sources
 
@@ -1509,10 +1543,11 @@ are optional routes, not universal prerequisites for every clock consequence.
 R12T now supplies a three-coordinate metric engine, longer finite conditional
 histories and independently checked actual null-clock queries. TPP1 broadens
 initial data and adds tested production controls, with its failed original
-refinement gate and narrower repair preserved. The next operational step is the
-explicit78-dataset/234-run dispatch and its first-three-case gate. No multi-hour
-run has started. These numerical gains do not identify R9's physical response
-or select a native UDT geometry.
+refinement gate and narrower repair preserved. TPS1 has passed the first
+three-case gate and launched the authorized78-dataset/234-run survey without
+an elapsed-time cutoff. Whole-survey checks and actual review remain pending.
+These numerical gains do not identify R9's physical response or select a
+native UDT geometry.
 
 NGD1's numerical return in R12N adds a validated comparison tool and finite
 nonlinear clock-shift histories. Its positive contribution relative to a specified
@@ -1929,7 +1964,7 @@ founding premises are insufficient.
 Retained branches and omissions are explicit below. These results are useful;
 their original full proofs, repairs, qualifications and grades remain at source.
 CDR1 does not claim to rederive all of them. The [406-row disposition ledger](development_reconstruction_2026-09-29/CLAIM_DISPOSITIONS.tsv)
-and [36 later returns](development_reconstruction_2026-09-29/RECENT_DISPOSITIONS.tsv)
+and [37 later returns](development_reconstruction_2026-09-29/RECENT_DISPOSITIONS.tsv)
 identify exact sources and reconstruction depth.
 
 | Retained work | Gain and limit |
@@ -1962,7 +1997,7 @@ it does not merely add another disconnected report.
 
 This is an18-result central reconstruction with actual core calculations,
 standard-method applications and explicitly retained source branches. All406
-registered rows have an editorial disposition;36 relevant later returns
+registered rows have an editorial disposition;37 relevant later returns
 are separately mapped. It does not claim to re-prove every historical result.
 Existence/MGHD, full external invariant theory, detailed nonlinear asymptotics,
 the55-component optional analytic system, the eight signal packages, empirical
@@ -2108,6 +2143,21 @@ editions/proofs. The runtime reviewer authored the final production extraction
 adapter; the parent separately inspected it. Same inherited model/Fourier
 methods and lack of an independent general-data time integrator remain limits.
 
+TPS1's actual fresh mathematical context independently recomputed all initial
+states and the first dataset's original saved-field equations/refinements.
+The [mathematical gate review](udt_time_live_production_survey_2026-10-01/review/math/FIRST_GATE_REVIEW.md)
+and [runtime/clock gate review](udt_time_live_production_survey_2026-10-01/review/runtime/FIRST_GATE_RUNTIME_REVIEW.md)
+state that scope. The runtime context authored the operational editions; the
+parent separately inspected their source, while that context independently
+checked parent capture/launch/smoke code and actual runtime/clock artifacts.
+New checks explicitly reuse attributed TDS/TPP methods. Same model, shared
+fields/Fourier methods and absence of an independent general-data integrator
+remain limits. The [descendant review](udt_time_live_production_survey_2026-10-01/DESCENDANT_REVIEW.md)
+changes no previous positive or negative scientific conclusion. Final launch
+attestations cover this checkpoint and integration, not the future234-case
+atlas or any automatic candidate output.
+
+
 The preserved first candidates expose the repair history. The [source correction](development_reconstruction_2026-09-29/SOURCE_CORRECTIONS.md)
 fixes a real covector-basis sign in G310; the central nine-direction span and
 annihilator survive. The original file remains authentic. Further repairs make
@@ -2142,4 +2192,5 @@ stage completion, final source/check pins and all remaining omissions belong to
 
 [NGD1 execution record](udt_gpu_time_live_discovery_2026-09-30/WORK_RECORD.md),
 [TDS1 execution record](udt_three_spatial_smoke_2026-10-01/WORK_RECORD.md),
-and [TPP1 execution record](udt_time_live_production_preparation_2026-10-01/WORK_RECORD.md).
+[TPP1 execution record](udt_time_live_production_preparation_2026-10-01/WORK_RECORD.md),
+and [TPS1 launch execution record](udt_time_live_production_survey_2026-10-01/WORK_RECORD.md).

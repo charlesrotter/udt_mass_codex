@@ -1,0 +1,10 @@
+{
+  "status": "PASS",
+  "previous_accepted_paths": 5591,
+  "only_changed_previous": ".gitignore adds current raw storage paths",
+  "frozen_execution_sources": 19,
+  "queue_cases": 234,
+  "all_wall_limits_null": true,
+  "manifest_sha256": "237d0033935e8708a50429df77aea10adea43ced339a2aa0ed971a71d027bac7",
+  "source_bindings": 172
+}

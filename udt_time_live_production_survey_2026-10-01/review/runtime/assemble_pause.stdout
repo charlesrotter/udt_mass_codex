@@ -1,0 +1,28 @@
+{
+  "status": "CAMPAIGN_WINDOW_ASSEMBLY_COMPLETE",
+  "results": [
+    {
+      "case": "case_a",
+      "reused": false,
+      "record": "/home/udt-admin/udt_mass_codex/udt_time_live_production_survey_2026-10-01/supervisor_smoke/analysis_pause/case_a/ASSEMBLY.json"
+    },
+    {
+      "case": "case_b",
+      "reused": false,
+      "record": "/home/udt-admin/udt_mass_codex/udt_time_live_production_survey_2026-10-01/supervisor_smoke/analysis_pause/case_b/ASSEMBLY.json"
+    }
+  ],
+  "attempts": [
+    {
+      "case": "case_a",
+      "returncode": 0
+    },
+    {
+      "case": "case_b",
+      "returncode": 0
+    }
+  ],
+  "manifest_sha256": "a2264470a513497490fed4b5b4a9f4ac60ab289578d61ea40aa6bfe4b8db6b6a",
+  "used_bytes": 4749681,
+  "scope": "Completed cases only; failures retained, assembly is not numerical qualification"
+}

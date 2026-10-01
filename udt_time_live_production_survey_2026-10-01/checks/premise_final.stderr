@@ -1,0 +1,12 @@
+Traceback (most recent call last):
+  File "/home/udt-admin/udt_mass_codex/verify_current_scientific_premises.py", line 19977, in <module>
+    main()
+  File "/home/udt-admin/udt_mass_codex/verify_current_scientific_premises.py", line 19886, in main
+    validate_startup_surface(ROOT)
+  File "/home/udt-admin/udt_mass_codex/verify_current_scientific_premises.py", line 1723, in validate_startup_surface
+    validate_development(root)
+  File "/home/udt-admin/udt_mass_codex/verify_udt_development.py", line 171, in validate
+    require(digest(r['attestation'])==r['sha256'],'review attestation changed')
+  File "/home/udt-admin/udt_mass_codex/verify_udt_development.py", line 29, in require
+    raise DevelopmentError(msg)
+verify_udt_development.DevelopmentError: review attestation changed

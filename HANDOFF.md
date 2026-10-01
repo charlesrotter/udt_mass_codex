@@ -1,7 +1,7 @@
 # HANDOFF — current operational handoff
 
 <!-- STARTUP_CURRENT_BEGIN -->
-## Current handoff — TPP1 production-preparation return after TDS1/ SMK1/NGD1/TRI1/PRI1/CCR1/CES1/PCW1/GCA1/LKT1/SGE1/CDR1, 2026-10-01
+## Current handoff — TPS1 authorized survey launched after TDS1/ SMK1/NGD1/TRI1/PRI1/CCR1/CES1/PCW1/GCA1/LKT1/SGE1/CDR1, 2026-10-01
 
 LIVE.md wins. Charles authorized the staged numerical discovery plan including
 checks, challenges, separate-context review and central integration. NGD1's
@@ -21,14 +21,25 @@ His next “proceed” authorized TPP1 preparation under
 broader seeds, output/step controls and representative load/queue checks are
 recorded there with their failed diagnostic and narrower repair preserved.
 
-Next: Stop for lay discussion of the bounded TPP1 return. The prepared
-PRODUCTION_DISPATCH.md specifies78datasets/234runs, up to6hours/64GiB and the
-first-three-case verification gate before continuation, including review and
-bounded repair. No multi-hour run has started; preparation returns before launch.
-Review the first tranche before any24–48hour extension. Actual review/check
-receipts and Git history own completion/banking. Conditional Ric=0 production
-alone does not select UDT dynamics. No new physical premise, source, scale,
-selected metric, scientific promotion or CANON change is authorized.
+Charles then authorized launch and explicitly requested no timeout. TPS1's
+WORK_ORDER.md under `udt_time_live_production_survey_2026-10-01/` preserves the
+same finite78-dataset/234-run scope and removes all elapsed-time cutoffs.
+All156 initial states and the first-three-case gate passed; continuation was
+launched after actual mathematical/runtime/clock checks. Fixed launch snapshots
+are under `launch_evidence/`; use status.py and host PID/start identity plus
+receipts for current liveness/progress, not the snapshot alone.
+
+Next: Continue the authorized survey and checks, preserving one GPU and its
+nontime controls. RUN_INSTRUCTIONS.md identifies logs, manual stop and
+receipt-based resume. The automatic postprocessing companion produces only
+candidate diagnostics; actual whole-atlas adversarial review/integration remain
+pending. Stop for lay discussion at the reviewed finite return or a real
+scope/premise/resource blocker. No further approval is required merely for the
+already authorized checks and bounded same-premise repair. Removing time limits
+does not authorize more parameter cases, new physics or scientific promotion.
+Raw production fields are local-only; compact first-gate evidence and sources
+are banked. Conditional Ric=0 alone does not select UDT dynamics. No physical
+premise, source, scale, selected metric, registry grade or CANON change follows.
 Use LIVE for pauses, archive caveats and preservation. Central dependencies and
 actual review bindings remain in development_reconstruction_2026-09-29/.
 

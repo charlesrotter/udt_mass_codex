@@ -1,0 +1,11 @@
+{
+  "case": "one",
+  "command": [
+    "/usr/bin/python3",
+    "/home/udt-admin/udt_mass_codex/udt_time_live_production_survey_2026-10-01/production_worker.py",
+    "/home/udt-admin/udt_mass_codex/udt_time_live_production_survey_2026-10-01/review/runtime/guard_fixtures/midqueue_spec_edit/one.json",
+    "/home/udt-admin/udt_mass_codex/udt_time_live_production_survey_2026-10-01/runs/reviewer_virtual_midqueue_spec_edit_one"
+  ],
+  "manifest_sha256": "08ca74731b219572ce4da5130857a320e37e63d9a6ae3b84b1b058deb7f680fd",
+  "wall_seconds_limit": null
+}

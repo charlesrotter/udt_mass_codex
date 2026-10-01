@@ -1,0 +1,27 @@
+{
+  "accepted_files_verified": 7707,
+  "all_accepted_maps_identical": true,
+  "context": "/root/survey_math",
+  "failed_audit_receipt_sha256": "3c8252752894165dc56793aba74421a1a5da09d766a28d6d64af5d536eb1f59a",
+  "freeze_sha256": "fe464c0e19c5c308b24bf2878cf1c825ab02818984f7f698302bac3d6bfb4ec8",
+  "frozen_source_changes": 0,
+  "only_parent_record_delta": "runtime reviewer sha256 rebound from182d3798... toeff2caed...",
+  "previous_record_sha256": "29a987e90e40878a745795b1b72db2a32772d8863c8e9e61c2ffb3058c4e0d72",
+  "rebound_normal_receipt_sha256": "73bfd9ced08c5f6dbe062bdd37664b117ea188441d75f24e581fcce7ba39f8dd",
+  "repaired_record_sha256": "18cbb16d443882b2f3057f49ed759b6ecd66c1442b9dea194f87e178ef21928d",
+  "reviewer_bindings": [
+    {
+      "attestation": "udt_time_live_production_survey_2026-10-01/review/math/FINAL_ATTESTATION.json",
+      "context": "/root/survey_math",
+      "sha256": "4cdb604a5e5d4c2360e22e2d45ebaa2aa4e0caa6e591f63b4ac869b2e9d67003"
+    },
+    {
+      "attestation": "udt_time_live_production_survey_2026-10-01/review/runtime/FINAL_ATTESTATION.json",
+      "context": "/root/survey_runtime",
+      "sha256": "eff2caed73a2d3e849f30c2427b65ee2597a4fe34347397359241de10aa4235d"
+    }
+  ],
+  "scope": "Packaging/source correspondence only. No science rerun, strengthened claim, final full406 pass or fullatlas qualification inferred.",
+  "status": "PACKAGING_BINDING_REPAIR_PASS",
+  "utc": "2026-10-01T03:06:24.519098+00:00"
+}

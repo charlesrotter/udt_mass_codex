@@ -1,0 +1,124 @@
+{
+  "cases": [
+    {
+      "name": "axial_a0_n24_half",
+      "history": "udt_time_live_production_survey_2026-10-01/production_analysis/axial_a0_n24_half/histories/axial_a0_n24_half_window2.npz"
+    },
+    {
+      "name": "oblique_a0_p0_r0_n24_half",
+      "history": "udt_time_live_production_survey_2026-10-01/production_analysis/oblique_a0_p0_r0_n24_half/histories/oblique_a0_p0_r0_n24_half_window2.npz"
+    },
+    {
+      "name": "oblique_a0_p0_r1_n24_half",
+      "history": "udt_time_live_production_survey_2026-10-01/production_analysis/oblique_a0_p0_r1_n24_half/histories/oblique_a0_p0_r1_n24_half_window2.npz"
+    },
+    {
+      "name": "oblique_a0_p0_r2_n24_half",
+      "history": "udt_time_live_production_survey_2026-10-01/production_analysis/oblique_a0_p0_r2_n24_half/histories/oblique_a0_p0_r2_n24_half_window2.npz"
+    },
+    {
+      "name": "oblique_a0_p1_r0_n24_half",
+      "history": "udt_time_live_production_survey_2026-10-01/production_analysis/oblique_a0_p1_r0_n24_half/histories/oblique_a0_p1_r0_n24_half_window2.npz"
+    },
+    {
+      "name": "oblique_a0_p1_r1_n24_half",
+      "history": "udt_time_live_production_survey_2026-10-01/production_analysis/oblique_a0_p1_r1_n24_half/histories/oblique_a0_p1_r1_n24_half_window2.npz"
+    },
+    {
+      "name": "oblique_a0_p1_r2_n24_half",
+      "history": "udt_time_live_production_survey_2026-10-01/production_analysis/oblique_a0_p1_r2_n24_half/histories/oblique_a0_p1_r2_n24_half_window2.npz"
+    },
+    {
+      "name": "oblique_a0_p2_r0_n24_half",
+      "history": "udt_time_live_production_survey_2026-10-01/production_analysis/oblique_a0_p2_r0_n24_half/histories/oblique_a0_p2_r0_n24_half_window2.npz"
+    },
+    {
+      "name": "oblique_a0_p2_r1_n24_half",
+      "history": "udt_time_live_production_survey_2026-10-01/production_analysis/oblique_a0_p2_r1_n24_half/histories/oblique_a0_p2_r1_n24_half_window2.npz"
+    },
+    {
+      "name": "oblique_a0_p2_r2_n24_half",
+      "history": "udt_time_live_production_survey_2026-10-01/production_analysis/oblique_a0_p2_r2_n24_half/histories/oblique_a0_p2_r2_n24_half_window2.npz"
+    },
+    {
+      "name": "oblique_a0_p3_r0_n24_half",
+      "history": "udt_time_live_production_survey_2026-10-01/production_analysis/oblique_a0_p3_r0_n24_half/histories/oblique_a0_p3_r0_n24_half_window2.npz"
+    },
+    {
+      "name": "oblique_a0_p3_r1_n24_half",
+      "history": "udt_time_live_production_survey_2026-10-01/production_analysis/oblique_a0_p3_r1_n24_half/histories/oblique_a0_p3_r1_n24_half_window2.npz"
+    },
+    {
+      "name": "oblique_a0_p3_r2_n24_half",
+      "history": "udt_time_live_production_survey_2026-10-01/production_analysis/oblique_a0_p3_r2_n24_half/histories/oblique_a0_p3_r2_n24_half_window2.npz"
+    },
+    {
+      "name": "oblique_a1_p3_r1_n24_half",
+      "history": "udt_time_live_production_survey_2026-10-01/production_analysis/oblique_a1_p3_r1_n24_half/histories/oblique_a1_p3_r1_n24_half_window2.npz"
+    },
+    {
+      "name": "oblique_a2_p3_r0_n24_half",
+      "history": "udt_time_live_production_survey_2026-10-01/production_analysis/oblique_a2_p3_r0_n24_half/histories/oblique_a2_p3_r0_n24_half_window2.npz"
+    },
+    {
+      "name": "oblique_a3_p2_r2_n24_half",
+      "history": "udt_time_live_production_survey_2026-10-01/production_analysis/oblique_a3_p2_r2_n24_half/histories/oblique_a3_p2_r2_n24_half_window2.npz"
+    },
+    {
+      "name": "oblique_a4_p2_r1_n24_half",
+      "history": "udt_time_live_production_survey_2026-10-01/production_analysis/oblique_a4_p2_r1_n24_half/histories/oblique_a4_p2_r1_n24_half_window2.npz"
+    },
+    {
+      "name": "axial_a5_n24_half",
+      "history": "udt_time_live_production_survey_2026-10-01/production_analysis/axial_a5_n24_half/histories/axial_a5_n24_half_window2.npz"
+    },
+    {
+      "name": "oblique_a5_p0_r0_n24_half",
+      "history": "udt_time_live_production_survey_2026-10-01/production_analysis/oblique_a5_p0_r0_n24_half/histories/oblique_a5_p0_r0_n24_half_window2.npz"
+    },
+    {
+      "name": "oblique_a5_p0_r1_n24_half",
+      "history": "udt_time_live_production_survey_2026-10-01/production_analysis/oblique_a5_p0_r1_n24_half/histories/oblique_a5_p0_r1_n24_half_window2.npz"
+    },
+    {
+      "name": "oblique_a5_p0_r2_n24_half",
+      "history": "udt_time_live_production_survey_2026-10-01/production_analysis/oblique_a5_p0_r2_n24_half/histories/oblique_a5_p0_r2_n24_half_window2.npz"
+    },
+    {
+      "name": "oblique_a5_p1_r0_n24_half",
+      "history": "udt_time_live_production_survey_2026-10-01/production_analysis/oblique_a5_p1_r0_n24_half/histories/oblique_a5_p1_r0_n24_half_window2.npz"
+    },
+    {
+      "name": "oblique_a5_p1_r1_n24_half",
+      "history": "udt_time_live_production_survey_2026-10-01/production_analysis/oblique_a5_p1_r1_n24_half/histories/oblique_a5_p1_r1_n24_half_window2.npz"
+    },
+    {
+      "name": "oblique_a5_p1_r2_n24_half",
+      "history": "udt_time_live_production_survey_2026-10-01/production_analysis/oblique_a5_p1_r2_n24_half/histories/oblique_a5_p1_r2_n24_half_window2.npz"
+    },
+    {
+      "name": "oblique_a5_p2_r0_n24_half",
+      "history": "udt_time_live_production_survey_2026-10-01/production_analysis/oblique_a5_p2_r0_n24_half/histories/oblique_a5_p2_r0_n24_half_window2.npz"
+    },
+    {
+      "name": "oblique_a5_p2_r1_n24_half",
+      "history": "udt_time_live_production_survey_2026-10-01/production_analysis/oblique_a5_p2_r1_n24_half/histories/oblique_a5_p2_r1_n24_half_window2.npz"
+    },
+    {
+      "name": "oblique_a5_p2_r2_n24_half",
+      "history": "udt_time_live_production_survey_2026-10-01/production_analysis/oblique_a5_p2_r2_n24_half/histories/oblique_a5_p2_r2_n24_half_window2.npz"
+    },
+    {
+      "name": "oblique_a5_p3_r0_n24_half",
+      "history": "udt_time_live_production_survey_2026-10-01/production_analysis/oblique_a5_p3_r0_n24_half/histories/oblique_a5_p3_r0_n24_half_window2.npz"
+    },
+    {
+      "name": "oblique_a5_p3_r1_n24_half",
+      "history": "udt_time_live_production_survey_2026-10-01/production_analysis/oblique_a5_p3_r1_n24_half/histories/oblique_a5_p3_r1_n24_half_window2.npz"
+    },
+    {
+      "name": "oblique_a5_p3_r2_n24_half",
+      "history": "udt_time_live_production_survey_2026-10-01/production_analysis/oblique_a5_p3_r2_n24_half/histories/oblique_a5_p3_r2_n24_half_window2.npz"
+    }
+  ]
+}

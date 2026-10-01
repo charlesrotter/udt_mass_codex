@@ -1,0 +1,25 @@
+{
+  "controller_launch_sha256": "87567759329dfd24beb63711636041aed3b30f85e446bc5a886fe3a3c56aeea2",
+  "manifest_sha256": "b5e6a6bd3ab65a5ff4ee51908dbdc68b9283f7deafd78ef29278b3a680de2080",
+  "manual_signal": 15,
+  "phase": "MANUAL_PAUSE",
+  "stages": [
+    {
+      "command": [
+        "/usr/bin/python3",
+        "/home/udt-admin/udt_mass_codex/udt_time_live_production_survey_2026-10-01/review/runtime/postprocess_fixtures/manual_launch_race/capture.py",
+        "/home/udt-admin/udt_mass_codex/udt_time_live_production_survey_2026-10-01/review/runtime/postprocess_fixtures/manual_launch_race/production_analysis/postprocess/assembly",
+        "/usr/bin/python3",
+        "/home/udt-admin/udt_mass_codex/udt_time_live_production_survey_2026-10-01/review/runtime/postprocess_fixtures/manual_launch_race/assemble_campaign.py",
+        "/home/udt-admin/udt_mass_codex/udt_time_live_production_survey_2026-10-01/review/runtime/postprocess_fixtures/manual_launch_race/production_runtime/campaign.json",
+        "/home/udt-admin/udt_mass_codex/udt_time_live_production_survey_2026-10-01/review/runtime/postprocess_fixtures/manual_launch_race/production_runtime"
+      ],
+      "name": "assembly",
+      "receipt": "/home/udt-admin/udt_mass_codex/udt_time_live_production_survey_2026-10-01/review/runtime/postprocess_fixtures/manual_launch_race/production_analysis/postprocess/assembly.json",
+      "returncode": 75
+    }
+  ],
+  "status": "CANDIDATE_PENDING_ADVERSARIAL_REVIEW",
+  "used_bytes": 97170,
+  "utc": "2026-10-01T02:49:47.466645+00:00"
+}

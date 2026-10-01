@@ -1,0 +1,7 @@
+{
+  "reason": "Parent separate-context review found SIGINT forwarding would be mislabeled sigterm_sent=True. Actual forwarded signal now recorded; no flow change.",
+  "before_sha256": "bbe53926f4f6bd876e3a8df8c3b590659846069569941c5b2f80da7f0f43d88d",
+  "after_sha256": "75081fbabb7eec3fd0c765884e941c88bf303302b5fc9f544ae97b4172ec1c0d",
+  "before_preserved": "udt_time_live_production_survey_2026-10-01/review/runtime/supervise_before_signal_telemetry.py",
+  "controls_before_preserved": "udt_time_live_production_survey_2026-10-01/review/runtime/NO_TIMEOUT_CONTROLS.json"
+}

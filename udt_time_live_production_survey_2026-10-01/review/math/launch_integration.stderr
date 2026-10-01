@@ -1,0 +1,4 @@
+Traceback (most recent call last):
+  File "/home/udt-admin/udt_mass_codex/udt_time_live_production_survey_2026-10-01/review/math/check_launch_integration.py", line 29, in <module>
+    for path, digest in old['source_pins'].items():
+KeyError: 'source_pins'

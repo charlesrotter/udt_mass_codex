@@ -1,0 +1,46 @@
+{
+  "utc": "2026-10-01T02:35:49.097665+00:00",
+  "scope": "Before TPS1 clock outcomes: unchanged TPP supplied late-window query; no sign criterion",
+  "manifest_sha256": "237d0033935e8708a50429df77aea10adea43ced339a2aa0ed971a71d027bac7",
+  "source_sha256": {
+    "udt_time_live_production_survey_2026-10-01/clock_batch.py": "b7950261a56817cc2d34f44dac9c2e12770cca57bb94a53e04384b5409750ae3",
+    "udt_time_live_production_survey_2026-10-01/capture.py": "217cdbac5486e8a531552f4d74a15ce641299b65dafb5d58f7b60f4ba51781bc",
+    "udt_time_live_production_preparation_2026-10-01/clock_checks.py": "31a5e6e0e3547a94b5e9f934abccbd96a802ddfd7ac7ad449dacceb928b77ba3",
+    "udt_three_spatial_smoke_2026-10-01/clock_readout.py": "8a52d75a54d06a0165d9d517949d709c3ea7575f22ab011ccf7e6230e625c2be"
+  },
+  "origin": [
+    0.31,
+    0.47,
+    0.19
+  ],
+  "directions": [
+    [
+      1,
+      0,
+      0
+    ],
+    [
+      0,
+      1,
+      0
+    ],
+    [
+      0,
+      0,
+      1
+    ],
+    [
+      1,
+      1,
+      1
+    ]
+  ],
+  "query_times": [
+    2.484,
+    2.496
+  ],
+  "null_threshold": 2e-07,
+  "matched_logZ_threshold": 2e-07,
+  "all_cases": 234,
+  "independent_subset": "review/runtime/CLOCK_SUBSET_FREEZE.json"
+}

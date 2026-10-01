@@ -1,0 +1,66 @@
+{
+  "status": "ACTUAL_NO_TIMEOUT_SMOKE_REVIEW_PASS",
+  "context": "/root/survey_runtime, independently reviewed parent run artifacts; authored operational adapters and reused fixed solver outputs are not independent solvers",
+  "states": [
+    {
+      "case": "case_a",
+      "bitwise_equal_to_fixed_TPP_uninterrupted_control": true,
+      "final_state_sha256": "e0c0fc777d13f36dea4af8861e8299906ddf5a6bbc9a19e0b7312b2b7c52eccb"
+    },
+    {
+      "case": "case_b",
+      "bitwise_equal_to_fixed_TPP_uninterrupted_control": true,
+      "final_state_sha256": "e0c0fc777d13f36dea4af8861e8299906ddf5a6bbc9a19e0b7312b2b7c52eccb"
+    },
+    {
+      "case": "case_c",
+      "bitwise_equal_to_fixed_TPP_uninterrupted_control": true,
+      "final_state_sha256": "e0c0fc777d13f36dea4af8861e8299906ddf5a6bbc9a19e0b7312b2b7c52eccb"
+    }
+  ],
+  "attempts": [
+    {
+      "path": "udt_time_live_production_survey_2026-10-01/supervisor_smoke/runtime_pause/attempts/00000_case_a",
+      "receipt_sha256": "7c5c0a7724ee121a199ddc6ffbb676d5f4f717cec52f57d59391f6fa0b32164a",
+      "returncode": 0,
+      "resume": false,
+      "status": "TPS1_RUN_COMPLETE",
+      "stop_reason": null,
+      "wall_seconds": 1.6536139809759334
+    },
+    {
+      "path": "udt_time_live_production_survey_2026-10-01/supervisor_smoke/runtime_pause/attempts/00001_case_b",
+      "receipt_sha256": "1d3c3da1b89a31410fec7fcdb10c11843c7c4a7280c75b5273f8f8c9f8069435",
+      "returncode": 0,
+      "resume": false,
+      "status": "TPS1_RUN_COMPLETE",
+      "stop_reason": null,
+      "wall_seconds": 1.6554198960075155
+    },
+    {
+      "path": "udt_time_live_production_survey_2026-10-01/supervisor_smoke/runtime_signal/attempts/00000_case_c",
+      "receipt_sha256": "2def71010a03e9a164719ff2aecdffda6e43a7b83076ebbcfec49a87cc6d34f9",
+      "returncode": 75,
+      "resume": false,
+      "status": "CHECKPOINTED_STOP",
+      "stop_reason": "SIGNAL",
+      "wall_seconds": 1.102421718009282
+    },
+    {
+      "path": "udt_time_live_production_survey_2026-10-01/supervisor_smoke/runtime_signal/attempts/00001_case_c",
+      "receipt_sha256": "58e6ac3f438a29e2f0b7657c00a711a5baf8548a36072aca1a3bf6d4c435117e",
+      "returncode": 0,
+      "resume": true,
+      "status": "TPS1_RUN_COMPLETE",
+      "stop_reason": null,
+      "wall_seconds": 1.5542088489746675
+    }
+  ],
+  "identical_accepted_tick_jump_sequences": true,
+  "steps_per_completed_run": 24,
+  "gpu_allocated_peak_bytes": 38595584,
+  "maximum_logged_original_constraint": 1.2324760895188192e-06,
+  "total_gpu_worker_seconds": 5.965664443967398,
+  "smoke_summary_sha256": "90e0f6543e13592dae82f6c4b32e62891e5639dcaf2af30be92f72d9f9f17b6a",
+  "scope": "Actual GPU finite queue pause/resume/idempotence and forwardedSIGTERM, authenticated final arrays equal prior uninterrupted control. No elapsed time limit, exhaustive crash recovery or general long-time stability claim."
+}

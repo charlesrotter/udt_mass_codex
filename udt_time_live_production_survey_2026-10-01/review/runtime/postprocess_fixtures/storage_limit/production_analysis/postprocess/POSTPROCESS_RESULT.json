@@ -1,0 +1,10 @@
+{
+  "controller_launch_sha256": "cee634464fd83935b01fb9d502f6384b1f4dffbef1588eeadf3f1c8976b49242",
+  "manifest_sha256": "7722d1e2d49809dbe9001b42684873f05293282ad0304ed185281d0986da2474",
+  "manual_signal": null,
+  "phase": "OUTPUT_LIMIT_BEFORE_ANALYSIS",
+  "stages": [],
+  "status": "CANDIDATE_PENDING_ADVERSARIAL_REVIEW",
+  "used_bytes": 96191,
+  "utc": "2026-10-01T02:49:47.469235+00:00"
+}

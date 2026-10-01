@@ -1,0 +1,11 @@
+{
+  "case": "case_180",
+  "command": [
+    "synthetic-worker",
+    "180"
+  ],
+  "returncode": 0,
+  "worker_status": "TPS1_RUN_COMPLETE",
+  "stdout_sha256": "ca3d163bab055381827226140568f3bef7eaac187cebd76878e0b63e9e442356",
+  "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+}

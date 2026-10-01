@@ -1,0 +1,127 @@
+{
+  "status": "POSTPROCESS_FINITE_CONTROLS_PASS",
+  "source_sha256": "4e2397777dec22d40a29ae4d529de123ee2ec0f2b4257a3cc9f7709463b335fc",
+  "actual_first_three_incomplete_guard": true,
+  "current_PID_identity_checked": true,
+  "records": [
+    {
+      "case": "actual_first_three_not_full",
+      "result": "CAUGHT_INCOMPLETE_QUEUE"
+    },
+    {
+      "case": "queue_command",
+      "caught": "ATTEMPT_BINDING"
+    },
+    {
+      "case": "queue_stdout_sha256",
+      "caught": "ATTEMPT_STREAM_CHANGED"
+    },
+    {
+      "case": "queue_returncode",
+      "caught": "DIAGNOSTIC_ATTEMPT"
+    },
+    {
+      "case": "complete",
+      "returncode": 0,
+      "phase": "FINITE_CHECK_PIPELINE_COMPLETE",
+      "stages": 5,
+      "forwarded_signals": [],
+      "simulated_wait_polls": 2
+    },
+    {
+      "case": "manual_wait",
+      "returncode": 75,
+      "phase": "MANUAL_PAUSE",
+      "stages": 0,
+      "forwarded_signals": [],
+      "simulated_wait_polls": 1
+    },
+    {
+      "case": "controller_pause",
+      "returncode": 75,
+      "phase": "CONTROLLER_STOPPED_OR_DIAGNOSTIC",
+      "stages": 0,
+      "forwarded_signals": [],
+      "simulated_wait_polls": 2
+    },
+    {
+      "case": "controller_failure",
+      "returncode": 2,
+      "phase": "CONTROLLER_STOPPED_OR_DIAGNOSTIC",
+      "stages": 0,
+      "forwarded_signals": [],
+      "simulated_wait_polls": 2
+    },
+    {
+      "case": "missing_receipt",
+      "returncode": 2,
+      "phase": "CONTROLLER_RECEIPT_MISSING",
+      "stages": 0,
+      "forwarded_signals": [],
+      "simulated_wait_polls": 2
+    },
+    {
+      "case": "bad_controller_command",
+      "returncode": 2,
+      "phase": "UNRESOLVED_ERROR",
+      "stages": 0,
+      "forwarded_signals": [],
+      "simulated_wait_polls": 2
+    },
+    {
+      "case": "stage_nonzero",
+      "returncode": 2,
+      "phase": "CHECK_STOPPED_OR_DIAGNOSTIC",
+      "stages": 1,
+      "forwarded_signals": [],
+      "simulated_wait_polls": 2
+    },
+    {
+      "case": "stage_hash_bad",
+      "returncode": 2,
+      "phase": "UNRESOLVED_ERROR",
+      "stages": 1,
+      "forwarded_signals": [],
+      "simulated_wait_polls": 2
+    },
+    {
+      "case": "manual_launch_race",
+      "returncode": 75,
+      "phase": "MANUAL_PAUSE",
+      "stages": 1,
+      "forwarded_signals": [
+        15
+      ],
+      "simulated_wait_polls": 2
+    },
+    {
+      "case": "storage_limit",
+      "returncode": 2,
+      "phase": "OUTPUT_LIMIT_BEFORE_ANALYSIS",
+      "stages": 0,
+      "forwarded_signals": [],
+      "simulated_wait_polls": 2
+    },
+    {
+      "case": "nan_null",
+      "caught": "INDEPENDENT_CLOCK_VALIDITY"
+    },
+    {
+      "case": "nan_endpoint",
+      "caught": "INDEPENDENT_CLOCK_VALIDITY"
+    },
+    {
+      "case": "changed_query",
+      "caught": "INDEPENDENT_METHOD_OR_QUERIES"
+    },
+    {
+      "case": "changed_checker",
+      "caught": "INDEPENDENT_METHOD_OR_QUERIES"
+    },
+    {
+      "case": "clock_difference",
+      "result": "FAIL_RETAINED_AS_CANDIDATE"
+    }
+  ],
+  "scope": "Actual control-flow with fakeprocesses and synthetic234clock/receiptfixtures; realfirst3anchor. No GPU, production writes, new equation checks or fullsurvey qualification."
+}

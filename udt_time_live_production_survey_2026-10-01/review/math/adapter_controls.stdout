@@ -1,0 +1,52 @@
+{
+  "status": "PASS",
+  "rows": [
+    {
+      "name": "flat_positive_control",
+      "status": "PASS"
+    },
+    {
+      "name": "nonsymmetric_metric",
+      "caught": "NONSYMMETRIC_STATE"
+    },
+    {
+      "name": "nonsymmetric_velocity",
+      "caught": "NONSYMMETRIC_STATE"
+    },
+    {
+      "name": "nonfinite_metric",
+      "caught": "INVALID_METRIC_VALUES"
+    },
+    {
+      "name": "nonspacelike_slice",
+      "caught": "NONSPACELIKE_SLICE"
+    },
+    {
+      "name": "positive_time_inverse",
+      "caught": "NONSPACELIKE_SLICE"
+    },
+    {
+      "name": "outside_scope",
+      "caught": "SURVEY_PATH_SCOPE"
+    },
+    {
+      "name": "wrong_float_dtype",
+      "caught": "INVALID_METRIC_SCHEMA"
+    },
+    {
+      "name": "wrong_velocity_shape",
+      "caught": "INVALID_METRIC_SCHEMA"
+    },
+    {
+      "name": "artifact_hash_catch",
+      "caught": "ARTIFACT_HASH_MISMATCH: /home/udt-admin/udt_mass_codex/udt_time_live_production_survey_2026-10-01/review/math/tps1_math_control_hs60ppu7/artifact.json"
+    },
+    {
+      "name": "immutable_output",
+      "status": "PASS"
+    }
+  ],
+  "source_sha256": "8b47dc44376aea715431e6292feea7f8577ad5dc0d27fc0132e0ce4c7cc7a007",
+  "checked_source_sha256": "7d92e01526e2d176d864c784a751c92cf8ad41ee87532a33243d256bba07f062",
+  "scope": "Adapter schema/geometry/hash/output controls; not production outcome qualification"
+}

@@ -1,0 +1,33 @@
+{
+  "all_old_edges_identical": true,
+  "all_old_node_hypotheses_identical": true,
+  "baseline": "68cf144b49829bc5a3b8ad924afad243d62f5bef",
+  "changed_nodes": [
+    "C_TDS_ARENA",
+    "R12T"
+  ],
+  "current_sha256": {
+    ".gitignore": "3df09c69d0bc5e6dff1dd30cb2d0f78afce8295efb77e12eaf6782b1393be174",
+    "CURRENT_RESEARCH_PROGRAM.md": "94c57c4cd48f3d65eb857d473ea748875b15e0506a01a91f5a09090764cb4d36",
+    "HANDOFF.md": "b643c615d909d3d1f1afe08f97021f99fc6b08d15701b60a8c074517b28bf2f8",
+    "LIVE.md": "f495db1e6c624de97643fd1af8e8154e09c28edf1577d4d8e0964df7e4f1efb5",
+    "UDT_DEVELOPMENT.md": "fcee5c089b6ab422876a5f12b00cec8bb15cfcca99f26ceef17a3ba92fae916a",
+    "development_reconstruction_2026-09-29/DEVELOPMENT_GRAPH.json": "f06b96239869de6faee3911e9fbe976af70a45c180f8299483fd814ee27d5252",
+    "development_reconstruction_2026-09-29/RECENT_DISPOSITIONS.tsv": "15fbf36632013ad8403452a2c620315b0f7f5c8055248e1d90db90d61f85bf9a"
+  },
+  "existing_recent_rows_preserved": true,
+  "generated_orientation_matches": true,
+  "new_pins_verified": [
+    "udt_time_live_production_survey_2026-10-01/CLOCK_DISPATCH.json",
+    "udt_time_live_production_survey_2026-10-01/EXECUTION_FREEZE.json",
+    "udt_time_live_production_survey_2026-10-01/FIRST_GATE.json",
+    "udt_time_live_production_survey_2026-10-01/LAUNCH_CHECKPOINT.md",
+    "udt_time_live_production_survey_2026-10-01/WORK_ORDER.md"
+  ],
+  "old_source_pin_count": 121,
+  "old_source_pins_unchanged": true,
+  "prior_review_support_preserved": true,
+  "scope": "Version/graph/editorial correspondence only. No old scientific reproof, grade change, raw-payload availability or running-process liveness established.",
+  "source_sha256": "5586287763e8ba21cb542d9b2f2de95f21cb032e57687fd4e45042f1f9221453",
+  "status": "PASS"
+}

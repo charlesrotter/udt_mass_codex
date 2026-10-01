@@ -1,0 +1,50 @@
+{
+  "status": "CAPTURE_INDEPENDENT_REVIEW_PASS",
+  "context": "/root/survey_runtime, fresh same-model context; parent authored capture.py, reviewer did not",
+  "source_sha256": "217cdbac5486e8a531552f4d74a15ce641299b65dafb5d58f7b60f4ba51781bc",
+  "actual_subprocess_checks": [
+    {
+      "case": "delay",
+      "command": [
+        "/usr/bin/python3",
+        "/home/udt-admin/udt_mass_codex/udt_time_live_production_survey_2026-10-01/capture.py",
+        "/home/udt-admin/udt_mass_codex/udt_time_live_production_survey_2026-10-01/review/runtime/capture_fixtures/delay",
+        "/usr/bin/python3",
+        "/home/udt-admin/udt_mass_codex/udt_time_live_production_survey_2026-10-01/review/runtime/capture_fixtures/child.py",
+        "delay"
+      ],
+      "receipt_sha256": "d2cc6f8e18f9c8c1cb5feff2ca784802c72b1624a73c345d9adb6e4ab3be99bb",
+      "returncode": 0,
+      "elapsed_seconds": 0.2627161620184779
+    },
+    {
+      "case": "signal",
+      "command": [
+        "/usr/bin/python3",
+        "/home/udt-admin/udt_mass_codex/udt_time_live_production_survey_2026-10-01/capture.py",
+        "/home/udt-admin/udt_mass_codex/udt_time_live_production_survey_2026-10-01/review/runtime/capture_fixtures/signal",
+        "/usr/bin/python3",
+        "/home/udt-admin/udt_mass_codex/udt_time_live_production_survey_2026-10-01/review/runtime/capture_fixtures/child.py",
+        "signal"
+      ],
+      "receipt_sha256": "85d56d3162944c07acbab9e00ac2b63a62cb03f39db0bf27e6365ea778c54d7b",
+      "returncode": 75,
+      "elapsed_seconds": 0.02291187597438693
+    }
+  ],
+  "rejection_controls": [
+    {
+      "case": "invalid_memory",
+      "caught": "CAPTURE_SCHEMA"
+    },
+    {
+      "case": "inherited_cpu",
+      "caught": "INHERITED_CPU_TIMEOUT_REQUIRES_REVIEW"
+    },
+    {
+      "case": "overwrite",
+      "caught": "REFUSE_CAPTURE_OVERWRITE"
+    }
+  ],
+  "scope": "Two finite actual CPU subprocess checks and static call review. Real signal forwarding and readable receipts observed. GPU mapping not exercised, no universal signal/crash guarantee."
+}

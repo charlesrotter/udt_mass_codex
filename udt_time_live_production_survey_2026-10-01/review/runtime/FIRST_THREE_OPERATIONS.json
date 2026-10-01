@@ -1,0 +1,53 @@
+{
+  "status": "FIRST_THREE_OPERATIONS_PASS",
+  "manifest_sha256": "237d0033935e8708a50429df77aea10adea43ced339a2aa0ed971a71d027bac7",
+  "reports": [
+    {
+      "case": "axial_a0_n24",
+      "steps": 604,
+      "mean_step_ticks": 7.947019867549669,
+      "largest_stage_cfl": 0.24932564777502011,
+      "peak_allocated_gpu_bytes": 170138112,
+      "maximum_logged_original_constraint": 5.44378452906058e-12,
+      "authenticated_checkpoints": 32,
+      "case_bytes": 69509391,
+      "worker_wall_seconds": 16.387858793023042,
+      "receipt_sha256": "9c7966b7bc9ae9e3556d5d218342e6a04e0e54d7f01ac7ffe4babb669f8bff68"
+    },
+    {
+      "case": "axial_a0_n24_half",
+      "steps": 1199,
+      "mean_step_ticks": 4.0033361134278564,
+      "largest_stage_cfl": 0.12487221177354638,
+      "peak_allocated_gpu_bytes": 170138112,
+      "maximum_logged_original_constraint": 1.0938541739058394e-12,
+      "authenticated_checkpoints": 32,
+      "case_bytes": 69510775,
+      "worker_wall_seconds": 27.82505358598428,
+      "receipt_sha256": "2fd8d59e2111c893d5557779b0b6e3cc3949160293f64b71c9bf1fe1d05bcf79"
+    },
+    {
+      "case": "axial_a0_n32",
+      "steps": 751,
+      "mean_step_ticks": 6.391478029294274,
+      "largest_stage_cfl": 0.24998241014790382,
+      "peak_allocated_gpu_bytes": 355607552,
+      "maximum_logged_original_constraint": 4.430374470065779e-12,
+      "authenticated_checkpoints": 32,
+      "case_bytes": 163501310,
+      "worker_wall_seconds": 40.23175651096972,
+      "receipt_sha256": "f7368ec43de2242805d1983024c86443d323390f105acd1f9fafb3f8acb93dba"
+    }
+  ],
+  "used_production_bytes": 1284193824,
+  "fine_ceiling_and_CFL_both_halved": true,
+  "source_sha256": {
+    "udt_time_live_production_survey_2026-10-01/supervise.py": "75081fbabb7eec3fd0c765884e941c88bf303302b5fc9f544ae97b4172ec1c0d",
+    "udt_time_live_production_survey_2026-10-01/production_worker.py": "ad06a64a7aa6ccaac4956d0f6295fef3011636c05f7cf9b610d65960a15b1cd0",
+    "udt_time_live_production_survey_2026-10-01/capture.py": "217cdbac5486e8a531552f4d74a15ce641299b65dafb5d58f7b60f4ba51781bc",
+    "udt_time_live_production_survey_2026-10-01/launch_queue.py": "71d1d7603ae4cd90f65c249a4706a4971878fc5ca9b5cc08ec9ef90cbd0ee267",
+    "udt_time_live_production_survey_2026-10-01/status.py": "6916fbc56d6ad23883ac61c8b4de46feb67aa1543747bfece2ae5dbf3bbb8848",
+    "udt_time_live_production_survey_2026-10-01/review/runtime/check_first_three_operations.py": "e72c2cb12b081a7eac01d6615e78607df5aaa0555fd7693dcb5247e097a2cf43"
+  },
+  "scope": "Independent receipt/log/checkpoint/hash accounting and actual stage controls; logged original constraints are producer evidence. Separate math reviewer owns original-equation recomputation."
+}
