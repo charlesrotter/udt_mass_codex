@@ -1,0 +1,25 @@
+{
+  "pid": 2576921,
+  "proc_start_ticks": "28421979",
+  "command": [
+    "/usr/bin/python3",
+    "/home/udt-admin/udt_mass_codex/udt_time_live_production_survey_2026-10-01/capture.py",
+    "--gpu",
+    "/home/udt-admin/udt_mass_codex/udt_time_live_production_survey_2026-10-01/production_runtime/first_gate",
+    "/usr/bin/python3",
+    "/home/udt-admin/udt_mass_codex/udt_time_live_production_survey_2026-10-01/supervise.py",
+    "/home/udt-admin/udt_mass_codex/udt_time_live_production_survey_2026-10-01/production_runtime/campaign.json",
+    "/home/udt-admin/udt_mass_codex/udt_time_live_production_survey_2026-10-01/production_runtime",
+    "--stop-after",
+    "3"
+  ],
+  "cwd": "/home/udt-admin/udt_mass_codex",
+  "utc": "2026-10-01T02:34:55.596656+00:00",
+  "wall_timeout_seconds": null,
+  "manifest_sha256": "237d0033935e8708a50429df77aea10adea43ced339a2aa0ed971a71d027bac7",
+  "launch_source_sha256": "71d1d7603ae4cd90f65c249a4706a4971878fc5ca9b5cc08ec9ef90cbd0ee267",
+  "result_receipt": "/home/udt-admin/udt_mass_codex/udt_time_live_production_survey_2026-10-01/production_runtime/first_gate.json",
+  "stdout": "/home/udt-admin/udt_mass_codex/udt_time_live_production_survey_2026-10-01/production_runtime/first_gate.stdout",
+  "stderr": "/home/udt-admin/udt_mass_codex/udt_time_live_production_survey_2026-10-01/production_runtime/first_gate.stderr",
+  "stop": "Verify PID/start identity, then send SIGTERM to this capture PID for forwarding and checkpointing; no automatic timed kill"
+}

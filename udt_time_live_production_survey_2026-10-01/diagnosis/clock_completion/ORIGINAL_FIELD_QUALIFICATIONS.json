@@ -1,0 +1,4377 @@
+{
+  "clock_candidate_sha256": "f39e06716661cd997dcc542132300c69f77691a3bc59db775fd72801e4992aa0",
+  "datasets": [
+    {
+      "cases": [
+        "axial_a0_n24",
+        "axial_a0_n24_half",
+        "axial_a0_n32"
+      ],
+      "clock_interpretation": "Conditional supplied-field readout",
+      "dataset": "axial_a0",
+      "matched_clock_diagnostics": [
+        {
+          "diagnostic": "PASS",
+          "max_logZ_difference": 4.187570429303733e-13,
+          "other": "axial_a0_n24_half",
+          "reference": "axial_a0_n24"
+        },
+        {
+          "diagnostic": "PASS",
+          "max_logZ_difference": 1.2908597801786215e-13,
+          "other": "axial_a0_n32",
+          "reference": "axial_a0_n24"
+        }
+      ],
+      "original_field_qualification": "PASS",
+      "original_numerical_gate": {
+        "dataset": "axial_a0",
+        "final_time_refinement": {
+          "g": 2.857373004871988e-09,
+          "v": 5.738002073485404e-09
+        },
+        "original_equations": {
+          "axial_a0_n24": "PASS",
+          "axial_a0_n24_half": "PASS",
+          "axial_a0_n32": "PASS"
+        },
+        "spatial": [
+          {
+            "all_points_both_meshes_max": 1.9047058374965786e-10,
+            "coarse_common8_max": 1.4526119196389686e-10,
+            "fine_common8_max": 1.3545653487767595e-10,
+            "order": 6,
+            "ratio": 1.0723823113818394,
+            "status": "PASS"
+          },
+          {
+            "all_points_both_meshes_max": 1.9476181778443902e-10,
+            "coarse_common8_max": 1.4687762117659986e-10,
+            "fine_common8_max": 1.3834594581041415e-10,
+            "order": 8,
+            "ratio": 1.0616691390283117,
+            "status": "PASS"
+          }
+        ],
+        "status": "PASS",
+        "temporal_status": "PASS"
+      }
+    },
+    {
+      "cases": [
+        "oblique_a0_p0_r0_n24",
+        "oblique_a0_p0_r0_n24_half",
+        "oblique_a0_p0_r0_n32"
+      ],
+      "clock_interpretation": "Conditional supplied-field readout",
+      "dataset": "oblique_a0_p0_r0",
+      "matched_clock_diagnostics": [
+        {
+          "diagnostic": "PASS",
+          "max_logZ_difference": 3.041421281491097e-13,
+          "other": "oblique_a0_p0_r0_n24_half",
+          "reference": "oblique_a0_p0_r0_n24"
+        },
+        {
+          "diagnostic": "PASS",
+          "max_logZ_difference": 3.9208220004027794e-14,
+          "other": "oblique_a0_p0_r0_n32",
+          "reference": "oblique_a0_p0_r0_n24"
+        }
+      ],
+      "original_field_qualification": "PASS",
+      "original_numerical_gate": {
+        "dataset": "oblique_a0_p0_r0",
+        "final_time_refinement": {
+          "g": 2.5571331718765578e-09,
+          "v": 7.4493087254268175e-09
+        },
+        "original_equations": {
+          "oblique_a0_p0_r0_n24": "PASS",
+          "oblique_a0_p0_r0_n24_half": "PASS",
+          "oblique_a0_p0_r0_n32": "PASS"
+        },
+        "spatial": [
+          {
+            "all_points_both_meshes_max": 3.083283073301857e-10,
+            "coarse_common8_max": 2.4484880789543695e-10,
+            "fine_common8_max": 2.5972440864663326e-10,
+            "order": 6,
+            "ratio": 0.9427254418300159,
+            "status": "PASS"
+          },
+          {
+            "all_points_both_meshes_max": 3.1008157153067373e-10,
+            "coarse_common8_max": 2.4602253567707066e-10,
+            "fine_common8_max": 2.606873605870419e-10,
+            "order": 8,
+            "ratio": 0.9437455468613917,
+            "status": "PASS"
+          }
+        ],
+        "status": "PASS",
+        "temporal_status": "PASS"
+      }
+    },
+    {
+      "cases": [
+        "oblique_a0_p0_r1_n24",
+        "oblique_a0_p0_r1_n24_half",
+        "oblique_a0_p0_r1_n32"
+      ],
+      "clock_interpretation": "Conditional supplied-field readout",
+      "dataset": "oblique_a0_p0_r1",
+      "matched_clock_diagnostics": [
+        {
+          "diagnostic": "PASS",
+          "max_logZ_difference": 2.7423202597631757e-13,
+          "other": "oblique_a0_p0_r1_n24_half",
+          "reference": "oblique_a0_p0_r1_n24"
+        },
+        {
+          "diagnostic": "PASS",
+          "max_logZ_difference": 2.158516421157941e-14,
+          "other": "oblique_a0_p0_r1_n32",
+          "reference": "oblique_a0_p0_r1_n24"
+        }
+      ],
+      "original_field_qualification": "PASS",
+      "original_numerical_gate": {
+        "dataset": "oblique_a0_p0_r1",
+        "final_time_refinement": {
+          "g": 2.502456908359818e-09,
+          "v": 7.250456235396996e-09
+        },
+        "original_equations": {
+          "oblique_a0_p0_r1_n24": "PASS",
+          "oblique_a0_p0_r1_n24_half": "PASS",
+          "oblique_a0_p0_r1_n32": "PASS"
+        },
+        "spatial": [
+          {
+            "all_points_both_meshes_max": 2.7077551312260084e-10,
+            "coarse_common8_max": 2.226824835638297e-10,
+            "fine_common8_max": 2.479590421877731e-10,
+            "order": 6,
+            "ratio": 0.89806155725992,
+            "status": "PASS"
+          },
+          {
+            "all_points_both_meshes_max": 2.7432112137404374e-10,
+            "coarse_common8_max": 2.231770879213002e-10,
+            "fine_common8_max": 2.4749652327571425e-10,
+            "order": 8,
+            "ratio": 0.9017382748147864,
+            "status": "PASS"
+          }
+        ],
+        "status": "PASS",
+        "temporal_status": "PASS"
+      }
+    },
+    {
+      "cases": [
+        "oblique_a0_p0_r2_n24",
+        "oblique_a0_p0_r2_n24_half",
+        "oblique_a0_p0_r2_n32"
+      ],
+      "clock_interpretation": "Conditional supplied-field readout",
+      "dataset": "oblique_a0_p0_r2",
+      "matched_clock_diagnostics": [
+        {
+          "diagnostic": "PASS",
+          "max_logZ_difference": 2.5157653738006047e-13,
+          "other": "oblique_a0_p0_r2_n24_half",
+          "reference": "oblique_a0_p0_r2_n24"
+        },
+        {
+          "diagnostic": "PASS",
+          "max_logZ_difference": 5.066953800980656e-14,
+          "other": "oblique_a0_p0_r2_n32",
+          "reference": "oblique_a0_p0_r2_n24"
+        }
+      ],
+      "original_field_qualification": "PASS",
+      "original_numerical_gate": {
+        "dataset": "oblique_a0_p0_r2",
+        "final_time_refinement": {
+          "g": 2.394646259062938e-09,
+          "v": 6.53051301924279e-09
+        },
+        "original_equations": {
+          "oblique_a0_p0_r2_n24": "PASS",
+          "oblique_a0_p0_r2_n24_half": "PASS",
+          "oblique_a0_p0_r2_n32": "PASS"
+        },
+        "spatial": [
+          {
+            "all_points_both_meshes_max": 2.3215795952324925e-10,
+            "coarse_common8_max": 1.9176205068305308e-10,
+            "fine_common8_max": 2.1881035872084453e-10,
+            "order": 6,
+            "ratio": 0.8763847004505881,
+            "status": "PASS"
+          },
+          {
+            "all_points_both_meshes_max": 2.347549377113012e-10,
+            "coarse_common8_max": 1.924618242554743e-10,
+            "fine_common8_max": 2.2038787461653442e-10,
+            "order": 8,
+            "ratio": 0.8732868112202169,
+            "status": "PASS"
+          }
+        ],
+        "status": "PASS",
+        "temporal_status": "PASS"
+      }
+    },
+    {
+      "cases": [
+        "oblique_a0_p1_r0_n24",
+        "oblique_a0_p1_r0_n24_half",
+        "oblique_a0_p1_r0_n32"
+      ],
+      "clock_interpretation": "Conditional supplied-field readout",
+      "dataset": "oblique_a0_p1_r0",
+      "matched_clock_diagnostics": [
+        {
+          "diagnostic": "PASS",
+          "max_logZ_difference": 3.385156738255901e-13,
+          "other": "oblique_a0_p1_r0_n24_half",
+          "reference": "oblique_a0_p1_r0_n24"
+        },
+        {
+          "diagnostic": "PASS",
+          "max_logZ_difference": 6.012551567735613e-14,
+          "other": "oblique_a0_p1_r0_n32",
+          "reference": "oblique_a0_p1_r0_n24"
+        }
+      ],
+      "original_field_qualification": "PASS",
+      "original_numerical_gate": {
+        "dataset": "oblique_a0_p1_r0",
+        "final_time_refinement": {
+          "g": 2.557417388970862e-09,
+          "v": 7.444313609994424e-09
+        },
+        "original_equations": {
+          "oblique_a0_p1_r0_n24": "PASS",
+          "oblique_a0_p1_r0_n24_half": "PASS",
+          "oblique_a0_p1_r0_n32": "PASS"
+        },
+        "spatial": [
+          {
+            "all_points_both_meshes_max": 3.000081849613423e-10,
+            "coarse_common8_max": 2.3398755155668027e-10,
+            "fine_common8_max": 2.779702024113817e-10,
+            "order": 6,
+            "ratio": 0.8417720659511218,
+            "status": "PASS"
+          },
+          {
+            "all_points_both_meshes_max": 3.0206176448999145e-10,
+            "coarse_common8_max": 2.3321228281858453e-10,
+            "fine_common8_max": 2.788624331451217e-10,
+            "order": 8,
+            "ratio": 0.8362986731067481,
+            "status": "PASS"
+          }
+        ],
+        "status": "PASS",
+        "temporal_status": "PASS"
+      }
+    },
+    {
+      "cases": [
+        "oblique_a0_p1_r1_n24",
+        "oblique_a0_p1_r1_n24_half",
+        "oblique_a0_p1_r1_n32"
+      ],
+      "clock_interpretation": "Conditional supplied-field readout",
+      "dataset": "oblique_a0_p1_r1",
+      "matched_clock_diagnostics": [
+        {
+          "diagnostic": "PASS",
+          "max_logZ_difference": 2.9715119254092315e-13,
+          "other": "oblique_a0_p1_r1_n24_half",
+          "reference": "oblique_a0_p1_r1_n24"
+        },
+        {
+          "diagnostic": "PASS",
+          "max_logZ_difference": 7.643538579849007e-14,
+          "other": "oblique_a0_p1_r1_n32",
+          "reference": "oblique_a0_p1_r1_n24"
+        }
+      ],
+      "original_field_qualification": "PASS",
+      "original_numerical_gate": {
+        "dataset": "oblique_a0_p1_r1",
+        "final_time_refinement": {
+          "g": 2.5007338422256e-09,
+          "v": 7.235392729398882e-09
+        },
+        "original_equations": {
+          "oblique_a0_p1_r1_n24": "PASS",
+          "oblique_a0_p1_r1_n24_half": "PASS",
+          "oblique_a0_p1_r1_n32": "PASS"
+        },
+        "spatial": [
+          {
+            "all_points_both_meshes_max": 3.0713570575713334e-10,
+            "coarse_common8_max": 2.3042678876095124e-10,
+            "fine_common8_max": 2.7629470933376865e-10,
+            "order": 6,
+            "ratio": 0.8339891462872414,
+            "status": "PASS"
+          },
+          {
+            "all_points_both_meshes_max": 3.089053457472346e-10,
+            "coarse_common8_max": 2.330937665107058e-10,
+            "fine_common8_max": 2.766672446696816e-10,
+            "order": 8,
+            "ratio": 0.8425058296619137,
+            "status": "PASS"
+          }
+        ],
+        "status": "PASS",
+        "temporal_status": "PASS"
+      }
+    },
+    {
+      "cases": [
+        "oblique_a0_p1_r2_n24",
+        "oblique_a0_p1_r2_n24_half",
+        "oblique_a0_p1_r2_n32"
+      ],
+      "clock_interpretation": "Conditional supplied-field readout",
+      "dataset": "oblique_a0_p1_r2",
+      "matched_clock_diagnostics": [
+        {
+          "diagnostic": "PASS",
+          "max_logZ_difference": 2.764802276011835e-13,
+          "other": "oblique_a0_p1_r2_n24_half",
+          "reference": "oblique_a0_p1_r2_n24"
+        },
+        {
+          "diagnostic": "PASS",
+          "max_logZ_difference": 8.107230164977608e-14,
+          "other": "oblique_a0_p1_r2_n32",
+          "reference": "oblique_a0_p1_r2_n24"
+        }
+      ],
+      "original_field_qualification": "PASS",
+      "original_numerical_gate": {
+        "dataset": "oblique_a0_p1_r2",
+        "final_time_refinement": {
+          "g": 2.3941417737205484e-09,
+          "v": 6.519115913761198e-09
+        },
+        "original_equations": {
+          "oblique_a0_p1_r2_n24": "PASS",
+          "oblique_a0_p1_r2_n24_half": "PASS",
+          "oblique_a0_p1_r2_n32": "PASS"
+        },
+        "spatial": [
+          {
+            "all_points_both_meshes_max": 2.3500690282673986e-10,
+            "coarse_common8_max": 1.9581025689774378e-10,
+            "fine_common8_max": 2.0824175717137905e-10,
+            "order": 6,
+            "ratio": 0.9403025577458781,
+            "status": "PASS"
+          },
+          {
+            "all_points_both_meshes_max": 2.389986542006284e-10,
+            "coarse_common8_max": 1.9687862451434057e-10,
+            "fine_common8_max": 2.0967994007747848e-10,
+            "order": 8,
+            "ratio": 0.9389483058874983,
+            "status": "PASS"
+          }
+        ],
+        "status": "PASS",
+        "temporal_status": "PASS"
+      }
+    },
+    {
+      "cases": [
+        "oblique_a0_p2_r0_n24",
+        "oblique_a0_p2_r0_n24_half",
+        "oblique_a0_p2_r0_n32"
+      ],
+      "clock_interpretation": "Conditional supplied-field readout",
+      "dataset": "oblique_a0_p2_r0",
+      "matched_clock_diagnostics": [
+        {
+          "diagnostic": "PASS",
+          "max_logZ_difference": 3.3544000910268323e-13,
+          "other": "oblique_a0_p2_r0_n24_half",
+          "reference": "oblique_a0_p2_r0_n24"
+        },
+        {
+          "diagnostic": "PASS",
+          "max_logZ_difference": 7.246286903850319e-14,
+          "other": "oblique_a0_p2_r0_n32",
+          "reference": "oblique_a0_p2_r0_n24"
+        }
+      ],
+      "original_field_qualification": "PASS",
+      "original_numerical_gate": {
+        "dataset": "oblique_a0_p2_r0",
+        "final_time_refinement": {
+          "g": 2.557431599825577e-09,
+          "v": 7.427402692883334e-09
+        },
+        "original_equations": {
+          "oblique_a0_p2_r0_n24": "PASS",
+          "oblique_a0_p2_r0_n24_half": "PASS",
+          "oblique_a0_p2_r0_n32": "PASS"
+        },
+        "spatial": [
+          {
+            "all_points_both_meshes_max": 2.9349528363198374e-10,
+            "coarse_common8_max": 2.3961715944764705e-10,
+            "fine_common8_max": 2.725270009662495e-10,
+            "order": 6,
+            "ratio": 0.8792419048317415,
+            "status": "PASS"
+          },
+          {
+            "all_points_both_meshes_max": 2.950695798809022e-10,
+            "coarse_common8_max": 2.387436914830232e-10,
+            "fine_common8_max": 2.7414392977931357e-10,
+            "order": 8,
+            "ratio": 0.8708698809242735,
+            "status": "PASS"
+          }
+        ],
+        "status": "PASS",
+        "temporal_status": "PASS"
+      }
+    },
+    {
+      "cases": [
+        "oblique_a0_p2_r1_n24",
+        "oblique_a0_p2_r1_n24_half",
+        "oblique_a0_p2_r1_n32"
+      ],
+      "clock_interpretation": "Conditional supplied-field readout",
+      "dataset": "oblique_a0_p2_r1",
+      "matched_clock_diagnostics": [
+        {
+          "diagnostic": "PASS",
+          "max_logZ_difference": 2.973715024223722e-13,
+          "other": "oblique_a0_p2_r1_n24_half",
+          "reference": "oblique_a0_p2_r1_n24"
+        },
+        {
+          "diagnostic": "PASS",
+          "max_logZ_difference": 8.502573645152722e-14,
+          "other": "oblique_a0_p2_r1_n32",
+          "reference": "oblique_a0_p2_r1_n24"
+        }
+      ],
+      "original_field_qualification": "PASS",
+      "original_numerical_gate": {
+        "dataset": "oblique_a0_p2_r1",
+        "final_time_refinement": {
+          "g": 2.501938212162713e-09,
+          "v": 7.2153270025410166e-09
+        },
+        "original_equations": {
+          "oblique_a0_p2_r1_n24": "PASS",
+          "oblique_a0_p2_r1_n24_half": "PASS",
+          "oblique_a0_p2_r1_n32": "PASS"
+        },
+        "spatial": [
+          {
+            "all_points_both_meshes_max": 2.9100566401041306e-10,
+            "coarse_common8_max": 2.409076271803201e-10,
+            "fine_common8_max": 2.460295300821258e-10,
+            "order": 6,
+            "ratio": 0.9791817555392802,
+            "status": "PASS"
+          },
+          {
+            "all_points_both_meshes_max": 2.9257735123522366e-10,
+            "coarse_common8_max": 2.423487521774348e-10,
+            "fine_common8_max": 2.4724206015847017e-10,
+            "order": 8,
+            "ratio": 0.9802084322631068,
+            "status": "PASS"
+          }
+        ],
+        "status": "PASS",
+        "temporal_status": "PASS"
+      }
+    },
+    {
+      "cases": [
+        "oblique_a0_p2_r2_n24",
+        "oblique_a0_p2_r2_n24_half",
+        "oblique_a0_p2_r2_n32"
+      ],
+      "clock_interpretation": "Conditional supplied-field readout",
+      "dataset": "oblique_a0_p2_r2",
+      "matched_clock_diagnostics": [
+        {
+          "diagnostic": "PASS",
+          "max_logZ_difference": 2.82203080348431e-13,
+          "other": "oblique_a0_p2_r2_n24_half",
+          "reference": "oblique_a0_p2_r2_n24"
+        },
+        {
+          "diagnostic": "PASS",
+          "max_logZ_difference": 9.95748622445447e-14,
+          "other": "oblique_a0_p2_r2_n32",
+          "reference": "oblique_a0_p2_r2_n24"
+        }
+      ],
+      "original_field_qualification": "PASS",
+      "original_numerical_gate": {
+        "dataset": "oblique_a0_p2_r2",
+        "final_time_refinement": {
+          "g": 2.3948345528879145e-09,
+          "v": 6.487930193088687e-09
+        },
+        "original_equations": {
+          "oblique_a0_p2_r2_n24": "PASS",
+          "oblique_a0_p2_r2_n24_half": "PASS",
+          "oblique_a0_p2_r2_n32": "PASS"
+        },
+        "spatial": [
+          {
+            "all_points_both_meshes_max": 2.4228868911180257e-10,
+            "coarse_common8_max": 2.1933732607948286e-10,
+            "fine_common8_max": 2.2451246417531934e-10,
+            "order": 6,
+            "ratio": 0.9769494396899262,
+            "status": "PASS"
+          },
+          {
+            "all_points_both_meshes_max": 2.4646290563978823e-10,
+            "coarse_common8_max": 2.222665940188051e-10,
+            "fine_common8_max": 2.263250697964736e-10,
+            "order": 8,
+            "ratio": 0.9820679353757932,
+            "status": "PASS"
+          }
+        ],
+        "status": "PASS",
+        "temporal_status": "PASS"
+      }
+    },
+    {
+      "cases": [
+        "oblique_a0_p3_r0_n24",
+        "oblique_a0_p3_r0_n24_half",
+        "oblique_a0_p3_r0_n32"
+      ],
+      "clock_interpretation": "Conditional supplied-field readout",
+      "dataset": "oblique_a0_p3_r0",
+      "matched_clock_diagnostics": [
+        {
+          "diagnostic": "PASS",
+          "max_logZ_difference": 3.162713146931395e-13,
+          "other": "oblique_a0_p3_r0_n24_half",
+          "reference": "oblique_a0_p3_r0_n24"
+        },
+        {
+          "diagnostic": "PASS",
+          "max_logZ_difference": 3.986394547794703e-14,
+          "other": "oblique_a0_p3_r0_n32",
+          "reference": "oblique_a0_p3_r0_n24"
+        }
+      ],
+      "original_field_qualification": "PASS",
+      "original_numerical_gate": {
+        "dataset": "oblique_a0_p3_r0",
+        "final_time_refinement": {
+          "g": 2.556063805059239e-09,
+          "v": 7.379952648989274e-09
+        },
+        "original_equations": {
+          "oblique_a0_p3_r0_n24": "PASS",
+          "oblique_a0_p3_r0_n24_half": "PASS",
+          "oblique_a0_p3_r0_n32": "PASS"
+        },
+        "spatial": [
+          {
+            "all_points_both_meshes_max": 3.03962299774696e-10,
+            "coarse_common8_max": 2.3854129782563405e-10,
+            "fine_common8_max": 2.7453073148109297e-10,
+            "order": 6,
+            "ratio": 0.8689056286657018,
+            "status": "PASS"
+          },
+          {
+            "all_points_both_meshes_max": 3.0676383655503514e-10,
+            "coarse_common8_max": 2.389257125479105e-10,
+            "fine_common8_max": 2.7586383177791163e-10,
+            "order": 8,
+            "ratio": 0.8661001734372388,
+            "status": "PASS"
+          }
+        ],
+        "status": "PASS",
+        "temporal_status": "PASS"
+      }
+    },
+    {
+      "cases": [
+        "oblique_a0_p3_r1_n24",
+        "oblique_a0_p3_r1_n24_half",
+        "oblique_a0_p3_r1_n32"
+      ],
+      "clock_interpretation": "Conditional supplied-field readout",
+      "dataset": "oblique_a0_p3_r1",
+      "matched_clock_diagnostics": [
+        {
+          "diagnostic": "PASS",
+          "max_logZ_difference": 2.914335439641036e-13,
+          "other": "oblique_a0_p3_r1_n24_half",
+          "reference": "oblique_a0_p3_r1_n24"
+        },
+        {
+          "diagnostic": "PASS",
+          "max_logZ_difference": 5.154210391822289e-14,
+          "other": "oblique_a0_p3_r1_n32",
+          "reference": "oblique_a0_p3_r1_n24"
+        }
+      ],
+      "original_field_qualification": "PASS",
+      "original_numerical_gate": {
+        "dataset": "oblique_a0_p3_r1",
+        "final_time_refinement": {
+          "g": 2.5023645378041692e-09,
+          "v": 7.162824999795703e-09
+        },
+        "original_equations": {
+          "oblique_a0_p3_r1_n24": "PASS",
+          "oblique_a0_p3_r1_n24_half": "PASS",
+          "oblique_a0_p3_r1_n32": "PASS"
+        },
+        "spatial": [
+          {
+            "all_points_both_meshes_max": 2.8241997629407933e-10,
+            "coarse_common8_max": 2.0841772752078214e-10,
+            "fine_common8_max": 2.5317997698337535e-10,
+            "order": 6,
+            "ratio": 0.8231998833559715,
+            "status": "PASS"
+          },
+          {
+            "all_points_both_meshes_max": 2.8322150180670747e-10,
+            "coarse_common8_max": 2.0883755835754414e-10,
+            "fine_common8_max": 2.5324287111772037e-10,
+            "order": 8,
+            "ratio": 0.8246532565193737,
+            "status": "PASS"
+          }
+        ],
+        "status": "PASS",
+        "temporal_status": "PASS"
+      }
+    },
+    {
+      "cases": [
+        "oblique_a0_p3_r2_n24",
+        "oblique_a0_p3_r2_n24_half",
+        "oblique_a0_p3_r2_n32"
+      ],
+      "clock_interpretation": "Conditional supplied-field readout",
+      "dataset": "oblique_a0_p3_r2",
+      "matched_clock_diagnostics": [
+        {
+          "diagnostic": "PASS",
+          "max_logZ_difference": 2.8042498878555477e-13,
+          "other": "oblique_a0_p3_r2_n24_half",
+          "reference": "oblique_a0_p3_r2_n24"
+        },
+        {
+          "diagnostic": "PASS",
+          "max_logZ_difference": 7.071079832776661e-14,
+          "other": "oblique_a0_p3_r2_n32",
+          "reference": "oblique_a0_p3_r2_n24"
+        }
+      ],
+      "original_field_qualification": "PASS",
+      "original_numerical_gate": {
+        "dataset": "oblique_a0_p3_r2",
+        "final_time_refinement": {
+          "g": 2.3931434611768054e-09,
+          "v": 6.442682831675484e-09
+        },
+        "original_equations": {
+          "oblique_a0_p3_r2_n24": "PASS",
+          "oblique_a0_p3_r2_n24_half": "PASS",
+          "oblique_a0_p3_r2_n32": "PASS"
+        },
+        "spatial": [
+          {
+            "all_points_both_meshes_max": 2.33562613694005e-10,
+            "coarse_common8_max": 1.9004681162115844e-10,
+            "fine_common8_max": 2.162305889896743e-10,
+            "order": 6,
+            "ratio": 0.8789080791443148,
+            "status": "PASS"
+          },
+          {
+            "all_points_both_meshes_max": 2.3691509865031435e-10,
+            "coarse_common8_max": 1.9125068195791073e-10,
+            "fine_common8_max": 2.1874307920555225e-10,
+            "order": 8,
+            "ratio": 0.8743164933606563,
+            "status": "PASS"
+          }
+        ],
+        "status": "PASS",
+        "temporal_status": "PASS"
+      }
+    },
+    {
+      "cases": [
+        "axial_a1_n24",
+        "axial_a1_n24_half",
+        "axial_a1_n32"
+      ],
+      "clock_interpretation": "Conditional supplied-field readout",
+      "dataset": "axial_a1",
+      "matched_clock_diagnostics": [
+        {
+          "diagnostic": "PASS",
+          "max_logZ_difference": 8.853473509873311e-13,
+          "other": "axial_a1_n24_half",
+          "reference": "axial_a1_n24"
+        },
+        {
+          "diagnostic": "PASS",
+          "max_logZ_difference": 2.7382089651251107e-13,
+          "other": "axial_a1_n32",
+          "reference": "axial_a1_n24"
+        }
+      ],
+      "original_field_qualification": "PASS",
+      "original_numerical_gate": {
+        "dataset": "axial_a1",
+        "final_time_refinement": {
+          "g": 4.023739563763229e-09,
+          "v": 8.769823978127533e-09
+        },
+        "original_equations": {
+          "axial_a1_n24": "PASS",
+          "axial_a1_n24_half": "PASS",
+          "axial_a1_n32": "PASS"
+        },
+        "spatial": [
+          {
+            "all_points_both_meshes_max": 3.431209760762499e-10,
+            "coarse_common8_max": 3.1092500796248146e-10,
+            "fine_common8_max": 2.498891094049327e-10,
+            "order": 6,
+            "ratio": 1.2442519351999577,
+            "status": "PASS"
+          },
+          {
+            "all_points_both_meshes_max": 3.4701114204338523e-10,
+            "coarse_common8_max": 3.145795846037913e-10,
+            "fine_common8_max": 2.5366958533723505e-10,
+            "order": 8,
+            "ratio": 1.240115499797033,
+            "status": "PASS"
+          }
+        ],
+        "status": "PASS",
+        "temporal_status": "PASS"
+      }
+    },
+    {
+      "cases": [
+        "oblique_a1_p0_r0_n24",
+        "oblique_a1_p0_r0_n24_half",
+        "oblique_a1_p0_r0_n32"
+      ],
+      "clock_interpretation": "Conditional supplied-field readout",
+      "dataset": "oblique_a1_p0_r0",
+      "matched_clock_diagnostics": [
+        {
+          "diagnostic": "PASS",
+          "max_logZ_difference": 6.125794316247379e-13,
+          "other": "oblique_a1_p0_r0_n24_half",
+          "reference": "oblique_a1_p0_r0_n24"
+        },
+        {
+          "diagnostic": "PASS",
+          "max_logZ_difference": 4.2276945833030766e-14,
+          "other": "oblique_a1_p0_r0_n32",
+          "reference": "oblique_a1_p0_r0_n24"
+        }
+      ],
+      "original_field_qualification": "PASS",
+      "original_numerical_gate": {
+        "dataset": "oblique_a1_p0_r0",
+        "final_time_refinement": {
+          "g": 3.342080390211777e-09,
+          "v": 1.257721038427917e-08
+        },
+        "original_equations": {
+          "oblique_a1_p0_r0_n24": "PASS",
+          "oblique_a1_p0_r0_n24_half": "PASS",
+          "oblique_a1_p0_r0_n32": "PASS"
+        },
+        "spatial": [
+          {
+            "all_points_both_meshes_max": 6.236038352369633e-10,
+            "coarse_common8_max": 5.901511501704704e-10,
+            "fine_common8_max": 5.736434660619238e-10,
+            "order": 6,
+            "ratio": 1.0287769060142393,
+            "status": "PASS"
+          },
+          {
+            "all_points_both_meshes_max": 6.233655258647275e-10,
+            "coarse_common8_max": 5.901691912946205e-10,
+            "fine_common8_max": 5.741169761819265e-10,
+            "order": 8,
+            "ratio": 1.0279598335855644,
+            "status": "PASS"
+          }
+        ],
+        "status": "PASS",
+        "temporal_status": "PASS"
+      }
+    },
+    {
+      "cases": [
+        "oblique_a1_p0_r1_n24",
+        "oblique_a1_p0_r1_n24_half",
+        "oblique_a1_p0_r1_n32"
+      ],
+      "clock_interpretation": "Conditional supplied-field readout",
+      "dataset": "oblique_a1_p0_r1",
+      "matched_clock_diagnostics": [
+        {
+          "diagnostic": "PASS",
+          "max_logZ_difference": 5.189407931149859e-13,
+          "other": "oblique_a1_p0_r1_n24_half",
+          "reference": "oblique_a1_p0_r1_n24"
+        },
+        {
+          "diagnostic": "PASS",
+          "max_logZ_difference": 5.818956427816602e-14,
+          "other": "oblique_a1_p0_r1_n32",
+          "reference": "oblique_a1_p0_r1_n24"
+        }
+      ],
+      "original_field_qualification": "PASS",
+      "original_numerical_gate": {
+        "dataset": "oblique_a1_p0_r1",
+        "final_time_refinement": {
+          "g": 3.261408920707254e-09,
+          "v": 1.2354817613413616e-08
+        },
+        "original_equations": {
+          "oblique_a1_p0_r1_n24": "PASS",
+          "oblique_a1_p0_r1_n24_half": "PASS",
+          "oblique_a1_p0_r1_n32": "PASS"
+        },
+        "spatial": [
+          {
+            "all_points_both_meshes_max": 5.841153116747932e-10,
+            "coarse_common8_max": 5.299800043268021e-10,
+            "fine_common8_max": 5.30134325327225e-10,
+            "order": 6,
+            "ratio": 0.9997089020781146,
+            "status": "PASS"
+          },
+          {
+            "all_points_both_meshes_max": 5.872470842938071e-10,
+            "coarse_common8_max": 5.348270160077107e-10,
+            "fine_common8_max": 5.323508855958892e-10,
+            "order": 8,
+            "ratio": 1.0046513126564067,
+            "status": "PASS"
+          }
+        ],
+        "status": "PASS",
+        "temporal_status": "PASS"
+      }
+    },
+    {
+      "cases": [
+        "oblique_a1_p0_r2_n24",
+        "oblique_a1_p0_r2_n24_half",
+        "oblique_a1_p0_r2_n32"
+      ],
+      "clock_interpretation": "Conditional supplied-field readout",
+      "dataset": "oblique_a1_p0_r2",
+      "matched_clock_diagnostics": [
+        {
+          "diagnostic": "PASS",
+          "max_logZ_difference": 4.770593642344778e-13,
+          "other": "oblique_a1_p0_r2_n24_half",
+          "reference": "oblique_a1_p0_r2_n24"
+        },
+        {
+          "diagnostic": "PASS",
+          "max_logZ_difference": 9.408186035786414e-14,
+          "other": "oblique_a1_p0_r2_n32",
+          "reference": "oblique_a1_p0_r2_n24"
+        }
+      ],
+      "original_field_qualification": "PASS",
+      "original_numerical_gate": {
+        "dataset": "oblique_a1_p0_r2",
+        "final_time_refinement": {
+          "g": 3.058019615309604e-09,
+          "v": 1.1149317913350387e-08
+        },
+        "original_equations": {
+          "oblique_a1_p0_r2_n24": "PASS",
+          "oblique_a1_p0_r2_n24_half": "PASS",
+          "oblique_a1_p0_r2_n32": "PASS"
+        },
+        "spatial": [
+          {
+            "all_points_both_meshes_max": 5.054963114758948e-10,
+            "coarse_common8_max": 4.6351256166587973e-10,
+            "fine_common8_max": 4.846785195411485e-10,
+            "order": 6,
+            "ratio": 0.9563299031793139,
+            "status": "PASS"
+          },
+          {
+            "all_points_both_meshes_max": 5.114576540066196e-10,
+            "coarse_common8_max": 4.677345177839243e-10,
+            "fine_common8_max": 4.909054829305148e-10,
+            "order": 8,
+            "ratio": 0.9527995389086532,
+            "status": "PASS"
+          }
+        ],
+        "status": "PASS",
+        "temporal_status": "PASS"
+      }
+    },
+    {
+      "cases": [
+        "oblique_a1_p1_r0_n24",
+        "oblique_a1_p1_r0_n24_half",
+        "oblique_a1_p1_r0_n32"
+      ],
+      "clock_interpretation": "Conditional supplied-field readout",
+      "dataset": "oblique_a1_p1_r0",
+      "matched_clock_diagnostics": [
+        {
+          "diagnostic": "PASS",
+          "max_logZ_difference": 6.584489897765167e-13,
+          "other": "oblique_a1_p1_r0_n24_half",
+          "reference": "oblique_a1_p1_r0_n24"
+        },
+        {
+          "diagnostic": "PASS",
+          "max_logZ_difference": 1.2354180178864027e-13,
+          "other": "oblique_a1_p1_r0_n32",
+          "reference": "oblique_a1_p1_r0_n24"
+        }
+      ],
+      "original_field_qualification": "PASS",
+      "original_numerical_gate": {
+        "dataset": "oblique_a1_p1_r0",
+        "final_time_refinement": {
+          "g": 3.345160592971297e-09,
+          "v": 1.2536382598682394e-08
+        },
+        "original_equations": {
+          "oblique_a1_p1_r0_n24": "PASS",
+          "oblique_a1_p1_r0_n24_half": "PASS",
+          "oblique_a1_p1_r0_n32": "PASS"
+        },
+        "spatial": [
+          {
+            "all_points_both_meshes_max": 6.309563982398458e-10,
+            "coarse_common8_max": 6.309563982398458e-10,
+            "fine_common8_max": 5.679506309697047e-10,
+            "order": 6,
+            "ratio": 1.1109352887988992,
+            "status": "PASS"
+          },
+          {
+            "all_points_both_meshes_max": 6.31316499077883e-10,
+            "coarse_common8_max": 6.31316499077883e-10,
+            "fine_common8_max": 5.695472982125693e-10,
+            "order": 8,
+            "ratio": 1.1084531540385956,
+            "status": "PASS"
+          }
+        ],
+        "status": "PASS",
+        "temporal_status": "PASS"
+      }
+    },
+    {
+      "cases": [
+        "oblique_a1_p1_r1_n24",
+        "oblique_a1_p1_r1_n24_half",
+        "oblique_a1_p1_r1_n32"
+      ],
+      "clock_interpretation": "Conditional supplied-field readout",
+      "dataset": "oblique_a1_p1_r1",
+      "matched_clock_diagnostics": [
+        {
+          "diagnostic": "PASS",
+          "max_logZ_difference": 5.643593231630106e-13,
+          "other": "oblique_a1_p1_r1_n24_half",
+          "reference": "oblique_a1_p1_r1_n24"
+        },
+        {
+          "diagnostic": "PASS",
+          "max_logZ_difference": 1.356935397378578e-13,
+          "other": "oblique_a1_p1_r1_n32",
+          "reference": "oblique_a1_p1_r1_n24"
+        }
+      ],
+      "original_field_qualification": "PASS",
+      "original_numerical_gate": {
+        "dataset": "oblique_a1_p1_r1",
+        "final_time_refinement": {
+          "g": 3.261369840856787e-09,
+          "v": 1.2323937426117482e-08
+        },
+        "original_equations": {
+          "oblique_a1_p1_r1_n24": "PASS",
+          "oblique_a1_p1_r1_n24_half": "PASS",
+          "oblique_a1_p1_r1_n32": "PASS"
+        },
+        "spatial": [
+          {
+            "all_points_both_meshes_max": 6.187761969478345e-10,
+            "coarse_common8_max": 5.437473249436664e-10,
+            "fine_common8_max": 5.183157791854853e-10,
+            "order": 6,
+            "ratio": 1.0490657371036356,
+            "status": "PASS"
+          },
+          {
+            "all_points_both_meshes_max": 6.221160808728143e-10,
+            "coarse_common8_max": 5.444170669832715e-10,
+            "fine_common8_max": 5.192093976980061e-10,
+            "order": 8,
+            "ratio": 1.04855010213033,
+            "status": "PASS"
+          }
+        ],
+        "status": "PASS",
+        "temporal_status": "PASS"
+      }
+    },
+    {
+      "cases": [
+        "oblique_a1_p1_r2_n24",
+        "oblique_a1_p1_r2_n24_half",
+        "oblique_a1_p1_r2_n32"
+      ],
+      "clock_interpretation": "Conditional supplied-field readout",
+      "dataset": "oblique_a1_p1_r2",
+      "matched_clock_diagnostics": [
+        {
+          "diagnostic": "PASS",
+          "max_logZ_difference": 5.013281456633933e-13,
+          "other": "oblique_a1_p1_r2_n24_half",
+          "reference": "oblique_a1_p1_r2_n24"
+        },
+        {
+          "diagnostic": "PASS",
+          "max_logZ_difference": 1.6525669721545455e-13,
+          "other": "oblique_a1_p1_r2_n32",
+          "reference": "oblique_a1_p1_r2_n24"
+        }
+      ],
+      "original_field_qualification": "PASS",
+      "original_numerical_gate": {
+        "dataset": "oblique_a1_p1_r2",
+        "final_time_refinement": {
+          "g": 3.057877506762452e-09,
+          "v": 1.1129159815936873e-08
+        },
+        "original_equations": {
+          "oblique_a1_p1_r2_n24": "PASS",
+          "oblique_a1_p1_r2_n24_half": "PASS",
+          "oblique_a1_p1_r2_n32": "PASS"
+        },
+        "spatial": [
+          {
+            "all_points_both_meshes_max": 5.187460461186788e-10,
+            "coarse_common8_max": 4.689382770983741e-10,
+            "fine_common8_max": 4.5471149068276873e-10,
+            "order": 6,
+            "ratio": 1.0312875014313874,
+            "status": "PASS"
+          },
+          {
+            "all_points_both_meshes_max": 5.263434688096424e-10,
+            "coarse_common8_max": 4.738971437490136e-10,
+            "fine_common8_max": 4.5789311231558827e-10,
+            "order": 8,
+            "ratio": 1.0349514570168836,
+            "status": "PASS"
+          }
+        ],
+        "status": "PASS",
+        "temporal_status": "PASS"
+      }
+    },
+    {
+      "cases": [
+        "oblique_a1_p2_r0_n24",
+        "oblique_a1_p2_r0_n24_half",
+        "oblique_a1_p2_r0_n32"
+      ],
+      "clock_interpretation": "Conditional supplied-field readout",
+      "dataset": "oblique_a1_p2_r0",
+      "matched_clock_diagnostics": [
+        {
+          "diagnostic": "PASS",
+          "max_logZ_difference": 6.472409413982305e-13,
+          "other": "oblique_a1_p2_r0_n24_half",
+          "reference": "oblique_a1_p2_r0_n24"
+        },
+        {
+          "diagnostic": "PASS",
+          "max_logZ_difference": 1.4182578722543582e-13,
+          "other": "oblique_a1_p2_r0_n32",
+          "reference": "oblique_a1_p2_r0_n24"
+        }
+      ],
+      "original_field_qualification": "PASS",
+      "original_numerical_gate": {
+        "dataset": "oblique_a1_p2_r0",
+        "final_time_refinement": {
+          "g": 3.3534490739839384e-09,
+          "v": 1.2481756073157158e-08
+        },
+        "original_equations": {
+          "oblique_a1_p2_r0_n24": "PASS",
+          "oblique_a1_p2_r0_n24_half": "PASS",
+          "oblique_a1_p2_r0_n32": "PASS"
+        },
+        "spatial": [
+          {
+            "all_points_both_meshes_max": 6.489615511640068e-10,
+            "coarse_common8_max": 6.067209512572447e-10,
+            "fine_common8_max": 5.548280168632402e-10,
+            "order": 6,
+            "ratio": 1.093529765651318,
+            "status": "PASS"
+          },
+          {
+            "all_points_both_meshes_max": 6.495373683357286e-10,
+            "coarse_common8_max": 6.053282874951549e-10,
+            "fine_common8_max": 5.534364078130238e-10,
+            "order": 8,
+            "ratio": 1.093763039347535,
+            "status": "PASS"
+          }
+        ],
+        "status": "PASS",
+        "temporal_status": "PASS"
+      }
+    },
+    {
+      "cases": [
+        "oblique_a1_p2_r1_n24",
+        "oblique_a1_p2_r1_n24_half",
+        "oblique_a1_p2_r1_n32"
+      ],
+      "clock_interpretation": "Conditional supplied-field readout",
+      "dataset": "oblique_a1_p2_r1",
+      "matched_clock_diagnostics": [
+        {
+          "diagnostic": "PASS",
+          "max_logZ_difference": 5.363817029424567e-13,
+          "other": "oblique_a1_p2_r1_n24_half",
+          "reference": "oblique_a1_p2_r1_n24"
+        },
+        {
+          "diagnostic": "PASS",
+          "max_logZ_difference": 1.4296203110220063e-13,
+          "other": "oblique_a1_p2_r1_n32",
+          "reference": "oblique_a1_p2_r1_n24"
+        }
+      ],
+      "original_field_qualification": "PASS",
+      "original_numerical_gate": {
+        "dataset": "oblique_a1_p2_r1",
+        "final_time_refinement": {
+          "g": 3.260996805920513e-09,
+          "v": 1.2238707824963058e-08
+        },
+        "original_equations": {
+          "oblique_a1_p2_r1_n24": "PASS",
+          "oblique_a1_p2_r1_n24_half": "PASS",
+          "oblique_a1_p2_r1_n32": "PASS"
+        },
+        "spatial": [
+          {
+            "all_points_both_meshes_max": 5.668667202307631e-10,
+            "coarse_common8_max": 5.228767974152504e-10,
+            "fine_common8_max": 5.159803695420351e-10,
+            "order": 6,
+            "ratio": 1.0133656787744394,
+            "status": "PASS"
+          },
+          {
+            "all_points_both_meshes_max": 5.718698847800852e-10,
+            "coarse_common8_max": 5.224990440311217e-10,
+            "fine_common8_max": 5.156701732289548e-10,
+            "order": 8,
+            "ratio": 1.0132427104701571,
+            "status": "PASS"
+          }
+        ],
+        "status": "PASS",
+        "temporal_status": "PASS"
+      }
+    },
+    {
+      "cases": [
+        "oblique_a1_p2_r2_n24",
+        "oblique_a1_p2_r2_n24_half",
+        "oblique_a1_p2_r2_n32"
+      ],
+      "clock_interpretation": "Conditional supplied-field readout",
+      "dataset": "oblique_a1_p2_r2",
+      "matched_clock_diagnostics": [
+        {
+          "diagnostic": "PASS",
+          "max_logZ_difference": 5.116670975802151e-13,
+          "other": "oblique_a1_p2_r2_n24_half",
+          "reference": "oblique_a1_p2_r2_n24"
+        },
+        {
+          "diagnostic": "PASS",
+          "max_logZ_difference": 1.8964517456421248e-13,
+          "other": "oblique_a1_p2_r2_n32",
+          "reference": "oblique_a1_p2_r2_n24"
+        }
+      ],
+      "original_field_qualification": "PASS",
+      "original_numerical_gate": {
+        "dataset": "oblique_a1_p2_r2",
+        "final_time_refinement": {
+          "g": 3.0531452921422897e-09,
+          "v": 1.102532820596025e-08
+        },
+        "original_equations": {
+          "oblique_a1_p2_r2_n24": "PASS",
+          "oblique_a1_p2_r2_n24_half": "PASS",
+          "oblique_a1_p2_r2_n32": "PASS"
+        },
+        "spatial": [
+          {
+            "all_points_both_meshes_max": 5.130282865195568e-10,
+            "coarse_common8_max": 4.678508136457538e-10,
+            "fine_common8_max": 4.739355019545144e-10,
+            "order": 6,
+            "ratio": 0.9871613578563595,
+            "status": "PASS"
+          },
+          {
+            "all_points_both_meshes_max": 5.201566399826163e-10,
+            "coarse_common8_max": 4.72114458638373e-10,
+            "fine_common8_max": 4.778366591295935e-10,
+            "order": 8,
+            "ratio": 0.9880247771243759,
+            "status": "PASS"
+          }
+        ],
+        "status": "PASS",
+        "temporal_status": "PASS"
+      }
+    },
+    {
+      "cases": [
+        "oblique_a1_p3_r0_n24",
+        "oblique_a1_p3_r0_n24_half",
+        "oblique_a1_p3_r0_n32"
+      ],
+      "clock_interpretation": "Conditional supplied-field readout",
+      "dataset": "oblique_a1_p3_r0",
+      "matched_clock_diagnostics": [
+        {
+          "diagnostic": "PASS",
+          "max_logZ_difference": 5.870946090391627e-13,
+          "other": "oblique_a1_p3_r0_n24_half",
+          "reference": "oblique_a1_p3_r0_n24"
+        },
+        {
+          "diagnostic": "PASS",
+          "max_logZ_difference": 6.672440377997191e-14,
+          "other": "oblique_a1_p3_r0_n32",
+          "reference": "oblique_a1_p3_r0_n24"
+        }
+      ],
+      "original_field_qualification": "PASS",
+      "original_numerical_gate": {
+        "dataset": "oblique_a1_p3_r0",
+        "final_time_refinement": {
+          "g": 3.3557050471699768e-09,
+          "v": 1.2418951200743322e-08
+        },
+        "original_equations": {
+          "oblique_a1_p3_r0_n24": "PASS",
+          "oblique_a1_p3_r0_n24_half": "PASS",
+          "oblique_a1_p3_r0_n32": "PASS"
+        },
+        "spatial": [
+          {
+            "all_points_both_meshes_max": 6.684508502274866e-10,
+            "coarse_common8_max": 6.016853126844524e-10,
+            "fine_common8_max": 5.576115680305804e-10,
+            "order": 6,
+            "ratio": 1.079040226531769,
+            "status": "PASS"
+          },
+          {
+            "all_points_both_meshes_max": 6.6879995985758e-10,
+            "coarse_common8_max": 6.022556897633535e-10,
+            "fine_common8_max": 5.596999530510516e-10,
+            "order": 8,
+            "ratio": 1.0760331253921338,
+            "status": "PASS"
+          }
+        ],
+        "status": "PASS",
+        "temporal_status": "PASS"
+      }
+    },
+    {
+      "cases": [
+        "oblique_a1_p3_r1_n24",
+        "oblique_a1_p3_r1_n24_half",
+        "oblique_a1_p3_r1_n32"
+      ],
+      "clock_interpretation": "Conditional supplied-field readout",
+      "dataset": "oblique_a1_p3_r1",
+      "matched_clock_diagnostics": [
+        {
+          "diagnostic": "PASS",
+          "max_logZ_difference": 5.325011265266966e-13,
+          "other": "oblique_a1_p3_r1_n24_half",
+          "reference": "oblique_a1_p3_r1_n24"
+        },
+        {
+          "diagnostic": "PASS",
+          "max_logZ_difference": 7.245246069764733e-14,
+          "other": "oblique_a1_p3_r1_n32",
+          "reference": "oblique_a1_p3_r1_n24"
+        }
+      ],
+      "original_field_qualification": "PASS",
+      "original_numerical_gate": {
+        "dataset": "oblique_a1_p3_r1",
+        "final_time_refinement": {
+          "g": 3.260623770984239e-09,
+          "v": 1.2084647948995553e-08
+        },
+        "original_equations": {
+          "oblique_a1_p3_r1_n24": "PASS",
+          "oblique_a1_p3_r1_n24_half": "PASS",
+          "oblique_a1_p3_r1_n32": "PASS"
+        },
+        "spatial": [
+          {
+            "all_points_both_meshes_max": 5.565033989185508e-10,
+            "coarse_common8_max": 5.421061377575143e-10,
+            "fine_common8_max": 5.164226268838945e-10,
+            "order": 6,
+            "ratio": 1.0497335119272264,
+            "status": "PASS"
+          },
+          {
+            "all_points_both_meshes_max": 5.584205875486248e-10,
+            "coarse_common8_max": 5.438722250339367e-10,
+            "fine_common8_max": 5.152278048647929e-10,
+            "order": 8,
+            "ratio": 1.0555956411876117,
+            "status": "PASS"
+          }
+        ],
+        "status": "PASS",
+        "temporal_status": "PASS"
+      }
+    },
+    {
+      "cases": [
+        "oblique_a1_p3_r2_n24",
+        "oblique_a1_p3_r2_n24_half",
+        "oblique_a1_p3_r2_n32"
+      ],
+      "clock_interpretation": "Conditional supplied-field readout",
+      "dataset": "oblique_a1_p3_r2",
+      "matched_clock_diagnostics": [
+        {
+          "diagnostic": "PASS",
+          "max_logZ_difference": 5.027974564475457e-13,
+          "other": "oblique_a1_p3_r2_n24_half",
+          "reference": "oblique_a1_p3_r2_n24"
+        },
+        {
+          "diagnostic": "PASS",
+          "max_logZ_difference": 1.286176026793484e-13,
+          "other": "oblique_a1_p3_r2_n32",
+          "reference": "oblique_a1_p3_r2_n24"
+        }
+      ],
+      "original_field_qualification": "PASS",
+      "original_numerical_gate": {
+        "dataset": "oblique_a1_p3_r2",
+        "final_time_refinement": {
+          "g": 3.043556517923207e-09,
+          "v": 1.0869435129734484e-08
+        },
+        "original_equations": {
+          "oblique_a1_p3_r2_n24": "PASS",
+          "oblique_a1_p3_r2_n24_half": "PASS",
+          "oblique_a1_p3_r2_n32": "PASS"
+        },
+        "spatial": [
+          {
+            "all_points_both_meshes_max": 5.201074571026254e-10,
+            "coarse_common8_max": 4.750483340032474e-10,
+            "fine_common8_max": 4.6361631200753095e-10,
+            "order": 6,
+            "ratio": 1.0246583687839068,
+            "status": "PASS"
+          },
+          {
+            "all_points_both_meshes_max": 5.262831281882541e-10,
+            "coarse_common8_max": 4.797049424354327e-10,
+            "fine_common8_max": 4.675723142000265e-10,
+            "order": 8,
+            "ratio": 1.0259481322288382,
+            "status": "PASS"
+          }
+        ],
+        "status": "PASS",
+        "temporal_status": "PASS"
+      }
+    },
+    {
+      "cases": [
+        "axial_a2_n24",
+        "axial_a2_n24_half",
+        "axial_a2_n32"
+      ],
+      "clock_interpretation": "Conditional supplied-field readout",
+      "dataset": "axial_a2",
+      "matched_clock_diagnostics": [
+        {
+          "diagnostic": "PASS",
+          "max_logZ_difference": 1.9155354386013457e-12,
+          "other": "axial_a2_n24_half",
+          "reference": "axial_a2_n24"
+        },
+        {
+          "diagnostic": "PASS",
+          "max_logZ_difference": 6.426248422286562e-13,
+          "other": "axial_a2_n32",
+          "reference": "axial_a2_n24"
+        }
+      ],
+      "original_field_qualification": "PASS",
+      "original_numerical_gate": {
+        "dataset": "axial_a2",
+        "final_time_refinement": {
+          "g": 7.66219798720158e-09,
+          "v": 2.000210486130527e-08
+        },
+        "original_equations": {
+          "axial_a2_n24": "PASS",
+          "axial_a2_n24_half": "PASS",
+          "axial_a2_n32": "PASS"
+        },
+        "spatial": [
+          {
+            "all_points_both_meshes_max": 8.395139028394283e-10,
+            "coarse_common8_max": 7.8078682408389e-10,
+            "fine_common8_max": 5.34715716149492e-10,
+            "order": 6,
+            "ratio": 1.4601905283547028,
+            "status": "PASS"
+          },
+          {
+            "all_points_both_meshes_max": 8.472142432047747e-10,
+            "coarse_common8_max": 7.887289155128485e-10,
+            "fine_common8_max": 5.483108966863881e-10,
+            "order": 8,
+            "ratio": 1.4384702552500428,
+            "status": "PASS"
+          }
+        ],
+        "status": "PASS",
+        "temporal_status": "PASS"
+      }
+    },
+    {
+      "cases": [
+        "oblique_a2_p0_r0_n24",
+        "oblique_a2_p0_r0_n24_half",
+        "oblique_a2_p0_r0_n32"
+      ],
+      "clock_interpretation": "Conditional supplied-field readout",
+      "dataset": "oblique_a2_p0_r0",
+      "matched_clock_diagnostics": [
+        {
+          "diagnostic": "PASS",
+          "max_logZ_difference": 1.2773792440468057e-12,
+          "other": "oblique_a2_p0_r0_n24_half",
+          "reference": "oblique_a2_p0_r0_n24"
+        },
+        {
+          "diagnostic": "PASS",
+          "max_logZ_difference": 3.508356799519774e-13,
+          "other": "oblique_a2_p0_r0_n32",
+          "reference": "oblique_a2_p0_r0_n24"
+        }
+      ],
+      "original_field_qualification": "PASS",
+      "original_numerical_gate": {
+        "dataset": "oblique_a2_p0_r0",
+        "final_time_refinement": {
+          "g": 5.952774273509931e-09,
+          "v": 2.8836339538429456e-08
+        },
+        "original_equations": {
+          "oblique_a2_p0_r0_n24": "PASS",
+          "oblique_a2_p0_r0_n24_half": "PASS",
+          "oblique_a2_p0_r0_n32": "PASS"
+        },
+        "spatial": [
+          {
+            "all_points_both_meshes_max": 1.7507213456724458e-09,
+            "coarse_common8_max": 1.664420268276956e-09,
+            "fine_common8_max": 1.2938217164304433e-09,
+            "order": 6,
+            "ratio": 1.2864371088691928,
+            "status": "PASS"
+          },
+          {
+            "all_points_both_meshes_max": 1.7571745170030795e-09,
+            "coarse_common8_max": 1.667861460052933e-09,
+            "fine_common8_max": 1.2969165186227372e-09,
+            "order": 8,
+            "ratio": 1.2860206775869594,
+            "status": "PASS"
+          }
+        ],
+        "status": "PASS",
+        "temporal_status": "PASS"
+      }
+    },
+    {
+      "cases": [
+        "oblique_a2_p0_r1_n24",
+        "oblique_a2_p0_r1_n24_half",
+        "oblique_a2_p0_r1_n32"
+      ],
+      "clock_interpretation": "Conditional supplied-field readout",
+      "dataset": "oblique_a2_p0_r1",
+      "matched_clock_diagnostics": [
+        {
+          "diagnostic": "PASS",
+          "max_logZ_difference": 9.938629780270603e-13,
+          "other": "oblique_a2_p0_r1_n24_half",
+          "reference": "oblique_a2_p0_r1_n24"
+        },
+        {
+          "diagnostic": "PASS",
+          "max_logZ_difference": 2.5554384996961943e-13,
+          "other": "oblique_a2_p0_r1_n32",
+          "reference": "oblique_a2_p0_r1_n24"
+        }
+      ],
+      "original_field_qualification": "PASS",
+      "original_numerical_gate": {
+        "dataset": "oblique_a2_p0_r1",
+        "final_time_refinement": {
+          "g": 5.805556924087796e-09,
+          "v": 2.808037891099957e-08
+        },
+        "original_equations": {
+          "oblique_a2_p0_r1_n24": "PASS",
+          "oblique_a2_p0_r1_n24_half": "PASS",
+          "oblique_a2_p0_r1_n32": "PASS"
+        },
+        "spatial": [
+          {
+            "all_points_both_meshes_max": 1.6917472422939284e-09,
+            "coarse_common8_max": 1.6756555587527089e-09,
+            "fine_common8_max": 1.2851416597570164e-09,
+            "order": 6,
+            "ratio": 1.3038683681529144,
+            "status": "PASS"
+          },
+          {
+            "all_points_both_meshes_max": 1.7123372719751728e-09,
+            "coarse_common8_max": 1.6978942141143705e-09,
+            "fine_common8_max": 1.3056902226082912e-09,
+            "order": 8,
+            "ratio": 1.300380583935598,
+            "status": "PASS"
+          }
+        ],
+        "status": "PASS",
+        "temporal_status": "PASS"
+      }
+    },
+    {
+      "cases": [
+        "oblique_a2_p0_r2_n24",
+        "oblique_a2_p0_r2_n24_half",
+        "oblique_a2_p0_r2_n32"
+      ],
+      "clock_interpretation": "Conditional supplied-field readout",
+      "dataset": "oblique_a2_p0_r2",
+      "matched_clock_diagnostics": [
+        {
+          "diagnostic": "PASS",
+          "max_logZ_difference": 8.284727071039555e-13,
+          "other": "oblique_a2_p0_r2_n24_half",
+          "reference": "oblique_a2_p0_r2_n24"
+        },
+        {
+          "diagnostic": "PASS",
+          "max_logZ_difference": 3.361594856643446e-13,
+          "other": "oblique_a2_p0_r2_n32",
+          "reference": "oblique_a2_p0_r2_n24"
+        }
+      ],
+      "original_field_qualification": "PASS",
+      "original_numerical_gate": {
+        "dataset": "oblique_a2_p0_r2",
+        "final_time_refinement": {
+          "g": 5.4500581825323025e-09,
+          "v": 2.6208631709323527e-08
+        },
+        "original_equations": {
+          "oblique_a2_p0_r2_n24": "PASS",
+          "oblique_a2_p0_r2_n24_half": "PASS",
+          "oblique_a2_p0_r2_n32": "PASS"
+        },
+        "spatial": [
+          {
+            "all_points_both_meshes_max": 1.5397753072576847e-09,
+            "coarse_common8_max": 1.4979018581051662e-09,
+            "fine_common8_max": 1.2651494296633814e-09,
+            "order": 6,
+            "ratio": 1.1839722826288697,
+            "status": "PASS"
+          },
+          {
+            "all_points_both_meshes_max": 1.560339135675548e-09,
+            "coarse_common8_max": 1.5181476076264744e-09,
+            "fine_common8_max": 1.2860969511585552e-09,
+            "order": 8,
+            "ratio": 1.1804301427344812,
+            "status": "PASS"
+          }
+        ],
+        "status": "PASS",
+        "temporal_status": "PASS"
+      }
+    },
+    {
+      "cases": [
+        "oblique_a2_p1_r0_n24",
+        "oblique_a2_p1_r0_n24_half",
+        "oblique_a2_p1_r0_n32"
+      ],
+      "clock_interpretation": "Conditional supplied-field readout",
+      "dataset": "oblique_a2_p1_r0",
+      "matched_clock_diagnostics": [
+        {
+          "diagnostic": "PASS",
+          "max_logZ_difference": 1.2950526068200574e-12,
+          "other": "oblique_a2_p1_r0_n24_half",
+          "reference": "oblique_a2_p1_r0_n24"
+        },
+        {
+          "diagnostic": "PASS",
+          "max_logZ_difference": 2.5738265685415485e-13,
+          "other": "oblique_a2_p1_r0_n32",
+          "reference": "oblique_a2_p1_r0_n24"
+        }
+      ],
+      "original_field_qualification": "PASS",
+      "original_numerical_gate": {
+        "dataset": "oblique_a2_p1_r0",
+        "final_time_refinement": {
+          "g": 5.962082383348388e-09,
+          "v": 2.882359240174992e-08
+        },
+        "original_equations": {
+          "oblique_a2_p1_r0_n24": "PASS",
+          "oblique_a2_p1_r0_n24_half": "PASS",
+          "oblique_a2_p1_r0_n32": "PASS"
+        },
+        "spatial": [
+          {
+            "all_points_both_meshes_max": 1.7708575161812234e-09,
+            "coarse_common8_max": 1.7176469135904426e-09,
+            "fine_common8_max": 1.3469623749706727e-09,
+            "order": 6,
+            "ratio": 1.275200366029408,
+            "status": "PASS"
+          },
+          {
+            "all_points_both_meshes_max": 1.7761127013571354e-09,
+            "coarse_common8_max": 1.721298992229947e-09,
+            "fine_common8_max": 1.3522108432972857e-09,
+            "order": 8,
+            "ratio": 1.2729516264140153,
+            "status": "PASS"
+          }
+        ],
+        "status": "PASS",
+        "temporal_status": "PASS"
+      }
+    },
+    {
+      "cases": [
+        "oblique_a2_p1_r1_n24",
+        "oblique_a2_p1_r1_n24_half",
+        "oblique_a2_p1_r1_n32"
+      ],
+      "clock_interpretation": "Conditional supplied-field readout",
+      "dataset": "oblique_a2_p1_r1",
+      "matched_clock_diagnostics": [
+        {
+          "diagnostic": "PASS",
+          "max_logZ_difference": 1.0052722543285597e-12,
+          "other": "oblique_a2_p1_r1_n24_half",
+          "reference": "oblique_a2_p1_r1_n24"
+        },
+        {
+          "diagnostic": "PASS",
+          "max_logZ_difference": 2.053288095105188e-13,
+          "other": "oblique_a2_p1_r1_n32",
+          "reference": "oblique_a2_p1_r1_n24"
+        }
+      ],
+      "original_field_qualification": "PASS",
+      "original_numerical_gate": {
+        "dataset": "oblique_a2_p1_r1",
+        "final_time_refinement": {
+          "g": 5.819334347734184e-09,
+          "v": 2.8031820420437725e-08
+        },
+        "original_equations": {
+          "oblique_a2_p1_r1_n24": "PASS",
+          "oblique_a2_p1_r1_n24_half": "PASS",
+          "oblique_a2_p1_r1_n32": "PASS"
+        },
+        "spatial": [
+          {
+            "all_points_both_meshes_max": 1.6899392996094775e-09,
+            "coarse_common8_max": 1.6282840076264904e-09,
+            "fine_common8_max": 1.249939929337529e-09,
+            "order": 6,
+            "ratio": 1.3026898088530419,
+            "status": "PASS"
+          },
+          {
+            "all_points_both_meshes_max": 1.7118489403777915e-09,
+            "coarse_common8_max": 1.6484600351418521e-09,
+            "fine_common8_max": 1.2701268370385321e-09,
+            "order": 8,
+            "ratio": 1.2978704071677232,
+            "status": "PASS"
+          }
+        ],
+        "status": "PASS",
+        "temporal_status": "PASS"
+      }
+    },
+    {
+      "cases": [
+        "oblique_a2_p1_r2_n24",
+        "oblique_a2_p1_r2_n24_half",
+        "oblique_a2_p1_r2_n32"
+      ],
+      "clock_interpretation": "Conditional supplied-field readout",
+      "dataset": "oblique_a2_p1_r2",
+      "matched_clock_diagnostics": [
+        {
+          "diagnostic": "PASS",
+          "max_logZ_difference": 7.737959578646425e-13,
+          "other": "oblique_a2_p1_r2_n24_half",
+          "reference": "oblique_a2_p1_r2_n24"
+        },
+        {
+          "diagnostic": "PASS",
+          "max_logZ_difference": 3.2094986390784896e-13,
+          "other": "oblique_a2_p1_r2_n32",
+          "reference": "oblique_a2_p1_r2_n24"
+        }
+      ],
+      "original_field_qualification": "PASS",
+      "original_numerical_gate": {
+        "dataset": "oblique_a2_p1_r2",
+        "final_time_refinement": {
+          "g": 5.446981532486461e-09,
+          "v": 2.617799310655755e-08
+        },
+        "original_equations": {
+          "oblique_a2_p1_r2_n24": "PASS",
+          "oblique_a2_p1_r2_n24_half": "PASS",
+          "oblique_a2_p1_r2_n32": "PASS"
+        },
+        "spatial": [
+          {
+            "all_points_both_meshes_max": 1.5425482002839885e-09,
+            "coarse_common8_max": 1.488679013395e-09,
+            "fine_common8_max": 1.2278471572813032e-09,
+            "order": 6,
+            "ratio": 1.212430231700198,
+            "status": "PASS"
+          },
+          {
+            "all_points_both_meshes_max": 1.5633339067733232e-09,
+            "coarse_common8_max": 1.5098972072635775e-09,
+            "fine_common8_max": 1.247187852992937e-09,
+            "order": 8,
+            "ratio": 1.2106413670083493,
+            "status": "PASS"
+          }
+        ],
+        "status": "PASS",
+        "temporal_status": "PASS"
+      }
+    },
+    {
+      "cases": [
+        "oblique_a2_p2_r0_n24",
+        "oblique_a2_p2_r0_n24_half",
+        "oblique_a2_p2_r0_n32"
+      ],
+      "clock_interpretation": "Conditional supplied-field readout",
+      "dataset": "oblique_a2_p2_r0",
+      "matched_clock_diagnostics": [
+        {
+          "diagnostic": "PASS",
+          "max_logZ_difference": 1.1669987892704015e-12,
+          "other": "oblique_a2_p2_r0_n24_half",
+          "reference": "oblique_a2_p2_r0_n24"
+        },
+        {
+          "diagnostic": "PASS",
+          "max_logZ_difference": 2.369215934550084e-13,
+          "other": "oblique_a2_p2_r0_n32",
+          "reference": "oblique_a2_p2_r0_n24"
+        }
+      ],
+      "original_field_qualification": "PASS",
+      "original_numerical_gate": {
+        "dataset": "oblique_a2_p2_r0",
+        "final_time_refinement": {
+          "g": 5.9948632724626805e-09,
+          "v": 2.842235602429355e-08
+        },
+        "original_equations": {
+          "oblique_a2_p2_r0_n24": "PASS",
+          "oblique_a2_p2_r0_n24_half": "PASS",
+          "oblique_a2_p2_r0_n32": "PASS"
+        },
+        "spatial": [
+          {
+            "all_points_both_meshes_max": 1.8108455290821723e-09,
+            "coarse_common8_max": 1.774272229138063e-09,
+            "fine_common8_max": 1.3789018260546015e-09,
+            "order": 6,
+            "ratio": 1.2867284643568278,
+            "status": "PASS"
+          },
+          {
+            "all_points_both_meshes_max": 1.8153727410208376e-09,
+            "coarse_common8_max": 1.7801616847279433e-09,
+            "fine_common8_max": 1.383342662641951e-09,
+            "order": 8,
+            "ratio": 1.2868551898255889,
+            "status": "PASS"
+          }
+        ],
+        "status": "PASS",
+        "temporal_status": "PASS"
+      }
+    },
+    {
+      "cases": [
+        "oblique_a2_p2_r1_n24",
+        "oblique_a2_p2_r1_n24_half",
+        "oblique_a2_p2_r1_n32"
+      ],
+      "clock_interpretation": "Conditional supplied-field readout",
+      "dataset": "oblique_a2_p2_r1",
+      "matched_clock_diagnostics": [
+        {
+          "diagnostic": "PASS",
+          "max_logZ_difference": 8.810105422973891e-13,
+          "other": "oblique_a2_p2_r1_n24_half",
+          "reference": "oblique_a2_p2_r1_n24"
+        },
+        {
+          "diagnostic": "PASS",
+          "max_logZ_difference": 1.8571949533807697e-13,
+          "other": "oblique_a2_p2_r1_n32",
+          "reference": "oblique_a2_p2_r1_n24"
+        }
+      ],
+      "original_field_qualification": "PASS",
+      "original_numerical_gate": {
+        "dataset": "oblique_a2_p2_r1",
+        "final_time_refinement": {
+          "g": 5.8179026041216275e-09,
+          "v": 2.769095885923889e-08
+        },
+        "original_equations": {
+          "oblique_a2_p2_r1_n24": "PASS",
+          "oblique_a2_p2_r1_n24_half": "PASS",
+          "oblique_a2_p2_r1_n32": "PASS"
+        },
+        "spatial": [
+          {
+            "all_points_both_meshes_max": 1.767591184531625e-09,
+            "coarse_common8_max": 1.5980916034941117e-09,
+            "fine_common8_max": 1.2614622124651476e-09,
+            "order": 6,
+            "ratio": 1.2668565001016745,
+            "status": "PASS"
+          },
+          {
+            "all_points_both_meshes_max": 1.7915951500135918e-09,
+            "coarse_common8_max": 1.6171432526412843e-09,
+            "fine_common8_max": 1.282431494331604e-09,
+            "order": 8,
+            "ratio": 1.2609977685273008,
+            "status": "PASS"
+          }
+        ],
+        "status": "PASS",
+        "temporal_status": "PASS"
+      }
+    },
+    {
+      "cases": [
+        "oblique_a2_p2_r2_n24",
+        "oblique_a2_p2_r2_n24_half",
+        "oblique_a2_p2_r2_n32"
+      ],
+      "clock_interpretation": "Conditional supplied-field readout",
+      "dataset": "oblique_a2_p2_r2",
+      "matched_clock_diagnostics": [
+        {
+          "diagnostic": "PASS",
+          "max_logZ_difference": 7.213622060797675e-13,
+          "other": "oblique_a2_p2_r2_n24_half",
+          "reference": "oblique_a2_p2_r2_n24"
+        },
+        {
+          "diagnostic": "PASS",
+          "max_logZ_difference": 2.8955830788657266e-13,
+          "other": "oblique_a2_p2_r2_n32",
+          "reference": "oblique_a2_p2_r2_n24"
+        }
+      ],
+      "original_field_qualification": "PASS",
+      "original_numerical_gate": {
+        "dataset": "oblique_a2_p2_r2",
+        "final_time_refinement": {
+          "g": 5.426475269132425e-09,
+          "v": 2.604524240723549e-08
+        },
+        "original_equations": {
+          "oblique_a2_p2_r2_n24": "PASS",
+          "oblique_a2_p2_r2_n24_half": "PASS",
+          "oblique_a2_p2_r2_n32": "PASS"
+        },
+        "spatial": [
+          {
+            "all_points_both_meshes_max": 1.5914568551878006e-09,
+            "coarse_common8_max": 1.4424058614181945e-09,
+            "fine_common8_max": 1.2445252051129785e-09,
+            "order": 6,
+            "ratio": 1.1590009229963747,
+            "status": "PASS"
+          },
+          {
+            "all_points_both_meshes_max": 1.6137448044517555e-09,
+            "coarse_common8_max": 1.4627568600822372e-09,
+            "fine_common8_max": 1.2654730041639084e-09,
+            "order": 8,
+            "ratio": 1.1558973247704112,
+            "status": "PASS"
+          }
+        ],
+        "status": "PASS",
+        "temporal_status": "PASS"
+      }
+    },
+    {
+      "cases": [
+        "oblique_a2_p3_r0_n24",
+        "oblique_a2_p3_r0_n24_half",
+        "oblique_a2_p3_r0_n32"
+      ],
+      "clock_interpretation": "Conditional supplied-field readout",
+      "dataset": "oblique_a2_p3_r0",
+      "matched_clock_diagnostics": [
+        {
+          "diagnostic": "PASS",
+          "max_logZ_difference": 9.716064758302778e-13,
+          "other": "oblique_a2_p3_r0_n24_half",
+          "reference": "oblique_a2_p3_r0_n24"
+        },
+        {
+          "diagnostic": "PASS",
+          "max_logZ_difference": 6.878612263117034e-14,
+          "other": "oblique_a2_p3_r0_n32",
+          "reference": "oblique_a2_p3_r0_n24"
+        }
+      ],
+      "original_field_qualification": "PASS",
+      "original_numerical_gate": {
+        "dataset": "oblique_a2_p3_r0",
+        "final_time_refinement": {
+          "g": 5.991278584360771e-09,
+          "v": 2.8526351059099397e-08
+        },
+        "original_equations": {
+          "oblique_a2_p3_r0_n24": "PASS",
+          "oblique_a2_p3_r0_n24_half": "PASS",
+          "oblique_a2_p3_r0_n32": "PASS"
+        },
+        "spatial": [
+          {
+            "all_points_both_meshes_max": 1.8464353934710687e-09,
+            "coarse_common8_max": 1.6047334572277805e-09,
+            "fine_common8_max": 1.2960976181197736e-09,
+            "order": 6,
+            "ratio": 1.2381270012329315,
+            "status": "PASS"
+          },
+          {
+            "all_points_both_meshes_max": 1.8518513944520976e-09,
+            "coarse_common8_max": 1.610465483192769e-09,
+            "fine_common8_max": 1.2997751763776932e-09,
+            "order": 8,
+            "ratio": 1.2390338825218448,
+            "status": "PASS"
+          }
+        ],
+        "status": "PASS",
+        "temporal_status": "PASS"
+      }
+    },
+    {
+      "cases": [
+        "oblique_a2_p3_r1_n24",
+        "oblique_a2_p3_r1_n24_half",
+        "oblique_a2_p3_r1_n32"
+      ],
+      "clock_interpretation": "Conditional supplied-field readout",
+      "dataset": "oblique_a2_p3_r1",
+      "matched_clock_diagnostics": [
+        {
+          "diagnostic": "PASS",
+          "max_logZ_difference": 7.97919022521576e-13,
+          "other": "oblique_a2_p3_r1_n24_half",
+          "reference": "oblique_a2_p3_r1_n24"
+        },
+        {
+          "diagnostic": "PASS",
+          "max_logZ_difference": 8.933825901280557e-14,
+          "other": "oblique_a2_p3_r1_n32",
+          "reference": "oblique_a2_p3_r1_n24"
+        }
+      ],
+      "original_field_qualification": "PASS",
+      "original_numerical_gate": {
+        "dataset": "oblique_a2_p3_r1",
+        "final_time_refinement": {
+          "g": 5.785945944580817e-09,
+          "v": 2.7294682070078125e-08
+        },
+        "original_equations": {
+          "oblique_a2_p3_r1_n24": "PASS",
+          "oblique_a2_p3_r1_n24_half": "PASS",
+          "oblique_a2_p3_r1_n32": "PASS"
+        },
+        "spatial": [
+          {
+            "all_points_both_meshes_max": 1.7677260211179657e-09,
+            "coarse_common8_max": 1.5322353941193967e-09,
+            "fine_common8_max": 1.2208605792984883e-09,
+            "order": 6,
+            "ratio": 1.2550453508784971,
+            "status": "PASS"
+          },
+          {
+            "all_points_both_meshes_max": 1.7901205517922847e-09,
+            "coarse_common8_max": 1.5532993780098536e-09,
+            "fine_common8_max": 1.2411399130662915e-09,
+            "order": 8,
+            "ratio": 1.2515102944134302,
+            "status": "PASS"
+          }
+        ],
+        "status": "PASS",
+        "temporal_status": "PASS"
+      }
+    },
+    {
+      "cases": [
+        "oblique_a2_p3_r2_n24",
+        "oblique_a2_p3_r2_n24_half",
+        "oblique_a2_p3_r2_n32"
+      ],
+      "clock_interpretation": "Conditional supplied-field readout",
+      "dataset": "oblique_a2_p3_r2",
+      "matched_clock_diagnostics": [
+        {
+          "diagnostic": "PASS",
+          "max_logZ_difference": 7.218461939295651e-13,
+          "other": "oblique_a2_p3_r2_n24_half",
+          "reference": "oblique_a2_p3_r2_n24"
+        },
+        {
+          "diagnostic": "PASS",
+          "max_logZ_difference": 1.761958634549643e-13,
+          "other": "oblique_a2_p3_r2_n32",
+          "reference": "oblique_a2_p3_r2_n24"
+        }
+      ],
+      "original_field_qualification": "PASS",
+      "original_numerical_gate": {
+        "dataset": "oblique_a2_p3_r2",
+        "final_time_refinement": {
+          "g": 5.3842903469103476e-09,
+          "v": 2.570232737753031e-08
+        },
+        "original_equations": {
+          "oblique_a2_p3_r2_n24": "PASS",
+          "oblique_a2_p3_r2_n24_half": "PASS",
+          "oblique_a2_p3_r2_n32": "PASS"
+        },
+        "spatial": [
+          {
+            "all_points_both_meshes_max": 1.633646662391186e-09,
+            "coarse_common8_max": 1.4711271090206424e-09,
+            "fine_common8_max": 1.3106955520925112e-09,
+            "order": 6,
+            "ratio": 1.1224018473794344,
+            "status": "PASS"
+          },
+          {
+            "all_points_both_meshes_max": 1.6583133755077029e-09,
+            "coarse_common8_max": 1.4937681092064281e-09,
+            "fine_common8_max": 1.335400179325319e-09,
+            "order": 8,
+            "ratio": 1.1185921136846941,
+            "status": "PASS"
+          }
+        ],
+        "status": "PASS",
+        "temporal_status": "PASS"
+      }
+    },
+    {
+      "cases": [
+        "axial_a3_n24",
+        "axial_a3_n24_half",
+        "axial_a3_n32"
+      ],
+      "clock_interpretation": "Conditional supplied-field readout",
+      "dataset": "axial_a3",
+      "matched_clock_diagnostics": [
+        {
+          "diagnostic": "PASS",
+          "max_logZ_difference": 2.9472917162376433e-12,
+          "other": "axial_a3_n24_half",
+          "reference": "axial_a3_n24"
+        },
+        {
+          "diagnostic": "PASS",
+          "max_logZ_difference": 1.0323669002998415e-12,
+          "other": "axial_a3_n32",
+          "reference": "axial_a3_n24"
+        }
+      ],
+      "original_field_qualification": "PASS",
+      "original_numerical_gate": {
+        "dataset": "axial_a3",
+        "final_time_refinement": {
+          "g": 1.3459995784614875e-08,
+          "v": 4.1059344368932216e-08
+        },
+        "original_equations": {
+          "axial_a3_n24": "PASS",
+          "axial_a3_n24_half": "PASS",
+          "axial_a3_n32": "PASS"
+        },
+        "spatial": [
+          {
+            "all_points_both_meshes_max": 1.4119080904428927e-09,
+            "coarse_common8_max": 1.3497916673266275e-09,
+            "fine_common8_max": 9.136756906613641e-10,
+            "order": 6,
+            "ratio": 1.4773203239648205,
+            "status": "PASS"
+          },
+          {
+            "all_points_both_meshes_max": 1.4259589620202462e-09,
+            "coarse_common8_max": 1.3636390350235672e-09,
+            "fine_common8_max": 9.408057666249192e-10,
+            "order": 8,
+            "ratio": 1.449437368900847,
+            "status": "PASS"
+          }
+        ],
+        "status": "PASS",
+        "temporal_status": "PASS"
+      }
+    },
+    {
+      "cases": [
+        "oblique_a3_p0_r0_n24",
+        "oblique_a3_p0_r0_n24_half",
+        "oblique_a3_p0_r0_n32"
+      ],
+      "clock_interpretation": "Conditional supplied-field readout",
+      "dataset": "oblique_a3_p0_r0",
+      "matched_clock_diagnostics": [
+        {
+          "diagnostic": "PASS",
+          "max_logZ_difference": 2.0542872958273506e-12,
+          "other": "oblique_a3_p0_r0_n24_half",
+          "reference": "oblique_a3_p0_r0_n24"
+        },
+        {
+          "diagnostic": "PASS",
+          "max_logZ_difference": 7.610231889110253e-13,
+          "other": "oblique_a3_p0_r0_n32",
+          "reference": "oblique_a3_p0_r0_n24"
+        }
+      ],
+      "original_field_qualification": "PASS",
+      "original_numerical_gate": {
+        "dataset": "oblique_a3_p0_r0",
+        "final_time_refinement": {
+          "g": 9.919833843241577e-09,
+          "v": 5.2325326294067054e-08
+        },
+        "original_equations": {
+          "oblique_a3_p0_r0_n24": "PASS",
+          "oblique_a3_p0_r0_n24_half": "PASS",
+          "oblique_a3_p0_r0_n32": "PASS"
+        },
+        "spatial": [
+          {
+            "all_points_both_meshes_max": 3.3532201459962607e-09,
+            "coarse_common8_max": 3.326886821586328e-09,
+            "fine_common8_max": 2.259464337850403e-09,
+            "order": 6,
+            "ratio": 1.4724228065274283,
+            "status": "PASS"
+          },
+          {
+            "all_points_both_meshes_max": 3.4059333686720095e-09,
+            "coarse_common8_max": 3.3799029131031944e-09,
+            "fine_common8_max": 2.3001217597240498e-09,
+            "order": 8,
+            "ratio": 1.4694452147214538,
+            "status": "PASS"
+          }
+        ],
+        "status": "PASS",
+        "temporal_status": "PASS"
+      }
+    },
+    {
+      "cases": [
+        "oblique_a3_p0_r1_n24",
+        "oblique_a3_p0_r1_n24_half",
+        "oblique_a3_p0_r1_n32"
+      ],
+      "clock_interpretation": "Conditional supplied-field readout",
+      "dataset": "oblique_a3_p0_r1",
+      "matched_clock_diagnostics": [
+        {
+          "diagnostic": "PASS",
+          "max_logZ_difference": 1.5812750414623267e-12,
+          "other": "oblique_a3_p0_r1_n24_half",
+          "reference": "oblique_a3_p0_r1_n24"
+        },
+        {
+          "diagnostic": "PASS",
+          "max_logZ_difference": 5.005700715043915e-13,
+          "other": "oblique_a3_p0_r1_n32",
+          "reference": "oblique_a3_p0_r1_n24"
+        }
+      ],
+      "original_field_qualification": "PASS",
+      "original_numerical_gate": {
+        "dataset": "oblique_a3_p0_r1",
+        "final_time_refinement": {
+          "g": 9.757705754509516e-09,
+          "v": 5.2285905383087083e-08
+        },
+        "original_equations": {
+          "oblique_a3_p0_r1_n24": "PASS",
+          "oblique_a3_p0_r1_n24_half": "PASS",
+          "oblique_a3_p0_r1_n32": "PASS"
+        },
+        "spatial": [
+          {
+            "all_points_both_meshes_max": 3.595953534940577e-09,
+            "coarse_common8_max": 3.4600674547746735e-09,
+            "fine_common8_max": 2.5005631454355637e-09,
+            "order": 6,
+            "ratio": 1.3837152887302822,
+            "status": "PASS"
+          },
+          {
+            "all_points_both_meshes_max": 3.653095548283858e-09,
+            "coarse_common8_max": 3.5146864307833425e-09,
+            "fine_common8_max": 2.5561052718892086e-09,
+            "order": 8,
+            "ratio": 1.3750163068149577,
+            "status": "PASS"
+          }
+        ],
+        "status": "PASS",
+        "temporal_status": "PASS"
+      }
+    },
+    {
+      "cases": [
+        "oblique_a3_p0_r2_n24",
+        "oblique_a3_p0_r2_n24_half",
+        "oblique_a3_p0_r2_n32"
+      ],
+      "clock_interpretation": "Conditional supplied-field readout",
+      "dataset": "oblique_a3_p0_r2",
+      "matched_clock_diagnostics": [
+        {
+          "diagnostic": "PASS",
+          "max_logZ_difference": 1.1488197546039025e-12,
+          "other": "oblique_a3_p0_r2_n24_half",
+          "reference": "oblique_a3_p0_r2_n24"
+        },
+        {
+          "diagnostic": "PASS",
+          "max_logZ_difference": 7.31875497705925e-13,
+          "other": "oblique_a3_p0_r2_n32",
+          "reference": "oblique_a3_p0_r2_n24"
+        }
+      ],
+      "original_field_qualification": "PASS",
+      "original_numerical_gate": {
+        "dataset": "oblique_a3_p0_r2",
+        "final_time_refinement": {
+          "g": 9.338197770603074e-09,
+          "v": 5.0617920521744963e-08
+        },
+        "original_equations": {
+          "oblique_a3_p0_r2_n24": "PASS",
+          "oblique_a3_p0_r2_n24_half": "PASS",
+          "oblique_a3_p0_r2_n32": "PASS"
+        },
+        "spatial": [
+          {
+            "all_points_both_meshes_max": 3.2771581004453765e-09,
+            "coarse_common8_max": 3.156810035598312e-09,
+            "fine_common8_max": 2.4768552764342644e-09,
+            "order": 6,
+            "ratio": 1.2745234110500494,
+            "status": "PASS"
+          },
+          {
+            "all_points_both_meshes_max": 3.3317348879791098e-09,
+            "coarse_common8_max": 3.2102574487602453e-09,
+            "fine_common8_max": 2.5313660056980325e-09,
+            "order": 8,
+            "ratio": 1.2681917358193353,
+            "status": "PASS"
+          }
+        ],
+        "status": "PASS",
+        "temporal_status": "PASS"
+      }
+    },
+    {
+      "cases": [
+        "oblique_a3_p1_r0_n24",
+        "oblique_a3_p1_r0_n24_half",
+        "oblique_a3_p1_r0_n32"
+      ],
+      "clock_interpretation": "Conditional supplied-field readout",
+      "dataset": "oblique_a3_p1_r0",
+      "matched_clock_diagnostics": [
+        {
+          "diagnostic": "PASS",
+          "max_logZ_difference": 1.9363417119722115e-12,
+          "other": "oblique_a3_p1_r0_n24_half",
+          "reference": "oblique_a3_p1_r0_n24"
+        },
+        {
+          "diagnostic": "PASS",
+          "max_logZ_difference": 3.627896594249336e-13,
+          "other": "oblique_a3_p1_r0_n32",
+          "reference": "oblique_a3_p1_r0_n24"
+        }
+      ],
+      "original_field_qualification": "PASS",
+      "original_numerical_gate": {
+        "dataset": "oblique_a3_p1_r0",
+        "final_time_refinement": {
+          "g": 9.915041232488875e-09,
+          "v": 5.240504918901934e-08
+        },
+        "original_equations": {
+          "oblique_a3_p1_r0_n24": "PASS",
+          "oblique_a3_p1_r0_n24_half": "PASS",
+          "oblique_a3_p1_r0_n32": "PASS"
+        },
+        "spatial": [
+          {
+            "all_points_both_meshes_max": 3.4371610002637e-09,
+            "coarse_common8_max": 3.254455482881724e-09,
+            "fine_common8_max": 2.319004599460328e-09,
+            "order": 6,
+            "ratio": 1.4033846606596172,
+            "status": "PASS"
+          },
+          {
+            "all_points_both_meshes_max": 3.4904685808356817e-09,
+            "coarse_common8_max": 3.301183382209416e-09,
+            "fine_common8_max": 2.3315189778827516e-09,
+            "order": 8,
+            "ratio": 1.4158938501144926,
+            "status": "PASS"
+          }
+        ],
+        "status": "PASS",
+        "temporal_status": "PASS"
+      }
+    },
+    {
+      "cases": [
+        "oblique_a3_p1_r1_n24",
+        "oblique_a3_p1_r1_n24_half",
+        "oblique_a3_p1_r1_n32"
+      ],
+      "clock_interpretation": "Conditional supplied-field readout",
+      "dataset": "oblique_a3_p1_r1",
+      "matched_clock_diagnostics": [
+        {
+          "diagnostic": "PASS",
+          "max_logZ_difference": 1.4506104650813256e-12,
+          "other": "oblique_a3_p1_r1_n24_half",
+          "reference": "oblique_a3_p1_r1_n24"
+        },
+        {
+          "diagnostic": "PASS",
+          "max_logZ_difference": 3.991533666092284e-13,
+          "other": "oblique_a3_p1_r1_n32",
+          "reference": "oblique_a3_p1_r1_n24"
+        }
+      ],
+      "original_field_qualification": "PASS",
+      "original_numerical_gate": {
+        "dataset": "oblique_a3_p1_r1",
+        "final_time_refinement": {
+          "g": 9.743992279709346e-09,
+          "v": 5.293197347100431e-08
+        },
+        "original_equations": {
+          "oblique_a3_p1_r1_n24": "PASS",
+          "oblique_a3_p1_r1_n24_half": "PASS",
+          "oblique_a3_p1_r1_n32": "PASS"
+        },
+        "spatial": [
+          {
+            "all_points_both_meshes_max": 3.5777324991492776e-09,
+            "coarse_common8_max": 3.3945702915261222e-09,
+            "fine_common8_max": 2.417319011627228e-09,
+            "order": 6,
+            "ratio": 1.4042707128013914,
+            "status": "PASS"
+          },
+          {
+            "all_points_both_meshes_max": 3.6358315802509367e-09,
+            "coarse_common8_max": 3.446654572858421e-09,
+            "fine_common8_max": 2.4680720245306986e-09,
+            "order": 8,
+            "ratio": 1.3964967547953948,
+            "status": "PASS"
+          }
+        ],
+        "status": "PASS",
+        "temporal_status": "PASS"
+      }
+    },
+    {
+      "cases": [
+        "oblique_a3_p1_r2_n24",
+        "oblique_a3_p1_r2_n24_half",
+        "oblique_a3_p1_r2_n32"
+      ],
+      "clock_interpretation": "Conditional supplied-field readout",
+      "dataset": "oblique_a3_p1_r2",
+      "matched_clock_diagnostics": [
+        {
+          "diagnostic": "PASS",
+          "max_logZ_difference": 9.90891396712712e-13,
+          "other": "oblique_a3_p1_r2_n24_half",
+          "reference": "oblique_a3_p1_r2_n24"
+        },
+        {
+          "diagnostic": "PASS",
+          "max_logZ_difference": 6.124102960858302e-13,
+          "other": "oblique_a3_p1_r2_n32",
+          "reference": "oblique_a3_p1_r2_n24"
+        }
+      ],
+      "original_field_qualification": "PASS",
+      "original_numerical_gate": {
+        "dataset": "oblique_a3_p1_r2",
+        "final_time_refinement": {
+          "g": 9.341960094388924e-09,
+          "v": 5.14224893777282e-08
+        },
+        "original_equations": {
+          "oblique_a3_p1_r2_n24": "PASS",
+          "oblique_a3_p1_r2_n24_half": "PASS",
+          "oblique_a3_p1_r2_n32": "PASS"
+        },
+        "spatial": [
+          {
+            "all_points_both_meshes_max": 3.2374830594150694e-09,
+            "coarse_common8_max": 3.1385044008125362e-09,
+            "fine_common8_max": 2.4570404044688132e-09,
+            "order": 6,
+            "ratio": 1.2773515629227303,
+            "status": "PASS"
+          },
+          {
+            "all_points_both_meshes_max": 3.292047634495532e-09,
+            "coarse_common8_max": 3.1934316302439925e-09,
+            "fine_common8_max": 2.5125801994541064e-09,
+            "order": 8,
+            "ratio": 1.2709769944608378,
+            "status": "PASS"
+          }
+        ],
+        "status": "PASS",
+        "temporal_status": "PASS"
+      }
+    },
+    {
+      "cases": [
+        "oblique_a3_p2_r0_n24",
+        "oblique_a3_p2_r0_n24_half",
+        "oblique_a3_p2_r0_n32"
+      ],
+      "clock_interpretation": "Conditional supplied-field readout",
+      "dataset": "oblique_a3_p2_r0",
+      "matched_clock_diagnostics": [
+        {
+          "diagnostic": "PASS",
+          "max_logZ_difference": 1.5660354957258704e-12,
+          "other": "oblique_a3_p2_r0_n24_half",
+          "reference": "oblique_a3_p2_r0_n24"
+        },
+        {
+          "diagnostic": "PASS",
+          "max_logZ_difference": 2.3711935193126976e-13,
+          "other": "oblique_a3_p2_r0_n32",
+          "reference": "oblique_a3_p2_r0_n24"
+        }
+      ],
+      "original_field_qualification": "PASS",
+      "original_numerical_gate": {
+        "dataset": "oblique_a3_p2_r0",
+        "final_time_refinement": {
+          "g": 9.975494208447344e-09,
+          "v": 5.412263703874487e-08
+        },
+        "original_equations": {
+          "oblique_a3_p2_r0_n24": "PASS",
+          "oblique_a3_p2_r0_n24_half": "PASS",
+          "oblique_a3_p2_r0_n32": "PASS"
+        },
+        "spatial": [
+          {
+            "all_points_both_meshes_max": 3.527127145908082e-09,
+            "coarse_common8_max": 3.294276684773223e-09,
+            "fine_common8_max": 2.3283361905157562e-09,
+            "order": 6,
+            "ratio": 1.4148629816399059,
+            "status": "PASS"
+          },
+          {
+            "all_points_both_meshes_max": 3.5838552125966316e-09,
+            "coarse_common8_max": 3.3057790393975495e-09,
+            "fine_common8_max": 2.3420362316173282e-09,
+            "order": 8,
+            "ratio": 1.4114978217543177,
+            "status": "PASS"
+          }
+        ],
+        "status": "PASS",
+        "temporal_status": "PASS"
+      }
+    },
+    {
+      "cases": [
+        "oblique_a3_p2_r1_n24",
+        "oblique_a3_p2_r1_n24_half",
+        "oblique_a3_p2_r1_n32"
+      ],
+      "clock_interpretation": "Conditional supplied-field readout",
+      "dataset": "oblique_a3_p2_r1",
+      "matched_clock_diagnostics": [
+        {
+          "diagnostic": "PASS",
+          "max_logZ_difference": 1.079742198428768e-12,
+          "other": "oblique_a3_p2_r1_n24_half",
+          "reference": "oblique_a3_p2_r1_n24"
+        },
+        {
+          "diagnostic": "PASS",
+          "max_logZ_difference": 2.457188098825558e-13,
+          "other": "oblique_a3_p2_r1_n32",
+          "reference": "oblique_a3_p2_r1_n24"
+        }
+      ],
+      "original_field_qualification": "PASS",
+      "original_numerical_gate": {
+        "dataset": "oblique_a3_p2_r1",
+        "final_time_refinement": {
+          "g": 9.76560343701749e-09,
+          "v": 5.504060140992806e-08
+        },
+        "original_equations": {
+          "oblique_a3_p2_r1_n24": "PASS",
+          "oblique_a3_p2_r1_n24_half": "PASS",
+          "oblique_a3_p2_r1_n32": "PASS"
+        },
+        "spatial": [
+          {
+            "all_points_both_meshes_max": 3.75588021794826e-09,
+            "coarse_common8_max": 3.3328420578904172e-09,
+            "fine_common8_max": 2.391819742264545e-09,
+            "order": 6,
+            "ratio": 1.3934336267058838,
+            "status": "PASS"
+          },
+          {
+            "all_points_both_meshes_max": 3.818199922900334e-09,
+            "coarse_common8_max": 3.381706692451303e-09,
+            "fine_common8_max": 2.439620616634386e-09,
+            "order": 8,
+            "ratio": 1.3861608929656388,
+            "status": "PASS"
+          }
+        ],
+        "status": "PASS",
+        "temporal_status": "PASS"
+      }
+    },
+    {
+      "cases": [
+        "oblique_a3_p2_r2_n24",
+        "oblique_a3_p2_r2_n24_half",
+        "oblique_a3_p2_r2_n32"
+      ],
+      "clock_interpretation": "Conditional supplied-field readout",
+      "dataset": "oblique_a3_p2_r2",
+      "matched_clock_diagnostics": [
+        {
+          "diagnostic": "PASS",
+          "max_logZ_difference": 6.177315603483891e-13,
+          "other": "oblique_a3_p2_r2_n24_half",
+          "reference": "oblique_a3_p2_r2_n24"
+        },
+        {
+          "diagnostic": "PASS",
+          "max_logZ_difference": 4.09654948851923e-13,
+          "other": "oblique_a3_p2_r2_n32",
+          "reference": "oblique_a3_p2_r2_n24"
+        }
+      ],
+      "original_field_qualification": "PASS",
+      "original_numerical_gate": {
+        "dataset": "oblique_a3_p2_r2",
+        "final_time_refinement": {
+          "g": 9.292350000578153e-09,
+          "v": 5.327113683506468e-08
+        },
+        "original_equations": {
+          "oblique_a3_p2_r2_n24": "PASS",
+          "oblique_a3_p2_r2_n24_half": "PASS",
+          "oblique_a3_p2_r2_n32": "PASS"
+        },
+        "spatial": [
+          {
+            "all_points_both_meshes_max": 3.4463282228003322e-09,
+            "coarse_common8_max": 2.984220925927872e-09,
+            "fine_common8_max": 2.357080419734814e-09,
+            "order": 6,
+            "ratio": 1.2660666564204945,
+            "status": "PASS"
+          },
+          {
+            "all_points_both_meshes_max": 3.5096688333347004e-09,
+            "coarse_common8_max": 3.033686080122777e-09,
+            "fine_common8_max": 2.4045955226981164e-09,
+            "order": 8,
+            "ratio": 1.261620115103092,
+            "status": "PASS"
+          }
+        ],
+        "status": "PASS",
+        "temporal_status": "PASS"
+      }
+    },
+    {
+      "cases": [
+        "oblique_a3_p3_r0_n24",
+        "oblique_a3_p3_r0_n24_half",
+        "oblique_a3_p3_r0_n32"
+      ],
+      "clock_interpretation": "Conditional supplied-field readout",
+      "dataset": "oblique_a3_p3_r0",
+      "matched_clock_diagnostics": [
+        {
+          "diagnostic": "PASS",
+          "max_logZ_difference": 1.1636351604504824e-12,
+          "other": "oblique_a3_p3_r0_n24_half",
+          "reference": "oblique_a3_p3_r0_n24"
+        },
+        {
+          "diagnostic": "PASS",
+          "max_logZ_difference": 2.48469647634586e-13,
+          "other": "oblique_a3_p3_r0_n32",
+          "reference": "oblique_a3_p3_r0_n24"
+        }
+      ],
+      "original_field_qualification": "PASS",
+      "original_numerical_gate": {
+        "dataset": "oblique_a3_p3_r0",
+        "final_time_refinement": {
+          "g": 9.997588534815804e-09,
+          "v": 5.446319306656733e-08
+        },
+        "original_equations": {
+          "oblique_a3_p3_r0_n24": "PASS",
+          "oblique_a3_p3_r0_n24_half": "PASS",
+          "oblique_a3_p3_r0_n32": "PASS"
+        },
+        "spatial": [
+          {
+            "all_points_both_meshes_max": 3.5798710107393106e-09,
+            "coarse_common8_max": 3.04355890490271e-09,
+            "fine_common8_max": 2.2450651893102247e-09,
+            "order": 6,
+            "ratio": 1.3556661603388964,
+            "status": "PASS"
+          },
+          {
+            "all_points_both_meshes_max": 3.6369688927173627e-09,
+            "coarse_common8_max": 3.0808589013275878e-09,
+            "fine_common8_max": 2.2563954593657343e-09,
+            "order": 8,
+            "ratio": 1.3653896033781274,
+            "status": "PASS"
+          }
+        ],
+        "status": "PASS",
+        "temporal_status": "PASS"
+      }
+    },
+    {
+      "cases": [
+        "oblique_a3_p3_r1_n24",
+        "oblique_a3_p3_r1_n24_half",
+        "oblique_a3_p3_r1_n32"
+      ],
+      "clock_interpretation": "Conditional supplied-field readout",
+      "dataset": "oblique_a3_p3_r1",
+      "matched_clock_diagnostics": [
+        {
+          "diagnostic": "PASS",
+          "max_logZ_difference": 6.985419187532926e-13,
+          "other": "oblique_a3_p3_r1_n24_half",
+          "reference": "oblique_a3_p3_r1_n24"
+        },
+        {
+          "diagnostic": "PASS",
+          "max_logZ_difference": 2.3306703789138794e-13,
+          "other": "oblique_a3_p3_r1_n32",
+          "reference": "oblique_a3_p3_r1_n24"
+        }
+      ],
+      "original_field_qualification": "PASS",
+      "original_numerical_gate": {
+        "dataset": "oblique_a3_p3_r1",
+        "final_time_refinement": {
+          "g": 9.72650582298229e-09,
+          "v": 5.562001348380363e-08
+        },
+        "original_equations": {
+          "oblique_a3_p3_r1_n24": "PASS",
+          "oblique_a3_p3_r1_n24_half": "PASS",
+          "oblique_a3_p3_r1_n32": "PASS"
+        },
+        "spatial": [
+          {
+            "all_points_both_meshes_max": 3.796969072489276e-09,
+            "coarse_common8_max": 3.174831508800935e-09,
+            "fine_common8_max": 2.3695898021536266e-09,
+            "order": 6,
+            "ratio": 1.3398232495411044,
+            "status": "PASS"
+          },
+          {
+            "all_points_both_meshes_max": 3.8618842568283185e-09,
+            "coarse_common8_max": 3.2293104856861987e-09,
+            "fine_common8_max": 2.424346612350803e-09,
+            "order": 8,
+            "ratio": 1.3320333277570615,
+            "status": "PASS"
+          }
+        ],
+        "status": "PASS",
+        "temporal_status": "PASS"
+      }
+    },
+    {
+      "cases": [
+        "oblique_a3_p3_r2_n24",
+        "oblique_a3_p3_r2_n24_half",
+        "oblique_a3_p3_r2_n32"
+      ],
+      "clock_interpretation": "Conditional supplied-field readout",
+      "dataset": "oblique_a3_p3_r2",
+      "matched_clock_diagnostics": [
+        {
+          "diagnostic": "PASS",
+          "max_logZ_difference": 7.459068085413634e-13,
+          "other": "oblique_a3_p3_r2_n24_half",
+          "reference": "oblique_a3_p3_r2_n24"
+        },
+        {
+          "diagnostic": "PASS",
+          "max_logZ_difference": 2.449611694044229e-13,
+          "other": "oblique_a3_p3_r2_n32",
+          "reference": "oblique_a3_p3_r2_n24"
+        }
+      ],
+      "original_field_qualification": "PASS",
+      "original_numerical_gate": {
+        "dataset": "oblique_a3_p3_r2",
+        "final_time_refinement": {
+          "g": 9.232127951008806e-09,
+          "v": 5.394208812958823e-08
+        },
+        "original_equations": {
+          "oblique_a3_p3_r2_n24": "PASS",
+          "oblique_a3_p3_r2_n24_half": "PASS",
+          "oblique_a3_p3_r2_n32": "PASS"
+        },
+        "spatial": [
+          {
+            "all_points_both_meshes_max": 3.493672962040506e-09,
+            "coarse_common8_max": 3.0273475948305872e-09,
+            "fine_common8_max": 2.4066030279712436e-09,
+            "order": 6,
+            "ratio": 1.2579339258052162,
+            "status": "PASS"
+          },
+          {
+            "all_points_both_meshes_max": 3.5575976609081295e-09,
+            "coarse_common8_max": 3.0820940799536345e-09,
+            "fine_common8_max": 2.4620952498999316e-09,
+            "order": 8,
+            "ratio": 1.2518175647667984,
+            "status": "PASS"
+          }
+        ],
+        "status": "PASS",
+        "temporal_status": "PASS"
+      }
+    },
+    {
+      "cases": [
+        "axial_a4_n24",
+        "axial_a4_n24_half",
+        "axial_a4_n32"
+      ],
+      "clock_interpretation": "Conditional supplied-field readout",
+      "dataset": "axial_a4",
+      "matched_clock_diagnostics": [
+        {
+          "diagnostic": "PASS",
+          "max_logZ_difference": 3.858625224895107e-12,
+          "other": "axial_a4_n24_half",
+          "reference": "axial_a4_n24"
+        },
+        {
+          "diagnostic": "PASS",
+          "max_logZ_difference": 1.400471752455168e-12,
+          "other": "axial_a4_n32",
+          "reference": "axial_a4_n24"
+        }
+      ],
+      "original_field_qualification": "PASS",
+      "original_numerical_gate": {
+        "dataset": "axial_a4",
+        "final_time_refinement": {
+          "g": 2.1845156794597642e-08,
+          "v": 7.691701853218547e-08
+        },
+        "original_equations": {
+          "axial_a4_n24": "PASS",
+          "axial_a4_n24_half": "PASS",
+          "axial_a4_n32": "PASS"
+        },
+        "spatial": [
+          {
+            "all_points_both_meshes_max": 2.0574605352763342e-09,
+            "coarse_common8_max": 1.967434437588622e-09,
+            "fine_common8_max": 1.4070786757969245e-09,
+            "order": 6,
+            "ratio": 1.3982405329782501,
+            "status": "PASS"
+          },
+          {
+            "all_points_both_meshes_max": 2.0782197074353803e-09,
+            "coarse_common8_max": 1.988226638882651e-09,
+            "fine_common8_max": 1.4466625675169098e-09,
+            "order": 8,
+            "ratio": 1.3743541054603328,
+            "status": "PASS"
+          }
+        ],
+        "status": "PASS",
+        "temporal_status": "PASS"
+      }
+    },
+    {
+      "cases": [
+        "oblique_a4_p0_r0_n24",
+        "oblique_a4_p0_r0_n24_half",
+        "oblique_a4_p0_r0_n32"
+      ],
+      "clock_interpretation": "Conditional supplied-field readout",
+      "dataset": "oblique_a4_p0_r0",
+      "matched_clock_diagnostics": [
+        {
+          "diagnostic": "PASS",
+          "max_logZ_difference": 3.0623090868653335e-12,
+          "other": "oblique_a4_p0_r0_n24_half",
+          "reference": "oblique_a4_p0_r0_n24"
+        },
+        {
+          "diagnostic": "PASS",
+          "max_logZ_difference": 1.090440238105117e-12,
+          "other": "oblique_a4_p0_r0_n32",
+          "reference": "oblique_a4_p0_r0_n24"
+        }
+      ],
+      "original_field_qualification": "PASS",
+      "original_numerical_gate": {
+        "dataset": "oblique_a4_p0_r0",
+        "final_time_refinement": {
+          "g": 1.514559144766281e-08,
+          "v": 9.449372839753778e-08
+        },
+        "original_equations": {
+          "oblique_a4_p0_r0_n24": "PASS",
+          "oblique_a4_p0_r0_n24_half": "PASS",
+          "oblique_a4_p0_r0_n32": "PASS"
+        },
+        "spatial": [
+          {
+            "all_points_both_meshes_max": 5.903833699694161e-09,
+            "coarse_common8_max": 5.7894203875363814e-09,
+            "fine_common8_max": 3.7171172251326823e-09,
+            "order": 6,
+            "ratio": 1.557502773491285,
+            "status": "PASS"
+          },
+          {
+            "all_points_both_meshes_max": 6.013428033302404e-09,
+            "coarse_common8_max": 5.896982013808838e-09,
+            "fine_common8_max": 3.825275540769724e-09,
+            "order": 8,
+            "ratio": 1.541583593380111,
+            "status": "PASS"
+          }
+        ],
+        "status": "PASS",
+        "temporal_status": "PASS"
+      }
+    },
+    {
+      "cases": [
+        "oblique_a4_p0_r1_n24",
+        "oblique_a4_p0_r1_n24_half",
+        "oblique_a4_p0_r1_n32"
+      ],
+      "clock_interpretation": "Conditional supplied-field readout",
+      "dataset": "oblique_a4_p0_r1",
+      "matched_clock_diagnostics": [
+        {
+          "diagnostic": "PASS",
+          "max_logZ_difference": 2.4721006491867925e-12,
+          "other": "oblique_a4_p0_r1_n24_half",
+          "reference": "oblique_a4_p0_r1_n24"
+        },
+        {
+          "diagnostic": "PASS",
+          "max_logZ_difference": 8.383437173631325e-13,
+          "other": "oblique_a4_p0_r1_n32",
+          "reference": "oblique_a4_p0_r1_n24"
+        }
+      ],
+      "original_field_qualification": "PASS",
+      "original_numerical_gate": {
+        "dataset": "oblique_a4_p0_r1",
+        "final_time_refinement": {
+          "g": 1.494874268814783e-08,
+          "v": 9.373194131967466e-08
+        },
+        "original_equations": {
+          "oblique_a4_p0_r1_n24": "PASS",
+          "oblique_a4_p0_r1_n24_half": "PASS",
+          "oblique_a4_p0_r1_n32": "PASS"
+        },
+        "spatial": [
+          {
+            "all_points_both_meshes_max": 6.625033022178428e-09,
+            "coarse_common8_max": 6.161558208095386e-09,
+            "fine_common8_max": 4.060280389683868e-09,
+            "order": 6,
+            "ratio": 1.5175203721768393,
+            "status": "PASS"
+          },
+          {
+            "all_points_both_meshes_max": 6.7411863313715514e-09,
+            "coarse_common8_max": 6.274042341214425e-09,
+            "fine_common8_max": 4.172959811032939e-09,
+            "order": 8,
+            "ratio": 1.50349934466812,
+            "status": "PASS"
+          }
+        ],
+        "status": "PASS",
+        "temporal_status": "PASS"
+      }
+    },
+    {
+      "cases": [
+        "oblique_a4_p0_r2_n24",
+        "oblique_a4_p0_r2_n24_half",
+        "oblique_a4_p0_r2_n32"
+      ],
+      "clock_interpretation": "Conditional supplied-field readout",
+      "dataset": "oblique_a4_p0_r2",
+      "matched_clock_diagnostics": [
+        {
+          "diagnostic": "PASS",
+          "max_logZ_difference": 1.883491626553102e-12,
+          "other": "oblique_a4_p0_r2_n24_half",
+          "reference": "oblique_a4_p0_r2_n24"
+        },
+        {
+          "diagnostic": "PASS",
+          "max_logZ_difference": 1.2928824677516104e-12,
+          "other": "oblique_a4_p0_r2_n32",
+          "reference": "oblique_a4_p0_r2_n24"
+        }
+      ],
+      "original_field_qualification": "PASS",
+      "original_numerical_gate": {
+        "dataset": "oblique_a4_p0_r2",
+        "final_time_refinement": {
+          "g": 1.4707541851066708e-08,
+          "v": 8.789007210907585e-08
+        },
+        "original_equations": {
+          "oblique_a4_p0_r2_n24": "PASS",
+          "oblique_a4_p0_r2_n24_half": "PASS",
+          "oblique_a4_p0_r2_n32": "PASS"
+        },
+        "spatial": [
+          {
+            "all_points_both_meshes_max": 6.112865214014107e-09,
+            "coarse_common8_max": 5.5723363145965266e-09,
+            "fine_common8_max": 3.989237329360407e-09,
+            "order": 6,
+            "ratio": 1.3968425176373094,
+            "status": "PASS"
+          },
+          {
+            "all_points_both_meshes_max": 6.219845749555475e-09,
+            "coarse_common8_max": 5.67510799465154e-09,
+            "fine_common8_max": 4.091172844944424e-09,
+            "order": 8,
+            "ratio": 1.3871591863111892,
+            "status": "PASS"
+          }
+        ],
+        "status": "PASS",
+        "temporal_status": "PASS"
+      }
+    },
+    {
+      "cases": [
+        "oblique_a4_p1_r0_n24",
+        "oblique_a4_p1_r0_n24_half",
+        "oblique_a4_p1_r0_n32"
+      ],
+      "clock_interpretation": "Conditional supplied-field readout",
+      "dataset": "oblique_a4_p1_r0",
+      "matched_clock_diagnostics": [
+        {
+          "diagnostic": "PASS",
+          "max_logZ_difference": 2.6477760955989638e-12,
+          "other": "oblique_a4_p1_r0_n24_half",
+          "reference": "oblique_a4_p1_r0_n24"
+        },
+        {
+          "diagnostic": "PASS",
+          "max_logZ_difference": 6.368759686292691e-13,
+          "other": "oblique_a4_p1_r0_n32",
+          "reference": "oblique_a4_p1_r0_n24"
+        }
+      ],
+      "original_field_qualification": "PASS",
+      "original_numerical_gate": {
+        "dataset": "oblique_a4_p1_r0",
+        "final_time_refinement": {
+          "g": 1.5177985090986112e-08,
+          "v": 9.508381992873183e-08
+        },
+        "original_equations": {
+          "oblique_a4_p1_r0_n24": "PASS",
+          "oblique_a4_p1_r0_n24_half": "PASS",
+          "oblique_a4_p1_r0_n32": "PASS"
+        },
+        "spatial": [
+          {
+            "all_points_both_meshes_max": 6.04576411156188e-09,
+            "coarse_common8_max": 5.516571255359537e-09,
+            "fine_common8_max": 3.545152393868989e-09,
+            "order": 6,
+            "ratio": 1.5560886084614962,
+            "status": "PASS"
+          },
+          {
+            "all_points_both_meshes_max": 6.155427723086859e-09,
+            "coarse_common8_max": 5.604390396207748e-09,
+            "fine_common8_max": 3.6349004917113348e-09,
+            "order": 8,
+            "ratio": 1.5418277361340267,
+            "status": "PASS"
+          }
+        ],
+        "status": "PASS",
+        "temporal_status": "PASS"
+      }
+    },
+    {
+      "cases": [
+        "oblique_a4_p1_r1_n24",
+        "oblique_a4_p1_r1_n24_half",
+        "oblique_a4_p1_r1_n32"
+      ],
+      "clock_interpretation": "Conditional supplied-field readout",
+      "dataset": "oblique_a4_p1_r1",
+      "matched_clock_diagnostics": [
+        {
+          "diagnostic": "PASS",
+          "max_logZ_difference": 2.010885381820149e-12,
+          "other": "oblique_a4_p1_r1_n24_half",
+          "reference": "oblique_a4_p1_r1_n24"
+        },
+        {
+          "diagnostic": "PASS",
+          "max_logZ_difference": 7.028388288032872e-13,
+          "other": "oblique_a4_p1_r1_n32",
+          "reference": "oblique_a4_p1_r1_n24"
+        }
+      ],
+      "original_field_qualification": "PASS",
+      "original_numerical_gate": {
+        "dataset": "oblique_a4_p1_r1",
+        "final_time_refinement": {
+          "g": 1.4999073982835398e-08,
+          "v": 9.430971203983063e-08
+        },
+        "original_equations": {
+          "oblique_a4_p1_r1_n24": "PASS",
+          "oblique_a4_p1_r1_n24_half": "PASS",
+          "oblique_a4_p1_r1_n32": "PASS"
+        },
+        "spatial": [
+          {
+            "all_points_both_meshes_max": 6.609311153926711e-09,
+            "coarse_common8_max": 5.673535807826369e-09,
+            "fine_common8_max": 3.881776733383191e-09,
+            "order": 6,
+            "ratio": 1.4615822077127958,
+            "status": "PASS"
+          },
+          {
+            "all_points_both_meshes_max": 6.729608592603853e-09,
+            "coarse_common8_max": 5.778787171006883e-09,
+            "fine_common8_max": 3.9850377997474595e-09,
+            "order": 8,
+            "ratio": 1.4501210431110834,
+            "status": "PASS"
+          }
+        ],
+        "status": "PASS",
+        "temporal_status": "PASS"
+      }
+    },
+    {
+      "cases": [
+        "oblique_a4_p1_r2_n24",
+        "oblique_a4_p1_r2_n24_half",
+        "oblique_a4_p1_r2_n32"
+      ],
+      "clock_interpretation": "Conditional supplied-field readout",
+      "dataset": "oblique_a4_p1_r2",
+      "matched_clock_diagnostics": [
+        {
+          "diagnostic": "PASS",
+          "max_logZ_difference": 1.4100240072756343e-12,
+          "other": "oblique_a4_p1_r2_n24_half",
+          "reference": "oblique_a4_p1_r2_n24"
+        },
+        {
+          "diagnostic": "PASS",
+          "max_logZ_difference": 1.1637656983920497e-12,
+          "other": "oblique_a4_p1_r2_n32",
+          "reference": "oblique_a4_p1_r2_n24"
+        }
+      ],
+      "original_field_qualification": "PASS",
+      "original_numerical_gate": {
+        "dataset": "oblique_a4_p1_r2",
+        "final_time_refinement": {
+          "g": 1.4735235254192958e-08,
+          "v": 8.815027996433855e-08
+        },
+        "original_equations": {
+          "oblique_a4_p1_r2_n24": "PASS",
+          "oblique_a4_p1_r2_n24_half": "PASS",
+          "oblique_a4_p1_r2_n32": "PASS"
+        },
+        "spatial": [
+          {
+            "all_points_both_meshes_max": 6.167121369138329e-09,
+            "coarse_common8_max": 5.532804880914455e-09,
+            "fine_common8_max": 3.927770553247001e-09,
+            "order": 6,
+            "ratio": 1.4086374969995656,
+            "status": "PASS"
+          },
+          {
+            "all_points_both_meshes_max": 6.280842124173347e-09,
+            "coarse_common8_max": 5.638309485966886e-09,
+            "fine_common8_max": 4.033308964590532e-09,
+            "order": 8,
+            "ratio": 1.3979364178313813,
+            "status": "PASS"
+          }
+        ],
+        "status": "PASS",
+        "temporal_status": "PASS"
+      }
+    },
+    {
+      "cases": [
+        "oblique_a4_p2_r0_n24",
+        "oblique_a4_p2_r0_n24_half",
+        "oblique_a4_p2_r0_n32"
+      ],
+      "clock_interpretation": "Conditional supplied-field readout",
+      "dataset": "oblique_a4_p2_r0",
+      "matched_clock_diagnostics": [
+        {
+          "diagnostic": "PASS",
+          "max_logZ_difference": 1.890461745479577e-12,
+          "other": "oblique_a4_p2_r0_n24_half",
+          "reference": "oblique_a4_p2_r0_n24"
+        },
+        {
+          "diagnostic": "PASS",
+          "max_logZ_difference": 4.0978418575088327e-13,
+          "other": "oblique_a4_p2_r0_n32",
+          "reference": "oblique_a4_p2_r0_n24"
+        }
+      ],
+      "original_field_qualification": "PASS",
+      "original_numerical_gate": {
+        "dataset": "oblique_a4_p2_r0",
+        "final_time_refinement": {
+          "g": 1.5352021875969513e-08,
+          "v": 9.823411062370724e-08
+        },
+        "original_equations": {
+          "oblique_a4_p2_r0_n24": "PASS",
+          "oblique_a4_p2_r0_n24_half": "PASS",
+          "oblique_a4_p2_r0_n32": "PASS"
+        },
+        "spatial": [
+          {
+            "all_points_both_meshes_max": 6.203400626514366e-09,
+            "coarse_common8_max": 5.390005164418454e-09,
+            "fine_common8_max": 3.726012332005979e-09,
+            "order": 6,
+            "ratio": 1.4465881173068016,
+            "status": "PASS"
+          },
+          {
+            "all_points_both_meshes_max": 6.319294365564332e-09,
+            "coarse_common8_max": 5.470978281518768e-09,
+            "fine_common8_max": 3.76052330941512e-09,
+            "order": 8,
+            "ratio": 1.4548449328372006,
+            "status": "PASS"
+          }
+        ],
+        "status": "PASS",
+        "temporal_status": "PASS"
+      }
+    },
+    {
+      "cases": [
+        "oblique_a4_p2_r1_n24",
+        "oblique_a4_p2_r1_n24_half",
+        "oblique_a4_p2_r1_n32"
+      ],
+      "clock_interpretation": "Conditional supplied-field readout",
+      "dataset": "oblique_a4_p2_r1",
+      "matched_clock_diagnostics": [
+        {
+          "diagnostic": "PASS",
+          "max_logZ_difference": 1.188725333445273e-12,
+          "other": "oblique_a4_p2_r1_n24_half",
+          "reference": "oblique_a4_p2_r1_n24"
+        },
+        {
+          "diagnostic": "PASS",
+          "max_logZ_difference": 4.224056000812215e-13,
+          "other": "oblique_a4_p2_r1_n32",
+          "reference": "oblique_a4_p2_r1_n24"
+        }
+      ],
+      "original_field_qualification": "PASS",
+      "original_numerical_gate": {
+        "dataset": "oblique_a4_p2_r1",
+        "final_time_refinement": {
+          "g": 1.5078310156013686e-08,
+          "v": 9.772256248652411e-08
+        },
+        "original_equations": {
+          "oblique_a4_p2_r1_n24": "PASS",
+          "oblique_a4_p2_r1_n24_half": "PASS",
+          "oblique_a4_p2_r1_n32": "PASS"
+        },
+        "spatial": [
+          {
+            "all_points_both_meshes_max": 6.963527365844158e-09,
+            "coarse_common8_max": 5.132220426418144e-09,
+            "fine_common8_max": 3.805754322794286e-09,
+            "order": 6,
+            "ratio": 1.3485422313466444,
+            "status": "PASS"
+          },
+          {
+            "all_points_both_meshes_max": 7.09163716638983e-09,
+            "coarse_common8_max": 5.22520293699813e-09,
+            "fine_common8_max": 3.896104050493676e-09,
+            "order": 8,
+            "ratio": 1.3411353673514042,
+            "status": "PASS"
+          }
+        ],
+        "status": "PASS",
+        "temporal_status": "PASS"
+      }
+    },
+    {
+      "cases": [
+        "oblique_a4_p2_r2_n24",
+        "oblique_a4_p2_r2_n24_half",
+        "oblique_a4_p2_r2_n32"
+      ],
+      "clock_interpretation": "Conditional supplied-field readout",
+      "dataset": "oblique_a4_p2_r2",
+      "matched_clock_diagnostics": [
+        {
+          "diagnostic": "PASS",
+          "max_logZ_difference": 7.693836887034955e-13,
+          "other": "oblique_a4_p2_r2_n24_half",
+          "reference": "oblique_a4_p2_r2_n24"
+        },
+        {
+          "diagnostic": "PASS",
+          "max_logZ_difference": 7.586977920914784e-13,
+          "other": "oblique_a4_p2_r2_n32",
+          "reference": "oblique_a4_p2_r2_n24"
+        }
+      ],
+      "original_field_qualification": "PASS",
+      "original_numerical_gate": {
+        "dataset": "oblique_a4_p2_r2",
+        "final_time_refinement": {
+          "g": 1.4738038345285531e-08,
+          "v": 9.188062932707908e-08
+        },
+        "original_equations": {
+          "oblique_a4_p2_r2_n24": "PASS",
+          "oblique_a4_p2_r2_n24_half": "PASS",
+          "oblique_a4_p2_r2_n32": "PASS"
+        },
+        "spatial": [
+          {
+            "all_points_both_meshes_max": 6.764800664083026e-09,
+            "coarse_common8_max": 4.524452146270619e-09,
+            "fine_common8_max": 3.81107767566391e-09,
+            "order": 6,
+            "ratio": 1.1871844478956823,
+            "status": "PASS"
+          },
+          {
+            "all_points_both_meshes_max": 6.887759029794438e-09,
+            "coarse_common8_max": 4.61454446876175e-09,
+            "fine_common8_max": 3.901493461633265e-09,
+            "order": 8,
+            "ratio": 1.1827636042814187,
+            "status": "PASS"
+          }
+        ],
+        "status": "PASS",
+        "temporal_status": "PASS"
+      }
+    },
+    {
+      "cases": [
+        "oblique_a4_p3_r0_n24",
+        "oblique_a4_p3_r0_n24_half",
+        "oblique_a4_p3_r0_n32"
+      ],
+      "clock_interpretation": "Conditional supplied-field readout",
+      "dataset": "oblique_a4_p3_r0",
+      "matched_clock_diagnostics": [
+        {
+          "diagnostic": "PASS",
+          "max_logZ_difference": 1.2243418084922908e-12,
+          "other": "oblique_a4_p3_r0_n24_half",
+          "reference": "oblique_a4_p3_r0_n24"
+        },
+        {
+          "diagnostic": "PASS",
+          "max_logZ_difference": 7.352850966979574e-13,
+          "other": "oblique_a4_p3_r0_n32",
+          "reference": "oblique_a4_p3_r0_n24"
+        }
+      ],
+      "original_field_qualification": "PASS",
+      "original_numerical_gate": {
+        "dataset": "oblique_a4_p3_r0",
+        "final_time_refinement": {
+          "g": 1.5459349356206076e-08,
+          "v": 9.930576538863534e-08
+        },
+        "original_equations": {
+          "oblique_a4_p3_r0_n24": "PASS",
+          "oblique_a4_p3_r0_n24_half": "PASS",
+          "oblique_a4_p3_r0_n32": "PASS"
+        },
+        "spatial": [
+          {
+            "all_points_both_meshes_max": 6.302701138771738e-09,
+            "coarse_common8_max": 5.385172724414744e-09,
+            "fine_common8_max": 3.586399011101804e-09,
+            "order": 6,
+            "ratio": 1.5015542631326806,
+            "status": "PASS"
+          },
+          {
+            "all_points_both_meshes_max": 6.420979636878599e-09,
+            "coarse_common8_max": 5.47492690072815e-09,
+            "fine_common8_max": 3.621218852556396e-09,
+            "order": 8,
+            "ratio": 1.5119016893616166,
+            "status": "PASS"
+          }
+        ],
+        "status": "PASS",
+        "temporal_status": "PASS"
+      }
+    },
+    {
+      "cases": [
+        "oblique_a4_p3_r1_n24",
+        "oblique_a4_p3_r1_n24_half",
+        "oblique_a4_p3_r1_n32"
+      ],
+      "clock_interpretation": "Conditional supplied-field readout",
+      "dataset": "oblique_a4_p3_r1",
+      "matched_clock_diagnostics": [
+        {
+          "diagnostic": "PASS",
+          "max_logZ_difference": 4.860539054574176e-13,
+          "other": "oblique_a4_p3_r1_n24_half",
+          "reference": "oblique_a4_p3_r1_n24"
+        },
+        {
+          "diagnostic": "PASS",
+          "max_logZ_difference": 6.521849033047644e-13,
+          "other": "oblique_a4_p3_r1_n32",
+          "reference": "oblique_a4_p3_r1_n24"
+        }
+      ],
+      "original_field_qualification": "PASS",
+      "original_numerical_gate": {
+        "dataset": "oblique_a4_p3_r1",
+        "final_time_refinement": {
+          "g": 1.504874092006503e-08,
+          "v": 9.91408342088107e-08
+        },
+        "original_equations": {
+          "oblique_a4_p3_r1_n24": "PASS",
+          "oblique_a4_p3_r1_n24_half": "PASS",
+          "oblique_a4_p3_r1_n32": "PASS"
+        },
+        "spatial": [
+          {
+            "all_points_both_meshes_max": 7.188841633087861e-09,
+            "coarse_common8_max": 5.740347475136076e-09,
+            "fine_common8_max": 3.6291820104672468e-09,
+            "order": 6,
+            "ratio": 1.58171936777484,
+            "status": "PASS"
+          },
+          {
+            "all_points_both_meshes_max": 7.3205075334925596e-09,
+            "coarse_common8_max": 5.842860195670596e-09,
+            "fine_common8_max": 3.731383146909906e-09,
+            "order": 8,
+            "ratio": 1.5658698036703311,
+            "status": "PASS"
+          }
+        ],
+        "status": "PASS",
+        "temporal_status": "PASS"
+      }
+    },
+    {
+      "cases": [
+        "oblique_a4_p3_r2_n24",
+        "oblique_a4_p3_r2_n24_half",
+        "oblique_a4_p3_r2_n32"
+      ],
+      "clock_interpretation": "Conditional supplied-field readout",
+      "dataset": "oblique_a4_p3_r2",
+      "matched_clock_diagnostics": [
+        {
+          "diagnostic": "PASS",
+          "max_logZ_difference": 4.809676962258536e-13,
+          "other": "oblique_a4_p3_r2_n24_half",
+          "reference": "oblique_a4_p3_r2_n24"
+        },
+        {
+          "diagnostic": "PASS",
+          "max_logZ_difference": 4.412407939025087e-13,
+          "other": "oblique_a4_p3_r2_n32",
+          "reference": "oblique_a4_p3_r2_n24"
+        }
+      ],
+      "original_field_qualification": "PASS",
+      "original_numerical_gate": {
+        "dataset": "oblique_a4_p3_r2",
+        "final_time_refinement": {
+          "g": 1.4640150425293541e-08,
+          "v": 9.325808747462361e-08
+        },
+        "original_equations": {
+          "oblique_a4_p3_r2_n24": "PASS",
+          "oblique_a4_p3_r2_n24_half": "PASS",
+          "oblique_a4_p3_r2_n32": "PASS"
+        },
+        "spatial": [
+          {
+            "all_points_both_meshes_max": 6.9535892044392256e-09,
+            "coarse_common8_max": 5.649188561385188e-09,
+            "fine_common8_max": 3.7319174417405065e-09,
+            "order": 6,
+            "ratio": 1.5137496071591812,
+            "status": "PASS"
+          },
+          {
+            "all_points_both_meshes_max": 7.080108388457518e-09,
+            "coarse_common8_max": 5.747761711027977e-09,
+            "fine_common8_max": 3.830059713827438e-09,
+            "order": 8,
+            "ratio": 1.5006976758814417,
+            "status": "PASS"
+          }
+        ],
+        "status": "PASS",
+        "temporal_status": "PASS"
+      }
+    },
+    {
+      "cases": [
+        "axial_a5_n24",
+        "axial_a5_n24_half",
+        "axial_a5_n32"
+      ],
+      "clock_interpretation": "Diagnostic supplied-field readout on an originally unqualified dataset",
+      "dataset": "axial_a5",
+      "matched_clock_diagnostics": [
+        {
+          "diagnostic": "PASS",
+          "max_logZ_difference": 5.846019848765316e-12,
+          "other": "axial_a5_n24_half",
+          "reference": "axial_a5_n24"
+        },
+        {
+          "diagnostic": "PASS",
+          "max_logZ_difference": 2.279304349428468e-12,
+          "other": "axial_a5_n32",
+          "reference": "axial_a5_n24"
+        }
+      ],
+      "original_field_qualification": "UNQUALIFIED",
+      "original_numerical_gate": {
+        "dataset": "axial_a5",
+        "final_time_refinement": {
+          "g": 4.886731375108866e-08,
+          "v": 2.181810572210452e-07
+        },
+        "original_equations": {
+          "axial_a5_n24": "PASS",
+          "axial_a5_n24_half": "PASS",
+          "axial_a5_n32": "PASS"
+        },
+        "spatial": [
+          {
+            "all_points_both_meshes_max": 4.5245449609154775e-09,
+            "coarse_common8_max": 3.6070816333833022e-09,
+            "fine_common8_max": 2.4779613916336984e-09,
+            "order": 6,
+            "ratio": 1.4556649855650836,
+            "status": "PASS"
+          },
+          {
+            "all_points_both_meshes_max": 4.800274067129351e-09,
+            "coarse_common8_max": 3.7696066268466666e-09,
+            "fine_common8_max": 2.62101274017823e-09,
+            "order": 8,
+            "ratio": 1.4382252207558257,
+            "status": "PASS"
+          }
+        ],
+        "status": "DIAGNOSTIC_NOT_QUALIFIED",
+        "temporal_status": "FAIL"
+      }
+    },
+    {
+      "cases": [
+        "oblique_a5_p0_r0_n24",
+        "oblique_a5_p0_r0_n24_half",
+        "oblique_a5_p0_r0_n32"
+      ],
+      "clock_interpretation": "Diagnostic supplied-field readout on an originally unqualified dataset",
+      "dataset": "oblique_a5_p0_r0",
+      "matched_clock_diagnostics": [
+        {
+          "diagnostic": "PASS",
+          "max_logZ_difference": 6.221858098176547e-12,
+          "other": "oblique_a5_p0_r0_n24_half",
+          "reference": "oblique_a5_p0_r0_n24"
+        },
+        {
+          "diagnostic": "PASS",
+          "max_logZ_difference": 1.6394715446343966e-12,
+          "other": "oblique_a5_p0_r0_n32",
+          "reference": "oblique_a5_p0_r0_n24"
+        }
+      ],
+      "original_field_qualification": "UNQUALIFIED",
+      "original_numerical_gate": {
+        "dataset": "oblique_a5_p0_r0",
+        "final_time_refinement": {
+          "g": 3.1845914350014937e-08,
+          "v": 2.1787595727573716e-07
+        },
+        "original_equations": {
+          "oblique_a5_p0_r0_n24": "PASS",
+          "oblique_a5_p0_r0_n24_half": "PASS",
+          "oblique_a5_p0_r0_n32": "PASS"
+        },
+        "spatial": [
+          {
+            "all_points_both_meshes_max": 1.2668064786058864e-07,
+            "coarse_common8_max": 6.580070116557479e-08,
+            "fine_common8_max": 7.254975176174128e-09,
+            "order": 6,
+            "ratio": 9.069734846463588,
+            "status": "INCONCLUSIVE_REFINEMENT"
+          },
+          {
+            "all_points_both_meshes_max": 1.2663671933310638e-07,
+            "coarse_common8_max": 6.588260414996938e-08,
+            "fine_common8_max": 7.542524937953488e-09,
+            "order": 8,
+            "ratio": 8.73482085799312,
+            "status": "INCONCLUSIVE_REFINEMENT"
+          }
+        ],
+        "status": "DIAGNOSTIC_NOT_QUALIFIED",
+        "temporal_status": "FAIL"
+      }
+    },
+    {
+      "cases": [
+        "oblique_a5_p0_r1_n24",
+        "oblique_a5_p0_r1_n24_half",
+        "oblique_a5_p0_r1_n32"
+      ],
+      "clock_interpretation": "Diagnostic supplied-field readout on an originally unqualified dataset",
+      "dataset": "oblique_a5_p0_r1",
+      "matched_clock_diagnostics": [
+        {
+          "diagnostic": "PASS",
+          "max_logZ_difference": 5.769122159160478e-12,
+          "other": "oblique_a5_p0_r1_n24_half",
+          "reference": "oblique_a5_p0_r1_n24"
+        },
+        {
+          "diagnostic": "PASS",
+          "max_logZ_difference": 2.0101776146419503e-12,
+          "other": "oblique_a5_p0_r1_n32",
+          "reference": "oblique_a5_p0_r1_n24"
+        }
+      ],
+      "original_field_qualification": "UNQUALIFIED",
+      "original_numerical_gate": {
+        "dataset": "oblique_a5_p0_r1",
+        "final_time_refinement": {
+          "g": 2.985255775911355e-08,
+          "v": 2.0288813118440885e-07
+        },
+        "original_equations": {
+          "oblique_a5_p0_r1_n24": "PASS",
+          "oblique_a5_p0_r1_n24_half": "PASS",
+          "oblique_a5_p0_r1_n32": "PASS"
+        },
+        "spatial": [
+          {
+            "all_points_both_meshes_max": 9.835362380083978e-08,
+            "coarse_common8_max": 9.835362380083978e-08,
+            "fine_common8_max": 7.653267075635739e-09,
+            "order": 6,
+            "ratio": 12.851194506715915,
+            "status": "PASS"
+          },
+          {
+            "all_points_both_meshes_max": 9.823022817379012e-08,
+            "coarse_common8_max": 9.823022817379012e-08,
+            "fine_common8_max": 7.897429932235411e-09,
+            "order": 8,
+            "ratio": 12.438252572882975,
+            "status": "PASS"
+          }
+        ],
+        "status": "DIAGNOSTIC_NOT_QUALIFIED",
+        "temporal_status": "FAIL"
+      }
+    },
+    {
+      "cases": [
+        "oblique_a5_p0_r2_n24",
+        "oblique_a5_p0_r2_n24_half",
+        "oblique_a5_p0_r2_n32"
+      ],
+      "clock_interpretation": "Diagnostic supplied-field readout on an originally unqualified dataset",
+      "dataset": "oblique_a5_p0_r2",
+      "matched_clock_diagnostics": [
+        {
+          "diagnostic": "PASS",
+          "max_logZ_difference": 4.945587125590456e-12,
+          "other": "oblique_a5_p0_r2_n24_half",
+          "reference": "oblique_a5_p0_r2_n24"
+        },
+        {
+          "diagnostic": "PASS",
+          "max_logZ_difference": 4.928264393799786e-12,
+          "other": "oblique_a5_p0_r2_n32",
+          "reference": "oblique_a5_p0_r2_n24"
+        }
+      ],
+      "original_field_qualification": "UNQUALIFIED",
+      "original_numerical_gate": {
+        "dataset": "oblique_a5_p0_r2",
+        "final_time_refinement": {
+          "g": 2.9321956418471018e-08,
+          "v": 1.7889207981625077e-07
+        },
+        "original_equations": {
+          "oblique_a5_p0_r2_n24": "PASS",
+          "oblique_a5_p0_r2_n24_half": "PASS",
+          "oblique_a5_p0_r2_n32": "PASS"
+        },
+        "spatial": [
+          {
+            "all_points_both_meshes_max": 9.511808574114156e-08,
+            "coarse_common8_max": 5.6144648707956435e-08,
+            "fine_common8_max": 7.352568665019987e-09,
+            "order": 6,
+            "ratio": 7.636059078926509,
+            "status": "INCONCLUSIVE_REFINEMENT"
+          },
+          {
+            "all_points_both_meshes_max": 9.508431098037562e-08,
+            "coarse_common8_max": 5.618847653821035e-08,
+            "fine_common8_max": 7.531994361542615e-09,
+            "order": 8,
+            "ratio": 7.459973260880466,
+            "status": "INCONCLUSIVE_REFINEMENT"
+          }
+        ],
+        "status": "DIAGNOSTIC_NOT_QUALIFIED",
+        "temporal_status": "PASS"
+      }
+    },
+    {
+      "cases": [
+        "oblique_a5_p1_r0_n24",
+        "oblique_a5_p1_r0_n24_half",
+        "oblique_a5_p1_r0_n32"
+      ],
+      "clock_interpretation": "Diagnostic supplied-field readout on an originally unqualified dataset",
+      "dataset": "oblique_a5_p1_r0",
+      "matched_clock_diagnostics": [
+        {
+          "diagnostic": "PASS",
+          "max_logZ_difference": 4.754871843482e-12,
+          "other": "oblique_a5_p1_r0_n24_half",
+          "reference": "oblique_a5_p1_r0_n24"
+        },
+        {
+          "diagnostic": "PASS",
+          "max_logZ_difference": 2.82433755202649e-12,
+          "other": "oblique_a5_p1_r0_n32",
+          "reference": "oblique_a5_p1_r0_n24"
+        }
+      ],
+      "original_field_qualification": "UNQUALIFIED",
+      "original_numerical_gate": {
+        "dataset": "oblique_a5_p1_r0",
+        "final_time_refinement": {
+          "g": 3.19209476629112e-08,
+          "v": 2.1953980677835716e-07
+        },
+        "original_equations": {
+          "oblique_a5_p1_r0_n24": "PASS",
+          "oblique_a5_p1_r0_n24_half": "PASS",
+          "oblique_a5_p1_r0_n32": "PASS"
+        },
+        "spatial": [
+          {
+            "all_points_both_meshes_max": 1.0860916066501858e-07,
+            "coarse_common8_max": 1.0860916066501858e-07,
+            "fine_common8_max": 6.993424450651986e-09,
+            "order": 6,
+            "ratio": 15.530182878417042,
+            "status": "PASS"
+          },
+          {
+            "all_points_both_meshes_max": 1.086625244228756e-07,
+            "coarse_common8_max": 1.086625244228756e-07,
+            "fine_common8_max": 7.24818277619832e-09,
+            "order": 8,
+            "ratio": 14.99169209414849,
+            "status": "PASS"
+          }
+        ],
+        "status": "DIAGNOSTIC_NOT_QUALIFIED",
+        "temporal_status": "FAIL"
+      }
+    },
+    {
+      "cases": [
+        "oblique_a5_p1_r1_n24",
+        "oblique_a5_p1_r1_n24_half",
+        "oblique_a5_p1_r1_n32"
+      ],
+      "clock_interpretation": "Diagnostic supplied-field readout on an originally unqualified dataset",
+      "dataset": "oblique_a5_p1_r1",
+      "matched_clock_diagnostics": [
+        {
+          "diagnostic": "PASS",
+          "max_logZ_difference": 5.372507994039211e-12,
+          "other": "oblique_a5_p1_r1_n24_half",
+          "reference": "oblique_a5_p1_r1_n24"
+        },
+        {
+          "diagnostic": "PASS",
+          "max_logZ_difference": 6.688196871329488e-12,
+          "other": "oblique_a5_p1_r1_n32",
+          "reference": "oblique_a5_p1_r1_n24"
+        }
+      ],
+      "original_field_qualification": "UNQUALIFIED",
+      "original_numerical_gate": {
+        "dataset": "oblique_a5_p1_r1",
+        "final_time_refinement": {
+          "g": 2.9809392287916125e-08,
+          "v": 2.0388071675370156e-07
+        },
+        "original_equations": {
+          "oblique_a5_p1_r1_n24": "PASS",
+          "oblique_a5_p1_r1_n24_half": "PASS",
+          "oblique_a5_p1_r1_n32": "PASS"
+        },
+        "spatial": [
+          {
+            "all_points_both_meshes_max": 8.70111963036102e-08,
+            "coarse_common8_max": 6.062914192916935e-08,
+            "fine_common8_max": 7.391823875213532e-09,
+            "order": 6,
+            "ratio": 8.202189737295102,
+            "status": "INCONCLUSIVE_REFINEMENT"
+          },
+          {
+            "all_points_both_meshes_max": 8.70338063285736e-08,
+            "coarse_common8_max": 6.056733026227334e-08,
+            "fine_common8_max": 7.634278764712121e-09,
+            "order": 8,
+            "ratio": 7.9336021291537495,
+            "status": "INCONCLUSIVE_REFINEMENT"
+          }
+        ],
+        "status": "DIAGNOSTIC_NOT_QUALIFIED",
+        "temporal_status": "FAIL"
+      }
+    },
+    {
+      "cases": [
+        "oblique_a5_p1_r2_n24",
+        "oblique_a5_p1_r2_n24_half",
+        "oblique_a5_p1_r2_n32"
+      ],
+      "clock_interpretation": "Diagnostic supplied-field readout on an originally unqualified dataset",
+      "dataset": "oblique_a5_p1_r2",
+      "matched_clock_diagnostics": [
+        {
+          "diagnostic": "PASS",
+          "max_logZ_difference": 4.221463456577368e-12,
+          "other": "oblique_a5_p1_r2_n24_half",
+          "reference": "oblique_a5_p1_r2_n24"
+        },
+        {
+          "diagnostic": "PASS",
+          "max_logZ_difference": 3.972810145094763e-12,
+          "other": "oblique_a5_p1_r2_n32",
+          "reference": "oblique_a5_p1_r2_n24"
+        }
+      ],
+      "original_field_qualification": "UNQUALIFIED",
+      "original_numerical_gate": {
+        "dataset": "oblique_a5_p1_r2",
+        "final_time_refinement": {
+          "g": 2.9323320660523677e-08,
+          "v": 1.7886981140691205e-07
+        },
+        "original_equations": {
+          "oblique_a5_p1_r2_n24": "PASS",
+          "oblique_a5_p1_r2_n24_half": "PASS",
+          "oblique_a5_p1_r2_n32": "PASS"
+        },
+        "spatial": [
+          {
+            "all_points_both_meshes_max": 8.425255393351705e-08,
+            "coarse_common8_max": 5.933403962599115e-08,
+            "fine_common8_max": 7.353883724192656e-09,
+            "order": 6,
+            "ratio": 8.06839512988154,
+            "status": "INCONCLUSIVE_REFINEMENT"
+          },
+          {
+            "all_points_both_meshes_max": 8.428708081487102e-08,
+            "coarse_common8_max": 5.937655639387529e-08,
+            "fine_common8_max": 7.566290149974009e-09,
+            "order": 8,
+            "ratio": 7.847512481936641,
+            "status": "INCONCLUSIVE_REFINEMENT"
+          }
+        ],
+        "status": "DIAGNOSTIC_NOT_QUALIFIED",
+        "temporal_status": "PASS"
+      }
+    },
+    {
+      "cases": [
+        "oblique_a5_p2_r0_n24",
+        "oblique_a5_p2_r0_n24_half",
+        "oblique_a5_p2_r0_n32"
+      ],
+      "clock_interpretation": "Diagnostic supplied-field readout on an originally unqualified dataset",
+      "dataset": "oblique_a5_p2_r0",
+      "matched_clock_diagnostics": [
+        {
+          "diagnostic": "PASS",
+          "max_logZ_difference": 4.758471394694652e-12,
+          "other": "oblique_a5_p2_r0_n24_half",
+          "reference": "oblique_a5_p2_r0_n24"
+        },
+        {
+          "diagnostic": "PASS",
+          "max_logZ_difference": 4.335748773898196e-12,
+          "other": "oblique_a5_p2_r0_n32",
+          "reference": "oblique_a5_p2_r0_n24"
+        }
+      ],
+      "original_field_qualification": "UNQUALIFIED",
+      "original_numerical_gate": {
+        "dataset": "oblique_a5_p2_r0",
+        "final_time_refinement": {
+          "g": 3.244038282446127e-08,
+          "v": 2.2069029625981784e-07
+        },
+        "original_equations": {
+          "oblique_a5_p2_r0_n24": "PASS",
+          "oblique_a5_p2_r0_n24_half": "PASS",
+          "oblique_a5_p2_r0_n32": "PASS"
+        },
+        "spatial": [
+          {
+            "all_points_both_meshes_max": 1.1206070901770282e-07,
+            "coarse_common8_max": 1.0767028352232089e-07,
+            "fine_common8_max": 7.550391145638713e-09,
+            "order": 6,
+            "ratio": 14.260225920151676,
+            "status": "PASS"
+          },
+          {
+            "all_points_both_meshes_max": 1.1207963651616026e-07,
+            "coarse_common8_max": 1.0766383146121328e-07,
+            "fine_common8_max": 7.656169115355382e-09,
+            "order": 8,
+            "ratio": 14.06236328365322,
+            "status": "PASS"
+          }
+        ],
+        "status": "DIAGNOSTIC_NOT_QUALIFIED",
+        "temporal_status": "FAIL"
+      }
+    },
+    {
+      "cases": [
+        "oblique_a5_p2_r1_n24",
+        "oblique_a5_p2_r1_n24_half",
+        "oblique_a5_p2_r1_n32"
+      ],
+      "clock_interpretation": "Diagnostic supplied-field readout on an originally unqualified dataset",
+      "dataset": "oblique_a5_p2_r1",
+      "matched_clock_diagnostics": [
+        {
+          "diagnostic": "PASS",
+          "max_logZ_difference": 5.038365558096558e-12,
+          "other": "oblique_a5_p2_r1_n24_half",
+          "reference": "oblique_a5_p2_r1_n24"
+        },
+        {
+          "diagnostic": "PASS",
+          "max_logZ_difference": 3.858913188992119e-12,
+          "other": "oblique_a5_p2_r1_n32",
+          "reference": "oblique_a5_p2_r1_n24"
+        }
+      ],
+      "original_field_qualification": "UNQUALIFIED",
+      "original_numerical_gate": {
+        "dataset": "oblique_a5_p2_r1",
+        "final_time_refinement": {
+          "g": 3.0065383072042096e-08,
+          "v": 2.0554998059196805e-07
+        },
+        "original_equations": {
+          "oblique_a5_p2_r1_n24": "PASS",
+          "oblique_a5_p2_r1_n24_half": "PASS",
+          "oblique_a5_p2_r1_n32": "PASS"
+        },
+        "spatial": [
+          {
+            "all_points_both_meshes_max": 1.0069032374548925e-07,
+            "coarse_common8_max": 5.696426874646221e-08,
+            "fine_common8_max": 7.064429652370308e-09,
+            "order": 6,
+            "ratio": 8.063534007639124,
+            "status": "INCONCLUSIVE_REFINEMENT"
+          },
+          {
+            "all_points_both_meshes_max": 1.0081164536490661e-07,
+            "coarse_common8_max": 5.684005133232972e-08,
+            "fine_common8_max": 7.256689471546451e-09,
+            "order": 8,
+            "ratio": 7.832779886089946,
+            "status": "INCONCLUSIVE_REFINEMENT"
+          }
+        ],
+        "status": "DIAGNOSTIC_NOT_QUALIFIED",
+        "temporal_status": "FAIL"
+      }
+    },
+    {
+      "cases": [
+        "oblique_a5_p2_r2_n24",
+        "oblique_a5_p2_r2_n24_half",
+        "oblique_a5_p2_r2_n32"
+      ],
+      "clock_interpretation": "Diagnostic supplied-field readout on an originally unqualified dataset",
+      "dataset": "oblique_a5_p2_r2",
+      "matched_clock_diagnostics": [
+        {
+          "diagnostic": "PASS",
+          "max_logZ_difference": 3.4400850223992308e-12,
+          "other": "oblique_a5_p2_r2_n24_half",
+          "reference": "oblique_a5_p2_r2_n24"
+        },
+        {
+          "diagnostic": "PASS",
+          "max_logZ_difference": 1.5804880191053194e-12,
+          "other": "oblique_a5_p2_r2_n32",
+          "reference": "oblique_a5_p2_r2_n24"
+        }
+      ],
+      "original_field_qualification": "UNQUALIFIED",
+      "original_numerical_gate": {
+        "dataset": "oblique_a5_p2_r2",
+        "final_time_refinement": {
+          "g": 2.9557398306678806e-08,
+          "v": 1.819235819766618e-07
+        },
+        "original_equations": {
+          "oblique_a5_p2_r2_n24": "PASS",
+          "oblique_a5_p2_r2_n24_half": "PASS",
+          "oblique_a5_p2_r2_n32": "PASS"
+        },
+        "spatial": [
+          {
+            "all_points_both_meshes_max": 8.765391878995388e-08,
+            "coarse_common8_max": 6.442387323613019e-08,
+            "fine_common8_max": 6.905624183595194e-09,
+            "order": 6,
+            "ratio": 9.329189009325722,
+            "status": "INCONCLUSIVE_REFINEMENT"
+          },
+          {
+            "all_points_both_meshes_max": 8.770681902969812e-08,
+            "coarse_common8_max": 6.444882766354354e-08,
+            "fine_common8_max": 7.074795971284686e-09,
+            "order": 8,
+            "ratio": 9.109637638333266,
+            "status": "INCONCLUSIVE_REFINEMENT"
+          }
+        ],
+        "status": "DIAGNOSTIC_NOT_QUALIFIED",
+        "temporal_status": "PASS"
+      }
+    },
+    {
+      "cases": [
+        "oblique_a5_p3_r0_n24",
+        "oblique_a5_p3_r0_n24_half",
+        "oblique_a5_p3_r0_n32"
+      ],
+      "clock_interpretation": "Diagnostic supplied-field readout on an originally unqualified dataset",
+      "dataset": "oblique_a5_p3_r0",
+      "matched_clock_diagnostics": [
+        {
+          "diagnostic": "PASS",
+          "max_logZ_difference": 4.30074378887646e-12,
+          "other": "oblique_a5_p3_r0_n24_half",
+          "reference": "oblique_a5_p3_r0_n24"
+        },
+        {
+          "diagnostic": "PASS",
+          "max_logZ_difference": 6.828293139249375e-12,
+          "other": "oblique_a5_p3_r0_n32",
+          "reference": "oblique_a5_p3_r0_n24"
+        }
+      ],
+      "original_field_qualification": "UNQUALIFIED",
+      "original_numerical_gate": {
+        "dataset": "oblique_a5_p3_r0",
+        "final_time_refinement": {
+          "g": 3.27496714191966e-08,
+          "v": 2.2446651826157904e-07
+        },
+        "original_equations": {
+          "oblique_a5_p3_r0_n24": "PASS",
+          "oblique_a5_p3_r0_n24_half": "PASS",
+          "oblique_a5_p3_r0_n32": "PASS"
+        },
+        "spatial": [
+          {
+            "all_points_both_meshes_max": 1.2278019645428628e-07,
+            "coarse_common8_max": 8.143929464132782e-08,
+            "fine_common8_max": 7.199108115196751e-09,
+            "order": 6,
+            "ratio": 11.312414446091715,
+            "status": "PASS"
+          },
+          {
+            "all_points_both_meshes_max": 1.227505048717603e-07,
+            "coarse_common8_max": 8.135955908983306e-08,
+            "fine_common8_max": 7.297162901709342e-09,
+            "order": 8,
+            "ratio": 11.149478254182155,
+            "status": "PASS"
+          }
+        ],
+        "status": "DIAGNOSTIC_NOT_QUALIFIED",
+        "temporal_status": "FAIL"
+      }
+    },
+    {
+      "cases": [
+        "oblique_a5_p3_r1_n24",
+        "oblique_a5_p3_r1_n24_half",
+        "oblique_a5_p3_r1_n32"
+      ],
+      "clock_interpretation": "Diagnostic supplied-field readout on an originally unqualified dataset",
+      "dataset": "oblique_a5_p3_r1",
+      "matched_clock_diagnostics": [
+        {
+          "diagnostic": "PASS",
+          "max_logZ_difference": 3.493157152423265e-12,
+          "other": "oblique_a5_p3_r1_n24_half",
+          "reference": "oblique_a5_p3_r1_n24"
+        },
+        {
+          "diagnostic": "PASS",
+          "max_logZ_difference": 8.586568955859519e-13,
+          "other": "oblique_a5_p3_r1_n32",
+          "reference": "oblique_a5_p3_r1_n24"
+        }
+      ],
+      "original_field_qualification": "UNQUALIFIED",
+      "original_numerical_gate": {
+        "dataset": "oblique_a5_p3_r1",
+        "final_time_refinement": {
+          "g": 3.014848459770292e-08,
+          "v": 2.0952678880803433e-07
+        },
+        "original_equations": {
+          "oblique_a5_p3_r1_n24": "PASS",
+          "oblique_a5_p3_r1_n24_half": "PASS",
+          "oblique_a5_p3_r1_n32": "PASS"
+        },
+        "spatial": [
+          {
+            "all_points_both_meshes_max": 8.043921462252968e-08,
+            "coarse_common8_max": 6.160630916518528e-08,
+            "fine_common8_max": 6.5429376916448234e-09,
+            "order": 6,
+            "ratio": 9.415695528302994,
+            "status": "INCONCLUSIVE_REFINEMENT"
+          },
+          {
+            "all_points_both_meshes_max": 8.031294884691675e-08,
+            "coarse_common8_max": 6.157037174547852e-08,
+            "fine_common8_max": 6.682388586920496e-09,
+            "order": 8,
+            "ratio": 9.213826904049071,
+            "status": "INCONCLUSIVE_REFINEMENT"
+          }
+        ],
+        "status": "DIAGNOSTIC_NOT_QUALIFIED",
+        "temporal_status": "FAIL"
+      }
+    },
+    {
+      "cases": [
+        "oblique_a5_p3_r2_n24",
+        "oblique_a5_p3_r2_n24_half",
+        "oblique_a5_p3_r2_n32"
+      ],
+      "clock_interpretation": "Diagnostic supplied-field readout on an originally unqualified dataset",
+      "dataset": "oblique_a5_p3_r2",
+      "matched_clock_diagnostics": [
+        {
+          "diagnostic": "PASS",
+          "max_logZ_difference": 2.237588586639916e-12,
+          "other": "oblique_a5_p3_r2_n24_half",
+          "reference": "oblique_a5_p3_r2_n24"
+        },
+        {
+          "diagnostic": "PASS",
+          "max_logZ_difference": 1.331363838619204e-12,
+          "other": "oblique_a5_p3_r2_n32",
+          "reference": "oblique_a5_p3_r2_n24"
+        }
+      ],
+      "original_field_qualification": "UNQUALIFIED",
+      "original_numerical_gate": {
+        "dataset": "oblique_a5_p3_r2",
+        "final_time_refinement": {
+          "g": 2.9474183094180262e-08,
+          "v": 1.8515672195462685e-07
+        },
+        "original_equations": {
+          "oblique_a5_p3_r2_n24": "PASS",
+          "oblique_a5_p3_r2_n24_half": "PASS",
+          "oblique_a5_p3_r2_n32": "PASS"
+        },
+        "spatial": [
+          {
+            "all_points_both_meshes_max": 1.0110695752851839e-07,
+            "coarse_common8_max": 5.970957039913571e-08,
+            "fine_common8_max": 6.12944217603939e-09,
+            "order": 6,
+            "ratio": 9.74143628151783,
+            "status": "INCONCLUSIVE_REFINEMENT"
+          },
+          {
+            "all_points_both_meshes_max": 1.011929416927515e-07,
+            "coarse_common8_max": 5.977560779690805e-08,
+            "fine_common8_max": 6.2332664030329e-09,
+            "order": 8,
+            "ratio": 9.589772670043947,
+            "status": "INCONCLUSIVE_REFINEMENT"
+          }
+        ],
+        "status": "DIAGNOSTIC_NOT_QUALIFIED",
+        "temporal_status": "PASS"
+      }
+    }
+  ],
+  "original_aggregate_sha256": "c87cc74b5fc81490a31068f46d778b41268e10ebec37ef47ccc5867ef02d9359",
+  "qualification_policy": "Original 65 PASS / 13 UNQUALIFIED preserved regardless of clock diagnostic. Any later repair has separate evidence and labels; no retroactive replacement.",
+  "scope": "Original 234 supplied histories and fixed 30-dataset independent subset; all signs retained. No scientific promotion or gap-spanning ray.",
+  "status": "DIAGNOSTIC_CHARACTERIZATION_PENDING_ACTUAL_REVIEW"
+}

@@ -1,0 +1,12 @@
+{
+  "bridge_provenance": {
+    "actual_attempt_receipt": "/home/udt-admin/udt_mass_codex/udt_time_live_production_survey_2026-10-01/production_runtime/attempts/00104_oblique_a2_p2_r1_n32/receipt.json",
+    "actual_attempt_receipt_sha256": "7912ee1f0a688622b69b3b21f919bb1dfffa5aa722a57dd51dee9ffec64a7c73",
+    "manifest": "/home/udt-admin/udt_mass_codex/udt_time_live_production_survey_2026-10-01/production_runtime/campaign.json",
+    "manifest_sha256": "237d0033935e8708a50429df77aea10adea43ced339a2aa0ed971a71d027bac7",
+    "meaning": "Schema adapter deriving declared hashes from authenticated manifest; not another execution receipt"
+  },
+  "returncode": 0,
+  "spec_sha256": "08ef8b04a54684c3b0d0360812a2904c91972a3c5ac01037755e0d63e0174f9d",
+  "worker_sha256": "ad06a64a7aa6ccaac4956d0f6295fef3011636c05f7cf9b610d65960a15b1cd0"
+}

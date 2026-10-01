@@ -1,0 +1,24 @@
+{
+  "stage": "original_clocks",
+  "pid": 2936752,
+  "proc_start_ticks": "32585259",
+  "command": [
+    "/usr/bin/python3",
+    "/home/udt-admin/udt_mass_codex/udt_time_live_production_survey_2026-10-01/capture.py",
+    "/home/udt-admin/udt_mass_codex/udt_time_live_production_survey_2026-10-01/diagnosis/checks/original_clocks",
+    "/usr/bin/python3",
+    "/home/udt-admin/udt_mass_codex/udt_time_live_production_survey_2026-10-01/diagnosis/review_runtime/clock_completion.py"
+  ],
+  "cwd": "/home/udt-admin/udt_mass_codex",
+  "utc": "2026-10-01T14:08:48.399171+00:00",
+  "source_sha256": {
+    "udt_time_live_production_survey_2026-10-01/diagnosis/review_runtime/CLOCK_COMPLETION_REVIEW.json": "171e691fbf6949e97445281ed7dc0a64cd2d69eb7161d5008c1263798f499055",
+    "udt_time_live_production_survey_2026-10-01/diagnosis/review_runtime/CLOCK_COMPLETION_FREEZE.json": "749bf96e9414961fee22b991fe473a9903f7e4176a79a4abdf46b8597131c74d"
+  },
+  "launcher_sha256": "b06bbc63ddbe269cd3809cb0c2fabdc5884191f5ed1e94ce5bc31b8cb3d724ca",
+  "capture_sha256": "217cdbac5486e8a531552f4d74a15ce641299b65dafb5d58f7b60f4ba51781bc",
+  "wall_timeout_seconds": null,
+  "cpu_timeout_seconds": null,
+  "receipt": "/home/udt-admin/udt_mass_codex/udt_time_live_production_survey_2026-10-01/diagnosis/checks/original_clocks.json",
+  "manual_stop": "Verify PID/start identity then SIGTERM capture PID for forwarding. No automatic elapsed-time stop."
+}

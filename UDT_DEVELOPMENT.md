@@ -72,11 +72,14 @@ checks. The supplied Ric=0 equation, periodic domain, harmonic gauge and initial
 CMC/conformal construction remain conditional. TPP1 now extends13 supplied
 histories to t=2.5, broadens the initial modes and tests production controls. Its
 original five-point refinement gate failed; a preserved, narrower saved-time
-diagnostic repair passes. TPS1 now launches the authorized78-dataset/234-run
-survey with no elapsed-time cutoff. All156 initial mesh states and the first
-three evolved histories passed their checks; the spatial gate passes only its
-small-error alternative. The remaining survey and full atlas await checks and
-actual review. This remains a conditional comparison, not native UDT selection.
+diagnostic repair passes. TPS1 completes the authorized78-dataset/234-run survey
+without an elapsed-time cutoff. All234 original histories pass their scoped
+equation checks; the refinement gates initially qualify65 datasets and flag13.
+One preserved26-run tighter-step repair gives qualifying numerical realizations
+for all13 flagged datasets under unchanged thresholds. The original65/13 result
+remains fixed. Original and refined supplied clocks pass their fixed comparisons;
+the reviewed descriptive atlas retains both editions and their qualifications.
+This remains a finite conditional comparison, not native UDT selection.
 <!-- DEVELOPMENT_ORIENTATION_END -->
 
 ## 1. How this development is owned
@@ -1219,7 +1222,7 @@ response and native UDT selection remain open. Sources: [method](udt_time_live_p
 [failed gate and scoped repair](udt_time_live_production_preparation_2026-10-01/REFINEMENT_REPAIR.md),
 and [production dispatch](udt_time_live_production_preparation_2026-10-01/PRODUCTION_DISPATCH.md).
 
-#### Authorized finite survey and first-dataset gate (TPS1)
+#### Finite survey and preserved numerical repair (TPS1)
 
 Charles subsequently authorized the same finite78-dataset/234-run survey and
 explicitly removed elapsed-time limits. A new executable edition preserves
@@ -1228,27 +1231,69 @@ No queue deadline, worker wall stop, wrapper timeout or CPU-time kill applies.
 One GPU, memory/output limits, immutable checkpoints, source checks and manual
 interruption remain. This operational change is not a new physical premise.
 
-Independent checks pass on all156 initial mesh states. The actual first three
-histories cover one dataset at24³ with coarse/fine steps and32³ coarse steps.
-Nine saved windows yield maximum original Ricci1.280e−9 and late
-H/M/harmonic maxima1.989e−12/1.440e−12/4.411e−12. Final coarse/fine g/v
-changes are below2.858e−9/5.739e−9. The spatial sixth/eighth-order center
-check passes only its small-error alternative: both meshes' all-point maxima
-are below1.948e−10; the ratios1.072/1.062 do not demonstrate10-fold improvement.
-Matched late-clock logZ changes are below4.188e−13; the separate Hamiltonian
-calculation agrees within4.306e−13. Original-equation, actual-step, resource
-and clock reviews passed before continuation was launched.
+Independent checks pass on all156 initial mesh states. After the reviewed first
+dataset gate, all234 original histories completed. Their234 reports contain702
+saved-window records. Original Ricci, late Hamiltonian, momentum and harmonic
+maxima are respectively6.125e−7,4.709e−9,7.643e−9 and5.183e−10, below2e−5.
+This establishes the declared finite residual checks, not exact continuum
+solutions. The supplied periodic conformal/CMC family and harmonic chart remain
+restrictions; these78 recipes are not a census of physically inequivalent metrics.
 
-This checkpoint establishes only that first-dataset gate in the conditional
-Ric=0 arena. The remaining231 cases and whole atlas await their own checks
-and actual review. Automatic postprocessing can produce a conditional candidate;
-it cannot accept the survey, select a UDT law or change R9's open response E.
-Raw production fields are retained locally in ignored directories. Banked
-source, hashes and compact reports do not give a remote clone the raw data.
-Current process/receipt evidence, rather than this fixed launch snapshot,
-determines whether the job is running or complete. Sources: [work order](udt_time_live_production_survey_2026-10-01/WORK_ORDER.md),
-[first gate](udt_time_live_production_survey_2026-10-01/FIRST_GATE.json),
-and [reviewed launch checkpoint](udt_time_live_production_survey_2026-10-01/LAUNCH_CHECKPOINT.md).
+The original refinement gates qualify65 datasets and flag all13 at the largest
+supplied amplitude multiplier. Nine fail the final temporal velocity comparison;
+eight have inconclusive spatial refinement; four belong to both groups. These
+failures stopped automatic postprocessing before broad clock characterization.
+A fresh diagnosis reproduces all78 scalar spatial decisions and directly checks
+42 late windows using independently arranged curvature contractions and controls.
+It finds time-step sensitivity comparable to the finer mesh's residual, supporting
+a finite numerical repair rather than a physical nonexistence conclusion.
+
+The one outcome-informed repair adds26 runs on the same13 datasets and meshes,
+halving only the CFL and maximum step ceilings. Initial states, equations,
+time lattice, endpoint, saved windows and thresholds remain unchanged. Its
+explicit candidate triple is **old24half / new24quarter / new32half**; the
+original24coarse /24half /32coarse result remains65 PASS/13 unqualified.
+All26 new histories pass their original-equation checks. Final24half→24quarter
+g/v changes are at most3.122e−9/1.427e−8, below2e−7. All12 oblique datasets
+pass the unchanged10-fold center-residual rule, with smallest ratio110.03.
+The axial dataset passes only the small-error alternative: ratios5.176/3.859
+do not establish10-fold improvement, but both all-point maxima are below1.297e−9.
+Thus all78 supplied datasets now have a qualifying tested triple. No threshold
+was loosened and no original failure was erased. These ratios are finite
+accuracy diagnostics, not convergence orders or uniform error bounds.
+
+The original234 histories provide936 numerical readouts: four fixed late-window
+queries at three resolutions for each dataset. All signs are retained. Three
+queried directions have positive logZ and the x direction negative in every
+original realization. Maximum matched logZ difference is6.829e−12; the separate
+Hamiltonian method on the fixed30-dataset subset agrees within4.766e−12, below
+2e−7. That subset includes the unchanged24half anchors for all13 repaired
+datasets. Readout agreement alone does not qualify a field: the original13
+failures remain attached to their original clocks. The26 new histories also pass
+their26 comparisons against the13 unchanged anchors, with maximum logZ difference
+5.559e−12. The same directional signs survive. This does not add an independent
+Hamiltonian calculation on the new histories: that method's coverage remains the
+fixed original30-dataset subset. The outcome-exposed [descriptive atlas](udt_time_live_production_survey_2026-10-01/diagnosis/atlas/clock_atlas.pdf)
+contains364 rows, four directions for78 original and13 refined dataset editions,
+each recording three readouts. Separate actual review joins every row to its
+field qualification and clock sources; these are not364 independent datasets.
+
+The gain is a broader, checked conditional comparison tool with explicit accuracy
+and clock coverage. It does not select R9's native response E or native UDT
+geometry. Nor does a directional blueshift in these supplied geometries refute
+UDT's positional interpretation. The queried amplitude is an initial-data
+parameter, not physical source distance; these results do not give a cosmological
+redshift law, X_max, a physical observer population or a universal sign rule.
+There is no independent general-data integrator, continuum/infinite-volume
+limit, tested saved-window gap or nonlinear long-time stability result.
+
+Raw fields, checkpoints and worker streams remain local and ignored. Banked
+sources, scalar readouts, hashes and compact reports do not give a remote clone
+the raw data needed for full replay. The [fixed launch checkpoint](udt_time_live_production_survey_2026-10-01/LAUNCH_CHECKPOINT.md)
+retains its original first-dataset scope. Completion evidence is the
+[finite return](udt_time_live_production_survey_2026-10-01/diagnosis/REVIEWED_RETURN.md),
+[execution and repair record](udt_time_live_production_survey_2026-10-01/diagnosis/WORK_RECORD.md),
+and [actual mathematical repair review](udt_time_live_production_survey_2026-10-01/diagnosis/review_math/REPAIR_RESULT_REVIEW.md).
 
 
 ## 7. Screen geometry, carried readouts and optional sources
@@ -1543,9 +1588,12 @@ are optional routes, not universal prerequisites for every clock consequence.
 R12T now supplies a three-coordinate metric engine, longer finite conditional
 histories and independently checked actual null-clock queries. TPP1 broadens
 initial data and adds tested production controls, with its failed original
-refinement gate and narrower repair preserved. TPS1 has passed the first
-three-case gate and launched the authorized78-dataset/234-run survey without
-an elapsed-time cutoff. Whole-survey checks and actual review remain pending.
+refinement gate and narrower repair preserved. TPS1 completes the finite
+78-dataset/234-run survey and one26-run tighter-step repair without an elapsed-time
+cutoff. All78 supplied datasets now have qualifying numerical realizations;
+the original65 PASS/13 unqualified result remains visible. Original clock
+and refined clock comparisons pass, with a reviewed descriptive atlas preserving
+both editions. The finite return is complete and is a discussion boundary.
 These numerical gains do not identify R9's physical response or select a
 native UDT geometry.
 
@@ -2154,8 +2202,26 @@ New checks explicitly reuse attributed TDS/TPP methods. Same model, shared
 fields/Fourier methods and absence of an independent general-data integrator
 remain limits. The [descendant review](udt_time_live_production_survey_2026-10-01/DESCENDANT_REVIEW.md)
 changes no previous positive or negative scientific conclusion. Final launch
-attestations cover this checkpoint and integration, not the future234-case
-atlas or any automatic candidate output.
+attestations cover that fixed checkpoint and integration, not the subsequent
+234-case atlas or automatic candidate output.
+
+The completion received two further actual separate-context reviews. The
+mathematical context independently reconstructed all78 original scalar decisions,
+examined42 late saved windows with independently arranged curvature contractions,
+and checked all26 new histories against the original equations. It also replayed
+clock input/scalar joins and every atlas table value; it did not independently
+evolve the general initial data or recompute every new ray. The operational
+context checked all234 original execution schedules and checkpoint metadata,
+six raw/CFL anchors, all832 new checkpoint payloads, clock captures and provenance.
+It authored the new clock orchestration adapters, separately reviewed by the
+parent and mathematical context. Shared model, fields and Fourier/Hermite
+methods remain explicit. Actual reports, preserved adapter defects and bounded
+operational departures are in the [completion record](udt_time_live_production_survey_2026-10-01/diagnosis/WORK_RECORD.md).
+The [completion descendant review](udt_time_live_production_survey_2026-10-01/diagnosis/DESCENDANT_REVIEW.md)
+updates positive numerical capability and the13 negative qualification findings
+without rewriting original failures or closing native-selection openings. The
+completion attestations bind this integrated edition; checks do not promote it
+to a native law or change a registry grade.
 
 
 The preserved first candidates expose the repair history. The [source correction](development_reconstruction_2026-09-29/SOURCE_CORRECTIONS.md)
@@ -2193,4 +2259,5 @@ stage completion, final source/check pins and all remaining omissions belong to
 [NGD1 execution record](udt_gpu_time_live_discovery_2026-09-30/WORK_RECORD.md),
 [TDS1 execution record](udt_three_spatial_smoke_2026-10-01/WORK_RECORD.md),
 [TPP1 execution record](udt_time_live_production_preparation_2026-10-01/WORK_RECORD.md),
-and [TPS1 launch execution record](udt_time_live_production_survey_2026-10-01/WORK_RECORD.md).
+the [TPS1 launch execution record](udt_time_live_production_survey_2026-10-01/WORK_RECORD.md),
+and [TPS1 completion execution record](udt_time_live_production_survey_2026-10-01/diagnosis/WORK_RECORD.md).

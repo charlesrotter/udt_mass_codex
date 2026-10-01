@@ -1,0 +1,106 @@
+{
+  "status": "ACTUAL_ATLAS_TABLE_AND_STATISTICS_PASS",
+  "reviewer_context": "/root/survey_completion_math",
+  "atlas_sha256": "1d8b680854283af21f051635b9fa27b297ad86cda4714943b3f92e5a2bb3668d",
+  "builder_sha256": "a1c419a59174e637c38ac872b26c3281f711e230acbed706473e2ff66afb62fd",
+  "CSV_sha256": "2b7a1d5063f813182126aee75aba75e89686dff35c93c98c14bd61adaf5ed955",
+  "review_code_sha256": "76a8c9978ea57419c8206a0a959fb4891a81d5b80a764e454b5b729b53de94d0",
+  "actual_rows": 364,
+  "actual_clock_histories": 260,
+  "statistics": {
+    "original": {
+      "datasets": 78,
+      "qualified_datasets": 65,
+      "maximum_matched_logZ_difference": 6.828293139249375e-12,
+      "directions": {
+        "x": {
+          "min_logZ": -0.0042748374777368155,
+          "max_logZ": -0.0004914932938891629,
+          "signs": {
+            "redshift": 0,
+            "blueshift": 78,
+            "zero": 0
+          }
+        },
+        "y": {
+          "min_logZ": 0.0051455108131705255,
+          "max_logZ": 0.009633495493374845,
+          "signs": {
+            "redshift": 78,
+            "blueshift": 0,
+            "zero": 0
+          }
+        },
+        "z": {
+          "min_logZ": 0.00717489083444333,
+          "max_logZ": 0.012895366015547792,
+          "signs": {
+            "redshift": 78,
+            "blueshift": 0,
+            "zero": 0
+          }
+        },
+        "diagonal": {
+          "min_logZ": 0.0075628311644985536,
+          "max_logZ": 0.01138842417614642,
+          "signs": {
+            "redshift": 78,
+            "blueshift": 0,
+            "zero": 0
+          }
+        }
+      }
+    },
+    "refined": {
+      "datasets": 13,
+      "qualified_datasets": 13,
+      "maximum_matched_logZ_difference": 5.5584634117700205e-12,
+      "directions": {
+        "x": {
+          "min_logZ": -0.0035673472070826945,
+          "max_logZ": -0.0004914932919789737,
+          "signs": {
+            "redshift": 0,
+            "blueshift": 13,
+            "zero": 0
+          }
+        },
+        "y": {
+          "min_logZ": 0.0051455108112689754,
+          "max_logZ": 0.009633495487756655,
+          "signs": {
+            "redshift": 13,
+            "blueshift": 0,
+            "zero": 0
+          }
+        },
+        "z": {
+          "min_logZ": 0.007174890836132032,
+          "max_logZ": 0.012895366017763681,
+          "signs": {
+            "redshift": 13,
+            "blueshift": 0,
+            "zero": 0
+          }
+        },
+        "diagonal": {
+          "min_logZ": 0.007562831168207629,
+          "max_logZ": 0.011388424175699017,
+          "signs": {
+            "redshift": 13,
+            "blueshift": 0,
+            "zero": 0
+          }
+        }
+      }
+    },
+    "independent_original_subset": {
+      "cases": 30,
+      "maximum_logZ_difference": 4.765244622506604e-12,
+      "maximum_endpoint_difference": 9.179323967600794e-13
+    }
+  },
+  "original_unqualified_dataset_count": 13,
+  "refined_unqualified_dataset_count": 0,
+  "scope": "Actual364row table independently joined to260original/refined clock reports and exact field grades; all source/artifact hashes checked, every float/sign/amplitude and full statistics recomputed. No ray or field recomputation, no fit, distribution or continuum claim. Figure visual review and common integration attestation remain separate."
+}

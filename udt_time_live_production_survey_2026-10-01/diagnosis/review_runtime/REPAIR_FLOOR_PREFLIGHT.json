@@ -1,0 +1,163 @@
+{
+  "status": "PAST_GEOMETRY_VIABILITY_NOT_FUTURE_GUARANTEE",
+  "repair_manifest_sha256": "9e508ef3e84186f8f678bf6d9db71947ebaf69c978da6ea5986abc9528c537be",
+  "rows": [
+    {
+      "case": "oblique_a5_p0_r0_n24_quarter",
+      "old_max_stage_omega": 163.824961207843,
+      "cfl_floor_tick_margin": 1.2208151830187959,
+      "min_available_ticks": 1
+    },
+    {
+      "case": "oblique_a5_p0_r0_n32_half",
+      "old_max_stage_omega": 218.48716877466964,
+      "cfl_floor_tick_margin": 1.830771126026757,
+      "min_available_ticks": 1
+    },
+    {
+      "case": "axial_a5_n24_quarter",
+      "old_max_stage_omega": 164.932509636622,
+      "cfl_floor_tick_margin": 1.2126172119774228,
+      "min_available_ticks": 1
+    },
+    {
+      "case": "axial_a5_n32_half",
+      "old_max_stage_omega": 219.90410193823823,
+      "cfl_floor_tick_margin": 1.8189747097684568,
+      "min_available_ticks": 1
+    },
+    {
+      "case": "oblique_a5_p0_r1_n24_quarter",
+      "old_max_stage_omega": 162.81626464429888,
+      "cfl_floor_tick_margin": 1.2283785065142945,
+      "min_available_ticks": 1
+    },
+    {
+      "case": "oblique_a5_p0_r1_n32_half",
+      "old_max_stage_omega": 217.23467994382102,
+      "cfl_floor_tick_margin": 1.8413266247518298,
+      "min_available_ticks": 1
+    },
+    {
+      "case": "oblique_a5_p0_r2_n24_quarter",
+      "old_max_stage_omega": 158.13070909054625,
+      "cfl_floor_tick_margin": 1.2647764697335242,
+      "min_available_ticks": 1
+    },
+    {
+      "case": "oblique_a5_p0_r2_n32_half",
+      "old_max_stage_omega": 210.90729129532133,
+      "cfl_floor_tick_margin": 1.8965679068909147,
+      "min_available_ticks": 1
+    },
+    {
+      "case": "oblique_a5_p1_r0_n24_quarter",
+      "old_max_stage_omega": 163.89501145372785,
+      "cfl_floor_tick_margin": 1.2202933953024286,
+      "min_available_ticks": 1
+    },
+    {
+      "case": "oblique_a5_p1_r0_n32_half",
+      "old_max_stage_omega": 218.51760959171622,
+      "cfl_floor_tick_margin": 1.83051608859977,
+      "min_available_ticks": 1
+    },
+    {
+      "case": "oblique_a5_p1_r1_n24_quarter",
+      "old_max_stage_omega": 162.9176433402814,
+      "cfl_floor_tick_margin": 1.2276141239182166,
+      "min_available_ticks": 1
+    },
+    {
+      "case": "oblique_a5_p1_r1_n32_half",
+      "old_max_stage_omega": 217.2454336645167,
+      "cfl_floor_tick_margin": 1.8412354784759424,
+      "min_available_ticks": 1
+    },
+    {
+      "case": "oblique_a5_p1_r2_n24_quarter",
+      "old_max_stage_omega": 158.24284372350206,
+      "cfl_floor_tick_margin": 1.2638802191235914,
+      "min_available_ticks": 1
+    },
+    {
+      "case": "oblique_a5_p1_r2_n32_half",
+      "old_max_stage_omega": 210.9704958519075,
+      "cfl_floor_tick_margin": 1.8959997149591161,
+      "min_available_ticks": 1
+    },
+    {
+      "case": "oblique_a5_p2_r0_n24_quarter",
+      "old_max_stage_omega": 164.08288285730217,
+      "cfl_floor_tick_margin": 1.2188961853743991,
+      "min_available_ticks": 1
+    },
+    {
+      "case": "oblique_a5_p2_r0_n32_half",
+      "old_max_stage_omega": 218.89205235218338,
+      "cfl_floor_tick_margin": 1.8273847574713469,
+      "min_available_ticks": 1
+    },
+    {
+      "case": "oblique_a5_p2_r1_n24_quarter",
+      "old_max_stage_omega": 163.34764325941498,
+      "cfl_floor_tick_margin": 1.2243825255707965,
+      "min_available_ticks": 1
+    },
+    {
+      "case": "oblique_a5_p2_r1_n32_half",
+      "old_max_stage_omega": 217.85215752484436,
+      "cfl_floor_tick_margin": 1.8361075903247968,
+      "min_available_ticks": 1
+    },
+    {
+      "case": "oblique_a5_p2_r2_n24_quarter",
+      "old_max_stage_omega": 158.6557090702665,
+      "cfl_floor_tick_margin": 1.2605912587199912,
+      "min_available_ticks": 1
+    },
+    {
+      "case": "oblique_a5_p2_r2_n32_half",
+      "old_max_stage_omega": 211.6140816941563,
+      "cfl_floor_tick_margin": 1.8902333757642649,
+      "min_available_ticks": 1
+    },
+    {
+      "case": "oblique_a5_p3_r0_n24_quarter",
+      "old_max_stage_omega": 164.1486259676229,
+      "cfl_floor_tick_margin": 1.218408005678028,
+      "min_available_ticks": 1
+    },
+    {
+      "case": "oblique_a5_p3_r0_n32_half",
+      "old_max_stage_omega": 218.99455894733538,
+      "cfl_floor_tick_margin": 1.8265293983682647,
+      "min_available_ticks": 1
+    },
+    {
+      "case": "oblique_a5_p3_r1_n24_quarter",
+      "old_max_stage_omega": 163.49457278103927,
+      "cfl_floor_tick_margin": 1.2232821958429823,
+      "min_available_ticks": 1
+    },
+    {
+      "case": "oblique_a5_p3_r1_n32_half",
+      "old_max_stage_omega": 217.9927636288572,
+      "cfl_floor_tick_margin": 1.8349232944310874,
+      "min_available_ticks": 1
+    },
+    {
+      "case": "oblique_a5_p3_r2_n24_quarter",
+      "old_max_stage_omega": 158.835244818152,
+      "cfl_floor_tick_margin": 1.2591663785262326,
+      "min_available_ticks": 1
+    },
+    {
+      "case": "oblique_a5_p3_r2_n32_half",
+      "old_max_stage_omega": 211.87321963304638,
+      "cfl_floor_tick_margin": 1.8879214687574937,
+      "min_available_ticks": 1
+    }
+  ],
+  "scope": "Original actual acceptedRKstageOmega used to evaluateproposedfinercfl/dt_min. Newgeometry/stage acceptance stilltestedbyunchangedworker; nofloorbypass."
+}

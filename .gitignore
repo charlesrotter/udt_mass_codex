@@ -53,3 +53,10 @@ udt_time_live_production_survey_2026-10-01/production_runtime/
 udt_time_live_production_survey_2026-10-01/production_analysis/
 udt_time_live_production_survey_2026-10-01/review/math/cases/
 udt_time_live_production_survey_2026-10-01/review/math/captures/
+
+# TPS1 bounded refinement controls: local immutable raw fields and live receipts.
+udt_time_live_production_survey_2026-10-01/runs/refinement/
+udt_time_live_production_survey_2026-10-01/diagnosis/repair_runtime/
+udt_time_live_production_survey_2026-10-01/diagnosis/repair_analysis/
+udt_time_live_production_survey_2026-10-01/diagnosis/review_runtime/*fixtures/
+udt_time_live_production_survey_2026-10-01/diagnosis/review_math/joined_input_fixture/

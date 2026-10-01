@@ -1,7 +1,7 @@
 # HANDOFF — current operational handoff
 
 <!-- STARTUP_CURRENT_BEGIN -->
-## Current handoff — TPS1 authorized survey launched after TDS1/ SMK1/NGD1/TRI1/PRI1/CCR1/CES1/PCW1/GCA1/LKT1/SGE1/CDR1, 2026-10-01
+## Current handoff — TPS1 finite survey and repair completed after TDS1/ SMK1/NGD1/TRI1/PRI1/CCR1/CES1/PCW1/GCA1/LKT1/SGE1/CDR1, 2026-10-01
 
 LIVE.md wins. Charles authorized the staged numerical discovery plan including
 checks, challenges, separate-context review and central integration. NGD1's
@@ -24,24 +24,25 @@ recorded there with their failed diagnostic and narrower repair preserved.
 Charles then authorized launch and explicitly requested no timeout. TPS1's
 WORK_ORDER.md under `udt_time_live_production_survey_2026-10-01/` preserves the
 same finite78-dataset/234-run scope and removes all elapsed-time cutoffs.
-All156 initial states and the first-three-case gate passed; continuation was
-launched after actual mathematical/runtime/clock checks. Fixed launch snapshots
-are under `launch_evidence/`; use status.py and host PID/start identity plus
-receipts for current liveness/progress, not the snapshot alone.
+The234 original runs and one26-run tighter-step repair are complete. Charles's
+latest “proceed” authorized diagnosis and the work order's included review/repair
+cycle. Fixed completion evidence is under that package's `diagnosis/`:
+WORK_ORDER.md, REPAIR_DISPATCH.md, WORK_RECORD.md and REVIEWED_RETURN.md.
+The central scientific argument and numerical limits are updated in R12T/R18;
+original failed qualifications remain preserved alongside the new realizations.
 
-Next: Continue the authorized survey and checks, preserving one GPU and its
-nontime controls. RUN_INSTRUCTIONS.md identifies logs, manual stop and
-receipt-based resume. The automatic postprocessing companion produces only
-candidate diagnostics; actual whole-atlas adversarial review/integration remain
-pending. Stop for lay discussion at the reviewed finite return or a real
-scope/premise/resource blocker. No further approval is required merely for the
-already authorized checks and bounded same-premise repair. Removing time limits
-does not authorize more parameter cases, new physics or scientific promotion.
-Raw production fields are local-only; compact first-gate evidence and sources
-are banked. Conditional Ric=0 alone does not select UDT dynamics. No physical
-premise, source, scale, selected metric, registry grade or CANON change follows.
-Use LIVE for pauses, archive caveats and preservation. Central dependencies and
-actual review bindings remain in development_reconstruction_2026-09-29/.
+Next: Stop for lay discussion at this completed reviewed finite return.
+No additional search, second repair cycle or new premise starts automatically.
+The final attestations and captured checks identify the exact integration scope.
+No computation was left running at completion; independently verify host state
+before making later liveness claims. All elapsed-time cutoffs remained disabled;
+finite cases and resource/numerical/manual-stop controls remained in force.
+Raw production and repair fields and large worker streams remain local-only;
+compact evidence, readouts and hashes are banked. Full raw-dependent replay is
+not available from a remote clone alone. No physical premise, source, scale,
+selected metric, registry grade or CANON change follows. Use LIVE for pauses,
+archive caveats and preservation. Central dependencies and actual review bindings
+remain in development_reconstruction_2026-09-29/.
 
 Protected payloads require explicit dispatch; preserve without inspecting/hashing:
 

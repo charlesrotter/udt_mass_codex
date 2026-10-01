@@ -1,0 +1,117 @@
+{
+  "status": "FINITE_CLOCK_CHECK_PASS",
+  "history": "/home/udt-admin/udt_mass_codex/udt_time_live_production_survey_2026-10-01/production_analysis/oblique_a4_p0_r0_n32/histories/oblique_a4_p0_r0_n32_window2.npz",
+  "history_sha256": "87f8c38eac829794d04738013313ee899ed419b67feddfbbf5eff7334996c810",
+  "readouts": [
+    {
+      "te": 2.484,
+      "to": 2.496,
+      "emitter_position": [
+        0.31,
+        0.47,
+        0.19
+      ],
+      "receiver_position": [
+        0.3953859875992187,
+        0.47001092218926593,
+        0.18998153784667832
+      ],
+      "initial_coordinate_direction": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "emitted_frequency": 1.0,
+      "received_frequency": 1.00407716853975,
+      "Z": 0.9959393872627543,
+      "logZ": -0.0040688794112434135,
+      "max_sampled_abs_null_norm": 2.6314142210430002e-11,
+      "max_internal_trial_abs_null_norm": 5.772358149435496e-06,
+      "sampled_null_points": 28,
+      "function_evaluations": 122
+    },
+    {
+      "te": 2.484,
+      "to": 2.496,
+      "emitter_position": [
+        0.31,
+        0.47,
+        0.19
+      ],
+      "receiver_position": [
+        0.3099257442383784,
+        0.4906062728498088,
+        0.18996132025171777
+      ],
+      "initial_coordinate_direction": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "emitted_frequency": 1.0,
+      "received_frequency": 0.9908337652638265,
+      "Z": 1.0092510318658072,
+      "logZ": 0.009208503158918822,
+      "max_sampled_abs_null_norm": 6.5392905933964185e-12,
+      "max_internal_trial_abs_null_norm": 6.593267979980971e-05,
+      "sampled_null_points": 28,
+      "function_evaluations": 122
+    },
+    {
+      "te": 2.484,
+      "to": 2.496,
+      "emitter_position": [
+        0.31,
+        0.47,
+        0.19
+      ],
+      "receiver_position": [
+        0.31013189108255385,
+        0.4699623508012545,
+        0.21168492477518935
+      ],
+      "initial_coordinate_direction": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "emitted_frequency": 1.0,
+      "received_frequency": 0.9905021518456557,
+      "Z": 1.009588922282144,
+      "logZ": 0.009543240361635147,
+      "max_sampled_abs_null_norm": 3.3316682745976323e-12,
+      "max_internal_trial_abs_null_norm": 2.752398606464812e-05,
+      "sampled_null_points": 28,
+      "function_evaluations": 122
+    },
+    {
+      "te": 2.484,
+      "to": 2.496,
+      "emitter_position": [
+        0.31,
+        0.47,
+        0.19
+      ],
+      "receiver_position": [
+        0.3254140654069463,
+        0.485183900603646,
+        0.20512975470702177
+      ],
+      "initial_coordinate_direction": [
+        0.5773502691896258,
+        0.5773502691896258,
+        0.5773502691896258
+      ],
+      "emitted_frequency": 1.0,
+      "received_frequency": 0.9896924895783304,
+      "Z": 1.0104148617173616,
+      "logZ": 0.010361000692370814,
+      "max_sampled_abs_null_norm": 1.2150391803800176e-11,
+      "max_internal_trial_abs_null_norm": 4.184428370224147e-05,
+      "sampled_null_points": 28,
+      "function_evaluations": 122
+    }
+  ],
+  "seconds": 11.148915447003674,
+  "scope": "Supplied fixed-coordinate clocks and regular null queries within one late window; no selected observers or gap-spanning ray"
+}

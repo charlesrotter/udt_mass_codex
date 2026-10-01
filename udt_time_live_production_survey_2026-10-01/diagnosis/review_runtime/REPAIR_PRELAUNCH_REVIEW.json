@@ -1,0 +1,289 @@
+{
+  "status": "FIRST_PAIR_OPERATIONAL_GATE_CLEARED",
+  "repair_manifest_sha256": "2e40cd765113d30a52f6858c36054011046182b1c429ce0e9875df4577e63959",
+  "repair_dispatch_sha256": "84fef98321b0551ec4cdae33ae8e5c5df57c44cc43a0e8361ea3c5c66a774a5f",
+  "checker_sha256": "a1726bea02fe75bad2ade9f2555e3a23e5c9813c1ee8966eb6dc9106f0d956eb",
+  "results": [
+    {
+      "case": "oblique_a5_p0_r0_n24_quarter",
+      "spec_sha256": "339e9b127826eea22cf9de1fb45c6285abff55a664b709af736a36455282580b",
+      "initial_sha256": "80c57231981aba1c277555f8845919be0871b45b42d3646d56a4b2b3fead76fc",
+      "n": 24,
+      "cfl": 0.0625,
+      "max_step_ticks": 4,
+      "past_stage_floor_tick_margin": 1.2208151830187959,
+      "window_assembly_reserve_bytes": 99745792
+    },
+    {
+      "case": "oblique_a5_p0_r0_n32_half",
+      "spec_sha256": "1bb61a2290caa77a6243ee2c60644311dfdbb565af6e2ed3dec64b40af604e7a",
+      "initial_sha256": "b491314b8bef32a778654c01bedbad229ffe59a36eb200128f5c8c7bb2ef0ae5",
+      "n": 32,
+      "cfl": 0.125,
+      "max_step_ticks": 8,
+      "past_stage_floor_tick_margin": 1.830771126026757,
+      "window_assembly_reserve_bytes": 230686720
+    },
+    {
+      "case": "axial_a5_n24_quarter",
+      "spec_sha256": "eda8448ed3de109c6282069bbbcb65f74a5bf238134a904dae5ca8ef672751d1",
+      "initial_sha256": "5386bead1d2edf9688cadf3804d76626c6973d7bda317f1ce28cad37951a4064",
+      "n": 24,
+      "cfl": 0.0625,
+      "max_step_ticks": 4,
+      "past_stage_floor_tick_margin": 1.2126172119774228,
+      "window_assembly_reserve_bytes": 99745792
+    },
+    {
+      "case": "axial_a5_n32_half",
+      "spec_sha256": "9f2a493c14faba986e540951ec97f4b6d6598e28e38e1f7cc5d41f5113c5a4a3",
+      "initial_sha256": "4b6e0894aa5305814bc3de41eae82c167ba8fec7e74ebaab08a802cb9218f4a1",
+      "n": 32,
+      "cfl": 0.125,
+      "max_step_ticks": 8,
+      "past_stage_floor_tick_margin": 1.8189747097684568,
+      "window_assembly_reserve_bytes": 230686720
+    },
+    {
+      "case": "oblique_a5_p0_r1_n24_quarter",
+      "spec_sha256": "e92d01fa1e4106c8d286e80d6c89129d7a6bab3bfdea09f2a801664a232d9317",
+      "initial_sha256": "c90c3af34c1629c7bad940f7192deb7fe85bd0c3ddd7c72c187c8c8fe65f393a",
+      "n": 24,
+      "cfl": 0.0625,
+      "max_step_ticks": 4,
+      "past_stage_floor_tick_margin": 1.2283785065142945,
+      "window_assembly_reserve_bytes": 99745792
+    },
+    {
+      "case": "oblique_a5_p0_r1_n32_half",
+      "spec_sha256": "1296f3b7ffbcd12a9b519f25cca29a92e6904ea23cfd04a6b4a13f5f4748e59a",
+      "initial_sha256": "8e34c59db5e03906eeaebcfdb638eb8da3c4d1466e745db4a9e724d909009635",
+      "n": 32,
+      "cfl": 0.125,
+      "max_step_ticks": 8,
+      "past_stage_floor_tick_margin": 1.8413266247518298,
+      "window_assembly_reserve_bytes": 230686720
+    },
+    {
+      "case": "oblique_a5_p0_r2_n24_quarter",
+      "spec_sha256": "25de704d469b9399d672f2f1e6c5dcb78e0644bca6abd88ee4598abe60c0e3fa",
+      "initial_sha256": "25be705f31c835868bbcd4e34e3f6098456eb504009601993c5884a5e6111849",
+      "n": 24,
+      "cfl": 0.0625,
+      "max_step_ticks": 4,
+      "past_stage_floor_tick_margin": 1.2647764697335242,
+      "window_assembly_reserve_bytes": 99745792
+    },
+    {
+      "case": "oblique_a5_p0_r2_n32_half",
+      "spec_sha256": "9c0690cd4cd808c26a381e83a0ce2aa0fd48ab3297d76c444aebb041c28916f1",
+      "initial_sha256": "fd09a9c01c9753a31468d94a59350995d957d5aa4439850f38a5e35e3dfb31d1",
+      "n": 32,
+      "cfl": 0.125,
+      "max_step_ticks": 8,
+      "past_stage_floor_tick_margin": 1.8965679068909147,
+      "window_assembly_reserve_bytes": 230686720
+    },
+    {
+      "case": "oblique_a5_p1_r0_n24_quarter",
+      "spec_sha256": "fa3adc695985e0c5775692ee00959b1bd7d93929d43e712ec4080d7c7c808e46",
+      "initial_sha256": "a3463da2c10ff3f1467bbcca17c1b8fc3a3cbe38eaddbe1f15a3223794e10a92",
+      "n": 24,
+      "cfl": 0.0625,
+      "max_step_ticks": 4,
+      "past_stage_floor_tick_margin": 1.2202933953024286,
+      "window_assembly_reserve_bytes": 99745792
+    },
+    {
+      "case": "oblique_a5_p1_r0_n32_half",
+      "spec_sha256": "e30968fa38ac2ee6f2b5e19cf67c807a8a494490200fc32dddde8b571fa023fb",
+      "initial_sha256": "912d110b4abc5e6de87ebd53eafcce0adb3ba90e04ebc1827e7c73dbde79dfcb",
+      "n": 32,
+      "cfl": 0.125,
+      "max_step_ticks": 8,
+      "past_stage_floor_tick_margin": 1.83051608859977,
+      "window_assembly_reserve_bytes": 230686720
+    },
+    {
+      "case": "oblique_a5_p1_r1_n24_quarter",
+      "spec_sha256": "677d87f24cc9b2bdeaa00ee36e0c6d8ae8f6af811d6cc4520493ce0902bef532",
+      "initial_sha256": "a62e0a2dd8af789e476dd1793f7c3f6ea9a26d2368845647859fcfdcab5ddf3f",
+      "n": 24,
+      "cfl": 0.0625,
+      "max_step_ticks": 4,
+      "past_stage_floor_tick_margin": 1.2276141239182166,
+      "window_assembly_reserve_bytes": 99745792
+    },
+    {
+      "case": "oblique_a5_p1_r1_n32_half",
+      "spec_sha256": "c02e68fe1a798c8a86d2036c3fe2e77a91902b77b79fbc919e69c11e77ad1b8e",
+      "initial_sha256": "58abc9eaa341519260f2d026974a33a61a3856c31467fb08dbf9a317a53680c5",
+      "n": 32,
+      "cfl": 0.125,
+      "max_step_ticks": 8,
+      "past_stage_floor_tick_margin": 1.8412354784759424,
+      "window_assembly_reserve_bytes": 230686720
+    },
+    {
+      "case": "oblique_a5_p1_r2_n24_quarter",
+      "spec_sha256": "0012b54dd5967b4b9abd764b98b7aa61e7ebc4aeebce3de7bdf28c13cd11375c",
+      "initial_sha256": "46c599405d43de783fbfabddb9ba83aea1b2717aa5b01d52e4a6c2964d3b1902",
+      "n": 24,
+      "cfl": 0.0625,
+      "max_step_ticks": 4,
+      "past_stage_floor_tick_margin": 1.2638802191235914,
+      "window_assembly_reserve_bytes": 99745792
+    },
+    {
+      "case": "oblique_a5_p1_r2_n32_half",
+      "spec_sha256": "c2594aad12ef01a06dddc3b45daabbb85a2618b4aaf02b77575745498358d56b",
+      "initial_sha256": "ef794e22dacd84350ec9d648db7a5bcae435f3206237b67deca1dd23f0a0d521",
+      "n": 32,
+      "cfl": 0.125,
+      "max_step_ticks": 8,
+      "past_stage_floor_tick_margin": 1.8959997149591161,
+      "window_assembly_reserve_bytes": 230686720
+    },
+    {
+      "case": "oblique_a5_p2_r0_n24_quarter",
+      "spec_sha256": "b5cfbbcdaa0a7b234ef52847004650910fedf31f38a699243ae2415461be9385",
+      "initial_sha256": "12a0e105b8991a7475a9439b75f7516d4d0aebcdea8089d98dac092155ce13f1",
+      "n": 24,
+      "cfl": 0.0625,
+      "max_step_ticks": 4,
+      "past_stage_floor_tick_margin": 1.2188961853743991,
+      "window_assembly_reserve_bytes": 99745792
+    },
+    {
+      "case": "oblique_a5_p2_r0_n32_half",
+      "spec_sha256": "2774329761cbb99c3feda7643e89d240bd730cba9a7f7dfadbd72ec2c7eec5c8",
+      "initial_sha256": "d6088c529523f479a9a674ed80a3bdebf519eb568e0699806d54e238705a0de7",
+      "n": 32,
+      "cfl": 0.125,
+      "max_step_ticks": 8,
+      "past_stage_floor_tick_margin": 1.8273847574713469,
+      "window_assembly_reserve_bytes": 230686720
+    },
+    {
+      "case": "oblique_a5_p2_r1_n24_quarter",
+      "spec_sha256": "77650a7e1813381aa5506bedd661c71eb824665ac538e1f84e774b663581e151",
+      "initial_sha256": "8ce3d8a7a65e3976bacdfcae7b5d3bba1850012df221bb31b3f71481515000c5",
+      "n": 24,
+      "cfl": 0.0625,
+      "max_step_ticks": 4,
+      "past_stage_floor_tick_margin": 1.2243825255707965,
+      "window_assembly_reserve_bytes": 99745792
+    },
+    {
+      "case": "oblique_a5_p2_r1_n32_half",
+      "spec_sha256": "3544c1854952bf5e552c93bb3cfb503cc1511e83a112d9c74c55ab08ae7541d6",
+      "initial_sha256": "70d58237e2cd0016a2a017a663024b2eb0b8cb5a99b2d6bebfa7f73e57b1a7d1",
+      "n": 32,
+      "cfl": 0.125,
+      "max_step_ticks": 8,
+      "past_stage_floor_tick_margin": 1.8361075903247968,
+      "window_assembly_reserve_bytes": 230686720
+    },
+    {
+      "case": "oblique_a5_p2_r2_n24_quarter",
+      "spec_sha256": "3d815e2a1de269983f3feed0c396b899e80833a65bf4916503a37fff19da2580",
+      "initial_sha256": "3ca39d03d0df4a75c40802703279d4ded72d57b66fe8b465a93b20feb3f6132e",
+      "n": 24,
+      "cfl": 0.0625,
+      "max_step_ticks": 4,
+      "past_stage_floor_tick_margin": 1.2605912587199912,
+      "window_assembly_reserve_bytes": 99745792
+    },
+    {
+      "case": "oblique_a5_p2_r2_n32_half",
+      "spec_sha256": "7ab1a6338702d99b62dc3fb8d7bed2695447d87994e337170a8e441a496239ea",
+      "initial_sha256": "15959e948bb9c6a36c41f0640b2b6e12aeb3240e8c1dccff79fe7482471d3a35",
+      "n": 32,
+      "cfl": 0.125,
+      "max_step_ticks": 8,
+      "past_stage_floor_tick_margin": 1.8902333757642649,
+      "window_assembly_reserve_bytes": 230686720
+    },
+    {
+      "case": "oblique_a5_p3_r0_n24_quarter",
+      "spec_sha256": "64d0ee2666f9b618c84241cead5e4991d5be14cd76510972ec508b10e0a7a47f",
+      "initial_sha256": "5b36933500b492799847140a7dbaf9c972b70e82bcf1deb6a03137e0aef64122",
+      "n": 24,
+      "cfl": 0.0625,
+      "max_step_ticks": 4,
+      "past_stage_floor_tick_margin": 1.218408005678028,
+      "window_assembly_reserve_bytes": 99745792
+    },
+    {
+      "case": "oblique_a5_p3_r0_n32_half",
+      "spec_sha256": "c1a6b66292a2e426e2d185598033d3b5fbffdcaeb3dfd6528315052a6ebbbe39",
+      "initial_sha256": "b6ca3aaa676c45968cebcc43dc464e466132871d616819d01e6e57ad8bec9ce2",
+      "n": 32,
+      "cfl": 0.125,
+      "max_step_ticks": 8,
+      "past_stage_floor_tick_margin": 1.8265293983682647,
+      "window_assembly_reserve_bytes": 230686720
+    },
+    {
+      "case": "oblique_a5_p3_r1_n24_quarter",
+      "spec_sha256": "ab04e2040b86c80d4068b2e392bdfad72a842ff7644b3a260cdd6bac08bdaa34",
+      "initial_sha256": "6ac8b9c3b6ae8a517572f7d35e726911513ae3011ad95f6bc2d6c4714697bcbd",
+      "n": 24,
+      "cfl": 0.0625,
+      "max_step_ticks": 4,
+      "past_stage_floor_tick_margin": 1.2232821958429823,
+      "window_assembly_reserve_bytes": 99745792
+    },
+    {
+      "case": "oblique_a5_p3_r1_n32_half",
+      "spec_sha256": "044b453cecbcdca3320e537b125d0b418fde374570b6ad71c36519c35cf6eb80",
+      "initial_sha256": "4811b47fd635393fbfc7fd98c3cec32054349ed5832a637943f20fae1604ba0d",
+      "n": 32,
+      "cfl": 0.125,
+      "max_step_ticks": 8,
+      "past_stage_floor_tick_margin": 1.8349232944310874,
+      "window_assembly_reserve_bytes": 230686720
+    },
+    {
+      "case": "oblique_a5_p3_r2_n24_quarter",
+      "spec_sha256": "b31cea515900c57e5cdfe90852fa9ea4c6226750b71eb1a9df5f0f40ef491a1a",
+      "initial_sha256": "c68e7e064ffb4fcfd841bbf1bcd433832210da88fa9da6e64a638d9a5e312d75",
+      "n": 24,
+      "cfl": 0.0625,
+      "max_step_ticks": 4,
+      "past_stage_floor_tick_margin": 1.2591663785262326,
+      "window_assembly_reserve_bytes": 99745792
+    },
+    {
+      "case": "oblique_a5_p3_r2_n32_half",
+      "spec_sha256": "0725ec1bad167437951615f8ba4d82078c9304a8b3b8ce301b020dc962b7374b",
+      "initial_sha256": "c72a62705cb9955b11ae4abe80fb238c68e771da76ddde89a9a571db207b9cef",
+      "n": 32,
+      "cfl": 0.125,
+      "max_step_ticks": 8,
+      "past_stage_floor_tick_margin": 1.8879214687574937,
+      "window_assembly_reserve_bytes": 230686720
+    }
+  ],
+  "current_root_bytes": 48128752166,
+  "run_cap_sum_bytes": 6979321856,
+  "window_assembly_reserve_bytes": 4295622656,
+  "diagnosis_reserve_bytes": 1073741824,
+  "forecast_ceiling_bytes": 60477438502,
+  "total_output_bytes": 68719476736,
+  "scope": "Prelaunch source/schema/budget and past-geometry floor checks only. Actual new geometry, original equations, schedules, outputs and two-case firstgate must pass before remaining24; existing interrupt/restart tests attributed to byte-identical worker/supervisor/checkpoint path.",
+  "first_pair_command": [
+    "python3",
+    "/home/udt-admin/udt_mass_codex/udt_time_live_production_survey_2026-10-01/supervise.py",
+    "/home/udt-admin/udt_mass_codex/udt_time_live_production_survey_2026-10-01/diagnosis/repair_runtime/campaign.json",
+    "/home/udt-admin/udt_mass_codex/udt_time_live_production_survey_2026-10-01/diagnosis/repair_runtime",
+    "--stop-after",
+    "2"
+  ],
+  "omissions": [
+    "No new GPU run or forecast of new outcomes",
+    "No independent general-data evolution",
+    "No repeated actual pause/restart control; unchanged executable source established by hashes",
+    "Parent host GPU/device freshness evidence attributed separately"
+  ]
+}

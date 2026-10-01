@@ -1,0 +1,21 @@
+{
+  "command": [
+    "/usr/bin/python3",
+    "/home/udt-admin/udt_mass_codex/udt_time_live_production_preparation_2026-10-01/clock_checks.py",
+    "/home/udt-admin/udt_mass_codex/udt_time_live_production_survey_2026-10-01/production_analysis/oblique_a4_p3_r2_n32/histories/oblique_a4_p3_r2_n32_window2.npz",
+    "/home/udt-admin/udt_mass_codex/udt_time_live_production_survey_2026-10-01/production_analysis/oblique_a4_p3_r2_n32/clock.json"
+  ],
+  "cwd": "/home/udt-admin/udt_mass_codex",
+  "started_utc": "2026-10-01T14:28:34.970343+00:00",
+  "duration_seconds": 11.727725694014225,
+  "returncode": 0,
+  "wall_timeout_seconds": null,
+  "cpu_timeout_seconds": null,
+  "address_space_bytes": 2147483648,
+  "memory_scope": "Process virtual address limit",
+  "maxrss_kib": 335416,
+  "forwarded_signals": [],
+  "stdout_sha256": "9ea1121adf28fb765a6de4d8482725d885fdb0885b41ac0f02eb38987a6e2480",
+  "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "capture_sha256": "217cdbac5486e8a531552f4d74a15ce641299b65dafb5d58f7b60f4ba51781bc"
+}

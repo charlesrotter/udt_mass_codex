@@ -1,0 +1,16 @@
+{
+  "status": "CLEARED",
+  "manifest_sha256": "2e40cd765113d30a52f6858c36054011046182b1c429ce0e9875df4577e63959",
+  "adapter_sha256": "14915014c28e673a60aa54364b649aa987c896fc405fdfbe786afe0dba458b39",
+  "reviewer_context": "/root",
+  "source_review": "Inspected exact-two-control delta, old base report binding, common event temporal comparison, original Ricci and sixth/eighth spatial criteria. New triple explicit; original results retained. Resume check is same-code artifact regression, not independent rederivation. Firstpair equations/runtime gate precedes remaining24.",
+  "host_gpu": "Tesla V100-PCIE-32GB,32768MiB total,8MiB idle,no compute apps",
+  "host_available_bytes": 690710827008,
+  "wall_timeout_seconds": null,
+  "cpu_timeout_seconds": null,
+  "review_sha256": {
+    "udt_time_live_production_survey_2026-10-01/diagnosis/review_math/REPAIR_READINESS.json": "a8d6941a1315e14ccce517912435ac55e081b662a247accf010e91f830de723e",
+    "udt_time_live_production_survey_2026-10-01/diagnosis/review_runtime/REPAIR_PRELAUNCH_REVIEW.json": "035484aca7a1c4205c711bf7acb538654b098d2cb6fc108a9162e43a24705456"
+  },
+  "utc": "2026-10-01T14:08:34.479987+00:00"
+}

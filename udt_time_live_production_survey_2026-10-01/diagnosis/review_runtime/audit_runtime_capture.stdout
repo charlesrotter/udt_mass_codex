@@ -1,0 +1,128 @@
+{
+  "status": "RUNTIME_DIAGNOSIS_PASS_WITH_SCOPE",
+  "utc": "2026-10-01T13:58:24.126873+00:00",
+  "reviewer_context": "/root/survey_completion_runtime",
+  "model": "same inherited model; fresh separate context",
+  "startup": "Parent startup synchronization/orientation/premise audit attributed; branch, HEAD, AGENTS, triggered CLAUDE protocols, R12T and assigned evidence independently inspected",
+  "base_head": "464dfa03744fe6e74a615d1e15a9ba0e844d0e26",
+  "manifest_sha256": "237d0033935e8708a50429df77aea10adea43ced339a2aa0ed971a71d027bac7",
+  "initial_freeze_sha256": "04ea354e7078b57c287be3030e42c120933cf1017f9f7d26a512c9a0f73dcace",
+  "audit_sha256": "5f2bce97c3fe71abf1b5cb27c507244c0b0963c0b2e9c4dd1ac9e508fab97db9",
+  "cases": 234,
+  "checkpoints": 7488,
+  "raw_anchors": [
+    {
+      "case": "axial_a0_n24",
+      "history_sha256": "f7ff1230d5b651fa86c56a734abd0c0a217d36c2a5a70e1f3863be5425d6de4c",
+      "checkpoint_indices": [
+        0,
+        4,
+        8
+      ],
+      "max_omega_cpu": 154.80152364964877,
+      "max_omega_worker": 154.80152364964877,
+      "exact_array_correspondence": true
+    },
+    {
+      "case": "axial_a0_n24_half",
+      "history_sha256": "5bd0d573905c14bcecd66b5b4be3e3ca995bf8fdb485a85390997c70404c3275",
+      "checkpoint_indices": [
+        0,
+        4,
+        8
+      ],
+      "max_omega_cpu": 154.80152366027775,
+      "max_omega_worker": 154.80152366027772,
+      "exact_array_correspondence": true
+    },
+    {
+      "case": "axial_a0_n32",
+      "history_sha256": "f784c75a28a5124e3554e6ba353e0a1696fe8b8cf6c18aaef1bb345457cba876",
+      "checkpoint_indices": [
+        0,
+        4,
+        8
+      ],
+      "max_omega_cpu": 206.40473365978616,
+      "max_omega_worker": 206.40473365978616,
+      "exact_array_correspondence": true
+    },
+    {
+      "case": "oblique_a5_p3_r2_n24",
+      "history_sha256": "36a726d90a6a64f4e67f79389149aa8f2f437ce16441a5e082baee31fb3952a6",
+      "checkpoint_indices": [
+        0,
+        4,
+        8
+      ],
+      "max_omega_cpu": 158.83524473191144,
+      "max_omega_worker": 158.8352447319115,
+      "exact_array_correspondence": true
+    },
+    {
+      "case": "oblique_a5_p3_r2_n24_half",
+      "history_sha256": "db95ec95719060f05459538e59d5eb34090dd81530535da0c4a7323dd13fc049",
+      "checkpoint_indices": [
+        0,
+        4,
+        8
+      ],
+      "max_omega_cpu": 158.835244818152,
+      "max_omega_worker": 158.835244818152,
+      "exact_array_correspondence": true
+    },
+    {
+      "case": "oblique_a5_p3_r2_n32",
+      "history_sha256": "eaf53390be0f93dad12d47a1e05763d182bdffccf925846fa9fb8e237b704b00",
+      "checkpoint_indices": [
+        0,
+        4,
+        8
+      ],
+      "max_omega_cpu": 211.87321963304638,
+      "max_omega_worker": 211.87321963304638,
+      "exact_array_correspondence": true
+    }
+  ],
+  "original_dataset_pass": 65,
+  "original_unqualified": [
+    "axial_a5",
+    "oblique_a5_p0_r0",
+    "oblique_a5_p0_r1",
+    "oblique_a5_p0_r2",
+    "oblique_a5_p1_r0",
+    "oblique_a5_p1_r1",
+    "oblique_a5_p1_r2",
+    "oblique_a5_p2_r0",
+    "oblique_a5_p2_r1",
+    "oblique_a5_p2_r2",
+    "oblique_a5_p3_r0",
+    "oblique_a5_p3_r1",
+    "oblique_a5_p3_r2"
+  ],
+  "storage_bytes": {
+    "udt_time_live_production_survey_2026-10-01/initial/production": 720112948,
+    "udt_time_live_production_survey_2026-10-01/specs/production": 144234,
+    "udt_time_live_production_survey_2026-10-01/runs/production": 25507330316,
+    "udt_time_live_production_survey_2026-10-01/production_runtime": 48940984,
+    "udt_time_live_production_survey_2026-10-01/production_analysis": 21845180934,
+    "udt_time_live_production_survey_2026-10-01/review/math/cases": 3373483,
+    "udt_time_live_production_survey_2026-10-01/review/math/captures": 411179,
+    "udt_time_live_production_survey_2026-10-01/diagnosis": 1463038
+  },
+  "total_budgeted_bytes": 48126957116,
+  "whole_package_bytes": 48145865039,
+  "proposed_26_saved_analog_bytes": 6096855875,
+  "proposed_26_uncompressed_state_bytes": 9148432384,
+  "source_weaknesses": [
+    "All 234 authentication paths checked via small reports/metadata and source hashes; full checkpoint/window payload hashing repeated only at six explicit raw anchors, not an independent regeneration of all fields.",
+    "CFL source bounds Fourier principal speeds at collocation points; finite stage inequalities are numerical controls, not nonlinear/continuum stability.",
+    "Clock comparison has no field-qualification join: completion must explicitly retain 65 original PASS and 13 UNQUALIFIED labels regardless of clock result.",
+    "Clock interpolation shares saved fields, Fourier and Hermite mathematics; separate Hamilton/RK45 is not independent evolution."
+  ],
+  "omitted": [
+    "No GPU launch",
+    "No all-case original equation recomputation; mathematics reviewer owns substantive diagnosis",
+    "No remote freshness rerun or premise-verifier rerun in this scoped context"
+  ]
+}

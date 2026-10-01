@@ -1,0 +1,25 @@
+{"case": "axial_a5_n24_quarter", "returncode": 0, "seconds": 52.06940154801123, "used_bytes": 48677252308}
+{"case": "axial_a5_n32_half", "returncode": 0, "seconds": 75.57705825899029, "used_bytes": 48851751164}
+{"case": "oblique_a5_p0_r1_n24_quarter", "returncode": 0, "seconds": 53.92609719699249, "used_bytes": 48927653396}
+{"case": "oblique_a5_p0_r1_n32_half", "returncode": 0, "seconds": 77.37391275598202, "used_bytes": 49109022270}
+{"case": "oblique_a5_p0_r2_n24_quarter", "returncode": 0, "seconds": 53.63253292499576, "used_bytes": 49184083539}
+{"case": "oblique_a5_p0_r2_n32_half", "returncode": 0, "seconds": 75.8135995779885, "used_bytes": 49360976889}
+{"case": "oblique_a5_p1_r0_n24_quarter", "returncode": 0, "seconds": 53.32126888300991, "used_bytes": 49437305017}
+{"case": "oblique_a5_p1_r0_n32_half", "returncode": 0, "seconds": 77.26144185999874, "used_bytes": 49617212903}
+{"case": "oblique_a5_p1_r1_n24_quarter", "returncode": 0, "seconds": 54.02232010301668, "used_bytes": 49693044785}
+{"case": "oblique_a5_p1_r1_n32_half", "returncode": 0, "seconds": 77.37894438399235, "used_bytes": 49871794061}
+{"case": "oblique_a5_p1_r2_n24_quarter", "returncode": 0, "seconds": 53.622999484010506, "used_bytes": 49946855286}
+{"case": "oblique_a5_p1_r2_n32_half", "returncode": 0, "seconds": 75.82994434400462, "used_bytes": 50123771542}
+{"case": "oblique_a5_p2_r0_n24_quarter", "returncode": 0, "seconds": 53.330118330952246, "used_bytes": 50200090424}
+{"case": "oblique_a5_p2_r0_n32_half", "returncode": 0, "seconds": 77.24463281099452, "used_bytes": 50379968146}
+{"case": "oblique_a5_p2_r1_n24_quarter", "returncode": 0, "seconds": 54.041129844030365, "used_bytes": 50455768461}
+{"case": "oblique_a5_p2_r1_n32_half", "returncode": 0, "seconds": 77.52936271997169, "used_bytes": 50634493655}
+{"case": "oblique_a5_p2_r2_n24_quarter", "returncode": 0, "seconds": 53.69556523603387, "used_bytes": 50709544986}
+{"case": "oblique_a5_p2_r2_n32_half", "returncode": 0, "seconds": 76.09839540801477, "used_bytes": 50886441761}
+{"case": "oblique_a5_p3_r0_n24_quarter", "returncode": 0, "seconds": 53.11623762099771, "used_bytes": 50962807460}
+{"case": "oblique_a5_p3_r0_n32_half", "returncode": 0, "seconds": 76.81778594100615, "used_bytes": 51142993676}
+{"case": "oblique_a5_p3_r1_n24_quarter", "returncode": 0, "seconds": 53.624660553003196, "used_bytes": 51218767458}
+{"case": "oblique_a5_p3_r1_n32_half", "returncode": 0, "seconds": 77.05273447500076, "used_bytes": 51397411961}
+{"case": "oblique_a5_p3_r2_n24_quarter", "returncode": 0, "seconds": 53.348138287023176, "used_bytes": 51472401648}
+{"case": "oblique_a5_p3_r2_n32_half", "returncode": 0, "seconds": 75.61416163900867, "used_bytes": 51649183621}
+{"status": "QUEUE_COMPLETE", "cases": 26, "previously_completed": 26, "execution_seconds": 1707.6818390070111, "used_bytes": 51649183733}

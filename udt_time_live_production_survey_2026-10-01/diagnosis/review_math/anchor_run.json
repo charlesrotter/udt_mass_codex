@@ -1,0 +1,19 @@
+{
+  "command": [
+    "python3",
+    "udt_time_live_production_survey_2026-10-01/diagnosis/review_math/anchor_controls.py"
+  ],
+  "cwd": "/home/udt-admin/udt_mass_codex",
+  "started_utc": "2026-10-01T13:59:59.740342+00:00",
+  "duration_seconds": 3.705837868968956,
+  "returncode": 0,
+  "wall_timeout_seconds": null,
+  "cpu_timeout_seconds": null,
+  "address_space_bytes": 2147483648,
+  "memory_scope": "Process virtual address limit",
+  "maxrss_kib": 220792,
+  "forwarded_signals": [],
+  "stdout_sha256": "4cd1ac13fff7753e466f1b443d7ac1b6cabbcf5db88302c4e2084a62ba9a87c0",
+  "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "capture_sha256": "217cdbac5486e8a531552f4d74a15ce641299b65dafb5d58f7b60f4ba51781bc"
+}

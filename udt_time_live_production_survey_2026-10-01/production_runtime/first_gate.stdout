@@ -1,0 +1,4 @@
+{"case": "axial_a0_n24", "returncode": 0, "seconds": 16.387858793023042, "used_bytes": 790056685}
+{"case": "axial_a0_n24_half", "returncode": 0, "seconds": 27.82505358598428, "used_bytes": 859837102}
+{"case": "axial_a0_n32", "returncode": 0, "seconds": 40.23175651096972, "used_bytes": 1023526184}
+{"status": "QUEUE_CHECKPOINT", "newly_completed": 3}

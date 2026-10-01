@@ -1,0 +1,20 @@
+{
+  "case": "axial_a5_n32_half",
+  "command": [
+    "/usr/bin/python3",
+    "/home/udt-admin/udt_mass_codex/udt_time_live_production_survey_2026-10-01/production_worker.py",
+    "/home/udt-admin/udt_mass_codex/udt_time_live_production_survey_2026-10-01/diagnosis/repair_specs/axial_a5_n32_half.json",
+    "/home/udt-admin/udt_mass_codex/udt_time_live_production_survey_2026-10-01/runs/refinement/axial_a5_n32_half"
+  ],
+  "forwarded_signal": null,
+  "resume": false,
+  "returncode": 0,
+  "sigint_sent": false,
+  "sigkill_sent": false,
+  "sigterm_sent": false,
+  "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "stdout_sha256": "1d647f085621e53ad9346063e53be16b1cc843a27ef5cbca81ed0e17298a9c3c",
+  "wall_seconds": 75.57705825899029,
+  "worker_status": "TPS1_RUN_COMPLETE",
+  "worker_stop_reason": null
+}

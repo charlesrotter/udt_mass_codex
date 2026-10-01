@@ -1,0 +1,16 @@
+{"event": "CONTROLS_PASS", "gate_rows": 78}
+{"event": "DATASET_DONE", "dataset": "axial_a5", "temporal": {"g": 4.886731375108866e-08, "v": 2.181810572210452e-07}, "tensor_difference": {"6": 4.0703600490132885e-09, "8": 4.070668691014134e-09}}
+{"event": "DATASET_DONE", "dataset": "oblique_a5_p0_r0", "temporal": {"g": 3.1845914350014937e-08, "v": 2.1787595727573716e-07}, "tensor_difference": {"6": 1.2348443600984638e-08, "8": 1.2344265165609158e-08}}
+{"event": "DATASET_DONE", "dataset": "oblique_a5_p0_r1", "temporal": {"g": 2.985255775911355e-08, "v": 2.0288813118440885e-07}, "tensor_difference": {"6": 1.26308763448435e-08, "8": 1.2630375856303999e-08}}
+{"event": "DATASET_DONE", "dataset": "oblique_a5_p0_r2", "temporal": {"g": 2.9321956418471018e-08, "v": 1.7889207981625077e-07}, "tensor_difference": {"6": 1.1291207524521951e-08, "8": 1.1289474688425116e-08}}
+{"event": "DATASET_DONE", "dataset": "oblique_a5_p1_r0", "temporal": {"g": 3.19209476629112e-08, "v": 2.1953980677835716e-07}, "tensor_difference": {"6": 1.2577471508734561e-08, "8": 1.2576509611506026e-08}}
+{"event": "DATASET_DONE", "dataset": "oblique_a5_p1_r1", "temporal": {"g": 2.9809392287916125e-08, "v": 2.0388071675370156e-07}, "tensor_difference": {"6": 1.2771556701096642e-08, "8": 1.2773363700091522e-08}}
+{"event": "DATASET_DONE", "dataset": "oblique_a5_p1_r2", "temporal": {"g": 2.9323320660523677e-08, "v": 1.7886981140691205e-07}, "tensor_difference": {"6": 1.1506973152108912e-08, "8": 1.1509956987509895e-08}}
+{"event": "DATASET_DONE", "dataset": "oblique_a5_p2_r0", "temporal": {"g": 3.244038282446127e-08, "v": 2.2069029625981784e-07}, "tensor_difference": {"6": 1.2798395232493931e-08, "8": 1.2801934623496436e-08}}
+{"event": "DATASET_DONE", "dataset": "oblique_a5_p2_r1", "temporal": {"g": 3.0065383072042096e-08, "v": 2.0554998059196805e-07}, "tensor_difference": {"6": 1.3137878340785392e-08, "8": 1.3139575649745439e-08}}
+{"event": "DATASET_DONE", "dataset": "oblique_a5_p2_r2", "temporal": {"g": 2.9557398306678806e-08, "v": 1.819235819766618e-07}, "tensor_difference": {"6": 1.2146494476894532e-08, "8": 1.2145748851111193e-08}}
+{"event": "DATASET_DONE", "dataset": "oblique_a5_p3_r0", "temporal": {"g": 3.27496714191966e-08, "v": 2.2446651826157904e-07}, "tensor_difference": {"6": 1.302805774372473e-08, "8": 1.3030780898759531e-08}}
+{"event": "DATASET_DONE", "dataset": "oblique_a5_p3_r1", "temporal": {"g": 3.014848459770292e-08, "v": 2.0952678880803433e-07}, "tensor_difference": {"6": 1.3376839191892032e-08, "8": 1.3376476815096794e-08}}
+{"event": "DATASET_DONE", "dataset": "oblique_a5_p3_r2", "temporal": {"g": 2.9474183094180262e-08, "v": 1.8515672195462685e-07}, "tensor_difference": {"6": 1.235471458471693e-08, "8": 1.2354965495120496e-08}}
+{"event": "DATASET_DONE", "dataset": "oblique_a4_p0_r0", "temporal": {"g": 1.514559144766281e-08, "v": 9.449372839753778e-08}, "tensor_difference": {"6": 5.574319228429658e-09, "8": 5.573508765621682e-09}}
+{"status": "DIAGNOSTIC_CHECKS_COMPLETE", "datasets": 14, "seconds": 50.6507686250261}

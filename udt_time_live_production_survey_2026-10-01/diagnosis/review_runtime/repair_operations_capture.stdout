@@ -1,0 +1,519 @@
+{
+  "status": "REPAIR_OPERATIONS_PASS",
+  "cases": 26,
+  "manifest_sha256": "2e40cd765113d30a52f6858c36054011046182b1c429ce0e9875df4577e63959",
+  "controller_sha256": "5f88ed32a158b86ca7807ad6d3b372acf03b897f1d82e2a27ee82ca932f11efa",
+  "checker_sha256": "3441f20a3169e53c272355f98bc8ab698d6caec445d170ca3301eaa85a1c7732",
+  "adapted_prior_checker_sha256": "e72c2cb12b081a7eac01d6615e78607df5aaa0555fd7693dcb5247e097a2cf43",
+  "reports": [
+    {
+      "case": "oblique_a5_p0_r0_n24_quarter",
+      "steps": 2441,
+      "old_reference_case": "oblique_a5_p0_r0_n24_half",
+      "old_steps": 1221,
+      "step_histogram": {
+        "4": 529,
+        "2": 772,
+        "1": 1140
+      },
+      "max_stage_cfl": 0.06248831090864637,
+      "max_stage_omega": 163.82496121311362,
+      "gpu_peak_bytes": 170138112,
+      "maximum_logged_original_constraint": 9.379881482640684e-09,
+      "authenticated_checkpoints": 32,
+      "payload_bytes_hashed": 75718771,
+      "case_bytes": 75757801,
+      "receipt_sha256": "438ebfefe8fea205e5603e759aebef3a5e28de16e72398cac759682ea3db8603"
+    },
+    {
+      "case": "oblique_a5_p0_r0_n32_half",
+      "steps": 1575,
+      "old_reference_case": "oblique_a5_p0_r0_n32",
+      "old_steps": 792,
+      "step_histogram": {
+        "8": 178,
+        "4": 400,
+        "2": 779,
+        "1": 218
+      },
+      "max_stage_cfl": 0.12492406254896458,
+      "max_stage_omega": 218.48716886068374,
+      "gpu_peak_bytes": 355607552,
+      "maximum_logged_original_constraint": 2.349030692183618e-11,
+      "authenticated_checkpoints": 32,
+      "payload_bytes_hashed": 179388889,
+      "case_bytes": 179427918,
+      "receipt_sha256": "852ead633e53659c54a341397ba150a7516af3f2c000be4368cddbd62b42da9a"
+    },
+    {
+      "case": "axial_a5_n24_quarter",
+      "steps": 2427,
+      "old_reference_case": "axial_a5_n24_half",
+      "old_steps": 1214,
+      "step_histogram": {
+        "4": 524,
+        "2": 801,
+        "1": 1102
+      },
+      "max_stage_cfl": 0.062475949812787056,
+      "max_stage_omega": 164.932509644089,
+      "gpu_peak_bytes": 170138112,
+      "maximum_logged_original_constraint": 7.855278927326736e-12,
+      "authenticated_checkpoints": 32,
+      "payload_bytes_hashed": 73010667,
+      "case_bytes": 73049689,
+      "receipt_sha256": "07fda1a0f25b5ddbfc80f7af9c1bff6fc202484509f6057b33fa1dfa1210c6b9"
+    },
+    {
+      "case": "axial_a5_n32_half",
+      "steps": 1571,
+      "old_reference_case": "axial_a5_n32",
+      "old_steps": 790,
+      "step_histogram": {
+        "8": 176,
+        "4": 406,
+        "2": 779,
+        "1": 210
+      },
+      "max_stage_cfl": 0.1249937153546535,
+      "max_stage_omega": 219.90410203792857,
+      "gpu_peak_bytes": 355607552,
+      "maximum_logged_original_constraint": 6.525169293780664e-12,
+      "authenticated_checkpoints": 32,
+      "payload_bytes_hashed": 172308520,
+      "case_bytes": 172347541,
+      "receipt_sha256": "325fe6b7e5cc64ab4ba3c5d1d55df68fb4e8cac29066058778a82919b0760e06"
+    },
+    {
+      "case": "oblique_a5_p0_r1_n24_quarter",
+      "steps": 2447,
+      "old_reference_case": "oblique_a5_p0_r1_n24_half",
+      "old_steps": 1224,
+      "step_histogram": {
+        "4": 527,
+        "2": 772,
+        "1": 1148
+      },
+      "max_stage_cfl": 0.06247945549998726,
+      "max_stage_omega": 162.81626464977728,
+      "gpu_peak_bytes": 170138112,
+      "maximum_logged_original_constraint": 4.133017227070379e-09,
+      "authenticated_checkpoints": 32,
+      "payload_bytes_hashed": 75222249,
+      "case_bytes": 75261279,
+      "receipt_sha256": "0ff7e78cf5ea63ac4b46533d76aeb7b44917141897c0bcc9f30d47890c46714f"
+    },
+    {
+      "case": "oblique_a5_p0_r1_n32_half",
+      "steps": 1559,
+      "old_reference_case": "oblique_a5_p0_r1_n32",
+      "old_steps": 784,
+      "step_histogram": {
+        "8": 178,
+        "4": 402,
+        "2": 789,
+        "1": 190
+      },
+      "max_stage_cfl": 0.12499086679608812,
+      "max_stage_omega": 217.23468002781297,
+      "gpu_peak_bytes": 355607552,
+      "maximum_logged_original_constraint": 2.0717816351378815e-11,
+      "authenticated_checkpoints": 32,
+      "payload_bytes_hashed": 178291758,
+      "case_bytes": 178330787,
+      "receipt_sha256": "3c5b1bf79a41370890ba9295377336deec1fb823da4da9828dc8400c3e88ca6b"
+    },
+    {
+      "case": "oblique_a5_p0_r2_n24_quarter",
+      "steps": 2423,
+      "old_reference_case": "oblique_a5_p0_r2_n24_half",
+      "old_steps": 1212,
+      "step_histogram": {
+        "4": 528,
+        "2": 793,
+        "1": 1102
+      },
+      "max_stage_cfl": 0.06246912704536293,
+      "max_stage_omega": 158.13070909610173,
+      "gpu_peak_bytes": 170138112,
+      "maximum_logged_original_constraint": 3.2284839662777287e-09,
+      "authenticated_checkpoints": 32,
+      "payload_bytes_hashed": 74459048,
+      "case_bytes": 74498078,
+      "receipt_sha256": "b6049102fc3418f09f814a46d629e8930972fac3841bb2bdbefe685ee0919c31"
+    },
+    {
+      "case": "oblique_a5_p0_r2_n32_half",
+      "steps": 1520,
+      "old_reference_case": "oblique_a5_p0_r2_n32",
+      "old_steps": 765,
+      "step_histogram": {
+        "8": 179,
+        "4": 404,
+        "2": 815,
+        "1": 122
+      },
+      "max_stage_cfl": 0.12491986862009363,
+      "max_stage_omega": 210.9072913792109,
+      "gpu_peak_bytes": 355607552,
+      "maximum_logged_original_constraint": 1.7244788930170785e-11,
+      "authenticated_checkpoints": 32,
+      "payload_bytes_hashed": 176406156,
+      "case_bytes": 176445185,
+      "receipt_sha256": "d1b15bcba9bbadcf22912ec0010a83d351c91a39e0c02ef3c97daf49e6ff2342"
+    },
+    {
+      "case": "oblique_a5_p1_r0_n24_quarter",
+      "steps": 2441,
+      "old_reference_case": "oblique_a5_p1_r0_n24_half",
+      "old_steps": 1221,
+      "step_histogram": {
+        "4": 529,
+        "2": 772,
+        "1": 1140
+      },
+      "max_stage_cfl": 0.06248824297633366,
+      "max_stage_omega": 163.89501145914318,
+      "gpu_peak_bytes": 170138112,
+      "maximum_logged_original_constraint": 9.451341737021224e-09,
+      "authenticated_checkpoints": 32,
+      "payload_bytes_hashed": 75714306,
+      "case_bytes": 75753336,
+      "receipt_sha256": "1b87b8bcd4365d6d1e8095c5c0b056102e17514c0b88109feb5cc55ed89052d9"
+    },
+    {
+      "case": "oblique_a5_p1_r0_n32_half",
+      "steps": 1574,
+      "old_reference_case": "oblique_a5_p1_r0_n32",
+      "old_steps": 791,
+      "step_histogram": {
+        "8": 178,
+        "4": 400,
+        "2": 780,
+        "1": 216
+      },
+      "max_stage_cfl": 0.12499892065535663,
+      "max_stage_omega": 218.51760967645788,
+      "gpu_peak_bytes": 355607552,
+      "maximum_logged_original_constraint": 2.39808520263729e-11,
+      "authenticated_checkpoints": 32,
+      "payload_bytes_hashed": 179404633,
+      "case_bytes": 179443662,
+      "receipt_sha256": "5a204ecb94b2ec238ebb9b0a933d4db2a332b986b78cf45b6a01c2655bb99555"
+    },
+    {
+      "case": "oblique_a5_p1_r1_n24_quarter",
+      "steps": 2447,
+      "old_reference_case": "oblique_a5_p1_r1_n24_half",
+      "old_steps": 1224,
+      "step_histogram": {
+        "4": 527,
+        "2": 772,
+        "1": 1148
+      },
+      "max_stage_cfl": 0.0624877246247565,
+      "max_stage_omega": 162.91764334579338,
+      "gpu_peak_bytes": 170138112,
+      "maximum_logged_original_constraint": 4.177661300230895e-09,
+      "authenticated_checkpoints": 32,
+      "payload_bytes_hashed": 75223751,
+      "case_bytes": 75262781,
+      "receipt_sha256": "5b2894fdff73e395c6bf6069c55b8df6f2a1c61e023be24387a0f72837df8e0e"
+    },
+    {
+      "case": "oblique_a5_p1_r1_n32_half",
+      "steps": 1559,
+      "old_reference_case": "oblique_a5_p1_r1_n32",
+      "old_steps": 784,
+      "step_histogram": {
+        "8": 178,
+        "4": 402,
+        "2": 789,
+        "1": 190
+      },
+      "max_stage_cfl": 0.12499220987062973,
+      "max_stage_omega": 217.24543374659336,
+      "gpu_peak_bytes": 355607552,
+      "maximum_logged_original_constraint": 2.0282581170150138e-11,
+      "authenticated_checkpoints": 32,
+      "payload_bytes_hashed": 178237432,
+      "case_bytes": 178276461,
+      "receipt_sha256": "9058cd975d83774234f2cab00533d7b86346f60654b756c904186d188a32ec64"
+    },
+    {
+      "case": "oblique_a5_p1_r2_n24_quarter",
+      "steps": 2423,
+      "old_reference_case": "oblique_a5_p1_r2_n24_half",
+      "old_steps": 1212,
+      "step_histogram": {
+        "4": 528,
+        "2": 793,
+        "1": 1102
+      },
+      "max_stage_cfl": 0.06247223577910197,
+      "max_stage_omega": 158.24284372889514,
+      "gpu_peak_bytes": 170138112,
+      "maximum_logged_original_constraint": 3.311118101922972e-09,
+      "authenticated_checkpoints": 32,
+      "payload_bytes_hashed": 74459111,
+      "case_bytes": 74498141,
+      "receipt_sha256": "3f526a4cde7cab6ff6e75e38030e545d53fad90146eca82fe55358aad9260546"
+    },
+    {
+      "case": "oblique_a5_p1_r2_n32_half",
+      "steps": 1520,
+      "old_reference_case": "oblique_a5_p1_r2_n32",
+      "old_steps": 765,
+      "step_histogram": {
+        "8": 179,
+        "4": 404,
+        "2": 815,
+        "1": 122
+      },
+      "max_stage_cfl": 0.1249444047514123,
+      "max_stage_omega": 210.9704959339543,
+      "gpu_peak_bytes": 355607552,
+      "maximum_logged_original_constraint": 1.6944168290677908e-11,
+      "authenticated_checkpoints": 32,
+      "payload_bytes_hashed": 176436746,
+      "case_bytes": 176475775,
+      "receipt_sha256": "cd65965fb2146d77ca8b51372b64d4f5164d658ca00255711e00806a11cba357"
+    },
+    {
+      "case": "oblique_a5_p2_r0_n24_quarter",
+      "steps": 2443,
+      "old_reference_case": "oblique_a5_p2_r0_n24_half",
+      "old_steps": 1222,
+      "step_histogram": {
+        "4": 528,
+        "2": 773,
+        "1": 1142
+      },
+      "max_stage_cfl": 0.06245458669346651,
+      "max_stage_omega": 164.08288286278616,
+      "gpu_peak_bytes": 170138112,
+      "maximum_logged_original_constraint": 8.567682591165138e-09,
+      "authenticated_checkpoints": 32,
+      "payload_bytes_hashed": 75709858,
+      "case_bytes": 75748888,
+      "receipt_sha256": "b431a0e66dca5e4bd9f94e20ada94f0296648a50725135678c2decb5e1dd2db0"
+    },
+    {
+      "case": "oblique_a5_p2_r0_n32_half",
+      "steps": 1575,
+      "old_reference_case": "oblique_a5_p2_r0_n32",
+      "old_steps": 792,
+      "step_histogram": {
+        "8": 178,
+        "4": 400,
+        "2": 779,
+        "1": 218
+      },
+      "max_stage_cfl": 0.1249412717432671,
+      "max_stage_omega": 218.8920524349386,
+      "gpu_peak_bytes": 355607552,
+      "maximum_logged_original_constraint": 2.4210716764727636e-11,
+      "authenticated_checkpoints": 32,
+      "payload_bytes_hashed": 179396954,
+      "case_bytes": 179435983,
+      "receipt_sha256": "485a2e42748ade5ade717cd0440effb0e0d5cabf670fd5080822ba386b148f43"
+    },
+    {
+      "case": "oblique_a5_p2_r1_n24_quarter",
+      "steps": 2448,
+      "old_reference_case": "oblique_a5_p2_r1_n24_half",
+      "old_steps": 1225,
+      "step_histogram": {
+        "4": 527,
+        "2": 771,
+        "1": 1150
+      },
+      "max_stage_cfl": 0.06248674420014221,
+      "max_stage_omega": 163.34764326474357,
+      "gpu_peak_bytes": 170138112,
+      "maximum_logged_original_constraint": 4.162955384925948e-09,
+      "authenticated_checkpoints": 32,
+      "payload_bytes_hashed": 75193442,
+      "case_bytes": 75232472,
+      "receipt_sha256": "5d24bd0bc535fa09b3c5f46b2f5cc1a9bb11d94153b779a5eb07c0a86055b0e2"
+    },
+    {
+      "case": "oblique_a5_p2_r1_n32_half",
+      "steps": 1562,
+      "old_reference_case": "oblique_a5_p2_r1_n32",
+      "old_steps": 785,
+      "step_histogram": {
+        "8": 178,
+        "4": 402,
+        "2": 786,
+        "1": 196
+      },
+      "max_stage_cfl": 0.12493225611483112,
+      "max_stage_omega": 217.85215760581542,
+      "gpu_peak_bytes": 355607552,
+      "maximum_logged_original_constraint": 2.0619839169455645e-11,
+      "authenticated_checkpoints": 32,
+      "payload_bytes_hashed": 178246722,
+      "case_bytes": 178285751,
+      "receipt_sha256": "47d17b78d4efbeb8819e42c780897ee7ac6e9c5bb572a2d8fb90116cd53c9215"
+    },
+    {
+      "case": "oblique_a5_p2_r2_n24_quarter",
+      "steps": 2424,
+      "old_reference_case": "oblique_a5_p2_r2_n24_half",
+      "old_steps": 1212,
+      "step_histogram": {
+        "4": 528,
+        "2": 792,
+        "1": 1104
+      },
+      "max_stage_cfl": 0.06244604802737579,
+      "max_stage_omega": 158.6557090756469,
+      "gpu_peak_bytes": 170138112,
+      "maximum_logged_original_constraint": 3.421481896415113e-09,
+      "authenticated_checkpoints": 32,
+      "payload_bytes_hashed": 74448669,
+      "case_bytes": 74487699,
+      "receipt_sha256": "3df9d2159aac507246201d3e7b833d7d5289984d2ee1999ad4b0c7c43cc3bcc6"
+    },
+    {
+      "case": "oblique_a5_p2_r2_n32_half",
+      "steps": 1524,
+      "old_reference_case": "oblique_a5_p2_r2_n32",
+      "old_steps": 767,
+      "step_histogram": {
+        "8": 179,
+        "4": 404,
+        "2": 811,
+        "1": 130
+      },
+      "max_stage_cfl": 0.12493352268771281,
+      "max_stage_omega": 211.61408177481505,
+      "gpu_peak_bytes": 355607552,
+      "maximum_logged_original_constraint": 1.7342537128595126e-11,
+      "authenticated_checkpoints": 32,
+      "payload_bytes_hashed": 176408608,
+      "case_bytes": 176447637,
+      "receipt_sha256": "c5631da806afcd7b3d886e1321816ac4180d6b674d8775fd0b4008131e3fa8e2"
+    },
+    {
+      "case": "oblique_a5_p3_r0_n24_quarter",
+      "steps": 2442,
+      "old_reference_case": "oblique_a5_p3_r0_n24_half",
+      "old_steps": 1221,
+      "step_histogram": {
+        "4": 528,
+        "2": 774,
+        "1": 1140
+      },
+      "max_stage_cfl": 0.06249512608073605,
+      "max_stage_omega": 164.14862597308306,
+      "gpu_peak_bytes": 170138112,
+      "maximum_logged_original_constraint": 8.333378376246259e-09,
+      "authenticated_checkpoints": 32,
+      "payload_bytes_hashed": 75704325,
+      "case_bytes": 75743355,
+      "receipt_sha256": "f340e8d0a8fa2e414a7db13c08fb29c3fd649f0a1c7c9e61b31805b00b4bd0d4"
+    },
+    {
+      "case": "oblique_a5_p3_r0_n32_half",
+      "steps": 1574,
+      "old_reference_case": "oblique_a5_p3_r0_n32",
+      "old_steps": 791,
+      "step_histogram": {
+        "8": 178,
+        "4": 400,
+        "2": 780,
+        "1": 216
+      },
+      "max_stage_cfl": 0.12499141337926915,
+      "max_stage_omega": 218.9945590315716,
+      "gpu_peak_bytes": 355607552,
+      "maximum_logged_original_constraint": 2.4636737094851924e-11,
+      "authenticated_checkpoints": 32,
+      "payload_bytes_hashed": 179399439,
+      "case_bytes": 179438468,
+      "receipt_sha256": "1306b7212b93956023fa7aa12c85f337a4a3117719102b0176a2adf5ce187941"
+    },
+    {
+      "case": "oblique_a5_p3_r1_n24_quarter",
+      "steps": 2447,
+      "old_reference_case": "oblique_a5_p3_r1_n24_half",
+      "old_steps": 1224,
+      "step_histogram": {
+        "4": 527,
+        "2": 772,
+        "1": 1148
+      },
+      "max_stage_cfl": 0.06248480309657507,
+      "max_stage_omega": 163.4945727863895,
+      "gpu_peak_bytes": 170138112,
+      "maximum_logged_original_constraint": 3.987019658868718e-09,
+      "authenticated_checkpoints": 32,
+      "payload_bytes_hashed": 75200053,
+      "case_bytes": 75239083,
+      "receipt_sha256": "47b3ae7dcd92a7d570ddf439c1b4ce49b31c0d788d3e95a28d9d891c8e939418"
+    },
+    {
+      "case": "oblique_a5_p3_r1_n32_half",
+      "steps": 1563,
+      "old_reference_case": "oblique_a5_p3_r1_n32",
+      "old_steps": 786,
+      "step_histogram": {
+        "8": 178,
+        "4": 402,
+        "2": 785,
+        "1": 198
+      },
+      "max_stage_cfl": 0.12496695581167455,
+      "max_stage_omega": 217.99276370889234,
+      "gpu_peak_bytes": 355607552,
+      "maximum_logged_original_constraint": 1.999882898173766e-11,
+      "authenticated_checkpoints": 32,
+      "payload_bytes_hashed": 178212152,
+      "case_bytes": 178251181,
+      "receipt_sha256": "1a94ff486ab9a4dec32d5c9abd06804f729b0247d25bf0f02e8421041ab60b30"
+    },
+    {
+      "case": "oblique_a5_p3_r2_n24_quarter",
+      "steps": 2423,
+      "old_reference_case": "oblique_a5_p3_r2_n24_half",
+      "old_steps": 1212,
+      "step_histogram": {
+        "4": 528,
+        "2": 793,
+        "1": 1102
+      },
+      "max_stage_cfl": 0.06249545328851147,
+      "max_stage_omega": 158.83524482367707,
+      "gpu_peak_bytes": 170138112,
+      "maximum_logged_original_constraint": 3.182129977921666e-09,
+      "authenticated_checkpoints": 32,
+      "payload_bytes_hashed": 74456135,
+      "case_bytes": 74495165,
+      "receipt_sha256": "8b34db5fa396263cdbca5f95f5497950ee553388d3fe320147faf7310fda1caa"
+    },
+    {
+      "case": "oblique_a5_p3_r2_n32_half",
+      "steps": 1525,
+      "old_reference_case": "oblique_a5_p3_r2_n32",
+      "old_steps": 767,
+      "step_histogram": {
+        "8": 179,
+        "4": 404,
+        "2": 810,
+        "1": 132
+      },
+      "max_stage_cfl": 0.12498446427741058,
+      "max_stage_omega": 211.87321971237841,
+      "gpu_peak_bytes": 355607552,
+      "maximum_logged_original_constraint": 1.8060095086092076e-11,
+      "authenticated_checkpoints": 32,
+      "payload_bytes_hashed": 176413612,
+      "case_bytes": 176452641,
+      "receipt_sha256": "99eafaaea87bc46f93641bd34088761657d394cfa6495cdc9966b06a22043309"
+    }
+  ],
+  "used_budgeted_bytes": 51925146664,
+  "scope": "Actual receipt/log/step/CFL/checkpoint/resource review. All repair payload hashes authenticated; producer-reported constraints are attributed, original equation recomputation owned by separate mathematics review. Existing interrupt/restart evidence remains attributed; no new interruption was performed on repair fields."
+}

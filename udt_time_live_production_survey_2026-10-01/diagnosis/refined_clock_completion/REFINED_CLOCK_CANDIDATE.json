@@ -1,0 +1,1705 @@
+{
+  "all_supplied_signs": {
+    "axial_a5_n24_half": [
+      {
+        "Z": 0.9971531743981784,
+        "logZ": -0.0028508855169027177,
+        "sign": "negative"
+      },
+      {
+        "Z": 1.0081533558688502,
+        "logZ": 0.008120296836029592,
+        "sign": "positive"
+      },
+      {
+        "Z": 1.0072006920353431,
+        "logZ": 0.007174890836071627,
+        "sign": "positive"
+      },
+      {
+        "Z": 1.0075915016066916,
+        "logZ": 0.007562831168065269,
+        "sign": "positive"
+      }
+    ],
+    "axial_a5_n24_quarter": [
+      {
+        "Z": 0.9971531743982839,
+        "logZ": -0.0028508855167969456,
+        "sign": "negative"
+      },
+      {
+        "Z": 1.0081533558691773,
+        "logZ": 0.008120296836354018,
+        "sign": "positive"
+      },
+      {
+        "Z": 1.0072006920355039,
+        "logZ": 0.007174890836231238,
+        "sign": "positive"
+      },
+      {
+        "Z": 1.0075915016070678,
+        "logZ": 0.007562831168438578,
+        "sign": "positive"
+      }
+    ],
+    "axial_a5_n32_half": [
+      {
+        "Z": 0.9971531743982237,
+        "logZ": -0.0028508855168572914,
+        "sign": "negative"
+      },
+      {
+        "Z": 1.008153355868975,
+        "logZ": 0.008120296836153371,
+        "sign": "positive"
+      },
+      {
+        "Z": 1.007200692035404,
+        "logZ": 0.007174890836132032,
+        "sign": "positive"
+      },
+      {
+        "Z": 1.007591501606835,
+        "logZ": 0.007562831168207629,
+        "sign": "positive"
+      }
+    ],
+    "oblique_a5_p0_r0_n24_half": [
+      {
+        "Z": 0.9965145083009053,
+        "logZ": -0.0034915801769632663,
+        "sign": "negative"
+      },
+      {
+        "Z": 1.0096800469708744,
+        "logZ": 0.009633495488792458,
+        "sign": "positive"
+      },
+      {
+        "Z": 1.010109024437793,
+        "logZ": 0.01005827001544101,
+        "sign": "positive"
+      },
+      {
+        "Z": 1.0114535191537937,
+        "logZ": 0.011388424176140492,
+        "sign": "positive"
+      }
+    ],
+    "oblique_a5_p0_r0_n24_quarter": [
+      {
+        "Z": 0.9965145083009844,
+        "logZ": -0.0034915801768838307,
+        "sign": "negative"
+      },
+      {
+        "Z": 1.0096800469704643,
+        "logZ": 0.009633495488386275,
+        "sign": "positive"
+      },
+      {
+        "Z": 1.0101090244379696,
+        "logZ": 0.01005827001561577,
+        "sign": "positive"
+      },
+      {
+        "Z": 1.0114535191537801,
+        "logZ": 0.0113884241761271,
+        "sign": "positive"
+      }
+    ],
+    "oblique_a5_p0_r0_n32_half": [
+      {
+        "Z": 0.9965145083004698,
+        "logZ": -0.003491580177400219,
+        "sign": "negative"
+      },
+      {
+        "Z": 1.0096800469698286,
+        "logZ": 0.009633495487756655,
+        "sign": "positive"
+      },
+      {
+        "Z": 1.0101090244380875,
+        "logZ": 0.010058270015732495,
+        "sign": "positive"
+      },
+      {
+        "Z": 1.0114535191533471,
+        "logZ": 0.011388424175699017,
+        "sign": "positive"
+      }
+    ],
+    "oblique_a5_p0_r1_n24_half": [
+      {
+        "Z": 0.9981007224565824,
+        "logZ": -0.0019010834579953105,
+        "sign": "negative"
+      },
+      {
+        "Z": 1.0073969132927403,
+        "logZ": 0.007369690291306458,
+        "sign": "positive"
+      },
+      {
+        "Z": 1.01247042313816,
+        "logZ": 0.012393307856489202,
+        "sign": "positive"
+      },
+      {
+        "Z": 1.0110896533532552,
+        "logZ": 0.011028614003076979,
+        "sign": "positive"
+      }
+    ],
+    "oblique_a5_p0_r1_n24_quarter": [
+      {
+        "Z": 0.9981007224567255,
+        "logZ": -0.0019010834578519304,
+        "sign": "negative"
+      },
+      {
+        "Z": 1.0073969132923544,
+        "logZ": 0.007369690290923378,
+        "sign": "positive"
+      },
+      {
+        "Z": 1.0124704231384039,
+        "logZ": 0.012393307856730004,
+        "sign": "positive"
+      },
+      {
+        "Z": 1.0110896533532046,
+        "logZ": 0.011028614003026908,
+        "sign": "positive"
+      }
+    ],
+    "oblique_a5_p0_r1_n32_half": [
+      {
+        "Z": 0.9981007224559907,
+        "logZ": -0.0019010834585881855,
+        "sign": "negative"
+      },
+      {
+        "Z": 1.007396913291186,
+        "logZ": 0.0073696902897635586,
+        "sign": "positive"
+      },
+      {
+        "Z": 1.0124704231360893,
+        "logZ": 0.01239330785444392,
+        "sign": "positive"
+      },
+      {
+        "Z": 1.0110896533521925,
+        "logZ": 0.011028614002025929,
+        "sign": "positive"
+      }
+    ],
+    "oblique_a5_p0_r2_n24_half": [
+      {
+        "Z": 0.9995086274725651,
+        "logZ": -0.0004914932904766589,
+        "sign": "negative"
+      },
+      {
+        "Z": 1.0056893831802598,
+        "logZ": 0.005673259765722745,
+        "sign": "positive"
+      },
+      {
+        "Z": 1.0129788698069946,
+        "logZ": 0.012895366023322145,
+        "sign": "positive"
+      },
+      {
+        "Z": 1.0098590437989017,
+        "logZ": 0.009810760518535196,
+        "sign": "positive"
+      }
+    ],
+    "oblique_a5_p0_r2_n24_quarter": [
+      {
+        "Z": 0.9995086274728856,
+        "logZ": -0.0004914932901559799,
+        "sign": "negative"
+      },
+      {
+        "Z": 1.005689383179961,
+        "logZ": 0.005673259765425563,
+        "sign": "positive"
+      },
+      {
+        "Z": 1.0129788698071707,
+        "logZ": 0.012895366023495971,
+        "sign": "positive"
+      },
+      {
+        "Z": 1.0098590437988268,
+        "logZ": 0.009810760518461097,
+        "sign": "positive"
+      }
+    ],
+    "oblique_a5_p0_r2_n32_half": [
+      {
+        "Z": 0.9995086274710635,
+        "logZ": -0.0004914932919789737,
+        "sign": "negative"
+      },
+      {
+        "Z": 1.005689383180121,
+        "logZ": 0.005673259765584752,
+        "sign": "positive"
+      },
+      {
+        "Z": 1.012978869801364,
+        "logZ": 0.012895366017763681,
+        "sign": "positive"
+      },
+      {
+        "Z": 1.00985904379431,
+        "logZ": 0.009810760513988362,
+        "sign": "positive"
+      }
+    ],
+    "oblique_a5_p1_r0_n24_half": [
+      {
+        "Z": 0.9964474982417456,
+        "logZ": -0.0035588268770658494,
+        "sign": "negative"
+      },
+      {
+        "Z": 1.0088707704604376,
+        "logZ": 0.008831656321001023,
+        "sign": "positive"
+      },
+      {
+        "Z": 1.0096943786402843,
+        "logZ": 0.00964768965628153,
+        "sign": "positive"
+      },
+      {
+        "Z": 1.0104725165262094,
+        "logZ": 0.010418059595785348,
+        "sign": "positive"
+      }
+    ],
+    "oblique_a5_p1_r0_n24_quarter": [
+      {
+        "Z": 0.9964474982417756,
+        "logZ": -0.0035588268770357667,
+        "sign": "negative"
+      },
+      {
+        "Z": 1.0088707704601168,
+        "logZ": 0.008831656320682989,
+        "sign": "positive"
+      },
+      {
+        "Z": 1.0096943786405561,
+        "logZ": 0.009647689656550704,
+        "sign": "positive"
+      },
+      {
+        "Z": 1.0104725165263209,
+        "logZ": 0.01041805959589566,
+        "sign": "positive"
+      }
+    ],
+    "oblique_a5_p1_r0_n32_half": [
+      {
+        "Z": 0.9964474982430159,
+        "logZ": -0.0035588268757910033,
+        "sign": "negative"
+      },
+      {
+        "Z": 1.0088707704585718,
+        "logZ": 0.008831656319151587,
+        "sign": "positive"
+      },
+      {
+        "Z": 1.0096943786405452,
+        "logZ": 0.009647689656539928,
+        "sign": "positive"
+      },
+      {
+        "Z": 1.0104725165258708,
+        "logZ": 0.01041805959545024,
+        "sign": "positive"
+      }
+    ],
+    "oblique_a5_p1_r1_n24_half": [
+      {
+        "Z": 0.9979885164353389,
+        "logZ": -0.0020135093146909614,
+        "sign": "negative"
+      },
+      {
+        "Z": 1.006703735896282,
+        "logZ": 0.006681365778719895,
+        "sign": "positive"
+      },
+      {
+        "Z": 1.011588019889456,
+        "logZ": 0.01152139300872722,
+        "sign": "positive"
+      },
+      {
+        "Z": 1.0100929393000677,
+        "logZ": 0.010042345728647517,
+        "sign": "positive"
+      }
+    ],
+    "oblique_a5_p1_r1_n24_quarter": [
+      {
+        "Z": 0.9979885164354407,
+        "logZ": -0.0020135093145889488,
+        "sign": "negative"
+      },
+      {
+        "Z": 1.0067037358960114,
+        "logZ": 0.006681365778451025,
+        "sign": "positive"
+      },
+      {
+        "Z": 1.0115880198898017,
+        "logZ": 0.011521393009068983,
+        "sign": "positive"
+      },
+      {
+        "Z": 1.010092939300166,
+        "logZ": 0.0100423457287449,
+        "sign": "positive"
+      }
+    ],
+    "oblique_a5_p1_r1_n32_half": [
+      {
+        "Z": 0.9979885164358554,
+        "logZ": -0.0020135093141734448,
+        "sign": "negative"
+      },
+      {
+        "Z": 1.0067037358977253,
+        "logZ": 0.0066813657801535736,
+        "sign": "positive"
+      },
+      {
+        "Z": 1.011588019894963,
+        "logZ": 0.011521393014171065,
+        "sign": "positive"
+      },
+      {
+        "Z": 1.0100929393051326,
+        "logZ": 0.010042345733661747,
+        "sign": "positive"
+      }
+    ],
+    "oblique_a5_p1_r2_n24_half": [
+      {
+        "Z": 0.9993881838332646,
+        "logZ": -0.0006120034026195744,
+        "sign": "negative"
+      },
+      {
+        "Z": 1.0051587716864998,
+        "logZ": 0.005145510810843954,
+        "sign": "positive"
+      },
+      {
+        "Z": 1.0118987057599005,
+        "logZ": 0.011828472732994933,
+        "sign": "positive"
+      },
+      {
+        "Z": 1.0089983359820622,
+        "logZ": 0.008958092194752482,
+        "sign": "positive"
+      }
+    ],
+    "oblique_a5_p1_r2_n24_quarter": [
+      {
+        "Z": 0.9993881838335222,
+        "logZ": -0.0006120034023617338,
+        "sign": "negative"
+      },
+      {
+        "Z": 1.0051587716863237,
+        "logZ": 0.005145510810668777,
+        "sign": "positive"
+      },
+      {
+        "Z": 1.0118987057601705,
+        "logZ": 0.011828472733261765,
+        "sign": "positive"
+      },
+      {
+        "Z": 1.0089983359821342,
+        "logZ": 0.008958092194823783,
+        "sign": "positive"
+      }
+    ],
+    "oblique_a5_p1_r2_n32_half": [
+      {
+        "Z": 0.9993881838345398,
+        "logZ": -0.0006120034013435915,
+        "sign": "negative"
+      },
+      {
+        "Z": 1.005158771686927,
+        "logZ": 0.0051455108112689754,
+        "sign": "positive"
+      },
+      {
+        "Z": 1.0118987057590707,
+        "logZ": 0.01182847273217491,
+        "sign": "positive"
+      },
+      {
+        "Z": 1.0089983359824801,
+        "logZ": 0.008958092195166644,
+        "sign": "positive"
+      }
+    ],
+    "oblique_a5_p2_r0_n24_half": [
+      {
+        "Z": 0.9964390082151336,
+        "logZ": -0.0035673472083386105,
+        "sign": "negative"
+      },
+      {
+        "Z": 1.0085598055335363,
+        "logZ": 0.008523378124899214,
+        "sign": "positive"
+      },
+      {
+        "Z": 1.0092278130401602,
+        "logZ": 0.009185496897835965,
+        "sign": "positive"
+      },
+      {
+        "Z": 1.0098083576652703,
+        "logZ": 0.009760567963458804,
+        "sign": "positive"
+      }
+    ],
+    "oblique_a5_p2_r0_n24_quarter": [
+      {
+        "Z": 0.996439008215116,
+        "logZ": -0.003567347208356326,
+        "sign": "negative"
+      },
+      {
+        "Z": 1.0085598055333491,
+        "logZ": 0.00852337812471362,
+        "sign": "positive"
+      },
+      {
+        "Z": 1.0092278130404557,
+        "logZ": 0.009185496898128804,
+        "sign": "positive"
+      },
+      {
+        "Z": 1.0098083576654706,
+        "logZ": 0.009760567963657143,
+        "sign": "positive"
+      }
+    ],
+    "oblique_a5_p2_r0_n32_half": [
+      {
+        "Z": 0.9964390082163851,
+        "logZ": -0.0035673472070826945,
+        "sign": "negative"
+      },
+      {
+        "Z": 1.0085598055362475,
+        "logZ": 0.00852337812758737,
+        "sign": "positive"
+      },
+      {
+        "Z": 1.0092278130396648,
+        "logZ": 0.009185496897345113,
+        "sign": "positive"
+      },
+      {
+        "Z": 1.0098083576675176,
+        "logZ": 0.009760567965684289,
+        "sign": "positive"
+      }
+    ],
+    "oblique_a5_p2_r1_n24_half": [
+      {
+        "Z": 0.9978002127037316,
+        "logZ": -0.002202210382511167,
+        "sign": "negative"
+      },
+      {
+        "Z": 1.0066430931176324,
+        "logZ": 0.00662112501166077,
+        "sign": "positive"
+      },
+      {
+        "Z": 1.0109390545030326,
+        "logZ": 0.010879655830607961,
+        "sign": "positive"
+      },
+      {
+        "Z": 1.009724646922878,
+        "logZ": 0.009677666874692153,
+        "sign": "positive"
+      }
+    ],
+    "oblique_a5_p2_r1_n24_quarter": [
+      {
+        "Z": 0.9978002127037608,
+        "logZ": -0.002202210382481904,
+        "sign": "negative"
+      },
+      {
+        "Z": 1.006643093117528,
+        "logZ": 0.006621125011557098,
+        "sign": "positive"
+      },
+      {
+        "Z": 1.01093905450335,
+        "logZ": 0.010879655830922048,
+        "sign": "positive"
+      },
+      {
+        "Z": 1.0097246469230523,
+        "logZ": 0.00967766687486478,
+        "sign": "positive"
+      }
+    ],
+    "oblique_a5_p2_r1_n32_half": [
+      {
+        "Z": 0.9978002127037244,
+        "logZ": -0.0022022103825183994,
+        "sign": "negative"
+      },
+      {
+        "Z": 1.0066430931190726,
+        "logZ": 0.006621125013091447,
+        "sign": "positive"
+      },
+      {
+        "Z": 1.0109390545048058,
+        "logZ": 0.010879655832362022,
+        "sign": "positive"
+      },
+      {
+        "Z": 1.0097246469247199,
+        "logZ": 0.009677666876516274,
+        "sign": "positive"
+      }
+    ],
+    "oblique_a5_p2_r2_n24_half": [
+      {
+        "Z": 0.9990326885797904,
+        "logZ": -0.0009677795678220968,
+        "sign": "negative"
+      },
+      {
+        "Z": 1.0052445508930805,
+        "logZ": 0.005230846132039797,
+        "sign": "positive"
+      },
+      {
+        "Z": 1.0113106051890657,
+        "logZ": 0.011247118560477356,
+        "sign": "positive"
+      },
+      {
+        "Z": 1.0089092322240776,
+        "logZ": 0.008869779172445146,
+        "sign": "positive"
+      }
+    ],
+    "oblique_a5_p2_r2_n24_quarter": [
+      {
+        "Z": 0.9990326885799506,
+        "logZ": -0.0009677795676617365,
+        "sign": "negative"
+      },
+      {
+        "Z": 1.0052445508930725,
+        "logZ": 0.0052308461320318455,
+        "sign": "positive"
+      },
+      {
+        "Z": 1.0113106051892806,
+        "logZ": 0.01124711856068989,
+        "sign": "positive"
+      },
+      {
+        "Z": 1.008909232224223,
+        "logZ": 0.008869779172589302,
+        "sign": "positive"
+      }
+    ],
+    "oblique_a5_p2_r2_n32_half": [
+      {
+        "Z": 0.999032688579507,
+        "logZ": -0.0009677795681058112,
+        "sign": "negative"
+      },
+      {
+        "Z": 1.005244550891807,
+        "logZ": 0.005230846130773016,
+        "sign": "positive"
+      },
+      {
+        "Z": 1.011310605189445,
+        "logZ": 0.011247118560852367,
+        "sign": "positive"
+      },
+      {
+        "Z": 1.0089092322237585,
+        "logZ": 0.008869779172128885,
+        "sign": "positive"
+      }
+    ],
+    "oblique_a5_p3_r0_n24_half": [
+      {
+        "Z": 0.9965058095752405,
+        "logZ": -0.0035003093661108257,
+        "sign": "negative"
+      },
+      {
+        "Z": 1.0088158449035005,
+        "logZ": 0.008777212229899441,
+        "sign": "positive"
+      },
+      {
+        "Z": 1.0088372637047387,
+        "logZ": 0.008798443631023454,
+        "sign": "positive"
+      },
+      {
+        "Z": 1.0096254711596122,
+        "logZ": 0.00957944144814779,
+        "sign": "positive"
+      }
+    ],
+    "oblique_a5_p3_r0_n24_quarter": [
+      {
+        "Z": 0.9965058095751949,
+        "logZ": -0.003500309366156616,
+        "sign": "negative"
+      },
+      {
+        "Z": 1.008815844903411,
+        "logZ": 0.00877721222981074,
+        "sign": "positive"
+      },
+      {
+        "Z": 1.0088372637049983,
+        "logZ": 0.00879844363128075,
+        "sign": "positive"
+      },
+      {
+        "Z": 1.0096254711598012,
+        "logZ": 0.00957944144833495,
+        "sign": "positive"
+      }
+    ],
+    "oblique_a5_p3_r0_n32_half": [
+      {
+        "Z": 0.9965058095744697,
+        "logZ": -0.0035003093668843563,
+        "sign": "negative"
+      },
+      {
+        "Z": 1.0088158449088955,
+        "logZ": 0.008777212235247312,
+        "sign": "positive"
+      },
+      {
+        "Z": 1.0088372637039587,
+        "logZ": 0.008798443630250244,
+        "sign": "positive"
+      },
+      {
+        "Z": 1.0096254711633104,
+        "logZ": 0.009579441451810687,
+        "sign": "positive"
+      }
+    ],
+    "oblique_a5_p3_r1_n24_half": [
+      {
+        "Z": 0.9975732775347941,
+        "logZ": -0.002429671728495959,
+        "sign": "negative"
+      },
+      {
+        "Z": 1.0072225913643602,
+        "logZ": 0.0071966333657558414,
+        "sign": "positive"
+      },
+      {
+        "Z": 1.0106932631222003,
+        "logZ": 0.010636494519918133,
+        "sign": "positive"
+      },
+      {
+        "Z": 1.010074227751002,
+        "logZ": 0.010023820975477124,
+        "sign": "positive"
+      }
+    ],
+    "oblique_a5_p3_r1_n24_quarter": [
+      {
+        "Z": 0.9975732775347855,
+        "logZ": -0.0024296717285045284,
+        "sign": "negative"
+      },
+      {
+        "Z": 1.0072225913643555,
+        "logZ": 0.007196633365751212,
+        "sign": "positive"
+      },
+      {
+        "Z": 1.0106932631224175,
+        "logZ": 0.010636494520132994,
+        "sign": "positive"
+      },
+      {
+        "Z": 1.010074227751161,
+        "logZ": 0.010023820975634522,
+        "sign": "positive"
+      }
+    ],
+    "oblique_a5_p3_r1_n32_half": [
+      {
+        "Z": 0.9975732775347413,
+        "logZ": -0.002429671728548823,
+        "sign": "negative"
+      },
+      {
+        "Z": 1.0072225913628872,
+        "logZ": 0.007196633364293361,
+        "sign": "positive"
+      },
+      {
+        "Z": 1.0106932631218715,
+        "logZ": 0.010636494519592763,
+        "sign": "positive"
+      },
+      {
+        "Z": 1.010074227749553,
+        "logZ": 0.010023820974042513,
+        "sign": "positive"
+      }
+    ],
+    "oblique_a5_p3_r2_n24_half": [
+      {
+        "Z": 0.9985106942547821,
+        "logZ": -0.0014904158633597061,
+        "sign": "negative"
+      },
+      {
+        "Z": 1.005910425565958,
+        "logZ": 0.005893027520349583,
+        "sign": "positive"
+      },
+      {
+        "Z": 1.0113567180752077,
+        "logZ": 0.011292714675685812,
+        "sign": "positive"
+      },
+      {
+        "Z": 1.009606142563209,
+        "logZ": 0.009560296941621228,
+        "sign": "positive"
+      }
+    ],
+    "oblique_a5_p3_r2_n24_quarter": [
+      {
+        "Z": 0.9985106942548709,
+        "logZ": -0.0014904158632707558,
+        "sign": "negative"
+      },
+      {
+        "Z": 1.0059104255660745,
+        "logZ": 0.005893027520465251,
+        "sign": "positive"
+      },
+      {
+        "Z": 1.0113567180753034,
+        "logZ": 0.011292714675780439,
+        "sign": "positive"
+      },
+      {
+        "Z": 1.0096061425633491,
+        "logZ": 0.009560296941760004,
+        "sign": "positive"
+      }
+    ],
+    "oblique_a5_p3_r2_n32_half": [
+      {
+        "Z": 0.9985106942550208,
+        "logZ": -0.0014904158631206521,
+        "sign": "negative"
+      },
+      {
+        "Z": 1.0059104255638698,
+        "logZ": 0.005893027518273524,
+        "sign": "positive"
+      },
+      {
+        "Z": 1.0113567180752867,
+        "logZ": 0.011292714675763973,
+        "sign": "positive"
+      },
+      {
+        "Z": 1.009606142561547,
+        "logZ": 0.009560296939975038,
+        "sign": "positive"
+      }
+    ]
+  },
+  "datasets": [
+    {
+      "dataset": "oblique_a5_p0_r0",
+      "field_evidence_sha256": {
+        "udt_time_live_production_survey_2026-10-01/diagnosis/checks/assemble_all_refined.json": "f467eb0805159fad4c8f0e70f2c65cb1f8a42c7c4af3f67bad95c770f6c90939",
+        "udt_time_live_production_survey_2026-10-01/diagnosis/review_math/REPAIR_MATH.json": "b09082462a464d9ed365e003b6ba19b6ed8c61fcebf59818c5b344a313c22462",
+        "udt_time_live_production_survey_2026-10-01/diagnosis/review_math/REPAIR_RESULT_REVIEW.md": "9bd22b8d694902317a9036a232eea9f8298bfb37dee5d5dd381fcf8183314d25",
+        "udt_time_live_production_survey_2026-10-01/diagnosis/review_math/REPAIR_RESULT_SUMMARY.json": "9e9b4756ea14e04c1acec9b693e228547ec78a87c287ebaa8922b6e291346557",
+        "udt_time_live_production_survey_2026-10-01/diagnosis/review_math/all_refined_math_run.json": "b04eabde6b0885ee3cdbbfec0f6c84f94d72140e7df6e6780124d59df96b59c6",
+        "udt_time_live_production_survey_2026-10-01/diagnosis/review_runtime/REPAIR_OPERATIONS.json": "32912a25c577b7889fc885da724ea2498af768b75840f40da09badd1d39dc09e"
+      },
+      "matched": [
+        {
+          "diagnostic": "PASS",
+          "max_logZ_difference": 4.061837671764934e-13,
+          "other": "oblique_a5_p0_r0_n24_quarter",
+          "reference": "oblique_a5_p0_r0_n24_half"
+        },
+        {
+          "diagnostic": "PASS",
+          "max_logZ_difference": 1.0358033875057515e-12,
+          "other": "oblique_a5_p0_r0_n32_half",
+          "reference": "oblique_a5_p0_r0_n24_half"
+        }
+      ],
+      "original_field_qualification": "UNQUALIFIED",
+      "original_numerical_gate": {
+        "dataset": "oblique_a5_p0_r0",
+        "final_time_refinement": {
+          "g": 3.1845914350014937e-08,
+          "v": 2.1787595727573716e-07
+        },
+        "original_equations": {
+          "oblique_a5_p0_r0_n24": "PASS",
+          "oblique_a5_p0_r0_n24_half": "PASS",
+          "oblique_a5_p0_r0_n32": "PASS"
+        },
+        "spatial": [
+          {
+            "all_points_both_meshes_max": 1.2668064786058864e-07,
+            "coarse_common8_max": 6.580070116557479e-08,
+            "fine_common8_max": 7.254975176174128e-09,
+            "order": 6,
+            "ratio": 9.069734846463588,
+            "status": "INCONCLUSIVE_REFINEMENT"
+          },
+          {
+            "all_points_both_meshes_max": 1.2663671933310638e-07,
+            "coarse_common8_max": 6.588260414996938e-08,
+            "fine_common8_max": 7.542524937953488e-09,
+            "order": 8,
+            "ratio": 8.73482085799312,
+            "status": "INCONCLUSIVE_REFINEMENT"
+          }
+        ],
+        "status": "DIAGNOSTIC_NOT_QUALIFIED",
+        "temporal_status": "FAIL"
+      },
+      "repaired_field_qualification": "NOT_DETERMINED_BY_CLOCK_COMPARISON"
+    },
+    {
+      "dataset": "axial_a5",
+      "field_evidence_sha256": {
+        "udt_time_live_production_survey_2026-10-01/diagnosis/checks/assemble_all_refined.json": "f467eb0805159fad4c8f0e70f2c65cb1f8a42c7c4af3f67bad95c770f6c90939",
+        "udt_time_live_production_survey_2026-10-01/diagnosis/review_math/REPAIR_MATH.json": "b09082462a464d9ed365e003b6ba19b6ed8c61fcebf59818c5b344a313c22462",
+        "udt_time_live_production_survey_2026-10-01/diagnosis/review_math/REPAIR_RESULT_REVIEW.md": "9bd22b8d694902317a9036a232eea9f8298bfb37dee5d5dd381fcf8183314d25",
+        "udt_time_live_production_survey_2026-10-01/diagnosis/review_math/REPAIR_RESULT_SUMMARY.json": "9e9b4756ea14e04c1acec9b693e228547ec78a87c287ebaa8922b6e291346557",
+        "udt_time_live_production_survey_2026-10-01/diagnosis/review_math/all_refined_math_run.json": "b04eabde6b0885ee3cdbbfec0f6c84f94d72140e7df6e6780124d59df96b59c6",
+        "udt_time_live_production_survey_2026-10-01/diagnosis/review_runtime/REPAIR_OPERATIONS.json": "32912a25c577b7889fc885da724ea2498af768b75840f40da09badd1d39dc09e"
+      },
+      "matched": [
+        {
+          "diagnostic": "PASS",
+          "max_logZ_difference": 3.7330902258325693e-13,
+          "other": "axial_a5_n24_quarter",
+          "reference": "axial_a5_n24_half"
+        },
+        {
+          "diagnostic": "PASS",
+          "max_logZ_difference": 1.4236008205603667e-13,
+          "other": "axial_a5_n32_half",
+          "reference": "axial_a5_n24_half"
+        }
+      ],
+      "original_field_qualification": "UNQUALIFIED",
+      "original_numerical_gate": {
+        "dataset": "axial_a5",
+        "final_time_refinement": {
+          "g": 4.886731375108866e-08,
+          "v": 2.181810572210452e-07
+        },
+        "original_equations": {
+          "axial_a5_n24": "PASS",
+          "axial_a5_n24_half": "PASS",
+          "axial_a5_n32": "PASS"
+        },
+        "spatial": [
+          {
+            "all_points_both_meshes_max": 4.5245449609154775e-09,
+            "coarse_common8_max": 3.6070816333833022e-09,
+            "fine_common8_max": 2.4779613916336984e-09,
+            "order": 6,
+            "ratio": 1.4556649855650836,
+            "status": "PASS"
+          },
+          {
+            "all_points_both_meshes_max": 4.800274067129351e-09,
+            "coarse_common8_max": 3.7696066268466666e-09,
+            "fine_common8_max": 2.62101274017823e-09,
+            "order": 8,
+            "ratio": 1.4382252207558257,
+            "status": "PASS"
+          }
+        ],
+        "status": "DIAGNOSTIC_NOT_QUALIFIED",
+        "temporal_status": "FAIL"
+      },
+      "repaired_field_qualification": "NOT_DETERMINED_BY_CLOCK_COMPARISON"
+    },
+    {
+      "dataset": "oblique_a5_p0_r1",
+      "field_evidence_sha256": {
+        "udt_time_live_production_survey_2026-10-01/diagnosis/checks/assemble_all_refined.json": "f467eb0805159fad4c8f0e70f2c65cb1f8a42c7c4af3f67bad95c770f6c90939",
+        "udt_time_live_production_survey_2026-10-01/diagnosis/review_math/REPAIR_MATH.json": "b09082462a464d9ed365e003b6ba19b6ed8c61fcebf59818c5b344a313c22462",
+        "udt_time_live_production_survey_2026-10-01/diagnosis/review_math/REPAIR_RESULT_REVIEW.md": "9bd22b8d694902317a9036a232eea9f8298bfb37dee5d5dd381fcf8183314d25",
+        "udt_time_live_production_survey_2026-10-01/diagnosis/review_math/REPAIR_RESULT_SUMMARY.json": "9e9b4756ea14e04c1acec9b693e228547ec78a87c287ebaa8922b6e291346557",
+        "udt_time_live_production_survey_2026-10-01/diagnosis/review_math/all_refined_math_run.json": "b04eabde6b0885ee3cdbbfec0f6c84f94d72140e7df6e6780124d59df96b59c6",
+        "udt_time_live_production_survey_2026-10-01/diagnosis/review_runtime/REPAIR_OPERATIONS.json": "32912a25c577b7889fc885da724ea2498af768b75840f40da09badd1d39dc09e"
+      },
+      "matched": [
+        {
+          "diagnostic": "PASS",
+          "max_logZ_difference": 3.830798525616963e-13,
+          "other": "oblique_a5_p0_r1_n24_quarter",
+          "reference": "oblique_a5_p0_r1_n24_half"
+        },
+        {
+          "diagnostic": "PASS",
+          "max_logZ_difference": 2.045282346263555e-12,
+          "other": "oblique_a5_p0_r1_n32_half",
+          "reference": "oblique_a5_p0_r1_n24_half"
+        }
+      ],
+      "original_field_qualification": "UNQUALIFIED",
+      "original_numerical_gate": {
+        "dataset": "oblique_a5_p0_r1",
+        "final_time_refinement": {
+          "g": 2.985255775911355e-08,
+          "v": 2.0288813118440885e-07
+        },
+        "original_equations": {
+          "oblique_a5_p0_r1_n24": "PASS",
+          "oblique_a5_p0_r1_n24_half": "PASS",
+          "oblique_a5_p0_r1_n32": "PASS"
+        },
+        "spatial": [
+          {
+            "all_points_both_meshes_max": 9.835362380083978e-08,
+            "coarse_common8_max": 9.835362380083978e-08,
+            "fine_common8_max": 7.653267075635739e-09,
+            "order": 6,
+            "ratio": 12.851194506715915,
+            "status": "PASS"
+          },
+          {
+            "all_points_both_meshes_max": 9.823022817379012e-08,
+            "coarse_common8_max": 9.823022817379012e-08,
+            "fine_common8_max": 7.897429932235411e-09,
+            "order": 8,
+            "ratio": 12.438252572882975,
+            "status": "PASS"
+          }
+        ],
+        "status": "DIAGNOSTIC_NOT_QUALIFIED",
+        "temporal_status": "FAIL"
+      },
+      "repaired_field_qualification": "NOT_DETERMINED_BY_CLOCK_COMPARISON"
+    },
+    {
+      "dataset": "oblique_a5_p0_r2",
+      "field_evidence_sha256": {
+        "udt_time_live_production_survey_2026-10-01/diagnosis/checks/assemble_all_refined.json": "f467eb0805159fad4c8f0e70f2c65cb1f8a42c7c4af3f67bad95c770f6c90939",
+        "udt_time_live_production_survey_2026-10-01/diagnosis/review_math/REPAIR_MATH.json": "b09082462a464d9ed365e003b6ba19b6ed8c61fcebf59818c5b344a313c22462",
+        "udt_time_live_production_survey_2026-10-01/diagnosis/review_math/REPAIR_RESULT_REVIEW.md": "9bd22b8d694902317a9036a232eea9f8298bfb37dee5d5dd381fcf8183314d25",
+        "udt_time_live_production_survey_2026-10-01/diagnosis/review_math/REPAIR_RESULT_SUMMARY.json": "9e9b4756ea14e04c1acec9b693e228547ec78a87c287ebaa8922b6e291346557",
+        "udt_time_live_production_survey_2026-10-01/diagnosis/review_math/all_refined_math_run.json": "b04eabde6b0885ee3cdbbfec0f6c84f94d72140e7df6e6780124d59df96b59c6",
+        "udt_time_live_production_survey_2026-10-01/diagnosis/review_runtime/REPAIR_OPERATIONS.json": "32912a25c577b7889fc885da724ea2498af768b75840f40da09badd1d39dc09e"
+      },
+      "matched": [
+        {
+          "diagnostic": "PASS",
+          "max_logZ_difference": 3.2067892178494484e-13,
+          "other": "oblique_a5_p0_r2_n24_quarter",
+          "reference": "oblique_a5_p0_r2_n24_half"
+        },
+        {
+          "diagnostic": "PASS",
+          "max_logZ_difference": 5.5584634117700205e-12,
+          "other": "oblique_a5_p0_r2_n32_half",
+          "reference": "oblique_a5_p0_r2_n24_half"
+        }
+      ],
+      "original_field_qualification": "UNQUALIFIED",
+      "original_numerical_gate": {
+        "dataset": "oblique_a5_p0_r2",
+        "final_time_refinement": {
+          "g": 2.9321956418471018e-08,
+          "v": 1.7889207981625077e-07
+        },
+        "original_equations": {
+          "oblique_a5_p0_r2_n24": "PASS",
+          "oblique_a5_p0_r2_n24_half": "PASS",
+          "oblique_a5_p0_r2_n32": "PASS"
+        },
+        "spatial": [
+          {
+            "all_points_both_meshes_max": 9.511808574114156e-08,
+            "coarse_common8_max": 5.6144648707956435e-08,
+            "fine_common8_max": 7.352568665019987e-09,
+            "order": 6,
+            "ratio": 7.636059078926509,
+            "status": "INCONCLUSIVE_REFINEMENT"
+          },
+          {
+            "all_points_both_meshes_max": 9.508431098037562e-08,
+            "coarse_common8_max": 5.618847653821035e-08,
+            "fine_common8_max": 7.531994361542615e-09,
+            "order": 8,
+            "ratio": 7.459973260880466,
+            "status": "INCONCLUSIVE_REFINEMENT"
+          }
+        ],
+        "status": "DIAGNOSTIC_NOT_QUALIFIED",
+        "temporal_status": "PASS"
+      },
+      "repaired_field_qualification": "NOT_DETERMINED_BY_CLOCK_COMPARISON"
+    },
+    {
+      "dataset": "oblique_a5_p1_r0",
+      "field_evidence_sha256": {
+        "udt_time_live_production_survey_2026-10-01/diagnosis/checks/assemble_all_refined.json": "f467eb0805159fad4c8f0e70f2c65cb1f8a42c7c4af3f67bad95c770f6c90939",
+        "udt_time_live_production_survey_2026-10-01/diagnosis/review_math/REPAIR_MATH.json": "b09082462a464d9ed365e003b6ba19b6ed8c61fcebf59818c5b344a313c22462",
+        "udt_time_live_production_survey_2026-10-01/diagnosis/review_math/REPAIR_RESULT_REVIEW.md": "9bd22b8d694902317a9036a232eea9f8298bfb37dee5d5dd381fcf8183314d25",
+        "udt_time_live_production_survey_2026-10-01/diagnosis/review_math/REPAIR_RESULT_SUMMARY.json": "9e9b4756ea14e04c1acec9b693e228547ec78a87c287ebaa8922b6e291346557",
+        "udt_time_live_production_survey_2026-10-01/diagnosis/review_math/all_refined_math_run.json": "b04eabde6b0885ee3cdbbfec0f6c84f94d72140e7df6e6780124d59df96b59c6",
+        "udt_time_live_production_survey_2026-10-01/diagnosis/review_runtime/REPAIR_OPERATIONS.json": "32912a25c577b7889fc885da724ea2498af768b75840f40da09badd1d39dc09e"
+      },
+      "matched": [
+        {
+          "diagnostic": "PASS",
+          "max_logZ_difference": 3.1803379374473195e-13,
+          "other": "oblique_a5_p1_r0_n24_quarter",
+          "reference": "oblique_a5_p1_r0_n24_half"
+        },
+        {
+          "diagnostic": "PASS",
+          "max_logZ_difference": 1.8494355352727254e-12,
+          "other": "oblique_a5_p1_r0_n32_half",
+          "reference": "oblique_a5_p1_r0_n24_half"
+        }
+      ],
+      "original_field_qualification": "UNQUALIFIED",
+      "original_numerical_gate": {
+        "dataset": "oblique_a5_p1_r0",
+        "final_time_refinement": {
+          "g": 3.19209476629112e-08,
+          "v": 2.1953980677835716e-07
+        },
+        "original_equations": {
+          "oblique_a5_p1_r0_n24": "PASS",
+          "oblique_a5_p1_r0_n24_half": "PASS",
+          "oblique_a5_p1_r0_n32": "PASS"
+        },
+        "spatial": [
+          {
+            "all_points_both_meshes_max": 1.0860916066501858e-07,
+            "coarse_common8_max": 1.0860916066501858e-07,
+            "fine_common8_max": 6.993424450651986e-09,
+            "order": 6,
+            "ratio": 15.530182878417042,
+            "status": "PASS"
+          },
+          {
+            "all_points_both_meshes_max": 1.086625244228756e-07,
+            "coarse_common8_max": 1.086625244228756e-07,
+            "fine_common8_max": 7.24818277619832e-09,
+            "order": 8,
+            "ratio": 14.99169209414849,
+            "status": "PASS"
+          }
+        ],
+        "status": "DIAGNOSTIC_NOT_QUALIFIED",
+        "temporal_status": "FAIL"
+      },
+      "repaired_field_qualification": "NOT_DETERMINED_BY_CLOCK_COMPARISON"
+    },
+    {
+      "dataset": "oblique_a5_p1_r1",
+      "field_evidence_sha256": {
+        "udt_time_live_production_survey_2026-10-01/diagnosis/checks/assemble_all_refined.json": "f467eb0805159fad4c8f0e70f2c65cb1f8a42c7c4af3f67bad95c770f6c90939",
+        "udt_time_live_production_survey_2026-10-01/diagnosis/review_math/REPAIR_MATH.json": "b09082462a464d9ed365e003b6ba19b6ed8c61fcebf59818c5b344a313c22462",
+        "udt_time_live_production_survey_2026-10-01/diagnosis/review_math/REPAIR_RESULT_REVIEW.md": "9bd22b8d694902317a9036a232eea9f8298bfb37dee5d5dd381fcf8183314d25",
+        "udt_time_live_production_survey_2026-10-01/diagnosis/review_math/REPAIR_RESULT_SUMMARY.json": "9e9b4756ea14e04c1acec9b693e228547ec78a87c287ebaa8922b6e291346557",
+        "udt_time_live_production_survey_2026-10-01/diagnosis/review_math/all_refined_math_run.json": "b04eabde6b0885ee3cdbbfec0f6c84f94d72140e7df6e6780124d59df96b59c6",
+        "udt_time_live_production_survey_2026-10-01/diagnosis/review_runtime/REPAIR_OPERATIONS.json": "32912a25c577b7889fc885da724ea2498af768b75840f40da09badd1d39dc09e"
+      },
+      "matched": [
+        {
+          "diagnostic": "PASS",
+          "max_logZ_difference": 3.417630761726187e-13,
+          "other": "oblique_a5_p1_r1_n24_quarter",
+          "reference": "oblique_a5_p1_r1_n24_half"
+        },
+        {
+          "diagnostic": "PASS",
+          "max_logZ_difference": 5.443845027541805e-12,
+          "other": "oblique_a5_p1_r1_n32_half",
+          "reference": "oblique_a5_p1_r1_n24_half"
+        }
+      ],
+      "original_field_qualification": "UNQUALIFIED",
+      "original_numerical_gate": {
+        "dataset": "oblique_a5_p1_r1",
+        "final_time_refinement": {
+          "g": 2.9809392287916125e-08,
+          "v": 2.0388071675370156e-07
+        },
+        "original_equations": {
+          "oblique_a5_p1_r1_n24": "PASS",
+          "oblique_a5_p1_r1_n24_half": "PASS",
+          "oblique_a5_p1_r1_n32": "PASS"
+        },
+        "spatial": [
+          {
+            "all_points_both_meshes_max": 8.70111963036102e-08,
+            "coarse_common8_max": 6.062914192916935e-08,
+            "fine_common8_max": 7.391823875213532e-09,
+            "order": 6,
+            "ratio": 8.202189737295102,
+            "status": "INCONCLUSIVE_REFINEMENT"
+          },
+          {
+            "all_points_both_meshes_max": 8.70338063285736e-08,
+            "coarse_common8_max": 6.056733026227334e-08,
+            "fine_common8_max": 7.634278764712121e-09,
+            "order": 8,
+            "ratio": 7.9336021291537495,
+            "status": "INCONCLUSIVE_REFINEMENT"
+          }
+        ],
+        "status": "DIAGNOSTIC_NOT_QUALIFIED",
+        "temporal_status": "FAIL"
+      },
+      "repaired_field_qualification": "NOT_DETERMINED_BY_CLOCK_COMPARISON"
+    },
+    {
+      "dataset": "oblique_a5_p1_r2",
+      "field_evidence_sha256": {
+        "udt_time_live_production_survey_2026-10-01/diagnosis/checks/assemble_all_refined.json": "f467eb0805159fad4c8f0e70f2c65cb1f8a42c7c4af3f67bad95c770f6c90939",
+        "udt_time_live_production_survey_2026-10-01/diagnosis/review_math/REPAIR_MATH.json": "b09082462a464d9ed365e003b6ba19b6ed8c61fcebf59818c5b344a313c22462",
+        "udt_time_live_production_survey_2026-10-01/diagnosis/review_math/REPAIR_RESULT_REVIEW.md": "9bd22b8d694902317a9036a232eea9f8298bfb37dee5d5dd381fcf8183314d25",
+        "udt_time_live_production_survey_2026-10-01/diagnosis/review_math/REPAIR_RESULT_SUMMARY.json": "9e9b4756ea14e04c1acec9b693e228547ec78a87c287ebaa8922b6e291346557",
+        "udt_time_live_production_survey_2026-10-01/diagnosis/review_math/all_refined_math_run.json": "b04eabde6b0885ee3cdbbfec0f6c84f94d72140e7df6e6780124d59df96b59c6",
+        "udt_time_live_production_survey_2026-10-01/diagnosis/review_runtime/REPAIR_OPERATIONS.json": "32912a25c577b7889fc885da724ea2498af768b75840f40da09badd1d39dc09e"
+      },
+      "matched": [
+        {
+          "diagnostic": "PASS",
+          "max_logZ_difference": 2.668316956278005e-13,
+          "other": "oblique_a5_p1_r2_n24_quarter",
+          "reference": "oblique_a5_p1_r2_n24_half"
+        },
+        {
+          "diagnostic": "PASS",
+          "max_logZ_difference": 1.2759829000688616e-12,
+          "other": "oblique_a5_p1_r2_n32_half",
+          "reference": "oblique_a5_p1_r2_n24_half"
+        }
+      ],
+      "original_field_qualification": "UNQUALIFIED",
+      "original_numerical_gate": {
+        "dataset": "oblique_a5_p1_r2",
+        "final_time_refinement": {
+          "g": 2.9323320660523677e-08,
+          "v": 1.7886981140691205e-07
+        },
+        "original_equations": {
+          "oblique_a5_p1_r2_n24": "PASS",
+          "oblique_a5_p1_r2_n24_half": "PASS",
+          "oblique_a5_p1_r2_n32": "PASS"
+        },
+        "spatial": [
+          {
+            "all_points_both_meshes_max": 8.425255393351705e-08,
+            "coarse_common8_max": 5.933403962599115e-08,
+            "fine_common8_max": 7.353883724192656e-09,
+            "order": 6,
+            "ratio": 8.06839512988154,
+            "status": "INCONCLUSIVE_REFINEMENT"
+          },
+          {
+            "all_points_both_meshes_max": 8.428708081487102e-08,
+            "coarse_common8_max": 5.937655639387529e-08,
+            "fine_common8_max": 7.566290149974009e-09,
+            "order": 8,
+            "ratio": 7.847512481936641,
+            "status": "INCONCLUSIVE_REFINEMENT"
+          }
+        ],
+        "status": "DIAGNOSTIC_NOT_QUALIFIED",
+        "temporal_status": "PASS"
+      },
+      "repaired_field_qualification": "NOT_DETERMINED_BY_CLOCK_COMPARISON"
+    },
+    {
+      "dataset": "oblique_a5_p2_r0",
+      "field_evidence_sha256": {
+        "udt_time_live_production_survey_2026-10-01/diagnosis/checks/assemble_all_refined.json": "f467eb0805159fad4c8f0e70f2c65cb1f8a42c7c4af3f67bad95c770f6c90939",
+        "udt_time_live_production_survey_2026-10-01/diagnosis/review_math/REPAIR_MATH.json": "b09082462a464d9ed365e003b6ba19b6ed8c61fcebf59818c5b344a313c22462",
+        "udt_time_live_production_survey_2026-10-01/diagnosis/review_math/REPAIR_RESULT_REVIEW.md": "9bd22b8d694902317a9036a232eea9f8298bfb37dee5d5dd381fcf8183314d25",
+        "udt_time_live_production_survey_2026-10-01/diagnosis/review_math/REPAIR_RESULT_SUMMARY.json": "9e9b4756ea14e04c1acec9b693e228547ec78a87c287ebaa8922b6e291346557",
+        "udt_time_live_production_survey_2026-10-01/diagnosis/review_math/all_refined_math_run.json": "b04eabde6b0885ee3cdbbfec0f6c84f94d72140e7df6e6780124d59df96b59c6",
+        "udt_time_live_production_survey_2026-10-01/diagnosis/review_runtime/REPAIR_OPERATIONS.json": "32912a25c577b7889fc885da724ea2498af768b75840f40da09badd1d39dc09e"
+      },
+      "matched": [
+        {
+          "diagnostic": "PASS",
+          "max_logZ_difference": 2.928386699796448e-13,
+          "other": "oblique_a5_p2_r0_n24_quarter",
+          "reference": "oblique_a5_p2_r0_n24_half"
+        },
+        {
+          "diagnostic": "PASS",
+          "max_logZ_difference": 2.688155253949276e-12,
+          "other": "oblique_a5_p2_r0_n32_half",
+          "reference": "oblique_a5_p2_r0_n24_half"
+        }
+      ],
+      "original_field_qualification": "UNQUALIFIED",
+      "original_numerical_gate": {
+        "dataset": "oblique_a5_p2_r0",
+        "final_time_refinement": {
+          "g": 3.244038282446127e-08,
+          "v": 2.2069029625981784e-07
+        },
+        "original_equations": {
+          "oblique_a5_p2_r0_n24": "PASS",
+          "oblique_a5_p2_r0_n24_half": "PASS",
+          "oblique_a5_p2_r0_n32": "PASS"
+        },
+        "spatial": [
+          {
+            "all_points_both_meshes_max": 1.1206070901770282e-07,
+            "coarse_common8_max": 1.0767028352232089e-07,
+            "fine_common8_max": 7.550391145638713e-09,
+            "order": 6,
+            "ratio": 14.260225920151676,
+            "status": "PASS"
+          },
+          {
+            "all_points_both_meshes_max": 1.1207963651616026e-07,
+            "coarse_common8_max": 1.0766383146121328e-07,
+            "fine_common8_max": 7.656169115355382e-09,
+            "order": 8,
+            "ratio": 14.06236328365322,
+            "status": "PASS"
+          }
+        ],
+        "status": "DIAGNOSTIC_NOT_QUALIFIED",
+        "temporal_status": "FAIL"
+      },
+      "repaired_field_qualification": "NOT_DETERMINED_BY_CLOCK_COMPARISON"
+    },
+    {
+      "dataset": "oblique_a5_p2_r1",
+      "field_evidence_sha256": {
+        "udt_time_live_production_survey_2026-10-01/diagnosis/checks/assemble_all_refined.json": "f467eb0805159fad4c8f0e70f2c65cb1f8a42c7c4af3f67bad95c770f6c90939",
+        "udt_time_live_production_survey_2026-10-01/diagnosis/review_math/REPAIR_MATH.json": "b09082462a464d9ed365e003b6ba19b6ed8c61fcebf59818c5b344a313c22462",
+        "udt_time_live_production_survey_2026-10-01/diagnosis/review_math/REPAIR_RESULT_REVIEW.md": "9bd22b8d694902317a9036a232eea9f8298bfb37dee5d5dd381fcf8183314d25",
+        "udt_time_live_production_survey_2026-10-01/diagnosis/review_math/REPAIR_RESULT_SUMMARY.json": "9e9b4756ea14e04c1acec9b693e228547ec78a87c287ebaa8922b6e291346557",
+        "udt_time_live_production_survey_2026-10-01/diagnosis/review_math/all_refined_math_run.json": "b04eabde6b0885ee3cdbbfec0f6c84f94d72140e7df6e6780124d59df96b59c6",
+        "udt_time_live_production_survey_2026-10-01/diagnosis/review_runtime/REPAIR_OPERATIONS.json": "32912a25c577b7889fc885da724ea2498af768b75840f40da09badd1d39dc09e"
+      },
+      "matched": [
+        {
+          "diagnostic": "PASS",
+          "max_logZ_difference": 3.140872978368847e-13,
+          "other": "oblique_a5_p2_r1_n24_quarter",
+          "reference": "oblique_a5_p2_r1_n24_half"
+        },
+        {
+          "diagnostic": "PASS",
+          "max_logZ_difference": 1.824120715587796e-12,
+          "other": "oblique_a5_p2_r1_n32_half",
+          "reference": "oblique_a5_p2_r1_n24_half"
+        }
+      ],
+      "original_field_qualification": "UNQUALIFIED",
+      "original_numerical_gate": {
+        "dataset": "oblique_a5_p2_r1",
+        "final_time_refinement": {
+          "g": 3.0065383072042096e-08,
+          "v": 2.0554998059196805e-07
+        },
+        "original_equations": {
+          "oblique_a5_p2_r1_n24": "PASS",
+          "oblique_a5_p2_r1_n24_half": "PASS",
+          "oblique_a5_p2_r1_n32": "PASS"
+        },
+        "spatial": [
+          {
+            "all_points_both_meshes_max": 1.0069032374548925e-07,
+            "coarse_common8_max": 5.696426874646221e-08,
+            "fine_common8_max": 7.064429652370308e-09,
+            "order": 6,
+            "ratio": 8.063534007639124,
+            "status": "INCONCLUSIVE_REFINEMENT"
+          },
+          {
+            "all_points_both_meshes_max": 1.0081164536490661e-07,
+            "coarse_common8_max": 5.684005133232972e-08,
+            "fine_common8_max": 7.256689471546451e-09,
+            "order": 8,
+            "ratio": 7.832779886089946,
+            "status": "INCONCLUSIVE_REFINEMENT"
+          }
+        ],
+        "status": "DIAGNOSTIC_NOT_QUALIFIED",
+        "temporal_status": "FAIL"
+      },
+      "repaired_field_qualification": "NOT_DETERMINED_BY_CLOCK_COMPARISON"
+    },
+    {
+      "dataset": "oblique_a5_p2_r2",
+      "field_evidence_sha256": {
+        "udt_time_live_production_survey_2026-10-01/diagnosis/checks/assemble_all_refined.json": "f467eb0805159fad4c8f0e70f2c65cb1f8a42c7c4af3f67bad95c770f6c90939",
+        "udt_time_live_production_survey_2026-10-01/diagnosis/review_math/REPAIR_MATH.json": "b09082462a464d9ed365e003b6ba19b6ed8c61fcebf59818c5b344a313c22462",
+        "udt_time_live_production_survey_2026-10-01/diagnosis/review_math/REPAIR_RESULT_REVIEW.md": "9bd22b8d694902317a9036a232eea9f8298bfb37dee5d5dd381fcf8183314d25",
+        "udt_time_live_production_survey_2026-10-01/diagnosis/review_math/REPAIR_RESULT_SUMMARY.json": "9e9b4756ea14e04c1acec9b693e228547ec78a87c287ebaa8922b6e291346557",
+        "udt_time_live_production_survey_2026-10-01/diagnosis/review_math/all_refined_math_run.json": "b04eabde6b0885ee3cdbbfec0f6c84f94d72140e7df6e6780124d59df96b59c6",
+        "udt_time_live_production_survey_2026-10-01/diagnosis/review_runtime/REPAIR_OPERATIONS.json": "32912a25c577b7889fc885da724ea2498af768b75840f40da09badd1d39dc09e"
+      },
+      "matched": [
+        {
+          "diagnostic": "PASS",
+          "max_logZ_difference": 2.1253485082972645e-13,
+          "other": "oblique_a5_p2_r2_n24_quarter",
+          "reference": "oblique_a5_p2_r2_n24_half"
+        },
+        {
+          "diagnostic": "PASS",
+          "max_logZ_difference": 1.2667818183320634e-12,
+          "other": "oblique_a5_p2_r2_n32_half",
+          "reference": "oblique_a5_p2_r2_n24_half"
+        }
+      ],
+      "original_field_qualification": "UNQUALIFIED",
+      "original_numerical_gate": {
+        "dataset": "oblique_a5_p2_r2",
+        "final_time_refinement": {
+          "g": 2.9557398306678806e-08,
+          "v": 1.819235819766618e-07
+        },
+        "original_equations": {
+          "oblique_a5_p2_r2_n24": "PASS",
+          "oblique_a5_p2_r2_n24_half": "PASS",
+          "oblique_a5_p2_r2_n32": "PASS"
+        },
+        "spatial": [
+          {
+            "all_points_both_meshes_max": 8.765391878995388e-08,
+            "coarse_common8_max": 6.442387323613019e-08,
+            "fine_common8_max": 6.905624183595194e-09,
+            "order": 6,
+            "ratio": 9.329189009325722,
+            "status": "INCONCLUSIVE_REFINEMENT"
+          },
+          {
+            "all_points_both_meshes_max": 8.770681902969812e-08,
+            "coarse_common8_max": 6.444882766354354e-08,
+            "fine_common8_max": 7.074795971284686e-09,
+            "order": 8,
+            "ratio": 9.109637638333266,
+            "status": "INCONCLUSIVE_REFINEMENT"
+          }
+        ],
+        "status": "DIAGNOSTIC_NOT_QUALIFIED",
+        "temporal_status": "PASS"
+      },
+      "repaired_field_qualification": "NOT_DETERMINED_BY_CLOCK_COMPARISON"
+    },
+    {
+      "dataset": "oblique_a5_p3_r0",
+      "field_evidence_sha256": {
+        "udt_time_live_production_survey_2026-10-01/diagnosis/checks/assemble_all_refined.json": "f467eb0805159fad4c8f0e70f2c65cb1f8a42c7c4af3f67bad95c770f6c90939",
+        "udt_time_live_production_survey_2026-10-01/diagnosis/review_math/REPAIR_MATH.json": "b09082462a464d9ed365e003b6ba19b6ed8c61fcebf59818c5b344a313c22462",
+        "udt_time_live_production_survey_2026-10-01/diagnosis/review_math/REPAIR_RESULT_REVIEW.md": "9bd22b8d694902317a9036a232eea9f8298bfb37dee5d5dd381fcf8183314d25",
+        "udt_time_live_production_survey_2026-10-01/diagnosis/review_math/REPAIR_RESULT_SUMMARY.json": "9e9b4756ea14e04c1acec9b693e228547ec78a87c287ebaa8922b6e291346557",
+        "udt_time_live_production_survey_2026-10-01/diagnosis/review_math/all_refined_math_run.json": "b04eabde6b0885ee3cdbbfec0f6c84f94d72140e7df6e6780124d59df96b59c6",
+        "udt_time_live_production_survey_2026-10-01/diagnosis/review_runtime/REPAIR_OPERATIONS.json": "32912a25c577b7889fc885da724ea2498af768b75840f40da09badd1d39dc09e"
+      },
+      "matched": [
+        {
+          "diagnostic": "PASS",
+          "max_logZ_difference": 2.57295920680356e-13,
+          "other": "oblique_a5_p3_r0_n24_quarter",
+          "reference": "oblique_a5_p3_r0_n24_half"
+        },
+        {
+          "diagnostic": "PASS",
+          "max_logZ_difference": 5.347871451233388e-12,
+          "other": "oblique_a5_p3_r0_n32_half",
+          "reference": "oblique_a5_p3_r0_n24_half"
+        }
+      ],
+      "original_field_qualification": "UNQUALIFIED",
+      "original_numerical_gate": {
+        "dataset": "oblique_a5_p3_r0",
+        "final_time_refinement": {
+          "g": 3.27496714191966e-08,
+          "v": 2.2446651826157904e-07
+        },
+        "original_equations": {
+          "oblique_a5_p3_r0_n24": "PASS",
+          "oblique_a5_p3_r0_n24_half": "PASS",
+          "oblique_a5_p3_r0_n32": "PASS"
+        },
+        "spatial": [
+          {
+            "all_points_both_meshes_max": 1.2278019645428628e-07,
+            "coarse_common8_max": 8.143929464132782e-08,
+            "fine_common8_max": 7.199108115196751e-09,
+            "order": 6,
+            "ratio": 11.312414446091715,
+            "status": "PASS"
+          },
+          {
+            "all_points_both_meshes_max": 1.227505048717603e-07,
+            "coarse_common8_max": 8.135955908983306e-08,
+            "fine_common8_max": 7.297162901709342e-09,
+            "order": 8,
+            "ratio": 11.149478254182155,
+            "status": "PASS"
+          }
+        ],
+        "status": "DIAGNOSTIC_NOT_QUALIFIED",
+        "temporal_status": "FAIL"
+      },
+      "repaired_field_qualification": "NOT_DETERMINED_BY_CLOCK_COMPARISON"
+    },
+    {
+      "dataset": "oblique_a5_p3_r1",
+      "field_evidence_sha256": {
+        "udt_time_live_production_survey_2026-10-01/diagnosis/checks/assemble_all_refined.json": "f467eb0805159fad4c8f0e70f2c65cb1f8a42c7c4af3f67bad95c770f6c90939",
+        "udt_time_live_production_survey_2026-10-01/diagnosis/review_math/REPAIR_MATH.json": "b09082462a464d9ed365e003b6ba19b6ed8c61fcebf59818c5b344a313c22462",
+        "udt_time_live_production_survey_2026-10-01/diagnosis/review_math/REPAIR_RESULT_REVIEW.md": "9bd22b8d694902317a9036a232eea9f8298bfb37dee5d5dd381fcf8183314d25",
+        "udt_time_live_production_survey_2026-10-01/diagnosis/review_math/REPAIR_RESULT_SUMMARY.json": "9e9b4756ea14e04c1acec9b693e228547ec78a87c287ebaa8922b6e291346557",
+        "udt_time_live_production_survey_2026-10-01/diagnosis/review_math/all_refined_math_run.json": "b04eabde6b0885ee3cdbbfec0f6c84f94d72140e7df6e6780124d59df96b59c6",
+        "udt_time_live_production_survey_2026-10-01/diagnosis/review_runtime/REPAIR_OPERATIONS.json": "32912a25c577b7889fc885da724ea2498af768b75840f40da09badd1d39dc09e"
+      },
+      "matched": [
+        {
+          "diagnostic": "PASS",
+          "max_logZ_difference": 2.1486111501101135e-13,
+          "other": "oblique_a5_p3_r1_n24_quarter",
+          "reference": "oblique_a5_p3_r1_n24_half"
+        },
+        {
+          "diagnostic": "PASS",
+          "max_logZ_difference": 1.462480310465697e-12,
+          "other": "oblique_a5_p3_r1_n32_half",
+          "reference": "oblique_a5_p3_r1_n24_half"
+        }
+      ],
+      "original_field_qualification": "UNQUALIFIED",
+      "original_numerical_gate": {
+        "dataset": "oblique_a5_p3_r1",
+        "final_time_refinement": {
+          "g": 3.014848459770292e-08,
+          "v": 2.0952678880803433e-07
+        },
+        "original_equations": {
+          "oblique_a5_p3_r1_n24": "PASS",
+          "oblique_a5_p3_r1_n24_half": "PASS",
+          "oblique_a5_p3_r1_n32": "PASS"
+        },
+        "spatial": [
+          {
+            "all_points_both_meshes_max": 8.043921462252968e-08,
+            "coarse_common8_max": 6.160630916518528e-08,
+            "fine_common8_max": 6.5429376916448234e-09,
+            "order": 6,
+            "ratio": 9.415695528302994,
+            "status": "INCONCLUSIVE_REFINEMENT"
+          },
+          {
+            "all_points_both_meshes_max": 8.031294884691675e-08,
+            "coarse_common8_max": 6.157037174547852e-08,
+            "fine_common8_max": 6.682388586920496e-09,
+            "order": 8,
+            "ratio": 9.213826904049071,
+            "status": "INCONCLUSIVE_REFINEMENT"
+          }
+        ],
+        "status": "DIAGNOSTIC_NOT_QUALIFIED",
+        "temporal_status": "FAIL"
+      },
+      "repaired_field_qualification": "NOT_DETERMINED_BY_CLOCK_COMPARISON"
+    },
+    {
+      "dataset": "oblique_a5_p3_r2",
+      "field_evidence_sha256": {
+        "udt_time_live_production_survey_2026-10-01/diagnosis/checks/assemble_all_refined.json": "f467eb0805159fad4c8f0e70f2c65cb1f8a42c7c4af3f67bad95c770f6c90939",
+        "udt_time_live_production_survey_2026-10-01/diagnosis/review_math/REPAIR_MATH.json": "b09082462a464d9ed365e003b6ba19b6ed8c61fcebf59818c5b344a313c22462",
+        "udt_time_live_production_survey_2026-10-01/diagnosis/review_math/REPAIR_RESULT_REVIEW.md": "9bd22b8d694902317a9036a232eea9f8298bfb37dee5d5dd381fcf8183314d25",
+        "udt_time_live_production_survey_2026-10-01/diagnosis/review_math/REPAIR_RESULT_SUMMARY.json": "9e9b4756ea14e04c1acec9b693e228547ec78a87c287ebaa8922b6e291346557",
+        "udt_time_live_production_survey_2026-10-01/diagnosis/review_math/all_refined_math_run.json": "b04eabde6b0885ee3cdbbfec0f6c84f94d72140e7df6e6780124d59df96b59c6",
+        "udt_time_live_production_survey_2026-10-01/diagnosis/review_runtime/REPAIR_OPERATIONS.json": "32912a25c577b7889fc885da724ea2498af768b75840f40da09badd1d39dc09e"
+      },
+      "matched": [
+        {
+          "diagnostic": "PASS",
+          "max_logZ_difference": 1.387761433546686e-13,
+          "other": "oblique_a5_p3_r2_n24_quarter",
+          "reference": "oblique_a5_p3_r2_n24_half"
+        },
+        {
+          "diagnostic": "PASS",
+          "max_logZ_difference": 2.0760589428125975e-12,
+          "other": "oblique_a5_p3_r2_n32_half",
+          "reference": "oblique_a5_p3_r2_n24_half"
+        }
+      ],
+      "original_field_qualification": "UNQUALIFIED",
+      "original_numerical_gate": {
+        "dataset": "oblique_a5_p3_r2",
+        "final_time_refinement": {
+          "g": 2.9474183094180262e-08,
+          "v": 1.8515672195462685e-07
+        },
+        "original_equations": {
+          "oblique_a5_p3_r2_n24": "PASS",
+          "oblique_a5_p3_r2_n24_half": "PASS",
+          "oblique_a5_p3_r2_n32": "PASS"
+        },
+        "spatial": [
+          {
+            "all_points_both_meshes_max": 1.0110695752851839e-07,
+            "coarse_common8_max": 5.970957039913571e-08,
+            "fine_common8_max": 6.12944217603939e-09,
+            "order": 6,
+            "ratio": 9.74143628151783,
+            "status": "INCONCLUSIVE_REFINEMENT"
+          },
+          {
+            "all_points_both_meshes_max": 1.011929416927515e-07,
+            "coarse_common8_max": 5.977560779690805e-08,
+            "fine_common8_max": 6.2332664030329e-09,
+            "order": 8,
+            "ratio": 9.589772670043947,
+            "status": "INCONCLUSIVE_REFINEMENT"
+          }
+        ],
+        "status": "DIAGNOSTIC_NOT_QUALIFIED",
+        "temporal_status": "PASS"
+      },
+      "repaired_field_qualification": "NOT_DETERMINED_BY_CLOCK_COMPARISON"
+    }
+  ],
+  "machine_diagnostic": "PASS",
+  "original_anchor_sha256": {
+    "axial_a5_n24_half": "f0e5d54aea5e4c02d581b07d4cca985ea8717f2e2482df4be0bc8a3ca4a1732c",
+    "oblique_a5_p0_r0_n24_half": "5351775c618e6eb425cc7dd70fa4df24551c4247ffe511024c993bd321caf0cb",
+    "oblique_a5_p0_r1_n24_half": "310388864bfec4375637b1166c111ab4ac5be304981530f5ec7586d2cf620b7a",
+    "oblique_a5_p0_r2_n24_half": "7dda8faaeb9039581e97f7047093a60ed8fcbd924e2ff702493d15c269477f9d",
+    "oblique_a5_p1_r0_n24_half": "ee062b3be59085c5309adbdc62e310b0f786f8216cd95e84318156d079bdc1c5",
+    "oblique_a5_p1_r1_n24_half": "aacf7fce2ff5d8c7538f222685e2393faf9ffe8a82c3fe3498968f69cd183000",
+    "oblique_a5_p1_r2_n24_half": "471a1e3c1230a07b67c0e70e99a3c00831971205438177704f170c7a9b2c0701",
+    "oblique_a5_p2_r0_n24_half": "902a5e33f672600a9585f688e130e2141e3c9680e4d6ece8cffd3ae938e02440",
+    "oblique_a5_p2_r1_n24_half": "ae3dcf2f49d6ac35c06251def9535b9cf88116a3be130adc7bdef876461c6aa0",
+    "oblique_a5_p2_r2_n24_half": "405c1e739819c4d33f821372c3ad14add6611f45c9851297225eacd9bd863bab",
+    "oblique_a5_p3_r0_n24_half": "0c43f4af628da844f48bf04bf59fec72c75b8dd2c373550398d6e0f8880fe3d7",
+    "oblique_a5_p3_r1_n24_half": "269a90c05b971205d980ce5acf39fb3c781583afaff25a7518e1baecc071acac",
+    "oblique_a5_p3_r2_n24_half": "ddbd6921a5d4f383e5eab0e069c584bdcdba6895b5e124169e825f6ad66f8716"
+  },
+  "refined_assembly_sha256": {
+    "axial_a5_n24_quarter": "a4e3823f1947677f6663355676d9acaa243e4949bc1634590fa919ae91d5ecdc",
+    "axial_a5_n32_half": "a0fe5bff29338420ed5a1dd43111525992652beb435ba41ff642d4c46ad457e4",
+    "oblique_a5_p0_r0_n24_quarter": "be3b510206a79195dbceb3dcfb6472114c8b6dd8505c593e5b580fe8f8aad924",
+    "oblique_a5_p0_r0_n32_half": "188e4e7fb67a0dff07cda4c1786c251005744eb7035b9bad9831f8fc5fc78862",
+    "oblique_a5_p0_r1_n24_quarter": "89459f2b026c1c3d0f7bd4492a5b61301876c3df02fddfd5cb93dbf594105319",
+    "oblique_a5_p0_r1_n32_half": "5a1fb994836d8a50d3d2d1286239e01439ce0217d8ef69e608cd7b9d52f524a4",
+    "oblique_a5_p0_r2_n24_quarter": "7232f95d42cbf60c6dbcf56d25f458de40a19b1e1a5d5b55571394db71e0102c",
+    "oblique_a5_p0_r2_n32_half": "7d91c4ce9f4ae932868755e9ad3f705fd7a71d523c2a9a997cdb8ac5e633295f",
+    "oblique_a5_p1_r0_n24_quarter": "ab76b4372ff68758690656843c05d4cf3ef318a6757c9853354db7c60ae4c572",
+    "oblique_a5_p1_r0_n32_half": "40f9cb8c66e2d68b3f60cbe7f1cfd7b9da9112a509cd89b30b4bf161fe8bcb2c",
+    "oblique_a5_p1_r1_n24_quarter": "c37ab8f47711c28963bc98651f8e8090a557e314ffa999d8f40fc57fdb74dda4",
+    "oblique_a5_p1_r1_n32_half": "9a5216587f89d2708f0c47de04d80bb0271b985d1ed3503f2d3def55a63dc405",
+    "oblique_a5_p1_r2_n24_quarter": "a835e4242f7bfe3babddecf791503f16674cfcf2a0dedb506e50c2285ba2fa9a",
+    "oblique_a5_p1_r2_n32_half": "1cf7b17d1c338884f1993f2ac12803e18cfdfcd1dc49a40bbaba0080af668b86",
+    "oblique_a5_p2_r0_n24_quarter": "48f7ac4746450f165015ae98854fd710de3c79c1538b4bcc0ea990e7c8a3dfe6",
+    "oblique_a5_p2_r0_n32_half": "cf726decb044334c970109dadce5c50903504c07079423deca83c7b91d381fb4",
+    "oblique_a5_p2_r1_n24_quarter": "205477216bf75daefc6d51e8ff6449b30161519fa5b6a71109df3655da17c7a1",
+    "oblique_a5_p2_r1_n32_half": "926c978242701d0ff343b86a6e53652d57e96d890b0cd0653a8ec23b15254684",
+    "oblique_a5_p2_r2_n24_quarter": "d36bb8c147128222473faf1f4a1b1e568c76f729a1d207ffc3219bfb97a334f8",
+    "oblique_a5_p2_r2_n32_half": "35100f1f2d52bbb412b0c3290991298e1e0afadd8b06d5f7fb4df8c42a7671e6",
+    "oblique_a5_p3_r0_n24_quarter": "1593b6e9207af1b538cb452225955ea9e7389443981e51d9234a9fbc0b94c1fb",
+    "oblique_a5_p3_r0_n32_half": "11d90587a1acb0ebf3586fd80fd666341f37fa379bf5104a0c74405b637a1d41",
+    "oblique_a5_p3_r1_n24_quarter": "f8aa135e24436e04b185296d1d442a5d33fd94c64e3280a0549f39b08f32a8c8",
+    "oblique_a5_p3_r1_n32_half": "57d791b4190d3b47795d748b2e59fa45d1f537d2cd6e017814c1b8ddaec7e667",
+    "oblique_a5_p3_r2_n24_quarter": "645bd20a843b6c7faf7f777d34720c65bc61b755941193fcdd14a84098df5523",
+    "oblique_a5_p3_r2_n32_half": "19952d504eb1e9d177692dd878f1b4560ff1b873024b4353188c0e4450d3ceea"
+  },
+  "refined_output_sha256": {
+    "axial_a5_n24_quarter": "436289e9cbceba24dbd1f93edab2a609267ebf39171790712a4a0d3848c9293a",
+    "axial_a5_n32_half": "871a19bf758bbdf84b5869175f263e7cb25a06d491b3dcbf8d3182c8793512c8",
+    "oblique_a5_p0_r0_n24_quarter": "0c4f89c71b245e0b893a354601be6354b8464eb7f1c5b8ba49de553951d2f713",
+    "oblique_a5_p0_r0_n32_half": "16d3b821c930fb6b57d4e0660a3f25e042742fd3b02d4edd77fef0e2f4960632",
+    "oblique_a5_p0_r1_n24_quarter": "866fcec79a062be56e310cdad9bc9f11a30a76032b5d6deafd21efbbd690a366",
+    "oblique_a5_p0_r1_n32_half": "a967e72961aa79088b9c923db4d19b0ac72f6bb2b0514fd9df70cadd60fd6e72",
+    "oblique_a5_p0_r2_n24_quarter": "a95cf27414958ea5ea2e86104dfb5bf6d167784a86456ff8ed69a9efb6aa992f",
+    "oblique_a5_p0_r2_n32_half": "a2c15709edfafce324c86f7469f995f376d3c78642dfc6a100b5c07344d4e14e",
+    "oblique_a5_p1_r0_n24_quarter": "4e8ed6722184a03117bfcb45fc4233104d850f32c32b010f5ddf03b729983bff",
+    "oblique_a5_p1_r0_n32_half": "2a75b157425e5bb38bd3e651aa2f859f64fe8a1505c7928ed5a7aaf8f92f1ae1",
+    "oblique_a5_p1_r1_n24_quarter": "5c02bb7353e436571f1b4ec233bfc8fa8887fabf4e978a508ffdb851276f69e9",
+    "oblique_a5_p1_r1_n32_half": "b42b34ffb0c0f97fc629dceab0c3f27efd1185456067ed74751947dd428a50ac",
+    "oblique_a5_p1_r2_n24_quarter": "5bb4a2e03610718178843cca4573997f2a7a0eadd2d5c879a4a4d04db8916d56",
+    "oblique_a5_p1_r2_n32_half": "735f8c4fc8d82fa3fc130bc1cf433f20de3ddfd52d2a33c8074a10337537acf2",
+    "oblique_a5_p2_r0_n24_quarter": "eb608d8548c6ec22f048a1dded0cb25567968b28ed6624836bbb793868dc1464",
+    "oblique_a5_p2_r0_n32_half": "4217c4ac07e498d95a6167915e75ec8aaefac75a6d47b38938542d783f1c6aba",
+    "oblique_a5_p2_r1_n24_quarter": "52e8a28b813bd1c49eba4e237017ef12ff24dbd5d2ce9544d75ef772a451ab6f",
+    "oblique_a5_p2_r1_n32_half": "b14ee89721f46a4cf61d8c8f162fdf15091f659428148bbf201e66576aeeed4c",
+    "oblique_a5_p2_r2_n24_quarter": "83028dfc46e9bb569492b603516a84c5874b4820c3228513aeda1eff732f5a5c",
+    "oblique_a5_p2_r2_n32_half": "cbcd4b586cd81c990411a46832adbac293bc6110ba534415c16cac12c00481ed",
+    "oblique_a5_p3_r0_n24_quarter": "b1c8f932aa7c0be596a8240ed10e93b68944c052162f7c62ab3b8361b8bd0f25",
+    "oblique_a5_p3_r0_n32_half": "f9c16131e6311f3ed298f48f1334473d777cf17df00c57e0fdb43110c14a3682",
+    "oblique_a5_p3_r1_n24_quarter": "6d8d5e8726ff6947617fd7b477c8d35e45444394ba55783378c9599c7e664a00",
+    "oblique_a5_p3_r1_n32_half": "47604a5b72922ade12402683ea5d1b107d8af0cacddc115d9878e7c165b3909f",
+    "oblique_a5_p3_r2_n24_quarter": "832f88f49f865fb735d26ce12ad57b9bc32cdc0502510f7b35aaf6c30a63aead",
+    "oblique_a5_p3_r2_n32_half": "9e6cc38a85ef388bc5e5bc0c6edfe7ee71f6b502f2230c373c3ff4ecbc401717"
+  },
+  "scope": "26 refined producer queries compared against unchanged oldN24half anchors. Original30 Hamiltonian subset remains separate on original histories. All original13 field qualification failures retained; clock agreement cannot qualify fields. Same fields/interpolation mathematics, supplied clocks, no selected signs or gap-spanning rays.",
+  "status": "DIAGNOSTIC_CHARACTERIZATION_PENDING_ACTUAL_REVIEW"
+}

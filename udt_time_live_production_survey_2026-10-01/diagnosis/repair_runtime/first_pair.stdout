@@ -1,0 +1,3 @@
+{"case": "oblique_a5_p0_r0_n24_quarter", "returncode": 0, "seconds": 53.27804598904913, "used_bytes": 48205107392}
+{"case": "oblique_a5_p0_r0_n32_half", "returncode": 0, "seconds": 77.27716389100533, "used_bytes": 48384977051}
+{"status": "QUEUE_CHECKPOINT", "newly_completed": 2}

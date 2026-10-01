@@ -1,0 +1,28 @@
+{
+  "status": "CAMPAIGN_WINDOW_ASSEMBLY_COMPLETE",
+  "results": [
+    {
+      "case": "oblique_a5_p0_r0_n24_quarter",
+      "reused": false,
+      "record": "/home/udt-admin/udt_mass_codex/udt_time_live_production_survey_2026-10-01/diagnosis/repair_analysis/oblique_a5_p0_r0_n24_quarter/ASSEMBLY.json"
+    },
+    {
+      "case": "oblique_a5_p0_r0_n32_half",
+      "reused": false,
+      "record": "/home/udt-admin/udt_mass_codex/udt_time_live_production_survey_2026-10-01/diagnosis/repair_analysis/oblique_a5_p0_r0_n32_half/ASSEMBLY.json"
+    }
+  ],
+  "attempts": [
+    {
+      "case": "oblique_a5_p0_r0_n24_quarter",
+      "returncode": 0
+    },
+    {
+      "case": "oblique_a5_p0_r0_n32_half",
+      "returncode": 0
+    }
+  ],
+  "manifest_sha256": "2e40cd765113d30a52f6858c36054011046182b1c429ce0e9875df4577e63959",
+  "used_bytes": 48603365978,
+  "scope": "Completed cases only; failures retained, assembly is not numerical qualification"
+}

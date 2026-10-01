@@ -1,0 +1,391 @@
+{
+  "status": "PASS",
+  "source_sha256": "f61e6d8181ae5b4d0b3ade7cef75cacbf9c597bf1dcfea50b131c52a5d46ddb1",
+  "own_ricci_code_sha256": "e904ce22a96efa690fc5cf3a2d5ef7658704cde263747e29e3bc69ed6afca507",
+  "spatial_analytic_controls": {
+    "n": 16,
+    "offdiagonal_periodic_flat_pullback_error": 3.238251680692805e-14,
+    "curved_warped_metric_error": 5.134781488891349e-15,
+    "curved_ricci_max": 0.11111111111110628
+  },
+  "reused_ADM_controls": {
+    "status": "PASS",
+    "constant_seed": {
+      "shape": [
+        16,
+        16,
+        16,
+        3,
+        3
+      ],
+      "dtype": "float64",
+      "hamiltonian_abs_max": 0.0,
+      "momentum_abs_max_by_component": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scalar_curvature_abs_max": 0.0,
+      "trace_K_minmax": [
+        -1.0,
+        -1.0
+      ],
+      "spatial_metric_eigenvalue_minmax": [
+        1.0,
+        1.0
+      ],
+      "spatial_derivative_gram_eigenvalues": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "spatial_derivative_gram_rank": 0,
+      "gram_rank_scope": "excludes constant-coordinate translation symmetry only; not arbitrary Killing fields"
+    },
+    "analytic_conformal_R_error": 2.892130979148533e-14,
+    "analytic_isotropic_K_momentum_error": 5.967448757360216e-16,
+    "deliberate_invalid_K_caught": {
+      "shape": [
+        16,
+        16,
+        16,
+        3,
+        3
+      ],
+      "dtype": "float64",
+      "hamiltonian_abs_max": 0.026666666666666727,
+      "momentum_abs_max_by_component": [
+        0.0,
+        0.009999999999999815,
+        0.0
+      ],
+      "scalar_curvature_abs_max": 0.0,
+      "trace_K_minmax": [
+        -1.01,
+        -0.99
+      ],
+      "spatial_metric_eigenvalue_minmax": [
+        1.0,
+        1.0
+      ],
+      "spatial_derivative_gram_eigenvalues": [
+        0.0,
+        0.0,
+        2.777777777777766e-06
+      ],
+      "spatial_derivative_gram_rank": 1,
+      "gram_rank_scope": "excludes constant-coordinate translation symmetry only; not arbitrary Killing fields"
+    },
+    "numpy_version": "2.2.6",
+    "scope": "checker self-controls, not producer validation"
+  },
+  "saved_ADM_rows": [
+    {
+      "case": "axial_a5_n24_half",
+      "time": 2.5,
+      "binding": {
+        "history": "udt_time_live_production_survey_2026-10-01/production_analysis/axial_a5_n24_half/histories/axial_a5_n24_half_window2.npz",
+        "sha256": "02813b190afb451d4e62590708c600385ebb066312051c5ec5aa384a44ec5002",
+        "source_sha256": "46c19361e7c8cec197cf56f1250127f175d3b51f81a01bef750aa9e4d4b5b478",
+        "all9_checkpoint_arrays_replayed": true
+      },
+      "adm": {
+        "shape": [
+          24,
+          24,
+          24,
+          3,
+          3
+        ],
+        "dtype": "float64",
+        "hamiltonian_abs_max": 1.0984185783158296e-11,
+        "momentum_abs_max_by_component": [
+          3.733170023112464e-12,
+          2.0326919834834367e-11,
+          4.137000475263469e-12
+        ],
+        "scalar_curvature_abs_max": 0.03442619066325676,
+        "trace_K_minmax": [
+          -0.27907846975106576,
+          -0.18564071114970868
+        ],
+        "spatial_metric_eigenvalue_minmax": [
+          0.37700496903305697,
+          9.442769492885194
+        ],
+        "spatial_derivative_gram_eigenvalues": [
+          0.0073408472889864365,
+          0.03106369767073098,
+          0.04650393092252073
+        ],
+        "spatial_derivative_gram_rank": 3,
+        "gram_rank_scope": "excludes constant-coordinate translation symmetry only; not arbitrary Killing fields",
+        "harmonic_vector_abs_max": 1.1740664946365128e-11,
+        "harmonic_covector_abs_max": 9.009581969365854e-11,
+        "lapse_minmax": [
+          3.9864286375837406,
+          5.476864225421023
+        ],
+        "shift_abs_max": 0.2117558602421025,
+        "status": "PASS"
+      }
+    },
+    {
+      "case": "axial_a5_n32",
+      "time": 2.5,
+      "binding": {
+        "history": "udt_time_live_production_survey_2026-10-01/production_analysis/axial_a5_n32/histories/axial_a5_n32_window2.npz",
+        "sha256": "3a0b22ce489d407bcff123185abade7ccfee332547c752306f415f0454351ebb",
+        "source_sha256": "43c20c72b7795154d74a459444c4d5f4fbdd9f83c29cb593cfb9ba3774fa4361",
+        "all9_checkpoint_arrays_replayed": true
+      },
+      "adm": {
+        "shape": [
+          32,
+          32,
+          32,
+          3,
+          3
+        ],
+        "dtype": "float64",
+        "hamiltonian_abs_max": 5.84246540036304e-11,
+        "momentum_abs_max_by_component": [
+          2.0560849897655054e-11,
+          3.2536726785048486e-11,
+          6.396925957691257e-12
+        ],
+        "scalar_curvature_abs_max": 0.0347244506459306,
+        "trace_K_minmax": [
+          -0.2793568221620607,
+          -0.18526470987695243
+        ],
+        "spatial_metric_eigenvalue_minmax": [
+          0.3768415767299381,
+          9.451448106768023
+        ],
+        "spatial_derivative_gram_eigenvalues": [
+          0.007340847291021271,
+          0.031063697682885673,
+          0.04650393094214769
+        ],
+        "spatial_derivative_gram_rank": 3,
+        "gram_rank_scope": "excludes constant-coordinate translation symmetry only; not arbitrary Killing fields",
+        "harmonic_vector_abs_max": 4.594823657104467e-11,
+        "harmonic_covector_abs_max": 7.561742343398237e-10,
+        "lapse_minmax": [
+          3.983414648327515,
+          5.479932752482022
+        ],
+        "shift_abs_max": 0.2117423667550747,
+        "status": "PASS"
+      }
+    },
+    {
+      "case": "oblique_a5_p0_r2_n24_half",
+      "time": 2.5,
+      "binding": {
+        "history": "udt_time_live_production_survey_2026-10-01/production_analysis/oblique_a5_p0_r2_n24_half/histories/oblique_a5_p0_r2_n24_half_window2.npz",
+        "sha256": "08aef3d28c0748d213f147da44c6b3bf1fb04b201bdf0df6bed7cd6fde55ac02",
+        "source_sha256": "fca9dab8c8beb61d96fbc25161f791a4709ee7ca28a7c0157f2feb525d612418",
+        "all9_checkpoint_arrays_replayed": true
+      },
+      "adm": {
+        "shape": [
+          24,
+          24,
+          24,
+          3,
+          3
+        ],
+        "dtype": "float64",
+        "hamiltonian_abs_max": 2.387792186198112e-09,
+        "momentum_abs_max_by_component": [
+          2.568468160325712e-09,
+          3.9283447772920504e-09,
+          5.086199087334792e-09
+        ],
+        "scalar_curvature_abs_max": 0.03870056873329379,
+        "trace_K_minmax": [
+          -0.3088657604319819,
+          -0.17693893793763155
+        ],
+        "spatial_metric_eigenvalue_minmax": [
+          0.40005609263807823,
+          8.24570632529251
+        ],
+        "spatial_derivative_gram_eigenvalues": [
+          0.007937301781275804,
+          0.014738721012289506,
+          0.0492527887922075
+        ],
+        "spatial_derivative_gram_rank": 3,
+        "gram_rank_scope": "excludes constant-coordinate translation symmetry only; not arbitrary Killing fields",
+        "harmonic_vector_abs_max": 4.170318267375753e-10,
+        "harmonic_covector_abs_max": 1.7137128383026834e-09,
+        "lapse_minmax": [
+          4.265698710762832,
+          5.107615401871473
+        ],
+        "shift_abs_max": 0.23033328192378646,
+        "status": "PASS"
+      }
+    },
+    {
+      "case": "oblique_a5_p0_r2_n32",
+      "time": 2.5,
+      "binding": {
+        "history": "udt_time_live_production_survey_2026-10-01/production_analysis/oblique_a5_p0_r2_n32/histories/oblique_a5_p0_r2_n32_window2.npz",
+        "sha256": "eb9c96688ba6645711631df7534f9e2cd85743b6977e332dc5f7ddae5e558188",
+        "source_sha256": "4e8c50768e37286187df5317c5b190419c904cd73c1246e717bdac06035041f7",
+        "all9_checkpoint_arrays_replayed": true
+      },
+      "adm": {
+        "shape": [
+          32,
+          32,
+          32,
+          3,
+          3
+        ],
+        "dtype": "float64",
+        "hamiltonian_abs_max": 2.5479710702436265e-10,
+        "momentum_abs_max_by_component": [
+          6.235654906924099e-11,
+          1.946642846917257e-10,
+          1.5328470784337078e-10
+        ],
+        "scalar_curvature_abs_max": 0.038916492783732826,
+        "trace_K_minmax": [
+          -0.3090796547991055,
+          -0.1772611469407952
+        ],
+        "spatial_metric_eigenvalue_minmax": [
+          0.4000751446644767,
+          8.247081404223879
+        ],
+        "spatial_derivative_gram_eigenvalues": [
+          0.007937301787439493,
+          0.014738721017783557,
+          0.049252788813088824
+        ],
+        "spatial_derivative_gram_rank": 3,
+        "gram_rank_scope": "excludes constant-coordinate translation symmetry only; not arbitrary Killing fields",
+        "harmonic_vector_abs_max": 6.470114278573638e-11,
+        "harmonic_covector_abs_max": 1.2914580516110163e-09,
+        "lapse_minmax": [
+          4.2656137673513905,
+          5.1081966854698715
+        ],
+        "shift_abs_max": 0.230405880732224,
+        "status": "PASS"
+      }
+    },
+    {
+      "case": "oblique_a5_p3_r0_n24_half",
+      "time": 2.5,
+      "binding": {
+        "history": "udt_time_live_production_survey_2026-10-01/production_analysis/oblique_a5_p3_r0_n24_half/histories/oblique_a5_p3_r0_n24_half_window2.npz",
+        "sha256": "72c8af6622d53a2ec6bd98328eab55a134551d94a0ff4dc598ea7295909f7796",
+        "source_sha256": "7eac68699d0c0d94f20e36127fdfa82f6d9a33ee8ba3c78e896440ae20318894",
+        "all9_checkpoint_arrays_replayed": true
+      },
+      "adm": {
+        "shape": [
+          24,
+          24,
+          24,
+          3,
+          3
+        ],
+        "dtype": "float64",
+        "hamiltonian_abs_max": 4.1447242998815526e-09,
+        "momentum_abs_max_by_component": [
+          5.643990648646936e-09,
+          4.6060218694687904e-09,
+          4.750464315428533e-09
+        ],
+        "scalar_curvature_abs_max": 0.04651556156190172,
+        "trace_K_minmax": [
+          -0.31328230325331663,
+          -0.09933797228512589
+        ],
+        "spatial_metric_eigenvalue_minmax": [
+          0.37349943773085714,
+          8.386621093519054
+        ],
+        "spatial_derivative_gram_eigenvalues": [
+          0.010631784982304713,
+          0.01509939041808341,
+          0.054171770645376205
+        ],
+        "spatial_derivative_gram_rank": 3,
+        "gram_rank_scope": "excludes constant-coordinate translation symmetry only; not arbitrary Killing fields",
+        "harmonic_vector_abs_max": 3.9219711847730255e-10,
+        "harmonic_covector_abs_max": 2.2124273524326554e-09,
+        "lapse_minmax": [
+          3.9872594365669403,
+          5.342167898904104
+        ],
+        "shift_abs_max": 0.3144156215686324,
+        "status": "PASS"
+      }
+    },
+    {
+      "case": "oblique_a5_p3_r0_n32",
+      "time": 2.5,
+      "binding": {
+        "history": "udt_time_live_production_survey_2026-10-01/production_analysis/oblique_a5_p3_r0_n32/histories/oblique_a5_p3_r0_n32_window2.npz",
+        "sha256": "6cf04c93825bfe2eac26f679478d61a95039c29e0f86101b21119f9469df0d0f",
+        "source_sha256": "222e37007b83487988a14b2cd0bd0459537a6584eb86d8d3af186be2e6c449ad",
+        "all9_checkpoint_arrays_replayed": true
+      },
+      "adm": {
+        "shape": [
+          32,
+          32,
+          32,
+          3,
+          3
+        ],
+        "dtype": "float64",
+        "hamiltonian_abs_max": 3.3973931307107463e-10,
+        "momentum_abs_max_by_component": [
+          8.810800223094106e-11,
+          2.0316138615167345e-10,
+          2.260573976273217e-10
+        ],
+        "scalar_curvature_abs_max": 0.04666888887088076,
+        "trace_K_minmax": [
+          -0.3133556708523871,
+          -0.09934052572137819
+        ],
+        "spatial_metric_eigenvalue_minmax": [
+          0.3732727537042561,
+          8.385140350001633
+        ],
+        "spatial_derivative_gram_eigenvalues": [
+          0.010631784990197795,
+          0.015099390424835093,
+          0.05417177067554576
+        ],
+        "spatial_derivative_gram_rank": 3,
+        "gram_rank_scope": "excludes constant-coordinate translation symmetry only; not arbitrary Killing fields",
+        "harmonic_vector_abs_max": 9.122961323506404e-11,
+        "harmonic_covector_abs_max": 1.6904864175160128e-09,
+        "lapse_minmax": [
+          3.983980572988036,
+          5.345455939750983
+        ],
+        "shift_abs_max": 0.31510281089413267,
+        "status": "PASS"
+      }
+    }
+  ],
+  "attribution": "Fresh execution of TDS/TPP independently authored ADM methods via unchanged TPS1 adapter; same implementation as original reports, therefore replay/regression, not a new independent ADM implementation.",
+  "method_sources": {
+    "udt_time_live_production_survey_2026-10-01/review/math/check_survey.py": "3f98e82cc46600b25b54ff4b38956280aa6683d852c9251bbfef242d52faf5f2",
+    "udt_time_live_production_preparation_2026-10-01/review/math/check_saved_data.py": "f70a57f419a908f62bff0d02243f9d2f9b2c5f4a55a695dc9a2493a524a33cfc",
+    "udt_three_spatial_smoke_2026-10-01/review/data/check_constraints.py": "f10e6e0b512a6f2078e71cb32b8972005356c2555fa25ef36832bdb20bc947fc",
+    "udt_three_spatial_smoke_2026-10-01/review/data/check_harmonic.py": "2be7d388f44bd7de631b45d4699a4b9dabf1c96b3fb650342cf200d0c019c7c9"
+  }
+}

@@ -1,0 +1,244 @@
+{
+  "status": "CAMPAIGN_WINDOW_ASSEMBLY_COMPLETE",
+  "results": [
+    {
+      "case": "oblique_a5_p0_r0_n24_quarter",
+      "reused": true,
+      "record": "/home/udt-admin/udt_mass_codex/udt_time_live_production_survey_2026-10-01/diagnosis/repair_analysis/oblique_a5_p0_r0_n24_quarter/ASSEMBLY.json"
+    },
+    {
+      "case": "oblique_a5_p0_r0_n32_half",
+      "reused": true,
+      "record": "/home/udt-admin/udt_mass_codex/udt_time_live_production_survey_2026-10-01/diagnosis/repair_analysis/oblique_a5_p0_r0_n32_half/ASSEMBLY.json"
+    },
+    {
+      "case": "axial_a5_n24_quarter",
+      "reused": false,
+      "record": "/home/udt-admin/udt_mass_codex/udt_time_live_production_survey_2026-10-01/diagnosis/repair_analysis/axial_a5_n24_quarter/ASSEMBLY.json"
+    },
+    {
+      "case": "axial_a5_n32_half",
+      "reused": false,
+      "record": "/home/udt-admin/udt_mass_codex/udt_time_live_production_survey_2026-10-01/diagnosis/repair_analysis/axial_a5_n32_half/ASSEMBLY.json"
+    },
+    {
+      "case": "oblique_a5_p0_r1_n24_quarter",
+      "reused": false,
+      "record": "/home/udt-admin/udt_mass_codex/udt_time_live_production_survey_2026-10-01/diagnosis/repair_analysis/oblique_a5_p0_r1_n24_quarter/ASSEMBLY.json"
+    },
+    {
+      "case": "oblique_a5_p0_r1_n32_half",
+      "reused": false,
+      "record": "/home/udt-admin/udt_mass_codex/udt_time_live_production_survey_2026-10-01/diagnosis/repair_analysis/oblique_a5_p0_r1_n32_half/ASSEMBLY.json"
+    },
+    {
+      "case": "oblique_a5_p0_r2_n24_quarter",
+      "reused": false,
+      "record": "/home/udt-admin/udt_mass_codex/udt_time_live_production_survey_2026-10-01/diagnosis/repair_analysis/oblique_a5_p0_r2_n24_quarter/ASSEMBLY.json"
+    },
+    {
+      "case": "oblique_a5_p0_r2_n32_half",
+      "reused": false,
+      "record": "/home/udt-admin/udt_mass_codex/udt_time_live_production_survey_2026-10-01/diagnosis/repair_analysis/oblique_a5_p0_r2_n32_half/ASSEMBLY.json"
+    },
+    {
+      "case": "oblique_a5_p1_r0_n24_quarter",
+      "reused": false,
+      "record": "/home/udt-admin/udt_mass_codex/udt_time_live_production_survey_2026-10-01/diagnosis/repair_analysis/oblique_a5_p1_r0_n24_quarter/ASSEMBLY.json"
+    },
+    {
+      "case": "oblique_a5_p1_r0_n32_half",
+      "reused": false,
+      "record": "/home/udt-admin/udt_mass_codex/udt_time_live_production_survey_2026-10-01/diagnosis/repair_analysis/oblique_a5_p1_r0_n32_half/ASSEMBLY.json"
+    },
+    {
+      "case": "oblique_a5_p1_r1_n24_quarter",
+      "reused": false,
+      "record": "/home/udt-admin/udt_mass_codex/udt_time_live_production_survey_2026-10-01/diagnosis/repair_analysis/oblique_a5_p1_r1_n24_quarter/ASSEMBLY.json"
+    },
+    {
+      "case": "oblique_a5_p1_r1_n32_half",
+      "reused": false,
+      "record": "/home/udt-admin/udt_mass_codex/udt_time_live_production_survey_2026-10-01/diagnosis/repair_analysis/oblique_a5_p1_r1_n32_half/ASSEMBLY.json"
+    },
+    {
+      "case": "oblique_a5_p1_r2_n24_quarter",
+      "reused": false,
+      "record": "/home/udt-admin/udt_mass_codex/udt_time_live_production_survey_2026-10-01/diagnosis/repair_analysis/oblique_a5_p1_r2_n24_quarter/ASSEMBLY.json"
+    },
+    {
+      "case": "oblique_a5_p1_r2_n32_half",
+      "reused": false,
+      "record": "/home/udt-admin/udt_mass_codex/udt_time_live_production_survey_2026-10-01/diagnosis/repair_analysis/oblique_a5_p1_r2_n32_half/ASSEMBLY.json"
+    },
+    {
+      "case": "oblique_a5_p2_r0_n24_quarter",
+      "reused": false,
+      "record": "/home/udt-admin/udt_mass_codex/udt_time_live_production_survey_2026-10-01/diagnosis/repair_analysis/oblique_a5_p2_r0_n24_quarter/ASSEMBLY.json"
+    },
+    {
+      "case": "oblique_a5_p2_r0_n32_half",
+      "reused": false,
+      "record": "/home/udt-admin/udt_mass_codex/udt_time_live_production_survey_2026-10-01/diagnosis/repair_analysis/oblique_a5_p2_r0_n32_half/ASSEMBLY.json"
+    },
+    {
+      "case": "oblique_a5_p2_r1_n24_quarter",
+      "reused": false,
+      "record": "/home/udt-admin/udt_mass_codex/udt_time_live_production_survey_2026-10-01/diagnosis/repair_analysis/oblique_a5_p2_r1_n24_quarter/ASSEMBLY.json"
+    },
+    {
+      "case": "oblique_a5_p2_r1_n32_half",
+      "reused": false,
+      "record": "/home/udt-admin/udt_mass_codex/udt_time_live_production_survey_2026-10-01/diagnosis/repair_analysis/oblique_a5_p2_r1_n32_half/ASSEMBLY.json"
+    },
+    {
+      "case": "oblique_a5_p2_r2_n24_quarter",
+      "reused": false,
+      "record": "/home/udt-admin/udt_mass_codex/udt_time_live_production_survey_2026-10-01/diagnosis/repair_analysis/oblique_a5_p2_r2_n24_quarter/ASSEMBLY.json"
+    },
+    {
+      "case": "oblique_a5_p2_r2_n32_half",
+      "reused": false,
+      "record": "/home/udt-admin/udt_mass_codex/udt_time_live_production_survey_2026-10-01/diagnosis/repair_analysis/oblique_a5_p2_r2_n32_half/ASSEMBLY.json"
+    },
+    {
+      "case": "oblique_a5_p3_r0_n24_quarter",
+      "reused": false,
+      "record": "/home/udt-admin/udt_mass_codex/udt_time_live_production_survey_2026-10-01/diagnosis/repair_analysis/oblique_a5_p3_r0_n24_quarter/ASSEMBLY.json"
+    },
+    {
+      "case": "oblique_a5_p3_r0_n32_half",
+      "reused": false,
+      "record": "/home/udt-admin/udt_mass_codex/udt_time_live_production_survey_2026-10-01/diagnosis/repair_analysis/oblique_a5_p3_r0_n32_half/ASSEMBLY.json"
+    },
+    {
+      "case": "oblique_a5_p3_r1_n24_quarter",
+      "reused": false,
+      "record": "/home/udt-admin/udt_mass_codex/udt_time_live_production_survey_2026-10-01/diagnosis/repair_analysis/oblique_a5_p3_r1_n24_quarter/ASSEMBLY.json"
+    },
+    {
+      "case": "oblique_a5_p3_r1_n32_half",
+      "reused": false,
+      "record": "/home/udt-admin/udt_mass_codex/udt_time_live_production_survey_2026-10-01/diagnosis/repair_analysis/oblique_a5_p3_r1_n32_half/ASSEMBLY.json"
+    },
+    {
+      "case": "oblique_a5_p3_r2_n24_quarter",
+      "reused": false,
+      "record": "/home/udt-admin/udt_mass_codex/udt_time_live_production_survey_2026-10-01/diagnosis/repair_analysis/oblique_a5_p3_r2_n24_quarter/ASSEMBLY.json"
+    },
+    {
+      "case": "oblique_a5_p3_r2_n32_half",
+      "reused": false,
+      "record": "/home/udt-admin/udt_mass_codex/udt_time_live_production_survey_2026-10-01/diagnosis/repair_analysis/oblique_a5_p3_r2_n32_half/ASSEMBLY.json"
+    }
+  ],
+  "attempts": [
+    {
+      "case": "oblique_a5_p0_r0_n24_quarter",
+      "returncode": 0
+    },
+    {
+      "case": "oblique_a5_p0_r0_n32_half",
+      "returncode": 0
+    },
+    {
+      "case": "axial_a5_n24_quarter",
+      "returncode": 0
+    },
+    {
+      "case": "axial_a5_n32_half",
+      "returncode": 0
+    },
+    {
+      "case": "oblique_a5_p0_r1_n24_quarter",
+      "returncode": 0
+    },
+    {
+      "case": "oblique_a5_p0_r1_n32_half",
+      "returncode": 0
+    },
+    {
+      "case": "oblique_a5_p0_r2_n24_quarter",
+      "returncode": 0
+    },
+    {
+      "case": "oblique_a5_p0_r2_n32_half",
+      "returncode": 0
+    },
+    {
+      "case": "oblique_a5_p1_r0_n24_quarter",
+      "returncode": 0
+    },
+    {
+      "case": "oblique_a5_p1_r0_n32_half",
+      "returncode": 0
+    },
+    {
+      "case": "oblique_a5_p1_r1_n24_quarter",
+      "returncode": 0
+    },
+    {
+      "case": "oblique_a5_p1_r1_n32_half",
+      "returncode": 0
+    },
+    {
+      "case": "oblique_a5_p1_r2_n24_quarter",
+      "returncode": 0
+    },
+    {
+      "case": "oblique_a5_p1_r2_n32_half",
+      "returncode": 0
+    },
+    {
+      "case": "oblique_a5_p2_r0_n24_quarter",
+      "returncode": 0
+    },
+    {
+      "case": "oblique_a5_p2_r0_n32_half",
+      "returncode": 0
+    },
+    {
+      "case": "oblique_a5_p2_r1_n24_quarter",
+      "returncode": 0
+    },
+    {
+      "case": "oblique_a5_p2_r1_n32_half",
+      "returncode": 0
+    },
+    {
+      "case": "oblique_a5_p2_r2_n24_quarter",
+      "returncode": 0
+    },
+    {
+      "case": "oblique_a5_p2_r2_n32_half",
+      "returncode": 0
+    },
+    {
+      "case": "oblique_a5_p3_r0_n24_quarter",
+      "returncode": 0
+    },
+    {
+      "case": "oblique_a5_p3_r0_n32_half",
+      "returncode": 0
+    },
+    {
+      "case": "oblique_a5_p3_r1_n24_quarter",
+      "returncode": 0
+    },
+    {
+      "case": "oblique_a5_p3_r1_n32_half",
+      "returncode": 0
+    },
+    {
+      "case": "oblique_a5_p3_r2_n24_quarter",
+      "returncode": 0
+    },
+    {
+      "case": "oblique_a5_p3_r2_n32_half",
+      "returncode": 0
+    }
+  ],
+  "manifest_sha256": "2e40cd765113d30a52f6858c36054011046182b1c429ce0e9875df4577e63959",
+  "used_bytes": 54243477503,
+  "scope": "Completed cases only; failures retained, assembly is not numerical qualification"
+}

@@ -1,0 +1,11 @@
+{
+  "case": "oblique_a1_p1_r2_n24_half",
+  "command": [
+    "/usr/bin/python3",
+    "/home/udt-admin/udt_mass_codex/udt_time_live_production_survey_2026-10-01/production_worker.py",
+    "/home/udt-admin/udt_mass_codex/udt_time_live_production_survey_2026-10-01/specs/production/oblique_a1_p1_r2_n24_half.json",
+    "/home/udt-admin/udt_mass_codex/udt_time_live_production_survey_2026-10-01/runs/production/oblique_a1_p1_r2_n24_half"
+  ],
+  "manifest_sha256": "237d0033935e8708a50429df77aea10adea43ced339a2aa0ed971a71d027bac7",
+  "wall_seconds_limit": null
+}

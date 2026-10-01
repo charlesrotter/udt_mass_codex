@@ -1,0 +1,1175 @@
+{
+  "attempts": [
+    {
+      "case": "axial_a0_n24",
+      "receipt_sha256": "9c7966b7bc9ae9e3556d5d218342e6a04e0e54d7f01ac7ffe4babb669f8bff68",
+      "returncode": 0
+    },
+    {
+      "case": "axial_a0_n24_half",
+      "receipt_sha256": "2fd8d59e2111c893d5557779b0b6e3cc3949160293f64b71c9bf1fe1d05bcf79",
+      "returncode": 0
+    },
+    {
+      "case": "axial_a0_n32",
+      "receipt_sha256": "f7368ec43de2242805d1983024c86443d323390f105acd1f9fafb3f8acb93dba",
+      "returncode": 0
+    },
+    {
+      "case": "oblique_a0_p0_r0_n24",
+      "receipt_sha256": "91c60ab14fd9ad7a3c4758962c16b18ffb8603ba06eac010a5adaeeaf040b709",
+      "returncode": 0
+    },
+    {
+      "case": "oblique_a0_p0_r0_n24_half",
+      "receipt_sha256": "6516bdd8d9957455802e7ad424cd101000857df6aed432bf037b6f07a07006a7",
+      "returncode": 0
+    },
+    {
+      "case": "oblique_a0_p0_r0_n32",
+      "receipt_sha256": "8ec80260d366a1eea91d08d75e6227d8d64f3c9c1a1ada76bab241782be330a5",
+      "returncode": 0
+    },
+    {
+      "case": "oblique_a0_p0_r1_n24",
+      "receipt_sha256": "879f1b483af2e77b34e08510f824980f3373671acc58112076bb8c84ff46a3b3",
+      "returncode": 0
+    },
+    {
+      "case": "oblique_a0_p0_r1_n24_half",
+      "receipt_sha256": "e6fd016e19a3181e9c1a470ebc4354cd54189011ba462fc341423ed8dd14c92a",
+      "returncode": 0
+    },
+    {
+      "case": "oblique_a0_p0_r1_n32",
+      "receipt_sha256": "42897787e7d6e6cdd4409141f31db4d57378710499b893a3000a90b7f16221f6",
+      "returncode": 0
+    },
+    {
+      "case": "oblique_a0_p0_r2_n24",
+      "receipt_sha256": "14e3b33ce02394a38de3b388e02bf820735812fbfca1b4e2f0e8561b7f1b53fc",
+      "returncode": 0
+    },
+    {
+      "case": "oblique_a0_p0_r2_n24_half",
+      "receipt_sha256": "da4e0686fda9490426b1a43a8f48d6c09e3a2b43a5f7c1b2737da1af824ae3c3",
+      "returncode": 0
+    },
+    {
+      "case": "oblique_a0_p0_r2_n32",
+      "receipt_sha256": "49f7e9953c87ee687ee51d7daa3fcd851ea56d3e8b2f205162f97fc3d0807a18",
+      "returncode": 0
+    },
+    {
+      "case": "oblique_a0_p1_r0_n24",
+      "receipt_sha256": "7778ed7a8e88a8e0a92f37269bd4ba0606a86bc7de8cd313aada83352bc9d730",
+      "returncode": 0
+    },
+    {
+      "case": "oblique_a0_p1_r0_n24_half",
+      "receipt_sha256": "a8a4387eb9cf75f96163bc4d96fd406a9ec2fba41d1b0199c7edfa1d1d451704",
+      "returncode": 0
+    },
+    {
+      "case": "oblique_a0_p1_r0_n32",
+      "receipt_sha256": "fed9d6e509e8c22317b29bd0a660a47a990d1a710f01c19ea0b10f08c2e740ea",
+      "returncode": 0
+    },
+    {
+      "case": "oblique_a0_p1_r1_n24",
+      "receipt_sha256": "25289036eacbbecf83ed6ea25e373c3e9ac7bc69867afd292e4b31fb677ad530",
+      "returncode": 0
+    },
+    {
+      "case": "oblique_a0_p1_r1_n24_half",
+      "receipt_sha256": "0aafdc630a0a4ee4fd405cf2006be553431f7b462a95ca614279e61b63d58c5d",
+      "returncode": 0
+    },
+    {
+      "case": "oblique_a0_p1_r1_n32",
+      "receipt_sha256": "23feb477a401f98d69ee1c77ba6e30a9effadbcd25c18e620e566cb3ad3b8897",
+      "returncode": 0
+    },
+    {
+      "case": "oblique_a0_p1_r2_n24",
+      "receipt_sha256": "88bdb8b514e8adb0e4e237e7602b1e0ec2a673790282387d8e98cb4a9d41bfcb",
+      "returncode": 0
+    },
+    {
+      "case": "oblique_a0_p1_r2_n24_half",
+      "receipt_sha256": "904cda437f4b4778101881049e9d02d8587920d391e083484f0e1ed24966af1b",
+      "returncode": 0
+    },
+    {
+      "case": "oblique_a0_p1_r2_n32",
+      "receipt_sha256": "9f6b0da07a0e1e232e40843e6ecd5a4aeff66cd2f6452b019f6421220d530cf1",
+      "returncode": 0
+    },
+    {
+      "case": "oblique_a0_p2_r0_n24",
+      "receipt_sha256": "38f10fda20c56af77571efe2be1da292539a2c98d3f997e235428a84b22a002f",
+      "returncode": 0
+    },
+    {
+      "case": "oblique_a0_p2_r0_n24_half",
+      "receipt_sha256": "7928fedb4c82065f083bb491100bdc431e31849ec2fa9f4953434bac8f12c377",
+      "returncode": 0
+    },
+    {
+      "case": "oblique_a0_p2_r0_n32",
+      "receipt_sha256": "1cc0dbaf0676c2d66a5b068463b90324089117e73fcdf5077e2b37f3f40d1448",
+      "returncode": 0
+    },
+    {
+      "case": "oblique_a0_p2_r1_n24",
+      "receipt_sha256": "b0ba532719d6017012352fd51cbcc7e38c03317c7f660a3e03b8f58bed216ecd",
+      "returncode": 0
+    },
+    {
+      "case": "oblique_a0_p2_r1_n24_half",
+      "receipt_sha256": "443b275619d1843ad4d11e6d0c6a4142f814dd1b783c339e13399da55135f8f5",
+      "returncode": 0
+    },
+    {
+      "case": "oblique_a0_p2_r1_n32",
+      "receipt_sha256": "4e3e4162edb12e3dd822122471b72a5823e9d814977cd61020c85b035f13242c",
+      "returncode": 0
+    },
+    {
+      "case": "oblique_a0_p2_r2_n24",
+      "receipt_sha256": "25f96440a9ec90f8e870547477cd8dd0194295b90de5ceb9792d91f00c1e6afc",
+      "returncode": 0
+    },
+    {
+      "case": "oblique_a0_p2_r2_n24_half",
+      "receipt_sha256": "62e88216b13f243f1567c3a8695f495e29644f6b0f24a44c1ef55d7acae17947",
+      "returncode": 0
+    },
+    {
+      "case": "oblique_a0_p2_r2_n32",
+      "receipt_sha256": "86b09dadfd77d2b697812ba0065112bbc1c16aac02c88dfffc3dcefb8ab5f437",
+      "returncode": 0
+    },
+    {
+      "case": "oblique_a0_p3_r0_n24",
+      "receipt_sha256": "278385e4bda15538b4d688b91aadd25b55d91cf39e2172cac9dc5650fbd8c1c3",
+      "returncode": 0
+    },
+    {
+      "case": "oblique_a0_p3_r0_n24_half",
+      "receipt_sha256": "a06db16e9f8152b1efb3bb452d284d56d8678cfec2cc6cb4cfcda7022544e413",
+      "returncode": 0
+    },
+    {
+      "case": "oblique_a0_p3_r0_n32",
+      "receipt_sha256": "786dc3831af3f8f085f84bb963c778dfca65c4a4ddb84c0ad5023ff3a722a5fc",
+      "returncode": 0
+    },
+    {
+      "case": "oblique_a0_p3_r1_n24",
+      "receipt_sha256": "04166dc7ea4e15d444ff4d7a220d1ac2c1856d162ed3b4ab69094992647c63f0",
+      "returncode": 0
+    },
+    {
+      "case": "oblique_a0_p3_r1_n24_half",
+      "receipt_sha256": "6c6637b27f3008c8a19c05a4a6f313e5ae3c756a43decb7c65ecae841c24752f",
+      "returncode": 0
+    },
+    {
+      "case": "oblique_a0_p3_r1_n32",
+      "receipt_sha256": "a3a136e94abe1d0b7202c0d1651bbec103cdcae0a8ac3c170c0deef9d7f7c04f",
+      "returncode": 0
+    },
+    {
+      "case": "oblique_a0_p3_r2_n24",
+      "receipt_sha256": "02ddb33a22589a0df0dbab8d6fa580b71ab0d560c86f88204de22f0ffc010161",
+      "returncode": 0
+    },
+    {
+      "case": "oblique_a0_p3_r2_n24_half",
+      "receipt_sha256": "2a4c24bc75fe767f62adca59891dc41c955a9d0d342cf4454a1ae34a83ed16b0",
+      "returncode": 0
+    },
+    {
+      "case": "oblique_a0_p3_r2_n32",
+      "receipt_sha256": "391068484c1091822c92badbe851d8ca1de1d9a70e88f406f5bc07ef36ad3d44",
+      "returncode": 0
+    },
+    {
+      "case": "axial_a1_n24",
+      "receipt_sha256": "afc2388c6b7b16c3d6b3fc3ed2cbdd393d309bba44626abed3e503ce6be83c98",
+      "returncode": 0
+    },
+    {
+      "case": "axial_a1_n24_half",
+      "receipt_sha256": "c2ec882edfdddb1a7eabc5fcd47752baddb1e0849a1cac72cf39cd1e9e6652dc",
+      "returncode": 0
+    },
+    {
+      "case": "axial_a1_n32",
+      "receipt_sha256": "757283364aa3b51f97e75c65383265020756c43ad52333fb7e216319a7aad422",
+      "returncode": 0
+    },
+    {
+      "case": "oblique_a1_p0_r0_n24",
+      "receipt_sha256": "ffe21c123713687a42d983f91627589792dbf928682d0ed1d1212652902be67a",
+      "returncode": 0
+    },
+    {
+      "case": "oblique_a1_p0_r0_n24_half",
+      "receipt_sha256": "e2f834eb5cddd54d63d18556c53bc6b4879435daf3a5678d508072937ebcbd22",
+      "returncode": 0
+    },
+    {
+      "case": "oblique_a1_p0_r0_n32",
+      "receipt_sha256": "e25aa60d0d966d68f343afa7b6160b444e3705342c1124eaf1237cf79ab582fa",
+      "returncode": 0
+    },
+    {
+      "case": "oblique_a1_p0_r1_n24",
+      "receipt_sha256": "739b3dd4ee57d5e56461e2d82b02cd05ce26893c5afc0cc8a6b5a4a4db66f273",
+      "returncode": 0
+    },
+    {
+      "case": "oblique_a1_p0_r1_n24_half",
+      "receipt_sha256": "931924d856fa0b638e05259f19c149030eea25b56091be475da3f778e81796a0",
+      "returncode": 0
+    },
+    {
+      "case": "oblique_a1_p0_r1_n32",
+      "receipt_sha256": "520f157ba73c607c41748e5b3558cfca760d80b0a4ee7c06968c34cc36d1ed03",
+      "returncode": 0
+    },
+    {
+      "case": "oblique_a1_p0_r2_n24",
+      "receipt_sha256": "d82852de28598a69c6ae0dcd91656fc3e5777bafbe254c4e2a8339ff41809c86",
+      "returncode": 0
+    },
+    {
+      "case": "oblique_a1_p0_r2_n24_half",
+      "receipt_sha256": "ed9cfdc3c3199157bed8f8fd3f00a942bc85f850de1a0e45bfc8cf38c0d17bdc",
+      "returncode": 0
+    },
+    {
+      "case": "oblique_a1_p0_r2_n32",
+      "receipt_sha256": "25acd0840b1a38eff611963bda7ae869d137419cecd4ef1c28b219bb7e5b0c13",
+      "returncode": 0
+    },
+    {
+      "case": "oblique_a1_p1_r0_n24",
+      "receipt_sha256": "1a05a276640f85a7947cf387af866a5147202807cf68c43c0bebfa39c5f9295a",
+      "returncode": 0
+    },
+    {
+      "case": "oblique_a1_p1_r0_n24_half",
+      "receipt_sha256": "2a8759ec5dad688adc42565a407bfbec8221ad09fe0fa09aac5fefaffc09aef0",
+      "returncode": 0
+    },
+    {
+      "case": "oblique_a1_p1_r0_n32",
+      "receipt_sha256": "3cae80e1132d671d63f2d25242d8f77e909ebd12a2f28ae36584758ec731b453",
+      "returncode": 0
+    },
+    {
+      "case": "oblique_a1_p1_r1_n24",
+      "receipt_sha256": "5bc79d5f94519e4bf6b0a4378363258f4962b794d3b8e061576a0b8335d7eb52",
+      "returncode": 0
+    },
+    {
+      "case": "oblique_a1_p1_r1_n24_half",
+      "receipt_sha256": "4391f1bacb2bb698260a9b6b2c6b46e5cc61b3b54adc81f16c3b42deadaf6efd",
+      "returncode": 0
+    },
+    {
+      "case": "oblique_a1_p1_r1_n32",
+      "receipt_sha256": "d35811c83de02797f518a2c7534a9fa5054c566daa4843a538a2d2721a85a3be",
+      "returncode": 0
+    },
+    {
+      "case": "oblique_a1_p1_r2_n24",
+      "receipt_sha256": "0b04e8c77d2e68ceb2f5b2fe8d155df697295f8284ce693c2fddc92c58f43387",
+      "returncode": 0
+    },
+    {
+      "case": "oblique_a1_p1_r2_n24_half",
+      "receipt_sha256": "6c323b0ff077d97624f91d4030af2ec78c3a8ce9bdf0d1add0c41817c3cc8cdb",
+      "returncode": 0
+    },
+    {
+      "case": "oblique_a1_p1_r2_n32",
+      "receipt_sha256": "7741d577998e5ef2c7dcee601c9763f94d00f72d895d989124aed499ff41be40",
+      "returncode": 0
+    },
+    {
+      "case": "oblique_a1_p2_r0_n24",
+      "receipt_sha256": "daf5f69b4eaf4e44d965a7178123d8736c135ecf19ade0aaf2d18789c610026e",
+      "returncode": 0
+    },
+    {
+      "case": "oblique_a1_p2_r0_n24_half",
+      "receipt_sha256": "8b291bcbd69dcc87f3f4feabef087f4a22372b322865e2034ea63bd65d95af89",
+      "returncode": 0
+    },
+    {
+      "case": "oblique_a1_p2_r0_n32",
+      "receipt_sha256": "2f85fbde0da2b2530999b130954516e47bcdd5ebbe953038d916d5a0522cacd1",
+      "returncode": 0
+    },
+    {
+      "case": "oblique_a1_p2_r1_n24",
+      "receipt_sha256": "565f914b9b4484c3dd9d44acb8d5aca8726a2f666119f210abffb728c2bf52b7",
+      "returncode": 0
+    },
+    {
+      "case": "oblique_a1_p2_r1_n24_half",
+      "receipt_sha256": "04cd6058d945b5207923fa80cbd269ffdcb861de421a5215558c138c396090d3",
+      "returncode": 0
+    },
+    {
+      "case": "oblique_a1_p2_r1_n32",
+      "receipt_sha256": "0d002214e936db0dd0baf288420d758528a77d08b88a2dc5f133f34b99e92161",
+      "returncode": 0
+    },
+    {
+      "case": "oblique_a1_p2_r2_n24",
+      "receipt_sha256": "b50a2ba980683f483e25f37cb895f314f6e9f9233debb6c999a6e9f5b0025b49",
+      "returncode": 0
+    },
+    {
+      "case": "oblique_a1_p2_r2_n24_half",
+      "receipt_sha256": "879f21f11cb610248443a3ffc16e58ede9c275d85afb8080b12b633d027160ae",
+      "returncode": 0
+    },
+    {
+      "case": "oblique_a1_p2_r2_n32",
+      "receipt_sha256": "94d52cfdd6e2b794700e25a865b51b3fae68a330e9335aa752a7c76825cd4ee2",
+      "returncode": 0
+    },
+    {
+      "case": "oblique_a1_p3_r0_n24",
+      "receipt_sha256": "5106a5845c8a5e540fca741db656eece1c6406c6757912528ec24cb71ffe43f7",
+      "returncode": 0
+    },
+    {
+      "case": "oblique_a1_p3_r0_n24_half",
+      "receipt_sha256": "0661c84d77749aa544afb3adbb5758643c2349ebcc08aedbc7375ac312b40756",
+      "returncode": 0
+    },
+    {
+      "case": "oblique_a1_p3_r0_n32",
+      "receipt_sha256": "04c6d7b734f507b0990a3c9a19912a52ea34d8cf036d19550def116ab4a483c7",
+      "returncode": 0
+    },
+    {
+      "case": "oblique_a1_p3_r1_n24",
+      "receipt_sha256": "1f74867ff5fe137ceb23e37fe3e102f22517326e216ed74fbe8b90e7385923ed",
+      "returncode": 0
+    },
+    {
+      "case": "oblique_a1_p3_r1_n24_half",
+      "receipt_sha256": "1b5caae7042994391e603a17404a6aa62b6b1058d93c0b9782c0b6be8a2e7ec3",
+      "returncode": 0
+    },
+    {
+      "case": "oblique_a1_p3_r1_n32",
+      "receipt_sha256": "f8705e54e98151e750c64cc6e956a64aac1134d6b06bd99f8859bab9250af06e",
+      "returncode": 0
+    },
+    {
+      "case": "oblique_a1_p3_r2_n24",
+      "receipt_sha256": "56e1f1db2d84e2bb4a259de378f2206c5b408e6a306dfa78b1ca97b8d2e791d4",
+      "returncode": 0
+    },
+    {
+      "case": "oblique_a1_p3_r2_n24_half",
+      "receipt_sha256": "014e0872c8b4b55243becafa5565beb2313dd29613900f66fefd3260dc9e26ec",
+      "returncode": 0
+    },
+    {
+      "case": "oblique_a1_p3_r2_n32",
+      "receipt_sha256": "3c29d97df616feb384c5e9d132ffbfd2ef7972dfef89b0bde0c93e09071ea1ec",
+      "returncode": 0
+    },
+    {
+      "case": "axial_a2_n24",
+      "receipt_sha256": "68e75cf635d4bd69467b4288c00912b89dbe20a89873942a88bb5770695ebc31",
+      "returncode": 0
+    },
+    {
+      "case": "axial_a2_n24_half",
+      "receipt_sha256": "c247338b9966647d8997a0f7785ea68573a297ce49d46887ec7fb1fb065c7591",
+      "returncode": 0
+    },
+    {
+      "case": "axial_a2_n32",
+      "receipt_sha256": "b90a3e355b88e59b88e29a10cd13390dc0c26edc34774fd914a02220b0f3df8f",
+      "returncode": 0
+    },
+    {
+      "case": "oblique_a2_p0_r0_n24",
+      "receipt_sha256": "fb6fd7f01fbe3466176182e894ac1d473aed0791d635d1171fd06d9f9dda1a21",
+      "returncode": 0
+    },
+    {
+      "case": "oblique_a2_p0_r0_n24_half",
+      "receipt_sha256": "9a850fbe3e3bad3d97175f569b6e1cb2851875ee0edc114ee05130da714d01c7",
+      "returncode": 0
+    },
+    {
+      "case": "oblique_a2_p0_r0_n32",
+      "receipt_sha256": "85eb05e312e59f6c7199e95b1ceec91bda30e6b711a424dd0565c669b7f9953d",
+      "returncode": 0
+    },
+    {
+      "case": "oblique_a2_p0_r1_n24",
+      "receipt_sha256": "c08c3b50e71d9551711f000fca28d60fb037634d97ee81e608948fd8d65863a7",
+      "returncode": 0
+    },
+    {
+      "case": "oblique_a2_p0_r1_n24_half",
+      "receipt_sha256": "73b2b081203b1a9db8b88adbc6c5b0defaf65fc0ab6e3cb5107ae8e5c81a1619",
+      "returncode": 0
+    },
+    {
+      "case": "oblique_a2_p0_r1_n32",
+      "receipt_sha256": "35bd640b1f9e0d4c9c99945ede15bb94c66d4fd912dd319e5df5edb3e4009674",
+      "returncode": 0
+    },
+    {
+      "case": "oblique_a2_p0_r2_n24",
+      "receipt_sha256": "57447ae16cb7516d70c544b407ca094302f852d5ca73ba308ffa752d66fe6613",
+      "returncode": 0
+    },
+    {
+      "case": "oblique_a2_p0_r2_n24_half",
+      "receipt_sha256": "37babd826842092b9cb48e1a88e6a868a2d6e65d80937ac1db734fa4cca2a842",
+      "returncode": 0
+    },
+    {
+      "case": "oblique_a2_p0_r2_n32",
+      "receipt_sha256": "f5468dad1ada331198c9527e26d991f2c5314d8cd95a1ffe52c91d33ce62ab3c",
+      "returncode": 0
+    },
+    {
+      "case": "oblique_a2_p1_r0_n24",
+      "receipt_sha256": "84fa037b3b75650e9a0b638a627931d8dcf5afed31bc383b8ca544193337ead9",
+      "returncode": 0
+    },
+    {
+      "case": "oblique_a2_p1_r0_n24_half",
+      "receipt_sha256": "cee75dbcfe2d60640e26fc7093c3dacede744850706ae5425fd06ba101b5c2f1",
+      "returncode": 0
+    },
+    {
+      "case": "oblique_a2_p1_r0_n32",
+      "receipt_sha256": "4cd08e5324c9dd751944057fb1ff05035794da48f17c00852e2ea0fa00e8fa3c",
+      "returncode": 0
+    },
+    {
+      "case": "oblique_a2_p1_r1_n24",
+      "receipt_sha256": "1a5ddc1197dbbcda0dea0bdf3b8d4ade14d2ebef39b028c295821ba07594529d",
+      "returncode": 0
+    },
+    {
+      "case": "oblique_a2_p1_r1_n24_half",
+      "receipt_sha256": "f23cd3f7b9cc02aaf0ed631d3e010989f924d8a00cd33f6210226f969710e73c",
+      "returncode": 0
+    },
+    {
+      "case": "oblique_a2_p1_r1_n32",
+      "receipt_sha256": "a0e75c4774f5410140df4328bf4a75501d9576ebbc2e9b3f93fea59111592ef5",
+      "returncode": 0
+    },
+    {
+      "case": "oblique_a2_p1_r2_n24",
+      "receipt_sha256": "4bc48de6dc686f4d79a23195ffedf83fce340a3e7400d5616c99af8e9585d809",
+      "returncode": 0
+    },
+    {
+      "case": "oblique_a2_p1_r2_n24_half",
+      "receipt_sha256": "7f56712ef90a0f1e8fe926319c9c953a44d86e38f8a2cb5b879b9a0590de0293",
+      "returncode": 0
+    },
+    {
+      "case": "oblique_a2_p1_r2_n32",
+      "receipt_sha256": "9ee1c229e9ddfbb4975da146c41cc7854e1ad53a3714cd9f9b6f2f09145e021e",
+      "returncode": 0
+    },
+    {
+      "case": "oblique_a2_p2_r0_n24",
+      "receipt_sha256": "627cdf5cf2b425347f80fd77c97332cd1dde95b8e5a37f3a9e42a2b32d94b6df",
+      "returncode": 0
+    },
+    {
+      "case": "oblique_a2_p2_r0_n24_half",
+      "receipt_sha256": "17be7ebae4fd5e31cc7abf4a9944b0353e8801f3b2accb06225d377de4582487",
+      "returncode": 0
+    },
+    {
+      "case": "oblique_a2_p2_r0_n32",
+      "receipt_sha256": "18870d0ce916afd1c4ea6ddd47a9aef7e482722519dad498dac2e204e26363e1",
+      "returncode": 0
+    },
+    {
+      "case": "oblique_a2_p2_r1_n24",
+      "receipt_sha256": "08c5dd1a79a875ae0100f9ef573c377a6723513f5ba865a31e8f8e471cd54235",
+      "returncode": 0
+    },
+    {
+      "case": "oblique_a2_p2_r1_n24_half",
+      "receipt_sha256": "f76d1477214a7678ff3c16dedab3c0025a5ab787bf7e069a35194f4863b73e09",
+      "returncode": 0
+    },
+    {
+      "case": "oblique_a2_p2_r1_n32",
+      "receipt_sha256": "7912ee1f0a688622b69b3b21f919bb1dfffa5aa722a57dd51dee9ffec64a7c73",
+      "returncode": 0
+    },
+    {
+      "case": "oblique_a2_p2_r2_n24",
+      "receipt_sha256": "b5e736d455c3c4974556a721b4225119642b30c7a65d33f0be5ca9caed38d18c",
+      "returncode": 0
+    },
+    {
+      "case": "oblique_a2_p2_r2_n24_half",
+      "receipt_sha256": "38b70e1a85494b63cbf30afd2f5fe8b16190483c2a1fa996ac89066743efcec9",
+      "returncode": 0
+    },
+    {
+      "case": "oblique_a2_p2_r2_n32",
+      "receipt_sha256": "ddd8badb1012e7c5f80a1d3e9b4475f9491481f5ff92e6f8e861d03124cb0eb7",
+      "returncode": 0
+    },
+    {
+      "case": "oblique_a2_p3_r0_n24",
+      "receipt_sha256": "351297b283d22ecc87f17955588610bbcda3eb89bd17465262535c229080a55d",
+      "returncode": 0
+    },
+    {
+      "case": "oblique_a2_p3_r0_n24_half",
+      "receipt_sha256": "6534c8f22016f57e799b63acfbd4e39d98a8fa947280151f7fdcf6cd394c20fb",
+      "returncode": 0
+    },
+    {
+      "case": "oblique_a2_p3_r0_n32",
+      "receipt_sha256": "6d82d7543302c2e55b8180cd7fb29332ec5c3d29575df2d5bd69c5287b449ca2",
+      "returncode": 0
+    },
+    {
+      "case": "oblique_a2_p3_r1_n24",
+      "receipt_sha256": "7842ea854d81b196ed25423f15087cc255483a7486f59a93c001712e7e30062a",
+      "returncode": 0
+    },
+    {
+      "case": "oblique_a2_p3_r1_n24_half",
+      "receipt_sha256": "ed938d99295f809717aeeac2d0d9c7d573fcfd8e33060590a070a91ca54923fe",
+      "returncode": 0
+    },
+    {
+      "case": "oblique_a2_p3_r1_n32",
+      "receipt_sha256": "a987bf5d27bed341ac6d1f6cea9178d131c00ead0dd63d83d1e62d0109e87d9a",
+      "returncode": 0
+    },
+    {
+      "case": "oblique_a2_p3_r2_n24",
+      "receipt_sha256": "f4f9ff81690b94522e0dac665947ea48460883c9868d485bfd6fd6b7ce522522",
+      "returncode": 0
+    },
+    {
+      "case": "oblique_a2_p3_r2_n24_half",
+      "receipt_sha256": "66806cd668b2c3607ebc53e0e9840d70f760fab0c341b00a573b5a3728b41e6b",
+      "returncode": 0
+    },
+    {
+      "case": "oblique_a2_p3_r2_n32",
+      "receipt_sha256": "a4f63a049ccbd025d3ceb0751ff5d010e176c79b020b6efbc14d00fe5c4b3eef",
+      "returncode": 0
+    },
+    {
+      "case": "axial_a3_n24",
+      "receipt_sha256": "ff71ce11aabe780764dcb70384cbb335031f1b49ab9e74ed27032bde03b2f4ef",
+      "returncode": 0
+    },
+    {
+      "case": "axial_a3_n24_half",
+      "receipt_sha256": "ce87d9630ba7aa96b2521b181e5cbe88ed08c07a63c693b025b593e30d5513f3",
+      "returncode": 0
+    },
+    {
+      "case": "axial_a3_n32",
+      "receipt_sha256": "400d176ec14cb7b26a27912594f5fdfa8e60aaec89ce80261f2fe670638eee39",
+      "returncode": 0
+    },
+    {
+      "case": "oblique_a3_p0_r0_n24",
+      "receipt_sha256": "35f8a7db63fdad2118d9c17c9ee9b1a52423e72f413787f62b2a6af209f6bd94",
+      "returncode": 0
+    },
+    {
+      "case": "oblique_a3_p0_r0_n24_half",
+      "receipt_sha256": "84b5631bf6d51fab4185c43ba58e45c0461f2fe2ffae20045ecc21e81a8a0278",
+      "returncode": 0
+    },
+    {
+      "case": "oblique_a3_p0_r0_n32",
+      "receipt_sha256": "dca0d6327969d3e3c66ea7faf573008b669ebdcc5bae7b933cf5fa210d304736",
+      "returncode": 0
+    },
+    {
+      "case": "oblique_a3_p0_r1_n24",
+      "receipt_sha256": "27fca93ee2aa9bcdd8a5cb2b4d1bc923a290cf4a39216e62d67ff2d0b7572cc2",
+      "returncode": 0
+    },
+    {
+      "case": "oblique_a3_p0_r1_n24_half",
+      "receipt_sha256": "5cd60fe6c9652665f4e28373c1e98a5cd2bceba5f93376f65bc3654e46a031e9",
+      "returncode": 0
+    },
+    {
+      "case": "oblique_a3_p0_r1_n32",
+      "receipt_sha256": "ea3f33910894105669b602222196d989bde16b4b0df5b7e37b87f72cbece982f",
+      "returncode": 0
+    },
+    {
+      "case": "oblique_a3_p0_r2_n24",
+      "receipt_sha256": "623e61a350aa482def6c5ef9b8aa7e369d311c18c44f0e9694a3804ef1655dd5",
+      "returncode": 0
+    },
+    {
+      "case": "oblique_a3_p0_r2_n24_half",
+      "receipt_sha256": "e454c49053895dfe6eb2f2784af707e839b5a040ff07415844cc75ce66bf8b0d",
+      "returncode": 0
+    },
+    {
+      "case": "oblique_a3_p0_r2_n32",
+      "receipt_sha256": "41ac1b04b5a1b00ed30fb2ba72f65cda5dfa0fbbc605d19037a8baaa72505176",
+      "returncode": 0
+    },
+    {
+      "case": "oblique_a3_p1_r0_n24",
+      "receipt_sha256": "cdfa0cbb3b1b949e1943088a365a4b34821650cad1e15d2992e71c753de66087",
+      "returncode": 0
+    },
+    {
+      "case": "oblique_a3_p1_r0_n24_half",
+      "receipt_sha256": "5e484a5d71995d8eb7510b9702a6f621313d66573afcd61058500dee09fc7483",
+      "returncode": 0
+    },
+    {
+      "case": "oblique_a3_p1_r0_n32",
+      "receipt_sha256": "8b167befd858ce52d8167062cea79ba6bfc2426719117b4fe3f1478e8a102970",
+      "returncode": 0
+    },
+    {
+      "case": "oblique_a3_p1_r1_n24",
+      "receipt_sha256": "b981fa66bf21660a4e7ed12b7c5b1a8519e7534830c5c53a7cf2bc471f742c68",
+      "returncode": 0
+    },
+    {
+      "case": "oblique_a3_p1_r1_n24_half",
+      "receipt_sha256": "0336140a349486f757e145c696727c5b69027b253a8aa9f7fa08595c410f3310",
+      "returncode": 0
+    },
+    {
+      "case": "oblique_a3_p1_r1_n32",
+      "receipt_sha256": "062e4cbc5f5d8e576d8408e4848204b353cfab3edcc5d959613e8efa4555f1a2",
+      "returncode": 0
+    },
+    {
+      "case": "oblique_a3_p1_r2_n24",
+      "receipt_sha256": "6e24834062c21ede893dfe45c8517939c10adbc9667cfe7b8e4f4ce876cf31db",
+      "returncode": 0
+    },
+    {
+      "case": "oblique_a3_p1_r2_n24_half",
+      "receipt_sha256": "ba3c1eba8d8859e91e7faf6deaeb336943911b7f9730f54747813b4f69bae9a0",
+      "returncode": 0
+    },
+    {
+      "case": "oblique_a3_p1_r2_n32",
+      "receipt_sha256": "ed886d3ec4f71d7ea383d2e78b1802d3318cd1f900355762232684cf3477712d",
+      "returncode": 0
+    },
+    {
+      "case": "oblique_a3_p2_r0_n24",
+      "receipt_sha256": "89bc3d9e717a0731550fa4ec9ca45b13169a52662d6f5f6b48bbbcee315012e2",
+      "returncode": 0
+    },
+    {
+      "case": "oblique_a3_p2_r0_n24_half",
+      "receipt_sha256": "ece93e5d59ab1e31e432262a551218e9b125cafa5c7417f8fddd0cf8ab714227",
+      "returncode": 0
+    },
+    {
+      "case": "oblique_a3_p2_r0_n32",
+      "receipt_sha256": "cb56345be8328aafe0dd44fa834288e5bc808ad00a8e4a160d291ca9be895938",
+      "returncode": 0
+    },
+    {
+      "case": "oblique_a3_p2_r1_n24",
+      "receipt_sha256": "3f74998ea61e5fca8e66aba4a616ef9b7295eaaee1ba890766694e6788676c05",
+      "returncode": 0
+    },
+    {
+      "case": "oblique_a3_p2_r1_n24_half",
+      "receipt_sha256": "30385f7dbf7edcca51d1f8775e29847a70337211cb3e52248c7c516fd47603ad",
+      "returncode": 0
+    },
+    {
+      "case": "oblique_a3_p2_r1_n32",
+      "receipt_sha256": "955eb8142b41cf005fd35f2da4a1dc5da38e656f132a813fd0d72a055e3aa45d",
+      "returncode": 0
+    },
+    {
+      "case": "oblique_a3_p2_r2_n24",
+      "receipt_sha256": "ba0d2f7e0ea783b974e1b6e214d04dd02bc3371616218cbdae7c7819fde5ab5b",
+      "returncode": 0
+    },
+    {
+      "case": "oblique_a3_p2_r2_n24_half",
+      "receipt_sha256": "62e582ec4a8f58afa72336c7c8c3967fcc2cfd553eb5cd8d7c9bbeadc2e676d5",
+      "returncode": 0
+    },
+    {
+      "case": "oblique_a3_p2_r2_n32",
+      "receipt_sha256": "95bc5f3ae3bdae25d855218f9fc80a0dc589386e1d7384cbe5dc1b8bd49c23c2",
+      "returncode": 0
+    },
+    {
+      "case": "oblique_a3_p3_r0_n24",
+      "receipt_sha256": "ed9eb57527d1959e8cbd640f2fef99ea58f6af3c334be679388a3e618c2a41f7",
+      "returncode": 0
+    },
+    {
+      "case": "oblique_a3_p3_r0_n24_half",
+      "receipt_sha256": "e6d892195df61ad8429cd394a82aac0bfb77a7ec9547ba22ae13756e932a05f4",
+      "returncode": 0
+    },
+    {
+      "case": "oblique_a3_p3_r0_n32",
+      "receipt_sha256": "02a7ad09b769ce61d8399376489ea8cbeab9e87d9588af829203fd728e725396",
+      "returncode": 0
+    },
+    {
+      "case": "oblique_a3_p3_r1_n24",
+      "receipt_sha256": "34d2fec4c4d1a2b9936f17f1a4472f6e8a6ffd37b0f56b70404ae8b01ce24db5",
+      "returncode": 0
+    },
+    {
+      "case": "oblique_a3_p3_r1_n24_half",
+      "receipt_sha256": "2edabe98deab4f0810dbbf82bc3d32b9701778e34dab1aae79babd5b075288a7",
+      "returncode": 0
+    },
+    {
+      "case": "oblique_a3_p3_r1_n32",
+      "receipt_sha256": "1d350fc29eed6b3fd0ba57713fe0a703a51be3febbbd8c8ef4b04fdd20413347",
+      "returncode": 0
+    },
+    {
+      "case": "oblique_a3_p3_r2_n24",
+      "receipt_sha256": "b1697e9ed9bac16a84c01418a73e61897409bda792241db9286d91ae3c9132c8",
+      "returncode": 0
+    },
+    {
+      "case": "oblique_a3_p3_r2_n24_half",
+      "receipt_sha256": "5cfac04ff44e60b7a3cf1b90aa047212d4acb7895f135b421b3b047edfcdea8f",
+      "returncode": 0
+    },
+    {
+      "case": "oblique_a3_p3_r2_n32",
+      "receipt_sha256": "fe3b8825ff5ff6b9711e6207fafe932820b2d2938adb585a98dd8180ba022829",
+      "returncode": 0
+    },
+    {
+      "case": "axial_a4_n24",
+      "receipt_sha256": "c176d26fc1fbd48c34cb35c553d4eb674da951858c10168ea212c9964eda2e54",
+      "returncode": 0
+    },
+    {
+      "case": "axial_a4_n24_half",
+      "receipt_sha256": "35903d5e6f152c20a3c1ff9a2d839dc3b06fcfb0b27b6435f45acc7698fe375d",
+      "returncode": 0
+    },
+    {
+      "case": "axial_a4_n32",
+      "receipt_sha256": "ed4531f6fb87697228353c0d355a2dcb277680204875d8ff16688e2d41f719e9",
+      "returncode": 0
+    },
+    {
+      "case": "oblique_a4_p0_r0_n24",
+      "receipt_sha256": "ed8654f6f90e1a4e98796ee2e3c05a305184773babccca02c955c99401b2bf84",
+      "returncode": 0
+    },
+    {
+      "case": "oblique_a4_p0_r0_n24_half",
+      "receipt_sha256": "3db443e6beac5a8421aafdf988de567ad30c6101a9b8f4e356d159daa5309d4e",
+      "returncode": 0
+    },
+    {
+      "case": "oblique_a4_p0_r0_n32",
+      "receipt_sha256": "1eba96bdcc651dffd9483c04a69c52739bed9bcbec3f1374c745174afff95d66",
+      "returncode": 0
+    },
+    {
+      "case": "oblique_a4_p0_r1_n24",
+      "receipt_sha256": "520f005d5d43d35893ae6b90c9bbb6c59020e6814f7899689214f264e9fcfdf7",
+      "returncode": 0
+    },
+    {
+      "case": "oblique_a4_p0_r1_n24_half",
+      "receipt_sha256": "ea0c414d8814923a80b4a6f2334a36781f34ca6c7ceedc4ff71545903b543838",
+      "returncode": 0
+    },
+    {
+      "case": "oblique_a4_p0_r1_n32",
+      "receipt_sha256": "8c649d163fdcd7129b71399094a5066085fd912ceeeb30d29278f39db00b4b22",
+      "returncode": 0
+    },
+    {
+      "case": "oblique_a4_p0_r2_n24",
+      "receipt_sha256": "3c4de610fa8b3dd6bee94e5f642610b2eea615f9644340d927e8d4c288d84c4b",
+      "returncode": 0
+    },
+    {
+      "case": "oblique_a4_p0_r2_n24_half",
+      "receipt_sha256": "ed6bcbaf586803bfdc81849cebc6543857c0ac81eb400ce58f371d1170e39dd8",
+      "returncode": 0
+    },
+    {
+      "case": "oblique_a4_p0_r2_n32",
+      "receipt_sha256": "c784cbd4f869eafefe67878642b3bcd90c760fe22e19bd68048a216cb3449ed6",
+      "returncode": 0
+    },
+    {
+      "case": "oblique_a4_p1_r0_n24",
+      "receipt_sha256": "4948986b2143a62e8dc8d97cab3707f8a1d87f118dd0456843f0b6f87f76acb5",
+      "returncode": 0
+    },
+    {
+      "case": "oblique_a4_p1_r0_n24_half",
+      "receipt_sha256": "89ec140de323373c71ce388b55a7de95ffb107ed3b70558e22907c84331e048d",
+      "returncode": 0
+    },
+    {
+      "case": "oblique_a4_p1_r0_n32",
+      "receipt_sha256": "6498b1bbe2743e44d41375b14e74ab9268161735c946d03538660617d9ebc6fe",
+      "returncode": 0
+    },
+    {
+      "case": "oblique_a4_p1_r1_n24",
+      "receipt_sha256": "2af371096aed93d3be28e6d20ff8f41b74717c1844cc941f26ae6e12b02d8a3a",
+      "returncode": 0
+    },
+    {
+      "case": "oblique_a4_p1_r1_n24_half",
+      "receipt_sha256": "167e2365cbde12a0c89ed747c03c5a93e6573bbb452b66655b10011817628d93",
+      "returncode": 0
+    },
+    {
+      "case": "oblique_a4_p1_r1_n32",
+      "receipt_sha256": "e09d9cd0276501784e18ce279336c4ddc6b11d366336f3c6ce0fbd91f8c900c4",
+      "returncode": 0
+    },
+    {
+      "case": "oblique_a4_p1_r2_n24",
+      "receipt_sha256": "6cff8183e82c299272a0d86683549394d9d347609f6f5c239335c152810bd7d2",
+      "returncode": 0
+    },
+    {
+      "case": "oblique_a4_p1_r2_n24_half",
+      "receipt_sha256": "5416c3da2508f6c93aedc20a8d4a8bb7e2cbd801e1ed3458dc3b53d8c3b957ac",
+      "returncode": 0
+    },
+    {
+      "case": "oblique_a4_p1_r2_n32",
+      "receipt_sha256": "2e68a02beffd7c8ff523f423a88be65d3ee0150f11784cba05e0128ae1e08e78",
+      "returncode": 0
+    },
+    {
+      "case": "oblique_a4_p2_r0_n24",
+      "receipt_sha256": "5f7f0f0b17098bef04e5afaa1280cb3e26acb016804c907a5fe692862968bb7b",
+      "returncode": 0
+    },
+    {
+      "case": "oblique_a4_p2_r0_n24_half",
+      "receipt_sha256": "705f6b4382f8227fe92c6e4bab9bd4ee4e24d4bedd681b1e3462f2f2fe954aec",
+      "returncode": 0
+    },
+    {
+      "case": "oblique_a4_p2_r0_n32",
+      "receipt_sha256": "b03d99613a8ce5c116e99b9db39f026a93916a7ae372cb441a726cdab809838d",
+      "returncode": 0
+    },
+    {
+      "case": "oblique_a4_p2_r1_n24",
+      "receipt_sha256": "c59b2ba0000635606153cc50d967a90ed6ddadbbfe238a3e29eb613a8811f35b",
+      "returncode": 0
+    },
+    {
+      "case": "oblique_a4_p2_r1_n24_half",
+      "receipt_sha256": "162b80d1b5ce4527c0e65dfc7a64ab1976995151b14166881713b8e82fa4093c",
+      "returncode": 0
+    },
+    {
+      "case": "oblique_a4_p2_r1_n32",
+      "receipt_sha256": "3bec289a87dea347c2ae7d255e932c193bc969aa589589bc49058a48a45824b9",
+      "returncode": 0
+    },
+    {
+      "case": "oblique_a4_p2_r2_n24",
+      "receipt_sha256": "25da28483ed3472e653393da576f2b956f350f311f01194efcdc59d2fa8b2f9e",
+      "returncode": 0
+    },
+    {
+      "case": "oblique_a4_p2_r2_n24_half",
+      "receipt_sha256": "b19a45c1b9c38f216d87ab8bfd0416ebfac74b85bd47b82a9a6dc939871a74ec",
+      "returncode": 0
+    },
+    {
+      "case": "oblique_a4_p2_r2_n32",
+      "receipt_sha256": "369ae7c69ba6534ac05d4d103343b013524ce9fbe11bfd949e30ae6ddf2a76c5",
+      "returncode": 0
+    },
+    {
+      "case": "oblique_a4_p3_r0_n24",
+      "receipt_sha256": "8f3a66c65225b5f629e25d937555c15398bd0406055d1619c1d83152dd9f82be",
+      "returncode": 0
+    },
+    {
+      "case": "oblique_a4_p3_r0_n24_half",
+      "receipt_sha256": "993a65acb9110a8f65506a0dd8db7c563b21dfc1be5026ed4fcb815e1159c9e4",
+      "returncode": 0
+    },
+    {
+      "case": "oblique_a4_p3_r0_n32",
+      "receipt_sha256": "3dbbac85958397be9341954a6c64f0c08acd60e1655aeba7ca4113f3f90c6867",
+      "returncode": 0
+    },
+    {
+      "case": "oblique_a4_p3_r1_n24",
+      "receipt_sha256": "730e6c663aef0d0e53aca88a2b0a24160eb19e11070062012608c6c7582ab0a2",
+      "returncode": 0
+    },
+    {
+      "case": "oblique_a4_p3_r1_n24_half",
+      "receipt_sha256": "008578b19619471c1388d70549ac777bac2db53891aeb9583f176e7e8c0e6dcc",
+      "returncode": 0
+    },
+    {
+      "case": "oblique_a4_p3_r1_n32",
+      "receipt_sha256": "d91d94e15830835338956072d034027dac2f16d9c25036f4476ded88dc2b732d",
+      "returncode": 0
+    },
+    {
+      "case": "oblique_a4_p3_r2_n24",
+      "receipt_sha256": "8ea2a8f7687354b8dab3e706a04a86b5c7aae965f8d252f9994f9eef466f6480",
+      "returncode": 0
+    },
+    {
+      "case": "oblique_a4_p3_r2_n24_half",
+      "receipt_sha256": "a9a4975897850bc0217ea9ffe94b71c787b63a5dcf0db1bef475fa1267bb3874",
+      "returncode": 0
+    },
+    {
+      "case": "oblique_a4_p3_r2_n32",
+      "receipt_sha256": "05165e7fe0b6045e89482324165749f582b74bcc7c1d2de8e0c5bd78f2e36cc2",
+      "returncode": 0
+    },
+    {
+      "case": "axial_a5_n24",
+      "receipt_sha256": "099dcd81b2bf4569eeecb1bce7a9ae3ed1019feb70c47d5ec42bdbeacbede9f8",
+      "returncode": 0
+    },
+    {
+      "case": "axial_a5_n24_half",
+      "receipt_sha256": "3c79555460dcf6dc25dc6225f280ddf004e9d90834c41496c6109be215b57108",
+      "returncode": 0
+    },
+    {
+      "case": "axial_a5_n32",
+      "receipt_sha256": "c4aee70ad5d14bce83439f9c77a2bd1389e5e27ef2dec5ad09053aa3e6db634d",
+      "returncode": 0
+    },
+    {
+      "case": "oblique_a5_p0_r0_n24",
+      "receipt_sha256": "42f4eb3c8d0ce2036ef8ca8a8d2aa495086474aab17ae512586b0f6daaa0b8cc",
+      "returncode": 0
+    },
+    {
+      "case": "oblique_a5_p0_r0_n24_half",
+      "receipt_sha256": "5aab72d90385b703e740f1c82c2e757a001da07cf8ebbdb78670933c7c0d5709",
+      "returncode": 0
+    },
+    {
+      "case": "oblique_a5_p0_r0_n32",
+      "receipt_sha256": "1ae54e07b897ddd4c35e6c714b1d87a5d3565aaced78e2a1e9bea1535f8ca188",
+      "returncode": 0
+    },
+    {
+      "case": "oblique_a5_p0_r1_n24",
+      "receipt_sha256": "61c9a32191ce4f63665eed72964cb14024ec557613e520791d57f203a9ed09d2",
+      "returncode": 0
+    },
+    {
+      "case": "oblique_a5_p0_r1_n24_half",
+      "receipt_sha256": "c74c9d73b4c0a70a360b74837cf8fa4f898093ae5a19d0f984461cc42e17830e",
+      "returncode": 0
+    },
+    {
+      "case": "oblique_a5_p0_r1_n32",
+      "receipt_sha256": "9f4ea096d418e03b682c56b84dcb266433f73fe46c901d9dde64e46656632c72",
+      "returncode": 0
+    },
+    {
+      "case": "oblique_a5_p0_r2_n24",
+      "receipt_sha256": "d004ac121e756db16f736ab0802244de95f95c2827ec7c8d7e137506e28b30ad",
+      "returncode": 0
+    },
+    {
+      "case": "oblique_a5_p0_r2_n24_half",
+      "receipt_sha256": "f509a212ccb0261929f868b8bf36e6c4f62ae7484daafd9bff549743440a6882",
+      "returncode": 0
+    },
+    {
+      "case": "oblique_a5_p0_r2_n32",
+      "receipt_sha256": "e78e2781a02bfdcf3f713b86556e82e2dce56fdbb05dcb47d9e26d802ebdd484",
+      "returncode": 0
+    },
+    {
+      "case": "oblique_a5_p1_r0_n24",
+      "receipt_sha256": "98b7cb39d43bba4fbb24064dc18e18511ce468c3325663f4ca651e9d892f2b8d",
+      "returncode": 0
+    },
+    {
+      "case": "oblique_a5_p1_r0_n24_half",
+      "receipt_sha256": "fc1d92b54f722cd12e1f7c2f3373d20e3654e5e15fdd3cc220acc3ee604817f9",
+      "returncode": 0
+    },
+    {
+      "case": "oblique_a5_p1_r0_n32",
+      "receipt_sha256": "2367c5dd865a275f877720a92d92c64c1deb18006ae0e6a9f196d53eb4466811",
+      "returncode": 0
+    },
+    {
+      "case": "oblique_a5_p1_r1_n24",
+      "receipt_sha256": "eee3aafa1f2667f8c2bfae982617c5ed2577aac89cce26e3cecddfb0c8b07d23",
+      "returncode": 0
+    },
+    {
+      "case": "oblique_a5_p1_r1_n24_half",
+      "receipt_sha256": "ae0d7c9d97d3bf99f0612a53aa68a9bfd018f03207bc5ebe4d46b0f6ba6bf07a",
+      "returncode": 0
+    },
+    {
+      "case": "oblique_a5_p1_r1_n32",
+      "receipt_sha256": "792770738b872730b89ce00335bfb90a88f0824f2350db6ef40a275fb957f0cb",
+      "returncode": 0
+    },
+    {
+      "case": "oblique_a5_p1_r2_n24",
+      "receipt_sha256": "81f3592049c5f0c15fdaf81a64fb4f0e472dec6a4fb3848ff35ac2c59d672e07",
+      "returncode": 0
+    },
+    {
+      "case": "oblique_a5_p1_r2_n24_half",
+      "receipt_sha256": "79f12ebfa70d588fd43fe36ab1bcbe5839c1926f0bb4d3b27e666f860c79ac66",
+      "returncode": 0
+    },
+    {
+      "case": "oblique_a5_p1_r2_n32",
+      "receipt_sha256": "25a3e071724803b0ef343b6d64389d24823a7590097517e2bd6543a5b21efc37",
+      "returncode": 0
+    },
+    {
+      "case": "oblique_a5_p2_r0_n24",
+      "receipt_sha256": "fba0a382d00b5d405f416bf4ae1828af50666bcb960b679a73105f8a502c966a",
+      "returncode": 0
+    },
+    {
+      "case": "oblique_a5_p2_r0_n24_half",
+      "receipt_sha256": "b1539bd94214b627ce1ee53b1a9d72f28f26446721b5d72b9a2248cb217dd1ff",
+      "returncode": 0
+    },
+    {
+      "case": "oblique_a5_p2_r0_n32",
+      "receipt_sha256": "0a08531dcc63df324c9e9d83b5332b28b7cb008af39ea2cf4431ba63f87ec2e8",
+      "returncode": 0
+    },
+    {
+      "case": "oblique_a5_p2_r1_n24",
+      "receipt_sha256": "9161547446e01677ab3cf90f95638b56d7522f1817b9017c7dca987b5eb92c61",
+      "returncode": 0
+    },
+    {
+      "case": "oblique_a5_p2_r1_n24_half",
+      "receipt_sha256": "6777d7dd6057c73ae3bba0e76d31dd98e1f985f867c2bcb6d470e891152fba2b",
+      "returncode": 0
+    },
+    {
+      "case": "oblique_a5_p2_r1_n32",
+      "receipt_sha256": "02f9c7c5c465eeb3d325e764e08056a3c3ee03b7ecae7afea339a1b27cb25fb0",
+      "returncode": 0
+    },
+    {
+      "case": "oblique_a5_p2_r2_n24",
+      "receipt_sha256": "3d0cabba0d0b6fef7f1c566511987b56a9c4323ae79e7753456dff92c3ee106c",
+      "returncode": 0
+    },
+    {
+      "case": "oblique_a5_p2_r2_n24_half",
+      "receipt_sha256": "d121e88023d33143fbf842fb53ef9e81486b869ef5249259cc7412d9ac85c0d3",
+      "returncode": 0
+    },
+    {
+      "case": "oblique_a5_p2_r2_n32",
+      "receipt_sha256": "e13e61936281ba31c0363270392da4777c5d493d33ae8434d6fbb30350aafb30",
+      "returncode": 0
+    },
+    {
+      "case": "oblique_a5_p3_r0_n24",
+      "receipt_sha256": "62ce8c51eb2be70786c3fdb3cfc9d0c770679c53970d7fce6973a4607d70a0ce",
+      "returncode": 0
+    },
+    {
+      "case": "oblique_a5_p3_r0_n24_half",
+      "receipt_sha256": "485066270f1fa8200ec77e448269c8809047ac382e85eff419f907ccf797ce10",
+      "returncode": 0
+    },
+    {
+      "case": "oblique_a5_p3_r0_n32",
+      "receipt_sha256": "8dcf2a234a443e6859d12ed483f0a1324e8a8c33ab7c4627362f6d795f7fbfa1",
+      "returncode": 0
+    },
+    {
+      "case": "oblique_a5_p3_r1_n24",
+      "receipt_sha256": "0cc229236b0ed762ac6968fab7ac8ad2b25f47ef2181b3d0356923a18cba76fe",
+      "returncode": 0
+    },
+    {
+      "case": "oblique_a5_p3_r1_n24_half",
+      "receipt_sha256": "ee238f9bb15cee80e4121547a73b3013f2e0630c3d17aedba0e968c5eac1bcfe",
+      "returncode": 0
+    },
+    {
+      "case": "oblique_a5_p3_r1_n32",
+      "receipt_sha256": "2956f0b9dfa87d049e93ad009191207c46eba8a090ebb905f379d25a1b17911b",
+      "returncode": 0
+    },
+    {
+      "case": "oblique_a5_p3_r2_n24",
+      "receipt_sha256": "e1a113582baf9ae96539e40c4c72e91f5a3472e740066d64517146435dedde79",
+      "returncode": 0
+    },
+    {
+      "case": "oblique_a5_p3_r2_n24_half",
+      "receipt_sha256": "82684799a1c5a56d2d98a42b1f392246b22ac302175d256082aac0c9d94cd12d",
+      "returncode": 0
+    },
+    {
+      "case": "oblique_a5_p3_r2_n32",
+      "receipt_sha256": "29a14c4d49f649cbb79866d5e2b950acaaaa9bebc09959c0b2abd29148fa931d",
+      "returncode": 0
+    }
+  ],
+  "status": "EXECUTION_COMPLETE_PENDING_SCIENTIFIC_CHECKS"
+}

@@ -1,0 +1,20 @@
+{
+  "case": "axial_a3_n24",
+  "command": [
+    "/usr/bin/python3",
+    "/home/udt-admin/udt_mass_codex/udt_time_live_production_survey_2026-10-01/production_worker.py",
+    "/home/udt-admin/udt_mass_codex/udt_time_live_production_survey_2026-10-01/specs/production/axial_a3_n24.json",
+    "/home/udt-admin/udt_mass_codex/udt_time_live_production_survey_2026-10-01/runs/production/axial_a3_n24"
+  ],
+  "forwarded_signal": null,
+  "resume": false,
+  "returncode": 0,
+  "sigint_sent": false,
+  "sigkill_sent": false,
+  "sigterm_sent": false,
+  "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "stdout_sha256": "a39cea0671fc8fb3881ec7bd8f772c197db00df08205b8846b561a1f2b86f192",
+  "wall_seconds": 16.337581536034122,
+  "worker_status": "TPS1_RUN_COMPLETE",
+  "worker_stop_reason": null
+}

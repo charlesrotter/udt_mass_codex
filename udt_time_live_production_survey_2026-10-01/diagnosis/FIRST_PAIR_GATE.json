@@ -1,0 +1,15 @@
+{
+  "status": "PASS",
+  "manifest_sha256": "2e40cd765113d30a52f6858c36054011046182b1c429ce0e9875df4577e63959",
+  "cases": 2,
+  "source_sha256": {
+    "udt_time_live_production_survey_2026-10-01/diagnosis/review_math/FIRST_PAIR_MATH.json": "e1b5fc9f8b069866ba5f7c4bb5aaa54e6510fe35f9a6e4845a6519e23c03d0ec",
+    "udt_time_live_production_survey_2026-10-01/diagnosis/review_runtime/FIRST_PAIR_OPERATIONS.json": "930dfa71eaee656161446d3e702768932302deefcff67db0d5e0d70723bf930d",
+    "udt_time_live_production_survey_2026-10-01/diagnosis/repair_runtime/first_pair.json": "49cd6bde8b9891cc27f6a81c2e6d30187f82ff4a63048148d0b946687757536a",
+    "udt_time_live_production_survey_2026-10-01/diagnosis/checks/assemble_first_pair.json": "b3e1c45b5fdaa7e522443670d0d9b88c5a55478a61bcbe560add65dedc670074",
+    "udt_time_live_production_survey_2026-10-01/diagnosis/review_runtime/CPU_COORDINATION_EXCEPTION.md": "7375ef436a8a260fd286fb456844f63d3f266269ae319196c279ce31c9fb3d53"
+  },
+  "utc": "2026-10-01T14:13:49.708709+00:00",
+  "scope": "Firstactualrefinedpair originalequations, unchangedrefinement, authenticated64checkpoints, actualsteps/resources and extraction pass. Proceedremaining24 once only. Original13failurespreserved; no guaranteeofremainingoutcomes.",
+  "resource_exception": "Separate runtimehash/log check briefly overlappedassembly+clock1.6s; extra62.6MiB CPUprocess. Disclosed in boundrecord. No extraGPU, memoryexhaustion, arrays/sciencegatechange. ExplicitCPUslotcoordination nowrequired."
+}

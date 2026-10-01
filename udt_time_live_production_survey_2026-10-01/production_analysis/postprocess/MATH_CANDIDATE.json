@@ -1,0 +1,2755 @@
+{
+  "attribution": "Reuses fixed independently authored TDS1 NumPy Ricci/ADM and TPP1 center-stencil/Lie-shift methods. Shared fields and Fourier mathematics, no independent general-data time integrator.",
+  "checked_cases": 234,
+  "datasets": [
+    {
+      "dataset": "axial_a0",
+      "final_time_refinement": {
+        "g": 2.857373004871988e-09,
+        "v": 5.738002073485404e-09
+      },
+      "original_equations": {
+        "axial_a0_n24": "PASS",
+        "axial_a0_n24_half": "PASS",
+        "axial_a0_n32": "PASS"
+      },
+      "spatial": [
+        {
+          "all_points_both_meshes_max": 1.9047058374965786e-10,
+          "coarse_common8_max": 1.4526119196389686e-10,
+          "fine_common8_max": 1.3545653487767595e-10,
+          "order": 6,
+          "ratio": 1.0723823113818394,
+          "status": "PASS"
+        },
+        {
+          "all_points_both_meshes_max": 1.9476181778443902e-10,
+          "coarse_common8_max": 1.4687762117659986e-10,
+          "fine_common8_max": 1.3834594581041415e-10,
+          "order": 8,
+          "ratio": 1.0616691390283117,
+          "status": "PASS"
+        }
+      ],
+      "status": "PASS",
+      "temporal_status": "PASS"
+    },
+    {
+      "dataset": "oblique_a0_p0_r0",
+      "final_time_refinement": {
+        "g": 2.5571331718765578e-09,
+        "v": 7.4493087254268175e-09
+      },
+      "original_equations": {
+        "oblique_a0_p0_r0_n24": "PASS",
+        "oblique_a0_p0_r0_n24_half": "PASS",
+        "oblique_a0_p0_r0_n32": "PASS"
+      },
+      "spatial": [
+        {
+          "all_points_both_meshes_max": 3.083283073301857e-10,
+          "coarse_common8_max": 2.4484880789543695e-10,
+          "fine_common8_max": 2.5972440864663326e-10,
+          "order": 6,
+          "ratio": 0.9427254418300159,
+          "status": "PASS"
+        },
+        {
+          "all_points_both_meshes_max": 3.1008157153067373e-10,
+          "coarse_common8_max": 2.4602253567707066e-10,
+          "fine_common8_max": 2.606873605870419e-10,
+          "order": 8,
+          "ratio": 0.9437455468613917,
+          "status": "PASS"
+        }
+      ],
+      "status": "PASS",
+      "temporal_status": "PASS"
+    },
+    {
+      "dataset": "oblique_a0_p0_r1",
+      "final_time_refinement": {
+        "g": 2.502456908359818e-09,
+        "v": 7.250456235396996e-09
+      },
+      "original_equations": {
+        "oblique_a0_p0_r1_n24": "PASS",
+        "oblique_a0_p0_r1_n24_half": "PASS",
+        "oblique_a0_p0_r1_n32": "PASS"
+      },
+      "spatial": [
+        {
+          "all_points_both_meshes_max": 2.7077551312260084e-10,
+          "coarse_common8_max": 2.226824835638297e-10,
+          "fine_common8_max": 2.479590421877731e-10,
+          "order": 6,
+          "ratio": 0.89806155725992,
+          "status": "PASS"
+        },
+        {
+          "all_points_both_meshes_max": 2.7432112137404374e-10,
+          "coarse_common8_max": 2.231770879213002e-10,
+          "fine_common8_max": 2.4749652327571425e-10,
+          "order": 8,
+          "ratio": 0.9017382748147864,
+          "status": "PASS"
+        }
+      ],
+      "status": "PASS",
+      "temporal_status": "PASS"
+    },
+    {
+      "dataset": "oblique_a0_p0_r2",
+      "final_time_refinement": {
+        "g": 2.394646259062938e-09,
+        "v": 6.53051301924279e-09
+      },
+      "original_equations": {
+        "oblique_a0_p0_r2_n24": "PASS",
+        "oblique_a0_p0_r2_n24_half": "PASS",
+        "oblique_a0_p0_r2_n32": "PASS"
+      },
+      "spatial": [
+        {
+          "all_points_both_meshes_max": 2.3215795952324925e-10,
+          "coarse_common8_max": 1.9176205068305308e-10,
+          "fine_common8_max": 2.1881035872084453e-10,
+          "order": 6,
+          "ratio": 0.8763847004505881,
+          "status": "PASS"
+        },
+        {
+          "all_points_both_meshes_max": 2.347549377113012e-10,
+          "coarse_common8_max": 1.924618242554743e-10,
+          "fine_common8_max": 2.2038787461653442e-10,
+          "order": 8,
+          "ratio": 0.8732868112202169,
+          "status": "PASS"
+        }
+      ],
+      "status": "PASS",
+      "temporal_status": "PASS"
+    },
+    {
+      "dataset": "oblique_a0_p1_r0",
+      "final_time_refinement": {
+        "g": 2.557417388970862e-09,
+        "v": 7.444313609994424e-09
+      },
+      "original_equations": {
+        "oblique_a0_p1_r0_n24": "PASS",
+        "oblique_a0_p1_r0_n24_half": "PASS",
+        "oblique_a0_p1_r0_n32": "PASS"
+      },
+      "spatial": [
+        {
+          "all_points_both_meshes_max": 3.000081849613423e-10,
+          "coarse_common8_max": 2.3398755155668027e-10,
+          "fine_common8_max": 2.779702024113817e-10,
+          "order": 6,
+          "ratio": 0.8417720659511218,
+          "status": "PASS"
+        },
+        {
+          "all_points_both_meshes_max": 3.0206176448999145e-10,
+          "coarse_common8_max": 2.3321228281858453e-10,
+          "fine_common8_max": 2.788624331451217e-10,
+          "order": 8,
+          "ratio": 0.8362986731067481,
+          "status": "PASS"
+        }
+      ],
+      "status": "PASS",
+      "temporal_status": "PASS"
+    },
+    {
+      "dataset": "oblique_a0_p1_r1",
+      "final_time_refinement": {
+        "g": 2.5007338422256e-09,
+        "v": 7.235392729398882e-09
+      },
+      "original_equations": {
+        "oblique_a0_p1_r1_n24": "PASS",
+        "oblique_a0_p1_r1_n24_half": "PASS",
+        "oblique_a0_p1_r1_n32": "PASS"
+      },
+      "spatial": [
+        {
+          "all_points_both_meshes_max": 3.0713570575713334e-10,
+          "coarse_common8_max": 2.3042678876095124e-10,
+          "fine_common8_max": 2.7629470933376865e-10,
+          "order": 6,
+          "ratio": 0.8339891462872414,
+          "status": "PASS"
+        },
+        {
+          "all_points_both_meshes_max": 3.089053457472346e-10,
+          "coarse_common8_max": 2.330937665107058e-10,
+          "fine_common8_max": 2.766672446696816e-10,
+          "order": 8,
+          "ratio": 0.8425058296619137,
+          "status": "PASS"
+        }
+      ],
+      "status": "PASS",
+      "temporal_status": "PASS"
+    },
+    {
+      "dataset": "oblique_a0_p1_r2",
+      "final_time_refinement": {
+        "g": 2.3941417737205484e-09,
+        "v": 6.519115913761198e-09
+      },
+      "original_equations": {
+        "oblique_a0_p1_r2_n24": "PASS",
+        "oblique_a0_p1_r2_n24_half": "PASS",
+        "oblique_a0_p1_r2_n32": "PASS"
+      },
+      "spatial": [
+        {
+          "all_points_both_meshes_max": 2.3500690282673986e-10,
+          "coarse_common8_max": 1.9581025689774378e-10,
+          "fine_common8_max": 2.0824175717137905e-10,
+          "order": 6,
+          "ratio": 0.9403025577458781,
+          "status": "PASS"
+        },
+        {
+          "all_points_both_meshes_max": 2.389986542006284e-10,
+          "coarse_common8_max": 1.9687862451434057e-10,
+          "fine_common8_max": 2.0967994007747848e-10,
+          "order": 8,
+          "ratio": 0.9389483058874983,
+          "status": "PASS"
+        }
+      ],
+      "status": "PASS",
+      "temporal_status": "PASS"
+    },
+    {
+      "dataset": "oblique_a0_p2_r0",
+      "final_time_refinement": {
+        "g": 2.557431599825577e-09,
+        "v": 7.427402692883334e-09
+      },
+      "original_equations": {
+        "oblique_a0_p2_r0_n24": "PASS",
+        "oblique_a0_p2_r0_n24_half": "PASS",
+        "oblique_a0_p2_r0_n32": "PASS"
+      },
+      "spatial": [
+        {
+          "all_points_both_meshes_max": 2.9349528363198374e-10,
+          "coarse_common8_max": 2.3961715944764705e-10,
+          "fine_common8_max": 2.725270009662495e-10,
+          "order": 6,
+          "ratio": 0.8792419048317415,
+          "status": "PASS"
+        },
+        {
+          "all_points_both_meshes_max": 2.950695798809022e-10,
+          "coarse_common8_max": 2.387436914830232e-10,
+          "fine_common8_max": 2.7414392977931357e-10,
+          "order": 8,
+          "ratio": 0.8708698809242735,
+          "status": "PASS"
+        }
+      ],
+      "status": "PASS",
+      "temporal_status": "PASS"
+    },
+    {
+      "dataset": "oblique_a0_p2_r1",
+      "final_time_refinement": {
+        "g": 2.501938212162713e-09,
+        "v": 7.2153270025410166e-09
+      },
+      "original_equations": {
+        "oblique_a0_p2_r1_n24": "PASS",
+        "oblique_a0_p2_r1_n24_half": "PASS",
+        "oblique_a0_p2_r1_n32": "PASS"
+      },
+      "spatial": [
+        {
+          "all_points_both_meshes_max": 2.9100566401041306e-10,
+          "coarse_common8_max": 2.409076271803201e-10,
+          "fine_common8_max": 2.460295300821258e-10,
+          "order": 6,
+          "ratio": 0.9791817555392802,
+          "status": "PASS"
+        },
+        {
+          "all_points_both_meshes_max": 2.9257735123522366e-10,
+          "coarse_common8_max": 2.423487521774348e-10,
+          "fine_common8_max": 2.4724206015847017e-10,
+          "order": 8,
+          "ratio": 0.9802084322631068,
+          "status": "PASS"
+        }
+      ],
+      "status": "PASS",
+      "temporal_status": "PASS"
+    },
+    {
+      "dataset": "oblique_a0_p2_r2",
+      "final_time_refinement": {
+        "g": 2.3948345528879145e-09,
+        "v": 6.487930193088687e-09
+      },
+      "original_equations": {
+        "oblique_a0_p2_r2_n24": "PASS",
+        "oblique_a0_p2_r2_n24_half": "PASS",
+        "oblique_a0_p2_r2_n32": "PASS"
+      },
+      "spatial": [
+        {
+          "all_points_both_meshes_max": 2.4228868911180257e-10,
+          "coarse_common8_max": 2.1933732607948286e-10,
+          "fine_common8_max": 2.2451246417531934e-10,
+          "order": 6,
+          "ratio": 0.9769494396899262,
+          "status": "PASS"
+        },
+        {
+          "all_points_both_meshes_max": 2.4646290563978823e-10,
+          "coarse_common8_max": 2.222665940188051e-10,
+          "fine_common8_max": 2.263250697964736e-10,
+          "order": 8,
+          "ratio": 0.9820679353757932,
+          "status": "PASS"
+        }
+      ],
+      "status": "PASS",
+      "temporal_status": "PASS"
+    },
+    {
+      "dataset": "oblique_a0_p3_r0",
+      "final_time_refinement": {
+        "g": 2.556063805059239e-09,
+        "v": 7.379952648989274e-09
+      },
+      "original_equations": {
+        "oblique_a0_p3_r0_n24": "PASS",
+        "oblique_a0_p3_r0_n24_half": "PASS",
+        "oblique_a0_p3_r0_n32": "PASS"
+      },
+      "spatial": [
+        {
+          "all_points_both_meshes_max": 3.03962299774696e-10,
+          "coarse_common8_max": 2.3854129782563405e-10,
+          "fine_common8_max": 2.7453073148109297e-10,
+          "order": 6,
+          "ratio": 0.8689056286657018,
+          "status": "PASS"
+        },
+        {
+          "all_points_both_meshes_max": 3.0676383655503514e-10,
+          "coarse_common8_max": 2.389257125479105e-10,
+          "fine_common8_max": 2.7586383177791163e-10,
+          "order": 8,
+          "ratio": 0.8661001734372388,
+          "status": "PASS"
+        }
+      ],
+      "status": "PASS",
+      "temporal_status": "PASS"
+    },
+    {
+      "dataset": "oblique_a0_p3_r1",
+      "final_time_refinement": {
+        "g": 2.5023645378041692e-09,
+        "v": 7.162824999795703e-09
+      },
+      "original_equations": {
+        "oblique_a0_p3_r1_n24": "PASS",
+        "oblique_a0_p3_r1_n24_half": "PASS",
+        "oblique_a0_p3_r1_n32": "PASS"
+      },
+      "spatial": [
+        {
+          "all_points_both_meshes_max": 2.8241997629407933e-10,
+          "coarse_common8_max": 2.0841772752078214e-10,
+          "fine_common8_max": 2.5317997698337535e-10,
+          "order": 6,
+          "ratio": 0.8231998833559715,
+          "status": "PASS"
+        },
+        {
+          "all_points_both_meshes_max": 2.8322150180670747e-10,
+          "coarse_common8_max": 2.0883755835754414e-10,
+          "fine_common8_max": 2.5324287111772037e-10,
+          "order": 8,
+          "ratio": 0.8246532565193737,
+          "status": "PASS"
+        }
+      ],
+      "status": "PASS",
+      "temporal_status": "PASS"
+    },
+    {
+      "dataset": "oblique_a0_p3_r2",
+      "final_time_refinement": {
+        "g": 2.3931434611768054e-09,
+        "v": 6.442682831675484e-09
+      },
+      "original_equations": {
+        "oblique_a0_p3_r2_n24": "PASS",
+        "oblique_a0_p3_r2_n24_half": "PASS",
+        "oblique_a0_p3_r2_n32": "PASS"
+      },
+      "spatial": [
+        {
+          "all_points_both_meshes_max": 2.33562613694005e-10,
+          "coarse_common8_max": 1.9004681162115844e-10,
+          "fine_common8_max": 2.162305889896743e-10,
+          "order": 6,
+          "ratio": 0.8789080791443148,
+          "status": "PASS"
+        },
+        {
+          "all_points_both_meshes_max": 2.3691509865031435e-10,
+          "coarse_common8_max": 1.9125068195791073e-10,
+          "fine_common8_max": 2.1874307920555225e-10,
+          "order": 8,
+          "ratio": 0.8743164933606563,
+          "status": "PASS"
+        }
+      ],
+      "status": "PASS",
+      "temporal_status": "PASS"
+    },
+    {
+      "dataset": "axial_a1",
+      "final_time_refinement": {
+        "g": 4.023739563763229e-09,
+        "v": 8.769823978127533e-09
+      },
+      "original_equations": {
+        "axial_a1_n24": "PASS",
+        "axial_a1_n24_half": "PASS",
+        "axial_a1_n32": "PASS"
+      },
+      "spatial": [
+        {
+          "all_points_both_meshes_max": 3.431209760762499e-10,
+          "coarse_common8_max": 3.1092500796248146e-10,
+          "fine_common8_max": 2.498891094049327e-10,
+          "order": 6,
+          "ratio": 1.2442519351999577,
+          "status": "PASS"
+        },
+        {
+          "all_points_both_meshes_max": 3.4701114204338523e-10,
+          "coarse_common8_max": 3.145795846037913e-10,
+          "fine_common8_max": 2.5366958533723505e-10,
+          "order": 8,
+          "ratio": 1.240115499797033,
+          "status": "PASS"
+        }
+      ],
+      "status": "PASS",
+      "temporal_status": "PASS"
+    },
+    {
+      "dataset": "oblique_a1_p0_r0",
+      "final_time_refinement": {
+        "g": 3.342080390211777e-09,
+        "v": 1.257721038427917e-08
+      },
+      "original_equations": {
+        "oblique_a1_p0_r0_n24": "PASS",
+        "oblique_a1_p0_r0_n24_half": "PASS",
+        "oblique_a1_p0_r0_n32": "PASS"
+      },
+      "spatial": [
+        {
+          "all_points_both_meshes_max": 6.236038352369633e-10,
+          "coarse_common8_max": 5.901511501704704e-10,
+          "fine_common8_max": 5.736434660619238e-10,
+          "order": 6,
+          "ratio": 1.0287769060142393,
+          "status": "PASS"
+        },
+        {
+          "all_points_both_meshes_max": 6.233655258647275e-10,
+          "coarse_common8_max": 5.901691912946205e-10,
+          "fine_common8_max": 5.741169761819265e-10,
+          "order": 8,
+          "ratio": 1.0279598335855644,
+          "status": "PASS"
+        }
+      ],
+      "status": "PASS",
+      "temporal_status": "PASS"
+    },
+    {
+      "dataset": "oblique_a1_p0_r1",
+      "final_time_refinement": {
+        "g": 3.261408920707254e-09,
+        "v": 1.2354817613413616e-08
+      },
+      "original_equations": {
+        "oblique_a1_p0_r1_n24": "PASS",
+        "oblique_a1_p0_r1_n24_half": "PASS",
+        "oblique_a1_p0_r1_n32": "PASS"
+      },
+      "spatial": [
+        {
+          "all_points_both_meshes_max": 5.841153116747932e-10,
+          "coarse_common8_max": 5.299800043268021e-10,
+          "fine_common8_max": 5.30134325327225e-10,
+          "order": 6,
+          "ratio": 0.9997089020781146,
+          "status": "PASS"
+        },
+        {
+          "all_points_both_meshes_max": 5.872470842938071e-10,
+          "coarse_common8_max": 5.348270160077107e-10,
+          "fine_common8_max": 5.323508855958892e-10,
+          "order": 8,
+          "ratio": 1.0046513126564067,
+          "status": "PASS"
+        }
+      ],
+      "status": "PASS",
+      "temporal_status": "PASS"
+    },
+    {
+      "dataset": "oblique_a1_p0_r2",
+      "final_time_refinement": {
+        "g": 3.058019615309604e-09,
+        "v": 1.1149317913350387e-08
+      },
+      "original_equations": {
+        "oblique_a1_p0_r2_n24": "PASS",
+        "oblique_a1_p0_r2_n24_half": "PASS",
+        "oblique_a1_p0_r2_n32": "PASS"
+      },
+      "spatial": [
+        {
+          "all_points_both_meshes_max": 5.054963114758948e-10,
+          "coarse_common8_max": 4.6351256166587973e-10,
+          "fine_common8_max": 4.846785195411485e-10,
+          "order": 6,
+          "ratio": 0.9563299031793139,
+          "status": "PASS"
+        },
+        {
+          "all_points_both_meshes_max": 5.114576540066196e-10,
+          "coarse_common8_max": 4.677345177839243e-10,
+          "fine_common8_max": 4.909054829305148e-10,
+          "order": 8,
+          "ratio": 0.9527995389086532,
+          "status": "PASS"
+        }
+      ],
+      "status": "PASS",
+      "temporal_status": "PASS"
+    },
+    {
+      "dataset": "oblique_a1_p1_r0",
+      "final_time_refinement": {
+        "g": 3.345160592971297e-09,
+        "v": 1.2536382598682394e-08
+      },
+      "original_equations": {
+        "oblique_a1_p1_r0_n24": "PASS",
+        "oblique_a1_p1_r0_n24_half": "PASS",
+        "oblique_a1_p1_r0_n32": "PASS"
+      },
+      "spatial": [
+        {
+          "all_points_both_meshes_max": 6.309563982398458e-10,
+          "coarse_common8_max": 6.309563982398458e-10,
+          "fine_common8_max": 5.679506309697047e-10,
+          "order": 6,
+          "ratio": 1.1109352887988992,
+          "status": "PASS"
+        },
+        {
+          "all_points_both_meshes_max": 6.31316499077883e-10,
+          "coarse_common8_max": 6.31316499077883e-10,
+          "fine_common8_max": 5.695472982125693e-10,
+          "order": 8,
+          "ratio": 1.1084531540385956,
+          "status": "PASS"
+        }
+      ],
+      "status": "PASS",
+      "temporal_status": "PASS"
+    },
+    {
+      "dataset": "oblique_a1_p1_r1",
+      "final_time_refinement": {
+        "g": 3.261369840856787e-09,
+        "v": 1.2323937426117482e-08
+      },
+      "original_equations": {
+        "oblique_a1_p1_r1_n24": "PASS",
+        "oblique_a1_p1_r1_n24_half": "PASS",
+        "oblique_a1_p1_r1_n32": "PASS"
+      },
+      "spatial": [
+        {
+          "all_points_both_meshes_max": 6.187761969478345e-10,
+          "coarse_common8_max": 5.437473249436664e-10,
+          "fine_common8_max": 5.183157791854853e-10,
+          "order": 6,
+          "ratio": 1.0490657371036356,
+          "status": "PASS"
+        },
+        {
+          "all_points_both_meshes_max": 6.221160808728143e-10,
+          "coarse_common8_max": 5.444170669832715e-10,
+          "fine_common8_max": 5.192093976980061e-10,
+          "order": 8,
+          "ratio": 1.04855010213033,
+          "status": "PASS"
+        }
+      ],
+      "status": "PASS",
+      "temporal_status": "PASS"
+    },
+    {
+      "dataset": "oblique_a1_p1_r2",
+      "final_time_refinement": {
+        "g": 3.057877506762452e-09,
+        "v": 1.1129159815936873e-08
+      },
+      "original_equations": {
+        "oblique_a1_p1_r2_n24": "PASS",
+        "oblique_a1_p1_r2_n24_half": "PASS",
+        "oblique_a1_p1_r2_n32": "PASS"
+      },
+      "spatial": [
+        {
+          "all_points_both_meshes_max": 5.187460461186788e-10,
+          "coarse_common8_max": 4.689382770983741e-10,
+          "fine_common8_max": 4.5471149068276873e-10,
+          "order": 6,
+          "ratio": 1.0312875014313874,
+          "status": "PASS"
+        },
+        {
+          "all_points_both_meshes_max": 5.263434688096424e-10,
+          "coarse_common8_max": 4.738971437490136e-10,
+          "fine_common8_max": 4.5789311231558827e-10,
+          "order": 8,
+          "ratio": 1.0349514570168836,
+          "status": "PASS"
+        }
+      ],
+      "status": "PASS",
+      "temporal_status": "PASS"
+    },
+    {
+      "dataset": "oblique_a1_p2_r0",
+      "final_time_refinement": {
+        "g": 3.3534490739839384e-09,
+        "v": 1.2481756073157158e-08
+      },
+      "original_equations": {
+        "oblique_a1_p2_r0_n24": "PASS",
+        "oblique_a1_p2_r0_n24_half": "PASS",
+        "oblique_a1_p2_r0_n32": "PASS"
+      },
+      "spatial": [
+        {
+          "all_points_both_meshes_max": 6.489615511640068e-10,
+          "coarse_common8_max": 6.067209512572447e-10,
+          "fine_common8_max": 5.548280168632402e-10,
+          "order": 6,
+          "ratio": 1.093529765651318,
+          "status": "PASS"
+        },
+        {
+          "all_points_both_meshes_max": 6.495373683357286e-10,
+          "coarse_common8_max": 6.053282874951549e-10,
+          "fine_common8_max": 5.534364078130238e-10,
+          "order": 8,
+          "ratio": 1.093763039347535,
+          "status": "PASS"
+        }
+      ],
+      "status": "PASS",
+      "temporal_status": "PASS"
+    },
+    {
+      "dataset": "oblique_a1_p2_r1",
+      "final_time_refinement": {
+        "g": 3.260996805920513e-09,
+        "v": 1.2238707824963058e-08
+      },
+      "original_equations": {
+        "oblique_a1_p2_r1_n24": "PASS",
+        "oblique_a1_p2_r1_n24_half": "PASS",
+        "oblique_a1_p2_r1_n32": "PASS"
+      },
+      "spatial": [
+        {
+          "all_points_both_meshes_max": 5.668667202307631e-10,
+          "coarse_common8_max": 5.228767974152504e-10,
+          "fine_common8_max": 5.159803695420351e-10,
+          "order": 6,
+          "ratio": 1.0133656787744394,
+          "status": "PASS"
+        },
+        {
+          "all_points_both_meshes_max": 5.718698847800852e-10,
+          "coarse_common8_max": 5.224990440311217e-10,
+          "fine_common8_max": 5.156701732289548e-10,
+          "order": 8,
+          "ratio": 1.0132427104701571,
+          "status": "PASS"
+        }
+      ],
+      "status": "PASS",
+      "temporal_status": "PASS"
+    },
+    {
+      "dataset": "oblique_a1_p2_r2",
+      "final_time_refinement": {
+        "g": 3.0531452921422897e-09,
+        "v": 1.102532820596025e-08
+      },
+      "original_equations": {
+        "oblique_a1_p2_r2_n24": "PASS",
+        "oblique_a1_p2_r2_n24_half": "PASS",
+        "oblique_a1_p2_r2_n32": "PASS"
+      },
+      "spatial": [
+        {
+          "all_points_both_meshes_max": 5.130282865195568e-10,
+          "coarse_common8_max": 4.678508136457538e-10,
+          "fine_common8_max": 4.739355019545144e-10,
+          "order": 6,
+          "ratio": 0.9871613578563595,
+          "status": "PASS"
+        },
+        {
+          "all_points_both_meshes_max": 5.201566399826163e-10,
+          "coarse_common8_max": 4.72114458638373e-10,
+          "fine_common8_max": 4.778366591295935e-10,
+          "order": 8,
+          "ratio": 0.9880247771243759,
+          "status": "PASS"
+        }
+      ],
+      "status": "PASS",
+      "temporal_status": "PASS"
+    },
+    {
+      "dataset": "oblique_a1_p3_r0",
+      "final_time_refinement": {
+        "g": 3.3557050471699768e-09,
+        "v": 1.2418951200743322e-08
+      },
+      "original_equations": {
+        "oblique_a1_p3_r0_n24": "PASS",
+        "oblique_a1_p3_r0_n24_half": "PASS",
+        "oblique_a1_p3_r0_n32": "PASS"
+      },
+      "spatial": [
+        {
+          "all_points_both_meshes_max": 6.684508502274866e-10,
+          "coarse_common8_max": 6.016853126844524e-10,
+          "fine_common8_max": 5.576115680305804e-10,
+          "order": 6,
+          "ratio": 1.079040226531769,
+          "status": "PASS"
+        },
+        {
+          "all_points_both_meshes_max": 6.6879995985758e-10,
+          "coarse_common8_max": 6.022556897633535e-10,
+          "fine_common8_max": 5.596999530510516e-10,
+          "order": 8,
+          "ratio": 1.0760331253921338,
+          "status": "PASS"
+        }
+      ],
+      "status": "PASS",
+      "temporal_status": "PASS"
+    },
+    {
+      "dataset": "oblique_a1_p3_r1",
+      "final_time_refinement": {
+        "g": 3.260623770984239e-09,
+        "v": 1.2084647948995553e-08
+      },
+      "original_equations": {
+        "oblique_a1_p3_r1_n24": "PASS",
+        "oblique_a1_p3_r1_n24_half": "PASS",
+        "oblique_a1_p3_r1_n32": "PASS"
+      },
+      "spatial": [
+        {
+          "all_points_both_meshes_max": 5.565033989185508e-10,
+          "coarse_common8_max": 5.421061377575143e-10,
+          "fine_common8_max": 5.164226268838945e-10,
+          "order": 6,
+          "ratio": 1.0497335119272264,
+          "status": "PASS"
+        },
+        {
+          "all_points_both_meshes_max": 5.584205875486248e-10,
+          "coarse_common8_max": 5.438722250339367e-10,
+          "fine_common8_max": 5.152278048647929e-10,
+          "order": 8,
+          "ratio": 1.0555956411876117,
+          "status": "PASS"
+        }
+      ],
+      "status": "PASS",
+      "temporal_status": "PASS"
+    },
+    {
+      "dataset": "oblique_a1_p3_r2",
+      "final_time_refinement": {
+        "g": 3.043556517923207e-09,
+        "v": 1.0869435129734484e-08
+      },
+      "original_equations": {
+        "oblique_a1_p3_r2_n24": "PASS",
+        "oblique_a1_p3_r2_n24_half": "PASS",
+        "oblique_a1_p3_r2_n32": "PASS"
+      },
+      "spatial": [
+        {
+          "all_points_both_meshes_max": 5.201074571026254e-10,
+          "coarse_common8_max": 4.750483340032474e-10,
+          "fine_common8_max": 4.6361631200753095e-10,
+          "order": 6,
+          "ratio": 1.0246583687839068,
+          "status": "PASS"
+        },
+        {
+          "all_points_both_meshes_max": 5.262831281882541e-10,
+          "coarse_common8_max": 4.797049424354327e-10,
+          "fine_common8_max": 4.675723142000265e-10,
+          "order": 8,
+          "ratio": 1.0259481322288382,
+          "status": "PASS"
+        }
+      ],
+      "status": "PASS",
+      "temporal_status": "PASS"
+    },
+    {
+      "dataset": "axial_a2",
+      "final_time_refinement": {
+        "g": 7.66219798720158e-09,
+        "v": 2.000210486130527e-08
+      },
+      "original_equations": {
+        "axial_a2_n24": "PASS",
+        "axial_a2_n24_half": "PASS",
+        "axial_a2_n32": "PASS"
+      },
+      "spatial": [
+        {
+          "all_points_both_meshes_max": 8.395139028394283e-10,
+          "coarse_common8_max": 7.8078682408389e-10,
+          "fine_common8_max": 5.34715716149492e-10,
+          "order": 6,
+          "ratio": 1.4601905283547028,
+          "status": "PASS"
+        },
+        {
+          "all_points_both_meshes_max": 8.472142432047747e-10,
+          "coarse_common8_max": 7.887289155128485e-10,
+          "fine_common8_max": 5.483108966863881e-10,
+          "order": 8,
+          "ratio": 1.4384702552500428,
+          "status": "PASS"
+        }
+      ],
+      "status": "PASS",
+      "temporal_status": "PASS"
+    },
+    {
+      "dataset": "oblique_a2_p0_r0",
+      "final_time_refinement": {
+        "g": 5.952774273509931e-09,
+        "v": 2.8836339538429456e-08
+      },
+      "original_equations": {
+        "oblique_a2_p0_r0_n24": "PASS",
+        "oblique_a2_p0_r0_n24_half": "PASS",
+        "oblique_a2_p0_r0_n32": "PASS"
+      },
+      "spatial": [
+        {
+          "all_points_both_meshes_max": 1.7507213456724458e-09,
+          "coarse_common8_max": 1.664420268276956e-09,
+          "fine_common8_max": 1.2938217164304433e-09,
+          "order": 6,
+          "ratio": 1.2864371088691928,
+          "status": "PASS"
+        },
+        {
+          "all_points_both_meshes_max": 1.7571745170030795e-09,
+          "coarse_common8_max": 1.667861460052933e-09,
+          "fine_common8_max": 1.2969165186227372e-09,
+          "order": 8,
+          "ratio": 1.2860206775869594,
+          "status": "PASS"
+        }
+      ],
+      "status": "PASS",
+      "temporal_status": "PASS"
+    },
+    {
+      "dataset": "oblique_a2_p0_r1",
+      "final_time_refinement": {
+        "g": 5.805556924087796e-09,
+        "v": 2.808037891099957e-08
+      },
+      "original_equations": {
+        "oblique_a2_p0_r1_n24": "PASS",
+        "oblique_a2_p0_r1_n24_half": "PASS",
+        "oblique_a2_p0_r1_n32": "PASS"
+      },
+      "spatial": [
+        {
+          "all_points_both_meshes_max": 1.6917472422939284e-09,
+          "coarse_common8_max": 1.6756555587527089e-09,
+          "fine_common8_max": 1.2851416597570164e-09,
+          "order": 6,
+          "ratio": 1.3038683681529144,
+          "status": "PASS"
+        },
+        {
+          "all_points_both_meshes_max": 1.7123372719751728e-09,
+          "coarse_common8_max": 1.6978942141143705e-09,
+          "fine_common8_max": 1.3056902226082912e-09,
+          "order": 8,
+          "ratio": 1.300380583935598,
+          "status": "PASS"
+        }
+      ],
+      "status": "PASS",
+      "temporal_status": "PASS"
+    },
+    {
+      "dataset": "oblique_a2_p0_r2",
+      "final_time_refinement": {
+        "g": 5.4500581825323025e-09,
+        "v": 2.6208631709323527e-08
+      },
+      "original_equations": {
+        "oblique_a2_p0_r2_n24": "PASS",
+        "oblique_a2_p0_r2_n24_half": "PASS",
+        "oblique_a2_p0_r2_n32": "PASS"
+      },
+      "spatial": [
+        {
+          "all_points_both_meshes_max": 1.5397753072576847e-09,
+          "coarse_common8_max": 1.4979018581051662e-09,
+          "fine_common8_max": 1.2651494296633814e-09,
+          "order": 6,
+          "ratio": 1.1839722826288697,
+          "status": "PASS"
+        },
+        {
+          "all_points_both_meshes_max": 1.560339135675548e-09,
+          "coarse_common8_max": 1.5181476076264744e-09,
+          "fine_common8_max": 1.2860969511585552e-09,
+          "order": 8,
+          "ratio": 1.1804301427344812,
+          "status": "PASS"
+        }
+      ],
+      "status": "PASS",
+      "temporal_status": "PASS"
+    },
+    {
+      "dataset": "oblique_a2_p1_r0",
+      "final_time_refinement": {
+        "g": 5.962082383348388e-09,
+        "v": 2.882359240174992e-08
+      },
+      "original_equations": {
+        "oblique_a2_p1_r0_n24": "PASS",
+        "oblique_a2_p1_r0_n24_half": "PASS",
+        "oblique_a2_p1_r0_n32": "PASS"
+      },
+      "spatial": [
+        {
+          "all_points_both_meshes_max": 1.7708575161812234e-09,
+          "coarse_common8_max": 1.7176469135904426e-09,
+          "fine_common8_max": 1.3469623749706727e-09,
+          "order": 6,
+          "ratio": 1.275200366029408,
+          "status": "PASS"
+        },
+        {
+          "all_points_both_meshes_max": 1.7761127013571354e-09,
+          "coarse_common8_max": 1.721298992229947e-09,
+          "fine_common8_max": 1.3522108432972857e-09,
+          "order": 8,
+          "ratio": 1.2729516264140153,
+          "status": "PASS"
+        }
+      ],
+      "status": "PASS",
+      "temporal_status": "PASS"
+    },
+    {
+      "dataset": "oblique_a2_p1_r1",
+      "final_time_refinement": {
+        "g": 5.819334347734184e-09,
+        "v": 2.8031820420437725e-08
+      },
+      "original_equations": {
+        "oblique_a2_p1_r1_n24": "PASS",
+        "oblique_a2_p1_r1_n24_half": "PASS",
+        "oblique_a2_p1_r1_n32": "PASS"
+      },
+      "spatial": [
+        {
+          "all_points_both_meshes_max": 1.6899392996094775e-09,
+          "coarse_common8_max": 1.6282840076264904e-09,
+          "fine_common8_max": 1.249939929337529e-09,
+          "order": 6,
+          "ratio": 1.3026898088530419,
+          "status": "PASS"
+        },
+        {
+          "all_points_both_meshes_max": 1.7118489403777915e-09,
+          "coarse_common8_max": 1.6484600351418521e-09,
+          "fine_common8_max": 1.2701268370385321e-09,
+          "order": 8,
+          "ratio": 1.2978704071677232,
+          "status": "PASS"
+        }
+      ],
+      "status": "PASS",
+      "temporal_status": "PASS"
+    },
+    {
+      "dataset": "oblique_a2_p1_r2",
+      "final_time_refinement": {
+        "g": 5.446981532486461e-09,
+        "v": 2.617799310655755e-08
+      },
+      "original_equations": {
+        "oblique_a2_p1_r2_n24": "PASS",
+        "oblique_a2_p1_r2_n24_half": "PASS",
+        "oblique_a2_p1_r2_n32": "PASS"
+      },
+      "spatial": [
+        {
+          "all_points_both_meshes_max": 1.5425482002839885e-09,
+          "coarse_common8_max": 1.488679013395e-09,
+          "fine_common8_max": 1.2278471572813032e-09,
+          "order": 6,
+          "ratio": 1.212430231700198,
+          "status": "PASS"
+        },
+        {
+          "all_points_both_meshes_max": 1.5633339067733232e-09,
+          "coarse_common8_max": 1.5098972072635775e-09,
+          "fine_common8_max": 1.247187852992937e-09,
+          "order": 8,
+          "ratio": 1.2106413670083493,
+          "status": "PASS"
+        }
+      ],
+      "status": "PASS",
+      "temporal_status": "PASS"
+    },
+    {
+      "dataset": "oblique_a2_p2_r0",
+      "final_time_refinement": {
+        "g": 5.9948632724626805e-09,
+        "v": 2.842235602429355e-08
+      },
+      "original_equations": {
+        "oblique_a2_p2_r0_n24": "PASS",
+        "oblique_a2_p2_r0_n24_half": "PASS",
+        "oblique_a2_p2_r0_n32": "PASS"
+      },
+      "spatial": [
+        {
+          "all_points_both_meshes_max": 1.8108455290821723e-09,
+          "coarse_common8_max": 1.774272229138063e-09,
+          "fine_common8_max": 1.3789018260546015e-09,
+          "order": 6,
+          "ratio": 1.2867284643568278,
+          "status": "PASS"
+        },
+        {
+          "all_points_both_meshes_max": 1.8153727410208376e-09,
+          "coarse_common8_max": 1.7801616847279433e-09,
+          "fine_common8_max": 1.383342662641951e-09,
+          "order": 8,
+          "ratio": 1.2868551898255889,
+          "status": "PASS"
+        }
+      ],
+      "status": "PASS",
+      "temporal_status": "PASS"
+    },
+    {
+      "dataset": "oblique_a2_p2_r1",
+      "final_time_refinement": {
+        "g": 5.8179026041216275e-09,
+        "v": 2.769095885923889e-08
+      },
+      "original_equations": {
+        "oblique_a2_p2_r1_n24": "PASS",
+        "oblique_a2_p2_r1_n24_half": "PASS",
+        "oblique_a2_p2_r1_n32": "PASS"
+      },
+      "spatial": [
+        {
+          "all_points_both_meshes_max": 1.767591184531625e-09,
+          "coarse_common8_max": 1.5980916034941117e-09,
+          "fine_common8_max": 1.2614622124651476e-09,
+          "order": 6,
+          "ratio": 1.2668565001016745,
+          "status": "PASS"
+        },
+        {
+          "all_points_both_meshes_max": 1.7915951500135918e-09,
+          "coarse_common8_max": 1.6171432526412843e-09,
+          "fine_common8_max": 1.282431494331604e-09,
+          "order": 8,
+          "ratio": 1.2609977685273008,
+          "status": "PASS"
+        }
+      ],
+      "status": "PASS",
+      "temporal_status": "PASS"
+    },
+    {
+      "dataset": "oblique_a2_p2_r2",
+      "final_time_refinement": {
+        "g": 5.426475269132425e-09,
+        "v": 2.604524240723549e-08
+      },
+      "original_equations": {
+        "oblique_a2_p2_r2_n24": "PASS",
+        "oblique_a2_p2_r2_n24_half": "PASS",
+        "oblique_a2_p2_r2_n32": "PASS"
+      },
+      "spatial": [
+        {
+          "all_points_both_meshes_max": 1.5914568551878006e-09,
+          "coarse_common8_max": 1.4424058614181945e-09,
+          "fine_common8_max": 1.2445252051129785e-09,
+          "order": 6,
+          "ratio": 1.1590009229963747,
+          "status": "PASS"
+        },
+        {
+          "all_points_both_meshes_max": 1.6137448044517555e-09,
+          "coarse_common8_max": 1.4627568600822372e-09,
+          "fine_common8_max": 1.2654730041639084e-09,
+          "order": 8,
+          "ratio": 1.1558973247704112,
+          "status": "PASS"
+        }
+      ],
+      "status": "PASS",
+      "temporal_status": "PASS"
+    },
+    {
+      "dataset": "oblique_a2_p3_r0",
+      "final_time_refinement": {
+        "g": 5.991278584360771e-09,
+        "v": 2.8526351059099397e-08
+      },
+      "original_equations": {
+        "oblique_a2_p3_r0_n24": "PASS",
+        "oblique_a2_p3_r0_n24_half": "PASS",
+        "oblique_a2_p3_r0_n32": "PASS"
+      },
+      "spatial": [
+        {
+          "all_points_both_meshes_max": 1.8464353934710687e-09,
+          "coarse_common8_max": 1.6047334572277805e-09,
+          "fine_common8_max": 1.2960976181197736e-09,
+          "order": 6,
+          "ratio": 1.2381270012329315,
+          "status": "PASS"
+        },
+        {
+          "all_points_both_meshes_max": 1.8518513944520976e-09,
+          "coarse_common8_max": 1.610465483192769e-09,
+          "fine_common8_max": 1.2997751763776932e-09,
+          "order": 8,
+          "ratio": 1.2390338825218448,
+          "status": "PASS"
+        }
+      ],
+      "status": "PASS",
+      "temporal_status": "PASS"
+    },
+    {
+      "dataset": "oblique_a2_p3_r1",
+      "final_time_refinement": {
+        "g": 5.785945944580817e-09,
+        "v": 2.7294682070078125e-08
+      },
+      "original_equations": {
+        "oblique_a2_p3_r1_n24": "PASS",
+        "oblique_a2_p3_r1_n24_half": "PASS",
+        "oblique_a2_p3_r1_n32": "PASS"
+      },
+      "spatial": [
+        {
+          "all_points_both_meshes_max": 1.7677260211179657e-09,
+          "coarse_common8_max": 1.5322353941193967e-09,
+          "fine_common8_max": 1.2208605792984883e-09,
+          "order": 6,
+          "ratio": 1.2550453508784971,
+          "status": "PASS"
+        },
+        {
+          "all_points_both_meshes_max": 1.7901205517922847e-09,
+          "coarse_common8_max": 1.5532993780098536e-09,
+          "fine_common8_max": 1.2411399130662915e-09,
+          "order": 8,
+          "ratio": 1.2515102944134302,
+          "status": "PASS"
+        }
+      ],
+      "status": "PASS",
+      "temporal_status": "PASS"
+    },
+    {
+      "dataset": "oblique_a2_p3_r2",
+      "final_time_refinement": {
+        "g": 5.3842903469103476e-09,
+        "v": 2.570232737753031e-08
+      },
+      "original_equations": {
+        "oblique_a2_p3_r2_n24": "PASS",
+        "oblique_a2_p3_r2_n24_half": "PASS",
+        "oblique_a2_p3_r2_n32": "PASS"
+      },
+      "spatial": [
+        {
+          "all_points_both_meshes_max": 1.633646662391186e-09,
+          "coarse_common8_max": 1.4711271090206424e-09,
+          "fine_common8_max": 1.3106955520925112e-09,
+          "order": 6,
+          "ratio": 1.1224018473794344,
+          "status": "PASS"
+        },
+        {
+          "all_points_both_meshes_max": 1.6583133755077029e-09,
+          "coarse_common8_max": 1.4937681092064281e-09,
+          "fine_common8_max": 1.335400179325319e-09,
+          "order": 8,
+          "ratio": 1.1185921136846941,
+          "status": "PASS"
+        }
+      ],
+      "status": "PASS",
+      "temporal_status": "PASS"
+    },
+    {
+      "dataset": "axial_a3",
+      "final_time_refinement": {
+        "g": 1.3459995784614875e-08,
+        "v": 4.1059344368932216e-08
+      },
+      "original_equations": {
+        "axial_a3_n24": "PASS",
+        "axial_a3_n24_half": "PASS",
+        "axial_a3_n32": "PASS"
+      },
+      "spatial": [
+        {
+          "all_points_both_meshes_max": 1.4119080904428927e-09,
+          "coarse_common8_max": 1.3497916673266275e-09,
+          "fine_common8_max": 9.136756906613641e-10,
+          "order": 6,
+          "ratio": 1.4773203239648205,
+          "status": "PASS"
+        },
+        {
+          "all_points_both_meshes_max": 1.4259589620202462e-09,
+          "coarse_common8_max": 1.3636390350235672e-09,
+          "fine_common8_max": 9.408057666249192e-10,
+          "order": 8,
+          "ratio": 1.449437368900847,
+          "status": "PASS"
+        }
+      ],
+      "status": "PASS",
+      "temporal_status": "PASS"
+    },
+    {
+      "dataset": "oblique_a3_p0_r0",
+      "final_time_refinement": {
+        "g": 9.919833843241577e-09,
+        "v": 5.2325326294067054e-08
+      },
+      "original_equations": {
+        "oblique_a3_p0_r0_n24": "PASS",
+        "oblique_a3_p0_r0_n24_half": "PASS",
+        "oblique_a3_p0_r0_n32": "PASS"
+      },
+      "spatial": [
+        {
+          "all_points_both_meshes_max": 3.3532201459962607e-09,
+          "coarse_common8_max": 3.326886821586328e-09,
+          "fine_common8_max": 2.259464337850403e-09,
+          "order": 6,
+          "ratio": 1.4724228065274283,
+          "status": "PASS"
+        },
+        {
+          "all_points_both_meshes_max": 3.4059333686720095e-09,
+          "coarse_common8_max": 3.3799029131031944e-09,
+          "fine_common8_max": 2.3001217597240498e-09,
+          "order": 8,
+          "ratio": 1.4694452147214538,
+          "status": "PASS"
+        }
+      ],
+      "status": "PASS",
+      "temporal_status": "PASS"
+    },
+    {
+      "dataset": "oblique_a3_p0_r1",
+      "final_time_refinement": {
+        "g": 9.757705754509516e-09,
+        "v": 5.2285905383087083e-08
+      },
+      "original_equations": {
+        "oblique_a3_p0_r1_n24": "PASS",
+        "oblique_a3_p0_r1_n24_half": "PASS",
+        "oblique_a3_p0_r1_n32": "PASS"
+      },
+      "spatial": [
+        {
+          "all_points_both_meshes_max": 3.595953534940577e-09,
+          "coarse_common8_max": 3.4600674547746735e-09,
+          "fine_common8_max": 2.5005631454355637e-09,
+          "order": 6,
+          "ratio": 1.3837152887302822,
+          "status": "PASS"
+        },
+        {
+          "all_points_both_meshes_max": 3.653095548283858e-09,
+          "coarse_common8_max": 3.5146864307833425e-09,
+          "fine_common8_max": 2.5561052718892086e-09,
+          "order": 8,
+          "ratio": 1.3750163068149577,
+          "status": "PASS"
+        }
+      ],
+      "status": "PASS",
+      "temporal_status": "PASS"
+    },
+    {
+      "dataset": "oblique_a3_p0_r2",
+      "final_time_refinement": {
+        "g": 9.338197770603074e-09,
+        "v": 5.0617920521744963e-08
+      },
+      "original_equations": {
+        "oblique_a3_p0_r2_n24": "PASS",
+        "oblique_a3_p0_r2_n24_half": "PASS",
+        "oblique_a3_p0_r2_n32": "PASS"
+      },
+      "spatial": [
+        {
+          "all_points_both_meshes_max": 3.2771581004453765e-09,
+          "coarse_common8_max": 3.156810035598312e-09,
+          "fine_common8_max": 2.4768552764342644e-09,
+          "order": 6,
+          "ratio": 1.2745234110500494,
+          "status": "PASS"
+        },
+        {
+          "all_points_both_meshes_max": 3.3317348879791098e-09,
+          "coarse_common8_max": 3.2102574487602453e-09,
+          "fine_common8_max": 2.5313660056980325e-09,
+          "order": 8,
+          "ratio": 1.2681917358193353,
+          "status": "PASS"
+        }
+      ],
+      "status": "PASS",
+      "temporal_status": "PASS"
+    },
+    {
+      "dataset": "oblique_a3_p1_r0",
+      "final_time_refinement": {
+        "g": 9.915041232488875e-09,
+        "v": 5.240504918901934e-08
+      },
+      "original_equations": {
+        "oblique_a3_p1_r0_n24": "PASS",
+        "oblique_a3_p1_r0_n24_half": "PASS",
+        "oblique_a3_p1_r0_n32": "PASS"
+      },
+      "spatial": [
+        {
+          "all_points_both_meshes_max": 3.4371610002637e-09,
+          "coarse_common8_max": 3.254455482881724e-09,
+          "fine_common8_max": 2.319004599460328e-09,
+          "order": 6,
+          "ratio": 1.4033846606596172,
+          "status": "PASS"
+        },
+        {
+          "all_points_both_meshes_max": 3.4904685808356817e-09,
+          "coarse_common8_max": 3.301183382209416e-09,
+          "fine_common8_max": 2.3315189778827516e-09,
+          "order": 8,
+          "ratio": 1.4158938501144926,
+          "status": "PASS"
+        }
+      ],
+      "status": "PASS",
+      "temporal_status": "PASS"
+    },
+    {
+      "dataset": "oblique_a3_p1_r1",
+      "final_time_refinement": {
+        "g": 9.743992279709346e-09,
+        "v": 5.293197347100431e-08
+      },
+      "original_equations": {
+        "oblique_a3_p1_r1_n24": "PASS",
+        "oblique_a3_p1_r1_n24_half": "PASS",
+        "oblique_a3_p1_r1_n32": "PASS"
+      },
+      "spatial": [
+        {
+          "all_points_both_meshes_max": 3.5777324991492776e-09,
+          "coarse_common8_max": 3.3945702915261222e-09,
+          "fine_common8_max": 2.417319011627228e-09,
+          "order": 6,
+          "ratio": 1.4042707128013914,
+          "status": "PASS"
+        },
+        {
+          "all_points_both_meshes_max": 3.6358315802509367e-09,
+          "coarse_common8_max": 3.446654572858421e-09,
+          "fine_common8_max": 2.4680720245306986e-09,
+          "order": 8,
+          "ratio": 1.3964967547953948,
+          "status": "PASS"
+        }
+      ],
+      "status": "PASS",
+      "temporal_status": "PASS"
+    },
+    {
+      "dataset": "oblique_a3_p1_r2",
+      "final_time_refinement": {
+        "g": 9.341960094388924e-09,
+        "v": 5.14224893777282e-08
+      },
+      "original_equations": {
+        "oblique_a3_p1_r2_n24": "PASS",
+        "oblique_a3_p1_r2_n24_half": "PASS",
+        "oblique_a3_p1_r2_n32": "PASS"
+      },
+      "spatial": [
+        {
+          "all_points_both_meshes_max": 3.2374830594150694e-09,
+          "coarse_common8_max": 3.1385044008125362e-09,
+          "fine_common8_max": 2.4570404044688132e-09,
+          "order": 6,
+          "ratio": 1.2773515629227303,
+          "status": "PASS"
+        },
+        {
+          "all_points_both_meshes_max": 3.292047634495532e-09,
+          "coarse_common8_max": 3.1934316302439925e-09,
+          "fine_common8_max": 2.5125801994541064e-09,
+          "order": 8,
+          "ratio": 1.2709769944608378,
+          "status": "PASS"
+        }
+      ],
+      "status": "PASS",
+      "temporal_status": "PASS"
+    },
+    {
+      "dataset": "oblique_a3_p2_r0",
+      "final_time_refinement": {
+        "g": 9.975494208447344e-09,
+        "v": 5.412263703874487e-08
+      },
+      "original_equations": {
+        "oblique_a3_p2_r0_n24": "PASS",
+        "oblique_a3_p2_r0_n24_half": "PASS",
+        "oblique_a3_p2_r0_n32": "PASS"
+      },
+      "spatial": [
+        {
+          "all_points_both_meshes_max": 3.527127145908082e-09,
+          "coarse_common8_max": 3.294276684773223e-09,
+          "fine_common8_max": 2.3283361905157562e-09,
+          "order": 6,
+          "ratio": 1.4148629816399059,
+          "status": "PASS"
+        },
+        {
+          "all_points_both_meshes_max": 3.5838552125966316e-09,
+          "coarse_common8_max": 3.3057790393975495e-09,
+          "fine_common8_max": 2.3420362316173282e-09,
+          "order": 8,
+          "ratio": 1.4114978217543177,
+          "status": "PASS"
+        }
+      ],
+      "status": "PASS",
+      "temporal_status": "PASS"
+    },
+    {
+      "dataset": "oblique_a3_p2_r1",
+      "final_time_refinement": {
+        "g": 9.76560343701749e-09,
+        "v": 5.504060140992806e-08
+      },
+      "original_equations": {
+        "oblique_a3_p2_r1_n24": "PASS",
+        "oblique_a3_p2_r1_n24_half": "PASS",
+        "oblique_a3_p2_r1_n32": "PASS"
+      },
+      "spatial": [
+        {
+          "all_points_both_meshes_max": 3.75588021794826e-09,
+          "coarse_common8_max": 3.3328420578904172e-09,
+          "fine_common8_max": 2.391819742264545e-09,
+          "order": 6,
+          "ratio": 1.3934336267058838,
+          "status": "PASS"
+        },
+        {
+          "all_points_both_meshes_max": 3.818199922900334e-09,
+          "coarse_common8_max": 3.381706692451303e-09,
+          "fine_common8_max": 2.439620616634386e-09,
+          "order": 8,
+          "ratio": 1.3861608929656388,
+          "status": "PASS"
+        }
+      ],
+      "status": "PASS",
+      "temporal_status": "PASS"
+    },
+    {
+      "dataset": "oblique_a3_p2_r2",
+      "final_time_refinement": {
+        "g": 9.292350000578153e-09,
+        "v": 5.327113683506468e-08
+      },
+      "original_equations": {
+        "oblique_a3_p2_r2_n24": "PASS",
+        "oblique_a3_p2_r2_n24_half": "PASS",
+        "oblique_a3_p2_r2_n32": "PASS"
+      },
+      "spatial": [
+        {
+          "all_points_both_meshes_max": 3.4463282228003322e-09,
+          "coarse_common8_max": 2.984220925927872e-09,
+          "fine_common8_max": 2.357080419734814e-09,
+          "order": 6,
+          "ratio": 1.2660666564204945,
+          "status": "PASS"
+        },
+        {
+          "all_points_both_meshes_max": 3.5096688333347004e-09,
+          "coarse_common8_max": 3.033686080122777e-09,
+          "fine_common8_max": 2.4045955226981164e-09,
+          "order": 8,
+          "ratio": 1.261620115103092,
+          "status": "PASS"
+        }
+      ],
+      "status": "PASS",
+      "temporal_status": "PASS"
+    },
+    {
+      "dataset": "oblique_a3_p3_r0",
+      "final_time_refinement": {
+        "g": 9.997588534815804e-09,
+        "v": 5.446319306656733e-08
+      },
+      "original_equations": {
+        "oblique_a3_p3_r0_n24": "PASS",
+        "oblique_a3_p3_r0_n24_half": "PASS",
+        "oblique_a3_p3_r0_n32": "PASS"
+      },
+      "spatial": [
+        {
+          "all_points_both_meshes_max": 3.5798710107393106e-09,
+          "coarse_common8_max": 3.04355890490271e-09,
+          "fine_common8_max": 2.2450651893102247e-09,
+          "order": 6,
+          "ratio": 1.3556661603388964,
+          "status": "PASS"
+        },
+        {
+          "all_points_both_meshes_max": 3.6369688927173627e-09,
+          "coarse_common8_max": 3.0808589013275878e-09,
+          "fine_common8_max": 2.2563954593657343e-09,
+          "order": 8,
+          "ratio": 1.3653896033781274,
+          "status": "PASS"
+        }
+      ],
+      "status": "PASS",
+      "temporal_status": "PASS"
+    },
+    {
+      "dataset": "oblique_a3_p3_r1",
+      "final_time_refinement": {
+        "g": 9.72650582298229e-09,
+        "v": 5.562001348380363e-08
+      },
+      "original_equations": {
+        "oblique_a3_p3_r1_n24": "PASS",
+        "oblique_a3_p3_r1_n24_half": "PASS",
+        "oblique_a3_p3_r1_n32": "PASS"
+      },
+      "spatial": [
+        {
+          "all_points_both_meshes_max": 3.796969072489276e-09,
+          "coarse_common8_max": 3.174831508800935e-09,
+          "fine_common8_max": 2.3695898021536266e-09,
+          "order": 6,
+          "ratio": 1.3398232495411044,
+          "status": "PASS"
+        },
+        {
+          "all_points_both_meshes_max": 3.8618842568283185e-09,
+          "coarse_common8_max": 3.2293104856861987e-09,
+          "fine_common8_max": 2.424346612350803e-09,
+          "order": 8,
+          "ratio": 1.3320333277570615,
+          "status": "PASS"
+        }
+      ],
+      "status": "PASS",
+      "temporal_status": "PASS"
+    },
+    {
+      "dataset": "oblique_a3_p3_r2",
+      "final_time_refinement": {
+        "g": 9.232127951008806e-09,
+        "v": 5.394208812958823e-08
+      },
+      "original_equations": {
+        "oblique_a3_p3_r2_n24": "PASS",
+        "oblique_a3_p3_r2_n24_half": "PASS",
+        "oblique_a3_p3_r2_n32": "PASS"
+      },
+      "spatial": [
+        {
+          "all_points_both_meshes_max": 3.493672962040506e-09,
+          "coarse_common8_max": 3.0273475948305872e-09,
+          "fine_common8_max": 2.4066030279712436e-09,
+          "order": 6,
+          "ratio": 1.2579339258052162,
+          "status": "PASS"
+        },
+        {
+          "all_points_both_meshes_max": 3.5575976609081295e-09,
+          "coarse_common8_max": 3.0820940799536345e-09,
+          "fine_common8_max": 2.4620952498999316e-09,
+          "order": 8,
+          "ratio": 1.2518175647667984,
+          "status": "PASS"
+        }
+      ],
+      "status": "PASS",
+      "temporal_status": "PASS"
+    },
+    {
+      "dataset": "axial_a4",
+      "final_time_refinement": {
+        "g": 2.1845156794597642e-08,
+        "v": 7.691701853218547e-08
+      },
+      "original_equations": {
+        "axial_a4_n24": "PASS",
+        "axial_a4_n24_half": "PASS",
+        "axial_a4_n32": "PASS"
+      },
+      "spatial": [
+        {
+          "all_points_both_meshes_max": 2.0574605352763342e-09,
+          "coarse_common8_max": 1.967434437588622e-09,
+          "fine_common8_max": 1.4070786757969245e-09,
+          "order": 6,
+          "ratio": 1.3982405329782501,
+          "status": "PASS"
+        },
+        {
+          "all_points_both_meshes_max": 2.0782197074353803e-09,
+          "coarse_common8_max": 1.988226638882651e-09,
+          "fine_common8_max": 1.4466625675169098e-09,
+          "order": 8,
+          "ratio": 1.3743541054603328,
+          "status": "PASS"
+        }
+      ],
+      "status": "PASS",
+      "temporal_status": "PASS"
+    },
+    {
+      "dataset": "oblique_a4_p0_r0",
+      "final_time_refinement": {
+        "g": 1.514559144766281e-08,
+        "v": 9.449372839753778e-08
+      },
+      "original_equations": {
+        "oblique_a4_p0_r0_n24": "PASS",
+        "oblique_a4_p0_r0_n24_half": "PASS",
+        "oblique_a4_p0_r0_n32": "PASS"
+      },
+      "spatial": [
+        {
+          "all_points_both_meshes_max": 5.903833699694161e-09,
+          "coarse_common8_max": 5.7894203875363814e-09,
+          "fine_common8_max": 3.7171172251326823e-09,
+          "order": 6,
+          "ratio": 1.557502773491285,
+          "status": "PASS"
+        },
+        {
+          "all_points_both_meshes_max": 6.013428033302404e-09,
+          "coarse_common8_max": 5.896982013808838e-09,
+          "fine_common8_max": 3.825275540769724e-09,
+          "order": 8,
+          "ratio": 1.541583593380111,
+          "status": "PASS"
+        }
+      ],
+      "status": "PASS",
+      "temporal_status": "PASS"
+    },
+    {
+      "dataset": "oblique_a4_p0_r1",
+      "final_time_refinement": {
+        "g": 1.494874268814783e-08,
+        "v": 9.373194131967466e-08
+      },
+      "original_equations": {
+        "oblique_a4_p0_r1_n24": "PASS",
+        "oblique_a4_p0_r1_n24_half": "PASS",
+        "oblique_a4_p0_r1_n32": "PASS"
+      },
+      "spatial": [
+        {
+          "all_points_both_meshes_max": 6.625033022178428e-09,
+          "coarse_common8_max": 6.161558208095386e-09,
+          "fine_common8_max": 4.060280389683868e-09,
+          "order": 6,
+          "ratio": 1.5175203721768393,
+          "status": "PASS"
+        },
+        {
+          "all_points_both_meshes_max": 6.7411863313715514e-09,
+          "coarse_common8_max": 6.274042341214425e-09,
+          "fine_common8_max": 4.172959811032939e-09,
+          "order": 8,
+          "ratio": 1.50349934466812,
+          "status": "PASS"
+        }
+      ],
+      "status": "PASS",
+      "temporal_status": "PASS"
+    },
+    {
+      "dataset": "oblique_a4_p0_r2",
+      "final_time_refinement": {
+        "g": 1.4707541851066708e-08,
+        "v": 8.789007210907585e-08
+      },
+      "original_equations": {
+        "oblique_a4_p0_r2_n24": "PASS",
+        "oblique_a4_p0_r2_n24_half": "PASS",
+        "oblique_a4_p0_r2_n32": "PASS"
+      },
+      "spatial": [
+        {
+          "all_points_both_meshes_max": 6.112865214014107e-09,
+          "coarse_common8_max": 5.5723363145965266e-09,
+          "fine_common8_max": 3.989237329360407e-09,
+          "order": 6,
+          "ratio": 1.3968425176373094,
+          "status": "PASS"
+        },
+        {
+          "all_points_both_meshes_max": 6.219845749555475e-09,
+          "coarse_common8_max": 5.67510799465154e-09,
+          "fine_common8_max": 4.091172844944424e-09,
+          "order": 8,
+          "ratio": 1.3871591863111892,
+          "status": "PASS"
+        }
+      ],
+      "status": "PASS",
+      "temporal_status": "PASS"
+    },
+    {
+      "dataset": "oblique_a4_p1_r0",
+      "final_time_refinement": {
+        "g": 1.5177985090986112e-08,
+        "v": 9.508381992873183e-08
+      },
+      "original_equations": {
+        "oblique_a4_p1_r0_n24": "PASS",
+        "oblique_a4_p1_r0_n24_half": "PASS",
+        "oblique_a4_p1_r0_n32": "PASS"
+      },
+      "spatial": [
+        {
+          "all_points_both_meshes_max": 6.04576411156188e-09,
+          "coarse_common8_max": 5.516571255359537e-09,
+          "fine_common8_max": 3.545152393868989e-09,
+          "order": 6,
+          "ratio": 1.5560886084614962,
+          "status": "PASS"
+        },
+        {
+          "all_points_both_meshes_max": 6.155427723086859e-09,
+          "coarse_common8_max": 5.604390396207748e-09,
+          "fine_common8_max": 3.6349004917113348e-09,
+          "order": 8,
+          "ratio": 1.5418277361340267,
+          "status": "PASS"
+        }
+      ],
+      "status": "PASS",
+      "temporal_status": "PASS"
+    },
+    {
+      "dataset": "oblique_a4_p1_r1",
+      "final_time_refinement": {
+        "g": 1.4999073982835398e-08,
+        "v": 9.430971203983063e-08
+      },
+      "original_equations": {
+        "oblique_a4_p1_r1_n24": "PASS",
+        "oblique_a4_p1_r1_n24_half": "PASS",
+        "oblique_a4_p1_r1_n32": "PASS"
+      },
+      "spatial": [
+        {
+          "all_points_both_meshes_max": 6.609311153926711e-09,
+          "coarse_common8_max": 5.673535807826369e-09,
+          "fine_common8_max": 3.881776733383191e-09,
+          "order": 6,
+          "ratio": 1.4615822077127958,
+          "status": "PASS"
+        },
+        {
+          "all_points_both_meshes_max": 6.729608592603853e-09,
+          "coarse_common8_max": 5.778787171006883e-09,
+          "fine_common8_max": 3.9850377997474595e-09,
+          "order": 8,
+          "ratio": 1.4501210431110834,
+          "status": "PASS"
+        }
+      ],
+      "status": "PASS",
+      "temporal_status": "PASS"
+    },
+    {
+      "dataset": "oblique_a4_p1_r2",
+      "final_time_refinement": {
+        "g": 1.4735235254192958e-08,
+        "v": 8.815027996433855e-08
+      },
+      "original_equations": {
+        "oblique_a4_p1_r2_n24": "PASS",
+        "oblique_a4_p1_r2_n24_half": "PASS",
+        "oblique_a4_p1_r2_n32": "PASS"
+      },
+      "spatial": [
+        {
+          "all_points_both_meshes_max": 6.167121369138329e-09,
+          "coarse_common8_max": 5.532804880914455e-09,
+          "fine_common8_max": 3.927770553247001e-09,
+          "order": 6,
+          "ratio": 1.4086374969995656,
+          "status": "PASS"
+        },
+        {
+          "all_points_both_meshes_max": 6.280842124173347e-09,
+          "coarse_common8_max": 5.638309485966886e-09,
+          "fine_common8_max": 4.033308964590532e-09,
+          "order": 8,
+          "ratio": 1.3979364178313813,
+          "status": "PASS"
+        }
+      ],
+      "status": "PASS",
+      "temporal_status": "PASS"
+    },
+    {
+      "dataset": "oblique_a4_p2_r0",
+      "final_time_refinement": {
+        "g": 1.5352021875969513e-08,
+        "v": 9.823411062370724e-08
+      },
+      "original_equations": {
+        "oblique_a4_p2_r0_n24": "PASS",
+        "oblique_a4_p2_r0_n24_half": "PASS",
+        "oblique_a4_p2_r0_n32": "PASS"
+      },
+      "spatial": [
+        {
+          "all_points_both_meshes_max": 6.203400626514366e-09,
+          "coarse_common8_max": 5.390005164418454e-09,
+          "fine_common8_max": 3.726012332005979e-09,
+          "order": 6,
+          "ratio": 1.4465881173068016,
+          "status": "PASS"
+        },
+        {
+          "all_points_both_meshes_max": 6.319294365564332e-09,
+          "coarse_common8_max": 5.470978281518768e-09,
+          "fine_common8_max": 3.76052330941512e-09,
+          "order": 8,
+          "ratio": 1.4548449328372006,
+          "status": "PASS"
+        }
+      ],
+      "status": "PASS",
+      "temporal_status": "PASS"
+    },
+    {
+      "dataset": "oblique_a4_p2_r1",
+      "final_time_refinement": {
+        "g": 1.5078310156013686e-08,
+        "v": 9.772256248652411e-08
+      },
+      "original_equations": {
+        "oblique_a4_p2_r1_n24": "PASS",
+        "oblique_a4_p2_r1_n24_half": "PASS",
+        "oblique_a4_p2_r1_n32": "PASS"
+      },
+      "spatial": [
+        {
+          "all_points_both_meshes_max": 6.963527365844158e-09,
+          "coarse_common8_max": 5.132220426418144e-09,
+          "fine_common8_max": 3.805754322794286e-09,
+          "order": 6,
+          "ratio": 1.3485422313466444,
+          "status": "PASS"
+        },
+        {
+          "all_points_both_meshes_max": 7.09163716638983e-09,
+          "coarse_common8_max": 5.22520293699813e-09,
+          "fine_common8_max": 3.896104050493676e-09,
+          "order": 8,
+          "ratio": 1.3411353673514042,
+          "status": "PASS"
+        }
+      ],
+      "status": "PASS",
+      "temporal_status": "PASS"
+    },
+    {
+      "dataset": "oblique_a4_p2_r2",
+      "final_time_refinement": {
+        "g": 1.4738038345285531e-08,
+        "v": 9.188062932707908e-08
+      },
+      "original_equations": {
+        "oblique_a4_p2_r2_n24": "PASS",
+        "oblique_a4_p2_r2_n24_half": "PASS",
+        "oblique_a4_p2_r2_n32": "PASS"
+      },
+      "spatial": [
+        {
+          "all_points_both_meshes_max": 6.764800664083026e-09,
+          "coarse_common8_max": 4.524452146270619e-09,
+          "fine_common8_max": 3.81107767566391e-09,
+          "order": 6,
+          "ratio": 1.1871844478956823,
+          "status": "PASS"
+        },
+        {
+          "all_points_both_meshes_max": 6.887759029794438e-09,
+          "coarse_common8_max": 4.61454446876175e-09,
+          "fine_common8_max": 3.901493461633265e-09,
+          "order": 8,
+          "ratio": 1.1827636042814187,
+          "status": "PASS"
+        }
+      ],
+      "status": "PASS",
+      "temporal_status": "PASS"
+    },
+    {
+      "dataset": "oblique_a4_p3_r0",
+      "final_time_refinement": {
+        "g": 1.5459349356206076e-08,
+        "v": 9.930576538863534e-08
+      },
+      "original_equations": {
+        "oblique_a4_p3_r0_n24": "PASS",
+        "oblique_a4_p3_r0_n24_half": "PASS",
+        "oblique_a4_p3_r0_n32": "PASS"
+      },
+      "spatial": [
+        {
+          "all_points_both_meshes_max": 6.302701138771738e-09,
+          "coarse_common8_max": 5.385172724414744e-09,
+          "fine_common8_max": 3.586399011101804e-09,
+          "order": 6,
+          "ratio": 1.5015542631326806,
+          "status": "PASS"
+        },
+        {
+          "all_points_both_meshes_max": 6.420979636878599e-09,
+          "coarse_common8_max": 5.47492690072815e-09,
+          "fine_common8_max": 3.621218852556396e-09,
+          "order": 8,
+          "ratio": 1.5119016893616166,
+          "status": "PASS"
+        }
+      ],
+      "status": "PASS",
+      "temporal_status": "PASS"
+    },
+    {
+      "dataset": "oblique_a4_p3_r1",
+      "final_time_refinement": {
+        "g": 1.504874092006503e-08,
+        "v": 9.91408342088107e-08
+      },
+      "original_equations": {
+        "oblique_a4_p3_r1_n24": "PASS",
+        "oblique_a4_p3_r1_n24_half": "PASS",
+        "oblique_a4_p3_r1_n32": "PASS"
+      },
+      "spatial": [
+        {
+          "all_points_both_meshes_max": 7.188841633087861e-09,
+          "coarse_common8_max": 5.740347475136076e-09,
+          "fine_common8_max": 3.6291820104672468e-09,
+          "order": 6,
+          "ratio": 1.58171936777484,
+          "status": "PASS"
+        },
+        {
+          "all_points_both_meshes_max": 7.3205075334925596e-09,
+          "coarse_common8_max": 5.842860195670596e-09,
+          "fine_common8_max": 3.731383146909906e-09,
+          "order": 8,
+          "ratio": 1.5658698036703311,
+          "status": "PASS"
+        }
+      ],
+      "status": "PASS",
+      "temporal_status": "PASS"
+    },
+    {
+      "dataset": "oblique_a4_p3_r2",
+      "final_time_refinement": {
+        "g": 1.4640150425293541e-08,
+        "v": 9.325808747462361e-08
+      },
+      "original_equations": {
+        "oblique_a4_p3_r2_n24": "PASS",
+        "oblique_a4_p3_r2_n24_half": "PASS",
+        "oblique_a4_p3_r2_n32": "PASS"
+      },
+      "spatial": [
+        {
+          "all_points_both_meshes_max": 6.9535892044392256e-09,
+          "coarse_common8_max": 5.649188561385188e-09,
+          "fine_common8_max": 3.7319174417405065e-09,
+          "order": 6,
+          "ratio": 1.5137496071591812,
+          "status": "PASS"
+        },
+        {
+          "all_points_both_meshes_max": 7.080108388457518e-09,
+          "coarse_common8_max": 5.747761711027977e-09,
+          "fine_common8_max": 3.830059713827438e-09,
+          "order": 8,
+          "ratio": 1.5006976758814417,
+          "status": "PASS"
+        }
+      ],
+      "status": "PASS",
+      "temporal_status": "PASS"
+    },
+    {
+      "dataset": "axial_a5",
+      "final_time_refinement": {
+        "g": 4.886731375108866e-08,
+        "v": 2.181810572210452e-07
+      },
+      "original_equations": {
+        "axial_a5_n24": "PASS",
+        "axial_a5_n24_half": "PASS",
+        "axial_a5_n32": "PASS"
+      },
+      "spatial": [
+        {
+          "all_points_both_meshes_max": 4.5245449609154775e-09,
+          "coarse_common8_max": 3.6070816333833022e-09,
+          "fine_common8_max": 2.4779613916336984e-09,
+          "order": 6,
+          "ratio": 1.4556649855650836,
+          "status": "PASS"
+        },
+        {
+          "all_points_both_meshes_max": 4.800274067129351e-09,
+          "coarse_common8_max": 3.7696066268466666e-09,
+          "fine_common8_max": 2.62101274017823e-09,
+          "order": 8,
+          "ratio": 1.4382252207558257,
+          "status": "PASS"
+        }
+      ],
+      "status": "DIAGNOSTIC_NOT_QUALIFIED",
+      "temporal_status": "FAIL"
+    },
+    {
+      "dataset": "oblique_a5_p0_r0",
+      "final_time_refinement": {
+        "g": 3.1845914350014937e-08,
+        "v": 2.1787595727573716e-07
+      },
+      "original_equations": {
+        "oblique_a5_p0_r0_n24": "PASS",
+        "oblique_a5_p0_r0_n24_half": "PASS",
+        "oblique_a5_p0_r0_n32": "PASS"
+      },
+      "spatial": [
+        {
+          "all_points_both_meshes_max": 1.2668064786058864e-07,
+          "coarse_common8_max": 6.580070116557479e-08,
+          "fine_common8_max": 7.254975176174128e-09,
+          "order": 6,
+          "ratio": 9.069734846463588,
+          "status": "INCONCLUSIVE_REFINEMENT"
+        },
+        {
+          "all_points_both_meshes_max": 1.2663671933310638e-07,
+          "coarse_common8_max": 6.588260414996938e-08,
+          "fine_common8_max": 7.542524937953488e-09,
+          "order": 8,
+          "ratio": 8.73482085799312,
+          "status": "INCONCLUSIVE_REFINEMENT"
+        }
+      ],
+      "status": "DIAGNOSTIC_NOT_QUALIFIED",
+      "temporal_status": "FAIL"
+    },
+    {
+      "dataset": "oblique_a5_p0_r1",
+      "final_time_refinement": {
+        "g": 2.985255775911355e-08,
+        "v": 2.0288813118440885e-07
+      },
+      "original_equations": {
+        "oblique_a5_p0_r1_n24": "PASS",
+        "oblique_a5_p0_r1_n24_half": "PASS",
+        "oblique_a5_p0_r1_n32": "PASS"
+      },
+      "spatial": [
+        {
+          "all_points_both_meshes_max": 9.835362380083978e-08,
+          "coarse_common8_max": 9.835362380083978e-08,
+          "fine_common8_max": 7.653267075635739e-09,
+          "order": 6,
+          "ratio": 12.851194506715915,
+          "status": "PASS"
+        },
+        {
+          "all_points_both_meshes_max": 9.823022817379012e-08,
+          "coarse_common8_max": 9.823022817379012e-08,
+          "fine_common8_max": 7.897429932235411e-09,
+          "order": 8,
+          "ratio": 12.438252572882975,
+          "status": "PASS"
+        }
+      ],
+      "status": "DIAGNOSTIC_NOT_QUALIFIED",
+      "temporal_status": "FAIL"
+    },
+    {
+      "dataset": "oblique_a5_p0_r2",
+      "final_time_refinement": {
+        "g": 2.9321956418471018e-08,
+        "v": 1.7889207981625077e-07
+      },
+      "original_equations": {
+        "oblique_a5_p0_r2_n24": "PASS",
+        "oblique_a5_p0_r2_n24_half": "PASS",
+        "oblique_a5_p0_r2_n32": "PASS"
+      },
+      "spatial": [
+        {
+          "all_points_both_meshes_max": 9.511808574114156e-08,
+          "coarse_common8_max": 5.6144648707956435e-08,
+          "fine_common8_max": 7.352568665019987e-09,
+          "order": 6,
+          "ratio": 7.636059078926509,
+          "status": "INCONCLUSIVE_REFINEMENT"
+        },
+        {
+          "all_points_both_meshes_max": 9.508431098037562e-08,
+          "coarse_common8_max": 5.618847653821035e-08,
+          "fine_common8_max": 7.531994361542615e-09,
+          "order": 8,
+          "ratio": 7.459973260880466,
+          "status": "INCONCLUSIVE_REFINEMENT"
+        }
+      ],
+      "status": "DIAGNOSTIC_NOT_QUALIFIED",
+      "temporal_status": "PASS"
+    },
+    {
+      "dataset": "oblique_a5_p1_r0",
+      "final_time_refinement": {
+        "g": 3.19209476629112e-08,
+        "v": 2.1953980677835716e-07
+      },
+      "original_equations": {
+        "oblique_a5_p1_r0_n24": "PASS",
+        "oblique_a5_p1_r0_n24_half": "PASS",
+        "oblique_a5_p1_r0_n32": "PASS"
+      },
+      "spatial": [
+        {
+          "all_points_both_meshes_max": 1.0860916066501858e-07,
+          "coarse_common8_max": 1.0860916066501858e-07,
+          "fine_common8_max": 6.993424450651986e-09,
+          "order": 6,
+          "ratio": 15.530182878417042,
+          "status": "PASS"
+        },
+        {
+          "all_points_both_meshes_max": 1.086625244228756e-07,
+          "coarse_common8_max": 1.086625244228756e-07,
+          "fine_common8_max": 7.24818277619832e-09,
+          "order": 8,
+          "ratio": 14.99169209414849,
+          "status": "PASS"
+        }
+      ],
+      "status": "DIAGNOSTIC_NOT_QUALIFIED",
+      "temporal_status": "FAIL"
+    },
+    {
+      "dataset": "oblique_a5_p1_r1",
+      "final_time_refinement": {
+        "g": 2.9809392287916125e-08,
+        "v": 2.0388071675370156e-07
+      },
+      "original_equations": {
+        "oblique_a5_p1_r1_n24": "PASS",
+        "oblique_a5_p1_r1_n24_half": "PASS",
+        "oblique_a5_p1_r1_n32": "PASS"
+      },
+      "spatial": [
+        {
+          "all_points_both_meshes_max": 8.70111963036102e-08,
+          "coarse_common8_max": 6.062914192916935e-08,
+          "fine_common8_max": 7.391823875213532e-09,
+          "order": 6,
+          "ratio": 8.202189737295102,
+          "status": "INCONCLUSIVE_REFINEMENT"
+        },
+        {
+          "all_points_both_meshes_max": 8.70338063285736e-08,
+          "coarse_common8_max": 6.056733026227334e-08,
+          "fine_common8_max": 7.634278764712121e-09,
+          "order": 8,
+          "ratio": 7.9336021291537495,
+          "status": "INCONCLUSIVE_REFINEMENT"
+        }
+      ],
+      "status": "DIAGNOSTIC_NOT_QUALIFIED",
+      "temporal_status": "FAIL"
+    },
+    {
+      "dataset": "oblique_a5_p1_r2",
+      "final_time_refinement": {
+        "g": 2.9323320660523677e-08,
+        "v": 1.7886981140691205e-07
+      },
+      "original_equations": {
+        "oblique_a5_p1_r2_n24": "PASS",
+        "oblique_a5_p1_r2_n24_half": "PASS",
+        "oblique_a5_p1_r2_n32": "PASS"
+      },
+      "spatial": [
+        {
+          "all_points_both_meshes_max": 8.425255393351705e-08,
+          "coarse_common8_max": 5.933403962599115e-08,
+          "fine_common8_max": 7.353883724192656e-09,
+          "order": 6,
+          "ratio": 8.06839512988154,
+          "status": "INCONCLUSIVE_REFINEMENT"
+        },
+        {
+          "all_points_both_meshes_max": 8.428708081487102e-08,
+          "coarse_common8_max": 5.937655639387529e-08,
+          "fine_common8_max": 7.566290149974009e-09,
+          "order": 8,
+          "ratio": 7.847512481936641,
+          "status": "INCONCLUSIVE_REFINEMENT"
+        }
+      ],
+      "status": "DIAGNOSTIC_NOT_QUALIFIED",
+      "temporal_status": "PASS"
+    },
+    {
+      "dataset": "oblique_a5_p2_r0",
+      "final_time_refinement": {
+        "g": 3.244038282446127e-08,
+        "v": 2.2069029625981784e-07
+      },
+      "original_equations": {
+        "oblique_a5_p2_r0_n24": "PASS",
+        "oblique_a5_p2_r0_n24_half": "PASS",
+        "oblique_a5_p2_r0_n32": "PASS"
+      },
+      "spatial": [
+        {
+          "all_points_both_meshes_max": 1.1206070901770282e-07,
+          "coarse_common8_max": 1.0767028352232089e-07,
+          "fine_common8_max": 7.550391145638713e-09,
+          "order": 6,
+          "ratio": 14.260225920151676,
+          "status": "PASS"
+        },
+        {
+          "all_points_both_meshes_max": 1.1207963651616026e-07,
+          "coarse_common8_max": 1.0766383146121328e-07,
+          "fine_common8_max": 7.656169115355382e-09,
+          "order": 8,
+          "ratio": 14.06236328365322,
+          "status": "PASS"
+        }
+      ],
+      "status": "DIAGNOSTIC_NOT_QUALIFIED",
+      "temporal_status": "FAIL"
+    },
+    {
+      "dataset": "oblique_a5_p2_r1",
+      "final_time_refinement": {
+        "g": 3.0065383072042096e-08,
+        "v": 2.0554998059196805e-07
+      },
+      "original_equations": {
+        "oblique_a5_p2_r1_n24": "PASS",
+        "oblique_a5_p2_r1_n24_half": "PASS",
+        "oblique_a5_p2_r1_n32": "PASS"
+      },
+      "spatial": [
+        {
+          "all_points_both_meshes_max": 1.0069032374548925e-07,
+          "coarse_common8_max": 5.696426874646221e-08,
+          "fine_common8_max": 7.064429652370308e-09,
+          "order": 6,
+          "ratio": 8.063534007639124,
+          "status": "INCONCLUSIVE_REFINEMENT"
+        },
+        {
+          "all_points_both_meshes_max": 1.0081164536490661e-07,
+          "coarse_common8_max": 5.684005133232972e-08,
+          "fine_common8_max": 7.256689471546451e-09,
+          "order": 8,
+          "ratio": 7.832779886089946,
+          "status": "INCONCLUSIVE_REFINEMENT"
+        }
+      ],
+      "status": "DIAGNOSTIC_NOT_QUALIFIED",
+      "temporal_status": "FAIL"
+    },
+    {
+      "dataset": "oblique_a5_p2_r2",
+      "final_time_refinement": {
+        "g": 2.9557398306678806e-08,
+        "v": 1.819235819766618e-07
+      },
+      "original_equations": {
+        "oblique_a5_p2_r2_n24": "PASS",
+        "oblique_a5_p2_r2_n24_half": "PASS",
+        "oblique_a5_p2_r2_n32": "PASS"
+      },
+      "spatial": [
+        {
+          "all_points_both_meshes_max": 8.765391878995388e-08,
+          "coarse_common8_max": 6.442387323613019e-08,
+          "fine_common8_max": 6.905624183595194e-09,
+          "order": 6,
+          "ratio": 9.329189009325722,
+          "status": "INCONCLUSIVE_REFINEMENT"
+        },
+        {
+          "all_points_both_meshes_max": 8.770681902969812e-08,
+          "coarse_common8_max": 6.444882766354354e-08,
+          "fine_common8_max": 7.074795971284686e-09,
+          "order": 8,
+          "ratio": 9.109637638333266,
+          "status": "INCONCLUSIVE_REFINEMENT"
+        }
+      ],
+      "status": "DIAGNOSTIC_NOT_QUALIFIED",
+      "temporal_status": "PASS"
+    },
+    {
+      "dataset": "oblique_a5_p3_r0",
+      "final_time_refinement": {
+        "g": 3.27496714191966e-08,
+        "v": 2.2446651826157904e-07
+      },
+      "original_equations": {
+        "oblique_a5_p3_r0_n24": "PASS",
+        "oblique_a5_p3_r0_n24_half": "PASS",
+        "oblique_a5_p3_r0_n32": "PASS"
+      },
+      "spatial": [
+        {
+          "all_points_both_meshes_max": 1.2278019645428628e-07,
+          "coarse_common8_max": 8.143929464132782e-08,
+          "fine_common8_max": 7.199108115196751e-09,
+          "order": 6,
+          "ratio": 11.312414446091715,
+          "status": "PASS"
+        },
+        {
+          "all_points_both_meshes_max": 1.227505048717603e-07,
+          "coarse_common8_max": 8.135955908983306e-08,
+          "fine_common8_max": 7.297162901709342e-09,
+          "order": 8,
+          "ratio": 11.149478254182155,
+          "status": "PASS"
+        }
+      ],
+      "status": "DIAGNOSTIC_NOT_QUALIFIED",
+      "temporal_status": "FAIL"
+    },
+    {
+      "dataset": "oblique_a5_p3_r1",
+      "final_time_refinement": {
+        "g": 3.014848459770292e-08,
+        "v": 2.0952678880803433e-07
+      },
+      "original_equations": {
+        "oblique_a5_p3_r1_n24": "PASS",
+        "oblique_a5_p3_r1_n24_half": "PASS",
+        "oblique_a5_p3_r1_n32": "PASS"
+      },
+      "spatial": [
+        {
+          "all_points_both_meshes_max": 8.043921462252968e-08,
+          "coarse_common8_max": 6.160630916518528e-08,
+          "fine_common8_max": 6.5429376916448234e-09,
+          "order": 6,
+          "ratio": 9.415695528302994,
+          "status": "INCONCLUSIVE_REFINEMENT"
+        },
+        {
+          "all_points_both_meshes_max": 8.031294884691675e-08,
+          "coarse_common8_max": 6.157037174547852e-08,
+          "fine_common8_max": 6.682388586920496e-09,
+          "order": 8,
+          "ratio": 9.213826904049071,
+          "status": "INCONCLUSIVE_REFINEMENT"
+        }
+      ],
+      "status": "DIAGNOSTIC_NOT_QUALIFIED",
+      "temporal_status": "FAIL"
+    },
+    {
+      "dataset": "oblique_a5_p3_r2",
+      "final_time_refinement": {
+        "g": 2.9474183094180262e-08,
+        "v": 1.8515672195462685e-07
+      },
+      "original_equations": {
+        "oblique_a5_p3_r2_n24": "PASS",
+        "oblique_a5_p3_r2_n24_half": "PASS",
+        "oblique_a5_p3_r2_n32": "PASS"
+      },
+      "spatial": [
+        {
+          "all_points_both_meshes_max": 1.0110695752851839e-07,
+          "coarse_common8_max": 5.970957039913571e-08,
+          "fine_common8_max": 6.12944217603939e-09,
+          "order": 6,
+          "ratio": 9.74143628151783,
+          "status": "INCONCLUSIVE_REFINEMENT"
+        },
+        {
+          "all_points_both_meshes_max": 1.011929416927515e-07,
+          "coarse_common8_max": 5.977560779690805e-08,
+          "fine_common8_max": 6.2332664030329e-09,
+          "order": 8,
+          "ratio": 9.589772670043947,
+          "status": "INCONCLUSIVE_REFINEMENT"
+        }
+      ],
+      "status": "DIAGNOSTIC_NOT_QUALIFIED",
+      "temporal_status": "PASS"
+    }
+  ],
+  "manifest_sha256": "237d0033935e8708a50429df77aea10adea43ced339a2aa0ed971a71d027bac7",
+  "method_sources": {
+    "udt_three_spatial_smoke_2026-10-01/review/data/check_constraints.py": "f10e6e0b512a6f2078e71cb32b8972005356c2555fa25ef36832bdb20bc947fc",
+    "udt_three_spatial_smoke_2026-10-01/review/data/check_harmonic.py": "2be7d388f44bd7de631b45d4699a4b9dabf1c96b3fb650342cf200d0c019c7c9",
+    "udt_three_spatial_smoke_2026-10-01/review/equations_recovery/history_ricci.py": "1da366b12489be81d9b2a333f1abf0793ecf7d2e6f4e3fe783390e3098e5aff4",
+    "udt_time_live_production_preparation_2026-10-01/review/math/check_saved_data.py": "f70a57f419a908f62bff0d02243f9d2f9b2c5f4a55a695dc9a2493a524a33cfc",
+    "udt_time_live_production_preparation_2026-10-01/review/math/diagnose_window_truncation.py": "5bcd19b27abb09b45acda4c55cdd846b2d9daed149a9bd8c44539e778f97a8c2",
+    "udt_time_live_production_survey_2026-10-01/review/math/check_survey.py": "3f98e82cc46600b25b54ff4b38956280aa6683d852c9251bbfef242d52faf5f2"
+  },
+  "missing_cases": [],
+  "numpy": "2.2.6",
+  "producer_imports": false,
+  "result_sha256": {
+    "/home/udt-admin/udt_mass_codex/udt_time_live_production_survey_2026-10-01/review/math/cases/axial_a0_n24.json": "b03955613e9f1cb970c154b8d0af869d1b506493b3119ff30cb64219756076e9",
+    "/home/udt-admin/udt_mass_codex/udt_time_live_production_survey_2026-10-01/review/math/cases/axial_a0_n24_half.json": "fc1ea7b9880dcc45e46ca9736efcfc5938251c5d00095fbe2493f7644c97c559",
+    "/home/udt-admin/udt_mass_codex/udt_time_live_production_survey_2026-10-01/review/math/cases/axial_a0_n32.json": "8d9eb3d6cc9715bd62b1a91d022cde977ad73a5a59c06d3f42a690229256810a",
+    "/home/udt-admin/udt_mass_codex/udt_time_live_production_survey_2026-10-01/review/math/cases/axial_a1_n24.json": "1ccb9b184826e8f72fd049b877d1cfcae961f2d6b0bbce7114e36a8b4c606ff0",
+    "/home/udt-admin/udt_mass_codex/udt_time_live_production_survey_2026-10-01/review/math/cases/axial_a1_n24_half.json": "6c9a1a58ba5579674dd5b9c43e1f2d6d7321da59fc4c7bac63fd575ec00a253f",
+    "/home/udt-admin/udt_mass_codex/udt_time_live_production_survey_2026-10-01/review/math/cases/axial_a1_n32.json": "a8977b4a850d6fac8230e4545e1980daae9ee88ec7d747de3ef271a8621a354a",
+    "/home/udt-admin/udt_mass_codex/udt_time_live_production_survey_2026-10-01/review/math/cases/axial_a2_n24.json": "cc8ee844bc2ad5b9ee7a3fde45da9beda0fee580c2fe48ae83d67b25b3168cfa",
+    "/home/udt-admin/udt_mass_codex/udt_time_live_production_survey_2026-10-01/review/math/cases/axial_a2_n24_half.json": "47c055733b5415317cd922c764c2c40d913a95eb58b759f9ec3bc3d00a40a24f",
+    "/home/udt-admin/udt_mass_codex/udt_time_live_production_survey_2026-10-01/review/math/cases/axial_a2_n32.json": "6a0fb24d0460878a7eb5de27a5637bbea233a368d2f59f5d899b4508c317b430",
+    "/home/udt-admin/udt_mass_codex/udt_time_live_production_survey_2026-10-01/review/math/cases/axial_a3_n24.json": "10adf2e215b4938b5513f1745909fe9b18536b7bd90704967a22880c27a94525",
+    "/home/udt-admin/udt_mass_codex/udt_time_live_production_survey_2026-10-01/review/math/cases/axial_a3_n24_half.json": "ff72bfd1c906005f3d8671daa9ed664825908556bcc86ba46a200312c13e9816",
+    "/home/udt-admin/udt_mass_codex/udt_time_live_production_survey_2026-10-01/review/math/cases/axial_a3_n32.json": "5d6907e051f3c030db2818982e035cfbd0f3473c4a9e4d4d2527b68d2eab1778",
+    "/home/udt-admin/udt_mass_codex/udt_time_live_production_survey_2026-10-01/review/math/cases/axial_a4_n24.json": "508a73ad714bd3849a40bbe59731cce1ad06cea2e8b17a575db157c3d147e9d0",
+    "/home/udt-admin/udt_mass_codex/udt_time_live_production_survey_2026-10-01/review/math/cases/axial_a4_n24_half.json": "5e2a47599a5957ab0cfa4314685f16d31d59c37aa71b1bf24adf65588b116d8b",
+    "/home/udt-admin/udt_mass_codex/udt_time_live_production_survey_2026-10-01/review/math/cases/axial_a4_n32.json": "987bb721e354474dbe3753e308416430ab27cc74abe746d94868d56b57f812a3",
+    "/home/udt-admin/udt_mass_codex/udt_time_live_production_survey_2026-10-01/review/math/cases/axial_a5_n24.json": "772279f8915c9463c2c805a7fdb031ce9b40953a494e1773db2c2d7812392c7d",
+    "/home/udt-admin/udt_mass_codex/udt_time_live_production_survey_2026-10-01/review/math/cases/axial_a5_n24_half.json": "5f895faddf730e0881f43bbf48681dd9d733c501b58c4c5930cfe92087c64926",
+    "/home/udt-admin/udt_mass_codex/udt_time_live_production_survey_2026-10-01/review/math/cases/axial_a5_n32.json": "bf04bee43ed8b7f8343fea151db316837775559331ba6bb7c8ef81ffacc2d1fc",
+    "/home/udt-admin/udt_mass_codex/udt_time_live_production_survey_2026-10-01/review/math/cases/oblique_a0_p0_r0_n24.json": "2778574d35b1989aa744de1a02625394fe6eb39f53029f761573d8ba6832db0b",
+    "/home/udt-admin/udt_mass_codex/udt_time_live_production_survey_2026-10-01/review/math/cases/oblique_a0_p0_r0_n24_half.json": "60d3d87364355f39d2b83471f6f2a56afef35837e35750418a4fae41e52ff450",
+    "/home/udt-admin/udt_mass_codex/udt_time_live_production_survey_2026-10-01/review/math/cases/oblique_a0_p0_r0_n32.json": "b6a8815cb427351d571282bc9ff1a9e90e219ee00ba2b4e64dfa73af07961c1c",
+    "/home/udt-admin/udt_mass_codex/udt_time_live_production_survey_2026-10-01/review/math/cases/oblique_a0_p0_r1_n24.json": "8c02e67ff5e272b165dda0c25b0cc8b8835a99d53a0215c3d92afbcc9666a2b2",
+    "/home/udt-admin/udt_mass_codex/udt_time_live_production_survey_2026-10-01/review/math/cases/oblique_a0_p0_r1_n24_half.json": "cdd29e1fb310fbb8965c046e97532f953f021c7424fd78f42da4c6d494f45e0a",
+    "/home/udt-admin/udt_mass_codex/udt_time_live_production_survey_2026-10-01/review/math/cases/oblique_a0_p0_r1_n32.json": "6b7c50601223e502d74ca413f7e46d95b4f5ff42468c161d7aef55eca241c77d",
+    "/home/udt-admin/udt_mass_codex/udt_time_live_production_survey_2026-10-01/review/math/cases/oblique_a0_p0_r2_n24.json": "c00c1d8fed780ad4606592e44b8f30c4c7f8f19d81df74d5fd04bd63528375f3",
+    "/home/udt-admin/udt_mass_codex/udt_time_live_production_survey_2026-10-01/review/math/cases/oblique_a0_p0_r2_n24_half.json": "c13ec519d9c1cb6878dff3981dbd24d28e6ddaba7a35277fce9adee5cddf12b7",
+    "/home/udt-admin/udt_mass_codex/udt_time_live_production_survey_2026-10-01/review/math/cases/oblique_a0_p0_r2_n32.json": "0abd8524e90c939b130c5a19a5279f13797a54dd6911e26d6d61370ef07caab1",
+    "/home/udt-admin/udt_mass_codex/udt_time_live_production_survey_2026-10-01/review/math/cases/oblique_a0_p1_r0_n24.json": "5b740fc7b126c744afd6bccd929c56e647cc9d1c1ecbade5fd5d1f85fa08ef7e",
+    "/home/udt-admin/udt_mass_codex/udt_time_live_production_survey_2026-10-01/review/math/cases/oblique_a0_p1_r0_n24_half.json": "bbed9051ed7523727d0fe3da2814d777ef2637afe9e9b88d05fbbaa99b74b292",
+    "/home/udt-admin/udt_mass_codex/udt_time_live_production_survey_2026-10-01/review/math/cases/oblique_a0_p1_r0_n32.json": "2f4ca6b3e7062c2b2d1c6f005b74655621dde97bb47baa061ce226010d5929e3",
+    "/home/udt-admin/udt_mass_codex/udt_time_live_production_survey_2026-10-01/review/math/cases/oblique_a0_p1_r1_n24.json": "baa9e83242e823ad4a375eeb9dbab627cbe33c0bbb341d455758d8189aed8ad3",
+    "/home/udt-admin/udt_mass_codex/udt_time_live_production_survey_2026-10-01/review/math/cases/oblique_a0_p1_r1_n24_half.json": "b5ffc799438e5c3b3267d96ddcd8b5a405bee3052decf0c3b19cfa3acadb6c45",
+    "/home/udt-admin/udt_mass_codex/udt_time_live_production_survey_2026-10-01/review/math/cases/oblique_a0_p1_r1_n32.json": "e775d104228275c1b7743639b8e178b21e18c639777822eda64186047a8d30e3",
+    "/home/udt-admin/udt_mass_codex/udt_time_live_production_survey_2026-10-01/review/math/cases/oblique_a0_p1_r2_n24.json": "5433cee31700118a026a046bb0996c1dbc20bd05d762b5bd1a1eeeadb09237ae",
+    "/home/udt-admin/udt_mass_codex/udt_time_live_production_survey_2026-10-01/review/math/cases/oblique_a0_p1_r2_n24_half.json": "41886fc011380cbd9b8377c34ddaba7833a9c72e44629f84516477b8839ed9e6",
+    "/home/udt-admin/udt_mass_codex/udt_time_live_production_survey_2026-10-01/review/math/cases/oblique_a0_p1_r2_n32.json": "ea89ffdf2745542b4e4cb993df0bd0a7d12106c2eb8cb9e2d3a2d534751bcae8",
+    "/home/udt-admin/udt_mass_codex/udt_time_live_production_survey_2026-10-01/review/math/cases/oblique_a0_p2_r0_n24.json": "e68efa5d0a6dba146756095e36a6fa0790bed7f577cbcfb11bb8429a391633f3",
+    "/home/udt-admin/udt_mass_codex/udt_time_live_production_survey_2026-10-01/review/math/cases/oblique_a0_p2_r0_n24_half.json": "3c8bb2bf6c329f22ac1de3d152bea81a0412e0503e8aa024078f381ab2c6694d",
+    "/home/udt-admin/udt_mass_codex/udt_time_live_production_survey_2026-10-01/review/math/cases/oblique_a0_p2_r0_n32.json": "c759a1eb7045ac54482028c3f3e3a45b24beca3c16edc3ea54fe5662479d8ba8",
+    "/home/udt-admin/udt_mass_codex/udt_time_live_production_survey_2026-10-01/review/math/cases/oblique_a0_p2_r1_n24.json": "b5c38a03c8113cafc7d97db667fed7919a543fe38f0939d70f1aa0043bd1f7d3",
+    "/home/udt-admin/udt_mass_codex/udt_time_live_production_survey_2026-10-01/review/math/cases/oblique_a0_p2_r1_n24_half.json": "12f065c382bb93a8bb7b8acd4653900f746b4535478115d8801695a66d9880a8",
+    "/home/udt-admin/udt_mass_codex/udt_time_live_production_survey_2026-10-01/review/math/cases/oblique_a0_p2_r1_n32.json": "5f7645d13a6dd672633264d615b873a19a769d0275b2af430102e7c46ac7b40a",
+    "/home/udt-admin/udt_mass_codex/udt_time_live_production_survey_2026-10-01/review/math/cases/oblique_a0_p2_r2_n24.json": "df3c04b5496584a70f3db8309ec4ec237fbfc841192aca63f95757a14baec6ab",
+    "/home/udt-admin/udt_mass_codex/udt_time_live_production_survey_2026-10-01/review/math/cases/oblique_a0_p2_r2_n24_half.json": "2d608543006f07da5b36c89ad4be037d89c1842e747a78a79ac54a5370d96d18",
+    "/home/udt-admin/udt_mass_codex/udt_time_live_production_survey_2026-10-01/review/math/cases/oblique_a0_p2_r2_n32.json": "3b775bbc4b6c55aa8da4ecc0efa632a677e476acd3793e9cfe3d401b6ec002a0",
+    "/home/udt-admin/udt_mass_codex/udt_time_live_production_survey_2026-10-01/review/math/cases/oblique_a0_p3_r0_n24.json": "336ff1777e9b48d54cb0e212352584b9736228fb81bc7634dbd7ced6d6fb63fe",
+    "/home/udt-admin/udt_mass_codex/udt_time_live_production_survey_2026-10-01/review/math/cases/oblique_a0_p3_r0_n24_half.json": "56c835192ac152efa1983ec34d766e4720d3df5376585c962a22406d01b89756",
+    "/home/udt-admin/udt_mass_codex/udt_time_live_production_survey_2026-10-01/review/math/cases/oblique_a0_p3_r0_n32.json": "b9e8432ce9bcfd4ca6d0fe750e9f053aa0e49a3c6b49a48962e25e37297f5621",
+    "/home/udt-admin/udt_mass_codex/udt_time_live_production_survey_2026-10-01/review/math/cases/oblique_a0_p3_r1_n24.json": "753c54354ed1eae2af2b990876d45a19149a1303be7c498386497918c466a05f",
+    "/home/udt-admin/udt_mass_codex/udt_time_live_production_survey_2026-10-01/review/math/cases/oblique_a0_p3_r1_n24_half.json": "1741d99c1a0e409a91283542adbb41555d22409990f97fcacf963005bd1f3fcc",
+    "/home/udt-admin/udt_mass_codex/udt_time_live_production_survey_2026-10-01/review/math/cases/oblique_a0_p3_r1_n32.json": "89fa3062c5dab3e3fd28766427c6aa095ad25a58604cd0db303ca7a28412e962",
+    "/home/udt-admin/udt_mass_codex/udt_time_live_production_survey_2026-10-01/review/math/cases/oblique_a0_p3_r2_n24.json": "4ec1aeda5dff3522b25318edf1535aedb4afd4063dce88ac7f76c995bb3a82d4",
+    "/home/udt-admin/udt_mass_codex/udt_time_live_production_survey_2026-10-01/review/math/cases/oblique_a0_p3_r2_n24_half.json": "1b24896ff0e230f4aacd7784b776609202b24bf42111e1d8906d590a8c550f30",
+    "/home/udt-admin/udt_mass_codex/udt_time_live_production_survey_2026-10-01/review/math/cases/oblique_a0_p3_r2_n32.json": "e5026d7638d8429245d302c66b812edf0f2212f4de64565d72d22c19cb62db12",
+    "/home/udt-admin/udt_mass_codex/udt_time_live_production_survey_2026-10-01/review/math/cases/oblique_a1_p0_r0_n24.json": "621d6b280e49acef3fa0cf683b6780926fa09351e69bbe03bda744e165104ab5",
+    "/home/udt-admin/udt_mass_codex/udt_time_live_production_survey_2026-10-01/review/math/cases/oblique_a1_p0_r0_n24_half.json": "259230cd903b28de94675169b66b48a8a504fe096c7b06ffd7d586ef89c31d48",
+    "/home/udt-admin/udt_mass_codex/udt_time_live_production_survey_2026-10-01/review/math/cases/oblique_a1_p0_r0_n32.json": "1b76de628f01a4cd2283a69a534519d8a075c74ba7c6b69589a8db0356e82301",
+    "/home/udt-admin/udt_mass_codex/udt_time_live_production_survey_2026-10-01/review/math/cases/oblique_a1_p0_r1_n24.json": "434402e9cdd48814324041c1e9960a5cdbb452d5367ecacfe891a3e1940bfb3b",
+    "/home/udt-admin/udt_mass_codex/udt_time_live_production_survey_2026-10-01/review/math/cases/oblique_a1_p0_r1_n24_half.json": "08afb825b01c19cf109ec11d4a272060415dc7bf2fef4a1dc8b26e1d712ed3bc",
+    "/home/udt-admin/udt_mass_codex/udt_time_live_production_survey_2026-10-01/review/math/cases/oblique_a1_p0_r1_n32.json": "b7ff8a2f76191199a4211394c8702611c9cc3a332d30c48c86d054564d38bc67",
+    "/home/udt-admin/udt_mass_codex/udt_time_live_production_survey_2026-10-01/review/math/cases/oblique_a1_p0_r2_n24.json": "66f6e2c294dbe688e1b30b3367ff5a12190093e608df989249fd62d3f38b6f8a",
+    "/home/udt-admin/udt_mass_codex/udt_time_live_production_survey_2026-10-01/review/math/cases/oblique_a1_p0_r2_n24_half.json": "321597caf74fa9ec49873a33a84a3c60a2b1a02bd8fafe6a9aaf0c99f501e438",
+    "/home/udt-admin/udt_mass_codex/udt_time_live_production_survey_2026-10-01/review/math/cases/oblique_a1_p0_r2_n32.json": "017a45700b00f67aa42fb67d5560b145ea37c4ae3ecf3e1f2822dee037c1c080",
+    "/home/udt-admin/udt_mass_codex/udt_time_live_production_survey_2026-10-01/review/math/cases/oblique_a1_p1_r0_n24.json": "cece204cbdffe881f09037f623e29c859057d7230b0ed01f0e53b134e20dd0b1",
+    "/home/udt-admin/udt_mass_codex/udt_time_live_production_survey_2026-10-01/review/math/cases/oblique_a1_p1_r0_n24_half.json": "7e416330bfd4ebfbf50320d3d9db424e7dd841e003f4bd4287776cdcbd11b33a",
+    "/home/udt-admin/udt_mass_codex/udt_time_live_production_survey_2026-10-01/review/math/cases/oblique_a1_p1_r0_n32.json": "c1604641bdf88c2430d4caae4ddf1635b3a19c02e6cef448ae0b274958880913",
+    "/home/udt-admin/udt_mass_codex/udt_time_live_production_survey_2026-10-01/review/math/cases/oblique_a1_p1_r1_n24.json": "9c8731297aa6841744ea6cfa4fe32381bea98c93f96ab8fc96c4ccab7726461b",
+    "/home/udt-admin/udt_mass_codex/udt_time_live_production_survey_2026-10-01/review/math/cases/oblique_a1_p1_r1_n24_half.json": "f5f7d503238f85d97a9daa87a5585e84f58a73b331b8a3c7b946cb3fa05d9e66",
+    "/home/udt-admin/udt_mass_codex/udt_time_live_production_survey_2026-10-01/review/math/cases/oblique_a1_p1_r1_n32.json": "2e866834f9c4f26fb6d7976bc1cf5d9e7238f8e2b15b41b0c7e9249bc39955f9",
+    "/home/udt-admin/udt_mass_codex/udt_time_live_production_survey_2026-10-01/review/math/cases/oblique_a1_p1_r2_n24.json": "c76cb42325a4bd7fd1c22d3524e78805b0285bb5e4f886759acf443facbc6553",
+    "/home/udt-admin/udt_mass_codex/udt_time_live_production_survey_2026-10-01/review/math/cases/oblique_a1_p1_r2_n24_half.json": "db24c70289be1e71f94f921d6d870d040cc1c3d0a5e1a9031357c768bb9d0b31",
+    "/home/udt-admin/udt_mass_codex/udt_time_live_production_survey_2026-10-01/review/math/cases/oblique_a1_p1_r2_n32.json": "2ab3dfd052ec0d92d2c1fcfaa356533c7d49b805448b16c508e8a22f0e9017e6",
+    "/home/udt-admin/udt_mass_codex/udt_time_live_production_survey_2026-10-01/review/math/cases/oblique_a1_p2_r0_n24.json": "b195d93c9578a75b8bf5bc53729ada537f082b775f41628bd3b83722fe87979d",
+    "/home/udt-admin/udt_mass_codex/udt_time_live_production_survey_2026-10-01/review/math/cases/oblique_a1_p2_r0_n24_half.json": "0c9e737b06229a5e43897de2d4c8b9158424c1856323aa143833acb6945f521d",
+    "/home/udt-admin/udt_mass_codex/udt_time_live_production_survey_2026-10-01/review/math/cases/oblique_a1_p2_r0_n32.json": "21c517c3d50a0cdcc426d35bd5f0195a348cdb287d4e15babafd59029c594086",
+    "/home/udt-admin/udt_mass_codex/udt_time_live_production_survey_2026-10-01/review/math/cases/oblique_a1_p2_r1_n24.json": "7d734a122c096f36c0b8db264a21732a0c580e55da217ed3c58c4c8445e356d4",
+    "/home/udt-admin/udt_mass_codex/udt_time_live_production_survey_2026-10-01/review/math/cases/oblique_a1_p2_r1_n24_half.json": "91f90898760ef03e36c94ae8741283e37f5f9fa2c0e24cec211ddbc2ccbb3f23",
+    "/home/udt-admin/udt_mass_codex/udt_time_live_production_survey_2026-10-01/review/math/cases/oblique_a1_p2_r1_n32.json": "33fa563fb618091ad779de35642a219a55dfd3681b88b9ae81c43dc532bd0dcf",
+    "/home/udt-admin/udt_mass_codex/udt_time_live_production_survey_2026-10-01/review/math/cases/oblique_a1_p2_r2_n24.json": "3d68647ff1ff5a205e631c1846c8b43c168769fd3bfc1452d030fb2916063e30",
+    "/home/udt-admin/udt_mass_codex/udt_time_live_production_survey_2026-10-01/review/math/cases/oblique_a1_p2_r2_n24_half.json": "beae26b4352f609096492d2c67822b7ff986cdea994740b8ecee39931a8cba76",
+    "/home/udt-admin/udt_mass_codex/udt_time_live_production_survey_2026-10-01/review/math/cases/oblique_a1_p2_r2_n32.json": "93828a9b1e863813f4d7250ea6541e2ad0dff1b6cd75ee93d6faad0974a71976",
+    "/home/udt-admin/udt_mass_codex/udt_time_live_production_survey_2026-10-01/review/math/cases/oblique_a1_p3_r0_n24.json": "bcdf6a0fdabb47be7caf86a5c64e60764ce895a35b12133ee617917cbb218f18",
+    "/home/udt-admin/udt_mass_codex/udt_time_live_production_survey_2026-10-01/review/math/cases/oblique_a1_p3_r0_n24_half.json": "73cb0ef49af0246ffd61bb4889667c1ff3a812b62baf1a85c4874d7c75ff5f99",
+    "/home/udt-admin/udt_mass_codex/udt_time_live_production_survey_2026-10-01/review/math/cases/oblique_a1_p3_r0_n32.json": "32df24384971de96fe828b6ba03e843045d42aebb5d843aaa0272758f0a76412",
+    "/home/udt-admin/udt_mass_codex/udt_time_live_production_survey_2026-10-01/review/math/cases/oblique_a1_p3_r1_n24.json": "c7823b7d0297ec772a69192454a54c75ee6c36da884c25a5a6c0aaa02e606ae6",
+    "/home/udt-admin/udt_mass_codex/udt_time_live_production_survey_2026-10-01/review/math/cases/oblique_a1_p3_r1_n24_half.json": "dd1bbc9401ecbfce9c798872050162e851ac095d021641b78df39d8d75604814",
+    "/home/udt-admin/udt_mass_codex/udt_time_live_production_survey_2026-10-01/review/math/cases/oblique_a1_p3_r1_n32.json": "6be65800225639261a0663d4d79c49bd2a3fab10424178064955c05f36d29b53",
+    "/home/udt-admin/udt_mass_codex/udt_time_live_production_survey_2026-10-01/review/math/cases/oblique_a1_p3_r2_n24.json": "9b72c9367855aa23c0d5703ef79dbc0f2bf09af7f81709b38f8209522973613d",
+    "/home/udt-admin/udt_mass_codex/udt_time_live_production_survey_2026-10-01/review/math/cases/oblique_a1_p3_r2_n24_half.json": "10b045ca290dc4fe89588f7e2f20b8c20fe39516bd6757c4eeb3597142a6a8fb",
+    "/home/udt-admin/udt_mass_codex/udt_time_live_production_survey_2026-10-01/review/math/cases/oblique_a1_p3_r2_n32.json": "4e9e28540d5efed7a1e22a3e73548ebff17dfd643c5d7a6fd97dd6cfdc811e50",
+    "/home/udt-admin/udt_mass_codex/udt_time_live_production_survey_2026-10-01/review/math/cases/oblique_a2_p0_r0_n24.json": "2fe2ccb9f8db7113a7845de3fd082ce40505cc81842e9817247186e19dc3f3a5",
+    "/home/udt-admin/udt_mass_codex/udt_time_live_production_survey_2026-10-01/review/math/cases/oblique_a2_p0_r0_n24_half.json": "26a18436ce77f1814fabb73d72b9262ddd9851a91c7681f155327e4108c0976b",
+    "/home/udt-admin/udt_mass_codex/udt_time_live_production_survey_2026-10-01/review/math/cases/oblique_a2_p0_r0_n32.json": "6f3abd18a631e757accc6d6f7a044b47d8f18f38d603a34320f2ee4466b86dfe",
+    "/home/udt-admin/udt_mass_codex/udt_time_live_production_survey_2026-10-01/review/math/cases/oblique_a2_p0_r1_n24.json": "fbd4a4630fef3c9c91955c058b702a5f48e3164c6fb0bb2cc1f1d4f3a50a201f",
+    "/home/udt-admin/udt_mass_codex/udt_time_live_production_survey_2026-10-01/review/math/cases/oblique_a2_p0_r1_n24_half.json": "d34186709c0470eb83aca607433f39ef015db3b76242936c0113a6475b1e1850",
+    "/home/udt-admin/udt_mass_codex/udt_time_live_production_survey_2026-10-01/review/math/cases/oblique_a2_p0_r1_n32.json": "1ac32ad6bdde457cbe0501dda1c0bf42abf1f42ce6594de0b77512763a7750e8",
+    "/home/udt-admin/udt_mass_codex/udt_time_live_production_survey_2026-10-01/review/math/cases/oblique_a2_p0_r2_n24.json": "dce88d418ff1e2d9ec88485580332a1fc8045625403903176a416d82800b820e",
+    "/home/udt-admin/udt_mass_codex/udt_time_live_production_survey_2026-10-01/review/math/cases/oblique_a2_p0_r2_n24_half.json": "1ce1d4fd39056a226fe0903de3bdb05783e1acbdc836662fe592add3df4fa124",
+    "/home/udt-admin/udt_mass_codex/udt_time_live_production_survey_2026-10-01/review/math/cases/oblique_a2_p0_r2_n32.json": "ce6f6cfee8e85a9bf4b7501250ac4524647d981156f07cc6c92b77351c5c716b",
+    "/home/udt-admin/udt_mass_codex/udt_time_live_production_survey_2026-10-01/review/math/cases/oblique_a2_p1_r0_n24.json": "15db7d0d97a104517f34902ccbdd42581275ac7f96788be52d90203d76bba544",
+    "/home/udt-admin/udt_mass_codex/udt_time_live_production_survey_2026-10-01/review/math/cases/oblique_a2_p1_r0_n24_half.json": "5d47232f553f87da6cdfe70ce6ccec8839a2277f9d4df320621e15ca1d98adfe",
+    "/home/udt-admin/udt_mass_codex/udt_time_live_production_survey_2026-10-01/review/math/cases/oblique_a2_p1_r0_n32.json": "36888a5087492a2bcd1419017ae841a0731ae0130857be751033a8fa2202a6f3",
+    "/home/udt-admin/udt_mass_codex/udt_time_live_production_survey_2026-10-01/review/math/cases/oblique_a2_p1_r1_n24.json": "f13edc3be46c31fd42542c90d8d8c47d35feb04a5d72b6ce0a600d01a4adfdbc",
+    "/home/udt-admin/udt_mass_codex/udt_time_live_production_survey_2026-10-01/review/math/cases/oblique_a2_p1_r1_n24_half.json": "62456168d74796a1efe0dd3b88bd271acf9decf40d301732f50d09eec816956e",
+    "/home/udt-admin/udt_mass_codex/udt_time_live_production_survey_2026-10-01/review/math/cases/oblique_a2_p1_r1_n32.json": "540753848e7bc2153d03f2e9d775635d1e831b5ce3e8a0b4584a29611b0c6fc8",
+    "/home/udt-admin/udt_mass_codex/udt_time_live_production_survey_2026-10-01/review/math/cases/oblique_a2_p1_r2_n24.json": "1a9e08d496e6ce8a0c2a7f1bcb2fc0639c21fa0f8567ddc814f915c29675092f",
+    "/home/udt-admin/udt_mass_codex/udt_time_live_production_survey_2026-10-01/review/math/cases/oblique_a2_p1_r2_n24_half.json": "a2a5ac2c7f5e9dc91d666a9b66fb1a7e86bbe94d744dcc6fc7f62a8c8963173e",
+    "/home/udt-admin/udt_mass_codex/udt_time_live_production_survey_2026-10-01/review/math/cases/oblique_a2_p1_r2_n32.json": "f01eda8191646e890d45e5a3620d29962e737e9e6101d3eeddcc98ae4f7bef3b",
+    "/home/udt-admin/udt_mass_codex/udt_time_live_production_survey_2026-10-01/review/math/cases/oblique_a2_p2_r0_n24.json": "040d9647341b14e9d7c9614dac95a76df7b785124a1051b229b01f74bbc6b41c",
+    "/home/udt-admin/udt_mass_codex/udt_time_live_production_survey_2026-10-01/review/math/cases/oblique_a2_p2_r0_n24_half.json": "dbbf04731e74945a9d999c2d86c6055310572fae3a9543a2cef862ef6c263199",
+    "/home/udt-admin/udt_mass_codex/udt_time_live_production_survey_2026-10-01/review/math/cases/oblique_a2_p2_r0_n32.json": "439afba50f0b4f3aadcdfb4515cedc46d83ef82665e399c6d14f489753f6de22",
+    "/home/udt-admin/udt_mass_codex/udt_time_live_production_survey_2026-10-01/review/math/cases/oblique_a2_p2_r1_n24.json": "3ab41f2289f69e0191ad655b32067d8b291bbf112b82c55104dd1714d63f42fd",
+    "/home/udt-admin/udt_mass_codex/udt_time_live_production_survey_2026-10-01/review/math/cases/oblique_a2_p2_r1_n24_half.json": "738de039e1850061fb4bf57d109661001a93ef2dca3aafd83cab63259521152d",
+    "/home/udt-admin/udt_mass_codex/udt_time_live_production_survey_2026-10-01/review/math/cases/oblique_a2_p2_r1_n32.json": "b8ebfd44d82e2bbc521e431f079364657137c81349d6f3ab8677d5ec0469a7b5",
+    "/home/udt-admin/udt_mass_codex/udt_time_live_production_survey_2026-10-01/review/math/cases/oblique_a2_p2_r2_n24.json": "9a2163f96f62833249c131f3848bca16706685fb20e1280e6f51d6a287b96acd",
+    "/home/udt-admin/udt_mass_codex/udt_time_live_production_survey_2026-10-01/review/math/cases/oblique_a2_p2_r2_n24_half.json": "5d606404c9b7e2e9a1e0759dbb16d217e7ba8f863ef13e02f252c4ca78443560",
+    "/home/udt-admin/udt_mass_codex/udt_time_live_production_survey_2026-10-01/review/math/cases/oblique_a2_p2_r2_n32.json": "81a47d9ab0d8f4315716622dfefe10cdd536899ae1c01174c80e50090f80ccd5",
+    "/home/udt-admin/udt_mass_codex/udt_time_live_production_survey_2026-10-01/review/math/cases/oblique_a2_p3_r0_n24.json": "73884275cc885342319b178ca44517d2c01ce807fbe907f5b75384b16051e9d4",
+    "/home/udt-admin/udt_mass_codex/udt_time_live_production_survey_2026-10-01/review/math/cases/oblique_a2_p3_r0_n24_half.json": "2795e364de91202f82f62e8d9fb7b56e17627f70f28c3e3ed88ec048e0fd0828",
+    "/home/udt-admin/udt_mass_codex/udt_time_live_production_survey_2026-10-01/review/math/cases/oblique_a2_p3_r0_n32.json": "b7d3698b6fc26e303c187dffa64f062c7ce05b1e82fe19a69026dcb7390269f9",
+    "/home/udt-admin/udt_mass_codex/udt_time_live_production_survey_2026-10-01/review/math/cases/oblique_a2_p3_r1_n24.json": "45a97fb2f52cda35e5d37acccd19c4b1495b9a28eb1bbaaebbab9652521c6d06",
+    "/home/udt-admin/udt_mass_codex/udt_time_live_production_survey_2026-10-01/review/math/cases/oblique_a2_p3_r1_n24_half.json": "7f1b278303c8aa7daf3dfd111864ecc57ecf33507a45df3a5a16a16bde1b7896",
+    "/home/udt-admin/udt_mass_codex/udt_time_live_production_survey_2026-10-01/review/math/cases/oblique_a2_p3_r1_n32.json": "34226e10bf79d08a967037893df8f9862ad9b2a0dc92451929fffbe80f79cd5b",
+    "/home/udt-admin/udt_mass_codex/udt_time_live_production_survey_2026-10-01/review/math/cases/oblique_a2_p3_r2_n24.json": "1737f3efd9e4e2792bb883662f0e6547142e497168437b0fca1688a4d3250417",
+    "/home/udt-admin/udt_mass_codex/udt_time_live_production_survey_2026-10-01/review/math/cases/oblique_a2_p3_r2_n24_half.json": "a5c220d498289c83731af35b7d67ea6204a90044a643846ef7703312746441c9",
+    "/home/udt-admin/udt_mass_codex/udt_time_live_production_survey_2026-10-01/review/math/cases/oblique_a2_p3_r2_n32.json": "e50dcbfc63e571ac976a934db1ff571b39defc140e6e5cebc6684642ec0d5156",
+    "/home/udt-admin/udt_mass_codex/udt_time_live_production_survey_2026-10-01/review/math/cases/oblique_a3_p0_r0_n24.json": "8c8efe202a174f64f03893f9739005d8991c283550c237e63d3d799abbae8126",
+    "/home/udt-admin/udt_mass_codex/udt_time_live_production_survey_2026-10-01/review/math/cases/oblique_a3_p0_r0_n24_half.json": "4f7e5a43969450296dbfe504bfc4e239c2a74596158753cec0f517c27d22acdd",
+    "/home/udt-admin/udt_mass_codex/udt_time_live_production_survey_2026-10-01/review/math/cases/oblique_a3_p0_r0_n32.json": "214b665fc5794fd152d93fbded309a40143679466e7fdefca149e1b7dc733044",
+    "/home/udt-admin/udt_mass_codex/udt_time_live_production_survey_2026-10-01/review/math/cases/oblique_a3_p0_r1_n24.json": "c03e768f4a5c5361b8cec6d63025713c763747525db83fbd7c5a5ad3a3627ee9",
+    "/home/udt-admin/udt_mass_codex/udt_time_live_production_survey_2026-10-01/review/math/cases/oblique_a3_p0_r1_n24_half.json": "07f1027517e4cac0cb799efe5f3f1c6b355249ca357e58d9365002050505faae",
+    "/home/udt-admin/udt_mass_codex/udt_time_live_production_survey_2026-10-01/review/math/cases/oblique_a3_p0_r1_n32.json": "c8f2fd14c273dac2408d0037163b99edc9a611a973805fce8badf9aed88feeb2",
+    "/home/udt-admin/udt_mass_codex/udt_time_live_production_survey_2026-10-01/review/math/cases/oblique_a3_p0_r2_n24.json": "e36028c1da01f336f965bd625c254535430f5241b4e31229554fe6742c9e8688",
+    "/home/udt-admin/udt_mass_codex/udt_time_live_production_survey_2026-10-01/review/math/cases/oblique_a3_p0_r2_n24_half.json": "801dff2628fd07ab4edba495786543d93e0f2b9ad2811c5164b24e3176159a7b",
+    "/home/udt-admin/udt_mass_codex/udt_time_live_production_survey_2026-10-01/review/math/cases/oblique_a3_p0_r2_n32.json": "0057473cd4893b36e3fc3ae23645f16812fa8042c321c559ba525882632f8fb3",
+    "/home/udt-admin/udt_mass_codex/udt_time_live_production_survey_2026-10-01/review/math/cases/oblique_a3_p1_r0_n24.json": "ed8e2eca3948e4b5d2341b881cb5c11fbfc6a8401e8871d430dd09c08376aebd",
+    "/home/udt-admin/udt_mass_codex/udt_time_live_production_survey_2026-10-01/review/math/cases/oblique_a3_p1_r0_n24_half.json": "72d25c1cdfe036728ea572daa03d45301b7d5eac92d39971cc7e518fe7a6df85",
+    "/home/udt-admin/udt_mass_codex/udt_time_live_production_survey_2026-10-01/review/math/cases/oblique_a3_p1_r0_n32.json": "2599ebe5039e65bf2fbe2e3e397965eb843e1f7668d48abf7415bb98db2a7a87",
+    "/home/udt-admin/udt_mass_codex/udt_time_live_production_survey_2026-10-01/review/math/cases/oblique_a3_p1_r1_n24.json": "37ed1728ceda1d472a3a176c3a37c40939bbbe61a2c6cecd1ce6855293d49c56",
+    "/home/udt-admin/udt_mass_codex/udt_time_live_production_survey_2026-10-01/review/math/cases/oblique_a3_p1_r1_n24_half.json": "0daea9c38411dd0aa8f1676c16c3765d4ef1de9136ba210c70aed6e9e7f29d70",
+    "/home/udt-admin/udt_mass_codex/udt_time_live_production_survey_2026-10-01/review/math/cases/oblique_a3_p1_r1_n32.json": "bc6475ee1360a1dd617cefe3703b0a8e0dce643736d6735a840200aa980b71c4",
+    "/home/udt-admin/udt_mass_codex/udt_time_live_production_survey_2026-10-01/review/math/cases/oblique_a3_p1_r2_n24.json": "6e56d25647c198940e40d971abf9ca7863cb7b8ae6e46d01a6502124c6f7ade0",
+    "/home/udt-admin/udt_mass_codex/udt_time_live_production_survey_2026-10-01/review/math/cases/oblique_a3_p1_r2_n24_half.json": "ebff741d005012b39f63004de479de1701890dc302f7714a6864a35d9f4f28cf",
+    "/home/udt-admin/udt_mass_codex/udt_time_live_production_survey_2026-10-01/review/math/cases/oblique_a3_p1_r2_n32.json": "6436cb689dd1b4030d5a8b5cff54a49883b3d9ea4b639b207aef4cdda51e9a92",
+    "/home/udt-admin/udt_mass_codex/udt_time_live_production_survey_2026-10-01/review/math/cases/oblique_a3_p2_r0_n24.json": "992a5a39af66c409ea78e14a3622c380176dea1768d93b123596a22e4cee86e2",
+    "/home/udt-admin/udt_mass_codex/udt_time_live_production_survey_2026-10-01/review/math/cases/oblique_a3_p2_r0_n24_half.json": "a7014ee8b6e583f21009e0a5b70ae473185156794ad5ba9ac473910fd9103e9e",
+    "/home/udt-admin/udt_mass_codex/udt_time_live_production_survey_2026-10-01/review/math/cases/oblique_a3_p2_r0_n32.json": "0ec3fac3cbcdad22f121dc67839e827359469ca89d5a45569fb33cc642750e16",
+    "/home/udt-admin/udt_mass_codex/udt_time_live_production_survey_2026-10-01/review/math/cases/oblique_a3_p2_r1_n24.json": "9d4091b999f0045056e268164811daa70e94bdfec79173b71d6cb1c4784be375",
+    "/home/udt-admin/udt_mass_codex/udt_time_live_production_survey_2026-10-01/review/math/cases/oblique_a3_p2_r1_n24_half.json": "06a772323d698db69b3aeddc20fbfb3a70c2af680e8b50662c954144e9dc72a9",
+    "/home/udt-admin/udt_mass_codex/udt_time_live_production_survey_2026-10-01/review/math/cases/oblique_a3_p2_r1_n32.json": "7cfb11a3fe9c8f945818596c5e10ca22acae4da5b20dd49691a906a06ef33923",
+    "/home/udt-admin/udt_mass_codex/udt_time_live_production_survey_2026-10-01/review/math/cases/oblique_a3_p2_r2_n24.json": "547cb1c72383915458e06ae31d8825fe42cf1c79014bef569de9249b2b606696",
+    "/home/udt-admin/udt_mass_codex/udt_time_live_production_survey_2026-10-01/review/math/cases/oblique_a3_p2_r2_n24_half.json": "11b563d4ab8ce7ce984c61cb65eabd85322f74b11dec4766095a6e4d1ebacbc0",
+    "/home/udt-admin/udt_mass_codex/udt_time_live_production_survey_2026-10-01/review/math/cases/oblique_a3_p2_r2_n32.json": "766176d8bf4fd7caa1344dc7e77afbddfecff2d4158b559af15ad9dc4dbda37a",
+    "/home/udt-admin/udt_mass_codex/udt_time_live_production_survey_2026-10-01/review/math/cases/oblique_a3_p3_r0_n24.json": "6149a26ab8042d735d94a798d560e485f49f2531c7e45e71d47c733268fa711b",
+    "/home/udt-admin/udt_mass_codex/udt_time_live_production_survey_2026-10-01/review/math/cases/oblique_a3_p3_r0_n24_half.json": "26fae62dc9750a0c245d61be589fbd14db712aea271cf57e2b8afc42c408de69",
+    "/home/udt-admin/udt_mass_codex/udt_time_live_production_survey_2026-10-01/review/math/cases/oblique_a3_p3_r0_n32.json": "50a9a07d28fdbe6f8c5b67bcbbe4d361b46d9b73ea354f12443f3251c9e5cd5c",
+    "/home/udt-admin/udt_mass_codex/udt_time_live_production_survey_2026-10-01/review/math/cases/oblique_a3_p3_r1_n24.json": "0c3001850b0ceb2ad1cf80b6957ee103e5fd6a90e7834c6126e7d500eb6c6c8b",
+    "/home/udt-admin/udt_mass_codex/udt_time_live_production_survey_2026-10-01/review/math/cases/oblique_a3_p3_r1_n24_half.json": "51c461d9cb23b903756c1c0a1bebf464868f84d131ed04ef0f404e6f2f721cc9",
+    "/home/udt-admin/udt_mass_codex/udt_time_live_production_survey_2026-10-01/review/math/cases/oblique_a3_p3_r1_n32.json": "b225d6b8a782b1b65bc61a27479b3788ef3947f670f61f1f7cd9212435854a94",
+    "/home/udt-admin/udt_mass_codex/udt_time_live_production_survey_2026-10-01/review/math/cases/oblique_a3_p3_r2_n24.json": "16baaeedd14046dd56b7e35ab172c658d89ff9cc507cf8155c5f9815a94420ba",
+    "/home/udt-admin/udt_mass_codex/udt_time_live_production_survey_2026-10-01/review/math/cases/oblique_a3_p3_r2_n24_half.json": "42e3cee13cd3cec4736f11ff98092b10dfd6b2848d2ac5efa7d7158dbfcbafbf",
+    "/home/udt-admin/udt_mass_codex/udt_time_live_production_survey_2026-10-01/review/math/cases/oblique_a3_p3_r2_n32.json": "4b8f3e0df6ab314d13ff600f2e5a0cc5cf12301f4b01d596ed7e665446bb030e",
+    "/home/udt-admin/udt_mass_codex/udt_time_live_production_survey_2026-10-01/review/math/cases/oblique_a4_p0_r0_n24.json": "7cab56674de7f83b99b39bef6c20091dd108b68d8ceb126fc5c74c620e22565f",
+    "/home/udt-admin/udt_mass_codex/udt_time_live_production_survey_2026-10-01/review/math/cases/oblique_a4_p0_r0_n24_half.json": "fcdb2cc60fd7678c798a9438012b1e1031281463a808ff0413753381fc0649da",
+    "/home/udt-admin/udt_mass_codex/udt_time_live_production_survey_2026-10-01/review/math/cases/oblique_a4_p0_r0_n32.json": "04506e53035448b7045e3859ba23c4c9f6621421895a3c00b173e74383022f30",
+    "/home/udt-admin/udt_mass_codex/udt_time_live_production_survey_2026-10-01/review/math/cases/oblique_a4_p0_r1_n24.json": "55a8a5fffce308301a6dbe1f77c8e615ec896dc19b492669473803dba80cae83",
+    "/home/udt-admin/udt_mass_codex/udt_time_live_production_survey_2026-10-01/review/math/cases/oblique_a4_p0_r1_n24_half.json": "aedf9682fe74a965a08df7c6c65de5d953d00501b41b1decce73a76da63ee76f",
+    "/home/udt-admin/udt_mass_codex/udt_time_live_production_survey_2026-10-01/review/math/cases/oblique_a4_p0_r1_n32.json": "5f702cd7b6bcc4e4df9ef2e6aed5bd293590101607674d94fa2a70c105cc1537",
+    "/home/udt-admin/udt_mass_codex/udt_time_live_production_survey_2026-10-01/review/math/cases/oblique_a4_p0_r2_n24.json": "b375ebe8acad0d3c3a9a281db3344551420737ee4196fb20815f5d77fbef1fc9",
+    "/home/udt-admin/udt_mass_codex/udt_time_live_production_survey_2026-10-01/review/math/cases/oblique_a4_p0_r2_n24_half.json": "6e7171d9aa609dafc21ddbe40363622b5c1d43e4439938165f39d610187374ee",
+    "/home/udt-admin/udt_mass_codex/udt_time_live_production_survey_2026-10-01/review/math/cases/oblique_a4_p0_r2_n32.json": "4c3c87274da199158b2c6c055ad4f58bd12c06c565be4f4b90b80642134cc741",
+    "/home/udt-admin/udt_mass_codex/udt_time_live_production_survey_2026-10-01/review/math/cases/oblique_a4_p1_r0_n24.json": "8c2108565bce9a60aca0827f63ef09bfbed0c5df6d081529a0192e0763ce6e38",
+    "/home/udt-admin/udt_mass_codex/udt_time_live_production_survey_2026-10-01/review/math/cases/oblique_a4_p1_r0_n24_half.json": "c04f3a95236454bd8b9512a63499a8c95aa92045238f84129706903858f21416",
+    "/home/udt-admin/udt_mass_codex/udt_time_live_production_survey_2026-10-01/review/math/cases/oblique_a4_p1_r0_n32.json": "55e7ab00d32b13851bacbaba09f988e26cb10ac9550dad24d1205a578efcdcf4",
+    "/home/udt-admin/udt_mass_codex/udt_time_live_production_survey_2026-10-01/review/math/cases/oblique_a4_p1_r1_n24.json": "430c088e93348aa4ebab4e118b728098798179db2f8bfe2af051dfad1737b415",
+    "/home/udt-admin/udt_mass_codex/udt_time_live_production_survey_2026-10-01/review/math/cases/oblique_a4_p1_r1_n24_half.json": "bb26034da8b4f25472944a5c72a47e9a7e677357d450e8b04b0d4a68e3f36820",
+    "/home/udt-admin/udt_mass_codex/udt_time_live_production_survey_2026-10-01/review/math/cases/oblique_a4_p1_r1_n32.json": "dbec25291eda8a3e89cc918e1cccec3159d23ec9c1e3789f981a6df95200c9ba",
+    "/home/udt-admin/udt_mass_codex/udt_time_live_production_survey_2026-10-01/review/math/cases/oblique_a4_p1_r2_n24.json": "f20866b010fba1d8b987a36452c9f0cf4e00a061bfbdb413e526e2626491b0af",
+    "/home/udt-admin/udt_mass_codex/udt_time_live_production_survey_2026-10-01/review/math/cases/oblique_a4_p1_r2_n24_half.json": "94e6afcd52014f70c0362fc7582f3d2c36dfbee710d2a51e0fdfef4c4209aabb",
+    "/home/udt-admin/udt_mass_codex/udt_time_live_production_survey_2026-10-01/review/math/cases/oblique_a4_p1_r2_n32.json": "0f091892f3502f7ee54f51ad4fe58b291c60fb17f61cf9ec87a4ab7236704eba",
+    "/home/udt-admin/udt_mass_codex/udt_time_live_production_survey_2026-10-01/review/math/cases/oblique_a4_p2_r0_n24.json": "09f21bd1493119126e0dad02cf35b48d70a1229cbebf904cee235815c42ccc58",
+    "/home/udt-admin/udt_mass_codex/udt_time_live_production_survey_2026-10-01/review/math/cases/oblique_a4_p2_r0_n24_half.json": "ff3cb1a3f2e016567cf3694b02700204e358f31710de230def9809575cb4ba92",
+    "/home/udt-admin/udt_mass_codex/udt_time_live_production_survey_2026-10-01/review/math/cases/oblique_a4_p2_r0_n32.json": "80e273e0ba55f3179580a4cbcad7a1527242d191a202ebf4660f9810a09b1499",
+    "/home/udt-admin/udt_mass_codex/udt_time_live_production_survey_2026-10-01/review/math/cases/oblique_a4_p2_r1_n24.json": "027927ca52d26e7daeb2e744ea427f7c693baaf0fb4d467d4e5060b9f7358fb5",
+    "/home/udt-admin/udt_mass_codex/udt_time_live_production_survey_2026-10-01/review/math/cases/oblique_a4_p2_r1_n24_half.json": "e8cc31c6f45646e9e9a3bd01fefc3e1c55eae059604fc7d08dd156d4fde95436",
+    "/home/udt-admin/udt_mass_codex/udt_time_live_production_survey_2026-10-01/review/math/cases/oblique_a4_p2_r1_n32.json": "13f9e5e4180a61504e780505df5c9a4d639d8aa02971fa75b223aa20f2657370",
+    "/home/udt-admin/udt_mass_codex/udt_time_live_production_survey_2026-10-01/review/math/cases/oblique_a4_p2_r2_n24.json": "03551af2704e5d6f7edb846f3a2c95e93449ff8c97bc3dea4609ef888ba8f9f6",
+    "/home/udt-admin/udt_mass_codex/udt_time_live_production_survey_2026-10-01/review/math/cases/oblique_a4_p2_r2_n24_half.json": "1e483e99071034616baa30b152fdc36496467360a39df00c3808bf94f9ac14a6",
+    "/home/udt-admin/udt_mass_codex/udt_time_live_production_survey_2026-10-01/review/math/cases/oblique_a4_p2_r2_n32.json": "85bae58eb9504c8d14cd669882c8a77f6e5c2856cfd8b29c8103479e1a0e0b9e",
+    "/home/udt-admin/udt_mass_codex/udt_time_live_production_survey_2026-10-01/review/math/cases/oblique_a4_p3_r0_n24.json": "1373437430c537de608fe11e50442a2ef270b64b3d98e2cd40bcb14e69845601",
+    "/home/udt-admin/udt_mass_codex/udt_time_live_production_survey_2026-10-01/review/math/cases/oblique_a4_p3_r0_n24_half.json": "138461773f41d2a3fed139d9f1ea6795571d3ebfabedca53ebcd82b41010e10c",
+    "/home/udt-admin/udt_mass_codex/udt_time_live_production_survey_2026-10-01/review/math/cases/oblique_a4_p3_r0_n32.json": "eb5ac350da7dce9716dc31a09ca995d2a5de1a92cad7f21d7d8cdf84f9fe4c91",
+    "/home/udt-admin/udt_mass_codex/udt_time_live_production_survey_2026-10-01/review/math/cases/oblique_a4_p3_r1_n24.json": "f3bfd9237741d56e91d93b69fdd541e5f4b17c30b6942c037281f764a43fd46e",
+    "/home/udt-admin/udt_mass_codex/udt_time_live_production_survey_2026-10-01/review/math/cases/oblique_a4_p3_r1_n24_half.json": "5fa411c16cfe49fccfbf2569bbfb77cf7fe0aa8f069c995935715d89d2aa8d44",
+    "/home/udt-admin/udt_mass_codex/udt_time_live_production_survey_2026-10-01/review/math/cases/oblique_a4_p3_r1_n32.json": "2b2af39d911db55fd6105d5e22f5eb0ca974d7895183b54c8198647bf91ea2f3",
+    "/home/udt-admin/udt_mass_codex/udt_time_live_production_survey_2026-10-01/review/math/cases/oblique_a4_p3_r2_n24.json": "e62e063794ed84a0a88b6475e7bd927ac17f17484cd5de3b7c1e1343c99c333e",
+    "/home/udt-admin/udt_mass_codex/udt_time_live_production_survey_2026-10-01/review/math/cases/oblique_a4_p3_r2_n24_half.json": "d9ba687214defcf25eeca97a65f40b525e08cca4e3d1e4447ed590dfa9be12ee",
+    "/home/udt-admin/udt_mass_codex/udt_time_live_production_survey_2026-10-01/review/math/cases/oblique_a4_p3_r2_n32.json": "ec1a3a029a99bd44e6644711ae6b63589bf6943f6f9d1cbbe720c9d1ae1f635f",
+    "/home/udt-admin/udt_mass_codex/udt_time_live_production_survey_2026-10-01/review/math/cases/oblique_a5_p0_r0_n24.json": "40865fc0600a420fe6ac352c604cec8aeba9de92e52ebd9fc0cb9db8f60911b8",
+    "/home/udt-admin/udt_mass_codex/udt_time_live_production_survey_2026-10-01/review/math/cases/oblique_a5_p0_r0_n24_half.json": "aabe254a07a221792d300fefde8145c5a96c67a6ea9c0782583a781b5a2061b7",
+    "/home/udt-admin/udt_mass_codex/udt_time_live_production_survey_2026-10-01/review/math/cases/oblique_a5_p0_r0_n32.json": "a03b807c59981819612475ea4250073bd9aae9092a6dcc71674c02a728419839",
+    "/home/udt-admin/udt_mass_codex/udt_time_live_production_survey_2026-10-01/review/math/cases/oblique_a5_p0_r1_n24.json": "58edf12557cdae79b354dd8e2f65b1b4b1332e624daf770cbf417417637576d7",
+    "/home/udt-admin/udt_mass_codex/udt_time_live_production_survey_2026-10-01/review/math/cases/oblique_a5_p0_r1_n24_half.json": "67c0f12ea1e55f91857987cfe385445dd7acb6c707787cba0e942c0d023edfb6",
+    "/home/udt-admin/udt_mass_codex/udt_time_live_production_survey_2026-10-01/review/math/cases/oblique_a5_p0_r1_n32.json": "d332c54a8e0a3ddd480f323ab8b8f14e2047329976d45d0bd4776cf3614681c8",
+    "/home/udt-admin/udt_mass_codex/udt_time_live_production_survey_2026-10-01/review/math/cases/oblique_a5_p0_r2_n24.json": "171f489aae92d91d16a0a4700d66f69d0de27234cae811796591856bc5c1397c",
+    "/home/udt-admin/udt_mass_codex/udt_time_live_production_survey_2026-10-01/review/math/cases/oblique_a5_p0_r2_n24_half.json": "9064a662259860cb5a949e2b53b262430105562c7d325d536e37412c4b77a6c5",
+    "/home/udt-admin/udt_mass_codex/udt_time_live_production_survey_2026-10-01/review/math/cases/oblique_a5_p0_r2_n32.json": "25645e0f459d44af7d82c85b2208f2fac5dbe42e52637efc56df9f5b1f474e86",
+    "/home/udt-admin/udt_mass_codex/udt_time_live_production_survey_2026-10-01/review/math/cases/oblique_a5_p1_r0_n24.json": "decef3a581bf46c5dea7c2f3d283d88dbc50f5baf23bc2d98b73f7ec84776f66",
+    "/home/udt-admin/udt_mass_codex/udt_time_live_production_survey_2026-10-01/review/math/cases/oblique_a5_p1_r0_n24_half.json": "9fdf9e1ec0e958a02355a3fca1062d1919dcdda3a5f3e5a96ab6788abb820f0d",
+    "/home/udt-admin/udt_mass_codex/udt_time_live_production_survey_2026-10-01/review/math/cases/oblique_a5_p1_r0_n32.json": "bac4d117a9e68991d9b7ff4ece63e5edff6c0cbaaca7297ded28a818c62523f8",
+    "/home/udt-admin/udt_mass_codex/udt_time_live_production_survey_2026-10-01/review/math/cases/oblique_a5_p1_r1_n24.json": "a7bd04965c4e6eae5bdaba97ec8bb932d27cb803e3481a57ce2f4cba88adc238",
+    "/home/udt-admin/udt_mass_codex/udt_time_live_production_survey_2026-10-01/review/math/cases/oblique_a5_p1_r1_n24_half.json": "5dc73a1881110ba99fa3ccda9d67cbf02cc9a2db82571fd664f22ca376ef9446",
+    "/home/udt-admin/udt_mass_codex/udt_time_live_production_survey_2026-10-01/review/math/cases/oblique_a5_p1_r1_n32.json": "585b9b9ccba16f45fecb67dda71eadc123cec8dd2a18a45c03662ead630e07b4",
+    "/home/udt-admin/udt_mass_codex/udt_time_live_production_survey_2026-10-01/review/math/cases/oblique_a5_p1_r2_n24.json": "17b88168e1d83d230e81b8fdfdabfa8097d5d09acfc3fe60ac86a870a2201f61",
+    "/home/udt-admin/udt_mass_codex/udt_time_live_production_survey_2026-10-01/review/math/cases/oblique_a5_p1_r2_n24_half.json": "29ed62ad9a1bcea98aa28f9e74bad28fd471ab4aaec66c562ba6d1c6a8d6c18a",
+    "/home/udt-admin/udt_mass_codex/udt_time_live_production_survey_2026-10-01/review/math/cases/oblique_a5_p1_r2_n32.json": "4d974c14b37766b91b9ff66f7a21a50b78e85f549d7e0ff386c6bc25395a5bdf",
+    "/home/udt-admin/udt_mass_codex/udt_time_live_production_survey_2026-10-01/review/math/cases/oblique_a5_p2_r0_n24.json": "22782461883f2190b75b25b95491aa35c41e290b984142ea4bdbd1d20a95153f",
+    "/home/udt-admin/udt_mass_codex/udt_time_live_production_survey_2026-10-01/review/math/cases/oblique_a5_p2_r0_n24_half.json": "be7744931784bc5626eca093edd93a3ab60ef0c0100a0bc730f7be442531e156",
+    "/home/udt-admin/udt_mass_codex/udt_time_live_production_survey_2026-10-01/review/math/cases/oblique_a5_p2_r0_n32.json": "47fb444ef2478dd3133edecb6360cabe6ad2d843627a5cc32c4db39a06791c7f",
+    "/home/udt-admin/udt_mass_codex/udt_time_live_production_survey_2026-10-01/review/math/cases/oblique_a5_p2_r1_n24.json": "f3c02f07ca957094d9c8685b1052acd4a3a8ba81dea6c8e8eda6c6d9b6116b0c",
+    "/home/udt-admin/udt_mass_codex/udt_time_live_production_survey_2026-10-01/review/math/cases/oblique_a5_p2_r1_n24_half.json": "658f01a1a74c84f7794db3f82587753c2b316078c4b4475cc0456fafcde7d801",
+    "/home/udt-admin/udt_mass_codex/udt_time_live_production_survey_2026-10-01/review/math/cases/oblique_a5_p2_r1_n32.json": "a13239449bd2f7e3e4b9b4285c734de20bf6c0d4d2b158178a436ad896c16953",
+    "/home/udt-admin/udt_mass_codex/udt_time_live_production_survey_2026-10-01/review/math/cases/oblique_a5_p2_r2_n24.json": "69130309fe98214e92acdb2f58bf39a43d9159100f577119ce6e5fcb59d885e3",
+    "/home/udt-admin/udt_mass_codex/udt_time_live_production_survey_2026-10-01/review/math/cases/oblique_a5_p2_r2_n24_half.json": "d586bf2fdfdc36a4140c80f63a91eab50e542ca1a2b4792b563f03c98d4975dd",
+    "/home/udt-admin/udt_mass_codex/udt_time_live_production_survey_2026-10-01/review/math/cases/oblique_a5_p2_r2_n32.json": "b7b4a5e6bb8319efb129bbc7b7124d02033b1f18293727703bc25c4206c635a9",
+    "/home/udt-admin/udt_mass_codex/udt_time_live_production_survey_2026-10-01/review/math/cases/oblique_a5_p3_r0_n24.json": "9d921fb06e0a87a5721adc2b39ff59aa8187848a8f5dbfbe8520dce493e765fb",
+    "/home/udt-admin/udt_mass_codex/udt_time_live_production_survey_2026-10-01/review/math/cases/oblique_a5_p3_r0_n24_half.json": "4e9efbf9b599c33fea3a650708091aa80d3ae3a0aaf427f0a23910e225593f7b",
+    "/home/udt-admin/udt_mass_codex/udt_time_live_production_survey_2026-10-01/review/math/cases/oblique_a5_p3_r0_n32.json": "bce08b54ca5b45248a23d2030bddee836978182c356b627cc46ed40437911272",
+    "/home/udt-admin/udt_mass_codex/udt_time_live_production_survey_2026-10-01/review/math/cases/oblique_a5_p3_r1_n24.json": "64b1b83cbf1f970940959cc5501144801227d928eac08c3669c19257dddb49e2",
+    "/home/udt-admin/udt_mass_codex/udt_time_live_production_survey_2026-10-01/review/math/cases/oblique_a5_p3_r1_n24_half.json": "6d0fd40b73490d4ee6b8ff13e489cb5e83b0088eae47507508e56b63da80b8a8",
+    "/home/udt-admin/udt_mass_codex/udt_time_live_production_survey_2026-10-01/review/math/cases/oblique_a5_p3_r1_n32.json": "b7927fa83b859dffc79c010553a53fab2d53add2d5d471aae77e3f36419cd311",
+    "/home/udt-admin/udt_mass_codex/udt_time_live_production_survey_2026-10-01/review/math/cases/oblique_a5_p3_r2_n24.json": "fa4e2ad6f5f91f32fbbb3eb86c46bf9089cf319a8fb02e908fd14e69b465daf6",
+    "/home/udt-admin/udt_mass_codex/udt_time_live_production_survey_2026-10-01/review/math/cases/oblique_a5_p3_r2_n24_half.json": "f773b0d0ce9ed6601c775bbc47ff30ff914422bda54963f6e34f03e1aa25cc26",
+    "/home/udt-admin/udt_mass_codex/udt_time_live_production_survey_2026-10-01/review/math/cases/oblique_a5_p3_r2_n32.json": "4836627790977aed67f758f014a9c60c9aecade6f11ad5b116666b30630ec7a5"
+  },
+  "reviewer_context": "/root/survey_math",
+  "scope": "Finite dataset-level diagnostics. Inconclusive refinement is not physical exclusion, nonexistence or an equation-selection result.",
+  "seconds": 40.58441562898224,
+  "selected_cases": 234,
+  "status": "INCOMPLETE_OR_DIAGNOSTIC"
+}

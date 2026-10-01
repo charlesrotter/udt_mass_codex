@@ -1,0 +1,267 @@
+{
+  "status": "PASS_UNCHANGED_INPUTS_AND_ACTUAL_WORKER_SPEC_VALIDATION",
+  "rows": [
+    {
+      "case": "oblique_a5_p0_r0_n24_quarter",
+      "checkpoints": 32,
+      "check_events": 100,
+      "changed_keys": [
+        "cfl",
+        "max_step_ticks"
+      ],
+      "output_cap": 268435456
+    },
+    {
+      "case": "oblique_a5_p0_r0_n32_half",
+      "checkpoints": 32,
+      "check_events": 100,
+      "changed_keys": [
+        "cfl",
+        "max_step_ticks"
+      ],
+      "output_cap": 268435456
+    },
+    {
+      "case": "axial_a5_n24_quarter",
+      "checkpoints": 32,
+      "check_events": 100,
+      "changed_keys": [
+        "cfl",
+        "max_step_ticks"
+      ],
+      "output_cap": 268435456
+    },
+    {
+      "case": "axial_a5_n32_half",
+      "checkpoints": 32,
+      "check_events": 100,
+      "changed_keys": [
+        "cfl",
+        "max_step_ticks"
+      ],
+      "output_cap": 268435456
+    },
+    {
+      "case": "oblique_a5_p0_r1_n24_quarter",
+      "checkpoints": 32,
+      "check_events": 100,
+      "changed_keys": [
+        "cfl",
+        "max_step_ticks"
+      ],
+      "output_cap": 268435456
+    },
+    {
+      "case": "oblique_a5_p0_r1_n32_half",
+      "checkpoints": 32,
+      "check_events": 100,
+      "changed_keys": [
+        "cfl",
+        "max_step_ticks"
+      ],
+      "output_cap": 268435456
+    },
+    {
+      "case": "oblique_a5_p0_r2_n24_quarter",
+      "checkpoints": 32,
+      "check_events": 100,
+      "changed_keys": [
+        "cfl",
+        "max_step_ticks"
+      ],
+      "output_cap": 268435456
+    },
+    {
+      "case": "oblique_a5_p0_r2_n32_half",
+      "checkpoints": 32,
+      "check_events": 100,
+      "changed_keys": [
+        "cfl",
+        "max_step_ticks"
+      ],
+      "output_cap": 268435456
+    },
+    {
+      "case": "oblique_a5_p1_r0_n24_quarter",
+      "checkpoints": 32,
+      "check_events": 100,
+      "changed_keys": [
+        "cfl",
+        "max_step_ticks"
+      ],
+      "output_cap": 268435456
+    },
+    {
+      "case": "oblique_a5_p1_r0_n32_half",
+      "checkpoints": 32,
+      "check_events": 100,
+      "changed_keys": [
+        "cfl",
+        "max_step_ticks"
+      ],
+      "output_cap": 268435456
+    },
+    {
+      "case": "oblique_a5_p1_r1_n24_quarter",
+      "checkpoints": 32,
+      "check_events": 100,
+      "changed_keys": [
+        "cfl",
+        "max_step_ticks"
+      ],
+      "output_cap": 268435456
+    },
+    {
+      "case": "oblique_a5_p1_r1_n32_half",
+      "checkpoints": 32,
+      "check_events": 100,
+      "changed_keys": [
+        "cfl",
+        "max_step_ticks"
+      ],
+      "output_cap": 268435456
+    },
+    {
+      "case": "oblique_a5_p1_r2_n24_quarter",
+      "checkpoints": 32,
+      "check_events": 100,
+      "changed_keys": [
+        "cfl",
+        "max_step_ticks"
+      ],
+      "output_cap": 268435456
+    },
+    {
+      "case": "oblique_a5_p1_r2_n32_half",
+      "checkpoints": 32,
+      "check_events": 100,
+      "changed_keys": [
+        "cfl",
+        "max_step_ticks"
+      ],
+      "output_cap": 268435456
+    },
+    {
+      "case": "oblique_a5_p2_r0_n24_quarter",
+      "checkpoints": 32,
+      "check_events": 100,
+      "changed_keys": [
+        "cfl",
+        "max_step_ticks"
+      ],
+      "output_cap": 268435456
+    },
+    {
+      "case": "oblique_a5_p2_r0_n32_half",
+      "checkpoints": 32,
+      "check_events": 100,
+      "changed_keys": [
+        "cfl",
+        "max_step_ticks"
+      ],
+      "output_cap": 268435456
+    },
+    {
+      "case": "oblique_a5_p2_r1_n24_quarter",
+      "checkpoints": 32,
+      "check_events": 100,
+      "changed_keys": [
+        "cfl",
+        "max_step_ticks"
+      ],
+      "output_cap": 268435456
+    },
+    {
+      "case": "oblique_a5_p2_r1_n32_half",
+      "checkpoints": 32,
+      "check_events": 100,
+      "changed_keys": [
+        "cfl",
+        "max_step_ticks"
+      ],
+      "output_cap": 268435456
+    },
+    {
+      "case": "oblique_a5_p2_r2_n24_quarter",
+      "checkpoints": 32,
+      "check_events": 100,
+      "changed_keys": [
+        "cfl",
+        "max_step_ticks"
+      ],
+      "output_cap": 268435456
+    },
+    {
+      "case": "oblique_a5_p2_r2_n32_half",
+      "checkpoints": 32,
+      "check_events": 100,
+      "changed_keys": [
+        "cfl",
+        "max_step_ticks"
+      ],
+      "output_cap": 268435456
+    },
+    {
+      "case": "oblique_a5_p3_r0_n24_quarter",
+      "checkpoints": 32,
+      "check_events": 100,
+      "changed_keys": [
+        "cfl",
+        "max_step_ticks"
+      ],
+      "output_cap": 268435456
+    },
+    {
+      "case": "oblique_a5_p3_r0_n32_half",
+      "checkpoints": 32,
+      "check_events": 100,
+      "changed_keys": [
+        "cfl",
+        "max_step_ticks"
+      ],
+      "output_cap": 268435456
+    },
+    {
+      "case": "oblique_a5_p3_r1_n24_quarter",
+      "checkpoints": 32,
+      "check_events": 100,
+      "changed_keys": [
+        "cfl",
+        "max_step_ticks"
+      ],
+      "output_cap": 268435456
+    },
+    {
+      "case": "oblique_a5_p3_r1_n32_half",
+      "checkpoints": 32,
+      "check_events": 100,
+      "changed_keys": [
+        "cfl",
+        "max_step_ticks"
+      ],
+      "output_cap": 268435456
+    },
+    {
+      "case": "oblique_a5_p3_r2_n24_quarter",
+      "checkpoints": 32,
+      "check_events": 100,
+      "changed_keys": [
+        "cfl",
+        "max_step_ticks"
+      ],
+      "output_cap": 268435456
+    },
+    {
+      "case": "oblique_a5_p3_r2_n32_half",
+      "checkpoints": 32,
+      "check_events": 100,
+      "changed_keys": [
+        "cfl",
+        "max_step_ticks"
+      ],
+      "output_cap": 268435456
+    }
+  ],
+  "manifest_sha256": "2e40cd765113d30a52f6858c36054011046182b1c429ce0e9875df4577e63959",
+  "scope": "Configuration/source check only; does not certify new evolved fields or GPU behavior."
+}

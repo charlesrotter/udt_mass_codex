@@ -1,0 +1,27 @@
+{
+  "status": "FINAL_FREEZE_PRESERVATION_AND_SCOPE_PASS",
+  "freeze_sha256": "97cffde48522b68e4b4544d1d7b33a0d198296b73ce22708206d99fde8f751ad",
+  "checker_sha256": "5d5b39e050c4b8c51ac2960596592c9424e714f569e7e43ab4ca64f4c3296d7c",
+  "head": "464dfa03744fe6e74a615d1e15a9ba0e844d0e26",
+  "branch": "grok",
+  "origin_grok_cached": "464dfa03744fe6e74a615d1e15a9ba0e844d0e26",
+  "accepted_count": 12102,
+  "accepted_bytes_hashed": 2168828799,
+  "prior_count": 7707,
+  "preserved_prior_count": 7700,
+  "explicit_changed_prior": [
+    ".gitignore",
+    "CURRENT_RESEARCH_PROGRAM.md",
+    "HANDOFF.md",
+    "LIVE.md",
+    "UDT_DEVELOPMENT.md",
+    "development_reconstruction_2026-09-29/DEVELOPMENT_GRAPH.json",
+    "development_reconstruction_2026-09-29/RECENT_DISPOSITIONS.tsv"
+  ],
+  "banking_candidates": 4414,
+  "banking_candidate_bytes": 18212128,
+  "unchanged_canon_registry_authority": true,
+  "typed_graph_conditions_and_edges_preserved": true,
+  "protected_payload_access": false,
+  "scope": "All12102acceptedbytes authenticated; prior7707minus7explicitintegrationedits preserved. Bankingcandidateallowlist excludesnewrawarrays/checkpoints/workerstreams/generatedfixtures/locks/protectedpayloads. This is not yet an actual git-index/staging audit or final repository verifier run; parent must perform those after both attestations."
+}

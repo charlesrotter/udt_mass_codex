@@ -1,0 +1,51 @@
+{
+  "status": "REPAIR_OPERATIONS_PASS",
+  "cases": 2,
+  "manifest_sha256": "2e40cd765113d30a52f6858c36054011046182b1c429ce0e9875df4577e63959",
+  "controller_sha256": "49cd6bde8b9891cc27f6a81c2e6d30187f82ff4a63048148d0b946687757536a",
+  "checker_sha256": "3441f20a3169e53c272355f98bc8ab698d6caec445d170ca3301eaa85a1c7732",
+  "adapted_prior_checker_sha256": "e72c2cb12b081a7eac01d6615e78607df5aaa0555fd7693dcb5247e097a2cf43",
+  "reports": [
+    {
+      "case": "oblique_a5_p0_r0_n24_quarter",
+      "steps": 2441,
+      "old_reference_case": "oblique_a5_p0_r0_n24_half",
+      "old_steps": 1221,
+      "step_histogram": {
+        "4": 529,
+        "2": 772,
+        "1": 1140
+      },
+      "max_stage_cfl": 0.06248831090864637,
+      "max_stage_omega": 163.82496121311362,
+      "gpu_peak_bytes": 170138112,
+      "maximum_logged_original_constraint": 9.379881482640684e-09,
+      "authenticated_checkpoints": 32,
+      "payload_bytes_hashed": 75718771,
+      "case_bytes": 75757801,
+      "receipt_sha256": "438ebfefe8fea205e5603e759aebef3a5e28de16e72398cac759682ea3db8603"
+    },
+    {
+      "case": "oblique_a5_p0_r0_n32_half",
+      "steps": 1575,
+      "old_reference_case": "oblique_a5_p0_r0_n32",
+      "old_steps": 792,
+      "step_histogram": {
+        "8": 178,
+        "4": 400,
+        "2": 779,
+        "1": 218
+      },
+      "max_stage_cfl": 0.12492406254896458,
+      "max_stage_omega": 218.48716886068374,
+      "gpu_peak_bytes": 355607552,
+      "maximum_logged_original_constraint": 2.349030692183618e-11,
+      "authenticated_checkpoints": 32,
+      "payload_bytes_hashed": 179388889,
+      "case_bytes": 179427918,
+      "receipt_sha256": "852ead633e53659c54a341397ba150a7516af3f2c000be4368cddbd62b42da9a"
+    }
+  ],
+  "used_budgeted_bytes": 48603352176,
+  "scope": "Actual receipt/log/step/CFL/checkpoint/resource review. All repair payload hashes authenticated; producer-reported constraints are attributed, original equation recomputation owned by separate mathematics review. Existing interrupt/restart evidence remains attributed; no new interruption was performed on repair fields."
+}

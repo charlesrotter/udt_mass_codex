@@ -1,0 +1,36 @@
+{
+  "clock_machine_diagnostic": "PASS",
+  "freeze_sha256": "749bf96e9414961fee22b991fe473a9903f7e4176a79a4abdf46b8597131c74d",
+  "manual_signal": null,
+  "original_pass": 65,
+  "original_unqualified": 13,
+  "review_sha256": "171e691fbf6949e97445281ed7dc0a64cd2d69eb7161d5008c1263798f499055",
+  "stages": [
+    {
+      "command": [
+        "/usr/bin/python3",
+        "/home/udt-admin/udt_mass_codex/udt_time_live_production_survey_2026-10-01/capture.py",
+        "/home/udt-admin/udt_mass_codex/udt_time_live_production_survey_2026-10-01/diagnosis/clock_completion/producer_clocks",
+        "/usr/bin/python3",
+        "/home/udt-admin/udt_mass_codex/udt_time_live_production_survey_2026-10-01/clock_batch.py"
+      ],
+      "name": "producer_clocks",
+      "returncode": 0
+    },
+    {
+      "command": [
+        "/usr/bin/python3",
+        "/home/udt-admin/udt_mass_codex/udt_time_live_production_survey_2026-10-01/capture.py",
+        "/home/udt-admin/udt_mass_codex/udt_time_live_production_survey_2026-10-01/diagnosis/clock_completion/independent_clocks",
+        "/usr/bin/python3",
+        "/home/udt-admin/udt_mass_codex/udt_time_live_production_preparation_2026-10-01/review/runtime/check_clock_hamilton.py",
+        "/home/udt-admin/udt_mass_codex/udt_time_live_production_survey_2026-10-01/review/runtime/SUBSET_CLOCK_QUERIES.json"
+      ],
+      "name": "independent_clocks",
+      "returncode": 0
+    }
+  ],
+  "status": "CLOCK_CHARACTERIZATION_COMPLETE_PENDING_REVIEW",
+  "utc": "2026-10-01T14:35:10.070740+00:00",
+  "whole_package_bytes": 51105194954
+}

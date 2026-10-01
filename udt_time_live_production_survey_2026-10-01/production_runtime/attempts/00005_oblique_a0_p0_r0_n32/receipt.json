@@ -1,0 +1,20 @@
+{
+  "case": "oblique_a0_p0_r0_n32",
+  "command": [
+    "/usr/bin/python3",
+    "/home/udt-admin/udt_mass_codex/udt_time_live_production_survey_2026-10-01/production_worker.py",
+    "/home/udt-admin/udt_mass_codex/udt_time_live_production_survey_2026-10-01/specs/production/oblique_a0_p0_r0_n32.json",
+    "/home/udt-admin/udt_mass_codex/udt_time_live_production_survey_2026-10-01/runs/production/oblique_a0_p0_r0_n32"
+  ],
+  "forwarded_signal": null,
+  "resume": false,
+  "returncode": 0,
+  "sigint_sent": false,
+  "sigkill_sent": false,
+  "sigterm_sent": false,
+  "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "stdout_sha256": "5cc5b270a3853b9c4c92da2b765f764e0f7561628911d1368e740020643efa2f",
+  "wall_seconds": 40.84919650800293,
+  "worker_status": "TPS1_RUN_COMPLETE",
+  "worker_stop_reason": null
+}

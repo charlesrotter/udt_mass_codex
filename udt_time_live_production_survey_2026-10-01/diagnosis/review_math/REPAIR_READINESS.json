@@ -1,0 +1,237 @@
+{
+  "adapter_sha256": "14915014c28e673a60aa54364b649aa987c896fc405fdfbe786afe0dba458b39",
+  "cases": [
+    {
+      "case": "oblique_a5_p0_r0_n24_quarter",
+      "cfl": 0.0625,
+      "initial_sha256": "80c57231981aba1c277555f8845919be0871b45b42d3646d56a4b2b3fead76fc",
+      "max_step_ticks": 4,
+      "n": 24,
+      "output_bytes": 268435456
+    },
+    {
+      "case": "oblique_a5_p0_r0_n32_half",
+      "cfl": 0.125,
+      "initial_sha256": "b491314b8bef32a778654c01bedbad229ffe59a36eb200128f5c8c7bb2ef0ae5",
+      "max_step_ticks": 8,
+      "n": 32,
+      "output_bytes": 268435456
+    },
+    {
+      "case": "axial_a5_n24_quarter",
+      "cfl": 0.0625,
+      "initial_sha256": "5386bead1d2edf9688cadf3804d76626c6973d7bda317f1ce28cad37951a4064",
+      "max_step_ticks": 4,
+      "n": 24,
+      "output_bytes": 268435456
+    },
+    {
+      "case": "axial_a5_n32_half",
+      "cfl": 0.125,
+      "initial_sha256": "4b6e0894aa5305814bc3de41eae82c167ba8fec7e74ebaab08a802cb9218f4a1",
+      "max_step_ticks": 8,
+      "n": 32,
+      "output_bytes": 268435456
+    },
+    {
+      "case": "oblique_a5_p0_r1_n24_quarter",
+      "cfl": 0.0625,
+      "initial_sha256": "c90c3af34c1629c7bad940f7192deb7fe85bd0c3ddd7c72c187c8c8fe65f393a",
+      "max_step_ticks": 4,
+      "n": 24,
+      "output_bytes": 268435456
+    },
+    {
+      "case": "oblique_a5_p0_r1_n32_half",
+      "cfl": 0.125,
+      "initial_sha256": "8e34c59db5e03906eeaebcfdb638eb8da3c4d1466e745db4a9e724d909009635",
+      "max_step_ticks": 8,
+      "n": 32,
+      "output_bytes": 268435456
+    },
+    {
+      "case": "oblique_a5_p0_r2_n24_quarter",
+      "cfl": 0.0625,
+      "initial_sha256": "25be705f31c835868bbcd4e34e3f6098456eb504009601993c5884a5e6111849",
+      "max_step_ticks": 4,
+      "n": 24,
+      "output_bytes": 268435456
+    },
+    {
+      "case": "oblique_a5_p0_r2_n32_half",
+      "cfl": 0.125,
+      "initial_sha256": "fd09a9c01c9753a31468d94a59350995d957d5aa4439850f38a5e35e3dfb31d1",
+      "max_step_ticks": 8,
+      "n": 32,
+      "output_bytes": 268435456
+    },
+    {
+      "case": "oblique_a5_p1_r0_n24_quarter",
+      "cfl": 0.0625,
+      "initial_sha256": "a3463da2c10ff3f1467bbcca17c1b8fc3a3cbe38eaddbe1f15a3223794e10a92",
+      "max_step_ticks": 4,
+      "n": 24,
+      "output_bytes": 268435456
+    },
+    {
+      "case": "oblique_a5_p1_r0_n32_half",
+      "cfl": 0.125,
+      "initial_sha256": "912d110b4abc5e6de87ebd53eafcce0adb3ba90e04ebc1827e7c73dbde79dfcb",
+      "max_step_ticks": 8,
+      "n": 32,
+      "output_bytes": 268435456
+    },
+    {
+      "case": "oblique_a5_p1_r1_n24_quarter",
+      "cfl": 0.0625,
+      "initial_sha256": "a62e0a2dd8af789e476dd1793f7c3f6ea9a26d2368845647859fcfdcab5ddf3f",
+      "max_step_ticks": 4,
+      "n": 24,
+      "output_bytes": 268435456
+    },
+    {
+      "case": "oblique_a5_p1_r1_n32_half",
+      "cfl": 0.125,
+      "initial_sha256": "58abc9eaa341519260f2d026974a33a61a3856c31467fb08dbf9a317a53680c5",
+      "max_step_ticks": 8,
+      "n": 32,
+      "output_bytes": 268435456
+    },
+    {
+      "case": "oblique_a5_p1_r2_n24_quarter",
+      "cfl": 0.0625,
+      "initial_sha256": "46c599405d43de783fbfabddb9ba83aea1b2717aa5b01d52e4a6c2964d3b1902",
+      "max_step_ticks": 4,
+      "n": 24,
+      "output_bytes": 268435456
+    },
+    {
+      "case": "oblique_a5_p1_r2_n32_half",
+      "cfl": 0.125,
+      "initial_sha256": "ef794e22dacd84350ec9d648db7a5bcae435f3206237b67deca1dd23f0a0d521",
+      "max_step_ticks": 8,
+      "n": 32,
+      "output_bytes": 268435456
+    },
+    {
+      "case": "oblique_a5_p2_r0_n24_quarter",
+      "cfl": 0.0625,
+      "initial_sha256": "12a0e105b8991a7475a9439b75f7516d4d0aebcdea8089d98dac092155ce13f1",
+      "max_step_ticks": 4,
+      "n": 24,
+      "output_bytes": 268435456
+    },
+    {
+      "case": "oblique_a5_p2_r0_n32_half",
+      "cfl": 0.125,
+      "initial_sha256": "d6088c529523f479a9a674ed80a3bdebf519eb568e0699806d54e238705a0de7",
+      "max_step_ticks": 8,
+      "n": 32,
+      "output_bytes": 268435456
+    },
+    {
+      "case": "oblique_a5_p2_r1_n24_quarter",
+      "cfl": 0.0625,
+      "initial_sha256": "8ce3d8a7a65e3976bacdfcae7b5d3bba1850012df221bb31b3f71481515000c5",
+      "max_step_ticks": 4,
+      "n": 24,
+      "output_bytes": 268435456
+    },
+    {
+      "case": "oblique_a5_p2_r1_n32_half",
+      "cfl": 0.125,
+      "initial_sha256": "70d58237e2cd0016a2a017a663024b2eb0b8cb5a99b2d6bebfa7f73e57b1a7d1",
+      "max_step_ticks": 8,
+      "n": 32,
+      "output_bytes": 268435456
+    },
+    {
+      "case": "oblique_a5_p2_r2_n24_quarter",
+      "cfl": 0.0625,
+      "initial_sha256": "3ca39d03d0df4a75c40802703279d4ded72d57b66fe8b465a93b20feb3f6132e",
+      "max_step_ticks": 4,
+      "n": 24,
+      "output_bytes": 268435456
+    },
+    {
+      "case": "oblique_a5_p2_r2_n32_half",
+      "cfl": 0.125,
+      "initial_sha256": "15959e948bb9c6a36c41f0640b2b6e12aeb3240e8c1dccff79fe7482471d3a35",
+      "max_step_ticks": 8,
+      "n": 32,
+      "output_bytes": 268435456
+    },
+    {
+      "case": "oblique_a5_p3_r0_n24_quarter",
+      "cfl": 0.0625,
+      "initial_sha256": "5b36933500b492799847140a7dbaf9c972b70e82bcf1deb6a03137e0aef64122",
+      "max_step_ticks": 4,
+      "n": 24,
+      "output_bytes": 268435456
+    },
+    {
+      "case": "oblique_a5_p3_r0_n32_half",
+      "cfl": 0.125,
+      "initial_sha256": "b6ca3aaa676c45968cebcc43dc464e466132871d616819d01e6e57ad8bec9ce2",
+      "max_step_ticks": 8,
+      "n": 32,
+      "output_bytes": 268435456
+    },
+    {
+      "case": "oblique_a5_p3_r1_n24_quarter",
+      "cfl": 0.0625,
+      "initial_sha256": "6ac8b9c3b6ae8a517572f7d35e726911513ae3011ad95f6bc2d6c4714697bcbd",
+      "max_step_ticks": 4,
+      "n": 24,
+      "output_bytes": 268435456
+    },
+    {
+      "case": "oblique_a5_p3_r1_n32_half",
+      "cfl": 0.125,
+      "initial_sha256": "4811b47fd635393fbfc7fd98c3cec32054349ed5832a637943f20fae1604ba0d",
+      "max_step_ticks": 8,
+      "n": 32,
+      "output_bytes": 268435456
+    },
+    {
+      "case": "oblique_a5_p3_r2_n24_quarter",
+      "cfl": 0.0625,
+      "initial_sha256": "c68e7e064ffb4fcfd841bbf1bcd433832210da88fa9da6e64a638d9a5e312d75",
+      "max_step_ticks": 4,
+      "n": 24,
+      "output_bytes": 268435456
+    },
+    {
+      "case": "oblique_a5_p3_r2_n32_half",
+      "cfl": 0.125,
+      "initial_sha256": "c72a62705cb9955b11ae4abe80fb238c68e771da76ddde89a9a571db207b9cef",
+      "max_step_ticks": 8,
+      "n": 32,
+      "output_bytes": 268435456
+    }
+  ],
+  "defect_controls_caught": [
+    "changed_initial",
+    "loosened_threshold",
+    "wrong_mesh",
+    "unchanged_cfl",
+    "wrong_step_ratio"
+  ],
+  "dispatch_sha256": "84fef98321b0551ec4cdae33ae8e5c5df57c44cc43a0e8361ea3c5c66a774a5f",
+  "manifest_sha256": "2e40cd765113d30a52f6858c36054011046182b1c429ce0e9875df4577e63959",
+  "map_sha256": "422ee7600f33a71d4fadb095e35520680245811c5518fa594c3ebf894ba637cc",
+  "method_sources": {
+    "udt_three_spatial_smoke_2026-10-01/review/data/check_constraints.py": "f10e6e0b512a6f2078e71cb32b8972005356c2555fa25ef36832bdb20bc947fc",
+    "udt_three_spatial_smoke_2026-10-01/review/data/check_harmonic.py": "2be7d388f44bd7de631b45d4699a4b9dabf1c96b3fb650342cf200d0c019c7c9",
+    "udt_three_spatial_smoke_2026-10-01/review/equations_recovery/history_ricci.py": "1da366b12489be81d9b2a333f1abf0793ecf7d2e6f4e3fe783390e3098e5aff4",
+    "udt_time_live_production_preparation_2026-10-01/review/math/check_saved_data.py": "f70a57f419a908f62bff0d02243f9d2f9b2c5f4a55a695dc9a2493a524a33cfc",
+    "udt_time_live_production_preparation_2026-10-01/review/math/diagnose_window_truncation.py": "5bcd19b27abb09b45acda4c55cdd846b2d9daed149a9bd8c44539e778f97a8c2",
+    "udt_time_live_production_survey_2026-10-01/review/math/check_survey.py": "3f98e82cc46600b25b54ff4b38956280aa6683d852c9251bbfef242d52faf5f2"
+  },
+  "numpy": "2.2.6",
+  "repair_specs_review": null,
+  "reviewer_context": "/root/survey_completion_math",
+  "scope": "Finite same-premise resolution repair; original65/13status table immutable, repaired triple is old24half/new24quarter/new32half. No new criterion or continuum claim.",
+  "seconds": 0.5434712010319345,
+  "status": "PASS"
+}

@@ -1,0 +1,52 @@
+{
+  "controller_launch_sha256": "dad6ec7d9605378624d52de39a081319e761c2af4293a6843736d0dda16c7cba",
+  "manifest_sha256": "237d0033935e8708a50429df77aea10adea43ced339a2aa0ed971a71d027bac7",
+  "manual_signal": null,
+  "phase": "CHECK_STOPPED_OR_DIAGNOSTIC",
+  "stages": [
+    {
+      "command": [
+        "/usr/bin/python3",
+        "/home/udt-admin/udt_mass_codex/udt_time_live_production_survey_2026-10-01/capture.py",
+        "/home/udt-admin/udt_mass_codex/udt_time_live_production_survey_2026-10-01/production_analysis/postprocess/assembly",
+        "/usr/bin/python3",
+        "/home/udt-admin/udt_mass_codex/udt_time_live_production_survey_2026-10-01/assemble_campaign.py",
+        "/home/udt-admin/udt_mass_codex/udt_time_live_production_survey_2026-10-01/production_runtime/campaign.json",
+        "/home/udt-admin/udt_mass_codex/udt_time_live_production_survey_2026-10-01/production_runtime"
+      ],
+      "name": "assembly",
+      "receipt": "/home/udt-admin/udt_mass_codex/udt_time_live_production_survey_2026-10-01/production_analysis/postprocess/assembly.json",
+      "returncode": 0
+    },
+    {
+      "command": [
+        "/usr/bin/python3",
+        "/home/udt-admin/udt_mass_codex/udt_time_live_production_survey_2026-10-01/capture.py",
+        "/home/udt-admin/udt_mass_codex/udt_time_live_production_survey_2026-10-01/production_analysis/postprocess/case_checks",
+        "/usr/bin/python3",
+        "/home/udt-admin/udt_mass_codex/udt_time_live_production_survey_2026-10-01/review/math/run_case_checks.py"
+      ],
+      "name": "case_checks",
+      "receipt": "/home/udt-admin/udt_mass_codex/udt_time_live_production_survey_2026-10-01/production_analysis/postprocess/case_checks.json",
+      "returncode": 0
+    },
+    {
+      "command": [
+        "/usr/bin/python3",
+        "/home/udt-admin/udt_mass_codex/udt_time_live_production_survey_2026-10-01/capture.py",
+        "/home/udt-admin/udt_mass_codex/udt_time_live_production_survey_2026-10-01/production_analysis/postprocess/math_aggregate",
+        "/usr/bin/python3",
+        "/home/udt-admin/udt_mass_codex/udt_time_live_production_survey_2026-10-01/review/math/check_survey.py",
+        "aggregate",
+        "--output",
+        "/home/udt-admin/udt_mass_codex/udt_time_live_production_survey_2026-10-01/production_analysis/postprocess/MATH_CANDIDATE.json"
+      ],
+      "name": "math_aggregate",
+      "receipt": "/home/udt-admin/udt_mass_codex/udt_time_live_production_survey_2026-10-01/production_analysis/postprocess/math_aggregate.json",
+      "returncode": 2
+    }
+  ],
+  "status": "CANDIDATE_PENDING_ADVERSARIAL_REVIEW",
+  "used_bytes": 48125487294,
+  "utc": "2026-10-01T05:39:39.505331+00:00"
+}

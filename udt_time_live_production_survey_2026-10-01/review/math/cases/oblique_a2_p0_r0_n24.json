@@ -1,0 +1,397 @@
+{
+  "attribution": "Reuses fixed independently authored TDS1 NumPy Ricci/ADM and TPP1 center-stencil/Lie-shift methods. Shared fields and Fourier mathematics, no independent general-data time integrator.",
+  "case": "oblique_a2_p0_r0_n24",
+  "manifest_sha256": "237d0033935e8708a50429df77aea10adea43ced339a2aa0ed971a71d027bac7",
+  "method_sources": {
+    "udt_three_spatial_smoke_2026-10-01/review/data/check_constraints.py": "f10e6e0b512a6f2078e71cb32b8972005356c2555fa25ef36832bdb20bc947fc",
+    "udt_three_spatial_smoke_2026-10-01/review/data/check_harmonic.py": "2be7d388f44bd7de631b45d4699a4b9dabf1c96b3fb650342cf200d0c019c7c9",
+    "udt_three_spatial_smoke_2026-10-01/review/equations_recovery/history_ricci.py": "1da366b12489be81d9b2a333f1abf0793ecf7d2e6f4e3fe783390e3098e5aff4",
+    "udt_time_live_production_preparation_2026-10-01/review/math/check_saved_data.py": "f70a57f419a908f62bff0d02243f9d2f9b2c5f4a55a695dc9a2493a524a33cfc",
+    "udt_time_live_production_preparation_2026-10-01/review/math/diagnose_window_truncation.py": "5bcd19b27abb09b45acda4c55cdd846b2d9daed149a9bd8c44539e778f97a8c2",
+    "udt_time_live_production_survey_2026-10-01/review/math/check_survey.py": "3f98e82cc46600b25b54ff4b38956280aa6683d852c9251bbfef242d52faf5f2"
+  },
+  "n": 24,
+  "numpy": "2.2.6",
+  "producer_imports": false,
+  "residual_limit": 2e-05,
+  "reviewer_context": "/root/survey_math",
+  "scope": "Original saved-g Ricci:15 interior time slices; late original ADM:3 slices; sixth/eighth center diagnostics:3 events. All spatial points, except explicitly common8 summary.",
+  "seconds": 7.273801529023331,
+  "status": "PASS",
+  "windows": [
+    {
+      "binding": {
+        "assembly_sha256": "b50348d3d479ffcdad54f00587e4da83890fc16eb0daa603230393ecf887ad6a",
+        "path": "udt_time_live_production_survey_2026-10-01/production_analysis/oblique_a2_p0_r0_n24/histories/oblique_a2_p0_r0_n24_window0.npz",
+        "sha256": "6929ee7238deb0223e5a7aa27642da319bc3c7ee3c0d249ab02f828f991db6df",
+        "sources_sha256": "c7fd8107d2cff8d749f0a2c76d87df36797c985d1b4b5b1ac619677a3610ba0d"
+      },
+      "centers": {
+        "6": {
+          "common8_max": 4.396877306689362e-11,
+          "ricci_max": 5.94410076715235e-11,
+          "ricci_rms": 5.5472959348323664e-12
+        },
+        "8": {
+          "common8_max": 4.6177395240931673e-11,
+          "ricci_max": 6.263944918316611e-11,
+          "ricci_rms": 5.782901768348069e-12
+        }
+      },
+      "index": 0,
+      "original": {
+        "dt": 0.0025000000000001688,
+        "einstein_normal_projection_max": 1.3274967161260122e-11,
+        "endpoint_omissions": 2,
+        "harmonic_max": 3.3108515928859106e-11,
+        "period": 6.283185307179586,
+        "points_per_slice": 13824,
+        "ricci_max": 1.4806339487805076e-10,
+        "ricci_rms": 1.5211907532067913e-11,
+        "rows": [
+          {
+            "einstein_normal_projection_max": 1.3134421787775961e-11,
+            "harmonic_max": 3.3108515928859106e-11,
+            "index": 2,
+            "ricci_max": 1.4333767506258255e-10,
+            "ricci_rms": 1.52051062620889e-11,
+            "time": 1.02
+          },
+          {
+            "einstein_normal_projection_max": 1.3274967161260122e-11,
+            "harmonic_max": 3.294109429674563e-11,
+            "index": 3,
+            "ricci_max": 1.366022850390891e-10,
+            "ricci_rms": 1.5097030198304754e-11,
+            "time": 1.0225
+          },
+          {
+            "einstein_normal_projection_max": 1.3236277312114188e-11,
+            "harmonic_max": 3.2727098808749133e-11,
+            "index": 4,
+            "ricci_max": 1.4806339487805076e-10,
+            "ricci_rms": 1.5098502362488357e-11,
+            "time": 1.025
+          },
+          {
+            "einstein_normal_projection_max": 1.3240877264946978e-11,
+            "harmonic_max": 3.2525926396687055e-11,
+            "index": 5,
+            "ricci_max": 1.375394242941752e-10,
+            "ricci_rms": 1.515114610371731e-11,
+            "time": 1.0275
+          },
+          {
+            "einstein_normal_projection_max": 1.3226405068274567e-11,
+            "harmonic_max": 3.2349789513830274e-11,
+            "index": 6,
+            "ricci_max": 1.3532952536365883e-10,
+            "ricci_rms": 1.5211907532067913e-11,
+            "time": 1.03
+          }
+        ],
+        "shape": [
+          9,
+          24,
+          24,
+          24,
+          4,
+          4
+        ],
+        "tested_time_slices": 5
+      },
+      "sixth_eighth_tensor_max_difference": 3.1984415116426135e-12
+    },
+    {
+      "binding": {
+        "assembly_sha256": "b50348d3d479ffcdad54f00587e4da83890fc16eb0daa603230393ecf887ad6a",
+        "path": "udt_time_live_production_survey_2026-10-01/production_analysis/oblique_a2_p0_r0_n24/histories/oblique_a2_p0_r0_n24_window1.npz",
+        "sha256": "072812118ce05395b1ce938f7b05a08c658f338530e6cc12f77664b7de2fc607",
+        "sources_sha256": "efaf72401ec5dcc5c482db553fa8ac9d9d93c2242e0426b9ec2d5884cd2652c7"
+      },
+      "centers": {
+        "6": {
+          "common8_max": 4.0654879462920235e-10,
+          "ricci_max": 4.77616668437264e-10,
+          "ricci_rms": 4.3546034430570314e-11
+        },
+        "8": {
+          "common8_max": 4.061889158357701e-10,
+          "ricci_max": 4.794206143188262e-10,
+          "ricci_rms": 4.356370537708707e-11
+        }
+      },
+      "index": 1,
+      "original": {
+        "dt": 0.0025000000000001688,
+        "einstein_normal_projection_max": 8.42752466323893e-11,
+        "endpoint_omissions": 2,
+        "harmonic_max": 8.189381464629442e-11,
+        "period": 6.283185307179586,
+        "points_per_slice": 13824,
+        "ricci_max": 8.490268488259289e-10,
+        "ricci_rms": 9.214274810111385e-11,
+        "rows": [
+          {
+            "einstein_normal_projection_max": 8.228381190779547e-11,
+            "harmonic_max": 8.047250713016929e-11,
+            "index": 2,
+            "ricci_max": 7.973792737203667e-10,
+            "ricci_rms": 8.857592422779051e-11,
+            "time": 1.745
+          },
+          {
+            "einstein_normal_projection_max": 8.284463429369409e-11,
+            "harmonic_max": 8.082180064095112e-11,
+            "index": 3,
+            "ricci_max": 7.897210663188048e-10,
+            "ricci_rms": 8.944928803048312e-11,
+            "time": 1.7475
+          },
+          {
+            "einstein_normal_projection_max": 8.326686920037818e-11,
+            "harmonic_max": 8.11680514467561e-11,
+            "index": 4,
+            "ricci_max": 7.916283184528083e-10,
+            "ricci_rms": 9.035136483851789e-11,
+            "time": 1.75
+          },
+          {
+            "einstein_normal_projection_max": 8.387534558968457e-11,
+            "harmonic_max": 8.153435565594336e-11,
+            "index": 5,
+            "ricci_max": 8.490268488259289e-10,
+            "ricci_rms": 9.119545289982698e-11,
+            "time": 1.7525
+          },
+          {
+            "einstein_normal_projection_max": 8.42752466323893e-11,
+            "harmonic_max": 8.189381464629442e-11,
+            "index": 6,
+            "ricci_max": 8.247184046794587e-10,
+            "ricci_rms": 9.214274810111385e-11,
+            "time": 1.755
+          }
+        ],
+        "shape": [
+          9,
+          24,
+          24,
+          24,
+          4,
+          4
+        ],
+        "tested_time_slices": 5
+      },
+      "sixth_eighth_tensor_max_difference": 2.6517676943171864e-12
+    },
+    {
+      "binding": {
+        "assembly_sha256": "b50348d3d479ffcdad54f00587e4da83890fc16eb0daa603230393ecf887ad6a",
+        "path": "udt_time_live_production_survey_2026-10-01/production_analysis/oblique_a2_p0_r0_n24/histories/oblique_a2_p0_r0_n24_window2.npz",
+        "sha256": "e580e727e47b774bc15ba742512a8015f3c9b09c39640feac28f3f27d2d976b3",
+        "sources_sha256": "bccf757dc97cd63cfd6fd7f69c2e55bd15ec666515058d9a296ea8a2c3d8b9f3"
+      },
+      "centers": {
+        "6": {
+          "common8_max": 1.664420268276956e-09,
+          "ricci_max": 1.7507213456724458e-09,
+          "ricci_rms": 1.480713238197869e-10
+        },
+        "8": {
+          "common8_max": 1.667861460052933e-09,
+          "ricci_max": 1.7571745170030795e-09,
+          "ricci_rms": 1.487030467790048e-10
+        }
+      },
+      "index": 2,
+      "late_adm": [
+        {
+          "dtype": "float64",
+          "gram_rank_scope": "excludes constant-coordinate translation symmetry only; not arbitrary Killing fields",
+          "hamiltonian_abs_max": 6.41331501793907e-11,
+          "harmonic_covector_abs_max": 4.0424619207612977e-10,
+          "harmonic_vector_abs_max": 2.1539985095334745e-11,
+          "lapse_minmax": [
+            4.17759374139491,
+            4.652621646573685
+          ],
+          "momentum_abs_max_by_component": [
+            1.986767694805991e-11,
+            7.58108003456881e-11,
+            5.398308536297414e-11
+          ],
+          "scalar_curvature_abs_max": 0.015956454412066817,
+          "shape": [
+            24,
+            24,
+            24,
+            3,
+            3
+          ],
+          "shift_abs_max": 0.10134411361123728,
+          "spatial_derivative_gram_eigenvalues": [
+            0.0011246583287120586,
+            0.001690160676761379,
+            0.005839508171280037
+          ],
+          "spatial_derivative_gram_rank": 3,
+          "spatial_metric_eigenvalue_minmax": [
+            0.3630961185842498,
+            7.548657818686073
+          ],
+          "status": "PASS",
+          "time": 2.48,
+          "trace_K_minmax": [
+            -0.261223906769109,
+            -0.1896869817957824
+          ]
+        },
+        {
+          "dtype": "float64",
+          "gram_rank_scope": "excludes constant-coordinate translation symmetry only; not arbitrary Killing fields",
+          "hamiltonian_abs_max": 5.80066134014956e-11,
+          "harmonic_covector_abs_max": 4.169334877346387e-10,
+          "harmonic_vector_abs_max": 2.2962294934973817e-11,
+          "lapse_minmax": [
+            4.223793690517095,
+            4.69338000783545
+          ],
+          "momentum_abs_max_by_component": [
+            2.1660766496428563e-11,
+            7.24335743294835e-11,
+            5.2915191332662554e-11
+          ],
+          "scalar_curvature_abs_max": 0.017999778674915385,
+          "shape": [
+            24,
+            24,
+            24,
+            3,
+            3
+          ],
+          "shift_abs_max": 0.1084523887207687,
+          "spatial_derivative_gram_eigenvalues": [
+            0.0011459978372493724,
+            0.0017344645549678143,
+            0.005891983840806892
+          ],
+          "spatial_derivative_gram_rank": 3,
+          "spatial_metric_eigenvalue_minmax": [
+            0.36100370637301177,
+            7.63193220081644
+          ],
+          "status": "PASS",
+          "time": 2.49,
+          "trace_K_minmax": [
+            -0.26244707989398464,
+            -0.1836294323753987
+          ]
+        },
+        {
+          "dtype": "float64",
+          "gram_rank_scope": "excludes constant-coordinate translation symmetry only; not arbitrary Killing fields",
+          "hamiltonian_abs_max": 5.148687032274779e-11,
+          "harmonic_covector_abs_max": 4.2917513987106304e-10,
+          "harmonic_vector_abs_max": 2.5018271733346418e-11,
+          "lapse_minmax": [
+            4.271247821008011,
+            4.733504058494247
+          ],
+          "momentum_abs_max_by_component": [
+            2.3313066754848677e-11,
+            6.948447546506475e-11,
+            5.291714778225907e-11
+          ],
+          "scalar_curvature_abs_max": 0.020023220106229905,
+          "shape": [
+            24,
+            24,
+            24,
+            3,
+            3
+          ],
+          "shift_abs_max": 0.11531828974888851,
+          "spatial_derivative_gram_eigenvalues": [
+            0.001170732286483324,
+            0.0017839486923813754,
+            0.005957563612118267
+          ],
+          "spatial_derivative_gram_rank": 3,
+          "spatial_metric_eigenvalue_minmax": [
+            0.3589679965675722,
+            7.71453809314226
+          ],
+          "status": "PASS",
+          "time": 2.5,
+          "trace_K_minmax": [
+            -0.2636436613470624,
+            -0.17762241906025808
+          ]
+        }
+      ],
+      "original": {
+        "dt": 0.0024999999999999467,
+        "einstein_normal_projection_max": 1.4115182705853738e-09,
+        "endpoint_omissions": 2,
+        "harmonic_max": 7.800462706319955e-10,
+        "period": 6.283185307179586,
+        "points_per_slice": 13824,
+        "ricci_max": 4.27342753406279e-08,
+        "ricci_rms": 2.764211523021647e-09,
+        "rows": [
+          {
+            "einstein_normal_projection_max": 1.325784595460173e-09,
+            "harmonic_max": 7.800462706319955e-10,
+            "index": 2,
+            "ricci_max": 3.354288502510627e-08,
+            "ricci_rms": 2.6741164334185103e-09,
+            "time": 2.4850000000000003
+          },
+          {
+            "einstein_normal_projection_max": 1.3473806315660531e-09,
+            "harmonic_max": 7.643143062896485e-10,
+            "index": 3,
+            "ricci_max": 3.585288643748186e-08,
+            "ricci_rms": 2.6909120783292543e-09,
+            "time": 2.4875
+          },
+          {
+            "einstein_normal_projection_max": 1.3689115973602794e-09,
+            "harmonic_max": 7.468818966072099e-10,
+            "index": 4,
+            "ricci_max": 3.813859372758799e-08,
+            "ricci_rms": 2.7111689102091437e-09,
+            "time": 2.49
+          },
+          {
+            "einstein_normal_projection_max": 1.3903199307929468e-09,
+            "harmonic_max": 7.305330090856543e-10,
+            "index": 5,
+            "ricci_max": 4.045785761963572e-08,
+            "ricci_rms": 2.7355041452850846e-09,
+            "time": 2.4924999999999997
+          },
+          {
+            "einstein_normal_projection_max": 1.4115182705853738e-09,
+            "harmonic_max": 7.153114212066214e-10,
+            "index": 6,
+            "ricci_max": 4.27342753406279e-08,
+            "ricci_rms": 2.764211523021647e-09,
+            "time": 2.495
+          }
+        ],
+        "shape": [
+          9,
+          24,
+          24,
+          24,
+          4,
+          4
+        ],
+        "tested_time_slices": 5
+      },
+      "sixth_eighth_tensor_max_difference": 2.0171864179019394e-11
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "status": "FROZEN_26_REPAIR_CLOCK_QUERIES_PENDING_SOURCE_AND_FIELD_REVIEW",
+  "utc": "2026-10-01T14:13:06.824710+00:00",
+  "source_sha256": {
+    "udt_time_live_production_survey_2026-10-01/diagnosis/review_runtime/refined_clock_completion.py": "9f6c1646652e767495df56572444abdacbede866ec7a5a778886a2fba23541c7",
+    "udt_time_live_production_survey_2026-10-01/diagnosis/review_runtime/clock_completion.py": "36e19f7a1f0df8e47ecd0129c8e434def6935e510ab36f31f89f6352f9f9eb7c",
+    "udt_time_live_production_survey_2026-10-01/diagnosis/review_runtime/REFINED_CLOCK_DISPATCH.md": "21908433fcb2e20f17a1b9384bd87b1168059203a3c422d09f54779ba3568a32",
+    "udt_time_live_production_survey_2026-10-01/CLOCK_DISPATCH.json": "15b2ee3b9cac3003cd274f9e81a2a2df40377c4b72426f51446b5bdc2a96b97e",
+    "udt_time_live_production_survey_2026-10-01/capture.py": "217cdbac5486e8a531552f4d74a15ce641299b65dafb5d58f7b60f4ba51781bc",
+    "udt_time_live_production_survey_2026-10-01/diagnosis/REPAIR_DISPATCH.md": "84fef98321b0551ec4cdae33ae8e5c5df57c44cc43a0e8361ea3c5c66a774a5f",
+    "udt_time_live_production_survey_2026-10-01/diagnosis/REPAIR_CASES.json": "422ee7600f33a71d4fadb095e35520680245811c5518fa594c3ebf894ba637cc",
+    "udt_time_live_production_survey_2026-10-01/diagnosis/repair_runtime/campaign.json": "2e40cd765113d30a52f6858c36054011046182b1c429ce0e9875df4577e63959",
+    "udt_time_live_production_survey_2026-10-01/production_analysis/postprocess/MATH_CANDIDATE.json": "c87cc74b5fc81490a31068f46d778b41268e10ebec37ef47ccc5867ef02d9359",
+    "udt_time_live_production_preparation_2026-10-01/clock_checks.py": "31a5e6e0e3547a94b5e9f934abccbd96a802ddfd7ac7ad449dacceb928b77ba3",
+    "udt_three_spatial_smoke_2026-10-01/clock_readout.py": "8a52d75a54d06a0165d9d517949d709c3ea7575f22ab011ccf7e6230e625c2be",
+    "udt_time_live_production_survey_2026-10-01/review/runtime/CLOCK_SUBSET_FREEZE.json": "ac89640409e6865c8bafd2393983daf9fccbdf4cd2e999db65eac92028abfb7e",
+    "udt_time_live_production_survey_2026-10-01/review/runtime/SUBSET_CLOCK_QUERIES.json": "725311553f57e484f78e4d49a05868bee10429f6ac75db8247aa9adb754565d6"
+  },
+  "total_output_bytes": 68719476736,
+  "reserve_bytes": 536870912,
+  "wall_timeout_seconds": null,
+  "cpu_timeout_seconds": null,
+  "cpu_scientific_processes": 1,
+  "address_space_bytes": 2147483648,
+  "cases": 26,
+  "datasets": 13,
+  "original_anchors": 13,
+  "original_hamilton_subset": "Unchanged separate30originalN24half datasetqueries",
+  "scope": "Original13fieldfailurespreserved;repairedfieldqualificationrequiresseparatereview.Allsignsretained.Fixedqueryreuseonly.",
+  "output_directory": "udt_time_live_production_survey_2026-10-01/diagnosis/refined_clock_completion",
+  "launch_command": [
+    "python3",
+    "udt_time_live_production_survey_2026-10-01/capture.py",
+    "udt_time_live_production_survey_2026-10-01/diagnosis/review_runtime/refined_clock_capture",
+    "python3",
+    "udt_time_live_production_survey_2026-10-01/diagnosis/review_runtime/refined_clock_completion.py"
+  ],
+  "review_gate": "REFINED_CLOCK_REVIEW.json must bind thisfreeze andparent_source_review,math_source_review,field_diagnostic_readouts allCLEARED; field_evidence_sha256 nonempty boundactualreports beforelaunch."
+}

@@ -1,0 +1,34 @@
+{
+  "status": "ACTUAL_ORIGINAL_CLOCK_OPERATIONAL_REVIEW_PASS",
+  "reviewer_context": "/root/survey_completion_runtime",
+  "checker_sha256": "a2fe835948c457d8afec3b76b69ccc3a8db0f55c5d9af1e76bb17d23762ae167",
+  "source_freeze_sha256": "749bf96e9414961fee22b991fe473a9903f7e4176a79a4abdf46b8597131c74d",
+  "completion_result_sha256": "0b7adf04a3eaa05171eaf3fe40eb5aaeddcc23a793aead5403d0106c432603da",
+  "candidate_sha256": "f39e06716661cd997dcc542132300c69f77691a3bc59db775fd72801e4992aa0",
+  "qualification_sha256": "9dc1cc0c8b45fa8da5f2b9d5f9380eb82125225b8899eff6d478dd398e48c37f",
+  "producer_cases": 234,
+  "producer_rays": 936,
+  "independent_cases": 30,
+  "independent_rays": 120,
+  "original_fields_pass": 65,
+  "original_fields_unqualified": 13,
+  "max_producer_sampled_null": 4.914124597694969e-11,
+  "max_matched_logZ_difference": 6.828293139249375e-12,
+  "max_independent_logZ_difference": 4.765244622506604e-12,
+  "captures": [
+    {
+      "stage": "producer_clocks",
+      "receipt_sha256": "f781e4a448635ebe93d79db7ae3c60b44b8c274904295fe44d144fe0247ea791",
+      "seconds": 1451.5692021499854,
+      "maxrss_kib": 336076
+    },
+    {
+      "stage": "independent_clocks",
+      "receipt_sha256": "9e4bc606d4177f03f45de60b5fe24f3b4fa1a15f4b50d98e50fefe41bf65c31f",
+      "seconds": 124.43578687601257,
+      "maxrss_kib": 935532
+    }
+  ],
+  "scope": "Fresh runtime-context actual artifact audit. Reuses reviewed authentication helper; no new geodesic or original-equation recomputation. Parent/math own full scalar and reviewed-field joins. All original13field failures remain explicit despite clock agreement.",
+  "independence": "Fresh context, same inherited model. Hamilton/RK45 implementation separate from producer Christoffel/DOP853; saved fields and Fourier/Hermite mathematics shared. No independent general-data time integrator, physical population, sign selection, or continuum claim."
+}

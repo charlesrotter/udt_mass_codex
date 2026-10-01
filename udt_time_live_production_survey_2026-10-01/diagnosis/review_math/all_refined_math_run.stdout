@@ -1,0 +1,99 @@
+{"event": "REPAIR_CASE_CHECKED", "case": "oblique_a5_p0_r0_n24_quarter", "status": "PASS"}
+{"event": "REPAIR_CASE_CHECKED", "case": "oblique_a5_p0_r0_n32_half", "status": "PASS"}
+{"event": "WINDOW_CHECK", "case": "axial_a5_n24_quarter", "window": 0, "original_ricci_max": 1.4780077162157568e-10}
+{"event": "WINDOW_CHECK", "case": "axial_a5_n24_quarter", "window": 1, "original_ricci_max": 6.419702547333372e-10}
+{"event": "WINDOW_CHECK", "case": "axial_a5_n24_quarter", "window": 2, "original_ricci_max": 4.273312017577524e-07}
+{"event": "REPAIR_CASE_CHECKED", "case": "axial_a5_n24_quarter", "status": "PASS"}
+{"event": "WINDOW_CHECK", "case": "axial_a5_n32_half", "window": 0, "original_ricci_max": 1.4415457716410174e-10}
+{"event": "WINDOW_CHECK", "case": "axial_a5_n32_half", "window": 1, "original_ricci_max": 6.6308003532356e-10}
+{"event": "WINDOW_CHECK", "case": "axial_a5_n32_half", "window": 2, "original_ricci_max": 4.411189846731389e-07}
+{"event": "REPAIR_CASE_CHECKED", "case": "axial_a5_n32_half", "status": "PASS"}
+{"event": "WINDOW_CHECK", "case": "oblique_a5_p0_r1_n24_quarter", "window": 0, "original_ricci_max": 2.0052737248477115e-10}
+{"event": "WINDOW_CHECK", "case": "oblique_a5_p0_r1_n24_quarter", "window": 1, "original_ricci_max": 2.7325222085039513e-09}
+{"event": "WINDOW_CHECK", "case": "oblique_a5_p0_r1_n24_quarter", "window": 2, "original_ricci_max": 3.652128268694099e-07}
+{"event": "REPAIR_CASE_CHECKED", "case": "oblique_a5_p0_r1_n24_quarter", "status": "PASS"}
+{"event": "WINDOW_CHECK", "case": "oblique_a5_p0_r1_n32_half", "window": 0, "original_ricci_max": 2.1658641546906665e-10}
+{"event": "WINDOW_CHECK", "case": "oblique_a5_p0_r1_n32_half", "window": 1, "original_ricci_max": 2.7995685769610645e-09}
+{"event": "WINDOW_CHECK", "case": "oblique_a5_p0_r1_n32_half", "window": 2, "original_ricci_max": 3.772010618297017e-07}
+{"event": "REPAIR_CASE_CHECKED", "case": "oblique_a5_p0_r1_n32_half", "status": "PASS"}
+{"event": "WINDOW_CHECK", "case": "oblique_a5_p0_r2_n24_quarter", "window": 0, "original_ricci_max": 1.659481441151911e-10}
+{"event": "WINDOW_CHECK", "case": "oblique_a5_p0_r2_n24_quarter", "window": 1, "original_ricci_max": 2.5086873134405607e-09}
+{"event": "WINDOW_CHECK", "case": "oblique_a5_p0_r2_n24_quarter", "window": 2, "original_ricci_max": 3.9821282643570655e-07}
+{"event": "REPAIR_CASE_CHECKED", "case": "oblique_a5_p0_r2_n24_quarter", "status": "PASS"}
+{"event": "WINDOW_CHECK", "case": "oblique_a5_p0_r2_n32_half", "window": 0, "original_ricci_max": 1.7631052173783246e-10}
+{"event": "WINDOW_CHECK", "case": "oblique_a5_p0_r2_n32_half", "window": 1, "original_ricci_max": 2.2646944319859585e-09}
+{"event": "WINDOW_CHECK", "case": "oblique_a5_p0_r2_n32_half", "window": 2, "original_ricci_max": 3.996081404111784e-07}
+{"event": "REPAIR_CASE_CHECKED", "case": "oblique_a5_p0_r2_n32_half", "status": "PASS"}
+{"event": "WINDOW_CHECK", "case": "oblique_a5_p1_r0_n24_quarter", "window": 0, "original_ricci_max": 2.2218465955958777e-10}
+{"event": "WINDOW_CHECK", "case": "oblique_a5_p1_r0_n24_quarter", "window": 1, "original_ricci_max": 4.036009748631386e-09}
+{"event": "WINDOW_CHECK", "case": "oblique_a5_p1_r0_n24_quarter", "window": 2, "original_ricci_max": 6.032845534242881e-07}
+{"event": "REPAIR_CASE_CHECKED", "case": "oblique_a5_p1_r0_n24_quarter", "status": "PASS"}
+{"event": "WINDOW_CHECK", "case": "oblique_a5_p1_r0_n32_half", "window": 0, "original_ricci_max": 2.3365737122915675e-10}
+{"event": "WINDOW_CHECK", "case": "oblique_a5_p1_r0_n32_half", "window": 1, "original_ricci_max": 4.17356849080619e-09}
+{"event": "WINDOW_CHECK", "case": "oblique_a5_p1_r0_n32_half", "window": 2, "original_ricci_max": 6.098398237508462e-07}
+{"event": "REPAIR_CASE_CHECKED", "case": "oblique_a5_p1_r0_n32_half", "status": "PASS"}
+{"event": "WINDOW_CHECK", "case": "oblique_a5_p1_r1_n24_quarter", "window": 0, "original_ricci_max": 2.0985690962760373e-10}
+{"event": "WINDOW_CHECK", "case": "oblique_a5_p1_r1_n24_quarter", "window": 1, "original_ricci_max": 2.7688256132307743e-09}
+{"event": "WINDOW_CHECK", "case": "oblique_a5_p1_r1_n24_quarter", "window": 2, "original_ricci_max": 3.699248039001901e-07}
+{"event": "REPAIR_CASE_CHECKED", "case": "oblique_a5_p1_r1_n24_quarter", "status": "PASS"}
+{"event": "WINDOW_CHECK", "case": "oblique_a5_p1_r1_n32_half", "window": 0, "original_ricci_max": 2.129179887955246e-10}
+{"event": "WINDOW_CHECK", "case": "oblique_a5_p1_r1_n32_half", "window": 1, "original_ricci_max": 2.8449618216797035e-09}
+{"event": "WINDOW_CHECK", "case": "oblique_a5_p1_r1_n32_half", "window": 2, "original_ricci_max": 3.8243053157582807e-07}
+{"event": "REPAIR_CASE_CHECKED", "case": "oblique_a5_p1_r1_n32_half", "status": "PASS"}
+{"event": "WINDOW_CHECK", "case": "oblique_a5_p1_r2_n24_quarter", "window": 0, "original_ricci_max": 1.6219914300563687e-10}
+{"event": "WINDOW_CHECK", "case": "oblique_a5_p1_r2_n24_quarter", "window": 1, "original_ricci_max": 2.551165334541139e-09}
+{"event": "WINDOW_CHECK", "case": "oblique_a5_p1_r2_n24_quarter", "window": 2, "original_ricci_max": 4.049503141145827e-07}
+{"event": "REPAIR_CASE_CHECKED", "case": "oblique_a5_p1_r2_n24_quarter", "status": "PASS"}
+{"event": "WINDOW_CHECK", "case": "oblique_a5_p1_r2_n32_half", "window": 0, "original_ricci_max": 1.7335927138262264e-10}
+{"event": "WINDOW_CHECK", "case": "oblique_a5_p1_r2_n32_half", "window": 1, "original_ricci_max": 2.296473733398585e-09}
+{"event": "WINDOW_CHECK", "case": "oblique_a5_p1_r2_n32_half", "window": 2, "original_ricci_max": 4.052336314841476e-07}
+{"event": "REPAIR_CASE_CHECKED", "case": "oblique_a5_p1_r2_n32_half", "status": "PASS"}
+{"event": "WINDOW_CHECK", "case": "oblique_a5_p2_r0_n24_quarter", "window": 0, "original_ricci_max": 2.2333571103594352e-10}
+{"event": "WINDOW_CHECK", "case": "oblique_a5_p2_r0_n24_quarter", "window": 1, "original_ricci_max": 4.1377637982620286e-09}
+{"event": "WINDOW_CHECK", "case": "oblique_a5_p2_r0_n24_quarter", "window": 2, "original_ricci_max": 5.952909130080286e-07}
+{"event": "REPAIR_CASE_CHECKED", "case": "oblique_a5_p2_r0_n24_quarter", "status": "PASS"}
+{"event": "WINDOW_CHECK", "case": "oblique_a5_p2_r0_n32_half", "window": 0, "original_ricci_max": 2.4045801461092253e-10}
+{"event": "WINDOW_CHECK", "case": "oblique_a5_p2_r0_n32_half", "window": 1, "original_ricci_max": 4.084480975663496e-09}
+{"event": "WINDOW_CHECK", "case": "oblique_a5_p2_r0_n32_half", "window": 2, "original_ricci_max": 5.87740705437767e-07}
+{"event": "REPAIR_CASE_CHECKED", "case": "oblique_a5_p2_r0_n32_half", "status": "PASS"}
+{"event": "WINDOW_CHECK", "case": "oblique_a5_p2_r1_n24_quarter", "window": 0, "original_ricci_max": 2.024381773324535e-10}
+{"event": "WINDOW_CHECK", "case": "oblique_a5_p2_r1_n24_quarter", "window": 1, "original_ricci_max": 2.7113552514279604e-09}
+{"event": "WINDOW_CHECK", "case": "oblique_a5_p2_r1_n24_quarter", "window": 2, "original_ricci_max": 3.822703141809214e-07}
+{"event": "REPAIR_CASE_CHECKED", "case": "oblique_a5_p2_r1_n24_quarter", "status": "PASS"}
+{"event": "WINDOW_CHECK", "case": "oblique_a5_p2_r1_n32_half", "window": 0, "original_ricci_max": 2.2492036011456662e-10}
+{"event": "WINDOW_CHECK", "case": "oblique_a5_p2_r1_n32_half", "window": 1, "original_ricci_max": 2.766558870881397e-09}
+{"event": "WINDOW_CHECK", "case": "oblique_a5_p2_r1_n32_half", "window": 2, "original_ricci_max": 4.0199886347513925e-07}
+{"event": "REPAIR_CASE_CHECKED", "case": "oblique_a5_p2_r1_n32_half", "status": "PASS"}
+{"event": "WINDOW_CHECK", "case": "oblique_a5_p2_r2_n24_quarter", "window": 0, "original_ricci_max": 1.818024064625945e-10}
+{"event": "WINDOW_CHECK", "case": "oblique_a5_p2_r2_n24_quarter", "window": 1, "original_ricci_max": 2.6148362919364843e-09}
+{"event": "WINDOW_CHECK", "case": "oblique_a5_p2_r2_n24_quarter", "window": 2, "original_ricci_max": 4.404859459405941e-07}
+{"event": "REPAIR_CASE_CHECKED", "case": "oblique_a5_p2_r2_n24_quarter", "status": "PASS"}
+{"event": "WINDOW_CHECK", "case": "oblique_a5_p2_r2_n32_half", "window": 0, "original_ricci_max": 1.7738799318323117e-10}
+{"event": "WINDOW_CHECK", "case": "oblique_a5_p2_r2_n32_half", "window": 1, "original_ricci_max": 2.419571765166495e-09}
+{"event": "WINDOW_CHECK", "case": "oblique_a5_p2_r2_n32_half", "window": 2, "original_ricci_max": 4.226897535319907e-07}
+{"event": "REPAIR_CASE_CHECKED", "case": "oblique_a5_p2_r2_n32_half", "status": "PASS"}
+{"event": "WINDOW_CHECK", "case": "oblique_a5_p3_r0_n24_quarter", "window": 0, "original_ricci_max": 2.252806552416331e-10}
+{"event": "WINDOW_CHECK", "case": "oblique_a5_p3_r0_n24_quarter", "window": 1, "original_ricci_max": 3.822476113413131e-09}
+{"event": "WINDOW_CHECK", "case": "oblique_a5_p3_r0_n24_quarter", "window": 2, "original_ricci_max": 5.685260515697621e-07}
+{"event": "REPAIR_CASE_CHECKED", "case": "oblique_a5_p3_r0_n24_quarter", "status": "PASS"}
+{"event": "WINDOW_CHECK", "case": "oblique_a5_p3_r0_n32_half", "window": 0, "original_ricci_max": 2.3996329923114956e-10}
+{"event": "WINDOW_CHECK", "case": "oblique_a5_p3_r0_n32_half", "window": 1, "original_ricci_max": 3.856284735981319e-09}
+{"event": "WINDOW_CHECK", "case": "oblique_a5_p3_r0_n32_half", "window": 2, "original_ricci_max": 5.43910948280768e-07}
+{"event": "REPAIR_CASE_CHECKED", "case": "oblique_a5_p3_r0_n32_half", "status": "PASS"}
+{"event": "WINDOW_CHECK", "case": "oblique_a5_p3_r1_n24_quarter", "window": 0, "original_ricci_max": 2.049862501962707e-10}
+{"event": "WINDOW_CHECK", "case": "oblique_a5_p3_r1_n24_quarter", "window": 1, "original_ricci_max": 2.800068954478263e-09}
+{"event": "WINDOW_CHECK", "case": "oblique_a5_p3_r1_n24_quarter", "window": 2, "original_ricci_max": 3.9214851260682693e-07}
+{"event": "REPAIR_CASE_CHECKED", "case": "oblique_a5_p3_r1_n24_quarter", "status": "PASS"}
+{"event": "WINDOW_CHECK", "case": "oblique_a5_p3_r1_n32_half", "window": 0, "original_ricci_max": 2.1089172075328122e-10}
+{"event": "WINDOW_CHECK", "case": "oblique_a5_p3_r1_n32_half", "window": 1, "original_ricci_max": 2.8201798674132306e-09}
+{"event": "WINDOW_CHECK", "case": "oblique_a5_p3_r1_n32_half", "window": 2, "original_ricci_max": 4.10179258558685e-07}
+{"event": "REPAIR_CASE_CHECKED", "case": "oblique_a5_p3_r1_n32_half", "status": "PASS"}
+{"event": "WINDOW_CHECK", "case": "oblique_a5_p3_r2_n24_quarter", "window": 0, "original_ricci_max": 1.6820050907639938e-10}
+{"event": "WINDOW_CHECK", "case": "oblique_a5_p3_r2_n24_quarter", "window": 1, "original_ricci_max": 2.6407092623692563e-09}
+{"event": "WINDOW_CHECK", "case": "oblique_a5_p3_r2_n24_quarter", "window": 2, "original_ricci_max": 4.3892960466251907e-07}
+{"event": "REPAIR_CASE_CHECKED", "case": "oblique_a5_p3_r2_n24_quarter", "status": "PASS"}
+{"event": "WINDOW_CHECK", "case": "oblique_a5_p3_r2_n32_half", "window": 0, "original_ricci_max": 1.6733359142762083e-10}
+{"event": "WINDOW_CHECK", "case": "oblique_a5_p3_r2_n32_half", "window": 1, "original_ricci_max": 2.40948694330001e-09}
+{"event": "WINDOW_CHECK", "case": "oblique_a5_p3_r2_n32_half", "window": 2, "original_ricci_max": 4.335290115786705e-07}
+{"event": "REPAIR_CASE_CHECKED", "case": "oblique_a5_p3_r2_n32_half", "status": "PASS"}
+{"status": "PASS", "output": "udt_time_live_production_survey_2026-10-01/diagnosis/review_math/REPAIR_MATH.json"}

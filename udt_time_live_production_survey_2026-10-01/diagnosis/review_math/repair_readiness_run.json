@@ -1,0 +1,22 @@
+{
+  "command": [
+    "python3",
+    "udt_time_live_production_survey_2026-10-01/diagnosis/review_math/check_repair.py",
+    "--specs-only",
+    "--output",
+    "udt_time_live_production_survey_2026-10-01/diagnosis/review_math/REPAIR_READINESS.json"
+  ],
+  "cwd": "/home/udt-admin/udt_mass_codex",
+  "started_utc": "2026-10-01T14:03:23.705209+00:00",
+  "duration_seconds": 0.21357166900997981,
+  "returncode": 1,
+  "wall_timeout_seconds": null,
+  "cpu_timeout_seconds": null,
+  "address_space_bytes": 2147483648,
+  "memory_scope": "Process virtual address limit",
+  "maxrss_kib": 39276,
+  "forwarded_signals": [],
+  "stdout_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "stderr_sha256": "05573ab5d00cb3f8675fd08352f9588bd22f5de4c696a188da36debb5e9a12c2",
+  "capture_sha256": "217cdbac5486e8a531552f4d74a15ce641299b65dafb5d58f7b60f4ba51781bc"
+}

@@ -76,11 +76,14 @@ checks. The supplied Ric=0 equation, periodic domain, harmonic gauge and initial
 CMC/conformal construction remain conditional. TPP1 now extends13 supplied
 histories to t=2.5, broadens the initial modes and tests production controls. Its
 original five-point refinement gate failed; a preserved, narrower saved-time
-diagnostic repair passes. TPS1 now launches the authorized78-dataset/234-run
-survey with no elapsed-time cutoff. All156 initial mesh states and the first
-three evolved histories passed their checks; the spatial gate passes only its
-small-error alternative. The remaining survey and full atlas await checks and
-actual review. This remains a conditional comparison, not native UDT selection.
+diagnostic repair passes. TPS1 completes the authorized78-dataset/234-run survey
+without an elapsed-time cutoff. All234 original histories pass their scoped
+equation checks; the refinement gates initially qualify65 datasets and flag13.
+One preserved26-run tighter-step repair gives qualifying numerical realizations
+for all13 flagged datasets under unchanged thresholds. The original65/13 result
+remains fixed. Original and refined supplied clocks pass their fixed comparisons;
+the reviewed descriptive atlas retains both editions and their qualifications.
+This remains a finite conditional comparison, not native UDT selection.
 <!-- GENERATED_DEVELOPMENT_END -->
 
 ## Current next gate

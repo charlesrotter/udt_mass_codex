@@ -1,0 +1,12 @@
+{
+  "utc": "2026-10-01T15:09:10.331236+00:00",
+  "package_file_count": 44090,
+  "package_bytes": 54266889504,
+  "ceiling_bytes": 68719476736,
+  "below_ceiling": true,
+  "matching_python_processes": [],
+  "gpu_process_query_returncode": 9,
+  "gpu_processes": "NVIDIA-SMI has failed because it couldn't communicate with the NVIDIA driver. Make sure that the latest NVIDIA driver is installed and running.",
+  "gpu_query_stderr": "",
+  "scope": "Metadata size walk inside TPS1 package only; no protected work or raw field reads. Current process observation, not future guarantee."
+}

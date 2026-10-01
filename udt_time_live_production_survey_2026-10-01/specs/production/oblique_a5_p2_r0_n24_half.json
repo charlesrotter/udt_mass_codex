@@ -1,0 +1,32 @@
+{
+  "cfl": 0.125,
+  "check_ticks": 64,
+  "checkpoint_ticks": 800,
+  "constraint_limit": 2e-05,
+  "dt_min": 0.0003125,
+  "end_tick": 4800,
+  "gpu_bytes": 8589934592,
+  "initial": "udt_time_live_production_survey_2026-10-01/initial/production/oblique_a5_p2_r0_n24.npz",
+  "max_step_ticks": 8,
+  "n": 24,
+  "output_bytes": 268435456,
+  "period": 6.283185307179586,
+  "wall_seconds": null,
+  "windows": [
+    {
+      "center": 80,
+      "count": 9,
+      "stride": 8
+    },
+    {
+      "center": 2400,
+      "count": 9,
+      "stride": 8
+    },
+    {
+      "center": 4768,
+      "count": 9,
+      "stride": 8
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "stage": "continuation",
+  "pid": 2940051,
+  "proc_start_ticks": "32615713",
+  "command": [
+    "/usr/bin/python3",
+    "/home/udt-admin/udt_mass_codex/udt_time_live_production_survey_2026-10-01/capture.py",
+    "--gpu",
+    "/home/udt-admin/udt_mass_codex/udt_time_live_production_survey_2026-10-01/diagnosis/repair_runtime/continuation",
+    "/usr/bin/python3",
+    "/home/udt-admin/udt_mass_codex/udt_time_live_production_survey_2026-10-01/supervise.py",
+    "/home/udt-admin/udt_mass_codex/udt_time_live_production_survey_2026-10-01/diagnosis/repair_runtime/campaign.json",
+    "/home/udt-admin/udt_mass_codex/udt_time_live_production_survey_2026-10-01/diagnosis/repair_runtime"
+  ],
+  "cwd": "/home/udt-admin/udt_mass_codex",
+  "utc": "2026-10-01T14:13:52.932360+00:00",
+  "source_sha256": {
+    "udt_time_live_production_survey_2026-10-01/diagnosis/review_math/REPAIR_READINESS.json": "a8d6941a1315e14ccce517912435ac55e081b662a247accf010e91f830de723e",
+    "udt_time_live_production_survey_2026-10-01/diagnosis/review_runtime/REPAIR_PRELAUNCH_REVIEW.json": "035484aca7a1c4205c711bf7acb538654b098d2cb6fc108a9162e43a24705456",
+    "udt_time_live_production_survey_2026-10-01/diagnosis/PARENT_REPAIR_REVIEW.json": "c6502aaa2611afca07b2024bec12817964e05cdff3df8c8e102d33f8cfca8c73",
+    "udt_time_live_production_survey_2026-10-01/diagnosis/FIRST_PAIR_GATE.json": "d37cf0285223747b95a35ac96d45b469f7ef14ecc2963565d3456f9253fac3ba",
+    "udt_time_live_production_survey_2026-10-01/diagnosis/repair_runtime/campaign.json": "2e40cd765113d30a52f6858c36054011046182b1c429ce0e9875df4577e63959"
+  },
+  "launcher_sha256": "b06bbc63ddbe269cd3809cb0c2fabdc5884191f5ed1e94ce5bc31b8cb3d724ca",
+  "capture_sha256": "217cdbac5486e8a531552f4d74a15ce641299b65dafb5d58f7b60f4ba51781bc",
+  "wall_timeout_seconds": null,
+  "cpu_timeout_seconds": null,
+  "receipt": "/home/udt-admin/udt_mass_codex/udt_time_live_production_survey_2026-10-01/diagnosis/repair_runtime/continuation.json",
+  "manual_stop": "Verify PID/start identity then SIGTERM capture PID for forwarding. No automatic elapsed-time stop."
+}

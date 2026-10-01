@@ -1,0 +1,25 @@
+{
+  "command": [
+    "python3",
+    "udt_time_live_production_survey_2026-10-01/diagnosis/review_runtime/check_repair_operations.py",
+    "--count",
+    "2",
+    "--controller",
+    "udt_time_live_production_survey_2026-10-01/diagnosis/repair_runtime/first_pair.json",
+    "--output",
+    "udt_time_live_production_survey_2026-10-01/diagnosis/review_runtime/FIRST_PAIR_OPERATIONS.json"
+  ],
+  "cwd": "/home/udt-admin/udt_mass_codex",
+  "started_utc": "2026-10-01T14:11:16.561433+00:00",
+  "duration_seconds": 1.6327655799686909,
+  "returncode": 0,
+  "wall_timeout_seconds": null,
+  "cpu_timeout_seconds": null,
+  "address_space_bytes": 2147483648,
+  "memory_scope": "Process virtual address limit",
+  "maxrss_kib": 64052,
+  "forwarded_signals": [],
+  "stdout_sha256": "930dfa71eaee656161446d3e702768932302deefcff67db0d5e0d70723bf930d",
+  "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "capture_sha256": "217cdbac5486e8a531552f4d74a15ce641299b65dafb5d58f7b60f4ba51781bc"
+}

@@ -1,0 +1,27 @@
+{
+  "utc": "2026-10-01T14:44:20.987757+00:00",
+  "status": "NO_ACTIVE_GPU_COMPUTE_PROCESS",
+  "observations": [
+    {
+      "command": [
+        "nvidia-smi",
+        "--query-gpu=name,memory.total,memory.used",
+        "--format=csv,noheader"
+      ],
+      "returncode": 0,
+      "stdout": "Tesla V100-PCIE-32GB, 32768 MiB, 8 MiB\n",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "nvidia-smi",
+        "--query-compute-apps=pid,process_name,used_memory",
+        "--format=csv,noheader"
+      ],
+      "returncode": 0,
+      "stdout": "",
+      "stderr": ""
+    }
+  ],
+  "scope": "Host observation after all26 repair runs completed; mathematical CPU review remains active."
+}

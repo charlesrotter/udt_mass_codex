@@ -1,0 +1,48 @@
+{
+  "adapter_sha256": "031eb62247d29bdd43ff734486aa6c82be9824c3f0bb64ae04c282c15a0d212a",
+  "assembler_sha256": "8333bc2a4de50300d44f2d32d316e1a9e56874418bbcb69f74e855e4099f1f0b",
+  "case": "axial_a1_n24_half",
+  "input_sha256": {
+    "/home/udt-admin/udt_mass_codex/udt_time_live_production_survey_2026-10-01/initial/production/axial_a1_n24.npz": "d8e8b65d0429da25158b26748752b074f11071673a2c1eb219aed5e160c23afa",
+    "/home/udt-admin/udt_mass_codex/udt_time_live_production_survey_2026-10-01/production_runtime/attempts/00040_axial_a1_n24_half/launch.json": "a900933aaae8103379066d4675fc33ccf508bd3af56892118da1dcfc91a748ca",
+    "/home/udt-admin/udt_mass_codex/udt_time_live_production_survey_2026-10-01/production_runtime/attempts/00040_axial_a1_n24_half/receipt.json": "c2ec882edfdddb1a7eabc5fcd47752baddb1e0849a1cac72cf39cd1e9e6652dc",
+    "/home/udt-admin/udt_mass_codex/udt_time_live_production_survey_2026-10-01/production_runtime/campaign.json": "237d0033935e8708a50429df77aea10adea43ced339a2aa0ed971a71d027bac7",
+    "/home/udt-admin/udt_mass_codex/udt_time_live_production_survey_2026-10-01/specs/production/axial_a1_n24_half.json": "84bcbbcfaae8ce0f3ba5c24b733714ddf1ccd4841c7d9635a6445ed840e96c85"
+  },
+  "output_sha256": {
+    "/home/udt-admin/udt_mass_codex/udt_time_live_production_survey_2026-10-01/production_analysis/axial_a1_n24_half/histories/axial_a1_n24_half_window0.npz": "533f81a9295938ff2546fe0b2c5c6ba2f162feb5db35cea5f9b223aeedf6dc17",
+    "/home/udt-admin/udt_mass_codex/udt_time_live_production_survey_2026-10-01/production_analysis/axial_a1_n24_half/histories/axial_a1_n24_half_window0.sources.json": "ee16316d9b6564f15ba64da53fd97ac0ba3fe01e25c34a6084966be102184d58",
+    "/home/udt-admin/udt_mass_codex/udt_time_live_production_survey_2026-10-01/production_analysis/axial_a1_n24_half/histories/axial_a1_n24_half_window1.npz": "6b2e687c097a8e29628fc4087f237c5f85fc4e26fb6815f222f116acda71a053",
+    "/home/udt-admin/udt_mass_codex/udt_time_live_production_survey_2026-10-01/production_analysis/axial_a1_n24_half/histories/axial_a1_n24_half_window1.sources.json": "5d197f432f0f73fdd48980dc8cae44d71317311b868c9bade03763b4d86c9c1e",
+    "/home/udt-admin/udt_mass_codex/udt_time_live_production_survey_2026-10-01/production_analysis/axial_a1_n24_half/histories/axial_a1_n24_half_window2.npz": "a819e5947fa6e22ab3dd5f135fd3648a972e1674c537ab1605e5b23cda0dc89e",
+    "/home/udt-admin/udt_mass_codex/udt_time_live_production_survey_2026-10-01/production_analysis/axial_a1_n24_half/histories/axial_a1_n24_half_window2.sources.json": "170901f07986a031a9f224f62d2092fc974f453b904228ef4c75a6c9dfbec264",
+    "/home/udt-admin/udt_mass_codex/udt_time_live_production_survey_2026-10-01/production_analysis/axial_a1_n24_half/receipt_bridge.json": "b2aac72399591faffd0a9976e4e8743e2a18532d7774087deca206c5e9749908"
+  },
+  "scope": "Authenticated byte/array correspondence only; original equations, convergence and readouts remain separate checks",
+  "windows": [
+    {
+      "bytes": 19458265,
+      "path": "udt_time_live_production_survey_2026-10-01/production_analysis/axial_a1_n24_half/histories/axial_a1_n24_half_window0.npz",
+      "times": [
+        1.015,
+        1.035
+      ]
+    },
+    {
+      "bytes": 20587584,
+      "path": "udt_time_live_production_survey_2026-10-01/production_analysis/axial_a1_n24_half/histories/axial_a1_n24_half_window1.npz",
+      "times": [
+        1.74,
+        1.76
+      ]
+    },
+    {
+      "bytes": 20672151,
+      "path": "udt_time_live_production_survey_2026-10-01/production_analysis/axial_a1_n24_half/histories/axial_a1_n24_half_window2.npz",
+      "times": [
+        2.48,
+        2.5
+      ]
+    }
+  ]
+}

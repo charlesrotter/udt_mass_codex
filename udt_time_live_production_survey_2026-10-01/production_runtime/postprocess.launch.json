@@ -1,0 +1,23 @@
+{
+  "pid": 2587638,
+  "proc_start_ticks": "28527597",
+  "command": [
+    "/usr/bin/python3",
+    "/home/udt-admin/udt_mass_codex/udt_time_live_production_survey_2026-10-01/capture.py",
+    "/home/udt-admin/udt_mass_codex/udt_time_live_production_survey_2026-10-01/production_runtime/postprocess",
+    "/usr/bin/python3",
+    "/home/udt-admin/udt_mass_codex/udt_time_live_production_survey_2026-10-01/postprocess.py",
+    "/home/udt-admin/udt_mass_codex/udt_time_live_production_survey_2026-10-01/production_runtime/continuation.launch.json"
+  ],
+  "cwd": "/home/udt-admin/udt_mass_codex",
+  "utc": "2026-10-01T02:52:31.780706+00:00",
+  "wall_timeout_seconds": null,
+  "cpu_timeout_seconds": null,
+  "dispatch_sha256": "9074227383677d0ea5e7785e93a06062126c30333cf1c0eed022170a6f8133c6",
+  "manifest_sha256": "237d0033935e8708a50429df77aea10adea43ced339a2aa0ed971a71d027bac7",
+  "result_receipt": "/home/udt-admin/udt_mass_codex/udt_time_live_production_survey_2026-10-01/production_runtime/postprocess.json",
+  "stdout": "/home/udt-admin/udt_mass_codex/udt_time_live_production_survey_2026-10-01/production_runtime/postprocess.stdout",
+  "stderr": "/home/udt-admin/udt_mass_codex/udt_time_live_production_survey_2026-10-01/production_runtime/postprocess.stderr",
+  "scope": "Wait for authorized controller then finite candidatechecks; actual scientific review pending",
+  "stop": "Verify PID/start identity then SIGTERM capture; no timedkill"
+}

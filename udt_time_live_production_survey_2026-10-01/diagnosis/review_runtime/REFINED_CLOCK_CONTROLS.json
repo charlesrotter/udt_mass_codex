@@ -1,0 +1,14 @@
+{
+  "status": "REFINED_CLOCK_OPERATIONAL_CONTROLS_PASS",
+  "adapter_sha256": "9f6c1646652e767495df56572444abdacbede866ec7a5a778886a2fba23541c7",
+  "checker_sha256": "10f7e8873b0702954035caf3efc1b67dbbe1605ae2d8b0525c5bda0a0cf63dc2",
+  "checks": [
+    "complete_expected_behavior",
+    "stage_failure_expected_behavior",
+    "comparison_failure_expected_behavior",
+    "null_failure_expected_behavior",
+    "query_failure_expected_behavior",
+    "history_binding_failure_expected_behavior"
+  ],
+  "scope": "Author-side mocked orchestration/query/null/binding/qualification checks only. No scientific arrays or geodesic execution. Same capture/signal forwarding primitive as original adapter, whose actual manual-signal test is separately recorded; not repeated with a new actual child here."
+}

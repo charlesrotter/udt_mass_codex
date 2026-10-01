@@ -1,0 +1,32 @@
+{
+  "status": "ATLAS_OPERATIONAL_SOURCE_REVIEWED_ACTUAL_OUTPUT_PENDING",
+  "utc": "2026-10-01T14:27:12.248423+00:00",
+  "reviewer_context": "/root/survey_completion_runtime",
+  "builder_sha256": "a1c419a59174e637c38ac872b26c3281f711e230acbed706473e2ff66afb62fd",
+  "mathematical_review_builder_match": false,
+  "plan_sha256": "c3e90f2e2efae814757c07867d661d04903c8d258b0ca5c42e18c88233781bf2",
+  "mathematical_source_review_sha256": "58acb44362932d2bb60d5c8ea7f9c65659e5e9c45b7851f41976d0d3901a3efc",
+  "checks": [
+    "Read source and exact fixed-input paths: 234 original plus26 refined clock records; original78 and refined13 dataset editions remain distinct.",
+    "Source hashes collected for clock reports, original and repaired mathematical aggregates, fixed grid/query/dispatch, mapping and builder. No source file or history is mutated.",
+    "Exact original156 and refined26 baseline-relative clock-pair coverage and fixed30 independent subset IDs are required.",
+    "The364rows preserve original and current-edition field status, all4fixed direction labels, allthree logZ signs and finite baseline-relative differences.",
+    "Positive/negative logZ labels match suppliedZ=emitted/receivedfrequency convention. Horizontal coordinate is suppliedinitial amplitude, not distance or elapsed physicaltime.",
+    "Visible unqualifiedoriginal outer rings and refined stars preserve differing fieldeditions; actualrender overlap stillrequires inspection.",
+    "Output directory refuses existingpath beforewriting CSV/PNG/PDF; sourceguard and finalaccepted-map review own exactversions."
+  ],
+  "caption_precision_note": "Parent applied the suggested caption-only precision repair during this source review. Red x now means mesh/time clock comparison failed; independent Hamilton agreement remains a separate statistic/review.",
+  "banking_notes": [
+    "There are234originalcaseJSON reports containing702windowrecords, not702separatecaseJSONfiles.",
+    "Compactruntimeaudit derives from local-only hashedworkerstreams; a remoteclone lacks those logs and rawNPZs for replay.",
+    "Stagedpathset andindexbytes mustmatch explicitallowlist/acceptedmap; no directory-wideignoredadds, rawarrays/checkpoints/workerstreams/emptylocks/protectedpayloads."
+  ],
+  "omissions": [
+    "No actualatlas build or scalar-outputcheck in thissourcepass",
+    "No geodesic or field recomputation",
+    "No actualPNG/PDF visualinspection yet",
+    "No finalattestation or commonfreeze acceptance"
+  ],
+  "caption_literal_reviewed": "fig.text(.5,.015,'Positive log Z: redshift. Negative: blueshift. Red \u00d7: mesh/time comparison failed. Amplitude is not distance; no UDT selection.',ha='center',fontsize=8)",
+  "version_note": "Builder hash includes the just-applied caption-only edit. Mathematical source review hash still names the preceding numerical-identical builder; final common freeze must reconcile the reviewed version."
+}

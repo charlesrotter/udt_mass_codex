@@ -1,0 +1,206 @@
+{
+  "status": "REPAIR_RESULT_VERIFIED_WITH_CAVEATS",
+  "reviewer_context": "/root/survey_completion_math",
+  "repair_math_sha256": "b09082462a464d9ed365e003b6ba19b6ed8c61fcebf59818c5b344a313c22462",
+  "capture_sha256": "b04eabde6b0885ee3cdbbfec0f6c84f94d72140e7df6e6780124d59df96b59c6",
+  "review_code_sha256": "263c6b2318c56d0a2fbe912b3d475369bdb3397e554e8aa697b2903360fa9cd5",
+  "cases": 26,
+  "windows": 78,
+  "original_interior_time_slices": 390,
+  "late_ADM_states": 78,
+  "original_Ricci_max": 6.098398237508462e-07,
+  "late_H_max": 4.7067987146709456e-09,
+  "late_M_max": 7.616619156994991e-09,
+  "late_harmonic_max": 4.775237634870412e-10,
+  "sixth_eighth_tensor_difference": 4.3917092185097317e-10,
+  "temporal_g_max": 3.121023439689452e-09,
+  "temporal_v_max": 1.4263100922562444e-08,
+  "new32_half_center_max": 6.253300099956505e-10,
+  "spatial_routes": [
+    {
+      "dataset": "oblique_a5_p0_r0",
+      "order": 6,
+      "route": "tenfold",
+      "ratio": 152.41160891232605,
+      "all_points_max": 1.2386792103136202e-07
+    },
+    {
+      "dataset": "oblique_a5_p0_r0",
+      "order": 8,
+      "route": "tenfold",
+      "ratio": 120.93636200827005,
+      "all_points_max": 1.2382475234051782e-07
+    },
+    {
+      "dataset": "axial_a5",
+      "order": 6,
+      "route": "small_error_only",
+      "ratio": 5.17609003583873,
+      "all_points_max": 1.218974032823894e-09
+    },
+    {
+      "dataset": "axial_a5",
+      "order": 8,
+      "route": "small_error_only",
+      "ratio": 3.8593471612548313,
+      "all_points_max": 1.2968525142653675e-09
+    },
+    {
+      "dataset": "oblique_a5_p0_r1",
+      "order": 6,
+      "route": "tenfold",
+      "ratio": 263.14185822137847,
+      "all_points_max": 1.0184765475429458e-07
+    },
+    {
+      "dataset": "oblique_a5_p0_r1",
+      "order": 8,
+      "route": "tenfold",
+      "ratio": 220.4611812192733,
+      "all_points_max": 1.0172752640258409e-07
+    },
+    {
+      "dataset": "oblique_a5_p0_r2",
+      "order": 6,
+      "route": "tenfold",
+      "ratio": 159.887841268339,
+      "all_points_max": 9.297798608809416e-08
+    },
+    {
+      "dataset": "oblique_a5_p0_r2",
+      "order": 8,
+      "route": "tenfold",
+      "ratio": 119.05085997635372,
+      "all_points_max": 9.294352754096735e-08
+    },
+    {
+      "dataset": "oblique_a5_p1_r0",
+      "order": 6,
+      "route": "tenfold",
+      "ratio": 231.63825596446793,
+      "all_points_max": 1.0549658591152422e-07
+    },
+    {
+      "dataset": "oblique_a5_p1_r0",
+      "order": 8,
+      "route": "tenfold",
+      "ratio": 226.20047856942148,
+      "all_points_max": 1.0554975982124404e-07
+    },
+    {
+      "dataset": "oblique_a5_p1_r1",
+      "order": 6,
+      "route": "tenfold",
+      "ratio": 173.01531829494132,
+      "all_points_max": 9.002621420561852e-08
+    },
+    {
+      "dataset": "oblique_a5_p1_r1",
+      "order": 8,
+      "route": "tenfold",
+      "ratio": 110.03245058282957,
+      "all_points_max": 9.005011369911387e-08
+    },
+    {
+      "dataset": "oblique_a5_p1_r2",
+      "order": 6,
+      "route": "tenfold",
+      "ratio": 140.0267939229543,
+      "all_points_max": 8.512624888323828e-08
+    },
+    {
+      "dataset": "oblique_a5_p1_r2",
+      "order": 8,
+      "route": "tenfold",
+      "ratio": 120.81978231537886,
+      "all_points_max": 8.505199489139414e-08
+    },
+    {
+      "dataset": "oblique_a5_p2_r0",
+      "order": 6,
+      "route": "tenfold",
+      "ratio": 210.77690037536192,
+      "all_points_max": 1.1081972273174756e-07
+    },
+    {
+      "dataset": "oblique_a5_p2_r0",
+      "order": 8,
+      "route": "tenfold",
+      "ratio": 222.4663262486269,
+      "all_points_max": 1.109158678236355e-07
+    },
+    {
+      "dataset": "oblique_a5_p2_r1",
+      "order": 6,
+      "route": "tenfold",
+      "ratio": 139.05494823856858,
+      "all_points_max": 9.690666979977891e-08
+    },
+    {
+      "dataset": "oblique_a5_p2_r1",
+      "order": 8,
+      "route": "tenfold",
+      "ratio": 117.2469005428958,
+      "all_points_max": 9.702805081612809e-08
+    },
+    {
+      "dataset": "oblique_a5_p2_r2",
+      "order": 6,
+      "route": "tenfold",
+      "ratio": 177.24131013337353,
+      "all_points_max": 8.684799868152737e-08
+    },
+    {
+      "dataset": "oblique_a5_p2_r2",
+      "order": 8,
+      "route": "tenfold",
+      "ratio": 119.0585660665641,
+      "all_points_max": 8.690277175649186e-08
+    },
+    {
+      "dataset": "oblique_a5_p3_r0",
+      "order": 6,
+      "route": "tenfold",
+      "ratio": 192.53947830087245,
+      "all_points_max": 1.173600757686799e-07
+    },
+    {
+      "dataset": "oblique_a5_p3_r0",
+      "order": 8,
+      "route": "tenfold",
+      "ratio": 173.50789892640378,
+      "all_points_max": 1.1732870008884788e-07
+    },
+    {
+      "dataset": "oblique_a5_p3_r1",
+      "order": 6,
+      "route": "tenfold",
+      "ratio": 159.88930058662655,
+      "all_points_max": 8.376607230076161e-08
+    },
+    {
+      "dataset": "oblique_a5_p3_r1",
+      "order": 8,
+      "route": "tenfold",
+      "ratio": 125.79523545050071,
+      "all_points_max": 8.364107917380181e-08
+    },
+    {
+      "dataset": "oblique_a5_p3_r2",
+      "order": 6,
+      "route": "tenfold",
+      "ratio": 161.73120863678244,
+      "all_points_max": 9.71678776329199e-08
+    },
+    {
+      "dataset": "oblique_a5_p3_r2",
+      "order": 8,
+      "route": "tenfold",
+      "ratio": 131.52789571128238,
+      "all_points_max": 9.725327554388485e-08
+    }
+  ],
+  "remaining_refined_flags": [],
+  "original_flags_preserved": 13,
+  "scope": "Actual finite same-premise numerical gates, not continuum certification or physical selection."
+}

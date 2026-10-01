@@ -1,0 +1,48 @@
+{
+  "adapter_sha256": "031eb62247d29bdd43ff734486aa6c82be9824c3f0bb64ae04c282c15a0d212a",
+  "assembler_sha256": "8333bc2a4de50300d44f2d32d316e1a9e56874418bbcb69f74e855e4099f1f0b",
+  "case": "axial_a5_n24_quarter",
+  "input_sha256": {
+    "/home/udt-admin/udt_mass_codex/udt_time_live_production_survey_2026-10-01/diagnosis/repair_runtime/attempts/00002_axial_a5_n24_quarter/launch.json": "45ded1b49cc05893a53847c19ebbb3eec0f78ab71ccc911c7b50ccfde6d3bb4c",
+    "/home/udt-admin/udt_mass_codex/udt_time_live_production_survey_2026-10-01/diagnosis/repair_runtime/attempts/00002_axial_a5_n24_quarter/receipt.json": "07fda1a0f25b5ddbfc80f7af9c1bff6fc202484509f6057b33fa1dfa1210c6b9",
+    "/home/udt-admin/udt_mass_codex/udt_time_live_production_survey_2026-10-01/diagnosis/repair_runtime/campaign.json": "2e40cd765113d30a52f6858c36054011046182b1c429ce0e9875df4577e63959",
+    "/home/udt-admin/udt_mass_codex/udt_time_live_production_survey_2026-10-01/diagnosis/repair_specs/axial_a5_n24_quarter.json": "eda8448ed3de109c6282069bbbcb65f74a5bf238134a904dae5ca8ef672751d1",
+    "/home/udt-admin/udt_mass_codex/udt_time_live_production_survey_2026-10-01/initial/production/axial_a5_n24.npz": "5386bead1d2edf9688cadf3804d76626c6973d7bda317f1ce28cad37951a4064"
+  },
+  "output_sha256": {
+    "/home/udt-admin/udt_mass_codex/udt_time_live_production_survey_2026-10-01/diagnosis/repair_analysis/axial_a5_n24_quarter/histories/axial_a5_n24_quarter_window0.npz": "1644feede64c6f154eef953f2aba198c3ad7444305bb24e343fca31b063452af",
+    "/home/udt-admin/udt_mass_codex/udt_time_live_production_survey_2026-10-01/diagnosis/repair_analysis/axial_a5_n24_quarter/histories/axial_a5_n24_quarter_window0.sources.json": "e414fb19d20a97abe13482c82100788cc3c424dc065922735bfb884bd0c9ee24",
+    "/home/udt-admin/udt_mass_codex/udt_time_live_production_survey_2026-10-01/diagnosis/repair_analysis/axial_a5_n24_quarter/histories/axial_a5_n24_quarter_window1.npz": "202c3c03c3458df61da5bdcb3c42bb832e7ebabde37c30a6ed267ce253c347b6",
+    "/home/udt-admin/udt_mass_codex/udt_time_live_production_survey_2026-10-01/diagnosis/repair_analysis/axial_a5_n24_quarter/histories/axial_a5_n24_quarter_window1.sources.json": "951ab757ad18ecb386ae82a6196b03da5559a35a39dacb9adb3cdf1e5cd57738",
+    "/home/udt-admin/udt_mass_codex/udt_time_live_production_survey_2026-10-01/diagnosis/repair_analysis/axial_a5_n24_quarter/histories/axial_a5_n24_quarter_window2.npz": "e7ff261ade9bebca8bf4bd14a031379afe416aeecd3cfac707b2f5a557b2f375",
+    "/home/udt-admin/udt_mass_codex/udt_time_live_production_survey_2026-10-01/diagnosis/repair_analysis/axial_a5_n24_quarter/histories/axial_a5_n24_quarter_window2.sources.json": "66a50fb084b3f25feb89c5c2de80e65bbe4f55fb41762f5a0b9679aca8512c10",
+    "/home/udt-admin/udt_mass_codex/udt_time_live_production_survey_2026-10-01/diagnosis/repair_analysis/axial_a5_n24_quarter/receipt_bridge.json": "b381b5dac122ad90338ec90e2816bee0becc2b2f638dab55ca4e47c89f3f1854"
+  },
+  "scope": "Authenticated byte/array correspondence only; original equations, convergence and readouts remain separate checks",
+  "windows": [
+    {
+      "bytes": 20419459,
+      "path": "udt_time_live_production_survey_2026-10-01/diagnosis/repair_analysis/axial_a5_n24_quarter/histories/axial_a5_n24_quarter_window0.npz",
+      "times": [
+        1.015,
+        1.035
+      ]
+    },
+    {
+      "bytes": 21236883,
+      "path": "udt_time_live_production_survey_2026-10-01/diagnosis/repair_analysis/axial_a5_n24_quarter/histories/axial_a5_n24_quarter_window1.npz",
+      "times": [
+        1.74,
+        1.76
+      ]
+    },
+    {
+      "bytes": 21277885,
+      "path": "udt_time_live_production_survey_2026-10-01/diagnosis/repair_analysis/axial_a5_n24_quarter/histories/axial_a5_n24_quarter_window2.npz",
+      "times": [
+        2.48,
+        2.5
+      ]
+    }
+  ]
+}

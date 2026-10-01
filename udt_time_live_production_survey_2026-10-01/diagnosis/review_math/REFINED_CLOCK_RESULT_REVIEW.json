@@ -1,0 +1,306 @@
+{
+  "status": "REFINED_CLOCK_RESULTS_VERIFIED_WITH_CAVEATS",
+  "reviewer_context": "/root/survey_completion_math",
+  "clock_machine_diagnostic": "PASS",
+  "candidate_sha256": "5254886d0883d540a035371c8ece51b4841d23c5cba53910086d2423f49f129b",
+  "field_math_sha256": "b09082462a464d9ed365e003b6ba19b6ed8c61fcebf59818c5b344a313c22462",
+  "capture_sha256": "3d756615dd2e2c1c17bd33d2e67d2dacbecce8a613a7e8c9a43984eaa7747947",
+  "review_script_sha256": "67235bc4f4bdd64147ab5911fd7a8eae4633d68c3de2060a157f7cce56747f06",
+  "reused_capture_helper_sha256": "fa9e403a08512b034ee389d969fad9ae6810ed9d7c17a86c75dfac737980beaa",
+  "history_count": 39,
+  "new_histories": 26,
+  "anchor_histories": 13,
+  "pair_comparisons": 26,
+  "all39_sign_counts": {
+    "positive": 117,
+    "negative": 39,
+    "zero": 0
+  },
+  "new26_sign_counts": {
+    "positive": 78,
+    "negative": 26,
+    "zero": 0
+  },
+  "maximum_temporal_logZ_difference": 4.061837671764934e-13,
+  "maximum_spatial_logZ_difference": 5.5584634117700205e-12,
+  "maximum_sampled_null": 4.911297854948843e-11,
+  "actual_field_and_clock_bindings": [
+    {
+      "case": "oblique_a5_p0_r0_n24_half",
+      "reviewed_field_report_sha256": "aabe254a07a221792d300fefde8145c5a96c67a6ea9c0782583a781b5a2061b7",
+      "history_sha256": "1718d78fe38c13f1609aa82add41d60c0e1d78b2061ede04be652b04ab06b4a4",
+      "assembly_sha256": "d217d53e42b12fafc9f5f5750169d5bba296a3730091b0be8e7dd9692ca27945",
+      "clock_sha256": "5351775c618e6eb425cc7dd70fa4df24551c4247ffe511024c993bd321caf0cb"
+    },
+    {
+      "case": "oblique_a5_p0_r0_n24_quarter",
+      "reviewed_field_report_sha256": "a3cf2c458684e268a0f984fb83f0b4d62092c9e43e6c0d9c79a7c11e99d7b524",
+      "history_sha256": "67f0f062214f1a665ae77328184f0db300a8b360ede56317992ef3911f9c8cea",
+      "assembly_sha256": "be3b510206a79195dbceb3dcfb6472114c8b6dd8505c593e5b580fe8f8aad924",
+      "clock_sha256": "0c4f89c71b245e0b893a354601be6354b8464eb7f1c5b8ba49de553951d2f713"
+    },
+    {
+      "case": "oblique_a5_p0_r0_n32_half",
+      "reviewed_field_report_sha256": "8b65b62c1f429eda00f3557bdfe68b26f1a9aa621d49d7c189738e1513cb2574",
+      "history_sha256": "bf6c3a2720f9f8bfb90bb22e14116e73d649c476001b479163373420af096c3b",
+      "assembly_sha256": "188e4e7fb67a0dff07cda4c1786c251005744eb7035b9bad9831f8fc5fc78862",
+      "clock_sha256": "16d3b821c930fb6b57d4e0660a3f25e042742fd3b02d4edd77fef0e2f4960632"
+    },
+    {
+      "case": "axial_a5_n24_half",
+      "reviewed_field_report_sha256": "5f895faddf730e0881f43bbf48681dd9d733c501b58c4c5930cfe92087c64926",
+      "history_sha256": "02813b190afb451d4e62590708c600385ebb066312051c5ec5aa384a44ec5002",
+      "assembly_sha256": "9b127c2bd8380a093140c11d59dac7a7691d3792af39af2bd3a8a1c01b9d02ee",
+      "clock_sha256": "f0e5d54aea5e4c02d581b07d4cca985ea8717f2e2482df4be0bc8a3ca4a1732c"
+    },
+    {
+      "case": "axial_a5_n24_quarter",
+      "reviewed_field_report_sha256": "9a836e226205cb18667717705836f629025e90dbecac1378c3cd2e518ffbbca0",
+      "history_sha256": "e7ff261ade9bebca8bf4bd14a031379afe416aeecd3cfac707b2f5a557b2f375",
+      "assembly_sha256": "a4e3823f1947677f6663355676d9acaa243e4949bc1634590fa919ae91d5ecdc",
+      "clock_sha256": "436289e9cbceba24dbd1f93edab2a609267ebf39171790712a4a0d3848c9293a"
+    },
+    {
+      "case": "axial_a5_n32_half",
+      "reviewed_field_report_sha256": "547dbda2581354023619d5c10cf173920f51dcd18569cc90074452eb656d0bbe",
+      "history_sha256": "2a6af7a0e63ca91006dafae36e6fdde109991f1d6fab3712b68ced1d2c8b06de",
+      "assembly_sha256": "a0fe5bff29338420ed5a1dd43111525992652beb435ba41ff642d4c46ad457e4",
+      "clock_sha256": "871a19bf758bbdf84b5869175f263e7cb25a06d491b3dcbf8d3182c8793512c8"
+    },
+    {
+      "case": "oblique_a5_p0_r1_n24_half",
+      "reviewed_field_report_sha256": "67c0f12ea1e55f91857987cfe385445dd7acb6c707787cba0e942c0d023edfb6",
+      "history_sha256": "9f5ed7940c430a1f20817f298896f1e79cd7922a1fff6c55a02966b81a86a06e",
+      "assembly_sha256": "e1de3f18dd8781b21b6979e5ddec2cb0ae1bc7c038a56f7bd1d705dae0e04bb2",
+      "clock_sha256": "310388864bfec4375637b1166c111ab4ac5be304981530f5ec7586d2cf620b7a"
+    },
+    {
+      "case": "oblique_a5_p0_r1_n24_quarter",
+      "reviewed_field_report_sha256": "f7716d3f4baf958c3664b892b0390d5e5a51cac62b01613c31010fe20cad04c8",
+      "history_sha256": "74586af3b040bac28423216e332ac842ac72523d74ea22e9b75012a5917bdae2",
+      "assembly_sha256": "89459f2b026c1c3d0f7bd4492a5b61301876c3df02fddfd5cb93dbf594105319",
+      "clock_sha256": "866fcec79a062be56e310cdad9bc9f11a30a76032b5d6deafd21efbbd690a366"
+    },
+    {
+      "case": "oblique_a5_p0_r1_n32_half",
+      "reviewed_field_report_sha256": "12f727ec8653ea711304f4f6cc49dd0ac996bd87bc39a6592b8a4a7baf35c30f",
+      "history_sha256": "5781df152f99daac0dc39ab7089ef5c1fe6a1241619cf8afae2baaeba62c21d2",
+      "assembly_sha256": "5a1fb994836d8a50d3d2d1286239e01439ce0217d8ef69e608cd7b9d52f524a4",
+      "clock_sha256": "a967e72961aa79088b9c923db4d19b0ac72f6bb2b0514fd9df70cadd60fd6e72"
+    },
+    {
+      "case": "oblique_a5_p0_r2_n24_half",
+      "reviewed_field_report_sha256": "9064a662259860cb5a949e2b53b262430105562c7d325d536e37412c4b77a6c5",
+      "history_sha256": "08aef3d28c0748d213f147da44c6b3bf1fb04b201bdf0df6bed7cd6fde55ac02",
+      "assembly_sha256": "b00d161792a62c350b6fa7a54f54754af8bff85af21f301c80eeb02948a9fa11",
+      "clock_sha256": "7dda8faaeb9039581e97f7047093a60ed8fcbd924e2ff702493d15c269477f9d"
+    },
+    {
+      "case": "oblique_a5_p0_r2_n24_quarter",
+      "reviewed_field_report_sha256": "3d525c2759bbf2b84c693e91e4f64e847606a2777867389a988e894416b77774",
+      "history_sha256": "120327c119cfe80f74ecb403ad92ce123eebc401ca6f5be8a5cbac934c056651",
+      "assembly_sha256": "7232f95d42cbf60c6dbcf56d25f458de40a19b1e1a5d5b55571394db71e0102c",
+      "clock_sha256": "a95cf27414958ea5ea2e86104dfb5bf6d167784a86456ff8ed69a9efb6aa992f"
+    },
+    {
+      "case": "oblique_a5_p0_r2_n32_half",
+      "reviewed_field_report_sha256": "b85ab03fb3f6ce9c175a6000a09b68aef24a4c6ad3fa4351beba44007ed1ca86",
+      "history_sha256": "fce86dcaef2950460665f4b07a37fb4fcba01501070fe0009dedf75102632c81",
+      "assembly_sha256": "7d91c4ce9f4ae932868755e9ad3f705fd7a71d523c2a9a997cdb8ac5e633295f",
+      "clock_sha256": "a2c15709edfafce324c86f7469f995f376d3c78642dfc6a100b5c07344d4e14e"
+    },
+    {
+      "case": "oblique_a5_p1_r0_n24_half",
+      "reviewed_field_report_sha256": "9fdf9e1ec0e958a02355a3fca1062d1919dcdda3a5f3e5a96ab6788abb820f0d",
+      "history_sha256": "caf83bd5181e0f0ee3afb0d89c8b8db8638aa1a1bb184429e34187cc3ca3847d",
+      "assembly_sha256": "b545a08b30ab138191a97f42cf67dcf6ec04235e5c15e39dbfb293f349f5d689",
+      "clock_sha256": "ee062b3be59085c5309adbdc62e310b0f786f8216cd95e84318156d079bdc1c5"
+    },
+    {
+      "case": "oblique_a5_p1_r0_n24_quarter",
+      "reviewed_field_report_sha256": "a329b13ffbf8d9dd9f7c7ac516023ccf15e6dd42f19b37a80ac9c5744c0acd33",
+      "history_sha256": "9dfb56724b8a7217c40bc1ba04c2c39fc288445ef3a6b4eabf9d5017dd3b16ad",
+      "assembly_sha256": "ab76b4372ff68758690656843c05d4cf3ef318a6757c9853354db7c60ae4c572",
+      "clock_sha256": "4e8ed6722184a03117bfcb45fc4233104d850f32c32b010f5ddf03b729983bff"
+    },
+    {
+      "case": "oblique_a5_p1_r0_n32_half",
+      "reviewed_field_report_sha256": "d8dd391f2e0a213fd193aff99f69fa1a6ebf3bf27de930a0470c91bac31b0320",
+      "history_sha256": "56e6f2157281b4e2145b2fc109c98b689e052433ee8166d20fa6f9aae0acdf2e",
+      "assembly_sha256": "40f9cb8c66e2d68b3f60cbe7f1cfd7b9da9112a509cd89b30b4bf161fe8bcb2c",
+      "clock_sha256": "2a75b157425e5bb38bd3e651aa2f859f64fe8a1505c7928ed5a7aaf8f92f1ae1"
+    },
+    {
+      "case": "oblique_a5_p1_r1_n24_half",
+      "reviewed_field_report_sha256": "5dc73a1881110ba99fa3ccda9d67cbf02cc9a2db82571fd664f22ca376ef9446",
+      "history_sha256": "9ea40a92b3d8e99154cd8a78948d2a724d08bde149b60b45fa25bab99f3ecdcc",
+      "assembly_sha256": "d2d666e758c3ea1afc9e6c76b79126ca0e3c88de607e21db103eabde5fe3cb71",
+      "clock_sha256": "aacf7fce2ff5d8c7538f222685e2393faf9ffe8a82c3fe3498968f69cd183000"
+    },
+    {
+      "case": "oblique_a5_p1_r1_n24_quarter",
+      "reviewed_field_report_sha256": "9c5e3ff120718b80ad90e62da77a0c0eb5220e8a9bbb2cdb1dd1277771fe468c",
+      "history_sha256": "545bf340e86ab36e17f4bdb84475d12e10b30de7666992da3766e6b738cb3ced",
+      "assembly_sha256": "c37ab8f47711c28963bc98651f8e8090a557e314ffa999d8f40fc57fdb74dda4",
+      "clock_sha256": "5c02bb7353e436571f1b4ec233bfc8fa8887fabf4e978a508ffdb851276f69e9"
+    },
+    {
+      "case": "oblique_a5_p1_r1_n32_half",
+      "reviewed_field_report_sha256": "141fa9293a9e692138a113d2605d387f7ea6c47e9c004af6c0f5ddd0dbddc755",
+      "history_sha256": "cb8f02a2c54ce71fc8ed2231ce4af74984c93c5a1a6109a1e60d50edd9534cc8",
+      "assembly_sha256": "9a5216587f89d2708f0c47de04d80bb0271b985d1ed3503f2d3def55a63dc405",
+      "clock_sha256": "b42b34ffb0c0f97fc629dceab0c3f27efd1185456067ed74751947dd428a50ac"
+    },
+    {
+      "case": "oblique_a5_p1_r2_n24_half",
+      "reviewed_field_report_sha256": "29ed62ad9a1bcea98aa28f9e74bad28fd471ab4aaec66c562ba6d1c6a8d6c18a",
+      "history_sha256": "668bd36ab47fec2ca837299dc1736ec422148cc739478d7fd115ee672dbdbb0f",
+      "assembly_sha256": "808d54eb1a6e1d7922690a5771b7071737250040e683f13713f48a8136902b21",
+      "clock_sha256": "471a1e3c1230a07b67c0e70e99a3c00831971205438177704f170c7a9b2c0701"
+    },
+    {
+      "case": "oblique_a5_p1_r2_n24_quarter",
+      "reviewed_field_report_sha256": "32487e46a6e3e3379cff0952dd5e4d20825d5163b37a90fbbff3eef094c6848c",
+      "history_sha256": "bd2c08a35d4d0f538dfaa0ac66e62e0e033d578486cbafa6c27a56b48306aae5",
+      "assembly_sha256": "a835e4242f7bfe3babddecf791503f16674cfcf2a0dedb506e50c2285ba2fa9a",
+      "clock_sha256": "5bb4a2e03610718178843cca4573997f2a7a0eadd2d5c879a4a4d04db8916d56"
+    },
+    {
+      "case": "oblique_a5_p1_r2_n32_half",
+      "reviewed_field_report_sha256": "350b42af074dac20afab94bb5af5b2aa8c30e96fcf478ee853f7338e1ebf8b4e",
+      "history_sha256": "73e70bf0f2c585b0c6a99eba6d2de7f7e23761c809130ed594276e7cda7fef6d",
+      "assembly_sha256": "1cf7b17d1c338884f1993f2ac12803e18cfdfcd1dc49a40bbaba0080af668b86",
+      "clock_sha256": "735f8c4fc8d82fa3fc130bc1cf433f20de3ddfd52d2a33c8074a10337537acf2"
+    },
+    {
+      "case": "oblique_a5_p2_r0_n24_half",
+      "reviewed_field_report_sha256": "be7744931784bc5626eca093edd93a3ab60ef0c0100a0bc730f7be442531e156",
+      "history_sha256": "e5c81ce0a370e9abffeb840c540a24812558587307a1e3d1a9da271c871c000c",
+      "assembly_sha256": "715854085d024a32fd8b0f52f5b95a6b1b58a81aac8c365b171a6e23d1ccaa23",
+      "clock_sha256": "902a5e33f672600a9585f688e130e2141e3c9680e4d6ece8cffd3ae938e02440"
+    },
+    {
+      "case": "oblique_a5_p2_r0_n24_quarter",
+      "reviewed_field_report_sha256": "baa9513e89197c992e7e042b943ff853b2d9dab586ced4b2e6879368511ffc9e",
+      "history_sha256": "c2850e482a4c3e41755763947f034105ad2c46c3947d02a3e699744943abd9cd",
+      "assembly_sha256": "48f7ac4746450f165015ae98854fd710de3c79c1538b4bcc0ea990e7c8a3dfe6",
+      "clock_sha256": "eb608d8548c6ec22f048a1dded0cb25567968b28ed6624836bbb793868dc1464"
+    },
+    {
+      "case": "oblique_a5_p2_r0_n32_half",
+      "reviewed_field_report_sha256": "cff2cc89ff77aa23af203ab3be56c6260e5fe8741ea4b787f70e2278a81873c8",
+      "history_sha256": "8b33e9249bc291d5fcf5f755fa68f30e17cbbedc91e2ec1ba5e38f2500859c6b",
+      "assembly_sha256": "cf726decb044334c970109dadce5c50903504c07079423deca83c7b91d381fb4",
+      "clock_sha256": "4217c4ac07e498d95a6167915e75ec8aaefac75a6d47b38938542d783f1c6aba"
+    },
+    {
+      "case": "oblique_a5_p2_r1_n24_half",
+      "reviewed_field_report_sha256": "658f01a1a74c84f7794db3f82587753c2b316078c4b4475cc0456fafcde7d801",
+      "history_sha256": "841172549d0519e848f78ab7200a764eff65e321c3ccbe22a7ad7b38c952db97",
+      "assembly_sha256": "ba2acf46d65be5a636e36a809c48af3e300f669dbb5986ce08915ba0d4cc1d97",
+      "clock_sha256": "ae3dcf2f49d6ac35c06251def9535b9cf88116a3be130adc7bdef876461c6aa0"
+    },
+    {
+      "case": "oblique_a5_p2_r1_n24_quarter",
+      "reviewed_field_report_sha256": "b08fcc83ee3847a48107ee86f40ec7d6aa4efe9e13b1ab450b263bb6eb530839",
+      "history_sha256": "69d413e770fd8b15e3b8d7e51d9738318c26b52c71f308e860baebd2a4b754dc",
+      "assembly_sha256": "205477216bf75daefc6d51e8ff6449b30161519fa5b6a71109df3655da17c7a1",
+      "clock_sha256": "52e8a28b813bd1c49eba4e237017ef12ff24dbd5d2ce9544d75ef772a451ab6f"
+    },
+    {
+      "case": "oblique_a5_p2_r1_n32_half",
+      "reviewed_field_report_sha256": "1e1caf8b687110afb3a9027faee591a8de7f6dc7fff705cbc653a93619e3843f",
+      "history_sha256": "d50c933cd2967a9c6bb7db981a5669fb849c570fde78857174a1957ab3f3658a",
+      "assembly_sha256": "926c978242701d0ff343b86a6e53652d57e96d890b0cd0653a8ec23b15254684",
+      "clock_sha256": "b14ee89721f46a4cf61d8c8f162fdf15091f659428148bbf201e66576aeeed4c"
+    },
+    {
+      "case": "oblique_a5_p2_r2_n24_half",
+      "reviewed_field_report_sha256": "d586bf2fdfdc36a4140c80f63a91eab50e542ca1a2b4792b563f03c98d4975dd",
+      "history_sha256": "bc98365f03c9dd900b62ea77bf80cf21e04722ce46097b9a8242b70cef3966c1",
+      "assembly_sha256": "b0586e34e33e9116941192ad610c2cc73455690b5701896854ae2947881fd2bf",
+      "clock_sha256": "405c1e739819c4d33f821372c3ad14add6611f45c9851297225eacd9bd863bab"
+    },
+    {
+      "case": "oblique_a5_p2_r2_n24_quarter",
+      "reviewed_field_report_sha256": "0d58f63eaa479fc2895b3198044024f53cbe78d0efffe6cd3c02076c2713b3a9",
+      "history_sha256": "c157d0f7afb0cc6de463de7e41e0916790040ba1862bd45de146f574ad401b50",
+      "assembly_sha256": "d36bb8c147128222473faf1f4a1b1e568c76f729a1d207ffc3219bfb97a334f8",
+      "clock_sha256": "83028dfc46e9bb569492b603516a84c5874b4820c3228513aeda1eff732f5a5c"
+    },
+    {
+      "case": "oblique_a5_p2_r2_n32_half",
+      "reviewed_field_report_sha256": "055478568dfe16da72eb13b0e360f5f3dab3e47fbd3ade167f0eef7ece2d083a",
+      "history_sha256": "8723f3278f79e28dd8563519da6a32fc2137d9943120abb8775d193cffe36fb9",
+      "assembly_sha256": "35100f1f2d52bbb412b0c3290991298e1e0afadd8b06d5f7fb4df8c42a7671e6",
+      "clock_sha256": "cbcd4b586cd81c990411a46832adbac293bc6110ba534415c16cac12c00481ed"
+    },
+    {
+      "case": "oblique_a5_p3_r0_n24_half",
+      "reviewed_field_report_sha256": "4e9efbf9b599c33fea3a650708091aa80d3ae3a0aaf427f0a23910e225593f7b",
+      "history_sha256": "72c8af6622d53a2ec6bd98328eab55a134551d94a0ff4dc598ea7295909f7796",
+      "assembly_sha256": "cda96daef00c363c33b446c624944c6aa3cdd9f440c1564965d4f2c9d82945ef",
+      "clock_sha256": "0c43f4af628da844f48bf04bf59fec72c75b8dd2c373550398d6e0f8880fe3d7"
+    },
+    {
+      "case": "oblique_a5_p3_r0_n24_quarter",
+      "reviewed_field_report_sha256": "a2dae0e8dcf7df029237dd0b9b2a0b941f6b7490596003fb93440b519c03779b",
+      "history_sha256": "388abe6a53ead4f26f9b355d3fd60f84f6d56933f2471536d1e425cc091a3312",
+      "assembly_sha256": "1593b6e9207af1b538cb452225955ea9e7389443981e51d9234a9fbc0b94c1fb",
+      "clock_sha256": "b1c8f932aa7c0be596a8240ed10e93b68944c052162f7c62ab3b8361b8bd0f25"
+    },
+    {
+      "case": "oblique_a5_p3_r0_n32_half",
+      "reviewed_field_report_sha256": "415bc5e3841f0565856cbd2e0364bb37ff6cd83a08994ad54b8813d8688d2605",
+      "history_sha256": "059413a808a8109332e0813d49e3d74aaa3beec7dfbea2add86f1899022d4d9a",
+      "assembly_sha256": "11d90587a1acb0ebf3586fd80fd666341f37fa379bf5104a0c74405b637a1d41",
+      "clock_sha256": "f9c16131e6311f3ed298f48f1334473d777cf17df00c57e0fdb43110c14a3682"
+    },
+    {
+      "case": "oblique_a5_p3_r1_n24_half",
+      "reviewed_field_report_sha256": "6d0fd40b73490d4ee6b8ff13e489cb5e83b0088eae47507508e56b63da80b8a8",
+      "history_sha256": "61590cd46ed258b6e25c49c6da560c73190ff9ad435eff82cce6f6c9b21091a8",
+      "assembly_sha256": "5eda5e0fc0d93639e1641797bb69c2d5dd46da6d50e11b7ec050b812a77f5b8b",
+      "clock_sha256": "269a90c05b971205d980ce5acf39fb3c781583afaff25a7518e1baecc071acac"
+    },
+    {
+      "case": "oblique_a5_p3_r1_n24_quarter",
+      "reviewed_field_report_sha256": "97a349b14485031e4aaa53dd2ed70b255e4315cd2801fd557a9d26b08e9e4a99",
+      "history_sha256": "47fb4bb0e10f3ccb15e6aceef09c99acd63041bbbb29fac92e8dc73fb6700d86",
+      "assembly_sha256": "f8aa135e24436e04b185296d1d442a5d33fd94c64e3280a0549f39b08f32a8c8",
+      "clock_sha256": "6d8d5e8726ff6947617fd7b477c8d35e45444394ba55783378c9599c7e664a00"
+    },
+    {
+      "case": "oblique_a5_p3_r1_n32_half",
+      "reviewed_field_report_sha256": "a00418662117be3d43c544fe5b2207e63763d62634773346847563bfb3111140",
+      "history_sha256": "f9cd9eaaef6c47575e44d24d85e81c065e2a3f687860e5444ae342a1cf6fd0b3",
+      "assembly_sha256": "57d791b4190d3b47795d748b2e59fa45d1f537d2cd6e017814c1b8ddaec7e667",
+      "clock_sha256": "47604a5b72922ade12402683ea5d1b107d8af0cacddc115d9878e7c165b3909f"
+    },
+    {
+      "case": "oblique_a5_p3_r2_n24_half",
+      "reviewed_field_report_sha256": "f773b0d0ce9ed6601c775bbc47ff30ff914422bda54963f6e34f03e1aa25cc26",
+      "history_sha256": "db95ec95719060f05459538e59d5eb34090dd81530535da0c4a7323dd13fc049",
+      "assembly_sha256": "92ca29d7b53938a6a051d8f9a80fdbe8056da779a397be4114dc14499bcc89e3",
+      "clock_sha256": "ddbd6921a5d4f383e5eab0e069c584bdcdba6895b5e124169e825f6ad66f8716"
+    },
+    {
+      "case": "oblique_a5_p3_r2_n24_quarter",
+      "reviewed_field_report_sha256": "19a50d8a7aaabe9578ffc302fb201f56ac50b0ec8693da8de885d91516f5ae62",
+      "history_sha256": "8cffa2da6db651c7d2c6f1b8cdea5bf87d3e393c485db91ea4a9bcce2016fbf3",
+      "assembly_sha256": "645bd20a843b6c7faf7f777d34720c65bc61b755941193fcdd14a84098df5523",
+      "clock_sha256": "832f88f49f865fb735d26ce12ad57b9bc32cdc0502510f7b35aaf6c30a63aead"
+    },
+    {
+      "case": "oblique_a5_p3_r2_n32_half",
+      "reviewed_field_report_sha256": "933c2521f41a7892e2392504f37a30556bd3d61d78c99d3a614334052a8f0e59",
+      "history_sha256": "ea1bc1834d4f893195267f9c73d79acc6e69810814ce1b52fd5ed059e4c2cad9",
+      "assembly_sha256": "19952d504eb1e9d177692dd878f1b4560ff1b873024b4353188c0e4450d3ceea",
+      "clock_sha256": "9e6cc38a85ef388bc5e5bc0c6edfe7ee71f6b502f2230c373c3ff4ecbc401717"
+    }
+  ],
+  "original_unqualified_preserved": 13,
+  "refined_qualification_owned_by": "Separate REPAIR_MATH.json, not these clock comparisons",
+  "seconds": 0.6036404990009032,
+  "scope": "Actual fixed late-window output and input/scalar replay, no geodesic recomputation. Original30Hamiltonian subset remains on original anchors; new26queries are producer readouts, not a new independent clock method. Shared saved fields/Fourier/Hermite mathematics, no population, gap or continuum claim."
+}

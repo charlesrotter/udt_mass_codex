@@ -1,0 +1,2713 @@
+{
+  "status": "DIAGNOSTIC_CHECKS_COMPLETE",
+  "reviewer_context": "/root/survey_completion_math",
+  "startup": "Parent startup/synchronization attributed; own branch/hash/status and scoped instructions checked.",
+  "model": "same inherited model; not cross-model",
+  "prior_exposure": "13 known flags and original reports; diagnosis frozen in PLAN.md before direct-array computations.",
+  "independence": "Own rational stencil generation, extended-precision time accumulation and separately arranged Ricci contraction. Shared saved fields, NumPy FFT mathematics and defining Christoffel Ricci. No independent general-data time integrator.",
+  "numpy": "2.2.6",
+  "controls": [
+    {
+      "control": "harmonic_kasner",
+      "p": [
+        -0.3333333333333333,
+        0.6666666666666666,
+        0.6666666666666666
+      ],
+      "order": 6,
+      "error": 9.084510921297806e-12,
+      "ricci_max": 9.084510921297806e-12
+    },
+    {
+      "control": "harmonic_kasner",
+      "p": [
+        -0.3333333333333333,
+        0.6666666666666666,
+        0.6666666666666666
+      ],
+      "order": 8,
+      "error": 8.184786182141579e-12,
+      "ricci_max": 8.184786182141579e-12
+    },
+    {
+      "control": "harmonic_kasner",
+      "p": [
+        0.2,
+        0.3,
+        0.5
+      ],
+      "order": 6,
+      "error": 5.340852760049586e-12,
+      "ricci_max": 0.6200000000004411
+    },
+    {
+      "control": "harmonic_kasner",
+      "p": [
+        0.2,
+        0.3,
+        0.5
+      ],
+      "order": 8,
+      "error": 5.720007800746885e-12,
+      "ricci_max": 0.6200000000002843
+    },
+    {
+      "control": "analytic_exponential_FLRW_jets",
+      "error": 4.163336342344337e-17
+    }
+  ],
+  "gate_rows": [
+    {
+      "dataset": "axial_a0",
+      "spatial_pass": true,
+      "temporal_pass": true,
+      "status": "PASS"
+    },
+    {
+      "dataset": "oblique_a0_p0_r0",
+      "spatial_pass": true,
+      "temporal_pass": true,
+      "status": "PASS"
+    },
+    {
+      "dataset": "oblique_a0_p0_r1",
+      "spatial_pass": true,
+      "temporal_pass": true,
+      "status": "PASS"
+    },
+    {
+      "dataset": "oblique_a0_p0_r2",
+      "spatial_pass": true,
+      "temporal_pass": true,
+      "status": "PASS"
+    },
+    {
+      "dataset": "oblique_a0_p1_r0",
+      "spatial_pass": true,
+      "temporal_pass": true,
+      "status": "PASS"
+    },
+    {
+      "dataset": "oblique_a0_p1_r1",
+      "spatial_pass": true,
+      "temporal_pass": true,
+      "status": "PASS"
+    },
+    {
+      "dataset": "oblique_a0_p1_r2",
+      "spatial_pass": true,
+      "temporal_pass": true,
+      "status": "PASS"
+    },
+    {
+      "dataset": "oblique_a0_p2_r0",
+      "spatial_pass": true,
+      "temporal_pass": true,
+      "status": "PASS"
+    },
+    {
+      "dataset": "oblique_a0_p2_r1",
+      "spatial_pass": true,
+      "temporal_pass": true,
+      "status": "PASS"
+    },
+    {
+      "dataset": "oblique_a0_p2_r2",
+      "spatial_pass": true,
+      "temporal_pass": true,
+      "status": "PASS"
+    },
+    {
+      "dataset": "oblique_a0_p3_r0",
+      "spatial_pass": true,
+      "temporal_pass": true,
+      "status": "PASS"
+    },
+    {
+      "dataset": "oblique_a0_p3_r1",
+      "spatial_pass": true,
+      "temporal_pass": true,
+      "status": "PASS"
+    },
+    {
+      "dataset": "oblique_a0_p3_r2",
+      "spatial_pass": true,
+      "temporal_pass": true,
+      "status": "PASS"
+    },
+    {
+      "dataset": "axial_a1",
+      "spatial_pass": true,
+      "temporal_pass": true,
+      "status": "PASS"
+    },
+    {
+      "dataset": "oblique_a1_p0_r0",
+      "spatial_pass": true,
+      "temporal_pass": true,
+      "status": "PASS"
+    },
+    {
+      "dataset": "oblique_a1_p0_r1",
+      "spatial_pass": true,
+      "temporal_pass": true,
+      "status": "PASS"
+    },
+    {
+      "dataset": "oblique_a1_p0_r2",
+      "spatial_pass": true,
+      "temporal_pass": true,
+      "status": "PASS"
+    },
+    {
+      "dataset": "oblique_a1_p1_r0",
+      "spatial_pass": true,
+      "temporal_pass": true,
+      "status": "PASS"
+    },
+    {
+      "dataset": "oblique_a1_p1_r1",
+      "spatial_pass": true,
+      "temporal_pass": true,
+      "status": "PASS"
+    },
+    {
+      "dataset": "oblique_a1_p1_r2",
+      "spatial_pass": true,
+      "temporal_pass": true,
+      "status": "PASS"
+    },
+    {
+      "dataset": "oblique_a1_p2_r0",
+      "spatial_pass": true,
+      "temporal_pass": true,
+      "status": "PASS"
+    },
+    {
+      "dataset": "oblique_a1_p2_r1",
+      "spatial_pass": true,
+      "temporal_pass": true,
+      "status": "PASS"
+    },
+    {
+      "dataset": "oblique_a1_p2_r2",
+      "spatial_pass": true,
+      "temporal_pass": true,
+      "status": "PASS"
+    },
+    {
+      "dataset": "oblique_a1_p3_r0",
+      "spatial_pass": true,
+      "temporal_pass": true,
+      "status": "PASS"
+    },
+    {
+      "dataset": "oblique_a1_p3_r1",
+      "spatial_pass": true,
+      "temporal_pass": true,
+      "status": "PASS"
+    },
+    {
+      "dataset": "oblique_a1_p3_r2",
+      "spatial_pass": true,
+      "temporal_pass": true,
+      "status": "PASS"
+    },
+    {
+      "dataset": "axial_a2",
+      "spatial_pass": true,
+      "temporal_pass": true,
+      "status": "PASS"
+    },
+    {
+      "dataset": "oblique_a2_p0_r0",
+      "spatial_pass": true,
+      "temporal_pass": true,
+      "status": "PASS"
+    },
+    {
+      "dataset": "oblique_a2_p0_r1",
+      "spatial_pass": true,
+      "temporal_pass": true,
+      "status": "PASS"
+    },
+    {
+      "dataset": "oblique_a2_p0_r2",
+      "spatial_pass": true,
+      "temporal_pass": true,
+      "status": "PASS"
+    },
+    {
+      "dataset": "oblique_a2_p1_r0",
+      "spatial_pass": true,
+      "temporal_pass": true,
+      "status": "PASS"
+    },
+    {
+      "dataset": "oblique_a2_p1_r1",
+      "spatial_pass": true,
+      "temporal_pass": true,
+      "status": "PASS"
+    },
+    {
+      "dataset": "oblique_a2_p1_r2",
+      "spatial_pass": true,
+      "temporal_pass": true,
+      "status": "PASS"
+    },
+    {
+      "dataset": "oblique_a2_p2_r0",
+      "spatial_pass": true,
+      "temporal_pass": true,
+      "status": "PASS"
+    },
+    {
+      "dataset": "oblique_a2_p2_r1",
+      "spatial_pass": true,
+      "temporal_pass": true,
+      "status": "PASS"
+    },
+    {
+      "dataset": "oblique_a2_p2_r2",
+      "spatial_pass": true,
+      "temporal_pass": true,
+      "status": "PASS"
+    },
+    {
+      "dataset": "oblique_a2_p3_r0",
+      "spatial_pass": true,
+      "temporal_pass": true,
+      "status": "PASS"
+    },
+    {
+      "dataset": "oblique_a2_p3_r1",
+      "spatial_pass": true,
+      "temporal_pass": true,
+      "status": "PASS"
+    },
+    {
+      "dataset": "oblique_a2_p3_r2",
+      "spatial_pass": true,
+      "temporal_pass": true,
+      "status": "PASS"
+    },
+    {
+      "dataset": "axial_a3",
+      "spatial_pass": true,
+      "temporal_pass": true,
+      "status": "PASS"
+    },
+    {
+      "dataset": "oblique_a3_p0_r0",
+      "spatial_pass": true,
+      "temporal_pass": true,
+      "status": "PASS"
+    },
+    {
+      "dataset": "oblique_a3_p0_r1",
+      "spatial_pass": true,
+      "temporal_pass": true,
+      "status": "PASS"
+    },
+    {
+      "dataset": "oblique_a3_p0_r2",
+      "spatial_pass": true,
+      "temporal_pass": true,
+      "status": "PASS"
+    },
+    {
+      "dataset": "oblique_a3_p1_r0",
+      "spatial_pass": true,
+      "temporal_pass": true,
+      "status": "PASS"
+    },
+    {
+      "dataset": "oblique_a3_p1_r1",
+      "spatial_pass": true,
+      "temporal_pass": true,
+      "status": "PASS"
+    },
+    {
+      "dataset": "oblique_a3_p1_r2",
+      "spatial_pass": true,
+      "temporal_pass": true,
+      "status": "PASS"
+    },
+    {
+      "dataset": "oblique_a3_p2_r0",
+      "spatial_pass": true,
+      "temporal_pass": true,
+      "status": "PASS"
+    },
+    {
+      "dataset": "oblique_a3_p2_r1",
+      "spatial_pass": true,
+      "temporal_pass": true,
+      "status": "PASS"
+    },
+    {
+      "dataset": "oblique_a3_p2_r2",
+      "spatial_pass": true,
+      "temporal_pass": true,
+      "status": "PASS"
+    },
+    {
+      "dataset": "oblique_a3_p3_r0",
+      "spatial_pass": true,
+      "temporal_pass": true,
+      "status": "PASS"
+    },
+    {
+      "dataset": "oblique_a3_p3_r1",
+      "spatial_pass": true,
+      "temporal_pass": true,
+      "status": "PASS"
+    },
+    {
+      "dataset": "oblique_a3_p3_r2",
+      "spatial_pass": true,
+      "temporal_pass": true,
+      "status": "PASS"
+    },
+    {
+      "dataset": "axial_a4",
+      "spatial_pass": true,
+      "temporal_pass": true,
+      "status": "PASS"
+    },
+    {
+      "dataset": "oblique_a4_p0_r0",
+      "spatial_pass": true,
+      "temporal_pass": true,
+      "status": "PASS"
+    },
+    {
+      "dataset": "oblique_a4_p0_r1",
+      "spatial_pass": true,
+      "temporal_pass": true,
+      "status": "PASS"
+    },
+    {
+      "dataset": "oblique_a4_p0_r2",
+      "spatial_pass": true,
+      "temporal_pass": true,
+      "status": "PASS"
+    },
+    {
+      "dataset": "oblique_a4_p1_r0",
+      "spatial_pass": true,
+      "temporal_pass": true,
+      "status": "PASS"
+    },
+    {
+      "dataset": "oblique_a4_p1_r1",
+      "spatial_pass": true,
+      "temporal_pass": true,
+      "status": "PASS"
+    },
+    {
+      "dataset": "oblique_a4_p1_r2",
+      "spatial_pass": true,
+      "temporal_pass": true,
+      "status": "PASS"
+    },
+    {
+      "dataset": "oblique_a4_p2_r0",
+      "spatial_pass": true,
+      "temporal_pass": true,
+      "status": "PASS"
+    },
+    {
+      "dataset": "oblique_a4_p2_r1",
+      "spatial_pass": true,
+      "temporal_pass": true,
+      "status": "PASS"
+    },
+    {
+      "dataset": "oblique_a4_p2_r2",
+      "spatial_pass": true,
+      "temporal_pass": true,
+      "status": "PASS"
+    },
+    {
+      "dataset": "oblique_a4_p3_r0",
+      "spatial_pass": true,
+      "temporal_pass": true,
+      "status": "PASS"
+    },
+    {
+      "dataset": "oblique_a4_p3_r1",
+      "spatial_pass": true,
+      "temporal_pass": true,
+      "status": "PASS"
+    },
+    {
+      "dataset": "oblique_a4_p3_r2",
+      "spatial_pass": true,
+      "temporal_pass": true,
+      "status": "PASS"
+    },
+    {
+      "dataset": "axial_a5",
+      "spatial_pass": true,
+      "temporal_pass": false,
+      "status": "DIAGNOSTIC_NOT_QUALIFIED"
+    },
+    {
+      "dataset": "oblique_a5_p0_r0",
+      "spatial_pass": false,
+      "temporal_pass": false,
+      "status": "DIAGNOSTIC_NOT_QUALIFIED"
+    },
+    {
+      "dataset": "oblique_a5_p0_r1",
+      "spatial_pass": true,
+      "temporal_pass": false,
+      "status": "DIAGNOSTIC_NOT_QUALIFIED"
+    },
+    {
+      "dataset": "oblique_a5_p0_r2",
+      "spatial_pass": false,
+      "temporal_pass": true,
+      "status": "DIAGNOSTIC_NOT_QUALIFIED"
+    },
+    {
+      "dataset": "oblique_a5_p1_r0",
+      "spatial_pass": true,
+      "temporal_pass": false,
+      "status": "DIAGNOSTIC_NOT_QUALIFIED"
+    },
+    {
+      "dataset": "oblique_a5_p1_r1",
+      "spatial_pass": false,
+      "temporal_pass": false,
+      "status": "DIAGNOSTIC_NOT_QUALIFIED"
+    },
+    {
+      "dataset": "oblique_a5_p1_r2",
+      "spatial_pass": false,
+      "temporal_pass": true,
+      "status": "DIAGNOSTIC_NOT_QUALIFIED"
+    },
+    {
+      "dataset": "oblique_a5_p2_r0",
+      "spatial_pass": true,
+      "temporal_pass": false,
+      "status": "DIAGNOSTIC_NOT_QUALIFIED"
+    },
+    {
+      "dataset": "oblique_a5_p2_r1",
+      "spatial_pass": false,
+      "temporal_pass": false,
+      "status": "DIAGNOSTIC_NOT_QUALIFIED"
+    },
+    {
+      "dataset": "oblique_a5_p2_r2",
+      "spatial_pass": false,
+      "temporal_pass": true,
+      "status": "DIAGNOSTIC_NOT_QUALIFIED"
+    },
+    {
+      "dataset": "oblique_a5_p3_r0",
+      "spatial_pass": true,
+      "temporal_pass": false,
+      "status": "DIAGNOSTIC_NOT_QUALIFIED"
+    },
+    {
+      "dataset": "oblique_a5_p3_r1",
+      "spatial_pass": false,
+      "temporal_pass": false,
+      "status": "DIAGNOSTIC_NOT_QUALIFIED"
+    },
+    {
+      "dataset": "oblique_a5_p3_r2",
+      "spatial_pass": false,
+      "temporal_pass": true,
+      "status": "DIAGNOSTIC_NOT_QUALIFIED"
+    }
+  ],
+  "direct_array_rows": [
+    {
+      "dataset": "axial_a5",
+      "original_status": "DIAGNOSTIC_NOT_QUALIFIED",
+      "temporal": {
+        "g": 4.886731375108866e-08,
+        "v": 2.181810572210452e-07
+      },
+      "coarse_half_curvature_tensor_difference": {
+        "6": 4.0703600490132885e-09,
+        "8": 4.070668691014134e-09
+      },
+      "centers": {
+        "_n24": {
+          "binding": {
+            "history": "udt_time_live_production_survey_2026-10-01/production_analysis/axial_a5_n24/histories/axial_a5_n24_window2.npz",
+            "sha256": "d85d0a7b9991d7bdfc042118816e901a0d2d5c11db0743153636996cc1cb8c20",
+            "source_sha256": "2b5892b3a1103c24dc16ea5637f75db807dc42f0e0db2e5804eb95ebaa47783c",
+            "all9_checkpoint_arrays_replayed": true
+          },
+          "shape": [
+            9,
+            24,
+            24,
+            24,
+            4,
+            4
+          ],
+          "time": 2.49,
+          "orders": {
+            "6": {
+              "all_points_max": 4.52458248645371e-09,
+              "common8_max": 3.6070963993495297e-09,
+              "report_all_max_absolute_difference": 3.752553823233029e-14,
+              "report_common_max_absolute_difference": 1.4765966227514582e-14,
+              "argmax": [
+                11,
+                10,
+                8,
+                0,
+                0
+              ]
+            },
+            "8": {
+              "all_points_max": 4.800177588748511e-09,
+              "common8_max": 3.769629497440974e-09,
+              "report_all_max_absolute_difference": 9.64783808399261e-14,
+              "report_common_max_absolute_difference": 2.2870594307278225e-14,
+              "argmax": [
+                11,
+                10,
+                8,
+                0,
+                0
+              ]
+            }
+          },
+          "sixth_eighth_tensor_difference": 2.829798617653978e-10,
+          "saved_v_vs_eighth_metric_time_derivative": 1.1412538469812716e-08
+        },
+        "_n24_half": {
+          "binding": {
+            "history": "udt_time_live_production_survey_2026-10-01/production_analysis/axial_a5_n24_half/histories/axial_a5_n24_half_window2.npz",
+            "sha256": "02813b190afb451d4e62590708c600385ebb066312051c5ec5aa384a44ec5002",
+            "source_sha256": "46c19361e7c8cec197cf56f1250127f175d3b51f81a01bef750aa9e4d4b5b478",
+            "all9_checkpoint_arrays_replayed": true
+          },
+          "shape": [
+            9,
+            24,
+            24,
+            24,
+            4,
+            4
+          ],
+          "time": 2.49,
+          "orders": {
+            "6": {
+              "all_points_max": 1.218959155835364e-09,
+              "common8_max": 1.0170921882490802e-09,
+              "report_all_max_absolute_difference": 1.4876988529977098e-14,
+              "report_common_max_absolute_difference": 1.4432899320127035e-14,
+              "argmax": [
+                4,
+                10,
+                19,
+                0,
+                0
+              ]
+            },
+            "8": {
+              "all_points_max": 1.2968728313467182e-09,
+              "common8_max": 9.525327193671274e-10,
+              "report_all_max_absolute_difference": 2.0317081350640365e-14,
+              "report_common_max_absolute_difference": 4.2521541843143495e-14,
+              "argmax": [
+                4,
+                10,
+                19,
+                0,
+                0
+              ]
+            }
+          },
+          "sixth_eighth_tensor_difference": 2.845057522904426e-10,
+          "saved_v_vs_eighth_metric_time_derivative": 7.173497351686819e-10
+        },
+        "_n32": {
+          "binding": {
+            "history": "udt_time_live_production_survey_2026-10-01/production_analysis/axial_a5_n32/histories/axial_a5_n32_window2.npz",
+            "sha256": "3a0b22ce489d407bcff123185abade7ccfee332547c752306f415f0454351ebb",
+            "source_sha256": "43c20c72b7795154d74a459444c4d5f4fbdd9f83c29cb593cfb9ba3774fa4361",
+            "all9_checkpoint_arrays_replayed": true
+          },
+          "shape": [
+            9,
+            32,
+            32,
+            32,
+            4,
+            4
+          ],
+          "time": 2.49,
+          "orders": {
+            "6": {
+              "all_points_max": 2.622532413454337e-09,
+              "common8_max": 2.477989813343129e-09,
+              "report_all_max_absolute_difference": 3.086420008457935e-14,
+              "report_common_max_absolute_difference": 2.842170943040401e-14,
+              "argmax": [
+                15,
+                14,
+                26,
+                0,
+                0
+              ]
+            },
+            "8": {
+              "all_points_max": 2.909223084657242e-09,
+              "common8_max": 2.6210207337840075e-09,
+              "report_all_max_absolute_difference": 5.77871084317394e-14,
+              "report_common_max_absolute_difference": 7.993605777301127e-15,
+              "argmax": [
+                15,
+                14,
+                26,
+                0,
+                0
+              ]
+            }
+          },
+          "sixth_eighth_tensor_difference": 2.958095990379661e-10,
+          "saved_v_vs_eighth_metric_time_derivative": 7.367333410002175e-10
+        }
+      }
+    },
+    {
+      "dataset": "oblique_a5_p0_r0",
+      "original_status": "DIAGNOSTIC_NOT_QUALIFIED",
+      "temporal": {
+        "g": 3.1845914350014937e-08,
+        "v": 2.1787595727573716e-07
+      },
+      "coarse_half_curvature_tensor_difference": {
+        "6": 1.2348443600984638e-08,
+        "8": 1.2344265165609158e-08
+      },
+      "centers": {
+        "_n24": {
+          "binding": {
+            "history": "udt_time_live_production_survey_2026-10-01/production_analysis/oblique_a5_p0_r0_n24/histories/oblique_a5_p0_r0_n24_window2.npz",
+            "sha256": "d0ecb601a16fe688e81970af8d6fd9dfa52080f88526576e59cce9dc8d8ab568",
+            "source_sha256": "c9ca61c4bef82f62c13d7662c1d921f5eddffd02787e44274a5727013e37afc9",
+            "all9_checkpoint_arrays_replayed": true
+          },
+          "shape": [
+            9,
+            24,
+            24,
+            24,
+            4,
+            4
+          ],
+          "time": 2.49,
+          "orders": {
+            "6": {
+              "all_points_max": 1.2668068327670312e-07,
+              "common8_max": 6.580071953976585e-08,
+              "report_all_max_absolute_difference": 3.5416114485542494e-14,
+              "report_common_max_absolute_difference": 1.837419105754634e-14,
+              "argmax": [
+                13,
+                10,
+                19,
+                0,
+                0
+              ]
+            },
+            "8": {
+              "all_points_max": 1.2663671888901717e-07,
+              "common8_max": 6.588267176255158e-08,
+              "report_all_max_absolute_difference": 4.440892098500626e-16,
+              "report_common_max_absolute_difference": 6.761258219967203e-14,
+              "argmax": [
+                13,
+                10,
+                19,
+                0,
+                0
+              ]
+            }
+          },
+          "sixth_eighth_tensor_difference": 4.165792155674808e-10,
+          "saved_v_vs_eighth_metric_time_derivative": 1.943393357350942e-08
+        },
+        "_n24_half": {
+          "binding": {
+            "history": "udt_time_live_production_survey_2026-10-01/production_analysis/oblique_a5_p0_r0_n24_half/histories/oblique_a5_p0_r0_n24_half_window2.npz",
+            "sha256": "1718d78fe38c13f1609aa82add41d60c0e1d78b2061ede04be652b04ab06b4a4",
+            "source_sha256": "9de6c15e0ad45a0d42ef8fb4a84a77302de4fd66075dc39c682f33b6d8cdf502",
+            "all9_checkpoint_arrays_replayed": true
+          },
+          "shape": [
+            9,
+            24,
+            24,
+            24,
+            4,
+            4
+          ],
+          "time": 2.49,
+          "orders": {
+            "6": {
+              "all_points_max": 1.2386794523422395e-07,
+              "common8_max": 6.304626420927661e-08,
+              "report_all_max_absolute_difference": 2.4202861936828413e-14,
+              "report_common_max_absolute_difference": 5.10702591327572e-14,
+              "argmax": [
+                13,
+                10,
+                19,
+                0,
+                0
+              ]
+            },
+            "8": {
+              "all_points_max": 1.2382488323581242e-07,
+              "common8_max": 6.312586564583e-08,
+              "report_all_max_absolute_difference": 1.3089529460330596e-13,
+              "report_common_max_absolute_difference": 2.525757381022231e-14,
+              "argmax": [
+                13,
+                10,
+                19,
+                0,
+                0
+              ]
+            }
+          },
+          "sixth_eighth_tensor_difference": 4.166600398036735e-10,
+          "saved_v_vs_eighth_metric_time_derivative": 1.2123351211812405e-09
+        },
+        "_n32": {
+          "binding": {
+            "history": "udt_time_live_production_survey_2026-10-01/production_analysis/oblique_a5_p0_r0_n32/histories/oblique_a5_p0_r0_n32_window2.npz",
+            "sha256": "e6c0e9705ae4980df129bb5d528decd1eebf1c9c3732af29ed0fdf4074f878f5",
+            "source_sha256": "3c726e9b6ecb62f016c95bcf620e923a062a48e9dde72c218c66e5c24a6c5547",
+            "all9_checkpoint_arrays_replayed": true
+          },
+          "shape": [
+            9,
+            32,
+            32,
+            32,
+            4,
+            4
+          ],
+          "time": 2.49,
+          "orders": {
+            "6": {
+              "all_points_max": 7.951382219317793e-09,
+              "common8_max": 7.2549237728480875e-09,
+              "report_all_max_absolute_difference": 3.0753177782116836e-14,
+              "report_common_max_absolute_difference": 5.140332604014475e-14,
+              "argmax": [
+                10,
+                5,
+                8,
+                0,
+                0
+              ]
+            },
+            "8": {
+              "all_points_max": 8.07347655396029e-09,
+              "common8_max": 7.542579005814787e-09,
+              "report_all_max_absolute_difference": 2.4147350785597155e-14,
+              "report_common_max_absolute_difference": 5.4067861299245124e-14,
+              "argmax": [
+                10,
+                5,
+                8,
+                0,
+                0
+              ]
+            }
+          },
+          "sixth_eighth_tensor_difference": 4.3379522196573816e-10,
+          "saved_v_vs_eighth_metric_time_derivative": 1.2136354143876815e-09
+        }
+      }
+    },
+    {
+      "dataset": "oblique_a5_p0_r1",
+      "original_status": "DIAGNOSTIC_NOT_QUALIFIED",
+      "temporal": {
+        "g": 2.985255775911355e-08,
+        "v": 2.0288813118440885e-07
+      },
+      "coarse_half_curvature_tensor_difference": {
+        "6": 1.26308763448435e-08,
+        "8": 1.2630375856303999e-08
+      },
+      "centers": {
+        "_n24": {
+          "binding": {
+            "history": "udt_time_live_production_survey_2026-10-01/production_analysis/oblique_a5_p0_r1_n24/histories/oblique_a5_p0_r1_n24_window2.npz",
+            "sha256": "d707e471dc637ce7a0a669a0a3bcf3806541a70fa161c47d522dc41202037757",
+            "source_sha256": "d779b37c4cb86f593763b609e978b28bc1ff1ada79d09619f62b85935f5ef7fe",
+            "all9_checkpoint_arrays_replayed": true
+          },
+          "shape": [
+            9,
+            24,
+            24,
+            24,
+            4,
+            4
+          ],
+          "time": 2.49,
+          "orders": {
+            "6": {
+              "all_points_max": 9.8353611033275e-08,
+              "common8_max": 9.8353611033275e-08,
+              "report_all_max_absolute_difference": 1.27675647831893e-14,
+              "report_common_max_absolute_difference": 1.27675647831893e-14,
+              "argmax": [
+                21,
+                3,
+                15,
+                0,
+                0
+              ]
+            },
+            "8": {
+              "all_points_max": 9.823017421695113e-08,
+              "common8_max": 9.823017421695113e-08,
+              "report_all_max_absolute_difference": 5.395683899678261e-14,
+              "report_common_max_absolute_difference": 5.395683899678261e-14,
+              "argmax": [
+                21,
+                3,
+                15,
+                0,
+                0
+              ]
+            }
+          },
+          "sixth_eighth_tensor_difference": 2.7353053155820817e-10,
+          "saved_v_vs_eighth_metric_time_derivative": 1.6967064198070148e-08
+        },
+        "_n24_half": {
+          "binding": {
+            "history": "udt_time_live_production_survey_2026-10-01/production_analysis/oblique_a5_p0_r1_n24_half/histories/oblique_a5_p0_r1_n24_half_window2.npz",
+            "sha256": "9f5ed7940c430a1f20817f298896f1e79cd7922a1fff6c55a02966b81a86a06e",
+            "source_sha256": "7e35510668137a6fbcc8a9034f90c4e8ae4a6295c07c8f569924fb6919789b56",
+            "all9_checkpoint_arrays_replayed": true
+          },
+          "shape": [
+            9,
+            24,
+            24,
+            24,
+            4,
+            4
+          ],
+          "time": 2.49,
+          "orders": {
+            "6": {
+              "all_points_max": 1.0184766718879246e-07,
+              "common8_max": 1.0184766718879246e-07,
+              "report_all_max_absolute_difference": 1.2434497875801753e-14,
+              "report_common_max_absolute_difference": 1.2434497875801753e-14,
+              "argmax": [
+                21,
+                3,
+                15,
+                0,
+                0
+              ]
+            },
+            "8": {
+              "all_points_max": 1.0172757392012954e-07,
+              "common8_max": 1.0172757392012954e-07,
+              "report_all_max_absolute_difference": 4.75175454539567e-14,
+              "report_common_max_absolute_difference": 4.75175454539567e-14,
+              "argmax": [
+                21,
+                3,
+                15,
+                0,
+                0
+              ]
+            }
+          },
+          "sixth_eighth_tensor_difference": 2.726534553687543e-10,
+          "saved_v_vs_eighth_metric_time_derivative": 1.0625669233377266e-09
+        },
+        "_n32": {
+          "binding": {
+            "history": "udt_time_live_production_survey_2026-10-01/production_analysis/oblique_a5_p0_r1_n32/histories/oblique_a5_p0_r1_n32_window2.npz",
+            "sha256": "b9bf35d04ee60728796ea0e7a4b14e6b7469c10144a7b5743fc2571a077a2b3b",
+            "source_sha256": "8fc27ac206c39e1ae6d8f30ed06355303d6d5d37670cb83a2e22c2be78d0afe2",
+            "all9_checkpoint_arrays_replayed": true
+          },
+          "shape": [
+            9,
+            32,
+            32,
+            32,
+            4,
+            4
+          ],
+          "time": 2.49,
+          "orders": {
+            "6": {
+              "all_points_max": 7.912049682090583e-09,
+              "common8_max": 7.65330998575564e-09,
+              "report_all_max_absolute_difference": 3.68594044175552e-14,
+              "report_common_max_absolute_difference": 4.29101199017623e-14,
+              "argmax": [
+                16,
+                31,
+                15,
+                0,
+                0
+              ]
+            },
+            "8": {
+              "all_points_max": 8.194569467434576e-09,
+              "common8_max": 7.89748444418592e-09,
+              "report_all_max_absolute_difference": 4.057865155004947e-14,
+              "report_common_max_absolute_difference": 5.4511950509095186e-14,
+              "argmax": [
+                16,
+                31,
+                15,
+                0,
+                0
+              ]
+            }
+          },
+          "sixth_eighth_tensor_difference": 2.8251978534399314e-10,
+          "saved_v_vs_eighth_metric_time_derivative": 1.0647411841091525e-09
+        }
+      }
+    },
+    {
+      "dataset": "oblique_a5_p0_r2",
+      "original_status": "DIAGNOSTIC_NOT_QUALIFIED",
+      "temporal": {
+        "g": 2.9321956418471018e-08,
+        "v": 1.7889207981625077e-07
+      },
+      "coarse_half_curvature_tensor_difference": {
+        "6": 1.1291207524521951e-08,
+        "8": 1.1289474688425116e-08
+      },
+      "centers": {
+        "_n24": {
+          "binding": {
+            "history": "udt_time_live_production_survey_2026-10-01/production_analysis/oblique_a5_p0_r2_n24/histories/oblique_a5_p0_r2_n24_window2.npz",
+            "sha256": "730c169d53d2e45eddcd94754acf7f2243fa8112258b735679e37e5d7fac3222",
+            "source_sha256": "5dcdbfb5995046bb8d638a4dcd37b594c816ed5f426a70bd7c8d05bfcd9c318a",
+            "all9_checkpoint_arrays_replayed": true
+          },
+          "shape": [
+            9,
+            24,
+            24,
+            24,
+            4,
+            4
+          ],
+          "time": 2.49,
+          "orders": {
+            "6": {
+              "all_points_max": 9.511806187134653e-08,
+              "common8_max": 5.614467335490758e-08,
+              "report_all_max_absolute_difference": 2.3869795029440866e-14,
+              "report_common_max_absolute_difference": 2.4646951146678475e-14,
+              "argmax": [
+                18,
+                2,
+                16,
+                0,
+                0
+              ]
+            },
+            "8": {
+              "all_points_max": 9.508436260574626e-08,
+              "common8_max": 5.618846277144485e-08,
+              "report_all_max_absolute_difference": 5.162537064506978e-14,
+              "report_common_max_absolute_difference": 1.3766765505351941e-14,
+              "argmax": [
+                18,
+                2,
+                16,
+                0,
+                0
+              ]
+            }
+          },
+          "sixth_eighth_tensor_difference": 2.2276713806945736e-10,
+          "saved_v_vs_eighth_metric_time_derivative": 1.1446473990872619e-08
+        },
+        "_n24_half": {
+          "binding": {
+            "history": "udt_time_live_production_survey_2026-10-01/production_analysis/oblique_a5_p0_r2_n24_half/histories/oblique_a5_p0_r2_n24_half_window2.npz",
+            "sha256": "08aef3d28c0748d213f147da44c6b3bf1fb04b201bdf0df6bed7cd6fde55ac02",
+            "source_sha256": "fca9dab8c8beb61d96fbc25161f791a4709ee7ca28a7c0157f2feb525d612418",
+            "all9_checkpoint_arrays_replayed": true
+          },
+          "shape": [
+            9,
+            24,
+            24,
+            24,
+            4,
+            4
+          ],
+          "time": 2.49,
+          "orders": {
+            "6": {
+              "all_points_max": 9.29779657710128e-08,
+              "common8_max": 5.8143160508450364e-08,
+              "report_all_max_absolute_difference": 2.0317081350640365e-14,
+              "report_common_max_absolute_difference": 4.440892098500626e-16,
+              "argmax": [
+                18,
+                2,
+                16,
+                0,
+                0
+              ]
+            },
+            "8": {
+              "all_points_max": 9.294360747702513e-08,
+              "common8_max": 5.8087060939016055e-08,
+              "report_all_max_absolute_difference": 7.993605777301127e-14,
+              "report_common_max_absolute_difference": 3.8413716652030416e-14,
+              "argmax": [
+                18,
+                2,
+                16,
+                0,
+                0
+              ]
+            }
+          },
+          "sixth_eighth_tensor_difference": 2.2445245662083835e-10,
+          "saved_v_vs_eighth_metric_time_derivative": 7.176623739724164e-10
+        },
+        "_n32": {
+          "binding": {
+            "history": "udt_time_live_production_survey_2026-10-01/production_analysis/oblique_a5_p0_r2_n32/histories/oblique_a5_p0_r2_n32_window2.npz",
+            "sha256": "eb9c96688ba6645711631df7534f9e2cd85743b6977e332dc5f7ddae5e558188",
+            "source_sha256": "4e8c50768e37286187df5317c5b190419c904cd73c1246e717bdac06035041f7",
+            "all9_checkpoint_arrays_replayed": true
+          },
+          "shape": [
+            9,
+            32,
+            32,
+            32,
+            4,
+            4
+          ],
+          "time": 2.49,
+          "orders": {
+            "6": {
+              "all_points_max": 7.630679199621682e-09,
+              "common8_max": 7.352621622658262e-09,
+              "report_all_max_absolute_difference": 4.218847493575595e-15,
+              "report_common_max_absolute_difference": 5.295763827461997e-14,
+              "argmax": [
+                16,
+                31,
+                15,
+                0,
+                0
+              ]
+            },
+            "8": {
+              "all_points_max": 7.852806405139745e-09,
+              "common8_max": 7.531895995782634e-09,
+              "report_all_max_absolute_difference": 3.6637359812630166e-15,
+              "report_common_max_absolute_difference": 9.836575998178887e-14,
+              "argmax": [
+                16,
+                31,
+                15,
+                0,
+                0
+              ]
+            }
+          },
+          "sixth_eighth_tensor_difference": 2.2212720551806342e-10,
+          "saved_v_vs_eighth_metric_time_derivative": 7.198224238891271e-10
+        }
+      }
+    },
+    {
+      "dataset": "oblique_a5_p1_r0",
+      "original_status": "DIAGNOSTIC_NOT_QUALIFIED",
+      "temporal": {
+        "g": 3.19209476629112e-08,
+        "v": 2.1953980677835716e-07
+      },
+      "coarse_half_curvature_tensor_difference": {
+        "6": 1.2577471508734561e-08,
+        "8": 1.2576509611506026e-08
+      },
+      "centers": {
+        "_n24": {
+          "binding": {
+            "history": "udt_time_live_production_survey_2026-10-01/production_analysis/oblique_a5_p1_r0_n24/histories/oblique_a5_p1_r0_n24_window2.npz",
+            "sha256": "b1c90132b10d8e12be1e8de462dfacd0bf50f1c11041c3be721a157b33896846",
+            "source_sha256": "6496da68b4ce473070f295f263180b3c57b02aca145e73aaf5bf7e804a82583e",
+            "all9_checkpoint_arrays_replayed": true
+          },
+          "shape": [
+            9,
+            24,
+            24,
+            24,
+            4,
+            4
+          ],
+          "time": 2.49,
+          "orders": {
+            "6": {
+              "all_points_max": 1.086091119262278e-07,
+              "common8_max": 1.086091119262278e-07,
+              "report_all_max_absolute_difference": 4.873879078104437e-14,
+              "report_common_max_absolute_difference": 4.873879078104437e-14,
+              "argmax": [
+                12,
+                9,
+                18,
+                0,
+                0
+              ]
+            },
+            "8": {
+              "all_points_max": 1.086625420754217e-07,
+              "common8_max": 1.086625420754217e-07,
+              "report_all_max_absolute_difference": 1.765254609153999e-14,
+              "report_common_max_absolute_difference": 1.765254609153999e-14,
+              "argmax": [
+                12,
+                9,
+                18,
+                0,
+                0
+              ]
+            }
+          },
+          "sixth_eighth_tensor_difference": 4.0956926738999755e-10,
+          "saved_v_vs_eighth_metric_time_derivative": 1.9105300452793017e-08
+        },
+        "_n24_half": {
+          "binding": {
+            "history": "udt_time_live_production_survey_2026-10-01/production_analysis/oblique_a5_p1_r0_n24_half/histories/oblique_a5_p1_r0_n24_half_window2.npz",
+            "sha256": "caf83bd5181e0f0ee3afb0d89c8b8db8638aa1a1bb184429e34187cc3ca3847d",
+            "source_sha256": "af08c2c2043c882dd345552fbe477ccede20f7ff531aa6393c41b94ce7f449ef",
+            "all9_checkpoint_arrays_replayed": true
+          },
+          "shape": [
+            9,
+            24,
+            24,
+            24,
+            4,
+            4
+          ],
+          "time": 2.49,
+          "orders": {
+            "6": {
+              "all_points_max": 1.054966163316351e-07,
+              "common8_max": 1.054966163316351e-07,
+              "report_all_max_absolute_difference": 3.042011087472929e-14,
+              "report_common_max_absolute_difference": 3.042011087472929e-14,
+              "argmax": [
+                12,
+                9,
+                18,
+                0,
+                0
+              ]
+            },
+            "8": {
+              "all_points_max": 1.055497533819505e-07,
+              "common8_max": 1.055497533819505e-07,
+              "report_all_max_absolute_difference": 6.439293542825908e-15,
+              "report_common_max_absolute_difference": 6.439293542825908e-15,
+              "argmax": [
+                12,
+                9,
+                18,
+                0,
+                0
+              ]
+            }
+          },
+          "sixth_eighth_tensor_difference": 4.093703154239847e-10,
+          "saved_v_vs_eighth_metric_time_derivative": 1.192951515349705e-09
+        },
+        "_n32": {
+          "binding": {
+            "history": "udt_time_live_production_survey_2026-10-01/production_analysis/oblique_a5_p1_r0_n32/histories/oblique_a5_p1_r0_n32_window2.npz",
+            "sha256": "896710e1baec8cb2060cefbdd04267d2313f6f1434282a208ea8e05e75b654f8",
+            "source_sha256": "e54fbef636f3b86031ebb1fa7ed21638ec31f169931828a052481d2c456d46c5",
+            "all9_checkpoint_arrays_replayed": true
+          },
+          "shape": [
+            9,
+            32,
+            32,
+            32,
+            4,
+            4
+          ],
+          "time": 2.49,
+          "orders": {
+            "6": {
+              "all_points_max": 7.929881640222902e-09,
+              "common8_max": 6.993472911887011e-09,
+              "report_all_max_absolute_difference": 2.989275493803234e-14,
+              "report_common_max_absolute_difference": 4.846123502488808e-14,
+              "argmax": [
+                9,
+                6,
+                8,
+                0,
+                0
+              ]
+            },
+            "8": {
+              "all_points_max": 8.052216227127929e-09,
+              "common8_max": 7.2482895241421375e-09,
+              "report_all_max_absolute_difference": 5.0737192225369654e-14,
+              "report_common_max_absolute_difference": 1.067479438177088e-13,
+              "argmax": [
+                9,
+                6,
+                8,
+                0,
+                0
+              ]
+            }
+          },
+          "sixth_eighth_tensor_difference": 4.383871043955878e-10,
+          "saved_v_vs_eighth_metric_time_derivative": 1.2099832247258746e-09
+        }
+      }
+    },
+    {
+      "dataset": "oblique_a5_p1_r1",
+      "original_status": "DIAGNOSTIC_NOT_QUALIFIED",
+      "temporal": {
+        "g": 2.9809392287916125e-08,
+        "v": 2.0388071675370156e-07
+      },
+      "coarse_half_curvature_tensor_difference": {
+        "6": 1.2771556701096642e-08,
+        "8": 1.2773363700091522e-08
+      },
+      "centers": {
+        "_n24": {
+          "binding": {
+            "history": "udt_time_live_production_survey_2026-10-01/production_analysis/oblique_a5_p1_r1_n24/histories/oblique_a5_p1_r1_n24_window2.npz",
+            "sha256": "6d2fa9de1b368ae7742c538a33a992d46c90d63bde7bee8c77b80b0a9d72af7f",
+            "source_sha256": "1e808049f30ff2e3334326ac9393e4b7afff16aae7f0e6450f4266c020122712",
+            "all9_checkpoint_arrays_replayed": true
+          },
+          "shape": [
+            9,
+            24,
+            24,
+            24,
+            4,
+            4
+          ],
+          "time": 2.49,
+          "orders": {
+            "6": {
+              "all_points_max": 8.701120313148181e-08,
+              "common8_max": 6.062916746429892e-08,
+              "report_all_max_absolute_difference": 6.827871601444713e-15,
+              "report_common_max_absolute_difference": 2.55351295663786e-14,
+              "argmax": [
+                15,
+                6,
+                20,
+                0,
+                0
+              ]
+            },
+            "8": {
+              "all_points_max": 8.703382015085026e-08,
+              "common8_max": 6.05671974795996e-08,
+              "report_all_max_absolute_difference": 1.3822276656583199e-14,
+              "report_common_max_absolute_difference": 1.3278267374516872e-13,
+              "argmax": [
+                15,
+                6,
+                20,
+                0,
+                0
+              ]
+            }
+          },
+          "sixth_eighth_tensor_difference": 2.819136035725478e-10,
+          "saved_v_vs_eighth_metric_time_derivative": 1.6941598346420506e-08
+        },
+        "_n24_half": {
+          "binding": {
+            "history": "udt_time_live_production_survey_2026-10-01/production_analysis/oblique_a5_p1_r1_n24_half/histories/oblique_a5_p1_r1_n24_half_window2.npz",
+            "sha256": "9ea40a92b3d8e99154cd8a78948d2a724d08bde149b60b45fa25bab99f3ecdcc",
+            "source_sha256": "bc87c9a14485a9f4e34cb3c72973d27b8e5182a1aa00accccbeb5e54ed87dc20",
+            "all9_checkpoint_arrays_replayed": true
+          },
+          "shape": [
+            9,
+            24,
+            24,
+            24,
+            4,
+            4
+          ],
+          "time": 2.49,
+          "orders": {
+            "6": {
+              "all_points_max": 9.002620737774691e-08,
+              "common8_max": 5.936134028772244e-08,
+              "report_all_max_absolute_difference": 6.827871601444713e-15,
+              "report_common_max_absolute_difference": 3.552713678800501e-14,
+              "argmax": [
+                15,
+                6,
+                20,
+                0,
+                0
+              ]
+            },
+            "8": {
+              "all_points_max": 9.00500971567908e-08,
+              "common8_max": 5.930076740767731e-08,
+              "report_all_max_absolute_difference": 1.6542323066914832e-14,
+              "report_common_max_absolute_difference": 6.084022174945858e-14,
+              "argmax": [
+                15,
+                6,
+                20,
+                0,
+                0
+              ]
+            }
+          },
+          "sixth_eighth_tensor_difference": 2.801066045776679e-10,
+          "saved_v_vs_eighth_metric_time_derivative": 1.0608118827803992e-09
+        },
+        "_n32": {
+          "binding": {
+            "history": "udt_time_live_production_survey_2026-10-01/production_analysis/oblique_a5_p1_r1_n32/histories/oblique_a5_p1_r1_n32_window2.npz",
+            "sha256": "d4f68e1af4f8430856e51d07c9e4cea7eeb76406a22e292854ee34da867d83a1",
+            "source_sha256": "fc47207d4dc0c01fb2e829a21d682fabdc314ffb0874b523a1243f456c27abb0",
+            "all9_checkpoint_arrays_replayed": true
+          },
+          "shape": [
+            9,
+            32,
+            32,
+            32,
+            4,
+            4
+          ],
+          "time": 2.49,
+          "orders": {
+            "6": {
+              "all_points_max": 7.9143092079903e-09,
+              "common8_max": 7.3918524634564164e-09,
+              "report_all_max_absolute_difference": 2.5868196473766147e-14,
+              "report_common_max_absolute_difference": 2.858824288409778e-14,
+              "argmax": [
+                3,
+                12,
+                1,
+                0,
+                0
+              ]
+            },
+            "8": {
+              "all_points_max": 8.195365719387837e-09,
+              "common8_max": 7.634274989953838e-09,
+              "report_all_max_absolute_difference": 4.951594689828198e-14,
+              "report_common_max_absolute_difference": 3.774758283725532e-15,
+              "argmax": [
+                3,
+                12,
+                1,
+                0,
+                0
+              ]
+            }
+          },
+          "sixth_eighth_tensor_difference": 2.810565113975372e-10,
+          "saved_v_vs_eighth_metric_time_derivative": 1.0609468859001936e-09
+        }
+      }
+    },
+    {
+      "dataset": "oblique_a5_p1_r2",
+      "original_status": "DIAGNOSTIC_NOT_QUALIFIED",
+      "temporal": {
+        "g": 2.9323320660523677e-08,
+        "v": 1.7886981140691205e-07
+      },
+      "coarse_half_curvature_tensor_difference": {
+        "6": 1.1506973152108912e-08,
+        "8": 1.1509956987509895e-08
+      },
+      "centers": {
+        "_n24": {
+          "binding": {
+            "history": "udt_time_live_production_survey_2026-10-01/production_analysis/oblique_a5_p1_r2_n24/histories/oblique_a5_p1_r2_n24_window2.npz",
+            "sha256": "e3bb04c2e824fa487ba6b0567f52be33103819d7c9eb7bada4177f858f4590c7",
+            "source_sha256": "ea9f0af2218e3339f5f8b5af57441c11f5676025ee0cce77ca10dc0f83b63e52",
+            "all9_checkpoint_arrays_replayed": true
+          },
+          "shape": [
+            9,
+            24,
+            24,
+            24,
+            4,
+            4
+          ],
+          "time": 2.49,
+          "orders": {
+            "6": {
+              "all_points_max": 8.425254804933502e-08,
+              "common8_max": 5.933403013358429e-08,
+              "report_all_max_absolute_difference": 5.88418203051333e-15,
+              "report_common_max_absolute_difference": 9.492406860545088e-15,
+              "argmax": [
+                12,
+                5,
+                19,
+                0,
+                0
+              ]
+            },
+            "8": {
+              "all_points_max": 8.428710662755634e-08,
+              "common8_max": 5.9376493943830155e-08,
+              "report_all_max_absolute_difference": 2.581268532253489e-14,
+              "report_common_max_absolute_difference": 6.245004513516506e-14,
+              "argmax": [
+                12,
+                5,
+                19,
+                0,
+                0
+              ]
+            }
+          },
+          "sixth_eighth_tensor_difference": 2.216853367542626e-10,
+          "saved_v_vs_eighth_metric_time_derivative": 1.1539334821009106e-08
+        },
+        "_n24_half": {
+          "binding": {
+            "history": "udt_time_live_production_survey_2026-10-01/production_analysis/oblique_a5_p1_r2_n24_half/histories/oblique_a5_p1_r2_n24_half_window2.npz",
+            "sha256": "668bd36ab47fec2ca837299dc1736ec422148cc739478d7fd115ee672dbdbb0f",
+            "source_sha256": "30d9465f87d9e21a29d2eeebf0ebe7e40405a7ceedf307f38872f7109d7475c9",
+            "all9_checkpoint_arrays_replayed": true
+          },
+          "shape": [
+            9,
+            24,
+            24,
+            24,
+            4,
+            4
+          ],
+          "time": 2.49,
+          "orders": {
+            "6": {
+              "all_points_max": 8.512626159529191e-08,
+              "common8_max": 5.62832336292729e-08,
+              "report_all_max_absolute_difference": 1.2712053631958042e-14,
+              "report_common_max_absolute_difference": 1.942890293094024e-14,
+              "argmax": [
+                12,
+                4,
+                18,
+                0,
+                0
+              ]
+            },
+            "8": {
+              "all_points_max": 8.505195481234296e-08,
+              "common8_max": 5.6229372269456235e-08,
+              "report_all_max_absolute_difference": 4.007905118896815e-14,
+              "report_common_max_absolute_difference": 4.0523140398818214e-14,
+              "argmax": [
+                12,
+                4,
+                18,
+                0,
+                0
+              ]
+            }
+          },
+          "sixth_eighth_tensor_difference": 2.1870150135328004e-10,
+          "saved_v_vs_eighth_metric_time_derivative": 7.237943577820261e-10
+        },
+        "_n32": {
+          "binding": {
+            "history": "udt_time_live_production_survey_2026-10-01/production_analysis/oblique_a5_p1_r2_n32/histories/oblique_a5_p1_r2_n32_window2.npz",
+            "sha256": "7836cf2187777e6dab058ce9c757bbba80129d26d69ce2f081e1ca26ffe3a6fe",
+            "source_sha256": "e046665171ca8cf1d0e5f8457d0e159d5d9e8aada317a5474466f5e6fa0401ff",
+            "all9_checkpoint_arrays_replayed": true
+          },
+          "shape": [
+            9,
+            32,
+            32,
+            32,
+            4,
+            4
+          ],
+          "time": 2.49,
+          "orders": {
+            "6": {
+              "all_points_max": 7.729005435663794e-09,
+              "common8_max": 7.353907260920778e-09,
+              "report_all_max_absolute_difference": 1.3655743202889425e-14,
+              "report_common_max_absolute_difference": 2.353672812205332e-14,
+              "argmax": [
+                3,
+                12,
+                1,
+                0,
+                0
+              ]
+            },
+            "8": {
+              "all_points_max": 7.953590230869167e-09,
+              "common8_max": 7.566287152371842e-09,
+              "report_all_max_absolute_difference": 3.930189507173054e-14,
+              "report_common_max_absolute_difference": 2.9976021664879227e-15,
+              "argmax": [
+                3,
+                12,
+                1,
+                0,
+                0
+              ]
+            }
+          },
+          "sixth_eighth_tensor_difference": 2.2458479520537367e-10,
+          "saved_v_vs_eighth_metric_time_derivative": 7.174065785875428e-10
+        }
+      }
+    },
+    {
+      "dataset": "oblique_a5_p2_r0",
+      "original_status": "DIAGNOSTIC_NOT_QUALIFIED",
+      "temporal": {
+        "g": 3.244038282446127e-08,
+        "v": 2.2069029625981784e-07
+      },
+      "coarse_half_curvature_tensor_difference": {
+        "6": 1.2798395232493931e-08,
+        "8": 1.2801934623496436e-08
+      },
+      "centers": {
+        "_n24": {
+          "binding": {
+            "history": "udt_time_live_production_survey_2026-10-01/production_analysis/oblique_a5_p2_r0_n24/histories/oblique_a5_p2_r0_n24_window2.npz",
+            "sha256": "d8d2f83b117df29feb20b3e6d146246ffd27c2b371b0c4b4f60206f7be6e47a6",
+            "source_sha256": "82e6dc6b80c645ddc97188a73ee51af0e4019d21014bfde208bebcc0bd2c82e4",
+            "all9_checkpoint_arrays_replayed": true
+          },
+          "shape": [
+            9,
+            24,
+            24,
+            24,
+            4,
+            4
+          ],
+          "time": 2.49,
+          "orders": {
+            "6": {
+              "all_points_max": 1.1206069983060729e-07,
+              "common8_max": 1.0767024960500748e-07,
+              "report_all_max_absolute_difference": 9.18709552877317e-15,
+              "report_common_max_absolute_difference": 3.391731340229853e-14,
+              "argmax": [
+                12,
+                23,
+                18,
+                0,
+                0
+              ]
+            },
+            "8": {
+              "all_points_max": 1.1207958339198854e-07,
+              "common8_max": 1.0766384628269066e-07,
+              "report_all_max_absolute_difference": 5.312417172831374e-14,
+              "report_common_max_absolute_difference": 1.482147737874584e-14,
+              "argmax": [
+                12,
+                23,
+                18,
+                0,
+                0
+              ]
+            }
+          },
+          "sixth_eighth_tensor_difference": 4.0820768987259726e-10,
+          "saved_v_vs_eighth_metric_time_derivative": 1.9399969630740088e-08
+        },
+        "_n24_half": {
+          "binding": {
+            "history": "udt_time_live_production_survey_2026-10-01/production_analysis/oblique_a5_p2_r0_n24_half/histories/oblique_a5_p2_r0_n24_half_window2.npz",
+            "sha256": "e5c81ce0a370e9abffeb840c540a24812558587307a1e3d1a9da271c871c000c",
+            "source_sha256": "44b031375875e641e7246a7a9e4046c51c92706345ee5b395a9d78169fa0407c",
+            "all9_checkpoint_arrays_replayed": true
+          },
+          "shape": [
+            9,
+            24,
+            24,
+            24,
+            4,
+            4
+          ],
+          "time": 2.49,
+          "orders": {
+            "6": {
+              "all_points_max": 1.108197200672123e-07,
+              "common8_max": 1.108197200672123e-07,
+              "report_all_max_absolute_difference": 2.6645352591003757e-15,
+              "report_common_max_absolute_difference": 2.6645352591003757e-15,
+              "argmax": [
+                12,
+                12,
+                18,
+                0,
+                0
+              ]
+            },
+            "8": {
+              "all_points_max": 1.1091601059831646e-07,
+              "common8_max": 1.1091601059831646e-07,
+              "report_all_max_absolute_difference": 1.4277468096679513e-13,
+              "report_common_max_absolute_difference": 1.4277468096679513e-13,
+              "argmax": [
+                12,
+                12,
+                18,
+                0,
+                0
+              ]
+            }
+          },
+          "sixth_eighth_tensor_difference": 4.054387936491821e-10,
+          "saved_v_vs_eighth_metric_time_derivative": 1.2114114156247524e-09
+        },
+        "_n32": {
+          "binding": {
+            "history": "udt_time_live_production_survey_2026-10-01/production_analysis/oblique_a5_p2_r0_n32/histories/oblique_a5_p2_r0_n32_window2.npz",
+            "sha256": "d407e231d346ab1f0a88aa46f2008c5cc72db9be97bbda18ba183a41f9a6fe1a",
+            "source_sha256": "f7a4e8c86d8300ae88b2d4b7c25670fde50fe4b35de0d605b9d1d216c0359c07",
+            "all9_checkpoint_arrays_replayed": true
+          },
+          "shape": [
+            9,
+            32,
+            32,
+            32,
+            4,
+            4
+          ],
+          "time": 2.49,
+          "orders": {
+            "6": {
+              "all_points_max": 7.803678148121662e-09,
+              "common8_max": 7.55041806854706e-09,
+              "report_all_max_absolute_difference": 2.8449465006019636e-14,
+              "report_common_max_absolute_difference": 2.6922908347160046e-14,
+              "argmax": [
+                8,
+                7,
+                8,
+                0,
+                0
+              ]
+            },
+            "8": {
+              "all_points_max": 8.076741941920318e-09,
+              "common8_max": 7.656180578408112e-09,
+              "report_all_max_absolute_difference": 3.3861802251067274e-15,
+              "report_common_max_absolute_difference": 1.1463052729254741e-14,
+              "argmax": [
+                2,
+                13,
+                1,
+                0,
+                0
+              ]
+            }
+          },
+          "sixth_eighth_tensor_difference": 4.128475339371107e-10,
+          "saved_v_vs_eighth_metric_time_derivative": 1.2098908541702258e-09
+        }
+      }
+    },
+    {
+      "dataset": "oblique_a5_p2_r1",
+      "original_status": "DIAGNOSTIC_NOT_QUALIFIED",
+      "temporal": {
+        "g": 3.0065383072042096e-08,
+        "v": 2.0554998059196805e-07
+      },
+      "coarse_half_curvature_tensor_difference": {
+        "6": 1.3137878340785392e-08,
+        "8": 1.3139575649745439e-08
+      },
+      "centers": {
+        "_n24": {
+          "binding": {
+            "history": "udt_time_live_production_survey_2026-10-01/production_analysis/oblique_a5_p2_r1_n24/histories/oblique_a5_p2_r1_n24_window2.npz",
+            "sha256": "9ab0a25eb8ef7b3468a50d5d6c48dc1fd47f80a0a73e99887ebe667d46c3ae82",
+            "source_sha256": "98ecaf06f132a982ff27eae98c6d119aa1c52e7605f90575119c75fd98aa1661",
+            "all9_checkpoint_arrays_replayed": true
+          },
+          "shape": [
+            9,
+            24,
+            24,
+            24,
+            4,
+            4
+          ],
+          "time": 2.49,
+          "orders": {
+            "6": {
+              "all_points_max": 1.0069035116799796e-07,
+              "common8_max": 5.696424887347007e-08,
+              "report_all_max_absolute_difference": 2.7422508708241367e-14,
+              "report_common_max_absolute_difference": 1.9872992140790302e-14,
+              "argmax": [
+                18,
+                7,
+                19,
+                0,
+                0
+              ]
+            },
+            "8": {
+              "all_points_max": 1.0081153600793868e-07,
+              "common8_max": 5.684002823969081e-08,
+              "report_all_max_absolute_difference": 1.0935696792557792e-13,
+              "report_common_max_absolute_difference": 2.3092638912203256e-14,
+              "argmax": [
+                18,
+                7,
+                19,
+                0,
+                0
+              ]
+            }
+          },
+          "sixth_eighth_tensor_difference": 2.8815794195224953e-10,
+          "saved_v_vs_eighth_metric_time_derivative": 1.693548767889297e-08
+        },
+        "_n24_half": {
+          "binding": {
+            "history": "udt_time_live_production_survey_2026-10-01/production_analysis/oblique_a5_p2_r1_n24_half/histories/oblique_a5_p2_r1_n24_half_window2.npz",
+            "sha256": "841172549d0519e848f78ab7200a764eff65e321c3ccbe22a7ad7b38c952db97",
+            "source_sha256": "15f32b76cf3d0b03a43490a2e803c11bd9a9cf9aed675d5ac86cf8dd69e1f730",
+            "all9_checkpoint_arrays_replayed": true
+          },
+          "shape": [
+            9,
+            24,
+            24,
+            24,
+            4,
+            4
+          ],
+          "time": 2.49,
+          "orders": {
+            "6": {
+              "all_points_max": 9.690666624706523e-08,
+              "common8_max": 6.104199767875684e-08,
+              "report_all_max_absolute_difference": 3.552713678800501e-15,
+              "report_common_max_absolute_difference": 8.93729534823251e-15,
+              "argmax": [
+                18,
+                7,
+                19,
+                0,
+                0
+              ]
+            },
+            "8": {
+              "all_points_max": 9.702811087919372e-08,
+              "common8_max": 6.091730853086119e-08,
+              "report_all_max_absolute_difference": 6.006306563222097e-14,
+              "report_common_max_absolute_difference": 1.04638520070921e-13,
+              "argmax": [
+                18,
+                7,
+                19,
+                0,
+                0
+              ]
+            }
+          },
+          "sixth_eighth_tensor_difference": 2.8717694888769074e-10,
+          "saved_v_vs_eighth_metric_time_derivative": 1.0616219014991657e-09
+        },
+        "_n32": {
+          "binding": {
+            "history": "udt_time_live_production_survey_2026-10-01/production_analysis/oblique_a5_p2_r1_n32/histories/oblique_a5_p2_r1_n32_window2.npz",
+            "sha256": "e6052b04a6a0cab46598582207c7483a3c53b21512fc7cb1a56841832d0263f7",
+            "source_sha256": "3ff072b10d242a18a46d442c7ce7ca88f259e8d0fee97eb2a8c8c45252e20013",
+            "all9_checkpoint_arrays_replayed": true
+          },
+          "shape": [
+            9,
+            32,
+            32,
+            32,
+            4,
+            4
+          ],
+          "time": 2.49,
+          "orders": {
+            "6": {
+              "all_points_max": 8.212390767425859e-09,
+              "common8_max": 7.06438152420219e-09,
+              "report_all_max_absolute_difference": 4.551914400963142e-14,
+              "report_common_max_absolute_difference": 4.8128168117500536e-14,
+              "argmax": [
+                2,
+                13,
+                1,
+                0,
+                0
+              ]
+            },
+            "8": {
+              "all_points_max": 8.51019876790815e-09,
+              "common8_max": 7.256651279874404e-09,
+              "report_all_max_absolute_difference": 3.0753177782116836e-14,
+              "report_common_max_absolute_difference": 3.8191672047105385e-14,
+              "argmax": [
+                2,
+                13,
+                1,
+                0,
+                0
+              ]
+            }
+          },
+          "sixth_eighth_tensor_difference": 2.978080004822914e-10,
+          "saved_v_vs_eighth_metric_time_derivative": 1.0660983207344543e-09
+        }
+      }
+    },
+    {
+      "dataset": "oblique_a5_p2_r2",
+      "original_status": "DIAGNOSTIC_NOT_QUALIFIED",
+      "temporal": {
+        "g": 2.9557398306678806e-08,
+        "v": 1.819235819766618e-07
+      },
+      "coarse_half_curvature_tensor_difference": {
+        "6": 1.2146494476894532e-08,
+        "8": 1.2145748851111193e-08
+      },
+      "centers": {
+        "_n24": {
+          "binding": {
+            "history": "udt_time_live_production_survey_2026-10-01/production_analysis/oblique_a5_p2_r2_n24/histories/oblique_a5_p2_r2_n24_window2.npz",
+            "sha256": "a10957ee7368ee7f9b1030ca63fed9facf4b7a5b42385b787d9a58774a5ba66e",
+            "source_sha256": "70930f782204e86304d43352413100b56db434abedeae891fa96e79b586d8f91",
+            "all9_checkpoint_arrays_replayed": true
+          },
+          "shape": [
+            9,
+            24,
+            24,
+            24,
+            4,
+            4
+          ],
+          "time": 2.49,
+          "orders": {
+            "6": {
+              "all_points_max": 8.765389392095813e-08,
+              "common8_max": 6.442386757399277e-08,
+              "report_all_max_absolute_difference": 2.4868995751603507e-14,
+              "report_common_max_absolute_difference": 5.662137425588298e-15,
+              "argmax": [
+                21,
+                6,
+                20,
+                0,
+                0
+              ]
+            },
+            "8": {
+              "all_points_max": 8.770673920466265e-08,
+              "common8_max": 6.444883515754896e-08,
+              "report_all_max_absolute_difference": 7.982503547054876e-14,
+              "report_common_max_absolute_difference": 7.494005416219807e-15,
+              "argmax": [
+                21,
+                6,
+                20,
+                0,
+                0
+              ]
+            }
+          },
+          "sixth_eighth_tensor_difference": 2.2583357406347204e-10,
+          "saved_v_vs_eighth_metric_time_derivative": 1.178998587647584e-08
+        },
+        "_n24_half": {
+          "binding": {
+            "history": "udt_time_live_production_survey_2026-10-01/production_analysis/oblique_a5_p2_r2_n24_half/histories/oblique_a5_p2_r2_n24_half_window2.npz",
+            "sha256": "bc98365f03c9dd900b62ea77bf80cf21e04722ce46097b9a8242b70cef3966c1",
+            "source_sha256": "3f192ce0de6e53f23cb7ab3340dff32efdc027478decfb0c8d160882c6a31d76",
+            "all9_checkpoint_arrays_replayed": true
+          },
+          "shape": [
+            9,
+            24,
+            24,
+            24,
+            4,
+            4
+          ],
+          "time": 2.49,
+          "orders": {
+            "6": {
+              "all_points_max": 8.684803320946344e-08,
+              "common8_max": 6.174638667033605e-08,
+              "report_all_max_absolute_difference": 3.452793606584237e-14,
+              "report_common_max_absolute_difference": 2.475797344914099e-14,
+              "argmax": [
+                21,
+                6,
+                20,
+                0,
+                0
+              ]
+            },
+            "8": {
+              "all_points_max": 8.690281916301501e-08,
+              "common8_max": 6.176966049764587e-08,
+              "report_all_max_absolute_difference": 4.7406523151494184e-14,
+              "report_common_max_absolute_difference": 2.7255975254547593e-14,
+              "argmax": [
+                21,
+                6,
+                20,
+                0,
+                0
+              ]
+            }
+          },
+          "sixth_eighth_tensor_difference": 2.2500357133026228e-10,
+          "saved_v_vs_eighth_metric_time_derivative": 7.402576329695876e-10
+        },
+        "_n32": {
+          "binding": {
+            "history": "udt_time_live_production_survey_2026-10-01/production_analysis/oblique_a5_p2_r2_n32/histories/oblique_a5_p2_r2_n32_window2.npz",
+            "sha256": "f2050eb1d905996af554dd9969197e3a4356fea4cdd113a0738d7ec4a701118a",
+            "source_sha256": "ac67c5bd68b2acc97148e9b9afd352c76f08079c45acb78c41b0221230a66a23",
+            "all9_checkpoint_arrays_replayed": true
+          },
+          "shape": [
+            9,
+            32,
+            32,
+            32,
+            4,
+            4
+          ],
+          "time": 2.49,
+          "orders": {
+            "6": {
+              "all_points_max": 7.969773729854523e-09,
+              "common8_max": 6.90559831539872e-09,
+              "report_all_max_absolute_difference": 7.216449660063518e-15,
+              "report_common_max_absolute_difference": 2.5868196473766147e-14,
+              "argmax": [
+                2,
+                13,
+                1,
+                0,
+                0
+              ]
+            },
+            "8": {
+              "all_points_max": 8.198315804008871e-09,
+              "common8_max": 7.07477676442636e-09,
+              "report_all_max_absolute_difference": 1.609823385706477e-14,
+              "report_common_max_absolute_difference": 1.9206858326015208e-14,
+              "argmax": [
+                2,
+                13,
+                1,
+                0,
+                0
+              ]
+            }
+          },
+          "sixth_eighth_tensor_difference": 2.2854207415434757e-10,
+          "saved_v_vs_eighth_metric_time_derivative": 7.466951501555741e-10
+        }
+      }
+    },
+    {
+      "dataset": "oblique_a5_p3_r0",
+      "original_status": "DIAGNOSTIC_NOT_QUALIFIED",
+      "temporal": {
+        "g": 3.27496714191966e-08,
+        "v": 2.2446651826157904e-07
+      },
+      "coarse_half_curvature_tensor_difference": {
+        "6": 1.302805774372473e-08,
+        "8": 1.3030780898759531e-08
+      },
+      "centers": {
+        "_n24": {
+          "binding": {
+            "history": "udt_time_live_production_survey_2026-10-01/production_analysis/oblique_a5_p3_r0_n24/histories/oblique_a5_p3_r0_n24_window2.npz",
+            "sha256": "b319adc06d4f80c0b0171a2488a1e2efc1a99c08636caba0992d125fea0abb89",
+            "source_sha256": "12eba6bce9794790b5fa9c18b64b7fa468630be5ff44a4022d210f6ecb96379c",
+            "all9_checkpoint_arrays_replayed": true
+          },
+          "shape": [
+            9,
+            24,
+            24,
+            24,
+            4,
+            4
+          ],
+          "time": 2.49,
+          "orders": {
+            "6": {
+              "all_points_max": 1.2278017536004882e-07,
+              "common8_max": 8.143936192084311e-08,
+              "report_all_max_absolute_difference": 2.1094237467877974e-14,
+              "report_common_max_absolute_difference": 6.727951529228449e-14,
+              "argmax": [
+                11,
+                12,
+                17,
+                0,
+                0
+              ]
+            },
+            "8": {
+              "all_points_max": 1.227504911049948e-07,
+              "common8_max": 8.135959816968352e-08,
+              "report_all_max_absolute_difference": 1.3766765505351941e-14,
+              "report_common_max_absolute_difference": 3.907985046680551e-14,
+              "argmax": [
+                11,
+                12,
+                17,
+                0,
+                0
+              ]
+            }
+          },
+          "sixth_eighth_tensor_difference": 3.698148454134298e-10,
+          "saved_v_vs_eighth_metric_time_derivative": 1.84514377110645e-08
+        },
+        "_n24_half": {
+          "binding": {
+            "history": "udt_time_live_production_survey_2026-10-01/production_analysis/oblique_a5_p3_r0_n24_half/histories/oblique_a5_p3_r0_n24_half_window2.npz",
+            "sha256": "72c8af6622d53a2ec6bd98328eab55a134551d94a0ff4dc598ea7295909f7796",
+            "source_sha256": "7eac68699d0c0d94f20e36127fdfa82f6d9a33ee8ba3c78e896440ae20318894",
+            "all9_checkpoint_arrays_replayed": true
+          },
+          "shape": [
+            9,
+            24,
+            24,
+            24,
+            4,
+            4
+          ],
+          "time": 2.49,
+          "orders": {
+            "6": {
+              "all_points_max": 1.1736010341323322e-07,
+              "common8_max": 8.508033522147684e-08,
+              "report_all_max_absolute_difference": 2.7644553313166398e-14,
+              "report_common_max_absolute_difference": 2.040034807748725e-14,
+              "argmax": [
+                11,
+                12,
+                17,
+                0,
+                0
+              ]
+            },
+            "8": {
+              "all_points_max": 1.1732862192914695e-07,
+              "common8_max": 8.50463841572946e-08,
+              "report_all_max_absolute_difference": 7.815970093361102e-14,
+              "report_common_max_absolute_difference": 9.02333763264096e-14,
+              "argmax": [
+                11,
+                12,
+                17,
+                0,
+                0
+              ]
+            }
+          },
+          "sixth_eighth_tensor_difference": 3.685243221696055e-10,
+          "saved_v_vs_eighth_metric_time_derivative": 1.1541629874045611e-09
+        },
+        "_n32": {
+          "binding": {
+            "history": "udt_time_live_production_survey_2026-10-01/production_analysis/oblique_a5_p3_r0_n32/histories/oblique_a5_p3_r0_n32_window2.npz",
+            "sha256": "6cf04c93825bfe2eac26f679478d61a95039c29e0f86101b21119f9469df0d0f",
+            "source_sha256": "222e37007b83487988a14b2cd0bd0459537a6584eb86d8d3af186be2e6c449ad",
+            "all9_checkpoint_arrays_replayed": true
+          },
+          "shape": [
+            9,
+            32,
+            32,
+            32,
+            4,
+            4
+          ],
+          "time": 2.49,
+          "orders": {
+            "6": {
+              "all_points_max": 7.8411814818935e-09,
+              "common8_max": 7.199139950841982e-09,
+              "report_all_max_absolute_difference": 4.6074255521943996e-14,
+              "report_common_max_absolute_difference": 3.1835645231126364e-14,
+              "argmax": [
+                2,
+                13,
+                0,
+                0,
+                0
+              ]
+            },
+            "8": {
+              "all_points_max": 8.172889032209696e-09,
+              "common8_max": 7.297205950607122e-09,
+              "report_all_max_absolute_difference": 1.2378986724570495e-14,
+              "report_common_max_absolute_difference": 4.3048897779840445e-14,
+              "argmax": [
+                2,
+                13,
+                0,
+                0,
+                0
+              ]
+            }
+          },
+          "sixth_eighth_tensor_difference": 3.828635186664542e-10,
+          "saved_v_vs_eighth_metric_time_derivative": 1.1804885957644728e-09
+        }
+      }
+    },
+    {
+      "dataset": "oblique_a5_p3_r1",
+      "original_status": "DIAGNOSTIC_NOT_QUALIFIED",
+      "temporal": {
+        "g": 3.014848459770292e-08,
+        "v": 2.0952678880803433e-07
+      },
+      "coarse_half_curvature_tensor_difference": {
+        "6": 1.3376839191892032e-08,
+        "8": 1.3376476815096794e-08
+      },
+      "centers": {
+        "_n24": {
+          "binding": {
+            "history": "udt_time_live_production_survey_2026-10-01/production_analysis/oblique_a5_p3_r1_n24/histories/oblique_a5_p3_r1_n24_window2.npz",
+            "sha256": "9542f10e81d68aad54ffeb7e8d44ceef39ab28636587eaa024d401b3a4111f92",
+            "source_sha256": "41b733d4b6efeb4753d8c3275c8741a2a66c6ac4d79288fedd583918ffaac4f2",
+            "all9_checkpoint_arrays_replayed": true
+          },
+          "shape": [
+            9,
+            24,
+            24,
+            24,
+            4,
+            4
+          ],
+          "time": 2.49,
+          "orders": {
+            "6": {
+              "all_points_max": 8.043922550271532e-08,
+              "common8_max": 6.160627608053915e-08,
+              "report_all_max_absolute_difference": 1.0880185641326534e-14,
+              "report_common_max_absolute_difference": 3.3084646133829665e-14,
+              "argmax": [
+                16,
+                7,
+                20,
+                0,
+                0
+              ]
+            },
+            "8": {
+              "all_points_max": 8.031302511923855e-08,
+              "common8_max": 6.15703639184062e-08,
+              "report_all_max_absolute_difference": 7.627232179174825e-14,
+              "report_common_max_absolute_difference": 7.827072323607354e-15,
+              "argmax": [
+                16,
+                7,
+                20,
+                0,
+                0
+              ]
+            }
+          },
+          "sixth_eighth_tensor_difference": 2.967968093514628e-10,
+          "saved_v_vs_eighth_metric_time_derivative": 1.710469632598688e-08
+        },
+        "_n24_half": {
+          "binding": {
+            "history": "udt_time_live_production_survey_2026-10-01/production_analysis/oblique_a5_p3_r1_n24_half/histories/oblique_a5_p3_r1_n24_half_window2.npz",
+            "sha256": "61590cd46ed258b6e25c49c6da560c73190ff9ad435eff82cce6f6c9b21091a8",
+            "source_sha256": "5e8de22c88e59d8d255b16665f4d6d103ca2ecc7f522f7e3fd7857e4f7d47b7b",
+            "all9_checkpoint_arrays_replayed": true
+          },
+          "shape": [
+            9,
+            24,
+            24,
+            24,
+            4,
+            4
+          ],
+          "time": 2.49,
+          "orders": {
+            "6": {
+              "all_points_max": 8.37660496522119e-08,
+              "common8_max": 5.886468512628085e-08,
+              "report_all_max_absolute_difference": 2.2648549702353193e-14,
+              "report_common_max_absolute_difference": 4.39648317751562e-14,
+              "argmax": [
+                16,
+                7,
+                20,
+                0,
+                0
+              ]
+            },
+            "8": {
+              "all_points_max": 8.364115933190419e-08,
+              "common8_max": 5.882958209468825e-08,
+              "report_all_max_absolute_difference": 8.01581023779363e-14,
+              "report_common_max_absolute_difference": 1.892930256985892e-14,
+              "argmax": [
+                16,
+                7,
+                20,
+                0,
+                0
+              ]
+            }
+          },
+          "sixth_eighth_tensor_difference": 2.9715918614670045e-10,
+          "saved_v_vs_eighth_metric_time_derivative": 1.0712994935602183e-09
+        },
+        "_n32": {
+          "binding": {
+            "history": "udt_time_live_production_survey_2026-10-01/production_analysis/oblique_a5_p3_r1_n32/histories/oblique_a5_p3_r1_n32_window2.npz",
+            "sha256": "18370d986e9b470e51b4c4156f20e616faa5f493a362ecb0304898c4e7f41e6a",
+            "source_sha256": "3c5373362f97ddf433487439650530c0d3c7b9a03497e0ccfa0a67f5905cd49d",
+            "all9_checkpoint_arrays_replayed": true
+          },
+          "shape": [
+            9,
+            32,
+            32,
+            32,
+            4,
+            4
+          ],
+          "time": 2.49,
+          "orders": {
+            "6": {
+              "all_points_max": 8.349055224954327e-09,
+              "common8_max": 6.542895114591829e-09,
+              "report_all_max_absolute_difference": 1.021405182655144e-14,
+              "report_common_max_absolute_difference": 4.2577052994374753e-14,
+              "argmax": [
+                2,
+                13,
+                0,
+                0,
+                0
+              ]
+            },
+            "8": {
+              "all_points_max": 8.651533711656612e-09,
+              "common8_max": 6.682340902841588e-09,
+              "report_all_max_absolute_difference": 1.1934897514720433e-14,
+              "report_common_max_absolute_difference": 4.7684078907650473e-14,
+              "argmax": [
+                2,
+                13,
+                0,
+                0,
+                0
+              ]
+            }
+          },
+          "sixth_eighth_tensor_difference": 3.024784867022845e-10,
+          "saved_v_vs_eighth_metric_time_derivative": 1.073814814844809e-09
+        }
+      }
+    },
+    {
+      "dataset": "oblique_a5_p3_r2",
+      "original_status": "DIAGNOSTIC_NOT_QUALIFIED",
+      "temporal": {
+        "g": 2.9474183094180262e-08,
+        "v": 1.8515672195462685e-07
+      },
+      "coarse_half_curvature_tensor_difference": {
+        "6": 1.235471458471693e-08,
+        "8": 1.2354965495120496e-08
+      },
+      "centers": {
+        "_n24": {
+          "binding": {
+            "history": "udt_time_live_production_survey_2026-10-01/production_analysis/oblique_a5_p3_r2_n24/histories/oblique_a5_p3_r2_n24_window2.npz",
+            "sha256": "36a726d90a6a64f4e67f79389149aa8f2f437ce16441a5e082baee31fb3952a6",
+            "source_sha256": "35832db1d3cee420fcaff250eb73c7bacf5f76f6e21c16afa11a4ef29f113c02",
+            "all9_checkpoint_arrays_replayed": true
+          },
+          "shape": [
+            9,
+            24,
+            24,
+            24,
+            4,
+            4
+          ],
+          "time": 2.49,
+          "orders": {
+            "6": {
+              "all_points_max": 1.0110697168386196e-07,
+              "common8_max": 5.970956129530691e-08,
+              "report_all_max_absolute_difference": 1.4155343563970746e-14,
+              "report_common_max_absolute_difference": 9.103828801926284e-15,
+              "argmax": [
+                17,
+                8,
+                20,
+                0,
+                0
+              ]
+            },
+            "8": {
+              "all_points_max": 1.0119285898113617e-07,
+              "common8_max": 5.977568573456438e-08,
+              "report_all_max_absolute_difference": 8.271161533457416e-14,
+              "report_common_max_absolute_difference": 7.793765632868599e-14,
+              "argmax": [
+                17,
+                8,
+                20,
+                0,
+                0
+              ]
+            }
+          },
+          "sixth_eighth_tensor_difference": 2.2498714002949782e-10,
+          "saved_v_vs_eighth_metric_time_derivative": 1.2079688360699947e-08
+        },
+        "_n24_half": {
+          "binding": {
+            "history": "udt_time_live_production_survey_2026-10-01/production_analysis/oblique_a5_p3_r2_n24_half/histories/oblique_a5_p3_r2_n24_half_window2.npz",
+            "sha256": "db95ec95719060f05459538e59d5eb34090dd81530535da0c4a7323dd13fc049",
+            "source_sha256": "85b4a4cc7912f41e10856b19cea74fa35663204f7040bb8de4ea62c9a367fffd",
+            "all9_checkpoint_arrays_replayed": true
+          },
+          "shape": [
+            9,
+            24,
+            24,
+            24,
+            4,
+            4
+          ],
+          "time": 2.49,
+          "orders": {
+            "6": {
+              "all_points_max": 9.716790172475953e-08,
+              "common8_max": 5.697426619377666e-08,
+              "report_all_max_absolute_difference": 2.4091839634365897e-14,
+              "report_common_max_absolute_difference": 2.7755575615628914e-15,
+              "argmax": [
+                17,
+                8,
+                20,
+                0,
+                0
+              ]
+            },
+            "8": {
+              "all_points_max": 9.725331118204394e-08,
+              "common8_max": 5.7039697853866755e-08,
+              "report_all_max_absolute_difference": 3.5638159090467525e-14,
+              "report_common_max_absolute_difference": 6.161737786669619e-14,
+              "argmax": [
+                17,
+                8,
+                20,
+                0,
+                0
+              ]
+            }
+          },
+          "sixth_eighth_tensor_difference": 2.2473622962593254e-10,
+          "saved_v_vs_eighth_metric_time_derivative": 7.580069905088749e-10
+        },
+        "_n32": {
+          "binding": {
+            "history": "udt_time_live_production_survey_2026-10-01/production_analysis/oblique_a5_p3_r2_n32/histories/oblique_a5_p3_r2_n32_window2.npz",
+            "sha256": "eaf53390be0f93dad12d47a1e05763d182bdffccf925846fa9fb8e237b704b00",
+            "source_sha256": "f539bfef620afd0414206bb3098b81fff8dfd27f44c2fb1f24a3ff1669fd7943",
+            "all9_checkpoint_arrays_replayed": true
+          },
+          "shape": [
+            9,
+            32,
+            32,
+            32,
+            4,
+            4
+          ],
+          "time": 2.49,
+          "orders": {
+            "6": {
+              "all_points_max": 8.175367494089869e-09,
+              "common8_max": 6.129439178437224e-09,
+              "report_all_max_absolute_difference": 6.261657858885883e-14,
+              "report_common_max_absolute_difference": 2.9976021664879227e-15,
+              "argmax": [
+                2,
+                13,
+                0,
+                0,
+                0
+              ]
+            },
+            "8": {
+              "all_points_max": 8.406598528409859e-09,
+              "common8_max": 6.233283222911723e-09,
+              "report_all_max_absolute_difference": 6.350475700855895e-14,
+              "report_common_max_absolute_difference": 1.6819878823071122e-14,
+              "argmax": [
+                2,
+                13,
+                0,
+                0,
+                0
+              ]
+            }
+          },
+          "sixth_eighth_tensor_difference": 2.3348123434629997e-10,
+          "saved_v_vs_eighth_metric_time_derivative": 7.545537528130808e-10
+        }
+      }
+    },
+    {
+      "dataset": "oblique_a4_p0_r0",
+      "original_status": "PASS",
+      "temporal": {
+        "g": 1.514559144766281e-08,
+        "v": 9.449372839753778e-08
+      },
+      "coarse_half_curvature_tensor_difference": {
+        "6": 5.574319228429658e-09,
+        "8": 5.573508765621682e-09
+      },
+      "centers": {
+        "_n24": {
+          "binding": {
+            "history": "udt_time_live_production_survey_2026-10-01/production_analysis/oblique_a4_p0_r0_n24/histories/oblique_a4_p0_r0_n24_window2.npz",
+            "sha256": "1ef7b1a252ad44277cf087894cee0aa7fc1143684ab3301294d6ffecfc8c093b",
+            "source_sha256": "ea5ced70097253c7f70cc741f5c5b42728dca0aa26701ed762c58106b7cf3252",
+            "all9_checkpoint_arrays_replayed": true
+          },
+          "shape": [
+            9,
+            24,
+            24,
+            24,
+            4,
+            4
+          ],
+          "time": 2.49,
+          "orders": {
+            "6": {
+              "all_points_max": 5.9038520738852185e-09,
+              "common8_max": 5.7894333771457696e-09,
+              "report_all_max_absolute_difference": 1.837419105754634e-14,
+              "report_common_max_absolute_difference": 1.2989609388114332e-14,
+              "argmax": [
+                12,
+                23,
+                12,
+                0,
+                0
+              ]
+            },
+            "8": {
+              "all_points_max": 6.013430642326512e-09,
+              "common8_max": 5.896961585705185e-09,
+              "report_all_max_absolute_difference": 2.609024107869118e-15,
+              "report_common_max_absolute_difference": 2.042810365310288e-14,
+              "argmax": [
+                12,
+                23,
+                12,
+                0,
+                0
+              ]
+            }
+          },
+          "sixth_eighth_tensor_difference": 1.095785684412931e-10,
+          "saved_v_vs_eighth_metric_time_derivative": 7.675893698433356e-09
+        },
+        "_n24_half": {
+          "binding": {
+            "history": "udt_time_live_production_survey_2026-10-01/production_analysis/oblique_a4_p0_r0_n24_half/histories/oblique_a4_p0_r0_n24_half_window2.npz",
+            "sha256": "12dc845e5f8074065a931ebe7160bfbbcb771cf1f3544db2f7e46cdd86c3c8ed",
+            "source_sha256": "f4025bde01197c84c76a4cd381183ffa9fadc1d74a355fb31d2b3592f24ead08",
+            "all9_checkpoint_arrays_replayed": true
+          },
+          "shape": [
+            9,
+            24,
+            24,
+            24,
+            4,
+            4
+          ],
+          "time": 2.49,
+          "orders": {
+            "6": {
+              "all_points_max": 1.202604238415006e-09,
+              "common8_max": 7.63462182362673e-10,
+              "report_all_max_absolute_difference": 3.827493877395227e-14,
+              "report_common_max_absolute_difference": 1.6542323066914832e-14,
+              "argmax": [
+                2,
+                10,
+                18,
+                0,
+                0
+              ]
+            },
+            "8": {
+              "all_points_max": 1.2131566862194632e-09,
+              "common8_max": 7.435962956492403e-10,
+              "report_all_max_absolute_difference": 6.800116025829084e-15,
+              "report_common_max_absolute_difference": 1.304512053934559e-14,
+              "argmax": [
+                2,
+                10,
+                18,
+                0,
+                0
+              ]
+            }
+          },
+          "sixth_eighth_tensor_difference": 1.1038903124926946e-10,
+          "saved_v_vs_eighth_metric_time_derivative": 4.790123853126715e-10
+        },
+        "_n32": {
+          "binding": {
+            "history": "udt_time_live_production_survey_2026-10-01/production_analysis/oblique_a4_p0_r0_n32/histories/oblique_a4_p0_r0_n32_window2.npz",
+            "sha256": "87f8c38eac829794d04738013313ee899ed419b67feddfbbf5eff7334996c810",
+            "source_sha256": "f8aa0583cab0af7b0a5a2076ef616f85f02f5fc10af21d512ac9752f4a74f8a2",
+            "all9_checkpoint_arrays_replayed": true
+          },
+          "shape": [
+            9,
+            32,
+            32,
+            32,
+            4,
+            4
+          ],
+          "time": 2.49,
+          "orders": {
+            "6": {
+              "all_points_max": 3.906266421438431e-09,
+              "common8_max": 3.717121721535932e-09,
+              "report_all_max_absolute_difference": 8.326672684688674e-15,
+              "report_common_max_absolute_difference": 4.496403249731884e-15,
+              "argmax": [
+                9,
+                6,
+                9,
+                0,
+                0
+              ]
+            },
+            "8": {
+              "all_points_max": 3.948744886628219e-09,
+              "common8_max": 3.8252183642839555e-09,
+              "report_all_max_absolute_difference": 4.85722573273506e-14,
+              "report_common_max_absolute_difference": 5.717648576819556e-14,
+              "argmax": [
+                9,
+                6,
+                9,
+                0,
+                0
+              ]
+            }
+          },
+          "sixth_eighth_tensor_difference": 1.1050627080066988e-10,
+          "saved_v_vs_eighth_metric_time_derivative": 4.792113372786844e-10
+        }
+      }
+    }
+  ],
+  "report_coverage": {
+    "cases": 234,
+    "windows": 702,
+    "original_ricci_max": 6.124770681736891e-07,
+    "late_H_max": 4.7085258469969915e-09,
+    "late_M_max": 7.642622025690049e-09,
+    "late_harmonic_max": 5.183348920901536e-10
+  },
+  "omissions": "Original 5-point15-slice and late ADM coverage is authenticated report coverage, not a full234 replay. Direct Ricci only late centers; no unsaved-gap or continuum bounds.",
+  "source_sha256": "e904ce22a96efa690fc5cf3a2d5ef7658704cde263747e29e3bc69ed6afca507",
+  "initial_freeze_sha256": "04ea354e7078b57c287be3030e42c120933cf1017f9f7d26a512c9a0f73dcace",
+  "seconds": 50.6507686250261
+}

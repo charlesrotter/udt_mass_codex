@@ -1,0 +1,100 @@
+{
+  "case_count": 26,
+  "datasets": [
+    {
+      "base_case": "oblique_a5_p0_r0_n24_half",
+      "dataset": "oblique_a5_p0_r0",
+      "fine32_case": "oblique_a5_p0_r0_n32_half",
+      "original_status": "DIAGNOSTIC_NOT_QUALIFIED",
+      "quarter_case": "oblique_a5_p0_r0_n24_quarter"
+    },
+    {
+      "base_case": "axial_a5_n24_half",
+      "dataset": "axial_a5",
+      "fine32_case": "axial_a5_n32_half",
+      "original_status": "DIAGNOSTIC_NOT_QUALIFIED",
+      "quarter_case": "axial_a5_n24_quarter"
+    },
+    {
+      "base_case": "oblique_a5_p0_r1_n24_half",
+      "dataset": "oblique_a5_p0_r1",
+      "fine32_case": "oblique_a5_p0_r1_n32_half",
+      "original_status": "DIAGNOSTIC_NOT_QUALIFIED",
+      "quarter_case": "oblique_a5_p0_r1_n24_quarter"
+    },
+    {
+      "base_case": "oblique_a5_p0_r2_n24_half",
+      "dataset": "oblique_a5_p0_r2",
+      "fine32_case": "oblique_a5_p0_r2_n32_half",
+      "original_status": "DIAGNOSTIC_NOT_QUALIFIED",
+      "quarter_case": "oblique_a5_p0_r2_n24_quarter"
+    },
+    {
+      "base_case": "oblique_a5_p1_r0_n24_half",
+      "dataset": "oblique_a5_p1_r0",
+      "fine32_case": "oblique_a5_p1_r0_n32_half",
+      "original_status": "DIAGNOSTIC_NOT_QUALIFIED",
+      "quarter_case": "oblique_a5_p1_r0_n24_quarter"
+    },
+    {
+      "base_case": "oblique_a5_p1_r1_n24_half",
+      "dataset": "oblique_a5_p1_r1",
+      "fine32_case": "oblique_a5_p1_r1_n32_half",
+      "original_status": "DIAGNOSTIC_NOT_QUALIFIED",
+      "quarter_case": "oblique_a5_p1_r1_n24_quarter"
+    },
+    {
+      "base_case": "oblique_a5_p1_r2_n24_half",
+      "dataset": "oblique_a5_p1_r2",
+      "fine32_case": "oblique_a5_p1_r2_n32_half",
+      "original_status": "DIAGNOSTIC_NOT_QUALIFIED",
+      "quarter_case": "oblique_a5_p1_r2_n24_quarter"
+    },
+    {
+      "base_case": "oblique_a5_p2_r0_n24_half",
+      "dataset": "oblique_a5_p2_r0",
+      "fine32_case": "oblique_a5_p2_r0_n32_half",
+      "original_status": "DIAGNOSTIC_NOT_QUALIFIED",
+      "quarter_case": "oblique_a5_p2_r0_n24_quarter"
+    },
+    {
+      "base_case": "oblique_a5_p2_r1_n24_half",
+      "dataset": "oblique_a5_p2_r1",
+      "fine32_case": "oblique_a5_p2_r1_n32_half",
+      "original_status": "DIAGNOSTIC_NOT_QUALIFIED",
+      "quarter_case": "oblique_a5_p2_r1_n24_quarter"
+    },
+    {
+      "base_case": "oblique_a5_p2_r2_n24_half",
+      "dataset": "oblique_a5_p2_r2",
+      "fine32_case": "oblique_a5_p2_r2_n32_half",
+      "original_status": "DIAGNOSTIC_NOT_QUALIFIED",
+      "quarter_case": "oblique_a5_p2_r2_n24_quarter"
+    },
+    {
+      "base_case": "oblique_a5_p3_r0_n24_half",
+      "dataset": "oblique_a5_p3_r0",
+      "fine32_case": "oblique_a5_p3_r0_n32_half",
+      "original_status": "DIAGNOSTIC_NOT_QUALIFIED",
+      "quarter_case": "oblique_a5_p3_r0_n24_quarter"
+    },
+    {
+      "base_case": "oblique_a5_p3_r1_n24_half",
+      "dataset": "oblique_a5_p3_r1",
+      "fine32_case": "oblique_a5_p3_r1_n32_half",
+      "original_status": "DIAGNOSTIC_NOT_QUALIFIED",
+      "quarter_case": "oblique_a5_p3_r1_n24_quarter"
+    },
+    {
+      "base_case": "oblique_a5_p3_r2_n24_half",
+      "dataset": "oblique_a5_p3_r2",
+      "fine32_case": "oblique_a5_p3_r2_n32_half",
+      "original_status": "DIAGNOSTIC_NOT_QUALIFIED",
+      "quarter_case": "oblique_a5_p3_r2_n24_quarter"
+    }
+  ],
+  "original_failed_aggregate_sha256": "c87cc74b5fc81490a31068f46d778b41268e10ebec37ef47ccc5867ef02d9359",
+  "original_manifest_sha256": "237d0033935e8708a50429df77aea10adea43ced339a2aa0ed971a71d027bac7",
+  "repair_manifest_sha256": "9e508ef3e84186f8f678bf6d9db71947ebaf69c978da6ea5986abc9528c537be",
+  "scope": "Old24half,new24quarter,new32half; unchangedinputs/equations/windows/thresholds. Original65/13table remains fixed."
+}

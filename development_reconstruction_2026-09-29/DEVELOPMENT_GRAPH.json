@@ -424,14 +424,15 @@
         "udt_gr_commitment_audit_2026-09-29/INITIAL_CANDIDATE.md",
         "udt_gr_commitment_audit_2026-09-29/CENTRAL_INSERTION.md",
         "udt_gr_commitment_audit_2026-09-29/DECISION_BRIEF.md",
-        "udt_gr_commitment_audit_2026-09-29/REVIEWED_RESULT.md"
+        "udt_gr_commitment_audit_2026-09-29/REVIEWED_RESULT.md",
+        "udt_time_live_production_survey_2026-10-01/diagnosis/REVIEWED_RETURN.md"
       ],
       "required_conditions": []
     },
     {
       "id": "P_FOUNDING",
       "kind": "declared_premises",
-      "statement": "F1\u2013F4 as stated in R1/R2; composition, nontriviality and readout are distinct inputs"
+      "statement": "F1–F4 as stated in R1/R2; composition, nontriviality and readout are distinct inputs"
     },
     {
       "id": "P_PAIR",
@@ -963,7 +964,7 @@
       "id": "R12T",
       "kind": "argument",
       "anchor": "r12t",
-      "title": "Three-coordinate conditional evolution: TDS1 tests, TPP1 preparation and TPS1 first-dataset launch gate",
+      "title": "Three-coordinate conditional evolution: TPS1 finite78-dataset return with one preserved numerical repair",
       "registry_ids": [],
       "sources": [
         "udt_three_spatial_smoke_2026-10-01/EQUATIONS.md",
@@ -991,7 +992,15 @@
         "udt_time_live_production_survey_2026-10-01/LAUNCH_CHECKPOINT.md",
         "udt_time_live_production_survey_2026-10-01/FIRST_GATE.json",
         "udt_time_live_production_survey_2026-10-01/EXECUTION_FREEZE.json",
-        "udt_time_live_production_survey_2026-10-01/CLOCK_DISPATCH.json"
+        "udt_time_live_production_survey_2026-10-01/CLOCK_DISPATCH.json",
+        "udt_time_live_production_survey_2026-10-01/diagnosis/WORK_ORDER.md",
+        "udt_time_live_production_survey_2026-10-01/diagnosis/REVIEWED_RETURN.md",
+        "udt_time_live_production_survey_2026-10-01/diagnosis/REPAIR_DISPATCH.md",
+        "udt_time_live_production_survey_2026-10-01/production_analysis/postprocess/MATH_CANDIDATE.json",
+        "udt_time_live_production_survey_2026-10-01/diagnosis/review_math/REPAIR_MATH.json",
+        "udt_time_live_production_survey_2026-10-01/diagnosis/clock_completion/CLOCK_CANDIDATE.json",
+        "udt_time_live_production_survey_2026-10-01/diagnosis/refined_clock_completion/REFINED_CLOCK_CANDIDATE.json",
+        "udt_time_live_production_survey_2026-10-01/diagnosis/atlas/ATLAS.json"
       ],
       "required_conditions": [
         "C_EINSTEIN",
@@ -1998,7 +2007,15 @@
     "udt_time_live_production_survey_2026-10-01/LAUNCH_CHECKPOINT.md": "1f4a775d229fd6e26f2839c99fded966fa376b6541d794ddc1839e88ab2298c9",
     "udt_time_live_production_survey_2026-10-01/FIRST_GATE.json": "442d66de56826e82958b789bff26cb468e17820ae63b837630fb8aa586db8ef6",
     "udt_time_live_production_survey_2026-10-01/EXECUTION_FREEZE.json": "a79330fa7517640c6de85527fe3ad8226334aa423aeaee9c75506f6cd6c33293",
-    "udt_time_live_production_survey_2026-10-01/CLOCK_DISPATCH.json": "15b2ee3b9cac3003cd274f9e81a2a2df40377c4b72426f51446b5bdc2a96b97e"
+    "udt_time_live_production_survey_2026-10-01/CLOCK_DISPATCH.json": "15b2ee3b9cac3003cd274f9e81a2a2df40377c4b72426f51446b5bdc2a96b97e",
+    "udt_time_live_production_survey_2026-10-01/diagnosis/WORK_ORDER.md": "f1f64b67e6e082e044279e80980484f0172aec5d4236d8332d309ba115f611da",
+    "udt_time_live_production_survey_2026-10-01/diagnosis/REVIEWED_RETURN.md": "a9be8ff4842230b1cededaa4c08e3f061f7cdc085adada7306facd10af8685be",
+    "udt_time_live_production_survey_2026-10-01/diagnosis/REPAIR_DISPATCH.md": "84fef98321b0551ec4cdae33ae8e5c5df57c44cc43a0e8361ea3c5c66a774a5f",
+    "udt_time_live_production_survey_2026-10-01/production_analysis/postprocess/MATH_CANDIDATE.json": "c87cc74b5fc81490a31068f46d778b41268e10ebec37ef47ccc5867ef02d9359",
+    "udt_time_live_production_survey_2026-10-01/diagnosis/review_math/REPAIR_MATH.json": "b09082462a464d9ed365e003b6ba19b6ed8c61fcebf59818c5b344a313c22462",
+    "udt_time_live_production_survey_2026-10-01/diagnosis/clock_completion/CLOCK_CANDIDATE.json": "f39e06716661cd997dcc542132300c69f77691a3bc59db775fd72801e4992aa0",
+    "udt_time_live_production_survey_2026-10-01/diagnosis/refined_clock_completion/REFINED_CLOCK_CANDIDATE.json": "5254886d0883d540a035371c8ece51b4841d23c5cba53910086d2423f49f129b",
+    "udt_time_live_production_survey_2026-10-01/diagnosis/atlas/ATLAS.json": "1d8b680854283af21f051635b9fa27b297ad86cda4714943b3f92e5a2bb3668d"
   },
   "impact_policy": "Any changed source or registry row flags its mapped positive and negative central arguments and every reachable central descendant for review; no automatic truth reversal or regrading.",
   "review_support": [
@@ -2442,6 +2459,114 @@
     {
       "path": "udt_time_live_production_survey_2026-10-01/review/math/POSTPROCESS_REVIEW.md",
       "sha256": "d8262a1e6cb2ec6871024d8d207b1df32869073bb3f40275fb97981bcb5cb510",
+      "role": "review_evidence",
+      "targets": [
+        "R12T",
+        "R18"
+      ]
+    },
+    {
+      "path": "udt_time_live_production_survey_2026-10-01/diagnosis/DESCENDANT_REVIEW.md",
+      "sha256": "4738ca6a5ed8f67ae203d3a5006e0a6c8fad9643b0044570f144b6eec430587e",
+      "role": "review_evidence",
+      "targets": [
+        "R12T",
+        "R18"
+      ]
+    },
+    {
+      "path": "udt_time_live_production_survey_2026-10-01/diagnosis/WORK_RECORD.md",
+      "sha256": "f78472b30677ec5d1137551234c5d86d0c88c66eb96bc5989b621f2f9949f4fc",
+      "role": "review_evidence",
+      "targets": [
+        "R12T",
+        "R18"
+      ]
+    },
+    {
+      "path": "udt_time_live_production_survey_2026-10-01/diagnosis/review_math/DIAGNOSIS_AND_REPAIR_PROPOSAL.md",
+      "sha256": "6ed539d953236efee94ea7f8a53833025e6c5a77f4649794583d89685fd7dace",
+      "role": "review_evidence",
+      "targets": [
+        "R12T",
+        "R18"
+      ]
+    },
+    {
+      "path": "udt_time_live_production_survey_2026-10-01/diagnosis/review_math/REPAIR_RESULT_REVIEW.md",
+      "sha256": "9bd22b8d694902317a9036a232eea9f8298bfb37dee5d5dd381fcf8183314d25",
+      "role": "review_evidence",
+      "targets": [
+        "R12T",
+        "R18"
+      ]
+    },
+    {
+      "path": "udt_time_live_production_survey_2026-10-01/diagnosis/review_math/ORIGINAL_CLOCK_RESULT_REVIEW.json",
+      "sha256": "d9773ca5ca9a6f445a654a34782afa5f94051584f551d095a8c3a42919ddddc6",
+      "role": "review_evidence",
+      "targets": [
+        "R12T",
+        "R18"
+      ]
+    },
+    {
+      "path": "udt_time_live_production_survey_2026-10-01/diagnosis/review_math/REFINED_CLOCK_RESULT_REVIEW.json",
+      "sha256": "e5ba40379724fdfb2a2810e637169d0239e4527693d5e6461a9dc45f016b2d2e",
+      "role": "review_evidence",
+      "targets": [
+        "R12T",
+        "R18"
+      ]
+    },
+    {
+      "path": "udt_time_live_production_survey_2026-10-01/diagnosis/review_math/ATLAS_RESULT_REVIEW.json",
+      "sha256": "fb221008c5810a119804dc71ac359040feecace4b65703072dbc4d9477318032",
+      "role": "review_evidence",
+      "targets": [
+        "R12T",
+        "R18"
+      ]
+    },
+    {
+      "path": "udt_time_live_production_survey_2026-10-01/diagnosis/review_math/ATLAS_VISUAL_REVIEW.json",
+      "sha256": "e1f0451bb0d2d9105a036c6228efdeea4a2ecebbd52b6c6702571b57873c5164",
+      "role": "review_evidence",
+      "targets": [
+        "R12T",
+        "R18"
+      ]
+    },
+    {
+      "path": "udt_time_live_production_survey_2026-10-01/diagnosis/review_runtime/RUNTIME_DIAGNOSIS.json",
+      "sha256": "507343bc773ee8702999de209af5e41c40b418984c57b41c2fb98b572cb8f1df",
+      "role": "review_evidence",
+      "targets": [
+        "R12T",
+        "R18"
+      ]
+    },
+    {
+      "path": "udt_time_live_production_survey_2026-10-01/diagnosis/review_runtime/REPAIR_OPERATIONS.json",
+      "sha256": "32912a25c577b7889fc885da724ea2498af768b75840f40da09badd1d39dc09e",
+      "role": "review_evidence",
+      "targets": [
+        "R12T",
+        "R18"
+      ]
+    },
+    {
+      "path": "udt_time_live_production_survey_2026-10-01/diagnosis/review_runtime/ACTUAL_ORIGINAL_CLOCK_REVIEW.json",
+      "sha256": "eb9eefd17fbe3381b4db83538eb1caf3f8b028d52e60089fa64702f54f277c80",
+      "role": "review_evidence",
+      "targets": [
+        "R12T",
+        "R18"
+      ]
+    },
+    {
+      "path": "udt_time_live_production_survey_2026-10-01/diagnosis/review_runtime/ACTUAL_REFINED_CLOCK_AND_ATLAS_REVIEW.json",
+      "sha256": "a6766f8f160617111b9394dcb42077fbef4b7d609ef0b4401aa86f80bc15727c",
       "role": "review_evidence",
       "targets": [
         "R12T",

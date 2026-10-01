@@ -1,0 +1,43 @@
+{
+  "status": "ACTUAL_ATLAS_VISUAL_REVIEW_PASS",
+  "reviewer_context": "/root/survey_completion_math",
+  "time_utc": "2026-10-01T15:06:10.001181+00:00",
+  "source_sha256": {
+    "atlas/clock_atlas.png": "4e56ed0c1361b49614e481452c7f68ef2f2e5faec6c9b69bb719e4c6f948a7aa",
+    "atlas/clock_atlas.pdf": "e3ce345e2443726808a29474e53500203216c11abe39ffdd883508d7fbed649e",
+    "atlas/clock_atlas.csv": "2b7a1d5063f813182126aee75aba75e89686dff35c93c98c14bd61adaf5ed955",
+    "atlas/ATLAS.json": "1d8b680854283af21f051635b9fa27b297ad86cda4714943b3f92e5a2bb3668d",
+    "build_atlas.py": "a1c419a59174e637c38ac872b26c3281f711e230acbed706473e2ff66afb62fd",
+    "review_math/ATLAS_RESULT_REVIEW.json": "fb221008c5810a119804dc71ac359040feecace4b65703072dbc4d9477318032",
+    "review_math/atlas_pdf_review_render.png": "b096b688888f0c94d7b56915e376f46f5cd8508a758ea88301ef7eb32b416627"
+  },
+  "methods": [
+    "Direct view_image inspection of actual PNG",
+    "pdfinfo and pdftotext -layout of actual PDF",
+    "pdftoppm -f 1 -singlefile -scale-to 1800 -png of actual PDF, followed by view_image inspection of saved reviewer render"
+  ],
+  "observations": [
+    "Four panels x, y, z, diagonal are readable; all x log Z values are negative and other directions positive, matching the independently checked CSV.",
+    "Both PNG and rendered PDF retain actual minus glyphs on the x-panel y axis. PDF text extraction omits those glyphs, so its extracted numbers alone were not used to verify signs.",
+    "Axes label supplied initial amplitude multiplier and 1000 times log Z. The six supplied amplitudes .25,.5,1,1.5,2,3 appear correctly.",
+    "The caption explicitly distinguishes original65/78 from refined13/13 field gates. Orange outer rings remain visible around green refined stars at amplitude3; original unqualified histories are not visually relabeled.",
+    "Legend distinguishes original field pass, original field unqualified, refined realization, axial recipe and12 oblique recipes. Red cross legend meaning is mesh/time comparison failed, distinct from independent Hamilton comparison.",
+    "Title keeps conditional Ricci-flat and supplied late-window scope. Footer preserves redshift/blueshift convention and states amplitude is not distance and no UDT selection.",
+    "No title, axis, legend or footer clipping observed in either PNG or rendered one-page PDF."
+  ],
+  "limitations": [
+    "Some supplied recipes overlap visually; the exact364-row CSV owns enumeration and values. Lines and markers are descriptive, not a fitted law, sampling distribution or uncertainty interval.",
+    "This is a visual and presentation review, supplemented by separately recorded actual table/statistics replay. No geodesics or field equations were recomputed in this step.",
+    "Common final integration freeze and substantive final attestation remain pending."
+  ],
+  "pdf_metadata": {
+    "pages": 1,
+    "page_points": [
+      792,
+      576
+    ],
+    "bytes": 71159,
+    "version": "1.4",
+    "producer": "Matplotlib pdf backend v3.10.8"
+  }
+}

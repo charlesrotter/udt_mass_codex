@@ -1,0 +1,17 @@
+{
+  "status": "OPERATIONAL_CONTROLS_PASS",
+  "adapter_sha256": "36e19f7a1f0df8e47ecd0129c8e434def6935e510ab36f31f89f6352f9f9eb7c",
+  "checker_sha256": "3dd6081a887d34477765addc5883508b58743ae9cf2b0858a765dac4e2d3851b",
+  "checks": [
+    "matching_source_and_budget_pass",
+    "source_mutation_rejected",
+    "output_reserve_rejected",
+    "missing_math_review_rejected_before_output",
+    "authentic_capture_pass",
+    "output_mismatch_rejected",
+    "time_limit_rejected",
+    "command_mismatch_rejected",
+    "readiness_triggered_manual_signal_forwarded_without_timeout"
+  ],
+  "scope": "Author-side negative operational fixtures. No independent scientific review, geometry computation, or production output mutation."
+}

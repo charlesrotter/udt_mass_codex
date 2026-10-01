@@ -1,0 +1,19 @@
+{
+  "command": [
+    "python3",
+    "udt_time_live_production_survey_2026-10-01/diagnosis/review_math/check_refined_clock_join.py"
+  ],
+  "cwd": "/home/udt-admin/udt_mass_codex",
+  "started_utc": "2026-10-01T14:19:15.304130+00:00",
+  "duration_seconds": 0.021839536959305406,
+  "returncode": 0,
+  "wall_timeout_seconds": null,
+  "cpu_timeout_seconds": null,
+  "address_space_bytes": 2147483648,
+  "memory_scope": "Process virtual address limit",
+  "maxrss_kib": 14976,
+  "forwarded_signals": [],
+  "stdout_sha256": "f8b422ceb62794c2ec2702e2b274da4fe2a1adc20aafe39d568d6a2d4da2c928",
+  "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "capture_sha256": "217cdbac5486e8a531552f4d74a15ce641299b65dafb5d58f7b60f4ba51781bc"
+}

@@ -1,0 +1,4 @@
+{"event": "WINDOW_CHECK", "case": "oblique_a2_p3_r1_n24", "window": 0, "original_ricci_max": 1.4381179580524872e-10}
+{"event": "WINDOW_CHECK", "case": "oblique_a2_p3_r1_n24", "window": 1, "original_ricci_max": 7.843316551792157e-10}
+{"event": "WINDOW_CHECK", "case": "oblique_a2_p3_r1_n24", "window": 2, "original_ricci_max": 3.026650807758102e-08}
+{"status": "PASS", "output": "/home/udt-admin/udt_mass_codex/udt_time_live_production_survey_2026-10-01/review/math/cases/oblique_a2_p3_r1_n24.json", "seconds": 7.243193104979582}

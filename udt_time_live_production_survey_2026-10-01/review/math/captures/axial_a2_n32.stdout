@@ -1,0 +1,4 @@
+{"event": "WINDOW_CHECK", "case": "axial_a2_n32", "window": 0, "original_ricci_max": 1.2424078432715646e-10}
+{"event": "WINDOW_CHECK", "case": "axial_a2_n32", "window": 1, "original_ricci_max": 1.9636797743416423e-10}
+{"event": "WINDOW_CHECK", "case": "axial_a2_n32", "window": 2, "original_ricci_max": 2.2826512124929366e-08}
+{"status": "PASS", "output": "/home/udt-admin/udt_mass_codex/udt_time_live_production_survey_2026-10-01/review/math/cases/axial_a2_n32.json", "seconds": 19.801724002987612}

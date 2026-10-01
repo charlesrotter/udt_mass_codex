@@ -1,0 +1,38 @@
+{
+  "status": "ATLAS_SOURCE_CLEARED_WITH_ACTUAL_OUTPUT_REVIEW_PENDING",
+  "reviewer_context": "/root/survey_completion_math",
+  "builder_sha256": "4ebdbeae777176ec3486c4d2d51041ce91a3cc8b74de29d0c70152b6511a9dc2",
+  "plan_sha256": "c3e90f2e2efae814757c07867d661d04903c8d258b0ca5c42e18c88233781bf2",
+  "checker_sha256": "5ca3cdfad967d0cff532158b89dd2176f84d34df5d1b3baca3bbd4037b3a2ac4",
+  "source_repair_history_sha256": "4a0e60fb6a09cfa20270a757cfaf36feb4e9d46f76324585cc8fecc395374dec",
+  "synthetic_rows": 364,
+  "synthetic_qualifications": {
+    "original": 65,
+    "refined": 12
+  },
+  "defect_controls": [
+    {
+      "defect": "consistent_xyz_permutation_inside_complete_triple",
+      "rejection": "FIXED_QUERY_LABEL"
+    },
+    {
+      "defect": "missing_original_pair",
+      "rejection": "EXACT_CLOCK_PAIR_COVERAGE"
+    },
+    {
+      "defect": "missing_refined_pair",
+      "rejection": "EXACT_CLOCK_PAIR_COVERAGE"
+    },
+    {
+      "defect": "duplicate_independent_case_with_count30",
+      "rejection": "EXACT_INDEPENDENT_SUBSET"
+    },
+    {
+      "defect": "same_wrong_origin_in_complete_triple",
+      "rejection": "FIXED_QUERY_LABEL"
+    }
+  ],
+  "scope": "Pre-output synthetic joins, fixed-query direction labels, amplitude mapping, signs and field/clock separation. Hash function deliberately mocked in fixture; real artifact authentication is not claimed by synthetic tests.",
+  "source_review": "Original78 and refined13 explicit triples retained. Original65/13grades remain fixed. Amplitude/phase/polarization parse matches supplied grid and construction source. Maximum resolution change means baseline-relative comparisons, not all pairwise spread or certified/statistical error. No fit, new query, sign selection or physical population inference. Larger outer rings and qualification caption address original-flag visibility.",
+  "omissions": "Actual364CSV rows, statistics, raw-clock consistency, bindings and finalPNG/PDF visual review remain required after outputs exist. No actual atlas or geodesic was executed here."
+}

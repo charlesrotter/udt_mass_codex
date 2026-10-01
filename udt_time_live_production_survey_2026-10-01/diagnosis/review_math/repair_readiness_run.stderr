@@ -1,0 +1,10 @@
+Traceback (most recent call last):
+  File "/home/udt-admin/udt_mass_codex/udt_time_live_production_survey_2026-10-01/diagnosis/review_math/check_repair.py", line 120, in <module>
+    if __name__=='__main__':raise SystemExit(main())
+  File "/home/udt-admin/udt_mass_codex/udt_time_live_production_survey_2026-10-01/diagnosis/review_math/check_repair.py", line 114, in main
+    start=time.monotonic();m,mapping,candidate,specs=review_specs()
+  File "/home/udt-admin/udt_mass_codex/udt_time_live_production_survey_2026-10-01/diagnosis/review_math/check_repair.py", line 62, in review_specs
+    for p,h in m['source_sha256'].items():fixed.checked_path(p,h)
+  File "/home/udt-admin/udt_mass_codex/udt_time_live_production_survey_2026-10-01/review/math/check_survey.py", line 57, in checked_path
+    raise ValueError('SURVEY_PATH_SCOPE')
+ValueError: SURVEY_PATH_SCOPE

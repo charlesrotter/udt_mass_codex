@@ -1,7 +1,7 @@
 # LIVE — operational status
 
 <!-- STARTUP_CURRENT_BEGIN -->
-## CURRENT STATE — TPS1 authorized survey launched after TDS1/ SMK1/NGD1/TRI1/PRI1/CCR1/CES1/PCW1/GCA1/LKT1/SGE1/CDR1, 2026-10-01
+## CURRENT STATE — TPS1 finite survey and repair completed after TDS1/ SMK1/NGD1/TRI1/PRI1/CCR1/CES1/PCW1/GCA1/LKT1/SGE1/CDR1, 2026-10-01
 
 Work on `grok`; independently verify HEAD, synchronization and dirt.
 Charles authorized documenting and executing the staged numerical discovery
@@ -22,10 +22,13 @@ tested with explicit review limits. Charles then said: “Proceed, and don't put
 a timeout on it in case it runs long.” TPS1 implements that authority in
 `udt_time_live_production_survey_2026-10-01/WORK_ORDER.md`: the finite234-run
 scope continues without queue, worker, wrapper or CPU elapsed-time cutoffs.
-All156 initial states and the first-three-case gate passed. Continuation was
-launched; its fixed launch record is under that package's `launch_evidence/`.
-Use its `status.py`, host PID/start identity and actual receipts for current
-progress. A saved launch record alone is not a current liveness claim.
+All234 original runs and the one26-run numerical repair have now completed.
+Charles's subsequent “proceed” authorized diagnosis of the13 original flags.
+The existing work order included actual separate-context review and one bounded
+same-premise repair. Its dispatch, preserved failures, checks and reviewed return
+are in `udt_time_live_production_survey_2026-10-01/diagnosis/`: WORK_ORDER.md,
+REPAIR_DISPATCH.md, WORK_RECORD.md and REVIEWED_RETURN.md. Original launch
+snapshots remain fixed historical evidence. The central account is R12T/R18.
 
 ### Honest claim
 
@@ -58,19 +61,17 @@ Protected: do not inspect, hash, stage, modify, mine or cite payloads without di
 
 ### Next gate
 
-Continue the already authorized finite234-run survey and its checks; do not
-launch a duplicate GPU worker. Follow TPS1 RUN_INSTRUCTIONS.md for status,
-manual stop, receipt-based resume and the automatic candidate-check companion.
-There is no elapsed-time cutoff. One GPU, float64,8GiB allocated GPU memory,
-64GiB output and numerical/source/manual-stop controls remain. A companion's
-machine PASS is not actual adversarial review or scientific acceptance.
-Next return is a checked and separately reviewed conditional atlas, a narrowed
-result, or an unresolved diagnostic within the existing work order. Stop for lay discussion
-at that bounded return or a real scope/premise/resource blocker. No extension
-of the finite parameter grid is authorized by removing its time cutoff.
-Raw production fields remain local and ignored; compact launch/gate evidence
-and sources are banked. Full-survey outcomes remain unreviewed at this launch
-checkpoint. Existing pauses, scientific grades, protected work and CANON remain
-unchanged. A Ric=0 comparison still does not select UDT's native geometry.
+The authorized finite return is complete: field and clock checks, actual separate
+reviews, descriptive atlas and central integration. Stop for lay discussion.
+Use the completion WORK_RECORD.md, final attestations and captured repository
+checks for the exact reviewed scope; scientific results live in UDT_DEVELOPMENT.md.
+No computation was left running at completion. A later session must verify host
+process state rather than treating this snapshot as current liveness evidence.
+No second repair cycle, expanded grid, new physical premise or promotion follows
+automatically. Removing time cutoffs never authorized additional parameter cases.
+Raw fields/checkpoints and large worker streams remain local and ignored; compact
+reports, readouts, commands and hashes are banked. A remote clone cannot replay
+raw-dependent checks without those fields. Existing pauses, protected work,
+scientific grades and CANON remain unchanged.
 
 <!-- STARTUP_CURRENT_END -->
