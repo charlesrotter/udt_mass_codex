@@ -1,7 +1,7 @@
 # UDT — continuous scientific development
 
 <!-- DEVELOPMENT_ORIENTATION_BEGIN -->
-**Continuous development — CDR1 with SGE1, LKT1, GCA1, PCW1, CES1, CCR1, PRI1, TRI1, NGD1, TDS1, TPP1, TPS1, PSW1, FPC1, FNA1 and FST1, 2026-10-01.** This is the maintained
+**Continuous development — CDR1 with SGE1, LKT1, GCA1, PCW1, CES1, CCR1, PRI1, TRI1, NGD1, TDS1, TPP1, TPS1, PSW1, FPC1, FNA1, FST1 and ECS1, 2026-10-01.** This is the maintained
 scientific development. It is not canon or a new scientific-grade authority.
 The exact registry and reviewed sources own grades; LIVE owns operational status.
 Current review bindings and limits are recorded in section9; startup reads the
@@ -114,8 +114,16 @@ near/far tolerance bounds are available once an experiment and thresholds are
 given. No reference, observed filter pass or scale is selected. Historical W3
 law-reduction language is explicitly subordinated to current GR FILTER ONLY.
 Native branch admission and scalar state/calibration remain distinct questions;
-a field law need not choose a unique universe. Stop for discussion at this
-bounded selection-test return; no new physical premise is adopted.
+a field law need not choose a unique universe.
+ECS1 independently reconstructs a scale-free first/immediate-return relation,
+q=p/(2-p²), with total echo stretch pq and finite echo domain0<p<sqrt(2),
+for that specified prepared-clock family. The existing Kasner control fails it
+beyond leading order. An exact transverse-metric construction nevertheless
+preserves the entire measured clock sheet while changing4D curvature. Thus the
+relation is a conditional discriminator, not unique metric reconstruction or
+native physical selection. Neither all-observer nor field-sector nonuniqueness
+is proved. Stop for discussion at the reviewed echo-test return; no new physical
+premise is adopted.
 <!-- DEVELOPMENT_ORIENTATION_END -->
 
 ## 1. How this development is owned
@@ -1237,6 +1245,92 @@ and [reviewed limits](udt_finite_selection_test_2026-10-01/REVIEWED_RESULT.md),
 with the existing FPC1/FNA1 clock experiment and SGE1 owner/source boundaries.
 
 
+<a id="r8ecs"></a>
+
+#### An internal finite echo test and its inference limit — ECS1
+
+Keep PSW1/FPC1's initial proper separation, parallel velocity preparation, fixed
+free worldlines, and regular direct null legs. Let p=d tau_B/d tau_A for the
+first signal and q=d tau_A,return/d tau_B at its immediate later relay. The total
+echo stretch is pq, while a separately emitted reverse first signal is a different
+experiment. The supplied signed space forms imply
+
+    q=p/(2-p²),    pq=p²/(2-p²),    0<p<sqrt(2).
+
+The positive-curvature finite echo has1<p<sqrt(2); negative curvature has0<p<1;
+flat hasp=q=1. Positive first signals withp>=sqrt(2) can still arrive on the
+earlier described extended branch, but the specified echo has no finite future
+reception. An algebraic continuation with negative q is not an allowed return.
+This is a corollary of the existing FPC1 formulas, not a new physical law.
+
+Two differently arranged reconstructions verify the full preparation and clocks.
+In the parent's static radial sheet h=-fdt²+dr²/f, f=1-kappa r², the released
+clock has conserved energy c=sqrt(f(r0)), t_dot=c/f and r_dot=v with
+v²=c²-f. Retarded/advanced times t minus/plus integral dr/f give
+p=c+v_b and q=1/(c-v_b). First incidence in this supplied metric yields
+p=1/c: its positive branch selects tanh(k tau_b)=sin(kL), excluding the static
+horizon root; its negative branch selects tan(k tau_b)=sinh(kL). Hence the
+displayed relation follows. This static proof covers the finite-echo sector.
+
+The independent reconstruction uses the totally geodesic clock sheet
+h=-d tau²+a(tau)²dx². Parallel preparation gives a(0)=1,a'(0)=0; the Jacobi
+equation in supplied sectional curvature gives a''=kappa a. Thus a is cosh(k tau),
+1, or cos(k tau) for positive, zero, or negative curvature. With d eta=d tau/a,
+the conformal scale A(eta) is sec(k eta),1,or sech(k eta). Proper clocks sit at
+x=0,L, and affine null covectors proportional to -d eta plus/minus dx have
+measured frequency proportional to1/A. First/return incidences are eta=L,2L,
+so p=A(L)/A(0),q=A(2L)/A(L). The positive conformal endpoint eta=pi/(2k)
+gives the distinct first/echo limits. These constructions recover actual clock
+maps; neither inserts a second propagation mechanism or infers a physical scale.
+
+The relation is not automatic for every smooth metric with that preparation.
+Using the existing FPC1 Kasner control and P=log p, its predicted return is
+P-log(2-exp(2P))=3P+4P²+O(P³). The actual logarithmic residual is
+-16L³/27+O(L⁴) on the exponent-1/3 axis, and8L³/27+O(L⁴) on either exponent2/3
+axis. Each fails the finite identity at sufficiently small positive L, despite
+the common leading1:3 ratio. Their cubic triad mean cancels; no finite-L error
+threshold or higher-order spherical mean is asserted. Saved arrival/momentum
+coefficients were independently converted to endpoint frequencies before this
+comparison. The original source owns the analytic remainder and preparation.
+
+<a id="r8ecsm"></a>
+
+Conversely, this clock record does not uniquely determine4D geometry. For any
+smooth positive-definite H_AB(x,y), supply the block metric
+
+    g_H=h_kappa,mu nu(x) dx^mu dx^nu+H_AB(x,y) dy^A dy^B,
+
+with h independent of transverse y and no mixed terms. Its base Christoffels
+are those of h and Gamma^A_mu nu=0. Each fixed-y sheet is totally geodesic, so
+the preparation, parallel velocity, clocks, affine rays, proper-time maps and
+frequencies stay identical for the continuum of regular tested separations and
+emissions in that sheet. Positive transverse H makes every ambient causal
+tangent project to a base-causal tangent; the construction supplies no faster
+transverse shortcut outside the base causal future. Selected direct branches
+and regularity remain essential; global ray uniqueness is not claimed.
+
+For kappa!=0, the explicit product H=I has base sectional curvature kappa,
+zero mixed sectional curvature, Ric=kappa h on the base and zero transversely,
+and scalar2kappa rather than the4D space form's12kappa. It is a different4D
+geometry with the same complete restricted timing record, and is not Einstein.
+The independent product with a curved transverse surface also handles a flat
+base. These are supplied kinematic witnesses, not native UDT or selected
+field-sector solutions. Agreement for this aligned sheet does not mean agreement
+for every observer, direction, preparation or transverse optical observation.
+
+An independently measured first signal and echo can therefore test consistency
+with this supplied model without a chosen GR subtraction or curvature calibration.
+Generating the echo from the formula does not test it. A failure under a justified
+matching protocol rejects that model/assignment, not UDT's complete postulates;
+a pass proves neither unique geometry nor physical admission, sign, scale or
+X_max. The all-observer and sector-restricted inverse questions remain untested.
+
+Sources: [static reconstruction and general transverse witness](udt_echo_consistency_2026-10-01/INITIAL_DERIVATION.md),
+[independent synchronous reconstruction](udt_echo_consistency_2026-10-01/math/SOURCE_FIRST.md),
+[protocol and saved-observable review](udt_echo_consistency_2026-10-01/fidelity/SOURCE_FIRST.md),
+and [reviewed scope](udt_echo_consistency_2026-10-01/REVIEWED_RESULT.md).
+
+
 ## 6. Response restrictions and an optional conditional dynamics branch
 
 <a id="r9"></a>
@@ -2172,6 +2266,18 @@ closure. The [FST1 decision brief](udt_finite_selection_test_2026-10-01/DECISION
 records the bounded survivors, alternatives and discussion return. No successor
 computation or physical adoption begins automatically.
 
+ECS1 supplies the internal clock test in R8 without a GR reference or selected
+curvature scale. Its exact transverse-metric witness also shows why this one
+family of timing records cannot select the full metric. The existing Kasner
+control is distinguishable, so the relation has a real but conditional use.
+Neither agreeing with this relation nor adding more separations in the same
+sheet closes the physical-admission question. A future proposal should identify
+the physical relation being tested beyond these identities; merely accumulating
+more compatible shapes is not that relation. Additional directions can distinguish
+the explicit mimic but do not by themselves supply a field law or complete
+reconstruction theorem. The [ECS1 decision brief](udt_echo_consistency_2026-10-01/DECISION_BRIEF.md)
+marks this bounded return; no universal echo law or successor is adopted.
+
 NGD1's numerical return in R12N adds a validated comparison tool and finite
 nonlinear clock-shift histories. Its positive contribution relative to a specified
 control does not select the native geometry, and a blueshift in a supplied
@@ -2587,7 +2693,7 @@ founding premises are insufficient.
 Retained branches and omissions are explicit below. These results are useful;
 their original full proofs, repairs, qualifications and grades remain at source.
 CDR1 does not claim to rederive all of them. The [406-row disposition ledger](development_reconstruction_2026-09-29/CLAIM_DISPOSITIONS.tsv)
-and [42 later returns](development_reconstruction_2026-09-29/RECENT_DISPOSITIONS.tsv)
+and [43 later returns](development_reconstruction_2026-09-29/RECENT_DISPOSITIONS.tsv)
 identify exact sources and reconstruction depth.
 
 | Retained work | Gain and limit |
@@ -2864,6 +2970,20 @@ claimed. The [FST1 descendant review](udt_finite_selection_test_2026-10-01/DESCE
 records the W3 authority precision correction and both positive and negative
 implications; [execution record](udt_finite_selection_test_2026-10-01/WORK_RECORD.md)
 and final attestations own actual exposure, omissions and frozen-edition scope.
+
+ECS1 used two fresh inherited-model source-first contexts, then actual candidate
+and final integration review. Parent56 symbolic checks support the static route;
+math47 checks support the separately arranged synchronous and affine-frequency
+route. Fidelity189 checks include independent endpoint contractions from saved
+FPC arrival/momentum data and product curvatures;144 are mixed-connection component
+zeros, not independent proofs. Its initial trig-canonicalization false negative
+and exact normalization repair are preserved. Parent41 Fraction checks recompute
+the residual polynomial and rational identities from exposed saved observables.
+They are not a new worldline solve, numerical certificate or physical test.
+The [descendant review](udt_echo_consistency_2026-10-01/DESCENDANT_REVIEW.md) covers
+positive discrimination, negative uniqueness, rank/field-sector qualifications
+and untouched prior conclusions. [Execution record](udt_echo_consistency_2026-10-01/WORK_RECORD.md)
+and final attestations bind actual versions, exposures and omitted work.
 
 The preserved first candidates expose the repair history. The [source correction](development_reconstruction_2026-09-29/SOURCE_CORRECTIONS.md)
 fixes a real covector-basis sign in G310; the central nine-direction span and

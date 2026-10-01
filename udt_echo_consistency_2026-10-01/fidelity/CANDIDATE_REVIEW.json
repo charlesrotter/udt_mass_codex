@@ -1,0 +1,163 @@
+{
+  "utc": "2026-10-01T21:47:21.223069+00:00",
+  "reviewer": "/root/ecs_fidelity",
+  "verdict": "VERIFIED-WITH-CAVEATS",
+  "substantive_defects": [],
+  "scientific_repair_required": false,
+  "candidate_freeze_sha256": "42ad87d563def2f63db4626990fd255f2665345074af79d6a7816a5cb50c7b4b",
+  "candidate_freeze_files_checked": 41,
+  "candidate_freeze_mismatches": {},
+  "read_candidate_files": {
+    "udt_echo_consistency_2026-10-01/INITIAL_DERIVATION.md": "3caf37187f22cc0cdf2b0334ea75bad362422cb4787c99eb41fa24ab34c25aff",
+    "udt_echo_consistency_2026-10-01/check_echo.py": "282b861afb7a6238dd3f98c5dd9484ee7160c6cbf2a62792cbf201d6a44d47b6",
+    "udt_echo_consistency_2026-10-01/recompute_saved.py": "fe65fb9b941e7b317d288d4c9b45e7af7068c76826d10a496af34969264e4a0e",
+    "udt_echo_consistency_2026-10-01/CANDIDATE_FREEZE.json": "42ad87d563def2f63db4626990fd255f2665345074af79d6a7816a5cb50c7b4b",
+    "udt_echo_consistency_2026-10-01/checks/echo.json": "c69fd63bc71f16c2d6b535f02924d5e76a0118748ee6da549cadd5a1998bee8b",
+    "udt_echo_consistency_2026-10-01/checks/echo.stdout": "5d91d4a443b2b03968bd0db93599b2c3172eaed9862124e08f1418d0e6eecbef",
+    "udt_echo_consistency_2026-10-01/checks/echo.stderr": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "udt_echo_consistency_2026-10-01/checks/saved_recomputation.json": "c2a60021b7ac800fbe252d334360993462fce7167673883b272a5ac3cde23cc2",
+    "udt_echo_consistency_2026-10-01/checks/saved_recomputation.stdout": "09e69c23d417c3f073a9f4d2264feb3e1a49fe32b1276772e90b2e05ff4a7e9f",
+    "udt_echo_consistency_2026-10-01/checks/saved_recomputation.stderr": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "source_hashes": {
+    "AGENTS.md": {
+      "frozen": "bcab9b67305e0314af9eaf25162d203660eae8f2ff4fd87d17e83588970ef38d",
+      "actual": "bcab9b67305e0314af9eaf25162d203660eae8f2ff4fd87d17e83588970ef38d",
+      "matches": true
+    },
+    "CLAUDE.md": {
+      "frozen": "4ad2e773defb89cc79541fd0ababd75af5a3344ab134ee83722dfd943966e6e4",
+      "actual": "4ad2e773defb89cc79541fd0ababd75af5a3344ab134ee83722dfd943966e6e4",
+      "matches": true
+    },
+    "CROSS_MODEL_VERIFY.md": {
+      "frozen": "2b0509d933d731fbf3f72aa88777a54d3e48a94d4bae3d324087871777f9a007",
+      "actual": "2b0509d933d731fbf3f72aa88777a54d3e48a94d4bae3d324087871777f9a007",
+      "matches": true
+    },
+    ".claude/skills/no-shortcuts/SKILL.md": {
+      "frozen": "fd3a1f3218481134f2af829d3ae4175ac53518f75bf9673287efbfb7d7708fc1",
+      "actual": "fd3a1f3218481134f2af829d3ae4175ac53518f75bf9673287efbfb7d7708fc1",
+      "matches": true
+    },
+    ".claude/skills/completeness-map/SKILL.md": {
+      "frozen": "a8cf9e5f4a6d35a0d0ebfe4bc48dbf328ca74e318f020a6a22cb683666a611c0",
+      "actual": "a8cf9e5f4a6d35a0d0ebfe4bc48dbf328ca74e318f020a6a22cb683666a611c0",
+      "matches": true
+    },
+    ".claude/skills/solution-space-not-imposition/SKILL.md": {
+      "frozen": "095561e8f307928b286f7935d1d6f161b33ac56fe227d702c708f81a329bd47c",
+      "actual": "095561e8f307928b286f7935d1d6f161b33ac56fe227d702c708f81a329bd47c",
+      "matches": true
+    },
+    ".claude/skills/solver-first/SKILL.md": {
+      "frozen": "b80b1ca9fe5ebccb7170c39b97ca26f32c950650328d9a2f380c3793cb9cd61b",
+      "actual": "b80b1ca9fe5ebccb7170c39b97ca26f32c950650328d9a2f380c3793cb9cd61b",
+      "matches": true
+    },
+    ".claude/skills/verifier-before-record/SKILL.md": {
+      "frozen": "9b3a4aacd4b4006b2b7f01edada73b7c87b99bea6e754583558713bfc145e5ac",
+      "actual": "9b3a4aacd4b4006b2b7f01edada73b7c87b99bea6e754583558713bfc145e5ac",
+      "matches": true
+    },
+    "udt_echo_consistency_2026-10-01/WORK_ORDER.md": {
+      "frozen": "a27a13d8f6867e7b69f9372b001897aaee85bb49c874d3df2a108602970016e9",
+      "actual": "a27a13d8f6867e7b69f9372b001897aaee85bb49c874d3df2a108602970016e9",
+      "matches": true
+    },
+    "udt_echo_consistency_2026-10-01/SNAPSHOT.json": {
+      "frozen": "7558404485ca8b2e1441713dd25682b25f4f0a0e06f860817fa245ce60e7c877",
+      "actual": "7558404485ca8b2e1441713dd25682b25f4f0a0e06f860817fa245ce60e7c877",
+      "matches": true
+    },
+    "udt_positional_selection_whiteboard_2026-10-01/INITIAL_CANDIDATE.md": {
+      "frozen": "95ed91cca818cd6f1b7de819396f61ad2a24dc741f763334ed52e7bf769ad1b1",
+      "actual": "95ed91cca818cd6f1b7de819396f61ad2a24dc741f763334ed52e7bf769ad1b1",
+      "matches": true
+    },
+    "udt_positional_selection_whiteboard_2026-10-01/REPAIR.md": {
+      "frozen": "696a97a3b59c37a88a1044dae940df9a18414aabada55335f495217e4f226a97",
+      "actual": "696a97a3b59c37a88a1044dae940df9a18414aabada55335f495217e4f226a97",
+      "matches": true
+    },
+    "udt_positional_selection_whiteboard_2026-10-01/REVIEWED_RESULT.md": {
+      "frozen": "1b217aa30932d3986557abb7e95f7d1e8a8196946e75091794b1ef06058e2911",
+      "actual": "1b217aa30932d3986557abb7e95f7d1e8a8196946e75091794b1ef06058e2911",
+      "matches": true
+    },
+    "udt_finite_positional_clock_test_2026-10-01/SPACEFORM_DERIVATION.md": {
+      "frozen": "f5a8d91b349794862550453224459edfe0ec629b856b42e4a7dd4b7ac3ce1170",
+      "actual": "f5a8d91b349794862550453224459edfe0ec629b856b42e4a7dd4b7ac3ce1170",
+      "matches": true
+    },
+    "udt_finite_positional_clock_test_2026-10-01/math/DERIVATION.md": {
+      "frozen": "e5db76addbff2cd121579c20a3aa6eb0404d429abd86c9248d8e32fe3f7b3c2b",
+      "actual": "e5db76addbff2cd121579c20a3aa6eb0404d429abd86c9248d8e32fe3f7b3c2b",
+      "matches": true
+    },
+    "udt_finite_positional_clock_test_2026-10-01/REVIEWED_RESULT.md": {
+      "frozen": "2b0f71487c0f0de7a9b478b84ce2f570508ade27b95183c1e1cdf2ae547f15b5",
+      "actual": "2b0f71487c0f0de7a9b478b84ce2f570508ade27b95183c1e1cdf2ae547f15b5",
+      "matches": true
+    },
+    "udt_finite_selection_test_2026-10-01/INITIAL_DERIVATION.md": {
+      "frozen": "45c92396691b9278bea5b8cf0583cb77709292473d8a50b76280be3fa1b029cd",
+      "actual": "45c92396691b9278bea5b8cf0583cb77709292473d8a50b76280be3fa1b029cd",
+      "matches": true
+    },
+    "udt_finite_selection_test_2026-10-01/REVIEWED_RESULT.md": {
+      "frozen": "08014779c1e076e48e3a3da35ae0e39418071803a8baac1a1476eef1ee39dacc",
+      "actual": "08014779c1e076e48e3a3da35ae0e39418071803a8baac1a1476eef1ee39dacc",
+      "matches": true
+    },
+    "UDT_DEVELOPMENT.md": {
+      "frozen": "91d4326f79a196a75445833d6203778b7a5eb3a2f3c0beb8dde5b7313d7774e5",
+      "actual": "91d4326f79a196a75445833d6203778b7a5eb3a2f3c0beb8dde5b7313d7774e5",
+      "matches": true
+    },
+    "udt_time_live_production_survey_2026-10-01/capture.py": {
+      "frozen": "217cdbac5486e8a531552f4d74a15ce641299b65dafb5d58f7b60f4ba51781bc",
+      "actual": "217cdbac5486e8a531552f4d74a15ce641299b65dafb5d58f7b60f4ba51781bc",
+      "matches": true
+    },
+    "udt_finite_positional_clock_test_2026-10-01/math/kasner_higher.stdout": {
+      "frozen": "4748e6779990d976a0683bfe6a0f2f9a21605ad820c517d5e683c5dfb5062f1b",
+      "actual": "4748e6779990d976a0683bfe6a0f2f9a21605ad820c517d5e683c5dfb5062f1b",
+      "matches": true
+    },
+    "udt_finite_positional_clock_test_2026-10-01/math/kasner_higher.json": {
+      "frozen": "b909b8f8e330a71c06747b72db281ba9ef83e754e9b6eaee1c9fb85395e902dd",
+      "actual": "b909b8f8e330a71c06747b72db281ba9ef83e754e9b6eaee1c9fb85395e902dd",
+      "matches": true
+    }
+  },
+  "receipts": {
+    "checks/echo": {
+      "returncode": 0,
+      "stdout_match": true,
+      "stderr_match": true
+    },
+    "checks/saved_recomputation": {
+      "returncode": 0,
+      "stdout_match": true,
+      "stderr_match": true
+    },
+    "fidelity/exact_repaired": {
+      "returncode": 0,
+      "stdout_match": true,
+      "stderr_match": true
+    }
+  },
+  "review_sha256": "b93b172c202e6c2287aafb23b60eb86233087e039d542ee3ca037121ca89e94c",
+  "exposure": "Source-first completed before ECS1 parent candidate. Prior PSW1/FPC1/FST1 source outcomes and target relation exposed. No current peer proof/code/verdict read. Candidate freeze paths hashed without contents being treated as read evidence.",
+  "independence": {
+    "context": "fresh separate",
+    "model": "same inherited; exact id unavailable",
+    "implementation": "independent endpoint contraction and product curvature code, same Python/SymPy; saved arrivals inherited",
+    "argument": "source-first reconstruction then exposed challenge",
+    "human": "unavailable",
+    "formal_proof": "unavailable"
+  },
+  "new_science_executed_during_exposed_review": false,
+  "final_integration_review": "PENDING"
+}

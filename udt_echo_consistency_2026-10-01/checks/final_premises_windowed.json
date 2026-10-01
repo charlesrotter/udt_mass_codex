@@ -1,0 +1,25 @@
+{
+  "command": [
+    "env",
+    "GIT_CONFIG_COUNT=2",
+    "GIT_CONFIG_KEY_0=core.packedGitWindowSize",
+    "GIT_CONFIG_VALUE_0=32m",
+    "GIT_CONFIG_KEY_1=core.packedGitLimit",
+    "GIT_CONFIG_VALUE_1=128m",
+    "python3",
+    "verify_current_scientific_premises.py"
+  ],
+  "cwd": "/home/udt-admin/udt_mass_codex",
+  "started_utc": "2026-10-01T22:00:55.376571+00:00",
+  "duration_seconds": 406.60891100601293,
+  "returncode": 0,
+  "wall_timeout_seconds": null,
+  "cpu_timeout_seconds": null,
+  "address_space_bytes": 2147483648,
+  "memory_scope": "Process virtual address limit",
+  "maxrss_kib": 169444,
+  "forwarded_signals": [],
+  "stdout_sha256": "394e02c4ced55fc8f6480a3cc65b9ebd38f9c0cb553f897b10313b8ad2104b53",
+  "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "capture_sha256": "217cdbac5486e8a531552f4d74a15ce641299b65dafb5d58f7b60f4ba51781bc"
+}

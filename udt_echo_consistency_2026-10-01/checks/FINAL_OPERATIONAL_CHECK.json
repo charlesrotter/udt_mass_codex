@@ -1,0 +1,39 @@
+{
+  "utc": "2026-10-01T22:08:25.469329+00:00",
+  "source": "Actual parent tool executions immediately before this receipt; process and remote checks used host/network escalation.",
+  "process_check": {
+    "command": [
+      "ps",
+      "-C",
+      "python,python3,torchrun",
+      "-o",
+      "pid,etime,pcpu,pmem,args"
+    ],
+    "returncode": 1,
+    "stdout": "    PID     ELAPSED %CPU %MEM COMMAND\n",
+    "stderr": "",
+    "interpretation": "No processes with the queried names remained; this is not a claim about all host processes."
+  },
+  "remote_check": {
+    "command": [
+      "git",
+      "ls-remote",
+      "origin",
+      "refs/heads/grok"
+    ],
+    "returncode": 0,
+    "stdout": "187c5701f7ac5d0c591086c944f1a1568cf4bf12\trefs/heads/grok\n",
+    "stderr": ""
+  },
+  "preservation_check": {
+    "command": [
+      "git",
+      "ls-files",
+      "--others",
+      "--exclude-standard"
+    ],
+    "initial_untracked_names": 76,
+    "missing_initial_names": 0,
+    "protected_payloads": "Not opened, hashed, staged or mined; name inventory only."
+  }
+}

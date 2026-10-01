@@ -1,0 +1,10 @@
+{
+  "utc": "2026-10-01T21:43:36.024755+00:00",
+  "scope": "Parent proof/code freeze before execution and full peer source-first reads; two peer brief concordances already received.",
+  "sha256": {
+    "udt_echo_consistency_2026-10-01/INITIAL_DERIVATION.md": "3caf37187f22cc0cdf2b0334ea75bad362422cb4787c99eb41fa24ab34c25aff",
+    "udt_echo_consistency_2026-10-01/check_echo.py": "282b861afb7a6238dd3f98c5dd9484ee7160c6cbf2a62792cbf201d6a44d47b6",
+    "udt_echo_consistency_2026-10-01/WORK_ORDER.md": "a27a13d8f6867e7b69f9372b001897aaee85bb49c874d3df2a108602970016e9",
+    "udt_echo_consistency_2026-10-01/SNAPSHOT.json": "7558404485ca8b2e1441713dd25682b25f4f0a0e06f860817fa245ce60e7c877"
+  }
+}

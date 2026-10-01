@@ -214,7 +214,8 @@
         "udt_g300_metric_celestial_query_bundle_descent_2026-08-29/AUDIT_REPORT.md",
         "udt_finite_selection_test_2026-10-01/REVIEWED_RESULT.md",
         "udt_g311_universal_reciprocity_full_covariant_response_2026-09-01/EXACT_DERIVATION.md",
-        "udt_gr_filter_reconciliation_2026-09-09/AUTHORITY_RECORD.md"
+        "udt_gr_filter_reconciliation_2026-09-09/AUTHORITY_RECORD.md",
+        "udt_echo_consistency_2026-10-01/REVIEWED_RESULT.md"
       ],
       "required_conditions": [
         "P_NULL",
@@ -483,7 +484,8 @@
         "udt_shared_geometry_extension_2026-09-29/OWNER_CLARIFICATION.md",
         "udt_repository_cleanup_2026-09-27/local_clock_impact_2026-09-29/OWNER_CLARIFICATION.md",
         "udt_finite_native_pair_audit_2026-10-01/REVIEWED_RESULT.md",
-        "udt_finite_selection_test_2026-10-01/REVIEWED_RESULT.md"
+        "udt_finite_selection_test_2026-10-01/REVIEWED_RESULT.md",
+        "udt_echo_consistency_2026-10-01/REVIEWED_RESULT.md"
       ],
       "required_conditions": []
     },
@@ -1069,14 +1071,15 @@
     {
       "id": "O_PSW_ATTRIBUTION",
       "kind": "open_join",
-      "statement": "Received ticking and FNA1 supplied full-pair assembly are defined. FST1 proves a conditional symmetric-response degeneracy and relative-curvature clock discriminator. Native physical branch/comparison admission, actual response and empirical filter attachment remain OPEN; legitimate scalar state/calibration data are distinct from law selection. No physical scale or X_max selected.",
+      "statement": "Received ticking and FNA1 supplied full-pair assembly are defined. FST1 proves a conditional symmetric-response degeneracy and relative-curvature clock discriminator. Native physical branch/comparison admission, actual response and empirical filter attachment remain OPEN; legitimate scalar state/calibration data are distinct from law selection. No physical scale or X_max selected. ECS1 adds a necessary internal echo relation and exact restricted-sheet transverse ambiguity; neither selects native geometry nor establishes all-observer/field-sector nonuniqueness.",
       "sources": [
         "udt_positional_selection_whiteboard_2026-10-01/INITIAL_CANDIDATE.md",
         "udt_positional_selection_whiteboard_2026-10-01/REPAIR.md",
         "udt_positional_selection_whiteboard_2026-10-01/REVIEWED_RESULT.md",
         "udt_finite_positional_clock_test_2026-10-01/REVIEWED_RESULT.md",
         "udt_finite_native_pair_audit_2026-10-01/REVIEWED_RESULT.md",
-        "udt_finite_selection_test_2026-10-01/REVIEWED_RESULT.md"
+        "udt_finite_selection_test_2026-10-01/REVIEWED_RESULT.md",
+        "udt_echo_consistency_2026-10-01/REVIEWED_RESULT.md"
       ],
       "registry_ids": []
     },
@@ -1140,6 +1143,62 @@
       "required_conditions": [
         "C_FST_LOCAL_RESPONSE",
         "P_DDR",
+        "M_GEOMETRY"
+      ]
+    },
+    {
+      "id": "P_ECS_CLOCK",
+      "kind": "conditional_protocol",
+      "statement": "ECS1 supplied signed space-form clock sheet with positive initial proper L, parallel-prepared free clocks, fixed worldlines during emissions, ordinary proper time, regular direct first signal and ideal immediate return; q second-leg slope, pq totalecho; finite echo0<p<sqrt2. No native assignment or empirical data.",
+      "sources": [
+        "udt_echo_consistency_2026-10-01/INITIAL_DERIVATION.md"
+      ],
+      "registry_ids": []
+    },
+    {
+      "id": "C_ECS_TRANSVERSE",
+      "kind": "conditional_class",
+      "statement": "For ECS1 restricted-record mimic only: smooth Lorentz base h(x), positive-definite transverse H_AB(x,y), no mixed metric blocks and h independent of y; all preparation/clocks/rays confined to a fixed-y totally geodesic sheet with regular direct branches. Kinematic comparison, not assumed in an Einstein/DDR/native sector or all-observer class.",
+      "sources": [
+        "udt_echo_consistency_2026-10-01/INITIAL_DERIVATION.md"
+      ],
+      "registry_ids": []
+    },
+    {
+      "id": "R8ECS",
+      "kind": "argument",
+      "anchor": "r8ecs",
+      "title": "Finite internal echo discriminator and same-protocol Kasner failure",
+      "sources": [
+        "udt_echo_consistency_2026-10-01/INITIAL_DERIVATION.md",
+        "udt_echo_consistency_2026-10-01/REVIEWED_RESULT.md",
+        "udt_echo_consistency_2026-10-01/math/SOURCE_FIRST.md",
+        "udt_echo_consistency_2026-10-01/fidelity/SOURCE_FIRST.md",
+        "udt_finite_positional_clock_test_2026-10-01/math/kasner_higher.stdout"
+      ],
+      "registry_ids": [],
+      "required_conditions": [
+        "P_ECS_CLOCK",
+        "P_NULL",
+        "M_GEOMETRY"
+      ]
+    },
+    {
+      "id": "R8ECSM",
+      "kind": "argument",
+      "anchor": "r8ecsm",
+      "title": "Exact transverse ambiguity of the restricted clock sheet",
+      "sources": [
+        "udt_echo_consistency_2026-10-01/INITIAL_DERIVATION.md",
+        "udt_echo_consistency_2026-10-01/REVIEWED_RESULT.md",
+        "udt_echo_consistency_2026-10-01/math/SOURCE_FIRST.md",
+        "udt_echo_consistency_2026-10-01/fidelity/SOURCE_FIRST.md"
+      ],
+      "registry_ids": [],
+      "required_conditions": [
+        "C_ECS_TRANSVERSE",
+        "P_ECS_CLOCK",
+        "P_NULL",
         "M_GEOMETRY"
       ]
     }
@@ -2089,6 +2148,71 @@
       "from": "R9FST",
       "to": "R18",
       "kind": "context"
+    },
+    {
+      "from": "P_ECS_CLOCK",
+      "to": "R8ECS",
+      "kind": "hypothesis"
+    },
+    {
+      "from": "P_NULL",
+      "to": "R8ECS",
+      "kind": "hypothesis"
+    },
+    {
+      "from": "M_GEOMETRY",
+      "to": "R8ECS",
+      "kind": "hypothesis"
+    },
+    {
+      "from": "C_ECS_TRANSVERSE",
+      "to": "R8ECSM",
+      "kind": "hypothesis"
+    },
+    {
+      "from": "P_ECS_CLOCK",
+      "to": "R8ECSM",
+      "kind": "hypothesis"
+    },
+    {
+      "from": "P_NULL",
+      "to": "R8ECSM",
+      "kind": "hypothesis"
+    },
+    {
+      "from": "M_GEOMETRY",
+      "to": "R8ECSM",
+      "kind": "hypothesis"
+    },
+    {
+      "from": "R8",
+      "to": "R8ECS",
+      "kind": "proof"
+    },
+    {
+      "from": "R6",
+      "to": "R8ECS",
+      "kind": "proof"
+    },
+    {
+      "from": "R8ECS",
+      "to": "R8ECSM",
+      "kind": "proof"
+    },
+    {
+      "from": "R5",
+      "to": "R8ECSM",
+      "kind": "context"
+    },
+    {
+      "from": "R8ECS",
+      "to": "R18",
+      "kind": "context"
+    },
+    {
+      "from": "R8ECSM",
+      "to": "R18",
+      "kind": "context"
     }
   ],
   "sources_sha256": {
@@ -2254,7 +2378,12 @@
     "udt_finite_selection_test_2026-10-01/fidelity/SOURCE_FIRST.md": "58148093c2c7ce21cc4115bf7f158ff9f6d81f4a682a9d3d8acaf3212586d639",
     "udt_finite_selection_test_2026-10-01/fidelity/SOURCE_FIRST_PRECISION.md": "34b3854fdfcae124daec3c842d77d2878ef24957dfcd396fca71b5fefd4ef744",
     "udt_g311_universal_reciprocity_full_covariant_response_2026-09-01/EXACT_DERIVATION.md": "4fd4ca84d353018c02e32d49cf261de3472b3fafd74b0f268b0960653bdfd307",
-    "udt_g163_xmax_dependency_reversal_audit_2026-08-18/AUDIT_REPORT.md": "e7eda779c8496f269a0e94060a5824dd79b2b147af8186277236982ec2708670"
+    "udt_g163_xmax_dependency_reversal_audit_2026-08-18/AUDIT_REPORT.md": "e7eda779c8496f269a0e94060a5824dd79b2b147af8186277236982ec2708670",
+    "udt_echo_consistency_2026-10-01/INITIAL_DERIVATION.md": "3caf37187f22cc0cdf2b0334ea75bad362422cb4787c99eb41fa24ab34c25aff",
+    "udt_echo_consistency_2026-10-01/REVIEWED_RESULT.md": "448a5544104d534657c24dfc74481128c2c9deb1d0f87d3e5bbd71a2b2ed1594",
+    "udt_echo_consistency_2026-10-01/math/SOURCE_FIRST.md": "ce25b78179daaea01c28a692e2c642b7764f5023a65672fb9b4ebb13b3c2157f",
+    "udt_echo_consistency_2026-10-01/fidelity/SOURCE_FIRST.md": "f738667198c938133ae5866a9fa3221d517a9bad69b24da92af39ed28be38551",
+    "udt_finite_positional_clock_test_2026-10-01/math/kasner_higher.stdout": "4748e6779990d976a0683bfe6a0f2f9a21605ad820c517d5e683c5dfb5062f1b"
   },
   "impact_policy": "Any changed source or registry row flags its mapped positive and negative central arguments and every reachable central descendant for review; no automatic truth reversal or regrading.",
   "review_support": [
@@ -3162,6 +3291,62 @@
         "R18",
         "R8FST",
         "R9FST"
+      ]
+    },
+    {
+      "path": "udt_echo_consistency_2026-10-01/math/CANDIDATE_REVIEW.md",
+      "sha256": "029ec0d7c3f91e27395f9a60877de6ad7f4fd89d3add6bec6108888a36c4bf07",
+      "role": "review_evidence",
+      "targets": [
+        "R5",
+        "R6",
+        "R8",
+        "R16",
+        "R18",
+        "R8ECS",
+        "R8ECSM"
+      ]
+    },
+    {
+      "path": "udt_echo_consistency_2026-10-01/fidelity/CANDIDATE_REVIEW.md",
+      "sha256": "b93b172c202e6c2287aafb23b60eb86233087e039d542ee3ca037121ca89e94c",
+      "role": "review_evidence",
+      "targets": [
+        "R5",
+        "R6",
+        "R8",
+        "R16",
+        "R18",
+        "R8ECS",
+        "R8ECSM"
+      ]
+    },
+    {
+      "path": "udt_echo_consistency_2026-10-01/fidelity/IMPLEMENTATION_REPAIR.md",
+      "sha256": "17c6ff973eef73f0257f53ca05c4877fa49308c31c0aabdd941b5ba8a66b6385",
+      "role": "review_evidence",
+      "targets": [
+        "R5",
+        "R6",
+        "R8",
+        "R16",
+        "R18",
+        "R8ECS",
+        "R8ECSM"
+      ]
+    },
+    {
+      "path": "udt_echo_consistency_2026-10-01/DESCENDANT_REVIEW.md",
+      "sha256": "8e49ba401f9cbdc2a9649b179d509e2a5065e9852ffdb023bed6d6c1c423b249",
+      "role": "review_evidence",
+      "targets": [
+        "R5",
+        "R6",
+        "R8",
+        "R16",
+        "R18",
+        "R8ECS",
+        "R8ECSM"
       ]
     }
   ]

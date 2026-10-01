@@ -5,7 +5,7 @@ This bounded startup view is generated from its opening; edit that source.
 LIVE.md owns operational status; CURRENT_SCIENTIFIC_PREMISES.tsv owns exact grades.
 
 <!-- GENERATED_DEVELOPMENT_BEGIN -->
-**Continuous development — CDR1 with SGE1, LKT1, GCA1, PCW1, CES1, CCR1, PRI1, TRI1, NGD1, TDS1, TPP1, TPS1, PSW1, FPC1, FNA1 and FST1, 2026-10-01.** This is the maintained
+**Continuous development — CDR1 with SGE1, LKT1, GCA1, PCW1, CES1, CCR1, PRI1, TRI1, NGD1, TDS1, TPP1, TPS1, PSW1, FPC1, FNA1, FST1 and ECS1, 2026-10-01.** This is the maintained
 scientific development. It is not canon or a new scientific-grade authority.
 The exact registry and reviewed sources own grades; LIVE owns operational status.
 Current review bindings and limits are recorded in section9; startup reads the
@@ -118,8 +118,16 @@ near/far tolerance bounds are available once an experiment and thresholds are
 given. No reference, observed filter pass or scale is selected. Historical W3
 law-reduction language is explicitly subordinated to current GR FILTER ONLY.
 Native branch admission and scalar state/calibration remain distinct questions;
-a field law need not choose a unique universe. Stop for discussion at this
-bounded selection-test return; no new physical premise is adopted.
+a field law need not choose a unique universe.
+ECS1 independently reconstructs a scale-free first/immediate-return relation,
+q=p/(2-p²), with total echo stretch pq and finite echo domain0<p<sqrt(2),
+for that specified prepared-clock family. The existing Kasner control fails it
+beyond leading order. An exact transverse-metric construction nevertheless
+preserves the entire measured clock sheet while changing4D curvature. Thus the
+relation is a conditional discriminator, not unique metric reconstruction or
+native physical selection. Neither all-observer nor field-sector nonuniqueness
+is proved. Stop for discussion at the reviewed echo-test return; no new physical
+premise is adopted.
 <!-- GENERATED_DEVELOPMENT_END -->
 
 ## Current next gate

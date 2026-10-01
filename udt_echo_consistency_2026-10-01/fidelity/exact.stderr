@@ -1,0 +1,8 @@
+Traceback (most recent call last):
+  File "/home/udt-admin/udt_mass_codex/udt_echo_consistency_2026-10-01/fidelity/check_fidelity.py", line 113, in <module>
+    'positive_plane_flat_transverse': geometry('positive',S.diag(-S.cos(x)**2,1,1,1),2,{0,1}),
+  File "/home/udt-admin/udt_mass_codex/udt_echo_consistency_2026-10-01/fidelity/check_fidelity.py", line 99, in geometry
+    equal(name+': scalar_invariant',scalar,expected_R)
+  File "/home/udt-admin/udt_mass_codex/udt_echo_consistency_2026-10-01/fidelity/check_fidelity.py", line 14, in equal
+    raise AssertionError((name, str(difference)))
+AssertionError: ('positive: scalar_invariant', '(sin(2*x)*tan(x) + cos(2*x) - 1)/(2*cos(x)**2)')

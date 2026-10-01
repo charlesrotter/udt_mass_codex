@@ -1,0 +1,5 @@
+# Preserved fidelity check normalization failure
+
+The initial exact capture exited1 after2.915279s at69,380KiB RSS,2GiB cap,no time cutoff. Its stderr reported the positive product scalar difference `(sin(2*x)*tan(x)+cos(2*x)-1)/(2*cos(x)**2)`. On the declared regular chart this is identically zero: sin(2x)tan(x)=2sin²x and cos(2x)-1=-2sin²x. SymPy simplify left the identity unevaluated. This is an equality-check canonicalization defect, not a failed curvature or endpoint identity.
+
+The frozen initial script is preserved byte-for-byte as check_fidelity_initial.py; the original PRECHECK_FREEZE hash still describes those bytes. Original exact.stdout/stderr/json stay fixed. Current check_fidelity.py applies expand_trig and trigsimp after simplify inside the equality checker. No inputs, expected values, equations, comparison domain, source files or scientific claims change. Previously reached endpoint checks are rerun; first-run stdout was empty, so no separate PASS receipt for those partial checks is asserted. Freeze the repair before the one rerun, under the existing granted slot and unchanged resource budget.

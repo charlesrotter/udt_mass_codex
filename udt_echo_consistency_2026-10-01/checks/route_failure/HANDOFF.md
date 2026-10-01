@@ -7,7 +7,7 @@ LIVE.md wins. Charles's latest “proceed” authorized the proposed independent
 signal/echo reconstruction, alternative-geometry test, two fresh reviews and one
 bounded repair cycle. Fixed WORK_ORDER.md, WORK_RECORD.md, REVIEWED_RESULT.md
 and DECISION_BRIEF.md are in `udt_echo_consistency_2026-10-01/`.
-UDT_DEVELOPMENT.md R8/R18 owns the maintained argument; the generated
+UDT_DEVELOPMENT R8/R18 owns the maintained argument; the generated
 CURRENT_RESEARCH_PROGRAM.md supplies orientation. Exact406 grades in
 CURRENT_SCIENTIFIC_PREMISES.tsv and CANON remain unchanged. No physical geometry,
 response, universal echo postulate, sign or scale is adopted.

@@ -1,22 +1,22 @@
 # LIVE — operational status
 
 <!-- STARTUP_CURRENT_BEGIN -->
-## CURRENT STATE — FST1 reviewed existing-commitment test after FNA1/FPC1 and CDR1, 2026-10-01
+## CURRENT STATE — ECS1 reviewed signal/echo discriminator after FST1/FPC1 and CDR1, 2026-10-01
 
 Work on `grok`; independently verify HEAD, synchronization and dirt.
-Charles's latest “proceeed” authorized FNA1's proposed bounded existing-commitment
-selection test, two source-first contexts, actual challenge and central integration.
-Fixed scope: `udt_finite_selection_test_2026-10-01/WORK_ORDER.md`; WORK_RECORD.md,
+Charles's latest “proceed” authorized the bounded independent echo reconstruction,
+alternative-geometry test, two fresh reviews and one bounded repair cycle.
+Fixed scope: `udt_echo_consistency_2026-10-01/WORK_ORDER.md`; WORK_RECORD.md,
 REVIEWED_RESULT.md and DECISION_BRIEF.md there identify the return. The maintained
-argument is integrated in UDT_DEVELOPMENT.md R8/R9/R16/R18. No physical premise,
-geometry/scale selection, registry grade or CANON change is adopted.
+argument is in UDT_DEVELOPMENT R8/R18. No physical premise, geometry/scale choice,
+registry grade or CANON change is adopted.
 
-Prior TPS1/PSW1/FPC1/FNA1 remain fixed evidence. FST1 used serial small exact
-checks and analytic review; no scientific repair was required. The central W3
-wording was corrected to current GR-filter authority with descendant review.
-No new GPU, field-evolution or ray campaign ran. Charles's no-timeout direction
-persists for authorized computation with finite/resource/manual stops. The broader
-numerical goal does not authorize a successor.
+Prior TPS1/PSW1/FPC1/FNA1/FST1 remain fixed evidence. ECS1 used short serial
+exact checks and two source-first/candidate reviews. A fidelity check's initial
+trig-normalization false negative and unchanged-science repair are preserved;
+no mathematical candidate repair was required. No new GPU or production run
+occurred. Charles's no-timeout direction persists with resource/finite/manual
+stops. The broader numerical goal does not authorize a successor.
 
 ### Honest claim
 
@@ -49,13 +49,13 @@ Protected: do not inspect, hash, stage, modify, mine or cite payloads without di
 
 ### Next gate
 
-The bounded existing-commitment test is complete. Stop for lay discussion.
-Use the FST1 decision brief, actual final attestations and captured repository
-checks for exact scope. Native branch admission and scalar state/calibration are
-separate discussion questions. A successor needs a concrete discriminating
-physical relation or justified comparison and its own bounded work order; no
-larger survey, new premise, calibration campaign or promotion begins automatically.
-Existing pauses and protected work remain.
+The bounded signal/echo investigation is complete. Stop for lay discussion.
+Use the ECS1 decision brief, actual final attestations and captured checks for
+exact scope. Native branch admission remains open; the restricted record's
+transverse ambiguity is not an all-observer or field-sector theorem. A successor
+needs a concrete physical relation or discriminating question and its own bounded
+work order. No universal echo law, new premise, empirical campaign or scientific
+promotion begins automatically. Existing pauses and protected work remain.
 No scientific worker was left running at this return; a later session must
 verify actual host state before making process claims. Prior TPS1 raw fields,
 checkpoints and large streams remain local-only and ignored; compact records

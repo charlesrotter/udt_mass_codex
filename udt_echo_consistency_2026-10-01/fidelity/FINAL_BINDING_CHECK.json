@@ -1,0 +1,43 @@
+{
+  "utc": "2026-10-01T21:55:26.225531+00:00",
+  "integration_freeze_sha256": "fc39bc30290a6261a6d34ccf181653632c07b2071e02fcfa3434c0ff0293935d",
+  "accepted_count": 12363,
+  "prior_count": 12299,
+  "changed": [
+    "CURRENT_RESEARCH_PROGRAM.md",
+    "HANDOFF.md",
+    "LIVE.md",
+    "UDT_DEVELOPMENT.md",
+    "development_reconstruction_2026-09-29/DEVELOPMENT_GRAPH.json",
+    "development_reconstruction_2026-09-29/RECENT_DISPOSITIONS.tsv"
+  ],
+  "new_count": 64,
+  "removed": [],
+  "all_accepted_file_hashes_match": true,
+  "protected_prefix_paths_hashed": 0,
+  "prior_record_matches_head": true,
+  "program_matches_orientation": true,
+  "source_pins": 168,
+  "source_and_review_support_hashes_match": true,
+  "later_returns": 43,
+  "new_hypothesis_edges_match": true,
+  "receipts": {
+    "checks/draft_coherence": {
+      "returncode": 0,
+      "hashes_match": true
+    },
+    "checks/prebinding_normal": {
+      "returncode": 1,
+      "hashes_match": true
+    },
+    "checks/route_failure/draft_coherence": {
+      "returncode": 1,
+      "hashes_match": true
+    },
+    "math/source_first_run": {
+      "returncode": 0,
+      "hashes_match": true
+    }
+  },
+  "scope": "Metadata/version/routing checks only; no scientific solver or inherited corpus reproof."
+}

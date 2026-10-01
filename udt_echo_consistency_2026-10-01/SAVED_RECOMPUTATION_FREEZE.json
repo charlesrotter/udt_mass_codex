@@ -1,0 +1,8 @@
+{
+  "utc": "2026-10-01T21:44:53.362955+00:00",
+  "sha256": {
+    "udt_echo_consistency_2026-10-01/recompute_saved.py": "fe65fb9b941e7b317d288d4c9b45e7af7068c76826d10a496af34969264e4a0e",
+    "udt_echo_consistency_2026-10-01/fidelity/exact_repaired.stdout": "db461fb0b8097e482c46ba8ae8c0237e08f843923aded002e0196ac2eeab7e64"
+  },
+  "exposure": "Parent read both full source-first proofs, check code, saved outputs and fidelity normalization repair after its own proof/code freeze."
+}

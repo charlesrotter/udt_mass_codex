@@ -1,0 +1,46 @@
+{
+  "utc": "2026-10-01T21:47:57.508846+00:00",
+  "reviewer": "/root/ecs_math",
+  "context": "separate context; inherited same model; no different-model, human, or formal review",
+  "verdict": "VERIFIED-WITH-CAVEATS",
+  "substantive_defects": [],
+  "repair_required": false,
+  "actual_scientific_checks": {
+    "own_pre_exposure_run": 47,
+    "own_pre_exposure_route": "synchronous Jacobi sheet, affine null frequency and product metric curvature",
+    "new_candidate_phase_scientific_runs": 0,
+    "parent_run_read": 56,
+    "parent_saved_fraction_run_read": 41
+  },
+  "candidate_binding": "all 41 candidate freeze hashes checked; parent stdout/stderr hashes checked against receipts",
+  "exposure": "Prior FPC formulas and proof read before source-first freeze; parent candidate/code read only after own proof/code freeze and run; peer computation output/code read; no peer candidate verdict read",
+  "survivor": "Finite conditional echo relation with domain and q-versus-total distinction; local Kasner cubic failure; exact restricted-sheet 4D transverse ambiguity",
+  "limits": [
+    "Not physical adoption or native admission",
+    "No all-observer/all-direction or field-sector uniqueness conclusion",
+    "No independent numerical or full Kasner replay",
+    "Final central integration still requires edition-bound review"
+  ],
+  "sha256": {
+    "udt_echo_consistency_2026-10-01/CANDIDATE_FREEZE.json": "42ad87d563def2f63db4626990fd255f2665345074af79d6a7816a5cb50c7b4b",
+    "udt_echo_consistency_2026-10-01/INITIAL_DERIVATION.md": "3caf37187f22cc0cdf2b0334ea75bad362422cb4787c99eb41fa24ab34c25aff",
+    "udt_echo_consistency_2026-10-01/check_echo.py": "282b861afb7a6238dd3f98c5dd9484ee7160c6cbf2a62792cbf201d6a44d47b6",
+    "udt_echo_consistency_2026-10-01/recompute_saved.py": "fe65fb9b941e7b317d288d4c9b45e7af7068c76826d10a496af34969264e4a0e",
+    "udt_echo_consistency_2026-10-01/checks/echo.json": "c69fd63bc71f16c2d6b535f02924d5e76a0118748ee6da549cadd5a1998bee8b",
+    "udt_echo_consistency_2026-10-01/checks/echo.stdout": "5d91d4a443b2b03968bd0db93599b2c3172eaed9862124e08f1418d0e6eecbef",
+    "udt_echo_consistency_2026-10-01/checks/echo.stderr": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "udt_echo_consistency_2026-10-01/checks/saved_recomputation.json": "c2a60021b7ac800fbe252d334360993462fce7167673883b272a5ac3cde23cc2",
+    "udt_echo_consistency_2026-10-01/checks/saved_recomputation.stdout": "09e69c23d417c3f073a9f4d2264feb3e1a49fe32b1276772e90b2e05ff4a7e9f",
+    "udt_echo_consistency_2026-10-01/checks/saved_recomputation.stderr": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "udt_echo_consistency_2026-10-01/fidelity/check_fidelity.py": "ef2b74a79da7aea1c2eac964b764138ba716e25266e244c4755e0605e68599d3",
+    "udt_echo_consistency_2026-10-01/fidelity/exact_repaired.stdout": "db461fb0b8097e482c46ba8ae8c0237e08f843923aded002e0196ac2eeab7e64",
+    "udt_echo_consistency_2026-10-01/math/SOURCE_FIRST.md": "ce25b78179daaea01c28a692e2c642b7764f5023a65672fb9b4ebb13b3c2157f",
+    "udt_echo_consistency_2026-10-01/math/check_source_first.py": "c79b5a33f16fb446d11683ec73f784861ec8d8457c69468d46e975c20d5e0eda",
+    "udt_echo_consistency_2026-10-01/math/source_first_run.json": "f98aea0bb936e5f3db1471f5d6db8f852530934a1e13b3ced1ac79df11b8af24",
+    "udt_echo_consistency_2026-10-01/math/source_first_run.stdout": "8eef4045621ad92864b22dc41702ed4827a91a5956378a31ca05e94a5a9aecdf",
+    "udt_echo_consistency_2026-10-01/math/CANDIDATE_REVIEW.md": "029ec0d7c3f91e27395f9a60877de6ad7f4fd89d3add6bec6108888a36c4bf07",
+    "udt_finite_positional_clock_test_2026-10-01/math/DERIVATION.md": "e5db76addbff2cd121579c20a3aa6eb0404d429abd86c9248d8e32fe3f7b3c2b",
+    "udt_finite_positional_clock_test_2026-10-01/math/kasner_higher.stdout": "4748e6779990d976a0683bfe6a0f2f9a21605ad820c517d5e683c5dfb5062f1b",
+    "udt_finite_positional_clock_test_2026-10-01/check_saved_kasner_readouts.py": "aa59407b696c11ce45300169c89082731bf939308119584cc8dca7a7a39b03dc"
+  }
+}
