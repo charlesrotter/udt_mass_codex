@@ -1,0 +1,78 @@
+{
+  "utc": "2026-10-01T20:16:06.086359+00:00",
+  "reviewer": "/root/fna_math",
+  "stage": "EXPOSED_ADVERSARIAL_CANDIDATE_REVIEW",
+  "verdict": "VERIFIED-WITH-CAVEATS",
+  "scope": "Explicit conditional finite representation only, no native physical admission",
+  "head": "7c17eb8cdb97a541e1bec4cb0c9e1f5ba3977091",
+  "branch": "grok",
+  "candidate_sha256": "dccac2caa74757fd6ae48486a8359630c1fb5d30508fd50dc6adf2b06307704d",
+  "candidate_freeze_sha256": "c6280632e29e3f292db50803d4f505d37cc5f462e13e66c544928cbab9cec90d",
+  "candidate_freeze_all_bindings_match": true,
+  "report_sha256": "be62e64e917925bbc64a10d707e3f1aebb7e7749a324094d22ab66a931aa9df9",
+  "additional_sources_sha256": {
+    "udt_g201_primary_metric_phi_jet_regime_amplitude_2026-08-21/EXACT_DERIVATION.md": "8c4361c3e11c7eaece17b7da9b7c47ee372989b99f495a68a1ec87d4a8b31951",
+    "udt_g260_gr_quiet_angular_nondiscard_audit_2026-08-25/EXACT_DERIVATION.md": "de32fc105dfe9cdbc964959a67c46a0eee58f95566b2df4f2ce115c48b6776da"
+  },
+  "independence": {
+    "context": "fresh separate context, then continued source-first reviewer",
+    "model": "same inherited model; exact exposed model identifier unavailable",
+    "different_model": "UNTESTED",
+    "human": "UNTESTED",
+    "formal_proof": "UNTESTED",
+    "argument": "source-first ambient reconstruction before parent candidate; current stage exposed",
+    "implementation": "independently written stdlib Fraction versus parent SymPy; shared supplied experiment"
+  },
+  "exposure": [
+    "source-first artifacts listed in SOURCE_HASHES.json",
+    "parent INITIAL_DERIVATION.md",
+    "parent original/repaired code and check receipts",
+    "CHECK_REPAIR.md and repair freeze",
+    "saved-row recomputation code/freeze/receipt",
+    "G201/G260 exact equations",
+    "other reviewer angular source pin list only; no argument or verdict"
+  ],
+  "checks": {
+    "own_prior_exact_assertions": 2953,
+    "own_prior_cases": {
+      "signed_spaceforms": 30,
+      "flat": 1
+    },
+    "parent_repaired_symbolic_checks_inspected": 56,
+    "saved_row_assertions_inspected": 300,
+    "new_scientific_CPU_run": false,
+    "analytic_challenges": [
+      "whole-ray regularity for both signs",
+      "germ equivalence and density calibration",
+      "m derivative and spacetime nonintegrability",
+      "full four-frame transport and orientation",
+      "primary chart boundary and phi typing",
+      "six-known-query reconstruction",
+      "angular amplitudes versus imported vacuum comparator",
+      "native admission and selection boundary"
+    ]
+  },
+  "defects": [
+    {
+      "type": "previous parent implementation defect already repaired",
+      "description": "Missing symbolic kappa substitution in final chart assertion",
+      "smallest_repair": "Only substitute previously declared kappa=(p\u00b2-1)/m\u00b2 in assertion",
+      "verified_repair": true,
+      "scientific_candidate_changed": false
+    }
+  ],
+  "unresolved_substantive_objections": [],
+  "requested_scientific_repair": null,
+  "skipped": [
+    "new full trajectory solve",
+    "historical broad package tests",
+    "full406",
+    "final central integration attestation"
+  ],
+  "limitations": [
+    "supplied geometry/query/calibration",
+    "conditional W1/W4/W5 source statuses",
+    "no native physical population/sign/scale/history selection",
+    "no additional GR effect or physical X_max identification"
+  ]
+}

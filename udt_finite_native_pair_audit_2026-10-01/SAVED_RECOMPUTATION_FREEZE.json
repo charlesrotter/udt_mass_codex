@@ -1,0 +1,8 @@
+{
+  "utc": "2026-10-01T20:13:03.823242+00:00",
+  "files": {
+    "udt_finite_native_pair_audit_2026-10-01/recompute_saved.py": "39753391edb1b3121772cb231fbfa0a5fd0fd8821291135f5c05f9f75bef6fc8",
+    "udt_finite_native_pair_audit_2026-10-01/math/ambient.stdout": "24018a4136fe1bc4654f445bdee162f47cdd15ec4292e9d92a8c1f1dc3158d35"
+  },
+  "resources": "one serial CPU check, 2GiB address cap, no elapsed/CPU timeout"
+}

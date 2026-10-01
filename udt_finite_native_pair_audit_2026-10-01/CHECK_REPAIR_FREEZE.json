@@ -1,0 +1,10 @@
+{
+  "utc": "2026-10-01T20:09:06.822399+00:00",
+  "scope": "One-line missing-substitution repair, initial scientific proof unchanged.",
+  "sha256": {
+    "udt_finite_native_pair_audit_2026-10-01/check_pair.py": "2e26367212ecd5d76171c24e9b318e73066dac2aeebb8b1da03b4c5a3f7cdd1e",
+    "udt_finite_native_pair_audit_2026-10-01/check_pair_repaired.py": "a408a9c2c82b6d93bdda109bd03d7d7099b9034b65b4d0dbd03fa3ca45b2d8a2",
+    "udt_finite_native_pair_audit_2026-10-01/CHECK_REPAIR.md": "5ef228e76c7d1d0cae6c063ce64140cf428f9390f2b2b1ee3474ae621c8ea3b7",
+    "udt_finite_native_pair_audit_2026-10-01/INITIAL_DERIVATION.md": "dccac2caa74757fd6ae48486a8359630c1fb5d30508fd50dc6adf2b06307704d"
+  }
+}

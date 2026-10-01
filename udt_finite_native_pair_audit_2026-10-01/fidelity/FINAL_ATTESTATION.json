@@ -1,18 +1,23 @@
 {
-  "status": "REVIEWED_WITH_LIMITS",
-  "scope": "FNA1 conditional finite full-pair representation and aligned full transport; supplied geometry only. Native physical admission, sign/scale, additional prediction, full recovery and X_max OPEN. Same-model separate-context review; one final source-meaning precision repair rereviewed. Prior evidence retains original scope; no registry/CANON promotion.",
-  "reviewers": [
-    {
-      "context": "/root/fna_math",
-      "attestation": "udt_finite_native_pair_audit_2026-10-01/math/FINAL_ATTESTATION.json",
-      "sha256": "d9728a41f88970f99384c0007bb43230959bb36f08b2a2923740c235dfdbdf0f"
-    },
-    {
-      "context": "/root/fna_fidelity",
-      "attestation": "udt_finite_native_pair_audit_2026-10-01/fidelity/FINAL_ATTESTATION.json",
-      "sha256": "81e88ae1bcecca97aadf98c9b50a28b9a716b593421579d3c0c52dd3334cdc8e"
-    }
-  ],
+  "status": "FINAL_IMMUTABLE",
+  "verdict": "ACCEPT_WITH_LIMITS",
+  "utc": "2026-10-01T20:25:09.348570+00:00",
+  "context": "/root/fna_fidelity",
+  "model": "same inherited model; exact runtime identifier not independently exposed",
+  "scope": "Actual FNA1 frozen central integration and conditional finite pair representation; no native physical admission, grade promotion, canon or archive reproof",
+  "exposure": "Independent source-first sources/challenges and angular supplement; exposed direct candidate and code/history review; actual six central diffs, fixed final package records, peer candidate review, initial/revised integration maps and actual meaning repair reread",
+  "independence": {
+    "context": "actual separate reviewer context",
+    "model": "same inherited; different-model UNTESTED",
+    "implementation": "no scientific rerun/independent program; documentary hash/diff checks only",
+    "argument": "source-first source reconstruction and challenge, followed by exposed direct and final argument review",
+    "human_specialist": "UNTESTED",
+    "formal_proof": "UNTESTED"
+  },
+  "report_path": "udt_finite_native_pair_audit_2026-10-01/fidelity/FINAL_REVIEW.md",
+  "report_sha256": "c4368f5fa2e822a99a4730c254cdfddc47e6efadd527afac4c359349d9ddadb9",
+  "freeze_path": "udt_finite_native_pair_audit_2026-10-01/INTEGRATION_FREEZE.json",
+  "freeze_sha256": "48d030f7e441a9f1e7671d57c92cfe1cb9100d7d31b260cc57248b339668ab63",
   "accepted_sha256": {
     ".gitignore": "8a2710f5923ba86b41a461e040282ecd520ce155cb17b09458e1d1d613ddeb7a",
     "AGENTS.md": "bcab9b67305e0314af9eaf25162d203660eae8f2ff4fd87d17e83588970ef38d",
@@ -12264,5 +12269,18 @@
     "udt_finite_native_pair_audit_2026-10-01/fidelity/SOURCE_FIRST_ANGULAR_SUPPLEMENT.md": "1cae27f8215aee338cea0b1cd86e3531bedb1ac4c4a63e1a5ca5010f6d48f4e2",
     "udt_finite_native_pair_audit_2026-10-01/fidelity/CANDIDATE_REVIEW.json": "d2c4eed69a9b7f6e10727c817b3c1bbffc03dfd095ae6c2ac52b242e3096a6d3",
     "udt_finite_native_pair_audit_2026-10-01/INTEGRATION_INITIAL_FREEZE.json": "af42157f86c0fad9865825ec77fc0ec39b20773236a90e711981c828d98c036f"
-  }
+  },
+  "checks": {
+    "changed_new_current_bytes_checked": 63,
+    "current_hash_mismatches": 0,
+    "inherited_binding_count_compared": 12187,
+    "unchanged_prior_science_source_pins": true,
+    "prior_entries_removed": 0,
+    "initial_untracked_names_preserved": 76,
+    "protected_payloads_read_or_hashed": 0,
+    "scientific_runs_in_context": 0
+  },
+  "resolved_objection": "G298/G300 natural pair-one-jet projections are mathematical alternatives; physical selection OPEN, explicitly corrected and rereviewed",
+  "unresolved_defects": [],
+  "parent_closure_gates": "Actual second final attestation, normal development, 57 maintenance tests, full406, exact staging/preservation/process checks and commit/push remain parent-owned; not claimed passed here"
 }

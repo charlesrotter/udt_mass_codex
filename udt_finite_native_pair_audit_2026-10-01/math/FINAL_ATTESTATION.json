@@ -1,18 +1,61 @@
 {
-  "status": "REVIEWED_WITH_LIMITS",
-  "scope": "FNA1 conditional finite full-pair representation and aligned full transport; supplied geometry only. Native physical admission, sign/scale, additional prediction, full recovery and X_max OPEN. Same-model separate-context review; one final source-meaning precision repair rereviewed. Prior evidence retains original scope; no registry/CANON promotion.",
-  "reviewers": [
-    {
-      "context": "/root/fna_math",
-      "attestation": "udt_finite_native_pair_audit_2026-10-01/math/FINAL_ATTESTATION.json",
-      "sha256": "d9728a41f88970f99384c0007bb43230959bb36f08b2a2923740c235dfdbdf0f"
+  "status": "FINAL_IMMUTABLE",
+  "context": "/root/fna_math",
+  "verdict": "ACCEPT_WITH_LIMITS",
+  "reviewed_utc": "2026-10-01T20:24:40.539024+00:00",
+  "head_at_review": "7c17eb8cdb97a541e1bec4cb0c9e1f5ba3977091",
+  "freeze_path": "udt_finite_native_pair_audit_2026-10-01/INTEGRATION_FREEZE.json",
+  "freeze_sha256": "48d030f7e441a9f1e7671d57c92cfe1cb9100d7d31b260cc57248b339668ab63",
+  "report_path": "udt_finite_native_pair_audit_2026-10-01/math/FINAL_REVIEW.md",
+  "report_sha256": "04c01c60c0d29e34220a685b46c450fac6a9ecbf2713c21e9847e828047ee76c",
+  "model": "Same inherited parent model; separate source-first context; exact backend identifier unavailable. No different-model or human claim.",
+  "exposure": "Independent source-first ambient/null-ribbon derivation and Fraction implementation before parent proof/code/output. Then exposed candidate review and final integration review; parent received brief concordance before written candidate freeze. Actual corrected G298/G300 descendant prose reread against exact source audits before final attestation.",
+  "review_scope": "Changed central R6/R8/R18, orientation/review records, typed graph/dispositions, operational adapters and fixed FNA1 result/decision/descendant/work/repair records. Byte correspondence checked across complete accepted map; no full inherited-source scientific reproof.",
+  "binding_checks": {
+    "old_graph_source_pins_preserved": true,
+    "old_graph_edges_preserved": true,
+    "old_review_support_preserved": true,
+    "old_disposition_rows": 40,
+    "new_disposition_rows": 41,
+    "old_disposition_prefix_preserved": true,
+    "generated_orientation_matches": true,
+    "registry_and_canon_unchanged": {
+      "CURRENT_SCIENTIFIC_PREMISES.tsv": true,
+      "CANON.md": true
     },
-    {
-      "context": "/root/fna_fidelity",
-      "attestation": "udt_finite_native_pair_audit_2026-10-01/fidelity/FINAL_ATTESTATION.json",
-      "sha256": "81e88ae1bcecca97aadf98c9b50a28b9a716b593421579d3c0c52dd3334cdc8e"
-    }
-  ],
+    "freeze_sha256": "48d030f7e441a9f1e7671d57c92cfe1cb9100d7d31b260cc57248b339668ab63",
+    "accepted_files_hashed": 12250,
+    "all_accepted_hashes_match": true,
+    "prior_files": 12193,
+    "unchanged_prior_hash_bindings": 12187,
+    "changed_prior_files": [
+      "CURRENT_RESEARCH_PROGRAM.md",
+      "HANDOFF.md",
+      "LIVE.md",
+      "UDT_DEVELOPMENT.md",
+      "development_reconstruction_2026-09-29/DEVELOPMENT_GRAPH.json",
+      "development_reconstruction_2026-09-29/RECENT_DISPOSITIONS.tsv"
+    ],
+    "new_files": 57,
+    "prior_map_missing_paths": 0,
+    "initial_integration_freeze_sha256": "af42157f86c0fad9865825ec77fc0ec39b20773236a90e711981c828d98c036f",
+    "revised_paths_from_initial": [
+      "development_reconstruction_2026-09-29/DEVELOPMENT_GRAPH.json",
+      "udt_finite_native_pair_audit_2026-10-01/DESCENDANT_REVIEW.md",
+      "udt_finite_native_pair_audit_2026-10-01/INTEGRATION_REPAIR.md",
+      "udt_finite_native_pair_audit_2026-10-01/WORK_RECORD.md"
+    ],
+    "added_from_initial": [
+      "udt_finite_native_pair_audit_2026-10-01/INTEGRATION_INITIAL_FREEZE.json"
+    ],
+    "scope": "Byte correspondence, not inherited-corpus scientific reproof; final revised prose was actually rereviewed."
+  },
+  "binding_check_path": "udt_finite_native_pair_audit_2026-10-01/math/FINAL_BINDING_CHECK.json",
+  "binding_check_sha256": "5a7703dae10e3a82be6f58f288f2ee736a80c1a606da7aa65ec967a43890bd70",
+  "source_meaning_repair": "Initial descendant phrase Multiple natural physical projections changed to mathematical pair-one-jet alternatives with physical selection OPEN. Actual rereview completed; equations/candidate unchanged. Original integration freeze preserved.",
+  "limits": "Conditional supplied finite space-form experiment and complete regular pair/full transport. Native physical admission, geometry/sign/scale/history selection, additional GR prediction, DDR response and X_max remain OPEN.",
+  "omissions": "No new scientific CPU run in final review, full corpus/source-package recertification, TPS1 raw replay, FPC1 Kasner/echo replay, empirical or all-regime recovery test, different-model/human/formal review or protected payload access.",
+  "remaining_parent_gates": "Bind both actual final attestations; normal/57-maintenance/full406; synchronization, runtime, preservation, staging and authorized commit/push. These gates are not pre-certified.",
   "accepted_sha256": {
     ".gitignore": "8a2710f5923ba86b41a461e040282ecd520ce155cb17b09458e1d1d613ddeb7a",
     "AGENTS.md": "bcab9b67305e0314af9eaf25162d203660eae8f2ff4fd87d17e83588970ef38d",

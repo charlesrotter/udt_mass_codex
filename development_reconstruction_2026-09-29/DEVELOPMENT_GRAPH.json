@@ -48,7 +48,8 @@
       "sources": [
         "UDT_RECIPROCAL_C_FOUNDING_POSTULATE_DERIVATION_RESULTS.md",
         "udt_founding_phi_ownership_morphism_audit_2026-08-05/AUDIT_REPORT.md",
-        "udt_positional_joint_compatibility_2026-09-14/CANDIDATE.md"
+        "udt_positional_joint_compatibility_2026-09-14/CANDIDATE.md",
+        "udt_finite_native_pair_audit_2026-10-01/REVIEWED_RESULT.md"
       ],
       "required_conditions": [
         "P_FOUNDING"
@@ -87,7 +88,8 @@
       "sources": [
         "udt_g176_completed_pair_dual_reciprocity_consolidation_2026-08-19/EXACT_DERIVATION.md",
         "udt_g179_complete_coframe_pair_pullback_extension_2026-08-19/EXACT_DERIVATION.md",
-        "udt_g180_completed_pair_smooth_family_descent_2026-08-19/EXACT_DERIVATION.md"
+        "udt_g180_completed_pair_smooth_family_descent_2026-08-19/EXACT_DERIVATION.md",
+        "udt_finite_native_pair_audit_2026-10-01/REVIEWED_RESULT.md"
       ],
       "required_conditions": [
         "P_PAIR"
@@ -114,7 +116,8 @@
         "udt_local_kernel_symmetry_release_2026-09-13/REVIEWED_RESULT.md",
         "udt_native_angular_premise_audit_2026-09-13/REVIEWED_RESULT.md",
         "udt_native_field_connection_audit_2026-09-13/REVIEWED_AUDIT.md",
-        "udt_positional_joint_compatibility_2026-09-14/CANDIDATE.md"
+        "udt_positional_joint_compatibility_2026-09-14/CANDIDATE.md",
+        "udt_finite_native_pair_audit_2026-10-01/REVIEWED_RESULT.md"
       ],
       "required_conditions": [
         "M_GEOMETRY"
@@ -137,7 +140,8 @@
         "udt_finite_separation_law_2026-09-28/REVIEWED_RESULT.md",
         "udt_joint_signal_shape_discrimination_2026-09-13/REVIEWED_RESULT.md",
         "udt_signal_chain_banking_2026-09-13/BANKING_RECORD.md",
-        "udt_finite_positional_clock_test_2026-10-01/REVIEWED_RESULT.md"
+        "udt_finite_positional_clock_test_2026-10-01/REVIEWED_RESULT.md",
+        "udt_finite_native_pair_audit_2026-10-01/REVIEWED_RESULT.md"
       ],
       "required_conditions": [
         "M_GEOMETRY",
@@ -162,7 +166,8 @@
         "udt_lorentz_kernel_transport_2026-09-29/INITIAL_CANDIDATE.md",
         "udt_lorentz_kernel_transport_2026-09-29/REVIEWED_RESULT.md",
         "udt_founding_phi_ownership_morphism_audit_2026-08-05/EXACT_DERIVATION.md",
-        "udt_g274_projective_pair_position_network_descent_2026-08-26/EXACT_DERIVATION.md"
+        "udt_g274_projective_pair_position_network_descent_2026-08-26/EXACT_DERIVATION.md",
+        "udt_finite_native_pair_audit_2026-10-01/REVIEWED_RESULT.md"
       ],
       "required_conditions": [
         "P_NULL"
@@ -198,7 +203,15 @@
         "udt_g212_observer_equivalence_history_bridge_whiteboard_2026-08-22/AUDIT_REPORT.md",
         "udt_positional_geometry_clock_connection_2026-09-28/OWNER_STATEMENT.md",
         "udt_shared_geometry_extension_2026-09-29/OWNER_CLARIFICATION.md",
-        "udt_repository_cleanup_2026-09-27/local_clock_impact_2026-09-29/OWNER_CLARIFICATION.md"
+        "udt_repository_cleanup_2026-09-27/local_clock_impact_2026-09-29/OWNER_CLARIFICATION.md",
+        "udt_finite_native_pair_audit_2026-10-01/INITIAL_DERIVATION.md",
+        "udt_finite_native_pair_audit_2026-10-01/REVIEWED_RESULT.md",
+        "udt_finite_native_pair_audit_2026-10-01/math/SOURCE_FIRST.md",
+        "udt_finite_native_pair_audit_2026-10-01/fidelity/SOURCE_FIRST_ANGULAR_SUPPLEMENT.md",
+        "udt_g201_primary_metric_phi_jet_regime_amplitude_2026-08-21/EXACT_DERIVATION.md",
+        "udt_g260_gr_quiet_angular_nondiscard_audit_2026-08-25/EXACT_DERIVATION.md",
+        "udt_g298_causal_diamond_to_pair_germ_transfer_2026-08-29/AUDIT_REPORT.md",
+        "udt_g300_metric_celestial_query_bundle_descent_2026-08-29/AUDIT_REPORT.md"
       ],
       "required_conditions": [
         "P_NULL",
@@ -458,14 +471,15 @@
         "udt_g212_observer_equivalence_history_bridge_whiteboard_2026-08-22/AUDIT_REPORT.md",
         "udt_positional_geometry_clock_connection_2026-09-28/OWNER_STATEMENT.md",
         "udt_shared_geometry_extension_2026-09-29/OWNER_CLARIFICATION.md",
-        "udt_repository_cleanup_2026-09-27/local_clock_impact_2026-09-29/OWNER_CLARIFICATION.md"
+        "udt_repository_cleanup_2026-09-27/local_clock_impact_2026-09-29/OWNER_CLARIFICATION.md",
+        "udt_finite_native_pair_audit_2026-10-01/REVIEWED_RESULT.md"
       ],
       "required_conditions": []
     },
     {
       "id": "P_FOUNDING",
       "kind": "declared_premises",
-      "statement": "F1–F4 as stated in R1/R2; composition, nontriviality and readout are distinct inputs"
+      "statement": "F1\u2013F4 as stated in R1/R2; composition, nontriviality and readout are distinct inputs"
     },
     {
       "id": "P_PAIR",
@@ -1044,12 +1058,13 @@
     {
       "id": "O_PSW_ATTRIBUTION",
       "kind": "open_join",
-      "statement": "PSW1/FPC1 received ticking is defined; physical prepared net/matched positional attribution and complete trace-free response identification remain OPEN/UNADOPTED. Exact supplied finite controls and the conditional all-labs net test do not select native geometry, scale or X_max.",
+      "statement": "PSW1/FPC1 received ticking is defined; FNA1 explicitly constructs its supplied finite full pair and aligned transport. Native physical geometry/sign/scale, net/matched positional attribution, full recovery and complete response identification remain OPEN/UNADOPTED. Representation alone does not select an additional prediction or X_max.",
       "sources": [
         "udt_positional_selection_whiteboard_2026-10-01/INITIAL_CANDIDATE.md",
         "udt_positional_selection_whiteboard_2026-10-01/REPAIR.md",
         "udt_positional_selection_whiteboard_2026-10-01/REVIEWED_RESULT.md",
-        "udt_finite_positional_clock_test_2026-10-01/REVIEWED_RESULT.md"
+        "udt_finite_positional_clock_test_2026-10-01/REVIEWED_RESULT.md",
+        "udt_finite_native_pair_audit_2026-10-01/REVIEWED_RESULT.md"
       ],
       "registry_ids": []
     }
@@ -1939,6 +1954,16 @@
       "from": "O_PSW_ATTRIBUTION",
       "to": "R18",
       "kind": "open_boundary"
+    },
+    {
+      "from": "R4",
+      "to": "R8",
+      "kind": "context"
+    },
+    {
+      "from": "R5",
+      "to": "R8",
+      "kind": "context"
     }
   ],
   "sources_sha256": {
@@ -2089,7 +2114,15 @@
     "udt_finite_positional_clock_test_2026-10-01/fidelity/CONDITIONAL_NET_REQUIREMENT_REVIEW.md": "b9f5fcd443ada91724e605efb0d457fe1420245b3083162e8990fc59f31ba5cd",
     "udt_finite_positional_clock_test_2026-10-01/REVIEWED_RESULT.md": "2b0f71487c0f0de7a9b478b84ce2f570508ade27b95183c1e1cdf2ae547f15b5",
     "udt_finite_positional_clock_test_2026-10-01/DECISION_BRIEF.md": "fc0433a2b9a876d9e6d4b1236529837c03e153057b9cfb381a6ad395d075f301",
-    "udt_g212_observer_equivalence_history_bridge_whiteboard_2026-08-22/AUDIT_REPORT.md": "4d2176828922f0036bb65c106f6de3207f187e66e60d26669cdc1acaf24f93b1"
+    "udt_g212_observer_equivalence_history_bridge_whiteboard_2026-08-22/AUDIT_REPORT.md": "4d2176828922f0036bb65c106f6de3207f187e66e60d26669cdc1acaf24f93b1",
+    "udt_finite_native_pair_audit_2026-10-01/INITIAL_DERIVATION.md": "dccac2caa74757fd6ae48486a8359630c1fb5d30508fd50dc6adf2b06307704d",
+    "udt_finite_native_pair_audit_2026-10-01/REVIEWED_RESULT.md": "8ea3cfb5ed5f8026b71ac68d4e4d434a674f3fde2e723ed6d45247f33995c0da",
+    "udt_finite_native_pair_audit_2026-10-01/math/SOURCE_FIRST.md": "47497ec529f60621e12c26dd14fdb4fca6cd8bb82324527cd82670a9084db710",
+    "udt_finite_native_pair_audit_2026-10-01/fidelity/SOURCE_FIRST_ANGULAR_SUPPLEMENT.md": "1cae27f8215aee338cea0b1cd86e3531bedb1ac4c4a63e1a5ca5010f6d48f4e2",
+    "udt_g201_primary_metric_phi_jet_regime_amplitude_2026-08-21/EXACT_DERIVATION.md": "8c4361c3e11c7eaece17b7da9b7c47ee372989b99f495a68a1ec87d4a8b31951",
+    "udt_g260_gr_quiet_angular_nondiscard_audit_2026-08-25/EXACT_DERIVATION.md": "de32fc105dfe9cdbc964959a67c46a0eee58f95566b2df4f2ce115c48b6776da",
+    "udt_g298_causal_diamond_to_pair_germ_transfer_2026-08-29/AUDIT_REPORT.md": "56f871522dd099bf6d45984045cff2aeb05e42176eea118e8b72303542f53872",
+    "udt_g300_metric_celestial_query_bundle_descent_2026-08-29/AUDIT_REPORT.md": "3ad7382bc3e005dac91199bf724f941a130ac8730935af1932c2b5f417413fa5"
   },
   "impact_policy": "Any changed source or registry row flags its mapped positive and negative central arguments and every reachable central descendant for review; no automatic truth reversal or regrading.",
   "review_support": [
@@ -2898,6 +2931,62 @@
         "R6",
         "R8",
         "R16",
+        "R18"
+      ]
+    },
+    {
+      "path": "udt_finite_native_pair_audit_2026-10-01/math/CANDIDATE_REVIEW.md",
+      "sha256": "be62e64e917925bbc64a10d707e3f1aebb7e7749a324094d22ab66a931aa9df9",
+      "role": "review_evidence",
+      "targets": [
+        "R2",
+        "R4",
+        "R5",
+        "R6",
+        "R7",
+        "R8",
+        "R18"
+      ]
+    },
+    {
+      "path": "udt_finite_native_pair_audit_2026-10-01/fidelity/CANDIDATE_REVIEW.md",
+      "sha256": "fdc17ee915b75b4a786084079dcada71bcbb932a4319020a430213124aca65bc",
+      "role": "review_evidence",
+      "targets": [
+        "R2",
+        "R4",
+        "R5",
+        "R6",
+        "R7",
+        "R8",
+        "R18"
+      ]
+    },
+    {
+      "path": "udt_finite_native_pair_audit_2026-10-01/CHECK_REPAIR.md",
+      "sha256": "5ef228e76c7d1d0cae6c063ce64140cf428f9390f2b2b1ee3474ae621c8ea3b7",
+      "role": "review_evidence",
+      "targets": [
+        "R2",
+        "R4",
+        "R5",
+        "R6",
+        "R7",
+        "R8",
+        "R18"
+      ]
+    },
+    {
+      "path": "udt_finite_native_pair_audit_2026-10-01/DESCENDANT_REVIEW.md",
+      "sha256": "16ade8ee8bcfa0ea2757fb091b841fb0617408a1742828ae5a8e8b9933fea325",
+      "role": "review_evidence",
+      "targets": [
+        "R2",
+        "R4",
+        "R5",
+        "R6",
+        "R7",
+        "R8",
         "R18"
       ]
     }

@@ -1,7 +1,7 @@
 # UDT — continuous scientific development
 
 <!-- DEVELOPMENT_ORIENTATION_BEGIN -->
-**Continuous development — CDR1 with SGE1, LKT1, GCA1, PCW1, CES1, CCR1, PRI1, TRI1, NGD1, TDS1, TPP1, TPS1, PSW1 and FPC1, 2026-10-01.** This is the maintained
+**Continuous development — CDR1 with SGE1, LKT1, GCA1, PCW1, CES1, CCR1, PRI1, TRI1, NGD1, TDS1, TPP1, TPS1, PSW1, FPC1 and FNA1, 2026-10-01.** This is the maintained
 scientific development. It is not canon or a new scientific-grade authority.
 The exact registry and reviewed sources own grades; LIVE owns operational status.
 Current review bindings and limits are recorded in section9; startup reads the
@@ -96,8 +96,17 @@ retain different results. A nonflat Ricci-flat Kasner control has nonzero fourth
 principal-axis means despite its quadratic cancellation. Received ticking is already
 defined by the owner clarification; native geometry, positional attribution and
 scale remain open. Known GR geometry realizes this shape, so compatibility alone
-is not an additional UDT prediction. The return recommends discussion before a
-native compatibility audit or another run; no new physical premise is adopted.
+is not an additional UDT prediction.
+FNA1 now constructs a full regular pair from that actual finite signal family,
+including its ruler density, shift and complete observer-frame transport. The
+received-clock depth agrees across those constructions and differs from static
+presentation phi. First reception can outlive the emitter static chart. Both
+angular null-screen amplitudes vanish while timelike tides and clock shifts need
+not; exact Ric=0 recovery does not follow. Flat and opposite-curvature controls
+also pass the scoped representation test. Physical admission, additional-effect
+selection, sign and scale remain OPEN. This is a concrete conditional connection,
+not a completeness theorem or adopted physical geometry. Stop for discussion
+before a new selection experiment; no new physical premise is adopted.
 <!-- DEVELOPMENT_ORIENTATION_END -->
 
 ## 1. How this development is owned
@@ -407,7 +416,9 @@ The same-correspondence clock leg of G220 has T=Z when emission proper time
 labels the comparison. Completed G176 depth on that leg is Phi=-log Z.
 Thus chi_clock=tanh(-log Z) and Z=sqrt((1-chi_clock)/(1+chi_clock)). This is a
 matched clock-leg identification, not an automatic assembly of a full pair plane
-or equality with a transported rapidity norm. No second fitted redshift function
+or equality with a transported rapidity norm. FNA1 in R8 constructs the full
+regular pair and its aligned transport for the specified space-form experiment.
+No second fitted redshift function
 is needed once this geometry and interface are supplied.
 
 Sources: G220 and [FSL1 §§1–2](udt_finite_separation_law_2026-09-28/INITIAL_CANDIDATE.md),
@@ -1034,6 +1045,121 @@ and [reviewed limits](udt_finite_positional_clock_test_2026-10-01/REVIEWED_RESUL
 The [primary method record](udt_finite_positional_clock_test_2026-10-01/PRIMARY_METHOD_REFERENCES.md)
 credits standard exact Fermi geometry; it does not claim discovery of de Sitter
 space or import an Einstein equation as UDT dynamics.
+
+
+<a id="r8fna"></a>
+
+#### The finite example in the native pair language — FNA1
+
+The next question is whether FPC1's supplied experiment admits the actual native
+readout, beyond a clock-ratio resemblance. Write its signed sectional curvature
+as kappa=±k², k>0. On the regular static patch f=1-kappa r²>0, the full metric
+is exactly R2's F4 form with phi_stat=-log(f)/2 and the areal sphere retained.
+Use Cartesian charts at the center and regular sphere charts at angular poles.
+This represents supplied geometry; it does not derive constant curvature from
+observer equivalence. In the positive case the first reception has areal radius
+r_B=tan(kL)/k, while preparation has r_B0=sin(kL)/k. Thus reception leaves the
+emitter's static patch at kL=pi/4, although its first signal remains regular
+until kL=pi/2. Real sqrt(f) and phi_stat cannot be continued through f=0 as
+that chart; the given smooth quadric continues in other coframes. This supplies
+no native global-completion law and identifies neither boundary with X_max.
+
+The full pair can be constructed from the actual nearby null rays. On the signed
+quadric let A(s), B(b) be the fixed proper-clock geodesics above, with actual
+reception map b(s). Put D(s)=B(b(s))-A(s) and F(s,lambda)=A(s)+lambda D(s),
+0<=lambda<=1. Nullness and A·D=0 keep each affine chord on the quadric. At
+s=0 let X0=A(0), U=A'(0), n the prepared spatial unit, p=b'(0), and
+m=-<U,D>>0. Direct differentiation gives
+
+    D=m(U+n), p²=1+kappa m²,
+    p U_B=p²U+kappa m X0+kappa m²n,
+    J=F_s=(1-lambda)U+lambda p U_B,
+    h=F*g=[[-A,-m],[-m,0]], A=1+kappa m²lambda(2-lambda).
+
+Here m=tan(kL)/k for positive curvature, tanh(kL)/k for negative curvature,
+and L in flat space. Since A lies between1 and p²>0, h00<0 and det h=-m²<0
+on the whole finite ray. The null affine tangent h11=0 is allowed: the
+clock-orthogonal ruler has squared length m²/A>0. Smoothness gives a regular
+nearby-emission strip for each finite experiment, without a uniform strip at
+the limiting boundary. The ambient sphere/screens remain in g before restriction.
+
+R4's completed-pair premise now fixes
+
+    T=sqrt(A), beta=m/A, L_lambda=m/sqrt(A),
+    h_completed=[[-A,-1],[-1,0]], beta_completed=1/A,
+    Phi=-log(A)/2, chi=(1-A)/(1+A).
+
+At reception T=p, Phi_clock=-log p, chi_clock=(1-p²)/(1+p²) and q_pair=p².
+This supplies the previously unconstructed full pair for this actual finite
+experiment; it does not choose a universal physical projection. Dropping the
+shift while keeping h11=0 would make the pair degenerate. q_pair remains a
+calibration ratio, not another local signal speed. No fitted redshift profile
+has been inserted after computing the metric.
+
+The affine lambda is dimensionless and m has length units. Integrating m dlambda
+at fixed emission gives m, not initial spacelike L or null proper length (zero).
+For varying emission m'(0)=p²-1, so m(s)dlambda is generally not an exact
+spacetime differential with the same clock coordinate. A genuine rho=m(s)lambda
+has d rho=m dlambda+lambda m' ds. R4/G180 completion here is a calibrated density/
+coframe and one-family integral; silently dropping the extra term changes clocks.
+
+Full transport independently reproduces the clock depth. Along X=X0+lambda D,
+parallel transport of an initially tangent vector solves V'=-kappa<D,V>X, so
+P V=V-kappa<D,V>(X0+D/2). With source frame(U,n,e2,e3) and target frame
+(U_B,(n-kappa m X0)/p,e2,e3), direct projection gives
+
+    Lambda=[[Gamma,S,0,0],[S,Gamma,0,0],[0,0,1,0],[0,0,0,1]],
+    Gamma=(p+1/p)/2, S=(1/p-p)/2.
+
+This preserves eta4, including both screens. The outgoing null column has
+multiplier Gamma+S=1/p, hence Z=p. Its W5 projective clock column is
+bold chi=((1-p²)/(1+p²),0,0). Only in these aligned frames does its signed
+radial component equal chi_clock. The isometry is not the diagonal F2 coframe
+action; R7's direction, middle-frame and path labels remain essential. Inverse
+transport, the independent reverse first signal and the future echo retain their
+different event pairs. No scalar endpoint exactness or erased holonomy follows.
+
+Presentation potential remains a different readout: for positive curvature,
+phi_stat(B0)=log p and phi_stat(B_first)=-log(1-tan²(kL))/2 inside its patch,
+whereas Phi_clock=-log p. At kL=pi/4 the second presentation diverges while
+p=sqrt(2) stays finite. This is a clock-query distinction, not inconsistent
+signs or an excuse to replace the owner's received-tick observable.
+
+The audit also checks what the radial restriction does not sample. At a regular
+static point, supplied nonradial germs J0=(1,0,v/r,0),
+J1=(0,1,w/r,u/(r sin theta)), v²<f, have h00=-f+v², h01=vw,
+h11=1/f+w²+u². Both angular directions enter the full determinant. Six known
+pairs(e0,ei) and(e0,ei+ej), i<j, recover all ten g components, since
+2gij=h11(i+j)-gii-gjj; their regularity holds near this static metric. R5's
+(m,h_completed) keeps that rank-ten information. These are supplied diagnostic
+queries, not a selected physical population or generated metric values.
+
+For this full primary metric, G201/G260's null-screen angular amplitudes are
+A_parallel=(r²f''-rf')/2=0 and A_perp=1-f+rf'/2=0. Their vanishing does not
+remove the sphere or the nonzero timelike tide -kappa I. The exact imported
+Ric=0 comparator instead requires E0=rf'+f-1 and E1=rf'+r²f''/2 to vanish;
+both equal -3kappa r² here. At r=0 that reduced expression's coordinate zero
+does not imply vacuum: Ric=3kappa g remains nonzero. No full quiet-vacuum
+recovery or angular loud--quiet--loud history has thereby been established.
+W3's law-level recovery is stronger than the supplied family's local flat limit.
+GR remains a filter, not a new imposed field equation.
+
+All three curvature signs pass the scoped representation test and give different
+clock shifts. The flat p=1 experiment does not exhibit the founding nonidentity
+input or establish complete physical admission. The positive example therefore remains a conditional geometrical
+lead, with native physical admission, sign/scale, additional GR contrast and
+X_max realization OPEN. G298/G300's physical projection/assignment boundary
+survives; the actual ribbon fills one specified query, not every transverse or
+global assignment. Identical geometry and physically matched clocks/protocol in
+a GR comparison give identical Z. Compatibility alone cannot be an additional
+UDT prediction, and this audit is not a completeness test of UDT's postulates.
+
+Sources: [fixed construction](udt_finite_native_pair_audit_2026-10-01/INITIAL_DERIVATION.md),
+[independent source-first construction](udt_finite_native_pair_audit_2026-10-01/math/SOURCE_FIRST.md),
+[angular/comparator distinction](udt_finite_native_pair_audit_2026-10-01/fidelity/SOURCE_FIRST_ANGULAR_SUPPLEMENT.md),
+and [reviewed scope](udt_finite_native_pair_audit_2026-10-01/REVIEWED_RESULT.md),
+with G176/G179/G180/G213/G220/G274 and the exact G201/G260/G298/G300 sources
+bound in the dependency graph. No Einstein response, source or action is adopted.
 
 
 ## 6. Response restrictions and an optional conditional dynamics branch
@@ -1885,16 +2011,26 @@ geometry and which net or matched comparison realizes the additional requirement
 The exact standard-GR example shows compatibility of the shape, not additional
 predictive content, full tested-regime recovery or selection of sign and scale.
 
-Recommendation at this return: audit this concrete finite example against the
-full typed native pair/metric restrictions before proposing it as a UDT branch.
-Keep actual clock depth separate from presentation potential, observer equivalence
-separate from all-germ isotropy, and a comparison horizon separate from physical
-X_max. Such an audit must distinguish a compatible representation from a selected
-geometry and an additional UDT prediction. Retain flat/opposite-sign controls and
-all prior open joins; no new premise, Einstein response identification, positive
-L² rule or larger run is authorized by this recommendation. The
-[FPC1 decision brief](udt_finite_positional_clock_test_2026-10-01/DECISION_BRIEF.md)
-records the discussion boundary and no automatic successor.
+FNA1 completes that bounded representation audit in R8. The actual null family
+now supplies a regular full W1 pair, density and shift; independent full transport
+reproduces its signed projective clock depth. Presentation phi, completed tape,
+initial proper separation and causal limits retain different meanings. The
+static-chart boundary is not a failure of the signal comparison. This narrows the
+open connection: assembly is explicit for this supplied example; physical
+selection and the additional positional consequence remain unestablished.
+The same representation admits both curvature signs and flat space. Zero angular
+null-screen amplitudes do not mean zero timelike curvature or exact quiet-vacuum
+recovery. No geometry, curvature scale, Einstein response or X_max is adopted.
+
+Recommendation at this return: use the explicit example as a controlled input
+to a focused selection test, not another shape search. First identify an existing
+UDT commitment with operational content beyond this representation, and determine
+its constraint on the supplied family and on a physically matched GR comparison.
+If no such implication can yet be derived, return that precise missing physical
+relationship and alternatives for discussion; do not tune k or silently identify
+DDR's response. This is a proposed successor, not authorization or proof that
+new premises are necessary. The [FNA1 decision brief](udt_finite_native_pair_audit_2026-10-01/DECISION_BRIEF.md)
+sets out the bounded question, review budget and discussion return.
 
 NGD1's numerical return in R12N adds a validated comparison tool and finite
 nonlinear clock-shift histories. Its positive contribution relative to a specified
@@ -2311,7 +2447,7 @@ founding premises are insufficient.
 Retained branches and omissions are explicit below. These results are useful;
 their original full proofs, repairs, qualifications and grades remain at source.
 CDR1 does not claim to rederive all of them. The [406-row disposition ledger](development_reconstruction_2026-09-29/CLAIM_DISPOSITIONS.tsv)
-and [40 later returns](development_reconstruction_2026-09-29/RECENT_DISPOSITIONS.tsv)
+and [41 later returns](development_reconstruction_2026-09-29/RECENT_DISPOSITIONS.tsv)
 identify exact sources and reconstruction depth.
 
 | Retained work | Gain and limit |
@@ -2556,6 +2692,23 @@ comparison, native admission or scale selection was performed. The
 [FPC1 descendant review](udt_finite_positional_clock_test_2026-10-01/DESCENDANT_REVIEW.md)
 and [execution record](udt_finite_positional_clock_test_2026-10-01/WORK_RECORD.md)
 record both positive and negative implications and actual review exposure.
+
+FNA1 used two actual source-first contexts for full pair/transport mathematics
+and premise/meaning challenge, followed by candidate review. The inherited model
+is shared; no different-model, human or formal review is claimed. The parent's
+56 symbolic identities check the whole-ray pullback, full transport, nonradial
+and rank-ten diagnostics. Its initial run failed on a missing parameter
+substitution in a chart check; original proof, code and failure are preserved,
+with a one-line implementation repair. The mathematical context's separate
+standard-library rational implementation checks2,953 assertions in30 signed-
+curvature cases plus flat. The parent reconstructs300 ribbon/Lorentz identities
+from those saved rows; this is exposed readout recomputation, not an independent
+worldline solution. Analytic arguments own continuum/domain statements. Two final
+contexts bind the same central integration and source/descendant record. No new
+GPU, field/ray campaign, observational fit, physical selection or full GR-recovery
+test was performed. The [FNA1 descendant review](udt_finite_native_pair_audit_2026-10-01/DESCENDANT_REVIEW.md)
+and [execution record](udt_finite_native_pair_audit_2026-10-01/WORK_RECORD.md)
+preserve both positive and negative implications and actual exposure.
 
 The preserved first candidates expose the repair history. The [source correction](development_reconstruction_2026-09-29/SOURCE_CORRECTIONS.md)
 fixes a real covector-basis sign in G310; the central nine-direction span and

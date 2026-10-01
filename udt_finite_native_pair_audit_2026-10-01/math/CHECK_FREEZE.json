@@ -1,0 +1,24 @@
+{
+  "utc": "2026-10-01T20:06:17.526342+00:00",
+  "files_sha256": {
+    "SOURCE_FIRST.md": "47497ec529f60621e12c26dd14fdb4fca6cd8bb82324527cd82670a9084db710",
+    "SOURCE_HASHES.json": "800480c102826344956675b138c8c754c58695ba3255da6ee6271a10f7b61a3d",
+    "CHECK_FREEZE.md": "575f0d99f9d6db219134b27b98581267e9aa4b0106fb49e7e746fb9587df76ce",
+    "check_ambient.py": "4dbad5cdbf95a8f377155edbdc7219e6319f0c602df246347932a34c847424a8"
+  },
+  "command": [
+    "python3",
+    "udt_time_live_production_survey_2026-10-01/capture.py",
+    "udt_finite_native_pair_audit_2026-10-01/math/ambient",
+    "python3",
+    "udt_finite_native_pair_audit_2026-10-01/math/check_ambient.py"
+  ],
+  "resources": {
+    "serial_cpu_slot": "parent assigned",
+    "address_limit_mib": 2048,
+    "elapsed_timeout": null,
+    "cpu_timeout": null,
+    "gpu": false
+  },
+  "candidate_exposure": false
+}

@@ -1,0 +1,39 @@
+{
+  "old_graph_source_pins_preserved": true,
+  "old_graph_edges_preserved": true,
+  "old_review_support_preserved": true,
+  "old_disposition_rows": 40,
+  "new_disposition_rows": 41,
+  "old_disposition_prefix_preserved": true,
+  "generated_orientation_matches": true,
+  "registry_and_canon_unchanged": {
+    "CURRENT_SCIENTIFIC_PREMISES.tsv": true,
+    "CANON.md": true
+  },
+  "freeze_sha256": "48d030f7e441a9f1e7671d57c92cfe1cb9100d7d31b260cc57248b339668ab63",
+  "accepted_files_hashed": 12250,
+  "all_accepted_hashes_match": true,
+  "prior_files": 12193,
+  "unchanged_prior_hash_bindings": 12187,
+  "changed_prior_files": [
+    "CURRENT_RESEARCH_PROGRAM.md",
+    "HANDOFF.md",
+    "LIVE.md",
+    "UDT_DEVELOPMENT.md",
+    "development_reconstruction_2026-09-29/DEVELOPMENT_GRAPH.json",
+    "development_reconstruction_2026-09-29/RECENT_DISPOSITIONS.tsv"
+  ],
+  "new_files": 57,
+  "prior_map_missing_paths": 0,
+  "initial_integration_freeze_sha256": "af42157f86c0fad9865825ec77fc0ec39b20773236a90e711981c828d98c036f",
+  "revised_paths_from_initial": [
+    "development_reconstruction_2026-09-29/DEVELOPMENT_GRAPH.json",
+    "udt_finite_native_pair_audit_2026-10-01/DESCENDANT_REVIEW.md",
+    "udt_finite_native_pair_audit_2026-10-01/INTEGRATION_REPAIR.md",
+    "udt_finite_native_pair_audit_2026-10-01/WORK_RECORD.md"
+  ],
+  "added_from_initial": [
+    "udt_finite_native_pair_audit_2026-10-01/INTEGRATION_INITIAL_FREEZE.json"
+  ],
+  "scope": "Byte correspondence, not inherited-corpus scientific reproof; final revised prose was actually rereviewed."
+}

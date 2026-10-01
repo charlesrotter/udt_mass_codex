@@ -1,0 +1,14 @@
+{
+  "utc": "2026-10-01T20:04:54.875751+00:00",
+  "reviewer": "/root/fna_fidelity",
+  "stage": "SOURCE_FIRST_ANGULAR_SUPPLEMENT_BEFORE_CANDIDATE_EXPOSURE",
+  "source_sha256": {
+    "udt_g201_primary_metric_phi_jet_regime_amplitude_2026-08-21/AUDIT_REPORT.md": "02a072c80b0a9010080da8a6b1330ab8bc5d366aac7271c393e7a98921c6fa2d",
+    "udt_g201_primary_metric_phi_jet_regime_amplitude_2026-08-21/EXACT_DERIVATION.md": "8c4361c3e11c7eaece17b7da9b7c47ee372989b99f495a68a1ec87d4a8b31951",
+    "udt_g260_gr_quiet_angular_nondiscard_audit_2026-08-25/AUDIT_REPORT.md": "a28ee2332cf3e14e619c0c332339079605ca81e566d7513b0caa2e29af67d102",
+    "udt_g260_gr_quiet_angular_nondiscard_audit_2026-08-25/EXACT_DERIVATION.md": "de32fc105dfe9cdbc964959a67c46a0eee58f95566b2df4f2ce115c48b6776da",
+    "CURRENT_SCIENTIFIC_PREMISES.tsv": "7a3d69d5a0bc3ac98e2ebe2bb0c6d029df30071bf403baffed2223a193dc720b"
+  },
+  "report_sha256": "1cae27f8215aee338cea0b1cd86e3531bedb1ac4c4a63e1a5ca5010f6d48f4e2",
+  "scientific_computation": "NONE; direct analytical substitution only"
+}

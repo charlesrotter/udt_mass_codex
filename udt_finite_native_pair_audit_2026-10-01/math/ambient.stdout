@@ -1,0 +1,309 @@
+{
+  "status": "PASS",
+  "kind": "exact_fraction_controls_not_sampling_proof",
+  "assertions": 2953,
+  "spaceform_cases": 30,
+  "flat_cases": 1,
+  "rows": [
+    {
+      "curvature_sign": 1,
+      "k": "1/2",
+      "circle_parameter": "1/10",
+      "p": "101/99",
+      "source_affine_span": "40/99",
+      "Gamma_transport": "10001/9999",
+      "signed_projective": "-200/10001",
+      "A_static_first_reception_regular": true
+    },
+    {
+      "curvature_sign": 1,
+      "k": "1",
+      "circle_parameter": "1/10",
+      "p": "101/99",
+      "source_affine_span": "20/99",
+      "Gamma_transport": "10001/9999",
+      "signed_projective": "-200/10001",
+      "A_static_first_reception_regular": true
+    },
+    {
+      "curvature_sign": 1,
+      "k": "3/2",
+      "circle_parameter": "1/10",
+      "p": "101/99",
+      "source_affine_span": "40/297",
+      "Gamma_transport": "10001/9999",
+      "signed_projective": "-200/10001",
+      "A_static_first_reception_regular": true
+    },
+    {
+      "curvature_sign": 1,
+      "k": "1/2",
+      "circle_parameter": "1/3",
+      "p": "5/4",
+      "source_affine_span": "3/2",
+      "Gamma_transport": "41/40",
+      "signed_projective": "-9/41",
+      "A_static_first_reception_regular": true
+    },
+    {
+      "curvature_sign": 1,
+      "k": "1",
+      "circle_parameter": "1/3",
+      "p": "5/4",
+      "source_affine_span": "3/4",
+      "Gamma_transport": "41/40",
+      "signed_projective": "-9/41",
+      "A_static_first_reception_regular": true
+    },
+    {
+      "curvature_sign": 1,
+      "k": "3/2",
+      "circle_parameter": "1/3",
+      "p": "5/4",
+      "source_affine_span": "1/2",
+      "Gamma_transport": "41/40",
+      "signed_projective": "-9/41",
+      "A_static_first_reception_regular": true
+    },
+    {
+      "curvature_sign": 1,
+      "k": "1/2",
+      "circle_parameter": "1/2",
+      "p": "5/3",
+      "source_affine_span": "8/3",
+      "Gamma_transport": "17/15",
+      "signed_projective": "-8/17",
+      "A_static_first_reception_regular": false
+    },
+    {
+      "curvature_sign": 1,
+      "k": "1",
+      "circle_parameter": "1/2",
+      "p": "5/3",
+      "source_affine_span": "4/3",
+      "Gamma_transport": "17/15",
+      "signed_projective": "-8/17",
+      "A_static_first_reception_regular": false
+    },
+    {
+      "curvature_sign": 1,
+      "k": "3/2",
+      "circle_parameter": "1/2",
+      "p": "5/3",
+      "source_affine_span": "8/9",
+      "Gamma_transport": "17/15",
+      "signed_projective": "-8/17",
+      "A_static_first_reception_regular": false
+    },
+    {
+      "curvature_sign": 1,
+      "k": "1/2",
+      "circle_parameter": "2/3",
+      "p": "13/5",
+      "source_affine_span": "24/5",
+      "Gamma_transport": "97/65",
+      "signed_projective": "-72/97",
+      "A_static_first_reception_regular": false
+    },
+    {
+      "curvature_sign": 1,
+      "k": "1",
+      "circle_parameter": "2/3",
+      "p": "13/5",
+      "source_affine_span": "12/5",
+      "Gamma_transport": "97/65",
+      "signed_projective": "-72/97",
+      "A_static_first_reception_regular": false
+    },
+    {
+      "curvature_sign": 1,
+      "k": "3/2",
+      "circle_parameter": "2/3",
+      "p": "13/5",
+      "source_affine_span": "8/5",
+      "Gamma_transport": "97/65",
+      "signed_projective": "-72/97",
+      "A_static_first_reception_regular": false
+    },
+    {
+      "curvature_sign": 1,
+      "k": "1/2",
+      "circle_parameter": "9/10",
+      "p": "181/19",
+      "source_affine_span": "360/19",
+      "Gamma_transport": "16561/3439",
+      "signed_projective": "-16200/16561",
+      "A_static_first_reception_regular": false
+    },
+    {
+      "curvature_sign": 1,
+      "k": "1",
+      "circle_parameter": "9/10",
+      "p": "181/19",
+      "source_affine_span": "180/19",
+      "Gamma_transport": "16561/3439",
+      "signed_projective": "-16200/16561",
+      "A_static_first_reception_regular": false
+    },
+    {
+      "curvature_sign": 1,
+      "k": "3/2",
+      "circle_parameter": "9/10",
+      "p": "181/19",
+      "source_affine_span": "120/19",
+      "Gamma_transport": "16561/3439",
+      "signed_projective": "-16200/16561",
+      "A_static_first_reception_regular": false
+    },
+    {
+      "curvature_sign": -1,
+      "k": "1/2",
+      "circle_parameter": "1/10",
+      "p": "99/101",
+      "source_affine_span": "40/101",
+      "Gamma_transport": "10001/9999",
+      "signed_projective": "200/10001",
+      "A_static_first_reception_regular": true
+    },
+    {
+      "curvature_sign": -1,
+      "k": "1",
+      "circle_parameter": "1/10",
+      "p": "99/101",
+      "source_affine_span": "20/101",
+      "Gamma_transport": "10001/9999",
+      "signed_projective": "200/10001",
+      "A_static_first_reception_regular": true
+    },
+    {
+      "curvature_sign": -1,
+      "k": "3/2",
+      "circle_parameter": "1/10",
+      "p": "99/101",
+      "source_affine_span": "40/303",
+      "Gamma_transport": "10001/9999",
+      "signed_projective": "200/10001",
+      "A_static_first_reception_regular": true
+    },
+    {
+      "curvature_sign": -1,
+      "k": "1/2",
+      "circle_parameter": "1/3",
+      "p": "4/5",
+      "source_affine_span": "6/5",
+      "Gamma_transport": "41/40",
+      "signed_projective": "9/41",
+      "A_static_first_reception_regular": true
+    },
+    {
+      "curvature_sign": -1,
+      "k": "1",
+      "circle_parameter": "1/3",
+      "p": "4/5",
+      "source_affine_span": "3/5",
+      "Gamma_transport": "41/40",
+      "signed_projective": "9/41",
+      "A_static_first_reception_regular": true
+    },
+    {
+      "curvature_sign": -1,
+      "k": "3/2",
+      "circle_parameter": "1/3",
+      "p": "4/5",
+      "source_affine_span": "2/5",
+      "Gamma_transport": "41/40",
+      "signed_projective": "9/41",
+      "A_static_first_reception_regular": true
+    },
+    {
+      "curvature_sign": -1,
+      "k": "1/2",
+      "circle_parameter": "1/2",
+      "p": "3/5",
+      "source_affine_span": "8/5",
+      "Gamma_transport": "17/15",
+      "signed_projective": "8/17",
+      "A_static_first_reception_regular": true
+    },
+    {
+      "curvature_sign": -1,
+      "k": "1",
+      "circle_parameter": "1/2",
+      "p": "3/5",
+      "source_affine_span": "4/5",
+      "Gamma_transport": "17/15",
+      "signed_projective": "8/17",
+      "A_static_first_reception_regular": true
+    },
+    {
+      "curvature_sign": -1,
+      "k": "3/2",
+      "circle_parameter": "1/2",
+      "p": "3/5",
+      "source_affine_span": "8/15",
+      "Gamma_transport": "17/15",
+      "signed_projective": "8/17",
+      "A_static_first_reception_regular": true
+    },
+    {
+      "curvature_sign": -1,
+      "k": "1/2",
+      "circle_parameter": "2/3",
+      "p": "5/13",
+      "source_affine_span": "24/13",
+      "Gamma_transport": "97/65",
+      "signed_projective": "72/97",
+      "A_static_first_reception_regular": true
+    },
+    {
+      "curvature_sign": -1,
+      "k": "1",
+      "circle_parameter": "2/3",
+      "p": "5/13",
+      "source_affine_span": "12/13",
+      "Gamma_transport": "97/65",
+      "signed_projective": "72/97",
+      "A_static_first_reception_regular": true
+    },
+    {
+      "curvature_sign": -1,
+      "k": "3/2",
+      "circle_parameter": "2/3",
+      "p": "5/13",
+      "source_affine_span": "8/13",
+      "Gamma_transport": "97/65",
+      "signed_projective": "72/97",
+      "A_static_first_reception_regular": true
+    },
+    {
+      "curvature_sign": -1,
+      "k": "1/2",
+      "circle_parameter": "9/10",
+      "p": "19/181",
+      "source_affine_span": "360/181",
+      "Gamma_transport": "16561/3439",
+      "signed_projective": "16200/16561",
+      "A_static_first_reception_regular": true
+    },
+    {
+      "curvature_sign": -1,
+      "k": "1",
+      "circle_parameter": "9/10",
+      "p": "19/181",
+      "source_affine_span": "180/181",
+      "Gamma_transport": "16561/3439",
+      "signed_projective": "16200/16561",
+      "A_static_first_reception_regular": true
+    },
+    {
+      "curvature_sign": -1,
+      "k": "3/2",
+      "circle_parameter": "9/10",
+      "p": "19/181",
+      "source_affine_span": "120/181",
+      "Gamma_transport": "16561/3439",
+      "signed_projective": "16200/16561",
+      "A_static_first_reception_regular": true
+    }
+  ]
+}

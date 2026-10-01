@@ -1,0 +1,19 @@
+{
+  "command": [
+    "python3",
+    "udt_finite_native_pair_audit_2026-10-01/math/check_ambient.py"
+  ],
+  "cwd": "/home/udt-admin/udt_mass_codex",
+  "started_utc": "2026-10-01T20:06:23.035105+00:00",
+  "duration_seconds": 0.08216007996816188,
+  "returncode": 0,
+  "wall_timeout_seconds": null,
+  "cpu_timeout_seconds": null,
+  "address_space_bytes": 2147483648,
+  "memory_scope": "Process virtual address limit",
+  "maxrss_kib": 11136,
+  "forwarded_signals": [],
+  "stdout_sha256": "24018a4136fe1bc4654f445bdee162f47cdd15ec4292e9d92a8c1f1dc3158d35",
+  "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "capture_sha256": "217cdbac5486e8a531552f4d74a15ce641299b65dafb5d58f7b60f4ba51781bc"
+}

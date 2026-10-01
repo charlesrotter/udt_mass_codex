@@ -1,0 +1,6 @@
+Traceback (most recent call last):
+  File "/home/udt-admin/udt_mass_codex/udt_finite_native_pair_audit_2026-10-01/check_pair.py", line 87, in <module>
+    eq('positive_chart_at_first_reception',f0.subs(r,m),2-p*p)
+  File "/home/udt-admin/udt_mass_codex/udt_finite_native_pair_audit_2026-10-01/check_pair.py", line 9, in eq
+    assert all(S.factor(S.simplify(x)) == 0 for x in vals), (name, str(d))
+AssertionError: ('positive_chart_at_first_reception', '-kappa*m**2 + p**2 - 1')

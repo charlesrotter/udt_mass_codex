@@ -5,7 +5,7 @@ This bounded startup view is generated from its opening; edit that source.
 LIVE.md owns operational status; CURRENT_SCIENTIFIC_PREMISES.tsv owns exact grades.
 
 <!-- GENERATED_DEVELOPMENT_BEGIN -->
-**Continuous development — CDR1 with SGE1, LKT1, GCA1, PCW1, CES1, CCR1, PRI1, TRI1, NGD1, TDS1, TPP1, TPS1, PSW1 and FPC1, 2026-10-01.** This is the maintained
+**Continuous development — CDR1 with SGE1, LKT1, GCA1, PCW1, CES1, CCR1, PRI1, TRI1, NGD1, TDS1, TPP1, TPS1, PSW1, FPC1 and FNA1, 2026-10-01.** This is the maintained
 scientific development. It is not canon or a new scientific-grade authority.
 The exact registry and reviewed sources own grades; LIVE owns operational status.
 Current review bindings and limits are recorded in section9; startup reads the
@@ -100,8 +100,17 @@ retain different results. A nonflat Ricci-flat Kasner control has nonzero fourth
 principal-axis means despite its quadratic cancellation. Received ticking is already
 defined by the owner clarification; native geometry, positional attribution and
 scale remain open. Known GR geometry realizes this shape, so compatibility alone
-is not an additional UDT prediction. The return recommends discussion before a
-native compatibility audit or another run; no new physical premise is adopted.
+is not an additional UDT prediction.
+FNA1 now constructs a full regular pair from that actual finite signal family,
+including its ruler density, shift and complete observer-frame transport. The
+received-clock depth agrees across those constructions and differs from static
+presentation phi. First reception can outlive the emitter static chart. Both
+angular null-screen amplitudes vanish while timelike tides and clock shifts need
+not; exact Ric=0 recovery does not follow. Flat and opposite-curvature controls
+also pass the scoped representation test. Physical admission, additional-effect
+selection, sign and scale remain OPEN. This is a concrete conditional connection,
+not a completeness theorem or adopted physical geometry. Stop for discussion
+before a new selection experiment; no new physical premise is adopted.
 <!-- GENERATED_DEVELOPMENT_END -->
 
 ## Current next gate

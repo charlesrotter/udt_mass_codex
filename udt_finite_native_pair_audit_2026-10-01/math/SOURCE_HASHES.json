@@ -1,0 +1,31 @@
+{
+  "utc": "2026-10-01T20:02:09.020705+00:00",
+  "reviewer": "/root/fna_math",
+  "head": "7c17eb8cdb97a541e1bec4cb0c9e1f5ba3977091",
+  "branch": "grok",
+  "sources_sha256": {
+    "AGENTS.md": "bcab9b67305e0314af9eaf25162d203660eae8f2ff4fd87d17e83588970ef38d",
+    "CLAUDE.md": "4ad2e773defb89cc79541fd0ababd75af5a3344ab134ee83722dfd943966e6e4",
+    "CROSS_MODEL_VERIFY.md": "2b0509d933d731fbf3f72aa88777a54d3e48a94d4bae3d324087871777f9a007",
+    ".claude/skills/no-shortcuts/SKILL.md": "fd3a1f3218481134f2af829d3ae4175ac53518f75bf9673287efbfb7d7708fc1",
+    ".claude/skills/completeness-map/SKILL.md": "a8cf9e5f4a6d35a0d0ebfe4bc48dbf328ca74e318f020a6a22cb683666a611c0",
+    ".claude/skills/verifier-before-record/SKILL.md": "9b3a4aacd4b4006b2b7f01edada73b7c87b99bea6e754583558713bfc145e5ac",
+    "UDT_DEVELOPMENT.md": "120ea75aff0c95afd7c6d8eb754036ec242d44d64c22518a9e3a7d7f17c067c2",
+    "founding.md": "b4b0d9a9fdd093c992647195aca7579566a9e77a396071a699c1938888a49e75",
+    "CURRENT_SCIENTIFIC_PREMISES.tsv": "7a3d69d5a0bc3ac98e2ebe2bb0c6d029df30071bf403baffed2223a193dc720b",
+    "udt_finite_native_pair_audit_2026-10-01/WORK_ORDER.md": "807ae55702ee357e79dbb32c686cb9f229390595f3f224e9e87661001786dfc5",
+    "udt_finite_native_pair_audit_2026-10-01/SNAPSHOT.json": "791d2fe961ef5ad9c2a5c5968c7cc56220048dea3fc88bdc247fbb183649f25d",
+    "udt_g176_completed_pair_dual_reciprocity_consolidation_2026-08-19/EXACT_DERIVATION.md": "df53a5b3c52d0bd24496d060637dc158a4f2c7cdd17226c9446ea0d338d27831",
+    "udt_g179_complete_coframe_pair_pullback_extension_2026-08-19/EXACT_DERIVATION.md": "4c059659785953822bcb4f902705ed7c0c7c4bd69243582a0663be6894cf3a51",
+    "udt_g180_completed_pair_smooth_family_descent_2026-08-19/EXACT_DERIVATION.md": "3e81642bacf30a9e94df3db4c041f6b6ae94af91b87d9f51c044116ed2afa7b6",
+    "udt_g213_determinant_one_spatial_remainder_and_completed_rank_closure_2026-08-22/AUDIT_REPORT.md": "b46d70a9b915d9d477b872cd8ba0d8fd8f96dc81c5b5dcd8bf4cc9d72c6ffc53",
+    "udt_g220_covariant_null_clock_arrow_timelive_lift_2026-08-22/EXACT_DERIVATION.md": "0e5b33a0c013def973bdca369944d99a84fe278614cae1794e7cb50b56db0f6f",
+    "udt_g269_null_transport_mutual_clock_screen_interlock_2026-08-26/EXACT_DERIVATION.md": "812023393d4e04b8f2b47cc5429002dc78912b85983117e5633faed30a2f876e",
+    "udt_g272_complete_relation_rapidity_distance_ownership_2026-08-26/EXACT_DERIVATION.md": "e0285d5cb0fce4caf2b46cb5a5e795696d1b3fa76c34dfc7cbce5aa70255d566",
+    "udt_g274_projective_pair_position_network_descent_2026-08-26/EXACT_DERIVATION.md": "8cee4fa46ea13c6101bbce8c94072a516d38ce0f863e3658a87bab4d77e7e18f",
+    "udt_finite_separation_law_2026-09-28/INITIAL_CANDIDATE.md": "7dd39a4840390f15fcedc2ae0e588f51e441b4348eaf0f0f8d9b81968b60d8e4",
+    "udt_finite_positional_clock_test_2026-10-01/SPACEFORM_DERIVATION.md": "f5a8d91b349794862550453224459edfe0ec629b856b42e4a7dd4b7ac3ce1170",
+    "udt_finite_positional_clock_test_2026-10-01/REVIEWED_RESULT.md": "2b0f71487c0f0de7a9b478b84ce2f570508ade27b95183c1e1cdf2ae547f15b5"
+  },
+  "exposure": "FNA1 task/work order/snapshot, cited existing sources and FPC1 derivation/results; no FNA1 candidate, code, output or verdict read. No scientific CPU run."
+}

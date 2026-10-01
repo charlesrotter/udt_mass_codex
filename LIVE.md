@@ -1,21 +1,21 @@
 # LIVE — operational status
 
 <!-- STARTUP_CURRENT_BEGIN -->
-## CURRENT STATE — FPC1 reviewed finite clock return after PSW1/TPS1 and CDR1, 2026-10-01
+## CURRENT STATE — FNA1 reviewed finite pair audit after FPC1/PSW1/TPS1 and CDR1, 2026-10-01
 
 Work on `grok`; independently verify HEAD, synchronization and dirt.
-Charles's latest “Proceed” authorized the bounded finite-comparison investigation,
-two source-first contexts, actual challenge and central integration. Its fixed
-scope is `udt_finite_positional_clock_test_2026-10-01/WORK_ORDER.md`; WORK_RECORD.md,
-REVIEWED_RESULT.md and DECISION_BRIEF.md there identify the finite return.
-The scientific argument is integrated in UDT_DEVELOPMENT.md R8/R18. No physical
-premise, response identification, registry grade or CANON change is adopted.
+Charles's latest “proceed with the next step” authorized FPC1's recommended
+bounded native-pair audit, two source-first contexts, actual challenge and central
+integration. Fixed scope: `udt_finite_native_pair_audit_2026-10-01/WORK_ORDER.md`;
+WORK_RECORD.md, REVIEWED_RESULT.md and DECISION_BRIEF.md there identify the return.
+The scientific argument is integrated in UDT_DEVELOPMENT.md R6/R8/R18. No physical
+premise, geometry/scale selection, registry grade or CANON change is adopted.
 
-The prior TPS1 finite survey/repair and PSW1 whiteboard remain fixed evidence.
-FPC1 used serial short symbolic checks and analytic reviews; it launched no new
-GPU, field-evolution or ray campaign. The broader numerical goal does not itself
-authorize a successor. Charles's no-timeout instruction remains in effect for
-any authorized computation; finite scope and resource/manual stops still apply.
+Prior TPS1, PSW1 and FPC1 remain fixed evidence. FNA1 used serial small exact
+checks and analytic reviews, with one preserved implementation repair. It launched
+no GPU, field-evolution or ray campaign. Charles's no-timeout instruction remains
+in effect for any authorized computation; finite/resource/manual stops still apply.
+The broader numerical goal does not itself authorize a successor.
 
 ### Honest claim
 
@@ -48,12 +48,13 @@ Protected: do not inspect, hash, stage, modify, mine or cite payloads without di
 
 ### Next gate
 
-The bounded finite-clock return is complete. Stop for lay discussion.
-Use the FPC1 decision brief, actual final attestations and captured repository
+The bounded finite-pair audit is complete. Stop for lay discussion.
+Use the FNA1 decision brief, actual final attestations and captured repository
 checks for its exact scope. No larger survey, new premise or scientific promotion
-starts automatically. A future work order must name its physical implication
-and discriminating calculation. The recommended native-compatibility audit
-is not automatically authorized. Existing pauses and protected work remain.
+starts automatically. A future work order must name the accepted physical
+commitment, its discriminating calculation and matched comparison. The proposed
+selection test requires its own bounded dispatch. Existing pauses and protected
+work remain.
 No scientific worker was left running at this return; a later session must
 verify actual host state before making process claims. Prior TPS1 raw fields,
 checkpoints and large streams remain local-only and ignored; compact records
