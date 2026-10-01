@@ -17,6 +17,11 @@ alongside SR/GR phenomena; no arithmetic split is assumed. A second propagation-
 mechanism is not inserted.
 Slower received ticking is redshift by definition of the specified observable.
 There is no preferred observer or universal spherical center.
+Charles has clarified that universality means the same governing law for every
+observer, with clock comparisons dependent on physical circumstances, including
+acceleration and nearby gravity. It does not by itself require PCC1's identical
+additional leading curvature in every frame and direction; that stronger trial
+remains UNADOPTED.
 
 The founded reciprocal character is DERIVED from its stated premises on supplied
 ordered depth. The completed pair kernel is DERIVED_CONDITIONAL on the working
@@ -175,6 +180,18 @@ are working physical direction, not an already derived distance curve or thresho
 | Geometry g | One supplied or lawfully constructed Lorentz metric with its admitted domain | A supplied metric is not thereby a physically selected UDT history. |
 | Physical assignment | Rule attaching events, observers, paths, calibrations and metric data to a comparison | Evaluation of supplied inputs and inference from observed records do not by themselves provide that rule. |
 | Initial/query data | Data supplied for a declared conditional problem | Their freedom is not automatically evidence of a missing law or a demand to select one universe. |
+
+**Universal law, circumstance-dependent comparisons — ULC1.** Charles's
+[clarification](development_reconstruction_2026-09-29/universal_law_clarification_2026-10-01/OWNER_CLARIFICATION.md)
+confirms that the same governing law applies to every observer while geometry
+and clock comparisons can reflect acceleration and nearby gravitating matter.
+This closes the intended-meaning question; it supplies no quantitative source
+law or positional assignment. Acceleration concerns the observer's worldline
+and comparisons and is not itself identified with curvature. Ordinary proper
+clocks, one geometry and GR FILTER ONLY retain their existing meanings.
+Universality alone neither requires nor excludes PCC1's stronger all-frame
+identical additional leading coefficient. No new equation, reference prescription,
+matter model or observer population is adopted by this clarification.
 
 The named working clarifications are part of the definitions, not extra results.
 **W4**, WORKING/POSIT universal metric coupling, uses one completed local metric
@@ -1349,6 +1366,13 @@ curvature in every freely falling frame while ordinary tidal anisotropy remains.
 This is **UNADOPTED**. Its all-frame isotropy and identification with the leading
 L² contrast do not follow from no preferred observer, ordinary clocks or DDR.
 
+ULC1 now confirms the owner's universal-law meaning in D1. Consequently this
+all-frame numerical equality remains an optional physical trial, rather than a
+mandatory interpretation of universality. The clarification changes no PCC1
+equation or mathematical hypothesis, and does not refute the tested branch.
+Its reference/matching requirement belongs to this contrast diagnostic; it is
+not a demonstrated prerequisite for every native positional law.
+
 Supply two smooth time-oriented Lorentz4 geometries g,g0, matched events and a
 time-oriented tangent isometry I. Match orthonormal initial laboratory frames,
 proper L, parallel preparation, units and regular direct PSW1 clock protocols;
@@ -2411,6 +2435,15 @@ connection. This does not prove native closure impossible: the tested leading-L�
 assignment is only one unadopted possibility. The [PCC1 decision brief](udt_positional_curvature_connection_2026-10-01/DECISION_BRIEF.md)
 returns for discussion without adopting the trial or launching a successor.
 
+ULC1 closes the subsequent wording question: the owner means one governing law
+with circumstance-dependent clock comparisons, including acceleration and local
+gravity due to nearby matter. The physical geometry/assignment question remains
+open. PCC1 is retained as a conditional option, with neither its stronger
+all-frame equality nor a particular reference imposed by this clarification.
+Its positive compatibility witnesses and negative inference limits survive
+at their original scopes. This is a direction clarification, not a new source
+equation, new matter premise, proof of underdetermination or successor dispatch.
+
 NGD1's numerical return in R12N adds a validated comparison tool and finite
 nonlinear clock-shift histories. Its positive contribution relative to a specified
 control does not select the native geometry, and a blueshift in a supplied
@@ -2826,7 +2859,7 @@ founding premises are insufficient.
 Retained branches and omissions are explicit below. These results are useful;
 their original full proofs, repairs, qualifications and grades remain at source.
 CDR1 does not claim to rederive all of them. The [406-row disposition ledger](development_reconstruction_2026-09-29/CLAIM_DISPOSITIONS.tsv)
-and [44 later returns](development_reconstruction_2026-09-29/RECENT_DISPOSITIONS.tsv)
+and [45 later returns](development_reconstruction_2026-09-29/RECENT_DISPOSITIONS.tsv)
 identify exact sources and reconstruction depth.
 
 | Retained work | Gain and limit |
@@ -2859,7 +2892,7 @@ it does not merely add another disconnected report.
 
 This is an18-result central reconstruction with actual core calculations,
 standard-method applications and explicitly retained source branches. All406
-registered rows have an editorial disposition;44 relevant later returns
+registered rows have an editorial disposition;45 relevant later returns
 are separately mapped. It does not claim to re-prove every historical result.
 Existence/MGHD, full external invariant theory, detailed nonlinear asymptotics,
 the55-component optional analytic system, the eight signal packages, empirical
@@ -3133,8 +3166,17 @@ retains both positive compatibility and negative inference limits; the [executio
 record](udt_positional_curvature_connection_2026-10-01/WORK_RECORD.md) and actual final
 attestations bind versions and omitted work. Different-model/human/formal review,
 general regional classification, finite-clock integration and empirical testing
-remain unperformed. The maintained coverage count is reconciled to44 later returns;
-fixed historical coverage snapshots are unchanged.
+remain unperformed. Fixed historical coverage snapshots are unchanged.
+
+ULC1's bounded review concerns the owner's universal-law clarification and its
+positive/negative interpretation routes through D1/R8/R18. The two designated
+reviewers reuse their separate PCC1 contexts; they are exposed to the earlier
+work and are not fresh or blind reviews of it. The [scope and impact record](development_reconstruction_2026-09-29/universal_law_clarification_2026-10-01/SCOPE_AND_IMPACT.md)
+names the retained hypotheses and limits. Actual final reports/attestations and
+the current review record own the review outcome and frozen edition. No original
+scientific calculation is replayed or newly certified by this meaning update;
+existing regression, version and premise checks retain their narrower roles.
+The maintained disposition count now includes45 later returns/clarifications.
 
 The preserved first candidates expose the repair history. The [source correction](development_reconstruction_2026-09-29/SOURCE_CORRECTIONS.md)
 fixes a real covector-basis sign in G310; the central nine-direction span and

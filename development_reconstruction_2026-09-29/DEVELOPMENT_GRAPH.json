@@ -494,7 +494,7 @@
     {
       "id": "P_FOUNDING",
       "kind": "declared_premises",
-      "statement": "F1\u2013F4 as stated in R1/R2; composition, nontriviality and readout are distinct inputs"
+      "statement": "F1–F4 as stated in R1/R2; composition, nontriviality and readout are distinct inputs"
     },
     {
       "id": "P_PAIR",
@@ -1109,7 +1109,7 @@
       "id": "R8FST",
       "kind": "argument",
       "anchor": "r8fst",
-      "title": "A discriminating matched comparison \u2014 FST1",
+      "title": "A discriminating matched comparison — FST1",
       "sources": [
         "udt_finite_selection_test_2026-10-01/INITIAL_DERIVATION.md",
         "udt_finite_selection_test_2026-10-01/REVIEWED_RESULT.md",
@@ -1128,7 +1128,7 @@
       "id": "R9FST",
       "kind": "argument",
       "anchor": "r9fst",
-      "title": "Conditional space-form response isotropy \u2014 FST1",
+      "title": "Conditional space-form response isotropy — FST1",
       "sources": [
         "udt_finite_selection_test_2026-10-01/INITIAL_DERIVATION.md",
         "udt_finite_selection_test_2026-10-01/REVIEWED_RESULT.md",
@@ -1304,6 +1304,15 @@
         "C_PCC_EINSTEIN_REFERENCE",
         "M_GEOMETRY"
       ]
+    },
+    {
+      "id": "O_UNIVERSAL_LAW",
+      "kind": "owner_clarification",
+      "statement": "ULC1 confirms universal governing law with circumstance-dependent comparisons; no identical added leading coefficient is required or excluded by universality alone. No new source equation, reference or physical adoption.",
+      "sources": [
+        "development_reconstruction_2026-09-29/universal_law_clarification_2026-10-01/OWNER_CLARIFICATION.md"
+      ],
+      "registry_ids": []
     }
   ],
   "edges": [
@@ -2426,6 +2435,26 @@
       "from": "R8PCCE",
       "to": "R18",
       "kind": "context"
+    },
+    {
+      "from": "O_UNIVERSAL_LAW",
+      "to": "D1",
+      "kind": "interpretation"
+    },
+    {
+      "from": "O_UNIVERSAL_LAW",
+      "to": "C_PCC_ALLFRAME",
+      "kind": "context"
+    },
+    {
+      "from": "O_UNIVERSAL_LAW",
+      "to": "P_PCC_MATCH",
+      "kind": "context"
+    },
+    {
+      "from": "O_UNIVERSAL_LAW",
+      "to": "R18",
+      "kind": "interpretation"
     }
   ],
   "sources_sha256": {
@@ -2602,7 +2631,8 @@
     "udt_positional_curvature_connection_2026-10-01/REVIEWED_RESULT.md": "527f892953017c4fd49807dcac2d0cf865b3e4705b2c71a1e9e2ad616dd5caa2",
     "udt_positional_curvature_connection_2026-10-01/math/SOURCE_FIRST_ARGUMENT.md": "1fc5bb25db42292b850936ca5267cc99cc97f97bb1d728094aea15dbfcea6959",
     "udt_positional_curvature_connection_2026-10-01/fidelity/SOURCE_FIRST.md": "3efa570de7636afdb3d5ebb14ff922beddfee26c83f30db83230f48f395c25d0",
-    "udt_positional_curvature_connection_2026-10-01/PRIMARY_REFERENCE.md": "640184cdb2c4d42139c530660fb30d0162a86e269e73b33b633e28b995776f80"
+    "udt_positional_curvature_connection_2026-10-01/PRIMARY_REFERENCE.md": "640184cdb2c4d42139c530660fb30d0162a86e269e73b33b633e28b995776f80",
+    "development_reconstruction_2026-09-29/universal_law_clarification_2026-10-01/OWNER_CLARIFICATION.md": "69041b4a2033fd85ff65f113f07ea3ac6a6b06af9a0c07e26a775a33fb3f5a1c"
   },
   "impact_policy": "Any changed source or registry row flags its mapped positive and negative central arguments and every reachable central descendant for review; no automatic truth reversal or regrading.",
   "review_support": [
@@ -3692,6 +3722,21 @@
         "R8PCC",
         "R8PCCR",
         "R8PCCE"
+      ]
+    },
+    {
+      "path": "development_reconstruction_2026-09-29/universal_law_clarification_2026-10-01/SCOPE_AND_IMPACT.md",
+      "sha256": "6c0fddb86cd31697ee50ad8d958515e7cd04295accdfb571528b86ac0aed4032",
+      "role": "review_evidence",
+      "targets": [
+        "D1",
+        "R8",
+        "R18",
+        "R8PCC",
+        "R8PCCR",
+        "R8PCCE",
+        "C_PCC_ALLFRAME",
+        "P_PCC_MATCH"
       ]
     }
   ]

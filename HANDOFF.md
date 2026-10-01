@@ -1,9 +1,13 @@
 # HANDOFF — current operational handoff
 
 <!-- STARTUP_CURRENT_BEGIN -->
-## Current handoff — PCC1 reviewed conditional addition after ECS1 and CDR1, 2026-10-01
+## Current handoff — ULC1 owner clarification after PCC1 and CDR1, 2026-10-01
 
-LIVE.md wins. Charles's “test authorized” accepted the proposed isotropic
+LIVE.md wins. ULC1 records Charles's subsequent clarification of universality
+in UDT_DEVELOPMENT.md D1/R8/R18. Its fixed source and bounded maintenance/review
+are under `development_reconstruction_2026-09-29/universal_law_clarification_2026-10-01/`.
+The meaning question is closed; no source equation, PCC1 adoption or successor
+dispatch is added. Charles's “test authorized” accepted the proposed isotropic
 additional clock-curvature test with two fresh reviews and a bounded repair cycle.
 Fixed WORK_ORDER.md, WORK_RECORD.md, REVIEWED_RESULT.md and DECISION_BRIEF.md are
 in `udt_positional_curvature_connection_2026-10-01/`. UDT_DEVELOPMENT.md R8/R18
@@ -18,7 +22,7 @@ and supplement reviews. Initial trig-normalization failures, code repairs and
 diagnostic replay are preserved. No scientific-candidate repair was required.
 Prior packages keep their scopes; no new GPU or production campaign ran.
 
-Next: Stop for lay discussion at this conditional trial return. No physical adoption,
+Next: Stop for lay discussion after the ULC1 meaning clarification. No physical adoption,
 new premise or successor computation begins automatically. Two actual final
 attestations bind the integrated edition; captured normal,57-maintenance and
 full406 checks own pass status. Later sessions must verify host state; no scientific

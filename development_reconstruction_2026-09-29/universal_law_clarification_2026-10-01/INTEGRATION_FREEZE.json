@@ -1,23 +1,35 @@
 {
-  "status": "REVIEWED_WITH_LIMITS",
-  "utc": "2026-10-01T23:19:52.001660+00:00",
-  "scope": "ULC1 owner clarification integrated at D1/R8/R18. Universal governing law with circumstance-dependent comparisons; no new equation or scientific adoption. PCC1 and prior results retain original conditions and grades.",
-  "independence": "Two actual reused separate contexts; no fresh, blind, different-model or human review claimed. Actual exposure and omissions are in immutable reports.",
-  "freeze": "development_reconstruction_2026-09-29/universal_law_clarification_2026-10-01/INTEGRATION_FREEZE.json",
-  "freeze_sha256": "7d4cadaed86bfa89136ebfa8efe0fdd5ee4ef82766805ca22b22e49f7c1b86de",
+  "status": "FROZEN_FOR_ACTUAL_DOCUMENTARY_REVIEW",
+  "base_head": "70337768367336c38d7d313523be8f02c957103a",
+  "utc": "2026-10-01T23:16:02.537346+00:00",
+  "scope": "ULC1 owner-meaning clarification only; preserve PCC1 and prior scientific statements at original hypotheses. Two reused separate contexts, no new scientific solve.",
   "prior_review_record": "development_reconstruction_2026-09-29/universal_law_clarification_2026-10-01/PRIOR_REVIEW_RECORD.json",
   "prior_review_record_sha256": "0e82fcfd9f5bf60cb18a86747764be48cc2fe0ebd9bc47f08da78d3b9f698953",
-  "reviewers": [
-    {
-      "context": "/root/pcc_math",
-      "attestation": "development_reconstruction_2026-09-29/universal_law_clarification_2026-10-01/math/FINAL_ATTESTATION.json",
-      "sha256": "9a6ab0671772cb0a27410ff9032223c4b8e8f086c88f0a94920d988b70efa7ed"
-    },
-    {
-      "context": "/root/pcc_fidelity",
-      "attestation": "development_reconstruction_2026-09-29/universal_law_clarification_2026-10-01/fidelity/FINAL_ATTESTATION.json",
-      "sha256": "88ad13160f7f2f366804686d57a9306a4111f8f499824c30d033e87718539a3e"
-    }
+  "changed_prior_paths": [
+    "CURRENT_RESEARCH_PROGRAM.md",
+    "HANDOFF.md",
+    "LIVE.md",
+    "UDT_DEVELOPMENT.md",
+    "development_reconstruction_2026-09-29/DEVELOPMENT_GRAPH.json",
+    "development_reconstruction_2026-09-29/RECENT_DISPOSITIONS.tsv"
+  ],
+  "added_paths": [
+    "development_reconstruction_2026-09-29/universal_law_clarification_2026-10-01/OWNER_CLARIFICATION.md",
+    "development_reconstruction_2026-09-29/universal_law_clarification_2026-10-01/PRIOR_REVIEW_RECORD.json",
+    "development_reconstruction_2026-09-29/universal_law_clarification_2026-10-01/RECORDED_IMPACT.json",
+    "development_reconstruction_2026-09-29/universal_law_clarification_2026-10-01/SCOPE_AND_IMPACT.md",
+    "development_reconstruction_2026-09-29/universal_law_clarification_2026-10-01/SNAPSHOT.json",
+    "development_reconstruction_2026-09-29/universal_law_clarification_2026-10-01/checks/draft_coherence.json",
+    "development_reconstruction_2026-09-29/universal_law_clarification_2026-10-01/checks/draft_coherence.stderr",
+    "development_reconstruction_2026-09-29/universal_law_clarification_2026-10-01/checks/draft_coherence.stdout",
+    "development_reconstruction_2026-09-29/universal_law_clarification_2026-10-01/checks/prebinding_normal.json",
+    "development_reconstruction_2026-09-29/universal_law_clarification_2026-10-01/checks/prebinding_normal.stderr",
+    "development_reconstruction_2026-09-29/universal_law_clarification_2026-10-01/checks/prebinding_normal.stdout",
+    "development_reconstruction_2026-09-29/universal_law_clarification_2026-10-01/fidelity/PRELIMINARY_REVIEW.md",
+    "udt_positional_curvature_connection_2026-10-01/fidelity/FINAL_ATTESTATION.json",
+    "udt_positional_curvature_connection_2026-10-01/fidelity/FINAL_REVIEW.md",
+    "udt_positional_curvature_connection_2026-10-01/math/FINAL_ATTESTATION.json",
+    "udt_positional_curvature_connection_2026-10-01/math/FINAL_REVIEW.md"
   ],
   "accepted_sha256": {
     ".gitignore": "8a2710f5923ba86b41a461e040282ecd520ce155cb17b09458e1d1d613ddeb7a",
@@ -12488,5 +12500,6 @@
     "udt_time_live_smoke_gate_2026-09-30/smoke_runner.py": "724bf5405dd9596bff343a0a6967393d26a0a0c7529124e9a0bfdd70e569d52f",
     "verify_current_scientific_premises.py": "a983c2456ce3a122629a116c735b32b96e055829ed3012fb416fabfa9b0b8127",
     "verify_udt_development.py": "555e2733fa04c609874802369983f73b4a1d8a79610488d9dc732b1acfb0c2fa"
-  }
+  },
+  "excluded": "This freeze, current REVIEW_RECORD, pending final reports/attestations and later verification/banking outputs. Final reports are separately bound through actual attestations and record."
 }

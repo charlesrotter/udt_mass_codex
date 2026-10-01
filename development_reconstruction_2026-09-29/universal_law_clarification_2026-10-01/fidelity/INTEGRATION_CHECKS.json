@@ -1,0 +1,50 @@
+{
+  "kind": "documentary file/hash/graph correspondence, not scientific computation",
+  "base_head": "70337768367336c38d7d313523be8f02c957103a",
+  "freeze_sha256": "7d4cadaed86bfa89136ebfa8efe0fdd5ee4ef82766805ca22b22e49f7c1b86de",
+  "prior_map_count": 12452,
+  "accepted_map_count": 12468,
+  "added_count": 16,
+  "changed_prior": [
+    "CURRENT_RESEARCH_PROGRAM.md",
+    "HANDOFF.md",
+    "LIVE.md",
+    "UDT_DEVELOPMENT.md",
+    "development_reconstruction_2026-09-29/DEVELOPMENT_GRAPH.json",
+    "development_reconstruction_2026-09-29/RECENT_DISPOSITIONS.tsv"
+  ],
+  "removed": [],
+  "changed_new_hash_mismatches": [],
+  "prior_nodes_unchanged": 83,
+  "prior_edges_unchanged": 224,
+  "new_edges": [
+    {
+      "from": "O_UNIVERSAL_LAW",
+      "to": "D1",
+      "kind": "interpretation"
+    },
+    {
+      "from": "O_UNIVERSAL_LAW",
+      "to": "C_PCC_ALLFRAME",
+      "kind": "context"
+    },
+    {
+      "from": "O_UNIVERSAL_LAW",
+      "to": "P_PCC_MATCH",
+      "kind": "context"
+    },
+    {
+      "from": "O_UNIVERSAL_LAW",
+      "to": "R18",
+      "kind": "interpretation"
+    }
+  ],
+  "prior_source_pins_unchanged": 174,
+  "new_source_pins": 1,
+  "prior_review_support_unchanged": 99,
+  "recent_dispositions": 45,
+  "generated_orientation_identical": true,
+  "original_packages_and_owner_sources_tracked_diff": "unchanged",
+  "historical_payload_rehash": "not performed; inherited unchanged map reused as metadata",
+  "closure_checks_and_banking": "pending; not claimed"
+}

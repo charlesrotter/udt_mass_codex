@@ -1,58 +1,26 @@
 {
-  "status": "REVIEWED_WITH_LIMITS",
-  "utc": "2026-10-01T23:19:52.001660+00:00",
-  "scope": "ULC1 owner clarification integrated at D1/R8/R18. Universal governing law with circumstance-dependent comparisons; no new equation or scientific adoption. PCC1 and prior results retain original conditions and grades.",
-  "independence": "Two actual reused separate contexts; no fresh, blind, different-model or human review claimed. Actual exposure and omissions are in immutable reports.",
-  "freeze": "development_reconstruction_2026-09-29/universal_law_clarification_2026-10-01/INTEGRATION_FREEZE.json",
-  "freeze_sha256": "7d4cadaed86bfa89136ebfa8efe0fdd5ee4ef82766805ca22b22e49f7c1b86de",
-  "prior_review_record": "development_reconstruction_2026-09-29/universal_law_clarification_2026-10-01/PRIOR_REVIEW_RECORD.json",
-  "prior_review_record_sha256": "0e82fcfd9f5bf60cb18a86747764be48cc2fe0ebd9bc47f08da78d3b9f698953",
-  "reviewers": [
-    {
-      "context": "/root/pcc_math",
-      "attestation": "development_reconstruction_2026-09-29/universal_law_clarification_2026-10-01/math/FINAL_ATTESTATION.json",
-      "sha256": "9a6ab0671772cb0a27410ff9032223c4b8e8f086c88f0a94920d988b70efa7ed"
-    },
-    {
-      "context": "/root/pcc_fidelity",
-      "attestation": "development_reconstruction_2026-09-29/universal_law_clarification_2026-10-01/fidelity/FINAL_ATTESTATION.json",
-      "sha256": "88ad13160f7f2f366804686d57a9306a4111f8f499824c30d033e87718539a3e"
-    }
-  ],
   "accepted_sha256": {
     ".gitignore": "8a2710f5923ba86b41a461e040282ecd520ce155cb17b09458e1d1d613ddeb7a",
     "AGENTS.md": "bcab9b67305e0314af9eaf25162d203660eae8f2ff4fd87d17e83588970ef38d",
     "CLAUDE.md": "4ad2e773defb89cc79541fd0ababd75af5a3344ab134ee83722dfd943966e6e4",
-    "CURRENT_RESEARCH_PROGRAM.md": "0124d80e3950e15be3b13de9949bf03a987be0c60130898051a32bc6fcbd69c8",
+    "CURRENT_RESEARCH_PROGRAM.md": "5199c46b5abe08e10463a3b5b5fa53401946dbe607e267e5ee04b9f4f20e0969",
     "CURRENT_SCIENTIFIC_PREMISES.md": "6b708f351b478dde0c6a93e8f29de08eae06533ba4fb789f79fd03bda1512718",
-    "HANDOFF.md": "b1dbf5146bea748716c6581170837c5e8c9bd7ce864459819f2a0ce1227c2fc2",
+    "HANDOFF.md": "ae737527465022da7ee9ab6c86bbb2379df7e6a2c212095ca73466afbb65dece",
     "INDEX.md": "79be0981180b3a241fb0be15697d731884218796dc36fde4cd6fce08ab55e8a1",
-    "LIVE.md": "21e1f42b5fdce275f96939e1169acd124382e0ac795c41d74975ac6093ca3eeb",
+    "LIVE.md": "7854bbeda0383781cb0c20318981d932b138a9e3e52eaed4d4c3e4014461af74",
     "MEMORY.md": "9cef036ad44244dd4dbb2951c08a544dddea5dc24bb33571906c7061e03c5761",
-    "UDT_DEVELOPMENT.md": "c68ac0fd961007f108eeb0472ad90a3b164f4d9aa3db872c99b929e3ceacd27f",
+    "UDT_DEVELOPMENT.md": "ce9288c0e579ffce0787df549bb2df2a961d1708a0a4f1f48b0bcc2f68db3dd4",
     "UDT_RESEARCH_ROADMAP.md": "7511d5d68216399a2912c9339bb83b6453092104981ec472bf4e7582f8b469f0",
     "development_reconstruction_2026-09-29/CLAIM_DISPOSITIONS.tsv": "a14be5dbdc27fe6a232302f75d8116fdf6b8e546dd9ca250f6be792c9fae818d",
-    "development_reconstruction_2026-09-29/DEVELOPMENT_GRAPH.json": "81c08501d8b902aee84da9ebe46fe77fd8fc39e64adbe89986b4656dcab03f51",
+    "development_reconstruction_2026-09-29/DEVELOPMENT_GRAPH.json": "280a75db3094700de06d532a6f2e9b094e7fe3a33cd404de8077fd2092132001",
     "development_reconstruction_2026-09-29/FULL_REPAIR.md": "820441708b9607181c2c84b2df31b88ebdd4084b4a56c371706ea1ae93959bf8",
     "development_reconstruction_2026-09-29/HISTORICAL_EVIDENCE_INDEX.md": "7c1614619e94b35004ce0893e558ab7808d026aa012e00c69658bca70aa0e7a9",
     "development_reconstruction_2026-09-29/INTEGRATION_GUARD_CHANGE.md": "bb4dbfe3c32cb5f2e38e378237003efa6ee286340cae4d56a96b84058e7b3adc",
     "development_reconstruction_2026-09-29/INTEGRATION_REPAIR.md": "e614c73ef360e105ee9ddf94b5617d373150ed1f5213332da23d53ed93557175",
     "development_reconstruction_2026-09-29/MAINTENANCE.md": "6aefb0450bf83d01620f8a94024df075508165ae1c9fd4185483d1db5a025b41",
-    "development_reconstruction_2026-09-29/RECENT_DISPOSITIONS.tsv": "c510bfabeb21491aca4cc22fc822cf327005168ccde0231e6fbde8e3bf149cc3",
+    "development_reconstruction_2026-09-29/RECENT_DISPOSITIONS.tsv": "460b7892c4c0526a01cd4bfc39c6723ccca0fa8649c50e1b61cfe0f150deb3ba",
     "development_reconstruction_2026-09-29/SOURCE_CORRECTIONS.md": "18742d3ca750540ade8108ac87d31b7355b0e88d8b96bc4a90b7f8de438d6fb0",
     "development_reconstruction_2026-09-29/checks/test_maintenance.py": "2b54d4562ac4b35f2689becb408d410c6295f2c3daf0609861d69bc9402b78d8",
-    "development_reconstruction_2026-09-29/universal_law_clarification_2026-10-01/OWNER_CLARIFICATION.md": "69041b4a2033fd85ff65f113f07ea3ac6a6b06af9a0c07e26a775a33fb3f5a1c",
-    "development_reconstruction_2026-09-29/universal_law_clarification_2026-10-01/PRIOR_REVIEW_RECORD.json": "0e82fcfd9f5bf60cb18a86747764be48cc2fe0ebd9bc47f08da78d3b9f698953",
-    "development_reconstruction_2026-09-29/universal_law_clarification_2026-10-01/RECORDED_IMPACT.json": "cf4fe35d6f695e59de2ac675db24db8141035b0ed96ec977a7697c6dd4d7e966",
-    "development_reconstruction_2026-09-29/universal_law_clarification_2026-10-01/SCOPE_AND_IMPACT.md": "6c0fddb86cd31697ee50ad8d958515e7cd04295accdfb571528b86ac0aed4032",
-    "development_reconstruction_2026-09-29/universal_law_clarification_2026-10-01/SNAPSHOT.json": "c4fbca54462a10ed964ffcdc3f1bfa315a68d112f4633034e19789ee02cef0be",
-    "development_reconstruction_2026-09-29/universal_law_clarification_2026-10-01/checks/draft_coherence.json": "bea9a64045ce79af6c666ea60ea3ad9e24b50b8e86dbc6a7a371a7a750490fe3",
-    "development_reconstruction_2026-09-29/universal_law_clarification_2026-10-01/checks/draft_coherence.stderr": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-    "development_reconstruction_2026-09-29/universal_law_clarification_2026-10-01/checks/draft_coherence.stdout": "c707f2e3557de4be6e5dd69c9a18a8c6e8246936eb33e8188120cf408d7090ae",
-    "development_reconstruction_2026-09-29/universal_law_clarification_2026-10-01/checks/prebinding_normal.json": "43396c8c3a5a00e42df1147c4f8a45359b715aa30c5401c6b13d2046b79c0ed7",
-    "development_reconstruction_2026-09-29/universal_law_clarification_2026-10-01/checks/prebinding_normal.stderr": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-    "development_reconstruction_2026-09-29/universal_law_clarification_2026-10-01/checks/prebinding_normal.stdout": "2c7db3f322347a3730e14a583aa9fa4da518c8cdf6f3b69446284b50a9e166b0",
-    "development_reconstruction_2026-09-29/universal_law_clarification_2026-10-01/fidelity/PRELIMINARY_REVIEW.md": "b9d2fa80e3b1be319601124a7092d7465f59393df61e5f3a5342dd92a58b30c5",
     "udt_clock_ensemble_stationarity_test_2026-09-30/CANDIDATE_FREEZE.json": "31779c695ffbe0407825e91c4a5935904a576072d57ce848ef11a8b05248f813",
     "udt_clock_ensemble_stationarity_test_2026-09-30/CHECK_FREEZE.json": "f10a70c649e0c87091099537d47b73bd01055602093334a0aae341ccb8f97f07",
     "udt_clock_ensemble_stationarity_test_2026-09-30/INITIAL_CANDIDATE.md": "cf82d5a6f6b84862da1a5ebbcdfe6f65bf8e862b2e41a05a6d6366f8699229e3",
@@ -860,8 +828,6 @@
     "udt_positional_curvature_connection_2026-10-01/fidelity/CANDIDATE_REVIEW.json": "be46449e3a9218e7ff338d39de585fa60bb28823340b468b2076c8fc6f85f4bd",
     "udt_positional_curvature_connection_2026-10-01/fidelity/CANDIDATE_REVIEW.md": "fce89c22a82545bb4cd7bc408b0ce54b7d17a974590ad04c7d48734581fdcfb6",
     "udt_positional_curvature_connection_2026-10-01/fidelity/EXACT_CONTROLS.json": "a6360e25a3c5710caa4728dcf84b85e48b4e121cf426a14656913b8fcabdcfa5",
-    "udt_positional_curvature_connection_2026-10-01/fidelity/FINAL_ATTESTATION.json": "f2e13a9991fc8d7d786bef8a2817f5fbc1d74f3baade738693df35d3a1586e81",
-    "udt_positional_curvature_connection_2026-10-01/fidelity/FINAL_REVIEW.md": "5c30c94e5fec3ae51f8f47abbd916d4a174a459e38923e572690cb511336e443",
     "udt_positional_curvature_connection_2026-10-01/fidelity/SAVED_RECOVERY.json": "4ea388700f4f73933c3ffc2c58e609847ecf751e66ae3f1d7293dc388057d8c7",
     "udt_positional_curvature_connection_2026-10-01/fidelity/SOURCE_FIRST.md": "3efa570de7636afdb3d5ebb14ff922beddfee26c83f30db83230f48f395c25d0",
     "udt_positional_curvature_connection_2026-10-01/fidelity/SOURCE_FIRST_EXECUTION.md": "12026f34fc2191a8e8e4ba5ba6b8e7120fbcc3966f58994f09526ea0796017f3",
@@ -880,8 +846,6 @@
     "udt_positional_curvature_connection_2026-10-01/math/CANDIDATE_REVIEW.json": "d9c6b6fd8292943241a54e5a2ec986c64f9fb41580d481c847be5d24ab7ee95e",
     "udt_positional_curvature_connection_2026-10-01/math/CANDIDATE_REVIEW.md": "dda314a817793fb5c1d4ed026e7f40757efb80a85527565c05741c3a8d0b72af",
     "udt_positional_curvature_connection_2026-10-01/math/EXECUTION_RECORD.md": "8570e7ac3cef93f2ad93fc562bda591003d92f38beb77fb77a8b10fce0611b2c",
-    "udt_positional_curvature_connection_2026-10-01/math/FINAL_ATTESTATION.json": "dc391685b1bc9486db90431a0ef4ef3d1a94cb7c3b292d667393b9377fb392c2",
-    "udt_positional_curvature_connection_2026-10-01/math/FINAL_REVIEW.md": "ac2070c78d8473c6fc5b04f1bab9fee2f68c70216cabb9d3d4526e0049139f29",
     "udt_positional_curvature_connection_2026-10-01/math/SOURCE_FIRST_ARGUMENT.md": "1fc5bb25db42292b850936ca5267cc99cc97f97bb1d728094aea15dbfcea6959",
     "udt_positional_curvature_connection_2026-10-01/math/SUPPLEMENT_REVIEW.json": "6f73765ffbd68375f99dc7b015ce07f5b17565a1e2b4dac95ec5df595444b54d",
     "udt_positional_curvature_connection_2026-10-01/math/SUPPLEMENT_REVIEW.md": "8cd545ceae585746506c4f39dd94bfd1b32685a757f17609c3bc8987928a5e17",
@@ -12488,5 +12452,27 @@
     "udt_time_live_smoke_gate_2026-09-30/smoke_runner.py": "724bf5405dd9596bff343a0a6967393d26a0a0c7529124e9a0bfdd70e569d52f",
     "verify_current_scientific_premises.py": "a983c2456ce3a122629a116c735b32b96e055829ed3012fb416fabfa9b0b8127",
     "verify_udt_development.py": "555e2733fa04c609874802369983f73b4a1d8a79610488d9dc732b1acfb0c2fa"
-  }
+  },
+  "exposure_addenda": [
+    {
+      "context": "/root/pcc_math",
+      "meaning": "Peer preliminary final no-defect status arrived after final report/attestation were written but before immutable announcement; original records preserved and final stage not called blind.",
+      "path": "udt_positional_curvature_connection_2026-10-01/math/FINAL_EXPOSURE_ADDENDUM.md",
+      "sha256": "6790da957fb2903f27503ab1a6746c462192682c5636fa40becb60354dde8ea5"
+    }
+  ],
+  "reviewers": [
+    {
+      "attestation": "udt_positional_curvature_connection_2026-10-01/math/FINAL_ATTESTATION.json",
+      "context": "/root/pcc_math",
+      "sha256": "dc391685b1bc9486db90431a0ef4ef3d1a94cb7c3b292d667393b9377fb392c2"
+    },
+    {
+      "attestation": "udt_positional_curvature_connection_2026-10-01/fidelity/FINAL_ATTESTATION.json",
+      "context": "/root/pcc_fidelity",
+      "sha256": "f2e13a9991fc8d7d786bef8a2817f5fbc1d74f3baade738693df35d3a1586e81"
+    }
+  ],
+  "scope": "PCC1 UNADOPTED all-frame leading additional clock-curvature trial with supplied physical comparison: pointwise equivalence, necessary regional relation, scoped variable-reference/cubic controls and nonuniform Einstein-reference witness. No native admission, response identification, selected scale or finite law. Prior accepted versions inherited, not historical reproof.",
+  "status": "REVIEWED_WITH_LIMITS"
 }

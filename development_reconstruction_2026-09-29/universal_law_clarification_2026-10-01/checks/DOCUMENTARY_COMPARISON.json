@@ -1,0 +1,12 @@
+{
+  "status": "PASS_DOCUMENTARY_PRESERVATION",
+  "utc": "2026-10-01T23:18:42.187108+00:00",
+  "base_head": "70337768367336c38d7d313523be8f02c957103a",
+  "prior_graph_nodes_unchanged": 83,
+  "prior_edges_retained": 224,
+  "prior_source_pins_retained": 174,
+  "prior_review_support_retained": 99,
+  "prior_disposition_bytes_retained": true,
+  "canon_registry_verifiers_tests_unchanged": true,
+  "claim_limit": "Byte/structure preservation, not a new mathematical proof or scientific adoption."
+}

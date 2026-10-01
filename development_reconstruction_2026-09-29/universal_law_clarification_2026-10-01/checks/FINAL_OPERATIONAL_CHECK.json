@@ -1,0 +1,36 @@
+{
+  "utc": "2026-10-01 23:27:16 UTC",
+  "scope": "Final operational observations before banking; host process check limited to named commands.",
+  "checks": [
+    {
+      "command": [
+        "ps",
+        "-C",
+        "python,python3,torchrun",
+        "-o",
+        "pid,etime,pcpu,pmem,args"
+      ],
+      "host_namespace": true,
+      "chunk_id": "a91582",
+      "wall_time_seconds": 0.000011445,
+      "exit_code": 1,
+      "original_token_count": 10,
+      "output": "    PID     ELAPSED %CPU %MEM COMMAND\n"
+    },
+    {
+      "command": [
+        "git",
+        "ls-remote",
+        "origin",
+        "refs/heads/grok"
+      ],
+      "chunk_id": "6d9497",
+      "wall_time_seconds": 0.249389502,
+      "exit_code": 0,
+      "original_token_count": 15,
+      "output": "70337768367336c38d7d313523be8f02c957103a\trefs/heads/grok\n"
+    }
+  ],
+  "interpretation": "No matching Python or torchrun process was listed. Remote grok still equals the maintenance base HEAD. Original untracked-name preservation is checked by BANKING_READINESS and again after commit.",
+  "execution_scope": "The required full premise verifier ran existing dependency checks, including legacy scientific verification scripts. No new derivation, dedicated PCC1 scientific replay, GPU campaign or new scientific test suite was commissioned. These closure checks are separate from the reviewers' documentary review and omissions."
+}

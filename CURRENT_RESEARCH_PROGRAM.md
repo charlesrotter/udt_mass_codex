@@ -21,6 +21,11 @@ alongside SR/GR phenomena; no arithmetic split is assumed. A second propagation-
 mechanism is not inserted.
 Slower received ticking is redshift by definition of the specified observable.
 There is no preferred observer or universal spherical center.
+Charles has clarified that universality means the same governing law for every
+observer, with clock comparisons dependent on physical circumstances, including
+acceleration and nearby gravity. It does not by itself require PCC1's identical
+additional leading curvature in every frame and direction; that stronger trial
+remains UNADOPTED.
 
 The founded reciprocal character is DERIVED from its stated premises on supplied
 ordered depth. The completed pair kernel is DERIVED_CONDITIONAL on the working

@@ -1,24 +1,4 @@
 {
-  "status": "REVIEWED_WITH_LIMITS",
-  "utc": "2026-10-01T23:19:52.001660+00:00",
-  "scope": "ULC1 owner clarification integrated at D1/R8/R18. Universal governing law with circumstance-dependent comparisons; no new equation or scientific adoption. PCC1 and prior results retain original conditions and grades.",
-  "independence": "Two actual reused separate contexts; no fresh, blind, different-model or human review claimed. Actual exposure and omissions are in immutable reports.",
-  "freeze": "development_reconstruction_2026-09-29/universal_law_clarification_2026-10-01/INTEGRATION_FREEZE.json",
-  "freeze_sha256": "7d4cadaed86bfa89136ebfa8efe0fdd5ee4ef82766805ca22b22e49f7c1b86de",
-  "prior_review_record": "development_reconstruction_2026-09-29/universal_law_clarification_2026-10-01/PRIOR_REVIEW_RECORD.json",
-  "prior_review_record_sha256": "0e82fcfd9f5bf60cb18a86747764be48cc2fe0ebd9bc47f08da78d3b9f698953",
-  "reviewers": [
-    {
-      "context": "/root/pcc_math",
-      "attestation": "development_reconstruction_2026-09-29/universal_law_clarification_2026-10-01/math/FINAL_ATTESTATION.json",
-      "sha256": "9a6ab0671772cb0a27410ff9032223c4b8e8f086c88f0a94920d988b70efa7ed"
-    },
-    {
-      "context": "/root/pcc_fidelity",
-      "attestation": "development_reconstruction_2026-09-29/universal_law_clarification_2026-10-01/fidelity/FINAL_ATTESTATION.json",
-      "sha256": "88ad13160f7f2f366804686d57a9306a4111f8f499824c30d033e87718539a3e"
-    }
-  ],
   "accepted_sha256": {
     ".gitignore": "8a2710f5923ba86b41a461e040282ecd520ce155cb17b09458e1d1d613ddeb7a",
     "AGENTS.md": "bcab9b67305e0314af9eaf25162d203660eae8f2ff4fd87d17e83588970ef38d",
@@ -12488,5 +12468,35 @@
     "udt_time_live_smoke_gate_2026-09-30/smoke_runner.py": "724bf5405dd9596bff343a0a6967393d26a0a0c7529124e9a0bfdd70e569d52f",
     "verify_current_scientific_premises.py": "a983c2456ce3a122629a116c735b32b96e055829ed3012fb416fabfa9b0b8127",
     "verify_udt_development.py": "555e2733fa04c609874802369983f73b4a1d8a79610488d9dc732b1acfb0c2fa"
-  }
+  },
+  "actual_checks": [
+    "Actual positive/negative intended-meaning and unchanged-science inspection",
+    "All22 changed/added hashes match freeze;12452 inherited map entries retained with six declared replacements and16 additions",
+    "All prior graph nodes/edges/source pins/review support unchanged as parsed data",
+    "Original packages, CANON, premise files and owner records no tracked diff",
+    "Exact generated orientation;45th disposition append; prior record identical to base commit",
+    "Draft-coherence and prebinding REVIEW_REQUIRED receipts inspected, no final pass claimed"
+  ],
+  "actual_exposure": "Retained PCC1 parent/peer argument, code, controls and review history; current ULC1 user quote, original owner sources, central six-file diff, scope/impact and check receipts; no other ULC1 reviewer output read",
+  "context": "/root/pcc_fidelity",
+  "freeze_path": "development_reconstruction_2026-09-29/universal_law_clarification_2026-10-01/INTEGRATION_FREEZE.json",
+  "freeze_sha256": "7d4cadaed86bfa89136ebfa8efe0fdd5ee4ef82766805ca22b22e49f7c1b86de",
+  "integration_checks_path": "development_reconstruction_2026-09-29/universal_law_clarification_2026-10-01/fidelity/INTEGRATION_CHECKS.json",
+  "integration_checks_sha256": "262aa695fa3d01307be84e0a148038f6c5794c42fcb9501b68d871ea6264bfdb",
+  "limits": [
+    "Documentary fidelity only; no scientific adoption/canon or premise derivation",
+    "Inherited unchanged map reused without full-payload fresh rehash or historical scientific reproof",
+    "No independent ULC1 scientific/empirical/formal or different-model review",
+    "Parent normal/57/full406, manifest, git banking and remote checks remain pending"
+  ],
+  "model": "Inherited Codex GPT-6-family configuration; exact serving revision unavailable",
+  "new_test_suite": false,
+  "report_path": "development_reconstruction_2026-09-29/universal_law_clarification_2026-10-01/fidelity/FINAL_REVIEW.md",
+  "report_sha256": "a5e55682d9530a0ef3a61a08ed7b6c520ee241f42e2d07f5537501ce6c2c2992",
+  "review_context": "REUSED after PCC1; not fresh or blind",
+  "scientific_execution": false,
+  "status": "FINAL_IMMUTABLE",
+  "unresolved_substantive_objections": [],
+  "utc": "2026-10-01T23:18:52.691342+00:00",
+  "verdict": "ACCEPT_WITH_LIMITS"
 }

@@ -1,9 +1,14 @@
 # LIVE — operational status
 
 <!-- STARTUP_CURRENT_BEGIN -->
-## CURRENT STATE — PCC1 reviewed isotropic-addition trial after ECS1 and CDR1, 2026-10-01
+## CURRENT STATE — ULC1 owner clarification after PCC1 and CDR1, 2026-10-01
 
 Work on `grok`; independently verify HEAD, synchronization and dirt.
+The subsequent discussion clarified the intended meaning of universality.
+ULC1's fixed owner source and maintenance scope are under
+`development_reconstruction_2026-09-29/universal_law_clarification_2026-10-01/`.
+UDT_DEVELOPMENT.md D1/R8/R18 owns that meaning; this maintenance adds no research
+dispatch, physical equation, adopted PCC1 hypothesis or registry/CANON change.
 Charles's “test authorized” accepted the explicit bounded isotropic additional
 clock-curvature test, two fresh reviews and one bounded repair/re-review cycle.
 Fixed scope and execution are in `udt_positional_curvature_connection_2026-10-01/`:
@@ -50,8 +55,9 @@ Protected: do not inspect, hash, stage, modify, mine or cite payloads without di
 
 ### Next gate
 
-The authorized conditional test is complete. Stop for lay discussion using the
-PCC1 decision brief, actual final attestations and captured checks. The tested
+The authorized conditional test is complete and ULC1 records the ensuing owner
+clarification. Stop for lay discussion using the central D1/R8/R18, PCC1 decision
+brief and ULC1's actual review/check records. The tested
 comparison still needs physical reference/matching and positional attribution;
 no distinct UDT prediction, native admission or finite-distance law is established.
 A successor needs its own discriminating question and bounded work order. The
