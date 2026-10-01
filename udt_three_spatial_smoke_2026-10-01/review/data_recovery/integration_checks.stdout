@@ -1,0 +1,24 @@
+{
+  "status": "SCOPED_INTEGRATION_CHECK_PASS",
+  "baseline": "d65a7ea0faa0e38b9b1ad5ed5e3743be5178288d",
+  "prior_graph_nodes_edges_reviews_preserved": true,
+  "prior_scientific_source_pins_preserved": true,
+  "added_nodes": [
+    "C_TDS_ARENA",
+    "R12T"
+  ],
+  "registered_grades_and_canon_unchanged": true,
+  "generated_excerpt_exact": true,
+  "recent_rows_before": 34,
+  "recent_rows_now": 35,
+  "reviewed_hashes": {
+    "UDT_DEVELOPMENT.md": "356b8cc9ac40cd89673aeef9a520e8cecb3ae72cb6c0a826dceb98842e29974d",
+    "CURRENT_RESEARCH_PROGRAM.md": "8c7d9e26bfae813a367ec8352a87816b8c4178e8a833a8e43d887f1c2e2eaae2",
+    "LIVE.md": "4d0e475e328c8e067a97c5352d09e9ea8ad3416afd6d8369e46818c94cddd983",
+    "HANDOFF.md": "e40c23b99714329aaf38b1af3c8bc100f1ab2260a422c4659465a5d729c3562f",
+    "development_reconstruction_2026-09-29/DEVELOPMENT_GRAPH.json": "93c4cefd5cb52ac3441646d989598bae1ba9d27a5e6871402ddd56646293c4ce",
+    "development_reconstruction_2026-09-29/RECENT_DISPOSITIONS.tsv": "c85c84581d2c0764dd212a63a96fdc126fd8979a65b959c3fa1121348164ca04",
+    "development_reconstruction_2026-09-29/checks/test_maintenance.py": "2b54d4562ac4b35f2689becb408d410c6295f2c3daf0609861d69bc9402b78d8"
+  },
+  "scope": "Packaging/preservation checks plus separately written substantive semantic review; no scientific promotion."
+}

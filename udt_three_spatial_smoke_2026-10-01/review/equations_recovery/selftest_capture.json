@@ -1,0 +1,16 @@
+{
+  "command": [
+    "python3",
+    "udt_three_spatial_smoke_2026-10-01/review/equations_recovery/history_ricci.py",
+    "udt_three_spatial_smoke_2026-10-01/review/equations_recovery/SELFTEST_RESULT.json",
+    "--selftest"
+  ],
+  "cwd": "/home/udt-admin/udt_mass_codex",
+  "started_utc": "2026-10-01T00:10:26.104260+00:00",
+  "duration_seconds": 0.3602667960221879,
+  "returncode": 0,
+  "timeout": false,
+  "address_space_bytes": 2147483648,
+  "cpu_seconds": 180,
+  "maxrss_kib": 32292
+}

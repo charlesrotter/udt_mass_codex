@@ -1,0 +1,37 @@
+{
+  "status": "DEVELOPMENT_CONTROLS_PASS",
+  "checks": [
+    {
+      "kind": "flat",
+      "rhs_error": 0.0,
+      "harmonic": 0.0,
+      "end_state_errors": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "kind": "kasner",
+      "rhs_error": 1.1102230246251565e-16,
+      "harmonic": 5.551115123125783e-17,
+      "end_state_errors": [
+        6.406506436462678e-10,
+        4.037570278114799e-11
+      ]
+    },
+    {
+      "kind": "gauge_wave",
+      "rhs_error": 1.3183898417423734e-15,
+      "harmonic": 1.734723475976807e-16,
+      "end_state_errors": [
+        1.1108711173157815e-11,
+        6.938651042620592e-13
+      ]
+    }
+  ],
+  "seconds": 0.5749729890376329,
+  "torch": "2.5.1+cu121",
+  "device": "Tesla V100-PCIE-32GB",
+  "gpu_allocated_peak": 36209152,
+  "scope": "exact supplied controls only; broader histories not yet checked"
+}

@@ -1,0 +1,12 @@
+{
+  "constraint_limit": 2e-05,
+  "dt": 0.005,
+  "end": 1.1,
+  "gpu_bytes": 4294967296,
+  "initial": "udt_three_spatial_smoke_2026-10-01/initial_n8.npz",
+  "n": 8,
+  "output_bytes": 134217728,
+  "period": 6.283185307179586,
+  "scope": "conditional Ric=0 short three-coordinate smoke only",
+  "wall_seconds": 90
+}

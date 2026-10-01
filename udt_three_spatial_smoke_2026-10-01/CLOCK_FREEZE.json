@@ -1,0 +1,6 @@
+{
+  "source": "udt_three_spatial_smoke_2026-10-01/clock_readout.py",
+  "sha256": "bcb5e7b18b71704494410728e3ccec8cb37952ce51f60a32426d9b0cd6dce0ac",
+  "exposure": "Short-run metrics/runtime constraints available before readout code; no 3D clock outputs yet. Exact Kasner readout derived before run.",
+  "tolerances": "exact Z2e-7; sampled null norm2e-7; N16 timestep logZ2e-7; N8->N12 factor10 unless already1e-9"
+}

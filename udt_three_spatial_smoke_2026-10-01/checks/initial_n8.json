@@ -1,0 +1,17 @@
+{
+  "command": [
+    "python3",
+    "udt_three_spatial_smoke_2026-10-01/initial_data.py",
+    "udt_three_spatial_smoke_2026-10-01/initial_n8.npz",
+    "--n",
+    "8"
+  ],
+  "cwd": "/home/udt-admin/udt_mass_codex",
+  "started_utc": "2026-10-01T00:05:02.893722+00:00",
+  "duration_seconds": 0.1359065700089559,
+  "returncode": 0,
+  "timeout": false,
+  "address_space_bytes": 2147483648,
+  "cpu_seconds": 180,
+  "maxrss_kib": 60304
+}

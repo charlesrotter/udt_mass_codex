@@ -1,0 +1,10 @@
+Traceback (most recent call last):
+  File "/home/udt-admin/udt_mass_codex/udt_three_spatial_smoke_2026-10-01/clock_readout.py", line 71, in <module>
+    if __name__=='__main__':main()
+  File "/home/udt-admin/udt_mass_codex/udt_three_spatial_smoke_2026-10-01/clock_readout.py", line 56, in main
+    results[name]=[query(history,d) for d in directions]
+  File "/home/udt-admin/udt_mass_codex/udt_three_spatial_smoke_2026-10-01/clock_readout.py", line 56, in <listcomp>
+    results[name]=[query(history,d) for d in directions]
+  File "/home/udt-admin/udt_mass_codex/udt_three_spatial_smoke_2026-10-01/clock_readout.py", line 45, in query
+    assert np.isfinite(z) and z>0 and max(nulls)<2e-7,(z,max(nulls))
+AssertionError: (np.float64(1.0408107741917099), 4.849322895128516e-05)

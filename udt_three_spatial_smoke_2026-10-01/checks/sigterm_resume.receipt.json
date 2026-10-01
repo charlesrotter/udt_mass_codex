@@ -1,0 +1,16 @@
+{
+  "command": [
+    "/usr/bin/python3",
+    "/home/udt-admin/udt_mass_codex/udt_three_spatial_smoke_2026-10-01/run_smoke.py",
+    "/home/udt-admin/udt_mass_codex/udt_three_spatial_smoke_2026-10-01/specs/n8.json",
+    "/home/udt-admin/udt_mass_codex/udt_three_spatial_smoke_2026-10-01/runs/sigterm",
+    "--resume"
+  ],
+  "label": "sigterm_resume",
+  "returncode": 0,
+  "expected": 0,
+  "seconds": 1.5172671360196546,
+  "stdout_sha256": "316ec6666d359190406ef09958de367601328f35afa169625ca31db3f5916a9a",
+  "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "SIGTERM_sent": false
+}

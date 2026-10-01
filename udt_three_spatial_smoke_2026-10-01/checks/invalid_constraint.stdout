@@ -1,0 +1,1 @@
+{"status": "DIAGNOSTIC_REJECTION", "reason": "CONSTRAINT_LIMIT", "step": 0, "t": 1.0, "metrics": {"gamma_min_eigenvalue": 0.9809581766697286, "inverse_g00_max": -1.0, "hamiltonian": 0.04139884791988879, "momentum": 0.0004378545138569144, "harmonic": 0.030582343583543448}, "path": "udt_three_spatial_smoke_2026-10-01/runs/invalid_constraint/diagnostics/ckpt_000000000_cf04a8b5619d"}

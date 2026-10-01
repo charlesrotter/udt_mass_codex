@@ -1,0 +1,7 @@
+test_three_coordinate_result_requires_supplied_arena (__main__.Maintenance) ... ok
+test_three_coordinate_source_routes_frontier_review (__main__.Maintenance) ... ok
+
+----------------------------------------------------------------------
+Ran 2 tests in 0.020s
+
+OK

@@ -1,0 +1,15 @@
+{
+  "command": [
+    "/usr/bin/python3",
+    "/home/udt-admin/udt_mass_codex/udt_three_spatial_smoke_2026-10-01/run_smoke.py",
+    "/home/udt-admin/udt_mass_codex/udt_three_spatial_smoke_2026-10-01/specs/kasner.json",
+    "/home/udt-admin/udt_mass_codex/udt_three_spatial_smoke_2026-10-01/runs/kasner"
+  ],
+  "label": "history_kasner",
+  "returncode": 0,
+  "expected": 0,
+  "seconds": 1.6679944289498962,
+  "stdout_sha256": "40699f1d63e94a9006477ebf32350df1a367a3cb58819f11995f80ce8c1777c4",
+  "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "SIGTERM_sent": false
+}

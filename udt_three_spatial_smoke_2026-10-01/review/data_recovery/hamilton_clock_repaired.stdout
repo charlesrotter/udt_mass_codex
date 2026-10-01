@@ -1,0 +1,123 @@
+{
+  "checker_sha256": "b0b1a2a9b3ffe84bff626f6d8fb3cbfb64cd3794d5ef3624d73611e090828ec4",
+  "history_sha256": {
+    "kasner_half": "d04fe85ee95100aa53aa9cb68e44251b666bb7a29b4328956b0919220aedf6b4",
+    "n16_half": "b8e8cebc4d222d5da518c1649cdade829ee1f4ea22fa3491acbe4bbd8fc63737"
+  },
+  "producer_logZ_differences": {
+    "kasner_half": 1.413407585415527e-11,
+    "n16_half": 1.3104309304345918e-11
+  },
+  "readouts": {
+    "kasner_half": [
+      {
+        "Z": 0.9801986733064618,
+        "exact_error": 2.9343194540842887e-13,
+        "initial_coordinate_direction": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "logZ": -0.020000000000299452,
+        "max_internal_trial_abs_null_norm": 7.641248972523051e-05,
+        "max_sampled_abs_null_norm": 8.43769498715119e-13,
+        "nfev": 128,
+        "receiver_position": [
+          0.3741534507387761,
+          0.47,
+          0.19
+        ]
+      },
+      {
+        "Z": 1.0408107741928656,
+        "exact_error": 4.773959005888173e-13,
+        "initial_coordinate_direction": [
+          0.0,
+          1.0,
+          0.0
+        ],
+        "logZ": 0.04000000000045866,
+        "max_internal_trial_abs_null_norm": 1.1369977192421388e-05,
+        "max_sampled_abs_null_norm": 1.6521228829446954e-12,
+        "nfev": 128,
+        "receiver_position": [
+          0.31,
+          0.5310093966345745,
+          0.19
+        ]
+      }
+    ],
+    "n16_half": [
+      {
+        "Z": 0.9795773780711599,
+        "initial_coordinate_direction": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "logZ": -0.02063404719735489,
+        "max_internal_trial_abs_null_norm": 7.746897672779985e-05,
+        "max_sampled_abs_null_norm": 7.355312800352459e-13,
+        "nfev": 128,
+        "receiver_position": [
+          0.37363944061174925,
+          0.47007533966999454,
+          0.19000006735865313
+        ]
+      },
+      {
+        "Z": 1.0376660645193698,
+        "initial_coordinate_direction": [
+          0.0,
+          1.0,
+          0.0
+        ],
+        "logZ": 0.03697402250147549,
+        "max_internal_trial_abs_null_norm": 9.061728146419592e-06,
+        "max_sampled_abs_null_norm": 1.343965472430578e-12,
+        "nfev": 128,
+        "receiver_position": [
+          0.3101115104738976,
+          0.5306587985167063,
+          0.19000006405292663
+        ]
+      },
+      {
+        "Z": 1.045202887975673,
+        "initial_coordinate_direction": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "logZ": 0.04421101774476721,
+        "max_internal_trial_abs_null_norm": 1.2929845779607874e-06,
+        "max_sampled_abs_null_norm": 8.578693311278585e-13,
+        "nfev": 128,
+        "receiver_position": [
+          0.30999635598967257,
+          0.4699641189424759,
+          0.2502751441162084
+        ]
+      },
+      {
+        "Z": 1.0190434689959789,
+        "initial_coordinate_direction": [
+          0.5773502691896258,
+          0.5773502691896258,
+          0.5773502691896258
+        ],
+        "logZ": 0.018864411815508797,
+        "max_internal_trial_abs_null_norm": 5.6791716115223156e-05,
+        "max_sampled_abs_null_norm": 1.3533618670180658e-12,
+        "nfev": 128,
+        "receiver_position": [
+          0.3470627130122865,
+          0.5049566948648186,
+          0.22466071685194972
+        ]
+      }
+    ]
+  },
+  "scope": "Distinct covariant-momentum equations and RK45 integration; independent implementation of metric sampling with SciPy Hermite. Shared saved fields and Fourier/Hermite mathematical methods, not independent data or discretization.",
+  "status": "HAMILTON_CLOCK_REVIEW_PASS"
+}

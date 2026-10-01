@@ -1,0 +1,21 @@
+{
+  "scope": "short-history freeze before evolution outcomes; development exposure in SMOKE_PLAN",
+  "sha256": {
+    "udt_three_spatial_smoke_2026-10-01/WORK_ORDER.md": "5713e6e518a36a08c4fbe4b5b668e8d53bf10d637255a65f18ca24c755be8d91",
+    "udt_three_spatial_smoke_2026-10-01/SMOKE_PLAN.md": "84203a19eea1fb8a1ed8fd0329a5c1c53ddaa5cbe1621ce41da1049485667053",
+    "udt_three_spatial_smoke_2026-10-01/initial_data.py": "06585ca811f8c402b02144f1ca60c5e1fc7d661ce0da93524c0645b9919c4c3f",
+    "udt_three_spatial_smoke_2026-10-01/evolution.py": "cc36f7006d80b9942ba521656b43bee7761ba12572e28cdf24e4e87d86fb909c",
+    "udt_three_spatial_smoke_2026-10-01/constraints.py": "364cbb0c84d8b69cdcba40e45e5d3b4b8b748fcc83f2b1cf22d9148e528c1abe",
+    "udt_three_spatial_smoke_2026-10-01/run_smoke.py": "0c757767496dad318c273cfcb7403fc60caf07369ad53ea26b1aa807f95c9437",
+    "udt_three_spatial_smoke_2026-10-01/initial_n8.npz": "203809bcacfd35eda7ef8d735a27a16d20fb5a0faa0fdb692a37cc38635759ca",
+    "udt_three_spatial_smoke_2026-10-01/initial_n12.npz": "1b7566158b72668acc9e06f666f347ff02f416fcc8b97e4d2ac943c1400f03ef",
+    "udt_three_spatial_smoke_2026-10-01/initial_n16.npz": "d5d2bb25ca4626ee763cde3657ba4ad8a4fe1477ba5b7990eb568a56c2646b6d",
+    "udt_three_spatial_smoke_2026-10-01/kasner_n8.npz": "ac24dc7dd2061a6596f13d4074ff55d393d61049b1232774ce65aa1645cbc7a2",
+    "udt_three_spatial_smoke_2026-10-01/specs/n16.json": "4c05b97df6dad09548f5d70f086fbd465f412aa9f4ad9a273d0876d89ee83f52",
+    "udt_three_spatial_smoke_2026-10-01/specs/n8.json": "80500e425593872a30ff039201a910cccbddfd973c9ae8d0983d6b7ca9edcbc6",
+    "udt_three_spatial_smoke_2026-10-01/specs/n16_half.json": "17c4ab136168b72eadba18587d5a13ec40f3f4cc2cdd8fa243419435f5a7624a",
+    "udt_three_spatial_smoke_2026-10-01/specs/kasner.json": "b7592fa11d05b7a95e1419bd2fe23a0a996d0094a8c824573a9319905ea57ad3",
+    "udt_three_spatial_smoke_2026-10-01/specs/kasner_half.json": "87064563c5637f0b8299b85ca1a3a76e1aa9372e53462dc1edf3f4fcb4a5cb83",
+    "udt_three_spatial_smoke_2026-10-01/specs/n12.json": "1fe71f85c7c0da24887a8d10bc97ef145753f2e43d45fee7124f4a07861acf0a"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "command": [
+    "python3",
+    "development_reconstruction_2026-09-29/checks/test_maintenance.py",
+    "Maintenance.test_three_coordinate_result_requires_supplied_arena",
+    "Maintenance.test_three_coordinate_source_routes_frontier_review"
+  ],
+  "cwd": "/home/udt-admin/udt_mass_codex",
+  "started_utc": "2026-10-01T00:29:11.164196+00:00",
+  "duration_seconds": 0.05308549199253321,
+  "returncode": 0,
+  "timeout": false,
+  "address_space_bytes": 2147483648,
+  "cpu_seconds": 180,
+  "maxrss_kib": 25444
+}

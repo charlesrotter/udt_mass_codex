@@ -69,6 +69,12 @@ class Maintenance(unittest.TestCase):
         self.rejects(self.graph_change(lambda g:g['edges'].remove({'from':'C_RESPONSE','to':'R10','kind':'hypothesis'})),'missing required hypothesis')
     def test_missing_optional_source(self):
         self.rejects(self.graph_change(lambda g:g['edges'].remove({'from':'C_SOURCE','to':'R15','kind':'hypothesis'})),'missing required hypothesis')
+    def test_three_coordinate_result_requires_supplied_arena(self):
+        self.rejects(self.graph_change(lambda g:g['edges'].remove({'from':'C_TDS_ARENA','to':'R12T','kind':'hypothesis'})),'missing required hypothesis')
+    def test_three_coordinate_source_routes_frontier_review(self):
+        p='udt_three_spatial_smoke_2026-10-01/EQUATIONS.md'
+        self.assertTrue({'R12T','R18'}<=set(v.affected_nodes(self.graph,[p])))
+        self.rejects({p:(ROOT/p).read_text()+'\nTEST FIXTURE\n'},'REVIEW_REQUIRED.*affected=')
     def test_stationary_exclusion_requires_its_sector(self):
         self.rejects(self.graph_change(lambda g:g['edges'].remove({'from':'C_STATIONARY_CLOCKS','to':'R8S','kind':'hypothesis'})),'missing required hypothesis')
     def test_shared_geometry_source_flags_positive_and_negative(self):

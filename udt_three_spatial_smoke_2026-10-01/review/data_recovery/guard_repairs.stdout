@@ -1,0 +1,187 @@
+{
+  "status": "GUARD_REPAIR_CATCHES_PASS",
+  "checks": [
+    {
+      "case": "nan_threshold",
+      "returncode": 2,
+      "reason": "INVALID_CONSTRAINT_LIMIT",
+      "run_created": false,
+      "spec_sha256": "7674156f70ce6110416e5e4469827c46db1171852b0be32eb719fb020c190603",
+      "command": [
+        "/usr/bin/python3",
+        "-c",
+        "import runpy,sys\nclass NoTorch:\n    def find_spec(self, fullname, path=None, target=None):\n        if fullname.split('.')[0]=='torch': raise RuntimeError('UNEXPECTED_TORCH_IMPORT')\nsys.meta_path.insert(0,NoTorch())\nsys.argv=sys.argv[1:]\nrunpy.run_path(sys.argv[0],run_name='__main__')\n",
+        "/home/udt-admin/udt_mass_codex/udt_three_spatial_smoke_2026-10-01/run_smoke.py",
+        "/home/udt-admin/udt_mass_codex/udt_three_spatial_smoke_2026-10-01/review/data_recovery/guard_fixtures/nan_threshold.json",
+        "/home/udt-admin/udt_mass_codex/udt_three_spatial_smoke_2026-10-01/review/data_recovery/guard_fixtures/nan_threshold_run"
+      ]
+    },
+    {
+      "case": "zero_threshold",
+      "returncode": 2,
+      "reason": "INVALID_CONSTRAINT_LIMIT",
+      "run_created": false,
+      "spec_sha256": "ffaf53840f6dbebd52fc424c736a3b562214c882f089daff7bbc3a8251b4847b",
+      "command": [
+        "/usr/bin/python3",
+        "-c",
+        "import runpy,sys\nclass NoTorch:\n    def find_spec(self, fullname, path=None, target=None):\n        if fullname.split('.')[0]=='torch': raise RuntimeError('UNEXPECTED_TORCH_IMPORT')\nsys.meta_path.insert(0,NoTorch())\nsys.argv=sys.argv[1:]\nrunpy.run_path(sys.argv[0],run_name='__main__')\n",
+        "/home/udt-admin/udt_mass_codex/udt_three_spatial_smoke_2026-10-01/run_smoke.py",
+        "/home/udt-admin/udt_mass_codex/udt_three_spatial_smoke_2026-10-01/review/data_recovery/guard_fixtures/zero_threshold.json",
+        "/home/udt-admin/udt_mass_codex/udt_three_spatial_smoke_2026-10-01/review/data_recovery/guard_fixtures/zero_threshold_run"
+      ]
+    },
+    {
+      "case": "negative_threshold",
+      "returncode": 2,
+      "reason": "INVALID_CONSTRAINT_LIMIT",
+      "run_created": false,
+      "spec_sha256": "59317102cd8b5e5cfae82c1ba649e9307c2460d379c627b7cf79cca00342fdc3",
+      "command": [
+        "/usr/bin/python3",
+        "-c",
+        "import runpy,sys\nclass NoTorch:\n    def find_spec(self, fullname, path=None, target=None):\n        if fullname.split('.')[0]=='torch': raise RuntimeError('UNEXPECTED_TORCH_IMPORT')\nsys.meta_path.insert(0,NoTorch())\nsys.argv=sys.argv[1:]\nrunpy.run_path(sys.argv[0],run_name='__main__')\n",
+        "/home/udt-admin/udt_mass_codex/udt_three_spatial_smoke_2026-10-01/run_smoke.py",
+        "/home/udt-admin/udt_mass_codex/udt_three_spatial_smoke_2026-10-01/review/data_recovery/guard_fixtures/negative_threshold.json",
+        "/home/udt-admin/udt_mass_codex/udt_three_spatial_smoke_2026-10-01/review/data_recovery/guard_fixtures/negative_threshold_run"
+      ]
+    },
+    {
+      "case": "loose_threshold",
+      "returncode": 2,
+      "reason": "INVALID_CONSTRAINT_LIMIT",
+      "run_created": false,
+      "spec_sha256": "696c63e8936878a3667c0b6e84bbb487eb98bb158e26b086eb0d67a681cca176",
+      "command": [
+        "/usr/bin/python3",
+        "-c",
+        "import runpy,sys\nclass NoTorch:\n    def find_spec(self, fullname, path=None, target=None):\n        if fullname.split('.')[0]=='torch': raise RuntimeError('UNEXPECTED_TORCH_IMPORT')\nsys.meta_path.insert(0,NoTorch())\nsys.argv=sys.argv[1:]\nrunpy.run_path(sys.argv[0],run_name='__main__')\n",
+        "/home/udt-admin/udt_mass_codex/udt_three_spatial_smoke_2026-10-01/run_smoke.py",
+        "/home/udt-admin/udt_mass_codex/udt_three_spatial_smoke_2026-10-01/review/data_recovery/guard_fixtures/loose_threshold.json",
+        "/home/udt-admin/udt_mass_codex/udt_three_spatial_smoke_2026-10-01/review/data_recovery/guard_fixtures/loose_threshold_run"
+      ]
+    },
+    {
+      "case": "wrong_period",
+      "returncode": 2,
+      "reason": "INITIAL_PERIOD_MISMATCH",
+      "run_created": false,
+      "spec_sha256": "b2b17e58a13596223c18021f46ecbb8270cf5ee0f1b0a14fa388419553ae1453",
+      "command": [
+        "/usr/bin/python3",
+        "-c",
+        "import runpy,sys\nclass NoTorch:\n    def find_spec(self, fullname, path=None, target=None):\n        if fullname.split('.')[0]=='torch': raise RuntimeError('UNEXPECTED_TORCH_IMPORT')\nsys.meta_path.insert(0,NoTorch())\nsys.argv=sys.argv[1:]\nrunpy.run_path(sys.argv[0],run_name='__main__')\n",
+        "/home/udt-admin/udt_mass_codex/udt_three_spatial_smoke_2026-10-01/run_smoke.py",
+        "/home/udt-admin/udt_mass_codex/udt_three_spatial_smoke_2026-10-01/review/data_recovery/guard_fixtures/wrong_period.json",
+        "/home/udt-admin/udt_mass_codex/udt_three_spatial_smoke_2026-10-01/review/data_recovery/guard_fixtures/wrong_period_run"
+      ]
+    },
+    {
+      "case": "nan_period",
+      "returncode": 2,
+      "reason": "INITIAL_PERIOD_MISMATCH",
+      "run_created": false,
+      "spec_sha256": "6a1d91c1b8fdfa35c17facf67f30e44e0a5b3d437640f24fa80bad8a355bc26f",
+      "command": [
+        "/usr/bin/python3",
+        "-c",
+        "import runpy,sys\nclass NoTorch:\n    def find_spec(self, fullname, path=None, target=None):\n        if fullname.split('.')[0]=='torch': raise RuntimeError('UNEXPECTED_TORCH_IMPORT')\nsys.meta_path.insert(0,NoTorch())\nsys.argv=sys.argv[1:]\nrunpy.run_path(sys.argv[0],run_name='__main__')\n",
+        "/home/udt-admin/udt_mass_codex/udt_three_spatial_smoke_2026-10-01/run_smoke.py",
+        "/home/udt-admin/udt_mass_codex/udt_three_spatial_smoke_2026-10-01/review/data_recovery/guard_fixtures/nan_period.json",
+        "/home/udt-admin/udt_mass_codex/udt_three_spatial_smoke_2026-10-01/review/data_recovery/guard_fixtures/nan_period_run"
+      ]
+    },
+    {
+      "case": "zero_gpu",
+      "returncode": 2,
+      "reason": "INVALID_BUDGET",
+      "run_created": false,
+      "spec_sha256": "07d6b33fb4e0a13b5c3998a58bbb8525e8fd2ca5d842c42cdcdec820a4641e83",
+      "command": [
+        "/usr/bin/python3",
+        "-c",
+        "import runpy,sys\nclass NoTorch:\n    def find_spec(self, fullname, path=None, target=None):\n        if fullname.split('.')[0]=='torch': raise RuntimeError('UNEXPECTED_TORCH_IMPORT')\nsys.meta_path.insert(0,NoTorch())\nsys.argv=sys.argv[1:]\nrunpy.run_path(sys.argv[0],run_name='__main__')\n",
+        "/home/udt-admin/udt_mass_codex/udt_three_spatial_smoke_2026-10-01/run_smoke.py",
+        "/home/udt-admin/udt_mass_codex/udt_three_spatial_smoke_2026-10-01/review/data_recovery/guard_fixtures/zero_gpu.json",
+        "/home/udt-admin/udt_mass_codex/udt_three_spatial_smoke_2026-10-01/review/data_recovery/guard_fixtures/zero_gpu_run"
+      ]
+    },
+    {
+      "case": "negative_gpu",
+      "returncode": 2,
+      "reason": "INVALID_BUDGET",
+      "run_created": false,
+      "spec_sha256": "046d92fb03060cac70e2b645e7999d0606645a618111a2d29dc803701bda7645",
+      "command": [
+        "/usr/bin/python3",
+        "-c",
+        "import runpy,sys\nclass NoTorch:\n    def find_spec(self, fullname, path=None, target=None):\n        if fullname.split('.')[0]=='torch': raise RuntimeError('UNEXPECTED_TORCH_IMPORT')\nsys.meta_path.insert(0,NoTorch())\nsys.argv=sys.argv[1:]\nrunpy.run_path(sys.argv[0],run_name='__main__')\n",
+        "/home/udt-admin/udt_mass_codex/udt_three_spatial_smoke_2026-10-01/run_smoke.py",
+        "/home/udt-admin/udt_mass_codex/udt_three_spatial_smoke_2026-10-01/review/data_recovery/guard_fixtures/negative_gpu.json",
+        "/home/udt-admin/udt_mass_codex/udt_three_spatial_smoke_2026-10-01/review/data_recovery/guard_fixtures/negative_gpu_run"
+      ]
+    },
+    {
+      "case": "float_gpu",
+      "returncode": 2,
+      "reason": "INVALID_BUDGET",
+      "run_created": false,
+      "spec_sha256": "5fbdfe58d39b183cbdc792bad0bb3375a7753f16d40c2fbd616b91d076d584fc",
+      "command": [
+        "/usr/bin/python3",
+        "-c",
+        "import runpy,sys\nclass NoTorch:\n    def find_spec(self, fullname, path=None, target=None):\n        if fullname.split('.')[0]=='torch': raise RuntimeError('UNEXPECTED_TORCH_IMPORT')\nsys.meta_path.insert(0,NoTorch())\nsys.argv=sys.argv[1:]\nrunpy.run_path(sys.argv[0],run_name='__main__')\n",
+        "/home/udt-admin/udt_mass_codex/udt_three_spatial_smoke_2026-10-01/run_smoke.py",
+        "/home/udt-admin/udt_mass_codex/udt_three_spatial_smoke_2026-10-01/review/data_recovery/guard_fixtures/float_gpu.json",
+        "/home/udt-admin/udt_mass_codex/udt_three_spatial_smoke_2026-10-01/review/data_recovery/guard_fixtures/float_gpu_run"
+      ]
+    },
+    {
+      "case": "zero_output",
+      "returncode": 2,
+      "reason": "INVALID_BUDGET",
+      "run_created": false,
+      "spec_sha256": "6e31936b1301431130f0e3827ae43d05bb1c41396405489f5e22523d63b41ef7",
+      "command": [
+        "/usr/bin/python3",
+        "-c",
+        "import runpy,sys\nclass NoTorch:\n    def find_spec(self, fullname, path=None, target=None):\n        if fullname.split('.')[0]=='torch': raise RuntimeError('UNEXPECTED_TORCH_IMPORT')\nsys.meta_path.insert(0,NoTorch())\nsys.argv=sys.argv[1:]\nrunpy.run_path(sys.argv[0],run_name='__main__')\n",
+        "/home/udt-admin/udt_mass_codex/udt_three_spatial_smoke_2026-10-01/run_smoke.py",
+        "/home/udt-admin/udt_mass_codex/udt_three_spatial_smoke_2026-10-01/review/data_recovery/guard_fixtures/zero_output.json",
+        "/home/udt-admin/udt_mass_codex/udt_three_spatial_smoke_2026-10-01/review/data_recovery/guard_fixtures/zero_output_run"
+      ]
+    },
+    {
+      "case": "negative_output",
+      "returncode": 2,
+      "reason": "INVALID_BUDGET",
+      "run_created": false,
+      "spec_sha256": "d8a1cc99587a53fba3299f45d99317bbbb4fb3ff46b4b92f531e19535240d380",
+      "command": [
+        "/usr/bin/python3",
+        "-c",
+        "import runpy,sys\nclass NoTorch:\n    def find_spec(self, fullname, path=None, target=None):\n        if fullname.split('.')[0]=='torch': raise RuntimeError('UNEXPECTED_TORCH_IMPORT')\nsys.meta_path.insert(0,NoTorch())\nsys.argv=sys.argv[1:]\nrunpy.run_path(sys.argv[0],run_name='__main__')\n",
+        "/home/udt-admin/udt_mass_codex/udt_three_spatial_smoke_2026-10-01/run_smoke.py",
+        "/home/udt-admin/udt_mass_codex/udt_three_spatial_smoke_2026-10-01/review/data_recovery/guard_fixtures/negative_output.json",
+        "/home/udt-admin/udt_mass_codex/udt_three_spatial_smoke_2026-10-01/review/data_recovery/guard_fixtures/negative_output_run"
+      ]
+    },
+    {
+      "case": "float_output",
+      "returncode": 2,
+      "reason": "INVALID_BUDGET",
+      "run_created": false,
+      "spec_sha256": "1e56989b47adebc6e81015fe1331c16ec7eff7658966fdad5612749ad11e2743",
+      "command": [
+        "/usr/bin/python3",
+        "-c",
+        "import runpy,sys\nclass NoTorch:\n    def find_spec(self, fullname, path=None, target=None):\n        if fullname.split('.')[0]=='torch': raise RuntimeError('UNEXPECTED_TORCH_IMPORT')\nsys.meta_path.insert(0,NoTorch())\nsys.argv=sys.argv[1:]\nrunpy.run_path(sys.argv[0],run_name='__main__')\n",
+        "/home/udt-admin/udt_mass_codex/udt_three_spatial_smoke_2026-10-01/run_smoke.py",
+        "/home/udt-admin/udt_mass_codex/udt_three_spatial_smoke_2026-10-01/review/data_recovery/guard_fixtures/float_output.json",
+        "/home/udt-admin/udt_mass_codex/udt_three_spatial_smoke_2026-10-01/review/data_recovery/guard_fixtures/float_output_run"
+      ]
+    }
+  ],
+  "runner_sha256": "1140a8010add9774762aeb4097345b3b2220a9c349e282f0af8a247cdb091f7e",
+  "scope": "CPU fail-closed pre-Torch guards only; Torch import explicitly blocked; no GPU"
+}

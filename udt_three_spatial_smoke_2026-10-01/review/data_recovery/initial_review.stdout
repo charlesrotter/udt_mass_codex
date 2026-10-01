@@ -1,0 +1,224 @@
+{
+  "attribution": "Original metric/connection and harmonic checkers reused unchanged from interrupted /root/tds_data; new context audited formulas and added density-divergence momentum comparison. No producer imports. Same Fourier discretization, not independent discretization.",
+  "checker_selftest": {
+    "analytic_conformal_R_error": 2.892130979148533e-14,
+    "analytic_isotropic_K_momentum_error": 5.967448757360216e-16,
+    "constant_seed": {
+      "dtype": "float64",
+      "gram_rank_scope": "excludes constant-coordinate translation symmetry only; not arbitrary Killing fields",
+      "hamiltonian_abs_max": 0.0,
+      "momentum_abs_max_by_component": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scalar_curvature_abs_max": 0.0,
+      "shape": [
+        16,
+        16,
+        16,
+        3,
+        3
+      ],
+      "spatial_derivative_gram_eigenvalues": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "spatial_derivative_gram_rank": 0,
+      "spatial_metric_eigenvalue_minmax": [
+        1.0,
+        1.0
+      ],
+      "trace_K_minmax": [
+        -1.0,
+        -1.0
+      ]
+    },
+    "deliberate_invalid_K_caught": {
+      "dtype": "float64",
+      "gram_rank_scope": "excludes constant-coordinate translation symmetry only; not arbitrary Killing fields",
+      "hamiltonian_abs_max": 0.026666666666666727,
+      "momentum_abs_max_by_component": [
+        0.0,
+        0.009999999999999815,
+        0.0
+      ],
+      "scalar_curvature_abs_max": 0.0,
+      "shape": [
+        16,
+        16,
+        16,
+        3,
+        3
+      ],
+      "spatial_derivative_gram_eigenvalues": [
+        0.0,
+        0.0,
+        2.777777777777766e-06
+      ],
+      "spatial_derivative_gram_rank": 1,
+      "spatial_metric_eigenvalue_minmax": [
+        1.0,
+        1.0
+      ],
+      "trace_K_minmax": [
+        -1.01,
+        -0.99
+      ]
+    },
+    "numpy_version": "2.2.6",
+    "scope": "checker self-controls, not producer validation",
+    "status": "PASS"
+  },
+  "numpy_version": "2.2.6",
+  "records": [
+    {
+      "alternate_density_momentum_max": 2.2096078975649977e-08,
+      "conformal_residual_history": [
+        0.09450816406394003,
+        0.0004045784102075789,
+        1.1389716281229312e-08,
+        6.206146707654625e-14
+      ],
+      "dtype": "float64",
+      "gram_rank_scope": "excludes constant-coordinate translation symmetry only; not arbitrary Killing fields",
+      "hamiltonian_abs_max": 1.2033528873356403e-06,
+      "harmonic_max": 4.416600306234158e-08,
+      "invalid_v00_caught_abs_max": 0.010000000000000342,
+      "momentum_abs_max_by_component": [
+        2.1815755598102865e-07,
+        9.285217690601158e-08,
+        1.09018053168249e-08
+      ],
+      "momentum_formula_difference": 2.4021655914590643e-07,
+      "n": 8,
+      "scalar_curvature_abs_max": 0.046993504422527324,
+      "seed_divergence_abs_max": 0.0,
+      "seed_trace_abs_max": 5.551115123125783e-17,
+      "shape": [
+        8,
+        8,
+        8,
+        3,
+        3
+      ],
+      "source_sha256": "203809bcacfd35eda7ef8d735a27a16d20fb5a0faa0fdb692a37cc38635759ca",
+      "spatial_derivative_gram_eigenvalues": [
+        4.988551958846429e-05,
+        0.00013319297934793033,
+        0.0001995585364176444
+      ],
+      "spatial_derivative_gram_rank": 3,
+      "spatial_metric_eigenvalue_minmax": [
+        0.9809581766697286,
+        1.0248689545534926
+      ],
+      "trace_K_minmax": [
+        -1.0000000000000002,
+        -0.9999999999999997
+      ]
+    },
+    {
+      "alternate_density_momentum_max": 3.401200432767018e-12,
+      "conformal_residual_history": [
+        0.10051926915496046,
+        0.00046233839152032274,
+        1.250917325279488e-08,
+        2.2648549702353193e-13
+      ],
+      "dtype": "float64",
+      "gram_rank_scope": "excludes constant-coordinate translation symmetry only; not arbitrary Killing fields",
+      "hamiltonian_abs_max": 2.7368729504928524e-10,
+      "harmonic_max": 1.5231424113507433e-11,
+      "invalid_v00_caught_abs_max": 0.010000000000000342,
+      "momentum_abs_max_by_component": [
+        1.1401930457053495e-10,
+        1.0819087054199372e-11,
+        1.1598905294346248e-12
+      ],
+      "momentum_formula_difference": 1.1741683309828487e-10,
+      "n": 12,
+      "scalar_curvature_abs_max": 0.04969544856002402,
+      "seed_divergence_abs_max": 0.0,
+      "seed_trace_abs_max": 5.551115123125783e-17,
+      "shape": [
+        12,
+        12,
+        12,
+        3,
+        3
+      ],
+      "source_sha256": "1b7566158b72668acc9e06f666f347ff02f416fcc8b97e4d2ac943c1400f03ef",
+      "spatial_derivative_gram_eigenvalues": [
+        4.988551958846301e-05,
+        0.00013319297934796608,
+        0.0001995585364181524
+      ],
+      "spatial_derivative_gram_rank": 3,
+      "spatial_metric_eigenvalue_minmax": [
+        0.9796491822798935,
+        1.0262562864954723
+      ],
+      "trace_K_minmax": [
+        -1.0000000000000002,
+        -0.9999999999999996
+      ]
+    },
+    {
+      "alternate_density_momentum_max": 2.534436376375073e-15,
+      "conformal_residual_history": [
+        0.10097488470080052,
+        0.00046649611928106793,
+        1.2591555242913444e-08,
+        5.877520692365579e-13
+      ],
+      "dtype": "float64",
+      "gram_rank_scope": "excludes constant-coordinate translation symmetry only; not arbitrary Killing fields",
+      "hamiltonian_abs_max": 2.184918912462308e-13,
+      "harmonic_max": 4.135553661674396e-15,
+      "invalid_v00_caught_abs_max": 0.010000000000000342,
+      "momentum_abs_max_by_component": [
+        4.278435244975398e-14,
+        4.16463738495132e-15,
+        1.2833294539896234e-15
+      ],
+      "momentum_formula_difference": 4.209944735508047e-14,
+      "n": 16,
+      "scalar_curvature_abs_max": 0.0499200359128506,
+      "seed_divergence_abs_max": 0.0,
+      "seed_trace_abs_max": 5.551115123125783e-17,
+      "shape": [
+        16,
+        16,
+        16,
+        3,
+        3
+      ],
+      "source_sha256": "d5d2bb25ca4626ee763cde3657ba4ad8a4fe1477ba5b7990eb568a56c2646b6d",
+      "spatial_derivative_gram_eigenvalues": [
+        4.9885519588463056e-05,
+        0.00013319297934796622,
+        0.00019955853641815267
+      ],
+      "spatial_derivative_gram_rank": 3,
+      "spatial_metric_eigenvalue_minmax": [
+        0.9795610439317287,
+        1.0263514423427424
+      ],
+      "trace_K_minmax": [
+        -1.0000000000000004,
+        -0.9999999999999996
+      ]
+    }
+  ],
+  "scope": "Finite saved initial data only; refinement evidence is not continuum certification. Rank3 excludes constant-coordinate translations, not arbitrary Killing fields. CONDITIONAL Ric=0, G312 GR FILTER ONLY; no native equation selection.",
+  "source_hashes": {
+    "WORK_ORDER.md": "5713e6e518a36a08c4fbe4b5b668e8d53bf10d637255a65f18ca24c755be8d91",
+    "initial_data.py": "06585ca811f8c402b02144f1ca60c5e1fc7d661ce0da93524c0645b9919c4c3f",
+    "review/data/check_constraints.py": "f10e6e0b512a6f2078e71cb32b8972005356c2555fa25ef36832bdb20bc947fc",
+    "review/data/check_harmonic.py": "2be7d388f44bd7de631b45d4699a4b9dabf1c96b3fb650342cf200d0c019c7c9",
+    "review/data_recovery/check_initial.py": "235b4ef34ae311f50243af4a6db016f591b8622a791d7f48120f66d63c937c61"
+  },
+  "status": "INITIAL_DATA_REVIEW_PASS"
+}

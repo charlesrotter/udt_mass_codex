@@ -1,0 +1,162 @@
+{
+  "status": "SHORT_HISTORY_AND_RESTART_PASS",
+  "records": [
+    {
+      "command": [
+        "/usr/bin/python3",
+        "/home/udt-admin/udt_mass_codex/udt_three_spatial_smoke_2026-10-01/run_smoke.py",
+        "/home/udt-admin/udt_mass_codex/udt_three_spatial_smoke_2026-10-01/specs/n8.json",
+        "/home/udt-admin/udt_mass_codex/udt_three_spatial_smoke_2026-10-01/runs/n8_repaired"
+      ],
+      "label": "history_n8_repaired",
+      "returncode": 0,
+      "expected": 0,
+      "seconds": 1.7181686089606956,
+      "stdout_sha256": "5bc43d076c36c97f4391767e75d5586552816c1267a8672dfbc173314d37d893",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "SIGTERM_sent": false
+    },
+    {
+      "command": [
+        "/usr/bin/python3",
+        "/home/udt-admin/udt_mass_codex/udt_three_spatial_smoke_2026-10-01/run_smoke.py",
+        "/home/udt-admin/udt_mass_codex/udt_three_spatial_smoke_2026-10-01/specs/n12.json",
+        "/home/udt-admin/udt_mass_codex/udt_three_spatial_smoke_2026-10-01/runs/n12"
+      ],
+      "label": "history_n12",
+      "returncode": 0,
+      "expected": 0,
+      "seconds": 1.9176371810026467,
+      "stdout_sha256": "b74398ffac815b18ba6c7c4bbbb66237d278fa12c6971c04e711ac5f1e56814a",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "SIGTERM_sent": false
+    },
+    {
+      "command": [
+        "/usr/bin/python3",
+        "/home/udt-admin/udt_mass_codex/udt_three_spatial_smoke_2026-10-01/run_smoke.py",
+        "/home/udt-admin/udt_mass_codex/udt_three_spatial_smoke_2026-10-01/specs/n16.json",
+        "/home/udt-admin/udt_mass_codex/udt_three_spatial_smoke_2026-10-01/runs/n16"
+      ],
+      "label": "history_n16",
+      "returncode": 0,
+      "expected": 0,
+      "seconds": 2.1691255140467547,
+      "stdout_sha256": "ac82335bb51e816869f7902f883d8c6d91b698933755c02e6b784369a914741b",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "SIGTERM_sent": false
+    },
+    {
+      "command": [
+        "/usr/bin/python3",
+        "/home/udt-admin/udt_mass_codex/udt_three_spatial_smoke_2026-10-01/run_smoke.py",
+        "/home/udt-admin/udt_mass_codex/udt_three_spatial_smoke_2026-10-01/specs/n16_half.json",
+        "/home/udt-admin/udt_mass_codex/udt_three_spatial_smoke_2026-10-01/runs/n16_half"
+      ],
+      "label": "history_n16_half",
+      "returncode": 0,
+      "expected": 0,
+      "seconds": 3.2718337170081213,
+      "stdout_sha256": "2c53146dec061dab702a78c3957b6b4465782544038087d4bda19b98dfa54429",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "SIGTERM_sent": false
+    },
+    {
+      "command": [
+        "/usr/bin/python3",
+        "/home/udt-admin/udt_mass_codex/udt_three_spatial_smoke_2026-10-01/run_smoke.py",
+        "/home/udt-admin/udt_mass_codex/udt_three_spatial_smoke_2026-10-01/specs/kasner.json",
+        "/home/udt-admin/udt_mass_codex/udt_three_spatial_smoke_2026-10-01/runs/kasner"
+      ],
+      "label": "history_kasner",
+      "returncode": 0,
+      "expected": 0,
+      "seconds": 1.6679944289498962,
+      "stdout_sha256": "40699f1d63e94a9006477ebf32350df1a367a3cb58819f11995f80ce8c1777c4",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "SIGTERM_sent": false
+    },
+    {
+      "command": [
+        "/usr/bin/python3",
+        "/home/udt-admin/udt_mass_codex/udt_three_spatial_smoke_2026-10-01/run_smoke.py",
+        "/home/udt-admin/udt_mass_codex/udt_three_spatial_smoke_2026-10-01/specs/kasner_half.json",
+        "/home/udt-admin/udt_mass_codex/udt_three_spatial_smoke_2026-10-01/runs/kasner_half"
+      ],
+      "label": "history_kasner_half",
+      "returncode": 0,
+      "expected": 0,
+      "seconds": 2.4196605710312724,
+      "stdout_sha256": "47cd4f11eb5dd7332ee89180b422fc1fca5cd7d7cc629900d0acf776bb29ba2d",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "SIGTERM_sent": false
+    },
+    {
+      "command": [
+        "/usr/bin/python3",
+        "/home/udt-admin/udt_mass_codex/udt_three_spatial_smoke_2026-10-01/run_smoke.py",
+        "/home/udt-admin/udt_mass_codex/udt_three_spatial_smoke_2026-10-01/specs/n8.json",
+        "/home/udt-admin/udt_mass_codex/udt_three_spatial_smoke_2026-10-01/runs/resumed",
+        "--pause-after",
+        "5"
+      ],
+      "label": "pause",
+      "returncode": 75,
+      "expected": 75,
+      "seconds": 1.166413523023948,
+      "stdout_sha256": "1f14db9345de9fe2887ccaf1fbf99b9b77acf9d4b9e47d740d3ab8407c09bd60",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "SIGTERM_sent": false
+    },
+    {
+      "command": [
+        "/usr/bin/python3",
+        "/home/udt-admin/udt_mass_codex/udt_three_spatial_smoke_2026-10-01/run_smoke.py",
+        "/home/udt-admin/udt_mass_codex/udt_three_spatial_smoke_2026-10-01/specs/n8.json",
+        "/home/udt-admin/udt_mass_codex/udt_three_spatial_smoke_2026-10-01/runs/resumed",
+        "--resume"
+      ],
+      "label": "resume",
+      "returncode": 0,
+      "expected": 0,
+      "seconds": 1.5171369170420803,
+      "stdout_sha256": "7566d1ff5d60427ff4106a9ff6445dbaaa9ffcbb4e25c5c231c217e6d804eb38",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "SIGTERM_sent": false
+    },
+    {
+      "command": [
+        "/usr/bin/python3",
+        "/home/udt-admin/udt_mass_codex/udt_three_spatial_smoke_2026-10-01/run_smoke.py",
+        "/home/udt-admin/udt_mass_codex/udt_three_spatial_smoke_2026-10-01/specs/n8.json",
+        "/home/udt-admin/udt_mass_codex/udt_three_spatial_smoke_2026-10-01/runs/sigterm"
+      ],
+      "label": "sigterm",
+      "returncode": 75,
+      "expected": 75,
+      "seconds": 1.2015152419917285,
+      "stdout_sha256": "ef6d43c85014b903a8e67f8eab3acc6e7ebf3fe2ffe00877232f7cdd29c14d55",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "SIGTERM_sent": true
+    },
+    {
+      "command": [
+        "/usr/bin/python3",
+        "/home/udt-admin/udt_mass_codex/udt_three_spatial_smoke_2026-10-01/run_smoke.py",
+        "/home/udt-admin/udt_mass_codex/udt_three_spatial_smoke_2026-10-01/specs/n8.json",
+        "/home/udt-admin/udt_mass_codex/udt_three_spatial_smoke_2026-10-01/runs/sigterm",
+        "--resume"
+      ],
+      "label": "sigterm_resume",
+      "returncode": 0,
+      "expected": 0,
+      "seconds": 1.5172671360196546,
+      "stdout_sha256": "316ec6666d359190406ef09958de367601328f35afa169625ca31db3f5916a9a",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "SIGTERM_sent": false
+    }
+  ],
+  "restart_bitwise_equal": true,
+  "SIGTERM_restart_bitwise_equal": true,
+  "scope": "runtime only; independent original Ricci/readout/refinement review still required"
+}

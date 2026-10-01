@@ -1,0 +1,71 @@
+{
+  "analytic_conformal_R_error": 2.892130979148533e-14,
+  "analytic_isotropic_K_momentum_error": 5.967448757360216e-16,
+  "constant_seed": {
+    "dtype": "float64",
+    "gram_rank_scope": "excludes constant-coordinate translation symmetry only; not arbitrary Killing fields",
+    "hamiltonian_abs_max": 0.0,
+    "momentum_abs_max_by_component": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "scalar_curvature_abs_max": 0.0,
+    "shape": [
+      16,
+      16,
+      16,
+      3,
+      3
+    ],
+    "spatial_derivative_gram_eigenvalues": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "spatial_derivative_gram_rank": 0,
+    "spatial_metric_eigenvalue_minmax": [
+      1.0,
+      1.0
+    ],
+    "trace_K_minmax": [
+      -1.0,
+      -1.0
+    ]
+  },
+  "deliberate_invalid_K_caught": {
+    "dtype": "float64",
+    "gram_rank_scope": "excludes constant-coordinate translation symmetry only; not arbitrary Killing fields",
+    "hamiltonian_abs_max": 0.026666666666666727,
+    "momentum_abs_max_by_component": [
+      0.0,
+      0.009999999999999815,
+      0.0
+    ],
+    "scalar_curvature_abs_max": 0.0,
+    "shape": [
+      16,
+      16,
+      16,
+      3,
+      3
+    ],
+    "spatial_derivative_gram_eigenvalues": [
+      0.0,
+      0.0,
+      2.777777777777766e-06
+    ],
+    "spatial_derivative_gram_rank": 1,
+    "spatial_metric_eigenvalue_minmax": [
+      1.0,
+      1.0
+    ],
+    "trace_K_minmax": [
+      -1.01,
+      -0.99
+    ]
+  },
+  "numpy_version": "2.2.6",
+  "scope": "checker self-controls, not producer validation",
+  "status": "PASS"
+}

@@ -1,0 +1,33 @@
+{
+  "status": "BOUNDED_RESOURCE_AND_STOP_CHECK_PASS",
+  "measurements": [
+    {
+      "name": "n8_repaired",
+      "evolution_and_output_seconds": 0.8381429390283301,
+      "peak_torch_allocated_bytes": 38005760,
+      "run_bytes": 1695654
+    },
+    {
+      "name": "n12",
+      "evolution_and_output_seconds": 1.009715018037241,
+      "peak_torch_allocated_bytes": 48850432,
+      "run_bytes": 5655698
+    },
+    {
+      "name": "n16",
+      "evolution_and_output_seconds": 1.2792725900071673,
+      "peak_torch_allocated_bytes": 69100544,
+      "run_bytes": 13352563
+    },
+    {
+      "name": "n16_half",
+      "evolution_and_output_seconds": 2.3876509760157205,
+      "peak_torch_allocated_bytes": 69100544,
+      "run_bytes": 26509694
+    }
+  ],
+  "wall_stop_returncode": 75,
+  "invalid_constraint_returncode": 2,
+  "invalid_constraint_diagnostic_only": true,
+  "scope": "smallN16 workload including every-step checks/output; not a long-production sizing certificate"
+}

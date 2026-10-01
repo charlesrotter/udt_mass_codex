@@ -1,7 +1,7 @@
 # UDT — continuous scientific development
 
 <!-- DEVELOPMENT_ORIENTATION_BEGIN -->
-**Continuous development — CDR1 with SGE1, LKT1, GCA1, PCW1, CES1, CCR1, PRI1, TRI1 and NGD1, 2026-09-30.** This is the maintained
+**Continuous development — CDR1 with SGE1, LKT1, GCA1, PCW1, CES1, CCR1, PRI1, TRI1, NGD1 and TDS1, 2026-10-01.** This is the maintained
 scientific development. It is not canon or a new scientific-grade authority.
 The exact registry and reviewed sources own grades; LIVE owns operational status.
 Current review bindings and limits are recorded in section9; startup reads the
@@ -65,6 +65,12 @@ families evolve, and actual supplied-clock shifts are computed. A nonnegative
 contribution relative to its specified homogeneous control need not mean total
 redshift. This is a numerical method and conditional-geometry gain, not native
 law selection or complete solution-space coverage.
+TDS1 releases the evolution code's spatial Killing restriction (R12T): all ten
+metric components evolve with variation in three spatial coordinates. Short
+histories pass independent original-curvature, constraint and actual-clock
+checks. The supplied Ric=0 equation, periodic domain, harmonic gauge and initial
+CMC/conformal construction remain conditional. Longer slabs, broader seeds and
+production load/output checks remain before the intended hours-to-days survey.
 <!-- DEVELOPMENT_ORIENTATION_END -->
 
 ## 1. How this development is owned
@@ -1063,6 +1069,85 @@ Sources: [fixed candidate](udt_gpu_time_live_discovery_2026-09-30/INITIAL_CANDID
 [reviewed disposition and limits](udt_gpu_time_live_discovery_2026-09-30/REVIEWED_RESULT.md),
 and [saved campaign diagnostics](udt_gpu_time_live_discovery_2026-09-30/CAMPAIGN_DIAGNOSTICS.json).
 
+<a id="r12t"></a>
+
+### R12T. TDS1 evolves three-coordinate metric data and checks actual clocks
+
+The next numerical extension releases R12N's imposed two-Killing spatial
+sector. All ten symmetric components of g evolve with three-coordinate spatial
+dependence. The supplied equation remains **conditional Ric(g)=0, Lambda=0**
+under G312 GR FILTER ONLY; this is not an identification of R9's response E.
+On a supplied marked periodic three-torus, choose harmonic coordinates with
+\[
+ C_\mu=g^{ab}\partial_a g_{b\mu}-\tfrac12g^{ab}\partial_\mu g_{ab}=0.
+\]
+The reduced operator used in the numerical evolution is
+\[
+ W_{mn}=g^{ab}\partial_a\partial_b g_{mn}
+ +(\partial_n g^{ab})\partial_a g_{mb}
+ +(\partial_m g^{ab})\partial_a g_{nb}
+ +2\Gamma^a{}_{bn}\Gamma^b{}_{am}=0.
+\]
+Independent metric-jet reconstruction verifies
+\[
+ W_{mn}=-2\operatorname{Ric}_{mn}+\partial_m C_n+\partial_n C_m
+                  -2\Gamma^a{}_{mn}C_a.
+\]
+W is the supplied reduced operator, not the unidentified physical response.
+Original constraints and compatible harmonic data matter: a small reduced
+residual alone does not certify the original equation. With g^{00}<0 this is
+solved for the second time derivative; Fourier collocation and RK4 supply the
+finite numerical method, without damping, filtering or added source terms.
+
+Initial data use R11/G316's conditional conformal construction: flat conformal
+metric, tau=-1, positive psi, and a supplied transverse-traceless Abar with a
+constant diagonal term and three non-collinear sinusoidal modes. Solve
+\[
+ -8\Delta\psi-|\bar A|^2\psi^{-7}+\tfrac23\tau^2\psi^5=0,\quad
+ \gamma_{ij}=\psi^4\delta_{ij},\quad
+ K_{ij}=\psi^{-2}\bar A_{ij}+\tfrac\tau3\gamma_{ij}.
+\]
+Initially lapse=1, shift=0; harmonic-compatible velocities are
+g_{ij,t}=-2K_{ij}, g_{00,t}=2tau, g_{0i,t}=-2partial_i log psi.
+Lapse and shift then evolve. Initial CMC/conformal flatness is not an imposed
+condition on later slices. A rank-three derivative Gram excludes common constant
+coordinate translations of these data, not arbitrary nonlinear Killing fields.
+
+One supplied seed was evolved on8^3,12^3,16^3 meshes over harmonic t=1..1.1,
+with a timestep-halved16^3 check and flat/Kasner/oblique-gauge-wave controls.
+Independent original initial Hamiltonian residuals fall from1.203e-6 to2.185e-13.
+From saved g alone, independent original four-dimensional Ricci reconstruction
+at every grid point and eligible centered interior time gives maxima4.691e-7,
+9.275e-10,8.247e-10, and1.349e-10 for16^3 with half timestep, below2e-5.
+Common-event spatial refinement improves that residual586.78-fold. Final16^3
+timestep halving changes g by2.775e-11 and its velocity by7.209e-11.
+Independent evolved ADM constraints use the actual lapse/shift and also converge.
+These finite floating-point checks omit two slices at each time endpoint and
+are not uniform continuum error bounds. Fourier mathematics is shared; no
+independent general-data time integrator was run for TDS1.
+
+For supplied fixed-coordinate clocks u=partial_t/sqrt(-g_00), integrate actual
+null geodesics and apply R6N's Z=omega_e/omega_o. At emission t=1.02 and reception
+t=1.08, the four declared16^3 half-step directions yield approximately
+Z=0.9795774,1.0376661,1.0452029,1.0190435. Receiver positions are computed arrivals,
+not selected cosmological observers. A separate Hamiltonian covector/RK45
+calculation agrees with the Christoffel/DOP853 readout within1.414e-11 in logZ;
+both share saved fields and Fourier/Hermite interpolation mathematics. Exact
+Kasner clock ratios and mesh/time readout checks pass. No sign was targeted,
+and R12N's restricted longitudinal sign identity is not generalized here.
+
+Actual pause/resume and SIGTERM/resume reproduce final fields bit for bit.
+Resource stops and invalid-constraint diagnostics preserve readable evidence.
+This certifies only the tested short workload: periodic topology/period,
+harmonic gauge, initial CMC/conformal choices and one small seed remain supplied.
+No matter, native selection, physical scale, X_max, genericity, long-time stability
+or full solution-space claim follows. The next production-preparation stage must
+test longer slabs, broader seeds, output cadence, characteristic-speed step
+control and representative larger-mesh loads before the intended six-hour tranche.
+Sources: [fixed equations](udt_three_spatial_smoke_2026-10-01/EQUATIONS.md),
+[reviewed finite result](udt_three_spatial_smoke_2026-10-01/REVIEWED_RESULT.md),
+and [execution and continuation record](udt_three_spatial_smoke_2026-10-01/WORK_RECORD.md).
+
 ## 7. Screen geometry, carried readouts and optional sources
 
 <a id="r13"></a>
@@ -1351,6 +1436,12 @@ are optional routes, not universal prerequisites for every clock consequence.
 <a id="r18"></a>
 
 ### R18. What can now be used, and what remains open
+
+TDS1's R12T now supplies a short-tested three-coordinate metric engine and
+independently checked actual null-clock queries. This releases a major symmetry
+restriction in the numerical method. Its conditional equation and supplied
+initial family remain explicit; production preparation is the next operational
+step toward the broader survey, while native selection remains scientifically open.
 
 NGD1's numerical return in R12N adds a validated comparison tool and finite
 nonlinear clock-shift histories. Its positive contribution relative to a specified
@@ -1767,7 +1858,7 @@ founding premises are insufficient.
 Retained branches and omissions are explicit below. These results are useful;
 their original full proofs, repairs, qualifications and grades remain at source.
 CDR1 does not claim to rederive all of them. The [406-row disposition ledger](development_reconstruction_2026-09-29/CLAIM_DISPOSITIONS.tsv)
-and [33 later returns](development_reconstruction_2026-09-29/RECENT_DISPOSITIONS.tsv)
+and [35 later returns](development_reconstruction_2026-09-29/RECENT_DISPOSITIONS.tsv)
 identify exact sources and reconstruction depth.
 
 | Retained work | Gain and limit |
@@ -1800,7 +1891,7 @@ it does not merely add another disconnected report.
 
 This is an18-result central reconstruction with actual core calculations,
 standard-method applications and explicitly retained source branches. All406
-registered rows have an editorial disposition;33 relevant later returns
+registered rows have an editorial disposition;35 relevant later returns
 are separately mapped. It does not claim to re-prove every historical result.
 Existence/MGHD, full external invariant theory, detailed nonlinear asymptotics,
 the55-component optional analytic system, the eight signal packages, empirical
@@ -1920,6 +2011,20 @@ Actual [numerical review](udt_gpu_time_live_discovery_2026-09-30/review/numerics
 and [fidelity review](udt_gpu_time_live_discovery_2026-09-30/review/fidelity/DIRECT_REVIEW.md)
 plus their final attestations own exposure, version and omissions.
 
+TDS1 has independent metric-jet, original saved-metric Ricci, ADM and Hamiltonian
+clock checks. A daemon restart interrupted two original contexts; their artifacts
+remain. Two actual recovery contexts completed substantive and integration review,
+with prior exposure attributed. Same inherited model and Fourier/Hermite methods
+remain shared; there is no independent general-data time evolution, different-model,
+formal or empirical review. Initial input-guard and null-diagnostic defects and
+their repairs are retained. Null residuals now assess accepted nodes and fixed
+dense samples; internal trial-stage maxima remain separate diagnostics. A notation
+repair distinguishes the harmonic operator W from R9's unidentified response E.
+The [equation/history review](udt_three_spatial_smoke_2026-10-01/review/equations_recovery/NUMERICAL_REVIEW.md)
+and [data/runtime/readout review](udt_three_spatial_smoke_2026-10-01/review/data_recovery/SUBSTANTIVE_REVIEW.md)
+own tested coverage; final attestations bind the integrated edition. Earlier
+scientific sources and positive/negative conclusions retain their original scopes.
+
 The preserved first candidates expose the repair history. The [source correction](development_reconstruction_2026-09-29/SOURCE_CORRECTIONS.md)
 fixes a real covector-basis sign in G310; the central nine-direction span and
 annihilator survive. The original file remains authentic. Further repairs make
@@ -1952,4 +2057,5 @@ stage completion, final source/check pins and all remaining omissions belong to
 
 [TRI1 execution record](udt_tick_readout_identification_2026-09-30/WORK_RECORD.md).
 
-[NGD1 execution record](udt_gpu_time_live_discovery_2026-09-30/WORK_RECORD.md).
+[NGD1 execution record](udt_gpu_time_live_discovery_2026-09-30/WORK_RECORD.md),
+and [TDS1 execution record](udt_three_spatial_smoke_2026-10-01/WORK_RECORD.md).

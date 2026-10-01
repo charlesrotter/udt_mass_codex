@@ -431,7 +431,7 @@
     {
       "id": "P_FOUNDING",
       "kind": "declared_premises",
-      "statement": "F1–F4 as stated in R1/R2; composition, nontriviality and readout are distinct inputs"
+      "statement": "F1\u2013F4 as stated in R1/R2; composition, nontriviality and readout are distinct inputs"
     },
     {
       "id": "P_PAIR",
@@ -942,6 +942,40 @@
       "required_conditions": [
         "C_EINSTEIN",
         "C_NGD_ARENA",
+        "P_NULL"
+      ]
+    },
+    {
+      "id": "C_TDS_ARENA",
+      "kind": "condition",
+      "title": "Supplied periodic harmonic Ric=0 arena, CMC conformal seed and fixed-clock null queries",
+      "registry_ids": [],
+      "sources": [
+        "udt_three_spatial_smoke_2026-10-01/EQUATIONS.md",
+        "udt_three_spatial_smoke_2026-10-01/REVIEWED_RESULT.md",
+        "udt_three_spatial_smoke_2026-10-01/SMOKE_PLAN.md"
+      ]
+    },
+    {
+      "id": "R12T",
+      "kind": "argument",
+      "anchor": "r12t",
+      "title": "TDS1 short three-coordinate conditional evolution and independent original-equation/null-clock checks",
+      "registry_ids": [],
+      "sources": [
+        "udt_three_spatial_smoke_2026-10-01/EQUATIONS.md",
+        "udt_three_spatial_smoke_2026-10-01/REVIEWED_RESULT.md",
+        "udt_three_spatial_smoke_2026-10-01/SMOKE_PLAN.md",
+        "udt_three_spatial_smoke_2026-10-01/SHORT_RUN_RESULT.json",
+        "udt_three_spatial_smoke_2026-10-01/CLOCK_READOUT.json",
+        "udt_three_spatial_smoke_2026-10-01/RESOURCE_STOP_RESULT.json",
+        "udt_three_spatial_smoke_2026-10-01/SMOKE_FREEZE.json",
+        "udt_three_spatial_smoke_2026-10-01/REPAIR_FREEZE.json",
+        "udt_three_spatial_smoke_2026-10-01/CLOCK_REPAIR_FREEZE.json"
+      ],
+      "required_conditions": [
+        "C_EINSTEIN",
+        "C_TDS_ARENA",
         "P_NULL"
       ]
     }
@@ -1781,6 +1815,41 @@
       "from": "R12N",
       "to": "R18",
       "kind": "interpretation"
+    },
+    {
+      "from": "C_EINSTEIN",
+      "to": "R12T",
+      "kind": "hypothesis"
+    },
+    {
+      "from": "C_TDS_ARENA",
+      "to": "R12T",
+      "kind": "hypothesis"
+    },
+    {
+      "from": "P_NULL",
+      "to": "R12T",
+      "kind": "hypothesis"
+    },
+    {
+      "from": "R11",
+      "to": "R12T",
+      "kind": "context"
+    },
+    {
+      "from": "R12N",
+      "to": "R12T",
+      "kind": "context"
+    },
+    {
+      "from": "R6N",
+      "to": "R12T",
+      "kind": "proof"
+    },
+    {
+      "from": "R12T",
+      "to": "R18",
+      "kind": "interpretation"
     }
   ],
   "sources_sha256": {
@@ -1883,7 +1952,16 @@
     "udt_gpu_time_live_discovery_2026-09-30/EQUATIONS.md": "1bf117d5f19f05398dfcbaf588b1aa4e4134abf1c01dcf69c935f2510498bb1b",
     "udt_gpu_time_live_discovery_2026-09-30/CAMPAIGN_DIAGNOSTICS.json": "f77bc16c4d6567e8f3ae66ce9c7c67e21a633a8b0e6d9b735af4666a419fd7ad",
     "udt_gpu_time_live_discovery_2026-09-30/SURVEY_FREEZE.json": "24a3241b628d284d85e3a0f4b5cb171bb437259c17771193868c4f17fa176973",
-    "udt_gpu_time_live_discovery_2026-09-30/PRE_SURVEY_SUPPLEMENT.json": "2e598847948af05d42e0d1e12bdde2a39fa9ebc2ca1c5c2b5c0a6809da411efb"
+    "udt_gpu_time_live_discovery_2026-09-30/PRE_SURVEY_SUPPLEMENT.json": "2e598847948af05d42e0d1e12bdde2a39fa9ebc2ca1c5c2b5c0a6809da411efb",
+    "udt_three_spatial_smoke_2026-10-01/EQUATIONS.md": "2c149841840d89f867914cbbfd127a1340005f99d0945c192d127957a3597bf1",
+    "udt_three_spatial_smoke_2026-10-01/REVIEWED_RESULT.md": "c178492a66f27031ee1e0b8a9954786b9a9be0ef97d304f10ebd1b282cfb5f79",
+    "udt_three_spatial_smoke_2026-10-01/SMOKE_PLAN.md": "84203a19eea1fb8a1ed8fd0329a5c1c53ddaa5cbe1621ce41da1049485667053",
+    "udt_three_spatial_smoke_2026-10-01/SHORT_RUN_RESULT.json": "0867af3ed8a04ab3d21b09feaf02dc93631c64967a064e033efa3267f73d4fda",
+    "udt_three_spatial_smoke_2026-10-01/CLOCK_READOUT.json": "8fd5c01ba7673e848faad143c9827b6b9377ad01c4265158b72592fe63af205a",
+    "udt_three_spatial_smoke_2026-10-01/RESOURCE_STOP_RESULT.json": "6f67e7ed9d71c7ce50515cd1b0a18e16dfd246a2b294ff37a32c64d5d2a621a2",
+    "udt_three_spatial_smoke_2026-10-01/SMOKE_FREEZE.json": "374b5c3b9a4c738cc70866e33ba026410bcd1dab5e274a4cabc7960c9b345526",
+    "udt_three_spatial_smoke_2026-10-01/REPAIR_FREEZE.json": "d0a3dfa82361d9a8cf40d18a55556fe6ee1bd1f5470eaceab697e82f1d0fca37",
+    "udt_three_spatial_smoke_2026-10-01/CLOCK_REPAIR_FREEZE.json": "75ee8cf9c9855f13c31d49a6c0aff3a6af05f11a842ecb5e4fb73d3076c9f99b"
   },
   "impact_policy": "Any changed source or registry row flags its mapped positive and negative central arguments and every reachable central descendant for review; no automatic truth reversal or regrading.",
   "review_support": [
@@ -2204,6 +2282,33 @@
       "role": "repair_scope",
       "targets": [
         "R12N",
+        "R18"
+      ]
+    },
+    {
+      "path": "udt_three_spatial_smoke_2026-10-01/review/equations_recovery/NUMERICAL_REVIEW.md",
+      "sha256": "9697d2d75f7f7f32b02ef44135e9cda3665144340aec4468a5fd10bbdc080646",
+      "role": "review_evidence",
+      "targets": [
+        "R12T",
+        "R18"
+      ]
+    },
+    {
+      "path": "udt_three_spatial_smoke_2026-10-01/review/data_recovery/SUBSTANTIVE_REVIEW.md",
+      "sha256": "f4a9c91cbfad0b02c5ddadcfeff09231420fc4257bb860ef06e28566900917d8",
+      "role": "review_evidence",
+      "targets": [
+        "R12T",
+        "R18"
+      ]
+    },
+    {
+      "path": "udt_three_spatial_smoke_2026-10-01/DESCENDANT_REVIEW.md",
+      "sha256": "e9445fc07d30227b61877938a1ea81ac2cd1f8923fdd8d2474b7c95be04de885",
+      "role": "repair_scope",
+      "targets": [
+        "R12T",
         "R18"
       ]
     }

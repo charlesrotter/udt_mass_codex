@@ -1,0 +1,7 @@
+{
+  "sha256": {
+    "udt_three_spatial_smoke_2026-10-01/clock_readout.py": "8a52d75a54d06a0165d9d517949d709c3ea7575f22ab011ccf7e6230e625c2be"
+  },
+  "repair": "Initial diagnostic incorrectly treated internal DOP853 trial stages as the accepted geodesic; now unchanged2e-7 null tolerance applies to all accepted nodes plus25 fixed dense samples. Original trial maxima retained separately. Initial Kasner Z matched analytic ratio despite trial-stage diagnostic failure.",
+  "changed_equations_or_ray_integrator": false
+}

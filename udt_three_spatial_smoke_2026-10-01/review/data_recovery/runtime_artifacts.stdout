@@ -1,0 +1,44 @@
+{
+  "status": "RUNTIME_ARTIFACT_REVIEW_PASS",
+  "records": [
+    {
+      "history": "resumed",
+      "final_g_v_bitwise_equal": true,
+      "sha256": "022d78efb79aa766b4892597a47936e01cfa0512aafdec962f96cb29a25fbacd"
+    },
+    {
+      "history": "sigterm",
+      "final_g_v_bitwise_equal": true,
+      "sha256": "022d78efb79aa766b4892597a47936e01cfa0512aafdec962f96cb29a25fbacd"
+    },
+    {
+      "run": "wall_stop",
+      "returncode": 75,
+      "committed": 2,
+      "diagnostic": 0,
+      "receipt_sha256": "9f97f0a0f8c6bc2ca7cb04a55d886ea011514ad40f0766af9002ab536f1eed7f"
+    },
+    {
+      "run": "invalid_constraint",
+      "returncode": 2,
+      "committed": 0,
+      "diagnostic": 1,
+      "receipt_sha256": "a5ad60db98080598b859aef405a2a3c28307ad2212b879be02c0ab7732bdea67"
+    }
+  ],
+  "checked_sources": {
+    "WORK_ORDER.md": "5713e6e518a36a08c4fbe4b5b668e8d53bf10d637255a65f18ca24c755be8d91",
+    "SMOKE_PLAN.md": "84203a19eea1fb8a1ed8fd0329a5c1c53ddaa5cbe1621ce41da1049485667053",
+    "REPAIR_FREEZE.json": "d0a3dfa82361d9a8cf40d18a55556fe6ee1bd1f5470eaceab697e82f1d0fca37",
+    "BATCH_FREEZE.json": "c4666cc25071bbdc687cea7578c209612ec5a0d3505870cf31b0dae1511b2a3e",
+    "initial_data.py": "06585ca811f8c402b02144f1ca60c5e1fc7d661ce0da93524c0645b9919c4c3f",
+    "evolution.py": "cc36f7006d80b9942ba521656b43bee7761ba12572e28cdf24e4e87d86fb909c",
+    "constraints.py": "364cbb0c84d8b69cdcba40e45e5d3b4b8b748fcc83f2b1cf22d9148e528c1abe",
+    "run_smoke.py": "1140a8010add9774762aeb4097345b3b2220a9c349e282f0af8a247cdb091f7e",
+    "batch_smoke.py": "78afe2bed78c78e625d71634be32778d3074a4dde55db6cfeb282e4969e30021",
+    "clock_readout.py": "8a52d75a54d06a0165d9d517949d709c3ea7575f22ab011ccf7e6230e625c2be",
+    "CLOCK_READOUT.json": "8fd5c01ba7673e848faad143c9827b6b9377ad01c4265158b72592fe63af205a",
+    "SHORT_RUN_RESULT.json": "0867af3ed8a04ab3d21b09feaf02dc93631c64967a064e033efa3267f73d4fda"
+  },
+  "scope": "Direct saved-array final-state comparisons and immutable stop/diagnostic metadata. Does not certify every failure path or perform a new GPU test."
+}

@@ -1,0 +1,37 @@
+{
+  "dtype": "float64",
+  "gram_rank_scope": "excludes constant-coordinate translation symmetry only; not arbitrary Killing fields",
+  "hamiltonian_abs_max": 1.2033528873356403e-06,
+  "implementation": "independent NumPy original metric/connection constraints",
+  "input": "udt_three_spatial_smoke_2026-10-01/initial_n8.npz",
+  "limit": 2e-05,
+  "momentum_abs_max_by_component": [
+    2.1815755598102865e-07,
+    9.285217690601158e-08,
+    1.09018053168249e-08
+  ],
+  "scalar_curvature_abs_max": 0.046993504422527324,
+  "sha256": "203809bcacfd35eda7ef8d735a27a16d20fb5a0faa0fdb692a37cc38635759ca",
+  "shape": [
+    8,
+    8,
+    8,
+    3,
+    3
+  ],
+  "spatial_derivative_gram_eigenvalues": [
+    4.988551958846429e-05,
+    0.00013319297934793033,
+    0.0001995585364176444
+  ],
+  "spatial_derivative_gram_rank": 3,
+  "spatial_metric_eigenvalue_minmax": [
+    0.9809581766697286,
+    1.0248689545534926
+  ],
+  "status": "PASS",
+  "trace_K_minmax": [
+    -1.0000000000000002,
+    -0.9999999999999997
+  ]
+}

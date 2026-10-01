@@ -1,0 +1,12 @@
+{
+  "scope": "new invalid fixture and tiny wall budget; original histories unchanged",
+  "expected": {
+    "wall_stop": 75,
+    "invalid_constraint": 2
+  },
+  "sha256": {
+    "udt_three_spatial_smoke_2026-10-01/specs/wall_stop.json": "ada4055feb4905a5847f6c6d4ebc8d62dd8c922997d03f6695481c34f66a305d",
+    "udt_three_spatial_smoke_2026-10-01/specs/invalid_constraint.json": "f983aa88485ee7babd1ead4c0f4424dd440d448cf40a047afaecea948ed7cdc5",
+    "udt_three_spatial_smoke_2026-10-01/invalid_initial_constraint.npz": "9bd335285a8947a60e9042b9e9705fa91b5dcda1e4b8f8d87782ff035206312a"
+  }
+}

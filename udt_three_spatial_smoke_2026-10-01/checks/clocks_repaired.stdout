@@ -1,0 +1,20 @@
+{
+  "status": "MARKED_CLOCK_CHECK_PASS",
+  "scope": "finite queries on conditional saved metric; supplied fixed-coordinate clocks and rays",
+  "interpolation": "spatial Fourier, cubic Hermite time using saved g and v; DOP853 null geodesics",
+  "query_convention": "Z=emitted frequency/received frequency=received tick interval/emitted tick interval",
+  "histories_sha256": {
+    "kasner": "c2374435123878b757bacb099c74a1f9e550cbc86f696f4b92233d57b63c5be3",
+    "kasner_half": "d04fe85ee95100aa53aa9cb68e44251b666bb7a29b4328956b0919220aedf6b4",
+    "n8_repaired": "022d78efb79aa766b4892597a47936e01cfa0512aafdec962f96cb29a25fbacd",
+    "n12": "bf7f120293596ac2482db1f897c82647fa63f0694ca876fa64d7c5961195e370",
+    "n16": "fb730daea96f28bb7e52651693050429a0aa13d331c7b4ac23199cdf50e75549",
+    "n16_half": "b8e8cebc4d222d5da518c1649cdade829ee1f4ea22fa3491acbe4bbd8fc63737"
+  },
+  "max_logZ_changes_against_n16_half": {
+    "n8_repaired": 2.1651783595200147e-09,
+    "n12": 1.3577541868592391e-11,
+    "n16": 1.4130474568219142e-11
+  },
+  "seconds": 4.194417224032804
+}

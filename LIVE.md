@@ -1,7 +1,7 @@
 # LIVE — operational status
 
 <!-- STARTUP_CURRENT_BEGIN -->
-## CURRENT STATE — SMK1 smoke gate after NGD1/TRI1/PRI1/CCR1/CES1/PCW1/GCA1/LKT1/SGE1/CDR1, 2026-09-30
+## CURRENT STATE — TDS1 three-coordinate smoke return after SMK1/NGD1/TRI1/PRI1/CCR1/CES1/PCW1/GCA1/LKT1/SGE1/CDR1, 2026-10-01
 
 Work on `grok`; independently verify HEAD, synchronization and dirt.
 Charles authorized documenting and executing the staged numerical discovery
@@ -11,11 +11,12 @@ Scope and exact execution evidence: `udt_gpu_time_live_discovery_2026-09-30/PLAN
 and `WORK_RECORD.md` in that package. This is a conditional numerical return;
 no native field equation, source, scale or optional population interface is adopted.
 Charles clarified the goal is broader hours-to-days time-live exploration and
-requires smoke checks before multi-hour runs. SMK1's fixed engineering record is
-`udt_time_live_smoke_gate_2026-09-30/WORK_RECORD.md`; its WORK_ORDER.md owns the
-short-check budget and the later production gate. The tested checkpoint wrapper
-uses the unchanged NGD1 conditional control. It does not certify a broader solver.
-Larger production and different scientific premises need a new bounded work order.
+requires smoke checks before multi-hour runs. After SMK1, his “continue” authorized
+TDS1's bounded implementation/validation stage. Its WORK_ORDER.md and WORK_RECORD.md
+are under `udt_three_spatial_smoke_2026-10-01/`; the central argument is R12T/R18.
+The tested broader solver has its own short-run evidence. No multi-hour run has
+started; production preparation remains before the proposed six-hour tranche.
+Larger production and different scientific premises need a bounded work order.
 
 ### Honest claim
 
@@ -48,11 +49,12 @@ Protected: do not inspect, hash, stage, modify, mine or cite payloads without di
 
 ### Next gate
 
-Stop for lay discussion after the bounded SMK1 return. The larger exploration
-remains the objective: release restrictions through a specified validated solver,
-smoke-test each new scope, then measure a representative short workload before
-the proposed six-hour tranche and checkpointed extensions toward 24–48h. No
-multi-hour production has started. A written production dispatch must specify
+Stop for lay discussion after the bounded TDS1 return. The larger exploration
+remains the objective. Prepare production output cadence/diagnostic windows,
+longer slabs, broader seed families, characteristic-speed step controls and
+representative larger-mesh loads. Pass the actual production workload's smoke
+and load gates before the proposed six-hour tranche and checkpointed24–48h
+extensions. No multi-hour production has started. A written dispatch must specify
 equations, freedoms, coverage, resources, stops and review; a native-selection
 claim additionally needs an evaluable native discriminant or explicit unadopted
 connection. Actual work records, reviewer attestations, check receipts and Git

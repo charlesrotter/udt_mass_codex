@@ -1,0 +1,43 @@
+{
+  "accepted_file_count": 2567,
+  "actual_review_contexts": [
+    "/root/tds_equations_recovery",
+    "/root/tds_data_recovery"
+  ],
+  "base_head": "d65a7ea0faa0e38b9b1ad5ed5e3743be5178288d",
+  "branch": "grok",
+  "checks": {
+    "central_final": {
+      "maxrss_kib": 80972,
+      "receipt_path": "udt_three_spatial_smoke_2026-10-01/checks/central_final.json",
+      "receipt_sha256": "7d770e871608537e6347d9f5e697467d9a47eef37603503b5a59b47ef13ec959",
+      "returncode": 0,
+      "seconds": 0.25219692901009694
+    },
+    "maintenance": {
+      "maxrss_kib": 29836,
+      "receipt_path": "udt_three_spatial_smoke_2026-10-01/checks/maintenance.json",
+      "receipt_sha256": "7b695fa213c7af6b508b49c2e5b09a63cf4828aa80552ffc7625e902f92ee725",
+      "returncode": 0,
+      "seconds": 0.6515834140009247
+    },
+    "premise_final": {
+      "maxrss_kib": 153184,
+      "receipt_path": "udt_three_spatial_smoke_2026-10-01/checks/premise_final.json",
+      "receipt_sha256": "2eff905fce7471dd34deeae34be08127912664884e01a355c2e7f75b89cb91fe",
+      "returncode": 0,
+      "seconds": 404.67659035598626
+    }
+  },
+  "exact_registry_rows": 406,
+  "final_freeze_sha256": "93874bffe36b78b48316cc5a17f45a3b4ccdfdb5533b2be154f6085555f8ac2f",
+  "maintenance_tests": 57,
+  "multi_hour_run_started": false,
+  "registry_and_canon": "unchanged",
+  "remote_at_prebank_fetch": "same base HEAD; no incoming/outgoing commits",
+  "review_record_sha256": "1b542075b0205ff43512f9e720476091f7ae32e4d816274096b2b57ac3829d71",
+  "scope": "Reviewed conditional three-coordinate short evolution and actual-clock evidence. Full audit is regression/consistency, not scientific promotion. Commit and remote synchronization are separately verified from Git.",
+  "status": "CHECKS_COMPLETE_READY_TO_BANK",
+  "unrelated_untracked_names_preserved": 52,
+  "utc": "2026-10-01T00:39:55.084415+00:00"
+}

@@ -1,0 +1,100 @@
+{
+  "checkpoints": [
+    {
+      "metadata": "udt_three_spatial_smoke_2026-10-01/runs/resumed/checkpoints/ckpt_000000000_382ac1e95840/metadata.json",
+      "sha256": "c233371dc0be33fe33cdce6ca7375216cf230a1aa72b279439e61cc2cc35b2b1"
+    },
+    {
+      "metadata": "udt_three_spatial_smoke_2026-10-01/runs/resumed/checkpoints/ckpt_000000001_b25f4a4f23f0/metadata.json",
+      "sha256": "ee6312e8bb3fe06aa450b39c41f441a99a524cda38771b0fe6097cb0aba0d8c9"
+    },
+    {
+      "metadata": "udt_three_spatial_smoke_2026-10-01/runs/resumed/checkpoints/ckpt_000000002_dad43c63df44/metadata.json",
+      "sha256": "b5d73e177a226337424e4bacc68c5b1844ade155d1a9e7e61da4dc2758d20f2d"
+    },
+    {
+      "metadata": "udt_three_spatial_smoke_2026-10-01/runs/resumed/checkpoints/ckpt_000000003_2aafa8c5dd0d/metadata.json",
+      "sha256": "183088622e0028db4d281ab0dc50231966257d812d063af2d59cd37e98218c62"
+    },
+    {
+      "metadata": "udt_three_spatial_smoke_2026-10-01/runs/resumed/checkpoints/ckpt_000000004_a4fcae451ed9/metadata.json",
+      "sha256": "b89e5022c9bc23789ade96bca77bb0b8d9a09e05df88221ab896964bd2cabe2e"
+    },
+    {
+      "metadata": "udt_three_spatial_smoke_2026-10-01/runs/resumed/checkpoints/ckpt_000000005_6ae3a2c5e1c6/metadata.json",
+      "sha256": "5db3194d1cb6fbf2694a8a95e9657dc67961d7896cb2a284225b326c2e48297e"
+    },
+    {
+      "metadata": "udt_three_spatial_smoke_2026-10-01/runs/resumed/checkpoints/ckpt_000000006_c583b7165116/metadata.json",
+      "sha256": "2443121fa4d8ea129f9d4250ce7db32a77b5fba8e0682e329c82e33bba9bf020"
+    },
+    {
+      "metadata": "udt_three_spatial_smoke_2026-10-01/runs/resumed/checkpoints/ckpt_000000007_cc7533ddb561/metadata.json",
+      "sha256": "f75fad5cb6c69b0ab7897b41b7a85d86281be713998598e1ce71f8161d31db9e"
+    },
+    {
+      "metadata": "udt_three_spatial_smoke_2026-10-01/runs/resumed/checkpoints/ckpt_000000008_5bad2a524350/metadata.json",
+      "sha256": "e1e31d790870770e4d9577d536183ef5f376c009cbc0a0d199f7c0d215d0f1ea"
+    },
+    {
+      "metadata": "udt_three_spatial_smoke_2026-10-01/runs/resumed/checkpoints/ckpt_000000009_33e0abcd2e13/metadata.json",
+      "sha256": "5813b900bcbc6e035ccfd64eb4a470b0b29eb22d96c90e7e850c5dea406b29fb"
+    },
+    {
+      "metadata": "udt_three_spatial_smoke_2026-10-01/runs/resumed/checkpoints/ckpt_000000010_c2ebad54b9e3/metadata.json",
+      "sha256": "68e90c803ffdcd83fd23f177c9a22907dbe4a7110ba11204d0f120661a333e1e"
+    },
+    {
+      "metadata": "udt_three_spatial_smoke_2026-10-01/runs/resumed/checkpoints/ckpt_000000011_8e9c294211ae/metadata.json",
+      "sha256": "7519f1067d620a59ee772173171fbfc63d7f7eea8dc4f737e039b40178962789"
+    },
+    {
+      "metadata": "udt_three_spatial_smoke_2026-10-01/runs/resumed/checkpoints/ckpt_000000012_26cd73d8eed3/metadata.json",
+      "sha256": "47acc73d00bb5db3fa3a820dd3a7c7ffdffe16b85b5f4477d1e50bf2554fb27c"
+    },
+    {
+      "metadata": "udt_three_spatial_smoke_2026-10-01/runs/resumed/checkpoints/ckpt_000000013_de006ed353e4/metadata.json",
+      "sha256": "25d0e08e8c5c169b820e899b13a6ace55bdade15b7b6b89276dc863b6e9c4ec9"
+    },
+    {
+      "metadata": "udt_three_spatial_smoke_2026-10-01/runs/resumed/checkpoints/ckpt_000000014_2c70c81c773a/metadata.json",
+      "sha256": "1fe8f465cbfc118f1056c2d87b4c6bfed8ff58ac959cd248a31a2b295db4600c"
+    },
+    {
+      "metadata": "udt_three_spatial_smoke_2026-10-01/runs/resumed/checkpoints/ckpt_000000015_83072db815e9/metadata.json",
+      "sha256": "006a1c5b9bcc02124b34a89d6e3618ec510e2e52597185de5b994191a77d563c"
+    },
+    {
+      "metadata": "udt_three_spatial_smoke_2026-10-01/runs/resumed/checkpoints/ckpt_000000016_be08de8c71d8/metadata.json",
+      "sha256": "56c45c8a8ca7681020bf0c50c79d0a4efbd5bb16e466343cf51899f88a0d04f7"
+    },
+    {
+      "metadata": "udt_three_spatial_smoke_2026-10-01/runs/resumed/checkpoints/ckpt_000000017_e4f57a1f75e4/metadata.json",
+      "sha256": "f4841d2a9a4b442d72980ecd74949f6ea569711650e1127eddcc17ae2d097601"
+    },
+    {
+      "metadata": "udt_three_spatial_smoke_2026-10-01/runs/resumed/checkpoints/ckpt_000000018_a8b0e34943d4/metadata.json",
+      "sha256": "1f93597af30c8a25ae9d14f2cfbd6a5482e4ea1579dfc629453a87ce6e24bcc4"
+    },
+    {
+      "metadata": "udt_three_spatial_smoke_2026-10-01/runs/resumed/checkpoints/ckpt_000000019_92058f279609/metadata.json",
+      "sha256": "b186f0f262d47866ebbed4aa45db1c0cf82701a491c8eea6d096c5dcd1633953"
+    },
+    {
+      "metadata": "udt_three_spatial_smoke_2026-10-01/runs/resumed/checkpoints/ckpt_000000020_5ae58dc1bc88/metadata.json",
+      "sha256": "03757b1690fe34ccfdb37ae329cb923259cc614e81ad203205238848deda5661"
+    }
+  ],
+  "signature": {
+    "CUBLAS_WORKSPACE_CONFIG": ":4096:8",
+    "code": {
+      "checkpoint_io.py": "d689de8dd525df67289862b701226dc857ec50de4a34477c32db7fdc8c2008e4",
+      "constraints.py": "364cbb0c84d8b69cdcba40e45e5d3b4b8b748fcc83f2b1cf22d9148e528c1abe",
+      "evolution.py": "cc36f7006d80b9942ba521656b43bee7761ba12572e28cdf24e4e87d86fb909c",
+      "run_smoke.py": "1140a8010add9774762aeb4097345b3b2220a9c349e282f0af8a247cdb091f7e"
+    },
+    "initial": "203809bcacfd35eda7ef8d735a27a16d20fb5a0faa0fdb692a37cc38635759ca",
+    "spec": "2233758dcba4dc71f23ac51402d5cee6ef5c46c0a3448041d617ecad7ec5950e"
+  },
+  "history_sha256": "022d78efb79aa766b4892597a47936e01cfa0512aafdec962f96cb29a25fbacd"
+}

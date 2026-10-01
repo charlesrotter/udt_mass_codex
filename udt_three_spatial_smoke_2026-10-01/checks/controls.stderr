@@ -1,0 +1,10 @@
+Traceback (most recent call last):
+  File "/home/udt-admin/udt_mass_codex/udt_three_spatial_smoke_2026-10-01/check_controls.py", line 15, in <module>
+    _,acc=engine.rhs(g,v);harm=engine.geometry(g,v)[-1]
+  File "/home/udt-admin/udt_mass_codex/udt_three_spatial_smoke_2026-10-01/evolution.py", line 30, in rhs
+    fg=torch.fft.fftn(g,dim=(0,1,2));inv,dinv,dg,conn,_=self.geometry(g,v,fg)
+  File "/home/udt-admin/udt_mass_codex/udt_three_spatial_smoke_2026-10-01/evolution.py", line 23, in geometry
+    dinv=-torch.einsum('...mp,...apq,...qn->...amn',inv,dg,inv)
+  File "/home/udt-admin/.local/lib/python3.10/site-packages/torch/functional.py", line 402, in einsum
+    return _VF.einsum(equation, operands)  # type: ignore[attr-defined]
+RuntimeError: Deterministic behavior was enabled with either `torch.use_deterministic_algorithms(True)` or `at::Context::setDeterministicAlgorithms(true)`, but this operation is not deterministic because it uses CuBLAS and you have CUDA >= 10.2. To enable deterministic behavior in this case, you must set an environment variable before running your PyTorch application: CUBLAS_WORKSPACE_CONFIG=:4096:8 or CUBLAS_WORKSPACE_CONFIG=:16:8. For more information, go to https://docs.nvidia.com/cuda/cublas/index.html#results-reproducibility

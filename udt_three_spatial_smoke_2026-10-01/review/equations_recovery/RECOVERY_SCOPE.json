@@ -1,0 +1,18 @@
+{
+  "exposure": "Read prior reviewer derivation, scalar-loop jets, reported results, producer evolution/initial-data before implementing metric-history Ricci checker. New checker imports neither producer nor old reviewer; separate consistency replay imports attributed old reviewer. Shared Fourier method; no independent integrator.",
+  "files": {
+    "udt_three_spatial_smoke_2026-10-01/WORK_ORDER.md": "5713e6e518a36a08c4fbe4b5b668e8d53bf10d637255a65f18ca24c755be8d91",
+    "udt_three_spatial_smoke_2026-10-01/evolution.py": "cc36f7006d80b9942ba521656b43bee7761ba12572e28cdf24e4e87d86fb909c",
+    "udt_three_spatial_smoke_2026-10-01/initial_data.py": "06585ca811f8c402b02144f1ca60c5e1fc7d661ce0da93524c0645b9919c4c3f",
+    "udt_three_spatial_smoke_2026-10-01/review/equations/DERIVATION_REVIEW.md": "d9dd931107f5d4505a46c3f68215a3710b459ff4926ec913ef803634d3abc92a",
+    "udt_three_spatial_smoke_2026-10-01/review/equations/INDEPENDENT_JETS_RESULT.json": "55eada389c9b108fbc7f613899e71c951fec1d4e3168cd6102fda8e9ed21c0ad",
+    "udt_three_spatial_smoke_2026-10-01/review/equations/independent_jets.py": "859f4856ad335366b0e6465c88010f417f0c256179bb0fddded3bc4a59d3e599",
+    "udt_three_spatial_smoke_2026-10-01/review/equations_recovery/history_ricci.py": "1da366b12489be81d9b2a333f1abf0793ecf7d2e6f4e3fe783390e3098e5aff4"
+  },
+  "head": "d65a7ea0faa0e38b9b1ad5ed5e3743be5178288d",
+  "history_freeze": "Checker implemented and selftested before access to saved evolving histories. Every interior saved slice and all grid points are requested, two endpoint slices omitted for centered5-point differences. History acceptance tolerances owned by parent frozen specification.",
+  "model": "inherited parent model; no different-model claim",
+  "premise_scope": "Conditional Ric(g)=0 comparison only; no native UDT response identification, no new physical premise.",
+  "reviewer_context": "/root/tds_equations_recovery",
+  "startup_attribution": "Parent current startup and synchronization; reviewer independently checked HEAD and status. No protected payloads opened."
+}

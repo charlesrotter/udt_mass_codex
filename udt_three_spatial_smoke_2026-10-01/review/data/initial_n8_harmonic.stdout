@@ -1,0 +1,14 @@
+{
+  "contracted_Christoffel_abs_max_by_covector_component": [
+    4.440892098500626e-16,
+    4.416600306234158e-08,
+    2.5583259584578688e-08,
+    4.034539422769726e-09
+  ],
+  "input": "udt_three_spatial_smoke_2026-10-01/initial_n8.npz",
+  "invalid_v00_caught_abs_max": 0.010000000000000342,
+  "limit": 2e-05,
+  "scope": "initial harmonic gauge from independent saved-metric contraction, no evolution certification",
+  "sha256": "203809bcacfd35eda7ef8d735a27a16d20fb5a0faa0fdb692a37cc38635759ca",
+  "status": "PASS"
+}

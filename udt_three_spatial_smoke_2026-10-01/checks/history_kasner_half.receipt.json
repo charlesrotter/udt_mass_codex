@@ -1,0 +1,15 @@
+{
+  "command": [
+    "/usr/bin/python3",
+    "/home/udt-admin/udt_mass_codex/udt_three_spatial_smoke_2026-10-01/run_smoke.py",
+    "/home/udt-admin/udt_mass_codex/udt_three_spatial_smoke_2026-10-01/specs/kasner_half.json",
+    "/home/udt-admin/udt_mass_codex/udt_three_spatial_smoke_2026-10-01/runs/kasner_half"
+  ],
+  "label": "history_kasner_half",
+  "returncode": 0,
+  "expected": 0,
+  "seconds": 2.4196605710312724,
+  "stdout_sha256": "47cd4f11eb5dd7332ee89180b422fc1fca5cd7d7cc629900d0acf776bb29ba2d",
+  "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "SIGTERM_sent": false
+}
