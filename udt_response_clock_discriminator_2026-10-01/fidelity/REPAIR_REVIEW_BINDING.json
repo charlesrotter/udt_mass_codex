@@ -1,0 +1,15 @@
+{
+  "utc": "2026-10-02T02:00:58.977282+00:00",
+  "reviewer": "/root/connection_prior",
+  "context": "REUSED_SEPARATE_NOT_FRESH",
+  "verdict": "VERIFIED_WITH_CAVEATS_REPAIR_ACCEPTED_CONDITIONAL_SCOPE_ONLY",
+  "bindings": {
+    "udt_response_clock_discriminator_2026-10-01/REPAIR.md": "f4c20a2e07a4a8d7bfd37b7bcd0df4e70aa109c193f1ca580770ff3cd2ac5415",
+    "udt_response_clock_discriminator_2026-10-01/INITIAL_DERIVATION.md": "600b36dceb731770bb4eaf13c2d2db2493b4f843895eb603d98f3b65a10c347f",
+    "udt_response_clock_discriminator_2026-10-01/fidelity/CANDIDATE_REVIEW.md": "d0cad56d71716333fdfd17462dd3115aef3a5c3af8f3147326cfbba43979ee8c",
+    "udt_response_clock_discriminator_2026-10-01/fidelity/CANDIDATE_REVIEW_BINDING.json": "316569f9349a486af0331de2cc578fd9f6d3cc189c760d3db74f95c66b38c38e",
+    "udt_response_clock_discriminator_2026-10-01/fidelity/REPAIR_REVIEW.md": "a35b35aa33489f4adc3c55d518b9d3b6845f51238f38214ceefe23a6a72fb517"
+  },
+  "computation_rerun": "Not needed: physical-implication scope repair only; exact equations/checks unchanged",
+  "final_integration": "PENDING"
+}

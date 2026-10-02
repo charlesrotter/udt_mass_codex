@@ -217,7 +217,8 @@
         "udt_gr_filter_reconciliation_2026-09-09/AUTHORITY_RECORD.md",
         "udt_echo_consistency_2026-10-01/REVIEWED_RESULT.md",
         "udt_positional_curvature_connection_2026-10-01/REVIEWED_RESULT.md",
-        "udt_environment_response_candidates_2026-10-01/REVIEWED_RESULT.md"
+        "udt_environment_response_candidates_2026-10-01/REVIEWED_RESULT.md",
+        "udt_response_clock_discriminator_2026-10-01/REVIEWED_RESULT.md"
       ],
       "required_conditions": [
         "P_NULL",
@@ -240,7 +241,8 @@
         "development_reconstruction_2026-09-29/SOURCE_CORRECTIONS.md",
         "udt_finite_selection_test_2026-10-01/REVIEWED_RESULT.md",
         "udt_g311_universal_reciprocity_full_covariant_response_2026-09-01/EXACT_DERIVATION.md",
-        "udt_gr_filter_reconciliation_2026-09-09/AUTHORITY_RECORD.md"
+        "udt_gr_filter_reconciliation_2026-09-09/AUTHORITY_RECORD.md",
+        "udt_response_clock_discriminator_2026-10-01/REVIEWED_RESULT.md"
       ],
       "required_conditions": [
         "P_DDR"
@@ -392,7 +394,8 @@
         "udt_machian_global_clock_feasibility_2026-09-28/REVIEWED_RESULT.md",
         "udt_finite_positional_clock_test_2026-10-01/REVIEWED_RESULT.md",
         "udt_finite_selection_test_2026-10-01/REVIEWED_RESULT.md",
-        "udt_g163_xmax_dependency_reversal_audit_2026-08-18/AUDIT_REPORT.md"
+        "udt_g163_xmax_dependency_reversal_audit_2026-08-18/AUDIT_REPORT.md",
+        "udt_response_clock_discriminator_2026-10-01/REVIEWED_RESULT.md"
       ],
       "required_conditions": [
         "P_SCALE"
@@ -423,7 +426,8 @@
         "udt_gr_commitment_audit_2026-09-29/CENTRAL_INSERTION.md",
         "udt_gr_commitment_audit_2026-09-29/DECISION_BRIEF.md",
         "udt_gr_commitment_audit_2026-09-29/REVIEWED_RESULT.md",
-        "udt_environment_response_candidates_2026-10-01/REVIEWED_RESULT.md"
+        "udt_environment_response_candidates_2026-10-01/REVIEWED_RESULT.md",
+        "udt_response_clock_discriminator_2026-10-01/REVIEWED_RESULT.md"
       ],
       "required_conditions": [
         "M_GEOMETRY"
@@ -490,7 +494,8 @@
         "udt_finite_selection_test_2026-10-01/REVIEWED_RESULT.md",
         "udt_echo_consistency_2026-10-01/REVIEWED_RESULT.md",
         "udt_positional_curvature_connection_2026-10-01/REVIEWED_RESULT.md",
-        "udt_environment_response_candidates_2026-10-01/REVIEWED_RESULT.md"
+        "udt_environment_response_candidates_2026-10-01/REVIEWED_RESULT.md",
+        "udt_response_clock_discriminator_2026-10-01/REVIEWED_RESULT.md"
       ],
       "required_conditions": []
     },
@@ -1076,7 +1081,7 @@
     {
       "id": "O_PSW_ATTRIBUTION",
       "kind": "open_join",
-      "statement": "Received ticking and FNA1 supplied full-pair assembly are defined. FST1 proves a conditional symmetric-response degeneracy and relative-curvature clock discriminator. Native physical branch/comparison admission, actual response and empirical filter attachment remain OPEN; legitimate scalar state/calibration data are distinct from law selection. No physical scale or X_max selected. ECS1 adds a necessary internal echo relation and exact restricted-sheet transverse ambiguity; neither selects native geometry nor establishes all-observer/field-sector nonuniqueness. PCC1 tests an UNADOPTED all-frame leading additional-curvature assignment with supplied reference/matching; conditional compatibility and scoped Einstein-reference consequence do not close native positional attribution or select a finite law. ERC1 conditionally generates variable-curvature clock records from an unadopted known response law and supplied data; native response identity, source relation and positional attribution remain OPEN. Free legitimate data alone do not prove a law missing.",
+      "statement": "Received ticking and FNA1 supplied full-pair assembly are defined. FST1 proves a conditional symmetric-response degeneracy and relative-curvature clock discriminator. Native physical branch/comparison admission, actual response and empirical filter attachment remain OPEN; legitimate scalar state/calibration data are distinct from law selection. No physical scale or X_max selected. ECS1 adds a necessary internal echo relation and exact restricted-sheet transverse ambiguity; neither selects native geometry nor establishes all-observer/field-sector nonuniqueness. PCC1 tests an UNADOPTED all-frame leading additional-curvature assignment with supplied reference/matching; conditional compatibility and scoped Einstein-reference consequence do not close native positional attribution or select a finite law. ERC1 conditionally generates variable-curvature clock records from an unadopted known response law and supplied data; native response identity, source relation and positional attribution remain OPEN. Free legitimate data alone do not prove a law missing. RCD1 supplies a conditional clock-curve discriminator, with native physical implication unestablished; exact full response identity is sufficient, not necessary or a universal gate.",
       "sources": [
         "udt_positional_selection_whiteboard_2026-10-01/INITIAL_CANDIDATE.md",
         "udt_positional_selection_whiteboard_2026-10-01/REPAIR.md",
@@ -1086,7 +1091,8 @@
         "udt_finite_selection_test_2026-10-01/REVIEWED_RESULT.md",
         "udt_echo_consistency_2026-10-01/REVIEWED_RESULT.md",
         "udt_positional_curvature_connection_2026-10-01/REVIEWED_RESULT.md",
-        "udt_environment_response_candidates_2026-10-01/REVIEWED_RESULT.md"
+        "udt_environment_response_candidates_2026-10-01/REVIEWED_RESULT.md",
+        "udt_response_clock_discriminator_2026-10-01/REVIEWED_RESULT.md"
       ],
       "registry_ids": []
     },
@@ -1397,6 +1403,78 @@
         "C_ERC_WEAK",
         "C_ERC_EVOLUTION",
         "C_ERC_FLAT_EVENT"
+      ]
+    },
+    {
+      "id": "C_RCD_EQUATION",
+      "kind": "conditional_class",
+      "statement": "UNADOPTED E_B=G+alpha Q with constant alpha and DDR gives E_B+Lambda g=0, constant Lambda. A sufficient response route only; no physical response normalization/action/source adoption.",
+      "sources": [
+        "udt_response_clock_discriminator_2026-10-01/INITIAL_DERIVATION.md",
+        "udt_response_clock_discriminator_2026-10-01/REPAIR.md"
+      ],
+      "registry_ids": []
+    },
+    {
+      "id": "C_RCD_CLOCK",
+      "kind": "conditional_protocol",
+      "statement": "Smooth spatially flat homogeneous/isotropic metric, a0=1,a>0, supplied comoving proper clocks, independently calibrated initial proper L, regular first arrivals at emission0. Positive C4 p on connected interval for equation equivalence; no general4D tomography or native query assignment.",
+      "sources": [
+        "udt_response_clock_discriminator_2026-10-01/INITIAL_DERIVATION.md",
+        "udt_response_clock_discriminator_2026-10-01/REPAIR.md"
+      ],
+      "registry_ids": []
+    },
+    {
+      "id": "C_RCD_FLAT_EVENT",
+      "kind": "conditional_protocol",
+      "statement": "Coefficient subclaim only: alpha nonzero,a0=1,H0=R0=Lambda=0,P0 nonzero; exact Taylor coefficients and independent unit calibration. Echo doubling kinematic; no noise inference or empirical pass.",
+      "sources": [
+        "udt_response_clock_discriminator_2026-10-01/INITIAL_DERIVATION.md",
+        "udt_response_clock_discriminator_2026-10-01/REPAIR.md"
+      ],
+      "registry_ids": []
+    },
+    {
+      "id": "R8RCD",
+      "kind": "argument",
+      "anchor": "r8rcd",
+      "title": "Conditional clock reconstruction and equation discriminator",
+      "sources": [
+        "udt_response_clock_discriminator_2026-10-01/INITIAL_DERIVATION.md",
+        "udt_response_clock_discriminator_2026-10-01/REPAIR.md",
+        "udt_response_clock_discriminator_2026-10-01/REVIEWED_RESULT.md",
+        "udt_response_clock_discriminator_2026-10-01/math/SOURCE_FIRST.md",
+        "udt_response_clock_discriminator_2026-10-01/fidelity/SOURCE_FIRST.md",
+        "udt_response_clock_discriminator_2026-10-01/CHECK_PLAN.md"
+      ],
+      "registry_ids": [],
+      "required_conditions": [
+        "P_NULL",
+        "M_GEOMETRY",
+        "C_RCD_EQUATION",
+        "C_RCD_CLOCK",
+        "C_RCD_FLAT_EVENT"
+      ]
+    },
+    {
+      "id": "R17RCD",
+      "kind": "argument",
+      "anchor": "r17rcd",
+      "title": "Native implication audit and response-equivalence scope",
+      "sources": [
+        "udt_response_clock_discriminator_2026-10-01/INITIAL_DERIVATION.md",
+        "udt_response_clock_discriminator_2026-10-01/REPAIR.md",
+        "udt_response_clock_discriminator_2026-10-01/REVIEWED_RESULT.md",
+        "udt_response_clock_discriminator_2026-10-01/math/SOURCE_FIRST.md",
+        "udt_response_clock_discriminator_2026-10-01/fidelity/SOURCE_FIRST.md",
+        "udt_response_clock_discriminator_2026-10-01/CHECK_PLAN.md"
+      ],
+      "registry_ids": [],
+      "required_conditions": [
+        "P_DDR",
+        "M_GEOMETRY",
+        "C_RCD_EQUATION"
       ]
     }
   ],
@@ -2630,6 +2708,81 @@
       "from": "R8ERC",
       "to": "R18",
       "kind": "context"
+    },
+    {
+      "from": "P_NULL",
+      "to": "R8RCD",
+      "kind": "hypothesis"
+    },
+    {
+      "from": "M_GEOMETRY",
+      "to": "R8RCD",
+      "kind": "hypothesis"
+    },
+    {
+      "from": "C_RCD_EQUATION",
+      "to": "R8RCD",
+      "kind": "hypothesis"
+    },
+    {
+      "from": "C_RCD_CLOCK",
+      "to": "R8RCD",
+      "kind": "hypothesis"
+    },
+    {
+      "from": "C_RCD_FLAT_EVENT",
+      "to": "R8RCD",
+      "kind": "hypothesis"
+    },
+    {
+      "from": "P_DDR",
+      "to": "R17RCD",
+      "kind": "hypothesis"
+    },
+    {
+      "from": "M_GEOMETRY",
+      "to": "R17RCD",
+      "kind": "hypothesis"
+    },
+    {
+      "from": "C_RCD_EQUATION",
+      "to": "R17RCD",
+      "kind": "hypothesis"
+    },
+    {
+      "from": "R17ERC",
+      "to": "R8RCD",
+      "kind": "proof"
+    },
+    {
+      "from": "R8",
+      "to": "R8RCD",
+      "kind": "proof"
+    },
+    {
+      "from": "R9",
+      "to": "R17RCD",
+      "kind": "proof"
+    },
+    {
+      "from": "R17ERC",
+      "to": "R17RCD",
+      "kind": "context"
+    },
+    {
+      "from": "O_UNIVERSAL_LAW",
+      "to": "R17RCD",
+      "kind": "interpretation"
+    },
+    {
+      "from": "R8RCD",
+      "to": "R18",
+      "kind": "context"
+    },
+    {
+      "from": "R17RCD",
+      "to": "R18",
+      "kind": "context"
     }
   ],
   "sources_sha256": {
@@ -2813,7 +2966,13 @@
     "udt_environment_response_candidates_2026-10-01/math/SOURCE_FIRST.md": "1cad6eac626febee4d389de4f551a335c9010d327335551a37ef52c2198b769e",
     "udt_environment_response_candidates_2026-10-01/fidelity/SOURCE_FIRST.md": "f7cef5a8208fc5612c3b8b3ada0d7dd0d7ed94a3b7b196a4a52c19bc23e86647",
     "udt_environment_response_candidates_2026-10-01/REFERENCES.md": "acfda883b5e5dc2f2f49152302ccbe62f45537b7f118701199d91e2af42f6c82",
-    "udt_environment_response_candidates_2026-10-01/NUMERICAL_PLAN.md": "06be676689c332c18214212d9d59bc459325d3729fcc78add51a862c7d5154e2"
+    "udt_environment_response_candidates_2026-10-01/NUMERICAL_PLAN.md": "06be676689c332c18214212d9d59bc459325d3729fcc78add51a862c7d5154e2",
+    "udt_response_clock_discriminator_2026-10-01/INITIAL_DERIVATION.md": "600b36dceb731770bb4eaf13c2d2db2493b4f843895eb603d98f3b65a10c347f",
+    "udt_response_clock_discriminator_2026-10-01/REPAIR.md": "f4c20a2e07a4a8d7bfd37b7bcd0df4e70aa109c193f1ca580770ff3cd2ac5415",
+    "udt_response_clock_discriminator_2026-10-01/REVIEWED_RESULT.md": "abc46591f71f314f3aedb9de113265eebdfcea78d5c155fbbfd1ec70436cec72",
+    "udt_response_clock_discriminator_2026-10-01/math/SOURCE_FIRST.md": "d91988be07bcde1bbf2997d0d8d2229892ee50774eacdf88f6af2798e607dc58",
+    "udt_response_clock_discriminator_2026-10-01/fidelity/SOURCE_FIRST.md": "b82dc420841dcd578a500f7e9c6af328ebbae1440bb7ee4934f55e3e4b5e32fd",
+    "udt_response_clock_discriminator_2026-10-01/CHECK_PLAN.md": "1d5e106e00f3306d5671bcf6c972ca25b1c529fe8b6811d52389c2b606db902c"
   },
   "impact_policy": "Any changed source or registry row flags its mapped positive and negative central arguments and every reachable central descendant for review; no automatic truth reversal or regrading.",
   "review_support": [
@@ -4001,6 +4160,98 @@
         "R17C",
         "R17ERC",
         "R8ERC",
+        "O_PSW_ATTRIBUTION"
+      ]
+    },
+    {
+      "path": "udt_response_clock_discriminator_2026-10-01/math/CANDIDATE_REVIEW.md",
+      "sha256": "ba19e79c63f4ab5336367bf560f79a4f0f73cd08c7bbb9b8f24ed2fb74413a59",
+      "role": "review_evidence",
+      "targets": [
+        "D1",
+        "R4",
+        "R5",
+        "R6",
+        "R8",
+        "R9",
+        "R10",
+        "R12",
+        "R16",
+        "R17",
+        "R18",
+        "R8ERC",
+        "R17ERC",
+        "R8RCD",
+        "R17RCD",
+        "O_PSW_ATTRIBUTION"
+      ]
+    },
+    {
+      "path": "udt_response_clock_discriminator_2026-10-01/fidelity/CANDIDATE_REVIEW.md",
+      "sha256": "d0cad56d71716333fdfd17462dd3115aef3a5c3af8f3147326cfbba43979ee8c",
+      "role": "review_evidence",
+      "targets": [
+        "D1",
+        "R4",
+        "R5",
+        "R6",
+        "R8",
+        "R9",
+        "R10",
+        "R12",
+        "R16",
+        "R17",
+        "R18",
+        "R8ERC",
+        "R17ERC",
+        "R8RCD",
+        "R17RCD",
+        "O_PSW_ATTRIBUTION"
+      ]
+    },
+    {
+      "path": "udt_response_clock_discriminator_2026-10-01/fidelity/REPAIR_REVIEW.md",
+      "sha256": "a35b35aa33489f4adc3c55d518b9d3b6845f51238f38214ceefe23a6a72fb517",
+      "role": "review_evidence",
+      "targets": [
+        "D1",
+        "R4",
+        "R5",
+        "R6",
+        "R8",
+        "R9",
+        "R10",
+        "R12",
+        "R16",
+        "R17",
+        "R18",
+        "R8ERC",
+        "R17ERC",
+        "R8RCD",
+        "R17RCD",
+        "O_PSW_ATTRIBUTION"
+      ]
+    },
+    {
+      "path": "udt_response_clock_discriminator_2026-10-01/DESCENDANT_REVIEW.md",
+      "sha256": "420b8efb3596db21eac35d4e83eec23c92f0f3959cf6e1156ee44cff58bad419",
+      "role": "review_evidence",
+      "targets": [
+        "D1",
+        "R4",
+        "R5",
+        "R6",
+        "R8",
+        "R9",
+        "R10",
+        "R12",
+        "R16",
+        "R17",
+        "R18",
+        "R8ERC",
+        "R17ERC",
+        "R8RCD",
+        "R17RCD",
         "O_PSW_ATTRIBUTION"
       ]
     }

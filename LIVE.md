@@ -1,24 +1,31 @@
 # LIVE — operational status
 
 <!-- STARTUP_CURRENT_BEGIN -->
-## CURRENT STATE — ERC1 conditional response comparison after ULC1 and CDR1, 2026-10-01
+## CURRENT STATE — RCD1 conditional clock discriminator after ERC1, 2026-10-01
 
-Work on `grok`; independently verify HEAD, synchronization and dirt.
-Charles's “Proceed” authorized at most two explicit response candidates, short
-nonuniform/evolving checks, two fresh reviews and one bounded repair/re-review
-cycle, central integration and a lay return. Fixed scope/evidence is under
-`udt_environment_response_candidates_2026-10-01/`: WORK_ORDER.md, WORK_RECORD.md,
-REVIEWED_RESULT.md and DECISION_BRIEF.md. UDT_DEVELOPMENT.md R17ERC/R8ERC/R18
-owns the maintained argument. Both physical response identifications remain
-UNADOPTED; no action, source law, native geometry, scale or CANON/registry change
-is adopted. ULC1's universal-law owner meaning remains in D1.
+CDR1 remains the central-development architecture; exact grades stay in
+CURRENT_SCIENTIFIC_PREMISES.tsv. LIVE.md owns status; verify grok HEAD, remote, dirt and actual host state.
+Charles authorized the physical-connection audit and bounded exact clock test,
+checks, reviews, same-premise repair and central integration. Fixed evidence is
+under `udt_response_clock_discriminator_2026-10-01/`: WORK_ORDER.md, WORK_RECORD.md,
+REVIEWED_RESULT.md and DECISION_BRIEF.md. UDT_DEVELOPMENT.md R8RCD/R17RCD/R18
+owns the maintained argument. The derivative equation remains UNADOPTED; native
+physical implication is unestablished. No source, action, scale, registry grade
+or CANON changes are adopted. Prior results retain their original scope.
 
-The fixed short CPU campaign and two source-first/exposed reviews are complete.
-Original code and failed precision/hash checks remain alongside bounded repairs;
-initial scientific candidate and numerical functions are unchanged. Actual final
-attestations and captured closure checks own integration/pass status. No GPU or
-long production ran. Prior packages retain their original scopes. Charles's
-no-timeout direction persists with finite/resource/manual stops.
+Short symbolic and saved-series checks are complete. Two actual reused separate
+contexts performed independent argument/code reviews and reviewed one scope
+repair. Fresh-context allocation failed and is UNAVAILABLE/NOT PASSED; exposure
+and limits are recorded. Actual final attestations and captured normal,
+57-maintenance and full406 receipts own integration/pass status. No new evolution,
+GPU or long production ran. No-timeout direction persists with finite/resource/
+manual stops. Preserve all protected work and prior TPS1 local-only raw caveats.
+
+Next: Stop for lay discussion of the conditional discriminator and open native
+implication. No response adoption, new physical premise or successor starts
+automatically. Later sessions must verify actual host state; no scientific
+worker is intended to remain at return. Version/review bindings remain under
+`development_reconstruction_2026-09-29/`.
 
 ### Honest claim
 
@@ -51,16 +58,12 @@ Protected: do not inspect, hash, stage, modify, mine or cite payloads without di
 
 ### Next gate
 
-The authorized candidate comparison is complete. Stop for lay discussion using
-central R17ERC/R8ERC/R18 and ERC1's decision brief. The open physical response
-identification is not closed by the conditional examples or by more of the same
-numerics. No candidate, source coupling or scalar calibration is adopted.
-A successor needs a discriminating question and bounded work order; none starts
-automatically. Existing pauses and protected-work boundaries remain.
-No scientific worker was left running at this return; later sessions must verify
-actual host state before process claims. ERC1's small saved metric arrays are
-included in its evidence package. Prior TPS1 raw fields/checkpoints and large
-streams remain local-only and ignored; a remote clone cannot replay those
-raw-dependent checks from compact banked records alone.
+RCD1 returns for discussion. Use central R8RCD/R17RCD/R18 and its decision brief.
+The exact conditional clock test does not establish native UDT applicability.
+Full response identity is one sufficient route, not a universal prerequisite.
+No successor or scientific adoption begins automatically; existing pauses and
+protected-work boundaries remain. ERC1 arrays are banked; TPS1 raw fields and
+large streams remain local-only and cannot be replayed from compact remote
+records alone. Verify actual processes before claiming host state.
 
 <!-- STARTUP_CURRENT_END -->

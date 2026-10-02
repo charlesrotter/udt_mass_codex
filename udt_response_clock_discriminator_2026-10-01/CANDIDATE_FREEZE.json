@@ -1,0 +1,14 @@
+{
+  "utc": "2026-10-02T01:55:59.522160+00:00",
+  "scope": "Initial RCD1 argument/exact checks before execution; parent source/model/reviewer-preview exposure disclosed.",
+  "sha256": {
+    "udt_response_clock_discriminator_2026-10-01/WORK_ORDER.md": "5950fab7a31222f4f14965bf409eeee8d57f3949e0756fbdb0ad7ded597667e6",
+    "udt_response_clock_discriminator_2026-10-01/REVIEW_CAPACITY.md": "ba731eaf179327804a0b949883df05a43fbdb72f5783d0c1e62788a41804c12b",
+    "udt_response_clock_discriminator_2026-10-01/INITIAL_DERIVATION.md": "600b36dceb731770bb4eaf13c2d2db2493b4f843895eb603d98f3b65a10c347f",
+    "udt_response_clock_discriminator_2026-10-01/CHECK_PLAN.md": "1d5e106e00f3306d5671bcf6c972ca25b1c529fe8b6811d52389c2b606db902c",
+    "udt_response_clock_discriminator_2026-10-01/check_clock_law.py": "eab76e94043367b5ab3ef74755ecdbfd8ebd6c1c56d9cea5f3174946dbbfa60f",
+    "udt_response_clock_discriminator_2026-10-01/recompute_saved_clock_series.py": "9f417d15b31631cf169913d0faaae40af701a80c5233ce36c1d53a21ae4dcc2e",
+    "udt_response_clock_discriminator_2026-10-01/SOURCE_PINS.json": "e5a2d687a10514f46f9172b688ea4c645046f769deb2e162643c6474ae40ce3b",
+    "udt_response_clock_discriminator_2026-10-01/SNAPSHOT.json": "a19e9d7859d2baa8e1c14dc4c52885ed05e96aaa5271be57ba26a10d6c55bd4e"
+  }
+}

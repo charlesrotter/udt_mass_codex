@@ -1,0 +1,15 @@
+{
+  "utc": "2026-10-02T01:59:35.905937+00:00",
+  "scope": "Parent exact outputs and controlling scope repair; no numerical evolution, no physical adoption.",
+  "sha256": {
+    "udt_response_clock_discriminator_2026-10-01/SYMBOLIC_RESULT.json": "cd656ede4ef007f83cd9ab4f9a07741d853748d68864343e65bf00423008d1eb",
+    "udt_response_clock_discriminator_2026-10-01/SAVED_SERIES_RESULT.json": "76b9cebf7a0ebd1da792c0bb18968700b10caec60e431ad02c4b16711f57d652",
+    "udt_response_clock_discriminator_2026-10-01/checks/parent_symbolic.json": "0bc8fbd86a86cfe81a8600482ea6a389d48fb4f7f39f22049e966d6f571e6359",
+    "udt_response_clock_discriminator_2026-10-01/checks/parent_symbolic.stdout": "1d1dc4cdb539c681e0d3d8e5889b54d0aefc54ee9b3759efc4fc124068110044",
+    "udt_response_clock_discriminator_2026-10-01/checks/parent_symbolic.stderr": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "udt_response_clock_discriminator_2026-10-01/checks/saved_series.json": "c540ce6bf845364c9fc2b10ba0a79108773eac481b60a92b9c8393d40fe07146",
+    "udt_response_clock_discriminator_2026-10-01/checks/saved_series.stdout": "76b9cebf7a0ebd1da792c0bb18968700b10caec60e431ad02c4b16711f57d652",
+    "udt_response_clock_discriminator_2026-10-01/checks/saved_series.stderr": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "udt_response_clock_discriminator_2026-10-01/REPAIR.md": "f4c20a2e07a4a8d7bfd37b7bcd0df4e70aa109c193f1ca580770ff3cd2ac5415"
+  }
+}

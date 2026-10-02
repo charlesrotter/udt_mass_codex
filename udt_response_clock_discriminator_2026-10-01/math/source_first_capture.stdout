@@ -1,0 +1,13 @@
+{
+  "pass": true,
+  "check_count": 24,
+  "source_pin_count": 11,
+  "flat_event_p_coefficients": [
+    "0",
+    "0",
+    "P/36",
+    "0",
+    "-P/(4320*alpha)"
+  ],
+  "PCC_t4_obstruction": "27*b**2"
+}

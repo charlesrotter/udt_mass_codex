@@ -1,0 +1,34 @@
+{
+  "pass": true,
+  "context": "/root/erc_math",
+  "fresh_context": false,
+  "freeze_sha256": "599409e76a10767746f737d2f41c3247c5a79f3890937f153c6c1b073e73f7fb",
+  "accepted_count": 12739,
+  "bytes_checked": 2198335978,
+  "protected_entries": 0,
+  "inherited_unchanged_count": 12658,
+  "changed_inherited_paths": [
+    "CURRENT_RESEARCH_PROGRAM.md",
+    "HANDOFF.md",
+    "LIVE.md",
+    "UDT_DEVELOPMENT.md",
+    "development_reconstruction_2026-09-29/DEVELOPMENT_GRAPH.json",
+    "development_reconstruction_2026-09-29/RECENT_DISPOSITIONS.tsv"
+  ],
+  "new_package_files": 75,
+  "source_pin_count": 11,
+  "historical_pins_resolved_at_base": [
+    "UDT_DEVELOPMENT.md"
+  ],
+  "prior_graph_edges_sources_conditions_reviews_preserved": true,
+  "prior_dispositions_preserved": true,
+  "generated_orientation_identical": true,
+  "actual_head": "241db981986f4c322fcb4d6c68f91c9b33ed87ea",
+  "actual_branch": "grok",
+  "captured_integration_receipts": {
+    "draft_guard": 1,
+    "draft_guard_repaired": 0,
+    "normal_prebinding": 1
+  },
+  "limits": "Exposed byte correspondence and scoped semantic checks after actual prose review; no new science, full406 replay, empirical confirmation or predicted banking pass."
+}

@@ -1,0 +1,28 @@
+{
+  "utc": "2026-10-02T02:00:59.257673+00:00",
+  "context": "/root/erc_math",
+  "fresh_context": false,
+  "verdict": "VERIFIED-WITH-CAVEATS",
+  "exposure": "Actual RCD1 candidate/code/results and controlling scope repair read after source-first seal; prior full ERC1 exposure.",
+  "report_path": "udt_response_clock_discriminator_2026-10-01/math/CANDIDATE_REVIEW.md",
+  "report_sha256": "ba19e79c63f4ab5336367bf560f79a4f0f73cd08c7bbb9b8f24ed2fb74413a59",
+  "sha256": {
+    "udt_response_clock_discriminator_2026-10-01/INITIAL_DERIVATION.md": "600b36dceb731770bb4eaf13c2d2db2493b4f843895eb603d98f3b65a10c347f",
+    "udt_response_clock_discriminator_2026-10-01/CHECK_PLAN.md": "1d5e106e00f3306d5671bcf6c972ca25b1c529fe8b6811d52389c2b606db902c",
+    "udt_response_clock_discriminator_2026-10-01/CANDIDATE_FREEZE.json": "c1e52462139310c09403b0feba11acefff16ccedc1fd9578bd0a3c2d74c41589",
+    "udt_response_clock_discriminator_2026-10-01/check_clock_law.py": "eab76e94043367b5ab3ef74755ecdbfd8ebd6c1c56d9cea5f3174946dbbfa60f",
+    "udt_response_clock_discriminator_2026-10-01/recompute_saved_clock_series.py": "9f417d15b31631cf169913d0faaae40af701a80c5233ce36c1d53a21ae4dcc2e",
+    "udt_response_clock_discriminator_2026-10-01/SYMBOLIC_RESULT.json": "cd656ede4ef007f83cd9ab4f9a07741d853748d68864343e65bf00423008d1eb",
+    "udt_response_clock_discriminator_2026-10-01/SAVED_SERIES_RESULT.json": "76b9cebf7a0ebd1da792c0bb18968700b10caec60e431ad02c4b16711f57d652",
+    "udt_response_clock_discriminator_2026-10-01/REPAIR.md": "f4c20a2e07a4a8d7bfd37b7bcd0df4e70aa109c193f1ca580770ff3cd2ac5415",
+    "udt_response_clock_discriminator_2026-10-01/REVIEW_CAPACITY.md": "ba731eaf179327804a0b949883df05a43fbdb72f5783d0c1e62788a41804c12b",
+    "udt_response_clock_discriminator_2026-10-01/math/SOURCE_FIRST_SEAL.json": "77f7b94cc56592fbee67adfc79ff94a08239bae22e1603a54debd981499b9407",
+    "udt_response_clock_discriminator_2026-10-01/math/DIRECT_CHECK_PLAN.md": "bc5de2249f811dde2e6d47f56472ad02c4dec8b7f8997c6a3326e4f444b2cb42",
+    "udt_response_clock_discriminator_2026-10-01/math/direct_saved_check.py": "26fd839c1a952971d50ca2ebe158316526d2dfbcaf89073481cafdda4b86844e",
+    "udt_response_clock_discriminator_2026-10-01/math/DIRECT_SAVED_RESULT.json": "1ad82e2b26c20c3fed9ac7fa626226ec0a85a568936ddefc5d95923954590ae0",
+    "udt_response_clock_discriminator_2026-10-01/math/check_direct_rank.py": "b4217d8a50782606445c78618b3689b2cbf2c27a0ea7714bb4b483ad585c964d",
+    "udt_response_clock_discriminator_2026-10-01/math/DIRECT_RANK_RESULT.json": "4f9f642f43463614320b53d4b7616fd10fbc66ca1db068cb216a5cc56c185020",
+    "udt_response_clock_discriminator_2026-10-01/math/CANDIDATE_REVIEW.md": "ba19e79c63f4ab5336367bf560f79a4f0f73cd08c7bbb9b8f24ed2fb74413a59"
+  },
+  "scope": "Actual candidate and one scientific scope repair; final central integration not yet reviewed."
+}

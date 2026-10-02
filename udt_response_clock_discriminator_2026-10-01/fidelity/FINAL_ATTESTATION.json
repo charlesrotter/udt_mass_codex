@@ -1,24 +1,9 @@
 {
-  "status": "REVIEWED_WITH_LIMITS",
-  "utc": "2026-10-02T02:14:04.752003+00:00",
-  "scope": "RCD1 exact conditional clock discriminator and native implication audit, central R8RCD/R17RCD/R16/R18; one response-equivalence scope repair; physical law UNADOPTED. Two reused separate contexts, fresh-context allocation UNAVAILABLE/NOT PASSED. No new evolution, source, scale, action or premise adoption.",
-  "independence": "Two reused separate contexts with prior exposure; fresh allocation failed and fresh-context review is UNAVAILABLE/NOT PASSED. Source-first new-question derivations preceded exposed actual-candidate and final correspondence reviews. Shared inherited model/SymPy, independent code and saved-series implementations; parent received source-first formulas and raised scope concern before direct reviews. One controlling scope repair, no equation change or physical adoption. Reports preserve actual exposure, omissions and packaging diagnostics.",
-  "freeze": "udt_response_clock_discriminator_2026-10-01/INTEGRATION_FREEZE.json",
-  "freeze_sha256": "599409e76a10767746f737d2f41c3247c5a79f3890937f153c6c1b073e73f7fb",
-  "prior_review_record": "udt_response_clock_discriminator_2026-10-01/PRIOR_REVIEW_RECORD.json",
-  "prior_review_record_sha256": "610b65697812e0837245ea694df319452ab8302f2e5a9c0fa95084bf9d0c93f9",
-  "reviewers": [
-    {
-      "context": "/root/erc_math",
-      "attestation": "udt_response_clock_discriminator_2026-10-01/math/FINAL_ATTESTATION.json",
-      "sha256": "e26aa32b33093fcb41c293ac4891dd8e297134417ce93fdd78943f66f877b76d"
-    },
-    {
-      "context": "/root/connection_prior",
-      "attestation": "udt_response_clock_discriminator_2026-10-01/fidelity/FINAL_ATTESTATION.json",
-      "sha256": "894767b92965346e26e2b76861f325e965b2c790a93157e69848e3e2974c40eb"
-    }
-  ],
+  "context": "/root/connection_prior",
+  "verdict": "ACCEPT_WITH_LIMITS",
+  "utc": "2026-10-02T02:13:47.496820+00:00",
+  "report_path": "udt_response_clock_discriminator_2026-10-01/fidelity/FINAL_REVIEW.md",
+  "report_sha256": "8563201c2d00b49f1d23d225d8a993297d5c854ec38cf72c94f3d2e13ed379bd",
   "accepted_sha256": {
     ".gitignore": "8a2710f5923ba86b41a461e040282ecd520ce155cb17b09458e1d1d613ddeb7a",
     "AGENTS.md": "bcab9b67305e0314af9eaf25162d203660eae8f2ff4fd87d17e83588970ef38d",
@@ -12759,5 +12744,14 @@
     "udt_time_live_smoke_gate_2026-09-30/smoke_runner.py": "724bf5405dd9596bff343a0a6967393d26a0a0c7529124e9a0bfdd70e569d52f",
     "verify_current_scientific_premises.py": "a983c2456ce3a122629a116c735b32b96e055829ed3012fb416fabfa9b0b8127",
     "verify_udt_development.py": "555e2733fa04c609874802369983f73b4a1d8a79610488d9dc732b1acfb0c2fa"
-  }
+  },
+  "integration_freeze_sha256": "599409e76a10767746f737d2f41c3247c5a79f3890937f153c6c1b073e73f7fb",
+  "independence": {
+    "context": "REUSED_SEPARATE",
+    "fresh_context": "UNAVAILABLE_NOT_PASSED",
+    "model": "same inherited model; exact runtime identifier unavailable",
+    "implementation": "independent source-first proper-time tensor reconstruction and exposed Lagrange inversion; prior evidence not rerun in final integration review",
+    "exposure": "Earlier clock discussion/old ERC1 sources; source-first seal before parent candidate; actual exposed candidate/repair; final integration peer-count exposure now"
+  },
+  "scope": "Actual final central correspondence and 12739 accepted-file hash checks; no new science or physical adoption. Final closure receipts remain pending."
 }

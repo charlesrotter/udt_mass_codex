@@ -5,7 +5,7 @@ This bounded startup view is generated from its opening; edit that source.
 LIVE.md owns operational status; CURRENT_SCIENTIFIC_PREMISES.tsv owns exact grades.
 
 <!-- GENERATED_DEVELOPMENT_BEGIN -->
-**Continuous development — CDR1 with SGE1, LKT1, GCA1, PCW1, CES1, CCR1, PRI1, TRI1, NGD1, TDS1, TPP1, TPS1, PSW1, FPC1, FNA1, FST1, ECS1, PCC1 and ERC1, 2026-10-01.** This is the maintained
+**Continuous development — CDR1 with SGE1, LKT1, GCA1, PCW1, CES1, CCR1, PRI1, TRI1, NGD1, TDS1, TPP1, TPS1, PSW1, FPC1, FNA1, FST1, ECS1, PCC1, ERC1 and RCD1, 2026-10-01.** This is the maintained
 scientific development. It is not canon or a new scientific-grade authority.
 The exact registry and reviewed sources own grades; LIVE owns operational status.
 Current review bindings and limits are recorded in section9; startup reads the
@@ -151,6 +151,16 @@ not complete dynamical data, with Minkowski. Short CPU checks and independent
 saved-metric reviews support the declared conditional examples. Native response
 identity, source coupling, positional attribution, physical scale and empirical
 recovery remain open. Stop for discussion; no response or action is adopted.
+RCD1 derives an exact conditional clock-curve test for ERC1's derivative equation
+in its declared homogeneous/comoving sector. The flat-event cubic and fifth-order
+terms determine its coefficient independently of the free initial amplitude;
+the earlier exact cubic-only geometry fails this equation. Constant-H records
+cannot identify that coefficient. Echo doubling is protocol information, not
+independent law selection. The audited native implication remains unestablished.
+Full response identity is only a sufficient route: different tensors can impose
+the same geometry equation, and native clock predictions need not first select
+a local response. Two reused separate contexts reviewed the result; fresh-context
+allocation was unavailable. The candidate remains UNADOPTED. Stop for discussion.
 <!-- GENERATED_DEVELOPMENT_END -->
 
 ## Current next gate

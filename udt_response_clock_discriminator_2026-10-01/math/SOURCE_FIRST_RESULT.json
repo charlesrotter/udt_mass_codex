@@ -1,0 +1,145 @@
+{
+  "pass": true,
+  "context": "/root/erc_math",
+  "fresh_context": false,
+  "new_parent_argument_exposed": false,
+  "prior_exposure": "Full ERC1 mathematical/source/code/result review",
+  "python": "3.10.12",
+  "sympy": "1.13.1",
+  "checks": [
+    {
+      "name": "clock_R",
+      "residual": "0",
+      "zero": true
+    },
+    {
+      "name": "clock_Rdot",
+      "residual": "0",
+      "zero": true
+    },
+    {
+      "name": "observable_equals_original00",
+      "residual": "0",
+      "zero": true
+    },
+    {
+      "name": "off_shell_conservation",
+      "residual": "0",
+      "zero": true
+    },
+    {
+      "name": "denominator_free_equation",
+      "residual": "0",
+      "zero": true
+    },
+    {
+      "name": "turning_constraint",
+      "residual": "0",
+      "zero": true
+    },
+    {
+      "name": "constant_p_00",
+      "residual": "0",
+      "zero": true
+    },
+    {
+      "name": "constant_p_spatial",
+      "residual": "0",
+      "zero": true
+    },
+    {
+      "name": "constant_H_U",
+      "residual": "0",
+      "zero": true
+    },
+    {
+      "name": "constant_H_V",
+      "residual": "0",
+      "zero": true
+    },
+    {
+      "name": "constant_H_full00",
+      "residual": "0",
+      "zero": true
+    },
+    {
+      "name": "constant_H_fullspatial",
+      "residual": "0",
+      "zero": true
+    },
+    {
+      "name": "Fzero_full00",
+      "residual": "0",
+      "zero": true
+    },
+    {
+      "name": "Fzero_fullspatial",
+      "residual": "0",
+      "zero": true
+    },
+    {
+      "name": "Fzero_observable_affine",
+      "residual": "0",
+      "zero": true
+    },
+    {
+      "name": "flat_p_cubic",
+      "residual": "0",
+      "zero": true
+    },
+    {
+      "name": "flat_p_quartic",
+      "residual": "0",
+      "zero": true
+    },
+    {
+      "name": "flat_p_quintic",
+      "residual": "0",
+      "zero": true
+    },
+    {
+      "name": "flat_alpha_coefficient_relation",
+      "residual": "0",
+      "zero": true
+    },
+    {
+      "name": "PCC_initial_constraint",
+      "residual": "0",
+      "zero": true
+    },
+    {
+      "name": "PCC_obstruction_t4",
+      "residual": "0",
+      "zero": true
+    },
+    {
+      "name": "nonzero_cubic_metric_rejected",
+      "t4_coefficient": "27*b**2"
+    },
+    {
+      "name": "constant_V_determinant_false_pass",
+      "residual": "0",
+      "zero": true
+    },
+    {
+      "name": "constant_V_varying_U_no_constants",
+      "no_solution": true
+    }
+  ],
+  "check_count": 24,
+  "source_pin_count": 11,
+  "observable_U": "3*p1**2/p**4",
+  "observable_V": "36*p1*p3/p**6 - 18*p2**2/p**6 - 72*p1**2*p2/p**7",
+  "flat_event_p_coefficients_1_through_5": [
+    "0",
+    "0",
+    "P/36",
+    "0",
+    "-P/(4320*alpha)"
+  ],
+  "PCC_original_constraint": "-(Lambda*b**4*t**12 + 4*Lambda*b**3*t**9 + 6*Lambda*b**2*t**6 + 4*Lambda*b*t**3 + Lambda + 2430*alpha*b**4*t**8 - 1944*alpha*b**3*t**5 - 27*b**4*t**10 - 54*b**3*t**7 - 27*b**2*t**4)/(b*t**3 + 1)**4",
+  "PCC_t4_obstruction": "27*b**2",
+  "code_sha256": "067135f9a47dff85c098ab2a2c846eb7271f2ed44decea7cbe07c4217c45735c",
+  "argument_sha256": "d91988be07bcde1bbf2997d0d8d2229892ee50774eacdf88f6af2798e607dc58",
+  "limits": "Exact restricted algebra plus analytic proof in SOURCE_FIRST; no empirical data, fresh context, general4D reconstruction or physical response selection."
+}

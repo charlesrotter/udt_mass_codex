@@ -1,0 +1,24 @@
+{
+  "status": "PASS",
+  "source": "udt_environment_response_candidates_2026-10-01/CUBIC_RECOMPUTATION.json",
+  "source_sha256": "923ff593d7604b90abb6bbca7de6143ec34804d3d71e25bcf676a677fafe7bf8",
+  "code_sha256": "9f417d15b31631cf169913d0faaae40af701a80c5233ce36c1d53a21ae4dcc2e",
+  "python": "3.10.12",
+  "method": "Exact Fraction arrival recursion t_L=a(t), no old evolution or series helpers. Exposed saved artifact, not fresh prediction.",
+  "matched_saved_logp_coefficients": 13,
+  "matched_saved_logq_coefficients": 13,
+  "b3": "1/1200",
+  "b5": "-1/144000",
+  "reconstructed_alpha": "1",
+  "zero_constraint_coefficients_checked": 10,
+  "zero_shape_coefficients_checked": 9,
+  "control": {
+    "proper_a": "1+(1/1200)t^3",
+    "logp_cubic": "1/1200",
+    "logp_quintic": "0",
+    "constraint_L4_independent_alpha": "3/160000",
+    "shape_L1_independent_alpha": "1/200",
+    "rejected_for_this_equation": true
+  },
+  "limits": "Finite exact series correspondence and supported coefficients only; no finite-interval remainder bound, noisy-data calibration or native physical admission."
+}

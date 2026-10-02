@@ -1,0 +1,19 @@
+{
+  "command": [
+    "python3",
+    "udt_response_clock_discriminator_2026-10-01/fidelity/recompute_lagrange.py"
+  ],
+  "cwd": "/home/udt-admin/udt_mass_codex",
+  "started_utc": "2026-10-02T01:58:31.785402+00:00",
+  "duration_seconds": 0.8538670369889587,
+  "returncode": 0,
+  "wall_timeout_seconds": null,
+  "cpu_timeout_seconds": null,
+  "address_space_bytes": 2147483648,
+  "memory_scope": "Process virtual address limit",
+  "maxrss_kib": 53212,
+  "forwarded_signals": [],
+  "stdout_sha256": "067f7978409ed66aa48c9bb953effc0c6af44d95514ce13db6078eacee7ead2e",
+  "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "capture_sha256": "217cdbac5486e8a531552f4d74a15ce641299b65dafb5d58f7b60f4ba51781bc"
+}

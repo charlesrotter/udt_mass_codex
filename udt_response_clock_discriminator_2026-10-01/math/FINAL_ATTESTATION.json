@@ -1,24 +1,15 @@
 {
-  "status": "REVIEWED_WITH_LIMITS",
-  "utc": "2026-10-02T02:14:04.752003+00:00",
-  "scope": "RCD1 exact conditional clock discriminator and native implication audit, central R8RCD/R17RCD/R16/R18; one response-equivalence scope repair; physical law UNADOPTED. Two reused separate contexts, fresh-context allocation UNAVAILABLE/NOT PASSED. No new evolution, source, scale, action or premise adoption.",
-  "independence": "Two reused separate contexts with prior exposure; fresh allocation failed and fresh-context review is UNAVAILABLE/NOT PASSED. Source-first new-question derivations preceded exposed actual-candidate and final correspondence reviews. Shared inherited model/SymPy, independent code and saved-series implementations; parent received source-first formulas and raised scope concern before direct reviews. One controlling scope repair, no equation change or physical adoption. Reports preserve actual exposure, omissions and packaging diagnostics.",
-  "freeze": "udt_response_clock_discriminator_2026-10-01/INTEGRATION_FREEZE.json",
-  "freeze_sha256": "599409e76a10767746f737d2f41c3247c5a79f3890937f153c6c1b073e73f7fb",
-  "prior_review_record": "udt_response_clock_discriminator_2026-10-01/PRIOR_REVIEW_RECORD.json",
-  "prior_review_record_sha256": "610b65697812e0837245ea694df319452ab8302f2e5a9c0fa95084bf9d0c93f9",
-  "reviewers": [
-    {
-      "context": "/root/erc_math",
-      "attestation": "udt_response_clock_discriminator_2026-10-01/math/FINAL_ATTESTATION.json",
-      "sha256": "e26aa32b33093fcb41c293ac4891dd8e297134417ce93fdd78943f66f877b76d"
-    },
-    {
-      "context": "/root/connection_prior",
-      "attestation": "udt_response_clock_discriminator_2026-10-01/fidelity/FINAL_ATTESTATION.json",
-      "sha256": "894767b92965346e26e2b76861f325e965b2c790a93157e69848e3e2974c40eb"
-    }
-  ],
+  "utc": "2026-10-02T02:13:15.152228+00:00",
+  "context": "/root/erc_math",
+  "context_description": "Reused separate ERC1 context; RCD1 source-first new-argument reconstruction followed by exposed candidate/repair and final correspondence review. Fresh allocation unavailable.",
+  "fresh_context": false,
+  "model": "Inherited Codex model; exact backend identifier unavailable; same libraries, no different-model claim.",
+  "exposure": "Full old ERC1 review and actual new RCD1 proof/code/results/repair exposed before final integration; final prose includes peer summary metrics but no peer new proof files read.",
+  "verdict": "ACCEPT_WITH_LIMITS",
+  "report_path": "udt_response_clock_discriminator_2026-10-01/math/FINAL_REVIEW.md",
+  "report_sha256": "187fbe11ff940a87bad143de00276aae6e20cd5d8728d21dc1c7e57cb23c30c5",
+  "integration_freeze_path": "udt_response_clock_discriminator_2026-10-01/INTEGRATION_FREEZE.json",
+  "integration_freeze_sha256": "599409e76a10767746f737d2f41c3247c5a79f3890937f153c6c1b073e73f7fb",
   "accepted_sha256": {
     ".gitignore": "8a2710f5923ba86b41a461e040282ecd520ce155cb17b09458e1d1d613ddeb7a",
     "AGENTS.md": "bcab9b67305e0314af9eaf25162d203660eae8f2ff4fd87d17e83588970ef38d",
@@ -12759,5 +12750,13 @@
     "udt_time_live_smoke_gate_2026-09-30/smoke_runner.py": "724bf5405dd9596bff343a0a6967393d26a0a0c7529124e9a0bfdd70e569d52f",
     "verify_current_scientific_premises.py": "a983c2456ce3a122629a116c735b32b96e055829ed3012fb416fabfa9b0b8127",
     "verify_udt_development.py": "555e2733fa04c609874802369983f73b4a1d8a79610488d9dc732b1acfb0c2fa"
-  }
+  },
+  "correspondence_receipts_sha256": {
+    "udt_response_clock_discriminator_2026-10-01/math/check_final_integration.py": "7bafebd63c985188db346c3909cbe6cee9241dc2d9c8730ebf8cf925d3395768",
+    "udt_response_clock_discriminator_2026-10-01/math/FINAL_INTEGRATION_CHECK.json": "126d5eed3f96570c163fa955ee07ae140c59aaf5ff32687eb590ecda0fba1071",
+    "udt_response_clock_discriminator_2026-10-01/math/final_integration_capture.json": "35a7f73e074fb8f7dfd0e75efe9f7d647dbd4c956050179e06d14ca4d87f2da0",
+    "udt_response_clock_discriminator_2026-10-01/math/final_integration_capture.stdout": "126d5eed3f96570c163fa955ee07ae140c59aaf5ff32687eb590ecda0fba1071",
+    "udt_response_clock_discriminator_2026-10-01/math/final_integration_capture.stderr": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "limits": "Conditional mathematics and correspondence only; fresh review UNAVAILABLE/NOT PASSED; no physical adoption, empirical confirmation, full406 replay or predicted closure pass."
 }

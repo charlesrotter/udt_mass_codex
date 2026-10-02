@@ -1,0 +1,14 @@
+{
+  "purpose": "Late closure helpers adapted from prior ERC1 helpers; packaging only, outside scientific integration freeze, included in final banking manifest. Do not imply additional scientific review.",
+  "commands": [
+    "python3 udt_response_clock_discriminator_2026-10-01/bind_review.py",
+    "python3 udt_time_live_production_survey_2026-10-01/capture.py udt_response_clock_discriminator_2026-10-01/checks/final_normal_bound python3 verify_udt_development.py",
+    "python3 udt_time_live_production_survey_2026-10-01/capture.py udt_response_clock_discriminator_2026-10-01/checks/final_maintenance python3 development_reconstruction_2026-09-29/checks/test_maintenance.py",
+    "python3 udt_time_live_production_survey_2026-10-01/capture.py udt_response_clock_discriminator_2026-10-01/checks/final_premises_windowed env GIT_CONFIG_COUNT=2 GIT_CONFIG_KEY_0=core.packedGitWindowSize GIT_CONFIG_VALUE_0=32m GIT_CONFIG_KEY_1=core.packedGitLimit GIT_CONFIG_VALUE_1=128m python3 verify_current_scientific_premises.py"
+  ],
+  "sha256": {
+    "udt_response_clock_discriminator_2026-10-01/bind_review.py": "25a9aead8cb6ac7069b1098b96f3be2c3f5fe937849245ff164215a20fec7fea",
+    "udt_response_clock_discriminator_2026-10-01/bank.py": "1234c064a814193e0f52f031c7dab2be9a0faaf1230dff236f2ebb1069558a94",
+    "udt_response_clock_discriminator_2026-10-01/verify_commit.py": "127ceb3034e84c6e0a74eaf53008a02feb531f09f0268a1f0a40fd544d8e0924"
+  }
+}

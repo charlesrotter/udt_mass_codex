@@ -1,0 +1,8 @@
+{
+  "pass": true,
+  "J": "6*(p0**2*p4 - 8*p0*p1*p3 - p0*p2**2 + 14*p1**2*p2)/p0**7",
+  "p4_coefficient_in_J": "6/p0**5",
+  "p4_normal_form": "-(-48*alpha*p0*p1*p3 - 6*alpha*p0*p2**2 + 84*alpha*p1**2*p2 + p0**4*p2 - 2*p0**3*p1**2)/(6*alpha*p0**2)",
+  "regular_domain": "p0>0 and constant alpha!=0; unrestricted Lambda is the conserved integration datum; prescribed Lambda additionally constrains initial data.",
+  "limits": "Local smooth ODE normal form only; no global positivity, noisy inference, general PDE or physical admission."
+}

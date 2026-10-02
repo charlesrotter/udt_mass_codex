@@ -1,0 +1,48 @@
+{
+  "status": "PASS",
+  "source": "udt_environment_response_candidates_2026-10-01/CUBIC_RECOMPUTATION.json",
+  "source_sha256": "923ff593d7604b90abb6bbca7de6143ec34804d3d71e25bcf676a677fafe7bf8",
+  "code_sha256": "a65fd650a5f3b11ea2206314bd17061fa518ce836a10119ec68a4110c2ec0cbd",
+  "method": "Lagrange inversion after independent conformal-time integration; no parent recurrence/helpers",
+  "degree": 7,
+  "logp": [
+    "0",
+    "0",
+    "0",
+    "1/1200",
+    "0",
+    "-1/144000",
+    "0",
+    "1/36288000"
+  ],
+  "logq": [
+    "0",
+    "0",
+    "0",
+    "7/1200",
+    "0",
+    "-31/144000",
+    "0",
+    "127/36288000"
+  ],
+  "cubic": "1/1200",
+  "quintic": "-1/144000",
+  "inferred_alpha": "1",
+  "cubic_control": {
+    "logp": [
+      "0",
+      "0",
+      "0",
+      "1/1200",
+      "0",
+      "0",
+      "1/5760000",
+      "0"
+    ],
+    "original00_L4": "3/160000",
+    "shape_L1": "1/200"
+  },
+  "python": "3.10.12",
+  "sympy": "1.13.1",
+  "scope": "Exact finite saved-artifact recomputation; exposed; no evolution, observation, finite-interval error bound or physical admission"
+}

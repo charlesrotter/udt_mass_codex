@@ -1,7 +1,7 @@
 # UDT — continuous scientific development
 
 <!-- DEVELOPMENT_ORIENTATION_BEGIN -->
-**Continuous development — CDR1 with SGE1, LKT1, GCA1, PCW1, CES1, CCR1, PRI1, TRI1, NGD1, TDS1, TPP1, TPS1, PSW1, FPC1, FNA1, FST1, ECS1, PCC1 and ERC1, 2026-10-01.** This is the maintained
+**Continuous development — CDR1 with SGE1, LKT1, GCA1, PCW1, CES1, CCR1, PRI1, TRI1, NGD1, TDS1, TPP1, TPS1, PSW1, FPC1, FNA1, FST1, ECS1, PCC1, ERC1 and RCD1, 2026-10-01.** This is the maintained
 scientific development. It is not canon or a new scientific-grade authority.
 The exact registry and reviewed sources own grades; LIVE owns operational status.
 Current review bindings and limits are recorded in section9; startup reads the
@@ -147,6 +147,16 @@ not complete dynamical data, with Minkowski. Short CPU checks and independent
 saved-metric reviews support the declared conditional examples. Native response
 identity, source coupling, positional attribution, physical scale and empirical
 recovery remain open. Stop for discussion; no response or action is adopted.
+RCD1 derives an exact conditional clock-curve test for ERC1's derivative equation
+in its declared homogeneous/comoving sector. The flat-event cubic and fifth-order
+terms determine its coefficient independently of the free initial amplitude;
+the earlier exact cubic-only geometry fails this equation. Constant-H records
+cannot identify that coefficient. Echo doubling is protocol information, not
+independent law selection. The audited native implication remains unestablished.
+Full response identity is only a sufficient route: different tensors can impose
+the same geometry equation, and native clock predictions need not first select
+a local response. Two reused separate contexts reviewed the result; fresh-context
+allocation was unavailable. The candidate remains UNADOPTED. Stop for discussion.
 <!-- DEVELOPMENT_ORIENTATION_END -->
 
 ## 1. How this development is owned
@@ -1533,6 +1543,75 @@ an observed/physical scale or a large-distance asymptote.
 Sources: [exact conditional construction](udt_environment_response_candidates_2026-10-01/INITIAL_DERIVATION.md)
 and [reviewed evidence and limits](udt_environment_response_candidates_2026-10-01/REVIEWED_RESULT.md).
 
+<a id="r8rcd"></a>
+
+#### Testing the evolving equation with clock records — RCD1
+
+Retain R17ERC's UNADOPTED E_B equation and its explicitly imposed spatially flat
+homogeneous/isotropic metric, a(0)=1, a>0, supplied comoving proper clocks and
+regular first arrivals. Initial proper separation L is independently calibrated.
+For first emission0, L=integral_0^t du/a(u) and p(L)=a(t(L)). The derivative of
+arrival with respect to emission at fixed receiver defines the tick ratio;
+differentiation over receiver locations gives dt/dL=p here. They are different
+operations with equal values in this protocol, not arbitrary finite pulse ratios.
+With primes=d/dL and dot=(1/p)d/dL,
+
+    t(L)=integral_0^L p(s)ds, H=p'/p², R=6p''/p³,
+    Rdot=6[p'''/p⁴-3p'p''/p⁵],
+    U=3p'^2/p⁴,
+    V=36p'p'''/p⁶-18p''²/p⁶-72p'^2p''/p⁷.
+
+The original00 equation is C=U+alpha V-Lambda=0. For positive C4 p on a
+connected interval and constant alpha,Lambda, C identically zero is equivalent
+to all original homogeneous tensor equations. For their common spatial residual
+D, the off-shell identity is Cdot=-3H(C+D). On H!=0 it gives D=0. On interiors
+where H=0, a is constant and C=0 forces Lambda=0, hence D=0. All other zeros
+are limits of H!=0 points, so continuity finishes the proof. Pointwise C=0 at a
+turn is insufficient; no division by H,p',R,Rdot or F=1+2alpha R is licensed.
+
+An equivalent shape equation is K+alpha J=0, with
+
+    K=(p p''-2p'^2)/p⁴=Hdot,
+    J=6[p²p''''-8pp'p'''-p(p'')²+14p'^2p'']/p⁷
+     =2R Hdot+Rddot-H Rdot.
+
+Indeed C+D=-2(K+alpha J) and dot(U+alpha V)=6H(K+alpha J).
+For alpha!=0,p>0 this has nonzero fourth-derivative coefficient6alpha/p⁵,
+so it is a regular local fourth-order ODE. The remaining three initial
+derivatives after p0=1 encode state data; Lambda is recovered or constrains
+them if fixed separately. This is not a general PDE or global stability result.
+
+If V1!=V2, alpha=(U2-U1)/(V1-V2), Lambda=U1+alpha V1; these same constants
+must pass the entire curve. Equivalently alpha=-K/J where J!=0, with K=0
+required where J=0. Two-point fitting is not confirmation. Near-zero J or
+nearly constant V is ill-conditioned; no noise model is tested. Compatible
+constant V forces constant H, V=0 and p=1/(1-H0 L), Lambda=3H0² on its positive
+branch, so those records cannot determine alpha. The alpha=0 sector has the
+same form. Parameter ignorance and F=0 equation degeneracy are distinct issues.
+
+For the nonzero-amplitude flat-event data in R8ERC,
+
+    log p=b3 L³+b5 L⁵+O(L⁶),
+    b3=P0/36, b5=-P0/(4320alpha), alpha=-b3/(120b5).
+
+The initial amplitude cancels. By contrast, PCC1's exact supplied a=1+beta t³,
+beta!=0, has b5=0 and fails every finite constant-alpha candidate: Lambda=0
+is forced initially and the original00 residual starts27beta²t⁴ (the shape
+residual starts6beta t). Its kinematic role and initially flat curvature survive;
+this is a rejection for one equation, not a UDT countermodel or PCC1 refutation.
+
+For every positive a in this comoving sector q(L)=p(2L)/p(L) where both arrivals
+exist. Echo coefficients7b3 and31b5 are kinematic; the relation b5=-b3/(120alpha)
+is candidate-specific. Independently measured echoes can check the protocol or
+extend the sampled interval, but echoes computed from p add no independent law
+evidence. Generic comoving clocks are not PSW's parallel preparation. Imposing
+this symmetry before recovering one a(t) is not general4D metric reconstruction,
+a native event/path assignment or identification of p with presentation phi.
+
+Sources: [initial derivation](udt_response_clock_discriminator_2026-10-01/INITIAL_DERIVATION.md),
+[controlling scope repair](udt_response_clock_discriminator_2026-10-01/REPAIR.md)
+and [reviewed result](udt_response_clock_discriminator_2026-10-01/REVIEWED_RESULT.md).
+
 ## 6. Response restrictions and an optional conditional dynamics branch
 
 <a id="r9"></a>
@@ -2230,6 +2309,12 @@ X_max remains an asymptotic global-completion target: its value, realization,
 modulation, relation to operational distance and populated domain remain OPEN.
 Neither a finite diameter, a coordinate boundary nor a norm bound supplies it.
 
+RCD1's conditional coefficient recovery in R8RCD requires an informative smooth
+clock curve and an independent length/time calibration. c_E converts units;
+c_E and G_obs alone still do not choose alpha. Lambda is an integration datum
+and initial derivatives describe state. This does not establish a physical
+source scale or the absolute normalization of a response tensor.
+
 <a id="r17"></a>
 
 ### R17. Useful failed joins have precise limits
@@ -2389,6 +2474,26 @@ Sources: [fixed construction](udt_environment_response_candidates_2026-10-01/INI
 [reviewed scope and numerical limits](udt_environment_response_candidates_2026-10-01/REVIEWED_RESULT.md),
 and [method credit](udt_environment_response_candidates_2026-10-01/REFERENCES.md).
 
+
+<a id="r17rcd"></a>
+
+**Physical implication and response equivalence — RCD1.** The inspected
+owner/kernel/DDR/locality/filter/conservation/scaling chain has not justified
+ERC1's derivative equation or R8RCD's clock law as native UDT. Pair normalization
+evaluates supplied data; DDR balances a specified response; local metric
+sufficiency does not select derivative order; GR FILTER ONLY does not import
+an action. These bounded findings do not prove complete-premise insufficiency.
+
+Identifying E_physical=E_B is one sufficient route, not a necessary full-tensor
+identity or universal prerequisite for predicting clocks. For smooth nowhere-zero
+f and smooth q, TF(f E_B+qg)=f TF(E_B), so DDR has the same zero set. Variable
+f,q need not preserve off-shell conservation; constant f!=0,q preserve even
+that identity. This is an equivalence control, not a new physical candidate.
+Clock records can test the normalized equation and its relative alpha within
+this class; they cannot identify unique response normalization, pure trace,
+action or mechanism. A different justified native geometric argument may predict
+clocks without first choosing E. The [controlling repair](udt_response_clock_discriminator_2026-10-01/REPAIR.md)
+removes that unnecessary hurdle while preserving the conditional equations.
 
 **Finite clock variation.** For increasing curve labels s,t and arrival t=A(s),
 proper-clock factors N_e,N_o give Z=N_o(A)A'/N_e. Logarithmic variation is
@@ -2585,6 +2690,18 @@ The [ERC1 decision brief](udt_environment_response_candidates_2026-10-01/DECISIO
 returns the physical response-identification question for discussion. Extending
 these same numerics would not by itself justify that identification. No new
 postulate is proved necessary and no successor is launched automatically.
+
+RCD1 now supplies the concrete clock relationship in R8RCD and audits its native
+implication in R17RCD. State freedom does not make every curve pass the equation:
+the cubic-only history is excluded, while a specific fifth-order correction
+permits the flat-event candidate. The physical implication is still unestablished
+in the inspected chain. The next proposal should name a justified UDT argument
+or independently justified observation that can require, distinguish or reject
+this relationship. More compatible curves or a coefficient fitted to the same
+generated history do not do that. Response identification is one possible route,
+not a universal prerequisite. The [RCD1 decision brief](udt_response_clock_discriminator_2026-10-01/DECISION_BRIEF.md)
+returns the conditional discriminator for discussion, with no adoption or
+automatic successor. No new premise is proved necessary.
 
 NGD1's numerical return in R12N adds a validated comparison tool and finite
 nonlinear clock-shift histories. Its positive contribution relative to a specified
@@ -3318,7 +3435,7 @@ names the retained hypotheses and limits. Actual final reports/attestations and
 the current review record own the review outcome and frozen edition. No original
 scientific calculation is replayed or newly certified by this meaning update;
 existing regression, version and premise checks retain their narrower roles.
-The maintained disposition count now includes46 later returns/clarifications.
+The maintained disposition count now includes47 later returns/clarifications.
 
 ERC1 uses two fresh source-first contexts followed by exposed actual-candidate
 and final integration review, sharing the inherited model and scientific libraries.
@@ -3338,6 +3455,20 @@ branch scopes. [Execution](udt_environment_response_candidates_2026-10-01/WORK_R
 and actual final attestations bind versions and omitted work. No different-model,
 human, interval, unrestricted PDE or empirical review is claimed. Exact registry
 and CANON remain unchanged; mathematical review does not adopt the response.
+
+RCD1 uses two actual reused separate contexts after fresh-thread allocation
+failed; fresh-context review is UNAVAILABLE/NOT PASSED. Prior exposure, shared
+model/SymPy and source-first/exposed phases are recorded. The parent reconstructed
+52 original-metric identities and rational saved-series coefficients. Reviewers
+independently checked24 and34 identities, then used series reversion and Lagrange
+inversion respectively to reconstruct saved ERC1 coefficients. The parent had
+seen their source-first formulas, and flagged the response-identity issue before
+their actual assessments; neither third blind discovery nor blind objection
+origination is claimed. Both accepted the controlling scope repair. These are
+exact conditional checks, not observations, general completeness or noisy-data
+inference. No new evolution/GPU survey ran. The [descendant review](udt_response_clock_discriminator_2026-10-01/DESCENDANT_REVIEW.md)
+tracks positive and negative scope; [execution](udt_response_clock_discriminator_2026-10-01/WORK_RECORD.md)
+and actual final reports/attestations own bindings, omissions and closure status.
 
 The preserved first candidates expose the repair history. The [source correction](development_reconstruction_2026-09-29/SOURCE_CORRECTIONS.md)
 fixes a real covector-basis sign in G310; the central nine-direction span and

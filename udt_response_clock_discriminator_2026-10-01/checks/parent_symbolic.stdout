@@ -1,0 +1,12 @@
+{
+  "status": "PASS",
+  "exact_zero_assertions": 52,
+  "third_point_control": {
+    "residual": "-1",
+    "rejected": true
+  },
+  "scope": "Finite exact verification; written smooth-interval proof owns sufficiency and degeneracy, not check count.",
+  "sympy": "1.13.1",
+  "python": "3.10.12",
+  "code_sha256": "eab76e94043367b5ab3ef74755ecdbfd8ebd6c1c56d9cea5f3174946dbbfa60f"
+}

@@ -1,0 +1,33 @@
+{
+  "pass": true,
+  "exposure": "Actual new parent proof/code/results exposed; reused ERC1 context",
+  "source_sha256": "923ff593d7604b90abb6bbca7de6143ec34804d3d71e25bcf676a677fafe7bf8",
+  "code_sha256": "26fd839c1a952971d50ca2ebe158316526d2dfbcaf89073481cafdda4b86844e",
+  "b3": "1/1200",
+  "b5": "-1/144000",
+  "alpha_reconstructed": "1",
+  "logp_coefficients_0_to_7": [
+    "0",
+    "0",
+    "0",
+    "1/1200",
+    "0",
+    "-1/144000",
+    "0",
+    "1/36288000"
+  ],
+  "arrival_inverse_coefficients_2_to_7": [
+    "0",
+    "0",
+    "1/4800",
+    "0",
+    "-1/864000",
+    "1/20160000"
+  ],
+  "original00_coefficients_through_t6_zero": true,
+  "direct_shape_coefficients_through_t3_zero": true,
+  "response_rescaling_puretrace_identity": true,
+  "candidate_binding_count": 8,
+  "parent_capture_bindings_verified": true,
+  "scope": "Exact saved-artifact reconstruction and representation-equivalence control, not new physics, fresh context, empirical test or finite-interval certification."
+}
