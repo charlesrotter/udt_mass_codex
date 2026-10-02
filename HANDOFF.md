@@ -1,35 +1,31 @@
 # HANDOFF — current operational handoff
 
 <!-- STARTUP_CURRENT_BEGIN -->
-## Current handoff — ULC1 owner clarification after PCC1 and CDR1, 2026-10-01
+## Current handoff — ERC1 conditional response comparison after ULC1 and CDR1, 2026-10-01
 
-LIVE.md wins. ULC1 records Charles's subsequent clarification of universality
-in UDT_DEVELOPMENT.md D1/R8/R18. Its fixed source and bounded maintenance/review
-are under `development_reconstruction_2026-09-29/universal_law_clarification_2026-10-01/`.
-The meaning question is closed; no source equation, PCC1 adoption or successor
-dispatch is added. Charles's “test authorized” accepted the proposed isotropic
-additional clock-curvature test with two fresh reviews and a bounded repair cycle.
-Fixed WORK_ORDER.md, WORK_RECORD.md, REVIEWED_RESULT.md and DECISION_BRIEF.md are
-in `udt_positional_curvature_connection_2026-10-01/`. UDT_DEVELOPMENT.md R8/R18
-owns the maintained science. Exact406 grades in CURRENT_SCIENTIFIC_PREMISES.tsv,
-CANON and physical adoption remain unchanged; the tested hypothesis is UNADOPTED.
+LIVE.md wins. Charles authorized the two-candidate comparison, short checks,
+two fresh reviews and one bounded repair/re-review cycle. Fixed WORK_ORDER.md,
+WORK_RECORD.md, REVIEWED_RESULT.md and DECISION_BRIEF.md are in
+`udt_environment_response_candidates_2026-10-01/`. UDT_DEVELOPMENT.md
+R17ERC/R8ERC/R18 owns the maintained science; D1 retains ULC1's owner meaning.
+Exact406 grades in CURRENT_SCIENTIFIC_PREMISES.tsv and CANON remain unchanged.
+Both response identifications and the action/source choices remain UNADOPTED.
 
-PCC1's pointwise implication, regional controls and nonuniform comparison retain
-the supplied reference/matching and leading-clock limits. No native response,
-source, scale/sign, finite-distance law or empirical filter pass is selected.
-Both contexts independently reconstructed and checked before exposed candidate
-and supplement reviews. Initial trig-normalization failures, code repairs and
-diagnostic replay are preserved. No scientific-candidate repair was required.
-Prior packages keep their scopes; no new GPU or production campaign ran.
+The original scientific candidate and24 short CPU histories are retained.
+Source-first reviews precede exposed candidate and independent saved-metric
+checks. Initial checker/precision/hash failures and repairs remain preserved.
+The fourth-derivative review residuals are roundoff limited, not convergence
+certificates. No GPU or long production campaign ran; previous evidence keeps
+its original hypotheses and limits.
 
-Next: Stop for lay discussion after the ULC1 meaning clarification. No physical adoption,
-new premise or successor computation begins automatically. Two actual final
-attestations bind the integrated edition; captured normal,57-maintenance and
-full406 checks own pass status. Later sessions must verify host state; no scientific
-worker was left running at this return. Prior TPS1 raw fields and checkpoints
-remain local-only. LIVE retains all pauses and archive caveats. No-timeout direction
-persists with finite/resource/manual stops. Current version/review bindings are
-in development_reconstruction_2026-09-29/.
+Next: Stop for lay discussion at this reviewed conditional return. No physical
+adoption or successor begins automatically. Actual final attestations and captured
+normal,57-maintenance and full406 checks own review/pass status. Later sessions
+must verify host state; no scientific worker was left running at this return.
+ERC1 arrays are banked; prior TPS1 raw fields remain local-only. LIVE retains
+all pauses and archive caveats. No-timeout direction persists with finite/resource/
+manual stops. Current version/review bindings are under
+`development_reconstruction_2026-09-29/`.
 
 Protected payloads require explicit dispatch; preserve without inspecting/hashing:
 

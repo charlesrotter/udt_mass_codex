@@ -1,0 +1,74 @@
+{
+  "setting": [
+    1e-13,
+    1e-15,
+    0.025
+  ],
+  "end": 6.0,
+  "domain_stop": false,
+  "nfev": 3617,
+  "residuals": [
+    {
+      "subdivisions": 32,
+      "step": 0.1875,
+      "original_tensor_absolute": 1.1086106905741633e-08,
+      "original_tensor_normalized": 1.0288909456242013e-08,
+      "geometry_R_normalized": 2.0103342041057036e-11,
+      "metric_clock_normalized": 4.170195504642243e-13,
+      "constraint_normalized": 1.970260858593308e-17,
+      "a_min": 1.0,
+      "F_min": 1.0395508846351516
+    },
+    {
+      "subdivisions": 64,
+      "step": 0.09375,
+      "original_tensor_absolute": 2.0106638055905623e-10,
+      "original_tensor_normalized": 1.8601779604397139e-10,
+      "geometry_R_normalized": 9.071004983684867e-14,
+      "metric_clock_normalized": 4.1201966722791895e-15,
+      "constraint_normalized": 2.2995859055375952e-17,
+      "a_min": 1.0,
+      "F_min": 1.0395508846351516
+    },
+    {
+      "subdivisions": 128,
+      "step": 0.046875,
+      "original_tensor_absolute": 7.999668635849666e-12,
+      "original_tensor_normalized": 7.584958974347986e-12,
+      "geometry_R_normalized": 3.0756622398376275e-15,
+      "metric_clock_normalized": 9.129251844024251e-15,
+      "constraint_normalized": 2.2995859055375952e-17,
+      "a_min": 1.0,
+      "F_min": 1.0395508846351516
+    }
+  ],
+  "clocks": [
+    {
+      "L": 0.25,
+      "first_arrival": 0.25230554810624767,
+      "p": 1.0186939401519959,
+      "status": "BOTH_REACHED",
+      "echo_arrival": 0.5094749540099653,
+      "q": 1.0198584343551227,
+      "total": 1.0389236068904655
+    },
+    {
+      "L": 1.0,
+      "first_arrival": 1.0399972204070687,
+      "p": 1.0842870791534567,
+      "status": "BOTH_REACHED",
+      "echo_arrival": 2.177882224838087,
+      "q": 1.1034399904065701,
+      "total": 1.1964457242190583
+    },
+    {
+      "L": 2.0,
+      "first_arrival": 2.177882224838087,
+      "p": 1.1964457242190583,
+      "status": "BOTH_REACHED",
+      "echo_arrival": 4.866590083413448,
+      "q": 1.263808166830193,
+      "total": 1.5120778774371106
+    }
+  ]
+}

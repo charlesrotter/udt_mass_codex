@@ -1,0 +1,26 @@
+{
+  "utc": "2026-10-02T00:55:44.791549+00:00",
+  "verdict": "VERIFIED-WITH-CAVEATS",
+  "scope": "Direct package review; final central correspondence pending",
+  "sha256": {
+    "udt_environment_response_candidates_2026-10-01/INITIAL_DERIVATION.md": "2cb45c87f23fd12465259f43e31703a89adf281936de412274d8958bee2649b5",
+    "udt_environment_response_candidates_2026-10-01/NUMERICAL_PLAN.md": "06be676689c332c18214212d9d59bc459325d3729fcc78add51a862c7d5154e2",
+    "udt_environment_response_candidates_2026-10-01/check_candidates.py": "418949569f239341606ec71033d94b14e965506ae7be12df6878222233d1b960",
+    "udt_environment_response_candidates_2026-10-01/check_candidates_initial.py": "fe782ce617ea980b93e8d152f97c25d5699bb18bc39caa825495d556874b2521",
+    "udt_environment_response_candidates_2026-10-01/REPAIR_CHECKPOINT.json": "33f54212542bf802a3caf4e1c377966666ac2f21dcc538514f81a51efa5ebce5",
+    "udt_environment_response_candidates_2026-10-01/IMPLEMENTATION_REPAIR.json": "a129849b54630eb3f00681584babe5dbf420600707c2685e7982adbcf1326cff",
+    "udt_environment_response_candidates_2026-10-01/CUBIC_RECOMPUTATION.json": "923ff593d7604b90abb6bbca7de6143ec34804d3d71e25bcf676a677fafe7bf8",
+    "udt_environment_response_candidates_2026-10-01/PARENT_CANDIDATE_FREEZE.json": "91ce25065b42a683b9f91a8ee430216ab6aec7193d1be0bf6ba71faef1fa0a60",
+    "udt_environment_response_candidates_2026-10-01/PARENT_OUTPUT_FREEZE.json": "622053c1b29db3ff2b214457e6fa5bb0713153b0624f8cb1388c615b2a7dff46",
+    "udt_environment_response_candidates_2026-10-01/fidelity/SOURCE_FIRST_SEAL.json": "41f5c925c9a0d9e5e3e01c1b48cf59fe2d37ea1e22fe4a42213fd424342f66c8",
+    "udt_environment_response_candidates_2026-10-01/fidelity/DIRECT_PLAN.md": "cf65542e4486ddbd763bcd5a4b80fd36cdc0548b0f4f9492cdc2c93962903464",
+    "udt_environment_response_candidates_2026-10-01/fidelity/direct_checks_initial.py": "6e18e6fa8ab9a06d331907a925478ece348aadd1ec8afcc934a6423c046291f3",
+    "udt_environment_response_candidates_2026-10-01/fidelity/direct_checks.py": "40f985b966ef91c5824e3617c3225748ac403fab5da7f10f3e48250726419ba6",
+    "udt_environment_response_candidates_2026-10-01/fidelity/direct_01.json": "f4c99ea66dd7a76f05abc904e5552a701cbd3a450f0e17ec30ca1a1fb2cdb385",
+    "udt_environment_response_candidates_2026-10-01/fidelity/direct_01.stderr": "27ec88be9b86c4daa3859b2e0c05461a074a6fd1f4a2041c5658b4de76aff9dc",
+    "udt_environment_response_candidates_2026-10-01/fidelity/direct_02.json": "0cba571bef1af2b08a0fe093be9bd7a0ffde2e324e2a2460d117e0efc3325574",
+    "udt_environment_response_candidates_2026-10-01/fidelity/direct_02.stdout": "8705e81d039ff88fd733e9645a0cb84051ba543dfcc54a5c0e9346a86e1bf3f0",
+    "udt_environment_response_candidates_2026-10-01/fidelity/direct_02.stderr": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "udt_environment_response_candidates_2026-10-01/fidelity/DIRECT_REVIEW.md": "6c8ea9b975d308e7204cf51da498bc2f583f0f54c663028e4052f779c4b26114"
+  }
+}

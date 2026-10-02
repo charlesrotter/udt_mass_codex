@@ -1,0 +1,75 @@
+{
+  "status": "PASS",
+  "source_sha256": "fe86a1fa4c250658e9b2c39d4898abb50cda81f26823b9ca803a6b1da59501a1",
+  "initial_P_exact": "3/100",
+  "a_coefficients": [
+    "1",
+    "0",
+    "0",
+    "1/1200",
+    "0",
+    "-1/144000",
+    "-1/5760000",
+    "1/36288000",
+    "1/345600000",
+    "1241/15676416000000",
+    "-41/1741824000000",
+    "-34883/10346434560000000",
+    "-437/53747712000000000"
+  ],
+  "logp_coefficients": [
+    "0",
+    "0",
+    "0",
+    "1/1200",
+    "0",
+    "-1/144000",
+    "0",
+    "1/36288000",
+    "-1/691200000",
+    "-1/559872000000",
+    "1/54432000000",
+    "-31/18475776000000",
+    "-1/8957952000000"
+  ],
+  "logq_coefficients": [
+    "0",
+    "0",
+    "0",
+    "7/1200",
+    "0",
+    "-31/144000",
+    "0",
+    "127/36288000",
+    "-17/46080000",
+    "-511/559872000000",
+    "341/18144000000",
+    "-63457/18475776000000",
+    "-91/199065600000"
+  ],
+  "constraint_zero_coefficients_checked": 12,
+  "comparisons": [
+    {
+      "L": 0.125,
+      "logp_series12": 1.6273922520949225e-06,
+      "logq_series12": 1.1386661057110423e-05,
+      "saved_logp_error": 1.7822759056356635e-16,
+      "saved_logq_error": 1.3897777785369658e-16
+    },
+    {
+      "L": 0.0625,
+      "logp_series12": 2.0344389819734712e-07,
+      "logq_series12": 1.4239483538975754e-06,
+      "saved_logp_error": 6.951493518997636e-17,
+      "saved_logq_error": 1.8308235990075437e-16
+    },
+    {
+      "L": 0.03125,
+      "logp_series12": 2.5431108144395238e-08,
+      "logq_series12": 1.7801279005295187e-07,
+      "saved_logp_error": 1.374564967542605e-16,
+      "saved_logq_error": 1.541124037365588e-16
+    }
+  ],
+  "exposure": "Parent exposed reconstruction from saved initial data and clock records; separate implementation and exact arithmetic, not fresh-context review or interval certification of the truncated series."
+}

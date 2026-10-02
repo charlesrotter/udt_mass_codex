@@ -1,0 +1,24 @@
+{
+  "utc": "2026-10-02T00:54:47.658210+00:00",
+  "verdict": "VERIFIED-WITH-CAVEATS",
+  "scope": "actual candidate and bounded repair; final central integration not yet reviewed",
+  "sha256": {
+    "udt_environment_response_candidates_2026-10-01/INITIAL_DERIVATION.md": "2cb45c87f23fd12465259f43e31703a89adf281936de412274d8958bee2649b5",
+    "udt_environment_response_candidates_2026-10-01/NUMERICAL_PLAN.md": "06be676689c332c18214212d9d59bc459325d3729fcc78add51a862c7d5154e2",
+    "udt_environment_response_candidates_2026-10-01/check_candidates_initial.py": "fe782ce617ea980b93e8d152f97c25d5699bb18bc39caa825495d556874b2521",
+    "udt_environment_response_candidates_2026-10-01/check_candidates.py": "418949569f239341606ec71033d94b14e965506ae7be12df6878222233d1b960",
+    "udt_environment_response_candidates_2026-10-01/PARENT_CANDIDATE_FREEZE.json": "91ce25065b42a683b9f91a8ee430216ab6aec7193d1be0bf6ba71faef1fa0a60",
+    "udt_environment_response_candidates_2026-10-01/PARENT_OUTPUT_FREEZE.json": "622053c1b29db3ff2b214457e6fa5bb0713153b0624f8cb1388c615b2a7dff46",
+    "udt_environment_response_candidates_2026-10-01/IMPLEMENTATION_REPAIR.json": "a129849b54630eb3f00681584babe5dbf420600707c2685e7982adbcf1326cff",
+    "udt_environment_response_candidates_2026-10-01/REPAIR_CHECKPOINT.json": "33f54212542bf802a3caf4e1c377966666ac2f21dcc538514f81a51efa5ebce5",
+    "udt_environment_response_candidates_2026-10-01/CUBIC_RECOMPUTATION.json": "923ff593d7604b90abb6bbca7de6143ec34804d3d71e25bcf676a677fafe7bf8",
+    "udt_environment_response_candidates_2026-10-01/recompute_cubic.py": "e19dd230c64c4bc1bda1b18cd153160681238ef6050126062d3c329ba6ec7105",
+    "udt_environment_response_candidates_2026-10-01/math/CANDIDATE_REVIEW.md": "b026486fd910825b8ff1cf3ee3e7dd8e4cd23763a642e849ccf7d345e5eade2b",
+    "udt_environment_response_candidates_2026-10-01/math/SOURCE_FIRST_SEAL.json": "60657a4a0e83f9a8f37e731424f67495f538d2d60718b10f5409c1f869f6853f",
+    "udt_environment_response_candidates_2026-10-01/math/DIRECT_CHECK_PLAN.md": "490519af786543cc3d6e203f1d53927b03d1f0eaf755d28de864e98876c9fc60",
+    "udt_environment_response_candidates_2026-10-01/math/direct_saved_check.py": "3b2345dbc8e8a946f193b17a30f94c3453018ec48c285d157f86f999752236e3",
+    "udt_environment_response_candidates_2026-10-01/math/direct_saved_result.json": "1e75d7f7665e077975e2b20aa99052b4e81687726cb9f1aa6b9a6ae23c416d38",
+    "udt_environment_response_candidates_2026-10-01/math/check_repair.py": "2339baf4d36c92afbad7ec97e648a772f630f3a0d913e17b928363d030b8426c",
+    "udt_environment_response_candidates_2026-10-01/math/repair_result.json": "9244f18d50b45a8ce0912dccd02d705c19af7a07042afb4bc1dad34aa2e7f88e"
+  }
+}

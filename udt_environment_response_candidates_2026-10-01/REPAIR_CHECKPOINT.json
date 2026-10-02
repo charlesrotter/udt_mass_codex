@@ -1,0 +1,23 @@
+{
+  "utc": "2026-10-02T00:34:03.979451+00:00",
+  "changed_functions": [
+    "symbolic"
+  ],
+  "numeric_functions_AST_unchanged": true,
+  "compensating_error_fixture": {
+    "Ric_ij": 1,
+    "Q_ij": -1,
+    "old_sum_passes": true,
+    "each_repaired_zero_assertion_rejects": true
+  },
+  "chronology": "Repair scope and source copies preceded patched execution; this checkpoint hashes repaired code/outputs after those recorded executions.",
+  "hashes": {
+    "udt_environment_response_candidates_2026-10-01/check_candidates.py": "418949569f239341606ec71033d94b14e965506ae7be12df6878222233d1b960",
+    "udt_environment_response_candidates_2026-10-01/check_candidates_initial.py": "fe782ce617ea980b93e8d152f97c25d5699bb18bc39caa825495d556874b2521",
+    "udt_environment_response_candidates_2026-10-01/recompute_cubic.py": "e19dd230c64c4bc1bda1b18cd153160681238ef6050126062d3c329ba6ec7105",
+    "udt_environment_response_candidates_2026-10-01/recompute_cubic_initial.py": "e0d032ee5e873190a675a0d6d728d3acb752e743f5509222d797415c89a70859",
+    "udt_environment_response_candidates_2026-10-01/diagnose_fraction_initial.py": "d875096117256f9e058cd10abd0621b6a05bf12976dfecd80e0cd420e753c851",
+    "udt_environment_response_candidates_2026-10-01/CUBIC_RECOMPUTATION.json": "923ff593d7604b90abb6bbca7de6143ec34804d3d71e25bcf676a677fafe7bf8",
+    "udt_environment_response_candidates_2026-10-01/IMPLEMENTATION_REPAIR.json": "a129849b54630eb3f00681584babe5dbf420600707c2685e7982adbcf1326cff"
+  }
+}

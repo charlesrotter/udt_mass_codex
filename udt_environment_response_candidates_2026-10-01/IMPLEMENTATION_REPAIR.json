@@ -1,0 +1,19 @@
+{
+  "scope": "Source-preserving checker/precision repair; equations, cases, thresholds and initial scientific candidate unchanged.",
+  "items": {
+    "udt_environment_response_candidates_2026-10-01/check_candidates.py": {
+      "preserved_path": "udt_environment_response_candidates_2026-10-01/check_candidates_initial.py",
+      "initial_sha256": "fe782ce617ea980b93e8d152f97c25d5699bb18bc39caa825495d556874b2521"
+    },
+    "udt_environment_response_candidates_2026-10-01/recompute_cubic.py": {
+      "preserved_path": "udt_environment_response_candidates_2026-10-01/recompute_cubic_initial.py",
+      "initial_sha256": "e0d032ee5e873190a675a0d6d728d3acb752e743f5509222d797415c89a70859"
+    }
+  },
+  "defects": [
+    "Offdiagonal Ric+Q sum could mask opposite nonzero tensor errors; assert each separately.",
+    "Integer seed inverse[0]=1 produced binary float eta[1]=1.0 under division, defeating exact Fraction equality; use Fraction seeds throughout."
+  ],
+  "evidence": "Initial check capture and initial Fraction assertion failure retained. Type diagnosis showed a3=1/1200 as Fraction but eta1 as float and logp3 as float.",
+  "scientific_change": false
+}

@@ -1,0 +1,74 @@
+{
+  "setting": [
+    1e-11,
+    1e-13,
+    0.05
+  ],
+  "end": 6.0,
+  "domain_stop": false,
+  "nfev": 1817,
+  "residuals": [
+    {
+      "subdivisions": 32,
+      "step": 0.1875,
+      "original_tensor_absolute": 8.46676894220022e-09,
+      "original_tensor_normalized": 8.277445897202882e-09,
+      "geometry_R_normalized": 1.6853229690642667e-11,
+      "metric_clock_normalized": 7.408073552080596e-13,
+      "constraint_normalized": 2.1583239794750277e-18,
+      "a_min": 1.0,
+      "F_min": 0.8
+    },
+    {
+      "subdivisions": 64,
+      "step": 0.09375,
+      "original_tensor_absolute": 1.354667125003095e-10,
+      "original_tensor_normalized": 1.3214489087207461e-10,
+      "geometry_R_normalized": 6.715320197603629e-14,
+      "metric_clock_normalized": 7.422543532020616e-15,
+      "constraint_normalized": 2.5890438642725616e-18,
+      "a_min": 1.0,
+      "F_min": 0.8
+    },
+    {
+      "subdivisions": 128,
+      "step": 0.046875,
+      "original_tensor_absolute": 2.429499310063754e-12,
+      "original_tensor_normalized": 2.3573316983018755e-12,
+      "geometry_R_normalized": 5.983844515645845e-16,
+      "metric_clock_normalized": 6.168014302358855e-15,
+      "constraint_normalized": 2.5890438642725616e-18,
+      "a_min": 1.0,
+      "F_min": 0.8
+    }
+  ],
+  "clocks": [
+    {
+      "L": 0.25,
+      "first_arrival": 0.25138261477822177,
+      "p": 1.010884675539764,
+      "status": "BOTH_REACHED",
+      "echo_arrival": 0.505353194152109,
+      "q": 1.0097097501052266,
+      "total": 1.0207001131244582
+    },
+    {
+      "L": 1.0,
+      "first_arrival": 1.0199790545169087,
+      "p": 1.0370821160424344,
+      "status": "BOTH_REACHED",
+      "echo_arrival": 2.0685468620732275,
+      "q": 1.0196376079128087,
+      "total": 1.0574479280106617
+    },
+    {
+      "L": 2.0,
+      "first_arrival": 2.0685468620732275,
+      "p": 1.0574479280106617,
+      "status": "BOTH_REACHED",
+      "echo_arrival": 4.195674055556486,
+      "q": 1.0074976560154505,
+      "total": 1.0653763088291366
+    }
+  ]
+}

@@ -1,0 +1,160 @@
+{
+  "status": "PASS",
+  "versions": {
+    "python": "3.10.12",
+    "sympy": "1.13.1",
+    "numpy": "2.2.6",
+    "scipy": "1.15.3"
+  },
+  "exact_and_catch_checks": {
+    "FLRW_scalar_metric": {
+      "pass": true,
+      "residual": "0"
+    },
+    "FLRW_box_metric": {
+      "pass": true,
+      "residual": "0"
+    },
+    "FLRW_E00_original": {
+      "pass": true,
+      "residual": "0"
+    },
+    "FLRW_E11_original": {
+      "pass": true,
+      "residual": "0"
+    },
+    "FLRW_E22_original": {
+      "pass": true,
+      "residual": "0"
+    },
+    "FLRW_E33_original": {
+      "pass": true,
+      "residual": "0"
+    },
+    "FLRW_offdiagonal_01": {
+      "pass": true,
+      "residual": "0"
+    },
+    "FLRW_offdiagonal_02": {
+      "pass": true,
+      "residual": "0"
+    },
+    "FLRW_offdiagonal_03": {
+      "pass": true,
+      "residual": "0"
+    },
+    "FLRW_offdiagonal_10": {
+      "pass": true,
+      "residual": "0"
+    },
+    "FLRW_offdiagonal_12": {
+      "pass": true,
+      "residual": "0"
+    },
+    "FLRW_offdiagonal_13": {
+      "pass": true,
+      "residual": "0"
+    },
+    "FLRW_offdiagonal_20": {
+      "pass": true,
+      "residual": "0"
+    },
+    "FLRW_offdiagonal_21": {
+      "pass": true,
+      "residual": "0"
+    },
+    "FLRW_offdiagonal_23": {
+      "pass": true,
+      "residual": "0"
+    },
+    "FLRW_offdiagonal_30": {
+      "pass": true,
+      "residual": "0"
+    },
+    "FLRW_offdiagonal_31": {
+      "pass": true,
+      "residual": "0"
+    },
+    "FLRW_offdiagonal_32": {
+      "pass": true,
+      "residual": "0"
+    },
+    "FLRW_shape": {
+      "pass": true,
+      "residual": "0"
+    },
+    "FLRW_trace": {
+      "pass": true,
+      "residual": "0"
+    },
+    "FLRW_offshell_divergence": {
+      "pass": true,
+      "residual": "0"
+    },
+    "static_scalar_definition": {
+      "pass": true,
+      "residual": "0"
+    },
+    "static_E00": {
+      "pass": true,
+      "residual": "0"
+    },
+    "static_Err": {
+      "pass": true,
+      "residual": "0"
+    },
+    "static_Etangent": {
+      "pass": true,
+      "residual": "0"
+    },
+    "static_echo_product": {
+      "pass": true,
+      "residual": "0"
+    },
+    "catch_wrong_psi": {
+      "pass": true
+    },
+    "catch_omitted_hessian": {
+      "pass": true
+    }
+  },
+  "actual_affine_null_controls": [
+    {
+      "rtol": 1e-08,
+      "atol": 1e-10,
+      "gate": 1e-07,
+      "errors": {
+        "arrival": 4.2572062541879063e-10,
+        "echo": 6.660897389210163e-10,
+        "p": 1.0258198734902635e-09,
+        "q": 9.318323890283864e-12,
+        "product": 1.2053504860887188e-09,
+        "null": 1.7661889728515234e-09
+      },
+      "arrival": 0.30897323343790606,
+      "echo": 0.5458723313763614,
+      "p": 1.084618274932598,
+      "q": 1.1848641835119555,
+      "passed": true
+    },
+    {
+      "rtol": 1e-11,
+      "atol": 1e-13,
+      "gate": 1e-09,
+      "errors": {
+        "arrival": 7.827072323607354e-15,
+        "echo": 1.325606291402437e-13,
+        "p": 5.1958437552457326e-14,
+        "q": 1.9206858326015208e-13,
+        "product": 2.7000623958883807e-13,
+        "null": 3.285149929865838e-13
+      },
+      "arrival": 0.3089732330121776,
+      "echo": 0.5458723307104042,
+      "p": 1.084618275958366,
+      "q": 1.1848641835024452,
+      "passed": true
+    }
+  ],
+  "scope": "source-first conditional algebra and supplied clock protocol; no physical adoption"
+}

@@ -1,0 +1,4 @@
+Traceback (most recent call last):
+  File "/home/udt-admin/udt_mass_codex/udt_environment_response_candidates_2026-10-01/recompute_cubic.py", line 36, in <module>
+    assert logp[3]==p0/36 and logq[3]==7*p0/36
+AssertionError

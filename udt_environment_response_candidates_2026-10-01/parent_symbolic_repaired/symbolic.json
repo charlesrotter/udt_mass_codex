@@ -1,0 +1,78 @@
+{
+  "status": "PASS",
+  "exact_zero_checks": 39,
+  "checks": {
+    "metric_scalar": "0",
+    "Q_trace": "0",
+    "Q00": "0",
+    "Q11_over_a2": "0",
+    "offdiagonal_Ric_01": "0",
+    "offdiagonal_Q_01": "0",
+    "offdiagonal_Ric_02": "0",
+    "offdiagonal_Q_02": "0",
+    "offdiagonal_Ric_03": "0",
+    "offdiagonal_Q_03": "0",
+    "offdiagonal_Ric_10": "0",
+    "offdiagonal_Q_10": "0",
+    "offdiagonal_Ric_12": "0",
+    "offdiagonal_Q_12": "0",
+    "offdiagonal_Ric_13": "0",
+    "offdiagonal_Q_13": "0",
+    "offdiagonal_Ric_20": "0",
+    "offdiagonal_Q_20": "0",
+    "offdiagonal_Ric_21": "0",
+    "offdiagonal_Q_21": "0",
+    "offdiagonal_Ric_23": "0",
+    "offdiagonal_Q_23": "0",
+    "offdiagonal_Ric_30": "0",
+    "offdiagonal_Q_30": "0",
+    "offdiagonal_Ric_31": "0",
+    "offdiagonal_Q_31": "0",
+    "offdiagonal_Ric_32": "0",
+    "offdiagonal_Q_32": "0",
+    "spatial_Q_equality_2": "0",
+    "spatial_Q_equality_3": "0",
+    "constraint_propagation": "0",
+    "original_00_constraint": "0",
+    "original_spatial_constraint": "0",
+    "weak_scalar_reconstruction": "0",
+    "weak_00": "0",
+    "weak_spatial_nn": "0",
+    "weak_spatial_delta": "0",
+    "weak_null_scalar_cancellation": "0",
+    "flat_event_Hddot": "0"
+  },
+  "ricci_from_original_connection": [
+    [
+      "-3*Derivative(a(t), (t, 2))/a(t)",
+      "0",
+      "0",
+      "0"
+    ],
+    [
+      "0",
+      "a(t)*Derivative(a(t), (t, 2)) + 2*Derivative(a(t), t)**2",
+      "0",
+      "0"
+    ],
+    [
+      "0",
+      "0",
+      "a(t)*Derivative(a(t), (t, 2)) + 2*Derivative(a(t), t)**2",
+      "0"
+    ],
+    [
+      "0",
+      "0",
+      "0",
+      "a(t)*Derivative(a(t), (t, 2)) + 2*Derivative(a(t), t)**2"
+    ]
+  ],
+  "scalar_from_metric": "6*(a(t)*Derivative(a(t), (t, 2)) + Derivative(a(t), t)**2)/a(t)**2",
+  "Q00": "R(t)**2/2 - 6*R(t)*Derivative(a(t), (t, 2))/a(t) + 6*Derivative(R(t), t)*Derivative(a(t), t)/a(t)",
+  "Q11": "2*(a(t)*Derivative(a(t), (t, 2)) + 2*Derivative(a(t), t)**2)*R(t) + 2*(-Derivative(R(t), (t, 2)) - 3*Derivative(R(t), t)*Derivative(a(t), t)/a(t))*a(t)**2 - R(t)**2*a(t)**2/2 + 2*a(t)*Derivative(R(t), t)*Derivative(a(t), t)",
+  "constraint": "H**2*(6*R*alpha + 3) + 6*H*P*alpha - Lambda - R**2*alpha/2",
+  "weak_time_potential": "-A*exp(-m*r)/(6*m**2*r) - mu/r",
+  "weak_spatial_potential": "A*exp(-m*r)/(6*m**2*r) - mu/r",
+  "limits": "Finite symbolic component checks plus analytic arguments; not a complete law classification or UDT admission."
+}

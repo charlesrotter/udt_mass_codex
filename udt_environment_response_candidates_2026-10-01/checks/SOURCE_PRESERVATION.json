@@ -1,0 +1,8 @@
+{
+  "utc": "2026-10-02T01:05:25.482454+00:00",
+  "base_source_pins": "PASS, old central edition resolved at pinned base commit",
+  "preserved_original_untracked_names": 76,
+  "unchanged_code_note": "Scientific reruns not repeated after symbolic-only AST change; exact repair and independent candidate evidence retained.",
+  "bank_helper_sha256": "77eab5e5d3cf8bf00955f206757b62ddc8402803014aa05425bd87373f9c98dc",
+  "committed_verify_helper_sha256": "7d42982ba168fdf179819dd6dd200a987333bcc3425700adbd0891c2018e7e72"
+}

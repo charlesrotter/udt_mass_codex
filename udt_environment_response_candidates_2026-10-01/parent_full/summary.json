@@ -1,0 +1,1929 @@
+{
+  "mode": "full",
+  "python": "3.10.12 (main, Aug 31 2026, 10:18:17) [GCC 11.4.0]",
+  "numpy": "2.2.6",
+  "scipy": "1.15.3",
+  "sympy": "1.13.1",
+  "code_sha256": "fe782ce617ea980b93e8d152f97c25d5699bb18bc39caa825495d556874b2521",
+  "scope": "Conditional response diagnostics only; no native UDT admission or empirical fit.",
+  "status": "PASS",
+  "cases": [
+    {
+      "id": "flat",
+      "Lambda": 0.0,
+      "initial": [
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0
+      ],
+      "levels": [
+        {
+          "setting": [
+            1e-09,
+            1e-11,
+            0.1
+          ],
+          "end": 6.0,
+          "domain_stop": false,
+          "nfev": 932,
+          "residuals": [
+            {
+              "subdivisions": 32,
+              "step": 0.1875,
+              "original_tensor_absolute": 0.0,
+              "original_tensor_normalized": 0.0,
+              "geometry_R_normalized": 0.0,
+              "metric_clock_normalized": 3.770132354456261e-16,
+              "constraint_normalized": 0.0,
+              "a_min": 1.0,
+              "F_min": 1.0
+            },
+            {
+              "subdivisions": 64,
+              "step": 0.09375,
+              "original_tensor_absolute": 0.0,
+              "original_tensor_normalized": 0.0,
+              "geometry_R_normalized": 0.0,
+              "metric_clock_normalized": 7.540264708912522e-16,
+              "constraint_normalized": 0.0,
+              "a_min": 1.0,
+              "F_min": 1.0
+            },
+            {
+              "subdivisions": 128,
+              "step": 0.046875,
+              "original_tensor_absolute": 0.0,
+              "original_tensor_normalized": 0.0,
+              "geometry_R_normalized": 0.0,
+              "metric_clock_normalized": 1.5080529417825044e-15,
+              "constraint_normalized": 0.0,
+              "a_min": 1.0,
+              "F_min": 1.0
+            }
+          ],
+          "clocks": [
+            {
+              "L": 0.25,
+              "first_arrival": 0.24999999999999997,
+              "p": 1.0,
+              "status": "BOTH_REACHED",
+              "echo_arrival": 0.49999999999999994,
+              "q": 1.0,
+              "total": 1.0
+            },
+            {
+              "L": 1.0,
+              "first_arrival": 0.9999999999999999,
+              "p": 1.0,
+              "status": "BOTH_REACHED",
+              "echo_arrival": 1.9999999999999998,
+              "q": 1.0,
+              "total": 1.0
+            },
+            {
+              "L": 2.0,
+              "first_arrival": 1.9999999999999998,
+              "p": 1.0,
+              "status": "BOTH_REACHED",
+              "echo_arrival": 3.9999999999999996,
+              "q": 1.0,
+              "total": 1.0
+            }
+          ]
+        },
+        {
+          "setting": [
+            1e-11,
+            1e-13,
+            0.05
+          ],
+          "end": 6.0,
+          "domain_stop": false,
+          "nfev": 1817,
+          "residuals": [
+            {
+              "subdivisions": 32,
+              "step": 0.1875,
+              "original_tensor_absolute": 0.0,
+              "original_tensor_normalized": 0.0,
+              "geometry_R_normalized": 0.0,
+              "metric_clock_normalized": 3.770132354456261e-16,
+              "constraint_normalized": 0.0,
+              "a_min": 1.0,
+              "F_min": 1.0
+            },
+            {
+              "subdivisions": 64,
+              "step": 0.09375,
+              "original_tensor_absolute": 0.0,
+              "original_tensor_normalized": 0.0,
+              "geometry_R_normalized": 0.0,
+              "metric_clock_normalized": 7.540264708912522e-16,
+              "constraint_normalized": 0.0,
+              "a_min": 1.0,
+              "F_min": 1.0
+            },
+            {
+              "subdivisions": 128,
+              "step": 0.046875,
+              "original_tensor_absolute": 0.0,
+              "original_tensor_normalized": 0.0,
+              "geometry_R_normalized": 0.0,
+              "metric_clock_normalized": 1.5080529417825044e-15,
+              "constraint_normalized": 0.0,
+              "a_min": 1.0,
+              "F_min": 1.0
+            }
+          ],
+          "clocks": [
+            {
+              "L": 0.25,
+              "first_arrival": 0.24999999999999997,
+              "p": 1.0,
+              "status": "BOTH_REACHED",
+              "echo_arrival": 0.49999999999999994,
+              "q": 1.0,
+              "total": 1.0
+            },
+            {
+              "L": 1.0,
+              "first_arrival": 0.9999999999999999,
+              "p": 1.0,
+              "status": "BOTH_REACHED",
+              "echo_arrival": 1.9999999999999998,
+              "q": 1.0,
+              "total": 1.0
+            },
+            {
+              "L": 2.0,
+              "first_arrival": 1.9999999999999998,
+              "p": 1.0,
+              "status": "BOTH_REACHED",
+              "echo_arrival": 3.9999999999999996,
+              "q": 1.0,
+              "total": 1.0
+            }
+          ]
+        },
+        {
+          "setting": [
+            1e-13,
+            1e-15,
+            0.025
+          ],
+          "end": 6.0,
+          "domain_stop": false,
+          "nfev": 3617,
+          "residuals": [
+            {
+              "subdivisions": 32,
+              "step": 0.1875,
+              "original_tensor_absolute": 0.0,
+              "original_tensor_normalized": 0.0,
+              "geometry_R_normalized": 0.0,
+              "metric_clock_normalized": 3.770132354456261e-16,
+              "constraint_normalized": 0.0,
+              "a_min": 1.0,
+              "F_min": 1.0
+            },
+            {
+              "subdivisions": 64,
+              "step": 0.09375,
+              "original_tensor_absolute": 0.0,
+              "original_tensor_normalized": 0.0,
+              "geometry_R_normalized": 0.0,
+              "metric_clock_normalized": 7.540264708912522e-16,
+              "constraint_normalized": 0.0,
+              "a_min": 1.0,
+              "F_min": 1.0
+            },
+            {
+              "subdivisions": 128,
+              "step": 0.046875,
+              "original_tensor_absolute": 0.0,
+              "original_tensor_normalized": 0.0,
+              "geometry_R_normalized": 0.0,
+              "metric_clock_normalized": 1.5080529417825044e-15,
+              "constraint_normalized": 0.0,
+              "a_min": 1.0,
+              "F_min": 1.0
+            }
+          ],
+          "clocks": [
+            {
+              "L": 0.25,
+              "first_arrival": 0.24999999999999997,
+              "p": 1.0,
+              "status": "BOTH_REACHED",
+              "echo_arrival": 0.49999999999999994,
+              "q": 1.0,
+              "total": 1.0
+            },
+            {
+              "L": 1.0,
+              "first_arrival": 0.9999999999999999,
+              "p": 1.0,
+              "status": "BOTH_REACHED",
+              "echo_arrival": 1.9999999999999998,
+              "q": 1.0,
+              "total": 1.0
+            },
+            {
+              "L": 2.0,
+              "first_arrival": 1.9999999999999998,
+              "p": 1.0,
+              "status": "BOTH_REACHED",
+              "echo_arrival": 3.9999999999999996,
+              "q": 1.0,
+              "total": 1.0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "constant_positive",
+      "Lambda": 0.01,
+      "initial": [
+        0.057735026918962574,
+        0.04,
+        0.0,
+        1.0,
+        0.0
+      ],
+      "levels": [
+        {
+          "setting": [
+            1e-09,
+            1e-11,
+            0.1
+          ],
+          "end": 6.0,
+          "domain_stop": false,
+          "nfev": 917,
+          "residuals": [
+            {
+              "subdivisions": 32,
+              "step": 0.1875,
+              "original_tensor_absolute": 3.7539416020138106e-15,
+              "original_tensor_normalized": 3.680334903935095e-15,
+              "geometry_R_normalized": 6.004812032227409e-17,
+              "metric_clock_normalized": 1.1353253597379318e-15,
+              "constraint_normalized": 0.0,
+              "a_min": 1.0,
+              "F_min": 1.08
+            },
+            {
+              "subdivisions": 64,
+              "step": 0.09375,
+              "original_tensor_absolute": 2.9183253036357826e-14,
+              "original_tensor_normalized": 2.8611032388585285e-14,
+              "geometry_R_normalized": 1.0675221390626504e-16,
+              "metric_clock_normalized": 3.219143124927714e-15,
+              "constraint_normalized": 0.0,
+              "a_min": 1.0,
+              "F_min": 1.08
+            },
+            {
+              "subdivisions": 128,
+              "step": 0.046875,
+              "original_tensor_absolute": 2.303331136932485e-13,
+              "original_tensor_normalized": 2.258167781305848e-13,
+              "geometry_R_normalized": 2.2017644118167166e-16,
+              "metric_clock_normalized": 4.977172494730709e-15,
+              "constraint_normalized": 0.0,
+              "a_min": 1.0,
+              "F_min": 1.08
+            }
+          ],
+          "clocks": [
+            {
+              "L": 0.25,
+              "first_arrival": 0.2518217708384381,
+              "p": 1.0146451411341437,
+              "status": "BOTH_REACHED",
+              "echo_arrival": 0.5073588454438367,
+              "q": 1.0148628090706329,
+              "total": 1.0297256181412657
+            },
+            {
+              "L": 1.0,
+              "first_arrival": 1.03002907180473,
+              "p": 1.061272602259829,
+              "status": "BOTH_REACHED",
+              "echo_arrival": 2.125207450380978,
+              "q": 1.0652719867421916,
+              "total": 1.1305439734843836
+            },
+            {
+              "L": 2.0,
+              "first_arrival": 2.125207450380978,
+              "p": 1.1305439734843836,
+              "status": "BOTH_REACHED",
+              "echo_arrival": 4.548130366188357,
+              "q": 1.1501444230682307,
+              "total": 1.3002888461364615
+            }
+          ]
+        },
+        {
+          "setting": [
+            1e-11,
+            1e-13,
+            0.05
+          ],
+          "end": 6.0,
+          "domain_stop": false,
+          "nfev": 1817,
+          "residuals": [
+            {
+              "subdivisions": 32,
+              "step": 0.1875,
+              "original_tensor_absolute": 3.7539416020138106e-15,
+              "original_tensor_normalized": 3.680334903935095e-15,
+              "geometry_R_normalized": 6.004812032227409e-17,
+              "metric_clock_normalized": 1.319880419775587e-15,
+              "constraint_normalized": 0.0,
+              "a_min": 1.0,
+              "F_min": 1.08
+            },
+            {
+              "subdivisions": 64,
+              "step": 0.09375,
+              "original_tensor_absolute": 2.9183253036357826e-14,
+              "original_tensor_normalized": 2.8611032388585285e-14,
+              "geometry_R_normalized": 1.0675221390626504e-16,
+              "metric_clock_normalized": 2.7963884174374484e-15,
+              "constraint_normalized": 0.0,
+              "a_min": 1.0,
+              "F_min": 1.08
+            },
+            {
+              "subdivisions": 128,
+              "step": 0.046875,
+              "original_tensor_absolute": 2.303331136932485e-13,
+              "original_tensor_normalized": 2.258167781305848e-13,
+              "geometry_R_normalized": 2.2017644118167166e-16,
+              "metric_clock_normalized": 6.575817086607918e-15,
+              "constraint_normalized": 0.0,
+              "a_min": 1.0,
+              "F_min": 1.08
+            }
+          ],
+          "clocks": [
+            {
+              "L": 0.25,
+              "first_arrival": 0.25182177083843815,
+              "p": 1.0146451411341435,
+              "status": "BOTH_REACHED",
+              "echo_arrival": 0.507358845443837,
+              "q": 1.0148628090706329,
+              "total": 1.0297256181412655
+            },
+            {
+              "L": 1.0,
+              "first_arrival": 1.0300290718047302,
+              "p": 1.0612726022598284,
+              "status": "BOTH_REACHED",
+              "echo_arrival": 2.125207450380979,
+              "q": 1.0652719867421916,
+              "total": 1.1305439734843832
+            },
+            {
+              "L": 2.0,
+              "first_arrival": 2.125207450380979,
+              "p": 1.1305439734843832,
+              "status": "BOTH_REACHED",
+              "echo_arrival": 4.548130366188358,
+              "q": 1.1501444230682305,
+              "total": 1.3002888461364608
+            }
+          ]
+        },
+        {
+          "setting": [
+            1e-13,
+            1e-15,
+            0.025
+          ],
+          "end": 6.0,
+          "domain_stop": false,
+          "nfev": 3617,
+          "residuals": [
+            {
+              "subdivisions": 32,
+              "step": 0.1875,
+              "original_tensor_absolute": 3.7539416020138106e-15,
+              "original_tensor_normalized": 3.680334903935095e-15,
+              "geometry_R_normalized": 6.004812032227409e-17,
+              "metric_clock_normalized": 1.4611458091059842e-15,
+              "constraint_normalized": 0.0,
+              "a_min": 1.0,
+              "F_min": 1.08
+            },
+            {
+              "subdivisions": 64,
+              "step": 0.09375,
+              "original_tensor_absolute": 2.9183253036357826e-14,
+              "original_tensor_normalized": 2.8611032388585285e-14,
+              "geometry_R_normalized": 1.0675221390626504e-16,
+              "metric_clock_normalized": 3.5322854917465886e-15,
+              "constraint_normalized": 0.0,
+              "a_min": 1.0,
+              "F_min": 1.08
+            },
+            {
+              "subdivisions": 128,
+              "step": 0.046875,
+              "original_tensor_absolute": 2.303331136932485e-13,
+              "original_tensor_normalized": 2.258167781305848e-13,
+              "geometry_R_normalized": 2.2017644118167166e-16,
+              "metric_clock_normalized": 6.749542896527472e-15,
+              "constraint_normalized": 0.0,
+              "a_min": 1.0,
+              "F_min": 1.08
+            }
+          ],
+          "clocks": [
+            {
+              "L": 0.25,
+              "first_arrival": 0.2518217708384382,
+              "p": 1.0146451411341435,
+              "status": "BOTH_REACHED",
+              "echo_arrival": 0.507358845443837,
+              "q": 1.014862809070633,
+              "total": 1.0297256181412657
+            },
+            {
+              "L": 1.0,
+              "first_arrival": 1.03002907180473,
+              "p": 1.0612726022598284,
+              "status": "BOTH_REACHED",
+              "echo_arrival": 2.1252074503809775,
+              "q": 1.065271986742192,
+              "total": 1.1305439734843836
+            },
+            {
+              "L": 2.0,
+              "first_arrival": 2.1252074503809775,
+              "p": 1.1305439734843836,
+              "status": "BOTH_REACHED",
+              "echo_arrival": 4.548130366188358,
+              "q": 1.1501444230682312,
+              "total": 1.3002888461364621
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "positive_curvature",
+      "Lambda": 0.0,
+      "initial": [
+        0.0372677996249965,
+        0.1,
+        0.0,
+        1.0,
+        0.0
+      ],
+      "levels": [
+        {
+          "setting": [
+            1e-09,
+            1e-11,
+            0.1
+          ],
+          "end": 6.0,
+          "domain_stop": false,
+          "nfev": 917,
+          "residuals": [
+            {
+              "subdivisions": 32,
+              "step": 0.1875,
+              "original_tensor_absolute": 1.0391059575287631e-08,
+              "original_tensor_normalized": 9.850203428315298e-09,
+              "geometry_R_normalized": 1.9628232902557318e-11,
+              "metric_clock_normalized": 9.376042776328285e-13,
+              "constraint_normalized": 5.0876755450916706e-18,
+              "a_min": 1.0,
+              "F_min": 0.9288526359781082
+            },
+            {
+              "subdivisions": 64,
+              "step": 0.09375,
+              "original_tensor_absolute": 1.6531408533748682e-10,
+              "original_tensor_normalized": 1.5670946491533754e-10,
+              "geometry_R_normalized": 7.790961583998604e-14,
+              "metric_clock_normalized": 5.275100674342188e-15,
+              "constraint_normalized": 5.0876755450916706e-18,
+              "a_min": 1.0,
+              "F_min": 0.9288526359781082
+            },
+            {
+              "subdivisions": 128,
+              "step": 0.046875,
+              "original_tensor_absolute": 5.099309863254575e-12,
+              "original_tensor_normalized": 4.8624014012895705e-12,
+              "geometry_R_normalized": 1.5901777066254747e-15,
+              "metric_clock_normalized": 6.8752402328965206e-15,
+              "constraint_normalized": 5.0876755450916706e-18,
+              "a_min": 1.0,
+              "F_min": 0.9288526359781082
+            }
+          ],
+          "clocks": [
+            {
+              "L": 0.25,
+              "first_arrival": 0.2512083098841858,
+              "p": 1.0098423365402276,
+              "status": "BOTH_REACHED",
+              "echo_arrival": 0.505010064874609,
+              "q": 1.0108025157767522,
+              "total": 1.0207511743127358
+            },
+            {
+              "L": 1.0,
+              "first_arrival": 1.021473290570284,
+              "p": 1.0458304891254366,
+              "status": "BOTH_REACHED",
+              "echo_arrival": 2.0974502726577002,
+              "q": 1.0603433053538054,
+              "total": 1.1089393576790525
+            },
+            {
+              "L": 2.0,
+              "first_arrival": 2.0974502726577002,
+              "p": 1.1089393576790525,
+              "status": "BOTH_REACHED",
+              "echo_arrival": 4.475423860753629,
+              "q": 1.1500735720835495,
+              "total": 1.275361848309985
+            }
+          ]
+        },
+        {
+          "setting": [
+            1e-11,
+            1e-13,
+            0.05
+          ],
+          "end": 6.0,
+          "domain_stop": false,
+          "nfev": 1817,
+          "residuals": [
+            {
+              "subdivisions": 32,
+              "step": 0.1875,
+              "original_tensor_absolute": 1.0391064033526964e-08,
+              "original_tensor_normalized": 9.85020765450259e-09,
+              "geometry_R_normalized": 1.962852570013319e-11,
+              "metric_clock_normalized": 9.366975356745493e-13,
+              "constraint_normalized": 8.535814356739154e-18,
+              "a_min": 1.0,
+              "F_min": 0.9288526359781082
+            },
+            {
+              "subdivisions": 64,
+              "step": 0.09375,
+              "original_tensor_absolute": 1.6530574131756737e-10,
+              "original_tensor_normalized": 1.5670155520278065e-10,
+              "geometry_R_normalized": 7.818968308646964e-14,
+              "metric_clock_normalized": 5.699992129744783e-15,
+              "constraint_normalized": 8.535814356739154e-18,
+              "a_min": 1.0,
+              "F_min": 0.9288526359781082
+            },
+            {
+              "subdivisions": 128,
+              "step": 0.046875,
+              "original_tensor_absolute": 5.251785117899033e-12,
+              "original_tensor_normalized": 4.975559028495231e-12,
+              "geometry_R_normalized": 1.7119427706816386e-15,
+              "metric_clock_normalized": 6.90128280953628e-15,
+              "constraint_normalized": 8.559289610031062e-18,
+              "a_min": 1.0,
+              "F_min": 0.9288526359781082
+            }
+          ],
+          "clocks": [
+            {
+              "L": 0.25,
+              "first_arrival": 0.25120830988418574,
+              "p": 1.0098423365402274,
+              "status": "BOTH_REACHED",
+              "echo_arrival": 0.5050100648746089,
+              "q": 1.0108025157767522,
+              "total": 1.0207511743127355
+            },
+            {
+              "L": 1.0,
+              "first_arrival": 1.021473290570284,
+              "p": 1.0458304891254369,
+              "status": "BOTH_REACHED",
+              "echo_arrival": 2.097450272657701,
+              "q": 1.060343305353805,
+              "total": 1.1089393576790523
+            },
+            {
+              "L": 2.0,
+              "first_arrival": 2.097450272657701,
+              "p": 1.1089393576790523,
+              "status": "BOTH_REACHED",
+              "echo_arrival": 4.4754238607536285,
+              "q": 1.15007357208355,
+              "total": 1.2753618483099851
+            }
+          ]
+        },
+        {
+          "setting": [
+            1e-13,
+            1e-15,
+            0.025
+          ],
+          "end": 6.0,
+          "domain_stop": false,
+          "nfev": 3617,
+          "residuals": [
+            {
+              "subdivisions": 32,
+              "step": 0.1875,
+              "original_tensor_absolute": 1.0391050263292012e-08,
+              "original_tensor_normalized": 9.850194601010479e-09,
+              "geometry_R_normalized": 1.962828382387486e-11,
+              "metric_clock_normalized": 9.364989790413495e-13,
+              "constraint_normalized": 8.52803967746745e-18,
+              "a_min": 1.0,
+              "F_min": 0.9288526359781083
+            },
+            {
+              "subdivisions": 64,
+              "step": 0.09375,
+              "original_tensor_absolute": 1.649440306561445e-10,
+              "original_tensor_normalized": 1.5635867163008834e-10,
+              "geometry_R_normalized": 7.805131074980238e-14,
+              "metric_clock_normalized": 5.595348565785343e-15,
+              "constraint_normalized": 1.0170255193429152e-17,
+              "a_min": 1.0,
+              "F_min": 0.9288526359781083
+            },
+            {
+              "subdivisions": 128,
+              "step": 0.046875,
+              "original_tensor_absolute": 5.322440405075568e-12,
+              "original_tensor_normalized": 5.051475780078639e-12,
+              "geometry_R_normalized": 1.5979583864186965e-15,
+              "metric_clock_normalized": 8.001826321651687e-15,
+              "constraint_normalized": 1.0177791168023063e-17,
+              "a_min": 1.0,
+              "F_min": 0.9288526359781083
+            }
+          ],
+          "clocks": [
+            {
+              "L": 0.25,
+              "first_arrival": 0.25120830988418574,
+              "p": 1.0098423365402274,
+              "status": "BOTH_REACHED",
+              "echo_arrival": 0.5050100648746088,
+              "q": 1.010802515776752,
+              "total": 1.0207511743127353
+            },
+            {
+              "L": 1.0,
+              "first_arrival": 1.0214732905702835,
+              "p": 1.0458304891254366,
+              "status": "BOTH_REACHED",
+              "echo_arrival": 2.0974502726577002,
+              "q": 1.0603433053538058,
+              "total": 1.108939357679053
+            },
+            {
+              "L": 2.0,
+              "first_arrival": 2.0974502726577002,
+              "p": 1.108939357679053,
+              "status": "BOTH_REACHED",
+              "echo_arrival": 4.4754238607536285,
+              "q": 1.1500735720835489,
+              "total": 1.2753618483099847
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "negative_curvature",
+      "Lambda": 0.0,
+      "initial": [
+        0.045643546458763846,
+        -0.1,
+        0.0,
+        1.0,
+        0.0
+      ],
+      "levels": [
+        {
+          "setting": [
+            1e-09,
+            1e-11,
+            0.1
+          ],
+          "end": 6.0,
+          "domain_stop": false,
+          "nfev": 917,
+          "residuals": [
+            {
+              "subdivisions": 32,
+              "step": 0.1875,
+              "original_tensor_absolute": 8.466761665035238e-09,
+              "original_tensor_normalized": 8.277438782760604e-09,
+              "geometry_R_normalized": 1.6853169313246906e-11,
+              "metric_clock_normalized": 7.412222805470651e-13,
+              "constraint_normalized": 2.3621639986058623e-18,
+              "a_min": 1.0,
+              "F_min": 0.8
+            },
+            {
+              "subdivisions": 64,
+              "step": 0.09375,
+              "original_tensor_absolute": 1.3538814340463556e-10,
+              "original_tensor_normalized": 1.320682483937805e-10,
+              "geometry_R_normalized": 6.709302286443774e-14,
+              "metric_clock_normalized": 6.053142125454067e-15,
+              "constraint_normalized": 2.3621639986058623e-18,
+              "a_min": 1.0,
+              "F_min": 0.8
+            },
+            {
+              "subdivisions": 128,
+              "step": 0.046875,
+              "original_tensor_absolute": 3.327636777239462e-12,
+              "original_tensor_normalized": 3.1013600721806163e-12,
+              "geometry_R_normalized": 1.2495152660307214e-15,
+              "metric_clock_normalized": 4.976796630045489e-15,
+              "constraint_normalized": 2.577413574540615e-18,
+              "a_min": 1.0,
+              "F_min": 0.8
+            }
+          ],
+          "clocks": [
+            {
+              "L": 0.25,
+              "first_arrival": 0.2513826147782219,
+              "p": 1.0108846755397638,
+              "status": "BOTH_REACHED",
+              "echo_arrival": 0.5053531941521088,
+              "q": 1.0097097501052266,
+              "total": 1.020700113124458
+            },
+            {
+              "L": 1.0,
+              "first_arrival": 1.0199790545169087,
+              "p": 1.0370821160424337,
+              "status": "BOTH_REACHED",
+              "echo_arrival": 2.068546862073227,
+              "q": 1.0196376079128087,
+              "total": 1.057447928010661
+            },
+            {
+              "L": 2.0,
+              "first_arrival": 2.068546862073227,
+              "p": 1.057447928010661,
+              "status": "BOTH_REACHED",
+              "echo_arrival": 4.195674055556483,
+              "q": 1.0074976560154505,
+              "total": 1.0653763088291357
+            }
+          ]
+        },
+        {
+          "setting": [
+            1e-11,
+            1e-13,
+            0.05
+          ],
+          "end": 6.0,
+          "domain_stop": false,
+          "nfev": 1817,
+          "residuals": [
+            {
+              "subdivisions": 32,
+              "step": 0.1875,
+              "original_tensor_absolute": 8.46676894220022e-09,
+              "original_tensor_normalized": 8.277445897202882e-09,
+              "geometry_R_normalized": 1.6853229690642667e-11,
+              "metric_clock_normalized": 7.408073552080596e-13,
+              "constraint_normalized": 2.1583239794750277e-18,
+              "a_min": 1.0,
+              "F_min": 0.8
+            },
+            {
+              "subdivisions": 64,
+              "step": 0.09375,
+              "original_tensor_absolute": 1.354667125003095e-10,
+              "original_tensor_normalized": 1.3214489087207461e-10,
+              "geometry_R_normalized": 6.715320197603629e-14,
+              "metric_clock_normalized": 7.422543532020616e-15,
+              "constraint_normalized": 2.5890438642725616e-18,
+              "a_min": 1.0,
+              "F_min": 0.8
+            },
+            {
+              "subdivisions": 128,
+              "step": 0.046875,
+              "original_tensor_absolute": 2.429499310063754e-12,
+              "original_tensor_normalized": 2.3573316983018755e-12,
+              "geometry_R_normalized": 5.983844515645845e-16,
+              "metric_clock_normalized": 6.168014302358855e-15,
+              "constraint_normalized": 2.5890438642725616e-18,
+              "a_min": 1.0,
+              "F_min": 0.8
+            }
+          ],
+          "clocks": [
+            {
+              "L": 0.25,
+              "first_arrival": 0.25138261477822177,
+              "p": 1.010884675539764,
+              "status": "BOTH_REACHED",
+              "echo_arrival": 0.505353194152109,
+              "q": 1.0097097501052266,
+              "total": 1.0207001131244582
+            },
+            {
+              "L": 1.0,
+              "first_arrival": 1.0199790545169087,
+              "p": 1.0370821160424344,
+              "status": "BOTH_REACHED",
+              "echo_arrival": 2.0685468620732275,
+              "q": 1.0196376079128087,
+              "total": 1.0574479280106617
+            },
+            {
+              "L": 2.0,
+              "first_arrival": 2.0685468620732275,
+              "p": 1.0574479280106617,
+              "status": "BOTH_REACHED",
+              "echo_arrival": 4.195674055556486,
+              "q": 1.0074976560154505,
+              "total": 1.0653763088291366
+            }
+          ]
+        },
+        {
+          "setting": [
+            1e-13,
+            1e-15,
+            0.025
+          ],
+          "end": 6.0,
+          "domain_stop": false,
+          "nfev": 3617,
+          "residuals": [
+            {
+              "subdivisions": 32,
+              "step": 0.1875,
+              "original_tensor_absolute": 8.466776103138729e-09,
+              "original_tensor_normalized": 8.277452898017598e-09,
+              "geometry_R_normalized": 1.6853236399242192e-11,
+              "metric_clock_normalized": 7.408660140917446e-13,
+              "constraint_normalized": 1.1615240694392747e-17,
+              "a_min": 1.0,
+              "F_min": 0.8
+            },
+            {
+              "subdivisions": 64,
+              "step": 0.09375,
+              "original_tensor_absolute": 1.3549625137165844e-10,
+              "original_tensor_normalized": 1.3217370541151624e-10,
+              "geometry_R_normalized": 6.721338108763485e-14,
+              "metric_clock_normalized": 4.660455178252666e-15,
+              "constraint_normalized": 1.1615240694392747e-17,
+              "a_min": 1.0,
+              "F_min": 0.8
+            },
+            {
+              "subdivisions": 128,
+              "step": 0.046875,
+              "original_tensor_absolute": 2.3922946956744795e-12,
+              "original_tensor_normalized": 2.323648878934181e-12,
+              "geometry_R_normalized": 1.797178359395039e-15,
+              "metric_clock_normalized": 6.37563125692852e-15,
+              "constraint_normalized": 1.2054670268494348e-17,
+              "a_min": 1.0,
+              "F_min": 0.8
+            }
+          ],
+          "clocks": [
+            {
+              "L": 0.25,
+              "first_arrival": 0.2513826147782217,
+              "p": 1.010884675539764,
+              "status": "BOTH_REACHED",
+              "echo_arrival": 0.5053531941521089,
+              "q": 1.0097097501052266,
+              "total": 1.0207001131244582
+            },
+            {
+              "L": 1.0,
+              "first_arrival": 1.0199790545169085,
+              "p": 1.0370821160424342,
+              "status": "BOTH_REACHED",
+              "echo_arrival": 2.0685468620732275,
+              "q": 1.019637607912808,
+              "total": 1.0574479280106608
+            },
+            {
+              "L": 2.0,
+              "first_arrival": 2.0685468620732275,
+              "p": 1.0574479280106608,
+              "status": "BOTH_REACHED",
+              "echo_arrival": 4.195674055556483,
+              "q": 1.0074976560154498,
+              "total": 1.0653763088291348
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "positive_offset",
+      "Lambda": 0.01,
+      "initial": [
+        0.07180703308172535,
+        0.14,
+        0.0,
+        1.0,
+        0.0
+      ],
+      "levels": [
+        {
+          "setting": [
+            1e-09,
+            1e-11,
+            0.1
+          ],
+          "end": 6.0,
+          "domain_stop": false,
+          "nfev": 917,
+          "residuals": [
+            {
+              "subdivisions": 32,
+              "step": 0.1875,
+              "original_tensor_absolute": 1.1086143182278962e-08,
+              "original_tensor_normalized": 1.0288943124147915e-08,
+              "geometry_R_normalized": 2.0103195393568603e-11,
+              "metric_clock_normalized": 4.1718581090388556e-13,
+              "constraint_normalized": 1.6433426488527532e-17,
+              "a_min": 1.0,
+              "F_min": 1.0395508846351516
+            },
+            {
+              "subdivisions": 64,
+              "step": 0.09375,
+              "original_tensor_absolute": 2.0161790119377354e-10,
+              "original_tensor_normalized": 1.865280387441109e-10,
+              "geometry_R_normalized": 9.131933281533369e-14,
+              "metric_clock_normalized": 3.962720712319625e-15,
+              "constraint_normalized": 1.808650842779369e-17,
+              "a_min": 1.0,
+              "F_min": 1.0395508846351516
+            },
+            {
+              "subdivisions": 128,
+              "step": 0.046875,
+              "original_tensor_absolute": 9.331332581630214e-12,
+              "original_tensor_normalized": 8.642068641817271e-12,
+              "geometry_R_normalized": 2.581836584172457e-15,
+              "metric_clock_normalized": 6.660416291776806e-15,
+              "constraint_normalized": 1.811583215364012e-17,
+              "a_min": 1.0,
+              "F_min": 1.0395508846351516
+            }
+          ],
+          "clocks": [
+            {
+              "L": 0.25,
+              "first_arrival": 0.252305548106248,
+              "p": 1.0186939401519959,
+              "status": "BOTH_REACHED",
+              "echo_arrival": 0.5094749540099657,
+              "q": 1.0198584343551225,
+              "total": 1.0389236068904653
+            },
+            {
+              "L": 1.0,
+              "first_arrival": 1.0399972204070695,
+              "p": 1.084287079153457,
+              "status": "BOTH_REACHED",
+              "echo_arrival": 2.1778822248380902,
+              "q": 1.1034399904065701,
+              "total": 1.1964457242190585
+            },
+            {
+              "L": 2.0,
+              "first_arrival": 2.1778822248380902,
+              "p": 1.1964457242190585,
+              "status": "BOTH_REACHED",
+              "echo_arrival": 4.866590083413452,
+              "q": 1.2638081668301937,
+              "total": 1.5120778774371118
+            }
+          ]
+        },
+        {
+          "setting": [
+            1e-11,
+            1e-13,
+            0.05
+          ],
+          "end": 6.0,
+          "domain_stop": false,
+          "nfev": 1817,
+          "residuals": [
+            {
+              "subdivisions": 32,
+              "step": 0.1875,
+              "original_tensor_absolute": 1.1086145437419481e-08,
+              "original_tensor_normalized": 1.0288945217122173e-08,
+              "geometry_R_normalized": 2.010307318732824e-11,
+              "metric_clock_normalized": 4.1423149078375077e-13,
+              "constraint_normalized": 1.6399479705744393e-17,
+              "a_min": 1.0,
+              "F_min": 1.0395508846351516
+            },
+            {
+              "subdivisions": 64,
+              "step": 0.09375,
+              "original_tensor_absolute": 2.0078306205151275e-10,
+              "original_tensor_normalized": 1.8575568218786385e-10,
+              "geometry_R_normalized": 9.049070796459408e-14,
+              "metric_clock_normalized": 5.0617751073700664e-15,
+              "constraint_normalized": 1.6399479705744393e-17,
+              "a_min": 1.0,
+              "F_min": 1.0395508846351516
+            },
+            {
+              "subdivisions": 128,
+              "step": 0.046875,
+              "original_tensor_absolute": 9.047476309809177e-12,
+              "original_tensor_normalized": 8.379179567399716e-12,
+              "geometry_R_normalized": 2.9081861115342255e-15,
+              "metric_clock_normalized": 6.222622269688834e-15,
+              "constraint_normalized": 1.821367171006356e-17,
+              "a_min": 1.0,
+              "F_min": 1.0395508846351516
+            }
+          ],
+          "clocks": [
+            {
+              "L": 0.25,
+              "first_arrival": 0.2523055481062479,
+              "p": 1.0186939401519959,
+              "status": "BOTH_REACHED",
+              "echo_arrival": 0.5094749540099655,
+              "q": 1.0198584343551227,
+              "total": 1.0389236068904655
+            },
+            {
+              "L": 1.0,
+              "first_arrival": 1.039997220407069,
+              "p": 1.0842870791534573,
+              "status": "BOTH_REACHED",
+              "echo_arrival": 2.177882224838089,
+              "q": 1.1034399904065701,
+              "total": 1.196445724219059
+            },
+            {
+              "L": 2.0,
+              "first_arrival": 2.177882224838089,
+              "p": 1.196445724219059,
+              "status": "BOTH_REACHED",
+              "echo_arrival": 4.866590083413447,
+              "q": 1.2638081668301926,
+              "total": 1.512077877437111
+            }
+          ]
+        },
+        {
+          "setting": [
+            1e-13,
+            1e-15,
+            0.025
+          ],
+          "end": 6.0,
+          "domain_stop": false,
+          "nfev": 3617,
+          "residuals": [
+            {
+              "subdivisions": 32,
+              "step": 0.1875,
+              "original_tensor_absolute": 1.1086106905741633e-08,
+              "original_tensor_normalized": 1.0288909456242013e-08,
+              "geometry_R_normalized": 2.0103342041057036e-11,
+              "metric_clock_normalized": 4.170195504642243e-13,
+              "constraint_normalized": 1.970260858593308e-17,
+              "a_min": 1.0,
+              "F_min": 1.0395508846351516
+            },
+            {
+              "subdivisions": 64,
+              "step": 0.09375,
+              "original_tensor_absolute": 2.0106638055905623e-10,
+              "original_tensor_normalized": 1.8601779604397139e-10,
+              "geometry_R_normalized": 9.071004983684867e-14,
+              "metric_clock_normalized": 4.1201966722791895e-15,
+              "constraint_normalized": 2.2995859055375952e-17,
+              "a_min": 1.0,
+              "F_min": 1.0395508846351516
+            },
+            {
+              "subdivisions": 128,
+              "step": 0.046875,
+              "original_tensor_absolute": 7.999668635849666e-12,
+              "original_tensor_normalized": 7.584958974347986e-12,
+              "geometry_R_normalized": 3.0756622398376275e-15,
+              "metric_clock_normalized": 9.129251844024251e-15,
+              "constraint_normalized": 2.2995859055375952e-17,
+              "a_min": 1.0,
+              "F_min": 1.0395508846351516
+            }
+          ],
+          "clocks": [
+            {
+              "L": 0.25,
+              "first_arrival": 0.25230554810624767,
+              "p": 1.0186939401519959,
+              "status": "BOTH_REACHED",
+              "echo_arrival": 0.5094749540099653,
+              "q": 1.0198584343551227,
+              "total": 1.0389236068904655
+            },
+            {
+              "L": 1.0,
+              "first_arrival": 1.0399972204070687,
+              "p": 1.0842870791534567,
+              "status": "BOTH_REACHED",
+              "echo_arrival": 2.177882224838087,
+              "q": 1.1034399904065701,
+              "total": 1.1964457242190583
+            },
+            {
+              "L": 2.0,
+              "first_arrival": 2.177882224838087,
+              "p": 1.1964457242190583,
+              "status": "BOTH_REACHED",
+              "echo_arrival": 4.866590083413448,
+              "q": 1.263808166830193,
+              "total": 1.5120778774371106
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "negative_offset",
+      "Lambda": 0.01,
+      "initial": [
+        0.06685579234215214,
+        -0.06,
+        0.0,
+        1.0,
+        0.0
+      ],
+      "levels": [
+        {
+          "setting": [
+            1e-09,
+            1e-11,
+            0.1
+          ],
+          "end": 6.0,
+          "domain_stop": false,
+          "nfev": 917,
+          "residuals": [
+            {
+              "subdivisions": 32,
+              "step": 0.1875,
+              "original_tensor_absolute": 3.5669930568277275e-09,
+              "original_tensor_normalized": 3.4970520287271446e-09,
+              "geometry_R_normalized": 7.134441965409469e-12,
+              "metric_clock_normalized": 5.76437357319366e-13,
+              "constraint_normalized": 8.463385941443363e-18,
+              "a_min": 1.0,
+              "F_min": 0.88
+            },
+            {
+              "subdivisions": 64,
+              "step": 0.09375,
+              "original_tensor_absolute": 6.97079633599218e-11,
+              "original_tensor_normalized": 6.647350971054534e-11,
+              "geometry_R_normalized": 3.3300770257850913e-14,
+              "metric_clock_normalized": 4.609521242460643e-15,
+              "constraint_normalized": 8.463385941443363e-18,
+              "a_min": 1.0,
+              "F_min": 0.88
+            },
+            {
+              "subdivisions": 128,
+              "step": 0.046875,
+              "original_tensor_absolute": 3.898692133019743e-12,
+              "original_tensor_normalized": 3.614984273114322e-12,
+              "geometry_R_normalized": 1.2964249907627064e-15,
+              "metric_clock_normalized": 5.834539423270858e-15,
+              "constraint_normalized": 1.0147432684723322e-17,
+              "a_min": 1.0,
+              "F_min": 0.88
+            }
+          ],
+          "clocks": [
+            {
+              "L": 0.25,
+              "first_arrival": 0.25206289888041283,
+              "p": 1.0163966970304348,
+              "status": "BOTH_REACHED",
+              "echo_arrival": 0.5081441882797274,
+              "q": 1.015493160646992,
+              "total": 1.0321438943385992
+            },
+            {
+              "L": 1.0,
+              "first_arrival": 1.0317035065275868,
+              "p": 1.061653041250012,
+              "status": "BOTH_REACHED",
+              "echo_arrival": 2.1199357098763114,
+              "q": 1.0486803872013346,
+              "total": 1.113334722371537
+            },
+            {
+              "L": 2.0,
+              "first_arrival": 2.1199357098763114,
+              "p": 1.113334722371537,
+              "status": "BOTH_REACHED",
+              "echo_arrival": 4.43833562854331,
+              "q": 1.083616504580809,
+              "total": 1.2064278802846904
+            }
+          ]
+        },
+        {
+          "setting": [
+            1e-11,
+            1e-13,
+            0.05
+          ],
+          "end": 6.0,
+          "domain_stop": false,
+          "nfev": 1817,
+          "residuals": [
+            {
+              "subdivisions": 32,
+              "step": 0.1875,
+              "original_tensor_absolute": 3.5670107596808e-09,
+              "original_tensor_normalized": 3.497069384465572e-09,
+              "geometry_R_normalized": 7.1344015167907995e-12,
+              "metric_clock_normalized": 5.766556096059208e-13,
+              "constraint_normalized": 1.3564634776257841e-17,
+              "a_min": 1.0,
+              "F_min": 0.88
+            },
+            {
+              "subdivisions": 64,
+              "step": 0.09375,
+              "original_tensor_absolute": 6.976948012382689e-11,
+              "original_tensor_normalized": 6.653217209294724e-11,
+              "geometry_R_normalized": 3.3172146193510045e-14,
+              "metric_clock_normalized": 3.3264917093651873e-15,
+              "constraint_normalized": 1.3574157535016614e-17,
+              "a_min": 1.0,
+              "F_min": 0.88
+            },
+            {
+              "subdivisions": 128,
+              "step": 0.046875,
+              "original_tensor_absolute": 3.661454819892107e-12,
+              "original_tensor_normalized": 3.487342181973988e-12,
+              "geometry_R_normalized": 1.5898155921040765e-15,
+              "metric_clock_normalized": 7.2879303475345e-15,
+              "constraint_normalized": 1.3574157535016614e-17,
+              "a_min": 1.0,
+              "F_min": 0.88
+            }
+          ],
+          "clocks": [
+            {
+              "L": 0.25,
+              "first_arrival": 0.25206289888041317,
+              "p": 1.0163966970304346,
+              "status": "BOTH_REACHED",
+              "echo_arrival": 0.5081441882797275,
+              "q": 1.0154931606469917,
+              "total": 1.0321438943385988
+            },
+            {
+              "L": 1.0,
+              "first_arrival": 1.031703506527587,
+              "p": 1.0616530412500116,
+              "status": "BOTH_REACHED",
+              "echo_arrival": 2.11993570987631,
+              "q": 1.0486803872013348,
+              "total": 1.1133347223715369
+            },
+            {
+              "L": 2.0,
+              "first_arrival": 2.11993570987631,
+              "p": 1.1133347223715369,
+              "status": "BOTH_REACHED",
+              "echo_arrival": 4.4383356285433075,
+              "q": 1.0836165045808086,
+              "total": 1.2064278802846897
+            }
+          ]
+        },
+        {
+          "setting": [
+            1e-13,
+            1e-15,
+            0.025
+          ],
+          "end": 6.0,
+          "domain_stop": false,
+          "nfev": 3617,
+          "residuals": [
+            {
+              "subdivisions": 32,
+              "step": 0.1875,
+              "original_tensor_absolute": 3.567038294946534e-09,
+              "original_tensor_normalized": 3.497096379824324e-09,
+              "geometry_R_normalized": 7.13476892507705e-12,
+              "metric_clock_normalized": 5.752997999470201e-13,
+              "constraint_normalized": 6.7707087531546914e-18,
+              "a_min": 1.0,
+              "F_min": 0.88
+            },
+            {
+              "subdivisions": 64,
+              "step": 0.09375,
+              "original_tensor_absolute": 7.001032913123151e-11,
+              "original_tensor_normalized": 6.676184569208672e-11,
+              "geometry_R_normalized": 3.358374319940082e-14,
+              "metric_clock_normalized": 4.445965517138648e-15,
+              "constraint_normalized": 6.800201648938585e-18,
+              "a_min": 1.0,
+              "F_min": 0.88
+            },
+            {
+              "subdivisions": 128,
+              "step": 0.046875,
+              "original_tensor_absolute": 4.265735334407772e-12,
+              "original_tensor_normalized": 4.172727514444449e-12,
+              "geometry_R_normalized": 1.6582905654851618e-15,
+              "metric_clock_normalized": 9.565065661165754e-15,
+              "constraint_normalized": 8.46481737984813e-18,
+              "a_min": 1.0,
+              "F_min": 0.88
+            }
+          ],
+          "clocks": [
+            {
+              "L": 0.25,
+              "first_arrival": 0.252062898880413,
+              "p": 1.0163966970304346,
+              "status": "BOTH_REACHED",
+              "echo_arrival": 0.5081441882797275,
+              "q": 1.015493160646991,
+              "total": 1.032143894338598
+            },
+            {
+              "L": 1.0,
+              "first_arrival": 1.0317035065275864,
+              "p": 1.0616530412500111,
+              "status": "BOTH_REACHED",
+              "echo_arrival": 2.11993570987631,
+              "q": 1.0486803872013344,
+              "total": 1.113334722371536
+            },
+            {
+              "L": 2.0,
+              "first_arrival": 2.11993570987631,
+              "p": 1.113334722371536,
+              "status": "BOTH_REACHED",
+              "echo_arrival": 4.438335628543307,
+              "q": 1.0836165045808086,
+              "total": 1.2064278802846888
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "contracting",
+      "Lambda": 0.0,
+      "initial": [
+        -0.0372677996249965,
+        0.1,
+        0.0,
+        1.0,
+        0.0
+      ],
+      "levels": [
+        {
+          "setting": [
+            1e-09,
+            1e-11,
+            0.1
+          ],
+          "end": 6.0,
+          "domain_stop": false,
+          "nfev": 917,
+          "residuals": [
+            {
+              "subdivisions": 32,
+              "step": 0.1875,
+              "original_tensor_absolute": 1.6467482891191487e-08,
+              "original_tensor_normalized": 1.5504863185416467e-08,
+              "geometry_R_normalized": 3.096294130226919e-11,
+              "metric_clock_normalized": 1.1115564122805198e-12,
+              "constraint_normalized": 6.034644552313957e-18,
+              "a_min": 0.9366143694819862,
+              "F_min": 0.8332080452842254
+            },
+            {
+              "subdivisions": 64,
+              "step": 0.09375,
+              "original_tensor_absolute": 2.621578960859683e-10,
+              "original_tensor_normalized": 2.468336723820843e-10,
+              "geometry_R_normalized": 1.232766515631575e-13,
+              "metric_clock_normalized": 5.6356182008744375e-15,
+              "constraint_normalized": 6.034644552313957e-18,
+              "a_min": 0.9366143694819862,
+              "F_min": 0.8332080452842254
+            },
+            {
+              "subdivisions": 128,
+              "step": 0.046875,
+              "original_tensor_absolute": 5.929257085313111e-12,
+              "original_tensor_normalized": 5.574921284070186e-12,
+              "geometry_R_normalized": 1.287194394340192e-15,
+              "metric_clock_normalized": 4.363266715407665e-15,
+              "constraint_normalized": 6.034644552313957e-18,
+              "a_min": 0.9366143694819862,
+              "F_min": 0.8332080452842254
+            }
+          ],
+          "clocks": [
+            {
+              "L": 0.25,
+              "first_arrival": 0.24887846627426014,
+              "p": 0.991198742105944,
+              "status": "BOTH_REACHED",
+              "echo_arrival": 0.4956834379229425,
+              "q": 0.9921381344694937,
+              "total": 0.9834060708815001
+            },
+            {
+              "L": 1.0,
+              "first_arrival": 0.9840520129276935,
+              "p": 0.9706846009211195,
+              "status": "BOTH_REACHED",
+              "echo_arrival": 1.9460113105170942,
+              "q": 0.984100252317763,
+              "total": 0.9552509606874408
+            },
+            {
+              "L": 2.0,
+              "first_arrival": 1.9460113105170942,
+              "p": 0.9552509606874408,
+              "status": "BOTH_REACHED",
+              "echo_arrival": 3.847065621437172,
+              "q": 0.9935178092003917,
+              "total": 0.9490588416987557
+            }
+          ]
+        },
+        {
+          "setting": [
+            1e-11,
+            1e-13,
+            0.05
+          ],
+          "end": 6.0,
+          "domain_stop": false,
+          "nfev": 1817,
+          "residuals": [
+            {
+              "subdivisions": 32,
+              "step": 0.1875,
+              "original_tensor_absolute": 1.646748136116538e-08,
+              "original_tensor_normalized": 1.5504861744829215e-08,
+              "geometry_R_normalized": 3.0962725894408513e-11,
+              "metric_clock_normalized": 1.1114654690333598e-12,
+              "constraint_normalized": 2.592695833922085e-18,
+              "a_min": 0.9366143694819863,
+              "F_min": 0.8332080452842254
+            },
+            {
+              "subdivisions": 64,
+              "step": 0.09375,
+              "original_tensor_absolute": 2.6219332607824164e-10,
+              "original_tensor_normalized": 2.4686660455149835e-10,
+              "geometry_R_normalized": 1.232132963100158e-13,
+              "metric_clock_normalized": 5.918174706705393e-15,
+              "constraint_normalized": 2.598796692918049e-18,
+              "a_min": 0.9366143694819863,
+              "F_min": 0.8332080452842254
+            },
+            {
+              "subdivisions": 128,
+              "step": 0.046875,
+              "original_tensor_absolute": 5.042459505499863e-12,
+              "original_tensor_normalized": 4.739124281372991e-12,
+              "geometry_R_normalized": 8.722969692304794e-16,
+              "metric_clock_normalized": 3.800770122614995e-15,
+              "constraint_normalized": 2.598796692918049e-18,
+              "a_min": 0.9366143694819863,
+              "F_min": 0.8332080452842254
+            }
+          ],
+          "clocks": [
+            {
+              "L": 0.25,
+              "first_arrival": 0.2488784662742602,
+              "p": 0.991198742105944,
+              "status": "BOTH_REACHED",
+              "echo_arrival": 0.4956834379229428,
+              "q": 0.9921381344694937,
+              "total": 0.9834060708815001
+            },
+            {
+              "L": 1.0,
+              "first_arrival": 0.9840520129276941,
+              "p": 0.9706846009211195,
+              "status": "BOTH_REACHED",
+              "echo_arrival": 1.9460113105170944,
+              "q": 0.9841002523177628,
+              "total": 0.9552509606874405
+            },
+            {
+              "L": 2.0,
+              "first_arrival": 1.9460113105170944,
+              "p": 0.9552509606874405,
+              "status": "BOTH_REACHED",
+              "echo_arrival": 3.8470656214371735,
+              "q": 0.9935178092003918,
+              "total": 0.9490588416987555
+            }
+          ]
+        },
+        {
+          "setting": [
+            1e-13,
+            1e-15,
+            0.025
+          ],
+          "end": 6.0,
+          "domain_stop": false,
+          "nfev": 3617,
+          "residuals": [
+            {
+              "subdivisions": 32,
+              "step": 0.1875,
+              "original_tensor_absolute": 1.6467495197319826e-08,
+              "original_tensor_normalized": 1.550487477218054e-08,
+              "geometry_R_normalized": 3.096305534172485e-11,
+              "metric_clock_normalized": 1.1116782419135081e-12,
+              "constraint_normalized": 6.890967986188697e-18,
+              "a_min": 0.9366143694819864,
+              "F_min": 0.8332080452842254
+            },
+            {
+              "subdivisions": 64,
+              "step": 0.09375,
+              "original_tensor_absolute": 2.620272228359699e-10,
+              "original_tensor_normalized": 2.467936098672445e-10,
+              "geometry_R_normalized": 1.2325458784990596e-13,
+              "metric_clock_normalized": 6.7666857937856996e-15,
+              "constraint_normalized": 7.324703406706833e-18,
+              "a_min": 0.9366143694819864,
+              "F_min": 0.8332080452842254
+            },
+            {
+              "subdivisions": 128,
+              "step": 0.046875,
+              "original_tensor_absolute": 5.827321264417762e-12,
+              "original_tensor_normalized": 5.485066037739428e-12,
+              "geometry_R_normalized": 1.4019050808670497e-15,
+              "metric_clock_normalized": 4.178994216765146e-15,
+              "constraint_normalized": 7.324703406706833e-18,
+              "a_min": 0.9366143694819864,
+              "F_min": 0.8332080452842254
+            }
+          ],
+          "clocks": [
+            {
+              "L": 0.25,
+              "first_arrival": 0.24887846627426005,
+              "p": 0.9911987421059442,
+              "status": "BOTH_REACHED",
+              "echo_arrival": 0.49568343792294267,
+              "q": 0.9921381344694938,
+              "total": 0.9834060708815003
+            },
+            {
+              "L": 1.0,
+              "first_arrival": 0.9840520129276942,
+              "p": 0.9706846009211195,
+              "status": "BOTH_REACHED",
+              "echo_arrival": 1.9460113105170938,
+              "q": 0.9841002523177627,
+              "total": 0.9552509606874404
+            },
+            {
+              "L": 2.0,
+              "first_arrival": 1.9460113105170938,
+              "p": 0.9552509606874404,
+              "status": "BOTH_REACHED",
+              "echo_arrival": 3.847065621437174,
+              "q": 0.9935178092003918,
+              "total": 0.9490588416987554
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "flat_event",
+      "Lambda": 0.0,
+      "initial": [
+        0.0,
+        0.0,
+        0.03,
+        1.0,
+        0.0
+      ],
+      "levels": [
+        {
+          "setting": [
+            1e-09,
+            1e-11,
+            0.1
+          ],
+          "end": 6.0,
+          "domain_stop": false,
+          "nfev": 917,
+          "residuals": [
+            {
+              "subdivisions": 32,
+              "step": 0.1875,
+              "original_tensor_absolute": 6.20378906232566e-09,
+              "original_tensor_normalized": 5.9334776344351585e-09,
+              "geometry_R_normalized": 1.1942656329409116e-11,
+              "metric_clock_normalized": 5.064514313746673e-13,
+              "constraint_normalized": 1.078962407044505e-18,
+              "a_min": 1.0,
+              "F_min": 1.0
+            },
+            {
+              "subdivisions": 64,
+              "step": 0.09375,
+              "original_tensor_absolute": 9.92106050090591e-11,
+              "original_tensor_normalized": 9.492302279354804e-11,
+              "geometry_R_normalized": 4.7709822424426655e-14,
+              "metric_clock_normalized": 4.071869059758775e-15,
+              "constraint_normalized": 1.7226733501187485e-18,
+              "a_min": 1.0,
+              "F_min": 1.0
+            },
+            {
+              "subdivisions": 128,
+              "step": 0.046875,
+              "original_tensor_absolute": 3.623538968877682e-12,
+              "original_tensor_normalized": 3.4893911530382645e-12,
+              "geometry_R_normalized": 8.000882886179665e-16,
+              "metric_clock_normalized": 4.98963430903262e-15,
+              "constraint_normalized": 1.7226733501187485e-18,
+              "a_min": 1.0,
+              "F_min": 1.0
+            }
+          ],
+          "clocks": [
+            {
+              "L": 0.25,
+              "first_arrival": 0.2500008135225903,
+              "p": 1.0000130141379924,
+              "status": "BOTH_REACHED",
+              "echo_arrival": 0.5000130031482651,
+              "q": 1.0000909399439082,
+              "total": 1.0001039552654056
+            },
+            {
+              "L": 1.0,
+              "first_arrival": 1.0002072281849688,
+              "p": 1.0008267565892455,
+              "status": "BOTH_REACHED",
+              "echo_arrival": 2.003266098756704,
+              "q": 1.0056370291952759,
+              "total": 1.0064684462355522
+            },
+            {
+              "L": 2.0,
+              "first_arrival": 2.003266098756704,
+              "p": 1.0064684462355522,
+              "status": "BOTH_REACHED",
+              "echo_arrival": 4.049447623744438,
+              "q": 1.0409593146477416,
+              "total": 1.0476927040079378
+            }
+          ]
+        },
+        {
+          "setting": [
+            1e-11,
+            1e-13,
+            0.05
+          ],
+          "end": 6.0,
+          "domain_stop": false,
+          "nfev": 1817,
+          "residuals": [
+            {
+              "subdivisions": 32,
+              "step": 0.1875,
+              "original_tensor_absolute": 6.203807904892056e-09,
+              "original_tensor_normalized": 5.933495655993568e-09,
+              "geometry_R_normalized": 1.1942747145227309e-11,
+              "metric_clock_normalized": 5.067112065206919e-13,
+              "constraint_normalized": 3.344783461837965e-18,
+              "a_min": 1.0,
+              "F_min": 1.0
+            },
+            {
+              "subdivisions": 64,
+              "step": 0.09375,
+              "original_tensor_absolute": 9.929740016345612e-11,
+              "original_tensor_normalized": 9.500606692395357e-11,
+              "geometry_R_normalized": 4.802139677495352e-14,
+              "metric_clock_normalized": 3.774671255715443e-15,
+              "constraint_normalized": 3.344783461837965e-18,
+              "a_min": 1.0,
+              "F_min": 1.0
+            },
+            {
+              "subdivisions": 128,
+              "step": 0.046875,
+              "original_tensor_absolute": 3.159521255735598e-12,
+              "original_tensor_normalized": 3.05674226078578e-12,
+              "geometry_R_normalized": 1.0244064161201228e-15,
+              "metric_clock_normalized": 6.6959886631127446e-15,
+              "constraint_normalized": 3.344783461837965e-18,
+              "a_min": 1.0,
+              "F_min": 1.0
+            }
+          ],
+          "clocks": [
+            {
+              "L": 0.25,
+              "first_arrival": 0.2500008135225902,
+              "p": 1.0000130141379924,
+              "status": "BOTH_REACHED",
+              "echo_arrival": 0.5000130031482651,
+              "q": 1.000090939943908,
+              "total": 1.0001039552654054
+            },
+            {
+              "L": 1.0,
+              "first_arrival": 1.0002072281849685,
+              "p": 1.0008267565892455,
+              "status": "BOTH_REACHED",
+              "echo_arrival": 2.0032660987567037,
+              "q": 1.0056370291952759,
+              "total": 1.0064684462355522
+            },
+            {
+              "L": 2.0,
+              "first_arrival": 2.0032660987567037,
+              "p": 1.0064684462355522,
+              "status": "BOTH_REACHED",
+              "echo_arrival": 4.049447623744436,
+              "q": 1.0409593146477412,
+              "total": 1.0476927040079373
+            }
+          ]
+        },
+        {
+          "setting": [
+            1e-13,
+            1e-15,
+            0.025
+          ],
+          "end": 6.0,
+          "domain_stop": false,
+          "nfev": 3617,
+          "residuals": [
+            {
+              "subdivisions": 32,
+              "step": 0.1875,
+              "original_tensor_absolute": 6.2037835216188775e-09,
+              "original_tensor_normalized": 5.933472335147958e-09,
+              "geometry_R_normalized": 1.1942591460967548e-11,
+              "metric_clock_normalized": 5.0694689655384e-13,
+              "constraint_normalized": 7.296843742630832e-18,
+              "a_min": 1.0,
+              "F_min": 1.0
+            },
+            {
+              "subdivisions": 64,
+              "step": 0.09375,
+              "original_tensor_absolute": 9.922652630112161e-11,
+              "original_tensor_normalized": 9.493825601553432e-11,
+              "geometry_R_normalized": 4.7813680541268946e-14,
+              "metric_clock_normalized": 4.444672009448475e-15,
+              "constraint_normalized": 7.296843742630832e-18,
+              "a_min": 1.0,
+              "F_min": 1.0
+            },
+            {
+              "subdivisions": 128,
+              "step": 0.046875,
+              "original_tensor_absolute": 3.1645623621567864e-12,
+              "original_tensor_normalized": 3.0298915691336434e-12,
+              "geometry_R_normalized": 1.4438250131163169e-15,
+              "metric_clock_normalized": 6.490703108954412e-15,
+              "constraint_normalized": 8.15394319019667e-18,
+              "a_min": 1.0,
+              "F_min": 1.0
+            }
+          ],
+          "clocks": [
+            {
+              "L": 0.25,
+              "first_arrival": 0.2500008135225903,
+              "p": 1.0000130141379924,
+              "status": "BOTH_REACHED",
+              "echo_arrival": 0.5000130031482654,
+              "q": 1.000090939943908,
+              "total": 1.0001039552654054
+            },
+            {
+              "L": 1.0,
+              "first_arrival": 1.0002072281849688,
+              "p": 1.0008267565892457,
+              "status": "BOTH_REACHED",
+              "echo_arrival": 2.003266098756704,
+              "q": 1.0056370291952756,
+              "total": 1.0064684462355522
+            },
+            {
+              "L": 2.0,
+              "first_arrival": 2.003266098756704,
+              "p": 1.0064684462355522,
+              "status": "BOTH_REACHED",
+              "echo_arrival": 4.049447623744437,
+              "q": 1.0409593146477427,
+              "total": 1.047692704007939
+            }
+          ],
+          "cubic": [
+            {
+              "L": 0.125,
+              "first_arrival": 0.1250000508582387,
+              "p": 1.0000016273935761,
+              "status": "BOTH_REACHED",
+              "echo_arrival": 0.2500008135225903,
+              "q": 1.0000113867258855,
+              "total": 1.0000130141379924,
+              "predicted_log_p": 1.6276041666666666e-06,
+              "predicted_log_q": 1.1393229166666665e-05
+            },
+            {
+              "L": 0.0625,
+              "first_arrival": 0.06250000317884565,
+              "p": 1.0000002034439188,
+              "status": "BOTH_REACHED",
+              "echo_arrival": 0.1250000508582387,
+              "q": 1.0000014239493675,
+              "total": 1.0000016273935761,
+              "predicted_log_p": 2.0345052083333332e-07,
+              "predicted_log_q": 1.4241536458333332e-06
+            },
+            {
+              "L": 0.03125,
+              "first_arrival": 0.03125000019868112,
+              "p": 1.0000000254311083,
+              "status": "BOTH_REACHED",
+              "echo_arrival": 0.06250000317884565,
+              "q": 1.000000178012806,
+              "total": 1.0000002034439188,
+              "predicted_log_p": 2.5431315104166665e-08,
+              "predicted_log_q": 1.7801920572916665e-07
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "case_count": 8,
+  "solve_count": 24
+}

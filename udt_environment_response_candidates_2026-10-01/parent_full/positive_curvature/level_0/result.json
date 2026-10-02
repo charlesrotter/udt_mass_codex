@@ -1,0 +1,74 @@
+{
+  "setting": [
+    1e-09,
+    1e-11,
+    0.1
+  ],
+  "end": 6.0,
+  "domain_stop": false,
+  "nfev": 917,
+  "residuals": [
+    {
+      "subdivisions": 32,
+      "step": 0.1875,
+      "original_tensor_absolute": 1.0391059575287631e-08,
+      "original_tensor_normalized": 9.850203428315298e-09,
+      "geometry_R_normalized": 1.9628232902557318e-11,
+      "metric_clock_normalized": 9.376042776328285e-13,
+      "constraint_normalized": 5.0876755450916706e-18,
+      "a_min": 1.0,
+      "F_min": 0.9288526359781082
+    },
+    {
+      "subdivisions": 64,
+      "step": 0.09375,
+      "original_tensor_absolute": 1.6531408533748682e-10,
+      "original_tensor_normalized": 1.5670946491533754e-10,
+      "geometry_R_normalized": 7.790961583998604e-14,
+      "metric_clock_normalized": 5.275100674342188e-15,
+      "constraint_normalized": 5.0876755450916706e-18,
+      "a_min": 1.0,
+      "F_min": 0.9288526359781082
+    },
+    {
+      "subdivisions": 128,
+      "step": 0.046875,
+      "original_tensor_absolute": 5.099309863254575e-12,
+      "original_tensor_normalized": 4.8624014012895705e-12,
+      "geometry_R_normalized": 1.5901777066254747e-15,
+      "metric_clock_normalized": 6.8752402328965206e-15,
+      "constraint_normalized": 5.0876755450916706e-18,
+      "a_min": 1.0,
+      "F_min": 0.9288526359781082
+    }
+  ],
+  "clocks": [
+    {
+      "L": 0.25,
+      "first_arrival": 0.2512083098841858,
+      "p": 1.0098423365402276,
+      "status": "BOTH_REACHED",
+      "echo_arrival": 0.505010064874609,
+      "q": 1.0108025157767522,
+      "total": 1.0207511743127358
+    },
+    {
+      "L": 1.0,
+      "first_arrival": 1.021473290570284,
+      "p": 1.0458304891254366,
+      "status": "BOTH_REACHED",
+      "echo_arrival": 2.0974502726577002,
+      "q": 1.0603433053538054,
+      "total": 1.1089393576790525
+    },
+    {
+      "L": 2.0,
+      "first_arrival": 2.0974502726577002,
+      "p": 1.1089393576790525,
+      "status": "BOTH_REACHED",
+      "echo_arrival": 4.475423860753629,
+      "q": 1.1500735720835495,
+      "total": 1.275361848309985
+    }
+  ]
+}

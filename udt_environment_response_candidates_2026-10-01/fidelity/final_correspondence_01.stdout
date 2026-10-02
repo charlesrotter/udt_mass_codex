@@ -1,0 +1,22 @@
+{
+  "status": "PASS",
+  "freeze_sha256": "db88a177e9dcc7230c40c8ad10cf120549d6636ff59f3d32795710a0447c7762",
+  "verified_file_count": 12664,
+  "inherited_unchanged_correspondence_only": 12462,
+  "changed_inherited_paths": [
+    "CURRENT_RESEARCH_PROGRAM.md",
+    "HANDOFF.md",
+    "LIVE.md",
+    "UDT_DEVELOPMENT.md",
+    "development_reconstruction_2026-09-29/DEVELOPMENT_GRAPH.json",
+    "development_reconstruction_2026-09-29/RECENT_DISPOSITIONS.tsv"
+  ],
+  "new_package_files": 196,
+  "protected_payloads_read_or_hashed": false,
+  "generated_excerpt_exact": true,
+  "registry_and_CANON_unchanged": true,
+  "recent_dispositions": 46,
+  "parent_tight_maximum_tensor_normalized": 7.584958974347986e-12,
+  "parent_all_maximum_constraint_normalized": 2.2995859055375952e-17,
+  "scope": "Actual frozen final integration correspondence, not historical recertification or final banking/premise audit"
+}

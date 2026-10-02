@@ -1,0 +1,15 @@
+{
+  "utc": "2026-10-02T00:15:13.311212+00:00",
+  "parent_candidate_exposure": false,
+  "sha256": {
+    "udt_environment_response_candidates_2026-10-01/math/SOURCE_FIRST.md": "1cad6eac626febee4d389de4f551a335c9010d327335551a37ef52c2198b769e",
+    "udt_environment_response_candidates_2026-10-01/math/SOURCE_FIRST_FREEZE.json": "4ac2a51f6b8d84bfe60a160e1ae973795f7fae88535f0806007ef45afcba763a",
+    "udt_environment_response_candidates_2026-10-01/math/SOURCE_FIRST_RESULT.md": "0b7011d45d914003c5c74cc0a635f3dc44d12271ac9281e26149c2d3f9316b92",
+    "udt_environment_response_candidates_2026-10-01/math/source_first_capture.json": "173920450fc3f56dc66f03b9e4a2a54941f94d883f78879c7adb383e7796b332",
+    "udt_environment_response_candidates_2026-10-01/math/source_first_capture.stderr": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "udt_environment_response_candidates_2026-10-01/math/source_first_capture.stdout": "c3de64b3a9e11c885e8dc1e27434641c6982874b095f3c2a018223e62930eba3",
+    "udt_environment_response_candidates_2026-10-01/math/source_first_check.py": "d06f61f0b361e3d4aecd5180580c0c035dd52907217334f361d40aff8de5bb5f",
+    "udt_environment_response_candidates_2026-10-01/math/source_first_result.json": "c3de64b3a9e11c885e8dc1e27434641c6982874b095f3c2a018223e62930eba3",
+    "udt_environment_response_candidates_2026-10-01/math/source_first_states.json": "31bf10296bfcfe44bc5fa26d1d8e086908d631076b67cb6391de62f56427ce32"
+  }
+}

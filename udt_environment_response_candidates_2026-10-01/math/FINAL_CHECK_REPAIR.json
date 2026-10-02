@@ -1,0 +1,7 @@
+{
+  "defect": "Reviewer administrative assertion compared absolute ROOT with relative frozen names after all file hashes had passed.",
+  "repair": "Compare with ROOT.name plus slash; no file map, hash, numerical tolerance, equation or shared file changed.",
+  "preserved_initial_sha256": "a33f443228a126db1a1b904ed0d9071c3139cdaeb945408390101727510b1af8",
+  "repaired_sha256": "5b98198e56635b7098817ffbbe88644a36229dec62d549ea7a8605f8d804a149",
+  "preserved_failure": "math/final_integration_capture.stderr"
+}

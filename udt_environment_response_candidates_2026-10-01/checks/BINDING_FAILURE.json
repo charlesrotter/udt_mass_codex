@@ -1,0 +1,7 @@
+{
+  "utc": "2026-10-02T01:09:49.880274+00:00",
+  "failure": "Parent binder assertion: math FINAL_ATTESTATION context was descriptive prose, not canonical /root/erc_math. No REVIEW_RECORD write occurred.",
+  "parent_orchestration_error": "Subsequent full/normal checks were launched despite the failed binder return code. Normal failed at unchanged expected prebinding gate;57 maintenance tests passed independently. Audit will be stopped or classified against actual binding chronology before replacement.",
+  "repair": "Reviewer preserves original attestation and adds canonical context ID while retaining description, exact report/map/verdict. Parent binds only after reading corrected metadata; scientific integration freeze unchanged.",
+  "original_binder_sha256": "6d5a74e5419f2500dc099dbe74b54ade7cc8ebfcacf88cfebe602f9f75bcf672"
+}

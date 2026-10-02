@@ -1,0 +1,12 @@
+{
+  "utc": "2026-10-02T00:17:27.503566+00:00",
+  "scope": "Initial candidate and numerical plan/code frozen before parent numerical outcomes; algebra exploratory and known-reference exposure disclosed.",
+  "sha256": {
+    "udt_environment_response_candidates_2026-10-01/WORK_ORDER.md": "c7ecb5f00b86db6f91586113eebd2baebdf9ad4334bfa22e5b53d50ab3335eff",
+    "udt_environment_response_candidates_2026-10-01/INITIAL_DERIVATION.md": "2cb45c87f23fd12465259f43e31703a89adf281936de412274d8958bee2649b5",
+    "udt_environment_response_candidates_2026-10-01/NUMERICAL_PLAN.md": "06be676689c332c18214212d9d59bc459325d3729fcc78add51a862c7d5154e2",
+    "udt_environment_response_candidates_2026-10-01/check_candidates.py": "fe782ce617ea980b93e8d152f97c25d5699bb18bc39caa825495d556874b2521",
+    "udt_environment_response_candidates_2026-10-01/REFERENCES.md": "acfda883b5e5dc2f2f49152302ccbe62f45537b7f118701199d91e2af42f6c82",
+    "udt_environment_response_candidates_2026-10-01/SOURCE_PINS.json": "a1b09420489dc08b82e56604a89a1174b7f88a53c10804960297db86e50f88b6"
+  }
+}

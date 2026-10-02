@@ -1,0 +1,1832 @@
+{
+  "pass": true,
+  "exposure": "parent candidate/code/outputs read before this check",
+  "method": "saved a-only metric derivatives and a-only null quadrature; no parent imports or RHS",
+  "frozen_plan_sha256": "490519af786543cc3d6e203f1d53927b03d1f0eaf755d28de864e98876c9fc60",
+  "code_sha256": "3b2345dbc8e8a946f193b17a30f94c3453018ec48c285d157f86f999752236e3",
+  "binding_count": 118,
+  "bindings": [
+    {
+      "path": "udt_environment_response_candidates_2026-10-01/WORK_ORDER.md",
+      "sha256": "c7ecb5f00b86db6f91586113eebd2baebdf9ad4334bfa22e5b53d50ab3335eff"
+    },
+    {
+      "path": "udt_environment_response_candidates_2026-10-01/INITIAL_DERIVATION.md",
+      "sha256": "2cb45c87f23fd12465259f43e31703a89adf281936de412274d8958bee2649b5"
+    },
+    {
+      "path": "udt_environment_response_candidates_2026-10-01/NUMERICAL_PLAN.md",
+      "sha256": "06be676689c332c18214212d9d59bc459325d3729fcc78add51a862c7d5154e2"
+    },
+    {
+      "path": "udt_environment_response_candidates_2026-10-01/check_candidates_initial.py",
+      "sha256": "fe782ce617ea980b93e8d152f97c25d5699bb18bc39caa825495d556874b2521"
+    },
+    {
+      "path": "udt_environment_response_candidates_2026-10-01/REFERENCES.md",
+      "sha256": "acfda883b5e5dc2f2f49152302ccbe62f45537b7f118701199d91e2af42f6c82"
+    },
+    {
+      "path": "udt_environment_response_candidates_2026-10-01/SOURCE_PINS.json",
+      "sha256": "a1b09420489dc08b82e56604a89a1174b7f88a53c10804960297db86e50f88b6"
+    },
+    {
+      "path": "udt_environment_response_candidates_2026-10-01/parent_symbolic/summary.json",
+      "sha256": "41df3fc2878c5e019d0ec452368ed89d4c48117ab8e7b852591370b680d0f2b4"
+    },
+    {
+      "path": "udt_environment_response_candidates_2026-10-01/parent_symbolic/symbolic.json",
+      "sha256": "2a435a7ae5502c44ad2aebe9cb9f70e1c325b55173981a0a857272cfe0dc81e6"
+    },
+    {
+      "path": "udt_environment_response_candidates_2026-10-01/parent_smoke/summary.json",
+      "sha256": "399e7b0a440dd5bc64638aef575921135b61c61650adfb13878f283b75c82eac"
+    },
+    {
+      "path": "udt_environment_response_candidates_2026-10-01/parent_smoke/grid_32.npz",
+      "sha256": "6f3a5c574f42f19763d7f80d41a581ca25a6b5b9bd3e0382774d4db0d350ac3c"
+    },
+    {
+      "path": "udt_environment_response_candidates_2026-10-01/parent_smoke/grid_128.npz",
+      "sha256": "6ddcd6c94a2bbfaba56ea652ac47d327a1c30afa769e3df00b7622387e5b3f63"
+    },
+    {
+      "path": "udt_environment_response_candidates_2026-10-01/parent_smoke/grid_64.npz",
+      "sha256": "09e549497b0dc9d6d4ad422ee81e0d797a45162ba178863a6efb25d94da3cd77"
+    },
+    {
+      "path": "udt_environment_response_candidates_2026-10-01/parent_full/summary.json",
+      "sha256": "fe86a1fa4c250658e9b2c39d4898abb50cda81f26823b9ca803a6b1da59501a1"
+    },
+    {
+      "path": "udt_environment_response_candidates_2026-10-01/parent_full/negative_offset/level_0/grid_32.npz",
+      "sha256": "74ef415ad0651f3eae12fb16cd315bc73f7ca4e88fa7ee7d2ed68d4329798775"
+    },
+    {
+      "path": "udt_environment_response_candidates_2026-10-01/parent_full/negative_offset/level_0/grid_128.npz",
+      "sha256": "c4e542b402e14e90e314c4576cc5f4ce1ee9aa7393422b29dedb68365e0ff058"
+    },
+    {
+      "path": "udt_environment_response_candidates_2026-10-01/parent_full/negative_offset/level_0/result.json",
+      "sha256": "daa7154823a4b939949f078d7fa7aec1c5dc88c40c1a22d27adbfec691356e27"
+    },
+    {
+      "path": "udt_environment_response_candidates_2026-10-01/parent_full/negative_offset/level_0/grid_64.npz",
+      "sha256": "a0c28a24109f2d90722f15ea67fecf9d5aaecda160f4fca13fe8aef89496860d"
+    },
+    {
+      "path": "udt_environment_response_candidates_2026-10-01/parent_full/negative_offset/level_2/grid_32.npz",
+      "sha256": "9507573e487f7f095d186244312875f517a05d487cb7ac0be4be95b89f02ec38"
+    },
+    {
+      "path": "udt_environment_response_candidates_2026-10-01/parent_full/negative_offset/level_2/grid_128.npz",
+      "sha256": "3cf9306582483ca670387d46d6ac2aed0452b6b90e1d8b3f72128eaad494a0e8"
+    },
+    {
+      "path": "udt_environment_response_candidates_2026-10-01/parent_full/negative_offset/level_2/result.json",
+      "sha256": "118f350e417f3dce9aa4fa8aadc9aea862458f6e8f1c4af2703d338429b06b2a"
+    },
+    {
+      "path": "udt_environment_response_candidates_2026-10-01/parent_full/negative_offset/level_2/grid_64.npz",
+      "sha256": "504ffec45d32ae8630959bbf2bcffbbb49dd9273fbcade71e9a413bf68d0179a"
+    },
+    {
+      "path": "udt_environment_response_candidates_2026-10-01/parent_full/negative_offset/level_1/grid_32.npz",
+      "sha256": "a2f1a636d9cb4b448ac42688bbdfadef46de96d7fdab084fe7746ea41285ccf1"
+    },
+    {
+      "path": "udt_environment_response_candidates_2026-10-01/parent_full/negative_offset/level_1/grid_128.npz",
+      "sha256": "01744044e60b4422f301233a280eaaf8830bde9b778baeff94bff21481dde12e"
+    },
+    {
+      "path": "udt_environment_response_candidates_2026-10-01/parent_full/negative_offset/level_1/result.json",
+      "sha256": "d282cf749b814c35325b01485b0627b84906a0be3d6e614d41ace9d3f6e6ccf9"
+    },
+    {
+      "path": "udt_environment_response_candidates_2026-10-01/parent_full/negative_offset/level_1/grid_64.npz",
+      "sha256": "9cd9eb456fa419490f5bbb25ae9fe1d9e8f26e614effdcef4645a0e15d2d3a94"
+    },
+    {
+      "path": "udt_environment_response_candidates_2026-10-01/parent_full/positive_offset/level_0/grid_32.npz",
+      "sha256": "304f90cdf2788a7203b8cd9c71e06962cdb41fffc3c6f935ff20d92170269f57"
+    },
+    {
+      "path": "udt_environment_response_candidates_2026-10-01/parent_full/positive_offset/level_0/grid_128.npz",
+      "sha256": "af141596f9e479a3edd794a98ba766cc9d3884f816d35206233c64c929d9bacd"
+    },
+    {
+      "path": "udt_environment_response_candidates_2026-10-01/parent_full/positive_offset/level_0/result.json",
+      "sha256": "b919e685c7f0ff0d6caeb46e57c6fa1277cce10c01339f3f90b11a2ec8ba6fe4"
+    },
+    {
+      "path": "udt_environment_response_candidates_2026-10-01/parent_full/positive_offset/level_0/grid_64.npz",
+      "sha256": "dacea72310c56ed583ecd14ce59fa13c4ba9c107060ca069ec5655eaea10a3ee"
+    },
+    {
+      "path": "udt_environment_response_candidates_2026-10-01/parent_full/positive_offset/level_2/grid_32.npz",
+      "sha256": "cdf7f400d67664659777d836a3f862148ff928a6b8c606276884d269d884b6a9"
+    },
+    {
+      "path": "udt_environment_response_candidates_2026-10-01/parent_full/positive_offset/level_2/grid_128.npz",
+      "sha256": "08894bef7c002af4aeba6cd96436ae8ddfbaeb4f2edd53a7d4371c907985c8c5"
+    },
+    {
+      "path": "udt_environment_response_candidates_2026-10-01/parent_full/positive_offset/level_2/result.json",
+      "sha256": "91dabc7c4ad9df1a512f939c7bfd3a78559875e1bca4f180cd9d02968aacbbce"
+    },
+    {
+      "path": "udt_environment_response_candidates_2026-10-01/parent_full/positive_offset/level_2/grid_64.npz",
+      "sha256": "5d9349ffc08d8b7656bd77e88e1cdd2282e360d8bb600cd4cf0c200d9d640769"
+    },
+    {
+      "path": "udt_environment_response_candidates_2026-10-01/parent_full/positive_offset/level_1/grid_32.npz",
+      "sha256": "b4928c7c89221a0e8e0dc99184d6ecfd8bf1a6c00d9e66f63eacc442f5c5685e"
+    },
+    {
+      "path": "udt_environment_response_candidates_2026-10-01/parent_full/positive_offset/level_1/grid_128.npz",
+      "sha256": "3684cd05a32309335d9fbc518d20112368b6ea97e1dd445d31679b59bb262c1d"
+    },
+    {
+      "path": "udt_environment_response_candidates_2026-10-01/parent_full/positive_offset/level_1/result.json",
+      "sha256": "5a707bc22d9f5c49e4ef3fd35eaef1863a0fbcf328c26f7ac8734de391677874"
+    },
+    {
+      "path": "udt_environment_response_candidates_2026-10-01/parent_full/positive_offset/level_1/grid_64.npz",
+      "sha256": "77af474908a2bc9464a1c35f56ad2238e02a6844810106267a7b69df65ef4fcb"
+    },
+    {
+      "path": "udt_environment_response_candidates_2026-10-01/parent_full/flat_event/level_0/grid_32.npz",
+      "sha256": "b6086589256fdfa9a7dfbe2226bc436bb90db4fd4f3f1e9e443eec47e47b46bb"
+    },
+    {
+      "path": "udt_environment_response_candidates_2026-10-01/parent_full/flat_event/level_0/grid_128.npz",
+      "sha256": "cdf740d66fc3043fb172479b90627e04c817461839f9687d7fd0107d39fa9cc9"
+    },
+    {
+      "path": "udt_environment_response_candidates_2026-10-01/parent_full/flat_event/level_0/result.json",
+      "sha256": "10cccf93b8ebf2cc2032cc250aaa125e0332a5ca35d4d7de1d9f35ea009f5a88"
+    },
+    {
+      "path": "udt_environment_response_candidates_2026-10-01/parent_full/flat_event/level_0/grid_64.npz",
+      "sha256": "3e482d8a229957b6f3059b6df87565cd39380851aea35f25b8ba4aca89d2877d"
+    },
+    {
+      "path": "udt_environment_response_candidates_2026-10-01/parent_full/flat_event/level_2/grid_32.npz",
+      "sha256": "5fc566b768a952e40b9b07e71b539c7412c7a052b14dc28dee2b181ff2791184"
+    },
+    {
+      "path": "udt_environment_response_candidates_2026-10-01/parent_full/flat_event/level_2/grid_128.npz",
+      "sha256": "bb9722ed4d788e4350364a74515ab647e0af6d69263191721154d98d7bf3a015"
+    },
+    {
+      "path": "udt_environment_response_candidates_2026-10-01/parent_full/flat_event/level_2/result.json",
+      "sha256": "11c6d72f700f1902ec26959ab1636625472db07f44516cd61874d211a0b150d1"
+    },
+    {
+      "path": "udt_environment_response_candidates_2026-10-01/parent_full/flat_event/level_2/grid_64.npz",
+      "sha256": "0080438469f45ca48efdd6d171a88ba5bac7bbd67ad67c71fdfbe5899f8d2d1c"
+    },
+    {
+      "path": "udt_environment_response_candidates_2026-10-01/parent_full/flat_event/level_1/grid_32.npz",
+      "sha256": "76971dbfd88e06568ac7f92cc2667091810f8347731e4d6c19f5acc6dd8d0709"
+    },
+    {
+      "path": "udt_environment_response_candidates_2026-10-01/parent_full/flat_event/level_1/grid_128.npz",
+      "sha256": "b276ceddb2b5426649b72cc2a3947933f652e1d10146d22e3fa37d3f5c9850ba"
+    },
+    {
+      "path": "udt_environment_response_candidates_2026-10-01/parent_full/flat_event/level_1/result.json",
+      "sha256": "440dba40395c135c8ae40a419a377189ba43e9ca2e31c78d731ef983c3a2e97b"
+    },
+    {
+      "path": "udt_environment_response_candidates_2026-10-01/parent_full/flat_event/level_1/grid_64.npz",
+      "sha256": "7b395dd8afc52c032b0de4d96f9302c2089021c56337f1c4a3ef9e7ba46c676b"
+    },
+    {
+      "path": "udt_environment_response_candidates_2026-10-01/parent_full/contracting/level_0/grid_32.npz",
+      "sha256": "e457b14d2c0a093b93c3855abaa81eae08b305967626ec15f745f76f7e715802"
+    },
+    {
+      "path": "udt_environment_response_candidates_2026-10-01/parent_full/contracting/level_0/grid_128.npz",
+      "sha256": "620fdb3142642f535e2b16ac4ddf23cd8861e53478f439ebeade7d1744e8f5f4"
+    },
+    {
+      "path": "udt_environment_response_candidates_2026-10-01/parent_full/contracting/level_0/result.json",
+      "sha256": "770dae189ea6c215e5526ef6858df3de0d4a9bc1ddca98d9e4fdd4e01b0d1918"
+    },
+    {
+      "path": "udt_environment_response_candidates_2026-10-01/parent_full/contracting/level_0/grid_64.npz",
+      "sha256": "22211126f4b8943a129390cd124c1759af626a299c73199e7c69d2c164203f9e"
+    },
+    {
+      "path": "udt_environment_response_candidates_2026-10-01/parent_full/contracting/level_2/grid_32.npz",
+      "sha256": "b447e4a8b8e20c614943dd0c9d88cfc27be55a3b97def7ee887da378bac054e1"
+    },
+    {
+      "path": "udt_environment_response_candidates_2026-10-01/parent_full/contracting/level_2/grid_128.npz",
+      "sha256": "0f624bd70fd225e1b88741328ea2e115b66150b7b923cc723957ef03b881ed7b"
+    },
+    {
+      "path": "udt_environment_response_candidates_2026-10-01/parent_full/contracting/level_2/result.json",
+      "sha256": "da4b51dd56070bc90696b8b4d7bb076525ffa788a9d19577d8ca34b6dfaced98"
+    },
+    {
+      "path": "udt_environment_response_candidates_2026-10-01/parent_full/contracting/level_2/grid_64.npz",
+      "sha256": "cec527875899873d16fa60a71d9dcedb0745ae47af0b0edf90e18136436cf857"
+    },
+    {
+      "path": "udt_environment_response_candidates_2026-10-01/parent_full/contracting/level_1/grid_32.npz",
+      "sha256": "1b833084b7c077f04cb710ceaeb7c671da9ee70163cb1aac0aeae8c9a40161f6"
+    },
+    {
+      "path": "udt_environment_response_candidates_2026-10-01/parent_full/contracting/level_1/grid_128.npz",
+      "sha256": "4f23e3dc664431476665cf71e4405a50dca1e85927c799f7ef1ece89a6b14b30"
+    },
+    {
+      "path": "udt_environment_response_candidates_2026-10-01/parent_full/contracting/level_1/result.json",
+      "sha256": "a1509b8ea0d84f35ea19fd35e4e79736e43c6c4975814049802e9bd6fa8a44a2"
+    },
+    {
+      "path": "udt_environment_response_candidates_2026-10-01/parent_full/contracting/level_1/grid_64.npz",
+      "sha256": "5b3adc4f3f60fa8c1eddd43306c6a7a8da239b48ca27ed8cdf12093becc994d9"
+    },
+    {
+      "path": "udt_environment_response_candidates_2026-10-01/parent_full/negative_curvature/level_0/grid_32.npz",
+      "sha256": "f94cca7c462b41b5385bca5708d28546184bd47a4fcf6d4a78aedec776526bb2"
+    },
+    {
+      "path": "udt_environment_response_candidates_2026-10-01/parent_full/negative_curvature/level_0/grid_128.npz",
+      "sha256": "fe145163295fa40a33b143ccd7806f733485159b64d09e7abf236aaaf3b33c3d"
+    },
+    {
+      "path": "udt_environment_response_candidates_2026-10-01/parent_full/negative_curvature/level_0/result.json",
+      "sha256": "5683bd5f14c8d85fbb72f1cd0fe544527ead78e6bf0f06a2c9f328ebff750505"
+    },
+    {
+      "path": "udt_environment_response_candidates_2026-10-01/parent_full/negative_curvature/level_0/grid_64.npz",
+      "sha256": "4edd2c93e58de498f06f7136607a0d966ac6a3048a92917fda26741114dc0e65"
+    },
+    {
+      "path": "udt_environment_response_candidates_2026-10-01/parent_full/negative_curvature/level_2/grid_32.npz",
+      "sha256": "3dd75659f21823ac1c4e66a8ecf34f35ae0e01d6b8f4b42afc9407b64ead3ae3"
+    },
+    {
+      "path": "udt_environment_response_candidates_2026-10-01/parent_full/negative_curvature/level_2/grid_128.npz",
+      "sha256": "e62d1fe67be25008cc8d31c4820e588a72cda2c331efbd2a180f06c5acd57272"
+    },
+    {
+      "path": "udt_environment_response_candidates_2026-10-01/parent_full/negative_curvature/level_2/result.json",
+      "sha256": "a4bdb1125be6e331eda63665a833fa85285fac1f341b6714c0664788efcaf506"
+    },
+    {
+      "path": "udt_environment_response_candidates_2026-10-01/parent_full/negative_curvature/level_2/grid_64.npz",
+      "sha256": "9ec477a5b42b0e830cd0392ece793d604ba72c22ec9b71779da52b9e53a5fe98"
+    },
+    {
+      "path": "udt_environment_response_candidates_2026-10-01/parent_full/negative_curvature/level_1/grid_32.npz",
+      "sha256": "1605a0945df81c936df55115710284007c60f6d540e60370e619b3027e1c3e5f"
+    },
+    {
+      "path": "udt_environment_response_candidates_2026-10-01/parent_full/negative_curvature/level_1/grid_128.npz",
+      "sha256": "3cce0fb96582e76862b8c302286073bbad7e9c01f8b568070f239432508edf9e"
+    },
+    {
+      "path": "udt_environment_response_candidates_2026-10-01/parent_full/negative_curvature/level_1/result.json",
+      "sha256": "e5129ccdb24230279b653b073a4a715a90681ff4b29e0db5f53091ae8693d4b1"
+    },
+    {
+      "path": "udt_environment_response_candidates_2026-10-01/parent_full/negative_curvature/level_1/grid_64.npz",
+      "sha256": "bb21d73ccc250686e12c9d18fae0060ecbc599b110175d2cd58d15d9af43ecdc"
+    },
+    {
+      "path": "udt_environment_response_candidates_2026-10-01/parent_full/constant_positive/level_0/grid_32.npz",
+      "sha256": "fe6acad595e69eb4d9d87f261b882ed29e1607e2b933c0118c2ce4a86d7acf69"
+    },
+    {
+      "path": "udt_environment_response_candidates_2026-10-01/parent_full/constant_positive/level_0/grid_128.npz",
+      "sha256": "5e6e513a025b578f456079cd20fc50806002ee8f91f597e7acd99849477f0581"
+    },
+    {
+      "path": "udt_environment_response_candidates_2026-10-01/parent_full/constant_positive/level_0/result.json",
+      "sha256": "8c0ceeccdd16b66fd6fe4f7c844a9497c102b0c1579fcf7d9836ddffdee9e4bf"
+    },
+    {
+      "path": "udt_environment_response_candidates_2026-10-01/parent_full/constant_positive/level_0/grid_64.npz",
+      "sha256": "7097feb3390da8c3f55bdf4267d1d9930c200a87f6c733642e513afe8f177679"
+    },
+    {
+      "path": "udt_environment_response_candidates_2026-10-01/parent_full/constant_positive/level_2/grid_32.npz",
+      "sha256": "a4729e2800b99521a9cb3fb763f7cd73132c8e1180d22c3b42222c095add4768"
+    },
+    {
+      "path": "udt_environment_response_candidates_2026-10-01/parent_full/constant_positive/level_2/grid_128.npz",
+      "sha256": "db923b6545ee8c03d05227160c171da31510ffa8ae5af7dc6784b77b026131bf"
+    },
+    {
+      "path": "udt_environment_response_candidates_2026-10-01/parent_full/constant_positive/level_2/result.json",
+      "sha256": "845f57680b839b673dc3750e62c512d7313348c70882bd87b719693303af12a7"
+    },
+    {
+      "path": "udt_environment_response_candidates_2026-10-01/parent_full/constant_positive/level_2/grid_64.npz",
+      "sha256": "544940281e7a939ddb5b9f313a86b06970b8ed53769a58e6ed8573a4335dc457"
+    },
+    {
+      "path": "udt_environment_response_candidates_2026-10-01/parent_full/constant_positive/level_1/grid_32.npz",
+      "sha256": "823b26b904d37e9412558faebb88639b9abd370fa427c15408d818a746cc0e11"
+    },
+    {
+      "path": "udt_environment_response_candidates_2026-10-01/parent_full/constant_positive/level_1/grid_128.npz",
+      "sha256": "07f51c2b5478c3c023755bf052827a02f4cd058bcbd705cbbea7dcaf32f34f21"
+    },
+    {
+      "path": "udt_environment_response_candidates_2026-10-01/parent_full/constant_positive/level_1/result.json",
+      "sha256": "23bc2ae8263365d17ef49b077b0b01c562d5728a980be6b30c006afdead1001c"
+    },
+    {
+      "path": "udt_environment_response_candidates_2026-10-01/parent_full/constant_positive/level_1/grid_64.npz",
+      "sha256": "057b705a2358bdb0b6a236ee932ede3abe3588ccb94e81f03784fa93e85f6b8e"
+    },
+    {
+      "path": "udt_environment_response_candidates_2026-10-01/parent_full/flat/level_0/grid_32.npz",
+      "sha256": "064a71f903d9aa8d1a6452194cdfc8d47bd470db39b3cca469b36e0e1554da51"
+    },
+    {
+      "path": "udt_environment_response_candidates_2026-10-01/parent_full/flat/level_0/grid_128.npz",
+      "sha256": "4be7bb8c28dfc750b32aa097c3b88cfc5a0a33c0f337fcd21242dca552ed8990"
+    },
+    {
+      "path": "udt_environment_response_candidates_2026-10-01/parent_full/flat/level_0/result.json",
+      "sha256": "021871c2276670b2d2d33054f0543f8859bd1a152d49f31c1909df9717e5072a"
+    },
+    {
+      "path": "udt_environment_response_candidates_2026-10-01/parent_full/flat/level_0/grid_64.npz",
+      "sha256": "5eebc898f3ee9a23cb66c13f7c0e47a4f67f634dccc85778d4a641d80b80af8f"
+    },
+    {
+      "path": "udt_environment_response_candidates_2026-10-01/parent_full/flat/level_2/grid_32.npz",
+      "sha256": "5b7645a372091d9cbe6872437762c194651d58a64cdfe1044b2cc6ac031dabab"
+    },
+    {
+      "path": "udt_environment_response_candidates_2026-10-01/parent_full/flat/level_2/grid_128.npz",
+      "sha256": "d32aa47666b3526baa19f6e1f61f12caf39161ba72409ddb50eb54324c487129"
+    },
+    {
+      "path": "udt_environment_response_candidates_2026-10-01/parent_full/flat/level_2/result.json",
+      "sha256": "f02363d4bb2713c953bf6433e688256756771cfb6ae397826d778eb4e51e5d21"
+    },
+    {
+      "path": "udt_environment_response_candidates_2026-10-01/parent_full/flat/level_2/grid_64.npz",
+      "sha256": "4ecb43920bf1b8c8863b5d3f2068873adb916ffe251a0f41f827030e3ff26373"
+    },
+    {
+      "path": "udt_environment_response_candidates_2026-10-01/parent_full/flat/level_1/grid_32.npz",
+      "sha256": "5b7645a372091d9cbe6872437762c194651d58a64cdfe1044b2cc6ac031dabab"
+    },
+    {
+      "path": "udt_environment_response_candidates_2026-10-01/parent_full/flat/level_1/grid_128.npz",
+      "sha256": "5c9ef364f5c9f846eb82eaf7f4974a33373f0a4365e13d1913302318b64f2170"
+    },
+    {
+      "path": "udt_environment_response_candidates_2026-10-01/parent_full/flat/level_1/result.json",
+      "sha256": "da772c4954fa6f293db1f4b6f6f190ac4fa791923b8af8b8a6c139a3599ff7c5"
+    },
+    {
+      "path": "udt_environment_response_candidates_2026-10-01/parent_full/flat/level_1/grid_64.npz",
+      "sha256": "0b74b3186acba462ba03e61279400f60d13348643413e1ce707341c4cfb5545b"
+    },
+    {
+      "path": "udt_environment_response_candidates_2026-10-01/parent_full/positive_curvature/level_0/grid_32.npz",
+      "sha256": "4f7e45a3e58231a3cd07de4158c6e339511528da314818f147a0b172140f0cec"
+    },
+    {
+      "path": "udt_environment_response_candidates_2026-10-01/parent_full/positive_curvature/level_0/grid_128.npz",
+      "sha256": "f32b48985827767549823ab0d0931a8d5de5225636040e7f7028260b7c10cabf"
+    },
+    {
+      "path": "udt_environment_response_candidates_2026-10-01/parent_full/positive_curvature/level_0/result.json",
+      "sha256": "eb540f31153dc9bb77dba1497d8ce975096f4490ccfee48493fc7b6d4ca39c60"
+    },
+    {
+      "path": "udt_environment_response_candidates_2026-10-01/parent_full/positive_curvature/level_0/grid_64.npz",
+      "sha256": "313b5771dbd73204914d0f760d757cbf6a68dd37eeac4f38985ffefa3d7baf15"
+    },
+    {
+      "path": "udt_environment_response_candidates_2026-10-01/parent_full/positive_curvature/level_2/grid_32.npz",
+      "sha256": "86b61b39f00e39119a036e747ea999f786664d401a12d7af4a8d83c52523fb34"
+    },
+    {
+      "path": "udt_environment_response_candidates_2026-10-01/parent_full/positive_curvature/level_2/grid_128.npz",
+      "sha256": "ca5ce0fa794760be07e095e3c8b66529733daccc3b9386d2d909858d8be881f4"
+    },
+    {
+      "path": "udt_environment_response_candidates_2026-10-01/parent_full/positive_curvature/level_2/result.json",
+      "sha256": "01b839412754465730ba6edb2101a569eafeaf0e98e16fee9e28d6c2d4bffe95"
+    },
+    {
+      "path": "udt_environment_response_candidates_2026-10-01/parent_full/positive_curvature/level_2/grid_64.npz",
+      "sha256": "14f8852f2ac4c020b2d3906d8961bb676219064f8c175a054bd471c03409812b"
+    },
+    {
+      "path": "udt_environment_response_candidates_2026-10-01/parent_full/positive_curvature/level_1/grid_32.npz",
+      "sha256": "0a0bda5dcd04ec770916878ef8911011812cebfb0e06324e680d89cb4a73e40a"
+    },
+    {
+      "path": "udt_environment_response_candidates_2026-10-01/parent_full/positive_curvature/level_1/grid_128.npz",
+      "sha256": "ca44833a729582d9ff2656d22f0ff3b747a35060cfc87f6d9addc6d6195f5e5b"
+    },
+    {
+      "path": "udt_environment_response_candidates_2026-10-01/parent_full/positive_curvature/level_1/result.json",
+      "sha256": "21df89f9f3734fa86598903dd6f15e883d7e63f0ce191176d88a7fec7d7a6000"
+    },
+    {
+      "path": "udt_environment_response_candidates_2026-10-01/parent_full/positive_curvature/level_1/grid_64.npz",
+      "sha256": "28ad6aa95071ba170622b34aad846cc0c3f6f925f677c86531f18dd2475ff7d6"
+    },
+    {
+      "path": "udt_environment_response_candidates_2026-10-01/checks/parent_full.json",
+      "sha256": "82d3fb020e21c4fe06a3eee4d6d24e009b38335b39811e0d5e8f16e5d865a0fc"
+    },
+    {
+      "path": "udt_environment_response_candidates_2026-10-01/checks/parent_smoke.json",
+      "sha256": "ced38a69e9a1162dcdfe14b8a48bba1ec282463b0b75ce7f746ece6691e415b3"
+    },
+    {
+      "path": "udt_environment_response_candidates_2026-10-01/checks/parent_symbolic.stdout",
+      "sha256": "76ba320f9bf0caa7f5e9db1651ea7256e814ad6da2379b10977e0ccbfe668426"
+    },
+    {
+      "path": "udt_environment_response_candidates_2026-10-01/checks/parent_full.stderr",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "udt_environment_response_candidates_2026-10-01/checks/parent_symbolic.json",
+      "sha256": "7e6f0fa07eb75de8a4c8e21697b3e57880cf41297e43af77138f95db78339204"
+    },
+    {
+      "path": "udt_environment_response_candidates_2026-10-01/checks/parent_symbolic.stderr",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "udt_environment_response_candidates_2026-10-01/checks/parent_smoke.stdout",
+      "sha256": "ec755fb86b80dab1d2a93671bdf8af41b202269260d4a647c375eafcef98d862"
+    },
+    {
+      "path": "udt_environment_response_candidates_2026-10-01/checks/parent_full.stdout",
+      "sha256": "1bd3ae292d9cab13bf82d1fb68c1360a855f5056ecaf814afc291f770d3f04c9"
+    },
+    {
+      "path": "udt_environment_response_candidates_2026-10-01/checks/parent_smoke.stderr",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    }
+  ],
+  "flat_event_a_coefficients": [
+    "0",
+    "0",
+    "P/36",
+    "0",
+    "-P/(4320*alpha)"
+  ],
+  "cases": [
+    {
+      "id": "flat",
+      "grids": [
+        {
+          "n": 32,
+          "metric_only_original_tensor_absolute": 0.0,
+          "saved_H_difference": 0.0,
+          "saved_R_difference": 0.0,
+          "clocks": [
+            {
+              "L": 0.25,
+              "first_arrival": 0.25,
+              "echo_arrival": 0.5,
+              "p": 0.9999999999999999,
+              "q": 1.0000000000000004,
+              "total": 1.0000000000000002,
+              "parent_absolute_differences": {
+                "first_arrival": 2.7755575615628914e-17,
+                "echo_arrival": 5.551115123125783e-17,
+                "p": 1.1102230246251565e-16,
+                "q": 4.440892098500626e-16,
+                "total": 2.220446049250313e-16
+              }
+            },
+            {
+              "L": 1.0,
+              "first_arrival": 1.0,
+              "echo_arrival": 2.0,
+              "p": 1.0,
+              "q": 1.0,
+              "total": 1.0,
+              "parent_absolute_differences": {
+                "first_arrival": 1.1102230246251565e-16,
+                "echo_arrival": 2.220446049250313e-16,
+                "p": 0.0,
+                "q": 0.0,
+                "total": 0.0
+              }
+            },
+            {
+              "L": 2.0,
+              "first_arrival": 2.0,
+              "echo_arrival": 4.0,
+              "p": 1.0,
+              "q": 1.0000000000000002,
+              "total": 1.0000000000000002,
+              "parent_absolute_differences": {
+                "first_arrival": 2.220446049250313e-16,
+                "echo_arrival": 4.440892098500626e-16,
+                "p": 0.0,
+                "q": 2.220446049250313e-16,
+                "total": 2.220446049250313e-16
+              }
+            }
+          ]
+        },
+        {
+          "n": 64,
+          "metric_only_original_tensor_absolute": 0.0,
+          "saved_H_difference": 0.0,
+          "saved_R_difference": 0.0,
+          "clocks": [
+            {
+              "L": 0.25,
+              "first_arrival": 0.25,
+              "echo_arrival": 0.5,
+              "p": 1.0000000000000002,
+              "q": 0.9999999999999998,
+              "total": 1.0,
+              "parent_absolute_differences": {
+                "first_arrival": 2.7755575615628914e-17,
+                "echo_arrival": 5.551115123125783e-17,
+                "p": 2.220446049250313e-16,
+                "q": 2.220446049250313e-16,
+                "total": 0.0
+              }
+            },
+            {
+              "L": 1.0,
+              "first_arrival": 1.0,
+              "echo_arrival": 2.0,
+              "p": 1.0,
+              "q": 1.0000000000000002,
+              "total": 1.0000000000000002,
+              "parent_absolute_differences": {
+                "first_arrival": 1.1102230246251565e-16,
+                "echo_arrival": 2.220446049250313e-16,
+                "p": 0.0,
+                "q": 2.220446049250313e-16,
+                "total": 2.220446049250313e-16
+              }
+            },
+            {
+              "L": 2.0,
+              "first_arrival": 2.0,
+              "echo_arrival": 4.0,
+              "p": 1.0000000000000002,
+              "q": 0.9999999999999998,
+              "total": 1.0,
+              "parent_absolute_differences": {
+                "first_arrival": 2.220446049250313e-16,
+                "echo_arrival": 4.440892098500626e-16,
+                "p": 2.220446049250313e-16,
+                "q": 2.220446049250313e-16,
+                "total": 0.0
+              }
+            }
+          ]
+        },
+        {
+          "n": 128,
+          "metric_only_original_tensor_absolute": 0.0,
+          "saved_H_difference": 0.0,
+          "saved_R_difference": 0.0,
+          "clocks": [
+            {
+              "L": 0.25,
+              "first_arrival": 0.25000000000000006,
+              "echo_arrival": 0.5000000000000001,
+              "p": 1.0,
+              "q": 1.0,
+              "total": 1.0,
+              "parent_absolute_differences": {
+                "first_arrival": 8.326672684688674e-17,
+                "echo_arrival": 1.6653345369377348e-16,
+                "p": 0.0,
+                "q": 0.0,
+                "total": 0.0
+              }
+            },
+            {
+              "L": 1.0,
+              "first_arrival": 1.0000000000000002,
+              "echo_arrival": 2.0000000000000004,
+              "p": 1.0000000000000002,
+              "q": 0.9999999999999998,
+              "total": 1.0,
+              "parent_absolute_differences": {
+                "first_arrival": 3.3306690738754696e-16,
+                "echo_arrival": 6.661338147750939e-16,
+                "p": 2.220446049250313e-16,
+                "q": 2.220446049250313e-16,
+                "total": 0.0
+              }
+            },
+            {
+              "L": 2.0,
+              "first_arrival": 2.0000000000000004,
+              "echo_arrival": 4.000000000000001,
+              "p": 1.0,
+              "q": 1.0000000000000002,
+              "total": 1.0000000000000002,
+              "parent_absolute_differences": {
+                "first_arrival": 6.661338147750939e-16,
+                "echo_arrival": 1.3322676295501878e-15,
+                "p": 0.0,
+                "q": 2.220446049250313e-16,
+                "total": 2.220446049250313e-16
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "constant_positive",
+      "grids": [
+        {
+          "n": 32,
+          "metric_only_original_tensor_absolute": 2.1577662326215683e-11,
+          "saved_H_difference": 1.2528633729427807e-15,
+          "saved_R_difference": 9.811276818110296e-14,
+          "clocks": [
+            {
+              "L": 0.25,
+              "first_arrival": 0.25182177083842633,
+              "echo_arrival": 0.507358845443839,
+              "p": 1.0146451411341373,
+              "q": 1.0148628090706406,
+              "total": 1.0297256181412673,
+              "parent_absolute_differences": {
+                "first_arrival": 1.1879386363489175e-14,
+                "echo_arrival": 1.9984014443252818e-15,
+                "p": 6.217248937900877e-15,
+                "q": 7.549516567451064e-15,
+                "total": 1.5543122344752192e-15
+              }
+            },
+            {
+              "L": 1.0,
+              "first_arrival": 1.0300290718047322,
+              "echo_arrival": 2.125207450380981,
+              "p": 1.0612726022598287,
+              "q": 1.065271986742192,
+              "total": 1.1305439734843838,
+              "parent_absolute_differences": {
+                "first_arrival": 2.220446049250313e-15,
+                "echo_arrival": 3.552713678800501e-15,
+                "p": 2.220446049250313e-16,
+                "q": 0.0,
+                "total": 2.220446049250313e-16
+              }
+            },
+            {
+              "L": 2.0,
+              "first_arrival": 2.125207450380981,
+              "echo_arrival": 4.548130366188362,
+              "p": 1.1305439734843838,
+              "q": 1.1501444230682312,
+              "total": 1.3002888461364623,
+              "parent_absolute_differences": {
+                "first_arrival": 3.552713678800501e-15,
+                "echo_arrival": 3.552713678800501e-15,
+                "p": 2.220446049250313e-16,
+                "q": 0.0,
+                "total": 2.220446049250313e-16
+              }
+            }
+          ]
+        },
+        {
+          "n": 64,
+          "metric_only_original_tensor_absolute": 3.803440957933759e-10,
+          "saved_H_difference": 2.095772963809847e-15,
+          "saved_R_difference": 3.230857760689633e-13,
+          "clocks": [
+            {
+              "L": 0.25,
+              "first_arrival": 0.25182177083842405,
+              "echo_arrival": 0.5073588454438369,
+              "p": 1.0146451411341428,
+              "q": 1.014862809070634,
+              "total": 1.029725618141266,
+              "parent_absolute_differences": {
+                "first_arrival": 1.4155343563970746e-14,
+                "echo_arrival": 1.1102230246251565e-16,
+                "p": 6.661338147750939e-16,
+                "q": 8.881784197001252e-16,
+                "total": 2.220446049250313e-16
+              }
+            },
+            {
+              "L": 1.0,
+              "first_arrival": 1.0300290718047305,
+              "echo_arrival": 2.125207450380979,
+              "p": 1.0612726022598287,
+              "q": 1.0652719867421918,
+              "total": 1.1305439734843836,
+              "parent_absolute_differences": {
+                "first_arrival": 4.440892098500626e-16,
+                "echo_arrival": 1.3322676295501878e-15,
+                "p": 2.220446049250313e-16,
+                "q": 2.220446049250313e-16,
+                "total": 0.0
+              }
+            },
+            {
+              "L": 2.0,
+              "first_arrival": 2.125207450380979,
+              "echo_arrival": 4.548130366188358,
+              "p": 1.1305439734843836,
+              "q": 1.150144423068231,
+              "total": 1.300288846136462,
+              "parent_absolute_differences": {
+                "first_arrival": 1.3322676295501878e-15,
+                "echo_arrival": 0.0,
+                "p": 0.0,
+                "q": 2.220446049250313e-16,
+                "total": 2.220446049250313e-16
+              }
+            }
+          ]
+        },
+        {
+          "n": 128,
+          "metric_only_original_tensor_absolute": 8.418824768516687e-09,
+          "saved_H_difference": 5.514079454540036e-15,
+          "saved_R_difference": 1.7537223978786667e-12,
+          "clocks": [
+            {
+              "L": 0.25,
+              "first_arrival": 0.25182177083842394,
+              "echo_arrival": 0.5073588454438369,
+              "p": 1.0146451411341426,
+              "q": 1.0148628090706338,
+              "total": 1.0297256181412655,
+              "parent_absolute_differences": {
+                "first_arrival": 1.426636586643326e-14,
+                "echo_arrival": 1.1102230246251565e-16,
+                "p": 8.881784197001252e-16,
+                "q": 6.661338147750939e-16,
+                "total": 2.220446049250313e-16
+              }
+            },
+            {
+              "L": 1.0,
+              "first_arrival": 1.0300290718047305,
+              "echo_arrival": 2.1252074503809797,
+              "p": 1.0612726022598284,
+              "q": 1.065271986742192,
+              "total": 1.1305439734843836,
+              "parent_absolute_differences": {
+                "first_arrival": 4.440892098500626e-16,
+                "echo_arrival": 2.220446049250313e-15,
+                "p": 0.0,
+                "q": 0.0,
+                "total": 0.0
+              }
+            },
+            {
+              "L": 2.0,
+              "first_arrival": 2.1252074503809797,
+              "echo_arrival": 4.548130366188359,
+              "p": 1.1305439734843836,
+              "q": 1.1501444230682316,
+              "total": 1.3002888461364626,
+              "parent_absolute_differences": {
+                "first_arrival": 2.220446049250313e-15,
+                "echo_arrival": 8.881784197001252e-16,
+                "p": 0.0,
+                "q": 4.440892098500626e-16,
+                "total": 4.440892098500626e-16
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "positive_curvature",
+      "grids": [
+        {
+          "n": 32,
+          "metric_only_original_tensor_absolute": 2.960002563271168e-11,
+          "saved_H_difference": 7.549472521737807e-15,
+          "saved_R_difference": 1.1653169613079148e-13,
+          "clocks": [
+            {
+              "L": 0.25,
+              "first_arrival": 0.25120830992008397,
+              "echo_arrival": 0.5050100649078496,
+              "p": 1.0098423364608409,
+              "q": 1.0108025158811897,
+              "total": 1.020751174337957,
+              "parent_absolute_differences": {
+                "first_arrival": 3.589822883398597e-11,
+                "echo_arrival": 3.3240854513394424e-11,
+                "p": 7.938649737582182e-11,
+                "q": 1.0443779174806878e-10,
+                "total": 2.5221602584224456e-11
+              }
+            },
+            {
+              "L": 1.0,
+              "first_arrival": 1.0214732906041564,
+              "echo_arrival": 2.0974502726937367,
+              "p": 1.0458304891253734,
+              "q": 1.0603433053559936,
+              "total": 1.108939357681274,
+              "parent_absolute_differences": {
+                "first_arrival": 3.3872904481313526e-11,
+                "echo_arrival": 3.603650711170303e-11,
+                "p": 6.328271240363392e-14,
+                "q": 2.1878054923263335e-12,
+                "total": 2.221112183065088e-12
+              }
+            },
+            {
+              "L": 2.0,
+              "first_arrival": 2.0974502726937367,
+              "echo_arrival": 4.4754238607947014,
+              "p": 1.108939357681274,
+              "q": 1.1500735720837492,
+              "total": 1.2753618483127613,
+              "parent_absolute_differences": {
+                "first_arrival": 3.603650711170303e-11,
+                "echo_arrival": 4.107292284061259e-11,
+                "p": 2.221112183065088e-12,
+                "q": 2.0028423364237824e-13,
+                "total": 2.7766677845875165e-12
+              }
+            }
+          ]
+        },
+        {
+          "n": 64,
+          "metric_only_original_tensor_absolute": 6.752770443953758e-10,
+          "saved_H_difference": 3.943073894740329e-15,
+          "saved_R_difference": 6.218195310872185e-13,
+          "clocks": [
+            {
+              "L": 0.25,
+              "first_arrival": 0.2512083098844957,
+              "echo_arrival": 0.5050100648748952,
+              "p": 1.0098423365406708,
+              "q": 1.0108025157762954,
+              "total": 1.0207511743127224,
+              "parent_absolute_differences": {
+                "first_arrival": 3.099742684753437e-13,
+                "echo_arrival": 2.864375403532904e-13,
+                "p": 4.434230760352875e-13,
+                "q": 4.565237077258644e-13,
+                "total": 1.2878587085651816e-14
+              }
+            },
+            {
+              "L": 1.0,
+              "first_arrival": 1.0214732905705812,
+              "echo_arrival": 2.0974502726580218,
+              "p": 1.0458304891254546,
+              "q": 1.0603433053538052,
+              "total": 1.1089393576790714,
+              "parent_absolute_differences": {
+                "first_arrival": 2.97761815204467e-13,
+                "echo_arrival": 3.2152058793144533e-13,
+                "p": 1.7985612998927536e-14,
+                "q": 6.661338147750939e-16,
+                "total": 1.84297022087776e-14
+              }
+            },
+            {
+              "L": 2.0,
+              "first_arrival": 2.0974502726580218,
+              "echo_arrival": 4.475423860753909,
+              "p": 1.1089393576790714,
+              "q": 1.1500735720835438,
+              "total": 1.2753618483100002,
+              "parent_absolute_differences": {
+                "first_arrival": 3.2152058793144533e-13,
+                "echo_arrival": 2.8066438062523957e-13,
+                "p": 1.84297022087776e-14,
+                "q": 5.10702591327572e-15,
+                "total": 1.554312234475219e-14
+              }
+            }
+          ]
+        },
+        {
+          "n": 128,
+          "metric_only_original_tensor_absolute": 7.748381426627417e-09,
+          "saved_H_difference": 6.3812921147297225e-15,
+          "saved_R_difference": 1.7354629619977815e-12,
+          "clocks": [
+            {
+              "L": 0.25,
+              "first_arrival": 0.2512083098842143,
+              "echo_arrival": 0.5050100648746112,
+              "p": 1.009842336540228,
+              "q": 1.0108025157767517,
+              "total": 1.0207511743127358,
+              "parent_absolute_differences": {
+                "first_arrival": 2.853273173286652e-14,
+                "echo_arrival": 2.4424906541753444e-15,
+                "p": 6.661338147750939e-16,
+                "q": 2.220446049250313e-16,
+                "total": 4.440892098500626e-16
+              }
+            },
+            {
+              "L": 1.0,
+              "first_arrival": 1.0214732905702861,
+              "echo_arrival": 2.097450272657703,
+              "p": 1.0458304891254369,
+              "q": 1.0603433053538056,
+              "total": 1.108939357679053,
+              "parent_absolute_differences": {
+                "first_arrival": 2.6645352591003757e-15,
+                "echo_arrival": 2.6645352591003757e-15,
+                "p": 2.220446049250313e-16,
+                "q": 2.220446049250313e-16,
+                "total": 0.0
+              }
+            },
+            {
+              "L": 2.0,
+              "first_arrival": 2.097450272657703,
+              "echo_arrival": 4.475423860753632,
+              "p": 1.108939357679053,
+              "q": 1.150073572083549,
+              "total": 1.275361848309985,
+              "parent_absolute_differences": {
+                "first_arrival": 2.6645352591003757e-15,
+                "echo_arrival": 3.552713678800501e-15,
+                "p": 0.0,
+                "q": 2.220446049250313e-16,
+                "total": 2.220446049250313e-16
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "negative_curvature",
+      "grids": [
+        {
+          "n": 32,
+          "metric_only_original_tensor_absolute": 3.708865707296159e-11,
+          "saved_H_difference": 7.267798312720955e-15,
+          "saved_R_difference": 1.4810635695834164e-13,
+          "clocks": [
+            {
+              "L": 0.25,
+              "first_arrival": 0.25138261475761725,
+              "echo_arrival": 0.5053531941330411,
+              "p": 1.0108846755860275,
+              "q": 1.0097097500447068,
+              "total": 1.0207001131099922,
+              "parent_absolute_differences": {
+                "first_arrival": 2.0604462580564586e-11,
+                "echo_arrival": 1.9067747381029676e-11,
+                "p": 4.626343752534012e-11,
+                "q": 6.051981138455176e-11,
+                "total": 1.4465983966260865e-11
+              }
+            },
+            {
+              "L": 1.0,
+              "first_arrival": 1.019979054497578,
+              "echo_arrival": 2.0685468620530467,
+              "p": 1.0370821160425188,
+              "q": 1.0196376079124785,
+              "total": 1.0574479280104052,
+              "parent_absolute_differences": {
+                "first_arrival": 1.933053717095845e-11,
+                "echo_arrival": 2.0180745963216395e-11,
+                "p": 8.459899447643693e-14,
+                "q": 3.2951419370874646e-13,
+                "total": 2.5557334026871104e-13
+              }
+            },
+            {
+              "L": 2.0,
+              "first_arrival": 2.0685468620530467,
+              "echo_arrival": 4.195674055535165,
+              "p": 1.0574479280104052,
+              "q": 1.0074976560152533,
+              "total": 1.0653763088286696,
+              "parent_absolute_differences": {
+                "first_arrival": 2.0180745963216395e-11,
+                "echo_arrival": 2.1318058429642406e-11,
+                "p": 2.5557334026871104e-13,
+                "q": 1.965094753586527e-13,
+                "total": 4.651834473179406e-13
+              }
+            }
+          ]
+        },
+        {
+          "n": 64,
+          "metric_only_original_tensor_absolute": 6.626665762836734e-10,
+          "saved_H_difference": 3.862524449588234e-15,
+          "saved_R_difference": 5.320565562021325e-13,
+          "clocks": [
+            {
+              "L": 0.25,
+              "first_arrival": 0.2513826147780746,
+              "echo_arrival": 0.5053531941519603,
+              "p": 1.0108846755395346,
+              "q": 1.009709750105461,
+              "total": 1.0207001131244635,
+              "parent_absolute_differences": {
+                "first_arrival": 1.4710455076283324e-13,
+                "echo_arrival": 1.4854784069484595e-13,
+                "p": 2.2937207688755734e-13,
+                "q": 2.3447910280083306e-13,
+                "total": 5.329070518200751e-15
+              }
+            },
+            {
+              "L": 1.0,
+              "first_arrival": 1.0199790545167542,
+              "echo_arrival": 2.068546862073059,
+              "p": 1.0370821160424275,
+              "q": 1.0196376079128122,
+              "total": 1.0574479280106583,
+              "parent_absolute_differences": {
+                "first_arrival": 1.5432100042289676e-13,
+                "echo_arrival": 1.6830981053317373e-13,
+                "p": 6.661338147750939e-15,
+                "q": 4.218847493575595e-15,
+                "total": 2.4424906541753444e-15
+              }
+            },
+            {
+              "L": 2.0,
+              "first_arrival": 2.068546862073059,
+              "echo_arrival": 4.195674055556336,
+              "p": 1.0574479280106583,
+              "q": 1.0074976560154476,
+              "total": 1.0653763088291301,
+              "parent_absolute_differences": {
+                "first_arrival": 1.6830981053317373e-13,
+                "echo_arrival": 1.474376176702208e-13,
+                "p": 2.4424906541753444e-15,
+                "q": 2.220446049250313e-15,
+                "total": 4.6629367034256575e-15
+              }
+            }
+          ]
+        },
+        {
+          "n": 128,
+          "metric_only_original_tensor_absolute": 7.666721261695731e-09,
+          "saved_H_difference": 4.828104740008457e-15,
+          "saved_R_difference": 1.850109177187545e-12,
+          "clocks": [
+            {
+              "L": 0.25,
+              "first_arrival": 0.2513826147782206,
+              "echo_arrival": 0.5053531941521078,
+              "p": 1.0108846755397645,
+              "q": 1.009709750105226,
+              "total": 1.020700113124458,
+              "parent_absolute_differences": {
+                "first_arrival": 1.1102230246251565e-15,
+                "echo_arrival": 1.1102230246251565e-15,
+                "p": 4.440892098500626e-16,
+                "q": 6.661338147750939e-16,
+                "total": 2.220446049250313e-16
+              }
+            },
+            {
+              "L": 1.0,
+              "first_arrival": 1.0199790545169078,
+              "echo_arrival": 2.068546862073226,
+              "p": 1.0370821160424342,
+              "q": 1.0196376079128082,
+              "total": 1.057447928010661,
+              "parent_absolute_differences": {
+                "first_arrival": 6.661338147750939e-16,
+                "echo_arrival": 1.3322676295501878e-15,
+                "p": 0.0,
+                "q": 2.220446049250313e-16,
+                "total": 2.220446049250313e-16
+              }
+            },
+            {
+              "L": 2.0,
+              "first_arrival": 2.068546862073226,
+              "echo_arrival": 4.195674055556483,
+              "p": 1.057447928010661,
+              "q": 1.0074976560154496,
+              "total": 1.0653763088291348,
+              "parent_absolute_differences": {
+                "first_arrival": 1.3322676295501878e-15,
+                "echo_arrival": 0.0,
+                "p": 2.220446049250313e-16,
+                "q": 2.220446049250313e-16,
+                "total": 0.0
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "positive_offset",
+      "grids": [
+        {
+          "n": 32,
+          "metric_only_original_tensor_absolute": 2.2433327640345336e-11,
+          "saved_H_difference": 6.6123322095545944e-15,
+          "saved_R_difference": 7.646022758076715e-14,
+          "clocks": [
+            {
+              "L": 0.25,
+              "first_arrival": 0.2523055481267522,
+              "echo_arrival": 0.5094749540292639,
+              "p": 1.018693940107865,
+              "q": 1.0198584344129369,
+              "total": 1.0389236069043533,
+              "parent_absolute_differences": {
+                "first_arrival": 2.0504542508348322e-11,
+                "echo_arrival": 1.9298562747849246e-11,
+                "p": 4.413092113964012e-11,
+                "q": 5.781419787354025e-11,
+                "total": 1.3887779815036083e-11
+              }
+            },
+            {
+              "L": 1.0,
+              "first_arrival": 1.0399972204269843,
+              "echo_arrival": 2.177882224859983,
+              "p": 1.0842870791541093,
+              "q": 1.1034399904077967,
+              "total": 1.1964457242211082,
+              "parent_absolute_differences": {
+                "first_arrival": 1.9915624704935908e-11,
+                "echo_arrival": 2.1895818491657337e-11,
+                "p": 6.52589093874667e-13,
+                "q": 1.226574397605873e-12,
+                "total": 2.049915792667889e-12
+              }
+            },
+            {
+              "L": 2.0,
+              "first_arrival": 2.177882224859983,
+              "echo_arrival": 4.866590083440847,
+              "p": 1.1964457242211082,
+              "q": 1.2638081668307914,
+              "total": 1.5120778774404173,
+              "parent_absolute_differences": {
+                "first_arrival": 2.1895818491657337e-11,
+                "echo_arrival": 2.7398527890909463e-11,
+                "p": 2.049915792667889e-12,
+                "q": 5.984102102729594e-13,
+                "total": 3.3066882565435662e-12
+              }
+            }
+          ]
+        },
+        {
+          "n": 64,
+          "metric_only_original_tensor_absolute": 4.2131194530903586e-10,
+          "saved_H_difference": 2.9814001202728424e-15,
+          "saved_R_difference": 3.703438719430442e-13,
+          "clocks": [
+            {
+              "L": 0.25,
+              "first_arrival": 0.2523055481064274,
+              "echo_arrival": 0.5094749540101478,
+              "p": 1.018693940152269,
+              "q": 1.019858434354846,
+              "total": 1.0389236068904624,
+              "parent_absolute_differences": {
+                "first_arrival": 1.7974510768681284e-13,
+                "echo_arrival": 1.8240964294591322e-13,
+                "p": 2.731148640577885e-13,
+                "q": 2.76667577736589e-13,
+                "total": 3.1086244689504383e-15
+              }
+            },
+            {
+              "L": 1.0,
+              "first_arrival": 1.0399972204072607,
+              "echo_arrival": 2.1778822248383,
+              "p": 1.0842870791534738,
+              "q": 1.1034399904065717,
+              "total": 1.1964457242190787,
+              "parent_absolute_differences": {
+                "first_arrival": 1.9206858326015208e-13,
+                "echo_arrival": 2.1271873151818e-13,
+                "p": 1.709743457922741e-14,
+                "q": 1.5543122344752192e-15,
+                "total": 2.042810365310288e-14
+              }
+            },
+            {
+              "L": 2.0,
+              "first_arrival": 2.1778822248383,
+              "echo_arrival": 4.866590083413679,
+              "p": 1.1964457242190787,
+              "q": 1.2638081668301944,
+              "total": 1.5120778774371382,
+              "parent_absolute_differences": {
+                "first_arrival": 2.1271873151818e-13,
+                "echo_arrival": 2.3092638912203256e-13,
+                "p": 2.042810365310288e-14,
+                "q": 1.3322676295501878e-15,
+                "total": 2.7533531010703882e-14
+              }
+            }
+          ]
+        },
+        {
+          "n": 128,
+          "metric_only_original_tensor_absolute": 6.1472357030197314e-09,
+          "saved_H_difference": 4.660429485901785e-15,
+          "saved_R_difference": 1.4897374918951614e-12,
+          "clocks": [
+            {
+              "L": 0.25,
+              "first_arrival": 0.2523055481062493,
+              "echo_arrival": 0.509474954009967,
+              "p": 1.0186939401519957,
+              "q": 1.0198584343551231,
+              "total": 1.0389236068904657,
+              "parent_absolute_differences": {
+                "first_arrival": 1.609823385706477e-15,
+                "echo_arrival": 1.6653345369377348e-15,
+                "p": 2.220446049250313e-16,
+                "q": 4.440892098500626e-16,
+                "total": 2.220446049250313e-16
+              }
+            },
+            {
+              "L": 1.0,
+              "first_arrival": 1.0399972204070707,
+              "echo_arrival": 2.1778822248380894,
+              "p": 1.0842870791534567,
+              "q": 1.1034399904065701,
+              "total": 1.1964457242190583,
+              "parent_absolute_differences": {
+                "first_arrival": 1.9984014443252818e-15,
+                "echo_arrival": 2.220446049250313e-15,
+                "p": 0.0,
+                "q": 0.0,
+                "total": 0.0
+              }
+            },
+            {
+              "L": 2.0,
+              "first_arrival": 2.1778822248380894,
+              "echo_arrival": 4.866590083413447,
+              "p": 1.1964457242190583,
+              "q": 1.2638081668301926,
+              "total": 1.5120778774371102,
+              "parent_absolute_differences": {
+                "first_arrival": 2.220446049250313e-15,
+                "echo_arrival": 8.881784197001252e-16,
+                "p": 0.0,
+                "q": 4.440892098500626e-16,
+                "total": 4.440892098500626e-16
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "negative_offset",
+      "grids": [
+        {
+          "n": 32,
+          "metric_only_original_tensor_absolute": 3.7739253808124974e-11,
+          "saved_H_difference": 5.6633571530323445e-15,
+          "saved_R_difference": 1.3377568604461872e-13,
+          "clocks": [
+            {
+              "L": 0.25,
+              "first_arrival": 0.25206289885613675,
+              "echo_arrival": 0.5081441882570387,
+              "p": 1.0163966970844298,
+              "q": 1.0154931605765205,
+              "total": 1.032143894321804,
+              "parent_absolute_differences": {
+                "first_arrival": 2.4276247678756135e-11,
+                "echo_arrival": 2.2688850798147087e-11,
+                "p": 5.399525271343464e-11,
+                "q": 7.047051830966211e-11,
+                "total": 1.6794121648899818e-11
+              }
+            },
+            {
+              "L": 1.0,
+              "first_arrival": 1.0317035065043663,
+              "echo_arrival": 2.119935709851419,
+              "p": 1.0616530412494196,
+              "q": 1.048680387200268,
+              "total": 1.1133347223697834,
+              "parent_absolute_differences": {
+                "first_arrival": 2.3220092515430224e-11,
+                "echo_arrival": 2.489120021209601e-11,
+                "p": 5.915268275202834e-13,
+                "q": 1.0664802374549254e-12,
+                "total": 1.7525980666732721e-12
+              }
+            },
+            {
+              "L": 2.0,
+              "first_arrival": 2.119935709851419,
+              "echo_arrival": 4.43833562851577,
+              "p": 1.1133347223697834,
+              "q": 1.083616504581741,
+              "total": 1.2064278802838277,
+              "parent_absolute_differences": {
+                "first_arrival": 2.489120021209601e-11,
+                "echo_arrival": 2.7537083724382683e-11,
+                "p": 1.7525980666732721e-12,
+                "q": 9.323652960802065e-13,
+                "total": 8.610889778992714e-13
+              }
+            }
+          ]
+        },
+        {
+          "n": 64,
+          "metric_only_original_tensor_absolute": 6.930014264008014e-10,
+          "saved_H_difference": 2.7784916836921802e-15,
+          "saved_R_difference": 6.013765061017168e-13,
+          "clocks": [
+            {
+              "L": 0.25,
+              "first_arrival": 0.2520628988802381,
+              "echo_arrival": 0.5081441882795389,
+              "p": 1.0163966970301648,
+              "q": 1.0154931606472613,
+              "total": 1.0321438943385988,
+              "parent_absolute_differences": {
+                "first_arrival": 1.7491563752969341e-13,
+                "echo_arrival": 1.886268918838141e-13,
+                "p": 2.6978419498391304e-13,
+                "q": 2.702282841937631e-13,
+                "total": 6.661338147750939e-16
+              }
+            },
+            {
+              "L": 1.0,
+              "first_arrival": 1.0317035065273998,
+              "echo_arrival": 2.119935709876105,
+              "p": 1.061653041250001,
+              "q": 1.048680387201323,
+              "total": 1.113334722371513,
+              "parent_absolute_differences": {
+                "first_arrival": 1.865174681370263e-13,
+                "echo_arrival": 2.0516921495072893e-13,
+                "p": 1.021405182655144e-14,
+                "q": 1.1324274851176597e-14,
+                "total": 2.2870594307278225e-14
+              }
+            },
+            {
+              "L": 2.0,
+              "first_arrival": 2.119935709876105,
+              "echo_arrival": 4.438335628543122,
+              "p": 1.113334722371513,
+              "q": 1.0836165045808277,
+              "total": 1.2064278802846853,
+              "parent_absolute_differences": {
+                "first_arrival": 2.0516921495072893e-13,
+                "echo_arrival": 1.8474111129762605e-13,
+                "p": 2.2870594307278225e-14,
+                "q": 1.9095836023552692e-14,
+                "total": 3.552713678800501e-15
+              }
+            }
+          ]
+        },
+        {
+          "n": 128,
+          "metric_only_original_tensor_absolute": 1.0228789434710498e-08,
+          "saved_H_difference": 5.5325481609219684e-15,
+          "saved_R_difference": 2.477573623826468e-12,
+          "clocks": [
+            {
+              "L": 0.25,
+              "first_arrival": 0.2520628988804117,
+              "echo_arrival": 0.5081441882797149,
+              "p": 1.0163966970304348,
+              "q": 1.0154931606469904,
+              "total": 1.0321438943385977,
+              "parent_absolute_differences": {
+                "first_arrival": 1.27675647831893e-15,
+                "echo_arrival": 1.2656542480726785e-14,
+                "p": 2.220446049250313e-16,
+                "q": 6.661338147750939e-16,
+                "total": 4.440892098500626e-16
+              }
+            },
+            {
+              "L": 1.0,
+              "first_arrival": 1.0317035065275848,
+              "echo_arrival": 2.1199357098763074,
+              "p": 1.0616530412500114,
+              "q": 1.048680387201334,
+              "total": 1.1133347223715357,
+              "parent_absolute_differences": {
+                "first_arrival": 1.5543122344752192e-15,
+                "echo_arrival": 2.6645352591003757e-15,
+                "p": 2.220446049250313e-16,
+                "q": 4.440892098500626e-16,
+                "total": 2.220446049250313e-16
+              }
+            },
+            {
+              "L": 2.0,
+              "first_arrival": 2.1199357098763074,
+              "echo_arrival": 4.438335628543307,
+              "p": 1.1133347223715357,
+              "q": 1.0836165045808086,
+              "total": 1.2064278802846886,
+              "parent_absolute_differences": {
+                "first_arrival": 2.6645352591003757e-15,
+                "echo_arrival": 0.0,
+                "p": 2.220446049250313e-16,
+                "q": 0.0,
+                "total": 2.220446049250313e-16
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "contracting",
+      "grids": [
+        {
+          "n": 32,
+          "metric_only_original_tensor_absolute": 4.115334750256496e-11,
+          "saved_H_difference": 1.7609058572995006e-14,
+          "saved_R_difference": 9.529052216348741e-14,
+          "clocks": [
+            {
+              "L": 0.25,
+              "first_arrival": 0.24887846632140673,
+              "echo_arrival": 0.4956834379651959,
+              "p": 0.9911987419968524,
+              "q": 0.9921381346143648,
+              "total": 0.9834060709168623,
+              "parent_absolute_differences": {
+                "first_arrival": 4.7146675452580666e-11,
+                "echo_arrival": 4.2253256449242826e-11,
+                "p": 1.0909173564499497e-10,
+                "q": 1.4487100408189235e-10,
+                "total": 3.5361935601940786e-11
+              }
+            },
+            {
+              "L": 1.0,
+              "first_arrival": 0.9840520129696909,
+              "echo_arrival": 1.9460113105590968,
+              "p": 0.9706846009182488,
+              "q": 0.9841002523212979,
+              "total": 0.955250960688047,
+              "parent_absolute_differences": {
+                "first_arrival": 4.1996739419403184e-11,
+                "echo_arrival": 4.200306769064355e-11,
+                "p": 2.8707036747732673e-12,
+                "q": 3.535283177313886e-12,
+                "total": 6.066258606551855e-13
+              }
+            },
+            {
+              "L": 2.0,
+              "first_arrival": 1.9460113105590968,
+              "echo_arrival": 3.8470656214794197,
+              "p": 0.955250960688047,
+              "q": 0.9935178091990104,
+              "total": 0.9490588416980386,
+              "parent_absolute_differences": {
+                "first_arrival": 4.200306769064355e-11,
+                "echo_arrival": 4.2245762443826607e-11,
+                "p": 6.066258606551855e-13,
+                "q": 1.3813394872386198e-12,
+                "total": 7.168710070004636e-13
+              }
+            }
+          ]
+        },
+        {
+          "n": 64,
+          "metric_only_original_tensor_absolute": 2.5347278223430534e-10,
+          "saved_H_difference": 1.7678797336641294e-15,
+          "saved_R_difference": 2.1801834985377177e-13,
+          "clocks": [
+            {
+              "L": 0.25,
+              "first_arrival": 0.24887846627457968,
+              "echo_arrival": 0.4956834379232803,
+              "p": 0.9911987421064674,
+              "q": 0.9921381344689335,
+              "total": 0.9834060708814641,
+              "parent_absolute_differences": {
+                "first_arrival": 3.1963320878958257e-13,
+                "echo_arrival": 3.376188217885101e-13,
+                "p": 5.232481115058363e-13,
+                "q": 5.603295605283165e-13,
+                "total": 3.6193270602780103e-14
+              }
+            },
+            {
+              "L": 1.0,
+              "first_arrival": 0.9840520129280165,
+              "echo_arrival": 1.9460113105174301,
+              "p": 0.9706846009211473,
+              "q": 0.9841002523177415,
+              "total": 0.9552509606874472,
+              "parent_absolute_differences": {
+                "first_arrival": 3.2229774404868294e-13,
+                "echo_arrival": 3.3639757646142243e-13,
+                "p": 2.7755575615628914e-14,
+                "q": 2.120525977034049e-14,
+                "total": 6.772360450213455e-15
+              }
+            },
+            {
+              "L": 2.0,
+              "first_arrival": 1.9460113105174301,
+              "echo_arrival": 3.847065621437531,
+              "p": 0.9552509606874472,
+              "q": 0.9935178092003842,
+              "total": 0.9490588416987549,
+              "parent_absolute_differences": {
+                "first_arrival": 3.3639757646142243e-13,
+                "echo_arrival": 3.5704772471945034e-13,
+                "p": 6.772360450213455e-15,
+                "q": 7.549516567451064e-15,
+                "total": 5.551115123125783e-16
+              }
+            }
+          ]
+        },
+        {
+          "n": 128,
+          "metric_only_original_tensor_absolute": 4.160065272694822e-09,
+          "saved_H_difference": 2.8174839983860847e-15,
+          "saved_R_difference": 8.940945026854981e-13,
+          "clocks": [
+            {
+              "L": 0.25,
+              "first_arrival": 0.24887846627426258,
+              "echo_arrival": 0.49568343792296393,
+              "p": 0.9911987421059437,
+              "q": 0.9921381344694943,
+              "total": 0.9834060708815003,
+              "parent_absolute_differences": {
+                "first_arrival": 2.525757381022231e-15,
+                "echo_arrival": 2.1260770921571748e-14,
+                "p": 4.440892098500626e-16,
+                "q": 4.440892098500626e-16,
+                "total": 0.0
+              }
+            },
+            {
+              "L": 1.0,
+              "first_arrival": 0.9840520129276967,
+              "echo_arrival": 1.9460113105170969,
+              "p": 0.9706846009211196,
+              "q": 0.9841002523177628,
+              "total": 0.9552509606874406,
+              "parent_absolute_differences": {
+                "first_arrival": 2.55351295663786e-15,
+                "echo_arrival": 3.1086244689504383e-15,
+                "p": 1.1102230246251565e-16,
+                "q": 1.1102230246251565e-16,
+                "total": 2.220446049250313e-16
+              }
+            },
+            {
+              "L": 2.0,
+              "first_arrival": 1.9460113105170969,
+              "echo_arrival": 3.8470656214371743,
+              "p": 0.9552509606874406,
+              "q": 0.9935178092003916,
+              "total": 0.9490588416987554,
+              "parent_absolute_differences": {
+                "first_arrival": 3.1086244689504383e-15,
+                "echo_arrival": 4.440892098500626e-16,
+                "p": 2.220446049250313e-16,
+                "q": 2.220446049250313e-16,
+                "total": 0.0
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "flat_event",
+      "grids": [
+        {
+          "n": 32,
+          "metric_only_original_tensor_absolute": 5.817403173695684e-11,
+          "saved_H_difference": 7.249748219285979e-15,
+          "saved_R_difference": 1.8000560419941143e-13,
+          "clocks": [
+            {
+              "L": 0.25,
+              "first_arrival": 0.2500008135183243,
+              "echo_arrival": 0.5000130031443489,
+              "p": 1.0000130141472612,
+              "q": 1.000090939931713,
+              "total": 1.00010395526248,
+              "parent_absolute_differences": {
+                "first_arrival": 4.265976460970933e-12,
+                "echo_arrival": 3.916422741667702e-12,
+                "p": 9.268807943385582e-12,
+                "q": 1.2194911747087644e-11,
+                "total": 2.9254376698872875e-12
+              }
+            },
+            {
+              "L": 1.0,
+              "first_arrival": 1.000207228181091,
+              "echo_arrival": 2.003266098753129,
+              "p": 1.0008267565897357,
+              "q": 1.0056370291953773,
+              "total": 1.0064684462361468,
+              "parent_absolute_differences": {
+                "first_arrival": 3.877786980410747e-12,
+                "echo_arrival": 3.574918139293004e-12,
+                "p": 4.900524430695441e-13,
+                "q": 1.0169642905566434e-13,
+                "total": 5.946354519892338e-13
+              }
+            },
+            {
+              "L": 2.0,
+              "first_arrival": 2.003266098753129,
+              "echo_arrival": 4.049447623741831,
+              "p": 1.0064684462361468,
+              "q": 1.0409593146482319,
+              "total": 1.0476927040090502,
+              "parent_absolute_differences": {
+                "first_arrival": 3.574918139293004e-12,
+                "echo_arrival": 2.6059154834001674e-12,
+                "p": 5.946354519892338e-13,
+                "q": 4.89164264649844e-13,
+                "total": 1.1113332476497817e-12
+              }
+            }
+          ]
+        },
+        {
+          "n": 64,
+          "metric_only_original_tensor_absolute": 4.321958473311354e-10,
+          "saved_H_difference": 3.1931185465378965e-15,
+          "saved_R_difference": 4.19074449892632e-13,
+          "clocks": [
+            {
+              "L": 0.25,
+              "first_arrival": 0.2500008135225668,
+              "echo_arrival": 0.5000130031482221,
+              "p": 1.0000130141379246,
+              "q": 1.0000909399439812,
+              "total": 1.000103955265411,
+              "parent_absolute_differences": {
+                "first_arrival": 2.348121697082206e-14,
+                "echo_arrival": 4.3298697960381105e-14,
+                "p": 6.772360450213455e-14,
+                "q": 7.327471962526033e-14,
+                "total": 5.551115123125783e-15
+              }
+            },
+            {
+              "L": 1.0,
+              "first_arrival": 1.0002072281849261,
+              "echo_arrival": 2.003266098756664,
+              "p": 1.0008267565892475,
+              "q": 1.0056370291952865,
+              "total": 1.006468446235565,
+              "parent_absolute_differences": {
+                "first_arrival": 4.263256414560601e-14,
+                "echo_arrival": 3.9968028886505635e-14,
+                "p": 1.7763568394002505e-15,
+                "q": 1.0880185641326534e-14,
+                "total": 1.2878587085651816e-14
+              }
+            },
+            {
+              "L": 2.0,
+              "first_arrival": 2.003266098756664,
+              "echo_arrival": 4.049447623744424,
+              "p": 1.006468446235565,
+              "q": 1.0409593146477356,
+              "total": 1.0476927040079451,
+              "parent_absolute_differences": {
+                "first_arrival": 3.9968028886505635e-14,
+                "echo_arrival": 1.3322676295501878e-14,
+                "p": 1.2878587085651816e-14,
+                "q": 7.105427357601002e-15,
+                "total": 6.217248937900877e-15
+              }
+            }
+          ]
+        },
+        {
+          "n": 128,
+          "metric_only_original_tensor_absolute": 8.35284987833606e-09,
+          "saved_H_difference": 5.522440516762383e-15,
+          "saved_R_difference": 1.964313301318181e-12,
+          "clocks": [
+            {
+              "L": 0.25,
+              "first_arrival": 0.25000081352260967,
+              "echo_arrival": 0.5000130031482649,
+              "p": 1.0000130141379924,
+              "q": 1.000090939943908,
+              "total": 1.0001039552654054,
+              "parent_absolute_differences": {
+                "first_arrival": 1.9373391779708982e-14,
+                "echo_arrival": 4.440892098500626e-16,
+                "p": 0.0,
+                "q": 0.0,
+                "total": 0.0
+              }
+            },
+            {
+              "L": 1.0,
+              "first_arrival": 1.0002072281849683,
+              "echo_arrival": 2.003266098756704,
+              "p": 1.0008267565892457,
+              "q": 1.0056370291952759,
+              "total": 1.0064684462355524,
+              "parent_absolute_differences": {
+                "first_arrival": 4.440892098500626e-16,
+                "echo_arrival": 0.0,
+                "p": 0.0,
+                "q": 2.220446049250313e-16,
+                "total": 2.220446049250313e-16
+              }
+            },
+            {
+              "L": 2.0,
+              "first_arrival": 2.003266098756704,
+              "echo_arrival": 4.04944762374444,
+              "p": 1.0064684462355524,
+              "q": 1.0409593146477427,
+              "total": 1.0476927040079391,
+              "parent_absolute_differences": {
+                "first_arrival": 0.0,
+                "echo_arrival": 2.6645352591003757e-15,
+                "p": 2.220446049250313e-16,
+                "q": 0.0,
+                "total": 2.220446049250313e-16
+              }
+            }
+          ]
+        }
+      ],
+      "saved_clock_cubic_remainders": [
+        {
+          "L": 0.125,
+          "p_remainder": -2.119147499716879e-10,
+          "q_remainder": -6.568109417264849e-09,
+          "p_remainder_over_L5": -6.944022527072269e-06,
+          "q_remainder_over_L5": -0.00021522380938493457,
+          "predicted_quintic_p": -6.944444444444444e-06,
+          "predicted_quintic_q": -0.00021527777777777778
+        },
+        {
+          "L": 0.0625,
+          "p_remainder": -6.62270550114001e-12,
+          "q_remainder": -2.0529211884014653e-10,
+          "p_remainder_over_L5": -6.944410043563387e-06,
+          "q_remainder_over_L5": -0.0002152643888049255,
+          "predicted_quintic_p": -6.944444444444444e-06,
+          "predicted_quintic_q": -0.00021527777777777778
+        },
+        {
+          "L": 0.03125,
+          "p_remainder": -2.0709722792405015e-13,
+          "q_remainder": -6.415522102377096e-12,
+          "p_remainder_over_L5": -6.949029851766042e-06,
+          "q_remainder_over_L5": -0.00021526920012870931,
+          "predicted_quintic_p": -6.944444444444444e-06,
+          "predicted_quintic_q": -0.00021527777777777778
+        }
+      ]
+    }
+  ]
+}

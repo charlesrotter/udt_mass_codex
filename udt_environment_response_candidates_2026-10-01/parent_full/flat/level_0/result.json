@@ -1,0 +1,74 @@
+{
+  "setting": [
+    1e-09,
+    1e-11,
+    0.1
+  ],
+  "end": 6.0,
+  "domain_stop": false,
+  "nfev": 932,
+  "residuals": [
+    {
+      "subdivisions": 32,
+      "step": 0.1875,
+      "original_tensor_absolute": 0.0,
+      "original_tensor_normalized": 0.0,
+      "geometry_R_normalized": 0.0,
+      "metric_clock_normalized": 3.770132354456261e-16,
+      "constraint_normalized": 0.0,
+      "a_min": 1.0,
+      "F_min": 1.0
+    },
+    {
+      "subdivisions": 64,
+      "step": 0.09375,
+      "original_tensor_absolute": 0.0,
+      "original_tensor_normalized": 0.0,
+      "geometry_R_normalized": 0.0,
+      "metric_clock_normalized": 7.540264708912522e-16,
+      "constraint_normalized": 0.0,
+      "a_min": 1.0,
+      "F_min": 1.0
+    },
+    {
+      "subdivisions": 128,
+      "step": 0.046875,
+      "original_tensor_absolute": 0.0,
+      "original_tensor_normalized": 0.0,
+      "geometry_R_normalized": 0.0,
+      "metric_clock_normalized": 1.5080529417825044e-15,
+      "constraint_normalized": 0.0,
+      "a_min": 1.0,
+      "F_min": 1.0
+    }
+  ],
+  "clocks": [
+    {
+      "L": 0.25,
+      "first_arrival": 0.24999999999999997,
+      "p": 1.0,
+      "status": "BOTH_REACHED",
+      "echo_arrival": 0.49999999999999994,
+      "q": 1.0,
+      "total": 1.0
+    },
+    {
+      "L": 1.0,
+      "first_arrival": 0.9999999999999999,
+      "p": 1.0,
+      "status": "BOTH_REACHED",
+      "echo_arrival": 1.9999999999999998,
+      "q": 1.0,
+      "total": 1.0
+    },
+    {
+      "L": 2.0,
+      "first_arrival": 1.9999999999999998,
+      "p": 1.0,
+      "status": "BOTH_REACHED",
+      "echo_arrival": 3.9999999999999996,
+      "q": 1.0,
+      "total": 1.0
+    }
+  ]
+}

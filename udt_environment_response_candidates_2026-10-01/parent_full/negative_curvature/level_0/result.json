@@ -1,0 +1,74 @@
+{
+  "setting": [
+    1e-09,
+    1e-11,
+    0.1
+  ],
+  "end": 6.0,
+  "domain_stop": false,
+  "nfev": 917,
+  "residuals": [
+    {
+      "subdivisions": 32,
+      "step": 0.1875,
+      "original_tensor_absolute": 8.466761665035238e-09,
+      "original_tensor_normalized": 8.277438782760604e-09,
+      "geometry_R_normalized": 1.6853169313246906e-11,
+      "metric_clock_normalized": 7.412222805470651e-13,
+      "constraint_normalized": 2.3621639986058623e-18,
+      "a_min": 1.0,
+      "F_min": 0.8
+    },
+    {
+      "subdivisions": 64,
+      "step": 0.09375,
+      "original_tensor_absolute": 1.3538814340463556e-10,
+      "original_tensor_normalized": 1.320682483937805e-10,
+      "geometry_R_normalized": 6.709302286443774e-14,
+      "metric_clock_normalized": 6.053142125454067e-15,
+      "constraint_normalized": 2.3621639986058623e-18,
+      "a_min": 1.0,
+      "F_min": 0.8
+    },
+    {
+      "subdivisions": 128,
+      "step": 0.046875,
+      "original_tensor_absolute": 3.327636777239462e-12,
+      "original_tensor_normalized": 3.1013600721806163e-12,
+      "geometry_R_normalized": 1.2495152660307214e-15,
+      "metric_clock_normalized": 4.976796630045489e-15,
+      "constraint_normalized": 2.577413574540615e-18,
+      "a_min": 1.0,
+      "F_min": 0.8
+    }
+  ],
+  "clocks": [
+    {
+      "L": 0.25,
+      "first_arrival": 0.2513826147782219,
+      "p": 1.0108846755397638,
+      "status": "BOTH_REACHED",
+      "echo_arrival": 0.5053531941521088,
+      "q": 1.0097097501052266,
+      "total": 1.020700113124458
+    },
+    {
+      "L": 1.0,
+      "first_arrival": 1.0199790545169087,
+      "p": 1.0370821160424337,
+      "status": "BOTH_REACHED",
+      "echo_arrival": 2.068546862073227,
+      "q": 1.0196376079128087,
+      "total": 1.057447928010661
+    },
+    {
+      "L": 2.0,
+      "first_arrival": 2.068546862073227,
+      "p": 1.057447928010661,
+      "status": "BOTH_REACHED",
+      "echo_arrival": 4.195674055556483,
+      "q": 1.0074976560154505,
+      "total": 1.0653763088291357
+    }
+  ]
+}

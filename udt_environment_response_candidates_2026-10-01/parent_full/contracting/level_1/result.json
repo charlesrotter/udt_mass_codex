@@ -1,0 +1,74 @@
+{
+  "setting": [
+    1e-11,
+    1e-13,
+    0.05
+  ],
+  "end": 6.0,
+  "domain_stop": false,
+  "nfev": 1817,
+  "residuals": [
+    {
+      "subdivisions": 32,
+      "step": 0.1875,
+      "original_tensor_absolute": 1.646748136116538e-08,
+      "original_tensor_normalized": 1.5504861744829215e-08,
+      "geometry_R_normalized": 3.0962725894408513e-11,
+      "metric_clock_normalized": 1.1114654690333598e-12,
+      "constraint_normalized": 2.592695833922085e-18,
+      "a_min": 0.9366143694819863,
+      "F_min": 0.8332080452842254
+    },
+    {
+      "subdivisions": 64,
+      "step": 0.09375,
+      "original_tensor_absolute": 2.6219332607824164e-10,
+      "original_tensor_normalized": 2.4686660455149835e-10,
+      "geometry_R_normalized": 1.232132963100158e-13,
+      "metric_clock_normalized": 5.918174706705393e-15,
+      "constraint_normalized": 2.598796692918049e-18,
+      "a_min": 0.9366143694819863,
+      "F_min": 0.8332080452842254
+    },
+    {
+      "subdivisions": 128,
+      "step": 0.046875,
+      "original_tensor_absolute": 5.042459505499863e-12,
+      "original_tensor_normalized": 4.739124281372991e-12,
+      "geometry_R_normalized": 8.722969692304794e-16,
+      "metric_clock_normalized": 3.800770122614995e-15,
+      "constraint_normalized": 2.598796692918049e-18,
+      "a_min": 0.9366143694819863,
+      "F_min": 0.8332080452842254
+    }
+  ],
+  "clocks": [
+    {
+      "L": 0.25,
+      "first_arrival": 0.2488784662742602,
+      "p": 0.991198742105944,
+      "status": "BOTH_REACHED",
+      "echo_arrival": 0.4956834379229428,
+      "q": 0.9921381344694937,
+      "total": 0.9834060708815001
+    },
+    {
+      "L": 1.0,
+      "first_arrival": 0.9840520129276941,
+      "p": 0.9706846009211195,
+      "status": "BOTH_REACHED",
+      "echo_arrival": 1.9460113105170944,
+      "q": 0.9841002523177628,
+      "total": 0.9552509606874405
+    },
+    {
+      "L": 2.0,
+      "first_arrival": 1.9460113105170944,
+      "p": 0.9552509606874405,
+      "status": "BOTH_REACHED",
+      "echo_arrival": 3.8470656214371735,
+      "q": 0.9935178092003918,
+      "total": 0.9490588416987555
+    }
+  ]
+}

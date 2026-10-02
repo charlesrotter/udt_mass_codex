@@ -1,0 +1,74 @@
+{
+  "setting": [
+    1e-09,
+    1e-11,
+    0.1
+  ],
+  "end": 6.0,
+  "domain_stop": false,
+  "nfev": 917,
+  "residuals": [
+    {
+      "subdivisions": 32,
+      "step": 0.1875,
+      "original_tensor_absolute": 1.1086143182278962e-08,
+      "original_tensor_normalized": 1.0288943124147915e-08,
+      "geometry_R_normalized": 2.0103195393568603e-11,
+      "metric_clock_normalized": 4.1718581090388556e-13,
+      "constraint_normalized": 1.6433426488527532e-17,
+      "a_min": 1.0,
+      "F_min": 1.0395508846351516
+    },
+    {
+      "subdivisions": 64,
+      "step": 0.09375,
+      "original_tensor_absolute": 2.0161790119377354e-10,
+      "original_tensor_normalized": 1.865280387441109e-10,
+      "geometry_R_normalized": 9.131933281533369e-14,
+      "metric_clock_normalized": 3.962720712319625e-15,
+      "constraint_normalized": 1.808650842779369e-17,
+      "a_min": 1.0,
+      "F_min": 1.0395508846351516
+    },
+    {
+      "subdivisions": 128,
+      "step": 0.046875,
+      "original_tensor_absolute": 9.331332581630214e-12,
+      "original_tensor_normalized": 8.642068641817271e-12,
+      "geometry_R_normalized": 2.581836584172457e-15,
+      "metric_clock_normalized": 6.660416291776806e-15,
+      "constraint_normalized": 1.811583215364012e-17,
+      "a_min": 1.0,
+      "F_min": 1.0395508846351516
+    }
+  ],
+  "clocks": [
+    {
+      "L": 0.25,
+      "first_arrival": 0.252305548106248,
+      "p": 1.0186939401519959,
+      "status": "BOTH_REACHED",
+      "echo_arrival": 0.5094749540099657,
+      "q": 1.0198584343551225,
+      "total": 1.0389236068904653
+    },
+    {
+      "L": 1.0,
+      "first_arrival": 1.0399972204070695,
+      "p": 1.084287079153457,
+      "status": "BOTH_REACHED",
+      "echo_arrival": 2.1778822248380902,
+      "q": 1.1034399904065701,
+      "total": 1.1964457242190585
+    },
+    {
+      "L": 2.0,
+      "first_arrival": 2.1778822248380902,
+      "p": 1.1964457242190585,
+      "status": "BOTH_REACHED",
+      "echo_arrival": 4.866590083413452,
+      "q": 1.2638081668301937,
+      "total": 1.5120778774371118
+    }
+  ]
+}

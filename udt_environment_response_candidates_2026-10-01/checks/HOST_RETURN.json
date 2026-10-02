@@ -1,0 +1,10 @@
+{
+  "utc": "2026-10-02 01:17:57 UTC",
+  "command": "ps -C python,python3,torchrun -o pid,ppid,comm,args",
+  "chunk_id": "68dbf8",
+  "wall_time_seconds": 0.000008993,
+  "exit_code": 1,
+  "original_token_count": 10,
+  "output": "    PID    PPID COMMAND         COMMAND\n",
+  "scope": "Host process query at return; not a guarantee of future state."
+}

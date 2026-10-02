@@ -1,0 +1,19 @@
+{
+  "utc": "2026-10-02T01:09:48.645770+00:00",
+  "scope": "Attestation metadata schema correction only; no new scientific review or result.",
+  "reason": "Parent binder requires canonical context ID; original used descriptive prose.",
+  "preserved_original": "udt_environment_response_candidates_2026-10-01/math/FINAL_ATTESTATION_INITIAL.json",
+  "original_sha256": "48c04d3b62f607d52aa8f7c223039fff2ecfc517cf7c4db8a3dc4c5a5f6f1d20",
+  "corrected_attestation": "udt_environment_response_candidates_2026-10-01/math/FINAL_ATTESTATION.json",
+  "corrected_sha256": "82aa9db82bdab8a50710aa3abbccb643f76adf61cab280bc98b89cfefbb439dd",
+  "changes": {
+    "context": "/root/erc_math",
+    "context_description": "Original context prose moved unchanged."
+  },
+  "unchanged": [
+    "report_path",
+    "report_sha256",
+    "accepted_sha256",
+    "verdict"
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "utc": "2026-10-02T00:13:23.086585+00:00",
+  "parent_candidate_exposure": false,
+  "sha256": {
+    "udt_environment_response_candidates_2026-10-01/math/SOURCE_FIRST.md": "1cad6eac626febee4d389de4f551a335c9010d327335551a37ef52c2198b769e",
+    "udt_environment_response_candidates_2026-10-01/math/source_first_check.py": "d06f61f0b361e3d4aecd5180580c0c035dd52907217334f361d40aff8de5bb5f"
+  }
+}

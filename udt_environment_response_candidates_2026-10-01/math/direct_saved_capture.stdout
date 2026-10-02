@@ -1,0 +1,14 @@
+{
+  "pass": true,
+  "binding_count": 118,
+  "case_count": 8,
+  "worst_finest_metric_only_residual": 1.0228789434710498e-08,
+  "worst_finest_clock_difference": 2.853273173286652e-14,
+  "flat_event_a_coefficients": [
+    "0",
+    "0",
+    "P/36",
+    "0",
+    "-P/(4320*alpha)"
+  ]
+}

@@ -1,0 +1,74 @@
+{
+  "setting": [
+    1e-13,
+    1e-15,
+    0.025
+  ],
+  "end": 6.0,
+  "domain_stop": false,
+  "nfev": 3617,
+  "residuals": [
+    {
+      "subdivisions": 32,
+      "step": 0.1875,
+      "original_tensor_absolute": 1.0391050263292012e-08,
+      "original_tensor_normalized": 9.850194601010479e-09,
+      "geometry_R_normalized": 1.962828382387486e-11,
+      "metric_clock_normalized": 9.364989790413495e-13,
+      "constraint_normalized": 8.52803967746745e-18,
+      "a_min": 1.0,
+      "F_min": 0.9288526359781083
+    },
+    {
+      "subdivisions": 64,
+      "step": 0.09375,
+      "original_tensor_absolute": 1.649440306561445e-10,
+      "original_tensor_normalized": 1.5635867163008834e-10,
+      "geometry_R_normalized": 7.805131074980238e-14,
+      "metric_clock_normalized": 5.595348565785343e-15,
+      "constraint_normalized": 1.0170255193429152e-17,
+      "a_min": 1.0,
+      "F_min": 0.9288526359781083
+    },
+    {
+      "subdivisions": 128,
+      "step": 0.046875,
+      "original_tensor_absolute": 5.322440405075568e-12,
+      "original_tensor_normalized": 5.051475780078639e-12,
+      "geometry_R_normalized": 1.5979583864186965e-15,
+      "metric_clock_normalized": 8.001826321651687e-15,
+      "constraint_normalized": 1.0177791168023063e-17,
+      "a_min": 1.0,
+      "F_min": 0.9288526359781083
+    }
+  ],
+  "clocks": [
+    {
+      "L": 0.25,
+      "first_arrival": 0.25120830988418574,
+      "p": 1.0098423365402274,
+      "status": "BOTH_REACHED",
+      "echo_arrival": 0.5050100648746088,
+      "q": 1.010802515776752,
+      "total": 1.0207511743127353
+    },
+    {
+      "L": 1.0,
+      "first_arrival": 1.0214732905702835,
+      "p": 1.0458304891254366,
+      "status": "BOTH_REACHED",
+      "echo_arrival": 2.0974502726577002,
+      "q": 1.0603433053538058,
+      "total": 1.108939357679053
+    },
+    {
+      "L": 2.0,
+      "first_arrival": 2.0974502726577002,
+      "p": 1.108939357679053,
+      "status": "BOTH_REACHED",
+      "echo_arrival": 4.4754238607536285,
+      "q": 1.1500735720835489,
+      "total": 1.2753618483099847
+    }
+  ]
+}

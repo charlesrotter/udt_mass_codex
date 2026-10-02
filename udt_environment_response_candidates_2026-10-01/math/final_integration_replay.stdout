@@ -1,0 +1,31 @@
+{
+  "pass": true,
+  "freeze_sha256": "db88a177e9dcc7230c40c8ad10cf120549d6636ff59f3d32795710a0447c7762",
+  "accepted_file_count": 12664,
+  "bytes_checked": 2195831123,
+  "protected_map_entries": 0,
+  "changed_inherited_paths": [
+    "CURRENT_RESEARCH_PROGRAM.md",
+    "HANDOFF.md",
+    "LIVE.md",
+    "UDT_DEVELOPMENT.md",
+    "development_reconstruction_2026-09-29/DEVELOPMENT_GRAPH.json",
+    "development_reconstruction_2026-09-29/RECENT_DISPOSITIONS.tsv"
+  ],
+  "unchanged_inherited_count": 12462,
+  "new_package_files": 196,
+  "new_graph_nodes": [
+    "C_ERC_EVOLUTION",
+    "C_ERC_FLAT_EVENT",
+    "C_ERC_RESPONSES",
+    "C_ERC_WEAK",
+    "R17ERC",
+    "R8ERC"
+  ],
+  "prior_edges_sources_conditions_reviews_preserved": true,
+  "prior_dispositions_preserved": true,
+  "generated_orientation_identical": true,
+  "actual_branch": "grok",
+  "actual_head": "b01ba4e0b41ed6b525f10c3db44dc7ffd8777781",
+  "scope": "File correspondence and scoped semantic assertions after actual prose review; no full406 or physics replay, and hashes are not scientific proof."
+}

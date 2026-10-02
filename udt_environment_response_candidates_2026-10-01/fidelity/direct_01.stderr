@@ -1,0 +1,4 @@
+Traceback (most recent call last):
+  File "/home/udt-admin/udt_mass_codex/udt_environment_response_candidates_2026-10-01/fidelity/direct_checks.py", line 17, in <module>
+    assert got==want,(name,got,want)
+AssertionError: ('udt_environment_response_candidates_2026-10-01/check_candidates.py', '418949569f239341606ec71033d94b14e965506ae7be12df6878222233d1b960', 'fe782ce617ea980b93e8d152f97c25d5699bb18bc39caa825495d556874b2521')

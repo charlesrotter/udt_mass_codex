@@ -1,0 +1,57 @@
+{
+  "mode": "smoke",
+  "python": "3.10.12 (main, Aug 31 2026, 10:18:17) [GCC 11.4.0]",
+  "numpy": "2.2.6",
+  "scipy": "1.15.3",
+  "sympy": "1.13.1",
+  "code_sha256": "fe782ce617ea980b93e8d152f97c25d5699bb18bc39caa825495d556874b2521",
+  "scope": "Conditional response diagnostics only; no native UDT admission or empirical fit.",
+  "status": "PASS",
+  "residuals": [
+    {
+      "subdivisions": 32,
+      "step": 0.03125,
+      "original_tensor_absolute": 5.767964231240263e-13,
+      "original_tensor_normalized": 5.690770667972448e-13,
+      "geometry_R_normalized": 7.779903734440684e-17,
+      "metric_clock_normalized": 6.3963158747220225e-15,
+      "constraint_normalized": 1.6251568784160097e-19,
+      "a_min": 1.0,
+      "F_min": 1.0
+    },
+    {
+      "subdivisions": 64,
+      "step": 0.015625,
+      "original_tensor_absolute": 3.2703284524870924e-12,
+      "original_tensor_normalized": 3.225608052555829e-12,
+      "geometry_R_normalized": 1.2943862260365294e-16,
+      "metric_clock_normalized": 1.817862014177217e-14,
+      "constraint_normalized": 2.7085316502112363e-19,
+      "a_min": 1.0,
+      "F_min": 1.0
+    },
+    {
+      "subdivisions": 128,
+      "step": 0.0078125,
+      "original_tensor_absolute": 3.9060907286447843e-11,
+      "original_tensor_normalized": 3.8381630050994565e-11,
+      "geometry_R_normalized": 2.9741226847680216e-16,
+      "metric_clock_normalized": 3.13086826379687e-14,
+      "constraint_normalized": 2.7085316502112363e-19,
+      "a_min": 1.0,
+      "F_min": 1.0
+    }
+  ],
+  "clock": {
+    "L": 0.25,
+    "first_arrival": 0.2500008135225901,
+    "p": 1.0000130141379924,
+    "status": "BOTH_REACHED",
+    "echo_arrival": 0.5000130031482654,
+    "q": 1.000090939943908,
+    "total": 1.0001039552654054
+  },
+  "nfev": 317,
+  "domain_event_registered": true,
+  "manual_stop": "Existing inspected TPS1 capture forwards SIGINT/SIGTERM; no separate interruption replay needed for this short bounded ODE."
+}

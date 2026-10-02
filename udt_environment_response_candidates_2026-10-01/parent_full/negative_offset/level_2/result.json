@@ -1,0 +1,74 @@
+{
+  "setting": [
+    1e-13,
+    1e-15,
+    0.025
+  ],
+  "end": 6.0,
+  "domain_stop": false,
+  "nfev": 3617,
+  "residuals": [
+    {
+      "subdivisions": 32,
+      "step": 0.1875,
+      "original_tensor_absolute": 3.567038294946534e-09,
+      "original_tensor_normalized": 3.497096379824324e-09,
+      "geometry_R_normalized": 7.13476892507705e-12,
+      "metric_clock_normalized": 5.752997999470201e-13,
+      "constraint_normalized": 6.7707087531546914e-18,
+      "a_min": 1.0,
+      "F_min": 0.88
+    },
+    {
+      "subdivisions": 64,
+      "step": 0.09375,
+      "original_tensor_absolute": 7.001032913123151e-11,
+      "original_tensor_normalized": 6.676184569208672e-11,
+      "geometry_R_normalized": 3.358374319940082e-14,
+      "metric_clock_normalized": 4.445965517138648e-15,
+      "constraint_normalized": 6.800201648938585e-18,
+      "a_min": 1.0,
+      "F_min": 0.88
+    },
+    {
+      "subdivisions": 128,
+      "step": 0.046875,
+      "original_tensor_absolute": 4.265735334407772e-12,
+      "original_tensor_normalized": 4.172727514444449e-12,
+      "geometry_R_normalized": 1.6582905654851618e-15,
+      "metric_clock_normalized": 9.565065661165754e-15,
+      "constraint_normalized": 8.46481737984813e-18,
+      "a_min": 1.0,
+      "F_min": 0.88
+    }
+  ],
+  "clocks": [
+    {
+      "L": 0.25,
+      "first_arrival": 0.252062898880413,
+      "p": 1.0163966970304346,
+      "status": "BOTH_REACHED",
+      "echo_arrival": 0.5081441882797275,
+      "q": 1.015493160646991,
+      "total": 1.032143894338598
+    },
+    {
+      "L": 1.0,
+      "first_arrival": 1.0317035065275864,
+      "p": 1.0616530412500111,
+      "status": "BOTH_REACHED",
+      "echo_arrival": 2.11993570987631,
+      "q": 1.0486803872013344,
+      "total": 1.113334722371536
+    },
+    {
+      "L": 2.0,
+      "first_arrival": 2.11993570987631,
+      "p": 1.113334722371536,
+      "status": "BOTH_REACHED",
+      "echo_arrival": 4.438335628543307,
+      "q": 1.0836165045808086,
+      "total": 1.2064278802846888
+    }
+  ]
+}

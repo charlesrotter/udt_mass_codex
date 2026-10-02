@@ -1,0 +1,27 @@
+{
+  "stage": "SOURCE_FIRST_BEFORE_PARENT_CANDIDATE_CODE_RESULTS",
+  "utc": "2026-10-02T00:27:08.590977+00:00",
+  "head": "b01ba4e0b41ed6b525f10c3db44dc7ffd8777781",
+  "sources": {
+    "AGENTS.md": "bcab9b67305e0314af9eaf25162d203660eae8f2ff4fd87d17e83588970ef38d",
+    "CLAUDE.md": "4ad2e773defb89cc79541fd0ababd75af5a3344ab134ee83722dfd943966e6e4",
+    "UDT_DEVELOPMENT.md": "c68ac0fd961007f108eeb0472ad90a3b164f4d9aa3db872c99b929e3ceacd27f",
+    "udt_environment_response_candidates_2026-10-01/WORK_ORDER.md": "c7ecb5f00b86db6f91586113eebd2baebdf9ad4334bfa22e5b53d50ab3335eff",
+    "udt_gr_commitment_audit_2026-09-29/INITIAL_CANDIDATE.md": "30c9bef57625a8e65cee24951a55a6db173ac1d91e0f1e88c6e0052fea781a47",
+    "udt_gr_commitment_audit_2026-09-29/REVIEWED_RESULT.md": "3418a96c5de81dce9062871a1395801d887cdd7ab02159d392dd139b573ae368",
+    "udt_gr_filter_reconciliation_2026-09-09/AUTHORITY_RECORD.md": "80daa0be6d3e1c0ac1b734fea089c4eb487f05bc1e1fbb2fabd69322ca89f28c",
+    "development_reconstruction_2026-09-29/universal_law_clarification_2026-10-01/OWNER_CLARIFICATION.md": "69041b4a2033fd85ff65f113f07ea3ac6a6b06af9a0c07e26a775a33fb3f5a1c",
+    "udt_shared_geometry_extension_2026-09-29/OWNER_CLARIFICATION.md": "94480181e004a535e0dffd122545310c0aaedfb98d3734c5095c75bfe9ed3f50",
+    "udt_repository_cleanup_2026-09-27/local_clock_impact_2026-09-29/OWNER_CLARIFICATION.md": "bf31a0682bed7060a0eea38035bfd87a0ab2c6bee41406882ae5a4abfc11471b",
+    "udt_positional_geometry_clock_connection_2026-09-28/OWNER_STATEMENT.md": "6d51ac6e4525dec57f7a9d3f795568410052e20102d9971bca0a4275eef4bee7",
+    "udt_time_live_production_survey_2026-10-01/capture.py": "217cdbac5486e8a531552f4d74a15ce641299b65dafb5d58f7b60f4ba51781bc",
+    "udt_environment_response_candidates_2026-10-01/fidelity/SOURCE_FIRST.md": "f7cef5a8208fc5612c3b8b3ada0d7dd0d7ed94a3b7b196a4a52c19bc23e86647",
+    "udt_environment_response_candidates_2026-10-01/fidelity/independent_checks.py": "9b2afbd0eef2741db259e91dfbf1c97b438c40b9ea44983864fe1de876ac8b19"
+  },
+  "unavailable_independence": [
+    "different model",
+    "different symbolic library",
+    "human review",
+    "formal proof"
+  ]
+}

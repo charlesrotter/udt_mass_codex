@@ -5,7 +5,7 @@ This bounded startup view is generated from its opening; edit that source.
 LIVE.md owns operational status; CURRENT_SCIENTIFIC_PREMISES.tsv owns exact grades.
 
 <!-- GENERATED_DEVELOPMENT_BEGIN -->
-**Continuous development — CDR1 with SGE1, LKT1, GCA1, PCW1, CES1, CCR1, PRI1, TRI1, NGD1, TDS1, TPP1, TPS1, PSW1, FPC1, FNA1, FST1, ECS1 and PCC1, 2026-10-01.** This is the maintained
+**Continuous development — CDR1 with SGE1, LKT1, GCA1, PCW1, CES1, CCR1, PRI1, TRI1, NGD1, TDS1, TPP1, TPS1, PSW1, FPC1, FNA1, FST1, ECS1, PCC1 and ERC1, 2026-10-01.** This is the maintained
 scientific development. It is not canon or a new scientific-grade authority.
 The exact registry and reviewed sources own grades; LIVE owns operational status.
 Current review bindings and limits are recorded in section9; startup reads the
@@ -139,8 +139,18 @@ isotropy. An exact nonuniform Kottler comparison realizes it. An Einstein refere
 forces a constant added coefficient; a supplied evolving-reference counterexample
 shows general constancy is false. Reference/matching, positional identification
 and native selection remain open; this adds no distinct UDT prediction or finite
-distance law. Stop for discussion at the reviewed conditional trial return; no
-physical premise is adopted.
+distance law. Its stronger physical trial remains unadopted.
+ERC1 now tests two explicitly UNADOPTED response identifications under the owner's
+universal-law clarification. A nonzero curvature-dependent multiplier leaves the
+regular Einstein shape equation unchanged. GCA1's known curvature-derivative
+response, from the metric R+alpha R² comparison, admits regular nonconstant
+curvature and evolving actual clock records. A solved flat-event example realizes
+the earlier cubic clock-control feature without prescribing its scale factor.
+Its higher curvature-derivative data are supplied; it shares initial curvature,
+not complete dynamical data, with Minkowski. Short CPU checks and independent
+saved-metric reviews support the declared conditional examples. Native response
+identity, source coupling, positional attribution, physical scale and empirical
+recovery remain open. Stop for discussion; no response or action is adopted.
 <!-- GENERATED_DEVELOPMENT_END -->
 
 ## Current next gate

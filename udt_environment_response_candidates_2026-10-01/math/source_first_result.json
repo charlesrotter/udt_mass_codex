@@ -1,0 +1,250 @@
+{
+  "scope": "one supplied finite FLRW witness and exact restricted symbolic checks",
+  "versions": {
+    "python": "3.10.12",
+    "sympy": "1.13.1",
+    "numpy": "2.2.6",
+    "scipy": "1.15.3"
+  },
+  "source_sha256": "d06f61f0b361e3d4aecd5180580c0c035dd52907217334f361d40aff8de5bb5f",
+  "source_first_sha256": "1cad6eac626febee4d389de4f551a335c9010d327335551a37ef52c2198b769e",
+  "symbolic_checks": [
+    {
+      "name": "static scalar from metric",
+      "zero": true,
+      "residual": "0"
+    },
+    {
+      "name": "static Ric00 from metric",
+      "zero": true,
+      "residual": "0"
+    },
+    {
+      "name": "static E(0, 0)",
+      "zero": true,
+      "residual": "0"
+    },
+    {
+      "name": "static E(0, 1)",
+      "zero": true,
+      "residual": "0"
+    },
+    {
+      "name": "static E(0, 2)",
+      "zero": true,
+      "residual": "0"
+    },
+    {
+      "name": "static E(0, 3)",
+      "zero": true,
+      "residual": "0"
+    },
+    {
+      "name": "static E(1, 0)",
+      "zero": true,
+      "residual": "0"
+    },
+    {
+      "name": "static E(1, 1)",
+      "zero": true,
+      "residual": "0"
+    },
+    {
+      "name": "static E(1, 2)",
+      "zero": true,
+      "residual": "0"
+    },
+    {
+      "name": "static E(1, 3)",
+      "zero": true,
+      "residual": "0"
+    },
+    {
+      "name": "static E(2, 0)",
+      "zero": true,
+      "residual": "0"
+    },
+    {
+      "name": "static E(2, 1)",
+      "zero": true,
+      "residual": "0"
+    },
+    {
+      "name": "static E(2, 2)",
+      "zero": true,
+      "residual": "0"
+    },
+    {
+      "name": "static E(2, 3)",
+      "zero": true,
+      "residual": "0"
+    },
+    {
+      "name": "static E(3, 0)",
+      "zero": true,
+      "residual": "0"
+    },
+    {
+      "name": "static E(3, 1)",
+      "zero": true,
+      "residual": "0"
+    },
+    {
+      "name": "static E(3, 2)",
+      "zero": true,
+      "residual": "0"
+    },
+    {
+      "name": "static E(3, 3)",
+      "zero": true,
+      "residual": "0"
+    },
+    {
+      "name": "static scalar profile",
+      "zero": true,
+      "residual": "0"
+    },
+    {
+      "name": "omitting independent Psi is detected",
+      "nonzero_residual": "-2*exp(-r)/(9*r)"
+    },
+    {
+      "name": "FLRW Ric00",
+      "zero": true,
+      "residual": "0"
+    },
+    {
+      "name": "FLRW spatial Ric",
+      "zero": true,
+      "residual": "0"
+    },
+    {
+      "name": "FLRW metric scalar",
+      "zero": true,
+      "residual": "0"
+    },
+    {
+      "name": "FLRW trace relation",
+      "zero": true,
+      "residual": "0"
+    },
+    {
+      "name": "FLRW constraint propagation",
+      "zero": true,
+      "residual": "0"
+    },
+    {
+      "name": "initial constraint",
+      "zero": true,
+      "residual": "0"
+    },
+    {
+      "name": "perturbed initial constraint detected",
+      "nonzero_residual": "3/5000"
+    }
+  ],
+  "cases": [
+    {
+      "rtol": 1e-08,
+      "success": true,
+      "nfev": 211,
+      "endpoint": [
+        1.2036446378467769,
+        0.08217513746813228,
+        0.003418107981165785,
+        -0.0413566040957456,
+        1.8200989704599566
+      ],
+      "minimum_a": 1.0,
+      "minimum_F": 1.0068362159623316,
+      "maximum_original_tensor_and_constraint_residual": 1.4000061526742158e-11,
+      "clock_events": [
+        {
+          "emission": 0.1,
+          "arrival": 0.30406064978979386,
+          "arrival_eta_difference": 9.386674770794912e-11,
+          "echo": 0.5123130041921697,
+          "echo_eta_difference": 6.444567102192877e-11
+        },
+        {
+          "emission": 0.12,
+          "arrival": 0.3244697187863125,
+          "arrival_eta_difference": 1.8168783144645317e-10,
+          "echo": 0.5331432578599763,
+          "echo_eta_difference": 2.233608853430269e-10
+        }
+      ],
+      "oneway_finite_period_ratio": 1.020453449825931,
+      "echo_finite_period_ratio": 1.0415126833903277
+    },
+    {
+      "rtol": 1e-10,
+      "success": true,
+      "nfev": 567,
+      "endpoint": [
+        1.2036446378467696,
+        0.08217513746796765,
+        0.0034181079812521335,
+        -0.04135660409556745,
+        1.8200989704587354
+      ],
+      "minimum_a": 1.0,
+      "minimum_F": 1.0068362159625042,
+      "maximum_original_tensor_and_constraint_residual": 2.5360616384695334e-13,
+      "clock_events": [
+        {
+          "emission": 0.1,
+          "arrival": 0.30406064978969394,
+          "arrival_eta_difference": 2.6836866062751596e-12,
+          "echo": 0.5123130041920723,
+          "echo_eta_difference": 5.321298957028375e-13
+        },
+        {
+          "emission": 0.12,
+          "arrival": 0.3244697187862863,
+          "arrival_eta_difference": 1.2932988013858449e-12,
+          "echo": 0.5331432578600692,
+          "echo_eta_difference": 6.159517340620368e-13
+        }
+      ],
+      "oneway_finite_period_ratio": 1.020453449829617,
+      "echo_finite_period_ratio": 1.0415126833998478
+    },
+    {
+      "rtol": 1e-12,
+      "success": true,
+      "nfev": 1757,
+      "endpoint": [
+        1.2036446378467696,
+        0.08217513746796673,
+        0.003418107981252671,
+        -0.04135660409556646,
+        1.8200989704587287
+      ],
+      "minimum_a": 1.0,
+      "minimum_F": 1.0068362159625053,
+      "maximum_original_tensor_and_constraint_residual": 2.1510571102112408e-15,
+      "clock_events": [
+        {
+          "emission": 0.1,
+          "arrival": 0.3040606497896969,
+          "arrival_eta_difference": 2.0539125955565396e-15,
+          "echo": 0.5123130041920749,
+          "echo_eta_difference": 4.773959005888173e-15
+        },
+        {
+          "emission": 0.12,
+          "arrival": 0.3244697187862836,
+          "arrival_eta_difference": 2.170486013142181e-14,
+          "echo": 0.5331432578600677,
+          "echo_eta_difference": 8.43769498715119e-15
+        }
+      ],
+      "oneway_finite_period_ratio": 1.0204534498293365,
+      "echo_finite_period_ratio": 1.0415126833996369
+    }
+  ],
+  "tight_endpoint_difference": 6.661338147750939e-15,
+  "tight_finite_period_difference": 2.8044233602031454e-13,
+  "pass": true
+}

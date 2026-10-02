@@ -1,0 +1,14 @@
+{
+  "utc": "2026-10-02T01:11:08.076421+00:00",
+  "status": "REVIEW_METADATA_BOUND_NORMAL_GUARD_PASS_FULL_AUDIT_RUNNING",
+  "original_context_failure": "Reviewer context prose did not match parent canonical-ID assertion; no REVIEW_RECORD write occurred on failure. Original attestation remains in math/FINAL_ATTESTATION_INITIAL.json.",
+  "parent_error": "Initial orchestration did not stop after the binder command failed; normal check failed at the unchanged prebinding gate and full audit began prematurely. That full run was deliberately stopped after identifying owned capture PID3316237 and sending SIGTERM; its receipt has returncode -15 and forwarded_signals [15].",
+  "repair": "Reviewer moved prose to context_description and supplied /root/erc_math. Same report, verdict and frozen accepted map. Successful parent binding preceded final_normal_bound_replay and final_premises_windowed_replay.",
+  "maintenance": "57 tests passed; binding metadata did not change their inputs or scientific files, so this sound existing run is retained.",
+  "science_unchanged": true,
+  "integration_freeze_sha256": "db88a177e9dcc7230c40c8ad10cf120549d6636ff59f3d32795710a0447c7762",
+  "review_record_sha256": "610b65697812e0837245ea694df319452ab8302f2e5a9c0fa95084bf9d0c93f9",
+  "original_helper_sha256": "77eab5e5d3cf8bf00955f206757b62ddc8402803014aa05425bd87373f9c98dc",
+  "updated_helper_sha256": "bc5ddce35a4c7f7af20acaebdb749e55a72b062a43324a5317f7ff0ba05e14e0",
+  "helper_change": "Only select replay receipt names for normal and full checks; preserve initial failed/stopped evidence."
+}

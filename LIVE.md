@@ -1,27 +1,23 @@
 # LIVE — operational status
 
 <!-- STARTUP_CURRENT_BEGIN -->
-## CURRENT STATE — ULC1 owner clarification after PCC1 and CDR1, 2026-10-01
+## CURRENT STATE — ERC1 conditional response comparison after ULC1 and CDR1, 2026-10-01
 
 Work on `grok`; independently verify HEAD, synchronization and dirt.
-The subsequent discussion clarified the intended meaning of universality.
-ULC1's fixed owner source and maintenance scope are under
-`development_reconstruction_2026-09-29/universal_law_clarification_2026-10-01/`.
-UDT_DEVELOPMENT.md D1/R8/R18 owns that meaning; this maintenance adds no research
-dispatch, physical equation, adopted PCC1 hypothesis or registry/CANON change.
-Charles's “test authorized” accepted the explicit bounded isotropic additional
-clock-curvature test, two fresh reviews and one bounded repair/re-review cycle.
-Fixed scope and execution are in `udt_positional_curvature_connection_2026-10-01/`:
-WORK_ORDER.md, WORK_RECORD.md, REVIEWED_RESULT.md and DECISION_BRIEF.md.
-UDT_DEVELOPMENT.md R8/R18 owns the maintained argument. The trial physical
-hypothesis remains UNADOPTED; no response, reference, native geometry, scalar
-scale/sign, exact registry grade or CANON change is adopted.
+Charles's “Proceed” authorized at most two explicit response candidates, short
+nonuniform/evolving checks, two fresh reviews and one bounded repair/re-review
+cycle, central integration and a lay return. Fixed scope/evidence is under
+`udt_environment_response_candidates_2026-10-01/`: WORK_ORDER.md, WORK_RECORD.md,
+REVIEWED_RESULT.md and DECISION_BRIEF.md. UDT_DEVELOPMENT.md R17ERC/R8ERC/R18
+owns the maintained argument. Both physical response identifications remain
+UNADOPTED; no action, source law, native geometry, scale or CANON/registry change
+is adopted. ULC1's universal-law owner meaning remains in D1.
 
-PCC1 used short serial exact checks and two source-first/candidate/supplement
-reviews. Parent and math initial trig-normalization failures and unchanged-science
-repairs are preserved, as is the fixed-file diagnostic replay resolving a review
-objection. The initial scientific candidate is unchanged. No GPU or production
-evolution ran. Prior packages remain fixed at their original scopes. Charles's
+The fixed short CPU campaign and two source-first/exposed reviews are complete.
+Original code and failed precision/hash checks remain alongside bounded repairs;
+initial scientific candidate and numerical functions are unchanged. Actual final
+attestations and captured closure checks own integration/pass status. No GPU or
+long production ran. Prior packages retain their original scopes. Charles's
 no-timeout direction persists with finite/resource/manual stops.
 
 ### Honest claim
@@ -55,16 +51,16 @@ Protected: do not inspect, hash, stage, modify, mine or cite payloads without di
 
 ### Next gate
 
-The authorized conditional test is complete and ULC1 records the ensuing owner
-clarification. Stop for lay discussion using the central D1/R8/R18, PCC1 decision
-brief and ULC1's actual review/check records. The tested
-comparison still needs physical reference/matching and positional attribution;
-no distinct UDT prediction, native admission or finite-distance law is established.
-A successor needs its own discriminating question and bounded work order. The
-trial is not adopted by testing or saving it. Existing pauses/protected work remain.
-No scientific worker was left running at this return; a later session must verify
-actual host state before process claims. Prior TPS1 raw fields/checkpoints and
-large streams remain local-only and ignored; a remote clone cannot replay those
+The authorized candidate comparison is complete. Stop for lay discussion using
+central R17ERC/R8ERC/R18 and ERC1's decision brief. The open physical response
+identification is not closed by the conditional examples or by more of the same
+numerics. No candidate, source coupling or scalar calibration is adopted.
+A successor needs a discriminating question and bounded work order; none starts
+automatically. Existing pauses and protected-work boundaries remain.
+No scientific worker was left running at this return; later sessions must verify
+actual host state before process claims. ERC1's small saved metric arrays are
+included in its evidence package. Prior TPS1 raw fields/checkpoints and large
+streams remain local-only and ignored; a remote clone cannot replay those
 raw-dependent checks from compact banked records alone.
 
 <!-- STARTUP_CURRENT_END -->

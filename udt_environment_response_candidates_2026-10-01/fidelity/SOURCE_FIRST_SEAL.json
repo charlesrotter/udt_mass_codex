@@ -1,0 +1,14 @@
+{
+  "stage": "SOURCE_FIRST_CHECKED_BEFORE_DIRECT_PARENT_EXPOSURE",
+  "utc": "2026-10-02T00:29:52.528182+00:00",
+  "hashes": {
+    "udt_environment_response_candidates_2026-10-01/fidelity/SOURCE_FIRST.md": "f7cef5a8208fc5612c3b8b3ada0d7dd0d7ed94a3b7b196a4a52c19bc23e86647",
+    "udt_environment_response_candidates_2026-10-01/fidelity/SOURCE_FIRST_FREEZE.json": "439235c06b96f9f08e0aeb026476c2e313f798f04094c712970d44bbbbbb060f",
+    "udt_environment_response_candidates_2026-10-01/fidelity/independent_checks.py": "9b2afbd0eef2741db259e91dfbf1c97b438c40b9ea44983864fe1de876ac8b19",
+    "udt_environment_response_candidates_2026-10-01/fidelity/source_first_01.json": "7565d308b9558d5149754207266754934baf2639784be112cf8f34f592be67ca",
+    "udt_environment_response_candidates_2026-10-01/fidelity/source_first_01.stdout": "d484f6789d78823e3755a3a52787c21d8ba7d20671b407edc448d974be057dd1",
+    "udt_environment_response_candidates_2026-10-01/fidelity/source_first_01.stderr": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "pass": true,
+  "exposure_update": "Saw parent freeze metadata and output file names after computation finished; no parent argument, code, numerical plan, peer review or scientific outputs read yet."
+}
