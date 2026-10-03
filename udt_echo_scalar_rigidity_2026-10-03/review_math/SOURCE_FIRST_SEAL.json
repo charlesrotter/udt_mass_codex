@@ -1,0 +1,30 @@
+{
+  "sealed_utc": "2026-10-03T19:11:12.423496+00:00",
+  "reviewer": "/root/esr_math",
+  "exposure": "SOURCE_FIRST; no ESR1 parent candidate/code/result read",
+  "head": "fd66e831edf2ce1e4b9c8bda02a61c44105524f1",
+  "status": "INDEPENDENT_ARGUMENT_AND_23_EXACT_ASSERTIONS_PASS",
+  "sha256": {
+    "AGENTS.md": "bcab9b67305e0314af9eaf25162d203660eae8f2ff4fd87d17e83588970ef38d",
+    "CLAUDE.md": "4ad2e773defb89cc79541fd0ababd75af5a3344ab134ee83722dfd943966e6e4",
+    ".claude/skills/no-shortcuts/SKILL.md": "fd3a1f3218481134f2af829d3ae4175ac53518f75bf9673287efbfb7d7708fc1",
+    ".claude/skills/completeness-map/SKILL.md": "a8cf9e5f4a6d35a0d0ebfe4bc48dbf328ca74e318f020a6a22cb683666a611c0",
+    ".claude/skills/verifier-before-record/SKILL.md": "9b3a4aacd4b4006b2b7f01edada73b7c87b99bea6e754583558713bfc145e5ac",
+    "udt_echo_scalar_rigidity_2026-10-03/WORK_ORDER.md": "5a728acc2ddc9438eb186ac73fe895feff52066a45917a9fe2b68170ef4dd6d2",
+    "udt_echo_scalar_rigidity_2026-10-03/BASELINE.json": "271ab84a703ead5c5b0fd8aedb6b8786e816752db11b9539082a2e8df68ac864",
+    "UDT_DEVELOPMENT.md": "2a579b6a49bd19c5466f79461b72134e30454b0c7fdaa824cb94b3969554591a",
+    "udt_invariant_echo_curvature_2026-10-03/REVIEWED_RESULT.md": "970763d68062b00ce8184cb3990a13bda54a01af7c74106eab63a223a83279f2",
+    "udt_invariant_echo_curvature_2026-10-03/DIRECTION_COROLLARY.md": "66c66206d4b5c34b2f453aa1d0103c3f458dbcb1f5d334deac20ed74e2abf09f",
+    "udt_invariant_echo_curvature_2026-10-03/review_math/HAND_QUARTIC_AUDIT.md": "593dcd0f4d8dd800b51d56674ac328a3f4fee937ad35de01f9f8d6830b7cf708",
+    "udt_echo_consistency_2026-10-01/REVIEWED_RESULT.md": "448a5544104d534657c24dfc74481128c2c9deb1d0f87d3e5bbd71a2b2ed1594",
+    "udt_echo_consistency_2026-10-01/INITIAL_DERIVATION.md": "3caf37187f22cc0cdf2b0334ea75bad362422cb4787c99eb41fa24ab34c25aff",
+    "udt_finite_comparison_whiteboard_2026-10-03/REVIEWED_RESULT.md": "86d86757408e26cec43fbe3f1d4edd7692d2db263a6289e8da74427fe556908f",
+    "udt_time_live_production_survey_2026-10-01/capture.py": "217cdbac5486e8a531552f4d74a15ce641299b65dafb5d58f7b60f4ba51781bc",
+    "udt_echo_scalar_rigidity_2026-10-03/review_math/SOURCE_FIRST.md": "470962f5e2466472207bc6692ea4dbe165a7e4b8d0b323fd0d5167eef54113f6",
+    "udt_echo_scalar_rigidity_2026-10-03/review_math/check_source_first.py": "65d15cd888777ddba402291d2828be275e889e5033d179b1656a2dba933f3dcf",
+    "udt_echo_scalar_rigidity_2026-10-03/review_math/SOURCE_FIRST_CHECK_RESULT.json": "f503d476393e04f89973b5b82837f2da8d8ff90c9d4a145d693e3089a0e1daea",
+    "udt_echo_scalar_rigidity_2026-10-03/review_math/source_first_capture.json": "cb71b6d4bda04e66f685d1039b2542814489e49adca3965bc406f23150fb7f36",
+    "udt_echo_scalar_rigidity_2026-10-03/review_math/source_first_capture.stdout": "2fa18cc3dcda319c588bda4ac58ae8a8196f97f3da5f66980ad87a6c66c3d1dd",
+    "udt_echo_scalar_rigidity_2026-10-03/review_math/source_first_capture.stderr": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  }
+}

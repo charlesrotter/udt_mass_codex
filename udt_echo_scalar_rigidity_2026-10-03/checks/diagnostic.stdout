@@ -1,0 +1,1 @@
+{'lhs': '-T**2*(b - 14)/8', 'rhs': 'T**2*(14 - b)/8', 'structural_equal': False, 'expanded_difference': '0', 'wrong_Qsecond_12_residual': 'T**2/4'}

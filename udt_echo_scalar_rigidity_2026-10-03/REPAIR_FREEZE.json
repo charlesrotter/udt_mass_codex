@@ -1,0 +1,15 @@
+{
+  "utc": "2026-10-03T19:16:39.562583+00:00",
+  "scope": "One same-equation exact canonicalization repair; initial candidate untouched.",
+  "sha256": {
+    "check_selectivity.py": "75b4a8a5591f03b57cbd0366ab7bad9a2d8f2baf5e121b5ea60c4cec7860b3b7",
+    "check_selectivity_repaired.py": "f19d6f6814b559384d801c0b8a114a57aa2791d041da9cbcce30497b9fb42f73",
+    "INITIAL_CANDIDATE.md": "9828c44c3b89d6b9f6f9f83f98e69a127dfc551e2d65a5c48587cd3b4fb2f59c",
+    "DIAGNOSTIC_PLAN.md": "18aa45f898453105de372938eb32d2410cb036e6d9208be2d249d457f188dcbe",
+    "IMPLEMENTATION_REPAIR.md": "e6664412d874163484843e2169792e164d27d89516cae07c2cca08fd31474e99",
+    "checks/parent_first.json": "67a82b46ab327cd383dfe01bfe91bcbb7e716463ff0226d5ab95cf4d9891fe9d",
+    "checks/parent_first.stderr": "0aff10aa2400463b58f892a9b88558b40de863ce9c53f9760300f70941346a47",
+    "checks/diagnostic.json": "4bd7585495d18aa57c295fbd62d90ed3560a59f976ab632d2b1ec34383139847",
+    "checks/diagnostic.stdout": "cf622b44988689e57df753f65c804a11cd2f78d36f3e811b469abb6db8f4fd12"
+  }
+}

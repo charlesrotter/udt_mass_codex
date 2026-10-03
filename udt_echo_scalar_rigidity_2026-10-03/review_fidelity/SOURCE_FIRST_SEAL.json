@@ -1,0 +1,16 @@
+{
+  "utc": "2026-10-03T19:12:17.227038+00:00",
+  "reviewer": "/root/esr_fidelity",
+  "exposure": "No ESR1 parent candidate/code/output or ESR1 peer files read before this seal. Earlier IEC/ECS/FCW/FPC reviewed sources were exposed. Parent received an analytic preview before this file seal.",
+  "result": "Source-first proof supports conditional constant-sectional-curvature iff claim; candidate and final-map review still pending.",
+  "files": {
+    "CONTROL.json": "194c3f1fbcfa0a1e26e1111e02d71f6dbd7997a28603724338f2f323dce9960e",
+    "SOURCE_FIRST.md": "4696aaafea2f0c8cdffe1b46b9652c42fd7c25dbfb78a28e038d9db03c415371",
+    "check_algebraic.py": "8e546ef0f136d6f4b1055913c3ac44d544828af4985b70a90cab7fbca8c39fbc",
+    "PRE_RUN_FREEZE.json": "71e072148d2a2dcf8f97b79abcbb5b0eeb37f6247464e6882302dce79d01a898",
+    "SOURCE_BINDINGS.json": "4660aa75cee946d65d51b0aeb9ff23b8008715ed501784f57fa22350c10479df",
+    "CHECK_RESULT.json": "da81ecdb387cc2d83a777050a933c559b17cfbfb32dd6fe9b8d06114b479b75f",
+    "CONTROL.stdout": "da81ecdb387cc2d83a777050a933c559b17cfbfb32dd6fe9b8d06114b479b75f",
+    "CONTROL.stderr": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  }
+}

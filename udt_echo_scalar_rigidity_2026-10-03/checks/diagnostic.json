@@ -1,0 +1,20 @@
+{
+  "command": [
+    "python3",
+    "-c",
+    "import sympy as s; T,b=s.symbols(\"T b\"); lhs=s.factor((14-b)*T**2/8); rhs=(14-b)*T**2/8; print({\"lhs\":str(lhs),\"rhs\":str(rhs),\"structural_equal\":lhs==rhs,\"expanded_difference\":str(s.expand(lhs-rhs)),\"wrong_Qsecond_12_residual\":str(s.expand(lhs.subs(b,12)))}); assert s.expand(lhs-rhs)==0; assert s.expand(lhs.subs(b,12)-T**2/4)==0"
+  ],
+  "cwd": "/home/udt-admin/udt_mass_codex",
+  "started_utc": "2026-10-03T19:15:58.519254+00:00",
+  "duration_seconds": 0.15426771302009,
+  "returncode": 0,
+  "wall_timeout_seconds": null,
+  "cpu_timeout_seconds": null,
+  "address_space_bytes": 2147483648,
+  "memory_scope": "Process virtual address limit",
+  "maxrss_kib": 43536,
+  "forwarded_signals": [],
+  "stdout_sha256": "cf622b44988689e57df753f65c804a11cd2f78d36f3e811b469abb6db8f4fd12",
+  "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "capture_sha256": "217cdbac5486e8a531552f4d74a15ce641299b65dafb5d58f7b60f4ba51781bc"
+}

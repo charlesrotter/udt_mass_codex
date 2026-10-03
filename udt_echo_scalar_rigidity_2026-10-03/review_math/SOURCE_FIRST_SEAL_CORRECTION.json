@@ -1,0 +1,8 @@
+{
+  "utc": "2026-10-03T19:11:28.217804+00:00",
+  "original_seal_sha256": "804ab800bcb41ff676d639d0653d3bf3663521932446b21aae5b95c9aa42fdf9",
+  "correction": "Original seal status string incorrectly typed 23 assertions; actual saved result owns 19. No source, argument, code or output bytes changed. Original seal preserved.",
+  "actual_scalar_assertions": 19,
+  "status": "INDEPENDENT_ARGUMENT_AND_19_EXACT_ASSERTIONS_PASS",
+  "exposure": "Still SOURCE_FIRST, no ESR1 parent candidate/code/result read"
+}

@@ -5,7 +5,7 @@ This bounded startup view is generated from its opening; edit that source.
 LIVE.md owns operational status; CURRENT_SCIENTIFIC_PREMISES.tsv owns exact grades.
 
 <!-- GENERATED_DEVELOPMENT_BEGIN -->
-**Continuous development — CDR1 with SGE1, LKT1, GCA1, PCW1, CES1, CCR1, PRI1, TRI1, NGD1, TDS1, TPP1, TPS1, PSW1, FPC1, FNA1, FST1, ECS1, PCC1, ERC1, RCD1, PSC1, CMF1, CBR1, FCW1 and IEC1, 2026-10-03.** This is the maintained
+**Continuous development — CDR1 with SGE1, LKT1, GCA1, PCW1, CES1, CCR1, PRI1, TRI1, NGD1, TDS1, TPP1, TPS1, PSW1, FPC1, FNA1, FST1, ECS1, PCC1, ERC1, RCD1, PSC1, CMF1, CBR1, FCW1, IEC1 and ESR1, 2026-10-03.** This is the maintained
 scientific development. It is not canon or a new scientific-grade authority.
 The exact registry and reviewed sources own grades; LIVE owns operational status.
 Current review bindings and limits are recorded in section9; startup reads the
@@ -202,9 +202,17 @@ eigen-directions. Opposite preparation directions isolate one transverse
 curvature contribution. The local geometric proof, exact algebra and independent
 controls use ordinary proper clocks and actual future returns. Neither this
 symmetry class nor scalar sufficiency FC is adopted as physical UDT law. The
-result interprets the diagnostic; native geometry, positional attribution and
-all-frame selection remain open. Stop for discussion of a bounded selectivity
-test; no classification or new research campaign starts automatically.
+result interprets the diagnostic; native geometry and positional attribution
+remain open. ESR1 below answers its conditional all-frame scalar selectivity test.
+ESR1 proves that one smooth scalar echo rule across every prepared observer and
+direction forces constant sectional curvature within the supplied locally symmetric
+class. Positive, negative and flat curvature remain possible, without a selected
+scale. Nonflat records fix the rational rule only on their attained interval;
+flat records fix only its value at1. The proof uses quartic clock information,
+curvature algebra and actual future returns, with independent exact checks.
+FC remains UNADOPTED: universal governing law does not establish scalar sufficiency.
+This result states the trial's mathematical cost, not its physical authority.
+Stop for lay discussion; no extension, adoption or successor starts automatically.
 <!-- GENERATED_DEVELOPMENT_END -->
 
 ## Current next gate

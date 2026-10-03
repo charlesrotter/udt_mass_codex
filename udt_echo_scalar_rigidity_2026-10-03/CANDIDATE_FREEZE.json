@@ -1,0 +1,17 @@
+{
+  "utc": "2026-10-03T19:14:52.900398+00:00",
+  "exposure": "Both brief source-first concordances received before this freeze; full peer proofs/code/results unread. Parent proof route predates first preview; explicit disclosure in candidate.",
+  "sha256": {
+    "udt_echo_scalar_rigidity_2026-10-03/WORK_ORDER.md": "5a728acc2ddc9438eb186ac73fe895feff52066a45917a9fe2b68170ef4dd6d2",
+    "udt_echo_scalar_rigidity_2026-10-03/INITIAL_CANDIDATE.md": "9828c44c3b89d6b9f6f9f83f98e69a127dfc551e2d65a5c48587cd3b4fb2f59c",
+    "udt_echo_scalar_rigidity_2026-10-03/PARENT_CHECK_PLAN.md": "f3d5a8b2ef73d42c44270cef14bdccb144aa9de32958884f47c57de137162669",
+    "udt_echo_scalar_rigidity_2026-10-03/check_selectivity.py": "75b4a8a5591f03b57cbd0366ab7bad9a2d8f2baf5e121b5ea60c4cec7860b3b7"
+  },
+  "sources_sha256": {
+    "udt_invariant_echo_curvature_2026-10-03/REVIEWED_RESULT.md": "970763d68062b00ce8184cb3990a13bda54a01af7c74106eab63a223a83279f2",
+    "udt_invariant_echo_curvature_2026-10-03/DIRECTION_COROLLARY.md": "66c66206d4b5c34b2f453aa1d0103c3f458dbcb1f5d334deac20ed74e2abf09f",
+    "udt_invariant_echo_curvature_2026-10-03/review_math/HAND_QUARTIC_AUDIT.md": "593dcd0f4d8dd800b51d56674ac328a3f4fee937ad35de01f9f8d6830b7cf708",
+    "udt_echo_consistency_2026-10-01/INITIAL_DERIVATION.md": "3caf37187f22cc0cdf2b0334ea75bad362422cb4787c99eb41fa24ab34c25aff",
+    "udt_echo_consistency_2026-10-01/REVIEWED_RESULT.md": "448a5544104d534657c24dfc74481128c2c9deb1d0f87d3e5bbd71a2b2ed1594"
+  }
+}
