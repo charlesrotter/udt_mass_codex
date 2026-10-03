@@ -1,0 +1,53 @@
+{
+  "scope": "conditional exact finite algebra anchors; analytic proof owns general claims",
+  "python": "3.10.12",
+  "sympy": "1.13.1",
+  "symbolic_families": 4,
+  "checks": [
+    "null_world_function_symmetric",
+    "first_arrival_order8",
+    "return_arrival_order8",
+    "untilted_p_sec",
+    "untilted_echo_identity",
+    "leading_three_to_one",
+    "tilted_same_p_echo_obstruction_nonzero",
+    "simple_zero_residue",
+    "simple_zero_H",
+    "simple_zero_R",
+    "power_H_1/2",
+    "power_H_1",
+    "power_H_2",
+    "interior_p_ratio",
+    "deformation_off_support",
+    "endpoint_conformal_frequency",
+    "clock_neighborhood_frequency"
+  ],
+  "count": 17,
+  "b_series": "L*(51*L**6*v**3 + 269*L**6*v**2 + 401*L**6*v + 183*L**6 + 462*L**4*v**2 + 1092*L**4*v + 630*L**4 + 2520*L**2*v + 2520*L**2 + 15120)/15120",
+  "a_series": "L*(8934*L**6*v**3 + 29501*L**6*v**2 + 32279*L**6*v + 11712*L**6 + 9282*L**4*v**2 + 19362*L**4*v + 10080*L**4 + 10080*L**2*v + 10080*L**2 + 15120)/7560",
+  "p_series": "L**6*(24*v**3 + 106*v**2 + 143*v + 61)/720 + L**4*(120*v**2 + 270*v + 150)/720 + L**2*(360*v + 360)/720 + 1",
+  "q_series": "L**6*(734*v**3 + 2386*v**2 + 2573*v + 921)/240 + L**4*(540*v**2 + 1110*v + 570)/240 + L**2*(360*v + 360)/240 + 1",
+  "echo_residual_series": "-L**6*v*(v + 1)**2/3",
+  "q_minus_untilted_same_p": "-L**6*v*(v + 1)**2/3",
+  "power_controls": {
+    "1/2": {
+      "p": "1/sqrt(d)",
+      "H": "1/(2*sqrt(d))",
+      "R": "9/(2*d)",
+      "proper_time_antiderivative": "-2*sqrt(d)"
+    },
+    "1": {
+      "p": "1/d",
+      "H": "1",
+      "R": "12",
+      "proper_time_antiderivative": "-log(d)"
+    },
+    "2": {
+      "p": "d**(-2)",
+      "H": "2*d",
+      "R": "36*d**2",
+      "proper_time_antiderivative": "1/d"
+    }
+  },
+  "status": "PASS"
+}

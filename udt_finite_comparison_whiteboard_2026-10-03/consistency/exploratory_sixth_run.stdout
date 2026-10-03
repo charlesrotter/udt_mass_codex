@@ -1,0 +1,14 @@
+{
+  "python": "3.10.12",
+  "sympy": "1.13.1",
+  "symbolic_families": 1,
+  "series_degree": 8,
+  "results": {
+    "E": "(w + 1)*(21*w**2*x**6 + 1008*w**2*x**5 + 3780*w**2*x**4 + 4200*w**2*x**3 + 2100*w**2*x**2 + 504*w**2*x + 51*w**2 + 42*w*x**6 + 2016*w*x**5 + 8085*w*x**4 + 10080*w*x**3 + 5880*w*x**2 + 1722*w*x + 218*w + 21*x**6 + 1008*x**5 + 4305*x**4 + 5880*x**3 + 3843*x**2 + 1281*x + 183)/15120",
+    "log_p_L6": "-(w + 1)*(6*w**2 - 7*w - 16)/720",
+    "log_q_L6": "(w + 1)*(194*w**2 + 527*w + 336)/240",
+    "residual_L6": "-w*(w + 1)**2/3"
+  },
+  "checks": "original-incidence coefficients, retained zero quartic residual, unboosted FPC1 sixths passed",
+  "scope": "unreviewed exact finite-series calculation; no further proposer calculation authorized"
+}

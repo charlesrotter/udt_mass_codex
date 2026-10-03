@@ -1,24 +1,13 @@
 {
-  "status": "REVIEWED_WITH_LIMITS",
-  "utc": "2026-10-03T16:52:19.343159+00:00",
-  "scope": "FCW1 supplied product sixth-order finite echo discriminator and restricted C2 simple-zero clock asymptote; FC/RG UNADOPTED, general invariant and native physical selection OPEN. Two fresh source-first/exposed/final contexts; inherited evidence retains its original scope.",
-  "independence": "Two fresh separate source-first/exposed/final reviews; independently arranged actual-incidence series and original-metric curvature checks. Shared model, Python/SymPy and embedding identity. Preserved quartic failures, reviewer same-premise extraction repair, attribution and dimensional wording corrections. No different-model/human/formal/empirical review.",
-  "freeze": "udt_finite_comparison_whiteboard_2026-10-03/INTEGRATION_FREEZE.json",
+  "utc": "2026-10-03T16:52:11.651173+00:00",
+  "context": "/root/fcw_fidelity_review",
+  "verdict": "ACCEPT_WITH_LIMITS",
+  "report_path": "udt_finite_comparison_whiteboard_2026-10-03/review_fidelity/FINAL_REVIEW.md",
+  "report_sha256": "c30f173a7e180723b5969e9097924dbc2c4a8e37f6f13bae4bbfffb74cd36d5e",
+  "freeze_path": "udt_finite_comparison_whiteboard_2026-10-03/INTEGRATION_FREEZE.json",
   "freeze_sha256": "64f6b7c2bfee53c8f86c4a2be409af45f64610b3e37fd0191e14168f96e9b8f0",
-  "prior_review_record": "udt_finite_comparison_whiteboard_2026-10-03/PRIOR_REVIEW_RECORD.json",
-  "prior_review_record_sha256": "d1dd56f7bad08f97be596144920c32a8846ecd514f21a0d31c5ab2896616b93a",
-  "reviewers": [
-    {
-      "context": "/root/fcw_math_review",
-      "attestation": "udt_finite_comparison_whiteboard_2026-10-03/review_math/FINAL_ATTESTATION.json",
-      "sha256": "3976a8997ecfdfdb9eac7c4615ff8b4e8cff50706ba329b0b7828c4455017c1b"
-    },
-    {
-      "context": "/root/fcw_fidelity_review",
-      "attestation": "udt_finite_comparison_whiteboard_2026-10-03/review_fidelity/FINAL_ATTESTATION.json",
-      "sha256": "15c8861497f874a3120d924bc577f5f6e1b0e501e10abf41598ab3fabfca2796"
-    }
-  ],
+  "independence": "Actual fresh separate context at allocation; source-first independent code/argument followed by exposed candidate/final review. Shared inherited model and Python/SymPy; exact backend revision unavailable. No different-model/library/formal/human review.",
+  "scope": "FCW1 scoped conditional integration and version correspondence; FC/RG UNADOPTED, native law/scale/X_max assignment OPEN; scientific source-first checks not rerun at final integration.",
   "accepted_sha256": {
     ".gitignore": "8a2710f5923ba86b41a461e040282ecd520ce155cb17b09458e1d1d613ddeb7a",
     "AGENTS.md": "bcab9b67305e0314af9eaf25162d203660eae8f2ff4fd87d17e83588970ef38d",

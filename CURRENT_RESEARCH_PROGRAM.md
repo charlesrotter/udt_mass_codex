@@ -5,7 +5,7 @@ This bounded startup view is generated from its opening; edit that source.
 LIVE.md owns operational status; CURRENT_SCIENTIFIC_PREMISES.tsv owns exact grades.
 
 <!-- GENERATED_DEVELOPMENT_BEGIN -->
-**Continuous development — CDR1 with SGE1, LKT1, GCA1, PCW1, CES1, CCR1, PRI1, TRI1, NGD1, TDS1, TPP1, TPS1, PSW1, FPC1, FNA1, FST1, ECS1, PCC1, ERC1, RCD1, PSC1, CMF1 and CBR1, 2026-10-03.** This is the maintained
+**Continuous development — CDR1 with SGE1, LKT1, GCA1, PCW1, CES1, CCR1, PRI1, TRI1, NGD1, TDS1, TPP1, TPS1, PSW1, FPC1, FNA1, FST1, ECS1, PCC1, ERC1, RCD1, PSC1, CMF1, CBR1 and FCW1, 2026-10-03.** This is the maintained
 scientific development. It is not canon or a new scientific-grade authority.
 The exact registry and reviewed sources own grades; LIVE owns operational status.
 Current review bindings and limits are recorded in section9; startup reads the
@@ -186,6 +186,15 @@ amplification. The inverse uses no response equation; its positive forward metri
 is nevertheless equation-generated. This validates a finite numerical diagnostic,
 not an atomic-clock anomaly, experimental feasibility or native UDT law. The
 response/positional-attribution question remains open; no successor starts here.
+FCW1's reviewed whiteboard adds two conditional leads. A common transverse boost
+exposes ECS1's aligned product mimic through a sixth-order finite echo difference;
+the general invariant being measured remains open. A separately proposed regular
+conformal completion forces a simple clock pole in a supplied homogeneous/comoving
+sector, but leaves interior history and scale free. Scalar echo sufficiency FC
+and completion regularity RG are explicit UNADOPTED trials, not consequences of
+universal law or the founding asymptote. ICN1 already owns the third proposal's
+exterior timing ambiguity. No native geometry/equation is selected. Discuss the
+invariant echo derivation first; no successor starts automatically.
 <!-- GENERATED_DEVELOPMENT_END -->
 
 ## Current next gate

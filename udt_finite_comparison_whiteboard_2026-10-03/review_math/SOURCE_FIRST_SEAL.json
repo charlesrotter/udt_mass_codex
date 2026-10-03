@@ -1,0 +1,16 @@
+{
+  "utc": "2026-10-03T16:33:38.293370+00:00",
+  "exposure": "No FCW1 proposer/parent proof, code, results or verdict read before seal.",
+  "sha256": {
+    "udt_finite_comparison_whiteboard_2026-10-03/review_math/TEST_DESIGN.md": "1e1da96fbe8567e92ad0c8fe8e69a08fd43aec05563b5291c70b10c6e61c13eb",
+    "udt_finite_comparison_whiteboard_2026-10-03/review_math/check_source_first.py": "bd12bb7e9f448b19b7f988fc6a02ed5ad178a8180e664eb98cbcf85b3a7f9688",
+    "udt_finite_comparison_whiteboard_2026-10-03/review_math/SOURCE_FIRST.md": "48b5ed3fe851f9c3ad0046989103c2c79075148287ce8da1858a7c180fc8e631",
+    "udt_finite_comparison_whiteboard_2026-10-03/review_math/SOURCE_FIRST_CHECKS.json": "0590d93f4111c5448a18f84f03bd565ad2a54726973138b646677ceb1224df7c",
+    "udt_finite_comparison_whiteboard_2026-10-03/review_math/checks/source_first.json": "4a96633983972a1f00da12e4816c8fc6fb3f30d16fb9c79e1bec812f05d52010",
+    "udt_finite_comparison_whiteboard_2026-10-03/review_math/checks/source_first.stdout": "0590d93f4111c5448a18f84f03bd565ad2a54726973138b646677ceb1224df7c",
+    "udt_finite_comparison_whiteboard_2026-10-03/review_math/checks/source_first.stderr": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "udt_echo_consistency_2026-10-01/REVIEWED_RESULT.md": "448a5544104d534657c24dfc74481128c2c9deb1d0f87d3e5bbd71a2b2ed1594",
+    "udt_response_clock_discriminator_2026-10-01/REVIEWED_RESULT.md": "abc46591f71f314f3aedb9de113265eebdfcea78d5c155fbbfd1ec70436cec72",
+    "UDT_DEVELOPMENT.md": "fec9325fd3430f64081c935d3a5dabc63705500fae9fe913b997c5942471ee87"
+  }
+}

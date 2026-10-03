@@ -1,0 +1,14 @@
+{
+  "sealed_utc": "2026-10-03T16:24:57.775803+00:00",
+  "files": {
+    "udt_finite_comparison_whiteboard_2026-10-03/relational/CROSS_OPERATIONAL.md": "303538f86a245640e0a5d1a72f1ae037c0305544d0c000b69792aa11f258f9ac",
+    "udt_finite_comparison_whiteboard_2026-10-03/operational/INITIAL_PROPOSAL.md": "61b894b839f3851473b08be1f249ce07efc37aa9f4d0fe797c762cf63cd28ca1",
+    "udt_interframe_clock_network_2026-09-28/INITIAL_CANDIDATE.md": "7cc6ad40fbaa67c8d666fccc25cad3ceb3ec379df29f101be48e1697e0bed8ae",
+    "udt_interframe_clock_network_2026-09-28/REPAIR.md": "1a27568a7e082fee4198e954b9bd726a500b2eac705989a1ba824cd0fd395fe5",
+    "udt_interframe_clock_network_2026-09-28/REVIEWED_RESULT.md": "28c8e36dd78e8007cba1ec7846350793e9142029fbb2e4e6891ed4cb9c21ab54"
+  },
+  "exposure": "Operational proposal first read after relational initial proposal/source seal. No consistency proposal or parent exploration read. Existing ICN1 sources exposed before cross-examination.",
+  "method": "Independent analytic proof audit; no scientific script or numerical run.",
+  "verdict": "Mathematical survivor with required ICN1 novelty/attribution repair; minor asymmetric-reversed-bump clarification.",
+  "role": "Stage2 cross-examination, not stage4 final independent review."
+}

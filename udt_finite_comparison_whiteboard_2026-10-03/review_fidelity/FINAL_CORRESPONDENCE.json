@@ -1,0 +1,31 @@
+{
+  "utc": "2026-10-03T16:50:09.195836+00:00",
+  "status": "PASS",
+  "head": "b90ede0302bcb9c841df3f594ca25b84b4fea107",
+  "freeze_sha256": "64f6b7c2bfee53c8f86c4a2be409af45f64610b3e37fd0191e14168f96e9b8f0",
+  "accepted_count": 13111,
+  "inherited_count": 13024,
+  "unchanged_inherited_count": 13018,
+  "changed_inherited": [
+    "CURRENT_RESEARCH_PROGRAM.md",
+    "HANDOFF.md",
+    "LIVE.md",
+    "UDT_DEVELOPMENT.md",
+    "development_reconstruction_2026-09-29/DEVELOPMENT_GRAPH.json",
+    "development_reconstruction_2026-09-29/RECENT_DISPOSITIONS.tsv"
+  ],
+  "new_package_count": 87,
+  "direct_current_hash_checks": 93,
+  "original_seal_entry_checks": 126,
+  "historical_changed_source_snapshots": [
+    "HANDOFF.md",
+    "LIVE.md",
+    "UDT_DEVELOPMENT.md"
+  ],
+  "protected_paths_in_map": 0,
+  "inherited_untracked_count": 0,
+  "generated_program_exact": true,
+  "draft_receipt_verified": true,
+  "normal_prebinding_review_required_verified": true,
+  "scope": "Changed/new files independently hashed; every inherited map entry compared to prior review and tracked edits inspected. Unchanged inherited corpus not individually rehashed or reread. Selected original scientific seals verified against current unchanged bytes or original Git source snapshots."
+}

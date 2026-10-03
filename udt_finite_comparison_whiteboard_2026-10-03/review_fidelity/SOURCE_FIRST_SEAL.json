@@ -1,0 +1,22 @@
+{
+  "utc": "2026-10-03T16:34:25.057895+00:00",
+  "stage": "source-first before FCW1 proposer or parent candidate exposure",
+  "files": {
+    "udt_finite_comparison_whiteboard_2026-10-03/review_fidelity/ORDER_CHECK_REPAIR.md": "923b22e1cea9ae5ffa549a210d05708a00c75c19c3f77acdb23a531ecea8b045",
+    "udt_finite_comparison_whiteboard_2026-10-03/review_fidelity/SOURCE_FIRST.md": "6899bde34dc04d43016fb3e1ed918507492874ea710405915582f9291962941e",
+    "udt_finite_comparison_whiteboard_2026-10-03/review_fidelity/SOURCE_FIRST_CHECKS.json": "ad981409e8c6e48262edc0a38a9b4f728e2f662a21ba53b839f1ba4cafff1bec",
+    "udt_finite_comparison_whiteboard_2026-10-03/review_fidelity/SOURCE_FIRST_DESIGN_SEAL.json": "f0559c99ef0cfe215819b629f14d5314a9e810f72f529a88b66ec49f7f16aa63",
+    "udt_finite_comparison_whiteboard_2026-10-03/review_fidelity/SOURCE_FIRST_PLAN.md": "9b1ff7353126d348260ada910f8654c4b4d0f1124464532ae3a0cdcd4add4c93",
+    "udt_finite_comparison_whiteboard_2026-10-03/review_fidelity/check_source_first.py": "023707c0044565b21411ffd94713c6aece5096fdd219dad1af2e967660405db9",
+    "udt_finite_comparison_whiteboard_2026-10-03/review_fidelity/check_source_first_initial.py": "be1ec8faea3d73d8e0221025f48e0308c7a5c2783db83f8dea745b512274252d",
+    "udt_finite_comparison_whiteboard_2026-10-03/review_fidelity/source_first_order6.json": "155a9257f68ca495f1b46ed2074ee124a1b212fbadd5d2b56633c1b748a7e77c",
+    "udt_finite_comparison_whiteboard_2026-10-03/review_fidelity/source_first_order6.stderr": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "udt_finite_comparison_whiteboard_2026-10-03/review_fidelity/source_first_order6.stdout": "ad981409e8c6e48262edc0a38a9b4f728e2f662a21ba53b839f1ba4cafff1bec",
+    "udt_finite_comparison_whiteboard_2026-10-03/review_fidelity/source_first_run.json": "cf883a8dee13c80e69efc32bbbd46f333c31821d6258db104e5fb7b3bea8f0b9",
+    "udt_finite_comparison_whiteboard_2026-10-03/review_fidelity/source_first_run.stderr": "9fbbb8b7be1c29181fc184dd73a64c41c5716c045f55d12865541f8aff8d2758",
+    "udt_finite_comparison_whiteboard_2026-10-03/review_fidelity/source_first_run.stdout": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "additional_source": {
+    "udt_interframe_clock_network_2026-09-28/INITIAL_CANDIDATE.md": "7cc6ad40fbaa67c8d666fccc25cad3ceb3ec379df29f101be48e1697e0bed8ae"
+  }
+}

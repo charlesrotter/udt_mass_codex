@@ -1,0 +1,4 @@
+Traceback (most recent call last):
+  File "/home/udt-admin/udt_mass_codex/udt_finite_comparison_whiteboard_2026-10-03/review_fidelity/check_source_first.py", line 59, in <module>
+    assert S.factor(matched.coeff(L,4)).subs(v,1)!=0
+AssertionError

@@ -1,24 +1,16 @@
 {
-  "status": "REVIEWED_WITH_LIMITS",
-  "utc": "2026-10-03T16:52:19.343159+00:00",
+  "utc": "2026-10-03T16:47:15.782983+00:00",
   "scope": "FCW1 supplied product sixth-order finite echo discriminator and restricted C2 simple-zero clock asymptote; FC/RG UNADOPTED, general invariant and native physical selection OPEN. Two fresh source-first/exposed/final contexts; inherited evidence retains its original scope.",
-  "independence": "Two fresh separate source-first/exposed/final reviews; independently arranged actual-incidence series and original-metric curvature checks. Shared model, Python/SymPy and embedding identity. Preserved quartic failures, reviewer same-premise extraction repair, attribution and dimensional wording corrections. No different-model/human/formal/empirical review.",
-  "freeze": "udt_finite_comparison_whiteboard_2026-10-03/INTEGRATION_FREEZE.json",
-  "freeze_sha256": "64f6b7c2bfee53c8f86c4a2be409af45f64610b3e37fd0191e14168f96e9b8f0",
-  "prior_review_record": "udt_finite_comparison_whiteboard_2026-10-03/PRIOR_REVIEW_RECORD.json",
-  "prior_review_record_sha256": "d1dd56f7bad08f97be596144920c32a8846ecd514f21a0d31c5ab2896616b93a",
-  "reviewers": [
-    {
-      "context": "/root/fcw_math_review",
-      "attestation": "udt_finite_comparison_whiteboard_2026-10-03/review_math/FINAL_ATTESTATION.json",
-      "sha256": "3976a8997ecfdfdb9eac7c4615ff8b4e8cff50706ba329b0b7828c4455017c1b"
-    },
-    {
-      "context": "/root/fcw_fidelity_review",
-      "attestation": "udt_finite_comparison_whiteboard_2026-10-03/review_fidelity/FINAL_ATTESTATION.json",
-      "sha256": "15c8861497f874a3120d924bc577f5f6e1b0e501e10abf41598ab3fabfca2796"
-    }
+  "base_head": "b90ede0302bcb9c841df3f594ca25b84b4fea107",
+  "changed_inherited": [
+    "CURRENT_RESEARCH_PROGRAM.md",
+    "HANDOFF.md",
+    "LIVE.md",
+    "UDT_DEVELOPMENT.md",
+    "development_reconstruction_2026-09-29/DEVELOPMENT_GRAPH.json",
+    "development_reconstruction_2026-09-29/RECENT_DISPOSITIONS.tsv"
   ],
+  "inherited_count": 13024,
   "accepted_sha256": {
     ".gitignore": "8a2710f5923ba86b41a461e040282ecd520ce155cb17b09458e1d1d613ddeb7a",
     "AGENTS.md": "bcab9b67305e0314af9eaf25162d203660eae8f2ff4fd87d17e83588970ef38d",

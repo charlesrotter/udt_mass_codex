@@ -1,0 +1,39 @@
+{
+  "utc": "2026-10-03T16:49:37.372363+00:00",
+  "freeze_sha256": "64f6b7c2bfee53c8f86c4a2be409af45f64610b3e37fd0191e14168f96e9b8f0",
+  "accepted_count": 13111,
+  "inherited_count": 13024,
+  "added_count": 87,
+  "changed_inherited": [
+    "CURRENT_RESEARCH_PROGRAM.md",
+    "HANDOFF.md",
+    "LIVE.md",
+    "UDT_DEVELOPMENT.md",
+    "development_reconstruction_2026-09-29/DEVELOPMENT_GRAPH.json",
+    "development_reconstruction_2026-09-29/RECENT_DISPOSITIONS.tsv"
+  ],
+  "missing": [],
+  "mismatches": [],
+  "checked_bytes": 2226894913,
+  "protected_entries": 0,
+  "generated_orientation_exact": true,
+  "unchanged_to_base": {
+    "CANON.md": true,
+    "CURRENT_SCIENTIFIC_PREMISES.tsv": true,
+    "AGENTS.md": true,
+    "CLAUDE.md": true
+  },
+  "receipts": {
+    "draft": {
+      "returncode": 0,
+      "stdout_matches": true,
+      "stderr_matches": true
+    },
+    "normal_prebinding": {
+      "returncode": 1,
+      "stdout_matches": true,
+      "stderr_matches": true
+    }
+  },
+  "meaning": "Byte correspondence and scoped editorial verification, not a reproof of inherited science."
+}

@@ -1,0 +1,10 @@
+{
+  "utc": "2026-10-03T16:31:00.662418+00:00",
+  "state": "BEFORE_PARENT_CHECK_OUTCOMES; proposer and cross-review results exposed",
+  "files": {
+    "CHECK_PLAN.md": "69b1765c4ebb13d68620e01433df72c2d6828a410a5c91684482aa1c8c9234f2",
+    "check_selected.py": "591659714f0791c4986bb40b2bbe88cf09f728c37a491f74b31553776418d55c",
+    "SELECTION.md": "08a188c75e11118db42dd6ddeb37c01b58ef6da969b1b4b01f16fb8d7c3e3a6c",
+    "PARENT_EXPLORATION.md": "0c36fcf1f547f4dc396ad16b8bc1b2f1c572df52ac846f781c2091f823c504dd"
+  }
+}

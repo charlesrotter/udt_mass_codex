@@ -1,0 +1,24 @@
+{
+  "utc": "2026-10-03T16:29:06.713528+00:00",
+  "sources": {
+    "AGENTS.md": "bcab9b67305e0314af9eaf25162d203660eae8f2ff4fd87d17e83588970ef38d",
+    "CLAUDE.md": "4ad2e773defb89cc79541fd0ababd75af5a3344ab134ee83722dfd943966e6e4",
+    "LIVE.md": "403a1c93d4c369812b7b202417c81d711693bc2fb37feb396e2613dfac21601f",
+    "HANDOFF.md": "1a01122ddfa93bbf06c2d513514d0ef84aa56be218ae9aca067902b7827a67d5",
+    "CROSS_MODEL_VERIFY.md": "2b0509d933d731fbf3f72aa88777a54d3e48a94d4bae3d324087871777f9a007",
+    "CURRENT_SCIENTIFIC_PREMISES.tsv": "7a3d69d5a0bc3ac98e2ebe2bb0c6d029df30071bf403baffed2223a193dc720b",
+    "UDT_DEVELOPMENT.md": "fec9325fd3430f64081c935d3a5dabc63705500fae9fe913b997c5942471ee87",
+    "udt_finite_comparison_whiteboard_2026-10-03/WORK_ORDER.md": "8172730dc492e6ac07637afeeede98b974a16248fba4b5e6752b8bc9bec78cd6",
+    "udt_finite_comparison_whiteboard_2026-10-03/BASELINE.json": "dc5c6f7152306e5081de91c16c337d1ef34b94417178da10a10127d0a3216e7e",
+    "udt_echo_consistency_2026-10-01/INITIAL_DERIVATION.md": "3caf37187f22cc0cdf2b0334ea75bad362422cb4787c99eb41fa24ab34c25aff",
+    "udt_echo_consistency_2026-10-01/REVIEWED_RESULT.md": "448a5544104d534657c24dfc74481128c2c9deb1d0f87d3e5bbd71a2b2ed1594",
+    "udt_response_clock_discriminator_2026-10-01/INITIAL_DERIVATION.md": "600b36dceb731770bb4eaf13c2d2db2493b4f843895eb603d98f3b65a10c347f",
+    "udt_response_clock_discriminator_2026-10-01/REVIEWED_RESULT.md": "abc46591f71f314f3aedb9de113265eebdfcea78d5c155fbbfd1ec70436cec72",
+    "udt_response_clock_discriminator_2026-10-01/REPAIR.md": "f4c20a2e07a4a8d7bfd37b7bcd0df4e70aa109c193f1ca580770ff3cd2ac5415",
+    "udt_interframe_clock_network_2026-09-28/REVIEWED_RESULT.md": "28c8e36dd78e8007cba1ec7846350793e9142029fbb2e4e6891ed4cb9c21ab54",
+    "development_reconstruction_2026-09-29/universal_law_clarification_2026-10-01/OWNER_CLARIFICATION.md": "69041b4a2033fd85ff65f113f07ea3ac6a6b06af9a0c07e26a775a33fb3f5a1c",
+    "udt_gr_filter_reconciliation_2026-09-09/AUTHORITY_RECORD.md": "80daa0be6d3e1c0ac1b734fea089c4eb487f05bc1e1fbb2fabd69322ca89f28c",
+    "udt_time_live_production_survey_2026-10-01/capture.py": "217cdbac5486e8a531552f4d74a15ce641299b65dafb5d58f7b60f4ba51781bc"
+  },
+  "plan_sha256": "9b1ff7353126d348260ada910f8654c4b4d0f1124464532ae3a0cdcd4add4c93"
+}

@@ -1,0 +1,39 @@
+{
+  "sealed_utc": "2026-10-03T16:19:59.054933+00:00",
+  "head": "b90ede0302bcb9c841df3f594ca25b84b4fea107",
+  "branch": "grok",
+  "proposal": {
+    "path": "udt_finite_comparison_whiteboard_2026-10-03/relational/INITIAL_PROPOSAL.md",
+    "sha256": "537d79c4156d9119a3f7750b31058ef64a6d5d530da48566516fbb3618608328"
+  },
+  "sources": {
+    "AGENTS.md": "bcab9b67305e0314af9eaf25162d203660eae8f2ff4fd87d17e83588970ef38d",
+    "LIVE.md": "403a1c93d4c369812b7b202417c81d711693bc2fb37feb396e2613dfac21601f",
+    "HANDOFF.md": "1a01122ddfa93bbf06c2d513514d0ef84aa56be218ae9aca067902b7827a67d5",
+    "CLAUDE.md": "4ad2e773defb89cc79541fd0ababd75af5a3344ab134ee83722dfd943966e6e4",
+    "CURRENT_SCIENTIFIC_PREMISES.md": "6b708f351b478dde0c6a93e8f29de08eae06533ba4fb789f79fd03bda1512718",
+    "CURRENT_SCIENTIFIC_PREMISES.tsv": "7a3d69d5a0bc3ac98e2ebe2bb0c6d029df30071bf403baffed2223a193dc720b",
+    "founding.md": "b4b0d9a9fdd093c992647195aca7579566a9e77a396071a699c1938888a49e75",
+    "UDT_DEVELOPMENT.md": "fec9325fd3430f64081c935d3a5dabc63705500fae9fe913b997c5942471ee87",
+    "udt_finite_comparison_whiteboard_2026-10-03/WORK_ORDER.md": "8172730dc492e6ac07637afeeede98b974a16248fba4b5e6752b8bc9bec78cd6",
+    ".claude/skills/no-shortcuts/SKILL.md": "fd3a1f3218481134f2af829d3ae4175ac53518f75bf9673287efbfb7d7708fc1",
+    ".claude/skills/completeness-map/SKILL.md": "a8cf9e5f4a6d35a0d0ebfe4bc48dbf328ca74e318f020a6a22cb683666a611c0",
+    ".claude/skills/solution-space-not-imposition/SKILL.md": "095561e8f307928b286f7935d1d6f161b33ac56fe227d702c708f81a329bd47c",
+    ".claude/skills/verifier-before-record/SKILL.md": "9b3a4aacd4b4006b2b7f01edada73b7c87b99bea6e754583558713bfc145e5ac",
+    "udt_lorentz_kernel_transport_2026-09-29/REVIEWED_RESULT.md": "a0472a66148a6e46857161488b09b11131bdd39fbf708256a43cea1bb1f60281",
+    "udt_finite_separation_law_2026-09-28/INITIAL_CANDIDATE.md": "7dd39a4840390f15fcedc2ae0e588f51e441b4348eaf0f0f8d9b81968b60d8e4",
+    "udt_echo_consistency_2026-10-01/REVIEWED_RESULT.md": "448a5544104d534657c24dfc74481128c2c9deb1d0f87d3e5bbd71a2b2ed1594",
+    "udt_finite_selection_test_2026-10-01/REVIEWED_RESULT.md": "08014779c1e076e48e3a3da35ae0e39418071803a8baac1a1476eef1ee39dacc",
+    "udt_machian_global_clock_feasibility_2026-09-28/REVIEWED_RESULT.md": "9102fcf8b97e0b168ca23cf98e9ad6ebf45c04073e02dd8120c8cb7934f6a7e3",
+    "udt_interframe_clock_network_2026-09-28/REVIEWED_RESULT.md": "28c8e36dd78e8007cba1ec7846350793e9142029fbb2e4e6891ed4cb9c21ab54",
+    "udt_response_clock_discriminator_2026-10-01/INITIAL_DERIVATION.md": "600b36dceb731770bb4eaf13c2d2db2493b4f843895eb603d98f3b65a10c347f",
+    "udt_response_clock_discriminator_2026-10-01/REPAIR.md": "f4c20a2e07a4a8d7bfd37b7bcd0df4e70aa109c193f1ca580770ff3cd2ac5415"
+  },
+  "source_read_scope": "Sources were read in bounded excerpts or targeted source/heading searches as recorded in tool history; full-file hashes bind those source editions and do not claim full-file reproof. LIVE/HANDOFF were read only in current blocks.",
+  "context": "Fresh FCW1 relational proposer context; inherited Codex model; no model override; exact model identifier not exposed.",
+  "exposure": "Parent task and existing sources exposed; no new FCW1 peer proposals or outputs read before sealing.",
+  "scientific_computation": "Analytic author exploration only; no scientific scripts or numerical tests run. Hash/metadata script only.",
+  "review_state": "UNREVIEWED_UNADOPTED",
+  "parent_startup_attribution": "Continuing-session synchronization, host ps and preceding full406 audit attributed to parent WORK_ORDER; own branch/HEAD/status independently checked.",
+  "protected_payloads": "Neither read nor hashed."
+}

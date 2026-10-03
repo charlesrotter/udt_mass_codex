@@ -1,0 +1,15 @@
+{
+  "utc": "2026-10-03T16:40:02.840989+00:00",
+  "stage": "exposed candidate fidelity review",
+  "files": {
+    "udt_finite_comparison_whiteboard_2026-10-03/INITIAL_SYNTHESIS.md": "0de6578288242659c9f14f730d12f52a563ae48f7957696a93b13a65450af96e",
+    "udt_finite_comparison_whiteboard_2026-10-03/SELECTION.md": "08a188c75e11118db42dd6ddeb37c01b58ef6da969b1b4b01f16fb8d7c3e3a6c",
+    "udt_finite_comparison_whiteboard_2026-10-03/consistency/INITIAL_PROPOSAL.md": "7c8105b46dd3c972e258d70751118dcffca827bc521cd1bf4dacb5e1686d82af",
+    "udt_finite_comparison_whiteboard_2026-10-03/relational/INITIAL_PROPOSAL.md": "537d79c4156d9119a3f7750b31058ef64a6d5d530da48566516fbb3618608328",
+    "udt_finite_comparison_whiteboard_2026-10-03/operational/ATTRIBUTION_REPAIR.md": "ad52d8946013fb4abcd484b111b9b35c2944f506c5f1329157041ea34eb9f426",
+    "udt_finite_comparison_whiteboard_2026-10-03/relational/CROSS_OPERATIONAL.md": "303538f86a245640e0a5d1a72f1ae037c0305544d0c000b69792aa11f258f9ac",
+    "udt_finite_comparison_whiteboard_2026-10-03/CONTEXT_AVAILABILITY.md": "54025e8496272eacd5bf0f29b86212cac69f471fe7293907cdf9b681751e3d83",
+    "udt_finite_comparison_whiteboard_2026-10-03/CHECK_PLAN.md": "69b1765c4ebb13d68620e01433df72c2d6828a410a5c91684482aa1c8c9234f2",
+    "udt_finite_comparison_whiteboard_2026-10-03/PARENT_CHECK_RESULT.json": "3878173c903d3b5c5c1f62811bd4d0b55e10e82879a2dcea5b52778d497f1426"
+  }
+}

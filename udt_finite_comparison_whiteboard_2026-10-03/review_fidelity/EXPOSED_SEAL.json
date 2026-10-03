@@ -1,0 +1,10 @@
+{
+  "utc": "2026-10-03T16:41:45.293135+00:00",
+  "verdict": "VERIFIED-WITH-CAVEATS",
+  "dimensional_clarification": "state coefficient of L^6, not dimensionless ell^6",
+  "files": {
+    "udt_finite_comparison_whiteboard_2026-10-03/review_fidelity/EXPOSED_REVIEW.md": "aba592fccd0ad6c41ec2454c428f6a3b2eab976cf955eee7c6c6ad17287caf4f",
+    "udt_finite_comparison_whiteboard_2026-10-03/review_fidelity/EXPOSED_BINDING.json": "e53ffce2995760a20e5265a5a5191a565ed637328510db7acbec78ae1e5a6174",
+    "udt_finite_comparison_whiteboard_2026-10-03/review_fidelity/SOURCE_FIRST_SEAL.json": "78a4bb97162cd1299403f8b693e427070fbbb67340ba740ffa3fbac5aee5baa5"
+  }
+}

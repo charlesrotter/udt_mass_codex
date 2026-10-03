@@ -1,31 +1,32 @@
 # HANDOFF — current operational handoff
 
 <!-- STARTUP_CURRENT_BEGIN -->
-## Current handoff — CBR1 finite clock-reconstruction return, 2026-10-03
+## Current handoff — FCW1 finite-comparison whiteboard return, 2026-10-03
 
 CDR1 remains the central-development architecture; exact grades stay in
 CURRENT_SCIENTIFIC_PREMISES.tsv. LIVE.md owns status. Verify grok HEAD, remote,
-dirt and actual host state. Charles clarified that the atomic-clock paraphrase
-was not a specific goal and authorized the recommended next step: the bounded
-CPU reconstruction benchmark, normal checks, two fresh reviews, integration and
-lay return. Fixed evidence is under `udt_clock_reconstruction_benchmark_2026-10-03/`;
-UDT_DEVELOPMENT.md R8CBR/R17CBR/R18 owns the maintained argument. No physical
-equation, source, scale, registry grade or CANON adoption is made.
+dirt and actual host state. Charles authorized the proposed three-perspective
+whiteboard, cross-examination, short checks, independent review, integration and
+lay return. Fixed evidence is under `udt_finite_comparison_whiteboard_2026-10-03/`;
+UDT_DEVELOPMENT.md R8FCW/R16FCW/R18 owns the maintained argument. No physical
+premise, equation, scale, registry grade or CANON adoption is made.
 
-The finite main benchmark and its14 parent gates completed, with independent
-forward/tensor/inverse checks. Source-first and exposed reviews retain their
-actual scope. Final attestations and normal/maintenance/full406 receipts own
-acceptance/pass status. No GPU, empirical fit, hardware experiment or paused
-source/carrier campaign ran. No-timeout direction persists with finite/resource/
-manual stops. Preserve protected payloads and existing unrelated untracked work.
+Proposal/cross-examination and bounded CPU checks completed. Two proposers were
+fresh, one explicitly reused after allocation failure; two actual fresh final
+reviewers then performed source-first/exposed reviews. Final attestations and
+normal/maintenance/full406 receipts own acceptance/pass status. No GPU, empirical
+fit, hardware experiment or paused source/carrier campaign ran. No-timeout
+direction persists with finite/resource/manual stops. Preserve protected payloads
+and existing unrelated untracked work.
 
-Next: Stop for lay discussion of CBR1. The numerical diagnostic step is complete;
-its decision brief returns the physical/native connection without launching a
-successor. A clock anomaly is not the project objective. Later sessions must
-verify processes. Bindings remain in development_reconstruction_2026-09-29.
+Next: Stop for lay discussion of FCW1. Its decision brief recommends discussing
+an invariant finite-echo derivation, with completion/protocol robustness as a
+second option. Neither starts automatically; the proposed FC/RG conditions remain
+UNADOPTED. A clock anomaly is not the project objective. Later sessions verify
+actual processes. Bindings remain in development_reconstruction_2026-09-29.
 TPS1 raw fields/large streams remain local-only; remote compact records cannot
-replay raw-dependent checks. ERC1 and CBR1 small numerical artifacts are banked
-only when the actual commit/push and exact-byte checks have completed.
+replay raw-dependent checks. FCW1 evidence is banked only when actual commit/push
+and exact-byte checks have completed.
 
 Protected payloads require explicit dispatch; preserve without inspecting/hashing:
 
