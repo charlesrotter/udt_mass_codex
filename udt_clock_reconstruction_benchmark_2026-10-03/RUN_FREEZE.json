@@ -1,0 +1,12 @@
+{
+  "created_utc": "2026-10-03T05:02:05.594408+00:00",
+  "state": "BEFORE_MAIN_OUTCOMES",
+  "files": {
+    "RUN_PLAN.md": "7aa0ae2a9f6402294873fb470bf4f04cc3982e39c280d333dfd7de348ebe6943",
+    "WORK_ORDER.md": "7887dad5faaf024f97b6f0976b79abbd729607ab0f861d787fd909929e48fcc8",
+    "forward.py": "1a893b30009b56f6a9089221cb2e87aafe4e161694888fac5b8591d2dd00ceda",
+    "inverse.py": "eca715360a74b3298b434010c98a54b0da525636af3059d60d48dff804d094e2",
+    "run_main.py": "4e1726314f96f5fb40e0956126be08e83acb0e3218f05e8ffa8b91299f428ff3",
+    "evaluate_main.py": "66a6a848deaa83ab8cb761c0a47c563113a56a7ff056ef1d8a60b2d111ec9e53"
+  }
+}

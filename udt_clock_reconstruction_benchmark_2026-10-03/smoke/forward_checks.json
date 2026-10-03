@@ -1,0 +1,7022 @@
+[
+  {
+    "fine": false,
+    "kind": "flat",
+    "t": 0.0,
+    "L": 0.02,
+    "values": [
+      {
+        "log_p": 0.0,
+        "arrival": 0.020000000000000004,
+        "emission": 0.0,
+        "prep_time": 0.0,
+        "norm_error": 0.0,
+        "null_residual": 0.0,
+        "receiver_K": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "receiver_initial_x": [
+          0.02,
+          0.0,
+          0.0
+        ],
+        "unique_forward_kind": "rest"
+      },
+      {
+        "log_p": 0.0,
+        "arrival": 0.039999999999999994,
+        "emission": 0.0,
+        "prep_time": 0.015,
+        "norm_error": 0.0,
+        "null_residual": 0.0,
+        "receiver_K": [
+          0.75,
+          0.0,
+          0.0
+        ],
+        "receiver_initial_x": [
+          0.02499999999999999,
+          0.0,
+          0.0
+        ],
+        "unique_forward_kind": "boost_long"
+      },
+      {
+        "log_p": 0.0,
+        "arrival": 0.025000000000000005,
+        "emission": 0.0,
+        "prep_time": 0.0,
+        "norm_error": 0.0,
+        "null_residual": 0.0,
+        "receiver_K": [
+          0.75,
+          0.0,
+          0.0
+        ],
+        "receiver_initial_x": [
+          0.0,
+          0.02,
+          0.0
+        ],
+        "unique_forward_kind": "boost_trans"
+      }
+    ]
+  },
+  {
+    "fine": false,
+    "kind": "flat",
+    "t": 0.0,
+    "L": 0.01,
+    "values": [
+      {
+        "log_p": 0.0,
+        "arrival": 0.010000000000000002,
+        "emission": 0.0,
+        "prep_time": 0.0,
+        "norm_error": 0.0,
+        "null_residual": 0.0,
+        "receiver_K": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "receiver_initial_x": [
+          0.01,
+          0.0,
+          0.0
+        ],
+        "unique_forward_kind": "rest"
+      },
+      {
+        "log_p": 0.0,
+        "arrival": 0.019999999999999997,
+        "emission": 0.0,
+        "prep_time": 0.0075,
+        "norm_error": 0.0,
+        "null_residual": 0.0,
+        "receiver_K": [
+          0.75,
+          0.0,
+          0.0
+        ],
+        "receiver_initial_x": [
+          0.012499999999999995,
+          0.0,
+          0.0
+        ],
+        "unique_forward_kind": "boost_long"
+      },
+      {
+        "log_p": 0.0,
+        "arrival": 0.012500000000000002,
+        "emission": 0.0,
+        "prep_time": 0.0,
+        "norm_error": 0.0,
+        "null_residual": 0.0,
+        "receiver_K": [
+          0.75,
+          0.0,
+          0.0
+        ],
+        "receiver_initial_x": [
+          0.0,
+          0.01,
+          0.0
+        ],
+        "unique_forward_kind": "boost_trans"
+      }
+    ]
+  },
+  {
+    "fine": false,
+    "kind": "flat",
+    "t": 0.0,
+    "L": 0.005,
+    "values": [
+      {
+        "log_p": 0.0,
+        "arrival": 0.005000000000000001,
+        "emission": 0.0,
+        "prep_time": 0.0,
+        "norm_error": 0.0,
+        "null_residual": 0.0,
+        "receiver_K": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "receiver_initial_x": [
+          0.005,
+          0.0,
+          0.0
+        ],
+        "unique_forward_kind": "rest"
+      },
+      {
+        "log_p": 0.0,
+        "arrival": 0.009999999999999998,
+        "emission": 0.0,
+        "prep_time": 0.00375,
+        "norm_error": 0.0,
+        "null_residual": 0.0,
+        "receiver_K": [
+          0.75,
+          0.0,
+          0.0
+        ],
+        "receiver_initial_x": [
+          0.006249999999999998,
+          0.0,
+          0.0
+        ],
+        "unique_forward_kind": "boost_long"
+      },
+      {
+        "log_p": 0.0,
+        "arrival": 0.006250000000000001,
+        "emission": 0.0,
+        "prep_time": 0.0,
+        "norm_error": 0.0,
+        "null_residual": 0.0,
+        "receiver_K": [
+          0.75,
+          0.0,
+          0.0
+        ],
+        "receiver_initial_x": [
+          0.0,
+          0.005,
+          0.0
+        ],
+        "unique_forward_kind": "boost_trans"
+      }
+    ]
+  },
+  {
+    "fine": false,
+    "kind": "flat",
+    "t": 0.05,
+    "L": 0.02,
+    "values": [
+      {
+        "log_p": 0.0,
+        "arrival": 0.07,
+        "emission": 0.05,
+        "prep_time": 0.05,
+        "norm_error": 0.0,
+        "null_residual": 0.0,
+        "receiver_K": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "receiver_initial_x": [
+          0.02,
+          0.0,
+          0.0
+        ],
+        "unique_forward_kind": "rest"
+      },
+      {
+        "log_p": 0.0,
+        "arrival": 0.09,
+        "emission": 0.05,
+        "prep_time": 0.065,
+        "norm_error": 0.0,
+        "null_residual": 0.0,
+        "receiver_K": [
+          0.75,
+          0.0,
+          0.0
+        ],
+        "receiver_initial_x": [
+          0.02499999999999999,
+          0.0,
+          0.0
+        ],
+        "unique_forward_kind": "boost_long"
+      },
+      {
+        "log_p": 0.0,
+        "arrival": 0.07500000000000001,
+        "emission": 0.05,
+        "prep_time": 0.05,
+        "norm_error": 0.0,
+        "null_residual": 0.0,
+        "receiver_K": [
+          0.75,
+          0.0,
+          0.0
+        ],
+        "receiver_initial_x": [
+          0.0,
+          0.02,
+          0.0
+        ],
+        "unique_forward_kind": "boost_trans"
+      }
+    ]
+  },
+  {
+    "fine": false,
+    "kind": "flat",
+    "t": 0.05,
+    "L": 0.01,
+    "values": [
+      {
+        "log_p": 0.0,
+        "arrival": 0.060000000000000005,
+        "emission": 0.05,
+        "prep_time": 0.05,
+        "norm_error": 0.0,
+        "null_residual": 0.0,
+        "receiver_K": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "receiver_initial_x": [
+          0.01,
+          0.0,
+          0.0
+        ],
+        "unique_forward_kind": "rest"
+      },
+      {
+        "log_p": 0.0,
+        "arrival": 0.06999999999999999,
+        "emission": 0.05,
+        "prep_time": 0.05750000000000001,
+        "norm_error": 0.0,
+        "null_residual": 0.0,
+        "receiver_K": [
+          0.75,
+          0.0,
+          0.0
+        ],
+        "receiver_initial_x": [
+          0.012499999999999995,
+          0.0,
+          0.0
+        ],
+        "unique_forward_kind": "boost_long"
+      },
+      {
+        "log_p": 0.0,
+        "arrival": 0.0625,
+        "emission": 0.05,
+        "prep_time": 0.05,
+        "norm_error": 0.0,
+        "null_residual": 3.469446951953614e-18,
+        "receiver_K": [
+          0.75,
+          0.0,
+          0.0
+        ],
+        "receiver_initial_x": [
+          0.0,
+          0.01,
+          0.0
+        ],
+        "unique_forward_kind": "boost_trans"
+      }
+    ]
+  },
+  {
+    "fine": false,
+    "kind": "flat",
+    "t": 0.05,
+    "L": 0.005,
+    "values": [
+      {
+        "log_p": 0.0,
+        "arrival": 0.05500000000000001,
+        "emission": 0.05,
+        "prep_time": 0.05,
+        "norm_error": 0.0,
+        "null_residual": 3.469446951953614e-18,
+        "receiver_K": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "receiver_initial_x": [
+          0.005,
+          0.0,
+          0.0
+        ],
+        "unique_forward_kind": "rest"
+      },
+      {
+        "log_p": 0.0,
+        "arrival": 0.06,
+        "emission": 0.05,
+        "prep_time": 0.053750000000000006,
+        "norm_error": 0.0,
+        "null_residual": 0.0,
+        "receiver_K": [
+          0.75,
+          0.0,
+          0.0
+        ],
+        "receiver_initial_x": [
+          0.006249999999999998,
+          0.0,
+          0.0
+        ],
+        "unique_forward_kind": "boost_long"
+      },
+      {
+        "log_p": 0.0,
+        "arrival": 0.05625,
+        "emission": 0.05,
+        "prep_time": 0.05,
+        "norm_error": 0.0,
+        "null_residual": 1.734723475976807e-18,
+        "receiver_K": [
+          0.75,
+          0.0,
+          0.0
+        ],
+        "receiver_initial_x": [
+          0.0,
+          0.005,
+          0.0
+        ],
+        "unique_forward_kind": "boost_trans"
+      }
+    ]
+  },
+  {
+    "fine": false,
+    "kind": "flat",
+    "t": -0.05,
+    "L": 0.02,
+    "values": [
+      {
+        "log_p": 0.0,
+        "arrival": -0.03,
+        "emission": -0.05,
+        "prep_time": -0.05,
+        "norm_error": 0.0,
+        "null_residual": 0.0,
+        "receiver_K": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "receiver_initial_x": [
+          0.02,
+          0.0,
+          0.0
+        ],
+        "unique_forward_kind": "rest"
+      },
+      {
+        "log_p": 0.0,
+        "arrival": -0.010000000000000016,
+        "emission": -0.05,
+        "prep_time": -0.034999999999999996,
+        "norm_error": 0.0,
+        "null_residual": 0.0,
+        "receiver_K": [
+          0.75,
+          0.0,
+          0.0
+        ],
+        "receiver_initial_x": [
+          0.02499999999999999,
+          0.0,
+          0.0
+        ],
+        "unique_forward_kind": "boost_long"
+      },
+      {
+        "log_p": 0.0,
+        "arrival": -0.024999999999999998,
+        "emission": -0.05,
+        "prep_time": -0.05,
+        "norm_error": 0.0,
+        "null_residual": 0.0,
+        "receiver_K": [
+          0.75,
+          0.0,
+          0.0
+        ],
+        "receiver_initial_x": [
+          0.0,
+          0.02,
+          0.0
+        ],
+        "unique_forward_kind": "boost_trans"
+      }
+    ]
+  },
+  {
+    "fine": false,
+    "kind": "flat",
+    "t": -0.05,
+    "L": 0.01,
+    "values": [
+      {
+        "log_p": 0.0,
+        "arrival": -0.04,
+        "emission": -0.05,
+        "prep_time": -0.05,
+        "norm_error": 0.0,
+        "null_residual": 0.0,
+        "receiver_K": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "receiver_initial_x": [
+          0.01,
+          0.0,
+          0.0
+        ],
+        "unique_forward_kind": "rest"
+      },
+      {
+        "log_p": 0.0,
+        "arrival": -0.030000000000000016,
+        "emission": -0.05,
+        "prep_time": -0.042499999999999996,
+        "norm_error": 0.0,
+        "null_residual": 0.0,
+        "receiver_K": [
+          0.75,
+          0.0,
+          0.0
+        ],
+        "receiver_initial_x": [
+          0.012499999999999995,
+          0.0,
+          0.0
+        ],
+        "unique_forward_kind": "boost_long"
+      },
+      {
+        "log_p": 0.0,
+        "arrival": -0.0375,
+        "emission": -0.05,
+        "prep_time": -0.05,
+        "norm_error": 0.0,
+        "null_residual": 0.0,
+        "receiver_K": [
+          0.75,
+          0.0,
+          0.0
+        ],
+        "receiver_initial_x": [
+          0.0,
+          0.01,
+          0.0
+        ],
+        "unique_forward_kind": "boost_trans"
+      }
+    ]
+  },
+  {
+    "fine": false,
+    "kind": "flat",
+    "t": -0.05,
+    "L": 0.005,
+    "values": [
+      {
+        "log_p": 0.0,
+        "arrival": -0.045,
+        "emission": -0.05,
+        "prep_time": -0.05,
+        "norm_error": 0.0,
+        "null_residual": 3.469446951953614e-18,
+        "receiver_K": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "receiver_initial_x": [
+          0.005,
+          0.0,
+          0.0
+        ],
+        "unique_forward_kind": "rest"
+      },
+      {
+        "log_p": 0.0,
+        "arrival": -0.04000000000000001,
+        "emission": -0.05,
+        "prep_time": -0.04625,
+        "norm_error": 0.0,
+        "null_residual": 0.0,
+        "receiver_K": [
+          0.75,
+          0.0,
+          0.0
+        ],
+        "receiver_initial_x": [
+          0.006249999999999998,
+          0.0,
+          0.0
+        ],
+        "unique_forward_kind": "boost_long"
+      },
+      {
+        "log_p": 0.0,
+        "arrival": -0.043750000000000004,
+        "emission": -0.05,
+        "prep_time": -0.05,
+        "norm_error": 0.0,
+        "null_residual": 1.734723475976807e-18,
+        "receiver_K": [
+          0.75,
+          0.0,
+          0.0
+        ],
+        "receiver_initial_x": [
+          0.0,
+          0.005,
+          0.0
+        ],
+        "unique_forward_kind": "boost_trans"
+      }
+    ]
+  },
+  {
+    "fine": false,
+    "kind": "flat",
+    "t": 0.0,
+    "L": 0.02,
+    "values": [
+      {
+        "log_p": 0.0,
+        "arrival": 0.020000000000000004,
+        "emission": 0.0,
+        "prep_time": 0.0,
+        "norm_error": 0.0,
+        "null_residual": 0.0,
+        "receiver_K": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "receiver_initial_x": [
+          0.02,
+          0.0,
+          0.0
+        ],
+        "unique_forward_kind": "rest"
+      },
+      {
+        "log_p": 0.0,
+        "arrival": 0.039999999999999994,
+        "emission": 0.0,
+        "prep_time": 0.015,
+        "norm_error": 0.0,
+        "null_residual": 0.0,
+        "receiver_K": [
+          0.75,
+          0.0,
+          0.0
+        ],
+        "receiver_initial_x": [
+          0.02499999999999999,
+          0.0,
+          0.0
+        ],
+        "unique_forward_kind": "boost_long"
+      },
+      {
+        "log_p": 0.0,
+        "arrival": 0.025000000000000005,
+        "emission": 0.0,
+        "prep_time": 0.0,
+        "norm_error": 0.0,
+        "null_residual": 0.0,
+        "receiver_K": [
+          0.75,
+          0.0,
+          0.0
+        ],
+        "receiver_initial_x": [
+          0.0,
+          0.02,
+          0.0
+        ],
+        "unique_forward_kind": "boost_trans"
+      }
+    ]
+  },
+  {
+    "fine": false,
+    "kind": "flat",
+    "t": 0.0,
+    "L": 0.01,
+    "values": [
+      {
+        "log_p": 0.0,
+        "arrival": 0.010000000000000002,
+        "emission": 0.0,
+        "prep_time": 0.0,
+        "norm_error": 0.0,
+        "null_residual": 0.0,
+        "receiver_K": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "receiver_initial_x": [
+          0.01,
+          0.0,
+          0.0
+        ],
+        "unique_forward_kind": "rest"
+      },
+      {
+        "log_p": 0.0,
+        "arrival": 0.019999999999999997,
+        "emission": 0.0,
+        "prep_time": 0.0075,
+        "norm_error": 0.0,
+        "null_residual": 0.0,
+        "receiver_K": [
+          0.75,
+          0.0,
+          0.0
+        ],
+        "receiver_initial_x": [
+          0.012499999999999995,
+          0.0,
+          0.0
+        ],
+        "unique_forward_kind": "boost_long"
+      },
+      {
+        "log_p": 0.0,
+        "arrival": 0.012500000000000002,
+        "emission": 0.0,
+        "prep_time": 0.0,
+        "norm_error": 0.0,
+        "null_residual": 0.0,
+        "receiver_K": [
+          0.75,
+          0.0,
+          0.0
+        ],
+        "receiver_initial_x": [
+          0.0,
+          0.01,
+          0.0
+        ],
+        "unique_forward_kind": "boost_trans"
+      }
+    ]
+  },
+  {
+    "fine": false,
+    "kind": "flat",
+    "t": 0.0,
+    "L": 0.005,
+    "values": [
+      {
+        "log_p": 0.0,
+        "arrival": 0.005000000000000001,
+        "emission": 0.0,
+        "prep_time": 0.0,
+        "norm_error": 0.0,
+        "null_residual": 0.0,
+        "receiver_K": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "receiver_initial_x": [
+          0.005,
+          0.0,
+          0.0
+        ],
+        "unique_forward_kind": "rest"
+      },
+      {
+        "log_p": 0.0,
+        "arrival": 0.009999999999999998,
+        "emission": 0.0,
+        "prep_time": 0.00375,
+        "norm_error": 0.0,
+        "null_residual": 0.0,
+        "receiver_K": [
+          0.75,
+          0.0,
+          0.0
+        ],
+        "receiver_initial_x": [
+          0.006249999999999998,
+          0.0,
+          0.0
+        ],
+        "unique_forward_kind": "boost_long"
+      },
+      {
+        "log_p": 0.0,
+        "arrival": 0.006250000000000001,
+        "emission": 0.0,
+        "prep_time": 0.0,
+        "norm_error": 0.0,
+        "null_residual": 0.0,
+        "receiver_K": [
+          0.75,
+          0.0,
+          0.0
+        ],
+        "receiver_initial_x": [
+          0.0,
+          0.005,
+          0.0
+        ],
+        "unique_forward_kind": "boost_trans"
+      }
+    ]
+  },
+  {
+    "fine": false,
+    "kind": "flat",
+    "t": 0.0,
+    "L": 0.02,
+    "values": [
+      {
+        "log_p": 0.0,
+        "arrival": 0.020000000000000004,
+        "emission": 0.0,
+        "prep_time": 0.0,
+        "norm_error": 0.0,
+        "null_residual": 0.0,
+        "receiver_K": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "receiver_initial_x": [
+          0.02,
+          0.0,
+          0.0
+        ],
+        "unique_forward_kind": "rest"
+      },
+      {
+        "log_p": 0.0,
+        "arrival": 0.039999999999999994,
+        "emission": 0.0,
+        "prep_time": 0.015,
+        "norm_error": 0.0,
+        "null_residual": 0.0,
+        "receiver_K": [
+          0.75,
+          0.0,
+          0.0
+        ],
+        "receiver_initial_x": [
+          0.02499999999999999,
+          0.0,
+          0.0
+        ],
+        "unique_forward_kind": "boost_long"
+      },
+      {
+        "log_p": 0.0,
+        "arrival": 0.025000000000000005,
+        "emission": 0.0,
+        "prep_time": 0.0,
+        "norm_error": 0.0,
+        "null_residual": 0.0,
+        "receiver_K": [
+          0.75,
+          0.0,
+          0.0
+        ],
+        "receiver_initial_x": [
+          0.0,
+          0.02,
+          0.0
+        ],
+        "unique_forward_kind": "boost_trans"
+      }
+    ]
+  },
+  {
+    "fine": false,
+    "kind": "flat",
+    "t": 0.0,
+    "L": 0.01,
+    "values": [
+      {
+        "log_p": 0.0,
+        "arrival": 0.010000000000000002,
+        "emission": 0.0,
+        "prep_time": 0.0,
+        "norm_error": 0.0,
+        "null_residual": 0.0,
+        "receiver_K": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "receiver_initial_x": [
+          0.01,
+          0.0,
+          0.0
+        ],
+        "unique_forward_kind": "rest"
+      },
+      {
+        "log_p": 0.0,
+        "arrival": 0.019999999999999997,
+        "emission": 0.0,
+        "prep_time": 0.0075,
+        "norm_error": 0.0,
+        "null_residual": 0.0,
+        "receiver_K": [
+          0.75,
+          0.0,
+          0.0
+        ],
+        "receiver_initial_x": [
+          0.012499999999999995,
+          0.0,
+          0.0
+        ],
+        "unique_forward_kind": "boost_long"
+      },
+      {
+        "log_p": 0.0,
+        "arrival": 0.012500000000000002,
+        "emission": 0.0,
+        "prep_time": 0.0,
+        "norm_error": 0.0,
+        "null_residual": 0.0,
+        "receiver_K": [
+          0.75,
+          0.0,
+          0.0
+        ],
+        "receiver_initial_x": [
+          0.0,
+          0.01,
+          0.0
+        ],
+        "unique_forward_kind": "boost_trans"
+      }
+    ]
+  },
+  {
+    "fine": false,
+    "kind": "flat",
+    "t": 0.0,
+    "L": 0.005,
+    "values": [
+      {
+        "log_p": 0.0,
+        "arrival": 0.005000000000000001,
+        "emission": 0.0,
+        "prep_time": 0.0,
+        "norm_error": 0.0,
+        "null_residual": 0.0,
+        "receiver_K": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "receiver_initial_x": [
+          0.005,
+          0.0,
+          0.0
+        ],
+        "unique_forward_kind": "rest"
+      },
+      {
+        "log_p": 0.0,
+        "arrival": 0.009999999999999998,
+        "emission": 0.0,
+        "prep_time": 0.00375,
+        "norm_error": 0.0,
+        "null_residual": 0.0,
+        "receiver_K": [
+          0.75,
+          0.0,
+          0.0
+        ],
+        "receiver_initial_x": [
+          0.006249999999999998,
+          0.0,
+          0.0
+        ],
+        "unique_forward_kind": "boost_long"
+      },
+      {
+        "log_p": 0.0,
+        "arrival": 0.006250000000000001,
+        "emission": 0.0,
+        "prep_time": 0.0,
+        "norm_error": 0.0,
+        "null_residual": 0.0,
+        "receiver_K": [
+          0.75,
+          0.0,
+          0.0
+        ],
+        "receiver_initial_x": [
+          0.0,
+          0.005,
+          0.0
+        ],
+        "unique_forward_kind": "boost_trans"
+      }
+    ]
+  },
+  {
+    "fine": false,
+    "kind": "flat",
+    "t": 0.0,
+    "L": 0.02,
+    "values": [
+      {
+        "log_p": 0.0,
+        "arrival": 0.020000000000000004,
+        "emission": 0.0,
+        "prep_time": 0.0,
+        "norm_error": 0.0,
+        "null_residual": 0.0,
+        "receiver_K": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "receiver_initial_x": [
+          0.02,
+          0.0,
+          0.0
+        ],
+        "unique_forward_kind": "rest"
+      },
+      {
+        "log_p": 0.0,
+        "arrival": 0.039999999999999994,
+        "emission": 0.0,
+        "prep_time": 0.015,
+        "norm_error": 0.0,
+        "null_residual": 0.0,
+        "receiver_K": [
+          0.75,
+          0.0,
+          0.0
+        ],
+        "receiver_initial_x": [
+          0.02499999999999999,
+          0.0,
+          0.0
+        ],
+        "unique_forward_kind": "boost_long"
+      },
+      {
+        "log_p": 0.0,
+        "arrival": 0.025000000000000005,
+        "emission": 0.0,
+        "prep_time": 0.0,
+        "norm_error": 0.0,
+        "null_residual": 0.0,
+        "receiver_K": [
+          0.75,
+          0.0,
+          0.0
+        ],
+        "receiver_initial_x": [
+          0.0,
+          0.02,
+          0.0
+        ],
+        "unique_forward_kind": "boost_trans"
+      }
+    ]
+  },
+  {
+    "fine": false,
+    "kind": "flat",
+    "t": 0.0,
+    "L": 0.01,
+    "values": [
+      {
+        "log_p": 0.0,
+        "arrival": 0.010000000000000002,
+        "emission": 0.0,
+        "prep_time": 0.0,
+        "norm_error": 0.0,
+        "null_residual": 0.0,
+        "receiver_K": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "receiver_initial_x": [
+          0.01,
+          0.0,
+          0.0
+        ],
+        "unique_forward_kind": "rest"
+      },
+      {
+        "log_p": 0.0,
+        "arrival": 0.019999999999999997,
+        "emission": 0.0,
+        "prep_time": 0.0075,
+        "norm_error": 0.0,
+        "null_residual": 0.0,
+        "receiver_K": [
+          0.75,
+          0.0,
+          0.0
+        ],
+        "receiver_initial_x": [
+          0.012499999999999995,
+          0.0,
+          0.0
+        ],
+        "unique_forward_kind": "boost_long"
+      },
+      {
+        "log_p": 0.0,
+        "arrival": 0.012500000000000002,
+        "emission": 0.0,
+        "prep_time": 0.0,
+        "norm_error": 0.0,
+        "null_residual": 0.0,
+        "receiver_K": [
+          0.75,
+          0.0,
+          0.0
+        ],
+        "receiver_initial_x": [
+          0.0,
+          0.01,
+          0.0
+        ],
+        "unique_forward_kind": "boost_trans"
+      }
+    ]
+  },
+  {
+    "fine": false,
+    "kind": "flat",
+    "t": 0.0,
+    "L": 0.005,
+    "values": [
+      {
+        "log_p": 0.0,
+        "arrival": 0.005000000000000001,
+        "emission": 0.0,
+        "prep_time": 0.0,
+        "norm_error": 0.0,
+        "null_residual": 0.0,
+        "receiver_K": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "receiver_initial_x": [
+          0.005,
+          0.0,
+          0.0
+        ],
+        "unique_forward_kind": "rest"
+      },
+      {
+        "log_p": 0.0,
+        "arrival": 0.009999999999999998,
+        "emission": 0.0,
+        "prep_time": 0.00375,
+        "norm_error": 0.0,
+        "null_residual": 0.0,
+        "receiver_K": [
+          0.75,
+          0.0,
+          0.0
+        ],
+        "receiver_initial_x": [
+          0.006249999999999998,
+          0.0,
+          0.0
+        ],
+        "unique_forward_kind": "boost_long"
+      },
+      {
+        "log_p": 0.0,
+        "arrival": 0.006250000000000001,
+        "emission": 0.0,
+        "prep_time": 0.0,
+        "norm_error": 0.0,
+        "null_residual": 0.0,
+        "receiver_K": [
+          0.75,
+          0.0,
+          0.0
+        ],
+        "receiver_initial_x": [
+          0.0,
+          0.005,
+          0.0
+        ],
+        "unique_forward_kind": "boost_trans"
+      }
+    ]
+  },
+  {
+    "fine": false,
+    "kind": "flat",
+    "t": 0.0,
+    "L": 0.02,
+    "values": [
+      {
+        "log_p": 0.0,
+        "arrival": 0.020000000000000004,
+        "emission": 0.0,
+        "prep_time": 0.0,
+        "norm_error": 0.0,
+        "null_residual": 0.0,
+        "receiver_K": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "receiver_initial_x": [
+          0.02,
+          0.0,
+          0.0
+        ],
+        "unique_forward_kind": "rest"
+      },
+      {
+        "log_p": 0.0,
+        "arrival": 0.039999999999999994,
+        "emission": 0.0,
+        "prep_time": 0.015,
+        "norm_error": 0.0,
+        "null_residual": 0.0,
+        "receiver_K": [
+          0.75,
+          0.0,
+          0.0
+        ],
+        "receiver_initial_x": [
+          0.02499999999999999,
+          0.0,
+          0.0
+        ],
+        "unique_forward_kind": "boost_long"
+      },
+      {
+        "log_p": 0.0,
+        "arrival": 0.025000000000000005,
+        "emission": 0.0,
+        "prep_time": 0.0,
+        "norm_error": 0.0,
+        "null_residual": 0.0,
+        "receiver_K": [
+          0.75,
+          0.0,
+          0.0
+        ],
+        "receiver_initial_x": [
+          0.0,
+          0.02,
+          0.0
+        ],
+        "unique_forward_kind": "boost_trans"
+      }
+    ]
+  },
+  {
+    "fine": false,
+    "kind": "flat",
+    "t": 0.0,
+    "L": 0.01,
+    "values": [
+      {
+        "log_p": 0.0,
+        "arrival": 0.010000000000000002,
+        "emission": 0.0,
+        "prep_time": 0.0,
+        "norm_error": 0.0,
+        "null_residual": 0.0,
+        "receiver_K": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "receiver_initial_x": [
+          0.01,
+          0.0,
+          0.0
+        ],
+        "unique_forward_kind": "rest"
+      },
+      {
+        "log_p": 0.0,
+        "arrival": 0.019999999999999997,
+        "emission": 0.0,
+        "prep_time": 0.0075,
+        "norm_error": 0.0,
+        "null_residual": 0.0,
+        "receiver_K": [
+          0.75,
+          0.0,
+          0.0
+        ],
+        "receiver_initial_x": [
+          0.012499999999999995,
+          0.0,
+          0.0
+        ],
+        "unique_forward_kind": "boost_long"
+      },
+      {
+        "log_p": 0.0,
+        "arrival": 0.012500000000000002,
+        "emission": 0.0,
+        "prep_time": 0.0,
+        "norm_error": 0.0,
+        "null_residual": 0.0,
+        "receiver_K": [
+          0.75,
+          0.0,
+          0.0
+        ],
+        "receiver_initial_x": [
+          0.0,
+          0.01,
+          0.0
+        ],
+        "unique_forward_kind": "boost_trans"
+      }
+    ]
+  },
+  {
+    "fine": false,
+    "kind": "flat",
+    "t": 0.0,
+    "L": 0.005,
+    "values": [
+      {
+        "log_p": 0.0,
+        "arrival": 0.005000000000000001,
+        "emission": 0.0,
+        "prep_time": 0.0,
+        "norm_error": 0.0,
+        "null_residual": 0.0,
+        "receiver_K": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "receiver_initial_x": [
+          0.005,
+          0.0,
+          0.0
+        ],
+        "unique_forward_kind": "rest"
+      },
+      {
+        "log_p": 0.0,
+        "arrival": 0.009999999999999998,
+        "emission": 0.0,
+        "prep_time": 0.00375,
+        "norm_error": 0.0,
+        "null_residual": 0.0,
+        "receiver_K": [
+          0.75,
+          0.0,
+          0.0
+        ],
+        "receiver_initial_x": [
+          0.006249999999999998,
+          0.0,
+          0.0
+        ],
+        "unique_forward_kind": "boost_long"
+      },
+      {
+        "log_p": 0.0,
+        "arrival": 0.006250000000000001,
+        "emission": 0.0,
+        "prep_time": 0.0,
+        "norm_error": 0.0,
+        "null_residual": 0.0,
+        "receiver_K": [
+          0.75,
+          0.0,
+          0.0
+        ],
+        "receiver_initial_x": [
+          0.0,
+          0.005,
+          0.0
+        ],
+        "unique_forward_kind": "boost_trans"
+      }
+    ]
+  },
+  {
+    "fine": false,
+    "kind": "flat",
+    "t": 0.0,
+    "L": 0.02,
+    "values": [
+      {
+        "log_p": 0.0,
+        "arrival": 0.020000000000000004,
+        "emission": 0.0,
+        "prep_time": 0.0,
+        "norm_error": 0.0,
+        "null_residual": 0.0,
+        "receiver_K": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "receiver_initial_x": [
+          0.02,
+          0.0,
+          0.0
+        ],
+        "unique_forward_kind": "rest"
+      },
+      {
+        "log_p": 0.0,
+        "arrival": 0.039999999999999994,
+        "emission": 0.0,
+        "prep_time": 0.015,
+        "norm_error": 0.0,
+        "null_residual": 0.0,
+        "receiver_K": [
+          0.75,
+          0.0,
+          0.0
+        ],
+        "receiver_initial_x": [
+          0.02499999999999999,
+          0.0,
+          0.0
+        ],
+        "unique_forward_kind": "boost_long"
+      },
+      {
+        "log_p": 0.0,
+        "arrival": 0.025000000000000005,
+        "emission": 0.0,
+        "prep_time": 0.0,
+        "norm_error": 0.0,
+        "null_residual": 0.0,
+        "receiver_K": [
+          0.75,
+          0.0,
+          0.0
+        ],
+        "receiver_initial_x": [
+          0.0,
+          0.02,
+          0.0
+        ],
+        "unique_forward_kind": "boost_trans"
+      }
+    ]
+  },
+  {
+    "fine": false,
+    "kind": "flat",
+    "t": 0.0,
+    "L": 0.01,
+    "values": [
+      {
+        "log_p": 0.0,
+        "arrival": 0.010000000000000002,
+        "emission": 0.0,
+        "prep_time": 0.0,
+        "norm_error": 0.0,
+        "null_residual": 0.0,
+        "receiver_K": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "receiver_initial_x": [
+          0.01,
+          0.0,
+          0.0
+        ],
+        "unique_forward_kind": "rest"
+      },
+      {
+        "log_p": 0.0,
+        "arrival": 0.019999999999999997,
+        "emission": 0.0,
+        "prep_time": 0.0075,
+        "norm_error": 0.0,
+        "null_residual": 0.0,
+        "receiver_K": [
+          0.75,
+          0.0,
+          0.0
+        ],
+        "receiver_initial_x": [
+          0.012499999999999995,
+          0.0,
+          0.0
+        ],
+        "unique_forward_kind": "boost_long"
+      },
+      {
+        "log_p": 0.0,
+        "arrival": 0.012500000000000002,
+        "emission": 0.0,
+        "prep_time": 0.0,
+        "norm_error": 0.0,
+        "null_residual": 0.0,
+        "receiver_K": [
+          0.75,
+          0.0,
+          0.0
+        ],
+        "receiver_initial_x": [
+          0.0,
+          0.01,
+          0.0
+        ],
+        "unique_forward_kind": "boost_trans"
+      }
+    ]
+  },
+  {
+    "fine": false,
+    "kind": "flat",
+    "t": 0.0,
+    "L": 0.005,
+    "values": [
+      {
+        "log_p": 0.0,
+        "arrival": 0.005000000000000001,
+        "emission": 0.0,
+        "prep_time": 0.0,
+        "norm_error": 0.0,
+        "null_residual": 0.0,
+        "receiver_K": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "receiver_initial_x": [
+          0.005,
+          0.0,
+          0.0
+        ],
+        "unique_forward_kind": "rest"
+      },
+      {
+        "log_p": 0.0,
+        "arrival": 0.009999999999999998,
+        "emission": 0.0,
+        "prep_time": 0.00375,
+        "norm_error": 0.0,
+        "null_residual": 0.0,
+        "receiver_K": [
+          0.75,
+          0.0,
+          0.0
+        ],
+        "receiver_initial_x": [
+          0.006249999999999998,
+          0.0,
+          0.0
+        ],
+        "unique_forward_kind": "boost_long"
+      },
+      {
+        "log_p": 0.0,
+        "arrival": 0.006250000000000001,
+        "emission": 0.0,
+        "prep_time": 0.0,
+        "norm_error": 0.0,
+        "null_residual": 0.0,
+        "receiver_K": [
+          0.75,
+          0.0,
+          0.0
+        ],
+        "receiver_initial_x": [
+          0.0,
+          0.005,
+          0.0
+        ],
+        "unique_forward_kind": "boost_trans"
+      }
+    ]
+  },
+  {
+    "fine": false,
+    "kind": "flat",
+    "t": 0.0,
+    "L": 0.02,
+    "values": [
+      {
+        "log_p": 0.0,
+        "arrival": 0.020000000000000004,
+        "emission": 0.0,
+        "prep_time": 0.0,
+        "norm_error": 0.0,
+        "null_residual": 0.0,
+        "receiver_K": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "receiver_initial_x": [
+          0.02,
+          0.0,
+          0.0
+        ],
+        "unique_forward_kind": "rest"
+      },
+      {
+        "log_p": 0.0,
+        "arrival": 0.039999999999999994,
+        "emission": 0.0,
+        "prep_time": 0.015,
+        "norm_error": 0.0,
+        "null_residual": 0.0,
+        "receiver_K": [
+          0.75,
+          0.0,
+          0.0
+        ],
+        "receiver_initial_x": [
+          0.02499999999999999,
+          0.0,
+          0.0
+        ],
+        "unique_forward_kind": "boost_long"
+      },
+      {
+        "log_p": 0.0,
+        "arrival": 0.025000000000000005,
+        "emission": 0.0,
+        "prep_time": 0.0,
+        "norm_error": 0.0,
+        "null_residual": 0.0,
+        "receiver_K": [
+          0.75,
+          0.0,
+          0.0
+        ],
+        "receiver_initial_x": [
+          0.0,
+          0.02,
+          0.0
+        ],
+        "unique_forward_kind": "boost_trans"
+      }
+    ]
+  },
+  {
+    "fine": false,
+    "kind": "flat",
+    "t": 0.0,
+    "L": 0.01,
+    "values": [
+      {
+        "log_p": 0.0,
+        "arrival": 0.010000000000000002,
+        "emission": 0.0,
+        "prep_time": 0.0,
+        "norm_error": 0.0,
+        "null_residual": 0.0,
+        "receiver_K": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "receiver_initial_x": [
+          0.01,
+          0.0,
+          0.0
+        ],
+        "unique_forward_kind": "rest"
+      },
+      {
+        "log_p": 0.0,
+        "arrival": 0.019999999999999997,
+        "emission": 0.0,
+        "prep_time": 0.0075,
+        "norm_error": 0.0,
+        "null_residual": 0.0,
+        "receiver_K": [
+          0.75,
+          0.0,
+          0.0
+        ],
+        "receiver_initial_x": [
+          0.012499999999999995,
+          0.0,
+          0.0
+        ],
+        "unique_forward_kind": "boost_long"
+      },
+      {
+        "log_p": 0.0,
+        "arrival": 0.012500000000000002,
+        "emission": 0.0,
+        "prep_time": 0.0,
+        "norm_error": 0.0,
+        "null_residual": 0.0,
+        "receiver_K": [
+          0.75,
+          0.0,
+          0.0
+        ],
+        "receiver_initial_x": [
+          0.0,
+          0.01,
+          0.0
+        ],
+        "unique_forward_kind": "boost_trans"
+      }
+    ]
+  },
+  {
+    "fine": false,
+    "kind": "flat",
+    "t": 0.0,
+    "L": 0.005,
+    "values": [
+      {
+        "log_p": 0.0,
+        "arrival": 0.005000000000000001,
+        "emission": 0.0,
+        "prep_time": 0.0,
+        "norm_error": 0.0,
+        "null_residual": 0.0,
+        "receiver_K": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "receiver_initial_x": [
+          0.005,
+          0.0,
+          0.0
+        ],
+        "unique_forward_kind": "rest"
+      },
+      {
+        "log_p": 0.0,
+        "arrival": 0.009999999999999998,
+        "emission": 0.0,
+        "prep_time": 0.00375,
+        "norm_error": 0.0,
+        "null_residual": 0.0,
+        "receiver_K": [
+          0.75,
+          0.0,
+          0.0
+        ],
+        "receiver_initial_x": [
+          0.006249999999999998,
+          0.0,
+          0.0
+        ],
+        "unique_forward_kind": "boost_long"
+      },
+      {
+        "log_p": 0.0,
+        "arrival": 0.006250000000000001,
+        "emission": 0.0,
+        "prep_time": 0.0,
+        "norm_error": 0.0,
+        "null_residual": 0.0,
+        "receiver_K": [
+          0.75,
+          0.0,
+          0.0
+        ],
+        "receiver_initial_x": [
+          0.0,
+          0.005,
+          0.0
+        ],
+        "unique_forward_kind": "boost_trans"
+      }
+    ]
+  },
+  {
+    "fine": false,
+    "kind": "cubic_control",
+    "t": 0.0,
+    "L": 0.02,
+    "values": [
+      {
+        "log_p": 2.4000001435179875e-07,
+        "arrival": 0.020000001199988633,
+        "emission": 0.0,
+        "prep_time": 0.0,
+        "norm_error": 0.0,
+        "null_residual": 1.149080830487037e-14,
+        "receiver_K": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "receiver_initial_x": [
+          0.02,
+          0.0,
+          0.0
+        ],
+        "unique_forward_kind": "rest"
+      },
+      {
+        "log_p": 6.599998654007473e-07,
+        "arrival": 0.03999999580000922,
+        "emission": 0.0,
+        "prep_time": 0.014999998945312632,
+        "norm_error": 4.440892098500626e-16,
+        "null_residual": 9.853229343548264e-16,
+        "receiver_K": [
+          0.7499998650000095,
+          0.0,
+          0.0
+        ],
+        "receiver_initial_x": [
+          0.024999998734375257,
+          0.0,
+          0.0
+        ],
+        "unique_forward_kind": "boost_long"
+      },
+      {
+        "log_p": 4.687499756616402e-07,
+        "arrival": 0.025000001875000254,
+        "emission": 0.0,
+        "prep_time": 0.0,
+        "norm_error": 0.0,
+        "null_residual": 0.0,
+        "receiver_K": [
+          0.75,
+          0.0,
+          0.0
+        ],
+        "receiver_initial_x": [
+          0.0,
+          0.02,
+          0.0
+        ],
+        "unique_forward_kind": "boost_trans"
+      }
+    ]
+  },
+  {
+    "fine": false,
+    "kind": "cubic_control",
+    "t": 0.0,
+    "L": 0.01,
+    "values": [
+      {
+        "log_p": 3.0000000267675875e-08,
+        "arrival": 0.010000000075000107,
+        "emission": 0.0,
+        "prep_time": 0.0,
+        "norm_error": 0.0,
+        "null_residual": 1.0408340855860843e-16,
+        "receiver_K": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "receiver_initial_x": [
+          0.01,
+          0.0,
+          0.0
+        ],
+        "unique_forward_kind": "rest"
+      },
+      {
+        "log_p": 8.249999801675207e-08,
+        "arrival": 0.019999999737500277,
+        "emission": 0.0,
+        "prep_time": 0.00749999993408203,
+        "norm_error": 4.440892098500626e-16,
+        "null_residual": 6.938893903907228e-17,
+        "receiver_K": [
+          0.7499999831250002,
+          0.0,
+          0.0
+        ],
+        "receiver_initial_x": [
+          0.012499999920898442,
+          0.0,
+          0.0
+        ],
+        "unique_forward_kind": "boost_long"
+      },
+      {
+        "log_p": 5.859374959435372e-08,
+        "arrival": 0.012500000117187505,
+        "emission": 0.0,
+        "prep_time": 0.0,
+        "norm_error": 0.0,
+        "null_residual": 0.0,
+        "receiver_K": [
+          0.75,
+          0.0,
+          0.0
+        ],
+        "receiver_initial_x": [
+          0.0,
+          0.01,
+          0.0
+        ],
+        "unique_forward_kind": "boost_trans"
+      }
+    ]
+  },
+  {
+    "fine": false,
+    "kind": "cubic_control",
+    "t": 0.0,
+    "L": 0.005,
+    "values": [
+      {
+        "log_p": 3.750000095263037e-09,
+        "arrival": 0.005000000004687501,
+        "emission": 0.0,
+        "prep_time": 0.0,
+        "norm_error": 0.0,
+        "null_residual": 1.734723475976807e-18,
+        "receiver_K": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "receiver_initial_x": [
+          0.005,
+          0.0,
+          0.0
+        ],
+        "unique_forward_kind": "rest"
+      },
+      {
+        "log_p": 1.031249957416627e-08,
+        "arrival": 0.009999999983593749,
+        "emission": 0.0,
+        "prep_time": 0.0037499999958801274,
+        "norm_error": 7.771561172376096e-16,
+        "null_residual": 0.0,
+        "receiver_K": [
+          0.7499999978906249,
+          0.0,
+          0.0
+        ],
+        "receiver_initial_x": [
+          0.006249999995056151,
+          0.0,
+          0.0
+        ],
+        "unique_forward_kind": "boost_long"
+      },
+      {
+        "log_p": 7.324218753502239e-09,
+        "arrival": 0.006250000007324221,
+        "emission": 0.0,
+        "prep_time": 0.0,
+        "norm_error": 0.0,
+        "null_residual": 0.0,
+        "receiver_K": [
+          0.75,
+          0.0,
+          0.0
+        ],
+        "receiver_initial_x": [
+          0.0,
+          0.005,
+          0.0
+        ],
+        "unique_forward_kind": "boost_trans"
+      }
+    ]
+  },
+  {
+    "fine": false,
+    "kind": "cubic_control",
+    "t": 0.05,
+    "L": 0.02,
+    "values": [
+      {
+        "log_p": 2.03998907037296e-06,
+        "arrival": 0.06999996820032403,
+        "emission": 0.05,
+        "prep_time": 0.04999995500018224,
+        "norm_error": 2.220446049250313e-16,
+        "null_residual": 0.0,
+        "receiver_K": [
+          -4.499997300011345e-06,
+          0.0,
+          0.0
+        ],
+        "receiver_initial_x": [
+          0.019999925000416245,
+          0.0,
+          0.0
+        ],
+        "unique_forward_kind": "rest"
+      },
+      {
+        "log_p": 2.459973887425348e-06,
+        "arrival": 0.08999976780481074,
+        "emission": 0.05,
+        "prep_time": 0.06499991457104441,
+        "norm_error": 4.440892098500626e-16,
+        "null_residual": 6.938893903907228e-18,
+        "receiver_K": [
+          0.7499968275060002,
+          0.0,
+          0.0
+        ],
+        "receiver_initial_x": [
+          0.024999803736397794,
+          0.0,
+          0.0
+        ],
+        "unique_forward_kind": "boost_long"
+      },
+      {
+        "log_p": 3.281213558922544e-06,
+        "arrival": 0.07499994656309641,
+        "emission": 0.05,
+        "prep_time": 0.04999995500018224,
+        "norm_error": 2.220446049250313e-16,
+        "null_residual": 6.938893903907228e-18,
+        "receiver_K": [
+          0.7500028124924064,
+          -5.624996625014176e-06,
+          0.0
+        ],
+        "receiver_initial_x": [
+          0.0,
+          0.019999925000416245,
+          0.0
+        ],
+        "unique_forward_kind": "boost_trans"
+      }
+    ]
+  },
+  {
+    "fine": false,
+    "kind": "cubic_control",
+    "t": 0.05,
+    "L": 0.01,
+    "values": [
+      {
+        "log_p": 4.799978188740956e-07,
+        "arrival": 0.05999999032506163,
+        "emission": 0.05,
+        "prep_time": 0.04999998875004304,
+        "norm_error": 7.771561172376096e-16,
+        "null_residual": 1.734723475976807e-18,
+        "receiver_K": [
+          -2.249999662501304e-06,
+          0.0,
+          0.0
+        ],
+        "receiver_initial_x": [
+          0.0099999625001575,
+          0.0,
+          0.0
+        ],
+        "unique_forward_kind": "rest"
+      },
+      {
+        "log_p": 5.324965423124656e-07,
+        "arrival": 0.06999994873802355,
+        "emission": 0.05,
+        "prep_time": 0.05749998059825671,
+        "norm_error": 0.0,
+        "null_residual": 3.920475055707584e-15,
+        "receiver_K": [
+          0.7500002081256322,
+          0.0,
+          0.0
+        ],
+        "receiver_initial_x": [
+          0.0124999298432123,
+          0.0,
+          0.0
+        ],
+        "unique_forward_kind": "boost_long"
+      },
+      {
+        "log_p": 7.617125219420167e-07,
+        "arrival": 0.062499984414167216,
+        "emission": 0.05,
+        "prep_time": 0.04999998875004304,
+        "norm_error": 2.220446049250313e-16,
+        "null_residual": 5.204170427930421e-18,
+        "receiver_K": [
+          0.7500028124981016,
+          -2.8124995781266316e-06,
+          0.0
+        ],
+        "receiver_initial_x": [
+          0.0,
+          0.0099999625001575,
+          0.0
+        ],
+        "unique_forward_kind": "boost_trans"
+      }
+    ]
+  },
+  {
+    "fine": false,
+    "kind": "cubic_control",
+    "t": 0.05,
+    "L": 0.005,
+    "values": [
+      {
+        "log_p": 1.1624951872303689e-07,
+        "arrival": 0.054999997379707885,
+        "emission": 0.05,
+        "prep_time": 0.0499999971875106,
+        "norm_error": 4.440892098500626e-16,
+        "null_residual": 7.39425881635114e-15,
+        "receiver_K": [
+          -1.1249999578126595e-06,
+          0.0,
+          0.0
+        ],
+        "receiver_initial_x": [
+          0.004999981250072419,
+          0.0,
+          0.0
+        ],
+        "unique_forward_kind": "rest"
+      },
+      {
+        "log_p": 1.228118915594734e-07,
+        "arrival": 0.05999998798367135,
+        "emission": 0.05,
+        "prep_time": 0.05374999538164393,
+        "norm_error": 4.440892098500626e-16,
+        "null_residual": 1.97758476261356e-16,
+        "receiver_K": [
+          0.750001601015697,
+          0.0,
+          0.0
+        ],
+        "receiver_initial_x": [
+          0.006249971020585984,
+          0.0,
+          0.0
+        ],
+        "unique_forward_kind": "boost_long"
+      },
+      {
+        "log_p": 1.831042042769961e-07,
+        "arrival": 0.05624999584718915,
+        "emission": 0.05,
+        "prep_time": 0.0499999971875106,
+        "norm_error": 4.440892098500626e-16,
+        "null_residual": 8.673617379884035e-19,
+        "receiver_K": [
+          0.7500028124995255,
+          -1.406249947265825e-06,
+          0.0
+        ],
+        "receiver_initial_x": [
+          0.0,
+          0.004999981250072419,
+          0.0
+        ],
+        "unique_forward_kind": "boost_trans"
+      }
+    ]
+  },
+  {
+    "fine": false,
+    "kind": "cubic_control",
+    "t": -0.05,
+    "L": 0.02,
+    "values": [
+      {
+        "log_p": -1.5600041613473704e-06,
+        "arrival": -0.030000055800008793,
+        "emission": -0.05,
+        "prep_time": -0.05000004500018225,
+        "norm_error": 4.440892098500626e-16,
+        "null_residual": 0.0,
+        "receiver_K": [
+          -4.5000027000113386e-06,
+          0.0,
+          0.0
+        ],
+        "receiver_initial_x": [
+          0.020000075000416246,
+          0.0,
+          0.0
+        ],
+        "unique_forward_kind": "rest"
+      },
+      {
+        "log_p": -1.1400029446047948e-06,
+        "arrival": -0.010000136199930865,
+        "emission": -0.05,
+        "prep_time": -0.035000057304776594,
+        "norm_error": 4.440892098500626e-16,
+        "null_residual": 3.684552662974738e-15,
+        "receiver_K": [
+          0.7499939024971829,
+          0.0,
+          0.0
+        ],
+        "receiver_initial_x": [
+          0.02500002498452828,
+          0.0,
+          0.0
+        ],
+        "unique_forward_kind": "boost_long"
+      },
+      {
+        "log_p": -2.343756690632296e-06,
+        "arrival": -0.025000083437508674,
+        "emission": -0.05,
+        "prep_time": -0.05000004500018225,
+        "norm_error": 6.661338147750939e-16,
+        "null_residual": 0.0,
+        "receiver_K": [
+          0.7499971874924062,
+          -5.62500337501417e-06,
+          0.0
+        ],
+        "receiver_initial_x": [
+          0.0,
+          0.020000075000416246,
+          0.0
+        ],
+        "unique_forward_kind": "boost_trans"
+      }
+    ]
+  },
+  {
+    "fine": false,
+    "kind": "cubic_control",
+    "t": -0.05,
+    "L": 0.01,
+    "values": [
+      {
+        "log_p": -4.200012947565311e-07,
+        "arrival": -0.040000012675033926,
+        "emission": -0.05,
+        "prep_time": -0.05000001125004303,
+        "norm_error": 7.771561172376096e-16,
+        "null_residual": 1.1669484822895981e-14,
+        "receiver_K": [
+          -2.250000337501302e-06,
+          0.0,
+          0.0
+        ],
+        "receiver_initial_x": [
+          0.010000037500157495,
+          0.0,
+          0.0
+        ],
+        "unique_forward_kind": "rest"
+      },
+      {
+        "log_p": -3.6750087757750884e-07,
+        "arrival": -0.03000003926252423,
+        "emission": -0.05,
+        "prep_time": -0.04250001588626819,
+        "norm_error": 0.0,
+        "null_residual": 1.3183898417423734e-16,
+        "receiver_K": [
+          0.7499952581245657,
+          0.0,
+          0.0
+        ],
+        "receiver_initial_x": [
+          0.01250002781160872,
+          0.0,
+          0.0
+        ],
+        "unique_forward_kind": "boost_long"
+      },
+      {
+        "log_p": -6.445338060840374e-07,
+        "arrival": -0.03750001933596916,
+        "emission": -0.05,
+        "prep_time": -0.05000001125004303,
+        "norm_error": 2.220446049250313e-16,
+        "null_residual": 1.734723475976807e-18,
+        "receiver_K": [
+          0.7499971874981015,
+          -2.812500421876629e-06,
+          0.0
+        ],
+        "receiver_initial_x": [
+          0.0,
+          0.010000037500157495,
+          0.0
+        ],
+        "unique_forward_kind": "boost_trans"
+      }
+    ]
+  },
+  {
+    "fine": false,
+    "kind": "cubic_control",
+    "t": -0.05,
+    "L": 0.005,
+    "values": [
+      {
+        "log_p": -1.0875036887266257e-07,
+        "arrival": -0.045000002995317666,
+        "emission": -0.05,
+        "prep_time": -0.0500000028125106,
+        "norm_error": 8.470329472543003e-22,
+        "null_residual": 2.9047944605231635e-15,
+        "receiver_K": [
+          -1.12500004218766e-06,
+          0.0,
+          0.0
+        ],
+        "receiver_initial_x": [
+          0.005000018750072423,
+          0.0,
+          0.0
+        ],
+        "unique_forward_kind": "rest"
+      },
+      {
+        "log_p": -1.021877954878572e-07,
+        "arrival": -0.04000001051642587,
+        "emission": -0.05,
+        "prep_time": -0.046250004178937036,
+        "norm_error": 1.2212453270876722e-15,
+        "null_residual": 1.0408340855860843e-17,
+        "receiver_K": [
+          0.7499961447655651,
+          0.0,
+          0.0
+        ],
+        "receiver_initial_x": [
+          0.006250018422848316,
+          0.0,
+          0.0
+        ],
+        "unique_forward_kind": "boost_long"
+      },
+      {
+        "log_p": -1.6845783831001947e-07,
+        "arrival": -0.04375000462159409,
+        "emission": -0.05,
+        "prep_time": -0.0500000028125106,
+        "norm_error": 4.440892098500626e-16,
+        "null_residual": 0.0,
+        "receiver_K": [
+          0.7499971874995254,
+          -1.4062500527345756e-06,
+          0.0
+        ],
+        "receiver_initial_x": [
+          0.0,
+          0.005000018750072423,
+          0.0
+        ],
+        "unique_forward_kind": "boost_trans"
+      }
+    ]
+  },
+  {
+    "fine": false,
+    "kind": "cubic_control",
+    "t": 0.0,
+    "L": 0.02,
+    "values": [
+      {
+        "log_p": 2.4000001435179875e-07,
+        "arrival": 0.020000001199988633,
+        "emission": 0.0,
+        "prep_time": 0.0,
+        "norm_error": 0.0,
+        "null_residual": 1.149080830487037e-14,
+        "receiver_K": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "receiver_initial_x": [
+          0.02,
+          0.0,
+          0.0
+        ],
+        "unique_forward_kind": "rest"
+      },
+      {
+        "log_p": 6.599998654007473e-07,
+        "arrival": 0.03999999580000922,
+        "emission": 0.0,
+        "prep_time": 0.014999998945312632,
+        "norm_error": 4.440892098500626e-16,
+        "null_residual": 9.853229343548264e-16,
+        "receiver_K": [
+          0.7499998650000095,
+          0.0,
+          0.0
+        ],
+        "receiver_initial_x": [
+          0.024999998734375257,
+          0.0,
+          0.0
+        ],
+        "unique_forward_kind": "boost_long"
+      },
+      {
+        "log_p": 4.687499756616402e-07,
+        "arrival": 0.025000001875000254,
+        "emission": 0.0,
+        "prep_time": 0.0,
+        "norm_error": 0.0,
+        "null_residual": 0.0,
+        "receiver_K": [
+          0.75,
+          0.0,
+          0.0
+        ],
+        "receiver_initial_x": [
+          0.0,
+          0.02,
+          0.0
+        ],
+        "unique_forward_kind": "boost_trans"
+      }
+    ]
+  },
+  {
+    "fine": false,
+    "kind": "cubic_control",
+    "t": 0.0,
+    "L": 0.01,
+    "values": [
+      {
+        "log_p": 3.0000000267675875e-08,
+        "arrival": 0.010000000075000107,
+        "emission": 0.0,
+        "prep_time": 0.0,
+        "norm_error": 0.0,
+        "null_residual": 1.0408340855860843e-16,
+        "receiver_K": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "receiver_initial_x": [
+          0.01,
+          0.0,
+          0.0
+        ],
+        "unique_forward_kind": "rest"
+      },
+      {
+        "log_p": 8.249999801675207e-08,
+        "arrival": 0.019999999737500277,
+        "emission": 0.0,
+        "prep_time": 0.00749999993408203,
+        "norm_error": 4.440892098500626e-16,
+        "null_residual": 6.938893903907228e-17,
+        "receiver_K": [
+          0.7499999831250002,
+          0.0,
+          0.0
+        ],
+        "receiver_initial_x": [
+          0.012499999920898442,
+          0.0,
+          0.0
+        ],
+        "unique_forward_kind": "boost_long"
+      },
+      {
+        "log_p": 5.859374959435372e-08,
+        "arrival": 0.012500000117187505,
+        "emission": 0.0,
+        "prep_time": 0.0,
+        "norm_error": 0.0,
+        "null_residual": 0.0,
+        "receiver_K": [
+          0.75,
+          0.0,
+          0.0
+        ],
+        "receiver_initial_x": [
+          0.0,
+          0.01,
+          0.0
+        ],
+        "unique_forward_kind": "boost_trans"
+      }
+    ]
+  },
+  {
+    "fine": false,
+    "kind": "cubic_control",
+    "t": 0.0,
+    "L": 0.005,
+    "values": [
+      {
+        "log_p": 3.750000095263037e-09,
+        "arrival": 0.005000000004687501,
+        "emission": 0.0,
+        "prep_time": 0.0,
+        "norm_error": 0.0,
+        "null_residual": 1.734723475976807e-18,
+        "receiver_K": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "receiver_initial_x": [
+          0.005,
+          0.0,
+          0.0
+        ],
+        "unique_forward_kind": "rest"
+      },
+      {
+        "log_p": 1.031249957416627e-08,
+        "arrival": 0.009999999983593749,
+        "emission": 0.0,
+        "prep_time": 0.0037499999958801274,
+        "norm_error": 7.771561172376096e-16,
+        "null_residual": 0.0,
+        "receiver_K": [
+          0.7499999978906249,
+          0.0,
+          0.0
+        ],
+        "receiver_initial_x": [
+          0.006249999995056151,
+          0.0,
+          0.0
+        ],
+        "unique_forward_kind": "boost_long"
+      },
+      {
+        "log_p": 7.324218753502239e-09,
+        "arrival": 0.006250000007324221,
+        "emission": 0.0,
+        "prep_time": 0.0,
+        "norm_error": 0.0,
+        "null_residual": 0.0,
+        "receiver_K": [
+          0.75,
+          0.0,
+          0.0
+        ],
+        "receiver_initial_x": [
+          0.0,
+          0.005,
+          0.0
+        ],
+        "unique_forward_kind": "boost_trans"
+      }
+    ]
+  },
+  {
+    "fine": false,
+    "kind": "cubic_control",
+    "t": 0.0,
+    "L": 0.02,
+    "values": [
+      {
+        "log_p": 2.4000001435179875e-07,
+        "arrival": 0.020000001199988633,
+        "emission": 0.0,
+        "prep_time": 0.0,
+        "norm_error": 0.0,
+        "null_residual": 1.149080830487037e-14,
+        "receiver_K": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "receiver_initial_x": [
+          0.02,
+          0.0,
+          0.0
+        ],
+        "unique_forward_kind": "rest"
+      },
+      {
+        "log_p": 6.599998654007473e-07,
+        "arrival": 0.03999999580000922,
+        "emission": 0.0,
+        "prep_time": 0.014999998945312632,
+        "norm_error": 4.440892098500626e-16,
+        "null_residual": 9.853229343548264e-16,
+        "receiver_K": [
+          0.7499998650000095,
+          0.0,
+          0.0
+        ],
+        "receiver_initial_x": [
+          0.024999998734375257,
+          0.0,
+          0.0
+        ],
+        "unique_forward_kind": "boost_long"
+      },
+      {
+        "log_p": 4.687499756616402e-07,
+        "arrival": 0.025000001875000254,
+        "emission": 0.0,
+        "prep_time": 0.0,
+        "norm_error": 0.0,
+        "null_residual": 0.0,
+        "receiver_K": [
+          0.75,
+          0.0,
+          0.0
+        ],
+        "receiver_initial_x": [
+          0.0,
+          0.02,
+          0.0
+        ],
+        "unique_forward_kind": "boost_trans"
+      }
+    ]
+  },
+  {
+    "fine": false,
+    "kind": "cubic_control",
+    "t": 0.0,
+    "L": 0.01,
+    "values": [
+      {
+        "log_p": 3.0000000267675875e-08,
+        "arrival": 0.010000000075000107,
+        "emission": 0.0,
+        "prep_time": 0.0,
+        "norm_error": 0.0,
+        "null_residual": 1.0408340855860843e-16,
+        "receiver_K": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "receiver_initial_x": [
+          0.01,
+          0.0,
+          0.0
+        ],
+        "unique_forward_kind": "rest"
+      },
+      {
+        "log_p": 8.249999801675207e-08,
+        "arrival": 0.019999999737500277,
+        "emission": 0.0,
+        "prep_time": 0.00749999993408203,
+        "norm_error": 4.440892098500626e-16,
+        "null_residual": 6.938893903907228e-17,
+        "receiver_K": [
+          0.7499999831250002,
+          0.0,
+          0.0
+        ],
+        "receiver_initial_x": [
+          0.012499999920898442,
+          0.0,
+          0.0
+        ],
+        "unique_forward_kind": "boost_long"
+      },
+      {
+        "log_p": 5.859374959435372e-08,
+        "arrival": 0.012500000117187505,
+        "emission": 0.0,
+        "prep_time": 0.0,
+        "norm_error": 0.0,
+        "null_residual": 0.0,
+        "receiver_K": [
+          0.75,
+          0.0,
+          0.0
+        ],
+        "receiver_initial_x": [
+          0.0,
+          0.01,
+          0.0
+        ],
+        "unique_forward_kind": "boost_trans"
+      }
+    ]
+  },
+  {
+    "fine": false,
+    "kind": "cubic_control",
+    "t": 0.0,
+    "L": 0.005,
+    "values": [
+      {
+        "log_p": 3.750000095263037e-09,
+        "arrival": 0.005000000004687501,
+        "emission": 0.0,
+        "prep_time": 0.0,
+        "norm_error": 0.0,
+        "null_residual": 1.734723475976807e-18,
+        "receiver_K": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "receiver_initial_x": [
+          0.005,
+          0.0,
+          0.0
+        ],
+        "unique_forward_kind": "rest"
+      },
+      {
+        "log_p": 1.031249957416627e-08,
+        "arrival": 0.009999999983593749,
+        "emission": 0.0,
+        "prep_time": 0.0037499999958801274,
+        "norm_error": 7.771561172376096e-16,
+        "null_residual": 0.0,
+        "receiver_K": [
+          0.7499999978906249,
+          0.0,
+          0.0
+        ],
+        "receiver_initial_x": [
+          0.006249999995056151,
+          0.0,
+          0.0
+        ],
+        "unique_forward_kind": "boost_long"
+      },
+      {
+        "log_p": 7.324218753502239e-09,
+        "arrival": 0.006250000007324221,
+        "emission": 0.0,
+        "prep_time": 0.0,
+        "norm_error": 0.0,
+        "null_residual": 0.0,
+        "receiver_K": [
+          0.75,
+          0.0,
+          0.0
+        ],
+        "receiver_initial_x": [
+          0.0,
+          0.005,
+          0.0
+        ],
+        "unique_forward_kind": "boost_trans"
+      }
+    ]
+  },
+  {
+    "fine": false,
+    "kind": "cubic_control",
+    "t": 0.0,
+    "L": 0.02,
+    "values": [
+      {
+        "log_p": 2.4000001435179875e-07,
+        "arrival": 0.020000001199988633,
+        "emission": 0.0,
+        "prep_time": 0.0,
+        "norm_error": 0.0,
+        "null_residual": 1.149080830487037e-14,
+        "receiver_K": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "receiver_initial_x": [
+          0.02,
+          0.0,
+          0.0
+        ],
+        "unique_forward_kind": "rest"
+      },
+      {
+        "log_p": 6.599998654007473e-07,
+        "arrival": 0.03999999580000922,
+        "emission": 0.0,
+        "prep_time": 0.014999998945312632,
+        "norm_error": 4.440892098500626e-16,
+        "null_residual": 9.853229343548264e-16,
+        "receiver_K": [
+          0.7499998650000095,
+          0.0,
+          0.0
+        ],
+        "receiver_initial_x": [
+          0.024999998734375257,
+          0.0,
+          0.0
+        ],
+        "unique_forward_kind": "boost_long"
+      },
+      {
+        "log_p": 4.687499756616402e-07,
+        "arrival": 0.025000001875000254,
+        "emission": 0.0,
+        "prep_time": 0.0,
+        "norm_error": 0.0,
+        "null_residual": 0.0,
+        "receiver_K": [
+          0.75,
+          0.0,
+          0.0
+        ],
+        "receiver_initial_x": [
+          0.0,
+          0.02,
+          0.0
+        ],
+        "unique_forward_kind": "boost_trans"
+      }
+    ]
+  },
+  {
+    "fine": false,
+    "kind": "cubic_control",
+    "t": 0.0,
+    "L": 0.01,
+    "values": [
+      {
+        "log_p": 3.0000000267675875e-08,
+        "arrival": 0.010000000075000107,
+        "emission": 0.0,
+        "prep_time": 0.0,
+        "norm_error": 0.0,
+        "null_residual": 1.0408340855860843e-16,
+        "receiver_K": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "receiver_initial_x": [
+          0.01,
+          0.0,
+          0.0
+        ],
+        "unique_forward_kind": "rest"
+      },
+      {
+        "log_p": 8.249999801675207e-08,
+        "arrival": 0.019999999737500277,
+        "emission": 0.0,
+        "prep_time": 0.00749999993408203,
+        "norm_error": 4.440892098500626e-16,
+        "null_residual": 6.938893903907228e-17,
+        "receiver_K": [
+          0.7499999831250002,
+          0.0,
+          0.0
+        ],
+        "receiver_initial_x": [
+          0.012499999920898442,
+          0.0,
+          0.0
+        ],
+        "unique_forward_kind": "boost_long"
+      },
+      {
+        "log_p": 5.859374959435372e-08,
+        "arrival": 0.012500000117187505,
+        "emission": 0.0,
+        "prep_time": 0.0,
+        "norm_error": 0.0,
+        "null_residual": 0.0,
+        "receiver_K": [
+          0.75,
+          0.0,
+          0.0
+        ],
+        "receiver_initial_x": [
+          0.0,
+          0.01,
+          0.0
+        ],
+        "unique_forward_kind": "boost_trans"
+      }
+    ]
+  },
+  {
+    "fine": false,
+    "kind": "cubic_control",
+    "t": 0.0,
+    "L": 0.005,
+    "values": [
+      {
+        "log_p": 3.750000095263037e-09,
+        "arrival": 0.005000000004687501,
+        "emission": 0.0,
+        "prep_time": 0.0,
+        "norm_error": 0.0,
+        "null_residual": 1.734723475976807e-18,
+        "receiver_K": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "receiver_initial_x": [
+          0.005,
+          0.0,
+          0.0
+        ],
+        "unique_forward_kind": "rest"
+      },
+      {
+        "log_p": 1.031249957416627e-08,
+        "arrival": 0.009999999983593749,
+        "emission": 0.0,
+        "prep_time": 0.0037499999958801274,
+        "norm_error": 7.771561172376096e-16,
+        "null_residual": 0.0,
+        "receiver_K": [
+          0.7499999978906249,
+          0.0,
+          0.0
+        ],
+        "receiver_initial_x": [
+          0.006249999995056151,
+          0.0,
+          0.0
+        ],
+        "unique_forward_kind": "boost_long"
+      },
+      {
+        "log_p": 7.324218753502239e-09,
+        "arrival": 0.006250000007324221,
+        "emission": 0.0,
+        "prep_time": 0.0,
+        "norm_error": 0.0,
+        "null_residual": 0.0,
+        "receiver_K": [
+          0.75,
+          0.0,
+          0.0
+        ],
+        "receiver_initial_x": [
+          0.0,
+          0.005,
+          0.0
+        ],
+        "unique_forward_kind": "boost_trans"
+      }
+    ]
+  },
+  {
+    "fine": false,
+    "kind": "cubic_control",
+    "t": 0.0,
+    "L": 0.02,
+    "values": [
+      {
+        "log_p": 2.4000001435179875e-07,
+        "arrival": 0.020000001199988633,
+        "emission": 0.0,
+        "prep_time": 0.0,
+        "norm_error": 0.0,
+        "null_residual": 1.149080830487037e-14,
+        "receiver_K": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "receiver_initial_x": [
+          0.02,
+          0.0,
+          0.0
+        ],
+        "unique_forward_kind": "rest"
+      },
+      {
+        "log_p": 6.599998654007473e-07,
+        "arrival": 0.03999999580000922,
+        "emission": 0.0,
+        "prep_time": 0.014999998945312632,
+        "norm_error": 4.440892098500626e-16,
+        "null_residual": 9.853229343548264e-16,
+        "receiver_K": [
+          0.7499998650000095,
+          0.0,
+          0.0
+        ],
+        "receiver_initial_x": [
+          0.024999998734375257,
+          0.0,
+          0.0
+        ],
+        "unique_forward_kind": "boost_long"
+      },
+      {
+        "log_p": 4.687499756616402e-07,
+        "arrival": 0.025000001875000254,
+        "emission": 0.0,
+        "prep_time": 0.0,
+        "norm_error": 0.0,
+        "null_residual": 0.0,
+        "receiver_K": [
+          0.75,
+          0.0,
+          0.0
+        ],
+        "receiver_initial_x": [
+          0.0,
+          0.02,
+          0.0
+        ],
+        "unique_forward_kind": "boost_trans"
+      }
+    ]
+  },
+  {
+    "fine": false,
+    "kind": "cubic_control",
+    "t": 0.0,
+    "L": 0.01,
+    "values": [
+      {
+        "log_p": 3.0000000267675875e-08,
+        "arrival": 0.010000000075000107,
+        "emission": 0.0,
+        "prep_time": 0.0,
+        "norm_error": 0.0,
+        "null_residual": 1.0408340855860843e-16,
+        "receiver_K": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "receiver_initial_x": [
+          0.01,
+          0.0,
+          0.0
+        ],
+        "unique_forward_kind": "rest"
+      },
+      {
+        "log_p": 8.249999801675207e-08,
+        "arrival": 0.019999999737500277,
+        "emission": 0.0,
+        "prep_time": 0.00749999993408203,
+        "norm_error": 4.440892098500626e-16,
+        "null_residual": 6.938893903907228e-17,
+        "receiver_K": [
+          0.7499999831250002,
+          0.0,
+          0.0
+        ],
+        "receiver_initial_x": [
+          0.012499999920898442,
+          0.0,
+          0.0
+        ],
+        "unique_forward_kind": "boost_long"
+      },
+      {
+        "log_p": 5.859374959435372e-08,
+        "arrival": 0.012500000117187505,
+        "emission": 0.0,
+        "prep_time": 0.0,
+        "norm_error": 0.0,
+        "null_residual": 0.0,
+        "receiver_K": [
+          0.75,
+          0.0,
+          0.0
+        ],
+        "receiver_initial_x": [
+          0.0,
+          0.01,
+          0.0
+        ],
+        "unique_forward_kind": "boost_trans"
+      }
+    ]
+  },
+  {
+    "fine": false,
+    "kind": "cubic_control",
+    "t": 0.0,
+    "L": 0.005,
+    "values": [
+      {
+        "log_p": 3.750000095263037e-09,
+        "arrival": 0.005000000004687501,
+        "emission": 0.0,
+        "prep_time": 0.0,
+        "norm_error": 0.0,
+        "null_residual": 1.734723475976807e-18,
+        "receiver_K": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "receiver_initial_x": [
+          0.005,
+          0.0,
+          0.0
+        ],
+        "unique_forward_kind": "rest"
+      },
+      {
+        "log_p": 1.031249957416627e-08,
+        "arrival": 0.009999999983593749,
+        "emission": 0.0,
+        "prep_time": 0.0037499999958801274,
+        "norm_error": 7.771561172376096e-16,
+        "null_residual": 0.0,
+        "receiver_K": [
+          0.7499999978906249,
+          0.0,
+          0.0
+        ],
+        "receiver_initial_x": [
+          0.006249999995056151,
+          0.0,
+          0.0
+        ],
+        "unique_forward_kind": "boost_long"
+      },
+      {
+        "log_p": 7.324218753502239e-09,
+        "arrival": 0.006250000007324221,
+        "emission": 0.0,
+        "prep_time": 0.0,
+        "norm_error": 0.0,
+        "null_residual": 0.0,
+        "receiver_K": [
+          0.75,
+          0.0,
+          0.0
+        ],
+        "receiver_initial_x": [
+          0.0,
+          0.005,
+          0.0
+        ],
+        "unique_forward_kind": "boost_trans"
+      }
+    ]
+  },
+  {
+    "fine": false,
+    "kind": "cubic_control",
+    "t": 0.0,
+    "L": 0.02,
+    "values": [
+      {
+        "log_p": 2.4000001435179875e-07,
+        "arrival": 0.020000001199988633,
+        "emission": 0.0,
+        "prep_time": 0.0,
+        "norm_error": 0.0,
+        "null_residual": 1.149080830487037e-14,
+        "receiver_K": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "receiver_initial_x": [
+          0.02,
+          0.0,
+          0.0
+        ],
+        "unique_forward_kind": "rest"
+      },
+      {
+        "log_p": 6.599998654007473e-07,
+        "arrival": 0.03999999580000922,
+        "emission": 0.0,
+        "prep_time": 0.014999998945312632,
+        "norm_error": 4.440892098500626e-16,
+        "null_residual": 9.853229343548264e-16,
+        "receiver_K": [
+          0.7499998650000095,
+          0.0,
+          0.0
+        ],
+        "receiver_initial_x": [
+          0.024999998734375257,
+          0.0,
+          0.0
+        ],
+        "unique_forward_kind": "boost_long"
+      },
+      {
+        "log_p": 4.687499756616402e-07,
+        "arrival": 0.025000001875000254,
+        "emission": 0.0,
+        "prep_time": 0.0,
+        "norm_error": 0.0,
+        "null_residual": 0.0,
+        "receiver_K": [
+          0.75,
+          0.0,
+          0.0
+        ],
+        "receiver_initial_x": [
+          0.0,
+          0.02,
+          0.0
+        ],
+        "unique_forward_kind": "boost_trans"
+      }
+    ]
+  },
+  {
+    "fine": false,
+    "kind": "cubic_control",
+    "t": 0.0,
+    "L": 0.01,
+    "values": [
+      {
+        "log_p": 3.0000000267675875e-08,
+        "arrival": 0.010000000075000107,
+        "emission": 0.0,
+        "prep_time": 0.0,
+        "norm_error": 0.0,
+        "null_residual": 1.0408340855860843e-16,
+        "receiver_K": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "receiver_initial_x": [
+          0.01,
+          0.0,
+          0.0
+        ],
+        "unique_forward_kind": "rest"
+      },
+      {
+        "log_p": 8.249999801675207e-08,
+        "arrival": 0.019999999737500277,
+        "emission": 0.0,
+        "prep_time": 0.00749999993408203,
+        "norm_error": 4.440892098500626e-16,
+        "null_residual": 6.938893903907228e-17,
+        "receiver_K": [
+          0.7499999831250002,
+          0.0,
+          0.0
+        ],
+        "receiver_initial_x": [
+          0.012499999920898442,
+          0.0,
+          0.0
+        ],
+        "unique_forward_kind": "boost_long"
+      },
+      {
+        "log_p": 5.859374959435372e-08,
+        "arrival": 0.012500000117187505,
+        "emission": 0.0,
+        "prep_time": 0.0,
+        "norm_error": 0.0,
+        "null_residual": 0.0,
+        "receiver_K": [
+          0.75,
+          0.0,
+          0.0
+        ],
+        "receiver_initial_x": [
+          0.0,
+          0.01,
+          0.0
+        ],
+        "unique_forward_kind": "boost_trans"
+      }
+    ]
+  },
+  {
+    "fine": false,
+    "kind": "cubic_control",
+    "t": 0.0,
+    "L": 0.005,
+    "values": [
+      {
+        "log_p": 3.750000095263037e-09,
+        "arrival": 0.005000000004687501,
+        "emission": 0.0,
+        "prep_time": 0.0,
+        "norm_error": 0.0,
+        "null_residual": 1.734723475976807e-18,
+        "receiver_K": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "receiver_initial_x": [
+          0.005,
+          0.0,
+          0.0
+        ],
+        "unique_forward_kind": "rest"
+      },
+      {
+        "log_p": 1.031249957416627e-08,
+        "arrival": 0.009999999983593749,
+        "emission": 0.0,
+        "prep_time": 0.0037499999958801274,
+        "norm_error": 7.771561172376096e-16,
+        "null_residual": 0.0,
+        "receiver_K": [
+          0.7499999978906249,
+          0.0,
+          0.0
+        ],
+        "receiver_initial_x": [
+          0.006249999995056151,
+          0.0,
+          0.0
+        ],
+        "unique_forward_kind": "boost_long"
+      },
+      {
+        "log_p": 7.324218753502239e-09,
+        "arrival": 0.006250000007324221,
+        "emission": 0.0,
+        "prep_time": 0.0,
+        "norm_error": 0.0,
+        "null_residual": 0.0,
+        "receiver_K": [
+          0.75,
+          0.0,
+          0.0
+        ],
+        "receiver_initial_x": [
+          0.0,
+          0.005,
+          0.0
+        ],
+        "unique_forward_kind": "boost_trans"
+      }
+    ]
+  },
+  {
+    "fine": false,
+    "kind": "cubic_control",
+    "t": 0.0,
+    "L": 0.02,
+    "values": [
+      {
+        "log_p": 2.4000001435179875e-07,
+        "arrival": 0.020000001199988633,
+        "emission": 0.0,
+        "prep_time": 0.0,
+        "norm_error": 0.0,
+        "null_residual": 1.149080830487037e-14,
+        "receiver_K": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "receiver_initial_x": [
+          0.02,
+          0.0,
+          0.0
+        ],
+        "unique_forward_kind": "rest"
+      },
+      {
+        "log_p": 6.599998654007473e-07,
+        "arrival": 0.03999999580000922,
+        "emission": 0.0,
+        "prep_time": 0.014999998945312632,
+        "norm_error": 4.440892098500626e-16,
+        "null_residual": 9.853229343548264e-16,
+        "receiver_K": [
+          0.7499998650000095,
+          0.0,
+          0.0
+        ],
+        "receiver_initial_x": [
+          0.024999998734375257,
+          0.0,
+          0.0
+        ],
+        "unique_forward_kind": "boost_long"
+      },
+      {
+        "log_p": 4.687499756616402e-07,
+        "arrival": 0.025000001875000254,
+        "emission": 0.0,
+        "prep_time": 0.0,
+        "norm_error": 0.0,
+        "null_residual": 0.0,
+        "receiver_K": [
+          0.75,
+          0.0,
+          0.0
+        ],
+        "receiver_initial_x": [
+          0.0,
+          0.02,
+          0.0
+        ],
+        "unique_forward_kind": "boost_trans"
+      }
+    ]
+  },
+  {
+    "fine": false,
+    "kind": "cubic_control",
+    "t": 0.0,
+    "L": 0.01,
+    "values": [
+      {
+        "log_p": 3.0000000267675875e-08,
+        "arrival": 0.010000000075000107,
+        "emission": 0.0,
+        "prep_time": 0.0,
+        "norm_error": 0.0,
+        "null_residual": 1.0408340855860843e-16,
+        "receiver_K": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "receiver_initial_x": [
+          0.01,
+          0.0,
+          0.0
+        ],
+        "unique_forward_kind": "rest"
+      },
+      {
+        "log_p": 8.249999801675207e-08,
+        "arrival": 0.019999999737500277,
+        "emission": 0.0,
+        "prep_time": 0.00749999993408203,
+        "norm_error": 4.440892098500626e-16,
+        "null_residual": 6.938893903907228e-17,
+        "receiver_K": [
+          0.7499999831250002,
+          0.0,
+          0.0
+        ],
+        "receiver_initial_x": [
+          0.012499999920898442,
+          0.0,
+          0.0
+        ],
+        "unique_forward_kind": "boost_long"
+      },
+      {
+        "log_p": 5.859374959435372e-08,
+        "arrival": 0.012500000117187505,
+        "emission": 0.0,
+        "prep_time": 0.0,
+        "norm_error": 0.0,
+        "null_residual": 0.0,
+        "receiver_K": [
+          0.75,
+          0.0,
+          0.0
+        ],
+        "receiver_initial_x": [
+          0.0,
+          0.01,
+          0.0
+        ],
+        "unique_forward_kind": "boost_trans"
+      }
+    ]
+  },
+  {
+    "fine": false,
+    "kind": "cubic_control",
+    "t": 0.0,
+    "L": 0.005,
+    "values": [
+      {
+        "log_p": 3.750000095263037e-09,
+        "arrival": 0.005000000004687501,
+        "emission": 0.0,
+        "prep_time": 0.0,
+        "norm_error": 0.0,
+        "null_residual": 1.734723475976807e-18,
+        "receiver_K": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "receiver_initial_x": [
+          0.005,
+          0.0,
+          0.0
+        ],
+        "unique_forward_kind": "rest"
+      },
+      {
+        "log_p": 1.031249957416627e-08,
+        "arrival": 0.009999999983593749,
+        "emission": 0.0,
+        "prep_time": 0.0037499999958801274,
+        "norm_error": 7.771561172376096e-16,
+        "null_residual": 0.0,
+        "receiver_K": [
+          0.7499999978906249,
+          0.0,
+          0.0
+        ],
+        "receiver_initial_x": [
+          0.006249999995056151,
+          0.0,
+          0.0
+        ],
+        "unique_forward_kind": "boost_long"
+      },
+      {
+        "log_p": 7.324218753502239e-09,
+        "arrival": 0.006250000007324221,
+        "emission": 0.0,
+        "prep_time": 0.0,
+        "norm_error": 0.0,
+        "null_residual": 0.0,
+        "receiver_K": [
+          0.75,
+          0.0,
+          0.0
+        ],
+        "receiver_initial_x": [
+          0.0,
+          0.005,
+          0.0
+        ],
+        "unique_forward_kind": "boost_trans"
+      }
+    ]
+  },
+  {
+    "fine": true,
+    "kind": "flat",
+    "t": 0.0,
+    "L": 0.02,
+    "values": [
+      {
+        "log_p": 0.0,
+        "arrival": 0.02,
+        "emission": 0.0,
+        "prep_time": 0.0,
+        "norm_error": 0.0,
+        "null_residual": 0.0,
+        "receiver_K": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "receiver_initial_x": [
+          0.02,
+          0.0,
+          0.0
+        ],
+        "unique_forward_kind": "rest"
+      },
+      {
+        "log_p": 0.0,
+        "arrival": 0.03999999999999997,
+        "emission": 0.0,
+        "prep_time": 0.015,
+        "norm_error": 0.0,
+        "null_residual": 6.938893903907228e-18,
+        "receiver_K": [
+          0.75,
+          0.0,
+          0.0
+        ],
+        "receiver_initial_x": [
+          0.02499999999999999,
+          0.0,
+          0.0
+        ],
+        "unique_forward_kind": "boost_long"
+      },
+      {
+        "log_p": 0.0,
+        "arrival": 0.025,
+        "emission": 0.0,
+        "prep_time": 0.0,
+        "norm_error": 0.0,
+        "null_residual": 0.0,
+        "receiver_K": [
+          0.75,
+          0.0,
+          0.0
+        ],
+        "receiver_initial_x": [
+          0.0,
+          0.02,
+          0.0
+        ],
+        "unique_forward_kind": "boost_trans"
+      }
+    ]
+  },
+  {
+    "fine": true,
+    "kind": "flat",
+    "t": 0.0,
+    "L": 0.01,
+    "values": [
+      {
+        "log_p": 0.0,
+        "arrival": 0.01,
+        "emission": 0.0,
+        "prep_time": 0.0,
+        "norm_error": 0.0,
+        "null_residual": 0.0,
+        "receiver_K": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "receiver_initial_x": [
+          0.01,
+          0.0,
+          0.0
+        ],
+        "unique_forward_kind": "rest"
+      },
+      {
+        "log_p": 0.0,
+        "arrival": 0.019999999999999987,
+        "emission": 0.0,
+        "prep_time": 0.0075,
+        "norm_error": 0.0,
+        "null_residual": 3.469446951953614e-18,
+        "receiver_K": [
+          0.75,
+          0.0,
+          0.0
+        ],
+        "receiver_initial_x": [
+          0.012499999999999995,
+          0.0,
+          0.0
+        ],
+        "unique_forward_kind": "boost_long"
+      },
+      {
+        "log_p": 0.0,
+        "arrival": 0.0125,
+        "emission": 0.0,
+        "prep_time": 0.0,
+        "norm_error": 0.0,
+        "null_residual": 0.0,
+        "receiver_K": [
+          0.75,
+          0.0,
+          0.0
+        ],
+        "receiver_initial_x": [
+          0.0,
+          0.01,
+          0.0
+        ],
+        "unique_forward_kind": "boost_trans"
+      }
+    ]
+  },
+  {
+    "fine": true,
+    "kind": "flat",
+    "t": 0.0,
+    "L": 0.005,
+    "values": [
+      {
+        "log_p": 0.0,
+        "arrival": 0.005,
+        "emission": 0.0,
+        "prep_time": 0.0,
+        "norm_error": 0.0,
+        "null_residual": 0.0,
+        "receiver_K": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "receiver_initial_x": [
+          0.005,
+          0.0,
+          0.0
+        ],
+        "unique_forward_kind": "rest"
+      },
+      {
+        "log_p": 0.0,
+        "arrival": 0.009999999999999993,
+        "emission": 0.0,
+        "prep_time": 0.00375,
+        "norm_error": 0.0,
+        "null_residual": 1.734723475976807e-18,
+        "receiver_K": [
+          0.75,
+          0.0,
+          0.0
+        ],
+        "receiver_initial_x": [
+          0.006249999999999998,
+          0.0,
+          0.0
+        ],
+        "unique_forward_kind": "boost_long"
+      },
+      {
+        "log_p": 0.0,
+        "arrival": 0.00625,
+        "emission": 0.0,
+        "prep_time": 0.0,
+        "norm_error": 0.0,
+        "null_residual": 0.0,
+        "receiver_K": [
+          0.75,
+          0.0,
+          0.0
+        ],
+        "receiver_initial_x": [
+          0.0,
+          0.005,
+          0.0
+        ],
+        "unique_forward_kind": "boost_trans"
+      }
+    ]
+  },
+  {
+    "fine": true,
+    "kind": "flat",
+    "t": 0.05,
+    "L": 0.02,
+    "values": [
+      {
+        "log_p": 0.0,
+        "arrival": 0.07,
+        "emission": 0.05,
+        "prep_time": 0.05,
+        "norm_error": 0.0,
+        "null_residual": 3.469446951953614e-18,
+        "receiver_K": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "receiver_initial_x": [
+          0.02,
+          0.0,
+          0.0
+        ],
+        "unique_forward_kind": "rest"
+      },
+      {
+        "log_p": 0.0,
+        "arrival": 0.08999999999999997,
+        "emission": 0.05,
+        "prep_time": 0.065,
+        "norm_error": 0.0,
+        "null_residual": 6.938893903907228e-18,
+        "receiver_K": [
+          0.75,
+          0.0,
+          0.0
+        ],
+        "receiver_initial_x": [
+          0.02499999999999999,
+          0.0,
+          0.0
+        ],
+        "unique_forward_kind": "boost_long"
+      },
+      {
+        "log_p": 0.0,
+        "arrival": 0.07500000000000001,
+        "emission": 0.05,
+        "prep_time": 0.05,
+        "norm_error": 0.0,
+        "null_residual": 3.469446951953614e-18,
+        "receiver_K": [
+          0.75,
+          0.0,
+          0.0
+        ],
+        "receiver_initial_x": [
+          0.0,
+          0.02,
+          0.0
+        ],
+        "unique_forward_kind": "boost_trans"
+      }
+    ]
+  },
+  {
+    "fine": true,
+    "kind": "flat",
+    "t": 0.05,
+    "L": 0.01,
+    "values": [
+      {
+        "log_p": 0.0,
+        "arrival": 0.060000000000000005,
+        "emission": 0.05,
+        "prep_time": 0.05,
+        "norm_error": 0.0,
+        "null_residual": 1.734723475976807e-18,
+        "receiver_K": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "receiver_initial_x": [
+          0.01,
+          0.0,
+          0.0
+        ],
+        "unique_forward_kind": "rest"
+      },
+      {
+        "log_p": 0.0,
+        "arrival": 0.06999999999999998,
+        "emission": 0.05,
+        "prep_time": 0.05750000000000001,
+        "norm_error": 0.0,
+        "null_residual": 0.0,
+        "receiver_K": [
+          0.75,
+          0.0,
+          0.0
+        ],
+        "receiver_initial_x": [
+          0.012499999999999995,
+          0.0,
+          0.0
+        ],
+        "unique_forward_kind": "boost_long"
+      },
+      {
+        "log_p": 0.0,
+        "arrival": 0.0625,
+        "emission": 0.05,
+        "prep_time": 0.05,
+        "norm_error": 0.0,
+        "null_residual": 1.734723475976807e-18,
+        "receiver_K": [
+          0.75,
+          0.0,
+          0.0
+        ],
+        "receiver_initial_x": [
+          0.0,
+          0.01,
+          0.0
+        ],
+        "unique_forward_kind": "boost_trans"
+      }
+    ]
+  },
+  {
+    "fine": true,
+    "kind": "flat",
+    "t": 0.05,
+    "L": 0.005,
+    "values": [
+      {
+        "log_p": 0.0,
+        "arrival": 0.055,
+        "emission": 0.05,
+        "prep_time": 0.05,
+        "norm_error": 0.0,
+        "null_residual": 2.6020852139652106e-18,
+        "receiver_K": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "receiver_initial_x": [
+          0.005,
+          0.0,
+          0.0
+        ],
+        "unique_forward_kind": "rest"
+      },
+      {
+        "log_p": 0.0,
+        "arrival": 0.05999999999999999,
+        "emission": 0.05,
+        "prep_time": 0.053750000000000006,
+        "norm_error": 0.0,
+        "null_residual": 0.0,
+        "receiver_K": [
+          0.75,
+          0.0,
+          0.0
+        ],
+        "receiver_initial_x": [
+          0.006249999999999998,
+          0.0,
+          0.0
+        ],
+        "unique_forward_kind": "boost_long"
+      },
+      {
+        "log_p": 0.0,
+        "arrival": 0.05625,
+        "emission": 0.05,
+        "prep_time": 0.05,
+        "norm_error": 0.0,
+        "null_residual": 8.673617379884035e-19,
+        "receiver_K": [
+          0.75,
+          0.0,
+          0.0
+        ],
+        "receiver_initial_x": [
+          0.0,
+          0.005,
+          0.0
+        ],
+        "unique_forward_kind": "boost_trans"
+      }
+    ]
+  },
+  {
+    "fine": true,
+    "kind": "flat",
+    "t": -0.05,
+    "L": 0.02,
+    "values": [
+      {
+        "log_p": 0.0,
+        "arrival": -0.030000000000000002,
+        "emission": -0.05,
+        "prep_time": -0.05,
+        "norm_error": 0.0,
+        "null_residual": 0.0,
+        "receiver_K": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "receiver_initial_x": [
+          0.02,
+          0.0,
+          0.0
+        ],
+        "unique_forward_kind": "rest"
+      },
+      {
+        "log_p": 0.0,
+        "arrival": -0.010000000000000037,
+        "emission": -0.05,
+        "prep_time": -0.034999999999999996,
+        "norm_error": 0.0,
+        "null_residual": 0.0,
+        "receiver_K": [
+          0.75,
+          0.0,
+          0.0
+        ],
+        "receiver_initial_x": [
+          0.02499999999999999,
+          0.0,
+          0.0
+        ],
+        "unique_forward_kind": "boost_long"
+      },
+      {
+        "log_p": 0.0,
+        "arrival": -0.025,
+        "emission": -0.05,
+        "prep_time": -0.05,
+        "norm_error": 0.0,
+        "null_residual": 0.0,
+        "receiver_K": [
+          0.75,
+          0.0,
+          0.0
+        ],
+        "receiver_initial_x": [
+          0.0,
+          0.02,
+          0.0
+        ],
+        "unique_forward_kind": "boost_trans"
+      }
+    ]
+  },
+  {
+    "fine": true,
+    "kind": "flat",
+    "t": -0.05,
+    "L": 0.01,
+    "values": [
+      {
+        "log_p": 0.0,
+        "arrival": -0.04,
+        "emission": -0.05,
+        "prep_time": -0.05,
+        "norm_error": 0.0,
+        "null_residual": 1.734723475976807e-18,
+        "receiver_K": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "receiver_initial_x": [
+          0.01,
+          0.0,
+          0.0
+        ],
+        "unique_forward_kind": "rest"
+      },
+      {
+        "log_p": 0.0,
+        "arrival": -0.030000000000000027,
+        "emission": -0.05,
+        "prep_time": -0.042499999999999996,
+        "norm_error": 0.0,
+        "null_residual": 0.0,
+        "receiver_K": [
+          0.75,
+          0.0,
+          0.0
+        ],
+        "receiver_initial_x": [
+          0.012499999999999995,
+          0.0,
+          0.0
+        ],
+        "unique_forward_kind": "boost_long"
+      },
+      {
+        "log_p": 0.0,
+        "arrival": -0.0375,
+        "emission": -0.05,
+        "prep_time": -0.05,
+        "norm_error": 0.0,
+        "null_residual": 1.734723475976807e-18,
+        "receiver_K": [
+          0.75,
+          0.0,
+          0.0
+        ],
+        "receiver_initial_x": [
+          0.0,
+          0.01,
+          0.0
+        ],
+        "unique_forward_kind": "boost_trans"
+      }
+    ]
+  },
+  {
+    "fine": true,
+    "kind": "flat",
+    "t": -0.05,
+    "L": 0.005,
+    "values": [
+      {
+        "log_p": 0.0,
+        "arrival": -0.045000000000000005,
+        "emission": -0.05,
+        "prep_time": -0.05,
+        "norm_error": 0.0,
+        "null_residual": 2.6020852139652106e-18,
+        "receiver_K": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "receiver_initial_x": [
+          0.005,
+          0.0,
+          0.0
+        ],
+        "unique_forward_kind": "rest"
+      },
+      {
+        "log_p": 0.0,
+        "arrival": -0.040000000000000015,
+        "emission": -0.05,
+        "prep_time": -0.04625,
+        "norm_error": 0.0,
+        "null_residual": 0.0,
+        "receiver_K": [
+          0.75,
+          0.0,
+          0.0
+        ],
+        "receiver_initial_x": [
+          0.006249999999999998,
+          0.0,
+          0.0
+        ],
+        "unique_forward_kind": "boost_long"
+      },
+      {
+        "log_p": 0.0,
+        "arrival": -0.043750000000000004,
+        "emission": -0.05,
+        "prep_time": -0.05,
+        "norm_error": 0.0,
+        "null_residual": 8.673617379884035e-19,
+        "receiver_K": [
+          0.75,
+          0.0,
+          0.0
+        ],
+        "receiver_initial_x": [
+          0.0,
+          0.005,
+          0.0
+        ],
+        "unique_forward_kind": "boost_trans"
+      }
+    ]
+  },
+  {
+    "fine": true,
+    "kind": "flat",
+    "t": 0.0,
+    "L": 0.02,
+    "values": [
+      {
+        "log_p": 0.0,
+        "arrival": 0.02,
+        "emission": 0.0,
+        "prep_time": 0.0,
+        "norm_error": 0.0,
+        "null_residual": 0.0,
+        "receiver_K": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "receiver_initial_x": [
+          0.02,
+          0.0,
+          0.0
+        ],
+        "unique_forward_kind": "rest"
+      },
+      {
+        "log_p": 0.0,
+        "arrival": 0.03999999999999997,
+        "emission": 0.0,
+        "prep_time": 0.015,
+        "norm_error": 0.0,
+        "null_residual": 6.938893903907228e-18,
+        "receiver_K": [
+          0.75,
+          0.0,
+          0.0
+        ],
+        "receiver_initial_x": [
+          0.02499999999999999,
+          0.0,
+          0.0
+        ],
+        "unique_forward_kind": "boost_long"
+      },
+      {
+        "log_p": 0.0,
+        "arrival": 0.025,
+        "emission": 0.0,
+        "prep_time": 0.0,
+        "norm_error": 0.0,
+        "null_residual": 0.0,
+        "receiver_K": [
+          0.75,
+          0.0,
+          0.0
+        ],
+        "receiver_initial_x": [
+          0.0,
+          0.02,
+          0.0
+        ],
+        "unique_forward_kind": "boost_trans"
+      }
+    ]
+  },
+  {
+    "fine": true,
+    "kind": "flat",
+    "t": 0.0,
+    "L": 0.01,
+    "values": [
+      {
+        "log_p": 0.0,
+        "arrival": 0.01,
+        "emission": 0.0,
+        "prep_time": 0.0,
+        "norm_error": 0.0,
+        "null_residual": 0.0,
+        "receiver_K": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "receiver_initial_x": [
+          0.01,
+          0.0,
+          0.0
+        ],
+        "unique_forward_kind": "rest"
+      },
+      {
+        "log_p": 0.0,
+        "arrival": 0.019999999999999987,
+        "emission": 0.0,
+        "prep_time": 0.0075,
+        "norm_error": 0.0,
+        "null_residual": 3.469446951953614e-18,
+        "receiver_K": [
+          0.75,
+          0.0,
+          0.0
+        ],
+        "receiver_initial_x": [
+          0.012499999999999995,
+          0.0,
+          0.0
+        ],
+        "unique_forward_kind": "boost_long"
+      },
+      {
+        "log_p": 0.0,
+        "arrival": 0.0125,
+        "emission": 0.0,
+        "prep_time": 0.0,
+        "norm_error": 0.0,
+        "null_residual": 0.0,
+        "receiver_K": [
+          0.75,
+          0.0,
+          0.0
+        ],
+        "receiver_initial_x": [
+          0.0,
+          0.01,
+          0.0
+        ],
+        "unique_forward_kind": "boost_trans"
+      }
+    ]
+  },
+  {
+    "fine": true,
+    "kind": "flat",
+    "t": 0.0,
+    "L": 0.005,
+    "values": [
+      {
+        "log_p": 0.0,
+        "arrival": 0.005,
+        "emission": 0.0,
+        "prep_time": 0.0,
+        "norm_error": 0.0,
+        "null_residual": 0.0,
+        "receiver_K": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "receiver_initial_x": [
+          0.005,
+          0.0,
+          0.0
+        ],
+        "unique_forward_kind": "rest"
+      },
+      {
+        "log_p": 0.0,
+        "arrival": 0.009999999999999993,
+        "emission": 0.0,
+        "prep_time": 0.00375,
+        "norm_error": 0.0,
+        "null_residual": 1.734723475976807e-18,
+        "receiver_K": [
+          0.75,
+          0.0,
+          0.0
+        ],
+        "receiver_initial_x": [
+          0.006249999999999998,
+          0.0,
+          0.0
+        ],
+        "unique_forward_kind": "boost_long"
+      },
+      {
+        "log_p": 0.0,
+        "arrival": 0.00625,
+        "emission": 0.0,
+        "prep_time": 0.0,
+        "norm_error": 0.0,
+        "null_residual": 0.0,
+        "receiver_K": [
+          0.75,
+          0.0,
+          0.0
+        ],
+        "receiver_initial_x": [
+          0.0,
+          0.005,
+          0.0
+        ],
+        "unique_forward_kind": "boost_trans"
+      }
+    ]
+  },
+  {
+    "fine": true,
+    "kind": "flat",
+    "t": 0.0,
+    "L": 0.02,
+    "values": [
+      {
+        "log_p": 0.0,
+        "arrival": 0.02,
+        "emission": 0.0,
+        "prep_time": 0.0,
+        "norm_error": 0.0,
+        "null_residual": 0.0,
+        "receiver_K": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "receiver_initial_x": [
+          0.02,
+          0.0,
+          0.0
+        ],
+        "unique_forward_kind": "rest"
+      },
+      {
+        "log_p": 0.0,
+        "arrival": 0.03999999999999997,
+        "emission": 0.0,
+        "prep_time": 0.015,
+        "norm_error": 0.0,
+        "null_residual": 6.938893903907228e-18,
+        "receiver_K": [
+          0.75,
+          0.0,
+          0.0
+        ],
+        "receiver_initial_x": [
+          0.02499999999999999,
+          0.0,
+          0.0
+        ],
+        "unique_forward_kind": "boost_long"
+      },
+      {
+        "log_p": 0.0,
+        "arrival": 0.025,
+        "emission": 0.0,
+        "prep_time": 0.0,
+        "norm_error": 0.0,
+        "null_residual": 0.0,
+        "receiver_K": [
+          0.75,
+          0.0,
+          0.0
+        ],
+        "receiver_initial_x": [
+          0.0,
+          0.02,
+          0.0
+        ],
+        "unique_forward_kind": "boost_trans"
+      }
+    ]
+  },
+  {
+    "fine": true,
+    "kind": "flat",
+    "t": 0.0,
+    "L": 0.01,
+    "values": [
+      {
+        "log_p": 0.0,
+        "arrival": 0.01,
+        "emission": 0.0,
+        "prep_time": 0.0,
+        "norm_error": 0.0,
+        "null_residual": 0.0,
+        "receiver_K": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "receiver_initial_x": [
+          0.01,
+          0.0,
+          0.0
+        ],
+        "unique_forward_kind": "rest"
+      },
+      {
+        "log_p": 0.0,
+        "arrival": 0.019999999999999987,
+        "emission": 0.0,
+        "prep_time": 0.0075,
+        "norm_error": 0.0,
+        "null_residual": 3.469446951953614e-18,
+        "receiver_K": [
+          0.75,
+          0.0,
+          0.0
+        ],
+        "receiver_initial_x": [
+          0.012499999999999995,
+          0.0,
+          0.0
+        ],
+        "unique_forward_kind": "boost_long"
+      },
+      {
+        "log_p": 0.0,
+        "arrival": 0.0125,
+        "emission": 0.0,
+        "prep_time": 0.0,
+        "norm_error": 0.0,
+        "null_residual": 0.0,
+        "receiver_K": [
+          0.75,
+          0.0,
+          0.0
+        ],
+        "receiver_initial_x": [
+          0.0,
+          0.01,
+          0.0
+        ],
+        "unique_forward_kind": "boost_trans"
+      }
+    ]
+  },
+  {
+    "fine": true,
+    "kind": "flat",
+    "t": 0.0,
+    "L": 0.005,
+    "values": [
+      {
+        "log_p": 0.0,
+        "arrival": 0.005,
+        "emission": 0.0,
+        "prep_time": 0.0,
+        "norm_error": 0.0,
+        "null_residual": 0.0,
+        "receiver_K": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "receiver_initial_x": [
+          0.005,
+          0.0,
+          0.0
+        ],
+        "unique_forward_kind": "rest"
+      },
+      {
+        "log_p": 0.0,
+        "arrival": 0.009999999999999993,
+        "emission": 0.0,
+        "prep_time": 0.00375,
+        "norm_error": 0.0,
+        "null_residual": 1.734723475976807e-18,
+        "receiver_K": [
+          0.75,
+          0.0,
+          0.0
+        ],
+        "receiver_initial_x": [
+          0.006249999999999998,
+          0.0,
+          0.0
+        ],
+        "unique_forward_kind": "boost_long"
+      },
+      {
+        "log_p": 0.0,
+        "arrival": 0.00625,
+        "emission": 0.0,
+        "prep_time": 0.0,
+        "norm_error": 0.0,
+        "null_residual": 0.0,
+        "receiver_K": [
+          0.75,
+          0.0,
+          0.0
+        ],
+        "receiver_initial_x": [
+          0.0,
+          0.005,
+          0.0
+        ],
+        "unique_forward_kind": "boost_trans"
+      }
+    ]
+  },
+  {
+    "fine": true,
+    "kind": "flat",
+    "t": 0.0,
+    "L": 0.02,
+    "values": [
+      {
+        "log_p": 0.0,
+        "arrival": 0.02,
+        "emission": 0.0,
+        "prep_time": 0.0,
+        "norm_error": 0.0,
+        "null_residual": 0.0,
+        "receiver_K": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "receiver_initial_x": [
+          0.02,
+          0.0,
+          0.0
+        ],
+        "unique_forward_kind": "rest"
+      },
+      {
+        "log_p": 0.0,
+        "arrival": 0.03999999999999997,
+        "emission": 0.0,
+        "prep_time": 0.015,
+        "norm_error": 0.0,
+        "null_residual": 6.938893903907228e-18,
+        "receiver_K": [
+          0.75,
+          0.0,
+          0.0
+        ],
+        "receiver_initial_x": [
+          0.02499999999999999,
+          0.0,
+          0.0
+        ],
+        "unique_forward_kind": "boost_long"
+      },
+      {
+        "log_p": 0.0,
+        "arrival": 0.025,
+        "emission": 0.0,
+        "prep_time": 0.0,
+        "norm_error": 0.0,
+        "null_residual": 0.0,
+        "receiver_K": [
+          0.75,
+          0.0,
+          0.0
+        ],
+        "receiver_initial_x": [
+          0.0,
+          0.02,
+          0.0
+        ],
+        "unique_forward_kind": "boost_trans"
+      }
+    ]
+  },
+  {
+    "fine": true,
+    "kind": "flat",
+    "t": 0.0,
+    "L": 0.01,
+    "values": [
+      {
+        "log_p": 0.0,
+        "arrival": 0.01,
+        "emission": 0.0,
+        "prep_time": 0.0,
+        "norm_error": 0.0,
+        "null_residual": 0.0,
+        "receiver_K": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "receiver_initial_x": [
+          0.01,
+          0.0,
+          0.0
+        ],
+        "unique_forward_kind": "rest"
+      },
+      {
+        "log_p": 0.0,
+        "arrival": 0.019999999999999987,
+        "emission": 0.0,
+        "prep_time": 0.0075,
+        "norm_error": 0.0,
+        "null_residual": 3.469446951953614e-18,
+        "receiver_K": [
+          0.75,
+          0.0,
+          0.0
+        ],
+        "receiver_initial_x": [
+          0.012499999999999995,
+          0.0,
+          0.0
+        ],
+        "unique_forward_kind": "boost_long"
+      },
+      {
+        "log_p": 0.0,
+        "arrival": 0.0125,
+        "emission": 0.0,
+        "prep_time": 0.0,
+        "norm_error": 0.0,
+        "null_residual": 0.0,
+        "receiver_K": [
+          0.75,
+          0.0,
+          0.0
+        ],
+        "receiver_initial_x": [
+          0.0,
+          0.01,
+          0.0
+        ],
+        "unique_forward_kind": "boost_trans"
+      }
+    ]
+  },
+  {
+    "fine": true,
+    "kind": "flat",
+    "t": 0.0,
+    "L": 0.005,
+    "values": [
+      {
+        "log_p": 0.0,
+        "arrival": 0.005,
+        "emission": 0.0,
+        "prep_time": 0.0,
+        "norm_error": 0.0,
+        "null_residual": 0.0,
+        "receiver_K": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "receiver_initial_x": [
+          0.005,
+          0.0,
+          0.0
+        ],
+        "unique_forward_kind": "rest"
+      },
+      {
+        "log_p": 0.0,
+        "arrival": 0.009999999999999993,
+        "emission": 0.0,
+        "prep_time": 0.00375,
+        "norm_error": 0.0,
+        "null_residual": 1.734723475976807e-18,
+        "receiver_K": [
+          0.75,
+          0.0,
+          0.0
+        ],
+        "receiver_initial_x": [
+          0.006249999999999998,
+          0.0,
+          0.0
+        ],
+        "unique_forward_kind": "boost_long"
+      },
+      {
+        "log_p": 0.0,
+        "arrival": 0.00625,
+        "emission": 0.0,
+        "prep_time": 0.0,
+        "norm_error": 0.0,
+        "null_residual": 0.0,
+        "receiver_K": [
+          0.75,
+          0.0,
+          0.0
+        ],
+        "receiver_initial_x": [
+          0.0,
+          0.005,
+          0.0
+        ],
+        "unique_forward_kind": "boost_trans"
+      }
+    ]
+  },
+  {
+    "fine": true,
+    "kind": "flat",
+    "t": 0.0,
+    "L": 0.02,
+    "values": [
+      {
+        "log_p": 0.0,
+        "arrival": 0.02,
+        "emission": 0.0,
+        "prep_time": 0.0,
+        "norm_error": 0.0,
+        "null_residual": 0.0,
+        "receiver_K": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "receiver_initial_x": [
+          0.02,
+          0.0,
+          0.0
+        ],
+        "unique_forward_kind": "rest"
+      },
+      {
+        "log_p": 0.0,
+        "arrival": 0.03999999999999997,
+        "emission": 0.0,
+        "prep_time": 0.015,
+        "norm_error": 0.0,
+        "null_residual": 6.938893903907228e-18,
+        "receiver_K": [
+          0.75,
+          0.0,
+          0.0
+        ],
+        "receiver_initial_x": [
+          0.02499999999999999,
+          0.0,
+          0.0
+        ],
+        "unique_forward_kind": "boost_long"
+      },
+      {
+        "log_p": 0.0,
+        "arrival": 0.025,
+        "emission": 0.0,
+        "prep_time": 0.0,
+        "norm_error": 0.0,
+        "null_residual": 0.0,
+        "receiver_K": [
+          0.75,
+          0.0,
+          0.0
+        ],
+        "receiver_initial_x": [
+          0.0,
+          0.02,
+          0.0
+        ],
+        "unique_forward_kind": "boost_trans"
+      }
+    ]
+  },
+  {
+    "fine": true,
+    "kind": "flat",
+    "t": 0.0,
+    "L": 0.01,
+    "values": [
+      {
+        "log_p": 0.0,
+        "arrival": 0.01,
+        "emission": 0.0,
+        "prep_time": 0.0,
+        "norm_error": 0.0,
+        "null_residual": 0.0,
+        "receiver_K": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "receiver_initial_x": [
+          0.01,
+          0.0,
+          0.0
+        ],
+        "unique_forward_kind": "rest"
+      },
+      {
+        "log_p": 0.0,
+        "arrival": 0.019999999999999987,
+        "emission": 0.0,
+        "prep_time": 0.0075,
+        "norm_error": 0.0,
+        "null_residual": 3.469446951953614e-18,
+        "receiver_K": [
+          0.75,
+          0.0,
+          0.0
+        ],
+        "receiver_initial_x": [
+          0.012499999999999995,
+          0.0,
+          0.0
+        ],
+        "unique_forward_kind": "boost_long"
+      },
+      {
+        "log_p": 0.0,
+        "arrival": 0.0125,
+        "emission": 0.0,
+        "prep_time": 0.0,
+        "norm_error": 0.0,
+        "null_residual": 0.0,
+        "receiver_K": [
+          0.75,
+          0.0,
+          0.0
+        ],
+        "receiver_initial_x": [
+          0.0,
+          0.01,
+          0.0
+        ],
+        "unique_forward_kind": "boost_trans"
+      }
+    ]
+  },
+  {
+    "fine": true,
+    "kind": "flat",
+    "t": 0.0,
+    "L": 0.005,
+    "values": [
+      {
+        "log_p": 0.0,
+        "arrival": 0.005,
+        "emission": 0.0,
+        "prep_time": 0.0,
+        "norm_error": 0.0,
+        "null_residual": 0.0,
+        "receiver_K": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "receiver_initial_x": [
+          0.005,
+          0.0,
+          0.0
+        ],
+        "unique_forward_kind": "rest"
+      },
+      {
+        "log_p": 0.0,
+        "arrival": 0.009999999999999993,
+        "emission": 0.0,
+        "prep_time": 0.00375,
+        "norm_error": 0.0,
+        "null_residual": 1.734723475976807e-18,
+        "receiver_K": [
+          0.75,
+          0.0,
+          0.0
+        ],
+        "receiver_initial_x": [
+          0.006249999999999998,
+          0.0,
+          0.0
+        ],
+        "unique_forward_kind": "boost_long"
+      },
+      {
+        "log_p": 0.0,
+        "arrival": 0.00625,
+        "emission": 0.0,
+        "prep_time": 0.0,
+        "norm_error": 0.0,
+        "null_residual": 0.0,
+        "receiver_K": [
+          0.75,
+          0.0,
+          0.0
+        ],
+        "receiver_initial_x": [
+          0.0,
+          0.005,
+          0.0
+        ],
+        "unique_forward_kind": "boost_trans"
+      }
+    ]
+  },
+  {
+    "fine": true,
+    "kind": "flat",
+    "t": 0.0,
+    "L": 0.02,
+    "values": [
+      {
+        "log_p": 0.0,
+        "arrival": 0.02,
+        "emission": 0.0,
+        "prep_time": 0.0,
+        "norm_error": 0.0,
+        "null_residual": 0.0,
+        "receiver_K": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "receiver_initial_x": [
+          0.02,
+          0.0,
+          0.0
+        ],
+        "unique_forward_kind": "rest"
+      },
+      {
+        "log_p": 0.0,
+        "arrival": 0.03999999999999997,
+        "emission": 0.0,
+        "prep_time": 0.015,
+        "norm_error": 0.0,
+        "null_residual": 6.938893903907228e-18,
+        "receiver_K": [
+          0.75,
+          0.0,
+          0.0
+        ],
+        "receiver_initial_x": [
+          0.02499999999999999,
+          0.0,
+          0.0
+        ],
+        "unique_forward_kind": "boost_long"
+      },
+      {
+        "log_p": 0.0,
+        "arrival": 0.025,
+        "emission": 0.0,
+        "prep_time": 0.0,
+        "norm_error": 0.0,
+        "null_residual": 0.0,
+        "receiver_K": [
+          0.75,
+          0.0,
+          0.0
+        ],
+        "receiver_initial_x": [
+          0.0,
+          0.02,
+          0.0
+        ],
+        "unique_forward_kind": "boost_trans"
+      }
+    ]
+  },
+  {
+    "fine": true,
+    "kind": "flat",
+    "t": 0.0,
+    "L": 0.01,
+    "values": [
+      {
+        "log_p": 0.0,
+        "arrival": 0.01,
+        "emission": 0.0,
+        "prep_time": 0.0,
+        "norm_error": 0.0,
+        "null_residual": 0.0,
+        "receiver_K": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "receiver_initial_x": [
+          0.01,
+          0.0,
+          0.0
+        ],
+        "unique_forward_kind": "rest"
+      },
+      {
+        "log_p": 0.0,
+        "arrival": 0.019999999999999987,
+        "emission": 0.0,
+        "prep_time": 0.0075,
+        "norm_error": 0.0,
+        "null_residual": 3.469446951953614e-18,
+        "receiver_K": [
+          0.75,
+          0.0,
+          0.0
+        ],
+        "receiver_initial_x": [
+          0.012499999999999995,
+          0.0,
+          0.0
+        ],
+        "unique_forward_kind": "boost_long"
+      },
+      {
+        "log_p": 0.0,
+        "arrival": 0.0125,
+        "emission": 0.0,
+        "prep_time": 0.0,
+        "norm_error": 0.0,
+        "null_residual": 0.0,
+        "receiver_K": [
+          0.75,
+          0.0,
+          0.0
+        ],
+        "receiver_initial_x": [
+          0.0,
+          0.01,
+          0.0
+        ],
+        "unique_forward_kind": "boost_trans"
+      }
+    ]
+  },
+  {
+    "fine": true,
+    "kind": "flat",
+    "t": 0.0,
+    "L": 0.005,
+    "values": [
+      {
+        "log_p": 0.0,
+        "arrival": 0.005,
+        "emission": 0.0,
+        "prep_time": 0.0,
+        "norm_error": 0.0,
+        "null_residual": 0.0,
+        "receiver_K": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "receiver_initial_x": [
+          0.005,
+          0.0,
+          0.0
+        ],
+        "unique_forward_kind": "rest"
+      },
+      {
+        "log_p": 0.0,
+        "arrival": 0.009999999999999993,
+        "emission": 0.0,
+        "prep_time": 0.00375,
+        "norm_error": 0.0,
+        "null_residual": 1.734723475976807e-18,
+        "receiver_K": [
+          0.75,
+          0.0,
+          0.0
+        ],
+        "receiver_initial_x": [
+          0.006249999999999998,
+          0.0,
+          0.0
+        ],
+        "unique_forward_kind": "boost_long"
+      },
+      {
+        "log_p": 0.0,
+        "arrival": 0.00625,
+        "emission": 0.0,
+        "prep_time": 0.0,
+        "norm_error": 0.0,
+        "null_residual": 0.0,
+        "receiver_K": [
+          0.75,
+          0.0,
+          0.0
+        ],
+        "receiver_initial_x": [
+          0.0,
+          0.005,
+          0.0
+        ],
+        "unique_forward_kind": "boost_trans"
+      }
+    ]
+  },
+  {
+    "fine": true,
+    "kind": "flat",
+    "t": 0.0,
+    "L": 0.02,
+    "values": [
+      {
+        "log_p": 0.0,
+        "arrival": 0.02,
+        "emission": 0.0,
+        "prep_time": 0.0,
+        "norm_error": 0.0,
+        "null_residual": 0.0,
+        "receiver_K": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "receiver_initial_x": [
+          0.02,
+          0.0,
+          0.0
+        ],
+        "unique_forward_kind": "rest"
+      },
+      {
+        "log_p": 0.0,
+        "arrival": 0.03999999999999997,
+        "emission": 0.0,
+        "prep_time": 0.015,
+        "norm_error": 0.0,
+        "null_residual": 6.938893903907228e-18,
+        "receiver_K": [
+          0.75,
+          0.0,
+          0.0
+        ],
+        "receiver_initial_x": [
+          0.02499999999999999,
+          0.0,
+          0.0
+        ],
+        "unique_forward_kind": "boost_long"
+      },
+      {
+        "log_p": 0.0,
+        "arrival": 0.025,
+        "emission": 0.0,
+        "prep_time": 0.0,
+        "norm_error": 0.0,
+        "null_residual": 0.0,
+        "receiver_K": [
+          0.75,
+          0.0,
+          0.0
+        ],
+        "receiver_initial_x": [
+          0.0,
+          0.02,
+          0.0
+        ],
+        "unique_forward_kind": "boost_trans"
+      }
+    ]
+  },
+  {
+    "fine": true,
+    "kind": "flat",
+    "t": 0.0,
+    "L": 0.01,
+    "values": [
+      {
+        "log_p": 0.0,
+        "arrival": 0.01,
+        "emission": 0.0,
+        "prep_time": 0.0,
+        "norm_error": 0.0,
+        "null_residual": 0.0,
+        "receiver_K": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "receiver_initial_x": [
+          0.01,
+          0.0,
+          0.0
+        ],
+        "unique_forward_kind": "rest"
+      },
+      {
+        "log_p": 0.0,
+        "arrival": 0.019999999999999987,
+        "emission": 0.0,
+        "prep_time": 0.0075,
+        "norm_error": 0.0,
+        "null_residual": 3.469446951953614e-18,
+        "receiver_K": [
+          0.75,
+          0.0,
+          0.0
+        ],
+        "receiver_initial_x": [
+          0.012499999999999995,
+          0.0,
+          0.0
+        ],
+        "unique_forward_kind": "boost_long"
+      },
+      {
+        "log_p": 0.0,
+        "arrival": 0.0125,
+        "emission": 0.0,
+        "prep_time": 0.0,
+        "norm_error": 0.0,
+        "null_residual": 0.0,
+        "receiver_K": [
+          0.75,
+          0.0,
+          0.0
+        ],
+        "receiver_initial_x": [
+          0.0,
+          0.01,
+          0.0
+        ],
+        "unique_forward_kind": "boost_trans"
+      }
+    ]
+  },
+  {
+    "fine": true,
+    "kind": "flat",
+    "t": 0.0,
+    "L": 0.005,
+    "values": [
+      {
+        "log_p": 0.0,
+        "arrival": 0.005,
+        "emission": 0.0,
+        "prep_time": 0.0,
+        "norm_error": 0.0,
+        "null_residual": 0.0,
+        "receiver_K": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "receiver_initial_x": [
+          0.005,
+          0.0,
+          0.0
+        ],
+        "unique_forward_kind": "rest"
+      },
+      {
+        "log_p": 0.0,
+        "arrival": 0.009999999999999993,
+        "emission": 0.0,
+        "prep_time": 0.00375,
+        "norm_error": 0.0,
+        "null_residual": 1.734723475976807e-18,
+        "receiver_K": [
+          0.75,
+          0.0,
+          0.0
+        ],
+        "receiver_initial_x": [
+          0.006249999999999998,
+          0.0,
+          0.0
+        ],
+        "unique_forward_kind": "boost_long"
+      },
+      {
+        "log_p": 0.0,
+        "arrival": 0.00625,
+        "emission": 0.0,
+        "prep_time": 0.0,
+        "norm_error": 0.0,
+        "null_residual": 0.0,
+        "receiver_K": [
+          0.75,
+          0.0,
+          0.0
+        ],
+        "receiver_initial_x": [
+          0.0,
+          0.005,
+          0.0
+        ],
+        "unique_forward_kind": "boost_trans"
+      }
+    ]
+  },
+  {
+    "fine": true,
+    "kind": "cubic_control",
+    "t": 0.0,
+    "L": 0.02,
+    "values": [
+      {
+        "log_p": 2.4000001435179875e-07,
+        "arrival": 0.020000001200000124,
+        "emission": 0.0,
+        "prep_time": 0.0,
+        "norm_error": 0.0,
+        "null_residual": 0.0,
+        "receiver_K": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "receiver_initial_x": [
+          0.02,
+          0.0,
+          0.0
+        ],
+        "unique_forward_kind": "rest"
+      },
+      {
+        "log_p": 6.599998654007473e-07,
+        "arrival": 0.039999995800011665,
+        "emission": 0.0,
+        "prep_time": 0.014999998945312632,
+        "norm_error": 4.440892098500626e-16,
+        "null_residual": 0.0,
+        "receiver_K": [
+          0.7499998650000095,
+          0.0,
+          0.0
+        ],
+        "receiver_initial_x": [
+          0.024999998734375257,
+          0.0,
+          0.0
+        ],
+        "unique_forward_kind": "boost_long"
+      },
+      {
+        "log_p": 4.687499756616402e-07,
+        "arrival": 0.025000001875000254,
+        "emission": 0.0,
+        "prep_time": 0.0,
+        "norm_error": 0.0,
+        "null_residual": 3.469446951953614e-18,
+        "receiver_K": [
+          0.75,
+          0.0,
+          0.0
+        ],
+        "receiver_initial_x": [
+          0.0,
+          0.02,
+          0.0
+        ],
+        "unique_forward_kind": "boost_trans"
+      }
+    ]
+  },
+  {
+    "fine": true,
+    "kind": "cubic_control",
+    "t": 0.0,
+    "L": 0.01,
+    "values": [
+      {
+        "log_p": 3.0000000267675875e-08,
+        "arrival": 0.010000000075000107,
+        "emission": 0.0,
+        "prep_time": 0.0,
+        "norm_error": 0.0,
+        "null_residual": 1.0755285551056204e-16,
+        "receiver_K": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "receiver_initial_x": [
+          0.01,
+          0.0,
+          0.0
+        ],
+        "unique_forward_kind": "rest"
+      },
+      {
+        "log_p": 8.249999801675207e-08,
+        "arrival": 0.019999999737500277,
+        "emission": 0.0,
+        "prep_time": 0.00749999993408203,
+        "norm_error": 4.440892098500626e-16,
+        "null_residual": 6.938893903907228e-17,
+        "receiver_K": [
+          0.7499999831250002,
+          0.0,
+          0.0
+        ],
+        "receiver_initial_x": [
+          0.012499999920898442,
+          0.0,
+          0.0
+        ],
+        "unique_forward_kind": "boost_long"
+      },
+      {
+        "log_p": 5.859374959435371e-08,
+        "arrival": 0.012500000117187502,
+        "emission": 0.0,
+        "prep_time": 0.0,
+        "norm_error": 0.0,
+        "null_residual": 1.734723475976807e-18,
+        "receiver_K": [
+          0.75,
+          0.0,
+          0.0
+        ],
+        "receiver_initial_x": [
+          0.0,
+          0.01,
+          0.0
+        ],
+        "unique_forward_kind": "boost_trans"
+      }
+    ]
+  },
+  {
+    "fine": true,
+    "kind": "cubic_control",
+    "t": 0.0,
+    "L": 0.005,
+    "values": [
+      {
+        "log_p": 3.750000095263037e-09,
+        "arrival": 0.0050000000046875005,
+        "emission": 0.0,
+        "prep_time": 0.0,
+        "norm_error": 0.0,
+        "null_residual": 8.673617379884035e-19,
+        "receiver_K": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "receiver_initial_x": [
+          0.005,
+          0.0,
+          0.0
+        ],
+        "unique_forward_kind": "rest"
+      },
+      {
+        "log_p": 1.031249957416627e-08,
+        "arrival": 0.009999999983593745,
+        "emission": 0.0,
+        "prep_time": 0.0037499999958801274,
+        "norm_error": 7.771561172376096e-16,
+        "null_residual": 0.0,
+        "receiver_K": [
+          0.7499999978906249,
+          0.0,
+          0.0
+        ],
+        "receiver_initial_x": [
+          0.006249999995056151,
+          0.0,
+          0.0
+        ],
+        "unique_forward_kind": "boost_long"
+      },
+      {
+        "log_p": 7.324218753502239e-09,
+        "arrival": 0.006250000007324219,
+        "emission": 0.0,
+        "prep_time": 0.0,
+        "norm_error": 0.0,
+        "null_residual": 8.673617379884035e-19,
+        "receiver_K": [
+          0.75,
+          0.0,
+          0.0
+        ],
+        "receiver_initial_x": [
+          0.0,
+          0.005,
+          0.0
+        ],
+        "unique_forward_kind": "boost_trans"
+      }
+    ]
+  },
+  {
+    "fine": true,
+    "kind": "cubic_control",
+    "t": 0.05,
+    "L": 0.02,
+    "values": [
+      {
+        "log_p": 2.03998907037296e-06,
+        "arrival": 0.06999996820032403,
+        "emission": 0.05,
+        "prep_time": 0.04999995500018224,
+        "norm_error": 2.220446049250313e-16,
+        "null_residual": 3.469446951953614e-18,
+        "receiver_K": [
+          -4.499997300011345e-06,
+          0.0,
+          0.0
+        ],
+        "receiver_initial_x": [
+          0.019999925000416245,
+          0.0,
+          0.0
+        ],
+        "unique_forward_kind": "rest"
+      },
+      {
+        "log_p": 2.459973887425348e-06,
+        "arrival": 0.08999976780481073,
+        "emission": 0.05,
+        "prep_time": 0.06499991457104441,
+        "norm_error": 4.440892098500626e-16,
+        "null_residual": 6.938893903907228e-18,
+        "receiver_K": [
+          0.7499968275060002,
+          0.0,
+          0.0
+        ],
+        "receiver_initial_x": [
+          0.024999803736397794,
+          0.0,
+          0.0
+        ],
+        "unique_forward_kind": "boost_long"
+      },
+      {
+        "log_p": 3.281213559200101e-06,
+        "arrival": 0.0749999465630964,
+        "emission": 0.05,
+        "prep_time": 0.04999995500018224,
+        "norm_error": 2.220446049250313e-16,
+        "null_residual": 3.469446951953614e-18,
+        "receiver_K": [
+          0.7500028124924064,
+          -5.624996625014176e-06,
+          0.0
+        ],
+        "receiver_initial_x": [
+          0.0,
+          0.019999925000416245,
+          0.0
+        ],
+        "unique_forward_kind": "boost_trans"
+      }
+    ]
+  },
+  {
+    "fine": true,
+    "kind": "cubic_control",
+    "t": 0.05,
+    "L": 0.01,
+    "values": [
+      {
+        "log_p": 4.799978188740956e-07,
+        "arrival": 0.05999999032506163,
+        "emission": 0.05,
+        "prep_time": 0.04999998875004304,
+        "norm_error": 7.771561172376096e-16,
+        "null_residual": 1.734723475976807e-18,
+        "receiver_K": [
+          -2.249999662501304e-06,
+          0.0,
+          0.0
+        ],
+        "receiver_initial_x": [
+          0.0099999625001575,
+          0.0,
+          0.0
+        ],
+        "unique_forward_kind": "rest"
+      },
+      {
+        "log_p": 5.324965423124656e-07,
+        "arrival": 0.06999994873801374,
+        "emission": 0.05,
+        "prep_time": 0.05749998059825671,
+        "norm_error": 0.0,
+        "null_residual": 3.469446951953614e-18,
+        "receiver_K": [
+          0.7500002081256322,
+          0.0,
+          0.0
+        ],
+        "receiver_initial_x": [
+          0.0124999298432123,
+          0.0,
+          0.0
+        ],
+        "unique_forward_kind": "boost_long"
+      },
+      {
+        "log_p": 7.617125219420166e-07,
+        "arrival": 0.06249998441416721,
+        "emission": 0.05,
+        "prep_time": 0.04999998875004304,
+        "norm_error": 2.220446049250313e-16,
+        "null_residual": 0.0,
+        "receiver_K": [
+          0.7500028124981016,
+          -2.8124995781266316e-06,
+          0.0
+        ],
+        "receiver_initial_x": [
+          0.0,
+          0.0099999625001575,
+          0.0
+        ],
+        "unique_forward_kind": "boost_trans"
+      }
+    ]
+  },
+  {
+    "fine": true,
+    "kind": "cubic_control",
+    "t": 0.05,
+    "L": 0.005,
+    "values": [
+      {
+        "log_p": 1.1624951872303689e-07,
+        "arrival": 0.05499999737970049,
+        "emission": 0.05,
+        "prep_time": 0.0499999971875106,
+        "norm_error": 4.440892098500626e-16,
+        "null_residual": 2.6020852139652106e-18,
+        "receiver_K": [
+          -1.1249999578126595e-06,
+          0.0,
+          0.0
+        ],
+        "receiver_initial_x": [
+          0.004999981250072419,
+          0.0,
+          0.0
+        ],
+        "unique_forward_kind": "rest"
+      },
+      {
+        "log_p": 1.228118915594734e-07,
+        "arrival": 0.05999998798367134,
+        "emission": 0.05,
+        "prep_time": 0.05374999538164393,
+        "norm_error": 4.440892098500626e-16,
+        "null_residual": 1.960237527853792e-16,
+        "receiver_K": [
+          0.750001601015697,
+          0.0,
+          0.0
+        ],
+        "receiver_initial_x": [
+          0.006249971020585984,
+          0.0,
+          0.0
+        ],
+        "unique_forward_kind": "boost_long"
+      },
+      {
+        "log_p": 1.831042044157745e-07,
+        "arrival": 0.05624999584718915,
+        "emission": 0.05,
+        "prep_time": 0.0499999971875106,
+        "norm_error": 4.440892098500626e-16,
+        "null_residual": 1.734723475976807e-18,
+        "receiver_K": [
+          0.7500028124995255,
+          -1.406249947265825e-06,
+          0.0
+        ],
+        "receiver_initial_x": [
+          0.0,
+          0.004999981250072419,
+          0.0
+        ],
+        "unique_forward_kind": "boost_trans"
+      }
+    ]
+  },
+  {
+    "fine": true,
+    "kind": "cubic_control",
+    "t": -0.05,
+    "L": 0.02,
+    "values": [
+      {
+        "log_p": -1.5600041613473704e-06,
+        "arrival": -0.030000055800008793,
+        "emission": -0.05,
+        "prep_time": -0.05000004500018225,
+        "norm_error": 4.440892098500626e-16,
+        "null_residual": 0.0,
+        "receiver_K": [
+          -4.5000027000113386e-06,
+          0.0,
+          0.0
+        ],
+        "receiver_initial_x": [
+          0.020000075000416246,
+          0.0,
+          0.0
+        ],
+        "unique_forward_kind": "rest"
+      },
+      {
+        "log_p": -1.1400029446047948e-06,
+        "arrival": -0.010000136199940076,
+        "emission": -0.05,
+        "prep_time": -0.035000057304776594,
+        "norm_error": 4.440892098500626e-16,
+        "null_residual": 0.0,
+        "receiver_K": [
+          0.7499939024971829,
+          0.0,
+          0.0
+        ],
+        "receiver_initial_x": [
+          0.02500002498452828,
+          0.0,
+          0.0
+        ],
+        "unique_forward_kind": "boost_long"
+      },
+      {
+        "log_p": -2.343756690632296e-06,
+        "arrival": -0.02500008343750869,
+        "emission": -0.05,
+        "prep_time": -0.05000004500018225,
+        "norm_error": 6.661338147750939e-16,
+        "null_residual": 3.469446951953614e-18,
+        "receiver_K": [
+          0.7499971874924062,
+          -5.62500337501417e-06,
+          0.0
+        ],
+        "receiver_initial_x": [
+          0.0,
+          0.020000075000416246,
+          0.0
+        ],
+        "unique_forward_kind": "boost_trans"
+      }
+    ]
+  },
+  {
+    "fine": true,
+    "kind": "cubic_control",
+    "t": -0.05,
+    "L": 0.01,
+    "values": [
+      {
+        "log_p": -4.200012947565311e-07,
+        "arrival": -0.04000001267502226,
+        "emission": -0.05,
+        "prep_time": -0.05000001125004303,
+        "norm_error": 7.771561172376096e-16,
+        "null_residual": 0.0,
+        "receiver_K": [
+          -2.250000337501302e-06,
+          0.0,
+          0.0
+        ],
+        "receiver_initial_x": [
+          0.010000037500157495,
+          0.0,
+          0.0
+        ],
+        "unique_forward_kind": "rest"
+      },
+      {
+        "log_p": -3.6750087757750884e-07,
+        "arrival": -0.030000039262524227,
+        "emission": -0.05,
+        "prep_time": -0.04250001588626819,
+        "norm_error": 0.0,
+        "null_residual": 1.3530843112619095e-16,
+        "receiver_K": [
+          0.7499952581245657,
+          0.0,
+          0.0
+        ],
+        "receiver_initial_x": [
+          0.01250002781160872,
+          0.0,
+          0.0
+        ],
+        "unique_forward_kind": "boost_long"
+      },
+      {
+        "log_p": -6.445338062228148e-07,
+        "arrival": -0.03750001933596915,
+        "emission": -0.05,
+        "prep_time": -0.05000001125004303,
+        "norm_error": 2.220446049250313e-16,
+        "null_residual": 1.734723475976807e-18,
+        "receiver_K": [
+          0.7499971874981015,
+          -2.812500421876629e-06,
+          0.0
+        ],
+        "receiver_initial_x": [
+          0.0,
+          0.010000037500157495,
+          0.0
+        ],
+        "unique_forward_kind": "boost_trans"
+      }
+    ]
+  },
+  {
+    "fine": true,
+    "kind": "cubic_control",
+    "t": -0.05,
+    "L": 0.005,
+    "values": [
+      {
+        "log_p": -1.0875036887266257e-07,
+        "arrival": -0.04500000299532057,
+        "emission": -0.05,
+        "prep_time": -0.0500000028125106,
+        "norm_error": 8.470329472543003e-22,
+        "null_residual": 8.673617379884035e-19,
+        "receiver_K": [
+          -1.12500004218766e-06,
+          0.0,
+          0.0
+        ],
+        "receiver_initial_x": [
+          0.005000018750072423,
+          0.0,
+          0.0
+        ],
+        "unique_forward_kind": "rest"
+      },
+      {
+        "log_p": -1.021877954878572e-07,
+        "arrival": -0.04000001051642587,
+        "emission": -0.05,
+        "prep_time": -0.046250004178937036,
+        "norm_error": 1.2212453270876722e-15,
+        "null_residual": 8.673617379884035e-18,
+        "receiver_K": [
+          0.7499961447655651,
+          0.0,
+          0.0
+        ],
+        "receiver_initial_x": [
+          0.006250018422848316,
+          0.0,
+          0.0
+        ],
+        "unique_forward_kind": "boost_long"
+      },
+      {
+        "log_p": -1.6845783831001947e-07,
+        "arrival": -0.04375000462159409,
+        "emission": -0.05,
+        "prep_time": -0.0500000028125106,
+        "norm_error": 4.440892098500626e-16,
+        "null_residual": 0.0,
+        "receiver_K": [
+          0.7499971874995254,
+          -1.4062500527345756e-06,
+          0.0
+        ],
+        "receiver_initial_x": [
+          0.0,
+          0.005000018750072423,
+          0.0
+        ],
+        "unique_forward_kind": "boost_trans"
+      }
+    ]
+  },
+  {
+    "fine": true,
+    "kind": "cubic_control",
+    "t": 0.0,
+    "L": 0.02,
+    "values": [
+      {
+        "log_p": 2.4000001435179875e-07,
+        "arrival": 0.020000001200000124,
+        "emission": 0.0,
+        "prep_time": 0.0,
+        "norm_error": 0.0,
+        "null_residual": 0.0,
+        "receiver_K": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "receiver_initial_x": [
+          0.02,
+          0.0,
+          0.0
+        ],
+        "unique_forward_kind": "rest"
+      },
+      {
+        "log_p": 6.599998654007473e-07,
+        "arrival": 0.039999995800011665,
+        "emission": 0.0,
+        "prep_time": 0.014999998945312632,
+        "norm_error": 4.440892098500626e-16,
+        "null_residual": 0.0,
+        "receiver_K": [
+          0.7499998650000095,
+          0.0,
+          0.0
+        ],
+        "receiver_initial_x": [
+          0.024999998734375257,
+          0.0,
+          0.0
+        ],
+        "unique_forward_kind": "boost_long"
+      },
+      {
+        "log_p": 4.687499756616402e-07,
+        "arrival": 0.025000001875000254,
+        "emission": 0.0,
+        "prep_time": 0.0,
+        "norm_error": 0.0,
+        "null_residual": 3.469446951953614e-18,
+        "receiver_K": [
+          0.75,
+          0.0,
+          0.0
+        ],
+        "receiver_initial_x": [
+          0.0,
+          0.02,
+          0.0
+        ],
+        "unique_forward_kind": "boost_trans"
+      }
+    ]
+  },
+  {
+    "fine": true,
+    "kind": "cubic_control",
+    "t": 0.0,
+    "L": 0.01,
+    "values": [
+      {
+        "log_p": 3.0000000267675875e-08,
+        "arrival": 0.010000000075000107,
+        "emission": 0.0,
+        "prep_time": 0.0,
+        "norm_error": 0.0,
+        "null_residual": 1.0755285551056204e-16,
+        "receiver_K": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "receiver_initial_x": [
+          0.01,
+          0.0,
+          0.0
+        ],
+        "unique_forward_kind": "rest"
+      },
+      {
+        "log_p": 8.249999801675207e-08,
+        "arrival": 0.019999999737500277,
+        "emission": 0.0,
+        "prep_time": 0.00749999993408203,
+        "norm_error": 4.440892098500626e-16,
+        "null_residual": 6.938893903907228e-17,
+        "receiver_K": [
+          0.7499999831250002,
+          0.0,
+          0.0
+        ],
+        "receiver_initial_x": [
+          0.012499999920898442,
+          0.0,
+          0.0
+        ],
+        "unique_forward_kind": "boost_long"
+      },
+      {
+        "log_p": 5.859374959435371e-08,
+        "arrival": 0.012500000117187502,
+        "emission": 0.0,
+        "prep_time": 0.0,
+        "norm_error": 0.0,
+        "null_residual": 1.734723475976807e-18,
+        "receiver_K": [
+          0.75,
+          0.0,
+          0.0
+        ],
+        "receiver_initial_x": [
+          0.0,
+          0.01,
+          0.0
+        ],
+        "unique_forward_kind": "boost_trans"
+      }
+    ]
+  },
+  {
+    "fine": true,
+    "kind": "cubic_control",
+    "t": 0.0,
+    "L": 0.005,
+    "values": [
+      {
+        "log_p": 3.750000095263037e-09,
+        "arrival": 0.0050000000046875005,
+        "emission": 0.0,
+        "prep_time": 0.0,
+        "norm_error": 0.0,
+        "null_residual": 8.673617379884035e-19,
+        "receiver_K": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "receiver_initial_x": [
+          0.005,
+          0.0,
+          0.0
+        ],
+        "unique_forward_kind": "rest"
+      },
+      {
+        "log_p": 1.031249957416627e-08,
+        "arrival": 0.009999999983593745,
+        "emission": 0.0,
+        "prep_time": 0.0037499999958801274,
+        "norm_error": 7.771561172376096e-16,
+        "null_residual": 0.0,
+        "receiver_K": [
+          0.7499999978906249,
+          0.0,
+          0.0
+        ],
+        "receiver_initial_x": [
+          0.006249999995056151,
+          0.0,
+          0.0
+        ],
+        "unique_forward_kind": "boost_long"
+      },
+      {
+        "log_p": 7.324218753502239e-09,
+        "arrival": 0.006250000007324219,
+        "emission": 0.0,
+        "prep_time": 0.0,
+        "norm_error": 0.0,
+        "null_residual": 8.673617379884035e-19,
+        "receiver_K": [
+          0.75,
+          0.0,
+          0.0
+        ],
+        "receiver_initial_x": [
+          0.0,
+          0.005,
+          0.0
+        ],
+        "unique_forward_kind": "boost_trans"
+      }
+    ]
+  },
+  {
+    "fine": true,
+    "kind": "cubic_control",
+    "t": 0.0,
+    "L": 0.02,
+    "values": [
+      {
+        "log_p": 2.4000001435179875e-07,
+        "arrival": 0.020000001200000124,
+        "emission": 0.0,
+        "prep_time": 0.0,
+        "norm_error": 0.0,
+        "null_residual": 0.0,
+        "receiver_K": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "receiver_initial_x": [
+          0.02,
+          0.0,
+          0.0
+        ],
+        "unique_forward_kind": "rest"
+      },
+      {
+        "log_p": 6.599998654007473e-07,
+        "arrival": 0.039999995800011665,
+        "emission": 0.0,
+        "prep_time": 0.014999998945312632,
+        "norm_error": 4.440892098500626e-16,
+        "null_residual": 0.0,
+        "receiver_K": [
+          0.7499998650000095,
+          0.0,
+          0.0
+        ],
+        "receiver_initial_x": [
+          0.024999998734375257,
+          0.0,
+          0.0
+        ],
+        "unique_forward_kind": "boost_long"
+      },
+      {
+        "log_p": 4.687499756616402e-07,
+        "arrival": 0.025000001875000254,
+        "emission": 0.0,
+        "prep_time": 0.0,
+        "norm_error": 0.0,
+        "null_residual": 3.469446951953614e-18,
+        "receiver_K": [
+          0.75,
+          0.0,
+          0.0
+        ],
+        "receiver_initial_x": [
+          0.0,
+          0.02,
+          0.0
+        ],
+        "unique_forward_kind": "boost_trans"
+      }
+    ]
+  },
+  {
+    "fine": true,
+    "kind": "cubic_control",
+    "t": 0.0,
+    "L": 0.01,
+    "values": [
+      {
+        "log_p": 3.0000000267675875e-08,
+        "arrival": 0.010000000075000107,
+        "emission": 0.0,
+        "prep_time": 0.0,
+        "norm_error": 0.0,
+        "null_residual": 1.0755285551056204e-16,
+        "receiver_K": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "receiver_initial_x": [
+          0.01,
+          0.0,
+          0.0
+        ],
+        "unique_forward_kind": "rest"
+      },
+      {
+        "log_p": 8.249999801675207e-08,
+        "arrival": 0.019999999737500277,
+        "emission": 0.0,
+        "prep_time": 0.00749999993408203,
+        "norm_error": 4.440892098500626e-16,
+        "null_residual": 6.938893903907228e-17,
+        "receiver_K": [
+          0.7499999831250002,
+          0.0,
+          0.0
+        ],
+        "receiver_initial_x": [
+          0.012499999920898442,
+          0.0,
+          0.0
+        ],
+        "unique_forward_kind": "boost_long"
+      },
+      {
+        "log_p": 5.859374959435371e-08,
+        "arrival": 0.012500000117187502,
+        "emission": 0.0,
+        "prep_time": 0.0,
+        "norm_error": 0.0,
+        "null_residual": 1.734723475976807e-18,
+        "receiver_K": [
+          0.75,
+          0.0,
+          0.0
+        ],
+        "receiver_initial_x": [
+          0.0,
+          0.01,
+          0.0
+        ],
+        "unique_forward_kind": "boost_trans"
+      }
+    ]
+  },
+  {
+    "fine": true,
+    "kind": "cubic_control",
+    "t": 0.0,
+    "L": 0.005,
+    "values": [
+      {
+        "log_p": 3.750000095263037e-09,
+        "arrival": 0.0050000000046875005,
+        "emission": 0.0,
+        "prep_time": 0.0,
+        "norm_error": 0.0,
+        "null_residual": 8.673617379884035e-19,
+        "receiver_K": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "receiver_initial_x": [
+          0.005,
+          0.0,
+          0.0
+        ],
+        "unique_forward_kind": "rest"
+      },
+      {
+        "log_p": 1.031249957416627e-08,
+        "arrival": 0.009999999983593745,
+        "emission": 0.0,
+        "prep_time": 0.0037499999958801274,
+        "norm_error": 7.771561172376096e-16,
+        "null_residual": 0.0,
+        "receiver_K": [
+          0.7499999978906249,
+          0.0,
+          0.0
+        ],
+        "receiver_initial_x": [
+          0.006249999995056151,
+          0.0,
+          0.0
+        ],
+        "unique_forward_kind": "boost_long"
+      },
+      {
+        "log_p": 7.324218753502239e-09,
+        "arrival": 0.006250000007324219,
+        "emission": 0.0,
+        "prep_time": 0.0,
+        "norm_error": 0.0,
+        "null_residual": 8.673617379884035e-19,
+        "receiver_K": [
+          0.75,
+          0.0,
+          0.0
+        ],
+        "receiver_initial_x": [
+          0.0,
+          0.005,
+          0.0
+        ],
+        "unique_forward_kind": "boost_trans"
+      }
+    ]
+  },
+  {
+    "fine": true,
+    "kind": "cubic_control",
+    "t": 0.0,
+    "L": 0.02,
+    "values": [
+      {
+        "log_p": 2.4000001435179875e-07,
+        "arrival": 0.020000001200000124,
+        "emission": 0.0,
+        "prep_time": 0.0,
+        "norm_error": 0.0,
+        "null_residual": 0.0,
+        "receiver_K": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "receiver_initial_x": [
+          0.02,
+          0.0,
+          0.0
+        ],
+        "unique_forward_kind": "rest"
+      },
+      {
+        "log_p": 6.599998654007473e-07,
+        "arrival": 0.039999995800011665,
+        "emission": 0.0,
+        "prep_time": 0.014999998945312632,
+        "norm_error": 4.440892098500626e-16,
+        "null_residual": 0.0,
+        "receiver_K": [
+          0.7499998650000095,
+          0.0,
+          0.0
+        ],
+        "receiver_initial_x": [
+          0.024999998734375257,
+          0.0,
+          0.0
+        ],
+        "unique_forward_kind": "boost_long"
+      },
+      {
+        "log_p": 4.687499756616402e-07,
+        "arrival": 0.025000001875000254,
+        "emission": 0.0,
+        "prep_time": 0.0,
+        "norm_error": 0.0,
+        "null_residual": 3.469446951953614e-18,
+        "receiver_K": [
+          0.75,
+          0.0,
+          0.0
+        ],
+        "receiver_initial_x": [
+          0.0,
+          0.02,
+          0.0
+        ],
+        "unique_forward_kind": "boost_trans"
+      }
+    ]
+  },
+  {
+    "fine": true,
+    "kind": "cubic_control",
+    "t": 0.0,
+    "L": 0.01,
+    "values": [
+      {
+        "log_p": 3.0000000267675875e-08,
+        "arrival": 0.010000000075000107,
+        "emission": 0.0,
+        "prep_time": 0.0,
+        "norm_error": 0.0,
+        "null_residual": 1.0755285551056204e-16,
+        "receiver_K": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "receiver_initial_x": [
+          0.01,
+          0.0,
+          0.0
+        ],
+        "unique_forward_kind": "rest"
+      },
+      {
+        "log_p": 8.249999801675207e-08,
+        "arrival": 0.019999999737500277,
+        "emission": 0.0,
+        "prep_time": 0.00749999993408203,
+        "norm_error": 4.440892098500626e-16,
+        "null_residual": 6.938893903907228e-17,
+        "receiver_K": [
+          0.7499999831250002,
+          0.0,
+          0.0
+        ],
+        "receiver_initial_x": [
+          0.012499999920898442,
+          0.0,
+          0.0
+        ],
+        "unique_forward_kind": "boost_long"
+      },
+      {
+        "log_p": 5.859374959435371e-08,
+        "arrival": 0.012500000117187502,
+        "emission": 0.0,
+        "prep_time": 0.0,
+        "norm_error": 0.0,
+        "null_residual": 1.734723475976807e-18,
+        "receiver_K": [
+          0.75,
+          0.0,
+          0.0
+        ],
+        "receiver_initial_x": [
+          0.0,
+          0.01,
+          0.0
+        ],
+        "unique_forward_kind": "boost_trans"
+      }
+    ]
+  },
+  {
+    "fine": true,
+    "kind": "cubic_control",
+    "t": 0.0,
+    "L": 0.005,
+    "values": [
+      {
+        "log_p": 3.750000095263037e-09,
+        "arrival": 0.0050000000046875005,
+        "emission": 0.0,
+        "prep_time": 0.0,
+        "norm_error": 0.0,
+        "null_residual": 8.673617379884035e-19,
+        "receiver_K": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "receiver_initial_x": [
+          0.005,
+          0.0,
+          0.0
+        ],
+        "unique_forward_kind": "rest"
+      },
+      {
+        "log_p": 1.031249957416627e-08,
+        "arrival": 0.009999999983593745,
+        "emission": 0.0,
+        "prep_time": 0.0037499999958801274,
+        "norm_error": 7.771561172376096e-16,
+        "null_residual": 0.0,
+        "receiver_K": [
+          0.7499999978906249,
+          0.0,
+          0.0
+        ],
+        "receiver_initial_x": [
+          0.006249999995056151,
+          0.0,
+          0.0
+        ],
+        "unique_forward_kind": "boost_long"
+      },
+      {
+        "log_p": 7.324218753502239e-09,
+        "arrival": 0.006250000007324219,
+        "emission": 0.0,
+        "prep_time": 0.0,
+        "norm_error": 0.0,
+        "null_residual": 8.673617379884035e-19,
+        "receiver_K": [
+          0.75,
+          0.0,
+          0.0
+        ],
+        "receiver_initial_x": [
+          0.0,
+          0.005,
+          0.0
+        ],
+        "unique_forward_kind": "boost_trans"
+      }
+    ]
+  },
+  {
+    "fine": true,
+    "kind": "cubic_control",
+    "t": 0.0,
+    "L": 0.02,
+    "values": [
+      {
+        "log_p": 2.4000001435179875e-07,
+        "arrival": 0.020000001200000124,
+        "emission": 0.0,
+        "prep_time": 0.0,
+        "norm_error": 0.0,
+        "null_residual": 0.0,
+        "receiver_K": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "receiver_initial_x": [
+          0.02,
+          0.0,
+          0.0
+        ],
+        "unique_forward_kind": "rest"
+      },
+      {
+        "log_p": 6.599998654007473e-07,
+        "arrival": 0.039999995800011665,
+        "emission": 0.0,
+        "prep_time": 0.014999998945312632,
+        "norm_error": 4.440892098500626e-16,
+        "null_residual": 0.0,
+        "receiver_K": [
+          0.7499998650000095,
+          0.0,
+          0.0
+        ],
+        "receiver_initial_x": [
+          0.024999998734375257,
+          0.0,
+          0.0
+        ],
+        "unique_forward_kind": "boost_long"
+      },
+      {
+        "log_p": 4.687499756616402e-07,
+        "arrival": 0.025000001875000254,
+        "emission": 0.0,
+        "prep_time": 0.0,
+        "norm_error": 0.0,
+        "null_residual": 3.469446951953614e-18,
+        "receiver_K": [
+          0.75,
+          0.0,
+          0.0
+        ],
+        "receiver_initial_x": [
+          0.0,
+          0.02,
+          0.0
+        ],
+        "unique_forward_kind": "boost_trans"
+      }
+    ]
+  },
+  {
+    "fine": true,
+    "kind": "cubic_control",
+    "t": 0.0,
+    "L": 0.01,
+    "values": [
+      {
+        "log_p": 3.0000000267675875e-08,
+        "arrival": 0.010000000075000107,
+        "emission": 0.0,
+        "prep_time": 0.0,
+        "norm_error": 0.0,
+        "null_residual": 1.0755285551056204e-16,
+        "receiver_K": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "receiver_initial_x": [
+          0.01,
+          0.0,
+          0.0
+        ],
+        "unique_forward_kind": "rest"
+      },
+      {
+        "log_p": 8.249999801675207e-08,
+        "arrival": 0.019999999737500277,
+        "emission": 0.0,
+        "prep_time": 0.00749999993408203,
+        "norm_error": 4.440892098500626e-16,
+        "null_residual": 6.938893903907228e-17,
+        "receiver_K": [
+          0.7499999831250002,
+          0.0,
+          0.0
+        ],
+        "receiver_initial_x": [
+          0.012499999920898442,
+          0.0,
+          0.0
+        ],
+        "unique_forward_kind": "boost_long"
+      },
+      {
+        "log_p": 5.859374959435371e-08,
+        "arrival": 0.012500000117187502,
+        "emission": 0.0,
+        "prep_time": 0.0,
+        "norm_error": 0.0,
+        "null_residual": 1.734723475976807e-18,
+        "receiver_K": [
+          0.75,
+          0.0,
+          0.0
+        ],
+        "receiver_initial_x": [
+          0.0,
+          0.01,
+          0.0
+        ],
+        "unique_forward_kind": "boost_trans"
+      }
+    ]
+  },
+  {
+    "fine": true,
+    "kind": "cubic_control",
+    "t": 0.0,
+    "L": 0.005,
+    "values": [
+      {
+        "log_p": 3.750000095263037e-09,
+        "arrival": 0.0050000000046875005,
+        "emission": 0.0,
+        "prep_time": 0.0,
+        "norm_error": 0.0,
+        "null_residual": 8.673617379884035e-19,
+        "receiver_K": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "receiver_initial_x": [
+          0.005,
+          0.0,
+          0.0
+        ],
+        "unique_forward_kind": "rest"
+      },
+      {
+        "log_p": 1.031249957416627e-08,
+        "arrival": 0.009999999983593745,
+        "emission": 0.0,
+        "prep_time": 0.0037499999958801274,
+        "norm_error": 7.771561172376096e-16,
+        "null_residual": 0.0,
+        "receiver_K": [
+          0.7499999978906249,
+          0.0,
+          0.0
+        ],
+        "receiver_initial_x": [
+          0.006249999995056151,
+          0.0,
+          0.0
+        ],
+        "unique_forward_kind": "boost_long"
+      },
+      {
+        "log_p": 7.324218753502239e-09,
+        "arrival": 0.006250000007324219,
+        "emission": 0.0,
+        "prep_time": 0.0,
+        "norm_error": 0.0,
+        "null_residual": 8.673617379884035e-19,
+        "receiver_K": [
+          0.75,
+          0.0,
+          0.0
+        ],
+        "receiver_initial_x": [
+          0.0,
+          0.005,
+          0.0
+        ],
+        "unique_forward_kind": "boost_trans"
+      }
+    ]
+  },
+  {
+    "fine": true,
+    "kind": "cubic_control",
+    "t": 0.0,
+    "L": 0.02,
+    "values": [
+      {
+        "log_p": 2.4000001435179875e-07,
+        "arrival": 0.020000001200000124,
+        "emission": 0.0,
+        "prep_time": 0.0,
+        "norm_error": 0.0,
+        "null_residual": 0.0,
+        "receiver_K": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "receiver_initial_x": [
+          0.02,
+          0.0,
+          0.0
+        ],
+        "unique_forward_kind": "rest"
+      },
+      {
+        "log_p": 6.599998654007473e-07,
+        "arrival": 0.039999995800011665,
+        "emission": 0.0,
+        "prep_time": 0.014999998945312632,
+        "norm_error": 4.440892098500626e-16,
+        "null_residual": 0.0,
+        "receiver_K": [
+          0.7499998650000095,
+          0.0,
+          0.0
+        ],
+        "receiver_initial_x": [
+          0.024999998734375257,
+          0.0,
+          0.0
+        ],
+        "unique_forward_kind": "boost_long"
+      },
+      {
+        "log_p": 4.687499756616402e-07,
+        "arrival": 0.025000001875000254,
+        "emission": 0.0,
+        "prep_time": 0.0,
+        "norm_error": 0.0,
+        "null_residual": 3.469446951953614e-18,
+        "receiver_K": [
+          0.75,
+          0.0,
+          0.0
+        ],
+        "receiver_initial_x": [
+          0.0,
+          0.02,
+          0.0
+        ],
+        "unique_forward_kind": "boost_trans"
+      }
+    ]
+  },
+  {
+    "fine": true,
+    "kind": "cubic_control",
+    "t": 0.0,
+    "L": 0.01,
+    "values": [
+      {
+        "log_p": 3.0000000267675875e-08,
+        "arrival": 0.010000000075000107,
+        "emission": 0.0,
+        "prep_time": 0.0,
+        "norm_error": 0.0,
+        "null_residual": 1.0755285551056204e-16,
+        "receiver_K": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "receiver_initial_x": [
+          0.01,
+          0.0,
+          0.0
+        ],
+        "unique_forward_kind": "rest"
+      },
+      {
+        "log_p": 8.249999801675207e-08,
+        "arrival": 0.019999999737500277,
+        "emission": 0.0,
+        "prep_time": 0.00749999993408203,
+        "norm_error": 4.440892098500626e-16,
+        "null_residual": 6.938893903907228e-17,
+        "receiver_K": [
+          0.7499999831250002,
+          0.0,
+          0.0
+        ],
+        "receiver_initial_x": [
+          0.012499999920898442,
+          0.0,
+          0.0
+        ],
+        "unique_forward_kind": "boost_long"
+      },
+      {
+        "log_p": 5.859374959435371e-08,
+        "arrival": 0.012500000117187502,
+        "emission": 0.0,
+        "prep_time": 0.0,
+        "norm_error": 0.0,
+        "null_residual": 1.734723475976807e-18,
+        "receiver_K": [
+          0.75,
+          0.0,
+          0.0
+        ],
+        "receiver_initial_x": [
+          0.0,
+          0.01,
+          0.0
+        ],
+        "unique_forward_kind": "boost_trans"
+      }
+    ]
+  },
+  {
+    "fine": true,
+    "kind": "cubic_control",
+    "t": 0.0,
+    "L": 0.005,
+    "values": [
+      {
+        "log_p": 3.750000095263037e-09,
+        "arrival": 0.0050000000046875005,
+        "emission": 0.0,
+        "prep_time": 0.0,
+        "norm_error": 0.0,
+        "null_residual": 8.673617379884035e-19,
+        "receiver_K": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "receiver_initial_x": [
+          0.005,
+          0.0,
+          0.0
+        ],
+        "unique_forward_kind": "rest"
+      },
+      {
+        "log_p": 1.031249957416627e-08,
+        "arrival": 0.009999999983593745,
+        "emission": 0.0,
+        "prep_time": 0.0037499999958801274,
+        "norm_error": 7.771561172376096e-16,
+        "null_residual": 0.0,
+        "receiver_K": [
+          0.7499999978906249,
+          0.0,
+          0.0
+        ],
+        "receiver_initial_x": [
+          0.006249999995056151,
+          0.0,
+          0.0
+        ],
+        "unique_forward_kind": "boost_long"
+      },
+      {
+        "log_p": 7.324218753502239e-09,
+        "arrival": 0.006250000007324219,
+        "emission": 0.0,
+        "prep_time": 0.0,
+        "norm_error": 0.0,
+        "null_residual": 8.673617379884035e-19,
+        "receiver_K": [
+          0.75,
+          0.0,
+          0.0
+        ],
+        "receiver_initial_x": [
+          0.0,
+          0.005,
+          0.0
+        ],
+        "unique_forward_kind": "boost_trans"
+      }
+    ]
+  },
+  {
+    "fine": true,
+    "kind": "cubic_control",
+    "t": 0.0,
+    "L": 0.02,
+    "values": [
+      {
+        "log_p": 2.4000001435179875e-07,
+        "arrival": 0.020000001200000124,
+        "emission": 0.0,
+        "prep_time": 0.0,
+        "norm_error": 0.0,
+        "null_residual": 0.0,
+        "receiver_K": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "receiver_initial_x": [
+          0.02,
+          0.0,
+          0.0
+        ],
+        "unique_forward_kind": "rest"
+      },
+      {
+        "log_p": 6.599998654007473e-07,
+        "arrival": 0.039999995800011665,
+        "emission": 0.0,
+        "prep_time": 0.014999998945312632,
+        "norm_error": 4.440892098500626e-16,
+        "null_residual": 0.0,
+        "receiver_K": [
+          0.7499998650000095,
+          0.0,
+          0.0
+        ],
+        "receiver_initial_x": [
+          0.024999998734375257,
+          0.0,
+          0.0
+        ],
+        "unique_forward_kind": "boost_long"
+      },
+      {
+        "log_p": 4.687499756616402e-07,
+        "arrival": 0.025000001875000254,
+        "emission": 0.0,
+        "prep_time": 0.0,
+        "norm_error": 0.0,
+        "null_residual": 3.469446951953614e-18,
+        "receiver_K": [
+          0.75,
+          0.0,
+          0.0
+        ],
+        "receiver_initial_x": [
+          0.0,
+          0.02,
+          0.0
+        ],
+        "unique_forward_kind": "boost_trans"
+      }
+    ]
+  },
+  {
+    "fine": true,
+    "kind": "cubic_control",
+    "t": 0.0,
+    "L": 0.01,
+    "values": [
+      {
+        "log_p": 3.0000000267675875e-08,
+        "arrival": 0.010000000075000107,
+        "emission": 0.0,
+        "prep_time": 0.0,
+        "norm_error": 0.0,
+        "null_residual": 1.0755285551056204e-16,
+        "receiver_K": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "receiver_initial_x": [
+          0.01,
+          0.0,
+          0.0
+        ],
+        "unique_forward_kind": "rest"
+      },
+      {
+        "log_p": 8.249999801675207e-08,
+        "arrival": 0.019999999737500277,
+        "emission": 0.0,
+        "prep_time": 0.00749999993408203,
+        "norm_error": 4.440892098500626e-16,
+        "null_residual": 6.938893903907228e-17,
+        "receiver_K": [
+          0.7499999831250002,
+          0.0,
+          0.0
+        ],
+        "receiver_initial_x": [
+          0.012499999920898442,
+          0.0,
+          0.0
+        ],
+        "unique_forward_kind": "boost_long"
+      },
+      {
+        "log_p": 5.859374959435371e-08,
+        "arrival": 0.012500000117187502,
+        "emission": 0.0,
+        "prep_time": 0.0,
+        "norm_error": 0.0,
+        "null_residual": 1.734723475976807e-18,
+        "receiver_K": [
+          0.75,
+          0.0,
+          0.0
+        ],
+        "receiver_initial_x": [
+          0.0,
+          0.01,
+          0.0
+        ],
+        "unique_forward_kind": "boost_trans"
+      }
+    ]
+  },
+  {
+    "fine": true,
+    "kind": "cubic_control",
+    "t": 0.0,
+    "L": 0.005,
+    "values": [
+      {
+        "log_p": 3.750000095263037e-09,
+        "arrival": 0.0050000000046875005,
+        "emission": 0.0,
+        "prep_time": 0.0,
+        "norm_error": 0.0,
+        "null_residual": 8.673617379884035e-19,
+        "receiver_K": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "receiver_initial_x": [
+          0.005,
+          0.0,
+          0.0
+        ],
+        "unique_forward_kind": "rest"
+      },
+      {
+        "log_p": 1.031249957416627e-08,
+        "arrival": 0.009999999983593745,
+        "emission": 0.0,
+        "prep_time": 0.0037499999958801274,
+        "norm_error": 7.771561172376096e-16,
+        "null_residual": 0.0,
+        "receiver_K": [
+          0.7499999978906249,
+          0.0,
+          0.0
+        ],
+        "receiver_initial_x": [
+          0.006249999995056151,
+          0.0,
+          0.0
+        ],
+        "unique_forward_kind": "boost_long"
+      },
+      {
+        "log_p": 7.324218753502239e-09,
+        "arrival": 0.006250000007324219,
+        "emission": 0.0,
+        "prep_time": 0.0,
+        "norm_error": 0.0,
+        "null_residual": 8.673617379884035e-19,
+        "receiver_K": [
+          0.75,
+          0.0,
+          0.0
+        ],
+        "receiver_initial_x": [
+          0.0,
+          0.005,
+          0.0
+        ],
+        "unique_forward_kind": "boost_trans"
+      }
+    ]
+  }
+]

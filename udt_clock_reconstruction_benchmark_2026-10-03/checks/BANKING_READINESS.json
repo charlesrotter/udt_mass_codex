@@ -1,0 +1,8 @@
+{
+  "status": "REVIEW_AND_REQUIRED_CHECKS_PASS",
+  "head_before_commit": "770c392465fac5e444f21bd2f7adabfaf5aabdb4",
+  "origin_before_commit": "770c392465fac5e444f21bd2f7adabfaf5aabdb4",
+  "preserved_existing_untracked_names": 76,
+  "accepted_files": 13024,
+  "claim_limit": "CBR1 finite actual-clock scalar/Box reconstruction on supplied symmetric controls; noise/held-out/tensor limits; practical/source/native applicability OPEN; no equation/adoption/grade change. Two fresh actual contexts and independent saved-artifact implementations; inherited evidence retains original scope."
+}

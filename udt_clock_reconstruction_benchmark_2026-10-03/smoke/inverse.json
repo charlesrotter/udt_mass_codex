@@ -1,0 +1,218 @@
+{
+  "schema": "CBR1_INVERSE",
+  "epsilon": 0.0,
+  "seed": 1729,
+  "events": [
+    {
+      "case": "cubic_control_False",
+      "center": 0,
+      "h": 0.05,
+      "L_large": 0.01,
+      "L_small": 0.005,
+      "R": 3.361965601744732e-10,
+      "Q": -4.3016583758936904e-05,
+      "R_noise_bound": 0.0,
+      "Q_noise_bound": 0.0
+    },
+    {
+      "case": "cubic_control_False",
+      "center": 0,
+      "h": 0.05,
+      "L_large": 0.02,
+      "L_small": 0.01,
+      "R": -6.000645473569488e-09,
+      "Q": 6.828378135703693e-05,
+      "R_noise_bound": 0.0,
+      "Q_noise_bound": 0.0
+    },
+    {
+      "case": "cubic_control_True",
+      "center": 0,
+      "h": 0.05,
+      "L_large": 0.01,
+      "L_small": 0.005,
+      "R": 3.361965601744732e-10,
+      "Q": -4.291000201550598e-05,
+      "R_noise_bound": 0.0,
+      "Q_noise_bound": 0.0
+    },
+    {
+      "case": "cubic_control_True",
+      "center": 0,
+      "h": 0.05,
+      "L_large": 0.02,
+      "L_small": 0.01,
+      "R": -6.000645473569488e-09,
+      "Q": 6.825417540601285e-05,
+      "R_noise_bound": 0.0,
+      "Q_noise_bound": 0.0
+    },
+    {
+      "case": "flat_False",
+      "center": 0,
+      "h": 0.05,
+      "L_large": 0.01,
+      "L_small": 0.005,
+      "R": 0.0,
+      "Q": 0.0,
+      "R_noise_bound": 0.0,
+      "Q_noise_bound": 0.0
+    },
+    {
+      "case": "flat_False",
+      "center": 0,
+      "h": 0.05,
+      "L_large": 0.02,
+      "L_small": 0.01,
+      "R": 0.0,
+      "Q": 0.0,
+      "R_noise_bound": 0.0,
+      "Q_noise_bound": 0.0
+    },
+    {
+      "case": "flat_True",
+      "center": 0,
+      "h": 0.05,
+      "L_large": 0.01,
+      "L_small": 0.005,
+      "R": 0.0,
+      "Q": 0.0,
+      "R_noise_bound": 0.0,
+      "Q_noise_bound": 0.0
+    },
+    {
+      "case": "flat_True",
+      "center": 0,
+      "h": 0.05,
+      "L_large": 0.02,
+      "L_small": 0.01,
+      "R": 0.0,
+      "Q": 0.0,
+      "R_noise_bound": 0.0,
+      "Q_noise_bound": 0.0
+    }
+  ],
+  "fits": [
+    {
+      "case": "cubic_control_False",
+      "h": 0.05,
+      "L_large": 0.01,
+      "L_small": 0.005,
+      "fit_centers": [
+        0,
+        0
+      ],
+      "delta_R": 0.0,
+      "delta_Q": 0.0,
+      "R_noise_bound": 0.0,
+      "Q_noise_bound": 0.0,
+      "status": "UNINFORMATIVE_AT_DECLARED_RESOLUTION"
+    },
+    {
+      "case": "cubic_control_False",
+      "h": 0.05,
+      "L_large": 0.02,
+      "L_small": 0.01,
+      "fit_centers": [
+        0,
+        0
+      ],
+      "delta_R": 0.0,
+      "delta_Q": 0.0,
+      "R_noise_bound": 0.0,
+      "Q_noise_bound": 0.0,
+      "status": "UNINFORMATIVE_AT_DECLARED_RESOLUTION"
+    },
+    {
+      "case": "cubic_control_True",
+      "h": 0.05,
+      "L_large": 0.01,
+      "L_small": 0.005,
+      "fit_centers": [
+        0,
+        0
+      ],
+      "delta_R": 0.0,
+      "delta_Q": 0.0,
+      "R_noise_bound": 0.0,
+      "Q_noise_bound": 0.0,
+      "status": "UNINFORMATIVE_AT_DECLARED_RESOLUTION"
+    },
+    {
+      "case": "cubic_control_True",
+      "h": 0.05,
+      "L_large": 0.02,
+      "L_small": 0.01,
+      "fit_centers": [
+        0,
+        0
+      ],
+      "delta_R": 0.0,
+      "delta_Q": 0.0,
+      "R_noise_bound": 0.0,
+      "Q_noise_bound": 0.0,
+      "status": "UNINFORMATIVE_AT_DECLARED_RESOLUTION"
+    },
+    {
+      "case": "flat_False",
+      "h": 0.05,
+      "L_large": 0.01,
+      "L_small": 0.005,
+      "fit_centers": [
+        0,
+        0
+      ],
+      "delta_R": 0.0,
+      "delta_Q": 0.0,
+      "R_noise_bound": 0.0,
+      "Q_noise_bound": 0.0,
+      "status": "UNINFORMATIVE_AT_DECLARED_RESOLUTION"
+    },
+    {
+      "case": "flat_False",
+      "h": 0.05,
+      "L_large": 0.02,
+      "L_small": 0.01,
+      "fit_centers": [
+        0,
+        0
+      ],
+      "delta_R": 0.0,
+      "delta_Q": 0.0,
+      "R_noise_bound": 0.0,
+      "Q_noise_bound": 0.0,
+      "status": "UNINFORMATIVE_AT_DECLARED_RESOLUTION"
+    },
+    {
+      "case": "flat_True",
+      "h": 0.05,
+      "L_large": 0.01,
+      "L_small": 0.005,
+      "fit_centers": [
+        0,
+        0
+      ],
+      "delta_R": 0.0,
+      "delta_Q": 0.0,
+      "R_noise_bound": 0.0,
+      "Q_noise_bound": 0.0,
+      "status": "UNINFORMATIVE_AT_DECLARED_RESOLUTION"
+    },
+    {
+      "case": "flat_True",
+      "h": 0.05,
+      "L_large": 0.02,
+      "L_small": 0.01,
+      "fit_centers": [
+        0,
+        0
+      ],
+      "delta_R": 0.0,
+      "delta_Q": 0.0,
+      "R_noise_bound": 0.0,
+      "Q_noise_bound": 0.0,
+      "status": "UNINFORMATIVE_AT_DECLARED_RESOLUTION"
+    }
+  ],
+  "limits": "Noise bounds cover the supplied bounded log-record perturbation only, not truncation, solver, preparation or ruler error. No metric/equation/oracle input. Finite tests, not physical law evidence."
+}

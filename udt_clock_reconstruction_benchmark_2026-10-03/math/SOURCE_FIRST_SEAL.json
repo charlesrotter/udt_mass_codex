@@ -1,0 +1,27 @@
+{
+  "utc": "2026-10-03T04:46:42.910701+00:00",
+  "reviewer": "/root/cbr_math; inherited model; fresh context",
+  "exposure": "Sources and independent own checks only; no parent implementation, smoke or main outcomes read",
+  "sha256": {
+    "AGENTS.md": "bcab9b67305e0314af9eaf25162d203660eae8f2ff4fd87d17e83588970ef38d",
+    "CLAUDE.md": "4ad2e773defb89cc79541fd0ababd75af5a3344ab134ee83722dfd943966e6e4",
+    ".claude/skills/no-shortcuts/SKILL.md": "fd3a1f3218481134f2af829d3ae4175ac53518f75bf9673287efbfb7d7708fc1",
+    ".claude/skills/completeness-map/SKILL.md": "a8cf9e5f4a6d35a0d0ebfe4bc48dbf328ca74e318f020a6a22cb683666a611c0",
+    ".claude/skills/verifier-before-record/SKILL.md": "9b3a4aacd4b4006b2b7f01edada73b7c87b99bea6e754583558713bfc145e5ac",
+    "udt_clock_reconstruction_benchmark_2026-10-03/WORK_ORDER.md": "7887dad5faaf024f97b6f0976b79abbd729607ab0f861d787fd909929e48fcc8",
+    "udt_clock_reconstruction_benchmark_2026-10-03/BASELINE.json": "a8c2231aec41f86d20d64220e81104f1ff1e3d87465d037e93f252d79cb388b0",
+    "udt_curvature_measurement_feasibility_2026-10-02/INITIAL_CANDIDATE.md": "436402b7d42ae35dd7d1b0149ff8fe55ab4fcdea1a8ada446b84f81b206125b3",
+    "udt_curvature_measurement_feasibility_2026-10-02/REPAIR.md": "7b8cdac6c29189a8ff2ed073ec39c0a7c6863c4c6114beae7457fc4a860d505c",
+    "udt_curvature_measurement_feasibility_2026-10-02/REVIEWED_RESULT.md": "5e2469b06dc71ed75b3af0e9e93ed2f32a12f4f2e72de4f9e7ecea96bfdd2a46",
+    "udt_positional_selection_whiteboard_2026-10-01/INITIAL_CANDIDATE.md": "95ed91cca818cd6f1b7de819396f61ad2a24dc741f763334ed52e7bf769ad1b1",
+    "udt_positional_selection_whiteboard_2026-10-01/REPAIR.md": "696a97a3b59c37a88a1044dae940df9a18414aabada55335f495217e4f226a97",
+    "udt_environment_response_candidates_2026-10-01/REVIEWED_RESULT.md": "f4a27a559b600a0088bd3213b7f65a805876b2669d660929259338183a37a8f9",
+    "udt_time_live_production_survey_2026-10-01/capture.py": "217cdbac5486e8a531552f4d74a15ce641299b65dafb5d58f7b60f4ba51781bc",
+    "udt_clock_reconstruction_benchmark_2026-10-03/math/SOURCE_FIRST.md": "3dc74f6c8708af655531036b516fe9e53d6ff6287477e68566bc32e800b66f71",
+    "udt_clock_reconstruction_benchmark_2026-10-03/math/SOURCE_FIRST_CHECK.json": "857c47d0b8f906e14cc0df745e0c7c2a0a0f544dde9ac4131414d1cd99d953cf",
+    "udt_clock_reconstruction_benchmark_2026-10-03/math/source_first_capture.json": "fe135b21659381e56c9ca383871f61aa3389ff8c295028fba1d02b7b800653fe",
+    "udt_clock_reconstruction_benchmark_2026-10-03/math/source_first_capture.stderr": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "udt_clock_reconstruction_benchmark_2026-10-03/math/source_first_capture.stdout": "823d74455b03e76c0d3633a70f30d2115f3838e47d47e244612a3fed1b607e02",
+    "udt_clock_reconstruction_benchmark_2026-10-03/math/source_first_check.py": "86a97ddedbd00a2d8587c4a57048798d3ec19e4ce6b26795c30527b81b2d5a96"
+  }
+}

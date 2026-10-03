@@ -1,0 +1,21 @@
+{
+  "sealed_utc": "2026-10-03T04:46:55.998622+00:00",
+  "exposure": "Sources and work order only; no new parent candidate code/results, no other reviewer output",
+  "sha256": {
+    "udt_clock_reconstruction_benchmark_2026-10-03/BASELINE.json": "a8c2231aec41f86d20d64220e81104f1ff1e3d87465d037e93f252d79cb388b0",
+    "udt_clock_reconstruction_benchmark_2026-10-03/WORK_ORDER.md": "7887dad5faaf024f97b6f0976b79abbd729607ab0f861d787fd909929e48fcc8",
+    "udt_clock_reconstruction_benchmark_2026-10-03/fidelity/SOURCE_FIRST.md": "f91b36aa8e37ffb43f93ae97e36b2cd4161098e15e0972c1644612b07e54d2b1",
+    "udt_clock_reconstruction_benchmark_2026-10-03/fidelity/SOURCE_FIRST_PLAN.md": "b3d094b61fc430233ad9ec650e5302b77348e9c773f364fc2fbcf395db86b652",
+    "udt_clock_reconstruction_benchmark_2026-10-03/fidelity/SOURCE_FIRST_RESULT.json": "c25228de4bf4a7cc42502c055e9366e460f4bfd07c01faeba1a451ecb2ddd1e7",
+    "udt_clock_reconstruction_benchmark_2026-10-03/fidelity/source_first_01.json": "9a55718b51652929f28a33c689d128f963ac6c75f0e002c3d6e693b41109d66a",
+    "udt_clock_reconstruction_benchmark_2026-10-03/fidelity/source_first_01.stderr": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "udt_clock_reconstruction_benchmark_2026-10-03/fidelity/source_first_01.stdout": "c25228de4bf4a7cc42502c055e9366e460f4bfd07c01faeba1a451ecb2ddd1e7",
+    "udt_clock_reconstruction_benchmark_2026-10-03/fidelity/source_first_checks.py": "19bcc2ecef9a51843342f9b5acfeac585992fd63780dc00ca2b8bf9f91809510",
+    "udt_curvature_measurement_feasibility_2026-10-02/INITIAL_CANDIDATE.md": "436402b7d42ae35dd7d1b0149ff8fe55ab4fcdea1a8ada446b84f81b206125b3",
+    "udt_curvature_measurement_feasibility_2026-10-02/REPAIR.md": "7b8cdac6c29189a8ff2ed073ec39c0a7c6863c4c6114beae7457fc4a860d505c",
+    "udt_curvature_measurement_feasibility_2026-10-02/REVIEWED_RESULT.md": "5e2469b06dc71ed75b3af0e9e93ed2f32a12f4f2e72de4f9e7ecea96bfdd2a46",
+    "udt_environment_response_candidates_2026-10-01/REVIEWED_RESULT.md": "f4a27a559b600a0088bd3213b7f65a805876b2669d660929259338183a37a8f9",
+    "udt_positional_selection_whiteboard_2026-10-01/INITIAL_CANDIDATE.md": "95ed91cca818cd6f1b7de819396f61ad2a24dc741f763334ed52e7bf769ad1b1",
+    "udt_positional_selection_whiteboard_2026-10-01/REPAIR.md": "696a97a3b59c37a88a1044dae940df9a18414aabada55335f495217e4f226a97"
+  }
+}

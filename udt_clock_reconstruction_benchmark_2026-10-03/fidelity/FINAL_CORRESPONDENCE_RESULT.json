@@ -1,0 +1,36 @@
+{
+  "checked_utc": "2026-10-03T05:14:47.029021+00:00",
+  "status": "PASS_FROZEN_INTEGRATION_CORRESPONDENCE",
+  "freeze_sha256": "ed43ff1a1d4f73b2e07c73079e57d4638900e6fed303bbd010d206f365b0be28",
+  "accepted_files": 13024,
+  "inherited_count": 12892,
+  "changed_inherited": [
+    "CURRENT_RESEARCH_PROGRAM.md",
+    "HANDOFF.md",
+    "LIVE.md",
+    "UDT_DEVELOPMENT.md",
+    "development_reconstruction_2026-09-29/DEVELOPMENT_GRAPH.json",
+    "development_reconstruction_2026-09-29/RECENT_DISPOSITIONS.tsv"
+  ],
+  "protected_paths_hashed": 0,
+  "program_exact_orientation": true,
+  "graph_nodes": 109,
+  "later_dispositions": 50,
+  "prebinding_receipts": {
+    "draft": {
+      "returncode": 0,
+      "stdout_sha256": "3a7e14170d0d8abbed2d3055def4d57bc9e0d527f22cc538aa96bff47370d23c"
+    },
+    "normal_before_binding": {
+      "returncode": 1,
+      "stdout_sha256": "2c7db3f322347a3730e14a583aa9fa4da518c8cdf6f3b69446284b50a9e166b0"
+    }
+  },
+  "peer_saved_max_positive_tensor": 4.6937197602834485e-08,
+  "peer_saved_max_clock_difference": null,
+  "state": {
+    "branch": "grok",
+    "head": "770c392465fac5e444f21bd2f7adabfaf5aabdb4"
+  },
+  "limits": "Hashes are correspondence only; inherited12892 evidence files not scientifically re-proved. Normal binding/maintenance/full406 closure, commit and push are not yet attested."
+}

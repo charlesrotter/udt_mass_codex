@@ -1,0 +1,106 @@
+{
+  "status": "PASS",
+  "seconds": 0.5072472910396755,
+  "clock_calls": 328,
+  "records": 2268,
+  "max_norm_error": 1.2212453270876722e-15,
+  "max_null_residual": 1.1669484822895981e-14,
+  "inverse_events": [
+    {
+      "case": "cubic_control_False",
+      "center": 0,
+      "h": 0.05,
+      "L_large": 0.01,
+      "L_small": 0.005,
+      "R": 3.361965601744732e-10,
+      "Q": -4.3016583758936904e-05,
+      "R_noise_bound": 0.0,
+      "Q_noise_bound": 0.0
+    },
+    {
+      "case": "cubic_control_False",
+      "center": 0,
+      "h": 0.05,
+      "L_large": 0.02,
+      "L_small": 0.01,
+      "R": -6.000645473569488e-09,
+      "Q": 6.828378135703693e-05,
+      "R_noise_bound": 0.0,
+      "Q_noise_bound": 0.0
+    },
+    {
+      "case": "cubic_control_True",
+      "center": 0,
+      "h": 0.05,
+      "L_large": 0.01,
+      "L_small": 0.005,
+      "R": 3.361965601744732e-10,
+      "Q": -4.291000201550598e-05,
+      "R_noise_bound": 0.0,
+      "Q_noise_bound": 0.0
+    },
+    {
+      "case": "cubic_control_True",
+      "center": 0,
+      "h": 0.05,
+      "L_large": 0.02,
+      "L_small": 0.01,
+      "R": -6.000645473569488e-09,
+      "Q": 6.825417540601285e-05,
+      "R_noise_bound": 0.0,
+      "Q_noise_bound": 0.0
+    },
+    {
+      "case": "flat_False",
+      "center": 0,
+      "h": 0.05,
+      "L_large": 0.01,
+      "L_small": 0.005,
+      "R": 0.0,
+      "Q": 0.0,
+      "R_noise_bound": 0.0,
+      "Q_noise_bound": 0.0
+    },
+    {
+      "case": "flat_False",
+      "center": 0,
+      "h": 0.05,
+      "L_large": 0.02,
+      "L_small": 0.01,
+      "R": 0.0,
+      "Q": 0.0,
+      "R_noise_bound": 0.0,
+      "Q_noise_bound": 0.0
+    },
+    {
+      "case": "flat_True",
+      "center": 0,
+      "h": 0.05,
+      "L_large": 0.01,
+      "L_small": 0.005,
+      "R": 0.0,
+      "Q": 0.0,
+      "R_noise_bound": 0.0,
+      "Q_noise_bound": 0.0
+    },
+    {
+      "case": "flat_True",
+      "center": 0,
+      "h": 0.05,
+      "L_large": 0.02,
+      "L_small": 0.01,
+      "R": 0.0,
+      "Q": 0.0,
+      "R_noise_bound": 0.0,
+      "Q_noise_bound": 0.0
+    }
+  ],
+  "domain_stop": true,
+  "limits": "Finite smoke only, cubic t0 and flat controls; no main-law or hardware outcome.",
+  "source_sha256": {
+    "/home/udt-admin/udt_mass_codex/udt_clock_reconstruction_benchmark_2026-10-03/forward.py": "1a893b30009b56f6a9089221cb2e87aafe4e161694888fac5b8591d2dd00ceda",
+    "/home/udt-admin/udt_mass_codex/udt_clock_reconstruction_benchmark_2026-10-03/inverse.py": "eca715360a74b3298b434010c98a54b0da525636af3059d60d48dff804d094e2",
+    "/home/udt-admin/udt_mass_codex/udt_clock_reconstruction_benchmark_2026-10-03/SMOKE_PLAN.md": "386db0a4733f232ff6d57b6ea1f7e538e75989cdb734cb53d97416c7b9e06b8b",
+    "/home/udt-admin/udt_mass_codex/udt_clock_reconstruction_benchmark_2026-10-03/smoke.py": "afbdffcc9c61bcc673a2fc8ed24e1068b1c783d8e2597502d1d05bf71be2d791"
+  }
+}

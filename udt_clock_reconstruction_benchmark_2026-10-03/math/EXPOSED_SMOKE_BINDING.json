@@ -1,0 +1,21 @@
+{
+  "utc": "2026-10-03T04:59:52.286929+00:00",
+  "stage": "before main output exposure; not final attestation",
+  "sha256": {
+    "udt_clock_reconstruction_benchmark_2026-10-03/RUN_PLAN.md": "7aa0ae2a9f6402294873fb470bf4f04cc3982e39c280d333dfd7de348ebe6943",
+    "udt_clock_reconstruction_benchmark_2026-10-03/forward.py": "1a893b30009b56f6a9089221cb2e87aafe4e161694888fac5b8591d2dd00ceda",
+    "udt_clock_reconstruction_benchmark_2026-10-03/inverse.py": "eca715360a74b3298b434010c98a54b0da525636af3059d60d48dff804d094e2",
+    "udt_clock_reconstruction_benchmark_2026-10-03/smoke.py": "afbdffcc9c61bcc673a2fc8ed24e1068b1c783d8e2597502d1d05bf71be2d791",
+    "udt_clock_reconstruction_benchmark_2026-10-03/SMOKE_PLAN.md": "386db0a4733f232ff6d57b6ea1f7e538e75989cdb734cb53d97416c7b9e06b8b",
+    "udt_clock_reconstruction_benchmark_2026-10-03/smoke/RESULT.json": "0ca638420a4e53ede8f8b6daca45a1f3f3c6e32e3c09763fb0d75fb1efc8b5e3",
+    "udt_clock_reconstruction_benchmark_2026-10-03/smoke/forward_checks.json": "fa59fb0fbc71c7216051c4537dea4cbf805c01b40e31ffd8725dbbc4936c6f4c",
+    "udt_clock_reconstruction_benchmark_2026-10-03/smoke/observations.json": "a12ce67dbe9bbca3faab3e1386e6e756d2d870d10d727c6055d3239c657bb367",
+    "udt_clock_reconstruction_benchmark_2026-10-03/smoke/inverse.json": "38dc2e9a6e0003004daee574d380e923241d4f940ce8d1a54945748250ff4d07",
+    "udt_clock_reconstruction_benchmark_2026-10-03/math/EXPOSED_IMPLEMENTATION_REVIEW.md": "bfe16cb56391d6b05c562fd2392432749271b27ae77692af9c2b68c04ab3fd56",
+    "udt_clock_reconstruction_benchmark_2026-10-03/math/exposed_smoke_check.py": "b0c9b7c4a0ac26b7c8dfc41cf5e8fc38d24e3b9d00650a5c2a9e9641fcfd84fa",
+    "udt_clock_reconstruction_benchmark_2026-10-03/math/EXPOSED_SMOKE_CHECK.json": "c66a04e8261cf1c0c7da90f806dcaff35981aa2c869253510286ae04852302cf",
+    "udt_clock_reconstruction_benchmark_2026-10-03/math/exposed_smoke_capture.stdout": "47dad6625cfca74e0b8f10784a16cb2dbed6624fba196aebd6f5ecee945865a8",
+    "udt_clock_reconstruction_benchmark_2026-10-03/math/exposed_smoke_capture.stderr": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "udt_clock_reconstruction_benchmark_2026-10-03/math/exposed_smoke_capture.json": "c1cd831c790fd5997dd0809f035d84ca4372e51a10ce5809ba8a4e6fc3ea36b0"
+  }
+}

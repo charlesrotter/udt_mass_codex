@@ -1,0 +1,282 @@
+{
+  "status": "PASS independent saved-smoke replay",
+  "forward": [
+    {
+      "t": 0.0,
+      "L": 0.02,
+      "kind": "rest",
+      "parent_log": 2.4000001435179875e-07,
+      "independent_log": 2.400000143723668e-07,
+      "error": 2.0568024602143345e-17
+    },
+    {
+      "t": 0.0,
+      "L": 0.02,
+      "kind": "boost_long",
+      "parent_log": 6.599998654007473e-07,
+      "independent_log": 6.599998656744843e-07,
+      "error": 2.737369081135931e-16
+    },
+    {
+      "t": 0.0,
+      "L": 0.02,
+      "kind": "boost_trans",
+      "parent_log": 4.687499756616402e-07,
+      "independent_log": 4.687499757726735e-07,
+      "error": 1.1103326095127076e-16
+    },
+    {
+      "t": 0.0,
+      "L": 0.01,
+      "kind": "rest",
+      "parent_log": 3.0000000267675875e-08,
+      "independent_log": 3.000000025585428e-08,
+      "error": 1.1821595476019941e-17
+    },
+    {
+      "t": 0.0,
+      "L": 0.01,
+      "kind": "boost_long",
+      "parent_log": 8.249999801675207e-08,
+      "independent_log": 8.249999764979599e-08,
+      "error": 3.669560868022607e-16
+    },
+    {
+      "t": 0.0,
+      "L": 0.01,
+      "kind": "boost_trans",
+      "parent_log": 5.859374959435371e-08,
+      "independent_log": 5.859374968976345e-08,
+      "error": 9.540973823916519e-17
+    },
+    {
+      "t": 0.0,
+      "L": 0.005,
+      "kind": "rest",
+      "parent_log": 3.750000095263037e-09,
+      "independent_log": 3.750000081200536e-09,
+      "error": 1.4062500547319998e-17
+    },
+    {
+      "t": 0.0,
+      "L": 0.005,
+      "kind": "boost_long",
+      "parent_log": 1.031249957416627e-08,
+      "independent_log": 1.0312499689863226e-08,
+      "error": 1.156969565300427e-16
+    },
+    {
+      "t": 0.0,
+      "L": 0.005,
+      "kind": "boost_trans",
+      "parent_log": 7.324218753502239e-09,
+      "independent_log": 7.324218760197187e-09,
+      "error": 6.694947587917377e-18
+    },
+    {
+      "t": 0.05,
+      "L": 0.02,
+      "kind": "rest",
+      "parent_log": 2.03998907037296e-06,
+      "independent_log": 2.0399890707798314e-06,
+      "error": 4.068714291806559e-16
+    },
+    {
+      "t": 0.05,
+      "L": 0.02,
+      "kind": "boost_long",
+      "parent_log": 2.459973887425348e-06,
+      "independent_log": 2.459973887100369e-06,
+      "error": 3.2497901329068928e-16
+    },
+    {
+      "t": 0.05,
+      "L": 0.02,
+      "kind": "boost_trans",
+      "parent_log": 3.281213559200101e-06,
+      "independent_log": 3.281213558921213e-06,
+      "error": 2.7888813898232015e-16
+    },
+    {
+      "t": 0.05,
+      "L": 0.01,
+      "kind": "rest",
+      "parent_log": 4.799978188740956e-07,
+      "independent_log": 4.799978186453735e-07,
+      "error": 2.287220832855922e-16
+    },
+    {
+      "t": 0.05,
+      "L": 0.01,
+      "kind": "boost_long",
+      "parent_log": 5.324965423124656e-07,
+      "independent_log": 5.324965423039769e-07,
+      "error": 8.488752439145784e-18
+    },
+    {
+      "t": 0.05,
+      "L": 0.01,
+      "kind": "boost_trans",
+      "parent_log": 7.617125219420166e-07,
+      "independent_log": 7.617125218333204e-07,
+      "error": 1.0869624411023694e-16
+    },
+    {
+      "t": 0.05,
+      "L": 0.005,
+      "kind": "rest",
+      "parent_log": 1.1624951872303689e-07,
+      "independent_log": 1.1624951813822008e-07,
+      "error": 5.848168121889988e-16
+    },
+    {
+      "t": 0.05,
+      "L": 0.005,
+      "kind": "boost_long",
+      "parent_log": 1.228118915594734e-07,
+      "independent_log": 1.2281189221955214e-07,
+      "error": 6.600787468120874e-16
+    },
+    {
+      "t": 0.05,
+      "L": 0.005,
+      "kind": "boost_trans",
+      "parent_log": 1.831042044157745e-07,
+      "independent_log": 1.83104204133048e-07,
+      "error": 2.827264952525826e-16
+    },
+    {
+      "t": -0.05,
+      "L": 0.02,
+      "kind": "rest",
+      "parent_log": -1.5600041613473704e-06,
+      "independent_log": -1.560004161073361e-06,
+      "error": 2.740094409643722e-16
+    },
+    {
+      "t": -0.05,
+      "L": 0.02,
+      "kind": "boost_long",
+      "parent_log": -1.1400029446047948e-06,
+      "independent_log": -1.140002944367123e-06,
+      "error": 2.376719392853995e-16
+    },
+    {
+      "t": -0.05,
+      "L": 0.02,
+      "kind": "boost_trans",
+      "parent_log": -2.343756690632296e-06,
+      "independent_log": -2.343756690851689e-06,
+      "error": 2.1939296828365172e-16
+    },
+    {
+      "t": -0.05,
+      "L": 0.01,
+      "kind": "rest",
+      "parent_log": -4.200012947565311e-07,
+      "independent_log": -4.200012946808674e-07,
+      "error": 7.566370617277294e-17
+    },
+    {
+      "t": -0.05,
+      "L": 0.01,
+      "kind": "boost_long",
+      "parent_log": -3.6750087757750884e-07,
+      "independent_log": -3.675008779782228e-07,
+      "error": 4.0071397611015e-16
+    },
+    {
+      "t": -0.05,
+      "L": 0.01,
+      "kind": "boost_trans",
+      "parent_log": -6.445338062228148e-07,
+      "independent_log": -6.44533806315705e-07,
+      "error": 9.289018579799807e-17
+    },
+    {
+      "t": -0.05,
+      "L": 0.005,
+      "kind": "rest",
+      "parent_log": -1.0875036887266257e-07,
+      "independent_log": -1.0875036973861526e-07,
+      "error": 8.65952698680646e-16
+    },
+    {
+      "t": -0.05,
+      "L": 0.005,
+      "kind": "boost_long",
+      "parent_log": -1.021877954878572e-07,
+      "independent_log": -1.0218779567285253e-07,
+      "error": 1.84995330872569e-16
+    },
+    {
+      "t": -0.05,
+      "L": 0.005,
+      "kind": "boost_trans",
+      "parent_log": -1.6845783831001947e-07,
+      "independent_log": -1.6845783832356998e-07,
+      "error": 1.3550515452819076e-17
+    }
+  ],
+  "inverse": [
+    {
+      "case": "cubic_control_False",
+      "h": 0.05,
+      "L_small": 0.005,
+      "R_error": 1.734723475976807e-18,
+      "Q_error": 6.938893903907228e-15
+    },
+    {
+      "case": "cubic_control_False",
+      "h": 0.05,
+      "L_small": 0.01,
+      "R_error": 6.938893903907228e-18,
+      "Q_error": 9.159339953157541e-14
+    },
+    {
+      "case": "cubic_control_True",
+      "h": 0.05,
+      "L_small": 0.005,
+      "R_error": 1.734723475976807e-18,
+      "Q_error": 1.5265566588595902e-14
+    },
+    {
+      "case": "cubic_control_True",
+      "h": 0.05,
+      "L_small": 0.01,
+      "R_error": 6.938893903907228e-18,
+      "Q_error": 5.2735593669694936e-14
+    },
+    {
+      "case": "flat_False",
+      "h": 0.05,
+      "L_small": 0.005,
+      "R_error": 0.0,
+      "Q_error": 0.0
+    },
+    {
+      "case": "flat_False",
+      "h": 0.05,
+      "L_small": 0.01,
+      "R_error": 0.0,
+      "Q_error": 0.0
+    },
+    {
+      "case": "flat_True",
+      "h": 0.05,
+      "L_small": 0.005,
+      "R_error": 0.0,
+      "Q_error": 0.0
+    },
+    {
+      "case": "flat_True",
+      "h": 0.05,
+      "L_small": 0.01,
+      "R_error": 0.0,
+      "Q_error": 0.0
+    }
+  ],
+  "parent_imports": false,
+  "own_prior_source_import": "math/source_first_check.py",
+  "limits": "Shared Python, NumPy/SciPy libraries and model. Independently authored direct-coordinate solve and weighted scalar/Box reconstruction. No main outcomes exposed."
+}

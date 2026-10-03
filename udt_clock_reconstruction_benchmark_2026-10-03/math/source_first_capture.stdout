@@ -1,0 +1,1 @@
+{"status": "PASS finite independent controls; no parent implementation exposed", "moving_errors": [0.00412358787093825, 0.002062881454709675, 0.0010315876160147397, 0.0005158148722181899, 0.00025791069800296107], "frequency_difference": 2.2670754162845697e-12, "flat_max": 0.0, "exact_max": 0.0}

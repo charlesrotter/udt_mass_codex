@@ -1,0 +1,19 @@
+{
+  "command": [
+    "python3",
+    "udt_clock_reconstruction_benchmark_2026-10-03/math/main_inverse_check.py"
+  ],
+  "cwd": "/home/udt-admin/udt_mass_codex",
+  "started_utc": "2026-10-03T05:05:23.340649+00:00",
+  "duration_seconds": 0.17504254099912941,
+  "returncode": 0,
+  "wall_timeout_seconds": null,
+  "cpu_timeout_seconds": null,
+  "address_space_bytes": 2147483648,
+  "memory_scope": "Process virtual address limit",
+  "maxrss_kib": 54612,
+  "forwarded_signals": [],
+  "stdout_sha256": "16d96321918e02ff361e691f33026e70fc66bd38d4070cede0fcb050152d8f1d",
+  "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "capture_sha256": "217cdbac5486e8a531552f4d74a15ce641299b65dafb5d58f7b60f4ba51781bc"
+}

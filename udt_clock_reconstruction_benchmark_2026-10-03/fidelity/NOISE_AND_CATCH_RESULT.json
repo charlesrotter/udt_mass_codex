@@ -1,0 +1,56 @@
+{
+  "scope": "Saved-clock independent replay/noise/catches before oracle exposure",
+  "python": "3.10.12",
+  "noise_results": [
+    {
+      "epsilon": "1e-14",
+      "max_R_fraction": "0.57126612097506066530010788822342531507841060606040",
+      "max_Q_fraction": "0.28689193943903049179553915794791846340636815084173",
+      "finest_Q_change": "0.000105705808564813661709547782447455372473792734",
+      "finest_Q_bound": "0.00059400000000000000000000000000000000000000000000008"
+    },
+    {
+      "epsilon": "1e-12",
+      "max_R_fraction": "0.57126612302467125371792105436405753894519853535333",
+      "max_Q_fraction": "0.28689193995721628565921092355266009050565486976429",
+      "finest_Q_change": "0.010570580856542540772700922158122693872428497949",
+      "finest_Q_bound": "0.059400000000000000000000000000000000000000000000008"
+    },
+    {
+      "epsilon": "1e-10",
+      "max_R_fraction": "0.57126612301629598967155698479369623565565017015131",
+      "max_Q_fraction": "0.28689193994784441906173769776592397454695663206893",
+      "finest_Q_change": "1.057058085647666043235892102063960212237563810327",
+      "finest_Q_bound": "5.9400000000000000000000000000000000000000000000008"
+    }
+  ],
+  "adversarial": {
+    "signed_Q_change": "0.05940000000001276093388266228909055932660976396789",
+    "direct_absolute_weight_bound": "0.059400000000000000000000000000000000000000000000008",
+    "attained_fraction": "1.0000000000002148305367451563819959482594236358229",
+    "parent_raw_exact_match": true,
+    "parent_inverse_comparison": {
+      "max_event_difference": {
+        "R": "2.57035701100954825566446970697142948E-18",
+        "Q": "1.533932909418209290464130134523657689E-14",
+        "R_noise_bound": "0",
+        "Q_noise_bound": "0"
+      },
+      "max_parameter_scaled_difference": "0"
+    }
+  },
+  "one_record_mutation": {
+    "R_change": "1.4933333333333332512429178450596873687731639771906",
+    "Q_change": "-3733.3333333333331281072946126492184219329099429789",
+    "predicted_R": "1.4933333333333332512429178450596873687731639771907",
+    "predicted_Q": "-3733.3333333333331281072946126492184219329099429768"
+  },
+  "undeclared_oracle_guard_rejected": true,
+  "sha256": {
+    "main/fine/observations.json": "04b4d3ee284ed2f88b83963b4163c0e0add5db0c9bd24d12ee625fb03a4b6d63",
+    "main/adversarial_observations.json": "fdca8affbef67c9b144293afa90f0996e97710fd059c1d4c4a1244c5a6df3d7d",
+    "main/adversarial_inverse.json": "f6eda72408c51304a5b8981d616aee1b1aac6c05f68829a57243be38d4fde724",
+    "fidelity/replay_inverse.py": "0aaf494f59796dce866f4fb71d0b6437d8cf2d2f96581fb635e6367457542ecc",
+    "fidelity/check_noise_and_catches.py": "be9b4581f1c45bd1d74a75d6a70d549809fc6476b3127eab69daf7938e2ab24d"
+  }
+}

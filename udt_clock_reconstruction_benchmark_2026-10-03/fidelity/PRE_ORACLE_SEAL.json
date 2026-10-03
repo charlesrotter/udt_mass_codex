@@ -1,0 +1,15 @@
+{
+  "sealed_utc": "2026-10-03T05:05:07.144736+00:00",
+  "exposure": "Main public clock records, inverse reference outputs, adversarial raw records only; no oracle/EVALUATION/metric_a_only or other reviewer outputs read",
+  "sha256": {
+    "udt_clock_reconstruction_benchmark_2026-10-03/fidelity/EXPOSED_PLAN.md": "c7a435b143fa5853b3446c9875a3e7a9e535d193b7e25d9c2263dceeab421422",
+    "udt_clock_reconstruction_benchmark_2026-10-03/fidelity/NOISE_AND_CATCH_RESULT.json": "d7e6de2327a70f0f395e1190eb805c34ad2c77236d89ad14f200db81370e1aa9",
+    "udt_clock_reconstruction_benchmark_2026-10-03/fidelity/REPLAY_coarse_clean.json": "b67f2857c35c80d864a1d01e9e920bab245dbe21c3203ec5fd564371d173cba4",
+    "udt_clock_reconstruction_benchmark_2026-10-03/fidelity/REPLAY_fine_clean.json": "a6ffde0c9e560ab791aa15c7818e911e26b9b2f97ce1bfa36eb0a0dfeee056ce",
+    "udt_clock_reconstruction_benchmark_2026-10-03/fidelity/REPLAY_fine_noise_1e-10.json": "a4cae2016ca57cf8df9bce5c8b1b3a7f2f60aaf83b2e6ccdfc26319e54cb6d06",
+    "udt_clock_reconstruction_benchmark_2026-10-03/fidelity/REPLAY_fine_noise_1e-12.json": "0b4b4ebd71f640a070e6cd782ec4e14bb85bdde7e641ea8f833e12dcdbc115d3",
+    "udt_clock_reconstruction_benchmark_2026-10-03/fidelity/REPLAY_fine_noise_1e-14.json": "832ed0b3767115e162d7fd1da3ddc2d9547d529fb1ca247565370b8332155dcc",
+    "udt_clock_reconstruction_benchmark_2026-10-03/fidelity/check_noise_and_catches.py": "be9b4581f1c45bd1d74a75d6a70d549809fc6476b3127eab69daf7938e2ab24d",
+    "udt_clock_reconstruction_benchmark_2026-10-03/fidelity/replay_inverse.py": "0aaf494f59796dce866f4fb71d0b6437d8cf2d2f96581fb635e6367457542ecc"
+  }
+}

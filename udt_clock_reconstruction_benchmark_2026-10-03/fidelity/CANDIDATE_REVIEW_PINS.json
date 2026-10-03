@@ -1,0 +1,25 @@
+{
+  "created_utc": "2026-10-03T05:09:31.087333+00:00",
+  "verdict": "VERIFIED-WITH-CAVEATS; finite benchmark only, final central integration pending",
+  "sha256": {
+    "udt_clock_reconstruction_benchmark_2026-10-03/INITIAL_RESULT.md": "384fda04104cb7756b7d4c29b68ee4cea3a4e95bafc2e13b7b098809be21009b",
+    "udt_clock_reconstruction_benchmark_2026-10-03/DESCENDANT_REVIEW.md": "ca7ef1038196bfc988c5d9ead0678c09c29c9ea038564fb4d2e648fcde78d407",
+    "udt_clock_reconstruction_benchmark_2026-10-03/RUN_PLAN.md": "7aa0ae2a9f6402294873fb470bf4f04cc3982e39c280d333dfd7de348ebe6943",
+    "udt_clock_reconstruction_benchmark_2026-10-03/RUN_FREEZE.json": "db32b1002a6c7873f0808415ee796c2e97a62ebecaded0520592af147c8c482c",
+    "udt_clock_reconstruction_benchmark_2026-10-03/forward.py": "1a893b30009b56f6a9089221cb2e87aafe4e161694888fac5b8591d2dd00ceda",
+    "udt_clock_reconstruction_benchmark_2026-10-03/inverse.py": "eca715360a74b3298b434010c98a54b0da525636af3059d60d48dff804d094e2",
+    "udt_clock_reconstruction_benchmark_2026-10-03/run_main.py": "4e1726314f96f5fb40e0956126be08e83acb0e3218f05e8ffa8b91299f428ff3",
+    "udt_clock_reconstruction_benchmark_2026-10-03/evaluate_main.py": "66a6a848deaa83ab8cb761c0a47c563113a56a7ff056ef1d8a60b2d111ec9e53",
+    "udt_clock_reconstruction_benchmark_2026-10-03/main/coarse/observations.json": "e5321e785e06c03e9754dc361730fb825d968d0676fcf6de5480c3706b8b7cc8",
+    "udt_clock_reconstruction_benchmark_2026-10-03/main/fine/observations.json": "04b4d3ee284ed2f88b83963b4163c0e0add5db0c9bd24d12ee625fb03a4b6d63",
+    "udt_clock_reconstruction_benchmark_2026-10-03/main/coarse/forward_details.json": "80b9842e08392937f16c58f538587d191a54a6fdf954ec8d211c0980f35776f4",
+    "udt_clock_reconstruction_benchmark_2026-10-03/main/fine/forward_details.json": "0f7eaeae689870f45f14c0226363143cccf7dcebdc0e6bdb9c6c6c6b1bbbd954",
+    "udt_clock_reconstruction_benchmark_2026-10-03/main/EVALUATION.json": "d700a683bcb4f6a9273e5d99a7f96e854bdf04d662d650173a1f24284d9dec5b",
+    "udt_clock_reconstruction_benchmark_2026-10-03/main/oracle.json": "1e8910c3ebe9ce7b7f155aab48e4a5990f9c083b61407e0f835f91e060542f1e",
+    "udt_clock_reconstruction_benchmark_2026-10-03/fidelity/CANDIDATE_REVIEW.md": "d4d0752902c9b290d94475a385dc9d707f41795245403990a977be1efc80843c",
+    "udt_clock_reconstruction_benchmark_2026-10-03/fidelity/EXPOSED_PLAN.md": "c7a435b143fa5853b3446c9875a3e7a9e535d193b7e25d9c2263dceeab421422",
+    "udt_clock_reconstruction_benchmark_2026-10-03/fidelity/EXPOSED_CORRESPONDENCE_RESULT.json": "d578586a0b6b60fad72d9af585d4bcd375eee5a8ef49a4408d4ee99b5f6047a0",
+    "udt_clock_reconstruction_benchmark_2026-10-03/fidelity/NOISE_AND_CATCH_RESULT.json": "d7e6de2327a70f0f395e1190eb805c34ad2c77236d89ad14f200db81370e1aa9",
+    "udt_clock_reconstruction_benchmark_2026-10-03/fidelity/PRE_ORACLE_SEAL.json": "02dc41e55d75c23ddeda4f3e60e97ce8cd4f822f5cd02aa8ac5a53d0986842e3"
+  }
+}

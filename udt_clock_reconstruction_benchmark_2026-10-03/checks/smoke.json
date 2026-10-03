@@ -1,0 +1,19 @@
+{
+  "command": [
+    "python3",
+    "udt_clock_reconstruction_benchmark_2026-10-03/smoke.py"
+  ],
+  "cwd": "/home/udt-admin/udt_mass_codex",
+  "started_utc": "2026-10-03T04:48:24.919237+00:00",
+  "duration_seconds": 0.67160534003051,
+  "returncode": 0,
+  "wall_timeout_seconds": null,
+  "cpu_timeout_seconds": null,
+  "address_space_bytes": 2147483648,
+  "memory_scope": "Process virtual address limit",
+  "maxrss_kib": 81968,
+  "forwarded_signals": [],
+  "stdout_sha256": "0ca638420a4e53ede8f8b6daca45a1f3f3c6e32e3c09763fb0d75fb1efc8b5e3",
+  "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "capture_sha256": "217cdbac5486e8a531552f4d74a15ce641299b65dafb5d58f7b60f4ba51781bc"
+}

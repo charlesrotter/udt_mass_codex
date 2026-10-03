@@ -5,7 +5,7 @@ This bounded startup view is generated from its opening; edit that source.
 LIVE.md owns operational status; CURRENT_SCIENTIFIC_PREMISES.tsv owns exact grades.
 
 <!-- GENERATED_DEVELOPMENT_BEGIN -->
-**Continuous development — CDR1 with SGE1, LKT1, GCA1, PCW1, CES1, CCR1, PRI1, TRI1, NGD1, TDS1, TPP1, TPS1, PSW1, FPC1, FNA1, FST1, ECS1, PCC1, ERC1, RCD1, PSC1 and CMF1, 2026-10-02.** This is the maintained
+**Continuous development — CDR1 with SGE1, LKT1, GCA1, PCW1, CES1, CCR1, PRI1, TRI1, NGD1, TDS1, TPP1, TPS1, PSW1, FPC1, FNA1, FST1, ECS1, PCC1, ERC1, RCD1, PSC1, CMF1 and CBR1, 2026-10-03.** This is the maintained
 scientific development. It is not canon or a new scientific-grade authority.
 The exact registry and reviewed sources own grades; LIVE owns operational status.
 Current review bindings and limits are recorded in section9; startup reads the
@@ -179,6 +179,13 @@ a necessary test without an adjustable background family; it does not verify
 the full tensor equation or establish source-free applicability. Practical
 precision, informative physical preparation and positional attribution remain
 OPEN. This is a conditional test protocol, not a measured UDT result or adoption.
+CBR1 completes the proposed finite CPU benchmark: actual prepared-clock records
+recover the scalar/Box diagnostic on supplied symmetric control geometries, with
+held-out discrimination, a retained scalar false pass and severe fixed-noise
+amplification. The inverse uses no response equation; its positive forward metric
+is nevertheless equation-generated. This validates a finite numerical diagnostic,
+not an atomic-clock anomaly, experimental feasibility or native UDT law. The
+response/positional-attribution question remains open; no successor starts here.
 <!-- GENERATED_DEVELOPMENT_END -->
 
 ## Current next gate

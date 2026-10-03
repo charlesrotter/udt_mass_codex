@@ -1,0 +1,23 @@
+{
+  "command": [
+    "python3",
+    "udt_clock_reconstruction_benchmark_2026-10-03/fidelity/replay_inverse.py",
+    "udt_clock_reconstruction_benchmark_2026-10-03/smoke/observations.json",
+    "udt_clock_reconstruction_benchmark_2026-10-03/fidelity/SMOKE_REPLAY.json",
+    "--reference",
+    "udt_clock_reconstruction_benchmark_2026-10-03/smoke/inverse.json"
+  ],
+  "cwd": "/home/udt-admin/udt_mass_codex",
+  "started_utc": "2026-10-03T05:00:01.204621+00:00",
+  "duration_seconds": 0.036533083009999245,
+  "returncode": 0,
+  "wall_timeout_seconds": null,
+  "cpu_timeout_seconds": null,
+  "address_space_bytes": 2147483648,
+  "memory_scope": "Process virtual address limit",
+  "maxrss_kib": 18632,
+  "forwarded_signals": [],
+  "stdout_sha256": "6ced421eaa12a1fe305ffee424541901bd5ec841e38b83d50d215ca50dc57643",
+  "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "capture_sha256": "217cdbac5486e8a531552f4d74a15ce641299b65dafb5d58f7b60f4ba51781bc"
+}

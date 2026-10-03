@@ -1,30 +1,31 @@
 # LIVE — operational status
 
 <!-- STARTUP_CURRENT_BEGIN -->
-## CURRENT STATE — CMF1 curvature measurement feasibility after PSC1, 2026-10-02
+## CURRENT STATE — CBR1 finite clock-reconstruction return, 2026-10-03
 
 CDR1 remains the central-development architecture; exact grades stay in
 CURRENT_SCIENTIFIC_PREMISES.tsv. LIVE.md owns status. Verify grok HEAD, remote,
-dirt and actual host state. Charles authorized the bounded feasibility study,
-analytic checks, two fresh reviews and one source-preserving precision pass,
-central integration and lay return. Fixed evidence is under
-`udt_curvature_measurement_feasibility_2026-10-02/`. UDT_DEVELOPMENT.md
-R8CMF/R17CMF/R18 owns the maintained argument. No equation, source, scale,
-entropy, registry grade or CANON adoption is made.
+dirt and actual host state. Charles clarified that the atomic-clock paraphrase
+was not a specific goal and authorized the recommended next step: the bounded
+CPU reconstruction benchmark, normal checks, two fresh reviews, integration and
+lay return. Fixed evidence is under `udt_clock_reconstruction_benchmark_2026-10-03/`;
+UDT_DEVELOPMENT.md R8CBR/R17CBR/R18 owns the maintained argument. No physical
+equation, source, scale, registry grade or CANON adoption is made.
 
-Short exact CPU checks and actual source-first/exposed reviews support this
-conditional return. The initial parse failure and scoped clarification are
-preserved. Actual final reports/attestations and normal/maintenance/full406
-receipts own acceptance/pass status. No GPU, evolution, observational fit,
-hardware experiment or paused source/carrier campaign ran. No-timeout direction
-persists with finite/resource/manual stops. Preserve all protected payloads.
+The finite main benchmark and its14 parent gates completed, with independent
+forward/tensor/inverse checks. Source-first and exposed reviews retain their
+actual scope. Final attestations and normal/maintenance/full406 receipts own
+acceptance/pass status. No GPU, empirical fit, hardware experiment or paused
+source/carrier campaign ran. No-timeout direction persists with finite/resource/
+manual stops. Preserve protected payloads and existing unrelated untracked work.
 
-Next: Stop for lay discussion of CMF1. No successor has started automatically;
-the proposed small CPU measurement-reconstruction benchmark needs its own scope.
-Physical/native applicability remains open. Later sessions must verify processes.
-Bindings remain in development_reconstruction_2026-09-29. TPS1 raw fields/large
-streams remain local-only; remote compact records cannot replay raw-dependent
-checks. ERC1 small arrays remain banked.
+Next: Stop for lay discussion of CBR1. The numerical diagnostic step is complete;
+its decision brief returns the physical/native connection without launching a
+successor. A clock anomaly is not the project objective. Later sessions must
+verify processes. Bindings remain in development_reconstruction_2026-09-29.
+TPS1 raw fields/large streams remain local-only; remote compact records cannot
+replay raw-dependent checks. ERC1 and CBR1 small numerical artifacts are banked
+only when the actual commit/push and exact-byte checks have completed.
 
 ### Honest claim
 
@@ -57,10 +58,10 @@ Protected: do not inspect, hash, stage, modify, mine or cite payloads without di
 
 ### Next gate
 
-Stop for lay discussion at CMF1's conditional feasibility return. Use central
-R8CMF/R17CMF/R18 and the CMF1 decision brief. No physical experiment, source-free
-certificate, full tensor validation or native law follows from the ideal protocol.
-No automatic GPU/data campaign or successor. Existing pauses/protected boundaries
-remain; verify actual processes before claiming host state.
+Stop for lay discussion at CBR1's conditional numerical return. Use central
+R8CBR/R17CBR/R18 and the CBR1 decision brief. The response/positional-attribution
+question remains open. No automatic successor, GPU/data campaign, hardware
+experiment or premise adoption. Existing pauses/protected boundaries remain;
+verify actual processes before claiming host state.
 
 <!-- STARTUP_CURRENT_END -->

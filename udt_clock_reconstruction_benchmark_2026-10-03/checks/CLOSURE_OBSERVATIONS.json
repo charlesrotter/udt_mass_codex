@@ -1,0 +1,22 @@
+{
+  "recorded_utc": "2026-10-03 05:24:54 UTC",
+  "host_sample": {
+    "command": "ps -C python,python3,torchrun -o pid,ppid,comm,etime,args",
+    "execution": "Actual host outside sandbox",
+    "returncode": 1,
+    "stdout": "    PID    PPID COMMAND             ELAPSED COMMAND\n",
+    "scope": "No processes with these command names at the sample instant; not a claim about every possible executable."
+  },
+  "remote_refresh": {
+    "command": "git fetch origin",
+    "execution": "Outside sandbox after read-only FETCH_HEAD denial",
+    "returncode": 0,
+    "head_and_origin_grok": "770c392465fac5e444f21bd2f7adabfaf5aabdb4"
+  },
+  "checks": {
+    "normal": "PASS",
+    "maintenance": "57 tests PASS",
+    "full406": "PASS; captured duration 408.83002979599405 seconds"
+  },
+  "limits": "Recorded tool observations; named captured check receipts and final git verification own the exact outputs. No new scientific claim."
+}

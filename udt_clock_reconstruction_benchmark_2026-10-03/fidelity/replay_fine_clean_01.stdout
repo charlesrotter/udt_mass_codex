@@ -1,0 +1,20 @@
+{
+  "epsilon": 0.0,
+  "seed": 1729,
+  "scope": "Independent exposed Decimal raw-linear-weight inverse, no oracle",
+  "python": "3.10.12",
+  "decimal_precision": 50,
+  "input_sha256": "04b4d3ee284ed2f88b83963b4163c0e0add5db0c9bd24d12ee625fb03a4b6d63",
+  "code_sha256": "0aaf494f59796dce866f4fb71d0b6437d8cf2d2f96581fb635e6367457542ecc",
+  "record_count": 25515,
+  "comparison": {
+    "max_event_difference": {
+      "R": "1.01757969034207557494179733718435008E-15",
+      "Q": "9.80557168256677202909562159523678572E-12",
+      "R_noise_bound": "0",
+      "Q_noise_bound": "0"
+    },
+    "max_parameter_scaled_difference": "8.2001717642356597345087506286759666029741095885184E-10"
+  },
+  "reference_sha256": "6a2c561880fc3028e07b529ebdb8a0ed93c0f9be648528cb195dbe61d1c09830"
+}
