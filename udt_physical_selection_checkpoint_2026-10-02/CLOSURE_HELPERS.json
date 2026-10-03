@@ -1,0 +1,14 @@
+{
+  "scope": "Late closure command record; actual receipts own passes. Existing helpers adapted with explicit PSC1 paths and reviewer IDs. No science rerun.",
+  "commands": [
+    "python3 udt_physical_selection_checkpoint_2026-10-02/bind_review.py",
+    "python3 udt_time_live_production_survey_2026-10-01/capture.py udt_physical_selection_checkpoint_2026-10-02/checks/final_normal_bound python3 verify_udt_development.py",
+    "python3 udt_time_live_production_survey_2026-10-01/capture.py udt_physical_selection_checkpoint_2026-10-02/checks/final_maintenance python3 development_reconstruction_2026-09-29/checks/test_maintenance.py",
+    "python3 udt_time_live_production_survey_2026-10-01/capture.py udt_physical_selection_checkpoint_2026-10-02/checks/final_premises_windowed env GIT_CONFIG_COUNT=2 GIT_CONFIG_KEY_0=core.packedGitWindowSize GIT_CONFIG_VALUE_0=32m GIT_CONFIG_KEY_1=core.packedGitLimit GIT_CONFIG_VALUE_1=128m python3 verify_current_scientific_premises.py"
+  ],
+  "sha256": {
+    "udt_physical_selection_checkpoint_2026-10-02/bind_review.py": "00c422918cc0d60dc3b1a7eefbbf3bf8fe3d01eabc976491ab39db205388b3d4",
+    "udt_physical_selection_checkpoint_2026-10-02/bank.py": "8cd30bd77f4e68949e34de21aaf0d57f5f97c3c0ab8ca28c3435cd12072a11ba",
+    "udt_physical_selection_checkpoint_2026-10-02/verify_commit.py": "7d790f9744de1ea0281816fd57ef6489ad6800315d12f3729af7790a797870ed"
+  }
+}

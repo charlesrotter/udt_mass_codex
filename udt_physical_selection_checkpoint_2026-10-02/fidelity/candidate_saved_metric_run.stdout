@@ -1,0 +1,61 @@
+{
+  "status": "PASS",
+  "python": "3.10.12",
+  "library": "stdlib fractions; no parent helper imports",
+  "source_sha256": "07800c4f44ecdeed39e950e1615517eb1d68a7bdaeeab200744170f15b518d64",
+  "rows": [
+    {
+      "name": "quadratic",
+      "alpha_from_tensor": "1",
+      "beta_from_tensor": "0",
+      "P0_from_metric": "3/100",
+      "original_00_coefficients": [
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "original_spatial_coefficients": [
+        "0",
+        "0"
+      ],
+      "alpha_spatial_coefficient_pair": [
+        "0",
+        "1/100"
+      ],
+      "beta_spatial_coefficient_pair": [
+        "-27/5000",
+        "0"
+      ],
+      "old_checker_error": "0",
+      "repaired_checker_error": "0"
+    },
+    {
+      "name": "cubic_completion",
+      "alpha_from_tensor": "1",
+      "beta_from_tensor": "1/10",
+      "P0_from_metric": "3/100",
+      "original_00_coefficients": [
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "original_spatial_coefficients": [
+        "0",
+        "0"
+      ],
+      "alpha_spatial_coefficient_pair": [
+        "27/50000",
+        "499271/50000000"
+      ],
+      "beta_spatial_coefficient_pair": [
+        "-27/5000",
+        "729/5000000"
+      ],
+      "old_checker_error": "243/50000000",
+      "repaired_checker_error": "0"
+    }
+  ],
+  "scope": "Exact finite metric-jet residuals; no full-interval or observed law claim"
+}

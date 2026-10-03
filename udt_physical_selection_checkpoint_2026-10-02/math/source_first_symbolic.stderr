@@ -1,0 +1,6 @@
+Traceback (most recent call last):
+  File "/home/udt-admin/udt_mass_codex/udt_physical_selection_checkpoint_2026-10-02/math/source_first_symbolic.py", line 83, in <module>
+    for j in range(4):zero(f'flat_original_linear_E_{i}{j}',s.expand(E1[i,j]).subs(shell))
+  File "/home/udt-admin/udt_mass_codex/udt_physical_selection_checkpoint_2026-10-02/math/source_first_symbolic.py", line 9, in zero
+    assert value == 0, (name, value)
+AssertionError: ('flat_original_linear_E_01', 2*alpha*k0*k1*(6*alpha*k0**2 - 6*alpha*k1**2 - 6*alpha*k2**2 - 6*alpha*k3**2 - 1))

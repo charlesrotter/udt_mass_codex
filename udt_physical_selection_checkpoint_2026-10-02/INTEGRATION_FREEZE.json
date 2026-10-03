@@ -1,24 +1,20 @@
 {
-  "status": "REVIEWED_WITH_LIMITS",
-  "utc": "2026-10-03T01:49:50.484285+00:00",
+  "utc": "2026-10-03T01:46:04.824881+00:00",
+  "base_head": "4f941d0eb5088052b0d5372772e439fc12e9ca5e",
   "scope": "PSC1 two UNADOPTED physical-selection proposals; weak response nonselection, restricted interval-pole selection, polynomial clock discriminator and horizon premise costs; no native law/source/entropy/scale adoption. Two fresh separate reviews, preserved implementation failures/repairs. Final sourced-Einstein wording and independent-arithmetic metadata clarified; initial integration and five exact previous editions preserved.",
-  "independence": "Two fresh separate source-first contexts followed by exposed actual-candidate and final correspondence reviews. Shared inherited model and SymPy plus separately authored stdlib rational implementations. Parent publication/question/preview exposure is disclosed. Original checker failures and source-preserving repairs retained; no candidate equation or physical premise adopted. No different-model, human or formal review claimed.",
-  "freeze": "udt_physical_selection_checkpoint_2026-10-02/INTEGRATION_FREEZE.json",
-  "freeze_sha256": "9cd4f58b4790df7c048785405fa268cd8d8fab849aac39cf3e04e9db5964bbe8",
-  "prior_review_record": "udt_physical_selection_checkpoint_2026-10-02/PRIOR_REVIEW_RECORD.json",
-  "prior_review_record_sha256": "c4b1df84ead083237daaba22de04102d1721e2ec117e76a1a42006e6f0583bf6",
-  "reviewers": [
-    {
-      "context": "/root/psc_math",
-      "attestation": "udt_physical_selection_checkpoint_2026-10-02/math/FINAL_ATTESTATION.json",
-      "sha256": "1b5fe25b94657d9ad2a1fa2a180cf60ba5c2e3b9acde7dc08305069d954ef3d2"
-    },
-    {
-      "context": "/root/psc_fidelity",
-      "attestation": "udt_physical_selection_checkpoint_2026-10-02/fidelity/FINAL_ATTESTATION.json",
-      "sha256": "d33a4b8aa273cdf3cf8eedbe988a65fbca930a4268a25099c4dac47ecdc9d5ce"
-    }
+  "review_state": "REVISED_INTEGRATION_REQUIRES_TWO_ACTUAL_FINAL_REVIEWS",
+  "initial_freeze": "udt_physical_selection_checkpoint_2026-10-02/INITIAL_INTEGRATION_FREEZE.json",
+  "initial_freeze_sha256": "b66bb52061148d70243ad287dab4539ad31a803824f86f7f0c251cee7553027f",
+  "changed_inherited_paths": [
+    "CURRENT_RESEARCH_PROGRAM.md",
+    "HANDOFF.md",
+    "LIVE.md",
+    "UDT_DEVELOPMENT.md",
+    "development_reconstruction_2026-09-29/DEVELOPMENT_GRAPH.json",
+    "development_reconstruction_2026-09-29/RECENT_DISPOSITIONS.tsv"
   ],
+  "inherited_unchanged_files": 12733,
+  "new_package_files": 91,
   "accepted_sha256": {
     ".gitignore": "8a2710f5923ba86b41a461e040282ecd520ce155cb17b09458e1d1d613ddeb7a",
     "AGENTS.md": "bcab9b67305e0314af9eaf25162d203660eae8f2ff4fd87d17e83588970ef38d",

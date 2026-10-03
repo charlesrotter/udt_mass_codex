@@ -1,0 +1,23 @@
+{
+  "reviewer": "/root/psc_math",
+  "utc": "2026-10-03T01:31:00.765989+00:00",
+  "stage": "source-first before new parent or peer proof/code/results",
+  "verdict": "VERIFIED-WITH-CAVEATS conditional mathematics; no physical adoption",
+  "files": {
+    "udt_physical_selection_checkpoint_2026-10-02/math/SOURCE_FIRST_PLAN.md": "d60e183179985bc30f8f9373a7a08f8cec1e2f3da009042656b59460eb05f53d",
+    "udt_physical_selection_checkpoint_2026-10-02/math/SOURCE_FIRST_REVIEW.md": "6febc08cd012567344e62c0a7ecdffb57fc954b4bdb067107fd6327925830bc7",
+    "udt_physical_selection_checkpoint_2026-10-02/math/SOURCE_PINS.json": "5409b32e9dc690369d7d394df756537f9e0e3438398abd65e5b582c79ed94b9b",
+    "udt_physical_selection_checkpoint_2026-10-02/math/source_first_fraction.json": "af2ec4877d5a10cb0170d03585f7bef95f751b6315ed8063565ea51ba788027a",
+    "udt_physical_selection_checkpoint_2026-10-02/math/source_first_fraction.py": "ca686579c6d0d812f51be224414c25ff00f5bae28a6d1cf851757a59972cd46c",
+    "udt_physical_selection_checkpoint_2026-10-02/math/source_first_fraction.stderr": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "udt_physical_selection_checkpoint_2026-10-02/math/source_first_fraction.stdout": "53144efc02b197d7ba78e1a95ab2192154afe63cda365b92fdac0559eb42b084",
+    "udt_physical_selection_checkpoint_2026-10-02/math/source_first_symbolic.initial.py": "6eae5207aa84982ad8426d151238e1e6a1d8fe3cbd3f619ba41a33c0113e5fe9",
+    "udt_physical_selection_checkpoint_2026-10-02/math/source_first_symbolic.json": "bd20012ee5cea5e1fdd226f76f165e0da96eea69bdf43b82a6dda8184af7542d",
+    "udt_physical_selection_checkpoint_2026-10-02/math/source_first_symbolic.py": "99d93349f2f10c1e7d27c5a6d074c99c63d941906925ef72bdd65bc2025934c3",
+    "udt_physical_selection_checkpoint_2026-10-02/math/source_first_symbolic.stderr": "95eea7f4fcef6e12e33044d7d9d25e4e15424ddb83d774792ad948c0ca89c58d",
+    "udt_physical_selection_checkpoint_2026-10-02/math/source_first_symbolic.stdout": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "udt_physical_selection_checkpoint_2026-10-02/math/source_first_symbolic_repaired.json": "de4fbd5601bad52287ce566c188effdccbd8b3ed8be341d15f61e5718a7069ca",
+    "udt_physical_selection_checkpoint_2026-10-02/math/source_first_symbolic_repaired.stderr": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "udt_physical_selection_checkpoint_2026-10-02/math/source_first_symbolic_repaired.stdout": "fd483d661f9412af93d99306d77e2f641925bacde48885d2fb28b88cfd2dfeb2"
+  }
+}

@@ -5,7 +5,7 @@ This bounded startup view is generated from its opening; edit that source.
 LIVE.md owns operational status; CURRENT_SCIENTIFIC_PREMISES.tsv owns exact grades.
 
 <!-- GENERATED_DEVELOPMENT_BEGIN -->
-**Continuous development — CDR1 with SGE1, LKT1, GCA1, PCW1, CES1, CCR1, PRI1, TRI1, NGD1, TDS1, TPP1, TPS1, PSW1, FPC1, FNA1, FST1, ECS1, PCC1, ERC1 and RCD1, 2026-10-01.** This is the maintained
+**Continuous development — CDR1 with SGE1, LKT1, GCA1, PCW1, CES1, CCR1, PRI1, TRI1, NGD1, TDS1, TPP1, TPS1, PSW1, FPC1, FNA1, FST1, ECS1, PCC1, ERC1, RCD1 and PSC1, 2026-10-02.** This is the maintained
 scientific development. It is not canon or a new scientific-grade authority.
 The exact registry and reviewed sources own grades; LIVE owns operational status.
 Current review bindings and limits are recorded in section9; startup reads the
@@ -161,6 +161,16 @@ Full response identity is only a sufficient route: different tensors can impose
 the same geometry equation, and native clock predictions need not first select
 a local response. Two reused separate contexts reviewed the result; fresh-context
 allocation was unavailable. The candidate remains UNADOPTED. Stop for discussion.
+PSC1 examines two UNADOPTED physical connections. A common weak scalar-curvature
+response scale does not select a nonlinear equation: a cubic-curvature completion
+shares that scale but changes the prepared clock curve. Requiring an identical
+linear pole over an admitted interval of background curvatures selects quadratic
+f only within the stipulated metric-f(R) class. That extra invariance does not
+follow from a universal law, and the backgrounds generally occupy different
+integration-constant sectors. Local horizon thermodynamics instead requires
+specified entropy/heat/temperature/production; it does not select the entropy
+function. The return retains the geometric diagnostic and recommends no adoption
+or automatic extension of the R² survey. Native implication remains open.
 <!-- GENERATED_DEVELOPMENT_END -->
 
 ## Current next gate

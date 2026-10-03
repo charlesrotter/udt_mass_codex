@@ -1,0 +1,28 @@
+{
+  "status": "PASS",
+  "source": "udt_physical_selection_checkpoint_2026-10-02/EXACT_RESULT.json",
+  "source_sha256": "07800c4f44ecdeed39e950e1615517eb1d68a7bdaeeab200744170f15b518d64",
+  "code_sha256": "084b2875b0d2ca6f5930aa1c5211185eaf57dd63ef1e47ca89a83c9bb87bc1d0",
+  "python": "3.10.12",
+  "results": [
+    {
+      "name": "quadratic",
+      "recovered_alpha": "1",
+      "recovered_beta": "0",
+      "recovered_P0": "3/100",
+      "original_spatial_constant": "0",
+      "original_spatial_linear": "0",
+      "quadratic_clock_test_defect": "0"
+    },
+    {
+      "name": "cubic_completion",
+      "recovered_alpha": "1",
+      "recovered_beta": "1/10",
+      "recovered_P0": "3/100",
+      "original_spatial_constant": "0",
+      "original_spatial_linear": "0",
+      "quadratic_clock_test_defect": "81/8000000000"
+    }
+  ],
+  "limits": "Exposed rational saved-coefficient check, no independent observation or full interval certification."
+}

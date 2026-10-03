@@ -1,0 +1,63 @@
+{
+  "status": "PASS",
+  "python": "3.10.12",
+  "saved_artifact_sha256": "07800c4f44ecdeed39e950e1615517eb1d68a7bdaeeab200744170f15b518d64",
+  "own_sealed_helper_sha256": "ca686579c6d0d812f51be224414c25ff00f5bae28a6d1cf851757a59972cd46c",
+  "parent_helpers_imported": false,
+  "results": [
+    {
+      "name": "quadratic",
+      "metric_a_through5": [
+        "1",
+        "0",
+        "0",
+        "1/1200",
+        "0",
+        "-1/144000"
+      ],
+      "original00_coefficients_0_2": [
+        "0",
+        "0",
+        "0"
+      ],
+      "original_spatial_coefficients_0_1": [
+        "0",
+        "0"
+      ],
+      "geometric_Rdot0": "3/100",
+      "alpha": "1",
+      "beta": "0",
+      "quadratic_relation_defect": "0"
+    },
+    {
+      "name": "cubic_completion",
+      "metric_a_through5": [
+        "1",
+        "0",
+        "0",
+        "1/1200",
+        "-3/1600000",
+        "-499271/72000000000"
+      ],
+      "original00_coefficients_0_2": [
+        "0",
+        "0",
+        "0"
+      ],
+      "original_spatial_coefficients_0_1": [
+        "0",
+        "0"
+      ],
+      "geometric_Rdot0": "3/100",
+      "alpha": "1",
+      "beta": "1/10",
+      "quadratic_relation_defect": "81/8000000000"
+    }
+  ],
+  "independent_original_D_linear_coefficients": {
+    "beta_c3_c4": "-93312",
+    "alpha_c5": "-1440",
+    "c3": "-12"
+  },
+  "scope": "Supported finite coefficients from saved clock jets; no later coefficients certified"
+}

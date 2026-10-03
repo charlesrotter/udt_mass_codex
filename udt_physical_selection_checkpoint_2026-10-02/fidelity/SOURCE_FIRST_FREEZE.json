@@ -1,0 +1,13 @@
+{
+  "udt_physical_selection_checkpoint_2026-10-02/WORK_ORDER.md": "7df56883083993ab36935254fdc469f9c4959b1b462d019b4415b813497a2c10",
+  "UDT_DEVELOPMENT.md": "de918cdbc8bd51d98e89b3669b86bedafecd748aa952dfd07d1dba389c3b2f4b",
+  "udt_response_clock_discriminator_2026-10-01/REVIEWED_RESULT.md": "abc46591f71f314f3aedb9de113265eebdfcea78d5c155fbbfd1ec70436cec72",
+  "udt_response_clock_discriminator_2026-10-01/REPAIR.md": "f4c20a2e07a4a8d7bfd37b7bcd0df4e70aa109c193f1ca580770ff3cd2ac5415",
+  "udt_environment_response_candidates_2026-10-01/INITIAL_DERIVATION.md": "2cb45c87f23fd12465259f43e31703a89adf281936de412274d8958bee2649b5",
+  "udt_environment_response_candidates_2026-10-01/REVIEWED_RESULT.md": "f4a27a559b600a0088bd3213b7f65a805876b2669d660929259338183a37a8f9",
+  "udt_gr_commitment_audit_2026-09-29/REVIEWED_RESULT.md": "3418a96c5de81dce9062871a1395801d887cdd7ab02159d392dd139b573ae368",
+  "udt_physical_connection_whiteboard_2026-09-30/REVIEWED_RESULT.md": "b17509671833c7319b5bdd0553679a09982265c6df2b7db5aff76aced0c33646",
+  "udt_time_live_production_survey_2026-10-01/capture.py": "217cdbac5486e8a531552f4d74a15ce641299b65dafb5d58f7b60f4ba51781bc",
+  "udt_physical_selection_checkpoint_2026-10-02/fidelity/SOURCE_FIRST_PLAN.md": "6f0cf2a62118eb3c8521d51538db4ebf136ea73052785729d8c2cb4582c8745b",
+  "udt_physical_selection_checkpoint_2026-10-02/fidelity/source_first_check.py": "f6c6bfee09c69e1e97712d45e22cd4821d58765773dbc9171224466f463c7e41"
+}

@@ -1,0 +1,31 @@
+{
+  "method": "Reconstructed the five pre-clarification editions by exactly reversing known final presentation edits; every byte hash independently matched the pre-existing initial freeze. These copies were made after correction, not represented as earlier-created files. No original scientific candidate changed.",
+  "utc": "2026-10-03T01:45:29.415837+00:00",
+  "files": [
+    {
+      "source": "UDT_DEVELOPMENT.md",
+      "snapshot": "udt_physical_selection_checkpoint_2026-10-02/initial_integration_sources/UDT_DEVELOPMENT.md",
+      "sha256": "8adffd257d0b14f51f29bdeb7901cb7b61d9f6d857aeab1a559c3b97f0392cf0"
+    },
+    {
+      "source": "udt_physical_selection_checkpoint_2026-10-02/WORK_RECORD.md",
+      "snapshot": "udt_physical_selection_checkpoint_2026-10-02/initial_integration_sources/WORK_RECORD.md",
+      "sha256": "da673905dee179f6f56f04aadfc63f5a09762d980cd591af034dfe3983645251"
+    },
+    {
+      "source": "udt_physical_selection_checkpoint_2026-10-02/REVIEWED_RESULT.md",
+      "snapshot": "udt_physical_selection_checkpoint_2026-10-02/initial_integration_sources/REVIEWED_RESULT.md",
+      "sha256": "2ece9b0943d49c3bd5eb56a2b7e0b39dac755d22f011e90ec58aaf33b4053791"
+    },
+    {
+      "source": "development_reconstruction_2026-09-29/DEVELOPMENT_GRAPH.json",
+      "snapshot": "udt_physical_selection_checkpoint_2026-10-02/initial_integration_sources/DEVELOPMENT_GRAPH.json",
+      "sha256": "d43baa20eff7c807615a572377f4c71756ccb8b62c64c1e2c2b3cd049fbe23f9"
+    },
+    {
+      "source": "development_reconstruction_2026-09-29/RECENT_DISPOSITIONS.tsv",
+      "snapshot": "udt_physical_selection_checkpoint_2026-10-02/initial_integration_sources/RECENT_DISPOSITIONS.tsv",
+      "sha256": "5ad7f3ec43afb1ea0310c98c0ac576270eea6dcdea5e0cb1c98cec7fc2c44666"
+    }
+  ]
+}

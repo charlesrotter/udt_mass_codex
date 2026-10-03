@@ -1,0 +1,19 @@
+{
+  "context": "/root/psc_fidelity",
+  "utc": "2026-10-03T01:47:56.141626+00:00",
+  "status": "PASS",
+  "integration_freeze_sha256": "9cd4f58b4790df7c048785405fa268cd8d8fab849aac39cf3e04e9db5964bbe8",
+  "accepted_files_checked": 12830,
+  "mismatches": [],
+  "protected_prefix_entries": 0,
+  "initial_snapshot_reconstructions_verified": 5,
+  "generated_orientation_equal": true,
+  "new_graph_source_pins_verified": 4,
+  "new_graph_support_pins_verified": 5,
+  "historical_source_pins": {
+    "count": 9,
+    "base": "4f941d0eb5088052b0d5372772e439fc12e9ca5e",
+    "result": "Matched in earlier same-review read-only check; SOURCE_PINS unchanged"
+  },
+  "limits": "Correspondence/review only; no new scientific calculation or full406/maintenance test rerun"
+}

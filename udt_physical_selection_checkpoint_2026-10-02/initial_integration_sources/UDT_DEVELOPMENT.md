@@ -2615,9 +2615,7 @@ conserved source then has E_f as a conserved completion when F=df/dR, up to the
 integration constant. This is leading local balance, not exact finite-horizon or
 global thermodynamics. Other shear/entropy completions are not classified.
 
-Constant F yields an Einstein-type response. With the stipulated stress its
-completion is the sourced Einstein equation; vacuum Einstein shape requires
-vanishing trace-free source. Choosing F=1+2alphaR yields R²; choosing a
+Constant F yields Einstein shape; choosing F=1+2alphaR yields R²; choosing a
 quadratic F yields the cubic control. The entropy function has already supplied
 the equation choice. Inferring it from that equation and feeding it back is not
 independent physical selection. No UDT entropy observable, heat/source law or

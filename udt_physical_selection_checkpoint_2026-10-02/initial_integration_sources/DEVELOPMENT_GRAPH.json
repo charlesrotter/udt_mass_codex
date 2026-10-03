@@ -3135,7 +3135,7 @@
     "udt_response_clock_discriminator_2026-10-01/fidelity/SOURCE_FIRST.md": "b82dc420841dcd578a500f7e9c6af328ebbae1440bb7ee4934f55e3e4b5e32fd",
     "udt_response_clock_discriminator_2026-10-01/CHECK_PLAN.md": "1d5e106e00f3306d5671bcf6c972ca25b1c529fe8b6811d52389c2b606db902c",
     "udt_physical_selection_checkpoint_2026-10-02/INITIAL_CANDIDATE.md": "42726795d831574f7a0cf9649ce4be177576d76373fb3d55b009c5f9ac0a41f2",
-    "udt_physical_selection_checkpoint_2026-10-02/REVIEWED_RESULT.md": "b98172e861f9dd966b4e277e081e22cf0d35fd4eef6329491347c6d2a751b112",
+    "udt_physical_selection_checkpoint_2026-10-02/REVIEWED_RESULT.md": "2ece9b0943d49c3bd5eb56a2b7e0b39dac755d22f011e90ec58aaf33b4053791",
     "udt_physical_selection_checkpoint_2026-10-02/REFERENCES.md": "7f199cec24206fdb645a3bc03b660f7e71a5ee3d3dcc2099bc521c8a8354d096",
     "udt_physical_selection_checkpoint_2026-10-02/DISCOVERY_SCOPE.md": "5772ab567b5bc537e78caadeeffb29006e5f38ebd64dbad9ad22b3f07bb159b8"
   },
@@ -4510,17 +4510,6 @@
         "R8PSC",
         "R17PSC",
         "O_PSW_ATTRIBUTION"
-      ]
-    },
-    {
-      "path": "udt_physical_selection_checkpoint_2026-10-02/FINAL_SCOPE_CLARIFICATION.md",
-      "sha256": "6d7ad338aed5f4ed4f02b83f859720588a3e6616864afa7a5449c9c4d7816e61",
-      "role": "repair_scope",
-      "targets": [
-        "R17",
-        "R18",
-        "R17PSC",
-        "R8PSC"
       ]
     }
   ]

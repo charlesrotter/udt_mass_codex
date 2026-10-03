@@ -1,0 +1,14 @@
+{
+  "utc": "2026-10-03T01:26:43.310056+00:00",
+  "scope": "Initial analytic candidate and exact-check design before execution; mathematical discovery and publication/reviewer-question exposure disclosed. No adopted physical premise.",
+  "sha256": {
+    "udt_physical_selection_checkpoint_2026-10-02/WORK_ORDER.md": "7df56883083993ab36935254fdc469f9c4959b1b462d019b4415b813497a2c10",
+    "udt_physical_selection_checkpoint_2026-10-02/DISCOVERY_SCOPE.md": "5772ab567b5bc537e78caadeeffb29006e5f38ebd64dbad9ad22b3f07bb159b8",
+    "udt_physical_selection_checkpoint_2026-10-02/INITIAL_CANDIDATE.md": "42726795d831574f7a0cf9649ce4be177576d76373fb3d55b009c5f9ac0a41f2",
+    "udt_physical_selection_checkpoint_2026-10-02/CHECK_PLAN.md": "7dd6b01135f455f47140971949ae574aa3cad13d1ec3b2d8da61de5ccf591c1c",
+    "udt_physical_selection_checkpoint_2026-10-02/REFERENCES.md": "7f199cec24206fdb645a3bc03b660f7e71a5ee3d3dcc2099bc521c8a8354d096",
+    "udt_physical_selection_checkpoint_2026-10-02/SOURCE_PINS.json": "12e4043fb1820b295cce790fd70bfbdf31ef5e4edd1e91f21f8ba2e8897186e9",
+    "udt_physical_selection_checkpoint_2026-10-02/check_selection.py": "9b36d6e080d8cd974cbf08368c808b09cf22d2d93cdec7b84b286d68dd4b023d",
+    "udt_physical_selection_checkpoint_2026-10-02/recompute_saved_jets.py": "7b20b0a1e3e043eb64e2fa2396a7c82e1c967a5e50e30fd47b519a453d093d75"
+  }
+}

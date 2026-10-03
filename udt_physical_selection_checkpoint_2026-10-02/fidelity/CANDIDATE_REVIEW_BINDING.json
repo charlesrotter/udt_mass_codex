@@ -1,0 +1,22 @@
+{
+  "reviewer": "/root/psc_fidelity",
+  "utc": "2026-10-03T01:32:28.802960+00:00",
+  "verdict": "VERIFIED-WITH-CAVEATS",
+  "scope": "Actual candidate and bounded implementation repair; no physical adoption; final central correspondence pending",
+  "sha256": {
+    "udt_physical_selection_checkpoint_2026-10-02/INITIAL_CANDIDATE.md": "42726795d831574f7a0cf9649ce4be177576d76373fb3d55b009c5f9ac0a41f2",
+    "udt_physical_selection_checkpoint_2026-10-02/CANDIDATE_FREEZE.json": "6a2a66df1d5b1a179e5ae12a4fe8567da1d698e927fedd6fcb7f68eaedbeda95",
+    "udt_physical_selection_checkpoint_2026-10-02/EXACT_RESULT.json": "07800c4f44ecdeed39e950e1615517eb1d68a7bdaeeab200744170f15b518d64",
+    "udt_physical_selection_checkpoint_2026-10-02/IMPLEMENTATION_REPAIR.md": "f9236df6b0ae4d965e29b04e8bf77abe9fa96dfa45c00746697df4b485560cc4",
+    "udt_physical_selection_checkpoint_2026-10-02/REPAIR_FREEZE.json": "ec068ba750f1e7c9abf79da220f603e72511179069e8088c9fd3fbcc50c17077",
+    "udt_physical_selection_checkpoint_2026-10-02/recompute_saved_jets.py": "7b20b0a1e3e043eb64e2fa2396a7c82e1c967a5e50e30fd47b519a453d093d75",
+    "udt_physical_selection_checkpoint_2026-10-02/recompute_saved_jets_repaired.py": "084b2875b0d2ca6f5930aa1c5211185eaf57dd63ef1e47ca89a83c9bb87bc1d0",
+    "udt_physical_selection_checkpoint_2026-10-02/fidelity/CANDIDATE_CHECK_PLAN.md": "b965a1282ad17ff5c7974d9be8149f55fb2c50fc3a2d4acbb3659a6806529189",
+    "udt_physical_selection_checkpoint_2026-10-02/fidelity/CANDIDATE_CHECK_FREEZE.json": "8c2b251e2267e55705ff47f7d71d45d725b28f387d1a852abf57316afa5c1e17",
+    "udt_physical_selection_checkpoint_2026-10-02/fidelity/candidate_saved_metric.py": "aa22674c7f71ff828febf86493139cac1312be8688a267cab45f1372814c4730",
+    "udt_physical_selection_checkpoint_2026-10-02/fidelity/candidate_saved_metric_run.stdout": "ebecbaba4f317ec951b40ab1f5969355496e60917dd95c79b4a86792ed225af9",
+    "udt_physical_selection_checkpoint_2026-10-02/fidelity/candidate_saved_metric_run.stderr": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "udt_physical_selection_checkpoint_2026-10-02/fidelity/candidate_saved_metric_run.json": "efeb9595ece8ae2b11034222932b27ba407a3b5d2b528826ceac49f8e93f5a64",
+    "udt_physical_selection_checkpoint_2026-10-02/fidelity/CANDIDATE_REVIEW.md": "2549b226c9c13b32bcf6f6b219d8fa826207e82e2699ce855e3feccca081cd0a"
+  }
+}

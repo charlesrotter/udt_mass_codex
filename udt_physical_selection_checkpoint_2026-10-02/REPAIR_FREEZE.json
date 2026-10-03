@@ -1,0 +1,11 @@
+{
+  "utc": "2026-10-03T01:27:51.032562+00:00",
+  "scope": "Single checker coefficient repair before rerun; fixed initial candidate and code remain.",
+  "sha256": {
+    "udt_physical_selection_checkpoint_2026-10-02/IMPLEMENTATION_REPAIR.md": "f9236df6b0ae4d965e29b04e8bf77abe9fa96dfa45c00746697df4b485560cc4",
+    "udt_physical_selection_checkpoint_2026-10-02/recompute_saved_jets_repaired.py": "084b2875b0d2ca6f5930aa1c5211185eaf57dd63ef1e47ca89a83c9bb87bc1d0",
+    "udt_physical_selection_checkpoint_2026-10-02/EXACT_RESULT.json": "07800c4f44ecdeed39e950e1615517eb1d68a7bdaeeab200744170f15b518d64",
+    "udt_physical_selection_checkpoint_2026-10-02/checks/saved_jets.json": "d005b9cef39d0a17291447271b9ffb4a2c65ab2c0dd00ac5b49cf9ce1aac9ae3",
+    "udt_physical_selection_checkpoint_2026-10-02/checks/saved_jets.stderr": "013b807ef731a1ba97c906b57be721b5c2e6f96869c17935c745f5eb4c7b81e0"
+  }
+}

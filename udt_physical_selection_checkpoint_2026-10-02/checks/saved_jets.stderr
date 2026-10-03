@@ -1,0 +1,4 @@
+Traceback (most recent call last):
+  File "/home/udt-admin/udt_mass_codex/udt_physical_selection_checkpoint_2026-10-02/recompute_saved_jets.py", line 13, in <module>
+    assert d0==0,d0;assert d1==0,d1
+AssertionError: 243/50000000

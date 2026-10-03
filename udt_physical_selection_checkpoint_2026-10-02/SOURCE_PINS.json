@@ -1,0 +1,15 @@
+{
+  "base_head": "4f941d0eb5088052b0d5372772e439fc12e9ca5e",
+  "sha256": {
+    "UDT_DEVELOPMENT.md": "de918cdbc8bd51d98e89b3669b86bedafecd748aa952dfd07d1dba389c3b2f4b",
+    "CURRENT_SCIENTIFIC_PREMISES.tsv": "7a3d69d5a0bc3ac98e2ebe2bb0c6d029df30071bf403baffed2223a193dc720b",
+    "UDT_RESEARCH_ROADMAP.md": "7511d5d68216399a2912c9339bb83b6453092104981ec472bf4e7582f8b469f0",
+    "udt_response_clock_discriminator_2026-10-01/REVIEWED_RESULT.md": "abc46591f71f314f3aedb9de113265eebdfcea78d5c155fbbfd1ec70436cec72",
+    "udt_response_clock_discriminator_2026-10-01/REPAIR.md": "f4c20a2e07a4a8d7bfd37b7bcd0df4e70aa109c193f1ca580770ff3cd2ac5415",
+    "udt_environment_response_candidates_2026-10-01/INITIAL_DERIVATION.md": "2cb45c87f23fd12465259f43e31703a89adf281936de412274d8958bee2649b5",
+    "udt_environment_response_candidates_2026-10-01/REVIEWED_RESULT.md": "f4a27a559b600a0088bd3213b7f65a805876b2669d660929259338183a37a8f9",
+    "udt_gr_commitment_audit_2026-09-29/REVIEWED_RESULT.md": "3418a96c5de81dce9062871a1395801d887cdd7ab02159d392dd139b573ae368",
+    "udt_physical_connection_whiteboard_2026-09-30/REVIEWED_RESULT.md": "b17509671833c7319b5bdd0553679a09982265c6df2b7db5aff76aced0c33646"
+  },
+  "limits": "Old central version resolves at base commit after integration. Known protected payloads excluded. Publications are separately URL/version-attributed, not hash-frozen archives."
+}

@@ -1,0 +1,14 @@
+{
+  "reviewer": "/root/psc_fidelity",
+  "stage": "source-first sealed before parent candidate/code/results/peer exposure",
+  "utc": "2026-10-03T01:26:09.652446+00:00",
+  "sha256": {
+    "udt_physical_selection_checkpoint_2026-10-02/fidelity/SOURCE_FIRST_PLAN.md": "6f0cf2a62118eb3c8521d51538db4ebf136ea73052785729d8c2cb4582c8745b",
+    "udt_physical_selection_checkpoint_2026-10-02/fidelity/SOURCE_FIRST_FREEZE.json": "7745caded6c97ae2e33fb6cf3ed690566c20b0a402a094ca081c45ab04b6c9f4",
+    "udt_physical_selection_checkpoint_2026-10-02/fidelity/SOURCE_FIRST_REVIEW.md": "6b432777f3f42a3b31eb5c1a170f759bf04bfb2e0c737e42985ca576fe11e6bb",
+    "udt_physical_selection_checkpoint_2026-10-02/fidelity/source_first_check.py": "f6c6bfee09c69e1e97712d45e22cd4821d58765773dbc9171224466f463c7e41",
+    "udt_physical_selection_checkpoint_2026-10-02/fidelity/source_first_run.stdout": "53d16415515dc721fd5a26cdaa386d84d7c8abafb6a3d2511db206134b351a52",
+    "udt_physical_selection_checkpoint_2026-10-02/fidelity/source_first_run.stderr": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "udt_physical_selection_checkpoint_2026-10-02/fidelity/source_first_run.json": "c84ff4f643738db7482451de31e5555cc03e15738909e428d961f552e9114853"
+  }
+}

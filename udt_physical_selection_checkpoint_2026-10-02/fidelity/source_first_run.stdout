@@ -1,0 +1,27 @@
+{
+  "status": "PASS",
+  "python": "3.10.12",
+  "sympy": "1.13.1",
+  "checks": {
+    "entropy_first_derivative_stationary": "0",
+    "entropy_second_derivative": "0",
+    "production_cancels_extra_gradient": "0",
+    "positive_production_example": "27/4",
+    "metric_obstruction_curl_dx_By_minus_dy_Bx": "51840",
+    "metric_F_origin": "0",
+    "metric_R_origin": "0",
+    "metric_R_gradient_y": "0",
+    "metric_BoxF_gradient_x": "0",
+    "polynomial_exact_trace": "0",
+    "shared_flat_linear_trace": "0",
+    "polynomial_background_mass": "0",
+    "polynomial_flat_mass": "0",
+    "background_mass_slope": "0",
+    "constant_pole_ode": "0",
+    "constant_pole_primitive": "0",
+    "constant_pole_mass": "0",
+    "fixed_Lambda_vacuum_derivative": "0",
+    "flat_scalar_dispersion": "0"
+  },
+  "count": 19
+}

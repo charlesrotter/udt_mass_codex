@@ -1,0 +1,18 @@
+{
+  "reviewer": "/root/psc_math",
+  "utc": "2026-10-03T01:47:38.397511+00:00",
+  "kind": "Revised final correspondence only; no scientific rerun",
+  "freeze_sha256": "9cd4f58b4790df7c048785405fa268cd8d8fab849aac39cf3e04e9db5964bbe8",
+  "accepted_files_checked": 12830,
+  "bytes_hashed": 2203634554,
+  "accepted_mismatches": [],
+  "protected_paths_opened": 0,
+  "historical_source_pins_checked": 9,
+  "historical_pin_mismatches": [],
+  "restored_prior_editions_match_initial_freeze": 5,
+  "preserved_initial_freeze_matches_initial_receipt": true,
+  "generated_program_exact_match": true,
+  "changed_inherited_paths_exact_match": true,
+  "elapsed_seconds": 1.407692200038582,
+  "base_head": "4f941d0eb5088052b0d5372772e439fc12e9ca5e"
+}
