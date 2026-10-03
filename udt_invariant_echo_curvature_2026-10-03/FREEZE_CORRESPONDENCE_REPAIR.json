@@ -1,0 +1,8 @@
+{
+  "utc": "2026-10-03T17:54:45.723687+00:00",
+  "reason": "Last fidelity prefinal WORK_RECORD/adapter paragraph update crossed parent freeze; actual full rehash found one differing report and new PREFINAL_BINDINGS omitted. No central/scientific file changed. Neither reviewer attested the old map.",
+  "initial_freeze_sha256": "7261271e166652e8336d3b6d9cb4318d8b2c1e306471f18b3c5287bd76b799ad",
+  "old_report_reconstructed_exact_hash": "8c5fe093ae941596be6a7d1cebfc26b39225f19348446683ae3833a605293111",
+  "new_report_sha256": "525772faa79d0dd463927a3e38910f626ed28fff21159e68e026c6c706a700a0",
+  "action": "Preserved initial freeze and byte-identical initial report; rebuild current freeze and request actual final review of both versions plus unchanged science. No accepted map silently refreshed."
+}

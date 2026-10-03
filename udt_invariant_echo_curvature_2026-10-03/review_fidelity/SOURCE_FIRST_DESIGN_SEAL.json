@@ -1,0 +1,22 @@
+{
+  "utc": "2026-10-03T17:17:17.746152+00:00",
+  "no_iec_candidate_exposure": true,
+  "sha256": {
+    "AGENTS.md": "bcab9b67305e0314af9eaf25162d203660eae8f2ff4fd87d17e83588970ef38d",
+    "CLAUDE.md": "4ad2e773defb89cc79541fd0ababd75af5a3344ab134ee83722dfd943966e6e4",
+    "LIVE.md": "6f98bc8a6651a4fdffc3de9bd5946c78af8b31c266e1c16952760e4aa6396f47",
+    "HANDOFF.md": "cdb3a337f019c734fc0a9b17e2cc86340c6b6e630a0d85ee1d0cdc2374998307",
+    "CURRENT_RESEARCH_PROGRAM.md": "9fd062c7fff66f85b7323aa4a4f80cdfe3fdf2efb993021d4fba2647789399f4",
+    "CURRENT_SCIENTIFIC_PREMISES.md": "6b708f351b478dde0c6a93e8f29de08eae06533ba4fb789f79fd03bda1512718",
+    "CURRENT_SCIENTIFIC_PREMISES.tsv": "7a3d69d5a0bc3ac98e2ebe2bb0c6d029df30071bf403baffed2223a193dc720b",
+    "UDT_DEVELOPMENT.md": "5f15ce85994e8075da320ab0e1552c16227dd273db855d592854cd4e02aa578a",
+    "founding.md": "b4b0d9a9fdd093c992647195aca7579566a9e77a396071a699c1938888a49e75",
+    "udt_positional_selection_whiteboard_2026-10-01/REVIEWED_RESULT.md": "1b217aa30932d3986557abb7e95f7d1e8a8196946e75091794b1ef06058e2911",
+    "udt_positional_selection_whiteboard_2026-10-01/REPAIR.md": "696a97a3b59c37a88a1044dae940df9a18414aabada55335f495217e4f226a97",
+    "udt_finite_comparison_whiteboard_2026-10-03/REVIEWED_RESULT.md": "86d86757408e26cec43fbe3f1d4edd7692d2db263a6289e8da74427fe556908f",
+    "development_reconstruction_2026-09-29/universal_law_clarification_2026-10-01/OWNER_CLARIFICATION.md": "69041b4a2033fd85ff65f113f07ea3ac6a6b06af9a0c07e26a775a33fb3f5a1c",
+    "udt_time_live_production_survey_2026-10-01/capture.py": "217cdbac5486e8a531552f4d74a15ce641299b65dafb5d58f7b60f4ba51781bc",
+    "udt_invariant_echo_curvature_2026-10-03/review_fidelity/SOURCE_FIRST_DESIGN.md": "a42713d80f8b6a1804186dacfeae53b77fd7c62fc203cec425f4330926d703a0",
+    "udt_invariant_echo_curvature_2026-10-03/review_fidelity/check_source_first.py": "10645b8cc066ac407609402be8336115b56066c305e82e49d8d4719ad8102fc9"
+  }
+}

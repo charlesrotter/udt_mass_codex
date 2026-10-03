@@ -1,0 +1,15 @@
+{
+  "utc": "2026-10-03T17:31:34.967780+00:00",
+  "scope": "Exposed mathematical review and local proof completion; actual parent check output pending",
+  "sha256": {
+    "udt_invariant_echo_curvature_2026-10-03/INITIAL_CANDIDATE.md": "43d1e16e32f3805ffe595afc951d8b910b37c96256bed21b68f33ff5ed0eec84",
+    "udt_invariant_echo_curvature_2026-10-03/derive_universal.py": "5f5ede29d331547d2f381ea236af11c91075df8e13a697c7d07ed56dcc03d088",
+    "udt_invariant_echo_curvature_2026-10-03/UNIVERSAL_FORMAL_RESULT.json": "fe8d68c2f155ae9fcff7be74dc0d2815ae7e8bb0f0bae486949671e39fe6e2d5",
+    "udt_invariant_echo_curvature_2026-10-03/DERIVATION_COMPLETION.md": "b7f17ffd6c9ef385d0471614c428cdd0187aa18056180e8a0dd21da60708a151",
+    "udt_invariant_echo_curvature_2026-10-03/REFERENCES.md": "972821e3edeaac3538c657e1e42dbe265684f8898637861f39f863997e2e3e12",
+    "udt_invariant_echo_curvature_2026-10-03/check_candidate.py": "b6d5b67f6924d4c368285e231e1970d92103582537090c92e9e0b5d1217f02c3",
+    "udt_invariant_echo_curvature_2026-10-03/CHECK_FREEZE.json": "1a89824ca3f0f1930f2a5f8fd0d47ce6a1bd5ab401b960a30e7749818d0a0281",
+    "udt_invariant_echo_curvature_2026-10-03/review_math/EXPOSED_REVIEW.md": "dc2b3a6ebc762e28506556ffd5817def03116298ed97fee2ad81f1a54bee9bda",
+    "udt_invariant_echo_curvature_2026-10-03/review_math/COMPLETION_REVIEW.md": "73fb12b499d566e16e920a5bac50b1548aeaa07d4696faf93764797e5ee321db"
+  }
+}

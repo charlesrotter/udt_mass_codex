@@ -1,0 +1,14 @@
+{
+  "utc": "2026-10-03T17:21:14.685278+00:00",
+  "stage": "Initial formal candidate before exposed review and parent new controls; two reviewers already sealed source-first witnesses",
+  "sha256": {
+    "udt_invariant_echo_curvature_2026-10-03/WORK_ORDER.md": "f23fbcb876045d851e50e2559556282f0a2214c98357e01f72df88ac1f4632c9",
+    "udt_invariant_echo_curvature_2026-10-03/PARENT_DISCOVERY_PLAN.md": "1d32a05fca51f63d15ba2817e60fd69d6690853e7456cd691b15f2ba4e3816d0",
+    "udt_invariant_echo_curvature_2026-10-03/INITIAL_CANDIDATE.md": "43d1e16e32f3805ffe595afc951d8b910b37c96256bed21b68f33ff5ed0eec84",
+    "udt_invariant_echo_curvature_2026-10-03/derive_universal.py": "5f5ede29d331547d2f381ea236af11c91075df8e13a697c7d07ed56dcc03d088",
+    "udt_invariant_echo_curvature_2026-10-03/UNIVERSAL_FORMAL_RESULT.json": "fe8d68c2f155ae9fcff7be74dc0d2815ae7e8bb0f0bae486949671e39fe6e2d5",
+    "udt_invariant_echo_curvature_2026-10-03/checks/universal_first.json": "aa76bca43bcb61914edf2ecb2443f88a8d2d0606408f1cd2d9a48efa549eff93",
+    "udt_invariant_echo_curvature_2026-10-03/checks/universal_first.stdout": "2f7e499f55b705a8191909ba18e1e13aafc50e6f2dd0b901c53b809cdab2870f",
+    "udt_invariant_echo_curvature_2026-10-03/checks/universal_first.stderr": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "utc": "2026-10-03T17:25:45.956210+00:00",
+  "sha256": {
+    "udt_invariant_echo_curvature_2026-10-03/PARENT_CHECK_PLAN.md": "8936831ab104ff3dc51538c8bafd4f5aa063d7e74216a6fb25970e867df4f1cb",
+    "udt_invariant_echo_curvature_2026-10-03/check_candidate.py": "b6d5b67f6924d4c368285e231e1970d92103582537090c92e9e0b5d1217f02c3",
+    "udt_invariant_echo_curvature_2026-10-03/INITIAL_CANDIDATE.md": "43d1e16e32f3805ffe595afc951d8b910b37c96256bed21b68f33ff5ed0eec84",
+    "udt_invariant_echo_curvature_2026-10-03/UNIVERSAL_FORMAL_RESULT.json": "fe8d68c2f155ae9fcff7be74dc0d2815ae7e8bb0f0bae486949671e39fe6e2d5"
+  }
+}

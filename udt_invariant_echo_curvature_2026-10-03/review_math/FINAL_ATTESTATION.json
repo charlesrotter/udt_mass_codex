@@ -1,23 +1,31 @@
 {
-  "status": "REVIEWED_WITH_LIMITS",
-  "utc": "2026-10-03T17:58:51.848519+00:00",
-  "scope": "IEC1 supplied locally symmetric Lorentz4 finite-echo d4/d6 invariants, conditional tidal-eigendirection and opposite-direction corollaries; FC/RG UNADOPTED, all-frame/native physical selection OPEN. Two fresh source-first/exposed/final contexts; inherited evidence retains its original scope.",
-  "independence": "Two fresh separate source-first/exposed/final reviews; independently arranged actual-incidence sphere controls, hand quartic audit and local geometric proof review. Shared model, Python/SymPy/mpmath; source-first sphere sheets coincide. Parent free-word and original signed product/plane-wave checks. Preserved initial candidate, signature-proof completion and manually interrupted general-series verification after equivalent fixed-degree check passed. No different-model/human/formal/empirical review.",
-  "freeze": "udt_invariant_echo_curvature_2026-10-03/INTEGRATION_FREEZE.json",
+  "context": "/root/iec_math",
+  "verdict": "ACCEPT_WITH_LIMITS",
+  "utc": "2026-10-03T17:58:35.319166+00:00",
+  "report_path": "udt_invariant_echo_curvature_2026-10-03/review_math/FINAL_REVIEW.md",
+  "report_sha256": "885576992b088a3694473030d7f5d2af92cead0fbf2469be8d3e878e289d5630",
+  "freeze_path": "udt_invariant_echo_curvature_2026-10-03/INTEGRATION_FREEZE.json",
   "freeze_sha256": "40618013c1693040f9b7248111016df13aeff47b2ac88e5a3ae83fb4be2c13df",
-  "prior_review_record": "udt_invariant_echo_curvature_2026-10-03/PRIOR_REVIEW_RECORD.json",
-  "prior_review_record_sha256": "d8710585528b86a18aacf1136f6f97c93cdae87333118199822765587275132f",
-  "reviewers": [
-    {
-      "context": "/root/iec_math",
-      "attestation": "udt_invariant_echo_curvature_2026-10-03/review_math/FINAL_ATTESTATION.json",
-      "sha256": "f41f5d88d65b72628b1b2e2de3a9add89890c2aafb3cff2e2c1d9578bec0eab4"
-    },
-    {
-      "context": "/root/iec_fidelity",
-      "attestation": "udt_invariant_echo_curvature_2026-10-03/review_fidelity/FINAL_ATTESTATION.json",
-      "sha256": "19185762e59346cf543886bf3b14c19276871ed1737ba0e26910fb4f4fa62764"
-    }
+  "exposure": "Fresh source-first context and sealed independent control before parent IEC1 candidate; then actual exposed argument/code/proof completion, exact replacement verification, direction corollary and final integration review.",
+  "model": "Same inherited parent model; no different-model or human review claimed.",
+  "independence": {
+    "fresh_context": true,
+    "independent_original_incidence_code": true,
+    "independent_hand_quartic_audit": true,
+    "different_model": false,
+    "shared_libraries": [
+      "Python",
+      "SymPy",
+      "mpmath"
+    ],
+    "method_overlap": "Embedding and symmetric-space methods; other reviewer chose the same main sphere sheet/parameters."
+  },
+  "limits": [
+    "Conditional locally symmetric Lorentz4 small-separation PSW echo result only.",
+    "All 13199 file hashes checked; inherited unchanged sources retain prior review scope, not newly re-proved.",
+    "No protected payload path in accepted map or read/hash.",
+    "FC/RG UNADOPTED; no native physical selection, registry regrade or canon adoption.",
+    "Normal/maintenance/full406 and banking checks remain postbinding parent gates."
   ],
   "accepted_sha256": {
     ".gitignore": "8a2710f5923ba86b41a461e040282ecd520ce155cb17b09458e1d1d613ddeb7a",

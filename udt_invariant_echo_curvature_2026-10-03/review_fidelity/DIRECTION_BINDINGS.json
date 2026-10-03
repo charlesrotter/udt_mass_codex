@@ -1,0 +1,8 @@
+{
+  "utc": "2026-10-03T17:38:39.737502+00:00",
+  "verdict": "ACCEPT_CONDITIONAL_DIRECTION_COROLLARY",
+  "sha256": {
+    "udt_invariant_echo_curvature_2026-10-03/review_fidelity/DIRECTION_REVIEW.md": "24a5bd0190878559c4e46060565f8dc985de1fce62cf7887445c6b062f06deb4",
+    "udt_invariant_echo_curvature_2026-10-03/DIRECTION_COROLLARY.md": "66c66206d4b5c34b2f453aa1d0103c3f458dbcb1f5d334deac20ed74e2abf09f"
+  }
+}

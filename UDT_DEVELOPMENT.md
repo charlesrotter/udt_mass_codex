@@ -1,7 +1,7 @@
 # UDT — continuous scientific development
 
 <!-- DEVELOPMENT_ORIENTATION_BEGIN -->
-**Continuous development — CDR1 with SGE1, LKT1, GCA1, PCW1, CES1, CCR1, PRI1, TRI1, NGD1, TDS1, TPP1, TPS1, PSW1, FPC1, FNA1, FST1, ECS1, PCC1, ERC1, RCD1, PSC1, CMF1, CBR1 and FCW1, 2026-10-03.** This is the maintained
+**Continuous development — CDR1 with SGE1, LKT1, GCA1, PCW1, CES1, CCR1, PRI1, TRI1, NGD1, TDS1, TPP1, TPS1, PSW1, FPC1, FNA1, FST1, ECS1, PCC1, ERC1, RCD1, PSC1, CMF1, CBR1, FCW1 and IEC1, 2026-10-03.** This is the maintained
 scientific development. It is not canon or a new scientific-grade authority.
 The exact registry and reviewed sources own grades; LIVE owns operational status.
 Current review bindings and limits are recorded in section9; startup reads the
@@ -184,13 +184,23 @@ not an atomic-clock anomaly, experimental feasibility or native UDT law. The
 response/positional-attribution question remains open; no successor starts here.
 FCW1's reviewed whiteboard adds two conditional leads. A common transverse boost
 exposes ECS1's aligned product mimic through a sixth-order finite echo difference;
-the general invariant being measured remains open. A separately proposed regular
+the invariant question is answered within a declared class by IEC1 below. A separately proposed regular
 conformal completion forces a simple clock pole in a supplied homogeneous/comoving
 sector, but leaves interior history and scale free. Scalar echo sufficiency FC
 and completion regularity RG are explicit UNADOPTED trials, not consequences of
 universal law or the founding asymptote. ICN1 already owns the third proposal's
 exterior timing ambiguity. No native geometry/equation is selected. Discuss the
-invariant echo derivation first; no successor starts automatically.
+completed invariant echo derivation below; no successor starts automatically.
+IEC1 derives the finite-echo curvature diagnostic through sixth order for supplied
+locally symmetric Lorentz4 geometries. General directions can differ from the
+simple echo relation at fourth order; FCW1's sixth-order case extends to tidal
+eigen-directions. Opposite preparation directions isolate one transverse
+curvature contribution. The local geometric proof, exact algebra and independent
+controls use ordinary proper clocks and actual future returns. Neither this
+symmetry class nor scalar sufficiency FC is adopted as physical UDT law. The
+result interprets the diagnostic; native geometry, positional attribution and
+all-frame selection remain open. Stop for discussion of a bounded selectivity
+test; no classification or new research campaign starts automatically.
 <!-- DEVELOPMENT_ORIENTATION_END -->
 
 ## 1. How this development is owned
@@ -1470,9 +1480,10 @@ The second expression leaves the initial plane and obstructs a totally geodesic
 extension; the first tidal vector alone does not establish that obstruction.
 Define T(n,n)=-k²γ², W=perp R(n,U)n. In this one family the coefficient of
 L^6 is T(n,n)|W|²/3; the coefficient of ℓ^6 is dimensionless. A general invariant
-formula and classification are OPEN. The obstruction alone does not predict the
-order of echo failure. Deriving that invariant on a declared locally symmetric
-sector is the recommended discussion target, without adopting FC.
+formula is now derived through L^6 for the declared locally symmetric class in
+IEC1 below, with a generally nonzero quartic term and the displayed sixth-order
+coefficient whenever V=0. Classification and physical FC admission remain OPEN.
+The plane obstruction alone still does not predict the order of echo failure.
 
 Parent original-incidence roots at60/100 digits and independent rational/general
 series checks support the result; finite sampling is not a remainder certificate.
@@ -1482,6 +1493,106 @@ proposal's exterior conformal timing ambiguity; its attribution repair keeps tha
 prior and does not create a new native selector. Sources: [fixed candidate proof](udt_finite_comparison_whiteboard_2026-10-03/INITIAL_SYNTHESIS.md),
 [reviewed result and dimensional clarification](udt_finite_comparison_whiteboard_2026-10-03/REVIEWED_RESULT.md),
 and [positive/negative descendant review](udt_finite_comparison_whiteboard_2026-10-03/DESCENDANT_REVIEW.md).
+
+<a id="r8iec"></a>
+
+#### Curvature measured by a finite prepared echo — IEC1
+
+The first FCW1 lead now has an invariant answer through sixth order for supplied
+locally symmetric Lorentz4 metrics, ∇Riemann=0. This restriction is an explored
+comparison class, not a derived UDT law. It permits non-space-form geometries.
+Use signature(-+++), R(X,Y)=[∇X,∇Y]−∇[X,Y], ordinary unit free clocks and
+PSW preparation: A(s)=exp_o(sU), B(0)=exp_o(Ln), with U parallel transported
+along the initial unit spacelike n⊥U segment before B's free evolution.
+
+On a small regular common normal tube, let F(s,b,L) be the squared geodesic
+interval A(s) to B(b). First reception solves F(0,b,L)=0 near b=L and
+p=−F_s/F_b. The actual immediate later echo solves F(a,b,L)=0 near a=2L
+and q=−F_b/F_s there. FCW1's shortcut q=f'(f(0)) requires its clock-exchange
+reflection; no such symmetry is assumed here. With positive p,q and p<sqrt2,
+define D=log q−log[p/(2−p²)]. D compares the actual echo with ECS1's specific
+space-form rule. D≠0 alone does not exclude every scalar q=Q(p); FCW1's no-Q
+argument also needed an unboosted continuum to fix Q.
+
+At the initial event put C=R(n,U), A=CU, B=Cn, T=g(A,n), V=A−Tn, W=B−TU.
+Here A,B in tensor formulas denote vectors, not worldlines. V,W lie in the
+positive-definite complement of span(U,n), so
+
+    aa=g(A,A)=T²+|V|², ab=g(A,B)=<V,W>, bb=g(B,B)=−T²+|W|².
+
+For pairs0=(A,U),1=(A,n),2=(B,U),3=(B,n), set
+Kij=g(R(V_i,Z_i)V_j,Z_j). Parallel-curvature integrability gives
+R(A,n)=R(B,U), so indices1 and2 agree. The result is
+
+    D(L)=d4 L⁴+d6 L⁶+O(L⁸),
+    d4=2aa+ab−2T²=2|V|²+<V,W>,
+    d6=[120K00+108K01−120K03+90K11−27K13
+         +60T³+120T aa−236T ab−60T bb]/180.
+
+If V=0 (a tidal eigen-direction), aa=T²,ab=0,bb=−T²+|W|²,
+K00=−T³,K01=K11=K13=0,K03=T³−T|W|². Consequently
+
+    D(L)=(T|W|²/3)L⁶+O(L⁸).
+
+This proves FCW1's coefficient for that broader conditional subclass. A general
+direction can have a quartic term of either sign. The old family was a special
+case, not a universal sixth-order law. A single d4=0 need not imply V=0.
+At fixed o,U, physically reversing n while retaining positive L and future
+clocks gives V→−V,W→W,T→T, hence
+
+    d4(n)+d4(−n)=4|V|², d4(n)−d4(−n)=2<V,W>.
+
+Both quartic coefficients vanish exactly when V=0 for that direction pair.
+No complete curvature reconstruction or all-frame classification follows here.
+Even a vanishing sixth coefficient when V=0 can leave W if T=0.
+
+The proof begins with radial Jacobi fields. Because ∇R=0,
+dexp_X=P_X S_X, S_X=Σ(-J_X)^r/(2r+1)!, J_X(Y)=R(Y,X)X. The normal-chart
+metric g_o(S_XY,S_XZ) is analytic and even, including null X and non-diagonalizable
+J_X. Radial reflection is a local isometry; midpoint/origin reflection composition
+transports U in parallel. Its local isometry algebra has transvection subspace
+p=T_oM, isotropy h and [X,Y]=−R(X,Y), [H,X]=HX. A Killing-jet computation
+fixes these signs. Local inverse-function factorization G=exp(Z)k and the point
+symmetry σ imply exp(2Z)=Gσ(G)^−1. Translating A(s) to o therefore gives
+
+    Z=1/2 log[exp(−sU)exp(Ln)exp(2bU)exp(Ln)exp(−sU)], F=g_o(Z,Z).
+
+No global positive-definite decomposition, Killing-form metric or discarded
+flat direction is used. With s=Lx,b=Ly, the palindrome makes Z odd in L.
+Exact associative expansion through degree7, curvature pairings and the
+integrability relation above give F through degree8. Its leading terms are
+F/L²=1−(y−x)²−T(x²+xy+y²)L²/3+O(L⁴). Solving the two actual incidences and
+differentiating their endpoints yields d4,d6; the higher polynomials and word
+coefficients are saved with the proof. They were not fitted to control metrics.
+
+Analyticity and nonzero limit-root derivatives at(0,1) and(2,1) give the Taylor
+remainder and emission derivatives for each fixed geometry/frame. This is no
+uniform boost bound, finite-distance error constant, caustic theorem or extension
+to ∇R≠0. The coefficients have dimensions length^-4,length^-6. Formal signed-L
+evenness continues the root into the past; it does not identify the two physical
+future experiments n and−n. The Kasner cubic failure lies outside this symmetry
+class and survives unchanged.
+
+Independent source-first tilted ultrastatic sphere controls find
+d4=3483/10000,d6=−1371951/16000000 at their specified unit-curvature frame;
+a negative tilt gives d4=−567/10000. Parent free-word replay and original
+signed product/plane-wave controls challenge the general algebra; two fresh
+reviews inspect its geometry, contractions and actual return. Their numerical
+cases corroborate the analytic result, without proving it by sampling. Shared
+model/libraries and partly coincident control sheets limit independence. Actual
+captured receipts and final attestations own completion status.
+
+IEC1 interprets the net prepared-clock diagnostic. It does not identify DDR's
+response, require scalar sufficiency FC, select native geometry/scale or assign
+the additional positional component. ∇R=0 and the controls remain supplied;
+universal governing law does not require identical observations. The native pair
+assignment, physical FC admission and all-frame rigidity remain open. FCW1's
+completion/RG lead is unchanged and was not pursued. Sources: [reviewed formula](udt_invariant_echo_curvature_2026-10-03/REVIEWED_RESULT.md),
+[local proof](udt_invariant_echo_curvature_2026-10-03/DERIVATION_COMPLETION.md),
+[saved exact coefficients](udt_invariant_echo_curvature_2026-10-03/UNIVERSAL_FORMAL_RESULT.json),
+[direction corollary](udt_invariant_echo_curvature_2026-10-03/DIRECTION_COROLLARY.md)
+and [descendant review](udt_invariant_echo_curvature_2026-10-03/DESCENDANT_REVIEW.md).
+
 
 <a id="r8pcc"></a>
 
@@ -3195,13 +3306,24 @@ order; a proposed regular conformal completion fixes a restricted pole exponent
 but leaves interior histories free. These are explicit conditional gains beyond
 repeating a nonselection argument. FC and RG are new UNADOPTED physical trials,
 not hidden consequences of universality or the founding interpretation. The
-recommended next discussion is an invariant sixth-order echo derivation on a
-declared locally symmetric sector, with source-preserving counterexamples and
-review. That geometric investigation need not adopt FC. Completion/protocol
-robustness is a second option; a physical reason for RG is still absent. The
+first recommended derivation is now completed by IEC1 in R8IEC: the general
+locally symmetric echo includes a quartic transverse-curvature term and an
+explicit sixth-order contraction. The earlier coefficient survives for tidal
+eigen-directions. Opposite preparations separate geometric information without
+adopting FC. Completion/protocol robustness remains a second option; a physical
+reason for RG is still absent. The
 [FCW1 decision brief](udt_finite_comparison_whiteboard_2026-10-03/DECISION_BRIEF.md)
 returns these targets, alternatives and hypothesis costs. No successor, physical
 adoption, field-law selection or new campaign starts automatically.
+
+IEC1's next recommended discussion is a bounded selectivity test within the same
+supplied ∇R=0 class: can one smooth scalar q=Q(p) across all regular PSW frames/
+directions coexist with non-space-form curvature? Arbitrary Q and the specific
+ECS relation must be distinguished, including degeneracies. This would test the
+cost/selectivity of the still-UNADOPTED FC proposal, not derive its physical
+authority from universality. The [IEC1 decision brief](udt_invariant_echo_curvature_2026-10-03/DECISION_BRIEF.md)
+states the proposed algebra/control/review budget, alternatives and return point.
+No such all-frame theorem is claimed or successor authorized by this return.
 
 NGD1's numerical return in R12N adds a validated comparison tool and finite
 nonlinear clock-shift histories. Its positive contribution relative to a specified
@@ -3935,7 +4057,7 @@ names the retained hypotheses and limits. Actual final reports/attestations and
 the current review record own the review outcome and frozen edition. No original
 scientific calculation is replayed or newly certified by this meaning update;
 existing regression, version and premise checks retain their narrower roles.
-The maintained disposition count now includes51 later returns/clarifications.
+The maintained disposition count now includes52 later returns/clarifications.
 
 ERC1 uses two fresh source-first contexts followed by exposed actual-candidate
 and final integration review, sharing the inherited model and scientific libraries.
@@ -4027,6 +4149,20 @@ or physical-admission review is claimed. [FCW1 work record](udt_finite_compariso
 and [descendant review](udt_finite_comparison_whiteboard_2026-10-03/DESCENDANT_REVIEW.md)
 retain omissions, quantifiers and positive/negative scope. Actual final attestations
 and captured required-check receipts own closure status, not this chronology.
+
+IEC1 uses two fresh separate source-first/exposed/final reviewer contexts. Each
+independently constructed a tilted spherical control before candidate exposure;
+their measured sheets and principal parameters coincide, so these are not two
+complementary class surveys. The parent derives the general formula by local
+symmetric-space algebra and replays its associative word identity. The reviewed
+signature-independent Jacobi/transvection proof, actual later-return derivatives,
+independent full-interval/control comparisons and hand quartic audit support the
+result at its stated scope. Shared model/libraries/methods remain explicit;
+no physical or empirical acceptance is implied. Initial candidates and proof
+completion are preserved. [IEC1 work record](udt_invariant_echo_curvature_2026-10-03/WORK_RECORD.md)
+and [descendant review](udt_invariant_echo_curvature_2026-10-03/DESCENDANT_REVIEW.md)
+retain discovery, execution, omissions and positive/negative changes. Actual
+final attestations and required-check receipts own closure status.
 
 The preserved first candidates expose the repair history. The [source correction](development_reconstruction_2026-09-29/SOURCE_CORRECTIONS.md)
 fixes a real covector-basis sign in G310; the central nine-direction span and

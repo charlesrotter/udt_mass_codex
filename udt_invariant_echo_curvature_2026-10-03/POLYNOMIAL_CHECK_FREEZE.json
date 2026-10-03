@@ -1,0 +1,12 @@
+{
+  "utc": "2026-10-03T17:47:46.997114+00:00",
+  "change": "Same equations/cases; fixed-degree Q[e]/e4 arithmetic and stage output, no thresholds/science changes. Third parent script, initial run preserved.",
+  "sha256": {
+    "POLYNOMIAL_CHECK_PLAN.md": "f78d1dd7aa1fec68ba4807c3884df618dd35095a14c815a01027aa447b07cdda",
+    "check_candidate_polynomial.py": "46ee0b5362a8dfae78a97d3d4e0809e2663f4d34ffe83b1ae5bfcce0145cf0a1",
+    "check_candidate.py": "b6d5b67f6924d4c368285e231e1970d92103582537090c92e9e0b5d1217f02c3",
+    "CHECK_FREEZE.json": "1a89824ca3f0f1930f2a5f8fd0d47ce6a1bd5ab401b960a30e7749818d0a0281",
+    "INITIAL_CANDIDATE.md": "43d1e16e32f3805ffe595afc951d8b910b37c96256bed21b68f33ff5ed0eec84",
+    "UNIVERSAL_FORMAL_RESULT.json": "fe8d68c2f155ae9fcff7be74dc0d2815ae7e8bb0f0bae486949671e39fe6e2d5"
+  }
+}

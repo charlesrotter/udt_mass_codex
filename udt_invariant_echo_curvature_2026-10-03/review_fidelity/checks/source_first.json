@@ -1,0 +1,19 @@
+{
+  "command": [
+    "python3",
+    "udt_invariant_echo_curvature_2026-10-03/review_fidelity/check_source_first.py"
+  ],
+  "cwd": "/home/udt-admin/udt_mass_codex",
+  "started_utc": "2026-10-03T17:17:17.768647+00:00",
+  "duration_seconds": 0.6970941540203057,
+  "returncode": 0,
+  "wall_timeout_seconds": null,
+  "cpu_timeout_seconds": null,
+  "address_space_bytes": 2147483648,
+  "memory_scope": "Process virtual address limit",
+  "maxrss_kib": 52232,
+  "forwarded_signals": [],
+  "stdout_sha256": "eb30d4579a2613ff2609dc6b02dea10a5c8d0df84f6a189a9095dabcc224d164",
+  "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "capture_sha256": "217cdbac5486e8a531552f4d74a15ce641299b65dafb5d58f7b60f4ba51781bc"
+}

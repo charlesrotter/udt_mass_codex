@@ -1,0 +1,29 @@
+{
+  "sealed_utc": "2026-10-03T17:16:50.715118+00:00",
+  "candidate_exposure": "none",
+  "context": "/root/iec_math",
+  "files": {
+    "udt_invariant_echo_curvature_2026-10-03/review_math/SOURCE_FIRST.md": "fccc119773ce129869d7c02333ebddf181a09b558aed80db4e0b4ab1a1989108",
+    "udt_invariant_echo_curvature_2026-10-03/review_math/SOURCE_FIRST_RESULT.json": "3b77329bd7c1c8bcb1540eb8c2915edf9669c8f4a2399368184ef571cbefee54",
+    "udt_invariant_echo_curvature_2026-10-03/review_math/TEST_DESIGN.md": "7be9617dd2f9be8a4bf20e149c93f43568ca2a2f30023a3a62a8088f0282b354",
+    "udt_invariant_echo_curvature_2026-10-03/review_math/check_source_first.py": "568f86a76e71be67f79f94c22ffef16f161d2e49a687cfc0d500f25b9246a017",
+    "udt_invariant_echo_curvature_2026-10-03/review_math/source_first_capture.json": "eb29bc9710e9a01e2a0410c9320ded9f73b4680d8053ff3e2eca7130b6e65571",
+    "udt_invariant_echo_curvature_2026-10-03/review_math/source_first_capture.stderr": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "udt_invariant_echo_curvature_2026-10-03/review_math/source_first_capture.stdout": "c17f5618a6a6dbcf6b6d4496862fff2c6e422b8d54238ebae60cdfb0afa0a6d0"
+  },
+  "sources": {
+    "AGENTS.md": "bcab9b67305e0314af9eaf25162d203660eae8f2ff4fd87d17e83588970ef38d",
+    "CLAUDE.md": "4ad2e773defb89cc79541fd0ababd75af5a3344ab134ee83722dfd943966e6e4",
+    ".claude/skills/no-shortcuts/SKILL.md": "fd3a1f3218481134f2af829d3ae4175ac53518f75bf9673287efbfb7d7708fc1",
+    ".claude/skills/completeness-map/SKILL.md": "a8cf9e5f4a6d35a0d0ebfe4bc48dbf328ca74e318f020a6a22cb683666a611c0",
+    ".claude/skills/verifier-before-record/SKILL.md": "9b3a4aacd4b4006b2b7f01edada73b7c87b99bea6e754583558713bfc145e5ac",
+    "UDT_DEVELOPMENT.md": "5f15ce85994e8075da320ab0e1552c16227dd273db855d592854cd4e02aa578a",
+    "udt_invariant_echo_curvature_2026-10-03/WORK_ORDER.md": "f23fbcb876045d851e50e2559556282f0a2214c98357e01f72df88ac1f4632c9",
+    "udt_invariant_echo_curvature_2026-10-03/BASELINE.json": "08934b33138a5cf28332849cf16c401b12267c1855a5ad2ec90fa20a983b472a",
+    "udt_positional_selection_whiteboard_2026-10-01/INITIAL_CANDIDATE.md": "95ed91cca818cd6f1b7de819396f61ad2a24dc741f763334ed52e7bf769ad1b1",
+    "udt_positional_selection_whiteboard_2026-10-01/REPAIR.md": "696a97a3b59c37a88a1044dae940df9a18414aabada55335f495217e4f226a97",
+    "udt_positional_selection_whiteboard_2026-10-01/REVIEWED_RESULT.md": "1b217aa30932d3986557abb7e95f7d1e8a8196946e75091794b1ef06058e2911",
+    "udt_finite_comparison_whiteboard_2026-10-03/INITIAL_SYNTHESIS.md": "0de6578288242659c9f14f730d12f52a563ae48f7957696a93b13a65450af96e",
+    "udt_time_live_production_survey_2026-10-01/capture.py": "217cdbac5486e8a531552f4d74a15ce641299b65dafb5d58f7b60f4ba51781bc"
+  }
+}

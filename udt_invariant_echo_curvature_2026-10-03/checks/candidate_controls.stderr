@@ -1,0 +1,328 @@
+Traceback (most recent call last):
+  File "/home/udt-admin/.local/lib/python3.10/site-packages/sympy/core/assumptions.py", line 499, in getit
+    return self._assumptions[fact]
+KeyError: 'nonnegative'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/udt-admin/.local/lib/python3.10/site-packages/sympy/core/assumptions.py", line 499, in getit
+    return self._assumptions[fact]
+KeyError: 'zero'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/udt-admin/.local/lib/python3.10/site-packages/sympy/core/assumptions.py", line 499, in getit
+    return self._assumptions[fact]
+KeyError: 'zero'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/udt-admin/.local/lib/python3.10/site-packages/sympy/core/assumptions.py", line 499, in getit
+    return self._assumptions[fact]
+KeyError: 'zero'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/udt-admin/.local/lib/python3.10/site-packages/sympy/core/assumptions.py", line 499, in getit
+    return self._assumptions[fact]
+KeyError: 'zero'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/udt-admin/.local/lib/python3.10/site-packages/sympy/core/assumptions.py", line 499, in getit
+    return self._assumptions[fact]
+KeyError: 'zero'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/udt-admin/.local/lib/python3.10/site-packages/sympy/core/assumptions.py", line 499, in getit
+    return self._assumptions[fact]
+KeyError: 'zero'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/udt-admin/.local/lib/python3.10/site-packages/sympy/core/assumptions.py", line 499, in getit
+    return self._assumptions[fact]
+KeyError: 'zero'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/udt-admin/.local/lib/python3.10/site-packages/sympy/core/assumptions.py", line 499, in getit
+    return self._assumptions[fact]
+KeyError: 'zero'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/udt-admin/.local/lib/python3.10/site-packages/sympy/core/assumptions.py", line 499, in getit
+    return self._assumptions[fact]
+KeyError: 'zero'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/udt-admin/.local/lib/python3.10/site-packages/sympy/core/assumptions.py", line 499, in getit
+    return self._assumptions[fact]
+KeyError: 'zero'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/udt-admin/.local/lib/python3.10/site-packages/sympy/core/assumptions.py", line 499, in getit
+    return self._assumptions[fact]
+KeyError: 'zero'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/udt-admin/udt_mass_codex/udt_invariant_echo_curvature_2026-10-03/check_candidate.py", line 93, in <module>
+    product_case('spaceform_'+str(k),[0,1,2,3],k,U,aa*m+bb*basis(1))
+  File "/home/udt-admin/udt_mass_codex/udt_invariant_echo_curvature_2026-10-03/check_candidate.py", line 88, in product_case
+    record(name,F,G,R,U,n)
+  File "/home/udt-admin/udt_mass_codex/udt_invariant_echo_curvature_2026-10-03/check_candidate.py", line 63, in record
+    got=clocks(F);inv=invariants(g,R,U,n)
+  File "/home/udt-admin/udt_mass_codex/udt_invariant_echo_curvature_2026-10-03/check_candidate.py", line 48, in clocks
+    qs=trunc(-Fy.subs({x:xx,y:yy},simultaneous=True)/Fx.subs({x:xx,y:yy},simultaneous=True))
+  File "/home/udt-admin/udt_mass_codex/udt_invariant_echo_curvature_2026-10-03/check_candidate.py", line 38, in trunc
+    def trunc(a,n=4):return S.series(a,e,0,n).removeO().expand()
+  File "/home/udt-admin/.local/lib/python3.10/site-packages/sympy/series/series.py", line 63, in series
+    return expr.series(x, x0, n, dir)
+  File "/home/udt-admin/.local/lib/python3.10/site-packages/sympy/core/expr.py", line 3015, in series
+    rv = self.subs(x, xpos).series(xpos, x0, n, dir, logx=logx, cdir=cdir)
+  File "/home/udt-admin/.local/lib/python3.10/site-packages/sympy/core/expr.py", line 3023, in series
+    s1 = self._eval_nseries(x, n=n, logx=logx, cdir=cdir)
+  File "/home/udt-admin/.local/lib/python3.10/site-packages/sympy/core/mul.py", line 1972, in _eval_nseries
+    s = t.nseries(x, n=n1, logx=logx, cdir=cdir)
+  File "/home/udt-admin/.local/lib/python3.10/site-packages/sympy/core/expr.py", line 3396, in nseries
+    return self._eval_nseries(x, n=n, logx=logx, cdir=cdir)
+  File "/home/udt-admin/.local/lib/python3.10/site-packages/sympy/core/power.py", line 1498, in _eval_nseries
+    self = powdenest(self, force=True).trigsimp()
+  File "/home/udt-admin/.local/lib/python3.10/site-packages/sympy/simplify/powsimp.py", line 600, in powdenest
+    return powdenest(eq, force=False, polar=polar).xreplace(reps)
+  File "/home/udt-admin/.local/lib/python3.10/site-packages/sympy/simplify/powsimp.py", line 606, in powdenest
+    new = powsimp(eq)
+  File "/home/udt-admin/.local/lib/python3.10/site-packages/sympy/simplify/powsimp.py", line 120, in powsimp
+    return recurse(expr*_y, deep=False)/_y
+  File "/home/udt-admin/.local/lib/python3.10/site-packages/sympy/simplify/powsimp.py", line 108, in recurse
+    return powsimp(arg, _deep, _combine, _force, _measure)
+  File "/home/udt-admin/.local/lib/python3.10/site-packages/sympy/simplify/powsimp.py", line 374, in powsimp
+    recurse(newexpr, combine='base')
+  File "/home/udt-admin/.local/lib/python3.10/site-packages/sympy/simplify/powsimp.py", line 108, in recurse
+    return powsimp(arg, _deep, _combine, _force, _measure)
+  File "/home/udt-admin/.local/lib/python3.10/site-packages/sympy/simplify/powsimp.py", line 392, in powsimp
+    if not (all(x.is_nonnegative for x in b.as_numer_denom()) or e.is_integer or force or b.is_polar):
+  File "/home/udt-admin/.local/lib/python3.10/site-packages/sympy/simplify/powsimp.py", line 392, in <genexpr>
+    if not (all(x.is_nonnegative for x in b.as_numer_denom()) or e.is_integer or force or b.is_polar):
+  File "/home/udt-admin/.local/lib/python3.10/site-packages/sympy/core/assumptions.py", line 503, in getit
+    return _ask(fact, self)
+  File "/home/udt-admin/.local/lib/python3.10/site-packages/sympy/core/assumptions.py", line 559, in _ask
+    fact_i_value = handler_i(obj)
+  File "/home/udt-admin/.local/lib/python3.10/site-packages/sympy/core/add.py", line 860, in _eval_is_extended_negative
+    v = _monotonic_sign(a)
+  File "/home/udt-admin/.local/lib/python3.10/site-packages/sympy/core/exprtools.py", line 121, in _monotonic_sign
+    d = self.diff(x)
+  File "/home/udt-admin/.local/lib/python3.10/site-packages/sympy/core/expr.py", line 3575, in diff
+    return _derivative_dispatch(self, *symbols, **assumptions)
+  File "/home/udt-admin/.local/lib/python3.10/site-packages/sympy/core/function.py", line 1908, in _derivative_dispatch
+    return Derivative(expr, *variables, **kwargs)
+  File "/home/udt-admin/.local/lib/python3.10/site-packages/sympy/core/function.py", line 1437, in __new__
+    if obj is not None and obj.is_zero:
+  File "/home/udt-admin/.local/lib/python3.10/site-packages/sympy/core/assumptions.py", line 503, in getit
+    return _ask(fact, self)
+  File "/home/udt-admin/.local/lib/python3.10/site-packages/sympy/core/assumptions.py", line 559, in _ask
+    fact_i_value = handler_i(obj)
+  File "/home/udt-admin/.local/lib/python3.10/site-packages/sympy/core/add.py", line 776, in _eval_is_extended_positive
+    v = _monotonic_sign(a)
+  File "/home/udt-admin/.local/lib/python3.10/site-packages/sympy/core/exprtools.py", line 121, in _monotonic_sign
+    d = self.diff(x)
+  File "/home/udt-admin/.local/lib/python3.10/site-packages/sympy/core/expr.py", line 3575, in diff
+    return _derivative_dispatch(self, *symbols, **assumptions)
+  File "/home/udt-admin/.local/lib/python3.10/site-packages/sympy/core/function.py", line 1908, in _derivative_dispatch
+    return Derivative(expr, *variables, **kwargs)
+  File "/home/udt-admin/.local/lib/python3.10/site-packages/sympy/core/function.py", line 1437, in __new__
+    if obj is not None and obj.is_zero:
+  File "/home/udt-admin/.local/lib/python3.10/site-packages/sympy/core/assumptions.py", line 503, in getit
+    return _ask(fact, self)
+  File "/home/udt-admin/.local/lib/python3.10/site-packages/sympy/core/assumptions.py", line 559, in _ask
+    fact_i_value = handler_i(obj)
+  File "/home/udt-admin/.local/lib/python3.10/site-packages/sympy/core/add.py", line 776, in _eval_is_extended_positive
+    v = _monotonic_sign(a)
+  File "/home/udt-admin/.local/lib/python3.10/site-packages/sympy/core/exprtools.py", line 121, in _monotonic_sign
+    d = self.diff(x)
+  File "/home/udt-admin/.local/lib/python3.10/site-packages/sympy/core/expr.py", line 3575, in diff
+    return _derivative_dispatch(self, *symbols, **assumptions)
+  File "/home/udt-admin/.local/lib/python3.10/site-packages/sympy/core/function.py", line 1908, in _derivative_dispatch
+    return Derivative(expr, *variables, **kwargs)
+  File "/home/udt-admin/.local/lib/python3.10/site-packages/sympy/core/function.py", line 1437, in __new__
+    if obj is not None and obj.is_zero:
+  File "/home/udt-admin/.local/lib/python3.10/site-packages/sympy/core/assumptions.py", line 503, in getit
+    return _ask(fact, self)
+  File "/home/udt-admin/.local/lib/python3.10/site-packages/sympy/core/assumptions.py", line 559, in _ask
+    fact_i_value = handler_i(obj)
+  File "/home/udt-admin/.local/lib/python3.10/site-packages/sympy/core/add.py", line 860, in _eval_is_extended_negative
+    v = _monotonic_sign(a)
+  File "/home/udt-admin/.local/lib/python3.10/site-packages/sympy/core/exprtools.py", line 121, in _monotonic_sign
+    d = self.diff(x)
+  File "/home/udt-admin/.local/lib/python3.10/site-packages/sympy/core/expr.py", line 3575, in diff
+    return _derivative_dispatch(self, *symbols, **assumptions)
+  File "/home/udt-admin/.local/lib/python3.10/site-packages/sympy/core/function.py", line 1908, in _derivative_dispatch
+    return Derivative(expr, *variables, **kwargs)
+  File "/home/udt-admin/.local/lib/python3.10/site-packages/sympy/core/function.py", line 1437, in __new__
+    if obj is not None and obj.is_zero:
+  File "/home/udt-admin/.local/lib/python3.10/site-packages/sympy/core/assumptions.py", line 503, in getit
+    return _ask(fact, self)
+  File "/home/udt-admin/.local/lib/python3.10/site-packages/sympy/core/assumptions.py", line 559, in _ask
+    fact_i_value = handler_i(obj)
+  File "/home/udt-admin/.local/lib/python3.10/site-packages/sympy/core/add.py", line 860, in _eval_is_extended_negative
+    v = _monotonic_sign(a)
+  File "/home/udt-admin/.local/lib/python3.10/site-packages/sympy/core/exprtools.py", line 121, in _monotonic_sign
+    d = self.diff(x)
+  File "/home/udt-admin/.local/lib/python3.10/site-packages/sympy/core/expr.py", line 3575, in diff
+    return _derivative_dispatch(self, *symbols, **assumptions)
+  File "/home/udt-admin/.local/lib/python3.10/site-packages/sympy/core/function.py", line 1908, in _derivative_dispatch
+    return Derivative(expr, *variables, **kwargs)
+  File "/home/udt-admin/.local/lib/python3.10/site-packages/sympy/core/function.py", line 1437, in __new__
+    if obj is not None and obj.is_zero:
+  File "/home/udt-admin/.local/lib/python3.10/site-packages/sympy/core/assumptions.py", line 503, in getit
+    return _ask(fact, self)
+  File "/home/udt-admin/.local/lib/python3.10/site-packages/sympy/core/assumptions.py", line 559, in _ask
+    fact_i_value = handler_i(obj)
+  File "/home/udt-admin/.local/lib/python3.10/site-packages/sympy/core/add.py", line 776, in _eval_is_extended_positive
+    v = _monotonic_sign(a)
+  File "/home/udt-admin/.local/lib/python3.10/site-packages/sympy/core/exprtools.py", line 121, in _monotonic_sign
+    d = self.diff(x)
+  File "/home/udt-admin/.local/lib/python3.10/site-packages/sympy/core/expr.py", line 3575, in diff
+    return _derivative_dispatch(self, *symbols, **assumptions)
+  File "/home/udt-admin/.local/lib/python3.10/site-packages/sympy/core/function.py", line 1908, in _derivative_dispatch
+    return Derivative(expr, *variables, **kwargs)
+  File "/home/udt-admin/.local/lib/python3.10/site-packages/sympy/core/function.py", line 1437, in __new__
+    if obj is not None and obj.is_zero:
+  File "/home/udt-admin/.local/lib/python3.10/site-packages/sympy/core/assumptions.py", line 503, in getit
+    return _ask(fact, self)
+  File "/home/udt-admin/.local/lib/python3.10/site-packages/sympy/core/assumptions.py", line 559, in _ask
+    fact_i_value = handler_i(obj)
+  File "/home/udt-admin/.local/lib/python3.10/site-packages/sympy/core/add.py", line 776, in _eval_is_extended_positive
+    v = _monotonic_sign(a)
+  File "/home/udt-admin/.local/lib/python3.10/site-packages/sympy/core/exprtools.py", line 121, in _monotonic_sign
+    d = self.diff(x)
+  File "/home/udt-admin/.local/lib/python3.10/site-packages/sympy/core/expr.py", line 3575, in diff
+    return _derivative_dispatch(self, *symbols, **assumptions)
+  File "/home/udt-admin/.local/lib/python3.10/site-packages/sympy/core/function.py", line 1908, in _derivative_dispatch
+    return Derivative(expr, *variables, **kwargs)
+  File "/home/udt-admin/.local/lib/python3.10/site-packages/sympy/core/function.py", line 1437, in __new__
+    if obj is not None and obj.is_zero:
+  File "/home/udt-admin/.local/lib/python3.10/site-packages/sympy/core/assumptions.py", line 503, in getit
+    return _ask(fact, self)
+  File "/home/udt-admin/.local/lib/python3.10/site-packages/sympy/core/assumptions.py", line 559, in _ask
+    fact_i_value = handler_i(obj)
+  File "/home/udt-admin/.local/lib/python3.10/site-packages/sympy/core/add.py", line 776, in _eval_is_extended_positive
+    v = _monotonic_sign(a)
+  File "/home/udt-admin/.local/lib/python3.10/site-packages/sympy/core/exprtools.py", line 121, in _monotonic_sign
+    d = self.diff(x)
+  File "/home/udt-admin/.local/lib/python3.10/site-packages/sympy/core/expr.py", line 3575, in diff
+    return _derivative_dispatch(self, *symbols, **assumptions)
+  File "/home/udt-admin/.local/lib/python3.10/site-packages/sympy/core/function.py", line 1908, in _derivative_dispatch
+    return Derivative(expr, *variables, **kwargs)
+  File "/home/udt-admin/.local/lib/python3.10/site-packages/sympy/core/function.py", line 1437, in __new__
+    if obj is not None and obj.is_zero:
+  File "/home/udt-admin/.local/lib/python3.10/site-packages/sympy/core/assumptions.py", line 503, in getit
+    return _ask(fact, self)
+  File "/home/udt-admin/.local/lib/python3.10/site-packages/sympy/core/assumptions.py", line 559, in _ask
+    fact_i_value = handler_i(obj)
+  File "/home/udt-admin/.local/lib/python3.10/site-packages/sympy/core/add.py", line 776, in _eval_is_extended_positive
+    v = _monotonic_sign(a)
+  File "/home/udt-admin/.local/lib/python3.10/site-packages/sympy/core/exprtools.py", line 121, in _monotonic_sign
+    d = self.diff(x)
+  File "/home/udt-admin/.local/lib/python3.10/site-packages/sympy/core/expr.py", line 3575, in diff
+    return _derivative_dispatch(self, *symbols, **assumptions)
+  File "/home/udt-admin/.local/lib/python3.10/site-packages/sympy/core/function.py", line 1908, in _derivative_dispatch
+    return Derivative(expr, *variables, **kwargs)
+  File "/home/udt-admin/.local/lib/python3.10/site-packages/sympy/core/function.py", line 1437, in __new__
+    if obj is not None and obj.is_zero:
+  File "/home/udt-admin/.local/lib/python3.10/site-packages/sympy/core/assumptions.py", line 503, in getit
+    return _ask(fact, self)
+  File "/home/udt-admin/.local/lib/python3.10/site-packages/sympy/core/assumptions.py", line 559, in _ask
+    fact_i_value = handler_i(obj)
+  File "/home/udt-admin/.local/lib/python3.10/site-packages/sympy/core/add.py", line 860, in _eval_is_extended_negative
+    v = _monotonic_sign(a)
+  File "/home/udt-admin/.local/lib/python3.10/site-packages/sympy/core/exprtools.py", line 121, in _monotonic_sign
+    d = self.diff(x)
+  File "/home/udt-admin/.local/lib/python3.10/site-packages/sympy/core/expr.py", line 3575, in diff
+    return _derivative_dispatch(self, *symbols, **assumptions)
+  File "/home/udt-admin/.local/lib/python3.10/site-packages/sympy/core/function.py", line 1908, in _derivative_dispatch
+    return Derivative(expr, *variables, **kwargs)
+  File "/home/udt-admin/.local/lib/python3.10/site-packages/sympy/core/function.py", line 1436, in __new__
+    obj = cls._dispatch_eval_derivative_n_times(expr, v, count)
+  File "/home/udt-admin/.local/lib/python3.10/site-packages/sympy/core/function.py", line 1897, in _dispatch_eval_derivative_n_times
+    return expr._eval_derivative_n_times(v, count)
+  File "/home/udt-admin/.local/lib/python3.10/site-packages/sympy/core/basic.py", line 1954, in _eval_derivative_n_times
+    obj2 = obj._eval_derivative(s)
+  File "/home/udt-admin/.local/lib/python3.10/site-packages/sympy/core/cache.py", line 72, in wrapper
+    retval = cfunc(*args, **kwargs)
+  File "/home/udt-admin/.local/lib/python3.10/site-packages/sympy/core/add.py", line 504, in _eval_derivative
+    return self.func(*[a.diff(s) for a in self.args])
+  File "/home/udt-admin/.local/lib/python3.10/site-packages/sympy/core/add.py", line 504, in <listcomp>
+    return self.func(*[a.diff(s) for a in self.args])
+  File "/home/udt-admin/.local/lib/python3.10/site-packages/sympy/core/expr.py", line 3575, in diff
+    return _derivative_dispatch(self, *symbols, **assumptions)
+  File "/home/udt-admin/.local/lib/python3.10/site-packages/sympy/core/function.py", line 1908, in _derivative_dispatch
+    return Derivative(expr, *variables, **kwargs)
+  File "/home/udt-admin/.local/lib/python3.10/site-packages/sympy/core/function.py", line 1437, in __new__
+    if obj is not None and obj.is_zero:
+  File "/home/udt-admin/.local/lib/python3.10/site-packages/sympy/core/assumptions.py", line 503, in getit
+    return _ask(fact, self)
+  File "/home/udt-admin/.local/lib/python3.10/site-packages/sympy/core/assumptions.py", line 559, in _ask
+    fact_i_value = handler_i(obj)
+  File "/home/udt-admin/.local/lib/python3.10/site-packages/sympy/core/add.py", line 776, in _eval_is_extended_positive
+    v = _monotonic_sign(a)
+  File "/home/udt-admin/.local/lib/python3.10/site-packages/sympy/core/exprtools.py", line 121, in _monotonic_sign
+    d = self.diff(x)
+  File "/home/udt-admin/.local/lib/python3.10/site-packages/sympy/core/expr.py", line 3575, in diff
+    return _derivative_dispatch(self, *symbols, **assumptions)
+  File "/home/udt-admin/.local/lib/python3.10/site-packages/sympy/core/function.py", line 1908, in _derivative_dispatch
+    return Derivative(expr, *variables, **kwargs)
+  File "/home/udt-admin/.local/lib/python3.10/site-packages/sympy/core/function.py", line 1437, in __new__
+    if obj is not None and obj.is_zero:
+  File "/home/udt-admin/.local/lib/python3.10/site-packages/sympy/core/assumptions.py", line 503, in getit
+    return _ask(fact, self)
+  File "/home/udt-admin/.local/lib/python3.10/site-packages/sympy/core/assumptions.py", line 559, in _ask
+    fact_i_value = handler_i(obj)
+  File "/home/udt-admin/.local/lib/python3.10/site-packages/sympy/core/add.py", line 860, in _eval_is_extended_negative
+    v = _monotonic_sign(a)
+  File "/home/udt-admin/.local/lib/python3.10/site-packages/sympy/core/exprtools.py", line 126, in _monotonic_sign
+    currentroots = real_roots(d)
+  File "/home/udt-admin/.local/lib/python3.10/site-packages/sympy/polys/polytools.py", line 7006, in real_roots
+    F = Poly(f, greedy=False)
+  File "/home/udt-admin/.local/lib/python3.10/site-packages/sympy/polys/polytools.py", line 186, in __new__
+    return cls._from_expr(rep, opt)
+  File "/home/udt-admin/.local/lib/python3.10/site-packages/sympy/polys/polytools.py", line 315, in _from_expr
+    rep, opt = _dict_from_expr(rep, opt)
+  File "/home/udt-admin/.local/lib/python3.10/site-packages/sympy/polys/polyutils.py", line 375, in _dict_from_expr
+    expr = expr.expand()
+  File "/home/udt-admin/.local/lib/python3.10/site-packages/sympy/core/cache.py", line 72, in wrapper
+    retval = cfunc(*args, **kwargs)
+  File "/home/udt-admin/.local/lib/python3.10/site-packages/sympy/core/expr.py", line 3673, in expand
+    expr, hit = Expr._expand_hint(expr, hint, deep=deep, **hints)
+  File "/home/udt-admin/.local/lib/python3.10/site-packages/sympy/core/expr.py", line 3604, in _expand_hint
+    arg, arghit = Expr._expand_hint(arg, hint, **hints)
+  File "/home/udt-admin/.local/lib/python3.10/site-packages/sympy/core/expr.py", line 3604, in _expand_hint
+    arg, arghit = Expr._expand_hint(arg, hint, **hints)
+  File "/home/udt-admin/.local/lib/python3.10/site-packages/sympy/core/expr.py", line 3604, in _expand_hint
+    arg, arghit = Expr._expand_hint(arg, hint, **hints)
+  File "/home/udt-admin/.local/lib/python3.10/site-packages/sympy/core/expr.py", line 3612, in _expand_hint
+    newexpr = getattr(expr, hint)(**hints)
+  File "/home/udt-admin/.local/lib/python3.10/site-packages/sympy/core/mul.py", line 951, in _eval_expand_mul
+    t = self.func(plain, term)
+  File "/home/udt-admin/.local/lib/python3.10/site-packages/sympy/core/cache.py", line 72, in wrapper
+    retval = cfunc(*args, **kwargs)
+  File "/home/udt-admin/.local/lib/python3.10/site-packages/sympy/core/operations.py", line 57, in __new__
+    args = list(map(_sympify_, args))
+KeyboardInterrupt

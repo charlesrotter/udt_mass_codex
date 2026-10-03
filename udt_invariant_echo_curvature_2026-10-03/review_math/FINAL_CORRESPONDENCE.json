@@ -1,0 +1,27 @@
+{
+  "utc": "2026-10-03T17:55:26.088891+00:00",
+  "freeze_sha256": "40618013c1693040f9b7248111016df13aeff47b2ac88e5a3ae83fb4be2c13df",
+  "accepted_count": 13199,
+  "protected_prefix_count": 0,
+  "hash_mismatches": [],
+  "changed_inherited": [
+    "CURRENT_RESEARCH_PROGRAM.md",
+    "HANDOFF.md",
+    "LIVE.md",
+    "UDT_DEVELOPMENT.md",
+    "development_reconstruction_2026-09-29/DEVELOPMENT_GRAPH.json",
+    "development_reconstruction_2026-09-29/RECENT_DISPOSITIONS.tsv"
+  ],
+  "changed_from_initial_freeze": [
+    "udt_invariant_echo_curvature_2026-10-03/review_fidelity/CONTROL_INTEGRATION_REVIEW.md"
+  ],
+  "new_since_initial_freeze": [
+    "udt_invariant_echo_curvature_2026-10-03/FREEZE_CORRESPONDENCE_REPAIR.json",
+    "udt_invariant_echo_curvature_2026-10-03/INITIAL_INTEGRATION_FREEZE.json",
+    "udt_invariant_echo_curvature_2026-10-03/review_fidelity/INITIAL_CONTROL_INTEGRATION_REVIEW.md",
+    "udt_invariant_echo_curvature_2026-10-03/review_fidelity/PREFINAL_BINDINGS.json"
+  ],
+  "central_insert_exact": true,
+  "HEAD": "7186fc34f8c4817ec409d1dfd35fd6d1e9b47bb0",
+  "branch": "grok"
+}

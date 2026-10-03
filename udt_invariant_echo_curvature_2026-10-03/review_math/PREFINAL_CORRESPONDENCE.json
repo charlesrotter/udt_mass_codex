@@ -1,0 +1,31 @@
+{
+  "CANDIDATE_FREEZE.json": {
+    "count": 8,
+    "mismatches": []
+  },
+  "CHECK_FREEZE.json": {
+    "count": 4,
+    "mismatches": []
+  },
+  "POLYNOMIAL_CHECK_FREEZE.json": {
+    "count": 6,
+    "mismatches": []
+  },
+  "source_first_payload": {
+    "count": 7,
+    "mismatches": []
+  },
+  "candidate_controls": {
+    "returncode": -2,
+    "streams_match": true
+  },
+  "candidate_polynomial_controls": {
+    "returncode": 0,
+    "streams_match": true
+  },
+  "central_insert_exact": true,
+  "protected_status": {
+    "CANON_unchanged": true,
+    "premise_tsv_unchanged": true
+  }
+}

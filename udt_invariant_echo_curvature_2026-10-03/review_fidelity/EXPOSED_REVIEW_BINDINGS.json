@@ -1,0 +1,16 @@
+{
+  "utc": "2026-10-03T17:27:53.144946+00:00",
+  "verdict": "VERIFIED-WITH-CAVEATS_SCOPED_FIDELITY_AND_CONTROLS",
+  "sha256": {
+    "udt_invariant_echo_curvature_2026-10-03/review_fidelity/EXPOSED_REVIEW.md": "bcc5edcf1bc8fdec45787f2d3eb10525cd659b2eb043048227b554afbc265182",
+    "udt_invariant_echo_curvature_2026-10-03/review_fidelity/EXPOSED_RESULT.json": "b0cc1e4c499cb2459be7cb10fa79e428cd0afceb96fcbe79b896e79a03322ceb",
+    "udt_invariant_echo_curvature_2026-10-03/review_fidelity/EXPOSED_DESIGN_SEAL.json": "792bc8fc54635cc7272fce498831b8298f8ef61d32ec0704fdf745260e8263b4",
+    "udt_invariant_echo_curvature_2026-10-03/review_fidelity/EXPOSED_CHECK_DESIGN.md": "9ca6b8b5c9070462d2e1ad94f83060346482610b1632c0f18b8b6921804ee453",
+    "udt_invariant_echo_curvature_2026-10-03/review_fidelity/check_source_first.py": "82acaaaac9710cc2519ce39f583005a839039a019c3195afdc2fd32a19834b21",
+    "udt_invariant_echo_curvature_2026-10-03/review_fidelity/check_source_first_initial.py": "10645b8cc066ac407609402be8336115b56066c305e82e49d8d4719ad8102fc9",
+    "udt_invariant_echo_curvature_2026-10-03/review_fidelity/checks/exposed.json": "30c2dc5191a2648fbc1842ea58b4e016b72626c64fb4c44f13617bb3b4744cc8",
+    "udt_invariant_echo_curvature_2026-10-03/review_fidelity/checks/exposed.stdout": "b1ae6771adb80374f63ab30b01c317a5c3670e36e721b27154fc27f32595c8f0",
+    "udt_invariant_echo_curvature_2026-10-03/review_fidelity/checks/exposed.stderr": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "udt_invariant_echo_curvature_2026-10-03/review_fidelity/SOURCE_FIRST_SEAL.json": "224a920166016eac0d0e1f9b97764b28bd1b7d2314309a804ebef855792eb6f3"
+  }
+}

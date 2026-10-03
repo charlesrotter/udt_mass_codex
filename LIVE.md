@@ -1,31 +1,31 @@
 # LIVE — operational status
 
 <!-- STARTUP_CURRENT_BEGIN -->
-## CURRENT STATE — FCW1 finite-comparison whiteboard return, 2026-10-03
+## CURRENT STATE — IEC1 invariant echo-curvature return, 2026-10-03
 
 CDR1 remains the central-development architecture; exact grades stay in
 CURRENT_SCIENTIFIC_PREMISES.tsv. LIVE.md owns status. Verify grok HEAD, remote,
-dirt and actual host state. Charles authorized the proposed three-perspective
-whiteboard, cross-examination, short checks, independent review, integration and
-lay return. Fixed evidence is under `udt_finite_comparison_whiteboard_2026-10-03/`;
-UDT_DEVELOPMENT.md R8FCW/R16FCW/R18 owns the maintained argument. No physical
-premise, equation, scale, registry grade or CANON adoption is made.
+dirt and actual host state. Charles authorized pursuit of FCW1's first lead,
+including bounded derivation, checks, fresh separate review, same-premise repair,
+central integration and lay return. Fixed evidence is under
+`udt_invariant_echo_curvature_2026-10-03/`; UDT_DEVELOPMENT.md R8IEC/R18 owns
+the maintained argument; CURRENT_RESEARCH_PROGRAM.md is its generated startup
+excerpt. No physical premise, equation, scale, registry grade
+or CANON adoption is made. FC/RG remain UNADOPTED.
 
-Proposal/cross-examination and bounded CPU checks completed. Two proposers were
-fresh, one explicitly reused after allocation failure; two actual fresh final
-reviewers then performed source-first/exposed reviews. Final attestations and
-normal/maintenance/full406 receipts own acceptance/pass status. No GPU, empirical
-fit, hardware experiment or paused source/carrier campaign ran. No-timeout
-direction persists with finite/resource/manual stops. Preserve protected payloads
-and existing unrelated untracked work.
+The conditional derivation and two fresh source-first/exposed reviews are saved.
+Actual control receipts, final attestations and normal/maintenance/full406
+receipts own completion/pass status. No GPU, empirical fit, hardware experiment
+or paused source/carrier campaign is part of IEC1. No-timeout direction persists
+with finite/resource/manual stops. Preserve protected payloads and unrelated work.
 
-Next: Stop for lay discussion of FCW1. Its decision brief recommends discussing
-an invariant finite-echo derivation, with completion/protocol robustness as a
-second option. Neither starts automatically; the proposed FC/RG conditions remain
-UNADOPTED. A clock anomaly is not the project objective. Later sessions verify
-actual processes. Bindings remain in development_reconstruction_2026-09-29.
+Next: Stop for lay discussion of IEC1. Its decision brief proposes a bounded
+all-frame scalar-rule selectivity test; this is not an automatic successor or
+physical FC adoption. Completion/protocol robustness is still a separate option.
+A clock anomaly is not the project objective. Later sessions verify actual
+processes. Bindings remain in development_reconstruction_2026-09-29.
 TPS1 raw fields/large streams remain local-only; remote compact records cannot
-replay raw-dependent checks. FCW1 evidence is banked only when actual commit/push
+replay raw-dependent checks. IEC1 evidence is banked only when actual commit/push
 and exact-byte checks have completed.
 
 ### Honest claim
@@ -59,10 +59,10 @@ Protected: do not inspect, hash, stage, modify, mine or cite payloads without di
 
 ### Next gate
 
-Stop for lay discussion of the FCW1 conditional whiteboard return. Use central
-R8FCW/R16FCW/R18 and its decision brief. Native geometry/response and positional
-attribution remain open. No automatic successor, physical premise adoption,
-GPU/data campaign or hardware experiment. Existing pauses/protected boundaries
-remain; verify actual processes before claiming host state.
+Stop for lay discussion of IEC1 using central R8IEC/R18 and its decision brief.
+Native geometry/response and positional attribution remain open. No automatic
+successor, physical premise adoption, GPU/data campaign or hardware experiment.
+Existing pauses/protected boundaries remain; verify actual processes before
+claiming host state.
 
 <!-- STARTUP_CURRENT_END -->

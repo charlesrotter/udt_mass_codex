@@ -1,0 +1,24 @@
+{
+  "utc": "2026-10-03T17:53:31.079535+00:00",
+  "verdict": "ACCEPT_CONDITIONAL_SCIENCE_AND_PREFINAL_INTEGRATION; FINAL_FIXED_MAP_PENDING",
+  "sha256": {
+    "udt_invariant_echo_curvature_2026-10-03/review_fidelity/CONTROL_INTEGRATION_REVIEW.md": "525772faa79d0dd463927a3e38910f626ed28fff21159e68e026c6c706a700a0",
+    "udt_invariant_echo_curvature_2026-10-03/review_fidelity/CONTROL_RECEIPT_AUDIT.json": "67e94667c66bd0a66ae5c640450b77d4bf082e1845dfda7fab33a5b02b9ec04a",
+    "udt_invariant_echo_curvature_2026-10-03/WORK_RECORD.md": "6eafcd516ef94a5a09972681c5f0c838431a980ba166d1188503b5765f7fb3df",
+    "udt_invariant_echo_curvature_2026-10-03/CENTRAL_INSERT.md": "e7cc59ebfc886bdf31870971bd196465130d18c7cd469bd515cbc2e5f24ff19c",
+    "udt_invariant_echo_curvature_2026-10-03/REVIEWED_RESULT.md": "970763d68062b00ce8184cb3990a13bda54a01af7c74106eab63a223a83279f2",
+    "udt_invariant_echo_curvature_2026-10-03/DESCENDANT_REVIEW.md": "a732d934a44eec26de1db2dbaa3c4787a64bcf4d47abb36578dc1729f7662eeb",
+    "udt_invariant_echo_curvature_2026-10-03/DECISION_BRIEF.md": "8b401403a143f358a78adc90ad057e565d4aed5dc025a032039e2d08ae96372b",
+    "udt_invariant_echo_curvature_2026-10-03/POLYNOMIAL_CHECK_PLAN.md": "f78d1dd7aa1fec68ba4807c3884df618dd35095a14c815a01027aa447b07cdda",
+    "udt_invariant_echo_curvature_2026-10-03/POLYNOMIAL_CHECK_FREEZE.json": "83e055751464d63806deee7fca224a7d1df8ebb18a8863d827ffb133a2e7bf96",
+    "udt_invariant_echo_curvature_2026-10-03/check_candidate.py": "b6d5b67f6924d4c368285e231e1970d92103582537090c92e9e0b5d1217f02c3",
+    "udt_invariant_echo_curvature_2026-10-03/check_candidate_polynomial.py": "46ee0b5362a8dfae78a97d3d4e0809e2663f4d34ffe83b1ae5bfcce0145cf0a1",
+    "udt_invariant_echo_curvature_2026-10-03/PARENT_POLYNOMIAL_CHECK_RESULT.json": "85b94d24fd3bcb41d3658fb54aa5e34a0d8fbcac22c3cf637bac772920bc4108",
+    "UDT_DEVELOPMENT.md": "2a579b6a49bd19c5466f79461b72134e30454b0c7fdaa824cb94b3969554591a",
+    "CURRENT_RESEARCH_PROGRAM.md": "96e7ca9cf733dba7446284f59af096e59f003ae84f70346600425c4ea2098ce4",
+    "LIVE.md": "2ed37596bbeb5e1877441af152ddffa70ee5f04c4a8b67e3ef7e55014c115447",
+    "HANDOFF.md": "07d1b6018726629137db2497dcfdac7205c3ba3e387bcd02ce31a10b8446338d",
+    "development_reconstruction_2026-09-29/DEVELOPMENT_GRAPH.json": "9b43cd15448359bc1187a2186c7be1a43a8a7657536e92e1359032feaae869fb",
+    "development_reconstruction_2026-09-29/RECENT_DISPOSITIONS.tsv": "ed2fbab569d275edf4db2fa476f8c81f7bd23bd8b424092bb42141b30e76ccf7"
+  }
+}

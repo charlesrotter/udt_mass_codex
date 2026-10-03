@@ -1,0 +1,13 @@
+{
+  "utc": "2026-10-03T17:24:49.491776+00:00",
+  "phase": "EXPOSED_CHECK_DESIGN",
+  "sha256": {
+    "udt_invariant_echo_curvature_2026-10-03/review_fidelity/EXPOSED_CHECK_DESIGN.md": "9ca6b8b5c9070462d2e1ad94f83060346482610b1632c0f18b8b6921804ee453",
+    "udt_invariant_echo_curvature_2026-10-03/review_fidelity/check_source_first.py": "82acaaaac9710cc2519ce39f583005a839039a019c3195afdc2fd32a19834b21",
+    "udt_invariant_echo_curvature_2026-10-03/review_fidelity/check_source_first_initial.py": "10645b8cc066ac407609402be8336115b56066c305e82e49d8d4719ad8102fc9",
+    "udt_invariant_echo_curvature_2026-10-03/INITIAL_CANDIDATE.md": "43d1e16e32f3805ffe595afc951d8b910b37c96256bed21b68f33ff5ed0eec84",
+    "udt_invariant_echo_curvature_2026-10-03/derive_universal.py": "5f5ede29d331547d2f381ea236af11c91075df8e13a697c7d07ed56dcc03d088",
+    "udt_invariant_echo_curvature_2026-10-03/UNIVERSAL_FORMAL_RESULT.json": "fe8d68c2f155ae9fcff7be74dc0d2815ae7e8bb0f0bae486949671e39fe6e2d5",
+    "udt_invariant_echo_curvature_2026-10-03/CANDIDATE_FREEZE.json": "6e05569d8c37e5efec036c42554742797c4107fcdbf18f5b8058a959c4239419"
+  }
+}

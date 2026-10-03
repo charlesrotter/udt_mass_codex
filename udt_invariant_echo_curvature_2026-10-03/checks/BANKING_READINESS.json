@@ -1,0 +1,8 @@
+{
+  "status": "REVIEW_AND_REQUIRED_CHECKS_PASS",
+  "head_before_commit": "7186fc34f8c4817ec409d1dfd35fd6d1e9b47bb0",
+  "origin_before_commit": "7186fc34f8c4817ec409d1dfd35fd6d1e9b47bb0",
+  "preserved_existing_untracked_names": 76,
+  "accepted_files": 13199,
+  "claim_limit": "IEC1 supplied locally symmetric Lorentz4 finite-echo d4/d6 invariants, conditional tidal-eigendirection and opposite-direction corollaries; FC/RG UNADOPTED, all-frame/native physical selection OPEN. Two fresh source-first/exposed/final contexts; inherited evidence retains its original scope."
+}

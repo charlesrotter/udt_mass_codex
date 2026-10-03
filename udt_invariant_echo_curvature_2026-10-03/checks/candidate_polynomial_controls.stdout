@@ -1,0 +1,28 @@
+PASS free associative degree7 identity
+START spaceform_1
+PASS spaceform_1
+START lorentz2_1_0
+PASS lorentz2_1_0
+START lorentz2_1_5/13
+PASS lorentz2_1_5/13
+START lorentz2_1_-5/13
+PASS lorentz2_1_-5/13
+START spatial2_1
+PASS spatial2_1
+START spaceform_-1
+PASS spaceform_-1
+START lorentz2_-1_0
+PASS lorentz2_-1_0
+START lorentz2_-1_5/13
+PASS lorentz2_-1_5/13
+START lorentz2_-1_-5/13
+PASS lorentz2_-1_-5/13
+START spatial2_-1
+PASS spatial2_-1
+START flat
+PASS flat
+START plane_wave_(1, 0)
+PASS plane_wave_(1, 0)
+START plane_wave_(3/5, 4/5)
+PASS plane_wave_(3/5, 4/5)
+{"status": "PASS", "python": "3.10.12", "sympy": "1.13.1", "duration_seconds": 3.384209595969878, "families": 5, "exact_cases": 13, "optional_numeric_cases": 0, "checks": {"free_associative_degree7_identity": true, "truncated_ring_root_and_inverse_identities": true, "original_plane_wave_R_and_nablaR": true, "all_original_metric_clock_coefficients": true, "PSW_leading_coefficients": true, "V0_corollary": true}, "limit": "Exact symbolic identities and supplied original metric controls; no fitted invariant, generic finite-distance certificate or physical law."}

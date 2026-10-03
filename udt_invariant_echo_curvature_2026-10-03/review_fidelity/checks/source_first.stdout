@@ -1,0 +1,37 @@
+{
+  "verdict": "PASS_SCOPED_EXACT_CONTROLS_AND_NUMERICAL_BRANCH_CHECKS",
+  "families": 3,
+  "scalar_cases": 16,
+  "coefficients": [
+    {
+      "name": "orthogonal",
+      "D_coeff2_4_6": [
+        "0",
+        "0",
+        "675*K**3/4096"
+      ],
+      "T_Wnorm2_over3": "675*K**3/4096",
+      "Vnorm2": "0"
+    },
+    {
+      "name": "tilted",
+      "D_coeff2_4_6": [
+        "0",
+        "3483*K**2/10000",
+        "-1371951*K**3/16000000"
+      ],
+      "T_Wnorm2_over3": "27*K**3/400",
+      "Vnorm2": "729*K**2/10000"
+    },
+    {
+      "name": "static",
+      "D_coeff2_4_6": [
+        "0",
+        "0",
+        "0"
+      ],
+      "T_Wnorm2_over3": "0",
+      "Vnorm2": "0"
+    }
+  ]
+}
