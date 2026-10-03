@@ -1,0 +1,4 @@
+Traceback (most recent call last):
+  File "/home/udt-admin/udt_mass_codex/udt_clock_law_physical_whiteboard_2026-10-03/check_conformal_bookkeeping.py", line 20, in <module>
+    assert wrong==-O*go*kb and wrong!=s.zeros(4,1)
+AssertionError

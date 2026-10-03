@@ -1,0 +1,30 @@
+{
+  "status": "PASS",
+  "python": "3.10.12",
+  "sympy": "1.13.1",
+  "families": 3,
+  "assertion_groups": 6,
+  "physical_metric": "eta/Omega^2, supplied control",
+  "null_vector": [
+    5,
+    3,
+    4,
+    0
+  ],
+  "correct_affine_acceleration": [
+    "0",
+    "0",
+    "0",
+    "0"
+  ],
+  "wrong_affine_acceleration": [
+    "5*Omega*(-5*Ot - 3*Ox - 4*Oy)",
+    "3*Omega*(-5*Ot - 3*Ox - 4*Oy)",
+    "4*Omega*(-5*Ot - 3*Ox - 4*Oy)",
+    "0"
+  ],
+  "proper_norm": "-1",
+  "frequency": "Omega*exp(-rho)",
+  "divergent_rapidity_frequency": "1",
+  "scope": "Pointwise conformal bookkeeping only; no free-clock asymptotic/physical selection claim."
+}

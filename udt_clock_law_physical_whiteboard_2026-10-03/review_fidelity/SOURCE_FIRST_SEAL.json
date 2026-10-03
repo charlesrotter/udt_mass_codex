@@ -1,0 +1,21 @@
+{
+  "context": "/root/cpw_review_fidelity",
+  "model": "same inherited Codex GPT-6 family; exact service revision not asserted",
+  "utc": "2026-10-03T20:12:36.028780+00:00",
+  "phase": "before any CPW1 contributor/parent mathematical file or output exposure",
+  "prior_exposure": [
+    "parent task framing and startup attribution",
+    "CPW1 WORK_ORDER",
+    "prior accepted central and controlling source packages"
+  ],
+  "new_cpw_files_read": [
+    "WORK_ORDER.md"
+  ],
+  "head": "d20c30bacee36b713f885d4f9cb6f31799012ac6",
+  "files": {
+    "udt_clock_law_physical_whiteboard_2026-10-03/review_fidelity/SOURCE_FIRST.md": "f8835c42def0d1bd71c5743ff31a6f2696a36a7d7a0f80bc2cc18ba14fa4e464",
+    "udt_clock_law_physical_whiteboard_2026-10-03/review_fidelity/SOURCE_HASHES.json": "c8f21594ecd5a1536ce04e77755dcae17b2946b856d86fb2ba212591dcf5f27f"
+  },
+  "computation": "none; read-only git metadata and cryptographic hashes only",
+  "pending": "exposed candidate and final identical-map review"
+}

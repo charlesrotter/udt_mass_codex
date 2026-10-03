@@ -1,0 +1,86 @@
+{
+  "utc": "2026-10-03T20:16:33.623839+00:00",
+  "kind": "artifact/repair correspondence check, not an independent scientific computation",
+  "freeze_checks": [
+    {
+      "freeze": "CANDIDATE_FREEZE.json",
+      "pinned_files_verified": 9
+    },
+    {
+      "freeze": "PARENT_CHECK_FREEZE.json",
+      "pinned_files_verified": 3
+    },
+    {
+      "freeze": "REPAIR_FREEZE.json",
+      "pinned_files_verified": 6
+    },
+    {
+      "freeze": "geometry/CHECK_FREEZE.json",
+      "pinned_files_verified": 3
+    }
+  ],
+  "receipts": [
+    {
+      "prefix": "udt_clock_law_physical_whiteboard_2026-10-03/geometry/control",
+      "exit": 0,
+      "seconds": 0.28728164097992703,
+      "streams_verified": true,
+      "capture_verified": true,
+      "memory_bytes": 2147483648,
+      "timeouts": [
+        null,
+        null
+      ]
+    },
+    {
+      "prefix": "udt_clock_law_physical_whiteboard_2026-10-03/checks/parent_conformal",
+      "exit": 1,
+      "seconds": 0.3410380159621127,
+      "streams_verified": true,
+      "capture_verified": true,
+      "memory_bytes": 2147483648,
+      "timeouts": [
+        null,
+        null
+      ]
+    },
+    {
+      "prefix": "udt_clock_law_physical_whiteboard_2026-10-03/checks/representation_diagnostic",
+      "exit": 0,
+      "seconds": 0.3245688110473566,
+      "streams_verified": true,
+      "capture_verified": true,
+      "memory_bytes": 2147483648,
+      "timeouts": [
+        null,
+        null
+      ]
+    },
+    {
+      "prefix": "udt_clock_law_physical_whiteboard_2026-10-03/checks/parent_conformal_repaired",
+      "exit": 0,
+      "seconds": 0.4150420119985938,
+      "streams_verified": true,
+      "capture_verified": true,
+      "memory_bytes": 2147483648,
+      "timeouts": [
+        null,
+        null
+      ]
+    }
+  ],
+  "repair_diff": [
+    "--- original",
+    "+++ repaired",
+    "@@ -17,7 +17,7 @@",
+    "  return s.simplify(derivative+connection)",
+    " right=acceleration(2);wrong=acceleration(1)",
+    " assert right==s.zeros(4,1)",
+    "-assert wrong==-O*go*kb and wrong!=s.zeros(4,1)",
+    "+assert (wrong+O*go*kb).applyfunc(s.expand)==s.zeros(4,1) and wrong!=s.zeros(4,1)",
+    " rho=s.symbols('rho',real=True)",
+    " ub=s.Matrix([s.cosh(rho),s.sinh(rho),0,0]);u=O*ub",
+    " ray=s.Matrix([1,1,0,0]);k=O**2*ray"
+  ],
+  "result_stdout_equal": true
+}

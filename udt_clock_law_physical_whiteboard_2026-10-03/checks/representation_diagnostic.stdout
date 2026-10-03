@@ -1,0 +1,1 @@
+{'computed': 'Matrix([[5*Omega*(-5*Ot - 3*Ox - 4*Oy)], [3*Omega*(-5*Ot - 3*Ox - 4*Oy)], [4*Omega*(-5*Ot - 3*Ox - 4*Oy)], [0]])', 'expected': 'Matrix([[-5*Omega*(5*Ot + 3*Ox + 4*Oy)], [-3*Omega*(5*Ot + 3*Ox + 4*Oy)], [-4*Omega*(5*Ot + 3*Ox + 4*Oy)], [0]])', 'expanded_difference': 'Matrix([[0], [0], [0], [0]])', 'nonzero_countercontrol': 'Matrix([[-25], [-15], [-20], [0]])'}

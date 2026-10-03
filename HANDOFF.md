@@ -1,33 +1,33 @@
 # HANDOFF — current operational handoff
 
 <!-- STARTUP_CURRENT_BEGIN -->
-## Current handoff — ESR1 scalar echo-selectivity return, 2026-10-03
+## Current handoff — CPW1 physical clock-law whiteboard return, 2026-10-03
 
 CDR1 remains the central-development architecture; exact grades stay in
 CURRENT_SCIENTIFIC_PREMISES.tsv. LIVE.md owns status. Verify grok HEAD, remote,
-dirt and actual host state. Charles authorized IEC1's proposed bounded scalar
-selectivity study, including construction, short checks, two fresh reviews,
-same-premise repair, central integration and lay return. Fixed evidence is under
-`udt_echo_scalar_rigidity_2026-10-03/`; UDT_DEVELOPMENT.md R8ESR/R18 owns
-the maintained argument. CURRENT_RESEARCH_PROGRAM.md is its generated startup
-excerpt. No physical premise, equation, scale, registry grade or CANON adoption
-is made. FC/RG remain UNADOPTED.
+dirt and actual host state. Charles authorized the bounded three-perspective
+whiteboard, short checks, two fresh adversarial reviews, same-premise repair,
+central integration and lay return. Fixed evidence is under
+`udt_clock_law_physical_whiteboard_2026-10-03/`; UDT_DEVELOPMENT.md
+R8CPW/R16CPW/R18 owns the maintained argument. CURRENT_RESEARCH_PROGRAM.md is
+its generated startup excerpt. No physical premise, equation, scale, registry
+grade or CANON adoption is made. FC/RG remain UNADOPTED.
 
-The conditional proof, exact controls and two fresh source-first/exposed reviews
-are saved. Actual final attestations and normal/maintenance/full406 receipts own
-acceptance/pass status. The initial symbolic comparison failure and same-equation
-repair remain preserved. No GPU, empirical fit, hardware experiment or paused
-source/carrier campaign is part of ESR1. No-timeout direction persists with
-finite/resource/manual stops. Preserve protected payloads and unrelated work.
+Three source-first contributions, two fresh exposed reviews and scoped exact
+controls are saved. Actual final attestations and normal/maintenance/full406
+receipts own acceptance/pass status. The initial symbolic comparison failure
+and same-equation repair remain preserved. No GPU, empirical/hardware campaign
+or generic completion/free-clock theorem is part of CPW1. No-timeout direction
+persists with finite/resource/manual stops. Preserve protected/unrelated work.
 
-Next: Stop for lay discussion of ESR1 and the physical cost of the scalar trial.
-Its decision brief recommends retaining FC as a conditional diagnostic. A
-variable-curvature extension or the separate completion lead needs its own
-bounded decision; neither starts automatically. A clock anomaly is not the
-project objective. Verify actual processes; review bindings remain in
-development_reconstruction_2026-09-29. TPS1 raw fields/large streams remain
-local-only, so remote compact records cannot replay raw-dependent checks.
-ESR1 is banked only when actual commit/push and exact-byte checks have completed.
+Next: Stop for lay discussion of the CPW1 decision brief. The parent proposes
+one optional completion/free-clock robustness test; its exact narrowed scope
+is SUCCESSOR_SCOPE.md in that package. It requires a new bounded decision and
+does not start automatically. This does not adopt RG or a physical clock
+population. A clock anomaly is not the project objective. Verify processes;
+review bindings remain in development_reconstruction_2026-09-29. TPS1 raw
+fields/large streams remain local-only; compact remote records cannot replay
+raw-dependent checks. CPW1 is banked only after actual commit/push and byte checks.
 
 Protected payloads require explicit dispatch; preserve without inspecting/hashing:
 

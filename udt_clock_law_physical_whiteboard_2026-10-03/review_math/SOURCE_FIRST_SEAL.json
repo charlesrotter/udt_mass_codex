@@ -1,0 +1,16 @@
+{
+  "stage": "SOURCE_FIRST_BEFORE_CPW1_CANDIDATE_EXPOSURE",
+  "utc": "2026-10-03T20:12:24.119670+00:00",
+  "reviewer_context": "/root/cpw_review_math",
+  "model": "inherited parent model; no different-model claim",
+  "head": "d20c30bacee36b713f885d4f9cb6f31799012ac6",
+  "branch": "grok",
+  "parent_startup_attribution": "Top-level continuing-session synchronized grok d20c30ba; prior ESR exact full406 pass receipt checked by parent, not rerun by reviewer. Closure audit pending.",
+  "independence": "Fresh separate context; independent elementary conformal argument; no independent code or human review claimed.",
+  "exposure": "Parent dispatch and CPW1 WORK_ORDER; prior exact owners/FCW/ESR and central source. CPW1 contributor, parent candidate/check and peer review contents not read.",
+  "numerical_check": "Not needed; no finite check executed.",
+  "files": {
+    "SOURCE_FIRST.md": "72df5e586cc0e73b44a4e07f420ad222442ce14c94001ec8bdf4a475334343ef",
+    "SOURCE_PINS.json": "4145968752c943ee5ec69ae3027780cd4ed317aa88c2d281ac16702cac89dc45"
+  }
+}

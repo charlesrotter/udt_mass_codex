@@ -1,0 +1,12 @@
+{
+  "utc": "2026-10-03T20:07:42.380241+00:00",
+  "repair": "one structural matrix equality becomes exact expanded-difference equality; equations/cases/negative control unchanged",
+  "sha256": {
+    "udt_clock_law_physical_whiteboard_2026-10-03/check_conformal_bookkeeping.py": "ca4332df63527eeec3f98ce6dbcfdbde89023cbbe41c294016367da8d8ef16ae",
+    "udt_clock_law_physical_whiteboard_2026-10-03/check_conformal_bookkeeping_repaired.py": "34e4c39537378a30c1b58ab3372d941380d7e624329eee4229be7e8d090a6815",
+    "udt_clock_law_physical_whiteboard_2026-10-03/PARENT_CHECK_PLAN.md": "1d6cd0113896c1a6c46911a766446409e83d32fd8ab7af980d10eaac988e8728",
+    "udt_clock_law_physical_whiteboard_2026-10-03/DIAGNOSTIC_PLAN.md": "dac36c7956b68835eb191ecf9fd13ba28436dda1d672e86a8735faac4f9198da",
+    "udt_clock_law_physical_whiteboard_2026-10-03/checks/representation_diagnostic.json": "7f7983829f3e4a1204b778ffd6ab3fc826b12ec2ca8b2f7fa449a21aa431e86f",
+    "udt_clock_law_physical_whiteboard_2026-10-03/checks/representation_diagnostic.stdout": "490756f1441c01a09e04b4b8404dbeab215abfc07bbc1d0a194e11684e70e775"
+  }
+}

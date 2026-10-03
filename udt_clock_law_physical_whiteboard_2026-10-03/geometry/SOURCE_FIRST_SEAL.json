@@ -1,0 +1,20 @@
+{
+  "sealed_utc": "2026-10-03T20:08:00.795061+00:00",
+  "head": "d20c30bacee36b713f885d4f9cb6f31799012ac6",
+  "parent_synthesis_exposure": false,
+  "peer_contributor_exposure": false,
+  "runtime_model": "inherited parent model; exact identifier unattested",
+  "source_hashes_match": true,
+  "capture_streams_and_check_freeze_match": true,
+  "files": {
+    "SOURCE_FIRST.md": "3f0ccd3997ebae9ec5c82660e7b42b36df87c9d377d0abb7f3c21eaaf4f76105",
+    "SOURCE_PINS.json": "6d19a2f3ea8dfb249f86840431214c664c1485d76c848b50d51ef5083676a4f7",
+    "CHECK_PLAN.md": "23ad2ed77abdeb0e57a0df4612f870327baf053916cefe491f04378b7b551bd4",
+    "CHECK_FREEZE.json": "17d61ea84f77fff45888d7faa080887c09d9c6a67244597c4a6e9e30f4cec4ec",
+    "independent_control.py": "a2dcac96ece3cb6b00c3b2e5d5b82a107bb341574c70f4cf2848483379d43fef",
+    "control.json": "31e41dd54b3577d27ef3025d9045bc248bf0d427410e4808e6db1e66c8a8ef04",
+    "control.stdout": "ff57340bdbf847f2e99564f702b6dfe171d8d3e13e0ab9fd0d9329e9cdc04e6e",
+    "control.stderr": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "scope": "Unreviewed source-first geometry contribution; no native physical adoption"
+}

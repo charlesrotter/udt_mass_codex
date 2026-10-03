@@ -1,7 +1,7 @@
 # UDT — continuous scientific development
 
 <!-- DEVELOPMENT_ORIENTATION_BEGIN -->
-**Continuous development — CDR1 with SGE1, LKT1, GCA1, PCW1, CES1, CCR1, PRI1, TRI1, NGD1, TDS1, TPP1, TPS1, PSW1, FPC1, FNA1, FST1, ECS1, PCC1, ERC1, RCD1, PSC1, CMF1, CBR1, FCW1, IEC1 and ESR1, 2026-10-03.** This is the maintained
+**Continuous development — CDR1 with SGE1, LKT1, GCA1, PCW1, CES1, CCR1, PRI1, TRI1, NGD1, TDS1, TPP1, TPS1, PSW1, FPC1, FNA1, FST1, ECS1, PCC1, ERC1, RCD1, PSC1, CMF1, CBR1, FCW1, IEC1, ESR1 and CPW1, 2026-10-03.** This is the maintained
 scientific development. It is not canon or a new scientific-grade authority.
 The exact registry and reviewed sources own grades; LIVE owns operational status.
 Current review bindings and limits are recorded in section9; startup reads the
@@ -208,7 +208,14 @@ flat records fix only its value at1. The proof uses quartic clock information,
 curvature algebra and actual future returns, with independent exact checks.
 FC remains UNADOPTED: universal governing law does not establish scalar sufficiency.
 This result states the trial's mathematical cost, not its physical authority.
-Stop for lay discussion; no extension, adoption or successor starts automatically.
+CPW1's three-perspective whiteboard recommends parking FC as a physical-selection
+extension while retaining its diagnostic and the native scalar kernel. A full
+directional echo evaluator is already established and does not select geometry.
+The parent proposes one separate optional test of RG completion under specified
+moving free clocks and nonuniform geometry. Exact conformal bookkeeping is
+checked; the free-clock limit remains unproved and RG UNADOPTED. The proposed
+first test fixes one receiver and regular interior emissions, not a population
+or distance curve. Stop for lay discussion; no successor or adoption starts.
 <!-- DEVELOPMENT_ORIENTATION_END -->
 
 ## 1. How this development is owned
@@ -1697,6 +1704,67 @@ Retain FC as a conditional diagnostic pending physical justification. Sources:
 [independent tensor argument](udt_echo_scalar_rigidity_2026-10-03/review_fidelity/SOURCE_FIRST.md)
 and [descendant review](udt_echo_scalar_rigidity_2026-10-03/DESCENDANT_REVIEW.md).
 
+<a id="r8cpw"></a>
+
+#### Physical scope of the scalar echo proposal — CPW1
+
+The source-first whiteboard separates the founding positional interpretation
+from FC's extra information restriction. Let P denote the whole prepared
+comparison, including supplied geometry, actual clocks, directions and branches.
+FC implies p(P1)=p(P2) ⇒ q(P1)=q(P2) across its declared preparations.
+Constancy on equal-p sets supplies a set-theoretic Q on the attained image;
+smooth extension near1 is an additional requirement. FC permits varying p;
+its extra demand is that nothing else changes q once p is fixed. The inspected
+owner/source chain does not establish that demand. This is a scoped provenance
+finding, not proof that the complete UDT postulates are insufficient.
+
+All three contributors recommend parking FC as a physical-selection extension
+while keeping its diagnostic and ESR1 theorem. The scalar kernel, ordinary
+proper clocks and one positional geometry stay intact. ESR1 still classifies
+its supplied parallel-curvature class; generic gravity is not thereby excluded.
+Changing physical preparations is distinct from changing coordinates for the
+same experiment. Neither covariance nor no preferred observer equates their
+measurements. An additional positional component cannot be isolated by an
+unjustified subtraction merely to reapply FC to it.
+
+The information-preserving alternative is already present in R6--R8. If
+n1=A(Lambda_plus,n0), r1 is the actual return launch direction, and R_B is a
+rest-frame spatial rotation taking n1 to r1, direct substitution in R7 gives
+
+    p q=1/f(Lambda_minus R_B Lambda_plus,n0).
+
+R_B preserves the time component and redirects this one null vector; many such
+rotations exist and give the same displayed scalar. This is recovered composition
+bookkeeping, not a mirror law, new frequency-transfer premise, physical selector
+or ordinary holonomy assertion. The two transports have different future paths
+and events. A delayed relay requires its own proper-time derivative and shifted
+return argument. ICN1/TRI1 already distinguish pointwise ratios, finite intervals,
+arrival origins, actual return records and absolute cadence; FNA1 already owns
+its complete supplied-pair construction. More complete evaluation data alone
+do not select the physical geometry or additional positional assignment.
+
+Two scoped controls make the data issue explicit. In flat space, B at x=L and
+A at x=0 or x=t²/(8L) have p=1 at emission t=0, but q=1 or
+sqrt(sqrt(2)−1) at the actual future return. The accelerated control is outside
+PSW free-clock preparation. Separately supply g=−dt²+a(t)²dx²+dy²+dz² and
+fixed-coordinate free clocks at x=0,L. Let a=1 through5L/4, smoothly rise to
+1<C≤2 by3L/2, then stay C. For |s|<L/8 the whole outgoing neighborhood is
+flat, b=s+L and p=1. The later return satisfies ∫_b^a_R dt/a(t)=L; it occurs
+after the transition and has q=C, whereas the everywhere-flat control has q=1.
+These are conditional examples, not native-admitted twins, ESR counterexamples
+or proofs that an admitted evolution law cannot determine the future.
+
+No new native equation or required extra postulate was extracted. The parent
+proposes one separate completion/clock-robustness target in R16CPW, rather than
+renaming these established identities as a new selecting law. That target was
+not the three contributors' shared recommendation and remains optional.
+Sources: [synthesis](udt_clock_law_physical_whiteboard_2026-10-03/INITIAL_SYNTHESIS.md),
+[source meanings](udt_clock_law_physical_whiteboard_2026-10-03/fidelity/SOURCE_FIRST.md),
+[direction/flat control](udt_clock_law_physical_whiteboard_2026-10-03/geometry/SOURCE_FIRST.md),
+[actual-record/future-data control](udt_clock_law_physical_whiteboard_2026-10-03/operational/SOURCE_FIRST.md)
+and [reviewed scope](udt_clock_law_physical_whiteboard_2026-10-03/REVIEWED_RESULT.md).
+
+
 <a id="r8pcc"></a>
 
 #### An isotropic additional clock-curvature contribution — PCC1
@@ -2841,6 +2909,60 @@ is a possible second derivation target before any physical RG admission. This
 clock pole is not PSC1's weak-response pole. [FCW1 reviewed scope](udt_finite_comparison_whiteboard_2026-10-03/REVIEWED_RESULT.md)
 retains the proofs, controls and new-hypothesis cost.
 
+<a id="r16cpw"></a>
+
+#### Separating completion from a free-clock limit — CPW1
+
+R16FCW's comoving clocks are already geodesic. The proposed new test asks whether
+its asymptotic slowing survives additional receiver motion and nonuniform
+geometry within the still-UNADOPTED regular-completion class. No theorem about
+those free-clock limits is proved here. This checks an optional geometric
+connection's robustness; it does not justify RG physically.
+
+For a supplied conformal metric g=Omega^-2 gbar, put l=log Omega. Metricity and
+zero torsion give
+
+    nabla^g_X Y=nabla^bar_X Y−X(l)Y−Y(l)X+gbar(X,Y)grad_bar l.
+
+If kbar is affine null for gbar, k=Omega² kbar is affine null for g: the
+2Omega³ kbar(Omega) kbar derivative term cancels the connection correction,
+and the null-norm term vanishes. For an ordinary physical unit clock u,
+ubar=u/Omega is unit for gbar. Thus the R6 observable is exactly
+
+    omega=Omega omegabar,  omegabar=−gbar(kbar,ubar),
+    Z=(Omega_e/Omega_o)(omegabar_e/omegabar_o).
+
+The affine normalization must agree along each ray. If A=Omega_e omegabar_e
+and B=omegabar_o tend to finite positive A*,B*, then Omega_o Z→A*/B*>0.
+Two-sided positive bounds give only order bounds, not a limiting residue.
+Under regular gauge Omega→w Omega,gbar→w²gbar, omegabar→omegabar/w, so Z
+is unchanged but its residue in Omega changes. Omega is not measured distance
+or X_max. Neither a physical boundary nor a distance pole is derived.
+
+Proper normalization alone does not prove the endpoint hypothesis. In gbar=eta,
+kbar=(1,1,0,0), ubar=(cosh rho,sinh rho,0,0) gives omega=Omega exp(−rho).
+The pointwise choice rho=log Omega makes omega=1. This is not a constructed
+free-geodesic receiver family; the actual geodesic equation and preparation
+are the missing check, not a new physical cancellation mechanism.
+
+The proposed first target fixes one receiver geodesic with finite timelike
+initial data approaching a specified regular future boundary patch, and a
+regular conformal null family from compact interior emitter events. Source
+frequency is normalized consistently to1 per ray. Derive or refute the needed
+receiver and endpoint limits without assuming ubar bounded/convergent. This
+varies emissions received by one clock; it is not a fixed-emission distance
+curve or a uniform theorem over receiver populations. Global rays/caustics,
+echo availability, physical RG admission, scale and X_max remain open. The
+beta2 and interior-bump counterexamples in R16FCW retain their full force.
+
+[Proposed exact scope](udt_clock_law_physical_whiteboard_2026-10-03/SUCCESSOR_SCOPE.md)
+and [decision brief](udt_clock_law_physical_whiteboard_2026-10-03/DECISION_BRIEF.md)
+state methods, review/resource budget and stop. The successor is not executed
+by CPW1. The [synthesis](udt_clock_law_physical_whiteboard_2026-10-03/INITIAL_SYNTHESIS.md)
+derives the bookkeeping; actual fresh reviews and short exact controls own
+their narrower validation. No field/source/action equation is adopted.
+
+
 <a id="r17"></a>
 
 ### R17. Useful failed joins have precise limits
@@ -3427,14 +3549,29 @@ scale and global geometry free and supplies no physical authority for FC.
 It strengthens the conditional classification without refuting the weaker
 restricted-sheet mimics or turning universal law into scalar sufficiency.
 
-The current recommendation is to retain FC as a conditional diagnostic and
-discuss its cost before any physical adoption. It constrains total curvature;
-applying it only to an additional positional part would first need justified
-attribution. A variable-curvature extension would be a new mathematical scope,
-not an automatic next step or a proof of physical relevance. The
-[ESR1 decision brief](udt_echo_scalar_rigidity_2026-10-03/DECISION_BRIEF.md)
-records this return and alternatives. The original [IEC1 proposal](udt_invariant_echo_curvature_2026-10-03/DECISION_BRIEF.md)
-remains the fixed authorization precursor. No successor or physical adoption starts.
+CPW1 now completes the physical-meaning whiteboard requested after ESR1.
+Its three independent contributors recommend parking an FC physical-selection
+extension: equal first-ratio preparations need not be equated by universal law.
+The inspected sources do not establish FC, while R6--R8's richer conditional
+comparison law is already available. This is neither a retraction of the scalar
+kernel nor a proof that complete UDT needs a new premise. ESR1 and all earlier
+positive/adverse controls retain their scopes; physical attribution stays open.
+
+The parent recommends ONE distinct optional next derivation, not contributor
+consensus: R16CPW's conformal free-clock robustness test of existing UNADOPTED RG.
+For one specified geodesic receiver and regular interior emission family, derive
+or refute the endpoint control needed for the clock asymptote without assuming
+bounded rescaled receiver velocity. This is a narrower clock-limit question;
+fixed-emission distance curves, uniform populations, physical admission, scale
+and X_max remain separate. Exact bookkeeping is established here, not the
+proposed geodesic theorem. No source/action/Einstein equation is supplied.
+
+The [CPW1 decision brief](udt_clock_law_physical_whiteboard_2026-10-03/DECISION_BRIEF.md)
+and [precise successor scope](udt_clock_law_physical_whiteboard_2026-10-03/SUCCESSOR_SCOPE.md)
+give the conditional cost, no-change alternative, checks/review budget and stop.
+Parking both trials remains available. The original ESR/IEC decision records
+stay fixed evidence. Return for discussion; no successor or physical adoption
+starts from this reviewed whiteboard.
 
 NGD1's numerical return in R12N adds a validated comparison tool and finite
 nonlinear clock-shift histories. Its positive contribution relative to a specified
@@ -4168,7 +4305,7 @@ names the retained hypotheses and limits. Actual final reports/attestations and
 the current review record own the review outcome and frozen edition. No original
 scientific calculation is replayed or newly certified by this meaning update;
 existing regression, version and premise checks retain their narrower roles.
-The maintained disposition count now includes53 later returns/clarifications.
+The maintained disposition count now includes54 later returns/clarifications.
 
 ERC1 uses two fresh source-first contexts followed by exposed actual-candidate
 and final integration review, sharing the inherited model and scientific libraries.
@@ -4287,6 +4424,20 @@ changed. [ESR1 work record](udt_echo_scalar_rigidity_2026-10-03/WORK_RECORD.md)
 and [descendant review](udt_echo_scalar_rigidity_2026-10-03/DESCENDANT_REVIEW.md)
 record exposure, actual checks and omissions. Final identical-map attestations
 and captured normal/maintenance/full406 receipts own completion status.
+
+CPW1 uses three fresh source-first contributors and two additional fresh
+source-first/exposed/final reviewer contexts. All contributors recommend keeping
+FC diagnostic; the optional RG robustness recommendation is separately attributed
+to the parent. Reviewers independently hand-check the general conformal identity,
+relay composition and actual-clock controls and inspect saved exact outputs.
+Shared model/library/source exposure remains explicit. One parent structural
+matrix-equality failure and exact-comparison repair are preserved; no equation
+or scientific premise changes. The proposed successor was narrowed after review
+advice and remains unexecuted. [Work record](udt_clock_law_physical_whiteboard_2026-10-03/WORK_RECORD.md)
+and [descendant review](udt_clock_law_physical_whiteboard_2026-10-03/DESCENDANT_REVIEW.md)
+record exposure, scope and omissions, including a contributor's disclosed
+overbroad registry-read error. Actual final accepted-map attestations and
+normal/maintenance/full406 receipts own closure; review does not adopt FC/RG.
 
 The preserved first candidates expose the repair history. The [source correction](development_reconstruction_2026-09-29/SOURCE_CORRECTIONS.md)
 fixes a real covector-basis sign in G310; the central nine-direction span and

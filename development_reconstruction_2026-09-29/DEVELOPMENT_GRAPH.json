@@ -141,7 +141,8 @@
         "udt_joint_signal_shape_discrimination_2026-09-13/REVIEWED_RESULT.md",
         "udt_signal_chain_banking_2026-09-13/BANKING_RECORD.md",
         "udt_finite_positional_clock_test_2026-10-01/REVIEWED_RESULT.md",
-        "udt_finite_native_pair_audit_2026-10-01/REVIEWED_RESULT.md"
+        "udt_finite_native_pair_audit_2026-10-01/REVIEWED_RESULT.md",
+        "udt_clock_law_physical_whiteboard_2026-10-03/REVIEWED_RESULT.md"
       ],
       "required_conditions": [
         "M_GEOMETRY",
@@ -167,7 +168,8 @@
         "udt_lorentz_kernel_transport_2026-09-29/REVIEWED_RESULT.md",
         "udt_founding_phi_ownership_morphism_audit_2026-08-05/EXACT_DERIVATION.md",
         "udt_g274_projective_pair_position_network_descent_2026-08-26/EXACT_DERIVATION.md",
-        "udt_finite_native_pair_audit_2026-10-01/REVIEWED_RESULT.md"
+        "udt_finite_native_pair_audit_2026-10-01/REVIEWED_RESULT.md",
+        "udt_clock_law_physical_whiteboard_2026-10-03/REVIEWED_RESULT.md"
       ],
       "required_conditions": [
         "P_NULL"
@@ -224,7 +226,8 @@
         "udt_clock_reconstruction_benchmark_2026-10-03/REVIEWED_RESULT.md",
         "udt_finite_comparison_whiteboard_2026-10-03/REVIEWED_RESULT.md",
         "udt_invariant_echo_curvature_2026-10-03/REVIEWED_RESULT.md",
-        "udt_echo_scalar_rigidity_2026-10-03/REVIEWED_RESULT.md"
+        "udt_echo_scalar_rigidity_2026-10-03/REVIEWED_RESULT.md",
+        "udt_clock_law_physical_whiteboard_2026-10-03/REVIEWED_RESULT.md"
       ],
       "required_conditions": [
         "P_NULL",
@@ -408,7 +411,8 @@
         "udt_physical_selection_checkpoint_2026-10-02/REVIEWED_RESULT.md",
         "udt_curvature_measurement_feasibility_2026-10-02/REVIEWED_RESULT.md",
         "udt_clock_reconstruction_benchmark_2026-10-03/REVIEWED_RESULT.md",
-        "udt_finite_comparison_whiteboard_2026-10-03/REVIEWED_RESULT.md"
+        "udt_finite_comparison_whiteboard_2026-10-03/REVIEWED_RESULT.md",
+        "udt_clock_law_physical_whiteboard_2026-10-03/REVIEWED_RESULT.md"
       ],
       "required_conditions": [
         "P_SCALE"
@@ -517,7 +521,8 @@
         "udt_clock_reconstruction_benchmark_2026-10-03/REVIEWED_RESULT.md",
         "udt_finite_comparison_whiteboard_2026-10-03/REVIEWED_RESULT.md",
         "udt_invariant_echo_curvature_2026-10-03/REVIEWED_RESULT.md",
-        "udt_echo_scalar_rigidity_2026-10-03/REVIEWED_RESULT.md"
+        "udt_echo_scalar_rigidity_2026-10-03/REVIEWED_RESULT.md",
+        "udt_clock_law_physical_whiteboard_2026-10-03/REVIEWED_RESULT.md"
       ],
       "required_conditions": []
     },
@@ -1103,7 +1108,7 @@
     {
       "id": "O_PSW_ATTRIBUTION",
       "kind": "open_join",
-      "statement": "Received ticking and FNA1 supplied full-pair assembly are defined. FST1 proves a conditional symmetric-response degeneracy and relative-curvature clock discriminator. Native physical branch/comparison admission, actual response and empirical filter attachment remain OPEN; legitimate scalar state/calibration data are distinct from law selection. No physical scale or X_max selected. ECS1 adds a necessary internal echo relation and exact restricted-sheet transverse ambiguity; neither selects native geometry nor establishes all-observer/field-sector nonuniqueness. PCC1 tests an UNADOPTED all-frame leading additional-curvature assignment with supplied reference/matching; conditional compatibility and scoped Einstein-reference consequence do not close native positional attribution or select a finite law. ERC1 conditionally generates variable-curvature clock records from an unadopted known response law and supplied data; native response identity, source relation and positional attribution remain OPEN. Free legitimate data alone do not prove a law missing. RCD1 supplies a conditional clock-curve discriminator, with native physical implication unestablished; exact full response identity is sufficient, not necessary or a universal gate. PSC1 gives two unadopted physical proposals, restricted constant-pole selection and nonlinear completion/clock controls; no native applicability or entropy/source identification follows. CMF1 reconstructs total scalar curvature under supplied clock preparation; no positional attribution or physical source-free sector is established. CBR1 validates finite diagnostic reconstruction on supplied symmetric metrics only; no native positional attribution follows. FCW1 net echo discrimination does not attribute an additional positional component; FC/RG remain unadopted physical trials. IEC1 curvature contractions interpret net prepared echoes within a supplied locally symmetric class; they do not assign a positional component or DDR response. ESR1 classifies total curvature only under hypothetical all-preparation scalar sufficiency within parallel-curvature metrics; no positional-component attribution follows.",
+      "statement": "Received ticking and FNA1 supplied full-pair assembly are defined. FST1 proves a conditional symmetric-response degeneracy and relative-curvature clock discriminator. Native physical branch/comparison admission, actual response and empirical filter attachment remain OPEN; legitimate scalar state/calibration data are distinct from law selection. No physical scale or X_max selected. ECS1 adds a necessary internal echo relation and exact restricted-sheet transverse ambiguity; neither selects native geometry nor establishes all-observer/field-sector nonuniqueness. PCC1 tests an UNADOPTED all-frame leading additional-curvature assignment with supplied reference/matching; conditional compatibility and scoped Einstein-reference consequence do not close native positional attribution or select a finite law. ERC1 conditionally generates variable-curvature clock records from an unadopted known response law and supplied data; native response identity, source relation and positional attribution remain OPEN. Free legitimate data alone do not prove a law missing. RCD1 supplies a conditional clock-curve discriminator, with native physical implication unestablished; exact full response identity is sufficient, not necessary or a universal gate. PSC1 gives two unadopted physical proposals, restricted constant-pole selection and nonlinear completion/clock controls; no native applicability or entropy/source identification follows. CMF1 reconstructs total scalar curvature under supplied clock preparation; no positional attribution or physical source-free sector is established. CBR1 validates finite diagnostic reconstruction on supplied symmetric metrics only; no native positional attribution follows. FCW1 net echo discrimination does not attribute an additional positional component; FC/RG remain unadopted physical trials. IEC1 curvature contractions interpret net prepared echoes within a supplied locally symmetric class; they do not assign a positional component or DDR response. ESR1 classifies total curvature only under hypothetical all-preparation scalar sufficiency within parallel-curvature metrics; no positional-component attribution follows. CPW1 keeps scalar normalization and full directional evaluation distinct from physical selection; its supplied controls are not native countermodels, and no new premise is proved necessary.",
       "sources": [
         "udt_positional_selection_whiteboard_2026-10-01/INITIAL_CANDIDATE.md",
         "udt_positional_selection_whiteboard_2026-10-01/REPAIR.md",
@@ -1120,7 +1125,8 @@
         "udt_clock_reconstruction_benchmark_2026-10-03/REVIEWED_RESULT.md",
         "udt_finite_comparison_whiteboard_2026-10-03/REVIEWED_RESULT.md",
         "udt_invariant_echo_curvature_2026-10-03/REVIEWED_RESULT.md",
-        "udt_echo_scalar_rigidity_2026-10-03/REVIEWED_RESULT.md"
+        "udt_echo_scalar_rigidity_2026-10-03/REVIEWED_RESULT.md",
+        "udt_clock_law_physical_whiteboard_2026-10-03/REVIEWED_RESULT.md"
       ],
       "registry_ids": []
     },
@@ -1735,7 +1741,7 @@
     {
       "id": "O_FCW_ADMISSION",
       "kind": "open_join",
-      "statement": "Physical justification/adoption of FC or RG, generic variable-curvature rigidity, completion/protocol robustness and native geometry/scale remain OPEN. IEC1 supplies the local symmetric echo expansion; ESR1 proves arbitrary-smooth-Q all-preparation rigidity exactly within that class, conditional on the explicitly UNADOPTED FC trial. No successor starts automatically.",
+      "statement": "Physical justification/adoption of FC or RG, generic variable-curvature rigidity, completion/protocol robustness and native geometry/scale remain OPEN. IEC1 supplies the local symmetric echo expansion; ESR1 proves arbitrary-smooth-Q all-preparation rigidity exactly within that class, conditional on the explicitly UNADOPTED FC trial. No successor starts automatically. CPW1 recommends parking FC physical-selection extension; the parent proposes an unexecuted pointwise geodesic-clock robustness test under still-UNADOPTED RG. Exact conformal bookkeeping does not prove receiver limits or physical admission.",
       "sources": [
         "udt_finite_comparison_whiteboard_2026-10-03/INITIAL_SYNTHESIS.md",
         "udt_finite_comparison_whiteboard_2026-10-03/REVIEWED_RESULT.md",
@@ -1743,7 +1749,8 @@
         "udt_finite_comparison_whiteboard_2026-10-03/relational/INITIAL_PROPOSAL.md",
         "udt_finite_comparison_whiteboard_2026-10-03/operational/ATTRIBUTION_REPAIR.md",
         "udt_invariant_echo_curvature_2026-10-03/REVIEWED_RESULT.md",
-        "udt_echo_scalar_rigidity_2026-10-03/REVIEWED_RESULT.md"
+        "udt_echo_scalar_rigidity_2026-10-03/REVIEWED_RESULT.md",
+        "udt_clock_law_physical_whiteboard_2026-10-03/REVIEWED_RESULT.md"
       ],
       "registry_ids": []
     },
@@ -1776,7 +1783,8 @@
         "udt_finite_comparison_whiteboard_2026-10-03/REVIEWED_RESULT.md",
         "udt_finite_comparison_whiteboard_2026-10-03/consistency/INITIAL_PROPOSAL.md",
         "udt_finite_comparison_whiteboard_2026-10-03/relational/INITIAL_PROPOSAL.md",
-        "udt_finite_comparison_whiteboard_2026-10-03/operational/ATTRIBUTION_REPAIR.md"
+        "udt_finite_comparison_whiteboard_2026-10-03/operational/ATTRIBUTION_REPAIR.md",
+        "udt_clock_law_physical_whiteboard_2026-10-03/REVIEWED_RESULT.md"
       ],
       "registry_ids": [],
       "required_conditions": [
@@ -1835,12 +1843,75 @@
         "udt_echo_scalar_rigidity_2026-10-03/INITIAL_CANDIDATE.md",
         "udt_echo_scalar_rigidity_2026-10-03/REVIEWED_RESULT.md",
         "udt_echo_scalar_rigidity_2026-10-03/review_math/SOURCE_FIRST.md",
-        "udt_echo_scalar_rigidity_2026-10-03/review_fidelity/SOURCE_FIRST.md"
+        "udt_echo_scalar_rigidity_2026-10-03/review_fidelity/SOURCE_FIRST.md",
+        "udt_clock_law_physical_whiteboard_2026-10-03/REVIEWED_RESULT.md"
       ],
       "registry_ids": [],
       "required_conditions": [
         "C_IEC_LOCAL_SYMMETRY",
         "C_ESR_FC"
+      ]
+    },
+    {
+      "id": "C_CPW_CONFORMAL",
+      "kind": "conditional_protocol",
+      "statement": "Supplied smooth positive conformal metric g=Omega^-2 gbar, regular affine null branches with consistent per-ray normalization and ordinary proper clocks. Exact frequency bookkeeping; a finite positive Omega_o Z limit additionally assumes finite positive A=Omega_e omegabar_e and B=omegabar_o limits. Those limits for actual geodesic preparations are OPEN, not inferred from RG or normalization.",
+      "sources": [
+        "udt_clock_law_physical_whiteboard_2026-10-03/INITIAL_SYNTHESIS.md",
+        "udt_clock_law_physical_whiteboard_2026-10-03/REVIEWED_RESULT.md",
+        "udt_clock_law_physical_whiteboard_2026-10-03/fidelity/SOURCE_FIRST.md",
+        "udt_clock_law_physical_whiteboard_2026-10-03/geometry/SOURCE_FIRST.md",
+        "udt_clock_law_physical_whiteboard_2026-10-03/operational/SOURCE_FIRST.md",
+        "udt_clock_law_physical_whiteboard_2026-10-03/SUCCESSOR_SCOPE.md"
+      ],
+      "registry_ids": []
+    },
+    {
+      "id": "O_CPW_FREECLOCK_LIMIT",
+      "kind": "open_join",
+      "statement": "UNEXECUTED proposed RG robustness target: one finite-data future timelike geodesic receiver approaching a regular future spacelike C3 conformal boundary, regular conformal-null family from compact interior emitter events with consistent omega_e=1; determine rescaled receiver/frequency limits without assuming them. No uniform population, fixed-emission distance law, physical RG admission or X_max identification.",
+      "sources": [
+        "udt_clock_law_physical_whiteboard_2026-10-03/SUCCESSOR_SCOPE.md",
+        "udt_clock_law_physical_whiteboard_2026-10-03/REVIEWED_RESULT.md"
+      ],
+      "registry_ids": []
+    },
+    {
+      "id": "R8CPW",
+      "kind": "argument",
+      "anchor": "r8cpw",
+      "title": "Physical scope of scalar echo sufficiency and retained full comparison data",
+      "sources": [
+        "udt_clock_law_physical_whiteboard_2026-10-03/INITIAL_SYNTHESIS.md",
+        "udt_clock_law_physical_whiteboard_2026-10-03/REVIEWED_RESULT.md",
+        "udt_clock_law_physical_whiteboard_2026-10-03/fidelity/SOURCE_FIRST.md",
+        "udt_clock_law_physical_whiteboard_2026-10-03/geometry/SOURCE_FIRST.md",
+        "udt_clock_law_physical_whiteboard_2026-10-03/operational/SOURCE_FIRST.md",
+        "udt_clock_law_physical_whiteboard_2026-10-03/SUCCESSOR_SCOPE.md"
+      ],
+      "registry_ids": [],
+      "required_conditions": [
+        "P_NULL",
+        "M_GEOMETRY"
+      ]
+    },
+    {
+      "id": "R16CPW",
+      "kind": "argument",
+      "anchor": "r16cpw",
+      "title": "Conformal clock bookkeeping separated from proposed free-clock endpoint theorem",
+      "sources": [
+        "udt_clock_law_physical_whiteboard_2026-10-03/INITIAL_SYNTHESIS.md",
+        "udt_clock_law_physical_whiteboard_2026-10-03/REVIEWED_RESULT.md",
+        "udt_clock_law_physical_whiteboard_2026-10-03/fidelity/SOURCE_FIRST.md",
+        "udt_clock_law_physical_whiteboard_2026-10-03/geometry/SOURCE_FIRST.md",
+        "udt_clock_law_physical_whiteboard_2026-10-03/operational/SOURCE_FIRST.md",
+        "udt_clock_law_physical_whiteboard_2026-10-03/SUCCESSOR_SCOPE.md"
+      ],
+      "registry_ids": [],
+      "required_conditions": [
+        "P_NULL",
+        "C_CPW_CONFORMAL"
       ]
     }
   ],
@@ -3509,6 +3580,91 @@
       "from": "O_PSW_ATTRIBUTION",
       "to": "R8ESR",
       "kind": "open_boundary"
+    },
+    {
+      "from": "P_NULL",
+      "to": "R8CPW",
+      "kind": "hypothesis"
+    },
+    {
+      "from": "M_GEOMETRY",
+      "to": "R8CPW",
+      "kind": "hypothesis"
+    },
+    {
+      "from": "R6",
+      "to": "R8CPW",
+      "kind": "proof"
+    },
+    {
+      "from": "R7",
+      "to": "R8CPW",
+      "kind": "proof"
+    },
+    {
+      "from": "R8",
+      "to": "R8CPW",
+      "kind": "proof"
+    },
+    {
+      "from": "R8ESR",
+      "to": "R8CPW",
+      "kind": "context"
+    },
+    {
+      "from": "D1",
+      "to": "R8CPW",
+      "kind": "context"
+    },
+    {
+      "from": "O_PSW_ATTRIBUTION",
+      "to": "R8CPW",
+      "kind": "open_boundary"
+    },
+    {
+      "from": "P_NULL",
+      "to": "R16CPW",
+      "kind": "hypothesis"
+    },
+    {
+      "from": "C_CPW_CONFORMAL",
+      "to": "R16CPW",
+      "kind": "hypothesis"
+    },
+    {
+      "from": "R6",
+      "to": "R16CPW",
+      "kind": "proof"
+    },
+    {
+      "from": "R16FCW",
+      "to": "R16CPW",
+      "kind": "context"
+    },
+    {
+      "from": "C_FCW_RG",
+      "to": "O_CPW_FREECLOCK_LIMIT",
+      "kind": "context"
+    },
+    {
+      "from": "O_CPW_FREECLOCK_LIMIT",
+      "to": "R16CPW",
+      "kind": "open_boundary"
+    },
+    {
+      "from": "O_FCW_ADMISSION",
+      "to": "R16CPW",
+      "kind": "open_boundary"
+    },
+    {
+      "from": "R8CPW",
+      "to": "R18",
+      "kind": "context"
+    },
+    {
+      "from": "R16CPW",
+      "to": "R18",
+      "kind": "context"
     }
   ],
   "sources_sha256": {
@@ -3725,7 +3881,13 @@
     "udt_echo_scalar_rigidity_2026-10-03/INITIAL_CANDIDATE.md": "9828c44c3b89d6b9f6f9f83f98e69a127dfc551e2d65a5c48587cd3b4fb2f59c",
     "udt_echo_scalar_rigidity_2026-10-03/REVIEWED_RESULT.md": "b2838166492684b426f31c0e8aafc37a0a98ba360c3f16060e3a026724a9ce6d",
     "udt_echo_scalar_rigidity_2026-10-03/review_math/SOURCE_FIRST.md": "470962f5e2466472207bc6692ea4dbe165a7e4b8d0b323fd0d5167eef54113f6",
-    "udt_echo_scalar_rigidity_2026-10-03/review_fidelity/SOURCE_FIRST.md": "4696aaafea2f0c8cdffe1b46b9652c42fd7c25dbfb78a28e038d9db03c415371"
+    "udt_echo_scalar_rigidity_2026-10-03/review_fidelity/SOURCE_FIRST.md": "4696aaafea2f0c8cdffe1b46b9652c42fd7c25dbfb78a28e038d9db03c415371",
+    "udt_clock_law_physical_whiteboard_2026-10-03/INITIAL_SYNTHESIS.md": "b3f1b808430381e9d17f3b0e89a839a2fc8d9c8f162784de2a85f6439f17cf41",
+    "udt_clock_law_physical_whiteboard_2026-10-03/REVIEWED_RESULT.md": "211854d98364cbfd3569c415d335ac80b059b1c5baa339c10eb542659f5c3c51",
+    "udt_clock_law_physical_whiteboard_2026-10-03/fidelity/SOURCE_FIRST.md": "008f08ab30a1ad60f48f2c17307957a436d51d59942faf5cd9658dda502ae066",
+    "udt_clock_law_physical_whiteboard_2026-10-03/geometry/SOURCE_FIRST.md": "3f0ccd3997ebae9ec5c82660e7b42b36df87c9d377d0abb7f3c21eaaf4f76105",
+    "udt_clock_law_physical_whiteboard_2026-10-03/operational/SOURCE_FIRST.md": "98a4640cf7f12b2232a7af526d99cc6c5809e4c6de7a9de9575795aab20fe091",
+    "udt_clock_law_physical_whiteboard_2026-10-03/SUCCESSOR_SCOPE.md": "2f3e3122f7b3e94aedc1baf37278cd8ed07f5edcca408c90f62362deccf6cdfd"
   },
   "impact_policy": "Any changed source or registry row flags its mapped positive and negative central arguments and every reachable central descendant for review; no automatic truth reversal or regrading.",
   "review_support": [
@@ -5501,6 +5663,90 @@
         "R8FCW",
         "R8IEC",
         "R8ESR",
+        "O_PSW_ATTRIBUTION",
+        "O_FCW_ADMISSION"
+      ]
+    },
+    {
+      "path": "udt_clock_law_physical_whiteboard_2026-10-03/review_math/EXPOSED_REVIEW.md",
+      "sha256": "aa6ffd1e6f4b18a7881b8dfe55972410d1880677e918a3bccb42bb3e4406d4d6",
+      "role": "review_evidence",
+      "targets": [
+        "D1",
+        "R6",
+        "R7",
+        "R8",
+        "R9",
+        "R16",
+        "R18",
+        "R8ESR",
+        "R16FCW",
+        "R8CPW",
+        "R16CPW",
+        "O_CPW_FREECLOCK_LIMIT",
+        "O_PSW_ATTRIBUTION",
+        "O_FCW_ADMISSION"
+      ]
+    },
+    {
+      "path": "udt_clock_law_physical_whiteboard_2026-10-03/review_fidelity/EXPOSED_REVIEW.md",
+      "sha256": "f21d5a43d0cc4e790937c20cd5ffdd3198dd867fe281664fa5f2cd91462fb5fa",
+      "role": "review_evidence",
+      "targets": [
+        "D1",
+        "R6",
+        "R7",
+        "R8",
+        "R9",
+        "R16",
+        "R18",
+        "R8ESR",
+        "R16FCW",
+        "R8CPW",
+        "R16CPW",
+        "O_CPW_FREECLOCK_LIMIT",
+        "O_PSW_ATTRIBUTION",
+        "O_FCW_ADMISSION"
+      ]
+    },
+    {
+      "path": "udt_clock_law_physical_whiteboard_2026-10-03/review_fidelity/PROPOSAL_PRECISION_REVIEW.md",
+      "sha256": "0aee0b010d3a3f6b3bd8a3733f7d46b47b7058e52dc2689b8c584eb750035568",
+      "role": "review_evidence",
+      "targets": [
+        "D1",
+        "R6",
+        "R7",
+        "R8",
+        "R9",
+        "R16",
+        "R18",
+        "R8ESR",
+        "R16FCW",
+        "R8CPW",
+        "R16CPW",
+        "O_CPW_FREECLOCK_LIMIT",
+        "O_PSW_ATTRIBUTION",
+        "O_FCW_ADMISSION"
+      ]
+    },
+    {
+      "path": "udt_clock_law_physical_whiteboard_2026-10-03/DESCENDANT_REVIEW.md",
+      "sha256": "d4a933fd37bbbd70212e195e385d2aa20a1bcd25b210959ade348889ca8c52a4",
+      "role": "review_evidence",
+      "targets": [
+        "D1",
+        "R6",
+        "R7",
+        "R8",
+        "R9",
+        "R16",
+        "R18",
+        "R8ESR",
+        "R16FCW",
+        "R8CPW",
+        "R16CPW",
+        "O_CPW_FREECLOCK_LIMIT",
         "O_PSW_ATTRIBUTION",
         "O_FCW_ADMISSION"
       ]

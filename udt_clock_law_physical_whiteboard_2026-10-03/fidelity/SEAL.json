@@ -1,0 +1,11 @@
+{
+  "utc": "2026-10-03T20:06:45.552236+00:00",
+  "status": "SOURCE_FIRST_SEALED_UNREVIEWED",
+  "report_sha256": "008f08ab30a1ad60f48f2c17307957a436d51d59942faf5cd9658dda502ae066",
+  "source_snapshot_sha256": "3fcbd8ceb6d3076fe9e1c877dbfb795b990849ee3ea04b2db31e311b39b97208",
+  "no_peer_or_parent_synthesis_read": true,
+  "science_computations": 0,
+  "parent_startup_attributed_not_reexecuted": true,
+  "new_physical_equation": false,
+  "recommendation": "Park FC as universal total-clock candidate; preserve conditional diagnostic and kernel; no new derivation is justified by this fidelity audit."
+}

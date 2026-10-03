@@ -1,0 +1,29 @@
+{
+  "captured_utc": "2026-10-03T20:06:09.455073+00:00",
+  "head": "d20c30bacee36b713f885d4f9cb6f31799012ac6",
+  "sources": {
+    "AGENTS.md": "bcab9b67305e0314af9eaf25162d203660eae8f2ff4fd87d17e83588970ef38d",
+    "CLAUDE.md": "4ad2e773defb89cc79541fd0ababd75af5a3344ab134ee83722dfd943966e6e4",
+    ".claude/skills/no-shortcuts/SKILL.md": "fd3a1f3218481134f2af829d3ae4175ac53518f75bf9673287efbfb7d7708fc1",
+    ".claude/skills/completeness-map/SKILL.md": "a8cf9e5f4a6d35a0d0ebfe4bc48dbf328ca74e318f020a6a22cb683666a611c0",
+    ".claude/skills/verifier-before-record/SKILL.md": "9b3a4aacd4b4006b2b7f01edada73b7c87b99bea6e754583558713bfc145e5ac",
+    "udt_clock_law_physical_whiteboard_2026-10-03/WORK_ORDER.md": "464fad96b3a230bdec7ede33266bf86b639e80726099e8bfe5abaccd372ccd8f",
+    "UDT_DEVELOPMENT.md": "a394681d5c28b5c3e7829094ba216924b9bc3889740f714fd216ed47e9b14205",
+    "founding.md": "b4b0d9a9fdd093c992647195aca7579566a9e77a396071a699c1938888a49e75",
+    "CURRENT_SCIENTIFIC_PREMISES.tsv": "7a3d69d5a0bc3ac98e2ebe2bb0c6d029df30071bf403baffed2223a193dc720b",
+    "development_reconstruction_2026-09-29/universal_law_clarification_2026-10-01/OWNER_CLARIFICATION.md": "69041b4a2033fd85ff65f113f07ea3ac6a6b06af9a0c07e26a775a33fb3f5a1c",
+    "udt_echo_scalar_rigidity_2026-10-03/INITIAL_CANDIDATE.md": "9828c44c3b89d6b9f6f9f83f98e69a127dfc551e2d65a5c48587cd3b4fb2f59c",
+    "udt_echo_scalar_rigidity_2026-10-03/REVIEWED_RESULT.md": "b2838166492684b426f31c0e8aafc37a0a98ba360c3f16060e3a026724a9ce6d",
+    "udt_finite_separation_law_2026-09-28/INITIAL_CANDIDATE.md": "7dd39a4840390f15fcedc2ae0e588f51e441b4348eaf0f0f8d9b81968b60d8e4",
+    "udt_finite_separation_law_2026-09-28/REPAIR.md": "be0927544e72bebd38a364cac33e0979aa8b4c4a1bdcdeba5dedf3e16e41e368",
+    "udt_shared_geometry_extension_2026-09-29/REVIEWED_RESULT.md": "318760918a414727a889c924186512cb1b9e46524c029cced9214b6b26c82e48",
+    "udt_finite_native_pair_audit_2026-10-01/REVIEWED_RESULT.md": "8ea3cfb5ed5f8026b71ac68d4e4d434a674f3fde2e723ed6d45247f33995c0da",
+    "udt_g220_covariant_null_clock_arrow_timelive_lift_2026-08-22/EXACT_DERIVATION.md": "0e5b33a0c013def973bdca369944d99a84fe278614cae1794e7cb50b56db0f6f",
+    "udt_g298_causal_diamond_to_pair_germ_transfer_2026-08-29/AUDIT_REPORT.md": "56f871522dd099bf6d45984045cff2aeb05e42176eea118e8b72303542f53872",
+    "udt_g300_metric_celestial_query_bundle_descent_2026-08-29/AUDIT_REPORT.md": "3ad7382bc3e005dac91199bf724f941a130ac8730935af1932c2b5f417413fa5",
+    "udt_g312_quiet_gr_response_constitution_discriminator_2026-09-01/AUDIT_REPORT.md": "c8f9e5547c13067282d37bfb51db78d13bbdc06b48ef50f8f3f498e196abcb57",
+    "udt_gr_filter_reconciliation_2026-09-09/AUTHORITY_RECORD.md": "80daa0be6d3e1c0ac1b734fea089c4eb487f05bc1e1fbb2fabd69322ca89f28c",
+    "startup_surface_g310_universal_reciprocity_refresh_2026-08-31/ADOPTION_RECORD.md": "4eb7d0a1130dcff997bc5180f420b633e2dcbbb5072d098997ba3672b38d8ab5",
+    "udt_time_live_production_survey_2026-10-01/capture.py": "217cdbac5486e8a531552f4d74a15ce641299b65dafb5d58f7b60f4ba51781bc"
+  }
+}

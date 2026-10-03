@@ -1,0 +1,15 @@
+{
+  "utc": "2026-10-03T20:13:59.142570+00:00",
+  "exposure": "Parent read all three sealed contributor reports; two fresh reviewer brief source-first findings arrived just after initial synthesis creation and before this freeze. They repeat independent conformal bookkeeping and limits; generic successor not executed. Full reviewer reports/code unread at this freeze. Added explicit reminder that FCW comoving clocks already free, and repaired one prose line before freeze.",
+  "sha256": {
+    "udt_clock_law_physical_whiteboard_2026-10-03/INITIAL_SYNTHESIS.md": "b3f1b808430381e9d17f3b0e89a839a2fc8d9c8f162784de2a85f6439f17cf41",
+    "udt_clock_law_physical_whiteboard_2026-10-03/PARENT_FRAMING.md": "24404d2ebaceb470bfd212f33d0c30584a822eed07af4c84f9afcee2e9bfef17",
+    "udt_clock_law_physical_whiteboard_2026-10-03/PARENT_COMPLETION_OPTION.md": "1d341b1976ff1bbaa63939e523cdaaa57ea8247c9c777750351b30f8dbed5723",
+    "udt_clock_law_physical_whiteboard_2026-10-03/PARENT_CHECK_PLAN.md": "1d6cd0113896c1a6c46911a766446409e83d32fd8ab7af980d10eaac988e8728",
+    "udt_clock_law_physical_whiteboard_2026-10-03/PARENT_CHECK_RESULT.json": "1c8a1ef7e624a00a2f366932c810023c89b61f1a231f912d9a7f8400952fa3b6",
+    "udt_clock_law_physical_whiteboard_2026-10-03/IMPLEMENTATION_REPAIR.md": "fa1a643d2e4e9915e12a9e2ad0c2fbb3e4b2512030fe2cb473323f7c22bc076e",
+    "udt_clock_law_physical_whiteboard_2026-10-03/fidelity/SOURCE_FIRST.md": "008f08ab30a1ad60f48f2c17307957a436d51d59942faf5cd9658dda502ae066",
+    "udt_clock_law_physical_whiteboard_2026-10-03/geometry/SOURCE_FIRST.md": "3f0ccd3997ebae9ec5c82660e7b42b36df87c9d377d0abb7f3c21eaaf4f76105",
+    "udt_clock_law_physical_whiteboard_2026-10-03/operational/SOURCE_FIRST.md": "98a4640cf7f12b2232a7af526d99cc6c5809e4c6de7a9de9575795aab20fe091"
+  }
+}

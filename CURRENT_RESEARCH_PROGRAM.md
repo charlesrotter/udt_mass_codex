@@ -5,7 +5,7 @@ This bounded startup view is generated from its opening; edit that source.
 LIVE.md owns operational status; CURRENT_SCIENTIFIC_PREMISES.tsv owns exact grades.
 
 <!-- GENERATED_DEVELOPMENT_BEGIN -->
-**Continuous development — CDR1 with SGE1, LKT1, GCA1, PCW1, CES1, CCR1, PRI1, TRI1, NGD1, TDS1, TPP1, TPS1, PSW1, FPC1, FNA1, FST1, ECS1, PCC1, ERC1, RCD1, PSC1, CMF1, CBR1, FCW1, IEC1 and ESR1, 2026-10-03.** This is the maintained
+**Continuous development — CDR1 with SGE1, LKT1, GCA1, PCW1, CES1, CCR1, PRI1, TRI1, NGD1, TDS1, TPP1, TPS1, PSW1, FPC1, FNA1, FST1, ECS1, PCC1, ERC1, RCD1, PSC1, CMF1, CBR1, FCW1, IEC1, ESR1 and CPW1, 2026-10-03.** This is the maintained
 scientific development. It is not canon or a new scientific-grade authority.
 The exact registry and reviewed sources own grades; LIVE owns operational status.
 Current review bindings and limits are recorded in section9; startup reads the
@@ -212,7 +212,14 @@ flat records fix only its value at1. The proof uses quartic clock information,
 curvature algebra and actual future returns, with independent exact checks.
 FC remains UNADOPTED: universal governing law does not establish scalar sufficiency.
 This result states the trial's mathematical cost, not its physical authority.
-Stop for lay discussion; no extension, adoption or successor starts automatically.
+CPW1's three-perspective whiteboard recommends parking FC as a physical-selection
+extension while retaining its diagnostic and the native scalar kernel. A full
+directional echo evaluator is already established and does not select geometry.
+The parent proposes one separate optional test of RG completion under specified
+moving free clocks and nonuniform geometry. Exact conformal bookkeeping is
+checked; the free-clock limit remains unproved and RG UNADOPTED. The proposed
+first test fixes one receiver and regular interior emissions, not a population
+or distance curve. Stop for lay discussion; no successor or adoption starts.
 <!-- GENERATED_DEVELOPMENT_END -->
 
 ## Current next gate

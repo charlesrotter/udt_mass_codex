@@ -1,24 +1,16 @@
 {
-  "status": "REVIEWED_WITH_LIMITS",
-  "utc": "2026-10-03T20:29:55.575600+00:00",
+  "utc": "2026-10-03T20:23:44.708608+00:00",
   "scope": "CPW1 source-relative physical-meaning whiteboard: park physical FC extension, retain native scalar/full comparison diagnostics; conditional conformal bookkeeping, unexecuted narrowed RG free-clock target. FC/RG UNADOPTED; no native selection, distance/X_max or complete-premise insufficiency. Three fresh contributors and two additional fresh source-first/exposed/final reviewers; inherited evidence retains original scope.",
-  "independence": "Three fresh independent source-first contributors; two additional fresh source-first/exposed/final reviews with independent hand derivations of conditional conformal/relay identities and actual-clock controls. Shared model/libraries and reviewed source premises. Parent direct-Christoffel control; geometry independent incidence/frequency check. Preserved structural-equality failure/exact repair; original scientific synthesis unchanged, later successor proposal narrowed. No different-model/human/formal/empirical review.",
-  "freeze": "udt_clock_law_physical_whiteboard_2026-10-03/INTEGRATION_FREEZE.json",
-  "freeze_sha256": "c9842336e3553559d8ab78ab9d22ab86cbfeef21421512b2b5b47e5ebb99862b",
-  "prior_review_record": "udt_clock_law_physical_whiteboard_2026-10-03/PRIOR_REVIEW_RECORD.json",
-  "prior_review_record_sha256": "fe5b619452eda242d5037274b04d045849ac714eb301a6ac5bb74b208a1349b1",
-  "reviewers": [
-    {
-      "context": "/root/cpw_review_math",
-      "attestation": "udt_clock_law_physical_whiteboard_2026-10-03/review_math/FINAL_ATTESTATION.json",
-      "sha256": "cce4513c64ef98d64be3b3dd346e389e8c00884914f3037adcabd9ad644f6453"
-    },
-    {
-      "context": "/root/cpw_review_fidelity",
-      "attestation": "udt_clock_law_physical_whiteboard_2026-10-03/review_fidelity/FINAL_ATTESTATION.json",
-      "sha256": "b8d51626ecc9597f2e563179f608874acffd81dae73fc0eae4d4fe0bc410e5f3"
-    }
+  "base_head": "d20c30bacee36b713f885d4f9cb6f31799012ac6",
+  "changed_inherited": [
+    "CURRENT_RESEARCH_PROGRAM.md",
+    "HANDOFF.md",
+    "LIVE.md",
+    "UDT_DEVELOPMENT.md",
+    "development_reconstruction_2026-09-29/DEVELOPMENT_GRAPH.json",
+    "development_reconstruction_2026-09-29/RECENT_DISPOSITIONS.tsv"
   ],
+  "inherited_count": 13254,
   "accepted_sha256": {
     ".gitignore": "8a2710f5923ba86b41a461e040282ecd520ce155cb17b09458e1d1d613ddeb7a",
     "AGENTS.md": "bcab9b67305e0314af9eaf25162d203660eae8f2ff4fd87d17e83588970ef38d",

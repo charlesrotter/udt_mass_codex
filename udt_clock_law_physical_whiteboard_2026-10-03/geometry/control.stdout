@@ -1,0 +1,47 @@
+{
+  "status": "PASS",
+  "python": "3.10.12",
+  "sympy": "1.13.1",
+  "families": 2,
+  "cases": 2,
+  "scalar_assertions": 17,
+  "checks": [
+    "static_first_reception",
+    "static_outgoing_ratio",
+    "static_return_incidence",
+    "static_independent_frequency",
+    "static_proper_clock_norm",
+    "static_future_after_relay",
+    "static_timelike_at_reception",
+    "accelerated_first_reception",
+    "accelerated_outgoing_ratio",
+    "accelerated_return_incidence",
+    "accelerated_independent_frequency",
+    "accelerated_proper_clock_norm",
+    "accelerated_future_after_relay",
+    "accelerated_timelike_at_reception",
+    "accelerated_return_value_squared",
+    "accelerated_return_positive",
+    "same_outgoing_unequal_return"
+  ],
+  "records": [
+    {
+      "family": "static",
+      "x": "0",
+      "arrival_over_L": "2",
+      "p": "1",
+      "q": "1",
+      "v_return": "0"
+    },
+    {
+      "family": "accelerated",
+      "x": "t**2/(8*L)",
+      "arrival_over_L": "-4 + 4*sqrt(2)",
+      "p": "1",
+      "q": "sqrt(-1 + sqrt(2))",
+      "v_return": "-1 + sqrt(2)"
+    }
+  ],
+  "scope": "Supplied flat accelerated-clock control; outside ESR PSW free-clock scope",
+  "sampling": "exact symbolic, no finite-sampling universal inference"
+}
