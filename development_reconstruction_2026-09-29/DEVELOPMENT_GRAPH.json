@@ -219,7 +219,8 @@
         "udt_positional_curvature_connection_2026-10-01/REVIEWED_RESULT.md",
         "udt_environment_response_candidates_2026-10-01/REVIEWED_RESULT.md",
         "udt_response_clock_discriminator_2026-10-01/REVIEWED_RESULT.md",
-        "udt_physical_selection_checkpoint_2026-10-02/REVIEWED_RESULT.md"
+        "udt_physical_selection_checkpoint_2026-10-02/REVIEWED_RESULT.md",
+        "udt_curvature_measurement_feasibility_2026-10-02/REVIEWED_RESULT.md"
       ],
       "required_conditions": [
         "P_NULL",
@@ -244,7 +245,8 @@
         "udt_g311_universal_reciprocity_full_covariant_response_2026-09-01/EXACT_DERIVATION.md",
         "udt_gr_filter_reconciliation_2026-09-09/AUTHORITY_RECORD.md",
         "udt_response_clock_discriminator_2026-10-01/REVIEWED_RESULT.md",
-        "udt_physical_selection_checkpoint_2026-10-02/REVIEWED_RESULT.md"
+        "udt_physical_selection_checkpoint_2026-10-02/REVIEWED_RESULT.md",
+        "udt_curvature_measurement_feasibility_2026-10-02/REVIEWED_RESULT.md"
       ],
       "required_conditions": [
         "P_DDR"
@@ -398,7 +400,8 @@
         "udt_finite_selection_test_2026-10-01/REVIEWED_RESULT.md",
         "udt_g163_xmax_dependency_reversal_audit_2026-08-18/AUDIT_REPORT.md",
         "udt_response_clock_discriminator_2026-10-01/REVIEWED_RESULT.md",
-        "udt_physical_selection_checkpoint_2026-10-02/REVIEWED_RESULT.md"
+        "udt_physical_selection_checkpoint_2026-10-02/REVIEWED_RESULT.md",
+        "udt_curvature_measurement_feasibility_2026-10-02/REVIEWED_RESULT.md"
       ],
       "required_conditions": [
         "P_SCALE"
@@ -431,7 +434,8 @@
         "udt_gr_commitment_audit_2026-09-29/REVIEWED_RESULT.md",
         "udt_environment_response_candidates_2026-10-01/REVIEWED_RESULT.md",
         "udt_response_clock_discriminator_2026-10-01/REVIEWED_RESULT.md",
-        "udt_physical_selection_checkpoint_2026-10-02/REVIEWED_RESULT.md"
+        "udt_physical_selection_checkpoint_2026-10-02/REVIEWED_RESULT.md",
+        "udt_curvature_measurement_feasibility_2026-10-02/REVIEWED_RESULT.md"
       ],
       "required_conditions": [
         "M_GEOMETRY"
@@ -500,7 +504,8 @@
         "udt_positional_curvature_connection_2026-10-01/REVIEWED_RESULT.md",
         "udt_environment_response_candidates_2026-10-01/REVIEWED_RESULT.md",
         "udt_response_clock_discriminator_2026-10-01/REVIEWED_RESULT.md",
-        "udt_physical_selection_checkpoint_2026-10-02/REVIEWED_RESULT.md"
+        "udt_physical_selection_checkpoint_2026-10-02/REVIEWED_RESULT.md",
+        "udt_curvature_measurement_feasibility_2026-10-02/REVIEWED_RESULT.md"
       ],
       "required_conditions": []
     },
@@ -1086,7 +1091,7 @@
     {
       "id": "O_PSW_ATTRIBUTION",
       "kind": "open_join",
-      "statement": "Received ticking and FNA1 supplied full-pair assembly are defined. FST1 proves a conditional symmetric-response degeneracy and relative-curvature clock discriminator. Native physical branch/comparison admission, actual response and empirical filter attachment remain OPEN; legitimate scalar state/calibration data are distinct from law selection. No physical scale or X_max selected. ECS1 adds a necessary internal echo relation and exact restricted-sheet transverse ambiguity; neither selects native geometry nor establishes all-observer/field-sector nonuniqueness. PCC1 tests an UNADOPTED all-frame leading additional-curvature assignment with supplied reference/matching; conditional compatibility and scoped Einstein-reference consequence do not close native positional attribution or select a finite law. ERC1 conditionally generates variable-curvature clock records from an unadopted known response law and supplied data; native response identity, source relation and positional attribution remain OPEN. Free legitimate data alone do not prove a law missing. RCD1 supplies a conditional clock-curve discriminator, with native physical implication unestablished; exact full response identity is sufficient, not necessary or a universal gate. PSC1 gives two unadopted physical proposals, restricted constant-pole selection and nonlinear completion/clock controls; no native applicability or entropy/source identification follows.",
+      "statement": "Received ticking and FNA1 supplied full-pair assembly are defined. FST1 proves a conditional symmetric-response degeneracy and relative-curvature clock discriminator. Native physical branch/comparison admission, actual response and empirical filter attachment remain OPEN; legitimate scalar state/calibration data are distinct from law selection. No physical scale or X_max selected. ECS1 adds a necessary internal echo relation and exact restricted-sheet transverse ambiguity; neither selects native geometry nor establishes all-observer/field-sector nonuniqueness. PCC1 tests an UNADOPTED all-frame leading additional-curvature assignment with supplied reference/matching; conditional compatibility and scoped Einstein-reference consequence do not close native positional attribution or select a finite law. ERC1 conditionally generates variable-curvature clock records from an unadopted known response law and supplied data; native response identity, source relation and positional attribution remain OPEN. Free legitimate data alone do not prove a law missing. RCD1 supplies a conditional clock-curve discriminator, with native physical implication unestablished; exact full response identity is sufficient, not necessary or a universal gate. PSC1 gives two unadopted physical proposals, restricted constant-pole selection and nonlinear completion/clock controls; no native applicability or entropy/source identification follows. CMF1 reconstructs total scalar curvature under supplied clock preparation; no positional attribution or physical source-free sector is established.",
       "sources": [
         "udt_positional_selection_whiteboard_2026-10-01/INITIAL_CANDIDATE.md",
         "udt_positional_selection_whiteboard_2026-10-01/REPAIR.md",
@@ -1098,7 +1103,8 @@
         "udt_positional_curvature_connection_2026-10-01/REVIEWED_RESULT.md",
         "udt_environment_response_candidates_2026-10-01/REVIEWED_RESULT.md",
         "udt_response_clock_discriminator_2026-10-01/REVIEWED_RESULT.md",
-        "udt_physical_selection_checkpoint_2026-10-02/REVIEWED_RESULT.md"
+        "udt_physical_selection_checkpoint_2026-10-02/REVIEWED_RESULT.md",
+        "udt_curvature_measurement_feasibility_2026-10-02/REVIEWED_RESULT.md"
       ],
       "registry_ids": []
     },
@@ -1556,6 +1562,78 @@
         "C_PSC_FR",
         "C_PSC_INTERVAL",
         "C_PSC_HORIZON"
+      ]
+    },
+    {
+      "id": "C_CMF_PREP",
+      "kind": "conditional_protocol",
+      "statement": "PSW1 smooth Lorentz4 parallel-prepared free test clocks, ordinary proper time, regular future-null derivatives and same-event calibrated tetrads; independent initial distances/boosts; seven frame types at 0<v<1.",
+      "sources": [
+        "udt_curvature_measurement_feasibility_2026-10-02/INITIAL_CANDIDATE.md",
+        "udt_curvature_measurement_feasibility_2026-10-02/REPAIR.md",
+        "udt_curvature_measurement_feasibility_2026-10-02/REVIEWED_RESULT.md"
+      ],
+      "registry_ids": []
+    },
+    {
+      "id": "C_CMF_ERRORS",
+      "kind": "conditional_protocol",
+      "statement": "Derivative/finite-error subclaims only: independently calibrated exponential geodesic placements and proper steps, bounded R C4 directional derivatives, bounded clock/frame/placement errors with stated joint limits. No instrument capability derived.",
+      "sources": [
+        "udt_curvature_measurement_feasibility_2026-10-02/INITIAL_CANDIDATE.md",
+        "udt_curvature_measurement_feasibility_2026-10-02/REPAIR.md",
+        "udt_curvature_measurement_feasibility_2026-10-02/REVIEWED_RESULT.md"
+      ],
+      "registry_ids": []
+    },
+    {
+      "id": "C_CMF_TRACE",
+      "kind": "conditional_class",
+      "statement": "Exact trace subclaim only: UNADOPTED source-free metric f=R+alphaR\u00b2 equation with constant finite alpha!=0,Lambda; informative independently measured R,Box R. Trace necessary not sufficient, no physical source certificate.",
+      "sources": [
+        "udt_curvature_measurement_feasibility_2026-10-02/INITIAL_CANDIDATE.md",
+        "udt_curvature_measurement_feasibility_2026-10-02/REPAIR.md",
+        "udt_curvature_measurement_feasibility_2026-10-02/REVIEWED_RESULT.md"
+      ],
+      "registry_ids": []
+    },
+    {
+      "id": "R8CMF",
+      "kind": "argument",
+      "anchor": "r8cmf",
+      "title": "Independent scalar-curvature clock and derivative readout",
+      "sources": [
+        "udt_curvature_measurement_feasibility_2026-10-02/INITIAL_CANDIDATE.md",
+        "udt_curvature_measurement_feasibility_2026-10-02/REPAIR.md",
+        "udt_curvature_measurement_feasibility_2026-10-02/REVIEWED_RESULT.md",
+        "udt_curvature_measurement_feasibility_2026-10-02/DISCOVERY_SCOPE.md",
+        "udt_curvature_measurement_feasibility_2026-10-02/REFERENCES.md"
+      ],
+      "registry_ids": [],
+      "required_conditions": [
+        "M_GEOMETRY",
+        "P_NULL",
+        "C_CMF_PREP",
+        "C_CMF_ERRORS"
+      ]
+    },
+    {
+      "id": "R17CMF",
+      "kind": "argument",
+      "anchor": "r17cmf",
+      "title": "Necessary exact trace test and feasibility limits",
+      "sources": [
+        "udt_curvature_measurement_feasibility_2026-10-02/INITIAL_CANDIDATE.md",
+        "udt_curvature_measurement_feasibility_2026-10-02/REPAIR.md",
+        "udt_curvature_measurement_feasibility_2026-10-02/REVIEWED_RESULT.md",
+        "udt_curvature_measurement_feasibility_2026-10-02/DISCOVERY_SCOPE.md",
+        "udt_curvature_measurement_feasibility_2026-10-02/REFERENCES.md"
+      ],
+      "registry_ids": [],
+      "required_conditions": [
+        "M_GEOMETRY",
+        "C_CMF_TRACE",
+        "C_CMF_ERRORS"
       ]
     }
   ],
@@ -2944,6 +3022,76 @@
       "from": "R17PSC",
       "to": "R18",
       "kind": "context"
+    },
+    {
+      "from": "M_GEOMETRY",
+      "to": "R8CMF",
+      "kind": "hypothesis"
+    },
+    {
+      "from": "P_NULL",
+      "to": "R8CMF",
+      "kind": "hypothesis"
+    },
+    {
+      "from": "C_CMF_PREP",
+      "to": "R8CMF",
+      "kind": "hypothesis"
+    },
+    {
+      "from": "C_CMF_ERRORS",
+      "to": "R8CMF",
+      "kind": "hypothesis"
+    },
+    {
+      "from": "M_GEOMETRY",
+      "to": "R17CMF",
+      "kind": "hypothesis"
+    },
+    {
+      "from": "C_CMF_TRACE",
+      "to": "R17CMF",
+      "kind": "hypothesis"
+    },
+    {
+      "from": "C_CMF_ERRORS",
+      "to": "R17CMF",
+      "kind": "hypothesis"
+    },
+    {
+      "from": "R8",
+      "to": "R8CMF",
+      "kind": "proof"
+    },
+    {
+      "from": "R8CMF",
+      "to": "R17CMF",
+      "kind": "context"
+    },
+    {
+      "from": "R17PSC",
+      "to": "R17CMF",
+      "kind": "context"
+    },
+    {
+      "from": "R8PSC",
+      "to": "R17CMF",
+      "kind": "context"
+    },
+    {
+      "from": "R8RCD",
+      "to": "R17CMF",
+      "kind": "context"
+    },
+    {
+      "from": "R8CMF",
+      "to": "R18",
+      "kind": "context"
+    },
+    {
+      "from": "R17CMF",
+      "to": "R18",
+      "kind": "context"
     }
   ],
   "sources_sha256": {
@@ -3137,7 +3285,12 @@
     "udt_physical_selection_checkpoint_2026-10-02/INITIAL_CANDIDATE.md": "42726795d831574f7a0cf9649ce4be177576d76373fb3d55b009c5f9ac0a41f2",
     "udt_physical_selection_checkpoint_2026-10-02/REVIEWED_RESULT.md": "b98172e861f9dd966b4e277e081e22cf0d35fd4eef6329491347c6d2a751b112",
     "udt_physical_selection_checkpoint_2026-10-02/REFERENCES.md": "7f199cec24206fdb645a3bc03b660f7e71a5ee3d3dcc2099bc521c8a8354d096",
-    "udt_physical_selection_checkpoint_2026-10-02/DISCOVERY_SCOPE.md": "5772ab567b5bc537e78caadeeffb29006e5f38ebd64dbad9ad22b3f07bb159b8"
+    "udt_physical_selection_checkpoint_2026-10-02/DISCOVERY_SCOPE.md": "5772ab567b5bc537e78caadeeffb29006e5f38ebd64dbad9ad22b3f07bb159b8",
+    "udt_curvature_measurement_feasibility_2026-10-02/INITIAL_CANDIDATE.md": "436402b7d42ae35dd7d1b0149ff8fe55ab4fcdea1a8ada446b84f81b206125b3",
+    "udt_curvature_measurement_feasibility_2026-10-02/REPAIR.md": "7b8cdac6c29189a8ff2ed073ec39c0a7c6863c4c6114beae7457fc4a860d505c",
+    "udt_curvature_measurement_feasibility_2026-10-02/REVIEWED_RESULT.md": "5e2469b06dc71ed75b3af0e9e93ed2f32a12f4f2e72de4f9e7ecea96bfdd2a46",
+    "udt_curvature_measurement_feasibility_2026-10-02/DISCOVERY_SCOPE.md": "288368c57bfb6633fc5ab93fb5e3d36e18c7189b3899e8ac933fab3a1be4da66",
+    "udt_curvature_measurement_feasibility_2026-10-02/REFERENCES.md": "af290863d04a1b1270d1a79b943a2dc5a202ee09330f9fcebdc694e90b77b420"
   },
   "impact_policy": "Any changed source or registry row flags its mapped positive and negative central arguments and every reachable central descendant for review; no automatic truth reversal or regrading.",
   "review_support": [
@@ -4521,6 +4674,60 @@
         "R18",
         "R17PSC",
         "R8PSC"
+      ]
+    },
+    {
+      "path": "udt_curvature_measurement_feasibility_2026-10-02/math/CANDIDATE_REVIEW.md",
+      "sha256": "0ee16b6ee85e72163f10465f4d1126b50e224387e0e71eff3546a13a5ea845f9",
+      "role": "review_evidence",
+      "targets": [
+        "R8",
+        "R9",
+        "R16",
+        "R17",
+        "R18",
+        "R8RCD",
+        "R8PSC",
+        "R17PSC",
+        "R8CMF",
+        "R17CMF",
+        "O_PSW_ATTRIBUTION"
+      ]
+    },
+    {
+      "path": "udt_curvature_measurement_feasibility_2026-10-02/fidelity/CANDIDATE_REVIEW.md",
+      "sha256": "1c0ae4da5c6205ca82fc0aae4a346b395e20b592204572e91946500760ff3fe8",
+      "role": "review_evidence",
+      "targets": [
+        "R8",
+        "R9",
+        "R16",
+        "R17",
+        "R18",
+        "R8RCD",
+        "R8PSC",
+        "R17PSC",
+        "R8CMF",
+        "R17CMF",
+        "O_PSW_ATTRIBUTION"
+      ]
+    },
+    {
+      "path": "udt_curvature_measurement_feasibility_2026-10-02/DESCENDANT_REVIEW.md",
+      "sha256": "00767a8c952a365617150ca19413839232e07264143146b5a705a40737655d6c",
+      "role": "review_evidence",
+      "targets": [
+        "R8",
+        "R9",
+        "R16",
+        "R17",
+        "R18",
+        "R8RCD",
+        "R8PSC",
+        "R17PSC",
+        "R8CMF",
+        "R17CMF",
+        "O_PSW_ATTRIBUTION"
       ]
     }
   ]

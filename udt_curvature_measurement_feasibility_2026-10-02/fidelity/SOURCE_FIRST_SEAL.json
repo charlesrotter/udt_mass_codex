@@ -1,0 +1,11 @@
+{
+  "utc": "2026-10-03T03:37:58.701639+00:00",
+  "files": {
+    "fidelity/SOURCE_FIRST_RECORD.json": "48b31f2790763d7bd52d569f6cf3155402a3251a5bf2577e9c827c40a8ff2b84",
+    "fidelity/SOURCE_FIRST_REPORT.md": "6d3c6af00065609fd6aee357b989421390bd1152e49ec715d200f7a3d3d58ff6",
+    "fidelity/source_first_capture.json": "86d2e0a95ccb6caffa4f0b7f6c0911363ee85bb2150d819dd2f5626bcd55cbbd",
+    "fidelity/source_first_capture.stderr": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "fidelity/source_first_capture.stdout": "76bf022f8b7d6b5ae74c5a252507cdb96c88ca452ddbc5e6d88d3cfef5240777",
+    "fidelity/source_first_checks.py": "7a244282d2e96e08965d8d5c1173baf8bec951ca9cb08b991b4a10d6fc74b9fc"
+  }
+}

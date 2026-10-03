@@ -1,0 +1,23 @@
+{
+  "utc": "2026-10-03T03:41:49.986451+00:00",
+  "reviewer": "/root/cmf_fidelity",
+  "verdict": "VERIFIED-WITH-CAVEATS conditional measurement construction",
+  "files": {
+    "udt_curvature_measurement_feasibility_2026-10-02/INITIAL_CANDIDATE.md": "436402b7d42ae35dd7d1b0149ff8fe55ab4fcdea1a8ada446b84f81b206125b3",
+    "udt_curvature_measurement_feasibility_2026-10-02/REPAIR.md": "7b8cdac6c29189a8ff2ed073ec39c0a7c6863c4c6114beae7457fc4a860d505c",
+    "udt_curvature_measurement_feasibility_2026-10-02/CANDIDATE_FREEZE.json": "1724eaadb175e45e8d50ebac13770d59ba721ba21173b1ef3ddf4719ef4a705c",
+    "udt_curvature_measurement_feasibility_2026-10-02/SAVED_CONTROL.json": "5c964023ca441d81260bc575278f653b03d81977db09d49523d429b1155d691f",
+    "udt_curvature_measurement_feasibility_2026-10-02/fidelity/SOURCE_FIRST_SEAL.json": "16d65099f831376c08ed7af2d64e9b16cb6fdb97896a570ee445cd53305e2b10",
+    "udt_curvature_measurement_feasibility_2026-10-02/fidelity/CANDIDATE_REVIEW.md": "1c0ae4da5c6205ca82fc0aae4a346b395e20b592204572e91946500760ff3fe8",
+    "udt_curvature_measurement_feasibility_2026-10-02/fidelity/check_saved_control.py": "69dce795f433c07a56fb9b60ea8248124070a418401343e35e50c2c0eea5353d",
+    "udt_curvature_measurement_feasibility_2026-10-02/fidelity/saved_control_capture.stdout": "caa19313193988c6beb30c52b550d330c1b80090abb3847df4abc013da83a9c6",
+    "udt_curvature_measurement_feasibility_2026-10-02/fidelity/saved_control_capture.stderr": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "udt_curvature_measurement_feasibility_2026-10-02/fidelity/saved_control_capture.json": "c534535117d3a741d3e7e5d34ea5ecec0ae4336dc72cd80e1817b0bcde968bda"
+  },
+  "checks": 40,
+  "parent_checker_read": false,
+  "sibling_evidence_read": false,
+  "initial_frozen_bytes_match": true,
+  "source_first_seal_matches": true,
+  "final_integration": "PENDING"
+}

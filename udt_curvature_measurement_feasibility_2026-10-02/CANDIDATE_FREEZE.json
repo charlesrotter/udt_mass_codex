@@ -1,0 +1,15 @@
+{
+  "utc": "2026-10-03T03:36:08.308542+00:00",
+  "scope": "CMF1 parent initial candidate and construction checks before exposed review",
+  "sha256": {
+    "udt_curvature_measurement_feasibility_2026-10-02/WORK_ORDER.md": "50185b9e6d6f62f5a3f2220cea56d41b25fd2ff3faac3994de698efd1415eb12",
+    "udt_curvature_measurement_feasibility_2026-10-02/BASELINE.json": "f70613cad013ee2c27e2a2cdb7cd749560ac739a3f614a70ba037e2c64b50a18",
+    "udt_curvature_measurement_feasibility_2026-10-02/INITIAL_CANDIDATE.md": "436402b7d42ae35dd7d1b0149ff8fe55ab4fcdea1a8ada446b84f81b206125b3",
+    "udt_curvature_measurement_feasibility_2026-10-02/check_feasibility.py": "4b52c88b8e436e4fa1e2454e8f0571361e13e0c7d656db3743be0ef2c6d15ecc",
+    "udt_curvature_measurement_feasibility_2026-10-02/check_feasibility.initial.py": "4b98683a29172239ed21a7368bfe9c6b159732fbe7f2bdcd478563caca784f2f",
+    "udt_curvature_measurement_feasibility_2026-10-02/EXACT_RESULT.json": "e6a64329d699cdd7ff71626b1e4da4ea1d3f488c97f913e9dd86f2699603aacd",
+    "udt_curvature_measurement_feasibility_2026-10-02/SAVED_CONTROL.json": "5c964023ca441d81260bc575278f653b03d81977db09d49523d429b1155d691f",
+    "udt_curvature_measurement_feasibility_2026-10-02/CONSTRUCTION_REPAIR.md": "adf777f351970375cd99f75692b7d8191f7e15561f09dc37843bf6b6e047acf8"
+  },
+  "exposure": "Parent derived seven-frame formula before math preview; ultrastatic obstruction credited to that preview. Exact trace extension sent to both reviewers before their seal. No reviewer proof/code/output read yet."
+}

@@ -1,0 +1,14 @@
+{
+  "scope": "Actual host process read after all required audits, outside the per-command process sandbox.",
+  "command": "ps -C python,python3,torchrun -o pid,ppid,comm,etime,args",
+  "result": {
+    "chunk_id": "157844",
+    "wall_time_seconds": 0.000011994,
+    "exit_code": 1,
+    "original_token_count": 13,
+    "output": "    PID    PPID COMMAND             ELAPSED COMMAND\n"
+  },
+  "startup_scope_correction": "The initial header-only process listing reported in WORK_ORDER and WORK_RECORD was sandbox-scoped; it did not independently establish host-wide absence at startup. That initial host-absence claim is unverified. The later direct host listing during the audit showed only capture, verifier and its replay children. This actual post-audit result controls closure process status. No scientific equation, evidence grade, solver or physical premise changes.",
+  "coverage_limit": "This checks processes with these executable names; it is not an audit of every host service.",
+  "remote_check": "A direct git ls-remote origin refs/heads/grok returned b9b8f0b46fd846f03609e3b27e6114028be67cab before banking, as recorded in the tool transcript."
+}

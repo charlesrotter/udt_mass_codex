@@ -1,24 +1,12 @@
 {
-  "status": "REVIEWED_WITH_LIMITS",
-  "utc": "2026-10-03T03:48:45.029016+00:00",
-  "scope": "CMF1 ideal scalar curvature/derivative measurement and exact necessary quadratic trace test; practical/source/native applicability OPEN; no equation/adoption/grade change. Two fresh actual contexts, source-preserving precision repair, inherited evidence retains original scope.",
-  "independence": "Two fresh separate source-first then exposed candidate/final reviews. Shared inherited model/Python; separately authored symbolic and stdlib rational implementations and saved-metric connection reconstruction. Idea/formula preview exposure and precision repair disclosed. No different-model/human/formal/instrument review.",
-  "freeze": "udt_curvature_measurement_feasibility_2026-10-02/INTEGRATION_FREEZE.json",
+  "context": "/root/cmf_math",
+  "model": "Inherited parent model; exact backend identifier unavailable",
+  "utc": "2026-10-03T03:47:43.241968+00:00",
+  "verdict": "ACCEPT_WITH_LIMITS",
+  "report_path": "udt_curvature_measurement_feasibility_2026-10-02/math/FINAL_REVIEW.md",
+  "report_sha256": "28fd74a4b0f19a8290bf7a6ed06a212ecfcd0100c8885ea5976f5d3bbcd742b9",
+  "freeze_path": "udt_curvature_measurement_feasibility_2026-10-02/INTEGRATION_FREEZE.json",
   "freeze_sha256": "4a2f52387e8d7fa7903a7a81b3849ab94d0447edaaebb10176f4b14c3d6d55d3",
-  "prior_review_record": "udt_curvature_measurement_feasibility_2026-10-02/PRIOR_REVIEW_RECORD.json",
-  "prior_review_record_sha256": "a4d93d90873efa2a2478b721882d660fb45285a8988ca88ae4d70732d8f4e6ec",
-  "reviewers": [
-    {
-      "context": "/root/cmf_math",
-      "attestation": "udt_curvature_measurement_feasibility_2026-10-02/math/FINAL_ATTESTATION.json",
-      "sha256": "d88c449684dce9251eb0195ede5316353ed0a2700c149b377a0302ab0c92f050"
-    },
-    {
-      "context": "/root/cmf_fidelity",
-      "attestation": "udt_curvature_measurement_feasibility_2026-10-02/fidelity/FINAL_ATTESTATION.json",
-      "sha256": "b77b56c7092d10d8f5686981896cbd6aa24d2dd2ae4ec85effb5995b38c4aaa9"
-    }
-  ],
   "accepted_sha256": {
     ".gitignore": "8a2710f5923ba86b41a461e040282ecd520ce155cb17b09458e1d1d613ddeb7a",
     "AGENTS.md": "bcab9b67305e0314af9eaf25162d203660eae8f2ff4fd87d17e83588970ef38d",
@@ -12912,5 +12900,8 @@
     "udt_time_live_smoke_gate_2026-09-30/smoke_runner.py": "724bf5405dd9596bff343a0a6967393d26a0a0c7529124e9a0bfdd70e569d52f",
     "verify_current_scientific_premises.py": "a983c2456ce3a122629a116c735b32b96e055829ed3012fb416fabfa9b0b8127",
     "verify_udt_development.py": "555e2733fa04c609874802369983f73b4a1d8a79610488d9dc732b1acfb0c2fa"
-  }
+  },
+  "actual_review": "Fresh separate source-first and exposed mathematical review; final central/dependency/adapter/result correspondence and preserved scope repair reviewed. 121 finite exact assertions, independent Fraction original-metric saved-artifact reconstruction, and final map/registry/CANON/program checks.",
+  "exposure": "Work-order seven-frame clue and parent exact-trace formula before seal disclosed; parent candidate/code/output opened after source-first seal. Fidelity final scope objection relayed during final review and actual corrected wording inspected.",
+  "omissions": "Inherited unchanged files retained by hash correspondence, not full-corpus semantic reproof. No protected payload reads/hashes; no different-model,human,formal,empirical,apparatus,nonlinear-evolution or full tensor tomography validation. Parent closure checks pending and not claimed."
 }

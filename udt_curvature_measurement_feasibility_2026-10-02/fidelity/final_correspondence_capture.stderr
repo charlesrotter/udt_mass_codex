@@ -1,0 +1,8 @@
+Traceback (most recent call last):
+  File "/home/udt-admin/udt_mass_codex/udt_curvature_measurement_feasibility_2026-10-02/fidelity/check_final_correspondence.py", line 25, in <module>
+    v=importlib.util.module_from_spec(spec);spec.loader.exec_module(v)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/udt-admin/udt_mass_codex/verify_udt_development.py", line 11, in <module>
+    from update_metric_kernel_account import sha256  # Existing byte-hash helper only.
+ModuleNotFoundError: No module named 'update_metric_kernel_account'

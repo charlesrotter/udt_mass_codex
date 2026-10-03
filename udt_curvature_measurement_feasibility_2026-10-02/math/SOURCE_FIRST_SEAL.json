@@ -1,0 +1,14 @@
+{
+  "utc": "2026-10-03T03:37:00.323208+00:00",
+  "exposure": "No parent/sibling candidate,proof,code,outputs read. Work-order seven-frame clue and parent exact-trace formula message disclosed in SOURCE_FIRST.md.",
+  "source_first_files": {
+    "udt_curvature_measurement_feasibility_2026-10-02/math/EXACT_RESULT.json": "00ec5736618a79911beee095c671b4b63aa2f66666d4ccf7b316b30c8ce88d79",
+    "udt_curvature_measurement_feasibility_2026-10-02/math/SOURCE_FIRST.md": "713e94e36d8156fe0212c341bedcb7ca6cbf48b88afd31c4173058dc74b638b2",
+    "udt_curvature_measurement_feasibility_2026-10-02/math/SOURCE_PINS.json": "d51982bdc5f34339f6ecb2318e05720fb360533fc1688ea116107c12c78838e1",
+    "udt_curvature_measurement_feasibility_2026-10-02/math/check_exact.py": "5d317132ab3ad0aba6de243220abc359573be11c713a291a8c60c1ac6f036eff",
+    "udt_curvature_measurement_feasibility_2026-10-02/math/source_first_exact.json": "59fa7b178cc365e6109c6e0063dcf645398a61e746079d8c532850eda36989fa",
+    "udt_curvature_measurement_feasibility_2026-10-02/math/source_first_exact.stderr": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "udt_curvature_measurement_feasibility_2026-10-02/math/source_first_exact.stdout": "00ec5736618a79911beee095c671b4b63aa2f66666d4ccf7b316b30c8ce88d79"
+  },
+  "check_count": 121
+}

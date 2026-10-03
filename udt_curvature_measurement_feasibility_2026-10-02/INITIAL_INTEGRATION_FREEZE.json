@@ -1,24 +1,16 @@
 {
-  "status": "REVIEWED_WITH_LIMITS",
-  "utc": "2026-10-03T03:48:45.029016+00:00",
+  "utc": "2026-10-03T03:43:07.088010+00:00",
   "scope": "CMF1 ideal scalar curvature/derivative measurement and exact necessary quadratic trace test; practical/source/native applicability OPEN; no equation/adoption/grade change. Two fresh actual contexts, source-preserving precision repair, inherited evidence retains original scope.",
-  "independence": "Two fresh separate source-first then exposed candidate/final reviews. Shared inherited model/Python; separately authored symbolic and stdlib rational implementations and saved-metric connection reconstruction. Idea/formula preview exposure and precision repair disclosed. No different-model/human/formal/instrument review.",
-  "freeze": "udt_curvature_measurement_feasibility_2026-10-02/INTEGRATION_FREEZE.json",
-  "freeze_sha256": "4a2f52387e8d7fa7903a7a81b3849ab94d0447edaaebb10176f4b14c3d6d55d3",
-  "prior_review_record": "udt_curvature_measurement_feasibility_2026-10-02/PRIOR_REVIEW_RECORD.json",
-  "prior_review_record_sha256": "a4d93d90873efa2a2478b721882d660fb45285a8988ca88ae4d70732d8f4e6ec",
-  "reviewers": [
-    {
-      "context": "/root/cmf_math",
-      "attestation": "udt_curvature_measurement_feasibility_2026-10-02/math/FINAL_ATTESTATION.json",
-      "sha256": "d88c449684dce9251eb0195ede5316353ed0a2700c149b377a0302ab0c92f050"
-    },
-    {
-      "context": "/root/cmf_fidelity",
-      "attestation": "udt_curvature_measurement_feasibility_2026-10-02/fidelity/FINAL_ATTESTATION.json",
-      "sha256": "b77b56c7092d10d8f5686981896cbd6aa24d2dd2ae4ec85effb5995b38c4aaa9"
-    }
+  "base_head": "b9b8f0b46fd846f03609e3b27e6114028be67cab",
+  "changed_inherited": [
+    "CURRENT_RESEARCH_PROGRAM.md",
+    "HANDOFF.md",
+    "LIVE.md",
+    "UDT_DEVELOPMENT.md",
+    "development_reconstruction_2026-09-29/DEVELOPMENT_GRAPH.json",
+    "development_reconstruction_2026-09-29/RECENT_DISPOSITIONS.tsv"
   ],
+  "inherited_count": 12830,
   "accepted_sha256": {
     ".gitignore": "8a2710f5923ba86b41a461e040282ecd520ce155cb17b09458e1d1d613ddeb7a",
     "AGENTS.md": "bcab9b67305e0314af9eaf25162d203660eae8f2ff4fd87d17e83588970ef38d",
@@ -83,14 +75,11 @@
     "udt_curvature_measurement_feasibility_2026-10-02/BASELINE.json": "f70613cad013ee2c27e2a2cdb7cd749560ac739a3f614a70ba037e2c64b50a18",
     "udt_curvature_measurement_feasibility_2026-10-02/CANDIDATE_FREEZE.json": "1724eaadb175e45e8d50ebac13770d59ba721ba21173b1ef3ddf4719ef4a705c",
     "udt_curvature_measurement_feasibility_2026-10-02/CONSTRUCTION_REPAIR.md": "adf777f351970375cd99f75692b7d8191f7e15561f09dc37843bf6b6e047acf8",
-    "udt_curvature_measurement_feasibility_2026-10-02/DECISION_BRIEF.md": "ae59dc698993febbfee4d6aa26c1631a15ad72bb90c9772c8f877511e78494ae",
+    "udt_curvature_measurement_feasibility_2026-10-02/DECISION_BRIEF.md": "08bf8a3d503fdc906d08696ca9b4ba0d5dbbaf8b65b4675d9e0468b96a12407f",
     "udt_curvature_measurement_feasibility_2026-10-02/DESCENDANT_REVIEW.md": "00767a8c952a365617150ca19413839232e07264143146b5a705a40737655d6c",
     "udt_curvature_measurement_feasibility_2026-10-02/DISCOVERY_SCOPE.md": "288368c57bfb6633fc5ab93fb5e3d36e18c7189b3899e8ac933fab3a1be4da66",
     "udt_curvature_measurement_feasibility_2026-10-02/EXACT_RESULT.json": "e6a64329d699cdd7ff71626b1e4da4ea1d3f488c97f913e9dd86f2699603aacd",
-    "udt_curvature_measurement_feasibility_2026-10-02/FINAL_SCOPE_CLARIFICATION.md": "dba9a9162b4cc50e6cb693d8f902a22afa307901b24d2b737a7207e582762c9b",
     "udt_curvature_measurement_feasibility_2026-10-02/INITIAL_CANDIDATE.md": "436402b7d42ae35dd7d1b0149ff8fe55ab4fcdea1a8ada446b84f81b206125b3",
-    "udt_curvature_measurement_feasibility_2026-10-02/INITIAL_DECISION_BRIEF.md": "08bf8a3d503fdc906d08696ca9b4ba0d5dbbaf8b65b4675d9e0468b96a12407f",
-    "udt_curvature_measurement_feasibility_2026-10-02/INITIAL_INTEGRATION_FREEZE.json": "0b5713577c3c06e6b39e7e42fdcf5213cad157088ad74a37913fe177e03362bd",
     "udt_curvature_measurement_feasibility_2026-10-02/PRIOR_REVIEW_RECORD.json": "a4d93d90873efa2a2478b721882d660fb45285a8988ca88ae4d70732d8f4e6ec",
     "udt_curvature_measurement_feasibility_2026-10-02/REFERENCES.md": "af290863d04a1b1270d1a79b943a2dc5a202ee09330f9fcebdc694e90b77b420",
     "udt_curvature_measurement_feasibility_2026-10-02/REPAIR.md": "7b8cdac6c29189a8ff2ed073ec39c0a7c6863c4c6114beae7457fc4a860d505c",

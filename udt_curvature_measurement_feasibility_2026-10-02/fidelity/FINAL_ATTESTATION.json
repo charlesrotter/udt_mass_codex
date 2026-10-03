@@ -1,24 +1,10 @@
 {
-  "status": "REVIEWED_WITH_LIMITS",
-  "utc": "2026-10-03T03:48:45.029016+00:00",
-  "scope": "CMF1 ideal scalar curvature/derivative measurement and exact necessary quadratic trace test; practical/source/native applicability OPEN; no equation/adoption/grade change. Two fresh actual contexts, source-preserving precision repair, inherited evidence retains original scope.",
-  "independence": "Two fresh separate source-first then exposed candidate/final reviews. Shared inherited model/Python; separately authored symbolic and stdlib rational implementations and saved-metric connection reconstruction. Idea/formula preview exposure and precision repair disclosed. No different-model/human/formal/instrument review.",
-  "freeze": "udt_curvature_measurement_feasibility_2026-10-02/INTEGRATION_FREEZE.json",
-  "freeze_sha256": "4a2f52387e8d7fa7903a7a81b3849ab94d0447edaaebb10176f4b14c3d6d55d3",
-  "prior_review_record": "udt_curvature_measurement_feasibility_2026-10-02/PRIOR_REVIEW_RECORD.json",
-  "prior_review_record_sha256": "a4d93d90873efa2a2478b721882d660fb45285a8988ca88ae4d70732d8f4e6ec",
-  "reviewers": [
-    {
-      "context": "/root/cmf_math",
-      "attestation": "udt_curvature_measurement_feasibility_2026-10-02/math/FINAL_ATTESTATION.json",
-      "sha256": "d88c449684dce9251eb0195ede5316353ed0a2700c149b377a0302ab0c92f050"
-    },
-    {
-      "context": "/root/cmf_fidelity",
-      "attestation": "udt_curvature_measurement_feasibility_2026-10-02/fidelity/FINAL_ATTESTATION.json",
-      "sha256": "b77b56c7092d10d8f5686981896cbd6aa24d2dd2ae4ec85effb5995b38c4aaa9"
-    }
-  ],
+  "context": "/root/cmf_fidelity",
+  "verdict": "ACCEPT_WITH_LIMITS",
+  "utc": "2026-10-03T03:48:14.689613+00:00",
+  "report_path": "udt_curvature_measurement_feasibility_2026-10-02/fidelity/FINAL_REVIEW.md",
+  "report_sha256": "5a2105ed01039e7973f5c37d0bd66a133006d9a2a80ef0e76bdb39f32dfcae8e",
+  "integration_freeze_sha256": "4a2f52387e8d7fa7903a7a81b3849ab94d0447edaaebb10176f4b14c3d6d55d3",
   "accepted_sha256": {
     ".gitignore": "8a2710f5923ba86b41a461e040282ecd520ce155cb17b09458e1d1d613ddeb7a",
     "AGENTS.md": "bcab9b67305e0314af9eaf25162d203660eae8f2ff4fd87d17e83588970ef38d",
@@ -12912,5 +12898,20 @@
     "udt_time_live_smoke_gate_2026-09-30/smoke_runner.py": "724bf5405dd9596bff343a0a6967393d26a0a0c7529124e9a0bfdd70e569d52f",
     "verify_current_scientific_premises.py": "a983c2456ce3a122629a116c735b32b96e055829ed3012fb416fabfa9b0b8127",
     "verify_udt_development.py": "555e2733fa04c609874802369983f73b4a1d8a79610488d9dc732b1acfb0c2fa"
-  }
+  },
+  "independence": {
+    "fresh_context": true,
+    "shared_model_runtime": true,
+    "independent_argument_and_stdlib_implementation": true,
+    "source_first_question_formula_exposure_disclosed": true,
+    "different_model_human_formal_review": false
+  },
+  "scope": "Actual repaired final central/operational synthesis and12892 accepted-file byte correspondences. Conditional ideal interface only; practical/source/native scope OPEN. Parent closure checks and banking pending.",
+  "checks": {
+    "source_first_exact": 41,
+    "saved_metric_exact": 40,
+    "full_map_byte_correspondence": "PASS;not full-corpus scientific reproof",
+    "command_environment_failure_preserved": true
+  },
+  "omissions": "No repeated prior scientific suites/full406/maintenance fixtures/GPU/hardware/data/generalPDE/globalstability. No parent or sibling scientific checker content read."
 }

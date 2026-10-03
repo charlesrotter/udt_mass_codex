@@ -1,0 +1,22 @@
+{
+  "status": "PASS",
+  "scope": "All-map byte correspondence, changed-inherited map, generated program, current registry/CANON preservation, CMF source pins. Not full-corpus semantic reproof.",
+  "accepted_paths": 12892,
+  "inherited_paths": 12830,
+  "changed_inherited": [
+    "CURRENT_RESEARCH_PROGRAM.md",
+    "HANDOFF.md",
+    "LIVE.md",
+    "UDT_DEVELOPMENT.md",
+    "development_reconstruction_2026-09-29/DEVELOPMENT_GRAPH.json",
+    "development_reconstruction_2026-09-29/RECENT_DISPOSITIONS.tsv"
+  ],
+  "protected_prefix_entries": 0,
+  "unchanged": [
+    "CURRENT_SCIENTIFIC_PREMISES.tsv",
+    "CANON.md"
+  ],
+  "head": "b9b8f0b46fd846f03609e3b27e6114028be67cab",
+  "branch": "grok",
+  "freeze_sha256": "4a2f52387e8d7fa7903a7a81b3849ab94d0447edaaebb10176f4b14c3d6d55d3"
+}

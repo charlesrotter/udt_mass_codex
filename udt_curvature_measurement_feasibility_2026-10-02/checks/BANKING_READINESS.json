@@ -1,0 +1,8 @@
+{
+  "status": "REVIEW_AND_REQUIRED_CHECKS_PASS",
+  "head_before_commit": "b9b8f0b46fd846f03609e3b27e6114028be67cab",
+  "origin_before_commit": "b9b8f0b46fd846f03609e3b27e6114028be67cab",
+  "preserved_existing_untracked_names": 76,
+  "accepted_files": 12892,
+  "claim_limit": "CMF1 ideal scalar curvature/derivative measurement and exact necessary quadratic trace test; practical/source/native applicability OPEN; no equation/adoption/grade change. Two fresh actual contexts, source-preserving precision repair, inherited evidence retains original scope."
+}

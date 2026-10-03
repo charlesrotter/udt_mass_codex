@@ -1,7 +1,7 @@
 # UDT — continuous scientific development
 
 <!-- DEVELOPMENT_ORIENTATION_BEGIN -->
-**Continuous development — CDR1 with SGE1, LKT1, GCA1, PCW1, CES1, CCR1, PRI1, TRI1, NGD1, TDS1, TPP1, TPS1, PSW1, FPC1, FNA1, FST1, ECS1, PCC1, ERC1, RCD1 and PSC1, 2026-10-02.** This is the maintained
+**Continuous development — CDR1 with SGE1, LKT1, GCA1, PCW1, CES1, CCR1, PRI1, TRI1, NGD1, TDS1, TPP1, TPS1, PSW1, FPC1, FNA1, FST1, ECS1, PCC1, ERC1, RCD1, PSC1 and CMF1, 2026-10-02.** This is the maintained
 scientific development. It is not canon or a new scientific-grade authority.
 The exact registry and reviewed sources own grades; LIVE owns operational status.
 Current review bindings and limits are recorded in section9; startup reads the
@@ -167,6 +167,14 @@ integration-constant sectors. Local horizon thermodynamics instead requires
 specified entropy/heat/temperature/production; it does not select the entropy
 function. The return retains the geometric diagnostic and recommends no adoption
 or automatic extension of the R² survey. Native implication remains open.
+CMF1 supplies an ideal measurement interface: seven prepared timelike clock-frame
+contractions recover scalar curvature without a response equation. Independently
+calibrated geodesic space/time sampling can then estimate Box R, with explicit
+noise/truncation requirements. The quadratic candidate's exact scalar trace gives
+a necessary test without an adjustable background family; it does not verify
+the full tensor equation or establish source-free applicability. Practical
+precision, informative physical preparation and positional attribution remain
+OPEN. This is a conditional test protocol, not a measured UDT result or adoption.
 <!-- DEVELOPMENT_ORIENTATION_END -->
 
 ## 1. How this development is owned
@@ -1665,6 +1673,69 @@ physical coefficient, source amplitude or observational pass is selected.
 Sources: [fixed candidate](udt_physical_selection_checkpoint_2026-10-02/INITIAL_CANDIDATE.md)
 and [reviewed conditional return](udt_physical_selection_checkpoint_2026-10-02/REVIEWED_RESULT.md).
 
+<a id="r8cmf"></a>
+
+#### Measuring the curvature independently — CMF1
+
+PSW1's exact parallel-prepared free-clock protocol gives c(U)=Ric(U,U) through
+the limiting outgoing triad mean. In a supplied orthonormal tetrad (u,e_i),
+choose 0<v<1 and U_i±=gamma(u±v e_i), gamma²=1/(1-v²). Tensor contraction gives
+
+    c_i+ + c_i−=2gamma²[c0+v² Ric_ii],
+    R=sum_i(c_i+ + c_i−)/(2gamma²v²)−(1+3/v²)c0.
+
+Thus seven frame types suffice for scalar R independently of a response equation.
+At the illustrative v²=1/3, R=sum_six c_i±−10c0. Every frame needs its own
+spatial triad, proper-distance/parallel preparation and differential received-tick
+measurement at the same event. This is21 directional limiting coefficients,
+not21 finite readings, an optimal design or full tensor tomography. Three spatial
+off-diagonal Ricci components remain undetermined. Boosts, distances and event
+matching must be independently calibrated. No preferred observer is selected.
+The ultrastatic product -dt²+h_K, with3D sectional curvature K, has zero electric
+tides and unit stationary tick ratios while R=6K; one frame's complete tidal form
+therefore does not determine R. This is an off-equation geometric control.
+
+If each log ratio has combined readout/preparation error at most epsilon_y and
+geometric remainder bounded by B L³, each c estimate has error at most
+6(epsilon_y/L²+B L). With common bounds, the scalar error is at most
+(6/v²−2)6(epsilon_y/L²+B L)+E_frame. Frame/ruler errors not already included
+need the separate E_frame bound. B is query dependent and independently supplied;
+smoothness gives existence locally, not its measured value. Small boosts amplify
+errors; high boosts change preparation and remainder costs. No optimum is proved.
+Flat residual radial velocity w gives log p=atanh(w), so an uncontrolled Doppler
+term can imitate or overwhelm the L² curvature coefficient. Fixed noise cannot
+be cured by L→0. Freely falling test-clock preparation/backreaction is idealized;
+no existing instrument or physical source/excitation is certified.
+
+Scalar R at one event supplies no derivatives. Independently establish geodesic
+placements exp_o(±h e_a), a=0..3, with e0 timelike, and reconstruct R at those
+eight endpoints and the central event. Along a geodesic its second derivative
+is the Hessian contraction. Consequently
+
+    D_h R=[−R(+he0)−R(−he0)+sum_i(R(+he_i)+R(−he_i))−4R(o)]/h²
+
+converges to Box_g R. The proper steps, tetrad and geodesic placements are extra
+metric/ruler/transport information; scalar reconstruction alone does not supply
+them. Results may be collected later; no instantaneous/advanced signaling is
+assumed. Arbitrarily accelerated paths require removal of acceleration times
+scalar gradient. For per-event scalar error epsilon_R and directional fourth-
+derivative bounds B_a, the deterministic error is at most
+
+    12epsilon_R/h²+(h²/12)sum_a B_a+E_place.
+
+The shared central reading has weight−4; this bound assumes no independent noise.
+For a joint ideal limit, epsilon_R=o(h²), bounded B_a and E_place→0 suffice.
+At fixed nondegenerate boosts, sufficient PSW scaling is L=o(h²),
+epsilon_y=o(L²h²), E_frame=o(h²), using dimensionless distances in fixed units.
+R in C4 (for example g in C6) supports the stencil. These are requirements, not
+demonstrated experimental resources. Finite smooth samples without derivative
+bounds cannot certify a limiting jet. The measured scalar is total curvature;
+its native positional attribution J1 remains OPEN.
+
+Sources: [fixed initial construction](udt_curvature_measurement_feasibility_2026-10-02/INITIAL_CANDIDATE.md),
+[controlling precision record](udt_curvature_measurement_feasibility_2026-10-02/REPAIR.md)
+and [conditional return](udt_curvature_measurement_feasibility_2026-10-02/REVIEWED_RESULT.md).
+
 ## 6. Response restrictions and an optional conditional dynamics branch
 
 <a id="r9"></a>
@@ -2626,6 +2697,59 @@ credits Jacobson1995 and the Eling-Guedens-Jacobson2006 correction; none is a
 UDT premise. The [reviewed return](udt_physical_selection_checkpoint_2026-10-02/REVIEWED_RESULT.md)
 retains these hypothesis costs and distinguishing-test limits.
 
+<a id="r17cmf"></a>
+
+**Independent necessary response test — CMF1.** For the same UNADOPTED
+quadratic source-free comparison E_f+Lambda g=0, f=R+alphaR², constants
+alpha!=0,Lambda, its exact trace is
+
+    6alpha Box_g R−R+4Lambda=0.
+
+This inherited equation holds beyond a homogeneous or linearized sector.
+CMF1 adds the independent measurement interface in R8CMF, not a new response.
+Let Q=Box_g R. Two events with Delta R!=0 and Delta Q!=0 determine
+alpha=Delta R/(6Delta Q), Lambda=(R1−6alpha Q1)/4. Further independent events
+must obey the same affine relation Q=M²(R−4Lambda), M²=1/(6alpha).
+Two-point fitting supplies no confirmation. Positive alpha requires a positive
+slope; Delta R!=0 with Delta Q=0 rejects all finite alpha. Equal sampled R with
+unequal Q rejects alpha!=0; equal R and Q at two events leaves a parameter line.
+Only constancy of R on an open region forces Q=0, Lambda=R/4 and leaves alpha
+undetermined. Near-zero differences make parameter recovery ill-conditioned.
+With per-event bounds epsilon_R,epsilon_Q and |Delta R|>2epsilon_R,
+
+    |M_hat²−M²|<=(2epsilon_Q+2|M²|epsilon_R)/(|Delta R|−2epsilon_R).
+
+The exact trace test avoids a tunable background family or monochromatic mode;
+informative variation, independent measurements/derivative bounds and the
+stipulated source-free sector are still required. No physical source-free
+certificate or way to excite such a state is supplied. Unknown forcing can
+imitate any different scalar-response coefficient, so geometry data alone do
+not separate an unrestricted source from the law. No source model is adopted.
+
+Scalar agreement is necessary, not sufficient: R8PSC's a=sqrt(1+2ht),h!=0,
+Lambda=0 has R=0 and passes the trace while original E00=3H²!=0. Seven-frame
+scalar readout does not supply all remaining tensor components. A failure tests
+this candidate plus the stated preparation/sector, not the UDT founding premise.
+Inferring geometry/distances using the tested equation would make the test circular.
+
+PSC1's general-f(R) weak pole still needs independently matched constant-curvature
+Einstein background, linear remainder and source/mode controls. Delta R is
+first-order gauge invariant for constant background R; a varying background
+needs relational matching. Flat dispersion and radial exponential profiles are
+restricted to flat/controlled-flat settings, not arbitrary curved backgrounds.
+One temporal frequency without spatial-wave-number information cannot identify
+the pole. Neither the exact trace test nor finite observations establish PSC1's
+strong positive-pole invariance over an open background interval. Its fixed-Lambda
+obstruction and nonlinear weak-pole nonselection remain unchanged.
+
+R8PSC's quartic/quintic clock test retains the stronger spatially flat homogeneous,
+comoving, independently measured L and H0=R0=Lambda=0,P0!=0 preparation. Generic
+PSW or astronomical records do not provide it. Isolating b4 or b5 amplifies
+log-clock error respectively as L^-4 or L^-5, with independent lower-order,
+distance and Taylor-remainder control also needed. Echo kinematics and generated
+affine fixtures are not independent law evidence. No empirical/native selection,
+new physical premise, response normalization or practical instrument result follows.
+
 **Finite clock variation.** For increasing curve labels s,t and arrival t=A(s),
 proper-clock factors N_e,N_o give Z=N_o(A)A'/N_e. Logarithmic variation is
 \[
@@ -2841,9 +2965,14 @@ H relocates selection into a supplied entropy law and currently lacks an indepen
 UDT entropy/source interface. The recommendation is to retain S as a geometric
 diagnostic and stop treating H as an independent R² selector; neither is adopted.
 The no-change option keeps the founding interpretation and conditional comparisons.
-A possible successor is a bounded feasibility study of independent curvature
-readout and mode/preparation/error requirements, before any observational fit or
-GPU campaign. It is not automatically authorized by this return. The [PSC1 decision
+CMF1 now supplies that bounded feasibility result in R8CMF/R17CMF: ideal scalar
+readout and a necessary exact trace test survive, with practical preparation,
+precision and source applicability still open. A possible next step is a small
+CPU reconstruction from independently generated clock/ruler records, with fixed
+noise/truncation tests and separate full-tensor controls. That would test numerical
+recoverability, not physical feasibility or native selection; it has not run.
+Alternatively return to the native positional-attribution question. No GPU,
+observational fit or new physical premise is automatically authorized. The [PSC1 decision
 packet](udt_physical_selection_checkpoint_2026-10-02/DECISION_BRIEF.md) names
 the premises, provenance, alternatives, counterevidence and exact discussion
 decision. No necessary-new-postulate or complete-underdetermination claim follows.
@@ -3580,7 +3709,7 @@ names the retained hypotheses and limits. Actual final reports/attestations and
 the current review record own the review outcome and frozen edition. No original
 scientific calculation is replayed or newly certified by this meaning update;
 existing regression, version and premise checks retain their narrower roles.
-The maintained disposition count now includes48 later returns/clarifications.
+The maintained disposition count now includes49 later returns/clarifications.
 
 ERC1 uses two fresh source-first contexts followed by exposed actual-candidate
 and final integration review, sharing the inherited model and scientific libraries.
@@ -3631,6 +3760,20 @@ test ran. [Descendant review](udt_physical_selection_checkpoint_2026-10-02/DESCE
 and [execution](udt_physical_selection_checkpoint_2026-10-02/WORK_RECORD.md)
 retain positive/negative scopes, actual review stages and untested axes. Actual
 attestations and captured closure checks own final correspondence/pass status.
+
+CMF1 uses two fresh separate source-first contexts and exposed candidate/final
+reviews. Source-first exposure includes the parent's reconstruction question and
+later exact-trace formula; independent derivation is not blind origination.
+Parent32 exact identities plus rank/weight/nonzero controls, independently authored
+symbolic and stdlib rational checks, and saved metric-jet reconstruction support
+the scoped mathematical interface. The initial parent parse failure is retained.
+One precision pass states joint limits, separates two synthetic controls and
+clarifies finite-sample degeneracy without changing equations or tolerances.
+All contexts share the inherited model/Python; no different-model, human, formal
+or instrument validation is claimed. [Descendant review](udt_curvature_measurement_feasibility_2026-10-02/DESCENDANT_REVIEW.md)
+and [execution](udt_curvature_measurement_feasibility_2026-10-02/WORK_RECORD.md)
+retain positive/negative scopes, exposure and omissions. Actual final attestations
+and captured normal/maintenance/full406 checks own correspondence and pass status.
 
 The preserved first candidates expose the repair history. The [source correction](development_reconstruction_2026-09-29/SOURCE_CORRECTIONS.md)
 fixes a real covector-basis sign in G310; the central nine-direction span and

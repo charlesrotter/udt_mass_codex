@@ -1,0 +1,17 @@
+{
+  "utc": "2026-10-03T03:40:54.985393+00:00",
+  "sha256": {
+    "udt_curvature_measurement_feasibility_2026-10-02/INITIAL_CANDIDATE.md": "436402b7d42ae35dd7d1b0149ff8fe55ab4fcdea1a8ada446b84f81b206125b3",
+    "udt_curvature_measurement_feasibility_2026-10-02/CANDIDATE_FREEZE.json": "1724eaadb175e45e8d50ebac13770d59ba721ba21173b1ef3ddf4719ef4a705c",
+    "udt_curvature_measurement_feasibility_2026-10-02/SAVED_CONTROL.json": "5c964023ca441d81260bc575278f653b03d81977db09d49523d429b1155d691f",
+    "udt_curvature_measurement_feasibility_2026-10-02/check_feasibility.py": "4b52c88b8e436e4fa1e2454e8f0571361e13e0c7d656db3743be0ef2c6d15ecc",
+    "udt_curvature_measurement_feasibility_2026-10-02/EXACT_RESULT.json": "e6a64329d699cdd7ff71626b1e4da4ea1d3f488c97f913e9dd86f2699603aacd",
+    "udt_curvature_measurement_feasibility_2026-10-02/CONSTRUCTION_REPAIR.md": "adf777f351970375cd99f75692b7d8191f7e15561f09dc37843bf6b6e047acf8",
+    "udt_curvature_measurement_feasibility_2026-10-02/REPAIR.md": "7b8cdac6c29189a8ff2ed073ec39c0a7c6863c4c6114beae7457fc4a860d505c",
+    "udt_curvature_measurement_feasibility_2026-10-02/math/SOURCE_FIRST_SEAL.json": "3dca5206bb66ac1a571c6f5100438bb139e6f37ddb62ae5de93ab703a56117ea",
+    "udt_curvature_measurement_feasibility_2026-10-02/math/CANDIDATE_REVIEW.md": "0ee16b6ee85e72163f10465f4d1126b50e224387e0e71eff3546a13a5ea845f9",
+    "udt_curvature_measurement_feasibility_2026-10-02/math/recompute_saved.py": "a63a520895936ddc281f59c0bb28474b9aec9c7fc9099ea270108b40ab3cbc7d",
+    "udt_curvature_measurement_feasibility_2026-10-02/math/SAVED_RECOMPUTATION.json": "45a154e718f4ddd4b52e2ecf8c5f741ce0c7696ae461300d61843c98fad823c3",
+    "udt_curvature_measurement_feasibility_2026-10-02/math/saved_recompute.json": "b3e629605befcb3f164d21b1b110bd5883fd0a60054ac5e42223dfcbbf3e432e"
+  }
+}
