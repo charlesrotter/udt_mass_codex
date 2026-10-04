@@ -1,0 +1,19 @@
+{
+  "utc": "2026-10-04T01:17:39.149703+00:00",
+  "reviewer_context": "/root/fcl_math",
+  "verdict": "ACCEPT_WITH_LIMITS",
+  "sibling_review_exposed": false,
+  "additional_control_scripts_executed": 0,
+  "files": {
+    "udt_free_clock_completion_2026-10-03/review_math/SOURCE_FIRST.md": "24dfbb35624d4521ba34bd0972850107cbf595b613a9367f4713c8ec7fe0365c",
+    "udt_free_clock_completion_2026-10-03/review_math/SOURCE_FIRST_SEAL.json": "ba9acd03a542a6961a20f6b57b63a705baba9dc4e22754a578055b5ed562940c",
+    "udt_free_clock_completion_2026-10-03/review_math/EXPOSED_REVIEW.md": "57ccc73d0a2c18a73993d5f19c85885c9b85c97c4f5251b9ca53bd280d50d977",
+    "udt_free_clock_completion_2026-10-03/INITIAL_CANDIDATE.md": "9563063c01c69ffef69654915e522d0019192d7470fb41d2c88fbf438a3c8371",
+    "udt_free_clock_completion_2026-10-03/CANDIDATE_FREEZE.json": "aa4e9796b557c492b986e428397247dd09ddc22d4eec97de88ce7670172352ec",
+    "udt_free_clock_completion_2026-10-03/CHECK_PLAN.md": "dc687b957e09f762a1c79b123f9a20ff887ff7db9f49df5726979b40ecc8d5d2",
+    "udt_free_clock_completion_2026-10-03/check_controls.py": "d728d0fc1cc492bcf1ad719d342728ea238ed63ae381e65a151fd5799c684115",
+    "udt_free_clock_completion_2026-10-03/checks/parent_controls.json": "ab24f17286f6c65f9f03a75deefbb2cfcd4d8ec70430025ae98ca493bbbb2c14",
+    "udt_free_clock_completion_2026-10-03/checks/parent_controls.stdout": "ce2e876e087e1cb6318247b08593cca52db21eeedd4a1ffdd2077064dca16dc9",
+    "udt_free_clock_completion_2026-10-03/checks/parent_controls.stderr": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  }
+}

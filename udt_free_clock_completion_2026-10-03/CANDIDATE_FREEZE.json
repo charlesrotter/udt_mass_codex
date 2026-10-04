@@ -1,0 +1,10 @@
+{
+  "utc": "2026-10-04T01:12:57.554660+00:00",
+  "files": {
+    "udt_free_clock_completion_2026-10-03/INITIAL_CANDIDATE.md": "9563063c01c69ffef69654915e522d0019192d7470fb41d2c88fbf438a3c8371",
+    "udt_free_clock_completion_2026-10-03/CHECK_PLAN.md": "dc687b957e09f762a1c79b123f9a20ff887ff7db9f49df5726979b40ecc8d5d2",
+    "udt_free_clock_completion_2026-10-03/check_controls.py": "d728d0fc1cc492bcf1ad719d342728ea238ed63ae381e65a151fd5799c684115",
+    "udt_free_clock_completion_2026-10-03/WORK_ORDER.md": "165e406106c5812a5b72d6a90bd43ad6a36d63191cde5903271d8584a7b6c9de"
+  },
+  "exposure": "Parent proof/control constructed without either source-first report. After proof saved, math reviewer sent only preliminary existence of an independent coordinate-free estimate, no formulas/proof. No reviewer outputs/verdict read; tests not run. Initial control-file apply_patch failed syntax verification before edits; corrected patch applied, no scientific execution failure."
+}

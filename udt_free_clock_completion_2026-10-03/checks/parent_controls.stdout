@@ -1,0 +1,177 @@
+{
+  "status": "PASS",
+  "python": "3.10.12",
+  "sympy": "1.13.1",
+  "scope": "Three exact supplied-control families, not proof by sampling or native admission",
+  "nonuniform_cases": [
+    {
+      "point": [
+        "1/2",
+        "1/3",
+        "-1/4",
+        "1/5"
+      ],
+      "orthonormal_spatial_velocity": [
+        "3/4",
+        "0",
+        "0"
+      ],
+      "unit_residual": "0",
+      "momentum_residuals": [
+        "0",
+        "0",
+        "0"
+      ],
+      "omitted_force_residuals": [
+        "9259/76505",
+        "5/44",
+        "5/52"
+      ]
+    },
+    {
+      "point": [
+        "1/2",
+        "1/3",
+        "-1/4",
+        "1/5"
+      ],
+      "orthonormal_spatial_velocity": [
+        "1/2",
+        "1/2",
+        "1/4"
+      ],
+      "unit_residual": "0",
+      "momentum_residuals": [
+        "0",
+        "0",
+        "0"
+      ],
+      "omitted_force_residuals": [
+        "327737/2142140",
+        "77591/595140",
+        "108322/1162161"
+      ]
+    },
+    {
+      "point": [
+        "1/3",
+        "-1/5",
+        "1/4",
+        "1/6"
+      ],
+      "orthonormal_spatial_velocity": [
+        "3/4",
+        "0",
+        "0"
+      ],
+      "unit_residual": "0",
+      "momentum_residuals": [
+        "0",
+        "0",
+        "0"
+      ],
+      "omitted_force_residuals": [
+        "10742891/50410360",
+        "5/44",
+        "5/52"
+      ]
+    },
+    {
+      "point": [
+        "1/3",
+        "-1/5",
+        "1/4",
+        "1/6"
+      ],
+      "orthonormal_spatial_velocity": [
+        "1/2",
+        "1/2",
+        "1/4"
+      ],
+      "unit_residual": "0",
+      "momentum_residuals": [
+        "0",
+        "0",
+        "0"
+      ],
+      "omitted_force_residuals": [
+        "4887823/25205180",
+        "3067261/31531500",
+        "1266171/13503490"
+      ]
+    },
+    {
+      "point": [
+        "1/4",
+        "1/7",
+        "1/6",
+        "-1/5"
+      ],
+      "orthonormal_spatial_velocity": [
+        "3/4",
+        "0",
+        "0"
+      ],
+      "unit_residual": "0",
+      "momentum_residuals": [
+        "0",
+        "0",
+        "0"
+      ],
+      "omitted_force_residuals": [
+        "7006823/45717100",
+        "5/44",
+        "5/52"
+      ]
+    },
+    {
+      "point": [
+        "1/4",
+        "1/7",
+        "1/6",
+        "-1/5"
+      ],
+      "orthonormal_spatial_velocity": [
+        "1/2",
+        "1/2",
+        "1/4"
+      ],
+      "unit_residual": "0",
+      "momentum_residuals": [
+        "0",
+        "0",
+        "0"
+      ],
+      "omitted_force_residuals": [
+        "53546991/320019700",
+        "33107741/323022700",
+        "30773921/310690380"
+      ]
+    }
+  ],
+  "free_receiver": {
+    "geodesic_residuals": [
+      "0",
+      "0",
+      "0",
+      "0"
+    ],
+    "xZ_limit": "1",
+    "emitter_x": "t - sqrt(t**2 + 1) + 2",
+    "Z": "(t - sqrt(t**2 + 1) + 2)/(t*(-t + sqrt(t**2 + 1)))",
+    "actual_clock_ratio_agrees": true
+  },
+  "accelerated_receiver": {
+    "acceleration": [
+      "(t**2 - 1)/(2*t)",
+      "(-t**2 - 1)/(2*t)",
+      "0",
+      "0"
+    ],
+    "proper_acceleration_squared": "t**(-2)",
+    "Z_limit": "1",
+    "xZ_limit": "0",
+    "emitter_x": "2*atan(t) + 1",
+    "actual_clock_ratio_agrees": true
+  }
+}

@@ -142,7 +142,8 @@
         "udt_signal_chain_banking_2026-09-13/BANKING_RECORD.md",
         "udt_finite_positional_clock_test_2026-10-01/REVIEWED_RESULT.md",
         "udt_finite_native_pair_audit_2026-10-01/REVIEWED_RESULT.md",
-        "udt_clock_law_physical_whiteboard_2026-10-03/REVIEWED_RESULT.md"
+        "udt_clock_law_physical_whiteboard_2026-10-03/REVIEWED_RESULT.md",
+        "udt_free_clock_completion_2026-10-03/REVIEWED_RESULT.md"
       ],
       "required_conditions": [
         "M_GEOMETRY",
@@ -412,7 +413,8 @@
         "udt_curvature_measurement_feasibility_2026-10-02/REVIEWED_RESULT.md",
         "udt_clock_reconstruction_benchmark_2026-10-03/REVIEWED_RESULT.md",
         "udt_finite_comparison_whiteboard_2026-10-03/REVIEWED_RESULT.md",
-        "udt_clock_law_physical_whiteboard_2026-10-03/REVIEWED_RESULT.md"
+        "udt_clock_law_physical_whiteboard_2026-10-03/REVIEWED_RESULT.md",
+        "udt_free_clock_completion_2026-10-03/REVIEWED_RESULT.md"
       ],
       "required_conditions": [
         "P_SCALE"
@@ -522,7 +524,8 @@
         "udt_finite_comparison_whiteboard_2026-10-03/REVIEWED_RESULT.md",
         "udt_invariant_echo_curvature_2026-10-03/REVIEWED_RESULT.md",
         "udt_echo_scalar_rigidity_2026-10-03/REVIEWED_RESULT.md",
-        "udt_clock_law_physical_whiteboard_2026-10-03/REVIEWED_RESULT.md"
+        "udt_clock_law_physical_whiteboard_2026-10-03/REVIEWED_RESULT.md",
+        "udt_free_clock_completion_2026-10-03/REVIEWED_RESULT.md"
       ],
       "required_conditions": []
     },
@@ -1741,7 +1744,7 @@
     {
       "id": "O_FCW_ADMISSION",
       "kind": "open_join",
-      "statement": "Physical justification/adoption of FC or RG, generic variable-curvature rigidity, completion/protocol robustness and native geometry/scale remain OPEN. IEC1 supplies the local symmetric echo expansion; ESR1 proves arbitrary-smooth-Q all-preparation rigidity exactly within that class, conditional on the explicitly UNADOPTED FC trial. No successor starts automatically. CPW1 recommends parking FC physical-selection extension; the parent proposes an unexecuted pointwise geodesic-clock robustness test under still-UNADOPTED RG. Exact conformal bookkeeping does not prove receiver limits or physical admission.",
+      "statement": "Physical justification/adoption of FC or RG and native geometry/scale remain OPEN. ESR1 retains its conditional locally symmetric FC classification; CPW1 parks physical FC extension. FCL1 proves the specified pointwise completion/free-clock limit under supplied C3 RG and regular interior-emitter null family, without physical admission or global/population/distance selection.",
       "sources": [
         "udt_finite_comparison_whiteboard_2026-10-03/INITIAL_SYNTHESIS.md",
         "udt_finite_comparison_whiteboard_2026-10-03/REVIEWED_RESULT.md",
@@ -1750,7 +1753,8 @@
         "udt_finite_comparison_whiteboard_2026-10-03/operational/ATTRIBUTION_REPAIR.md",
         "udt_invariant_echo_curvature_2026-10-03/REVIEWED_RESULT.md",
         "udt_echo_scalar_rigidity_2026-10-03/REVIEWED_RESULT.md",
-        "udt_clock_law_physical_whiteboard_2026-10-03/REVIEWED_RESULT.md"
+        "udt_clock_law_physical_whiteboard_2026-10-03/REVIEWED_RESULT.md",
+        "udt_free_clock_completion_2026-10-03/REVIEWED_RESULT.md"
       ],
       "registry_ids": []
     },
@@ -1855,24 +1859,26 @@
     {
       "id": "C_CPW_CONFORMAL",
       "kind": "conditional_protocol",
-      "statement": "Supplied smooth positive conformal metric g=Omega^-2 gbar, regular affine null branches with consistent per-ray normalization and ordinary proper clocks. Exact frequency bookkeeping; a finite positive Omega_o Z limit additionally assumes finite positive A=Omega_e omegabar_e and B=omegabar_o limits. Those limits for actual geodesic preparations are OPEN, not inferred from RG or normalization.",
+      "statement": "Supplied conformal metric and regular affine-null/proper-clock interface. CPW1 exact bookkeeping gives finite positive Omega_o Z if its endpoint factors have finite positive limits. CPW1 did not establish actual free-clock limits; FCL1 separately derives them under explicit C_FCL_RG_CLOCK hypotheses. Normalization alone remains insufficient.",
       "sources": [
         "udt_clock_law_physical_whiteboard_2026-10-03/INITIAL_SYNTHESIS.md",
         "udt_clock_law_physical_whiteboard_2026-10-03/REVIEWED_RESULT.md",
         "udt_clock_law_physical_whiteboard_2026-10-03/fidelity/SOURCE_FIRST.md",
         "udt_clock_law_physical_whiteboard_2026-10-03/geometry/SOURCE_FIRST.md",
         "udt_clock_law_physical_whiteboard_2026-10-03/operational/SOURCE_FIRST.md",
-        "udt_clock_law_physical_whiteboard_2026-10-03/SUCCESSOR_SCOPE.md"
+        "udt_clock_law_physical_whiteboard_2026-10-03/SUCCESSOR_SCOPE.md",
+        "udt_free_clock_completion_2026-10-03/REVIEWED_RESULT.md"
       ],
       "registry_ids": []
     },
     {
       "id": "O_CPW_FREECLOCK_LIMIT",
       "kind": "open_join",
-      "statement": "UNEXECUTED proposed RG robustness target: one finite-data future timelike geodesic receiver approaching a regular future spacelike C3 conformal boundary, regular conformal-null family from compact interior emitter events with consistent omega_e=1; determine rescaled receiver/frequency limits without assuming them. No uniform population, fixed-emission distance law, physical RG admission or X_max identification.",
+      "statement": "FCL1 ANSWERS the specified pointwise geodesic receiver/frequency limit under C_FCL_RG_CLOCK. Residual open boundary: physical RG/branch admission, arbitrary accelerated clocks, uniform populations, fixed-emission distance curves, echo availability and X_max identification. This node is not a proof input; do not leave the answered conditional question mislabeled unexecuted.",
       "sources": [
         "udt_clock_law_physical_whiteboard_2026-10-03/SUCCESSOR_SCOPE.md",
-        "udt_clock_law_physical_whiteboard_2026-10-03/REVIEWED_RESULT.md"
+        "udt_clock_law_physical_whiteboard_2026-10-03/REVIEWED_RESULT.md",
+        "udt_free_clock_completion_2026-10-03/REVIEWED_RESULT.md"
       ],
       "registry_ids": []
     },
@@ -1906,12 +1912,40 @@
         "udt_clock_law_physical_whiteboard_2026-10-03/fidelity/SOURCE_FIRST.md",
         "udt_clock_law_physical_whiteboard_2026-10-03/geometry/SOURCE_FIRST.md",
         "udt_clock_law_physical_whiteboard_2026-10-03/operational/SOURCE_FIRST.md",
-        "udt_clock_law_physical_whiteboard_2026-10-03/SUCCESSOR_SCOPE.md"
+        "udt_clock_law_physical_whiteboard_2026-10-03/SUCCESSOR_SCOPE.md",
+        "udt_free_clock_completion_2026-10-03/REVIEWED_RESULT.md"
       ],
       "registry_ids": [],
       "required_conditions": [
         "P_NULL",
         "C_CPW_CONFORMAL"
+      ]
+    },
+    {
+      "id": "C_FCL_RG_CLOCK",
+      "kind": "conditional_protocol",
+      "statement": "UNADOPTED supplied C3 gbar/Omega regular spacelike future completion g=Omega^-2 gbar with nonzero timelike dOmega; one finite-data future unit physical geodesic approaching specified boundary point, with compact collar bounds derived locally; regular interior emitter compact away from Omega0, limiting emission event, supplied smooth unique conformal-null family and nonzero regular endpoint affine data, consistent omega_e1. No assumed rescaled-velocity bound, Einstein equation, uniform population or distance identification.",
+      "sources": [
+        "udt_free_clock_completion_2026-10-03/INITIAL_CANDIDATE.md",
+        "udt_free_clock_completion_2026-10-03/REVIEWED_RESULT.md",
+        "udt_free_clock_completion_2026-10-03/WORK_ORDER.md"
+      ],
+      "registry_ids": []
+    },
+    {
+      "id": "R16FCL",
+      "kind": "argument",
+      "anchor": "r16fcl",
+      "title": "Conditional free-geodesic normal limit and actual-clock asymptote in nonuniform completion",
+      "sources": [
+        "udt_free_clock_completion_2026-10-03/INITIAL_CANDIDATE.md",
+        "udt_free_clock_completion_2026-10-03/REVIEWED_RESULT.md",
+        "udt_free_clock_completion_2026-10-03/WORK_ORDER.md"
+      ],
+      "registry_ids": [],
+      "required_conditions": [
+        "P_NULL",
+        "C_FCL_RG_CLOCK"
       ]
     }
   ],
@@ -3665,6 +3699,41 @@
       "from": "R16CPW",
       "to": "R18",
       "kind": "context"
+    },
+    {
+      "to": "R16FCL",
+      "kind": "hypothesis",
+      "from": "P_NULL"
+    },
+    {
+      "to": "R16FCL",
+      "kind": "hypothesis",
+      "from": "C_FCL_RG_CLOCK"
+    },
+    {
+      "to": "R16FCL",
+      "kind": "proof",
+      "from": "R6"
+    },
+    {
+      "to": "R16FCL",
+      "kind": "proof",
+      "from": "R16CPW"
+    },
+    {
+      "to": "R16FCL",
+      "kind": "context",
+      "from": "R16FCW"
+    },
+    {
+      "to": "R16FCL",
+      "kind": "open_boundary",
+      "from": "O_FCW_ADMISSION"
+    },
+    {
+      "to": "R18",
+      "kind": "context",
+      "from": "R16FCL"
     }
   ],
   "sources_sha256": {
@@ -3887,7 +3956,10 @@
     "udt_clock_law_physical_whiteboard_2026-10-03/fidelity/SOURCE_FIRST.md": "008f08ab30a1ad60f48f2c17307957a436d51d59942faf5cd9658dda502ae066",
     "udt_clock_law_physical_whiteboard_2026-10-03/geometry/SOURCE_FIRST.md": "3f0ccd3997ebae9ec5c82660e7b42b36df87c9d377d0abb7f3c21eaaf4f76105",
     "udt_clock_law_physical_whiteboard_2026-10-03/operational/SOURCE_FIRST.md": "98a4640cf7f12b2232a7af526d99cc6c5809e4c6de7a9de9575795aab20fe091",
-    "udt_clock_law_physical_whiteboard_2026-10-03/SUCCESSOR_SCOPE.md": "2f3e3122f7b3e94aedc1baf37278cd8ed07f5edcca408c90f62362deccf6cdfd"
+    "udt_clock_law_physical_whiteboard_2026-10-03/SUCCESSOR_SCOPE.md": "2f3e3122f7b3e94aedc1baf37278cd8ed07f5edcca408c90f62362deccf6cdfd",
+    "udt_free_clock_completion_2026-10-03/INITIAL_CANDIDATE.md": "9563063c01c69ffef69654915e522d0019192d7470fb41d2c88fbf438a3c8371",
+    "udt_free_clock_completion_2026-10-03/REVIEWED_RESULT.md": "67171de5b7f892cb0243f893b720f41f6d691add7039e325e25092dec98dfa6c",
+    "udt_free_clock_completion_2026-10-03/WORK_ORDER.md": "165e406106c5812a5b72d6a90bd43ad6a36d63191cde5903271d8584a7b6c9de"
   },
   "impact_policy": "Any changed source or registry row flags its mapped positive and negative central arguments and every reachable central descendant for review; no automatic truth reversal or regrading.",
   "review_support": [
@@ -5749,6 +5821,74 @@
         "O_CPW_FREECLOCK_LIMIT",
         "O_PSW_ATTRIBUTION",
         "O_FCW_ADMISSION"
+      ]
+    },
+    {
+      "path": "udt_free_clock_completion_2026-10-03/review_math/EXPOSED_REVIEW.md",
+      "sha256": "57ccc73d0a2c18a73993d5f19c85885c9b85c97c4f5251b9ca53bd280d50d977",
+      "role": "review_evidence",
+      "targets": [
+        "D1",
+        "R6",
+        "R16",
+        "R16FCW",
+        "R16CPW",
+        "R16FCL",
+        "R18",
+        "O_CPW_FREECLOCK_LIMIT",
+        "O_FCW_ADMISSION",
+        "C_FCL_RG_CLOCK"
+      ]
+    },
+    {
+      "path": "udt_free_clock_completion_2026-10-03/review_math/REGULARITY_ADDENDUM.md",
+      "sha256": "6389defcc49ce8df2f27ee6a7291e2226da4ad55fb2f72e5d21388dd06d351af",
+      "role": "review_evidence",
+      "targets": [
+        "D1",
+        "R6",
+        "R16",
+        "R16FCW",
+        "R16CPW",
+        "R16FCL",
+        "R18",
+        "O_CPW_FREECLOCK_LIMIT",
+        "O_FCW_ADMISSION",
+        "C_FCL_RG_CLOCK"
+      ]
+    },
+    {
+      "path": "udt_free_clock_completion_2026-10-03/review_fidelity/EXPOSED_REVIEW.md",
+      "sha256": "a47557dd03f0e9318d39a8f433b5e72eaca735d768626417331f2c97307f694a",
+      "role": "review_evidence",
+      "targets": [
+        "D1",
+        "R6",
+        "R16",
+        "R16FCW",
+        "R16CPW",
+        "R16FCL",
+        "R18",
+        "O_CPW_FREECLOCK_LIMIT",
+        "O_FCW_ADMISSION",
+        "C_FCL_RG_CLOCK"
+      ]
+    },
+    {
+      "path": "udt_free_clock_completion_2026-10-03/DESCENDANT_REVIEW.md",
+      "sha256": "f039db2a7c3dd6adbad2524d3217697502a4dc9ca2718dad90618997dd66d66c",
+      "role": "review_evidence",
+      "targets": [
+        "D1",
+        "R6",
+        "R16",
+        "R16FCW",
+        "R16CPW",
+        "R16FCL",
+        "R18",
+        "O_CPW_FREECLOCK_LIMIT",
+        "O_FCW_ADMISSION",
+        "C_FCL_RG_CLOCK"
       ]
     }
   ]

@@ -1,7 +1,7 @@
 # UDT — continuous scientific development
 
 <!-- DEVELOPMENT_ORIENTATION_BEGIN -->
-**Current development — CPW1 reviewed; free-clock completion test authorized,
+**Current development — FCL1 conditional free-clock result reviewed,
 2026-10-03.** This is the sole maintained scientific argument. The exact registry
 and reviewed sources own grades; LIVE owns operational status. Review bindings
 are in section9. Historical results remain in the chapters below, not this startup view.
@@ -42,21 +42,25 @@ positive/adverse results survive. Full directional and future-path comparison
 data already evaluate supplied geometry without selecting it. No native
 physical equation or additional positional prediction has been obtained here.
 
-**Authorized question.** Test the existing UNADOPTED regular conformal-completion
-proposal RG for one specified freely falling receiver approaching its spacelike
-future boundary, supplied with regular signals from interior emitter events.
-The exact conformal frequency relation is checked. Derive or refute the limiting
-receiver behavior needed for growing redshift, without assuming bounded or
-convergent rescaled velocity. This is a varying-emission, single-receiver limit;
-it is not a fixed-emission distance curve, a population theorem or X_max derivation.
-RG's physical admission, native geometry, positional attribution and scale remain OPEN.
+**Current result.** FCL1 (R16FCL) derives the missing receiver limit within
+UNADOPTED regular conformal completion RG. One finite-data freely falling receiver
+approaching the specified spacelike boundary has rescaled tangent tending to its
+conformal normal. Its physical proper time diverges. For the supplied regular
+interior-emitter null family, physical received frequency tends to zero and
+Omega_o Z tends to a finite positive constant. Motion and nonuniform geometry
+are allowed; no bounded rescaled velocity or Einstein equation is assumed.
 
-After orientation read R16FCW/R16CPW, R6 for the clock observable, and the exact
-CPW1 SUCCESSOR_SCOPE linked there. LIVE/HANDOFF name the active work order and
-return point. Earlier mathematical branches and numerical surveys retain their
-stated hypotheses in the central chapters; their chronology does not authorize
-new work. The present derivation includes bounded checks, two fresh adversarial
-reviews and one same-premise repair round, then a lay return before another step.
+This is a varying-emission single-receiver limit, not a monotonic full-history
+or fixed-emission distance curve, population theorem or X_max derivation. RG and
+the regular signal family remain supplied; physical admission, native event/path
+assignment, positional attribution and scale remain OPEN. The accelerated-clock
+control lies outside the free-receiver theorem. Earlier adverse and positive
+results keep their source scopes.
+
+After orientation read R16FCL, R16FCW/R16CPW for its conditional origin and R6
+for the clock observable. LIVE/HANDOFF own actual closure status and the lay
+return. The bounded derivation includes two fresh independent argument reviews
+and exact controls; no further investigation or physical adoption starts here.
 <!-- DEVELOPMENT_ORIENTATION_END -->
 
 ## 1. How this development is owned
@@ -2746,7 +2750,8 @@ effect. Its physical justification remains open.
 If |Ω''|≤M is independently justified on a final interval, Taylor bounds
 |1/p-hδ|≤Mδ²/2. No such data/bound is supplied. Fitting h,L*,M to the same
 finite observations would not confirm an asymptote. Protocol/congruence robustness
-is a possible second derivation target before any physical RG admission. This
+was the next conditional target; R16FCL below now answers the specified
+single-free-receiver question while physical RG admission remains open. This
 clock pole is not PSC1's weak-response pole. [FCW1 reviewed scope](udt_finite_comparison_whiteboard_2026-10-03/REVIEWED_RESULT.md)
 retains the proofs, controls and new-hypothesis cost.
 
@@ -2757,7 +2762,8 @@ retains the proofs, controls and new-hypothesis cost.
 R16FCW's comoving clocks are already geodesic. The proposed new test asks whether
 its asymptotic slowing survives additional receiver motion and nonuniform
 geometry within the still-UNADOPTED regular-completion class. No theorem about
-those free-clock limits is proved here. This checks an optional geometric
+those free-clock limits was proved by CPW1; R16FCL below now answers its exact
+conditional successor scope. This checks an optional geometric
 connection's robustness; it does not justify RG physically.
 
 For a supplied conformal metric g=Omega^-2 gbar, put l=log Omega. Metricity and
@@ -2802,6 +2808,100 @@ state methods, review/resource budget and stop. The successor is not executed
 by CPW1. The [synthesis](udt_clock_law_physical_whiteboard_2026-10-03/INITIAL_SYNTHESIS.md)
 derives the bookkeeping; actual fresh reviews and short exact controls own
 their narrower validation. No field/source/action equation is adopted.
+
+
+<a id="r16fcl"></a>
+
+#### Free-clock endpoint control in nonuniform completion geometry — FCL1
+
+FCL1 answers CPW1's specified pointwise question conditionally. Supply C3
+Lorentz4 gbar and defining function x=Omega, with g=x^-2 gbar, x>0 inside,
+nondegenerate gbar and nonzero timelike dx at a future spacelike boundary.
+Supply one future unit timelike g-geodesic from finite interior data that
+approaches a point p of that boundary. RG remains UNADOPTED. No field equation,
+homogeneity, constant lapse or bound on T=u/x is assumed.
+
+Flow along grad_bar x/gbar(grad_bar x,grad_bar x) supplies a local normal chart,
+not an ansatz restricting the metric:
+
+    gbar=-N² dx²+h_ij dy^i dy^j,  N>0, h positive,
+    n=-N^-1 partial_x,  w_i=h_ij T^j,
+    gamma=sqrt(1+h^ij w_i w_j),
+    T^x=-gamma/N, T^i=h^ij w_j, dx/dtau=-x gamma/N.
+
+The given endpoint ensures a final tail in a relatively compact subchart.
+Metric regularity then bounds N,h, their inverses and first derivatives, without
+bounding the receiver velocity. The normal chart has at least the C1 metric
+coefficients needed for these estimates. The physical covector P_i=w_i/x obeys
+the exact lowered geodesic equation dP_i/dtau=(partial_i g_ab)u^a u^b/2. Hence
+
+    dw_i/dx=w_i/x+F_i,
+    F_i=(partial_i N)gamma
+        -N(partial_i h_jk)T^j T^k/(2gamma).
+
+Spatial variation remains present. The compact metric bounds give
+|F|<=C(1+|w|) for a finite local C. With s=log(x0/x), r=|w|, the upper norm
+derivative satisfies
+
+    D^+r<=(-1+C x0 exp(-s))r+C x0 exp(-s),
+    r<=exp(C x0) exp(-s)[r(0)+C x0 s].
+
+The second line follows by an integrating factor on each finite s interval;
+boundedness is obtained rather than presumed. Therefore w=O(x[1+log(x0/x)]),
+gamma->1, and **u/Omega->n_p**. Arbitrarily large finite initial velocity is
+allowed for each receiver; constants are not uniform over a population.
+The spatial equation gives y-y(p)=O(x²[1+log(x0/x)]). Consequently
+N=N(p)+O(x), gamma-1=O(x²[1+log(x0/x)]²), and
+
+    tau=-N(p)log(x/x_ref)+O(1).
+
+The remainder after the logarithm has a finite limit. Physical future proper
+time is infinite; the boundary is not a finite-time reception or material wall.
+The two fresh source-first reviewers independently supplied another route:
+for E=-gbar(T,n), a compact-tensor bound first bounds log E in the decreasing-x
+direction; the forced equation for E²-1 then drives it to zero. That weaker
+rate also proves the endpoint claim without a clock-velocity assumption.
+
+For the clock conclusion, additionally supply the exact CPW1 interior-emitter
+preparation: one regular emitter's compact proper-time interval away from x=0,
+emissions approaching a regular interior limit, and a smooth unique conformal-null
+family with regular nonzero endpoint tangents and affine data. Its physical
+emission frequency has a finite positive limit before normalization. Scaling
+each entire ray to omega_e=1 therefore preserves a finite nonzero limiting
+conformal tangent K at reception. R6/R16CPW and the derived receiver limit give
+
+    B_o=-gbar(kbar_o,T_o)->B*=-gbar_p(K,n_p)>0,
+    omega_o=x_o B_o->0,
+    Omega_o Z->1/B*>0,   Z=omega_e/omega_o->infinity.
+
+The positive finite limit is the **rescaled** received frequency B, not the
+physical received frequency. The regular ray family is supplied, not proved
+to exist from RG alone. C3 geometry and its stipulated C2-or-better ray variation
+cover the derivatives in R6: moving affine endpoints add only null-tangent
+terms, which vanish on contraction. No C-infinity premise is needed. Conformal gauges x->a x,gbar->a²gbar with smooth finite
+positive a preserve Z and rescale its x-residue by a(p). No numerical distance
+scale, monotonic full-history curve or physical X_max follows.
+
+One short exact control script checks six nonuniform metric/velocity cases by
+original Christoffels and two actual ray/clock families in supplied g=x^-2 eta.
+All pass, with a deliberately omitted force detected. The moving free receiver
+has xZ->1. An accelerated unit receiver with rapidity log x instead has Z->1
+and proper acceleration squared x^-2. That example lies outside the geodesic
+quantifier; it strengthens CPW1's warning against using normalization alone.
+These finite controls audit identities, not the general theorem by sampling.
+
+FCW1's beta2/zero-gradient example remains outside RG, and its interior-bump
+freedom still prevents unique history/scale selection. Physical RG admission,
+native event/path assignment, positional attribution, global branch existence,
+uniform populations, fixed-emission distance curves and echo availability remain
+separate questions. Neither an Einstein equation nor a microscopic light theory
+has been imported. The supplied geometry's normal is not an imposed finite-time
+preferred observer population.
+
+[FCL1 proof](udt_free_clock_completion_2026-10-03/INITIAL_CANDIDATE.md),
+[reviewed scope](udt_free_clock_completion_2026-10-03/REVIEWED_RESULT.md), and
+[descendant review](udt_free_clock_completion_2026-10-03/DESCENDANT_REVIEW.md)
+retain the argument, independent routes, controls and hypothesis limits.
 
 
 <a id="r17"></a>
@@ -3376,8 +3476,8 @@ first recommended derivation is now completed by IEC1 in R8IEC: the general
 locally symmetric echo includes a quartic transverse-curvature term and an
 explicit sixth-order contraction. The earlier coefficient survives for tidal
 eigen-directions. Opposite preparations separate geometric information without
-adopting FC. Completion/protocol robustness remains a second option; a physical
-reason for RG is still absent. The
+adopting FC. FCL1 now answers the specified completion/free-clock robustness question
+conditionally in R16FCL; a physical reason for RG is still absent. The
 [FCW1 decision brief](udt_finite_comparison_whiteboard_2026-10-03/DECISION_BRIEF.md)
 returns these targets, alternatives and hypothesis costs. No successor, physical
 adoption, field-law selection or new campaign starts automatically.
@@ -3398,21 +3498,27 @@ comparison law is already available. This is neither a retraction of the scalar
 kernel nor a proof that complete UDT needs a new premise. ESR1 and all earlier
 positive/adverse controls retain their scopes; physical attribution stays open.
 
-The parent recommends ONE distinct optional next derivation, not contributor
-consensus: R16CPW's conformal free-clock robustness test of existing UNADOPTED RG.
-For one specified geodesic receiver and regular interior emission family, derive
-or refute the endpoint control needed for the clock asymptote without assuming
-bounded rescaled receiver velocity. This is a narrower clock-limit question;
-fixed-emission distance curves, uniform populations, physical admission, scale
-and X_max remain separate. Exact bookkeeping is established here, not the
-proposed geodesic theorem. No source/action/Einstein equation is supplied.
+FCL1 now completes that separately proposed free-clock derivation after Charles
+authorized it and the startup cleanup. The geodesic equation supplies the missing
+receiver bound in arbitrary nonuniform RG geometry near the specified endpoint;
+the regular interior-emitter null family then gives the positive finite Omega Z
+limit and divergent redshift. A moving free control passes, while an accelerated
+control demonstrates the importance of the receiver hypothesis. Two fresh
+independent arguments support the result; no physical premise is adopted.
 
-The [CPW1 decision brief](udt_clock_law_physical_whiteboard_2026-10-03/DECISION_BRIEF.md)
-and [precise successor scope](udt_clock_law_physical_whiteboard_2026-10-03/SUCCESSOR_SCOPE.md)
-give the conditional cost, no-change alternative, checks/review budget and stop.
-Parking both trials remains available. The original ESR/IEC decision records
-stay fixed evidence. Return for discussion; no successor or physical adoption
-starts from this reviewed whiteboard.
+The answered question is no longer left as an unexecuted obstruction. Physical
+RG admission and regular comparison-family existence remain supplied. Native
+geometry/event-path assignment, positional attribution, scale, X_max, uniform
+populations and fixed-emission distance curves remain separate open questions.
+The founding asymptote alone still does not imply RG; interior nonuniqueness
+and the earlier conditional echo results retain their scope. The next scientific
+issue is the physical connection supplying the completion, not another repetition
+of the now-proved receiver-limit calculation.
+
+The [FCL1 decision brief](udt_free_clock_completion_2026-10-03/DECISION_BRIEF.md)
+records that gain and its limits. The original CPW1 scope/decision and ESR/IEC
+records remain fixed historical evidence. Stop for lay discussion; this result
+does not itself authorize another derivation, premise adoption or campaign.
 
 NGD1's numerical return in R12N adds a validated comparison tool and finite
 nonlinear clock-shift histories. Its positive contribution relative to a specified
@@ -3829,7 +3935,7 @@ founding premises are insufficient.
 Retained branches and omissions are explicit below. These results are useful;
 their original full proofs, repairs, qualifications and grades remain at source.
 CDR1 does not claim to rederive all of them. The [406-row disposition ledger](development_reconstruction_2026-09-29/CLAIM_DISPOSITIONS.tsv)
-and [45 later returns](development_reconstruction_2026-09-29/RECENT_DISPOSITIONS.tsv)
+and [55 later returns](development_reconstruction_2026-09-29/RECENT_DISPOSITIONS.tsv)
 identify exact sources and reconstruction depth.
 
 | Retained work | Gain and limit |
@@ -3862,7 +3968,7 @@ it does not merely add another disconnected report.
 
 This is an18-result central reconstruction with actual core calculations,
 standard-method applications and explicitly retained source branches. All406
-registered rows have an editorial disposition;45 relevant later returns
+registered rows have an editorial disposition;55 relevant later returns
 are separately mapped. It does not claim to re-prove every historical result.
 Existence/MGHD, full external invariant theory, detailed nonlinear asymptotics,
 the55-component optional analytic system, the eight signal packages, empirical
@@ -4146,7 +4252,7 @@ names the retained hypotheses and limits. Actual final reports/attestations and
 the current review record own the review outcome and frozen edition. No original
 scientific calculation is replayed or newly certified by this meaning update;
 existing regression, version and premise checks retain their narrower roles.
-The maintained disposition count now includes54 later returns/clarifications.
+The maintained disposition count now includes55 later returns/clarifications.
 
 ERC1 uses two fresh source-first contexts followed by exposed actual-candidate
 and final integration review, sharing the inherited model and scientific libraries.
@@ -4274,11 +4380,27 @@ relay composition and actual-clock controls and inspect saved exact outputs.
 Shared model/library/source exposure remains explicit. One parent structural
 matrix-equality failure and exact-comparison repair are preserved; no equation
 or scientific premise changes. The proposed successor was narrowed after review
-advice and remains unexecuted. [Work record](udt_clock_law_physical_whiteboard_2026-10-03/WORK_RECORD.md)
+advice and was unexecuted in CPW1; FCL1 now supplies its scoped result. [Work record](udt_clock_law_physical_whiteboard_2026-10-03/WORK_RECORD.md)
 and [descendant review](udt_clock_law_physical_whiteboard_2026-10-03/DESCENDANT_REVIEW.md)
 record exposure, scope and omissions, including a contributor's disclosed
 overbroad registry-read error. Actual final accepted-map attestations and
 normal/maintenance/full406 receipts own closure; review does not adopt FC/RG.
+
+FCL1 uses two new fresh source-first/exposed/final reviewer contexts. Both
+independently reconstructed an energy estimate before seeing the parent momentum
+proof; exposed review checked its sharper bound, physical proper-time remainder,
+normal-chart and null-family regularity, normalization and gauge. Both recomputed
+the two actual clock controls and one rational nonuniform force case by hand;
+the other five cases retain their parent exact-control status. No mathematical
+repair was required, and the frozen candidate remains unchanged. Finite C3
+regularity was checked explicitly rather than silently treated as C-infinity.
+Shared model/premises remain limits; no human/different-model/empirical verification.
+[Work record](udt_free_clock_completion_2026-10-03/WORK_RECORD.md) and
+[descendant review](udt_free_clock_completion_2026-10-03/DESCENDANT_REVIEW.md)
+state actual checks and omissions. SFC1 first shortened startup while preserving
+the then-current scientific body; its metadata/guard repairs and original failed
+audit remain fixed. FCL1 updates only its new scientific scope and current return.
+Actual final attestations and normal/maintenance/full406 receipts own closure.
 
 The preserved first candidates expose the repair history. The [source correction](development_reconstruction_2026-09-29/SOURCE_CORRECTIONS.md)
 fixes a real covector-basis sign in G310; the central nine-direction span and

@@ -1,33 +1,28 @@
 # LIVE — operational status
 
 <!-- STARTUP_CURRENT_BEGIN -->
-## CURRENT STATE — startup focus and authorized free-clock derivation, 2026-10-03
+## CURRENT STATE — FCL1 conditional free-clock return, 2026-10-03
 
 CDR1 remains the central-development architecture. UDT_DEVELOPMENT.md is the
-sole maintained scientific argument; CURRENT_SCIENTIFIC_PREMISES.tsv and its
-sources own exact grades. Startup reads the concise generated
-CURRENT_RESEARCH_PROGRAM.md, then gives orientation before opening evidence.
+sole maintained scientific argument; CURRENT_SCIENTIFIC_PREMISES.tsv and reviewed
+sources own exact grades. The generated CURRENT_RESEARCH_PROGRAM.md is the bounded
+startup orientation. Read R16FCL/R18 after orientation for the current argument.
 
-CPW1 is completed and synchronized at342b9d90 (verify actual HEAD/remote rather
-than assuming this remains the tip). Three contributors, two fresh reviewers,
-scoped controls, the full406 audit and57 maintenance tests support its bounded
-return. Its fixed evidence is udt_clock_law_physical_whiteboard_2026-10-03/.
-The relevant central chapters are R8CPW/R16CPW/R18; sources own scientific limits.
+Charles authorized startup cleanup followed by CPW1's bounded free-clock derivation.
+The cleanup was reviewed, checked, committed and synchronized at4d9f202f, including
+its preserved metadata/guard repairs. FCL1 evidence is in
+udt_free_clock_completion_2026-10-03/; WORK_ORDER owns its completed scope.
+The original candidate, exact controls, two fresh independent source-first and
+exposed reviews are saved. Final attestations and actual normal/maintenance/full406
+receipts own integration/pass status. Commit/push and byte checks own banking;
+verify actual HEAD, remote, dirt and processes rather than assuming this is the tip.
 
-Charles then authorized: “First cleanup the startup surface in case we need to
-start a new session and then proceeed with the derivation.” The active dispatch
-is udt_startup_focus_2026-10-03/WORK_ORDER.md. Finish/review/bank this editorial
-checkpoint first; then execute the already-authorized CPW1 SUCCESSOR_SCOPE in
-udt_free_clock_completion_2026-10-03/. Check its actual files before resuming;
-this startup checkpoint itself contains no successor theorem or execution.
-
-The derivation includes one analytic construction, at most two short parent
-controls, two fresh adversarial reviewer checks, one same-premise repair round,
-central integration, required checks and commit/push. No GPU or long solve;
-2GiB per process, one BLAS thread,100MiB output, no elapsed/CPU timeout, finite
-scope/resource/manual stops. No RG/FC adoption, source/action equation, registry
-promotion, empirical/hardware campaign or automatic extension is authorized.
-Stop for lay discussion after the reviewed conditional return or explicit gap.
+Next: Stop for lay discussion of FCL1's conditional result and decision brief.
+Its authorized construction/review cycle is the current return, not permission
+for a further successor. No RG/FC adoption, native field/source/action law,
+registry promotion, GPU/data/hardware campaign or automatic extension. One short
+CPU exact-control script was run; no long solver. No-timeout direction persists
+with finite scope/resource/manual stops. Preserve protected/unrelated work.
 
 ### Honest claim
 
@@ -60,11 +55,10 @@ Protected: do not inspect, hash, stage, modify, mine or cite payloads without di
 
 ### Next gate
 
-Next: complete the editorial checkpoint, then carry out the authorized bounded
-free-clock completion test. Do not re-ask to begin its included checks/reviews.
-Stop for lay discussion at its return point. Verify actual processes, evidence
-and review bindings; no solver is launched by startup itself. Existing pauses
-and protected boundaries persist. TPS1 raw fields/large streams remain local-only;
-compact remote records cannot replay raw-dependent checks.
+Stop for lay discussion using central R16FCL/R18 and the FCL1 decision brief.
+Native physical admission and remaining scope are open; no successor starts
+automatically. Verify actual evidence, final bindings and synchronization.
+Existing pauses and protected boundaries persist. TPS1 raw fields/large streams
+remain local-only; compact remote records cannot replay raw-dependent checks.
 
 <!-- STARTUP_CURRENT_END -->

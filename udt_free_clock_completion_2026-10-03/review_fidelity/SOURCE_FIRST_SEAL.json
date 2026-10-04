@@ -1,0 +1,36 @@
+{
+  "utc": "2026-10-04T01:12:21.978897+00:00",
+  "reviewer": "/root/fcl_fidelity",
+  "phase": "SOURCE_FIRST_SEALED_BEFORE_CANDIDATE_EXPOSURE",
+  "head": "4d9f202f8e557c8714af1d284ecaf1ee35d67ebb",
+  "python": "3.10.12",
+  "independence": {
+    "fresh_context": true,
+    "inherited_model": true,
+    "different_model": false,
+    "human": false,
+    "independent_analytic_argument": true,
+    "candidate_seen": false,
+    "candidate_code_or_output_seen": false,
+    "sibling_review_seen": false,
+    "numerical_control_runs": 0
+  },
+  "source_sha256": {
+    "AGENTS.md": "bcab9b67305e0314af9eaf25162d203660eae8f2ff4fd87d17e83588970ef38d",
+    "CLAUDE.md": "4ad2e773defb89cc79541fd0ababd75af5a3344ab134ee83722dfd943966e6e4",
+    "UDT_DEVELOPMENT.md": "df917e3e16aae0b4fc5008785b0fb20c551f9ffa8e3b3c7e96a355284d50d977",
+    "udt_clock_law_physical_whiteboard_2026-10-03/SUCCESSOR_SCOPE.md": "2f3e3122f7b3e94aedc1baf37278cd8ed07f5edcca408c90f62362deccf6cdfd",
+    "udt_free_clock_completion_2026-10-03/WORK_ORDER.md": "165e406106c5812a5b72d6a90bd43ad6a36d63191cde5903271d8584a7b6c9de",
+    "udt_free_clock_completion_2026-10-03/BASELINE.json": "afef079a5de1b53d82e528d1b2effaf8d06b40d78a601530221fbe91598a737d",
+    "udt_free_clock_completion_2026-10-03/review_fidelity/SOURCE_FIRST.md": "ca82f0d9d9513942de3373195e09dddeba9d448e2459009a7ab5262c129bcba6",
+    ".claude/skills/no-shortcuts/SKILL.md": "fd3a1f3218481134f2af829d3ae4175ac53518f75bf9673287efbfb7d7708fc1",
+    ".claude/skills/completeness-map/SKILL.md": "a8cf9e5f4a6d35a0d0ebfe4bc48dbf328ca74e318f020a6a22cb683666a611c0",
+    ".claude/skills/verifier-before-record/SKILL.md": "9b3a4aacd4b4006b2b7f01edada73b7c87b99bea6e754583558713bfc145e5ac"
+  },
+  "omissions": [
+    "top-level startup and premise checks attributed to parent, not repeated",
+    "no candidate review yet",
+    "no numerical control",
+    "no protected payload reads or hashes"
+  ]
+}

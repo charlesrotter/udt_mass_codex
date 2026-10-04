@@ -1,0 +1,20 @@
+{
+  "status": "EXACT_FINITE_CONTROLS_PASS",
+  "families": 3,
+  "cases": 8,
+  "nonuniform_unit_residuals": 6,
+  "nonuniform_spatial_equation_residuals": 18,
+  "omitted_force_detected_cases": 6,
+  "moving_free_original_geodesic_residual": [
+    0,
+    0,
+    0,
+    0
+  ],
+  "moving_free_xZ_limit": 1,
+  "accelerated_Z_limit": 1,
+  "accelerated_proper_acceleration_squared": "x^-2",
+  "duration_seconds": 0.4172915399540216,
+  "scope": "Finite exact algebra and actual-clock controls; proof supplied analytically, not inferred from samples. First scientific execution passed.",
+  "receipt_sha256": "ab24f17286f6c65f9f03a75deefbb2cfcd4d8ec70430025ae98ca493bbbb2c14"
+}

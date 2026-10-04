@@ -5,7 +5,7 @@ This bounded startup view is generated from its opening; edit that source.
 LIVE.md owns operational status; CURRENT_SCIENTIFIC_PREMISES.tsv owns exact grades.
 
 <!-- GENERATED_DEVELOPMENT_BEGIN -->
-**Current development — CPW1 reviewed; free-clock completion test authorized,
+**Current development — FCL1 conditional free-clock result reviewed,
 2026-10-03.** This is the sole maintained scientific argument. The exact registry
 and reviewed sources own grades; LIVE owns operational status. Review bindings
 are in section9. Historical results remain in the chapters below, not this startup view.
@@ -46,21 +46,25 @@ positive/adverse results survive. Full directional and future-path comparison
 data already evaluate supplied geometry without selecting it. No native
 physical equation or additional positional prediction has been obtained here.
 
-**Authorized question.** Test the existing UNADOPTED regular conformal-completion
-proposal RG for one specified freely falling receiver approaching its spacelike
-future boundary, supplied with regular signals from interior emitter events.
-The exact conformal frequency relation is checked. Derive or refute the limiting
-receiver behavior needed for growing redshift, without assuming bounded or
-convergent rescaled velocity. This is a varying-emission, single-receiver limit;
-it is not a fixed-emission distance curve, a population theorem or X_max derivation.
-RG's physical admission, native geometry, positional attribution and scale remain OPEN.
+**Current result.** FCL1 (R16FCL) derives the missing receiver limit within
+UNADOPTED regular conformal completion RG. One finite-data freely falling receiver
+approaching the specified spacelike boundary has rescaled tangent tending to its
+conformal normal. Its physical proper time diverges. For the supplied regular
+interior-emitter null family, physical received frequency tends to zero and
+Omega_o Z tends to a finite positive constant. Motion and nonuniform geometry
+are allowed; no bounded rescaled velocity or Einstein equation is assumed.
 
-After orientation read R16FCW/R16CPW, R6 for the clock observable, and the exact
-CPW1 SUCCESSOR_SCOPE linked there. LIVE/HANDOFF name the active work order and
-return point. Earlier mathematical branches and numerical surveys retain their
-stated hypotheses in the central chapters; their chronology does not authorize
-new work. The present derivation includes bounded checks, two fresh adversarial
-reviews and one same-premise repair round, then a lay return before another step.
+This is a varying-emission single-receiver limit, not a monotonic full-history
+or fixed-emission distance curve, population theorem or X_max derivation. RG and
+the regular signal family remain supplied; physical admission, native event/path
+assignment, positional attribution and scale remain OPEN. The accelerated-clock
+control lies outside the free-receiver theorem. Earlier adverse and positive
+results keep their source scopes.
+
+After orientation read R16FCL, R16FCW/R16CPW for its conditional origin and R6
+for the clock observable. LIVE/HANDOFF own actual closure status and the lay
+return. The bounded derivation includes two fresh independent argument reviews
+and exact controls; no further investigation or physical adoption starts here.
 <!-- GENERATED_DEVELOPMENT_END -->
 
 ## Current next gate

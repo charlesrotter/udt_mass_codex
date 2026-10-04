@@ -1,0 +1,10 @@
+{
+  "utc": "2026-10-04T01:11:44.205003+00:00",
+  "reviewer_context": "/root/fcl_math",
+  "stage": "SOURCE_FIRST_SEALED_BEFORE_PARENT_CANDIDATE_EXPOSURE",
+  "source_first_sha256": "24dfbb35624d4521ba34bd0972850107cbf595b613a9367f4713c8ec7fe0365c",
+  "candidate_exposed": false,
+  "sibling_review_exposed": false,
+  "controls_executed": 0,
+  "head": "4d9f202f8e557c8714af1d284ecaf1ee35d67ebb"
+}

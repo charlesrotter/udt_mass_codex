@@ -1,24 +1,13 @@
 {
-  "status": "REVIEWED_WITH_LIMITS",
-  "utc": "2026-10-04T01:36:15.703486+00:00",
-  "scope": "FCL1 conditional single-free-receiver conformal normal limit, infinite proper time and positive finite OmegaZ for supplied C3 RG and regular interior-emitter null family. Receiver bound derived, RG UNADOPTED. No native geometry, distance/population, scale/X_max or physical adoption. Original candidate unchanged; two fresh independent source-first/exposed/final reviewers and exact parent controls",
-  "independence": "Two fresh source-first/exposed/final reviewer contexts, independent conformal-energy derivations and hand recomputation of actual-clock controls/one rational force case. Parent distinct spatial-momentum proof and direct-Christoffel controls. Shared model/premises, parent SymPy; no different-model/human/formal/empirical review. No scientific repair required",
-  "freeze": "udt_free_clock_completion_2026-10-03/INTEGRATION_FREEZE.json",
+  "utc": "2026-10-04T01:30:16.599283+00:00",
+  "context": "/root/fcl_math",
+  "verdict": "ACCEPT_WITH_LIMITS",
+  "report_path": "udt_free_clock_completion_2026-10-03/review_math/FINAL_REVIEW.md",
+  "report_sha256": "72147ae1cd4951ddbd77dae04d42a1ef067b32ffc5c5aeff074577c4cb412ab7",
+  "freeze_path": "udt_free_clock_completion_2026-10-03/INTEGRATION_FREEZE.json",
   "freeze_sha256": "faa65a15d15922b784fd757892164010cda633cc1bca2248dc31fbb6d22fba32",
-  "prior_review_record": "udt_free_clock_completion_2026-10-03/PRIOR_REVIEW_RECORD.json",
-  "prior_review_record_sha256": "e6480c405ac7d0e8684823cff2f8187b159c8846da873a3a1d253a38b4a874e0",
-  "reviewers": [
-    {
-      "context": "/root/fcl_math",
-      "attestation": "udt_free_clock_completion_2026-10-03/review_math/FINAL_ATTESTATION.json",
-      "sha256": "86fb11bf5e77796304c8e77cf38940f0eeace598c1cf12655b3c9d590d6601a0"
-    },
-    {
-      "context": "/root/fcl_fidelity",
-      "attestation": "udt_free_clock_completion_2026-10-03/review_fidelity/FINAL_ATTESTATION.json",
-      "sha256": "ec4313486b7889a4c02363dbc94d333828eb2a580e321d1b8ebce3241b8eae02"
-    }
-  ],
+  "exposure": "Fresh source-first reconstruction sealed before candidate; exposed proof/controls review and regularity addendum; final actual central/graph/ledger and frozen package integration read. Parent aggregated sibling conclusions seen in integration, sibling report not substantively read. Same inherited model; no human/different-model claim.",
+  "scope": "Conditional FCL1 theorem and its precise maintained integration; registry/CANON unchanged; RG and regular clock/null preparation supplied; no physical adoption.",
   "accepted_sha256": {
     ".gitignore": "8a2710f5923ba86b41a461e040282ecd520ce155cb17b09458e1d1d613ddeb7a",
     "AGENTS.md": "bcab9b67305e0314af9eaf25162d203660eae8f2ff4fd87d17e83588970ef38d",

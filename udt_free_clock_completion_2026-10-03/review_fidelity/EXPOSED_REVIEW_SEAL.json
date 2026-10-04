@@ -1,0 +1,37 @@
+{
+  "utc": "2026-10-04T01:19:07.541686+00:00",
+  "reviewer": "/root/fcl_fidelity",
+  "phase": "EXPOSED_REVIEW_SEALED",
+  "verdict": "ACCEPT_WITH_LIMITS",
+  "mandatory_repairs": [],
+  "presentation_advice": [
+    "State physical omega_o -> 0 explicitly when presenting the positive finite rescaled-frequency factor."
+  ],
+  "head": "4d9f202f8e557c8714af1d284ecaf1ee35d67ebb",
+  "source_first_unchanged": true,
+  "source_first_preceded_candidate_freeze": true,
+  "sibling_review_exposure": false,
+  "independence": [
+    "fresh separate context, inherited model",
+    "independent source-first argument",
+    "analytic recomputation of both actual-clock controls and first nonuniform omitted-force row",
+    "finite-regularity clock identity checked directly"
+  ],
+  "different_model_claim": false,
+  "human_claim": false,
+  "reviewer_control_scripts": 0,
+  "pins": {
+    "udt_free_clock_completion_2026-10-03/review_fidelity/SOURCE_FIRST.md": "ca82f0d9d9513942de3373195e09dddeba9d448e2459009a7ab5262c129bcba6",
+    "udt_free_clock_completion_2026-10-03/review_fidelity/SOURCE_FIRST_SEAL.json": "4cbc943fb9df3caad0e64dc2e4fc065ea832ffcc888874b8424ae41f2ceab93b",
+    "udt_free_clock_completion_2026-10-03/review_fidelity/EXPOSED_REVIEW.md": "a47557dd03f0e9318d39a8f433b5e72eaca735d768626417331f2c97307f694a",
+    "udt_free_clock_completion_2026-10-03/INITIAL_CANDIDATE.md": "9563063c01c69ffef69654915e522d0019192d7470fb41d2c88fbf438a3c8371",
+    "udt_free_clock_completion_2026-10-03/CANDIDATE_FREEZE.json": "aa4e9796b557c492b986e428397247dd09ddc22d4eec97de88ce7670172352ec",
+    "udt_free_clock_completion_2026-10-03/CHECK_PLAN.md": "dc687b957e09f762a1c79b123f9a20ff887ff7db9f49df5726979b40ecc8d5d2",
+    "udt_free_clock_completion_2026-10-03/check_controls.py": "d728d0fc1cc492bcf1ad719d342728ea238ed63ae381e65a151fd5799c684115",
+    "udt_free_clock_completion_2026-10-03/WORK_ORDER.md": "165e406106c5812a5b72d6a90bd43ad6a36d63191cde5903271d8584a7b6c9de",
+    "udt_free_clock_completion_2026-10-03/BASELINE.json": "afef079a5de1b53d82e528d1b2effaf8d06b40d78a601530221fbe91598a737d",
+    "udt_free_clock_completion_2026-10-03/checks/parent_controls.stdout": "ce2e876e087e1cb6318247b08593cca52db21eeedd4a1ffdd2077064dca16dc9",
+    "udt_free_clock_completion_2026-10-03/checks/parent_controls.stderr": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "udt_free_clock_completion_2026-10-03/checks/parent_controls.json": "ab24f17286f6c65f9f03a75deefbb2cfcd4d8ec70430025ae98ca493bbbb2c14"
+  }
+}
