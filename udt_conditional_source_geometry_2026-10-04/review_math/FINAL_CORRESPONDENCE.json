@@ -1,0 +1,21 @@
+{
+  "status": "PASS_EXACT_ACCEPTED_MAP_CORRESPONDENCE",
+  "freeze_sha256": "be9da28f50b7802dd5d03143ef10ab7c806a9f57501e924d60b93d2405736114",
+  "accepted_files": 14088,
+  "inherited_files": 14004,
+  "changed_inherited": [
+    "CURRENT_RESEARCH_PROGRAM.md",
+    "HANDOFF.md",
+    "LIVE.md",
+    "UDT_DEVELOPMENT.md",
+    "development_reconstruction_2026-09-29/DEVELOPMENT_GRAPH.json",
+    "development_reconstruction_2026-09-29/RECENT_DISPOSITIONS.tsv"
+  ],
+  "bytes_hashed": 2316992277,
+  "seconds": 1.259524762048386,
+  "mismatches": [],
+  "protected_paths_in_map": 0,
+  "baseline_untracked_paths_in_map": 0,
+  "hash_scope": "byte correspondence only; no scientific inference",
+  "head": "cdc94b5d1703d99230afaee632f47376645f5585"
+}

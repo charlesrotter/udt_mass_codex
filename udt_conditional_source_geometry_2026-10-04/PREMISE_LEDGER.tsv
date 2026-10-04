@@ -1,0 +1,16 @@
+item	type	scope	source
+R2	pinned-by-THEORY within its conditional presentation	reciprocal radial chart; does not select spherical symmetry or f	UDT_DEVELOPMENT.md#r2
+R10	CONDITIONAL not native-adopted	Ric=Lambda g inherits full response hypotheses; native membership open	udt_gr_filter_reconciliation_2026-09-09/AUTHORITY_RECORD.md
+R6/R7	pinned-by-THEORY within supplied regular comparison	ordinary proper clocks, affine null incidence, same-geometry received ratio	udt_finite_separation_law_2026-09-28/INITIAL_CANDIDATE.md
+static spherical exterior	free-and-explored restricted class	one local exterior environment; not a cosmic center; no interior/backreaction	INITIAL_CANDIDATE.md section1
+m,Lambda	free-and-explored	m length parameter, Lambda inverse length squared; no source mass/scale selection	INITIAL_CANDIDATE.md section1
+circular test emitter	free-and-explored restricted query	radius/orientation supplied; geodesic and radial stability checked; no actual disk physics	INITIAL_CANDIDATE.md section2
+radial free receiver E,R0	free-and-explored restricted query	preparation specified; not a selected observer population or instantaneous local motion law	INITIAL_CANDIDATE.md section2
+affine Killing energy=1	calibration choice	positive affine normalization cancels in Z and sky	INITIAL_CANDIDATE.md section3
+null branch	free-and-explored restricted query	direct outward equatorial nonwinding branch, f>0,s>0,v>0,regular incidence; excludes turning/caustic/horizon domains	INITIAL_CANDIDATE.md section3
+cadence	CONDITIONAL conventional readout	stable emitted line gives optical v; no light ontology or native matter transition derived	UDT_DEVELOPMENT.md#r8acp
+finite controls	free-and-explored frozen before outcomes	m=1,a=10,R0=50,E=1,Lambda=0 or1e-4,phi0=+-0.2; dimensionless testing units, not measured CGCG values	CANDIDATE_FREEZE.json
+numerics	numerical control	36/60decimaldigits, finite root/quadrature and2difference steps, exact symbolic constraints; not formal intervals	CANDIDATE_FREEZE.json
+G_obs M/c_E^2	UNUSED conventional source calibration	not inserted; m does not establish a mass ontology	INITIAL_CANDIDATE.md section1
+X_max	OPEN and inactive	no chart horizon/asymptote/distance identification	CURRENT_SCIENTIFIC_PREMISES.md
+R13/ACP1 angular map	retained unclosed full comparison	finite in-plane sky calculated; full2D Jacobi/data reduction not completed	UDT_DEVELOPMENT.md#r8acp

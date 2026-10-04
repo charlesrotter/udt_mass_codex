@@ -8496,20 +8496,6 @@
         "C_CGE_QUERY",
         "O_CGE_SELECTION"
       ]
-    },
-    {
-      "path": "udt_conditional_source_geometry_2026-10-04/INTEGRATION_REPAIR.md",
-      "sha256": "84758a441c198cdfa9e3ffd58fa5d813a018c4b130ad91f478b848cb4afce408",
-      "role": "review_evidence",
-      "targets": [
-        "R8CGE",
-        "R8ACP",
-        "R10",
-        "R18",
-        "C_CGE_BRANCH",
-        "C_CGE_QUERY",
-        "O_CGE_SELECTION"
-      ]
     }
   ]
 }

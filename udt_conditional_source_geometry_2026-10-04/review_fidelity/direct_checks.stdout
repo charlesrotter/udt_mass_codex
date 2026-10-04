@@ -1,0 +1,6 @@
+{
+  "status": "PASS",
+  "exact_checks": 11,
+  "finite_cases": 2,
+  "V_second_general": "-2*(-15*Lambda*m*r**3 + 4*Lambda*r**4 + 18*m**2 - 3*m*r)/(3*r**3*(-3*m + r))"
+}

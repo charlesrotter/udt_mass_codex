@@ -1,24 +1,16 @@
 {
-  "status": "REVIEWED_WITH_LIMITS",
-  "utc": "2026-10-04T22:08:12.604735+00:00",
+  "utc": "2026-10-04T22:04:59.177886+00:00",
   "scope": "CGE1 conditional Ric=Lambda g static spherical exterior with circular test clocks and free radial receiver, actual null incidences, received frequency and finite sky directions. Restricted candidate and exact single-shift receiver freedom; native class selection, additional GR contrast, source interior/full angular/data realization OPEN. No fit or physical adoption",
-  "independence": "Two actual fresh same-model source-first/exposed/final contexts, exact revision unexposed. Source and matching pre-candidate math-message exposure disclosed. Independent original-coordinate arguments, affine/proper-time ODE shooting and Gauss-Legendre saved-incidence checks, distinct Decimal and analytic drift checks. Initial parent wrong-denominator failure preserved and one-line repair independently checked. No human, different-model, formal interval or empirical confirmation",
-  "freeze": "udt_conditional_source_geometry_2026-10-04/INTEGRATION_FREEZE.json",
-  "freeze_sha256": "be9da28f50b7802dd5d03143ef10ab7c806a9f57501e924d60b93d2405736114",
-  "prior_review_record": "udt_conditional_source_geometry_2026-10-04/PRIOR_REVIEW_RECORD.json",
-  "prior_review_record_sha256": "756f5922c7b85fc67a9d5dcadb2328cfad8e3eccdf5eae9b4748681427f15e81",
-  "reviewers": [
-    {
-      "context": "/root/cge_math",
-      "attestation": "udt_conditional_source_geometry_2026-10-04/review_math/FINAL_ATTESTATION.json",
-      "sha256": "b1650e96e614d41f45d20066f7f8897bad69be3684e915fad8f2698e20a6bf85"
-    },
-    {
-      "context": "/root/cge_fidelity",
-      "attestation": "udt_conditional_source_geometry_2026-10-04/review_fidelity/FINAL_ATTESTATION.json",
-      "sha256": "faf560257bd2e3eb5ef9431487b12a0edae894cc2584380ab419e8aeecddfb2a"
-    }
+  "base_head": "cdc94b5d1703d99230afaee632f47376645f5585",
+  "changed_inherited": [
+    "CURRENT_RESEARCH_PROGRAM.md",
+    "HANDOFF.md",
+    "LIVE.md",
+    "UDT_DEVELOPMENT.md",
+    "development_reconstruction_2026-09-29/DEVELOPMENT_GRAPH.json",
+    "development_reconstruction_2026-09-29/RECENT_DISPOSITIONS.tsv"
   ],
+  "inherited_count": 14004,
   "accepted_sha256": {
     ".gitignore": "8a2710f5923ba86b41a461e040282ecd520ce155cb17b09458e1d1d613ddeb7a",
     "AGENTS.md": "bcab9b67305e0314af9eaf25162d203660eae8f2ff4fd87d17e83588970ef38d",

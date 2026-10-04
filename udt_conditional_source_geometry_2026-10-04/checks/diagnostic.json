@@ -1,0 +1,19 @@
+{
+  "command": [
+    "python3",
+    "udt_conditional_source_geometry_2026-10-04/diagnose_check.py"
+  ],
+  "cwd": "/home/udt-admin/udt_mass_codex",
+  "started_utc": "2026-10-04T21:54:44.866317+00:00",
+  "duration_seconds": 2.196274267975241,
+  "returncode": 1,
+  "wall_timeout_seconds": null,
+  "cpu_timeout_seconds": null,
+  "address_space_bytes": 2147483648,
+  "memory_scope": "Process virtual address limit",
+  "maxrss_kib": 72084,
+  "forwarded_signals": [],
+  "stdout_sha256": "e24312cf692485ec0a566048e238bfa63b5a1eb774bd23618526b0bcfb00fb08",
+  "stderr_sha256": "1f88f63dab6f4c74a543e67f7054bfb42af1c9fc51a372e8f6810bd58660aad1",
+  "capture_sha256": "217cdbac5486e8a531552f4d74a15ce641299b65dafb5d58f7b60f4ba51781bc"
+}

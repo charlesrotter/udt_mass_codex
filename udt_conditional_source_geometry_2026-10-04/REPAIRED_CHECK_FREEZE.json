@@ -1,0 +1,9 @@
+{
+  "utc": "2026-10-04T21:55:27.510030+00:00",
+  "sha256": {
+    "udt_conditional_source_geometry_2026-10-04/check_construction.py": "954f7417eafcdb706a84dd2b33878dae56ee24a41cd9ddf937906828a282903f",
+    "udt_conditional_source_geometry_2026-10-04/CHECK_REPAIR.md": "7c5c7bc21d3a3357fd6a0822065530f1529e93bcef5f6bbaef2b3155df55dec4",
+    "udt_conditional_source_geometry_2026-10-04/CANDIDATE_FREEZE.json": "3d9948c2670782f988b672f7a8a8bb86e2eb3f2d670601c3d54586a5dcc1fe65"
+  },
+  "change": "A second derivative divided by A first derivative once. No parameter or tolerance change."
+}

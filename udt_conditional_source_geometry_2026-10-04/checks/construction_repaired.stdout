@@ -1,0 +1,1 @@
+{"status": "PASS", "ray_records": 40, "queries": 4, "dps": [36, 60], "max_relative_precision_error": "2.6623165190103451347106607999605714323652815300992509684231445818e-36", "max_arrival_error": 4.279652297265447e-11, "max_drift_error": 1.8889256590528537e-12}

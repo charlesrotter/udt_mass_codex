@@ -1,24 +1,16 @@
 {
-  "status": "REVIEWED_WITH_LIMITS",
-  "utc": "2026-10-04T22:08:12.604735+00:00",
+  "utc": "2026-10-04T22:02:34.345872+00:00",
   "scope": "CGE1 conditional Ric=Lambda g static spherical exterior with circular test clocks and free radial receiver, actual null incidences, received frequency and finite sky directions. Restricted candidate and exact single-shift receiver freedom; native class selection, additional GR contrast, source interior/full angular/data realization OPEN. No fit or physical adoption",
-  "independence": "Two actual fresh same-model source-first/exposed/final contexts, exact revision unexposed. Source and matching pre-candidate math-message exposure disclosed. Independent original-coordinate arguments, affine/proper-time ODE shooting and Gauss-Legendre saved-incidence checks, distinct Decimal and analytic drift checks. Initial parent wrong-denominator failure preserved and one-line repair independently checked. No human, different-model, formal interval or empirical confirmation",
-  "freeze": "udt_conditional_source_geometry_2026-10-04/INTEGRATION_FREEZE.json",
-  "freeze_sha256": "be9da28f50b7802dd5d03143ef10ab7c806a9f57501e924d60b93d2405736114",
-  "prior_review_record": "udt_conditional_source_geometry_2026-10-04/PRIOR_REVIEW_RECORD.json",
-  "prior_review_record_sha256": "756f5922c7b85fc67a9d5dcadb2328cfad8e3eccdf5eae9b4748681427f15e81",
-  "reviewers": [
-    {
-      "context": "/root/cge_math",
-      "attestation": "udt_conditional_source_geometry_2026-10-04/review_math/FINAL_ATTESTATION.json",
-      "sha256": "b1650e96e614d41f45d20066f7f8897bad69be3684e915fad8f2698e20a6bf85"
-    },
-    {
-      "context": "/root/cge_fidelity",
-      "attestation": "udt_conditional_source_geometry_2026-10-04/review_fidelity/FINAL_ATTESTATION.json",
-      "sha256": "faf560257bd2e3eb5ef9431487b12a0edae894cc2584380ab419e8aeecddfb2a"
-    }
+  "base_head": "cdc94b5d1703d99230afaee632f47376645f5585",
+  "changed_inherited": [
+    "CURRENT_RESEARCH_PROGRAM.md",
+    "HANDOFF.md",
+    "LIVE.md",
+    "UDT_DEVELOPMENT.md",
+    "development_reconstruction_2026-09-29/DEVELOPMENT_GRAPH.json",
+    "development_reconstruction_2026-09-29/RECENT_DISPOSITIONS.tsv"
   ],
+  "inherited_count": 14004,
   "accepted_sha256": {
     ".gitignore": "8a2710f5923ba86b41a461e040282ecd520ce155cb17b09458e1d1d613ddeb7a",
     "AGENTS.md": "bcab9b67305e0314af9eaf25162d203660eae8f2ff4fd87d17e83588970ef38d",
@@ -29,10 +21,10 @@
     "INDEX.md": "79be0981180b3a241fb0be15697d731884218796dc36fde4cd6fce08ab55e8a1",
     "LIVE.md": "d4a51b201949496eb5b9561d18cd67f21a42f1cbe0c1784dd85cf86be8f07159",
     "MEMORY.md": "9cef036ad44244dd4dbb2951c08a544dddea5dc24bb33571906c7061e03c5761",
-    "UDT_DEVELOPMENT.md": "02509982c5217e8da074577f9f8c962ad97fbbdc4883a4838e0b03c2afba82e6",
+    "UDT_DEVELOPMENT.md": "6fb9e90310aa3fd595e9e45f002a68be7e3d6c65f290423cf4a04cf3d82d0cf6",
     "UDT_RESEARCH_ROADMAP.md": "7511d5d68216399a2912c9339bb83b6453092104981ec472bf4e7582f8b469f0",
     "development_reconstruction_2026-09-29/CLAIM_DISPOSITIONS.tsv": "a14be5dbdc27fe6a232302f75d8116fdf6b8e546dd9ca250f6be792c9fae818d",
-    "development_reconstruction_2026-09-29/DEVELOPMENT_GRAPH.json": "3bd56c2bac07d02331b5de39ec1bd47e3eb66f669073f289d949459878417de3",
+    "development_reconstruction_2026-09-29/DEVELOPMENT_GRAPH.json": "6c0b66222a52a0f9fa46c83278262618d870cf9230623e809c0decdbbd7f5df1",
     "development_reconstruction_2026-09-29/FULL_REPAIR.md": "820441708b9607181c2c84b2df31b88ebdd4084b4a56c371706ea1ae93959bf8",
     "development_reconstruction_2026-09-29/HISTORICAL_EVIDENCE_INDEX.md": "7c1614619e94b35004ce0893e558ab7808d026aa012e00c69658bca70aa0e7a9",
     "development_reconstruction_2026-09-29/INTEGRATION_GUARD_CHANGE.md": "bb4dbfe3c32cb5f2e38e378237003efa6ee286340cae4d56a96b84058e7b3adc",
@@ -413,7 +405,7 @@
     "udt_completion_progress_audit_2026-10-04/review_math/SOURCE_FIRST_SEAL.json": "f21706c3d14b7d5e7ff05b1109a8094910e65387723f2bfae034aeeb7fc5f6be",
     "udt_conditional_source_geometry_2026-10-04/BASELINE.json": "e20dd1b7171410b1ec01322eb8ea7e202a311711369c7cf77d28ec34fe77a8de",
     "udt_conditional_source_geometry_2026-10-04/CANDIDATE_FREEZE.json": "3d9948c2670782f988b672f7a8a8bb86e2eb3f2d670601c3d54586a5dcc1fe65",
-    "udt_conditional_source_geometry_2026-10-04/CENTRAL_INSERT.md": "c2a13ffd2ba472eb403cc4eae635097e55db2f3b63481af9e2755d6fb260c583",
+    "udt_conditional_source_geometry_2026-10-04/CENTRAL_INSERT.md": "289f0f3109e537db4a83b6947d6c3168556db0e7255b443f475b3b401f9b1385",
     "udt_conditional_source_geometry_2026-10-04/CHECK_REPAIR.md": "7c5c7bc21d3a3357fd6a0822065530f1529e93bcef5f6bbaef2b3155df55dec4",
     "udt_conditional_source_geometry_2026-10-04/CONSTRUCTION_RESULT.json": "046f2b5bcda03828bc204c4e6bd3550845cf14914f2368e1ffa20da7dd03c174",
     "udt_conditional_source_geometry_2026-10-04/DECISION_BRIEF.md": "0d3086a80922d5bec570c5f741108ea2e468e82faac54863aee750b65dda5060",
@@ -421,7 +413,6 @@
     "udt_conditional_source_geometry_2026-10-04/DIAGNOSTIC_FREEZE.json": "9d0d42c4e657a845f906695675a07c6f725450dfea79fa62da79caf2f53f97e3",
     "udt_conditional_source_geometry_2026-10-04/INITIAL_CANDIDATE.md": "ce2b962bbf47e09dfd120036e1b06f2e6b06f0c18ac1e26766a490830e4fa8c9",
     "udt_conditional_source_geometry_2026-10-04/INITIAL_CHECK.py": "1aebf5c0811d4bb52226c71d4a2a2703e195ba8d3b1c06111792b0cc0f2a0748",
-    "udt_conditional_source_geometry_2026-10-04/INTEGRATION_REPAIR.md": "84758a441c198cdfa9e3ffd58fa5d813a018c4b130ad91f478b848cb4afce408",
     "udt_conditional_source_geometry_2026-10-04/METHOD_REFERENCES.md": "112b69d9ee11320ce430e200be57d5527ae7db787cca114202525039baee33e2",
     "udt_conditional_source_geometry_2026-10-04/PRECISION_NOTE.md": "6ca9236a1f09e4026b8772100f57290b624d296a662306a087463c98b12e4cce",
     "udt_conditional_source_geometry_2026-10-04/PREMISE_LEDGER.tsv": "3cc1b7fdeb0601f01c2d3cc56e6eef650114c71b79e6ed352f935a936d9f508b",
@@ -446,13 +437,6 @@
     "udt_conditional_source_geometry_2026-10-04/close_checkpoint.py": "d49a0f9e6525aae155323898261ec4c8d3460bed1d0afde59e7440b13c373a1f",
     "udt_conditional_source_geometry_2026-10-04/diagnose_check.py": "2d49bebda8d01d34c910483faaff4fe43f34a57272684303c48f331a00750fde",
     "udt_conditional_source_geometry_2026-10-04/integrate_development.py": "6f0fdb770a33f942eb7922a1acc92668b0d1d1d421d7f22be5417a67cf0d0390",
-    "udt_conditional_source_geometry_2026-10-04/integration_repair/CENTRAL_INSERT.md": "289f0f3109e537db4a83b6947d6c3168556db0e7255b443f475b3b401f9b1385",
-    "udt_conditional_source_geometry_2026-10-04/integration_repair/DEVELOPMENT_GRAPH.json": "6c0b66222a52a0f9fa46c83278262618d870cf9230623e809c0decdbbd7f5df1",
-    "udt_conditional_source_geometry_2026-10-04/integration_repair/INITIAL_INTEGRATION_FREEZE.json": "0bfdfa13d083b68c873a6ee3ffc7f4524cb80e4868b3f96b719c9973f7a4e9b2",
-    "udt_conditional_source_geometry_2026-10-04/integration_repair/UDT_DEVELOPMENT.md": "6fb9e90310aa3fd595e9e45f002a68be7e3d6c65f290423cf4a04cf3d82d0cf6",
-    "udt_conditional_source_geometry_2026-10-04/integration_repair/initial_maintenance.json": "3f681fc71134f6804ef12174e5150d99bb6379b8af5fd0692149928fc1894ebb",
-    "udt_conditional_source_geometry_2026-10-04/integration_repair/initial_maintenance.stderr": "5ba7fbe5b9d5267ecb92dabd038c1211ce836fc37c43becee5e55abfec31c431",
-    "udt_conditional_source_geometry_2026-10-04/integration_repair/initial_maintenance.stdout": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
     "udt_conditional_source_geometry_2026-10-04/review_fidelity/DIRECT_CHECK_RESULT.json": "7cdbef8205b19dd7f071ce7a7e3bf2e4e1f86ad7331278dd01e8a190dce5efec",
     "udt_conditional_source_geometry_2026-10-04/review_fidelity/DIRECT_FREEZE.json": "84254bff286182fc111d44c57fab197d162c4843092516b8c7aec2daacd8d90d",
     "udt_conditional_source_geometry_2026-10-04/review_fidelity/DIRECT_OUTPUT_HASHES.json": "d03f3a7969c0cdbe62a0bfa3756bd3cc4ba87bd03d1d6b5cbb0b0736e82dcc58",

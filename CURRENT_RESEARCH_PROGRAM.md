@@ -5,7 +5,7 @@ This bounded startup view is generated from its opening; edit that source.
 LIVE.md owns operational status; CURRENT_SCIENTIFIC_PREMISES.tsv owns exact grades.
 
 <!-- GENERATED_DEVELOPMENT_BEGIN -->
-**Current development — ACP1 first astronomical comparison constructed and audited,
+**Current development — CGE1 restricted conditional source/clock geometry reviewed,
 2026-10-04.** This is the sole maintained scientific argument. The exact registry
 and reviewed sources own grades; LIVE owns operational status. Review bindings
 are in section9. Historical results remain in the chapters below, not this startup view.
@@ -39,43 +39,37 @@ Finite null-patch results distinguish multiplicity-counted sheet area from
 geometric endpoint image-union; the latter requires global preimage identification.
 These geometric results do not identify physical light, brightness or carried content.
 
-**Current learning.** Charles authorized construction and audit of the first
-astronomical comparison. ACP1 now specifies how one geometry must predict the
-CGCG 074-064 maser spots' observed directions, spectral shifts and monitored
-changes together. It is a concrete conditional forward comparison, not a
-selected astronomical metric, fitted distance curve or empirical confirmation.
+**Current learning.** CGE1 constructs one restricted candidate for ACP1's
+astronomical interface: a static spherical exterior in the already conditional
+Ric=Lambda g class, with actual circular test clocks, a free radial receiver
+and connecting null signals. The metric determines their motion, received
+frequency and finite in-plane sky direction together. No independent Z(D)
+profile is appended. This is standard Kottler geometry reconstructed within
+an explicit conditional branch, not a native UDT field-law derivation or fit.
 
-R6/R7 provide the actual clock/null readout, and R13 provides the full angular
-map. A scalar distance determines area but does not determine shear or the
-complete spot map. Importing the published scalar distance requires its source-
-compatible map approximation or a justified refit. The correct receiver-time
-optical slope also contains the optical-velocity convention: a constant common
-redshift factor cancels from that derivative, while remaining in the spectral
-offset and received timing. No extra slowdown factor may be appended by habit.
+The construction uses regular finite-radius source clocks. It does not supply
+a matter interior, self-gravitating disk, actual CGCG environment, full2D image
+map or source-data reduction. Its parameters and receiver preparation remain
+supplied. One radial spectral ratio can be held fixed while changing Lambda
+and the receiver preparation; the full angular/time records are not proved
+degenerate. Identical geometry and physically matched GR queries give identical
+observations. The native physical selection and additional positional effect
+therefore remain open, rather than being claimed from numerical agreement.
 
-The source likelihood retains its conventional disk/transition/calibration,
-measurement flags, error floors and finite-window estimator. The full spot
-table and estimator were not retrieved/replayed, and no likelihood fit ran.
-The CGCG summary yields conditional endpoint/area restrictions; printed marginal
-statistical intervals and separately reported model-choice systematics stay
-separate. A fitted systemic redshift is not itself an actual regular reference
-clock. Its transformed Phi/chi summaries need that additional realization
-before becoming an R6 clock leg or any native event/path-depth assignment.
+Original4D metric/geodesic checks and actual-arrival comparisons pass for the
+frozen finite examples. Two fresh same-model contexts independently reconstructed
+the argument and checked saved quantities by different numerical methods. An
+extra division in the initial checking code failed the drift test; its exact
+repair, original failure and unchanged candidate/tolerances are preserved.
+These are bounded mathematical/numerical checks, not empirical confirmation.
+Actual final attestations and normal/maintenance/full406 receipts own closure.
 
-Two fresh same-model contexts independently reconstructed source and geometry
-interfaces, checked distinct exact/high-precision examples, and re-reviewed
-four source-preserving precision repairs. Their actual final attestations and
-normal/maintenance/full406 receipts own closure. Initial code failures and
-exposure history are retained; no human/different-model or formal interval
-certification is claimed. OEV1's observation map and finite evaluator survive
-at their original scope, with summary portability now made more explicit.
-
-After orientation read R8ACP and R18. The next scientific gate is an actual
-candidate metric with consistent source histories and the required observation
-reduction. Native geometry/evolution and reference-clock realization remain
-open. No whole-postulate insufficiency, new physical law, X_max scale or native
-matter/light model follows. Stop for lay discussion; no fit, larger numerical
-campaign or parked/protected program restarts automatically.
+After orientation read R8CGE, R10 and R18. The next scientific gate is physical
+discrimination of the conditional family using existing UDT commitments and an
+operationally matched additional-effect comparison. No theorem of whole-postulate
+insufficiency or need for a new postulate follows. Full astronomical source/map/
+data requirements remain distinct. Stop for lay discussion; no automatic fit,
+large solve, conditional-class adoption or parked/protected program restart.
 <!-- GENERATED_DEVELOPMENT_END -->
 
 ## Current next gate

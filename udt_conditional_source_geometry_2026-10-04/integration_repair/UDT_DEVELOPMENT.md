@@ -1583,8 +1583,8 @@ then verify
 
     f(r)=1-2m/r-Lambda r²/3.
 
-Here m>0 is the explored length integration parameter and Lambda an inverse-
-length-squared constant, both supplied. No matter-generation law or physical mass calibration
+Here m is a length integration parameter and Lambda an inverse-length-squared
+constant, both supplied. No matter-generation law or physical mass calibration
 follows. In this chart phi_presentation=-log(f)/2, distinct from clock depth.
 No chart horizon is identified with X_max.
 
@@ -4699,8 +4699,8 @@ and finite supplied-control evaluator. It did not select an astronomical metric
 or native evolution equation. Charles then authorized ACP1 to construct and
 audit the first actual astronomical comparison.
 
-[ACP1's fixed lay return](udt_first_astronomical_comparison_2026-10-04/DECISION_BRIEF.md)
-records the preceding comparison stage. R8ACP specifies one same-metric forward comparison
+[ACP1's lay return](udt_first_astronomical_comparison_2026-10-04/DECISION_BRIEF.md)
+owns the current discussion. R8ACP specifies one same-metric forward comparison
 for CGCG 074-064: actual spot directions, spectral ratios and their finite-window
 changes. It derives the optical-drift accounting and full angular-map requirement,
 retains the source-owned likelihood and reports concrete summary restrictions.

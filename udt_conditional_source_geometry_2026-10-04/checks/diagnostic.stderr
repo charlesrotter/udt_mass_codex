@@ -1,0 +1,4 @@
+Traceback (most recent call last):
+  File "/home/udt-admin/udt_mass_codex/udt_conditional_source_geometry_2026-10-04/diagnose_check.py", line 89, in <module>
+    assert err<mp.mpf('1e-7') and drift_err<mp.mpf('1e-7')
+AssertionError

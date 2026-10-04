@@ -1,0 +1,158 @@
+{
+  "status": "PASS",
+  "evidence": "exact symbolic and rational arithmetic; not empirical or global certification",
+  "checks": [
+    "full_coordinate_Ricci_00",
+    "full_coordinate_Ricci_01",
+    "full_coordinate_Ricci_02",
+    "full_coordinate_Ricci_03",
+    "full_coordinate_Ricci_10",
+    "full_coordinate_Ricci_11",
+    "full_coordinate_Ricci_12",
+    "full_coordinate_Ricci_13",
+    "full_coordinate_Ricci_20",
+    "full_coordinate_Ricci_21",
+    "full_coordinate_Ricci_22",
+    "full_coordinate_Ricci_23",
+    "full_coordinate_Ricci_30",
+    "full_coordinate_Ricci_31",
+    "full_coordinate_Ricci_32",
+    "full_coordinate_Ricci_33",
+    "circular_unit_norm",
+    "circular_original_geodesic_0",
+    "circular_original_geodesic_1",
+    "circular_original_geodesic_2",
+    "circular_original_geodesic_3",
+    "receiver_unit_norm",
+    "receiver_radial_axis_norm",
+    "receiver_tetrad_orthogonality",
+    "receiver_phi_axis_norm",
+    "original_null_norm",
+    "sky_tetrad_radial_formula",
+    "sky_tetrad_phi_formula",
+    "sky_unit_identity",
+    "radial_base_T_b",
+    "radial_base_Phi_b",
+    "redshift_inverse_timelike",
+    "redshift_inverse_same_Z",
+    "arrival_vs_contraction",
+    "radial_case_norm_-1/100000_3/4",
+    "radial_case_shift_-1/100000_3/4",
+    "radial_case_norm_-1/100000_4/3",
+    "radial_case_shift_-1/100000_4/3",
+    "nonradial_sky_norm_-1/100000_-2",
+    "nonradial_sky_norm_-1/100000_2",
+    "radial_case_norm_0_3/4",
+    "radial_case_shift_0_3/4",
+    "radial_case_norm_0_4/3",
+    "radial_case_shift_0_4/3",
+    "nonradial_sky_norm_0_-2",
+    "nonradial_sky_norm_0_2",
+    "radial_case_norm_1/100000_3/4",
+    "radial_case_shift_1/100000_3/4",
+    "radial_case_norm_1/100000_4/3",
+    "radial_case_shift_1/100000_4/3",
+    "nonradial_sky_norm_1/100000_-2",
+    "nonradial_sky_norm_1/100000_2"
+  ],
+  "finite_case_count": 12,
+  "cases": [
+    {
+      "kind": "radial_shift",
+      "Lambda": "-1/100000",
+      "target_Z": "3/4",
+      "f_R": "2809/3000",
+      "e": "15961*sqrt(70)/126000",
+      "v": "-6511*sqrt(70)/126000"
+    },
+    {
+      "kind": "radial_shift",
+      "Lambda": "-1/100000",
+      "target_Z": "4/3",
+      "f_R": "2809/3000",
+      "e": "19627*sqrt(70)/168000",
+      "v": "2773*sqrt(70)/168000"
+    },
+    {
+      "kind": "nonradial_endpoint",
+      "Lambda": "-1/100000",
+      "b": "-2",
+      "v": "1/5"
+    },
+    {
+      "kind": "nonradial_endpoint",
+      "Lambda": "-1/100000",
+      "b": "2",
+      "v": "1/5"
+    },
+    {
+      "kind": "radial_shift",
+      "Lambda": "0",
+      "target_Z": "3/4",
+      "f_R": "14/15",
+      "e": "91*sqrt(70)/720",
+      "v": "-37*sqrt(70)/720"
+    },
+    {
+      "kind": "radial_shift",
+      "Lambda": "0",
+      "target_Z": "4/3",
+      "f_R": "14/15",
+      "e": "7*sqrt(70)/60",
+      "v": "sqrt(70)/60"
+    },
+    {
+      "kind": "nonradial_endpoint",
+      "Lambda": "0",
+      "b": "-2",
+      "v": "1/5"
+    },
+    {
+      "kind": "nonradial_endpoint",
+      "Lambda": "0",
+      "b": "2",
+      "v": "1/5"
+    },
+    {
+      "kind": "radial_shift",
+      "Lambda": "1/100000",
+      "target_Z": "3/4",
+      "f_R": "2791/3000",
+      "e": "15889*sqrt(70)/126000",
+      "v": "-6439*sqrt(70)/126000"
+    },
+    {
+      "kind": "radial_shift",
+      "Lambda": "1/100000",
+      "target_Z": "4/3",
+      "f_R": "2791/3000",
+      "e": "19573*sqrt(70)/168000",
+      "v": "2827*sqrt(70)/168000"
+    },
+    {
+      "kind": "nonradial_endpoint",
+      "Lambda": "1/100000",
+      "b": "-2",
+      "v": "1/5"
+    },
+    {
+      "kind": "nonradial_endpoint",
+      "Lambda": "1/100000",
+      "b": "2",
+      "v": "1/5"
+    }
+  ],
+  "versions": {
+    "python": "3.10.12",
+    "sympy": "1.13.1"
+  },
+  "resources": {
+    "RLIMIT_AS_bytes": [
+      2147483648,
+      2147483648
+    ],
+    "OPENBLAS_NUM_THREADS": "1",
+    "OMP_NUM_THREADS": "1",
+    "maxrss_KiB": 51220
+  }
+}

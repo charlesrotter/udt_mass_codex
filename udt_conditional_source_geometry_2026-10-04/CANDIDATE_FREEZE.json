@@ -1,0 +1,10 @@
+{
+  "utc": "2026-10-04T21:53:55.220249+00:00",
+  "sha256": {
+    "udt_conditional_source_geometry_2026-10-04/WORK_ORDER.md": "ecd42b0d5db83a1bab54b5d2e3df551395b73b125e6261ef2f3567517f06dfa1",
+    "udt_conditional_source_geometry_2026-10-04/INITIAL_CANDIDATE.md": "ce2b962bbf47e09dfd120036e1b06f2e6b06f0c18ac1e26766a490830e4fa8c9",
+    "udt_conditional_source_geometry_2026-10-04/check_construction.py": "1aebf5c0811d4bb52226c71d4a2a2703e195ba8d3b1c06111792b0cc0f2a0748",
+    "udt_conditional_source_geometry_2026-10-04/METHOD_REFERENCES.md": "112b69d9ee11320ce430e200be57d5527ae7db787cca114202525039baee33e2"
+  },
+  "numerical_freeze": "4 parameter queries; lambda=0,1e-4; phi0=+-0.2; m=1,a=10,R0=50,E=1; 36/60digit; 5 t_e offsets; 40 rays. Original connection equations, stable circular orbit, global interval branch margins, roots <10^-(dps-12), arrival and drift errors<1e-7, halfstep error<.4 coarse+1e-25; crossprecision<1e-23. 3 separate exact same-shift radial constructions. No tuning to observations."
+}

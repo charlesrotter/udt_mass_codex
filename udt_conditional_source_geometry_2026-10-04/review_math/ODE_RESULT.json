@@ -1,0 +1,36 @@
+{
+  "status": "PASS_INDEPENDENT_ODE_ANCHOR",
+  "python": "3.10.12 (main, Aug 31 2026, 10:18:17) [GCC 11.4.0]",
+  "numpy": "2.2.6",
+  "scipy": "1.15.3",
+  "code_sha256": "f1f5f1a82580742fc6c5e49b6a88854eae10b6714dc8c7e9f9498bb2fc9fa777",
+  "method": "direct affine-null and proper-receiver ODE shooting, float64 DOP853",
+  "inputs": {
+    "m": 1,
+    "Lambda": 0,
+    "a": 10,
+    "R0": 50,
+    "E": 1,
+    "phi0": -0.2,
+    "t_e": 0
+  },
+  "root_nfev": 11,
+  "ray_affine_length": 50.16710620686262,
+  "R": 59.95621838179407,
+  "b": 2.3771447075130565,
+  "tau_o": 52.18259828724145,
+  "Z_endpoint": 1.307046706514738,
+  "n_propagation": [
+    0.9989004630173962,
+    0.04688139272415913
+  ],
+  "endpoint_coordinate_residual": [
+    -6.750155989720952e-13,
+    1.667643800828955e-11,
+    -4.172634026494704e-12
+  ],
+  "max_null_norm_residual": 8.605898112190591e-14,
+  "max_receiver_norm_residual": 5.773159728050814e-15,
+  "ray_rhs_evaluations_final": 266,
+  "receiver_rhs_evaluations_final": 74
+}

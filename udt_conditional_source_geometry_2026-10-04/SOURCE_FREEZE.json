@@ -1,0 +1,18 @@
+{
+  "role": "source versions before integration; historical/source unchanged",
+  "sha256": {
+    "AGENTS.md": "bcab9b67305e0314af9eaf25162d203660eae8f2ff4fd87d17e83588970ef38d",
+    "UDT_DEVELOPMENT.md": "35b5876a32fa291dcb00708ab93c285a8f1b40c27b99765233dd5e01d75a3142",
+    "CURRENT_SCIENTIFIC_PREMISES.md": "6b708f351b478dde0c6a93e8f29de08eae06533ba4fb789f79fd03bda1512718",
+    "CURRENT_SCIENTIFIC_PREMISES.tsv": "7a3d69d5a0bc3ac98e2ebe2bb0c6d029df30071bf403baffed2223a193dc720b",
+    "udt_gr_filter_reconciliation_2026-09-09/AUTHORITY_RECORD.md": "80daa0be6d3e1c0ac1b734fea089c4eb487f05bc1e1fbb2fabd69322ca89f28c",
+    "udt_g301_scale_free_quiet_regular_causal_principal_classification_2026-08-30/EXACT_DERIVATION.md": "633b907b5384aa63d61d49db067dd4e608e6abd3bf3571e4267f91e5c74da8fb",
+    "udt_finite_separation_law_2026-09-28/INITIAL_CANDIDATE.md": "7dd39a4840390f15fcedc2ae0e588f51e441b4348eaf0f0f8d9b81968b60d8e4",
+    "udt_finite_separation_law_2026-09-28/REPAIR.md": "be0927544e72bebd38a364cac33e0979aa8b4c4a1bdcdeba5dedf3e16e41e368",
+    "udt_first_astronomical_comparison_2026-10-04/INITIAL_CANDIDATE.md": "4f477ceaadf4139045b63d6aa8df35c0f2b75c8482062aa87f2a31fc67f9fac4",
+    "udt_first_astronomical_comparison_2026-10-04/REPAIR.md": "f87ce290355914367ffaa4b9673ecf4eacbd66922c5e1099a19143337306156e",
+    "development_reconstruction_2026-09-29/MAINTENANCE.md": "6aefb0450bf83d01620f8a94024df075508165ae1c9fd4185483d1db5a025b41",
+    "udt_time_live_production_survey_2026-10-01/capture.py": "217cdbac5486e8a531552f4d74a15ce641299b65dafb5d58f7b60f4ba51781bc",
+    "udt_free_clock_completion_2026-10-03/close_checkpoint.py": "d6b0fec3f680fda86c7a223750dd7b6bc6833112441039cfa28f32a5dc8f49c9"
+  }
+}

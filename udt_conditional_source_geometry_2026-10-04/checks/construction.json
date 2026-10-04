@@ -1,0 +1,19 @@
+{
+  "command": [
+    "python3",
+    "udt_conditional_source_geometry_2026-10-04/check_construction.py"
+  ],
+  "cwd": "/home/udt-admin/udt_mass_codex",
+  "started_utc": "2026-10-04T21:53:55.242152+00:00",
+  "duration_seconds": 2.189738734974526,
+  "returncode": 1,
+  "wall_timeout_seconds": null,
+  "cpu_timeout_seconds": null,
+  "address_space_bytes": 2147483648,
+  "memory_scope": "Process virtual address limit",
+  "maxrss_kib": 72436,
+  "forwarded_signals": [],
+  "stdout_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "stderr_sha256": "05c8be873c7ab985b08bbd3715c11bbabf92d9e1df3b34ba02fb3ed53ca07795",
+  "capture_sha256": "217cdbac5486e8a531552f4d74a15ce641299b65dafb5d58f7b60f4ba51781bc"
+}

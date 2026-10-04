@@ -1,0 +1,9 @@
+{
+  "udt_conditional_source_geometry_2026-10-04/review_math/ANCHOR_RESULT.json": "b372daa06d0c839ad640f27f4cb939014a49fd7f260f0793f71cfc279570bd93",
+  "udt_conditional_source_geometry_2026-10-04/review_math/FREEZE.md": "0213a6f0ee67671039902559a69f5eee7e337c03541563f9325ee044317ea71f",
+  "udt_conditional_source_geometry_2026-10-04/review_math/SOURCE_FIRST.md": "caf9adbae8e3817f8ac371d172e92bd9c2879b1089bd6dae41b78f23d712b520",
+  "udt_conditional_source_geometry_2026-10-04/review_math/SOURCE_HASHES.json": "5230c2a894aba65d8557c17bbdf0c3937ef5049eddd553095e00e5411d7035e4",
+  "udt_conditional_source_geometry_2026-10-04/review_math/anchor.stderr": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "udt_conditional_source_geometry_2026-10-04/review_math/anchor.stdout": "b372daa06d0c839ad640f27f4cb939014a49fd7f260f0793f71cfc279570bd93",
+  "udt_conditional_source_geometry_2026-10-04/review_math/independent_anchor.py": "33d0ab65576e4346a28d6c33aada1cbe5a9ffd6a3a8ad2edf4e6490ef89e81f4"
+}
