@@ -1,0 +1,21 @@
+{
+  "utc": "2026-10-04T15:53:09.929112+00:00",
+  "context": "/root/cpa_fidelity",
+  "stage": "EXPOSED_REVIEW",
+  "verdict": "VERIFIED-WITH-CAVEATS",
+  "blocking_scientific_defects": 0,
+  "required_scientific_repairs": 0,
+  "nonblocking_provenance_precision": "Distinguish FCW smooth trial/C2 homogeneous calculation from CPW successor C3 working scope; cite original FCW relational R-G1 source.",
+  "candidate_sha256": "3c876454512741a3de858cfc6837ed5ead0924660746eca55b76793c18f9ba9a",
+  "candidate_freeze_sha256": "ae9c9170e6e5889b0c6d07f5711856999d87c870f1d35ad869e71419c1719a92",
+  "review_sha256": "c07adbbd54606d19b6732582683cbb90744d3cc596a6c8109b6024f1ec114f7d",
+  "source_first_sha256": "699363f594e1b6ded0c755ec0a79f3d21651cafcea317acea04287cf0247ba0b",
+  "source_first_seal_sha256": "114e645f7347012a697a0655395673fe091a5daa776c2041722caa1bccffd799",
+  "source_versions_sha256": "254d0a8031eaa70d0f5cd6bc9350ecc609fdeb8f60eb6d8183888a22aed47dd4",
+  "scientific_program_runs": 0,
+  "sibling_argument_exposure": false,
+  "overlapping_source_pins": 19,
+  "overlapping_source_pin_disagreements": 0,
+  "final_integration_review": "PENDING_LATER_DISPATCH",
+  "preseal_documentary_correction": "Changed mistaken prose count22 to actual artifact check count19 before sealing; no source/candidate/science change."
+}

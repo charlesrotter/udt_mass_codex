@@ -1,0 +1,9 @@
+{
+  "utc": "2026-10-04T15:53:34.322353+00:00",
+  "stage": "After source-first exposure; unchanged initial audit; provenance precision only",
+  "files_sha256": {
+    "udt_completion_progress_audit_2026-10-04/SOURCE_CHECK_ADDENDUM.md": "6e07b9135f92b368b4ed4abd0face82567fb73b7f4ee701603a4439cadec7b12",
+    "udt_completion_progress_audit_2026-10-04/REGISTRY_SCOPE_CHECK.json": "178935e8447e4e598c05ec6fe5424211deaf306d039c655704914271dfa38d05",
+    "udt_finite_comparison_whiteboard_2026-10-03/relational/INITIAL_PROPOSAL.md": "537d79c4156d9119a3f7750b31058ef64a6d5d530da48566516fbb3618608328"
+  }
+}

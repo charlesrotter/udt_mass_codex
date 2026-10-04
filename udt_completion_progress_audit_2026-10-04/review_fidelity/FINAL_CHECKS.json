@@ -1,0 +1,77 @@
+{
+  "utc": "2026-10-04T16:05:24.979057+00:00",
+  "freeze_sha256": "edc7e88d0e344d0d9b3b3a7c043f17f44ac73eccfe6e5b08d5d244b03fdd53b9",
+  "accepted_count": 13492,
+  "protected_preflight_pass": true,
+  "all_hashes_match": true,
+  "mismatches": [],
+  "changed_inherited": [
+    "CURRENT_RESEARCH_PROGRAM.md",
+    "HANDOFF.md",
+    "LIVE.md",
+    "UDT_DEVELOPMENT.md",
+    "development_reconstruction_2026-09-29/DEVELOPMENT_GRAPH.json",
+    "development_reconstruction_2026-09-29/RECENT_DISPOSITIONS.tsv"
+  ],
+  "changed_inherited_equals_frozen": true,
+  "all76_baseline_names_preserved": true,
+  "baseline_untracked_count": 76,
+  "candidate_unchanged": true,
+  "elapsed_seconds": 1.1980017019668594,
+  "receipts": [
+    {
+      "name": "draft_coherence",
+      "receipt": {
+        "command": [
+          "python3",
+          "verify_udt_development.py",
+          "--draft"
+        ],
+        "cwd": "/home/udt-admin/udt_mass_codex",
+        "started_utc": "2026-10-04T15:59:31.347081+00:00",
+        "duration_seconds": 0.07808467000722885,
+        "returncode": 0,
+        "wall_timeout_seconds": null,
+        "cpu_timeout_seconds": null,
+        "address_space_bytes": 2147483648,
+        "memory_scope": "Process virtual address limit",
+        "maxrss_kib": 23400,
+        "forwarded_signals": [],
+        "stdout_sha256": "b787b3c7c4a0f5cce410c013801968900e093675d6fd0593d0bf60fa89a35b02",
+        "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "capture_sha256": "217cdbac5486e8a531552f4d74a15ce641299b65dafb5d58f7b60f4ba51781bc"
+      },
+      "stdout_hash_matches": true,
+      "stderr_hash_matches": true,
+      "stdout": "{\n  \"status\": \"DRAFT_COHERENCE_ONLY\",\n  \"registry_rows\": 406,\n  \"later_returns\": 58,\n  \"central_arguments\": 18,\n  \"source_pins\": 233,\n  \"scope\": \"Version, routing and bounded regression checks; not semantic completeness, canon or full-corpus reproof.\"\n}\n",
+      "stderr": ""
+    },
+    {
+      "name": "final_maintenance",
+      "receipt": {
+        "command": [
+          "python3",
+          "development_reconstruction_2026-09-29/checks/test_maintenance.py"
+        ],
+        "cwd": "/home/udt-admin/udt_mass_codex",
+        "started_utc": "2026-10-04T15:59:31.502941+00:00",
+        "duration_seconds": 1.3670734430197626,
+        "returncode": 0,
+        "wall_timeout_seconds": null,
+        "cpu_timeout_seconds": null,
+        "address_space_bytes": 2147483648,
+        "memory_scope": "Process virtual address limit",
+        "maxrss_kib": 33820,
+        "forwarded_signals": [],
+        "stdout_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "stderr_sha256": "b88480ff568cb25a90b8b483fb58343b15f999428635e8f10eb60783ce8e8911",
+        "capture_sha256": "217cdbac5486e8a531552f4d74a15ce641299b65dafb5d58f7b60f4ba51781bc"
+      },
+      "stdout_hash_matches": true,
+      "stderr_hash_matches": true,
+      "stdout": "",
+      "stderr": "test_additional_owner_meaning_routes_to_core_and_restriction (__main__.Maintenance) ... ok\ntest_ccr_necessary_condition_requires_regular_tube_protocol (__main__.Maintenance) ... ok\ntest_ccr_obstruction_requires_strict_mean_sign (__main__.Maintenance) ... ok\ntest_ccr_precision_source_routes_its_positive_and_negative_uses (__main__.Maintenance) ... ok\ntest_ccr_universal_exclusion_requires_extra_quantifier (__main__.Maintenance) ... ok\ntest_ces_adverse_benchmark_requires_supplied_protocol (__main__.Maintenance) ... ok\ntest_ces_proposal_context_cannot_replace_hypothesis (__main__.Maintenance) ... ok\ntest_ces_sources_route_conditional_and_adverse_result (__main__.Maintenance) ... ok\ntest_changed_source_flags_positive_negative_descendants (__main__.Maintenance) ... ok\ntest_completed_pair_impact (__main__.Maintenance) ... ok\ntest_correction_impact (__main__.Maintenance) ... ok\ntest_cycle (__main__.Maintenance) ... ok\ntest_gca_conservation_comparison_is_conditional (__main__.Maintenance) ... ok\ntest_gca_homothety_route_requires_its_class (__main__.Maintenance) ... ok\ntest_gca_lovelock_requires_its_full_domain (__main__.Maintenance) ... ok\ntest_gca_source_routes_positive_and_negative_uses (__main__.Maintenance) ... ok\ntest_gr_import (__main__.Maintenance) ... ok\ntest_handoff_registry_route_loss_fails_before_long_audit (__main__.Maintenance) ... ok\ntest_lkt_bridge_requires_actual_two_dimensional_geometry (__main__.Maintenance) ... ok\ntest_lkt_scalar_obstruction_requires_full_group_question (__main__.Maintenance) ... ok\ntest_lkt_source_flags_positive_and_negative_descendants (__main__.Maintenance) ... ok\ntest_lkt_stationarity_requires_both_additional_hypotheses (__main__.Maintenance) ... ok\ntest_local_response_universal_gate (__main__.Maintenance) ... ok\ntest_lost_coverage (__main__.Maintenance) ... ok\ntest_missing_class_prose_even_if_not_pattern (__main__.Maintenance) ... ok\ntest_missing_optional_source (__main__.Maintenance) ... ok\ntest_missing_response_class (__main__.Maintenance) ... ok\ntest_missing_review_context (__main__.Maintenance) ... ok\ntest_ngd_evolution_requires_conditional_equation (__main__.Maintenance) ... ok\ntest_ngd_numerical_return_requires_supplied_arena (__main__.Maintenance) ... ok\ntest_ngd_source_routes_positive_and_open_return (__main__.Maintenance) ... ok\ntest_old_review_status_support_change (__main__.Maintenance) ... ok\ntest_open_join_as_premise (__main__.Maintenance) ... ok\ntest_owner_definition_impact (__main__.Maintenance) ... ok\ntest_pcw_proposal_cannot_supply_response_hypothesis (__main__.Maintenance) ... ok\ntest_pcw_source_routes_proposal_and_adverse_conclusions_only (__main__.Maintenance) ... ok\ntest_pri_negative_conclusion_requires_tested_identification (__main__.Maintenance) ... ok\ntest_pri_observer_requires_nonbeam_hypothesis (__main__.Maintenance) ... ok\ntest_pri_raw_obstruction_requires_population_domain (__main__.Maintenance) ... ok\ntest_pri_source_routes_construction_and_adverse_use (__main__.Maintenance) ... ok\ntest_registry_change (__main__.Maintenance) ... ok\ntest_report_bytes_are_bound (__main__.Maintenance) ... ok\ntest_restricted_failure_promoted (__main__.Maintenance) ... ok\ntest_review_version_mismatch (__main__.Maintenance) ... ok\ntest_shared_geometry_source_flags_positive_and_negative (__main__.Maintenance) ... ok\ntest_signal_speed (__main__.Maintenance) ... ok\ntest_source_path_protected_before_read (__main__.Maintenance) ... ok\ntest_stale_generated_orientation (__main__.Maintenance) ... ok\ntest_stationary_exclusion_requires_its_sector (__main__.Maintenance) ... ok\ntest_three_coordinate_result_requires_supplied_arena (__main__.Maintenance) ... ok\ntest_three_coordinate_source_routes_frontier_review (__main__.Maintenance) ... ok\ntest_tri_clock_ratio_requires_regular_query (__main__.Maintenance) ... ok\ntest_tri_counts_require_supplied_record_protocol (__main__.Maintenance) ... ok\ntest_tri_source_routes_positive_and_negative_context (__main__.Maintenance) ... ok\ntest_unreviewed_adapter_claim (__main__.Maintenance) ... ok\ntest_unreviewed_body_change (__main__.Maintenance) ... ok\ntest_valid_fixture (__main__.Maintenance) ... ok\n\n----------------------------------------------------------------------\nRan 57 tests in 1.334s\n\nOK\n"
+    }
+  ],
+  "scope": "Byte correspondence and captured regression evidence; no scientific replay or automated review verdict."
+}

@@ -5,7 +5,7 @@ This bounded startup view is generated from its opening; edit that source.
 LIVE.md owns operational status; CURRENT_SCIENTIFIC_PREMISES.tsv owns exact grades.
 
 <!-- GENERATED_DEVELOPMENT_BEGIN -->
-**Current development — PDA1 prepared-distance attachment reviewed,
+**Current development — CPA1 completion-branch progress audit reviewed,
 2026-10-04.** This is the sole maintained scientific argument. The exact registry
 and reviewed sources own grades; LIVE owns operational status. Review bindings
 are in section9. Historical results remain in the chapters below, not this startup view.
@@ -39,33 +39,37 @@ Finite null-patch results distinguish multiplicity-counted sheet area from
 geometric endpoint image-union; the latter requires global preimage identification.
 These geometric results do not identify physical light, brightness or carried content.
 
-**Current learning.** FCL1 derives the free-clock limit in supplied UNADOPTED
-regular conformal completion RG; CCW1 links it to invariant source-clock gaps
-and limiting curvature. PDA1 (R16PDA) now derives a distance attachment: for one
-fixed emitted ray through a specified bounded free-clock population, a regular
-endpoint map and nonzero distance slope yield Z proportional asymptotically to
-1/(L_*-L). L is actual initial surface distance, not a renamed geometry variable.
+**Current learning.** CPA1 audits FCL1/CCW1/PDA1 and their supplied completion
+class RG. It finds real conditional gains: a free-clock bound in nonuniform
+geometry, invariant clock/curvature relations and a conditional initial-distance
+asymptote with a bounded preparation counterexample. No load-bearing false or
+circular step was found at those stated scopes. Those gains remain available.
 
-The uniform common collar, label-derivative limit and attachment slope are
-explicit conditions, checked in exact examples. A smooth bounded noncrossing
-preparation can instead give Z proportional to1/sqrt(L_*-L). Thus bounded
-initial motion alone does not fix the distance exponent. Both examples retain
-divergent received slowing; neither selects a physical observer population.
-CCW's Z=1 population instead has unbounded initial boosts and fails this gate.
-An immediate echo in the supplied controls ceases before the one-way limit.
+The source chain introduces RG as an UNADOPTED trial; the later proofs do not
+derive its native admission. Its regular conformal endpoint supplies much of
+the asymptotic form. PDA's common collar, endpoint-map regularity and nonzero
+distance slope remain explicit conditions; bounded motion alone does not fix
+the distance exponent. Initial surface distance is not automatically a
+cosmological distance or X_max. A one-way endpoint does not ensure an echo.
 
-The result is local to that ray/preparation, not a universal distance-only law.
-Generic endpoint regularity, prescribed remote/global rays, physical RG
-admission, native event/path assignment, additional-effect attribution, scale
-and X_max remain open. No whole-postulate insufficiency or need for a new premise
-is proved. CPW1's scalar echo sufficiency FC stays parked as a physical selector.
-FCL/CCW's earlier invariant and adverse results retain their stated scopes.
+The metric/null/proper-clock proofs still hold without UDT-specific interpretive
+labels. This is a dependency check, not removal of positional spacetime or proof
+of empirical equivalence to GR. Shared mathematics is legitimate. These results
+alone do not select native geometry, identify an additional positional effect,
+fix scale or prove convergence on UDT field equations. The complete postulates
+are not proved insufficient, and no new premise is declared necessary.
 
-After orientation read R16PDA/R16CCW/R16FCL and R18. Two fresh source-first,
-exposed and final reviewer contexts and45 exact parent controls support this
-conditional return. LIVE/HANDOFF own closure and the discussion stop. The next
-discussion should address native geometry admission; no successor or physical
-adoption starts automatically. Keeping the conditional result remains an option.
+The recommendation is to retain the tools and redirect physical development
+toward a named UDT-to-geometry implication or concrete independent use. The
+bounded source-led admission lookup proposed by PDA is now complete; repeating
+it is not a new target. Generic RG-only extensions should not be presented as
+native-selection progress. No new selector or successor derivation was found.
+
+After orientation read R16CPA/R16PDA/R16CCW/R16FCL and R18. Two fresh source-first,
+exposed and final contexts checked the audit and independently recomputed its
+load-bearing algebra by hand. No new scientific program was needed. LIVE/HANDOFF
+own closure and the discussion stop; no physical adoption or new campaign begins
+automatically. Conditional modeling remains a separate explicit option.
 <!-- GENERATED_DEVELOPMENT_END -->
 
 ## Current next gate

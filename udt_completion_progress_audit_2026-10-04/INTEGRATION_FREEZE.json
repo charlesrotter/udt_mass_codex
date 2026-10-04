@@ -1,24 +1,16 @@
 {
-  "status": "REVIEWED_WITH_LIMITS",
-  "utc": "2026-10-04T16:07:49.918102+00:00",
+  "utc": "2026-10-04T16:03:00.667785+00:00",
   "scope": "CPA1 source-relative progress audit of FCL/CCW/PDA and the FCW/CPW trial ancestry: real conditional mathematical gains, unchanged native RG admission and additional-effect attribution. RG UNADOPTED; no source regrade, new premise, universal insufficiency/GR-equivalence theorem or selected successor. Retain tools and discuss redirecting physical work to a named implication/concrete use. Original audit preserved; source-precision addendum; two fresh source-first/exposed/final contexts.",
-  "independence": "Two fresh source-first/exposed/final contexts audited sources and independently recomputed load-bearing algebra by hand after old-proof/verdict exposure, before parent audit exposure. Parent audit frozen before new reviewer arguments. No new scientific program, prior-script replay, different-model, independent-code, human, formal, empirical or literature-priority review. No blocking scientific defect; nonblocking smooth/C2-to-C3 provenance clarification retained separately.",
-  "freeze": "udt_completion_progress_audit_2026-10-04/INTEGRATION_FREEZE.json",
-  "freeze_sha256": "edc7e88d0e344d0d9b3b3a7c043f17f44ac73eccfe6e5b08d5d244b03fdd53b9",
-  "prior_review_record": "udt_completion_progress_audit_2026-10-04/PRIOR_REVIEW_RECORD.json",
-  "prior_review_record_sha256": "772c4409e6051447a7b7731ca7232b4060c812294ef897fa1cb70fa5517946f2",
-  "reviewers": [
-    {
-      "context": "/root/cpa_math",
-      "attestation": "udt_completion_progress_audit_2026-10-04/review_math/FINAL_ATTESTATION.json",
-      "sha256": "0b6dff118b73de3cc4c3a2eb8f71fc0949840eb37e77fd17e77f290e825b1b14"
-    },
-    {
-      "context": "/root/cpa_fidelity",
-      "attestation": "udt_completion_progress_audit_2026-10-04/review_fidelity/FINAL_ATTESTATION.json",
-      "sha256": "3c945ed00525b3f38dd4825ab7c31d53b2fa846bebf57a0ffba53491ef4efd3e"
-    }
+  "base_head": "c0c6ce8fdc889a58581feb8847210ccbd695e484",
+  "changed_inherited": [
+    "CURRENT_RESEARCH_PROGRAM.md",
+    "HANDOFF.md",
+    "LIVE.md",
+    "UDT_DEVELOPMENT.md",
+    "development_reconstruction_2026-09-29/DEVELOPMENT_GRAPH.json",
+    "development_reconstruction_2026-09-29/RECENT_DISPOSITIONS.tsv"
   ],
+  "inherited_count": 13462,
   "accepted_sha256": {
     ".gitignore": "8a2710f5923ba86b41a461e040282ecd520ce155cb17b09458e1d1d613ddeb7a",
     "AGENTS.md": "bcab9b67305e0314af9eaf25162d203660eae8f2ff4fd87d17e83588970ef38d",

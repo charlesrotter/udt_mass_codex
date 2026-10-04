@@ -1,27 +1,28 @@
 # LIVE — operational status
 
 <!-- STARTUP_CURRENT_BEGIN -->
-## CURRENT STATE — PDA1 prepared-distance return, 2026-10-04
+## CURRENT STATE — CPA1 progress-audit return, 2026-10-04
 
 CDR1 remains the central-development architecture. UDT_DEVELOPMENT.md is the
 sole maintained scientific argument; CURRENT_SCIENTIFIC_PREMISES.tsv and reviewed
 sources own exact grades. The generated CURRENT_RESEARCH_PROGRAM.md is the bounded
-startup orientation. Read R16PDA/R16CCW/R16FCL/R18 after orientation.
+startup orientation. Read R16CPA/R16PDA/R16CCW/R16FCL/R18 after orientation.
 
-Charles authorized the prepared-distance test after the completed CCW1 return
-at976f860d. PDA1 evidence is in udt_prepared_distance_attachment_2026-10-04/;
-its WORK_ORDER owns scope. The unchanged initial candidate, frozen exact
-controls and two fresh source-first/exposed/final reviews are preserved.
+Charles authorized CPA1's five-question progress audit after PDA1 at c0c6ce8f.
+Evidence is in udt_completion_progress_audit_2026-10-04/; WORK_ORDER owns the
+bounded three-result/source-chain scope. The original audit, source-precision
+addendum and two fresh source-first/exposed/final reviews are preserved.
 Final attestations and actual normal/maintenance/full406 receipts own closure;
 commit/push and byte checks own banking. Verify actual HEAD, remote, dirt and
 processes rather than assuming this text identifies the tip.
 
-Next: Stop for lay discussion of the PDA1 decision brief. A possible source-led
-native-admission audit is an unexecuted discussion recommendation, not an
-authorized successor. No RG/FC adoption, native field/source/action law, registry
-promotion, GPU/data/hardware campaign starts automatically. One short CPU exact
-control program ran; no long solver. The no-timeout direction persists with
-finite scope/resource/manual stops. Preserve protected and unrelated work.
+Next: Stop for lay discussion of CPA1's decision brief and direction recommendation.
+No specific successor derivation or new native selector was found. The previous
+bounded admission-source lookup is complete; a further task needs a named new
+implication or concrete use. No RG/FC adoption, registry promotion, new campaign
+pause, field/source/action law or GPU/data/hardware campaign begins automatically.
+No new scientific program ran in this audit. Standing no-timeout/resource/manual
+stop rules and protection of unrelated work persist.
 
 ### Honest claim
 
@@ -54,11 +55,12 @@ Protected: do not inspect, hash, stage, modify, mine or cite payloads without di
 
 ### Next gate
 
-Stop for lay discussion using central R16PDA/R16CCW/R16FCL/R18 and the PDA1
-decision brief. The conditional prepared-distance test is complete; native
-admission and physical attribution remain open. No successor starts automatically.
-Verify actual evidence, final bindings and synchronization. Existing pauses and
-protected boundaries persist. TPS1 raw fields/large streams remain local-only;
-compact remote records cannot replay raw-dependent checks.
+Stop for lay discussion using central R16CPA and the CPA1 decision brief.
+The progress audit and bounded admission-source trace are complete at their
+stated scope. The direction recommendation is for discussion, not a new adopted
+physical premise or automatic successor. Verify actual final bindings/checks and
+synchronization. Existing pauses and protected boundaries persist. TPS1 raw
+fields/large streams remain local-only; compact remote records cannot replay
+raw-dependent checks.
 
 <!-- STARTUP_CURRENT_END -->

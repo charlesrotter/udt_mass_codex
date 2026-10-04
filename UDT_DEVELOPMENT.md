@@ -1,7 +1,7 @@
 # UDT — continuous scientific development
 
 <!-- DEVELOPMENT_ORIENTATION_BEGIN -->
-**Current development — PDA1 prepared-distance attachment reviewed,
+**Current development — CPA1 completion-branch progress audit reviewed,
 2026-10-04.** This is the sole maintained scientific argument. The exact registry
 and reviewed sources own grades; LIVE owns operational status. Review bindings
 are in section9. Historical results remain in the chapters below, not this startup view.
@@ -35,33 +35,37 @@ Finite null-patch results distinguish multiplicity-counted sheet area from
 geometric endpoint image-union; the latter requires global preimage identification.
 These geometric results do not identify physical light, brightness or carried content.
 
-**Current learning.** FCL1 derives the free-clock limit in supplied UNADOPTED
-regular conformal completion RG; CCW1 links it to invariant source-clock gaps
-and limiting curvature. PDA1 (R16PDA) now derives a distance attachment: for one
-fixed emitted ray through a specified bounded free-clock population, a regular
-endpoint map and nonzero distance slope yield Z proportional asymptotically to
-1/(L_*-L). L is actual initial surface distance, not a renamed geometry variable.
+**Current learning.** CPA1 audits FCL1/CCW1/PDA1 and their supplied completion
+class RG. It finds real conditional gains: a free-clock bound in nonuniform
+geometry, invariant clock/curvature relations and a conditional initial-distance
+asymptote with a bounded preparation counterexample. No load-bearing false or
+circular step was found at those stated scopes. Those gains remain available.
 
-The uniform common collar, label-derivative limit and attachment slope are
-explicit conditions, checked in exact examples. A smooth bounded noncrossing
-preparation can instead give Z proportional to1/sqrt(L_*-L). Thus bounded
-initial motion alone does not fix the distance exponent. Both examples retain
-divergent received slowing; neither selects a physical observer population.
-CCW's Z=1 population instead has unbounded initial boosts and fails this gate.
-An immediate echo in the supplied controls ceases before the one-way limit.
+The source chain introduces RG as an UNADOPTED trial; the later proofs do not
+derive its native admission. Its regular conformal endpoint supplies much of
+the asymptotic form. PDA's common collar, endpoint-map regularity and nonzero
+distance slope remain explicit conditions; bounded motion alone does not fix
+the distance exponent. Initial surface distance is not automatically a
+cosmological distance or X_max. A one-way endpoint does not ensure an echo.
 
-The result is local to that ray/preparation, not a universal distance-only law.
-Generic endpoint regularity, prescribed remote/global rays, physical RG
-admission, native event/path assignment, additional-effect attribution, scale
-and X_max remain open. No whole-postulate insufficiency or need for a new premise
-is proved. CPW1's scalar echo sufficiency FC stays parked as a physical selector.
-FCL/CCW's earlier invariant and adverse results retain their stated scopes.
+The metric/null/proper-clock proofs still hold without UDT-specific interpretive
+labels. This is a dependency check, not removal of positional spacetime or proof
+of empirical equivalence to GR. Shared mathematics is legitimate. These results
+alone do not select native geometry, identify an additional positional effect,
+fix scale or prove convergence on UDT field equations. The complete postulates
+are not proved insufficient, and no new premise is declared necessary.
 
-After orientation read R16PDA/R16CCW/R16FCL and R18. Two fresh source-first,
-exposed and final reviewer contexts and45 exact parent controls support this
-conditional return. LIVE/HANDOFF own closure and the discussion stop. The next
-discussion should address native geometry admission; no successor or physical
-adoption starts automatically. Keeping the conditional result remains an option.
+The recommendation is to retain the tools and redirect physical development
+toward a named UDT-to-geometry implication or concrete independent use. The
+bounded source-led admission lookup proposed by PDA is now complete; repeating
+it is not a new target. Generic RG-only extensions should not be presented as
+native-selection progress. No new selector or successor derivation was found.
+
+After orientation read R16CPA/R16PDA/R16CCW/R16FCL and R18. Two fresh source-first,
+exposed and final contexts checked the audit and independently recomputed its
+load-bearing algebra by hand. No new scientific program was needed. LIVE/HANDOFF
+own closure and the discussion stop; no physical adoption or new campaign begins
+automatically. Conditional modeling remains a separate explicit option.
 <!-- DEVELOPMENT_ORIENTATION_END -->
 
 ## 1. How this development is owned
@@ -3135,6 +3139,105 @@ and [descendant review](udt_prepared_distance_attachment_2026-10-04/DESCENDANT_R
 retain the hypotheses, exact controls, exposure and limits.
 
 
+<a id="r16cpa"></a>
+
+#### What the completion branch has actually advanced — CPA1 progress audit
+
+The bounded audit traces FCL1/CCW1/PDA1 through their actual proof inputs and
+FCW1/CPW1's introduction of RG. Its finding is real conditional mathematical
+progress, with native geometry admission and additional positional attribution
+still open. This is a source-relative direction assessment, not a regrade,
+literature-novelty claim or proof of complete-postulate insufficiency.
+
+The founding interpretation of c_E as positional geometry remains a starting
+postulate. This audit asks for the provenance of the stronger RG completion,
+not an explanation of why the founding interpretation should be adopted.
+The current owner clarifications retain ordinary proper clocks and additional
+positional effects in the same geometry. F1--F4's reciprocal character takes
+supplied ordered depth; W4 supplies working common metric coupling; W5 supplies
+a typed projective interpretation. None of the inspected arguments takes their
+output as a derivation of the RG boundary conditions. Current DDR gives TF(E)=0
+for the specified response and domain, without identifying E. G312 remains
+GR FILTER ONLY; its stronger historical response-class route is still unclosed.
+
+RG enters FCW1's original relational proposal R-G1 and its selected synthesis
+as an explicitly UNADOPTED trial:
+g=x^-2 b with regular nondegenerate b and nonzero timelike dx at the future
+spacelike x=0 surface. Its differentiability, causal type and simple zero are
+stronger than a qualitative divergent-clock target. CPW1 expressly proposed
+testing the trial's clock robustness before physical admission. The recent
+proofs inherit this supplied condition. No hidden Einstein equation was found
+in those proof steps; authorized trial exploration is not physical adoption.
+FCW's original trial is smooth and its homogeneous calculation uses C2;
+CPW's successor and FCL state the later common C3 Lorentz4 scope explicitly.
+
+The prior identity omega_o=xB, Z=1/(xB) shows how much form is already supplied:
+if B has a positive finite limit, the inverse-x divergence follows immediately.
+RG and unit normalization alone do not prove that B limit for an actual clock,
+and x is not a distance. The later proofs add the following precise content:
+
+| Result | Established mathematical gain | Remaining or added conditions |
+|---|---|---|
+| FCL1 | Derives the free-receiver normal limit and positive B limit in nonuniform geometry; finite logarithmic proper-time remainder | RG; endpoint-reaching finite-data free receiver; regular interior-emitter ray family; pointwise quantifier |
+| CCW1 | Links the clock gap to invariant limiting curvature; constructs a chosen nearby emitter family; strengthens beta2 exclusion on the same physical tail; exhibits the free-population limit failure | RG/FCL query for the clock relation; explicit local extension and existential source choice for the construction; no arbitrary remote access |
+| PDA1 | Uniformizes the estimate under H1; solves actual fixed-ray receiving labels; derives a conditional initial-distance residue; gives a bounded noncrossing alternative exponent | Common domain/entry bounds H1, uniform endpoint derivatives and invertibility H2, nonzero distance slope H3; specified surface/ray/preparation |
+
+These gains can be checked directly in the argument. FCL's norm inequality
+D^+|w|<=(-1+Cx0e^-s)|w|+Cx0e^-s integrates to its vanishing bound without
+assuming late velocity control. CCW contracts the conformal Ricci identity to
+R_*=12/N_*² and integrates ds/dx=-NB/gamma to obtain epsilon Z->N_*.
+PDA differentiates actual incidence to obtain L_*-L=-d x+o(x), then multiplies
+by Z. H3 supplies first-order distance transversality and hence much of the
+simple-pole exponent; it is explicitly supplied, not proved for all populations.
+Its coefficient still comes from the metric/query, not a fitted redshift curve.
+The H3-failing bounded witness gives 1-L=x²/2+O(x³) and a square-root pole.
+That counterexample establishes a useful restriction while preserving divergence.
+
+Removing the UDT-specific interpretive labels while retaining the stated
+Lorentz metric, proper-clock/null equations, geodesic motion, RG and query data
+leaves these proofs valid. DDR, an identified response and G_obs do not enter
+them; c_E sets units. The scalar chi_clock=tanh(-log Z) is a downstream matched
+readout and does not select the input geometry. This dependency check is not a
+physical operation removing positional dilation, an empirical GR-equivalence
+theorem, or a claim that shared mathematics is illegitimate. It shows why the
+three results alone do not establish a distinctive additional UDT prediction.
+SGE's identical physically matched geometry/query still gives D_pos=0.
+
+The source audit found no load-bearing circular or false step at these stated
+scopes. Stronger claims remain unsupported: deriving RG from the founding
+asymptote; deriving it by appending the reciprocal scalar; obtaining a universal
+distance exponent from bounded preparation; identifying X_max or a physical
+scale from the chosen initial-distance endpoint; or treating review/check counts
+as proof of physical convergence. Source caveats already exclude those claims.
+No theorem here says all clarified UDT postulates are insufficient or require
+another physical premise. Ordinary initial/query freedom is not itself a defect.
+
+The recommended direction is to retain this branch as conditional diagnostics
+and redirect physical development to a specific UDT-to-geometry implication.
+Automatic expansion of RG-only examples is not justified as native selection
+progress. A future task should name the existing UDT statement, quantitative
+restriction to be derived and independent reason the candidate class is relevant.
+A unique universe, all field equations or a microscopic light model are not
+prerequisites for every useful targeted question. A separately authorized
+phenomenological trial is another possible choice, not adopted by this audit.
+
+PDA's suggested source-led admission check is now completed at this bounded
+scope; repeating its lookup is not a new step. The audit supplies no new native
+selector or selected successor derivation. A concrete reuse test is available:
+for an independently justified candidate end, compute its scalar limit; a
+nonpositive/nonfinite limit excludes this RG end, while a positive finite limit
+only survives a necessary check. Establish actual completion/query hypotheses
+before using the stored clock/gap/distance results. Finite-data confirmation
+retains separate domain/error/calibration/attribution requirements.
+
+[Initial audit](udt_completion_progress_audit_2026-10-04/INITIAL_AUDIT.md),
+[reviewed assessment](udt_completion_progress_audit_2026-10-04/REVIEWED_RESULT.md)
+and [descendant review](udt_completion_progress_audit_2026-10-04/DESCENDANT_REVIEW.md)
+preserve the source chain, both positive and negative checks, review exposure
+and recommendation limits. Stop for Charles's direction discussion; review
+does not adopt RG, regrade a source or launch a successor.
+
+
 <a id="r17"></a>
 
 ### R17. Useful failed joins have precise limits
@@ -3763,13 +3866,25 @@ distance results evaluate the supplied geometry; they do not select it, isolate
 the additional UDT contribution, set a scale or identify X_max. No new physical
 premise or complete-postulate insufficiency theorem is adopted.
 
-[PDA1's decision brief](udt_prepared_distance_attachment_2026-10-04/DECISION_BRIEF.md)
-owns the current lay return. The proposed next discussion is about whether an
-existing UDT commitment actually admits this geometry, with a bounded source-led
-audit as a possible later work order. That audit is unexecuted and is not an
-automatic successor. Retaining the conditional result remains an option;
-CCW/FCL/CPW/FCW fixed decisions keep their historical scopes. Stop for discussion;
-no physical adoption or new campaign starts automatically.
+CPA1 now completes that bounded progress/admission-source audit in R16CPA.
+The mathematical gains above survive, including the negative controls. The
+source chain reaches FCW's explicit unadopted RG trial and CPW's robustness
+dispatch; no later step in the inspected chain derives native admission.
+Consequences under that input do not themselves justify it. H3's contribution
+to the distance exponent is made explicit without miscalling PDA circular.
+The proof-input check preserves the metric equations and is not a physical
+operation removing positional geometry or an empirical GR-equivalence claim.
+
+[CPA1's decision brief](udt_completion_progress_audit_2026-10-04/DECISION_BRIEF.md)
+owns the current lay return. Its recommendation is to keep the conditional tools
+and redirect the next physical task to a named current-premise implication or
+a concrete independent use. More RG-only examples or the same admission-source
+lookup would not by themselves close the physical join. No new native selector
+or specific successor derivation was found. The decision does not demand a
+unique cosmos, a new premise, a full light theory or all field equations before
+targeted work. A deliberately conditional modeling question remains an option.
+Prior fixed decisions keep their historical scope. Stop for discussion; no
+physical adoption, new campaign pause or successor starts automatically.
 
 NGD1's numerical return in R12N adds a validated comparison tool and finite
 nonlinear clock-shift histories. Its positive contribution relative to a specified
@@ -4684,6 +4799,23 @@ and [descendant review](udt_prepared_distance_attachment_2026-10-04/DESCENDANT_R
 preserve exposure, the metadata lookup failure, checks and omissions. Actual
 final accepted-map attestations and normal/maintenance/full406 receipts own
 integration/banking closure; neither review nor commit adopts RG.
+
+CPA1 uses two new fresh source-first/exposed/final contexts to audit the
+progress assessment. Both read the prior source proofs/verdicts before the new
+audit, so this is not verdict-blind rediscovery of old results. Parent froze its
+audit before reading either new reviewer argument. Independent hand checks cover
+the force/estimate, curvature contraction, proper-clock gap, distance incidence
+and adverse expansions. Both accepted the bounded assessment without a blocking
+scientific defect. Their nonblocking source-precision note distinguishes FCW's
+smooth trial/C2 control from CPW/FCL's later C3 scope; the original audit stays
+fixed and the reviewed return records the clarification. No new scientific
+program was needed or run; prior pass counts are attributed, not evidence of
+physical progress. Shared model and source exposure remain; different-model,
+independent-code, human, formal, empirical and literature-priority review are
+not claimed. [Work record](udt_completion_progress_audit_2026-10-04/WORK_RECORD.md)
+and [descendant review](udt_completion_progress_audit_2026-10-04/DESCENDANT_REVIEW.md)
+retain actual source ancestry, exposure and read/metadata errors. Final accepted-map
+attestations and normal/maintenance/full406 receipts own closure and banking.
 
 The preserved first candidates expose the repair history. The [source correction](development_reconstruction_2026-09-29/SOURCE_CORRECTIONS.md)
 fixes a real covector-basis sign in G310; the central nine-direction span and

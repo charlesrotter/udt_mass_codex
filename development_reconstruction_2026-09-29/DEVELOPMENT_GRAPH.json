@@ -1747,7 +1747,7 @@
     {
       "id": "O_FCW_ADMISSION",
       "kind": "open_join",
-      "statement": "Physical RG admission, native geometry and additional-effect attribution remain OPEN. CCW1 invariant/local-source and PDA1 prepared-distance results evaluate supplied conditions, not select the geometry. CPW1 physical FC remains parked. No native scale/X_max or whole-postulate insufficiency theorem.",
+      "statement": "Physical RG admission, native geometry and additional-effect attribution remain OPEN. CPA1 inspected the actual FCW trial/CPW dispatch and three-result proof chain: conditional gains preserved, no native selector found in that bounded chain. The source-led lookup is complete at that scope; no whole-postulate insufficiency or required-new-premise theorem. Recommendation redirects next physical work to a named implication/concrete use, not automatic RG-only expansion. No adoption/scale/X_max selection.",
       "sources": [
         "udt_finite_comparison_whiteboard_2026-10-03/INITIAL_SYNTHESIS.md",
         "udt_finite_comparison_whiteboard_2026-10-03/REVIEWED_RESULT.md",
@@ -1759,7 +1759,8 @@
         "udt_clock_law_physical_whiteboard_2026-10-03/REVIEWED_RESULT.md",
         "udt_free_clock_completion_2026-10-03/REVIEWED_RESULT.md",
         "udt_completion_connection_whiteboard_2026-10-03/REVIEWED_RESULT.md",
-        "udt_prepared_distance_attachment_2026-10-04/REVIEWED_RESULT.md"
+        "udt_prepared_distance_attachment_2026-10-04/REVIEWED_RESULT.md",
+        "udt_completion_progress_audit_2026-10-04/REVIEWED_RESULT.md"
       ],
       "registry_ids": []
     },
@@ -2057,6 +2058,36 @@
         "C_PDA_PREPARATION",
         "C_PDA_ENDPOINT",
         "C_PDA_TRANSVERSE"
+      ]
+    },
+    {
+      "id": "C_CPA_SCOPE",
+      "kind": "conditional_protocol",
+      "statement": "Source-relative audit of FCL/CCW/PDA and FCW/CPW trial ancestry with directly controlling founding/owner/G312 meanings. Inspect actual proof dependencies and quantifiers; no full-postulate insufficiency, empirical GR equivalence, literature novelty, physical adoption or automatic successor. Direction recommendation is not a selecting equation.",
+      "sources": [
+        "udt_completion_progress_audit_2026-10-04/INITIAL_AUDIT.md",
+        "udt_completion_progress_audit_2026-10-04/REVIEWED_RESULT.md",
+        "udt_completion_progress_audit_2026-10-04/WORK_ORDER.md",
+        "udt_completion_progress_audit_2026-10-04/SOURCE_CHECK_ADDENDUM.md",
+        "udt_finite_comparison_whiteboard_2026-10-03/relational/INITIAL_PROPOSAL.md"
+      ],
+      "registry_ids": []
+    },
+    {
+      "id": "R16CPA",
+      "kind": "argument",
+      "anchor": "r16cpa",
+      "title": "Progress audit: real conditional gains, unchanged native-admission join and scoped direction recommendation",
+      "sources": [
+        "udt_completion_progress_audit_2026-10-04/INITIAL_AUDIT.md",
+        "udt_completion_progress_audit_2026-10-04/REVIEWED_RESULT.md",
+        "udt_completion_progress_audit_2026-10-04/WORK_ORDER.md",
+        "udt_completion_progress_audit_2026-10-04/SOURCE_CHECK_ADDENDUM.md",
+        "udt_finite_comparison_whiteboard_2026-10-03/relational/INITIAL_PROPOSAL.md"
+      ],
+      "registry_ids": [],
+      "required_conditions": [
+        "C_CPA_SCOPE"
       ]
     }
   ],
@@ -3960,6 +3991,66 @@
       "to": "R18",
       "kind": "context",
       "from": "R16PDA"
+    },
+    {
+      "from": "C_CPA_SCOPE",
+      "to": "R16CPA",
+      "kind": "hypothesis"
+    },
+    {
+      "from": "D1",
+      "to": "R16CPA",
+      "kind": "context"
+    },
+    {
+      "from": "R6",
+      "to": "R16CPA",
+      "kind": "context"
+    },
+    {
+      "from": "R8",
+      "to": "R16CPA",
+      "kind": "context"
+    },
+    {
+      "from": "R9FST",
+      "to": "R16CPA",
+      "kind": "context"
+    },
+    {
+      "from": "R16FCW",
+      "to": "R16CPA",
+      "kind": "context"
+    },
+    {
+      "from": "R16CPW",
+      "to": "R16CPA",
+      "kind": "context"
+    },
+    {
+      "from": "R16FCL",
+      "to": "R16CPA",
+      "kind": "context"
+    },
+    {
+      "from": "R16CCW",
+      "to": "R16CPA",
+      "kind": "context"
+    },
+    {
+      "from": "R16PDA",
+      "to": "R16CPA",
+      "kind": "context"
+    },
+    {
+      "from": "O_FCW_ADMISSION",
+      "to": "R16CPA",
+      "kind": "open_boundary"
+    },
+    {
+      "from": "R16CPA",
+      "to": "R18",
+      "kind": "context"
     }
   ],
   "sources_sha256": {
@@ -4191,7 +4282,11 @@
     "udt_completion_connection_whiteboard_2026-10-03/WORK_ORDER.md": "b49e17b9260215bb803d13e2d3e30ef9b81d9acd15bb38d132bb07d3010e4549",
     "udt_prepared_distance_attachment_2026-10-04/INITIAL_CANDIDATE.md": "ac895bd3e9b7691ef94eef15274484a10d6883bba962e46b18ae35c91c2d7453",
     "udt_prepared_distance_attachment_2026-10-04/REVIEWED_RESULT.md": "a1ca1aed2fd69e3e1b52f966a52e7101518ec4128088a9c3e52d3d7580619518",
-    "udt_prepared_distance_attachment_2026-10-04/WORK_ORDER.md": "2e2b21c6689eeab5973b00cd1ee57c6a5644a9a639b8b8e718d119af2eb87b73"
+    "udt_prepared_distance_attachment_2026-10-04/WORK_ORDER.md": "2e2b21c6689eeab5973b00cd1ee57c6a5644a9a639b8b8e718d119af2eb87b73",
+    "udt_completion_progress_audit_2026-10-04/INITIAL_AUDIT.md": "3c876454512741a3de858cfc6837ed5ead0924660746eca55b76793c18f9ba9a",
+    "udt_completion_progress_audit_2026-10-04/REVIEWED_RESULT.md": "824ea101346b3c30161e2001f4a745501149c95245b9f233a3cb087cdb641154",
+    "udt_completion_progress_audit_2026-10-04/WORK_ORDER.md": "b942fb6216947cfdeafb8284970e02360efbcf864bac17578a30297f09232fb1",
+    "udt_completion_progress_audit_2026-10-04/SOURCE_CHECK_ADDENDUM.md": "6e07b9135f92b368b4ed4abd0face82567fb73b7f4ee701603a4439cadec7b12"
   },
   "impact_policy": "Any changed source or registry row flags its mapped positive and negative central arguments and every reachable central descendant for review; no automatic truth reversal or regrading.",
   "review_support": [
@@ -6333,6 +6428,90 @@
         "C_PDA_PREPARATION",
         "C_PDA_ENDPOINT",
         "C_PDA_TRANSVERSE"
+      ]
+    },
+    {
+      "path": "udt_completion_progress_audit_2026-10-04/review_math/EXPOSED_REVIEW.md",
+      "sha256": "bd6e6cd45c315c2dd8f9acb2dded93e9e478b9436315527dbd5c551354e7ef0e",
+      "role": "review_evidence",
+      "targets": [
+        "D1",
+        "R6",
+        "R8",
+        "R9FST",
+        "R16FCW",
+        "R16CPW",
+        "R16FCL",
+        "R16CCW",
+        "R16PDA",
+        "R16CPA",
+        "R18",
+        "O_FCW_ADMISSION",
+        "O_CPW_FREECLOCK_LIMIT",
+        "C_CPA_SCOPE"
+      ]
+    },
+    {
+      "path": "udt_completion_progress_audit_2026-10-04/review_fidelity/EXPOSED_REVIEW.md",
+      "sha256": "c07adbbd54606d19b6732582683cbb90744d3cc596a6c8109b6024f1ec114f7d",
+      "role": "review_evidence",
+      "targets": [
+        "D1",
+        "R6",
+        "R8",
+        "R9FST",
+        "R16FCW",
+        "R16CPW",
+        "R16FCL",
+        "R16CCW",
+        "R16PDA",
+        "R16CPA",
+        "R18",
+        "O_FCW_ADMISSION",
+        "O_CPW_FREECLOCK_LIMIT",
+        "C_CPA_SCOPE"
+      ]
+    },
+    {
+      "path": "udt_completion_progress_audit_2026-10-04/DESCENDANT_REVIEW.md",
+      "sha256": "3f250fd7af96573be5b3701caa1701802a471eba2a9dbad6e83a5755bea324f6",
+      "role": "review_evidence",
+      "targets": [
+        "D1",
+        "R6",
+        "R8",
+        "R9FST",
+        "R16FCW",
+        "R16CPW",
+        "R16FCL",
+        "R16CCW",
+        "R16PDA",
+        "R16CPA",
+        "R18",
+        "O_FCW_ADMISSION",
+        "O_CPW_FREECLOCK_LIMIT",
+        "C_CPA_SCOPE"
+      ]
+    },
+    {
+      "path": "udt_completion_progress_audit_2026-10-04/SOURCE_CHECK_SEAL.json",
+      "sha256": "2903ad4559ecee9432fcf0516e42c2823a75f4cc300b8a1b4e4ead177cb48fee",
+      "role": "review_evidence",
+      "targets": [
+        "D1",
+        "R6",
+        "R8",
+        "R9FST",
+        "R16FCW",
+        "R16CPW",
+        "R16FCL",
+        "R16CCW",
+        "R16PDA",
+        "R16CPA",
+        "R18",
+        "O_FCW_ADMISSION",
+        "O_CPW_FREECLOCK_LIMIT",
+        "C_CPA_SCOPE"
       ]
     }
   ]

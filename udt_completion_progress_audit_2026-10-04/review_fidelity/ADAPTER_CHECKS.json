@@ -1,0 +1,12 @@
+{
+  "adapter_replacements": 4,
+  "all_replaced_strings_occur_once": true,
+  "base_engine_sha256": "d6b0fec3f680fda86c7a223750dd7b6bc6833112441039cfa28f32a5dc8f49c9",
+  "base_engine_expected_sha256": "d6b0fec3f680fda86c7a223750dd7b6bc6833112441039cfa28f32a5dc8f49c9",
+  "adapter_has_no_verdict_generation": true,
+  "branch": "grok",
+  "head": "c0c6ce8fdc889a58581feb8847210ccbd695e484",
+  "origin_reference": "c0c6ce8fdc889a58581feb8847210ccbd695e484",
+  "base_engine_pin_matches": true,
+  "expanded_engine_compiles_without_execution": true
+}

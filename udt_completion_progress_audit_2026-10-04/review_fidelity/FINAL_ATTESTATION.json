@@ -1,24 +1,11 @@
 {
-  "status": "REVIEWED_WITH_LIMITS",
-  "utc": "2026-10-04T16:07:49.918102+00:00",
-  "scope": "CPA1 source-relative progress audit of FCL/CCW/PDA and the FCW/CPW trial ancestry: real conditional mathematical gains, unchanged native RG admission and additional-effect attribution. RG UNADOPTED; no source regrade, new premise, universal insufficiency/GR-equivalence theorem or selected successor. Retain tools and discuss redirecting physical work to a named implication/concrete use. Original audit preserved; source-precision addendum; two fresh source-first/exposed/final contexts.",
-  "independence": "Two fresh source-first/exposed/final contexts audited sources and independently recomputed load-bearing algebra by hand after old-proof/verdict exposure, before parent audit exposure. Parent audit frozen before new reviewer arguments. No new scientific program, prior-script replay, different-model, independent-code, human, formal, empirical or literature-priority review. No blocking scientific defect; nonblocking smooth/C2-to-C3 provenance clarification retained separately.",
-  "freeze": "udt_completion_progress_audit_2026-10-04/INTEGRATION_FREEZE.json",
+  "utc": "2026-10-04T16:07:27.662509+00:00",
+  "context": "/root/cpa_fidelity",
+  "verdict": "ACCEPT_WITH_LIMITS",
+  "report_path": "udt_completion_progress_audit_2026-10-04/review_fidelity/FINAL_REVIEW.md",
+  "report_sha256": "f6b57ce0ffcf6f6aed39f9e1cfc8592cfafbc2c0a5a666ecd22e251565047d09",
+  "freeze_path": "udt_completion_progress_audit_2026-10-04/INTEGRATION_FREEZE.json",
   "freeze_sha256": "edc7e88d0e344d0d9b3b3a7c043f17f44ac73eccfe6e5b08d5d244b03fdd53b9",
-  "prior_review_record": "udt_completion_progress_audit_2026-10-04/PRIOR_REVIEW_RECORD.json",
-  "prior_review_record_sha256": "772c4409e6051447a7b7731ca7232b4060c812294ef897fa1cb70fa5517946f2",
-  "reviewers": [
-    {
-      "context": "/root/cpa_math",
-      "attestation": "udt_completion_progress_audit_2026-10-04/review_math/FINAL_ATTESTATION.json",
-      "sha256": "0b6dff118b73de3cc4c3a2eb8f71fc0949840eb37e77fd17e77f290e825b1b14"
-    },
-    {
-      "context": "/root/cpa_fidelity",
-      "attestation": "udt_completion_progress_audit_2026-10-04/review_fidelity/FINAL_ATTESTATION.json",
-      "sha256": "3c945ed00525b3f38dd4825ab7c31d53b2fa846bebf57a0ffba53491ef4efd3e"
-    }
-  ],
   "accepted_sha256": {
     ".gitignore": "8a2710f5923ba86b41a461e040282ecd520ce155cb17b09458e1d1d613ddeb7a",
     "AGENTS.md": "bcab9b67305e0314af9eaf25162d203660eae8f2ff4fd87d17e83588970ef38d",
@@ -13512,5 +13499,21 @@
     "udt_time_live_smoke_gate_2026-09-30/smoke_runner.py": "724bf5405dd9596bff343a0a6967393d26a0a0c7529124e9a0bfdd70e569d52f",
     "verify_current_scientific_premises.py": "a983c2456ce3a122629a116c735b32b96e055829ed3012fb416fabfa9b0b8127",
     "verify_udt_development.py": "555e2733fa04c609874802369983f73b4a1d8a79610488d9dc732b1acfb0c2fa"
-  }
+  },
+  "scope": "Actual source-relative CPA1 progress-audit integration fidelity review; conditional gains preserved, RG unadopted, no native selector/attribution/scale adoption or whole-postulate insufficiency claim. Full accepted map byte correspondence checked after protected-path guard. Normal/full406/banking remain later parent gates.",
+  "model": "Inherited Codex GPT-6 runtime; exact variant not exposed; no different-model/human/formal/empirical review",
+  "exposure": "Old source proofs/verdicts before own sealed source-first; parent audit after that seal; final integration now; sibling prose unread, hashes only as opaque accepted artifacts.",
+  "checks_path": "udt_completion_progress_audit_2026-10-04/review_fidelity/FINAL_CHECKS.json",
+  "checks_sha256": "1411408a9d44600ace9cedc1abefca7a52916a624c626b5f53873076c9061000",
+  "adapter_checks_path": "udt_completion_progress_audit_2026-10-04/review_fidelity/ADAPTER_CHECKS.json",
+  "adapter_checks_sha256": "0a4665eba32d307123c28936bf233a3af514d4deeb8dad4ff51ee94d9487380a",
+  "scientific_program_runs": 0,
+  "blocking_defects": [],
+  "omissions": [
+    "no scientific source-program replay",
+    "no broad corpus or literature-priority audit",
+    "no different-model human formal or empirical review",
+    "no protected payload inspection",
+    "normal/full406 and banking not yet complete at attestation"
+  ]
 }

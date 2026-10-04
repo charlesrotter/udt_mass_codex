@@ -1,0 +1,48 @@
+{
+  "utc": "2026-10-04T16:04:48.282315+00:00",
+  "freeze_sha256": "edc7e88d0e344d0d9b3b3a7c043f17f44ac73eccfe6e5b08d5d244b03fdd53b9",
+  "accepted_count": 13492,
+  "all_match": true,
+  "protected_paths_guarded_before_accepted_payload_reads": true,
+  "protected_entries": 0,
+  "symlink_entries": 0,
+  "preserved_baseline_untracked_excluded": 76,
+  "inherited_count": 13462,
+  "changed_inherited": [
+    "CURRENT_RESEARCH_PROGRAM.md",
+    "HANDOFF.md",
+    "LIVE.md",
+    "UDT_DEVELOPMENT.md",
+    "development_reconstruction_2026-09-29/DEVELOPMENT_GRAPH.json",
+    "development_reconstruction_2026-09-29/RECENT_DISPOSITIONS.tsv"
+  ],
+  "current_branch": "grok",
+  "current_head": "c0c6ce8fdc889a58581feb8847210ccbd695e484",
+  "fcl_engine_pin_match": true,
+  "adapter_replacements": 4,
+  "transformed_adapter_parses": true,
+  "receipt_checks": {
+    "draft_coherence": {
+      "returncode": 0,
+      "duration_seconds": 0.07808467000722885,
+      "streams_match": true,
+      "command": [
+        "python3",
+        "verify_udt_development.py",
+        "--draft"
+      ]
+    },
+    "final_maintenance": {
+      "returncode": 0,
+      "duration_seconds": 1.3670734430197626,
+      "streams_match": true,
+      "command": [
+        "python3",
+        "development_reconstruction_2026-09-29/checks/test_maintenance.py"
+      ]
+    }
+  },
+  "registry_selected_fields_match": true,
+  "sibling_reports": "hash correspondence only; arguments not read",
+  "claim_limit": "Artifact correspondence and scoped integration checks; no all-source semantic review or scientific rerun."
+}

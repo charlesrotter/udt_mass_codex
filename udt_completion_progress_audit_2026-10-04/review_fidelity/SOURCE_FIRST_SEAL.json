@@ -1,0 +1,25 @@
+{
+  "utc": "2026-10-04T15:51:26.544078+00:00",
+  "stage": "SOURCE_FIRST_BEFORE_CPA1_CANDIDATE_EXPOSURE",
+  "context": "/root/cpa_fidelity",
+  "model": "Inherited Codex GPT-6 runtime; exact variant not exposed; no override or different-model claim",
+  "source_first_sha256": "699363f594e1b6ded0c755ec0a79f3d21651cafcea317acea04287cf0247ba0b",
+  "source_versions_sha256": "254d0a8031eaa70d0f5cd6bc9350ecc609fdeb8f60eb6d8183888a22aed47dd4",
+  "candidate_exposure": false,
+  "sibling_argument_exposure": false,
+  "old_source_proof_and_verdict_exposure": true,
+  "scientific_program_runs": 0,
+  "hand_checks": [
+    "conformal geodesic damping equation and norm estimate",
+    "conformal scalar coefficient/sign",
+    "source-gap chain rule/residue",
+    "PDA implicit incidence derivative",
+    "bounded noncrossing degeneracy and distance exponent"
+  ],
+  "attributed_startup": "Parent normal/57maintenance/full406 PASS410.991854903s; not rerun by reviewer",
+  "limitations": [
+    "no different-model, human, formal or empirical review",
+    "no full source-program replay",
+    "no broad corpus or complete-postulate theorem"
+  ]
+}

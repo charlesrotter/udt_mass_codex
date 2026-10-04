@@ -1,0 +1,37 @@
+{
+  "utc": "2026-10-04T15:52:10.256625+00:00",
+  "purpose": "Narrow registry scope cross-check after candidate freeze, not a new scientific calculation or grade change",
+  "source": "CURRENT_SCIENTIFIC_PREMISES.tsv",
+  "sha256": "7a3d69d5a0bc3ac98e2ebe2bb0c6d029df30071bf403baffed2223a193dc720b",
+  "selected_fields": [
+    {
+      "premise_id": "G312",
+      "epistemic_label": "MIXED",
+      "active_use": "CURRENT_GR_FILTER_ONLY_NOT_RESPONSE_LAW_INPUT__LOCAL_METRIC_SUFFICIENCY_AFFIRMED_OWNER_PROVISIONAL__G312_CLASS_MEMBERSHIP_ROUTE_UNCLOSED_UNDER_FILTER_ONLY_GR__REVIEWED_G301_TRACEFREE_RICCI_MATHEMATICS_CONDITIONAL",
+      "open_scope": "independent response-class membership route under filter-only GR; comparison-filter domain and survivor rule not specified by this reconciliation; covariant extension beyond the registered regular local smooth metric-only scale-free vacuum arena; derivative-order ownership outside existing gates; scalar curvature magnitude and sign; lawful data; topology and boundary completion; global bootstrap or admissibility law; realized history; pair and query population; source action matter mass observation scale and physical Xmax",
+      "controlling_source": "udt_g312_quiet_gr_response_constitution_discriminator_2026-09-01/AUDIT_REPORT.md"
+    },
+    {
+      "premise_id": "G310",
+      "epistemic_label": "MIXED",
+      "active_use": "ACTIVE_BOUNDED_LOCAL_FOUR_DIMENSIONAL_ALL_PAIR_DIFFERENTIAL_RECIPROCITY_PROVISIONAL_POSTULATE_AND_CONDITIONAL_SUFFICIENCY_THEOREM_INSIDE_G301_RESPONSE_CLASS_ONLY",
+      "open_scope": "covariant extension beyond the bounded conditional G301 arena; canonization; whether all algebraically admissible planes are physically populated; validity of G301 locality metric-only order and response typing; scalar curvature magnitude and sign outside bounded downstream controls; realized global history; source matter mass population observation scale and physical Xmax; higher-order nonlocal auxiliary parity-odd and singular sectors",
+      "controlling_source": "udt_g310_differential_dual_reciprocity_tracefree_ownership_2026-08-31/AUDIT_REPORT.md"
+    },
+    {
+      "premise_id": "G220",
+      "epistemic_label": "MIXED",
+      "active_use": "ACTIVE_BOUNDED_COVARIANT_CLOCK_SLOPE_ON_ONE_SUPPLIED_REGULAR_NULL_BRANCH_AND_EXACT_TIME_ONLY_TRIANGULAR_BASE_CONTROL_ONLY",
+      "open_scope": "physical or founding ownership of null or another correspondence protocol; observer and branch population; cuts conjugacy caustics multiple images and singular strata; full pair-plane realization; angular screen shape base-screen mixing transverse Jacobi and complete coframe time-live lift; global metric profile history and completion; Xmax transfer observation action source matter bootstrap mass and signalling",
+      "controlling_source": "udt_g220_covariant_null_clock_arrow_timelive_lift_2026-08-22/AUDIT_REPORT.md"
+    },
+    {
+      "premise_id": "G176",
+      "epistemic_label": "MIXED",
+      "active_use": "ACTIVE_GENERIC_LOCAL_REGULAR_COMPLETED_PHYSICAL_UDT_RECIPROCAL_PAIR_NORMALIZATION_AND_BOUNDED_G173_STATIC_SPECIALIZATION_ONLY",
+      "open_scope": "which observer events and pair germs are physically realized; complete nonspherical timelive micro and ambient history ownership beyond supplied pullback; coincidence null degenerate singular cut focal topology-changing and global strata; non-scalar screen orientation connection Jacobi and holonomy transport; cross-query and global relation population; positive dimensionful separation numerical Xmax and global completion; observations radiative transfer dynamics action source matter bootstrap mass and signalling",
+      "controlling_source": "udt_g176_completed_pair_dual_reciprocity_consolidation_2026-08-19/AUDIT_REPORT.md"
+    }
+  ],
+  "result": "Consistent with current G312 authority qualification and candidate limits; original registry untouched"
+}
