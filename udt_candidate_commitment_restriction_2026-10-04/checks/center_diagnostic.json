@@ -1,0 +1,19 @@
+{
+  "command": [
+    "python3",
+    "udt_candidate_commitment_restriction_2026-10-04/diagnose_centers.py"
+  ],
+  "cwd": "/home/udt-admin/udt_mass_codex",
+  "started_utc": "2026-10-04T23:09:17.288548+00:00",
+  "duration_seconds": 0.7628370649181306,
+  "returncode": 1,
+  "wall_timeout_seconds": null,
+  "cpu_timeout_seconds": null,
+  "address_space_bytes": 2147483648,
+  "memory_scope": "Process virtual address limit",
+  "maxrss_kib": 55808,
+  "forwarded_signals": [],
+  "stdout_sha256": "d49824b9f18b2bc1d9d799c5e7e24b026757244fbf4c520a8ab2862ff7489c83",
+  "stderr_sha256": "b79ce83f3e65c128bf7510c248c10f299dd513f2e1ddb54c6a59364cd79fb4fc",
+  "capture_sha256": "217cdbac5486e8a531552f4d74a15ce641299b65dafb5d58f7b60f4ba51781bc"
+}

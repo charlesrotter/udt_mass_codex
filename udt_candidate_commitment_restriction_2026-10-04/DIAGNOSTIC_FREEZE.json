@@ -1,0 +1,9 @@
+{
+  "utc": "2026-10-04T23:08:51.551790+00:00",
+  "question": "locate first70digit original-residual failure; no relaxation",
+  "scope": "E1 R1000 central then at most4neighbor incidences, same unchanged equations/stop/test",
+  "sha256": {
+    "udt_candidate_commitment_restriction_2026-10-04/INITIAL_CHECK.py": "bf5b1cbcfbeee944bbc8154d19ca3cd52f7e8461757df2d179f8667b7e443c65",
+    "udt_candidate_commitment_restriction_2026-10-04/diagnose_check.py": "0928e446f7110595895f257c11d47772a3079b83f21563118482dad335ae74ce"
+  }
+}

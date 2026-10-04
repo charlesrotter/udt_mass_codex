@@ -1,0 +1,20 @@
+{
+  "manifest_sha256": "19984bd92b3fd2f2a2d46ee5a258a111b0dffbdac553848c2a37c837228b0b35",
+  "accepted_files": 14188,
+  "bytes_hashed": 2322997734,
+  "elapsed_seconds": 1.2322901310399175,
+  "missing_or_mismatched": [],
+  "protected_prefix_and_baseline_untracked_overlap": false,
+  "generated_program_exact": true,
+  "changed_inherited": [
+    "CURRENT_RESEARCH_PROGRAM.md",
+    "HANDOFF.md",
+    "LIVE.md",
+    "UDT_DEVELOPMENT.md",
+    "development_reconstruction_2026-09-29/DEVELOPMENT_GRAPH.json",
+    "development_reconstruction_2026-09-29/RECENT_DISPOSITIONS.tsv"
+  ],
+  "base_head": "a8ddc1aff24a669a90a0d33f1e8e43dff28f18a3",
+  "full406_status": "pending; not run by this reviewer",
+  "verdict": "PASS_BYTE_CORRESPONDENCE_NOT_SCIENTIFIC_REPROOF"
+}

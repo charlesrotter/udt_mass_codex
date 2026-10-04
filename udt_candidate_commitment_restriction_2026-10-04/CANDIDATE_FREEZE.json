@@ -1,0 +1,10 @@
+{
+  "utc": "2026-10-04T23:08:02.484889+00:00",
+  "execution_state": "before first parent execution; mathematical discovery and reviewer preliminary exposure disclosed",
+  "sha256": {
+    "udt_candidate_commitment_restriction_2026-10-04/WORK_ORDER.md": "5772cb5a7a873fcb415e7081c5e2a425c3f0cdd13ac96f4bad7877843d060b1c",
+    "udt_candidate_commitment_restriction_2026-10-04/INITIAL_CANDIDATE.md": "108f8bf7a12f2243826a1484cbb11968c838dd956ea9112258d657a51ba195bb",
+    "udt_candidate_commitment_restriction_2026-10-04/NUMERICAL_FREEZE.md": "90babb60fbee8f5775f54dbcf1186c9c5d688b2fb2b9aed6e1d56109bba9891c",
+    "udt_candidate_commitment_restriction_2026-10-04/check_restriction.py": "bf5b1cbcfbeee944bbc8154d19ca3cd52f7e8461757df2d179f8667b7e443c65"
+  }
+}

@@ -5,7 +5,7 @@ This bounded startup view is generated from its opening; edit that source.
 LIVE.md owns operational status; CURRENT_SCIENTIFIC_PREMISES.tsv owns exact grades.
 
 <!-- GENERATED_DEVELOPMENT_BEGIN -->
-**Current development — CGE1 restricted conditional source/clock geometry reviewed,
+**Current development — CPR1 existing-commitment restriction audit reviewed,
 2026-10-04.** This is the sole maintained scientific argument. The exact registry
 and reviewed sources own grades; LIVE owns operational status. Review bindings
 are in section9. Historical results remain in the chapters below, not this startup view.
@@ -39,37 +39,39 @@ Finite null-patch results distinguish multiplicity-counted sheet area from
 geometric endpoint image-union; the latter requires global preimage identification.
 These geometric results do not identify physical light, brightness or carried content.
 
-**Current learning.** CGE1 constructs one restricted candidate for ACP1's
-astronomical interface: a static spherical exterior in the already conditional
-Ric=Lambda g class, with actual circular test clocks, a free radial receiver
-and connecting null signals. The metric determines their motion, received
-frequency and finite in-plane sky direction together. No independent Z(D)
-profile is appended. This is standard Kottler geometry reconstructed within
-an explicit conditional branch, not a native UDT field-law derivation or fit.
+**Current learning.** CPR1 tests the conditional CGE1 geometry against the
+existing asymptotic slowing and tested-regime recovery commitments. For its
+fixed circular source and one fixed finite-energy outgoing receiver, received
+slowing stays bounded in the static region, even at its chart horizon. The
+smooth outward extension can produce unbounded slowing with positive Lambda,
+an escaping receiver and regular connecting signals. Zero or negative Lambda
+cannot give that same unbounded-outward mechanism.
 
-The construction uses regular finite-radius source clocks. It does not supply
-a matter interior, self-gravitating disk, actual CGCG environment, full2D image
-map or source-data reduction. Its parameters and receiver preparation remain
-supplied. One radial spectral ratio can be held fixed while changing Lambda
-and the receiver preparation; the full angular/time records are not proved
-degenerate. Identical geometry and physically matched GR queries give identical
-observations. The native physical selection and additional positional effect
-therefore remain open, rather than being claimed from numerical agreement.
+This is a conditional restriction on a concrete realization. Emission approaches
+a finite limiting time while receiver proper time tends to infinity; areal r
+is not automatically physical observer separation or finite X_max. No current
+argument attaches this reception-horizon limit to UDT's additional positional
+effect. Identical geometry and physically matched GR queries still give the
+same records. A proper orbital-rate comparison supplies a conditional recovery
+bound once its matching and tolerance are specified, with no empirical value
+invented. Angular cancellation supplies no Lambda selection here. DDR inside
+R10 remains conditional; locality alone does not fix its physical response.
 
-Original4D metric/geodesic checks and actual-arrival comparisons pass for the
-frozen finite examples. Two fresh same-model contexts independently reconstructed
-the argument and checked saved quantities by different numerical methods. An
-extra division in the initial checking code failed the drift test; its exact
-repair, original failure and unchanged candidate/tolerances are preserved.
-These are bounded mathematical/numerical checks, not empirical confirmation.
-Actual final attestations and normal/maintenance/full406 receipts own closure.
+Two actual fresh contexts checked sources, algebra, original curvature and
+actual clock incidences independently. Original-equation and bounded finite
+checks pass. A too-loose root stopping condition was caught by the original
+incidence residual; its tightened repair, unchanged acceptance tolerances and
+reduced sampling are preserved. This is a reviewed conditional consequence,
+not native field-law selection or empirical confirmation. Actual final review
+bindings and normal/maintenance/full406 receipts own closure.
 
-After orientation read R8CGE, R10 and R18. The next scientific gate is physical
-discrimination of the conditional family using existing UDT commitments and an
-operationally matched additional-effect comparison. No theorem of whole-postulate
-insufficiency or need for a new postulate follows. Full astronomical source/map/
-data requirements remain distinct. Stop for lay discussion; no automatic fit,
-large solve, conditional-class adoption or parked/protected program restart.
+After orientation read R8CPR, R9/R10 as needed, and R18. The next gate is the
+operational attachment: does the additional positional asymptote correspond
+to this fixed-history limit, or require another physical comparison? Derive
+the attachment from existing commitments or leave it open; no new premise is
+declared necessary. Full astronomical source/map/data gates remain distinct.
+Stop for lay discussion; no automatic fit, large solve, conditional-class
+adoption or parked/protected program restart.
 <!-- GENERATED_DEVELOPMENT_END -->
 
 ## Current next gate

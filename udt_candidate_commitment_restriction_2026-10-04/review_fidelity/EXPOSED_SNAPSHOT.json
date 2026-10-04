@@ -1,0 +1,14 @@
+{
+  "utc": "2026-10-04T23:07:38.797584+00:00",
+  "source_first_seal_verified": true,
+  "exposure": "INITIAL_CANDIDATE and WORK_ORDER; no parent numerical code/results or other reviewer report",
+  "sha256": {
+    "udt_candidate_commitment_restriction_2026-10-04/INITIAL_CANDIDATE.md": "108f8bf7a12f2243826a1484cbb11968c838dd956ea9112258d657a51ba195bb",
+    "udt_candidate_commitment_restriction_2026-10-04/WORK_ORDER.md": "5772cb5a7a873fcb415e7081c5e2a425c3f0cdd13ac96f4bad7877843d060b1c",
+    "CURRENT_SCIENTIFIC_PREMISES.tsv": "7a3d69d5a0bc3ac98e2ebe2bb0c6d029df30071bf403baffed2223a193dc720b",
+    "udt_g310_differential_dual_reciprocity_tracefree_ownership_2026-08-31/EXACT_DERIVATION.md": "a417b3cfa1cc6136429a14d3b330c1b8c25c73c9e946d6b6454d6ffae72c25a0",
+    "udt_g311_universal_reciprocity_full_covariant_response_2026-09-01/EXACT_DERIVATION.md": "4fd4ca84d353018c02e32d49cf261de3472b3fafd74b0f268b0960653bdfd307",
+    "udt_g311_universal_reciprocity_full_covariant_response_2026-09-01/AUDIT_REPORT.md": "a411de5e2e40982c4f9c8107bd6d3a598dd55056924d4bc3d39d93f8db89e578",
+    "udt_candidate_commitment_restriction_2026-10-04/review_fidelity/EXPOSED_REVIEW.md": "be4f705ca0bf7cd0221c21962ed2dec627d570fad0ebbef4973e59f14a36d095"
+  }
+}

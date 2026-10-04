@@ -1,0 +1,4 @@
+Original-coordinate symbolic checks PASS
+Finite dps 40 PASS
+Finite dps 70 PASS
+{"status": "PASS", "incidences": 30, "precision_relative_difference": "3.652448443422537118416086830132551209564e-40"}

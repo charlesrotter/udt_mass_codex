@@ -1,0 +1,9 @@
+{
+  "utc": "2026-10-04T23:12:45.753409+00:00",
+  "sha256": {
+    "udt_candidate_commitment_restriction_2026-10-04/review_fidelity/SAVED_RECOMPUTE_FREEZE.md": "25fb3f3fa1dfb4d932ed38dbc07157895c1e9f7b32b3933cb016dca167bf2cc1",
+    "udt_candidate_commitment_restriction_2026-10-04/review_fidelity/recompute_saved.py": "d73bbd6148788121bc9900060db426d34c240472ef19fd95b54f0c83ae2fc4f4",
+    "udt_candidate_commitment_restriction_2026-10-04/CONSTRUCTION_RESULT.json": "86f7c4db492cbc510acbc36f33da8502245258c4bde4b56416ee4c6a93f888c8"
+  },
+  "command": "OPENBLAS_NUM_THREADS=1 OMP_NUM_THREADS=1 MKL_NUM_THREADS=1 python3 udt_candidate_commitment_restriction_2026-10-04/review_fidelity/recompute_saved.py > udt_candidate_commitment_restriction_2026-10-04/review_fidelity/recompute_saved.stdout 2> udt_candidate_commitment_restriction_2026-10-04/review_fidelity/recompute_saved.stderr"
+}

@@ -8937,16 +8937,6 @@
         "C_CPR_RECOVERY",
         "O_CPR_ATTACHMENT"
       ]
-    },
-    {
-      "path": "udt_candidate_commitment_restriction_2026-10-04/INTEGRATION_REPAIR.md",
-      "sha256": "d822097c7b433a653b722f42016509235b8b2eb67623a5fb5a60f21c21cf6c6a",
-      "role": "review_evidence",
-      "targets": [
-        "R8CPR",
-        "C_CPR_REALIZATION",
-        "R18"
-      ]
     }
   ]
 }

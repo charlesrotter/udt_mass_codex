@@ -1,24 +1,13 @@
 {
-  "status": "REVIEWED_WITH_LIMITS",
-  "utc": "2026-10-04T23:22:55.761031+00:00",
-  "scope": "CPR1 existing-commitment audit of conditional CGE1: bounded static received ratio, regular outward-extension divergent clock limit requiring positive Lambda for the specified escaping fixed-history realization, proper-orbital recovery inequality, angular/DDR scope. Physical attachment to additional positional separation/X_max and native response admission OPEN; no fit, new premise or adoption",
-  "independence": "Two actual fresh same-model source-first/exposed/final contexts; parent preliminary formula exposure disclosed. Independent original-coordinate curvature, actual nonradial incidence, proper-recovery and source-fidelity checks. Parent root stopping defect preserved and tightened without acceptance relaxation; reduced coverage and reviewer early-branch failure/arithmetic-summary correction retained. Independent saved-endpoint and neighbor recomputation. No human, different-model, interval, whole-corpus or empirical confirmation",
-  "freeze": "udt_candidate_commitment_restriction_2026-10-04/INTEGRATION_FREEZE.json",
+  "utc": "2026-10-04T23:21:53.497293+00:00",
+  "context": "/root/cpr_fidelity",
+  "verdict": "ACCEPT_WITH_LIMITS",
+  "scope": "Actual final fidelity and exact-map review of repaired CPR1 conditional restriction integration; 14188 files checked for byte correspondence, not whole-corpus semantic reproof. No native adoption or physical attachment, empirical bound, canon claim, or predeclared banking completion.",
+  "exposure": "Actual separate source-first context sealed before parent candidate/code/results; later exposed argument, numerical code/outputs and independent original-radius saved-state checks. Final central/graph/records review includes other reviewer numerical report/correction and actual orientation repair. Same inherited Codex model; exact runtime identifier unauthenticated, no different-model/human-review claim.",
+  "freeze_path": "udt_candidate_commitment_restriction_2026-10-04/INTEGRATION_FREEZE.json",
   "freeze_sha256": "19984bd92b3fd2f2a2d46ee5a258a111b0dffbdac553848c2a37c837228b0b35",
-  "prior_review_record": "udt_candidate_commitment_restriction_2026-10-04/PRIOR_REVIEW_RECORD.json",
-  "prior_review_record_sha256": "279802bdbe9d75bec1016021df233ff937d496b3db6c59620fdd5ff19af44459",
-  "reviewers": [
-    {
-      "context": "/root/cpr_math",
-      "attestation": "udt_candidate_commitment_restriction_2026-10-04/review_math/FINAL_ATTESTATION.json",
-      "sha256": "23d97e1d00979272fe708d15654b96c1ea3b996d993c40cdd67e2299d2dc008d"
-    },
-    {
-      "context": "/root/cpr_fidelity",
-      "attestation": "udt_candidate_commitment_restriction_2026-10-04/review_fidelity/FINAL_ATTESTATION.json",
-      "sha256": "0e3a8d0a8c2b9d0ae4bebfe749459e78780162e5156b42acfd0d1f701cc23d9a"
-    }
-  ],
+  "report_path": "udt_candidate_commitment_restriction_2026-10-04/review_fidelity/FINAL_REVIEW.md",
+  "report_sha256": "483e948137a9152f67c5eda2cc3214c452a3427a7f5b1f07e420eb33832130e2",
   "accepted_sha256": {
     ".gitignore": "8a2710f5923ba86b41a461e040282ecd520ce155cb17b09458e1d1d613ddeb7a",
     "AGENTS.md": "bcab9b67305e0314af9eaf25162d203660eae8f2ff4fd87d17e83588970ef38d",

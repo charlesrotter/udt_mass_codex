@@ -1,0 +1,22 @@
+{
+  "utc": "2026-10-04T23:03:01.151074+00:00",
+  "phase": "SOURCE_FIRST_SEALED_before_CPR1_parent_candidate_code_output_exposure",
+  "fresh_context": true,
+  "different_model": "not attested",
+  "independent_implementation": true,
+  "shared_scientific_sources": true,
+  "files": {
+    "SOURCE_FIRST.md": "1371607aed492d020116cb2ea959c0ef42a3523bd7d836afa1fbec6e50a55f5e",
+    "NUMERICAL_FREEZE.json": "6f6ecbf352860e1380236d814199cbc1ba840a7da772b5c63a3f8e62231ad68a",
+    "independent_check.py": "49ade8de2c7598a40b48b5042397aafc29f015c5552b0614c854506e73a17929",
+    "NUMERICAL_REPAIR.md": "134bddf36fcfd15805f6432df43dd7cfe5d2b29fa7b3b4b3b6ca22168706642a",
+    "REPAIR_FREEZE.json": "45446917f3f5c97a501f4f568bc09c16e45955ab073dab1b8432ba5b48007a51",
+    "initial_results.json": "c3f10568c2f316f3befb062298c0a1f350000f40cb2764d8b89a14045d1b4571",
+    "initial_stdout.txt": "df62bafc7bb6260ba14b912da42cb48885a111d16892f2916c0b935cfe3b5ac6",
+    "initial_stderr.txt": "e37c057ea107b9d3538e9e0020cda08a1af651cfb8f0cdb875ee2b8639683d69",
+    "results.json": "c344bb539152d659933596e5033d0ac077ba15ff769fb0cb09593734612f4ba1",
+    "stdout.txt": "293e5de734d94def045f024537bdebede47fb2cb4f6a732e858cbf141bdcb9bf",
+    "stderr.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "EXECUTION_RECORD.md": "7fc307d4d07afb1948baf0cf8c8ce4862d0a1b799d073813fe9eeed22520a7fa"
+  }
+}

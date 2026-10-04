@@ -1,0 +1,24 @@
+{
+  "status": "PASS",
+  "freeze_sha256": "19984bd92b3fd2f2a2d46ee5a258a111b0dffbdac553848c2a37c837228b0b35",
+  "accepted_count": 14188,
+  "inherited_count": 14088,
+  "changed_inherited": [
+    "CURRENT_RESEARCH_PROGRAM.md",
+    "HANDOFF.md",
+    "LIVE.md",
+    "UDT_DEVELOPMENT.md",
+    "development_reconstruction_2026-09-29/DEVELOPMENT_GRAPH.json",
+    "development_reconstruction_2026-09-29/RECENT_DISPOSITIONS.tsv"
+  ],
+  "hashed_bytes": 2322997734,
+  "mismatches": [],
+  "program_generated_exactly": true,
+  "graph_source_and_review_support_pins_match": true,
+  "separately_checked_graph_pin_count": 85,
+  "initial_candidate_unchanged": true,
+  "review_numerical_summary_correction_pinned": true,
+  "protected_and_baseline_local_payloads_excluded": true,
+  "duration_seconds": 1.2172000408172607,
+  "meaning": "Exact file correspondence and bounded routing checks; not full-corpus semantic review, chronology proof or full406 result."
+}

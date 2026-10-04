@@ -1,0 +1,24 @@
+{
+  "role": "source versions before central integration; sources remain unchanged",
+  "sha256": {
+    "AGENTS.md": "bcab9b67305e0314af9eaf25162d203660eae8f2ff4fd87d17e83588970ef38d",
+    "UDT_DEVELOPMENT.md": "02509982c5217e8da074577f9f8c962ad97fbbdc4883a4838e0b03c2afba82e6",
+    "CURRENT_SCIENTIFIC_PREMISES.md": "6b708f351b478dde0c6a93e8f29de08eae06533ba4fb789f79fd03bda1512718",
+    "CURRENT_SCIENTIFIC_PREMISES.tsv": "7a3d69d5a0bc3ac98e2ebe2bb0c6d029df30071bf403baffed2223a193dc720b",
+    "UDT_RESEARCH_ROADMAP.md": "7511d5d68216399a2912c9339bb83b6453092104981ec472bf4e7582f8b469f0",
+    "founding.md": "b4b0d9a9fdd093c992647195aca7579566a9e77a396071a699c1938888a49e75",
+    "udt_positional_geometry_clock_connection_2026-09-28/OWNER_STATEMENT.md": "6d51ac6e4525dec57f7a9d3f795568410052e20102d9971bca0a4275eef4bee7",
+    "udt_repository_cleanup_2026-09-27/local_clock_impact_2026-09-29/OWNER_CLARIFICATION.md": "bf31a0682bed7060a0eea38035bfd87a0ab2c6bee41406882ae5a4abfc11471b",
+    "udt_shared_geometry_extension_2026-09-29/OWNER_CLARIFICATION.md": "94480181e004a535e0dffd122545310c0aaedfb98d3734c5095c75bfe9ed3f50",
+    "development_reconstruction_2026-09-29/universal_law_clarification_2026-10-01/OWNER_CLARIFICATION.md": "69041b4a2033fd85ff65f113f07ea3ac6a6b06af9a0c07e26a775a33fb3f5a1c",
+    "udt_gr_filter_reconciliation_2026-09-09/AUTHORITY_RECORD.md": "80daa0be6d3e1c0ac1b734fea089c4eb487f05bc1e1fbb2fabd69322ca89f28c",
+    "udt_g201_primary_metric_phi_jet_regime_amplitude_2026-08-21/AUDIT_REPORT.md": "02a072c80b0a9010080da8a6b1330ab8bc5d366aac7271c393e7a98921c6fa2d",
+    "udt_g260_gr_quiet_angular_nondiscard_audit_2026-08-25/AUDIT_REPORT.md": "a28ee2332cf3e14e619c0c332339079605ca81e566d7513b0caa2e29af67d102",
+    "udt_g260_gr_quiet_angular_nondiscard_audit_2026-08-25/EXACT_DERIVATION.md": "de32fc105dfe9cdbc964959a67c46a0eee58f95566b2df4f2ce115c48b6776da",
+    "udt_g163_xmax_dependency_reversal_audit_2026-08-18/AUDIT_REPORT.md": "e7eda779c8496f269a0e94060a5824dd79b2b147af8186277236982ec2708670",
+    "udt_conditional_source_geometry_2026-10-04/INITIAL_CANDIDATE.md": "ce2b962bbf47e09dfd120036e1b06f2e6b06f0c18ac1e26766a490830e4fa8c9",
+    "development_reconstruction_2026-09-29/MAINTENANCE.md": "6aefb0450bf83d01620f8a94024df075508165ae1c9fd4185483d1db5a025b41",
+    "udt_time_live_production_survey_2026-10-01/capture.py": "217cdbac5486e8a531552f4d74a15ce641299b65dafb5d58f7b60f4ba51781bc",
+    "udt_free_clock_completion_2026-10-03/close_checkpoint.py": "d6b0fec3f680fda86c7a223750dd7b6bc6833112441039cfa28f32a5dc8f49c9"
+  }
+}

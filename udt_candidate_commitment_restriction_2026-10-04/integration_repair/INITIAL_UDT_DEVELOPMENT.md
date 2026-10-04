@@ -1685,8 +1685,7 @@ regular circular emitter and one outward radial receiver at fixed finite E>0.
 Let m>0, a>3m, h=1-3m/a, Omega²=m/a³-Lambda/3>0, f(a)>0,
 |b|<a/sqrt(f(a)), v=sqrt(E²-f)>0 and s=sqrt(1-fb²/r²)>0.
 Each ray conserves b, which varies between emissions as actual incidence requires.
-The source/receiver preparations remain fixed. Omega>0 fixes orientation, as
-in the source candidate. Define beta=Omega a/sqrt(f(a))<1.
+The source/receiver preparations remain fixed. Define beta=Omega a/sqrt(f(a))<1.
 
 In the static region f>0 the receiver frequency rationalizes to
 

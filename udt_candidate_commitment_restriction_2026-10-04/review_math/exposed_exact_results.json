@@ -1,0 +1,22 @@
+{
+  "status": "PASS",
+  "python": "3.10.12 (main, Aug 31 2026, 10:18:17) [GCC 11.4.0]",
+  "sympy": "1.13.1",
+  "metric": "diagonal original four-dimensional metric; curvature from Christoffels",
+  "nonzero_connection_components": 13,
+  "nonzero_riemann_components": 24,
+  "Ricci": [
+    "Lambda*(Lambda*r**3 + 6*m - 3*r)/(3*r)",
+    "-3*Lambda*r/(Lambda*r**3 + 6*m - 3*r)",
+    "Lambda*r**2",
+    "Lambda*r**2*sin(theta)**2"
+  ],
+  "Kretschmann": "8*Lambda**2/3 + 48*m**2/r**6",
+  "Weyl_squared": "48*m**2/r**6",
+  "native_angular_trace": "0",
+  "DDR_witness_contraction": "-55296*m**4*(Lambda*r**3 + 6*m - 3*r)/r**15",
+  "radial_Vpp": "2*(-4*Lambda*a**4 + 15*Lambda*a**3*m + 3*a*m - 18*m**2)/(3*a**3*(a - 3*m))",
+  "elapsed_seconds": 1.2964987754821777,
+  "peak_rss_KiB": 54104,
+  "code_sha256": "2cca1242003ba5173003ad13d1ba9f4ff038c255d6707ee3bd1ec60c6c58b197"
+}

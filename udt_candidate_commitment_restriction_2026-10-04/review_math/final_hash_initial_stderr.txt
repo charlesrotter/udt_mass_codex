@@ -1,0 +1,4 @@
+Traceback (most recent call last):
+  File "/home/udt-admin/udt_mass_codex/udt_candidate_commitment_restriction_2026-10-04/review_math/verify_integration.py", line 47, in <module>
+    assert accepted[path]==expected,('graph source pin',path)
+KeyError: 'udt_repository_cleanup_2026-09-27/local_clock_impact_2026-09-29/OWNER_CLARIFICATION.md'

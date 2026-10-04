@@ -1,0 +1,8 @@
+{
+  "utc": "2026-10-04T22:59:12.496701+00:00",
+  "sha256": {
+    "FREEZE.md": "80a8a265751b862df5d77ec63306935931c9662da0fcef2a7496b9750443189d",
+    "independent_controls.py": "9c0147807f185e3615af0dca50d846014afd5f842efd3b75c30910e8401fa180"
+  },
+  "command": "OPENBLAS_NUM_THREADS=1 OMP_NUM_THREADS=1 MKL_NUM_THREADS=1 python3 udt_candidate_commitment_restriction_2026-10-04/review_fidelity/independent_controls.py > udt_candidate_commitment_restriction_2026-10-04/review_fidelity/controls.stdout 2> udt_candidate_commitment_restriction_2026-10-04/review_fidelity/controls.stderr"
+}

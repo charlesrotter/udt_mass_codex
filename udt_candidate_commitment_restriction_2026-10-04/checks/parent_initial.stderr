@@ -1,0 +1,8 @@
+Traceback (most recent call last):
+  File "/home/udt-admin/udt_mass_codex/udt_candidate_commitment_restriction_2026-10-04/check_restriction.py", line 123, in <module>
+    result['finite'].append(finite(dps));print('Finite dps',dps,'PASS',flush=True)
+  File "/home/udt-admin/udt_mass_codex/udt_candidate_commitment_restriction_2026-10-04/check_restriction.py", line 100, in finite
+    R=M.mpf(Rs);te,b,Z=incidence(R)
+  File "/home/udt-admin/udt_mass_codex/udt_candidate_commitment_restriction_2026-10-04/check_restriction.py", line 93, in incidence
+    assert residual<M.mpf(10)**(-dps+9)
+AssertionError

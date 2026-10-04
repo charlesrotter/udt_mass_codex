@@ -1,0 +1,14 @@
+{
+  "utc": "2026-10-04T23:01:16.649007+00:00",
+  "exposure": "No parent CPR1 candidate/code/output or other reviewer finding read",
+  "sha256": {
+    "SOURCE_FIRST.md": "85371e7ddbf5f5fdc51c7712debb5f8ce14ee9df46c040b05391744c238f84ad",
+    "SOURCE_SNAPSHOT.json": "fbc5b4321ffa611bef94cc238405cbd13a6b7bfe0a7dbdc86c2b9bb55139de97",
+    "FREEZE.md": "80a8a265751b862df5d77ec63306935931c9662da0fcef2a7496b9750443189d",
+    "CONTROL_FREEZE.json": "9e21301d8c91a188fd660bc7cda6dc2e84dc460bd4a3016108ddeb2f45ab5862",
+    "independent_controls.py": "9c0147807f185e3615af0dca50d846014afd5f842efd3b75c30910e8401fa180",
+    "CONTROL_RESULT.json": "fa34251c7b0fac8fc9cdb3c1091a953fcbc36311fd1f2a54f98bee34661adeb5",
+    "controls.stdout": "81b5c0fad5aa7cff1318df31b37568fcfe4b76d54f0ef9f489635a2d7a465f80",
+    "controls.stderr": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  }
+}

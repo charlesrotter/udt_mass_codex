@@ -1,0 +1,13 @@
+{
+  "utc": "2026-10-04T23:13:05.902605+00:00",
+  "phase": "actual parent code/repair/artifact exposed review; independent saved-quantity recomputation; final integration pending",
+  "files": {
+    "CHECK_REVIEW.md": "bdf66a2b2310ff4747571df74ef6d43071ae586c67241f929d289f23377b96d6",
+    "PARENT_PIN_AUDIT.json": "da9025dcbc2c2bffc8e378656be179494e74296a9d23d58b20eea3f17effdb71",
+    "SAVED_ARTIFACT_FREEZE.json": "8f3c1ec47d75b12d4620ff2b78f36020e917735192a103e892e123485d380900",
+    "saved_artifact_check.py": "8b20c8b1a46028be998593b7c38af865f394a52eacb6d22fd93fa9ff490bce61",
+    "saved_artifact_results.json": "ab35e2dce0a47108ae6391a0d6ee8bd4ed81ce90e766fc096e87da9c6dec42fc",
+    "saved_artifact_stdout.txt": "da1606b4e53acfcc3a5246ba1cc462605988be37e79ad083b3a359bb9190dd85",
+    "saved_artifact_stderr.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  }
+}

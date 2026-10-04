@@ -1,0 +1,20 @@
+{
+  "utc": "2026-10-04T23:02:01.327037+00:00",
+  "radii": [
+    1000,
+    10000,
+    100000,
+    1000000
+  ],
+  "precisions": [
+    40,
+    70
+  ],
+  "files": {
+    "NUMERICAL_REPAIR.md": "134bddf36fcfd15805f6432df43dd7cfe5d2b29fa7b3b4b3b6ca22168706642a",
+    "independent_check.py": "49ade8de2c7598a40b48b5042397aafc29f015c5552b0614c854506e73a17929",
+    "initial_results.json": "c3f10568c2f316f3befb062298c0a1f350000f40cb2764d8b89a14045d1b4571",
+    "initial_stdout.txt": "df62bafc7bb6260ba14b912da42cb48885a111d16892f2916c0b935cfe3b5ac6",
+    "initial_stderr.txt": "e37c057ea107b9d3538e9e0020cda08a1af651cfb8f0cdb875ee2b8639683d69"
+  }
+}

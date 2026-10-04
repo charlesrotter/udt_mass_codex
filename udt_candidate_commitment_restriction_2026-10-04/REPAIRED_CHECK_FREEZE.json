@@ -1,0 +1,11 @@
+{
+  "utc": "2026-10-04T23:10:19.350334+00:00",
+  "execution_state": "before repaired numerical run",
+  "total_parent_attempts_maximum": 95,
+  "successful_repaired_cases": 30,
+  "sha256": {
+    "udt_candidate_commitment_restriction_2026-10-04/check_restriction.py": "d729788ed6779783bf2eba371ce6dde64eb22611695cd2780070336845411518",
+    "udt_candidate_commitment_restriction_2026-10-04/CHECK_REPAIR.md": "c2aa01b8b96fea0cc20d0bb31f1b0cf248e1fc9b2663a7b09c59aba7cd08f376",
+    "udt_candidate_commitment_restriction_2026-10-04/CLARIFICATIONS.md": "3268158af09427ad6ba3cf85e2e0dfe1d88900fc84c2eb442a8f5e3aecc0b3d9"
+  }
+}

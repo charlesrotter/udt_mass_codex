@@ -1,30 +1,27 @@
 # LIVE — operational status
 
 <!-- STARTUP_CURRENT_BEGIN -->
-## CURRENT STATE — CGE1 conditional geometry return, 2026-10-04
+## CURRENT STATE — CPR1 commitment restriction return, 2026-10-04
 
 CDR1 remains the central-development architecture. UDT_DEVELOPMENT.md is the
 sole maintained scientific argument; CURRENT_SCIENTIFIC_PREMISES.tsv and reviewed
 sources own exact grades. CURRENT_RESEARCH_PROGRAM.md is its generated bounded
-orientation. After orientation read R8CGE, R10 and R18; exact older sources only
-when load-bearing.
+orientation. After orientation read R8CPR and R18, with R9/R10 when load-bearing.
 
-After ACP1 atcdc94b5d, Charles authorized the next scientific step. CGE1 evidence
-is in udt_conditional_source_geometry_2026-10-04/; WORK_ORDER owns scope and stops.
-It constructs a restricted conditional exterior/test-clock/null comparison.
-Two actual fresh source-first/exposed/final contexts review the mathematics and
-source/native boundary, with independent ODE and saved-incidence checks. Initial
-checker failure, exact repair and exposure history are retained. Actual final
-attestations, normal/maintenance/full406 receipts and committed/remote byte checks
-own closure. Verify current HEAD, remote, dirt and processes yourself.
+After CGE1 ata8ddc1af, Charles authorized testing existing UDT commitments against
+the candidate. CPR1 evidence is in udt_candidate_commitment_restriction_2026-10-04/;
+WORK_ORDER owns scope/stops. Two actual fresh source-first/exposed/final contexts
+review the argument and independent numerical controls. Failed checks, repairs,
+clarifications and exposure history are retained. Actual final attestations,
+normal/maintenance/full406 receipts and committed/remote byte checks own closure.
+Verify actual HEAD, remote, dirt and processes yourself.
 
-Next: Stop for lay discussion of CGE1. The restricted conditional candidate
-fills part of ACP1's construction gate; it is not a native UDT metric selection,
-full astronomical model, fit or empirical confirmation. R18 owns physical
-selection/additional-effect and distinct source/map/data requirements. No new
-physical premise, registry grade, field law or scale is adopted. No GPU/long
-production or parked/protected campaign restarted. Standing pause, preservation,
-no-timeout/manual-stop and resource rules persist.
+Next: Stop for lay discussion of CPR1's conditional restrictions and the still-open
+physical attachment in R18. No native response class, additional positional effect,
+X_max value or empirical bound has been established. Native/source/map/data gates
+remain distinct. No new premise, registry grade, field law or scale is adopted.
+No GPU/long production or parked/protected campaign restarted. Standing pauses,
+preservation, no-timeout/manual-stop and resource rules persist.
 
 ### Honest claim
 
@@ -57,10 +54,11 @@ Protected: do not inspect, hash, stage, modify, mine or cite payloads without di
 
 ### Next gate
 
-Use central R8CGE/R10/R18 and CGE1's decision brief for the conditional
-construction and next physical-discrimination gate. Actual astronomical
-source/map/data and native selection remain open. Verify final review/check/
-banking evidence. Existing pauses/protected boundaries persist. TPS1 raw fields/
-large streams remain local-only; compact remote records cannot replay them.
+Use central R8CPR/R18 and CPR1's decision brief for the conditional restrictions
+and unresolved physical attachment. R9/R10 retain response/class boundaries.
+Actual astronomical source/map/data and native selection remain open. Verify
+final review/check/banking evidence. Existing pauses/protected boundaries persist.
+TPS1 raw fields/large streams remain local-only; compact remote records cannot
+replay them.
 
 <!-- STARTUP_CURRENT_END -->

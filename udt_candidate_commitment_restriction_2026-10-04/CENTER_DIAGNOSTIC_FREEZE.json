@@ -1,0 +1,5 @@
+{
+  "utc": "2026-10-04T23:09:17.214396+00:00",
+  "scope": "Only frozen eight central70digit cases, stop at original failure, same code/tests; determine original execution count and stopping defect",
+  "code_sha256": "30a63ea110ae23ca31b58fea621901f2a1218e9f8569f884cdff009174069585"
+}

@@ -1,0 +1,13 @@
+{
+  "utc": "2026-10-04T23:07:24.502882+00:00",
+  "phase": "candidate-exposed mathematical review complete; parent controls and final integration not exposed",
+  "files": {
+    "EXPOSED_REVIEW.md": "c0c63817e45173829fc53bd7e3f356fb94a0092008b42550abbb6edbb292e37d",
+    "EXPOSED_EXACT_FREEZE.json": "c57a61f9f194aef43ced372525d9543ff7f9c641a3a74383ba1595e0486c7b9e",
+    "exposed_exact_check.py": "2cca1242003ba5173003ad13d1ba9f4ff038c255d6707ee3bd1ec60c6c58b197",
+    "exposed_exact_results.json": "a145d742f4beb370cbff19c4ebed5f1db6b7005c91d1208955f52b62127c1e26",
+    "exposed_exact_stdout.txt": "a145d742f4beb370cbff19c4ebed5f1db6b7005c91d1208955f52b62127c1e26",
+    "exposed_exact_stderr.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "SOURCE_FIRST_SEAL.json": "cf9549d2e37c700ce4b1bb53205d9ccbd0e4a900174b58398d1859aa94abad2b"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "utc": "2026-10-04T23:06:45.150510+00:00",
+  "phase": "candidate-exposed; exact identities from original metric, no floating cases",
+  "checks": "Ric=Lambda g; Weyl squared; angular amplitudes; DDR witness; exact Vpp; monotone f/r\u00b2. Stop on first nonzero residual; no threshold.",
+  "files": {
+    "udt_candidate_commitment_restriction_2026-10-04/INITIAL_CANDIDATE.md": "108f8bf7a12f2243826a1484cbb11968c838dd956ea9112258d657a51ba195bb",
+    "udt_candidate_commitment_restriction_2026-10-04/WORK_ORDER.md": "5772cb5a7a873fcb415e7081c5e2a425c3f0cdd13ac96f4bad7877843d060b1c",
+    "udt_candidate_commitment_restriction_2026-10-04/review_math/exposed_exact_check.py": "2cca1242003ba5173003ad13d1ba9f4ff038c255d6707ee3bd1ec60c6c58b197",
+    "udt_g260_gr_quiet_angular_nondiscard_audit_2026-08-25/EXACT_DERIVATION.md": "de32fc105dfe9cdbc964959a67c46a0eee58f95566b2df4f2ce115c48b6776da",
+    "udt_g201_primary_metric_phi_jet_regime_amplitude_2026-08-21/EXACT_DERIVATION.md": "8c4361c3e11c7eaece17b7da9b7c47ee372989b99f495a68a1ec87d4a8b31951"
+  }
+}

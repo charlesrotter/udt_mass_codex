@@ -1,0 +1,96 @@
+{
+  "status": "PASS",
+  "checks": [
+    {
+      "freeze": "CANDIDATE_FREEZE.json",
+      "path": "udt_candidate_commitment_restriction_2026-10-04/WORK_ORDER.md",
+      "match": true
+    },
+    {
+      "freeze": "CANDIDATE_FREEZE.json",
+      "path": "udt_candidate_commitment_restriction_2026-10-04/INITIAL_CANDIDATE.md",
+      "match": true
+    },
+    {
+      "freeze": "CANDIDATE_FREEZE.json",
+      "path": "udt_candidate_commitment_restriction_2026-10-04/NUMERICAL_FREEZE.md",
+      "match": true
+    },
+    {
+      "freeze": "CANDIDATE_FREEZE.json",
+      "path": "udt_candidate_commitment_restriction_2026-10-04/INITIAL_CHECK.py",
+      "match": true
+    },
+    {
+      "freeze": "DIAGNOSTIC_FREEZE.json",
+      "path": "udt_candidate_commitment_restriction_2026-10-04/INITIAL_CHECK.py",
+      "match": true
+    },
+    {
+      "freeze": "DIAGNOSTIC_FREEZE.json",
+      "path": "udt_candidate_commitment_restriction_2026-10-04/diagnose_check.py",
+      "match": true
+    },
+    {
+      "freeze": "REPAIRED_CHECK_FREEZE.json",
+      "path": "udt_candidate_commitment_restriction_2026-10-04/check_restriction.py",
+      "match": true
+    },
+    {
+      "freeze": "REPAIRED_CHECK_FREEZE.json",
+      "path": "udt_candidate_commitment_restriction_2026-10-04/CHECK_REPAIR.md",
+      "match": true
+    },
+    {
+      "freeze": "REPAIRED_CHECK_FREEZE.json",
+      "path": "udt_candidate_commitment_restriction_2026-10-04/CLARIFICATIONS.md",
+      "match": true
+    },
+    {
+      "receipt": "parent_initial",
+      "path": "udt_candidate_commitment_restriction_2026-10-04/checks/parent_initial.stdout",
+      "match": true
+    },
+    {
+      "receipt": "parent_initial",
+      "path": "udt_candidate_commitment_restriction_2026-10-04/checks/parent_initial.stderr",
+      "match": true
+    },
+    {
+      "receipt": "check_diagnostic",
+      "path": "udt_candidate_commitment_restriction_2026-10-04/checks/check_diagnostic.stdout",
+      "match": true
+    },
+    {
+      "receipt": "check_diagnostic",
+      "path": "udt_candidate_commitment_restriction_2026-10-04/checks/check_diagnostic.stderr",
+      "match": true
+    },
+    {
+      "receipt": "center_diagnostic",
+      "path": "udt_candidate_commitment_restriction_2026-10-04/checks/center_diagnostic.stdout",
+      "match": true
+    },
+    {
+      "receipt": "center_diagnostic",
+      "path": "udt_candidate_commitment_restriction_2026-10-04/checks/center_diagnostic.stderr",
+      "match": true
+    },
+    {
+      "receipt": "parent_repaired",
+      "path": "udt_candidate_commitment_restriction_2026-10-04/checks/parent_repaired.stdout",
+      "match": true
+    },
+    {
+      "receipt": "parent_repaired",
+      "path": "udt_candidate_commitment_restriction_2026-10-04/checks/parent_repaired.stderr",
+      "match": true
+    },
+    {
+      "freeze": "CENTER_DIAGNOSTIC_FREEZE.json",
+      "path": "udt_candidate_commitment_restriction_2026-10-04/diagnose_centers.py",
+      "match": true
+    }
+  ],
+  "meaning": "Byte correspondence only, not proof of chronology or scientific truth."
+}
