@@ -4972,7 +4972,7 @@
     "udt_first_astronomical_comparison_2026-10-04/WORK_ORDER.md": "b3280023e68a1879dc2f85af8b7a6838a699c2a06db6a23f5d13ae155dae2d38",
     "udt_first_astronomical_comparison_2026-10-04/INITIAL_CANDIDATE.md": "4f477ceaadf4139045b63d6aa8df35c0f2b75c8482062aa87f2a31fc67f9fac4",
     "udt_first_astronomical_comparison_2026-10-04/REPAIR.md": "f87ce290355914367ffaa4b9673ecf4eacbd66922c5e1099a19143337306156e",
-    "udt_first_astronomical_comparison_2026-10-04/COMPARISON_CONTRACT.json": "f4e07f7fb6b18ba2ae1de67e0e9fd0e2bfbc7cc01d2d04e02e9f947ec088717c",
+    "udt_first_astronomical_comparison_2026-10-04/COMPARISON_CONTRACT.json": "3efc658d18f518f1887b2bb79c0c4021727ba7b12924d69dab3d7f4664b18ece",
     "udt_first_astronomical_comparison_2026-10-04/PREMISE_LEDGER.tsv": "b462e787105ae6d2a98f5c40b4ff7d98bea6f8a7a4dc703f5efdb95cab593147",
     "udt_first_astronomical_comparison_2026-10-04/CONSTRUCTION_RESULT.json": "115e66d375129b6766b8950d3141cb9589cc5e273a203e5d799f92fb716bb59c",
     "udt_first_astronomical_comparison_2026-10-04/check_construction.py": "bc7441d012dbc9b73ed4fd8ef3b3af9f0c74b58e091fd568eb6250356cc60ed1",
@@ -8161,20 +8161,6 @@
         "R14",
         "R16",
         "R17",
-        "R8ACP",
-        "R18",
-        "C_ACP_QUERY",
-        "C_ACP_SOURCE",
-        "O_ACP_REALIZATION"
-      ]
-    },
-    {
-      "path": "udt_first_astronomical_comparison_2026-10-04/INTEGRATION_REPAIR.md",
-      "sha256": "b1ea6008ec5a783da664ab9ae2954b74544a532097f5391836285653e9c3b821",
-      "role": "review_evidence",
-      "targets": [
-        "R13",
-        "R8OEV",
         "R8ACP",
         "R18",
         "C_ACP_QUERY",

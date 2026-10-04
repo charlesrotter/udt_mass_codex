@@ -5,7 +5,7 @@ This bounded startup view is generated from its opening; edit that source.
 LIVE.md owns operational status; CURRENT_SCIENTIFIC_PREMISES.tsv owns exact grades.
 
 <!-- GENERATED_DEVELOPMENT_BEGIN -->
-**Current development — OEV1 observation constraints and finite evaluator reviewed,
+**Current development — ACP1 first astronomical comparison constructed and audited,
 2026-10-04.** This is the sole maintained scientific argument. The exact registry
 and reviewed sources own grades; LIVE owns operational status. Review bindings
 are in section9. Historical results remain in the chapters below, not this startup view.
@@ -39,51 +39,43 @@ Finite null-patch results distinguish multiplicity-counted sheet area from
 geometric endpoint image-union; the latter requires global preimage identification.
 These geometric results do not identify physical light, brightness or carried content.
 
-**Current learning.** Charles authorized steps 4/5 after PRT1. OEV1 assessed
-three observational channels using eight primary papers/releases and executed
-a bounded supplied-metric evaluator. Native geometry selection remains OPEN.
+**Current learning.** Charles authorized construction and audit of the first
+astronomical comparison. ACP1 now specifies how one geometry must predict the
+CGCG 074-064 maser spots' observed directions, spectral shifts and monitored
+changes together. It is a concrete conditional forward comparison, not a
+selected astronomical metric, fitted distance curve or empirical confirmation.
 
-Megamaser distances are the strongest immediate independent-distance lead in
-this limited comparison. Their distances avoid a redshift-distance cosmology
-but retain disk dynamics, source gravity, calibration and posterior dependence.
-All six published source rows were converted into frame-labeled spectral-ratio
-proxies with separate marginal distance/error intervals. No H0, peculiar-flow,
-native curve, joint likelihood or positional attribution was fit. D_A is not
-PSW's initial proper separation. Published outcomes were exposed; this is an
-exploratory constraint table, not held-out confirmation.
+R6/R7 provide the actual clock/null readout, and R13 provides the full angular
+map. A scalar distance determines area but does not determine shear or the
+complete spot map. Importing the published scalar distance requires its source-
+compatible map approximation or a justified refit. The correct receiver-time
+optical slope also contains the optical-velocity convention: a constant common
+redshift factor cancels from that derivative, while remaining in the spectral
+offset and received timing. No extra slowdown factor may be appended by habit.
 
-Direct spectroscopic drift and supernova temporal widths ask different questions.
-The map preserves observer/source/calibration and population assumptions. A source
-precision repair explicitly keeps a tight supernova estimate within the authors'
-second-method consistency-check scope, while retaining first-method evidence.
-Native dynamics need not be complete to design observations or test a declared
-metric/query/readout package; that package is not supplied by these summaries.
+The source likelihood retains its conventional disk/transition/calibration,
+measurement flags, error floors and finite-window estimator. The full spot
+table and estimator were not retrieved/replayed, and no likelihood fit ran.
+The CGCG summary yields conditional endpoint/area restrictions; printed marginal
+statistical intervals and separately reported model-choice systematics stay
+separate. A fitted systemic redshift is not itself an actual regular reference
+clock. Its transformed Phi/chi summaries need that additional realization
+before becoming an R6 clock leg or any native event/path-depth assignment.
 
-The evaluator solves original affine-null/transport equations on the existing
-flat, quadratic and cubic controls, with ordinary comoving clocks and fixed
-histories. Fourteen queries at three tolerances give 42 retained center records
-and 246 ray solves. Tight 14 pass the frozen limits; coarse rows remain refinement
-diagnostics. A separate high-precision implementation checks all 6393 saved
-samples and 246 endpoint roles, with targeted corrupted-record rejection.
-Independent source-table arithmetic also passes. These are finite conditional
-checks, not native admission, a continuum enclosure or an asymptotic proof.
+Two fresh same-model contexts independently reconstructed source and geometry
+interfaces, checked distinct exact/high-precision examples, and re-reviewed
+four source-preserving precision repairs. Their actual final attestations and
+normal/maintenance/full406 receipts own closure. Initial code failures and
+exposure history are retained; no human/different-model or formal interval
+certification is claimed. OEV1's observation map and finite evaluator survive
+at their original scope, with summary portability now made more explicit.
 
-Actual-workload smoke includes interruption after a checkpoint, exact restart
-agreement and mismatched-config rejection. The CPU workload took seconds and
-used no GPU or multi-hour run. Stage 4B returns the handoff's permitted narrowed
-observable constraints; stage 5A is complete at the supplied-control scope.
-Stage 5B still needs an admitted metric equation/constraint class, chart/gauge,
-domain and sufficient initial/boundary data. An evaluator does not provide those.
-
-After orientation read R8OEV and R18. The next scientific gate is one explicit
-astronomical metric/query/readout package predicting the same distance/spectrum,
-with source/motion conventions and joint uncertainties. More samples of these
-controls would not close that physical connection. No new premise, scale or
-field law is adopted, and no whole-postulate insufficiency is proved. Stop for
-lay discussion; no broader solver or parked campaign restarts automatically.
-Two fresh same-model contexts provide actual scoped reviews and distinct
-numerical checks; source/outcome exposure and omitted raw pipelines remain
-disclosed. Final attestations and normal/maintenance/full 406 receipts own closure.
+After orientation read R8ACP and R18. The next scientific gate is an actual
+candidate metric with consistent source histories and the required observation
+reduction. Native geometry/evolution and reference-clock realization remain
+open. No whole-postulate insufficiency, new physical law, X_max scale or native
+matter/light model follows. Stop for lay discussion; no fit, larger numerical
+campaign or parked/protected program restarts automatically.
 <!-- GENERATED_DEVELOPMENT_END -->
 
 ## Current next gate

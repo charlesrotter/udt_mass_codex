@@ -1,0 +1,8 @@
+{
+  "status": "REVIEW_AND_REQUIRED_CHECKS_PASS",
+  "head_before_commit": "7fc10f933236880dc6e0c842e0dc31d3da834aa0",
+  "origin_before_commit": "7fc10f933236880dc6e0c842e0dc31d3da834aa0",
+  "preserved_existing_untracked_names": 76,
+  "accepted_files": 14004,
+  "claim_limit": "ACP1 conditional CGCG074-064 metric/source/null comparison: full angular map and correct optical spectral drift, source-owned likelihood and statistical summary restrictions. Regular reference clock, native metric selection and full source replay remain OPEN; no metric fit, physical adoption or empirical confirmation"
+}

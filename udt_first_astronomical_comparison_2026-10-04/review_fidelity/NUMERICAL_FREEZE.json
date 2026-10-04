@@ -1,0 +1,16 @@
+{
+  "utc": "2026-10-04T21:19:32.287690+00:00",
+  "status": "FROZEN_BEFORE_EXECUTION",
+  "question": "Independent source transcription, CGCG optical/clockleg/area arithmetic, reception-time drift and measured-flag restrictions",
+  "quantifier": "finite declared algebra/arithmetic controls only",
+  "physical_choices": "MCP source numbers/conventions imported; metric-clock formulas conditional R6/R13; no source histories selected as physics",
+  "numerical_controls": "Decimal80; h1e-20; derivative error<1e-30; identity error<1e-75; all exact source decimal comparisons as coded",
+  "omissions": "Full Table4, posterior likelihood/source fit, raw spectra, interval certification, metric selection",
+  "resources": "CPU only; no GPU; one BLAS thread; 2GiB process address-space cap; <100 finite checks; no solve",
+  "command": "OPENBLAS_NUM_THREADS=1 OMP_NUM_THREADS=1 MKL_NUM_THREADS=1 python3 udt_first_astronomical_comparison_2026-10-04/review_fidelity/independent_checks.py",
+  "sha256": {
+    "udt_first_astronomical_comparison_2026-10-04/review_fidelity/independent_checks.py": "2f30e672df2783507c96ed9d90a35028f432ccf9ba1aa5d3c52c73b0a8c3e82c"
+  },
+  "candidate_sha256": "4f477ceaadf4139045b63d6aa8df35c0f2b75c8482062aa87f2a31fc67f9fac4",
+  "parent_code_exposed": false
+}

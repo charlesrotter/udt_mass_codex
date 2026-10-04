@@ -1,0 +1,16 @@
+{
+  "utc": "2026-10-04T21:16:44.294939+00:00",
+  "sha256": {
+    "udt_first_astronomical_comparison_2026-10-04/WORK_ORDER.md": "b3280023e68a1879dc2f85af8b7a6838a699c2a06db6a23f5d13ae155dae2d38",
+    "udt_first_astronomical_comparison_2026-10-04/INITIAL_CANDIDATE.md": "4f477ceaadf4139045b63d6aa8df35c0f2b75c8482062aa87f2a31fc67f9fac4",
+    "UDT_DEVELOPMENT.md": "4b32f1c3a16ea75b86152f90ff1ee104831267c1e701559b6c470c3b0e1102b3",
+    "udt_finite_separation_law_2026-09-28/INITIAL_CANDIDATE.md": "7dd39a4840390f15fcedc2ae0e588f51e441b4348eaf0f0f8d9b81968b60d8e4",
+    "udt_finite_separation_law_2026-09-28/REPAIR.md": "be0927544e72bebd38a364cac33e0979aa8b4c4a1bdcdeba5dedf3e16e41e368",
+    "udt_g348_generic_lorentzian_null_screen_area_theorem_2026-09-04/EXACT_DERIVATION.md": "04917cd0336f5c06ee76129f5a8005f5e483e8a6fcdacbb87c96a6e0ad89544c",
+    "udt_observation_metric_evaluation_2026-10-04/observation/primary/M2_Pesce_2001.04581v1.pdf": "6a4be37e2fe7a9b4aefa7e5c6523e78206fcbf5eb96a423e66b0dfb69f18300b",
+    "udt_observation_metric_evaluation_2026-10-04/observation/primary/M1_Pesce_2001.09213v2.pdf": "c9f2d2b626fee60d77928856d217a2cbe546f06c69cd9e7ac804f4ab652e731a",
+    "udt_observation_metric_evaluation_2026-10-04/observation/MCP_TABLE1_INPUT.tsv": "114e4412eed79d088dff9cbfc68890d49dd6a902811b7f0370c085b980554910"
+  },
+  "exposure": "Parent derived before source-first reports, but read both reviewers\u2019 matching pre-seal findings before writing candidate. Existing source proofs and published observations exposed. No blind derivation claim. Candidate before finite checks/direct review.",
+  "source_access": "Web DOI/internal and IOP robots failures preserved in tool history; arxivabs2001.04581 verified; original pinned PDFs load-bearing. Fidelity reviewer separately records4 failed/successful metadata/table attempts."
+}

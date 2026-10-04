@@ -1,0 +1,12 @@
+{
+  "utc": "2026-10-04T21:21:33.076712+00:00",
+  "exit_code": 0,
+  "code_sha256": "454feac2e13f63b6bea5107eeabc7e91e268b300ec856543e5b984420865da75",
+  "stdout_sha256": "605805aab568335709bb1c97bedc373d36733052c1b0248ee778a38514a29066",
+  "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "finite_cases": 18,
+  "checks": 101,
+  "parent_implementation_imported_or_read": false,
+  "parent_output_not_yet_read": true,
+  "first_failure_preserved": true
+}

@@ -1,0 +1,4 @@
+  File "/home/udt-admin/udt_mass_codex/udt_first_astronomical_comparison_2026-10-04/review_math/check_readout.py", line 110
+    check('equal_area_unequal_images',det(mat([[3,0],[0,3]])) == det(mat([[6,0],[0,F(3,2)]]))
+         ^
+SyntaxError: '(' was never closed

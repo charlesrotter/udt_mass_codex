@@ -1,0 +1,68 @@
+{
+  "status": "PASS",
+  "author_output_first_exposure": "after reviewer code froze and completed independent run",
+  "tolerance": "1e-55 accounts for author printed precision",
+  "compared_fields": 15,
+  "differences": [
+    {
+      "quantity": "Z0",
+      "difference": "3.675243291E-60"
+    },
+    {
+      "quantity": "phi_summary",
+      "difference": "2.189785900E-62"
+    },
+    {
+      "quantity": "chi_summary",
+      "difference": "2.223207486E-62"
+    },
+    {
+      "quantity": "D0",
+      "difference": "0.0"
+    },
+    {
+      "quantity": "area0",
+      "difference": "0.00"
+    },
+    {
+      "quantity": "D1",
+      "difference": "0.0"
+    },
+    {
+      "quantity": "area1",
+      "difference": "0.00"
+    },
+    {
+      "quantity": "D2",
+      "difference": "0.0"
+    },
+    {
+      "quantity": "area2",
+      "difference": "0.00"
+    },
+    {
+      "quantity": "Z0_bound0",
+      "difference": "6.00987567E-61"
+    },
+    {
+      "quantity": "Z0_bound1",
+      "difference": "2.048525851E-60"
+    },
+    {
+      "quantity": "phi_summary_bound0",
+      "difference": "5.100661454E-62"
+    },
+    {
+      "quantity": "phi_summary_bound1",
+      "difference": "8.751004497E-62"
+    },
+    {
+      "quantity": "chi_summary_bound0",
+      "difference": "1.0287270235E-61"
+    },
+    {
+      "quantity": "chi_summary_bound1",
+      "difference": "6.335794172E-62"
+    }
+  ]
+}

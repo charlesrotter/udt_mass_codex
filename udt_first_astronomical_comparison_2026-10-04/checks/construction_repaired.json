@@ -1,0 +1,19 @@
+{
+  "command": [
+    "python3",
+    "udt_first_astronomical_comparison_2026-10-04/check_construction.py"
+  ],
+  "cwd": "/home/udt-admin/udt_mass_codex",
+  "started_utc": "2026-10-04T21:19:05.019797+00:00",
+  "duration_seconds": 0.2471219749422744,
+  "returncode": 0,
+  "wall_timeout_seconds": null,
+  "cpu_timeout_seconds": null,
+  "address_space_bytes": 2147483648,
+  "memory_scope": "Process virtual address limit",
+  "maxrss_kib": 51212,
+  "forwarded_signals": [],
+  "stdout_sha256": "115e66d375129b6766b8950d3141cb9589cc5e273a203e5d799f92fb716bb59c",
+  "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "capture_sha256": "217cdbac5486e8a531552f4d74a15ce641299b65dafb5d58f7b60f4ba51781bc"
+}

@@ -1,0 +1,13 @@
+{
+  "utc": "2026-10-04T21:20:43.282484+00:00",
+  "command": "OPENBLAS_NUM_THREADS=1 OMP_NUM_THREADS=1 MKL_NUM_THREADS=1 python3 udt_first_astronomical_comparison_2026-10-04/review_fidelity/compare_saved_results.py",
+  "precision": 80,
+  "tolerance": "1e-57 absolute",
+  "case_budget": 17,
+  "resource": "CPU one BLAS thread 2GiB address-space cap",
+  "sha256": {
+    "udt_first_astronomical_comparison_2026-10-04/review_fidelity/compare_saved_results.py": "a9bf371d9b05c4961cfca6cf23ae4927bcd9c12d0a66cedd498723893bf21db6",
+    "udt_first_astronomical_comparison_2026-10-04/review_fidelity/INDEPENDENT_RESULTS.json": "a93d793d6e20e5fc4afdaac3f26c7c4787f5f90aa6a3d10b83bc8624fdc8001c",
+    "udt_first_astronomical_comparison_2026-10-04/CONSTRUCTION_RESULT.json": "115e66d375129b6766b8950d3141cb9589cc5e273a203e5d799f92fb716bb59c"
+  }
+}

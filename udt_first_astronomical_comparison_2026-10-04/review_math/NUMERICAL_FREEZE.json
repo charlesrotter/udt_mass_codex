@@ -1,0 +1,13 @@
+{
+  "utc": "2026-10-04T21:20:47.138625+00:00",
+  "sha256": {
+    "udt_first_astronomical_comparison_2026-10-04/review_math/check_readout.py": "8e3bfe3c5c062f6d3b2979c69bc74bbba659962955c9e1f98ae9e2dc166b107a",
+    "udt_first_astronomical_comparison_2026-10-04/review_math/NUMERICAL_FREEZE.md": "b16f65f8ac6fa530cd91e8bd9f277090615960d5a66c843dd01f369189186cd2",
+    "udt_first_astronomical_comparison_2026-10-04/INITIAL_CANDIDATE.md": "4f477ceaadf4139045b63d6aa8df35c0f2b75c8482062aa87f2a31fc67f9fac4",
+    "udt_observation_metric_evaluation_2026-10-04/observation/MCP_TABLE1_INPUT.tsv": "114e4412eed79d088dff9cbfc68890d49dd6a902811b7f0370c085b980554910"
+  },
+  "author_code_exposure": false,
+  "author_output_exposure": false,
+  "repair_not_yet_read": true,
+  "execution_command": "OPENBLAS_NUM_THREADS=1 OMP_NUM_THREADS=1 python3 udt_first_astronomical_comparison_2026-10-04/review_math/check_readout.py > udt_first_astronomical_comparison_2026-10-04/review_math/check_readout.stdout.json 2> udt_first_astronomical_comparison_2026-10-04/review_math/check_readout.stderr"
+}

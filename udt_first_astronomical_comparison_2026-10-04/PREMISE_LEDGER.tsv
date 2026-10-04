@@ -1,0 +1,10 @@
+object	status	source	choice_tag	limit
+one metric and Levi-Civita null-clock interface	CONDITIONAL	R6/R7; FSL1 with orientation repair	pinned-by-THEORY only within supplied interface hypotheses	Does not select native g
+screen/Jacobi map	DERIVED_CONDITIONAL	R13/G348	pinned-by-THEORY within smooth regular ray/screen hypotheses	Does not identify physical source/readout
+CGCG target	DECLARED_OBSERVATION	MCP XI/XIII	free-and-explored target choice, based on explicit source metadata	No selection by agreement
+stable source transition alpha=1	CONDITIONAL_READOUT	MCP spectral interpretation; R6 readout	supplied conventional comparison; alpha history otherwise free	Not UDT matter or light derivation
+disk dynamics and likelihood	IMPORTED_COMPARISON_ONLY	MCP XI A1-A16/B17-B26	supplied comparator; must be consistent with g or controlled approximation	Not adopted UDT equations
+scalar D map	CONDITIONAL_REDUCTION	MCP XI rD; ACP1 similarity gate	supplied source approximation, not pinned-by-THEORY	General metric needs full J or exact incidence
+c_E	OBSERVED_CALIBRATION	CURRENT scientific anchors; optical v=c_E z	observed input,299792.458 km/s conversion	No new cosmic scale
+reference clock for fitted z0	OPEN	ACP1 REPAIR2	not supplied	summary transforms not automatically actual clock leg
+X_max and field law	OPEN	R16/R18 current scope	not supplied, no habit pin	No selection or realization

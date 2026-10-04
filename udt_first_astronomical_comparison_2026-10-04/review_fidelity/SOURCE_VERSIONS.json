@@ -1,0 +1,19 @@
+{
+  "utc": "2026-10-04T21:17:23.792129+00:00",
+  "context": "/root/acp_fidelity",
+  "phase": "SOURCE_FIRST",
+  "sha256": {
+    "AGENTS.md": "bcab9b67305e0314af9eaf25162d203660eae8f2ff4fd87d17e83588970ef38d",
+    "CLAUDE.md": "4ad2e773defb89cc79541fd0ababd75af5a3344ab134ee83722dfd943966e6e4",
+    "UDT_DEVELOPMENT.md": "4b32f1c3a16ea75b86152f90ff1ee104831267c1e701559b6c470c3b0e1102b3",
+    "udt_first_astronomical_comparison_2026-10-04/WORK_ORDER.md": "b3280023e68a1879dc2f85af8b7a6838a699c2a06db6a23f5d13ae155dae2d38",
+    "udt_first_astronomical_comparison_2026-10-04/BASELINE.json": "325626a423d1aa6d94ea34b915c7a7fc41e1a19fa44304429d53b301a3b8c0c7",
+    "udt_observation_metric_evaluation_2026-10-04/observation/primary/M2_Pesce_2001.04581v1.pdf": "6a4be37e2fe7a9b4aefa7e5c6523e78206fcbf5eb96a423e66b0dfb69f18300b",
+    "udt_observation_metric_evaluation_2026-10-04/observation/primary/M2_Pesce_2001.04581v1.txt": "88385c120c3c3b1cff4a46692690c6cd2877d03a37c76a601426084015e8d7c5",
+    "udt_observation_metric_evaluation_2026-10-04/observation/primary/M1_Pesce_2001.09213v2.pdf": "c9f2d2b626fee60d77928856d217a2cbe546f06c69cd9e7ac804f4ab652e731a",
+    "udt_observation_metric_evaluation_2026-10-04/observation/primary/M1_Pesce_2001.09213v2.txt": "38583341b4397ed71aeb0c4985beb17cb5f97aee4a99f6ae84a2b69c7d2b2b56",
+    "udt_finite_separation_law_2026-09-28/INITIAL_CANDIDATE.md": "7dd39a4840390f15fcedc2ae0e588f51e441b4348eaf0f0f8d9b81968b60d8e4",
+    "udt_g348_generic_lorentzian_null_screen_area_theorem_2026-09-04/EXACT_DERIVATION.md": "04917cd0336f5c06ee76129f5a8005f5e483e8a6fcdacbb87c96a6e0ad89544c",
+    "udt_g349_finite_null_wavefront_patch_area_2026-09-04/AUDIT_REPORT.md": "5daf07ed87fd96953d7f989e269aafe3654a6876230725fd7b3bcc1f3188467e"
+  }
+}

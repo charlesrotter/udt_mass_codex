@@ -1493,7 +1493,7 @@ that published model or establish a defect in unavailable code.
 n_sky^a=-g(k_o,E_a)/omega_o, opposite future propagation. Actual incidence and
 the calibrated sky chart give the finite spot positions. For a regular
 infinitesimal source cut, fix G348's reverse block B_eo using the same future
-affine k and fixed orthonormal quotient-screen bases. Then
+affine k and fixed endpoint screens. Then
 
     J=-omega_o B_eo,       D_A^2=|det J|=omega_o^2 |det B_eo|.
 

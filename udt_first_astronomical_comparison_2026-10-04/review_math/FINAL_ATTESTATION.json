@@ -1,24 +1,17 @@
 {
-  "status": "REVIEWED_WITH_LIMITS",
-  "utc": "2026-10-04T21:33:58.542196+00:00",
-  "scope": "ACP1 conditional CGCG074-064 metric/source/null comparison: full angular map and correct optical spectral drift, source-owned likelihood and statistical summary restrictions. Regular reference clock, native metric selection and full source replay remain OPEN; no metric fit, physical adoption or empirical confirmation",
-  "independence": "Two actual fresh same-model source-first/exposed/final reviewer contexts, exact model revision unexposed. Source proof/outcome and parent pre-candidate reviewer-summary exposure disclosed. Separate Fraction/Decimal70 and Decimal80 implementations;18 math cases and45 fidelity cases, source/fixed-sign/reference-clock/estimator/systematic repairs actually re-reviewed. Initial parent output-write and reviewer syntax failures preserved/repaired. No human, different-model, full source replay, formal interval or empirical confirmation",
-  "freeze": "udt_first_astronomical_comparison_2026-10-04/INTEGRATION_FREEZE.json",
-  "freeze_sha256": "cc28a55a3404761065d1380e5fd657ab061a96c0dfdc103d6910c09be7d43883",
-  "prior_review_record": "udt_first_astronomical_comparison_2026-10-04/PRIOR_REVIEW_RECORD.json",
-  "prior_review_record_sha256": "c133c40a595c3f3179ac7d49c0a372d5d9b699ea05ff2932cdec640dfff3884d",
-  "reviewers": [
-    {
-      "context": "/root/acp_math",
-      "attestation": "udt_first_astronomical_comparison_2026-10-04/review_math/FINAL_ATTESTATION.json",
-      "sha256": "b95890359f1c7a2b4d6fc7f1f453127c4397ccad38ce4aff6a660bc0b6ca3ec3"
-    },
-    {
-      "context": "/root/acp_fidelity",
-      "attestation": "udt_first_astronomical_comparison_2026-10-04/review_fidelity/FINAL_ATTESTATION.json",
-      "sha256": "e15c7e945b0faf03684dbc109690b25e37daeb5043eff834be49923a1c128c7b"
-    }
-  ],
+  "utc": "2026-10-04T21:33:33.048445+00:00",
+  "context": "/root/acp_math",
+  "model": "same inherited model; exact revision unexposed",
+  "verdict": "ACCEPT_WITH_LIMITS",
+  "scope": "ACP1 conditional mathematical readout and scoped central integration; full accepted-map byte correspondence, not inherited-corpus reproof or astronomical source validation",
+  "exposure": "Old source proofs before source-first seal; candidate after seal; parent numerical output only after independent checker successful run. Parent implementation not semantically inspected/imported. Both integration precision repairs actually reviewed after original objection; same model, no human/different-model/formal certification.",
+  "report_path": "udt_first_astronomical_comparison_2026-10-04/review_math/FINAL_REVIEW.md",
+  "report_sha256": "f8c32693c58e065e0b6a6852a306ddaba638b66dd0b214f0ef1e891a3ffafac9",
+  "integration_freeze_sha256": "cc28a55a3404761065d1380e5fd657ab061a96c0dfdc103d6910c09be7d43883",
+  "byte_check_path": "udt_first_astronomical_comparison_2026-10-04/review_math/FINAL_BYTE_CHECK.json",
+  "byte_check_sha256": "e9fb087cd7d8cc18c9c473bfe1ae69554b8f75c4390c789330b2fbac1bfce5f4",
+  "preflight_path": "udt_first_astronomical_comparison_2026-10-04/review_math/FINAL_PATH_PREFLIGHT.json",
+  "preflight_sha256": "ab089e845d5fc04c4ae7e29761ad27603489781d5cc02b183dc74452d221881e",
   "accepted_sha256": {
     ".gitignore": "8a2710f5923ba86b41a461e040282ecd520ce155cb17b09458e1d1d613ddeb7a",
     "AGENTS.md": "bcab9b67305e0314af9eaf25162d203660eae8f2ff4fd87d17e83588970ef38d",
@@ -14024,5 +14017,11 @@
     "udt_time_live_smoke_gate_2026-09-30/smoke_runner.py": "724bf5405dd9596bff343a0a6967393d26a0a0c7529124e9a0bfdd70e569d52f",
     "verify_current_scientific_premises.py": "a983c2456ce3a122629a116c735b32b96e055829ed3012fb416fabfa9b0b8127",
     "verify_udt_development.py": "555e2733fa04c609874802369983f73b4a1d8a79610488d9dc732b1acfb0c2fa"
-  }
+  },
+  "pending_parent_gates": [
+    "final review binding",
+    "normal verification after binding",
+    "full406",
+    "banking/synchronization/preservation checks"
+  ]
 }

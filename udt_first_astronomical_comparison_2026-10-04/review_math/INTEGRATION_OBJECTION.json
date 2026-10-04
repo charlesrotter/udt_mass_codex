@@ -1,0 +1,13 @@
+{
+  "utc": "2026-10-04T21:29:08.886019+00:00",
+  "initial_integration_freeze_sha256": "8595c71c9bb155c7b94eb304b2b044cdbd16499f01222407f15c19e17ea8f8d8",
+  "finding": "Central/contract J=-omega_o B_eo omitted orthonormal screen convention explicitly stated in initial candidate. G348 B maps covector momentum, so general-coordinate map needs q_o.",
+  "smallest_repair": "Restore fixed orthonormal quotient-screen bases in CENTRAL_INSERT/R8ACP/COMPARISON_CONTRACT, retaining same affine/sign convention.",
+  "survivor": "All source geometry, proof, values and scientific scope unchanged; coordinate typing precision only.",
+  "status": "Parent notified; no attestation issued on original freeze",
+  "original_affected_pins": {
+    "UDT_DEVELOPMENT.md": "710836a8c011a12daa7c27a1449156f1eff9ff9da00656773633524cbde20e26",
+    "udt_first_astronomical_comparison_2026-10-04/CENTRAL_INSERT.md": "cda5a55dc1c78179124e5350e4c212be678055b34b6fa0d0ebc1800cfb7fe6e5",
+    "udt_first_astronomical_comparison_2026-10-04/COMPARISON_CONTRACT.json": "3efc658d18f518f1887b2bb79c0c4021727ba7b12924d69dab3d7f4664b18ece"
+  }
+}

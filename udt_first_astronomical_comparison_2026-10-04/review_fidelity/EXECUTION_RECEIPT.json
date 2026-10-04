@@ -1,0 +1,17 @@
+{
+  "utc": "2026-10-04T21:19:56.080082+00:00",
+  "command": "OPENBLAS_NUM_THREADS=1 OMP_NUM_THREADS=1 MKL_NUM_THREADS=1 python3 udt_first_astronomical_comparison_2026-10-04/review_fidelity/independent_checks.py > udt_first_astronomical_comparison_2026-10-04/review_fidelity/independent_checks.stdout 2> udt_first_astronomical_comparison_2026-10-04/review_fidelity/independent_checks.stderr",
+  "exit_code": 0,
+  "sha256": {
+    "independent_checks.py": "2f30e672df2783507c96ed9d90a35028f432ccf9ba1aa5d3c52c73b0a8c3e82c",
+    "NUMERICAL_FREEZE.json": "31962f2980a00ccbf74b989270fcb792b09e91282fbc52e027ccef0c0a65248e",
+    "INDEPENDENT_RESULTS.json": "a93d793d6e20e5fc4afdaac3f26c7c4787f5f90aa6a3d10b83bc8624fdc8001c",
+    "independent_checks.stdout": "65a4ad8363f1950ce9085d28f9e0f82dd5b6ef20ed9a6ee79dae5b95527738ea",
+    "independent_checks.stderr": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "candidate_exposed_before_execution": true,
+  "parent_code_exposed_before_execution": false,
+  "actual_checks": 28,
+  "all_pass": true,
+  "role": "Independent Decimal80 arithmetic and finite inverse-reception derivative; no source fit replay or certification"
+}

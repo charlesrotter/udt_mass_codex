@@ -1,0 +1,4 @@
+Traceback (most recent call last):
+  File "/home/udt-admin/udt_mass_codex/udt_first_astronomical_comparison_2026-10-04/check_construction.py", line 58, in <module>
+    (B/'CONSTRUCTION_RESULT.json').write_text(json.dumps(result,indent=2)+'\n')
+TypeError: unsupported operand type(s) for /: 'str' and 'str'

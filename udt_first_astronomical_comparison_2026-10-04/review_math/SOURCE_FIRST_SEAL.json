@@ -1,0 +1,39 @@
+{
+  "utc": "2026-10-04T21:17:06.284947+00:00",
+  "reviewer": "/root/acp_math",
+  "model": "inherited parent model; exact revision unexposed",
+  "head_observed": "7fc10f933236880dc6e0c842e0dc31d3da834aa0",
+  "branch_observed": "grok",
+  "parent_startup": "attributed to ACP1 BASELINE.json; scoped reviewer did not repeat fetch/pull",
+  "new_candidate_exposed": false,
+  "prior_source_proofs_exposed": true,
+  "OEV_numerical_code_exposed": false,
+  "protected_payloads_read_or_hashed": false,
+  "independence": {
+    "fresh_context": true,
+    "different_model": false,
+    "human": false,
+    "independent_argument": true,
+    "independent_implementation": "pending finite phase"
+  },
+  "sources": {
+    "AGENTS.md": "bcab9b67305e0314af9eaf25162d203660eae8f2ff4fd87d17e83588970ef38d",
+    "CLAUDE.md": "4ad2e773defb89cc79541fd0ababd75af5a3344ab134ee83722dfd943966e6e4",
+    ".claude/skills/no-shortcuts/SKILL.md": "fd3a1f3218481134f2af829d3ae4175ac53518f75bf9673287efbfb7d7708fc1",
+    ".claude/skills/completeness-map/SKILL.md": "a8cf9e5f4a6d35a0d0ebfe4bc48dbf328ca74e318f020a6a22cb683666a611c0",
+    ".claude/skills/verifier-before-record/SKILL.md": "9b3a4aacd4b4006b2b7f01edada73b7c87b99bea6e754583558713bfc145e5ac",
+    "UDT_DEVELOPMENT.md": "4b32f1c3a16ea75b86152f90ff1ee104831267c1e701559b6c470c3b0e1102b3",
+    "CURRENT_SCIENTIFIC_PREMISES.tsv": "7a3d69d5a0bc3ac98e2ebe2bb0c6d029df30071bf403baffed2223a193dc720b",
+    "udt_first_astronomical_comparison_2026-10-04/WORK_ORDER.md": "b3280023e68a1879dc2f85af8b7a6838a699c2a06db6a23f5d13ae155dae2d38",
+    "udt_first_astronomical_comparison_2026-10-04/BASELINE.json": "325626a423d1aa6d94ea34b915c7a7fc41e1a19fa44304429d53b301a3b8c0c7",
+    "udt_finite_separation_law_2026-09-28/INITIAL_CANDIDATE.md": "7dd39a4840390f15fcedc2ae0e588f51e441b4348eaf0f0f8d9b81968b60d8e4",
+    "udt_finite_separation_law_2026-09-28/REPAIR.md": "be0927544e72bebd38a364cac33e0979aa8b4c4a1bdcdeba5dedf3e16e41e368",
+    "udt_finite_separation_law_2026-09-28/REVIEWED_RESULT.md": "1a1770b84ba184e2411cf4dac30e694bffec46a762bba618c2edf0d1df8b8740",
+    "udt_g348_generic_lorentzian_null_screen_area_theorem_2026-09-04/EXACT_DERIVATION.md": "04917cd0336f5c06ee76129f5a8005f5e483e8a6fcdacbb87c96a6e0ad89544c",
+    "udt_g348_generic_lorentzian_null_screen_area_theorem_2026-09-04/AUDIT_REPORT.md": "b264f4a8959a557884f3e6a668aab68d2831b477caf693f95db7b524c01bd279",
+    "udt_g348_generic_lorentzian_null_screen_area_theorem_2026-09-04/STATUS_LEDGER.tsv": "996c1d857fd16e533185b13f73b50069428b88f0a83072ead5e70740f46cf5c1",
+    "udt_observation_metric_evaluation_2026-10-04/observation/primary/M2_Pesce_2001.04581v1.txt": "88385c120c3c3b1cff4a46692690c6cd2877d03a37c76a601426084015e8d7c5"
+  },
+  "source_first_sha256": "f940ec5ee15737b2f2506331ea4ec399552c0ac1c4eb4930ee376fcb8176e510",
+  "limitations": "Hashes identify bytes, not truth or externally signed chronology. Only load-bearing text sections were interpreted; whole-file hashes do not claim whole-file review."
+}

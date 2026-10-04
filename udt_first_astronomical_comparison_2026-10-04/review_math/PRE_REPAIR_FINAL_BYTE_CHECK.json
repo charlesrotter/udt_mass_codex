@@ -1,0 +1,10 @@
+{
+  "utc": "2026-10-04T21:28:05.723383+00:00",
+  "head": "7fc10f933236880dc6e0c842e0dc31d3da834aa0",
+  "branch": "grok",
+  "paths_hashed": 13986,
+  "mismatches": [],
+  "protected_payloads_hashed": false,
+  "outside_root_payloads_hashed": false,
+  "scope": "Byte correspondence only, not inherited-corpus reproof"
+}

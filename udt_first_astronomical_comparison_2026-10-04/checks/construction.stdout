@@ -1,0 +1,47 @@
+{
+  "status": "PASS_FINITE_CONSTRUCTION_CHECKS",
+  "scope": "Exact symbolic formulas and nine highprecision accounting controls; observed summary conversion; no metric candidate, fit, empirical validation or full data likelihood replay",
+  "versions": {
+    "python": "3.10.12",
+    "sympy": "1.13.1",
+    "mpmath": "1.3.0"
+  },
+  "symbolic_inverse_arrival_identity": true,
+  "variable_factor_identity": true,
+  "same_area_different_sky_map": true,
+  "affine_and_receiver_scaling_cases": 3,
+  "finite_drift_cases": 9,
+  "drift_max_abs_error": "6.37236764452980910811552159107084722236441822077047514429554e-58",
+  "extra_redshift_division_fault_max_abs_error": "2540.67785887938028863201905565660268559980846215207080772194",
+  "unmeasured_acceleration_fault_rejected": true,
+  "wrong_scalar_map_fault_rejected": true,
+  "CGCG_summary": {
+    "name": "CGCG 074-064",
+    "Z_median": "1.02392388403580186129965951311557010550278753176639286902941",
+    "Z_marginal": [
+      "1.02391754631799309641071757715799508205106347271751579554413",
+      "1.0239302217536106261886014490731451289545115908152699425147"
+    ],
+    "Phi_clock_median": "-0.0236421918582690527908406904216938907585721561693029677869659",
+    "Phi_clock_marginal": [
+      "-0.0236483814767490685259194345533188773595797551579890584757714",
+      "-0.0236360022014774229932129318566130343036285752000766308746277"
+    ],
+    "chi_clock_median": "-0.0236377878830322230313400333416129807989169220644335171389369",
+    "chi_clock_marginal": [
+      "-0.023643974042188593024541783666326684763454322324986774902025",
+      "-0.0236316016837754537881412182111518659397230526837702674672686"
+    ],
+    "D_Mpc": [
+      "80.4",
+      "87.6",
+      "95.5"
+    ],
+    "area_Mpc2": [
+      "6464.16",
+      "7673.76",
+      "9120.25"
+    ],
+    "retained_scope": "Source-compatible scalar-map readout only; processed systemic frame; separate marginal intervals, no joint statistical test, no native phi_pair assignment"
+  }
+}

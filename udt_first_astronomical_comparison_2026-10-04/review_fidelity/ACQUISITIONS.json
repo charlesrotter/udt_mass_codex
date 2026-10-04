@@ -1,0 +1,39 @@
+{
+  "max_requests": 4,
+  "attempts": [
+    {
+      "attempt": 1,
+      "tool": "web.open",
+      "url": "https://arxiv.org/abs/2001.04581",
+      "result": "Abstract available; v1 2020-01-14; related DOI10.3847/1538-4357/ab6bcd; no Table4 payload"
+    },
+    {
+      "attempt": 2,
+      "url": "https://arxiv.org/src/2001.04581v1",
+      "utc": "2026-10-04T21:14:46.812578+00:00",
+      "max_bytes": 10485760,
+      "error": "<urlopen error [Errno -3] Temporary failure in name resolution>"
+    },
+    {
+      "attempt": 3,
+      "tool": "web.search_query",
+      "query": "\"ab6bcd\" \"table\" \"891\"",
+      "domains": [
+        "iopscience.iop.org",
+        "content.cld.iop.org",
+        "aas.org"
+      ],
+      "result": "Blocked by robots.txt for iopscience.iop.org; no payload"
+    },
+    {
+      "attempt": 4,
+      "tool": "web.open",
+      "url": "https://arxiv.org/src/2001.04581v1",
+      "result": "Failed to fetch: Cache miss; no payload"
+    }
+  ],
+  "complete_table_acquired": false,
+  "new_source_download_bytes": 0,
+  "author_contact": false,
+  "classification": "Exposed primary-source acquisition, not blind observation"
+}

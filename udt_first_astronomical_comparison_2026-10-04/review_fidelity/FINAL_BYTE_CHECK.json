@@ -1,0 +1,11 @@
+{
+  "utc": "2026-10-04T21:31:51.576711+00:00",
+  "freeze_sha256": "cc28a55a3404761065d1380e5fd657ab061a96c0dfdc103d6910c09be7d43883",
+  "path_count": 14004,
+  "byte_count": 2311045507,
+  "duration_seconds": 1.2881947529967874,
+  "path_preflight_pass": true,
+  "mismatches": [],
+  "all_pass": true,
+  "scope": "Byte correspondence only; inherited corpus not semantically re-proved. All four protected prefixes and resolved escapes excluded before hashing."
+}

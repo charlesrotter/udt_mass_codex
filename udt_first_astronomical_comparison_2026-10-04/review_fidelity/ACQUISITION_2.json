@@ -1,0 +1,7 @@
+{
+  "attempt": 2,
+  "url": "https://arxiv.org/src/2001.04581v1",
+  "utc": "2026-10-04T21:14:46.812578+00:00",
+  "max_bytes": 10485760,
+  "error": "<urlopen error [Errno -3] Temporary failure in name resolution>"
+}

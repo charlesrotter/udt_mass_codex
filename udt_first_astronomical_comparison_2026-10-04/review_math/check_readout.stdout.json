@@ -1,0 +1,294 @@
+{
+  "status": "PASS",
+  "finite_cases": 18,
+  "checks": 101,
+  "check_names": [
+    "proper_norm_0",
+    "accel_orthogonal_0",
+    "arrival_vs_frequency_0",
+    "optical_drift_from_arrival_0",
+    "variable_transition_0",
+    "affine_family_derivative_0",
+    "extra_divisor_caught_0",
+    "one_endpoint_scale_caught_0",
+    "proper_norm_1",
+    "accel_orthogonal_1",
+    "arrival_vs_frequency_1",
+    "optical_drift_from_arrival_1",
+    "variable_transition_1",
+    "affine_family_derivative_1",
+    "extra_divisor_caught_1",
+    "one_endpoint_scale_caught_1",
+    "proper_norm_2",
+    "accel_orthogonal_2",
+    "arrival_vs_frequency_2",
+    "optical_drift_from_arrival_2",
+    "variable_transition_2",
+    "affine_family_derivative_2",
+    "extra_divisor_caught_2",
+    "one_endpoint_scale_caught_2",
+    "proper_norm_3",
+    "accel_orthogonal_3",
+    "arrival_vs_frequency_3",
+    "optical_drift_from_arrival_3",
+    "variable_transition_3",
+    "affine_family_derivative_3",
+    "proper_norm_4",
+    "accel_orthogonal_4",
+    "arrival_vs_frequency_4",
+    "optical_drift_from_arrival_4",
+    "variable_transition_4",
+    "affine_family_derivative_4",
+    "extra_divisor_caught_4",
+    "one_endpoint_scale_caught_4",
+    "proper_norm_5",
+    "accel_orthogonal_5",
+    "arrival_vs_frequency_5",
+    "optical_drift_from_arrival_5",
+    "variable_transition_5",
+    "affine_family_derivative_5",
+    "extra_divisor_caught_5",
+    "one_endpoint_scale_caught_5",
+    "proper_norm_6",
+    "accel_orthogonal_6",
+    "arrival_vs_frequency_6",
+    "optical_drift_from_arrival_6",
+    "variable_transition_6",
+    "affine_family_derivative_6",
+    "extra_divisor_caught_6",
+    "one_endpoint_scale_caught_6",
+    "proper_norm_7",
+    "accel_orthogonal_7",
+    "arrival_vs_frequency_7",
+    "optical_drift_from_arrival_7",
+    "variable_transition_7",
+    "affine_family_derivative_7",
+    "extra_divisor_caught_7",
+    "one_endpoint_scale_caught_7",
+    "typed_map_covariance_0",
+    "area_metric_covariance_0",
+    "map_affine_invariance_0",
+    "fixed_screen_sign_catch_0",
+    "source_angle_inverse_0",
+    "typed_map_covariance_1",
+    "area_metric_covariance_1",
+    "map_affine_invariance_1",
+    "fixed_screen_sign_catch_1",
+    "source_angle_inverse_1",
+    "typed_map_covariance_2",
+    "area_metric_covariance_2",
+    "map_affine_invariance_2",
+    "fixed_screen_sign_catch_2",
+    "source_angle_inverse_2",
+    "typed_map_covariance_3",
+    "area_metric_covariance_3",
+    "map_affine_invariance_3",
+    "fixed_screen_sign_catch_3",
+    "source_angle_inverse_3",
+    "equal_area_unequal_images",
+    "shear_catch",
+    "boost_clock_1/2",
+    "aberration_derivative_1/2",
+    "area_observer_factor_1/2",
+    "boost_clock_2",
+    "aberration_derivative_2",
+    "area_observer_factor_2",
+    "boost_clock_3",
+    "aberration_derivative_3",
+    "area_observer_factor_3",
+    "chi_decimal_crosscheck_lower_marginals",
+    "negative_clock_parameter_lower_marginals",
+    "chi_decimal_crosscheck_medians",
+    "negative_clock_parameter_medians",
+    "chi_decimal_crosscheck_upper_marginals",
+    "negative_clock_parameter_upper_marginals",
+    "frame_center",
+    "finite_case_budget"
+  ],
+  "wrong_rule_separators": [
+    "extra_arrival_divisor_0",
+    "one_endpoint_affine_0",
+    "extra_arrival_divisor_1",
+    "one_endpoint_affine_1",
+    "extra_arrival_divisor_2",
+    "one_endpoint_affine_2",
+    "extra_arrival_divisor_4",
+    "one_endpoint_affine_4",
+    "extra_arrival_divisor_5",
+    "one_endpoint_affine_5",
+    "extra_arrival_divisor_6",
+    "one_endpoint_affine_6",
+    "extra_arrival_divisor_7",
+    "one_endpoint_affine_7",
+    "fixed_screen_sign_0",
+    "fixed_screen_sign_1",
+    "fixed_screen_sign_2",
+    "fixed_screen_sign_3",
+    "determinant_as_full_map"
+  ],
+  "cases": [
+    {
+      "type": "proper_clock",
+      "r": "1/3",
+      "proper_acceleration": "1/7",
+      "Z": "1/3",
+      "optical_drift_per_c": "1/7"
+    },
+    {
+      "type": "proper_clock",
+      "r": "1/2",
+      "proper_acceleration": "2/7",
+      "Z": "1/2",
+      "optical_drift_per_c": "2/7"
+    },
+    {
+      "type": "proper_clock",
+      "r": "2/3",
+      "proper_acceleration": "3/7",
+      "Z": "2/3",
+      "optical_drift_per_c": "3/7"
+    },
+    {
+      "type": "proper_clock",
+      "r": "1",
+      "proper_acceleration": "4/7",
+      "Z": "1",
+      "optical_drift_per_c": "4/7"
+    },
+    {
+      "type": "proper_clock",
+      "r": "3/2",
+      "proper_acceleration": "5/7",
+      "Z": "3/2",
+      "optical_drift_per_c": "5/7"
+    },
+    {
+      "type": "proper_clock",
+      "r": "2",
+      "proper_acceleration": "6/7",
+      "Z": "2",
+      "optical_drift_per_c": "6/7"
+    },
+    {
+      "type": "proper_clock",
+      "r": "3",
+      "proper_acceleration": "1",
+      "Z": "3",
+      "optical_drift_per_c": "1"
+    },
+    {
+      "type": "proper_clock",
+      "r": "5",
+      "proper_acceleration": "8/7",
+      "Z": "5",
+      "optical_drift_per_c": "8/7"
+    },
+    {
+      "type": "screen",
+      "determinant": "9",
+      "area_distance_squared": "9",
+      "source_vector": [
+        "3",
+        "6"
+      ]
+    },
+    {
+      "type": "screen",
+      "determinant": "9",
+      "area_distance_squared": "9",
+      "source_vector": [
+        "6",
+        "3"
+      ]
+    },
+    {
+      "type": "screen",
+      "determinant": "-9",
+      "area_distance_squared": "9",
+      "source_vector": [
+        "-3",
+        "6"
+      ]
+    },
+    {
+      "type": "screen",
+      "determinant": "9",
+      "area_distance_squared": "9",
+      "source_vector": [
+        "4",
+        "11"
+      ]
+    },
+    {
+      "type": "observer_boost",
+      "frequency_multiplier": "1/2",
+      "solid_angle_multiplier": "4",
+      "area_multiplier": "1/4"
+    },
+    {
+      "type": "observer_boost",
+      "frequency_multiplier": "2",
+      "solid_angle_multiplier": "1/4",
+      "area_multiplier": "4"
+    },
+    {
+      "type": "observer_boost",
+      "frequency_multiplier": "3",
+      "solid_angle_multiplier": "1/9",
+      "area_multiplier": "9"
+    },
+    {
+      "type": "CGCG_marginal_arithmetic",
+      "label": "lower_marginals"
+    },
+    {
+      "type": "CGCG_marginal_arithmetic",
+      "label": "medians"
+    },
+    {
+      "type": "CGCG_marginal_arithmetic",
+      "label": "upper_marginals"
+    }
+  ],
+  "CGCG": [
+    {
+      "label": "lower_marginals",
+      "v_opt_CMB_km_s": "7170.3",
+      "D_Mpc": "80.4",
+      "Z0": "1.023917546317993096410717577157995082051063472717515795544129399012433",
+      "phi_summary": "-0.02363600220147742299321293185661303430362857520007663087462778751004497",
+      "chi_summary": "-0.02363160168377545378814121821115186593972305268377026746726866335794172",
+      "D_squared_Mpc2": "6464.16"
+    },
+    {
+      "label": "medians",
+      "v_opt_CMB_km_s": "7172.2",
+      "D_Mpc": "87.6",
+      "Z0": "1.023923884035801861299659513115570105502787531766392869029413675243291",
+      "phi_summary": "-0.02364219185826905279084069042169389075857215616930296778696592189785900",
+      "chi_summary": "-0.02363778788303222303134003334161298079891692206443351713893687776792514",
+      "D_squared_Mpc2": "7673.76"
+    },
+    {
+      "label": "upper_marginals",
+      "v_opt_CMB_km_s": "7174.1",
+      "D_Mpc": "95.5",
+      "Z0": "1.023930221753610626188601449073145128954511590815269942514697951474149",
+      "phi_summary": "-0.02364838147674906852591943455331887735957975515798905847577145100661454",
+      "chi_summary": "-0.02364397404218859302454178366632668476345432232498677490202510287270235",
+      "D_squared_Mpc2": "9120.25"
+    }
+  ],
+  "input_sha256": "114e4412eed79d088dff9cbfc68890d49dd6a902811b7f0370c085b980554910",
+  "runtime": {
+    "python": "3.10.12 (main, Aug 31 2026, 10:18:17) [GCC 11.4.0]",
+    "platform": "Linux-6.8.0-138-generic-x86_64-with-glibc2.35",
+    "address_space_bytes": [
+      2147483648,
+      2147483648
+    ],
+    "OMP_NUM_THREADS": "1",
+    "OPENBLAS_NUM_THREADS": "1"
+  },
+  "limits": "Exact rational controls plus 70-digit Decimal log/exp. No fitted metric, no source posterior replay, no data independence or ordinary systemic clock established."
+}

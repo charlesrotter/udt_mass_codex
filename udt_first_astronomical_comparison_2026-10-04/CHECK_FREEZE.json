@@ -1,0 +1,14 @@
+{
+  "utc": "2026-10-04T21:18:18.752765+00:00",
+  "code": "udt_first_astronomical_comparison_2026-10-04/check_construction.py",
+  "sha256": "32c37bbed7d43aa8d36d81752e2cafbfd2dbc9b039bc8ccbd1a21e4920fdc532",
+  "equations": "INITIAL_CANDIDATE1-6; explicit inverse arrival Z=z0exp(a*s), alpha=exp(b*s); exact matrix controls; M1CGCGsummary; three synthetic slope-mask rows",
+  "limits": "Symbolic exact and60-digit arithmetic, <=100finitecases;2GiB,1BLAS,no wall/CPU timeout; no geometry solve/fit",
+  "faults": [
+    "extra redshift division",
+    "area substituted for full map",
+    "modeled acceleration inserted as measured"
+  ],
+  "acceptance": "Exact symbolic identities, matrix inequalities/masks; nine derivative errors<1e-50; wrongfactor discrepancy>1 in stated units; outputs retain hypothesis labels",
+  "exposure": "Published values exposed; before execution; source-first reviewer findings exposed before parent code"
+}

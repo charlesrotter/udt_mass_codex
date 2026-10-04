@@ -1,0 +1,24 @@
+{
+  "utc": "2026-10-04T21:23:27.566666+00:00",
+  "verdict": "VERIFIED-WITH-CAVEATS after REPAIR; conditional construction only",
+  "sha256": {
+    "udt_first_astronomical_comparison_2026-10-04/INITIAL_CANDIDATE.md": "4f477ceaadf4139045b63d6aa8df35c0f2b75c8482062aa87f2a31fc67f9fac4",
+    "udt_first_astronomical_comparison_2026-10-04/CANDIDATE_FREEZE.json": "722ff762869e5c5f22ccd22e9c4595cd196206d60402d84cbc8df1f4ae3e8288",
+    "udt_first_astronomical_comparison_2026-10-04/REPAIR.md": "f87ce290355914367ffaa4b9673ecf4eacbd66922c5e1099a19143337306156e",
+    "udt_first_astronomical_comparison_2026-10-04/CONSTRUCTION_RESULT.json": "115e66d375129b6766b8950d3141cb9589cc5e273a203e5d799f92fb716bb59c",
+    "udt_first_astronomical_comparison_2026-10-04/checks/construction.json": "421fcb204084e2aac38a1cfdfd08f0bcd4ba19bb0dcbc77957da8525e02ad658",
+    "udt_first_astronomical_comparison_2026-10-04/checks/construction_repaired.json": "15545fcf9667de1f9166a0d2827f94187d4e0d37f81e35c6de1a977dd957195b",
+    "udt_first_astronomical_comparison_2026-10-04/checks/construction.stderr": "61130fad6d08d86808fb6a7d9eccf31f39b66c9f2054cfbca1931acd0d52a01d",
+    "udt_first_astronomical_comparison_2026-10-04/checks/construction_repaired.stderr": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "udt_first_astronomical_comparison_2026-10-04/review_math/SOURCE_FIRST.md": "f940ec5ee15737b2f2506331ea4ec399552c0ac1c4eb4930ee376fcb8176e510",
+    "udt_first_astronomical_comparison_2026-10-04/review_math/SOURCE_FIRST_SEAL.json": "54f2cf24c8fef454434fbaba828cadf010064691b37491a27e7adab0ae6bb968",
+    "udt_first_astronomical_comparison_2026-10-04/review_math/check_readout.py": "454feac2e13f63b6bea5107eeabc7e91e268b300ec856543e5b984420865da75",
+    "udt_first_astronomical_comparison_2026-10-04/review_math/check_readout.stdout.json": "605805aab568335709bb1c97bedc373d36733052c1b0248ee778a38514a29066",
+    "udt_first_astronomical_comparison_2026-10-04/review_math/check_readout.stderr": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "udt_first_astronomical_comparison_2026-10-04/review_math/NUMERICAL_FREEZE.json": "e51547f30ae7117217b34bdcd0dbc6548fc8705fe275ce1e8ec433722056b01f",
+    "udt_first_astronomical_comparison_2026-10-04/review_math/REPAIRED_CHECK_FREEZE.json": "c4aadc00d5a652b2eb7f5347a498125cef76bc8926ecf4b7b070dadc5a837eaf",
+    "udt_first_astronomical_comparison_2026-10-04/review_math/EXECUTION_RECORD.json": "bde9015fa4c852568846f99d7dff4a2e16f1ba8e3e1b16d33694eea81f1b03d6",
+    "udt_first_astronomical_comparison_2026-10-04/review_math/PARENT_OUTPUT_COMPARISON.json": "86d9b05b8d6b7d4664578d2c8e99aa91a921109d88a897222717bbde20c89232",
+    "udt_first_astronomical_comparison_2026-10-04/review_math/DIRECT_REVIEW.md": "3540ab89ca336e11cf4dd06509c5e1a8d85bc9b134aad77b7c65efcc436f1fc5"
+  }
+}

@@ -1,0 +1,110 @@
+{
+  "all_pass": true,
+  "cases": [
+    {
+      "quantity": "Z",
+      "index": 0,
+      "absolute_error": "6.009875672055765993E-61",
+      "pass": true
+    },
+    {
+      "quantity": "Z",
+      "index": 1,
+      "absolute_error": "3.6752432911437685334E-60",
+      "pass": true
+    },
+    {
+      "quantity": "Z",
+      "index": 2,
+      "absolute_error": "2.0485258505068863340E-60",
+      "pass": true
+    },
+    {
+      "quantity": "Phi_summary",
+      "index": 0,
+      "absolute_error": "8.7510044766198682269E-62",
+      "pass": true
+    },
+    {
+      "quantity": "Phi_summary",
+      "index": 1,
+      "absolute_error": "2.1897859136226693870E-62",
+      "pass": true
+    },
+    {
+      "quantity": "Phi_summary",
+      "index": 2,
+      "absolute_error": "5.1006615020122586939E-62",
+      "pass": true
+    },
+    {
+      "quantity": "chi_summary",
+      "index": 0,
+      "absolute_error": "6.3357941724854732019E-62",
+      "pass": true
+    },
+    {
+      "quantity": "chi_summary",
+      "index": 1,
+      "absolute_error": "2.2232074861291188093E-62",
+      "pass": true
+    },
+    {
+      "quantity": "chi_summary",
+      "index": 2,
+      "absolute_error": "1.02872702354463613866E-61",
+      "pass": true
+    },
+    {
+      "quantity": "D",
+      "index": 0,
+      "absolute_error": "0.0",
+      "pass": true
+    },
+    {
+      "quantity": "D",
+      "index": 1,
+      "absolute_error": "0.0",
+      "pass": true
+    },
+    {
+      "quantity": "D",
+      "index": 2,
+      "absolute_error": "0.0",
+      "pass": true
+    },
+    {
+      "quantity": "area",
+      "index": 0,
+      "absolute_error": "0.00",
+      "pass": true
+    },
+    {
+      "quantity": "area",
+      "index": 1,
+      "absolute_error": "0.00",
+      "pass": true
+    },
+    {
+      "quantity": "area",
+      "index": 2,
+      "absolute_error": "0.00",
+      "pass": true
+    },
+    {
+      "quantity": "distance_Mpc",
+      "expected": "1.5",
+      "pass": true
+    },
+    {
+      "quantity": "systemic_optical_velocity_km_s",
+      "expected": "1.7",
+      "pass": true
+    }
+  ],
+  "count": 17,
+  "maximum_absolute_error": "3.6752432911437685334E-60",
+  "interpretation": "Pre-repair independent output keys phi_clock/chi_clock are arithmetic names only; repaired interpretation is transformed systemic summary until reference-clock/branch bridge exists. No implicit physical identification.",
+  "parent_code_read": false,
+  "scope": "Saved numerical values only; parent analytic/numerical methodology not replayed here."
+}

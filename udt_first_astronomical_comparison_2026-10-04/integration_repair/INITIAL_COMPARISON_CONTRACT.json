@@ -1,0 +1,49 @@
+{
+  "id": "ACP1_CGCG074064",
+  "object": "CGCG 074-064 maser disk as observed from Earth",
+  "status": "CONDITIONAL_FORWARD_COMPARISON_NOT_SELECTED_METRIC",
+  "geometry_inputs": [
+    "one regular time-oriented Lorentz metric g with stated units and domain",
+    "regular maser-source and actual receiver proper-clock histories",
+    "receiver astrometric tetrad and calibration/frame reduction",
+    "actual null incidence branches and their source/receiver event correspondence",
+    "source transition history and feature association",
+    "actual observing-window/channel/estimator reduction"
+  ],
+  "forward_outputs": {
+    "sky_direction": "-g(k_o,E_a)/omega_o",
+    "clock_ratio": "Z_j=omega_e/omega_o=d tau_o/d tau_e",
+    "optical_velocity": "c_E*(Z_j/alpha_j-1)",
+    "instantaneous_optical_slope": "c_E*(Z_j_prime/(alpha_j*Z_j)-alpha_j_prime/alpha_j^2), primes at emitter proper time",
+    "finite_slope": "apply declared finite monitoring/channel estimator to predicted histories",
+    "linear_angular_map": "J=-omega_o*B_eo in fixed screens, B reverse block with same future-affine k",
+    "geometric_area_distance_squared": "abs(det J)"
+  },
+  "observation_interface": {
+    "primary": "MCP XI spot positions, optical barycentric channels and measured spectral slopes",
+    "acceleration_mask": "flag=1 only; flag=0 is modeled",
+    "likelihood": "MCP XI B17-B24 conditional baseline, including positive error floors and normalization; no posterior fit performed",
+    "source_dynamics": "Conventional disk/Kepler/Schwarzschild readout only if consistently realized or controlled in candidate g",
+    "full_table_retrieved": false,
+    "full_estimator_replayed": false,
+    "joint_posterior_recovered": false
+  },
+  "summary_interface": {
+    "source": "MCP XIII Table1 CGCG row; same underlying source as XI",
+    "D_stat_marginal_Mpc": [80.4, 87.6, 95.5],
+    "vopt_CMB_stat_summary_km_s": [7170.3, 7172.2, 7174.1],
+    "XI_model_choice_systematics_separate": {"D_Mpc": 1.5, "vopt_km_s": 1.7},
+    "portability": "Requires source-compatible scalar-map reduction or justified refit; determinant alone is insufficient",
+    "joint_confidence_or_likelihood": "NOT_RECONSTRUCTED",
+    "summary_to_actual_clock_leg": "OPEN until regular reference history, null branch and source-reduction realization supplied",
+    "summary_plus_same_spot_likelihood": "FORBIDDEN_DOUBLE_COUNTING"
+  },
+  "native_admission": {
+    "selected_metric": false,
+    "independent_redshift_distance_profile": false,
+    "native_event_path_to_depth": "OPEN",
+    "metric_field_equation": "NOT_ADOPTED",
+    "whole_postulate_insufficiency": "NOT_ESTABLISHED"
+  },
+  "decision": "Check a supplied candidate's full forward predictions with an explicitly justified source/statistical model. Existing exposed summaries yield descriptive marginal restrictions only. No UDT fit, rejection or confirmation has been performed."
+}

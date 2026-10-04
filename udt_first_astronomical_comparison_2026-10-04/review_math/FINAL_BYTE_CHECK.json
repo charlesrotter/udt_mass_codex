@@ -1,0 +1,31 @@
+{
+  "utc": "2026-10-04T21:31:49.856962+00:00",
+  "integration_freeze_sha256": "cc28a55a3404761065d1380e5fd657ab061a96c0dfdc103d6910c09be7d43883",
+  "head": "7fc10f933236880dc6e0c842e0dc31d3da834aa0",
+  "branch": "grok",
+  "paths_hashed": 14004,
+  "mismatches": [],
+  "protected_payloads_hashed": false,
+  "outside_root_payloads_hashed": false,
+  "central_insertion_exact": true,
+  "program_orientation_exact": true,
+  "ACP1_proof_edges": [
+    "R6",
+    "R7",
+    "R13"
+  ],
+  "ACP1_hypothesis_edges": [
+    "C_ACP_QUERY",
+    "C_ACP_SOURCE"
+  ],
+  "ACP1_open_boundary": "O_ACP_REALIZATION",
+  "changed_inherited": [
+    "CURRENT_RESEARCH_PROGRAM.md",
+    "HANDOFF.md",
+    "LIVE.md",
+    "UDT_DEVELOPMENT.md",
+    "development_reconstruction_2026-09-29/DEVELOPMENT_GRAPH.json",
+    "development_reconstruction_2026-09-29/RECENT_DISPOSITIONS.tsv"
+  ],
+  "scope": "Full-map byte correspondence and scoped ACP1 semantic/integration review, not inherited-corpus reproof"
+}
