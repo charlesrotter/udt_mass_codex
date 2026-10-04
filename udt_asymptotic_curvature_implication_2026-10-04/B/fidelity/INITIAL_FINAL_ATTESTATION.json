@@ -1,24 +1,11 @@
 {
-  "status": "REVIEWED_WITH_LIMITS",
-  "utc": "2026-10-04T17:10:38.576177+00:00",
-  "scope": "ACI1 native physical assignment remains UNCLOSED; conditional finite Lorentz4 curvature bound for declared actual null clocks, reference paths and fixed-endpoint sweeps, with bounded preparation/accumulated acceleration for asymptotic exclusion. Sharp supplied scalar-zero regular controls; no RG or native field/population/scale adoption. Original candidate, early-reviewer-outline parent exposure and both normal-form failures preserved.",
-  "independence": "Two fresh source-first/exposed/final contexts independently reconstructed and hand-checked finite transport, incidence, curvature and integrals after old source/verdict exposure. Parent heard unsolicited math outline before file freeze; no independent pre-review parent discovery claim. Supplement credits fidelity idea. One parent program passed51 symbolic assertions after2 normalizer failures; consistency assertions not independent confirmations. No reviewer scientific CPU, different-model, human, formal, independent-code or empirical review.",
-  "freeze": "udt_asymptotic_curvature_implication_2026-10-04/INTEGRATION_FREEZE.json",
-  "freeze_sha256": "99a1eebb2e752c4f7f8d280547b9fcc57447de7d740c36a0fc29f0174cde8e8d",
-  "prior_review_record": "udt_asymptotic_curvature_implication_2026-10-04/PRIOR_REVIEW_RECORD.json",
-  "prior_review_record_sha256": "b2e5eae448a170f0e7aa47c150a38aa723edd9e505a1cd7442d060b3c2381968",
-  "reviewers": [
-    {
-      "context": "/root/aci_math",
-      "attestation": "udt_asymptotic_curvature_implication_2026-10-04/B/math/FINAL_ATTESTATION.json",
-      "sha256": "5b9a0e06cf6b5677a90a8e5c56150b7e01cb4e738d5e530d8adcf6404aaa34b4"
-    },
-    {
-      "context": "/root/aci_fidelity",
-      "attestation": "udt_asymptotic_curvature_implication_2026-10-04/B/fidelity/FINAL_ATTESTATION.json",
-      "sha256": "641bd3623143d8ad7b2b721851570994008474c8826861b661ed51bcf56b1756"
-    }
-  ],
+  "context": "/root/aci_fidelity",
+  "verdict": "ACCEPT_WITH_LIMITS",
+  "utc": "2026-10-04T17:04:30.299005+00:00",
+  "report_path": "udt_asymptotic_curvature_implication_2026-10-04/B/fidelity/FINAL_REVIEW.md",
+  "report_sha256": "a131886dcdb76fd36f0f5db1b3aa896833e71ac61c9a04b173255d1ec7455bb0",
+  "freeze_path": "udt_asymptotic_curvature_implication_2026-10-04/INTEGRATION_FREEZE.json",
+  "freeze_sha256": "d4c301c984e08a0eb1798740f668a96c5e28e9cb4455cf9502523c42761a01de",
   "accepted_sha256": {
     ".gitignore": "8a2710f5923ba86b41a461e040282ecd520ce155cb17b09458e1d1d613ddeb7a",
     "AGENTS.md": "bcab9b67305e0314af9eaf25162d203660eae8f2ff4fd87d17e83588970ef38d",
@@ -29,10 +16,10 @@
     "INDEX.md": "79be0981180b3a241fb0be15697d731884218796dc36fde4cd6fce08ab55e8a1",
     "LIVE.md": "fe75790ea5506b66fdf3536b255ee4f495aa506efb0fc3611d1454ab2d5d0f40",
     "MEMORY.md": "9cef036ad44244dd4dbb2951c08a544dddea5dc24bb33571906c7061e03c5761",
-    "UDT_DEVELOPMENT.md": "ebcacb5e4de6691d06fa5b8241cc561ee1874d417b95742baf366c773de29847",
+    "UDT_DEVELOPMENT.md": "7dfadd3e3e0d61c802f9103622e93e181bce533fb686ecc1f1f27d9a7f30af23",
     "UDT_RESEARCH_ROADMAP.md": "7511d5d68216399a2912c9339bb83b6453092104981ec472bf4e7582f8b469f0",
     "development_reconstruction_2026-09-29/CLAIM_DISPOSITIONS.tsv": "a14be5dbdc27fe6a232302f75d8116fdf6b8e546dd9ca250f6be792c9fae818d",
-    "development_reconstruction_2026-09-29/DEVELOPMENT_GRAPH.json": "ad11161f1cd630c5d4ad1c3ccda4570f4fee6884efa446ec4d46b741f4c30b3b",
+    "development_reconstruction_2026-09-29/DEVELOPMENT_GRAPH.json": "cf8595d6fba282ac7431954511182f9503d7db0e659a235b4dda1441f1d3a432",
     "development_reconstruction_2026-09-29/FULL_REPAIR.md": "820441708b9607181c2c84b2df31b88ebdd4084b4a56c371706ea1ae93959bf8",
     "development_reconstruction_2026-09-29/HISTORICAL_EVIDENCE_INDEX.md": "7c1614619e94b35004ce0893e558ab7808d026aa012e00c69658bca70aa0e7a9",
     "development_reconstruction_2026-09-29/INTEGRATION_GUARD_CHANGE.md": "bb4dbfe3c32cb5f2e38e378237003efa6ee286340cae4d56a96b84058e7b3adc",
@@ -56,9 +43,6 @@
     "udt_asymptotic_curvature_implication_2026-10-04/B/fidelity/EXPOSED_REVIEW.md": "bfe08011b246a1a15754d29a227bfe8f5d07f504de1f2eb53c66a1ce9722a652",
     "udt_asymptotic_curvature_implication_2026-10-04/B/fidelity/EXPOSED_SEAL.json": "d18af55585dd2e92c52be0791fa5da8f5053ddb7ef2f4b3bce51b20a0107c9eb",
     "udt_asymptotic_curvature_implication_2026-10-04/B/fidelity/EXPOSED_SOURCES.json": "7ae0f586e2273a73a679bd28568dcd671872268fc1d1c7ece66d1dcb99e79301",
-    "udt_asymptotic_curvature_implication_2026-10-04/B/fidelity/FINAL_CORRESPONDENCE.json": "64b1bdd9fb4ceb2ec11a974f7a48a6a8800385c40a25bbdd04c12b31a3c90215",
-    "udt_asymptotic_curvature_implication_2026-10-04/B/fidelity/INITIAL_FINAL_ATTESTATION.json": "b8a41d9661560465f6ba71d55f8140836fc79ccf4b6cf032391ca4558db1da5e",
-    "udt_asymptotic_curvature_implication_2026-10-04/B/fidelity/INITIAL_FINAL_REVIEW.md": "a131886dcdb76fd36f0f5db1b3aa896833e71ac61c9a04b173255d1ec7455bb0",
     "udt_asymptotic_curvature_implication_2026-10-04/B/fidelity/SOURCE_FIRST_REVIEW.md": "5286846cf2ecef1dca04327bafae4773a9f47bea0dbd955ac8f8e89f63ff7516",
     "udt_asymptotic_curvature_implication_2026-10-04/B/fidelity/SOURCE_FIRST_SEAL.json": "dc6c98e83356a63c148ef518968d203b8eae03a69c24929f8fdfb52ac4a3d26e",
     "udt_asymptotic_curvature_implication_2026-10-04/B/fidelity/SOURCE_VERSIONS.json": "9afc34ac59cdaf9ae00240a655685c904b159bde03f88e1a7822c0a4f8be7a75",
@@ -73,7 +57,7 @@
     "udt_asymptotic_curvature_implication_2026-10-04/B/math/SOURCE_PINS.json": "6a16d0c7bb694a21912c6e331f3181604b4563d0d211afa50d0f4d2437384144",
     "udt_asymptotic_curvature_implication_2026-10-04/BASELINE.json": "206852aaf65d5af03c96ca36950a29b9615f3d73db4e469da14ae483fd6c97d3",
     "udt_asymptotic_curvature_implication_2026-10-04/CANDIDATE_FREEZE.json": "f5b09829615e1a630e886e1f6677bc0b224bd32ca21fb0f29f9def92ab7f4552",
-    "udt_asymptotic_curvature_implication_2026-10-04/CENTRAL_INSERT.md": "79e404e46402f04f4aba5489592ec1fdac7bc61ae76e16854a8ddf9981ec9c5e",
+    "udt_asymptotic_curvature_implication_2026-10-04/CENTRAL_INSERT.md": "d5ef05e0c5e3d2b268bf1211dd413d736c7845509ce627613423a1662c372045",
     "udt_asymptotic_curvature_implication_2026-10-04/CONTROL_FINAL_FREEZE.json": "8413c409950960bdce4914a6f1600b40ea37b9f6c30bd4e134049a8349c544bc",
     "udt_asymptotic_curvature_implication_2026-10-04/CONTROL_FREEZE.json": "9663890998ea8fe431819e58e35556fb87516a6331a089d40b4fd28e9efe47c1",
     "udt_asymptotic_curvature_implication_2026-10-04/CONTROL_REPAIR.md": "6c7588f6c8544fbe4d85ab2014e723b228da8573442aaffd75d0b679e423bfda",
@@ -93,9 +77,6 @@
     "udt_asymptotic_curvature_implication_2026-10-04/checks/draft_coherence.json": "b191f6344df0d020e69d6608395148e679ec8562b795e275d055727c5218e086",
     "udt_asymptotic_curvature_implication_2026-10-04/checks/draft_coherence.stderr": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
     "udt_asymptotic_curvature_implication_2026-10-04/checks/draft_coherence.stdout": "d0fe38ba48a8d25bc7a2e42ef2274bb533da65f69de74df7073a58f63e4a8132",
-    "udt_asymptotic_curvature_implication_2026-10-04/checks/draft_coherence_repair.json": "ba7ae6b894e678216ae1e46568835695559ff444f0381667962df196a5c1ba98",
-    "udt_asymptotic_curvature_implication_2026-10-04/checks/draft_coherence_repair.stderr": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-    "udt_asymptotic_curvature_implication_2026-10-04/checks/draft_coherence_repair.stdout": "d0fe38ba48a8d25bc7a2e42ef2274bb533da65f69de74df7073a58f63e4a8132",
     "udt_asymptotic_curvature_implication_2026-10-04/checks/exact_controls.json": "d4d1f5022cab920132f850a5e6109cbed1537779088960ddae780e58900916c7",
     "udt_asymptotic_curvature_implication_2026-10-04/checks/exact_controls.stderr": "4f9c659d8f6ade60fe06a507190e52502bbc020534c27a3d5a8254344ffda185",
     "udt_asymptotic_curvature_implication_2026-10-04/checks/exact_controls.stdout": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
@@ -110,11 +91,6 @@
     "udt_asymptotic_curvature_implication_2026-10-04/checks/final_maintenance.stdout": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
     "udt_asymptotic_curvature_implication_2026-10-04/close_checkpoint.py": "b714304e7515bf297708888029ec4eb675f8f9d6d950cebb7f285406a31a0642",
     "udt_asymptotic_curvature_implication_2026-10-04/integrate_development.py": "982f54eac95820e1a34d231d5570ab3fce4d89c967ae30a98249360fc5a154ab",
-    "udt_asymptotic_curvature_implication_2026-10-04/integration_repair/BEFORE/CENTRAL_INSERT.md": "d5ef05e0c5e3d2b268bf1211dd413d736c7845509ce627613423a1662c372045",
-    "udt_asymptotic_curvature_implication_2026-10-04/integration_repair/BEFORE/DEVELOPMENT_GRAPH.json": "cf8595d6fba282ac7431954511182f9503d7db0e659a235b4dda1441f1d3a432",
-    "udt_asymptotic_curvature_implication_2026-10-04/integration_repair/BEFORE/UDT_DEVELOPMENT.md": "7dfadd3e3e0d61c802f9103622e93e181bce533fb686ecc1f1f27d9a7f30af23",
-    "udt_asymptotic_curvature_implication_2026-10-04/integration_repair/INITIAL_INTEGRATION_FREEZE.json": "d4c301c984e08a0eb1798740f668a96c5e28e9cb4455cf9502523c42761a01de",
-    "udt_asymptotic_curvature_implication_2026-10-04/integration_repair/REPAIR_RECORD.md": "66487c585dc37e83035264c7633fe2f1e2ba3d2e24bf8ad7f45df0b1acc0d211",
     "udt_asymptotic_curvature_implication_2026-10-04/run_controls_final.py": "61d7778245904817f0839dad09a494e38982c99785447799e95d15b90f097d66",
     "udt_asymptotic_curvature_implication_2026-10-04/run_controls_repaired.py": "91d0edd9bc0a2c053a014b2899203665008a36f153233355abff35cc80d37472",
     "udt_clock_ensemble_stationarity_test_2026-09-30/CANDIDATE_FREEZE.json": "31779c695ffbe0407825e91c4a5935904a576072d57ce848ef11a8b05248f813",
@@ -13576,5 +13552,15 @@
     "udt_time_live_smoke_gate_2026-09-30/smoke_runner.py": "724bf5405dd9596bff343a0a6967393d26a0a0c7529124e9a0bfdd70e569d52f",
     "verify_current_scientific_premises.py": "a983c2456ce3a122629a116c735b32b96e055829ed3012fb416fabfa9b0b8127",
     "verify_udt_development.py": "555e2733fa04c609874802369983f73b4a1d8a79610488d9dc732b1acfb0c2fa"
-  }
+  },
+  "scope": "Conditional finite curvature theorem/controls and reviewed integration; native physical assignment UNCLOSED; no scientific promotion; normal/full406 and banking remain subsequent gates",
+  "independence": "Fresh source-first then exposed/final inherited-model context; exact model revision unexposed; no sibling argument content read; no reviewer scientific program; parent early math-outline exposure disclosed",
+  "correspondence_path": "udt_asymptotic_curvature_implication_2026-10-04/B/fidelity/FINAL_CORRESPONDENCE.json",
+  "correspondence_sha256": "64b1bdd9fb4ceb2ec11a974f7a48a6a8800385c40a25bbdd04c12b31a3c90215",
+  "omissions": [
+    "No full-corpus scientific reproof",
+    "No independent execution of parent controls or capture process monitoring",
+    "No normal/full406 run by reviewer",
+    "No physical adoption, empirical verification, different-model or human review"
+  ]
 }

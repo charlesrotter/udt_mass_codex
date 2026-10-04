@@ -1,0 +1,26 @@
+{
+  "utc": "2026-10-04T16:54:25.578535+00:00",
+  "verdict": "VERIFIED-WITH-CAVEATS conditional mathematics; native physical assignment OPEN; no required scientific repair",
+  "reviewer": "/root/aci_math",
+  "sibling_report_read": false,
+  "reviewer_scientific_CPU_controls": 0,
+  "exposure_limit": "Parent saw reviewer route before its candidate file freeze; no parent independently frozen discovery claim; see EXPOSURE.json",
+  "files": {
+    "EXPOSED_REVIEW.md": {
+      "size": 15986,
+      "sha256": "38607332c9e4f2d9cb58a18332651599c5b23b414211a745929fae6bbe9243e6"
+    },
+    "EXPOSED_INPUT_PINS.json": {
+      "size": 4694,
+      "sha256": "c4309162a6746467cecc9eb47a92883c2651d022be9c4d6e232c5d69f6f32cf5"
+    },
+    "CONTROL_ARTIFACT_CHECK.json": {
+      "size": 2273,
+      "sha256": "f045eb0705ef2d0a4029d566cd94cb1baaa1cf2f2a775ee555df113653948ece"
+    },
+    "EXPOSED_REVIEW_DRAFT.md": {
+      "size": 9507,
+      "sha256": "2135e8f779e3659a81118ff469e12c70009b5933f3860bbe342390f36ed820f1"
+    }
+  }
+}

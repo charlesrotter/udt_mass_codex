@@ -1,0 +1,9 @@
+{
+  "utc": "2026-10-04T16:50:23.264883+00:00",
+  "sources_sha256": {
+    "udt_asymptotic_curvature_implication_2026-10-04/run_controls_repaired.py": "91d0edd9bc0a2c053a014b2899203665008a36f153233355abff35cc80d37472",
+    "udt_asymptotic_curvature_implication_2026-10-04/CONTROL_REPAIR.md": "6c7588f6c8544fbe4d85ab2014e723b228da8573442aaffd75d0b679e423bfda",
+    "udt_asymptotic_curvature_implication_2026-10-04/check_controls.py": "4db3dadcc9f8162677359b6f7a8e3fa02d04bbb0dd1dccc7b592cd3b71780582"
+  },
+  "scope": "Exact symbolic normal-form repair only; original failure and source unchanged."
+}

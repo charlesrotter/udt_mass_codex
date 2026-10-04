@@ -1,0 +1,23 @@
+{
+  "context": "/root/aci_fidelity",
+  "utc": "2026-10-04T17:08:33.503446+00:00",
+  "freeze_sha256": "99a1eebb2e752c4f7f8d280547b9fcc57447de7d740c36a0fc29f0174cde8e8d",
+  "accepted_paths": 13556,
+  "full_lexical_resolved_preflight_before_payload_hash": "PASS",
+  "hash_mismatches": [],
+  "hash_duration_seconds": 1.1308860499411821,
+  "prior_map_paths": 13545,
+  "added_paths": 11,
+  "changed_from_initial_freeze": [
+    "UDT_DEVELOPMENT.md",
+    "development_reconstruction_2026-09-29/DEVELOPMENT_GRAPH.json",
+    "udt_asymptotic_curvature_implication_2026-10-04/CENTRAL_INSERT.md"
+  ],
+  "removed_paths": [],
+  "preserved_before_bytes_match_initial_freeze": true,
+  "initial_attestation_map_and_report_hash_match": true,
+  "initial_attestation_report_path_relocation_disclosed": true,
+  "repaired_draft_stream_hashes": "PASS",
+  "new_scientific_programs": 0,
+  "scope": "Full-map byte correspondence and documentary delta review, not source reproof"
+}

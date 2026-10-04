@@ -1,0 +1,19 @@
+{
+  "status": "ACCEPTED_MAP_BYTE_CORRESPONDENCE_PASS",
+  "freeze_sha256": "99a1eebb2e752c4f7f8d280547b9fcc57447de7d740c36a0fc29f0174cde8e8d",
+  "accepted_paths": 13556,
+  "inherited_paths": 13492,
+  "changed_inherited": [
+    "CURRENT_RESEARCH_PROGRAM.md",
+    "HANDOFF.md",
+    "LIVE.md",
+    "UDT_DEVELOPMENT.md",
+    "development_reconstruction_2026-09-29/DEVELOPMENT_GRAPH.json",
+    "development_reconstruction_2026-09-29/RECENT_DISPOSITIONS.tsv"
+  ],
+  "all_metadata_guarded_before_any_map_payload_hash": true,
+  "protected_resolved_prefix_hits": 0,
+  "map_bytes_hashed": 2272810194,
+  "hash_wall_seconds": 1.1286475658416748,
+  "scope": "Full accepted-map byte correspondence only; not scientific reproof or semantic reading of sibling/source payloads."
+}

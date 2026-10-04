@@ -1,0 +1,6 @@
+Traceback (most recent call last):
+  File "/home/udt-admin/udt_mass_codex/udt_asymptotic_curvature_implication_2026-10-04/check_controls.py", line 45, in <module>
+    zero(label+'.scalar_zero',scalar)
+  File "/home/udt-admin/udt_mass_codex/udt_asymptotic_curvature_implication_2026-10-04/check_controls.py", line 22, in zero
+    assert r==0,(name,r)
+AssertionError: ('cosh.scalar_zero', -H**2*(sinh(2*H*t)*tanh(H*t) - cosh(2*H*t) + 1)/(2*cosh(H*t)**2))

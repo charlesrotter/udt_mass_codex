@@ -1,0 +1,27 @@
+{
+  "utc": "2026-10-04T17:02:52.242292+00:00",
+  "context": "/root/aci_fidelity",
+  "freeze_sha256": "d4c301c984e08a0eb1798740f668a96c5e28e9cb4455cf9502523c42761a01de",
+  "accepted_paths": 13545,
+  "inherited_paths": 13492,
+  "new_paths": 53,
+  "changed_inherited": [
+    "CURRENT_RESEARCH_PROGRAM.md",
+    "HANDOFF.md",
+    "LIVE.md",
+    "UDT_DEVELOPMENT.md",
+    "development_reconstruction_2026-09-29/DEVELOPMENT_GRAPH.json",
+    "development_reconstruction_2026-09-29/RECENT_DISPOSITIONS.tsv"
+  ],
+  "all_path_lexical_and_resolved_protected_preflight": "PASS_BEFORE_ANY_ACCEPTED_PAYLOAD_HASH",
+  "accepted_hash_mismatches": [],
+  "bytes_hashed": 2267373427,
+  "hash_duration_seconds": 1.1366594090359285,
+  "engine_hash": "d6b0fec3f680fda86c7a223750dd7b6bc6833112441039cfa28f32a5dc8f49c9",
+  "adapter_unique_replacements": 5,
+  "adapter_not_executed": true,
+  "central_insert_exact_substring": true,
+  "generated_orientation_exact": true,
+  "draft_and_maintenance_stream_hashes": "PASS",
+  "scope": "Byte correspondence and bounded routing/closure inspection, not all-source reproof or scientific program"
+}

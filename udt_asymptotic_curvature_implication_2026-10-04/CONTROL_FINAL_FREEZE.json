@@ -1,0 +1,9 @@
+{
+  "utc": "2026-10-04T16:51:38.565630+00:00",
+  "sources_sha256": {
+    "udt_asymptotic_curvature_implication_2026-10-04/run_controls_final.py": "61d7778245904817f0839dad09a494e38982c99785447799e95d15b90f097d66",
+    "udt_asymptotic_curvature_implication_2026-10-04/CONTROL_REPAIR_FOLLOWUP.md": "54b9503b475108207d3c2013949b57a9a20e841b6c545a90c2c34f2eedac7d1e",
+    "udt_asymptotic_curvature_implication_2026-10-04/check_controls.py": "4db3dadcc9f8162677359b6f7a8e3fa02d04bbb0dd1dccc7b592cd3b71780582"
+  },
+  "scope": "Final exact normal form within same bounded control repair round; both failures preserved."
+}

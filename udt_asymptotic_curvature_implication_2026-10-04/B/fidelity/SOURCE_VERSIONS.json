@@ -1,0 +1,122 @@
+{
+  "reviewer": "/root/aci_fidelity",
+  "stage": "source-first, no parent new candidate or sibling argument exposed",
+  "utc": "2026-10-04T16:43:02.197672+00:00",
+  "head": "dfe6ba373f8a7ecf1c55a3b58d8fd727976362e6",
+  "branch": "grok",
+  "model": "Same inherited Codex/GPT-6 context; precise model/revision not exposed; no different-model claim",
+  "python": "3.10.12 (main, Aug 31 2026, 10:18:17) [GCC 11.4.0]",
+  "protected_prefix_guard": "all allowlisted source paths resolved and checked before byte hashing; protected names exposed only through git status/method instructions, no payload read",
+  "sources": [
+    {
+      "path": "AGENTS.md",
+      "bytes": 16777,
+      "sha256": "bcab9b67305e0314af9eaf25162d203660eae8f2ff4fd87d17e83588970ef38d"
+    },
+    {
+      "path": "CLAUDE.md",
+      "bytes": 10370,
+      "sha256": "4ad2e773defb89cc79541fd0ababd75af5a3344ab134ee83722dfd943966e6e4"
+    },
+    {
+      "path": "CROSS_MODEL_VERIFY.md",
+      "bytes": 2632,
+      "sha256": "2b0509d933d731fbf3f72aa88777a54d3e48a94d4bae3d324087871777f9a007"
+    },
+    {
+      "path": ".claude/skills/no-shortcuts/SKILL.md",
+      "bytes": 2966,
+      "sha256": "fd3a1f3218481134f2af829d3ae4175ac53518f75bf9673287efbfb7d7708fc1"
+    },
+    {
+      "path": ".claude/skills/completeness-map/SKILL.md",
+      "bytes": 2490,
+      "sha256": "a8cf9e5f4a6d35a0d0ebfe4bc48dbf328ca74e318f020a6a22cb683666a611c0"
+    },
+    {
+      "path": ".claude/skills/verifier-before-record/SKILL.md",
+      "bytes": 3545,
+      "sha256": "9b3a4aacd4b4006b2b7f01edada73b7c87b99bea6e754583558713bfc145e5ac"
+    },
+    {
+      "path": "udt_asymptotic_curvature_implication_2026-10-04/WORK_ORDER.md",
+      "bytes": 5914,
+      "sha256": "f35396e3ad156128ab994dd02fa7b0e703d531cb244c48f0031d0fe0dd357b99"
+    },
+    {
+      "path": "UDT_DEVELOPMENT.md",
+      "bytes": 301339,
+      "sha256": "07b9ec663cdabac69a80f9e531c7ec8a06238c28498571316b597cf872db950a"
+    },
+    {
+      "path": "UDT_RESEARCH_ROADMAP.md",
+      "bytes": 18370,
+      "sha256": "7511d5d68216399a2912c9339bb83b6453092104981ec472bf4e7582f8b469f0"
+    },
+    {
+      "path": "CURRENT_SCIENTIFIC_PREMISES.tsv",
+      "bytes": 909534,
+      "sha256": "7a3d69d5a0bc3ac98e2ebe2bb0c6d029df30071bf403baffed2223a193dc720b"
+    },
+    {
+      "path": "founding.md",
+      "bytes": 41347,
+      "sha256": "b4b0d9a9fdd093c992647195aca7579566a9e77a396071a699c1938888a49e75"
+    },
+    {
+      "path": "development_reconstruction_2026-09-29/universal_law_clarification_2026-10-01/OWNER_CLARIFICATION.md",
+      "bytes": 2248,
+      "sha256": "69041b4a2033fd85ff65f113f07ea3ac6a6b06af9a0c07e26a775a33fb3f5a1c"
+    },
+    {
+      "path": "udt_repository_cleanup_2026-09-27/local_clock_impact_2026-09-29/OWNER_CONCERN.md",
+      "bytes": 1639,
+      "sha256": "6c1b0508f7ef8c9435cb57b3c586f02e603c76a0ac42b53897f6ae5b43477e71"
+    },
+    {
+      "path": "udt_repository_cleanup_2026-09-27/local_clock_impact_2026-09-29/OWNER_CLARIFICATION.md",
+      "bytes": 1658,
+      "sha256": "bf31a0682bed7060a0eea38035bfd87a0ab2c6bee41406882ae5a4abfc11471b"
+    },
+    {
+      "path": "udt_finite_separation_law_2026-09-28/INITIAL_CANDIDATE.md",
+      "bytes": 10261,
+      "sha256": "7dd39a4840390f15fcedc2ae0e588f51e441b4348eaf0f0f8d9b81968b60d8e4"
+    },
+    {
+      "path": "udt_finite_separation_law_2026-09-28/REPAIR.md",
+      "bytes": 1132,
+      "sha256": "be0927544e72bebd38a364cac33e0979aa8b4c4a1bdcdeba5dedf3e16e41e368"
+    },
+    {
+      "path": "udt_shared_geometry_extension_2026-09-29/INITIAL_DERIVATION.md",
+      "bytes": 13803,
+      "sha256": "7fe9dd385437f927504d90ebe27e70b8751e889efe9140c240a3ee1913aa0484"
+    },
+    {
+      "path": "udt_shared_geometry_extension_2026-09-29/REPAIR.md",
+      "bytes": 2058,
+      "sha256": "bb1118852acf2943128067568ddf7ca09cfd7cbe591bbdc8fa675a5b28fe1d60"
+    },
+    {
+      "path": "udt_shared_geometry_extension_2026-09-29/REVIEWED_RESULT.md",
+      "bytes": 1552,
+      "sha256": "318760918a414727a889c924186512cb1b9e46524c029cced9214b6b26c82e48"
+    },
+    {
+      "path": "udt_positional_selection_whiteboard_2026-10-01/INITIAL_CANDIDATE.md",
+      "bytes": 10258,
+      "sha256": "95ed91cca818cd6f1b7de819396f61ad2a24dc741f763334ed52e7bf769ad1b1"
+    },
+    {
+      "path": "udt_positional_selection_whiteboard_2026-10-01/REPAIR.md",
+      "bytes": 6062,
+      "sha256": "696a97a3b59c37a88a1044dae940df9a18414aabada55335f495217e4f226a97"
+    },
+    {
+      "path": "udt_positional_selection_whiteboard_2026-10-01/REVIEWED_RESULT.md",
+      "bytes": 2996,
+      "sha256": "1b217aa30932d3986557abb7e95f7d1e8a8196946e75091794b1ef06058e2911"
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "utc": "2026-10-04T16:55:09.031814+00:00",
+  "reviewer": "/root/aci_fidelity",
+  "stage": "EXPOSED_REVIEW_COMPLETE_NOT_FINAL_INTEGRATION",
+  "verdict": "VERIFIED_WITH_CAVEATS_CONDITIONAL_FINITE_THEOREM__NATIVE_PHYSICAL_ASSIGNMENT_UNCLOSED",
+  "scientific_programs_run_by_reviewer": 0,
+  "sibling_argument_read": false,
+  "artifacts": [
+    {
+      "path": "udt_asymptotic_curvature_implication_2026-10-04/B/fidelity/EXPOSED_REVIEW.md",
+      "sha256": "bfe08011b246a1a15754d29a227bfe8f5d07f504de1f2eb53c66a1ce9722a652"
+    },
+    {
+      "path": "udt_asymptotic_curvature_implication_2026-10-04/B/fidelity/EXPOSED_SOURCES.json",
+      "sha256": "7ae0f586e2273a73a679bd28568dcd671872268fc1d1c7ece66d1dcb99e79301"
+    }
+  ]
+}

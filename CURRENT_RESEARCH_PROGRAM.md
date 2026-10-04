@@ -5,7 +5,7 @@ This bounded startup view is generated from its opening; edit that source.
 LIVE.md owns operational status; CURRENT_SCIENTIFIC_PREMISES.tsv owns exact grades.
 
 <!-- GENERATED_DEVELOPMENT_BEGIN -->
-**Current development — CPA1 completion-branch progress audit reviewed,
+**Current development — ACI1 finite-curvature implication attempt reviewed,
 2026-10-04.** This is the sole maintained scientific argument. The exact registry
 and reviewed sources own grades; LIVE owns operational status. Review bindings
 are in section9. Historical results remain in the chapters below, not this startup view.
@@ -39,37 +39,43 @@ Finite null-patch results distinguish multiplicity-counted sheet area from
 geometric endpoint image-union; the latter requires global preimage identification.
 These geometric results do not identify physical light, brightness or carried content.
 
-**Current learning.** CPA1 audits FCL1/CCW1/PDA1 and their supplied completion
-class RG. It finds real conditional gains: a free-clock bound in nonuniform
-geometry, invariant clock/curvature relations and a conditional initial-distance
-asymptote with a bounded preparation counterexample. No load-bearing false or
-circular step was found at those stated scopes. Those gains remain available.
+**Current learning.** Charles directed retention of the completion results as
+tools and a search for an implication from an existing UDT commitment to a
+geometric restriction. ACI1 tests the working asymptotic slowing requirement
+without RG. The native physical assignment remains unclosed; a conditional
+finite curvature exclusion is obtained.
 
-The source chain introduces RG as an UNADOPTED trial; the later proofs do not
-derive its native admission. Its regular conformal endpoint supplies much of
-the asymptotic form. PDA's common collar, endpoint-map regularity and nonzero
-distance slope remain explicit conditions; bounded motion alone does not fix
-the distance exponent. Initial surface distance is not automatically a
-cosmological distance or X_max. A one-way endpoint does not ensure an echo.
+For specified actual clock comparisons admitting a regular fixed-endpoint
+path sweep, bounded initial relative motion and accumulated acceleration,
+unbounded received slowing requires an unbounded transported-curvature integral.
+The finite4D proof adds curvature control beyond the old endpoint-rapidity bound
+and small-loop expansion. The integral depends on the comparison/sweep and
+transported clock; it is not scalar curvature or a supplied bound for nature.
+Large integral alone predicts no redshift. The domain conditions matter.
 
-The metric/null/proper-clock proofs still hold without UDT-specific interpretive
-labels. This is a dependency check, not removal of positional spacetime or proof
-of empirical equivalence to GR. Shared mathematics is legitimate. These results
-alone do not select native geometry, identify an additional positional effect,
-fix scale or prove convergence on UDT field equations. The complete postulates
-are not proved insufficient, and no new premise is declared necessary.
+A supplied sharp control has free parallel-prepared clocks, divergent slowing,
+zero scalar curvature and regular local curvature, with reception proper time
+growing without bound. It excludes the earlier specific RG endpoint through
+CCW's necessary scalar limit. It is not a native-admitted UDT history or X_max.
+Flat initial-motion, acceleration and winding controls retain the theorem's
+kinematic and sweep limits.
 
-The recommendation is to retain the tools and redirect physical development
-toward a named UDT-to-geometry implication or concrete independent use. The
-bounded source-led admission lookup proposed by PDA is now complete; repeating
-it is not a new target. Generic RG-only extensions should not be presented as
-native-selection progress. No new selector or successor derivation was found.
+The unresolved physical step is attaching the additional positional requirement
+to the declared comparison family. Net redshift is not automatically positional
+attribution. No metric, response, sign, scale, population or new premise is
+selected, and no whole-postulate insufficiency is proved. CPA1's assessment
+survives: the completion results remain valid conditional tools, not native
+geometry selection. Repeating its source lookup or extending generic examples
+would not itself close this assignment.
 
-After orientation read R16CPA/R16PDA/R16CCW/R16FCL and R18. Two fresh source-first,
-exposed and final contexts checked the audit and independently recomputed its
-load-bearing algebra by hand. No new scientific program was needed. LIVE/HANDOFF
-own closure and the discussion stop; no physical adoption or new campaign begins
-automatically. Conditional modeling remains a separate explicit option.
+After orientation read R8ACI, R16CPA and R18. Two fresh reviewer contexts
+reconstructed and checked the finite argument and controls. Parent exposure to
+an early reviewer outline preceded its file freeze; independent pre-review
+parent discovery is not claimed. One parent control program passed51 symbolic
+assertions after two preserved exact-normalization failures; some assertions
+are consistency checks. Final attestations and required checks own closure.
+Stop for discussion of the physical assignment; no adoption or successor begins
+automatically. The founding positional interpretation remains the premise.
 <!-- GENERATED_DEVELOPMENT_END -->
 
 ## Current next gate

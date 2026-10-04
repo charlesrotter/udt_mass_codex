@@ -1,0 +1,21 @@
+{
+  "stage": "SOURCE_FIRST_FROZEN",
+  "utc": "2026-10-04T16:45:06.640754+00:00",
+  "reviewer": "/root/aci_fidelity",
+  "source_versions_still_match": true,
+  "new_candidate_exposure": false,
+  "sibling_argument_exposure": false,
+  "scientific_programs_run": 0,
+  "artifacts": [
+    {
+      "path": "udt_asymptotic_curvature_implication_2026-10-04/B/fidelity/SOURCE_FIRST_REVIEW.md",
+      "bytes": 14227,
+      "sha256": "5286846cf2ecef1dca04327bafae4773a9f47bea0dbd955ac8f8e89f63ff7516"
+    },
+    {
+      "path": "udt_asymptotic_curvature_implication_2026-10-04/B/fidelity/SOURCE_VERSIONS.json",
+      "bytes": 4634,
+      "sha256": "9afc34ac59cdaf9ae00240a655685c904b159bde03f88e1a7822c0a4f8be7a75"
+    }
+  ]
+}

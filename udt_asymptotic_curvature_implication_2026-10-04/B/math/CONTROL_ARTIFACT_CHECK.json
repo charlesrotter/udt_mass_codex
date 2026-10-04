@@ -1,0 +1,78 @@
+{
+  "kind": "byte/capture metadata checks only, not scientific computation",
+  "checks": [
+    {
+      "capture": "exact_controls",
+      "stream": "stdout",
+      "sha256_matches": true
+    },
+    {
+      "capture": "exact_controls",
+      "stream": "stderr",
+      "sha256_matches": true
+    },
+    {
+      "capture": "exact_controls_repaired",
+      "stream": "stdout",
+      "sha256_matches": true
+    },
+    {
+      "capture": "exact_controls_repaired",
+      "stream": "stderr",
+      "sha256_matches": true
+    },
+    {
+      "capture": "exact_controls_final",
+      "stream": "stdout",
+      "sha256_matches": true
+    },
+    {
+      "capture": "exact_controls_final",
+      "stream": "stderr",
+      "sha256_matches": true
+    },
+    {
+      "freeze": "CONTROL_FREEZE.json",
+      "source": "udt_asymptotic_curvature_implication_2026-10-04/check_controls.py",
+      "sha256_matches": true
+    },
+    {
+      "freeze": "CONTROL_FREEZE.json",
+      "source": "udt_asymptotic_curvature_implication_2026-10-04/CONTROL_SUPPLEMENT.md",
+      "sha256_matches": true
+    },
+    {
+      "freeze": "CONTROL_REPAIR_FREEZE.json",
+      "source": "udt_asymptotic_curvature_implication_2026-10-04/run_controls_repaired.py",
+      "sha256_matches": true
+    },
+    {
+      "freeze": "CONTROL_REPAIR_FREEZE.json",
+      "source": "udt_asymptotic_curvature_implication_2026-10-04/CONTROL_REPAIR.md",
+      "sha256_matches": true
+    },
+    {
+      "freeze": "CONTROL_REPAIR_FREEZE.json",
+      "source": "udt_asymptotic_curvature_implication_2026-10-04/check_controls.py",
+      "sha256_matches": true
+    },
+    {
+      "freeze": "CONTROL_FINAL_FREEZE.json",
+      "source": "udt_asymptotic_curvature_implication_2026-10-04/run_controls_final.py",
+      "sha256_matches": true
+    },
+    {
+      "freeze": "CONTROL_FINAL_FREEZE.json",
+      "source": "udt_asymptotic_curvature_implication_2026-10-04/CONTROL_REPAIR_FOLLOWUP.md",
+      "sha256_matches": true
+    },
+    {
+      "freeze": "CONTROL_FINAL_FREEZE.json",
+      "source": "udt_asymptotic_curvature_implication_2026-10-04/check_controls.py",
+      "sha256_matches": true
+    }
+  ],
+  "result_named_assertion_count": 51,
+  "reviewer_scientific_CPU_controls_used": 0,
+  "thread_environment_independently_verified": false
+}

@@ -1,0 +1,20 @@
+{
+  "seal_type": "source-first argument completion before parent/sibling candidate read",
+  "utc": "2026-10-04T16:45:38.241928+00:00",
+  "head": "dfe6ba373f8a7ecf1c55a3b58d8fd727976362e6",
+  "parent_preseal_exposure_defect": "See EXPOSURE.json; no parent-independent-pre-review-freeze claim",
+  "files": {
+    "SOURCE_FIRST_ARGUMENT.md": {
+      "size": 16158,
+      "sha256": "e440925ca607eefb929232bbf76b116af83a2f8c154458f9e88ebe1cdc8e0070"
+    },
+    "EXPOSURE.json": {
+      "size": 1285,
+      "sha256": "cdc6db8b405af79da6b2e57101cefd95148c1f332c9c6783f4ef5c213c57a3a9"
+    },
+    "SOURCE_PINS.json": {
+      "size": 2580,
+      "sha256": "6a16d0c7bb694a21912c6e331f3181604b4563d0d211afa50d0f4d2437384144"
+    }
+  }
+}

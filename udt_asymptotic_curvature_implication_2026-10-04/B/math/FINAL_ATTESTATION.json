@@ -1,24 +1,11 @@
 {
-  "status": "REVIEWED_WITH_LIMITS",
-  "utc": "2026-10-04T17:10:38.576177+00:00",
-  "scope": "ACI1 native physical assignment remains UNCLOSED; conditional finite Lorentz4 curvature bound for declared actual null clocks, reference paths and fixed-endpoint sweeps, with bounded preparation/accumulated acceleration for asymptotic exclusion. Sharp supplied scalar-zero regular controls; no RG or native field/population/scale adoption. Original candidate, early-reviewer-outline parent exposure and both normal-form failures preserved.",
-  "independence": "Two fresh source-first/exposed/final contexts independently reconstructed and hand-checked finite transport, incidence, curvature and integrals after old source/verdict exposure. Parent heard unsolicited math outline before file freeze; no independent pre-review parent discovery claim. Supplement credits fidelity idea. One parent program passed51 symbolic assertions after2 normalizer failures; consistency assertions not independent confirmations. No reviewer scientific CPU, different-model, human, formal, independent-code or empirical review.",
-  "freeze": "udt_asymptotic_curvature_implication_2026-10-04/INTEGRATION_FREEZE.json",
+  "context": "/root/aci_math",
+  "verdict": "ACCEPT_WITH_LIMITS",
+  "utc": "2026-10-04T17:10:09.045467+00:00",
+  "report_path": "udt_asymptotic_curvature_implication_2026-10-04/B/math/FINAL_REVIEW.md",
+  "report_sha256": "40bfd6a4bfc5f5cd4882f5500fff452bcb8ced42da062b6ebba028d714389966",
+  "freeze_path": "udt_asymptotic_curvature_implication_2026-10-04/INTEGRATION_FREEZE.json",
   "freeze_sha256": "99a1eebb2e752c4f7f8d280547b9fcc57447de7d740c36a0fc29f0174cde8e8d",
-  "prior_review_record": "udt_asymptotic_curvature_implication_2026-10-04/PRIOR_REVIEW_RECORD.json",
-  "prior_review_record_sha256": "b2e5eae448a170f0e7aa47c150a38aa723edd9e505a1cd7442d060b3c2381968",
-  "reviewers": [
-    {
-      "context": "/root/aci_math",
-      "attestation": "udt_asymptotic_curvature_implication_2026-10-04/B/math/FINAL_ATTESTATION.json",
-      "sha256": "5b9a0e06cf6b5677a90a8e5c56150b7e01cb4e738d5e530d8adcf6404aaa34b4"
-    },
-    {
-      "context": "/root/aci_fidelity",
-      "attestation": "udt_asymptotic_curvature_implication_2026-10-04/B/fidelity/FINAL_ATTESTATION.json",
-      "sha256": "641bd3623143d8ad7b2b721851570994008474c8826861b661ed51bcf56b1756"
-    }
-  ],
   "accepted_sha256": {
     ".gitignore": "8a2710f5923ba86b41a461e040282ecd520ce155cb17b09458e1d1d613ddeb7a",
     "AGENTS.md": "bcab9b67305e0314af9eaf25162d203660eae8f2ff4fd87d17e83588970ef38d",
@@ -13576,5 +13563,9 @@
     "udt_time_live_smoke_gate_2026-09-30/smoke_runner.py": "724bf5405dd9596bff343a0a6967393d26a0a0c7529124e9a0bfdd70e569d52f",
     "verify_current_scientific_premises.py": "a983c2456ce3a122629a116c735b32b96e055829ed3012fb416fabfa9b0b8127",
     "verify_udt_development.py": "555e2733fa04c609874802369983f73b4a1d8a79610488d9dc732b1acfb0c2fa"
-  }
+  },
+  "scope": "Repaired conditional finite-curvature integration; native physical assignment UNCLOSED; no promotion or final operational closure claim.",
+  "exposure": "Same actual source-first/exposed/final math context; old proofs exposed; parent received early math route before file freeze; shared controls hand-checked after exposure; no different-model or independent-code claim.",
+  "checks": "Guarded full13556-path SHA correspondence; six inherited changes; semantic central/descendant and documentary repair review; five unique static closure substitutions; inspected draft/repaired-draft/57maintenance receipts and streams.",
+  "omissions": "No new scientific program, all-source reproof, empirical/formal/human review; normal/full406 and banking remain later gates."
 }

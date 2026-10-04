@@ -6725,18 +6725,6 @@
         "C_ACI_SWEEP",
         "C_ACI_CONTROLLED"
       ]
-    },
-    {
-      "path": "udt_asymptotic_curvature_implication_2026-10-04/integration_repair/REPAIR_RECORD.md",
-      "sha256": "66487c585dc37e83035264c7633fe2f1e2ba3d2e24bf8ad7f45df0b1acc0d211",
-      "role": "review_evidence",
-      "targets": [
-        "R8ACI",
-        "R18",
-        "C_ACI_SWEEP",
-        "C_ACI_CONTROLLED",
-        "O_ACI_ASSIGNMENT"
-      ]
     }
   ]
 }

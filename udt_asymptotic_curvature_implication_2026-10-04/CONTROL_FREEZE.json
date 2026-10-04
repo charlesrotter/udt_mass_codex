@@ -1,0 +1,9 @@
+{
+  "utc": "2026-10-04T16:49:22.750051+00:00",
+  "scope": "Two supplied metric families plus flat controls, <=100 named exact assertions; no general theorem or physical selection certification.",
+  "sources_sha256": {
+    "udt_asymptotic_curvature_implication_2026-10-04/check_controls.py": "4db3dadcc9f8162677359b6f7a8e3fa02d04bbb0dd1dccc7b592cd3b71780582",
+    "udt_asymptotic_curvature_implication_2026-10-04/CONTROL_SUPPLEMENT.md": "f5b9072b51ba243a690af5904fdbd77573fa6efda2f65561a5ea5cd12a46f4c2"
+  },
+  "discovery": "Supplement after both source-first reports, using fidelity cosh control; parent candidate preserved."
+}

@@ -1,0 +1,24 @@
+{
+  "utc": "2026-10-04T16:44:56.859175+00:00",
+  "candidate_sha256": "aa57035504c19a42586d8266d863d7973d543b884872b6fd636d61e9f80e4859",
+  "sources_sha256": {
+    "AGENTS.md": "bcab9b67305e0314af9eaf25162d203660eae8f2ff4fd87d17e83588970ef38d",
+    "CLAUDE.md": "4ad2e773defb89cc79541fd0ababd75af5a3344ab134ee83722dfd943966e6e4",
+    "LIVE.md": "ac8f84393b10cb9e51a5c34b97db70b3c95a01bf6cda520e68257b60d8458d53",
+    "HANDOFF.md": "c84d7bee32161282ad3259c892df4e5ba1723fc03720b28f270d2114fbf611bf",
+    "CURRENT_RESEARCH_PROGRAM.md": "274c304db1ec7b1122b3919cf28746ce979c3cd5136ee46499a99c7f5de1c9ef",
+    "UDT_DEVELOPMENT.md": "07b9ec663cdabac69a80f9e531c7ec8a06238c28498571316b597cf872db950a",
+    "UDT_RESEARCH_ROADMAP.md": "7511d5d68216399a2912c9339bb83b6453092104981ec472bf4e7582f8b469f0",
+    "founding.md": "b4b0d9a9fdd093c992647195aca7579566a9e77a396071a699c1938888a49e75",
+    "udt_positional_geometry_clock_connection_2026-09-28/OWNER_STATEMENT.md": "6d51ac6e4525dec57f7a9d3f795568410052e20102d9971bca0a4275eef4bee7",
+    "udt_shared_geometry_extension_2026-09-29/OWNER_CLARIFICATION.md": "94480181e004a535e0dffd122545310c0aaedfb98d3734c5095c75bfe9ed3f50",
+    "udt_repository_cleanup_2026-09-27/local_clock_impact_2026-09-29/OWNER_CLARIFICATION.md": "bf31a0682bed7060a0eea38035bfd87a0ab2c6bee41406882ae5a4abfc11471b",
+    "udt_finite_separation_law_2026-09-28/REVIEWED_RESULT.md": "1a1770b84ba184e2411cf4dac30e694bffec46a762bba618c2edf0d1df8b8740",
+    "udt_positional_selection_whiteboard_2026-10-01/geometry/CROSS_REVIEW.md": "e7023ff2bd973faff33073a815748633b22ab2c109967a31c53df7cf6445592e",
+    "udt_completion_progress_audit_2026-10-04/REVIEWED_RESULT.md": "824ea101346b3c30161e2001f4a745501149c95245b9f233a3cb087cdb641154",
+    "udt_asymptotic_curvature_implication_2026-10-04/WORK_ORDER.md": "f35396e3ad156128ab994dd02fa7b0e703d531cb244c48f0031d0fe0dd357b99",
+    "udt_asymptotic_curvature_implication_2026-10-04/INITIAL_CANDIDATE.md": "aa57035504c19a42586d8266d863d7973d543b884872b6fd636d61e9f80e4859",
+    "udt_asymptotic_curvature_implication_2026-10-04/PRIMARY_METHOD_REFERENCE.md": "f6c6d716265777d987271a99954549887e59c57418b613e18c3d8783238d8f76"
+  },
+  "exposure": "Parent had read unsolicited math reviewer route outline before this freeze. Full new source-first reports and sibling arguments unread. No parent pre-review freeze or discovery independence claim."
+}

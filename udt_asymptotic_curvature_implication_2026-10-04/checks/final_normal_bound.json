@@ -1,0 +1,19 @@
+{
+  "command": [
+    "python3",
+    "verify_udt_development.py"
+  ],
+  "cwd": "/home/udt-admin/udt_mass_codex",
+  "started_utc": "2026-10-04T17:10:38.646014+00:00",
+  "duration_seconds": 1.666548368986696,
+  "returncode": 0,
+  "wall_timeout_seconds": null,
+  "cpu_timeout_seconds": null,
+  "address_space_bytes": 2147483648,
+  "memory_scope": "Process virtual address limit",
+  "maxrss_kib": 100420,
+  "forwarded_signals": [],
+  "stdout_sha256": "bc827fd4c9aa907dfa58b55a547a15d13ba56f5e4155c47a8c4f71cb0c7e08f1",
+  "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "capture_sha256": "217cdbac5486e8a531552f4d74a15ce641299b65dafb5d58f7b60f4ba51781bc"
+}

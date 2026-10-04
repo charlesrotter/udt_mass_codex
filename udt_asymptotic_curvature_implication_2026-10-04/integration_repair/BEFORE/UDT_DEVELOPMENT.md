@@ -925,9 +925,8 @@ Z=omega_e/omega_o and |log Z|<=rho(u,P_gamma^-1 v), where
 rho(a,b)=arcosh[-g(a,b)]. Let beta:p->q be a declared preparation/history path,
 and B=rho(P_beta u,v). Choose a fixed-endpoint smooth homotopy F(s,t) from
 gamma to beta, and write T=F_t,S=F_s,U(s,t)=P_s(t)u for actual transport along
-its t paths. Piecewise smooth strips require consistent seam matching. The
-theorem requires a qualifying sweep for the query; no general existence or
-physical meaning for its intermediate paths is asserted.
+its t paths. Piecewise smooth strips require consistent seam matching. Neither
+existence of the sweep nor physical meaning of its intermediate paths is assumed.
 
 Metricity makes R(T,S)U orthogonal to U. Its positive rest-space norm defines
 
@@ -4951,10 +4950,9 @@ and [descendant review](udt_completion_progress_audit_2026-10-04/DESCENDANT_REVI
 retain actual source ancestry, exposure and read/metadata errors. Final accepted-map
 attestations and normal/maintenance/full406 receipts own closure and banking.
 
-ACI1 uses two actual fresh source-first/exposed/final contexts. Their own
-source-first derivations and controls precede new-candidate exposure; the
-shared parent controls were checked by hand after exposure. Old proof/verdict
-exposure is disclosed. The intended parent-before-review
+ACI1 uses two actual fresh source-first/exposed/final contexts. Their finite
+transport derivations and hand control checks precede new-candidate exposure,
+with old proof/verdict exposure disclosed. The intended parent-before-review
 freeze order was breached by math's unsolicited pre-seal route outline; parent
 read it before its file freeze and claims no independent pre-review discovery.
 The supplement credits fidelity's cosh control idea. Both exposed reviews found

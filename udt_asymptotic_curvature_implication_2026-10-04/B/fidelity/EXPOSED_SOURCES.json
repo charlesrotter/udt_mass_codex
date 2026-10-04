@@ -1,0 +1,123 @@
+{
+  "utc": "2026-10-04T16:55:09.030705+00:00",
+  "reviewer": "/root/aci_fidelity",
+  "checks": {
+    "protected_prefix_guard": "PASS",
+    "candidate_and_supplement_expected_hash": "PASS",
+    "three_control_source_freezes": "PASS",
+    "six_capture_stream_hashes": "PASS",
+    "source_first_artifacts_unchanged": "PASS"
+  },
+  "sources": [
+    {
+      "path": "udt_asymptotic_curvature_implication_2026-10-04/INITIAL_CANDIDATE.md",
+      "bytes": 13170,
+      "sha256": "aa57035504c19a42586d8266d863d7973d543b884872b6fd636d61e9f80e4859"
+    },
+    {
+      "path": "udt_asymptotic_curvature_implication_2026-10-04/CONTROL_SUPPLEMENT.md",
+      "bytes": 2941,
+      "sha256": "f5b9072b51ba243a690af5904fdbd77573fa6efda2f65561a5ea5cd12a46f4c2"
+    },
+    {
+      "path": "udt_asymptotic_curvature_implication_2026-10-04/CONTROL_FREEZE.json",
+      "bytes": 628,
+      "sha256": "9663890998ea8fe431819e58e35556fb87516a6331a089d40b4fd28e9efe47c1"
+    },
+    {
+      "path": "udt_asymptotic_curvature_implication_2026-10-04/CONTROL_REPAIR.md",
+      "bytes": 1074,
+      "sha256": "6c7588f6c8544fbe4d85ab2014e723b228da8573442aaffd75d0b679e423bfda"
+    },
+    {
+      "path": "udt_asymptotic_curvature_implication_2026-10-04/CONTROL_REPAIR_FOLLOWUP.md",
+      "bytes": 1258,
+      "sha256": "54b9503b475108207d3c2013949b57a9a20e841b6c545a90c2c34f2eedac7d1e"
+    },
+    {
+      "path": "udt_asymptotic_curvature_implication_2026-10-04/CONTROL_REPAIR_FREEZE.json",
+      "bytes": 597,
+      "sha256": "ccae9cd17967544aada3b6b2638edd40e2ca876313fcc1b13530a64aba9679a9"
+    },
+    {
+      "path": "udt_asymptotic_curvature_implication_2026-10-04/CONTROL_FINAL_FREEZE.json",
+      "bytes": 615,
+      "sha256": "8413c409950960bdce4914a6f1600b40ea37b9f6c30bd4e134049a8349c544bc"
+    },
+    {
+      "path": "udt_asymptotic_curvature_implication_2026-10-04/check_controls.py",
+      "bytes": 5362,
+      "sha256": "4db3dadcc9f8162677359b6f7a8e3fa02d04bbb0dd1dccc7b592cd3b71780582"
+    },
+    {
+      "path": "udt_asymptotic_curvature_implication_2026-10-04/run_controls_repaired.py",
+      "bytes": 807,
+      "sha256": "91d0edd9bc0a2c053a014b2899203665008a36f153233355abff35cc80d37472"
+    },
+    {
+      "path": "udt_asymptotic_curvature_implication_2026-10-04/run_controls_final.py",
+      "bytes": 882,
+      "sha256": "61d7778245904817f0839dad09a494e38982c99785447799e95d15b90f097d66"
+    },
+    {
+      "path": "udt_asymptotic_curvature_implication_2026-10-04/EXACT_CONTROLS.json",
+      "bytes": 2666,
+      "sha256": "1cdb0311bf5f595fad45d1708808619da9735af8032f659cb919aca10a8f5ff0"
+    },
+    {
+      "path": "udt_asymptotic_curvature_implication_2026-10-04/checks/exact_controls.json",
+      "bytes": 730,
+      "sha256": "d4d1f5022cab920132f850a5e6109cbed1537779088960ddae780e58900916c7"
+    },
+    {
+      "path": "udt_asymptotic_curvature_implication_2026-10-04/checks/exact_controls.stdout",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "udt_asymptotic_curvature_implication_2026-10-04/checks/exact_controls.stderr",
+      "bytes": 453,
+      "sha256": "4f9c659d8f6ade60fe06a507190e52502bbc020534c27a3d5a8254344ffda185"
+    },
+    {
+      "path": "udt_asymptotic_curvature_implication_2026-10-04/checks/exact_controls_repaired.json",
+      "bytes": 737,
+      "sha256": "bbdeac84b2fed65050e93596e3a4dd5d10c9bc879205a2613c7301cbb4748fb6"
+    },
+    {
+      "path": "udt_asymptotic_curvature_implication_2026-10-04/checks/exact_controls_repaired.stdout",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "udt_asymptotic_curvature_implication_2026-10-04/checks/exact_controls_repaired.stderr",
+      "bytes": 626,
+      "sha256": "c375be423038f177687c78ac53f7699a3b4367d8c2af5472c952370d07c56899"
+    },
+    {
+      "path": "udt_asymptotic_curvature_implication_2026-10-04/checks/exact_controls_final.json",
+      "bytes": 734,
+      "sha256": "16434515bb1ee11f23cc58bd9eb20948454e278d4595799c8737376dff5a12de"
+    },
+    {
+      "path": "udt_asymptotic_curvature_implication_2026-10-04/checks/exact_controls_final.stdout",
+      "bytes": 117,
+      "sha256": "0c95bb2fc41c03c31a4d4064256a1b70efbfa16b8b2eb5fcd3ef30f7cb9dd9e7"
+    },
+    {
+      "path": "udt_asymptotic_curvature_implication_2026-10-04/checks/exact_controls_final.stderr",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "udt_completion_connection_whiteboard_2026-10-03/INITIAL_SYNTHESIS.md",
+      "bytes": 10966,
+      "sha256": "1b300a65b544cbf63dacfb5a8a449cd4d638694ef62a25bb7bf38271888dea69"
+    },
+    {
+      "path": "udt_completion_connection_whiteboard_2026-10-03/REVIEWED_RESULT.md",
+      "bytes": 4045,
+      "sha256": "1ee575402bbfb05eee04d3590c24538e2c67f04ba0613423832cc6c8aa62a6d0"
+    }
+  ]
+}
